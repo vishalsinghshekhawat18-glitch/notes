@@ -1,0 +1,21 @@
+{
+  "totalPages": 408,
+  "totalCharacters": 1024205,
+  "avgCharsPerPage": 2510,
+  "modalities": {
+    "pagesWithTables": 83,
+    "pagesWithDiagrams": 58,
+    "pagesWithPYQ": 387,
+    "pagesWithExamTags": 380,
+    "pagesWithMnemonics": 8,
+    "pagesWithLatinOrQuotes": 22
+  },
+  "qualityIssuesCount": 1,
+  "sampleIssues": [
+    {
+      "pageNum": 87,
+      "type": "QUALIFICATION_NEEDED",
+      "description": "Mentions Article 31C; requires verification against Minerva Mills (1980) and 2024 9-judge bench ruling."
+    }
+  ]
+}

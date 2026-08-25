@@ -1,0 +1,401 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// 1. DOMAIN
+model Domain {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  name        String
+  description String?
+  order       Int       @default(0)
+  status      String    @default("ACTIVE")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  subjects    Subject[]
+
+  @@index([slug])
+}
+
+// 2. SUBJECT
+model Subject {
+  id             String   @id @default(cuid())
+  domainId       String
+  domain         Domain   @relation(fields: [domainId], references: [id], onDelete: Cascade)
+  slug           String   @unique
+  name           String
+  description    String?
+  scopeStatement String
+  status         String   @default("DRAFT")
+  order          Int      @default(0)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  topics         Topic[]
+
+  @@index([domainId])
+  @@index([slug])
+}
+
+// 3. TOPIC
+model Topic {
+  id          String    @id @default(cuid())
+  subjectId   String
+  subject     Subject   @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  slug        String
+  title       String
+  description String?
+  scope       String?
+  order       Int       @default(0)
+  status      String    @default("DRAFT")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  concepts    Concept[]
+
+  @@unique([subjectId, slug])
+  @@index([subjectId])
+}
+
+// 4. CONCEPT (Supports recursive parent/child hierarchy)
+model Concept {
+  id                  String               @id @default(cuid())
+  topicId             String
+  topic               Topic                @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  parentId            String?
+  parent              Concept?             @relation("ConceptHierarchy", fields: [parentId], references: [id], onDelete: SetNull)
+  children            Concept[]            @relation("ConceptHierarchy")
+  slug                String
+  title               String
+  shortDefinition     String
+  difficulty          String               @default("BEGINNER")
+  status              String               @default("DRAFT")
+  order               Int                  @default(0)
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+  claims              Claim[]
+  contentBlocks       ContentBlock[]
+  examMappings        ExamConceptMapping[]
+  revisionUnits       RevisionUnit[]
+  questions           Question[]
+  outgoingConnections Connection[]         @relation("SourceConcept")
+  incomingConnections Connection[]         @relation("TargetConcept")
+  knowledgeIssues     KnowledgeIssue[]
+
+  @@unique([topicId, slug])
+  @@index([topicId])
+  @@index([parentId])
+}
+
+// 5. CLAIM
+model Claim {
+  id              String           @id @default(cuid())
+  conceptId       String
+  concept         Concept          @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  statement       String
+  claimType       String           @default("FACT")
+  epistemicLevel  String           @default("CANONICAL_CLAIM") // SOURCE_STATEMENT, CANONICAL_CLAIM, SYNTHESIS, INFERENCE
+  importance      String           @default("MUST_KNOW")
+  confidence      String           @default("ESTABLISHED_FACT")
+  status          String           @default("DRAFT")
+  scopeConditions String?
+  jurisdiction    String?          @default("India")
+  validFrom       DateTime?
+  validTo         DateTime?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  evidence        Evidence[]
+  knowledgeIssues KnowledgeIssue[]
+  questions       Question[]
+
+  @@index([conceptId])
+  @@index([claimType])
+  @@index([epistemicLevel])
+  @@index([status])
+}
+
+// 6. SOURCE
+model Source {
+  id              String           @id @default(cuid())
+  title           String
+  author          String?
+  publisher       String?
+  sourceType      String
+  authorityTier   String
+  url             String?
+  publicationDate DateTime?
+  edition         String?
+  identifier      String?
+  language        String           @default("en")
+  description     String?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  sections        SourceSection[]
+  coverageUnits   CoverageUnit[]
+  evidence        Evidence[]
+  ingestionItems  IngestionItem[]
+  knowledgeIssues KnowledgeIssue[]
+
+  @@index([authorityTier])
+  @@index([sourceType])
+}
+
+// 7. SOURCE SECTION (Hierarchical structure)
+model SourceSection {
+  id            String          @id @default(cuid())
+  sourceId      String
+  source        Source          @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  parentId      String?
+  parent        SourceSection?  @relation("SectionHierarchy", fields: [parentId], references: [id], onDelete: SetNull)
+  children      SourceSection[] @relation("SectionHierarchy")
+  title         String
+  sectionType   String
+  locator       String?
+  pageStart     Int?
+  pageEnd       Int?
+  order         Int             @default(0)
+  coverageUnits CoverageUnit[]
+  evidence      Evidence[]
+
+  @@index([sourceId])
+  @@index([parentId])
+}
+
+// 8. COVERAGE UNIT (Coverage Ledger)
+model CoverageUnit {
+  id                     String          @id @default(cuid())
+  sourceId               String
+  source                 Source          @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  sourceSectionId        String?
+  sourceSection          SourceSection?  @relation(fields: [sourceSectionId], references: [id], onDelete: SetNull)
+  label                  String
+  scopeDescription       String?
+  order                  Int             @default(0)
+  status                 String          @default("UNPROCESSED")
+  exclusionReason        String?
+  extractionStatus       String          @default("PENDING")
+  verificationStatus     String          @default("UNCHECKED")
+  canonicalMappingStatus String          @default("UNMAPPED")
+  notes                  String?
+  createdAt              DateTime        @default(now())
+  updatedAt              DateTime        @updatedAt
+  ingestionItems         IngestionItem[]
+
+  @@index([sourceId])
+  @@index([status])
+}
+
+// 9. INGESTION ITEM (Quarantine Staging)
+model IngestionItem {
+  id               String       @id @default(cuid())
+  sourceId         String
+  source           Source       @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  coverageUnitId   String
+  coverageUnit     CoverageUnit @relation(fields: [coverageUnitId], references: [id], onDelete: Cascade)
+  rawInput         String
+  extractedContent String?
+  extractedClaims  String?
+  extractedTerms   String?
+  status           String       @default("INBOX")
+  reviewerNotes    String?
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+
+  @@index([sourceId])
+  @@index([coverageUnitId])
+  @@index([status])
+}
+
+// 10. EVIDENCE
+model Evidence {
+  id                   String         @id @default(cuid())
+  claimId              String
+  claim                Claim          @relation(fields: [claimId], references: [id], onDelete: Cascade)
+  sourceId             String
+  source               Source         @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  sourceSectionId      String?
+  sourceSection        SourceSection? @relation(fields: [sourceSectionId], references: [id], onDelete: SetNull)
+  locator              String
+  excerpt              String?
+  evidenceType         String         @default("PRIMARY_STATUTORY_TEXT")
+  authority            String         @default("DIRECT_AUTHORITY")
+  evidentiarySupport   String         @default("STRONG_SUPPORT") // DEFINITIVE, STRONG_SUPPORT, PARTIAL_SUPPORT, ILLUSTRATIVE, ANALOGOUS
+  extractionConfidence String         @default("HIGH") // HIGH, MEDIUM, LOW
+  notes                String?
+  createdAt            DateTime       @default(now())
+
+  @@index([claimId])
+  @@index([sourceId])
+}
+
+// 11. KNOWLEDGE ISSUE (Reconciliation & Conflicts)
+model KnowledgeIssue {
+  id          String    @id @default(cuid())
+  type        String
+  severity    String    @default("MEDIUM")
+  description String
+  status      String    @default("OPEN")
+  resolution  String?
+  claimId     String?
+  claim       Claim?    @relation(fields: [claimId], references: [id], onDelete: SetNull)
+  conceptId   String?
+  concept     Concept?  @relation(fields: [conceptId], references: [id], onDelete: SetNull)
+  sourceId    String?
+  source      Source?   @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  createdAt   DateTime  @default(now())
+  resolvedAt  DateTime?
+
+  @@index([status])
+  @@index([type])
+  @@index([severity])
+}
+
+// 12. CONTENT BLOCK (Composable Pedagogical Units)
+model ContentBlock {
+  id         String   @id @default(cuid())
+  conceptId  String
+  concept    Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  type       String
+  title      String?
+  body       String
+  order      Int      @default(0)
+  visibility String   @default("STANDARD")
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([conceptId])
+  @@index([type])
+}
+
+// 13. CONNECTION (Cross-Domain Graph)
+model Connection {
+  id              String   @id @default(cuid())
+  sourceConceptId String
+  sourceConcept   Concept  @relation("SourceConcept", fields: [sourceConceptId], references: [id], onDelete: Cascade)
+  targetConceptId String
+  targetConcept   Concept  @relation("TargetConcept", fields: [targetConceptId], references: [id], onDelete: Cascade)
+  type            String
+  strength        String   @default("STRONG")
+  explanation     String
+  status          String   @default("PROPOSED")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([sourceConceptId, targetConceptId, type])
+  @@index([sourceConceptId])
+  @@index([targetConceptId])
+}
+
+// 14. EXAM
+model Exam {
+  id              String               @id @default(cuid())
+  slug            String               @unique
+  name            String
+  conductingBody  String?
+  description     String?
+  syllabusSummary String?
+  status          String               @default("ACTIVE")
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+  conceptMappings ExamConceptMapping[]
+  questions       Question[]
+  revisionUnits   RevisionUnit[]
+
+  @@index([slug])
+}
+
+// 15. EXAM CONCEPT MAPPING (Exam Lens & V1 Intelligence)
+model ExamConceptMapping {
+  id               String   @id @default(cuid())
+  examId           String
+  exam             Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  conceptId        String
+  concept          Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  syllabusUnit     String?
+  relevance        String   @default("HIGH")
+  priority         String   @default("HIGH_YIELD")
+  requiredDepth    String   @default("FACTUAL_RECALL")
+  questionStyle    String?
+  frequentTraps    String?
+  trendAnalysis    String?
+  historicalWeight String?
+  notes            String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@unique([examId, conceptId])
+  @@index([examId])
+  @@index([conceptId])
+}
+
+// 16. REVISION UNIT
+model RevisionUnit {
+  id        String   @id @default(cuid())
+  conceptId String
+  concept   Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  examId    String?
+  exam      Exam?    @relation(fields: [examId], references: [id], onDelete: SetNull)
+  type      String
+  content   String
+  priority  String   @default("HIGH")
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([conceptId])
+  @@index([examId])
+}
+
+// 17. QUESTION (Assessments & PYQ Details)
+model Question {
+  id                  String   @id @default(cuid())
+  conceptId           String
+  concept             Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  claimId             String?
+  claim               Claim?   @relation(fields: [claimId], references: [id], onDelete: SetNull)
+  examId              String?
+  exam                Exam?    @relation(fields: [examId], references: [id], onDelete: SetNull)
+  type                String   @default("MCQ_SINGLE")
+  stem                String
+  options             String?
+  correctAnswer       String
+  explanation         String
+  trapExplanation     String?
+  difficulty          String   @default("MODERATE")
+  isPYQ               Boolean  @default(false)
+  pyqYear             Int?
+  pyqPaper            String?
+  pyqStage            String?
+  pyqQuestionNumber   Int?
+  pyqMarks            Float?
+  examinerTrapPattern String?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@index([conceptId])
+  @@index([examId])
+  @@index([isPYQ])
+}
+
+// 18. KNOWLEDGE AUDIT
+model KnowledgeAudit {
+  id             String    @id @default(cuid())
+  targetType     String
+  targetId       String
+  auditType      String
+  protocol       String    @default("POLITY")
+  severity       String    @default("MEDIUM")
+  finding        String
+  recommendation String?
+  status         String    @default("OPEN")
+  auditor        String    @default("System")
+  createdAt      DateTime  @default(now())
+  resolvedAt     DateTime?
+
+  @@index([targetType, targetId])
+  @@index([status])
+  @@index([protocol])
+}

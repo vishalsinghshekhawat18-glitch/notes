@@ -1,0 +1,279 @@
+{
+  "independentObservationCount": 44,
+  "existingSemanticUnitCount": 42,
+  "exactMatchCount": 33,
+  "partialMatchCount": 3,
+  "missingFromSemanticCount": 8,
+  "reconciliationSummary": {
+    "exactMatches": 33,
+    "partialMatches": 3,
+    "missing": 8,
+    "extra": 0
+  },
+  "reconciliationSample": [
+    {
+      "sourceObs": "OBS-T9-01 (p. 56): Part 3 Fundamental Rights: Meaning & Historical Background",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 56."
+    },
+    {
+      "sourceObs": "OBS-T9-02 (p. 56): Difference between Natural Rights, Human Rights and Fundamental Rights",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 56."
+    },
+    {
+      "sourceObs": "OBS-T9-03 (p. 56): Classification of Fundamental Rights (6 Broad Categories)",
+      "existingSemanticUnit": "SEM-T9-02: 6 Categories of Fundamental Rights",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-04 (p. 57): Article 12 — Definition of State (Clauses & Authorities)",
+      "existingSemanticUnit": "SEM-T9-03: Article 12 — Definition of State",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-05 (p. 57): Article 12 — Judicial Interpretation of \"Other Authorities\"",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 57."
+    },
+    {
+      "sourceObs": "OBS-T9-06 (p. 58): Article 13 — Laws Inconsistent with Fundamental Rights (13(1), 13(2), 13(3))",
+      "existingSemanticUnit": "SEM-T9-05: Article 13 — Laws Inconsistent with Fundamental Rights",
+      "classification": "PARTIAL_MATCH",
+      "notes": "Mapped on p. 58; slight granularity or content-type boundary difference (CONSTITUTIONAL_TEXT vs LEGAL_RULE)."
+    },
+    {
+      "sourceObs": "OBS-T9-07 (p. 58): Article 13 — Doctrine of Severability",
+      "existingSemanticUnit": "SEM-T9-06: Article 13 — Doctrinal Triptych (Severability, Eclipse, Waiver)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-08 (p. 58): Article 13 — Doctrine of Eclipse & Doctrine of Waiver",
+      "existingSemanticUnit": "SEM-T9-06: Article 13 — Doctrinal Triptych (Severability, Eclipse, Waiver)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-09 (p. 59): Article 14 — Equality Before Law & Equal Protection of Laws",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 59."
+    },
+    {
+      "sourceObs": "OBS-T9-10 (p. 59): Article 14 — Doctrine of Reasonable Classification vs Class Legislation",
+      "existingSemanticUnit": "SEM-T9-07: Article 14 — Right to Equality & Classification",
+      "classification": "PARTIAL_MATCH",
+      "notes": "Mapped on p. 59; slight granularity or content-type boundary difference (LEGAL_RULE vs CONSTITUTIONAL_TEXT)."
+    },
+    {
+      "sourceObs": "OBS-T9-11 (p. 59): Article 14 — Dynamic Non-Arbitrariness Doctrine",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 59."
+    },
+    {
+      "sourceObs": "OBS-T9-12 (p. 60): Article 15 — Prohibition of Discrimination on 5 Grounds & Exceptions",
+      "existingSemanticUnit": "SEM-T9-09: Article 15 — Prohibition of Discrimination & Protective Discrimination",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-13 (p. 60): Sub Topic 1: Creamy Layer Concept (Mains Discussion)",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 60."
+    },
+    {
+      "sourceObs": "OBS-T9-14 (p. 61): Article 16 — Equality of Opportunity in Public Employment",
+      "existingSemanticUnit": "SEM-T9-11: Article 16 — Equality of Opportunity in Public Employment",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-15 (p. 61): Article 16(4A), 16(4B) & Creamy Layer in SC/ST Promotion Debate",
+      "existingSemanticUnit": "SEM-T9-12: Article 16(4A) & 16(4B) — Reservation in Promotions & Carry Forward",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-16 (p. 62): Sub Topic 2: Justice Rohini Commission (OBC Sub-Categorization)",
+      "existingSemanticUnit": "SEM-T9-13: Justice Rohini Commission — Sub-categorization of OBCs",
+      "classification": "PARTIAL_MATCH",
+      "notes": "Mapped on p. 62; slight granularity or content-type boundary difference (CURRENT_AFFAIRS vs CURRENT_AFFAIRS_REFERENCE)."
+    },
+    {
+      "sourceObs": "OBS-T9-17 (p. 63): 103rd Constitutional Amendment Act 2019 — 10% EWS Reservation",
+      "existingSemanticUnit": "SEM-T9-14: 103rd Constitutional Amendment — 10% EWS Reservation",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-18 (p. 64): Reservation Landmark Judgments Matrix (1992 → 2024)",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 64."
+    },
+    {
+      "sourceObs": "OBS-T9-19 (p. 65): Article 17 — Abolition of Untouchability",
+      "existingSemanticUnit": "SEM-T9-16: Article 17 — Abolition of Untouchability",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-20 (p. 65): Article 18 — Abolition of Titles",
+      "existingSemanticUnit": "SEM-T9-17: Article 18 — Abolition of Titles",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-21 (p. 66): Article 19 — 6 Democratic Freedoms & Restriction Matrix",
+      "existingSemanticUnit": "SEM-T9-18: Article 19 — 6 Democratic Freedoms Matrix",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-22 (p. 67): Topic: Right to Internet & Telecommunication Suspension",
+      "existingSemanticUnit": "SEM-T9-19: Right to Internet & Freedom of Speech (*Anuradha Bhasin 2020*)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-23 (p. 68): Topic: Phone Tapping Rules & Privacy Rights (*PUCL 1997*)",
+      "existingSemanticUnit": "SEM-T9-20: Phone Tapping Regulations & Privacy (*PUCL 1997*)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-24 (p. 69): Topic: Right to Protest vs Public Convenience (*Shaheen Bagh / Amit Sahni*)",
+      "existingSemanticUnit": "SEM-T9-21: Right to Protest & Demonstration (*Shaheen Bagh case / Amit Sahni 2020*)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-25 (p. 70): Article 20 — Protection in Respect of Conviction for Offences",
+      "existingSemanticUnit": "SEM-T9-22: Article 20 — Protection in Respect of Conviction for Offences",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-26 (p. 71): Article 21 — Protection of Life & Personal Liberty (Procedure vs Due Process)",
+      "existingSemanticUnit": "SEM-T9-23: Article 21 — Protection of Life & Personal Liberty",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-27 (p. 71): Article 21 — Catalog of Inferred Substantive Rights",
+      "existingSemanticUnit": "SEM-T9-24: Article 21 — Inferred Substantive Rights Catalog",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-28 (p. 72): Topic 1: Right to Privacy (*K.S. Puttaswamy 2017*)",
+      "existingSemanticUnit": "SEM-T9-25: Right to Privacy (*K.S. Puttaswamy 2017*)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-29 (p. 72): Topic 2: Right to Die with Dignity & Living Wills (*Common Cause 2018*)",
+      "existingSemanticUnit": "SEM-T9-26: Right to Die with Dignity & Passive Euthanasia (*Common Cause 2018*)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-30 (p. 73): Article 21A — Right to Education (86th Amendment & RTE Act 2009)",
+      "existingSemanticUnit": "SEM-T9-27: Article 21A — Right to Free & Compulsory Education",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-31 (p. 73): Article 22 — Protection Against Arrest & Preventive Detention",
+      "existingSemanticUnit": "SEM-T9-28: Article 22 — Protection Against Arrest & Preventive Detention",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-32 (p. 74): Topic: Preventive Detention & UAPA Bail Jurisprudence",
+      "existingSemanticUnit": "SEM-T9-29: UAPA Bail Jurisprudence & Fundamental Rights",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-33 (p. 75): Articles 23 & 24 — Right Against Exploitation",
+      "existingSemanticUnit": "SEM-T9-30: Articles 23 & 24 — Right Against Exploitation",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-34 (p. 75): Article 25 — Freedom of Conscience and Religion & Essential Religious Practices",
+      "existingSemanticUnit": "SEM-T9-31: Article 25 — Freedom of Conscience & Religion",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-35 (p. 76): Articles 26, 27, 28 — Institutional Religious Freedoms",
+      "existingSemanticUnit": "SEM-T9-33: Articles 26, 27, 28 — Institutional Religious Freedoms",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-36 (p. 76): Article 29 — Protection of Interests of Minorities",
+      "existingSemanticUnit": "SEM-T9-34: Article 29 — Protection of Interests of Minorities",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-37 (p. 77): Article 30 — Right of Minorities to Establish & Administer Educational Institutions",
+      "existingSemanticUnit": "SEM-T9-35: Article 30 — Minorities Right to Establish & Administer Educational Institutions",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-38 (p. 77): Article 31 & 300A — Abolition of Right to Property",
+      "existingSemanticUnit": "SEM-T9-36: Article 31 & 300A — Deletion of Right to Property",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-39 (p. 78): Topic: Demolition Actions (\"Bulldozer Justice\") & Judicial Guidelines",
+      "existingSemanticUnit": "SEM-T9-37: Bulldozer Action & Due Process Jurisprudence",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-40 (p. 79): Article 32 — Right to Constitutional Remedies",
+      "existingSemanticUnit": "SEM-T9-38: Article 32 — Right to Constitutional Remedies",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-41 (p. 79): Comparative Matrix of 5 Constitutional Writs",
+      "existingSemanticUnit": "SEM-T9-39: 5 Constitutional Writs Comparative Matrix",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-42 (p. 80): Articles 33, 34, 35 — Special Limitations on Fundamental Rights",
+      "existingSemanticUnit": "SEM-T9-40: Articles 33, 34, 35 — Special Limitations on Fundamental Rights",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-43 (p. 81): Historical Evolution of Amenability of FRs to Constitutional Amendment",
+      "existingSemanticUnit": "SEM-T9-41: Constitutional Amendability of Fundamental Rights Timeline (1951 → 1973)",
+      "classification": "EXACT_MATCH",
+      "notes": "Identical heading, page locator, and content type."
+    },
+    {
+      "sourceObs": "OBS-T9-44 (p. 82): Article 31C & Conflict Between Fundamental Rights and DPSPs (*Minerva Mills 1980*)",
+      "existingSemanticUnit": "—",
+      "classification": "MISSING_FROM_SEMANTIC_INVENTORY",
+      "notes": "Independent pass identified distinct subsection on p. 82."
+    }
+  ]
+}
