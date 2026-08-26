@@ -1,5 +1,4 @@
 import { db } from '@/lib/db/client';
-import { seedTopic9CanonicalKnowledge } from '@/lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '@/lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '@/lib/benchmark/inflation-canonical-seed';
 
@@ -9,12 +8,10 @@ import { seedInflationCanonicalKnowledge } from '@/lib/benchmark/inflation-canon
  */
 export async function ensureCanonicalDataSeeded() {
   const conceptCount = await db.concept.count();
-  if (conceptCount < 26) {
-    // Seed Topic 9 (Fundamental Rights - 16 concepts)
-    await seedTopic9CanonicalKnowledge();
-    // Seed Topic 10 (DPSPs - 5 concepts)
+  if (conceptCount === 0) {
+    // seedTopic10CanonicalKnowledge seeds Topic 9 + Topic 10
     await seedTopic10CanonicalKnowledge();
-    // Seed Inflation (5 concepts)
+    // seedInflationCanonicalKnowledge seeds Inflation
     await seedInflationCanonicalKnowledge();
   }
 }
@@ -86,7 +83,7 @@ export async function getTopicWithConcepts(topicSlug: string) {
 export async function getConceptWithFullContext(conceptSlug: string) {
   await ensureCanonicalDataSeeded();
 
-  let concept = await db.concept.findFirst({
+  return db.concept.findFirst({
     where: { slug: conceptSlug },
     include: {
       topic: {
@@ -137,67 +134,6 @@ export async function getConceptWithFullContext(conceptSlug: string) {
       },
     },
   });
-
-  if (!concept) {
-    // If concept not found in current DB state, reseed and re-query
-    await seedTopic9CanonicalKnowledge();
-    await seedTopic10CanonicalKnowledge();
-    await seedInflationCanonicalKnowledge();
-
-    concept = await db.concept.findFirst({
-      where: { slug: conceptSlug },
-      include: {
-        topic: {
-          include: {
-            subject: {
-              include: {
-                domain: true,
-              },
-            },
-            concepts: {
-              orderBy: { id: 'asc' },
-              select: {
-                id: true,
-                slug: true,
-                title: true,
-                difficulty: true,
-              },
-            },
-          },
-        },
-        contentBlocks: {
-          orderBy: { order: 'asc' },
-        },
-        claims: {
-          include: {
-            evidence: {
-              include: {
-                source: true,
-              },
-            },
-          },
-        },
-        examMappings: {
-          include: {
-            exam: true,
-          },
-        },
-        revisionUnits: {
-          orderBy: { order: 'asc' },
-        },
-        questions: {
-          orderBy: { difficulty: 'asc' },
-        },
-        outgoingConnections: {
-          include: {
-            targetConcept: true,
-          },
-        },
-      },
-    });
-  }
-
-  return concept;
 }
 
 export async function searchConcepts(query: string) {
