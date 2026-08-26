@@ -1,17 +1,19 @@
 import { db } from '@/lib/db/client';
+import { seedBatchACanonicalKnowledge } from '@/lib/benchmark/batch-a-canonical-seed';
+import { seedBatchBCanonicalKnowledge } from '@/lib/benchmark/batch-b-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '@/lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '@/lib/benchmark/inflation-canonical-seed';
 
 /**
- * Ensures that all canonical benchmark data (Topic 9, Topic 10, Inflation)
+ * Ensures that all canonical benchmark data (Batch A, Batch B, Topic 9, Topic 10, Inflation)
  * is present in the database for web application rendering.
  */
 export async function ensureCanonicalDataSeeded() {
   const conceptCount = await db.concept.count();
   if (conceptCount === 0) {
-    // seedTopic10CanonicalKnowledge seeds Topic 9 + Topic 10
+    await seedBatchACanonicalKnowledge();
+    await seedBatchBCanonicalKnowledge();
     await seedTopic10CanonicalKnowledge();
-    // seedInflationCanonicalKnowledge seeds Inflation
     await seedInflationCanonicalKnowledge();
   }
 }

@@ -224,6 +224,184 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 5: PART 1 — UNION AND ITS TERRITORY (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T5-01',
+    slug: 'article-1-union-of-states-federal-nature-territory-of-india',
+    title: 'Article 1: Union of States, Federal Nature & Territory of India',
+    shortDefinition: 'India as an indestructible "Union of States", distinction between "Union of India" and "Territory of India", and Dr. Ambedkar’s rationale.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part I: The Union and Its Territory',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T5-02',
+    slug: 'articles-2-and-3-admission-vs-internal-reorganisation-of-states',
+    title: 'Articles 2 and 3: Admission vs Internal Reorganisation of States',
+    shortDefinition: 'Admitting new external territories under Article 2 vs reorganising internal state boundaries under Article 3 ("Indestructible Union of Destructible States").',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part I: The Union and Its Territory',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T5-03',
+    slug: 'article-4-and-cession-of-territory-the-berubari-doctrine',
+    title: 'Article 4 & Cession of Indian Territory: The Berubari Doctrine',
+    shortDefinition: 'Article 4 simple majority rule and the landmark Berubari Union doctrine (1960) requiring an Article 368 amendment to cede Indian territory.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part I: The Union and Its Territory',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T5-04',
+    slug: 'union-territories-architecture-and-100th-amendment-enclaves-exchange',
+    title: 'Union Territories: Constitutional Architecture & Enclaves Exchange',
+    shortDefinition: 'Constitutional categorization of UTs under Part VIII and the 100th Constitutional Amendment (2015) Indo-Bangladesh enclaves exchange.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part I: The Union and Its Territory',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 6: UNIFICATION OF INDIA (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T6-01',
+    slug: 'lapse-of-paramountcy-and-patel-menon-integration-architecture',
+    title: 'Lapse of Paramountcy & The Patel-Menon Integration Architecture',
+    shortDefinition: 'Lapse of British paramountcy over 565 princely states and Sardar Patel/V.P. Menon’s integration strategy via Standstill Agreements and Instruments of Accession.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Unification and Integration of India',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T6-02',
+    slug: 'integration-of-challenging-states-junagadh-hyderabad-and-jammu-kashmir',
+    title: 'Integration of Challenging States: Junagadh, Hyderabad & Jammu & Kashmir',
+    shortDefinition: 'Integrating Junagadh (1948 plebiscite), Hyderabad (Operation Polo 1948), and Jammu & Kashmir (Instrument of Accession 1947 and 2019 reorganisation).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Unification and Integration of India',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T6-03',
+    slug: 'liberation-of-foreign-enclaves-french-and-portuguese-territories',
+    title: 'Liberation of Foreign Enclaves: French and Portuguese Territories',
+    shortDefinition: 'Diplomatic transfer of French settlements (Puducherry) and military liberation of Portuguese settlements (Goa Operation Vijay 1961) to statehood (1987).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Unification and Integration of India',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T6-04',
+    slug: 'integration-of-sikkim-from-associate-state-to-full-statehood',
+    title: 'Integration of Sikkim: From Associate State to Full Statehood',
+    shortDefinition: 'Sikkim’s constitutional transition: 35th Amendment (1974 "Associate State") to 36th Amendment (1975 22nd State, Article 371F), and 1950 four-fold state classification.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Unification and Integration of India',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 7: REORGANISATION OF STATES (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T7-01',
+    slug: 'linguistic-demands-and-early-commissions-dhar-and-jvp',
+    title: 'Linguistic Demands & Early Commissions: Dhar Commission & JVP Committee',
+    shortDefinition: 'Historical demands for linguistic states, the S.K. Dhar Commission (1948), and the JVP Committee’s initial rejection of language-based reorganization.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Reorganisation of States & Zonal Councils',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T7-02',
+    slug: 'andhra-crisis-and-fazal-ali-commission-src-1953-1955',
+    title: 'Andhra Crisis & Fazal Ali Commission (States Reorganisation Commission 1953–55)',
+    shortDefinition: 'Creation of Andhra State (1953) after Potti Sreeramulu’s fast, Fazal Ali Commission (SRC), acceptance of language criterion, and its four core principles.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Reorganisation of States & Zonal Councils',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T7-03',
+    slug: 'states-reorganisation-act-1956-and-historical-evolution-of-indian-states',
+    title: 'States Reorganisation Act 1956 & Evolution of States (1956–2020)',
+    shortDefinition: 'The 7th Amendment and 1956 Act creating 14 states and 6 UTs, and post-1956 milestones (1960, 1966, 1972, 2000, 2014, 2019, 2020) leading to 28 states and 8 UTs.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Reorganisation of States & Zonal Councils',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T7-04',
+    slug: 'zonal-councils-and-north-eastern-council-inter-state-cooperative-architecture',
+    title: 'Zonal Councils & North-Eastern Council: Inter-State Cooperative Architecture',
+    shortDefinition: 'Statutory framework of Zonal Councils under the 1956 Act and the North-Eastern Council (1971) chaired by the Union Home Minister.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Reorganisation of States & Zonal Councils',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 8: PART 2 — CITIZENSHIP (6 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T8-01',
+    slug: 'citizenship-meaning-civil-rights-and-constitutional-articles-5-to-11',
+    title: 'Citizenship: Meaning, Civil Rights & Constitutional Articles (5–11)',
+    shortDefinition: 'Exclusive constitutional rights reserved for citizens (Arts 15, 16, 19, 29, 30, 326) and the transitional citizenship provisions on Jan 26, 1950.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part II: Citizenship (Articles 5 to 11)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T8-02',
+    slug: 'acquisition-of-indian-citizenship-under-citizenship-act-1955',
+    title: 'Acquisition of Indian Citizenship under Citizenship Act 1955',
+    shortDefinition: 'Five statutory pathways to citizenship (Birth, Descent, Registration, Naturalisation, Incorporation) and their evolving criteria (1986, 1992, 2003, 2019).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part II: Citizenship (Articles 5 to 11)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T8-03',
+    slug: 'loss-of-indian-citizenship-renunciation-termination-and-deprivation',
+    title: 'Loss of Indian Citizenship: Renunciation, Termination & Deprivation',
+    shortDefinition: 'Three statutory modes of losing citizenship: voluntary Renunciation, automatic Termination, and compulsory Deprivation by Central Government.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part II: Citizenship (Articles 5 to 11)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T8-04',
+    slug: 'single-citizenship-vs-dual-citizenship-and-constitutional-unity',
+    title: 'Single Citizenship vs Dual Citizenship & Constitutional Unity',
+    shortDefinition: 'Indian Single Citizenship doctrine ensuring undivided allegiance, equality of rights, and comparison with US dual citizenship.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part II: Citizenship (Articles 5 to 11)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T8-05',
+    slug: 'overseas-citizen-of-india-oci-scheme-and-rights-framework',
+    title: 'Overseas Citizen of India (OCI) Scheme & Rights Framework',
+    shortDefinition: 'Statutory OCI scheme, 2015 PIO merger, extensive economic rights granted (Sec 7B), and strict denial of political/constitutional rights (Sec 7B(2)).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part II: Citizenship (Articles 5 to 11)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T8-06',
+    slug: 'citizenship-policy-renunciation-trends-and-dual-citizenship-debate',
+    title: 'Contemporary Citizenship Dynamics: Renunciation Trends & Policy Debate',
+    shortDefinition: '1.6 million renunciations since 2011, passport rankings, economic diplomacy, and cost-benefit analysis of conditional dual citizenship.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part II: Citizenship (Articles 5 to 11)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // TOPIC 9: PART III FUNDAMENTAL RIGHTS (16 CONCEPTS)
   // =========================================================================
   {
