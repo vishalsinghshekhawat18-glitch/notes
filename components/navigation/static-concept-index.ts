@@ -817,6 +817,108 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 16: THE UNION JUDICIARY (3 CONCEPTS: CON-T16-01 to CON-T16-03)
+  // =========================================================================
+  {
+    id: 'CON-T16-01',
+    slug: 'supreme-court-architecture-composition-collegium-and-removal',
+    title: 'Supreme Court Architecture: Composition (34 Judges), Collegium & Removal',
+    shortDefinition: 'Structure of the Supreme Court of India under Articles 124-128, Three Judges Cases collegium evolution, and Article 124(4) removal procedure.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Judiciary (The Supreme Court of India)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T16-02',
+    slug: 'supreme-court-jurisdiction-original-appellate-and-special-leave',
+    title: 'Supreme Court Jurisdiction: Original (Art 131), Appellate & SLP (Art 136)',
+    shortDefinition: 'Exclusive Federal Original Jurisdiction (Art 131), Constitutional/Civil/Criminal Appellate routes, and plenary Special Leave Petitions (Art 136).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part V: The Union Judiciary (The Supreme Court of India)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T16-03',
+    slug: 'advisory-jurisdiction-article-143-and-inherent-powers-141-142',
+    title: 'Advisory Jurisdiction (Art 143), Complete Justice (Art 142) & Law of Land (Art 141)',
+    shortDefinition: 'Presidential consultative references under Article 143, Article 142 "complete justice" inherent powers, and Article 141 binding precedent.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Judiciary (The Supreme Court of India)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 17: STATE JUDICIARY (4 CONCEPTS: CON-T17-01 to CON-T17-04)
+  // =========================================================================
+  {
+    id: 'CON-T17-01',
+    slug: 'high-court-architecture-appointments-qualifications-and-transfers',
+    title: 'High Court Architecture: Appointments, Qualifications & Transfers (Arts 214–224A)',
+    shortDefinition: 'Framework of 25 High Courts, judicial appointments, qualifications (no distinguished jurist), 62-year retirement age, and transfers under Art 222.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part VI: State Judiciary (High Courts & Subordinate Courts)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T17-02',
+    slug: 'high-court-writ-jurisdiction-art-226-vs-art-32-and-superintendence',
+    title: 'High Court Jurisdiction: Writ Jurisdiction (Art 226 vs Art 32) & Superintendence (Art 227)',
+    shortDefinition: 'Expansive Article 226 writ jurisdiction ("for any other purpose"), comparison with Article 32, and Article 227 superintendence over all courts/tribunals.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part VI: State Judiciary (High Courts & Subordinate Courts)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T17-03',
+    slug: 'subordinate-judiciary-architecture-and-high-court-control',
+    title: 'Subordinate Judiciary Architecture (Arts 233–237) & High Court Control (Art 235)',
+    shortDefinition: 'District Judges appointment (Art 233), judicial officer recruitment (Art 234), and complete High Court administrative/disciplinary control (Art 235).',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part VI: State Judiciary (High Courts & Subordinate Courts)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T17-04',
+    slug: 'rajasthan-high-court-architecture-and-judicial-administration',
+    title: 'Rajasthan High Court Architecture: Jodhpur Principal Seat & Jaipur Bench',
+    shortDefinition: 'Establishment on Aug 29, 1949, first CJ Kamala Kant Verma, Satyanarayan Rao Committee (1958), permanent Jaipur Bench (1976/1977), and 50 sanctioned judges.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part VI: State Judiciary (High Courts & Subordinate Courts)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 18: JUDICIAL INNOVATION & TRIBUNALS (3 CONCEPTS: CON-T18-01 to CON-T18-03)
+  // =========================================================================
+  {
+    id: 'CON-T18-01',
+    slug: 'public-interest-litigation-pil-locus-standi-and-epistolary-jurisdiction',
+    title: 'Public Interest Litigation (PIL): Relaxation of Locus Standi & Epistolary Jurisdiction',
+    shortDefinition: 'Pioneering work of Justice VR Krishna Iyer & PN Bhagwati, relaxation of locus standi, epistolary jurisdiction, and landmark cases (Hussainara, Bandhua Mukti, Vishaka).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XIV-A: Judicial Innovation, PIL & Tribunals Architecture',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T18-02',
+    slug: 'judicial-review-vs-activism-vs-judicial-overreach',
+    title: 'Judicial Review vs Judicial Activism vs Judicial Overreach',
+    shortDefinition: 'Boundaries separating constitutional Judicial Review (Arts 13, 32, 226), positive Judicial Activism, and unconstitutional Judicial Overreach.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XIV-A: Judicial Innovation, PIL & Tribunals Architecture',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T18-03',
+    slug: 'tribunals-architecture-article-323a-vs-323b-and-l-chandra-kumar',
+    title: 'Tribunals Architecture: Part XIV-A (42nd CAA), Art 323A vs 323B & L. Chandra Kumar',
+    shortDefinition: 'Administrative and specialized tribunals under Part XIV-A, Art 323A (CAT) vs 323B, and L. Chandra Kumar (1997) mandatory High Court Division Bench review.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part XIV-A: Judicial Innovation, PIL & Tribunals Architecture',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // ECONOMICS: INFLATION BENCHMARK (5 CONCEPTS)
   // =========================================================================
   {
