@@ -1008,6 +1008,135 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 21: RURAL & URBAN LOCAL GOVERNANCE (73RD & 74TH CAAS) (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T21-01',
+    slug: '73rd-amendment-panchayati-raj-architecture-and-devolution',
+    title: '73rd Constitutional Amendment Act: Panchayati Raj Architecture & 3-Tier Devolution',
+    shortDefinition: 'Constitutionalization of rural local self-government under Part IX (Articles 243–243O) and Eleventh Schedule (29 matters), establishing mandatory 3-tier PRIs, Gram Sabha, State Election Commission (Art 243K), and State Finance Commission (Art 243I).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part IX & IX-A: Rural & Urban Local Governance (73rd & 74th CAAs)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T21-02',
+    slug: 'pesa-act-1996-tribal-self-governance-fifth-schedule',
+    title: 'PESA Act (1996) & Tribal Self-Governance in Fifth Schedule Areas',
+    shortDefinition: 'The Provisions of the Panchayats (Extension to the Scheduled Areas) Act 1996, extending Part IX with critical modifications to Fifth Schedule areas across 10 states, granting Gram Sabhas sovereign authority over natural resources, minor forest produce, and land preservation.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part IX & IX-A: Rural & Urban Local Governance (73rd & 74th CAAs)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T21-03',
+    slug: '74th-amendment-urban-local-bodies-and-metropolitan-planning',
+    title: '74th Constitutional Amendment Act: Urban Local Bodies & Metropolitan Planning',
+    shortDefinition: 'Constitutionalization of Urban Local Bodies (ULBs) under Part IX-A (Articles 243P–243ZG) and Twelfth Schedule (18 matters), establishing 3 municipal tiers, Wards Committees, District Planning Committees (Art 243ZD), and Metropolitan Planning Committees (Art 243ZE).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part IX & IX-A: Rural & Urban Local Governance (73rd & 74th CAAs)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T21-04',
+    slug: 'local-governance-rajasthan-nagaur-inception-acts-and-devolution',
+    title: 'Local Governance in Rajasthan: Nagaur Inception, 5-Tier Devolution & Rajasthan Acts',
+    shortDefinition: 'The pioneering historic evolution of Panchayati Raj inaugurated at Nagaur, Rajasthan on October 2, 1959, the major committee trajectories, and modern Rajasthan-specific local governance features (Rajasthan Panchayati Raj Act 1994, 50% women quota, Ward Sabha).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part IX & IX-A: Rural & Urban Local Governance (73rd & 74th CAAs)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 22: CONSTITUTIONAL INSTITUTIONS (ECI & CAG) (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T22-01',
+    slug: 'election-commission-of-india-article-324-and-2023-appointment-act',
+    title: 'Election Commission of India (Article 324): Composition, Independence & CEC/EC Appointment Act 2023',
+    shortDefinition: 'The constitutional framework of the Election Commission under Article 324, its multi-member evolution, removal protections, plenary powers under Mohinder Singh Gill (1978), the Anoop Baranwal (2023) bench, and the CEC & Other ECs (Appointment) Act 2023.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Constitutional Institutions: Election Commission of India & Comptroller and Auditor General',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T22-02',
+    slug: 'electoral-reforms-and-representation-of-the-people-acts-1950-1951',
+    title: 'Electoral Reforms & Representation of the People Acts (1950 & 1951)',
+    shortDefinition: 'The statutory dual-statute architecture governing Indian democracy—RPA 1950 (seats, delimitation, voter rolls) vs RPA 1951 (conduct of elections, qualifications, disqualifications under Section 8, corrupt practices, anti-defection, and electoral transparency).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Constitutional Institutions: Election Commission of India & Comptroller and Auditor General',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T22-03',
+    slug: 'comptroller-and-auditor-general-of-india-articles-148-151',
+    title: 'Comptroller and Auditor-General of India (Articles 148–151): Independence & Duties',
+    shortDefinition: 'The constitutional office of the CAG under Articles 148–151 as the supreme guardian of the public purse, with institutional independence protections, duties under the CAG DPC Act 1971, separation of accounting from audit (1976), and partnership with the Public Accounts Committee.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Constitutional Institutions: Election Commission of India & Comptroller and Auditor General',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T22-04',
+    slug: 'public-audit-spectrum-regulatory-propriety-performance-audit',
+    title: 'Public Audit Architecture & Financial Oversight: Regulatory, Propriety & Performance Audit',
+    shortDefinition: 'The three-dimensional methodology of public audit (Regulatory, Propriety, and Performance/Efficiency audit), institutional limitations (post-mortem nature, secret service limits), and expanded jurisdiction over PPPs and private discoms.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Constitutional Institutions: Election Commission of India & Comptroller and Auditor General',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 23: STATUTORY & NON-CONSTITUTIONAL BODIES (5 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T23-01',
+    slug: 'central-information-commission-rti-act-2005-and-2019-amendments',
+    title: 'Central Information Commission (CIC) & RTI Act (2005): Architecture, Exemptions & 2019 Amendments',
+    shortDefinition: 'Statutory transparency watchdog established under the Right to Information Act 2005, proactive disclosures under Section 4, exemptions under Section 8, the 3-member Selection Committee, and the impact of the RTI (Amendment) Act 2019.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T23-02',
+    slug: 'central-vigilance-commission-and-anti-corruption-framework',
+    title: 'Central Vigilance Commission (CVC): Santhanam Committee to Statutory Apex Anti-Corruption Body',
+    shortDefinition: 'The apex statutory anti-corruption vigilance authority established on Santhanam Committee recommendations, statutory recognition via the CVC Act 2003 following Vineet Narain (1997), superintendence over CBI for corruption offences, and Whistleblowers Protection framework.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T23-03',
+    slug: 'national-human-rights-commission-and-state-hrcs-framework',
+    title: 'National Human Rights Commission (NHRC): Protection of Human Rights Act 1993 & 2019 Reforms',
+    shortDefinition: 'Statutory human rights watchdog under PHRA 1993 conforming to Paris Principles, 6-member Selection Committee, 2019 Amendment reforms (broadened Chairperson eligibility and 3-yr tenure), civil court powers, and structural limitations (1-yr bar, armed forces restrictions).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T23-04',
+    slug: 'lokpal-and-lokayuktas-act-2013-anti-corruption-ombudsman',
+    title: 'Lokpal and Lokayuktas Act (2013): Anti-Corruption Architecture & State Ombudsman',
+    shortDefinition: 'Statutory anti-corruption ombudsman established under the Lokpal and Lokayuktas Act 2013 following ARC (1966) recommendations and Anna Hazare movement, jurisdiction covering PM, Ministers, MPs, and public servants, alongside state Lokayukta systems (Rajasthan 1973 model).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T23-05',
+    slug: 'niti-aayog-vs-planning-commission-think-tank-and-cooperative-federalism',
+    title: 'NITI Aayog vs Planning Commission: Think Tank Architecture & Cooperative Federalism',
+    shortDefinition: 'The extra-constitutional executive think tank established on 1 January 2015 replacing the top-down Planning Commission (1950–2014), emphasizing bottom-up cooperative federalism, the Governing Council, Team India Hub, and the structural transfer of fund allocation powers to the Finance Ministry.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // ECONOMICS: INFLATION BENCHMARK (5 CONCEPTS)
   // =========================================================================
   {
