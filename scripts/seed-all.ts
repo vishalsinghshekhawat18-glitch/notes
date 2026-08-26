@@ -6,6 +6,7 @@ import { seedBatchP2CanonicalKnowledge } from '../lib/benchmark/batch-p2-canonic
 import { seedBatchP3CanonicalKnowledge } from '../lib/benchmark/batch-p3-canonical-seed';
 import { seedBatchP4CanonicalKnowledge } from '../lib/benchmark/batch-p4-canonical-seed';
 import { seedBatchP5CanonicalKnowledge } from '../lib/benchmark/batch-p5-canonical-seed';
+import { seedBatchP6CanonicalKnowledge } from '../lib/benchmark/batch-p6-canonical-seed';
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
@@ -51,6 +52,8 @@ async function main() {
   await seedBatchP4CanonicalKnowledge();
   // Seed Batch P5 (Topics 21-23: 13 concepts)
   await seedBatchP5CanonicalKnowledge();
+  // Seed Batch P6 (Topics 24-25: 7 concepts)
+  await seedBatchP6CanonicalKnowledge();
   // Seed Inflation (5 concepts)
   await seedInflationCanonicalKnowledge();
 

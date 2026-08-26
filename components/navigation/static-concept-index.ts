@@ -1137,6 +1137,77 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 24: RAJASTHAN STATE POLITY & GOVERNANCE (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T24-01',
+    slug: 'political-demography-electoral-geography-social-stratification-rajasthan',
+    title: 'Political Demography, Electoral Geography & Social Stratification of Rajasthan',
+    shortDefinition: 'Structural demographic and electoral geography of Rajasthan based on Census 2011 baseline data (6.85 Cr population, density 200/km2, sex ratio 928, literacy 66.1%), regional divisions (Marwar, Mewar, Dhundhar, Hadoti, Shekhawati), 200 Assembly seats (34 SC, 25 ST), and 25 Lok Sabha seats (4 SC, 3 ST).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Rajasthan State Polity: Executive, Assembly, Demography & Apex Institutions',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T24-02',
+    slug: 'state-executive-rajasthan-governor-chief-minister-council-of-ministers',
+    title: 'State Executive of Rajasthan: Governor, Chief Minister & Council of Ministers',
+    shortDefinition: 'The institutional evolution and constitutional operational dynamics of the State Executive in Rajasthan under Articles 153–167, transitioning on 1 November 1956 from Rajpramukh to Governor (First Governor: Gurumukh Nihal Singh), Chief Ministership milestones, CM Secretariat, and discretionary gubernatorial governance.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Rajasthan State Polity: Executive, Assembly, Demography & Apex Institutions',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T24-03',
+    slug: 'rajasthan-legislative-assembly-evolution-committees-unicameral-procedure',
+    title: 'Rajasthan Legislative Assembly (Vidhan Sabha): Evolution, Committees & Unicameral Procedure',
+    shortDefinition: 'The constitutional architecture and procedural mechanics of the unicameral Rajasthan Legislative Assembly under Articles 168–212, its historical seat growth from 160 (1952) to 200 (1977 6th Assembly), legislative committees (PAC, Estimates, PUC), Speaker prerogatives, and assembly quorum.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Rajasthan State Polity: Executive, Assembly, Demography & Apex Institutions',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T24-04',
+    slug: 'judicial-and-constitutional-bodies-rajasthan-high-court-rpsc',
+    title: 'Judicial & Constitutional Bodies of Rajasthan: High Court (Jodhpur/Jaipur) & RPSC (Ajmer)',
+    shortDefinition: 'The constitutional architecture and operational dynamics of apex state institutions: Rajasthan High Court under Article 214 (inaugurated 29 Aug 1949 at Jodhpur, Satyanarayan Rao Committee Jaipur Bench 1977, 50 judges) and Rajasthan Public Service Commission under Article 315 (constituted 20 Aug 1949, shifted to Ajmer 1956, 1 Chair + 7 Members, appointment by Governor vs removal by President).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Rajasthan State Polity: Executive, Assembly, Demography & Apex Institutions',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 25: COMPARATIVE CONSTITUTIONAL SYSTEMS (3 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T25-01',
+    slug: 'constitutional-models-sovereignty-uk-usa-indian-synthesis',
+    title: 'Constitutional Models & Sovereignty: UK Parliamentary Sovereignty vs USA Judicial Supremacy vs Indian Synthesis',
+    shortDefinition: 'Comparative constitutional analysis of the British unwritten constitution and Diceyan Parliamentary Sovereignty, the American rigid written constitution and judicial supremacy with substantive Due Process, and the Indian constitutional synthesis of parliamentary executive with judicial review bound by the Basic Structure Doctrine.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Comparative Constitutional Systems: UK, USA, Canada, Germany & Switzerland',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T25-02',
+    slug: 'comparative-federal-architectures-usa-canada-australia-germany-india',
+    title: 'Comparative Federal Architectures: USA, Canada, Australia, Germany & Indian Asymmetric Federalism',
+    shortDefinition: 'Comparative analysis of major federal systems: American Dual Federalism (indestructible states, dual citizenship), Canadian Strong-Centre Federalism (Governor appointment, central residuary powers), Australian Cooperative Federalism (Concurrent list, trade commerce), German Administrative Federalism (Bundesrat), and India\'s Quasi-Federal model with asymmetric constitutional provisions.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Comparative Constitutional Systems: UK, USA, Canada, Germany & Switzerland',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T25-03',
+    slug: 'instruments-direct-democracy-plural-executive-swiss-model',
+    title: 'Instruments of Direct Democracy & Plural Executive: The Swiss Constitutional Model',
+    shortDefinition: 'The constitutional architecture of the Swiss Confederation (Federal Constitution of 1999), the four instruments of Direct Democracy (Mandatory/Optional Referendum, Popular Initiative, Recall, Landsgemeinde), and the unique 7-member collegial Plural Executive (Federal Council) with an annually rotating Federal President.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Comparative Constitutional Systems: UK, USA, Canada, Germany & Switzerland',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // ECONOMICS: INFLATION BENCHMARK (5 CONCEPTS)
   // =========================================================================
   {
