@@ -7,6 +7,7 @@ import { ExamLensViewer, ExamLensData } from './exam-lens-viewer';
 import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
 import { RevisionViewer, RevisionUnitData } from './revision-viewer';
 import { KnowledgeReconstruction } from './knowledge-reconstruction';
+import { MarkdownContent } from '@/components/ui/markdown-content';
 
 export interface ConceptBlock {
   id: string;
@@ -313,9 +314,10 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                       </h2>
                     )}
 
-                    <div className="text-sm md:text-[15px] leading-relaxed text-stone-800 whitespace-pre-line font-serif">
-                      {block.body}
-                    </div>
+                    <MarkdownContent
+                      content={block.body}
+                      className="text-sm md:text-[15px] leading-relaxed text-stone-800 font-serif"
+                    />
 
                     {/* Evidence Drawer Trigger */}
                     {evidenceItems.length > 0 && (
@@ -375,9 +377,9 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                           {claim.confidence} Confidence
                         </span>
                       </div>
-                      <p className="text-sm font-serif font-medium text-stone-800">
-                        {claim.statement}
-                      </p>
+                      <div className="text-sm font-serif font-medium text-stone-800">
+                        <MarkdownContent content={claim.statement} />
+                      </div>
                       {claim.scopeConditions && (
                         <p className="text-xs text-amber-800 bg-amber-50 p-2 rounded border border-amber-200">
                           Scope: {claim.scopeConditions}
@@ -393,9 +395,9 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                               Locator: {ev.locator}
                             </span>
                             {ev.excerpt && (
-                              <span className="italic text-stone-700 mt-0.5">
-                                &ldquo;{ev.excerpt}&rdquo;
-                              </span>
+                              <div className="italic text-stone-700 mt-0.5">
+                                <MarkdownContent content={ev.excerpt} />
+                              </div>
                             )}
                           </div>
                         ))}
@@ -433,7 +435,7 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                               {conn.type.replace(/_/g, ' ')}
                             </span>
                           </div>
-                          <p className="text-xs text-stone-600 mt-1">{conn.explanation}</p>
+                          <MarkdownContent content={conn.explanation} className="text-xs text-stone-600 mt-1" />
                         </div>
                         <Link
                           href={`/concepts/${conn.targetConcept.slug}`}

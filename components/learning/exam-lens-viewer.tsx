@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { MarkdownContent } from '@/components/ui/markdown-content';
 
 export interface ExamLensData {
   examSlug: string;
@@ -78,20 +79,20 @@ export function ExamLensViewer({ examLenses }: ExamLensViewerProps) {
         {currentLens.questionStyle && (
           <div className="bg-white p-3 rounded border border-stone-200">
             <span className="font-semibold text-stone-900 block mb-1">📝 Expected Question Pattern:</span>
-            <p className="text-stone-700 leading-relaxed">{currentLens.questionStyle}</p>
+            <MarkdownContent content={currentLens.questionStyle} className="text-stone-700 text-xs leading-relaxed" />
           </div>
         )}
 
         {currentLens.frequentTraps && (
           <div className="bg-amber-50 p-3 rounded border border-amber-200 text-amber-900">
             <span className="font-semibold block mb-1">⚠️ High-Yield Traps to Avoid:</span>
-            <p className="leading-relaxed">{currentLens.frequentTraps}</p>
+            <MarkdownContent content={currentLens.frequentTraps} className="text-amber-900 text-xs leading-relaxed" />
           </div>
         )}
 
         {currentLens.notes && (
-          <div className="bg-stone-100 p-2.5 rounded border border-stone-200 text-[11px] text-stone-600 font-mono whitespace-pre-line">
-            {currentLens.notes}
+          <div className="bg-stone-100 p-2.5 rounded border border-stone-200 text-[11px] text-stone-600 font-mono">
+            <MarkdownContent content={currentLens.notes} className="text-stone-600 text-[11px] font-mono" />
           </div>
         )}
       </div>

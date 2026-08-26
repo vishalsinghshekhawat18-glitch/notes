@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { MarkdownContent } from '@/components/ui/markdown-content';
 
 export interface EvidenceItem {
   id: string;
@@ -37,8 +38,8 @@ export function EvidenceDrawer({ claimStatement, evidenceList }: EvidenceDrawerP
         <div className="mt-2.5 p-3.5 bg-stone-100 border border-stone-300 rounded-md space-y-3 font-sans text-stone-800 animate-in fade-in-50 duration-150">
           {claimStatement && (
             <div className="text-[12px] font-medium text-stone-900 pb-2 border-b border-stone-200">
-              <span className="text-stone-500 font-mono text-[10px] uppercase block">Canonical Proposition</span>
-              &ldquo;{claimStatement}&rdquo;
+              <span className="text-stone-500 font-mono text-[10px] uppercase block mb-0.5">Canonical Proposition</span>
+              <MarkdownContent content={claimStatement} className="text-stone-900" />
             </div>
           )}
 
@@ -63,7 +64,7 @@ export function EvidenceDrawer({ claimStatement, evidenceList }: EvidenceDrawerP
 
                 {ev.excerpt && (
                   <div className="bg-stone-50 p-2 rounded text-stone-700 italic border-l-2 border-stone-400 text-[11px]">
-                    &ldquo;{ev.excerpt}&rdquo;
+                    <MarkdownContent content={ev.excerpt} className="text-stone-700 text-[11px] italic" />
                   </div>
                 )}
               </div>

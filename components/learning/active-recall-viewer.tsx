@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { MarkdownContent } from '@/components/ui/markdown-content';
 
 export interface QuestionData {
   id: string;
@@ -65,8 +66,11 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
                 </span>
               </div>
 
-              <div className="font-medium text-stone-900 text-sm leading-relaxed mb-3 whitespace-pre-line">
-                {q.stem}
+              <div className="mb-3">
+                <MarkdownContent
+                  content={q.stem}
+                  className="font-medium text-stone-900 text-sm leading-relaxed"
+                />
               </div>
 
               {parsedOptions.length > 0 && (
@@ -78,10 +82,12 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
                         : opt?.text || opt?.statement || JSON.stringify(opt);
                     return (
                       <div key={oIdx} className="text-stone-700 font-sans text-xs flex items-start gap-2">
-                        <span className="font-mono font-semibold text-stone-400">
+                        <span className="font-mono font-semibold text-stone-400 shrink-0 mt-0.5">
                           {String.fromCharCode(65 + oIdx)}.
                         </span>
-                        <span>{optText}</span>
+                        <div className="flex-1">
+                          <MarkdownContent content={optText} className="text-xs" />
+                        </div>
                       </div>
                     );
                   })}
@@ -97,24 +103,28 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
                 </button>
 
                 {isRevealed && (
-                  <div className="mt-3 p-3 bg-emerald-50 border border-emerald-200 rounded text-emerald-950 space-y-2 animate-in fade-in-50 duration-150">
+                  <div className="mt-3 p-3.5 bg-emerald-50 border border-emerald-200 rounded-lg text-emerald-950 space-y-2.5 animate-in fade-in-50 duration-150">
                     <div>
                       <span className="font-semibold text-emerald-900 block text-xs">
                         ✔️ Correct Answer:
                       </span>
-                      <p className="font-medium mt-0.5">{q.correctAnswer}</p>
+                      <p className="font-medium mt-0.5 text-xs sm:text-sm">{q.correctAnswer}</p>
                     </div>
 
                     <div>
                       <span className="font-semibold text-emerald-900 block text-xs">
                         📖 Doctrinal Explanation:
                       </span>
-                      <p className="text-stone-800 leading-relaxed mt-0.5">{q.explanation}</p>
+                      <MarkdownContent
+                        content={q.explanation}
+                        className="text-stone-800 text-xs sm:text-[13px] leading-relaxed mt-0.5"
+                      />
                     </div>
 
                     {q.trapExplanation && (
-                      <div className="pt-1.5 border-t border-emerald-200 text-amber-900 text-[11px]">
-                        <strong>⚠️ Examiner Trap Insight:</strong> {q.trapExplanation}
+                      <div className="pt-2 border-t border-emerald-200 text-amber-900 text-xs">
+                        <strong className="block text-amber-950 mb-0.5">⚠️ Examiner Trap Insight:</strong>
+                        <MarkdownContent content={q.trapExplanation} className="text-amber-900 text-xs" />
                       </div>
                     )}
                   </div>

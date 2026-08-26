@@ -6,6 +6,7 @@ import { EvidenceDrawer, EvidenceItem } from './evidence-drawer';
 import { ExamLensViewer, ExamLensData } from './exam-lens-viewer';
 import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
 import { RevisionViewer, RevisionUnitData } from './revision-viewer';
+import { MarkdownContent } from '@/components/ui/markdown-content';
 
 export interface ContinuousReaderConcept {
   id: string;
@@ -411,9 +412,10 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
                           </h4>
                         )}
 
-                        <div className="text-sm md:text-[15px] leading-relaxed text-stone-800 whitespace-pre-line font-serif">
-                          {block.body}
-                        </div>
+                        <MarkdownContent
+                          content={block.body}
+                          className="text-sm md:text-[15px] leading-relaxed text-stone-800 font-serif"
+                        />
                       </div>
                     );
                   })}

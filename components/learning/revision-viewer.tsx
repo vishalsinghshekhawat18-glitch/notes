@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { MarkdownContent } from '@/components/ui/markdown-content';
 
 export interface RevisionUnitData {
   id: string;
@@ -54,10 +55,11 @@ export function RevisionViewer({ revisionUnits }: RevisionViewerProps) {
       </div>
 
       {/* Content */}
-      <div className="bg-white p-4 rounded border border-stone-200 text-xs text-stone-800">
-        <div className="whitespace-pre-line leading-relaxed font-sans">
-          {currentUnit.content}
-        </div>
+      <div className="bg-white p-4 rounded border border-stone-200 text-xs sm:text-sm text-stone-800">
+        <MarkdownContent
+          content={currentUnit.content}
+          className="text-xs sm:text-sm leading-relaxed"
+        />
       </div>
     </div>
   );
