@@ -2210,7 +2210,7 @@ export async function seedTopic9CanonicalKnowledge() {
     });
   }
 
-  let subject = await db.subject.findFirst({ where: { name: 'Indian Polity', domainId: domain.id } });
+  let subject = await db.subject.findFirst({ where: { slug: 'indian-polity' } });
   if (!subject) {
     subject = await db.subject.create({
       data: {

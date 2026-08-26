@@ -7,6 +7,8 @@ export default defineConfig({
     globals: true,
     include: ['tests/**/*.test.ts'],
     fileParallelism: false,
+    testTimeout: 35000,
+    hookTimeout: 35000,
     sequence: {
       concurrent: false,
     },

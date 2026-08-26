@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { DepthSelector } from './depth-selector';
 import { EvidenceDrawer, EvidenceItem } from './evidence-drawer';
 import { ExamLensViewer, ExamLensData } from './exam-lens-viewer';
@@ -21,14 +22,16 @@ export interface ConceptClaim {
   id: string;
   statement: string;
   claimType: string;
-  importance: string;
+  importance?: string;
   confidence: string;
+  epistemicLevel?: string;
   scopeConditions?: string | null;
   evidence: Array<{
     id: string;
     locator: string;
     excerpt?: string | null;
-    evidentiarySupport: string;
+    evidentiarySupport?: string;
+    notes?: string | null;
     source: {
       title: string;
       authorityTier: string;
@@ -48,6 +51,13 @@ export interface ConceptConnection {
   };
 }
 
+export interface SiblingConcept {
+  id: string;
+  slug: string;
+  title: string;
+  difficulty: string;
+}
+
 export interface ConceptLearningViewProps {
   concept: {
     id: string;
@@ -57,13 +67,17 @@ export interface ConceptLearningViewProps {
     difficulty: string;
     status: string;
     topic: {
+      slug: string;
       title: string;
       subject: {
+        slug: string;
         name: string;
         domain: {
+          slug: string;
           name: string;
         };
       };
+      concepts?: SiblingConcept[];
     };
     contentBlocks: ConceptBlock[];
     claims: ConceptClaim[];
@@ -73,7 +87,7 @@ export interface ConceptLearningViewProps {
       syllabusUnit: string;
       relevance: string;
       priority: string;
-      requiredDepth: string;
+      requiredDepth?: string;
       questionStyle?: string | null;
       frequentTraps?: string | null;
       notes?: string | null;
@@ -85,243 +99,358 @@ export interface ConceptLearningViewProps {
 }
 
 export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
-  const [depthLevel, setDepthLevel] = useState<number>(2); // Default to Level 2 (Understand basic idea)
-  const [activeTab, setActiveTab] = useState<'READING' | 'EXAMS' | 'ACTIVE_RECALL' | 'REVISION' | 'EVIDENCE'>('READING');
+  const [depthLevel, setDepthLevel] = useState<number>(2); // Default to Level 2
+  const [activeTab, setActiveTab] = useState<'READING' | 'EXAMS' | 'ACTIVE_RECALL' | 'REVISION' | 'EVIDENCE' | 'CONNECTIONS'>('READING');
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const siblingConcepts = concept.topic.concepts || [];
+  const currentIndex = siblingConcepts.findIndex((c) => c.slug === concept.slug);
+  const prevConcept = currentIndex > 0 ? siblingConcepts[currentIndex - 1] : null;
+  const nextConcept = currentIndex >= 0 && currentIndex < siblingConcepts.length - 1 ? siblingConcepts[currentIndex + 1] : null;
 
   // Filter content blocks by depth level
   const displayedBlocks = concept.contentBlocks.filter((b) => {
-    if (depthLevel === 1) {
-      return b.type === 'CORE_IDEA';
-    }
-    if (depthLevel === 2) {
-      return b.type === 'CORE_IDEA' || b.type === 'WHY_IT_MATTERS';
-    }
-    if (depthLevel === 3) {
-      return b.type === 'CORE_IDEA' || b.type === 'WHY_IT_MATTERS' || b.type === 'MECHANISM';
-    }
-    if (depthLevel === 4) {
-      return (
-        b.type === 'CORE_IDEA' ||
-        b.type === 'WHY_IT_MATTERS' ||
-        b.type === 'MECHANISM' ||
-        b.type === 'TIMELINE' ||
-        b.type === 'COMPARISON'
-      );
-    }
+    if (depthLevel === 1) return b.type === 'CORE_IDEA' || b.type === 'INTUITION';
+    if (depthLevel === 2) return b.type === 'CORE_IDEA' || b.type === 'INTUITION' || b.type === 'WHY_IT_MATTERS' || b.type === 'COMPARISON';
+    if (depthLevel === 3) return b.type === 'CORE_IDEA' || b.type === 'INTUITION' || b.type === 'WHY_IT_MATTERS' || b.type === 'COMPARISON' || b.type === 'MECHANISM';
+    if (depthLevel === 4) return b.type !== 'ADVANCED_REFERENCE';
     return true; // Levels 5 and 6 show all blocks
   });
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 text-stone-900 font-sans">
-      {/* Breadcrumb Header */}
-      <div className="text-xs font-mono text-stone-500 mb-2 flex items-center gap-1.5">
-        <span>{concept.topic.subject.domain.name}</span>
-        <span>›</span>
-        <span>{concept.topic.subject.name}</span>
-        <span>›</span>
-        <span className="text-stone-700 font-semibold">{concept.topic.title}</span>
-      </div>
+    <div className="max-w-7xl mx-auto px-4 py-6 font-sans">
+      <div className="flex gap-8 items-start">
+        {/* Left Navigation Sidebar (Topic Concepts) */}
+        <aside className="hidden lg:block w-72 shrink-0 sticky top-20 bg-white border border-stone-200 rounded-xl p-4 shadow-xs max-h-[calc(100vh-6rem)] overflow-y-auto">
+          <div className="text-xs font-mono font-semibold text-stone-500 uppercase tracking-wider mb-1">
+            Topic Curriculum
+          </div>
+          <Link
+            href={`/topics/${concept.topic.slug}`}
+            className="font-serif font-bold text-sm text-stone-900 hover:text-emerald-800 transition-colors block mb-3 pb-2 border-b border-stone-100"
+          >
+            {concept.topic.title}
+          </Link>
 
-      {/* Main Title & Canonical Status */}
-      <div className="border-b border-stone-300 pb-5 mb-6">
-        <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-          <span className="bg-emerald-100 text-emerald-900 font-mono text-[11px] px-2 py-0.5 rounded font-semibold uppercase tracking-wider">
-            Canonical Knowledge Base
-          </span>
-          <span className="text-xs font-mono text-stone-500">
-            Difficulty: {concept.difficulty}
-          </span>
-        </div>
-        <h1 className="text-2xl md:text-3xl font-serif font-bold text-stone-900 leading-tight">
-          {concept.title}
-        </h1>
-        <p className="text-sm md:text-base text-stone-700 font-serif italic mt-3 leading-relaxed bg-stone-100 p-3.5 rounded border-l-4 border-stone-500">
-          &ldquo;{concept.shortDefinition}&rdquo;
-        </p>
-      </div>
+          <div className="space-y-1">
+            {siblingConcepts.map((sc, index) => {
+              const isCurrent = sc.slug === concept.slug;
+              return (
+                <Link
+                  key={sc.id}
+                  href={`/concepts/${sc.slug}`}
+                  className={`flex items-baseline gap-2 px-2.5 py-1.5 rounded-lg text-xs transition-colors ${
+                    isCurrent
+                      ? 'bg-emerald-800 text-white font-semibold shadow-xs'
+                      : 'text-stone-700 hover:bg-stone-100'
+                  }`}
+                >
+                  <span className={`font-mono text-[10px] shrink-0 ${isCurrent ? 'text-emerald-200' : 'text-stone-400'}`}>
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <span className="truncate leading-tight">{sc.title}</span>
+                </Link>
+              );
+            })}
+          </div>
+        </aside>
 
-      {/* Depth Ramp Selector */}
-      <DepthSelector currentLevel={depthLevel} onSelectLevel={setDepthLevel} />
+        {/* Main Content Area */}
+        <main className="flex-1 min-w-0 max-w-4xl">
+          {/* Breadcrumbs */}
+          <div className="flex items-center justify-between text-xs font-mono text-stone-500 mb-2">
+            <nav className="flex items-center gap-1.5 truncate">
+              <Link href="/" className="hover:text-stone-900 transition-colors">
+                Library
+              </Link>
+              <span>›</span>
+              <Link href={`/topics/${concept.topic.slug}`} className="hover:text-stone-900 transition-colors truncate">
+                {concept.topic.title}
+              </Link>
+            </nav>
 
-      {/* Mode Navigation Tabs */}
-      <div className="flex flex-wrap gap-2 border-b border-stone-200 pb-2 mb-6">
-        {[
-          { id: 'READING', label: '📖 Guided Reading' },
-          { id: 'EXAMS', label: `🎯 Exam Lenses (${concept.examMappings.length})` },
-          { id: 'ACTIVE_RECALL', label: `🧠 Active Recall (${concept.questions.length})` },
-          { id: 'REVISION', label: `⚡ Revision Units (${concept.revisionUnits.length})` },
-          { id: 'EVIDENCE', label: `🔍 Provenance & Claims (${concept.claims.length})` },
-        ].map((tab) => {
-          const isActive = activeTab === tab.id;
-          return (
             <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id as any)}
-              className={`px-3.5 py-1.5 rounded-md text-xs font-medium transition-colors cursor-pointer ${
-                isActive
-                  ? 'bg-stone-900 text-white shadow-xs'
-                  : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
-              }`}
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              className="lg:hidden text-xs text-stone-600 bg-stone-100 px-2 py-1 rounded border border-stone-300"
             >
-              {tab.label}
+              {siblingConcepts.length} Concepts ☰
             </button>
-          );
-        })}
-      </div>
+          </div>
 
-      {/* Tab View: Guided Reading */}
-      {activeTab === 'READING' && (
-        <div className="space-y-8">
-          {displayedBlocks.map((block) => {
-            // Find any linked claims for this block type
-            const relevantClaims = concept.claims.filter((c) => {
-              if (block.type === 'CORE_IDEA' && c.claimType === 'LEGAL_PROVISION') return true;
-              if (block.type === 'MECHANISM' && c.claimType === 'RULE') return true;
-              if (block.type === 'TIMELINE' && c.claimType === 'PRINCIPLE') return true;
-              if (block.type === 'EXCEPTION' && (c.claimType === 'EXCEPTION' || c.claimType === 'LEGAL_PROVISION')) return true;
-              return false;
-            });
-
-            const evidenceItems: EvidenceItem[] = relevantClaims.flatMap((c) =>
-              c.evidence.map((e) => ({
-                id: e.id,
-                sourceTitle: e.source.title,
-                authorityTier: e.source.authorityTier,
-                locator: e.locator,
-                excerpt: e.excerpt,
-                evidentiarySupport: e.evidentiarySupport,
-              }))
-            );
-
-            return (
-              <section key={block.id} className="prose prose-stone max-w-none">
-                {block.title && (
-                  <h2 className="text-lg font-serif font-bold text-stone-900 border-b border-stone-200 pb-1.5 mb-3">
-                    {block.title}
-                  </h2>
-                )}
-                <div className="text-sm md:text-[15px] leading-relaxed text-stone-800 whitespace-pre-line font-serif">
-                  {block.body}
-                </div>
-
-                {/* Evidence Drawer */}
-                {evidenceItems.length > 0 && (
-                  <EvidenceDrawer
-                    claimStatement={relevantClaims[0]?.statement}
-                    evidenceList={evidenceItems}
-                  />
-                )}
-              </section>
-            );
-          })}
-
-          {/* Meaningful Cross-Domain Connections */}
-          {concept.outgoingConnections && concept.outgoingConnections.length > 0 && (
-            <div className="my-8 p-4 bg-stone-100 rounded-lg border border-stone-200">
-              <h3 className="text-sm font-semibold text-stone-900 mb-2">
-                🔗 Conceptual Cross-Connections
-              </h3>
-              <div className="space-y-2">
-                {concept.outgoingConnections.map((conn) => (
-                  <div key={conn.id} className="text-xs bg-white p-2.5 rounded border border-stone-200">
-                    <span className="font-semibold text-stone-900 block">
-                      Article 14 ➔ {conn.targetConcept.title} ({conn.type.replace(/_/g, ' ')})
-                    </span>
-                    <p className="text-stone-600 mt-1">{conn.explanation}</p>
-                  </div>
+          {/* Mobile Concept Drawer */}
+          {isSidebarOpen && (
+            <div className="lg:hidden mb-6 p-4 bg-white border border-stone-300 rounded-xl shadow-md">
+              <div className="font-serif font-bold text-sm mb-2">{concept.topic.title}</div>
+              <div className="space-y-1 max-h-60 overflow-y-auto">
+                {siblingConcepts.map((sc, index) => (
+                  <Link
+                    key={sc.id}
+                    href={`/concepts/${sc.slug}`}
+                    onClick={() => setIsSidebarOpen(false)}
+                    className={`block px-2 py-1 rounded text-xs ${
+                      sc.slug === concept.slug ? 'bg-emerald-800 text-white font-semibold' : 'text-stone-700 hover:bg-stone-100'
+                    }`}
+                  >
+                    {String(index + 1).padStart(2, '0')}. {sc.title}
+                  </Link>
                 ))}
               </div>
             </div>
           )}
 
-          {/* Guided Knowledge Reconstruction Prompt */}
-          <KnowledgeReconstruction />
-        </div>
-      )}
-
-      {/* Tab View: Exam Lenses */}
-      {activeTab === 'EXAMS' && (
-        <div>
-          <ExamLensViewer examLenses={concept.examMappings as any} />
-        </div>
-      )}
-
-      {/* Tab View: Active Recall */}
-      {activeTab === 'ACTIVE_RECALL' && (
-        <div>
-          <ActiveRecallViewer questions={concept.questions} />
-        </div>
-      )}
-
-      {/* Tab View: Revision */}
-      {activeTab === 'REVISION' && (
-        <div>
-          <RevisionViewer revisionUnits={concept.revisionUnits} />
-        </div>
-      )}
-
-      {/* Tab View: Forensic Claims & Evidence */}
-      {activeTab === 'EVIDENCE' && (
-        <div className="space-y-4 my-6">
-          <div className="pb-2 border-b border-stone-200">
-            <h3 className="text-base font-semibold text-stone-900">
-              🔍 Atomic Claims & Forensic Evidence Provenance
-            </h3>
-            <p className="text-xs text-stone-500">
-              Direct audit trail linking every canonical proposition to primary constitutional and judicial sources.
+          {/* Concept Title & Canonical Status */}
+          <div className="border-b border-stone-200 pb-5 mb-6">
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <span className="bg-emerald-100 text-emerald-900 font-mono text-[10px] px-2 py-0.5 rounded font-semibold uppercase tracking-wider">
+                Canonical Concept
+              </span>
+              <span className="text-xs font-mono text-stone-500">
+                Difficulty: <span className="font-semibold text-stone-700">{concept.difficulty}</span>
+              </span>
+            </div>
+            <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 leading-tight">
+              {concept.title}
+            </h1>
+            <p className="text-sm text-stone-700 font-serif italic mt-3 leading-relaxed bg-stone-100/80 p-3.5 rounded-lg border-l-3 border-stone-400">
+              &ldquo;{concept.shortDefinition}&rdquo;
             </p>
           </div>
 
-          <div className="space-y-3">
-            {concept.claims.map((claim, idx) => (
-              <div key={claim.id || idx} className="bg-white p-4 rounded border border-stone-200 text-xs">
-                <div className="flex items-center justify-between gap-2 mb-1.5">
-                  <span className="font-mono text-[10px] uppercase font-semibold bg-stone-100 text-stone-800 px-2 py-0.5 rounded">
-                    {claim.claimType}
-                  </span>
-                  <div className="font-mono text-[10px] flex items-center gap-1.5">
-                    <span className="bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded">
-                      {claim.confidence}
-                    </span>
-                    <span className="bg-stone-200 text-stone-700 px-1.5 py-0.5 rounded">
-                      {claim.importance}
-                    </span>
-                  </div>
-                </div>
+          {/* Cognitive Depth Slider */}
+          <DepthSelector currentLevel={depthLevel} onSelectLevel={setDepthLevel} />
 
-                <p className="font-medium text-stone-900 text-sm mb-2">
-                  &ldquo;{claim.statement}&rdquo;
+          {/* Mode Navigation Tabs */}
+          <div className="flex flex-wrap gap-2 border-b border-stone-200 pb-2 mb-6">
+            {[
+              { id: 'READING', label: '📖 Guided Reading' },
+              { id: 'EXAMS', label: `🎯 Exam Lenses (${concept.examMappings.length})` },
+              { id: 'ACTIVE_RECALL', label: `🧠 Active Recall (${concept.questions.length})` },
+              { id: 'REVISION', label: `⚡ Revision (${concept.revisionUnits.length})` },
+              { id: 'EVIDENCE', label: `🔍 Sources & Claims (${concept.claims.length})` },
+              { id: 'CONNECTIONS', label: `🔗 Connections (${concept.outgoingConnections.length})` },
+            ].map((tab) => {
+              const isActive = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id as any)}
+                  className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors cursor-pointer ${
+                    isActive
+                      ? 'bg-stone-900 text-white shadow-xs'
+                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* TAB 1: Guided Reading */}
+          {activeTab === 'READING' && (
+            <div className="space-y-8">
+              {displayedBlocks.map((block) => {
+                const relevantClaims = concept.claims.filter((c) => {
+                  if (block.type === 'CORE_IDEA' && (c.claimType === 'LEGAL_PROVISION' || c.claimType === 'DEFINITION')) return true;
+                  if (block.type === 'MECHANISM' && (c.claimType === 'RULE' || c.claimType === 'CONCEPT')) return true;
+                  if (block.type === 'TIMELINE' && c.claimType === 'PRINCIPLE') return true;
+                  if (block.type === 'EXCEPTION' && c.claimType === 'EXCEPTION') return true;
+                  return false;
+                });
+
+                const evidenceItems: EvidenceItem[] = relevantClaims.flatMap((c) =>
+                  c.evidence.map((e) => ({
+                    id: e.id,
+                    sourceTitle: e.source.title,
+                    authorityTier: e.source.authorityTier,
+                    locator: e.locator,
+                    excerpt: e.excerpt,
+                    evidentiarySupport: e.evidentiarySupport || e.notes || 'Direct evidentiary support.',
+                  }))
+                );
+
+                return (
+                  <section key={block.id} className="bg-white border border-stone-200/80 rounded-xl p-6 shadow-xs">
+                    {block.title && (
+                      <h2 className="text-lg font-serif font-bold text-stone-900 border-b border-stone-100 pb-2 mb-3">
+                        {block.title}
+                      </h2>
+                    )}
+                    <div className="text-sm md:text-[15px] leading-relaxed text-stone-800 whitespace-pre-line font-serif">
+                      {block.body}
+                    </div>
+
+                    {/* Evidence Drawer Trigger */}
+                    {evidenceItems.length > 0 && (
+                      <div className="mt-4 pt-3 border-t border-stone-100">
+                        <EvidenceDrawer
+                          claimStatement={relevantClaims[0]?.statement}
+                          evidenceList={evidenceItems}
+                        />
+                      </div>
+                    )}
+                  </section>
+                );
+              })}
+
+              <KnowledgeReconstruction />
+            </div>
+          )}
+
+          {/* TAB 2: Exam Lenses */}
+          {activeTab === 'EXAMS' && (
+            <div>
+              <ExamLensViewer examLenses={concept.examMappings as any} />
+            </div>
+          )}
+
+          {/* TAB 3: Active Recall MCQs */}
+          {activeTab === 'ACTIVE_RECALL' && (
+            <div>
+              <ActiveRecallViewer questions={concept.questions} />
+            </div>
+          )}
+
+          {/* TAB 4: Multi-Tier Revision */}
+          {activeTab === 'REVISION' && (
+            <div>
+              <RevisionViewer revisionUnits={concept.revisionUnits} />
+            </div>
+          )}
+
+          {/* TAB 5: Sources & Claim Provenance */}
+          {activeTab === 'EVIDENCE' && (
+            <div className="space-y-4">
+              <div className="bg-white border border-stone-200 rounded-xl p-5 shadow-xs">
+                <h3 className="font-serif font-bold text-base text-stone-900 mb-1">
+                  Claim-Level Epistemic Provenance
+                </h3>
+                <p className="text-xs text-stone-500 mb-4">
+                  Every canonical claim is bound to explicit source evidence and authoritative locators.
                 </p>
 
-                {claim.scopeConditions && (
-                  <div className="text-stone-600 font-mono text-[11px] mb-2">
-                    Scope: {claim.scopeConditions}
-                  </div>
-                )}
-
-                {/* Evidence List */}
-                <div className="space-y-1.5 pt-2 border-t border-stone-100">
-                  <span className="text-stone-400 font-mono text-[10px] uppercase block">
-                    Attached Evidence ({claim.evidence.length})
-                  </span>
-                  {claim.evidence.map((ev, eIdx) => (
-                    <div key={ev.id || eIdx} className="bg-stone-50 p-2 rounded text-[11px] border border-stone-200">
-                      <div className="flex items-center justify-between">
-                        <span className="font-semibold text-stone-800">{ev.source.title}</span>
-                        <span className="text-emerald-700 font-mono text-[10px]">{ev.evidentiarySupport}</span>
+                <div className="space-y-4 divide-y divide-stone-100">
+                  {concept.claims.map((claim) => (
+                    <div key={claim.id} className="pt-3 first:pt-0 space-y-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <span className="text-xs font-mono font-bold text-stone-500">{claim.id}</span>
+                        <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-800 font-semibold">
+                          {claim.confidence} Confidence
+                        </span>
                       </div>
-                      <div className="text-stone-500 font-mono text-[10px]">Locator: {ev.locator}</div>
-                      {ev.excerpt && (
-                        <div className="text-stone-700 italic mt-1">&ldquo;{ev.excerpt}&rdquo;</div>
+                      <p className="text-sm font-serif font-medium text-stone-800">
+                        {claim.statement}
+                      </p>
+                      {claim.scopeConditions && (
+                        <p className="text-xs text-amber-800 bg-amber-50 p-2 rounded border border-amber-200">
+                          Scope: {claim.scopeConditions}
+                        </p>
                       )}
+                      <div className="space-y-1 text-xs text-stone-600 bg-stone-50 p-2.5 rounded border border-stone-200">
+                        {claim.evidence.map((ev) => (
+                          <div key={ev.id} className="flex flex-col gap-0.5">
+                            <span className="font-semibold text-stone-900">
+                              📚 {ev.source.title} ({ev.source.authorityTier})
+                            </span>
+                            <span className="font-mono text-[11px] text-stone-500">
+                              Locator: {ev.locator}
+                            </span>
+                            {ev.excerpt && (
+                              <span className="italic text-stone-700 mt-0.5">
+                                &ldquo;{ev.excerpt}&rdquo;
+                              </span>
+                            )}
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>
               </div>
-            ))}
+            </div>
+          )}
+
+          {/* TAB 6: Conceptual Connections */}
+          {activeTab === 'CONNECTIONS' && (
+            <div className="space-y-4">
+              <div className="bg-white border border-stone-200 rounded-xl p-5 shadow-xs">
+                <h3 className="font-serif font-bold text-base text-stone-900 mb-1">
+                  Conceptual Cross-Connections
+                </h3>
+                <p className="text-xs text-stone-500 mb-4">
+                  Traces how this concept interacts with other constitutional and economic doctrines.
+                </p>
+
+                {concept.outgoingConnections.length === 0 ? (
+                  <p className="text-xs text-stone-500 italic">No direct outgoing cross-connections recorded.</p>
+                ) : (
+                  <div className="space-y-3">
+                    {concept.outgoingConnections.map((conn) => (
+                      <div key={conn.id} className="p-3 bg-stone-50 rounded-lg border border-stone-200 flex flex-col justify-between gap-2">
+                        <div>
+                          <div className="flex items-center justify-between">
+                            <span className="font-serif font-bold text-sm text-stone-900">
+                              {concept.title} ➔ {conn.targetConcept.title}
+                            </span>
+                            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-stone-200 text-stone-700">
+                              {conn.type.replace(/_/g, ' ')}
+                            </span>
+                          </div>
+                          <p className="text-xs text-stone-600 mt-1">{conn.explanation}</p>
+                        </div>
+                        <Link
+                          href={`/concepts/${conn.targetConcept.slug}`}
+                          className="text-xs font-semibold text-emerald-800 self-end hover:underline inline-flex items-center gap-1"
+                        >
+                          <span>Explore {conn.targetConcept.title}</span>
+                          <span>→</span>
+                        </Link>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Bottom Previous / Next Concept Navigation Bar */}
+          <div className="mt-10 pt-6 border-t border-stone-200 flex items-center justify-between gap-4">
+            {prevConcept ? (
+              <Link
+                href={`/concepts/${prevConcept.slug}`}
+                className="flex items-center gap-2 p-3 bg-white border border-stone-200 hover:border-stone-400 rounded-xl shadow-xs text-left group transition-all"
+              >
+                <span className="text-stone-400 group-hover:-translate-x-0.5 transition-transform">←</span>
+                <div>
+                  <div className="text-[10px] font-mono text-stone-400 uppercase">Previous Concept</div>
+                  <div className="text-xs font-serif font-bold text-stone-900 group-hover:text-emerald-800 truncate max-w-[200px]">
+                    {prevConcept.title}
+                  </div>
+                </div>
+              </Link>
+            ) : (
+              <div />
+            )}
+
+            {nextConcept ? (
+              <Link
+                href={`/concepts/${nextConcept.slug}`}
+                className="flex items-center gap-2 p-3 bg-white border border-stone-200 hover:border-stone-400 rounded-xl shadow-xs text-right group transition-all"
+              >
+                <div>
+                  <div className="text-[10px] font-mono text-stone-400 uppercase">Next Concept</div>
+                  <div className="text-xs font-serif font-bold text-stone-900 group-hover:text-emerald-800 truncate max-w-[200px]">
+                    {nextConcept.title}
+                  </div>
+                </div>
+                <span className="text-stone-400 group-hover:translate-x-0.5 transition-transform">→</span>
+              </Link>
+            ) : (
+              <div />
+            )}
           </div>
-        </div>
-      )}
+        </main>
+      </div>
     </div>
   );
 }

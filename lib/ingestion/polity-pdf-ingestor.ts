@@ -96,7 +96,9 @@ export async function executePhase6ControlledIngestion() {
     },
   });
 
-  // Clear existing sections & coverage units for fresh accounting
+  // Clear existing sections & coverage units for fresh accounting in dependency order
+  await db.evidence.deleteMany({ where: { sourceId: source.id } });
+  await db.ingestionItem.deleteMany({ where: { sourceId: source.id } });
   await db.coverageUnit.deleteMany({ where: { sourceId: source.id } });
   await db.sourceSection.deleteMany({ where: { sourceId: source.id } });
 
