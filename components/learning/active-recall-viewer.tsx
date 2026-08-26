@@ -42,10 +42,13 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
       <div className="space-y-4">
         {questions.map((q, idx) => {
           const isRevealed = !!revealedIds[q.id];
-          let parsedOptions: string[] = [];
+          let parsedOptions: any[] = [];
           try {
             if (q.options) {
-              parsedOptions = JSON.parse(q.options);
+              const raw = JSON.parse(q.options);
+              if (Array.isArray(raw)) {
+                parsedOptions = raw;
+              }
             }
           } catch {
             parsedOptions = [];
@@ -68,14 +71,20 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
 
               {parsedOptions.length > 0 && (
                 <div className="space-y-1.5 mb-3 pl-2">
-                  {parsedOptions.map((opt, oIdx) => (
-                    <div key={oIdx} className="text-stone-700 font-sans text-xs flex items-start gap-2">
-                      <span className="font-mono font-semibold text-stone-400">
-                        {String.fromCharCode(65 + oIdx)}.
-                      </span>
-                      <span>{opt}</span>
-                    </div>
-                  ))}
+                  {parsedOptions.map((opt, oIdx) => {
+                    const optText =
+                      typeof opt === 'string'
+                        ? opt
+                        : opt?.text || opt?.statement || JSON.stringify(opt);
+                    return (
+                      <div key={oIdx} className="text-stone-700 font-sans text-xs flex items-start gap-2">
+                        <span className="font-mono font-semibold text-stone-400">
+                          {String.fromCharCode(65 + oIdx)}.
+                        </span>
+                        <span>{optText}</span>
+                      </div>
+                    );
+                  })}
                 </div>
               )}
 

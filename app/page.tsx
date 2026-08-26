@@ -21,27 +21,34 @@ export default async function LibraryPage() {
 
         {/* Quick Launch Cards */}
         <div className="mt-6 flex flex-wrap gap-2 text-xs">
-          <span className="text-stone-500 font-mono self-center mr-1">Featured Pilot:</span>
+          <span className="text-stone-500 font-mono self-center mr-1">Featured Modules:</span>
           <Link
-            href="/topics/part-3-fundamental-rights"
+            href="/topics/part-3-fundamental-rights/read"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-stone-900 text-stone-50 hover:bg-emerald-800 transition-colors font-medium shadow-xs"
           >
-            <span>📜 Part III: Fundamental Rights</span>
+            <span>▶ Read Part III: Fundamental Rights</span>
             <span className="text-[10px] bg-stone-700 px-1.5 py-0.2 rounded">16 Concepts</span>
           </Link>
           <Link
-            href="/topics/part-4-directive-principles-of-state-policy"
+            href="/topics/the-union-executive/read"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-800 border border-stone-300 transition-colors"
           >
-            <span>🏛️ Part IV: Directive Principles</span>
-            <span className="text-[10px] bg-stone-200 px-1.5 py-0.2 rounded">5 Concepts</span>
+            <span>▶ Read Union Executive</span>
+            <span className="text-[10px] bg-stone-200 px-1.5 py-0.2 rounded">6 Concepts</span>
           </Link>
           <Link
-            href="/topics/inflation-dynamics-measurement-policy"
+            href="/topics/the-union-judiciary/read"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-800 border border-stone-300 transition-colors"
           >
-            <span>📈 Economics: Inflation Dynamics</span>
-            <span className="text-[10px] bg-stone-200 px-1.5 py-0.2 rounded">5 Concepts</span>
+            <span>▶ Read Supreme Court</span>
+            <span className="text-[10px] bg-stone-200 px-1.5 py-0.2 rounded">3 Concepts</span>
+          </Link>
+          <Link
+            href="/topics/emergency-provisions-and-safeguards/read"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-800 border border-stone-300 transition-colors"
+          >
+            <span>▶ Read Emergency Provisions</span>
+            <span className="text-[10px] bg-stone-200 px-1.5 py-0.2 rounded">4 Concepts</span>
           </Link>
         </div>
       </div>
@@ -82,7 +89,7 @@ export default async function LibraryPage() {
                             {topic.concepts.length} Concepts
                           </span>
                         </div>
-                        <Link href={`/topics/${topic.slug}`}>
+                        <Link href={`/topics/${topic.slug}/read`}>
                           <h4 className="font-serif font-bold text-base text-stone-900 group-hover:text-emerald-900 transition-colors">
                             {topic.title}
                           </h4>
@@ -92,15 +99,18 @@ export default async function LibraryPage() {
                         </p>
                       </div>
 
-                      <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between">
-                        <div className="flex items-center gap-1.5 text-[11px] text-stone-500">
-                          <span>Sequential Progression</span>
-                        </div>
+                      <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between gap-2">
                         <Link
                           href={`/topics/${topic.slug}`}
-                          className="text-xs font-semibold text-emerald-800 group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-1"
+                          className="text-xs text-stone-500 hover:text-stone-800 transition-colors"
                         >
-                          <span>Explore Topic</span>
+                          View Outline
+                        </Link>
+                        <Link
+                          href={`/topics/${topic.slug}/read`}
+                          className="text-xs font-semibold px-3 py-1 bg-emerald-800 text-white hover:bg-emerald-900 rounded-lg shadow-2xs transition-colors inline-flex items-center gap-1"
+                        >
+                          <span>START READING</span>
                           <span>→</span>
                         </Link>
                       </div>

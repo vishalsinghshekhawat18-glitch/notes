@@ -127,12 +127,21 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
           </div>
           <Link
             href={`/topics/${concept.topic.slug}`}
-            className="font-serif font-bold text-sm text-stone-900 hover:text-emerald-800 transition-colors block mb-3 pb-2 border-b border-stone-100"
+            className="font-serif font-bold text-sm text-stone-900 hover:text-emerald-800 transition-colors block mb-2"
           >
             {concept.topic.title}
           </Link>
 
-          <div className="space-y-1">
+          {/* Continuous Topic Reading CTA in Sidebar */}
+          <Link
+            href={`/topics/${concept.topic.slug}/read/#concept-${concept.slug}`}
+            className="w-full mb-3 px-2.5 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-200 text-xs font-medium flex items-center justify-between transition-colors group"
+          >
+            <span>▶ Continuous Chapter</span>
+            <span className="text-[10px] font-mono group-hover:translate-x-0.5 transition-transform">→</span>
+          </Link>
+
+          <div className="space-y-1 pt-2 border-t border-stone-100">
             {siblingConcepts.map((sc, index) => {
               const isCurrent = sc.slug === concept.slug;
               return (
@@ -157,8 +166,8 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
 
         {/* Main Content Area */}
         <main className="flex-1 min-w-0 max-w-4xl">
-          {/* Breadcrumbs */}
-          <div className="flex items-center justify-between text-xs font-mono text-stone-500 mb-2">
+          {/* Breadcrumbs & Continuous Mode Action */}
+          <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono text-stone-500 mb-3">
             <nav className="flex items-center gap-1.5 truncate">
               <Link href="/" className="hover:text-stone-900 transition-colors">
                 Library
@@ -169,12 +178,22 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
               </Link>
             </nav>
 
-            <button
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              className="lg:hidden text-xs text-stone-600 bg-stone-100 px-2 py-1 rounded border border-stone-300"
-            >
-              {siblingConcepts.length} Concepts ☰
-            </button>
+            <div className="flex items-center gap-2">
+              <Link
+                href={`/topics/${concept.topic.slug}/read/#concept-${concept.slug}`}
+                className="px-2.5 py-1 rounded bg-emerald-800 text-white hover:bg-emerald-900 font-medium text-xs flex items-center gap-1 transition-colors shadow-2xs"
+              >
+                <span>📖 Read in Topic Mode</span>
+                <span>→</span>
+              </Link>
+
+              <button
+                onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                className="lg:hidden text-xs text-stone-600 bg-stone-100 px-2 py-1 rounded border border-stone-300"
+              >
+                {siblingConcepts.length} Concepts ☰
+              </button>
+            </div>
           </div>
 
           {/* Mobile Concept Drawer */}

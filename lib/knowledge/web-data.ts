@@ -90,6 +90,56 @@ export async function getTopicWithConcepts(topicSlug: string) {
   });
 }
 
+export async function getTopicWithFullConcepts(topicSlug: string) {
+  await ensureCanonicalDataSeeded();
+
+  return db.topic.findFirst({
+    where: { slug: topicSlug },
+    include: {
+      subject: {
+        include: {
+          domain: true,
+          topics: {
+            orderBy: { order: 'asc' },
+            select: { id: true, slug: true, title: true, order: true },
+          },
+        },
+      },
+      concepts: {
+        orderBy: { id: 'asc' },
+        include: {
+          contentBlocks: {
+            orderBy: { order: 'asc' },
+          },
+          claims: {
+            include: {
+              evidence: {
+                include: {
+                  source: true,
+                },
+              },
+            },
+          },
+          examMappings: {
+            include: { exam: true },
+          },
+          revisionUnits: {
+            orderBy: { order: 'asc' },
+          },
+          questions: {
+            orderBy: { difficulty: 'asc' },
+          },
+          outgoingConnections: {
+            include: {
+              targetConcept: true,
+            },
+          },
+        },
+      },
+    },
+  });
+}
+
 export async function getConceptWithFullContext(conceptSlug: string) {
   await ensureCanonicalDataSeeded();
 
