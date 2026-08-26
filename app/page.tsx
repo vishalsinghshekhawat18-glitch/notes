@@ -2,8 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import { getAllLibraryData } from '@/lib/knowledge/web-data';
 
-export const revalidate = 0; // Dynamic data
-
 export default async function LibraryPage() {
   const domains = await getAllLibraryData();
 

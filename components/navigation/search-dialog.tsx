@@ -2,16 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-
-interface SearchResult {
-  id: string;
-  slug: string;
-  title: string;
-  shortDefinition: string;
-  difficulty: string;
-  topicTitle: string;
-  subjectName: string;
-}
+import { STATIC_CONCEPT_INDEX, StaticConceptItem } from './static-concept-index';
 
 interface SearchDialogProps {
   isOpen: boolean;
@@ -20,8 +11,7 @@ interface SearchDialogProps {
 
 export function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<SearchResult[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [results, setResults] = useState<StaticConceptItem[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -34,27 +24,22 @@ export function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
   }, [isOpen]);
 
   useEffect(() => {
-    if (!query.trim()) {
+    const q = query.trim().toLowerCase();
+    if (!q) {
       setResults([]);
       return;
     }
 
-    const timer = setTimeout(async () => {
-      setIsLoading(true);
-      try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-        if (res.ok) {
-          const data = await res.json();
-          setResults(data);
-        }
-      } catch (err) {
-        console.error('Search error:', err);
-      } finally {
-        setIsLoading(false);
-      }
-    }, 150);
+    const filtered = STATIC_CONCEPT_INDEX.filter(
+      (c) =>
+        c.title.toLowerCase().includes(q) ||
+        c.shortDefinition.toLowerCase().includes(q) ||
+        c.slug.toLowerCase().includes(q) ||
+        c.subjectName.toLowerCase().includes(q) ||
+        c.topicTitle.toLowerCase().includes(q)
+    ).slice(0, 10);
 
-    return () => clearTimeout(timer);
+    setResults(filtered);
   }, [query]);
 
   if (!isOpen) return null;
@@ -88,19 +73,13 @@ export function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
 
         {/* Results List */}
         <div className="overflow-y-auto divide-y divide-stone-100 p-2">
-          {isLoading && (
-            <div className="py-6 text-center text-xs text-stone-500 font-mono">
-              Searching canonical graph...
-            </div>
-          )}
-
-          {!isLoading && query && results.length === 0 && (
+          {query && results.length === 0 && (
             <div className="py-8 text-center text-xs text-stone-500">
               No concepts found matching &ldquo;<span className="font-semibold text-stone-700">{query}</span>&rdquo;
             </div>
           )}
 
-          {!isLoading && !query && (
+          {!query && (
             <div className="p-4 text-xs text-stone-500">
               <div className="font-medium text-stone-700 mb-2">Quick Navigation</div>
               <div className="flex flex-wrap gap-1.5">

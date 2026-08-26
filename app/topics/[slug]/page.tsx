@@ -9,6 +9,14 @@ interface TopicPageProps {
   }>;
 }
 
+export async function generateStaticParams() {
+  return [
+    { slug: 'part-3-fundamental-rights' },
+    { slug: 'part-4-directive-principles-of-state-policy' },
+    { slug: 'inflation-dynamics-measurement-policy' },
+  ];
+}
+
 export default async function TopicPage({ params }: TopicPageProps) {
   const { slug } = await params;
   const topic = await getTopicWithConcepts(slug);
