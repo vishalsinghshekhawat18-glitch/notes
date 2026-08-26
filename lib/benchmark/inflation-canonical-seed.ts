@@ -106,9 +106,9 @@ export const INFLATION_SOURCE_SEMANTIC_UNITS = [
     semanticUnitId: 'SEM-ECON-INF-06',
     pdfPage: 6,
     printedPage: 6,
-    localHeading: 'Wholesale Price Index (WPI) in India & Services Exclusion Rationale',
+    localHeading: 'Wholesale Price Index (WPI) in India & Scope Distinction',
     contentType: 'FACT',
-    shortDescription: 'WPI (Base 2011-12) published monthly by DPIIT (Ministry of Commerce). Measures wholesale commodity transactions (Manufactured 64.23%, Primary 22.62%, Fuel 13.15%); excludes services because services cannot be transacted in bulk wholesale lots.',
+    shortDescription: 'WPI (Base 2011-12) published monthly by DPIIT (Ministry of Commerce). Measures wholesale transactions of goods in its defined basket (Manufactured 64.23%, Primary 22.62%, Fuel 13.15%); services are outside the scope of the current WPI basket, unlike CPI which covers consumer services.',
   },
   {
     semanticUnitId: 'SEM-ECON-INF-07',
@@ -130,9 +130,9 @@ export const INFLATION_SOURCE_SEMANTIC_UNITS = [
     semanticUnitId: 'SEM-ECON-INF-09',
     pdfPage: 9,
     printedPage: 9,
-    localHeading: 'Cost-Push Inflation Causal Mechanism & Supply Shocks',
+    localHeading: 'Cost-Push Inflation, Supply Shocks & Input Substitutability',
     contentType: 'CONCEPT',
-    shortDescription: 'Driven by supply-side disruptions, raw material cost surges, energy price spikes, or wage increases that shift the Short-Run Aggregate Supply (SRAS) curve upward/leftward.',
+    shortDescription: 'Driven by supply-side disruptions, raw material cost surges, energy price spikes, or wage increases that shift the Short-Run Aggregate Supply (SRAS) curve upward/leftward; pass-through depends on pricing power and input substitutability.',
   },
   {
     semanticUnitId: 'SEM-ECON-INF-10',
@@ -154,9 +154,9 @@ export const INFLATION_SOURCE_SEMANTIC_UNITS = [
     semanticUnitId: 'SEM-ECON-INF-12',
     pdfPage: 12,
     printedPage: 12,
-    localHeading: 'Distributional Impacts: Fixed vs Floating Debt & Regressive Tax Nuance',
+    localHeading: 'Distributional Impacts: Fixed vs Floating Debt, Fiscal Bracket Creep & Regressive Burden',
     contentType: 'COMPARISON_TABLE',
-    shortDescription: 'Distributional effects are conditional: Unexpected inflation benefits fixed-rate debtors over creditors (floating loans face EMI resets); acts as a regressive burden on unindexed poor, while DA workers and surplus farmers can hedge.',
+    shortDescription: 'Distributional effects are conditional: Unexpected inflation benefits fixed-rate debtors over creditors (floating loans face EMI resets); progressive tax bracket creep increases fiscal receipts; acts as a regressive burden on unindexed poor, while DA workers and surplus farmers can hedge.',
   },
   {
     semanticUnitId: 'SEM-ECON-INF-13',
@@ -178,9 +178,9 @@ export const INFLATION_SOURCE_SEMANTIC_UNITS = [
     semanticUnitId: 'SEM-ECON-INF-15',
     pdfPage: 15,
     printedPage: 15,
-    localHeading: 'Monetary Transmission Real-World Frictions & Supply-Side Limitations',
+    localHeading: 'Monetary Transmission Heterogeneity, Frictions & Supply-Side Limitations',
     contentType: 'FACT',
-    shortDescription: 'Multi-layer transmission from Repo to market rates, bank deposit stickiness, and small savings floor; Two Hands of Policy model with explicit recognition that rate hikes cannot grow more onions.',
+    shortDescription: 'Transmission strength and speed differ across sectors (direct impact on floating retail borrowers vs indirect demand impact on cash-rich corporates); deposit stickiness and small savings floor; Two Hands of Policy model with explicit supply shock limits.',
   },
 ];
 
@@ -338,16 +338,16 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
   {
     id: 'CON-ECON-INF-02',
     slug: 'price-indices-measurement-cpi-wpi-core-headline',
-    title: 'Price Indices & Measurement in India: CPI, WPI, Core Variants & Consumption Shifts',
+    title: 'Price Indices & Measurement in India: CPI, WPI, Scope Distinctions & Consumption Shifts',
     shortDefinition:
-      'India measures inflation primarily through two indices: the Consumer Price Index (CPI-Combined, base 2012, published by NSO), which serves as the official monetary policy anchor, and the Wholesale Price Index (WPI, base 2011-12, published by DPIIT), which tracks producer-level commodity transactions without services.',
+      'India measures inflation primarily through two indices: the Consumer Price Index (CPI-Combined, base 2012, published by NSO), which serves as the official monetary policy anchor, and the Wholesale Price Index (WPI, base 2011-12, published by DPIIT), which tracks producer-level commodity transactions within its defined goods basket without covering services.',
     difficulty: 'INTERMEDIATE',
     semanticUnitIds: ['SEM-ECON-INF-05', 'SEM-ECON-INF-06', 'SEM-ECON-INF-07'],
     economicSphere: {
       macroeconomicDomain: 'Statistical Measurement & Price Indices',
       primaryVariables: ['CPI-Combined (Base 2012)', 'WPI (Base 2011-12)', 'Core Inflation Variants', 'HCES Consumption Shift'],
       institutionalActor: 'NSO (MoSPI), DPIIT (Ministry of Commerce), RBI',
-      examTrap: 'Assuming WPI includes services. WPI includes ZERO services. Only CPI includes services (transport, education, health, recreation).',
+      examTrap: 'Assuming WPI excludes services because services "cannot be sold wholesale". That is false; B2B wholesale services exist (e.g. bulk transport contracts), but the current WPI basket is methodologically restricted to physical commodities.',
     },
     claims: [
       {
@@ -362,12 +362,12 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       },
       {
         id: 'CLM-ECON-INF-02.2',
-        statement: 'The Wholesale Price Index (WPI, Base 2011-12 = 100) is released monthly by the Office of the Economic Adviser, DPIIT, Ministry of Commerce and Industry, with weights: Manufactured Products (64.23%), Primary Articles (22.62%), and Fuel & Power (13.15%), and completely excludes services because services cannot be transacted in bulk wholesale lots at factory gates.',
+        statement: 'The Wholesale Price Index (WPI, Base 2011-12 = 100) is released monthly by the Office of the Economic Adviser, DPIIT, Ministry of Commerce and Industry, covering Manufactured Products (64.23%), Primary Articles (22.62%), and Fuel & Power (13.15%), and does not cover services because the current series basket is defined around physical goods transactions at the first point of sale.',
         claimType: 'FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
         temporalStatus: 'CURRENT',
-        evidenceLocator: 'DPIIT WPI Methodology Manual (2011-12 Series)',
+        evidenceLocator: 'Office of the Economic Adviser, DPIIT, WPI Methodological Manual (2011-12 Series)',
       },
       {
         id: 'CLM-ECON-INF-02.3',
@@ -391,15 +391,15 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Why Multiple Price Indices Exist & Why WPI Excludes Services',
-        body: 'A consumer does not buy steel billets or raw cotton in bulk pallets; a consumer buys shirts, pays hospital bills, and pays school tuition fees.\n\n*Why WPI Excludes Services*:\nThe **Wholesale Price Index (WPI)** was methodologically designed around traded physical bulk goods at the first commercial point of sale (factory gate or wholesale mandi). Services (haircuts, education, healthcare) cannot be warehoused or transacted in wholesale bulk lots. Therefore, WPI excludes services entirely (0%), while the **Consumer Price Index (CPI)** covers both retail physical goods and household services.',
+        title: 'Why Multiple Price Indices Exist & The True Scope of WPI vs CPI',
+        body: '• **Simple Distinction**: WPI is India\'s wholesale price index for goods in its defined commodity basket; the current WPI series does not cover services. CPI measures retail prices experienced by consumers and includes household consumer services (transport, housing, education, healthcare).\n\n• **Methodological Foundation**: WPI is a goods-focused measure tracking commodity prices at the first commercial point of wholesale transaction (factory gate or agricultural mandi). CPI tracks the final retail prices paid by households. This is a distinction of index scope and statistical design.\n\n• **Explicit Misconception Shield**: *Do not infer that "services cannot be bought or sold wholesale." That statement is false. Large-scale business-to-business (B2B) wholesale services exist (e.g. enterprise software, bulk freight logistics, commercial telecom pipelines). However, the current 2011-12 WPI series was constructed strictly around physical commodity registers, leaving B2B services to be covered under the future Producer Price Index (PPI) framework.*',
         order: 1,
         visibility: 'STANDARD',
       },
       {
         type: 'COMPARISON',
         title: 'Comprehensive Comparison: CPI vs WPI in India',
-        body: '| Feature | Consumer Price Index (CPI-Combined) | Wholesale Price Index (WPI) |\n| :--- | :--- | :--- |\n| **Publishing Body** | National Statistical Office (NSO), MoSPI | Office of Economic Adviser, DPIIT, Min of Commerce |\n| **Base Year** | **2012 = 100** | **2011–12 = 100** |\n| **Stage of Transaction** | Final Retail / Consumer level | First Point of Bulk Wholesale Sale |\n| **Services Included?** | **YES** (Housing, Transport, Education, Health) | **NO** (Zero services included) |\n| **Food Weightage** | **High: ~46%** (Exact: 45.86% Food & Beverages) | **Moderate: ~24%** (Primary Food 15.26% + Mfg Food 9.12%) |\n| **Manufacturing Weight** | ~17.4% (clothing, footwear, etc.) | **Highest: ~64%** (Exact: 64.23% Manufactured Products) |\n| **Fuel Weightage** | ~6.8% (Fuel & Light) | ~13.2% (Fuel & Power) |\n| **Monetary Policy Role** | **Official Anchor for RBI (FIT Framework)** | Formerly used prior to 2014; now secondary indicator |\n| **HCES 2022-23 Context** | Actual food expenditure dropped to ~39.2% rural / ~32.3% urban | Under revision with Working Group on WPI Base Year |',
+        body: '| Feature | Consumer Price Index (CPI-Combined) | Wholesale Price Index (WPI) |\n| :--- | :--- | :--- |\n| **Publishing Body** | National Statistical Office (NSO), MoSPI | Office of Economic Adviser, DPIIT, Min of Commerce |\n| **Base Year** | **2012 = 100** | **2011–12 = 100** |\n| **Stage of Transaction** | Final Retail / Consumer level | First Point of Bulk Wholesale Sale |\n| **Services Included?** | **YES** (Housing, Transport, Education, Health) | **NO** (Outside the scope of current goods basket) |\n| **Food Weightage** | **High: ~46%** (Exact: 45.86% Food & Beverages) | **Moderate: ~24%** (Primary Food 15.26% + Mfg Food 9.12%) |\n| **Manufacturing Weight** | ~17.4% (clothing, footwear, etc.) | **Highest: ~64%** (Exact: 64.23% Manufactured Products) |\n| **Fuel Weightage** | ~6.8% (Fuel & Light) | ~13.2% (Fuel & Power) |\n| **Monetary Policy Role** | **Official Anchor for RBI (FIT Framework)** | Formerly used prior to 2014; now secondary indicator |\n| **HCES 2022-23 Context** | Actual food expenditure dropped to ~39.2% rural / ~32.3% urban | Under revision with Working Group on WPI Base Year |',
         order: 2,
         visibility: 'STANDARD',
       },
@@ -418,7 +418,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
         syllabusSection: 'GS Paper III: Price Indices (CPI vs WPI), GDP Deflator, Base year revisions, HCES 2022-23.',
-        prelimsFocus: 'Weightage ranking in CPI and WPI; Services exclusion in WPI; Base years and publishing ministries; Base effect price ladder interpretation; Urjit Patel committee shift from WPI to CPI.',
+        prelimsFocus: 'Weightage ranking in CPI and WPI; Services scope in WPI vs CPI; Base years and publishing ministries; Base effect price ladder interpretation; Urjit Patel committee shift from WPI to CPI.',
         mainsFocus: 'Why CPI-Combined is a superior monetary policy anchor compared to WPI; Divergence between CPI and WPI trends; Policy implications of HCES 2022-23 food weight reduction.',
         examNotes: 'UPSC has asked direct Prelims questions on CPI vs WPI weights in 2015, 2019, 2020, and 2021.',
       },
@@ -447,31 +447,31 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       {
         tier: 'FLASH_30S',
         timeBudgetSeconds: 30,
-        summary: 'CPI vs WPI Rapid Pegs:\n• CPI: NSO | Consumer Retail | Services YES | Food-Heavy (~46%) | RBI Anchor.\n• WPI: DPIIT | Wholesale Commodities | Services NO | Manufacturing-Heavy (~64%).\n• Core & Base Effect: Core = Headline minus Food/Fuel | Base Effect = Slower rate (4%) does not mean cheaper prices.',
-        keyTakeaways: ['CPI (NSO, Retail, Services YES, Food ~46%)', 'WPI (DPIIT, Wholesale, Services NO, Mfg ~64%)', 'Core & Base Effect Mechanics'],
+        summary: 'CPI vs WPI Rapid Pegs:\n• CPI: NSO | Consumer Retail | Services YES | Food-Heavy (~46%) | RBI Anchor.\n• WPI: DPIIT | Wholesale Goods Basket | Services NO (Scope limit) | Manufacturing-Heavy (~64%).\n• Core & Base Effect: Core = Headline minus Food/Fuel | Base Effect = Slower rate (4%) does not mean cheaper prices.',
+        keyTakeaways: ['CPI (NSO, Retail, Services YES, Food ~46%)', 'WPI (DPIIT, Wholesale Goods, Services NO, Mfg ~64%)', 'Core & Base Effect Mechanics'],
         order: 1,
       },
       {
         tier: 'SUMMARY_2M',
         timeBudgetSeconds: 120,
-        summary: 'India uses CPI-Combined (Base 2012, NSO) as its headline monetary anchor because it reflects retail consumption and includes services. WPI (Base 2011-12, DPIIT) tracks wholesale goods only because services cannot be traded in wholesale bulk. CPI gives ~46% weight to Food & Beverages, making it sensitive to crop shocks. HCES 2022-23 shows actual food consumption has fallen to ~32-39%. Core inflation strips Food/Fuel to identify persistent demand trends. Base effects explain statistical rate deceleration while price levels remain high.',
-        keyTakeaways: ['CPI vs WPI administrative and structural comparison', 'Why WPI excludes services', 'Base Effect price ladder dynamics'],
+        summary: 'India uses CPI-Combined (Base 2012, NSO) as its headline monetary anchor because it reflects retail consumption and includes consumer services. WPI (Base 2011-12, DPIIT) tracks wholesale goods only because its basket is defined around physical commodities at the first commercial sale point. CPI gives ~46% weight to Food & Beverages, making it sensitive to crop shocks. HCES 2022-23 shows actual food consumption has fallen to ~32-39%. Core inflation strips Food/Fuel to identify persistent demand trends. Base effects explain statistical rate deceleration while price levels remain high.',
+        keyTakeaways: ['CPI vs WPI administrative and structural comparison', 'Why WPI basket is goods-focused', 'Base Effect price ladder dynamics'],
         order: 2,
       },
       {
         tier: 'ARCHITECTURE_5M',
         timeBudgetSeconds: 300,
-        summary: 'Detailed statistical decomposition of price indices: CPI basket groups (Food 45.86%, Miscellaneous 28.32%, Housing 10.07%, Fuel 6.84%, Clothing 6.53%, Pan 2.38%), GDP Deflator (Nominal GDP / Real GDP * 100) as a Paasche implicit index covering all domestic production, PPI (Producer Price Index) transition roadmap, and structural reasons for persistent CPI-WPI divergence.',
+        summary: 'Detailed statistical decomposition of price indices: CPI basket groups (Food 45.86%, Miscellaneous 28.32%, Housing 10.07%, Fuel 6.84%, Clothing 6.53%, Pan 2.38%), GDP Deflator (Nominal GDP / Real GDP * 100) as a Paasche implicit index covering all domestic production, PPI (Producer Price Index) transition roadmap covering B2B services, and structural reasons for persistent CPI-WPI divergence.',
         keyTakeaways: ['Full CPI subgroup weighting', 'GDP Deflator vs CPI/WPI', 'Producer Price Index (PPI) roadmap'],
         order: 3,
       },
     ],
     questions: [
       {
-        stem: 'With reference to the Wholesale Price Index (WPI) and Consumer Price Index (CPI) in India, consider the following statements:\n1. WPI includes manufactured goods, fuel, and primary articles, but excludes services entirely.\n2. In the CPI-Combined basket, the weight of Food and Beverages is over 45%.\n3. The Reserve Bank of India uses WPI as the primary headline index to determine its monetary policy interest rates.\nWhich of the statements given above are correct?',
+        stem: 'With reference to the Wholesale Price Index (WPI) and Consumer Price Index (CPI) in India, consider the following statements:\n1. The current WPI series basket is restricted to physical commodities and does not cover services.\n2. In the CPI-Combined basket, the weight of Food and Beverages is over 45%.\n3. The Reserve Bank of India uses WPI as the primary headline index to determine its monetary policy interest rates.\nWhich of the statements given above are correct?',
         type: 'APPLICATION',
         difficulty: 'MEDIUM',
-        explanation: 'Statements 1 and 2 are correct. WPI excludes services completely (services cannot be transacted in bulk wholesale lots, only CPI covers services), and Food & Beverages carries a weight of 45.86% in CPI-Combined. Statement 3 is incorrect because RBI switched from WPI to CPI-Combined as its headline inflation anchor in 2014 per the Urjit Patel Committee recommendations.',
+        explanation: 'Statements 1 and 2 are correct. The current WPI series covers only physical commodities (Manufactured, Primary, Fuel) and excludes services by index design (only CPI covers consumer services), and Food & Beverages carries a weight of 45.86% in CPI-Combined. Statement 3 is incorrect because RBI switched from WPI to CPI-Combined as its headline inflation anchor in 2014 per the Urjit Patel Committee recommendations.',
         options: [
           { text: '1 and 2 only', isCorrect: true },
           { text: '2 and 3 only', isCorrect: false, distractorExplanation: 'Statement 3 is false: RBI uses CPI-Combined, not WPI.' },
@@ -488,7 +488,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
     slug: 'inflation-causes-mechanisms-demand-cost-structural',
     title: 'Causes & Causal Mechanisms of Inflation: Demand-Pull, Cost-Push, Imported & Structural Shocks',
     shortDefinition:
-      'Inflation arises from fundamental macroeconomic imbalances: Demand-Pull pressures when Aggregate Demand exceeds Potential GDP (closing the output gap), Cost-Push shocks when input costs shift the Short-Run Aggregate Supply (SRAS) curve upward, Imported inflation through exchange rate pass-through, and Structural bottlenecks in agricultural supply chains.',
+      'Inflation arises from fundamental macroeconomic imbalances: Demand-Pull pressures when Aggregate Demand exceeds Potential GDP (closing the output gap), Cost-Push shocks when input costs shift the Short-Run Aggregate Supply (SRAS) curve upward (pass-through conditioned by input substitutability and pricing power), Imported inflation through exchange rate pass-through, and Structural bottlenecks in agricultural supply chains.',
     difficulty: 'ADVANCED',
     semanticUnitIds: ['SEM-ECON-INF-08', 'SEM-ECON-INF-09', 'SEM-ECON-INF-10', 'SEM-ECON-INF-11'],
     economicSphere: {
@@ -509,7 +509,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       },
       {
         id: 'CLM-ECON-INF-03.2',
-        statement: 'Cost-Push inflation is triggered by supply-side shocks—such as spikes in international crude oil, fertilizer costs, raw material shortages, or wage hikes—shifting the Short-Run Aggregate Supply (SRAS) curve upward/leftward, leading to lower real output alongside higher prices (stagflationary pressure).',
+        statement: 'Cost-Push inflation is triggered by supply-side shocks—such as spikes in international crude oil, fertilizer costs, raw material shortages, or wage hikes—shifting the Short-Run Aggregate Supply (SRAS) curve upward/leftward; the extent of final price pass-through is conditioned by input substitutability, firm pricing power, demand elasticity, inventories, and long-term contracts.',
         claimType: 'CONCEPT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
@@ -539,7 +539,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       {
         type: 'INTUITION',
         title: 'Beginner Scaffolding: Potential Output, Output Gap & The Factory Analogy',
-        body: 'To understand why prices rise, imagine a **manufacturing factory**:\n• **Sustainable Potential Output ($Y^*$)**: The factory is designed to produce 1,000 shirts/day comfortably on normal 8-hour shifts without overstraining machines.\n• **Temporary Overdrive (Positive Output Gap)**: If sudden demand spikes to 1,200 shirts, the factory can temporarily deliver by running overnight shifts, paying double overtime wages, and straining machines. But sustaining this pushes production costs up, forcing the owner to hike shirt prices.\n\n*Key Concepts*:\n1. **Potential GDP**: The sustainable cruise speed of an economy where capital and labor are fully employed without generating persistent price pressure.\n2. **Output Gap**: $\\text{Actual Output } (Y) - \\text{Potential Output } (Y^*)$. A *positive output gap* ($Y > Y^*$) triggers **Demand-Pull Inflation**.\n3. **Short-Run Aggregate Supply (SRAS)**: When raw material costs (electricity, diesel) spike, producing every single unit becomes costlier, shifting the SRAS curve upward/leftward $\\rightarrow$ **Cost-Push Inflation**.',
+        body: 'To understand why prices rise, imagine a **manufacturing factory**:\n• **Sustainable Potential Output ($Y^*$)**: The factory is designed to produce 1,000 shirts/day comfortably on normal 8-hour shifts without overstraining machines.\n• **Temporary Overdrive (Positive Output Gap)**: If sudden demand spikes to 1,200 shirts, the factory can temporarily deliver by running overnight shifts, paying double overtime wages, and straining machines. But sustaining this pushes production costs up, forcing the owner to hike shirt prices.\n\n*Key Concepts*:\n1. **Potential GDP**: The sustainable cruise speed of an economy where capital and labor are fully employed without generating persistent price pressure.\n2. **Output Gap**: $\\text{Actual Output } (Y) - \\text{Potential Output } (Y^*)$. A *positive output gap* ($Y > Y^*$) triggers **Demand-Pull Inflation**.\n3. **Short-Run Aggregate Supply (SRAS)**: When raw material costs (electricity, diesel) spike, producing every unit becomes costlier, shifting the SRAS curve upward/leftward $\\rightarrow$ **Cost-Push Inflation**.\n\n*Cost-Push Nuance (Input Substitutability & Pricing Power)*:\nAn input-price shock can raise firms\' marginal costs. The extent to which firms pass that cost into final consumer prices depends on demand conditions, market pricing power, input substitutability, long-term supply contracts, existing inventories, and adjustment time.',
         order: 1,
         visibility: 'STANDARD',
       },
@@ -565,8 +565,8 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
         syllabusSection: 'GS Paper III: Issues relating to planning, mobilization of resources, growth, development and inflation.',
-        prelimsFocus: 'Causes of Demand-Pull vs Cost-Push; Effects of Rupee depreciation on domestic inflation; Food inflation components; Output Gap definition; Bond-financed vs Monetized deficits.',
-        mainsFocus: 'Why monetary policy has limited efficacy against structural food supply shocks; Multi-pronged strategies for structural agricultural reform.',
+        prelimsFocus: 'Causes of Demand-Pull vs Cost-Push; Effects of Rupee depreciation on domestic inflation; Food inflation components; Output Gap definition; Bond-financed vs Monetized deficits; Input substitutability.',
+        mainsFocus: 'Why monetary policy has limited efficacy against structural food supply shocks; Multi-pronged strategies for structural agricultural reform; Cost-push pass-through determinants.',
         examNotes: 'Frequent Mains questions on "Is inflation in India driven by demand-pull or supply bottlenecks?"',
       },
       {
@@ -585,7 +585,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
         syllabusSection: 'Economic Environment: Cost Push vs Demand Pull and Credit Cycle.',
-        prelimsFocus: 'Impact of credit growth on demand-pull inflation; How rising crude oil prices impact corporate working capital borrowing.',
+        prelimsFocus: 'Impact of credit growth on demand-pull inflation; How rising crude oil prices impact corporate working capital borrowing and input cost absorption.',
         mainsFocus: 'N/A (Objective format).',
         examNotes: 'Understanding how input cost shocks impair corporate debt-servicing capacity and drive credit risk.',
       },
@@ -594,14 +594,14 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       {
         tier: 'FLASH_30S',
         timeBudgetSeconds: 30,
-        summary: 'Causes of Inflation Rapid Pegs:\n• Demand-Pull: AD > Potential GDP (Positive Output Gap, overtime/capacity strain).\n• Cost-Push: SRAS shifts left (oil spike, raw material surge, wage-push).\n• India Specifics: Imported Shock ($100 at ₹75 vs ₹85) + Structural Food Bottlenecks (Food ~46% CPI weight).',
-        keyTakeaways: ['Demand-Pull (AD > Potential Output)', 'Cost-Push (SRAS Shifts Left)', 'Imported & Structural Food Bottlenecks'],
+        summary: 'Causes of Inflation Rapid Pegs:\n• Demand-Pull: AD > Potential GDP (Positive Output Gap, overtime/capacity strain).\n• Cost-Push: SRAS shifts left (oil spike, raw material surge; conditioned by pricing power & input substitutes).\n• India Specifics: Imported Shock ($100 at ₹75 vs ₹85) + Structural Food Bottlenecks (Food ~46% CPI weight).',
+        keyTakeaways: ['Demand-Pull (AD > Potential Output)', 'Cost-Push (SRAS Shifts Left & Substitutability)', 'Imported & Structural Food Bottlenecks'],
         order: 1,
       },
       {
         tier: 'SUMMARY_2M',
         timeBudgetSeconds: 120,
-        summary: 'Demand-pull inflation is caused by expansionary fiscal policy, excess money supply, or rapid consumption pushing AD beyond potential output (factory overdrive). Cost-push inflation results from supply-side cost increases (energy, wages, commodities). India is heavily exposed to imported inflation via crude oil dependency and currency depreciation ($100 barrel costing more in rupees), and structural inflation via agricultural perishability and APMC mandi frictions.',
+        summary: 'Demand-pull inflation is caused by expansionary fiscal policy, excess money supply, or rapid consumption pushing AD beyond potential output (factory overdrive). Cost-push inflation results from supply-side cost increases (energy, wages, commodities), with final pass-through depending on pricing power and input substitutability. India is heavily exposed to imported inflation via crude oil dependency and currency depreciation ($100 barrel costing more in rupees), and structural inflation via agricultural perishability and APMC mandi frictions.',
         keyTakeaways: ['Demand-Pull vs Cost-Push mechanisms', 'Exchange Rate Pass-Through', 'Structural food inflation dynamics (TOP crops)'],
         order: 2,
       },
@@ -633,15 +633,15 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
   {
     id: 'CON-ECON-INF-04',
     slug: 'inflation-distributional-impacts-growth-tradeoffs-phillips-curve',
-    title: 'Distributional Impacts, Nuanced Winners/Losers, Expectation Formation & Empirical Growth Thresholds',
+    title: 'Distributional Impacts, Nuanced Winners/Losers, Fiscal Bracket Creep, Expectation Formation & Empirical Growth Thresholds',
     shortDefinition:
-      'Inflation creates sharp redistributional effects: unexpected inflation benefits fixed-rate debtors over creditors, and acts as a regressive burden on unindexed fixed-income earners and the poor. While a short-run trade-off exists (Phillips Curve), Indian empirical research demonstrates that inflation above 4–6% actively impairs long-term investment and GDP growth.',
+      'Inflation creates sharp redistributional effects: unexpected inflation benefits fixed-rate debtors over creditors, and acts as a regressive burden on unindexed fixed-income earners and the poor. Under progressive income tax schedules, inflation increases government tax receipts via bracket creep. While a short-run trade-off exists (Phillips Curve), Indian empirical research demonstrates that inflation above 4–6% actively impairs long-term investment and GDP growth.',
     difficulty: 'INTERMEDIATE',
     semanticUnitIds: ['SEM-ECON-INF-12', 'SEM-ECON-INF-13'],
     economicSphere: {
       macroeconomicDomain: 'Distributional Economics & Macro Trade-offs',
-      primaryVariables: ['Redistributional Shifts', 'Expectation Formation', 'Phillips Curve & NAIRU', 'Indian Empirical Growth Threshold (4–6%)'],
-      institutionalActor: 'Households, Debtors vs Creditors, RBI Policy Research',
+      primaryVariables: ['Redistributional Shifts', 'Fiscal Bracket Creep', 'Expectation Formation', 'Phillips Curve & NAIRU', 'Indian Empirical Growth Threshold (4–6%)'],
+      institutionalActor: 'Households, Debtors vs Creditors, Ministry of Finance (Taxation), RBI Policy Research',
       examTrap: 'Assuming Debtors ALWAYS gain. Debtors gain only from UNANTICIPATED inflation on fixed-rate debt. On floating-rate loans, EMIs reset upward; if inflation is expected, lenders price in an inflation premium.',
     },
     claims: [
@@ -656,12 +656,12 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       },
       {
         id: 'CLM-ECON-INF-04.2',
-        statement: 'Inflation functions as an analytical regressive burden on poorer households and unindexed wage earners because they spend 50–60% of income on essential food/fuel and lack inflation-hedged financial assets; conversely, organized workers with Dearness Allowance (DA) and net agricultural sellers with marketable surpluses are partially insulated.',
-        claimType: 'CONCEPT',
+        statement: 'Under a progressive nominal tax system, inflation can increase government tax receipts through "bracket creep" when nominal incomes rise faster than tax thresholds or allowances, even if real incomes have not increased proportionately; this is conditional on tax-system design and whether thresholds are periodically indexed.',
+        claimType: 'CONDITIONAL_RULE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
         temporalStatus: 'STRUCTURAL',
-        evidenceLocator: 'Treatise on Indian Macroeconomics (2026), Chapter 4, p. 12',
+        evidenceLocator: 'Treatise on Indian Macroeconomics (2026), Chapter 4, p. 12; Public Finance & Taxation Principles',
       },
       {
         id: 'CLM-ECON-INF-04.3',
@@ -677,15 +677,15 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Fixed vs Floating Debt & The Human Logic of Inflation Expectations',
-        body: '**1. Fixed vs Floating Debt Contrast**:\n• **Fixed-Rate Loan**: You borrow ₹10 lakh at a fixed 7% interest rate for 5 years. If inflation unexpectedly jumps to 10%, your monthly repayment stays frozen at nominal rupees that now buy fewer groceries $\\rightarrow$ **You Gain as a Debtor**.\n• **Floating-Rate Loan**: You borrow ₹10 lakh on a home loan tied to bank benchmark rates. When inflation surges, RBI hikes rates, and your bank increases your monthly EMI $\\rightarrow$ **You do NOT get a free gain**.\n\n**2. How Inflation Expectations Form (The Human Step-by-Step Bridge)**:\n1. *Step 1 (The Worker)*: Suppose workers expect grocery prices to rise 6% next year. When negotiating annual wage contracts, workers demand a 6% nominal pay raise just to prevent their living standard from dropping.\n2. *Step 2 (The Business)*: Factory owners, knowing they must pay 6% higher wages and 6% higher raw material costs, raise their product selling prices by 6% in advance.\n3. *Step 3 (Self-Fulfilling Loop)*: Because everyone expected 6% inflation and acted accordingly, 6% inflation becomes baked into wages and prices, shifting the short-run supply curve upward.\n*(Qualification: This process is not automatic; it is governed by worker bargaining power, unionization levels, unemployment rates, and corporate profit margins).*',
+        title: 'Fixed vs Floating Debt, Fiscal Bracket Creep & Inflation Expectations',
+        body: '**1. Fixed vs Floating Debt Contrast**:\n• **Fixed-Rate Loan**: You borrow ₹10 lakh at a fixed 7% interest rate for 5 years. If inflation unexpectedly jumps to 10%, your monthly repayment stays frozen at nominal rupees that now buy fewer groceries $\\rightarrow$ **You Gain as a Debtor**.\n• **Floating-Rate Loan**: You borrow ₹10 lakh on a home loan tied to bank benchmark rates. When inflation surges, RBI hikes rates, and your bank increases your monthly EMI $\\rightarrow$ **You do NOT get a free gain**.\n\n**2. Fiscal Bracket Creep (The Government Gain)**:\nUnder a progressive nominal tax system, inflation increases government tax receipts through **bracket creep** when nominal incomes rise faster than statutory tax slabs, even when real purchasing power is stagnant.\n• *Concrete Example*: Suppose your nominal salary rises by 8% purely to match an 8% general price inflation (real income unchanged). If the government only adjusts tax thresholds by 2%, part of your salary is pushed into a higher marginal income tax bracket, resulting in a higher effective tax payout despite zero improvement in real living standards.\n*(Qualification: This is conditional; periodic legislative adjustments to tax exemption slabs or indexation can eliminate this effect).*\n\n**3. How Inflation Expectations Form (The Human Step-by-Step Bridge)**:\n1. *Step 1 (The Worker)*: Suppose workers expect grocery prices to rise 6% next year. When negotiating annual wage contracts, workers demand a 6% nominal pay raise just to prevent their living standard from dropping.\n2. *Step 2 (The Business)*: Factory owners, knowing they must pay 6% higher wages and 6% higher raw material costs, raise their product selling prices by 6% in advance.\n3. *Step 3 (Self-Fulfilling Loop)*: Because everyone expected 6% inflation and acted accordingly, 6% inflation becomes baked into wages and prices, shifting the short-run supply curve upward.\n*(Qualification: This process is not automatic; it is governed by worker bargaining power, unionization levels, unemployment rates, and corporate profit margins).*',
         order: 1,
         visibility: 'STANDARD',
       },
       {
         type: 'COMPARISON',
         title: 'Comprehensive Matrix of Inflation Winners vs Losers',
-        body: '| Economic Group | Impact Status | Causal Reason & Qualifications |\n| :--- | :---: | :--- |\n| **Fixed-Rate Borrowers** | **GAIN (Winner)** | Repay fixed nominal debt in depreciated money (Applies strictly to *unanticipated* fixed debt) |\n| **Floating-Rate Borrowers** | **NEUTRAL / LOSE** | Loan interest rates reset upward when central bank hikes policy rates |\n| **Creditors / Lenders / Savers** | **LOSE (Loser)** | Fixed repayments buy fewer real goods; real returns turn negative |\n| **Fixed-Income / Pensioners** | **LOSE (Loser)** | Incomes adjust sluggishly; purchasing power steadily declines |\n| **Organized Sector Workers** | **PARTIALLY INSULATED** | Dearness Allowance (DA) adjustments periodically compensate for CPI-IW increases |\n| **Net Agricultural Sellers** | **CAN GAIN** | Farmers with large marketable surpluses benefit from higher crop sale prices |\n| **Equity & Real Asset Holders** | **HEDGE / GAIN** | Companies pass on price increases; physical assets (real estate) appreciate with inflation |\n| **Government (as Debtor)** | **GAINS Short-Term** | Real sovereign debt burden diminishes; nominal tax revenues rise via "bracket creep" |',
+        body: '| Economic Group | Impact Status | Causal Reason & Qualifications |\n| :--- | :---: | :--- |\n| **Fixed-Rate Borrowers** | **GAIN (Winner)** | Repay fixed nominal debt in depreciated money (Applies strictly to *unanticipated* fixed debt) |\n| **Floating-Rate Borrowers** | **NEUTRAL / LOSE** | Loan interest rates reset upward when central bank hikes policy rates |\n| **Creditors / Lenders / Savers** | **LOSE (Loser)** | Fixed repayments buy fewer real goods; real returns turn negative |\n| **Fixed-Income / Pensioners** | **LOSE (Loser)** | Incomes adjust sluggishly; purchasing power steadily declines |\n| **Organized Sector Workers** | **PARTIALLY INSULATED** | Dearness Allowance (DA) adjustments periodically compensate for CPI-IW increases |\n| **Net Agricultural Sellers** | **CAN GAIN** | Farmers with large marketable surpluses benefit from higher crop sale prices |\n| **Equity & Real Asset Holders** | **HEDGE / GAIN** | Companies pass on price increases; physical assets (real estate) appreciate with inflation |\n| **Government (Fiscal Revenue)** | **CAN GAIN** | Real debt burden diminishes and nominal income tax collections rise via bracket creep (conditional on unindexed slabs) |',
         order: 2,
         visibility: 'STANDARD',
       },
@@ -703,9 +703,9 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         examName: 'UPSC Civil Services Examination',
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
-        syllabusSection: 'GS Paper III: Inclusive growth and issues arising from it; Effects of inflation on poverty.',
-        prelimsFocus: 'Who gains and who loses during unanticipated fixed debt inflation (Debtors vs Creditors, Exporters vs Importers); Phillips curve concepts; Empirical threshold concept.',
-        mainsFocus: 'Why price stability is a prerequisite for sustained inclusive growth; Household savings shift from financial to physical assets during high inflation; How inflation expectations become self-fulfilling.',
+        syllabusSection: 'GS Paper III: Inclusive growth and issues arising from it; Effects of inflation on poverty and taxation.',
+        prelimsFocus: 'Who gains and who loses during unanticipated fixed debt inflation (Debtors vs Creditors, Exporters vs Importers); Bracket creep mechanics; Phillips curve concepts; Empirical threshold concept.',
+        mainsFocus: 'Why price stability is a prerequisite for sustained inclusive growth; Household savings shift from financial to physical assets during high inflation; Fiscal implications of bracket creep.',
         examNotes: 'Classic UPSC Prelims question: "Who among the following benefits the most from inflation? (a) Bondholders (b) Debtors (c) Fixed wage earners (d) Exporters".',
       },
       {
@@ -714,7 +714,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
         syllabusSection: 'Paper I (Economics): Impact of inflation on various sections of society.',
-        prelimsFocus: 'Direct questions on Debtors gaining vs Creditors losing under unanticipated inflation.',
+        prelimsFocus: 'Direct questions on Debtors gaining vs Creditors losing under unanticipated inflation; Bracket creep definition.',
         mainsFocus: '50-word question on social and economic consequences of sustained inflation in rural Rajasthan.',
         examNotes: 'High-frequency 5-mark question in RAS Mains.',
       },
@@ -733,15 +733,15 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       {
         tier: 'FLASH_30S',
         timeBudgetSeconds: 30,
-        summary: 'Inflation Impacts Rapid Pegs:\n• Unanticipated Inflation: Fixed Debtors Gain vs Creditors Lose (Floating loans face EMI resets).\n• Distributional Effect: Regressive on poor; DA workers & surplus farmers partially insulated.\n• Macro Growth: LRPC is vertical at NAIRU; Indian empirical threshold is 4–6% (inflation >6% retards GDP growth).',
-        keyTakeaways: ['Fixed Debtors Gain vs Creditors Lose (Unanticipated)', 'Regressive effect on poor vs DA insulation', 'Indian Empirical Growth Threshold (4–6%)'],
+        summary: 'Inflation Impacts Rapid Pegs:\n• Unanticipated Inflation: Fixed Debtors Gain vs Creditors Lose (Floating loans face EMI resets).\n• Distributional & Fiscal: Regressive on poor; DA workers partially insulated; Govt gains via unindexed bracket creep.\n• Macro Growth: LRPC is vertical at NAIRU; Indian empirical threshold is 4–6% (inflation >6% retards GDP growth).',
+        keyTakeaways: ['Fixed Debtors Gain vs Creditors Lose (Unanticipated)', 'Regressive effect & Fiscal Bracket Creep', 'Indian Empirical Growth Threshold (4–6%)'],
         order: 1,
       },
       {
         tier: 'SUMMARY_2M',
         timeBudgetSeconds: 120,
-        summary: 'Inflation redistributes purchasing power: borrowers benefit from unanticipated inflation on fixed-rate debt by repaying in cheaper money, while lenders and fixed-income earners suffer real wealth erosion. It acts as an unlegislated regressive tax because the poor spend a larger share of income on necessities. The Phillips curve shows short-run employment gains from inflation, but in the long run, inflation expectations adjust and empirical Indian studies show inflation above 6% destroys productive investment.',
-        keyTakeaways: ['Winners and Losers matrix (Fixed vs Floating)', 'Regressive impact on lower income deciles', 'Inflation-growth threshold (4-6% for India)'],
+        summary: 'Inflation redistributes purchasing power: borrowers benefit from unanticipated inflation on fixed-rate debt by repaying in cheaper money, while lenders and fixed-income earners suffer real wealth erosion. It acts as an unlegislated regressive burden on unindexed poor households. Government tax receipts may rise via bracket creep if tax slabs do not adjust. The Phillips curve shows short-run employment gains from inflation, but in the long run, inflation expectations adjust and empirical Indian studies show inflation above 6% destroys productive investment.',
+        keyTakeaways: ['Winners and Losers matrix (Fixed vs Floating & Bracket Creep)', 'Regressive impact on lower income deciles', 'Inflation-growth threshold (4-6% for India)'],
         order: 2,
       },
       {
@@ -772,7 +772,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
   {
     id: 'CON-ECON-INF-05',
     slug: 'inflation-policy-framework-rbi-mpc-flexible-targeting-supply-side',
-    title: 'Policy Framework: RBI Flexible Inflation Targeting (FIT), The MPC, Transmission Frictions & Supply-Side Coordination',
+    title: 'Policy Framework: RBI Flexible Inflation Targeting (FIT), The MPC, Transmission Heterogeneity & Supply-Side Coordination',
     shortDefinition:
       'India controls inflation through a coordinated policy architecture: Monetary Policy operated by the 6-member Monetary Policy Committee (MPC) under the Flexible Inflation Targeting (FIT) framework (4% ± 2% CPI target under Section 45ZA of the RBI Act), coupled with Fiscal and Supply-Side market interventions by the Central Government.',
     difficulty: 'ADVANCED',
@@ -814,12 +814,12 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       },
       {
         id: 'CLM-ECON-INF-05.4',
-        statement: 'Because monetary policy is primarily effective against demand-pull pressures and cannot resolve supply bottlenecks, the government employs supply-side administrative tools: Open Market Sale Scheme (OMSS) via FCI buffer stocks, export curbs on wheat/rice/onions, reduction of import duties on edible oils, and strategic logistics streamlining.',
+        statement: 'The strength and speed of monetary transmission differ across borrowers, funding structures, and sectors: transmission is direct and rapid for credit-dependent sectors (floating-rate housing, auto, MSMEs), while cash-rich corporations and entities with capital-market access experience transmission primarily through indirect macroeconomic demand channels.',
         claimType: 'FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
         temporalStatus: 'STRUCTURAL',
-        evidenceLocator: 'Treatise on Indian Macroeconomics (2026), Chapter 4, p. 15; Department of Food and Public Distribution Policy Guidelines',
+        evidenceLocator: 'Treatise on Indian Macroeconomics (2026), Chapter 4, p. 15; RBI Report on Currency and Finance (2022)',
       },
     ],
     contentBlocks: [
@@ -832,8 +832,8 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       },
       {
         type: 'MECHANISM',
-        title: 'Monetary Policy Transmission Real-World Friction Layers',
-        body: '**1. The Multi-Layer Transmission Chain**:\n$$\\text{RBI Repo Rate Hike} \\longrightarrow \\text{Interbank / Money Market Rates Rise} \\longrightarrow \\text{Bank Cost of Funds Adjusts}$$\n$$\\longrightarrow \\text{Lending (EBLR/MCLR) & Deposit Rates Reprice} \\longrightarrow \\text{Borrowing & Spending Cool} \\longrightarrow \\text{Inflation Moderates}$$\n\n**2. Real-World Transmission Frictions in India**:\n• **Asymmetric Repricing**: Floating-rate retail loans (linked to External Benchmark Lending Rates - EBLR since 2019) reset upward almost immediately when the Repo rate is hiked. However, banks\' existing fixed-term deposits are locked in for 1–3 years, so the bank\'s average cost of funds adjusts with a lag of 2–4 quarters.\n• **Small Savings Rate Floor**: High administered interest rates on government small savings schemes (PPF, Sukanya Samriddhi) prevent commercial banks from easily cutting their deposit rates during rate-cutting cycles.',
+        title: 'Monetary Policy Transmission Mechanism & Sectoral Heterogeneity',
+        body: '**1. The Nuanced Transmission Causal Model**:\n$$\\text{Policy Repo Rate } \\uparrow \\longrightarrow \\text{Market & Interbank Lending Rates Tend to Rise}$$\n$$\\longrightarrow \\text{Financing Conditions Tighten to Varying Degrees} \\longrightarrow \\text{Interest-Sensitive Spending May Weaken}$$\n$$\\longrightarrow \\text{Aggregate Demand May Moderate} \\longrightarrow \\text{Inflation Pressure May Ease (if demand-driven)}$$\n*Crucial Caveat: The effect is neither instantaneous nor uniform across the economy.*\n\n**2. Direct vs Indirect Exposure across Sectors**:\n• **Stronger / More Direct Exposure**: Households with floating-rate retail loans (housing, automobiles) and MSMEs heavily dependent on commercial bank credit face immediate EMI hikes via External Benchmark Lending Rates (EBLR).\n• **Weaker / Indirect Exposure**: Cash-rich large corporations with substantial retained earnings do not need bank loans for working capital; however, they are affected *indirectly* when consumer demand for their products drops because household mortgage payments have increased.\n• **Frictions & Lags**: Commercial bank fixed deposits reprice sluggishly over 2–4 quarters, and high administered small savings rates (PPF, Sukanya Samriddhi) create an informal floor under deposit costs.',
         order: 2,
         visibility: 'STANDARD',
       },
@@ -852,8 +852,8 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
         syllabusSection: 'GS Paper III: Monetary Policy, Central Bank Governance, Inflation Targeting, Food Security Management.',
-        prelimsFocus: 'Statutory provisions of Section 45ZA; Composition, voting rules, and tenure of the MPC; Definition of failure (3 consecutive quarters); Transmission lags.',
-        mainsFocus: 'Evaluating the 8-year performance of Flexible Inflation Targeting in India; Coordinated monetary-fiscal management during supply shocks; Transmission friction analysis.',
+        prelimsFocus: 'Statutory provisions of Section 45ZA; Composition, voting rules, and tenure of the MPC; Definition of failure (3 consecutive quarters); Transmission lags and sectoral heterogeneity.',
+        mainsFocus: 'Evaluating the 8-year performance of Flexible Inflation Targeting in India; Coordinated monetary-fiscal management during supply shocks; Transmission friction analysis across credit-dependent and cash-rich sectors.',
         examNotes: 'UPSC asked about the Monetary Policy Committee in Prelims 2017 and 2021.',
       },
       {
@@ -872,7 +872,7 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
         relevance: 'CORE_HIGH_YIELD',
         weightage: 'HIGH',
         syllabusSection: 'RBI Operations: Liquidity Adjustment Facility (LAF), SDF, MSF, and Monetary Policy Transmission.',
-        prelimsFocus: 'Functioning of the Standing Deposit Facility (SDF) and Marginal Standing Facility (MSF) corridors around the Repo Rate; EBLR transmission.',
+        prelimsFocus: 'Functioning of the Standing Deposit Facility (SDF) and Marginal Standing Facility (MSF) corridors around the Repo Rate; EBLR transmission to floating loans vs sticky deposits.',
         mainsFocus: 'N/A (Objective format).',
         examNotes: 'Core operational knowledge for Treasury and ALM banking officers.',
       },
@@ -881,15 +881,15 @@ export const INFLATION_CANONICAL_CONCEPTS: InflationConceptDefinition[] = [
       {
         tier: 'FLASH_30S',
         timeBudgetSeconds: 30,
-        summary: 'Inflation Policy Rapid Pegs:\n• Flexible Inflation Targeting (FIT): Section 45ZA RBI Act | 4% target (±2% band, 2-6% range) | Notified 2021-2026.\n• MPC Composition: 6 members (3 RBI + 3 Govt) | 4-year non-renewable term | Governor casting vote.\n• Failure & Tools: Failure = 3 consecutive quarters breach | Monetary Brake (Repo) vs Govt Supply Lever (OMSS/Tariffs).',
+        summary: 'Inflation Policy Rapid Pegs:\n• Flexible Inflation Targeting (FIT): Section 45ZA RBI Act | 4% target (±2% band, 2-6% range) | Notified 2021-2026.\n• MPC Composition: 6 members (3 RBI + 3 Govt) | 4-year non-renewable term | Governor casting vote.\n• Failure & Tools: Failure = 3 consecutive quarters breach | Monetary Brake (Repo - heterogeneous transmission) vs Govt Supply Lever (OMSS/Tariffs).',
         keyTakeaways: ['FIT 4% ± 2% under Section 45ZA', '6-member MPC structure and voting rules', 'Failure defined as 3 consecutive quarters breach'],
         order: 1,
       },
       {
         tier: 'SUMMARY_2M',
         timeBudgetSeconds: 120,
-        summary: 'India transitioned to Flexible Inflation Targeting in 2016 per Urjit Patel Committee recommendations. The statutory target is 4% CPI with a 2–6% tolerance band. The 6-member MPC meets bi-monthly to set the Policy Repo Rate. Failure occurs if inflation breaches the band for 3 consecutive quarters. Because monetary policy targets demand, the government deploys supply-side tools (OMSS grain release, export duties, tariff cuts) to manage food and fuel shocks.',
-        keyTakeaways: ['Section 45ZA statutory framework', 'Monetary transmission chain (Repo -> EBLR -> Credit)', 'Monetary-fiscal coordination balance'],
+        summary: 'India transitioned to Flexible Inflation Targeting in 2016 per Urjit Patel Committee recommendations. The statutory target is 4% CPI with a 2–6% tolerance band. The 6-member MPC meets bi-monthly to set the Policy Repo Rate. Failure occurs if inflation breaches the band for 3 consecutive quarters. Transmission is heterogeneous: direct on floating mortgage borrowers, indirect via demand for cash-rich firms. Because monetary policy targets demand, the government deploys supply-side tools (OMSS grain release, export duties, tariff cuts) to manage food and fuel shocks.',
+        keyTakeaways: ['Section 45ZA statutory framework', 'Monetary transmission heterogeneity and lags', 'Monetary-fiscal coordination balance'],
         order: 2,
       },
       {

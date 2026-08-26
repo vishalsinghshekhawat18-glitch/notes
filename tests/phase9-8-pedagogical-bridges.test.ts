@@ -51,10 +51,10 @@ describe('Phase 9.8: Inflation Pedagogical Bridges & Cognitive Scaffolding Suite
       where: { concept: { topicId } },
     });
 
-    const transmissionBlock = blocks.find((b) => b.title?.includes('Transmission Real-World Friction') || b.body.includes('Asymmetric Repricing'));
+    const transmissionBlock = blocks.find((b) => b.body.includes('Direct vs Indirect Exposure') || b.body.includes('EBLR'));
     expect(transmissionBlock).toBeDefined();
     expect(transmissionBlock?.body).toContain('EBLR');
-    expect(transmissionBlock?.body).toContain('Small Savings');
+    expect(transmissionBlock?.body).toContain('small savings');
   });
 
   it('3. should verify Potential GDP & Output Gap factory overdrive analogy is present', async () => {
@@ -86,13 +86,14 @@ describe('Phase 9.8: Inflation Pedagogical Bridges & Cognitive Scaffolding Suite
     expect(debtBlock).toBeDefined();
   });
 
-  it('6. should verify WPI service exclusion conceptual origin is explained', async () => {
+  it('6. should verify WPI index scope distinction is explained without false physical rules', async () => {
     const blocks = await db.contentBlock.findMany({
       where: { concept: { topicId } },
     });
 
-    const wpiBlock = blocks.find((b) => b.body.includes('Why WPI Excludes Services'));
+    const wpiBlock = blocks.find((b) => b.body.includes('The True Scope of WPI vs CPI') || b.body.includes('current WPI series does not cover services'));
     expect(wpiBlock).toBeDefined();
+    expect(wpiBlock?.body).toContain('Producer Price Index');
   });
 
   it('7. should verify Base Effect 3-step numerical price ladder is present', async () => {
