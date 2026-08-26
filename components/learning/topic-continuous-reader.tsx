@@ -109,7 +109,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
   // Sync scroll position with active concept index
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPos = window.scrollY + 200;
+      const scrollPos = window.scrollY + 180;
       for (let i = conceptRefs.current.length - 1; i >= 0; i--) {
         const el = conceptRefs.current[i];
         if (el && el.offsetTop <= scrollPos) {
@@ -142,7 +142,6 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
   // Keyboard navigation: J (next concept), K (prev concept)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't trigger if user is focused in an input/textarea
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
         return;
       }
@@ -179,42 +178,42 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
   const getBlockBadge = (type: string) => {
     switch (type) {
       case 'INTUITION':
-        return { label: 'Intuition & Context', bg: 'bg-amber-100 text-amber-900 border-amber-300' };
+        return { label: 'Intuition & Context', bg: 'text-amber-800 bg-amber-50 border-amber-200' };
       case 'CORE_IDEA':
-        return { label: 'Core Principle', bg: 'bg-emerald-100 text-emerald-900 border-emerald-300' };
+        return { label: 'Core Principle', bg: 'text-emerald-800 bg-emerald-50 border-emerald-200' };
       case 'MECHANISM':
-        return { label: 'How It Works / Mechanism', bg: 'bg-blue-100 text-blue-900 border-blue-300' };
+        return { label: 'Mechanism & Operational Rule', bg: 'text-blue-800 bg-blue-50 border-blue-200' };
       case 'LEGAL_DISTINCTION':
-        return { label: 'Legal & Constitutional Distinction', bg: 'bg-indigo-100 text-indigo-900 border-indigo-300' };
+        return { label: 'Constitutional Distinction', bg: 'text-indigo-800 bg-indigo-50 border-indigo-200' };
       case 'CASE_LAW':
-        return { label: 'Judicial Precedent / Case Law', bg: 'bg-purple-100 text-purple-900 border-purple-300' };
+        return { label: 'Judicial Precedent', bg: 'text-purple-800 bg-purple-50 border-purple-200' };
       case 'EXAM_APPLICATION':
-        return { label: 'Exam Trap & High-Yield Analysis', bg: 'bg-rose-100 text-rose-900 border-rose-300' };
+        return { label: 'Exam Application & Traps', bg: 'text-rose-800 bg-rose-50 border-rose-200' };
       case 'COMPARISON':
-        return { label: 'Comparative Synthesis', bg: 'bg-teal-100 text-teal-900 border-teal-300' };
+        return { label: 'Comparative Analysis', bg: 'text-teal-800 bg-teal-50 border-teal-200' };
       default:
-        return { label: type.replace(/_/g, ' '), bg: 'bg-stone-100 text-stone-800 border-stone-300' };
+        return { label: type.replace(/_/g, ' '), bg: 'text-stone-700 bg-stone-100 border-stone-200' };
     }
   };
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900 font-sans pb-24">
-      {/* Sticky Reader Header & Reading Progress */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-xs">
-        <div className="max-w-5xl mx-auto px-4 py-2.5 flex items-center justify-between gap-4">
+      {/* Sticky Top Reader Header */}
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-2xs">
+        <div className="max-w-4xl mx-auto px-4 py-2 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 min-w-0">
             <Link
               href={`/topics/${topic.slug}`}
-              className="p-1.5 rounded-lg text-stone-500 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-mono flex items-center gap-1 shrink-0"
+              className="p-1 rounded-md text-stone-500 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-mono flex items-center gap-1 shrink-0"
               title="Return to Topic Index"
             >
               <span>←</span>
               <span className="hidden sm:inline">Index</span>
             </Link>
-            <div className="h-4 w-px bg-stone-300 shrink-0" />
+            <div className="h-3.5 w-px bg-stone-300 shrink-0" />
             <div className="min-w-0">
               <div className="text-[10px] font-mono uppercase tracking-wider text-stone-500 truncate">
-                {topic.subject.name} • Continuous Textbook Chapter
+                {topic.subject.name}
               </div>
               <h1 className="text-xs sm:text-sm font-bold text-stone-900 truncate">
                 {topic.title}
@@ -223,53 +222,53 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
           </div>
 
           <div className="flex items-center gap-3 shrink-0">
-            {/* Progress Badge */}
+            {/* Progress indicator */}
             <div className="hidden sm:flex flex-col items-end text-right">
-              <span className="text-[11px] font-mono font-medium text-stone-600">
-                Concept {activeConceptIndex + 1} of {topic.concepts.length}
+              <span className="text-[10px] font-mono text-stone-500">
+                {activeConceptIndex + 1} / {topic.concepts.length} concepts
               </span>
-              <div className="w-24 h-1.5 bg-stone-200 rounded-full overflow-hidden mt-0.5">
+              <div className="w-20 h-1 bg-stone-200 rounded-full overflow-hidden mt-0.5">
                 <div
-                  className="h-full bg-emerald-600 rounded-full transition-all duration-300"
+                  className="h-full bg-emerald-700 rounded-full transition-all duration-200"
                   style={{ width: `${progressPercent}%` }}
                 />
               </div>
             </div>
 
-            {/* Quick Outline Dropdown */}
+            {/* Chapter Outline Jump Menu */}
             <button
               onClick={() => setIsOutlineOpen(!isOutlineOpen)}
-              className="px-2.5 py-1.5 rounded-lg border border-stone-300 hover:bg-stone-100 text-stone-700 text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer"
+              className="px-2.5 py-1 rounded-md border border-stone-300 hover:bg-stone-100 text-stone-700 text-xs font-medium flex items-center gap-1 transition-colors cursor-pointer"
             >
-              <span>📑 Outline ({topic.concepts.length})</span>
-              <span className="text-[10px]">{isOutlineOpen ? '▲' : '▼'}</span>
+              <span>📑 Chapters</span>
+              <span className="text-[9px]">{isOutlineOpen ? '▲' : '▼'}</span>
             </button>
           </div>
         </div>
 
-        {/* Outline Drawer / Dropdown */}
+        {/* Chapter Outline Drawer */}
         {isOutlineOpen && (
-          <div className="bg-stone-900 text-stone-100 border-b border-stone-800 px-4 py-4 animate-in slide-in-from-top-2 duration-150">
-            <div className="max-w-5xl mx-auto">
-              <div className="flex items-center justify-between mb-3 text-xs font-mono text-stone-400">
-                <span>CHAPTER OUTLINE • JUMP TO CONCEPT</span>
+          <div className="bg-stone-900 text-stone-100 border-b border-stone-800 px-4 py-3.5 animate-in slide-in-from-top-2 duration-150">
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center justify-between mb-2 text-[11px] font-mono text-stone-400">
+                <span>CHAPTER OUTLINE · JUMP TO SECTION</span>
                 <span className="text-[10px]">Shortcuts: J (Next), K (Prev)</span>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 max-h-72 overflow-y-auto pr-1">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1.5 max-h-64 overflow-y-auto pr-1">
                 {topic.concepts.map((c, i) => (
                   <button
                     key={c.id}
                     onClick={() => scrollToConcept(i)}
-                    className={`text-left p-2 rounded-lg text-xs transition-colors flex items-start gap-2 cursor-pointer ${
+                    className={`text-left p-2 rounded text-xs transition-colors flex items-baseline gap-2 cursor-pointer ${
                       i === activeConceptIndex
-                        ? 'bg-emerald-800 text-white font-medium shadow-xs'
+                        ? 'bg-emerald-800 text-white font-medium shadow-2xs'
                         : 'hover:bg-stone-800 text-stone-300'
                     }`}
                   >
-                    <span className="font-mono text-stone-400 shrink-0">
+                    <span className="font-mono text-stone-400 shrink-0 text-[10px]">
                       {String(i + 1).padStart(2, '0')}
                     </span>
-                    <span className="truncate">{c.title}</span>
+                    <span className="truncate leading-tight">{c.title}</span>
                   </button>
                 ))}
               </div>
@@ -278,41 +277,25 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
         )}
       </header>
 
-      {/* Main Continuous Reading Container */}
-      <main className="max-w-4xl mx-auto px-4 py-8 space-y-16">
-        {/* Topic Introduction Hero */}
-        <section className="bg-white border border-stone-200 rounded-2xl p-6 sm:p-8 shadow-xs">
-          <div className="flex items-center gap-2 text-xs font-mono text-stone-500 mb-2">
-            <span>{topic.subject.domain.name}</span>
-            <span>›</span>
-            <span>{topic.subject.name}</span>
-            <span>›</span>
-            <span className="font-semibold text-emerald-800">Topic {topic.order || 1}</span>
+      {/* Main Chapter Content Body */}
+      <main className="max-w-4xl mx-auto px-4 py-8 space-y-12">
+        {/* Chapter Introduction Hero */}
+        <section className="border-b border-stone-200 pb-6">
+          <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">
+            {topic.subject.name} · Topic {topic.order || 1}
           </div>
 
-          <h2 className="text-2xl sm:text-4xl font-serif font-bold text-stone-900 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 tracking-tight">
             {topic.title}
           </h2>
 
-          <p className="text-sm sm:text-base text-stone-600 mt-3 leading-relaxed">
+          <p className="text-sm text-stone-600 font-serif italic mt-2 leading-relaxed max-w-3xl">
             {topic.description ||
               'A complete sequential chapter curriculum covering all core doctrines, mechanisms, examination overlays, and active recall.'}
           </p>
-
-          <div className="mt-6 pt-5 border-t border-stone-100 flex flex-wrap items-center justify-between gap-3 text-xs text-stone-500 font-mono">
-            <div className="flex items-center gap-3">
-              <span className="px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 font-semibold">
-                {topic.concepts.length} Canonical Concepts
-              </span>
-              <span>Full Canonical Content</span>
-            </div>
-            <div className="text-stone-400">
-              Estimated reading time: ~{topic.concepts.length * 4} mins
-            </div>
-          </div>
         </section>
 
-        {/* Concepts Rendered Sequentially */}
+        {/* Concepts Rendered Sequentially as Textbook Sections */}
         {topic.concepts.map((concept, index) => {
           const formattedExamLenses: ExamLensData[] = concept.examMappings.map((m) => ({
             examSlug: m.exam.slug,
@@ -337,13 +320,6 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
             }))
           );
 
-          const difficultyBadge =
-            concept.difficulty === 'BEGINNER'
-              ? 'bg-blue-50 text-blue-800 border-blue-200'
-              : concept.difficulty === 'INTERMEDIATE'
-              ? 'bg-amber-50 text-amber-800 border-amber-200'
-              : 'bg-rose-50 text-rose-800 border-rose-200';
-
           const sortedBlocks = [...concept.contentBlocks].sort((a, b) => a.order - b.order);
 
           return (
@@ -353,138 +329,106 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
               ref={(el) => {
                 conceptRefs.current[index] = el;
               }}
-              className="scroll-mt-20 bg-white border border-stone-200 rounded-2xl shadow-xs overflow-hidden transition-all"
+              className="scroll-mt-16 bg-white border border-stone-200/90 rounded-2xl p-6 sm:p-8 shadow-xs space-y-7 transition-all"
             >
-              {/* Concept Section Header Boundary */}
-              <div
-                id={`concept-${concept.slug}`}
-                className="bg-stone-900 text-stone-100 p-6 sm:p-7 border-b border-stone-800"
-              >
-                <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono mb-2">
-                  <div className="flex items-center gap-2">
-                    <span className="px-2 py-0.5 rounded bg-emerald-700 text-white font-bold">
-                      CONCEPT {String(index + 1).padStart(2, '0')} OF {String(topic.concepts.length).padStart(2, '0')}
-                    </span>
-                    <span className={`px-2 py-0.5 rounded border text-[11px] font-semibold ${difficultyBadge}`}>
-                      {concept.difficulty}
-                    </span>
-                  </div>
-                  <Link
-                    href={`/concepts/${concept.slug}`}
-                    target="_blank"
-                    className="text-stone-400 hover:text-stone-200 flex items-center gap-1 text-[11px] transition-colors"
-                    title="Open standalone page in new tab"
-                  >
-                    <span>Standalone Page</span>
-                    <span>↗</span>
-                  </Link>
+              {/* Compact Editorial Concept Header */}
+              <header id={`concept-${concept.slug}`} className="border-b border-stone-200 pb-4">
+                <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">
+                  {topic.title} · Concept {index + 1} of {topic.concepts.length}
                 </div>
 
-                <h3 className="text-xl sm:text-2xl font-serif font-bold text-white tracking-tight mt-1">
+                <h3 className="text-xl sm:text-2xl font-serif font-bold text-stone-900 tracking-tight leading-snug">
                   {concept.title}
                 </h3>
 
-                <p className="text-xs sm:text-sm text-stone-300 mt-2.5 leading-relaxed font-sans">
-                  {concept.shortDefinition}
-                </p>
-              </div>
+                {concept.shortDefinition && (
+                  <p className="text-xs sm:text-sm text-stone-600 font-serif italic mt-2 leading-relaxed">
+                    {concept.shortDefinition}
+                  </p>
+                )}
+              </header>
 
-              {/* Concept Pedagogical Body — All Canonical Blocks */}
-              <div className="p-6 sm:p-8 space-y-8">
-                {/* Content Blocks in Full Logical Order */}
-                <div className="space-y-6">
-                  {sortedBlocks.map((block) => {
-                    const badge = getBlockBadge(block.type);
-                    return (
-                      <div
-                        key={block.id}
-                        className="bg-stone-50/70 border border-stone-200/80 rounded-xl p-5 sm:p-6 transition-all"
-                      >
-                        <div className="flex items-center justify-between gap-2 mb-2.5">
-                          <span className={`text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${badge.bg}`}>
-                            {badge.label}
-                          </span>
-                        </div>
-
-                        {block.title && (
-                          <h4 className="text-base sm:text-lg font-serif font-bold text-stone-900 mb-2 border-b border-stone-200/60 pb-1.5">
-                            {block.title}
-                          </h4>
-                        )}
-
-                        <MarkdownContent
-                          content={block.body}
-                          className="text-sm md:text-[15px] leading-relaxed text-stone-800 font-serif"
-                        />
+              {/* Full Canonical Content Blocks */}
+              <div className="space-y-6">
+                {sortedBlocks.map((block) => {
+                  const badge = getBlockBadge(block.type);
+                  return (
+                    <div
+                      key={block.id}
+                      className="bg-stone-50/60 border border-stone-200/70 rounded-xl p-5 sm:p-6"
+                    >
+                      <div className="mb-2">
+                        <span className={`text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${badge.bg}`}>
+                          {badge.label}
+                        </span>
                       </div>
-                    );
-                  })}
-                </div>
 
-                {/* 2. Multi-Exam Lenses Box */}
-                {formattedExamLenses.length > 0 && (
-                  <div className="pt-4 border-t border-stone-200">
-                    <div className="text-xs font-mono uppercase tracking-wider text-stone-500 font-semibold mb-3 flex items-center gap-1.5">
-                      <span>🎯</span>
-                      <span>Target Exam Lenses & Syllabus Relevance</span>
+                      {block.title && (
+                        <h4 className="text-base sm:text-lg font-serif font-bold text-stone-900 mb-2 border-b border-stone-200/60 pb-1">
+                          {block.title}
+                        </h4>
+                      )}
+
+                      <MarkdownContent
+                        content={block.body}
+                        className="text-sm md:text-[15px] leading-relaxed text-stone-800 font-serif"
+                      />
                     </div>
-                    <ExamLensViewer examLenses={formattedExamLenses} />
-                  </div>
-                )}
-
-                {/* 3. Fast Revision Tiers */}
-                {concept.revisionUnits.length > 0 && (
-                  <div className="pt-4 border-t border-stone-200">
-                    <div className="text-xs font-mono uppercase tracking-wider text-stone-500 font-semibold mb-3 flex items-center gap-1.5">
-                      <span>⚡</span>
-                      <span>High-Yield Revision Tiers</span>
-                    </div>
-                    <RevisionViewer revisionUnits={concept.revisionUnits} />
-                  </div>
-                )}
-
-                {/* 4. Active Recall Check */}
-                {concept.questions.length > 0 && (
-                  <div className="pt-4 border-t border-stone-200">
-                    <div className="text-xs font-mono uppercase tracking-wider text-stone-500 font-semibold mb-3 flex items-center gap-1.5">
-                      <span>🧠</span>
-                      <span>Active Recall Knowledge Check</span>
-                    </div>
-                    <ActiveRecallViewer questions={concept.questions} />
-                  </div>
-                )}
-
-                {/* 5. Claim-Level Provenance Drawer */}
-                {allEvidenceItems.length > 0 && (
-                  <div className="pt-4 border-t border-stone-100 flex items-center justify-between text-xs text-stone-500">
-                    <span>Provenance: {concept.claims.length} canonical claims verified</span>
-                    <EvidenceDrawer
-                      claimStatement={concept.claims[0]?.statement}
-                      evidenceList={allEvidenceItems}
-                    />
-                  </div>
-                )}
+                  );
+                })}
               </div>
+
+              {/* 2. Target Exam Lenses */}
+              {formattedExamLenses.length > 0 && (
+                <div className="pt-2 border-t border-stone-100">
+                  <ExamLensViewer examLenses={formattedExamLenses} />
+                </div>
+              )}
+
+              {/* 3. Fast Multi-Tier Revision */}
+              {concept.revisionUnits.length > 0 && (
+                <div className="pt-2 border-t border-stone-100">
+                  <RevisionViewer revisionUnits={concept.revisionUnits} />
+                </div>
+              )}
+
+              {/* 4. Active Recall Interactive Quiz */}
+              {concept.questions.length > 0 && (
+                <div className="pt-2 border-t border-stone-100">
+                  <ActiveRecallViewer questions={concept.questions} />
+                </div>
+              )}
+
+              {/* 5. Claim-Level Provenance */}
+              {allEvidenceItems.length > 0 && (
+                <div className="pt-3 border-t border-stone-100 flex items-center justify-between text-xs text-stone-500">
+                  <span className="font-mono text-[11px]">Provenance: {concept.claims.length} canonical claims verified</span>
+                  <EvidenceDrawer
+                    claimStatement={concept.claims[0]?.statement}
+                    evidenceList={allEvidenceItems}
+                  />
+                </div>
+              )}
             </article>
           );
         })}
 
-        {/* End-of-Topic Chapter Completion Banner */}
-        <section className="bg-stone-900 text-stone-100 rounded-2xl p-8 text-center space-y-4 shadow-sm">
-          <div className="inline-block px-3 py-1 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-300 font-mono text-xs font-semibold">
-            ✓ TOPIC {topic.order || 1} CHAPTER COMPLETE
+        {/* Chapter Completion Footer */}
+        <section className="bg-stone-900 text-stone-100 rounded-2xl p-6 sm:p-8 text-center space-y-3 shadow-xs">
+          <div className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-300 font-mono text-[11px] font-semibold">
+            ✓ CHAPTER {topic.order || 1} COMPLETE
           </div>
-          <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
+          <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
             You&apos;ve Completed {topic.title}
           </h3>
-          <p className="text-xs sm:text-sm text-stone-400 max-w-lg mx-auto">
+          <p className="text-xs text-stone-400 max-w-md mx-auto">
             You have reviewed all {topic.concepts.length} canonical concepts in this chapter.
           </p>
 
-          <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
+          <div className="pt-3 flex flex-wrap items-center justify-center gap-3">
             <Link
               href={`/topics/${topic.slug}`}
-              className="px-4 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 font-medium text-xs transition-colors"
+              className="px-3.5 py-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-200 font-medium text-xs transition-colors"
             >
               Return to Topic Index
             </Link>
@@ -492,7 +436,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
             {nextTopic ? (
               <Link
                 href={`/topics/${nextTopic.slug}/read/`}
-                className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors flex items-center gap-2 shadow-sm"
+                className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors flex items-center gap-1.5 shadow-xs"
               >
                 <span>Read Next: {nextTopic.title}</span>
                 <span>→</span>
@@ -500,7 +444,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
             ) : (
               <Link
                 href="/"
-                className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors flex items-center gap-2 shadow-sm"
+                className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors flex items-center gap-1.5 shadow-xs"
               >
                 <span>Browse Full Library</span>
                 <span>→</span>

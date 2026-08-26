@@ -231,23 +231,22 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
             </div>
           )}
 
-          {/* Concept Title & Canonical Status */}
-          <div className="border-b border-stone-200 pb-5 mb-6">
-            <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span className="bg-emerald-100 text-emerald-900 font-mono text-[10px] px-2 py-0.5 rounded font-semibold uppercase tracking-wider">
-                Full Canonical Concept
-              </span>
-              <span className="text-xs font-mono text-stone-500">
-                Difficulty: <span className="font-semibold text-stone-700">{concept.difficulty}</span>
-              </span>
+          {/* Compact Editorial Concept Header */}
+          <header className="border-b border-stone-200 pb-4 mb-6">
+            <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">
+              {concept.topic.title} · Concept {currentIndex >= 0 ? currentIndex + 1 : 1} of {siblingConcepts.length || 1}
             </div>
-            <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 leading-tight">
+
+            <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 leading-tight tracking-tight">
               {concept.title}
             </h1>
-            <p className="text-sm text-stone-700 font-serif italic mt-3 leading-relaxed bg-stone-100/80 p-3.5 rounded-lg border-l-3 border-stone-400">
-              &ldquo;{concept.shortDefinition}&rdquo;
-            </p>
-          </div>
+
+            {concept.shortDefinition && (
+              <p className="text-xs sm:text-sm text-stone-600 font-serif italic mt-2 leading-relaxed">
+                {concept.shortDefinition}
+              </p>
+            )}
+          </header>
 
           {/* Mode Navigation Tabs */}
           <div className="flex flex-wrap gap-2 border-b border-stone-200 pb-2 mb-6">
