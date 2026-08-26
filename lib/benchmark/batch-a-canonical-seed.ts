@@ -976,15 +976,15 @@ export const BATCH_A_CONCEPTS: BatchAConceptSeedDefinition[] = [
     contentBlocks: [
       {
         type: 'CORE_IDEA',
-        title: 'The Committee Engine of Constitution-Making',
-        body: 'Rather than debating raw constitutional ideas on the floor of the entire house of nearly 300 members, the Assembly created specialized committees to draft specific chapters, which were then reconciled by the **Drafting Committee** into a unified draft.',
+        title: 'The Functional Division of Labor in Constitution-Making',
+        body: 'Rather than debating complex constitutional clauses in a 300-member plenary session, the Constituent Assembly appointed specialized committees to draft specific constitutional domains. These specialized drafts were then consolidated, scrutinized, and legally formulated by the **Drafting Committee**.',
         order: 1,
         visibility: 'STANDARD',
       },
       {
         type: 'MECHANISM',
-        title: 'The 8 Major Committees & Chairs',
-        body: '1. **Union Powers Committee:** Jawaharlal Nehru\n2. **Union Constitution Committee:** Jawaharlal Nehru\n3. **States Committee (Negotiating with States):** Jawaharlal Nehru\n4. **Rules of Procedure Committee:** Dr. Rajendra Prasad\n5. **Steering Committee:** Dr. Rajendra Prasad\n6. **Provincial Constitution Committee:** Sardar Vallabhbhai Patel\n7. **Advisory Committee on Fundamental Rights, Minorities and Tribal/Excluded Areas:** Sardar Vallabhbhai Patel\n   • *Fundamental Rights Sub-Committee:* J.B. Kripalani\n   • *Minorities Sub-Committee:* H.C. Mukherjee\n   • *North-East Frontier Tribal Areas Sub-Committee:* Gopinath Bardoloi\n8. **Drafting Committee:** Dr. B.R. Ambedkar',
+        title: 'Functional Grouping of the 8 Major Committees & Sub-Committees',
+        body: 'Understanding the committee architecture requires seeing **who handled what type of constitutional work**:\n\n### 1. National Governance & Federal Architecture (Chaired by Jawaharlal Nehru)\n• **Union Powers Committee:** Demarcated the scope of Central legislative powers and federal balance.\n• **Union Constitution Committee:** Designed the structure of the Union Executive, Parliament, and Judiciary.\n• **States Committee:** Negotiated accession and integration modalities with Princely States.\n\n### 2. State Governance, Rights & Minorities (Chaired by Sardar Vallabhbhai Patel)\n• **Provincial Constitution Committee:** Designed State/Provincial executives and legislative structures.\n• **Advisory Committee on Fundamental Rights, Minorities & Tribal/Excluded Areas:** A massive 54-member body that operated through crucial sub-committees:\n  - *Fundamental Rights Sub-Committee:* **J.B. Kripalani** (Drafted the civil liberties charter of Part III)\n  - *Minorities Sub-Committee:* **H.C. Mukherjee** (Drafted safeguards for religious and linguistic minorities)\n  - *North-East Frontier Tribal Areas & Assam Excluded Areas Sub-Committee:* **Gopinath Bardoloi** (Drafted the framework for the 6th Schedule)\n  - *Excluded and Partially Excluded Areas (Other than Assam) Sub-Committee:* **A.V. Thakkar** (Drafted the framework for the 5th Schedule)\n\n### 3. Assembly Governance & Procedural Rules (Chaired by Dr. Rajendra Prasad)\n• **Rules of Procedure Committee:** Formulated parliamentary procedure and voting mechanisms.\n• **Steering Committee:** Managed the legislative timetable, business agenda, and committee sequencing.\n• *(Also chaired the Finance & Staff Committee and the Ad Hoc Committee on the National Flag).*\n\n### 4. Synthesis & Formal Drafting (Chaired by Dr. B.R. Ambedkar)\n• **Drafting Committee (Appointed Aug 29, 1947):** Scrutinized the initial constitutional draft prepared by Constitutional Advisor Sir B.N. Rau and formulated the official Draft Constitution of India.',
         order: 2,
         visibility: 'STANDARD',
       },
@@ -2105,16 +2105,23 @@ export const BATCH_A_CONCEPTS: BatchAConceptSeedDefinition[] = [
     contentBlocks: [
       {
         type: 'CORE_IDEA',
-        title: 'Asymmetric Federalism for Tribal Autonomy',
-        body: 'The Indian Constitution recognizes that tribal communities require specialized protection to preserve their customary laws, land rights, and self-governance. It establishes a **two-tier architecture**: the **Fifth Schedule** (regulated protection across 10 mainland states) and the **Sixth Schedule** (high-degree legislative and executive autonomy in the North-East).',
+        title: 'Asymmetric Federalism for Tribal Governance',
+        body: 'The Indian Constitution creates two distinct constitutional mechanisms for tribal areas under the core principle: **"Different constitutional arrangements were designed for different tribal-administration contexts."**',
         order: 1,
+        visibility: 'STANDARD',
+      },
+      {
+        type: 'INTUITION',
+        title: 'Why the Arrangements Differ: Institutional Logic Behind 5th vs 6th Schedules',
+        body: 'To understand why the 5th and 6th Schedules operate differently, consider the distinct socio-administrative realities they address:\n\n1. **Fifth Schedule Context (10 Mainland States — Regulated Protection):**\n   • *Context:* Mainland tribal communities (e.g. Bhils, Gonds, Santhals) live interspersed with non-tribal populations within standard state administrative boundaries.\n   • *Institutional Strategy:* They do not require a separate mini-legislature. Instead, the Constitution uses **protective oversight**: the Governor exercises special regulatory powers (backed by an advisory **Tribes Advisory Council**) to prohibit land alienation, regulate moneylending, and filter out disruptive state/central laws.\n\n2. **Sixth Schedule Context (4 North-Eastern States: AMTM — Autonomous Self-Governance):**\n   • *Context:* North-Eastern hill tribes (e.g. Khasi, Garo, Jaintia, Mizo, Bodo) historically formed compact, contiguous ethnic communities with unbroken traditional self-governing institutions and distinct customary legal codes.\n   • *Institutional Strategy:* They are granted **statutory regional self-rule**: **Autonomous District Councils (ADCs)** act as miniature local legislatures endowed with direct law-making, customary court administration, and local revenue-raising powers ("states within a state").',
+        order: 2,
         visibility: 'STANDARD',
       },
       {
         type: 'MECHANISM',
         title: '5th Schedule vs 6th Schedule: Deep Comparative Matrix',
         body: '| Parameter | Fifth Schedule (Article 244(1)) | Sixth Schedule (Articles 244(2) & 275(1)) |\n| :--- | :--- | :--- |\n| **Geographical Scope** | **10 Mainland States:** AP, Telangana, Jharkhand, Chhattisgarh, MP, Maharashtra, Gujarat, Odisha, Rajasthan, HP | **4 North-Eastern States (AMTM):** Assam, Meghalaya, Tripura, Mizoram |\n| **Institutional Apex** | **Tribes Advisory Council (TAC):** Up to 20 members (3/4th ST MLAs). Advisory body to the Governor. | **Autonomous District Councils (ADCs):** Up to 30 members (26 elected by adult franchise + 4 nominated by Governor; 5-year term). |\n| **Legislative Power** | TAC has **no law-making power**. Governor issues regulations prohibiting transfer of land and moneylending. | ADCs possess **direct legislative power** to make laws on land, forests, canal water, shifting cultivation, village administration, inheritance, marriage, social customs (assent of Governor required). |\n| **Judicial Power** | Standard judicial hierarchy applies. | ADCs can constitute village courts and councils to try suits between scheduled tribes. |\n| **Application of Central/State Laws** | Governor directs if an Act of Parliament/State Legislature applies or applies with modifications. | In Assam, Governor directs; in Meghalaya, Tripura, Mizoram, the President directs for central laws and Governor for state laws. |',
-        order: 2,
+        order: 3,
         visibility: 'STANDARD',
       },
     ],
@@ -2358,8 +2365,15 @@ export const BATCH_A_CONCEPTS: BatchAConceptSeedDefinition[] = [
       {
         type: 'MECHANISM',
         title: 'The 22 Languages & 3 Constitutional Amendments',
-        body: '### Original 14 Languages (1949):\nAssamese, Bengali, Gujarati, Hindi, Kannada, Kashmiri, Malayalam, Marathi, Odia, Punjabi, Sanskrit, Tamil, Telugu, Urdu.\n\n### 8 Languages Added by Amendments:\n1. **21st Constitutional Amendment Act, 1967:** Added **Sindhi** (15th language).\n2. **71st Constitutional Amendment Act, 1992 (Mnemonic: KMN):** Added **Konkani, Manipuri, Nepali** (16th, 17th, 18th languages).\n3. **92nd Constitutional Amendment Act, 2003 (Mnemonic: BDM-S):** Added **Bodo, Dogri, Maithili, Santhali** (19th, 20th, 21st, 22nd languages).\n• *96th Amendment 2011:* Renamed "Oriya" to "Odia".\n\n### 11 Classical Languages of India:\n1. **Tamil** (2004 — First)\n2. **Sanskrit** (2005)\n3. **Kannada** (2008)\n4. **Telugu** (2008)\n5. **Malayalam** (2013)\n6. **Odia** (2014)\n7. **Assamese** (2024)\n8. **Bengali** (2024)\n9. **Marathi** (2024)\n10. **Pali** (2024)\n11. **Prakrit** (2024)\n*(Note: Classical Language status is an executive classification by the Ministry of Culture, not explicitly mentioned in the Constitution).*',
+        body: '### Original 14 Languages (1949):\nAssamese, Bengali, Gujarati, Hindi, Kannada, Kashmiri, Malayalam, Marathi, Odia, Punjabi, Sanskrit, Tamil, Telugu, Urdu.\n\n### 8 Languages Added by Amendments:\n1. **21st Constitutional Amendment Act, 1967:** Added **Sindhi** (15th language).\n2. **71st Constitutional Amendment Act, 1992 (Mnemonic: KMN):** Added **Konkani, Manipuri, Nepali** (16th, 17th, 18th languages).\n3. **92nd Constitutional Amendment Act, 2003 (Mnemonic: BDM-S):** Added **Bodo, Dogri, Maithili, Santhali** (19th, 20th, 21st, 22nd languages).\n• *96th Amendment 2011:* Renamed "Oriya" to "Odia".\n\n### 11 Classical Languages of India:\n1. **Tamil** (2004 — First)\n2. **Sanskrit** (2005)\n3. **Kannada** (2008)\n4. **Telugu** (2008)\n5. **Malayalam** (2013)\n6. **Odia** (2014)\n7. **Assamese** (2024)\n8. **Bengali** (2024)\n9. **Marathi** (2024)\n10. **Pali** (2024)\n11. **Prakrit** (2024)',
         order: 2,
+        visibility: 'STANDARD',
+      },
+      {
+        type: 'DISTINCTION',
+        title: 'Crucial Misconception Shield: Classical Language Status ≠ Eighth Schedule Status',
+        body: '> **CLASSICAL LANGUAGE STATUS ≠ EIGHTH SCHEDULE STATUS**\n\nLearners frequently confuse these two classifications because several major languages appear in both lists. However, they represent completely different legal and institutional frameworks:\n\n1. **Eighth Schedule Status (Constitutional Schedule):**\n   • *Authority:* Articles 344(1) and 351 of the Constitution.\n   • *Mechanism:* Can only be added or modified through a **Constitutional Amendment Act passed by Parliament**.\n   • *Purpose:* Official language development, representation on the Official Languages Commission, and linguistic enrichment of Hindi.\n   • *Total:* **22 Languages**.\n\n2. **Classical Language Status (Executive Classification):**\n   • *Authority:* Executive notification by the **Ministry of Culture, Government of India** (based on criteria set by an expert committee of the Sahitya Akademi).\n   • *Mechanism:* Purely an **executive decision**; does *not* require an Article 368 constitutional amendment.\n   • *Purpose:* Promotion of ancient scholarship, national awards for eminent scholars, and establishing dedicated university research chairs.\n   • *Criteria:* High antiquity of early texts/recorded history (1,500–2,000 years), valuable ancient literature considered heritage by generations, and original literary tradition not borrowed from another speech community.\n   • *Total:* **11 Languages** (as of October 2024).\n\n3. **The Non-Identity Rule in Practice:**\n   • *In Classical list but NOT in 8th Schedule:* **Pali** and **Prakrit** are recognized Classical Languages (2024) but are **NOT** Eighth Schedule languages.\n   • *In 8th Schedule but NOT Classical:* Languages such as Hindi, Punjabi, Gujarati, Sindhi, Nepali, Konkani, Dogri, and Maithili are in the Eighth Schedule but do not possess Classical Language status.',
+        order: 3,
         visibility: 'STANDARD',
       },
     ],

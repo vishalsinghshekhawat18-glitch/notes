@@ -109,6 +109,15 @@ describe('Phase 11: Indian Polity Batch A Canonical Knowledge Expansion', () => 
     expect(topic2).toBeDefined();
     expect(topic2?.concepts.length).toBe(6);
 
+    // Verify Committees functional grouping (Correction 1)
+    const committeeConcept = await getConceptWithFullContext('committees-of-constituent-assembly-and-drafting-committee');
+    expect(committeeConcept).toBeDefined();
+    const committeeText = committeeConcept?.contentBlocks.map((b) => b.body).join(' ');
+    expect(committeeText).toContain('National Governance & Federal Architecture');
+    expect(committeeText).toContain('State Governance, Rights & Minorities');
+    expect(committeeText).toContain('Assembly Governance & Procedural Rules');
+    expect(committeeText).toContain('Synthesis & Formal Drafting');
+
     // Verify Rajasthan representation concept
     const rajConcept = await getConceptWithFullContext('constituent-assembly-rajasthan-representation-criticisms');
     expect(rajConcept).toBeDefined();
@@ -147,7 +156,15 @@ describe('Phase 11: Indian Polity Batch A Canonical Knowledge Expansion', () => 
     expect(topic4).toBeDefined();
     expect(topic4?.concepts.length).toBe(8);
 
-    // Verify 8th Schedule languages
+    // Verify 5th vs 6th Schedule institutional logic bridge (Correction 2)
+    const schedule56Concept = await getConceptWithFullContext('schedules-5-and-6-scheduled-and-tribal-areas-administration');
+    expect(schedule56Concept).toBeDefined();
+    const schedule56Text = schedule56Concept?.contentBlocks.map((b) => b.body).join(' ');
+    expect(schedule56Text).toContain('Different constitutional arrangements were designed for different tribal-administration contexts.');
+    expect(schedule56Text).toContain('Tribes Advisory Council');
+    expect(schedule56Text).toContain('Autonomous District Councils');
+
+    // Verify 8th Schedule languages & misconception shield (Correction 3)
     const langConcept = await getConceptWithFullContext('8th-schedule-22-official-languages-classical-languages');
     expect(langConcept).toBeDefined();
     const langText = langConcept?.contentBlocks.map((b) => b.body).join(' ');
@@ -155,6 +172,7 @@ describe('Phase 11: Indian Polity Batch A Canonical Knowledge Expansion', () => 
     expect(langText).toContain('Assamese');
     expect(langText).toContain('Pali');
     expect(langText).toContain('Prakrit');
+    expect(langText).toContain('CLASSICAL LANGUAGE STATUS ≠ EIGHTH SCHEDULE STATUS');
 
     // Verify 10th Schedule Anti-Defection
     const defectionConcept = await getConceptWithFullContext('10th-schedule-anti-defection-law-exceptions-judicial-evolution');
