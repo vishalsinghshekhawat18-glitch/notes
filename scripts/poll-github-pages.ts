@@ -2,7 +2,14 @@ async function checkPages() {
   const targetUrl = 'https://vishalsinghshekhawat18-glitch.github.io/notes/';
   const subroutes = [
     { name: 'Library Homepage', path: '' },
+    { name: 'Topic 1: Basic Concepts of Polity', path: 'topics/basic-concepts-of-polity/' },
+    { name: 'Topic 2: Constituent Assembly', path: 'topics/constituent-assembly/' },
+    { name: 'Topic 3: Preamble', path: 'topics/preamble/' },
+    { name: 'Topic 4: Schedules', path: 'topics/schedules-of-the-indian-constitution/' },
     { name: 'Topic 9: Fundamental Rights', path: 'topics/part-3-fundamental-rights/' },
+    { name: 'Concept: Saptanga Theory', path: 'concepts/state-and-nation-constituent-elements-saptanga-theory/' },
+    { name: 'Concept: Preamble Amendability', path: 'concepts/status-justiciability-amendability-of-the-preamble/' },
+    { name: 'Concept: 10th Schedule Anti-Defection', path: 'concepts/10th-schedule-anti-defection-law-exceptions-judicial-evolution/' },
     { name: 'Concept: Article 14', path: 'concepts/article-14-equality-non-arbitrariness/' },
     { name: 'Concept: Article 21', path: 'concepts/article-21-21a-life-liberty-privacy-education/' },
     { name: 'Topic: Inflation Dynamics', path: 'topics/inflation-dynamics-measurement-policy/' },
@@ -19,7 +26,6 @@ async function checkPages() {
     console.log(`HTTP Status: ${res.status}`);
 
     if (res.status === 200) {
-      const html = await res.text();
       console.log(`\n======================================================`);
       console.log(`🎉 GITHUB PAGES IS LIVE (HTTP 200 OK)!`);
       console.log(`======================================================\n`);

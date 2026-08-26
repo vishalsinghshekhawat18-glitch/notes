@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { db } from '../lib/db/client';
+import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
@@ -12,7 +13,7 @@ import {
 
 describe('Web Application Slice: Library, Curriculum, and Concept Viewer Service', () => {
   beforeAll(async () => {
-    // Clean DB and seed all three benchmark topics for clean end-to-end web testing
+    // Clean DB and seed all benchmark topics for clean end-to-end web testing
     await db.knowledgeAudit.deleteMany();
     await db.question.deleteMany();
     await db.revisionUnit.deleteMany();
@@ -32,13 +33,15 @@ describe('Web Application Slice: Library, Curriculum, and Concept Viewer Service
     await db.subject.deleteMany();
     await db.domain.deleteMany();
 
+    // seedBatchACanonicalKnowledge seeds Topics 1-4 (22 concepts)
+    await seedBatchACanonicalKnowledge();
     // seedTopic9CanonicalKnowledge seeds Topic 9 (16 concepts)
     await seedTopic9CanonicalKnowledge();
     // seedTopic10CanonicalKnowledge seeds Topic 10 (5 concepts)
     await seedTopic10CanonicalKnowledge();
     // seedInflationCanonicalKnowledge seeds Inflation (5 concepts)
     await seedInflationCanonicalKnowledge();
-  }, 40000);
+  }, 45000);
 
   afterAll(async () => {
     await db.$disconnect();

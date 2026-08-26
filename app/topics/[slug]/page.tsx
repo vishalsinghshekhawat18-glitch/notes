@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getTopicWithConcepts } from '@/lib/knowledge/web-data';
 
+import { db } from '@/lib/db/client';
+
 interface TopicPageProps {
   params: Promise<{
     slug: string;
@@ -10,11 +12,10 @@ interface TopicPageProps {
 }
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'part-3-fundamental-rights' },
-    { slug: 'part-4-directive-principles-of-state-policy' },
-    { slug: 'inflation-dynamics-measurement-policy' },
-  ];
+  const topics = await db.topic.findMany({
+    select: { slug: true },
+  });
+  return topics.map((t) => ({ slug: t.slug }));
 }
 
 export default async function TopicPage({ params }: TopicPageProps) {

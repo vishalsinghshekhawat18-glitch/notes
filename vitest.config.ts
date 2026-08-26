@@ -7,8 +7,10 @@ export default defineConfig({
     globals: true,
     include: ['tests/**/*.test.ts'],
     fileParallelism: false,
-    testTimeout: 35000,
-    hookTimeout: 35000,
+    maxWorkers: 1,
+    minWorkers: 1,
+    testTimeout: 45000,
+    hookTimeout: 45000,
     sequence: {
       concurrent: false,
     },

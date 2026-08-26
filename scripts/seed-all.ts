@@ -1,4 +1,5 @@
 import { db } from '../lib/db/client';
+import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
@@ -26,6 +27,8 @@ async function main() {
   await db.subject.deleteMany();
   await db.domain.deleteMany();
 
+  // Seed Batch A (Topics 1-4: 22 concepts)
+  await seedBatchACanonicalKnowledge();
   // Seed Topic 9 (16 concepts)
   await seedTopic9CanonicalKnowledge();
   // Seed Topic 10 (5 concepts)
