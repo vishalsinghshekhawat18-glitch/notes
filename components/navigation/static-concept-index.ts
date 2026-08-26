@@ -919,6 +919,95 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 19: CENTRE-STATE RELATIONS & FEDERAL STRUCTURE (5 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T19-01',
+    slug: 'nature-of-indian-federalism-and-asymmetric-structure',
+    title: 'Nature of Indian Federalism: Quasi-Federal Character & Asymmetric Provisions',
+    shortDefinition: 'Holding-together federalism under Article 1, unitary/centripetal features, Basic Structure doctrine (S.R. Bommai 1994), and asymmetric federalism under Articles 371 to 371-J.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XI & XII: Centre–State Relations & Federal Architecture',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T19-02',
+    slug: 'legislative-relations-three-lists-residuary-powers-and-exceptions',
+    title: 'Legislative Relations: Three Lists (7th Schedule), Residuary Powers & Exceptions',
+    shortDefinition: '7th Schedule distribution, Article 248 residuary powers, 5 exceptions for Parliamentary law on State List (Arts 249, 250, 252, 253, 356), and Article 254 Repugnancy.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part XI & XII: Centre–State Relations & Federal Architecture',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T19-03',
+    slug: 'administrative-relations-directives-all-india-services-and-water-disputes',
+    title: 'Administrative Relations: Directives (Arts 256-257), Sanctions (Art 365) & All India Services',
+    shortDefinition: 'Union directives to States (Arts 256-257), Article 365 sanction, Article 355 duty, All India Services (Art 312), and Inter-State River Water Disputes (Art 262).',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XI & XII: Centre–State Relations & Federal Architecture',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T19-04',
+    slug: 'inter-state-council-zonal-councils-and-federal-commissions',
+    title: 'Inter-State Council (Art 263), Zonal Councils & Federal Commissions',
+    shortDefinition: 'Constitutional Inter-State Council (Art 263, est 1990), 5 statutory Zonal Councils (1956 Act), and Sarkaria/Punchhi Commission federal doctrines.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XI & XII: Centre–State Relations & Federal Architecture',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T19-05',
+    slug: 'financial-relations-finance-commission-and-gst-council',
+    title: 'Financial Relations: Division of Taxes, Finance Commission (Art 280) & GST Council',
+    shortDefinition: 'Fiscal federalism under Part XII, GST Council (Art 279A) weighted voting formula, Finance Commission (Art 280), Grants (Art 275 vs 282), and borrowing (Art 293).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part XI & XII: Centre–State Relations & Federal Architecture',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 20: EMERGENCY PROVISIONS & SAFEGUARDS (4 CONCEPTS)
+  // =========================================================================
+  {
+    id: 'CON-T20-01',
+    slug: 'national-emergency-article-352-grounds-approval-and-safeguards',
+    title: 'National Emergency (Article 352): Grounds, Approval & 44th CAA Safeguards',
+    shortDefinition: 'Part XVIII Article 352 grounds (War, External Aggression, Armed Rebellion), written Cabinet advice, 1-month Special Majority approval, and Lok Sabha disapproval.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XVIII: Emergency Provisions & Constitutional Safeguards',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T20-02',
+    slug: 'national-emergency-effects-and-fundamental-rights-art-358-vs-359',
+    title: 'National Emergency Impact: Federal Balance & Fundamental Rights (Art 358 vs Art 359)',
+    shortDefinition: 'Federal centralization during emergency, Lok Sabha term extension, Article 358 automatic suspension of Art 19 for external emergency, and non-derogable Articles 20 & 21 under Art 359.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part XVIII: Emergency Provisions & Constitutional Safeguards',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T20-03',
+    slug: 'presidents-rule-article-356-and-sr-bommai-doctrine',
+    title: 'President\'s Rule (Articles 356 & 365): Grounds, Procedure & S.R. Bommai Doctrine',
+    shortDefinition: 'Breakdown of state machinery, Simple Majority approval within 2 months, 44th CAA 3-year extension rules, and S.R. Bommai (1994) judicial review and floor test standards.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part XVIII: Emergency Provisions & Constitutional Safeguards',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T20-04',
+    slug: 'financial-emergency-article-360-invocation-and-consequences',
+    title: 'Financial Emergency (Article 360): Invocation, Indefinite Duration & Distinctive Powers',
+    shortDefinition: 'Article 360 threat to financial credit, 2-month Simple Majority approval, indefinite continuation rule, reduction of SC/HC judges salaries, and non-invocation history.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part XVIII: Emergency Provisions & Constitutional Safeguards',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // ECONOMICS: INFLATION BENCHMARK (5 CONCEPTS)
   // =========================================================================
   {
