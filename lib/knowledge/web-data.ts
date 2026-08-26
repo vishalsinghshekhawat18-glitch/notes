@@ -2,11 +2,12 @@ import { db } from '@/lib/db/client';
 import { seedBatchACanonicalKnowledge } from '@/lib/benchmark/batch-a-canonical-seed';
 import { seedBatchBCanonicalKnowledge } from '@/lib/benchmark/batch-b-canonical-seed';
 import { seedBatchP1CanonicalKnowledge } from '@/lib/benchmark/batch-p1-canonical-seed';
+import { seedBatchP2CanonicalKnowledge } from '@/lib/benchmark/batch-p2-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '@/lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '@/lib/benchmark/inflation-canonical-seed';
 
 /**
- * Ensures that all canonical benchmark data (Batch A, Batch B, Batch P1, Topic 9, Topic 10, Inflation)
+ * Ensures that all canonical benchmark data (Batch A, Batch B, Batch P1, Batch P2, Topic 9, Topic 10, Inflation)
  * is present in the database for web application rendering.
  */
 export async function ensureCanonicalDataSeeded() {
@@ -16,6 +17,7 @@ export async function ensureCanonicalDataSeeded() {
     await seedBatchBCanonicalKnowledge();
     await seedTopic10CanonicalKnowledge();
     await seedBatchP1CanonicalKnowledge();
+    await seedBatchP2CanonicalKnowledge();
     await seedInflationCanonicalKnowledge();
   }
 }

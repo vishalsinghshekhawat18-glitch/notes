@@ -719,6 +719,104 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 14: THE UNION LEGISLATURE (6 CONCEPTS: CON-T14-01 to CON-T14-06)
+  // =========================================================================
+  {
+    id: 'CON-T14-01',
+    slug: 'parliament-architecture-bicameralism-composition-and-sessions',
+    title: 'Parliament Architecture: Bicameralism (Art 79), Composition & Sessions',
+    shortDefinition: 'The tripartite structure of Parliament (President, RS, LS), federal composition of Rajya Sabha, democratic Lok Sabha, and constitutional rules for sessions and quorum.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T14-02',
+    slug: 'presiding-officers-speaker-vs-chairman-and-disqualifications',
+    title: 'Presiding Officers: Speaker vs Chairman (Arts 89, 93) & Disqualifications',
+    shortDefinition: 'Speaker of Lok Sabha and Chairman of Rajya Sabha roles, casting vote, Money Bill certification, and Article 102 vs 10th Schedule disqualifications.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T14-03',
+    slug: 'legislative-enactments-classification-of-bills-and-joint-sittings',
+    title: 'Legislative Enactments: Classification of Bills (Arts 107–110, 117) & Joint Sittings (Art 108)',
+    shortDefinition: 'Four classes of bills (Ordinary, Money, Financial I & II), Article 108 Joint Sittings with exclusions (Money Bills & CAAs), and Article 107 dissolution lapse rules.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T14-04',
+    slug: 'parliamentary-financial-control-and-budget-procedure',
+    title: 'Parliamentary Financial Control: Budget Procedure & Cut Motions (Arts 112–116)',
+    shortDefinition: 'Six-stage Union Budget procedure, Charged vs Voted expenditure, Demands for Grants (Art 113), Cut Motions (Policy, Economy, Token), and Appropriation Bill.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T14-05',
+    slug: 'parliamentary-standing-committees-pac-estimates-copu-and-drscs',
+    title: 'Parliamentary Standing Committees: PAC (1921), Estimates (1950), COPU (1964) & DRSCs',
+    shortDefinition: 'Three premier Financial Standing Committees (PAC, Estimates 30 LS only, COPU), 24 DRSCs, and the strict ban on ministerial membership.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T14-06',
+    slug: 'parliamentary-privileges-motions-and-procedural-devices',
+    title: 'Parliamentary Privileges (Art 105), Motions & Procedural Devices',
+    shortDefinition: 'Constitutional privileges under Article 105, civil arrest immunity, Question Hour, Zero Hour (1962 innovation), and No-Confidence Motions.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 15: THE STATE LEGISLATURE (4 CONCEPTS: CON-T15-01 to CON-T15-04)
+  // =========================================================================
+  {
+    id: 'CON-T15-01',
+    slug: 'state-legislature-architecture-and-creation-abolition-of-councils',
+    title: 'State Legislature Architecture & Creation/Abolition of Councils (Art 169)',
+    shortDefinition: 'Structure of State Legislatures under Part VI, 6 bicameral states, and the two-stage Assembly Special Majority + Parliament Simple Majority procedure under Art 169.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part VI: The State Legislature (Vidhan Sabha, Vidhan Parishad & Procedure)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T15-02',
+    slug: 'composition-of-legislative-council-and-governor-nominations',
+    title: 'Composition of Legislative Council (Art 171) & 5-Tier Electoral Formula',
+    shortDefinition: 'Size limits of Legislative Council (max 1/3rd, min 40), 5-tier composition formula, and Governor 1/6th nomination including Cooperative Movement.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part VI: The State Legislature (Vidhan Sabha, Vidhan Parishad & Procedure)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T15-03',
+    slug: 'state-legislative-procedure-and-delaying-powers-of-councils',
+    title: 'State Legislative Procedure: 4-Month Delaying Powers & Absence of Joint Sitting',
+    shortDefinition: 'Legislative relationship between Assembly and Council, max 4-month delaying power of Council on ordinary bills (Arts 197-198), and total absence of joint sittings.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part VI: The State Legislature (Vidhan Sabha, Vidhan Parishad & Procedure)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T15-04',
+    slug: 'state-legislature-privileges-disqualifications-and-rajasthan-assembly',
+    title: 'State Legislature: Privileges (Art 194), Disqualifications (Art 191) & Rajasthan Assembly',
+    shortDefinition: 'State legislative privileges under Article 194, disqualification grounds under Article 191, and Rajasthan Legislative Assembly structure (200 unicameral seats).',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part VI: The State Legislature (Vidhan Sabha, Vidhan Parishad & Procedure)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // ECONOMICS: INFLATION BENCHMARK (5 CONCEPTS)
   // =========================================================================
   {
