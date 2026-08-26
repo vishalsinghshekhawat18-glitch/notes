@@ -110,6 +110,8 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
   // Complete, un-gated canonical content blocks sorted by order
   const allBlocks = [...concept.contentBlocks].sort((a, b) => a.order - b.order);
 
+  const formattedExamLenses: ExamLensData[] = concept.examMappings || [];
+
   const getBlockBadge = (type: string) => {
     switch (type) {
       case 'INTUITION':
@@ -248,32 +250,56 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
             )}
           </header>
 
-          {/* Mode Navigation Tabs */}
-          <div className="flex flex-wrap gap-2 border-b border-stone-200 pb-2 mb-6">
-            {[
+          {/* Density-Aware Mode Navigation Tabs */}
+          {(() => {
+            const hasSubstantiveExams = formattedExamLenses.some(
+              (l) =>
+                (l.frequentTraps && l.frequentTraps.trim().length >= 15) ||
+                (l.questionStyle && l.questionStyle.trim().length >= 20) ||
+                (l.notes && l.notes.trim().length >= 20) ||
+                l.priority === 'CRITICAL'
+            );
+            const hasSubstantiveRecall = concept.questions.some(
+              (q) =>
+                q.stem &&
+                q.stem.trim().length >= 30 &&
+                ((q.explanation && q.explanation.trim().length >= 25) ||
+                 (q.trapExplanation && q.trapExplanation.trim().length >= 15))
+            );
+            const hasSubstantiveRevision = concept.revisionUnits.some(
+              (u) => u.content && u.content.trim().length >= 25
+            );
+
+            const availableTabs = [
               { id: 'READING', label: '📖 Full Canonical Text' },
-              { id: 'EXAMS', label: `🎯 Exam Lenses (${concept.examMappings.length})` },
-              { id: 'ACTIVE_RECALL', label: `🧠 Active Recall (${concept.questions.length})` },
-              { id: 'REVISION', label: `⚡ Revision (${concept.revisionUnits.length})` },
-              { id: 'EVIDENCE', label: `🔍 Sources & Claims (${concept.claims.length})` },
-              { id: 'CONNECTIONS', label: `🔗 Connections (${concept.outgoingConnections.length})` },
-            ].map((tab) => {
-              const isActive = activeTab === tab.id;
-              return (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id as any)}
-                  className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors cursor-pointer ${
-                    isActive
-                      ? 'bg-stone-900 text-white shadow-xs'
-                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
-                  }`}
-                >
-                  {tab.label}
-                </button>
-              );
-            })}
-          </div>
+              ...(hasSubstantiveExams ? [{ id: 'EXAMS', label: `🎯 Exam Focus (${formattedExamLenses.length})` }] : []),
+              ...(hasSubstantiveRecall ? [{ id: 'ACTIVE_RECALL', label: `🧠 Active Recall (${concept.questions.length})` }] : []),
+              ...(hasSubstantiveRevision ? [{ id: 'REVISION', label: `⚡ Revision (${concept.revisionUnits.length})` }] : []),
+              ...(concept.claims.length > 0 ? [{ id: 'EVIDENCE', label: `🔍 Sources & Claims (${concept.claims.length})` }] : []),
+              ...(concept.outgoingConnections.length > 0 ? [{ id: 'CONNECTIONS', label: `🔗 Connections (${concept.outgoingConnections.length})` }] : []),
+            ];
+
+            return (
+              <div className="flex flex-wrap gap-2 border-b border-stone-200 pb-2 mb-6">
+                {availableTabs.map((tab) => {
+                  const isActive = activeTab === tab.id;
+                  return (
+                    <button
+                      key={tab.id}
+                      onClick={() => setActiveTab(tab.id as any)}
+                      className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors cursor-pointer ${
+                        isActive
+                          ? 'bg-stone-900 text-white shadow-xs'
+                          : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                      }`}
+                    >
+                      {tab.label}
+                    </button>
+                  );
+                })}
+              </div>
+            );
+          })()}
 
           {/* TAB 1: Full Guided Reading */}
           {activeTab === 'READING' && (

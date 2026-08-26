@@ -9,7 +9,7 @@ export interface ExamLensData {
   syllabusUnit: string;
   relevance: string;
   priority: string;
-  requiredDepth: string;
+  requiredDepth?: string | null;
   questionStyle?: string | null;
   frequentTraps?: string | null;
   notes?: string | null;
@@ -20,78 +20,86 @@ interface ExamLensViewerProps {
 }
 
 export function ExamLensViewer({ examLenses }: ExamLensViewerProps) {
-  const [selectedSlug, setSelectedSlug] = useState<string>(examLenses[0]?.examSlug || 'rpsc-ras');
+  // Density-aware filter: keep lenses that offer genuine exam insights
+  const substantiveLenses = (examLenses || []).filter(
+    (lens) =>
+      (lens.frequentTraps && lens.frequentTraps.trim().length >= 15) ||
+      (lens.questionStyle && lens.questionStyle.trim().length >= 20) ||
+      (lens.notes && lens.notes.trim().length >= 20) ||
+      lens.priority === 'CRITICAL'
+  );
 
-  if (!examLenses || examLenses.length === 0) return null;
+  const [selectedSlug, setSelectedSlug] = useState<string>(
+    substantiveLenses[0]?.examSlug || 'rpsc-ras'
+  );
 
-  const currentLens = examLenses.find((l) => l.examSlug === selectedSlug) || examLenses[0];
+  // Content-density policy: suppress entire section if no substantive exam insight exists
+  if (substantiveLenses.length === 0) return null;
+
+  const currentLens =
+    substantiveLenses.find((l) => l.examSlug === selectedSlug) || substantiveLenses[0];
 
   return (
-    <div className="my-8 p-5 bg-stone-50 border border-stone-300 rounded-lg">
-      <div className="flex flex-wrap items-center justify-between gap-2 mb-4 pb-3 border-b border-stone-200">
-        <div>
-          <h3 className="text-base font-semibold text-stone-900">
-            🎯 Target Examination Lenses
-          </h3>
-          <p className="text-xs text-stone-500">
-            One canonical knowledge base — calibrated for distinct examination requirements
-          </p>
+    <div className="bg-amber-50/40 border border-amber-200/70 rounded-xl p-4 sm:p-5 space-y-3.5">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-amber-200/60">
+        <div className="flex items-center gap-2">
+          <span className="text-xs font-mono font-bold uppercase tracking-wider text-amber-900">
+            🎯 Target Exam Focus & Pitfalls
+          </span>
         </div>
 
-        {/* Tab Buttons */}
-        <div className="flex gap-1 bg-stone-200 p-1 rounded-md">
-          {examLenses.map((lens) => {
-            const isActive = lens.examSlug === selectedSlug;
-            return (
-              <button
-                key={lens.examSlug}
-                onClick={() => setSelectedSlug(lens.examSlug)}
-                className={`px-3 py-1.5 rounded text-xs font-medium transition-colors cursor-pointer ${
-                  isActive
-                    ? 'bg-white text-stone-900 shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900'
-                }`}
-              >
-                {lens.examName.split(' ')[0]} {lens.examSlug.toUpperCase().replace('-', ' ')}
-              </button>
-            );
-          })}
-        </div>
+        {/* Tab Buttons (if multiple substantive exams exist) */}
+        {substantiveLenses.length > 1 && (
+          <div className="flex gap-1 bg-amber-100/60 p-0.5 rounded-lg border border-amber-200/60">
+            {substantiveLenses.map((lens) => {
+              const isActive = lens.examSlug === currentLens.examSlug;
+              return (
+                <button
+                  key={lens.examSlug}
+                  onClick={() => setSelectedSlug(lens.examSlug)}
+                  className={`px-2.5 py-1 rounded-md text-[11px] font-medium transition-colors cursor-pointer ${
+                    isActive
+                      ? 'bg-white text-stone-900 shadow-2xs font-semibold'
+                      : 'text-stone-600 hover:text-stone-900'
+                  }`}
+                >
+                  {lens.examName.split(' ')[0]} {lens.examSlug.toUpperCase().replace('-', ' ')}
+                </button>
+              );
+            })}
+          </div>
+        )}
       </div>
 
       {/* Lens Content */}
-      <div className="space-y-3.5 text-xs font-sans">
-        <div className="flex flex-wrap items-center justify-between gap-2 bg-white p-3 rounded border border-stone-200">
-          <div>
-            <span className="font-semibold text-stone-900 text-sm block">{currentLens.examName}</span>
-            <span className="text-stone-500 font-mono text-[11px]">{currentLens.syllabusUnit}</span>
+      <div className="space-y-3 text-xs">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-stone-700">
+          <div className="font-semibold text-stone-900 text-xs sm:text-sm">
+            {currentLens.examName} · <span className="font-normal font-mono text-[11px] text-stone-600">{currentLens.syllabusUnit}</span>
           </div>
-          <div className="flex items-center gap-2 font-mono text-[11px]">
-            <span className="bg-rose-100 text-rose-800 px-2 py-0.5 rounded font-semibold">
-              {currentLens.priority}
-            </span>
-            <span className="bg-blue-100 text-blue-800 px-2 py-0.5 rounded">
-              {currentLens.requiredDepth}
+          <div className="flex items-center gap-1.5 font-mono text-[10px]">
+            <span className="bg-rose-100 text-rose-800 px-1.5 py-0.5 rounded font-semibold">
+              {currentLens.priority} Priority
             </span>
           </div>
         </div>
 
+        {currentLens.frequentTraps && (
+          <div className="bg-amber-100/50 p-3 rounded-lg border border-amber-200 text-amber-950">
+            <span className="font-bold block mb-0.5 text-xs text-amber-900">⚠️ High-Yield Trap / Confusion Point:</span>
+            <MarkdownContent content={currentLens.frequentTraps} className="text-amber-950 text-xs leading-relaxed" />
+          </div>
+        )}
+
         {currentLens.questionStyle && (
-          <div className="bg-white p-3 rounded border border-stone-200">
-            <span className="font-semibold text-stone-900 block mb-1">📝 Expected Question Pattern:</span>
+          <div className="bg-white/80 p-2.5 rounded-lg border border-stone-200/80">
+            <span className="font-semibold text-stone-900 block mb-0.5 text-[11px]">📝 Expected Question Pattern:</span>
             <MarkdownContent content={currentLens.questionStyle} className="text-stone-700 text-xs leading-relaxed" />
           </div>
         )}
 
-        {currentLens.frequentTraps && (
-          <div className="bg-amber-50 p-3 rounded border border-amber-200 text-amber-900">
-            <span className="font-semibold block mb-1">⚠️ High-Yield Traps to Avoid:</span>
-            <MarkdownContent content={currentLens.frequentTraps} className="text-amber-900 text-xs leading-relaxed" />
-          </div>
-        )}
-
         {currentLens.notes && (
-          <div className="bg-stone-100 p-2.5 rounded border border-stone-200 text-[11px] text-stone-600 font-mono">
+          <div className="bg-stone-50 p-2.5 rounded-lg border border-stone-200 text-[11px] text-stone-600 font-mono">
             <MarkdownContent content={currentLens.notes} className="text-stone-600 text-[11px] font-mono" />
           </div>
         )}

@@ -321,6 +321,8 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
           );
 
           const sortedBlocks = [...concept.contentBlocks].sort((a, b) => a.order - b.order);
+          const totalContentLength = concept.contentBlocks.reduce((acc, b) => acc + (b.body?.length || 0), 0);
+          const isSmallConcept = totalContentLength < 500 && concept.contentBlocks.length <= 2;
 
           return (
             <article
@@ -378,25 +380,17 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
                 })}
               </div>
 
-              {/* 2. Target Exam Lenses */}
-              {formattedExamLenses.length > 0 && (
-                <div className="pt-2 border-t border-stone-100">
-                  <ExamLensViewer examLenses={formattedExamLenses} />
-                </div>
+              {/* 2. Target Exam Lenses (Conditional: only renders when substantive insights exist) */}
+              <ExamLensViewer examLenses={formattedExamLenses} />
+
+              {/* 3. Fast Multi-Tier Revision (Conditional: suppressed for small concepts to avoid redundant repetition) */}
+              {!isSmallConcept && (
+                <RevisionViewer revisionUnits={concept.revisionUnits} />
               )}
 
-              {/* 3. Fast Multi-Tier Revision */}
-              {concept.revisionUnits.length > 0 && (
-                <div className="pt-2 border-t border-stone-100">
-                  <RevisionViewer revisionUnits={concept.revisionUnits} />
-                </div>
-              )}
-
-              {/* 4. Active Recall Interactive Quiz */}
-              {concept.questions.length > 0 && (
-                <div className="pt-2 border-t border-stone-100">
-                  <ActiveRecallViewer questions={concept.questions} />
-                </div>
+              {/* 4. Active Recall Interactive Quiz (Conditional: renders when substantive questions exist) */}
+              {(!isSmallConcept || concept.questions.some((q) => q.trapExplanation)) && (
+                <ActiveRecallViewer questions={concept.questions} />
               )}
 
               {/* 5. Claim-Level Provenance */}
