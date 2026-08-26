@@ -599,6 +599,126 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
   },
 
   // =========================================================================
+  // TOPIC 11: THE UNION EXECUTIVE (6 CONCEPTS: CON-T11-01 to CON-T11-06)
+  // =========================================================================
+  {
+    id: 'CON-T11-01',
+    slug: 'president-constitutional-status-electoral-college-impeachment',
+    title: 'President of India: Constitutional Status, Electoral College & Impeachment',
+    shortDefinition: 'The President as de jure Head of State, Art 54-55 proportional representation electoral formula, and Art 61 quasi-judicial impeachment by 2/3rd total membership.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Executive (President, Vice-President, PM & AG)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T11-02',
+    slug: 'president-powers-veto-and-ordinance-making-power',
+    title: "President's Powers: Veto Powers (Art 111) & Ordinance-Making Power (Art 123)",
+    shortDefinition: 'Tripartite veto powers (Absolute, Suspensive, Pocket), 24th CAA mandatory assent, and Art 123 ordinance limits with judicial anti-repromulgation checks.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Executive (President, Vice-President, PM & AG)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T11-03',
+    slug: 'president-judicial-and-pardoning-powers-article-72',
+    title: "President's Judicial & Pardoning Powers (Article 72)",
+    shortDefinition: 'Article 72 five forms of clemency, cabinet aid & advice binding rule (Maru Ram), and judicial review limits against arbitrariness and delay (Shatrughan Chauhan).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part V: The Union Executive (President, Vice-President, PM & AG)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T11-04',
+    slug: 'vice-president-constitutional-status-election-removal',
+    title: 'Vice-President of India: Status, Election (Art 66), Removal (Art 67) & Role',
+    shortDefinition: 'Second-highest dignitary, Ex-officio Chairman of Rajya Sabha (Art 64), electoral college comprising all MPs, and removal by Effective Majority in RS + Simple Majority in LS.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part V: The Union Executive (President, Vice-President, PM & AG)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T11-05',
+    slug: 'prime-minister-and-central-council-of-ministers-architecture',
+    title: 'Prime Minister & Central Council of Ministers: Architecture & Collective Responsibility',
+    shortDefinition: 'Prime Minister as real executive (De Facto), Art 74 aid & advice mechanism, Art 75(3) collective responsibility to Lok Sabha, and 91st CAA 15% size ceiling.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part V: The Union Executive (President, Vice-President, PM & AG)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T11-06',
+    slug: 'attorney-general-of-india-constitutional-status-and-powers',
+    title: 'Attorney General of India (Article 76) & Law Officers Architecture',
+    shortDefinition: 'Highest law officer of India, SC Judge qualifications, pleasure tenure, and Art 88 right to participate in Parliament without voting right.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part V: The Union Executive (President, Vice-President, PM & AG)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 12: THE STATE EXECUTIVE (4 CONCEPTS: CON-T12-01 to CON-T12-04)
+  // =========================================================================
+  {
+    id: 'CON-T12-01',
+    slug: 'governor-constitutional-dual-role-appointment-and-removal',
+    title: 'Governor of the State: Constitutional Dual Role, Appointment & Removal',
+    shortDefinition: 'Dual capacity as State Head and Centre Agent (Arts 153-154), presidential warrant appointment, pleasure tenure (Art 156), and BP Singhal (2010) judicial restraints.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part VI: The State Executive (Governor, Chief Minister & Advocate General)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T12-02',
+    slug: 'governor-discretionary-powers-bill-reservation-and-ordinance',
+    title: "Governor's Discretionary Powers (Art 163), Bill Reservation (Arts 200–201) & Ordinance (Art 213)",
+    shortDefinition: 'Article 163 explicit discretion, mandatory floor test rules (SR Bommai), state bill reservation for President (Arts 200-201), and Article 161 pardoning limits.',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part VI: The State Executive (Governor, Chief Minister & Advocate General)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T12-03',
+    slug: 'chief-minister-and-state-council-of-ministers-architecture',
+    title: 'Chief Minister & State Council of Ministers: Constitutional Architecture',
+    shortDefinition: 'Real executive at state level, 91st CAA dual limits (15% assembly ceiling, minimum 12 ministers), and collective responsibility to Legislative Assembly (Art 164(2)).',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part VI: The State Executive (Governor, Chief Minister & Advocate General)',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T12-04',
+    slug: 'advocate-general-for-the-state-constitutional-status-and-powers',
+    title: 'Advocate General for the State (Article 165) & Rights in Legislature (Art 177)',
+    shortDefinition: 'Highest state law officer, HC Judge qualifications, pleasure of Governor, and Art 177 right to participate in State Legislature without voting power.',
+    difficulty: 'BEGINNER',
+    topicTitle: 'Part VI: The State Executive (Governor, Chief Minister & Advocate General)',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
+  // TOPIC 13: CIVIL SERVICES & PUBLIC SERVICES (2 CONCEPTS: CON-T13-01 to CON-T13-02)
+  // =========================================================================
+  {
+    id: 'CON-T13-01',
+    slug: 'all-india-services-and-constitutional-framework-of-public-services',
+    title: 'All-India Services (Article 312) & Framework of Public Services (Arts 308–309)',
+    shortDefinition: 'Part XIV classification, creation of new All-India Services via Rajya Sabha 2/3rd resolution under Art 312, and federal dual-control administrative mechanism.',
+    difficulty: 'INTERMEDIATE',
+    topicTitle: 'Part XIV: Civil Services, Doctrine of Pleasure & Constitutional Safeguards',
+    subjectName: 'Indian Polity',
+  },
+  {
+    id: 'CON-T13-02',
+    slug: 'doctrine-of-pleasure-and-article-311-constitutional-safeguards',
+    title: 'Doctrine of Pleasure (Art 310) & Article 311 Safeguards with Exceptions',
+    shortDefinition: 'Article 310 pleasure doctrine, Article 311 procedural safeguards against dismissal, and three exceptions (conviction, impracticability, state security) upheld in Tulsiram Patel (1985).',
+    difficulty: 'ADVANCED',
+    topicTitle: 'Part XIV: Civil Services, Doctrine of Pleasure & Constitutional Safeguards',
+    subjectName: 'Indian Polity',
+  },
+
+  // =========================================================================
   // ECONOMICS: INFLATION BENCHMARK (5 CONCEPTS)
   // =========================================================================
   {

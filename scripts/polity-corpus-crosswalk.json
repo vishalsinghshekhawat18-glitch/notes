@@ -1,0 +1,952 @@
+[
+  {
+    "id": "LEG-POL-001",
+    "number": 1,
+    "title": "Amendment of the Constitution (Article 368) & Basic Structure Doctrine",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 9 (FR)"
+    ],
+    "canonicalConcepts": [
+      "CON-T9-16 (Amendability & Basic Structure)"
+    ],
+    "notes": "Art 368, Shankari Prasad, Golaknath, 24th CAA, Kesavananda Bharati, Minerva Mills, Basic Structure doctrines are comprehensively represented in CON-T9-16.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-002",
+    "number": 2,
+    "title": "Basic Concepts of Polity, Saptang Theory & Origin of State",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 1 (Basic Concepts)"
+    ],
+    "canonicalConcepts": [
+      "CON-T1-01",
+      "CON-T1-02",
+      "CON-T1-03",
+      "CON-T1-04"
+    ],
+    "notes": "State vs Nation vs Country, Saptanga Theory, Theories of Origin of State, Systems of Governance, and Constitutionalism are fully represented.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-003",
+    "number": 3,
+    "title": "Central Information Commission (CIC) & RTI Framework",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "CIC & RTI Act 2005 / RTI Amendment 2019 are statutory bodies in later governance chapters not yet in canonical Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-004",
+    "number": 4,
+    "title": "Central Vigilance Commission (CVC) & Anti-Corruption Framework",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "CVC (K. Santhanam Committee 1964, CVC Act 2003, Vineet Narain 1997) is an anti-corruption statutory body not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-005",
+    "number": 5,
+    "title": "Centre-State Administrative Relations (Articles 256–263)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Centre-State Administrative Relations (Arts 256-263, Sarkaria/Punchhi commissions) are not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-006",
+    "number": 6,
+    "title": "Centre-State Financial Relations & Finance Commission (Articles 264–293)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Centre-State Financial Relations & Finance Commission (Arts 264-293, GST Council Art 279A) are not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-007",
+    "number": 7,
+    "title": "Centre-State Legislative Relations (Articles 245–255)",
+    "lineCount": 1,
+    "status": "PARTIALLY_COVERED",
+    "canonicalTopics": [
+      "Topic 4 (Schedules)"
+    ],
+    "canonicalConcepts": [
+      "CON-T4-04 (7th Schedule Lists)"
+    ],
+    "notes": "7th Schedule Lists are covered in CON-T4-04; broader legislative relations (territorial nexus, repugnancy Art 254, Parliamentary legislation in State field Arts 249-253) are not covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-008",
+    "number": 8,
+    "title": "Chief Minister & State Council of Ministers (Articles 163–167)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Chief Minister & State Council of Ministers (Arts 163-167, 91st CAA ceiling) are State Executive chapters not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-009",
+    "number": 9,
+    "title": "Citizen Charter, District Administration & Public Service Delivery Acts",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Citizen Charter, Sevottam Model, Rajasthan Public Service Delivery Act 2011, Rajasthan Guaranteed Service Delivery are governance topics.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-010",
+    "number": 10,
+    "title": "Coalition Governments, Pressure Groups & Non-Party Lobbies",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Coalition politics, Pressure Groups, and Interest Lobbies are political dynamics chapters.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-011",
+    "number": 11,
+    "title": "Comptroller and Auditor-General of India (CAG - Articles 148–151)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "CAG of India (Arts 148-151, PAC relation, duties under 1971 Act) is a constitutional body not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-012",
+    "number": 12,
+    "title": "Dynamic Politics of India, Voting Behavior & Tech Mobilization",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Voting behavior, caste/religion in politics, social media mobilization are political sociology topics.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-013",
+    "number": 13,
+    "title": "Election Commission of India (ECI - Article 324) & Electoral Reforms",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "ECI (Art 324, Anoop Baranwal 2023, 2023 ECI Act, Model Code of Conduct, RPA 1950/1951) is a constitutional body not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-014",
+    "number": 14,
+    "title": "Emergency Provisions: National, State & Financial Emergencies (Articles ...",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Emergency Provisions (Arts 352, 356, 360, 44th CAA safeguards, S.R. Bommai 1994) are not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-015",
+    "number": 15,
+    "title": "Federalism in India: Structure, Asymmetric Federalism & Inter-State Disp...",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Federalism theory, Asymmetric Federalism (Arts 371-371J), Inter-State River Water Disputes Act 1956 (Art 262) are broader federal topics.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-016",
+    "number": 16,
+    "title": "High Courts & Subordinate Judiciary Architecture (Articles 214–237)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "High Courts & Subordinate Judiciary (Arts 214-237, writ jurisdiction Art 226 vs 32, judicial appointments) are judiciary chapters.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-017",
+    "number": 17,
+    "title": "Historical Underpinnings & Constitutional Evolution (1773–1935 Acts)",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 2 (Constituent Assembly)"
+    ],
+    "canonicalConcepts": [
+      "CON-T2-01 (Historical Evolution 1773-1947)"
+    ],
+    "notes": "Historical Underpinnings (Regulating Act 1773 to GOI Act 1935) are covered in CON-T2-01 and CON-T2-05.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-018",
+    "number": 18,
+    "title": "Issues Related to National Integration & Internal Security Management",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "National Integration, AFSPA 1958, UAPA 1967, Northeast insurgency frameworks are security/governance topics.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-019",
+    "number": 19,
+    "title": "Judicial Activism & Public Interest Litigation (PIL)",
+    "lineCount": 1,
+    "status": "PARTIALLY_COVERED",
+    "canonicalTopics": [
+      "Topic 9 (FR)"
+    ],
+    "canonicalConcepts": [
+      "CON-T9-15 (Article 32 & Writs)"
+    ],
+    "notes": "Locus standi relaxation and epistolary jurisdiction (SP Gupta, MC Mehta) are mentioned in CON-T9-15, but full PIL institutional doctrine is not a standalone concept.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-020",
+    "number": 20,
+    "title": "Judicial Review: Article 13 & Constitutional Supremacy",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 9 (FR)"
+    ],
+    "canonicalConcepts": [
+      "CON-T9-03 (Article 13 & Doctrines)"
+    ],
+    "notes": "Article 13, Severability, Eclipse, Waiver, Ultra Vires, Judicial Review doctrines are fully covered in CON-T9-03.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-021",
+    "number": 21,
+    "title": "Law Officers of the State: Attorney General & Advocate General",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Attorney General (Art 76) & Advocate General (Art 165) are constitutional law officers not yet in Topics 1-10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-022",
+    "number": 22,
+    "title": "Local Self-Government: 73rd Amendment (Panchayati Raj & PESA)",
+    "lineCount": 1,
+    "status": "PARTIALLY_COVERED",
+    "canonicalTopics": [
+      "Topic 4 (Schedules)"
+    ],
+    "canonicalConcepts": [
+      "CON-T4-08 (11th Schedule Panchayats)"
+    ],
+    "notes": "11th Schedule 29 subjects are covered in CON-T4-08, but 73rd Amendment institutional structure (3-tier, mandatory vs voluntary provisions, SEC, SFC, PESA Act 1996) is not yet a dedicated topic.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-023",
+    "number": 23,
+    "title": "Local Self-Government: 74th Amendment (Municipalities)",
+    "lineCount": 1,
+    "status": "PARTIALLY_COVERED",
+    "canonicalTopics": [
+      "Topic 4 (Schedules)"
+    ],
+    "canonicalConcepts": [
+      "CON-T4-08 (12th Schedule Municipalities)"
+    ],
+    "notes": "12th Schedule 18 subjects are covered in CON-T4-08, but 74th Amendment institutional structure (types of urban bodies, Wards Committees, DPC/MPC) is not yet a dedicated topic.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-024",
+    "number": 24,
+    "title": "Lokpal, Lokayukta & Special Commissions (NCW, NCPCR, Minorities)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Lokpal & Lokayuktas Act 2013, NCW, NCPCR, NCM are statutory oversight bodies.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-025",
+    "number": 25,
+    "title": "Making of the Constitution: Constituent Assembly, Committees & Roster",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 2 (Constituent Assembly)"
+    ],
+    "canonicalConcepts": [
+      "CON-T2-01",
+      "CON-T2-02",
+      "CON-T2-03",
+      "CON-T2-04",
+      "CON-T2-05",
+      "CON-T2-06"
+    ],
+    "notes": "Complete constituent assembly history, elections, committees, sessions, sources matrix, and Rajasthan representatives are covered in CON-T2-01 to CON-T2-06.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-026",
+    "number": 26,
+    "title": "National Human Rights Commission (NHRC) & State HRCs",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "NHRC (Protection of Human Rights Act 1993, 2019 Amendment) & SHRCs are statutory human rights bodies.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-027",
+    "number": 27,
+    "title": "NITI Aayog: Structure, Functions & Cooperative Federalism",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "NITI Aayog (Jan 1 2015 resolution, Governing Council, Team India vs Knowledge Hub) is an executive think tank.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-028",
+    "number": 28,
+    "title": "Official Language, Special Directives & Constitutional Morality",
+    "lineCount": 1,
+    "status": "PARTIALLY_COVERED",
+    "canonicalTopics": [
+      "Topic 4 (Schedules)"
+    ],
+    "canonicalConcepts": [
+      "CON-T4-05 (8th Schedule Languages)"
+    ],
+    "notes": "8th Schedule languages are covered in CON-T4-05; Part XVII official language provisions (Arts 343-351, Official Languages Act 1963) are not covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-029",
+    "number": 29,
+    "title": "Parliamentary Enactments: Ordinary, Money (Art 110) & Financial Bills (Art 117)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Legislative Procedure, Money Bills (Art 110), Financial Bills (Art 117), Joint Sittings (Art 108) are Union Legislature chapters.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-030",
+    "number": 30,
+    "title": "Parliamentary Budgetary Procedure, Motions & Standing Committees (Articles 112–116)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Budgetary Procedure (Arts 112-116), Parliamentary Motions (Adjournment, No-Confidence), Parliamentary Committees (PAC, Estimates, COPU) are Union Legislature chapters.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-031",
+    "number": 31,
+    "title": "Part I – Union and Its Territory (Articles 1–4)",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 5 (Union & Territory)"
+    ],
+    "canonicalConcepts": [
+      "CON-T5-01",
+      "CON-T5-02",
+      "CON-T5-03",
+      "CON-T5-04"
+    ],
+    "notes": "Articles 1-4, Berubari doctrine, Union Territories, 100th Amendment enclaves are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-032",
+    "number": 32,
+    "title": "Part II – Citizenship (Articles 5–11), CAA 2019 & OCI",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 8 (Citizenship)"
+    ],
+    "canonicalConcepts": [
+      "CON-T8-01",
+      "CON-T8-02",
+      "CON-T8-03",
+      "CON-T8-04",
+      "CON-T8-05",
+      "CON-T8-06"
+    ],
+    "notes": "Articles 5-11, 5 modes of acquisition, 3 modes of loss, Single citizenship, OCI scheme, CAA 2019, renunciation trends are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-033",
+    "number": 33,
+    "title": "Part III – Fundamental Rights: Architecture & Equality (Articles 12–18)",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 9 (FR)"
+    ],
+    "canonicalConcepts": [
+      "CON-T9-01",
+      "CON-T9-02",
+      "CON-T9-04",
+      "CON-T9-05",
+      "CON-T9-06"
+    ],
+    "notes": "FR Overview, Art 12 State definition, Art 14 Equality, Arts 15-16 Reservations, Arts 17-18 Untouchability/Titles are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-034",
+    "number": 34,
+    "title": "Part III – Fundamental Rights: Exploitation, Religion, Culture & 5 Writs...",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 9 (FR)"
+    ],
+    "canonicalConcepts": [
+      "CON-T9-11",
+      "CON-T9-12",
+      "CON-T9-13",
+      "CON-T9-15"
+    ],
+    "notes": "Arts 23-24 (Exploitation), Arts 25-28 (Religion), Arts 29-30 (Minority rights), Art 32 (5 Writs) are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-035",
+    "number": 35,
+    "title": "Part III – Fundamental Rights: Freedoms, Life & Personal Liberty (Articl...",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 9 (FR)"
+    ],
+    "canonicalConcepts": [
+      "CON-T9-07",
+      "CON-T9-08",
+      "CON-T9-09",
+      "CON-T9-10",
+      "CON-T9-14"
+    ],
+    "notes": "Art 19 (6 Freedoms), Art 20 (Conviction), Art 21/21A (Life, Privacy, Education), Art 22 (Preventive Detention), Art 31/300A (Property) are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-036",
+    "number": 36,
+    "title": "Part IV – Directive Principles of State Policy (DPSPs - Articles 36–51)",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 10 (DPSP)"
+    ],
+    "canonicalConcepts": [
+      "CON-T10-01",
+      "CON-T10-02",
+      "CON-T10-03",
+      "CON-T10-04",
+      "CON-T10-05"
+    ],
+    "notes": "Articles 36-51, Socialistic/Gandhian/Liberal classification, Art 44 UCC, FR-DPSP conflict jurisprudence, Directives outside Part IV are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-037",
+    "number": 37,
+    "title": "Part IV-A – Fundamental Duties (Article 51-A)",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 10 (DPSP)"
+    ],
+    "canonicalConcepts": [
+      "CON-T10-01",
+      "CON-T10-02"
+    ],
+    "notes": "Fundamental Duties (Part IV-A / Art 51-A, Swaran Singh / Verma committees, 86th CAA) are covered in Topic 10.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-038",
+    "number": 38,
+    "title": "Political Demography, Party System & Electoral Competition in Rajasthan",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Rajasthan political demography, Vidhan Sabha seats (200), SC/ST reservation, regional electoral trends are Rajasthan-specific state polity topics.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-039",
+    "number": 39,
+    "title": "Potential Areas of Socio-Political Conflicts & Future Governance Blueprint",
+    "lineCount": 1,
+    "status": "LOW_VALUE_REFERENCE",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Generic forward-looking governance essays (AI in governance, cyber security, climate federalism) are subjective analytical commentary.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-040",
+    "number": 40,
+    "title": "Prime Minister, Central Council of Ministers & Cabinet (Articles 74–78)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Prime Minister, Central Council of Ministers (Arts 74, 75, 78), Cabinet Committees, Kitchen Cabinet are Union Executive chapters.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-041",
+    "number": 41,
+    "title": "Public Service Commissions: UPSC, RPSC & State PSCs Architecture",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Public Service Commissions: UPSC (Arts 315-323), RPSC (Rajasthan PSC history, composition, functions) are constitutional bodies.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-042",
+    "number": 42,
+    "title": "Public Services & Rights of Civil Servants (Articles 308–323)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "All-India Services (Art 312), Constitutional Safeguards for Civil Servants (Art 311 - Pleasure doctrine & exceptions) are services chapters.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-043",
+    "number": 43,
+    "title": "RAS Polity Chapter 1: Governor of Rajasthan, Chief Minister & State Legislative Assembly",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "RAS Polity: Governor of Rajasthan, Chief Minister of Rajasthan, Rajasthan Legislative Assembly history & procedural rules.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-044",
+    "number": 44,
+    "title": "RAS Polity Chapter 2: Rajasthan High Court, RPSC, SHRC & Lokayukta",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "RAS Polity: Rajasthan High Court (Jodhpur seat + Jaipur bench), RPSC (Ajmer), Rajasthan SHRC, Rajasthan Lokayukta (1973 Act).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-045",
+    "number": 45,
+    "title": "RAS Mains Paper III: Comparative Constitutions (UK, USA, Canada, Germany & Switzerland)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "RAS Mains Paper III Unit 1: Comparative Constitutional Systems (UK, USA, Canada, Germany, Switzerland constitutional features).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-046",
+    "number": 46,
+    "title": "Reorganisation of States & State Reorganisation Commissions",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 7 (Reorganisation of States)"
+    ],
+    "canonicalConcepts": [
+      "CON-T7-01",
+      "CON-T7-02",
+      "CON-T7-03",
+      "CON-T7-04"
+    ],
+    "notes": "Dhar commission, JVP committee, Fazal Ali SRC 1953-55, 1956 Act, 1956-2020 evolution to 28 states & 8 UTs, Zonal Councils are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-047",
+    "number": 47,
+    "title": "Salient Features of the Indian Constitution & System of Governance",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 1 (Basic Concepts)"
+    ],
+    "canonicalConcepts": [
+      "CON-T1-01",
+      "CON-T1-03",
+      "CON-T1-04"
+    ],
+    "notes": "Salient features, Parliamentary vs Presidential, Written Constitution, Rigidity vs Flexibility are covered in Topic 1.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-048",
+    "number": 48,
+    "title": "Schedules of the Indian Constitution (1st to 12th Schedule)",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 4 (Schedules)"
+    ],
+    "canonicalConcepts": [
+      "CON-T4-01",
+      "CON-T4-02",
+      "CON-T4-03",
+      "CON-T4-04",
+      "CON-T4-05",
+      "CON-T4-06",
+      "CON-T4-07",
+      "CON-T4-08"
+    ],
+    "notes": "Complete 1st to 12th Schedule analysis, 5th/6th Schedule logic, 7th Schedule division, 8th classical languages, 9th IR Coelho, 10th Kihoto Holohan are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-049",
+    "number": 49,
+    "title": "Special Provisions for Certain Classes & Scheduled/Tribal Areas",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Part XVI Special Provisions (Arts 330-342A), National Commissions for SC (338), ST (338A), BC (338B - 102nd CAA), Anglo-Indian sunset (104th CAA).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-050",
+    "number": 50,
+    "title": "State Executive: Governor of India & Rajasthan State Executive Architecture",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "State Executive: Governor of India (Arts 153-162, discretionary powers Art 163, ordinance power Art 213, pardoning power Art 161, Sarkaria recommendations).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-051",
+    "number": 51,
+    "title": "State Legislature: Vidhan Sabha & Vidhan Parishad (Articles 168–212)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "State Legislature: Legislative Assembly (Vidhan Sabha) and Legislative Council (Vidhan Parishad - Art 169 creation/abolition procedure).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-052",
+    "number": 52,
+    "title": "Supreme Court of India: Structure, Original & Appellate Jurisdiction (Ar...",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Supreme Court of India (Arts 124-147, appointment collegium Third Judges Case 1998, NJAC 99th CAA striking down 2015, Original Art 131, Appellate, Advisory Art 143, Curative).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-053",
+    "number": 53,
+    "title": "The Preamble: Philosophy, Key Adjectives & Judicial Evolution",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 3 (Preamble)"
+    ],
+    "canonicalConcepts": [
+      "CON-T3-01",
+      "CON-T3-02",
+      "CON-T3-03",
+      "CON-T3-04"
+    ],
+    "notes": "Objective Resolution, Preamble text, Sovereign Socialist Secular Democratic Republic, Justice Liberty Equality Fraternity, Berubari vs Kesavananda vs LIC, 42nd CAA amendment are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-054",
+    "number": 54,
+    "title": "Tribunals: Administrative & Tax Tribunals (Articles 323-A & 323-B)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Tribunals: Part XIV-A (42nd CAA 1976), Administrative Tribunals (Art 323A / CAT Act 1985), Other Tribunals (Art 323B), L. Chandra Kumar 1997 doctrine.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-055",
+    "number": 55,
+    "title": "Unification of India & Princely States Integration",
+    "lineCount": 1,
+    "status": "FULLY_COVERED",
+    "canonicalTopics": [
+      "Topic 6 (Unification of India)"
+    ],
+    "canonicalConcepts": [
+      "CON-T6-01",
+      "CON-T6-02",
+      "CON-T6-03",
+      "CON-T6-04"
+    ],
+    "notes": "Lapse of Paramountcy, Patel-Menon IoA & Standstill, Junagadh, Hyderabad Operation Polo, Goa Operation Vijay, French enclaves, Sikkim 35th/36th CAA are fully covered.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-056",
+    "number": 56,
+    "title": "Union Executive: President of India (Articles 52–62)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "President of India: Election (Arts 54-55 proportional representation single transferable vote), Impeachment (Art 61), Executive Powers, Veto Powers (Art 111), Ordinance Making Power (Art 123 / DC Wadhwa / Krishna Kumar Singh), Pardoning Power (Art 72 / Kehar Singh / Maru Ram).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-057",
+    "number": 57,
+    "title": "Union Executive: Vice-President of India (Articles 63–73)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Vice-President of India: Qualifications, Election (Art 66), Removal (Art 67), Functions as Ex-Officio Chairman of Rajya Sabha (Art 64).",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  },
+  {
+    "id": "LEG-POL-058",
+    "number": 58,
+    "title": "Union Legislature: Parliament Architecture, Lok Sabha vs Rajya Sabha (Articles 79–106)",
+    "lineCount": 1,
+    "status": "NOT_COVERED",
+    "canonicalTopics": [],
+    "canonicalConcepts": [],
+    "notes": "Parliament Architecture: Lok Sabha vs Rajya Sabha composition (Arts 80-81), Disqualifications (Art 102 vs 10th Schedule), Speaker (Art 93) vs Chairman (Art 89), Quorum (Art 100(3)), 104th CAA Anglo-Indian repeal.",
+    "articles": [],
+    "caseLaws": [],
+    "hasRajasthan": false,
+    "rajasthanKeywords": []
+  }
+]
