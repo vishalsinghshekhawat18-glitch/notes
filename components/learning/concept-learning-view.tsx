@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { DepthSelector } from './depth-selector';
 import { EvidenceDrawer, EvidenceItem } from './evidence-drawer';
 import { ExamLensViewer, ExamLensData } from './exam-lens-viewer';
 import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
@@ -99,7 +98,6 @@ export interface ConceptLearningViewProps {
 }
 
 export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
-  const [depthLevel, setDepthLevel] = useState<number>(2); // Default to Level 2
   const [activeTab, setActiveTab] = useState<'READING' | 'EXAMS' | 'ACTIVE_RECALL' | 'REVISION' | 'EVIDENCE' | 'CONNECTIONS'>('READING');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -108,14 +106,29 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
   const prevConcept = currentIndex > 0 ? siblingConcepts[currentIndex - 1] : null;
   const nextConcept = currentIndex >= 0 && currentIndex < siblingConcepts.length - 1 ? siblingConcepts[currentIndex + 1] : null;
 
-  // Filter content blocks by depth level
-  const displayedBlocks = concept.contentBlocks.filter((b) => {
-    if (depthLevel === 1) return b.type === 'CORE_IDEA' || b.type === 'INTUITION';
-    if (depthLevel === 2) return b.type === 'CORE_IDEA' || b.type === 'INTUITION' || b.type === 'WHY_IT_MATTERS' || b.type === 'COMPARISON';
-    if (depthLevel === 3) return b.type === 'CORE_IDEA' || b.type === 'INTUITION' || b.type === 'WHY_IT_MATTERS' || b.type === 'COMPARISON' || b.type === 'MECHANISM';
-    if (depthLevel === 4) return b.type !== 'ADVANCED_REFERENCE';
-    return true; // Levels 5 and 6 show all blocks
-  });
+  // Complete, un-gated canonical content blocks sorted by order
+  const allBlocks = [...concept.contentBlocks].sort((a, b) => a.order - b.order);
+
+  const getBlockBadge = (type: string) => {
+    switch (type) {
+      case 'INTUITION':
+        return { label: 'Intuition & Context', bg: 'bg-amber-100 text-amber-900 border-amber-300' };
+      case 'CORE_IDEA':
+        return { label: 'Core Principle', bg: 'bg-emerald-100 text-emerald-900 border-emerald-300' };
+      case 'MECHANISM':
+        return { label: 'How It Works / Mechanism', bg: 'bg-blue-100 text-blue-900 border-blue-300' };
+      case 'LEGAL_DISTINCTION':
+        return { label: 'Legal & Constitutional Distinction', bg: 'bg-indigo-100 text-indigo-900 border-indigo-300' };
+      case 'CASE_LAW':
+        return { label: 'Judicial Precedent / Case Law', bg: 'bg-purple-100 text-purple-900 border-purple-300' };
+      case 'EXAM_APPLICATION':
+        return { label: 'Exam Trap & High-Yield Analysis', bg: 'bg-rose-100 text-rose-900 border-rose-300' };
+      case 'COMPARISON':
+        return { label: 'Comparative Synthesis', bg: 'bg-teal-100 text-teal-900 border-teal-300' };
+      default:
+        return { label: type.replace(/_/g, ' '), bg: 'bg-stone-100 text-stone-800 border-stone-300' };
+    }
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 font-sans">
@@ -183,7 +196,7 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                 href={`/topics/${concept.topic.slug}/read/#concept-${concept.slug}`}
                 className="px-2.5 py-1 rounded bg-emerald-800 text-white hover:bg-emerald-900 font-medium text-xs flex items-center gap-1 transition-colors shadow-2xs"
               >
-                <span>📖 Read in Topic Mode</span>
+                <span>📖 Read in Continuous Mode</span>
                 <span>→</span>
               </Link>
 
@@ -221,7 +234,7 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
           <div className="border-b border-stone-200 pb-5 mb-6">
             <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
               <span className="bg-emerald-100 text-emerald-900 font-mono text-[10px] px-2 py-0.5 rounded font-semibold uppercase tracking-wider">
-                Canonical Concept
+                Full Canonical Concept
               </span>
               <span className="text-xs font-mono text-stone-500">
                 Difficulty: <span className="font-semibold text-stone-700">{concept.difficulty}</span>
@@ -235,13 +248,10 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
             </p>
           </div>
 
-          {/* Cognitive Depth Slider */}
-          <DepthSelector currentLevel={depthLevel} onSelectLevel={setDepthLevel} />
-
           {/* Mode Navigation Tabs */}
           <div className="flex flex-wrap gap-2 border-b border-stone-200 pb-2 mb-6">
             {[
-              { id: 'READING', label: '📖 Guided Reading' },
+              { id: 'READING', label: '📖 Full Canonical Text' },
               { id: 'EXAMS', label: `🎯 Exam Lenses (${concept.examMappings.length})` },
               { id: 'ACTIVE_RECALL', label: `🧠 Active Recall (${concept.questions.length})` },
               { id: 'REVISION', label: `⚡ Revision (${concept.revisionUnits.length})` },
@@ -265,15 +275,16 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
             })}
           </div>
 
-          {/* TAB 1: Guided Reading */}
+          {/* TAB 1: Full Guided Reading */}
           {activeTab === 'READING' && (
             <div className="space-y-8">
-              {displayedBlocks.map((block) => {
+              {allBlocks.map((block) => {
+                const badge = getBlockBadge(block.type);
                 const relevantClaims = concept.claims.filter((c) => {
-                  if (block.type === 'CORE_IDEA' && (c.claimType === 'LEGAL_PROVISION' || c.claimType === 'DEFINITION')) return true;
-                  if (block.type === 'MECHANISM' && (c.claimType === 'RULE' || c.claimType === 'CONCEPT')) return true;
-                  if (block.type === 'TIMELINE' && c.claimType === 'PRINCIPLE') return true;
-                  if (block.type === 'EXCEPTION' && c.claimType === 'EXCEPTION') return true;
+                  if (block.type === 'CORE_IDEA' && (c.claimType === 'LEGAL_PROVISION' || c.claimType === 'DEFINITION' || c.claimType === 'CONSTITUTIONAL_PROVISION')) return true;
+                  if (block.type === 'MECHANISM' && (c.claimType === 'RULE' || c.claimType === 'CONCEPT' || c.claimType === 'PROCEDURAL_RULE')) return true;
+                  if (block.type === 'CASE_LAW' && c.claimType === 'JUDICIAL_DOCTRINE') return true;
+                  if (block.type === 'COMPARISON' && c.claimType === 'HISTORICAL_FACT') return true;
                   return false;
                 });
 
@@ -289,19 +300,26 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                 );
 
                 return (
-                  <section key={block.id} className="bg-white border border-stone-200/80 rounded-xl p-6 shadow-xs">
+                  <section key={block.id} className="bg-white border border-stone-200 rounded-xl p-6 sm:p-7 shadow-xs">
+                    <div className="flex items-center justify-between gap-2 mb-3">
+                      <span className={`text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${badge.bg}`}>
+                        {badge.label}
+                      </span>
+                    </div>
+
                     {block.title && (
-                      <h2 className="text-lg font-serif font-bold text-stone-900 border-b border-stone-100 pb-2 mb-3">
+                      <h2 className="text-lg sm:text-xl font-serif font-bold text-stone-900 border-b border-stone-100 pb-2 mb-3">
                         {block.title}
                       </h2>
                     )}
+
                     <div className="text-sm md:text-[15px] leading-relaxed text-stone-800 whitespace-pre-line font-serif">
                       {block.body}
                     </div>
 
                     {/* Evidence Drawer Trigger */}
                     {evidenceItems.length > 0 && (
-                      <div className="mt-4 pt-3 border-t border-stone-100">
+                      <div className="mt-5 pt-3 border-t border-stone-100">
                         <EvidenceDrawer
                           claimStatement={relevantClaims[0]?.statement}
                           evidenceList={evidenceItems}
