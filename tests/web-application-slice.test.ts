@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { db } from '../lib/db/client';
+import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 import {
@@ -31,9 +32,11 @@ describe('Web Application Slice: Library, Curriculum, and Concept Viewer Service
     await db.subject.deleteMany();
     await db.domain.deleteMany();
 
-    // seedTopic10CanonicalKnowledge seeds Topic 9 + Topic 10
+    // seedTopic9CanonicalKnowledge seeds Topic 9 (16 concepts)
+    await seedTopic9CanonicalKnowledge();
+    // seedTopic10CanonicalKnowledge seeds Topic 10 (5 concepts)
     await seedTopic10CanonicalKnowledge();
-    // seedInflationCanonicalKnowledge seeds Inflation
+    // seedInflationCanonicalKnowledge seeds Inflation (5 concepts)
     await seedInflationCanonicalKnowledge();
   }, 40000);
 
