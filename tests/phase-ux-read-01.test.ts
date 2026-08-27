@@ -9,6 +9,9 @@ import { seedBatchP1CanonicalKnowledge } from '../lib/benchmark/batch-p1-canonic
 import { seedBatchP2CanonicalKnowledge } from '../lib/benchmark/batch-p2-canonical-seed';
 import { seedBatchP3CanonicalKnowledge } from '../lib/benchmark/batch-p3-canonical-seed';
 import { seedBatchP4CanonicalKnowledge } from '../lib/benchmark/batch-p4-canonical-seed';
+import { seedBatchP5CanonicalKnowledge } from '../lib/benchmark/batch-p5-canonical-seed';
+import { seedBatchP6CanonicalKnowledge } from '../lib/benchmark/batch-p6-canonical-seed';
+import { seedBatchP7CanonicalKnowledge } from '../lib/benchmark/batch-p7-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 
 describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
@@ -41,6 +44,9 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
     await seedBatchP2CanonicalKnowledge();
     await seedBatchP3CanonicalKnowledge();
     await seedBatchP4CanonicalKnowledge();
+    await seedBatchP5CanonicalKnowledge();
+    await seedBatchP6CanonicalKnowledge();
+    await seedBatchP7CanonicalKnowledge();
     await seedInflationCanonicalKnowledge();
   });
 

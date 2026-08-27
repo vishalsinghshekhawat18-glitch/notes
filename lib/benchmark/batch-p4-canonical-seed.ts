@@ -1186,6 +1186,19 @@ export async function seedBatchP4CanonicalKnowledge() {
     });
   }
 
+  // Ensure Source exists
+  await db.source.upsert({
+    where: { id: 'LEGACY-POLITY-VAULT-2026' },
+    update: {},
+    create: {
+      id: 'LEGACY-POLITY-VAULT-2026',
+      title: 'Polity & Governance Master Archive (2026)',
+      sourceType: 'SECONDARY_COMPILATION',
+      authorityTier: 'STANDARD_AUTHORITY',
+      description: 'Polity & Governance authoritative master curriculum.',
+    },
+  });
+
   // Ensure exams exist
   const upsc = await db.exam.upsert({
     where: { slug: 'upsc-cse' },

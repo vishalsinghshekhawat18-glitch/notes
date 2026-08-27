@@ -23,6 +23,7 @@ import { seedBatchP3CanonicalKnowledge } from '../lib/benchmark/batch-p3-canonic
 import { seedBatchP4CanonicalKnowledge } from '../lib/benchmark/batch-p4-canonical-seed';
 import { seedBatchP5CanonicalKnowledge } from '../lib/benchmark/batch-p5-canonical-seed';
 import { seedBatchP6CanonicalKnowledge } from '../lib/benchmark/batch-p6-canonical-seed';
+import { seedBatchP7CanonicalKnowledge } from '../lib/benchmark/batch-p7-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 
 describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
@@ -57,6 +58,7 @@ describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
     await seedBatchP4CanonicalKnowledge();
     await seedBatchP5CanonicalKnowledge();
     await seedBatchP6CanonicalKnowledge();
+    await seedBatchP7CanonicalKnowledge();
     await seedInflationCanonicalKnowledge();
   });
 

@@ -2187,6 +2187,19 @@ export async function seedBatchBCanonicalKnowledge() {
     });
   }
 
+  // Ensure Source exists
+  await db.source.upsert({
+    where: { id: 'CERAMIC-POLITY-2026' },
+    update: {},
+    create: {
+      id: 'CERAMIC-POLITY-2026',
+      title: 'Ceramic Academy Indian Polity Master Course (2026)',
+      sourceType: 'SECONDARY_COMPILATION',
+      authorityTier: 'STANDARD_AUTHORITY',
+      description: 'Foundational Indian Polity curriculum from Ceramic Academy.',
+    },
+  });
+
   // Ensure exams exist
   const upsc = await db.exam.upsert({
     where: { slug: 'upsc-cse' },
