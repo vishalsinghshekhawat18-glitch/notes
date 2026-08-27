@@ -28,7 +28,7 @@ export interface StaticConceptItem {
 
 export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
-    "id": "subj-cmtazcnf00002l8o8rpbfmbu0",
+    "id": "subj-cmtblabai0002l874u4lmvw7q",
     "type": "SUBJECT",
     "title": "Indian Polity",
     "slug": "indian-polity",
@@ -41,7 +41,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "28 Topics • 128 Concepts"
   },
   {
-    "id": "subj-cmtazd4jp02dxl8o8mxj1whm1",
+    "id": "subj-cmtblb2ke02dxl874qzi8ivp6",
     "type": "SUBJECT",
     "title": "Indian Economy & Macroeconomic Policy",
     "slug": "indian-economy",
@@ -54,7 +54,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "12 Topics • 54 Concepts"
   },
   {
-    "id": "subj-cmtazdb9e03hol8o8145zuvej",
+    "id": "subj-cmtblbbdc03hol874zh2scq1s",
     "type": "SUBJECT",
     "title": "IIBF & Banking Regulations",
     "slug": "iibf-banking-regulations",
@@ -67,7 +67,33 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "14 Topics • 51 Concepts"
   },
   {
-    "id": "top-cmtazcng50007l8o8i6kgyyiz",
+    "id": "subj-cmtblbkuy0497l874vv275vqg",
+    "type": "SUBJECT",
+    "title": "General Awareness & Global Institutions",
+    "slug": "general-awareness",
+    "url": "/subjects/general-awareness",
+    "description": "Universal canonical directory for global multilateral governance, development finance, and international reporting systems.",
+    "hierarchy": {
+      "domain": "General Awareness & Global Affairs",
+      "subject": "General Awareness & Global Institutions"
+    },
+    "badge": "2 Topics • 3 Concepts"
+  },
+  {
+    "id": "subj-cmtblbkvz049al874ixsh081g",
+    "type": "SUBJECT",
+    "title": "Government Schemes & Welfare Architecture",
+    "slug": "government-schemes",
+    "url": "/subjects/government-schemes",
+    "description": "Authoritative analysis of flagship central sector and centrally sponsored welfare schemes across financial inclusion, livelihoods, and agriculture.",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture"
+    },
+    "badge": "3 Topics • 5 Concepts"
+  },
+  {
+    "id": "top-cmtblabc60007l8748r7ai9ds",
     "type": "TOPIC",
     "title": "Basic Concepts of Polity",
     "slug": "basic-concepts-of-polity",
@@ -81,7 +107,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd4jz02dzl8o8872kbra7",
+    "id": "top-cmtblb2kr02dzl8749j5iw969",
     "type": "TOPIC",
     "title": "Inflation: Dynamics, Price Measurement & Policy Framework",
     "slug": "inflation-dynamics-measurement-policy",
@@ -95,7 +121,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtazcnvs002zl8o82wr3pqfn",
+    "id": "top-cmtblabyc002zl874yjn2tn69",
     "type": "TOPIC",
     "title": "Constituent Assembly of India",
     "slug": "constituent-assembly",
@@ -109,7 +135,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazcojb006vl8o8z75yxzwt",
+    "id": "top-cmtblacvl006vl874lrwnhh2u",
     "type": "TOPIC",
     "title": "The Preamble of the Indian Constitution",
     "slug": "preamble",
@@ -123,7 +149,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazcozr009ll8o8uc1dom0w",
+    "id": "top-cmtbladiu009ll874xpgc8xxt",
     "type": "TOPIC",
     "title": "Schedules of the Indian Constitution & Language Scheme",
     "slug": "schedules-of-the-indian-constitution",
@@ -137,7 +163,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "9 Concepts"
   },
   {
-    "id": "top-cmtazcq3z00f0l8o867owh12l",
+    "id": "top-cmtblafmt00f0l874recazg5j",
     "type": "TOPIC",
     "title": "Part I: The Union and Its Territory",
     "slug": "part-1-union-and-its-territory",
@@ -151,7 +177,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazcqib00hgl8o8tswdbj1g",
+    "id": "top-cmtblag8w00hgl874drvp5aa7",
     "type": "TOPIC",
     "title": "Unification and Integration of India",
     "slug": "unification-of-india",
@@ -165,7 +191,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazcqxg00jwl8o8bq4m1ff4",
+    "id": "top-cmtblagt700jwl874b8b9ag07",
     "type": "TOPIC",
     "title": "Reorganisation of States & Zonal Councils",
     "slug": "reorganisation-of-states",
@@ -179,7 +205,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazcrcq00mal8o8bzclts69",
+    "id": "top-cmtblahg100mal874n8286gth",
     "type": "TOPIC",
     "title": "Part II: Citizenship (Articles 5 to 11)",
     "slug": "part-2-citizenship",
@@ -193,7 +219,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazcsus00xol8o86zxglj3s",
+    "id": "top-cmtblakxp00xol874co2rzl32",
     "type": "TOPIC",
     "title": "Part III: Fundamental Rights",
     "slug": "part-3-fundamental-rights",
@@ -207,7 +233,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "16 Concepts"
   },
   {
-    "id": "top-cmtazcvs601ful8o8741xrqqp",
+    "id": "top-cmtblaprs01ful874mpp0l4md",
     "type": "TOPIC",
     "title": "Part IV: Directive Principles of State Policy",
     "slug": "part-4-directive-principles-of-state-policy",
@@ -221,7 +247,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtazcwia01jjl8o8yopfgjgt",
+    "id": "top-cmtblaqvq01jjl874hcaz2m8g",
     "type": "TOPIC",
     "title": "The Union Executive: President, Vice-President, PM & Council of Ministers",
     "slug": "the-union-executive",
@@ -235,7 +261,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "7 Concepts"
   },
   {
-    "id": "top-cmtazcx6c01n9l8o8n7yje1f3",
+    "id": "top-cmtblarsa01n9l874icjo8p8b",
     "type": "TOPIC",
     "title": "Part VI: The State Executive (Governor, Chief Minister & Advocate General)",
     "slug": "the-state-executive",
@@ -249,7 +275,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazcxjw01pll8o8lkokofbd",
+    "id": "top-cmtblasdu01pll874dm00zkpg",
     "type": "TOPIC",
     "title": "Part XIV: Civil Services, Doctrine of Pleasure & Constitutional Safeguards",
     "slug": "civil-services-and-public-services",
@@ -263,7 +289,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtazcxvr01qwl8o8uebwt1ow",
+    "id": "top-cmtblasx101qwl874hgxeqqx1",
     "type": "TOPIC",
     "title": "Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)",
     "slug": "the-union-legislature",
@@ -277,7 +303,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazcyig01uql8o8tsixuqx0",
+    "id": "top-cmtblatxr01uql874f89wx3dv",
     "type": "TOPIC",
     "title": "Part VI: The State Legislature (Vidhan Sabha, Vidhan Parishad & Procedure)",
     "slug": "the-state-legislature",
@@ -291,7 +317,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazcz1l01x7l8o8i3e0xw6i",
+    "id": "top-cmtblauo701x7l874zbr3ozcb",
     "type": "TOPIC",
     "title": "Part V: The Union Judiciary (The Supreme Court of India)",
     "slug": "the-union-judiciary",
@@ -305,7 +331,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazczde01z5l8o8nsydz2n1",
+    "id": "top-cmtblav7801z5l8749so1xxjg",
     "type": "TOPIC",
     "title": "Part VI: State Judiciary (High Courts & Subordinate Courts)",
     "slug": "the-state-judiciary",
@@ -319,7 +345,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazczst021hl8o8jfmlvnmf",
+    "id": "top-cmtblavt0021hl874cum0lmqo",
     "type": "TOPIC",
     "title": "Part XIV-A: Judicial Innovation, PIL & Tribunals Architecture",
     "slug": "judicial-innovation-and-tribunals",
@@ -333,7 +359,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazd074023gl8o86afr9beb",
+    "id": "top-cmtblaweg023gl874u805hzel",
     "type": "TOPIC",
     "title": "Centre-State Relations, Federal Finance & Inter-State Governance",
     "slug": "centre-state-relations-and-federalism",
@@ -347,7 +373,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazd0sh026ol8o849g0tquz",
+    "id": "top-cmtblax8e026ol874xzio5p0i",
     "type": "TOPIC",
     "title": "Part XVIII: Emergency Provisions & Constitutional Safeguards",
     "slug": "emergency-provisions-and-safeguards",
@@ -361,7 +387,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd41q02del8o88fyxmeg6",
+    "id": "top-cmtblb21w02del874ljaibx5y",
     "type": "TOPIC",
     "title": "Emergency Provisions & Federal Security Architecture",
     "slug": "emergency-provisions-and-federal-crisis",
@@ -375,7 +401,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtazd1en029cl8o8rdetbto3",
+    "id": "top-cmtblay8y029cl874wckwsut4",
     "type": "TOPIC",
     "title": "Part IX & IX-A: Rural & Urban Local Governance (73rd & 74th CAAs)",
     "slug": "local-governance-panchayats-and-municipalities",
@@ -389,7 +415,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd1so02a2l8o8m05qqfr0",
+    "id": "top-cmtblayx402a2l874kx1mdrhi",
     "type": "TOPIC",
     "title": "Constitutional Institutions: Election Commission of India & Comptroller and Auditor General",
     "slug": "constitutional-bodies-eci-and-cag",
@@ -403,7 +429,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd3ww02d8l8o8u4nleb12",
+    "id": "top-cmtblb1vh02d8l874hr6bs58n",
     "type": "TOPIC",
     "title": "Election Commission of India & Electoral Governance",
     "slug": "election-commission-and-electoral-reforms",
@@ -417,7 +443,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtazd28902asl8o8cj7ptv9w",
+    "id": "top-cmtblazit02asl8749nva4g52",
     "type": "TOPIC",
     "title": "Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity",
     "slug": "statutory-and-non-constitutional-bodies",
@@ -431,7 +457,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtazd3mt02cwl8o8fwtr3sm7",
+    "id": "top-cmtblb1hl02cwl874wl0yien0",
     "type": "TOPIC",
     "title": "Statutory, Regulatory & Quasi-Judicial Bodies",
     "slug": "statutory-regulatory-quasi-judicial-bodies",
@@ -445,7 +471,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtazd2uz02bul8o82lsg4bxa",
+    "id": "top-cmtblb0i602bul874rfn8gyy8",
     "type": "TOPIC",
     "title": "Rajasthan State Polity: Executive, Assembly, Demography & Apex Institutions",
     "slug": "rajasthan-state-polity-and-governance",
@@ -459,7 +485,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd38z02ccl8o8behl8d0b",
+    "id": "top-cmtblb0zr02ccl874g2it9mnf",
     "type": "TOPIC",
     "title": "Comparative Constitutional Systems: UK, USA, Canada, Germany & Switzerland",
     "slug": "comparative-constitutional-systems",
@@ -473,7 +499,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazd5cl02ixl8o82ao3oyt8",
+    "id": "top-cmtblb3p602ixl874sfi901kz",
     "type": "TOPIC",
     "title": "Foundations of Economics & National Income Accounting",
     "slug": "foundations-of-economics-and-national-income",
@@ -487,7 +513,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazd64l02npl8o8jgshdlsz",
+    "id": "top-cmtblb4qp02npl874fne7zxbn",
     "type": "TOPIC",
     "title": "Money, Commercial Banking & Financial Markets Architecture",
     "slug": "money-commercial-banking-and-financial-markets",
@@ -501,7 +527,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtazd6t202rnl8o862xjjiy5",
+    "id": "top-cmtblb5jx02rnl874ob5hu18q",
     "type": "TOPIC",
     "title": "Central Banking, Monetary Policy Framework & Price Theory",
     "slug": "central-banking-monetary-policy-and-price-theory",
@@ -515,7 +541,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazd7l102wgl8o87rlz2lyl",
+    "id": "top-cmtblb6nj02wgl8743ub0kplz",
     "type": "TOPIC",
     "title": "Public Finance, Union Budget Architecture & Taxation",
     "slug": "public-finance-union-budget-and-taxation",
@@ -529,7 +555,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd83m02zml8o82lg588af",
+    "id": "top-cmtblb7ca02zml874vj4mn1w2",
     "type": "TOPIC",
     "title": "Banking Regulations, Basel Norms, NPAs & Financial Inclusion",
     "slug": "banking-regulations-basel-norms-and-financial-inclusion",
@@ -543,7 +569,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd8md032sl8o8klwzghfk",
+    "id": "top-cmtblb80u032sl874uy602xkd",
     "type": "TOPIC",
     "title": "External Sector, Balance of Payments & International Trade",
     "slug": "external-sector-balance-of-payments-and-trade",
@@ -557,7 +583,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd9560361l8o8l1kydi9n",
+    "id": "top-cmtblb8my0361l874ahfhksjb",
     "type": "TOPIC",
     "title": "Agriculture, Land Reforms & Food Security",
     "slug": "agriculture-land-reforms-and-food-security",
@@ -571,7 +597,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazd9gw037pl8o8s6fh333g",
+    "id": "top-cmtblb8zi037pl874o3sb0czh",
     "type": "TOPIC",
     "title": "Industrial Policy, MSMEs, Disinvestment & Digital Infrastructure",
     "slug": "industrial-policy-msmes-and-digital-infrastructure",
@@ -585,7 +611,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazd9v903a1l8o8eu4n14u0",
+    "id": "top-cmtblb9jl03a1l874rytietu6",
     "type": "TOPIC",
     "title": "Poverty, Inequality, Human Capital & Sustainable Development",
     "slug": "poverty-inequality-human-capital-and-sustainability",
@@ -599,7 +625,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtazdaix03djl8o8cgrf4q4e",
+    "id": "top-cmtblbady03djl874tp8rrimy",
     "type": "TOPIC",
     "title": "Employment, Labor Markets, Planning & NITI Aayog",
     "slug": "employment-labor-markets-and-economic-planning",
@@ -613,7 +639,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazdaxn03fxl8o8chqoys3i",
+    "id": "top-cmtblbay803fxl874seoiig2j",
     "type": "TOPIC",
     "title": "Rajasthan State Economy & Flagship Development Programs",
     "slug": "rajasthan-state-economy-and-development",
@@ -627,7 +653,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazdba003htl8o8iq2fi1si",
+    "id": "top-cmtblbbe603htl874gq4mkg60",
     "type": "TOPIC",
     "title": "Indian Financial System Architecture & Institutional Tiers",
     "slug": "iibf-indian-financial-system-architecture",
@@ -641,7 +667,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtazdbqr03khl8o88786u2xa",
+    "id": "top-cmtblbbxz03khl874x2xaay4u",
     "type": "TOPIC",
     "title": "Financial Markets, Fixed Income & Derivatives Architecture",
     "slug": "iibf-financial-markets-and-instruments",
@@ -655,7 +681,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "8 Concepts"
   },
   {
-    "id": "top-cmtazdckc03opl8o8r6cvtban",
+    "id": "top-cmtblbcvx03opl874mtmf1l8u",
     "type": "TOPIC",
     "title": "Foreign Exchange Markets & NRI Banking Framework",
     "slug": "iibf-forex-markets-and-nri-banking",
@@ -669,7 +695,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtazdcrt03ptl8o8ymzsv9o7",
+    "id": "top-cmtblbd4303ptl8743q8o4hxq",
     "type": "TOPIC",
     "title": "Sustainable Finance, Climate Risk & Banking Technology",
     "slug": "iibf-sustainable-finance-and-banking-technology",
@@ -683,7 +709,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtazdcvr03qdl8o88wtnkffi",
+    "id": "top-cmtblbd8903qdl874pru7l7j8",
     "type": "TOPIC",
     "title": "Banker-Customer Relationship & Customer Service Operations",
     "slug": "iibf-banker-customer-relationship-and-customer-service",
@@ -697,7 +723,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "7 Concepts"
   },
   {
-    "id": "top-cmtazdds403u5l8o8divoxmbx",
+    "id": "top-cmtblbe4603u5l874r4h88jic",
     "type": "TOPIC",
     "title": "Principles of Lending, Credit Assessment & Working Capital Methods",
     "slug": "iibf-principles-of-lending-and-credit-assessment",
@@ -711,7 +737,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtazde6203v9l8o8k3qpoyoz",
+    "id": "top-cmtblbegn03v9l8746uq130xa",
     "type": "TOPIC",
     "title": "Non-Fund Based Facilities & Trade Finance Operations",
     "slug": "iibf-non-fund-facilities-and-trade-finance",
@@ -725,7 +751,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazdepa03wvl8o8t0zikkm2",
+    "id": "top-cmtblbf1y03wvl8748c8dzjvq",
     "type": "TOPIC",
     "title": "Digital Banking, Payment Rails & Information Security",
     "slug": "iibf-digital-banking-and-it-security",
@@ -739,7 +765,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazdfee03yzl8o8imprkt79",
+    "id": "top-cmtblbg0h03yzl874bs39mgnt",
     "type": "TOPIC",
     "title": "Accounting Foundations & Financial Statements Architecture",
     "slug": "iibf-accounting-principles-and-financial-statements",
@@ -753,7 +779,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazdg420411l8o87d9mrvwa",
+    "id": "top-cmtblbh1i0411l874c69ky9ho",
     "type": "TOPIC",
     "title": "Financial Mathematics, Depreciation & Capital Budgeting Architecture",
     "slug": "iibf-financial-mathematics-and-capital-budgeting",
@@ -767,7 +793,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazdgpj042nl8o8jp6vd3y1",
+    "id": "top-cmtblbhrh042nl874sm6dprur",
     "type": "TOPIC",
     "title": "Financial Ratio Analysis & Banking Taxation Architecture",
     "slug": "iibf-financial-analysis-and-taxation",
@@ -781,7 +807,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazdh8x0447l8o8lx9ashee",
+    "id": "top-cmtblbiiz0447l874ntrh23qo",
     "type": "TOPIC",
     "title": "Retail Banking Products & Wealth Management Architecture",
     "slug": "iibf-retail-banking-products-and-wealth-management",
@@ -795,7 +821,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtazdhxt046bl8o8g1pq8bdd",
+    "id": "top-cmtblbjmy046bl874mopawox2",
     "type": "TOPIC",
     "title": "Banking Regulation Act 1949 & Statutory Powers of RBI",
     "slug": "iibf-banking-regulations-and-statutory-governance",
@@ -809,7 +835,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtazdigu047xl8o8yb8b5ize",
+    "id": "top-cmtblbkd0047xl874g5bkawvn",
     "type": "TOPIC",
     "title": "Management Theories, Leadership Models & Organisational Behaviour",
     "slug": "rbi-management-and-organisational-behaviour",
@@ -819,6 +845,76 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "domain": "Banking, Finance & Commercial Operations",
       "subject": "IIBF & Banking Regulations",
       "topic": "Topic 51: Management Theories, Leadership Models & Organisational Behaviour"
+    },
+    "badge": "2 Concepts"
+  },
+  {
+    "id": "top-cmtblbkwg049cl874gpbdl9aw",
+    "type": "TOPIC",
+    "title": "International Organizations & Multilateral Headquarters",
+    "slug": "international-organizations-and-headquarters",
+    "url": "/topics/international-organizations-and-headquarters/read",
+    "description": "Geographical clustering of apex global governance bodies, United Nations specialized agencies, and international treaty secretariats across major diplomatic hubs.",
+    "hierarchy": {
+      "domain": "General Awareness & Global Affairs",
+      "subject": "General Awareness & Global Institutions",
+      "topic": "Topic 52: International Organizations & Multilateral Headquarters"
+    },
+    "badge": "2 Concepts"
+  },
+  {
+    "id": "top-cmtblblhi04awl874zb465c4t",
+    "type": "TOPIC",
+    "title": "Global Indices, Reports & Publishing Bodies",
+    "slug": "global-indices-and-reports",
+    "url": "/topics/global-indices-and-reports/read",
+    "description": "Apex international benchmark reports, governance and socio-economic indices, publishing bodies, parameter structures, and institutional distinctions.",
+    "hierarchy": {
+      "domain": "General Awareness & Global Affairs",
+      "subject": "General Awareness & Global Institutions",
+      "topic": "Topic 53: Global Indices, Reports & Publishing Bodies"
+    },
+    "badge": "1 Concepts"
+  },
+  {
+    "id": "top-cmtblbltn04bol874dpyt3k01",
+    "type": "TOPIC",
+    "title": "Public Policy & Scheme Implementation Framework",
+    "slug": "public-policy-and-scheme-framework",
+    "url": "/topics/public-policy-and-scheme-framework/read",
+    "description": "Constitutional taxonomy of Indian welfare delivery, Central Sector vs Centrally Sponsored Schemes (CSS), funding ratio matrices, Single Nodal Agency (SNA) governance, and Direct Benefit Transfer (DBT) architecture.",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Topic 54: Public Policy & Scheme Implementation Framework"
+    },
+    "badge": "1 Concepts"
+  },
+  {
+    "id": "top-cmtblbm3b04cgl874m7qzl1ye",
+    "type": "TOPIC",
+    "title": "Financial Inclusion, Social Security & Enterprise Schemes",
+    "slug": "financial-inclusion-and-enterprise-schemes",
+    "url": "/topics/financial-inclusion-and-enterprise-schemes/read",
+    "description": "Universal banking access, low-cost term life insurance, accidental disability coverage, and guaranteed pension architecture under the Jan Dhan-Aadhaar-Mobile (JAM) ecosystem.",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Topic 55: Financial Inclusion, Social Security & Enterprise Schemes"
+    },
+    "badge": "2 Concepts"
+  },
+  {
+    "id": "top-cmtblbmnz04dwl874hidi51su",
+    "type": "TOPIC",
+    "title": "Rural Development, Agriculture & Employment Guarantees",
+    "slug": "rural-development-and-employment-guarantees",
+    "url": "/topics/rural-development-and-employment-guarantees/read",
+    "description": "Women Self-Help Group (SHG) mobilization, revolving funds, interest subvention mechanics, CGFMU collateral relaxations, and rural livelihood generation under DAY-NRLM.",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Topic 56: Rural Development, Agriculture & Employment Guarantees"
     },
     "badge": "2 Concepts"
   },
@@ -4316,6 +4412,126 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "concept": "Organisational Communication & Interpersonal Dynamics: Barriers, Channels & Johari Window"
     },
     "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-GA-01",
+    "type": "CONCEPT",
+    "title": "Global Multilateral Organizations & Headquarters Directory: Geneva, Vienna, Paris, Rome & Diplomatic Clusters",
+    "slug": "global-multilateral-organizations-and-headquarters-directory",
+    "url": "/topics/international-organizations-and-headquarters/read#global-multilateral-organizations-and-headquarters-directory",
+    "description": "A systematic architectural directory of apex international organizations, United Nations specialized agencies, and global governance bodies categorized by their geographical diplomatic hubs: Geneva (WHO, WTO, ILO, WIPO, UNCTAD), Vienna (IAEA, OPEC, UNIDO, UNODC), Paris (UNESCO, OECD, FATF), Rome (FAO, WFP, IFAD), Washington D.C. (World Bank, IMF), The Hague (ICJ, ICC, OPCW), London (IMO), Montreal (ICAO, WADA), Madrid (UN Tourism), and Nairobi (UNEP, UN-Habitat).",
+    "hierarchy": {
+      "domain": "General Awareness & Global Affairs",
+      "subject": "General Awareness & Global Institutions",
+      "topic": "International Organizations & Multilateral Headquarters",
+      "concept": "Global Multilateral Organizations & Headquarters Directory: Geneva, Vienna, Paris, Rome & Diplomatic Clusters"
+    },
+    "badge": "FOUNDATIONAL"
+  },
+  {
+    "id": "con-CON-GA-02",
+    "type": "CONCEPT",
+    "title": "Multilateral Development Banks (MDBs): Bretton Woods, Regional Banks & South-South Institutions",
+    "slug": "multilateral-development-banks-architecture",
+    "url": "/topics/international-organizations-and-headquarters/read#multilateral-development-banks-architecture",
+    "description": "A comparative analysis of Multilateral Development Banks (MDBs) and international financial institutions: the Bretton Woods twins (World Bank Group and IMF), regional banks (ADB, EIB, IDB, AfDB), and modern South-South institutions (AIIB and NDB). Analyzes founding charters, headquarters, capital subscriptions, voting share structures, and India’s institutional relationship.",
+    "hierarchy": {
+      "domain": "General Awareness & Global Affairs",
+      "subject": "General Awareness & Global Institutions",
+      "topic": "International Organizations & Multilateral Headquarters",
+      "concept": "Multilateral Development Banks (MDBs): Bretton Woods, Regional Banks & South-South Institutions"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-GA-03",
+    "type": "CONCEPT",
+    "title": "Apex International Reports, Global Indices & Nodal Publishing Organizations",
+    "slug": "apex-international-reports-and-indices",
+    "url": "/topics/global-indices-and-reports/read#apex-international-reports-and-indices",
+    "description": "A canonical catalog of flagship global socioeconomic, governance, economic, and environmental reports mapped to their authoritative publishing organizations (UNDP, WIPO, WEF, World Bank, IMF, Transparency International, UNEP). Examines core structural parameters, the Human Development Index (HDI) methodology, and key institutional traps.",
+    "hierarchy": {
+      "domain": "General Awareness & Global Affairs",
+      "subject": "General Awareness & Global Institutions",
+      "topic": "Global Indices, Reports & Publishing Bodies",
+      "concept": "Apex International Reports, Global Indices & Nodal Publishing Organizations"
+    },
+    "badge": "FOUNDATIONAL"
+  },
+  {
+    "id": "con-CON-SCH-01",
+    "type": "CONCEPT",
+    "title": "Government Schemes Architecture: Classification, Funding Ratios & Nodal Delivery Systems",
+    "slug": "government-schemes-classification-and-funding-architecture",
+    "url": "/topics/public-policy-and-scheme-framework/read#government-schemes-classification-and-funding-architecture",
+    "description": "The structural taxonomy of public policy schemes in India: the statutory and budgetary distinction between Central Sector Schemes (100% centrally funded) and Centrally Sponsored Schemes (CSS - Core of Core, Core, and Optional sharing models), standard Center-State funding ratios (60:40, 90:10, 100:0), the Single Nodal Agency (SNA) fund flow mechanism, and Direct Benefit Transfer (DBT) conduits.",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Public Policy & Scheme Implementation Framework",
+      "concept": "Government Schemes Architecture: Classification, Funding Ratios & Nodal Delivery Systems"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-SCH-02",
+    "type": "CONCEPT",
+    "title": "Core Financial Inclusion & Social Security Schemes: PMJDY, PMJJBY, PMSBY & Atal Pension Yojana",
+    "slug": "core-financial-inclusion-and-social-security-schemes",
+    "url": "/topics/financial-inclusion-and-enterprise-schemes/read#core-financial-inclusion-and-social-security-schemes",
+    "description": "The statutory framework and operational parameters of India's core universal social security safety net: Pradhan Mantri Jan Dhan Yojana (PMJDY - zero-balance banking and overdraft), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY - ₹2 Lakh life insurance at ₹436/year), Pradhan Mantri Suraksha Bima Yojana (PMSBY - ₹2 Lakh accidental cover at ₹20/year), and Atal Pension Yojana (APY - guaranteed pension of ₹1,000–₹5,000/month).",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Financial Inclusion, Social Security & Enterprise Schemes",
+      "concept": "Core Financial Inclusion & Social Security Schemes: PMJDY, PMJJBY, PMSBY & Atal Pension Yojana"
+    },
+    "badge": "FOUNDATIONAL"
+  },
+  {
+    "id": "con-CON-SCH-03",
+    "type": "CONCEPT",
+    "title": "Micro-Enterprise & Street Vendor Credit Frameworks: PMMY MUDRA, PM SVANidhi & PM Vishwakarma",
+    "slug": "micro-enterprise-and-street-vendor-credit-frameworks",
+    "url": "/topics/financial-inclusion-and-enterprise-schemes/read#micro-enterprise-and-street-vendor-credit-frameworks",
+    "description": "A comparative statutory and financial analysis of institutional micro-credit delivery: Pradhan Mantri MUDRA Yojana (PMMY - Shishu, Kishore, Tarun, and the Budget 2024–25 Tarun Plus category up to ₹20 Lakh), PM SVANidhi (MoHUA street vendor credit up to ₹50,000 with 7% interest subsidy), and PM Vishwakarma (₹13,000 Crore scheme for 18 traditional trades with ₹3 Lakh collateral-free credit at 5% interest and toolkit support).",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Financial Inclusion, Social Security & Enterprise Schemes",
+      "concept": "Micro-Enterprise & Street Vendor Credit Frameworks: PMMY MUDRA, PM SVANidhi & PM Vishwakarma"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-SCH-04",
+    "type": "CONCEPT",
+    "title": "Rural Livelihood & Self-Help Group Credit: DAY-NRLM, Interest Subvention & CGFMU Architecture",
+    "slug": "rural-livelihood-and-self-help-group-credit",
+    "url": "/topics/rural-development-and-employment-guarantees/read#rural-livelihood-and-self-help-group-credit",
+    "description": "The institutional framework of Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM): women SHG mobilization, Panchasutra discipline, Revolving Fund (₹20,000–₹30,000), Community Investment Fund, Interest Subvention Scheme (delivering credit at 7% p.a. with 4.5% subvention up to ₹3 Lakh), RBI collateral relaxation up to ₹20 Lakh under CGFMU, and the Lakhpati Didi mandate.",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Rural Development, Agriculture & Employment Guarantees",
+      "concept": "Rural Livelihood & Self-Help Group Credit: DAY-NRLM, Interest Subvention & CGFMU Architecture"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-SCH-05",
+    "type": "CONCEPT",
+    "title": "Employment Guarantee & Agricultural Income Support: MGNREGA 2005, PM-KISAN & PMFBY",
+    "slug": "employment-guarantee-and-agricultural-income-support",
+    "url": "/topics/rural-development-and-employment-guarantees/read#employment-guarantee-and-agricultural-income-support",
+    "description": "The legal and financial architecture of India’s rural safety nets: the statutory framework of the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (MGNREGA - legal entitlement to 100 days of wage employment per household, 15-day work guarantee, and Section 7 unemployment allowance), direct agricultural income transfers under PM-KISAN (₹6,000/year in 3 installments), and multi-peril crop insurance under PMFBY (capped farmer premiums: 2% Kharif, 1.5% Rabi, 5% Commercial).",
+    "hierarchy": {
+      "domain": "Public Policy & Welfare Administration",
+      "subject": "Government Schemes & Welfare Architecture",
+      "topic": "Rural Development, Agriculture & Employment Guarantees",
+      "concept": "Employment Guarantee & Agricultural Income Support: MGNREGA 2005, PM-KISAN & PMFBY"
+    },
+    "badge": "INTERMEDIATE"
   }
 ];
 
@@ -6416,5 +6632,77 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
     "difficulty": "INTERMEDIATE",
     "topicTitle": "Management Theories, Leadership Models & Organisational Behaviour",
     "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-GA-01",
+    "slug": "global-multilateral-organizations-and-headquarters-directory",
+    "title": "Global Multilateral Organizations & Headquarters Directory: Geneva, Vienna, Paris, Rome & Diplomatic Clusters",
+    "shortDefinition": "A systematic architectural directory of apex international organizations, United Nations specialized agencies, and global governance bodies categorized by their geographical diplomatic hubs: Geneva (WHO, WTO, ILO, WIPO, UNCTAD), Vienna (IAEA, OPEC, UNIDO, UNODC), Paris (UNESCO, OECD, FATF), Rome (FAO, WFP, IFAD), Washington D.C. (World Bank, IMF), The Hague (ICJ, ICC, OPCW), London (IMO), Montreal (ICAO, WADA), Madrid (UN Tourism), and Nairobi (UNEP, UN-Habitat).",
+    "difficulty": "FOUNDATIONAL",
+    "topicTitle": "International Organizations & Multilateral Headquarters",
+    "subjectName": "General Awareness & Global Institutions"
+  },
+  {
+    "id": "CON-GA-02",
+    "slug": "multilateral-development-banks-architecture",
+    "title": "Multilateral Development Banks (MDBs): Bretton Woods, Regional Banks & South-South Institutions",
+    "shortDefinition": "A comparative analysis of Multilateral Development Banks (MDBs) and international financial institutions: the Bretton Woods twins (World Bank Group and IMF), regional banks (ADB, EIB, IDB, AfDB), and modern South-South institutions (AIIB and NDB). Analyzes founding charters, headquarters, capital subscriptions, voting share structures, and India’s institutional relationship.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "International Organizations & Multilateral Headquarters",
+    "subjectName": "General Awareness & Global Institutions"
+  },
+  {
+    "id": "CON-GA-03",
+    "slug": "apex-international-reports-and-indices",
+    "title": "Apex International Reports, Global Indices & Nodal Publishing Organizations",
+    "shortDefinition": "A canonical catalog of flagship global socioeconomic, governance, economic, and environmental reports mapped to their authoritative publishing organizations (UNDP, WIPO, WEF, World Bank, IMF, Transparency International, UNEP). Examines core structural parameters, the Human Development Index (HDI) methodology, and key institutional traps.",
+    "difficulty": "FOUNDATIONAL",
+    "topicTitle": "Global Indices, Reports & Publishing Bodies",
+    "subjectName": "General Awareness & Global Institutions"
+  },
+  {
+    "id": "CON-SCH-01",
+    "slug": "government-schemes-classification-and-funding-architecture",
+    "title": "Government Schemes Architecture: Classification, Funding Ratios & Nodal Delivery Systems",
+    "shortDefinition": "The structural taxonomy of public policy schemes in India: the statutory and budgetary distinction between Central Sector Schemes (100% centrally funded) and Centrally Sponsored Schemes (CSS - Core of Core, Core, and Optional sharing models), standard Center-State funding ratios (60:40, 90:10, 100:0), the Single Nodal Agency (SNA) fund flow mechanism, and Direct Benefit Transfer (DBT) conduits.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Public Policy & Scheme Implementation Framework",
+    "subjectName": "Government Schemes & Welfare Architecture"
+  },
+  {
+    "id": "CON-SCH-02",
+    "slug": "core-financial-inclusion-and-social-security-schemes",
+    "title": "Core Financial Inclusion & Social Security Schemes: PMJDY, PMJJBY, PMSBY & Atal Pension Yojana",
+    "shortDefinition": "The statutory framework and operational parameters of India's core universal social security safety net: Pradhan Mantri Jan Dhan Yojana (PMJDY - zero-balance banking and overdraft), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY - ₹2 Lakh life insurance at ₹436/year), Pradhan Mantri Suraksha Bima Yojana (PMSBY - ₹2 Lakh accidental cover at ₹20/year), and Atal Pension Yojana (APY - guaranteed pension of ₹1,000–₹5,000/month).",
+    "difficulty": "FOUNDATIONAL",
+    "topicTitle": "Financial Inclusion, Social Security & Enterprise Schemes",
+    "subjectName": "Government Schemes & Welfare Architecture"
+  },
+  {
+    "id": "CON-SCH-03",
+    "slug": "micro-enterprise-and-street-vendor-credit-frameworks",
+    "title": "Micro-Enterprise & Street Vendor Credit Frameworks: PMMY MUDRA, PM SVANidhi & PM Vishwakarma",
+    "shortDefinition": "A comparative statutory and financial analysis of institutional micro-credit delivery: Pradhan Mantri MUDRA Yojana (PMMY - Shishu, Kishore, Tarun, and the Budget 2024–25 Tarun Plus category up to ₹20 Lakh), PM SVANidhi (MoHUA street vendor credit up to ₹50,000 with 7% interest subsidy), and PM Vishwakarma (₹13,000 Crore scheme for 18 traditional trades with ₹3 Lakh collateral-free credit at 5% interest and toolkit support).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Inclusion, Social Security & Enterprise Schemes",
+    "subjectName": "Government Schemes & Welfare Architecture"
+  },
+  {
+    "id": "CON-SCH-04",
+    "slug": "rural-livelihood-and-self-help-group-credit",
+    "title": "Rural Livelihood & Self-Help Group Credit: DAY-NRLM, Interest Subvention & CGFMU Architecture",
+    "shortDefinition": "The institutional framework of Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM): women SHG mobilization, Panchasutra discipline, Revolving Fund (₹20,000–₹30,000), Community Investment Fund, Interest Subvention Scheme (delivering credit at 7% p.a. with 4.5% subvention up to ₹3 Lakh), RBI collateral relaxation up to ₹20 Lakh under CGFMU, and the Lakhpati Didi mandate.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Rural Development, Agriculture & Employment Guarantees",
+    "subjectName": "Government Schemes & Welfare Architecture"
+  },
+  {
+    "id": "CON-SCH-05",
+    "slug": "employment-guarantee-and-agricultural-income-support",
+    "title": "Employment Guarantee & Agricultural Income Support: MGNREGA 2005, PM-KISAN & PMFBY",
+    "shortDefinition": "The legal and financial architecture of India’s rural safety nets: the statutory framework of the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (MGNREGA - legal entitlement to 100 days of wage employment per household, 15-day work guarantee, and Section 7 unemployment allowance), direct agricultural income transfers under PM-KISAN (₹6,000/year in 3 installments), and multi-peril crop insurance under PMFBY (capped farmer premiums: 2% Kharif, 1.5% Rabi, 5% Commercial).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Rural Development, Agriculture & Employment Guarantees",
+    "subjectName": "Government Schemes & Welfare Architecture"
   }
 ];

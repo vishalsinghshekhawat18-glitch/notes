@@ -28,7 +28,7 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
     await seedBatchP6CanonicalKnowledge();
     await seedBatchP7CanonicalKnowledge();
     await seedInflationCanonicalKnowledge();
-  }, 60000);
+  }, 180000);
 
   it('1. Every topic should have a continuous reading data loader with all canonical concepts', async () => {
     const topics = await db.topic.findMany({

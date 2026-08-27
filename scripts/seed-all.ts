@@ -17,6 +17,7 @@ import { seedBatchE3CanonicalKnowledge } from '../lib/benchmark/batch-e3-canonic
 import { seedBatchB1IIBFCanonicalKnowledge } from '../lib/benchmark/batch-b1-iibf-canonical-seed';
 import { seedBatchB2IIBFCanonicalKnowledge } from '../lib/benchmark/batch-b2-iibf-canonical-seed';
 import { seedBatchB3IIBFCanonicalKnowledge } from '../lib/benchmark/batch-b3-iibf-canonical-seed';
+import { seedBatchGASchemesCanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-canonical-seed';
 
 async function main() {
   console.log('Seeding canonical database for static build...');
@@ -79,6 +80,9 @@ async function main() {
   await seedBatchB2IIBFCanonicalKnowledge();
   // Seed Batch B3 (IIBF Topics 46-51: 19 concepts)
   await seedBatchB3IIBFCanonicalKnowledge();
+
+  // Seed Static GA & Government Schemes (Topics 52-56: 8 concepts)
+  await seedBatchGASchemesCanonicalKnowledge();
 
   const count = await db.concept.count();
   console.log(`Successfully seeded ${count} canonical concepts.`);
