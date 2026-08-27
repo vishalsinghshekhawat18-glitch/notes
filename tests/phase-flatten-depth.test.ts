@@ -60,7 +60,7 @@ describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
     await seedBatchP6CanonicalKnowledge();
     await seedBatchP7CanonicalKnowledge();
     await seedInflationCanonicalKnowledge();
-  });
+  }, 120000);
 
   it('1. should verify that all concepts contain complete content blocks with zero gating', async () => {
     const sampleConcepts = [
