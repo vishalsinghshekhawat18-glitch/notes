@@ -23,7 +23,7 @@ import { seedBatchB3IIBFCanonicalKnowledge } from '@/lib/benchmark/batch-b3-iibf
  */
 export async function ensureCanonicalDataSeeded() {
   const conceptCount = await db.concept.count();
-  if (conceptCount === 0) {
+  if (conceptCount < 233) {
     await seedBatchACanonicalKnowledge();
     await seedBatchBCanonicalKnowledge();
     await seedTopic10CanonicalKnowledge();
