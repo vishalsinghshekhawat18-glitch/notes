@@ -2982,6 +2982,13 @@ export async function seedBatchACanonicalKnowledge() {
         },
       });
 
+      // Clear existing child entities to prevent duplicate keys on re-seeding
+      await db.claim.deleteMany({ where: { conceptId: concept.id } });
+      await db.contentBlock.deleteMany({ where: { conceptId: concept.id } });
+      await db.examConceptMapping.deleteMany({ where: { conceptId: concept.id } });
+      await db.revisionUnit.deleteMany({ where: { conceptId: concept.id } });
+      await db.question.deleteMany({ where: { conceptId: concept.id } });
+
       // Seed Claims
       for (const clm of cDef.claims) {
         const claim = await db.claim.upsert({
@@ -3035,17 +3042,20 @@ export async function seedBatchACanonicalKnowledge() {
       for (const em of cDef.examMappings) {
         const examId = examMap[em.examCode];
         if (examId) {
-          await db.examConceptMapping.create({
-            data: {
-              examId,
-              conceptId: concept.id,
-              syllabusUnit: em.syllabusSection,
-              relevance: em.relevance,
-              priority: em.weightage,
-              requiredDepth: 'EXAM_STANDARD',
-              notes: em.examNotes,
-            },
-          });
+          const examExists = await db.exam.findUnique({ where: { id: examId } });
+          if (examExists) {
+            await db.examConceptMapping.create({
+              data: {
+                examId,
+                conceptId: concept.id,
+                syllabusUnit: em.syllabusSection,
+                relevance: em.relevance,
+                priority: em.weightage,
+                requiredDepth: 'EXAM_STANDARD',
+                notes: em.examNotes,
+              },
+            });
+          }
         }
       }
 

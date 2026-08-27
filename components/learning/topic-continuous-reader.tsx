@@ -123,6 +123,28 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Persist reading position to localStorage for Continue Reading feature
+  useEffect(() => {
+    try {
+      const activeConcept = topic.concepts[activeConceptIndex];
+      const position = {
+        subjectName: topic.subject.name,
+        subjectSlug: topic.subject.slug,
+        topicTitle: topic.title,
+        topicSlug: topic.slug,
+        conceptTitle: activeConcept?.title || topic.title,
+        conceptSlug: activeConcept?.slug || '',
+        url: activeConcept?.slug
+          ? `/topics/${topic.slug}/read#${activeConcept.slug}`
+          : `/topics/${topic.slug}/read`,
+        timestamp: Date.now(),
+      };
+      localStorage.setItem('reading_hub_last_position', JSON.stringify(position));
+    } catch {
+      // Ignore in restricted environments
+    }
+  }, [topic, activeConceptIndex]);
+
   // Handle initial hash deep linking (e.g. #concept-02 or #concept-slug)
   useEffect(() => {
     if (typeof window !== 'undefined' && window.location.hash) {
@@ -212,9 +234,12 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
             </Link>
             <div className="h-3.5 w-px bg-stone-300 shrink-0" />
             <div className="min-w-0">
-              <div className="text-[10px] font-mono uppercase tracking-wider text-stone-500 truncate">
+              <Link
+                href={`/subjects/${topic.subject.slug}`}
+                className="text-[10px] font-mono uppercase tracking-wider text-stone-500 hover:text-emerald-800 transition-colors truncate block"
+              >
                 {topic.subject.name}
-              </div>
+              </Link>
               <h1 className="text-xs sm:text-sm font-bold text-stone-900 truncate">
                 {topic.title}
               </h1>

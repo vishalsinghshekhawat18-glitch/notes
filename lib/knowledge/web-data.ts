@@ -23,7 +23,7 @@ import { seedBatchB3IIBFCanonicalKnowledge } from '@/lib/benchmark/batch-b3-iibf
  */
 export async function ensureCanonicalDataSeeded() {
   const conceptCount = await db.concept.count();
-  if (conceptCount < 233) {
+  if (conceptCount === 0) {
     await seedBatchACanonicalKnowledge();
     await seedBatchBCanonicalKnowledge();
     await seedTopic10CanonicalKnowledge();
@@ -42,6 +42,138 @@ export async function ensureCanonicalDataSeeded() {
     await seedBatchB2IIBFCanonicalKnowledge();
     await seedBatchB3IIBFCanonicalKnowledge();
   }
+}
+
+export interface SubjectOverviewItem {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+  domainName: string;
+  domainSlug: string;
+  topicsCount: number;
+  conceptsCount: number;
+  firstTopicSlug: string;
+}
+
+export interface DomainWithSubjects {
+  id: string;
+  name: string;
+  slug: string;
+  description?: string | null;
+  subjects: SubjectOverviewItem[];
+}
+
+export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]> {
+  await ensureCanonicalDataSeeded();
+
+  const domains = await db.domain.findMany({
+    where: {
+      subjects: {
+        some: {
+          topics: {
+            some: {
+              concepts: {
+                some: {
+                  status: { in: ['ACTIVE', 'CANONICAL'] },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    orderBy: { order: 'asc' },
+    include: {
+      subjects: {
+        where: {
+          topics: {
+            some: {
+              concepts: {
+                some: {
+                  status: { in: ['ACTIVE', 'CANONICAL'] },
+                },
+              },
+            },
+          },
+        },
+        orderBy: { order: 'asc' },
+        include: {
+          topics: {
+            orderBy: { order: 'asc' },
+            include: {
+              concepts: {
+                where: { status: { in: ['ACTIVE', 'CANONICAL'] } },
+                select: { id: true },
+              },
+            },
+          },
+        },
+      },
+    },
+  });
+
+  return domains.map((domain) => ({
+    id: domain.id,
+    name: domain.name,
+    slug: domain.slug,
+    description: domain.description,
+    subjects: domain.subjects.map((s) => {
+      const activeTopics = s.topics.filter((t) => t.concepts.length > 0);
+      const firstTopic = activeTopics[0];
+      const totalConcepts = activeTopics.reduce((acc, t) => acc + t.concepts.length, 0);
+
+      return {
+        id: s.id,
+        slug: s.slug,
+        name: s.name,
+        description: s.description || s.scopeStatement || '',
+        domainName: domain.name,
+        domainSlug: domain.slug,
+        topicsCount: activeTopics.length,
+        conceptsCount: totalConcepts,
+        firstTopicSlug: firstTopic?.slug || '',
+      };
+    }),
+  }));
+}
+
+export async function getSubjectWithTopics(subjectSlug: string) {
+  await ensureCanonicalDataSeeded();
+
+  const subject = await db.subject.findFirst({
+    where: { slug: subjectSlug },
+    include: {
+      domain: true,
+      topics: {
+        where: {
+          concepts: {
+            some: {
+              status: { in: ['ACTIVE', 'CANONICAL'] },
+            },
+          },
+        },
+        orderBy: { order: 'asc' },
+        include: {
+          concepts: {
+            where: { status: { in: ['ACTIVE', 'CANONICAL'] } },
+            orderBy: { id: 'asc' },
+            select: {
+              id: true,
+              slug: true,
+              title: true,
+              shortDefinition: true,
+              difficulty: true,
+            },
+          },
+        },
+      },
+    },
+  });
+
+  if (!subject) return null;
+
+  return subject;
 }
 
 export async function getAllLibraryData() {

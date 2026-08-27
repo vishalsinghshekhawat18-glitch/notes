@@ -37,7 +37,12 @@ export default async function TopicPage({ params }: TopicPageProps) {
         <span>›</span>
         <span>{topic.subject.domain.name}</span>
         <span>›</span>
-        <span className="text-stone-700 font-semibold">{topic.subject.name}</span>
+        <Link
+          href={`/subjects/${topic.subject.slug}`}
+          className="text-stone-700 font-semibold hover:text-emerald-900 transition-colors"
+        >
+          {topic.subject.name}
+        </Link>
       </nav>
 
       {/* Redesigned Topic Hero & Primary Action */}

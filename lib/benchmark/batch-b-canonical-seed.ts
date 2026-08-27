@@ -2367,17 +2367,20 @@ export async function seedBatchBCanonicalKnowledge() {
       for (const em of cDef.examMappings) {
         const examId = examMap[em.examCode];
         if (examId) {
-          await db.examConceptMapping.create({
-            data: {
-              examId,
-              conceptId: concept.id,
-              syllabusUnit: em.syllabusSection,
-              relevance: em.relevance,
-              priority: em.weightage,
-              requiredDepth: 'EXAM_STANDARD',
-              notes: em.examNotes,
-            },
-          });
+          const examExists = await db.exam.findUnique({ where: { id: examId } });
+          if (examExists) {
+            await db.examConceptMapping.create({
+              data: {
+                examId,
+                conceptId: concept.id,
+                syllabusUnit: em.syllabusSection,
+                relevance: em.relevance,
+                priority: em.weightage,
+                requiredDepth: 'EXAM_STANDARD',
+                notes: em.examNotes,
+              },
+            });
+          }
         }
       }
 

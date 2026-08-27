@@ -41,22 +41,22 @@ export function SiteHeader() {
                 Library
               </Link>
               <Link
-                href="/topics/part-3-fundamental-rights"
+                href="/subjects/indian-polity"
                 className="hover:text-stone-900 transition-colors"
               >
-                Fundamental Rights
+                Indian Polity
               </Link>
               <Link
-                href="/topics/part-4-directive-principles-of-state-policy"
+                href="/subjects/indian-economy"
                 className="hover:text-stone-900 transition-colors"
               >
-                Directive Principles
+                Indian Economy
               </Link>
               <Link
-                href="/topics/inflation-dynamics-measurement-policy"
+                href="/subjects/iibf-banking-regulations"
                 className="hover:text-stone-900 transition-colors"
               >
-                Economics: Inflation
+                IIBF Banking
               </Link>
             </nav>
           </div>

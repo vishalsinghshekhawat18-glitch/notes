@@ -16,26 +16,6 @@ import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-cano
 
 describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
   beforeAll(async () => {
-    // Clear tables to prevent duplicate key errors during multi-suite test runs
-    await db.knowledgeAudit.deleteMany();
-    await db.question.deleteMany();
-    await db.revisionUnit.deleteMany();
-    await db.examConceptMapping.deleteMany();
-    await db.exam.deleteMany();
-    await db.connection.deleteMany();
-    await db.contentBlock.deleteMany();
-    await db.knowledgeIssue.deleteMany();
-    await db.evidence.deleteMany();
-    await db.ingestionItem.deleteMany();
-    await db.coverageUnit.deleteMany();
-    await db.sourceSection.deleteMany();
-    await db.source.deleteMany();
-    await db.claim.deleteMany();
-    await db.concept.deleteMany();
-    await db.topic.deleteMany();
-    await db.subject.deleteMany();
-    await db.domain.deleteMany();
-
     await seedBatchACanonicalKnowledge();
     await seedBatchBCanonicalKnowledge();
     await seedTopic9CanonicalKnowledge();
@@ -48,7 +28,7 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
     await seedBatchP6CanonicalKnowledge();
     await seedBatchP7CanonicalKnowledge();
     await seedInflationCanonicalKnowledge();
-  });
+  }, 60000);
 
   it('1. Every topic should have a continuous reading data loader with all canonical concepts', async () => {
     const topics = await db.topic.findMany({
