@@ -11,6 +11,9 @@ import { seedBatchP7CanonicalKnowledge } from '../lib/benchmark/batch-p7-canonic
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
 import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
+import { seedBatchE1CanonicalKnowledge } from '../lib/benchmark/batch-e1-canonical-seed';
+import { seedBatchE2CanonicalKnowledge } from '../lib/benchmark/batch-e2-canonical-seed';
+import { seedBatchE3CanonicalKnowledge } from '../lib/benchmark/batch-e3-canonical-seed';
 
 async function main() {
   console.log('Seeding canonical database for static build...');
@@ -59,6 +62,13 @@ async function main() {
   await seedBatchP7CanonicalKnowledge();
   // Seed Inflation (5 concepts)
   await seedInflationCanonicalKnowledge();
+
+  // Seed Batch E1 (Economics Topics 27-29: 17 concepts)
+  await seedBatchE1CanonicalKnowledge();
+  // Seed Batch E2 (Economics Topics 30-32: 12 concepts)
+  await seedBatchE2CanonicalKnowledge();
+  // Seed Batch E3 (Economics Topics 33-37: 20 concepts)
+  await seedBatchE3CanonicalKnowledge();
 
   const count = await db.concept.count();
   console.log(`Successfully seeded ${count} canonical concepts.`);
