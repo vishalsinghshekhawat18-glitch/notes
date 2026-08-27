@@ -14,9 +14,6 @@ import { db } from '../lib/db/client';
 import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
 
 describe('Markdown Rendering Pipeline', () => {
-  beforeAll(async () => {
-    await seedBatchACanonicalKnowledge();
-  });
   it('1. should convert markdown headings (###) into semantic HTML headings', () => {
     const raw = '### 1. The Four Modern Elements of Statehood';
     const html = marked.parse(raw, { async: false }) as string;
