@@ -28,7 +28,7 @@ export interface StaticConceptItem {
 
 export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
-    "id": "subj-cmtblabai0002l874u4lmvw7q",
+    "id": "subj-cmtbnedun0002l8hgnyykkfsu",
     "type": "SUBJECT",
     "title": "Indian Polity",
     "slug": "indian-polity",
@@ -41,7 +41,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "28 Topics • 128 Concepts"
   },
   {
-    "id": "subj-cmtblb2ke02dxl874qzi8ivp6",
+    "id": "subj-cmtbnev5l02dxl8hgggffvz5a",
     "type": "SUBJECT",
     "title": "Indian Economy & Macroeconomic Policy",
     "slug": "indian-economy",
@@ -54,7 +54,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "12 Topics • 54 Concepts"
   },
   {
-    "id": "subj-cmtblbbdc03hol874zh2scq1s",
+    "id": "subj-cmtbnf1xh03hol8hgiuwcipt2",
     "type": "SUBJECT",
     "title": "IIBF & Banking Regulations",
     "slug": "iibf-banking-regulations",
@@ -67,7 +67,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "14 Topics • 51 Concepts"
   },
   {
-    "id": "subj-cmtblbkuy0497l874vv275vqg",
+    "id": "subj-cmtbnf8m20497l8hgcwbud65p",
     "type": "SUBJECT",
     "title": "General Awareness & Global Institutions",
     "slug": "general-awareness",
@@ -80,7 +80,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Topics • 3 Concepts"
   },
   {
-    "id": "subj-cmtblbkvz049al874ixsh081g",
+    "id": "subj-cmtbnf8n7049al8hgyvzb2e4u",
     "type": "SUBJECT",
     "title": "Government Schemes & Welfare Architecture",
     "slug": "government-schemes",
@@ -93,7 +93,20 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Topics • 5 Concepts"
   },
   {
-    "id": "top-cmtblabc60007l8748r7ai9ds",
+    "id": "subj-cmtbnfann04fil8hgu0a1ozzn",
+    "type": "SUBJECT",
+    "title": "English Language & Descriptive Writing",
+    "slug": "english-descriptive-writing",
+    "url": "/subjects/english-descriptive-writing",
+    "description": "First-principles mastery of written discourse, essay argumentation, précis compression, professional correspondence, and exam execution strategy.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing"
+    },
+    "badge": "6 Topics • 15 Concepts"
+  },
+  {
+    "id": "top-cmtbnedvq0007l8hgtnncqx3n",
     "type": "TOPIC",
     "title": "Basic Concepts of Polity",
     "slug": "basic-concepts-of-polity",
@@ -107,7 +120,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb2kr02dzl8749j5iw969",
+    "id": "top-cmtbnev5v02dzl8hgxzd5obhv",
     "type": "TOPIC",
     "title": "Inflation: Dynamics, Price Measurement & Policy Framework",
     "slug": "inflation-dynamics-measurement-policy",
@@ -121,7 +134,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtblabyc002zl874yjn2tn69",
+    "id": "top-cmtbneecb002zl8hgxxosp2wz",
     "type": "TOPIC",
     "title": "Constituent Assembly of India",
     "slug": "constituent-assembly",
@@ -135,7 +148,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblacvl006vl874lrwnhh2u",
+    "id": "top-cmtbnef0c006vl8hg1iij71xu",
     "type": "TOPIC",
     "title": "The Preamble of the Indian Constitution",
     "slug": "preamble",
@@ -149,7 +162,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtbladiu009ll874xpgc8xxt",
+    "id": "top-cmtbnefh5009ll8hgvyw29vrx",
     "type": "TOPIC",
     "title": "Schedules of the Indian Constitution & Language Scheme",
     "slug": "schedules-of-the-indian-constitution",
@@ -163,7 +176,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "9 Concepts"
   },
   {
-    "id": "top-cmtblafmt00f0l874recazg5j",
+    "id": "top-cmtbneglw00f0l8hgzkcxc0ey",
     "type": "TOPIC",
     "title": "Part I: The Union and Its Territory",
     "slug": "part-1-union-and-its-territory",
@@ -177,7 +190,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblag8w00hgl874drvp5aa7",
+    "id": "top-cmtbneh0600hgl8hgk72rx7v8",
     "type": "TOPIC",
     "title": "Unification and Integration of India",
     "slug": "unification-of-india",
@@ -191,7 +204,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblagt700jwl874b8b9ag07",
+    "id": "top-cmtbnehff00jwl8hgmzm6s6gf",
     "type": "TOPIC",
     "title": "Reorganisation of States & Zonal Councils",
     "slug": "reorganisation-of-states",
@@ -205,7 +218,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblahg100mal874n8286gth",
+    "id": "top-cmtbnehts00mal8hgcyp47bib",
     "type": "TOPIC",
     "title": "Part II: Citizenship (Articles 5 to 11)",
     "slug": "part-2-citizenship",
@@ -219,7 +232,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblakxp00xol874co2rzl32",
+    "id": "top-cmtbnejbc00xol8hgrg5dj7gq",
     "type": "TOPIC",
     "title": "Part III: Fundamental Rights",
     "slug": "part-3-fundamental-rights",
@@ -233,7 +246,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "16 Concepts"
   },
   {
-    "id": "top-cmtblaprs01ful874mpp0l4md",
+    "id": "top-cmtbnem4801ful8hg60shxtkb",
     "type": "TOPIC",
     "title": "Part IV: Directive Principles of State Policy",
     "slug": "part-4-directive-principles-of-state-policy",
@@ -247,7 +260,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtblaqvq01jjl874hcaz2m8g",
+    "id": "top-cmtbnemuk01jjl8hg2ep8hoon",
     "type": "TOPIC",
     "title": "The Union Executive: President, Vice-President, PM & Council of Ministers",
     "slug": "the-union-executive",
@@ -261,7 +274,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "7 Concepts"
   },
   {
-    "id": "top-cmtblarsa01n9l874icjo8p8b",
+    "id": "top-cmtbnenfv01n9l8hg7cy40bg4",
     "type": "TOPIC",
     "title": "Part VI: The State Executive (Governor, Chief Minister & Advocate General)",
     "slug": "the-state-executive",
@@ -275,7 +288,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblasdu01pll874dm00zkpg",
+    "id": "top-cmtbneo2j01pll8hgrmory8ss",
     "type": "TOPIC",
     "title": "Part XIV: Civil Services, Doctrine of Pleasure & Constitutional Safeguards",
     "slug": "civil-services-and-public-services",
@@ -289,7 +302,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtblasx101qwl874hgxeqqx1",
+    "id": "top-cmtbneofp01qwl8hgt4b9250w",
     "type": "TOPIC",
     "title": "Part V: The Union Legislature (Parliament Architecture, Procedure & Budget)",
     "slug": "the-union-legislature",
@@ -303,7 +316,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblatxr01uql874f89wx3dv",
+    "id": "top-cmtbnep2n01uql8hg75wsbwez",
     "type": "TOPIC",
     "title": "Part VI: The State Legislature (Vidhan Sabha, Vidhan Parishad & Procedure)",
     "slug": "the-state-legislature",
@@ -317,7 +330,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblauo701x7l874zbr3ozcb",
+    "id": "top-cmtbnepmt01x7l8hgmmazepoq",
     "type": "TOPIC",
     "title": "Part V: The Union Judiciary (The Supreme Court of India)",
     "slug": "the-union-judiciary",
@@ -331,7 +344,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblav7801z5l8749so1xxjg",
+    "id": "top-cmtbnepys01z5l8hg865l7aoi",
     "type": "TOPIC",
     "title": "Part VI: State Judiciary (High Courts & Subordinate Courts)",
     "slug": "the-state-judiciary",
@@ -345,7 +358,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblavt0021hl874cum0lmqo",
+    "id": "top-cmtbneqcu021hl8hgr7uinsbt",
     "type": "TOPIC",
     "title": "Part XIV-A: Judicial Innovation, PIL & Tribunals Architecture",
     "slug": "judicial-innovation-and-tribunals",
@@ -359,7 +372,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblaweg023gl874u805hzel",
+    "id": "top-cmtbneqs0023gl8hgkqkci6sc",
     "type": "TOPIC",
     "title": "Centre-State Relations, Federal Finance & Inter-State Governance",
     "slug": "centre-state-relations-and-federalism",
@@ -373,7 +386,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblax8e026ol874xzio5p0i",
+    "id": "top-cmtbnereh026ol8hgbg78383z",
     "type": "TOPIC",
     "title": "Part XVIII: Emergency Provisions & Constitutional Safeguards",
     "slug": "emergency-provisions-and-safeguards",
@@ -387,7 +400,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb21w02del874ljaibx5y",
+    "id": "top-cmtbneuqu02del8hg829h43m3",
     "type": "TOPIC",
     "title": "Emergency Provisions & Federal Security Architecture",
     "slug": "emergency-provisions-and-federal-crisis",
@@ -401,7 +414,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtblay8y029cl874wckwsut4",
+    "id": "top-cmtbnes0w029cl8hgtgwxvy6f",
     "type": "TOPIC",
     "title": "Part IX & IX-A: Rural & Urban Local Governance (73rd & 74th CAAs)",
     "slug": "local-governance-panchayats-and-municipalities",
@@ -415,7 +428,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblayx402a2l874kx1mdrhi",
+    "id": "top-cmtbnesfq02a2l8hgb0y6wpob",
     "type": "TOPIC",
     "title": "Constitutional Institutions: Election Commission of India & Comptroller and Auditor General",
     "slug": "constitutional-bodies-eci-and-cag",
@@ -429,7 +442,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb1vh02d8l874hr6bs58n",
+    "id": "top-cmtbneulq02d8l8hg9qxnyzm5",
     "type": "TOPIC",
     "title": "Election Commission of India & Electoral Governance",
     "slug": "election-commission-and-electoral-reforms",
@@ -443,7 +456,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtblazit02asl8749nva4g52",
+    "id": "top-cmtbnesum02asl8hglqmjw4s9",
     "type": "TOPIC",
     "title": "Statutory & Non-Constitutional Regulatory Authorities: Transparency, Human Rights & Integrity",
     "slug": "statutory-and-non-constitutional-bodies",
@@ -457,7 +470,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtblb1hl02cwl874wl0yien0",
+    "id": "top-cmtbneub402cwl8hg8a5ohr5o",
     "type": "TOPIC",
     "title": "Statutory, Regulatory & Quasi-Judicial Bodies",
     "slug": "statutory-regulatory-quasi-judicial-bodies",
@@ -471,7 +484,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtblb0i602bul874rfn8gyy8",
+    "id": "top-cmtbnetj302bul8hgtya24ywm",
     "type": "TOPIC",
     "title": "Rajasthan State Polity: Executive, Assembly, Demography & Apex Institutions",
     "slug": "rajasthan-state-polity-and-governance",
@@ -485,7 +498,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb0zr02ccl874g2it9mnf",
+    "id": "top-cmtbnety102ccl8hg1hh7unip",
     "type": "TOPIC",
     "title": "Comparative Constitutional Systems: UK, USA, Canada, Germany & Switzerland",
     "slug": "comparative-constitutional-systems",
@@ -499,7 +512,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblb3p602ixl874sfi901kz",
+    "id": "top-cmtbnevzo02ixl8hgt781395l",
     "type": "TOPIC",
     "title": "Foundations of Economics & National Income Accounting",
     "slug": "foundations-of-economics-and-national-income",
@@ -513,7 +526,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblb4qp02npl874fne7zxbn",
+    "id": "top-cmtbnewqz02npl8hgh7dkcmkh",
     "type": "TOPIC",
     "title": "Money, Commercial Banking & Financial Markets Architecture",
     "slug": "money-commercial-banking-and-financial-markets",
@@ -527,7 +540,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtblb5jx02rnl874ob5hu18q",
+    "id": "top-cmtbnexip02rnl8hgif6wgamv",
     "type": "TOPIC",
     "title": "Central Banking, Monetary Policy Framework & Price Theory",
     "slug": "central-banking-monetary-policy-and-price-theory",
@@ -541,7 +554,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblb6nj02wgl8743ub0kplz",
+    "id": "top-cmtbneyb302wgl8hgl13t4xmu",
     "type": "TOPIC",
     "title": "Public Finance, Union Budget Architecture & Taxation",
     "slug": "public-finance-union-budget-and-taxation",
@@ -555,7 +568,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb7ca02zml874vj4mn1w2",
+    "id": "top-cmtbneysr02zml8hgzqkf3gkj",
     "type": "TOPIC",
     "title": "Banking Regulations, Basel Norms, NPAs & Financial Inclusion",
     "slug": "banking-regulations-basel-norms-and-financial-inclusion",
@@ -569,7 +582,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb80u032sl874uy602xkd",
+    "id": "top-cmtbnezc8032sl8hg8qx4x7pw",
     "type": "TOPIC",
     "title": "External Sector, Balance of Payments & International Trade",
     "slug": "external-sector-balance-of-payments-and-trade",
@@ -583,7 +596,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb8my0361l874ahfhksjb",
+    "id": "top-cmtbnezul0361l8hgpk0y9api",
     "type": "TOPIC",
     "title": "Agriculture, Land Reforms & Food Security",
     "slug": "agriculture-land-reforms-and-food-security",
@@ -597,7 +610,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblb8zi037pl874o3sb0czh",
+    "id": "top-cmtbnf04w037pl8hgmt3p38bb",
     "type": "TOPIC",
     "title": "Industrial Policy, MSMEs, Disinvestment & Digital Infrastructure",
     "slug": "industrial-policy-msmes-and-digital-infrastructure",
@@ -611,7 +624,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblb9jl03a1l874rytietu6",
+    "id": "top-cmtbnf0lk03a1l8hgksd3de9d",
     "type": "TOPIC",
     "title": "Poverty, Inequality, Human Capital & Sustainable Development",
     "slug": "poverty-inequality-human-capital-and-sustainability",
@@ -625,7 +638,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "6 Concepts"
   },
   {
-    "id": "top-cmtblbady03djl874tp8rrimy",
+    "id": "top-cmtbnf18703djl8hgfw055z67",
     "type": "TOPIC",
     "title": "Employment, Labor Markets, Planning & NITI Aayog",
     "slug": "employment-labor-markets-and-economic-planning",
@@ -639,7 +652,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblbay803fxl874seoiig2j",
+    "id": "top-cmtbnf1ma03fxl8hgpmej5yvf",
     "type": "TOPIC",
     "title": "Rajasthan State Economy & Flagship Development Programs",
     "slug": "rajasthan-state-economy-and-development",
@@ -653,7 +666,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblbbe603htl874gq4mkg60",
+    "id": "top-cmtbnf1y703htl8hg2j3mgycj",
     "type": "TOPIC",
     "title": "Indian Financial System Architecture & Institutional Tiers",
     "slug": "iibf-indian-financial-system-architecture",
@@ -667,7 +680,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "5 Concepts"
   },
   {
-    "id": "top-cmtblbbxz03khl874x2xaay4u",
+    "id": "top-cmtbnf2f203khl8hgrnberxst",
     "type": "TOPIC",
     "title": "Financial Markets, Fixed Income & Derivatives Architecture",
     "slug": "iibf-financial-markets-and-instruments",
@@ -681,7 +694,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "8 Concepts"
   },
   {
-    "id": "top-cmtblbcvx03opl874mtmf1l8u",
+    "id": "top-cmtbnf36m03opl8hg8zw5jtbe",
     "type": "TOPIC",
     "title": "Foreign Exchange Markets & NRI Banking Framework",
     "slug": "iibf-forex-markets-and-nri-banking",
@@ -695,7 +708,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtblbd4303ptl8743q8o4hxq",
+    "id": "top-cmtbnf3dm03ptl8hgtsj2d10l",
     "type": "TOPIC",
     "title": "Sustainable Finance, Climate Risk & Banking Technology",
     "slug": "iibf-sustainable-finance-and-banking-technology",
@@ -709,7 +722,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtblbd8903qdl874pru7l7j8",
+    "id": "top-cmtbnf3hi03qdl8hgmd1a6j3m",
     "type": "TOPIC",
     "title": "Banker-Customer Relationship & Customer Service Operations",
     "slug": "iibf-banker-customer-relationship-and-customer-service",
@@ -723,7 +736,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "7 Concepts"
   },
   {
-    "id": "top-cmtblbe4603u5l874r4h88jic",
+    "id": "top-cmtbnf45503u5l8hg9nm3te8j",
     "type": "TOPIC",
     "title": "Principles of Lending, Credit Assessment & Working Capital Methods",
     "slug": "iibf-principles-of-lending-and-credit-assessment",
@@ -737,7 +750,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtblbegn03v9l8746uq130xa",
+    "id": "top-cmtbnf4c803v9l8hglbqrrjl3",
     "type": "TOPIC",
     "title": "Non-Fund Based Facilities & Trade Finance Operations",
     "slug": "iibf-non-fund-facilities-and-trade-finance",
@@ -751,7 +764,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblbf1y03wvl8748c8dzjvq",
+    "id": "top-cmtbnf4un03wvl8hgx7y6ekax",
     "type": "TOPIC",
     "title": "Digital Banking, Payment Rails & Information Security",
     "slug": "iibf-digital-banking-and-it-security",
@@ -765,7 +778,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblbg0h03yzl874bs39mgnt",
+    "id": "top-cmtbnf58l03yzl8hgkr4we3k6",
     "type": "TOPIC",
     "title": "Accounting Foundations & Financial Statements Architecture",
     "slug": "iibf-accounting-principles-and-financial-statements",
@@ -779,7 +792,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblbh1i0411l874c69ky9ho",
+    "id": "top-cmtbnf5tu0411l8hgz39pkva7",
     "type": "TOPIC",
     "title": "Financial Mathematics, Depreciation & Capital Budgeting Architecture",
     "slug": "iibf-financial-mathematics-and-capital-budgeting",
@@ -793,7 +806,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblbhrh042nl874sm6dprur",
+    "id": "top-cmtbnf6ch042nl8hgob033lw5",
     "type": "TOPIC",
     "title": "Financial Ratio Analysis & Banking Taxation Architecture",
     "slug": "iibf-financial-analysis-and-taxation",
@@ -807,7 +820,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblbiiz0447l874ntrh23qo",
+    "id": "top-cmtbnf6xy0447l8hg7uhwc9ul",
     "type": "TOPIC",
     "title": "Retail Banking Products & Wealth Management Architecture",
     "slug": "iibf-retail-banking-products-and-wealth-management",
@@ -821,7 +834,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "4 Concepts"
   },
   {
-    "id": "top-cmtblbjmy046bl874mopawox2",
+    "id": "top-cmtbnf7na046bl8hg7abhpzco",
     "type": "TOPIC",
     "title": "Banking Regulation Act 1949 & Statutory Powers of RBI",
     "slug": "iibf-banking-regulations-and-statutory-governance",
@@ -835,7 +848,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "3 Concepts"
   },
   {
-    "id": "top-cmtblbkd0047xl874g5bkawvn",
+    "id": "top-cmtbnf86r047xl8hg83rcli7n",
     "type": "TOPIC",
     "title": "Management Theories, Leadership Models & Organisational Behaviour",
     "slug": "rbi-management-and-organisational-behaviour",
@@ -849,7 +862,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtblbkwg049cl874gpbdl9aw",
+    "id": "top-cmtbnf8nn049cl8hgjco01dm8",
     "type": "TOPIC",
     "title": "International Organizations & Multilateral Headquarters",
     "slug": "international-organizations-and-headquarters",
@@ -863,7 +876,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtblblhi04awl874zb465c4t",
+    "id": "top-cmtbnf95u04awl8hguy03zhhz",
     "type": "TOPIC",
     "title": "Global Indices, Reports & Publishing Bodies",
     "slug": "global-indices-and-reports",
@@ -877,7 +890,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtblbltn04bol874dpyt3k01",
+    "id": "top-cmtbnf9eb04bol8hg5tif1gjl",
     "type": "TOPIC",
     "title": "Public Policy & Scheme Implementation Framework",
     "slug": "public-policy-and-scheme-framework",
@@ -891,7 +904,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "1 Concepts"
   },
   {
-    "id": "top-cmtblbm3b04cgl874m7qzl1ye",
+    "id": "top-cmtbnf9ng04cgl8hgs8ab6mqt",
     "type": "TOPIC",
     "title": "Financial Inclusion, Social Security & Enterprise Schemes",
     "slug": "financial-inclusion-and-enterprise-schemes",
@@ -905,7 +918,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "2 Concepts"
   },
   {
-    "id": "top-cmtblbmnz04dwl874hidi51su",
+    "id": "top-cmtbnfa5404dwl8hgfh8j7gl5",
     "type": "TOPIC",
     "title": "Rural Development, Agriculture & Employment Guarantees",
     "slug": "rural-development-and-employment-guarantees",
@@ -917,6 +930,90 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "Topic 56: Rural Development, Agriculture & Employment Guarantees"
     },
     "badge": "2 Concepts"
+  },
+  {
+    "id": "top-cmtbnfao904fkl8hg40ynjent",
+    "type": "TOPIC",
+    "title": "Foundations of Written Discourse & Syntax",
+    "slug": "discourse-and-syntax-foundations",
+    "url": "/topics/discourse-and-syntax-foundations/read",
+    "description": "Core mechanics of written communication, evaluator rubrics, command-word decoding, and relevance filtering.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Topic 57: Foundations of Written Discourse & Syntax"
+    },
+    "badge": "3 Concepts"
+  },
+  {
+    "id": "top-cmtbnfaop04fml8hgxz036373",
+    "type": "TOPIC",
+    "title": "Essay Writing & Argumentation",
+    "slug": "essay-writing-and-argumentation",
+    "url": "/topics/essay-writing-and-argumentation/read",
+    "description": "First-principles essay design, demand analysis, multidimensional frameworks, thesis formulation, and philosophical prompt deconstruction.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Topic 58: Essay Writing & Argumentation"
+    },
+    "badge": "4 Concepts"
+  },
+  {
+    "id": "top-cmtbnfap404fol8hggko938m0",
+    "type": "TOPIC",
+    "title": "Précis Writing & Non-Verbatim Synthesis",
+    "slug": "precis-writing-and-synthesis",
+    "url": "/topics/precis-writing-and-synthesis/read",
+    "description": "Information hierarchy, negative filtering, compression mechanics, title formulation, and subjective comprehension synthesis.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Topic 59: Précis Writing & Non-Verbatim Synthesis"
+    },
+    "badge": "2 Concepts"
+  },
+  {
+    "id": "top-cmtbnfaps04fql8hgj9lnuv4q",
+    "type": "TOPIC",
+    "title": "Professional Correspondence & Workplace Writing",
+    "slug": "professional-correspondence-and-workplace-writing",
+    "url": "/topics/professional-correspondence-and-workplace-writing/read",
+    "description": "Formal full-block letter design, banking grievance escalation hierarchies, official emails, administrative reports, and incident memos.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Topic 60: Professional Correspondence & Workplace Writing"
+    },
+    "badge": "3 Concepts"
+  },
+  {
+    "id": "top-cmtbnfaqf04fsl8hgc8gbwi5n",
+    "type": "TOPIC",
+    "title": "Model Exemplars & Structural Deconstructions",
+    "slug": "model-exemplars-and-deconstructions",
+    "url": "/topics/model-exemplars-and-deconstructions/read",
+    "description": "Curated repository of benchmark model essays, long-form policy papers, and workplace communications with structural analysis.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Topic 61: Model Exemplars & Structural Deconstructions"
+    },
+    "badge": "2 Concepts"
+  },
+  {
+    "id": "top-cmtbnfaqx04ful8hgt8xgyjez",
+    "type": "TOPIC",
+    "title": "Active Practice Arena & Exam Execution Strategy",
+    "slug": "active-practice-and-exam-strategy",
+    "url": "/topics/active-practice-and-exam-strategy/read",
+    "description": "Time management clocks, membrane keyboard ergonomics, real-exam TCS iON quirks, and objective self-evaluation scoring engines.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Topic 62: Active Practice Arena & Exam Execution Strategy"
+    },
+    "badge": "1 Concepts"
   },
   {
     "id": "con-CON-ECON-INF-01",
@@ -4532,6 +4629,231 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "concept": "Employment Guarantee & Agricultural Income Support: MGNREGA 2005, PM-KISAN & PMFBY"
     },
     "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-01",
+    "type": "CONCEPT",
+    "title": "Principles of Effective Written Discourse & Evaluator Rubrics",
+    "slug": "principles-of-effective-written-discourse-and-evaluator-rubrics",
+    "url": "/topics/discourse-and-syntax-foundations/read#principles-of-effective-written-discourse-and-evaluator-rubrics",
+    "description": "Foundational framework of descriptive discourse balancing relevance, structural coherence, factual grounding, and command-word directives.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Foundations of Written Discourse & Syntax",
+      "concept": "Principles of Effective Written Discourse & Evaluator Rubrics"
+    },
+    "badge": "FOUNDATIONAL"
+  },
+  {
+    "id": "con-CON-ENG-02",
+    "type": "CONCEPT",
+    "title": "Sentence Architecture, Syntactic Modulation & Academic Tone",
+    "slug": "sentence-architecture-syntactic-modulation-and-academic-tone",
+    "url": "/topics/discourse-and-syntax-foundations/read#sentence-architecture-syntactic-modulation-and-academic-tone",
+    "description": "Techniques for modulating syntactic rhythm, avoiding monotone structures, applying academic hedging, and maintaining formal register.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Foundations of Written Discourse & Syntax",
+      "concept": "Sentence Architecture, Syntactic Modulation & Academic Tone"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-03",
+    "type": "CONCEPT",
+    "title": "Paragraph Architecture: The PEEL Framework, Cohesion & Scannability",
+    "slug": "paragraph-architecture-the-peel-framework-cohesion-and-scannability",
+    "url": "/topics/discourse-and-syntax-foundations/read#paragraph-architecture-the-peel-framework-cohesion-and-scannability",
+    "description": "First-principles paragraph design using topic sentences, evidentiary substantiation, causal explanation, transitional links, and on-screen formatting.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Foundations of Written Discourse & Syntax",
+      "concept": "Paragraph Architecture: The PEEL Framework, Cohesion & Scannability"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-04",
+    "type": "CONCEPT",
+    "title": "Prompt Deconstruction, Demand Analysis & Thesis Formulation",
+    "slug": "prompt-deconstruction-demand-analysis-and-thesis-formulation",
+    "url": "/topics/essay-writing-and-argumentation/read#prompt-deconstruction-demand-analysis-and-thesis-formulation",
+    "description": "The cognitive process of interpreting essay prompts, identifying boundary limits, and formulating a definitive analytical thesis statement.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Essay Writing & Argumentation",
+      "concept": "Prompt Deconstruction, Demand Analysis & Thesis Formulation"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-05",
+    "type": "CONCEPT",
+    "title": "Multi-Dimensional Argumentation: PESTLE-S, Stakeholder Grids & C.A.S.H.",
+    "slug": "multi-dimensional-argumentation-pestle-stakeholder-and-cash-frameworks",
+    "url": "/topics/essay-writing-and-argumentation/read#multi-dimensional-argumentation-pestle-stakeholder-and-cash-frameworks",
+    "description": "Brainstorming frameworks to unpack complex socio-economic topics across political, economic, social, technological, legal, and environmental dimensions.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Essay Writing & Argumentation",
+      "concept": "Multi-Dimensional Argumentation: PESTLE-S, Stakeholder Grids & C.A.S.H."
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-06",
+    "type": "CONCEPT",
+    "title": "Introduction Hooks, Thematic Development & Circular Conclusions",
+    "slug": "introduction-hooks-thematic-development-and-circular-conclusions",
+    "url": "/topics/essay-writing-and-argumentation/read#introduction-hooks-thematic-development-and-circular-conclusions",
+    "description": "Engineering functional opening hooks, maintaining thematic continuity across body sections, and crafting synthesizing circular conclusions.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Essay Writing & Argumentation",
+      "concept": "Introduction Hooks, Thematic Development & Circular Conclusions"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-07",
+    "type": "CONCEPT",
+    "title": "Abstract, Philosophical & Contemporary Policy Debates",
+    "slug": "abstract-philosophical-and-contemporary-policy-debates",
+    "url": "/topics/essay-writing-and-argumentation/read#abstract-philosophical-and-contemporary-policy-debates",
+    "description": "Methodology for demystifying abstract, proverbial prompts and handling controversial policy debates with the balanced central-banker stance.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Essay Writing & Argumentation",
+      "concept": "Abstract, Philosophical & Contemporary Policy Debates"
+    },
+    "badge": "ADVANCED"
+  },
+  {
+    "id": "con-CON-ENG-08",
+    "type": "CONCEPT",
+    "title": "Précis Writing: The 1/3rd Rule, Negative Filtering & Title Formulation",
+    "slug": "precis-writing-compression-negative-filtering-and-titling",
+    "url": "/topics/precis-writing-and-synthesis/read#precis-writing-compression-negative-filtering-and-titling",
+    "description": "The disciplined extraction of core informational hierarchies, eliminating illustrative fluff, and synthesizing a single condensed paragraph under strict word constraints.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Précis Writing & Non-Verbatim Synthesis",
+      "concept": "Précis Writing: The 1/3rd Rule, Negative Filtering & Title Formulation"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-09",
+    "type": "CONCEPT",
+    "title": "Subjective Reading Comprehension & Non-Verbatim Paraphrasing",
+    "slug": "subjective-reading-comprehension-and-non-verbatim-paraphrasing",
+    "url": "/topics/precis-writing-and-synthesis/read#subjective-reading-comprehension-and-non-verbatim-paraphrasing",
+    "description": "Techniques for answering subjective RC prompts using question-first reverse scanning, 2-sentence synthesis, and the 3-step non-verbatim paraphrase engine.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Précis Writing & Non-Verbatim Synthesis",
+      "concept": "Subjective Reading Comprehension & Non-Verbatim Paraphrasing"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-10",
+    "type": "CONCEPT",
+    "title": "Formal & Informal Letter Writing: Modern Full-Block & Grievance Escalation",
+    "slug": "formal-and-informal-letter-writing-modern-full-block-and-grievance-escalation",
+    "url": "/topics/professional-correspondence-and-workplace-writing/read#formal-and-informal-letter-writing-modern-full-block-and-grievance-escalation",
+    "description": "Standard modern full-block layout, 3-tier banking grievance escalation hierarchy, and formal versus informal register calibration.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Professional Correspondence & Workplace Writing",
+      "concept": "Formal & Informal Letter Writing: Modern Full-Block & Grievance Escalation"
+    },
+    "badge": "FOUNDATIONAL"
+  },
+  {
+    "id": "con-CON-ENG-11",
+    "type": "CONCEPT",
+    "title": "Official Workplace Emails & Customer Communication Architecture",
+    "slug": "official-workplace-emails-and-customer-communication-architecture",
+    "url": "/topics/professional-correspondence-and-workplace-writing/read#official-workplace-emails-and-customer-communication-architecture",
+    "description": "Structural and tonal divergence between official emails and physical letters, covering internal operational escalations and customer conciliation.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Professional Correspondence & Workplace Writing",
+      "concept": "Official Workplace Emails & Customer Communication Architecture"
+    },
+    "badge": "INTERMEDIATE"
+  },
+  {
+    "id": "con-CON-ENG-12",
+    "type": "CONCEPT",
+    "title": "Institutional Reports, Credit Audits & Situation Analysis Memos",
+    "slug": "institutional-reports-credit-audits-and-situation-analysis-memos",
+    "url": "/topics/professional-correspondence-and-workplace-writing/read#institutional-reports-credit-audits-and-situation-analysis-memos",
+    "description": "Formal reporting architecture for regulatory bodies (NABARD, RBI) and the 5-pillar situational triage framework for operational crises.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Professional Correspondence & Workplace Writing",
+      "concept": "Institutional Reports, Credit Audits & Situation Analysis Memos"
+    },
+    "badge": "ADVANCED"
+  },
+  {
+    "id": "con-CON-ENG-13",
+    "type": "CONCEPT",
+    "title": "Benchmark Model Essays: Thematic Breakdown & Policy Integration",
+    "slug": "benchmark-model-essays-thematic-breakdown-and-policy-integration",
+    "url": "/topics/model-exemplars-and-deconstructions/read#benchmark-model-essays-thematic-breakdown-and-policy-integration",
+    "description": "Curated repository of benchmark 250-word and 600-word model essays across macroeconomics, technology, demographics, and governance with structural deconstructions.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Model Exemplars & Structural Deconstructions",
+      "concept": "Benchmark Model Essays: Thematic Breakdown & Policy Integration"
+    },
+    "badge": "ADVANCED"
+  },
+  {
+    "id": "con-CON-ENG-14",
+    "type": "CONCEPT",
+    "title": "Model Workplace Communications: Letters, Memos, Reports & Précis Vault",
+    "slug": "model-workplace-communications-letters-memos-reports-and-precis-vault",
+    "url": "/topics/model-exemplars-and-deconstructions/read#model-workplace-communications-letters-memos-reports-and-precis-vault",
+    "description": "Curated repository of benchmark formal letters, branch incident analysis memos, institutional reports, and live précis transformations with annotations.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Model Exemplars & Structural Deconstructions",
+      "concept": "Model Workplace Communications: Letters, Memos, Reports & Précis Vault"
+    },
+    "badge": "ADVANCED"
+  },
+  {
+    "id": "con-CON-ENG-15",
+    "type": "CONCEPT",
+    "title": "Timed Exam Execution Strategy, Keyboard Ergonomics & Scoring Engine",
+    "slug": "timed-exam-execution-strategy-keyboard-ergonomics-and-scoring-engine",
+    "url": "/topics/active-practice-and-exam-strategy/read#timed-exam-execution-strategy-keyboard-ergonomics-and-scoring-engine",
+    "description": "Real-time clock management across 30-min and 90-min descriptive tests, TCS iON software keyboard quirks, and objective self-evaluation scoring rubrics.",
+    "hierarchy": {
+      "domain": "English Language & Professional Communication",
+      "subject": "English Language & Descriptive Writing",
+      "topic": "Active Practice Arena & Exam Execution Strategy",
+      "concept": "Timed Exam Execution Strategy, Keyboard Ergonomics & Scoring Engine"
+    },
+    "badge": "ADVANCED"
   }
 ];
 
@@ -6704,5 +7026,140 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
     "difficulty": "INTERMEDIATE",
     "topicTitle": "Rural Development, Agriculture & Employment Guarantees",
     "subjectName": "Government Schemes & Welfare Architecture"
+  },
+  {
+    "id": "CON-ENG-01",
+    "slug": "principles-of-effective-written-discourse-and-evaluator-rubrics",
+    "title": "Principles of Effective Written Discourse & Evaluator Rubrics",
+    "shortDefinition": "Foundational framework of descriptive discourse balancing relevance, structural coherence, factual grounding, and command-word directives.",
+    "difficulty": "FOUNDATIONAL",
+    "topicTitle": "Foundations of Written Discourse & Syntax",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-02",
+    "slug": "sentence-architecture-syntactic-modulation-and-academic-tone",
+    "title": "Sentence Architecture, Syntactic Modulation & Academic Tone",
+    "shortDefinition": "Techniques for modulating syntactic rhythm, avoiding monotone structures, applying academic hedging, and maintaining formal register.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Foundations of Written Discourse & Syntax",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-03",
+    "slug": "paragraph-architecture-the-peel-framework-cohesion-and-scannability",
+    "title": "Paragraph Architecture: The PEEL Framework, Cohesion & Scannability",
+    "shortDefinition": "First-principles paragraph design using topic sentences, evidentiary substantiation, causal explanation, transitional links, and on-screen formatting.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Foundations of Written Discourse & Syntax",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-04",
+    "slug": "prompt-deconstruction-demand-analysis-and-thesis-formulation",
+    "title": "Prompt Deconstruction, Demand Analysis & Thesis Formulation",
+    "shortDefinition": "The cognitive process of interpreting essay prompts, identifying boundary limits, and formulating a definitive analytical thesis statement.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Essay Writing & Argumentation",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-05",
+    "slug": "multi-dimensional-argumentation-pestle-stakeholder-and-cash-frameworks",
+    "title": "Multi-Dimensional Argumentation: PESTLE-S, Stakeholder Grids & C.A.S.H.",
+    "shortDefinition": "Brainstorming frameworks to unpack complex socio-economic topics across political, economic, social, technological, legal, and environmental dimensions.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Essay Writing & Argumentation",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-06",
+    "slug": "introduction-hooks-thematic-development-and-circular-conclusions",
+    "title": "Introduction Hooks, Thematic Development & Circular Conclusions",
+    "shortDefinition": "Engineering functional opening hooks, maintaining thematic continuity across body sections, and crafting synthesizing circular conclusions.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Essay Writing & Argumentation",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-07",
+    "slug": "abstract-philosophical-and-contemporary-policy-debates",
+    "title": "Abstract, Philosophical & Contemporary Policy Debates",
+    "shortDefinition": "Methodology for demystifying abstract, proverbial prompts and handling controversial policy debates with the balanced central-banker stance.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Essay Writing & Argumentation",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-08",
+    "slug": "precis-writing-compression-negative-filtering-and-titling",
+    "title": "Précis Writing: The 1/3rd Rule, Negative Filtering & Title Formulation",
+    "shortDefinition": "The disciplined extraction of core informational hierarchies, eliminating illustrative fluff, and synthesizing a single condensed paragraph under strict word constraints.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Précis Writing & Non-Verbatim Synthesis",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-09",
+    "slug": "subjective-reading-comprehension-and-non-verbatim-paraphrasing",
+    "title": "Subjective Reading Comprehension & Non-Verbatim Paraphrasing",
+    "shortDefinition": "Techniques for answering subjective RC prompts using question-first reverse scanning, 2-sentence synthesis, and the 3-step non-verbatim paraphrase engine.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Précis Writing & Non-Verbatim Synthesis",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-10",
+    "slug": "formal-and-informal-letter-writing-modern-full-block-and-grievance-escalation",
+    "title": "Formal & Informal Letter Writing: Modern Full-Block & Grievance Escalation",
+    "shortDefinition": "Standard modern full-block layout, 3-tier banking grievance escalation hierarchy, and formal versus informal register calibration.",
+    "difficulty": "FOUNDATIONAL",
+    "topicTitle": "Professional Correspondence & Workplace Writing",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-11",
+    "slug": "official-workplace-emails-and-customer-communication-architecture",
+    "title": "Official Workplace Emails & Customer Communication Architecture",
+    "shortDefinition": "Structural and tonal divergence between official emails and physical letters, covering internal operational escalations and customer conciliation.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Professional Correspondence & Workplace Writing",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-12",
+    "slug": "institutional-reports-credit-audits-and-situation-analysis-memos",
+    "title": "Institutional Reports, Credit Audits & Situation Analysis Memos",
+    "shortDefinition": "Formal reporting architecture for regulatory bodies (NABARD, RBI) and the 5-pillar situational triage framework for operational crises.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Professional Correspondence & Workplace Writing",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-13",
+    "slug": "benchmark-model-essays-thematic-breakdown-and-policy-integration",
+    "title": "Benchmark Model Essays: Thematic Breakdown & Policy Integration",
+    "shortDefinition": "Curated repository of benchmark 250-word and 600-word model essays across macroeconomics, technology, demographics, and governance with structural deconstructions.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Model Exemplars & Structural Deconstructions",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-14",
+    "slug": "model-workplace-communications-letters-memos-reports-and-precis-vault",
+    "title": "Model Workplace Communications: Letters, Memos, Reports & Précis Vault",
+    "shortDefinition": "Curated repository of benchmark formal letters, branch incident analysis memos, institutional reports, and live précis transformations with annotations.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Model Exemplars & Structural Deconstructions",
+    "subjectName": "English Language & Descriptive Writing"
+  },
+  {
+    "id": "CON-ENG-15",
+    "slug": "timed-exam-execution-strategy-keyboard-ergonomics-and-scoring-engine",
+    "title": "Timed Exam Execution Strategy, Keyboard Ergonomics & Scoring Engine",
+    "shortDefinition": "Real-time clock management across 30-min and 90-min descriptive tests, TCS iON software keyboard quirks, and objective self-evaluation scoring rubrics.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Active Practice Arena & Exam Execution Strategy",
+    "subjectName": "English Language & Descriptive Writing"
   }
 ];
