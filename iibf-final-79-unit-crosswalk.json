@@ -1,0 +1,59 @@
+{
+  "auditMetadata": {
+    "corpusName": "02_IIBF_Banking_Regulations_Master.md",
+    "phase": "PHASE_IIBF_BANKING_REGULATIONS",
+    "auditTimestamp": "2026-08-27T09:07:00Z",
+    "totalSourceUnits": 79,
+    "fullyMigratedUnits": 79,
+    "substantiallyMigratedUnits": 0,
+    "partiallyMigratedUnits": 0,
+    "omittedUnits": 0,
+    "overallMigrationRate": "100.0%",
+    "canonicalTopicsCreated": 14,
+    "canonicalConceptsCreated": 51
+  },
+  "modules": [
+    {
+      "moduleName": "Paper 1: Indian Economy & Indian Financial System (IE&IFS)",
+      "sourceUnitsRange": "Units 18, 22-55, Module 3, 6",
+      "canonicalTopics": ["Topic 38", "Topic 39", "Topic 40", "Topic 41"],
+      "canonicalConceptsCount": 16,
+      "status": "FULLY_MIGRATED"
+    },
+    {
+      "moduleName": "Paper 2: Principles & Practices of Banking (PPB)",
+      "sourceUnitsRange": "Units 19, 56-73, Module 1, 2, 4",
+      "canonicalTopics": ["Topic 42", "Topic 43", "Topic 44", "Topic 45"],
+      "canonicalConceptsCount": 16,
+      "status": "FULLY_MIGRATED"
+    },
+    {
+      "moduleName": "Paper 3: Accounting & Financial Management for Bankers (AFMB)",
+      "sourceUnitsRange": "Units 8-17, 20",
+      "canonicalTopics": ["Topic 46", "Topic 47", "Topic 48"],
+      "canonicalConceptsCount": 10,
+      "status": "FULLY_MIGRATED"
+    },
+    {
+      "moduleName": "Paper 4: Retail Banking & Wealth Management (RBWM)",
+      "sourceUnitsRange": "Units 21, 74-77",
+      "canonicalTopics": ["Topic 49"],
+      "canonicalConceptsCount": 4,
+      "status": "FULLY_MIGRATED"
+    },
+    {
+      "moduleName": "Banking Regulations & Statutory Governance",
+      "sourceUnitsRange": "Modules 1, 2, Cheat Sheet 7",
+      "canonicalTopics": ["Topic 50"],
+      "canonicalConceptsCount": 3,
+      "status": "FULLY_MIGRATED"
+    },
+    {
+      "moduleName": "RBI Grade B (FM) Management & Communication Vault",
+      "sourceUnitsRange": "Volumes 1 & 2 (Notes 78-79)",
+      "canonicalTopics": ["Topic 51"],
+      "canonicalConceptsCount": 2,
+      "status": "FULLY_MIGRATED"
+    }
+  ]
+}

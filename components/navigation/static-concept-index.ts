@@ -1646,5 +1646,464 @@ export const STATIC_CONCEPT_INDEX: StaticConceptItem[] = [
     "difficulty": "INTERMEDIATE",
     "topicTitle": "Rajasthan State Economy & Flagship Development Programs",
     "subjectName": "Indian Economy & Macroeconomic Policy"
+  },
+  {
+    "id": "CON-IIBF-01",
+    "slug": "indian-financial-system-evolution-institutional-structure-and-phase-transitions",
+    "title": "Indian Financial System: Structural Evolution, Institutional Pillars & Phase Transitions",
+    "shortDefinition": "The historical and institutional architecture of the Indian Financial System: evolution across four distinct phases (Pre-Independence colonial banking, Post-Independence State Domination and 14/6 Bank Nationalizations in 1969 & 1980, Narasimham Committee I & II post-1991 structural reforms), the formal financial system quad (Financial Institutions, Financial Markets, Financial Instruments, Financial Services), and dual intermediation through Banks vs Non-Bank Financial Intermediaries.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Indian Financial System Architecture & Institutional Tiers",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-02",
+    "slug": "regional-rural-banks-structure-amalgamation-and-ownership-governance",
+    "title": "Regional Rural Banks (RRBs): Capital Structure, Sponsor Bank Roles & Phased Amalgamations",
+    "shortDefinition": "The statutory framework governing Regional Rural Banks under the Regional Rural Banks Act 1976 (M. Narasimham Working Group, 1975): statutory tripartite equity shareholding (Central Government 50%, Sponsor Public Sector Bank 35%, State Government 15%), target beneficiary focus (Small/Marginal Farmers, Agricultural Laborers, Rural Artisans), mandatory 75% Priority Sector Lending allocation, supervision by NABARD under Section 35A of Banking Regulation Act 1949, and consolidation from 196 original RRBs to 43 RRBs across three amalgamation waves.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Indian Financial System Architecture & Institutional Tiers",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-03",
+    "slug": "cooperative-banking-framework-br-act-amendment-2020-and-4-tier-ucb-categorization",
+    "title": "Cooperative Banking Framework: Dual Regulation, BR Act Amendment 2020 & 4-Tier UCB System",
+    "shortDefinition": "The statutory structure of cooperative banking in India: the historic problem of Dual Regulation (Registrar of Cooperative Societies [RCS] under State laws vs RBI under BR Act 1949), the landmark Banking Regulation (Amendment) Act 2020 bringing all Urban Cooperative Banks (UCBs) and Multi-State Cooperative Banks under direct regulatory and supervisory control of RBI (powers over management supersession, board reconstitution, audit, and resolution), the N.S. Vishwanathan Committee 4-Tier UCB regulatory hierarchy (Tier 1 [deposits ≤₹100 Cr], Tier 2 [₹100-1000 Cr], Tier 3 [₹1000-10000 Cr], Tier 4 [>₹10000 Cr]), and phased PSL transition to 75%.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Indian Financial System Architecture & Institutional Tiers",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-04",
+    "slug": "non-banking-financial-companies-scale-based-regulation-and-regulatory-layers",
+    "title": "Non-Banking Financial Companies (NBFCs): Scale-Based Regulation (SBR) & Four-Tier Architecture",
+    "shortDefinition": "The statutory framework governing Non-Banking Financial Companies under Chapter III-B of the Reserve Bank of India Act 1934: the 50-50 Principle Principal Business Test (financial assets >50% of total assets and income from financial assets >50% of gross income), Deposit-taking (NBFC-D) vs Non-Deposit-taking (NBFC-ND), the landmark Scale-Based Regulation (SBR, effective October 2022) grouping NBFCs into four layers (Base Layer [asset size <₹1,000 Cr], Middle Layer [asset size ≥₹1,000 Cr, all deposit-taking, and HFCs], Upper Layer [top 15 systemically important NBFCs subject to bank-like prudential norms], and Top Layer [currently empty]), and NPA recognition harmonization to the 90-day overdue rule.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Indian Financial System Architecture & Institutional Tiers",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-05",
+    "slug": "development-financial-institutions-nabard-sidbi-exim-nhb-and-nabfid-statutory-mandates",
+    "title": "Development Financial Institutions (DFIs): NABARD, SIDBI, EXIM Bank, NHB & NaBFID",
+    "shortDefinition": "The specialized statutory long-term refinancing and developmental lending architecture: the evolution of All-India Financial Institutions (AIFIs) regulated under Section 45L of the RBI Act 1934: NABARD (NABARD Act 1981, B. Sivaraman Committee, July 12, 1982: RIDF, refinance to RRBs/cooperatives), SIDBI (SIDBI Act 1989, operational 1990: MSME refinance, MUDRA), EXIM Bank (EXIM Bank Act 1981: cross-border export credit & Lines of Credit), NHB (NHB Act 1987: housing refinance), and the newly established NaBFID (National Bank for Financing Infrastructure and Development Act 2021: ₹1 Lakh Crore developmental infrastructure debt).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Indian Financial System Architecture & Institutional Tiers",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-06",
+    "slug": "financial-markets-duality-money-market-vs-capital-market-mechanisms",
+    "title": "Financial Markets Duality: Money Market vs Capital Market Mechanics & Intermediation",
+    "shortDefinition": "The macroeconomic structure of financial markets: Money Market (wholesale wholesale market for short-term funds up to 1 year, managing liquidity and working capital under RBI regulation) vs Capital Market (market for long-term equity and debt capital exceeding 1 year under SEBI regulation), Primary Market (raising fresh capital via Public Issue, Private Placement, Rights Issue) vs Secondary Market (trading existing securities providing continuous liquidity on BSE/NSE), and the regulatory boundary between RBI and SEBI.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-07",
+    "slug": "money-market-instruments-call-notice-term-money-t-bills-cp-cd-and-treps",
+    "title": "Money Market Instruments: Call, Notice & Term Money, Treasury Bills, CP, CD and TREPS",
+    "shortDefinition": "The detailed regulatory and statutory specifications of core Indian money market instruments: Call Money (1-day overnight) vs Notice Money (2-14 days) vs Term Money (15-365 days) on NDS-CALL, Treasury Bills (91-day, 182-day, 364-day zero-coupon sovereign discount papers issued at discount and redeemed at par), Commercial Paper (CP: unsecured corporate promissory notes, min ₹5 Lakh, maturity 7 days to 1 year, min A2 rating), Certificates of Deposit (CD: tradable bank term deposits, min ₹1 Lakh, maturity 7 days to 1 year for banks / up to 3 years for AIFIs), and Triparty Repo (TREPS on CCIL).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-08",
+    "slug": "capital-markets-primary-issue-mechanisms-ipo-fpo-ofs-and-depository-systems-nsdl-cdsl",
+    "title": "Capital Markets: Primary Issue Modes (IPO, FPO, OFS) & Depository Architecture (NSDL, CDSL)",
+    "shortDefinition": "The structural framework of India's capital markets: public issue mechanisms (Book Building process, Floor Price, Price Band [max 20% spread], Cut-Off Price, ASBA via UPI), Offer for Sale (OFS), Qualified Institutional Placement (QIP), and the paperless two-tier depository architecture under the Depositories Act 1996 (National Securities Depository Limited [NSDL, sponsored by NSE/IDBI, 1996] and Central Depository Services Limited [CDSL, sponsored by BSE/banks, 1999]), Dematerialization (Demata: DRF/RRF), ISIN 12-digit code structure, and SEBI listing regulations.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-09",
+    "slug": "fixed-income-mathematics-bond-pricing-yield-to-maturity-macaulay-duration-and-convexity",
+    "title": "Fixed Income Mathematics: Bond Pricing, Yield to Maturity (YTM), Macaulay Duration & Convexity",
+    "shortDefinition": "The mathematical and financial valuation of fixed-income debt securities: Bond Pricing formula as the present value of future coupon cash flows plus par redemption ($\\text{Price} = \\sum \\frac{C}{(1+y)^t} + \\frac{M}{(1+y)^n}$), the inverse relationship between Bond Price and Yield, Clean Price vs Dirty Price (Dirty = Clean + Accrued Interest), Yield to Maturity (YTM: internal rate of return assuming reinvestment at YTM), Macaulay Duration (weighted average time to cash flow recovery), Modified Duration ($\\text{MD} = \\frac{D_{\\text{Mac}}}{1 + y}$ measuring price sensitivity to $\\Delta \\text{yield}$), and Convexity as second-order curvature protection.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-10",
+    "slug": "financial-derivatives-forwards-futures-options-payoffs-and-interest-rate-swaps",
+    "title": "Financial Derivatives: Forwards vs Futures, Call & Put Option Payoffs, and Swaps (IRS)",
+    "shortDefinition": "The financial engineering and risk management mechanics of derivative instruments: Forwards (bilateral OTC, customizable, credit risk) vs Futures (exchange-traded on NSE/BSE, standardized, daily MTM margins via Clearing Corporation, zero credit risk), Options contracts (Call Option: right to buy vs Put Option: right to sell, Strike Price $K$, In-the-Money [ITM], At-the-Money [ATM], Out-of-the-Money [OTM], Intrinsic Value + Time Value), Option Payoff profiles, and Interest Rate Swaps (IRS: Plain Vanilla Fixed-for-Floating swaps benchmarked to MIBOR / SOFR).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-11",
+    "slug": "collective-investment-vehicles-mutual-funds-nav-aif-categories-and-reits-invits",
+    "title": "Collective Investment Vehicles: Mutual Funds, Net Asset Value (NAV), AIFs & REITs/InvITs",
+    "shortDefinition": "The regulatory and operational framework of collective pooling vehicles under SEBI regulations: Mutual Funds (3-tier trust structure: Sponsor, Board of Trustees, Asset Management Company [AMC], Custodian), Net Asset Value formula ($\\text{NAV} = \\frac{\\text{Total Assets} - \\text{Total Liabilities}}{\\text{Total Units Outstanding}}$), Open-Ended vs Close-Ended vs Exchange Traded Funds (ETFs), Alternate Investment Funds (AIF Regulations 2012: Category I [Venture Capital, SME, Social Impact], Category II [PE, Real Estate, Debt], Category III [Hedge Funds, complex trading]), and Real Estate / Infrastructure Investment Trusts (REITs & InvITs).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-12",
+    "slug": "insurance-and-pension-systems-principles-of-insurance-bima-trinity-and-national-pension-system",
+    "title": "Insurance & Pension Systems: 6 Fundamental Principles, IRDAI Bima Trinity & NPS",
+    "shortDefinition": "The legal and regulatory framework of insurance and retirement pensions in India: the 6 classical principles of insurance law (Utmost Good Faith [Uberrimae Fidei & Section 45 of Insurance Act 1938], Insurable Interest, Indemnity, Subrogation, Contribution, and Proximate Cause [Causa Proxima]), IRDAI's \"Insurance for All by 2047\" Bima Trinity reforms (Bima Sugam digital marketplace, Bima Vistaar composite product, Bima Vahak women-led distribution), and the National Pension System (NPS: Tier 1 locked-in retirement account vs Tier 2 voluntary savings account, PFRDA regulation, CRA, and Annuity Service Providers).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-13",
+    "slug": "factoring-forfaiting-and-treds-trade-receivables-financing-mechanisms",
+    "title": "Factoring, Forfaiting & TReDS Architecture: Trade Receivables Financing Mechanisms",
+    "shortDefinition": "The institutional financing of business trade receivables: Factoring under the Factoring Regulation Act 2011 (amended 2021: non-recourse vs recourse factoring, assignment of receivables, factoring vs bill discounting) vs Forfaiting (medium-to-long term 100% non-recourse export receivables financing guaranteed by an Aval / Bank Guarantee), and the RBI-regulated Trade Receivables Discounting System (TReDS: electronic platform connecting MSME sellers, corporate/government buyers, and multiple financiers for transparent competitive reverse auction discounting).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Markets, Fixed Income & Derivatives Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-14",
+    "slug": "forex-market-mechanics-direct-vs-indirect-quotes-cross-rates-and-fedaic-rules",
+    "title": "Forex Market Mechanics: Direct vs Indirect Quotes, Cross Rates, FEDAI Rules & Nostro/Vostro Accounts",
+    "shortDefinition": "The technical operations of the foreign exchange market: Direct Quotation (units of domestic currency per 1 foreign currency unit: 1 USD = ₹83.50) vs Indirect Quotation, Bid-Ask Spread and the Rule \"Buy Low, Sell High\" from the banker's perspective, Cross Rate calculations, Settlement dates (Cash/Value Today, TOM / Value Tomorrow, Spot / Value Day After Tomorrow [T+2], Forward contracts), FEDAI (Foreign Exchange Dealers' Association of India) statutory rules, and Correspondent Banking accounts (Nostro: \"Our account with you\", Vostro: \"Your account with us\", Loro: \"Their account with them\").",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Foreign Exchange Markets & NRI Banking Framework",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-15",
+    "slug": "nri-deposit-accounts-framework-nre-nro-and-fcnr-b-comparative-matrix",
+    "title": "NRI Deposit Accounts Framework: NRE vs NRO vs FCNR(B) Comparative Architecture",
+    "shortDefinition": "The statutory regime governing Non-Resident Indian (NRI) and Person of Indian Origin (PIO/OCI) bank accounts under Foreign Exchange Management (Deposit) Regulations: Non-Resident External (NRE: Rupee-denominated, fully repatriable, exempt from Indian income tax, foreign currency conversion risk borne by depositor), Non-Resident Ordinary (NRO: Rupee-denominated for legitimate domestic Indian incomes like rent/dividends, subject to Indian TDS/income tax, restricted repatriation up to USD 1 Million per financial year), and Foreign Currency Non-Resident (Bank) (FCNR[B]: foreign currency denominated term deposits for 1 to 5 years, zero currency risk to depositor, tax-free).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Foreign Exchange Markets & NRI Banking Framework",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-16",
+    "slug": "sustainable-finance-climate-risk-framework-green-deposits-and-brsr-reporting",
+    "title": "Sustainable Finance: Climate Risk Framework, Green Deposits & BRSR Reporting",
+    "shortDefinition": "The emerging regulatory framework for sustainable green banking in India: RBI's Framework for Acceptance of Green Deposits (April 2023: dedicated allocation of deposit proceeds to green activities like renewable energy, clean transport, and energy efficiency with third-party verification), Climate Risk taxonomy (Physical Risk [extreme weather/sea level rise] vs Transition Risk [carbon taxes, technological obsolescence]), Task Force on Climate-related Financial Disclosures (TCFD) pillars (Governance, Strategy, Risk Management, Metrics/Targets), and SEBI's Business Responsibility and Sustainability Report (BRSR Core) mandatory disclosures.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Sustainable Finance, Climate Risk & Banking Technology",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-17",
+    "slug": "banker-customer-relationship-statutory-nature-rights-and-legal-duties",
+    "title": "Banker-Customer Relationship: Statutory Nature, Clayton's Rule, General Lien & Right of Set-Off",
+    "shortDefinition": "The multifaceted legal relationship between a banker and customer under the Indian Contract Act 1872, Negotiable Instruments Act 1881, and Banking Regulation Act 1949: General Relationship as Debtor-Creditor for bank deposits (Banker is Debtor; Customer is Creditor) vs Creditor-Debtor for loans, Special Relationships (Bailor-Bailee in Safe Deposit Lockers/Safe Custody, Trustee-Beneficiary in collection/escrow, Agent-Principal in standing instructions), Clayton's Case Rule of appropriation (Section 59-61 Indian Contract Act), Banker's General Lien (Section 171: statutory right to retain goods/securities in the ordinary course of banking without special agreement), and Right of Set-Off (combining debit and credit balances in same right and capacity after reasonable notice).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-18",
+    "slug": "anti-money-laundering-pmla-2002-and-rbi-kyc-master-directions",
+    "title": "Anti-Money Laundering (AML) & KYC Master Directions: PMLA 2002, CDD & Reporting Regimes",
+    "shortDefinition": "The statutory compliance architecture to combat money laundering and terrorist financing under the Prevention of Money Laundering Act 2002 (PMLA) and RBI Master Direction on KYC: the 3 stages of money laundering (Placement, Layering, Integration), Customer Due Diligence (CDD: identifying customer, verifying identity using Officially Valid Documents [OVDs], and determining Beneficial Ownership [BO: 10% threshold for companies/trusts, 15% for partnerships]), Risk Categorization (Low, Medium, High Risk with periodic KYC update every 10, 8, and 2 years respectively), Central KYC Registry (CKYCR 14-digit number), and mandatory statutory reporting to FIU-IND (Cash Transaction Report [CTR: transactions >₹10 Lakh] and Suspicious Transaction Report [STR within 7 days]).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-19",
+    "slug": "operations-in-accounts-of-special-customers-minors-illiterates-blind-and-insolvents",
+    "title": "Special Customer Accounts: Minors, Illiterates, Visually Impaired, Lunatics & Insolvents",
+    "shortDefinition": "The legal and operational rules governing bank accounts of special categories of individuals under the Indian Majority Act 1875, Guardians and Wards Act 1890, and RBI guidelines: Minor accounts (natural guardians under Hindu Minority and Guardianship Act 1956 [Father, then Mother], self-operated minor accounts above age 10 for savings accounts without overdrafts, contract with minor is void ab initio under Section 11 Indian Contract Act [Mohori Bibee case]), Illiterate persons (Left Thumb Impression [LTI] witnessed by independent party, joint accounts restricted, no cheque book without special safeguards), Visually Impaired customers (equal banking rights, talking ATMs, biometric authentication), and Lunatics/Insolvents (automatic suspension of mandate upon adjudication).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-20",
+    "slug": "operations-in-accounts-of-entities-proprietorships-partnerships-companies-and-trusts",
+    "title": "Entity Accounts Operations: Proprietorships, Partnerships, Companies, Trusts & Clubs",
+    "shortDefinition": "The legal and operational mandate architecture for institutional and corporate bank accounts: Sole Proprietorships (no separate legal entity; operated under proprietary mandate), Partnership Accounts under Indian Partnership Act 1932 (implied authority of partners under Section 19, joint and several liability, stop payment upon death/insolvency/retirement of a partner, Rule in Clayton's Case), Limited Liability Partnerships (LLP Act 2008: body corporate with separate legal entity), Joint Stock Companies under Companies Act 2013 (Memorandum of Association [MOA: object clause/Ultra Vires doctrine], Articles of Association [AOA: internal management/Doctrine of Indoor Management in Royal British Bank v Turquand], Board Resolution, Certificate of Incorporation), and Public/Private Trusts under Indian Trusts Act 1882 (Trust Deed, no delegation of trustee powers unless authorized).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-21",
+    "slug": "legal-orders-affecting-bank-accounts-garnishee-order-vs-income-tax-attachment-order",
+    "title": "Legal Orders on Bank Accounts: Garnishee Orders (Order XXI CPC) vs IT Attachment Orders (Sec 226)",
+    "shortDefinition": "The statutory procedure and legal mechanics of judicial and statutory orders attaching customer bank accounts: Garnishee Order under Order XXI Rule 46 of the Code of Civil Procedure 1908 (Judgment Creditor, Judgment Debtor, and Garnishee Bank: Order Nisi [provisional freeze] vs Order Absolute [direction to pay court]), scope of attachment (attaches debts \"due or accruing due\" at the exact moment of service; DOES NOT attach future credits or uncleared cheques), and Income Tax Attachment Order under Section 226(3) of the Income Tax Act 1961 (drastically wider scope: attaches existing funds AND all subsequent/future credits received into the account until the tax demand is fully satisfied).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-22",
+    "slug": "safe-deposit-lockers-safe-custody-and-statutory-nomination-framework",
+    "title": "Safe Deposit Lockers & Nomination: Revised RBI Directions 2021/2023 & Claim Settlement",
+    "shortDefinition": "The regulatory and legal regime governing Safe Deposit Lockers, Safe Custody, and Statutory Nomination under Sections 45ZA to 45ZF of the Banking Regulation Act 1949: Revised RBI Locker Directions (Supreme Court Amitabha Dasgupta v UBI ruling: model stamped locker agreement, term deposit as locker rent security [max 3 years' rent + break-open charges], bank liability capped at 100 times annual locker rent for fire/theft/building collapse caused by bank negligence), Breaking open lockers (procedure for overdue rent / inactive lockers after 3 years), and Statutory Nomination rules (nominee receives valid discharge for bank; nominee acts as trustee for legal heirs; settlement timeline strictly within 15 days of claim receipt).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-23",
+    "slug": "cash-operations-management-clean-note-policy-and-ficn-counterfeit-detection",
+    "title": "Cash Operations & Currency Management: Clean Note Policy & Counterfeit (FICN) Detection Rules",
+    "shortDefinition": "The statutory guidelines governing cash operations and sovereign currency under the RBI Act 1934 and Reserve Bank of India (Note Refund) Rules 2009 (amended 2018): Clean Note Policy (ban on writing/scribbling on notes, stapling notes, and sorting into ATM-fit/soiled), Note classification (Soiled Notes [dirty/limp], Mutilated Notes [portion missing or composed of more than two pieces], Imperfect Notes [obliterated/indecipherable]), and Forged / Counterfeit Currency (Fake Indian Currency Notes - FICN) impounding protocol (mandatory impounding with \"COUNTERFEIT NOTE IMPOUNDED\" stamp; no return to customer; issuing receipt; filing FIR with police if 5 or more fake notes detected in a single transaction).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Banker-Customer Relationship & Customer Service Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-24",
+    "slug": "principles-of-bank-lending-and-working-capital-assessment-turnover-mpbf-and-cash-budget",
+    "title": "Principles of Lending & Working Capital Assessment: Nayak Turnover, Tandon MPBF & Cash Budget",
+    "shortDefinition": "The foundational credit underwriting architecture of commercial banks: The 5 Principles of Sound Lending (Safety, Liquidity, Profitability, Purpose, Spread of Risk), the 5 Cs of Credit (Character, Capacity, Capital, Collateral, Conditions), and the 3 classic Working Capital assessment methodologies: Turnover Method (P.R. Nayak Committee: working capital requirements assessed at 25% of projected annual turnover, with bank financing min 20% and borrower margin min 5% for limits up to ₹5 Crore), Maximum Permissible Bank Finance (MPBF - Prakash Tandon & K.B. Chore Committees: Method I [Bank funds 75% of Working Capital Gap] and Method II [Bank funds 75% of Current Assets less Current Liabilities, mandating min 1.33 Current Ratio]), and the Cash Budget System (for seasonal industries like sugar, construction, tea).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Principles of Lending, Credit Assessment & Working Capital Methods",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-25",
+    "slug": "modes-of-creating-charges-on-securities-pledge-hypothecation-mortgage-lien-and-assignment",
+    "title": "Modes of Creating Charges on Securities: Pledge vs Hypothecation vs Mortgage vs Assignment vs Lien",
+    "shortDefinition": "The statutory mechanisms for creating legal security charges over borrower assets to secure bank advances: Pledge (Section 172 Indian Contract Act: bailment of movable goods with actual or constructive delivery of possession to bank; e.g. Gold loans, warehouse receipts), Hypothecation (Section 2(1)(n) SARFAESI Act 2002: charge on movable property without delivery of possession; borrower retains possession; e.g. stock, plant, vehicle), Mortgage (Section 58 Transfer of Property Act 1882: transfer of interest in specific immovable property; 6 types including Simple Mortgage and Equitable / Title Deed Mortgage), Assignment (Section 130 Transfer of Property Act: transfer of actionable claims like LIC policies, supply bills, book debts), and Banker's Lien.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Principles of Lending, Credit Assessment & Working Capital Methods",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-26",
+    "slug": "letters-of-credit-operational-mechanism-parties-types-and-ucpdc-600-rules",
+    "title": "Letters of Credit (LC): Operational Mechanism, Parties, Types & UCPDC 600 Rules",
+    "shortDefinition": "The international and domestic trade finance architecture of Documentary Credits (Letters of Credit - LC) governed globally by the ICC Uniform Customs and Practice for Documentary Credits (UCPDC 600): The 6 key parties (Applicant [Buyer], Issuing Bank, Beneficiary [Seller], Advising Bank, Confirming Bank, Negotiating / Nominated Bank), Fundamental Doctrines (Autonomy of Credit [LC is independent of underlying sales contract] and Strict Compliance of Documents), Document Examination Standard (Art 14: max 5 banking days), and Types of LCs (Irrevocable, Confirmed, Sight vs Usance, Revolving, Transferable, Back-to-Back, Red Clause [pre-shipment advance], Green Clause [pre-shipment advance + storage/warehousing], Standby LC [ISPB / ISP98 as guarantee substitute]).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Non-Fund Based Facilities & Trade Finance Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-27",
+    "slug": "bank-guarantees-financial-performance-statutory-invocations-and-co-acceptance",
+    "title": "Bank Guarantees: Financial vs Performance, Statutory Invocations & Section 28 Limitation",
+    "shortDefinition": "The legal framework of Bank Guarantees under the Indian Contract Act 1872 and judicial doctrines: Tripartite Contract of Guarantee (Section 126: Principal Debtor, Creditor, and Surety/Guarantor Bank), Financial Guarantees (100% credit risk for loan repayment/mobilization advance) vs Performance Guarantees (breach of contract/bid bonds/tender security), Unconditional vs Conditional guarantees, Invocation grounds and court injunctions (Supreme Court rules: injunction granted ONLY in cases of established egregiousness fraud or irretrievable injustice), and the Claim Limitation Period under Section 28 of the Indian Contract Act (minimum 1-year claim period post-expiry).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Non-Fund Based Facilities & Trade Finance Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-28",
+    "slug": "export-finance-mechanisms-pre-shipment-post-shipment-pcfc-and-ecgc-cover",
+    "title": "Export Finance & Credit Insurance: Packing Credit (Rupee & PCFC), Post-Shipment & ECGC",
+    "shortDefinition": "The specialized export credit architecture under RBI Master Directions and Foreign Trade Policy: Pre-Shipment Export Credit / Packing Credit (concessional working capital to purchase raw materials, manufacture, and pack export goods against confirmed order/LC, maximum tenor 270/360 days), Pre-Shipment Credit in Foreign Currency (PCFC benchmarked to SOFR / EURIBOR at international rates), Post-Shipment Export Credit (financing receivables after shipment against export bills, FOB/CIF bills discounted/purchased, Gold Card Scheme for exporters), and Export Credit Guarantee Corporation of India (ECGC: statutory credit insurance protecting banks against export credit default [Whole Turnover Post-Shipment Guarantee - WTPSG, 90% cover] and commercial/political cross-border buyer default).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Non-Fund Based Facilities & Trade Finance Operations",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-29",
+    "slug": "core-banking-systems-architecture-data-center-redundancy-and-disaster-recovery-rto-rpo",
+    "title": "Core Banking Systems (CBS) & Business Continuity: Data Centers, RTO & RPO Metrics",
+    "shortDefinition": "The enterprise technological infrastructure of modern banking: Core Banking Solutions (CBS: centralized database where branches act as access points, customer of the bank rather than customer of the branch; e.g. Finacle, BaNCS, Flexcube), Data Center (DC) and Disaster Recovery (DR) site architecture (geographic separation in different seismic zones), Business Continuity Planning (BCP), and the two foundational disaster metrics: Recovery Time Objective (RTO: maximum acceptable downtime to restore banking services) and Recovery Point Objective (RPO: maximum acceptable data loss measured in time, near-zero RPO using synchronous data replication).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Digital Banking, Payment Rails & Information Security",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-30",
+    "slug": "electronic-payment-rails-rtgs-neft-upi-imps-nach-and-central-bank-digital-currency-cbdc",
+    "title": "Electronic Payment Rails: RTGS, NEFT, IMPS, UPI, NACH, AePS & Digital Rupee (e₹)",
+    "shortDefinition": "The digital payment clearing and settlement infrastructure of India operated by the Reserve Bank of India and the National Payments Corporation of India (NPCI under Payment and Settlement Systems Act 2007): RTGS (Real Time Gross Settlement: high-value wholesale, minimum ₹2 Lakh, continuous individual order settlement, 24x7x365) vs NEFT (National Electronic Funds Transfer: retail, half-hourly batched settlement across 48 batches daily, no minimum limit, zero customer charges online, 24x7), NPCI payment rails (IMPS: instant 24x7 up to ₹5 Lakh, UPI: Virtual Payment Address [VPA] / AutoPay, NACH: bulk ACH debit/credit mandate, AePS: Aadhaar biometric micro-ATMs), and the Central Bank Digital Currency (CBDC / Digital Rupee - e₹: sovereign tokenized legal tender issued directly by RBI on distributed ledger).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Digital Banking, Payment Rails & Information Security",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-31",
+    "slug": "cyber-security-framework-in-banks-soc-csirt-iso-27001-and-it-act-2000-statutory-provisions",
+    "title": "Cyber Security in Banks: SOC, CSIRT, ISO 27001 & IT Act 2000 Statutory Framework",
+    "shortDefinition": "The cybersecurity governance and statutory compliance architecture for banking institutions: RBI Cyber Security Framework (June 2016 & Master Directions 2023: Security Operations Center [SOC 24x7], Cyber Security Incident Response Team [CSIRT], Chief Information Security Officer [CISO] reporting directly to Risk Committee), ISO/IEC 27001 Information Security Management System (ISMS: Confidentiality, Integrity, Availability - CIA Triad), mandatory reporting of cyber incidents to CERT-In and RBI within 6 hours, Customer Liability Framework for Unauthorized Electronic Transactions (Zero Liability vs Limited Liability based on 3-day reporting window), and penal provisions under the Information Technology Act 2000 (Sections 43, 66C [Identity Theft], 66D [Cheating by Impersonation], 72 [Breach of Confidentiality]).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Digital Banking, Payment Rails & Information Security",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-32",
+    "slug": "banking-ethics-whistleblower-framework-and-corporate-governance-standards",
+    "title": "Banking Ethics & Corporate Governance: Whistleblower Mechanisms & Codes of Conduct",
+    "shortDefinition": "The ethical, behavioral, and fiduciary governance architecture of banking institutions: Principles of Banking Ethics (Integrity, Transparency, Objectivity, Confidentiality, Conflict of Interest mitigation), Whistleblower Policy (Section 177 Companies Act 2013: Vigil Mechanism for directors/employees to report unethical behavior with safeguards against victimization), RBI Corporate Governance Guidelines for Commercial Banks (Uday Kotak Committee: Separation of Chairman and MD/CEO, independent directors, Audit Committee of Board [ACB], Committee on Customer Service), and Fair Practices Code (FPC: transparent loan sanction, non-coercive recovery, and BCRBI customer charters).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Digital Banking, Payment Rails & Information Security",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-33",
+    "slug": "accounting-foundations-gaap-conventions-and-ind-as-ifrs-convergence",
+    "title": "Accounting Foundations: GAAP Principles, Accounting Conventions & Ind AS Framework",
+    "shortDefinition": "The bedrock concepts and conventions of financial accounting: The 4 Core Accounting Assumptions (Business Entity, Going Concern, Money Measurement, Accounting Period), Accounting Principles (Historical Cost, Dual Aspect [$Assets = Liabilities + Capital$], Revenue Realization, Matching Principle), Accounting Conventions (Conservatism / Prudence [anticipate no profits, provide for all possible losses], Full Disclosure, Consistency, Materiality), and the Indian Accounting Standards (Ind AS) aligned with International Financial Reporting Standards (IFRS) under the Companies (Indian Accounting Standards) Rules 2015.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Accounting Foundations & Financial Statements Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-34",
+    "slug": "double-entry-bookkeeping-golden-rules-journal-entries-and-ledger-balancing",
+    "title": "Double-Entry Bookkeeping: The 3 Golden Rules, Journalizing & Ledger Balancing",
+    "shortDefinition": "The mechanics of double-entry financial recordkeeping: Classification of accounts into Real, Personal, and Nominal accounts, The 3 Traditional Golden Rules of Accounting (Personal: \"Debit the Receiver, Credit the Giver\"; Real: \"Debit what comes in, Credit what goes out\"; Nominal: \"Debit all Expenses & Losses, Credit all Incomes & Gains\"), Modern US Classification (Assets/Expenses [Debit increases, Credit decreases] vs Liabilities/Capital/Revenues [Credit increases, Debit decreases]), Journalizing transactions, and Ledger posting and balancing (Debit balance vs Credit balance).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Accounting Foundations & Financial Statements Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-35",
+    "slug": "trial-balance-preparation-classification-of-accounting-errors-and-rectification-entries",
+    "title": "Trial Balance & Rectification of Errors: Classification of Errors & Suspense Account",
+    "shortDefinition": "The verification of ledger arithmetic and error rectification in accounting: Trial Balance (statement of debit and credit ledger balances proving arithmetical accuracy), The 4 Classical Types of Accounting Errors (Errors of Omission [Complete vs Partial], Errors of Commission [wrong amount/wrong side/casting error], Errors of Principle [violating capital vs revenue expenditure], Compensating Errors [two errors neutralizing each other]), Errors affecting vs not affecting Trial Balance agreement, and the Suspense Account (temporary ledger account created to artificially balance the trial balance pending error investigation).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Accounting Foundations & Financial Statements Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-36",
+    "slug": "bank-reconciliation-statement-brs-mechanics-timing-differences-and-reconciliation-rules",
+    "title": "Bank Reconciliation Statement (BRS): Timing Differences, Direct Entries & Reconciliation Rules",
+    "shortDefinition": "The reconciliation mechanics between the Cash Book (Bank Column maintained by the customer/firm) and the Pass Book / Bank Statement (maintained by the bank): Causes of disagreement (Timing Differences [Cheques issued but not presented for payment, Cheques deposited but not cleared/collected], Direct Bank Transactions [Interest credited by bank, Bank charges/commission debited, Direct collections from debtors, Direct standing order payments], and Errors in Cash Book or Pass Book), Favorable Balances (Debit balance in Cash Book = Credit balance in Pass Book) vs Overdraft / Unfavorable Balances (Credit balance in Cash Book = Debit balance in Pass Book), and Adjusted Cash Book method.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Accounting Foundations & Financial Statements Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-37",
+    "slug": "depreciation-accounting-methods-straight-line-slm-written-down-value-wdv-and-sinking-fund",
+    "title": "Depreciation Accounting: Straight Line (SLM), Written Down Value (WDV) & Sinking Fund Methods",
+    "shortDefinition": "The statutory and mathematical allocation of depreciable asset cost over its estimated useful economic life under Ind AS 16 / AS 6 and Companies Act 2013 (Schedule II): Causes of depreciation (Wear and Tear, Efflux of Time, Obsolescence), Straight Line Method (SLM: constant fixed annual depreciation charge, asset book value reaches zero or scrap value), Written Down Value / Diminishing Balance Method (WDV: constant percentage applied to diminishing book value, higher depreciation in initial years, asset book value never reaches zero mathematically; recognized under Income Tax Act 1961 Section 32), and Sinking Fund / Annuity Methods.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Mathematics, Depreciation & Capital Budgeting Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-38",
+    "slug": "time-value-of-money-compounding-discounting-annuities-sinking-funds-and-amortization",
+    "title": "Time Value of Money (TVM): Compounding, Discounting, Annuities & Loan Amortization",
+    "shortDefinition": "The core quantitative engine of financial mathematics and banking: Future Value ($FV = PV(1+r)^n$), Present Value ($PV = \\frac{FV}{(1+r)^n}$), Rule of 72 ($t \\approx \\frac{72}{r}$) and Rule of 114 (tripling money), Effective Annual Rate (EAR: $EAR = (1 + \\frac{r}{m})^m - 1$), Ordinary Annuity (cash flows at end of period) vs Annuity Due (cash flows at beginning of period, $PV_{\\text{Due}} = PV_{\\text{Ord}} \\times (1+r)$), Sinking Funds, Perpetuities ($PV = \\frac{C}{r}$ and Growing Perpetuity $PV = \\frac{C}{r - g}$), and Equated Monthly Installments (EMI loan amortization formula).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Mathematics, Depreciation & Capital Budgeting Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-39",
+    "slug": "capital-budgeting-techniques-payback-npv-irr-profitability-index-and-discounted-payback",
+    "title": "Capital Budgeting Techniques: Payback Period, Net Present Value (NPV), IRR & PI Rules",
+    "shortDefinition": "The appraisal and decision-making framework for long-term capital investments: Non-Discounted Techniques (Payback Period [PBP], Accounting Rate of Return [ARR]) vs Discounted Cash Flow (DCF) Techniques (Discounted Payback Period, Net Present Value [$\\text{NPV} = \\sum \\frac{CF_t}{(1+k)^t} - C_0$], Internal Rate of Return [IRR: discount rate where $\\text{NPV} = 0$], and Profitability Index [$\\text{PI} = \\frac{\\text{PV of Future Cash Inflows}}{\\text{Initial Outflow}}$]), Decision rules (Accept project if $\\text{NPV} > 0$, $\\text{IRR} > k$, $\\text{PI} > 1.0$), and resolving NPV vs IRR conflicts in mutually exclusive projects (Superiority of NPV due to realistic reinvestment rate assumption at cost of capital $k$).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Mathematics, Depreciation & Capital Budgeting Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-40",
+    "slug": "financial-ratio-analysis-liquidity-solvency-profitability-turnover-and-dscr-metrics",
+    "title": "Financial Ratio Analysis: Liquidity, Solvency, Turnover & Debt Service Coverage (DSCR)",
+    "shortDefinition": "The quantitative financial statement analysis architecture used in bank credit underwriting: Liquidity Ratios (Current Ratio [$\\text{CR} = \\frac{\\text{Current Assets}}{\\text{Current Liabilities}}$, benchmark 1.33:1 under Tandon Method II], Quick / Acid-Test Ratio [$\\text{QR} = \\frac{\\text{Quick Assets (CA - Stock - Prepaid)}}{\\text{Current Liabilities}}$, benchmark 1:1]), Solvency / Leverage Ratios (Debt-Equity Ratio [$\\text{DER} = \\frac{\\text{Total Debt}}{\\text{Tangible Net Worth}}$, benchmark 2:1], Interest Coverage Ratio [$\\text{ICR} = \\frac{\\text{EBIT}}{\\text{Interest}}$]), Debt Service Coverage Ratio (DSCR: the supreme term-lending metric, $\\text{DSCR} = \\frac{\\text{PAT} + \\text{Depreciation} + \\text{Interest on Term Loan}}{\\text{Term Loan Installment} + \\text{Interest on Term Loan}}$, benchmark 1.5 to 2.0), and Turnover / Efficiency Ratios (Inventory Turnover, Debtors Collection Period).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Ratio Analysis & Banking Taxation Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-41",
+    "slug": "cost-accounting-and-marginal-costing-break-even-point-bep-margin-of-safety-and-pv-ratio",
+    "title": "Marginal Costing & Break-Even Analysis: Contribution, PV Ratio, BEP & Margin of Safety",
+    "shortDefinition": "The cost accounting and managerial decision-making framework: Fixed Costs (remain constant regardless of production volume) vs Variable Costs (vary directly with production output), Contribution ($C = \\text{Sales} - \\text{Variable Cost} = \\text{Fixed Cost} + \\text{Profit}$), Profit-Volume Ratio (PV Ratio: $\\text{PVR} = \\frac{\\text{Contribution}}{\\text{Sales}} \\times 100$), Break-Even Point in Units ($\\text{BEP}_{\\text{units}} = \\frac{\\text{Fixed Cost}}{\\text{Contribution per Unit}}$), Break-Even Point in Value ($\\text{BEP}_{\\text{Rs}} = \\frac{\\text{Fixed Cost}}{\\text{PV Ratio}}$), Margin of Safety (MOS: $\\text{MOS} = \\text{Actual Sales} - \\text{Break-Even Sales} = \\frac{\\text{Profit}}{\\text{PV Ratio}}$), and Cost-Volume-Profit (CVP) analysis.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Financial Ratio Analysis & Banking Taxation Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-42",
+    "slug": "banking-taxation-architecture-tds-under-income-tax-act-and-gst-applicability-on-banking-services",
+    "title": "Banking Taxation Architecture: TDS Provisions (Sec 194A, 194N) & GST on Banking Services",
+    "shortDefinition": "The statutory tax withholding and indirect taxation regime applicable to banking operations: Tax Deducted at Source (TDS under Income Tax Act 1961: Section 194A for interest on bank fixed deposits [threshold ₹40,000 for standard individuals, ₹50,000 for Senior Citizens; Form 15G / 15H self-declarations; 10% standard TDS or 20% under Section 206AA if PAN is not provided], Section 194N for cash withdrawals [2% TDS on cash withdrawals >₹1 Crore per year, or >₹20 Lakh for non-filers]), and Goods and Services Tax (GST: 18% standard rate on banking fee-based services [processing fees, locker rent, ATM fees, card charges]; interest on loans/deposits is exempt from GST).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Financial Ratio Analysis & Banking Taxation Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-43",
+    "slug": "retail-banking-architecture-customer-segmentation-business-models-and-cross-selling",
+    "title": "Retail Banking Architecture: Customer Segmentation Models & Cross-Selling Metrics",
+    "shortDefinition": "The operational and structural framework of Retail Banking under IIBF RBWM: Characteristics (B2C mass retail, multiple products, low ticket size, high customer volume, diversified risk spread), Customer Segmentation Models (Mass Market [<₹10 Lakh income], Mass Affluent [₹10-50 Lakh], High Net Worth Individuals [HNI: ₹50 Lakh - ₹5 Crore], Ultra-HNI [>₹5 Crore investable surplus]), Organizational Business Models (Horizontally Organized, Vertically Organized, Regionally Organized, Matrix Structure), and Cross-Selling / Upselling (Cross-sell ratio = Products per customer; target > 3.0).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Retail Banking Products & Wealth Management Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-44",
+    "slug": "retail-lending-products-home-loans-ltv-emi-credit-cards-and-education-loans",
+    "title": "Retail Lending Products: Home Loans (LTV & Risk Weights), Auto, Education & Credit Cards",
+    "shortDefinition": "The underwriting parameters, regulatory ceilings, and statutory norms for major retail asset products: Housing Loans under RBI Prudential Norms (Loan-to-Value [LTV] ceilings: up to ₹30 Lakh loan = max 90% LTV; >₹30 Lakh to ₹75 Lakh = max 80% LTV; >₹75 Lakh = max 75% LTV; prohibition on adding stamp duty/registration to property cost for LTV calculations on loans >₹10 Lakh), Floating vs Fixed Interest Rates (no foreclosure/prepayment penalties on floating rate retail term loans to individuals), Education Loans (Model IBA Scheme: up to ₹4 Lakh no margin/collateral; >₹4 Lakh to ₹7.5 Lakh 5% margin with third-party guarantee; >₹7.5 Lakh 15% margin with tangible collateral), and Credit Cards (20 to 50 days interest-free credit, Minimum Amount Due - MAD 5%, Most Important Terms and Conditions - MITC).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Retail Banking Products & Wealth Management Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-45",
+    "slug": "credit-information-companies-cics-cibil-scoring-and-debt-recovery-agent-dra-guidelines",
+    "title": "Credit Information Companies (CICs): CIBIL Scoring & RBI Debt Recovery Agent (DRA) Code",
+    "shortDefinition": "The credit scoring, credit reporting, and recovery governance architecture under the Credit Information Companies (Regulation) Act 2005 (CICRA) and RBI guidelines: The 4 Licensed CICs in India (TransUnion CIBIL, Equifax, Experian, CRIF High Mark), CIBIL TransUnion Score (numeric score ranging from 300 to 900; scores $\\ge 750$ considered prime benchmark), Credit Information Report (CIR: trade lines, DPD [Days Past Due], settled/written-off flags), RBI Debt Recovery Agent (DRA) Guidelines (mandatory IIBF 100/50-hour DRA training and certification, calling hours strictly between 8:00 AM and 7:00 PM, ban on intimidation/harassment/abusive language, maintaining recording of recovery calls).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Retail Banking Products & Wealth Management Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-46",
+    "slug": "wealth-management-portfolio-allocation-estate-planning-and-rera-regulations",
+    "title": "Wealth Management & Estate Planning: Asset Allocation, Trusts, Wills & RERA Act 2016",
+    "shortDefinition": "The wealth advisory, fiduciary planning, and real estate governance architecture: The Wealth Management Process (Financial Profiling, Risk Profiling [Conservative, Moderate, Aggressive], Asset Allocation [Strategic Asset Allocation - SAA vs Tactical Asset Allocation - TAA], Portfolio Rebalancing), Estate Planning (Wills under Indian Succession Act 1925: Attestation by 2 witnesses, Probate, Codicil, and Private Family Trusts under Indian Trusts Act 1882 for asset protection), and Real Estate (Regulation and Development) Act 2016 (RERA: mandatory registration of projects $>500 \\text{ sq m}$ or $>8$ apartments, 70% of buyer funds deposited in dedicated escrow account, Carpet Area definition, 5-year defect liability period).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Retail Banking Products & Wealth Management Architecture",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-47",
+    "slug": "banking-regulation-act-1949-licensing-governance-and-reserve-bank-regulatory-powers",
+    "title": "Banking Regulation Act 1949: Statutory Powers, Licensing & Reserve Bank Governance Oversight",
+    "shortDefinition": "The foundational statutory statute governing commercial and cooperative banking in India: Banking Regulation Act 1949: Definition of Banking (Section 5(b): accepting deposits of money from public withdrawable by cheque/draft for lending or investment), Permitted vs Prohibited businesses (Section 6 [permitted banking activities] vs Section 8 [prohibition of trading in goods] and Section 9 [disposal of non-banking assets within 7 years]), Licensing of Banking Companies (Section 22), Reserve Bank's Inspection and Audit Powers (Section 35), Power to Supersede Board of Directors and Remove Management (Section 36AA & 36ACA), Power to give binding directions (Section 35A), and Compulsory Amalgamation and Moratorium (Section 45).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Banking Regulation Act 1949 & Statutory Powers of RBI",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-48",
+    "slug": "prudential-exposure-norms-large-exposure-framework-lef-and-connected-lending-curbs",
+    "title": "Prudential Exposure Norms & Large Exposure Framework (LEF): Single & Group Borrower Limits",
+    "shortDefinition": "The statutory concentration risk and exposure management architecture under Basel III and RBI Master Directions: Large Exposure Framework (LEF: aligned with BCBS standards since April 2019), Exposure defined on Eligible Capital Base (Tier 1 Capital only), Single Counterparty Exposure limit (strictly capped at 20% of Tier 1 Capital; extendable up to 25% with Board approval in exceptional infrastructure cases), Group of Connected Counterparties limit (strictly capped at 25% of Tier 1 Capital), Large Exposure definition (any counterparty exposure $\\ge 10\\%$ of Tier 1 Capital), and connected lending curbs.",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Banking Regulation Act 1949 & Statutory Powers of RBI",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-49",
+    "slug": "deposit-insurance-dicgc-act-1961-rs-5-lakh-coverage-and-claim-settlement-timelines",
+    "title": "Deposit Insurance Architecture: DICGC Act 1961, ₹5 Lakh Coverage & 90-Day Payout Rules",
+    "shortDefinition": "The statutory deposit safety net under the Deposit Insurance and Credit Guarantee Corporation Act 1961: DICGC as a wholly-owned subsidiary of RBI (established 1961/1978), Coverage Quantum (increased from ₹1 Lakh to ₹5 Lakh per depositor per bank in same right and capacity, effective February 4, 2020), Insured Deposits (Savings, Current, Fixed, Recurring deposits across Commercial Banks, RRBs, LABs, Payments Banks, SFBs, and Cooperative Banks), Insurance Premium (12 paise per ₹100 of assessable deposits per annum, borne 100% by the bank without passing to customer), and the landmark DICGC (Amendment) Act 2021 mandating Interim Claim Payout within 90 days to depositors of banks placed under RBI Directions / Moratorium.",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Banking Regulation Act 1949 & Statutory Powers of RBI",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-50",
+    "slug": "management-theories-classical-neo-classical-and-modern-leadership-models",
+    "title": "Management Foundations: Classical, Neo-Classical, Motivation Theories & Leadership Models",
+    "shortDefinition": "The core descriptive management and organizational behavior models tested in RBI Grade B (FM): Classical Theories (Henri Fayol's 14 Principles of Administrative Management, F.W. Taylor's Scientific Management, Max Weber's Bureaucratic Model), Neo-Classical / Human Relations Movement (Elton Mayo's Hawthorne Studies 1924-1932: social and informal group dynamics), Motivation Theories (Maslow's Hierarchy of Needs, Herzberg's Two-Factor Motivation-Hygiene Theory, McGregor's Theory X & Theory Y, McClelland's Three Needs Theory, Vroom's Expectancy Theory, Adam's Equity Theory), and Leadership Models (Blake & Mouton Managerial Grid [9,9 Team Management], Fiedler's Contingency Model, Hersey & Blanchard Situational Leadership Model).",
+    "difficulty": "ADVANCED",
+    "topicTitle": "Management Theories, Leadership Models & Organisational Behaviour",
+    "subjectName": "IIBF & Banking Regulations"
+  },
+  {
+    "id": "CON-IIBF-51",
+    "slug": "organisational-communication-barriers-channels-and-corporate-governance-mechanisms",
+    "title": "Organisational Communication & Interpersonal Dynamics: Barriers, Channels & Johari Window",
+    "shortDefinition": "The organizational communication and corporate governance dynamics in banking institutions: The Communication Process (Sender, Encoding, Channel, Receiver, Decoding, Feedback, Noise), Communication Directions (Downward [orders/policies], Upward [grievances/reports], Horizontal / Lateral [inter-departmental coordination], Diagonal), Communication Barriers (Filtering, Selective Perception, Information Overload, Semantic barriers, Cultural barriers), Informal Communication (Grapevine: Single Strand, Gossip, Probability, Cluster chain), and the Johari Window interpersonal awareness model (Open Area [Arena], Blind Spot, Hidden Area [Facade], Unknown Area).",
+    "difficulty": "INTERMEDIATE",
+    "topicTitle": "Management Theories, Leadership Models & Organisational Behaviour",
+    "subjectName": "IIBF & Banking Regulations"
   }
 ];
