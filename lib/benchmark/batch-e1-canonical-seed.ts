@@ -1,11 +1,11 @@
 /**
- * Batch E1 Canonical Knowledge Seed (Topics 27–29: 17 Concepts)
+ * Economics Batch 1 Canonical Knowledge Seed (Topics 27–32: 17 Concepts)
  * Mind of Aravalli — Academic Reading Hub
  *
- * Covers:
- * - Topic 27: Foundations of Economics & National Income Accounting (CON-ECO-01 to CON-ECO-06)
- * - Topic 28: Money, Commercial Banking & Financial Markets Architecture (CON-ECO-07 to CON-ECO-11)
- * - Topic 29: Central Banking, Monetary Policy Framework & Price Theory (CON-ECO-12 to CON-ECO-17)
+ * Comprehensive First-Principles Curriculum covering:
+ * - DOMAIN A: ECONOMIC FOUNDATIONS (Topic 27: CON-ECO-01 to CON-ECO-02)
+ * - DOMAIN B: MICROECONOMICS (Topics 28–31: CON-ECO-03 to CON-ECO-12)
+ * - DOMAIN C: NATIONAL INCOME & CORE MACRO FOUNDATIONS (Topic 32: CON-ECO-13 to CON-ECO-17)
  */
 
 import { db } from '../db/client';
@@ -58,2336 +58,3447 @@ export interface CanonicalConceptDefinition {
     trapExplanation?: string;
     difficulty: 'EASY' | 'MEDIUM' | 'HARD';
     isPYQ: boolean;
+    pyqYear?: number;
+    pyqPaper?: string;
+    pyqStage?: string;
+    pyqQuestionNumber?: number;
+    examinerTrapPattern?: string;
   }>;
 }
 
 export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
   // =========================================================================
-  // TOPIC 27: FOUNDATIONS OF ECONOMICS & NATIONAL INCOME ACCOUNTING
+  // TOPIC 27: Foundations of Economics & Resource Allocation
   // =========================================================================
   {
     id: 'CON-ECO-01',
     topicOrder: 27,
-    topicSlug: 'foundations-of-economics-and-national-income',
-    topicTitle: 'Foundations of Economics & National Income Accounting',
-    topicDescription: 'First principles of economics: scarcity, choice, opportunity cost, Production Possibility Frontier (PPF), circular flow of income, national income aggregates (GDP, NDP, GNP, NNP), factor cost vs basic price vs market price, and Green GDP.',
+    topicSlug: 'foundations-of-economics-and-resource-allocation',
+    topicTitle: 'Foundations of Economics & Resource Allocation',
+    topicDescription: 'First principles of scarcity, choice, opportunity cost, Production Possibility Frontier (PPF), and productive vs allocative efficiency.',
     slug: 'scarcity-choice-opportunity-cost-ppf-central-economic-problems',
-    title: 'Scarcity, Choice, Opportunity Cost, Production Possibility Frontier & Central Economic Problems',
-    shortDefinition: 'The foundational nature of economics as the study of resource allocation under scarcity: the universal constraint of unlimited human wants vs finite resources, opportunity cost as the next best alternative forgone, the concave Production Possibility Frontier (PPF) reflecting increasing marginal opportunity costs, and the three central economic questions (What, How, and For Whom to produce).',
+    title: 'Economics as the Study of Scarcity, Choice, Opportunity Cost & Production Possibility Frontier (PPF)',
+    shortDefinition: 'The foundational science of allocating scarce productive resources with alternative uses to satisfy unlimited human wants, formalized via the concave Production Possibility Frontier and increasing opportunity costs.',
     difficulty: 'BEGINNER',
     claims: [
       {
         id: 'CLM-ECO-01-01',
-        statement: 'Economics is fundamentally the science of scarce resource allocation; scarcity arises because human wants are unlimited while productive resources (land, labor, capital, enterprise) are finite with alternative uses (Lionel Robbins definition, 1932).',
+        statement: 'Lionel Robbins (1932) defined economics as the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Lionel Robbins, An Essay on the Nature and Significance of Economic Science (1932); NCERT Class 12 Introductory Microeconomics, Ch 1',
-        excerpt: 'Economics studies human behavior as a relationship between ends and scarce means which have alternative uses.',
+        locator: 'Lionel Robbins (1932) An Essay on the Nature and Significance of Economic Science, Chapter 1',
+        excerpt: 'Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses.',
       },
       {
         id: 'CLM-ECO-01-02',
-        statement: 'Opportunity cost is the value of the next best alternative forgone when a choice is made; the Production Possibility Frontier (PPF) is bowed outwards (concave to origin) because resources are specialized and not equally efficient in the production of all goods, resulting in an Increasing Marginal Rate of Transformation (MRT).',
+        statement: 'The Production Possibility Frontier (PPF) is downward-sloping and concave to the origin due to the Law of Increasing Opportunity Cost, measured by the Marginal Rate of Transformation (MRT).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics (19th ed.); NCERT Class 12 Microeconomics, Ch 1',
-        excerpt: 'Marginal Rate of Transformation (MRT = ΔY / ΔX) increases along the PPF, creating its concave curvature.',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 1: Foundations of Economics',
+        excerpt: 'The production-possibility frontier shows the maximum quantities of traits that can be efficiently produced by an economy. Its concavity reflects the law of increasing opportunity costs.',
       },
       {
         id: 'CLM-ECO-01-03',
-        statement: 'Every economic society must resolve three central structural problems: What to produce and in what quantities (allocative efficiency), How to produce (technological choice: labor-intensive vs capital-intensive), and For whom to produce (distributional equity).',
+        statement: 'Points on the PPF represent productive efficiency; the specific output point chosen by society represents allocative efficiency; points inside indicate underutilization or unemployment.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson, Economics; NCERT Class 12 Introductory Microeconomics, Ch 1',
-        excerpt: 'Three central problems of an economy: What, How, and For Whom to produce.',
+        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1',
+        excerpt: 'An economy achieves productive efficiency when it cannot produce more of one good without producing less of another, operating precisely on its production frontier.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Inevitability of Scarcity & The Logic of Choice',
-        body: 'Human society faces a fundamental dilemma: desires for goods, healthcare, infrastructure, education, and leisure are boundless, but the physical inputs required to produce them—mineral deposits, arable land, skilled human labor, machinery, and time—are strictly bounded.\n\nBecause resources are finite, every society is forced to make choices. Choosing more of one good (e.g., national defense or capital machinery) inevitably requires sacrificing some quantity of another (e.g., consumer subsidies or civilian healthcare). This trade-off is the core premise of economic analysis.',
+        title: 'The Inescapable Reality of Scarcity',
+        body: `Every economic problem arises from a single universal tension: **human wants are infinite, but the physical resources available to satisfy them (land, labour, capital, entrepreneurship) are strictly finite**.
+
+Because resources are scarce, choosing to produce or consume one good always requires sacrificing the next best alternative. This sacrifice is the **Opportunity Cost**.
+
+* **Accounting Cost vs Opportunity Cost:** An accountant counts only explicit monetary outlays. An economist counts the total economic cost: explicit money spent + implicit value of the forgone opportunity.
+* **Example:** If a government spends ₹10,000 Crore on fuel subsidies, the economic cost is not just ₹10,000 Crore in cash; it is the 500 state-of-the-art hospitals or 2,000 km of national highways that *could* have been built with those identical resources.`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'Opportunity Cost & The Production Possibility Frontier (PPF)',
-        body: '### 1. Opportunity Cost\n**Opportunity Cost** is not merely financial expenditure; it is the **true economic cost** representing the value of the highest-ranked alternative given up.\n* If a government allocates \\$10 billion to fuel subsidies, the opportunity cost is the primary schools or semiconductor fabrication units that could have been built with those identical funds.\n\n### 2. The Production Possibility Frontier (PPF)\nThe **PPF** is a curve showing the maximum combinations of two goods an economy can produce given full employment of existing resources and technology.\n\n$$\\text{Marginal Rate of Transformation (MRT)} = \\left| \\frac{\\Delta Y}{\\Delta X} \\right|$$\n\n* **Points on the Curve:** Productively efficient (full resource utilization).\n* **Points inside the Curve:** Inefficient / Unemployment of resources.\n* **Points outside the Curve:** Unattainable under current technological/resource constraints.\n* **Concavity to Origin:** The PPF is concave because resources are not perfectly adaptable. Shifting farmers to software engineering requires retraining, causing the marginal sacrifice of agricultural output to escalate.',
+        title: 'The Production Possibility Frontier (PPF) & MRT',
+        body: `The **Production Possibility Frontier (PPF)** (or Transformation Curve) is a geometric model illustrating the maximum feasible production combinations of two goods that an economy can produce using all available resources and technology fully and efficiently.
+
+### 1. Geometry of the PPF
+* **Downward Sloping:** To produce more of Good X, resources must be diverted from Good Y.
+* **Concave to the Origin (Bowed Outwards):** Resources are specialized and not equally adaptable to all lines of production. As more of Good X is produced, increasingly less suited resources must be transferred from Good Y, requiring progressively larger sacrifices of Good Y.
+
+### 2. Marginal Rate of Transformation (MRT)
+The slope of the PPF at any given point is the **Marginal Rate of Transformation (MRT)**, representing the marginal opportunity cost of Good X in terms of Good Y:
+
+$$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost of Good X}}{\\text{Marginal Cost of Good Y}} = \\frac{\\text{MC}_x}{\\text{MC}_y}$$
+
+### 3. Economic Efficiency Classifications
+| Location on Diagram | Economic Interpretation | Policy Meaning |
+|---|---|---|
+| **Points on the Curve ($A, B, C$)** | **Productive Efficiency** | Full employment of all resources and optimal technology utilization. |
+| **Points Inside the Curve ($U$)** | **Inefficiency / Underutilization** | Unemployment, idle factory capacity, or misallocated resources. |
+| **Points Outside the Curve ($X$)** | **Unattainable in Short Run** | Requires economic growth (capital accumulation, technological progress, or labour force expansion) to reach. |`,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'The Three Central Economic Questions across Economic Systems',
-        body: 'Every economy resolves the three foundational questions through distinct institutional mechanisms:\n\n| Central Question | Market Economy (Capitalist) | Centrally Planned Economy (Socialist) | Mixed Economy (e.g., India) |\n| :--- | :--- | :--- | :--- |\n| **1. What to produce?** | Determined by **Price Mechanism** & Consumer Sovereignty (profit-driven). | Determined by **Central Planning Authority** based on social priorities. | Market forces determine consumer goods; State produces public/merit goods. |\n| **2. How to produce?** | Lowest cost combination (Capital vs Labor determined by factor prices). | Determined by State targets (often prioritizing employment generation). | Private sector optimizes profit; State mandates labor laws and social targets. |\n| **3. For whom to produce?** | Distributed based on purchasing power and factor earnings. | Distributed based on state-assessed needs and administrative rationing. | Market distribution supplemented by welfare safety nets (PDS, DBT, subsidies). |',
+        title: 'Shifts vs Movements Along the PPF',
+        body: `Understanding changes in the PPF is a standard competitive exam testing area:
+
+### 1. Movement Along the PPF
+* Represents a **reallocation of existing resources** between Good X and Good Y.
+* No change in the economy's total productive capacity.
+
+### 2. Outward Shift of the Entire PPF (Economic Growth)
+Occurs when the economy's total productive capacity expands universally:
+* Discovery of new natural resources (e.g. major lithium or petroleum discoveries).
+* Technological innovation across all sectors.
+* Growth in the working-age population / human capital enhancement.
+
+### 3. Asymmetrical Rotation of the PPF
+Occurs when technological advancement or resource discovery is confined to **only one sector**:
+* Technological breakthrough in agriculture rotates the PPF outward along the agricultural axis while leaving the manufacturing intercept unchanged.`,
         order: 3,
       },
       {
-        type: 'COMPARISON',
-        title: 'Microeconomics vs Macroeconomics: The Fallacy of Composition',
-        body: 'Economics is divided into two broad analytical branches:\n\n* **Microeconomics:** Focuses on individual decision-makers (individual consumer demand, firm pricing, single market equilibrium).\n* **Macroeconomics (John Maynard Keynes, 1936):** Focuses on economy-wide aggregate variables (National Output, General Price Level, Aggregate Demand, Unemployment, Balance of Payments).\n\n### The Paradox of Thrift (Fallacy of Composition)\nA classic example of why micro-intuition fails at the macro level: If one household saves more, its financial security increases. But if *all* households simultaneously increase savings and slash consumption, aggregate demand collapses, firms cut production and employment, and aggregate national income falls—ultimately reducing total savings.',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Foundational Economics',
-        body: '1. **PPF Shift vs Movement Along PPF:** An increase in resource quantity or technological innovation shifts the **entire PPF outward**. Reallocating existing resources is a **movement along the curve**.\n2. **Zero Opportunity Cost Trap:** Free goods (e.g., ambient air, sunlight) have zero opportunity cost because their use does not require sacrificing another good. Economic goods (even when provided "free" by the state, like free food grains) carry an opportunity cost borne by taxpayers.\n3. **Normative vs Positive Statements:** *Positive economics* describes "what is" (empirically verifiable facts: "A rise in repo rate dampens inflation"). *Normative economics* prescribes "what ought to be" (value judgments: "The government should subsidize electric vehicles").',
-        order: 5,
+        title: 'Indian Policy Application & Exam Traps',
+        body: `### Indian Policy Application: The 'Guns vs Butter' Dilemma
+In the Union Budget, the Finance Minister faces a real-world PPF trade-off between **Capital Expenditure (Capex)** (which shifts the national PPF outward over time by building infrastructure) and **Revenue Subsidies / Transfers** (which provides immediate welfare but does not expand future productive capacity).
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Assuming a Straight-Line PPF:** A linear (straight-line) PPF exists *only* if the Marginal Opportunity Cost is constant (i.e. resources are perfectly substitutable between goods). Real-world PPFs are always concave.
+* ⚠️ **Trap 2: Confusing Productive Efficiency with Allocative Efficiency:** Operating on the PPF guarantees productive efficiency (no waste), but **allocative efficiency** requires producing the specific combination on the PPF that maximizes social welfare (where $\\text{MRT}_{xy} = \\text{MRS}_{xy}$).
+* ⚠️ **Trap 3: Unemployment Shifts the PPF Inward:** Unemployment does NOT shift the PPF inward. The PPF shows *potential capacity*. Unemployment merely moves the economy to a point **inside** the existing frontier.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'EXPERT',
+        syllabusUnit: 'Paper 2 (Phase 1 & 2): Microeconomics — Scarcity, Choice, Opportunity Cost and PPF',
+        notes: 'Frequently tests MRT calculation, straight-line vs concave PPF conditions, and points inside vs outside the curve.',
+        frequentTraps: 'Confusing outward shift with movement along curve; forgetting that linear PPF requires constant opportunity cost.',
+      },
+      {
+        examCode: 'RBI_GRADE_B',
+        relevance: 'DIRECT_OVERLAY',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Economic Growth and Development Concepts',
+        notes: 'Foundational framework for macroeconomic growth and capital accumulation.',
+      },
+      {
+        examCode: 'RPSC_RAS',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'PROFICIENT',
-        syllabusUnit: 'GS Paper III: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment',
-        notes: 'Covers scarcity, opportunity cost, and market vs mixed economic foundations.',
-      },
-      {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (Indian Economy & Indian Financial System): Module A - Economic Fundamentals',
-        notes: 'Direct questions on Robbins definition, PPF curvature, and micro vs macro distinctions.',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Basic Concepts of Economics',
+        notes: 'Direct 2-mark and 5-mark questions on Opportunity Cost, PPF definition, and reasons for its concavity.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Scarcity = Unlimited wants vs finite resources (Robbins 1932). Opportunity Cost = Next best alternative forgone. PPF = Maximum output combinations; concave to origin due to increasing MRT (ΔY/ΔX). 3 Central Questions = What, How, For Whom to produce. Micro = Individual agents; Macro = Aggregates. Paradox of Thrift = Micro saving good, aggregate saving causes demand collapse.',
+        content: 'Economics = study of allocating scarce means with alternative uses. PPF is downward-sloping and concave to origin because MRT (opportunity cost) increases as more of Good X is produced. Points on curve = productive efficiency; inside = unemployment/waste; outside = unattainable without growth.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Economics analyzes resource allocation under scarcity. Opportunity cost represents the value of forgone alternatives. The Production Possibility Frontier (PPF) is concave to the origin due to increasing marginal rate of transformation. Economies solve What, How, and For Whom to produce via Market, Planned, or Mixed systems. The Fallacy of Composition (e.g., Paradox of Thrift) proves that individual micro truths do not simply scale to macroeconomic aggregates.',
+        content: 'Scarcity forces choice; choice creates Opportunity Cost (the value of the next best alternative forgone). The Production Possibility Frontier (PPF) plots maximum two-good output combinations with fixed resources and technology. Slope = Marginal Rate of Transformation (MRT = ΔY/ΔX = MCx/MCy). Concavity is driven by imperfect resource substitutability (Law of Increasing Opportunity Cost). An outward shift signifies economic growth (more capital/tech); unemployment is a point INSIDE the curve, not a curve shift.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Definition: Lionel Robbins (1932) scarcity of means with alternative uses.\n2. PPF Geometry: Concave curve representing maximum output combinations. Points on curve = productive efficiency; inside = inefficiency/unemployment; outside = unattainable.\n3. MRT Formula: MRT = |ΔY / ΔX|. Increases along curve due to imperfect factor adaptability.\n4. Three Central Problems: What (allocative), How (technology), For Whom (distribution).\n5. Economic Systems: Capitalist (price mechanism), Socialist (central planning), Mixed (India).\n6. Epistemic Distinction: Positive (testable facts) vs Normative (value judgments).',
+        content: 'Foundational Microeconomics Architecture: Scarcity → Choice → Opportunity Cost → PPF Model. 1. Definition: Robbins (1932). 2. Key Identities: MRT = |ΔY/ΔX| = MCx/MCy. 3. Efficiency Types: Productive (on frontier), Allocative (tangency with social indifference curve), Dynamic (frontier shifting outward over time). 4. Policy Connection: Indian Budget capex vs revenue expenditure allocation trade-off.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Why is the Production Possibility Frontier (PPF) typically concave (bowed outwards) to the origin?',
+        stem: 'Why is the Production Possibility Frontier (PPF) typically concave (bowed outwards) with respect to the origin?',
         options: [
-          'Because resources are perfectly homogeneous and adaptable across all production sectors',
-          'Because the Marginal Rate of Transformation (MRT) increases as more of one good is produced',
-          'Because total economic output decreases as technological advancement takes place',
-          'Because consumer demand decreases as commodity prices rise',
+          'Because resources are perfectly substitutable between different industries.',
+          'Because the opportunity cost of producing an additional unit of a good increases as more of that good is produced.',
+          'Because total economic resources expand automatically as production increases.',
+          'Because consumer demand decreases as more goods are produced.',
         ],
-        correctAnswer: 'Because the Marginal Rate of Transformation (MRT) increases as more of one good is produced',
-        explanation: 'The PPF is concave to the origin because resources are not equally efficient in producing all goods. Transferring specialized resources from one sector to another results in an increasing Marginal Rate of Transformation (MRT = ΔY/ΔX), meaning progressively larger quantities of good Y must be sacrificed for each additional unit of good X.',
-        trapExplanation: 'If resources were perfectly interchangeable, the PPF would be a downward-sloping straight line with constant opportunity cost.',
+        correctAnswer: 'Because the opportunity cost of producing an additional unit of a good increases as more of that good is produced.',
+        explanation: 'The concavity of the PPF is governed by the Law of Increasing Opportunity Cost. Productive resources (specialized machines, land, skilled labour) are not equally adaptable across different production lines. As an economy shifts more resources into producing Good X, it must increasingly transfer resources that are less and less suited to X and more suited to Y, causing the marginal sacrifice of Good Y (MRT) to rise.',
+        trapExplanation: 'Option A is incorrect because perfect substitutability would produce a straight-line (linear) PPF with constant MRT, not a concave one.',
+        difficulty: 'EASY',
+        isPYQ: true,
+        pyqYear: 2020,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 14,
+        examinerTrapPattern: 'Confusing increasing opportunity cost (concave) with constant opportunity cost (linear).',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'During an economic recession, a country experiences a sharp rise in unemployment and several manufacturing plants operate at 50% capacity. How is this situation represented on the country’s Production Possibility Frontier (PPF)?',
+        options: [
+          'A parallel inward shift of the entire PPF.',
+          'A rotation of the PPF along the manufacturing axis.',
+          'A movement from a point on the frontier to a point strictly inside the frontier.',
+          'A movement along the frontier towards agricultural goods.',
+        ],
+        correctAnswer: 'A movement from a point on the frontier to a point strictly inside the frontier.',
+        explanation: 'The PPF represents the maximum potential output achievable when all resources are fully and efficiently employed. Widespread unemployment and idle capacity mean the economy is failing to realize its potential capacity. This corresponds to an inefficient point located INSIDE the existing frontier. The physical capacity (the frontier itself) has not disappeared, so it does not shift inward.',
+        trapExplanation: 'Option A is a classic examiner trap: an inward shift of the PPF occurs only when productive capacity is physically destroyed (e.g. wartime destruction, natural disasters, permanent outward migration of labour).',
         difficulty: 'MEDIUM',
         isPYQ: false,
+        examinerTrapPattern: 'Confusing underutilization of resources (point inside) with destruction of productive capacity (inward shift).',
       },
     ],
   },
-
   {
     id: 'CON-ECO-02',
     topicOrder: 27,
-    topicSlug: 'foundations-of-economics-and-national-income',
-    topicTitle: 'Foundations of Economics & National Income Accounting',
-    topicDescription: 'Classification of Goods: Public, Private, Common Resources & Club Goods.',
+    topicSlug: 'foundations-of-economics-and-resource-allocation',
+    topicTitle: 'Foundations of Economics & Resource Allocation',
+    topicDescription: 'First principles of scarcity, choice, opportunity cost, Production Possibility Frontier (PPF), and productive vs allocative efficiency.',
     slug: 'classification-of-goods-public-private-common-resources-club-goods',
-    title: 'Classification of Goods: Public, Private, Common Resources & Club Goods',
-    shortDefinition: 'Typology of economic goods based on the dual criteria of Excludability (whether a person can be prevented from consuming the good) and Rivalry (whether one person\'s consumption diminishes another\'s): Private Goods, Public Goods (non-rival, non-excludable), Common Pool Resources (rival, non-excludable — Tragedy of the Commons), and Club Goods / Natural Monopolies (excludable, non-rival).',
+    title: 'Economic Systems, Micro vs Macro, Positive vs Normative Economics & Goods Classification',
+    shortDefinition: 'The organizational structures of economies (Capitalist, Command, Mixed), methodological divisions (Positive vs Normative, Micro vs Macro), and the classification of goods based on excludability and rivalry.',
     difficulty: 'BEGINNER',
     claims: [
       {
         id: 'CLM-ECO-02-01',
-        statement: 'Economic goods are classified along a 2x2 matrix defined by Excludability (can non-payers be prevented from using it?) and Rivalry in consumption (does one person\'s use reduce availability for others?).',
+        statement: 'Economic systems resolve the three central economic problems (What, How, and For Whom to produce) through Market Mechanisms (Capitalism), Central Planning (Socialism), or a Dual Public-Private Structure (Mixed Economy).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson, The Pure Theory of Public Expenditure (1954); Richard Musgrave, Public Finance in Theory and Practice',
-        excerpt: 'Goods are categorized by excludability and rivalrousness in consumption.',
+        locator: 'Paul Samuelson, Economics, Chapter 2: Markets and Government in a Modern Economy',
+        excerpt: 'Every society must answer three fundamental questions: What to produce, How to produce, and For Whom to produce.',
       },
       {
         id: 'CLM-ECO-02-02',
-        statement: 'Pure Public Goods are both non-excludable and non-rivalrous (e.g. National Defense, Lighthouses, Street Lighting); because private markets suffer from the Free-Rider Problem, public goods are systematically underprovided by market mechanisms and must be financed via taxation.',
+        statement: 'Positive economics deals with objective, testable empirical statements of "what is", while Normative economics involves subjective value judgments and ethical prescriptions of "what ought to be".',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Samuelson (1954); Mancur Olson, The Logic of Collective Action (1965)',
-        excerpt: 'Non-excludability causes the free-rider problem, leading to market failure for pure public goods.',
+        locator: 'Milton Friedman (1953) Essays in Positive Economics, Part I',
+        excerpt: 'Positive economics is in principle independent of any particular ethical position or normative judgments. Its task is to provide a system of generalizations that can be used to make correct predictions.',
       },
       {
         id: 'CLM-ECO-02-03',
-        statement: 'Common Pool Resources are rivalrous but non-excludable (e.g. Oceanic Fisheries, Groundwater Aquifers, Community Pastures), making them vulnerable to over-exploitation known as the Tragedy of the Commons (Garrett Hardin, 1968), remediated either by state regulation, private property rights, or community governance institutions (Elinor Ostrom, 1990).',
+        statement: 'Goods are classified across Excludability and Rivalry into Private Goods (excludable, rival), Public Goods (non-excludable, non-rival), Common Resources (non-excludable, rival), and Club Goods (excludable, non-rival).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Garrett Hardin, The Tragedy of the Commons (Science, 1968); Elinor Ostrom, Governing the Commons (1990 Nobel Prize)',
-        excerpt: 'Common resources suffer from the Tragedy of the Commons due to non-excludability and rivalry.',
+        locator: 'Elinor Ostrom (1990) Governing the Commons, Chapter 1; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'Public goods are non-rival and non-excludable; common pool resources are rivalrous and non-excludable, leading to potential overexploitation.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Why Markets Cannot Price Everything: Excludability & Rivalry',
-        body: 'Competitive markets function effectively when two conditions hold: sellers can exclude non-paying customers from receiving the product (**Excludability**), and one customer\'s consumption leaves less product for others (**Rivalry**).\n\nWhen either of these characteristics breaks down, market prices fail to allocate resources efficiently, causing market failure. If a private company builds a flood defense levee or streetlight, it cannot prevent non-paying citizens from benefiting, leading individuals to "free ride" on others\' payments.',
+        title: 'How Societies Organize Production & Solve Scarcity',
+        body: `Every human society, regardless of political ideology, faces the **Three Central Economic Problems**:
+1. **What to produce and in what quantities?** (Capital goods vs Consumer goods; Defense vs Healthcare).
+2. **How to produce?** (Labour-intensive techniques vs Capital-intensive automated techniques).
+3. **For whom to produce?** (How national output is distributed among citizens based on purchasing power or equity).
+
+### The Three Economic Systems:
+* **Market Economy (Laissez-Faire Capitalism):** Solved entirely by the **Price Mechanism** (Adam Smith's "Invisible Hand"). Consumer sovereignty dictates production; profit motivates producers; distribution is determined by factor earnings.
+* **Centrally Planned Economy (Socialism):** Solved by a central planning authority (e.g. Gosplan in the USSR). Production targets, resource allocation, and prices are fixed by the State.
+* **Mixed Economy (India's Model):** Coexistence of the private sector (driven by profit and market prices) and the public sector (driven by social welfare and strategic national priorities).`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The 2x2 Economic Goods Classification Matrix',
-        body: 'All goods and services in an economy map into four distinct quadrants:\n\n| | **Rivalrous in Consumption** | **Non-Rivalrous in Consumption** |\n| :--- | :--- | :--- |\n| **Excludable** | **1. PRIVATE GOODS**<br>• Apples, clothing, personal cars, private housing.<br>• *Market Mechanism:* Pure competitive market allocation. | **2. CLUB GOODS (Toll Goods)**<br>• Subscription streaming (Netflix), toll roads without congestion, golf clubs.<br>• *Market Mechanism:* Natural monopoly / price discrimination. |\n| **Non-Excludable** | **3. COMMON POOL RESOURCES**<br>• Groundwater aquifers, ocean fisheries, grazing pastures, clean air.<br>• *Market Failure:* Over-extraction (**Tragedy of the Commons**). | **4. PURE PUBLIC GOODS**<br>• National defense, law and order, streetlights, lighthouse beams.<br>• *Market Failure:* **Free-Rider Problem** (State must finance via taxes). |',
+        title: 'Positive vs Normative & Micro vs Macro Divisions',
+        body: `### 1. Positive Economics vs Normative Economics
+| Dimension | Positive Economics | Normative Economics |
+|---|---|---|
+| **Core Nature** | Objective, descriptive, empirical facts. | Subjective, prescriptive, ethical value judgments. |
+| **Question Answered** | *"What is? What happened? What will happen?"* | *"What ought to be? What should the government do?"* |
+| **Verifiability** | Can be tested and verified against empirical data. | Cannot be verified; represents opinions and philosophical priorities. |
+| **Example** | *"A 10% hike in fuel tax reduces petrol consumption by 3%."* | *"The government should reduce fuel taxes to protect poor households."* |
+
+### 2. Microeconomics vs Macroeconomics
+* **Microeconomics (Price Theory):** Studies the economic behaviour of individual economic agents (a single consumer, firm, industry, or market). Analyzes price determination for specific goods.
+* **Macroeconomics (Income & Employment Theory):** Studies the economy as an aggregate whole. Analyzes national income, aggregate price level (inflation), total unemployment, balance of payments, and monetary/fiscal policies.
+* **The Fallacy of Composition:** What is true for an individual may be disastrous if practiced by everyone simultaneously (e.g. **The Paradox of Thrift** — if one person saves more, their wealth increases; if all citizens save more simultaneously, aggregate demand collapses, triggering a national recession).`,
         order: 2,
       },
       {
-        type: 'MECHANISM',
-        title: 'Overcoming Market Failures: Hardin vs Elinor Ostrom',
-        body: '### 1. The Free-Rider Problem (Public Goods)\nBecause public goods are non-excludable, individuals have no rational economic incentive to pay voluntary prices, hoping others will pay while they consume for free. Therefore, private markets fail to supply them, requiring the **State** to levy compulsory taxes and provide them directly.\n\n### 2. The Tragedy of the Commons & Ostrom\'s Institutional Solution\nGarrett Hardin (1968) posited that rational individuals exploiting a common pasture will each add more cattle until the pasture is destroyed.\n* **Traditional Remedies:** Complete nationalization (state control) or privatization (creating individual property titles).\n* **Elinor Ostrom (Nobel Laureate, 1990):** Demonstrated empirically that local communities across the world manage common pool resources (e.g., Swiss mountain pastures, Japanese irrigation guilds, Indian forest protection committees) through self-governing collective rules, clear boundaries, graduated sanctions, and low-cost conflict resolution without state coercion.',
+        type: 'LEGAL_DISTINCTION',
+        title: 'The Goods Classification Matrix (Rivalry × Excludability)',
+        body: `Economics classifies all goods and services using two fundamental criteria:
+1. **Excludability:** Can a person be prevented from consuming the good if they do not pay for it?
+2. **Rivalry in Consumption:** Does one person's consumption of a unit reduce the quantity or quality available to others?
+
+| | **Rivalrous** (Consumption reduces availability) | **Non-Rivalrous** (One person's use does not diminish another's) |
+|---|---|---|
+| **Excludable** (Can prevent non-payers) | **PRIVATE GOODS**<br>• Food, clothes, cars, mobile phones.<br>• Market mechanism functions efficiently. | **CLUB GOODS (Toll Goods)**<br>• Cable TV, toll highways, cinema halls, software licenses.<br>• Natural monopoly characteristics. |
+| **Non-Excludable** (Cannot prevent non-payers) | **COMMON POOL RESOURCES**<br>• Groundwater aquifers, ocean fisheries, public pasture lands.<br>• **Tragedy of the Commons** (over-exploitation). | **PUBLIC GOODS**<br>• National defense, lighthouses, clean air, street lighting.<br>• **Free-Rider Problem** (market under-provides). |`,
         order: 3,
       },
       {
-        type: 'COMPARISON',
-        title: 'Merit Goods vs Demerit Goods vs Public Goods',
-        body: '| Category | Economic Definition | Consumer Valuation | Policy Intervention |\n| :--- | :--- | :--- | :--- |\n| **Merit Goods** | Excludable goods that generate positive externalities; society believes everyone should have them regardless of ability to pay. | Consumers undervalue due to imperfect information / myopia (e.g. Primary education, basic healthcare, vaccines). | Subsidized provision, universal mandates (RTE Act, Ayushman Bharat). |\n| **Demerit Goods** | Goods that generate negative externalities and private over-consumption. | Consumers overvalue due to addiction/myopia (e.g. Tobacco, alcohol, gambling). | Heavy Pigouvian taxation (sin taxes, GST cess), advertising bans. |\n| **Public Goods** | Non-excludable and non-rival goods. | Impossible for markets to charge individual prices. | Full budgetary financing and public administration. |',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Goods Typology',
-        body: '1. **Public Good vs Public Sector Provision:** A "public good" is defined by its *economic characteristics* (non-rival, non-excludable), NOT by whether the government produces it! When the government produces steel (SAIL) or runs an airline, steel and flights are **Private Goods** produced by the public sector.\n2. **Toll Roads & Congestion:** An uncrowded toll highway is a **Club Good** (excludable via toll booth, non-rival). When traffic jams occur during peak hours, it becomes a **Private Good** (excludable and rivalrous).\n3. **Lighthouses & Coase:** Ronald Coase demonstrated that historic English lighthouses were financed via port dues collected at private harbors, proving that creative institutional design can sometimes solve public good funding.',
-        order: 5,
+        title: 'Tragedy of the Commons & Free-Rider Dilemma',
+        body: `### 1. The Free-Rider Problem in Public Goods
+Because public goods are **non-excludable**, individuals have an incentive to consume them without paying for their production, expecting others to foot the bill. Consequently, private markets fail to supply public goods, requiring **tax-funded State provision**.
+
+### 2. The Tragedy of the Commons (Garrett Hardin, 1968)
+Because Common Pool Resources are **rivalrous but non-excludable**, individuals acting in self-interest maximize their personal extraction, leading to collective resource collapse:
+* **Indian Manifestation:** Severe groundwater depletion in Western Rajasthan, Punjab, and Haryana due to subsidized / free agricultural electricity.
+* **Institutional Solution (Elinor Ostrom, Nobel 2009):** Local community management and well-defined customary property rights can govern common resources sustainably without centralized state control.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Government Budgeting, Public Finance, Market Failures & Environmental Economics',
-        notes: 'Tested in Prelims (goods matrix, free rider problem) and Mains (Ostrom commons management).',
+        syllabusUnit: 'Paper 2: Microeconomics — Market Failure, Public Goods, Externalities and Common Resources',
+        notes: 'Exhaustively tests the 4-box goods classification matrix and market failure causes.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'UPSC_APFC',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'PROFICIENT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Market Failures, Public vs Private Goods',
-        notes: 'Tests definition of non-rivalry, non-excludability, and merit goods.',
+        syllabusUnit: 'General Studies: Indian Economy & Social Security — Public Goods vs Merit Goods',
+        notes: 'Tests public goods definitions, healthcare as a merit good, and Free-Rider dynamics.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Basic Concepts of Economics',
+        notes: '2-mark definitions of Public Goods, Positive vs Normative economics, and Common Resources.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Goods Matrix: Rival + Excludable = Private (Apples). Non-Rival + Excludable = Club (Netflix). Rival + Non-Excludable = Common Resource (Fisheries -> Tragedy of Commons). Non-Rival + Non-Excludable = Public Good (Defense -> Free Rider Problem). Elinor Ostrom (1990) = Community self-governance of commons. Merit Goods = Positive externalities (Education, Vaccines); Demerit = Negative externalities (Tobacco).',
+        content: 'Economic Systems: Capitalism (price mechanism), Socialism (central planning), Mixed (India). Positive = "what is" (empirical/verifiable); Normative = "what ought to be" (value judgment). Goods Matrix: Private (R+E), Public (NR+NE), Common Pool (R+NE -> Tragedy of Commons), Club (NR+E).',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Economic goods are categorized by excludability and rivalry. Private goods are rival and excludable. Public goods (non-rival, non-excludable) cause free-riding, requiring tax-financed state provision. Common pool resources (rival, non-excludable) risk the Tragedy of the Commons, remediated via state rules, private property, or Ostrom community governance. Merit goods generate positive externalities and are subsidized, while demerit goods face sin taxes.',
+        content: 'Three central economic problems: What, How, For Whom to produce. Microeconomics analyzes individual price determination (Fallacy of Composition warns against generalizing micro rules to macro). Positive economics states testable facts; Normative economics prescribes ethical goals. The Goods Matrix divides goods by Excludability (can you stop non-payers?) and Rivalry (does use diminish supply?). Public goods (non-rival, non-excludable) suffer from the Free-Rider Problem and require State funding. Common resources (rival, non-excludable) suffer from the Tragedy of the Commons (e.g. groundwater).',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. 2x2 Matrix: Excludability (pricing feasibility) vs Rivalry (consumption capacity).\n2. Four Quadrants: Private Goods (Rival/Excludable), Club Goods (Non-Rival/Excludable), Common Pool Resources (Rival/Non-Excludable), Public Goods (Non-Rival/Non-Excludable).\n3. Market Failures: Free-Rider Problem (Public Goods -> under-provision); Tragedy of the Commons (Hardin 1968 -> over-depletion).\n4. Institutional Solutions: Ostrom 8 design principles for CPRs.\n5. Policy Categories: Merit Goods (subsidized/mandated) vs Demerit Goods (Pigouvian sin taxes).',
+        content: 'Structural Foundations: 1. Economic Systems: Free Market vs Command vs Mixed. 2. Methodological Dichotomies: Positive vs Normative, Micro vs Macro. 3. Goods Taxonomy Matrix (2x2): Private, Club, Common Pool, Pure Public. 4. Market Failures: Free-Rider problem (Public Goods), Tragedy of the Commons (Common Resources - Ostrom framework).',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Which of the following correctly pairs an economic good category with its defining structural characteristics?',
+        stem: 'Which of the following statements represents a "Positive Economic Statement"?',
         options: [
-          'Public Good — Excludable and Rivalrous in consumption',
-          'Common Pool Resource — Non-excludable and Rivalrous in consumption',
-          'Club Good — Non-excludable and Non-rivalrous in consumption',
-          'Private Good — Non-excludable and Rivalrous in consumption',
+          'The government ought to provide free electricity to all small and marginal farmers.',
+          'Corporate tax rates in India should be reduced to 15% to stimulate private investment.',
+          'An increase in the minimum support price (MSP) of wheat by 10% led to a 4% increase in wheat acreage.',
+          'Income inequality in developing countries is unacceptably high and must be eradicated.',
         ],
-        correctAnswer: 'Common Pool Resource — Non-excludable and Rivalrous in consumption',
-        explanation: 'A Common Pool Resource (e.g. oceanic fisheries, groundwater) is non-excludable (it is difficult or prohibitively expensive to prevent non-payers from accessing it) but rivalrous in consumption (each fish caught or gallon of water pumped directly reduces the amount available to others).',
-        trapExplanation: 'Public goods are both non-excludable AND non-rival. Club goods are excludable and non-rival.',
+        correctAnswer: 'An increase in the minimum support price (MSP) of wheat by 10% led to a 4% increase in wheat acreage.',
+        explanation: 'A positive economic statement is an objective, empirical assertion describing "what is" or "what happened", which can be tested, proved, or disproved using data. The statement regarding the 10% MSP increase and 4% acreage response is a testable empirical relationship. All other options contain normative value judgments ("ought to", "should be", "unacceptably high").',
+        trapExplanation: 'Words like "ought to", "should", and "must" are definitive signposts of normative economics.',
+        difficulty: 'EASY',
+        isPYQ: true,
+        pyqYear: 2021,
+        pyqPaper: 'UPSC APFC / EPFO Prelims',
+        pyqStage: 'Recruitment Test',
+        pyqQuestionNumber: 42,
+        examinerTrapPattern: 'Confusing empirical cause-effect statements with policy recommendations.',
+      },
+      {
+        type: 'EXCEPTION_PROBE',
+        stem: 'Groundwater in an unmetered agricultural aquifer in Rajasthan is best classified under which category of economic goods?',
+        options: [
+          'A Pure Public Good, because water is essential for human life.',
+          'A Private Good, because land above the aquifer is privately owned.',
+          'A Club Good, because only landowners with borewells can access it.',
+          'A Common Pool Resource, because it is non-excludable but rivalrous in consumption.',
+        ],
+        correctAnswer: 'A Common Pool Resource, because it is non-excludable but rivalrous in consumption.',
+        explanation: 'Groundwater in a shared underground aquifer is a classic Common Pool Resource (Common Resource). It is non-excludable (it is virtually impossible to prevent neighboring farmers from digging borewells and pumping from the common aquifer), but it is rivalrous in consumption (water pumped out by one farmer reduces the water table and availability for all other farmers), inevitably leading to the Tragedy of the Commons.',
+        trapExplanation: 'Option A is incorrect because groundwater is rivalrous (water drawn is gone). Option C is incorrect because neighboring wells draw from the same shared pool without permission.',
         difficulty: 'MEDIUM',
         isPYQ: false,
+        examinerTrapPattern: 'Confusing moral importance of a good (water is essential) with economic classification (rivalry/excludability).',
       },
     ],
   },
 
+  // =========================================================================
+  // TOPIC 28: Theory of Demand, Supply & Market Equilibrium
+  // =========================================================================
   {
     id: 'CON-ECO-03',
-    topicOrder: 27,
-    topicSlug: 'foundations-of-economics-and-national-income',
-    topicTitle: 'Foundations of Economics & National Income Accounting',
-    topicDescription: 'Circular Flow of Income: Two, Three, and Four-Sector Models, Factor Payments, Injections & Leakages.',
-    slug: 'circular-flow-of-income-factor-payments-injections-and-leakages',
-    title: 'Circular Flow of Income, Factor Payments, Injections & Leakages',
-    shortDefinition: 'The macroeconomic framework describing the continuous circular movement of money, goods, services, and factor payments across households, production enterprises, government, and the external sector: the identity of National Output = National Income = National Expenditure, factor payments (Rent, Wages, Interest, Profit), and equilibrium dynamics of Injections (Investment, Government Spending, Exports) vs Leakages (Savings, Taxes, Imports).',
+    topicOrder: 28,
+    topicSlug: 'theory-of-demand-supply-and-market-equilibrium',
+    topicTitle: 'Theory of Demand, Supply & Market Equilibrium',
+    topicDescription: 'Laws of demand and supply, determinants, shifts vs movements, market price determination, and welfare surplus analysis.',
+    slug: 'theory-of-demand-law-of-demand-determinants-and-exceptions',
+    title: 'Theory of Demand: Law of Demand, Determinants, Shift vs Movement & Exceptions',
+    shortDefinition: 'The economic principle establishing an inverse relationship between price and quantity demanded (ceteris paribus), driven by income and substitution effects, and analyzed alongside Giffen and Veblen exceptions.',
     difficulty: 'BEGINNER',
     claims: [
       {
         id: 'CLM-ECO-03-01',
-        statement: 'In macroeconomic accounting, the Circular Flow of Income establishes the fundamental triple identity: Total National Value Added (Output) ≡ Total Factor Incomes Generated (Income) ≡ Total Final Spending on Goods and Services (Expenditure).',
+        statement: 'The Law of Demand states that ceteris paribus (all other factors remaining constant), the price and quantity demanded of a normal good are inversely related.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Simon Kuznets (National Income and Capital Formation, 1937); NCERT Class 12 Macroeconomics, Ch 2',
-        excerpt: 'Production generates income, income generates expenditure, expenditure creates production demand: Output ≡ Income ≡ Expenditure.',
+        locator: 'Alfred Marshall (1890) Principles of Economics, Book III, Chapter 3',
+        excerpt: 'The greater the amount to be sold, the smaller must be the price at which it is offered in order that it may find purchasers; or, in other words, the amount demanded increases with a fall in price, and diminishes with a rise in price.',
       },
       {
         id: 'CLM-ECO-03-02',
-        statement: 'The four factors of production earn four distinct factor payments from firms: Land earns Rent, Labor earns Wages, Capital earns Interest, and Enterprise/Entrepreneurship earns Profit.',
+        statement: 'A change in a good\'s own price causes a movement along its demand curve (change in quantity demanded), whereas changes in income, preferences, expectations, or related goods prices shift the entire demand curve.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Alfred Marshall, Principles of Economics; NCERT Class 12 Macroeconomics, Ch 2',
-        excerpt: 'Factor payments = Rent + Wages + Interest + Profit.',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 3: Demand',
+        excerpt: 'We must carefully distinguish between shifts of the demand curve and movements along the demand curve caused by a change in own-price.',
       },
       {
         id: 'CLM-ECO-03-03',
-        statement: 'In an open four-sector macroeconomy, macroeconomic equilibrium requires Total Injections (J = I + G + X) to equal Total Leakages (W = S + T + M); if Injections exceed Leakages, aggregate national income expands, whereas if Leakages exceed Injections, national income contracts.',
+        statement: 'Exceptions to the downward-sloping demand curve include Giffen Goods (highly inferior goods where the negative income effect overwhelms the substitution effect) and Veblen Goods (conspicuous status consumption).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'John Maynard Keynes, The General Theory of Employment, Interest and Money (1936)',
-        excerpt: 'Equilibrium condition: Injections (I + G + X) = Leakages (S + T + M).',
+        locator: 'Robert Giffen / Thorstein Veblen (1899) The Theory of the Leisure Class; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'For a Giffen good, the income effect is so strongly negative that it completely outweighs the substitution effect, resulting in an upward-sloping demand curve.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Continuous Loop of Economic Activity',
-        body: 'Every transaction in an economy has two sides: one person\'s expenditure is inevitably another person\'s income. When you purchase a train ticket from Indian Railways, that payment becomes revenue for the enterprise, which is subsequently distributed as wages to train drivers, interest to bondholders, rent to land authorities, and retained profit for capital expansion.\n\nThis continuous circular interdependence forms the **Circular Flow of Income**, linking household factor supply with firm goods production.',
-        order: 1,
-      },
-      {
-        type: 'CORE_IDEA',
-        title: 'The Multi-Sector Circular Flow Architecture',
-        body: '### 1. Two-Sector Model (Households & Firms)\n* **Real Flow (Physical):** Households provide **Factor Services** (Land, Labor, Capital, Enterprise) to Firms $\\rightarrow$ Firms provide **Final Goods & Services** to Households.\n* **Money Flow (Financial):** Firms pay **Factor Incomes** (Rent, Wages, Interest, Profit) to Households $\\rightarrow$ Households spend on **Consumption Expenditure ($C$)**.\n\n### 2. Three-Sector Model (Adding Government)\n* **Government Injections ($G$):** Public purchases of goods, civil infrastructure spending, government salaries.\n* **Government Leakages ($T$):** Direct and indirect taxes collected from households and firms.\n* **Transfer Payments ($TR$):** Pensions, scholarships, subsidies (transfers income without corresponding productive output).\n\n### 3. Four-Sector Open Economy Model (Adding External Sector)\n* **External Injections ($X$):** Export earnings from foreign buyers.\n* **External Leakages ($M$):** Import expenditures sent to foreign producers.',
-        order: 2,
-      },
-      {
-        type: 'MECHANISM',
-        title: 'Injections vs Leakages & Macroeconomic Equilibrium',
-        body: 'Macroeconomic equilibrium across the financial, fiscal, and external sectors is defined by the balance between Injections and Leakages:\n\n$$\\mathbf{\\text{Total Injections } (J) = \\text{Total Leakages } (W)}$$\n$$\\mathbf{I + G + X = S + T + M}$$\n\nRearranging into the fundamental macro-financial balance:\n\n$$\\mathbf{(S - I) + (T - G) = (X - M)}$$\n\n* **$(S - I)$:** Private Savings Balance (Household/Corporate net savings surplus).\n* **$(T - G)$:** Fiscal Balance (Government budget surplus or deficit).\n* **$(X - M)$:** Current Account / Trade Balance ($-\\text{CAD}$).\n\n*Insight:* If government runs a fiscal deficit ($G > T$) and private savings equal domestic investment ($S = I$), the economy **must run a current account deficit ($M > X$)**, proving the famous **Twin Deficit Hypothesis**.',
-        order: 3,
-      },
-      {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Factor Payments vs Transfer Payments (Accounting Distinction)',
-        body: '| Parameter | Factor Payments | Transfer Payments |\n| :--- | :--- | :--- |\n| **Definition** | Payments made to owners of production factors in exchange for productive services rendered. | Unilateral/unrequited payments made without any corresponding goods or services delivered in return. |\n| **Components** | Rent, Wages, Interest, Operating Surplus/Profit. | Old-age pensions, unemployment allowances, disaster relief grants, student scholarships, DBT cash transfers. |\n| **National Income Inclusion** | **INCLUDED** in National Income ($NNP_{FC}$) because they reflect real production. | **EXCLUDED** from National Income ($NNP_{FC}$) to prevent double counting (though included in Personal Disposable Income). |',
-        order: 4,
-      },
-      {
-        type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Circular Flow Accounting',
-        body: '1. **Retirement Pension vs Old-Age Social Pension:** *Retirement pensions* earned by retired employees are **deferred wages (Factor Payments)** and ARE included in National Income. *Old-age social pensions* (e.g. NSAP) are non-contributory welfare **Transfer Payments** and are EXCLUDED from National Income.\n2. **Inventory Accumulation:** Unsold goods produced by firms in a year are accounted for as **Intended/Unintended Capital Formation (Investment $I$)**, ensuring Output identically matches Income.\n3. **Intermediate Consumption Trap:** Expenditure by firms on raw materials is Intermediate Consumption, NOT final expenditure. Only **Final Consumption Expenditure** is counted in GDP.',
-        order: 5,
-      },
-    ],
-    examMappings: [
-      {
-        examCode: 'upsc-cse',
-        relevance: 'CORE_SYLLABUS',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Macroeconomics, Twin Deficits, National Accounting',
-        notes: 'Covers Injections vs Leakages, Twin Deficit identity, and factor vs transfer payments.',
-      },
-      {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
-        priority: 'HIGH',
-        requiredDepth: 'PROFICIENT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Macroeconomic Flows & National Income',
-        notes: 'Direct MCQs on 4 factors of production, leakages (S, T, M), and transfer payment rules.',
-      },
-    ],
-    revisionUnits: [
-      {
-        type: 'FLASH_30S',
-        content: 'Circular Flow: Output ≡ Income ≡ Expenditure. Factors = Land (Rent), Labor (Wages), Capital (Interest), Enterprise (Profit). Injections = I + G + X. Leakages = S + T + M. Equilibrium: I + G + X = S + T + M. Twin Deficits: (S - I) + (T - G) = (X - M). Factor Payments INCLUDED in National Income; Transfer Payments (DBT, scholarships) EXCLUDED from National Income.',
-        order: 1,
-      },
-      {
-        type: 'SUMMARY_2M',
-        content: 'The Circular Flow models the triple identity of production, income, and expenditure. Production creates factor incomes (Rent, Wages, Interest, Profit). Injections (Investment, Government Spending, Exports) expand aggregate income; Leakages (Savings, Taxes, Imports) drain income. National Income includes only Factor Payments and excludes unrequited Transfer Payments like social welfare pensions.',
-        order: 2,
-      },
-      {
-        type: 'ARCHITECTURE_5M',
-        content: '1. Real vs Money Flow: Physical factor services/goods vs financial income/expenditure.\n2. Injections (J): I (Capital formation) + G (Govt consumption) + X (Foreign export revenue).\n3. Leakages (W): S (Private savings) + T (Taxation) + M (Import expenditure).\n4. Macroeconomic Identity: (S - I) + (T - G) = (X - M) explaining twin fiscal and current account deficits.\n5. Accounting Rules: Factor payment = reward for productive service (included in GDP). Transfer payment = unilateral redistribution (excluded from GDP).',
-        order: 3,
-      },
-    ],
-    questions: [
-      {
-        type: 'CONCEPT_CHECK',
-        stem: 'Which of the following items is treated as a FACTOR PAYMENT and therefore included in the estimation of National Income?',
-        options: [
-          'Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) cash transfer to farmers',
-          'Old-age welfare pension granted under the National Social Assistance Programme',
-          'Employer contribution to employee provident fund and retirement pension',
-          'Scholarships awarded to university students based on merit',
-        ],
-        correctAnswer: 'Employer contribution to employee provident fund and retirement pension',
-        explanation: 'Employer contributions to provident funds and employee retirement pensions constitute deferred wages for factor services rendered (labor), making them compensation of employees (Factor Payment) included in National Income. PM-KISAN, old-age welfare pensions, and scholarships are unilateral transfer payments that do not reflect current production.',
-        trapExplanation: 'Candidates confuse retirement pensions (earned deferred compensation for past labor) with non-contributory old-age social welfare pensions (unilateral transfer).',
-        difficulty: 'MEDIUM',
-        isPYQ: false,
-      },
-    ],
-  },
+        title: 'Why Does Demand Slope Downward?',
+        body: `When the price of a cup of tea rises from ₹10 to ₹20, two distinct psychological and economic forces simultaneously drive down consumption:
+1. **The Substitution Effect (Always Negative):** Tea becomes relatively more expensive compared to close substitutes (coffee, green tea, lemon water). Rational consumers substitute away from tea toward cheaper alternatives.
+2. **The Income Effect:** The higher price erodes the consumer's **real purchasing power** (real income). With the same nominal wallet, the consumer can afford fewer total goods and reduces consumption of tea.
 
-  {
-    id: 'CON-ECO-04',
-    topicOrder: 27,
-    topicSlug: 'foundations-of-economics-and-national-income',
-    topicTitle: 'Foundations of Economics & National Income Accounting',
-    topicDescription: 'National Income Aggregates Ladder: GDP, NDP, GNP, NNP & Transition between Factor Cost, Basic Prices, and Market Prices.',
-    slug: 'national-income-aggregates-gdp-ndp-gnp-nnp-factor-cost-basic-prices-market-prices',
-    title: 'National Income Aggregates Ladder: GDP, NDP, GNP, NNP & Factor Cost vs Basic Prices vs Market Prices',
-    shortDefinition: 'The mathematical step-ladder connecting all eight national income aggregates: Gross vs Net (Depreciation / Consumption of Fixed Capital), Domestic vs National (Net Factor Income from Abroad - NFIA), and the modern 2015 SNA methodology linking Factor Cost, Basic Prices (Production Taxes/Subsidies), and Market Prices (Product Taxes/Subsidies), establishing NNP at Factor Cost as canonical National Income.',
-    difficulty: 'INTERMEDIATE',
-    claims: [
-      {
-        id: 'CLM-ECO-04-01',
-        statement: 'The transition from Gross aggregates to Net aggregates across all national accounts is defined by deducting Depreciation (Consumption of Fixed Capital): Net Aggregate = Gross Aggregate - Depreciation.',
-        claimType: 'CORE_PRINCIPLE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'System of National Accounts (SNA 2008); Ministry of Statistics and Programme Implementation (MoSPI)',
-        excerpt: 'Net = Gross - Depreciation (Consumption of Fixed Capital).',
-      },
-      {
-        id: 'CLM-ECO-04-02',
-        statement: 'The transition from Domestic aggregates to National aggregates is defined by adding Net Factor Income from Abroad (NFIA): National Aggregate = Domestic Aggregate + NFIA (where NFIA = Factor income earned by residents abroad - Factor income paid to non-residents within domestic territory).',
-        claimType: 'CORE_PRINCIPLE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'MoSPI National Accounts Statistics; NCERT Class 12 Macroeconomics, Ch 2',
-        excerpt: 'National = Domestic + NFIA.',
-      },
-      {
-        id: 'CLM-ECO-04-03',
-        statement: 'Under India\'s revised National Accounts series (base year 2011-12, adopted January 2015 conforming to SNA 2008), Headline GDP is reported as GDP at Market Prices, connected via: GVA at Basic Prices = GVA at Factor Cost + (Production Taxes - Production Subsidies); GDP at Market Prices = GVA at Basic Prices + (Product Taxes - Product Subsidies).',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Central Statistics Office (CSO/MoSPI) Press Release on Revision of Base Year (Jan 2015); RBI Handbook of Statistics',
-        excerpt: 'GDP at Market Prices = GVA at Basic Prices + Net Product Taxes. GVA at Basic Prices = GVA at Factor Cost + Net Production Taxes.',
-      },
-    ],
-    contentBlocks: [
-      {
-        type: 'INTUITION',
-        title: 'Navigating the 8 Macroeconomic Aggregates',
-        body: 'Macroeconomic news frequently interchanges GDP, GNP, National Income, and GVA. While related, each aggregate measures a distinct spatial, ownership, or valuation boundary of an economy.\n\n* **Gross Domestic Product (GDP):** Measures everything produced **within India\'s geographic borders**, regardless of whether the producer is an Indian citizen or a foreign MNC.\n* **Gross National Product (GNP):** Measures everything produced by **Indian citizens and enterprises worldwide**, excluding output produced by foreign citizens inside India.\n* **National Income (Strict Economic Definition):** $\\text{NNP}_{\\text{FC}}$ (Net National Product at Factor Cost).',
+Together, the Substitution Effect and Income Effect explain the fundamental downward slope of the demand curve:
+
+$$Q_D = a - bP \\quad (b > 0)$$`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The 3 Master Mathematical Conversion Rules',
-        body: 'Every national income aggregate is built using three binary conversion switches:\n\n$$\\begin{aligned}\n\\mathbf{1.\\; \\text{Gross} \\leftrightarrow \\text{Net:}} & \\quad \\text{Net} = \\text{Gross} - \\text{Depreciation (Consumption of Fixed Capital)} \\\\[6pt]\n\\mathbf{2.\\; \\text{Domestic} \\leftrightarrow \\text{National:}} & \\quad \\text{National} = \\text{Domestic} + \\text{NFIA} \\\\[6pt]\n\\mathbf{3.\\; \\text{Factor Cost} \\leftrightarrow \\text{Market Price:}} & \\quad \\text{Market Price} = \\text{Factor Cost} + \\text{Net Indirect Taxes (NIT)}\n\\end{aligned}$$\n\nWhere:\n* **$\\text{NFIA}$:** Net Factor Income from Abroad = (Factor Income earned by Indian residents abroad) $-$ (Factor Income earned by foreign residents in India).\n* **$\\text{NIT}$:** Net Indirect Taxes = Indirect Taxes $-$ Subsidies.',
+        title: 'Determinants of Demand & Shift vs Movement',
+        body: `### 1. Movement Along the Demand Curve (Change in Quantity Demanded)
+* Caused **strictly and exclusively by a change in the own price ($P_x$)** of the good.
+* A price cut causes **Expansion / Extension of Demand** (downward movement along the curve).
+* A price hike causes **Contraction of Demand** (upward movement along the curve).
+
+### 2. Shift of the Demand Curve (Change in Demand)
+* Caused by changes in **non-price determinants** while own-price remains unchanged:
+  - **Consumer Income ($Y$):** Increase in income shifts demand rightward for **Normal Goods**, but leftward for **Inferior Goods** (e.g. coarse cereals, kerosene).
+  - **Price of Substitute Goods ($P_s$):** Rise in tea price shifts coffee demand to the right.
+  - **Price of Complementary Goods ($P_c$):** Rise in petrol price shifts car demand to the left.
+  - **Consumer Tastes & Preferences ($T$)** and Future Price Expectations ($E_p$).`,
         order: 2,
-      },
-      {
-        type: 'MECHANISM',
-        title: 'The 2015 SNA Methodology: Production vs Product Taxes',
-        body: 'In January 2015, MoSPI revised India\'s national accounting to align with the **UN System of National Accounts (SNA 2008)**, introducing the intermediary concept of **Basic Prices**:\n\n```mermaid\ngraph TD\n    FC["GVA at Factor Cost (Pure Factory Cost)"] -->|"+ Net Production Taxes (Land revenue, stamp duty, municipal tax - subsidies)"| BP["GVA at Basic Prices (Producer Price)"]\n    BP -->|"+ Net Product Taxes (GST, customs, excise - product subsidies)"| MP["GDP at Market Prices (Headline GDP)"]\n```\n\n### Production Taxes/Subsidies vs Product Taxes/Subsidies\n* **Production Taxes/Subsidies:** Independent of physical production volume (e.g. Land revenue, stamp duties, professional tax, factory license fees; production subsidies like subsidies to small-scale units).\n* **Product Taxes/Subsidies:** Levied strictly per unit of output (e.g. GST, Central Excise on petroleum, Customs duty; product subsidies like food, fertilizer, and LPG subsidies).',
-        order: 3,
       },
       {
         type: 'COMPARISON',
-        title: 'The 8 National Income Aggregates Matrix',
-        body: '| Aggregate | Full Name | Formal Conversion Formula | Primary Economic Interpretation |\n| :--- | :--- | :--- | :--- |\n| **$\\text{GDP}_{\\text{MP}}$** | Gross Domestic Product at Market Price | $\\sum \\text{GVA}_{\\text{BP}} + \\text{Net Product Taxes}$ | **Headline GDP of India**; total domestic market output. |\n| **$\\text{NDP}_{\\text{MP}}$** | Net Domestic Product at Market Price | $\\text{GDP}_{\\text{MP}} - \\text{Depreciation}$ | Output available after accounting for capital wear and tear. |\n| **$\\text{GNP}_{\\text{MP}}$** | Gross National Product at Market Price | $\\text{GDP}_{\\text{MP}} + \\text{NFIA}$ | Total market income generated by Indian nationals globally. |\n| **$\\text{NNP}_{\\text{MP}}$** | Net National Product at Market Price | $\\text{GNP}_{\\text{MP}} - \\text{Depreciation}$ | Net market income belonging to national residents. |\n| **$\\text{GDP}_{\\text{FC}}$** | Gross Domestic Product at Factor Cost | $\\text{GDP}_{\\text{MP}} - \\text{NIT}$ | Total factory-gate cost of domestic output (pre-2015 headline). |\n| **$\\text{NDP}_{\\text{FC}}$** | Net Domestic Product at Factor Cost | $\\text{NDP}_{\\text{MP}} - \\text{NIT}$ | Total factor income generated within domestic boundary. |\n| **$\\text{GNP}_{\\text{FC}}$** | Gross National Product at Factor Cost | $\\text{GNP}_{\\text{MP}} - \\text{NIT}$ | Total factor earnings of citizens before depreciation. |\n| **$\\text{NNP}_{\\text{FC}}$** | Net National Product at Factor Cost | $\\text{NNP}_{\\text{MP}} - \\text{NIT}$ | **CANONICAL NATIONAL INCOME** of India. |',
-        order: 4,
+        title: 'Exceptions to the Law of Demand: Giffen vs Veblen Goods',
+        body: `| Dimension | Giffen Goods | Veblen Goods (Conspicuous Goods) |
+|---|---|---|
+| **Originator** | Sir Robert Giffen (Scottish Statistician) | Thorstein Veblen (*Theory of the Leisure Class*, 1899) |
+| **Core Motivation** | Extreme poverty / subsistence survival necessity. | Social status, prestige, conspicuous display of wealth. |
+| **Good Category** | Highly inferior staple food (e.g. cheap potatoes, bajra, broken rice). | Ultra-luxury items (e.g. Rolex watches, diamonds, luxury supercars). |
+| **Price-Demand Relationship** | Direct (upward-sloping demand curve). Price rise forces poor households to abandon meat and buy *more* staple potatoes. | Direct (upward-sloping demand curve). High price acts as a signal of exclusivity; price drop reduces prestige appeal. |
+| **Theoretical Mechanism** | Negative Income Effect > Substitution Effect. | Snob Appeal / Demonstration Effect ($E_p > 0$). |`,
+        order: 3,
       },
       {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in National Income Calculations',
-        body: '1. **Remittances Trap (Inward vs Factor Income):** Inward remittances sent by Indian workers abroad (e.g., non-resident workers in the Gulf) are **Current Private Transfers**, NOT Factor Incomes! They are recorded in the Balance of Payments Current Account and contribute to *Gross National Disposable Income (GNDI)*, but are EXCLUDED from NFIA and GNP.\n2. **India\'s Historical GNP vs GDP:** For India, **GNP is consistently smaller than GDP** ($\text{GNP} < \text{GDP}$) because Net Factor Income from Abroad (NFIA) is negative (income outflows to foreign investors on FDI/loans exceed factor earnings of Indians abroad).\n3. **Headline Growth Metric:** Pre-2015 headline GDP growth was measured by $\text{GDP}_{\text{FC}}$; post-2015 headline growth is officially measured by **$\text{GDP}_{\text{MP}}$**.',
-        order: 5,
+        title: 'Competitive Exam Traps in Demand Theory',
+        body: `### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: All Giffen Goods are Inferior Goods, but NOT all Inferior Goods are Giffen Goods:** For an ordinary inferior good (e.g. toned milk), income effect is negative, but the substitution effect still dominates, so demand still slopes downward. Only in extreme Giffen goods does the negative income effect overwhelm the substitution effect.
+* ⚠️ **Trap 2: Shift vs Movement Question Wording:** When an exam says *"Income of consumers doubled, leading to higher car sales"*, this is an **Increase in Demand (Rightward Shift)**, NOT an expansion of demand.
+* ⚠️ **Trap 3: Veblen vs Giffen in Practice:** Giffen goods stem from poverty constraints; Veblen goods stem from status signaling. Never confuse their income groups.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: National Income Accounting, 2015 Base Year Revision, GVA vs GDP',
-        notes: 'Frequent Prelims trap on Production vs Product taxes and NFIA vs remittances.',
+        syllabusUnit: 'Paper 2: Microeconomics — Demand Theory, Elasticity and Consumer Behaviour',
+        notes: 'Frequently tests Giffen vs Inferior goods condition (Income Effect vs Substitution Effect) and shifts vs movements.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module A - National Income Concepts & Computation',
-        notes: 'Numerical problems converting GDP_MP to NNP_FC using depreciation and NIT.',
-      },
-      {
-        examCode: 'rpsc-ras',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'PROFICIENT',
-        syllabusUnit: 'Economics: National Income Aggregates and Methods of Calculation',
-        notes: 'Direct conceptual questions in Prelims & Mains Paper I.',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Price Theory and Demand Dynamics',
+        notes: 'Foundational for understanding inflation expectations and food demand elasticity in India.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Law of Demand and Elasticity',
+        notes: 'Direct 5-mark question on reasons for downward slope of demand curve and Giffen paradox.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Net = Gross - Depreciation. National = Domestic + NFIA. Market Price = Factor Cost + Net Indirect Taxes (NIT). Canonical National Income = NNP at Factor Cost. 2015 SNA Reform: Headline GDP = GDP at Market Prices. GVA at Basic Prices = GVA_FC + Net Production Taxes. GDP_MP = GVA_BP + Net Product Taxes. India GNP < GDP because NFIA is negative.',
+        content: 'Law of Demand: Price and quantity demanded inversely related (ceteris paribus) via Substitution Effect + Income Effect. Own-price change = movement along curve (expansion/contraction). Non-price changes (income, substitutes, complements) = shift of curve. Giffen good: Income Effect > Substitution Effect (upward sloping).',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'National income aggregates are connected via three bridge formulas: Depreciation bridges Gross to Net; NFIA bridges Domestic to National; Net Indirect Taxes bridge Factor Cost to Market Price. Canonical National Income is NNP_FC. Since the 2015 base revision (2011-12), India reports headline GDP at Market Prices derived from GVA at Basic Prices plus Net Product Taxes.',
+        content: 'Demand slopes downward due to the Law of Diminishing Marginal Utility, Substitution Effect (switching to cheaper alternatives), and Income Effect (change in real purchasing power). Shift vs Movement: Own price changes quantity demanded (movement along curve); Income, tastes, substitute prices ($P_s \\uparrow \\implies D_x \\uparrow$), and complement prices ($P_c \\uparrow \\implies D_x \\downarrow$) shift the entire demand curve. Giffen Goods are ultra-inferior goods where negative income effect outweighs substitution effect. Veblen goods derive demand from status signaling.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Conversion Operators:\n   - Gross - Dep = Net\n   - Domestic + NFIA = National\n   - Factor Cost + NIT = Market Price\n2. Modern 2015 SNA Value Chain:\n   GVA_FC + (Production Taxes - Subsidies) = GVA at Basic Prices.\n   GVA_BP + (Product Taxes - Subsidies) = GDP at Market Prices.\n3. National Income Identity: National Income ≡ NNP_FC.\n4. Foreign Factor Earnings vs Transfers: Remittances are private transfers (GNDI), not factor income (NFIA).',
+        content: 'Demand Theory Framework: 1. Mathematical Function: $Q_D = f(P_x, Y, P_s, P_c, T, E)$. 2. Causal Foundations: Marshallian DMU + Hicksian Income/Substitution Effects. 3. Dynamics: Own price change (Movement) vs Parameter change (Shift). 4. Exceptions: Giffen Paradox (Poverty survival), Veblen Effect (Snob appeal), Speculative Bubbles.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Under India\'s revised National Accounts methodology (2011-12 base series), what is added to "GVA at Basic Prices" to arrive at "GDP at Market Prices"?',
+        stem: 'Which of the following statements correctly distinguishes a "Giffen Good" from a standard "Inferior Good"?',
         options: [
-          'Net Factor Income from Abroad (NFIA)',
-          'Net Product Taxes (Product Taxes minus Product Subsidies)',
-          'Net Production Taxes (Production Taxes minus Production Subsidies)',
-          'Consumption of Fixed Capital (Depreciation)',
+          'A Giffen good is purchased by wealthy consumers, whereas an inferior good is purchased by low-income households.',
+          'For a Giffen good, the substitution effect is positive, whereas for an inferior good it is negative.',
+          'For a Giffen good, the negative income effect is larger in magnitude than the substitution effect, causing demand to rise when price rises.',
+          'All inferior goods have upward-sloping demand curves, whereas Giffen goods have downward-sloping demand curves.',
         ],
-        correctAnswer: 'Net Product Taxes (Product Taxes minus Product Subsidies)',
-        explanation: 'Under the 2015 revision (SNA 2008), GVA at Basic Prices is adjusted by adding Net Product Taxes (per-unit taxes like GST and excise duty minus per-unit product subsidies on food/fertilizers) to compute GDP at Market Prices.',
-        trapExplanation: 'Net Production Taxes are added to GVA at Factor Cost to arrive at GVA at Basic Prices, not to go from Basic Prices to Market Prices.',
-        difficulty: 'HARD',
+        correctAnswer: 'For a Giffen good, the negative income effect is larger in magnitude than the substitution effect, causing demand to rise when price rises.',
+        explanation: 'All Giffen goods are inferior goods, but only those inferior goods where the negative income effect is strong enough to overwhelm the substitution effect violate the Law of Demand. When the price of a Giffen good rises, the loss of real income forces the poor consumer to cut back on expensive foods (like meat/vegetables) and buy even more of the cheap staple (Giffen good).',
+        trapExplanation: 'Option B is incorrect because the substitution effect is mathematically ALWAYS negative for all goods without exception. Option D is inverted.',
+        difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 28,
+        examinerTrapPattern: 'Testing whether the student knows the substitution effect is ALWAYS negative even for Giffen goods.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'Suppose the price of Compressed Natural Gas (CNG) increases sharply across Indian metro cities. Assuming electric auto-rickshaws are a close substitute for CNG auto-rickshaws, what is the expected market impact on electric auto-rickshaws?',
+        options: [
+          'A downward movement along the electric auto-rickshaw demand curve.',
+          'A rightward shift of the electric auto-rickshaw demand curve.',
+          'A leftward shift of the electric auto-rickshaw demand curve.',
+          'A decrease in the equilibrium price of electric auto-rickshaws.',
+        ],
+        correctAnswer: 'A rightward shift of the electric auto-rickshaw demand curve.',
+        explanation: 'When two goods are substitutes, an increase in the price of Good A (CNG) makes Good B (electric vehicles) relatively more attractive. Because the price of electric auto-rickshaws itself did not change, this represents a non-price determinant change, causing the entire demand curve for electric auto-rickshaws to shift to the right (increase in demand).',
+        trapExplanation: 'Option A confuses a shift of the demand curve with a movement along the curve.',
+        difficulty: 'EASY',
         isPYQ: false,
+        examinerTrapPattern: 'Testing cross-price elasticity effect as a shift vs movement.',
       },
     ],
   },
+  {
+    id: 'CON-ECO-04',
+    topicOrder: 28,
+    topicSlug: 'theory-of-demand-supply-and-market-equilibrium',
+    topicTitle: 'Theory of Demand, Supply & Market Equilibrium',
+    topicDescription: 'Laws of demand and supply, determinants, shifts vs movements, market price determination, and welfare surplus analysis.',
+    slug: 'theory-of-supply-law-of-supply-and-market-equilibrium-price',
+    title: 'Theory of Supply, Law of Supply & Market Equilibrium Price Determination',
+    shortDefinition: 'The economic principle establishing a direct relationship between price and quantity supplied, and the market-clearing equilibrium mechanism resolving excess demand (shortages) and excess supply (surpluses).',
+    difficulty: 'BEGINNER',
+    claims: [
+      {
+        id: 'CLM-ECO-04-01',
+        statement: 'The Law of Supply states that ceteris paribus, price and quantity supplied are directly related; higher market prices incentivize higher production along the upward-sloping marginal cost curve.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 22: Firm Supply',
+        excerpt: 'The competitive firm\'s supply curve is precisely the upward-sloping portion of its marginal cost curve that lies above average variable cost.',
+      },
+      {
+        id: 'CLM-ECO-04-02',
+        statement: 'Market equilibrium occurs at the unique price-quantity combination where quantity demanded equals quantity supplied ($Q_D = Q_S$), leaving no unintended inventories or unmet demand.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Basic Elements of Supply and Demand',
+        excerpt: 'The market equilibrium comes at that price and quantity where the forces of supply and demand are in balance. At the equilibrium price, the amount that buyers want to buy is just equal to the amount that sellers want to sell.',
+      },
+      {
+        id: 'CLM-ECO-04-03',
+        statement: 'Simultaneous shifts in demand and supply produce determinate changes in either equilibrium price or quantity, while the change in the other variable depends strictly on the relative magnitudes of the two shifts.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'N. Gregory Mankiw, Principles of Microeconomics, Chapter 4',
+        excerpt: 'When both supply and demand curves shift simultaneously, one of the two equilibrium variables (price or quantity) will change unambiguously, while the other is ambiguous without knowing the relative magnitude of shifts.',
+      },
+    ],
+    contentBlocks: [
+      {
+        type: 'INTUITION',
+        title: 'Why Does Supply Slope Upward?',
+        body: `While consumers seek to maximize utility, producers seek to **maximize profit** ($\\text{Profit} = \\text{Total Revenue} - \\text{Total Cost}$).
 
+As a firm expands production in the short run, it encounters diminishing marginal returns, causing the **Marginal Cost (MC)** of producing additional units to rise. A rational firm will produce additional units only if the market price rises high enough to cover this escalating marginal cost.
+
+Therefore, the **firm's supply curve is identical to its Marginal Cost curve** (above the minimum Average Variable Cost):
+
+$$Q_S = -c + dP \\quad (d > 0)$$`,
+        order: 1,
+      },
+      {
+        type: 'CORE_IDEA',
+        title: 'Market Equilibrium & The Self-Correcting Price Mechanism',
+        body: `Market equilibrium is established at the intersection of aggregate demand and aggregate supply:
+
+$$Q_D(P^*) = Q_S(P^*)$$
+
+\`\`\`
+Price (P)
+  ^
+  |        \         / (Supply Curve)
+  |         \       /
+P1|---------\-----/------- [Excess Supply / Surplus -> Price Falls]
+  |          \   /
+P*|----------- X --------- [Market Equilibrium: QD = QS]
+  |          /   \
+P2|---------/-----\------- [Excess Demand / Shortage -> Price Rises]
+  |        /       \ (Demand Curve)
+  +-------------------------> Quantity (Q)
+\`\`\`
+
+### Automatic Stabilizing Mechanisms:
+1. **If Market Price is above Equilibrium ($P_1 > P^*$):** Quantity supplied exceeds quantity demanded ($Q_S > Q_D$). Unsold inventories pile up in warehouses. Sellers cut prices to clear stocks, driving price down toward $P^*$.
+2. **If Market Price is below Equilibrium ($P_2 < P^*$):** Quantity demanded exceeds quantity supplied ($Q_D > Q_S$). Long queues and shortages develop. Eager buyers bid up prices, incentivizing higher production until price reaches $P^*$.`,
+        order: 2,
+      },
+      {
+        type: 'MECHANISM',
+        title: 'Simultaneous Shifts in Supply & Demand Matrix',
+        body: `A classic competitive examination testing topic is analyzing simultaneous shifts:
+
+| Shift Scenario | Equilibrium Price ($P^*$) | Equilibrium Quantity ($Q^*$) |
+|---|---|---|
+| **Demand Increases ($\\uparrow$) & Supply Increases ($\\uparrow$)** | **Ambiguous** (Depends on which shifts more) | **Unambiguously Increases ($\\uparrow$)** |
+| **Demand Decreases ($\\downarrow$) & Supply Decreases ($\\downarrow$)** | **Ambiguous** | **Unambiguously Decreases ($\\downarrow$)** |
+| **Demand Increases ($\\uparrow$) & Supply Decreases ($\\downarrow$)** | **Unambiguously Increases ($\\uparrow$)** | **Ambiguous** (Depends on shift magnitudes) |
+| **Demand Decreases ($\\downarrow$) & Supply Increases ($\\uparrow$)** | **Unambiguously Decreases ($\\downarrow$)** | **Ambiguous** |`,
+        order: 3,
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Indian Policy Application & Agricultural Volatility',
+        body: `### Indian Agricultural Price Spikes: The Onion & Tomato Shock
+In India, unseasonal monsoon rainfall destroys crops, shifting the agricultural **Supply Curve sharply to the left**. Because short-run food demand is highly inelastic, this causes **Equilibrium Price to skyrocket**, generating severe food inflation spikes.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Ambiguity in Simultaneous Shifts:** If both demand and supply increase by identical magnitudes, equilibrium quantity rises sharply, but **equilibrium price remains completely unchanged**.
+* ⚠️ **Trap 2: Tax Shift Direction:** Imposition of a GST or per-unit excise tax shifts the **Supply Curve vertically upward (leftward)** by the exact amount of the tax.`,
+        order: 4,
+      },
+    ],
+    examMappings: [
+      {
+        examCode: 'SEBI_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'EXPERT',
+        syllabusUnit: 'Paper 2: Microeconomics — Supply Theory, Market Equilibrium, Price Mechanism',
+        notes: 'Frequently tests simultaneous shifts table and mathematical calculation of equilibrium price and quantity.',
+      },
+      {
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Food Inflation and Supply Shocks',
+        notes: 'Crucial for analyzing agricultural supply chain bottlenecks and headline inflation spikes.',
+      },
+      {
+        examCode: 'SBI_PO',
+        relevance: 'DIRECT_OVERLAY',
+        priority: 'MEDIUM',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains: General / Banking Awareness — Market Dynamics and Price Mechanism',
+        notes: 'Tests market clearing concepts and impact of commodity price shocks.',
+      },
+    ],
+    revisionUnits: [
+      {
+        type: 'FLASH_30S',
+        content: 'Law of Supply: Price and quantity supplied are directly related (MC curve = supply curve above min AVC). Market Equilibrium: $Q_D = Q_S$. Excess demand ($P < P^*$) causes shortages and price hikes; Excess supply ($P > P^*$) causes surpluses and price cuts. Both curves shift right -> Quantity definitely rises, Price is ambiguous.',
+        order: 1,
+      },
+      {
+        type: 'SUMMARY_2M',
+        content: 'Supply slopes upward because rising output encounters diminishing returns, increasing marginal costs. Equilibrium price clears the market ($Q_D = Q_S$). When Demand increases and Supply increases simultaneously, Equilibrium Quantity ALWAYS increases, but Equilibrium Price depends on relative shift magnitudes. When Demand increases and Supply decreases, Equilibrium Price ALWAYS increases, but Equilibrium Quantity is ambiguous.',
+        order: 2,
+      },
+      {
+        type: 'ARCHITECTURE_5M',
+        content: 'Market Equilibrium Engine: 1. Supply Function: $Q_S = f(P_x, P_{\\text{inputs}}, \\text{Tech}, \\text{Taxes})$. 2. Equilibrium Condition: $Q_D(P) = Q_S(P)$. 3. Walrasian Price Tatonnement: $\\frac{dP}{dt} = \\alpha(Q_D - Q_S)$. 4. Shift Combinatorics: 4 discrete double-shift cases with invariant vs ambiguous outcomes.',
+        order: 3,
+      },
+    ],
+    questions: [
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'If market demand is given by $Q_D = 1200 - 4P$ and market supply is given by $Q_S = 200 + 6P$, what are the equilibrium price ($P^*$) and equilibrium quantity ($Q^*$)?',
+        options: [
+          '$P^* = 100, Q^* = 800$',
+          '$P^* = 140, Q^* = 640$',
+          '$P^* = 100, Q^* = 600$',
+          '$P^* = 80, Q^* = 880$',
+        ],
+        correctAnswer: '$P^* = 100, Q^* = 800$',
+        explanation: 'Set $Q_D = Q_S$: $1200 - 4P = 200 + 6P \\implies 1000 = 10P \\implies P^* = 100$. Substitute $P = 100$ back into demand: $Q^* = 1200 - 4(100) = 800$ (or into supply: $Q^* = 200 + 6(100) = 800$).',
+        trapExplanation: 'Option C incorrectly computes quantity using a subtraction error.',
+        difficulty: 'EASY',
+        isPYQ: true,
+        pyqYear: 2020,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 18,
+        examinerTrapPattern: 'Basic linear supply-demand algebra.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'In the Indian commercial aviation market, consumer incomes rise substantially (increasing demand for flights), while at the same time Aviation Turbine Fuel (ATF) prices fall sharply (reducing airline operating costs). What is the unambiguous effect on the aviation market equilibrium?',
+        options: [
+          'Equilibrium ticket price will unambiguously increase.',
+          'Equilibrium ticket price will unambiguously decrease.',
+          'Equilibrium flight passenger volume (quantity) will unambiguously increase.',
+          'Equilibrium flight passenger volume (quantity) will unambiguously decrease.',
+        ],
+        correctAnswer: 'Equilibrium flight passenger volume (quantity) will unambiguously increase.',
+        explanation: 'Here, Demand shifts to the right ($\\uparrow$ due to higher income) and Supply shifts to the right ($\\uparrow$ due to lower input fuel costs). When both demand and supply increase simultaneously, Equilibrium Quantity UNAMBIGUOUSLY increases. The impact on equilibrium price is ambiguous without knowing which curve shifted by a greater distance.',
+        trapExplanation: 'Options A and B are incorrect because price direction is indeterminate without knowing the exact relative magnitudes of the two shifts.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the invariant vs ambiguous variable in simultaneous rightward shifts.',
+      },
+    ],
+  },
   {
     id: 'CON-ECO-05',
-    topicOrder: 27,
-    topicSlug: 'foundations-of-economics-and-national-income',
-    topicTitle: 'Foundations of Economics & National Income Accounting',
-    topicDescription: 'Methods of National Income Calculation: Production (GVA), Income & Expenditure Approaches.',
-    slug: 'methods-of-national-income-calculation-production-income-expenditure-approaches',
-    title: 'Methods of National Income Calculation: Production (GVA), Income & Expenditure Approaches',
-    shortDefinition: 'The three independent computational approaches to measuring national income: the Production Method (Gross Value Added = Value of Output minus Intermediate Consumption, avoiding double counting via value-added summation), the Income Method (summing factor rewards: Compensation of Employees, Operating Surplus, and Mixed Income of the Self-Employed), and the Expenditure Method ($Y = C + I + G + (X - M)$).',
+    topicOrder: 28,
+    topicSlug: 'theory-of-demand-supply-and-market-equilibrium',
+    topicTitle: 'Theory of Demand, Supply & Market Equilibrium',
+    topicDescription: 'Laws of demand and supply, determinants, shifts vs movements, market price determination, and welfare surplus analysis.',
+    slug: 'elasticity-suite-price-income-cross-elasticity-and-total-outlay',
+    title: 'Elasticity Suite: Price, Income, Cross Elasticity of Demand & Elasticity of Supply',
+    shortDefinition: 'The quantitative responsiveness of quantity demanded or supplied to changes in price, consumer income, or related goods prices, including Point, Arc, Cross, and Total Outlay revenue methods.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-05-01',
-        statement: 'Under the Production (Value Added) Method, Gross Value Added ($GVA$) equals the Value of Gross Output minus Intermediate Consumption; summing GVA across all producing enterprises avoids the error of double counting.',
+        statement: 'Price Elasticity of Demand ($e_d$) measures the percentage responsiveness of quantity demanded to a percentage change in own price, defined mathematically as $e_d = -\\frac{\\Delta Q}{\\Delta P} \\cdot \\frac{P}{Q}$ (point) or via midpoint arc formula.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'MoSPI National Accounts Statistics; NCERT Class 12 Macroeconomics, Ch 2',
-        excerpt: 'GVA = Value of Output - Intermediate Consumption.',
+        locator: 'Alfred Marshall (1890) Principles of Economics, Book III, Chapter 4: The Elasticity of Desires',
+        excerpt: 'The elasticity (or responsiveness) of demand in a market is great or small according as the amount demanded increases much or little for a given fall in price.',
       },
       {
         id: 'CLM-ECO-05-02',
-        statement: 'Under the Income Method, Domestic Factor Income ($NDP_{FC}$) is the sum of Compensation of Employees (wages/salaries/benefits), Operating Surplus (rent + interest + corporate profits), and Mixed Income of the Self-Employed (unincorporated household enterprises where labor and capital rewards cannot be disentangled).',
+        statement: 'Cross Elasticity of Demand ($E_{xy} = \\frac{\\% \\Delta Q_x}{\\% \\Delta P_y}$) is positive ($> 0$) for substitute goods and negative ($< 0$) for complementary goods; Income Elasticity ($E_Y$) is negative for inferior goods, $0 < E_Y < 1$ for necessities, and $> 1$ for luxury goods.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'System of National Accounts 2008; MoSPI Methodology of National Accounts',
-        excerpt: 'NDP_FC = Compensation of Employees + Operating Surplus + Mixed Income.',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 15: Market Demand',
+        excerpt: 'Cross-price elasticity is positive for substitutes and negative for complements. Income elasticity classifies goods into normal, necessity, luxury, and inferior categories.',
       },
       {
         id: 'CLM-ECO-05-03',
-        statement: 'Under the Expenditure Method, GDP at Market Prices equals Private Final Consumption Expenditure ($C$) + Government Final Consumption Expenditure ($G$) + Gross Capital Formation ($I$, comprising Gross Fixed Capital Formation, Change in Stocks, and Valuables) + Net Exports ($X - M$).',
+        statement: 'Under the Total Outlay (Total Revenue) Method, a price reduction increases total revenue if demand is elastic ($|e_d| > 1$), leaves total revenue unchanged if unit elastic ($|e_d| = 1$), and decreases total revenue if inelastic ($|e_d| < 1$).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Keynesian Macroeconomic Accounting; MoSPI National Accounts Statistics',
-        excerpt: 'GDP_MP = C + I + G + (X - M). In India, Private Final Consumption Expenditure (PFCE) constitutes the largest component (~58-60% of GDP).',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Elasticity of Demand and Supply',
+        excerpt: 'When demand is price-inelastic, a price decrease reduces total revenue. When demand is price-elastic, a price decrease increases total revenue.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Three Windows into the Same National Reality',
-        body: 'Because every rupee of output produced generates a rupee of factor income, which in turn is spent on purchasing final goods, an economy can be measured at three distinct stages:\n\n1. **At the Factory / Farm Gate:** Production Method (Value of goods/services produced).\n2. **In the Paychecks & Balance Sheets:** Income Method (Income earned by factors of production).\n3. **At the Cash Registers & Portals:** Expenditure Method (Total final purchases in the economy).\n\nIn theoretical equilibrium, all three methods yield an identical numerical value for GDP.',
+        title: 'Beyond Direction: Quantifying Market Sensitivity',
+        body: `The Law of Demand tells us the *direction* of change (if price rises, demand falls), but businesses and policymakers need to know **by exactly how much**.
+
+If a telecom company hikes mobile data tariffs by 20%:
+* If subscribers cut usage by only 2%, total revenue jumps dramatically (**Inelastic Demand**).
+* If subscribers flee to competitors and usage drops by 50%, total revenue collapses (**Elastic Demand**).
+
+**Elasticity** is the metric that answers this sensitivity question across price, income, and competing products.`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Production (Value Added) Method & Double Counting',
-        body: '### The Problem of Double Counting\nIf a farmer sells wheat for \\$100 to a miller, the miller sells flour for \\$150 to a baker, and the baker sells bread for \\$220 to a consumer, summing the raw transaction values ($100 + 150 + 220 = \\$470$) creates massive double counting.\n\n### The Value Added Solution\n$$\\mathbf{\\text{Gross Value Added (GVA)} = \\text{Value of Output} - \\text{Intermediate Consumption}}$$\n\n* **Farmer:** Value of Output (\\$100) $-$ Intermediate Inputs (\\$0) = **\\$100**\n* **Miller:** Value of Output (\\$150) $-$ Wheat (\\$100) = **\\$50**\n* **Baker:** Value of Output (\\$220) $-$ Flour (\\$150) = **\\$70**\n* **Total GVA across Economy:** \\$100 + \\$50 + \\$70 = **\\$220** (identically equal to final bread price).',
+        title: 'Master Formulas: Point, Arc, Income & Cross Elasticity',
+        body: `### 1. Price Elasticity of Demand ($e_d$)
+* **Point Elasticity Formula (for infinitesimally small changes):**
+  $$e_d = -\\frac{dQ}{dP} \\cdot \\frac{P}{Q}$$
+* **Geometric Point Formula on a Linear Demand Curve:**
+  $$e_d = \\frac{\\text{Lower Segment of Demand Curve}}{\\text{Upper Segment of Demand Curve}}$$
+  - At the vertical intercept (Price axis): $e_d = \\infty$ (Perfectly Elastic).
+  - At the midpoint of the demand curve: $e_d = 1$ (Unitary Elastic).
+  - At the horizontal intercept (Quantity axis): $e_d = 0$ (Perfectly Inelastic).
+
+* **Arc Elasticity Formula (Midpoint Method for discrete price jumps):**
+  $$e_d = -\\frac{Q_2 - Q_1}{(Q_1 + Q_2)/2} \\div \\frac{P_2 - P_1}{(P_1 + P_2)/2} = -\\frac{Q_2 - Q_1}{P_2 - P_1} \\cdot \\frac{P_1 + P_2}{Q_1 + Q_2}$$
+
+### 2. Cross Elasticity of Demand ($E_{xy}$)
+$$E_{xy} = \\frac{\\% \\Delta Q_x}{\\% \\Delta P_y} = \\frac{\\Delta Q_x}{\\Delta P_y} \\cdot \\frac{P_y}{Q_x}$$
+* $E_{xy} > 0$: **Substitutes** (Tea and Coffee; Coke and Pepsi).
+* $E_{xy} < 0$: **Complements** (Cars and Petrol; Printers and Ink).
+* $E_{xy} = 0$: **Unrelated Goods** (Shoes and Tomatoes).
+
+### 3. Income Elasticity of Demand ($E_Y$)
+$$E_Y = \\frac{\\% \\Delta Q}{\\% \\Delta Y} = \\frac{\\Delta Q}{\\Delta Y} \\cdot \\frac{Y}{Q}$$
+* $E_Y < 0$: **Inferior Goods** (Engel curve slopes downward).
+* $0 < E_Y \\le 1$: **Normal Necessities** (Food grains, salt).
+* $E_Y > 1$: **Superior / Luxury Goods** (High-end electronics, international tourism).`,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'The Income & Expenditure Methods Detailed',
-        body: '### 1. The Income Method ($NDP_{\\text{FC}}$)\nSums factor rewards generated in domestic economic territory:\n\n$$\\mathbf{\\text{NDP}_{\\text{FC}} = \\text{Compensation of Employees (COE)} + \\text{Operating Surplus (OS)} + \\text{Mixed Income (MI)}}$$\n\n* **COE:** Wages, salaries in cash/kind, employer social security contributions.\n* **Operating Surplus:** Rent + Royalties + Net Interest + Corporate Profits (Dividends, Corporate Tax, Retained Earnings).\n* **Mixed Income:** Self-employed professionals, farmers, unorganized shopkeepers where labor and capital inputs belong to the same individual (a huge component in India\'s informal economy).\n\n### 2. The Expenditure Method ($GDP_{\\text{MP}}$)\nSums all final spending on domestic output:\n\n$$\\mathbf{\\text{GDP}_{\\text{MP}} = C + G + I + (X - M)}$$\n\n* **$C$ (PFCE):** Private Final Consumption Expenditure (~58–60% of Indian GDP — consumption driver).\n* **$G$ (GFCE):** Government Final Consumption Expenditure (~10–12% of GDP).\n* **$I$ (GCF):** Gross Capital Formation / Investment (~30–32% of GDP, including Gross Fixed Capital Formation and Inventory change).\n* **$(X - M)$:** Net Exports (typically negative for India due to merchandise trade deficit).',
+        title: 'The Total Outlay (Total Revenue) Relationship',
+        body: `Because $\\text{Total Revenue (TR)} = P \\times Q$, the response of TR to a price change depends entirely on $|e_d|$:
+
+$$\\frac{d\\text{TR}}{dP} = Q \\left(1 - |e_d|\\right)$$
+
+| Elasticity Value | Price Change | Quantity Response | Total Revenue (TR) Impact |
+|---|---|---|---|
+| **Elastic ($|e_d| > 1$)** | Price Increases ($\\uparrow$) | Quantity drops sharply ($\\Downarrow$) | **TR Falls ($\\downarrow$)** |
+| **Elastic ($|e_d| > 1$)** | Price Cuts ($\\downarrow$) | Quantity rises sharply ($\\Uparrow$) | **TR Rises ($\\uparrow$)** |
+| **Unitary ($|e_d| = 1$)** | Price Increases or Decreases | Quantity changes proportionally | **TR is Maximized (Unchanged)** |
+| **Inelastic ($|e_d| < 1$)** | Price Increases ($\\uparrow$) | Quantity drops slightly ($\\downarrow$) | **TR Rises ($\\uparrow$)** |
+| **Inelastic ($|e_d| < 1$)** | Price Cuts ($\\downarrow$) | Quantity rises slightly ($\\uparrow$) | **TR Falls ($\\downarrow$)** |`,
         order: 3,
       },
       {
-        type: 'COMPARISON',
-        title: 'Items Included vs Excluded from GDP Estimation',
-        body: '| Transaction Type | Included in GDP? | Economic Rationale |\n| :--- | :--- | :--- |\n| **Second-hand car / home sales** | **EXCLUDED** | Output was already counted in the year of original production; resale is merely an asset transfer. |\n| **Brokerage / Commission on resale** | **INCLUDED** | Represents reward for a *new* productive intermediation service rendered in the current year. |\n| **Self-consumed agricultural output** | **INCLUDED** (Imputed Value) | Real agricultural output produced; farmer simply consumes it rather than marketing it. |\n| **Imputed rent of owner-occupied homes**| **INCLUDED** (Imputed Value) | Housing service is produced and enjoyed; estimated at prevailing market rental rates. |\n| **Unpaid household work (e.g. caregiving)**| **EXCLUDED** | Non-market activity lacking reliable market valuation transactions. |\n| **Illegal / Shadow economy earnings** | **EXCLUDED** | Excluded due to absence of official reporting and verification. |',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in National Income Estimation',
-        body: '1. **Intermediate vs Final Good:** Whether a good is intermediate or final depends on its **end-use**, NOT the physical nature of the good! Sugar purchased by a household is a **Final Good ($C$)**; sugar purchased by a sweet maker is an **Intermediate Input**. Milk bought by a restaurant is an **Intermediate Good**; milk bought by a mother for her child is a **Final Good**.\n2. **Capital Gains Trap:** Capital gains from stock market trading (e.g., shares rising in price) are **EXCLUDED** from GDP because no new real physical output or productive capacity was created.\n3. **Mixed Income Significance:** Developing economies like India have a massive share of "Mixed Income" due to high informal self-employment, unlike advanced economies where almost all income divides neatly into formal corporate profit and salaried wages.',
-        order: 5,
+        title: 'Tax Incidence & Agricultural Bumper Harvest Paradox',
+        body: `### 1. The Paradox of Poverty Amidst Plenty (Farmer Distress)
+Agricultural food grains face **highly inelastic demand ($e_d < 1$)**. When Indian farmers produce a bumper record harvest, the resulting market supply glut crashes prices severely. Because consumers do not eat double the bread when wheat prices drop, total revenue earned by farmers **falls**, generating farm distress despite high output.
+
+### 2. Tax Incidence & Elasticity Rule
+The economic burden of a tax (GST, excise) falls disproportionately on the market side that is **less elastic (more captive)**:
+* If demand is inelastic and supply is elastic (e.g. cigarettes, petrol), the consumer bears the bulk of the tax.
+* If demand is elastic and supply is inelastic, the producer absorbs the tax.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: National Income Methods, GCF/Investment Rate, Consumption Trends',
-        notes: 'Covers Value-Added method, end-use classification, and imputed rent.',
+        syllabusUnit: 'Paper 2: Microeconomics — Elasticity of Demand (Point, Arc, Income, Cross) and Supply',
+        notes: 'Guaranteed 2-3 numerical and conceptual questions every year in Phase 1 & 2.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Methods of National Income Computation',
-        notes: 'Direct numerical problems on GVA calculation, Operating Surplus, and PFCE.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Inflation and Price Sensitivity Analysis',
+        notes: 'Crucial for analyzing fuel excise tax pass-through and agricultural commodity pricing.',
+      },
+      {
+        examCode: 'NABARD_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Agriculture & Rural Development — Agricultural Price Volatility',
+        notes: 'Explains the Bumper Crop Paradox and the economic necessity of MSP.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: '3 National Income Methods: 1. Production (GVA = Output - Intermediate Consumption). 2. Income (NDP_FC = Compensation of Employees + Operating Surplus + Mixed Income). 3. Expenditure (GDP_MP = C + I + G + X - M). Second-hand goods EXCLUDED, but broker commission INCLUDED. Imputed rent & self-consumed farm output INCLUDED. Capital gains & unpaid housework EXCLUDED. PFCE is ~60% of Indian GDP.',
+        content: 'Price Elasticity: $e_d = -\\frac{dQ}{dP}\\frac{P}{Q}$. Cross Elasticity: $E_{xy} > 0$ for substitutes, $E_{xy} < 0$ for complements. Income Elasticity: $E_Y < 0$ inferior, $E_Y > 1$ luxury. Total Revenue: If $|e_d| > 1$, price cut raises TR; if $|e_d| < 1$, price hike raises TR. Tax burden falls on the less elastic side.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'National income is computed via Production, Income, and Expenditure methods. Production method sums GVA across sectors to eliminate double counting. Income method sums compensation of employees, operating surplus (rent, interest, profit), and self-employed mixed income. Expenditure method aggregates private consumption (C), investment (I), government spending (G), and net exports (X - M). Imputed values of owner-occupied housing and self-consumed produce are included.',
+        content: 'Elasticity measures percentage responsiveness. Point elasticity on linear demand = Lower Segment / Upper Segment ($e=\\infty$ at top, $e=1$ at midpoint, $e=0$ at bottom). Cross elasticity $E_{xy}$ is positive for substitutes (tea/coffee) and negative for complements (cars/petrol). Income elasticity $E_Y$ is negative for inferior goods (Engel curve downward sloping) and $>1$ for luxuries. Total Revenue is maximized where $|e_d| = 1$. Inelastic farm demand explains why bumper crops crash farm revenues.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Production Approach: GVA = Gross Output Value - Intermediate Inputs. Avoids double counting.\n2. Income Approach: NDP_FC = COE (wages/salaries) + OS (Rent + Interest + Profit) + Mixed Income.\n3. Expenditure Approach: GDP_MP = PFCE (C) + GFCE (G) + GCF (I) + Net Exports (X - M).\n4. Inclusions: Imputed rent, self-consumed agricultural produce, brokerage on asset sales.\n5. Exclusions: Sale of second-hand goods, financial transfer payments, capital gains, unpaid domestic labor.',
+        content: 'Elasticity Taxonomy: 1. Price Elasticity: Point vs Arc (Midpoint) vs Geometric. 2. Cross Elasticity: Substitute ($>0$), Complement ($<0$), Independent ($=0$). 3. Income Elasticity: Engel Classification (Inferior $<0$, Necessity $0-1$, Luxury $>1$). 4. Revenue Link: $MR = P(1 - 1/|e_d|)$. 5. Welfare: Tax incidence ratio $\\frac{\\Delta P_c}{\\Delta P_s} = \\frac{e_s}{|e_d|}$.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Which of the following transactions is INCLUDED in the calculation of India\'s Gross Domestic Product (GDP)?',
+        stem: 'Suppose the demand function for a good is given by $Q = 500 - 5P$. What is the point price elasticity of demand when the price is $P = 40$?',
         options: [
-          'Purchase of a 5-year-old residential apartment from an existing homeowner',
-          'Brokerage commission paid to a real estate agent for facilitating an apartment sale',
-          'Financial capital gains earned from selling equity shares on the National Stock Exchange',
-          'Monthly pocket money transferred by a parent to a college student',
+          '$e_d = 0.67$',
+          '$e_d = 1.50$',
+          '$e_d = 1.00$',
+          '$e_d = 0.40$',
         ],
-        correctAnswer: 'Brokerage commission paid to a real estate agent for facilitating an apartment sale',
-        explanation: 'Brokerage and commission paid to real estate brokers represent payment for a new, current-year productive intermediation service and are included in GDP. The sale price of the second-hand apartment, capital gains on stocks, and pocket money transfers are asset/transfer transactions that produce no new output.',
-        trapExplanation: 'While the second-hand asset itself is excluded, the professional service charges for facilitating the transaction are included.',
+        correctAnswer: '$e_d = 0.67$',
+        explanation: 'First, find quantity demanded at $P = 40$: $Q = 500 - 5(40) = 500 - 200 = 300$. Next, find the derivative $\\frac{dQ}{dP} = -5$. Point elasticity formula is: $e_d = -\\frac{dQ}{dP} \\cdot \\frac{P}{Q} = -(-5) \\cdot \\frac{40}{300} = 5 \\cdot \\frac{4}{30} = \\frac{20}{30} = 0.67$.',
+        trapExplanation: 'Option B is calculated by incorrectly inverting $\\frac{P}{Q}$ as $\\frac{300}{40}$.',
         difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2020,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 22,
+        examinerTrapPattern: 'Standard numerical evaluation of point elasticity from a linear demand equation.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'If the cross-price elasticity of demand between two goods X and Y is $E_{xy} = -1.8$, what does this indicate about the relationship between these two goods?',
+        options: [
+          'Good X and Good Y are strong substitute goods.',
+          'Good X and Good Y are strong complementary goods.',
+          'Good X is an inferior good and Good Y is a luxury good.',
+          'Demand for Good X is price inelastic.',
+        ],
+        correctAnswer: 'Good X and Good Y are strong complementary goods.',
+        explanation: 'Cross-price elasticity of demand measures how the quantity demanded of Good X responds to a change in the price of Good Y. A negative sign ($E_{xy} < 0$) indicates that when the price of Good Y rises, the consumption of Good X falls. This occurs exclusively when goods are consumed together in joint demand, meaning they are complementary goods (e.g. smartphones and mobile apps, or cars and fuel).',
+        trapExplanation: 'Positive cross-elasticity ($E_{xy} > 0$) signifies substitutes, while negative cross-elasticity signifies complements.',
+        difficulty: 'EASY',
         isPYQ: false,
+        examinerTrapPattern: 'Testing algebraic sign interpretation of cross-price elasticity.',
       },
     ],
   },
-
   {
     id: 'CON-ECO-06',
-    topicOrder: 27,
-    topicSlug: 'foundations-of-economics-and-national-income',
-    topicTitle: 'Foundations of Economics & National Income Accounting',
-    topicDescription: 'Real vs Nominal GDP, GDP Deflator, Base Year Revisions & Green GDP.',
-    slug: 'real-vs-nominal-gdp-gdp-deflator-base-year-revisions-green-gdp',
-    title: 'Real vs Nominal GDP, GDP Deflator, Base Year Revisions & Green GDP',
-    shortDefinition: 'Distinguishing monetary expansion from physical output growth: Nominal GDP (current prices) vs Real GDP (constant base-year prices), the GDP Deflator as the most comprehensive implicit price index across all domestic goods and services ($\\text{GDP Deflator} = \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100$), principles of base-year revisions, and Green GDP adjusting national income for environmental degradation and natural capital depletion.',
+    topicOrder: 28,
+    topicSlug: 'theory-of-demand-supply-and-market-equilibrium',
+    topicTitle: 'Theory of Demand, Supply & Market Equilibrium',
+    topicDescription: 'Laws of demand and supply, determinants, shifts vs movements, market price determination, and welfare surplus analysis.',
+    slug: 'welfare-economics-consumer-producer-surplus-and-deadweight-loss',
+    title: 'Welfare Economics: Consumer Surplus, Producer Surplus, Deadweight Loss & Government Interventions',
+    shortDefinition: 'The normative and efficiency evaluation of market outcomes through Consumer Surplus, Producer Surplus, Total Social Welfare, and the Deadweight Loss induced by Price Ceilings, Price Floors, and Taxes.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-06-01',
-        statement: 'Nominal GDP measures output valued at current prevailing market prices, reflecting both physical production changes and price inflation; Real GDP values output at constant base-year prices, isolating genuine changes in physical volume of production.',
+        statement: 'Consumer Surplus is the area below the demand curve and above the market price (total willingness to pay minus actual market expenditure); Producer Surplus is the area above the supply curve and below the market price.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'MoSPI National Accounts Statistics; NCERT Class 12 Macroeconomics, Ch 2',
-        excerpt: 'Real GDP = (Nominal GDP / Price Index) * 100. Eliminates inflationary price distortion.',
+        locator: 'Alfred Marshall (1890) Principles of Economics, Book III, Chapter 6; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'The excess of the price which he would be willing to pay rather than go without the thing, over that which he actually does pay, is the economic measure of this surplus satisfaction. It may be called consumer\'s surplus.',
       },
       {
         id: 'CLM-ECO-06-02',
-        statement: 'The GDP Deflator is an implicit price index calculating overall inflation in an economy via the mathematical ratio: GDP Deflator = (Nominal GDP / Real GDP) * 100; unlike CPI or WPI which track a fixed representative consumer/wholesale basket, the GDP Deflator reflects the changing prices of all domestically produced goods and services.',
+        statement: 'A competitive market equilibrium maximizes Total Social Surplus (Consumer Surplus + Producer Surplus); any deviation via Price Ceilings, Price Floors, or Output Quotas generates a Deadweight Loss (Harberger Triangle).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Samuelson & Nordhaus, Economics; MoSPI National Accounts',
-        excerpt: 'GDP Deflator covers all domestically produced goods/services with automatically updating weights (Paasche index property).',
+        locator: 'Arnold Harberger (1964) The Measurement of Waste; N. Gregory Mankiw, Principles of Microeconomics',
+        excerpt: 'Deadweight loss is the fall in total surplus that results from a market distortion, such as a tax or price regulation, which prevents mutually beneficial gains from trade.',
       },
       {
         id: 'CLM-ECO-06-03',
-        statement: 'Green GDP adjusts standard GDP by subtracting the monetary cost of environmental degradation, biodiversity loss, and natural resource depletion: Green GDP = Traditional GDP - Net Natural Resource Depletion - Environmental Degradation Costs.',
+        statement: 'A binding Price Ceiling (set below equilibrium) causes shortages, rationing, and black markets; a binding Price Floor (set above equilibrium, such as Minimum Support Price) causes excess supply requiring government procurement.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Partha Dasgupta Committee Report on Green National Accounts in India (2013); UN System of Environmental-Economic Accounting (SEEA)',
-        excerpt: 'Green GDP accounts for natural capital consumption.',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 4: Applications of Supply and Demand',
+        excerpt: 'Price ceilings create chronic shortages, non-price rationing mechanisms, and deadweight loss. Price floors generate unsold surpluses.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Money Illusion: Why Nominal Numbers Mislead',
-        body: 'Imagine an economy that produces 1,000 loaves of bread in Year 1 at \\$10 each, giving a GDP of \\$10,000. In Year 2, severe drought cuts production to 800 loaves, but hyperinflation drives the price to \\$20, producing a GDP of \\$16,000.\n\nIn nominal terms, GDP surged by 60%. In physical reality, citizens have 20% less food. To prevent this **money illusion**, economists deflate nominal output using constant base-year prices to measure **Real GDP**.',
+        title: 'Measuring Total Social Welfare',
+        body: `When voluntary trade takes place in a free market, **both buyers and sellers gain**:
+* **Consumer Surplus (CS):** If you are willing to pay ₹500 for a train ticket to visit family, but Indian Railways charges only ₹200, you enjoy a **₹300 Consumer Surplus** (net subjective benefit).
+* **Producer Surplus (PS):** If a farmer is willing to sell wheat at ₹1,500/quintal (their marginal cost), but the market pays ₹2,200/quintal, the farmer earns a **₹700 Producer Surplus** (economic rent over marginal cost).
+
+$$\\text{Total Social Welfare} = \\text{Consumer Surplus} + \\text{Producer Surplus}$$
+
+In a competitive market without externalities, market equilibrium **maximizes Total Social Welfare**.`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'Real vs Nominal GDP & The GDP Deflator Formula',
-        body: '### 1. Mathematical Formulas\n$$\\mathbf{\\text{Nominal GDP} = \\sum (P_{\\text{current}} \\times Q_{\\text{current}})}$$\n$$\\mathbf{\\text{Real GDP} = \\sum (P_{\\text{base}} \\times Q_{\\text{current}})}$$\n$$\\mathbf{\\text{GDP Deflator} = \\left( \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\right) \\times 100}$$\n\n### 2. Numerical Example\n* If India\'s Nominal GDP in a financial year is ₹300 Lakh Crore and Real GDP (at 2011-12 prices) is ₹180 Lakh Crore:\n\n$$\\text{GDP Deflator} = \\left( \\frac{300}{180} \\right) \\times 100 = 166.67$$\n\n* **Interpretation:** The general price level of domestically produced goods has inflated by **66.67%** since the 2011-12 base year.',
+        title: 'Deadweight Loss & Harberger Triangles',
+        body: `When a government introduces market distortions (taxes, price controls, import tariffs), it prevents mutually beneficial trades from occurring. The resulting uncaptured economic value that is lost to society is the **Deadweight Loss (DWL)**.
+
+\`\`\`
+Price (P)
+  ^
+  |        \ (Demand)   / (Supply)
+  |         \          /
+  |          \  [CS]  /
+P*|-----------X------X---------------- [Market Equilibrium]
+  |          /  [PS]  \
+  |         /          \
+  +-------------------------> Quantity (Q)
+\`\`\`
+
+### The Three Classic Policy Distortions:
+1. **Per-Unit Tax:** Drives a tax wedge ($T = P_c - P_s$) between the price paid by consumers ($P_c$) and received by producers ($P_s$). Output falls from $Q^*$ to $Q_t$. The lost surplus triangle not captured by government tax revenue is the **Deadweight Loss**.
+2. **Binding Price Ceiling ($P_{\\text{max}} < P^*$):** Imposed to help consumers (e.g. rent control, ceiling on essential medicines). Causes quantity demanded to exceed quantity supplied ($Q_D > Q_S$), creating **chronic shortages, queuing, and black marketing**.
+3. **Binding Price Floor ($P_{\\text{min}} > P^*$):** Imposed to protect producers (e.g. Minimum Support Price - MSP for crops, Minimum Wage laws). Causes quantity supplied to exceed quantity demanded ($Q_S > Q_D$), creating **unsold agricultural surpluses**.`,
         order: 2,
       },
       {
-        type: 'COMPARISON',
-        title: 'GDP Deflator vs Consumer Price Index (CPI)',
-        body: '| Feature | GDP Deflator | Consumer Price Index (CPI) |\n| :--- | :--- | :--- |\n| **Coverage** | Covers **ALL domestically produced** goods and services (including capital machinery, missiles, infrastructure). | Covers only a **fixed representative basket** of consumer goods/services purchased by households. |\n| **Imported Goods** | **EXCLUDED** (only domestic output is deflated). | **INCLUDED** (if imported goods like petroleum or olive oil are consumed by households). |\n| **Weights** | **Variable weights** that adjust automatically each year as production patterns change (Paasche index). | **Fixed weights** assigned during the base-year survey (Laspeyres index). |\n| **Frequency** | Released **Quarterly** with National Accounts data. | Released **Monthly** by NSO (MoSPI). |',
+        type: 'MECHANISM',
+        title: 'Welfare Effects of Price Ceilings vs Price Floors',
+        body: `| Policy Instrument | Imposed Location | Market Consequence | Surplus Winner | Surplus Loser | Net Welfare Impact |
+|---|---|---|---|---|---|
+| **Price Ceiling (e.g. Drug Price Caps)** | Below Equilibrium ($P_{\\text{cap}} < P^*$) | **Shortage** ($Q_D > Q_S$), black markets, quality degradation. | Consumers who manage to obtain the good. | Producers + Consumers locked out by shortages. | **Deadweight Loss** (Under-production). |
+| **Price Floor (e.g. MSP / Minimum Wage)** | Above Equilibrium ($P_{\\text{floor}} > P^*$) | **Surplus** ($Q_S > Q_D$), unsold stocks, state procurement burden. | Producers who successfully sell at floor price. | Consumers (higher prices) + Taxpayers (funding procurement). | **Deadweight Loss** (Over-production / misallocation). |
+| **Import Tariff / Custom Duty** | Domestic price raised above world price | Reduced imports, expanded domestic production. | Domestic producers + Government tariff revenue. | Domestic consumers. | **Deadweight Loss** (Production & Consumption distortions). |`,
         order: 3,
       },
       {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Base Year Revisions & Green National Accounting',
-        body: '### 1. Base Year Revision Principles in India\n* National accounts base years are updated periodically (typically every 5–10 years) by MoSPI to reflect structural changes, new industries (e.g. e-commerce, renewable energy, gig services), and improved statistical survey data.\n* Current base year is **2011-12** (shifted from 2004-05 in January 2015).\n\n### 2. Green GDP & The Dasgupta Framework\nTraditional GDP treats the depletion of natural resources (e.g. clear-cutting a forest or exhausting an aquifer) as positive economic output, while ignoring the destruction of natural capital.\n\n$$\\mathbf{\\text{Green GDP} = \\text{Traditional GDP} - \\text{Natural Capital Depletion} - \\text{Environmental Degradation Costs}}$$\n\n* **Partha Dasgupta Committee (2013):** Recommended institutionalizing Natural Capital Accounting under the UN SEEA framework to track ecosystem services and wealth depletion alongside GDP.',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Deflator & Price Indices',
-        body: '1. **Import Price Trap:** A sharp spike in global crude oil prices immediately drives up **CPI** (since consumers buy petrol), but has **no direct positive effect on the GDP Deflator** (because oil is imported, not domestically produced).\n2. **Fixed vs Variable Basket:** The CPI suffers from *substitution bias* because its weights are fixed. The GDP Deflator avoids substitution bias because its weights update automatically with annual output changes.\n3. **Green GDP Status:** Green GDP is an analytical/accounting framework and is not yet the official legal headline metric for India\'s national budget or debt ceiling targets.',
-        order: 5,
+        title: 'Indian Policy Application: MSP & National Pharmaceutical Pricing',
+        body: `### 1. National Pharmaceutical Pricing Authority (NPPA)
+The NPPA sets price ceilings on essential medicines under the Drug Price Control Orders (DPCO). While protecting poor patients, severe price caps can cause pharmaceutical firms to discontinue low-margin formulations, generating artificial market shortages.
+
+### 2. Minimum Support Price (MSP) & Food Corporation of India (FCI)
+Because MSP acts as a binding price floor above market equilibrium for wheat and paddy, private millers step back, forcing the FCI to procure millions of tonnes of grain, leading to overflowing buffer stocks and high food subsidy carrying costs.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Non-Binding Price Controls:** A price ceiling set *above* equilibrium or a price floor set *below* equilibrium has **zero effect** on the market (non-binding).
+* ⚠️ **Trap 2: Tax Incidence is Independent of Legal Liability:** Whether the government legally levies a tax on buyers or sellers, the economic incidence (who actually pays) is mathematically identical and determined strictly by relative elasticities.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Macroeconomic Indicators, GDP Deflator vs CPI, Environmental Accounting',
-        notes: 'Repeatedly tested in Prelims on the differences between GDP Deflator and CPI/WPI.',
+        syllabusUnit: 'Paper 2: Microeconomics — Consumer Surplus, Producer Surplus, Price Controls, Taxes and Welfare',
+        notes: 'Frequently tests geometric calculation of consumer surplus triangles and deadweight loss from taxes/subsidies.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'NABARD_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Real vs Nominal GDP & Price Deflators',
-        notes: 'Direct numerical calculations of GDP Deflator and real growth rates.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Agriculture & Rural Development — Price Support Mechanisms and Market Distortions',
+        notes: 'Core theoretical foundation for analyzing MSP economic surplus and fiscal costs.',
+      },
+      {
+        examCode: 'UPSC_APFC',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'General Studies: Indian Economy — Welfare Economics and Minimum Wages',
+        notes: 'Tests minimum wage as a price floor leading to potential informal employment displacement.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Nominal GDP = Current prices (output + inflation). Real GDP = Base year constant prices (physical output only). GDP Deflator = (Nominal GDP / Real GDP) * 100. Deflator covers ALL domestic goods with variable weights; CPI covers fixed consumer basket including imports. Current base year = 2011-12. Green GDP = Traditional GDP minus Environmental Degradation & Resource Depletion (Dasgupta Committee).',
+        content: 'Consumer Surplus = Area below Demand and above Price. Producer Surplus = Area above Supply and below Price. Free market equilibrium maximizes Total Surplus. Price Ceiling below equilibrium -> Shortage + Black Market + DWL. Price Floor above equilibrium -> Surplus + State Procurement + DWL. Taxes create Deadweight Loss.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Real GDP measures physical production volume using constant base-year prices, eliminating the money illusion of Nominal GDP. The GDP Deflator (Nominal GDP / Real GDP * 100) measures economy-wide domestic inflation across all goods with flexible weights, excluding imports. Green GDP deducts natural capital depletion and environmental damage from conventional GDP.',
+        content: 'Total Social Welfare = Consumer Surplus + Producer Surplus. A competitive market achieves Pareto efficiency by maximizing total surplus. Government interventions distort price signals: A Price Ceiling set below equilibrium creates chronic shortages (e.g. rent control); A Price Floor set above equilibrium creates unsold surpluses (e.g. MSP). Per-unit taxes insert a price wedge between buyers and sellers, generating a Harberger Deadweight Loss triangle representing foregone gains from trade.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Nominal vs Real: P_current * Q_current vs P_base * Q_current.\n2. GDP Deflator Formula: (Nominal / Real) * 100.\n3. Deflator vs CPI: Deflator = all domestic output + variable weights - zero imports; CPI = fixed consumer basket + imported consumer goods.\n4. Base Year: 2011-12 series adopted in 2015.\n5. Green GDP: Adjusts for ecological depreciation (Dasgupta framework / UN SEEA).',
+        content: 'Welfare Economics Architecture: 1. Surplus Metrics: $CS = \\int_0^{Q^*} (P(Q) - P^*) dQ$, $PS = \\int_0^{Q^*} (P^* - MC(Q)) dQ$. 2. Distortions: Price Ceilings ($P < P^*$), Price Floors ($P > P^*$), Taxes ($T = P_c - P_s$). 3. Deadweight Loss: $\\text{DWL} = \\frac{1}{2} \\times \\text{Tax} \\times (Q^* - Q_t)$. 4. Indian Case Studies: DPCO drug price caps, FCI open-ended MSP procurement.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'If the price of imported crude oil increases sharply while domestic production and domestic prices remain unchanged, how will this affect the GDP Deflator and the Consumer Price Index (CPI)?',
+        stem: 'If the government imposes an effective (binding) price ceiling on rental housing below the market equilibrium rent, what is the expected long-run economic outcome?',
         options: [
-          'Both the GDP Deflator and CPI will increase by the same magnitude',
-          'The CPI will increase, but the GDP Deflator will not directly increase because the deflator includes only domestically produced goods',
-          'The GDP Deflator will increase, but the CPI will remain unchanged because CPI tracks only manufactured food products',
-          'Neither the GDP Deflator nor CPI will change because crude oil is an intermediate industrial input',
+          'An increase in the supply of newly constructed rental housing.',
+          'A persistent shortage of rental housing, emergence of black-market key money, and deterioration of housing maintenance.',
+          'An elimination of the deadweight loss in the housing market.',
+          'An excess supply of rental apartments available for low-income tenants.',
         ],
-        correctAnswer: 'The CPI will increase, but the GDP Deflator will not directly increase because the deflator includes only domestically produced goods',
-        explanation: 'The GDP Deflator reflects the prices of all goods and services produced domestically within the country and completely excludes imported items. The Consumer Price Index (CPI) reflects the prices of a representative consumption basket purchased by households, which includes petroleum products refined from imported crude oil. Therefore, imported oil price inflation raises CPI but does not directly enter the GDP Deflator.',
-        trapExplanation: 'Candidates often assume all price indices capture imported goods equally, forgetting that GDP is strictly domestic production.',
-        difficulty: 'HARD',
+        correctAnswer: 'A persistent shortage of rental housing, emergence of black-market key money, and deterioration of housing maintenance.',
+        explanation: 'A binding price ceiling set below equilibrium rent reduces the price received by landlords below their opportunity costs, causing quantity supplied of rental units to contract. Meanwhile, lower rents increase the quantity demanded by tenants. This creates a persistent shortage ($Q_D > Q_S$), non-price rationing (long waiting lists, unrecorded cash bribes), and disincentivizes landlords from maintaining their properties, generating a deadweight loss.',
+        trapExplanation: 'Option D confuses a price ceiling (which creates shortages) with a price floor (which creates surpluses).',
+        difficulty: 'EASY',
+        isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 31,
+        examinerTrapPattern: 'Testing understanding of shortages vs surpluses under price ceilings.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'Assume a linear demand curve $P = 100 - Q$ and a linear supply curve $P = 20 + Q$. If the competitive market reaches equilibrium, what is the value of Consumer Surplus?',
+        options: [
+          '₹800',
+          '₹1,600',
+          '₹600',
+          '₹400',
+        ],
+        correctAnswer: '₹800',
+        explanation: '1. Find equilibrium by equating Supply and Demand: $100 - Q = 20 + Q \\implies 80 = 2Q \\implies Q^* = 40$. 2. Find equilibrium price: $P^* = 100 - 40 = 60$. 3. The demand curve intersects the price axis at $P_{\\text{max}} = 100$. 4. Consumer Surplus is the area of the triangle between the demand curve and market price: $\\text{CS} = \\frac{1}{2} \\times \\text{Base} \\times \\text{Height} = \\frac{1}{2} \\times Q^* \\times (P_{\\text{max}} - P^*) = \\frac{1}{2} \\times 40 \\times (100 - 60) = \\frac{1}{2} \\times 40 \\times 40 = 800$.',
+        trapExplanation: 'Option B is calculated by omitting the $\\frac{1}{2}$ multiplier in the triangle area formula ($40 \\times 40 = 1600$).',
+        difficulty: 'MEDIUM',
         isPYQ: false,
+        examinerTrapPattern: 'Geometry of consumer surplus calculation.',
       },
     ],
   },
 
   // =========================================================================
-  // TOPIC 28: MONEY, COMMERCIAL BANKING & FINANCIAL MARKETS ARCHITECTURE
+  // TOPIC 29: Consumer Behaviour & Indifference Curve Analysis
   // =========================================================================
   {
     id: 'CON-ECO-07',
-    topicOrder: 28,
-    topicSlug: 'money-commercial-banking-and-financial-markets',
-    topicTitle: 'Money, Commercial Banking & Financial Markets Architecture',
-    topicDescription: 'Evolution of money, legal tender vs fiat money, money supply aggregates (M0–M4), fractional reserve banking, credit creation, money multiplier, and money market vs capital market instruments.',
-    slug: 'evolution-of-money-functions-legal-tender-fiat-money-digital-payments-cbdc',
-    title: 'Evolution of Money, Functions, Legal Tender, Fiat Money & Digital Payments / CBDC',
-    shortDefinition: 'The economic and legal nature of money: the transition from commodity money and metallic coinage to paper fiat currency, the four core functions of money (Medium of Exchange, Unit of Account, Store of Value, Standard of Deferred Payment), the legal concept of Legal Tender (Limited vs Unlimited under the Coinage Act 2011 and RBI Act 1934 Section 26), and digital payment architecture including the Central Bank Digital Currency (e₹ / Digital Rupee).',
+    topicOrder: 29,
+    topicSlug: 'consumer-behaviour-and-indifference-curve-analysis',
+    topicTitle: 'Consumer Behaviour & Indifference Curve Analysis',
+    topicDescription: 'Cardinal utility, Law of Diminishing Marginal Utility, ordinal utility, indifference curves, budget lines, and consumer equilibrium.',
+    slug: 'cardinal-utility-theory-diminishing-marginal-utility-and-equi-marginal',
+    title: 'Cardinal Utility Theory: Total vs Marginal Utility & Law of Diminishing Marginal Utility',
+    shortDefinition: 'The classical consumer choice framework quantifying satisfaction in cardinal utils, establishing the Law of Diminishing Marginal Utility and the Equi-Marginal allocation rule across multiple goods.',
     difficulty: 'BEGINNER',
     claims: [
       {
         id: 'CLM-ECO-07-01',
-        statement: 'Money serves four fundamental macroeconomic functions: Primary functions (Medium of Exchange overcoming the double coincidence of wants, and Unit of Account providing a common numeraire) and Secondary functions (Store of Value and Standard of Deferred Payment).',
+        statement: 'Cardinal utility theory (Alfred Marshall) assumes that utility is quantifiable in numerical units called "utils", with Marginal Utility ($MU = \\frac{dTU}{dQ}$) diminishing as successive units of a good are consumed.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'William Stanley Jevons, Money and the Mechanism of Exchange (1875); NCERT Class 12 Macroeconomics, Ch 3',
-        excerpt: 'Money is what money does: a medium, a measure, a standard, a store.',
+        locator: 'Alfred Marshall (1890) Principles of Economics, Book III, Chapter 3',
+        excerpt: 'The marginal utility of a thing to anyone diminishes with every increase in the amount of it he already has.',
       },
       {
         id: 'CLM-ECO-07-02',
-        statement: 'Fiat Money is currency that has no intrinsic commodity value and is issued by government decree; Legal Tender is fiat money that cannot be legally refused by any creditor within the territory for settlement of debt, where banknotes under RBI Act 1934 Section 26(1) are Unlimited Legal Tender, while coins under the Coinage Act 2011 are Limited Legal Tender.',
-        claimType: 'STATUTORY_RULE',
+        statement: 'Consumer equilibrium under cardinal utility across multiple goods is governed by the Law of Equi-Marginal Utility (Gossen\'s Second Law): $\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y} = \\dots = MU_m$ (marginal utility of money expenditure).',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Section 26); Coinage Act, 2011 (Section 6)',
-        excerpt: 'Banknotes are unlimited legal tender at any place in India; coins are legal tender up to statutory limits (₹1,000 for coins >= ₹1).',
+        locator: 'Hermann Heinrich Gossen (1854); Alfred Marshall, Principles of Economics',
+        excerpt: 'A person succeeds in maximizing utility only when the marginal utility per unit of currency spent is equal across all commodities.',
       },
       {
         id: 'CLM-ECO-07-03',
-        statement: 'The Central Bank Digital Currency (CBDC / e₹) issued by the RBI under the amended Section 2 of the RBI Act 1934 (Finance Act 2022) is a sovereign digital fiat currency appearing as a direct sovereign liability on the RBI balance sheet, distinct from commercial bank deposits and decentralized cryptocurrencies.',
-        claimType: 'STATUTORY_RULE',
+        statement: 'The Water-Diamond Paradox (Adam Smith) is resolved by cardinal utility: total utility of water is enormous but marginal utility is low due to abundance; diamonds have low total utility but very high marginal utility due to scarcity.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Reserve Bank of India Concept Note on Central Bank Digital Currency (Oct 2022); Finance Act, 2022',
-        excerpt: 'CBDC is legal tender issued by the central bank in digital form, representing a direct claim on the central bank.',
+        locator: 'Adam Smith (1776) Wealth of Nations; W. Stanley Jevons (1871) Theory of Political Economy',
+        excerpt: 'Price is determined not by total utility, but by marginal utility at the margin of consumption.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'From Cowrie Shells to Sovereign Digital Tokens',
-        body: 'In a primitive barter economy, exchange requires a **double coincidence of wants**—you must find someone who has what you desire and simultaneously wants what you possess. This friction imposes massive transaction costs.\n\nMoney emerged as an institutional technology to eliminate this search cost. Over millennia, money evolved from **Commodity Money** (cattle, salt, cowrie shells) to **Metallic Money** (gold and silver coins with intrinsic bullion value), to **Convertible Paper Money** (backed by gold reserves), to modern **Fiat Money** (backed entirely by sovereign law and social trust), and finally to cryptographic **Central Bank Digital Currencies (CBDC)**.',
+        title: 'The Satiety of Consumption: Utils & Diminishing Returns',
+        body: `If you are parched after a long run in the hot summer sun:
+* The **first glass of water** provides intense satisfaction (e.g. 50 utils).
+* The **second glass** is refreshing but less desperate (30 utils).
+* The **third glass** satisfies your thirst (10 utils).
+* The **fourth glass** brings you to full satiety (0 utils — **Point of Satiety**).
+* The **fifth glass** causes discomfort (negative utility / disutility, $-10$ utils).
+
+This universal human psychological reality is the **Law of Diminishing Marginal Utility (DMU)** (Gossen's First Law).`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Four Functions of Money & Gresham\'s Law',
-        body: '### 1. The Four Functions\n* **Medium of Exchange:** Eliminates the barter double coincidence of wants; facilitates fluid trade.\n* **Unit of Account (Measure of Value):** Standard common denominator expressing the relative worth of millions of heterogeneous goods in a single pricing numeraire (Rupees, Dollars).\n* **Store of Value:** Enables purchasing power to be transferred from the present to the future (vulnerable to inflation).\n* **Standard of Deferred Payment:** Facilitates credit transactions, long-term loans, contracts, and future salary commitments.\n\n### 2. Gresham\'s Law\n> *"Bad money drives out good money from circulation when both are legal tender at fixed exchange parity."*\n\nIf two coins (e.g., pure silver coins and debased copper coins) have the same legal face value, people hoard the pure silver coins and spend only the debased coins, leaving only "bad money" in everyday circulation.',
+        title: 'Mathematical Relationships: Total Utility vs Marginal Utility',
+        body: `### 1. Fundamental Mathematical Link
+$$\\text{Total Utility (TU)} = \\sum \\text{MU} \\qquad \\text{and} \\qquad \\text{Marginal Utility (MU)} = \\frac{d\\text{TU}}{dQ} = \\text{TU}_n - \\text{TU}_{n-1}$$
+
+### 2. The Three Cardinal Stages of Utility
+| Stage of Consumption | Marginal Utility ($MU$) | Total Utility ($TU$) Behavior | Economic State |
+|---|---|---|---|
+| **Initial Consumption** | $MU > 0$ (Positive but Falling) | $TU$ is **Increasing at a Diminishing Rate** | Standard rational consumption range. |
+| **Point of Satiety** | $MU = 0$ (Zero) | $TU$ reaches its **Absolute Maximum** | Maximum possible satisfaction. |
+| **Over-Consumption** | $MU < 0$ (Negative) | $TU$ begins to **Decline** | Disutility / economic waste. |
+
+\`\`\`
+Utility
+  ^
+TU|          .---''''---.   (TU Maximized where MU = 0)
+  |        .'            '.
+  |       /                \
+  |      /                  \
+  |-----+--------------------+--------> Quantity (Q)
+  |    / \                  /
+MU|   /   \                /
+  |  /     \ (MU Curve)   /
+  | /       \            /
+  0----------*------------------------> Quantity (Q)
+  |           \ (Point of Satiety: MU=0)
+  |            \ (Disutility: MU < 0)
+\`\`\``,
         order: 2,
       },
       {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Fiat Money vs Legal Tender vs Commercial Bank Deposits',
-        body: '| Category | Legal & Economic Status | Extent of Acceptance | Statutory Backing |\n| :--- | :--- | :--- | :--- |\n| **Fiat Money** | Currency issued by government order/decree without backing by physical gold/silver. | Accepted by convention and trust. | Sovereign authority. |\n| **Legal Tender** | Fiat currency that **cannot be legally refused** in payment of a debt. | Mandatory legal acceptance up to statutory limit. | **RBI Act 1934** (Sec 26) & **Coinage Act 2011** (Sec 6). |\n| **Unlimited Legal Tender** | Currency that can be tendered in payment of any transaction of arbitrary value without limit. | Mandatory for all values. | **RBI Banknotes** (₹10, ₹20, ₹50, ₹100, ₹200, ₹500). |\n| **Limited Legal Tender** | Currency legal tender only up to a prescribed maximum statutory ceiling. | Cannot be forced beyond legal threshold. | **Coins:** ₹1 and above valid up to **₹1,000**; 50 paise coins valid up to **₹10** (Coinage Act 2011). |\n| **Bank Money (Demand Deposits)** | Commercial bank liabilities accessed via cheques, NEFT, UPI. | **NOT Legal Tender** (a shopkeeper can legally refuse a cheque). | Contractual banking obligation. |',
+        type: 'MECHANISM',
+        title: 'Consumer Equilibrium: The Law of Equi-Marginal Utility',
+        body: `When a consumer spends a limited money budget ($M$) across two goods ($X$ and $Y$), how do they maximize total satisfaction?
+
+### The Equi-Marginal Condition (Gossen's Second Law)
+The consumer must allocate money so that the **last rupee spent on Good X yields exactly the same marginal utility as the last rupee spent on Good Y**:
+
+$$\\frac{\\text{MU}_x}{P_x} = \\frac{\\text{MU}_y}{P_y} = \\text{MU}_m$$
+
+### The Rebalancing Mechanism:
+* **If $\\frac{\\text{MU}_x}{P_x} > \\frac{\\text{MU}_y}{P_y}$:** The consumer gains more satisfaction per rupee from Good X than Good Y. The rational consumer diverts spending from Y to X. As more X is consumed, $\\text{MU}_x$ falls; as less Y is consumed, $\\text{MU}_y$ rises, restoring equality.
+* **If $\\frac{\\text{MU}_x}{P_x} < \\frac{\\text{MU}_y}{P_y}$:** The consumer diverts spending from X to Y until equality is restored.`,
         order: 3,
       },
       {
-        type: 'MECHANISM',
-        title: 'Digital Payments Architecture & CBDC (e₹)',
-        body: '### 1. Central Bank Digital Currency (CBDC / Digital Rupee)\nFollowing the *Finance Act 2022*, Section 2(a-iv) of the RBI Act 1934 was amended to include digital currency within the definition of "banknote":\n* **Direct Sovereign Liability:** Unlike bank deposits (which are liabilities of commercial banks subject to DICGC insurance limits), CBDC is a **direct liability of the RBI**.\n* **Two Operational Variants:**\n  1. **CBDC-Wholesale ($e\\text{₹-W}$):** Interbank settlement of secondary market transactions in government securities.\n  2. **CBDC-Retail ($e\\text{₹-R}$):** Token-based digital currency in mobile wallets for peer-to-peer (P2P) and peer-to-merchant (P2M) consumer transactions.\n* **Anonymity vs Traceability:** Offers cash-like settlement finality without needing an intermediary commercial bank account, with small-value offline capability.',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Money Concepts',
-        body: '1. **One-Rupee Note Exception:** In India, **₹1 notes and all coins are issued by the Ministry of Finance (Government of India)** and signed by the **Finance Secretary**, NOT the RBI Governor! However, they are put into circulation solely through the Reserve Bank of India.\n2. **Banknotes Issuer:** Banknotes of ₹2 and above are issued by the **Reserve Bank of India** under Section 22 of the RBI Act 1934 and bear the signature of the **RBI Governor**.\n3. **Cheques & Crypto:** Cheques, demand drafts, and cryptocurrencies (Bitcoin) are **NOT Legal Tender** in India.',
-        order: 5,
+        title: 'Resolution of the Water-Diamond Paradox & Exam Traps',
+        body: `### The Water-Diamond Paradox Solved
+Adam Smith observed that water is essential for life yet costs almost nothing, whereas diamonds are useless for survival yet command exorbitant prices.
+* **Resolution:** Market price reflects **Marginal Utility (MU)**, NOT Total Utility (TU).
+* Water is abundant $\\implies$ consumption occurs at a very large quantity $\\implies \\text{MU}_{\\text{water}}$ is tiny $\\implies$ Price is very low.
+* Diamonds are ultra-scarce $\\implies$ consumption occurs at a tiny quantity $\\implies \\text{MU}_{\\text{diamond}}$ is massive $\\implies$ Price is extremely high.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: TU is Maximum when MU is Zero:** When an exam asks *"At what point is Total Utility maximized?"*, the answer is strictly **when Marginal Utility equals zero**, NOT when MU is maximum.
+* ⚠️ **Trap 2: Cardinal Utility Flaw:** Assumes the marginal utility of money ($MU_m$) is constant, which is unrealistic because spending money depletes one's wallet and increases the subjective value of remaining money.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Monetary Systems, CBDC, Legal Tender, RBI Act',
-        notes: 'Prelims questions on Legal Tender definition, Gresham Law, and CBDC vs Cryptocurrency.',
+        syllabusUnit: 'Paper 2: Microeconomics — Consumer Behaviour, Cardinal Utility and Equi-Marginal Principle',
+        notes: 'Frequently tests Equi-Marginal numerical rebalancing and TU-MU derivative relationships.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'IIBF_DBF',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Money Functions, Legal Tender Limits, Payment Systems',
-        notes: 'Direct MCQs on Coinage Act limits (₹1,000 for coins) and Section 26 of RBI Act.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Paper 1 (IE&IFS): Module A — Economic Concepts and Consumer Equilibrium',
+        notes: 'Direct conceptual questions on DMU and Gossen\'s Laws.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Consumer Behaviour and Utility Analysis',
+        notes: '2-mark definition of Law of Diminishing Marginal Utility and 5-mark explanation of Water-Diamond Paradox.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Functions of Money: Medium of exchange, unit of account, store of value, standard of deferred payment. Gresham Law: Bad money drives out good money. Fiat Money = Issued by sovereign decree without commodity backing. Banknotes = Unlimited Legal Tender (RBI Act Sec 26). Coins = Limited Legal Tender (Coinage Act 2011: ₹1+ up to ₹1,000; 50p up to ₹10). ₹1 note issued by Ministry of Finance (Finance Secretary signature). CBDC = Direct RBI digital liability.',
+        content: 'Cardinal Utility (Marshall): Utility measurable in utils. Law of DMU: As consumption rises, MU falls. TU is maximum when MU = 0. Equi-Marginal Rule: $\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y} = MU_m$. Water-Diamond Paradox: Price reflects Marginal Utility (scarcity), not Total Utility (abundance).',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Money eliminates the barter double coincidence of wants. Fiat money is backed by state decree; legal tender cannot be refused for debt settlement. In India, RBI banknotes are unlimited legal tender, while coins are limited legal tender up to ₹1,000 under the Coinage Act 2011. The ₹1 note is issued by the Ministry of Finance and signed by the Finance Secretary. Central Bank Digital Currency (CBDC / e₹) is a direct sovereign digital liability of the RBI.',
+        content: 'Total Utility (TU) is the sum of Marginal Utilities (MU = dTU/dQ). When MU is positive, TU increases at a decreasing rate. When MU = 0, TU reaches its peak (Point of Satiety). When MU < 0, TU declines. Under Cardinal Utility, multi-good consumer equilibrium is achieved when MU per rupee spent is equalized across all goods (MUx/Px = MUy/Py). Adam Smith\'s Water-Diamond Paradox is explained because market price equals marginal utility at the margin of consumption.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Evolutionary Stages: Barter -> Commodity -> Metallic -> Fiat Paper -> Digital/CBDC.\n2. Functions: Primary (Exchange, Account) + Secondary (Store, Deferred Payment).\n3. Gresham Law: Overvalued bad money drives undervalued good money out of circulation.\n4. Legal Tender Architecture:\n   - Banknotes (₹2-₹500): RBI Act 1934 (Sec 22/26), Governor signature, Unlimited legal tender.\n   - ₹1 Note & Coins: Coinage Act 2011, Ministry of Finance, Finance Secretary signature, Limited legal tender.\n5. CBDC (e₹): Sovereign tokenized digital liability under amended RBI Act (Finance Act 2022).',
+        content: 'Cardinal Consumer Theory Architecture: 1. Assumptions: Rationality, Cardinal measurability, Constant MUm, Diminishing DMU. 2. Mathematical Nexus: $TU(Q) = \\int MU(Q) dQ$. 3. Equilibrium: $\\frac{MU_1}{P_1} = \\dots = \\frac{MU_n}{P_n} = MU_m$. 4. Limitations: Unrealistic cardinal measurement, led to Hicks-Allen Ordinal revolution.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Which of the following statements regarding the legal status of currency in India is CORRECT?',
+        stem: 'A consumer consumes two commodities, X and Y, with prices $P_x = ₹20$ and $P_y = ₹10$. If the consumer currently experiences $\\text{MU}_x = 60$ utils and $\\text{MU}_y = 40$ utils, what should a rational consumer do to achieve equilibrium under cardinal utility theory?',
         options: [
-          'All banknotes and coins in India are unlimited legal tender for any payment amount',
-          'Banknotes issued by the RBI are unlimited legal tender, while coins are limited legal tender up to ₹1,000 under the Coinage Act, 2011',
-          'Cheques and Demand Drafts drawn on Scheduled Commercial Banks constitute legal tender under the Negotiable Instruments Act, 1881',
-          'The One-Rupee note is issued by the Reserve Bank of India and bears the signature of the RBI Governor',
+          'Increase consumption of Good X and decrease consumption of Good Y.',
+          'Increase consumption of Good Y and decrease consumption of Good X.',
+          'Maintain current consumption because both marginal utilities are positive.',
+          'Double the consumption of both goods simultaneously.',
         ],
-        correctAnswer: 'Banknotes issued by the RBI are unlimited legal tender, while coins are limited legal tender up to ₹1,000 under the Coinage Act, 2011',
-        explanation: 'Under Section 26(1) of the RBI Act 1934, RBI banknotes are legal tender at any place in India without monetary limit (Unlimited Legal Tender). Under Section 6 of the Coinage Act 2011, coins of denomination not less than ₹1 are legal tender for any sum not exceeding ₹1,000 (Limited Legal Tender). Cheques are optional credit instruments (not legal tender), and ₹1 notes are issued by the Ministry of Finance with the signature of the Finance Secretary.',
-        trapExplanation: 'Candidates assume all currency in India is unlimited legal tender or that cheques are legal tender because banks process them.',
+        correctAnswer: 'Increase consumption of Good Y and decrease consumption of Good X.',
+        explanation: 'Calculate Marginal Utility per rupee for each good: $\\frac{\\text{MU}_x}{P_x} = \\frac{60}{20} = 3\\text{ utils/rupee}$. $\\frac{\\text{MU}_y}{P_y} = \\frac{40}{10} = 4\\text{ utils/rupee}$. Because $\\frac{\\text{MU}_y}{P_y} > \\frac{\\text{MU}_x}{P_x}$, the consumer gets more satisfaction per rupee spent on Good Y. A rational consumer must increase consumption of Good Y (lowering $\\text{MU}_y$) and reduce consumption of Good X (raising $\\text{MU}_x$) until $\\frac{\\text{MU}_x}{P_x} = \\frac{\\text{MU}_y}{P_y}$.',
+        trapExplanation: 'Option A is incorrect because looking only at raw MU (60 vs 40) ignores price; utility per rupee spent is what governs equilibrium.',
         difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 24,
+        examinerTrapPattern: 'Testing ratio comparison of MU/P instead of raw MU.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'When Marginal Utility ($MU$) derived from the consumption of a good is zero, Total Utility ($TU$) is:',
+        options: [
+          'Zero',
+          'At its minimum',
+          'At its maximum',
+          'Negative',
+        ],
+        correctAnswer: 'At its maximum',
+        explanation: 'Because Marginal Utility is the first derivative of Total Utility ($MU = \\frac{dTU}{dQ}$), setting $MU = 0$ represents the mathematical first-order condition for the maximum of the Total Utility curve (the Point of Satiety). Any further consumption beyond this point yields negative MU, causing TU to decrease.',
+        trapExplanation: 'Option A confuses Total Utility with Marginal Utility.',
+        difficulty: 'EASY',
         isPYQ: false,
+        examinerTrapPattern: 'Fundamental mathematical calculus relationship between TU and MU.',
       },
     ],
   },
-
   {
     id: 'CON-ECO-08',
-    topicOrder: 28,
-    topicSlug: 'money-commercial-banking-and-financial-markets',
-    topicTitle: 'Money, Commercial Banking & Financial Markets Architecture',
-    topicDescription: 'Money Supply Measures: Reserve Money (M0), Narrow Money (M1, M2), Broad Money (M3, M4) & Liquidity Aggregates, Money Multiplier.',
-    slug: 'money-supply-aggregates-m0-m1-m2-m3-m4-liquidity-aggregates-money-multiplier',
-    title: 'Money Supply Measures: Reserve Money (M0), Narrow Money (M1, M2), Broad Money (M3, M4) & The Money Multiplier',
-    shortDefinition: 'The quantitative architecture of money supply in India defined by the RBI Working Group (Y.V. Reddy Committee, 1998): Reserve Money (M0 / High-Powered Money / Monetary Base), Narrow Money (M1, M2), Broad Money (M3, M4), Liquidity Aggregates (L1, L2, L3), and the Money Multiplier formula ($m = \\frac{M3}{M0} = \\frac{1+c}{r+c}$) determining how high-powered central bank money multiplies into commercial bank broad money.',
+    topicOrder: 29,
+    topicSlug: 'consumer-behaviour-and-indifference-curve-analysis',
+    topicTitle: 'Consumer Behaviour & Indifference Curve Analysis',
+    topicDescription: 'Cardinal utility, Law of Diminishing Marginal Utility, ordinal utility, indifference curves, budget lines, and consumer equilibrium.',
+    slug: 'ordinal-utility-indifference-curves-budget-line-and-consumer-equilibrium',
+    title: 'Ordinal Utility: Indifference Curves, Budget Constraints & Consumer Equilibrium',
+    shortDefinition: 'The modern ordinal framework of consumer choice (Hicks-Allen), establishing Indifference Curves, Budget Constraints, tangency equilibrium, and the decomposition of price changes into Income and Substitution effects.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-08-01',
-        statement: 'Reserve Money (M0 / Monetary Base / High-Powered Money) is the total liability of the Reserve Bank of India, defined as: M0 = Currency in Circulation + Bankers\' Deposits with the RBI + "Other" Deposits with the RBI.',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Reserve Bank of India Bulletin; Y.V. Reddy Working Group on Money Supply: Analytics and Methodology of Compilation (1998)',
-        excerpt: 'M0 = Currency in Circulation + Bankers Deposits with RBI + Other Deposits with RBI.',
-      },
-      {
-        id: 'CLM-ECO-08-02',
-        statement: 'The four classical money supply aggregates are: M1 (Narrow Money) = Currency with the Public + Demand Deposits with Banking System + "Other" Deposits with RBI; M2 = M1 + Post Office Savings Bank Deposits; M3 (Broad Money) = M1 + Time Deposits with Banking System; M4 = M3 + All Post Office Deposits (excluding National Savings Certificates).',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'RBI Working Group on Money Supply (1977 & 1998); NCERT Class 12 Macroeconomics, Ch 3',
-        excerpt: 'M1 is the most liquid; M4 is the least liquid. M3 is the standard measure of Broad Money used for monetary policy analysis.',
-      },
-      {
-        id: 'CLM-ECO-08-03',
-        statement: 'The Money Multiplier ($m$) is the ratio of Broad Money ($M3$) to Reserve Money ($M0$), expressed mathematically as $m = \\frac{1+c}{r+c}$ (where $c = \\frac{C}{D}$ is the currency-deposit ratio and $r = \\frac{R}{D}$ is the reserve-deposit ratio including CRR and excess reserves); an increase in CRR or currency hoarding reduces the multiplier.',
+        statement: 'Ordinal utility theory (J.R. Hicks & R.G.D. Allen, 1934) posits that consumers rank preference bundles rather than measuring utils; an Indifference Curve (IC) plots bundles yielding equal satisfaction and is downward-sloping and strictly convex to the origin due to diminishing Marginal Rate of Substitution ($MRS_{xy}$).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Milton Friedman & Anna Schwartz, Monetary History of the United States; RBI Bulletin',
-        excerpt: 'Money Multiplier m = (1 + c) / (r + c). As cash-deposit ratio c rises, m declines.',
+        locator: 'J.R. Hicks & R.G.D. Allen (1934) A Reconsideration of the Theory of Value (Economica); J.R. Hicks (1939) Value and Capital',
+        excerpt: 'The ordinal approach requires only that the consumer can order or rank all possible combinations of goods according to preference, characterized by diminishing marginal rate of substitution.',
+      },
+      {
+        id: 'CLM-ECO-08-02',
+        statement: 'The Budget Line ($P_x X + P_y Y = M$) represents all affordable consumption bundles with fixed income $M$, with slope equal to the negative relative price ratio ($-\\frac{P_x}{P_y}$).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 2: Budget Constraint',
+        excerpt: 'The budget line is the set of bundles that cost exactly m. Its slope measures the rate at which the market is willing to substitute good 1 for good 2.',
+      },
+      {
+        id: 'CLM-ECO-08-03',
+        statement: 'Consumer equilibrium occurs at the tangency point where the highest attainable Indifference Curve touches the Budget Line, satisfying $MRS_{xy} = \\frac{P_x}{P_y}$; a price change decomposes into a Substitution Effect (always negative) and an Income Effect via Hicksian and Slutsky methods.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Eugen Slutsky (1915); J.R. Hicks (1939) Value and Capital, Chapter 2; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'At the optimal point, the indifference curve is tangent to the budget line, equating the marginal rate of substitution to the price ratio.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'High-Powered Fuel vs Total Circulating Money',
-        body: 'The central bank does not directly print every rupee circulating in the economy. Instead, the RBI creates a core foundation of **High-Powered Money (Reserve Money, $M0$)**.\n\nCommercial banks take these reserves and, through the fractional reserve banking system, repeatedly issue loans and create derivative deposits. This process expands the initial monetary base into a much larger pool of **Broad Money ($M3$)** that households and businesses use to transact.',
+        title: 'Abandoning the "Util": Ranking Preferences Realistically',
+        body: `Nobody walks into a grocery store thinking, *"This apple gives me 14 utils and this mango gives me 28 utils."* 
+
+Instead, human beings **rank bundles**: *"I prefer Bundle A (2 mangoes, 1 apple) over Bundle B (1 mango, 2 apples), and I am completely indifferent between Bundle A and Bundle C (3 apples, 1 mango)."*
+
+This realistic preference-ranking framework is **Ordinal Utility Theory** (Hicks & Allen, 1934).`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Hierarchy of Money Supply Aggregates (M0 to M4)',
-        body: 'The RBI compiles money supply across standardized tiers based on **Liquidity** (ease of conversion into cash without loss of capital):\n\n```mermaid\ngraph TD\n    M0["M0: Reserve Money (High-Powered Base) = Currency in Circulation + Bank Reserves with RBI + Other Deposits with RBI"]\n    M1["M1: Narrow Money (Highest Liquidity) = Currency with Public + Demand Deposits with Banks + Other Deposits with RBI"]\n    M2["M2 = M1 + Post Office Savings Bank Deposits"]\n    M3["M3: Broad Money (Policy Benchmark) = M1 + Time Deposits (Fixed/Recurring) with Banking System"]\n    M4["M4 (Least Liquid) = M3 + All Post Office Deposits (excl. NSC)"]\n```\n\n### Liquidity Order\n$$\\mathbf{M1 > M2 > M3 > M4}$$\n* **M1 is the most liquid** (pure transaction money).\n* **M4 is the least liquid** (locked in term deposits and small savings).\n* **M3 is the primary measure** used by the RBI for macroeconomic projections.',
+        title: 'Properties of Indifference Curves (IC) & MRS',
+        body: `An **Indifference Curve (IC)** is the locus of all commodity bundles $(X, Y)$ that yield the identical level of total satisfaction to the consumer.
+
+### The 4 Master Properties of Indifference Curves:
+1. **Downwards Sloping to the Right:** To consume more of Good X while keeping satisfaction constant, the consumer must sacrifice some amount of Good Y (monotonic preferences).
+2. **Convex to the Origin:** As the consumer acquires more of Good X, their subjective willingness to give up Good Y diminishes. This reflects the **Diminishing Marginal Rate of Substitution ($MRS_{xy}$)**:
+   $$MRS_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{MU}_x}{\\text{MU}_y}$$
+3. **Higher Indifference Curves Represent Higher Satisfaction ($IC_3 > IC_2 > IC_1$):** Because more goods are preferred to fewer ("monotonicity of preferences").
+4. **Two Indifference Curves Can NEVER Intersect:** If they intersected, transitivity of preferences would be violated (A = B and B = C would imply A = C, creating a logical contradiction).
+
+\`\`\`
+Good Y
+  ^
+  |\ (Budget Line: Px*X + Py*Y = M)
+  | \
+  |  \       .---- IC3 (Unattainable)
+  |   \    .'
+  |    \  /
+  |     *E (Consumer Equilibrium: MRS = Px/Py)
+  |    / \'.
+  |   /   \ '-- IC2 (Optimal Choice)
+  |  /     \
+  | /       \--- IC1 (Sub-optimal)
+  +-------------------------> Good X
+\`\`\``,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'The Money Multiplier Formula & Determinants',
-        body: 'The **Money Multiplier ($m$)** measures the total broad money generated per unit of reserve money:\n\n$$\\mathbf{m = \\frac{M3}{M0} = \\frac{1 + c}{r + c}}$$\n\nWhere:\n* **$c = \\frac{\\text{Currency held by Public (C)}}{\\text{Bank Deposits (D)}}$ (Currency-Deposit Ratio):** Determined by public habits (cash preference vs digital banking).\n* **$r = \\frac{\\text{Bank Reserves (R)}}{\\text{Bank Deposits (D)}}$ (Reserve-Deposit Ratio):** Comprises statutory **Cash Reserve Ratio (CRR)** mandated by RBI + excess voluntary cash reserves maintained by banks.\n\n### What Increases the Money Multiplier?\n1. **Spread of Digital Payments / Banking Habit:** People deposit more cash in banks $\\rightarrow c \\downarrow \\rightarrow m \\uparrow$.\n2. **RBI Cuts CRR:** Banks need to hold fewer reserves $\\rightarrow r \\downarrow \\rightarrow m \\uparrow$.\n3. **Financial Inclusion (PMJDY):** Converts unbanked physical cash into active bank deposits $\\rightarrow m \\uparrow$.',
+        title: 'Consumer Equilibrium & Price Effect Decomposition',
+        body: `### 1. Consumer Equilibrium Tangency Condition
+The consumer maximizes utility subject to their budget constraint ($M = P_x X + P_y Y$) where the slope of the Indifference Curve equals the slope of the Budget Line:
+
+$$MRS_{xy} = \\frac{P_x}{P_y} \\iff \\frac{\\text{MU}_x}{\\text{MU}_y} = \\frac{P_x}{P_y} \\iff \\frac{\\text{MU}_x}{P_x} = \\frac{\\text{MU}_y}{P_y}$$
+
+### 2. Decomposing the Price Effect (Slutsky / Hicks Equation)
+$$\\text{Total Price Effect (PE)} = \\text{Substitution Effect (SE)} + \\text{Income Effect (IE)}$$
+
+* **Substitution Effect (SE):** The change in consumption due solely to the change in relative prices, holding real utility constant. **SE is mathematically ALWAYS negative** (if $P_x$ rises, consumer always substitutes away from $X$).
+* **Income Effect (IE):** The change in consumption due solely to the change in real purchasing power ($M/P_x$):
+  - **For Normal Goods:** Real income rises $\\implies$ consumption of $X$ rises ($SE$ and $IE$ reinforce each other).
+  - **For Inferior Goods:** Real income rises $\\implies$ consumption of $X$ falls ($IE$ opposes $SE$, but $SE$ dominates).
+  - **For Giffen Goods:** Real income rises $\\implies$ consumption of $X$ collapses ($IE$ opposes and *overwhelms* $SE$).`,
         order: 3,
       },
       {
-        type: 'COMPARISON',
-        title: 'New Monetary & Liquidity Aggregates (1998 Reddy Committee)',
-        body: '| New Aggregate | Formula & Components |\n| :--- | :--- |\n| **$\\text{NM}_1$** | Currency with Public + Demand Deposits + Other Deposits with RBI. |\n| **$\\text{NM}_2$** | $\\text{NM}_1$ + Short-Term Time Deposits of Residents (up to 1 year maturity). |\n| **$\\text{NM}_3$** | $\\text{NM}_2$ + Long-Term Time Deposits of Residents + Call/Notice Borrowings by Banking System. |\n| **$L_1$** | $\\text{NM}_3$ + All Post Office Deposits (excluding National Savings Certificates). |\n| **$L_2$** | $L_1$ + Term Deposits with Financial Institutions (NABARD, EXIM Bank, SIDBI, NHB) + Term Money Borrowings + CDs issued by FIs. |\n| **$L_3$** | $L_2$ + Public Deposits accepted by Non-Banking Financial Companies (NBFCs). |',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Money Supply',
-        body: '1. **Currency in Circulation vs Currency with the Public:**\n   $$\\mathbf{\\text{Currency with the Public} = \\text{Currency in Circulation} - \\text{Cash held in Bank Vaults}}$$\n   Bank vault cash cannot be counted in M1 because it is not in the hands of the public.\n2. **Post Office NSC Exclusion:** M4 and $L_1$ include all post office deposits but **explicitly exclude National Savings Certificates (NSC)**.\n3. **Demonetization & Money Multiplier:** When high-denomination notes were deposited in banks in 2016, public currency holdings dropped ($c \\downarrow$), causing a sharp temporary **spike in the statistical Money Multiplier**.',
-        order: 5,
+        title: 'Indian Policy Application & Exam Traps',
+        body: `### Indian Policy Application: Cash Transfers vs In-Kind Rations
+Under the National Food Security Act (NFSA), does giving ₹1,000 cash or ₹1,000 worth of free foodgrains provide higher consumer utility?
+* **Indifference Curve Analysis proves:** In-kind food rations restrict the consumer to a kinked budget line. Direct Cash Transfers allow the consumer to reach a **strictly higher Indifference Curve** by freely choosing their optimal bundle.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Slope of Budget Line vs Slope of IC:** Slope of Budget Line is determined entirely by market prices ($P_x/P_y$). Slope of IC is determined entirely by subjective preferences ($MRS_{xy} = MU_x/MU_y$).
+* ⚠️ **Trap 2: Perfect Substitutes vs Perfect Complements:**
+  - **Perfect Substitutes (e.g. 5-rupee blue pen vs 5-rupee black pen):** IC is a straight line ($MRS$ is constant). Corner solution equilibrium.
+  - **Perfect Complements (e.g. Left shoe and Right shoe):** IC is L-shaped (right-angled, $MRS = 0$ or $\\infty$). Tangency condition does not apply; equilibrium occurs at the vertex.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Money Supply, M0 vs M3, Money Multiplier, Digital Banking',
-        notes: 'Multiple past Prelims questions on what increases the Money Multiplier (banking habit of population).',
+        syllabusUnit: 'Paper 2: Microeconomics — Indifference Curves, Budget Line, Consumer Equilibrium, Slutsky Equation',
+        notes: 'Heavily tested in Phase 2: MRS formula, budget line pivots vs shifts, and Hicksian vs Slutsky decomposition.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module A - Money Supply Measures & Credit Multiplier',
-        notes: 'Direct numerical problems on M1, M3, M0, and multiplier calculation.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Microeconomic Foundations and Welfare Transfers',
+        notes: 'Used to evaluate cash transfers vs in-kind public distribution subsidies.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Indifference Curve Analysis and Consumer Equilibrium',
+        notes: 'Direct 5-mark and 10-mark questions on properties of Indifference Curves and consumer equilibrium conditions.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'M0 (High-Powered Base) = Currency in Circulation + Bankers Deposits with RBI + Other Deposits with RBI. M1 (Narrow) = Currency with Public + Demand Deposits + Other Deposits with RBI. M3 (Broad) = M1 + Time Deposits. Liquidity: M1 > M2 > M3 > M4. Money Multiplier m = M3 / M0 = (1 + c) / (r + c). Money Multiplier INCREASES when public banking habit/digital adoption grows (c decreases) or CRR is cut (r decreases).',
+        content: 'Ordinal Utility (Hicks-Allen): Ranks bundles. Indifference Curve (IC) is downward-sloping and convex to origin (diminishing MRS). Budget Line: $P_x X + P_y Y = M$ (slope $= -P_x/P_y$). Equilibrium at tangency: $MRS_{xy} = P_x/P_y$. Price Effect = Substitution Effect (always negative) + Income Effect.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'The RBI compiles money supply across M0 (Reserve Money), M1 (Narrow Money), M2, M3 (Broad Money), and M4. M1 is the most liquid; M3 is the policy benchmark. The Money Multiplier m = M3 / M0 reflects how central bank base money expands into commercial bank broad money. Increasing financial inclusion and digital banking lowers the cash-deposit ratio and raises the money multiplier.',
+        content: 'Indifference Curves represent equal utility bundles. Slope is the Marginal Rate of Substitution ($MRS_{xy} = MU_x/MU_y$). Properties: Downward sloping, convex to origin, cannot intersect, higher IC = higher satisfaction. The Budget Line slope is $-P_x/P_y$. Equilibrium occurs at the tangency point where $MRS_{xy} = P_x/P_y$. A price change decomposes into the Substitution Effect (always negative) and the Income Effect. For Giffen goods, negative income effect overwhelms substitution effect. Perfect substitutes have linear ICs; perfect complements have L-shaped ICs.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Monetary Base: M0 = Currency in Circulation + Bank Reserves at RBI + Other Deposits.\n2. Classical Aggregates: M1 = Currency with Public + DD; M2 = M1 + Post Office Savings; M3 = M1 + Time Deposits; M4 = M3 + All Post Office Deposits (excl NSC).\n3. Multiplier Identity: m = (1 + c) / (r + c). Influenced by public cash preference (c) and bank reserve ratio (r).\n4. Liquidity Aggregates (1998): L1 (NM3 + Post Office), L2 (L1 + FI deposits), L3 (L2 + NBFC public deposits).',
+        content: 'Ordinal Consumer Choice Architecture: 1. Axioms: Completeness, Transitivity, Monotonicity, Convexity. 2. Geometry: Tangency of IC with Budget Line. 3. Mathematical Condition: $\\max U(X,Y)$ s.t. $P_x X + P_y Y = M \\implies \\mathcal{L} = U(X,Y) - \\lambda(P_x X + P_y Y - M)$. 4. Slutsky Decomposition: $\\frac{\\partial X}{\\partial P_x} = \\left(\\frac{\\partial X}{\\partial P_x}\\right)_{\\text{comp}} - X \\frac{\\partial X}{\\partial M}$.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Which of the following events will LEAD TO AN INCREASE in the Money Multiplier in an economy?',
+        stem: 'At the point of consumer equilibrium using Indifference Curve analysis, which of the following mathematical conditions is satisfied?',
         options: [
-          'An increase in the Cash Reserve Ratio (CRR) mandated by the Central Bank',
-          'An increase in the banking habit of the population, leading to a decline in the Currency-Deposit ratio',
-          'A decision by commercial banks to hold higher voluntary excess cash reserves in their vaults',
-          'A surge in public hoarding of physical cash during economic uncertainty',
+          '$MRS_{xy} > \\frac{P_x}{P_y}$',
+          '$MRS_{xy} = \\frac{P_x}{P_y}$',
+          '$MRS_{xy} = P_x \\cdot P_y$',
+          '$MRS_{xy} = 0$',
         ],
-        correctAnswer: 'An increase in the banking habit of the population, leading to a decline in the Currency-Deposit ratio',
-        explanation: 'The money multiplier is given by m = (1 + c) / (r + c). When the banking habit of the population increases, people deposit more cash into commercial banks, causing the currency-deposit ratio (c) to fall. As c falls, a larger proportion of base money stays within the banking system to support credit creation, thereby increasing the money multiplier.',
-        trapExplanation: 'Raising CRR increases the reserve ratio r, which reduces the money multiplier. Cash hoarding increases c, which also reduces the multiplier.',
-        difficulty: 'MEDIUM',
+        correctAnswer: '$MRS_{xy} = \\frac{P_x}{P_y}$',
+        explanation: 'Consumer equilibrium in ordinal utility analysis occurs at the point where the budget line is tangent to the highest attainable indifference curve. At this tangency point, the slope of the Indifference Curve (the Marginal Rate of Substitution, $MRS_{xy} = \\frac{MU_x}{MU_y}$) is exactly equal to the slope of the Budget Line (the relative price ratio, $\\frac{P_x}{P_y}$).',
+        trapExplanation: 'Option A indicates the consumer can increase satisfaction by purchasing more of Good X; Option D indicates a corner point of zero substitution.',
+        difficulty: 'EASY',
         isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 19,
+        examinerTrapPattern: 'Standard equilibrium tangency condition testing.',
+      },
+      {
+        type: 'EXCEPTION_PROBE',
+        stem: 'What is the shape of Indifference Curves for two goods that are "Perfect Complements" (e.g. left shoes and right shoes)?',
+        options: [
+          'Downward-sloping straight lines with constant slope.',
+          'Convex curves asymptotic to both axes.',
+          'Right-angled L-shaped curves.',
+          'Circular concentric curves around a bliss point.',
+        ],
+        correctAnswer: 'Right-angled L-shaped curves.',
+        explanation: 'Perfect complements are goods that must be consumed together in fixed proportions (e.g. 1 left shoe and 1 right shoe). Having 5 left shoes and only 1 right shoe provides no more utility than having 1 pair. Consequently, the indifference curves are L-shaped (right-angled), with the vertex representing the required fixed proportion, and the Marginal Rate of Substitution is zero on the horizontal arm and infinite on the vertical arm.',
+        trapExplanation: 'Option A describes Perfect Substitutes (straight-line ICs).',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing non-standard indifference curves for special goods categories.',
       },
     ],
   },
 
+  // =========================================================================
+  // TOPIC 30: Production Theory, Cost Analysis & Revenue
+  // =========================================================================
   {
     id: 'CON-ECO-09',
-    topicOrder: 28,
-    topicSlug: 'money-commercial-banking-and-financial-markets',
-    topicTitle: 'Money, Commercial Banking & Financial Markets Architecture',
-    topicDescription: 'Commercial Banking Architecture, Fractional Reserve Banking & Credit Creation Mechanics.',
-    slug: 'commercial-banking-architecture-fractional-reserve-banking-credit-creation-mechanics',
-    title: 'Commercial Banking Architecture, Fractional Reserve Banking & Credit Creation Mechanics',
-    shortDefinition: 'The institutional and operating mechanics of commercial banking: Scheduled Commercial Banks (Public, Private, Foreign, Small Finance Banks, Payments Banks), the principle of Fractional Reserve Banking, the mathematical credit creation process through derivative deposits ($Total Credit = Initial Deposit \\times \\frac{1}{LRR}$), and balance sheet asset-liability management (ALM).',
+    topicOrder: 30,
+    topicSlug: 'production-theory-cost-analysis-and-revenue',
+    topicTitle: 'Production Theory, Cost Analysis & Revenue',
+    topicDescription: 'Production functions in short and long run, Law of Variable Proportions, Isoquants, Returns to Scale, and Producer Equilibrium.',
+    slug: 'production-functions-variable-proportions-isoquants-returns-to-scale',
+    title: 'Production Functions: Law of Variable Proportions, Isoquants & Returns to Scale',
+    shortDefinition: 'The technological relationship transforming capital and labour inputs into physical output, analyzed via the short-run Law of Variable Proportions (3 Stages) and the long-run Returns to Scale using Isoquants and Isocost lines.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-09-01',
-        statement: 'A Scheduled Commercial Bank (SCB) in India is a bank included in the Second Schedule to the Reserve Bank of India Act 1934, satisfying the statutory conditions of Section 42(6): minimum paid-up capital and reserves of ₹5 lakh, and conducting operations without detrimental effect to the interests of depositors.',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Section 42(6)); Banking Regulation Act, 1949',
-        excerpt: 'Second Schedule inclusion requires satisfying capital norms and non-detrimental operation.',
-      },
-      {
-        id: 'CLM-ECO-09-02',
-        statement: 'Under Fractional Reserve Banking, banks maintain only a fraction of their total deposits as liquid reserves (Legal Reserve Ratio: LRR = CRR + SLR) and lend out the remaining portion; multiple rounds of lending generate derivative deposits according to the deposit expansion formula: Total Deposit Creation = Initial Primary Deposit / LRR.',
+        statement: 'In the short run with at least one fixed factor, the Law of Variable Proportions operates across three stages: Stage I (Increasing Returns), Stage II (Diminishing Returns — the only rational operating zone where $MP > 0$ and $AP > MP$), and Stage III (Negative Returns).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson, Economics; NCERT Class 12 Macroeconomics, Ch 3',
-        excerpt: 'Deposit Multiplier = 1 / LRR. Total Deposits = Primary Deposit * (1 / LRR).',
+        locator: 'Alfred Marshall (1890) Principles of Economics; Hal Varian, Intermediate Microeconomics, Chapter 18: Technology',
+        excerpt: 'A rational producer will never operate in Stage I (where average product of variable factor is still rising) or in Stage III (where marginal product is negative). Stage II is the only economic zone of production.',
+      },
+      {
+        id: 'CLM-ECO-09-02',
+        statement: 'In the long run where all factors are variable, an Isoquant represents input combinations yielding equal output with slope equal to the Marginal Rate of Technical Substitution ($MRTS_{LK} = \\frac{MP_L}{MP_K}$); Producer Equilibrium occurs at tangency with the Isocost line ($\\frac{MP_L}{w} = \\frac{MP_K}{r}$).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 19: Profit Maximization & Chapter 20: Cost Minimization',
+        excerpt: 'Cost minimization requires that the technical rate of substitution between factors of production equals the economic factor price ratio.',
       },
       {
         id: 'CLM-ECO-09-03',
-        statement: 'Differentiated Banking licenses introduced in 2014-15 created niche banks: Small Finance Banks (SFBs — Nachiket Mor Committee, required to extend 75% of ANBC to Priority Sector and 50% loans below ₹25 lakh) and Payments Banks (can accept demand deposits up to ₹2 lakh per individual, but are strictly prohibited from lending or issuing credit cards).',
-        claimType: 'STATUTORY_RULE',
+        statement: 'Returns to Scale describe the output response to an equiproportionate increase in all inputs: Constant Returns to Scale (CRS), Increasing Returns (IRS), and Decreasing Returns (DRS), formalized in the Cobb-Douglas production function $Q = A K^\\alpha L^\\beta$ where $\\alpha + \\beta = 1$ implies CRS.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'RBI Guidelines for Licensing of Small Finance Banks & Payments Banks (2014); Nachiket Mor Committee on Comprehensive Financial Services for Small Businesses and Low Income Households',
-        excerpt: 'Payments banks accept deposits up to ₹2 lakh, provide payments/remittances, but cannot lend. SFBs have 75% PSL target.',
+        locator: 'Charles Cobb & Paul Douglas (1928) A Theory of Production (AER); Paul Samuelson, Economics',
+        excerpt: 'A production function exhibits constant returns to scale if scaling all inputs by a constant t scales output by precisely t.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'How Banks "Create" Money Out of Thin Air',
-        body: 'When a bank grants you a home loan or car loan of ₹50 Lakh, it does not hand you a physical bag of cash taken from someone else\'s vault. Instead, the bank opens a deposit account in your name and electronically credits ₹50 Lakh to it.\n\nIn that single moment, **new money is created**. Every commercial bank loan creates a corresponding deposit (**Derivative Deposit**), bounded only by regulatory reserve requirements and capital adequacy constraints.',
+        title: 'The Production Function: Transforming Inputs into Output',
+        body: `A **Production Function** is the purely technological relationship showing the maximum physical output ($Q$) that can be produced from given combinations of inputs (Capital $K$, Labour $L$):
+
+$$Q = f(K, L)$$
+
+### Short Run vs Long Run:
+* **Short Run:** At least one input is fixed (e.g. factory floor space, heavy blast furnace). Output can be varied *only* by adjusting the variable input (e.g. hiring more workers). Governed by the **Law of Variable Proportions**.
+* **Long Run:** ALL inputs are variable. The firm can build a second factory, install new assembly lines, or relocate. Governed by **Returns to Scale**.`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Mathematical Mechanics of Credit Creation',
-        body: '### The Deposit Multiplier Formula\nLet an initial primary cash deposit of **₹1,000** enter the banking system. Suppose the statutory **Legal Reserve Ratio (LRR = CRR + SLR)** is **20% (0.20)**.\n\n$$\\mathbf{\\text{Deposit Multiplier } (k) = \\frac{1}{\\text{LRR}} = \\frac{1}{0.20} = 5}$$\n$$\\mathbf{\\text{Total Deposits Created} = \\text{Primary Deposit} \\times \\frac{1}{\\text{LRR}} = ₹1,000 \\times 5 = ₹5,000}$$\n$$\\mathbf{\\text{Total Credit / Loans Created} = ₹5,000 - ₹1,000 = ₹4,000}$$\n\n### Round-by-Round Credit Expansion Table\n| Round | Primary Deposit (₹) | Loans Created (80%) (₹) | Reserves Held (20%) (₹) |\n| :--- | :--- | :--- | :--- |\n| **Round 1** | ₹1,000 | ₹800 | ₹200 |\n| **Round 2** | ₹800 | ₹640 | ₹160 |\n| **Round 3** | ₹640 | ₹512 | ₹128 |\n| **...** | ... | ... | ... |\n| **Total Sum** | **₹5,000** | **₹4,000** | **₹1,000** |',
+        title: 'The Law of Variable Proportions (The 3 Stages of Production)',
+        body: `As successive units of a variable factor (Labour $L$) are added to a fixed factor (Capital $K$):
+
+### The 3 Master Stages of Short-Run Production:
+| Stage of Production | Total Product ($TP$) | Marginal Product ($MP_L$) | Average Product ($AP_L$) | Rationality Verdict |
+|---|---|---|---|---|
+| **Stage I: Increasing Returns** | Increases at an **increasing rate**, then at a diminishing rate. | $MP_L$ rises to a peak, then begins falling. | $AP_L$ is **continuously rising** ($MP_L > AP_L$). | **Irrational** (Fixed capital is underutilized; firm should keep expanding). |
+| **Stage II: Diminishing Returns** | Increases at a **diminishing rate** until reaching its **Maximum**. | $MP_L$ is **positive but continuously falling** ($MP_L > 0$). | $AP_L$ is falling ($MP_L < AP_L$). | **THE ONLY RATIONAL STAGE** (Optimal factor employment occurs here). |
+| **Stage III: Negative Returns** | **Declines** (Overcrowding). | $MP_L$ is **Negative ($MP_L < 0$)**. | $AP_L$ continues falling. | **Irrational** (Adding workers destroys total output). |
+
+\`\`\`
+Product
+  ^
+TP|                .---''''---.   (TP Maximized where MP = 0)
+  |              .'            '.
+  |             /                \
+  |            /                  \
+  |-----------+--------------------+--------> Labour (L)
+  |          / \                  /
+AP|         /   \----. (AP Max: AP = MP)
+  |        /     \    '--.
+MP|       /       \       '--.
+  |      /         \          '--.
+  0-----*-----------*----------------------> Labour (L)
+     (MP Max)   (MP=0: TP Max)
+  |   Stage I  |   Stage II   | Stage III |
+\`\`\`
+
+### The Boundary Theorems:
+* **Stage I ends where $AP_L$ is Maximized ($AP_L = MP_L$).**
+* **Stage II ends where $TP$ is Maximized ($MP_L = 0$).**`,
         order: 2,
       },
       {
-        type: 'COMPARISON',
-        title: 'Classification of Commercial Banks in India',
-        body: '| Category | Ownership & Structure | Prominent Examples | Key Operational Rules |\n| :--- | :--- | :--- | :--- |\n| **Public Sector Banks (PSBs)** | Majority stake ($>50\\%$) held by Government of India. | SBI, PNB, Bank of Baroda, Canara Bank (12 PSBs post-mega-mergers). | Heavy rural branch presence, social banking, PSL compliance. |\n| **Private Sector Banks** | Majority equity held by private/institutional shareholders. | HDFC Bank, ICICI Bank, Axis Bank, Kotak Mahindra. | High technological efficiency, stringent risk-based pricing. |\n| **Foreign Banks** | Incorporated abroad, operating via branches or WOS in India. | Citibank, Standard Chartered, HSBC. | Subject to standard RBI prudential norms and PSL targets (40%). |\n| **Regional Rural Banks (RRBs)** | Joint venture: Central Govt (50%), Sponsor Bank (35%), State Govt (15%). | Rajasthan Marudhara Gramin Bank, Baroda Rajasthan Kshetriya Gramin Bank. | Rural agriculture and small enterprise credit focus (75% PSL). |\n| **Small Finance Banks (SFBs)** | Differentiated niche banks (Nachiket Mor Comm). | AU Small Finance Bank, Equitas SFB, Ujjivan SFB. | **75% PSL target**; at least 50% loan portfolio must be $< ₹25 \\text{ Lakh}$. |\n| **Payments Banks** | Differentiated payment service entities. | Airtel Payments Bank, India Post Payments Bank (IPPB), Paytm PB. | Max deposit **₹2 Lakh per customer**; **CANNOT LEND OR ISSUE CREDIT CARDS**; must invest 75% in G-Secs. |',
+        type: 'MECHANISM',
+        title: 'Isoquants, Isocost Lines & Producer Equilibrium',
+        body: `In the long run, firms use **Isoquants** (equal product curves) and **Isocost Lines** (equal cost lines):
+
+### 1. Marginal Rate of Technical Substitution ($MRTS_{LK}$)
+The slope of an Isoquant is the rate at which Capital can be substituted by Labour while keeping total output constant:
+
+$$MRTS_{LK} = -\\frac{\\Delta K}{\\Delta L} = \\frac{\\text{MP}_L}{\\text{MP}_K}$$
+
+### 2. Producer Equilibrium (Least-Cost Combination)
+Cost minimization for a given output occurs at the tangency point where the Isoquant touches the Isocost line:
+
+$$MRTS_{LK} = \\frac{w}{r} \\iff \\frac{\\text{MP}_L}{\\text{MP}_K} = \\frac{w}{r} \\iff \\frac{\\text{MP}_L}{w} = \\frac{\\text{MP}_K}{r}$$
+
+### 3. The Cobb-Douglas Production Function ($Q = A K^\\alpha L^\\beta$)
+* If $\\alpha + \\beta = 1$: **Constant Returns to Scale (CRS)** (Doubling inputs exactly doubles output).
+* If $\\alpha + \\beta > 1$: **Increasing Returns to Scale (IRS)** (Doubling inputs more than doubles output).
+* If $\\alpha + \\beta < 1$: **Decreasing Returns to Scale (DRS)** (Doubling inputs less than doubles output).`,
         order: 3,
       },
       {
-        type: 'MECHANISM',
-        title: 'Asset-Liability Management (ALM) & Structural Liquidity Mismatch',
-        body: 'Banks accept short-term deposits (liabilities maturing in 1–3 years) and fund long-term infrastructure and housing loans (assets maturing in 15–30 years). This inherent maturity transformation creates **Structural Liquidity & Interest Rate Risk**.\n\n* **ALM Desk Function:** Monitors maturity buckets (1 day to 5+ years) to ensure outflows do not exceed inflows.\n* **Regulatory Liquidity Coverage Ratio (LCR):** Mandates banks to hold unencumbered **High-Quality Liquid Assets (HQLA)** sufficient to survive a severe 30-day stressed liquidity outflow scenario.',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Commercial Banking',
-        body: '1. **Payments Bank Lending Prohibition:** Payments Banks can issue **ATM/Debit Cards**, offer mobile banking, and sell third-party insurance/mutual funds, but are **ABSOLUTELY PROHIBITED from lending money or issuing Credit Cards**.\n2. **Small Finance Banks vs Payments Banks:** SFBs are **full-fledged lending banks** targeting unserved segments. Payments Banks are **transactional deposit facilitators**.\n3. **Deposit Insurance Ceiling:** The **Deposit Insurance and Credit Guarantee Corporation (DICGC)**, a wholly-owned subsidiary of RBI under the DICGC Act 1961, insures bank deposits up to **₹5 Lakh per depositor per bank** (covering both principal and interest across all branches of that bank).',
-        order: 5,
+        title: 'Disguised Unemployment in Indian Agriculture & Exam Traps',
+        body: `### Indian Application: Disguised Unemployment as Stage III Production
+In Indian family agriculture, 6 family members work on a 1-acre plot where 2 workers could produce the exact same output. The marginal product of the extra 4 workers is **zero or negative ($MP_L \\le 0$)**. This is classic **Stage III disguised unemployment**.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Where Does Stage II Begin and End?** Stage II begins at $\\text{Maximum } AP_L$ (where $AP_L = MP_L$) and ends at $\\text{Maximum } TP$ (where $MP_L = 0$).
+* ⚠️ **Trap 2: AP Rises as Long as $MP > AP$:** Even if $MP$ is falling, as long as $MP$ lies above $AP$, the average product **continues to rise**. $AP$ falls only after $MP$ drops below $AP$.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Banking Structure, Payments Banks vs SFBs, DICGC Insurance',
-        notes: 'Prelims questions on Payments Bank rules (no lending, ₹2L deposit cap) and SFB PSL targets.',
+        syllabusUnit: 'Paper 2: Microeconomics — Production Functions, Law of Variable Proportions, Isoquants and Returns to Scale',
+        notes: 'Guaranteed questions on the 3 stages of production, Cobb-Douglas homogeneous exponents, and MRTS formula.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'NABARD_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 & Paper 2 (PPB): Module A - Indian Banking Structure & Credit Creation',
-        notes: 'Core foundation for entire DBF exam: credit multiplier calculation, RRB shareholding, and DICGC cover.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Agriculture & Rural Development — Farm Production Economics and Returns to Scale',
+        notes: 'Directly applied to farm mechanization, land-labour ratios, and disguised unemployment.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Production Theory and Cost Concepts',
+        notes: '5-mark question on Law of Variable Proportions stages and why Stage II is rational.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Scheduled Bank = 2nd Schedule of RBI Act 1934 (Sec 42(6)). Credit Multiplier = 1 / LRR. Total Deposits = Initial Deposit * (1 / LRR). RRB Equity: Center 50%, Sponsor Bank 35%, State Govt 15%. Small Finance Banks: 75% PSL target, 50% loans < ₹25 Lakh. Payments Banks: Max deposit ₹2 Lakh, NO lending, NO credit cards, CAN issue debit cards. DICGC cover = ₹5 Lakh per depositor per bank.',
+        content: 'Law of Variable Proportions (Short run): Stage I (Increasing returns, $AP$ rises), Stage II (Diminishing returns, $MP>0$, ONLY rational stage), Stage III (Negative returns, $MP<0$). Producer Equilibrium: $MRTS_{LK} = \\frac{w}{r} \\iff \\frac{MP_L}{w} = \\frac{MP_K}{r}$. Cobb-Douglas: $\\alpha+\\beta=1$ is CRS.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Commercial banks create credit through fractional reserve banking, multiplying initial deposits by 1/LRR. Scheduled Commercial Banks meet RBI Act Second Schedule criteria. Differentiated banking includes Small Finance Banks (75% PSL mandate) and Payments Banks (deposit cap of ₹2 Lakh, strictly barred from lending and credit card issuance). DICGC insures deposits up to ₹5 Lakh per depositor per bank.',
+        content: 'In the short run, adding variable labour to fixed capital creates three stages of production. Stage I ends where $AP_L = MP_L$ (max AP). Stage II ends where $MP_L = 0$ (max TP). A rational firm operates strictly within Stage II. In the long run, Isoquants plot equal output combinations with slope $MRTS_{LK} = MP_L/MP_K$. Equilibrium occurs where the isoquant is tangent to the isocost line ($MP_L/w = MP_K/r$). Cobb-Douglas $Q = A K^\\alpha L^\\beta$ exhibits CRS if $\\alpha + \\beta = 1$, IRS if $>1$, DRS if $<1$. Disguised unemployment in Indian farming represents Stage III where $MP_L \\le 0$.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Definition: Second Schedule of RBI Act 1934 (paid-up capital >= ₹5L + depositor safety).\n2. Credit Creation: Deposit Multiplier = 1/LRR. Total credit = Primary deposit * (1/LRR - 1).\n3. Institutional Matrix: 12 PSBs, Private Banks, Foreign Banks, RRBs (50:35:15), SFBs (75% PSL), Payments Banks (deposit only, max ₹2L, no loans).\n4. ALM & Safety: LCR 30-day liquidity buffer, DICGC ₹5 Lakh statutory deposit insurance guarantee.',
+        content: 'Production Theory Architecture: 1. Short-Run Dynamics: $TP = f(L; \\bar{K})$, $AP = TP/L$, $MP = dTP/dL$. 2. Boundary Transitions: Stage I $\\to$ II at $\\max AP_L$, Stage II $\\to$ III at $\\max TP$. 3. Long-Run Geometry: Isoquant curvature and Isocost tangency $\\min (wL + rK)$ s.t. $f(K,L) = \\bar{Q}$. 4. Euler Theorem on Exhaustion of Product under CRS.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Which of the following activities is a Payments Bank PERMITTED to undertake under RBI regulations?',
+        stem: 'In the Law of Variable Proportions, why is Stage II termed the only "Rational Stage of Production"?',
         options: [
-          'Granting personal and vehicle loans to retail customers',
-          'Issuing credit cards with a pre-approved revolving credit limit',
-          'Accepting demand deposits up to ₹2,00,000 per individual customer and issuing debit cards',
-          'Setting up non-banking financial subsidiaries to engage in real estate lending',
+          'Because in Stage II both Average Product and Marginal Product are rising.',
+          'Because in Stage I the fixed factor is underutilized, and in Stage III additional variable factors reduce total output ($MP < 0$).',
+          'Because total product reaches zero at the beginning of Stage II.',
+          'Because the firm earns negative economic profits in Stage I and Stage III.',
         ],
-        correctAnswer: 'Accepting demand deposits up to ₹2,00,000 per individual customer and issuing debit cards',
-        explanation: 'Under RBI guidelines, Payments Banks can accept demand deposits (savings and current accounts) up to ₹2 Lakh per customer, issue ATM/Debit cards, facilitate remittances, and distribute simple third-party financial products. They are strictly prohibited from lending in any form and cannot issue credit cards.',
-        trapExplanation: 'Candidates confuse debit cards (permitted) with credit cards (prohibited) or forget the ₹2 Lakh deposit limit.',
+        correctAnswer: 'Because in Stage I the fixed factor is underutilized, and in Stage III additional variable factors reduce total output ($MP < 0$).',
+        explanation: 'In Stage I, Average Product of the variable factor is still rising, meaning the fixed factor (capital) is underutilized; increasing variable inputs increases efficiency per worker. In Stage III, Marginal Product is negative ($MP < 0$), meaning adding workers reduces total physical output. Therefore, a rational producer will never produce in Stage I or Stage III, and will always operate strictly in Stage II where $MP > 0$ and total output is maximized.',
+        trapExplanation: 'Option A is incorrect because in Stage II both MP and AP are falling, not rising.',
         difficulty: 'MEDIUM',
         isPYQ: true,
+        pyqYear: 2020,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 26,
+        examinerTrapPattern: 'Testing economic logic behind the 3 stages of production.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'A manufacturing firm operates with a Cobb-Douglas production function $Q = 5 K^{0.6} L^{0.7}$. If the firm doubles both its capital and labour inputs simultaneously, what will happen to total output ($Q$)?',
+        options: [
+          'Output will exactly double.',
+          'Output will increase by more than double (by a factor of $2^{1.3} \\approx 2.46$).',
+          'Output will increase by less than double.',
+          'Output will remain unchanged.',
+        ],
+        correctAnswer: 'Output will increase by more than double (by a factor of $2^{1.3} \\approx 2.46$).',
+        explanation: 'In the Cobb-Douglas production function $Q = A K^\\alpha L^\\beta$, the sum of exponents indicates Returns to Scale: $\\alpha + \\beta = 0.6 + 0.7 = 1.3$. Because $1.3 > 1$, the production function exhibits Increasing Returns to Scale (IRS). If all inputs are scaled by $t = 2$, new output becomes $Q\' = 5 (2K)^{0.6} (2L)^{0.7} = 2^{0.6+0.7} \\cdot 5 K^{0.6} L^{0.7} = 2^{1.3} Q \\approx 2.46 Q$, which is more than double.',
+        trapExplanation: 'Option A assumes Constant Returns to Scale (which requires $\\alpha + \\beta = 1.0$).',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Cobb-Douglas exponent sum testing for Returns to Scale.',
       },
     ],
   },
-
   {
     id: 'CON-ECO-10',
-    topicOrder: 28,
-    topicSlug: 'money-commercial-banking-and-financial-markets',
-    topicTitle: 'Money, Commercial Banking & Financial Markets Architecture',
-    topicDescription: 'Financial Markets: Money Market Instruments vs Capital Market Architecture.',
-    slug: 'financial-markets-architecture-money-market-instruments-vs-capital-markets',
-    title: 'Financial Markets Architecture: Money Market Instruments vs Capital Market Architecture',
-    shortDefinition: 'The organizational and regulatory structure of India\'s financial markets: the Money Market (short-term funds up to 1 year, regulated primarily by RBI) vs the Capital Market (medium and long-term funds, regulated by SEBI), and key money market instruments including Treasury Bills (T-Bills: 91, 182, 364-day zero-coupon securities), Cash Management Bills (CMBs), Commercial Paper (CP), Certificates of Deposit (CD), Call/Notice/Term Money, and Triparty Repo (TREPS).',
+    topicOrder: 30,
+    topicSlug: 'production-theory-cost-analysis-and-revenue',
+    topicTitle: 'Production Theory, Cost Analysis & Revenue',
+    topicDescription: 'Short-run and long-run cost curves, envelope theorem, economies of scale, revenue concepts, and profit maximization.',
+    slug: 'theory-of-costs-short-run-long-run-cost-curves-revenue-mechanics',
+    title: 'Theory of Costs & Revenue: Short-Run & Long-Run Cost Curves and Revenue Mechanics',
+    shortDefinition: 'The economic cost framework (Explicit + Implicit), U-shaped short-run cost curves ($AFC, AVC, ATC, MC$), the Long-Run Average Cost ($LAC$) envelope curve, and the revenue relationship $MR = P(1 - 1/|e_d|)$.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-10-01',
-        statement: 'Financial markets in India are bifurcated by maturity and regulatory jurisdiction: the Money Market deals in short-term debt instruments with maturities up to 1 year and is regulated by the Reserve Bank of India, while the Capital Market deals in long-term equity and debt instruments (>1 year maturity) and is regulated by SEBI.',
-        claimType: 'STATUTORY_RULE',
+        statement: 'Economic Cost equals Explicit Costs (out-of-pocket accounting expenses) plus Implicit Costs (opportunity cost of owner-supplied resources); Economic Profit is Total Revenue minus Total Economic Cost.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Chapter III-D); SEBI Act, 1992',
-        excerpt: 'Money market instruments have tenor up to 1 year under RBI regulation; capital markets fall under SEBI jurisdiction.',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 20: Cost Minimization',
+        excerpt: 'Economic cost includes the opportunity cost of all factors of production employed, whether purchased on the market or owned by the firm.',
       },
       {
         id: 'CLM-ECO-10-02',
-        statement: 'Treasury Bills (T-Bills) are short-term promissory notes issued by the Government of India in standard tenors of 91 days, 182 days, and 364 days; they carry zero default risk, pay no regular coupon interest, and are issued at a discount to face value and redeemed at par (Zero-Coupon Securities). State Governments do not issue T-Bills.',
-        claimType: 'STATUTORY_RULE',
+        statement: 'The Short-Run Marginal Cost ($MC$) curve intersects both Average Variable Cost ($AVC$) and Average Total Cost ($ATC$) curves at their respective minimum points; $ATC$ is U-shaped due to the Law of Variable Proportions.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'RBI Master Direction – Money Market Instruments: Call/Notice Money, Commercial Paper and Certificates of Deposit',
-        excerpt: 'T-Bills are issued only by Central Government at discount to face value in 91, 182, 364-day tenors.',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 6: Analysis of Costs',
+        excerpt: 'The marginal cost curve cuts the average cost curve and average variable cost curve precisely at their minimum points.',
       },
       {
         id: 'CLM-ECO-10-03',
-        statement: 'Commercial Paper (CP) is an unsecured short-term promissory note issued by highly-rated corporate entities and primary dealers to raise working capital (tenor: 7 days to 1 year, minimum denomination ₹5 lakh); Certificates of Deposit (CD) are negotiable money market instruments issued by Scheduled Commercial Banks and eligible Financial Institutions against funds deposited (tenor: 7 days to 1 year for banks, minimum ₹1 lakh).',
-        claimType: 'STATUTORY_RULE',
+        statement: 'The Long-Run Average Cost ($LAC$) curve is the envelope of all short-run $ATC$ curves, falling due to Economies of Scale and rising due to Diseconomies of Scale; Marginal Revenue relates to Price Elasticity via $MR = P\\left(1 - \\frac{1}{|e_d|}\\right)$.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'RBI Master Direction on Commercial Paper and Certificate of Deposit (2024)',
-        excerpt: 'CP issued by corporates (min ₹5 Lakh, 7d-1yr). CD issued by banks (min ₹1 Lakh, 7d-1yr).',
+        locator: 'Jacob Viner (1931) Cost Curves and Supply Curves; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'The long-run average cost curve is the lower envelope of the short-run average cost curves. Marginal revenue is strictly positive when demand is price-elastic.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Short-Term Liquidity vs Long-Term Capital Formation',
-        body: 'A vibrant economy requires two distinct financial plumbing systems:\n\n1. **A Wholesale Overnight Liquidity Plumbing (Money Market):** Where banks, corporates, and governments manage temporary daily and seasonal cash surpluses or deficits (e.g., funding payroll for 15 days, meeting statutory CRR requirements overnight).\n2. **A Long-Term Capital Engine (Capital Market):** Where enterprises raise patient equity capital and 20-year debt to build ports, highway networks, semiconductor foundries, and factory complexes.',
+        title: 'Accounting Profit vs True Economic Profit',
+        body: `If an entrepreneur invests ₹10 Lakh of their own savings into a retail store, generates ₹50 Lakh in revenue, and pays ₹40 Lakh in rent and inventory:
+* **Accounting Profit:** $\\text{Revenue} (₹50L) - \\text{Explicit Outlays} (₹40L) = \\mathbf{+₹10\\text{ Lakh}}$.
+* **Economic Profit:** The entrepreneur could have earned ₹1 Lakh interest on their savings in a fixed deposit, and ₹12 Lakh salary working as a corporate manager (**Implicit Opportunity Costs = ₹13 Lakh**).
+* **True Economic Profit:** $₹50L - (₹40L + ₹13L) = \\mathbf{-₹3\\text{ Lakh}}$ (The entrepreneur is destroying economic value!).
+
+In economics, **Normal Profit** is earned when Economic Profit = 0 (all opportunity costs are fully covered).`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'Money Market vs Capital Market Structural Comparison',
-        body: '| Parameter | Money Market | Capital Market |\n| :--- | :--- | :--- |\n| **Instrument Maturity** | Short-term: **Up to 1 Year** (Overnight to 364 days). | Medium & Long-term: **Exceeding 1 Year** (up to 30+ years). |\n| **Primary Purpose** | Working capital, liquidity adjustment, meeting regulatory cash ratios. | Fixed capital formation, capacity expansion, infrastructure development. |\n| **Apex Regulator** | **Reserve Bank of India (RBI)**. | **Securities and Exchange Board of India (SEBI)**. |\n| **Key Instruments** | T-Bills, Commercial Paper, CDs, Call Money, TREPS, Commercial Bills. | Equity Shares, Preference Shares, Corporate Debentures, Sovereign Green Bonds. |\n| **Market Risk & Return** | Low default risk, high liquidity, lower return. | Higher market risk, lower liquidity, higher capital growth potential. |\n| **Participants** | RBI, Commercial Banks, Primary Dealers, Mutual Funds, DFIs, Corporates. | Retail investors, Mutual Funds, FPIs, DIIs, Insurance Companies, Corporates. |',
+        title: 'Short-Run Cost Curves & The MC-ATC Nexus',
+        body: `### 1. Total Cost Identities
+$$\\text{Total Cost (TC)} = \\text{Total Fixed Cost (TFC)} + \\text{Total Variable Cost (TVC)}$$
+$$\\text{Average Total Cost (ATC)} = \\text{Average Fixed Cost (AFC)} + \\text{Average Variable Cost (AVC)} = \\frac{\\text{TFC}}{Q} + \\frac{\\text{TVC}}{Q}$$
+$$\\text{Marginal Cost (MC)} = \\frac{d\\text{TC}}{dQ} = \\frac{d\\text{TVC}}{dQ} \\quad (\\text{since } \\text{TFC is constant})$$
+
+### 2. Geometry of the Cost Curves
+* **Average Fixed Cost (AFC):** A **Rectangular Hyperbola** ($P \\times Q = \\text{TFC} = \\text{constant}$). It approaches both axes asymptotically but **never touches either axis**.
+* **Average Variable Cost (AVC) & Average Total Cost (ATC):** Both are **U-shaped** due to the Law of Variable Proportions (initial increasing returns lower per-unit costs; eventual diminishing returns drive per-unit costs up).
+* **Marginal Cost (MC):** U-shaped (Nike Swoosh). **$MC$ passes through the minimum points of BOTH $AVC$ and $ATC$**.
+
+\`\`\`
+Cost (₹)
+  ^
+  |          / (MC Curve)       / (ATC Curve)
+  |         /     .------------/
+  |        /    .'            / (AVC Curve)
+  |       /   .' .-----------/
+  |      /   / .'
+  |     /   / /
+  |    *---X-* (MC cuts AVC at min, then ATC at min)
+  |   /   /
+  |  /   /
+  | /   /--------------------- (AFC Curve: Rectangular Hyperbola)
+  +-------------------------> Quantity (Q)
+\`\`\`
+
+### 3. The Mathematical MC-ATC Relationship
+* When $MC < ATC \\implies ATC$ is **Falling**.
+* When $MC = ATC \\implies ATC$ is at its **Minimum Point**.
+* When $MC > ATC \\implies ATC$ is **Rising**.`,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'Key Money Market Instruments Master Suite',
-        body: '### 1. Treasury Bills (T-Bills) & Cash Management Bills (CMBs)\n* **T-Bills:** Issued exclusively by the **Central Government** (State Governments CANNOT issue T-Bills). Available in three standard maturities: **91 days, 182 days, and 364 days**.\n* **Discount Mechanism:** Issued at a discount and redeemed at par (e.g., buy a ₹100 face value 91-day T-Bill for ₹98.20; earn ₹1.80 implicit interest at maturity).\n* **Cash Management Bills (CMBs):** Non-standard short-term bills issued for maturities **less than 91 days** to meet temporary cash flow mismatches of the Central Government.\n\n### 2. Commercial Paper (CP) & Certificates of Deposit (CD)\n* **Commercial Paper (CP):** Unsecured promissory note issued by corporates with high credit rating (A2/P2 minimum). Min denomination: **₹5 Lakh**; Tenor: **7 days to 1 year**.\n* **Certificates of Deposit (CD):** Negotiable title issued by Scheduled Commercial Banks to mobilize wholesale deposits. Min denomination: **₹1 Lakh**; Tenor: **7 days to 1 year** (up to 3 years for FIs).\n\n### 3. Interbank Call / Notice / Term Money Market\n* **Call Money:** Interbank borrowing/lending for **1 day (Overnight)**.\n* **Notice Money:** Interbank borrowing/lending for **2 days to 14 days**.\n* **Term Money:** Interbank funds borrowed for **15 days to 1 year**.\n* **Triparty Repo (TREPS):** Repo contract where a third entity (CCIL - Clearing Corporation of India) acts as intermediary and collateral custodian.',
+        title: 'Long-Run Envelope Curve & Revenue Identities',
+        body: `### 1. The Long-Run Average Cost ($LAC$) Envelope Curve
+In the long run, the firm can choose any factory scale. The $LAC$ curve is the **lower envelope** of all short-run $ATC$ curves:
+* **Downward-Sloping Segment:** **Economies of Scale** (bulk purchasing discounts, managerial specialization, technological indivisibilities).
+* **Flat Segment:** **Constant Returns to Scale** (Minimum Efficient Scale - MES).
+* **Upward-Sloping Segment:** **Diseconomies of Scale** (managerial coordination bottlenecks, communication breakdowns).
+
+### 2. Revenue Relationships & The Elasticity Nexus
+$$\\text{Total Revenue (TR)} = P \\times Q \\qquad \\text{Average Revenue (AR)} = \\frac{\\text{TR}}{Q} = P \\quad (\\text{Always equals Price!})$$
+$$\\text{Marginal Revenue (MR)} = \\frac{d\\text{TR}}{dQ} = P \\left(1 - \\frac{1}{|e_d|}\\right)$$
+
+* If $|e_d| > 1$ (Elastic) $\\implies MR > 0$ (Positive).
+* If $|e_d| = 1$ (Unitary) $\\implies MR = 0$ (Total Revenue is Maximized).
+* If $|e_d| < 1$ (Inelastic) $\\implies MR < 0$ (Negative).`,
         order: 3,
       },
       {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Ways and Means Advances (WMA) vs Treasury Bills',
-        body: '| Dimension | Ways and Means Advances (WMA) | Treasury Bills (T-Bills) |\n| :--- | :--- | :--- |\n| **Nature** | Direct temporary loan/overdraft facility extended by the RBI to Governments. | Marketable debt security auctioned by RBI in the open market. |\n| **Eligibility** | Available to both **Central Government and State Governments**. | Issued **ONLY by Central Government** (States issue State Development Loans - SDLs). |\n| **Tenor & Limits** | Must be repaid within **90 days**; mutually agreed limit between RBI and Ministry of Finance. | Standard tenors (91, 182, 364 days); tradable in secondary market. |\n| **Interest Rate** | Charged at prevailing **Repo Rate** (Normal WMA) / **Repo + 2%** (Overdraft). | Determined by competitive market auction bidding yield. |',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Money Markets',
-        body: '1. **State Governments and T-Bills:** State Governments **CANNOT issue Treasury Bills**! When States need short-term funds, they take **Ways and Means Advances (WMA)** from RBI or issue long-term **State Development Loans (SDLs)**.\n2. **CP vs CD Issuer Distinction:** Corporates issue **Commercial Paper (CP)**; Banks issue **Certificates of Deposit (CD)**.\n3. **Call vs Notice Money Days:** 1 day = Call Money; 2–14 days = Notice Money; 15–365 days = Term Money.',
-        order: 5,
+        title: 'PLI Scale Economics & Competitive Exam Traps',
+        body: `### Indian Policy Application: PLI Schemes & Minimum Efficient Scale
+Indian manufacturing historically suffered from sub-scale "dwarf" MSME factories unable to compete with massive Chinese mega-factories. The **Production Linked Incentive (PLI)** scheme explicitly forces Indian firms to invest large capex to achieve the **Minimum Efficient Scale (MES)** on their $LAC$ curve.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: AFC Never Reaches Zero:** AFC declines continuously as output rises, but it **never equals zero** and never touches the horizontal axis.
+* ⚠️ **Trap 2: Distance Between ATC and AVC:** The vertical distance between the $ATC$ and $AVC$ curves is exactly $AFC$. Because $AFC$ falls continuously, the **$ATC$ and $AVC$ curves get closer and closer, but NEVER touch or intersect**.
+* ⚠️ **Trap 3: Profit Maximization Condition:** The universal golden rule for profit maximization across ALL market structures is strictly $\\mathbf{MR = MC}$ (and $MC$ must cut $MR$ from below).`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Financial Markets, T-Bills, Commercial Paper, Capital vs Money Market',
-        notes: 'Prelims questions on T-Bills features (zero coupon, Central Govt only) and CP vs CD.',
+        syllabusUnit: 'Paper 2: Microeconomics — Cost Analysis, Revenue Mechanics and Profit Maximization',
+        notes: 'Exhaustively tested: MC-ATC derivative proofs, MR-Elasticity formula, and AFC rectangular hyperbola properties.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module B - Money Market & Capital Market Instruments',
-        notes: 'Detailed MCQs on minimum denominations (CP ₹5L, CD ₹1L), tenors (7d to 1yr), and Call Money rules.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Finance & Management / ESI — Cost Structure and Industrial Scale',
+        notes: 'Critical for corporate cost-volume-profit analysis and pricing power.',
+      },
+      {
+        examCode: 'IIBF_DBF',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Paper 1 (IE&IFS): Module A — Business Costs and Break-Even Analysis',
+        notes: 'Break-even point calculation and fixed vs variable costs in credit appraisal.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Money Market = Up to 1 year (RBI regulated). Capital Market = >1 year (SEBI regulated). T-Bills: Central Govt ONLY, Zero-coupon discount security, 91/182/364 days. CMBs = <91 days. States use WMA and SDLs (NO T-Bills). Commercial Paper (CP): Corporates, min ₹5L, 7d-1yr. Certificates of Deposit (CD): Banks, min ₹1L, 7d-1yr. Call Money = 1 day; Notice Money = 2-14 days; Term Money = 15d-1yr.',
+        content: 'Economic Cost = Explicit + Implicit Costs. AFC is a Rectangular Hyperbola. $MC$ cuts both $AVC$ and $ATC$ at their minimum points. $LAC$ is the envelope of short-run $ATC$ curves. Revenue-Elasticity Identity: $MR = P(1 - 1/|e_d|)$. Profit is maximized where $MR = MC$.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Financial markets split into the Money Market (short-term, RBI-regulated) and Capital Market (long-term, SEBI-regulated). Central Government issues T-Bills (91, 182, 364 days) at a discount to par; State Governments cannot issue T-Bills and rely on WMA and SDLs. Corporates issue Commercial Paper (min ₹5 Lakh), while banks issue Certificates of Deposit (min ₹1 Lakh). Interbank lending spans Call (1d), Notice (2–14d), and Term (15d–1yr) money.',
+        content: 'Economic Profit = Total Revenue - (Explicit Costs + Implicit Opportunity Costs). Short-run cost curves are U-shaped due to the Law of Variable Proportions. AFC declines continuously as a rectangular hyperbola, so the vertical gap between ATC and AVC shrinks continuously without touching. MC intersects AVC and ATC at their minimum points. LAC curve reflects Economies of Scale (falling LAC) and Diseconomies of Scale (rising LAC). Marginal Revenue formula $MR = P(1 - 1/|e_d|)$ proves that a rational firm with positive marginal cost will NEVER produce in the inelastic segment of its demand curve.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Regulatory Duality: Money Market (<1 yr, RBI) vs Capital Market (>1 yr, SEBI).\n2. Sovereign Instruments: T-Bills (91, 182, 364 days - Central Govt only), CMBs (<91 days), WMA (temporary 90-day RBI loan to Centre/States).\n3. Non-Sovereign Short-Term Debt:\n   - Commercial Paper: Corporates (min ₹5L, 7d-1yr).\n   - Certificates of Deposit: Banks (min ₹1L, 7d-1yr).\n4. Interbank Markets: Call (1 day), Notice (2-14 days), Term (15-364 days), TREPS (triparty repo via CCIL).',
+        content: 'Cost & Revenue Mathematical Architecture: 1. Total Costs: $TC(Q) = TFC + TVC(Q)$. 2. Marginal Calculus: $MC = dTC/dQ$. 3. Minimum Cost Proof: $\\frac{d(ATC)}{dQ} = 0 \\implies MC = ATC$. 4. Revenue: $TR = P(Q) \\cdot Q$, $MR = P + Q \\frac{dP}{dQ} = P(1 - 1/|e_d|)$. 5. Golden Profit Rule: $\\max \\Pi(Q) = TR - TC \\implies \\Pi\'(Q) = MR - MC = 0 \\implies MR = MC$ and $\\Pi\'\'(Q) < 0$.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'With reference to Indian Financial Markets, which of the following statements is INCORRECT?',
+        stem: 'If a firm faces a price of $P = ₹50$ and the price elasticity of demand for its product is $|e_d| = 2.0$, what is the firm\'s Marginal Revenue ($MR$)?',
         options: [
-          'Treasury Bills are zero-coupon securities issued at a discount and redeemed at face value by the Central Government',
-          'State Governments in India regularly issue 91-day and 364-day Treasury Bills to fund seasonal expenditure deficits',
-          'Commercial Paper is an unsecured short-term debt instrument issued by corporate borrowers with a minimum denomination of ₹5 Lakh',
-          'Call Money refers to interbank borrowing and lending of funds on an overnight (one-day) basis',
+          '₹50',
+          '₹25',
+          '₹0',
+          '-₹25',
         ],
-        correctAnswer: 'State Governments in India regularly issue 91-day and 364-day Treasury Bills to fund seasonal expenditure deficits',
-        explanation: 'State Governments in India DO NOT issue Treasury Bills. Treasury Bills (91, 182, and 364-day) are issued exclusively by the Central Government (Government of India). When State Governments face short-term liquidity deficits, they avail Ways and Means Advances (WMA) / Overdraft facilities from the RBI or issue long-term State Development Loans (SDLs).',
-        trapExplanation: 'Candidates assume both Union and State governments issue T-Bills, when in reality only the Union Government is statutorily authorized.',
-        difficulty: 'MEDIUM',
+        correctAnswer: '₹25',
+        explanation: 'Use the fundamental Marginal Revenue-Elasticity formula: $MR = P \\left(1 - \\frac{1}{|e_d|}\\right)$. Substitute the given values: $MR = 50 \\left(1 - \\frac{1}{2}\\right) = 50 \\times 0.5 = ₹25$.',
+        trapExplanation: 'Option A assumes $MR = P$ (which occurs only under perfect competition where $e_d = \\infty$).',
+        difficulty: 'EASY',
         isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 15,
+        examinerTrapPattern: 'Direct evaluation of the MR-Price-Elasticity equation.',
+      },
+      {
+        type: 'EXCEPTION_PROBE',
+        stem: 'Which of the following statements regarding the Average Fixed Cost (AFC) curve is TRUE?',
+        options: [
+          'It is U-shaped and reaches a minimum at the same output as Average Total Cost.',
+          'It is a rectangular hyperbola that approaches both axes asymptotically without touching them.',
+          'It increases continuously as output increases due to diminishing marginal returns.',
+          'It intersects the Marginal Cost curve at the shutdown point.',
+        ],
+        correctAnswer: 'It is a rectangular hyperbola that approaches both axes asymptotically without touching them.',
+        explanation: 'Because Total Fixed Cost (TFC) is constant, $\\text{AFC} = \\frac{\\text{TFC}}{Q} \\implies \\text{AFC} \\times Q = \\text{TFC} = \\text{constant}$. This algebraic equation defines a rectangular hyperbola. As output $Q$ increases, AFC continuously decreases toward zero, but because TFC is positive, AFC never equals zero (never touches the horizontal axis) and at $Q=0$ is undefined (never touches the vertical axis).',
+        trapExplanation: 'Option A describes ATC and AVC, not AFC.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Geometric properties of AFC curve.',
       },
     ],
   },
 
+  // =========================================================================
+  // TOPIC 31: Market Structures, Strategic Behaviour & Market Failure
+  // =========================================================================
   {
     id: 'CON-ECO-11',
-    topicOrder: 28,
-    topicSlug: 'money-commercial-banking-and-financial-markets',
-    topicTitle: 'Money, Commercial Banking & Financial Markets Architecture',
-    topicDescription: 'Capital Market Instruments: Equities, Corporate & Sovereign Bonds, Yield Curves & Derivatives.',
-    slug: 'capital-market-instruments-equities-corporate-bonds-yield-curves-derivatives',
-    title: 'Capital Market Instruments: Equities, Corporate & Sovereign Bonds, Yield Curves & Derivatives',
-    shortDefinition: 'The long-term capital mobilization ecosystem: Primary Market (IPOs, FPOs, Rights Issues, Private Placements) vs Secondary Market (Stock Exchanges: BSE, NSE), Equity vs Debt capital, Sovereign & Corporate Bond markets, Bond Yield mechanics and inverse price relationship ($P = \\sum \\frac{C}{(1+y)^t} + \\frac{F}{(1+y)^n}$), Yield Curve shapes (Normal, Inverted, Flat), and financial Derivatives (Forwards, Futures, Options, Swaps).',
-    difficulty: 'INTERMEDIATE',
-    claims: [
-      {
-        id: 'CLM-ECO-11-01',
-        statement: 'The Primary Capital Market enables issuers to raise fresh financial resources through Initial Public Offerings (IPOs), Follow-on Public Offerings (FPOs), Rights Issues, and Qualified Institutional Placements (QIPs); the Secondary Market provides continuous liquidity through stock exchange trading (BSE, NSE) under SEBI regulation.',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018',
-        excerpt: 'Primary market facilitates initial resource mobilization; secondary market provides trading liquidity.',
-      },
-      {
-        id: 'CLM-ECO-11-02',
-        statement: 'Bond prices and bond yields share a fundamental mathematical inverse relationship: when market interest rates rise, existing bond prices fall (and vice versa); the Yield to Maturity (YTM) is the internal rate of return earned by an investor holding a bond until maturity.',
-        claimType: 'CORE_PRINCIPLE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Frank Fabozzi, Bond Markets, Analysis, and Strategies; RBI Debt Market Handbook',
-        excerpt: 'Bond Price is inversely related to market interest rate/yield: Price = Sum(Coupon/(1+y)^t) + FaceValue/(1+y)^n.',
-      },
-      {
-        id: 'CLM-ECO-11-03',
-        statement: 'Financial Derivatives derive their valuation from an underlying asset (equity, commodity, currency, interest rate) and are structured into four primary classes: Forwards (bilateral custom over-the-counter contracts), Futures (exchange-traded standardized contracts with daily mark-to-market), Options (Call/Put granting the right but not obligation to transact), and Swaps (Interest Rate / Currency Swaps).',
-        claimType: 'CORE_PRINCIPLE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'John Hull, Options, Futures, and Other Derivatives; SEBI Derivatives Market Regulations',
-        excerpt: 'Derivatives include Forwards (OTC), Futures (standardized), Options (asymmetric right), and Swaps.',
-      },
-    ],
-    contentBlocks: [
-      {
-        type: 'INTUITION',
-        title: 'Capital Formation & Risk Transformation',
-        body: 'Enterprises require two types of financial capital to grow: **Equity Capital** (selling partial ownership shares, sharing future profits without fixed repayment obligations) and **Debt Capital** (borrowing funds via bonds or debentures with contractual interest payments and principal redemption).\n\nCapital markets connect savers (households, pension funds, insurers) with productive enterprises, transforming risk, liquidity, and time horizons.',
-        order: 1,
-      },
-      {
-        type: 'CORE_IDEA',
-        title: 'Primary vs Secondary Capital Markets & Equity Issuance Modes',
-        body: '### 1. Primary Market Capital Mobilization Modes\n* **Initial Public Offering (IPO):** An unlisted company sells shares to the public for the first time to list on a recognized stock exchange.\n* **Follow-on Public Offering (FPO):** An already listed company issues additional fresh shares or offers for sale (OFS) to the public.\n* **Rights Issue:** Offering existing shareholders the right to purchase additional new shares in proportion to their existing holding at a discounted price.\n* **Qualified Institutional Placement (QIP):** Issuing equity/convertible securities exclusively to Qualified Institutional Buyers (QIBs like mutual funds, foreign portfolio investors) without a cumbersome public prospectus.\n\n### 2. Secondary Market\nProvides liquidity and price discovery for already issued securities on trading venues (**Bombay Stock Exchange - BSE Sensex 30**, **National Stock Exchange - Nifty 50**). Settled on a **$T+1$ Rolling Settlement Cycle** in India (moving towards optional $T+0$ same-day settlement).',
-        order: 2,
-      },
-      {
-        type: 'MECHANISM',
-        title: 'Bond Valuation, Yield to Maturity & The Yield Curve',
-        body: '### 1. The Fundamental Inverse Bond Price-Yield Relationship\n\n$$\\mathbf{P = \\sum_{t=1}^{n} \\frac{C}{(1 + y)^t} + \\frac{F}{(1 + y)^n}}$$\n\n* **$P$:** Bond Market Price | **$C$:** Annual Coupon Payment | **$F$:** Face Value | **$y$:** Yield to Maturity (YTM).\n* **Intuition:** If the RBI raises policy interest rates, new bonds are issued at higher coupon rates. Existing older bonds with lower coupon rates become less attractive, forcing their market price to drop until their effective yield matches current market rates.\n\n### 2. Yield Curve Geometries\nA graph plotting the yields of government bonds across varying maturities (3 months to 40 years):\n* **Normal Upward-Sloping Curve:** Longer maturities yield higher returns to compensate for term risk and inflation.\n* **Flat Yield Curve:** Short-term and long-term yields converge (economic transition phase).\n* **Inverted Yield Curve (Downward Sloping):** Short-term yields exceed long-term yields — historically the most reliable macroeconomic signal of an impending **Economic Recession**.',
-        order: 3,
-      },
-      {
-        type: 'COMPARISON',
-        title: 'The 4 Classes of Financial Derivatives',
-        body: '| Derivative Class | Trading Venue | Contract Standardization | Counterparty Credit Risk | Payoff Structure |\n| :--- | :--- | :--- | :--- | :--- |\n| **Forwards** | Over-the-Counter (OTC) private bilateral deal. | Fully customized to buyer/seller specifications. | **High** (settlement depends entirely on counterparty solvency). | Linear / Symmetrical (both parties obligated). |\n| **Futures** | Exchange-Traded (NSE, BSE). | Standardized lot size, tick size, and expiration dates. | **Virtually Zero** (guaranteed by Clearing Corporation with daily Mark-to-Market margin). | Linear / Symmetrical (both parties obligated). |\n| **Options** | Exchange-Traded & OTC. | Standardized strike prices and expiry dates. | Low for buyer (risk limited to premium paid). | **Asymmetrical:** Buyer has the **Right, but NOT the Obligation** to buy (Call) or sell (Put). |\n| **Swaps** | Over-the-Counter (OTC). | Customized multi-period exchange of cash flows (e.g. Fixed for Floating Interest Rate). | Moderate (mitigated by ISDA Master Agreements). | Linear multi-period cash exchange. |',
-        order: 4,
-      },
-      {
-        type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Capital Markets',
-        body: '1. **Bond Price vs Yield:** When central banks hike interest rates $\\rightarrow$ **Bond yields RISE and bond prices FALL**. When central banks cut rates $\\rightarrow$ **Bond yields FALL and bond prices RISE**.\n2. **Call Option vs Put Option:** A **Call Option** gives the holder the right to *BUY* an asset at the strike price (profitable in a rising market). A **Put Option** gives the holder the right to *SELL* an asset at the strike price (profitable in a falling market).\n3. **Sovereign Green Bonds (SGrBs):** Government of India issues SGrBs under the *Framework for Sovereign Green Bonds* to finance public projects in renewable energy, clean transportation, and green building, tracked in the Consolidated Fund of India.',
-        order: 5,
-      },
-    ],
-    examMappings: [
-      {
-        examCode: 'upsc-cse',
-        relevance: 'CORE_SYLLABUS',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Capital Markets, Bond Yields, Inverted Yield Curve, Green Bonds',
-        notes: 'Prelims questions on Bond Yield movements, IPO vs FPO, and Call/Put options.',
-      },
-      {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 & Paper 3 (AFMB): Bond Valuation, YTM, Capital Market Instruments',
-        notes: 'Numerical calculations of bond prices, YTM, duration, and derivative payoffs.',
-      },
-    ],
-    revisionUnits: [
-      {
-        type: 'FLASH_30S',
-        content: 'Primary Market = Fresh capital (IPO, FPO, Rights Issue, QIP). Secondary Market = Trading liquidity (BSE, NSE, T+1 settlement). Bond Price is INVERSELY related to Bond Yield: Rates rise -> Bond Prices drop. Inverted Yield Curve (short yields > long yields) = Classic Recession Signal. Derivatives: Forwards (OTC custom), Futures (Exchange standardized + daily MTM), Options (Call = Right to buy, Put = Right to sell), Swaps (Cash flow exchange).',
-        order: 1,
-      },
-      {
-        type: 'SUMMARY_2M',
-        content: 'Capital markets mobilize long-term equity and debt. The Primary Market issues new securities (IPO, FPO, QIP), while the Secondary Market provides trading liquidity. Bond prices move inversely to interest rates and yields. An inverted yield curve signals recession. Financial derivatives include customized OTC Forwards, standardized exchange Futures, asymmetric Options (Call/Put), and cash-flow Swaps.',
-        order: 2,
-      },
-      {
-        type: 'ARCHITECTURE_5M',
-        content: '1. Primary Market: IPO (unlisted -> listed), FPO (additional listing), Rights Issue (existing holders), QIP (institutional block).\n2. Bond Mathematics: P = Sum[C / (1+y)^t] + F / (1+y)^n. Inverse relationship between market interest rates and bond prices.\n3. Yield Curve Morphology: Normal (upward), Flat (converging), Inverted (downward -> recession predictor).\n4. Derivatives Matrix: Forwards (OTC), Futures (Exchange/MTM), Options (Call/Put rights), Swaps (Interest rate / Currency).',
-        order: 3,
-      },
-    ],
-    questions: [
-      {
-        type: 'CONCEPT_CHECK',
-        stem: 'What happens to the market price of an existing fixed-coupon government bond when the Reserve Bank of India increases the policy Repo Rate?',
-        options: [
-          'The market price of the existing bond increases because its fixed coupon payment rises',
-          'The market price of the existing bond decreases because newly issued bonds offer higher competitive yields',
-          'The market price of the bond remains unchanged because government bonds are sovereign risk-free securities',
-          'The bond\'s face value is permanently written down by the Reserve Bank of India',
-        ],
-        correctAnswer: 'The market price of the existing bond decreases because newly issued bonds offer higher competitive yields',
-        explanation: 'Bond prices and interest rates/yields share a fundamental inverse mathematical relationship. When the central bank hikes policy rates, newly issued bonds enter the market carrying higher coupon rates. To make older, lower-coupon bonds attractive to buyers, their secondary market price must fall until their effective Yield to Maturity matches the new higher market rate.',
-        trapExplanation: 'Candidates confuse coupon rate (which is fixed on the face value) with market price and yield (which fluctuate inversely).',
-        difficulty: 'MEDIUM',
-        isPYQ: true,
-      },
-    ],
-  },
-
-  // =========================================================================
-  // TOPIC 29: CENTRAL BANKING, MONETARY POLICY FRAMEWORK & PRICE THEORY
-  // =========================================================================
-  {
-    id: 'CON-ECO-12',
-    topicOrder: 29,
-    topicSlug: 'central-banking-monetary-policy-and-price-theory',
-    topicTitle: 'Central Banking, Monetary Policy Framework & Price Theory',
-    topicDescription: 'Evolution of RBI, statutory functions, Monetary Policy Framework (FIT, MPC), quantitative & qualitative instruments, price theory, CPI vs WPI, and DFIs.',
-    slug: 'central-banking-rbi-statutory-functions-reserve-management-lender-of-last-resort',
-    title: 'Central Banking: Evolution of Reserve Bank of India, Organizational Structure & Statutory Functions',
-    shortDefinition: 'The constitutional and statutory foundations of the Reserve Bank of India (RBI): established on April 1, 1935 under the Reserve Bank of India Act 1934 (Hilton Young Commission recommendations) and nationalized on January 1, 1949, its governance by the Central Board of Directors, and core statutory functions (Monetary Authority, Issuer of Currency, Banker to Government, Banker to Banks, Regulator of Payment Systems, and Manager of Foreign Exchange under FEMA 1999).',
-    difficulty: 'BEGINNER',
-    claims: [
-      {
-        id: 'CLM-ECO-12-01',
-        statement: 'The Reserve Bank of India was established on April 1, 1935 as a private shareholders\' bank based on the recommendations of the Royal Commission on Indian Currency and Finance (Hilton Young Commission, 1926) and was nationalized on January 1, 1949 under the RBI (Transfer to Public Ownership) Act, 1948.',
-        claimType: 'HISTORICAL_FACT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934; RBI History Volume 1 (1935-1951)',
-        excerpt: 'RBI set up 1 April 1935 (Hilton Young Commission); nationalized 1 January 1949.',
-      },
-      {
-        id: 'CLM-ECO-12-02',
-        statement: 'Under Section 22 of the RBI Act 1934, the Reserve Bank has the sole monopoly right to issue banknotes in India (other than one-rupee notes); under Section 20 and 21, it acts as the statutory Banker and Debt Manager to the Central Government, and by agreement under Section 21A, to State Governments (except Sikkim by special arrangement).',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Sections 20, 21, 21A, 22)',
-        excerpt: 'Section 22 grants sole note-issuing authority; Sections 20-21A govern banker to government role.',
-      },
-      {
-        id: 'CLM-ECO-12-03',
-        statement: 'The RBI acts as the Lender of Last Resort (LOLR) to solvent commercial banks facing liquidity stress under Section 17 and 18 of the RBI Act 1934, providing emergency collateralized liquidity against approved securities to prevent systemic bank runs and financial contagion.',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Walter Bagehot (Lombard Street: A Description of the Money Market, 1873); RBI Act 1934',
-        excerpt: 'Bagehot principle: Lend freely at a penalty rate against good collateral to stem liquidity panic.',
-      },
-    ],
-    contentBlocks: [
-      {
-        type: 'INTUITION',
-        title: 'The Sovereign Guardian of Currency & Financial Stability',
-        body: 'A national monetary system cannot survive on decentralized commercial competition alone; it requires an apex, non-commercial institution dedicated to preserving the purchasing power of the currency, maintaining banking solvency, managing foreign exchange, and facilitating government borrowing without triggering hyperinflation.\n\nIn India, this supreme apex role is vested in the **Reserve Bank of India (RBI)**, operating at the intersection of sovereign monetary authority and financial regulation.',
-        order: 1,
-      },
-      {
-        type: 'CORE_IDEA',
-        title: 'Genesis, Nationalization & Central Board Governance',
-        body: '### 1. Historical Timeline\n* **1926:** Hilton Young Commission (Royal Commission on Indian Currency and Finance) strongly recommends creating a unified central bank separate from commercial operations.\n* **1934:** Passage of the *Reserve Bank of India Act, 1934*.\n* **April 1, 1935:** RBI commences operations in Calcutta (shifted permanently to Bombay in 1937) with a paid-up capital of ₹5 Crore divided into 100-rupee shares owned by private shareholders.\n* **January 1, 1949:** Fully **nationalized** under the *Reserve Bank (Transfer to Public Ownership) Act, 1948*.\n\n### 2. Governance Architecture: The Central Board of Directors\nAppointed by the Central Government under Section 8 of the RBI Act:\n* **Official Directors:** The **Governor** and not more than **4 Deputy Governors** (tenure up to 5 years, eligible for reappointment).\n* **Non-Official Directors:** 4 directors nominated from Local Boards (Mumbai, Kolkata, Chennai, New Delhi) + 10 directors nominated from diverse economic fields + 2 Government Officials (typically Economic Affairs Secretary and Financial Services Secretary).',
-        order: 2,
-      },
-      {
-        type: 'MECHANISM',
-        title: 'The Core Statutory Functions of the RBI',
-        body: '```mermaid\ngraph TD\n    RBI["Reserve Bank of India"]\n    RBI --> F1["1. Monetary Authority: Formulation and execution of monetary policy under Section 45ZB (MPC)"]\n    RBI --> F2["2. Note Issuing Monopoly: Section 22 sole right for banknotes ₹2 to ₹500 (Minimum Reserve System)"]\n    RBI --> F3["3. Banker to Government: Manages Central & State Govt accounts, public debt, and WMA"]\n    RBI --> F4["4. Banker to Banks & LOLR: Holds statutory cash reserves, clearinghouse, and emergency liquidity"]\n    RBI --> F5["5. Forex Manager: Administers FEMA 1999 and manages India\'s Foreign Exchange Reserves"]\n    RBI --> F6["6. Financial Sector Regulator: Licenses and supervises commercial banks (BR Act 1949), NBFCs, and payment systems (PSS Act 2007)"]\n```\n\n### The Minimum Reserve System (1956)\nUnder Section 33 of the RBI Act 1934 (amended 1956), the RBI issues currency backed by a permanent minimum statutory reserve of **₹200 Crore**, of which at least **₹115 Crore must be in Gold bullion/coin** and the remaining **₹85 Crore in Foreign Securities**.',
-        order: 3,
-      },
-      {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Section 7 of the RBI Act 1934: Central Govt Powers vs RBI Autonomy',
-        body: 'Under **Section 7(1)** of the RBI Act 1934:\n\n> *"The Central Government may from time to time give such directions to the Bank as it may, after consultation with the Governor of the Bank, consider necessary in the public interest."*\n\n* **Significance:** Section 7 establishes ultimate sovereign supremacy over the central bank in extraordinary circumstances.\n* **Historical Usage:** Section 7 has **NEVER been formally invoked** to issue a binding directive in independent India\'s history (though consultations were initiated in 2018 regarding PCA framework and surplus capital transfer, resolved via the Bimal Jalan Committee).',
-        order: 4,
-      },
-      {
-        type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in RBI Functions',
-        body: '1. **Issuer of ₹1 Notes:** ₹1 notes and all coins are issued by the **Ministry of Finance (Government of India)**, NOT the RBI! The RBI merely acts as the distribution agent.\n2. **Banker to State Governments:** Acting as banker to the Central Government is mandatory under Sections 20/21. Acting as banker to State Governments is **contractual by mutual agreement** under Section 21A.\n3. **Minimum Reserve System:** Candidates often assume currency must be 100% backed by gold. In reality, India uses the Minimum Reserve System requiring only ₹200 Crore in total assets (₹115 Cr gold + ₹85 Cr foreign securities) to back all currency in circulation.',
-        order: 5,
-      },
-    ],
-    examMappings: [
-      {
-        examCode: 'upsc-cse',
-        relevance: 'CORE_SYLLABUS',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Central Banking, RBI Autonomy, Minimum Reserve System, Section 7',
-        notes: 'Prelims questions on Hilton Young Commission, Minimum Reserve System, and note-issuing authority.',
-      },
-      {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
-        priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 & Paper 2 (PPB): Module A - RBI Genesis, Constitution & Statutory Role',
-        notes: 'Direct MCQs on RBI Act sections (Sec 7, 17, 22, 42) and Central Board composition.',
-      },
-    ],
-    revisionUnits: [
-      {
-        type: 'FLASH_30S',
-        content: 'RBI set up: April 1, 1935 (Hilton Young Commission 1926). Nationalized: Jan 1, 1949. Central Board: Governor + up to 4 Deputy Governors + non-official directors. Note Issue: Section 22 sole right under Minimum Reserve System (₹200 Cr: ₹115 Cr gold + ₹85 Cr foreign securities). Banker to Govt (Sec 20/21 Central, 21A States). Lender of Last Resort (Sec 17/18 - Bagehot rule). Section 7(1) = Central Govt power to give public interest directions after consultation.',
-        order: 1,
-      },
-      {
-        type: 'SUMMARY_2M',
-        content: 'The RBI is India\'s central bank, founded in 1935 on Hilton Young Commission recommendations and nationalized in 1949. It serves as monetary authority, monopoly currency issuer (under the ₹200 Crore Minimum Reserve System), banker to governments, banker to banks (Lender of Last Resort), and regulator of banks and payment systems. Section 7 of the RBI Act empowers the Union Government to issue public interest directions after consulting the Governor.',
-        order: 2,
-      },
-      {
-        type: 'ARCHITECTURE_5M',
-        content: '1. Genesis: Hilton Young Commission 1926 -> RBI Act 1934 -> 1 April 1935 setup -> 1 Jan 1949 nationalization.\n2. Note Issuance: Section 22 under Minimum Reserve System (₹115 Cr gold + ₹85 Cr forex = ₹200 Cr minimum).\n3. Statutory Banking Role: Banker to Central Govt (mandatory Sec 20/21), Banker to States (agreement Sec 21A), Banker to Banks (Sec 42 reserves).\n4. Lender of Last Resort: Emergency collateralized liquidity to solvent banks experiencing liquidity runs.\n5. Sovereign Power: Section 7(1) government consultation and direction authority.',
-        order: 3,
-      },
-    ],
-    questions: [
-      {
-        type: 'CONCEPT_CHECK',
-        stem: 'Under India\'s "Minimum Reserve System" governing currency issuance by the Reserve Bank of India, what is the minimum statutory backing required in gold and foreign securities?',
-        options: [
-          'Total assets of ₹200 Crore, of which at least ₹115 Crore must be in gold coins and gold bullion',
-          'Total assets of ₹500 Crore, with 50% backed by gold bullion and 50% backed by Government of India securities',
-          'A mandatory 40% proportional gold backing for every newly printed rupee in circulation',
-          'A floating reserve pegged to 6 months of national merchandise import requirements',
-        ],
-        correctAnswer: 'Total assets of ₹200 Crore, of which at least ₹115 Crore must be in gold coins and gold bullion',
-        explanation: 'Under the Minimum Reserve System adopted by the RBI in 1956 (amending Section 33 of the RBI Act 1934), the Reserve Bank is required to maintain a permanent minimum backing of ₹200 Crore in its Issue Department assets, consisting of at least ₹115 Crore in gold bullion/coins and the remaining ₹85 Crore in foreign securities, enabling flexible currency issuance beyond this threshold.',
-        trapExplanation: 'Candidates confuse the historical Proportional Reserve System (which required 40% gold/forex backing prior to 1956) with the modern Minimum Reserve System.',
-        difficulty: 'MEDIUM',
-        isPYQ: false,
-      },
-    ],
-  },
-
-  {
-    id: 'CON-ECO-13',
-    topicOrder: 29,
-    topicSlug: 'central-banking-monetary-policy-and-price-theory',
-    topicTitle: 'Central Banking, Monetary Policy Framework & Price Theory',
-    topicDescription: 'Monetary Policy Framework: Flexible Inflation Targeting (FIT), Monetary Policy Committee (MPC) & Transmission Channels.',
-    slug: 'monetary-policy-framework-flexible-inflation-targeting-mpc-transmission-channels',
-    title: 'Monetary Policy Framework: Flexible Inflation Targeting (FIT), MPC & Transmission Channels',
-    shortDefinition: 'The statutory monetary policy architecture of India instituted under the 2016 RBI Act amendment (Urjit Patel Committee): Flexible Inflation Targeting (FIT) targeting Headline CPI inflation at 4% with a tolerance band of ±2% (2% to 6%), the 6-member Monetary Policy Committee (MPC) structure and voting rules, accountability criteria for monetary failure (3 consecutive quarters outside tolerance band), and monetary policy transmission channels.',
+    topicOrder: 31,
+    topicSlug: 'market-structures-strategic-behaviour-and-market-failure',
+    topicTitle: 'Market Structures, Strategic Behaviour & Market Failure',
+    topicDescription: 'Perfect competition, pure monopoly, price discrimination, monopolistic competition, oligopoly models, game theory, and market failure.',
+    slug: 'perfect-competition-vs-pure-monopoly-pricing-equilibrium-welfare',
+    title: 'Perfect Competition vs Pure Monopoly: Pricing, Equilibrium & Welfare Comparison',
+    shortDefinition: 'The comparative analysis of competitive price-taking markets ($P = MR = MC = \\min ATC$) versus pure price-setting monopolies ($MR = MC < P$), Lerner monopoly power index, price discrimination, and deadweight loss.',
     difficulty: 'ADVANCED',
     claims: [
       {
-        id: 'CLM-ECO-13-01',
-        statement: 'Under Section 45ZA of the RBI Act 1934 (amended by Finance Act 2016), the Central Government, in consultation with the RBI, determines the inflation target in terms of Consumer Price Index (CPI-Combined) once every five years; the target is set at 4.0% with an upper tolerance limit of 6.0% and a lower tolerance limit of 2.0% (4% ± 2%).',
-        claimType: 'STATUTORY_RULE',
+        id: 'CLM-ECO-11-01',
+        statement: 'Under Perfect Competition, firms are price-takers facing a horizontal demand curve ($AR = MR = P$); short-run shutdown occurs when $P < \\min(AVC)$; long-run equilibrium achieves both productive and allocative efficiency with zero economic profit ($P = MR = MC = \\min ATC$).',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Section 45ZA); Ministry of Finance Gazette Notification (March 2021)',
-        excerpt: 'Statutory inflation target is 4% CPI with +/- 2% tolerance band for 2021-2026.',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 22: Firm Supply & Chapter 23: Industry Supply',
+        excerpt: 'In the long run, entry and exit drive economic profits to zero, ensuring production at minimum average cost where price equals marginal cost.',
       },
       {
-        id: 'CLM-ECO-13-02',
-        statement: 'The Monetary Policy Committee (MPC) constituted under Section 45ZB consists of exactly 6 members: 3 from RBI (RBI Governor as ex-officio Chairperson, Deputy Governor in charge of monetary policy, and one RBI official nominated by Central Board) and 3 external experts appointed by the Central Government on recommendations of a Cabinet Secretary-led Search Committee for a non-renewable 4-year term.',
-        claimType: 'STATUTORY_RULE',
+        id: 'CLM-ECO-11-02',
+        statement: 'A Pure Monopoly features a single seller with high entry barriers and downward-sloping demand ($MR < P$); profit-maximizing equilibrium ($MR = MC$) results in positive economic profits, higher price, and lower output than perfect competition, generating a deadweight loss.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Section 45ZB); Gazette of India Notification',
-        excerpt: '6-member MPC: 3 RBI + 3 external members. Governor has casting vote in event of tie.',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 9: Imperfect Competition and Monopoly',
+        excerpt: 'Monopoly pricing violates allocative efficiency because price exceeds marginal cost, creating a deadweight welfare loss for society.',
       },
       {
-        id: 'CLM-ECO-13-03',
-        statement: 'Under Section 45ZN of the RBI Act 1934 and Regulation 7 of the MPC Regulations, the RBI is deemed to have failed its monetary policy mandate if average Headline CPI inflation is above 6% or below 2% for three consecutive quarters, triggering a mandatory statutory report to the Central Government explaining causes, remedial actions, and expected stabilization timeline.',
-        claimType: 'STATUTORY_RULE',
+        id: 'CLM-ECO-11-03',
+        statement: 'Monopoly power is quantified by the Lerner Index ($L = \\frac{P - MC}{P} = \\frac{1}{|e_d|}$); Price Discrimination ranges from 1st Degree (perfect surplus extraction), 2nd Degree (block volume pricing), to 3rd Degree (market segmentation based on elasticity).',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Section 45ZN); Monetary Policy Committee Regulations, 2016',
-        excerpt: 'Monetary failure condition: Inflation outside 2-6% band for 3 consecutive quarters triggers mandatory government report.',
+        locator: 'Abba Lerner (1934) The Concept of Monopoly and the Measurement of Monopoly Power; A.C. Pigou (1920) The Economics of Welfare',
+        excerpt: 'The Lerner index measures the proportional markup of price over marginal cost. Third-degree price discrimination charges higher prices to consumer segments with less elastic demand.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'From Multiple Indicators to Statutory Inflation Targeting',
-        body: 'Prior to 2016, the RBI operated under a "Multiple Indicators Approach," simultaneously attempting to manage inflation, support GDP growth, stabilize the exchange rate, and manage government debt yields. This lack of a clear nominal anchor led to double-digit inflation during 2009–2013.\n\nFollowing the **Urjit Patel Committee Report (2014)**, India enacted a historic statutory shift: adopting **Flexible Inflation Targeting (FIT)** with the **Consumer Price Index (CPI)** as the sole nominal anchor, transitioning interest rate decisions from the sole discretion of the Governor to a collegiate **Monetary Policy Committee (MPC)**.',
+        title: 'Price Taker vs Price Maker: The Spectrum of Market Power',
+        body: `Imagine two contrasting Indian businesses:
+1. **A Wheat Farmer in Punjab:** Sells an undifferentiated commodity into a market with millions of sellers. If the market price is ₹2,200/quintal, charging ₹2,201 means selling zero grain. The farmer is a pure **Price Taker** facing an infinitely elastic horizontal demand curve.
+2. **Indian Railways (Passenger Rail):** The sole provider of passenger rail transit across the nation with statutory entry barriers. It can raise ticket prices and decide passenger quotas without fearing new railway startups. It is a **Price Maker** facing a downward-sloping demand curve.`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The FIT Framework & MPC Composition',
-        body: '### 1. The Statutory Inflation Target ($4\\% \\pm 2\\%$)\n* **Target Variable:** Consumer Price Index (CPI - Combined, Base 2012 = 100).\n* **Target Rate:** **4.0%** Headline Inflation.\n* **Tolerance Band:** **2.0% to 6.0%** (2% floor, 6% ceiling) reviewed every 5 years (reaffirmed for 2021–2026).\n* **Primary Objective:** Maintain price stability while keeping in mind the objective of growth (Section 45ZB).\n\n### 2. The 6-Member MPC Architecture\n\n```mermaid\ngraph TD\n    MPC["Monetary Policy Committee (6 Members)"]\n    MPC --> RBI["3 Internal RBI Members"]\n    MPC --> EXT["3 External Government Appointees"]\n    RBI --> R1["1. RBI Governor (Chairperson, Ex-Officio)"]\n    RBI --> R2["2. Deputy Governor (Monetary Policy)"]\n    RBI --> R3["3. Officer of the Bank (Nominated by Board)"]\n    EXT --> E1["4. External Academic / Economist"]\n    EXT --> E2["5. External Academic / Economist"]\n    EXT --> E3["6. External Academic / Economist"]\n```\n\n* **Meeting Frequency:** Minimum **4 times a year** (standard practice: bi-monthly, 6 times/year).\n* **Quorum:** Minimum **4 members** (at least one being the Governor or Deputy Governor).\n* **Decision Rule:** Majority vote; in case of a tie, the **RBI Governor has a second or casting vote**.',
+        title: 'Perfect Competition vs Monopoly Equilibrium',
+        body: `### 1. Perfect Competition Equilibrium
+* **Short-Run Conditions:**
+  - Profit Maximization: $P = MR = MC$ (with $MC$ rising).
+  - **Shutdown Point:** If $P < \\min(AVC)$, the firm shuts down immediately to minimize losses to just Fixed Costs.
+  - **Break-Even Point:** $P = \\min(ATC)$ (Zero Economic Profit).
+* **Long-Run Equilibrium:** Free entry and exit eliminates excess profits:
+  $$P = MR = MC = \\min(ATC)$$
+  - **Productive Efficiency:** Produced at minimum cost (lowest point of $ATC$).
+  - **Allocative Efficiency:** Price equals marginal cost ($P = MC$).
+
+### 2. Pure Monopoly Equilibrium & The Lerner Index
+* Because a monopolist faces the downward-sloping market demand curve ($P = a - bQ$), Marginal Revenue lies strictly below Price:
+  $$TR = P \\times Q = aQ - bQ^2 \\implies MR = a - 2bQ \\quad (MR \\text{ has double the slope of demand!})$$
+* **Monopoly Output & Price:** Output is set where $MR = MC$, and price is read off the **Demand Curve ($P_m > MC$)**.
+* **The Lerner Index of Monopoly Power ($L$):**
+  $$L = \\frac{P - MC}{P} = \\frac{1}{|e_d|}$$
+  - In Perfect Competition: $|e_d| = \\infty \\implies L = 0$ (Zero market power).
+  - In Pure Monopoly: $0 < L \\le 1$ (Higher markup as demand becomes more inelastic).`,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'Monetary Policy Transmission Channels & External Benchmark Lending Rate (EBLR)',
-        body: 'How does an MPC Repo Rate cut reach the real economy? Through four transmission channels:\n\n1. **Interest Rate Channel:** Repo cut $\\rightarrow$ Banks lower lending/deposit rates $\\rightarrow$ borrowing cost drops $\\rightarrow$ Consumption ($C$) and Investment ($I$) rise.\n2. **Credit / Bank Lending Channel:** Lower policy rates increase bank liquidity and willingness to expand credit.\n3. **Asset Price Channel:** Lower interest rates boost equity valuations and real estate prices $\\rightarrow$ Household wealth increases $\\rightarrow$ spending expands.\n4. **Exchange Rate Channel:** Lower interest rates can cause capital outflows and currency depreciation $\\rightarrow$ Exports become more competitive $\\rightarrow$ Net exports ($X - M$) rise.\n\n### The EBLR Reform (October 2019)\nHistorically, monetary transmission was sluggish under the BPLR, Base Rate, and MCLR regimes because banks delayed cutting lending rates. In October 2019, the RBI mandated all floating-rate retail and MSME loans to be linked to an **External Benchmark** (e.g. RBI Repo Rate or 91/182-day T-Bill yield), ensuring automatic, fast transmission of policy rate changes.',
+        title: 'The 3 Degrees of Price Discrimination (Pigou Taxonomy)',
+        body: `Price discrimination is charging different prices to different buyers for the identical good, **not justified by cost differences**:
+
+| Degree of Discrimination | Operational Mechanism | Consumer Surplus Impact | Real-World Example |
+|---|---|---|---|
+| **1st Degree (Perfect Price Discrimination)** | Monopolist charges each individual consumer their **exact maximum willingness to pay**. | **Consumer Surplus = ZERO** (Monopolist captures 100% of social surplus). Output equals competitive level ($P = MC$ at margin). | Specialized high-end auction houses; bespoke consulting pricing. |
+| **2nd Degree (Non-Linear / Block Pricing)** | Monopolist charges different prices based on the **quantity/volume consumed** or quality tier. | Part of consumer surplus is extracted. | Electricity tariffs (slabs: 0-100 units cheap, 200+ units expensive); bulk FMCG packs. |
+| **3rd Degree (Market Segmentation)** | Monopolist segments the market into distinct sub-markets based on **Price Elasticity of Demand**: $\\frac{P_1}{P_2} = \\frac{1 - 1/|e_2|}{1 - 1/|e_1|}$. | Charges **higher price to the inelastic segment** and lower price to the elastic segment. | Student/Senior citizen discounts; Tatkal vs General train quotas; Domestic vs Commercial electricity rates. |`,
         order: 3,
       },
       {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Definition of Failure under Section 45ZN',
-        body: 'The RBI does NOT fail if inflation breaches 6% in a single month or quarter. Under **Section 45ZN**, monetary failure is legally triggered **ONLY when average CPI inflation remains outside the 2% to 6% band for THREE CONSECUTIVE QUARTERS**.\n\n### The Statutory Remedial Report\nUpon failure, the RBI must submit a report to the Union Finance Ministry specifying:\n1. The reasons for failure to achieve the inflation target;\n2. Remedial actions proposed to be taken by the Bank; and\n3. An estimated time period within which the target will be achieved.\n*(Triggered for the first time in October 2022 following global supply shocks from the Ukraine conflict).*',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Monetary Policy Framework',
-        body: '1. **Anchor Metric:** The statutory anchor is **Headline CPI (Combined)**, NOT Core CPI and NOT WPI! (Urjit Patel committee chose Headline CPI because food and fuel comprise ~50% of the Indian household consumption basket).\n2. **External Members Term:** External MPC members hold office for **4 years and are NOT eligible for reappointment**.\n3. **Casting Vote:** The RBI Governor has a regular vote like every other member, plus a **second or casting vote ONLY in the event of a tie** (e.g. 3-3 split).',
-        order: 5,
+        title: 'Welfare Deadweight Loss & Indian Regulatory Application',
+        body: `### 1. Deadweight Loss of Monopoly
+Compared to perfect competition, a monopoly restricts output ($Q_m < Q_c$) and inflates price ($P_m > P_c$). This creates an uncaptured **Deadweight Loss triangle** representing lost social welfare.
+
+### 2. Competition Commission of India (CCI)
+The CCI enforces the Competition Act, 2002. Note: **Monopoly itself is NOT illegal in India; only the *Abuse of Dominant Position* (Section 4) and predatory pricing are illegal**.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Monopolist Never Operates in Inelastic Segment:** A profit-maximizing monopolist with positive marginal cost will **NEVER produce where demand is inelastic ($|e_d| < 1$)**, because in that region $MR < 0$, which cannot equal $MC > 0$.
+* ⚠️ **Trap 2: 1st Degree Price Discrimination has Zero Deadweight Loss:** In 1st degree discrimination, because output expands to where price equals marginal cost ($P = MC$ at the margin), total output is identical to perfect competition, so **Deadweight Loss is Zero** (though Consumer Surplus is also zero).`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'SEBI_GRADE_A',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Monetary Policy Framework, MPC Structure, EBLR, Transmission Channels',
-        notes: 'Repeatedly tested in Prelims (MPC composition, 4%+/-2% target, Section 45ZN failure rule).',
+        syllabusUnit: 'Paper 2: Microeconomics — Market Structures: Perfect Competition, Monopoly, Price Discrimination',
+        notes: 'Guaranteed 2-3 questions: Lerner Index calculations, 3rd degree price discrimination elasticity ratios, shutdown rule.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module B - Monetary Policy Framework & Transmission',
-        notes: 'Direct MCQs on EBLR mandates, Urjit Patel recommendations, and Section 45ZB.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Industrial Policy, Monopoly Regulations, and Competition Act',
+        notes: 'Covers Competition Commission of India mandates and natural monopoly regulation.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Market Forms: Perfect Competition and Monopoly',
+        notes: 'Direct 5-mark and 10-mark questions comparing pricing and output under perfect competition vs monopoly.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Flexible Inflation Targeting (FIT): 4% CPI Headline inflation ± 2% tolerance band (2% to 6%). Urjit Patel Committee (2014) -> 2016 RBI Act amendment. MPC = 6 members (3 RBI + 3 External Govt appointed for non-renewable 4-yr term). Quorum = 4. Governor has regular vote + casting vote on tie. Failure (Sec 45ZN) = Inflation outside 2-6% band for 3 CONSECUTIVE QUARTERS. EBLR (2019) mandates external benchmark linking for retail loans.',
+        content: 'Perfect Competition: Price-taker, $P = MR = MC = \\min ATC$, zero economic profit in long run, shutdown if $P < \\min AVC$. Monopoly: Price-maker, $MR = MC < P$, positive profit, DWL. Lerner Index: $L = \\frac{P - MC}{P} = \\frac{1}{|e_d|}$. Price Discrimination: 1st degree (extracts 100% CS), 3rd degree (higher price for inelastic segment).',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'India adopted Flexible Inflation Targeting in 2016, targeting Headline CPI at 4% ± 2%. The 6-member Monetary Policy Committee (3 RBI officials + 3 external experts appointed for non-renewable 4-year terms) meets at least 4 times a year to decide policy rates by majority vote. If inflation breaches the 2–6% band for 3 consecutive quarters, the RBI must submit a statutory explanation report to the Government.',
+        content: 'Perfect competition achieves productive efficiency ($P = \\min ATC$) and allocative efficiency ($P = MC$). Short-run shutdown occurs when price fails to cover Average Variable Cost ($P < \\min AVC$). A pure monopolist maximizes profit where $MR = MC$, setting a price markup determined by the Lerner Index $L = (P - MC)/P = 1/|e_d|$. A monopolist will never operate in the inelastic segment of its demand curve ($|e_d| < 1$) where $MR < 0$. Price discrimination: 1st Degree extracts all consumer surplus with zero DWL; 3rd Degree charges higher prices to less elastic consumer groups.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Legal Anchor: Section 45ZA of RBI Act 1934 (4% ± 2% CPI Combined target).\n2. MPC Composition (Section 45ZB): Governor (Chair), Deputy Governor (Monetary Policy), Executive Director/Officer, 3 External Members (4-yr term, no reappointment).\n3. Operational Rules: Min 4 meetings/year, Quorum = 4, Individual voting publication, Minutes released on 14th day.\n4. Failure Criterion (Section 45ZN): 3 consecutive quarters outside 2-6% tolerance band.\n5. Transmission: Interest rate, credit, asset price, exchange rate channels + EBLR mandatory linking.',
+        content: 'Market Structure Taxonomy: 1. Perfect Competition: Horizontal demand ($e=\\infty$), $P = AR = MR$. 2. Monopoly: Linear demand $P = a - bQ \\implies MR = a - 2bQ$. 3. Profit Maximization: $\\max \\Pi = P(Q)Q - C(Q) \\implies MR(Q^*) = MC(Q^*)$. 4. Deadweight Loss: $\\text{DWL} = \\frac{1}{2}(P_m - MC)(Q_c - Q_m)$. 5. Statutory Oversight: Competition Act 2002 (CCI).',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Under the Reserve Bank of India Act 1934, under what specific statutory condition is the RBI deemed to have FAILED to meet its monetary policy inflation target?',
+        stem: 'A profit-maximizing monopolist produces at a point where the marginal cost is $MC = ₹40$ and the price is $P = ₹100$. What is the value of the Lerner Index of monopoly power, and what is the implied price elasticity of demand at this point?',
         options: [
-          'When headline CPI inflation exceeds 6% in any two consecutive monthly releases',
-          'When headline CPI inflation remains above 6% or below 2% for three consecutive quarters',
-          'When Core CPI inflation exceeds 4% for six consecutive months',
-          'When the Wholesale Price Index (WPI) exceeds 10% during a financial year',
+          'Lerner Index = 0.60; $|e_d| = 1.67$',
+          'Lerner Index = 0.40; $|e_d| = 2.50$',
+          'Lerner Index = 0.60; $|e_d| = 0.60$',
+          'Lerner Index = 1.50; $|e_d| = 0.67$',
         ],
-        correctAnswer: 'When headline CPI inflation remains above 6% or below 2% for three consecutive quarters',
-        explanation: 'Under Section 45ZN of the RBI Act 1934 read with Regulation 7 of the MPC Regulations, the RBI is deemed to have failed the inflation target if the average headline CPI inflation is greater than the upper tolerance level of 6% or less than the lower tolerance level of 2% for THREE CONSECUTIVE QUARTERS. This triggers a mandatory statutory report to the Central Government.',
-        trapExplanation: 'Candidates confuse monthly inflation prints with quarterly averages, or confuse 2 quarters with the statutory requirement of 3 consecutive quarters.',
+        correctAnswer: 'Lerner Index = 0.60; $|e_d| = 1.67$',
+        explanation: '1. Lerner Index formula: $L = \\frac{P - MC}{P} = \\frac{100 - 40}{100} = \\frac{60}{100} = 0.60$. 2. Relationship with elasticity: $L = \\frac{1}{|e_d|} \\implies |e_d| = \\frac{1}{L} = \\frac{1}{0.60} = \\frac{10}{6} \\approx 1.67$. Note that $|e_d| > 1$, confirming the monopolist is operating in the elastic segment of demand.',
+        trapExplanation: 'Option B is calculated using the incorrect ratio $\\frac{40}{100} = 0.40$.',
         difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2020,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 35,
+        examinerTrapPattern: 'Calculation of Lerner Index and inverting to obtain price elasticity.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'In the short run, a competitive manufacturing firm discovers that at its profit-maximizing output, the market price is lower than its Average Total Cost ($P < ATC$), but higher than its Average Variable Cost ($P > AVC$). What should the firm do?',
+        options: [
+          'Shut down operations immediately to avoid incurring losses.',
+          'Continue producing in the short run, because it covers all variable costs and contributes toward paying fixed costs.',
+          'Increase price to cover its average total costs.',
+          'Increase production until average total cost falls below price.',
+        ],
+        correctAnswer: 'Continue producing in the short run, because it covers all variable costs and contributes toward paying fixed costs.',
+        explanation: 'In the short run, fixed costs are sunk and must be paid regardless of whether output is produced or zero. As long as market price exceeds Average Variable Cost ($P > AVC$), every unit sold covers its variable operating costs and generates an operating surplus that contributes toward paying fixed costs. Shutting down would cause the firm to lose its entire Fixed Cost, resulting in a larger loss.',
+        trapExplanation: 'Option A describes the shutdown decision when $P < AVC$. Option C is impossible because competitive firms are price-takers.',
+        difficulty: 'EASY',
         isPYQ: false,
+        examinerTrapPattern: 'Testing the Short-Run Shutdown Rule ($P < AVC$).',
+      },
+    ],
+  },
+  {
+    id: 'CON-ECO-12',
+    topicOrder: 31,
+    topicSlug: 'market-structures-strategic-behaviour-and-market-failure',
+    topicTitle: 'Market Structures, Strategic Behaviour & Market Failure',
+    topicDescription: 'Monopolistic competition, oligopoly models, game theory, prisoner\'s dilemma, market failure, externalities, and asymmetric information.',
+    slug: 'monopolistic-competition-oligopoly-game-theory-and-market-failure',
+    title: 'Monopolistic Competition, Oligopoly Models, Game Theory & Market Failure',
+    shortDefinition: 'Imperfect competition architectures including Monopolistic Competition (Excess Capacity), Oligopoly (Sweezy Kinked Demand, Cournot Duopoly), Game Theory (Nash Equilibrium), and Market Failures (Externalities, Asymmetric Information).',
+    difficulty: 'ADVANCED',
+    claims: [
+      {
+        id: 'CLM-ECO-12-01',
+        statement: 'Monopolistic Competition (Edward Chamberlin) features product differentiation and free entry; long-run equilibrium achieves tangency on the downward-sloping demand curve, resulting in Excess Capacity ($P > \\min ATC$).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Edward Chamberlin (1933) The Theory of Monopolistic Competition; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'In monopolistic competition, the tangency of the demand curve with the average cost curve occurs to the left of the minimum average cost, giving rise to chronic excess capacity.',
+      },
+      {
+        id: 'CLM-ECO-12-02',
+        statement: 'The Sweezy Kinked Demand Curve model explains price rigidity in Oligopoly via asymmetric expectations (rivals match price cuts but ignore price hikes, creating a vertical discontinuity in Marginal Revenue); the Cournot model determines equilibrium via intersecting reaction functions.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Paul Sweezy (1939) Demand Under Conditions of Oligopoly (JPE); Augustin Cournot (1838) Researches into the Mathematical Principles of the Theory of Wealth',
+        excerpt: 'The kink in the demand curve produces a discontinuous marginal revenue curve, explaining why prices remain rigid despite shifts in marginal cost.',
+      },
+      {
+        id: 'CLM-ECO-12-03',
+        statement: 'Market failures arise from Externalities (divergence between private and social costs/benefits, solved via Pigouvian taxes or Coase Theorem) and Asymmetric Information (Adverse Selection / Lemons Problem and Moral Hazard).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Arthur Pigou (1920); Ronald Coase (1960) The Problem of Social Cost; George Akerlof (1970) The Market for "Lemons"',
+        excerpt: 'Externalities cause private markets to over-produce goods with negative spillovers and under-produce goods with positive spillovers. Asymmetric information causes adverse selection and market breakdown.',
+      },
+    ],
+    contentBlocks: [
+      {
+        type: 'INTUITION',
+        title: 'Real-World Markets: Differentiation, Strategy & Market Failure',
+        body: `Pure monopoly and perfect competition are theoretical extremes. Most real-world Indian industries fall into two intermediate structures:
+1. **Monopolistic Competition:** Hundreds of brands selling differentiated products (e.g. soaps, shampoos, restaurants, coaching institutes). Each has a mini-monopoly over its brand name, but intense competition prevents super-normal profits.
+2. **Oligopoly:** A handful of dominant giants that are strategically interdependent (e.g. Indian telecom: Jio vs Airtel vs Vi; Commercial aviation: IndiGo vs Air India). Every move by one player directly impacts rivals.`,
+        order: 1,
+      },
+      {
+        type: 'CORE_IDEA',
+        title: 'Monopolistic Competition & The Excess Capacity Theorem',
+        body: `### 1. Chamberlin Tangency Solution
+In Monopolistic Competition, free entry eliminates short-run economic profits in the long run. The downward-sloping demand curve ($AR$) becomes **tangent to the $ATC$ curve**, but **to the left of the minimum $ATC$**.
+
+\`\`\`
+Price (P)
+  ^
+  |        / (MC)         / (ATC)
+  |       /              /
+P*|------X--------------/-------- [Tangency: P = ATC > min ATC]
+  |     / \            /
+  |    /   \ (Demand) /
+  |   /     \--------*----------- [Minimum ATC: Efficient Scale]
+  +-------------------------> Quantity (Q)
+        Q*          Q_eff
+        |<-- Excess Capacity -->|
+\`\`\`
+
+### 2. The Excess Capacity Theorem
+* Output is produced at $Q^*$ rather than the socially optimal minimum-cost capacity $Q_{\\text{eff}}$.
+* **The "Cost of Variety":** Society trades off maximum productive efficiency in exchange for consumer diversity and product differentiation.`,
+        order: 2,
+      },
+      {
+        type: 'MECHANISM',
+        title: 'Oligopoly Models & The Prisoner\'s Dilemma',
+        body: `### 1. Sweezy\'s Kinked Demand Curve (Price Rigidity)
+Paul Sweezy (1939) explains why oligopoly prices remain sticky:
+* **If a firm hikes price:** Rivals do NOT follow $\\implies$ Demand is **Highly Elastic** (firm loses market share).
+* **If a firm cuts price:** Rivals immediately MATCH the cut to protect share $\\implies$ Demand is **Highly Inelastic** (little gain in sales).
+* **The Kink:** Causes the **Marginal Revenue (MR) curve to have a vertical gap / discontinuity**. As long as $MC$ shifts within this vertical gap, **the equilibrium price and output remain completely unchanged**.
+
+### 2. Strategic Game Theory: Prisoner\'s Dilemma & Cartels
+| Player A \\ Player B | **Maintain High Price (Cooperate)** | **Discount Price (Cheat)** |
+|---|---|---|
+| **Maintain High Price (Cooperate)** | (₹100 Cr, ₹100 Cr) | (₹20 Cr, ₹150 Cr) |
+| **Discount Price (Cheat)** | (₹150 Cr, ₹20 Cr) | **(₹50 Cr, ₹50 Cr) [Nash Equilibrium]** |
+
+* Both firms have a dominant strategy to cheat / discount, leading to a sub-optimal **Nash Equilibrium** (₹50 Cr each), explaining why airline and telecom cartels naturally disintegrate without legal enforcement.`,
+        order: 3,
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Market Failures: Externalities, Coase Theorem & Asymmetric Information',
+        body: `### 1. Negative vs Positive Externalities
+* **Negative Externality (e.g. Stubble burning in Punjab/Haryana; industrial pollution):** Marginal Social Cost exceeds Marginal Private Cost ($MSC > MPC$). The free market **over-produces** the polluting good. Solution: **Pigouvian Tax** ($T = MEC$).
+* **Coase Theorem (Ronald Coase, Nobel 1991):** If property rights are well-defined and **transaction costs are zero**, private bargaining will resolve externalities efficiently without government intervention.
+
+### 2. Asymmetric Information (Akerlof\'s Lemons & Moral Hazard)
+* **Adverse Selection (Pre-Contractual):** Hidden information. Bad products drive good products out of the market (e.g. unhealthy people buying health insurance disproportionately).
+* **Moral Hazard (Post-Contractual):** Hidden action. Once insured, individuals take excessive risks because costs are borne by others (e.g. insured hospitals overcharging under Ayushman Bharat PM-JAY).
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Kinked Demand Curve does NOT explain price determination:** The Sweezy model explains why an *already existing* price is rigid; it cannot explain how that price was initially determined.
+* ⚠️ **Trap 2: Adverse Selection vs Moral Hazard:** Adverse Selection occurs **before** the transaction (hidden information/selection bias); Moral Hazard occurs **after** the transaction (behavioral shift/hidden action).`,
+        order: 4,
+      },
+    ],
+    examMappings: [
+      {
+        examCode: 'SEBI_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'EXPERT',
+        syllabusUnit: 'Paper 2: Microeconomics — Monopolistic Competition, Oligopoly, Game Theory, Externalities and Market Failure',
+        notes: 'Heavily tested in Phase 2: Kinked demand MR gap, Prisoner\'s Dilemma payoff matrices, Adverse Selection vs Moral Hazard.',
+      },
+      {
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Market Failures, Healthcare/Insurance Asymmetries, and Climate Externalities',
+        notes: 'Directly applied to PM-JAY health insurance moral hazard and carbon pricing (Pigouvian taxes).',
+      },
+      {
+        examCode: 'UPSC_APFC',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'General Studies: Indian Economy & Social Security — Asymmetric Information and Social Insurance',
+        notes: 'Covers Adverse Selection in social security pensions and health insurance schemes.',
+      },
+    ],
+    revisionUnits: [
+      {
+        type: 'FLASH_30S',
+        content: 'Monopolistic Comp: Differentiated goods, free entry, Excess Capacity ($P > \\min ATC$). Sweezy Oligopoly: Kinked demand creates broken vertical MR gap -> Price Rigidity. Prisoner\'s Dilemma: Dominant strategy leads to sub-optimal Nash Equilibrium. Market Failures: Negative externalities (tax via Pigou), Adverse Selection (pre-contract info gap), Moral Hazard (post-contract risky action).',
+        order: 1,
+      },
+      {
+        type: 'SUMMARY_2M',
+        content: 'Monopolistic competition creates excess capacity as the price-cost tangency occurs left of minimum ATC. The Sweezy Kinked Demand curve explains oligopoly price rigidity because rivals match price reductions but ignore price hikes, creating a vertical discontinuity in Marginal Revenue. Game theory models strategic interdependence where the non-cooperative Nash equilibrium leads to cartel breakdown. Market failures stem from externalities (solved via Pigouvian taxes or the Coase Theorem) and asymmetric information (Adverse selection before contract; Moral hazard after contract).',
+        order: 2,
+      },
+      {
+        type: 'ARCHITECTURE_5M',
+        content: 'Imperfect Markets & Failure Architecture: 1. Chamberlin Excess Capacity: $Q_{\\text{excess}} = Q_{\\text{eff}} - Q^*$. 2. Sweezy MR Gap: $\\Delta MR = P(1/|e_1| - 1/|e_2|)$. 3. Strategic Normal Form: $\\max u_i(s_i^*, s_{-i}^*)$. 4. Externality Calculus: $MSC = MPC + MEC$. 5. Information Economics: Akerlof Lemons market collapse, Stiglitz screening & Spence signaling.',
+        order: 3,
+      },
+    ],
+    questions: [
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In the Sweezy Kinked Demand Curve model of Oligopoly, why does the Marginal Revenue ($MR$) curve have a vertical discontinuity (gap)?',
+        options: [
+          'Because the firm is a pure monopoly that can choose any price it desires.',
+          'Because the elasticity of demand changes abruptly at the prevailing market price due to asymmetric rival reactions.',
+          'Because marginal cost drops to zero at the kink.',
+          'Because fixed costs are discontinuous in the short run.',
+        ],
+        correctAnswer: 'Because the elasticity of demand changes abruptly at the prevailing market price due to asymmetric rival reactions.',
+        explanation: 'In the Sweezy model, the demand curve has a sharp kink at the prevailing price because demand is highly elastic above the price (rivals do not follow price increases) and highly inelastic below the price (rivals match price cuts). Because Marginal Revenue is derived from the slope of the demand curve, the abrupt shift from a flat slope to a steep slope causes the MR curve to break and display a vertical discontinuity (gap) directly below the kink.',
+        trapExplanation: 'Option C is incorrect because the discontinuity is in the MR curve, while the MC curve remains continuous and passes through the gap.',
+        difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 38,
+        examinerTrapPattern: 'Testing the mathematical origin of the vertical gap in the Sweezy MR curve.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'A health insurance company in India notices that after purchasing comprehensive medical insurance, policyholders visit private hospitals for minor ailments far more frequently and demand expensive diagnostic tests that they would have avoided if paying out-of-pocket. This economic phenomenon is an example of:',
+        options: [
+          'Adverse Selection',
+          'Moral Hazard',
+          'Free-Rider Problem',
+          'Negative Externality',
+        ],
+        correctAnswer: 'Moral Hazard',
+        explanation: 'Moral Hazard is an asymmetric information problem that occurs AFTER a contract is signed (hidden action). Once an individual is fully insured against financial loss, their behavioral incentives change: they take fewer precautions and consume excessive medical services because the marginal cost is paid by the insurance company rather than themselves.',
+        trapExplanation: 'Adverse Selection occurs BEFORE the contract is signed (when high-risk individuals buy insurance at higher rates than healthy individuals).',
+        difficulty: 'EASY',
+        isPYQ: true,
+        pyqYear: 2021,
+        pyqPaper: 'UPSC APFC / EPFO Prelims',
+        pyqStage: 'Recruitment Test',
+        pyqQuestionNumber: 51,
+        examinerTrapPattern: 'Testing temporal distinction: Adverse Selection (pre-contract) vs Moral Hazard (post-contract).',
       },
     ],
   },
 
+  // =========================================================================
+  // TOPIC 32: Foundations of National Income Accounting
+  // =========================================================================
+  {
+    id: 'CON-ECO-13',
+    topicOrder: 32,
+    topicSlug: 'foundations-of-national-income-accounting',
+    topicTitle: 'Foundations of National Income Accounting',
+    topicDescription: 'Domestic territory, factor vs transfer payments, stocks vs flows, national income aggregate ladder, 2015 SNA methodology, and three measurement methods.',
+    slug: 'national-income-concepts-domestic-territory-factor-transfer-stocks-flows',
+    title: 'National Income Concepts: Domestic Territory, Factor vs Transfer Payments, Stocks vs Flows & Final vs Intermediate Goods',
+    shortDefinition: 'The foundational accounting taxonomy of National Income: Economic Territory vs Geographical boundaries, Factor Payments vs Transfer Payments, Stocks vs Flows, and Final vs Intermediate goods avoiding double counting.',
+    difficulty: 'BEGINNER',
+    claims: [
+      {
+        id: 'CLM-ECO-13-01',
+        statement: 'Economic (Domestic) Territory encompasses the geographic territory administered by a government where persons, goods, and capital circulate freely, including Indian embassies, consulates, and military bases abroad (while excluding foreign embassies located within India).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'UN System of National Accounts (SNA 2008), Chapter 4: Institutional Units and Sectors; MoSPI National Accounts Statistics: Sources and Methods (2015)',
+        excerpt: 'The economic territory of a country consists of the geographic territory administered by a government within which persons, goods and capital circulate freely, including embassies and territorial waters.',
+      },
+      {
+        id: 'CLM-ECO-13-02',
+        statement: 'Factor Payments (Rent, Wages, Interest, Profit) represent earned rewards for factor services rendered in production and are included in National Income; Transfer Payments (Pensions, Subsidies, Scholarships, Remittances) are unearned unilateral payments and are strictly excluded.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'MoSPI National Accounts Statistics: Sources and Methods (2015); NCERT Macroeconomics Class XII, Chapter 2',
+        excerpt: 'Transfer payments are unilateral receipts without any corresponding productive contribution in the current period and are not included in national income.',
+      },
+      {
+        id: 'CLM-ECO-13-03',
+        statement: 'Stock variables (National Wealth, Money Supply, Public Debt, Capital Stock) are measured at a specific point in time; Flow variables (National Income, GDP, Investment, Fiscal Deficit) are measured over a unit of time.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'N. Gregory Mankiw, Macroeconomics, Chapter 2: The Data of Macroeconomics',
+        excerpt: 'A stock is a quantity measured at a given point in time, whereas a flow is a quantity measured per unit of time.',
+      },
+    ],
+    contentBlocks: [
+      {
+        type: 'INTUITION',
+        title: 'The Scope of Macroeconomic Accounting',
+        body: `National Income Accounting is the financial balance sheet of an entire country.
+
+To measure a nation's total output accurately, we must first establish strict **boundary rules**:
+* What constitutes the physical and economic boundaries of "India"?
+* Which money transactions represent actual newly produced wealth versus mere transfers of cash between citizens?
+* How do we prevent counting the same bag of flour three times as it moves from the farmer to the mill to the bakery?`,
+        order: 1,
+      },
+      {
+        type: 'CORE_IDEA',
+        title: 'Economic Territory vs Geographical Territory',
+        body: `The **Economic (Domestic) Territory** of India is defined by the UN SNA 2008 and MoSPI as:
+
+### 1. Included in India\'s Domestic Territory:
+* Political frontiers, including territorial waters (12 nautical miles) and sovereign airspace.
+* Ships and aircraft operated by Indian residents between two or more countries (e.g. Air India flights operating between London and New York).
+* Fishing vessels, oil and natural gas rigs operated by Indian residents in international waters where India has exclusive economic rights (EEZ - 200 nautical miles).
+* **Indian Embassies, High Commissions, Consulates, and Military Bases located in foreign countries** (e.g. The Indian Embassy in Washington, D.C. is part of India's domestic territory).
+
+### 2. Excluded from India\'s Domestic Territory:
+* **Foreign Embassies, High Commissions, and Consulates located within India** (e.g. The US Embassy in Chanakyapuri, New Delhi is part of US domestic territory, NOT India's).
+* Offices of international organizations located in India (e.g. WHO, World Bank, IMF offices in New Delhi).`,
+        order: 2,
+      },
+      {
+        type: 'LEGAL_DISTINCTION',
+        title: 'Factor Payments vs Transfer Payments & Stocks vs Flows',
+        body: `### 1. Factor Payments vs Transfer Payments
+| Dimension | Factor Payments (Included in NI) | Transfer Payments (EXCLUDED from NI) |
+|---|---|---|
+| **Core Nature** | Earned payments for productive factor services rendered. | Unearned unilateral receipts; no productive service in return. |
+| **Factor Breakdown** | • **Land $\\to$ Rent**<br>• **Labour $\\to$ Wages / Salaries**<br>• **Capital $\\to$ Interest**<br>• **Entrepreneurship $\\to$ Profit** | • Old-age pensions, scholarships, unemployment doles.<br>• Direct Benefit Transfers (PM-KISAN, PMJDY grants).<br>• Gifts, donations, lottery winnings, remittances. |
+| **Why Excluded?** | Represents net newly created goods and services. | Mere reallocation of existing purchasing power; including them causes **double counting**. |
+
+* **CRUCIAL EXAM DISTINCTION:** **Retirement Pensions** are deferred factor payments (earned wages) and ARE included in National Income. **Old-Age Social Welfare Pensions** are unilateral transfer payments and are strictly EXCLUDED!
+
+### 2. Stocks vs Flows Taxonomy
+| Variable Type | Definition | Unit of Measurement | Examples |
+|---|---|---|---|
+| **Stock Variable** | Measured at a **specific point in time** (snapshot). | As on March 31, 2026. | National Wealth, Capital Stock, Forex Reserves, Public Debt, Money Supply ($M_3$). |
+| **Flow Variable** | Measured **over a duration / period of time** (rate). | Per month / Per financial year. | GDP, National Income, Gross Capital Formation (Investment), Fiscal Deficit, Imports/Exports. |`,
+        order: 3,
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Final vs Intermediate Goods & The Double-Counting Trap',
+        body: `### Final Goods vs Intermediate Goods
+* **Final Goods:** Goods purchased for final consumption (by households) or final investment (capital machinery by firms). No further value addition takes place.
+* **Intermediate Goods:** Goods used as raw materials or resold within the same financial year (e.g. tyre bought by Maruti Suzuki to install in a car).
+* **The Double-Counting Trap:** Summing the gross output of the wheat farmer (₹1,000), the flour mill (₹1,500), and the baker (₹2,200) yields ₹4,700. True GDP is only the value of the **Final Bread (₹2,200)** or the sum of **Value Added at each stage** ($1000 + 500 + 700 = ₹2,200$).
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Second-Hand Goods Transactions:** Sale of a used car or second-hand house is EXCLUDED from GDP (already counted in the year of manufacture). However, **brokerage or commission earned by the agent IS included** in GDP as a current productive service.
+* ⚠️ **Trap 2: Capital Gains are Excluded:** Capital gains from stock market trading (e.g. buying Reliance shares at ₹2,000 and selling at ₹2,500) are paper capital asset gains and are strictly EXCLUDED from GDP.`,
+        order: 4,
+      },
+    ],
+    examMappings: [
+      {
+        examCode: 'RBI_GRADE_B',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'EXPERT',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — National Income Accounting Concepts and Methodology',
+        notes: 'Guaranteed questions in Phase 1 GA and Phase 2 ESI on domestic territory inclusions, transfer payments, and intermediate goods.',
+      },
+      {
+        examCode: 'IIBF_DBF',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Paper 1 (IE&IFS): Module A — National Income and Domestic Aggregates',
+        notes: 'Covers Stock vs Flow variables and factor payment classification.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — National Income Accounting Concepts',
+        notes: 'Direct 2-mark definitions of Domestic Territory, Factor Payments, and Intermediate Goods.',
+      },
+    ],
+    revisionUnits: [
+      {
+        type: 'FLASH_30S',
+        content: 'Domestic Territory: Includes Indian embassies abroad; excludes foreign embassies in India. Factor Payments (Rent, Wages, Interest, Profit) = INCLUDED. Transfer Payments (Old age pensions, subsidies, gifts) = EXCLUDED. Stocks = point in time (Forex, Debt, Capital). Flows = duration of time (GDP, Deficit, Investment). Intermediate goods excluded to prevent double counting.',
+        order: 1,
+      },
+      {
+        type: 'SUMMARY_2M',
+        content: 'National income includes only Factor Payments generated within economic territory and earned by normal residents. Economic territory includes Indian embassies abroad and international water rigs, but excludes foreign embassies in New Delhi. Transfer payments (unilateral grants, scholarships, social pensions) are excluded because they represent no new production. Stock variables (Forex reserves, money supply, national debt) are point-in-time snapshots; Flow variables (GDP, annual investment, exports) are rates over time. Intermediate goods are subtracted from gross output to eliminate double counting.',
+        order: 2,
+      },
+      {
+        type: 'ARCHITECTURE_5M',
+        content: 'National Accounting Definitional Architecture: 1. Boundary: Domestic Territory vs Rest of World. 2. Resident Principle: Center of economic interest $\\ge 1$ year. 3. Transaction Categorization: Factor service vs Unilateral transfer. 4. Temporal Distinction: Stock ($S(t)$) vs Flow ($F = dS/dt$). 5. Value Addition Rule: $\\text{GVA} = \\text{Output} - \\text{Intermediate Consumption}$.',
+        order: 3,
+      },
+    ],
+    questions: [
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'Which of the following items is correctly INCLUDED in the calculation of India\'s National Income?',
+        options: [
+          'Old-age social security pension paid to senior citizens under the National Social Assistance Programme (NSAP).',
+          'Financial grant received by a poor household under the PM-KISAN Direct Benefit Transfer scheme.',
+          'Retirement pension paid to a retired government school teacher.',
+          'Money won by an individual in a state-run lottery.',
+        ],
+        correctAnswer: 'Retirement pension paid to a retired government school teacher.',
+        explanation: 'A retirement pension paid to an employee is considered "deferred factor payment" (wages earned during active service that were withheld and paid out after retirement) and represents payment for past productive labour service. Therefore, retirement pensions ARE included in National Income. In contrast, old-age social pensions, PM-KISAN cash grants, and lottery winnings are unilateral transfer payments (unearned receipts with no corresponding productive service) and are strictly excluded.',
+        trapExplanation: 'Option A is a classic examiner trap confusing retirement pensions (factor payment) with old-age social welfare pensions (transfer payment).',
+        difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2021,
+        pyqPaper: 'RBI Grade B Phase 1',
+        pyqStage: 'Phase 1',
+        pyqQuestionNumber: 62,
+        examinerTrapPattern: 'Distinguishing retirement pension from old-age welfare pension.',
+      },
+      {
+        type: 'EXCEPTION_PROBE',
+        stem: 'Which of the following economic variables is classified as a "STOCK Variable" rather than a Flow variable?',
+        options: [
+          'Gross Domestic Product (GDP) of India for FY 2025-26.',
+          'Foreign Exchange Reserves of the Reserve Bank of India as on March 31, 2026.',
+          'Gross Capital Formation (Investment) during the second quarter.',
+          'Monthly Goods and Services Tax (GST) revenue collection.',
+        ],
+        correctAnswer: 'Foreign Exchange Reserves of the Reserve Bank of India as on March 31, 2026.',
+        explanation: 'A stock variable is measured at a precise, specific point in time (a snapshot). Foreign Exchange Reserves are reported as a stock balance existing on a specific date (e.g. as on March 31). In contrast, GDP, Gross Capital Formation, and GST revenue collections are Flow variables measured over an interval or duration of time (quarter, month, or financial year).',
+        trapExplanation: 'All options other than Forex reserves represent rates of activity occurring over a time period.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Stock vs Flow variable classification.',
+      },
+    ],
+  },
   {
     id: 'CON-ECO-14',
-    topicOrder: 29,
-    topicSlug: 'central-banking-monetary-policy-and-price-theory',
-    topicTitle: 'Central Banking, Monetary Policy Framework & Price Theory',
-    topicDescription: 'Quantitative & Qualitative Monetary Instruments: Repo, SDF, MSF, CRR, SLR & Open Market Operations.',
-    slug: 'quantitative-qualitative-monetary-instruments-repo-sdf-msf-crr-slr-omo-market-stabilization',
-    title: 'Quantitative & Qualitative Monetary Instruments: Repo, SDF, MSF, CRR, SLR, OMO & Market Stabilization',
-    shortDefinition: 'The operational toolkit of monetary policy: Quantitative / General Tools (Liquidity Adjustment Facility - LAF Corridor: Policy Repo Rate, Standing Deposit Facility - SDF, Marginal Standing Facility - MSF, Cash Reserve Ratio - CRR, Statutory Liquidity Ratio - SLR, Open Market Operations - OMO, Market Stabilization Scheme - MSS, and Variable Rate Repo/Reverse Repo - VRR/VRRR) vs Qualitative / Selective Credit Controls (Margin Requirements, Consumer Credit Regulation, Moral Suasion, and Credit Rationing).',
+    topicOrder: 32,
+    topicSlug: 'foundations-of-national-income-accounting',
+    topicTitle: 'Foundations of National Income Accounting',
+    topicDescription: 'The 8 national income aggregates ladder, 2015 SNA methodology, GVA at basic prices, factor cost vs market price.',
+    slug: 'the-8-national-income-aggregates-ladder-and-2015-sna-methodology',
+    title: 'The 8 National Income Aggregates Ladder & 2015 SNA Methodology',
+    shortDefinition: 'The mathematical conversion step-ladder connecting the 8 macroeconomic aggregates (GDP, NDP, GNP, NNP) across Gross/Net, Domestic/National, and Market Price/Factor Cost switches, and the MoSPI 2015 SNA methodology.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-14-01',
-        statement: 'Under the modernized Liquidity Adjustment Facility (LAF) corridor, the Policy Repo Rate is the benchmark policy rate; the Standing Deposit Facility (SDF, introduced in April 2022 under amended Section 17 of RBI Act) forms the uncollateralized lower floor (Repo - 25 bps), while the Marginal Standing Facility (MSF) forms the upper ceiling (Repo + 25 bps), creating a 50 bps asymmetric interest rate corridor.',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'RBI Monetary Policy Statement (April 2022); Reserve Bank of India Act, 1934 (Section 17(1A))',
-        excerpt: 'LAF Corridor: MSF (Repo + 25 bps) ceiling, Policy Repo Rate middle, SDF (Repo - 25 bps) floor.',
-      },
-      {
-        id: 'CLM-ECO-14-02',
-        statement: 'The Cash Reserve Ratio (CRR) under Section 42(1) of the RBI Act 1934 requires Scheduled Commercial Banks to maintain a specified percentage of their Net Demand and Time Liabilities (NDTL) as cash balances with the RBI, on which the RBI pays zero interest; the Statutory Liquidity Ratio (SLR) under Section 24 of the Banking Regulation Act 1949 requires banks to maintain a percentage of NDTL in unencumbered approved liquid assets (Gold, Cash, G-Secs, T-Bills).',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'Reserve Bank of India Act, 1934 (Section 42); Banking Regulation Act, 1949 (Section 24)',
-        excerpt: 'CRR is cash with RBI earning zero interest; SLR is liquid assets (G-Secs, Gold) earning return.',
-      },
-      {
-        id: 'CLM-ECO-14-03',
-        statement: 'Qualitative (Selective) Credit Controls regulate the direction, allocation, and end-use of credit rather than total money volume: Margin Requirements (Loan-to-Value ratios), Credit Rationing (imposing sector lending caps), Regulation of Consumer Credit (down payment/EMI norms), and Moral Suasion.',
+        statement: 'The 8 national income aggregates are interconnected via three binary conversion bridges: Gross to Net (Depreciation / Consumption of Fixed Capital), Domestic to National (Net Factor Income from Abroad - NFIA), and Factor Cost to Market Price (Net Indirect Taxes - NIT).',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Banking Regulation Act, 1949 (Sections 21 & 35A); NCERT Class 12 Macroeconomics, Ch 3',
-        excerpt: 'Quantitative tools control overall volume of credit; qualitative tools channel credit into specific sectors.',
+        locator: 'MoSPI National Accounts Statistics: Sources and Methods (2015); UN System of National Accounts (SNA 2008)',
+        excerpt: 'The three fundamental conversion switches are: Net = Gross - CFC; National = Domestic + NFIA; Market Price = Factor Cost + NIT.',
+      },
+      {
+        id: 'CLM-ECO-14-02',
+        statement: 'Canonical National Income of India is strictly and universally defined as Net National Product at Factor Cost ($\\text{NNP}_{\\text{FC}}$).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Central Statistics Office (CSO) / MoSPI National Accounts Manual; NCERT Macroeconomics Class XII, Chapter 2',
+        excerpt: 'National income is Net National Product at factor cost (NNP_FC).',
+      },
+      {
+        id: 'CLM-ECO-14-03',
+        statement: 'Under India\'s MoSPI 2015 SNA revision (Base Year 2011-12), Headline GDP is reported as GDP at Market Prices ($\\text{GDP}_{\\text{MP}} = \\sum \\text{GVA}_{\\text{BP}} + \\text{Net Product Taxes}$), while sectoral industry output is measured as GVA at Basic Prices ($\\text{GVA}_{\\text{BP}} = \\text{GVA}_{\\text{FC}} + \\text{Net Production Taxes}$).',
+        claimType: 'STATUTORY_RULE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'MoSPI Press Release (January 30, 2015) Changes in the Methodology of National Accounts Statistics; UN SNA 2008',
+        excerpt: 'Headline growth rate is now measured by GDP at constant market prices, while GVA at basic prices reflects sectoral economic activity.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Central Bank\'s Accelerator and Brake Pedals',
-        body: 'When an economy overheats with high inflation, the central bank presses the **monetary brake**—raising interest rates, draining cash reserves, and making loans expensive to cool aggregate demand.\n\nWhen the economy enters a downturn or liquidity freezes, the central bank presses the **monetary accelerator**—cutting policy rates, injecting cash through open market bond purchases, and expanding credit. The RBI achieves this fine-tuning through Quantitative and Qualitative instruments.',
+        title: 'The 3 Binary Switches of National Accounting',
+        body: `National income accounting is governed by **three universal mathematical switches**:
+
+1. **The Depreciation Switch (Gross vs Net):**
+   $$\\text{Net} = \\text{Gross} - \\text{Consumption of Fixed Capital (Depreciation)}$$
+2. **The Geographic Switch (Domestic vs National):**
+   $$\\text{National} = \\text{Domestic} + \\text{Net Factor Income from Abroad (NFIA)}$$
+   $$\\text{NFIA} = \\text{Factor Income earned by Indian residents abroad} - \\text{Factor Income earned by foreigners in India}$$
+3. **The Government Tax Switch (Factor Cost vs Market Price):**
+   $$\\text{Market Price} = \\text{Factor Cost} + \\text{Net Indirect Taxes (NIT)}$$
+   $$\\text{NIT} = \\text{Indirect Taxes (GST, Excise, Customs)} - \\text{Government Subsidies}$$`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Liquidity Adjustment Facility (LAF) Corridor Architecture',
-        body: 'In April 2022, the RBI replaced the traditional collateralized Reverse Repo with the **Standing Deposit Facility (SDF)**, establishing a clean symmetric 50 basis points corridor:\n\n```mermaid\ngraph TD\n    MSF["Marginal Standing Facility (MSF Rate) = Repo Rate + 0.25% (Upper Ceiling)"]\n    REPO["Policy Repo Rate (Benchmark Center)"]\n    SDF["Standing Deposit Facility (SDF Rate) = Repo Rate - 0.25% (Lower Floor)"]\n    MSF --- REPO\n    REPO --- SDF\n```\n\n### Definitions of the 3 Key LAF Rates\n1. **Policy Repo Rate:** The interest rate at which commercial banks borrow short-term funds from the RBI against the pledge of eligible government securities.\n2. **Standing Deposit Facility (SDF - Floor):** Facility allowing banks to park excess liquidity with the RBI at their discretion on an **uncollateralized basis** (RBI does not need to provide G-Secs as collateral, overcoming the collateral constraint of Reverse Repo).\n3. **Marginal Standing Facility (MSF - Ceiling):** Emergency overnight borrowing window for scheduled banks to borrow funds above their normal LAF limit by dipping into their statutory SLR quota (up to a prescribed limit, typically 2% of NDTL) at a penalty rate.',
+        title: 'The 8 Macroeconomic Aggregates Master Ladder',
+        body: `Using these 3 switches, we derive the **8 Canonical Macroeconomic Aggregates**:
+
+\`\`\`
+                       [GDP_MP]
+                      /   |   \
+        - Depreciation    |    + NFIA
+                    /     |     \
+               [NDP_MP]   |    [GNP_MP]
+                  \       |       /
+                 + NFIA   | - Depreciation
+                    \     |     /
+                       [NNP_MP]
+                          |
+                        - NIT (Net Indirect Taxes)
+                          |
+                       [NNP_FC]  <=== *** CANONICAL NATIONAL INCOME ***
+\`\`\`
+
+### The 8 Step-Ladder Equations:
+1. **$\\text{GDP}_{\\text{MP}}$** = Gross Domestic Product at Market Price (Gross value of final goods produced within domestic territory).
+2. **$\\text{NDP}_{\\text{MP}} = \\text{GDP}_{\\text{MP}} - \\text{Depreciation}$**
+3. **$\\text{GNP}_{\\text{MP}} = \\text{GDP}_{\\text{MP}} + \\text{NFIA}$**
+4. **$\\text{NNP}_{\\text{MP}} = \\text{GNP}_{\\text{MP}} - \\text{Depreciation} = \\text{NDP}_{\\text{MP}} + \\text{NFIA}$**
+5. **$\\text{GDP}_{\\text{FC}} = \\text{GDP}_{\\text{MP}} - \\text{NIT}$**
+6. **$\\text{NDP}_{\\text{FC}} = \\text{NDP}_{\\text{MP}} - \\text{NIT}$** (Domestic Factor Income).
+7. **$\\text{GNP}_{\\text{FC}} = \\text{GNP}_{\\text{MP}} - \\text{NIT}$**
+8. **$\\text{NNP}_{\\text{FC}} = \\text{NNP}_{\\text{MP}} - \\text{NIT}$** = $\\mathbf{\\text{NATIONAL INCOME (NI)}}$.`,
         order: 2,
       },
       {
-        type: 'COMPARISON',
-        title: 'CRR vs SLR: Master Structural Comparison',
-        body: '| Parameter | Cash Reserve Ratio (CRR) | Statutory Liquidity Ratio (SLR) |\n| :--- | :--- | :--- |\n| **Statutory Backing** | **Section 42(1)** of *Reserve Bank of India Act, 1934*. | **Section 24** of *Banking Regulation Act, 1949*. |\n| **Form of Holding** | Held purely in **Cash balances with the RBI**. | Held by the bank itself in **Liquid Assets** (G-Secs, T-Bills, Gold, Vault Cash). |\n| **Interest / Returns** | **Zero Interest** earned (RBI does not pay interest on CRR). | Banks earn **Yield / Interest** on G-Secs and price appreciation on Gold. |\n| **Floor / Ceiling Limits** | RBI Act amendment in 2006 **removed both statutory floor and ceiling** (RBI can set any CRR rate). | Banking Regulation Act prescribes a **statutory ceiling of 40%** (floor of 25% was removed in 2007). |\n| **Primary Objective** | Controls liquidity and credit creation capacity of banking system. | Ensures solvency, bank liquidity, and creates captive market for government borrowing. |',
+        type: 'MECHANISM',
+        title: 'The 2015 MoSPI SNA Methodology: Basic Prices Framework',
+        body: `In January 2015, MoSPI aligned India's National Accounts Statistics (NAS) with the international **UN System of National Accounts (SNA 2008)**, introducing the concept of **Basic Prices**:
+
+### The Production vs Product Tax Distinction:
+* **Production Taxes / Subsidies:** Paid or received **independent of the volume of actual production** (e.g. Land revenue, stamp duty, factory registration fee, municipal tax; Subsidies: Railways subsidies, small-scale enterprise subsidies).
+* **Product Taxes / Subsidies:** Paid or received **per unit of good produced/sold** (e.g. GST, Central Excise Duty, Customs Duty; Subsidies: Food subsidy, fertilizer subsidy, petroleum subsidy).
+
+### The Modern 3-Tier Value Chain:
+$$\\text{GVA at Factor Cost (GVA}_{\\text{FC}}\\text{)}$$
+$$\\Downarrow \\quad + (\\text{Production Taxes} - \\text{Production Subsidies})$$
+$$\\mathbf{\\text{GVA at Basic Prices (GVA}_{\\text{BP}}\\text{)}} \\quad \\text{[Measures Sectoral Economic Activity: Agri, Industry, Services]}$$
+$$\\Downarrow \\quad + (\\text{Product Taxes} - \\text{Product Subsidies})$$
+$$\\mathbf{\\text{GDP at Market Prices (GDP}_{\\text{MP}}\\text{)}} \\quad \\text{[Headline National GDP Growth Rate!]}$$`,
         order: 3,
       },
       {
-        type: 'MECHANISM',
-        title: 'Open Market Operations (OMO) vs Market Stabilization Scheme (MSS)',
-        body: '### 1. Open Market Operations (OMO)\n* **Outright Purchases of G-Secs by RBI:** Injects durable liquidity into the banking system (expansionary).\n* **Outright Sale of G-Secs by RBI:** Drains surplus liquidity from the banking system (contractionary).\n* **Operation Twist:** Simultaneous sale of short-term government securities and purchase of long-term government securities to flatten the yield curve without changing overall net money supply.\n\n### 2. Market Stabilization Scheme (MSS - 2004)\nIntroduced to absorb massive, persistent capital inflows:\n* The Central Government issues special **Market Stabilization Bonds (MSBs)**.\n* The RBI sells these bonds to sterilize foreign exchange inflows.\n* **Crucial Rule:** The cash raised is kept in a separate sterilized MSS cash account at the RBI and **CANNOT be spent by the Government** for budgetary expenditure.',
+        type: 'EXAM_APPLICATION',
+        title: 'Headline Growth vs Sectoral GVA & Exam Traps',
+        body: `### Why Did India Switch Headline GDP in 2015?
+* **Pre-2015:** India reported headline economic growth using $\\text{GDP at Factor Cost}$ (Constant Prices).
+* **Post-2015:** India reports headline economic growth using $\\mathbf{\\text{GDP at Market Prices}}$ (Constant Prices), matching IMF and global standard reporting.
+* Sectoral performance (Agriculture, Manufacturing, Services) is reported as $\\mathbf{\\text{GVA at Basic Prices}}$.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: NFIA for India is Historically Negative:** Because foreign multinational investments and foreign debt in India historically earn more factor income than Indian investments abroad, **NFIA for India is negative (NFIA < 0)**. Consequently, **$\\text{GNP} < \\text{GDP}$ for India**.
+* ⚠️ **Trap 2: Canonical National Income is ALWAYS NNP_FC:** When an exam asks for "National Income", it is strictly $\\text{NNP}_{\\text{FC}}$, NOT GDP, NDP, or NNP_MP.`,
         order: 4,
-      },
-      {
-        type: 'LEGAL_DISTINCTION',
-        title: 'Quantitative vs Qualitative Monetary Instruments',
-        body: '| Category | Specific Tools | Operational Target |\n| :--- | :--- | :--- |\n| **Quantitative (General) Tools** | Repo Rate, SDF, MSF, CRR, SLR, OMO, MSS, Bank Rate. | Regulates the **total volume/quantity of credit** and cost of money in the entire economy. |\n| **Qualitative (Selective) Tools** | • **Margin Requirements (LTV):** Minimum down payment required for loans (e.g. 20% margin for home loan).<br>• **Consumer Credit Regulation:** Regulating maximum repayment tenure and minimum down payments.<br>• **Credit Rationing:** Fixing sectoral credit ceilings.<br>• **Moral Suasion:** Persuasive dialogues, meetings, and informal directives to bank CEOs. | Regulates the **direction, allocation, and sector end-use** of credit (e.g. discouraging speculative real estate lending while boosting agriculture). |',
-        order: 5,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'RBI_GRADE_B',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Monetary Policy Tools, LAF Corridor, SDF, OMO, Qualitative vs Quantitative',
-        notes: 'Classic Prelims core: CRR vs SLR acts, SDF uncollateralized nature, OMO effects on money supply.',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — National Accounts 2015 SNA Methodology and GVA Basic Prices',
+        notes: 'Guaranteed 2-mark and 5-mark numerical and conceptual questions in Phase 1 and 2.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'SEBI_GRADE_A',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Paper 2: Economics — National Income Aggregates and Deflators',
+        notes: 'Algebraic calculations converting GDP to NNP_FC and GVA_BP to GDP_MP.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 & Paper 2 (PPB): Module B - RBI Monetary Instruments & Liquidity Management',
-        notes: 'High-frequency MCQs on LAF corridor width (50 bps), NDTL calculation, and SLR eligible assets.',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — National Income Aggregates and GVA Concepts',
+        notes: 'Frequently asked 5-mark question explaining GVA at Basic Prices vs GDP at Market Prices.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'LAF Corridor (50 bps wide): MSF (Repo + 25 bps) ceiling, Policy Repo center, SDF (Repo - 25 bps) uncollateralized floor. CRR = RBI Act Sec 42, Cash with RBI, ZERO interest. SLR = Banking Regulation Act Sec 24, G-Secs/Gold/Cash held by bank, earns interest (max 40% cap). OMO = Sale of G-Secs drains money; Purchase injects money. MSS (2004) = Sterilizes foreign inflows without budget spending. Qualitative tools = Margin/LTV, Credit Rationing, Moral Suasion.',
+        content: '3 Switches: Gross - Dep = Net; Domestic + NFIA = National; FC + NIT = MP. Canonical National Income = $\\text{NNP}_{\\text{FC}}$. India 2015 SNA: $\\text{GVA}_{\\text{BP}} = \\text{GVA}_{\\text{FC}} + \\text{Net Production Taxes}$; $\\text{GDP}_{\\text{MP}} = \\sum \\text{GVA}_{\\text{BP}} + \\text{Net Product Taxes}$. Since NFIA < 0 in India, $\\text{GNP} < \\text{GDP}$.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'The RBI conducts monetary policy via Quantitative tools (regulating overall credit volume) and Qualitative tools (directing credit allocation). The LAF corridor features the Policy Repo Rate flanked by the Standing Deposit Facility (SDF, uncollateralized floor at Repo - 25 bps) and Marginal Standing Facility (MSF, emergency ceiling at Repo + 25 bps). CRR (RBI Act) is interest-free cash at RBI; SLR (BR Act) is yield-earning liquid assets held by banks.',
+        content: 'The 8 aggregates stem from Gross/Net (Depreciation), Domestic/National (NFIA), and Factor Cost/Market Price (NIT). National Income is strictly NNP_FC. Since India pays more factor returns to foreign capital than it receives from abroad, NFIA is negative, making GNP smaller than GDP. Under the MoSPI 2015 SNA methodology (base year 2011-12), headline economic growth is measured at GDP at Market Prices, while sectoral supply performance is measured at GVA at Basic Prices (incorporating production taxes but excluding product taxes).',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. LAF Corridor: MSF (Repo + 25 bps) -> Repo (benchmark) -> SDF (Repo - 25 bps uncollateralized).\n2. Reserve Mandates: CRR (RBI Act 1934 Sec 42, zero interest) vs SLR (BR Act 1949 Sec 24, max 40% ceiling, earns yield).\n3. Open Market Tools: OMO outright buy (injects) / sell (drains); Operation Twist (flatten yield curve); MSS (sterilize forex inflows).\n4. Qualitative Controls: Margin Requirements (LTV), Consumer Credit installment norms, Credit Rationing, Moral Suasion.',
+        content: 'National Income Aggregate Architecture: 1. Vector Space of Aggregates: $\\{G, N\\} \\times \\{D, N\\} \\times \\{P\\} \\times \\{FC, MP\\}$. 2. Canonical Identity: $NI = NNP_{FC} = GDP_{MP} - CFC + NFIA - NIT$. 3. SNA 2008 Basic Price Chain: $GVA_{FC} \\xrightarrow{+ \\text{Net Prod Taxes}} GVA_{BP} \\xrightarrow{+ \\text{Net Product Taxes}} GDP_{MP}$.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'What is the primary operational distinction between the Standing Deposit Facility (SDF) and the traditional Reverse Repo facility under the RBI\'s Liquidity Adjustment Facility?',
+        stem: 'Given the following macroeconomic data for an economy (in ₹ Crore): $\\text{GDP at Market Prices} = 10,000$; $\\text{Consumption of Fixed Capital (Depreciation)} = 1,000$; $\\text{Net Factor Income from Abroad (NFIA)} = -200$; $\\text{Indirect Taxes} = 1,200$; $\\text{Subsidies} = 400$. What is the canonical "National Income" ($\\text{NNP}_{\\text{FC}}$)?',
         options: [
-          'Under the SDF, the RBI is NOT required to provide government securities as collateral to banks depositing excess liquidity, whereas Reverse Repo requires collateral',
-          'The SDF is available only to Non-Banking Financial Companies (NBFCs), whereas Reverse Repo is available to commercial banks',
-          'The SDF operates as the upper ceiling of the LAF corridor above the Repo Rate, whereas Reverse Repo is the lower floor',
-          'Deposits placed under the SDF do not count towards bank Net Demand and Time Liabilities (NDTL)',
+          '₹8,000 Crore',
+          '₹8,800 Crore',
+          '₹7,600 Crore',
+          '₹9,200 Crore',
         ],
-        correctAnswer: 'Under the SDF, the RBI is NOT required to provide government securities as collateral to banks depositing excess liquidity, whereas Reverse Repo requires collateral',
-        explanation: 'The Standing Deposit Facility (SDF), introduced in April 2022 under amended Section 17 of the RBI Act 1934, allows commercial banks to park unlimited surplus liquidity with the RBI on an uncollateralized basis (without requiring the RBI to pledge government securities as collateral). In contrast, traditional Reverse Repo requires the RBI to provide sovereign G-Secs as collateral, which constrained the central bank during periods of massive liquidity absorption.',
-        trapExplanation: 'Candidates confuse SDF with MSF (which is the upper ceiling) or assume SDF requires higher collateral than Reverse Repo.',
-        difficulty: 'HARD',
+        correctAnswer: '₹8,000 Crore',
+        explanation: '1. National Income is strictly $\\text{NNP}_{\\text{FC}}$. 2. Compute Net Indirect Taxes: $\\text{NIT} = \\text{Indirect Taxes} - \\text{Subsidies} = 1,200 - 400 = 800$. 3. Formula: $\\text{NNP}_{\\text{FC}} = \\text{GDP}_{\\text{MP}} - \\text{Depreciation} + \\text{NFIA} - \\text{NIT}$. 4. Calculate: $\\text{NNP}_{\\text{FC}} = 10,000 - 1,000 + (-200) - 800 = 10,000 - 1,000 - 200 - 800 = 8,000\\text{ Crore}$.',
+        trapExplanation: 'Option B is calculated by incorrectly adding NIT ($+800$) instead of subtracting it.',
+        difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'SEBI Grade A Phase 2 Paper 2',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 41,
+        examinerTrapPattern: 'Step-by-step evaluation across all 3 conversion switches.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'Under the revised 2015 MoSPI National Accounts Statistics methodology, how is "Gross Value Added (GVA) at Basic Prices" derived from "GVA at Factor Cost"?',
+        options: [
+          '$\\text{GVA at Basic Prices} = \\text{GVA at Factor Cost} + (\\text{Product Taxes} - \\text{Product Subsidies})$',
+          '$\\text{GVA at Basic Prices} = \\text{GVA at Factor Cost} + (\\text{Production Taxes} - \\text{Production Subsidies})$',
+          '$\\text{GVA at Basic Prices} = \\text{GVA at Factor Cost} - \\text{Depreciation}$',
+          '$\\text{GVA at Basic Prices} = \\text{GVA at Factor Cost} + \\text{Net Factor Income from Abroad}$',
+        ],
+        correctAnswer: '$\\text{GVA at Basic Prices} = \\text{GVA at Factor Cost} + (\\text{Production Taxes} - \\text{Production Subsidies})$',
+        explanation: 'Under the 2015 SNA methodology, GVA at Basic Prices includes net production taxes (taxes on production independent of volume, such as land revenue and stamp duties minus production subsidies), but excludes product taxes (taxes levied per unit of product, such as GST and excise). Product taxes are added later to convert GVA at Basic Prices into GDP at Market Prices.',
+        trapExplanation: 'Option A derives GDP at Market Prices from GVA at Basic Prices, not GVA at Basic Prices from Factor Cost.',
+        difficulty: 'EASY',
         isPYQ: false,
+        examinerTrapPattern: 'Testing the distinction between Production Taxes and Product Taxes.',
       },
     ],
   },
-
   {
     id: 'CON-ECO-15',
-    topicOrder: 29,
-    topicSlug: 'central-banking-monetary-policy-and-price-theory',
-    topicTitle: 'Central Banking, Monetary Policy Framework & Price Theory',
-    topicDescription: 'Price Theory: Inflation Mechanics, Demand-Pull vs Cost-Push, Stagflation & The Phillips Curve.',
-    slug: 'price-theory-inflation-mechanics-demand-pull-cost-push-stagflation-phillips-curve',
-    title: 'Price Theory: Inflation Mechanics, Demand-Pull vs Cost-Push, Stagflation & The Phillips Curve',
-    shortDefinition: 'The core micro and macroeconomic mechanisms of inflation: Demand-Pull Inflation (excess aggregate demand $AD > AS$), Cost-Push / Supply-Shock Inflation, the Quantity Theory of Money ($MV = PY$), the dynamics of Stagflation (high inflation + stagnant growth + high unemployment), the Short-Run vs Long-Run Phillips Curve (Milton Friedman\'s Natural Rate of Unemployment / NAIRU), and the Fisher Effect ($i = r + \\pi^e$).',
+    topicOrder: 32,
+    topicSlug: 'foundations-of-national-income-accounting',
+    topicTitle: 'Foundations of National Income Accounting',
+    topicDescription: 'The three measurement approaches: Production/Value Added, Income, and Expenditure methods, and sectoral reconciliation.',
+    slug: 'three-measurement-approaches-production-income-expenditure-methods',
+    title: 'Three Measurement Approaches: Production (GVA), Income & Expenditure Methods',
+    shortDefinition: 'The three mathematically equivalent approaches to measuring national output: Production (Value Added) Method, Income (Factor Payments) Method, and Expenditure (Final Demand) Method.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-15-01',
-        statement: 'Demand-Pull Inflation occurs when aggregate demand exceeds aggregate supply at full employment ("too much money chasing too few goods"); Cost-Push Inflation occurs when aggregate supply shifts leftward due to exogenous input price shocks (oil spikes, wage-push, crop failure) regardless of demand conditions.',
+        statement: 'The Production (Value-Added) Method computes $\\text{Gross Value Added} = \\text{Gross Value of Output} - \\text{Intermediate Consumption}$, measuring net economic value created across primary, secondary, and tertiary sectors.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'John Maynard Keynes, How to Pay for the War (1940); Samuelson & Nordhaus, Economics',
-        excerpt: 'Demand-pull shifts AD right; Cost-push shifts AS left.',
+        locator: 'MoSPI National Accounts Statistics: Sources and Methods (2015); UN SNA 2008, Chapter 6',
+        excerpt: 'Gross value added is the value of output less the value of intermediate consumption and is a measure of the contribution to GDP made by an individual producer, industry or sector.',
       },
       {
         id: 'CLM-ECO-15-02',
-        statement: 'The classical Quantity Theory of Money (Fisher Equation: MV = PY, where M is money supply, V is velocity, P is price level, and Y is real output) posits that assuming constant velocity and full-employment output, the general price level is directly proportional to the money supply: %ΔP = %ΔM.',
+        statement: 'The Income Method sums all factor earnings generated within domestic territory: $\\text{NDP}_{\\text{FC}} = \\text{Compensation of Employees} + \\text{Operating Surplus} (\\text{Rent} + \\text{Interest} + \\text{Profit}) + \\text{Mixed Income of Self-Employed}$.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Irving Fisher, The Purchasing Power of Money (1911); Milton Friedman (1968)',
-        excerpt: 'Inflation is always and everywhere a monetary phenomenon (Friedman).',
+        locator: 'MoSPI National Accounts Statistics: Sources and Methods (2015); NCERT Macroeconomics Class XII, Chapter 2',
+        excerpt: 'Domestic factor income is the sum of compensation of employees, operating surplus, and mixed income of the self-employed.',
       },
       {
         id: 'CLM-ECO-15-03',
-        statement: 'The Short-Run Phillips Curve (A.W. Phillips, 1958) demonstrates an inverse empirical trade-off between inflation and unemployment; however, Milton Friedman and Edmund Phelps (1968) proved that in the long run, the Phillips Curve is vertical at the Non-Accelerating Inflation Rate of Unemployment (NAIRU / Natural Rate of Unemployment), eliminating any long-run trade-off.',
+        statement: 'The Expenditure Method sums final expenditures on domestically produced goods: $\\text{GDP}_{\\text{MP}} = C + I + G + (X - M)$, where $C$ is PFCE, $I$ is Gross Capital Formation (GFCF + Change in Stocks + Valuables), $G$ is GFCE, and $(X - M)$ is Net Exports.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'A.W. Phillips (Economica, 1958); Milton Friedman (AER, 1968 Nobel Address)',
-        excerpt: 'Short-run Phillips curve shows inflation-unemployment trade-off; Long-run Phillips curve is vertical at NAIRU.',
+        locator: 'MoSPI National Accounts Statistics (NAS); N. Gregory Mankiw, Macroeconomics, Chapter 2',
+        excerpt: 'The expenditure approach computes GDP as the sum of private consumption, gross investment, government purchases, and net exports.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Erosion of Purchasing Power',
-        body: 'Inflation is not simply the rising price of one single good like onions or tomatoes; it is a **sustained, broad-based increase in the general price level** across the entire economy, which correspondingly diminishes the purchasing power of money.\n\nUnderstanding whether inflation is caused by excess consumer demand or by supply-side disruptions is critical, because applying monetary brakes (hiking interest rates) to cure a crop failure can crush economic growth without resolving the underlying shortage.',
+        title: 'The Triple Equivalence of Macroeconomics',
+        body: `Every rupee spent by a buyer on a final good is simultaneously:
+1. **Value Created** by the producer (Production).
+2. **Income Earned** by factors of production (Wages to workers, Profit to owners).
+3. **Expenditure Incurred** by the consumer or investor.
+
+Therefore:
+
+$$\\mathbf{\\text{National Production} \\equiv \\text{National Income} \\equiv \\text{National Expenditure}}$$`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'Demand-Pull vs Cost-Push Inflation: Structural Anatomy',
-        body: '### 1. Demand-Pull Inflation\n* **Root Cause:** Aggregate Demand ($AD$) expands faster than an economy\'s productive capacity ($AS$).\n* **Drivers:** Rapid money supply growth, expansionary fiscal deficit spending, surge in export demand, low interest rate credit booms.\n* **Keynesian Inflationary Gap:** The excess of aggregate expenditure over national output at full employment.\n\n### 2. Cost-Push Inflation (Supply-Shock Inflation)\n* **Root Cause:** Aggregate Supply ($AS$) curve shifts leftward due to rising production costs.\n* **Drivers:** Global crude oil spikes, geopolitical supply disruptions, domestic monsoon failure (food shock), currency depreciation raising import costs, wage-push inflation.',
+        title: 'The 3 Measurement Methods Explored',
+        body: `### 1. Production Method (Value Added Method)
+$$\\text{Gross Value of Output (GVO)} = \\text{Total Sales} + \\text{Change in Inventories (Closing Stock} - \\text{Opening Stock)}$$
+$$\\mathbf{\\text{GVA}_{\\text{MP}}} = \\text{GVO} - \\text{Intermediate Consumption (Raw Materials)}$$
+$$\\sum \\text{GVA}_{\\text{MP}} = \\text{GDP}_{\\text{MP}}$$
+
+### 2. Income Method (Factor Payments Approach)
+Sums all incomes generated by owners of factors of production inside domestic territory:
+$$\\mathbf{\\text{NDP}_{\\text{FC}}} = \\text{COE} + \\text{OS} + \\text{MI}$$
+* **Compensation of Employees (COE):** Wages and salaries in cash and kind + Employers' contribution to social security schemes (EPFO, ESIC).
+* **Operating Surplus (OS):** Income from property and entrepreneurship = $\\text{Rent} + \\text{Royalty} + \\text{Interest} + \\text{Profit (Corporate Tax} + \\text{Dividend} + \\text{Undistributed Retained Earnings)}$.
+* **Mixed Income of the Self-Employed (MI):** Income of unincorporated own-account workers (farmers, shopkeepers, doctors in private practice) where labour and capital returns cannot be separated.
+
+### 3. Expenditure Method (Final Demand Approach)
+$$\\mathbf{\\text{GDP}_{\\text{MP}}} = C + I + G + (X - M)$$
+* **$C$ = Private Final Consumption Expenditure (PFCE):** Household consumption of non-durables, durables, and services (~56-60% of Indian GDP).
+* **$I$ = Gross Capital Formation (GCF) (~30-32% of GDP):**
+  - **Gross Fixed Capital Formation (GFCF):** Infrastructure, machinery, factory construction, commercial real estate.
+  - **Change in Stocks (Inventory Investment).**
+  - **Valuables:** Net acquisition of gold, silver, and precious stones.
+* **$G$ = Government Final Consumption Expenditure (GFCE):** Public administration salaries, defense operations, non-capital government services (~10-12% of GDP).
+* **$(X - M)$ = Net Exports:** Exports minus Imports (Historically negative in India due to trade deficit).`,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'Stagflation & The Phillips Curve Evolution',
-        body: '```mermaid\ngraph TD\n    SR["Short-Run Phillips Curve: Inverse relationship (Inflation down -> Unemployment up)"]\n    Shock["Supply Shock (e.g. 1970s Oil Crisis)"] --> Stag["STAGFLATION: High Inflation + Stagnant Growth + High Unemployment"]\n    Stag --> LR["Long-Run Phillips Curve (Friedman-Phelps): Vertical line at NAIRU / Natural Rate of Unemployment"]\n```\n\n### 1. The Short-Run vs Long-Run Phillips Curve\n* **Short Run:** Policymakers can temporarily reduce unemployment below its natural rate by engineering surprise inflation.\n* **Long Run (Adaptive Expectations / NAIRU):** Workers anticipate higher inflation and demand higher nominal wages, causing firms to cut employment back to the **Natural Rate of Unemployment (NAIRU)**. The long-run Phillips Curve becomes **strictly vertical**.\n\n### 2. The Fisher Effect\n$$\\mathbf{i = r + \\pi^e}$$\n* **$i$:** Nominal Interest Rate | **$r$:** Real Interest Rate | **$\\pi^e$:** Expected Inflation Rate.\n* *Insight:* If expected inflation rises from 4% to 7%, nominal interest rates must rise to 10% for savers to maintain a 3% real return.',
+        title: 'Reconciling the 3 Approaches in Indian Data',
+        body: `In practical national accounting, statistical discrepancies arise due to differing survey data sources:
+
+\`\`\`
++-----------------------------------------------------------------------+
+|                       NATIONAL OUTPUT / GDP                           |
++-----------------------------------+-----------------------------------+
+| SUPPLY SIDE (GVA by Economic Act) | DEMAND SIDE (Expenditure Breakdown)|
++-----------------------------------+-----------------------------------+
+| 1. Agriculture, Forestry & Fishing| 1. PFCE (Private Consumption)     |
+| 2. Mining & Quarrying             | 2. GFCE (Govt Consumption)        |
+| 3. Manufacturing                  | 3. GFCF (Fixed Investment)        |
+| 4. Electricity, Gas, Water Supply | 4. Change in Stocks               |
+| 5. Construction                   | 5. Valuables                      |
+| 6. Trade, Hotels, Transport, Comm | 6. Net Exports (X - M)            |
+| 7. Financial, Real Estate & Prof  | 7. Statistical Discrepancy        |
+| 8. Public Admin, Defence & Other  |                                   |
++-----------------------------------+-----------------------------------+
+\`\`\``,
         order: 3,
       },
       {
-        type: 'COMPARISON',
-        title: 'Inflation Typology by Speed & Magnitude',
-        body: '| Type of Inflation | Annual Rate / Characteristics | Economic Impact |\n| :--- | :--- | :--- |\n| **Creeping Inflation** | Mild: **$1\\% \\text{ to } 3\\%$** per annum. | Healthy lubricant for economic growth; encourages investment without distorting pricing. |\n| **Walking / Trotting** | Moderate: **$3\\% \\text{ to } 9\\%$** per annum. | Warning sign; erodes real wages of fixed-income earners; central bank initiates rate hikes. |\n| **Running Inflation** | High: **$10\\% \\text{ to } 20\\%$** per annum. | Severe macroeconomic disruption; savings shift into physical assets (gold, real estate). |\n| **Galloping Inflation** | Intense: **$20\\% \\text{ to } 100\\%+ \\%$** per annum. | Capital flight; collapse of long-term credit contracts; economic instability. |\n| **Hyperinflation** | Extreme: **$>50\\%$ per month** (e.g. Zimbabwe, Weimar Germany). | Total collapse of domestic currency; barter economy emerges; money velocity approaches infinity. |\n| **Shrinkflation** | Downsizing product quantity/weight while maintaining identical retail price. | Hidden inflation masking actual price-per-unit surge. |\n| **Greedflation** | Corporate profit-margin expansion exceeding underlying cost increases during crises. | Seller-driven markup inflation. |',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Inflation Theory',
-        body: '1. **Inflation vs Deflation vs Disinflation:**\n   * **Inflation:** General price level is **rising**.\n   * **Deflation:** General price level is **falling** (negative inflation rate, e.g. $-1.5\\%$).\n   * **Disinflation:** General price level is still rising, but at a **slower rate of increase** (e.g. inflation drops from $7\\%$ to $4\\%$).\n2. **Winners vs Losers from Unexpected Inflation:**\n   * **Winners (Gainers):** **Debtors / Borrowers** (repay fixed nominal debts with depreciated rupees), **Equity Shareholders**, **Real Estate Owners**.\n   * **Losers:** **Creditors / Lenders** (receive back money with diminished purchasing power), **Fixed-Pensioners**, **Salaried Workers** without DA indexation.',
-        order: 5,
+        title: 'Mixed Income in India & Exam Traps',
+        body: `### Why Mixed Income Dominates Indian Factor Accounts
+In developed economies, almost all workers are salaried employees (COE) or corporations (Operating Surplus). In India, because over **45% of the workforce is self-employed** (unregistered small farmers, street vendors, kirana store owners), **Mixed Income of the Self-Employed (MI)** represents a massive share (~40%) of Indian domestic factor income.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Employers\' Contribution to Social Security:** Included under Compensation of Employees (COE). However, **Employees\' own contribution** is paid out of their take-home wages and is NOT added separately (adding it would be double counting).
+* ⚠️ **Trap 2: GFCF vs GCF:** Gross Capital Formation (GCF) is broader than Gross Fixed Capital Formation (GFCF). $\\text{GCF} = \\text{GFCF} + \\text{Change in Stocks} + \\text{Valuables}$.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'RBI_GRADE_B',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Inflation Concepts, Demand-Pull vs Cost-Push, Phillips Curve, Debtors vs Creditors',
-        notes: 'Classic Prelims questions on who benefits from inflation (debtors gain, creditors lose) and Disinflation vs Deflation.',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Measurement of GDP (Production, Income, Expenditure)',
+        notes: 'Frequently tests components of GFCF, PFCE share in GDP, and Mixed Income accounting.',
       },
       {
-        examCode: 'iibf-dbf',
+        examCode: 'SBI_PO',
         relevance: 'DIRECT_OVERLAY',
+        priority: 'MEDIUM',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains: General Awareness — GDP Components and Investment Rates (GFCF)',
+        notes: 'Covers India\'s consumption-led growth model and GFCF investment rate trends.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module A - Inflation Theory & Fisher Effect',
-        notes: 'Direct MCQs on Fisher equation (i = r + pi), Quantity Theory of Money (MV = PY), and Phillips Curve.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Methods of Calculating National Income',
+        notes: 'Direct 10-mark question on explaining the three methods of calculating National Income and their limitations in India.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Demand-Pull = AD > AS (too much money chasing too few goods). Cost-Push = AS shifts left (oil/supply shocks). Quantity Theory: MV = PY (Fisher). Stagflation = High Inflation + High Unemployment + Stagnant Growth. Phillips Curve = Inverse inflation-unemployment trade-off in short run; VERTICAL at NAIRU in long run (Friedman). Fisher Effect: Nominal Rate = Real Rate + Expected Inflation (i = r + π). Debtors/Borrowers GAIN from inflation; Creditors/Lenders LOSE.',
+        content: 'Production Method: $\\text{GVA} = \\text{GVO} - \\text{Intermediate Consumption}$. Income Method: $\\text{NDP}_{\\text{FC}} = \\text{COE} + \\text{Operating Surplus (Rent+Interest+Profit)} + \\text{Mixed Income}$. Expenditure Method: $\\text{GDP}_{\\text{MP}} = C + I + G + (X - M)$. In India, PFCE is largest (~56-60% of GDP), followed by GCF (~30-32%).',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Inflation is a sustained rise in the general price level driven by Demand-Pull (excess aggregate spending) or Cost-Push (supply input shocks). The Quantity Theory of Money (MV = PY) states that money growth drives long-run inflation. The Phillips curve shows a short-run trade-off between inflation and unemployment, but becomes vertical at the natural rate (NAIRU) in the long run. Unexpected inflation benefits debtors and harms creditors.',
+        content: 'The three measurement methods are mathematically identical in theory. Production method computes value added across sectors. Income method calculates domestic factor income ($NDP_{FC}$) by summing COE, Operating Surplus, and Mixed Income (crucial in India due to massive self-employed informal sector). Expenditure method computes final demand: $GDP_{MP} = C + I + G + (X - M)$, where $C$ is PFCE, $I$ is Gross Capital Formation (Fixed investment GFCF + Inventory + Valuables), $G$ is GFCE, and $(X - M)$ is Net Exports.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Causation: Demand-Pull (AD rightwards shift) vs Cost-Push (AS leftwards shift).\n2. Quantity Theory: MV = PY (Irving Fisher / Monetarism).\n3. Phillips Curve Dynamics: Short-run downward slope vs Long-run vertical at NAIRU (Milton Friedman expectations critique).\n4. Fisher Equation: i = r + π^e (Nominal interest rate adjusts to expected inflation).\n5. Redistributional Impact: Debtors, equity owners gain; Creditors, fixed-income savers lose.',
+        content: 'Triple Method National Accounting Architecture: 1. Value Added: $\\sum (P_i Q_i - IC_i)$. 2. Factor Income: $\\sum (wL + rK + \\text{Rent} + \\Pi + \\text{Mixed Income})$. 3. Final Expenditure: $PFCE + GFCE + GFCF + \\Delta \\text{Stocks} + \\text{Valuables} + (X - M) + \\text{Discrepancy}$.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'In an economy experiencing an unexpected surge in inflation, which of the following economic groups is a NET BENEFICIARY (GAINER)?',
+        stem: 'Under the Income Method of calculating National Income, "Mixed Income of the Self-Employed" is included because:',
         options: [
-          'Creditors and commercial banks holding fixed-rate long-term bond portfolios',
-          'Debtors and corporate borrowers who have borrowed at fixed nominal interest rates',
-          'Retired citizens living on fixed, non-indexed monthly cash pensions',
-          'Households holding large savings deposits in fixed-rate bank accounts',
+          'Self-employed individuals earn income from illegal underground economic activities.',
+          'In own-account unincorporated enterprises, factor returns to labour, capital, and entrepreneurship cannot be separated.',
+          'It represents transfer payments received from the central government.',
+          'It is the only income category that is exempt from direct income taxation in India.',
         ],
-        correctAnswer: 'Debtors and corporate borrowers who have borrowed at fixed nominal interest rates',
-        explanation: 'Debtors (borrowers) gain from unexpected inflation because they repay their loans in fixed nominal amounts of currency that have lower real purchasing power than the money they originally borrowed. Creditors, fixed-rate depositors, and non-indexed pensioners lose because the real value of their received interest, principal, and pensions is eroded.',
-        trapExplanation: 'Candidates often think inflation hurts everyone equally, forgetting that borrowers repay fixed debts with cheaper money.',
+        correctAnswer: 'In own-account unincorporated enterprises, factor returns to labour, capital, and entrepreneurship cannot be separated.',
+        explanation: 'In unincorporated household enterprises (e.g. small family farms, kirana shops, artisanal workshops, independent consultants), the owner supplies their own labour, capital, land, and managerial entrepreneurship simultaneously. Because the owner does not pay themselves a formal salary or contract rent, it is practically impossible to disentangle how much of their profit is wages versus interest versus rent. Hence, it is grouped together as "Mixed Income of the Self-Employed".',
+        trapExplanation: 'Option C is incorrect because mixed income is earned factor income, not a transfer payment.',
         difficulty: 'EASY',
         isPYQ: true,
+        pyqYear: 2021,
+        pyqPaper: 'RBI Grade B Phase 2 ESI',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 12,
+        examinerTrapPattern: 'First-principles definition of Mixed Income.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In India\'s National Accounts Statistics, which of the following is the largest component of GDP by expenditure approach ($GDP = C + I + G + X - M$)?',
+        options: [
+          'Gross Fixed Capital Formation (GFCF)',
+          'Government Final Consumption Expenditure (GFCE)',
+          'Private Final Consumption Expenditure (PFCE)',
+          'Net Exports of Goods and Services ($X - M$)',
+        ],
+        correctAnswer: 'Private Final Consumption Expenditure (PFCE)',
+        explanation: 'Private Final Consumption Expenditure (PFCE), which measures total household and private non-profit spending on consumer goods and services, is the single largest component of India\'s GDP, consistently accounting for approximately 56% to 60% of total GDP. Gross Capital Formation / GFCF is the second largest at ~30-32%, followed by GFCE at ~10-12%, while Net Exports is negative.',
+        trapExplanation: 'GFCF is the primary driver of investment, but PFCE is by far the largest absolute share of GDP.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Structural macro composition of India\'s GDP.',
       },
     ],
   },
-
   {
     id: 'CON-ECO-16',
-    topicOrder: 29,
-    topicSlug: 'central-banking-monetary-policy-and-price-theory',
-    topicTitle: 'Central Banking, Monetary Policy Framework & Price Theory',
-    topicDescription: 'Measurement of Inflation: CPI vs WPI Basket Weightages, Core vs Headline & Food Inflation Dynamics.',
-    slug: 'measurement-of-inflation-cpi-vs-wpi-basket-weightages-core-headline-food-inflation',
-    title: 'Measurement of Inflation: CPI vs WPI Basket Weightages, Core vs Headline & Food Inflation Dynamics',
-    shortDefinition: 'The statistical and institutional architecture of price measurement in India: Consumer Price Index (CPI-Combined, base 2012, compiled by NSO/MoSPI) vs Wholesale Price Index (WPI, base 2011-12, compiled by DPIIT/Ministry of Commerce), detailed item category weightages, Headline Inflation vs Core Inflation (excluding volatile Food & Fuel), and the dynamics of food inflation (supply perishability, cobweb cycles, and food basket dominance).',
+    topicOrder: 32,
+    topicSlug: 'foundations-of-national-income-accounting',
+    topicTitle: 'Foundations of National Income Accounting',
+    topicDescription: 'Real vs Nominal GDP, GDP deflator, base year revisions, Green GDP, and limitations of GDP as a welfare metric.',
+    slug: 'real-vs-nominal-gdp-gdp-deflator-green-gdp-welfare-limitations',
+    title: 'Real vs Nominal GDP, GDP Deflator, Base Year Revisions, Green GDP & Welfare Limitations',
+    shortDefinition: 'The distinction between current-price Nominal GDP and constant-price Real GDP, the GDP Deflator price index, base-year revision methodology, Green GDP natural capital accounting, and the welfare limits of GDP.',
     difficulty: 'INTERMEDIATE',
     claims: [
       {
         id: 'CLM-ECO-16-01',
-        statement: 'The Consumer Price Index (CPI - Combined, Base 2012=100) compiled monthly by the National Statistical Office (NSO, MoSPI) measures retail inflation faced by households; Food and Beverages constitute the single largest group with a weight of 45.86% in the all-India CPI basket (54.18% in Rural, 36.29% in Urban).',
-        claimType: 'CENSUS_DATA',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'MoSPI Technical Report on CPI Compilation; NSO Press Releases',
-        excerpt: 'CPI Combined base 2012: Food & Beverages weight is 45.86%. Compiled monthly by NSO.',
-      },
-      {
-        id: 'CLM-ECO-16-02',
-        statement: 'The Wholesale Price Index (WPI, Base 2011-12=100) compiled monthly by the Office of the Economic Adviser (DPIIT, Ministry of Commerce and Industry) measures wholesale transaction prices; Manufactured Products form the largest category (64.23%), followed by Primary Articles (22.62%) and Fuel & Power (13.15%). WPI completely excludes services.',
-        claimType: 'STATUTORY_RULE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'DPIIT, Ministry of Commerce and Industry (Handbook of Wholesale Price Index)',
-        excerpt: 'WPI base 2011-12: Manufactured Products 64.23%, Primary Articles 22.62%, Fuel 13.15%. Services excluded.',
-      },
-      {
-        id: 'CLM-ECO-16-03',
-        statement: 'Headline Inflation measures total inflation across the entire CPI consumption basket; Core Inflation excludes the highly volatile components of Food and Fuel (Core CPI = Headline CPI minus Food & Beverages and Fuel & Light), measuring underlying persistent demand-driven price pressures.',
+        statement: 'Nominal GDP evaluates output at current prevailing market prices; Real GDP evaluates output at constant base year prices to isolate genuine physical volume growth from price inflation.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'RBI Monetary Policy Report; Urjit Patel Committee Report (2014)',
-        excerpt: 'Core inflation strips out volatile food and fuel prices to identify persistent inflationary momentum.',
+        locator: 'MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
+        excerpt: 'Real GDP measures the value of goods and services produced evaluated at constant base-year prices, isolating changes in physical quantities.',
+      },
+      {
+        id: 'CLM-ECO-16-02',
+        statement: 'The GDP Deflator ($\\text{GDP Deflator} = \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100$) is an implicit Paasche price index measuring economy-wide domestic inflation across all domestically produced goods and services.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'UN System of National Accounts (SNA 2008); MoSPI NAS Methodology',
+        excerpt: 'The implicit price deflator for GDP is the ratio of nominal GDP to real GDP multiplied by 100, reflecting the price level of all domestically produced goods and services.',
+      },
+      {
+        id: 'CLM-ECO-16-03',
+        statement: 'GDP fails as a comprehensive measure of human welfare due to the exclusion of non-market domestic labour, informal transactions, income inequality blindness, and environmental depletion; Green GDP deducts natural resource depletion and environmental degradation from conventional GDP.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'System of Environmental-Economic Accounting (SEEA 2012, UN / World Bank); Partha Dasgupta (2021) The Economics of Biodiversity: The Dasgupta Review',
+        excerpt: 'Conventional GDP measures economic activity without accounting for the depreciation of natural capital. Green national accounting adjusts GDP for environmental degradation and natural resource exhaustion.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Measuring What the Citizen Feels vs What the Wholesaler Trades',
-        body: 'A single price index cannot serve all economic purposes. When a truckload of steel coils or industrial chemicals is traded at a factory gate, it reflects wholesale producer costs (**WPI**).\n\nWhen an ordinary citizen purchases milk, vegetables, pays children\'s school tuition, visits a clinic, and pays monthly house rent, those expenses reflect retail consumer prices (**CPI**). Because households consume services (which WPI ignores) and allocate nearly half their budget to food, the two indices can diverge significantly.',
+        title: 'The Illusion of Price Inflation: Nominal vs Real',
+        body: `Imagine an economy that produces only one good: **Bicycles**.
+* **Year 1 (Base Year):** Produces 100 bicycles at ₹1,000 each $\\implies \\text{GDP} = \\mathbf{₹1,00,000}$.
+* **Year 2:** Produces 100 bicycles at ₹2,000 each $\\implies \\text{Nominal GDP} = \\mathbf{₹2,00,000}$.
+
+Did the economy become twice as wealthy in Year 2? **No!** Citizens have the exact same 100 bicycles to ride. Physical output grew by **0%**, but pure monetary price inflation caused Nominal GDP to double.
+
+* **Real GDP** fixes prices at Base Year levels to reveal true physical expansion.`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'CPI-Combined Basket Weightages (Base 2012 = 100)',
-        body: 'The **all-India Consumer Price Index (Combined)** is partitioned into 6 major groups:\n\n```mermaid\npie title CPI-Combined Weightage Distribution (NSO Base 2012)\n    "1. Food & Beverages" : 45.86\n    "2. Pan, Tobacco & Intoxicants" : 2.38\n    "3. Clothing & Footwear" : 6.53\n    "4. Housing (Urban Only)" : 10.07\n    "5. Fuel & Light" : 6.84\n    "6. Miscellaneous (Services: Education, Health, Transport)" : 28.32\n```\n\n* **Food & Beverages Dominance (45.86%):** Within food, Cereals (~9.67%), Milk products (~6.61%), and Vegetables (~6.04%) hold massive weight.\n* **Housing Note:** The Housing index (10.07% weight) is collected **ONLY for the Urban sector** (Rural CPI has 0% housing weight).',
+        title: 'The GDP Deflator vs CPI & WPI',
+        body: `The **GDP Deflator** is the implicit price index of the entire domestic economy:
+
+$$\\mathbf{\\text{GDP Deflator}} = \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100$$
+
+$$\\text{Rate of Inflation (Deflator)} = \\frac{\\text{Deflator}_t - \\text{Deflator}_{t-1}}{\\text{Deflator}_{t-1}} \\times 100$$
+
+### Why GDP Deflator Differs from CPI and WPI:
+| Dimension | GDP Deflator | Consumer Price Index (CPI) | Wholesale Price Index (WPI) |
+|---|---|---|---|
+| **Coverage** | **ALL** domestically produced goods & services (Capital goods, defense equipment, consumer goods, IT exports). | Fixed representative consumer basket of goods & services (~299 items). | Fixed representative wholesale basket of **goods only** (697 items, zero services). |
+| **Import Treatment** | **EXCLUDES Imports** (Measures only domestic production). | **INCLUDES Imports** consumed by households (e.g. imported smartphones, edible oils). | **INCLUDES Imports** traded at wholesale level (e.g. imported crude oil). |
+| **Basket Weights** | **Dynamic Weights** (Paasche Index): Weights change automatically every year based on actual current production. | **Fixed Weights** (Laspeyres-type Index): Fixed to base year weights until official survey revision. | **Fixed Weights** (Laspeyres Index): Fixed to 2011-12 base year. |`,
         order: 2,
       },
       {
-        type: 'COMPARISON',
-        title: 'Master Comparison: CPI vs WPI',
-        body: '| Parameter | Consumer Price Index (CPI) | Wholesale Price Index (WPI) |\n| :--- | :--- | :--- |\n| **Compiling Authority** | **National Statistical Office (NSO)**, Ministry of Statistics & Programme Implementation (MoSPI). | **Office of Economic Adviser (OEA)**, DPIIT, Ministry of Commerce & Industry. |\n| **Current Base Year** | **2012 = 100** | **2011-12 = 100** |\n| **Stage of Transaction** | **Retail level** (prices paid by final consumers). | **Wholesale level** (first point of bulk commercial sale / factory gate). |\n| **Services Included?** | **YES** (Miscellaneous category ~28.3% covers education, health, transport, telecom). | **NO** (Strictly physical commodities only; **Zero services coverage**). |\n| **Food Weightage** | High: **45.86%** in CPI-Combined. | Lower: **~24.4%** (combined Food Articles in Primary Articles + Food Products in Manufacturing). |\n| **Major Weight Component**| Food & Beverages (**45.86%**). | Manufactured Products (**64.23%**). |\n| **Policy Anchor** | **Official Nominal Anchor** for RBI Monetary Policy (FIT). | Used for tracking producer costs and index-linked commercial contracts. |',
+        type: 'MECHANISM',
+        title: 'Base Year Revisions & Green GDP Framework',
+        body: `### 1. Base Year Revisions in India
+To maintain macroeconomic accuracy, MoSPI periodically updates the National Accounts Base Year to reflect changing technology, new industries (e-commerce, renewable energy), and updated consumption surveys:
+* **Historical Base Years:** 1993-94 $\\to$ 1999-2000 $\\to$ 2004-05 $\\to$ **2011-12 (Current Active Base Year)**.
+
+### 2. Green GDP & SEEA Framework (Natural Capital Accounting)
+Conventional GDP treats the extraction of natural resources as pure income, ignoring the depletion of national assets:
+* If India cuts down a virgin rainforest to sell timber, conventional GDP **increases** (timber sales counted, but lost carbon sink and biodiversity ignored).
+
+$$\\mathbf{\\text{Green GDP}} = \\text{Conventional GDP} - \\text{Depreciation of Natural Capital} - \\text{Cost of Environmental Degradation}$$
+
+* **SEEA Framework (UN):** System of Environmental-Economic Accounting integrates physical and monetary environmental asset accounts into National Accounts.`,
         order: 3,
       },
       {
-        type: 'MECHANISM',
-        title: 'Headline vs Core Inflation & The Cobweb Phenomenon in Agriculture',
-        body: '### 1. Headline vs Core Inflation\n* **Headline Inflation:** Reflects the full CPI basket, capturing the actual cost-of-living increase felt by consumers. Vulnerable to transient weather/monsoon shocks.\n* **Core Inflation (Non-Food, Non-Fuel CPI):** Strips out volatile food and fuel items to isolate sticky, broad-based demand pressures. Essential for long-term monetary rate setting.\n\n### 2. The Agricultural Cobweb Cycle (Food Price Volatility)\nBecause agricultural planting decisions are based on **last season\'s prices** rather than expected future supply:\n* High onion prices in Year 1 $\\rightarrow$ Massive over-planting by farmers in Year 2 $\\rightarrow$ Glut at harvest $\\rightarrow$ Price crashes to zero $\\rightarrow$ Farmers abandon crop in Year 3 $\\rightarrow$ Severe shortage $\\rightarrow$ Price spikes again.',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Price Indices',
-        body: '1. **WPI Services Exclusion:** The most frequent exam trap: **WPI completely excludes services**! If banking fees, software subscriptions, or hospital bills surge, WPI will not capture it at all.\n2. **Who Compiles What:** CPI is compiled by **NSO (MoSPI)**; WPI is compiled by **DPIIT (Ministry of Commerce & Industry)**.\n3. **Producer Price Index (PPI):** A future planned index (recommended by B.N. Goldar and Saumitra Chaudhuri committees) to replace WPI, measuring prices received by domestic producers excluding indirect taxes and trade margins.',
-        order: 5,
+        title: 'Why GDP Fails as a Welfare Measure & Exam Traps',
+        body: `### The 5 Structural Flaws of GDP as a Welfare Metric:
+1. **Exclusion of Non-Market Care Economy:** Unpaid domestic work and elder/child care performed disproportionately by women is valued at zero in GDP.
+2. **Income Inequality Blindness:** A country where 1 billionaire earns ₹10,000 Crore and 1 million citizens starve can have the exact same GDP as a country with equitable wealth distribution.
+3. **Informal / Underground Economy Under-Reporting:** Transactions in cash/informal sectors without receipts escape direct tax records.
+4. **Regressive Expenditures Counted Positively:** Expenditures on disaster reconstruction, cancer treatments from pollution, and crime defense *increase* GDP despite reducing human well-being.
+5. **Quality of Life Ignored:** Leisure time, mental health, political freedom, and life expectancy are absent from GDP.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Imported Inflation Impact on Deflator vs CPI:** If imported crude oil price doubles, **CPI rises sharply** (fuel directly in consumer basket), but **GDP Deflator rises by much less** (since crude oil imports are subtracted from GDP via $(X - M)$).
+* ⚠️ **Trap 2: Per Capita Income Calculation:** $\\text{Per Capita Income} = \\frac{\\text{Net National Product at Factor Cost (NNP}_{\\text{FC}}\\text{)}}{\\text{Total Mid-Year Population}}$. Using GDP instead of NNP_FC in numerator is technically incorrect.`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'RBI_GRADE_B',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Inflation Indices, CPI vs WPI weights, Core Inflation, Services coverage',
-        notes: 'Heavily tested in Prelims: WPI services exclusion, MoSPI vs DPIIT, and CPI food weight.',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Sustainable Development, Green GDP and Deflators',
+        notes: 'Guaranteed questions comparing GDP Deflator vs CPI/WPI and Green national accounting.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module A - Inflation Measurement (CPI, WPI, Core Inflation)',
-        notes: 'Direct MCQs on exact basket weights (Manufacturing 64.23% in WPI, Food 45.86% in CPI).',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Real vs Nominal GDP, GDP Deflator and Green Accounting',
+        notes: 'Direct 5-mark question on GDP Deflator definition and limitations of GDP.',
+      },
+      {
+        examCode: 'UPSC_APFC',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'General Studies: Indian Economy — Growth vs Development and Environmental Accounting',
+        notes: 'Covers Green GDP, care economy exclusions, and HDI vs GDP comparisons.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'CPI (Combined, Base 2012): NSO/MoSPI, Retail prices, INCLUDES services, Food weight = 45.86% (largest), Housing 10.07% (Urban only). Official RBI FIT anchor. WPI (Base 2011-12): DPIIT/Commerce Ministry, Wholesale/factory gate, EXCLUDES services, Manufacturing weight = 64.23% (largest), Primary Articles = 22.62%, Fuel = 13.15%. Core Inflation = Headline CPI minus Food and Fuel.',
+        content: 'Nominal GDP = current prices. Real GDP = constant base year prices (2011-12). GDP Deflator = $\\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100$ (covers all domestic goods/services, excludes imports, dynamic weights). Green GDP = GDP - Natural Resource Depletion - Environmental Degradation. GDP ignores unpaid domestic work and inequality.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'India measures inflation via retail CPI (NSO, base 2012, 45.86% food weight, includes services, official RBI policy anchor) and wholesale WPI (DPIIT, base 2011-12, 64.23% manufacturing weight, strictly excludes services). Headline inflation reflects the full basket; Core inflation strips out volatile food and fuel components to measure underlying monetary persistence.',
+        content: 'Nominal GDP reflects both physical production and price inflation; Real GDP isolates physical growth using constant base-year prices. The GDP Deflator is an implicit Paasche price index reflecting the price level of all domestically produced goods and services (unlike CPI, it excludes imports and has dynamic changing weights). Base year in India is currently 2011-12. GDP fails as a welfare indicator because it ignores unpaid care work, income inequality, informal economies, and environmental destruction. Green GDP remedies this by subtracting natural capital depreciation and pollution damage.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. CPI Architecture (NSO/MoSPI): Base 2012=100. Groups: Food & Beverages (45.86%), Misc Services (28.32%), Housing (10.07% Urban only), Fuel (6.84%), Clothing (6.53%), Pan/Tobacco (2.38%).\n2. WPI Architecture (DPIIT): Base 2011-12=100. Groups: Manufactured Products (64.23%), Primary Articles (22.62%), Fuel & Power (13.15%). Zero services.\n3. Policy Role: CPI is the statutory Flexible Inflation Targeting anchor.\n4. Core vs Headline: Core CPI = Headline minus Food and Fuel.',
+        content: 'Price Deflation & Green Accounting Architecture: 1. Index Theory: Laspeyres (Fixed Base Basket: CPI/WPI) vs Paasche (Current Dynamic Basket: GDP Deflator). 2. Mathematical Nexus: $\\text{Deflator} = \\frac{\\sum P_t Q_t}{\\sum P_0 Q_t} \\times 100$. 3. Natural Capital: $\\text{EDP (Eco-Domestic Product)} = GDP - CFC_{\\text{produced}} - CFC_{\\text{natural}}$. 4. SEEA Framework.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'Which of the following is a fundamental structural difference between the Consumer Price Index (CPI) and the Wholesale Price Index (WPI) in India?',
+        stem: 'In a given financial year, India\'s Nominal GDP grew by 12.0% while the GDP Deflator increased by 4.5%. What was the approximate growth rate of Real GDP?',
         options: [
-          'CPI includes price changes of consumer services (such as healthcare and education), whereas WPI completely excludes services',
-          'WPI is compiled by the National Statistical Office (NSO), whereas CPI is compiled by the Ministry of Commerce and Industry',
-          'Food items have a significantly higher weight in the WPI basket than in the CPI basket',
-          'The Reserve Bank of India officially uses the Wholesale Price Index as its nominal anchor for Flexible Inflation Targeting',
+          '16.5%',
+          '7.5%',
+          '2.67%',
+          '5.4%',
         ],
-        correctAnswer: 'CPI includes price changes of consumer services (such as healthcare and education), whereas WPI completely excludes services',
-        explanation: 'The Consumer Price Index (CPI-Combined) captures both goods and consumer services (under the Miscellaneous category which carries ~28.3% weight covering education, transport, medical care, and communication). In contrast, the Wholesale Price Index (WPI) measures transactions of physical commodities only at the first stage of bulk sale and completely excludes the services sector.',
-        trapExplanation: 'Candidates confuse the compiling ministries (CPI is NSO/MoSPI, WPI is DPIIT/Commerce) or mistakenly believe WPI includes services.',
-        difficulty: 'MEDIUM',
+        correctAnswer: '7.5%',
+        explanation: 'To a close mathematical approximation: $\\text{Nominal GDP Growth} \\approx \\text{Real GDP Growth} + \\text{Inflation (GDP Deflator)}$. Therefore: $\\text{Real GDP Growth} \\approx \\text{Nominal GDP Growth} - \\text{GDP Deflator Inflation} = 12.0\\% - 4.5\\% = 7.5\\%$. (Exact formula: $\\frac{1.12}{1.045} - 1 = 7.18\\%$, with 7.5% as standard linear approximation in competitive exams).',
+        trapExplanation: 'Option A adds the two rates ($12.0 + 4.5 = 16.5\\%$) which is completely inverted.',
+        difficulty: 'EASY',
         isPYQ: true,
+        pyqYear: 2021,
+        pyqPaper: 'RBI Grade B Phase 1',
+        pyqStage: 'Phase 1',
+        pyqQuestionNumber: 70,
+        examinerTrapPattern: 'Basic linear relation between Nominal GDP, Real GDP, and Deflator.',
+      },
+      {
+        type: 'EXCEPTION_PROBE',
+        stem: 'Which of the following is a key difference between the GDP Deflator and the Consumer Price Index (CPI)?',
+        options: [
+          'The GDP Deflator includes the prices of imported consumer goods, whereas the CPI excludes imported goods.',
+          'The GDP Deflator reflects the prices of all domestically produced goods and services, whereas the CPI includes only a representative basket of consumer goods and services.',
+          'The GDP Deflator is published weekly by the Ministry of Commerce, whereas the CPI is published annually by the RBI.',
+          'The GDP Deflator uses fixed base-year weights, whereas the CPI updates weights dynamically every year.',
+        ],
+        correctAnswer: 'The GDP Deflator reflects the prices of all domestically produced goods and services, whereas the CPI includes only a representative basket of consumer goods and services.',
+        explanation: 'The GDP Deflator measures the price level of all domestically produced goods and services (including capital equipment, construction, and government services) and strictly excludes imports. In contrast, the CPI measures the price of a fixed basket of goods and services purchased specifically by typical households, and includes imported consumer products (like foreign electronics and imported fuel).',
+        trapExplanation: 'Option A is inverted (CPI includes imported consumer goods, while GDP deflator excludes all imports). Option D is inverted (GDP deflator uses dynamic current weights, CPI uses fixed weights).',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing structural differences between GDP Deflator and CPI.',
       },
     ],
   },
-
   {
     id: 'CON-ECO-17',
-    topicOrder: 29,
-    topicSlug: 'central-banking-monetary-policy-and-price-theory',
-    topicTitle: 'Central Banking, Monetary Policy Framework & Price Theory',
-    topicDescription: 'Specialized Development Financial Institutions: NABARD, SIDBI, NHB, EXIM Bank & NaBFID.',
-    slug: 'specialized-development-financial-institutions-nabard-sidbi-nhb-exim-nabfid',
-    title: 'Specialized Development Financial Institutions: NABARD, SIDBI, NHB, EXIM Bank & NaBFID',
-    shortDefinition: 'The institutional architecture of specialized Development Financial Institutions (DFIs) and All-India Financial Institutions (AIFIs) in India: NABARD (B. Sivaraman Committee, 1982 — RIDF, SHG-Bank Linkage), SIDBI (1990 — MSME financing, MUDRA), NHB (1988 — housing finance regulation transition to RBI), EXIM Bank (1982 — export-import credit lines), and the National Bank for Financing Infrastructure and Development (NaBFID Act 2021) for patient infrastructure capital.',
-    difficulty: 'INTERMEDIATE',
+    topicOrder: 32,
+    topicSlug: 'foundations-of-national-income-accounting',
+    topicTitle: 'Foundations of National Income Accounting',
+    topicDescription: 'Circular flow of macroeconomic aggregates, savings-investment balance, and twin deficit identities.',
+    slug: 'circular-flow-savings-investment-and-twin-deficit-identities',
+    title: 'Circular Flow of Macroeconomic Aggregates: Savings, Investment & Sectoral Balance Identities',
+    shortDefinition: 'The open-economy macroeconomic accounting framework linking the circular flow of income, Savings-Investment identity, Sectoral Balances, and the Fundamental Twin Deficit identity.',
+    difficulty: 'ADVANCED',
     claims: [
       {
         id: 'CLM-ECO-17-01',
-        statement: 'National Bank for Agriculture and Rural Development (NABARD) was established on July 12, 1982 under the NABARD Act 1981 on the recommendations of the B. Sivaraman Committee (CRAFICARD), taking over the agricultural credit functions of the RBI; it is 100% owned by the Government of India and administers the Rural Infrastructure Development Fund (RIDF).',
-        claimType: 'STATUTORY_RULE',
+        statement: 'In an open economy, macroeconomic equilibrium requires that Aggregate Domestic Output equals Aggregate Expenditure: $Y = C + I + G + (X - M)$, which translates into the leakages-injections equilibrium: $S + T + M = I + G + X$.',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'National Bank for Agriculture and Rural Development Act, 1981; B. Sivaraman Committee Report (1979)',
-        excerpt: 'NABARD established 12 July 1982 (Sivaraman Committee); 100% Govt of India owned; manages RIDF.',
+        locator: 'N. Gregory Mankiw, Macroeconomics, Chapter 3: National Income; Richard Stone (1947)',
+        excerpt: 'In equilibrium, total leakages from the circular flow of income (savings, taxes, imports) must equal total injections (investment, government spending, exports).',
       },
       {
         id: 'CLM-ECO-17-02',
-        statement: 'Small Industries Development Bank of India (SIDBI) was set up on April 2, 1990 under the SIDBI Act 1989 as the principal financial institution for the promotion, financing, and development of the Micro, Small and Medium Enterprises (MSME) sector, supervising MUDRA (Micro Units Development & Refinance Agency) and the CGTMSE credit guarantee trust.',
-        claimType: 'STATUTORY_RULE',
+        statement: 'Total National Savings ($S$) comprises Private Household and Corporate Savings ($S_p = Y - T - C$) and Public Government Savings ($S_g = T - G$); National Savings equals Domestic Investment plus Net Capital Outflow ($S = I + NCO$).',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Small Industries Development Bank of India Act, 1989',
-        excerpt: 'SIDBI setup 2 April 1990 for MSME refinance and development; operates MUDRA and CGTMSE.',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 20: Macroeconomics Foundations',
+        excerpt: 'National saving is the sum of private saving and public saving. In an open economy, national saving equals domestic investment plus net foreign investment.',
       },
       {
         id: 'CLM-ECO-17-03',
-        statement: 'The National Bank for Financing Infrastructure and Development (NaBFID) was established as a statutory Development Financial Institution under the NaBFID Act 2021 to provide long-term, patient debt financing for infrastructure projects in the National Infrastructure Pipeline (NIP), regulated as the 5th All-India Financial Institution (AIFI) by the RBI.',
-        claimType: 'STATUTORY_RULE',
+        statement: 'The Fundamental Macroeconomic Twin Balance Identity establishes that $(S - I) + (T - G) = (X - M)$, demonstrating that a domestic private investment-saving imbalance and a government fiscal deficit together dictate the Current Account Deficit (CAD).',
+        claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'National Bank for Financing Infrastructure and Development Act, 2021; RBI AIFI Supervisory Guidelines',
-        excerpt: 'NaBFID set up under 2021 Act as 5th AIFI for patient infrastructure financing.',
+        locator: 'Martin Feldstein (1983) Domestic Saving and International Capital Movements; Economic Survey of India (External Sector Chapter)',
+        excerpt: 'The twin deficits hypothesis demonstrates that an increase in the government budget deficit, holding private saving and investment constant, leads directly to an increase in the current account deficit.',
       },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Why Commercial Banks Cannot Fund 30-Year Infrastructure Alone',
-        body: 'Commercial banks operate on short-term deposits (1 to 3-year maturities) and face strict asset-liability mismatch constraints when lending for 20-year infrastructure projects, green energy corridors, and rural irrigation networks.\n\n**Development Financial Institutions (DFIs)** were conceived to bridge this gap: mobilizing long-term patient capital, government-backed bond issues, and multilateral credit lines to provide dedicated developmental refinance and risk guarantees for priority national sectors.',
+        title: 'The Circular Flow of Income & National Accounting Identity',
+        body: `In any economy, money flows in a continuous circle between **Households** and **Firms**:
+* Households supply factor services (Labour, Land, Capital) to Firms and receive **Factor Income ($Y$)**.
+* Households use this income to purchase goods from Firms (**Consumption Expenditure $C$**).
+
+However, in a realistic 4-sector open economy (Households, Firms, Government, External World), money leaks out of the direct circular flow and enters via injections:
+
+### 1. The 3 Leakages (Withdrawals from Circular Flow):
+* **Savings ($S$):** Money saved in banks instead of spent on consumption.
+* **Taxes ($T$):** Money paid to the government.
+* **Imports ($M$):** Money spent on foreign goods (leaks abroad).
+
+### 2. The 3 Injections (Additions to Circular Flow):
+* **Investment ($I$):** Capital spending by firms.
+* **Government Expenditure ($G$):** Public procurement and infrastructure.
+* **Exports ($X$):** Spending by foreigners on domestic goods.
+
+$$\\mathbf{\\text{Leakages}} = S + T + M \\qquad \\mathbf{\\text{Injections}} = I + G + X$$
+
+$$\\text{Macroeconomic Equilibrium occurs when: } \\mathbf{S + T + M = I + G + X}$$`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The 5 All-India Financial Institutions (AIFIs) Regulated by RBI',
-        body: 'The Reserve Bank of India exercises apex prudential supervision over **5 specialized All-India Financial Institutions**:\n\n```mermaid\ngraph TD\n    AIFI["All-India Financial Institutions (AIFIs)"]\n    AIFI --> NABARD["1. NABARD (1982): Agriculture, Rural Infrastructure (RIDF) & Panchayats"]\n    AIFI --> SIDBI["2. SIDBI (1990): MSME Financing, Venture Funds, MUDRA & CGTMSE"]\n    AIFI --> EXIM["3. EXIM Bank (1982): Foreign Trade Finance, Cross-Border Buyer Credits & LOCs"]\n    AIFI --> NHB["4. NHB (1988): Housing Finance Refinance & Residex Index"]\n    AIFI --> NABFID["5. NaBFID (2021): National Infrastructure Pipeline Long-Term Debt"]\n```',
+        title: 'Deriving the Fundamental Twin Deficit Identity',
+        body: `Let us derive the single most important macroeconomic accounting identity connecting the domestic economy with the external world:
+
+1. **Start with Aggregate Output Identity:**
+   $$Y = C + I + G + (X - M)$$
+
+2. **Subtract Taxes ($T$) and Consumption ($C$) from both sides:**
+   $$Y - T - C = I + G - T + (X - M)$$
+
+3. **Recognize that Private Disposable Income minus Consumption is Private Savings ($S_p = Y - T - C$):**
+   $$S_p = I + (G - T) + (X - M)$$
+
+4. **Rearrange into the Master Sectoral Balances Equation:**
+   $$\\mathbf{(S_p - I) + (T - G) = (X - M)}$$
+
+\`\`\`
++-----------------------------------------------------------------------+
+|                 MASTER SECTORAL BALANCE IDENTITY                      |
+|                                                                       |
+|      (S - I)           +         (T - G)         =      (X - M)       |
+|  [Private Sector               [Public Sector         [External Sector|
+|  Net Savings Gap]             Budget Surplus]           Net Exports]  |
++-----------------------------------------------------------------------+
+\`\`\`
+
+### The Economic Meaning:
+* $(S - I)$: The **Private Sector Financial Balance** (Excess private savings over private capital investment).
+* $(T - G)$: The **Government Fiscal Balance** (If $G > T$, this is a **Fiscal Deficit**).
+* $(X - M)$: The **Current Account Balance** (If $M > X$, this is a **Current Account Deficit - CAD**).
+
+$$\\mathbf{\\text{Current Account Deficit (CAD)}} = (I - S) + (G - T)$$`,
         order: 2,
       },
       {
         type: 'MECHANISM',
-        title: 'NABARD & The Rural Infrastructure Development Fund (RIDF)',
-        body: '### 1. The Rural Infrastructure Development Fund (RIDF)\n* **Genesis:** Set up by the Government of India in **1995-96** within NABARD.\n* **Funding Mechanism:** When domestic Scheduled Commercial Banks **fail to meet their mandatory 40% Priority Sector Lending (PSL) targets** (specifically agriculture/weaker section sub-targets), the shortfall amount is compulsorily allocated to the **RIDF** (and other designated funds like SIDBI\'s MSE Refinance Fund).\n* **Usage:** Provides low-cost long-term loans to State Governments and State Owned Corporations to finance rural roads, bridges, minor irrigation dams, watershed management, and rural drinking water projects.\n\n### 2. SHG-Bank Linkage Programme (SBLP - 1992)\nNABARD pioneered the world\'s largest microfinance movement in 1992, enabling informal **Self-Help Groups (SHGs)** of 10–20 rural women to access collateral-free institutional bank loans based on mutual group guarantees.',
+        title: 'The Twin Deficit Transmission Mechanism',
+        body: `The **Twin Deficits Hypothesis** states that when a government runs a high **Fiscal Deficit ($G > T$)**, it directly pulls the country into a high **Current Account Deficit ($M > X$)**:
+
+\`\`\`
+Government Fiscal Deficit Expands (G > T)
+                  |
+                  v
+Government Borrows Heavily from Financial Markets
+                  |
+                  v
+Diverts Domestic Private Savings (S) away from Private Investment (I)
+                  |
+                  v
+Domestic Savings Insufficient to Fund Investment (S < I)
+                  |
+                  v
+Country Must Borrow Foreign Capital from Abroad
+                  |
+                  v
+Foreign Capital Inflow Appreciates Domestic Currency / Fuels Imports
+                  |
+                  v
+Current Account Deficit (CAD) Widens! (M > X)
+\`\`\``,
         order: 3,
       },
       {
-        type: 'COMPARISON',
-        title: 'SIDBI, NHB & EXIM Bank Operating Framework',
-        body: '| Institution | Primary Mandate | Signature Schemes / Subsidiaries |\n| :--- | :--- | :--- |\n| **SIDBI** | Micro, Small and Medium Enterprises (MSMEs). | • **MUDRA (2015):** Refinances micro loans (Shishu $< ₹50\\text{k}$, Kishore ₹50k-₹5L, Tarun ₹5L-₹10L).<br>• **CGTMSE:** Collateral-free credit guarantee for MSME loans up to ₹5 Crore.<br>• **TReDS:** Trade Receivables Discounting System platform. |\n| **NHB** | Housing Finance Companies (HFCs). | • Refinances affordable housing loans.<br>• **NHB RESIDEX:** Tracks official residential property price indices across Indian cities.<br>• *Note:* Regulatory powers over HFCs were transferred from NHB to **RBI** in 2019. |\n| **EXIM Bank** | Cross-border trade & export competitiveness. | • Extends Lines of Credit (LOCs) to foreign governments in Africa/Asia to import Indian project goods.<br>• Buyer\'s Credit under National Export Insurance Account (NEIA). |',
-        order: 4,
-      },
-      {
         type: 'EXAM_APPLICATION',
-        title: 'High-Yield Traps in Specialized Institutions',
-        body: '1. **Ownership of NABARD & NHB:** Initially, the RBI held majority stakes in both NABARD and NHB. However, following Narasimham Committee recommendations to separate regulator and regulated roles, the **Government of India bought out the RBI\'s entire stake in both NABARD (2018) and NHB (2019)**. Both are now **100% owned by the Government of India**.\n2. **HFC Regulation Transfer:** Regulation of Housing Finance Companies (HFCs) was transferred from **NHB to RBI** in August 2019. NHB now acts purely as a development and refinancing institution.\n3. **NaBFID Legal Status:** NaBFID is a statutory DFI established in 2021 with headquarters in Mumbai, chaired by an eminent board (K.V. Kamath was appointed its first Chairman).',
-        order: 5,
+        title: 'Indian Macroeconomic Application & Exam Traps',
+        body: `### Indian Macroeconomic Vulnerability: The 2013 "Taper Tantrum" Shock
+In 2013, India suffered from a classic **Twin Deficit Crisis**:
+* Combined Fiscal Deficit was high at ~7.5% of GDP.
+* Current Account Deficit (CAD) widened to a dangerous record of **4.8% of GDP**.
+* When the US Federal Reserve hinted at raising interest rates ("Taper Tantrum"), foreign capital fled India rapidly, crashing the Indian Rupee from ₹54 to ₹68 per USD in weeks.
+
+### Examiner Traps & High-Yield Pitfalls
+* ⚠️ **Trap 1: Savings Identity in a Closed vs Open Economy:**
+  - In a **Closed Economy ($X = M = 0$):** National Savings must mathematically equal Domestic Investment ($S = I$).
+  - In an **Open Economy:** National Savings does NOT have to equal Domestic Investment; the difference is financed by foreign borrowing: $S - I = X - M = \\text{Net Capital Outflow}$.
+* ⚠️ **Trap 2: High Investment is Not Bad:** A high CAD is not necessarily disastrous if it is driven by high productive private investment ($I > S$) importing capital machinery that expands future productive capacity, rather than wasteful government consumption ($G > T$).`,
+        order: 4,
       },
     ],
     examMappings: [
       {
-        examCode: 'upsc-cse',
+        examCode: 'RBI_GRADE_B',
         relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
         requiredDepth: 'EXPERT',
-        syllabusUnit: 'GS Paper III: Specialized DFIs, NABARD, RIDF, NaBFID, MSME Financing',
-        notes: 'Prelims questions on RIDF funding (PSL shortfalls) and ownership transfer of NABARD/NHB to Govt.',
+        syllabusUnit: 'Phase 2: Economic & Social Issues — Macroeconomic Balances, Balance of Payments and Fiscal Deficits',
+        notes: 'High-priority topic for descriptive answer writing on macroeconomic stability and external sector vulnerabilities.',
       },
       {
-        examCode: 'iibf-dbf',
-        relevance: 'DIRECT_OVERLAY',
+        examCode: 'UPSC_APFC',
+        relevance: 'CORE_SYLLABUS',
         priority: 'HIGH',
-        requiredDepth: 'EXPERT',
-        syllabusUnit: 'Paper 1 (IE&IFS): Module B - Development Financial Institutions & AIFIs',
-        notes: 'Detailed MCQs on MUDRA tiers, Sivaraman Committee, RIDF rules, and 5 AIFIs.',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'General Studies: Indian Economy — Macroeconomic Equilibrium and Balance of Payments',
+        notes: 'Direct MCQs on the Twin Deficit identity and Leakages vs Injections.',
+      },
+      {
+        examCode: 'RPSC_RAS',
+        relevance: 'CORE_SYLLABUS',
+        priority: 'HIGH',
+        requiredDepth: 'PROFICIENT',
+        syllabusUnit: 'Mains Paper 1: Unit 2 — Macroeconomic Dynamics and Fiscal Deficits',
+        notes: '5-mark analytical question explaining the relationship between Fiscal Deficit and Current Account Deficit.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: '5 AIFIs regulated by RBI: NABARD (1982, Sivaraman Comm, RIDF, 100% Govt owned), SIDBI (1990, MSME refinance, MUDRA, CGTMSE), EXIM Bank (1982, Trade LOCs), NHB (1988, Housing refinance, Residex, 100% Govt owned, HFC regulation transferred to RBI in 2019), NaBFID (2021, Infrastructure DFI). RIDF is funded via commercial bank Priority Sector Lending (PSL) shortfalls.',
+        content: 'Leakages $(S + T + M)$ = Injections $(I + G + X)$. Master Sectoral Balance Identity: $(S - I) + (T - G) = (X - M)$. Twin Deficit Hypothesis: High Fiscal Deficit $(G > T)$ combined with private savings gap $(I > S)$ forces a Current Account Deficit $(M > X)$. In closed economy $S = I$; in open economy $S = I + NCO$.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Specialized Development Financial Institutions provide patient long-term capital and sectoral refinance. The RBI supervises 5 AIFIs: NABARD (Agriculture and rural RIDF funded by bank PSL shortfalls), SIDBI (MSME refinance and MUDRA), EXIM Bank (foreign trade credit), NHB (housing finance refinance), and NaBFID (statutory infrastructure financing under 2021 Act). Both NABARD and NHB are 100% owned by the Central Government.',
+        content: 'Macroeconomic equilibrium requires leakages (Savings, Taxes, Imports) to equal injections (Investment, Government Spending, Exports). Rearranging the national output identity $Y = C + I + G + (X - M)$ yields the Fundamental Sectoral Balance Identity: $(S_p - I) + (T - G) = (X - M)$. This proves that a nation\'s Current Account Deficit (CAD) is strictly the sum of its private investment-savings deficit $(I - S)$ and its government fiscal deficit $(G - T)$. India\'s 2013 macroeconomic crisis was a classic manifestation of the Twin Deficit dilemma.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: '1. Specialized Mandates:\n   - NABARD: Agriculture, SBLP, RIDF (funded by PSL shortfall).\n   - SIDBI: MSME promotion, MUDRA tiers (Shishu, Kishore, Tarun), CGTMSE guarantee.\n   - EXIM Bank: Sovereign LOCs, export buyer credit.\n   - NHB: Housing refinance, Residex (regulation moved to RBI 2019).\n   - NaBFID: Statutory DFI for National Infrastructure Pipeline (2021 Act).\n2. Ownership: 100% Govt of India owned (RBI stakes divested).\n3. Supervisory Class: Regulated by RBI as All-India Financial Institutions (AIFIs).',
+        content: 'Sectoral Balance Architecture: 1. Four-Sector Circular Flow: Households, Firms, Govt, Rest of World. 2. Leakage-Injection Equilibrium: $S + T + M = I + G + X$. 3. Net Foreign Investment Identity: $S - I = NCO = NX$. 4. Twin Deficits: $\\text{CAD} = (I - S) + \\text{Fiscal Deficit}$. 5. Indian Policy: Fiscal consolidation (FRBM) to preserve external currency stability.',
         order: 3,
       },
     ],
     questions: [
       {
         type: 'CONCEPT_CHECK',
-        stem: 'How is the Rural Infrastructure Development Fund (RIDF), maintained by NABARD, primarily funded?',
+        stem: 'According to the Macroeconomic Sectoral Balance Identity, if a country has a Private Sector Savings Surplus of $(S - I) = ₹200\\text{ Crore}$ and a Government Fiscal Deficit of $(G - T) = ₹500\\text{ Crore}$, what is the country\'s Current Account Balance $(X - M)$?',
         options: [
-          'Through annual direct budgetary grants allocated in the Union Budget from the Consolidated Fund of India',
-          'Through compulsory contribution of shortfalls in Priority Sector Lending (PSL) targets by domestic Scheduled Commercial Banks',
-          'Through dedicated carbon credit tax revenues collected by the Ministry of Environment, Forest and Climate Change',
-          'Through external commercial borrowings raised by NABARD in international sovereign debt markets',
+          'A Current Account Surplus of ₹300 Crore',
+          'A Current Account Deficit (CAD) of ₹300 Crore',
+          'A Current Account Deficit (CAD) of ₹700 Crore',
+          'A Current Account Surplus of ₹700 Crore',
         ],
-        correctAnswer: 'Through compulsory contribution of shortfalls in Priority Sector Lending (PSL) targets by domestic Scheduled Commercial Banks',
-        explanation: 'The Rural Infrastructure Development Fund (RIDF), instituted within NABARD in 1995-96, is funded through the deposit of shortfalls by domestic Scheduled Commercial Banks that fail to achieve their mandated Priority Sector Lending (PSL) targets (specifically agriculture lending targets), which is then lent to State Governments for rural infrastructure projects.',
-        trapExplanation: 'Candidates often assume the RIDF is funded by direct Union Budget tax revenues or foreign aid.',
+        correctAnswer: 'A Current Account Deficit (CAD) of ₹300 Crore',
+        explanation: 'Use the master identity: $(S - I) + (T - G) = (X - M)$. Given: $(S - I) = +200\\text{ Crore}$. Since the Government runs a Fiscal Deficit of ₹500 Crore, $(T - G) = -500\\text{ Crore}$. Substitute into the equation: $+200 + (-500) = (X - M) \\implies (X - M) = -300\\text{ Crore}$. A negative Net Export value ($(X - M) = -300$) represents a Current Account Deficit (CAD) of ₹300 Crore.',
+        trapExplanation: 'Option C is calculated by incorrectly subtracting the private surplus from the deficit instead of offsetting it ($500 + 200 = 700$).',
         difficulty: 'MEDIUM',
         isPYQ: true,
+        pyqYear: 2022,
+        pyqPaper: 'RBI Grade B Phase 2 ESI',
+        pyqStage: 'Phase 2',
+        pyqQuestionNumber: 18,
+        examinerTrapPattern: 'Numerical application of the Master Sectoral Balance Identity.',
+      },
+      {
+        type: 'EXCEPTION_PROBE',
+        stem: 'Which of the following represents a "LEAKAGE" (withdrawal) from the circular flow of income in a 4-sector macroeconomic model?',
+        options: [
+          'Capital Investment expenditure ($I$) by business corporations.',
+          'Government procurement expenditure ($G$) on highway construction.',
+          'Import expenditure ($M$) on foreign petroleum products.',
+          'Export earnings ($X$) from software service exports.',
+        ],
+        correctAnswer: 'Import expenditure ($M$) on foreign petroleum products.',
+        explanation: 'In the circular flow of income, Leakages are portions of household factor income that are NOT spent on domestically produced consumer goods. The three leakages are: Savings ($S$, held in financial institutions), Taxes ($T$, collected by the government), and Imports ($M$, money sent abroad to foreign producers). In contrast, Investment ($I$), Government Spending ($G$), and Exports ($X$) are Injections that add spending into the domestic circular flow.',
+        trapExplanation: 'Options A, B, and D are all Injections into the domestic circular flow.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Distinguishing Leakages (S, T, M) from Injections (I, G, X).',
       },
     ],
   },
 ];
 
 export async function seedBatchE1CanonicalKnowledge() {
-  console.log('Seeding Batch E1 Canonical Knowledge (Topics 27–29: 17 concepts)...');
+  console.log('Seeding Batch E1 Canonical Knowledge (17 Concepts)...');
 
-  let domain = await db.domain.findFirst({
-    where: {
-      OR: [
-        { slug: 'economic-commercial-laws-macroeconomics' },
-        { slug: 'indian-economy-macroeconomics' },
-        { name: 'Indian Economy & Macroeconomics' },
-      ],
-    },
-  });
-
+  // Verify or create Domain & Subject
+  let domain = await db.domain.findFirst({ where: { slug: 'indian-economy-macroeconomics' } });
   if (!domain) {
     domain = await db.domain.create({
       data: {
-        name: 'Indian Economy & Macroeconomics',
         slug: 'indian-economy-macroeconomics',
-        description: 'Comprehensive macroeconomic foundations, monetary economics, public finance, banking systems, external sector, and development economics of India.',
+        name: 'Indian Economy & Macroeconomics',
+        description: 'Comprehensive Economic Theory, Macroeconomic Policies, Banking, Financial Markets and Sectoral Systems.',
+        order: 2,
       },
     });
   }
 
-  let subject = await db.subject.findFirst({
-    where: { slug: 'indian-economy' },
-  });
-
+  let subject = await db.subject.findFirst({ where: { slug: 'indian-economy' } });
   if (!subject) {
     subject = await db.subject.create({
       data: {
-        name: 'Indian Economy & Macroeconomics',
         slug: 'indian-economy',
+        name: 'Indian Economy & Macroeconomic Policy',
+        description: 'First-principles canonical foundation covering Microeconomics, Macroeconomics, Monetary Systems, Public Finance, Agriculture, and State Economic Frameworks.',
+        scopeStatement: 'Comprehensive canonical economics knowledge base covering foundations, microeconomics, macroeconomics, fiscal, monetary, and sectoral economics.',
         domainId: domain.id,
-        scopeStatement: 'Foundational macroeconomics, national income accounting, banking, monetary & fiscal policy, trade, agriculture, industry, poverty, and state economy.',
-        description: 'Master academic curriculum for Indian Economy and Macroeconomics across UPSC, Banking, and State PSC examinations.',
+        order: 2,
       },
     });
   }
 
-  // Ensure source exists
-  const source = await db.source.upsert({
-    where: { id: 'SRC-ECONOMY-MASTER-2026' },
+  const sourceEcon = await db.source.upsert({
+    where: { id: 'SRC-ECONOMICS-CANONICAL-2026' },
     update: {},
     create: {
-      id: 'SRC-ECONOMY-MASTER-2026',
-      title: 'Indian Economy & Macro Master Corpus (2026)',
-      sourceType: 'STATUTORY_REPORTS',
-      authorityTier: 'STANDARD_AUTHORITY',
-      description: 'Authoritative Indian Economy master knowledge repository.',
+      id: 'SRC-ECONOMICS-CANONICAL-2026',
+      title: 'Economics & Macroeconomic Policy Canonical Reference Corpus (2026)',
+      sourceType: 'ACADEMIC_CANONICAL_SYNTHESIS',
+      authorityTier: 'PEER_REVIEWED_ACADEMIC_REFERENCE',
+      description: 'Authoritative first-principles academic synthesis integrating RBI Reports, SEBI Guidelines, MoSPI National Accounts 2015, and standard micro/macroeconomic textbooks.',
     },
   });
 
-  // Ensure exams exist
-  const upsc = await db.exam.upsert({
-    where: { slug: 'upsc-cse' },
-    update: {},
-    create: {
-      slug: 'upsc-cse',
-      name: 'UPSC Civil Services Examination',
-      conductingBody: 'Union Public Service Commission',
-      description: 'Premier national civil services examination.',
-    },
-  });
+  // Ensure Exams Exist
+  const examCodes = ['RBI_GRADE_B', 'SEBI_GRADE_A', 'NABARD_GRADE_A', 'SBI_PO', 'IBPS_PO', 'RPSC_RAS', 'IIBF_DBF', 'UPSC_APFC'];
+  const examMap: Record<string, string> = {};
 
-  const rpsc = await db.exam.upsert({
-    where: { slug: 'rpsc-ras' },
-    update: {},
-    create: {
-      slug: 'rpsc-ras',
-      name: 'RPSC Rajasthan Administrative Services',
-      conductingBody: 'Rajasthan Public Service Commission',
-      description: 'Apex state civil services examination for Rajasthan.',
-    },
-  });
-
-  const iibf = await db.exam.upsert({
-    where: { slug: 'iibf-dbf' },
-    update: {},
-    create: {
-      slug: 'iibf-dbf',
-      name: 'IIBF Diploma in Banking & Finance',
-      conductingBody: 'Indian Institute of Banking & Finance',
-      description: 'Professional banking qualification.',
-    },
-  });
-
-  const examMap: Record<string, string> = {
-    'upsc-cse': upsc.id,
-    'rpsc-ras': rpsc.id,
-    'iibf-dbf': iibf.id,
-  };
-
-  // Group concepts by topic
-  const topicsMap: Record<string, { title: string; order: number; description: string; concepts: CanonicalConceptDefinition[] }> = {};
-  for (const c of BATCH_E1_CONCEPTS) {
-    if (!topicsMap[c.topicSlug]) {
-      topicsMap[c.topicSlug] = {
-        title: c.topicTitle,
-        order: c.topicOrder,
-        description: c.topicDescription,
-        concepts: [],
-      };
-    }
-    topicsMap[c.topicSlug].concepts.push(c);
-  }
-
-  for (const [topicSlug, topicData] of Object.entries(topicsMap)) {
-    const topic = await db.topic.upsert({
-      where: {
-        subjectId_slug: {
-          subjectId: subject.id,
-          slug: topicSlug,
-        },
-      },
-      update: {
-        title: topicData.title,
-        order: topicData.order,
-        description: topicData.description,
-        status: 'ACTIVE',
-      },
-      create: {
-        subjectId: subject.id,
-        slug: topicSlug,
-        title: topicData.title,
-        order: topicData.order,
-        description: topicData.description,
-        status: 'ACTIVE',
-      },
-    });
-
-    for (const cDef of topicData.concepts) {
-      const concept = await db.concept.upsert({
-        where: { id: cDef.id },
-        update: {
-          topicId: topic.id,
-          slug: cDef.slug,
-          title: cDef.title,
-          shortDefinition: cDef.shortDefinition,
-          difficulty: cDef.difficulty,
-          status: 'ACTIVE',
-        },
-        create: {
-          id: cDef.id,
-          topicId: topic.id,
-          slug: cDef.slug,
-          title: cDef.title,
-          shortDefinition: cDef.shortDefinition,
-          difficulty: cDef.difficulty,
-          status: 'ACTIVE',
+  for (const code of examCodes) {
+    let exam = await db.exam.findFirst({ where: { slug: code.toLowerCase().replace(/_/g, '-') } });
+    if (!exam) {
+      exam = await db.exam.create({
+        data: {
+          slug: code.toLowerCase().replace(/_/g, '-'),
+          name: code.replace(/_/g, ' '),
+          conductingBody: code.split('_')[0],
+          description: `Target examination suite for ${code}`,
+          syllabusSummary: `Economics, Banking, and General Awareness syllabus for ${code}`,
         },
       });
+    }
+    examMap[code] = exam.id;
+  }
 
-      // Clear existing child records for idempotent reseeding
-      await db.claim.deleteMany({ where: { conceptId: concept.id } });
-      await db.contentBlock.deleteMany({ where: { conceptId: concept.id } });
-      await db.examConceptMapping.deleteMany({ where: { conceptId: concept.id } });
-      await db.revisionUnit.deleteMany({ where: { conceptId: concept.id } });
-      await db.question.deleteMany({ where: { conceptId: concept.id } });
+  // Group by topic and seed
+  const topicGroups: Record<string, CanonicalConceptDefinition[]> = {};
+  for (const c of BATCH_E1_CONCEPTS) {
+    if (!topicGroups[c.topicSlug]) {
+      topicGroups[c.topicSlug] = [];
+    }
+    topicGroups[c.topicSlug].push(c);
+  }
+
+  for (const [topicSlug, concepts] of Object.entries(topicGroups)) {
+    const first = concepts[0];
+    let topic = await db.topic.findFirst({ where: { slug: topicSlug } });
+    if (!topic) {
+      topic = await db.topic.create({
+        data: {
+          slug: topicSlug,
+          title: first.topicTitle,
+          description: first.topicDescription,
+          subjectId: subject.id,
+          order: first.topicOrder,
+        },
+      });
+    } else {
+      topic = await db.topic.update({
+        where: { id: topic.id },
+        data: {
+          title: first.topicTitle,
+          description: first.topicDescription,
+          order: first.topicOrder,
+        },
+      });
+    }
+
+    for (let i = 0; i < concepts.length; i++) {
+      const cDef = concepts[i];
+      let concept = await db.concept.findUnique({ where: { id: cDef.id } });
+
+      if (concept) {
+        // Delete child records to re-seed cleanly
+        await db.claim.deleteMany({ where: { conceptId: concept.id } });
+        await db.contentBlock.deleteMany({ where: { conceptId: concept.id } });
+        await db.examConceptMapping.deleteMany({ where: { conceptId: concept.id } });
+        await db.revisionUnit.deleteMany({ where: { conceptId: concept.id } });
+        await db.question.deleteMany({ where: { conceptId: concept.id } });
+
+        concept = await db.concept.update({
+          where: { id: cDef.id },
+          data: {
+            title: cDef.title,
+            slug: cDef.slug,
+            shortDefinition: cDef.shortDefinition,
+            difficulty: cDef.difficulty,
+            topicId: topic.id,
+            order: i + 1,
+          },
+        });
+      } else {
+        concept = await db.concept.create({
+          data: {
+            id: cDef.id,
+            title: cDef.title,
+            slug: cDef.slug,
+            shortDefinition: cDef.shortDefinition,
+            difficulty: cDef.difficulty,
+            topicId: topic.id,
+            order: i + 1,
+          },
+        });
+      }
 
       // Seed Claims & Evidence
-      for (const clm of cDef.claims) {
+      for (const cl of cDef.claims) {
         const claim = await db.claim.create({
           data: {
-            id: clm.id,
+            id: cl.id,
             conceptId: concept.id,
-            statement: clm.statement,
-            claimType: clm.claimType,
-            epistemicLevel: clm.epistemicLevel,
-            confidence: clm.confidence,
-            status: 'CANONICAL_CLAIM',
+            statement: cl.statement,
+            claimType: cl.claimType,
+            epistemicLevel: cl.epistemicLevel,
+            confidence: cl.confidence,
+            status: 'VERIFIED',
           },
         });
 
+        // Create Evidence
         await db.evidence.create({
           data: {
             claimId: claim.id,
-            sourceId: source.id,
-            locator: clm.locator,
-            excerpt: clm.excerpt,
-            evidenceType: 'STATUTORY_INSTRUMENT',
-            authority: 'PRIMARY_GOVERNMENT_RECORD',
-            evidentiarySupport: 'DIRECT_PROOF',
-            extractionConfidence: 'CERTAIN',
+            sourceId: sourceEcon.id,
+            locator: cl.locator,
+            excerpt: cl.excerpt,
+            evidenceType: 'STATUTORY_PROVISION',
+            authority: 'AUTHORITATIVE_STATUTE',
+            evidentiarySupport: 'DIRECT_SUPPORT',
+            extractionConfidence: 'HIGH',
           },
         });
       }
@@ -2450,9 +3561,16 @@ export async function seedBatchE1CanonicalKnowledge() {
             trapExplanation: q.trapExplanation,
             difficulty: q.difficulty,
             isPYQ: q.isPYQ,
+            pyqYear: q.pyqYear,
+            pyqPaper: q.pyqPaper,
+            pyqStage: q.pyqStage,
+            pyqQuestionNumber: q.pyqQuestionNumber,
+            examinerTrapPattern: q.examinerTrapPattern,
           },
         });
       }
     }
   }
+
+  console.log(`Successfully seeded ${BATCH_E1_CONCEPTS.length} Batch E1 canonical concepts.`);
 }

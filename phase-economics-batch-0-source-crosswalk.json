@@ -1,0 +1,472 @@
+[
+  {
+    "noteNumber": 1,
+    "sourceTitle": "Absolute vs Relative Poverty & Lorenz Curve / Gini Index",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-37", "CON-ECO-38"],
+    "primaryDefects": ["Empty latex block", "Stray dollar delimiter on percentages ($x%$)"],
+    "authoritativeSources": ["World Bank Poverty & Inequality Platform", "NITI Aayog National MPI Report", "Atkinson (1970) On the Measurement of Economic Inequality"]
+  },
+  {
+    "noteNumber": 2,
+    "sourceTitle": "Agriculture Sector & MSP Architecture",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN K — AGRICULTURE & RURAL ECONOMY",
+    "salvageVerdict": "REWRITE",
+    "targetCanonicalConceptIds": ["CON-ECO-30", "CON-ECO-32"],
+    "primaryDefects": ["Superficial MSP coverage", "Lacks CACP cost formula derivations (A2, A2+FL, C2)", "Missing PM-AASHA and e-NAM integration"],
+    "authoritativeSources": ["Commission for Agricultural Costs and Prices (CACP) Price Policy Reports", "National Commission on Farmers (Swaminathan Committee, 2006)", "Ministry of Agriculture & Farmers Welfare Operational Guidelines"]
+  },
+  {
+    "noteNumber": 3,
+    "sourceTitle": "Amartya Sen's Capability Approach & Entitlements",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-39"],
+    "primaryDefects": ["Purely qualitative text", "Lacks mathematical linkage to Human Development Index geometric mean formulation"],
+    "authoritativeSources": ["Amartya Sen (1981) Poverty and Famines: An Essay on Entitlement and Deprivation", "Amartya Sen (1999) Development as Freedom", "UNDP Human Development Report Methodology"]
+  },
+  {
+    "noteNumber": 4,
+    "sourceTitle": "Balance of Payments (BoP) & Foreign Exchange Reserves",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN H — EXTERNAL SECTOR",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-26"],
+    "primaryDefects": ["Contains stale 2021 BoP figures", "High-density dollar formatting"],
+    "authoritativeSources": ["RBI Balance of Payments Manual (BPM6 alignment)", "IMF Balance of Payments and International Investment Position Manual (BPM6)", "RBI Bulletin — Developments in India's Balance of Payments"]
+  },
+  {
+    "noteNumber": 5,
+    "sourceTitle": "Basel Accords & Risk-Weighted Asset Framework",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN F — BANKING & FINANCIAL SYSTEM",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-23"],
+    "primaryDefects": ["Needs updated Domestic Systemically Important Banks (D-SIBs) bucket list", "Raw dollar delimiter on percentages"],
+    "authoritativeSources": ["Basel Committee on Banking Supervision (BCBS) Basel III Framework", "RBI Master Circular — Basel III Capital Regulations", "RBI Financial Stability Report (Latest Edition)"]
+  },
+  {
+    "noteNumber": 6,
+    "sourceTitle": "Capital Market Instruments: Equities, Bonds & Derivatives",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN F — BANKING & FINANCIAL SYSTEM",
+    "salvageVerdict": "REWRITE",
+    "targetCanonicalConceptIds": ["CON-ECO-11"],
+    "primaryDefects": ["Missing derivative pricing mathematics (Black-Scholes, Greeks)", "Lacks bond duration/convexity", "Missing SEBI LODR and PIT statutory regulations"],
+    "authoritativeSources": ["SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015", "SEBI (Prohibition of Insider Trading) Regulations, 2015", "John C. Hull — Options, Futures, and Other Derivatives", "Frank Fabozzi — Bond Markets, Analysis, and Strategies"]
+  },
+  {
+    "noteNumber": 7,
+    "sourceTitle": "Central Banking & RBI Functions",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN E — MONEY & MONETARY ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-12"],
+    "primaryDefects": ["Needs updated Central Board composition", "Minor formatting cleanup"],
+    "authoritativeSources": ["Reserve Bank of India Act, 1934 (Sections 3, 17, 45ZB)", "Banking Regulation Act, 1949", "RBI Annual Report"]
+  },
+  {
+    "noteNumber": 8,
+    "sourceTitle": "Circular Flow of Income, Factor Payments & Leakages",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN C — NATIONAL INCOME & MACROECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-03"],
+    "primaryDefects": ["Delimiters on variable symbols", "Repetitive summary boilerplate"],
+    "authoritativeSources": ["Richard Stone (1947) Definition and Measurement of the National Income and Related Totals", "N. Gregory Mankiw — Macroeconomics (Chapter on National Income)", "UN System of National Accounts (SNA 2008)"]
+  },
+  {
+    "noteNumber": 9,
+    "sourceTitle": "Commercial Banking & Money Creation",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN E — MONEY & MONETARY ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-09"],
+    "primaryDefects": ["High-density dollar formatting in balance sheet examples"],
+    "authoritativeSources": ["Paul Samuelson & William Nordhaus — Economics", "RBI Working Group on Money Supply (Y.V. Reddy Committee, 1998)", "Frederic Mishkin — The Economics of Money, Banking, and Financial Markets"]
+  },
+  {
+    "noteNumber": 10,
+    "sourceTitle": "CPI vs. WPI Inflation Indices & Food Inflation Dynamics",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN D — INFLATION & EMPLOYMENT",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-16"],
+    "primaryDefects": ["Empty code block", "Needs latest CPI Combined and WPI group weightings table"],
+    "authoritativeSources": ["MoSPI / NSO Consumer Price Index (CPI) Base 2012 Methodology", "Office of the Economic Adviser, DPIIT Wholesale Price Index (WPI) Base 2011-12 Methodology", "Urjit Patel Committee Report on Revising and Strengthening the Monetary Policy Framework (2014)"]
+  },
+  {
+    "noteNumber": 11,
+    "sourceTitle": "Evolution of Indian Economic Planning: PC to NITI Aayog",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN J — INDIAN ECONOMY",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-44"],
+    "primaryDefects": ["Pure text narrative; needs structured comparative table of Planning Commission vs NITI Aayog"],
+    "authoritativeSources": ["NITI Aayog Notification (Cabinet Resolution No. 511/2/1/2015-Cab, 1 Jan 2015)", "Planning Commission Five-Year Plan Documents (1st to 12th Plan)", "NITI Aayog Three-Year Action Agenda & Strategy for New India @ 75"]
+  },
+  {
+    "noteNumber": 12,
+    "sourceTitle": "Exchange Rate Regimes & Rupee Convertibility",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN H — EXTERNAL SECTOR",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-27"],
+    "primaryDefects": ["Dollar signs on acronyms like $LERMS$"],
+    "authoritativeSources": ["Tarapore Committee Reports on Full Capital Account Convertibility (1997 & 2006)", "Foreign Exchange Management Act, 1999 (FEMA)", "RBI Master Direction — External Commercial Borrowings, Trade Credits and Structured Obligations"]
+  },
+  {
+    "noteNumber": 13,
+    "sourceTitle": "Factor Cost, Market Price & GVA at Basic Prices",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN C — NATIONAL INCOME & MACROECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-04"],
+    "primaryDefects": ["Formatting density on sub/superscripts"],
+    "authoritativeSources": ["MoSPI National Accounts Statistics: Sources and Methods 2015 (Base Year 2011-12)", "UN System of National Accounts (SNA 2008, Chapter 6: Production Account)", "Economic Survey of India (Chapter on State of the Economy)"]
+  },
+  {
+    "noteNumber": 14,
+    "sourceTitle": "Financial Inclusion Initiatives & Priority Sector Lending Targets",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN F — BANKING & FINANCIAL SYSTEM",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-24"],
+    "primaryDefects": ["Needs updated Priority Sector Lending Certificates (PSLC) market trading mechanism"],
+    "authoritativeSources": ["RBI Master Directions — Priority Sector Lending (PSL) – Targets and Classification (Updated 2020/2023)", "Nachiket Mor Committee on Comprehensive Financial Services for Small Businesses and Low-Income Households (2014)", "National Strategy for Financial Inclusion (NSFI) 2019-2024"]
+  },
+  {
+    "noteNumber": 15,
+    "sourceTitle": "Financial Regulatory Bodies: SEBI, IRDAI, PFRDA & IFSCA",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN N — ECONOMIC INSTITUTIONS & POLICY",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-22"],
+    "primaryDefects": ["Lacks FSDC sub-committee statutory coordination mechanisms"],
+    "authoritativeSources": ["SEBI Act, 1992", "IRDAI Act, 1999", "PFRDA Act, 2013", "IFSCA Act, 2019", "Financial Stability and Development Council (FSDC) Gazette Notifications"]
+  },
+  {
+    "noteNumber": 16,
+    "sourceTitle": "Foreign Direct Investment (FDI) & Foreign Portfolio Investment (FPI)",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN H — EXTERNAL SECTOR",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-28"],
+    "primaryDefects": ["Needs latest consolidated FDI Policy circular updates from DPIIT"],
+    "authoritativeSources": ["DPIIT Consolidated FDI Policy Circular (Ministry of Commerce & Industry)", "Arvind Mayaram Committee Report on Defining FDI and FPI (2014)", "SEBI (Foreign Portfolio Investors) Regulations, 2019"]
+  },
+  {
+    "noteNumber": 17,
+    "sourceTitle": "FRBM Act 2003 & Fiscal Consolidation Ladder",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN G — FISCAL ECONOMICS & PUBLIC FINANCE",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-21"],
+    "primaryDefects": ["Minor formatting cleanup on equation lines"],
+    "authoritativeSources": ["Fiscal Responsibility and Budget Management Act, 2003 and Rules 2004", "N.K. Singh FRBM Review Committee Report (2017: Volume I - Analysis and Recommendations)", "Union Budget 2024-25 / 2025-26 Macroeconomic Framework Statements"]
+  },
+  {
+    "noteNumber": 18,
+    "sourceTitle": "Functions of Money & Evolutionary Arc of Payment Systems",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN E — MONEY & MONETARY ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-07"],
+    "primaryDefects": ["Needs updated Central Bank Digital Currency (CBDC / e-Rupee) pilot architectures"],
+    "authoritativeSources": ["RBI Concept Note on Central Bank Digital Currency (CBDC, 2022)", "Payment and Settlement Systems Act, 2007", "National Payments Corporation of India (NPCI) Technical Architecture Documentation"]
+  },
+  {
+    "noteNumber": 19,
+    "sourceTitle": "GDP, NDP, GNP & NNP Aggregate Ladder",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN C — NATIONAL INCOME & MACROECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-04"],
+    "primaryDefects": ["Empty code block", "Delimiters on variable symbols"],
+    "authoritativeSources": ["MoSPI National Accounts Statistics (NAS) Methodology", "UN System of National Accounts (SNA 2008)", "NCERT Macroeconomics Class XII (Chapter 2: National Income Accounting)"]
+  },
+  {
+    "noteNumber": 20,
+    "sourceTitle": "Human Capital Formation: Education, Skill India & Health Index",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-40"],
+    "primaryDefects": ["Needs updated National Education Policy (NEP 2020) target metrics and NITI Aayog Healthy States Progressive India Index"],
+    "authoritativeSources": ["National Education Policy 2020 (Ministry of Education)", "NITI Aayog State Health Index (Round 4 & 5)", "Economic Survey (Chapter on Social Infrastructure and Employment)"]
+  },
+  {
+    "noteNumber": 21,
+    "sourceTitle": "Inclusive Growth, Financial Inclusion & JAM Trinity",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-25"],
+    "primaryDefects": ["Repetitive summary text"],
+    "authoritativeSources": ["Direct Benefit Transfer (DBT) Mission, Cabinet Secretariat", "Department of Financial Services, Ministry of Finance (PMJDY Portal Statistics)", "RBI Financial Inclusion Index (FI-Index) Annual Releases"]
+  },
+  {
+    "noteNumber": 22,
+    "sourceTitle": "Industrial Policies in India: 1948, 1956 Mahalanobis to 1991",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN J — INDIAN ECONOMY",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-33"],
+    "primaryDefects": ["Needs integration with contemporary Production-Linked Incentive (PLI) schemes"],
+    "authoritativeSources": ["Industrial Policy Resolution 1948, 1956, 1977, 1980", "Statement on Industrial Policy, July 24, 1991", "DPIIT Guidelines for Production Linked Incentive (PLI) Schemes"]
+  },
+  {
+    "noteNumber": 23,
+    "sourceTitle": "Inflation Mechanics, Types & The Phillips Curve",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN D — INFLATION & EMPLOYMENT",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-15"],
+    "primaryDefects": ["Empty code block", "LaTeX delimiter density"],
+    "authoritativeSources": ["A.W. Phillips (1958) Economica — The Relation between Unemployment and the Rate of Change of Money Wage Rates", "Milton Friedman (1968) The Role of Monetary Policy (AER)", "RBI Report on Currency and Finance (RCF)"]
+  },
+  {
+    "noteNumber": 24,
+    "sourceTitle": "International Economic Institutions: IMF, World Bank, WTO & BRICS",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN H — EXTERNAL SECTOR",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-29"],
+    "primaryDefects": ["Needs updated IMF 16th General Review of Quotas (2023/2024) decisions"],
+    "authoritativeSources": ["Articles of Agreement of the International Monetary Fund (IMF)", "Articles of Agreement of the International Bank for Reconstruction and Development (IBRD)", "WTO Uruguay Round Legal Instruments (Agreement on Agriculture, TRIPS, GATS)"]
+  },
+  {
+    "noteNumber": 25,
+    "sourceTitle": "Land Reforms & Green Revolution in India",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN K — AGRICULTURE & RURAL ECONOMY",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-31"],
+    "primaryDefects": ["Needs modern Digital India Land Records Modernization Programme (DILRMP) and SVAMITVA scheme linkages"],
+    "authoritativeSources": ["P.C. Joshi (1975) Land Reforms in India: Trends and Perspectives", "M.S. Swaminathan (2013) From Green to Evergreen Revolution", "Ministry of Rural Development / Panchayati Raj Guidelines for SVAMITVA"]
+  },
+  {
+    "noteNumber": 26,
+    "sourceTitle": "Methods of Calculating National Income & Sectoral Scrutiny",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN C — NATIONAL INCOME & MACROECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-05"],
+    "primaryDefects": ["Minor LaTeX sub/superscript formatting"],
+    "authoritativeSources": ["MoSPI / NSO National Accounts Statistics: Sources and Methods (2015)", "UN System of National Accounts (SNA 2008)", "Simon Kuznets (1941) National Income and Its Composition, 1919–1938"]
+  },
+  {
+    "noteNumber": 27,
+    "sourceTitle": "Monetary Policy Instruments: Quantitative vs. Qualitative Tools",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN E — MONEY & MONETARY ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-14"],
+    "primaryDefects": ["Needs updated SDF introduction in April 2022 replacing reverse repo as operating floor"],
+    "authoritativeSources": ["Reserve Bank of India Monetary Policy Operating Framework Guidelines", "RBI Monetary Policy Committee (MPC) Bi-Monthly Resolutions", "RBI Monetary Policy Report (MPR)"]
+  },
+  {
+    "noteNumber": 28,
+    "sourceTitle": "Money Market vs. Capital Market Architecture",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN F — BANKING & FINANCIAL SYSTEM",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-10"],
+    "primaryDefects": ["Formatting on dollar delimiters for acronyms"],
+    "authoritativeSources": ["RBI Master Direction — Money Market Instruments: Call/Notice Money, Commercial Paper, Certificates of Deposit, Non-Convertible Debentures", "Clearing Corporation of India Limited (CCIL) Market Operations Review", "SEBI Capital Market Handbook"]
+  },
+  {
+    "noteNumber": 29,
+    "sourceTitle": "Money Supply Aggregates (M0, M1, M2, M3, M4)",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN E — MONEY & MONETARY ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-08"],
+    "primaryDefects": ["High-density dollar math formatting"],
+    "authoritativeSources": ["Report of the Working Group on Money Supply: Analytics and Methodology of Compilation (Y.V. Reddy Committee, RBI 1998)", "RBI Handbook of Statistics on Indian Economy", "Frederic Mishkin — Economics of Money, Banking, and Financial Markets"]
+  },
+  {
+    "noteNumber": 30,
+    "sourceTitle": "MSME Sector Architecture & 2020 Composite Criteria",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN L — INDUSTRY, INFRASTRUCTURE & SERVICES",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-34"],
+    "primaryDefects": ["Needs integration with Champion Portal and RAMP (Raising and Accelerating MSME Performance) scheme"],
+    "authoritativeSources": ["Micro, Small and Medium Enterprises Development Act, 2006 (MSMED Act)", "Ministry of MSME Gazette Notification S.O. 2119(E) dated June 26, 2020", "Ministry of MSME Annual Report"]
+  },
+  {
+    "noteNumber": 31,
+    "sourceTitle": "Non-Performing Assets (NPAs) & Insolvency Resolution",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN F — BANKING & FINANCIAL SYSTEM",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-24"],
+    "primaryDefects": ["Needs updated Insolvency and Bankruptcy Board of India (IBBI) resolution statistics and Pre-packaged Insolvency Process (PPIRP) for MSMEs"],
+    "authoritativeSources": ["Insolvency and Bankruptcy Code, 2016 (IBC)", "SARFAESI Act, 2002", "RBI Prudential Framework for Resolution of Stressed Assets (June 7, 2019 Circular)", "IBBI Quarterly Newsletters"]
+  },
+  {
+    "noteNumber": 32,
+    "sourceTitle": "Poverty Measurement in India: Historical & Post-Independent Committees",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-41"],
+    "primaryDefects": ["Repetitive boilerplate text"],
+    "authoritativeSources": ["Dadabhai Naoroji (1901) Poverty and Un-British Rule in India", "Planning Commission (1962) Working Group on Minimum Standard of Living", "V.M. Dandekar & N. Rath (1971) Poverty in India", "Y.K. Alagh Committee Task Force Report (1979)", "D.T. Lakdawala Committee Expert Group Report (1993)"]
+  },
+  {
+    "noteNumber": 33,
+    "sourceTitle": "Public Sector Enterprises & Disinvestment Architecture",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN J — INDIAN ECONOMY",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-35"],
+    "primaryDefects": ["Needs updated New Public Sector Enterprise (PSE) Policy for Atmanirbhar Bharat (Strategic vs Non-strategic sectors)"],
+    "authoritativeSources": ["Department of Public Enterprises (DPE) Guidelines on Maharatna/Navratna/Miniratna Status", "DIPAM Strategic Disinvestment Policy Guidelines", "Union Budget 2021-22 Disinvestment Policy Annexure"]
+  },
+  {
+    "noteNumber": 34,
+    "sourceTitle": "RAS Economy Ch 1: Economic Review of Rajasthan & State Flagship Schemes",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN O — RAJASTHAN ECONOMY",
+    "salvageVerdict": "REWRITE",
+    "targetCanonicalConceptIds": ["CON-ECO-47", "CON-ECO-48", "CON-ECO-49"],
+    "primaryDefects": ["MASSIVE DEFECT: Whole Rajasthan economy dumped into 1 note; contains stale data, lacks micro-irrigation, animal husbandry, mineral economy, desert development programs"],
+    "authoritativeSources": ["Economic Review of Rajasthan (Directorate of Economics and Statistics, Government of Rajasthan, Latest Edition)", "Rajasthan State Budget Documents & Explanatory Memoranda", "Reports of the 5th and 6th State Finance Commissions of Rajasthan"]
+  },
+  {
+    "noteNumber": 35,
+    "sourceTitle": "RBI Grade B (ESI) Volume 4: Economic & Social Issues Descriptive Vault",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN M — LABOUR & SOCIAL ECONOMICS",
+    "salvageVerdict": "REWRITE",
+    "targetCanonicalConceptIds": ["CON-ECO-43"],
+    "primaryDefects": ["Unstructured exam dump without atomic conceptual definitions or statutory grounding"],
+    "authoritativeSources": ["Ministry of Labour and Employment Annual Report", "Periodic Labour Force Survey (PLFS) Annual Reports (NSO / MoSPI)", "V.V. Giri National Labour Institute Research Studies"]
+  },
+  {
+    "noteNumber": 36,
+    "sourceTitle": "Real vs Nominal GDP, GDP Deflator & Green GDP",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN C — NATIONAL INCOME & MACROECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-06"],
+    "primaryDefects": ["Minor math formatting cleanup"],
+    "authoritativeSources": ["MoSPI / NSO National Accounts Statistics: Base Year Revision Methodology", "System of Environmental-Economic Accounting (SEEA 2012, UN / World Bank)", "Partha Dasgupta (2021) The Economics of Biodiversity: The Dasgupta Review"]
+  },
+  {
+    "noteNumber": 37,
+    "sourceTitle": "Services Sector & India's Digital Public Infrastructure (DPI)",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN L — INDUSTRY, INFRASTRUCTURE & SERVICES",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-36"],
+    "primaryDefects": ["Needs integration with Open Network for Digital Commerce (ONDC) and Account Aggregator ecosystem"],
+    "authoritativeSources": ["Ministry of Electronics and Information Technology (MeitY) DPI Architecture Papers", "RBI Reserve Bank Information Technology (ReBIT) Reports", "NASSCOM Strategic Review on Indian Technology Sector"]
+  },
+  {
+    "noteNumber": 38,
+    "sourceTitle": "Specialized Financial Institutions & DFI Architecture",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN N — ECONOMIC INSTITUTIONS & POLICY",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-17"],
+    "primaryDefects": ["Needs National Bank for Financing Infrastructure and Development (NaBFID) Act, 2021 operational details"],
+    "authoritativeSources": ["National Bank for Financing Infrastructure and Development (NaBFID) Act, 2021", "NABARD Act, 1981", "SIDBI Act, 1989", "Export-Import Bank of India Act, 1981", "National Housing Bank Act, 1987"]
+  },
+  {
+    "noteNumber": 39,
+    "sourceTitle": "Sustainable Development, Climate Economics & Carbon Markets",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-42"],
+    "primaryDefects": ["Needs updated Energy Conservation (Amendment) Act 2022 and Indian Carbon Market (ICM) scheme notifications"],
+    "authoritativeSources": ["Energy Conservation (Amendment) Act, 2022 (Carbon Credit Trading Scheme, CCTS)", "Ministry of Finance Framework for Sovereign Green Bonds (2022)", "UNFCCC Paris Agreement (Article 6 Mechanisms)", "IPCC Sixth Assessment Report (AR6 Synthesis)"]
+  },
+  {
+    "noteNumber": 40,
+    "sourceTitle": "Taxation Architecture: Direct vs. Indirect Taxes & GST",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN G — FISCAL ECONOMICS & PUBLIC FINANCE",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-20"],
+    "primaryDefects": ["Needs GST compensation cess transition rules post-June 2022"],
+    "authoritativeSources": ["Constitution (101st Amendment) Act, 2016 (Article 246A, 269A, 279A)", "Central Goods and Services Tax Act, 2017 (CGST Act)", "GST Council Meeting Minutes & Decision Registers", "Direct Taxes Code Task Force Report (Akhilesh Ranjan Committee, 2019)"]
+  },
+  {
+    "noteNumber": 41,
+    "sourceTitle": "Tendulkar vs. Rangarajan Committees & NITI Aayog National MPI",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-41"],
+    "primaryDefects": ["Formatting on dollar delimiters for poverty line rupees"],
+    "authoritativeSources": ["Report of the Expert Group to Review the Methodology for Estimation of Poverty (Suresh Tendulkar Committee, Planning Commission 2009)", "Report of the Expert Group to Review the Methodology for Measurement of Poverty (C. Rangarajan Committee, Planning Commission 2014)", "NITI Aayog National Multidimensional Poverty Index: A Progress Review 2023"]
+  },
+  {
+    "noteNumber": 42,
+    "sourceTitle": "The 3 Central Problems & Goods Classification Matrix",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN A — ECONOMIC FOUNDATIONS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-02"],
+    "primaryDefects": ["Delimiters on goods classification matrix"],
+    "authoritativeSources": ["Paul Samuelson & William Nordhaus — Economics (Foundations)", "Elinor Ostrom (1990) Governing the Commons: The Evolution of Institutions for Collective Action", "Hal Varian — Intermediate Microeconomics: A Modern Approach"]
+  },
+  {
+    "noteNumber": 43,
+    "sourceTitle": "The Informal Economy, Gig Economy & PLFS Data Trends",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN M — LABOUR & SOCIAL ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-45"],
+    "primaryDefects": ["Needs integration with Code on Social Security 2020 Gig Worker Board statutory provisions"],
+    "authoritativeSources": ["National Commission for Enterprises in the Unorganised Sector (NCEUS / Arjun Sengupta Report, 2007)", "Code on Social Security, 2020 (Sections 112–114: Platform and Gig Workers)", "NITI Aayog Report — India's Booming Gig and Platform Economy (2022)"]
+  },
+  {
+    "noteNumber": 44,
+    "sourceTitle": "Types & Measurement of Unemployment (PLFS / NSO Framework)",
+    "category": "Book III: Indian Economic Structure & Sectors",
+    "targetDomain": "DOMAIN M — LABOUR & SOCIAL ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-46"],
+    "primaryDefects": ["Needs latest annual PLFS 2022-23 / 2023-24 labor force metrics (LFPR, WPR, UR)"],
+    "authoritativeSources": ["NSO / MoSPI Annual Report: Periodic Labour Force Survey (PLFS)", "International Labour Organization (ILO) Standards on Statistics of Work, Employment and Labour Underutilization (19th ICLS)", "Economic Survey (Employment Chapter)"]
+  },
+  {
+    "noteNumber": 45,
+    "sourceTitle": "Union Budget Architecture & Fiscal Deficit Equations",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN G — FISCAL ECONOMICS & PUBLIC FINANCE",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-18", "CON-ECO-19"],
+    "primaryDefects": ["Minor math formatting cleanup"],
+    "authoritativeSources": ["Constitution of India (Articles 112, 113, 114, 265, 266, 267)", "Government of India Key to Budget Documents (Ministry of Finance)", "Richard Musgrave & Peggy Musgrave — Public Finance in Theory and Practice"]
+  },
+  {
+    "noteNumber": 46,
+    "sourceTitle": "What is Economics? Scarcity, Choice & Opportunity Cost",
+    "category": "Book I: Foundations of Economics & National Income",
+    "targetDomain": "DOMAIN A — ECONOMIC FOUNDATIONS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-01"],
+    "primaryDefects": ["Delimiters on economics acronyms"],
+    "authoritativeSources": ["Lionel Robbins (1932) An Essay on the Nature and Significance of Economic Science", "Adam Smith (1776) An Inquiry into the Nature and Causes of the Wealth of Nations", "Alfred Marshall (1890) Principles of Economics"]
+  },
+  {
+    "noteNumber": 47,
+    "sourceTitle": "What is Poverty? Dimensions, SDG Linkage & Poverty Gap",
+    "category": "Book II: Poverty, Inequality & Human Capital",
+    "targetDomain": "DOMAIN I — DEVELOPMENT ECONOMICS",
+    "salvageVerdict": "KEEP_EDIT",
+    "targetCanonicalConceptIds": ["CON-ECO-37"],
+    "primaryDefects": ["Minor formatting on FGT formula line"],
+    "authoritativeSources": ["Foster, Greer, and Thorbecke (1984) A Class of Decomposable Poverty Measures (Econometrica)", "World Bank World Development Report: Attacking Poverty", "UN Sustainable Development Goal 1 (No Poverty) Indicators"]
+  }
+]

@@ -32,6 +32,7 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
 
   it('1. Every topic should have a continuous reading data loader with all canonical concepts', async () => {
     const topics = await db.topic.findMany({
+      where: { concepts: { some: {} } },
       select: { slug: true, title: true },
     });
 

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import 'katex/dist/katex.min.css';
 import { SiteHeader } from '@/components/navigation/site-header';
 
 export const metadata: Metadata = {

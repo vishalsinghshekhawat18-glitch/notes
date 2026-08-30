@@ -1,11 +1,5 @@
 import React from 'react';
-import { marked } from 'marked';
-
-// Configure marked with GFM and line breaks
-marked.setOptions({
-  gfm: true,
-  breaks: true,
-});
+import { renderMarkdownWithMath } from '@/lib/render/markdown-math';
 
 interface MarkdownContentProps {
   content: string | null | undefined;
@@ -17,8 +11,8 @@ export function MarkdownContent({ content, className = '' }: MarkdownContentProp
     return null;
   }
 
-  // Parse markdown synchronously
-  const parsedHtml = marked.parse(content, { async: false }) as string;
+  // Parse markdown with KaTeX math rendering
+  const parsedHtml = renderMarkdownWithMath(content);
 
   return (
     <div

@@ -1,0 +1,33 @@
+# Quantitative Aptitude — Forensic Consolidation Map
+**Target Corpus:** `Quant_Reasoning_Master.md` (24 Master Notes)  
+**Objective:** Map 24 Fragmentary Legacy Notes into Clean, Cohesive Canonical Concept Blueprints  
+**Status:** **PROPOSED ARCHITECTURE ONLY — NO MIGRATION PERFORMED**  
+**Date:** 2026-08-29  
+
+---
+
+## 1. Master Legacy-to-Canonical Consolidation Ledger
+
+The table below details how the 24 fragmented notes in `Quant_Reasoning_Master.md` will be consolidated into **10 unified, high-cohesion Canonical Concepts** when migration is authorized:
+
+| Proposed Canonical Concept | Core Pedagogical Focus | Legacy Notes Consolidated | Legacy Item IDs | Incomplete / Defective Elements to be Solved & Restored |
+| :--- | :--- | :--- | :--- | :--- |
+| **Concept 1: Algebraic Identities, Quadratic Equations & Root Sign Heuristics** | Algebraic expansions, quadratic formula, 4-case root sign table, double-negative constant rule, coefficient normalization, root comparison drills. | **Notes 1, 9, 16** | `migrated-quant-qsec4-1`<br>`migrated-quant-qsec4-3`<br>`migrated-quant-qsec4-2` | • Solve empty stubs in Note 9 ($x^2-7x+12=0$ vs $y^2-9y+20=0$; $a+1/a=5 \implies a^3+1/a^3$).<br>• Restore corrupted LaTeX math. |
+| **Concept 2: Number Series: Difference-Trees, Multipliers & Wrong Number Diagnostics** | Step-difference decomposition ($\Delta_1, \Delta_2, \Delta_3$), ratio diagnostics, decimal multiplier patterns, two-$\Delta_1$ / three-$\Delta_2$ wrong number error localization. | **Notes 4, 10, 23** | `migrated-quant-qsec5-2`<br>`migrated-quant-qsec5-3`<br>`migrated-quant-qsec5-1` | • Solve empty stubs in Note 10 (2nd-level diff $3,4,8,17,33 \implies 58$; wrong number $5,10,20,41,80 \implies 41$).<br>• Qualify rounding rule in Note 4. |
+| **Concept 3: Time, Work, Pipes & Dynamic Efficiency Models** | LCM unitary work method, man-woman-boy equivalence, variable emptying leaks, negative work cycle traps, alternate days 3-tier calculations. | **Notes 7 (part), 15 (part), 17 (part)** | `migrated-quant-qsec2-3`<br>`migrated-quant-qsec2-2`<br>`migrated-quant-qsec2-1` | • Solve empty stub in Note 7 (A: 20d, B: 30d; B leaves after 6d).<br>• Restore corrupted LaTeX formulas. |
+| **Concept 4: Time, Speed, Distance, Relative Velocity, Trains & Escalators** | Relative speed (same/opposite directions), harmonic mean average speed $2xy/(x+y)$, train passing platform vs pole, moving walkways/escalators $S = N(1+v_e/v_p)$. | **Notes 15 (part), 17 (part)** | `migrated-quant-qsec2-2`<br>`migrated-quant-qsec2-1` | • Restore corrupted LaTeX in relative speed formulas.<br>• Add multi-train crossing worked examples. |
+| **Concept 5: Commercial Interest, Partnership, Mixture & Dilution Invariants** | CI-SI 2-year ($P(R/100)^2$) and 3-year differences, successive replacement/dilution $V(1-x/V)^n$, capital $\times$ time partnership investments. | **Notes 7 (part), 17 (part)** | `migrated-quant-qsec2-3`<br>`migrated-quant-qsec2-1` | • Solve empty stubs in Note 7: (1) CI-SI diff 2yr=64, R=8% $\implies P = ₹10,000$; (2) Partnership $5000 \times 12 : 6000 \times 8 = 5:4$; (3) Dilution $80(1-8/80)^2 = 64.8\text{L}$. |
+| **Concept 6: 2D Mensuration: Plane Figures, Inscribed Systems & Pathway Invariants** | Isoperimetric theorem, inradius/circumradius invariants (right, equilateral, scalene triangles), internal/external/crossroad pathway formulas, 3-tier right triangle inscribed circle example. | **Note 6** | `migrated-quant-qsec1-1` | • Restore severe LaTeX corruption (`rac`, `	ext`, `sqrt`).<br>• Retain high-quality 3-tier solution ($15, 20 \implies r = 5$). |
+| **Concept 7: 3D Solid Geometry, Composite Solids, Frustums & Dimensional Scaling** | Volume conservation in melting/recasting, cutting plane TSA increase, largest inscribed cube theorems, frustum slant height/volume, cavity drilling vs surmounting, dimensional scaling ($k^1, k^2, k^3$). | **Notes 13, 14, 20, 21** | `migrated-quant-qsec1-2`<br>`migrated-quant-qsec1-5`<br>`migrated-quant-qsec1-3`<br>`migrated-quant-qsec1-4` | • Solve all 4 empty stubs in Note 14 (Cone on cylinder, Sphere melted to cones, Painting hemisphere, Frustum bucket).<br>• Restore corrupted LaTeX math. |
+| **Concept 8: Permutations, Combinations, Probability & Strategic Counting** | Linear/repetition arrangements, circular vs necklace permutations, handshake/tournament formula $n(n-1)/2$, probability addition/multiplication/at-least-one rules, "never together" grouping, 52-card proportions. | **Notes 2, 12, 22** | `migrated-quant-qsec7-2`<br>`migrated-quant-qsec7-3`<br>`migrated-quant-qsec7-1` | • Solve empty stubs in Note 12 ('BANANA' permutations $6!/(3!2!) = 60$; independent target hit $0.80$).<br>• Remove empty LaTeX code fence from Note 2. |
+| **Concept 9: Data Interpretation: Visual Graphs, Estimation & Advanced Caselets** | Missing value tables, radar/spider charts, fraction-to-percentage table, percentage base-shift $x/(100+x)$, "of" vs "more than" denominator rules, authentic 3-tier solved NPA Recovery Caselet DI. | **Notes 3, 8, 18, 24 (part)** | `migrated-quant-qsec3-2`<br>`migrated-quant-qsec3-3`<br>`migrated-quant-qsec3-1`<br>`quant-rbi-grade-b-pyq-master-suite` | • Solve empty stubs in Note 8 (Pie chart angle $7200 \times 90/360 = 1800$; Dual pie comparison; CAGR from bar graph $200 \rightarrow 343 \implies 20\%$).<br>• Retain complete 3-tier NPA Caselet solution ($37:100$). |
+| **Concept 10: Data Sufficiency Decision Logic, Quantity Comparison & Circular Races** | 5 canonical DS outcomes, uniqueness invariant, Definite NO is sufficient heuristic, Q1 vs Q2 algebraic checks, circular track relative speed, distinct meeting points ($a+b$ opposite, $|a-b|$ same), starting point meeting time. | **Notes 5, 11, 19, 24 (part)** | `migrated-quant-qsec6-2`<br>`migrated-quant-qsec6-3`<br>`migrated-quant-qsec6-1`<br>`quant-rbi-grade-b-pyq-master-suite` | • Solve empty stubs in Note 11: (1) $x^2=49, x \in \mathbb{Z}^+ \implies$ Both together sufficient; (2) $x=y+5, y>0 \implies$ Stmt 1 alone sufficient ($x>y$).<br>• Retain complete 3-tier circular track solution. |
+
+---
+
+## 2. Consolidation Benefits
+
+1. **Elimination of Broken Fragments:** 7 notes containing empty solution tags are completely consolidated into their respective parent concepts with full solutions.
+2. **Elimination of Copy-Pasted Boilerplate:** 12 duplicate generic exam trap blocks are replaced by 10 topic-specific authentic examiner traps.
+3. **Restoration of Broken Math:** All corrupted LaTeX strings are repaired into clean KaTeX markup.
+4. **Pedagogical Cohesion:** Related formulas, methods, shortcuts, and worked examples are presented together in a continuous, structured reading layout.
