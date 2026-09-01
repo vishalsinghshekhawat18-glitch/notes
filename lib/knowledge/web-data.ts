@@ -75,7 +75,7 @@ export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]
             some: {
               concepts: {
                 some: {
-                  status: { in: ['ACTIVE', 'CANONICAL'] },
+                  status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] },
                 },
               },
             },
@@ -91,7 +91,7 @@ export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]
             some: {
               concepts: {
                 some: {
-                  status: { in: ['ACTIVE', 'CANONICAL'] },
+                  status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] },
                 },
               },
             },
@@ -103,7 +103,7 @@ export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]
             orderBy: { order: 'asc' },
             include: {
               concepts: {
-                where: { status: { in: ['ACTIVE', 'CANONICAL'] } },
+                where: { status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] } },
                 select: { id: true },
               },
             },
@@ -149,14 +149,14 @@ export async function getSubjectWithTopics(subjectSlug: string) {
         where: {
           concepts: {
             some: {
-              status: { in: ['ACTIVE', 'CANONICAL'] },
+              status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] },
             },
           },
         },
         orderBy: { order: 'asc' },
         include: {
           concepts: {
-            where: { status: { in: ['ACTIVE', 'CANONICAL'] } },
+            where: { status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] } },
             orderBy: { id: 'asc' },
             select: {
               id: true,
