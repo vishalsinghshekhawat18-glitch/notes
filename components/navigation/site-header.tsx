@@ -33,30 +33,48 @@ export function SiteHeader() {
               </span>
             </Link>
 
-            <nav className="hidden sm:flex items-center gap-4 text-xs font-medium text-stone-600">
+            <nav className="hidden md:flex items-center gap-4 text-xs font-medium text-stone-600">
               <Link
                 href="/"
                 className="hover:text-stone-900 transition-colors"
               >
-                Library
+                Shelves
               </Link>
               <Link
                 href="/subjects/indian-polity"
                 className="hover:text-stone-900 transition-colors"
               >
-                Indian Polity
+                Polity
               </Link>
               <Link
                 href="/subjects/indian-economy"
                 className="hover:text-stone-900 transition-colors"
               >
-                Indian Economy
+                Economy
+              </Link>
+              <Link
+                href="/subjects/basic-science"
+                className="hover:text-stone-900 transition-colors font-semibold text-emerald-800"
+              >
+                Science
               </Link>
               <Link
                 href="/subjects/iibf-banking-regulations"
                 className="hover:text-stone-900 transition-colors"
               >
-                IIBF Banking
+                IIBF
+              </Link>
+              <Link
+                href="/subjects/ancient-indian-history"
+                className="hover:text-stone-900 transition-colors"
+              >
+                History
+              </Link>
+              <Link
+                href="/subjects/quantitative-aptitude-and-data-interpretation"
+                className="hover:text-stone-900 transition-colors"
+              >
+                Quant
               </Link>
             </nav>
           </div>

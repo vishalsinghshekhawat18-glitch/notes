@@ -16,6 +16,7 @@ import { seedAncientMasterCanonicalKnowledge } from '../lib/benchmark/batch-anci
 import { seedBatchQuantBatch1CanonicalKnowledge } from '../lib/benchmark/batch-quant-batch-1-canonical-seed';
 import { seedBatchQuantBatch2CanonicalKnowledge } from '../lib/benchmark/batch-quant-batch-2-canonical-seed';
 import { seedBatchQuantBatch3PracticeBank } from '../lib/benchmark/batch-quant-batch-3-practice-seed';
+import { seedBasicScienceMasterCanonicalKnowledge } from '../lib/benchmark/batch-science-master-canonical-seed';
 
 async function main() {
   console.log('Seeding canonical database for static build...');
@@ -80,6 +81,9 @@ async function main() {
 
   // Seed Quantitative Aptitude & Data Interpretation (Batch 3: Practice & PYQ Consolidation Bank)
   await seedBatchQuantBatch3PracticeBank();
+
+  // Seed Basic Science & Scientific Literacy Master (Part 1: Topics 1-6: 26 concepts)
+  await seedBasicScienceMasterCanonicalKnowledge();
 
   const count = await db.concept.count();
   console.log(`Successfully seeded ${count} canonical concepts.`);

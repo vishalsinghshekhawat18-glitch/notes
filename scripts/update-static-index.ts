@@ -12,7 +12,7 @@ async function updateStaticIndex() {
         some: {
           concepts: {
             some: {
-              status: { in: ['ACTIVE', 'CANONICAL'] },
+              status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] },
             },
           },
         },
@@ -25,7 +25,7 @@ async function updateStaticIndex() {
         orderBy: { order: 'asc' },
         include: {
           concepts: {
-            where: { status: { in: ['ACTIVE', 'CANONICAL'] } },
+            where: { status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] } },
             select: { id: true },
           },
         },
@@ -38,7 +38,7 @@ async function updateStaticIndex() {
     where: {
       concepts: {
         some: {
-          status: { in: ['ACTIVE', 'CANONICAL'] },
+          status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] },
         },
       },
     },
@@ -50,7 +50,7 @@ async function updateStaticIndex() {
         },
       },
       concepts: {
-        where: { status: { in: ['ACTIVE', 'CANONICAL'] } },
+        where: { status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] } },
         select: { id: true, slug: true, title: true },
       },
     },
@@ -59,7 +59,7 @@ async function updateStaticIndex() {
   // 3. Fetch Concepts with Topics & Subjects
   const concepts = await db.concept.findMany({
     where: {
-      status: { in: ['ACTIVE', 'CANONICAL'] },
+      status: { in: ['ACTIVE', 'CANONICAL', 'DRAFT', 'PUBLISHED'] },
     },
     orderBy: [{ topic: { order: 'asc' } }, { id: 'asc' }],
     include: {

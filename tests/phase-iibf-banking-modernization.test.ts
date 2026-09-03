@@ -103,8 +103,8 @@ describe('IIBF & Banking Regulations Master Modernization Certification Suite', 
       expect(types).toContain('EXAM_APPLICATION');
 
       for (const b of c.contentBlocks) {
-        expect(b.title.length).toBeGreaterThan(5);
-        expect(b.body.length).toBeGreaterThan(50);
+        expect(b.title?.length || 0).toBeGreaterThan(5);
+        expect(b.body?.length || 0).toBeGreaterThan(50);
       }
     }
   });
