@@ -1786,244 +1786,224 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
   },
 
   {
-    id: 'CON-WLD-08',
-    slug: 'paths-to-modernisation-japan-meiji-restoration-vs-chinese-revolution',
-    title: 'Paths to East Asian Modernization: The Meiji Restoration in Japan (1868) vs The Chinese Revolutionary Century (1839–1949)',
-    shortDefinition: 'Contrasting Asian responses to Western imperialism: Japan\'s rapid state-directed transformation under the Meiji Restoration (1868, "Fukoku Kyohei" - Enrich the Country, Strengthen the Military, Zaibatsu monopolies, Meiji Constitution 1889), contrasted with China\'s century of humiliation and revolution (Opium Wars, Taiping Rebellion, Boxer Protocol, 1911 Sun Yat-sen revolution, May Fourth Movement 1919, Chiang Kai-shek\'s KMT, Mao Zedong\'s Long March 1934, and the founding of the People\'s Republic of China in 1949).',
-    difficulty: 'ADVANCED',
-    order: 8,
-    topicSlug: 'east-asian-modernisation',
-    contentBlocks: [
+    "id": "CON-WLD-08",
+    "slug": "paths-to-modernisation-japan-meiji-restoration-vs-chinese-revolution",
+    "title": "Paths to Modernization: Japan's Meiji Transformation (Fukoku Kyohei & Zaibatsu) vs China's Revolutionary Century (Opium Wars to 1949)",
+    "shortDefinition": "Exhaustive NCERT Class XI Theme 11 synthesis: The divergent Asian trajectories of modernization in Japan and China from the 19th to the mid-20th century: Japan's transition from the Tokugawa Shogunate (isolationism, daimyo domains, samurai stipends, Edo culture) to the Meiji Restoration (1868) under the rallying cry \"Fukoku Kyohei\" (Enrich the Country, Strengthen the Military), administrative centralisation (prefectures replacing han), compulsory universal primary education (1872), universal military conscription, state-sponsored textile industrialization (Tomioka Silk Mill), the formation of giant family-owned capitalist cartels (Zaibatsu: Mitsubishi, Mitsui, Sumitomo, Yasuda), the 1889 Meiji Constitution modeled on Prussia, and imperialist militarism (Sino-Japanese War 1894–95, Russo-Japanese War 1904–05, annexation of Korea 1910, Manchurian invasion 1931); contrasted with China's \"Century of Humiliation\" under the declining Manchu Qing Dynasty, the Anglo-Chinese Opium Wars (1839–1842 & 1856–1860) and unequal treaties (Treaty of Nanking 1842, extraterritoriality, cession of Hong Kong), internal cataclysms (Taiping Rebellion 1850–1864 led by Hong Xiuquan, Boxer Uprising 1900), the 1911 Republican Revolution led by Dr. Sun Yat-sen and the Three Principles of the People (San Min Chu-i: Nationalism, Democracy, Socialism/Livelihood), the anti-imperialist May Fourth Movement (1919) in Beijing, the birth of the Chinese Communist Party (CCP, 1921) in Shanghai, Chiang Kai-shek's Guomindang (KMT) and the 1927 White Terror purge, Mao Zedong's radical peasant-centric agrarian strategy in the Jiangxi Soviet, the heroic 6,000-mile Long March (1934–1935) to Yan'an, the united front resistance against brutal Japanese invasion (1937–1945, Nanjing Massacre), and the final communist triumph establishing the People's Republic of China on October 1, 1949.",
+    "difficulty": "ADVANCED",
+    "order": 8,
+    "topicSlug": "east-asian-modernisation",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'Two Giants Confront the West: Adapt or Burn',
-        body: `In the mid-19th century, Western imperialist gunboats arrived on the shores of East Asia, demanding that ancient, isolated civilizations open their ports to Western trade:
-* **China (The Middle Kingdom):** Regarded itself as the center of the world. When Britain forced illegal opium onto its ports, China resisted and was crushed in the **Opium Wars (1839–1860)**. Clinging stubbornly to imperial Confucian traditions, China fell into a "Century of Humiliation"—carved up like a melon by foreign powers, enduring massive civil wars and foreign invasions until **Mao Zedong** forged a peasant communist revolution in **1949**.
-* **Japan (The Chrysanthemum Empire):** When American Commodore Matthew Perry\'s "Black Ships" sailed into Edo Bay in 1853, Japan made a radical, calculated decision. In **1868**, young samurai overthrew the 250-year-old feudal Tokugawa Shogunate, restored the Emperor, and launched the **Meiji Restoration**.
-
-Instead of resisting Western technology, Japan deliberately **copied Western industrial, military, and legal systems**, transforming itself within 40 years from an isolated samurai society into the first industrialized Asian superpower to defeat a Western empire (Russo-Japanese War, 1905)!`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "Two Giants Confront Western Gunboats: Adapt by State Design or Burn Through Revolution",
+        "body": "In the mid-nineteenth century, Western industrial-capitalist powers arrived with steam-powered gunboats on the shores of East Asia, violently demanding the opening of sealed, ancient civilizations to Western commerce, treaties, and unequal extraterritorial privileges:\n\n1. **The Japanese Trajectory (Self-Directed State Modernization):**\n   * Facing American Commodore Matthew Perry's \"Black Ships\" in Tokyo Bay in 1853, Japan recognized that its feudal samurai order could not resist Western industrial weaponry.\n   * In **1868**, young reformist samurai overthrew the 250-year-old **Tokugawa Shogunate**, restoring nominal sovereign power to the young Emperor Meiji (**The Meiji Restoration**).\n   * Adopting the twin national slogans ***Fukoku Kyohei* (\"Enrich the Country, Strengthen the Military\")** and ***Shokusan Kogyo* (\"Encourage Industry\")**, Japan accomplished the most rapid modernization in global history: it abolished feudal caste privileges, built state-owned telegraphs and railways, launched compulsory public schooling, and fostered giant private industrial conglomerates (**Zaibatsu**). Within four decades, Japan transformed from a vulnerable feudal island into a formidable imperialist superpower that crushed Qing China (1895) and the Tsarist Russian Empire (1905)!\n\n2. **The Chinese Trajectory (Century of Humiliation & Peasant Revolution):**\n   * In contrast, the vast Manchu **Qing Dynasty** regarded China as the celestial \"Middle Kingdom\", arrogantly dismissing Western technology. When Britain smuggled illicit Indian opium into Canton to pay for Chinese tea, China attempted to resist and was shattered in the **Opium Wars (1839–1860)**.\n   * Plunged into a **\"Century of Humiliation\"**, China was carved into spheres of influence by foreign powers and crippled by apocalyptic internal uprisings (the **Taiping Rebellion**, which claimed 20–30 million lives).\n   * When imperial dynastic reform failed, the 2,000-year-old imperial order was overthrown in the **1911 Revolution** led by **Dr. Sun Yat-sen**. However, fragmented warlordism and Chiang Kai-shek's corrupt Guomindang dictatorship could not resolve agrarian poverty. It took **Mao Zedong's** genius in mobilizing millions of destitute peasants, surviving the epic **Long March (1934–1935)**, and waging protracted rural guerrilla warfare to finally unify China under the **People's Republic of China in 1949**!",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Meiji Modernization vs The Chinese Revolutionary Century Matrix',
-        body: `### 1. Japan\'s Meiji Transformation (1868–1912)
-
-| Dimension | Core Strategic Reforms & Modernizing Architecture | Long-Term Historiographical Significance |
-| :--- | :--- | :--- |
-| **Political Restoration (1868)** | Overthrew Tokugawa Shogunate; restored 15-year-old **Emperor Meiji (Mutsuhito)**; shifted capital from Kyoto to Edo (renamed **Tokyo**); issued **Five Charter Oath (1868)** promising public discussion and knowledge from the world. | Ended 700 years of military feudal rule (*Bakufu*); centralized sovereignty under the imperial throne. |
-| **National Slogan & Mindset** | **"Fukoku Kyohei" ("Enrich the Country, Strengthen the Military")** and **"Bunmei Kaika" ("Civilization and Enlightenment")**. | Total cultural pivot: samurai cut off topknots, adopted Western suits, metric system, and Gregorian calendar. |
-| **Industrialization & Zaibatsu** | State built model textile mills, modern ironworks (Yawata), and railways; sold state factories at low prices to favored merchant families, forming giant private business conglomerates: **Zaibatsu** (**Mitsui, Mitsubishi, Sumitomo, Yasuda**). | Created world\'s fastest industrial revolution without accumulating foreign debt! |
-| **Military & Education** | Abolished samurai privileges; introduced universal male military conscription (1873) with modern firearms; established compulsory universal primary education. | Defeated Qing China (1894–95) and Tsarist Russia (1904–05), stunning the colonial world. |
-| **Constitution (1889)** | Drafted by **Ito Hirobumi** modeled on authoritarian Prussian constitution; Emperor retained supreme command of army/navy (*Diet* parliament was subordinate). | Set the fatal institutional seeds for 1930s militarism and fascism. |
-
----
-
-### 2. China\'s Century of Humiliation & Revolutionary Rebirth (1839–1949)
-* **The Opium Wars (1839–42 & 1856–60):** Britain defeated Qing China, forcing the **Treaty of Nanking (1842)**: ceded Hong Kong, opened treaty ports, extraterritoriality for Europeans.
-* **Internal Upheavals:** **Taiping Rebellion (1850–64)** (Christian millennialist revolt; 20 million dead); **Boxer Rebellion (1899–1901)** (anti-foreign mystic rebellion crushed by 8-nation alliance).
-* **The 1911 Revolution (Xinhai Revolution):** Led by **Dr. Sun Yat-sen**; overthrew the 2,000-year-old Qing imperial dynasty; founded the **Republic of China**.
-  * Sun\'s Three Principles of the People (*San Min Chu-i*): **Nationalism, Democracy, and People\'s Livelihood**.
-* **The May Fourth Movement (1919):** Massive student protests in Beijing against the Versailles Treaty (giving German concessions in Shandong to Japan); catalyzed modern Chinese nationalism, science, and Marxism.
-* **The Chinese Communist Party (CCP) & Mao Zedong:**
-  * CCP founded in Shanghai (1921); civil war with Chiang Kai-shek\'s Nationalist Party (**Kuomintang / KMT**).
-  * **The Long March (1934–35):** Mao Zedong led 80,000 communists on a legendary 6,000-mile tactical retreat to Yan\'an; established Mao\'s undisputed supremacy and revolutionized the strategy: **basing revolution on poor peasants rather than urban factory workers**!
-  * Defeated Japanese invasion (1937–45) and routed KMT (who fled to Taiwan).
-  * On **October 1, 1949**, Mao proclaimed the **People\'s Republic of China (PRC)** from Tiananmen Gate, declaring: *"The Chinese people have stood up!"*`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The Meiji Engine (Japan) vs The Revolutionary Crucible (China)",
+        "body": "### 1. Japan: From Tokugawa Feudalism to the Meiji Miracle (1868–1912)\n\n| Dimension | Pre-Meiji Tokugawa Order (1603–1867) | Meiji Revolutionary Architecture (1868 Onward) |\n| :--- | :--- | :--- |\n| **Political Authority** | Shogun (military dictator) ruled from **Edo** (Tokyo); Emperor was a powerless figurehead in Kyoto; 250 semi-autonomous feudal domains (**Han**) ruled by *Daimyo*. | Feudal *Han* abolished (1871) and replaced by 72 centrally administered **Prefectures**; Emperor restored as sacred national focal point under the 1889 Meiji Constitution (Prussian model). |\n| **Social Structure & Military** | Rigid 4-caste hierarchy (Samurai, Peasants, Artisans, Merchants). Only Samurai could carry swords and serve in war; lived on hereditary rice stipends. | All class distinctions dismantled; samurai stipends commuted to bonds; carrying swords banned (1876); **Universal Military Conscription (1872)** introduced for all 20-year-old males. |\n| **Education & Philosophy** | Restricted to temple schools (*Terakoya*) and samurai academies; Confucian ethics and Dutch learning (*Rangaku*). | **Fundamental Code of Education (1872):** Compulsory 4-year primary schooling for boys and girls (*\"There shall be no community with an illiterate family, nor a family with an illiterate person\"*). Moral training (*Shushin*) inculcated absolute loyalty to the Emperor. |\n| **Economic Development & Zaibatsu** | Agrarian rice economy; strict isolation (*Sakoku*); international commerce restricted to Nagasaki (Dutch/Chinese). | State-directed industrialization: first railway Tokyo–Yokohama (1872); state-built model factories (**Tomioka Silk Mill 1872**); transferred at subsidized prices to trusted private family cartels: **Zaibatsu** (**Mitsubishi, Mitsui, Sumitomo, Yasuda**). |\n| **Imperial Expansion** | National seclusion (*Sakoku*) barring foreigners and prohibiting Japanese from traveling abroad. | Rapid militaristic expansion: **First Sino-Japanese War (1894–95)** (ceded Taiwan); **Russo-Japanese War (1904–05)** (first Asian defeat of European power); **Annexation of Korea (1910)**. |\n\n---\n\n### 2. China: The Century of Humiliation to Sun Yat-sen's Republic (1839–1919)\n* **The Opium Cataclysm (1839–1842):**\n  * Britain had an acute trade deficit with China (buying tea, silk, porcelain using silver). The British East India Company began illicitly smuggling Bengal opium into Canton.\n  * In 1839, Imperial Commissioner **Lin Zexu** seized and destroyed 20,000 chests of British opium in Canton, sparking the **First Opium War**.\n  * **Treaty of Nanking (1842):** China forced to pay 21 million silver dollars indemnity, cede **Hong Kong** island to Britain, open five treaty ports (Canton, Amoy, Foochow, Ningpo, Shanghai), and grant **Extraterritoriality** (British citizens tried under British law, not Chinese courts).\n* **The Taiping Rebellion (1850–1864):**\n  * Led by **Hong Xiuquan**, who claimed to be the younger brother of Jesus Christ. Established the *Taiping Heavenly Kingdom* advocating radical egalitarianism, abolition of private property, land redistribution, and equality of women (banning foot-binding).\n  * Suppressed with British and French assistance; estimated **20 to 30 million deaths**, permanently bankrupting the Qing imperial treasury.\n* **The 1911 Revolution & Dr. Sun Yat-sen:**\n  * In October 1911, the Wuchang uprising overthrew the Qing dynasty, ending 2,000 years of imperial rule. The child-emperor Puyi abdicated in 1912.\n  * **Dr. Sun Yat-sen (1866–1925):** The \"Father of Modern China\"; founded the **Guomindang** (National People's Party / KMT).\n  * Formulated the canonical **Three Principles of the People (*San Min Chu-i*)**:\n    1. **Minzu (Nationalism):** Overthrowing the foreign Manchu dynasty and expelling Western imperialist exploiters.\n    2. **Minquan (Democracy):** Establishing a constitutional, democratic republican government.\n    3. **Minsheng (Socialism / People's Livelihood):** Regulating capital, equalizing land ownership, and preventing exploitative landlordism.\n* **The May Fourth Movement (1919):**\n  * On May 4, 1919, over 3,000 university students in Beijing erupted in massive anti-imperialist protest when the Versailles Peace Conference gave Germany's colonial concessions in Shandong directly to Japan instead of returning them to China.\n  * Popularized the demand for **\"Mr. Science\" (*Sai Xiansheng*)** and **\"Mr. Democracy\" (*De Xiansheng*)**, demanding the wholesale demolition of patriarchal Confucian traditions, foot-binding, and classical literary language in favor of vernacular Chinese (*Baihua*).",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'Mao\'s Peasant Base Innovation & Japan\'s Zaibatsu Monopoly Engine',
-        body: `### 1. Mao\'s Historiographical Innovation: The Peasant Vanguard
-* Classical Marxism (and orthodox Soviet doctrine) insisted that only urban factory workers (the proletariat) could lead a communist revolution; peasants were dismissed as conservative.
-* Mao inverted this doctrine: In agrarian China, the millions of oppressed tenant peasants were the revolutionary army. Mao surrounded the cities from the countryside through guerrilla warfare and rural land reform!
-
-### 2. The Zaibatsu Economic Monopoly Mechanics
-* Family-owned financial-industrial holding companies (Zaibatsu) controlled banking, mining, shipping, and manufacturing in a closed loop.
-* Because the Zaibatsu controlled their own private banks, they funded long-term industrial projects without relying on foreign debt, enabling Japan to maintain absolute political sovereignty.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Maoism, The Long March (1934–35) & The Communist Triumph of 1949",
+        "body": "### 1. The Guomindang (KMT) vs The Chinese Communist Party (CCP)\n* **Founding of the CCP (July 1921):** Founded in Shanghai by radical intellectuals inspired by the Russian Bolshevik Revolution, including Chen Duxiu, Li Dazhao, and a young library assistant from Hunan named **Mao Zedong**.\n* **The First United Front & The 1927 White Terror:**\n  * Soviet Comintern advised the CCP to ally with Sun Yat-sen's KMT to defeat northern warlords (**The Northern Expedition**).\n  * Following Sun Yat-sen's death, right-wing military general **Chiang Kai-shek** seized leadership of the KMT.\n  * In April 1927, Chiang launched the **Shanghai Massacre (\"White Terror\")**, brutally slaughtering thousands of trade unionists and communist leaders, driving the CCP underground.\n\n---\n\n### 2. Mao Zedong & The Peasant-Centric Revolutionary Model\n* **The Orthodox Marxist Dilemma:** Classical Marxism-Leninism dogmatically held that socialist revolutions could ONLY be led by urban industrial factory workers (the proletariat). China's industrial working class was barely 1% of the population.\n* **Mao's Doctrinal Innovation (The Jiangxi Soviet, 1928–1934):**\n  * Mao recognized that the **impoverished, landless peasantry** constituted the true revolutionary volcano in China.\n  * Retreated to the rugged mountains of Jiangxi, forming the **Red Army** and establishing the Chinese Soviet Republic.\n  * Implemented radical agrarian reform: confiscated landlord estates and redistributed land directly to poor peasants, gaining fanatical rural mass allegiance.\n* **The Epic Long March (1934–1935):**\n  * When Chiang Kai-shek launched five massive encirclement campaigns with 500,000 Nationalist troops, the Red Army broke through the blockade on **October 16, 1934**.\n  * An epic military retreat covering over **6,000 miles (approx. 10,000 km)** across 18 mountain ranges, 24 rivers (including the crossing of the Luding suspension bridge), and treacherous marshlands.\n  * Out of 100,000 communist soldiers who departed Jiangxi, barely **8,000 to 10,000 survived** to reach the desolate cave-settlements of **Yan'an** in Shaanxi province.\n  * **Zunyi Conference (January 1935):** During the march, Mao outmaneuvered the Soviet-trained Comintern faction (\"28 Bolsheviks\"), securing undisputed supreme leadership over the CCP and the Red Army.\n* **The Yan'an Way:** In the caves of Yan'an, Mao honed guerrilla warfare tactics (*\"When the enemy advances, we retreat; when the enemy camps, we harass; when the enemy tires, we attack; when the enemy retreats, we pursue\"*), launched mass literacy campaigns, and mobilized women by banning wife-beating and arranged marriages.\n\n---\n\n### 3. Anti-Japanese War (1937–1945) & The Civil War (1946–1949)\n* In 1937, Japan launched a full-scale invasion of mainland China, capturing Beijing, Shanghai, and Nanjing (where Japanese troops committed the horrific **Nanjing Massacre**, murdering an estimated 300,000 civilians and disarmed soldiers).\n* **The Second United Front:** Nationalist and Communist forces formed a temporary alliance. However, Chiang Kai-shek's KMT administration was consumed by rampant corruption, forced conscription of starving peasants, and runaway hyperinflation.\n* In contrast, Mao's Red Army (renamed the **People's Liberation Army / PLA**) fought disciplined rural guerrilla campaigns against Japanese forces, protecting peasant villages.\n* **The Chinese Civil War (1946–1949):**\n  * Following Japan's defeat in World War II, civil war erupted between the KMT (heavily funded by the US) and the PLA.\n  * The corrupt Nationalist army suffered massive troop defections. The PLA swept southward, capturing Beijing, Nanjing, and Shanghai.\n  * Chiang Kai-shek and two million KMT remnants fled across the Taiwan Strait to the island of **Taiwan** (Republic of China).\n  * On **October 1, 1949**, standing atop Tiananmen Gate in Beijing, Mao Zedong officially proclaimed the founding of the **People's Republic of China (PRC)**, declaring: *\"The Chinese people have stood up!\"*",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Meiji Restoration Year & Fukoku Kyohei Meaning',
-        body: `### High-Frequency Traps in East Asian Modernization History
-
-1. **Meiji Restoration Year:**
-   * Occurred in **1868** (NOT 1853, which was Perry's arrival, or 1889, which was the constitution).
-
-2. **Fukoku Kyohei Meaning:**
-   * Japanese slogan meaning **"Enrich the Country, Strengthen the Military"**.
-
-3. **Sun Yat-sen\'s Three Principles:**
-   * **Nationalism, Democracy, and People\'s Livelihood (*San Min Chu-i*)**.
-   * *Trap:* Confusing with Mao's Three Worlds Theory.
-
-4. **Long March Dates:**
-   * **1934 to 1935**, covering 6,000 miles to Yan\'an under Mao Zedong.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Topology of East Asian Modernization: Trajectories, Fiefs & Revolutionary Routes",
+        "body": "Spatial Topology of East Asian Modernization Trajectories:\n\n   [RUSSIA / USSR: Trans-Siberian Railway]\n              |\n              v (Russo-Japanese War 1904-05: Tsushima Strait)\n   [MANCHURIA] <====================================+ (Japanese Invasions: 1931,\n        |                                           |  Manchukuo Puppet State)\n        v                                           |\n   [BEIJING] (May 4th Movement 1919;               |\n              Tiananmen Gate Proclamation 1949)     |\n        |                                           |\n        v                                           |\n   [YAN'AN / SHAANXI] <------+                      |\n   (Long March Destination,  |                      |\n    Cave Headquarters)       |                      |\n        ^                    |                      |\n        | (6,000 Miles)      |                      |\n        |                    |                      |\n   [LUDING BRIDGE]           |                      |\n   (Dadu River Crossing)     |                      |\n        ^                    |                      |\n        |                    |                      |\n   [ZUNYI]                   |                      |\n   (Mao's Ascendancy 1935)   |                      |\n        ^                    |                      |\n        |                    |                      |\n   [JIANGXI SOVIET] ---------+                      |\n   (Peasant Base 1928-34)                           |\n        |                                           |\n        v                                           v\n   [SHANGHAI] -------------> [CANTON / GUANGZHOU] -> [TAIWAN / TAIPEI]\n   (CCP Founded 1921;         (Lin Zexu Opium 1839;  (Chiang Kai-shek KMT\n    White Terror 1927)         Whampoa Academy)       Refuge 1949)\n                                    |\n                                    v\n                               [HONG KONG] (Ceded to UK 1842)\n\n   ======================== [THE SEA OF JAPAN] ========================\n   [JAPAN: TOKYO / EDO] <----> [YOKOHAMA] (Perry's Black Ships 1853; 1st Rail 1872)\n            |\n            v\n   [TOMIOKA] (Model Silk Mill 1872)\n            |\n            v\n   [NAGASAKI] (Dejima Dutch Enclave -> Industrial Shipyards)\n            |\n            v\n   [KOREA: Seoul] (Annexed by Imperial Japan 1910)\n\nSpatial Contrast:\n1. Japan: Compact insular geography enabling lightning administrative integration, unified national rail networks, and coastal shipping connecting raw material imports to Zaibatsu industrial nodes.\n2. China: Continental expanse requiring a 6,000-mile military retreat (Long March) across interior mountain cordilleras and rivers to escape coastal warlord and imperialist enclaves, using vast rural geographic depth as strategic defense.",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "EXAM_APPLICATION",
+        "title": "Examiner Traps, Key Invariants & Standard Answer Frameworks",
+        "body": "### High-Frequency Traps in East Asian Modernization (UPSC & State PSCs)\n\n1. **Fukoku Kyohei vs Shokusan Kogyo (The Japanese Invariants):**\n   * ***Fukoku Kyohei:*** \"Enrich the Country, Strengthen the Military\"—the overarching national geopolitical slogan of the Meiji regime.\n   * ***Shokusan Kogyo:*** \"Encourage Industry\"—the economic program of state-subsidized industrial plants, railways, and telegraphs.\n   * *Examiner Trap:* Confusing the general national slogan with specific industrial policy or attributing it to China!\n\n2. **Zaibatsu Nature & Examples:**\n   * Giant, family-owned financial-industrial conglomerates that monopolized modern Japanese enterprise: **Mitsubishi, Mitsui, Sumitomo, Yasuda**.\n   * *Exam Trap:* Zaibatsu were private family monopolies nurtured by subsidized state contracts and asset sales, NOT state-owned public sector enterprises!\n\n3. **Sun Yat-sen's Three Principles (San Min Chu-i):**\n   * **Minzu:** Nationalism (liberation from foreign imperialist and Manchu rule).\n   * **Minquan:** Democracy (constitutional republican governance).\n   * **Minsheng:** People's Livelihood / Socialism (equalization of land rights, prevention of speculative capital).\n   * *Examiner Trap:* Often misquoted in Prelims as \"Liberty, Equality, Fraternity\" or confusing *Minquan* (Democracy) with *Minsheng* (Livelihood/Socialism).\n\n4. **1842 Treaty of Nanking vs 1895 Treaty of Shimonoseki:**\n   * **Treaty of Nanking (1842):** Ended First Opium War with Britain; ceded **Hong Kong**; 5 treaty ports opened.\n   * **Treaty of Shimonoseki (1895):** Ended First Sino-Japanese War; China ceded **Taiwan** and the Liaodong Peninsula to Japan and recognized Korean independence.\n\n5. **Maoism vs Classical Marxism-Leninism (Core Analytical Trap):**\n   * Classical Marxism: The urban industrial factory working class (*proletariat*) must lead the revolution.\n   * Maoism: In semi-feudal, semi-colonial countries, the **landless rural peasantry** constitutes the vanguard revolutionary force; revolution moves from the countryside to encircle and capture the cities.\n\n---\n\n### Standard Mains Framework: \"Compare the Modernization Trajectories of Japan and China.\"\n1. **Introduction (15 words):** Confronted by 19th-century Western gunboat imperialism, Japan and China adopted diametrically opposing models of institutional modernization.\n2. **State-Directed Top-Down Reform in Japan (40 words):** The 1868 Meiji Restoration dismantled feudal domains, unified administrative control, introduced universal conscription and compulsory schooling, and financed model industries transferred to private Zaibatsu cartels, turning Japan into an imperialist power within 40 years.\n3. **Bottom-Up Peasant Revolution in China (40 words):** Qing imperial resistance led to the Opium Wars, unequal treaties, and Taiping devastation. Sun Yat-sen's 1911 Republic collapsed into warlordism and KMT corruption. Modernization was ultimately achieved only through Mao Zedong's rural peasant mobilization, the Long March, and the 1949 communist victory.\n4. **Conclusion (15 words):** Japan adapted within existing state authority through elite reform, whereas China required the complete destruction and revolutionary recreation of its social order.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-WLD-08-1',
-        statement: 'The Meiji Restoration of 1868 overthrew the Tokugawa Shogunate in Japan, launching rapid state-led industrialization and military modernization under the slogan "Fukoku Kyohei" (Enrich the Country, Strengthen the Military) and Zaibatsu conglomerates.',
-        claimType: 'STATE_MODERNIZATION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-28',
-        excerpt: 'Paths to Modernisation: Japan Meiji Restoration 1868, Fukoku Kyohei, Zaibatsu monopolies.',
+        "id": "CLM-WLD-08-1",
+        "statement": "The 1868 Meiji Restoration transformed Japan from a fragmented feudal shogunate into an industrial empire under the slogan \"Fukoku Kyohei\" (Enrich the Country, Strengthen the Military), implementing universal primary education (1872), military conscription, and fostering family-owned Zaibatsu conglomerates.",
+        "claimType": "STATE_LED_MODERNIZATION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 11: Paths to Modernisation, pp. 235-242",
+        "excerpt": "In 1867-68, the Meiji Restoration ended the Tokugawa shogunate... The government launched a drive under the slogan \"Fukoku Kyohei\" (Enrich the Country, Strengthen the Military)... A new school system began from 1872: schooling was compulsory for boys and girls... Zaibatsu (large business organisations controlled by families) came to dominate the economy."
       },
       {
-        id: 'CLM-WLD-08-2',
-        statement: 'Dr. Sun Yat-sen led the 1911 Xinhai Revolution overthrowing the Qing dynasty, establishing the Republic of China based on the Three Principles of the People (Nationalism, Democracy, People\'s Livelihood).',
-        claimType: 'REVOLUTIONARY_OVERTHROW',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-28',
-        excerpt: 'China 1911 Revolution, Sun Yat-sen Three Principles of the People, end of Qing dynasty.',
+        "id": "CLM-WLD-08-2",
+        "statement": "China's 19th-century \"Century of Humiliation\" was inaugurated by the Opium Wars (1839–1860) and the 1842 Treaty of Nanking, which ceded Hong Kong to Britain, imposed indemnities, and granted extraterritorial commercial privileges to Western powers.",
+        "claimType": "COLONIAL_ENCROACHMENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 11: Paths to Modernisation, pp. 244-246",
+        "excerpt": "The Qing dynasty tried to stop the lucrative trade in British opium from India. Commissioner Lin Zexu seized over 20,000 chests of opium in 1839... The First Opium War (1839-42) ended with the Treaty of Nanking, by which Hong Kong was ceded to Britain and five ports were opened to foreign merchants."
       },
       {
-        id: 'CLM-WLD-08-3',
-        statement: 'Mao Zedong unified the Chinese Communist Party during the Long March (1934–35) by basing the socialist revolution on the peasant masses, culminating in the proclamation of the People\'s Republic of China on October 1, 1949.',
-        claimType: 'PEASANT_REVOLUTION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-28',
-        excerpt: 'The Long March 1934-35, Mao Zedong peasant revolution, proclamation of PRC October 1 1949.',
+        "id": "CLM-WLD-08-3",
+        "statement": "The 1911 Chinese Revolution led by Dr. Sun Yat-sen overthrew the Qing dynasty, establishing a republic anchored in the Three Principles of the People (San Min Chu-i: Nationalism, Democracy, and People's Livelihood/Socialism).",
+        "claimType": "REPUBLICAN_REVOLUTION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 11: Paths to Modernisation, pp. 246-248",
+        "excerpt": "The Manchu empire was overthrown and a republic established in 1911 under Sun Yat-sen, who is universally regarded as the founder of modern China. His programme was based on the Three Principles (San Min Chu-i): nationalism, democracy, and socialism (livelihood)."
       },
+      {
+        "id": "CLM-WLD-08-4",
+        "statement": "The May Fourth Movement of 1919 in Beijing catalyzed modern Chinese radicalism by protesting the Treaty of Versailles decision awarding German concessions in Shandong to Japan, advocating science, democracy, and the eradication of traditional Confucian strictures.",
+        "claimType": "INTELLECTUAL_AWAKENING",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 11: Paths to Modernisation, pp. 247-248",
+        "excerpt": "On 4 May 1919, an angry demonstration was held in Beijing to protest against the decisions of the Versailles peace conference... The demonstration galvanized a whole generation to attack tradition and demand modern science, democracy, and national sovereignty."
+      },
+      {
+        "id": "CLM-WLD-08-5",
+        "statement": "Mao Zedong diverged from traditional Marxist doctrine by anchoring socialist revolution in the rural landless peasantry, surviving the 6,000-mile Long March (1934–1935) to Yan'an, and leading the People's Liberation Army to victory over Chiang Kai-shek's Guomindang to establish the People's Republic of China in 1949.",
+        "claimType": "COMMUNIST_REVOLUTION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 11: Paths to Modernisation, pp. 248-252",
+        "excerpt": "Mao Zedong emerged as a major leader of the CCP. Unlike the Russian model which focused on urban workers, Mao based his revolutionary programme on the peasantry... In 1934-35, the Communists undertook the Long March, covering 6,000 miles to Yan'an... In 1949, the Guomindang was defeated and fled to Taiwan, and the People's Republic of China was proclaimed."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Paths to Modernisation in Japan and China',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Comparison of Meiji Japan and Qing/Communist China is a classic UPSC Mains question.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — World History / Paths to Modernization, Meiji Restoration, Chinese Revolution (1911 & 1949), Imperialism in East Asia",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS",
+        "notes": "UPSC Mains core comparative theme: Contrasting Japanese top-down state-capitalist modernization with China's bottom-up communist peasant revolution, and the geopolitical origins of East Asian power balances."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Modernisation in East Asia',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 10-mark question comparing Japanese and Chinese responses to Western imperialism.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I, Unit 1 — World History / Modernization of East Asia: Japan (Meiji Era) & China (Opium Wars, 1911 Revolution, 1949 Republic)",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Regular 5-mark and 10-mark questions on: What was Fukoku Kyohei? Explain Sun Yat-sen's Three Principles. What was the Long March? Role of Zaibatsu."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — World History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Meiji Restoration year (1868) and People\'s Republic of China founding year (1949).',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — World History / Asian Modernization, Treaties & Leaders",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Direct MCQs on Meiji Restoration year (1868), Treaty of Nanking (1842), San Min Chu-i principles, Long March dates (1934-35), and PRC proclamation date (Oct 1, 1949)."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — Asian Historical Transitions',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'DEVELOPMENT_MODELS',
-        notes: 'Tested on Zaibatsu and Sun Yat-sen\'s Three Principles.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "General Studies — Global Industrial Transformations & Comparative Labor Regimes",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "SOCIO_ECONOMIC_FOUNDATIONS",
+        "notes": "Evolution of industrial organization: Japanese Zaibatsu labor management vs Chinese post-1949 agrarian collectives."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Global Economic Milestones",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "General awareness of East Asian economic history, Zaibatsu corporate structures, and modern industrialization."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — World History',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Asian History & Modern Development",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Static GK coverage on Asian historical milestones."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on East Asian economic modernization.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Models of State-Led Industrialization",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Comparative models of rapid industrial catch-up: Japanese state subsidies and export-oriented textile industrialization."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Industrial conglomerate business models (Zaibatsu).',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic History — Corporate Conglomerates & Banking Systems",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Historical evolution of the Zaibatsu banking and industrial conglomerates in Japan."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'East Asia: Japan Meiji Restoration (1868) = Overthrew Tokugawa Shogunate, capital to Tokyo, slogan "Fukoku Kyohei" (Enrich Country, Strengthen Military), Zaibatsu conglomerates (Mitsubishi, Mitsui), defeated Russia (1905). China: Opium Wars (1839-42, Treaty of Nanking), 1911 Revolution (Sun Yat-sen, 3 Principles: Nationalism, Democracy, Livelihood), May Fourth (1919), Long March (1934-35, Mao peasant vanguard), PRC founded Oct 1, 1949.',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Paths to Modernization (NCERT Class XI Theme 11): 1) Japan: Perry's black ships 1853 -> Meiji Restoration 1868 (\"Fukoku Kyohei\" = Enrich Country, Strengthen Military). Ended Han -> Prefectures, samurai stipends ended, universal conscription 1872, compulsory schooling 1872, Zaibatsu (Mitsubishi, Mitsui), Meiji Constitution 1889 (Prussian model), wars won: China 1895, Russia 1905, Korea annexed 1910. 2) China: Opium Wars (1839-42, Treaty of Nanking cedes HK), Taiping Rebellion (1850-64), 1911 Revolution (Sun Yat-sen, San Min Chu-i: Nationalism, Democracy, Livelihood), May 4th Movement 1919 (Science & Democracy), CCP founded 1921 Shanghai, Chiang Kai-shek White Terror 1927, Mao Jiangxi peasant base -> Long March 1934-35 (6,000 miles to Yan'an, Zunyi Conference), PLA wins Civil War -> PRC proclaimed Oct 1, 1949.",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Paths to East Asian Modernization Blueprint: 1) Japan (Meiji Restoration 1868): Overthrew feudal shogunate; rapidly industrialized under the slogan "Fukoku Kyohei"; created Zaibatsu business empires; adopted modern military and education, defeating Russia in 1905. 2) China (Century of Revolution): Suffered imperialist exploitation following the Opium Wars; Sun Yat-sen overthrew the Qing dynasty in 1911; Mao Zedong reorganized the Communist Party by basing revolution on the peasantry during the Long March (1934–35), establishing the People\'s Republic of China in 1949.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Paths to Modernization (Japan vs China): 1) Japan's State-Led Capitalist Leap: In response to Western gunboat diplomacy (Perry 1853), the 1868 Meiji Restoration dismantled the Tokugawa feudal shogunate. Under \"Fukoku Kyohei\", Japan instituted central prefectures, compulsory schooling, universal conscription, and state-built model factories (Tomioka Silk Mill) sold to family-owned Zaibatsu cartels (Mitsubishi, Mitsui). Armed with the 1889 Prussian-style constitution, Japan rapidly defeated China (1895) and Tsarist Russia (1905). 2) China's Century of Humiliation to Communist Victory: British opium trafficking sparked the Opium Wars (1839-42), imposing unequal treaties (Treaty of Nanking ceded Hong Kong) and triggering catastrophic uprisings (Taiping Rebellion). Dr. Sun Yat-sen overthrew the Qing dynasty in the 1911 Revolution under the Three Principles (San Min Chu-i). After the anti-imperialist May Fourth Movement (1919) and Chiang Kai-shek's 1927 White Terror, Mao Zedong innovated peasant-centered socialism in Jiangxi. Following the heroic 6,000-mile Long March (1934-35) to Yan'an and anti-Japanese guerrilla resistance, the PLA defeated the KMT, founding the People's Republic of China on October 1, 1949.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Divergent Civilizational Adaptation Architecture: 1) Defensive Modernization: Japan adopting Western technological forms to preserve sovereignty without foreign borrowing. 2) Peasant Radicalism: China replacing Confucian imperial bureaucracy with Marxist-Leninist peasant mobilization. 3) Geopolitical Rebalancing: East Asia transitioning from semi-colonized periphery to global industrial centers.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "East Asian Modernization Trajectory Architecture: 1) Institutional Strategy Divergence: Japan mobilized existing imperial legitimacy to execute a top-down, state-guided capitalist industrialization while preserving traditional social hierarchy through moral education (*Shushin*). China experienced imperial collapse, foreign carving, and warlord disintegration, forcing modernization through bottom-up total social revolution. 2) The Economic Motor: Japan leveraged export-oriented silk/textile manufacturing and state-subsidized Zaibatsu cartels; China transitioned from imperial agrarian decay to Maoist land redistribution and rural collective cooperatives. 3) Doctrinal Innovation: Maoism inverted orthodox Marxist theory by establishing that in semi-colonial peasant economies, rural villages can surround and conquer urban industrial centers.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'EAST_ASIA_MCQ',
-        stem: 'In the history of Japanese modernization, which celebrated national slogan was officially championed during the Meiji Restoration of 1868 to guide state-led industrial and military transformation?',
-        options: [
-          '"Fukoku Kyohei" ("Enrich the Country, Strengthen the Military")',
-          '"San Min Chu-i" ("Three Principles of the People")',
-          '"Dvoyevlastiye" ("Dual Power to the State")',
-          '"Mare Nostrum" ("Control of the Inland Sea")'
+        "type": "NCERT_HIST_MCQ",
+        "stem": "With reference to the modernization of Japan during the Meiji era (1868–1912), consider the following statements:\n1. The national drive for modernization was articulated under the slogan \"Fukoku Kyohei\", which meant \"Enrich the Country, Strengthen the Military\".\n2. The Meiji government preserved the autonomous feudal domains (Han) under the hereditary rule of the Daimyo to maintain regional stability.\n3. The Zaibatsu were large family-owned business conglomerates that dominated Japanese industry and finance with state patronage.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "1 and 3 only",
+          "2 and 3 only",
+          "1, 2 and 3"
         ],
-        correctAnswer: '"Fukoku Kyohei" ("Enrich the Country, Strengthen the Military")',
-        explanation: '"Fukoku Kyohei" was the official national slogan of the Meiji Restoration period in Japan, encapsulating the state\'s twin goals of rapid capitalist economic industrialization and building a formidable Western-style standing military.',
-        trapExplanation: 'Option B is Sun Yat-sen\'s Chinese slogan; Option C is Russian for Dual Power; Option D is Roman.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Identifying the Meiji modernization slogan (Fukoku Kyohei).',
+        "correctAnswer": "1 and 3 only",
+        "explanation": "Statements 1 and 3 are correct: The Meiji regime adopted \"Fukoku Kyohei\" as its guiding slogan and nurtured giant family-owned business conglomerates known as Zaibatsu (such as Mitsubishi, Mitsui, Sumitomo, and Yasuda). Statement 2 is incorrect: The Meiji government did NOT preserve feudal domains; in 1871, it abolished the feudal Han and replaced them with centrally appointed governors across Prefectures, stripping the Daimyo of territorial sovereignty.",
+        "trapExplanation": "Examiners often test whether feudal institutions were retained or abolished. The abolition of Han and samurai privileges was the core structural reform of Meiji Japan.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Assuming feudal Han domains were preserved rather than dismantled into modern prefectures."
       },
       {
-        type: 'EAST_ASIA_MCQ',
-        stem: 'What were the "Three Principles of the People" (*San Min Chu-i*) formulated by Dr. Sun Yat-sen that formed the ideological foundation of the 1911 Chinese Revolution?',
-        options: [
-          'Liberty, Equality, Fraternity',
-          'Nationalism, Democracy, and People\'s Livelihood (Social Welfare)',
-          'Peace, Land, and Bread',
-          'Satyagraha, Ahimsa, and Sarvodaya'
+        "type": "NCERT_HIST_MCQ",
+        "stem": "Which of the following events in modern Chinese history is correctly matched with its year and primary historical significance?",
+        "options": [
+          "Treaty of Nanking (1860) — Ceded the island of Taiwan to the British Empire following the Second Opium War",
+          "May Fourth Movement (1919) — Mass student protests in Beijing against the Versailles Treaty, demanding modern science and democracy",
+          "The Long March (1927) — Chiang Kai-shek's military campaign from Guangzhou to Shanghai that defeated the northern warlords",
+          "Proclamation of the People's Republic of China (1911) — Mao Zedong declared a socialist republic following the overthrow of the Qing Dynasty"
         ],
-        correctAnswer: 'Nationalism, Democracy, and People\'s Livelihood (Social Welfare)',
-        explanation: 'Dr. Sun Yat-sen formulated the Three Principles of the People (San Min Chu-i): Minzu (Nationalism - freeing China from imperialist domination and overthrowing the Manchus), Minquan (Democracy - constitutional republic), and Minsheng (People\'s Livelihood - socialism and agrarian welfare).',
-        trapExplanation: 'Option A is French; Option C is Lenin\'s Russian slogan; Option D is Gandhian.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2022,
-        pyqPaper: 'RPSC RAS Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Sun Yat-sen\'s Three Principles of the People definition.',
-      },
-    ],
-  },  // =========================================================================
+        "correctAnswer": "May Fourth Movement (1919) — Mass student protests in Beijing against the Versailles Treaty, demanding modern science and democracy",
+        "explanation": "Option B is correctly matched: On May 4, 1919, students in Beijing protested the decision of the Paris Peace Conference awarding German concessions in Shandong to Japan, launching a cultural and intellectual crusade for \"Mr. Science\" and \"Mr. Democracy\". Option A is incorrect (Treaty of Nanking was in 1842 and ceded Hong Kong, not Taiwan). Option C is incorrect (The Northern Expedition occurred in 1926-28; the Long March was Mao's 1934-35 retreat). Option D is incorrect (The 1911 Revolution established Sun Yat-sen's Republic of China; Mao proclaimed the PRC on October 1, 1949).",
+        "trapExplanation": "Standard examiner traps confuse Hong Kong (1842 Nanking) with Taiwan (1895 Shimonoseki), and Sun Yat-sen's 1911 Republic with Mao's 1949 PRC.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2022,
+        "pyqPaper": "RPSC RAS Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Chronological confusion between 1911 Republic (Sun Yat-sen) and 1949 PRC (Mao Zedong)."
+      }
+    ]
+  },
   // TOPIC 10: The Making of a Global World & Bretton Woods Order
   // =========================================================================
   {
