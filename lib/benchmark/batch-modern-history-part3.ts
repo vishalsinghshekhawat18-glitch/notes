@@ -97,6 +97,43 @@ The critical historical divide between Phase 1 and Phase 2 lies in their ideolog
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Armed Revolutionary Networks: Pan-Indian & Global Corridors',
+        body: `Spatial Topography of Armed Revolutionary Undergrounds (1907–1934):
+
+       [GLOBAL CORRIDORS: SAN FRANCISCO, VANCOUVER, BERLIN, TOKYO]
+       * Ghadar Party (1913: San Francisco - Har Dayal, Sohan Singh Bhakna)
+       * Komagata Maru Route (1914: Hong Kong -> Vancouver -> Budge Budge)
+       * Berlin Committee (1915: Virendranath Chattopadhyaya)
+                      |
+                      | (Smuggled arms, literature & returned emigrants)
+                      v
+       [PUNJAB: Lahore, Ferozepur] <=======> [DELHI: Feroz Shah Kotla]
+       * Saunders Murder (Dec 1928)          * HSRA Manifesto (Sept 1928)
+       * Lahore Conspiracy Trials            * Central Assembly Bombing (April 1929)
+                      |                             |
+                      +--------------+--------------+
+                                     |
+                                     v
+       [UNITED PROVINCES: Kanpur, Kakori, Allahabad]
+       * HRA Foundation (Kanpur 1924: Bismil, Sanyal)
+       * Kakori Train Action (Aug 9, 1925: Lucknow corridor)
+       * Alfred Park Martyrdom (Feb 1931: Azad)
+                                     |
+                                     v
+       [BENGAL PRESIDENCY: Calcutta, Midnapore, Chittagong]
+       * Anushilan & Jugantar (Manicktolla garden house, Alipore Bomb 1908)
+       * Chittagong Armoury Raid (April 18, 1930: Surya Sen, Jalalabad Hill)
+       * Women Revolutionaries (Pritilata Waddedar, Kalpana Datta, Bina Das)
+
+Spatial & Strategic Dynamics:
+1. The Transnational Web: Indian revolutionaries systematically leveraged diaspora networks in California, Canada, and Germany to smuggle weapons, funds, and radical literature into British India.
+2. The Gangetic Railway Axis: The HRA and HSRA operated along the East Indian Railway network (Lahore to Calcutta), conducting armed expropriations (Kakori) and distributing socialist pamphlets across university hubs.
+3. The Chittagong Maritime Redoubt: Surya Sen exploited the isolated coastal and hilly geography of Chittagong to sever all rail and telegraph communications with Bengal, holding colonial power at bay for days.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Traps, Chronological Sequences & Examiner Pitfalls',
         body: `### ⚠️ Top 5 High-Frequency Traps for UPSC & State PCS
@@ -122,7 +159,7 @@ The critical historical divide between Phase 1 and Phase 2 lies in their ideolog
 
 5. **Chronological Milestone Sequence:**
    $$\\mathbf{1908} \\text{ (Alipore Bomb Case)} \\implies \\mathbf{1913} \\text{ (Ghadar Party)} \\implies \\mathbf{1914} \\text{ (Komagata Maru)} \\implies \\mathbf{1924} \\text{ (HRA Founded)} \\implies \\mathbf{1925} \\text{ (Kakori Action)} \\implies \\mathbf{1928} \\text{ (HSRA / Saunders)} \\implies \\mathbf{1929} \\text{ (Assembly Bomb / Jatin Das)} \\implies \\mathbf{1930} \\text{ (Chittagong Raid)}$$`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -133,8 +170,8 @@ The critical historical divide between Phase 1 and Phase 2 lies in their ideolog
         claimType: 'ORGANIZATIONAL_EVOLUTION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Revolutionary movement: Anushilan Samiti, Alipore Bomb Case 1908, Ghadar Party San Francisco 1913, Komagata Maru 1914.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "Freedom is our birthright" / Revolutionary Violence, p. 100',
+        excerpt: 'A radical group within the national movement suggested that the use of violence was necessary to make the British leave the country; secret societies of revolutionaries were formed in Bengal and Maharashtra, while the Ghadar Party organized abroad.',
       },
       {
         id: 'CLM-MOD-13-2',
@@ -142,8 +179,8 @@ The critical historical divide between Phase 1 and Phase 2 lies in their ideolog
         claimType: 'ORGANIZATIONAL_FORMATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'HRA Kanpur 1924, Kakori train action 1925, HSRA Delhi Feroz Shah Kotla 1928, Saunders murder, Assembly bomb 1929.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "It takes a loud voice to make the deaf hear", p. 107',
+        excerpt: 'Revolutionary nationalists such as Bhagat Singh, Chandra Shekhar Azad, Sukhdev and others wanted to fight colonial rule and the rich exploiting classes through a revolution of workers and peasants. For this purpose, they founded the Hindustan Socialist Republican Association (HSRA) in 1928 at Ferozeshah Kotla in Delhi.',
       },
       {
         id: 'CLM-MOD-13-3',
@@ -151,8 +188,8 @@ The critical historical divide between Phase 1 and Phase 2 lies in their ideolog
         claimType: 'ARMED_INSURRECTION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Chittagong Armoury Raid April 1930 Surya Sen, Indian Republican Army, Pritilata Waddedar, Kalpana Datta.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: Women in the National Movement / Women Revolutionaries, p. 106',
+        excerpt: 'Women participated actively in the armed revolutionary movement; in Bengal, young women like Pritilata Waddedar and Kalpana Datta fought alongside Surya Sen in the Chittagong armoury raid and guerrilla actions against British security forces.',
       },
     ],
     examMappings: [
@@ -387,6 +424,41 @@ Bose understood that armed liberation without sovereign institutional legitimacy
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: "Geopolitical Topology of Subhas Chandra Bose's Epic Odyssey & The INA Forward March",
+        body: `Spatial Trajectory of Netaji Subhas Chandra Bose & The Azad Hind Fauj (1941–1945):
+
+       [CALCUTTA: Elgin Road House Arrest] 
+                      |
+                      v (The Great Escape: Jan 16-17, 1941 - as "Ziauddin")
+       [PESHAWAR & KABUL] ---> [MOSCOW] ---> [BERLIN: Free India Centre & Legion]
+                                                   |
+                                                   | (Submarine Voyage: U-180 to I-29, 1943)
+                                                   v
+       [MADAGASCAR OCEANIC RENDEZVOUS] ----> [SINGAPORE: Oct 21, 1943]
+                                             (Provisional Govt of Free India;
+                                              Supreme Command of INA / Azad Hind)
+                                                   |
+                                                   v
+                             [BURMA: Rangoon Advance Headquarters (1944)]
+                                                   |
+       +-------------------------------------------+-------------------------------------------+
+       |                                                                                       |
+       v ("Chalo Dilli" March across Arakan Mountains)                                         v
+   [KOHIMA & IMPHAL FRONTIER: MARCH-JUNE 1944]                                 [ANDAMAN & NICOBAR ISLANDS]
+   * INA soldiers hoist Tricolour on Indian soil                               * Handed to Netaji by Japan (1943)
+   * Joint offensive with Japanese 15th Army                                   * Renamed:
+   * Crushed by monsoon cutoff, malaria, air superiority                         - Shahid Dweep (Andaman)
+                                                                                 - Swaraj Dweep (Nicobar)
+
+Spatial & Strategic Dynamics:
+1. The Continental & Oceanic Escape: Netaji's multi-modal journey (train through UP, car to Peshawar, trek across Hindu Kush, train to Moscow/Berlin, and 90-day submarine voyage) linked anti-British resistance to Axis geopolitical rivalry.
+2. The Southeast Asian Base: Mobilizing 2 million Indian diaspora civilians across Malaya, Singapore, and Burma provided the INA with financial independence (Total Mobilization) and recruits (Rani of Jhansi Regiment).
+3. The Imphal Bottleneck: The failure to capture Imphal before the onset of torrential monsoon rains cut off mountain supply lines, forcing a disastrous logistical retreat through the Burmese jungle.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Traps, Chronological Sequences & Examiner Pitfalls',
         body: `### ⚠️ Top 5 High-Frequency Traps for UPSC & State PCS
@@ -409,7 +481,7 @@ Bose understood that armed liberation without sovereign institutional legitimacy
 
 5. **Chronological Milestone Sequence:**
    $$\\mathbf{1938} \\text{ (Haripura)} \\implies \\mathbf{1939} \\text{ (Tripuri / Forward Bloc)} \\implies \\mathbf{1941} \\text{ (Great Escape to Berlin)} \\implies \\mathbf{1942} \\text{ (Mohan Singh INA)} \\implies \\mathbf{1943} \\text{ (Netaji in Singapore / Azad Hind Govt)} \\implies \\mathbf{1944} \\text{ (Imphal Campaign / Moirang)} \\implies \\mathbf{1945} \\text{ (Red Fort Trials)} \\implies \\mathbf{1946} \\text{ (RIN Mutiny)}$$`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -420,8 +492,8 @@ Bose understood that armed liberation without sovereign institutional legitimacy
         claimType: 'POLITICAL_LEADERSHIP',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Subhas Chandra Bose: Haripura 1938, Tripuri 1939 defeat of Pattabhi Sitaramayya, Forward Bloc 1939.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: Subhas Chandra Bose and the INA, pp. 109-111',
+        excerpt: 'A radical nationalist, with socialist leanings, Bose was elected Congress president at Haripura in 1938 and again at Tripuri in 1939, defeating Gandhi’s candidate Pattabhi Sitaramayya, but differences with the Working Committee led him to resign and form the Forward Bloc.',
       },
       {
         id: 'CLM-MOD-14-2',
@@ -429,8 +501,8 @@ Bose understood that armed liberation without sovereign institutional legitimacy
         claimType: 'MILITARY_ORGANIZATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'INA Mohan Singh 1942, Subhas Chandra Bose 1943 Singapore, Azad Hind government, Rani of Jhansi regiment.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: Subhas Chandra Bose and the INA / Arzi Hukumat-e-Azad Hind, p. 110',
+        excerpt: 'In July 1943, Subhas Chandra Bose arrived in Singapore to take over the leadership of the Indian National Army (Azad Hind Fauj). He formed the Provisional Government of Free India and declared war on Britain and the United States, giving the battle cry "Chalo Dilli"!',
       },
       {
         id: 'CLM-MOD-14-3',
@@ -438,8 +510,8 @@ Bose understood that armed liberation without sovereign institutional legitimacy
         claimType: 'HISTORICAL_CONSEQUENCE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'INA Red Fort trials 1945: Sahgal, Dhillon, Shah Nawaz Khan; Bhulabhai Desai defense; RIN Mutiny 1946.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: Towards Freedom and Partition / The INA Trials, p. 111',
+        excerpt: 'The British trial of INA officers – Prem Kumar Sahgal, Gurbaksh Singh Dhillon and Shah Nawaz Khan – at the Red Fort in Delhi provoked an unprecedented wave of popular sympathy and protests across India, uniting all political parties and shaking the British armed forces.',
       },
     ],
     examMappings: [
@@ -656,6 +728,42 @@ $$\\mathbf{1909} \\text{ (Muslims)} \\implies \\mathbf{1919} \\text{ (Sikhs, Chr
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Colonial Constitutional Engineering (1909–1935)',
+        body: `Spatial Topography of British Constitutional Acts & Communal Electorates:
+
+       ================== THE THREE CONSTITUTIONAL PILLARS ==================
+       
+       [1909: INDIAN COUNCILS ACT (MORLEY-MINTO)]
+       * Scope: Imperial & Provincial Councils enlarged
+       * Communal Cartography: Separate Electorates for MUSLIMS introduced
+       * Imperial Intent: Drive wedge between Muslim elite and Congress
+              |
+              v
+       [1919: GOVERNMENT OF INDIA ACT (MONTAGU-CHELMSFORD)]
+       * Territorial Scope: 8 Major British Provinces
+       * Provincial DYARCHY:
+         - Reserved: Police, Revenue, Justice (European Executive Councillors)
+         - Transferred: Education, Health, Local Self-Govt (Indian Ministers)
+       * Communal Expansion: Separate electorates extended to SIKHS, ANGLO-INDIANS,
+         INDIAN CHRISTIANS, and EUROPEANS; Bicameral Central Legislature
+              |
+              v
+       [1935: GOVERNMENT OF INDIA ACT]
+       * All-India Federation proposed (British Provinces + Princely States; never materialized)
+       * Provincial Autonomy: Abolished dyarchy in provinces; full ministerial governance
+       * Central Dyarchy: Proposed for federal subjects (Foreign Affairs, Defence reserved)
+       * Threefold Legislative Lists: Federal List (59), Provincial List (54), Concurrent List (36)
+       * Residuary Powers: Vested exclusively in the GOVERNOR-GENERAL in personal discretion
+
+Spatial & Strategic Dynamics:
+1. Fragmentation of Electoral Space: Each successive Act geographically and communally fragmented the electorate, multiplying sectarian constituencies to prevent a unified anti-colonial legislative majority.
+2. The Princely Federation Veto: The 1935 Act conditioned the Federal Legislature on 50% of princely states joining by population, allowing feudal autocrats to block responsible federal governance.
+3. Bureaucratic Overlordship: Despite "Provincial Autonomy", British Governors retained sweeping discretionary vetoes, ordinance powers, and the authority to suspend provincial ministries under Section 93.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Traps, Chronological Sequences & Examiner Pitfalls',
         body: `### ⚠️ Top 5 High-Frequency Traps for UPSC & State PCS
@@ -678,7 +786,7 @@ $$\\mathbf{1909} \\text{ (Muslims)} \\implies \\mathbf{1919} \\text{ (Sikhs, Chr
 
 5. **Establishment of Institutions Timeline:**
    $$\\mathbf{1926} \\text{ (Central Public Service Commission - 1919 Act)} \\implies \\mathbf{1935} \\text{ (Reserve Bank of India - RBI Act 1934)} \\implies \\mathbf{1937} \\text{ (Federal Court of India - 1935 Act)}$$`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -689,8 +797,8 @@ $$\\mathbf{1909} \\text{ (Muslims)} \\implies \\mathbf{1919} \\text{ (Sikhs, Chr
         claimType: 'CONSTITUTIONAL_PROVISION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Morley-Minto Reforms 1909: Separate electorates for Muslims, S.P. Sinha appointed to Viceroy\'s council.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: The Emergence of Nationalism / Legislative Councils, pp. 96-98',
+        excerpt: 'The colonial government introduced the Indian Councils Act of 1909, creating separate electorates for Muslims which allowed communal representation in legislatures, while Satyendra Prasanna Sinha became the first Indian to join the Viceroy’s Executive Council.',
       },
       {
         id: 'CLM-MOD-15-2',
@@ -698,8 +806,8 @@ $$\\mathbf{1909} \\text{ (Muslims)} \\implies \\mathbf{1919} \\text{ (Sikhs, Chr
         claimType: 'CONSTITUTIONAL_PROVISION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Government of India Act 1919: Dyarchy in provinces, reserved and transferred subjects, bicameral legislature.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: The Advent of Mahatma Gandhi / Montague-Chelmsford Reforms, pp. 101-103',
+        excerpt: 'The Government of India Act 1919 introduced Dyarchy in the provinces, dividing executive subjects into reserved departments administered by the governor and transferred departments administered by Indian ministers, while creating a bicameral central legislature.',
       },
       {
         id: 'CLM-MOD-15-3',
@@ -707,8 +815,8 @@ $$\\mathbf{1909} \\text{ (Muslims)} \\implies \\mathbf{1919} \\text{ (Sikhs, Chr
         claimType: 'CONSTITUTIONAL_PROVISION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Government of India Act 1935: Provincial autonomy, abolition of provincial dyarchy, Federal Court 1937, Reserve Bank.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: Towards Freedom and Partition / The 1935 Act, pp. 108-110',
+        excerpt: 'The Government of India Act of 1935 prescribed provincial autonomy and the government announced elections to the provincial legislatures in 1937. The Act also provided for a federal court established in 1937 and the creation of the Reserve Bank of India.',
       },
     ],
     examMappings: [
@@ -913,6 +1021,38 @@ Gandhian Satyagraha operated on a psychological mechanism that paralyzed the Bri
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: "Geopolitical Topology of Early Gandhian Satyagrahas & The Rowlatt Uprising (1917–1919)",
+        body: `Spatial Geography of Mahatma Gandhi's Early Experiments & The 1919 Crucible:
+
+                     [PUNJAB: Amritsar & Lahore]
+                     * Anti-Rowlatt hartal (April 6, 1919)
+                     * Jallianwala Bagh Massacre (April 13, 1919: Dyer)
+                     * Martial Law & Crawling Orders
+                                   |
+                                   v
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [GUJARAT: The Ashramic Base]                        [BIHAR: Gangetic Indigo Belt]
+   * Ahmedabad (Feb 1918): Cotton Mill Strike          * Champaran (April 1917):
+     (First Hunger Strike; 35% wage hike)                First Civil Disobedience;
+   * Kheda (March 1918): Agrarian Satyagraha             Raj Kumar Shukla invitation;
+     (First Non-Cooperation; revenue remission)          Inquiry committee abolishes Tinkathia
+       |
+       v
+   [DELHI & BOMBAY: Imperial Centers]
+   * Imperial Legislative Council passes Rowlatt Act (March 1919: "No Dalil, No Vakil, No Appeal")
+   * Satyagraha Sabha formed in Bombay; All-India Hartal April 6, 1919
+
+Spatial & Strategic Dynamics:
+1. Micro-Regional Laboratory to Pan-Indian Stage: Gandhi tested non-violent techniques first on isolated rural peasants (Champaran), urban mill workers (Ahmedabad), and peasant proprietors (Kheda) before launching a pan-Indian movement.
+2. The Canal Colony & Railway Strike: The anti-Rowlatt movement paralyzed major transport nodes in Punjab and Bombay, demonstrating for the first time that urban workers and railway men could enforce total political shutdowns.
+3. The Amritsar Shockwave: Dyer's butchery at Jallianwala Bagh on Baisakhi day shattered forever the moral legitimacy of British rule, converting loyalist moderates (Tagore, Nehru) into resolute anti-colonialists.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Traps, Chronological Sequences & Examiner Pitfalls',
         body: `### ⚠️ Top 5 High-Frequency Traps for UPSC & State PCS
@@ -938,7 +1078,7 @@ Gandhian Satyagraha operated on a psychological mechanism that paralyzed the Bri
 5. **Title Renunciations:**
    * **Rabindranath Tagore:** Renounced his **Knighthood**.
    * **Mahatma Gandhi:** Renounced his **Kaiser-i-Hind** medal (awarded for ambulance services in the Boer War).`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -949,8 +1089,8 @@ Gandhian Satyagraha operated on a psychological mechanism that paralyzed the Bri
         claimType: 'CHRONOLOGICAL_SEQUENCE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-20',
-        excerpt: 'Nationalism in India: Champaran 1917, Ahmedabad Mill Strike 1918, Kheda Satyagraha 1918.',
+        locator: 'NCERT Class X India and the Contemporary World – II, Chapter 2: Nationalism in India, Section: The Idea of Satyagraha, pp. 30-31',
+        excerpt: 'In 1917 Mahatma Gandhi travelled to Champaran in Bihar to inspire the peasants to struggle against the oppressive plantation system. Then in 1918, he organised a satyagraha to support the peasants of the Kheda district of Gujarat... In 1918, Mahatma Gandhi went to Ahmedabad to organise a satyagraha movement amongst cotton mill workers.',
       },
       {
         id: 'CLM-MOD-16-2',
@@ -958,8 +1098,8 @@ Gandhian Satyagraha operated on a psychological mechanism that paralyzed the Bri
         claimType: 'LEGAL_REPRESSION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-20',
-        excerpt: 'Rowlatt Act 1919 detention without trial, Rowlatt Satyagraha April 6 1919, Satyagraha Sabha.',
+        locator: 'NCERT Class X India and the Contemporary World – II, Chapter 2: Nationalism in India, Section: The Rowlatt Act, pp. 31-32',
+        excerpt: 'The Rowlatt Act had been hurriedly passed through the Imperial Legislative Council despite the united opposition of the Indian members. It gave the government enormous powers to repress political activities, and allowed detention of political prisoners without trial for two years. Mahatma Gandhi wanted non-violent civil disobedience against such unjust laws, which would start with a hartal on 6 April.',
       },
       {
         id: 'CLM-MOD-16-3',
@@ -967,8 +1107,8 @@ Gandhian Satyagraha operated on a psychological mechanism that paralyzed the Bri
         claimType: 'HISTORICAL_EVENT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-20',
-        excerpt: 'Jallianwala Bagh Massacre April 13 1919 General Dyer, Tagore renounced Knighthood, Hunter Commission.',
+        locator: 'NCERT Class X India and the Contemporary World – II, Chapter 2: Nationalism in India, Section: The Rowlatt Act / Jallianwalla Bagh Massacre, pp. 31-33',
+        excerpt: 'On 13 April the infamous Jallianwalla Bagh incident took place. On that day a large crowd gathered in the enclosed ground of Jallianwalla Bagh... Dyer entered the area, blocked the exit points, and opened fire on the crowd, killing hundreds. His object, as he declared later, was to "produce a moral effect", to create in the minds of satyagrahis a feeling of terror and awe.',
       },
     ],
     examMappings: [
@@ -1199,6 +1339,38 @@ $$\\text{Colonial Power} = \\frac{\\text{Military Coercion}}{\\text{Voluntary Na
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Non-Cooperation & Khilafat Movement (1920–1922)',
+        body: `Spatial Diffusion of the Non-Cooperation & Khilafat Movement Across British India:
+
+                     [PUNJAB & NORTH-WEST]
+                     * Akali Movement (Gurdwara liberation from Mahants)
+                     * Resignation of government titles & school boycotts
+                                   |
+                                   v
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [UNITED PROVINCES: The Agrarian Storm]              [BENGAL: Educational & Labor Boycott]
+   * Kisan Sabha & Eka Movement (Madari Pasi)          * C.R. Das leadership; National schools
+   * Massive picketing of liquor & foreign cloth shops * Midnapore peasant anti-tax revolt
+   * CHAURI CHAURA (Feb 5, 1922: Gorakhpur)             * Steamer strikes in Chandpur
+     22 police killed; Gandhi ends movement Bardoli
+       |                                                       |
+       v                                                       v
+   [CENTRAL & WESTERN INDIA: Gujarat & Maharashtra]    [SOUTH INDIA: Andhra & Malabar]
+   * Bardoli Taluka (no-tax preparations)              * Guntur No-Tax Campaign & Forest Satyagraha
+   * Tilak Swaraj Fund collects ₹1 Crore               * Alluri Sitarama Raju (Rampa Rebellion)
+   * Bonfires of Lancashire textiles                   * Moplah Rebellion (Malabar 1921: Khilafat revolt)
+
+Spatial & Strategic Dynamics:
+1. The Congress-Khilafat Coalition: Uniting nationalist agitation with the Pan-Islamic Khilafat issue created unprecedented Hindu-Muslim fraternal unity across North and South India.
+2. Grassroots Peasant Autonomy: Rural uprisings (UP Kisan Sabhas, Rampa forest rebellion, Moplah revolt) often broke past Gandhi's strictly non-violent strictures, transforming the movement into an agrarian revolution against zamindars.
+3. The Chauri Chaura Crossroads: By abruptly suspending the movement after the burning of the Gorakhpur police station, Gandhi preserved his absolute commitment to satyagraha while frustrating radical youth and triggering the formation of the Swaraj Party.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Traps, Chronological Sequences & Examiner Pitfalls',
         body: `### ⚠️ Top 5 High-Frequency Traps for UPSC & State PCS
@@ -1224,7 +1396,7 @@ $$\\text{Colonial Power} = \\frac{\\text{Military Coercion}}{\\text{Voluntary Na
 
 5. **Chronological Milestone Sequence:**
    $$\\mathbf{1919} \\text{ (All-India Khilafat Conference, Delhi)} \\implies \\mathbf{\\text{Aug 1, } 1920} \\text{ (NCM launched / Tilak passes)} \\implies \\mathbf{\\text{Sept } 1920} \\text{ (Calcutta Special Session)} \\implies \\mathbf{\\text{Dec } 1920} \\text{ (Nagpur Session)} \\implies \\mathbf{1921} \\text{ (Moplah Rebellion / Prince of Wales boycott)} \\implies \\mathbf{\\text{Feb 5, } 1922} \\text{ (Chauri Chaura)} \\implies \\mathbf{\\text{Feb 12, } 1922} \\text{ (Bardoli Resolution)} \\implies \\mathbf{\\text{March } 1922} \\text{ (Gandhi sentenced to 6 yrs)}$$`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -1235,8 +1407,8 @@ $$\\text{Colonial Power} = \\frac{\\text{Military Coercion}}{\\text{Voluntary Na
         claimType: 'MASS_MOVEMENT_FOUNDATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-20',
-        excerpt: 'Non-Cooperation Movement: Khilafat issue, Nagpur session 1920 constitutional changes, boycott of schools and courts.',
+        locator: 'NCERT Class X India and the Contemporary World – II, Chapter 2: Nationalism in India, Section: Differing Strands within the Movement, pp. 33-35',
+        excerpt: 'At the Calcutta session of the Congress in September 1920, Gandhi convinced other leaders of the need to start a non-cooperation movement in support of Khilafat as well as for swaraj. At the Congress session at Nagpur in December 1920, a compromise was worked out and the Non-Cooperation programme was adopted.',
       },
       {
         id: 'CLM-MOD-17-2',
@@ -1244,8 +1416,8 @@ $$\\text{Colonial Power} = \\frac{\\text{Military Coercion}}{\\text{Voluntary Na
         claimType: 'ORGANIZATIONAL_RESTRUCTURING',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-20',
-        excerpt: 'Nagpur session 1920: Swaraj by peaceful means, linguistic PCCs, 15-member CWC, Tilak Swaraj Fund.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: A Leader Announces Himself / Making of Non-Cooperation, pp. 347-350',
+        excerpt: 'At the Nagpur Congress of 1920, the organization underwent a structural transformation: membership was opened to all for a token fee of four annas, a Working Committee of 15 members was instituted to direct affairs, and Provincial Congress Committees were organized on a linguistic basis.',
       },
       {
         id: 'CLM-MOD-17-3',
@@ -1253,8 +1425,8 @@ $$\\text{Colonial Power} = \\frac{\\text{Military Coercion}}{\\text{Voluntary Na
         claimType: 'HISTORICAL_CONSEQUENCE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-20',
-        excerpt: 'Chauri Chaura incident February 1922, 22 policemen killed, Bardoli resolution withdrawal of movement.',
+        locator: 'NCERT Class X India and the Contemporary World – II, Chapter 2: Nationalism in India, Section: Chauri Chaura & Withdrawal of the Movement, p. 38',
+        excerpt: 'In February 1922, Mahatma Gandhi decided to withdraw the Non-Cooperation Movement. He felt the movement was turning violent in many places and satyagrahis needed to be properly trained before they would be ready for mass struggles; at Chauri Chaura in Gorakhpur, a peaceful demonstration turned into a violent clash with the police leading to the burning of the police station and death of 22 policemen.',
       },
     ],
     examMappings: [
