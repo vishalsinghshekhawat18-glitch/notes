@@ -906,247 +906,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 5: Religious & Devotional Synthesis: Bhakti and Sufi Movements
   // =========================================================================
   {
-    id: 'CON-MED-05',
-    slug: 'bhakti-and-sufi-movements-saguna-nirguna-and-silsila-traditions',
-    title: 'The Devotional Revolution: Saguna vs Nirguna Bhakti, Virashaivism, and the Major Sufi Silsilas (Chishti & Suhrawardi)',
-    shortDefinition: 'Medieval devotional reform traditions: Tamil Alvar (Vaishnava) and Nayanar (Shaiva) origins, Saguna (form) vs Nirguna (formless) Bhakti duality, Basavanna\'s Virashaiva/Lingayat reform, North Indian saint-poets (Kabir, Guru Nanak, Mirabai, Chaitanya), and Islamic Sufism (Khanqah, Silsilas: Chishti, Suhrawardi, Qadiri, Naqshbandi; Ziyarat & Sama).',
-    difficulty: 'ADVANCED',
-    order: 5,
-    topicSlug: 'bhakti-and-sufi-movements',
-    contentBlocks: [
+    "id": "CON-MED-05",
+    "slug": "bhakti-and-sufi-movements-saguna-nirguna-and-silsila-traditions",
+    "title": "The Devotional Revolution: Saguna vs Nirguna Bhakti, Virashaivism, and the Major Sufi Silsilas (Chishti & Suhrawardi)",
+    "shortDefinition": "Authoritative NCERT Class XII Theme 6 (*Bhakti-Sufi Traditions: Changes in Religious Beliefs and Devotional Texts*) synthesis: South Indian genesis of devotionalism with Tamil Alvars (Vaishnava, *Nalayira Divya Prabandham*, Andal) and Nayanars (Shaiva, *Tevaram*, Karaikkal Ammaiyar); Basavanna's 12th-century Virashaiva / Lingayat egalitarian movement in Karnataka (*Vachanas*, *Ishtalinga*, rejection of rebirth); the fundamental distinction between Saguna (anthropomorphic form: Mirabai, Tulsidas, Chaitanya, Surdas) and Nirguna (formless monotheism: Kabir, Guru Nanak); Shankaradeva's *Ekasarana Dharma* and *Sattras* in Assam; and Islamic mysticism (*Tasawwuf*): Khanqah institutional life, *Ziyarat*, *Sama*, and the four major Silsilas (Chishti, Suhrawardi, Qadiri, Naqshbandi).",
+    "difficulty": "ADVANCED",
+    "order": 5,
+    "topicSlug": "bhakti-and-sufi-movements",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'Bypassing the Priestly Middlemen: Direct Love for the Divine',
-        body: `For over a millennium, institutional religion across the Indian subcontinent was locked behind rigid barriers:
-* High-caste Brahmin priests conducted esoteric rituals in classical Sanskrit, a language ordinary peasants and weavers could not understand.
-* Orthodoxy enforced strict untouchability, shutting lower castes and women out of temple sanctums.
-* In Islamic lands, orthodox clerics (*Ulama*) focused heavily on strict legalism (*Shariat*) and scholastic jurisprudence.
-
-Between the 6th and 17th centuries, an immense spiritual tidal wave crashed over India: the **Bhakti and Sufi Movements**.
-
-The revolutionary core of both movements was identical:
-1. **Direct Personal Love (*Bhakti / Ishq*):** God does not require temple sacrifices, animal slaughter, or Sanskrit mantras; God requires pure, unadorned inner devotion.
-2. **Vernacular Democratization:** Saints abandoned elite languages (Sanskrit and Arabic) and composed passionate poetry in everyday spoken tongues: Tamil, Hindi, Punjabi, Bengali, Marathi, and Awadhi.
-3. **Universal Egalitarianism:** God makes no distinction between king and cobbler, Brahmin and untouchable. A cobbler saint like Ravidas or a weaver saint like Kabir stood equal to any learned pandit.`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "Bypassing the Priestly Middlemen: Direct Love for the Divine",
+        "body": "For over a millennium, institutional religion across the Indian subcontinent was locked behind rigid institutional barriers:\n* High-caste Brahmin priests conducted esoteric rituals in classical Sanskrit, a liturgical language completely inaccessible to ordinary peasants, artisans, and women.\n* Orthodox social structures enforced rigid untouchability, barring subaltern castes and women from entering temple sanctums or studying sacred scriptures.\n* In Islamic lands, orthodox clerics (*Ulama*) focused predominantly on strict scholastic legalism (*Shariat*), judicial doctrine, and formal compliance.\n\nBetween the 8th and 17th centuries, an immense spiritual and social revolution swept across India: the **Bhakti and Sufi Movements**.\n\nThe transformative core of both traditions was fundamentally egalitarian:\n1. **Direct Personal Devotion (*Bhakti / Ishq*):** God does not dwell in stone idols, elaborate sacrificial fires (*yajnas*), or pedantic legalistic arguments; the divine is attained solely through genuine, unmediated personal love and self-surrender.\n2. **Vernacular Democratization:** Saint-poets deliberately discarded elite liturgical tongues (Sanskrit and Arabic) to sing passionate devotional poetry in the everyday living dialects of the masses: Tamil, Kannada, Marathi, Hindi, Braj Bhasha, Awadhi, Punjabi, and Assamese.\n3. **Universal Social Equality:** The divine makes no distinction between king and cobbler, Brahmin and untouchable. A cobbler saint like Ravidas, a weaver saint like Kabir, or a low-caste tailor saint like Namdev stood as spiritual equals—or superiors—to the most learned theologians.",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Saguna vs Nirguna Matrix & The 4 Major Sufi Silsilas',
-        body: `### 1. South Indian Genesis: Alvars and Nayanars (6th–9th Centuries CE)
-* **Alvars (12 Saints):** Devotees of **Vishnu**; wandered from shrine to shrine singing praises. Master scripture: **Nalayira Divya Prabandham** (compiled by Nathamuni; hailed as the "Tamil Veda"). Famous saints: Nammalvar, Periyalvar, and **Andal** (the only female Alvar, who saw herself as the bride of Ranganatha).
-* **Nayanars (63 Saints):** Devotees of **Shiva**. Master scripture: **Tevaram** (compiled by Nambiyandar Nambi). Famous saints: Appar, Sambandar, Sundarar, and **Karaikkal Ammaiyar** (ascetic female saint who renounced physical beauty).
-
-### 2. The Virashaiva / Lingayat Movement (Karnataka, 12th Century)
-* Initiated by **Basavanna** (a minister in Kalachuri court) alongside Allama Prabhu and Akka Mahadevi.
-* **Radical Reform:** Questioned the caste system, rejected Brahminical ritual superiority, rejected rebirth (*Karma*), permitted widow remarriage and post-puberty marriage, and buried their dead instead of cremating.
-* Devotees wear a small linga in a silver capsule on a cord around their neck. Taught via Kannada devotional prose poems called **Vachanas**.
-
-### 3. The Dual Paths: Saguna vs Nirguna Bhakti
-
-| Parameter | Saguna Bhakti (Devotion with Form & Attributes) | Nirguna Bhakti (Devotion without Form / Abstract) |
-| :--- | :--- | :--- |
-| **Philosophical View of God** | Manifests as an anthropomorphic deity with human emotions, avatars (*Avatara*), and heroic narratives. | Transcendent, unmanifest, omnipresent, formless Supreme Reality (*Shabda, Satnam, Brahman*). |
-| **Idol Worship & Rituals** | Endorses temple worship, image contemplation, and singing liturgical hymns (*Kirtans*). | **Vehemently rejects idol worship**, caste segregation, sacred threads, pilgrimages, and priestly rituals. |
-| **Key Saint-Philosophers** | **Tulsidas** (Ramcharitmanas), **Surdas** (Sursagar), **Mirabai** (Krishna devotee), **Chaitanya Mahaprabhu** (Gaudiya Vaishnavism), **Shankaradeva** (Assam, Ekasarana Dharma). | **Kabir** (Bijak, dohas in Sakhis and Sabads), **Guru Nanak** (Adi Granth, founder of Sikhism), **Dadu Dayal**, **Sant Ravidas**. |
-
-### 4. The Sufi Silsilas (Orders) in India
-Sufism (*Tasawwuf*) emphasized mystical communion with God through *Zikr* (chanting God's names), *Sama* (musical audition), and living in monastic hospices (*Khanqahs*):
-
-| Sufi Silsila | Founding / Pioneering Masters in India | Core Theological Philosophy & Practice | Political Stance Toward Sultans |
-| :--- | :--- | :--- | :--- |
-| **Chishti** | **Khwaja Moinuddin Chishti** (Ajmer, 1192 CE), Bakhtiyar Kaki, Baba Farid, **Nizamuddin Auliya** (Delhi), Nasiruddin Chirag-i-Delhi. | Extreme poverty, simplicity, pantheistic unity of existence (*Wahdat al-Wujud*), embrace of local languages (*Hindavi*), and musical sessions (*Sama*). | **Strict avoidance of court politics**; rejected royal titles and cash grants. |
-| **Suhrawardi** | **Shaikh Bahauddin Zakariya** (Multan). | Held that a Sufi must possess sufficient worldly wealth to avoid poverty and protect the poor. | **Close association with the Sultanate court**; accepted state posts like *Shaikh-ul-Islam*. |
-| **Qadiri** | Shaikh Abdul Qadir Jilani (Baghdad); popular in Punjab and Sindh; patronized by Prince Dara Shikoh. | Moderate, orthodox adherence to Sharia alongside mystical interiority. | Maintained amicable relations with Mughal royalty. |
-| **Naqshbandi** | Khwaja Bahauddin Naqshband; introduced by **Khwaja Baqi Billah**; spearheaded by **Shaikh Ahmad Sirhindi** (*Mujaddid Alf-i-Sani*). | **Fiercely orthodox revivalism**; vehemently opposed *Wahdat al-Wujud* (substituted it with *Wahdat ash-Shuhud*); attacked Akbar\'s liberal religious policies. | Actively sought to influence royal policy to enforce strict Islamic orthodoxy. |`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The Evolution of Bhakti: From Tamilakam to North India, and the 4 Major Sufi Silsilas",
+        "body": "### 1. South Indian Genesis: Alvars and Nayanars (c. 6th–9th Centuries CE)\n* **The Alvars (12 Saints):** \"Those who are immersed in devotion to **Vishnu**.\"\n  * Master Scripture: **Nalayira Divya Prabandham** (\"Four Thousand Sacred Compositions\"), compiled by Nathamuni in the 10th century; celebrated in Tamil tradition as the **\"Tamil Veda\"** and accorded the same sacred status as the Sanskrit Vedas.\n  * Prominent Saints: Nammalvar, Periyalvar, and **Andal** (the only female Alvar, whose passionate verses expressed her self-perception as the divine bride of Lord Ranganatha).\n* **The Nayanars (63 Saints):** Devotees of **Shiva**.\n  * Master Scripture: **Tevaram** (compiled by Nambiyandar Nambi) and **Tirumurai**.\n  * Prominent Saints: Appar, Sambandar, Sundarar, and **Karaikkal Ammaiyar** (the ascetic woman devotee who adopted the form of a skeletal ghoul to sever worldly beauty and attain ecstatic devotion to Shiva).\n\n---\n\n### 2. The Virashaiva / Lingayat Movement (Karnataka, 12th Century CE)\n* **Founders:** Initiated by **Basavanna** (a minister at the Kalachuri court of King Bijjala), alongside Allama Prabhu and the female mystic **Akka Mahadevi**.\n* **Radical Social & Theological Innovations:**\n  * Worshipped Shiva in his manifestation as the **Linga**; initiates wear a small linga in a silver reliquary (*Ishtalinga*) looped around the neck.\n  * **Challenged the caste hierarchy** and the ritual pollution concept propagated by Brahminical orthodoxy.\n  * **Rejected the doctrine of rebirth (*Karma/Punarjanma*):** Believed that upon death, the devotee unites directly with Shiva and does not return to this world; therefore, Lingayats **bury their dead** rather than cremating them.\n  * Explicitly endorsed **widow remarriage** and post-puberty marriage.\n  * Composed short, powerful devotional prose-poems in vernacular Kannada called **Vachanas** (\"sayings\").\n\n---\n\n### 3. The Dual Paths: Saguna vs Nirguna Bhakti Matrix\n\n| Dimension | Saguna Bhakti (Devotion to Form) | Nirguna Bhakti (Devotion to the Formless) |\n| :--- | :--- | :--- |\n| **Philosophical Conception** | The divine possesses concrete anthropomorphic attributes, names, forms, and incarnations (*Avataras*). | The divine is abstract, omnipresent, non-physical, beyond gender, form, or conceptual attributes (*Nirakara*). |\n| **Primary Forms of Worship** | Devotional singing before idols (*Murti Puja*), temple rituals, recounting mythological narratives (*Lilas*). | Inner meditation (*Simran*), repetition of the Divine Name (*Nama-japa*), rejection of idol worship and temple pilgrimage. |\n| **Key Saint-Poets** | **Tulsidas** (*Ramcharitmanas*), **Mirabai** (passionate Krishna *Padas*), **Surdas** (*Sursagar*), **Chaitanya Mahaprabhu** (Gaudiya Vaishnavism / *Sankirtana*), **Shankaradeva** (Assam). | **Kabir** (weaver of Varanasi; *Bijak*, *Sakhis*, *Dohas*), **Guru Nanak** (founder of Sikhism; *Shabad*, *Japji Sahib*), **Dadu Dayal** (Rajasthan). |\n| **Attitude to Orthodoxy** | Often reconciled emotional devotion within traditional social norms (e.g., Tulsidas upheld *Varnashrama Dharma*). | Radically iconoclastic; denounced institutional priesthood, external rites, animal sacrifice, caste pollution, and scriptures. |\n\n---\n\n### 4. The Four Major Sufi Silsilas in the Subcontinent\n\n| Silsila (Order) | Landmark Preceptor in India | Core Spiritual Philosophy & Political Stance | High-Yield Historical Centers |\n| :--- | :--- | :--- | :--- |\n| **Chishti** | **Khwaja Moinuddin Chishti** (*Gharib Nawaz*, arrived Ajmer 1192 CE); Shaikh Qutbuddin Bakhtiyar Kaki; Baba Farid; Shaikh **Nizamuddin Auliya** (*Mahbub-i-Ilahi*). | Strict ascetic poverty (*Faqr*); **complete avoidance of royal courts and state titles**; universal brotherhood; embraced music and poetry (*Sama / Qawwali*) as spiritual conduits to God. | Ajmer (Rajasthan), Pakpattan (Punjab), Delhi (*Ghiyaspur*). |\n| **Suhrawardi** | **Shaikh Bahauddin Zakariya** (Multan). | Held that a Sufi must possess sufficient material wealth and influence to help the poor; **actively accepted royal patronage, land grants, and political offices** from Delhi Sultans. | Multan, Uch, Sindh, Punjab. |\n| **Qadiri** | Shaikh Abdul Qadir Jilani (founded in Baghdad); popularized in India by Shah Naymatullah and Muhammad Ghawth. | Moderate orthodox synthesis; patronized by Mughal prince **Dara Shikoh** and Princess Jahanara. | Uch, Punjab, Kashmir, Delhi. |\n| **Naqshbandi** | **Khwaja Baqi Billah**; spearheaded by **Shaikh Ahmad Sirhindi** (*Mujaddid Alf-i-Sani*). | **Strictly orthodox revivalist reaction**; vehemently rejected *Sama* (music) and religious syncretism (*Wahdat al-Wujud*); advocated strict adherence to *Shariat* under Jahangir and Aurangzeb. | Delhi, Sirhind, Lahore. |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Khanqah Ecosystem, Ziyarat & Vernacular Syncretism',
-        body: `### 1. Life in a Chishti Khanqah (Shaikh Nizamuddin Auliya's Ghiyaspur Hospice)
-* **The Open Kitchen (*Langar*):** Financed by unsolicited voluntary donations (*Futuh*); fed rich and poor alike at the same floor mats without caste/religious discrimination.
-* **The Master-Disciple (*Pir-Murid*) Bond:** Novices shaved their head, wore patched frocks (*Khirqa*), and received spiritual transmission (*Khilafat*).
-* **Ziyarat (Pilgrimage):** Visiting the tomb (*Dargah*) of a saint on his death anniversary (*Urs*—symbolizing the saint's marriage union with God).
-
-### 2. Musical Syncretism & Amir Khusrau
-* **Amir Khusrau (1253–1325 CE):** Chief disciple of Nizamuddin Auliya; hailed as *Tuti-i-Hind* (Parrot of India).
-* Invented **Qawwali** by blending Persian melody with Indian ragas; pioneered *Hindavi* poetry; developed musical instruments like the Sitar and Tabla.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Institutional Life in the Chishti Khanqah & The Social Radiance of Vernacular Literature",
+        "body": "### 1. Daily Life Inside the Chishti Khanqah (NCERT Class XII Theme 6)\n* **The Khanqah / Jama'at Khana:** A communal hospice and spiritual sanctuary centered around a revered Shaikh (*Pir / Murshid*).\n* **Shaikh Nizamuddin Auliya's Hospice at Ghiyaspur (Delhi):**\n  * Consisted of a large communal hall (*Jama'at Khana*) where disciples, travelers, beggars, nobles, and merchants ate and slept together on mats.\n  * **Langar (Open Kitchen):** Operated entirely on unsolicited voluntary donations (*Futuh*). The Shaikh insisted that whatever arrived each day must be distributed before nightfall without saving for tomorrow.\n  * **Inclusivity:** Open to all castes, creeds, and genders. Hindu jogis (yogis) regularly visited to discuss breath control (*pranayama*) and spiritual philosophy with Nizamuddin.\n  * **Spiritual Lineage (*Silsila*):** Continuous chain connecting disciple (*Murid*) to master (*Pir*), traced unbroken back to Prophet Muhammad.\n* **Key Sufi Rituals:**\n  * **Ziyarat:** Pilgrimage to the tombs (*Dargahs*) of Sufi saints on their death anniversaries (**Urs**, signifying the saint's mystic marriage/union with God).\n  * **Sama:** Musical audition sessions where mystic poets like **Amir Khusrau** (disciple of Nizamuddin Auliya) pioneered Hindustani classical devotional music (origin of **Qawwali** and the use of *Hindavi* dialect).\n\n---\n\n### 2. Radical Vernacular Reformers: Kabir and Guru Nanak\n* **Kabir (c. 14th–15th Century CE):**\n  * Reared in a family of Muslim weavers (*Julahas*) in Varanasi; deeply influenced by both Nirguna Vaishnava Bhakti and Sufi concepts of divine oneness.\n  * Literary Works compiled in three traditions: **Kabir Bijak** (preserved by Kabir Panth in Varanasi), **Kabir Granthavali** (preserved by Dadu Panth in Rajasthan), and numerous hymns included in the Sikh **Guru Granth Sahib**.\n  * Used **Ulatbansi** (\"upside-down sayings\")—striking paradoxical riddles to shock hearers into spiritual awakening (e.g., *\"The ocean burned in fire, the fish climbed up a tree\"*).\n* **Guru Nanak (1469–1539 CE):**\n  * Born in Nankana Sahib (Ravi basin); rejected external rituals: caste pollution, sacred thread (*janeu*), idol worship, animal sacrifices, and ascetic renunciation.\n  * Preached **Nirguna Bhakti** centered on **Shabad** (the Divine Word) and **Nama-Simran** (devout contemplation of the Divine Name).\n  * Established community worship through **Sangat** (egalitarian congregation) and **Pangat / Langar** (sitting together in rows to eat identical food prepared in a common kitchen, demolishing caste commensal taboos).\n  * Appointed his disciple Lehna (renamed **Guru Angad**) as successor, establishing an institutional spiritual lineage.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Female Mystics & Silsila Political Polarities',
-        body: `### High-Frequency Traps in Bhakti and Sufi Movements
-
-1. **Saguna vs Nirguna Classification Trap:**
-   * **Nirguna:** Kabir, Guru Nanak, Ravidas, Dadu Dayal.
-   * **Saguna:** Mirabai, Tulsidas, Surdas, Chaitanya, Shankaradeva.
-   * *Trap:* Classifying Kabir as a worshipper of the mythological Rama. (Kabir's "Rama" was a non-anthropomorphic name for the formless transcendent Divine!).
-
-2. **Chishti vs Suhrawardi State Relations:**
-   * **Chishtis:** Shunning the state, rejecting imperial gifts, living in voluntary poverty.
-   * **Suhrawardis:** Accepting state employment (*Shaikh-ul-Islam*), living in comfortable wealth.
-   * *Trap:* Claiming all Sufis renounced wealth and politics.
-
-3. **Female Bhakti Saints Attribution:**
-   * **Andal:** The only female **Alvar** (Vaishnavite, Tamil Nadu).
-   * **Karaikkal Ammaiyar:** Prominent **Nayanar** (Shaivite, Tamil Nadu).
-   * **Akka Mahadevi:** **Virashaiva/Lingayat** mystic (Kannada).
-   * **Lalleshwari (Lal Ded):** Kashmiri Shaivite mystic (Vakhs).
-   * **Mirabai:** Rajput princess, Krishna devotee (Rajasthan/Gujarat).`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, Doctrinal Distinctions & State PSC Cornerstones",
+        "body": "### 1. High-Frequency Traps & Misconceptions\n\n* **Trap 1: The Political Attitude of Chishti vs Suhrawardi Orders.**\n  * *Trap Question:* \"The Chishti Sufis accepted royal land grants and high administrative offices from the Delhi Sultans.\"\n  * *Correct Fact:* **Completely False.** The Chishtis strictly maintained ascetic poverty and refused imperial employment, court presence, or hereditary estates. In contrast, the **Suhrawardis of Multan** openly accepted sultanate titles, high administrative offices, and royal wealth.\n* **Trap 2: Lingayat Cremation vs Burial.**\n  * *Trap Question:* \"Like orthodox Hindus, the followers of Basavanna practice post-mortem cremation of the physical body.\"\n  * *Correct Fact:* **Incorrect.** Lingayats **bury their dead**. Because they believe that initiated devotees unite directly with Shiva upon death and are freed from the cycle of rebirth (*Samsara*), funerary pollution and cremation rituals are rejected.\n* **Trap 3: Andal vs Karaikkal Ammaiyar Sectarian Alignment.**\n  * *Trap Question:* \"Andal was a Shaivite saint who renounced domestic life to write verses praising Shiva.\"\n  * *Correct Fact:* **Incorrect.** Andal was a **Vaishnavite Alvar** devotee of Vishnu (Lord Ranganatha). The prominent female Shaivite saint among the Nayanars was **Karaikkal Ammaiyar**.\n* **Trap 4: Kabir's Religious Formalism.**\n  * *Trap Question:* \"Kabir advocated that Hindus should convert to Islam to attain salvation.\"\n  * *Correct Fact:* **Incorrect.** Kabir rejected orthodox formalism in **both** Hinduism and Islam with equal vigor, ridiculing both the Brahmin's caste pride and the Qazi's external circumcision and bookish dogma.\n\n---\n\n### 2. State-Specific Cornerstone Focus: RPSC RAS & UPSC APFC\n\n* **RPSC RAS Focus:**\n  * **Ajmer Sharif Dargah:** Tomb of Khwaja Moinuddin Chishti; first visited by Muhammad bin Tughlaq, repeatedly endowed by Akbar (who walked on foot from Agra to Ajmer after the birth of Jahangir), Jahangir, and Shah Jahan.\n  * **Mirabai (1498–1546 CE):** Rajput princess of Merta (Nagaur, Rajasthan); married to Bhojraj of Mewar (son of Rana Sanga); rejected palace luxury to sing bhajans for Lord Krishna (*Girdhar Gopal*); took the untouchable cobbler saint **Ravidas** as her spiritual preceptor (*Guru*), openly defying royal Rajput caste norms.\n  * **Dadu Dayal (1544–1603 CE):** Nirguna Bhakti saint of Rajasthan who founded the **Dadu Panth** at Naraina near Jaipur; composed *Dadu Vani*.\n* **UPSC APFC & CSE Focus:**\n  * Technical terminology: *Khanqah* (hospice), *Silsila* (chain/order), *Ziyarat* (pilgrimage to tombs), *Urs* (death anniversary/marriage with God), *Futuh* (unsolicited charity), *Sama* (spiritual concert), *Barakat* (spiritual grace of a saint), *Karamat* (miracles).",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "Sacred Geography of the Devotional Revolution: From Kaveri Delta to the Indus & Brahmaputra",
+        "body": "### The Pan-Indian Diffusion Corridor of Bhakti and Sufism\n\n>                         [KASHMIR & PUNJAB]\n>              * Nanak at Kartarpur (Ravi basin)\n>              * Baba Farid at Pakpattan (Sutlej)\n>              * Suhrawardi center at Multan (Indus)\n>                                 |\n>                                 v\n>                         [GANGA-YAMUNA DOAB]\n>              * Nizamuddin Auliya at Ghiyaspur (Delhi)\n>              * Kabir & Ravidas at Varanasi (Ganga)\n>              * Tulsidas at Ayodhya / Varanasi\n>              * Surdas in Braj (Mathura-Agra)\n>                                 |\n>     <------------------------------------------------------->\n>     |                           |                           |\n> [RAJASTHAN]                  [ASSAM]                     [DECCAN & SOUTH]\n> * Moinuddin Chishti         * Shankaradeva              * Basavanna at Kalyana\n>   at Ajmer (Aravalli)         in Brahmaputra Valley       (Karnataka)\n> * Mirabai at Merta &          (Ekasarana Dharma,        * Alvars & Nayanars in\n>   Chittorgarh                 Sattras, Namghars)          Kaveri delta (Tamilakam)\n> * Dadu Dayal at Naraina                                 * Vithoba at Pandharpur\n>   (Jaipur)                                                (Maharashtra)\n\n### Key Spatial Geographies (NCERT Class XII Theme 6)\n1. **The Kaveri River Cradle:** The Bhakti movement originated in the Tamil agrarian heartland of the Kaveri delta under Chola patronage (Thanjavur, Chidambaram, Gangaikondacholapuram), where temples became epicenters of Alvar and Nayanar devotional poetry.\n2. **The Chishti Pilgrim Arc:** Originating in Chisht (western Afghanistan), the order entrenched itself along the Delhi-Ajmer military and commercial highway. Ajmer served as the spiritual gateway connecting northern India with Gujarat and Malwa.\n3. **The Brahmaputra Valley Isolation:** In Assam, Srimanta Shankaradeva established a unique regional devotional system called **Ekasarana Dharma** (devotion to one Supreme God Vishnu/Krishna), institutionalized through **Sattras** (monasteries) and **Namghars** (prayer halls) that remain the bedrock of Assamese socio-cultural life.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-05-1',
-        statement: 'The South Indian Bhakti movement originated with the Alvars (12 Vaishnavite saints, Nalayira Divya Prabandham) and Nayanars (63 Shaivite saints, Tevaram), including prominent women mystics Andal and Karaikkal Ammaiyar.',
-        claimType: 'RELIGIOUS_TRADITION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-10',
-        excerpt: 'Devotional Paths to the Divine: Alvars and Nayanars in South India; Nalayira Divya Prabandham.',
+        "id": "CLM-MED-05-1",
+        "statement": "The South Indian devotional tradition originated between the 6th and 9th centuries CE through the Vaishnavite Alvars (who compiled the Nalayira Divya Prabandham, including poetry by Andal) and the Shaivite Nayanars (who compiled the Tevaram, including poetry by Karaikkal Ammaiyar), both composing vernacular hymns and challenging caste exclusivism.",
+        "claimType": "RELIGIOUS_TRADITION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 6: Bhakti-Sufi Traditions, Section 2: The Early Traditions of Bhakti in Tamil Nadu, pp. 143-146",
+        "excerpt": "Some of the earliest bhakti movements (c. sixth century) were led by the Alvars (literally, those who are \"immersed\" in devotion to Vishnu) and Nayanars (literally, leaders who were devotees of Shiva)... One of the major anthologies of compositions by the Alvars, the Nalayira Divyaprabandham, was frequently described as the Tamil Veda... The compositions of Andal, a woman Alvar, were widely sung."
       },
       {
-        id: 'CLM-MED-05-2',
-        statement: 'The Virashaiva or Lingayat movement was launched in 12th-century Karnataka by Basavanna, rejecting the caste system, Brahminical ritual hegemony, and rebirth, expressing philosophy through Kannada Vachanas.',
-        claimType: 'RELIGIOUS_TRADITION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-10',
-        excerpt: 'Virashaiva Movement: Basavanna, Allama Prabhu, Akka Mahadevi; Vachana literature.',
+        "id": "CLM-MED-05-2",
+        "statement": "The 12th-century Virashaiva (Lingayat) movement in Karnataka, initiated by Basavanna, rejected the Brahminical caste hierarchy, ritual pollution, and the doctrine of rebirth, expressed its philosophy through Kannada Vachanas, wore the Ishtalinga, and buried their dead.",
+        "claimType": "RELIGIOUS_TRADITION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 6: Bhakti-Sufi Traditions, Section 2.4: The Virashaiva Tradition in Karnataka, pp. 147-148",
+        "excerpt": "The twelfth century witnessed the emergence of a new movement in Karnataka, led by a Brahmana named Basavanna... His followers were known as Virashaivas (heroes of Shiva) or Lingayats (wearers of the linga)... The Lingayats challenged the idea of caste and the \"pollution\" attributed to certain groups... They also questioned the theory of rebirth... They practice funerary rites such as post-puberty marriage and the remarriage of widows."
       },
       {
-        id: 'CLM-MED-05-3',
-        statement: 'The Chishti Sufi order, established in India by Khwaja Moinuddin Chishti of Ajmer, maintained strict separation from political power and embraced musical audition (Sama), in contrast to the wealth-accepting Suhrawardi order.',
-        claimType: 'SUFI_DOCTRINE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-4',
-        excerpt: 'Bhakti-Sufi Traditions: Chishti order of Moinuddin Chishti, Nizamuddin Auliya; contrast with Suhrawardi order.',
+        "id": "CLM-MED-05-3",
+        "statement": "The Chishti Sufi Silsila, established in India by Khwaja Moinuddin Chishti and centered at Ajmer and Delhi (Shaikh Nizamuddin Auliya), practiced ascetic poverty, non-involvement in state politics, and spiritual audition through music (Sama), in sharp distinction to the wealth-accepting, state-allied Suhrawardi order of Multan.",
+        "claimType": "SUFI_DOCTRINE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 6: Bhakti-Sufi Traditions, Section 5: The Chishtis in the Subcontinent, pp. 153-159",
+        "excerpt": "Of the groups of Sufis who migrated to India in the late twelfth century, the Chishtis were the most influential... The Shaikh lived in a small room on the roof of the hall... In open defiance of state authority, the Chishtis accepted donations only in cash or kind... A major feature of Chishti tradition was sama, exemplified by the performance of qawwalis."
       },
+      {
+        "id": "CLM-MED-05-4",
+        "statement": "Medieval North Indian Bhakti bifurcated into Saguna traditions (devotion to anthropomorphic divine incarnations such as Mirabai, Tulsidas, and Surdas) and Nirguna traditions (devotion to a formless, non-idolatrous divine championed by Kabir through the Bijak and Guru Nanak through the Shabad, Sangat, and Pangat).",
+        "claimType": "RELIGIOUS_TRADITION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 6: Bhakti-Sufi Traditions, Section 6: New Strands in the Fabric: Islamic Traditions & Vernacular Sant-Poets, pp. 160-165",
+        "excerpt": "At a different level, historians of religion often classify bhakti traditions into two broad categories: saguna (with attributes) and nirguna (without attributes)... Kabir was one of the most outstanding examples of a poet-saint who emerged within this milieu... Guru Nanak advocated a form of nirguna bhakti... He rejected sacrifices, ritual baths, image worship, austerities."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Indian Culture / Bhakti & Sufi Movements',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_PHILOSOPHICAL_COMPARISON',
-        notes: 'Guaranteed questions in UPSC Prelims and Mains on Nirguna/Saguna, Basavanna, and Chishti practices.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Indian Culture / Bhakti & Sufi Movements and Literature",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_PHILOSOPHICAL_COMPARISON",
+        "notes": "Guaranteed questions in UPSC Prelims and Mains on Saguna vs Nirguna doctrinal differences, Basavanna's social reforms, and Chishti hospice practices."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Religious Movements in Medieval India & Rajasthan',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Moinuddin Chishti Dargah at Ajmer and Mirabai are cornerstone RAS exam topics.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Religious & Devotional Movements in Medieval India & Rajasthan",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Khwaja Moinuddin Chishti's Dargah at Ajmer, Mirabai's life and poetry, and Dadu Dayal's Dadu Panth are recurrent high-mark questions in RPSC RAS Mains."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian Culture',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Basavanna (Virashaiva), Andal (Alvar), and Kabir (Nirguna).',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian Culture & Saint Poets",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on Basavanna (Virashaiva), Andal (Alvar), Karaikkal Ammaiyar (Nayanar), Kabir (Nirguna/Bijak), and Ajmer Dargah patron rulers."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Devotional Traditions',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'CULTURAL_CONCEPTS',
-        notes: 'Tested on Khanqah, Sama, and saint-poet compilations.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Devotional Traditions, Terminology & Social Reform",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "CULTURAL_CONCEPTS",
+        "notes": "Tested on technical terminology: Khanqah, Sama, Ziyarat, Urs, Langar, Vachanas, Sattras, and Silsilas."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian Culture',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on key saints and literary works.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian Culture & Heritage",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on major saint-poets, literary compilations (Nalayira Divya Prabandham, Bijak), and historic pilgrimage centers."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — Culture & Heritage',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Occasional questions on medieval poets and shrines.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Culture, Pilgrimage & Monuments",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Static awareness questions on medieval devotional shrines and reform milestones."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on social reform movements.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical & Socio-Religious Movements",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static questions on social reform movements and philosophical traditions."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Cultural evolution of medieval Indian society.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Community Formations & Guilds",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Socio-economic integration through vernacular cultural democratization in medieval India."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Bhakti: Alvars (12, Vishnu, Nalayira Divya Prabandham, Andal), Nayanars (63, Shiva, Tevaram, Karaikkal Ammaiyar). Basavanna: Lingayat/Virashaiva (12th c Karnataka, Vachanas, anti-caste, burial). Saguna = Form (Mirabai, Tulsidas, Chaitanya). Nirguna = Formless (Kabir, Nanak). Sufi: Chishti (Moinuddin Ajmer, Nizamuddin Delhi, avoided politics, Sama music), Suhrawardi (accepted state wealth).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Bhakti: Alvars (12, Vishnu, Nalayira Divya Prabandham \"Tamil Veda\", Andal), Nayanars (63, Shiva, Tevaram, Karaikkal Ammaiyar). Basavanna: 12th c Karnataka Virashaiva/Lingayat (Vachanas, wear Ishtalinga, anti-caste, bury dead, reject rebirth). Saguna = Form (Mirabai, Tulsidas, Surdas, Chaitanya). Nirguna = Formless (Kabir's Bijak, Guru Nanak's Shabad & Langar). Sufi: Chishti (Ajmer Moinuddin, Nizamuddin Delhi; avoided politics, Sama music), Suhrawardi (Multan; accepted state wealth & offices).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Bhakti & Sufi Synthesis Blueprint: 1) South Indian Roots: Alvars (Vaishnava) and Nayanars (Shaiva) pioneered vernacular devotional songs. 2) Lingayats: Basavanna challenged orthodoxy, prohibited child marriage, and rejected Vedic hierarchy. 3) Dual Bhakti Streams: Saguna (concrete idol worship of Rama/Krishna) vs Nirguna (abstract formless monotheism championed by Kabir and Guru Nanak). 4) Sufism: Mystical Islam centered on the Khanqah; Chishti silsila emphasized poverty, Langar, and Qawwali (Amir Khusrau); Naqshbandi spearheaded orthodox reaction.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Bhakti & Sufi Devotional Revolution Blueprint: 1) Southern Genesis: 6th–9th c Tamil Alvars (Vaishnava) and Nayanars (Shaiva) pioneered vernacular devotion, inclusion of women (Andal, Karaikkal Ammaiyar), and equality before God. 2) Lingayats: 12th c minister Basavanna founded the Virashaiva movement in Karnataka, challenging caste, rejecting reincarnation, and introducing post-puberty and widow remarriage. 3) Northern Bifurcation: Saguna (concrete idol worship of Rama/Krishna) vs Nirguna (abstract non-idolatrous monotheism championed by Kabir and Guru Nanak). 4) Sufi Orders: Mystical Islam centered on the Khanqah; Chishti silsila emphasized ascetic poverty, Langar, and Qawwali; Suhrawardi integrated with state power.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Devotional Movement Socio-Religious Architecture: 1) Sociological Function: Vernacular literature as a vehicle for subaltern social mobility against Sanskrit/Arabic elitism. 2) Ritual Dissolution: Internal emotional communion (*Ishq/Bhakti*) replacing expensive animal sacrifices. 3) Interfaith Syncretism: Common devotional vocabulary between Kabir\'s Sakhis and Sufi *Wahdat al-Wujud* (unity of all existence).',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Devotional Movement Socio-Religious Architecture: 1) Sociological Vehicle: Vernacular poetry democratized sacred knowledge, breaking the monopoly of Sanskrit pandits and Arabic ulama. 2) Ritual Transformation: Direct personal emotion (*Bhakti/Ishq*) replaced expensive sacrifices, priesthood intermediaries, and rigid caste rules. 3) Institutional Infrastructure: Temples in Tamilakam, Sattras/Namghars in Assam, Sangat/Langar in Punjab, and Khanqahs across North India provided permanent community spaces. 4) Syncretic Vocabulary: Bridging of Hindu and Islamic mystic philosophies (Kabir's Sakhis and Sufi *Wahdat al-Wujud* — unity of being).",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'BHAKTI_MCQ',
-        stem: 'With reference to the religious history of medieval India, the "Virashaiva" movement was initiated in twelfth-century Karnataka by which of the following personalities?',
-        options: ['Ramanuja', 'Basavanna', 'Madhvacharya', 'Shankaradeva'],
-        correctAnswer: 'Basavanna',
-        explanation: 'The Virashaiva (or Lingayat) movement was launched in the 12th century in Karnataka by Basavanna and his companions (Allama Prabhu and Akka Mahadevi). They worshipped Shiva in his manifestation as a linga, rejected caste distinctions and Brahminical ritualism, and composed poetry in Kannada called Vachanas.',
-        trapExplanation: 'Ramanuja founded Vishishtadvaita Vedanta in Tamil Nadu, whereas Basavanna founded the Virashaiva movement in Karnataka.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Founder of the 12th-century Virashaiva movement.',
+        "type": "BHAKTI_MCQ",
+        "stem": "With reference to the religious history of medieval India, the \"Virashaiva\" movement was initiated in twelfth-century Karnataka by which of the following personalities?",
+        "options": [
+          "Ramanuja",
+          "Basavanna",
+          "Madhvacharya",
+          "Shankaradeva"
+        ],
+        "correctAnswer": "Basavanna",
+        "explanation": "The Virashaiva (or Lingayat) movement was launched in the 12th century in Karnataka by Basavanna (a minister in the Kalachuri court) and his companions (Allama Prabhu and Akka Mahadevi). They worshipped Shiva in his manifestation as a linga, rejected caste distinctions and Brahminical ritualism, and composed poetry in Kannada called Vachanas.",
+        "trapExplanation": "Ramanuja founded Vishishtadvaita Vedanta in Tamil Nadu, whereas Basavanna founded the Virashaiva movement in Karnataka.",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Founder and geography of the 12th-century Virashaiva movement."
       },
       {
-        type: 'SUFI_MCQ',
-        stem: 'Which Sufi Silsila (order) in India strictly prohibited its saints and disciples from associating with kings and accepting state employment or royal titles, in contrast to the Suhrawardi order?',
-        options: ['Chishti Order', 'Suhrawardi Order', 'Naqshbandi Order', 'Qadiri Order'],
-        correctAnswer: 'Chishti Order',
-        explanation: 'The Chishti order (represented by Khwaja Moinuddin Chishti, Baba Farid, and Nizamuddin Auliya) maintained a strict policy of keeping aloof from worldly power, refusing royal jagirs, and avoiding sultanate courts. By contrast, the Suhrawardis of Multan openly accepted state titles and wealth.',
-        trapExplanation: 'Confusing the ascetic Chishti order with the politically active Naqshbandi or wealthy Suhrawardi orders is common.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2019,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Political attitude of the Chishti vs Suhrawardi Sufi orders.',
-      },
-    ],
+        "type": "SUFI_MCQ",
+        "stem": "Which Sufi Silsila (order) in the Indian subcontinent strictly prohibited its preceptors and disciples from associating with royal courts, refusing sultanate employment and state land grants, in sharp contrast to the Suhrawardi order?",
+        "options": [
+          "Chishti Order",
+          "Suhrawardi Order",
+          "Naqshbandi Order",
+          "Qadiri Order"
+        ],
+        "correctAnswer": "Chishti Order",
+        "explanation": "The Chishti order (represented by Khwaja Moinuddin Chishti, Baba Farid, and Nizamuddin Auliya) maintained a strict doctrinal policy of keeping aloof from worldly political power, refusing royal jagirs, and avoiding sultanate courts. By contrast, the Suhrawardis of Multan openly accepted state titles, wealth, and ministerial offices.",
+        "trapExplanation": "Confusing the ascetic Chishti order with the politically active Naqshbandi or state-allied Suhrawardi order is a common trap.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2019,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Political attitude and ascetic practices of the Chishti vs Suhrawardi Sufi orders."
+      }
+    ]
   },
 
   // =========================================================================
