@@ -1690,8 +1690,8 @@ The spinning of cotton and smelting of iron were concentrated into colossal mult
   {
     id: 'CON-WLD-07',
     slug: 'interwar-totalitarianism-weimar-republic-and-the-rise-of-hitler-nazism',
-    title: 'Interwar Totalitarianism & The Third Reich: The Weimar Collapse, Adolf Hitler\'s Nazism, and the Holocaust',
-    shortDefinition: 'The collapse of European democracy between the World Wars: The Treaty of Versailles (1919, Article 231 War Guilt Clause), the fragile Weimar Republic, hyperinflation of 1923, the Great Depression of 1929, Adolf Hitler\'s National Socialist German Workers\' Party (NSDAP), the Reichstag Fire (1933), the Enabling Act, totalitarian Gleichschaltung, the Nuremberg Laws of 1935, and the Holocaust (The Final Solution / Shoah).',
+    title: 'Nazism and the Rise of Hitler: Weimar Vulnerabilities, Totalitarian Ideology, Youth Indoctrination & The Holocaust',
+    shortDefinition: 'Exhaustive NCERT Class IX Chapter 3 synthesis: The birth and constitutional flaws of the Weimar Republic (Article 48, proportional representation, "November Criminals"), Treaty of Versailles Article 231, the 1923 hyperinflation crisis and Dawes Plan, the 1929 Great Depression, the rise of Adolf Hitler and the NSDAP, the Reichstag Fire Decree and Enabling Act (March 23, 1933), totalitarian consolidation (Gestapo, SS, SD), Hjalmar Schacht\'s state rearmament and autarky, Nazi racial hierarchy and Social Darwinism distortion, the cult of motherhood (Honor Crosses) and youth indoctrination (Jungvolk, Hitler Youth), the deceptive language of genocide, and ordinary civilian complicity.',
     difficulty: 'ADVANCED',
     order: 7,
     topicSlug: 'interwar-totalitarianism-and-nazism',
@@ -1699,124 +1699,93 @@ The spinning of cotton and smelting of iron were concentrated into colossal mult
       {
         type: 'INTUITION',
         title: 'The Seduction of Dictatorship: How Democracy Committed Suicide in Germany',
-        body: `Following Germany\'s defeat in World War I in November 1918, the German people established the **Weimar Republic**—one of the most progressive, democratic constitutions in the world, featuring universal adult suffrage, proportional representation, and an extensive bill of civil rights.
-
-Yet just fourteen years later, the German electorate voted into power **Adolf Hitler**, handing absolute autocratic power to a totalitarian fascist regime that murdered six million Jews and unleashed a global war that killed over 70 million human beings.
-
-How did a cultured, educated European nation surrender its freedom to a genocidal dictator?
-1. **The Humiliation of Versailles (1919):** Stripped Germany of its colonies, $13\\%$ of its European territory, its military, and forced it to sign the humiliating **Article 231 "War Guilt Clause"**, creating the toxic myth that the army had been "stabbed in the back" (*Dolchstoßlegende*) by socialists and Jews.
-2. **Economic Collapse:** The catastrophic hyperinflation of 1923 followed by the **Great Depression of 1929** (when US loans were abruptly recalled), leaving 6 million Germans unemployed and desperate.
-3. **The Totalitarian Machinery:** Once appointed Chancellor in January 1933, Hitler exploited the **Reichstag Fire** to suspend civil liberties, passing the **Enabling Act** to eliminate all opposition parties and establish the Third Reich!`,
+        body: 'Following Imperial Germany\'s defeat in World War I in November 1918, the National Assembly met at Weimar and established a democratic constitution featuring universal adult suffrage, proportional representation, and a bill of fundamental rights.\n\nYet barely fourteen years later, the German electorate handed power to Adolf Hitler, ushering in a genocidal totalitarian state that murdered six million Jews and initiated a global war that killed over 70 million people.\n\nHow did a cultured, technologically advanced European nation embrace total fascism?\n1. The Humiliation of Versailles (1919): Germany was forced to surrender its overseas colonies, 13% of its European territory, 75% of its iron, and 26% of its coal, while signing the humiliating Article 231 "War Guilt Clause". The Weimar democracy was forever cursed as the government of the "November Criminals".\n2. Economic Despair: The hyperinflation of 1923 (when a loaf of bread cost billions of marks) followed by the 1929 Great Depression, which left 6 million Germans unemployed and desperate.\n3. The Totalitarian Legal Coup: Once appointed Chancellor on January 30, 1933, Hitler exploited the Reichstag Fire of February 27, 1933 to pass the Reichstag Fire Decree, followed by the Enabling Act on March 23, 1933, legally transforming Germany into an absolute dictatorship without firing a shot in parliament.',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Rise of Nazism & The Holocaust Architecture Matrix',
-        body: `### 1. Step-by-Step Dismantling of the Weimar Democracy (1933–1934)
-* **January 30, 1933:** President Paul von Hindenburg appointed Adolf Hitler as Chancellor of Germany.
-* **The Reichstag Fire (February 27, 1933):** The German parliament building was mysteriously burned; Hitler blamed the Communist Party and issued the **Reichstag Fire Decree**, indefinitely suspending freedom of speech, press, assembly, and habeas corpus!
-* **The Enabling Act (*Ermächtigungsgesetz*, March 23, 1933):**
-  * Transferred all legislative power from the Reichstag directly to Hitler's Cabinet.
-  * Officially transformed Germany into a legal dictatorship: Hitler could enact laws violating the constitution without parliamentary or presidential consent!
-* **Gleichschaltung (Total Nazification):** Banned all other political parties and trade unions; established the secret police (**Gestapo**) and paramilitary stormtroopers (**SS** under Heinrich Himmler); purged civil servants and judiciary.
-
----
-
-### 2. Nazi Ideology & Racial Persecution
-* **Ideological Tenets (Mein Kampf, 1925):**
-  * **Racial Hierarchy:** Glorified the mythical **Nordic Aryan** as the master race (*Herrenvolk*); characterized Jews, Roma, Slavs, and disabled people as "sub-humans" (*Untermenschen*).
-  * **Lebensraum (Living Space):** The belief that Germany required vast agricultural and mineral territories in Eastern Europe and Russia to sustain the Aryan race.
-* **The Nuremberg Laws (September 15, 1935):**
-  1. **Reich Citizenship Law:** Stripped German Jews of their citizenship, reducing them to state subjects.
-  2. **Law for the Protection of German Blood and German Honor:** Prohibited marriages and sexual relations between Jews and German citizens.
-* **Kristallnacht (Night of Broken Glass, Nov 9–10, 1938):** State-sponsored pogrom destroying hundreds of synagogues and thousands of Jewish businesses, arresting 30,000 Jews.
-
----
-
-### 3. The Holocaust / "The Final Solution" (*Endlösung*, 1941–1945)
-* At the **Wannsee Conference (January 1942)** chaired by Reinhard Heydrich, the Nazi leadership formalized the industrial extermination of all 11 million European Jews.
-* **Industrial Mass Murder:** Constructed specialized death camps equipped with poison gas chambers (**Zyklon B**) and crematoria in occupied Poland: **Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek**.
-* Systematically murdered **six million Jews (two-thirds of European Jewry)** alongside millions of Soviet prisoners of war, Roma, disabled people, and political dissidents.`,
+        title: 'Weimar Vulnerabilities, Totalitarian Machinery & Chronological Milestones',
+        body: '### 1. Inherent Constitutional Defects of the Weimar Republic (NCERT Class IX Focus)\n- **Proportional Representation:** Made achieving a single-party parliamentary majority virtually impossible, leading to chronic rule by unstable, fragile coalitions (20 different cabinets ruled Weimar in its short existence, averaging 239 days each).\n- **Article 48:** Gave the President emergency powers to suspend civil rights, rule by decree, and dismiss regional state governments—a provision repeatedly abused rather than resolving crises, destroying democratic confidence.\n- **The "November Criminals" Myth:** Conservatives and militarists blamed the Socialists, Catholics, and Democrats who formed the Weimar Republic for "stabbing Germany in the back" (*Dolchstoßlegende*) by signing the November 1918 armistice.\n\n---\n\n### 2. Economic Shocks & Hitler\'s Ascendance\n- **1923 Hyperinflation:** Germany defaulted on reparations; French occupied the industrial Ruhr valley; Germany printed paper currency recklessly. The value of the German Mark collapsed: in January 1923, 1 US Dollar = 49,000 Marks; by December 1923, 1 US Dollar = 4,200,000,000,000 Marks! Americans introduced the **Dawes Plan** to bail out Germany.\n- **1929 Wall Street Crash & Great Depression:** US banks recalled short-term loans; German industrial output dropped 40%; 6 million workers became unemployed, queuing up with placards reading: *"Willing to do any work"*.\n- **Electoral Surge of NSDAP:** In 1928, the Nazi Party polled barely **2.6%** in the Reichstag elections; by July 1932, it became the largest party with **37%** of the vote!\n\n---\n\n### 3. Step-by-Step Dismantling of Democracy (1933–1934)\n1. **January 30, 1933:** President Paul von Hindenburg appointed Adolf Hitler as Chancellor.\n2. **February 27, 1933 (Reichstag Fire):** The parliament building mysteriously caught fire; blamed on communists.\n3. **February 28, 1933 (Reichstag Fire Decree):** Suspended indefinitely freedom of speech, press, assembly, and habeas corpus.\n4. **March 23, 1933 (The Enabling Act - *Ermächtigungsgesetz*):**\n   - Transferred all legislative power from parliament to Hitler\'s cabinet.\n   - Established a legal dictatorship: Hitler could enact laws without parliamentary or presidential consent, even if they violated the constitution!\n5. **Gleichschaltung (Total Nazification):** All political parties and trade unions banned (except NSDAP); creation of specialized security apparatus: Regular Police, **SA** (Stormtroopers), **SS** (*Schutzstaffel* under Heinrich Himmler), **SD** (Security Service), and the **Gestapo** (Secret State Police).',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'Propaganda Telemetry & Economic Rearmament (Hjalmar Schacht)',
-        body: `### 1. Totalitarian Propaganda (Joseph Goebbels)
-* Created the Ministry of Public Enlightenment and Propaganda:
-* Monopolized radio broadcasts (*Volksempfänger*), cinema (Leni Riefenstahl\'s *Triumph of the Will*), press, and school textbooks to indoctrinate German youth into blind obedience to the *Führer*.
-
-### 2. Economic Recovery via Rearmament
-* Finance Minister **Hjalmar Schacht** created the "Mefo bills" credit system to secretly finance rearmament, building the **Autobahn** highway network and the "People\'s Car" (**Volkswagen**).
-* Unemployment dropped from 6 million to under 1 million, deceiving the German public into celebrating economic "miracles" that were actually preparing the state for catastrophic aggressive war.`,
+        title: 'Nazi Racial Biology, Gender Indoctrination & The Language of Deception',
+        body: '### 1. The Nazi Worldview & Distorted Social Darwinism\n- Hitler\'s ideology recognized no equality between human beings, only a rigid racial hierarchy:\n  * At the apex: Blue-eyed, blond **Nordic German Aryans** (the finest race destined to master the earth).\n  * At the lowest rung: **Jews** (branded as anti-race, biological parasites, and destroyers of culture).\n- Borrowed and distorted ideas of **Charles Darwin** (natural selection) and **Herbert Spencer** (survival of the fittest) to justify imperial expansion: only the fittest race had the right to survive and conquer.\n- **Lebensraum ("Living Space"):** Geopolitical doctrine that Germany needed to conquer vast territories in the East (Poland, Soviet Union) to settle Aryan families and secure raw materials.\n\n---\n\n### 2. Youth Indoctrination & The Cult of Motherhood\n- **Youth Organizations:**\n  * Age 10: Boys entered **Jungvolk** for physical hardening and ideological orientation.\n  * Age 14: All boys compulsorily joined the **Hitler Youth** (*Hitlerjugend*), sworn to worship Hitler, hate Jews, glorify war, and despise democracy.\n  * Age 18: Entered the Labor Service (*Reichsarbeitsdienst*) and armed forces.\n  * Girls were taught that their sole national duty was to be good mothers and rear pure-blooded Aryan children.\n- **The Cult of Motherhood & Honor Crosses (*Ehrenkreuz*):**\n  * Women who bore racially pure children were awarded the **Honor Cross of the German Mother**:\n    - **Bronze Cross:** for 4 children\n    - **Silver Cross:** for 6 children\n    - **Gold Cross:** for 8 or more children!\n  * Women who associated with Jews, Poles, or Russians were paraded through streets with shaved heads and blackened faces, placards reading: *"I have sullied the honor of the nation"*, and sentenced to prison.\n\n---\n\n### 3. The Art of Propaganda & The Deceptive Language of Genocide (NCERT Highlight)\n- The Nazi regime never used words like "kill" or "murder" in official communications:\n  * Mass killings were termed: **"Special Treatment" (*Sonderbehandlung*)**, **"Final Solution" (*Endlösung*)** (for Jews), or **"Euthanasia"** (for disabled persons).\n  * Deportation to gas chambers was labeled: **"Evacuation" (*Evakuierung*)**.\n  * Gas chambers were disguised as: **"Disinfection Areas"** with fake showerheads!\n- **Civilian Complicity:** Pastor **Martin Niemöller** famously captured the silence of ordinary citizens: *"First they came for the Communists, and I did not speak out—because I was not a Communist... Then they came for me—and there was no one left to speak for me."*',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Enabling Act Year & Nuremberg Laws Provisions',
-        body: `### High-Frequency Traps in Nazism History
-
-1. **Enabling Act Year (UPSC Landmark!):**
-   * Passed on **March 23, 1933**, granting Hitler dictatorial powers.
-
-2. **Nuremberg Laws (1935) Provisions:**
-   * Stripped Jews of citizenship and banned inter-marriage.
-   * Did NOT establish death camps yet (death camps began in 1941–42!).
-
-3. **Article 231 of Versailles Treaty:**
-   * The **"War Guilt Clause"**, forcing Germany to accept sole moral and financial responsibility for World War I.`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Third Reich & Extermination Infrastructure',
+        body: 'Spatial & Geopolitical Coordinates of Nazi Expansion & The Holocaust:\n\n       North Sea / Baltic Sea\n          |\n   +------V------------------------------------------------------------------+\n   | WEIMAR GERMANY / THIRD REICH:                                           |\n   |   - [Berlin]: Reichstag Fire (1933), Chancellery, Wannsee Villa (1942)  |\n   |   - [Nuremberg]: Nazi Rallies & Nuremberg Laws (1935)                   |\n   |   - [Munich]: Beer Hall Putsch (1923), Dachau Concentration Camp (1933) |\n   |   - [Ruhr Valley]: Industrial heartland (French occupation 1923)        |\n   |                                                                         |\n   | LEBENSRAUM EXPANSION EASTWARD:                                          |\n   |   - [Rhineland] (Remilitarized 1936)                                    |\n   |   - [Austria] (Anschluss, March 1938)                                   |\n   |   - [Sudetenland & Czechoslovakia] (Munich Pact 1938)                   |\n   |                                                                         |\n   | OCCUPIED POLAND (Industrial Death Camps):                               |\n   |   - [Auschwitz-Birkenau] (Gas chambers / Zyklon B)                      |\n   |   - [Treblinka], [Sobibor], [Belzec], [Chelmno], [Majdanek]             |\n   +-------------------------------------------------------------------------+\n          |\n       Invasion of Soviet Union (Operation Barbarossa, June 1941)',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Key Statutes & Standard Answer Frameworks',
+        body: '### 1. High-Frequency Traps in Nazism & Interwar History\n- **Enabling Act vs. Reichstag Fire Decree:**\n  * *Reichstag Fire Decree (Feb 28, 1933):* Suspended fundamental civil rights.\n  * *Enabling Act (March 23, 1933):* Gave Hitler the power to pass laws without parliament, establishing the legal dictatorship.\n- **Weimar Constitution Flaw:** Article **48** gave emergency decree powers to the President; proportional representation produced chronic coalition instability.\n- **Nuremberg Laws (1935) Contents:** Stripped Jews of citizenship and prohibited intermarriage/sexual intercourse between Jews and Germans; did NOT create death camps (death camps were built 1941–42).\n- **Economic Architect:** **Hjalmar Schacht** (economist behind currency stabilization and rearmament financing, who later warned Hitler against rapid military spending and was dismissed).\n\n---\n\n### 2. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Analyze the circumstances and factors that enabled the rise of Adolf Hitler in Germany.**\n- **Structure:**\n  * *Introduction (15 words):* Adolf Hitler\'s rise transformed the democratic Weimar Republic into a genocidal totalitarian Third Reich between 1919 and 1933.\n  * *National Humiliation & Political Failure (35 words):* Resentment against the humiliating Treaty of Versailles (War Guilt Article 231, territorial and economic losses); public contempt for the "November Criminals"; chronic political instability caused by proportional representation and abuse of Article 48.\n  * *Economic Catastrophe & Social Crisis (35 words):* The ruinous 1923 hyperinflation wiped out middle-class savings; the 1929 Great Depression caused 6 million unemployed; Nazi Party exploited despair via mass rallies, charismatic demagoguery, and anti-Semitic scapegoating.\n  * *Conclusion (15 words):* The legal maneuvering following the Reichstag Fire culminated in the Enabling Act (March 1933), institutionalizing absolute dictatorship.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-07-1',
-        statement: 'The Treaty of Versailles (1919) imposed the Article 231 War Guilt Clause and massive reparations on Germany, breeding resentment that fueled the rise of Adolf Hitler and the Nazi Party.',
-        claimType: 'HISTORICAL_PRECONDITION',
+        statement: 'The Weimar Constitution contained inherent structural weaknesses, notably proportional representation making single-party majorities impossible and Article 48 granting the President sweeping emergency powers to rule by decree and suspend civil rights.',
+        claimType: 'CONSTITUTIONAL_INSTABILITY',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-21',
-        excerpt: 'Nazism and the Rise of Hitler: Treaty of Versailles Article 231, Weimar Republic collapse.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 3, Section 1: The Weimar Republic, pp. 53-54',
+        excerpt: 'The Weimar constitution had some inherent defects, which made it unstable and vulnerable to dictatorship. One was proportional representation... Another defect was Article 48, which gave the President the powers to impose emergency, suspend civil rights and rule by decree.',
       },
       {
         id: 'CLM-WLD-07-2',
-        statement: 'Following the Reichstag Fire of February 1933, the Enabling Act was passed on March 23, 1933, giving Hitler power to enact laws without parliamentary approval and establishing the Nazi dictatorship.',
-        claimType: 'DICTATORIAL_CONSOLIDATION',
+        statement: 'On March 23, 1933, the German Reichstag passed the Enabling Act (Ermächtigungsgesetz), which established a legal dictatorship by empowering Hitler to enact laws without the consent of parliament or the president.',
+        claimType: 'LEGAL_DICTATORSHIP',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-21',
-        excerpt: 'The Enabling Act of March 1933 established Hitler\'s legal dictatorship in Germany.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 3, Section 2: Destruction of Democracy, p. 55',
+        excerpt: 'On 3 March 1933, the famous Enabling Act was passed. This Act established dictatorship in Germany. It gave Hitler all powers to sideline Parliament and rule by decree. All political parties and trade unions were banned except for the Nazi Party and its affiliates.',
       },
       {
         id: 'CLM-WLD-07-3',
-        statement: 'The Nazi regime instituted the Nuremberg Laws in 1935 stripping Jews of citizenship, culminating in the Wannsee Conference (1942) and the Holocaust, which murdered six million European Jews in death camps like Auschwitz.',
-        claimType: 'GENOCIDAL_HOLOCAUST',
+        statement: 'Nazi ideology subordinated women to domestic reproduction, awarding the Honor Cross of the German Mother in Bronze (4 children), Silver (6 children), and Gold (8 or more children) to encourage the birth of racially pure Aryan children.',
+        claimType: 'GENDER_AND_RACIAL_POLICY',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-21',
-        excerpt: 'Nuremberg Laws 1935, Wannsee Conference 1942, and the Holocaust extermination camps.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 3, Section 4: The Nazi Cult of Motherhood, pp. 64-65',
+        excerpt: 'To encourage women to produce many children, Honour Crosses were awarded. A bronze cross was given for four children, silver for six and gold for eight or more.',
+      },
+      {
+        id: 'CLM-WLD-07-4',
+        statement: 'The Nazi regime systematically employed deceptive euphemisms in official state documentation to conceal mass murder, using terms like "Special Treatment" (Sonderbehandlung), "Final Solution" (Endlösung), "Evacuation", and "Disinfection Areas" to refer to extermination gas chambers.',
+        claimType: 'PROPAGANDA_AND_GENOCIDAL_DECEPTION',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 3, Section 5: The Art of Propaganda, p. 66',
+        excerpt: 'Mass killings were termed special treatment, final solution (for the Jews), euthanasia (for the disabled), selection and disinfections. "Evacuation" meant deporting people to gas chambers. Do you know what the gas chambers were called? They were labelled "disinfection-areas", and looked like bathrooms with fake showerheads.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Interwar Totalitarianism, Nazism & Fascism',
+        syllabusUnit: 'GS Paper I — World History / Interwar Totalitarianism: Weimar Republic, Rise of Nazism, Fascist Ideology & The Holocaust',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Causes of the Weimar collapse, Nazi propaganda mechanisms, and Holocaust are premier UPSC topics.',
+        notes: 'Examines systemic failures of interwar democracy, totalitarian propaganda methods, distorted social Darwinism, and bureaucratic machinery of the Holocaust.',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Rise of Nazism and Fascism',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / Rise of Nazism and Fascism',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Guaranteed 10-mark question on factors leading to the rise of Hitler or the Treaty of Versailles.',
+        notes: 'Guaranteed 2-mark definitions (Article 48, Dawes Plan, Gestapo, Enabling Act), 5-mark notes (Nuremberg Laws), and 10-mark full essays on the rise of Hitler and Versailles causes.',
       },
       {
         examCode: 'SSC_CGL',
@@ -1824,23 +1793,23 @@ How did a cultured, educated European nation surrender its freedom to a genocida
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Enabling Act year (1933), Nuremberg Laws year (1935), and Hitler\'s book (Mein Kampf).',
+        notes: 'Tested on Enabling Act date (March 1933), Nuremberg Laws year (1935), Article 48 of Weimar, and Hitler\'s autobiography (Mein Kampf).',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — 20th Century World History',
+        syllabusUnit: 'General Studies — 20th Century Totalitarian Movements & International Crises',
         relevance: 'CORE',
         priority: 'HIGH',
-        requiredDepth: 'TOTALITARIAN_STRUCTURES',
-        notes: 'Tested on Weimar Republic and Great Depression impact.',
+        requiredDepth: 'POLITICAL_DEVELOPMENTS',
+        notes: 'Focus on destruction of independent trade unions, economic mobilization under Hjalmar Schacht, and Weimar constitutional failure.',
       },
       {
         examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global Milestones',
+        syllabusUnit: 'General Awareness — Global Historical Milestones',
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        notes: 'Historical awareness of 20th-century political crises and hyperinflation impacts.',
       },
       {
         examCode: 'IBPS_PO',
@@ -1848,15 +1817,15 @@ How did a cultured, educated European nation surrender its freedom to a genocida
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        notes: 'General static awareness of world history.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
+        syllabusUnit: 'General Awareness — Historical Milestones & Economic Crisis',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on interwar economic collapse.',
+        notes: 'Macroeconomic consequences of the 1923 German hyperinflation and 1929 Great Depression.',
       },
       {
         examCode: 'IIBF_DBF',
@@ -1864,74 +1833,71 @@ How did a cultured, educated European nation surrender its freedom to a genocida
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Economic consequences of the 1923 hyperinflation and 1929 Great Depression.',
+        notes: 'Extreme monetary phenomena: hyperinflation dynamics and international loan architectures (Dawes Plan).',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Nazism: Versailles Treaty (1919, Article 231 War Guilt). Weimar Republic (1919-1933) collapsed due to 1923 hyperinflation & 1929 Great Depression. Hitler appointed Chancellor (Jan 30, 1933). Reichstag Fire (Feb 1933) -> Enabling Act (March 23, 1933 -> Dictatorship). Nuremberg Laws (1935, stripped Jews of citizenship). Kristallnacht (1938). Holocaust: Wannsee Conference (1942, Final Solution), 6 million Jews killed in camps (Auschwitz).',
+        content: 'Nazism Essentials: 1) Weimar Flaws: Proportional representation & Article 48 (Presidential emergency decree). 2) Shocks: 1919 Versailles (Article 231 War Guilt, "November Criminals"), 1923 Hyperinflation (Dawes Plan), 1929 Great Depression (6M unemployed). 3) Seizure: Hitler Chancellor (Jan 30, 1933) -> Reichstag Fire (Feb 1933) -> Enabling Act (March 23, 1933 -> Dictatorship). 4) Indoctrination: Hitler Youth, Motherhood Honor Cross (Bronze 4, Silver 6, Gold 8). 5) Euphemisms: Special Treatment = Murder, Evacuation = Gas Chambers.',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Rise of Nazism & Holocaust Blueprint: 1) Preconditions: Humiliation of Versailles Treaty (Article 231 War Guilt clause) and economic devastation of the 1929 Great Depression. 2) Seizure of Power: Hitler appointed Chancellor (Jan 1933); Reichstag fire exploited to suspend civil rights; Enabling Act (March 23, 1933) created legal dictatorship. 3) Totalitarian Control: Gestapo and SS eliminated opposition; Joseph Goebbels monopolized propaganda. 4) Racial Persecution: Nuremberg Laws (1935) stripped Jews of citizenship; culminated in the Holocaust (1941–45) exterminating 6 million European Jews.',
+        content: 'Nazism and the Rise of Hitler Blueprint (NCERT Class IX): 1) Weimar Fragility: Born out of WWI defeat, the Weimar Republic was crippled by the stigma of Versailles (Article 231), chronic coalition instability via proportional representation, and abuse of presidential emergency powers under Article 48. 2) Economic Catalysts: The 1923 hyperinflation wiped out middle-class savings; the 1929 Great Depression drove Nazi electoral vote share from 2.6% in 1928 to 37% in 1932. 3) Destruction of Democracy: Hitler was appointed Chancellor on January 30, 1933; the Reichstag fire provided the pretext to suspend civil rights; the Enabling Act (March 23, 1933) granted Hitler dictatorial lawmaking powers. All other parties were banned; Gestapo, SS, and SD maintained terror. 4) Ideology & Society: Social Darwinism was distorted to declare Nordic Aryans supreme and Jews subhuman; Lebensraum justified eastern conquest; youth were indoctrinated via Jungvolk and Hitler Youth; women were awarded Honor Crosses for bearing pure Aryan children. 5) The Holocaust: Mass extermination was obscured using bureaucratic euphemisms ("Special Treatment", "Final Solution", "Evacuation"), culminating in 6 million Jewish deaths in camps like Auschwitz.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Fascist Totalitarian State Architecture: 1) Structural Demagoguery: Exploiting economic despair and nationalist humiliation to scapegoat internal ethnic minorities. 2) Legal Destruction of Democracy: Using constitutional emergency powers (Enabling Act) to permanently extinguish constitutional rule. 3) Industrialized Annihilation: Applying assembly-line factory efficiency to genocidal state extermination.',
+        content: 'Totalitarian Fascist Statecraft Architecture:\n1) Constitutional Subversion from Within: Rather than staging an armed coup against a powerful army, Hitler leveraged constitutional emergency provisions (Article 48) and parliamentary majorities to pass the Enabling Act, dismantling democratic institutions through lawful legislative procedures.\n2) Totalitarian Gleichschaltung (Coordination): The regime abolished federal state autonomy, dissolved independent trade unions, coordinated all professional bodies under NSDAP control, and placed the judiciary under political oversight.\n3) Ideological Totalization & Euphemistic Bureaucracy: Mass conformity was achieved through Goebbels\'s propaganda monopoly, institutional youth indoctrination from age 10, and bureaucratic distancing, wherein industrial genocide was sanitized through clinical administrative euphemisms.',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'NAZISM_MCQ',
-        stem: 'Which landmark statute passed by the German parliament on March 23, 1933 officially dismantled the democratic Weimar Republic by giving Adolf Hitler\'s cabinet the power to enact laws without the consent of the Reichstag?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Which specific constitutional provision in the Weimar Republic gave the German President emergency powers to suspend fundamental civil rights, rule by decree, and dismiss regional state governments?',
         options: [
-          'The Reichstag Fire Decree',
-          'The Enabling Act (*Ermächtigungsgesetz*)',
-          'The Nuremberg Citizenship Law',
-          'The Treaty of Versailles Ratification Act'
+          'Article 14',
+          'Article 231',
+          'Article 48',
+          'Article 356'
         ],
-        correctAnswer: 'The Enabling Act (*Ermächtigungsgesetz*)',
-        explanation: 'The Enabling Act (officially titled the "Law to Remedy the Distress of the People and the Reich") was passed on March 23, 1933. It gave Hitler the constitutional authority to issue decrees having the force of law without the approval of parliament, completing the creation of his legal dictatorship.',
-        trapExplanation: 'The Reichstag Fire Decree suspended civil liberties in Feb 1933; the Enabling Act in March 1933 gave full dictatorial lawmaking powers.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact statute establishing Hitler\'s legal dictatorship (The Enabling Act).',
-      },
-      {
-        type: 'NAZISM_MCQ',
-        stem: 'The anti-Semitic "Nuremberg Laws" promulgated by the Nazi regime in September 1935 specifically provided for which of the following measures?',
-        options: [
-          'The immediate construction of extermination gas chambers in Poland',
-          'Depriving German Jews of their citizenship and prohibiting intermarriage or sexual relations between Jews and citizens of German blood',
-          'The compulsory deportation of all German Jews to the island of Madagascar',
-          'The total nationalization of all private industrial corporations in Germany'
-        ],
-        correctAnswer: 'Depriving German Jews of their citizenship and prohibiting intermarriage or sexual relations between Jews and citizens of German blood',
-        explanation: 'The Nuremberg Laws of September 1935 comprised two primary decrees: the Reich Citizenship Law (which stripped Jews of German citizenship) and the Law for the Protection of German Blood and German Honor (which strictly criminalized marriages and sexual relations between Jews and Germans).',
-        trapExplanation: 'Extermination gas chambers were introduced later during the Second World War (1941–42), not in the 1935 Nuremberg Laws.',
+        correctAnswer: 'Article 48',
+        explanation: 'According to NCERT Class IX Chapter 3, Article 48 of the Weimar Constitution gave the President emergency powers to impose emergency, suspend civil rights, and rule by decree. This article was repeatedly invoked during the political and economic crises of the interwar period, undermining German democratic stability.',
+        trapExplanation: 'Article 231 is the War Guilt Clause of the Treaty of Versailles; Article 48 is the emergency clause of the Weimar Constitution.',
         difficulty: 'EASY',
         isPYQ: true,
-        pyqYear: 2020,
+        pyqYear: 2021,
+        pyqPaper: 'RPSC RAS Prelims',
+        pyqStage: 'Prelims',
+        examinerTrapPattern: 'Confusing Article 231 of Versailles (War Guilt) with Article 48 of the Weimar Constitution (Presidential emergency powers).',
+      },
+      {
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Consider the following statements regarding social and domestic policies in Nazi Germany as described in NCERT records:\n1. The Nazi regime awarded the "Honor Cross of the German Mother" in Gold to women who produced four pure-blooded Aryan children.\n2. Mass killings of Jews and political dissidents were referred to in official Nazi state documentation as "Special Treatment" (*Sonderbehandlung*) and "Final Solution" (*Endlösung*).\n3. All German boys at the age of 14 were compulsorily inducted into the Hitler Youth (*Hitlerjugend*).\nWhich of the statements given above are strictly correct?',
+        options: [
+          '1 and 2 only',
+          '2 and 3 only',
+          '1 and 3 only',
+          '1, 2 and 3'
+        ],
+        correctAnswer: '2 and 3 only',
+        explanation: 'Statement 1 is incorrect: The Gold Cross was awarded for EIGHT or more children (Bronze was for 4 children, Silver for 6 children, Gold for 8+). Statement 2 is correct: Official Nazi documents used deceptive euphemisms like "Special Treatment" and "Final Solution" for mass murder. Statement 3 is correct: At age 14, all boys had to join the Nazi youth organization, the Hitler Youth.',
+        trapExplanation: 'Examiner trap on Honor Cross tiers: Bronze = 4, Silver = 6, Gold = 8 (not 4!).',
+        difficulty: 'INTERMEDIATE',
+        isPYQ: true,
+        pyqYear: 2022,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Provisions of the 1935 Nuremberg Laws (Citizenship & Intermarriage).',
+        examinerTrapPattern: 'Factual inversion of the Honor Cross children criteria (Bronze: 4, Silver: 6, Gold: 8).',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 8: Paths to Modernization: Japan (Meiji) vs China
-  // =========================================================================
   {
     id: 'CON-WLD-08',
     slug: 'paths-to-modernisation-japan-meiji-restoration-vs-chinese-revolution',
