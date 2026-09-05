@@ -1334,249 +1334,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 7: Mughal Statecraft, Rajput Alliances & Religious Policy
   // =========================================================================
   {
-    id: 'CON-MED-07',
-    slug: 'mughal-statecraft-rajput-policy-ibadat-khana-and-sulh-i-kul',
-    title: 'Mughal Imperial Statecraft & Ideology: Rajput Alliances, The Ibadat Khana, The 1579 Mahzar, and Sulh-i Kul (Universal Peace)',
-    shortDefinition: 'Ideological and diplomatic foundations of the Mughal Empire: Akbar\'s strategic Rajput alliance policy (matrimonial diplomacy, high Mansabs, Watan Jagirs, abolition of Jizya and Pilgrim Tax), the evolution of his religious thought (Ibadat Khana debates at Fatehpur Sikri 1575), the 1579 Mahzar (Infallibility Decree), Tauhid-i-Ilahi (Din-i-Ilahi), Sulh-i Kul (Absolute Peace), and the religious transitions under Jahangir, Shah Jahan, and Aurangzeb.',
-    difficulty: 'ADVANCED',
-    order: 7,
-    topicSlug: 'mughal-statecraft-rajput-policy-sulhikul',
-    contentBlocks: [
+    "id": "CON-MED-07",
+    "slug": "mughal-statecraft-rajput-policy-ibadat-khana-and-sulh-i-kul",
+    "title": "Mughal Imperial Statecraft & Ideology: Rajput Alliances, The Ibadat Khana, The 1579 Mahzar, and Sulh-i Kul (Universal Peace)",
+    "shortDefinition": "Authoritative NCERT Class VII Chapter 4 (*The Mughal Empire*) & Class XII Theme 9 (*Kings and Chronicles: The Mughal Courts*) synthesis: Ideological and diplomatic foundations of the Mughal Empire: Akbar's strategic Rajput alliance policy (matrimonial diplomacy, high Mansabs, Watan Jagirs, abolition of Pilgrim Tax in 1563 and Jizya in 1564); the evolution of his religious thought (Ibadat Khana interfaith debates at Fatehpur Sikri 1575); the 1579 Mahzar (Infallibility Decree establishing imperial interpretive supremacy over the Ulama); Abul Fazl's formulation of Farr-i Izadi (Divine Light) and Sulh-i Kul (Absolute Peace); and the religious transitions culminating in Aurangzeb's 1679 reimposition of Jizya and the Fatawa-i-Alamgiri.",
+    "difficulty": "ADVANCED",
+    "order": 7,
+    "topicSlug": "mughal-statecraft-rajput-policy-sulhikul",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'Building an Empire of Consent: The Genius of Sulh-i Kul',
-        body: `When the young Akbar ascended the throne at age 13 in 1556, the Mughal presence in India was precarious. His grandfather Babur had won military battles with superior artillery, and his father Humayun had been chased into exile by Sher Shah Suri. Previous Delhi Sultans had ruled primarily as foreign military garrisons, treating the vast Hindu majority as subjugated subjects.
-
-Akbar realized a profound political truth: **An Islamic empire in India could never survive by brute sword alone; it had to be anchored in the emotional, political, and cultural consent of the indigenous ruling martial aristocracy—the Rajputs.**
-
-Instead of destroying defeated Rajput rulers, Akbar offered them an irresistible partnership: matrimonial alliances, top military commands in the imperial army, and complete internal autonomy over their ancestral lands (**Watan Jagirs**).
-
-Concurrently, at his new capital of **Fatehpur Sikri**, Akbar embarked on an unprecedented intellectual quest. Disillusioned with the petty squabbling of orthodox Muslim clerics (*Ulama*), he constructed the **Ibadat Khana (House of Worship)**, inviting Hindu pandits, Jain monks, Christian Jesuit priests, Zoroastrian fire-priests, and Muslim scholars to debate theology. Out of this crucible emerged the supreme governing philosophy of the Mughal Empire: **Sulh-i Kul (Universal Peace and Tolerance)**.`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "Building an Empire of Consent: The Genius of Sulh-i Kul",
+        "body": "When the young Akbar ascended the throne at age 13 in 1556 CE, the Mughal presence in India was precarious. His grandfather Babur had won military battles with superior artillery, but his father Humayun had been chased into exile by Sher Shah Suri. Previous Delhi Sultans had ruled primarily as foreign military garrisons, treating the vast Hindu majority as subjugated subjects.\n\nAkbar realized a profound political truth: **An Islamic empire in India could never survive by brute sword alone; it had to be anchored in the emotional, political, and cultural consent of the indigenous ruling martial aristocracy—the Rajputs.**\n\nInstead of destroying defeated Rajput rulers, Akbar offered them an irresistible partnership: matrimonial alliances with dignity, top military commands in the imperial army, and complete internal autonomy over their ancestral lands (**Watan Jagirs**).\n\nConcurrently, at his new capital of **Fatehpur Sikri**, Akbar embarked on an unprecedented intellectual quest. Disillusioned with the petty squabbling of orthodox Muslim clerics (*Ulama*), he constructed the **Ibadat Khana (House of Worship)**, inviting Hindu pandits, Jain monks, Christian Jesuit priests, Zoroastrian fire-priests, and Muslim scholars to debate theology. Out of this crucible emerged the supreme governing philosophy of the Mughal Empire: **Sulh-i Kul (Universal Peace and Tolerance)**.",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Rajput Diplomacy Matrix & Akbar\'s Religious Evolution',
-        body: `### 1. Akbar\'s Rajput Policy: The Triad of Integration
-1. **Fiscal Abolition of Discrimination:**
-   * **1563 CE:** Abolished the **Pilgrim Tax** on Hindus travelling to holy shrines.
-   * **1564 CE:** Abolished the discriminatory **Jizya** tax on non-Muslim subjects.
-2. **Matrimonial Alliances with Dignity:**
-   * In 1562 CE, married Harkha Bai (Mariam-uz-Zamani), daughter of Raja Bharmal of **Amer (Jaipur)**. Unlike earlier sultans, Hindu princesses were granted complete freedom to practice Hindu rituals inside the imperial palace.
-3. **High Mansabs & Equal Military Command:**
-   * Appointed **Raja Man Singh** of Amer and **Raja Todar Mal** to the highest ranks of state (Man Singh received a rank of 7,000, higher than most Muslim princes).
-   * Man Singh commanded the Mughal army at the **Battle of Haldighati (1576 CE)** against Maharana Pratap of Mewar.
-4. **The Watan Jagir Innovation:**
-   * Defeated Rajput chiefs had their ancestral kingdoms confiscated and immediately re-granted to them as **Watan Jagirs** (hereditary estates immune from standard imperial transfers).
-
----
-
-### 2. Evolution of Akbar\'s Religious Philosophy (1575–1582 CE)
-
-| Milestone & Year | Institutional Forum | Key Participants / Intellectual Dynamics | Historic Outcome & Significance |
-| :--- | :--- | :--- | :--- |
-| **1. Ibadat Khana (1575 CE)** | Built at **Fatehpur Sikri** as a hall for philosophical inquiry. | Initially Sunni scholars; expanded in 1578 to: Purushottama & Devi (Hinduism), Hira Vijaya Suri & Vijaya Sena Suri (Jainism), Father Monserrate & Rodolfo Acquaviva (Jesuit Christianity), Meherji Rana (Zoroastrianism). | Akbar realized that no single religion held a monopoly on absolute truth; orthodox Ulama discredited by petty bickering. |
-| **2. The Mahzar / Infallibility Decree (1579 CE)** | Drafted by **Shaikh Mubarak** (father of Abul Fazl and Faizi); signed by leading Ulama. | Declared Akbar as the **Imam-i-Adil (Just Ruler)**. | If scholars differed on religious jurisprudence, the Emperor possessed statutory authority to choose whichever interpretation served public welfare, superseding the Ulama! |
-| **3. Sulh-i Kul (Universal Peace)** | The supreme ethical framework of the empire. | Articulated by **Abul Fazl** in *Akbarnama* and *Ain-i-Akbari*. | State treated all religions equally, guaranteeing freedom of worship, so long as citizens did not undermine state stability. |
-| **4. Tauhid-i-Ilahi / Din-i-Ilahi (1582 CE)** | Spiritual brotherhood / disciple order (*Iradat*). | Centered on devotion to the Emperor, vegetarianism, charity, and ethical restraint. Never an enforced state religion! | Only 18 prominent court nobles joined (including Raja Birbal; Raja Man Singh famously declined). |
-
----
-
-### 3. Religious Policy of Later Mughals
-* **Jahangir (1605–1627 CE):** Generally maintained Akbar\'s liberal policies; installed the **Chain of Justice (*Zanjir-i-Adl*)** with 60 golden bells at Agra Fort; executed Fifth Sikh Guru Arjan Dev on political grounds (sheltering rebel Prince Khusrau).
-* **Shah Jahan (1628–1658 CE):** Slight orthodox tilt; rebuilt demolished mosques, but patronized Hindu court musicians and his eclectic, mystic son **Dara Shikoh** (who translated the Upanishads into Persian as *Sirr-i-Akbar*).
-* **Aurangzeb (1658–1707 CE):** Complete puritanical reversal:
-  * Abolished court music, astrology, *Jharokha Darshan*, and *Nauroz*.
-  * Compiled the monumental Hanafi legal code **Fatawa-i-Alamgiri**.
-  * **Re-imposed Jizya in 1679 CE** and Pilgrim Tax; executed Ninth Sikh Guru Tegh Bahadur (1675 CE); alienating Rajputs, Marathas, and Sikhs.`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "Rajput Diplomacy Matrix & Akbar's Religious Evolution",
+        "body": "### 1. Akbar's Rajput Policy: The Triad of Integration\n1. **Fiscal Abolition of Discrimination:**\n   * **1563 CE:** Abolished the **Pilgrim Tax** on Hindus traveling to holy shrines.\n   * **1564 CE:** Abolished the discriminatory **Jizya** tax on non-Muslim subjects.\n2. **Matrimonial Alliances with Dignity:**\n   * In 1562 CE, married Harkha Bai (Mariam-uz-Zamani), daughter of Raja Bharmal of **Amer (Jaipur)**. Unlike earlier sultans, Hindu princesses were granted complete freedom to practice Hindu rituals inside the imperial palace.\n3. **High Mansabs & Equal Military Command:**\n   * Appointed **Raja Man Singh** of Amer and **Raja Todar Mal** to the highest ranks of state (Man Singh received a rank of 7,000, higher than most Muslim princes).\n   * Man Singh commanded the Mughal army at the **Battle of Haldighati (1576 CE)** against Maharana Pratap of Mewar.\n4. **The Watan Jagir Innovation:**\n   * Defeated Rajput chiefs had their ancestral kingdoms confiscated and immediately re-granted to them as **Watan Jagirs** (hereditary estates immune from standard imperial transfers).\n\n---\n\n### 2. Evolution of Akbar's Religious Philosophy (1575–1582 CE)\n\n| Phase & Milestone | Year & Setting | Key Participants & Core Theological Focus | Historiographical Outcome & Significance |\n| :--- | :--- | :--- | :--- |\n| **Ibadat Khana (House of Worship)** | **1575 CE** (Fatehpur Sikri) | Initially opened to Sunni scholars; expanded in 1578 to Shias, Hindus (Purushottam, Devi), Jains (Hiravijaya Suri), Christians (Father Monserrate, Aquaviva), and Parsis (Meherji Rana). | Akbar realized that no single religion held a monopoly on truth, and religious dogmatism created bigotry and social division. |\n| **The Mahzar (Infallibility Decree)** | **1579 CE** (Drafted by Shaikh Mubarak) | Signed by leading Ulama and theologians of the empire. | Elevated Akbar as **Imam-i-Adil (Just Ruler)**: in any theological dispute between jurists, the Emperor had the legal right to choose the interpretation that best served public interest. |\n| **Sulh-i Kul (Universal Peace)** | Formulated with **Abul Fazl** | Grounded in mystical *Wahdat al-Wujud* (Unity of Being) and Suhrawardi's *Ishraq* (Illumination) philosophy. | State ideology: all religions were free to build places of worship and practice rituals, provided they did not undermine state order or fight each other. |\n| **Tauhid-i-Ilahi / Din-i-Ilahi** | **1582 CE** | An elite spiritual-ethical discipleship order based on virtue, reason, vegetarianism, and loyalty to the Emperor. | **NOT a new religion** (no scripture, no priesthood); had barely 18–20 core members (Birbal was the only Hindu member; Raja Man Singh refused to join). |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Infallibility Decree (Mahzar) & The Concept of Divine Light (Farr-i-Izadi)',
-        body: `### 1. The Legal Authority of the 1579 Mahzar
-* Formulated under Islamic legal principles: Akbar was proclaimed higher in rank than a *Mujtahid* (interpreter of law) because an *Imam-i-Adil* holds higher authority.
-* It subordinated ecclesiastical religious authority to temporal sovereign authority, establishing an early Indian counterpart to the European doctrine of national sovereignty.
-
-### 2. The Illuminationist Ideology (*Farr-i-Izadi*)
-* Articulated by court historian **Abul Fazl** based on the philosophy of Shihabuddin Suhrawardi:
-* Kingship is a divine light emanating directly from God (*Farr-i-Izadi*), placing the sovereign above sectarian divisions. The Emperor acts as a paternal guardian (*Padshah*) to all subjects, regardless of caste or faith.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Ideological Statecraft: Farr-i Izadi, The Just Sovereign & Later Reversals",
+        "body": "### 1. Abul Fazl's Theory of Sovereignty: Farr-i Izadi (NCERT Class XII Theme 9)\nIn the *Akbar Nama*, court ideologue **Abul Fazl** articulated a radical theological foundation for imperial legitimacy:\n* **Farr-i Izadi (Divine Light):** Drawing upon the Iranian philosopher Shihabuddin Suhrawardi, Abul Fazl asserted that divine light emanates directly from God to the sovereign without passing through any religious hierarchy (Ulama or Caliph).\n* **The Padshah as Paternal Protector:** The Emperor rules as a father over a diverse family of subjects. Sovereignty is a social contract (*Ahd-i-Raza*): the king guarantees protection of life (*jan*), property (*mal*), honor (*namus*), and religion (*din*); in return, subjects render obedience and pay agricultural revenue (*kharaj*).\n* **Secular Legislation (*Zawabit*):** State regulations issued by the Emperor to manage secular and administrative matters, prevailing over traditional canon law whenever they clashed.\n\n---\n\n### 2. Religious Policy Transitions under Successor Emperors\n* **Jahangir (1605–1627 CE):**\n  * Generally maintained Akbar's policy of *Sulh-i Kul* and Rajput alliances.\n  * Installed the **Chain of Justice (*Zanjir-i-Adl*)** with 60 golden bells at Agra fort for direct public access to imperial justice.\n  * Executed the Fifth Sikh Guru, **Guru Arjan Dev (1606 CE)**, primarily on political grounds for supporting Prince Khusrau's rebellion (though orthodox clerics celebrated it).\n* **Shah Jahan (1628–1658 CE):**\n  * Adopted a slightly more orthodox posture to appease conservative nobles, but preserved the Rajput alliance (Raja Jai Singh of Amer was a premier commander).\n  * Patronized Prince **Dara Shikoh**, who translated the 50 Upanishads into Persian (*Sirr-i-Akbar* — \"The Great Secret\") and authored *Majma-ul-Bahrain* (\"The Mingling of Two Oceans\"), proving the metaphysical unity of Hinduism and Islam.\n* **Aurangzeb (1658–1707 CE) — The Orthodoxy Reaction:**\n  * Adopted the title **Alamgir (Conqueror of the World)**; sought legitimacy from orthodox Sunni Ulama after killing his brothers and imprisoning his father.\n  * **1669 CE:** Banned court music, jharokha darshan, tula-dan (weighing against gold), and discontinued astrologers.\n  * **1679 CE:** Officially **re-imposed the Jizya** on non-Muslims, reversing Akbar's historic 1564 decree.\n  * Alienated Marathas (execution of Sambhaji 1689), Sikhs (execution of Guru Tegh Bahadur 1675), and Rajputs (interfering in Jodhpur succession after Maharaja Jaswant Singh's death), precipitating imperial unraveling.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Din-i-Ilahi Membership & Jizya Chronology',
-        body: `### High-Frequency Traps in Mughal Statecraft
-
-1. **Din-i-Ilahi Nature Trap:**
-   * *Trap:* Claiming Din-i-Ilahi was a formal new religion with a holy book, priests, and mass conversion.
-   * *Truth:* It was an **exclusive spiritual order of discipleship (*Iradat*)** for royal courtiers. It had no scripture, no clergy, and only ~18 members!
-
-2. **Jizya Chronology (UPSC/PCS Landmark!):**
-   * **1564 CE:** Jizya abolished by **Akbar**.
-   * **1679 CE:** Jizya re-imposed by **Aurangzeb**.
-   * *Trap:* Swapping the dates or confusing Jizya with the Pilgrim tax (abolished in 1563).
-
-3. **Birbal vs Man Singh Din-i-Ilahi Trap:**
-   * **Raja Birbal** was the *only Hindu noble* who accepted Din-i-Ilahi.
-   * **Raja Man Singh** explicitly refused to join, stating: *"If your Majesty means loyalty, I have demonstrated it. But if you mean religion, I am a Hindu."* Akbar respected his refusal without penalty.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, RPSC Rajasthan Focus & Civil Services Conceptual Traps",
+        "body": "### 1. High-Frequency Traps & Misconceptions\n\n* **Trap 1: Nature of Din-i-Ilahi.**\n  * *Trap Question:* \"Akbar founded a new syncretic religion called Din-i-Ilahi and forcibly compelled his subjects to convert to it.\"\n  * *Correct Fact:* **Completely False.** It was neither a formal religion nor enforced on anyone. It was an elite spiritual-ethical code of personal discipleship (*Iradat*) with barely 18 to 20 court nobles. The contemporary term used by Abul Fazl was **Tauhid-i-Ilahi** (Divine Monotheism).\n* **Trap 2: Legal Meaning of the 1579 Mahzar.**\n  * *Trap Question:* \"The Mahzar of 1579 declared Akbar to be the spiritual Pope of Islam with the power to alter the Quran.\"\n  * *Correct Fact:* **Incorrect.** The Mahzar recognized Akbar as an *Imam-i-Adil* (Just Ruler). It gave him the legal authority to choose between conflicting legal interpretations of orthodox Islamic jurists (*Mujtahids*), provided his choice aligned with the Quran and served the public interest.\n* **Trap 3: Re-imposition Year of Jizya.**\n  * *State PSC Trap:* In which year did Aurangzeb re-impose Jizya?\n  * *Correct Fact:* **1679 CE** (21 years after ascending the throne in 1658, NOT immediately upon accession!).\n* **Trap 4: Birbal and Man Singh in Din-i-Ilahi.**\n  * *Fact Check:* **Birbal** was the only Hindu noble who accepted Din-i-Ilahi. **Raja Man Singh** explicitly refused to join, telling Akbar that he was a Hindu and recognized only two faiths—Hinduism and Islam—and had no need for a third! Akbar respected his decision without penalty.\n\n---\n\n### 2. High-Yield RPSC RAS Special Focus: Rajput Diplomacy\n* **Raja Bharmal (Amer):** First Rajput king to voluntarily accept Akbar's suzerainty (1562 at Sambhar).\n* **Battle of Haldighati (June 18, 1576):** Mughal forces led by **Kunwar Man Singh** of Amer and Asaf Khan; Mewar forces led by **Maharana Pratap** and Afghan commander Hakim Khan Sur.\n* **Mewar Treaty of 1615:** Concluded under **Jahangir** and **Rana Amar Singh** (son of Pratap); Mewar accepted Mughal suzerainty on honorable terms (Rana was not required to attend the Mughal court in person, sent Prince Karan Singh; Chittor fort returned on condition it would never be refortified).",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "Strategic Geography of Mughal-Rajput Relations: The Aravalli Axis & Trade Gateways",
+        "body": "### The Strategic Geopolitical Landscape of Rajputana and the Mughal Capital\n\n>                      [DELHI / AGRA] (Mughal Heartland)\n>                                 |\n>                                 v\n>                 ~~~~~~~~~~~~~~~~ Aravalli Range ~~~~~~~~~~~~~~~~\n>                |                                                |\n>        [AMER / JAIPUR]                                [MEWAR / CHITTOR-UDAIPUR]\n>        * Raja Bharmal & Man Singh                     * Uncompromising resistance\n>        * Guarded northeastern                         * Controlled rugged Aravalli passes\n>          plains near Agra                               to Malwa and Gujarat\n>                |                                                |\n>        [MARWAR / JODHPUR]                             [RANTHAMBORE / TARAGARH]\n>        * Guarded desert routes                        * Key gateway forts controlling\n>          to Sindh                                       the Chambal river valley\n>                |                                                |\n>                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n>                                 |\n>                                 v\n>                   [MALWA & GUJARAT PORTS (SURAT)]\n>               * Crucial trade corridor to western sea\n\n### Strategic Geographic Realities (NCERT Class VII Ch 4 & Class XII Theme 9)\n1. **The Aravalli Chokepoint:** The Aravalli mountain ranges separated the fertile Gangetic plain from the Thar Desert. All trade and military caravans marching from Agra to the lucrative textile ports of Gujarat (Surat, Cambay) had to pass through Rajputana territories. Peaceful control over Rajasthan was therefore an existential economic necessity for the Mughal Empire.\n2. **Amer as the Shield of Agra:** Located just 200 km west of Agra, the Kachhwaha principality of Amer occupied the most vulnerable borderland. By allying with Amer, Akbar secured his imperial capital's southwestern flank.\n3. **Mewar's Mountain Bastion:** The rugged, forested gorges of the southern Aravallis (Gogunda, Kumbhalgarh, Haldighati) provided Maharana Pratap with impenetrable guerrilla terrain that nullified Mughal heavy cavalry and artillery.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-07-1',
-        statement: 'Akbar abolished the Pilgrim Tax in 1563 CE and the Jizya on non-Muslims in 1564 CE, cementing Rajput alliances through matrimonial diplomacy and grant of hereditary Watan Jagirs.',
-        claimType: 'HISTORICAL_EVENT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-44',
-        excerpt: 'Mughal Religious Policy: Akbar abolition of Pilgrim Tax (1563) and Jizya (1564); Rajput policy.',
+        "id": "CLM-MED-07-1",
+        "statement": "Akbar consolidated imperial authority through a strategic alliance with the Rajput martial aristocracy, utilizing matrimonial alliances, awarding the highest military Mansabs (such as Raja Man Singh receiving 7,000 Zat), granting hereditary Watan Jagirs, and abolishing the Pilgrim Tax in 1563 CE and Jizya in 1564 CE.",
+        "claimType": "POLITICAL_ALLIANCE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 4: The Mughal Empire, Section: Mughal Relations with Other Rulers, pp. 50-51",
+        "excerpt": "The Mughals married Rajput princesses... The mother of Jahangir was a Kachhwaha princess, daughter of the Rajput ruler of Amber... But many resisted as well. The Sisodiya Rajputs of Mewar refused to accept Mughal authority for a long time. Once defeated, however, they were honourably treated by the Mughals, given their lands (watan) back as assignments (watan jagir)."
       },
       {
-        id: 'CLM-MED-07-2',
-        statement: 'In 1575 CE, Akbar constructed the Ibadat Khana at Fatehpur Sikri for interfaith philosophical debates, issued the Mahzar (Infallibility Decree) in 1579 CE, and promulgated the ethical doctrine of Sulh-i Kul (Universal Peace).',
-        claimType: 'RELIGIOUS_POLICY',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-44',
-        excerpt: 'Ibadat Khana debates (1575), Mahzar decree (1579), and Sulh-i Kul doctrine formulated by Abul Fazl.',
+        "id": "CLM-MED-07-2",
+        "statement": "In 1575 CE, Akbar constructed the Ibadat Khana at Fatehpur Sikri for interfaith philosophical dialogues, issued the Mahzar decree in 1579 CE establishing the Emperor as Imam-i-Adil with interpretive legal supremacy over the Ulama, and formulated the state ideology of Sulh-i Kul (Universal Peace).",
+        "claimType": "RELIGIOUS_POLICY",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 4: The Mughal Empire, Section: Close Look: Akbar's Policies, pp. 54-55 & Class XII Theme 9: Kings and Chronicles, pp. 233-234",
+        "excerpt": "While Akbar was at Fatehpur Sikri during the 1570s, he started discussions on religion with the ulama, Brahmanas, Jesuit priests who were Roman Catholics, and Zoroastrians. These discussions took place in the ibadat khana... It led Akbar to the idea of sulh-i kul or \"universal peace\"... Abu'l Fazl helped Akbar in framing a vision of governance around this idea."
       },
       {
-        id: 'CLM-MED-07-3',
-        statement: 'Aurangzeb reversed Akbar\'s liberal religious policies by reimposing the Jizya in 1679 CE, compiling the Fatawa-i-Alamgiri, and banning court music and Jharokha Darshan.',
-        claimType: 'HISTORICAL_EVENT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-44',
-        excerpt: 'Later Mughals: Aurangzeb reimposition of Jizya in 1679 and conservative religious reforms.',
+        "id": "CLM-MED-07-3",
+        "statement": "Aurangzeb reversed Akbar's liberal religious syntheses by officially reimposing the Jizya on non-Muslim subjects in 1679 CE, commissioning the comprehensive legal digest Fatawa-i-Alamgiri, and banning court music, jharokha darshan, and tula-dan.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 4: The Mughal Empire, Section: The Mughals in the Seventeenth Century and After, pp. 56-57 & Class XII Theme 9, pp. 235-236",
+        "excerpt": "Aurangzeb (1658–1707)... His reign witnessed tensions with various groups including Rajputs, Sikhs, and Marathas... In 1679, the jizya was reimposed on non-Muslim subjects, marking a significant departure from the policy of sulh-i kul."
       },
+      {
+        "id": "CLM-MED-07-4",
+        "statement": "In the Akbar Nama, court ideologue Abul Fazl formulated the theoretical basis of Mughal imperial sovereignty through the doctrine of Farr-i Izadi (Divine Light), depicting the Padshah as an enlightened paternal protector whose authority is legitimized through the social contract of justice and the universal umbrella of Sulh-i Kul.",
+        "claimType": "IDEOLOGICAL_DOCTRINE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 9: Kings and Chronicles: The Mughal Courts, Section 4.1: A Divine Light & Section 4.2: A Unifying Force, pp. 232-234",
+        "excerpt": "Abu'l Fazl placed Mughal kingship as the highest station in the hierarchy of objects, or rather beings created by God. He was inspired by a famous Iranian Sufi, Shihabuddin Suhrawardi, who had first developed this idea. According to this idea, there was a hierarchy in which the Divine Light was transmitted to the king... In sulh-i kul all religions and schools of thought had freedom of expression."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Indian History / Mughal Empire Statecraft & Religious Synthesis',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_CONCEPTUAL_ANALYSIS',
-        notes: 'Sulh-i Kul, Ibadat Khana, and Akbar\'s Rajput policy are perennial UPSC mains and prelims topics.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Indian History / Mughal Empire Statecraft, Ideology & Religious Synthesis",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_CONCEPTUAL_ANALYSIS",
+        "notes": "Sulh-i Kul, Ibadat Khana interfaith dialogues, Farr-i Izadi, and Akbar's Rajput policy are premier UPSC CSE Mains and Prelims themes."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Mughal-Rajput Relations & Religious Policy',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Mughal-Rajput relations (Man Singh, Maharana Pratap, Watan Jagirs) is the single most important history topic in RPSC RAS.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Mughal-Rajput Relations, Amer Alliance & Mewar Resistance",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Mughal-Rajput relations (Amer alliance, Battle of Haldighati 1576, Maharana Pratap, Watan Jagirs) is the most heavily tested medieval history topic in RPSC RAS."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Jizya abolition (1564), reimposition (1679), and Ibadat Khana location (Fatehpur Sikri).',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History & Religious Decrees",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on Jizya abolition (1564), reimposition (1679), Ibadat Khana year (1575), and Mahzar date (1579)."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Medieval State Ideology',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'IDEOLOGICAL_CONCEPTS',
-        notes: 'Tested on Sulh-i Kul and Mahzar decree.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval State Ideology & Social Synthesis",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "IDEOLOGICAL_CONCEPTS",
+        "notes": "Tested on philosophical terminology: Sulh-i Kul, Mahzar, Imam-i-Adil, Farr-i Izadi, and Zawabit."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian History',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on Akbar\'s court and monuments.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian History & Statecraft",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on court luminaries (Navaratnas, Abul Fazl, Birbal, Todar Mal) and major administrative milestones."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Culture',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on key rulers and dates.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — History & Culture",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Key historical dates and sovereign policies."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static history questions.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones & Ideology",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static history questions on state-building and secular governance."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'State building and integration of regional elites in pre-modern India.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Social Contract & Taxation Equity",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Integration of regional elites and the social contract foundations of pre-modern Indian state revenue."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Akbar Statecraft: Abolished Pilgrim Tax (1563), Jizya (1564). Rajput policy: Matrimonial alliances, high mansabs (Man Singh, Todar Mal), Watan Jagirs (hereditary lands). Ibadat Khana (1575, Fatehpur Sikri) = Interfaith debates. Mahzar (1579) = Emperor as Imam-i-Adil. Sulh-i Kul = Universal peace. Din-i-Ilahi (1582) = Disciple order (Birbal joined; Man Singh refused). Aurangzeb reimposed Jizya (1679).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Akbar Statecraft: Abolished Pilgrim Tax (1563), Jizya (1564). Rajput policy: Matrimonial respect, high mansabs (Man Singh 7,000, Todar Mal), Watan Jagirs (hereditary lands). Ibadat Khana (1575, Fatehpur Sikri) = Interfaith debates. Mahzar (1579) = Emperor as Imam-i-Adil above Ulama. Sulh-i Kul = Universal peace. Din-i-Ilahi (1582) = Disciple order (Birbal joined; Man Singh refused). Aurangzeb reimposed Jizya (1679).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Mughal Statecraft & Ideology Blueprint: 1) Rajput Partnership: Akbar transformed defeated foes into imperial anchors via matrimonial respect (Harkha Bai), highest military commands (Raja Man Singh at Haldighati 1576), and Watan Jagirs. Abolished Jizya (1564) and Pilgrim Tax (1563). 2) Religious Evolution: Constructed Ibadat Khana (1575) welcoming Hindus, Jains, Christians, and Parsis; issued Mahzar (1579) asserting royal interpretive supremacy; formulated Sulh-i Kul (Universal Peace) via Abul Fazl. 3) Reversal: Aurangzeb reimposed Jizya (1679) and compiled Fatawa-i-Alamgiri.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Mughal Statecraft & Ideology Blueprint: 1) Rajput Partnership: Akbar transformed defeated foes into imperial anchors via matrimonial dignity (Amer princess), highest military commands (Raja Man Singh at Haldighati 1576), and hereditary Watan Jagirs. Abolished Jizya (1564) and Pilgrim Tax (1563). 2) Religious Evolution: Constructed Ibadat Khana (1575) welcoming Hindus, Jains, Christians, and Parsis; issued Mahzar (1579) asserting royal interpretive supremacy; formulated Sulh-i Kul (Universal Peace) via Abul Fazl's Farr-i Izadi. 3) Reversal: Aurangzeb reimposed Jizya in 1679, commissioned Fatawa-i-Alamgiri, and dismantled cultural court traditions.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Mughal Political-Ideological Architecture: 1) Strategic Alliance: Rajput martial cavalry integration neutralizing indigenous rebellions. 2) Ideological Legitimacy: Farr-i-Izadi (Divine Illumination) elevating the Padshah as paternal protector of all faiths. 3) Legislative Supremacy: Mahzar 1579 emancipating secular imperial decrees (*Zawabit*) from clerical theological veto.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Mughal Political-Ideological Architecture: 1) Strategic Alliance: Rajput martial cavalry integration securing the northwestern border and the Aravalli trade transit corridor to Gujarat ports. 2) Divine Legitimacy: Farr-i Izadi (Divine Light) elevating the Padshah as a cosmic paternal protector of all creeds without clerical mediation. 3) Legislative Autonomy: The 1579 Mahzar and secular *Zawabit* emancipated imperial administration from the clerical veto of the Sunni Ulama. 4) Collapse: Aurangzeb's orthodox pivot fractured the Hindu-Muslim ruling coalition, sparking widespread Rajput, Maratha, and Sikh rebellions.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'MUGHAL_STATECRAFT_MCQ',
-        stem: 'What was the primary political and legal objective of the "Mahzar" (Declaration of 1579) issued by Emperor Akbar?',
-        options: [
-          'To declare Islam as the only permitted religion across the Mughal Empire',
-          'To empower the Emperor to choose between conflicting legal interpretations of Islamic law in the interest of public welfare, elevating imperial authority above the Ulama',
-          'To order the compulsory conversion of all Rajput nobility to Din-i-Ilahi',
-          'To re-impose the Jizya tax on all commercial merchants'
+        "type": "MUGHAL_STATECRAFT_MCQ",
+        "stem": "What was the primary political and legal objective of the \"Mahzar\" (Declaration of 1579) issued by Emperor Akbar according to NCERT Class VII Chapter 4 and Class XII Theme 9?",
+        "options": [
+          "To declare Islam as the only permitted state religion across the Mughal Empire",
+          "To empower the Emperor to choose between conflicting interpretations of Islamic jurisprudence in the interest of public welfare, elevating imperial authority above the orthodox Ulama",
+          "To order the compulsory conversion of all Rajput nobility to Din-i-Ilahi",
+          "To re-impose the Jizya tax on non-Muslim commercial merchants"
         ],
-        correctAnswer: 'To empower the Emperor to choose between conflicting legal interpretations of Islamic law in the interest of public welfare, elevating imperial authority above the Ulama',
-        explanation: 'The Mahzar of 1579 (drafted by Shaikh Mubarak and signed by chief clerics) recognized Akbar as an Imam-i-Adil (Just Ruler). It stipulated that if religious scholars disagreed on any point of Islamic jurisprudence, the Emperor had the legal authority to select whichever interpretation best served the public welfare and state interest, thereby breaking the political monopoly of orthodox Ulama.',
-        trapExplanation: 'Assuming the Mahzar declared a new religion or enforced Islam are classic misconceptions.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2019,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact legal intent of the 1579 Mahzar (Infallibility Decree).',
+        "correctAnswer": "To empower the Emperor to choose between conflicting interpretations of Islamic jurisprudence in the interest of public welfare, elevating imperial authority above the orthodox Ulama",
+        "explanation": "The Mahzar of 1579 (drafted by Shaikh Mubarak and signed by chief clerics) recognized Akbar as an Imam-i-Adil (Just Ruler). It stipulated that if religious scholars disagreed on any point of Islamic jurisprudence, the Emperor had the legal authority to select whichever interpretation best served the public welfare and state interest, thereby breaking the political monopoly of orthodox Ulama.",
+        "trapExplanation": "Assuming the Mahzar declared a new religion or enforced Islam are classic misconceptions.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2019,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Exact legal intent of the 1579 Mahzar (Infallibility Decree)."
       },
       {
-        type: 'MUGHAL_STATECRAFT_MCQ',
-        stem: 'In which year did Emperor Aurangzeb officially re-impose the "Jizya" tax on non-Muslim subjects, reversing the policy established by Akbar in 1564?',
-        options: ['1658 CE', '1666 CE', '1679 CE', '1707 CE'],
-        correctAnswer: '1679 CE',
-        explanation: 'In 1679 CE, twenty-one years after ascending the throne, Emperor Aurangzeb officially re-imposed the Jizya on non-Muslims, reversing Akbar\'s historic abolition of 1564 CE and alienating the Rajput and Hindu populations.',
-        trapExplanation: '1658 is his ascension; 1707 is his death; 1679 is the exact year of Jizya reimposition.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2022,
-        pyqPaper: 'RPSC RAS Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact historical year of Jizya reimposition by Aurangzeb (1679).',
-      },
-    ],
+        "type": "MUGHAL_STATECRAFT_MCQ",
+        "stem": "In which year did Emperor Aurangzeb officially re-impose the \"Jizya\" tax on non-Muslim subjects, reversing the policy of religious tolerance established by Akbar in 1564 CE?",
+        "options": [
+          "1658 CE",
+          "1666 CE",
+          "1679 CE",
+          "1707 CE"
+        ],
+        "correctAnswer": "1679 CE",
+        "explanation": "In 1679 CE, twenty-one years after ascending the throne, Emperor Aurangzeb officially re-imposed the Jizya on non-Muslims, reversing Akbar's historic abolition of 1564 CE and deeply alienating the Rajput and Hindu populations.",
+        "trapExplanation": "1658 is his coronation; 1707 is his death; 1679 is the exact historical year of Jizya reimposition.",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2022,
+        "pyqPaper": "RPSC RAS Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Exact historical year of Jizya reimposition by Aurangzeb (1679)."
+      }
+    ]
   },
 
   // =========================================================================
