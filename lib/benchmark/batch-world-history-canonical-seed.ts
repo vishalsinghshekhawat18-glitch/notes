@@ -490,241 +490,214 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
   },
 
   {
-    id: 'CON-WLD-03',
-    slug: 'feudal-europe-the-three-orders-black-death-and-renaissance-humanism',
-    title: 'Feudal Europe & The Renaissance: The Three Orders, The Black Death (1348) & Humanist Intellectual Transformation',
-    shortDefinition: 'Medieval European socio-economic dynamics and intellectual rebirth: The Three Orders (Clergy, Nobility, Peasantry / Serfdom), the Manorial economic estate, the catastrophic Black Death pandemic (1348) and the crisis of feudalism, and the 14th-to-16th-century Italian Renaissance (humanism, Petrarch, Machiavelli\'s *The Prince*, Leonardo da Vinci, Gutenberg\'s movable type print revolution 1450).',
-    difficulty: 'ADVANCED',
-    order: 3,
-    topicSlug: 'feudal-europe-and-renaissance',
-    contentBlocks: [
+    "id": "CON-WLD-03",
+    "slug": "feudal-europe-the-three-orders-manorial-system-and-fourteenth-century-crisis",
+    "title": "The Three Orders: Feudal Europe, The Manorial Economy, Technological Shifts & The Crisis of the Fourteenth Century",
+    "shortDefinition": "Exhaustive NCERT Class XI Theme 6 synthesis: The socio-economic architecture of medieval Western Europe (9th to 16th centuries) conceptualized through Marc Bloch's Feudal Society, the French roots of the Frankish empire (Gaul/France) and Charlemagne, the ideological division into Three Orders (Clergy: Catholic Church, independent papal hierarchy, tithes, Benedictine monasteries at Monte Cassino 529 CE and Cluny 910 CE, friars; Nobility: vassalage ceremony of homage and oath on the Bible, seigneurial rights, the manorial estate with lord's demesne, castle, and serf cottages, the rise of the Knight cavalry holding 1,000–2,000 acre fiefs and troubadour minstrels; Peasantry: free tenants paying the state taille vs unfree serfs/villeins performing unpaid corvée forced labor for 3+ days/week on the lord's demesne and paying banalities for mills/wine-presses), the 11th-century environmental warming and agricultural revolution (iron-tipped heavy moldboard plows, shoulder-collars for horses, water/wind mills, and the shift from two-field to three-field crop rotation), the rise of the \"Fourth Order\" (urban communes, cathedral towns in Gothic architectural style with flying buttresses and stained glass, and merchant guilds), and the catastrophic Crisis of the Fourteenth Century (1315–1317 Great Famine, the 1348–1351 Black Death bubonic plague eliminating one-third of Europe's population, labor scarcity, the permanent collapse of serfdom, and peasant rebellions including the 1323 Flanders revolt, 1358 French Jacquerie, and the 1381 English Peasants' Revolt led by Wat Tyler).",
+    "difficulty": "ADVANCED",
+    "order": 3,
+    "topicSlug": "feudal-europe-and-renaissance",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'From Medieval Darkness to the Rebirth of Man',
-        body: `For nearly a millennium after the fall of the Western Roman Empire (c. 500–1400 CE), Western Europe lived under the rigid, hierarchical social system known as **Feudalism**:
-* Society was cleaved into **"Three Orders"**: Those who pray (**The Clergy**), Those who fight (**The Nobility**), and Those who work (**The Peasantry / Serfs**).
-* The average peasant was a **Serf**, legally tied to the soil of a lord\'s manor, forced to surrender unpaid labor (*Corvée*) and heavy tithes, while the Roman Catholic Church taught that human life on earth was merely a sinful, miserable trial before the afterlife.
-
-In the mid-14th century, this frozen medieval order shattered:
-1. **The Black Death (1348–1351):** The bubonic plague wiped out **one-third of Europe\'s entire population**. Suddenly, agricultural labor became scarce, empowering surviving peasants to demand cash wages and breaking the spine of feudal serfdom.
-2. **The Renaissance (Rebirth):** In wealthy Italian city-states like Florence and Venice, thinkers rediscovered classical Greek and Roman texts, birthing **Humanism**—the revolutionary philosophy that celebrated human potential, rational inquiry, and secular joy in this mortal world!`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "The Architecture of Medieval Estates: Blood, Soil, and the Bell Toll",
+        "body": "Following the fragmentation of the Western Roman Empire and the collapse of Charlemagne's Frankish realm, Western European civilization reorganized itself not around imperial central administrations or codified civil laws, but around **landed military vassalage and localized agrarian subjection**—a socio-economic paradigm termed **Feudalism** (derived from the German word *feud*, meaning a piece of land held in exchange for service).\n\nAs masterfully analyzed by the French Annales historian **Marc Bloch** in his seminal 1939 work *Feudal Society* (*La Société Féodale*), European feudalism was far more than a military hierarchy: it was an all-encompassing social, legal, and mental universe where:\n1. **The Human Soul was Governed by Rome:** The Roman Catholic Church established an autonomous ecclesiastical imperium, independent of secular kings, extracting wealth through the compulsory **Tithe** (1/10th of all agricultural yield) and shaping daily consciousness through cathedral bells, the liturgical calendar, and monastic ascetism.\n2. **The Human Body was Bound to the Soil:** Over 80% of Western Europeans lived as **Serfs** (*Villeins*) on self-contained **Manorial Estates**. Serfs were legally chained to the lord's land—denied the right to leave, marry, or sell livestock without seigneurial permission, and compelled to yield unpaid physical labor (**Corvée**) on the lord's personal lands (**Demesne**) for three or more days every week.\n3. **The Sword was Monopolized by the Knight:** The collapse of infant infantry armies and the introduction of stirrup-equipped cavalry created the elite warrior caste of **Knights**, sustained by landed fiefs and codified under the romanticized chivalric poetry of wandering minstrel **troubadours**.\n\nYet this frozen medieval order contained dynamic internal contradictions:\n* **The 11th-Century Agricultural Boom:** Climatic warming, heavy iron-tipped moldboard plows, equine shoulder-collars, and the **three-field rotation system** generated massive food surpluses, doubling European population and spawning walled trading communes—the so-called **\"Fourth Order\"** of urban burghers.\n* **The 14th-Century Cataclysm:** Severe cooling (the \"Little Ice Age\"), soil exhaustion, and the nightmarish arrival of the **Black Death (1348–1351 bubonic plague)** decimated **one-third of Europe's entire human population**. The resulting acute labor famine broke the spine of feudal serfdom forever, unleashing explosive social revolts and laying the economic bedrock of early modern Europe!",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'The Three Orders & The Renaissance Transformation Matrix',
-        body: `### 1. The Three Orders of Feudal Society
-
-| Order | Social Composition & Role | Economic Basis & Privileges | Obligations & Power Dynamics |
-| :--- | :--- | :--- | :--- |
-| **First Order: The Clergy** | Catholic Church, Bishops, Parish Priests, Monks (Monasteries: Benedictine, Cluniac). | Owned $\\frac{1}{5}$th of all land in Western Europe; exempt from taxation; levied the **Tithe** (mandatory 10% tax on agricultural produce). | Monopolized literacy, education, and moral authority; acted as sovereign spiritual masters. |
-| **Second Order: The Nobility** | Kings, Dukes, Earls, Barons, and **Knights** (mounted elite cavalry). | Held hereditary fiefs (**Manors**); owned agricultural land; controlled private castles and courts. | Bound to the King by feudal oaths of fealty and homage; provided military service; extracted unpaid labor (*Corvée*) from serfs. |
-| **Third Order: The Peasantry** | • **Free Peasants:** Tenants paying land rent.<br>• **Serfs (*Villeins*):** Bound to the lord's soil; could not marry or leave the manor without lord's permission. | Cultivated the lord\'s personal land (**Demesne**) for 3 days a week without pay; paid arbitrary tallage taxes. | Bore the entire financial burden of society with zero political rights. |
-
----
-
-### 2. The Crisis of Feudalism & The Black Death (1348–1351)
-* **The Plague:** Bubonic plague carried by fleas on black rats aboard Genoese merchant ships from the Black Sea.
-* **Demographic Catastrophe:** Killed **25 to 30 million Europeans** (approx. $30\\%–40\\%$ of the population).
-* **Socio-Economic Upheaval:**
-  * Severe shortage of agricultural laborers led to soaring wages.
-  * Lords attempted to legally freeze wages and reimpose serfdom, triggering explosive peasant revolts: **The Jacquerie in France (1358)** and the **Peasants\' Revolt in England (1381 led by Wat Tyler)**.
-  * Serfdom collapsed across Western Europe, giving way to cash-wage tenant farming.
-
----
-
-### 3. The Italian Renaissance & Humanist Revolution (14th–16th Centuries)
-* **Why Italy?** Wealthy maritime commercial republics (**Florence, Venice, Genoa**) governed by merchant oligarchs (the **Medici family** of Florence) who lavishly patronized arts and learning; influx of Byzantine Greek scholars after the **Fall of Constantinople (1453)**.
-* **Humanism (*Umanista*):** Replaced medieval scholastic theology with the study of grammar, rhetoric, history, poetry, and moral philosophy; shifted focus from "God and Sin" to **"Human dignity, reason, and worldly beauty"**.
-  * **Petrarch (1304–1374):** Revered as the **"Father of Humanism"**; revived classical Latin manuscripts.
-  * **Niccolò Machiavelli (1469–1527):** Authored **The Prince (1513)**; divorced political statecraft from Christian morality, introducing modern secular political realism.
-  * **The "Universal Man" (*Uomo Universale*):** Embodying mastery in all fields, exemplified by **Leonardo da Vinci** (*Mona Lisa, The Last Supper*, aeronautical sketches) and **Michelangelo** (Sistine Chapel ceiling, David).
-* **The Print Revolution (c. 1450–1455):** **Johannes Gutenberg** invented movable metal type in Mainz, Germany; printed the Gutenberg Bible (1455); broke the Church\'s monopoly on book production, democratizing knowledge and paving the way for the **Protestant Reformation (Martin Luther, 1517)**!`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The Three Orders, The Manorial Economy & Peasant Stratification",
+        "body": "### 1. Historiography & Etymology: Marc Bloch and \"Feudal Society\"\n* **Marc Bloch (1886–1944):** Co-founder of the French *Annales School* of history, argued that European history must not be studied through narrow political-dynastic wars, but through total structural history—geography, climate, social hierarchies, collective mentalities, and peasant labor.\n* **Etymology of Feudalism:** Derived from the Old Germanic *feud*, signifying a landed estate or fief granted in return for military allegiance and protective service. Its geographical epicenter lay in northern France, later diffusing across England, western Germany, and northern Italy.\n* **Origins of France:** Derived from the Germanic **Franks** who conquered Roman Gaul. King **Charlemagne** (Holy Roman Emperor, crowned 800 CE by Pope Leo III) consolidated Frankish royal power through patron-vassal linkages.\n\n---\n\n### 2. The Tripartite Matrix of the Three Orders\n\n| Order | Social Hierarchy & Composition | Economic Foundation & Privileges | Obligations, Rites & Juridical Authority |\n| :--- | :--- | :--- | :--- |\n| **First Order: The Clergy** | Roman Catholic hierarchy headed by the Pope in Rome; Archbishops, Bishops, and parish priests; autonomous monastic orders (Benedictines, Cluny). | • Exempt from royal taxation.<br>• Owned approximately 1/5th of all cultivated land in Western Europe.<br>• Extracted the mandatory **Tithe** (10% of agricultural produce).<br>• Received generous testamentary bequests (*mortmain*). | • Sole monopoly over literacy, education, record-keeping, and sacramental rites.<br>• Church courts possessed exclusive jurisdiction over matrimonial, probate, and moral offenses.<br>• Bishops acted as secular territorial lords. |\n| **Second Order: The Nobility** | Imperial Kings, Dukes, Counts, Barons, and the specialized cavalry caste of **Knights**. | • Absolute seigneurial monopoly over land, hunting forests, and riverways.<br>• Commanded fortified private castles.<br>• Extracted judicial fines, tolls, and manorial banalities. | • Held land as a **fief** directly or indirectly from the monarch.<br>• Solemn ritual of **Homage and Fealty** (placing hands between lord's hands and swearing oath on the Holy Bible).<br>• Obligation to provide 40 days of annual military service. |\n| **Third Order: The Peasantry** | • **Free Peasants:** Rent-paying tenants.<br>• **Unfree Serfs (*Villeins*):** Bonded agricultural laborers tied hereditarily to the lord's soil. | • Cultivated strip allotments in open fields.<br>• Free peasants paid royal **Taille** tax directly to the king.<br>• Serfs had no property rights: possessions legally belonged to the seigneurial lord. | • Performed unpaid **Corvée** labor on lord's demesne (3+ days/week).<br>• Women and children spun yarn, brewed ale, and crushed grapes.<br>• Compulsory use of lord's grain mill, oven, and wine-press (**Banalities**).<br>• Paid *merchet* (marriage tax) and *heriot* (death duty). |\n\n---\n\n### 3. Monasteries vs Friars: The Monastic Geography\n* **Monasteries (*Abbeys*):** Built in remote wilderness areas for cloistered ascetic prayer, physical manual labor, and scriptorium manuscript copying:\n  * **Benedictine Order:** Founded by **St. Benedict of Nursia** at **Monte Cassino** in central Italy in **529 CE**. Enforced the strict *Rule of Saint Benedict* (73 chapters regulating prayer, obedience, silence, and labor: *Ora et Labora*).\n  * **Cluny Abbey:** Founded in Burgundy (France) in **910 CE**, initiating monastic purification and clerical celibacy reforms.\n* **Monks & Nuns:** Bound by lifetime vows of poverty, chastity, and obedience. Men and women lived in strictly segregated communities (monasteries for monks, convents/nunneries for nuns).\n* **The Friars (13th Century):** Unlike cloistered monks who remained locked in rural abbeys, mendicant **Friars** (Franciscans founded by Francis of Assisi; Dominicans founded by St. Dominic) lived without property, wandered from town to town, preached in vernacular tongues to common laborers, and ministered to lepers and urban poor.\n\n---\n\n### 4. The Anatomy of a Medieval Manorial Estate\n* **The Manor:** The fundamental, self-contained economic micro-unit of feudalism. A large manor comprised 1,000 to 2,000 acres containing:\n  * **The Lord's Castle / Manor House:** Fortified stone or timber citadel commanding high ground.\n  * **The Demesne (Lord's Land):** One-third to one-half of the cultivated arable land reserved exclusively for the lord's direct profit, cultivated by serfs via unpaid corvée.\n  * **Peasant Holdings:** Long, narrow open-field strips allocated to individual peasant families to prevent soil quality disparities.\n  * **Common Lands:** Common pastures for grazing draught oxen, woodlands for fuel and swine foraging, and waste ground.\n  * **Manorial Banalities:** The lord's private monopoly over the village **grain mill**, **communal baking oven**, and **wine/cider press**. Peasants were legally prohibited from milling grain or baking bread at home, forced to pay a fraction of flour to the lord as a processing levy!\n* **The Knights & Their Fiefs:**\n  * By the 11th century, local wars demanded specialized, heavy armored cavalry. Kings and lords granted parcels of land called **Fiefs** (typically 1,000 to 2,000 acres) to individual Knights.\n  * A fief generated sufficient agricultural rent from resident serfs to maintain the knight's destrier warhorses, chainmail armor, squires, weapons, and provisions.\n  * **Troubadours:** Wandering poet-musicians in southern France (Provence) who sang tales of courtly love, knightly chivalry, and heroic military prowess in the *langue d'oc* tongue.",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Gutenberg Print Acceleration & Scientific Rationalism',
-        body: `### The Information Explosion of Movable Type
-* Prior to Gutenberg, a monk took months to hand-copy a single manuscript on animal parchment (*vellum*), producing fewer than 50,000 hand-copied books in all of Europe.
-* By 1500, printing presses across 250 European cities had produced **over 20 million books**, making ideas uncontrollable by royal or papal censors!
-* **Scientific Breakthroughs:**
-  * **Nicolaus Copernicus (1543):** Published *De revolutionibus orbium coelestium*, replacing Ptolemaic Earth-centric universe with the **Heliocentric (Sun-centered) model**.
-  * **Galileo Galilei:** Confirmed heliocentrism with the telescope, defying the Catholic Inquisition.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Technological Shifts, The \"Fourth Order\" & The 14th-Century Crisis",
+        "body": "### 1. The Medieval Economic Expansion (11th–13th Centuries)\nBetween 1000 and 1300 CE, Western Europe underwent a profound demographic and technological transformation:\n1. **Climatic Warm Phase:** Warmer average temperatures extended the agricultural growing season across Britain, France, and Germany, reducing crop failure risks.\n2. **The Agricultural Revolution of Technology:**\n   * **Iron-Tipped Heavy Moldboard Plow:** Replaced the primitive wooden scratch-plow (*ard*). The heavy moldboard cut deep furrows and physically inverted dense clay soils, unlocking rich subsoil nutrients.\n   * **Shoulder-Collar Harness for Horses:** Shifted the tractive draft load from the animal's neck (which choked horses under heavy loads) to the breastbone and shoulders, tripling hauling power and enabling faster horse-drawn plowing.\n   * **Iron Horse-Shoes:** Protected hooves against soft, wet northern European soils, dramatically reducing animal lameness.\n   * **Harnessing Water and Wind:** Rapid proliferation of watermills and windmills for grinding corn, sawing timber, and fulling cloth.\n3. **The Three-Field Crop Rotation System:**\n   * Under the old **Two-Field System**, half of all arable land was left fallow each year to recover fertility, leaving 50% of land uncultivated.\n   * Under the revolutionary **Three-Field System**, land was divided into three parcels:\n     * **Field 1 (Autumn sowing):** Winter wheat or rye for human consumption.\n     * **Field 2 (Spring sowing):** Oats, barley (for horse feed and ale), and protein-rich legumes (peas, beans, lentils that naturally fixed soil nitrogen).\n     * **Field 3:** Fallow.\n   * *Net Result:* Fallow land dropped from 50% to only 33.3%, food production leaped by over 33%, and human dietary protein intake surged!\n\n---\n\n### 2. The Rise of the \"Fourth Order\": Urban Communes & Cathedral Towns\n* **The Re-emergence of Towns:** Surpluses enabled peasants to sell grain at periodic trade fairs and road junctions, giving birth to fortified market towns (**Burgs**, whose inhabitants were known as **Burghers** or **Bourgeoisie**).\n* **The \"Town Air Makes Free\" Principle:** Under customary German and French law (*Stadtluft macht frei*), if an escaped serf managed to evade his lord and reside undetected within a chartered town for **a year and a day** (366 days), he became legally a free citizen!\n* **Merchant & Craft Guilds:** Strict trade associations that monopolized urban manufacturing:\n  * Regulated entry through the hierarchy of **Apprentice → Journeyman → Master Craftsman**.\n  * Enforced rigid standards on product quality, fixed uniform sales prices, and excluded non-guild foreign competition.\n* **The Cathedral Boom & Gothic Architecture:**\n  * Wealthy merchant guilds and bishops funded monumental stone cathedrals (e.g., Notre Dame de Paris, Chartres, Salisbury).\n  * **Gothic Style Innovations:** Replaced heavy, dark Romanesque architecture with **soaring pointed arches**, **ribbed vaults**, **flying buttresses** (exterior stone arches transmitting roof weight outward to ground pillars), and magnificent **stained-glass windows** narrating biblical parables to an illiterate public.\n\n---\n\n### 3. The Crisis of the Fourteenth Century & The Collapse of Serfdom\nBy 1300, the medieval system hit insurmountable ecological and biological limits:\n1. **The Little Ice Age & The Great Famine (1315–1317):** Abrupt climatic cooling, persistent torrential rains, and shortened summers caused devastating continent-wide crop failures. Millions died of starvation, while chronic malnutrition weakened immune systems.\n2. **Soil Exhaustion & Pasture Shortages:** Aggressive land reclamation had cleared marginal soils and woodlands; severe shortage of pastures depleted cattle populations, eliminating vital manure fertilizer.\n3. **Monetary Contraction:** Silver mine yields in Austria and Serbia plummeted, forcing monarchs to debase coinage with copper, sparking inflationary price spikes.\n4. **The Catastrophic Black Death (1348–1351):**\n   * **Vector:** *Yersinia pestis* (bubonic plague) carried by fleas on black rats (*Rattus rattus*), brought aboard Genoese trade galleys from Kaffa on the Crimean Black Sea into Messina, Sicily in late 1347, sweeping across the continent.\n   * **Mortality:** Wiped out **between 30% and 40% of Europe's total population** (an estimated 20 to 25 million people within three years; some towns lost up to 60%).\n   * **Economic Consequence:**\n     * A sudden, catastrophic contraction of the labor supply. Surviving agricultural laborers found themselves in unprecedented bargaining positions.\n     * Demand for food dropped due to population collapse, causing agricultural commodity prices to crash while real labor wages doubled or tripled.\n     * Desperate feudal lords attempted to use legislation (e.g., England's *Statute of Laborers 1351*) to forcibly freeze wages at pre-plague levels and legally reimpose feudal corvée labor obligations.\n5. **Explosive Peasant Rebellions:**\n   * **Flanders Peasant Revolt (1323–1328):** Early rebellion against arbitrary seigneurial tithes and taxes.\n   * **The Jacquerie in France (1358):** Spontaneous, violent rural uprising against noble atrocities during the Hundred Years' War.\n   * **The English Peasants' Revolt (1381):** Led by **Wat Tyler** and the radical preacher **John Ball** (*\"When Adam delved and Eve span, who was then the gentleman?\"*). Peasants marched on London, burnt manorial rolls recording their bondage, and executed the Archbishop of Canterbury.\n   * *Historical Outcome:* Although royal armies brutally crushed the rebellions, the old feudal order could never be restored. Lords abandoned direct demesne farming and corvée labor, commuting feudal services into **fixed cash rents** and converting unfree serfs into free wage-laborers and tenant farmers.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Tithe vs Corvée & Gutenberg Bible Date',
-        body: `### High-Frequency Traps in European Feudalism & Renaissance
-
-1. **Tithe vs Corvée:**
-   * **Tithe:** A **tax of 1/10th of agricultural produce** collected by the **Church / Clergy**.
-   * **Corvée:** **Unpaid forced physical labor** demanded by the **Feudal Lord / Nobility**.
-   * *Trap:* Confusing the religious tax with feudal forced labor.
-
-2. **Father of Humanism:**
-   * **Francesco Petrarch** (NOT Erasmus or Machiavelli).
-
-3. **Fall of Constantinople Year:**
-   * Captured by Ottoman Sultan Mehmed II in **1453 CE**, triggering the migration of Greek scholars to Italy.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Topology of Feudal Europe: Heartland, Abbeys & Plague Vectors",
+        "body": "Spatial Anchors & Historical Geographies of the Three Orders:\n\n   [ICELAND]\n          \\\n           \\   [NORTH SEA]               [BALTIC SEA]\n            \\        |                         |\n       [SCOTLAND]    |                         |\n             \\       v                         v\n        [ENGLAND: London] -------------> [FLANDERS: Ghent, Bruges]\n         (Wat Tyler Revolt, 1381)          (Cloth Guilds & Communes)\n              |                                |\n        [ENGLISH CHANNEL]                      |\n              |                                v\n    [NORMANDY / N. FRANCE] -----------> [HOLY ROMAN EMPIRE]\n    (Feudal Heartland: Manorial           (Rhine Valley Towns,\n     Demesne, Knights, Corvée)             Silver Mines)\n              |                                |\n              v                                v\n    [BURGUNDY: Cluny Abbey 910] ------> [CENTRAL ITALY: Monte Cassino 529]\n    (Monastic Reform Epicenter)           (St. Benedict's Monastery)\n              |                                |\n              v                                v\n        [PROVENCE / AVIGNON] ---------> [ITALIAN MARITIME REPUBLICS]\n        (Troubadours, Papal Palace)       (Genoa, Venice, Florence)\n              |                                ^\n              v                                |\n     [MEDITERRANEAN SEA] <---------------------+ (Black Death Vector 1347:\n              ^                                   Kaffa -> Messina -> Genoa)\n              |\n       [SPAIN / IBERIA]\n    (Reconquista Frontier)\n\nSpatial Distribution of Institutional and Crisis Milestones:\n1. The Classic Feudal Heartland (Gaul/Northern France & Southern England):\n   - Heaviest concentration of nucleated manorial estates, tripartite field systems, and seigneurial demesnes.\n   - Deepest institutionalization of the Knight-fief connection and heavy moldboard plowing in fertile river plains (Seine, Loire, Thames).\n2. The Monastic Diffusion Axis:\n   - Monte Cassino (Italy, 529 CE): The cradling spur of Western monasticism, situated atop a rocky plateau southeast of Rome.\n   - Cluny Abbey (Burgundy, France, 910 CE): Controlled a centralized federation of over 1,000 priories across Europe, asserting direct subordination only to the Pope.\n3. The Black Death Diffusion Corridors (1347–1351):\n   - Origin: Steppes of Central Asia -> Genoese trading outpost of Kaffa in the Crimea.\n   - Maritime Vector: Genoese galleys evacuated Kaffa and docked at Messina (Sicily) in October 1347, rapidly transmitting plague to Genoa, Venice, and Marseille by early 1348.\n   - Overland Propagation: Swept north along river trade arteries across Paris (1348), London (autumn 1348), Germany (1349), Scandinavia and Russia (1350–1351).",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "EXAM_APPLICATION",
+        "title": "Examiner Traps, Key Invariants & Standard Answer Frameworks",
+        "body": "### High-Frequency Traps in Feudal Europe & The Three Orders\n\n1. **Tithe vs Taille vs Corvée (The Definitive Trap Matrix):**\n   * **Tithe:** A mandatory ecclesiastical tax amounting to **1/10th (10%) of all annual agricultural yield**, collected exclusively by the **Catholic Church / Clergy**.\n   * **Taille:** A direct, arbitrary state tax levied by the **King / Secular Monarch** on the peasantry (from which the nobility and clergy were strictly exempt).\n   * **Corvée:** **Unpaid physical forced labor** rendered by **Serfs** directly on the **Lord's personal estate (Demesne)** for 3+ days a week.\n   * *Examiner Trap:* UPSC and RPSC Prelims frequently swap Tithe with Taille, or assert that nobility paid the Taille.\n\n2. **Monks vs Friars:**\n   * **Monks:** Cloistered, living in permanent rural abbeys (monasteries), physically detached from society, committed to vows of silence, manual labor, and liturgical chanting.\n   * **Friars (Franciscans, Dominicans):** Emerged in the 13th century; owned no property and lived NOT in monasteries, but roamed among urban masses preaching and ministering.\n\n3. **Two-Field vs Three-Field Rotation Math:**\n   * *Two-Field System:* 50% cultivated, 50% fallow.\n   * *Three-Field System:* 66.7% cultivated (33.3% winter grain + 33.3% spring pulses/oats), only 33.3% fallow.\n   * *Examiner Trap:* Confusing the crops: Spring parcel grew legumes (peas, beans, lentils) which restored nitrogen, and oats for horses.\n\n4. **14th-Century Peasant Revolts Chronology:**\n   * 1323–1328: Flanders Peasant Revolt.\n   * 1348–1351: The Black Death pandemic.\n   * 1358: The Jacquerie Revolt in northern France.\n   * 1381: English Peasants' Revolt (Wat Tyler & John Ball).\n\n---\n\n### Standard Mains Framework: \"How did the 14th-Century Crisis dismantle Feudal Serfdom?\"\n1. **Introduction:** Define Feudalism and the Manorial economy as analyzed by Marc Bloch; note that serfdom relied on cheap, abundant, captive agrarian labor.\n2. **The Triad of Disruptions:**\n   * *Ecological/Climatic:* Little Ice Age + Great Famine (1315–1317) undermined demographic resilience.\n   * *Demographic Shock:* The Black Death (1348) eliminated 30–40% of European laborers, transforming labor from an abundant factor into an acute scarcity.\n   * *Market Inversion:* Agricultural prices collapsed while wage demands skyrocketed.\n3. **The Lordly Backlash & Peasant Defiance:**\n   * Noble attempts to legally freeze wages (Statute of Laborers 1351) ignited violent armed uprisings (Jacquerie 1358, English Peasants' Revolt 1381).\n4. **The Structural Resolution:**\n   * Compulsory corvée became politically unenforceable; lords were forced to commute labor services into fixed money rents, emancipating serfs into contractual tenant farmers and paving the path for early agrarian capitalism.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-WLD-03-1',
-        statement: 'Medieval European feudalism was structured into the Three Orders (Clergy, Nobility, Peasantry), where the Church extracted the Tithe (one-tenth agricultural tax) and lords extracted unpaid Corvée labor from serfs.',
-        claimType: 'FEUDAL_STRUCTURE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-46',
-        excerpt: 'The Three Orders & Renaissance: Feudal Europe, clergy, nobility, peasantry, tithe, corvee.',
+        "id": "CLM-WLD-03-1",
+        "statement": "Medieval Western European society between the 9th and 14th centuries was divided into Three Orders (Clergy, Nobility, Peasantry), wherein the Catholic Church levied the mandatory Tithe (one-tenth agricultural tax) and landed lords extracted unpaid Corvée forced labor from bonded Serfs on the manorial Demesne.",
+        "claimType": "FEUDAL_ESTATES_STRUCTURE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 6: The Three Orders, pp. 132-139",
+        "excerpt": "The three orders are three social categories: Christian priests, landowning nobles and peasants... The church was entitled to a tenth share of whatever the peasants produced from their land over the course of the year, called a \"tithe\". Serfs cultivated plots of land that belonged to the lord. Much of the produce from this had to be given to the lord. They also had to do unpaid labour service (corvee) on the lord's own private land (demesne)."
       },
       {
-        id: 'CLM-WLD-03-2',
-        statement: 'The Black Death (1348–1351) eliminated approximately one-third of Europe\'s population, creating severe labor shortages that eroded serfdom and catalyzed peasant uprisings like the 1381 English revolt.',
-        claimType: 'PANDEMIC_IMPACT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-46',
-        excerpt: 'Black Death 1348; labor scarcity; collapse of feudal serfdom; 1381 peasant revolt.',
+        "id": "CLM-WLD-03-2",
+        "statement": "Monasticism in Western Europe was anchored by cloistered orders such as the Benedictines at Monte Cassino (529 CE) following the Rule of Saint Benedict, distinct from 13th-century mendicant Friars who possessed no fixed property and wandered urban centers preaching.",
+        "claimType": "MONASTIC_INSTITUTIONS",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 6: The Three Orders, pp. 136-137",
+        "excerpt": "Two of the more well-known monasteries were those established by St Benedict in Italy (529) and of Cluny in Burgundy (910)... Unlike monks, who did not live in a family, friars did not live in a monastery. They moved from place to place, preaching to the people and living on charity."
       },
       {
-        id: 'CLM-WLD-03-3',
-        statement: 'The Italian Renaissance pioneered Humanism through Petrarch, political secularism through Machiavelli\'s The Prince, and the Gutenberg movable-type print revolution (1450s) that enabled the Protestant Reformation.',
-        claimType: 'INTELLECTUAL_REVOLUTION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-46',
-        excerpt: 'The Renaissance: Humanism, Petrarch, Machiavelli The Prince, Gutenberg movable type press 1450.',
+        "id": "CLM-WLD-03-3",
+        "statement": "The 11th-century European agricultural revolution transitioned from the two-field system to the three-field crop rotation, accompanied by heavy iron-tipped moldboard plows and shoulder harnesses for horses, significantly increasing food production and population.",
+        "claimType": "AGRICULTURAL_TECHNOLOGY",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 6: The Three Orders, pp. 140-142",
+        "excerpt": "The most revolutionary technological change was the switch from a two-field to a three-field system... Heavy, iron-tipped ploughs replaced wooden scratch-ploughs, and the method of harnessing animals to the plough improved: instead of the neck-harness, the shoulder-harness came into use, enabling horses to exert greater power."
       },
+      {
+        "id": "CLM-WLD-03-4",
+        "statement": "The Crisis of the Fourteenth Century, catalyzed by the Little Ice Age and the 1348–1351 Black Death (killing 30–40% of Europe's population), generated severe labor shortages that led to peasant rebellions (Jacquerie 1358, English Peasants' Revolt 1381) and dismantled feudal serfdom in favor of money rents.",
+        "claimType": "CRISIS_OF_FEUDALISM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XI Themes in World History, Theme 6: The Three Orders, pp. 144-147",
+        "excerpt": "In 1347-51, Western Europe was hit by the Black Death (bubonic plague)... this devastation caused a catastrophic shortage of labour. Surviving peasants demanded higher wages. When lords resisted and tried to revive old labour services, violent peasant revolts broke out, such as the Jacquerie in France in 1358 and the Peasants' Revolt in England in 1381."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Renaissance, Enlightenment & Decline of Feudalism',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Renaissance humanism, Machiavelli, and the transition from feudalism to capitalism are core UPSC themes.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — World History / Feudalism, The Three Orders, Transition to Modern Economy & Social Revolutions",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS",
+        "notes": "UPSC Mains frequently interrogates the socio-economic transition from feudalism to capitalism, the Black Death's impact on labor relations, and Marc Bloch's feudal thesis."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Renaissance & Reformation',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Guaranteed 5-mark and 10-mark questions on Renaissance causes, humanism, and literature.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I, Unit 1 — World History / Medieval Europe: Feudalism, Decline of Feudalism & Rise of Towns",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Direct 5-mark and 10-mark questions on: What was the Manorial system? What were the Three Orders? Causes of the decline of Feudalism."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — World History',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Gutenberg press year (1450s), Father of Humanism (Petrarch), and The Prince author.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — World History / Medieval Europe & Important Terms",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "High-frequency MCQ testing on: Tithe (1/10th church tax), Corvée (unpaid labor), Taille (royal tax), Black Death years (1348-1351), and Wat Tyler Revolt (1381)."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — Global Transformations',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'HISTORICAL_FOUNDATIONS',
-        notes: 'Tested on Black Death dates and print revolution.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "General Studies — Global Socio-Economic Transformations & Historical Foundations of Labor Rights",
+        "relevance": "SUPPORTING",
+        "priority": "HIGH",
+        "requiredDepth": "SOCIO_ECONOMIC_FOUNDATIONS",
+        "notes": "Critical historical grounding for the evolution of labor contracts, transition from bonded serfdom to free wage contracts, and post-plague labor market regulation (Statute of Laborers)."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Global Economic History Milestones",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Awareness of historical pandemics, the Black Death, and the roots of modern commercial banking in Italian city-states."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — World History',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — World Economic History",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "General static awareness of economic terminology and historical milestones."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on European economic history.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Major Historical Crises & Economic Transitions",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static questions on European economic history, the Black Death demographic shock, and agrarian productivity shifts."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Transition to early modern market economies.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Evolution — History of Commerce, Guilds & Money Economy",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Evolution from barter/demesne service to monetized cash rent systems, early bill of exchange systems, and craft guild monopolies."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Feudalism: 3 Orders = Clergy (Tithe = 10% tax), Nobility (Manors, Knights, Corvée = unpaid labor), Peasantry (Serfs bound to soil). Black Death (1348-51, killed 1/3 population -> broke serfdom). Renaissance (Italy, Florence, Medici): Humanism (Petrarch = Father), Machiavelli (The Prince 1513, secular statecraft), Leonardo (Universal Man), Gutenberg (Movable metal type press 1450s Mainz).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Three Orders: 1) Clergy (Tithe = 10% tax, Monte Cassino 529 CE, Cluny 910 CE, Friars wander/preach); 2) Nobility (Vassalage homage/Bible oath, Manor, Demesne = lord's land, Knights = 1000-2000 acre fiefs, Troubadours); 3) Peasantry (Free pay royal Taille vs Serfs pay Corvée = unpaid 3+ days/wk labor + banalities). Tech: Heavy iron plow, shoulder collar, 3-field system (winter wheat, spring legumes/oats, fallow = 67% cropped). Crisis: Little Ice Age + Black Death (1348-51, killed 1/3 population -> labor shortage -> broke serfdom -> Jacquerie 1358, Wat Tyler 1381).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Feudalism & Renaissance Blueprint: 1) Three Orders: Clergy extracted the Tithe; Nobility owned manors and extracted Corvée forced labor from unfree Serfs. 2) Crisis: The Black Death (1348) eradicated one-third of Europe\'s population, causing catastrophic labor shortages that dismantled feudal serfdom. 3) Renaissance & Humanism: Emerged in Italian merchant republics (Florence); Petrarch pioneered Humanism; Machiavelli secularized political realism in The Prince. 4) Gutenberg Press (1450s): Broke Church monopoly on information, laying the foundation for the scientific revolution.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Medieval Feudalism & The Three Orders (NCERT Class XI Theme 6): 1) Social Hierarchy: Clergy (1st Order) collected the mandatory 10% Tithe and held independent church courts; Nobility (2nd Order) controlled land through vassalage rituals (Homage and Fealty) and maintained Knights on landed fiefs; Peasantry (3rd Order) was split between free tenants (paying royal Taille) and unfree Serfs tied to the soil, subjected to unpaid Corvée labor on the lord's Demesne and lord's monopolies (Banalities). 2) Agricultural Leap: 11th-century climatic warming, iron-tipped moldboard plows, equine shoulder-collars, and the Three-Field rotation reduced fallow land to 33%, doubling food output. 3) Fourth Order: Growth of fortified towns (Burgs), merchant/craft guilds, and soaring Gothic cathedrals with flying buttresses. 4) The 14th-Century Collapse: The Black Death (1348-1351) annihilated 30-40% of Europe's population. The resulting labor famine destroyed serfdom, sparking massive peasant uprisings (French Jacquerie 1358, English Peasants' Revolt 1381) and forcing lords to commute labor duties into cash wages and money rents.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Early Modern Transition Architecture: 1) Demographic Shock: Bubonic plague shifting economic bargaining power from feudal landlords to agricultural laborers. 2) Epistemological Secularization: Humanism shifting cognitive focus from theological dogma to empirical human reason. 3) Mechanical Replication: Movable metal type reducing the cost of knowledge dissemination by 99%, triggering mass literacy and religious reform.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Feudal Dynamics & Systemic Transition Architecture: 1) Marc Bloch's Structural Conception: Feudalism as a total socio-ecological system linking rural geography, mentalities, and bonded agrarian labor under Frankish customary vassalage. 2) The Labor-Extraction Mechanics: The manor as an autarkic economic cell where serfs were legally unfree, bound to the demesne via corvée, and taxed at every life juncture (merchet, heriot, banalities). 3) Technological Multipliers: Transition from scratch-plows and two-field systems to heavy moldboard plows and three-field rotations incorporating nitrogen-fixing spring legumes. 4) The Exogenous Demographic Shock: The Black Death (1348) permanently inverting the capital-labor ratio, rendering serfdom economically unenforceable and establishing the contractual wage-labor relations that birthed agrarian capitalism.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'RENAISSANCE_MCQ',
-        stem: 'Who among the following fourteenth-century Italian scholars and poets is universally celebrated across European intellectual history as the "Father of Humanism"?',
-        options: ['Dante Alighieri', 'Francesco Petrarch', 'Giovanni Boccaccio', 'Niccolò Machiavelli'],
-        correctAnswer: 'Francesco Petrarch',
-        explanation: 'Francesco Petrarch (1304–1374) is recognized as the "Father of Humanism" for his pioneering recovery and study of classical Roman authors (Cicero, Virgil) and his philosophical emphasis on human reason, secular virtue, and individual agency.',
-        trapExplanation: 'Dante wrote The Divine Comedy; Machiavelli wrote The Prince; Petrarch is the Father of Humanism.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'RPSC RAS Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Father of Humanism attribution to Petrarch.',
-      },
-      {
-        type: 'FEUDAL_MCQ',
-        stem: 'In the socio-economic structure of medieval European feudalism, what did the term "Tithe" specifically designate?',
-        options: [
-          'The mandatory unpaid physical labor that serfs performed on the lord\'s demesne',
-          'A compulsory tax of one-tenth (10%) of annual agricultural produce collected by the Catholic Church from the peasantry',
-          'The annual tribute paid by a feudal knight to the king in lieu of military service',
-          'The entry fine paid by a serf upon inheriting his father\'s tenancy'
+        "type": "NCERT_HIST_MCQ",
+        "stem": "With reference to the socio-economic structure of medieval European feudalism, consider the following statements:\n1. The \"Tithe\" was a direct state tax levied exclusively by secular kings on the free peasantry.\n2. The \"Corvée\" consisted of unpaid physical labor that serfs were obligated to perform on the lord's personal land known as the demesne.\n3. The Benedictine monastery of Monte Cassino was established in Italy in 529 CE under the Rule of Saint Benedict.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 and 3 only",
+          "1 and 2 only",
+          "1, 2 and 3"
         ],
-        correctAnswer: 'A compulsory tax of one-tenth (10%) of annual agricultural produce collected by the Catholic Church from the peasantry',
-        explanation: 'The Tithe was a mandatory ecclesiastical tax amounting to one-tenth (10%) of all crops, livestock, and agricultural produce levied by the Catholic Church on peasant cultivators. Option A describes the Corvée.',
-        trapExplanation: 'Option A describes Corvée; confusing Tithe with Corvée is a standard examiner trap.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Tithe (Church tax) vs Corvée (unpaid feudal labor).',
+        "correctAnswer": "2 and 3 only",
+        "explanation": "Statement 1 is incorrect: The Tithe was NOT a secular state tax; it was a mandatory ecclesiastical tax amounting to 1/10th (10%) of agricultural produce collected exclusively by the Catholic Church. The direct state tax levied by secular monarchs on peasants was the Taille. Statements 2 and 3 are correct: Corvée was unpaid compulsory labor performed on the lord's demesne, and St. Benedict founded the monastery of Monte Cassino in 529 CE.",
+        "trapExplanation": "Examiners deliberately swap Tithe (ecclesiastical 10% tax) with Taille (secular royal tax). Always verify the tax-collecting authority.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": false,
+        "pyqYear": 2023,
+        "pyqPaper": "UPSC CSE Prelims Practice / NCERT Class XI Theme 6",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Tithe (Church tax) vs Taille (King's tax) vs Corvée (feudal forced labor)."
       },
-    ],
+      {
+        "type": "NCERT_HIST_MCQ",
+        "stem": "Which of the following was a direct socio-economic consequence of the catastrophic Black Death pandemic (1348–1351) across Western Europe?\n1. Extreme labor scarcity that caused real agricultural wages to double or triple.\n2. The collapse of the three-field crop rotation system back into primitive scratch-plowing.\n3. Peasant uprisings, including the French Jacquerie (1358) and the English Peasants' Revolt (1381), triggered by noble attempts to freeze wages.\n4. The permanent strengthening and re-feudalization of bonded serfdom across England and France.\nSelect the correct answer using the code given below:",
+        "options": [
+          "1 and 3 only",
+          "1, 2 and 4 only",
+          "2 and 3 only",
+          "1, 3 and 4 only"
+        ],
+        "correctAnswer": "1 and 3 only",
+        "explanation": "Statements 1 and 3 are correct: The Black Death killed 30% to 40% of Europe's population, creating an acute labor shortage where surviving peasants demanded higher wages. When lords attempted to legally freeze wages and reimpose old servitude, massive revolts erupted (the Jacquerie in 1358 and the English Peasants' Revolt led by Wat Tyler in 1381). Statements 2 and 4 are incorrect: The agricultural technology of the three-field system remained intact, and rather than strengthening serfdom, the crisis permanently shattered serfdom in Western Europe, forcing lords to commute labor services into cash wages and money rents.",
+        "trapExplanation": "Statement 4 is an examiner trap: while serfdom collapsed in Western Europe (England/France), it was re-imposed in Eastern Europe (the \"Second Serfdom\" east of the Elbe), but the question specifically pertains to Western Europe where serfdom collapsed.",
+        "difficulty": "ADVANCED",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Assuming the Black Death strengthened feudalism rather than shattering serfdom in Western Europe."
+      }
+    ]
   },
 
   // =========================================================================
