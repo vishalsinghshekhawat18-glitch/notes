@@ -986,8 +986,8 @@ In the mid-14th century, this frozen medieval order shattered:
   {
     id: 'CON-WLD-05',
     slug: 'nineteenth-century-nationalism-unification-of-italy-and-germany',
-    title: '19th-Century European Nationalism: The Italian Risorgimento (Cavour, Garibaldi, Mazzini) & German Unification (Bismarck\'s Blood and Iron)',
-    shortDefinition: 'The rise of the nation-state in 19th-century Europe: Reaction to the Congress of Vienna (1815), the Revolutions of 1848, the Italian Unification (Risorgimento: Giuseppe Mazzini\'s Young Italy, Count Cavour\'s diplomacy, Garibaldi\'s Red Shirts, King Victor Emmanuel II, 1861/1870), and German Unification (Otto von Bismarck\'s "Blood and Iron" policy, Three Wars of Unification 1864–1871, proclamation of the German Empire at Versailles 1871).',
+    title: 'The Rise of Nationalism in Europe: Romanticism, 1848 Revolutions, Italian Risorgimento, German Empire & The Balkan Powder Keg',
+    shortDefinition: 'Exhaustive NCERT Class X Chapter 1 synthesis: Frédéric Sorrieu\'s utopian vision of democratic republics (1848), the Napoleonic Code exporting administrative standardization, the Congress of Vienna (1815) and Metternich\'s conservative restoration, the Zollverein customs union (1834), Romanticism as cultural resistance (Herder\'s Volkgeist, Grimm Brothers, Delacroix), the 1848 Frankfurt Parliament in St. Paul\'s Church, Italian Unification (Mazzini, Cavour, Garibaldi, Victor Emmanuel II), German Unification (Bismarck\'s Blood and Iron), the strange case of Britain (Acts of Union 1707/1801), visual allegories (Marianne & Germania), and the explosive nationalist conflicts in the Balkans leading to World War I.',
     difficulty: 'ADVANCED',
     order: 5,
     topicSlug: 'european-nationalism-and-unification',
@@ -995,147 +995,126 @@ In the mid-14th century, this frozen medieval order shattered:
       {
         type: 'INTUITION',
         title: 'Forging Nations from Fractured Feudalities: Blood, Iron, and Romance',
-        body: `Following the defeat of Napoleon at Waterloo in 1815, the conservative crowned heads of Europe met at the **Congress of Vienna (1815)** chaired by Austrian Chancellor **Klemens von Metternich**. Their goal was to roll back the clock: restore absolute monarchies, suppress liberalism, and keep Central and Southern Europe fractured:
-* The Italian peninsula was dismissed by Metternich as merely a *"geographical expression"*, carved into eight separate autocracies ruled by Austrian Habsburgs, the Pope, and Spanish Bourbons.
-* The German-speaking lands were fragmented into 39 sovereign principalities dominated by the conservative Austrian Empire.
-
-Yet within fifty years, two powerful nation-states erupted onto the European stage through two contrasting geniuses:
-1. **Italy (The Romantic Risorgimento):** Unified through the spiritual soul of **Mazzini**, the Machiavellian diplomatic brain of **Cavour**, and the swashbuckling sword of **Garibaldi**.
-2. **Germany (The Realpolitik Machine):** Unified not by speeches and majority resolutions, but through Prussian Chancellor **Otto von Bismarck\'s** ruthless doctrine of **"Blood and Iron" (*Blut und Eisen*)**!`,
+        body: 'In 1848, the French artist Frédéric Sorrieu prepared a series of four prints visualizing a world made up of "democratic and social republics". The first print depicted the peoples of Europe and America marching past the Statue of Liberty, casting down the shattered remains of royal absolutism on the earth.\n\nYet in real nineteenth-century Europe, nationalism was not an effortless march toward universal brotherhood. It was forged in volcanic clashes between two opposing forces:\n1. The Conservative Reaction (1815): Chaired by Austrian Chancellor Klemens von Metternich at the Congress of Vienna, monarchies sought to roll back the French Revolution, restore absolute dynasties (the Bourbons in France), and keep Europe politically fragmented. Metternich famously dismissed Italy as merely a "geographical expression" and remarked: "When France sneezes, the rest of Europe catches cold!"\n2. The Revolutionary & National Waves (1830 & 1848): Middle-class liberals, secret societies, and romantic artists rallied language, folk culture, and national identity to challenge multinational dynastic empires (Austro-Hungarian Habsburgs, Ottoman Turks, Russian Romanovs).\n\nWithin five decades, this explosive force unified Italy through the romantic heroism of Mazzini, Cavour, and Garibaldi, and forged the German Empire through Bismarck\'s calculated doctrine of "Blood and Iron", while turning the multinational Balkan peninsula into the explosive powder keg that detonated World War I in 1914!',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'Italian Risorgimento & German Unification Master Matrix',
-        body: `### 1. The Unification of Italy (The Risorgimento, 1815–1870)
-
-| Master Architect | Role / Persona | Core Contribution & Modus Operandi | Historic Milestones |
-| :--- | :--- | :--- | :--- |
-| **Giuseppe Mazzini (1805–1872)** | **"The Heart / Soul of Italy"** | Founded secret societies: **Young Italy (*Giovine Italia*, 1831)** in Marseilles and Young Europe in Berne; inspired youth with democratic republican idealism. | Led the short-lived Roman Republic (1849); insisted that Italy must be unified by the moral will of its people. |
-| **Count Camillo di Cavour (1810–1861)** | **"The Brain / Mind of Italy"** | Prime Minister of **Piedmont-Sardinia**; pragmatic diplomat who realized Italy could not expel Austria without foreign great-power help. | Formed secret alliance with Napoleon III of France (**Plombières Agreement, 1858**); defeated Austria in 1859, annexing Lombardy. |
-| **Giuseppe Garibaldi (1807–1882)** | **"The Sword of Italy"** | Charismatic military guerrilla leader; led his 1,000 volunteer civilian army: **The Red Shirts (*Camicie Rosse*)**. | **Expedition of the Thousand (1860):** Landed in Sicily, swept through southern Italy, overthrowing the Bourbon kingdom of the Two Sicilies; selflessly surrendered southern Italy to Victor Emmanuel II! |
-| **King Victor Emmanuel II** | Monarch of Piedmont-Sardinia. | The constitutional sovereign anchor of Italian unification. | Proclaimed **King of United Italy (March 17, 1861)** in Turin; annexed Venetia (1866) and **Rome (1870)** after French troops withdrew during Franco-Prussian War; Rome became capital (1871). |
-
----
-
-### 2. The Unification of Germany (1862–1871)
-* **Otto von Bismarck:** Appointed Minister-President of **Prussia** in 1862 by King Wilhelm I.
-* **The "Blood and Iron" Philosophy (Speech, Sept 30, 1862):**
-  > *"The great questions of the day will not be settled by speeches and majority decisions—that was the great mistake of 1848 and 1849—but by **blood and iron**."*
-* **The Three Calculated Wars of Unification:**
-  1. **Danish War (1864):** Prussia and Austria teamed up to defeat Denmark, seizing Schleswig (Prussia) and Holstein (Austria).
-  2. **Austro-Prussian War / Seven Weeks\' War (1866):** Bismarck isolated Austria diplomatically; Prussian modernized railway-and-breech-loading army routed Austria at **Battle of Sadowa (Königgrätz)**; expelled Austria from German affairs and created the **North German Confederation**.
-  3. **Franco-Prussian War (1870–1871):** Bismarck manipulated the **Ems Dispatch** telegram to provoke French Emperor Napoleon III into declaring war. Prussia routed France at the **Battle of Sedan (Sept 1870)**, capturing Napoleon III.
-* **Proclamation of the German Empire (January 18, 1871):**
-  * In the ultimate humiliation to France, King Wilhelm I was proclaimed **German Emperor (*Kaiser*)** in the **Hall of Mirrors at the Palace of Versailles**!
-  * Annexed the rich industrial provinces of **Alsace and Lorraine**, planting the geopolitical seeds of World War I.`,
+        title: 'Cultural Nationalism, Economic Unification & Revolutionary Chronology',
+        body: '### 1. Visualizing the Nation: Cultural Romanticism & Allegories (NCERT Class X)\n- **Romanticism as National Sentiment:** A cultural movement that rejected the cold glorification of science and reason, emphasizing emotion, intuition, and mystical feelings.\n- **Johann Gottfried von Herder (1744–1803):** German romantic philosopher who claimed that true German culture was discovered among the common people—***das Volk***; the true spirit of the nation (***Volksgeist***) was popularized through folk songs, poetry, and folk dances.\n- **Language as National Resistance (Poland):** When the Russian Empire occupied Poland and banned the Polish language, Catholic priests used Polish for church gatherings and religious instruction; despite exile to Siberia, language became a sacred weapon of national identity.\n- **National Allegories:**\n  * **Marianne (France):** Personification of the French Republic; depicted with the red liberty cap, tricolor cockade, and virtues of Liberty and Reason; statues erected in public squares to symbolize civic unity.\n  * **Germania (Germany):** Visual allegory of the German nation; depicted wearing a crown of **oak leaves** (German oak stands for heroism), holding a sword and tricolor (black, red, gold).\n\n---\n\n### 2. Economic Precursor: The Zollverein (1834)\n- Created at the initiative of **Prussia** and joined by most German states.\n- **Core Reforms:** Abolished tariff barriers across 39 member states, reduced the number of internal currencies from over thirty down to two, and built an integrated railway network.\n- *NCERT Invariant:* Economic nationalism and market integration forged national unity decades before political unification was achieved!\n\n---\n\n### 3. The 1848 Revolutions & The Frankfurt Parliament Failure\n- In May 1848, 831 elected middle-class representatives gathered in the **Church of St. Paul in Frankfurt** to draft a constitution for a unified Germany under a constitutional monarch.\n- They offered the imperial crown to **King Friedrich Wilhelm IV of Prussia**; he arrogantly rejected it, refusing a "crown from the gutter" offered by an elected assembly.\n- Aristocrats, military commanders, and conservative landlords (**Junkers** of Prussia) repressed the assembly; troops disbanded the parliament, proving that liberal constitutionalism alone could not defeat royalist arms.',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'The Zollverein Economic Engine & The Ems Dispatch Catalyst',
-        body: `### 1. The Zollverein (Customs Union, 1834)
-* Created under Prussian leadership decades before political unification:
-* Abolished internal tariff barriers among 39 German states, standardizing weights, currencies, and connecting the states via a unified railway network.
-* Proved that economic unification preceded and laid the indispensable foundation for political unification!
-
-### 2. The Ems Dispatch Manipulation (July 1870)
-* Bismarck edited a diplomatic telegram between King Wilhelm I and the French ambassador at Bad Ems, making it appear that both leaders had insulted each other.
-* He leaked the edited text to the press on Bastille Day, inflaming public opinion in Paris and Berlin, expertly provoking France into declaring war so Prussia would appear as the victim of French aggression!`,
+        title: 'Master Architectures: Italian Risorgimento, German Empire & The British Model',
+        body: '### 1. The Unification of Italy (The Risorgimento, 1815–1870)\nIn the early 19th century, Italy was divided into seven states; only **Piedmont-Sardinia** was ruled by an Italian princely house (House of Savoy):\n- **Giuseppe Mazzini (The Soul):** Founded secret societies **Young Italy (*Giovine Italia*, 1831)** in Marseilles and Young Europe in Berne; believed nations were natural units of mankind; led the 1849 Roman Republic.\n- **Count Camillo di Cavour (The Brain):** Prime Minister of Piedmont-Sardinia; neither a democrat nor a revolutionary; spoke French better than Italian; engineered a tactful diplomatic alliance with Napoleon III of France (**Plombières Agreement, 1858**), defeating Austria in 1859 to annex Lombardy.\n- **Giuseppe Garibaldi (The Sword):** Led his volunteer civilian army of the **Red Shirts (*Camicie Rosse*)** in the **Expedition of the Thousand (1860)**, liberating Sicily and Naples from the Spanish Bourbons and selflessly surrendering the territories to King Victor Emmanuel II.\n- **1861 & 1870:** **King Victor Emmanuel II** proclaimed King of United Italy (1861); annexed **Rome** in 1870 when French garrison troops withdrew during the Franco-Prussian War; Rome became capital (1871).\n\n---\n\n### 2. The Unification of Germany (1862–1871)\n- Chief Minister **Otto von Bismarck** unified Germany via Prussian military supremacy and the conservative aristocracy (**Junkers**):\n  > *"Not by speeches and votes are the great questions of the time decided—that was the error of 1848 and 1849—but by **blood and iron**."*\n- **Three Wars in Seven Years (All Won by Prussia):**\n  1. *Danish War (1864):* Allied with Austria to liberate Schleswig and Holstein.\n  2. *Austro-Prussian War / Seven Weeks\' War (1866):* Crushed Austria at **Battle of Sadowa (Königgrätz)**; established North German Confederation.\n  3. *Franco-Prussian War (1870–1871):* Provoked France via the edited **Ems Dispatch**; captured Napoleon III at **Battle of Sedan (1870)**.\n- **Imperial Proclamation (January 18, 1871):** King Wilhelm I crowned German Emperor (**Kaiser**) in the **Hall of Mirrors at the Palace of Versailles** (the ultimate humiliation to France; annexed Alsace-Lorraine).\n\n---\n\n### 3. The "Strange Case of Britain": State-Forging without Revolution\n- Great Britain did not become a nation-state through sudden revolution, but through a long parliamentary process dominated by English economic power:\n  * **Glorious Revolution (1688):** English Parliament seized power from the Stuart monarchy.\n  * **Act of Union 1707:** Merged England and Scotland into the "United Kingdom of Great Britain", suppressing Scottish Gaelic language and Highland culture.\n  * **Act of Union 1801:** Forcibly incorporated Ireland into the UK following the crushed Irish revolt led by **Wolfe Tone and the United Irishmen (1798)**.\n  * New "British nation" forged through British symbols: the Union Jack flag, the national anthem (*God Save Our Noble King*), and the English language.',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Italian Roles & Versailles Proclamation Year',
-        body: `### High-Frequency Traps in European Unification History
-
-1. **Italian Unification Personalities (UPSC Favorite!):**
-   * **Mazzini:** The Soul (Young Italy).
-   * **Cavour:** The Brain (Prime Minister, Diplomacy).
-   * **Garibaldi:** The Sword (Red Shirts).
-   * **Victor Emmanuel II:** The King.
-
-2. **German Empire Proclamation Venue:**
-   * Proclaimed on **January 18, 1871** inside the **Hall of Mirrors at Versailles, France** (NOT Berlin!).
-
-3. **Blood and Iron Author:**
-   * **Otto von Bismarck** (NOT Kaiser Wilhelm I or Adolf Hitler).`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'The Balkan Geopolitical Powder Keg (NCERT Landmark Section)',
+        body: 'Geopolitical Topology of the 19th-Century Balkan Flashpoint:\n\n       [AUSTRO-HUNGARIAN EMPIRE] <==== (Annexed Bosnia-Herzegovina 1908)\n                    |\n                    V\n   +-------------------------------------------------------------------------+\n   | THE BALKANS REGION (The Powder Keg):                                    |\n   |   - Diverse ethnicities: Serbs, Croats, Bosnians, Slovenes, Bulgarians, |\n   |     Romanians, Macedonians, Greeks, Albanians (collectively "Slavs")    |\n   |   - Ruled for centuries by the decaying OTTOMAN EMPIRE                 |\n   |   - 1832: Greek War of Independence recognized by Treaty of             |\n   |     Constantinople                                                      |\n   |   - Rivalries: Each Balkan state intensely jealous, seeking territory  |\n   +-------------------------------------------------------------------------+\n          ^                                            ^\n          |                                            |\n   [RUSSIAN EMPIRE]                             [BRITAIN / GERMANY]\n   (Pan-Slavic protector;                       (Naval & commercial\n   sought warm-water Dardanelles)                trade containment)\n\nCore Invariant: Imperialist rivalry over trade, colonies, and naval bases among Great Powers (Russia, Germany, Britain, Austro-Hungary) superimposed onto intense internal Balkan nationalist rivalries, culminating in the spark at Sarajevo (1914) that ignited World War I.',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Key Treaties & Standard Answer Frameworks',
+        body: '### 1. High-Frequency Traps in European Nationalism History\n- **Treaty of Vienna (1815) vs. Treaty of Constantinople (1832):**\n  * *Vienna 1815:* Chaired by Metternich; restored European absolute monarchies and conservative order.\n  * *Constantinople 1832:* Formally recognized **Greece as an independent nation** after the Greek War of Independence (supported by English poet **Lord Byron**, who died of fever at Missolonghi in 1824).\n- **Frankfurt Parliament Venue (1848):** Held inside **St. Paul\'s Church in Frankfurt** (NOT Berlin, NOT Munich!).\n- **German Empire Proclamation Venue (1871):** Proclaimed inside the **Hall of Mirrors at Versailles, France** (NOT Berlin!).\n- **Mazzini vs. Cavour vs. Garibaldi:**\n  * *Mazzini:* Republican theorist & moral soul (Young Italy).\n  * *Cavour:* Diplomatic prime minister & pragmatist (French alliance).\n  * *Garibaldi:* Armed guerrilla hero (Red Shirts / Expedition of the Thousand).\n  * *Victor Emmanuel II:* Sovereign King under whom Italy was united.\n\n---\n\n### 2. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Evaluate Otto von Bismarck\'s role in the unification of Germany.**\n- **Structure:**\n  * *Introduction (15 words):* Appointed Minister-President of Prussia in 1862, Bismarck engineered German unification through his policy of "Blood and Iron".\n  * *Strategic Methods & Diplomacy (40 words):* Marginalized liberal parliamentary opposition; built Prussian military efficiency; utilized economic integration of the Zollverein; isolated adversaries diplomatically before each conflict.\n  * *Three Calculated Wars (35 words):* Defeated Denmark (1864) with Austrian aid; routed Austria at Sadowa (1866) creating the North German Confederation; manipulated the Ems Dispatch to provoke and crush France at Sedan (1870).\n  * *Conclusion (10 words):* Crowned Wilhelm I Kaiser at Versailles (Jan 1871), transforming Central Europe\'s balance of power.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-05-1',
-        statement: 'Italian unification (Risorgimento) was achieved through the philosophical inspiration of Giuseppe Mazzini (Young Italy), the diplomatic alliances of Count Cavour, and the military campaigns of Giuseppe Garibaldi\'s Red Shirts under King Victor Emmanuel II (1861/1870).',
-        claimType: 'NATIONAL_UNIFICATION',
+        statement: 'In 1834, a customs union or Zollverein was formed at the initiative of Prussia and joined by most German states, which abolished tariff barriers and reduced the number of regional currencies from over thirty to two, demonstrating that economic integration preceded political unification.',
+        claimType: 'ECONOMIC_UNIFICATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-45',
-        excerpt: 'The Rise of Nationalism in Europe: Italian unification, Mazzini, Cavour, Garibaldi, Victor Emmanuel II.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 1: The Rise of Nationalism in Europe, Section 2: What did Liberal Nationalism Stand for?, pp. 9-10',
+        excerpt: 'In 1834, a customs union or zollverein was formed at the initiative of Prussia and joined by most of the German states. The union abolished tariff barriers and reduced the number of currencies from over thirty to two. The creation of a network of railways further stimulated mobility.',
       },
       {
         id: 'CLM-WLD-05-2',
-        statement: 'Otto von Bismarck orchestrated German unification through his "Blood and Iron" policy and three calculated wars against Denmark (1864), Austria (1866), and France (1870–71).',
-        claimType: 'MILITARY_UNIFICATION',
+        statement: 'The Greek War of Independence mobilized European romantic poets and intellectuals against Ottoman imperial rule, culminating in the Treaty of Constantinople of 1832, which formally recognized Greece as an independent sovereign nation.',
+        claimType: 'TREATY_AND_INDEPENDENCE',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-45',
-        excerpt: 'German Unification: Otto von Bismarck, Blood and Iron speech 1862, Franco-Prussian War.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 1, Section 3: The Romantic Imagination and National Feeling, p. 13',
+        excerpt: 'Nationalists in Greece got support from other Greeks living in exile and also from many West Europeans who had sympathies for ancient Greek culture. Poets and artists lauded Greece as the cradle of European civilisation... Finally, the Treaty of Constantinople of 1832 recognised Greece as an independent nation.',
       },
       {
         id: 'CLM-WLD-05-3',
-        statement: 'The German Empire was officially proclaimed on January 18, 1871 in the Hall of Mirrors at Versailles, with King Wilhelm I of Prussia crowned as German Emperor (Kaiser).',
-        claimType: 'IMPERIAL_PROCLAMATION',
+        statement: 'Italian unification (Risorgimento) was achieved across fragmented regional states through Giuseppe Mazzini\'s ideological mobilization (Young Italy), Count Cavour\'s French diplomatic alliance, and Giuseppe Garibaldi\'s volunteer Red Shirts under King Victor Emmanuel II.',
+        claimType: 'NATIONAL_UNIFICATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-45',
-        excerpt: 'Proclamation of German Empire: Hall of Mirrors at Versailles, January 18 1871, Kaiser Wilhelm I.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 1, Section 4: Italy Unified, pp. 20-21',
+        excerpt: 'During the 1830s, Giuseppe Mazzini had sought to put together a coherent programme for a unitary Italian Republic. He had also formed a secret society called Young Italy... A tactful diplomatic alliance with France engineered by Cavour, Sardinia-Piedmont succeeded in defeating the Austrian forces in 1859. Apart from regular troops, a large number of armed volunteers under the leadership of Giuseppe Garibaldi joined the fray.',
+      },
+      {
+        id: 'CLM-WLD-05-4',
+        statement: 'Otto von Bismarck completed German unification through Prussian military leadership and three victorious wars over seven years against Denmark (1864), Austria (1866), and France (1870–71), culminating in the proclamation of the German Empire at Versailles on January 18, 1871.',
+        claimType: 'MILITARY_UNIFICATION',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 1, Section 4: Germany - Can the Army be the Architect of a Nation?, pp. 19-20',
+        excerpt: 'Prussia took on the leadership of the movement for national unification. Its chief minister, Otto von Bismarck, was the architect of this process carried out with the help of the Prussian army and bureaucracy. Three wars over seven years - with Austria, Denmark and France - ended in Prussian victory and completed the process of unification. In January 1871, the Prussian king, William I, was proclaimed German Emperor in a ceremony held at Versailles.',
+      },
+      {
+        id: 'CLM-WLD-05-5',
+        statement: 'In the late nineteenth century, the Balkans became the most serious source of nationalist tension in Europe as subject Slavic nationalities broke away from the decaying Ottoman Empire, triggering imperialist rivalries among Great Powers that led directly to World War I.',
+        claimType: 'GEOPOLITICAL_FLASHPOINT',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 1, Section 5: Nationalism and Imperialism, pp. 26-27',
+        excerpt: 'The most serious source of nationalist tension in Europe after 1871 was the area called the Balkans. The Balkans was a region of geographical and ethnic variation comprising modern-day Romania, Bulgaria, Albania, Greece, Macedonia, Croatia, Bosnia-Herzegovina, Slovenia, Serbia and Montenegro whose inhabitants were broadly known as the Slavs. A large part of the Balkans was under the control of the Ottoman Empire... Each power - Russia, Germany, England, Austro-Hungary - was keen on countering the hold of other powers over the Balkans... This led to a series of wars in the region and finally the First World War.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / 19th Century European Nationalism & Unification of Italy and Germany',
+        syllabusUnit: 'GS Paper I — World History / 19th-Century European Nationalism, Unifications of Italy and Germany & The Balkan Crisis',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Bismarck\'s diplomacy and comparison of Cavour vs Bismarck are perennial UPSC Mains questions.',
+        notes: 'Perennial analytical questions on Bismarckian realpolitik, romantic cultural nationalism (Herder), comparison of Cavour vs Bismarck, and the Balkan powder keg causing WWI.',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Unification of Germany & Italy',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / Unification of Germany & Italy',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Guaranteed 10-mark question on Bismarck\'s foreign policy or Garibaldi/Mazzini.',
+        notes: 'Frequent 2-mark definitions (Zollverein, Young Italy, Red Shirts, Treaty of Constantinople 1832, Blood and Iron), 5-mark short notes (Frankfurt Parliament, Mazzini vs Cavour), and 10-mark full essays on Bismarck\'s foreign policy.',
       },
       {
         examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — World History',
+        syllabusUnit: 'General Awareness — World History & Landmark Events',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on "Blood and Iron" author (Bismarck), Red Shirts leader (Garibaldi), and Young Italy (Mazzini).',
+        notes: 'Direct MCQs on Zollverein year (1834), Blood and Iron author (Bismarck), Treaty recognizing Greece (Constantinople 1832), Red Shirts commander (Garibaldi), and Versailles coronation date (Jan 18, 1871).',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — Global Political Movements',
+        syllabusUnit: 'General Studies — Global Political Movements & Nation-State Formation',
         relevance: 'CORE',
         priority: 'HIGH',
         requiredDepth: 'POLITICAL_DEVELOPMENTS',
-        notes: 'Tested on 19th-century nationalist milestones.',
+        notes: 'Focus on 19th-century constitutional assemblies (Frankfurt Parliament), tariff unification (Zollverein), and British parliamentary incorporation acts.',
       },
       {
         examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global Milestones',
+        syllabusUnit: 'General Awareness — Global Historical Milestones',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on landmark historical figures.',
+        notes: 'Awareness of European nation-state formation and early customs unions.',
       },
       {
         examCode: 'IBPS_PO',
@@ -1143,15 +1122,15 @@ Yet within fifty years, two powerful nation-states erupted onto the European sta
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on European historical figures.',
+        notes: 'Landmark historical figures and national unification milestones.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
+        syllabusUnit: 'General Awareness — Historical Milestones & Trade Integration',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on global history.',
+        notes: 'Foundations of regional trade agreements and customs unions (Zollverein).',
       },
       {
         examCode: 'IIBF_DBF',
@@ -1159,64 +1138,71 @@ Yet within fifty years, two powerful nation-states erupted onto the European sta
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Economic origins of European customs unions (Zollverein).',
+        notes: 'Origins of integrated national markets and currency standardization.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'European Unification: Italy (Risorgimento) = Mazzini (Soul, Young Italy 1831), Cavour (Brain, PM Piedmont, diplomacy), Garibaldi (Sword, 1,000 Red Shirts), Victor Emmanuel II (King 1861, Rome capital 1870). Germany = Zollverein (1834 customs union), Bismarck (Prussian Chancellor, "Blood & Iron" 1862), 3 Wars: Denmark (1864), Austria (1866 Sadowa), France (1870 Sedan). Proclaimed German Empire on Jan 18, 1871 in Hall of Mirrors, Versailles.',
+        content: 'European Nationalism: 1) Romanticism: Herder\'s Volksgeist, Grimm Brothers, Delacroix; Greek independence recognized by Treaty of Constantinople (1832). 2) Zollverein (1834): Prussian customs union eliminated internal tariffs. 3) 1848 Frankfurt Parliament: St. Paul\'s Church, crown rejected by Friedrich Wilhelm IV. 4) Italy: Mazzini (Young Italy 1831), Cavour (French alliance), Garibaldi (1,000 Red Shirts), Victor Emmanuel II (King 1861, Rome 1870). 5) Germany: Bismarck ("Blood & Iron" 1862), 3 Wars (Denmark 1864, Austria 1866 Sadowa, France 1870 Sedan), crowned at Versailles (Jan 18, 1871). 6) Balkans: Slavic tensions against decaying Ottomans triggered WWI.',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: '19th-Century European Nationalism Blueprint: 1) Italian Unification: Mazzini inspired youth with Young Italy; Count Cavour engineered French alliance to drive out Austria; Garibaldi\'s Red Shirts liberated southern Italy; Victor Emmanuel II crowned King (1861), annexing Rome in 1870. 2) German Unification: Initiated economically via the Zollverein customs union (1834); executed militarily by Otto von Bismarck via "Blood and Iron" in three calculated wars against Denmark (1864), Austria (1866), and France (1870); Kaiser Wilhelm I crowned at Versailles in January 1871.',
+        content: 'Rise of Nationalism in Europe Blueprint (NCERT Class X): 1) Cultural & Economic Foundations: Romanticism championed language and folk culture (Herder\'s Volksgeist) as spiritual anchors of national identity; Greece gained independence from the Ottomans via the 1832 Treaty of Constantinople. Prussia formed the Zollverein (1834), proving economic integration preceded political unification. 2) Failed 1848 Liberalism: The Frankfurt Parliament at St. Paul\'s Church collapsed when the Prussian King rejected the crown, showing liberal assemblies could not dismantle autocratic military rule. 3) Italian Risorgimento: Mazzini provided the moral ideal; Cavour executed diplomatic statecraft with France (1859); Garibaldi\'s Red Shirts conquered the south (1860); Victor Emmanuel II was crowned King of united Italy in 1861, annexing Rome in 1870. 4) German Empire: Bismarck marginalized liberals and orchestrated three wars in seven years (Denmark, Austria, France) to unite Germany under Prussian hegemony, crowning Wilhelm I Kaiser at Versailles in 1871. 5) The Balkan Powder Keg: Explosive ethnic nationalism among Slavs in the collapsing Ottoman Empire became entangled with Great Power imperialist rivalries (Russia, Germany, Britain, Austro-Hungary), detonating World War I in 1914.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Realpolitik & Statecraft Architecture: 1) Economic Integration Precursor: Customs unions eliminating tariff friction before political borders are merged. 2) Diplomatic Isolation: Bismarck\'s formula of isolating adversaries one by one to fight short, localized wars. 3) Geopolitical Realignment: The creation of a powerful unified Germany upsetting the European balance of power established in 1815.',
+        content: 'Nineteenth-Century Nation-State Architecture:\n1) Economic Precondition to Political Sovereignty: The Zollverein demonstrated that eliminating internal trade barriers and harmonizing disparate currencies creates organic national cohesion long before military armies draw formal state borders.\n2) The Dual Model of Unification (Italy vs Germany): Italy combined democratic-republican guerrilla insurgency (Garibaldi\'s Red Shirts) with prime ministerial diplomatic realpolitik (Cavour); Germany was unified from above through autocratic bureaucratic-military force (Bismarck) and dynastic diplomacy without popular revolution.\n3) The Transition from Liberal Nationalism to Imperialist Balkan Rivalry: After 1871, nationalism shed its democratic, romantic character, degenerating into aggressive militaristic expansionism; the Balkans became the structural vortex where localized ethnic revolts collided with great-power imperial ambitions to spark systemic global conflict.',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'UNIFICATION_MCQ',
-        stem: 'Who among the following delivered the famous "Blood and Iron" (*Blut und Eisen*) speech in September 1862, asserting that great national questions are decided by military force rather than speeches and majority parliamentary votes?',
-        options: ['Klemens von Metternich', 'Otto von Bismarck', 'Kaiser Wilhelm II', 'Count Cavour'],
-        correctAnswer: 'Otto von Bismarck',
-        explanation: 'Otto von Bismarck, upon being appointed Minister-President of Prussia in 1862, delivered his legendary "Blood and Iron" speech to the Prussian budget commission, arguing that Germany could only be unified through military might and industrial strength rather than liberal parliamentary debate.',
-        trapExplanation: 'Metternich was the conservative Austrian Chancellor; Cavour was the Italian statesman.',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Which international diplomatic treaty formally recognized Greece as an independent sovereign nation following the Greek War of Independence against the Ottoman Empire?',
+        options: [
+          'The Treaty of Vienna of 1815',
+          'The Treaty of Constantinople of 1832',
+          'The Treaty of Versailles of 1871',
+          'The Treaty of Frankfurt of 1848'
+        ],
+        correctAnswer: 'The Treaty of Constantinople of 1832',
+        explanation: 'According to NCERT Class X Chapter 1, the Greek War of Independence (which mobilized poets like Lord Byron and philhellenes across Europe) ended with the Treaty of Constantinople of 1832, which formally recognized Greece as an independent nation.',
+        trapExplanation: 'The Treaty of Vienna (1815) established the conservative post-Napoleonic order; the Treaty of Constantinople (1832) recognized Greek independence.',
         difficulty: 'EASY',
         isPYQ: true,
         pyqYear: 2021,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Authorship of the "Blood and Iron" doctrine (Bismarck).',
+        examinerTrapPattern: 'Treaty of Vienna (1815) vs Treaty of Constantinople (1832).',
       },
       {
-        type: 'UNIFICATION_MCQ',
-        stem: 'In the Italian Risorgimento, who was the charismatic military revolutionary who led the volunteer army of the "Red Shirts" (*Camicie Rosse*) in the celebrated "Expedition of the Thousand" (1860) to liberate Sicily and Naples?',
-        options: ['Giuseppe Mazzini', 'Count Camillo di Cavour', 'Giuseppe Garibaldi', 'Victor Emmanuel II'],
-        correctAnswer: 'Giuseppe Garibaldi',
-        explanation: 'Giuseppe Garibaldi was the renowned military hero and "Sword of Italy" who organized 1,000 volunteer civilian fighters known as the "Red Shirts" in 1860, landing in Sicily, overthrowing the Bourbon monarchy of Naples, and handing southern Italy to King Victor Emmanuel II.',
-        trapExplanation: 'Mazzini was the intellectual founder of Young Italy; Garibaldi was the military commander of the Red Shirts.',
-        difficulty: 'EASY',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Consider the following historical statements regarding the formation of the nation-state in nineteenth-century Europe:\n1. The Zollverein was a customs union formed in 1834 at the initiative of Austria, which preserved regional internal tariffs across German states.\n2. In May 1848, the members of the Frankfurt Parliament met in St. Paul\'s Church and drafted a constitution for a unified Germany headed by a constitutional monarchy.\n3. The British nation-state was established through the Acts of Union (1707 with Scotland and 1801 with Ireland), incorporating diverse regions under English parliamentary dominance.\nWhich of the statements given above are strictly correct according to NCERT records?',
+        options: [
+          '1 and 2 only',
+          '2 and 3 only',
+          '1 and 3 only',
+          '1, 2 and 3'
+        ],
+        correctAnswer: '2 and 3 only',
+        explanation: 'Statement 1 is incorrect: The Zollverein was formed in 1834 at the initiative of PRUSSIA (not Austria), and it ABOLISHED tariff barriers (it did not preserve them). Statement 2 is correct: In May 1848, 831 elected representatives gathered in the Church of St. Paul in Frankfurt to draft a German constitution. Statement 3 is correct: Great Britain was formed through parliamentary acts of union—1707 with Scotland and 1801 with Ireland.',
+        trapExplanation: 'Examiner trap: Zollverein was initiated by PRUSSIA, not Austria, and abolished tariff barriers.',
+        difficulty: 'INTERMEDIATE',
         isPYQ: true,
         pyqYear: 2022,
         pyqPaper: 'RPSC RAS Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Attribution of the Red Shirts to Giuseppe Garibaldi.',
+        examinerTrapPattern: 'Factual substitution of Prussia with Austria in the Zollverein formation.',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 6: The Industrial Revolution & Industrial Capitalism
-  // =========================================================================
   {
     id: 'CON-WLD-06',
     slug: 'industrial-revolution-in-britain-and-rise-of-capitalism',
