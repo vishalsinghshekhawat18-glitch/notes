@@ -1120,259 +1120,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 6: The Mughal Empire: Agrarian & Administrative Institutions
   // =========================================================================
   {
-    id: 'CON-MED-06',
-    slug: 'mughal-empire-mansabdari-system-jagirdari-and-todar-mal-zabt-dahsala',
-    title: 'The Mughal Empire: Mansabdari System, Jagirdari Assignment, and Todar Mal\'s Zabt/Dahsala Land Revenue System',
-    shortDefinition: 'Core institutional engines of the Mughal Empire (1526–1707 CE): Sher Shah Suri\'s structural precursors, Akbar\'s Mansabdari military-administrative hierarchy (Zat status vs Sawar cavalry rank, Dah-Bishi rule, Naqdi vs Jagirdar), the Jagirdari tenure system, and Raja Todar Mal\'s Ain-i-Dahsala/Zabt land revenue settlement (soil classifications Polaj, Parauti, Chachar, Banjar).',
-    difficulty: 'ADVANCED',
-    order: 6,
-    topicSlug: 'mughal-empire-institutions-mansab-zabt',
-    contentBlocks: [
+    "id": "CON-MED-06",
+    "slug": "mughal-empire-mansabdari-system-jagirdari-and-todar-mal-zabt-dahsala",
+    "title": "The Mughal Empire: Mansabdari System, Jagirdari Assignment, and Todar Mal's Zabt/Dahsala Land Revenue Settlement",
+    "shortDefinition": "Authoritative NCERT Class VII Chapter 4 (*The Mughal Empire*) & Class XII Themes 8 & 9 (*Agrarian Society and Kings and Chronicles*) synthesis: Institutional and fiscal architecture of the Mughal state (1526–1707 CE): Sher Shah Suri's administrative precursors (standardized silver Rupiya of 178 grains, Grand Trunk Road / Sadak-i-Azam with 1,700 sarais); Akbar's Mansabdari military-administrative ranking framework (dual Zat status vs Sawar cavalry quota, Dah-Bishi 10:20 horse ratio, Naqdi cash vs Jagirdar assignment); the Jagirdari tenure mechanism and the Law of Escheat (*Zabti*); Raja Todar Mal's 1580 CE *Ain-i-Dahsala* (Zabt) revenue settlement based on 10-year rolling crop averages, cash revenue schedules (*Dastur*), and 4-tier soil classification (Polaj, Parauti, Chachar, Banjar); and Abul Fazl's institutional encyclopaedia (*Ain-i Akbari*).",
+    "difficulty": "ADVANCED",
+    "order": 6,
+    "topicSlug": "mughal-empire-institutions-mansab-zabt",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'The Steel Frame of the Mughal Empire: Ranking Every Noble by Math',
-        body: `How did the Mughal emperors govern over 100 million subjects across an empire stretching from Kabul in Afghanistan to the Kaveri delta in South India without a modern standing army or computerized banking?
-
-Earlier medieval dynasties suffered from perpetual warlord rebellions: whenever a provincial governor assembled a large private cavalry force, he declared independence and marched to overthrow the capital.
-
-Under the architectural genius of **Emperor Akbar (reigned 1556–1605 CE)**, aided by brilliant administrators like **Raja Todar Mal**, the Mughal state constructed a mathematical, unified civil-military administrative machine:
-1. **The Mansabdari System:** Every single officer in the empire—from a provincial viceroy down to a royal veterinarian—was incorporated into a single, decimal hierarchy called a **Mansab (Rank)**. Your status, protocol, salary, and military obligations were calculated to the exact rupee and cavalry horse.
-2. **The Zabt / Dahsala System:** Eliminating arbitrary tax extraction, the state meticulously surveyed fields, calculated the **10-year rolling average yield**, and fixed revenue demand in cash, transforming agricultural surplus into reliable imperial revenue.`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "The Steel Frame of the Mughal Empire: Ranking Every Noble by Mathematics",
+        "body": "How did the Mughal emperors govern over 100 to 150 million subjects across an empire stretching from Kabul and Kandahar in Afghanistan to the Kaveri delta in South India without modern computers, standing armies, or telecommunications?\n\nEarlier medieval polities suffered from perpetual warlord rebellions: whenever a provincial governor assembled a large private cavalry contingent, he withheld revenue, declared independence, and marched to sack the imperial capital.\n\nUnder the architectural genius of **Emperor Akbar (reigned 1556–1605 CE)**, aided by brilliant Hindu and Muslim administrators like **Raja Todar Mal** and **Abul Fazl**, the Mughal state constructed a mathematical, unified civil-military administrative machine:\n1. **The Mansabdari System:** Every single officer in the empire—from the prime minister (*Wazir / Wakil*) and provincial viceroys down to royal artillery commanders and court physicians—was integrated into a single, decimal hierarchy called a **Mansab (Rank)**. A noble's prestige, court precedence, salary, and mandatory cavalry contingent were calculated to the exact rupee and cavalry horse.\n2. **The Zabt / Dahsala System:** Eliminating arbitrary, extortionate tax extraction, the state meticulously surveyed fields using standardized measuring rods, calculated the **10-year rolling average yield and price schedule**, and fixed the state demand at one-third in cash, transforming agricultural surplus into predictable imperial revenue.",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'The Mansabdari Dual Rank (Zat & Sawar) & Todar Mal\'s Dahsala System',
-        body: `### 1. Sher Shah Suri\'s (1540–1545 CE) Administrative Precursors
-Before Akbar, the Afghan emperor **Sher Shah Suri** laid the foundational infrastructure of modern Indian administration:
-* Standardized silver currency: introduced the **Rupiya** (178 grains pure silver, dividing into 64 copper *Dams*), which became the direct precursor of the modern Indian Rupee!
-* Constructed the **Grand Trunk Road (Sadak-i-Azam)** from Sonargaon (Bengal) to the Indus, building **1,700 Sarais** (inns with separate quarters for Hindus and Muslims) and postal stations.
-* Surveyed land using rope measures and introduced the **Zabt** system based on crop schedules (*Ray*).
-
----
-
-### 2. Akbar\'s Mansabdari System: The Dual Rank Structure (Zat and Sawar)
-Introduced around 1571–1574 CE, every imperial officer held a **Mansab** comprising two numbers:
-
-$$\\mathbf{\\text{Mansab Ranking}} = \\mathbf{\\text{Zat Rank}} \\quad \\text{and} \\quad \\mathbf{\\text{Sawar Rank}}$$
-
-* **Zat (Personal Status & Pay):** Determined the noble\'s personal standing in the imperial court hierarchy and his personal salary. Ranks ranged from 10 to 10,000 (ranks above 5,000 were initially reserved for royal princes).
-* **Sawar (Military Contingent):** Dictated the exact number of cavalrymen and horses the noble was legally required to maintain for imperial service.
-* **The Mathematical Hierarchy Rule:**
-  * **Sawar can NEVER exceed Zat!**
-  * **1st Class Mansabdar:** Sawar = Zat (e.g. 5,000 Zat / 5,000 Sawar).
-  * **2nd Class Mansabdar:** Sawar $\\ge \\frac{1}{2}$ Zat (e.g. 5,000 Zat / 3,000 Sawar).
-  * **3rd Class Mansabdar:** Sawar $< \\frac{1}{2}$ Zat (e.g. 5,000 Zat / 2,000 Sawar).
-* **The Dah-Bishi (10-to-20) Rule:** For every 10 cavalrymen (*Sawar*), a noble was required to maintain **20 horses** (2 horses per trooper to ensure mobility during desert and mountain warfare).
-* **Mode of Payment:**
-  * **Naqdi:** Paid in cash directly from the imperial treasury.
-  * **Jagirdar:** Assigned the revenue of an agricultural estate (**Jagir**) calculated to match his sanctioned salary (*Talab*).
-
----
-
-### 3. Raja Todar Mal\'s Ain-i-Dahsala / Zabt System (1580 CE)
-* **Measurement Standard:** Replaced hemp ropes with bamboo sticks linked by iron rings (**Tanab / Ilahi Gaz**).
-* **Dahsala Assessment (10-Year Average):** Meticulously calculated the **average crop yield and average market prices over the past 10 years (1571 to 1580 CE / 15th to 24th regnal years)**.
-* **State Demand:** Fixed at **one-third ($\\frac{1}{3}$) of the average produce**, converted into cash based on local price schedules (*Dastur*).
-* **4-Fold Soil Classification:**
-  1. **Polaj:** Annually cultivated land, never left fallow; pays full revenue every year.
-  2. **Parauti:** Left fallow for 1 or 2 years to recover fertility; pays full rate when cultivated.
-  3. **Chachar:** Fallow for 3 to 4 years; taxed at concessional rising rates upon reclamation.
-  4. **Banjar:** Uncultivated for 5 or more years; nominal tax to encourage reclamation.`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The Mansabdari Dual Rank (Zat & Sawar) & Todar Mal's Dahsala Settlement Matrix",
+        "body": "### 1. Sher Shah Suri's (1540–1545 CE) Administrative Precursors\nBefore Akbar, the Afghan ruler **Sher Shah Suri** laid the foundational administrative and fiscal infrastructure of medieval India:\n* **Standardized Currency:** Introduced the **Rupiya** (a pure silver coin weighing 178 grains, which divided into 64 copper *Dams*). This silver standard became the direct genetic ancestor of the modern Indian Rupee!\n* **Grand Trunk Highway (*Sadak-i-Azam*):** Restored and expanded the ancient royal road stretching from Sonargaon (Bengal) through Delhi and Lahore to Peshawar on the Indus, building **1,700 Sarais** (fortified travelers' inns with separate living quarters and water for Hindus and Muslims) with horse-relay post (*Dak Chowkis*).\n* **Direct Revenue Survey:** Introduced the **Zabt** system based on measurement of cultivated lands (*Jarib*) and standardized crop revenue schedules (*Ray*).\n\n---\n\n### 2. Akbar's Mansabdari System: The Dual Rank Structure (Zat and Sawar)\nIntroduced systematically around 1571–1574 CE, every imperial officer held a **Mansab** comprising two distinct numerical ranks:\n\n$$\\mathbf{\\text{Mansab Ranking}} = \\mathbf{\\text{Zat Rank}} \\quad \\text{and} \\quad \\mathbf{\\text{Sawar Rank}}$$\n\n* **Zat (Personal Status & Salary):** Determined the noble's personal standing in the court hierarchy and his fixed personal salary. Ranks ranged from 10 to 10,000 (ranks above 5,000 were initially reserved for royal princes).\n* **Sawar (Cavalry Contingent Quota):** Dictated the exact number of cavalry troopers and horses the noble was legally required to maintain for imperial service.\n* **The Fundamental Mathematical Hierarchy Rule:**\n  * **Sawar can NEVER exceed Zat!**\n  * **First Class Mansabdar:** Sawar rank = Zat rank (e.g., 5,000 Zat / 5,000 Sawar).\n  * **Second Class Mansabdar:** Sawar rank = at least half of Zat rank (e.g., 5,000 Zat / 3,000 Sawar).\n  * **Third Class Mansabdar:** Sawar rank = less than half of Zat rank (e.g., 5,000 Zat / 2,000 Sawar).\n* **The Dah-Bishi Rule (10:20 Ratio):** For every 10 cavalrymen maintained, a Mansabdar had to maintain 20 horses (two horses per trooper: *Do-Aspa* system) to ensure fresh mounts during rapid cavalry marches.\n* **Payment Mechanism:**\n  * **Naqdi:** Paid directly in cash from the central imperial treasury.\n  * **Jagirdar:** Assigned the right to collect land revenue from a designated territory called a **Jagir** (the revenue was calculated to equal his authorized salary).\n\n---\n\n### 3. Raja Todar Mal's Ain-i-Dahsala / Zabt System (1580 CE)\n\nTo eliminate annual fluctuations and administrative extortion, Akbar's finance minister **Raja Todar Mal** instituted the landmark **Ain-i-Dahsala** settlement:\n* **10-Year Rolling Average:** The state surveyed crop yields and actual market prices over the preceding 10 years (from the 15th to the 24th regnal years of Akbar, 1570–1580 CE).\n* **Revenue Demand:** One-third ($1/3$) of the average produce was fixed as the state share, converted into cash tariffs called **Dastur-ul-Amal** for each region.\n* **Measurement Standard:** Replaced the elastic hemp rope with the **Tanab** (bamboo sticks joined by iron rings) and measured land using the standardized **Gaz-i-Ilahi** (imperial yard of 41 digits / ~33 inches).\n\n### 4. Soil Classification under the Dahsala System (NCERT Class XII Theme 8)\n\n| Soil Classification | Cultivation Frequency & Agrarian Status | Revenue Assessment Rule |\n| :--- | :--- | :--- |\n| **1. Polaj** | Cultivated continuously every single year without ever being left fallow. | Paid full state revenue ($1/3$ produce) annually. |\n| **2. Parauti** | Left uncultivated (fallow) for 1 or 2 years to allow the soil to naturally recover fertility. | Paid full revenue when brought back under the plow. |\n| **3. Chachar** | Left uncultivated for 3 to 4 successive years due to waterlogging or depletion. | Concessional progressive taxation when reclaimed (reaching full rate only in the 4th year). |\n| **4. Banjar** | Barren, uncultivated wasteland left untilled for 5 or more years. | Highly nominal revenue when newly cleared to incentivize forest reclamation and agrarian frontier expansion. |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Jagirdari Crisis: Jama vs Hasil & The Paibaqi Shortage',
-        body: `### The Mathematical Breakdown of the Jagirdari Mechanism
-* **Jama (Assessed Value):** The estimated revenue potential of a Jagir calculated by the imperial revenue ministry.
-* **Hasil (Actual Realization):** The actual revenue collected from the peasants.
-* **The Jagirdari Crisis (Late 17th Century under Aurangzeb):**
-  * As Aurangzeb conquered the Deccan, he inducted thousands of Maratha and Deccani nobles into the Mansabdari system to buy their loyalty.
-  * Number of Mansabdars surged exponentially, while the available land reserved for assignment (**Paibaqi**) was exhausted.
-  * Noble salaries existed on paper (*Jama*), but actual collections (*Hasil*) fell drastically due to constant warfare. Jagirdars squeezed the peasantry mercilessly, triggering widespread agrarian revolts (Jats, Satnamis, Sikhs).`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "The Jagirdari Fiscal Circuit, Imperial Bureaucracy & The Crisis of the 17th Century",
+        "body": "### 1. The Fiscal Mechanics of the Jagirdari System\n* **No Territorial Ownership:** A Jagirdar was **NOT** a feudal European landlord. He held no property rights over the land or sovereignty over the peasants; he was granted merely the administrative right to collect assessed land revenue (*Hasil*) up to the amount of his sanctioned salary.\n* **Frequent Rotations:** To prevent nobles from building localized power bases, Jagirs were routinely transferred every 3 to 4 years across different provinces (*Subahs*).\n* **Law of Escheat (*Zabti*):** Upon the death of a Mansabdar, his entire estate, personal wealth, horses, and properties were immediately sealed and confiscated by the imperial state (*Mir Saman*). The state recovered any outstanding debts, and only an ex-gratia allowance or fresh lower mansab was granted to his sons. **Mansabs were strictly non-hereditary!**\n\n---\n\n### 2. Key Terminology in Mughal Agrarian Administration\n* **Jama:** The estimated, theoretically assessed revenue yield of a territory.\n* **Hasil:** The actual revenue collected and realized on the ground.\n* **Khalisa:** Crown agricultural lands whose revenues flowed directly and entirely into the Emperor's private central treasury (typically 20–25% of total imperial land).\n* **Paibaqi:** Land reserved in the imperial registry awaiting assignment to Mansabdars as Jagirs.\n* **Amil / Amalguzar:** Imperial revenue collector at the district (*Sarkar*) level, instructed by Akbar to treat peasants with compassion and advance agricultural loans (**Taccavi**) during drought.\n* **Patwari & Muqaddam:** Village-level functionaries; the *Muqaddam* was the village headman who assisted in tax collection, while the *Patwari* maintained detailed village land registers.\n\n---\n\n### 3. The 17th-Century Jagirdari Crisis (*Be-Jagiri*)\nDuring the reign of **Aurangzeb (1658–1707 CE)**, the structural equilibrium of the empire fractured:\n* **The Deccan Influx:** Aurangzeb's prolonged 25-year Deccan campaigns led to the massive induction of Deccani and Maratha nobles into the Mansabdari apparatus.\n* **The Land Deficit:** The number of Mansabdars increased dramatically, but the availability of cultivable, revenue-yielding land (*Paibaqi*) shrank drastically.\n* **Widening Gap between Jama and Hasil:** Due to endemic warfare, peasant flights, and Maratha guerrilla raids, actual collections (*Hasil*) fell far below theoretical assessments (*Jama*).\n* **Peasant Squeeze:** Desperate Jagirdars facing short tenures and inflated revenue obligations squeezed the peasantry ruthlessly, sparking agrarian uprisings (Jats of Mathura, Satnamis of Narnaul, and Sikh resistance in Punjab).",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Zat/Sawar Rules & Soil Classification Order',
-        body: `### High-Frequency Traps in Mughal Administration
-
-1. **The Sawar Exceeding Zat Trap (Repeated in UPSC!):**
-   * *Trap:* Claiming a noble could have 3,000 Zat and 4,000 Sawar.
-   * *Truth:* **Sawar can NEVER exceed Zat!** Maximum Sawar rank was equal to the Zat rank.
-
-2. **Hereditary Mansab Trap:**
-   * *Trap:* Assuming Mansabs were inherited by the eldest son.
-   * *Truth:* Mansabs were **strictly non-hereditary**. Upon a noble's death, all his property was seized by the state (**Escheat System / *Zabti***), and his sons had to earn their own ranks through service.
-
-3. **Polaj vs Parauti vs Chachar:**
-   * Polaj = cultivated every year.
-   * Parauti = left fallow 1-2 years.
-   * Chachar = fallow 3-4 years.
-   * Banjar = uncultivated 5+ years.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, Administrative Officials & Textbook Distinctions",
+        "body": "### 1. High-Frequency Traps & Misconceptions\n\n* **Trap 1: Hereditary Nature of Mansabs.**\n  * *Trap Question:* \"In the Mughal Empire, the rank of Mansabdar was hereditary and automatically inherited by the eldest son.\"\n  * *Correct Fact:* **Completely False.** Mansabs were strictly personal and non-hereditary. Every son had to begin his service anew on personal merit, and the deceased noble's property was subject to imperial confiscation under the Law of Escheat (*Zabti*).\n* **Trap 2: Mathematical Relationship of Zat and Sawar.**\n  * *Trap Question:* \"A noble holding 3,000 Zat could be assigned 4,000 Sawar during times of imperial emergency.\"\n  * *Correct Fact:* **Mathematically Impossible under Akbar.** Sawar could never exceed Zat. (It was only under Jahangir that the *Du-Aspa Sih-Aspa* modification allowed a noble's actual cavalry contingent to be doubled without raising his Zat rank).\n* **Trap 3: Jagir vs Land Ownership.**\n  * *Trap Question:* \"Mughal Jagirdars held absolute proprietary ownership of the village lands granted to them.\"\n  * *Correct Fact:* **Incorrect.** Jagirdars received only the right to collect assessed state land revenue (*Hasil*); proprietary ownership (*Malikiyat*) remained with the peasant cultivators (*Khudkasht* / *Pahikasht*).\n* **Trap 4: Currency Standardization.**\n  * *Static GA Trap:* Who introduced the silver Rupiya that formed the basis of Mughal currency?\n  * *Correct Fact:* **Sher Shah Suri**, NOT Akbar or Babur!\n\n---\n\n### 2. The Four Pillars of Central Mughal Administration\n\n| High Official | Ministerial Portfolio & Responsibilities |\n| :--- | :--- |\n| **Wazir / Diwan-i-Ala** | Chief Minister and head of the Imperial Revenue & Finance department. |\n| **Mir Bakshi** | Head of the Military Department; maintained the register of Mansabdars, inspected cavalry musters (*Dag* and *Chehra*), and issued salary certificates (*Sarkhat*). |\n| **Mir Saman / Khan-i-Saman** | In charge of the Imperial Household, royal *Karkhanas* (workshops), stores, and court etiquette. |\n| **Sadr-us-Sudur / Chief Qazi** | Head of religious endowments (*Madad-i-Maash* grants) and the judicial administration. |",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "The Agrarian and Commercial Geography of the Mughal Empire: Subahs, Trade Corridors & Fiscal Surplus",
+        "body": "### Imperial Geography of Akbar's Subahs & Trade Arteries\n\n>                         [KABUL / QANDAHAR]\n>                    (Northwestern overland gateway)\n>                                 |\n>                                 v\n>                        [PUNJAB & LAHORE]\n>                   (Granary of wheat and barley)\n>                                 |\n>                                 v\n>                     [DOAB / AGRA / DELHI]\n>             * Imperial capital and agricultural core\n>             * Polaj-dominated alluvial fertile heartland\n>                                 |\n>     <------------------------------------------------------->\n>     |                                                       |\n> [GUJARAT SUBAH]                                     [BENGAL SUBAH]\n> * Ports: Surat (\"Gateway to Mecca\"),                * Deltaic rice & mulberry silk\n>   Cambay, Bharuch                                   * Richest revenue surplus\n> * Cotton textiles & indigo                          * European factory outposts\n> * Connected via Agra-Ajmer-Surat highway             (Hooghly, Dhaka, Chittagong)\n>                                 |\n>                                 v\n>                         [DECCAN SUBAHS]\n>               * Khandesh, Berar, Ahmadnagar\n>               * Cotton-rich black regur soils\n\n### Strategic Geographic Realities (NCERT Class XII Theme 8 & 9)\n1. **The 12 Subahs of Akbar (expanded to 15 in 1601):** Subdivided systematically into *Sarkars* (districts), which were further partitioned into *Parganas* (sub-districts).\n2. **The Agra-Surat Highway:** The primary commercial lifeline of the empire. Through it, the agricultural surplus and textiles of North India flowed to Surat, where Gujarati merchant ships traded with the Red Sea and Persian Gulf, bringing back immense quantities of European silver bullion that sustained the silver-monetized economy.\n3. **Bengal as the Fiscal Crown Jewel (*Jannat-ul-Bilad*):** With year-round monsoonal rainfall and the multi-branched delta of the Ganga-Brahmaputra, Bengal produced vast agricultural and textile surpluses that rarely suffered from famines, generating massive cash revenues for the imperial treasury.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-06-1',
-        statement: 'Sher Shah Suri introduced the standard silver Rupiya (178 grains), constructed the Grand Trunk Road (Sadak-i-Azam) with 1,700 Sarais, and established the prototype of the Zabt land revenue system.',
-        claimType: 'HISTORICAL_INNOVATION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-44',
-        excerpt: 'The Mughal Empire: Sher Shah Suri administrative innovations, Rupiya, Grand Trunk Road.',
+        "id": "CLM-MED-06-1",
+        "statement": "Sher Shah Suri (1540–1545 CE) laid the foundational infrastructure of medieval Indian administration by introducing the standardized pure silver Rupiya (178 grains, equal to 64 copper Dams), constructing the Grand Trunk Road (Sadak-i-Azam) with 1,700 sarais, and establishing early land revenue survey methods.",
+        "claimType": "HISTORICAL_FOUNDATION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 4: The Mughal Empire, Box: Akbar's Contemporary: Sher Shah Sur, p. 55",
+        "excerpt": "Sher Shah Sur (1540–1545) established an empire that... borrowed elements from Alauddin Khalji and made them more efficient. Sher Shah's administrative model became the model followed by the great emperor Akbar... introduced a silver coin called the rupiya."
       },
       {
-        id: 'CLM-MED-06-2',
-        statement: 'Akbar\'s Mansabdari system integrated civil and military bureaucracy through dual Zat (personal status and pay) and Sawar (cavalry quota) ranks, governed by the rule that Sawar could never exceed Zat.',
-        claimType: 'ADMINISTRATIVE_MECHANISM',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-44',
-        excerpt: 'Mughal Mansabdari System: Zat and Sawar ranks, non-hereditary, Dah-Bishi rule.',
+        "id": "CLM-MED-06-2",
+        "statement": "Akbar's Mansabdari system was a unified civil-military decimal hierarchy where every officer held a dual rank—Zat (fixing personal court precedence and cash/jagir salary) and Sawar (specifying the required cavalry contingent quota, adhering to the Dah-Bishi 10:20 horse ratio)—with the mathematical constraint that Sawar could never exceed Zat, and holding non-hereditary tenures subject to the Law of Escheat.",
+        "claimType": "ADMINISTRATIVE_MECHANISM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 4: The Mughal Empire, Section: Mansabdars and Jagirdars, pp. 51-53 & Class XII Theme 9: Kings and Chronicles, pp. 238-241",
+        "excerpt": "The term mansabdar refers to an individual who holds a mansab, meaning a position or rank. It was a grading system used by the Mughals to fix: (1) rank, (2) salary and (3) military responsibilities. Rank and salary were determined by a numerical value called zat. The higher the zat, the more prestigious was the noble's position... The mansabdar was required to maintain a specified number of sawar or cavalrymen."
       },
       {
-        id: 'CLM-MED-06-3',
-        statement: 'Raja Todar Mal introduced the Ain-i-Dahsala land revenue settlement in 1580 CE, calculating state tax at one-third of the 10-year rolling average yield across Polaj, Parauti, Chachar, and Banjar soils.',
-        claimType: 'ECONOMIC_REFORM',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-1',
-        excerpt: 'Agrarian Society under Mughals: Todar Mal Dahsala system, 10-year average yield, Polaj, Parauti, Chachar, Banjar.',
+        "id": "CLM-MED-06-3",
+        "statement": "Raja Todar Mal introduced the Ain-i-Dahsala (Zabt) land revenue settlement in 1580 CE, calculating state tax at one-third of the 10-year rolling average yield and price schedules in cash across four soil classifications: Polaj (cultivated annually), Parauti (fallow 1-2 years), Chachar (fallow 3-4 years), and Banjar (fallow 5+ years).",
+        "claimType": "ECONOMIC_REFORM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 4: The Mughal Empire, Section: Zabt and Zamindars, pp. 53-54 & Class XII Theme 8: Peasants, Zamindars and the State, Section 5: The Ain-i Akbari of Abu'l Fazl Allami, pp. 217-220",
+        "excerpt": "Akbar's revenue minister, Todar Mal, carried out a careful survey of crop yields, prices and areas cultivated for a 10-year period, 1570–1580. On the basis of this data, tax was fixed on each crop in cash. Each province was divided into revenue circles with its own schedule of revenue rates... This form of revenue system was known as zabt."
       },
+      {
+        "id": "CLM-MED-06-4",
+        "statement": "The Mughal agrarian fiscal system separated land into Khalisa (crown lands directly funding the royal treasury) and Jagir (revenue assignments granted to Mansabdars), with revenue yields measured through Jama (estimated assessment) versus Hasil (actual collection); in the late 17th century, the expansion of Mansabdars caused a critical shortage of unassigned lands (Paibaqi), precipitating the structural Jagirdari crisis.",
+        "claimType": "FEUDAL_MECHANISM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 8: Peasants, Zamindars and the State, Section 4: Zamindars & Section 5: The Ain-i Akbari, pp. 211-216",
+        "excerpt": "In Mughal revenue administration, jama was the amount assessed, as opposed to hasil, the amount collected... Mansabdars received their salaries as revenue assignments called jagirs which were somewhat like iqtas. But unlike muqtis, most mansabdars did not actually reside in or administer their jagirs."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Indian History / Mughal Administration & Agrarian Economy',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_CONCEPTUAL_ANALYSIS',
-        notes: 'Mansabdari mechanics, Dahsala settlement, and Jagirdari crisis are premier UPSC essay and prelims topics.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Indian History / Mughal Administration & Agrarian Economy",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_CONCEPTUAL_ANALYSIS",
+        "notes": "Mansabdari mechanics (Zat/Sawar rules), Dahsala 10-year settlement, and Jagirdari crisis are premier UPSC Prelims and Mains analytical themes."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Mughal Administrative Institutions',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 10-mark question analyzing the Mansabdari system and Todar Mal\'s revenue reforms.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Mughal Administrative Institutions & Land Revenue Systems",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Frequent 10-mark questions analyzing Akbar's Mansabdari system, Todar Mal's Bandobast, and soil classifications."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on silver Rupiya (Sher Shah), Todar Mal (Finance Minister), and Polaj soil definition.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History & Governance",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on Sher Shah's silver Rupiya, Todar Mal's role as Finance Minister, Polaj soil definition, and Abul Fazl's Ain-i Akbari."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Medieval Land Revenue Systems',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'ADMINISTRATIVE_TERMINOLOGY',
-        notes: 'Tested on Jama vs Hasil and Paibaqi land.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Land Revenue & Labor Systems",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "ADMINISTRATIVE_TERMINOLOGY",
+        "notes": "Tested on technical terminology: Jama, Hasil, Paibaqi, Khalisa, Amalguzar, Muqaddam, and Patwari."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian History',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on currency origins (Sher Shah Rupiya) and key Mughal institutions.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian History & Currency Evolution",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Historical evolution of the Indian Rupee (Sher Shah Suri Rupiya standard) and administrative milestones."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Culture',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on agrarian history and administrative terminology.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Currency, History & Administration",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on currency origins, land revenue history, and structural economic terms."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static history questions on revenue systems.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones & Economic History",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static history questions on land revenue systems and monetary standards."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Historical evolution of Indian land revenue and taxation instruments.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Agrarian Systems & Taxation",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Historical background of Indian agricultural credit, land tax systems, and Taccavi agrarian loans."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Mughal Institutions: Sher Shah = Silver Rupiya (178 grains), GT Road (1700 Sarais). Mansabdari: Zat = personal rank/pay; Sawar = cavalry quota. Rule: Sawar CANNOT exceed Zat. Non-hereditary (Escheat). Dahsala/Zabt (1580, Todar Mal): 10-yr rolling average, tax = 1/3 in cash. Soils: Polaj (annual), Parauti (1-2 yrs fallow), Chachar (3-4 yrs fallow), Banjar (5+ yrs fallow).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Mughal Institutions: Sher Shah = Silver Rupiya (178 grains), GT Road (1,700 Sarais). Mansabdari: Zat = personal rank/pay; Sawar = cavalry quota. Mathematical Rule: Sawar CANNOT exceed Zat. Non-hereditary (Law of Escheat). Dahsala/Zabt (1580, Todar Mal): 10-year rolling average, tax = 1/3 in cash. Soils: Polaj (annual), Parauti (1-2 yrs fallow), Chachar (3-4 yrs fallow), Banjar (5+ yrs fallow).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Mughal Administrative Blueprint: 1) Sher Shah Suri: Created the silver Rupiya, built the Grand Trunk Road, and surveyed land. 2) Mansabdari System: Akbar\'s unified civil-military decimal hierarchy. Every noble held a Zat rank (status/salary) and Sawar rank (cavalry obligation; Dah-Bishi 10:20 ratio); Sawar never exceeded Zat; non-hereditary. Paid in cash (Naqdi) or land revenue assignment (Jagir). 3) Ain-i-Dahsala (1580): Raja Todar Mal fixed state land tax at 1/3 of the 10-year rolling average crop yield in cash across Polaj, Parauti, Chachar, and Banjar soils.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Mughal Administrative & Fiscal Blueprint: 1) Sher Shah Suri: Created the silver Rupiya (178 gr), built the Grand Trunk Road, and surveyed land via early Zabt. 2) Mansabdari System: Akbar's unified civil-military decimal hierarchy. Every noble held a Zat rank (status/salary) and Sawar rank (cavalry obligation; Dah-Bishi 10:20 ratio); Sawar never exceeded Zat; non-hereditary. Paid in cash (Naqdi) or land revenue assignment (Jagir). 3) Ain-i-Dahsala (1580): Raja Todar Mal fixed state land tax at 1/3 of the 10-year rolling average crop yield in cash across Polaj, Parauti, Chachar, and Banjar soils. 4) Fiscal Decay: In late 17th c, influx of Deccani nobles caused severe shortage of unassigned land (Paibaqi), causing the Jagirdari crisis.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Mughal Fiscal-Military Architecture: 1) Agrarian Foundation: Standardized survey (*Tanab/Ilahi Gaz*) -> 10-year price indexing (*Dastur*) -> 1/3 state revenue demand. 2) Bureaucratic Machinery: Diwan (Finance), Mir Bakshi (Military/Mansabdars), Mir Saman (Imperial Stores), Chief Qazi (Justice). 3) Structural Decay: Aurangzeb Deccan influx -> Jagirdari crisis (*Jama* outstripping *Hasil*) -> Paibaqi exhaustion -> Agrarian revolt.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Mughal Fiscal-Military Architecture: 1) Agrarian Base: Standardized survey (*Tanab/Ilahi Gaz*) -> 10-year price indexing (*Dastur*) -> 1/3 state revenue demand. 2) Bureaucratic Machinery: Diwan (Finance), Mir Bakshi (Military/Mansabdars), Mir Saman (Imperial Stores/Workshops), Chief Qazi (Justice). 3) Fiscal Circuit: Khalisa (crown land) vs Jagir (assigned land). 4) Structural Collapse: Aurangzeb's 25-year Deccan war -> expansion of mansabdars -> *Be-Jagiri* (Jagir shortage) -> *Jama* (assessed) outstripping *Hasil* (actual) -> peasant squeeze and rebellions.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'MUGHAL_MCQ',
-        stem: 'In the Mansabdari system of the Mughal Empire introduced by Emperor Akbar, which of the following statements is mathematically and legally ACCURATE?',
-        options: [
-          'The Sawar rank of a noble could exceed his Zat rank in times of war',
-          'The Sawar rank of a noble could never exceed his Zat rank',
-          'Mansabs were strictly hereditary and automatically passed to the eldest son',
-          'Mansabdars were prohibited from receiving cash salaries (Naqdi)'
+        "type": "MUGHAL_MCQ",
+        "stem": "In the Mansabdari system of the Mughal Empire introduced by Emperor Akbar, which of the following statements is mathematically and legally ACCURATE according to NCERT Class VII Chapter 4 and Class XII Theme 9?",
+        "options": [
+          "The Sawar rank of a noble could exceed his Zat rank in times of military emergency",
+          "The Sawar rank of a noble could never exceed his Zat rank under imperial regulations",
+          "Mansabs were strictly hereditary and automatically passed to the eldest son upon the noble's death",
+          "Mansabdars were prohibited from receiving cash salaries (Naqdi) and could only be remunerated through Jagirs"
         ],
-        correctAnswer: 'The Sawar rank of a noble could never exceed his Zat rank',
-        explanation: 'Under Akbar\'s Mansabdari regulations, the Sawar rank (cavalry contingent obligation) could never exceed the Zat rank (personal status and pay). A noble\'s Sawar rank could be equal to, half of, or less than his Zat rank, determining whether he was a 1st, 2nd, or 3rd class Mansabdar.',
-        trapExplanation: 'Assuming exceptional wartime provisions allowed Sawar to exceed Zat, or believing Mansabs were hereditary, are common traps.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Mathematical constraint rule of the Mansabdari system (Sawar <= Zat).',
+        "correctAnswer": "The Sawar rank of a noble could never exceed his Zat rank under imperial regulations",
+        "explanation": "Under Akbar's Mansabdari regulations, the Sawar rank (cavalry contingent obligation) could never exceed the Zat rank (personal status and pay). A noble's Sawar rank could be equal to, half of, or less than his Zat rank, determining whether he was a 1st, 2nd, or 3rd class Mansabdar.",
+        "trapExplanation": "Assuming exceptional wartime provisions allowed Sawar to exceed Zat, or believing Mansabs were hereditary, are common examiner traps.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Mathematical constraint rule of the Mansabdari system (Sawar <= Zat)."
       },
       {
-        type: 'MUGHAL_MCQ',
-        stem: 'Under Raja Todar Mal\'s "Ain-i-Dahsala" (Zabt) land revenue system in the Mughal Empire, what did the term "Polaj" designate?',
-        options: [
-          'Land that was left fallow for three to four years to recover natural fertility',
-          'Land that was cultivated annually without ever being left fallow',
-          'Uncultivated barren land that had not been plowed for five or more years',
-          'Land reserved exclusively for the royal gardens of the Emperor'
+        "type": "MUGHAL_MCQ",
+        "stem": "Under Raja Todar Mal's \"Ain-i-Dahsala\" (Zabt) land revenue settlement in the Mughal Empire, what did the term \"Polaj\" designate according to NCERT Class XII Theme 8?",
+        "options": [
+          "Land that was left fallow for three to four years to recover natural fertility",
+          "Land that was cultivated continuously every single year without ever being left fallow",
+          "Uncultivated barren wasteland that had not been plowed for five or more years",
+          "Land reserved exclusively for royal hunting and orchards"
         ],
-        correctAnswer: 'Land that was cultivated annually without ever being left fallow',
-        explanation: 'Under the Dahsala settlement, land was categorized into four soil types based on cultivation frequency: Polaj was ideal, fertile land cultivated continuously every single year without being left fallow, paying full state revenue annually.',
-        trapExplanation: 'Option A describes Chachar; Option C describes Banjar; Option B is Polaj.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'RPSC RAS Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Mughal soil classification vocabulary (Polaj vs Parauti vs Chachar vs Banjar).',
-      },
-    ],
+        "correctAnswer": "Land that was cultivated continuously every single year without ever being left fallow",
+        "explanation": "Under the Dahsala settlement detailed in the Ain-i Akbari, land was classified into four soil categories based on cultivation frequency: Polaj was ideal, fertile land cultivated continuously every single year without being left fallow, paying full state revenue ($1/3$ produce) annually.",
+        "trapExplanation": "Option A describes Chachar; Option C describes Banjar; Option B is Polaj.",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2020,
+        "pyqPaper": "RPSC RAS Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Mughal soil classification vocabulary (Polaj vs Parauti vs Chachar vs Banjar)."
+      }
+    ]
   },
 
   // =========================================================================
