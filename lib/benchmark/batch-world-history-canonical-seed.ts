@@ -1470,147 +1470,111 @@ The spinning of cotton and smelting of iron were concentrated into colossal mult
   {
     id: 'CON-WLD-09',
     slug: 'the-russian-revolution-of-1917-and-soviet-state',
-    title: 'The Russian Revolution of 1917 & The Soviet State: From Tsarist Autocracy to Lenin\'s Bolshevik Triumph & Stalinist Command Economy',
-    shortDefinition: 'The collapse of the 300-year Romanov autocracy and the birth of the world\'s first socialist state: 1905 Bloody Sunday dress rehearsal, February 1917 popular uprising and Tsar Nicholas II\'s abdication, Dual Power (Provisional Government vs Petrograd Soviet), Vladimir Lenin\'s April Theses, the October Bolshevik seizure of power (November 7, 1917), War Communism, Lenin\'s New Economic Policy (NEP), and Joseph Stalin\'s Five-Year Plans, collectivization, and liquidation of the Kulaks.',
+    title: 'Socialism in Europe & The Russian Revolution (1917): 1905 Dress Rehearsal, Dual Power, Bolshevik Triumph & Stalinist Collectivization',
+    shortDefinition: 'Comprehensive NCERT Class IX synthesis: The age of social change (Liberals, Radicals, Conservatives), early socialists (Robert Owen, Louis Blanc, Karl Marx, Friedrich Engels), the Russian autocracy under Tsar Nicholas II, the Mir/Commune collective land tenure, Bloody Sunday (1905) and the Duma, February Revolution of 1917, Dual Power, Lenin\'s April Theses, the October Revolution, Bolshevik reforms, Russian Civil War (Reds vs Whites vs Greens), War Communism vs New Economic Policy (NEP), Stalinist industrialization and forced Collectivization (Kolkhoz & Dekulakization), and global impact (Comintern, M.N. Roy, Tagore).',
     difficulty: 'ADVANCED',
     order: 9,
     topicSlug: 'russian-revolution-and-soviet-state',
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Storming of the Winter Palace: How an Impoverished Peasant Empire Built the First Socialist State',
-        body: `In 1848, Karl Marx and Friedrich Engels predicted in *The Communist Manifesto* that the proletarian revolution would erupt in the most technologically advanced capitalist countries—such as Great Britain or Germany—where millions of factory workers formed the majority of society.
-
-Yet in **1917**, amidst the catastrophic bloodbath and mass starvation of World War I, history defied theoretical prediction: the world\'s first successful socialist revolution took place in **Tsarist Russia**—a vast, economically backward empire where over $80\\%$ of the population were illiterate, impoverished peasants, and the urban factory working class comprised less than $5\\%$ of the populace!
-
-How did this impossible revolution succeed?
-1. **The Rotting Tsarist Autocracy:** Tsar Nicholas II ruled as an absolute monarch, refusing meaningful constitutional reform while dragging millions of ill-equipped peasant soldiers to their slaughter on the Eastern Front of World War I.
-2. **The Dual Power Stalemate (*Dvoyevlastiye*):** When women workers and soldiers overthrew the Tsar in February 1917, the newly formed bourgeois **Provisional Government** foolishly decided to stay in World War I, bleeding the nation dry while the **Petrograd Soviet** of workers and soldiers held actual military control on the ground.
-3. **Lenin\'s Revolutionary Genius:** Arriving from Swiss exile in April 1917, **Vladimir Lenin** recognized what other socialist intellectuals missed: the masses did not care about liberal constitutionalism; they demanded three existential things: **\"Peace, Land, and Bread\"**. On the night of November 6–7, 1917, Lenin\'s Bolshevik Red Guards seized Petrograd\'s key infrastructure and stormed the Winter Palace, inaugurating the Soviet era.`,
+        title: 'The Storming of the Winter Palace: How an Agrarian Empire Built the First Socialist State',
+        body: 'In 1848, Karl Marx and Friedrich Engels predicted in The Communist Manifesto that proletarian revolution would erupt in the most industrially advanced capitalist nations—such as Great Britain or Germany—where factory wage laborers constituted the overwhelming majority.\n\nYet in 1917, history defied theoretical prediction: the world\'s first successful socialist revolution erupted in Tsarist Russia—a vast, economically backward empire where over 85% of the population were peasants cultivating land through the traditional village commune (Mir), and urban factory workers comprised less than 5% of the populace!\n\nHow did this improbable transformation occur?\n1. The Rotting Autocracy: Tsar Nicholas II ruled without parliamentary accountability, refusing constitutional power-sharing while dragging millions of ill-equipped peasant-conscripts to slaughter on the Eastern Front of World War I.\n2. The Dual Power Stalemate (Dvoyevlastiye): When women workers and soldiers overthrew the Tsar on International Women\'s Day in February 1917, the newly installed bourgeois Provisional Government insisted on staying in WWI, while the Petrograd Soviet held actual military control over troops and rail lines.\n3. Lenin\'s Strategic Clarity: Returning from Swiss exile in April 1917, Vladimir Lenin formulated the April Theses, crystallizing popular demands into three words: "Peace, Land, and Bread". On November 7, 1917, the Bolshevik Red Guards seized state power, inaugurating the Soviet era.',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Dual Revolutions Matrix & Soviet Economic Trajectory',
-        body: `### 1. The Twin Revolutions of 1917: February vs October
-| Dimension | 1905 Revolution (\"Dress Rehearsal\") | February Revolution (March 1917) | October Revolution (November 1917) |
-| :--- | :--- | :--- | :--- |
-| **Direct Trigger** | **Bloody Sunday (Jan 22, 1905)**: Imperial guards shot peaceful workers led by Father Gapon at Winter Palace. | Severe bread shortages; strikes on **International Women\'s Day (March 8)**; soldiers mutinied. | Kerensky launched failed military offensive; Kornilov military coup attempt armed the Bolsheviks. |
-| **Key Leaders** | Spontaneous strikes; Leon Trotsky led the first Petrograd Soviet. | Spontaneous mass mobilization; Duma liberals formed **Provisional Government** under Prince Lvov and Alexander Kerensky. | **Vladimir Lenin** provided ideological command (**April Theses**); **Leon Trotsky** organized Military Revolutionary Committee. |
-| **Immediate Outcome** | Tsar Nicholas II forced to concede the **October Manifesto** granting civil liberties and an elected parliament (**Duma**). | **Tsar Nicholas II abdicated (March 15, 1917)**, ending the 300-year Romanov Dynasty. Created **Dual Power (*Dvoyevlastiye*)**. | Provisional Government overthrown; Bolsheviks seized power; Lenin formed the Council of People\'s Commissars (**Sovnarkom**). |
-
----
-
-### 2. Vladimir Lenin\'s Strategic Milestones (1917–1924)
-* **The April Theses (April 1917):** Lenin returned in a German sealed train and startled moderate socialists by demanding:
-  1. Immediate withdrawal from World War I (imperialist war).
-  2. Confiscation of noble landed estates and transfer of all land to peasant soviets.
-  3. Immediate transfer of all state power to the Soviets (\"*All Power to the Soviets!*\").
-  4. Nationalization of all banks and merging into a single state bank.
-* **Decree on Peace & Decree on Land (November 1917):** First acts of Soviet power: proposed an immediate armistice without annexations (**Treaty of Brest-Litovsk, March 1918**, surrendering Ukraine and Baltic lands to exit WW1) and abolished private land ownership forever.
-* **War Communism (1918–1921):** Extreme emergency economic regime during the Russian Civil War against the White Armies and foreign intervention:
-  * Nationalized all factories down to small workshops.
-  * Banned private trade and abolished currency (barter economy).
-  * Enforced **Prodrazvyorstka** (forced grain requisitioning squads seizing grain from peasants at gunpoint).
-  * Result: Catastrophic 1921 Volga famine and the **Kronstadt sailors\' rebellion (March 1921)** against Bolshevik dictatorship.
-* **The New Economic Policy (NEP, 1921–1928):** Lenin\'s pragmatic \"temporary retreat\":
-  * Replaced grain requisitioning with a predictable tax-in-kind (**Prodnalog**).
-  * Allowed peasants to sell surplus grain in open markets.
-  * Permitted small private trade and light workshops (*NEPmen*).
-  * The Soviet state retained control over the \"**commanding heights of the economy**\" (heavy industry, coal, steel, railways, foreign trade, and banking).
-
----
-
-### 3. Joseph Stalin\'s Era: Industrialization & Collectivization (1928–1953)
-* **Five-Year Plans (*Pyatiletka*, initiated 1928):** Abolished NEP; instituted centralized Gosplan command economy prioritizing heavy industry (steel mills at Magnitogorsk, hydroelectricity, tractors, chemicals) at breakneck pace to survive imperialist encirclement.
-* **Forced Agricultural Collectivization (*Kolkhoz*, 1929):** Abolished private peasant holdings; merged peasant lands into state-directed collective farms to extract cheap grain for urban workers and export machinery purchases.
-* **Liquidation of the Kulaks (\"Dekulakization\"):** Branded wealthier peasants who owned livestock or employed labor as \"Kulaks\"; over 5 million Kulaks were executed, deported to Siberian Gulag camps, or starved in the manufactured famine of 1932–33 (**Holodomor** in Ukraine).`,
+        title: 'Ideological Spectrum, Communal Land (Mir) & Revolutionary Timeline',
+        body: '### 1. The Post-French Revolution Ideological Spectrum in Europe (NCERT Class IX)\n\n| Ideological Group | Core Political Objective | Attitude Toward Property & Suffrage | Proposed Method of Change |\n| :--- | :--- | :--- | :--- |\n| **Liberals** | Secular nation tolerating all religions; safeguard individual rights against state power; elected parliamentary government with independent judiciary. | Opposed universal adult franchise; believed only men of property should vote; excluded women completely. | Gradual constitutional reform through parliament. |\n| **Radicals** | Government based on majority of population; supported women\'s suffrage movements (**Suffragettes**). | Opposed concentration of property in few private hands; did not oppose private property per se, but disliked great landowners and factory magnates. | Rapid democratic restructuring through mass political agitation. |\n| **Conservatives** | Initially opposed change; by 19th century accepted that change was inevitable, but insisted past must be respected. | Defended established aristocratic, church, and monarchical institutions. | Slow, orderly evolutionary change. |\n\n---\n\n### 2. Early Socialists & Marxist Theoretical Foundations\n- **Robert Owen (1771–1858):** Leading English manufacturer who sought to build a cooperative community called **New Harmony** in Indiana (USA) based on voluntary individual initiative.\n- **Louis Blanc (1813–1882):** French socialist who argued that individual enterprise could not produce cooperatives on a large scale; demanded that governments actively encourage cooperatives to replace capitalist enterprises.\n- **Karl Marx (1818–1883) & Friedrich Engels (1820–1895):** Formulated scientific socialism. Industrial society was capitalist; profit produced by workers was appropriated by private capitalists. Workers could free themselves only by overthrowing capitalism, abolishing private property, and establishing a radically communist society.\n- **Second International:** Formed in the 1870s to coordinate socialist workers\' associations across Europe; in Britain, socialists and trade unionists formed the **Labour Party (1905)**, and in France, the **Socialist Party**.\n\n---\n\n### 3. Russian Agrarian Uniqueness: The Mir (Commune)\n- Unlike European peasants, Russian peasants had a historic custom: they pooled their land together periodically, and their village commune—the ***Mir***—divided it according to the needs of individual families.\n- Because of this communal habit, Russian socialists (the Socialist Revolutionaries) argued that Russian peasants were "natural socialists", and that Russia would bypass capitalism straight into socialism!\n- *Lenin\'s Counter-Argument:* Lenin and the Social Democrats disagreed. Lenin observed that the peasantry was not a homogeneous group: some were poor laborers, others rich kulaks employing workers. The factory proletariat, disciplined by modern industry, had to lead the revolution.\n\n---\n\n### 4. Detailed Revolutionary Trajectory (1905–1924)\n1. **1905 Revolution ("The Dress Rehearsal"):**\n   - *Bloody Sunday (January 22, 1905):* Procession of peaceful workers led by **Father Gapon** carrying petitions to the Winter Palace; fired upon by police, killing over 100 workers.\n   - Widespread strikes, mutinies (Battleship Potemkin), and creation of the first **St. Petersburg Soviet**.\n   - Tsar conceded the **October Manifesto** creating an elected parliament (**Duma**), but repeatedly dissolved the 1st and 2nd Dumas to preserve autocratic veto.\n2. **The February Revolution of 1917 (Julian Calendar Feb / Gregorian March):**\n   - Began on **February 23 (International Women\'s Day)** with bread strikes by women textile workers in Petrograd.\n   - When troops refused to fire on protestors and mutinied, Tsar Nicholas II abdicated on **March 2 (March 15 Gregorian)**, ending the 300-year Romanov autocracy.\n   - Formation of **Dual Power (*Dvoyevlastiye*)**: Bourgeois Provisional Government under Prince Lvov / Kerensky vs Petrograd Soviet of Workers\' and Soldiers\' Deputies.\n3. **Lenin\'s April Theses (April 1917):**\n   - Vladimir Lenin returned from Switzerland via a German sealed train.\n   - Issued three clear demands: (a) Immediate end to World War I; (b) Land transfer to peasants; (c) Nationalization of all banks. Coined the slogan: *"All Power to the Soviets!"*\n4. **The October Revolution of 1917 (October 24–25 / November 6–7):**\n   - Coordinated by **Leon Trotsky**, head of the Military Revolutionary Committee.\n   - Bolshevik Red Guards seized telegraph offices, bridges, and railways; cruiser *Aurora* shelled the Winter Palace; ministers of Provisional Government arrested.\n   - All-Russian Congress of Soviets approved the Bolshevik seizure of power.\n5. **Post-October Decrees & Civil War (1918–1920):**\n   - Land declared social property; banks nationalized (Nov 1917); nobility titles banned; non-Russian nationalities given self-determination.\n   - Bolsheviks signed the humiliating **Treaty of Brest-Litovsk (March 1918)** with Germany to exit WWI.\n   - Civil War between the **Reds** (Bolsheviks), **Whites** (Tsarists/liberals supported by Britain, France, USA, Japan), and **Greens** (Socialist Revolutionaries). Red Army under Trotsky emerged victorious.',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'The Revolutionary Mechanics: Dual Power Breakdown & Gosplan Command Economy',
-        body: `### 1. The Dual Power (*Dvoyevlastiye*) Paralyzing Mechanism (March–October 1917)
-* The **Provisional Government** possessed legal sovereign recognition, the state treasury, and diplomatic embassies, but zero armed loyal troops.
-* The **Petrograd Soviet** possessed the loyalty of the armed garrison and factory workers through **Order No. 1** (which decreed that military units obeyed the Provisional Government *only* so long as its orders did not contradict Soviet decisions).
-* This structural paralysis meant whoever mobilized the Petrograd Soviet could topple the state overnight—which Lenin and Trotsky executed with surgical precision on October 25 (Nov 7), 1917.
-
-### 2. The Gosplan Command Economy Allocative Mechanism
-* Replaced market price signals ($Supply = Demand$) with physical material balances calculated by the State Planning Committee (**Gosplan**).
-* Prices and wages were fixed by administrative fiat rather than scarcity.
-* Directed capital accumulation by forcibly depressing rural living standards and consumption to channel over $40\\%$ of national output into capital goods and military hardware.`,
+        title: 'Economic Paradigms: War Communism, Lenin\'s NEP & Stalin\'s Collectivization',
+        body: '### 1. War Communism (1918–1921) vs. New Economic Policy (1921–1928)\n- **War Communism:** Emergency civil war policy:\n  * Total nationalization of all industries and factories.\n  * Total ban on private trade and private ownership of grain.\n  * Forced grain requisitioning (*Prodrazvyorstka*) by armed worker squads.\n  * *Outcome:* Destruction of agricultural incentives, peasant revolts, catastrophic 1921 famine, and the **Kronstadt Naval Mutiny (March 1921)** by previously loyal sailors.\n- **Lenin\'s New Economic Policy (NEP, 1921):** Pragmatic tactical retreat:\n  * Replaced forced confiscation with a fixed agricultural tax in kind (*Prodnalog*).\n  * Permitted peasants to sell surplus grain in open markets.\n  * Allowed small-scale private enterprise, trade, and retail shops (*NEPmen*).\n  * State retained control over the "commanding heights" (heavy industry, railways, banking, foreign trade).\n\n---\n\n### 2. Stalinist Collectivization & Industrialization (1928–1939)\n- **The Grain Crisis of 1927–28:** State procurement prices were low; peasants refused to sell grain, causing severe urban shortages. Stalin blamed rich peasants—**Kulaks**—for hoarding.\n- **Collectivization Program (*Kolkhoz*, 1929):**\n  * State forced all peasants to cultivate collective farms (*Kolkhoz*).\n  * Bulk of land and implements transferred to collective ownership; profits shared according to work done.\n  * Enraged peasants resisted by slaughtering livestock; between 1929 and 1931, the number of cattle in Russia fell by one-third!\n- **Liquidation of Kulaks as a Class:** Millions of prosperous peasants were classified as Kulaks, forcibly dispossessed, deported to Siberian labour camps (Gulags), or executed.\n- **Famines & Results:** Despite collectivization, bad harvests triggered the horrific famine of 1930–1933 (Holodomor), killing over 4 million people. Only tiny private garden plots were tolerated.',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, February vs October Revolutions & Economic Policies',
-        body: `### High-Frequency Traps in Russian History
-1. **Who Overthrew Whom? (The #1 Universal Trap!):**
-   * **February Revolution (March 1917):** Overthrew **Tsar Nicholas II** and established the Provisional Government.
-   * **October Revolution (Nov 1917):** Overthrew the **Provisional Government** (Kerensky) and established the **Bolshevik Soviet state** under Lenin.
-   * *Trap:* Claiming Lenin overthrew Tsar Nicholas II directly! Lenin was in Zurich, Switzerland when the Tsar fell.
-
-2. **War Communism vs New Economic Policy (NEP):**
-   * *War Communism (1918–21):* Complete ban on private trade, forced grain confiscation (*Prodrazvyorstka*), catastrophic famine.
-   * *NEP (1921–28):* Tax-in-kind (*Prodnalog*), market sales of surplus, private small business, state kept commanding heights.
-
-3. **Treaty of Brest-Litovsk (March 1918):**
-   * Treaty between Soviet Russia and the Central Powers (Germany, Austria-Hungary) taking Russia out of WWI; surrendered Baltic territories, Poland, and Ukraine.
-
-4. **Kulaks Definition:**
-   * Relatively prosperous peasant landowners targeted for physical liquidation during Stalin\'s 1929 Collectivization campaign.`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'Spatial Coordinates & Industrial Hubs of Tsarist and Soviet Russia',
+        body: 'Geographical Schematic of the Russian Revolutionary Arc:\n\n       Baltic Sea\n          |\n   +------V------------------------------------------------------------------+\n   | PETROGRAD (St. Petersburg):                                             |\n   |   - Vyborg District: Industrial workers\' quarter (strikes origin)      |\n   |   - Winter Palace (Bloody Sunday 1905, Stormed 1917)                    |\n   |   - Smolny Institute: Bolshevik Headquarters & Petrograd Soviet         |\n   |   - Cruiser Aurora: Moored on Neva River, fired signal shot             |\n   |                                                                         |\n   | [MOSCOW] (Becomes Soviet Capital in March 1918)                         |\n   |                                                                         |\n   | Grain Belt / Collectivization:                                          |\n   |   - Volga Basin & Ukraine: Rich Chernozem black soil, Kulak resistance  |\n   |                                                                         |\n   | Ural Industrial Citadel:                                                |\n   |   - [Magnitogorsk]: Steel city constructed from scratch in 3 years      |\n   +-------------------------------------------------------------------------+\n          |\n       Trans-Siberian Railway line to Vladivostok',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Indian Resonance & Standard Answer Frameworks',
+        body: '### 1. High-Frequency Traps in Russian Revolutionary History\n- **The Dual Revolution Trap:**\n  * *February Revolution (March 1917):* Overthrew **Tsar Nicholas II** and ended Romanov autocracy.\n  * *October Revolution (November 1917):* Overthrew the **Provisional Government** (Kerensky) and established Soviet Bolshevik power.\n  * *Trap:* Claiming Lenin overthrew the Tsar directly! Lenin was in Zurich, Switzerland when the Tsar abdicated.\n- **Liberals vs. Radicals on Voting Rights:** Liberals opposed universal suffrage and excluded women; Radicals supported universal suffrage and women\'s voting rights.\n- **Kulaks & Kolkhoz Terminology:**\n  * *Kulak:* Prosperous, well-to-do peasant owning land/hiring labor.\n  * *Kolkhoz:* Collective farm where peasants worked jointly.\n  * *Mir:* Traditional village commune that redivided land periodically before the revolution.\n\n---\n\n### 2. Global Impact & Indian Resonance (NCERT Explicit Highlight)\n- **The Comintern (Communist International):** Formed in 1919 by Bolsheviks as an international union of pro-Bolshevik socialist parties; attracted delegates across Asia and Latin America.\n- **M.N. Roy:** Indian revolutionary who played a founding role in the Mexican Communist Party and the Communist Party of India (Tashkent, 1920), and served on the executive presidium of the Comintern.\n- **Rabindranath Tagore:** Visited Soviet Russia in 1930; wrote *Letters from Russia*, marveling at mass literacy campaigns while cautioning against intellectual totalitarianism and lack of individual freedom.\n- **Jawaharlal Nehru:** Deeply impressed by Soviet Five-Year Plans during his 1927 visit, inspiring the post-1947 Indian Planning Commission model.\n\n---\n\n### 3. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Discuss the circumstances that led to the overthrow of Tsarist autocracy in Russia in 1917.**\n- **Structure:**\n  * *Introduction (15 words):* The 300-year Romanov autocracy collapsed during the February Revolution (March 1917) due to political, social, and military decay.\n  * *Socio-Economic Distress (40 words):* Extreme agrarian backwardness; 85% peasants burdened by land shortages; industrial workers endured 15-hour shifts and low wages; runaway wartime inflation and acute bread shortages in Petrograd.\n  * *Military Catastrophe & Autocratic Misrule (35 words):* First World War killed over 7 million Russian soldiers and created 3 million refugees; Tsar Nicholas II\'s refusal to delegate power to the Duma and public resentment against Tsarina Alexandra and Rasputin.\n  * *Conclusion (10 words):* The mutiny of Petrograd garrison regiments united soldiers and striking women, forcing the Tsar\'s unconditional abdication.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-09-1',
-        statement: 'The February Revolution of March 1917 forced Tsar Nicholas II to abdicate, ending the Romanov dynasty and establishing a fragile Dual Power regime between the bourgeois Provisional Government and the Petrograd Soviet.',
-        claimType: 'REVOLUTIONARY_OVERTHROW',
+        statement: 'Unlike European peasants, Russian peasants historically pooled their land together periodically in their village commune, known as the Mir, which reallocated land according to the demographic needs of individual families.',
+        claimType: 'AGRARIAN_TENURE_AND_SOCIAL_ORDER',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-36',
-        excerpt: 'Socialism in Europe and the Russian Revolution: February 1917 Tsar abdication, Provisional Government, Petrograd Soviet Dual Power.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 2, Section 2: The Russian Empire in 1914, pp. 31-33',
+        excerpt: 'They pooled their land together periodically and their commune (mir) divided it according to the needs of individual families... Russian peasants were different from other European peasants in another way. They pooled their land together periodically.',
       },
       {
         id: 'CLM-WLD-09-2',
-        statement: 'Vladimir Lenin returned to Russia in April 1917, formulating the April Theses demanding \"Peace, Land, and Bread\", leading the Bolsheviks under Leon Trotsky\'s Military Revolutionary Committee to seize state power in the October Revolution of November 7, 1917.',
-        claimType: 'BOLSHEVIK_SEIZURE',
+        statement: 'The February Revolution of 1917 began on International Women\'s Day (February 23 Old Style) with spontaneous bread strikes by women factory workers in Petrograd, leading directly to the mutiny of the army garrison and the abdication of Tsar Nicholas II.',
+        claimType: 'REVOLUTIONARY_OVERTHROW',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-36',
-        excerpt: 'Lenin April Theses, Peace Land Bread, October Revolution 1917, Bolshevik seizure of power.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 2, Section 3: The February Revolution in Petrograd, pp. 35-37',
+        excerpt: 'On Sunday, 25 February, the government suspended the Duma... On the 27th, the Police Headquarters were ransacked... The cavalry regiments refused to fire on the crowds... Tsar abdicated on 2 March. Soviet leaders and Duma leaders formed a Provisional Government to run the country.',
       },
       {
         id: 'CLM-WLD-09-3',
-        statement: 'After the failure of War Communism and the interim recovery under the New Economic Policy (NEP), Joseph Stalin launched rapid state-directed industrialization via Five-Year Plans and enforced agricultural Collectivization, liquidating the Kulaks as a class.',
+        statement: 'In April 1917, Vladimir Lenin presented his April Theses putting forth three core demands: bringing World War I to a close, transferring land to the peasants, and nationalizing the banking system.',
+        claimType: 'POLITICAL_PROGRAMME',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 2, Section 3: Lenin\'s April Theses, p. 37',
+        excerpt: 'In April 1917, the Bolshevik leader Vladimir Lenin returned to Russia from his exile... He declared that the war be brought to a close, land be transferred to the peasants, and banks be nationalised. These three demands were Lenin\'s "April Theses".',
+      },
+      {
+        id: 'CLM-WLD-09-4',
+        statement: 'From 1929, Joseph Stalin enforced agricultural Collectivization into collective farms (Kolkhoz), resulting in the violent elimination of prosperous peasants (Kulaks), the destruction of one-third of the livestock population, and the devastating famine of 1930–1933.',
         claimType: 'ECONOMIC_COLLECTIVIZATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-36',
-        excerpt: 'Soviet economic transitions: War Communism, NEP, Stalin Five-Year Plans, forced agrarian collectivization, Kulak liquidation.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 2, Section 4: Stalinism and Collectivisation, pp. 44-46',
+        excerpt: 'From 1929, the Party forced all peasants to cultivate in collective farms (kolkhoz)... Enraged peasants resisted the authorities and destroyed their livestock. Between 1929 and 1931, the number of cattle fell by one-third... The bad harvests of 1930-1933 led to one of most devastating famines in Soviet history when over 4 million died.',
+      },
+      {
+        id: 'CLM-WLD-09-5',
+        statement: 'The Russian Revolution inspired Indian intellectuals and leaders, leading to M.N. Roy founding the Communist Party of India abroad in Tashkent in 1920 and Rabindranath Tagore writing Letters from Russia in 1930 after observing Soviet education.',
+        claimType: 'GLOBAL_RECEPTION_AND_IMPACT',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 2, Section 5: The Global Influence of the Russian Revolution and the USSR, pp. 47-48',
+        excerpt: 'Among those the Russian Revolution inspired were many Indians. Several attended the Communist University. By the mid-1920s the Communist Party was formed in India... Jawaharlal Nehru and Rabindranath Tagore wrote about the Soviet experiment.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Russian Revolution & Emergence of the Soviet Socialist State',
+        syllabusUnit: 'GS Paper I — World History / Russian Revolution: 1905, 1917 (February & October), War Communism, NEP & Stalinist Collectivization',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Causes of the Russian Revolution, April Theses, War Communism vs NEP, and Stalinist industrialization are standard Mains questions.',
+        notes: 'Perennial analytical questions on the ideological evolution of socialism, why Russia industrialized via state coercion, and Lenin vs Stalin economic models.',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Russian Revolution of 1917 and Soviet State',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / Russian Revolution of 1917 and Soviet State',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'High-frequency 10-mark question on causes, major phases (February vs October), and global impact of the 1917 Revolution.',
+        notes: 'Frequent 2-mark definitions (Duma, Bloody Sunday, Kulak, Kolkhoz, April Theses), 5-mark short notes (War Communism vs NEP), and 10-mark full essays on causes and consequences.',
       },
       {
         examCode: 'SSC_CGL',
@@ -1618,15 +1582,15 @@ How did this impossible revolution succeed?
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Russian Revolution year (1917), Bolshevik leader (Lenin), Bloody Sunday (1905), and Brest-Litovsk (1918).',
+        notes: 'Direct MCQs on Bloody Sunday (1905), Father Gapon, abdication of Tsar Nicholas II (1917), Bolshevik leader (Lenin), and Brest-Litovsk (1918).',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — Global Political & Socialist Movements',
+        syllabusUnit: 'General Studies — Global Socialist Movements, Labor Unions & State Planning',
         relevance: 'CORE',
         priority: 'HIGH',
         requiredDepth: 'POLITICAL_IDEOLOGIES',
-        notes: 'Tested on Communist Manifesto, workers\' soviets, and early Soviet economic planning structures.',
+        notes: 'In-depth focus on workers\' soviets, Second International, early state welfare/planning experiments, and trade union integration.',
       },
       {
         examCode: 'SBI_PO',
@@ -1634,23 +1598,23 @@ How did this impossible revolution succeed?
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Origins of planned state socialist economies and five-year planning models.',
+        notes: 'Origins of planned economies, state-driven capital allocation, and command economic frameworks.',
       },
       {
         examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Heritage',
+        syllabusUnit: 'General Awareness — World History',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on landmark modern global revolutions.',
+        notes: 'Landmark modern global revolutions and socioeconomic transformations.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness / Global Economic History',
+        syllabusUnit: 'General Awareness / Economic History & Planning Models',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on centralized state planning origins.',
+        notes: 'Foundations of Gosplan, centralized credit systems, and five-year planning models.',
       },
       {
         examCode: 'IIBF_DBF',
@@ -1658,74 +1622,71 @@ How did this impossible revolution succeed?
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Foundations of 20th-century state-directed socialist economic systems.',
+        notes: 'Origins of 20th-century socialist state-directed economic systems.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Russian Revolution (1917): 1905 Bloody Sunday dress rehearsal -> Feb 1917 strike overthrew Tsar Nicholas II (abdicated), creating Dual Power (Provisional Govt vs Petrograd Soviet). Lenin April Theses (\"Peace, Land, Bread\") -> Oct 1917 (Nov 7) Bolshevik Red Guards stormed Winter Palace. Treaty of Brest-Litovsk (1918) exited WW1. Economic Policy: War Communism (1918-21 forced requisitions) -> NEP (1921-28 private trade permitted) -> Stalin Five-Year Plans (1928) & forced Collectivization (liquidation of Kulaks).',
+        content: 'Russian Revolution (1917): 1) Agrarian: Peasants pooled land in Mir (commune). 2) 1905: Bloody Sunday (Father Gapon, Winter Palace) -> Tsar conceded Duma. 3) Feb 1917: Bread strikes on Women\'s Day -> Tsar Nicholas II abdicated -> Dual Power (Provisional Govt vs Petrograd Soviet). 4) April Theses: Lenin demanded Peace, Land, Bread, bank nationalization. 5) Oct 1917: Bolsheviks stormed Winter Palace (cruiser Aurora). 6) Economy: War Communism (1918-21 forced requisitions) -> NEP (1921-28 private market sales) -> Stalin\'s Collectivization (1929 Kolkhoz & Dekulakization).',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Russian Revolution Blueprint: 1) February Milestone: WWI disasters and bread shortages provoked mass strikes in Petrograd; Tsar Nicholas II abdicated in March 1917, establishing Romanov collapse and Dual Power between Kerensky\'s Provisional Government and the Petrograd Soviet. 2) Bolshevik Seizure: Lenin\'s April Theses captured mass longing for Peace, Land, and Bread; Trotsky coordinated Red Guards to overthrow the Provisional Government on November 7 (Oct 25 OS), 1917. 3) War Communism to NEP: Requisitioning squads caused 1921 famine; Lenin engineered a temporary tactical retreat with NEP, allowing private market sales of grain while retaining commanding heights. 4) Stalinist Transformation: From 1928, Stalin introduced Gosplan Five-Year Plans for heavy industry and forced agricultural collectivization (Kolkhoz), eradicating the Kulaks.',
+        content: 'Socialism & Russian Revolution Blueprint (NCERT Class IX): 1) Ideologies: Post-1789 Europe saw Liberals (property owners vote, no women), Radicals (majority rule, women\'s suffrage), and Conservatives (gradual change). Socialists like Owen (cooperatives) and Marx/Engels (class struggle, overthrow capitalism) shaped the Second International. 2) Russian Uniqueness: 85% agrarian population pooling land in the Mir. 1905 Bloody Sunday forced Tsar Nicholas II to create the Duma, which he repeatedly neutered. 3) Twin Revolutions: February 1917 strikes overthrew the Tsar, creating Dual Power. Kerensky refused to exit WWI. Lenin returned with the April Theses; Trotsky organized Red Guards to seize power in October 1917. 4) Economic Policies: Requisitioning in the Civil War caused famine; Lenin introduced the NEP (1921) allowing small private enterprise. Stalin replaced NEP with Five-Year Plans and forced Collectivization (Kolkhoz), eradicating the Kulaks and inducing severe famines (1930–33). 5) Global Impact: Comintern inspired anti-colonial leaders including M.N. Roy and Tagore.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Soviet State Transformation Architecture: 1) Dual Power Inversion: Transition of Soviet power from an advisory workers\' council checking bourgeois ministries to the sole legislative and executive authority (Sovnarkom). 2) Gosplan Command System: Elimination of price signals; state determination of physical production targets and quota allocation. 3) Agrarian Extraction Telemetry: Squeezing peasant agricultural surplus through collective farming to capitalize rapid heavy industrialization.',
+        content: 'Soviet State Transformation Architecture:\n1) The Agrarian Commune to Proletarian Vanguard: Russian socialists initially believed the Mir would lead directly to agrarian socialism; Lenin demonstrated that internal peasant stratification (Kulaks vs landless) necessitated urban industrial proletariat leadership.\n2) Dual Power Inversion: Dual Power (Dvoyevlastiye) represented an unstable condominium between bourgeois ministers with formal legitimacy and workers\' soviets with armed muscle (Order No. 1); the October insurrection abolished bourgeois parliamentarism in favor of Soviet council rule (Sovnarkom).\n3) Command Economy Extraction Logic: Facing agricultural holdouts in 1928, Stalin used state terror to forcibly enclose land into Kolkhoz collectives, transferring agricultural surplus at state-mandated low prices to fuel rapid heavy industrialization (Magnitogorsk steel, tractors, defense).',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'REVOLUTION_PHASE_MCQ',
-        stem: 'In the history of the Russian Revolution of 1917, which specific revolution resulted directly in the abdication of Tsar Nicholas II and the termination of Romanov autocratic rule?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'In nineteenth-century Europe, how did the political group known as the "Liberals" differ fundamentally from the "Radicals" regarding representative government and the right to vote?',
         options: [
-          'The 1905 Bloody Sunday Revolution',
-          'The February Revolution of March 1917',
-          'The October Revolution of November 1917',
-          'The Kronstadt Rebellion of 1921',
+          'Liberals supported universal adult franchise for all men and women, whereas Radicals opposed women\'s suffrage',
+          'Liberals felt only men of property should have the vote and did not want women to vote, whereas Radicals supported women\'s suffragette movements and government based on the majority',
+          'Liberals opposed all forms of elected parliamentary government, whereas Radicals favored a constitutional monarchy',
+          'Liberals favored immediate abolition of all private property, whereas Radicals defended large aristocratic landowners'
         ],
-        correctAnswer: 'The February Revolution of March 1917',
-        explanation: 'The February Revolution (which occurred in March 1917 according to the Gregorian calendar) began with spontaneous bread protests and mass strikes in Petrograd on International Women\'s Day. When garrison troops joined the protestors, Tsar Nicholas II was forced to abdicate on March 15, 1917, ending three centuries of Romanov dynasty rule.',
-        trapExplanation: 'The October Revolution overthrew the Provisional Government (Kerensky), NOT the Tsar. The 1905 revolution produced the October Manifesto but retained the monarchy.',
+        correctAnswer: 'Liberals felt only men of property should have the vote and did not want women to vote, whereas Radicals supported women\'s suffragette movements and government based on the majority',
+        explanation: 'According to NCERT Class IX Chapter 2, Liberals were not democrats; they did not believe in universal adult franchise, arguing that only propertied men should vote, and opposed voting rights for women. In contrast, Radicals supported government based on the majority of a nation\'s population and supported women\'s suffragette movements.',
+        trapExplanation: 'Modern usage associates "liberal" with universal democracy, but in 19th-century Europe, Liberals strictly opposed universal suffrage and excluded women.',
         difficulty: 'INTERMEDIATE',
         isPYQ: true,
-        pyqYear: 2021,
+        pyqYear: 2020,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Confusing the direct political target of the February Revolution (Tsar) with that of the October Revolution (Provisional Government).',
+        examinerTrapPattern: 'Confusing 19th-century Liberals (propertied male franchise only) with Radicals (universal majority & suffragette support).',
       },
       {
-        type: 'LENIN_ECONOMIC_POLICY_MCQ',
-        stem: 'Why did Vladimir Lenin introduce the New Economic Policy (NEP) in March 1921, departing temporarily from pure socialist economic principles?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'With reference to the Russian countryside before the 1917 Revolution, what was the "Mir"?',
         options: [
-          'To prepare the Russian economy for entry into the League of Nations',
-          'To overcome catastrophic economic collapse, peasant discontent, and famine caused by the forced grain requisitions of War Communism',
-          'To fulfill conditional financial loan agreements mandated by the Treaty of Brest-Litovsk',
-          'To assist Adolf Hitler\'s Weimar Germany during the hyperinflation crisis',
+          'A royal judicial tribunal appointed by the Tsar to try political dissidents',
+          'The traditional village commune of peasants that periodically pooled and redistributed agricultural land',
+          'A special military Cossack regiment responsible for crushing peasant uprisings',
+          'A network of underground socialist printing presses across Petrograd and Moscow'
         ],
-        correctAnswer: 'To overcome catastrophic economic collapse, peasant discontent, and famine caused by the forced grain requisitions of War Communism',
-        explanation: 'The extreme measures of War Communism (1918–1921)—especially the forced requisition of grain (*Prodrazvyorstka*)—led to catastrophic peasant uprisings, widespread famine, and the Kronstadt naval mutiny in March 1921. Lenin pragmatically introduced the New Economic Policy (NEP) as a \"temporary tactical retreat\", replacing grain confiscation with a fixed tax (*Prodnalog*) and permitting peasants to sell surplus produce in open markets.',
-        trapExplanation: 'The NEP was driven entirely by internal Soviet economic devastation and peasant resistance, not foreign treaties or German alliances.',
-        difficulty: 'INTERMEDIATE',
+        correctAnswer: 'The traditional village commune of peasants that periodically pooled and redistributed agricultural land',
+        explanation: 'In pre-revolutionary Russia, the "Mir" was the traditional village commune. Russian peasants pooled their land together periodically, and the Mir redistributed plots according to the changing size and needs of each peasant family.',
+        trapExplanation: 'Option A describes a Tsarist court; Option C describes Cossacks; Mir is strictly the agricultural peasant commune.',
+        difficulty: 'EASY',
         isPYQ: true,
-        pyqYear: 2022,
+        pyqYear: 2021,
         pyqPaper: 'RPSC RAS Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Causal motivation for Lenin\'s NEP: tactical domestic survival vs international agreements.',
+        examinerTrapPattern: 'Definition of Mir (village land commune) vs Duma (national parliament).',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 7: Interwar Totalitarianism & The Rise of Nazism
-  // =========================================================================
   {
     id: 'CON-WLD-07',
     slug: 'interwar-totalitarianism-weimar-republic-and-the-rise-of-hitler-nazism',
