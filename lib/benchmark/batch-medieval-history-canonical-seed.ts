@@ -1548,241 +1548,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 8: Indo-Islamic Architectural Evolution & Imperial Urbanism
   // =========================================================================
   {
-    id: 'CON-MED-08',
-    slug: 'indo-islamic-architectural-evolution-trabeate-to-arcuate-and-mughal-monuments',
-    title: 'Indo-Islamic Architectural Evolution: Trabeate-Arcuate Synthesis, Delhi Sultanate Prototyping, and Mughal Monumental Aesthetics',
-    shortDefinition: 'Architectural transformation of medieval India: Transition from indigenous Trabeate (corbelled/post-and-lintel) to Indo-Islamic Arcuate (true arches, vaults, domes, squinches, minarets), Delhi Sultanate phases (Qutb complex, Alai Darwaza, Tughlaq battering walls, Lodhi double domes), and Mughal monumental synthesis (Charbagh garden tombs, red sandstone-white marble interplay, Pietra Dura inlay, and the Taj Mahal).',
-    difficulty: 'ADVANCED',
-    order: 8,
-    topicSlug: 'indo-islamic-architecture-and-urbanism',
-    contentBlocks: [
+    "id": "CON-MED-08",
+    "slug": "indo-islamic-architectural-evolution-trabeate-to-arcuate-and-mughal-monuments",
+    "title": "Indo-Islamic Architectural Evolution: Trabeate-Arcuate Synthesis, Delhi Sultanate Prototyping, and Mughal Monumental Aesthetics",
+    "shortDefinition": "Authoritative NCERT Class VII Chapter 5 (*Rulers and Buildings*) & Class XII Theme 9 (*Kings and Chronicles*) synthesis: Structural engineering revolution from indigenous Trabeate (post-and-lintel / corbelled) to Indo-Islamic Arcuate (true arches with voussoirs and keystone, vaulted roofs, true hemispherical domes, squinches, and limestone-surkhi mortar); Delhi Sultanate dynastic prototyping (Mamluk Quwwat-ul-Islam and Qutb Minar, Khalji Alai Darwaza true arch, Tughlaq sloping battering walls, Lodi double domes); and Mughal monumental zenith (Humayun's Tomb Charbagh prototype, Akbar's red sandstone at Fatehpur Sikri, Jahangir's Itimad-ud-Daulah Pietra Dura pioneer, and Shah Jahan's Taj Mahal white marble symmetry).",
+    "difficulty": "ADVANCED",
+    "order": 8,
+    "topicSlug": "indo-islamic-architecture-and-urbanism",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'When the Arch Met the Lotus: The Creation of Indo-Islamic Architecture',
-        body: `Before the 12th century, traditional Indian temple architecture followed the **Trabeate (post-and-lintel)** engineering style. To bridge open spaces, Indian stonemasons placed horizontal stone beams over vertical stone pillars, or used **corbelling** (overlapping stone courses meeting at the center). Because stone possesses weak tensile strength, trabeate architecture required dense forests of pillars to support roofs, making massive open interior congregation halls physically impossible.
-
-When Turkish and Central Asian builders arrived, they brought the **Arcuate engineering system**:
-* The **True Arch (*Mehrab*)**: Using wedge-shaped stones (**Voussoirs**) locked together by a central **Keystone**, transferring weight outward and downward into thick supporting walls.
-* The **True Dome (*Gumbad*)**: Enabling colossal, column-free interior assembly halls.
-* High-quality **Lime-Mortar (*Chuna*)**: An adhesive cement that enabled rapid, colossal masonry construction.
-
-When Turkish engineering merged with indigenous Indian stone-carving mastery, it gave birth to **Indo-Islamic Architecture**—a breathtaking synthesis where Islamic domes, minarets, and geometric arabesques blended seamlessly with Indian lotus blossoms, *kalash* finials, *chhatris* (kiosks), and *jalis* (perforated stone lattice screens).`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "When the Arch Met the Lotus: The Creation of Indo-Islamic Architecture",
+        "body": "Before the late 12th century, traditional Indian temple architecture followed the **Trabeate (post-and-lintel / corbelled)** engineering style. To bridge open spaces, Indian stonemasons laid horizontal stone beams across vertical stone pillars, or used **corbelling** (placing horizontal layers of stone that gradually projected inward until they met at the top). Because sandstone and granite possess weak tensile strength, trabeate architecture required dense forests of stone pillars to support massive flat stone roofs, making colossal, pillar-free interior assembly halls structurally impossible.\n\nWhen Turkish and Central Asian builders established the Delhi Sultanate, they brought the **Arcuate engineering system**:\n* The **True Arch (*Mehrab*)**: Constructed of wedge-shaped stones (**Voussoirs**) arranged in a curve and locked together by a central **Keystone**, transferring the downward thrust outward and downward onto thick masonry piers.\n* The **True Dome (*Gumbad*)**: Built over square chambers using **squinches** or **pendentives** to convert squares into octagons and circles, spanning vast pillar-free interior spaces.\n* High-grade **Limestone Mortar (*Chuna-Surkhi*)**: An adhesive cement that enabled rapid, colossal masonry construction and bonded stones into monolithic structures.\n\nWhen Islamic engineering merged with indigenous Indian stone-carving mastery, it gave birth to **Indo-Islamic Architecture**—a breathtaking synthesis where Islamic domes, minarets, and geometric arabesques blended seamlessly with Indian lotus blossoms, *kalash* finials, *chhatris* (domed kiosks), *jharokhas* (bracketed balconies), and *jalis* (perforated stone lattice screens).",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Trabeate vs Arcuate Matrix & Dynastic Architectural Progression',
-        body: `### 1. Structural Comparison: Trabeate vs Arcuate Systems
-
-| Engineering Feature | Indigenous Trabeate Style | Indo-Islamic Arcuate Style |
-| :--- | :--- | :--- |
-| **Roof & Opening Support** | **Horizontal lintels and beams** laid across vertical columns. | **True Arch** constructed with wedge-shaped stones (voussoirs) and a keystone. |
-| **Spanning Technology** | **Corbelling:** Overlapping horizontal stone layers meeting at an apex. | **True Dome and Barrel Vaults** spanning colossal pillar-free spaces. |
-| **Binding Material** | Dry stone masonry; iron clamps and dowels (zero mortar). | **Lime-mortar (*Chuna-Surkhi*)** bonding stones rapidly into monolithic structures. |
-| **Decorative Motifs** | Human and divine anthropomorphic sculptures, floral carvings, bells, lotuses. | **Arabesque (intertwined vines), Calligraphy (Quranic verses), Geometric patterns**, and *Jali* lattices (avoiding human/animal figures). |
-
----
-
-### 2. Dynastic Evolution of Indo-Islamic Architecture
-
-| Era & Dynasty | Representative Monuments | Key Architectural Innovations & Stylistic Hallmarks |
-| :--- | :--- | :--- |
-| **Mamluk / Slave Dynasty** | **Quwwat-ul-Islam Mosque** (Delhi), **Qutb Minar** (1199 CE, red sandstone), **Adhai Din Ka Jhonpra** (Ajmer). | Transition phase: Built reusing pillars from demolished temples; false corbelled arches; first minarets. |
-| **Khalji Dynasty** | **Alai Darwaza** (1311 CE, Qutb complex), Jamat Khana Mosque. | **First appearance of the TRUE ARCH** and true dome in India; red sandstone with white marble band inlays; horse-shoe arches. |
-| **Tughlaq Dynasty** | **Tughlaqabad Fort** (Ghiyasuddin Tughlaq\'s tomb), Kotla Firuz Shah. | **Sloping battering walls (*Salami*)** for military defense; austere grey stone; introduction of octagonal tomb designs. |
-| **Lodi Dynasty** | Tombs at **Lodi Gardens** (Sikandar Lodi tomb, Bara Gumbad). | **Introduction of the DOUBLE DOME** (inner dome proportions interior height; outer dome gives monumental exterior majesty); high plinth platforms. |
-| **Sur Interregnum** | **Sher Shah\'s Tomb at Sasaram** (Bihar), Qila-i-Kuhna Mosque (Purana Qila). | Octagonal tomb in a man-made lake; transition from Sultanate austerity to Mughal magnificence. |
-| **Early Mughal (Akbar)** | **Humayun\'s Tomb** (Delhi, Mirak Mirza Ghiyas), **Fatehpur Sikri** (Buland Darwaza, Panch Mahal, Salim Chishti Tomb). | **Charbagh garden layout**; Persian double dome; red sandstone with white marble trim; indigenous Rajasthani *Chhatris* and *Jharokhas*. |
-| **High Mughal (Shah Jahan)** | **Taj Mahal** (Agra), **Red Fort & Jama Masjid** (Delhi), Peacock Throne. | Zenith of symmetry; shift from red sandstone to **pure Makrana white marble**; bulbous domes; **Pietra Dura (Parchin Kari)** floral hard-stone inlays. |`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "Trabeate vs Arcuate Matrix & Dynastic Architectural Progression",
+        "body": "### 1. Structural Comparison: Trabeate vs Arcuate Systems (NCERT Class VII Chapter 5)\n\n| Engineering Feature | Indigenous Trabeate / Corbelled Style | Indo-Islamic Arcuate Style |\n| :--- | :--- | :--- |\n| **Roof & Opening Support** | **Horizontal lintels and beams** laid across vertical columns. | **True Arch** constructed with wedge-shaped voussoirs and a central keystone. |\n| **Spanning Technology** | **Corbelling:** Overlapping horizontal stone courses stepping inward to an apex. | **True Dome and Barrel Vaults** spanning colossal pillar-free spaces. |\n| **Binding Material** | Dry stone masonry; iron clamps and dowels (no adhesive mortar). | **Limestone mortar (*Chuna*)** mixed with crushed brick (*Surkhi*), hardening into concrete-like strength. |\n| **Decorative Motifs** | Sculpted human deities, animals, floral motifs, bells, lotuses (*Padma*). | **Arabesque (intertwined vines), Calligraphy (Quranic verses), Geometric polygons**, and *Jali* screens (prohibiting idolatry). |\n\n---\n\n### 2. Dynastic Evolution of Indo-Islamic Architecture\n\n| Era & Dynasty | Landmark Representative Monuments | Key Architectural Innovations & Stylistic Hallmarks |\n| :--- | :--- | :--- |\n| **Mamluk / Slave Dynasty (1206–1290 CE)** | Quwwat-ul-Islam Mosque, **Qutb Minar** (Delhi), Adhai Din Ka Jhonpra (Ajmer), Tomb of Iltutmish. | Early improvised phase; reused materials from 27 demolished temples; **corbelled / false arches** built by Hindu masons imitating Islamic shapes; squinches introduced in Iltutmish's tomb. |\n| **Khalji Dynasty (1290–1320 CE)** | **Alai Darwaza (1311 CE)**, Jamat Khana Mosque. | **First authentic True Arch (*Mehrab*)** with a functional keystone in monumental Indian architecture; horse-shoe arch; red sandstone with white marble band inlays; true dome. |\n| **Tughlaq Dynasty (1320–1414 CE)** | Tughlaqabad Fort, Tomb of Ghiyasuddin Tughlaq, Khirki Mosque, Firoz Shah Kotla. | Austere, fortress-like military style; sloping **battering walls (*Salam*)** for defensive strength; rubble masonry plastered with grey lime plaster; four-centered Tudor arch. |\n| **Sayyid & Lodi Dynasties (1414–1526 CE)** | Moth Ki Masjid, Tomb of Sikandar Lodi, Bada Gumbad. | Introduction of the **Double Dome** (inner dome for ceiling proportion, outer dome for skyline elevation); octagonal and square tomb plans; enamelled blue tile decoration. |\n| **Sur Interregnum (1540–1545 CE)** | Qila-i-Kuhna Mosque (Delhi), Sher Shah's Tomb (Sasaram, Bihar). | Octagonal lake tomb at Sasaram; transitional bridge linking Sultanate robustness to Mughal finesse. |\n| **Mughal Empire: Akbar (1556–1605 CE)** | Humayun's Tomb (Delhi), **Fatehpur Sikri** (Buland Darwaza, Panch Mahal, Salim Chishti Tomb). | **Humayun's Tomb:** First grand **Charbagh garden tomb** and white marble double dome in India (designed by Mirak Mirza Ghiyas). **Fatehpur Sikri:** Red sandstone synthesis of Rajasthani/Gujarati trabeate brackets and Islamic arches. |\n| **Mughal Empire: Jahangir (1605–1627 CE)** | Tomb of Akbar (Sikandra), **Tomb of Itimad-ud-Daulah (Agra)**. | Transition from red sandstone to white marble; **Itimad-ud-Daulah (1628)** is the first Mughal monument built entirely of white marble and the first to extensively use **Pietra Dura (*Parchin Kari*)** inlay. |\n| **Mughal Empire: Shah Jahan (1628–1658 CE)** | **Taj Mahal**, Red Fort (Delhi), Jama Masjid (Delhi), Moti Masjid (Agra). | **The Golden Age of Mughal Architecture:** Absolute bilateral symmetry; bulbous onion-shaped domes; delicate cusped/foliated arches; Pietra Dura floral perfection; Makrana marble. |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Charbagh Layout, Double Dome Engineering & Pietra Dura',
-        body: `### 1. The Charbagh Concept (Paradise Garden)
-* Inspired by the Quranic description of paradise with four rivers of milk, honey, wine, and water.
-* A quadrilateral walled garden divided symmetrically into **four equal quadrants** by intersecting raised water channels and walkways, with the monumental mausoleum placed at the center (e.g. Humayun's Tomb) or on a riverfront terrace (e.g. Taj Mahal overlooking the Yamuna).
-
-### 2. The Double Dome Engineering Breakthrough
-* First used in India at **Humayun\'s Tomb (1570 CE)** (architect Mirak Mirza Ghiyas).
-* Solved a profound architectural dilemma:
-  * A single dome high enough to look majestic from the outside created a dark, cavernous, echoey void inside.
-  * A single dome low enough to create an intimate interior looked squat and unimpressive from the exterior.
-  * **The Solution:** Two concentric domes: an interior ceiling dome and an exterior shell dome with a hollow air-space between them.
-
-### 3. Pietra Dura / Parchin Kari Inlay
-* Meticulous lapidary technique perfected under Jahangir (Tomb of Itimad-ud-Daulah, Agra) and Shah Jahan (Taj Mahal):
-* Semi-precious stones (lapis lazuli, jasper, onyx, carnelian, jade, malachite) cut into intricate floral petals and inlaid into carved grooves of pure white marble so tightly that the joints are invisible to the naked eye.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Architectural Engineering: The Double Dome, Charbagh Geometry & Pietra Dura",
+        "body": "### 1. The Engineering of the Double Dome\n* **The Proportion Problem:** In a massive single-domed monument, building a dome tall enough to look grand from the outside results in an excessively high, cavernous interior ceiling that dwarfs visitors and ruins acoustic resonance.\n* **The Solution (Double Dome):**\n  * **Inner Shell:** Lower ceiling designed in harmony with interior room proportions.\n  * **Outer Shell:** Soaring exterior dome elevated on a high drum (*cylindrical neck*) to dominate the imperial skyline.\n  * **Hollow Void:** The empty space between the two shells dramatically reduces overall structural weight on the supporting walls.\n  * First introduced in India at **Sikandar Lodi's Tomb** and perfected on a monumental scale at **Humayun's Tomb** and the **Taj Mahal**.\n\n---\n\n### 2. The Charbagh Paradise Garden Layout (NCERT Class VII Chapter 5)\n* **Babur's Innovation:** In his autobiography (*Baburnama*), Babur described his frustration with the chaotic Indian landscape and designed formal, symmetrical gardens enclosed within rectangular walls and divided into four equal quadrants by artificial water channels.\n* **Symbolism of the Four Rivers:** Modeled on the Quranic description of Paradise (*Jannat*), where four celestial rivers flow with water, milk, honey, and wine.\n* **Evolution into Garden Tombs:** Under Akbar and Shah Jahan, the Charbagh became the setting for royal tombs:\n  * In **Humayun's Tomb**, the mausoleum is placed squarely at the **exact center** of the Charbagh.\n  * In the **Taj Mahal**, Shah Jahan adapted the layout into a **Riverfront Garden**: the mausoleum is positioned at the northern edge directly overlooking the sacred **Yamuna River**, with the Charbagh unfolding in front of it.\n\n---\n\n### 3. Pietra Dura (Parchin Kari) Inlay Technique\n* Originating in Renaissance Florence and introduced to the Mughal court via European diplomatic gifts and craftsmen.\n* Precision stone inlay technique where semi-precious gemstones—such as **lapis lazuli, jade, onyx, carnelian, jasper, and turquoise**—are cut into micro-slivers and embedded into pre-carved depressions in white Makrana marble, polished until the surface is glassy smooth.\n* Depicted naturalistic flowering plants (*Buteh*), acanthus leaves, and intertwined arabesques, creating an earthly vision of an eternal, blooming garden of Paradise.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, First True Arch vs First Double Dome',
-        body: `### High-Frequency Traps in Indo-Islamic Architecture
-
-1. **First True Arch Trap:**
-   * *Trap:* Believing the first true arch was at Qutb Minar or Humayun's Tomb.
-   * *Truth:* The **first true arch** appeared at the **Tomb of Balban** (crude prototype) and was perfected at **Alai Darwaza (1311 CE)** by Alauddin Khalji!
-
-2. **First Double Dome Trap:**
-   * *Trap:* Thinking the double dome was invented for the Taj Mahal.
-   * *Truth:* Introduced under the **Lodi Dynasty (Sikandar Lodi tomb)** and fully realized in Mughal architecture at **Humayun's Tomb**!
-
-3. **Baby Taj / First Pietra Dura:**
-   * *Trap:* Assuming Pietra Dura was first used at the Taj Mahal.
-   * *Truth:* Extensively perfected at the **Tomb of Itimad-ud-Daulah in Agra** (built by Empress Nur Jahan for her father, 1622–1628 CE), often called the "Baby Taj".`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, Landmark Builders & Architectural Terminology",
+        "body": "### 1. High-Frequency Traps & Misconceptions\n\n* **Trap 1: First True Arch vs Early Arches.**\n  * *Trap Question:* \"The Quwwat-ul-Islam screen contains the first true arch built in India.\"\n  * *Correct Fact:* **Incorrect.** Early Sultanate screens (Qutb complex, Iltutmish tomb) feature **corbelled arches** (false arches built by laying horizontal stones inward). The **first authentic True Arch** with radiating voussoirs and a keystone is the **Alai Darwaza (1311 CE)** built by Alauddin Khalji.\n* **Trap 2: First Extensive Pietra Dura Monument.**\n  * *Trap Question:* \"Pietra Dura (Parchin Kari) stone inlay was invented and first used at the Taj Mahal.\"\n  * *Correct Fact:* **Incorrect.** It was first extensively employed in the **Tomb of Itimad-ud-Daulah** in Agra (commissioned by Empress Nur Jahan, completed 1628 CE), often called the \"Baby Taj\" or draft for the Taj Mahal.\n* **Trap 3: First Charbagh Garden Tomb.**\n  * *Trap Question:* \"The Taj Mahal was the first Mughal Charbagh garden tomb.\"\n  * *Correct Fact:* **Incorrect.** **Humayun's Tomb (Delhi)**, built in the 1560s under the supervision of his senior widow Haji Begum (architect: Mirak Mirza Ghiyas), was the first garden tomb in the subcontinent.\n* **Trap 4: Architectural Style of Fatehpur Sikri.**\n  * *Examiner Trap:* \"Fatehpur Sikri is built purely in the Persian Islamic arcuate style.\"\n  * *Correct Fact:* **False.** Akbar's monuments at Fatehpur Sikri (such as the Panch Mahal and Jodha Bai's Palace) extensively employ **indigenous Gujarati and Rajasthani trabeate architecture**, featuring elaborately carved stone pillars, cantilevered brackets, and chhatris with almost no arches!\n\n---\n\n### 2. High-Yield Architectural Vocabulary (UPSC / State PSC)\n* **Pendentive & Squinch:** Structural transitions used to support a round dome over a square room.\n* **Chhatri:** Domed elevated kiosk supported by pillars, borrowed from Rajasthani and Gujarati palace architecture.\n* **Jharokha:** Projecting stone balcony supported by ornate brackets used for imperial appearances (*Jharokha Darshan*).\n* **Pishtaq:** Soaring monumental gateway portal framing an arched niche (*Iwan*), characteristic of Mughal facade design.",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "The Monumental Urban Landscape: The Seven Cities of Delhi and the Yamuna River Axis",
+        "body": "### The Spatial Evolution of the Seven Historic Cities of Delhi\n\n>               [NORTH / YAMUNA AXIS]\n>                         |\n>        [7. SHAHJAHANABAD] (Old Delhi, Shah Jahan 1639–48)\n>        * Red Fort (Lal Qila) & Jama Masjid\n>                         |\n>        [5. FIROZABAD] (Firoz Shah Kotla, 1354)\n>        * Ashokan Pillar on pyramid pavilion\n>                         |\n>        [6. SHERGARH / DINPANAH] (Purana Qila, Humayun/Sher Shah)\n>        * Qila-i-Kuhna Mosque & Sher Mandal\n>                         |\n>        [HUMAYUN'S TOMB & NIZAMUDDIN] (Nizamuddin shrine cluster)\n>                         |\n>        [4. JAHANPANAH] (Muhammad bin Tughlaq, 1326)\n>        * Connecting Siri and Lal Kot\n>                         |\n>        [2. SIRI] (Alauddin Khalji, 1303)\n>        * Hauz Khas water reservoir\n>                         |\n>        [3. TUGHLAQABAD] (Ghiyasuddin Tughlaq, 1321)\n>        * Battering stone fortress\n>                         |\n>        [1. QILA RAI PITHORA / LAL KOT] (Mehrauli, 1192–1206)\n>        * Qutb Minar, Quwwat-ul-Islam, Alai Darwaza\n>                         |\n>               [SOUTH / MEHRAULI RIDGE]\n\n### Strategic Spatial Realities (NCERT Class VII Chapter 5)\n1. **The Southward-to-Northward Migration along the Yamuna:** Medieval Delhi migrated steadily northward from the dry, rocky quartzite ridges of Mehrauli toward the active floodplain of the Yamuna River to secure perennial freshwater and riverine transport.\n2. **The Delhi-Agra-Fatehpur Sikri Imperial Triangle:** The political center of gravity rotated across three monumental hubs: Delhi (strategic northern fortress controlling the Punjab/Doab gateway), Agra (commercial riverine port on the Yamuna connecting to Gujarat and Bengal), and Fatehpur Sikri (Akbar's ceremonial sandstone capital perched on a rocky Aravalli ridge).",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-08-1',
-        statement: 'Indo-Islamic architecture transitioned from indigenous Trabeate (post-and-beam/corbelled) construction to the Arcuate system characterized by true arches, voussoirs, keystone, true domes, and lime mortar.',
-        claimType: 'ARCHITECTURAL_EVOLUTION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-34',
-        excerpt: 'Rulers and Buildings: Trabeate vs Arcuate architectural engineering; introduction of true arches and domes.',
+        "id": "CLM-MED-08-1",
+        "statement": "Indo-Islamic architecture transitioned from indigenous Trabeate (post-and-beam / corbelled) construction to the Arcuate system, characterized by true arches constructed with wedge-shaped voussoirs and keystones, hemispherical domes spanning column-free spaces via squinches, and adhesive limestone-surkhi mortar.",
+        "claimType": "ARCHITECTURAL_EVOLUTION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 5: Rulers and Buildings, Section: Engineering Skills and Construction, pp. 60-64",
+        "excerpt": "Between the eighth and the eighteenth centuries kings and their officers built two kinds of structures... In trabeate architecture roofs, doors and windows were made by placing a horizontal beam across two vertical columns... From the twelfth century two technological and stylistic developments are noticeable: (1) The weight of the superstructure above the doors and windows was sometimes carried by arches. This architectural form was called \"arcuate\"... (2) Limestone cement was increasingly used in construction."
       },
       {
-        id: 'CLM-MED-08-2',
-        statement: 'The first true arch in monumental Sultanate architecture was built at Alauddin Khalji\'s Alai Darwaza (1311 CE), while the double dome was introduced by the Lodis and perfected at Humayun\'s Tomb.',
-        claimType: 'MONUMENTAL_MILESTONE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-34',
-        excerpt: 'Delhi Sultanate monuments: Alai Darwaza true arch; Lodi double dome; Humayun Tomb Charbagh.',
+        "id": "CLM-MED-08-2",
+        "statement": "The first authentic True Arch in monumental Delhi Sultanate architecture was built at Alauddin Khalji's Alai Darwaza in 1311 CE, while the Double Dome engineering technique was introduced by the Lodis (Tomb of Sikandar Lodi) and perfected at Humayun's Tomb and the Taj Mahal.",
+        "claimType": "MONUMENTAL_MILESTONE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 5: Rulers and Buildings, Section: Building Temples, Mosques and Tanks & Gardens, Tombs and Forts, pp. 64-70",
+        "excerpt": "The Alai Darwaza of the early fourteenth century... It was during Akbar's reign that several important architectural innovations were made... The central towering dome and the tall gateway (pishtaq) became important aspects of Mughal architecture, first visible in Humayun's tomb. The tomb was placed in the centre of a huge formal charbagh."
       },
       {
-        id: 'CLM-MED-08-3',
-        statement: 'Mughal architectural zenith was achieved under Shah Jahan through symmetrical Charbagh layouts, Makrana white marble, bulbous domes, and Pietra Dura (Parchin Kari) floral inlays.',
-        claimType: 'ARTISTIC_PEAK',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-34',
-        excerpt: 'Mughal Architecture: Taj Mahal, Charbagh garden symmetry, Pietra Dura inlay technique.',
+        "id": "CLM-MED-08-3",
+        "statement": "The Mughal architectural peak was reached under Shah Jahan through bilateral symmetry, white Makrana marble, bulbous domes, and delicate Pietra Dura (Parchin Kari) stone inlays, an inlay art form first extensively utilized in the Tomb of Itimad-ud-Daulah in Agra.",
+        "claimType": "ARTISTIC_PEAK",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 5: Rulers and Buildings, Section: Gardens, Tombs and Forts, pp. 70-73 & Class XII Theme 9: Kings and Chronicles, pp. 228-231",
+        "excerpt": "Under Shah Jahan, the different elements of Mughal architecture were fused together in a grand harmonious synthesis... The ceremonial halls of public and private audience (diwan-i khas o am) were carefully planned... Behind the emperor's throne were a series of pietra dura inlays that depicted the legendary Greek god Orpheus playing the lute... In the Taj Mahal the white marble mausoleum was placed on a terrace by the edge of the water."
       },
+      {
+        "id": "CLM-MED-08-4",
+        "statement": "The Persian Charbagh garden tradition, introduced by Babur and structured into four symmetrical quadrants by running water channels, evolved under the Mughals from central tomb settings (Humayun's Tomb) into the riverfront terrace garden variant exemplified by the Taj Mahal overlooking the Yamuna River.",
+        "claimType": "ARCHITECTURAL_TYPOLOGY",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 5: Rulers and Buildings, Section: Gardens, Tombs and Forts, pp. 67-72",
+        "excerpt": "In his autobiography, Babur described his interest in planning and laying out formal gardens... These gardens were called chahar bagh, four gardens, because of their symmetrical division into quarters... Beginning with Akbar, some of the most beautiful chahar baghs were constructed... Shah Jahan adapted the river-front garden in the layout of the Taj Mahal."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Indian Architecture / Indo-Islamic Monuments',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_ARCHITECTURAL_ANALYSIS',
-        notes: 'Trabeate vs Arcuate, Pietra Dura, and Charbagh layouts are among UPSC\'s top Art & Culture themes.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Indian Architecture / Indo-Islamic Monuments, Structural Engineering & Aesthetics",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_ARCHITECTURAL_ANALYSIS",
+        "notes": "Trabeate vs Arcuate engineering differences, Pietra Dura origins, Charbagh riverfront adaptations, and Double Dome mechanics are recurring UPSC CSE themes."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Medieval Indian Architecture & Fort Architecture',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark and 10-mark questions on Mughal architecture and Indo-Islamic features in Rajasthan forts.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Medieval Indian Architecture & Indo-Islamic Influences in Rajasthan",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Frequent 5-mark and 10-mark questions on Mughal architecture, Fatehpur Sikri synthesis, and Rajput fort elements (chhatris, jharokhas, jalis)."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian Monuments',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on builders: Alai Darwaza (Alauddin), Buland Darwaza (Akbar), Taj Mahal (Shah Jahan).',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian Monuments & Royal Builders",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on builders: Alai Darwaza (Alauddin), Buland Darwaza (Akbar), Taj Mahal (Shah Jahan), Itimad-ud-Daulah (Nur Jahan)."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Architecture',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'STRUCTURAL_TERMS',
-        notes: 'Tested on Pietra Dura, Charbagh, and Double Dome definitions.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Architecture & Decorative Arts",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "STRUCTURAL_TERMS",
+        "notes": "Tested on technical terminology: Pietra Dura, Parchin Kari, Charbagh, Pishtaq, Squinch, Pendentive, and Double Dome."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian Heritage',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'UNESCO World Heritage Sites (Qutb Minar, Humayun Tomb, Red Fort, Taj Mahal).',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian Heritage & UNESCO Monuments",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "UNESCO World Heritage Sites in India (Qutb Minar complex, Humayun's Tomb, Fatehpur Sikri, Red Fort, Taj Mahal)."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — Culture & Monuments',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on architectural landmarks and locations.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Culture, Heritage & Landmarks",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Static awareness questions on medieval monuments, cities, and architectural features."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on heritage monuments.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones & Cultural Evolution",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static questions on heritage monuments and urban centers."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Cultural landmarks of India.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Public Works & Urban Monumentalism",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "State investments in public infrastructure, hydraulic reservoirs (Hauz), and urban planning in medieval India."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Architecture: Trabeate = Post-and-lintel (flat beams, pillars, corbelled). Arcuate = True Arch (keystone, voussoirs, lime mortar) + True Dome. Alai Darwaza (1311, Alauddin) = First true arch. Lodi = Double dome. Humayun Tomb = 1st Mughal Charbagh garden tomb & double dome. Itimad-ud-Daulah = 1st extensive Pietra Dura. Taj Mahal = White marble & Pietra Dura peak.',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Architecture: Trabeate = Post-and-lintel (flat beams, columns, corbelled). Arcuate = True Arch (keystone, voussoirs, lime mortar) + True Dome. Alai Darwaza (1311, Alauddin) = First true arch. Lodi = Double dome. Humayun's Tomb = 1st Mughal Charbagh garden tomb & monumental double dome. Itimad-ud-Daulah = 1st extensive Pietra Dura. Taj Mahal = Riverfront garden, white marble symmetry & Pietra Dura peak.",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Indo-Islamic Architecture Blueprint: 1) Structural Revolution: Replaced trabeate beam-and-post architecture with arcuate true arches, vaults, and domes bonded with lime mortar. 2) Sultanate Milestones: Qutb Minar (reused material, Mamluk); Alai Darwaza (1st true arch, Khalji); Tughlaqabad (sloping battering walls); Lodi Tombs (1st double domes). 3) Mughal Climax: Humayun\'s Tomb introduced the Persian Charbagh layout; Akbar blended Gujarati/Rajasthani chhatris and red sandstone at Fatehpur Sikri; Shah Jahan perfected white marble symmetry and Pietra Dura at the Taj Mahal.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Indo-Islamic Architecture Blueprint: 1) Structural Revolution: Replaced trabeate beam-and-post architecture with arcuate true arches, squinches, and domes bonded with lime mortar. 2) Sultanate Milestones: Qutb Minar (reused materials, Mamluk); Alai Darwaza (1st true arch, Khalji); Tughlaqabad (sloping battering walls); Lodi Tombs (1st double domes). 3) Mughal Zenith: Humayun's Tomb introduced the Persian Charbagh layout and grand double dome; Akbar blended Gujarati/Rajasthani chhatris and red sandstone at Fatehpur Sikri; Shah Jahan perfected white marble symmetry, Pietra Dura, and riverfront garden layout at the Taj Mahal.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Indo-Islamic Spatial Architecture: 1) Structural Engineering: True arch load dispersion -> squinches/pendentives converting square rooms to round dome drums. 2) Monumental Optics: Double dome separating interior intimacy from exterior grandeur. 3) Cosmological Geometry: Charbagh 4-river paradise archetype + Pietra Dura floral paradise murals.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Indo-Islamic Spatial Architecture: 1) Structural Engineering: True arch load dispersion -> squinches and pendentives converting square chambers into circular dome drums. 2) Monumental Optics: The Double Dome resolved the conflict between interior acoustic proportion and exterior imperial skyline dominance. 3) Cosmological Geometry: Charbagh four-fold paradise garden archetype + Pietra Dura floral paradise murals + riverfront terrace placement overlooking the Yamuna.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'ARCHITECTURE_MCQ',
-        stem: 'Which monument is universally regarded as the FIRST authentic example of the "True Arch" (*Mehrab*) constructed with a keystone in monumental Delhi Sultanate architecture?',
-        options: ['Quwwat-ul-Islam Mosque screen', 'Qutb Minar', 'Alai Darwaza', 'Tomb of Iltutmish'],
-        correctAnswer: 'Alai Darwaza',
-        explanation: 'Built by Alauddin Khalji in 1311 CE as the southern entrance gateway to the Qutb complex, the Alai Darwaza is the earliest surviving monumental building in India featuring a scientifically engineered True Arch with voussoirs and a central keystone, alongside a true dome.',
-        trapExplanation: 'Earlier arches in Quwwat-ul-Islam or Iltutmish\'s tomb were corbelled (false) arches built by Indian masons imitating arch shapes.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'First True Arch in Indian monumental architecture (Alai Darwaza).',
+        "type": "ARCHITECTURE_MCQ",
+        "stem": "Which monument is universally recognized as the FIRST authentic example of the \"True Arch\" (*Mehrab*) constructed with radiating voussoirs and a functional keystone in monumental Delhi Sultanate architecture according to NCERT Class VII Chapter 5?",
+        "options": [
+          "Quwwat-ul-Islam Mosque screen",
+          "Qutb Minar",
+          "Alai Darwaza",
+          "Tomb of Iltutmish"
+        ],
+        "correctAnswer": "Alai Darwaza",
+        "explanation": "Built by Alauddin Khalji in 1311 CE as the southern entrance gateway to the Qutb mosque complex, the Alai Darwaza is the earliest surviving monumental building in India featuring a scientifically engineered True Arch with voussoirs and a central keystone, alongside a true dome.",
+        "trapExplanation": "Earlier arches in the Quwwat-ul-Islam screen or Iltutmish's tomb were corbelled (false) arches built by Indian masons imitating Islamic arch shapes.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2020,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "First True Arch in Indian monumental architecture (Alai Darwaza)."
       },
       {
-        type: 'ARCHITECTURE_MCQ',
-        stem: 'The architectural technique known as "Pietra Dura" (Parchin Kari)—inlaying coloured semi-precious stones into white marble to form floral arabesques—was first extensively employed in which Mughal monument?',
-        options: ['Humayun\'s Tomb (Delhi)', 'Buland Darwaza (Fatehpur Sikri)', 'Tomb of Itimad-ud-Daulah (Agra)', 'Taj Mahal (Agra)'],
-        correctAnswer: 'Tomb of Itimad-ud-Daulah (Agra)',
-        explanation: 'The Tomb of Itimad-ud-Daulah in Agra (commissioned by Empress Nur Jahan for her father Mirza Ghiyas Beg between 1622 and 1628 CE) was the first Mughal structure built entirely of white marble and the first to extensively employ the delicate Pietra Dura inlay technique, serving as the prototype for the Taj Mahal.',
-        trapExplanation: 'Most candidates immediately guess the Taj Mahal, unaware that the technique was pioneered earlier at Itimad-ud-Daulah (the "Baby Taj").',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2022,
-        pyqPaper: 'SSC CGL Tier 1',
-        pyqStage: 'Tier 1',
-        examinerTrapPattern: 'First extensive use of Pietra Dura (Itimad-ud-Daulah vs Taj Mahal).',
-      },
-    ],
+        "type": "ARCHITECTURE_MCQ",
+        "stem": "The delicate architectural technique known as \"Pietra Dura\" (Parchin Kari)—inlaying coloured semi-precious stones into white marble to create naturalistic floral arabesques—was first extensively employed in which Mughal monument?",
+        "options": [
+          "Humayun's Tomb (Delhi)",
+          "Buland Darwaza (Fatehpur Sikri)",
+          "Tomb of Itimad-ud-Daulah (Agra)",
+          "Taj Mahal (Agra)"
+        ],
+        "correctAnswer": "Tomb of Itimad-ud-Daulah (Agra)",
+        "explanation": "The Tomb of Itimad-ud-Daulah in Agra (commissioned by Empress Nur Jahan for her father Mirza Ghiyas Beg between 1622 and 1628 CE) was the first Mughal structure built entirely of white marble and the first to extensively employ the delicate Pietra Dura inlay technique, serving as the direct prototype for the Taj Mahal.",
+        "trapExplanation": "Most candidates reflexively guess the Taj Mahal, unaware that the technique was pioneered earlier at Itimad-ud-Daulah (the \"Baby Taj\").",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2022,
+        "pyqPaper": "SSC CGL Tier 1",
+        "pyqStage": "Tier 1",
+        "examinerTrapPattern": "First extensive use of Pietra Dura (Itimad-ud-Daulah vs Taj Mahal)."
+      }
+    ]
   },
 
   // =========================================================================
