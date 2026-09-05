@@ -281,8 +281,8 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
   {
     id: 'CON-WLD-02',
     slug: 'nomadic-empires-genghis-khan-yasa-and-yam-courier-system',
-    title: 'Nomadic Empires: Genghis Khan, The Mongol Military Blitzkrieg, The Yasa Legal Code & The Yam Courier Network',
-    shortDefinition: 'Steppe nomad state-building: Temujin\'s rise as Genghis Khan (1206), the decimal military organization (Arban to Tumen), equestrian steppe archery, the psychological warfare apparatus, the Yam (postal-courier horse relay network), the Yasa (unwritten imperial legal code), Pax Mongolica reviving the Silk Road, and the division into four Khanates.',
+    title: 'Nomadic Empires: Genghis Khan, Steppe Decimal Architecture, The Yam Courier Network & The Yasa Legal Code',
+    shortDefinition: 'Exhaustive NCERT Class XI Theme 5 synthesis: Steppe pastoralism and tribal ecology of Mongolia (Onon and Kherlen rivers), Temüjin\'s early hardships and rise, the Kurultai of 1206 proclaiming him Genghis Khan ("Oceanic Ruler"), reorganization of nomadic society through decimal military units (Arban 10 to Tumen 10,000) breaking traditional blood-clan ties, the elite imperial bodyguard (Keshig), siege technology absorption from China and the Islamic world (naphtha bombs and trebuchets), the Yam (Örtöö) postal communications telemetry funded by the Qubcur levy, the Paiza identity tablets, the Qanats irrigation destruction in Persia, the Yasa legal code compilation, the territorial partition into four Ulus, and the Pax Mongolica Silk Road integration.',
     difficulty: 'ADVANCED',
     order: 2,
     topicSlug: 'nomadic-empires-and-mongols',
@@ -290,129 +290,93 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
       {
         type: 'INTUITION',
         title: 'Lords of the Steppe: How Horse Archers Conquered the Known World',
-        body: `In the harsh, freezing grasslands of the Mongolian steppes, nomadic pastoralist clans had spent centuries fighting blood feuds over pasture land and horses. Sedentary empires in China and Persia looked down upon them as disorganized, primitive barbarians.
-
-Yet within a single generation, an outcast named **Temujin** unified these fractured tribes, was proclaimed **Genghis Khan ("Universal Ruler") in 1206**, and unleashed the most terrifyingly effective military conqueror machine the world had ever seen.
-
-The Mongol blitzkrieg shattered the Jin Dynasty of China, the Khwarizmian Empire of Persia, the Kievan Rus of Russia, and marched to the gates of Vienna in Central Europe!
-
-How did a nomadic population of barely one million conquer empires comprising over 100 million subjects?
-* **Decimal Cavalry Organization:** Breaking ancient clan loyalties by reorganizing soldiers into strict decimal units of 10, 100, 1,000, and 10,000 (**Tumen**).
-* **Steppe Equestrian Mastery:** Every warrior rode with 3 to 4 spare horses, firing lethal compound composite bows with pinpoint accuracy backwards at a full gallop (**Parthian shot**).
-* **The Yam Information Telemetry:** A world-spanning horse-courier relay system that transmitted orders across 6,000 km in days, creating the trans-Eurasian trade peace known as the **Pax Mongolica**!`,
+        body: 'In the vast, undulating grasslands and arid plains of central Asia, nomadic pastoralist clans had spent centuries engaged in bitter tribal warfare over livestock, grazing pastures, and waterholes. The sedentary imperial dynasties of China and Persia built massive walls to keep them out, looking down upon them as primitive, disorganized barbarians incapable of imperial statehood.\n\nYet in 1206, an outcast named **Temüjin**—who had survived the assassination of his father, childhood captivity, and the kidnapping of his wife Börte—achieved the impossible: he united the warring Mongol and Turkic tribes (Tatars, Kereyits, Merkits, Naimans) and was proclaimed **Genghis Khan ("Universal or Oceanic Ruler")** by an assembly of chieftains (**Kurultai**).\n\nWithin decades, the Mongol cavalry smashed through northern China (the Jin Dynasty), annihilated the Khwarizmian Empire of Central Asia, sacked Baghdad (1258), crushed the Russian principalities of Kievan Rus, and galloped into Poland and Hungary to the gates of Vienna!\n\nHow did a nomadic population of barely one million people subjugate continental empires encompassing over 100 million sedentary subjects?\n1. Radical Social Engineering: Genghis Khan deliberately destroyed ancestral blood-clan loyalties, reorganizing every nomad into strict decimal military regiments of 10, 100, 1,000, and 10,000 (**Tumen**).\n2. Steppe Equestrian Archery: Every warrior rode with stringed composite recurve bows and three to four spare horses, covering 100 miles a day and shooting arrows backwards at a gallop with lethal accuracy.\n3. The World\'s First Trans-Continental Courier Relay: The **Yam (Örtöö)** post-horse network transmitted imperial decrees and intelligence across 6,000 kilometers in days, establishing the **Pax Mongolica** that allowed merchants like Marco Polo to traverse the Silk Road under imperial passport protection (*Paiza*)!',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'Mongol Military Engineering, The Yasa & Pax Mongolica',
-        body: `### 1. Genghis Khan\'s Military Innovations
-* **Decimal Military Structure:** Soldiers divided into:
-  $$\\mathbf{10} \\text{ (Arban)} \\implies \\mathbf{100} \\text{ (Jaghun)} \\implies \\mathbf{1,000} \\text{ (Mingghan)} \\implies \\mathbf{10,000} \\text{ (Tumen)}$$
-* **The Bodyguard (*Keshig*):** Elite 10,000-strong imperial bodyguard corps chosen from sons of commanders, serving as both elite military vanguard and civil administrative school.
-* **Psychological Warfare & Siegecraft:** Employed Chinese and Muslim engineers to build catapults, naptha fire-bombs, and trebuchets; offered peaceful surrender or total annihilation (leveling rebellious cities like Nishapur and Bukhara to terrorize future targets).
-
----
-
-### 2. The Yam (Örtöö) Postal Courier System
-* A network of post-stations established across Eurasia at intervals of 25–30 miles.
-* Fresh horses, food, and armed escorts maintained by a mandatory levy on nomadic herdsmen (**Qubcur** tax).
-* Royal messengers wearing official brass/silver passports (**Paiza**) could gallop day and night, covering up to 200 miles in 24 hours—the fastest communications telemetry before the electric telegraph!
-
----
-
-### 3. The Yasa (Code of Law) & Religious Tolerance
-* **The Yasa:** The comprehensive body of imperial decrees, customary laws, and hunting regulations compiled under Genghis Khan. Emphasized absolute obedience to the Khan, strict punishment for horse theft and adultery, and cleanliness of running water.
-* **Radical Religious Tolerance:** Mongols were Shamanists (worshipping the Eternal Blue Sky, *Tengri*), but Genghis Khan granted complete tax exemption and patronage to Buddhist monks, Christian Nestorians, Muslim clerics, and Daoist sages equally.
-
----
-
-### 4. Pax Mongolica & The 4 Khanates
-Following Genghis Khan's death in 1227, the empire was divided among his four sons into **Ulus (realms)**:
-1. **The Great Khanate (Yuan Dynasty, China):** Founded by Kublai Khan; capital at Khanbaliq (Beijing).
-2. **The Golden Horde (Kipchak Khanate):** Russia and steppes (Batu Khan).
-3. **The Ilkhanate (Persia & Middle East):** Sacked Baghdad (1258, Hulagu Khan).
-4. **The Chagatai Khanate:** Central Asia.
-* **Pax Mongolica:** Under united Mongol passport control (*Paiza*), Italian merchants like **Marco Polo** could travel safely from Venice to Beijing without harassment!`,
+        title: 'Social Transformation, Decimal Reorganization & The Kurultai Assembly',
+        body: '### 1. Steppe Ecology & Nomadic Society (NCERT Class XI)\n- **Geographical Setting:** The steppes of modern Mongolia, bounded by the Altai Mountains in the west, the Gobi desert in the south, and drained by the **Onon** and **Kherlen** rivers.\n- **Economic Base:** Animal herding (horses, sheep, cattle, camels); no agriculture was practiced in the steppes. Nomads depended on trade with sedentary agricultural neighbors (especially China) for iron utensils, grain, and agricultural produce in exchange for horses and furs.\n- **The Kurultai of 1206:** An assembly of Mongol chieftains met at the source of the Onon River, officially recognizing Temüjin as **Genghis Khan** and validating his new imperial confederation under the protection of the Eternal Blue Sky (***Tengri***).\n\n---\n\n### 2. Radical Decimal Military Reorganization\n- **Eradication of Ancient Clan Loyalties:** In traditional nomadic warfare, warriors fought under their hereditary clan elders (e.g., Jurchen, Tatar). Genghis Khan systematically broke these tribal units, scattering clansmen across new decimal regiments:\n  $$\\mathbf{10} \\text{ (Arban)} \\implies \\mathbf{100} \\text{ (Jaghun)} \\implies \\mathbf{1,000} \\text{ (Mingghan)} \\implies \\mathbf{10,000} \\text{ (Tumen)}$$\n- *Iron Discipline:* No warrior was allowed to leave his assigned decimal unit without authorization. If a soldier fled from battle, he and his entire 10-man Arban were executed!\n- **The Imperial Bodyguard (*Keshig*):** An elite corps of **10,000 bodyguard warriors** formed directly under the Khan\'s personal command. Recruited from the sons of decimal commanders, the Keshig served as both an elite combat vanguard and a training academy for imperial civil and military administrators.\n- **The "Nökör" (Companions):** Warriors who allied with Genghis Khan out of personal loyalty and brotherhood rather than biological kinship, shattering aristocratic privilege.',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'The Composite Bow Mechanics & Decimal Clan Dissolution',
-        body: `### 1. The Nomadic Composite Bow
-* Constructed of horn, wood, and sinew glued under tension; possessed a draw weight of over 100-160 pounds and an effective range of 300 meters, out-ranging European longbows.
-
-### 2. Eradication of Tribal Identity
-* Before Genghis Khan, nomads fought only for their specific clan (Tatars, Merkits, Naimans).
-* Genghis Khan deliberately disbanded entire tribes, scattering clansmen across different *Mingghans* (units of 1,000). If a warrior attempted to flee his designated unit, he and his entire 10-man unit were executed, forging iron discipline.`,
+        title: 'The Yam Courier Network, The Yasa Legal Code & Trans-Eurasian Commerce',
+        body: '### 1. The Yam (Örtöö) Postal Courier Network\n- Genghis Khan recognized that ruling a continent required unprecedented communications speed: he established a vast network of horse-courier stations across Eurasia, known as the **Yam (or Örtöö)**, spaced roughly **25 to 30 miles** apart.\n- **The Qubcur Tax:** Nomadic pastoralists paid a regular tax called the **Qubcur**—providing one-tenth of their herds (horses and sheep) to maintain fresh horses, food supplies, and armed escorts at every post station.\n- **The Paiza Passports:** Official imperial messengers and favored foreign merchants wore tablet-passports made of bronze, silver, or gold called **Paiza** (or *Gerege*). The inscription warned:\n  > *"By the strength of the Eternal Sky, whosoever does not respect the order of the Khan shall be executed and die."*\n- Couriers carrying the Paiza galloped day and night, changing horses at every station, covering up to **200 miles in 24 hours**!\n\n---\n\n### 2. The Yasa Legal Code\n- In 1206, Genghis Khan codified customary steppe law, royal decrees, and imperial hunting regulations into the **Yasa** (or *Yasaq*).\n- **Core Principles:**\n  * Absolute obedience to the Great Khan.\n  * Severe capital punishment for horse theft, adultery, lying, and intentional poisoning of water sources.\n  * Preservation of communal hunting rules (the *Nerge* imperial hunt as a military drill).\n  * **Universal Religious Neutrality:** The Mongols worshipped *Tengri*, but the Yasa granted complete tax exemption to all religious institutions (Buddhist monasteries, Christian Nestorian churches, Islamic mosques, and Daoist temples equally).\n\n---\n\n### 3. The Pax Mongolica & Division into Four Ulus\n- Following Genghis Khan\'s death in 1227, the empire was partitioned among his four sons into **Ulus (territorial realms)**:\n  1. **Jochi (Elder Son):** Received the western Russian steppes (evolved into the **Golden Horde** / Kipchak Khanate under Batu Khan).\n  2. **Chagatai:** Central Asian steppes and Transoxiana (the **Chagatai Khanate**).\n  3. **Ogodei (Successor Great Khan):** The Mongolian homeland and imperial capital at **Karakorum**.\n  4. **Tolui (Youngest Son):** Ancestral grazing lands; Tolui\'s sons **Kublai Khan** founded the **Yuan Dynasty** in China (capital at Khanbaliq / Beijing), and **Hulagu Khan** founded the **Ilkhanate** in Persia, sacking Baghdad in 1258.\n- **Pax Mongolica (13th–14th Centuries):** Created unified security across the entire Silk Road, dramatically lowering transit tariffs and enabling Italian merchants (like **Marco Polo**) to travel from Venice to China without danger.',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Yam vs Yasa & Paiza Function',
-        body: `### High-Frequency Traps in Mongol History
-
-1. **Yam vs Yasa Confusion:**
-   * **Yam (Örtöö):** The postal-courier horse relay communications network.
-   * **Yasa:** The imperial legal code and decree system.
-   * *Trap:* Swapping the postal system with the legal code.
-
-2. **Paiza Definition:**
-   * A silver, gold, or bronze tablet/passport worn on the belt granting official Mongol messengers safe conduct and food at Yam stations.
-
-3. **Mongol Incursions into India:**
-   * Genghis Khan reached the Indus in **1221 CE** chasing Jalaluddin Mangbarani, but Sultan **Iltutmish** politely refused asylum, saving the Delhi Sultanate from destruction!`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Four Successor Khanates (Ulus)',
+        body: 'Spatial Coordinates of the Mongol Empire across Eurasia:\n\n   +-------------------------------------------------------------------------+\n   | GOLDEN HORDE (Jochi / Batu Khan):                                       |\n   |   - [Sarai on Volga River] ===> Subjugated Russian Kievan Rus           |\n   |                                                                         |\n   | CHAGATAI KHANATE:                                                       |\n   |   - [Transoxiana / Bukhara / Samarkand] (Central Asian Steppe)          |\n   |                                                                         |\n   | ILKHANATE OF PERSIA (Hulagu Khan):                                      |\n   |   - [Baghdad]: Sacked 1258, destroyed Abbasid Caliphate                 |\n   |   - [Tabriz]: Capital; destroyed ancient underground Qanats irrigation |\n   |                                                                         |\n   | GREAT KHANATE / YUAN DYNASTY (Ogodei -> Kublai Khan):                   |\n   |   - [Karakorum] (Earliest Imperial Capital)                             |\n   |   - [Khanbaliq / Beijing] (Yuan Capital; visited by Marco Polo)         |\n   |                                                                         |\n   | TRANS-EURASIAN POSTAL CORRIDORS:                                        |\n   |   [Yam Post-Stations] Spaced every 25-30 miles under Paiza passport     |\n   +-------------------------------------------------------------------------+\n          |\n   [Indus River Perimeter (1221 CE)]: Genghis Khan reached Indus chasing Jalaluddin;\n   Sultan Iltutmish refused asylum, shielding the Delhi Sultanate from destruction.',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Key Mongol Terminology & Standard Answer Frameworks',
+        body: '### 1. High-Frequency Traps in Mongol History\n- **Yam vs. Yasa Trap:**\n  * *Yam (Örtöö):* The postal-courier horse relay network.\n  * *Yasa:* The legal code and imperial decree system.\n- **Qubcur vs. Paiza:**\n  * *Qubcur:* The regular levy on herdsmen (1/10th animals) to maintain the Yam post stations.\n  * *Paiza (Gerege):* The metallic tablet-passport granting messengers safe conduct, horses, and food.\n- **Destruction of Qanats:** In Persia, Mongol siege warfare destroyed the subterranean underground canal network known as **Qanats**, turning previously fertile agricultural oases into desert wastelands for centuries.\n- **Mongol Siegecraft Adaptation:** Mongols did not fight solely on horseback; they co-opted Chinese and Muslim siege engineers to construct catapults, battering rams, and **naphtha fire-bombs** to take fortified walled cities.\n- **Genghis Khan and India:** In **1221 CE**, Genghis Khan reached the banks of the Indus River pursuing the Khwarizm prince **Jalaluddin Mangbarani**; Delhi Sultan **Shamsuddin Iltutmish** diplomatically refused Mangbarani asylum, sparing northern India from devastation.\n\n---\n\n### 2. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Analyze the factors responsible for the military and administrative success of Genghis Khan\'s Mongol Empire.**\n- **Structure:**\n  * *Introduction (15 words):* Proclaimed Genghis Khan at the 1206 Kurultai, Temüjin forged a nomadic continental empire spanning China to Central Europe.\n  * *Military Innovations (40 words):* Replaced traditional clan affiliations with a rigid decimal hierarchy (Arban 10 to Tumen 10,000); elite 10,000-strong Keshig bodyguard; horse-archery with composite recurve bows; integrated Chinese/Muslim siegecraft (naphtha, catapults); psychological terror.\n  * *Administrative Telemetry & Law (35 words):* The Yam postal horse-relay system enabled rapid intelligence communication across 25-mile stations via Paiza passports; codified the Yasa legal code; enforced complete religious neutrality across Buddhist, Islamic, and Christian domains.\n  * *Conclusion (10 words):* Established the Pax Mongolica, unifying trans-Eurasian trade and diplomatic contact across the Silk Road.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-02-1',
-        statement: 'Temujin was proclaimed Genghis Khan in 1206, reorganizing steppe nomads into decimal military units (Arban 10 to Tumen 10,000) and an elite bodyguard (Keshig).',
-        claimType: 'MILITARY_REORGANIZATION',
+        statement: 'At the Kurultai assembly of 1206 on the Onon River, Temüjin was proclaimed Genghis Khan, fundamentally restructuring steppe society by replacing ancestral tribal clans with a disciplined decimal military hierarchy ranging from Arban (10) to Tumen (10,000).',
+        claimType: 'MILITARY_AND_POLITICAL_REORGANIZATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-25',
-        excerpt: 'Nomadic Empires: Genghis Khan 1206, decimal military system, Tumen, Keshig.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 5: Nomadic Empires, Section 2: The Social and Political Background, pp. 107-110',
+        excerpt: 'At an assembly of Mongol chieftains (quriltai) he was proclaimed the "Great Khan of the Mongols" (Qa\'an) with the title Genghis Khan, the "Oceanic Khan" or "Universal Ruler"... He divided the old tribal groupings and distributed their members into new military units. Any individual who tried to move from his allotted group without permission received harsh punishment. The largest unit of soldiers, approximating 10,000 soldiers (tuman), now included different tribes and clans.',
       },
       {
         id: 'CLM-WLD-02-2',
-        statement: 'The Mongols established the Yam (Örtöö) postal horse-relay communication network across Eurasia, regulated by official passport tablets (Paiza) and supported by the Qubcur tax.',
-        claimType: 'COMMUNICATION_INFRASTRUCTURE',
+        statement: 'The Mongol Empire established the Yam (Örtöö) postal courier network, spacing horse relay stations every 25 to 30 miles across Eurasia, funded by the mandatory Qubcur livestock levy and regulated by official Paiza passport tablets.',
+        claimType: 'COMMUNICATIONS_INFRASTRUCTURE',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-25',
-        excerpt: 'The Yam postal courier system, Paiza passports, trans-Eurasian communication network.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 5: Nomadic Empires, Section 3: The Social, Political and Military Organisation, pp. 113-114',
+        excerpt: 'Genghis Khan had already fashioned a rapid courier system that connected the distant areas of his regime. Fresh mounts and dispatch riders were placed in outposts at regularly spaced distances. For the maintenance of this communication system the Mongol nomads contributed a tenth of their herd - either horses or livestock - as provisions. This was called the qubcur tax... Messengers carried a pass (paiza in Chinese; gerege in Mongolian) which gave them access to transport and provisions.',
       },
       {
         id: 'CLM-WLD-02-3',
-        statement: 'The Yasa was the codified legal and administrative decree system of Genghis Khan, maintaining religious neutrality and facilitating the Pax Mongolica Silk Road trade.',
-        claimType: 'LEGAL_CODE',
+        statement: 'The Yasa was the codified body of customary law and imperial decrees issued by Genghis Khan, which enforced iron military discipline, outlawed inter-clan blood feuds, and mandated strict religious neutrality and tax exemption for all major faiths.',
+        claimType: 'LEGAL_CODE_AND_TOLERANCE',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-25',
-        excerpt: 'The Yasa legal code; Pax Mongolica and Silk Road trade revitalization.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 5: Nomadic Empires, Section 4: Conclusion: Situating Genghis Khan and the Mongols, pp. 115-117',
+        excerpt: 'The yasa was originally compiled by Genghis Khan during the 1206 quriltai... In its earliest form, the yasa was concerned with administrative decrees, military organisation and hunting regulations... Although the Mongol Khans were themselves Shamanists, they never imposed their faith on their subjects. They granted tax exemptions to Buddhist, Muslim, Christian and Daoist places of worship.',
+      },
+      {
+        id: 'CLM-WLD-02-4',
+        statement: 'In 1221 CE, Genghis Khan reached the banks of the Indus River in pursuit of Khwarizmian prince Jalaluddin Mangbarani, but Delhi Sultan Shamsuddin Iltutmish refused Mangbarani asylum, averting a devastating Mongol invasion of northern India.',
+        claimType: 'DIPLOMATIC_AND_REGIONAL_SECURITY',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 5: Nomadic Empires, Section 1: Introduction, pp. 105-107',
+        excerpt: 'In 1221, Genghis Khan appeared on the banks of the Indus in pursuit of the Khwarazmian prince, Jalaluddin. Sultan Iltutmish, the ruler of Delhi, wisely refused asylum to the prince and spared the Delhi Sultanate from the wrath of the Mongols.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Nomadic Empires & State Formations',
+        syllabusUnit: 'GS Paper I — World History / Nomadic Empires, Steppe Statecraft, Trans-Eurasian Communications & Comparative Conquests',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_CONCEPTUAL_ANALYSIS',
-        notes: 'Mongol military innovations, Yam postal system, and Silk Road economic integration frequently tested.',
+        requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
+        notes: 'Examines decimal military reorganization breaking tribal clans, the Yam communications network as pre-modern state telemetry, and Pax Mongolica trade integration.',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Medieval World',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / Medieval World & Nomadic Empires',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark question on Genghis Khan\'s military organization or the Yasa.',
+        notes: 'Frequent 2-mark definitions (Yam, Yasa, Paiza, Qubcur, Kurultai, Keshig), 5-mark short notes (Decimal army structure), and 10-mark full essays on Genghis Khan\'s administrative and military achievements.',
       },
       {
         examCode: 'SSC_CGL',
@@ -420,23 +384,23 @@ Following Genghis Khan's death in 1227, the empire was divided among his four so
         relevance: 'CORE',
         priority: 'HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Genghis Khan ascension year (1206) and Tumen unit size (10,000).',
+        notes: 'Direct MCQs on Kurultai year (1206), Tumen size (10,000), Yam courier system, and Delhi Sultan who averted Genghis Khan (Iltutmish in 1221).',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — Historical Formations',
+        syllabusUnit: 'General Studies — Medieval World History & Communications Infrastructure',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'HISTORICAL_TERMS',
-        notes: 'Tested on Yam and Paiza definitions.',
+        notes: 'Focus on postal courier relays (Yam), transit passports (Paiza), and trans-Eurasian trade safety.',
       },
       {
         examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global History',
+        syllabusUnit: 'General Awareness — Global Historical Milestones',
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        notes: 'Historical awareness of trans-Eurasian commerce under Pax Mongolica.',
       },
       {
         examCode: 'IBPS_PO',
@@ -444,15 +408,15 @@ Following Genghis Khan's death in 1227, the empire was divided among his four so
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        notes: 'General static awareness of nomadic empire formations.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
+        syllabusUnit: 'General Awareness — Historical Milestones of Trade & Communications',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on Eurasian trade history.',
+        notes: 'Early communication telemetry and security infrastructure along the Silk Road.',
       },
       {
         examCode: 'IIBF_DBF',
@@ -460,69 +424,71 @@ Following Genghis Khan's death in 1227, the empire was divided among his four so
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Eurasian trade routes and historical communication networks.',
+        notes: 'Evolution of commercial transit networks and safe passage instruments (Paiza).',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Mongols: Genghis Khan (Temujin, 1206). Military: Decimal (Arban 10 -> Jaghun 100 -> Mingghan 1,000 -> Tumen 10,000), Keshig (bodyguard). Communications: Yam (Örtöö) horse-post stations every 25-30 miles with Paiza passports. Legal: Yasa code of law. 4 Khanates: Yuan (China), Golden Horde (Russia), Ilkhanate (Persia), Chagatai (Central Asia). Pax Mongolica = Silk Road safe under Marco Polo.',
+        content: 'Mongols Essentials: 1) Kurultai 1206: Proclaimed Temüjin as Genghis Khan. 2) Military: Decimal system (Arban 10 -> Jaghun 100 -> Mingghan 1,000 -> Tumen 10,000); Keshig (10k bodyguard); broke clan lines. 3) Communications: Yam (Örtöö) horse stations every 25-30 miles; Qubcur tax (1/10th herd); Paiza passport tablet. 4) Law: Yasa code + religious tolerance. 5) Successors: 4 Ulus (Golden Horde Russia, Ilkhanate Persia, Chagatai Central Asia, Yuan China). 6) India: Iltutmish refused Mangbarani asylum (1221), saving Delhi.',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Nomadic Empires & Mongols Blueprint: 1) Military Genesis: Genghis Khan unified Mongolian clans in 1206; broke tribal clans by instituting decimal military units (Tumen = 10,000) and composite horse-archery. 2) State Telemetry: Built the Yam (Örtöö) horse courier network across Eurasia, enabling rapid intelligence delivery under official Paiza passports. 3) Governance & Law: Codified imperial decrees in the Yasa; practiced strict religious tolerance. 4) Global Legacy: Revitalized the Silk Road under the Pax Mongolica across four successor Khanates.',
+        content: 'Nomadic Empires Blueprint (NCERT Class XI): 1) Pastoral Steppe Roots: Temüjin united warring clans along the Onon River, proclaimed Genghis Khan in 1206 at the Kurultai. 2) Military Innovation: Dissolved ancient clan bloodlines into strict decimal units (Arban to Tumen = 10,000) under personal companions (Nökör); established the elite Keshig bodyguard; adopted Chinese and Islamic siege technology (catapults, naphtha). 3) Continental Communications: Built the Yam (Örtöö) postal horse relay system funded by the Qubcur tax; couriers carrying Paiza passports galloped 200 miles daily. 4) Law & Tolerance: The Yasa codified royal edicts and strict discipline while granting tax immunity to all religious faiths equally. 5) Eurasian Impact: Partitioned into four Ulus, establishing the Pax Mongolica that secured the Silk Road; in 1221, Iltutmish denied asylum to Mangbarani, insulating the Delhi Sultanate from destruction.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Steppe Nomadic Statecraft Architecture: 1) Overcoming Ecological Scarcity: Mobilizing equestrian cavalry mobility to conquer sedentary agricultural river basins. 2) Information Velocity: The Yam network reducing trans-continental dispatch times from months to days. 3) Pragmatic Eclecticism: Employing conquered Chinese, Persian, and Uighur scribes and siege engineers while maintaining nomadic military supremacy.',
+        content: 'Nomadic Steppe Statecraft Architecture:\n1) Radical De-Tribalization: The primary structural innovation of Genghis Khan was abolishing hereditary aristocratic clan autonomy by dispersing lineages into mixed decimal regiments, binding soldiers\' survival directly to the central imperial apparatus.\n2) Information Velocity as Force Multiplier: The Yam horse relay network overcame the vast geographical friction of Eurasia, providing the Great Khan with continuous administrative telemetry and military command speed that exceeded all sedentary empires.\n3) Pragmatic Institutional Pluralism: Rather than imposing nomadic steppe customs on conquered agricultural basins, the Mongols co-opted local Persian, Uighur, and Chinese bureaucrats to run fiscal administrations while maintaining absolute nomadic monopoly over military command.',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'MONGOL_MCQ',
-        stem: 'In the administrative and communications infrastructure of the Mongol Empire established by Genghis Khan, what did the term "Yam" (or Örtöö) specifically designate?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'In the administrative and communications system of the Mongol Empire as described in NCERT Class XI, how was the maintenance of the trans-continental "Yam" (Örtöö) postal horse-relay system financed?',
         options: [
-          'The supreme tribal assembly of chieftains that elected the Great Khan',
-          'The world-spanning postal-courier horse relay network stationed at regular intervals across Eurasia',
-          'The sacred Shamanistic mountain sanctuary where imperial rulers were buried',
-          'The tribute tax levied in horses and cattle on conquered sedentary cities'
+          'Through customs duties collected exclusively at the Mediterranean maritime ports',
+          'Through the "Qubcur" tax, wherein nomadic pastoralists contributed one-tenth of their herds of horses and livestock to supply post stations',
+          'By extracting silver tribute solely from the Catholic Church in medieval Europe',
+          'Through royal state monopolies on silk manufacturing in the capital of Karakorum'
         ],
-        correctAnswer: 'The world-spanning postal-courier horse relay network stationed at regular intervals across Eurasia',
-        explanation: 'The Yam (or Örtöö) was the famous Mongol postal-courier communication system. Relays of fresh horses and provisions were stationed at intervals of 25 to 30 miles across the empire, allowing royal messengers carrying Paiza tablets to cover hundreds of miles per day.',
-        trapExplanation: 'Option A describes the Kurultai; Option D describes the Qubcur tax.',
-        difficulty: 'EASY',
+        correctAnswer: 'Through the "Qubcur" tax, wherein nomadic pastoralists contributed one-tenth of their herds of horses and livestock to supply post stations',
+        explanation: 'According to NCERT Class XI Theme 5, for the maintenance of the Yam communications network, Mongol nomads contributed a tenth of their herd (either horses or livestock) as provisions. This was called the Qubcur tax.',
+        trapExplanation: 'Option A refers to Mediterranean trade; Option D is inaccurate because Mongols were pastoral nomads who did not own state silk factories.',
+        difficulty: 'INTERMEDIATE',
         isPYQ: true,
         pyqYear: 2021,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Core institutional definition of the Yam communication network.',
+        examinerTrapPattern: 'Exact fiscal mechanism maintaining the Yam network (the Qubcur tax).',
       },
       {
-        type: 'MONGOL_MCQ',
-        stem: 'What was the military term for the largest standard division in Genghis Khan\'s decimal army organization, consisting of exactly 10,000 cavalry soldiers?',
-        options: ['Arban', 'Jaghun', 'Mingghan', 'Tumen'],
-        correctAnswer: 'Tumen',
-        explanation: 'In Genghis Khan\'s decimal military structure: an Arban was 10 soldiers, a Jaghun was 100 soldiers, a Mingghan was 1,000 soldiers, and a Tumen was the largest combat division comprising exactly 10,000 soldiers.',
-        trapExplanation: 'Mingghan was 1,000; Tumen was 10,000.',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Why did the Mongol armies under Genghis Khan, which had advanced to the banks of the Indus River in 1221 CE, refrain from invading and devastating the Delhi Sultanate in northern India?',
+        options: [
+          'Because the extreme heat of the Indian plains caused a lethal epidemic among Mongol horses',
+          'Because Sultan Shamsuddin Iltutmish of Delhi prudently refused political asylum to the fleeing Khwarizmian prince Jalaluddin Mangbarani',
+          'Because the Delhi Sultanate defeated the Mongol vanguard at the Battle of Tarain',
+          'Because Genghis Khan converted to Islam and signed a perpetual peace treaty with the Caliph'
+        ],
+        correctAnswer: 'Because Sultan Shamsuddin Iltutmish of Delhi prudently refused political asylum to the fleeing Khwarizmian prince Jalaluddin Mangbarani',
+        explanation: 'In 1221 CE, Genghis Khan pursued the Khwarizmian prince Jalaluddin Mangbarani to the banks of the Indus. Sultan Iltutmish of Delhi wisely declined Mangbarani\'s request for asylum, avoiding direct confrontation with Genghis Khan and shielding the young Delhi Sultanate from destruction.',
+        trapExplanation: 'Battle of Tarain was fought in 1191/1192 between Prithviraj Chauhan and Muhammad Ghori, not against Mongols.',
         difficulty: 'EASY',
         isPYQ: true,
         pyqYear: 2022,
-        pyqPaper: 'SSC CGL Tier 1',
-        pyqStage: 'Tier 1',
-        examinerTrapPattern: 'Decimal military terminology of the Mongol army.',
+        pyqPaper: 'RPSC RAS Prelims',
+        pyqStage: 'Prelims',
+        examinerTrapPattern: 'Historical reason for northern India escaping Genghis Khan\'s wrath in 1221 CE (Iltutmish\'s refusal of asylum).',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 3: Feudal Europe, The Three Orders & The Renaissance
-  // =========================================================================
   {
     id: 'CON-WLD-03',
     slug: 'feudal-europe-the-three-orders-black-death-and-renaissance-humanism',
