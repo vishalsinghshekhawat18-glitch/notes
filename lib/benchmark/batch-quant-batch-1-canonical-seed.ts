@@ -753,55 +753,98 @@ The fundamental distinction lies in **Order Dependency**:
   {
     id: 'CON-QUANT-06',
     slug: 'ratio-proportion-partnership-averages-and-problems-on-ages',
-    title: 'Ratio, Proportion, Partnership, Averages & Problems on Ages',
-    shortDefinition: 'Foundational commercial arithmetic: ratio combination algorithms, partnership investment-time profit sharing, assumed mean / net deviation average models, and linear age ratio systems.',
+    title: 'Ratio, Proportion, Partnership, Averages & Measures of Central Tendency (Mean, Median, Mode)',
+    shortDefinition: 'Foundational commercial arithmetic and statistics: ratio combination algorithms, partnership profit sharing, net deviation average models, grouped mean methods (Direct, Assumed Mean, Step-Deviation), median and mode of grouped/ungrouped data, ogive curves, and empirical distributions.',
     difficulty: 'INTERMEDIATE',
     order: 6,
     topicSlug: 'arithmetic-and-financial-mathematics',
     contentBlocks: [
       {
         type: 'CORE_IDEA',
-        title: 'The Relational Core: Ratios, Partnerships & Averages',
-        body: `Ratios, Partnerships, and Averages constitute the **primary building blocks of all commercial arithmetic and Data Interpretation**.
+        title: 'The Relational & Statistical Core: Ratios, Partnerships, Averages & Central Tendency',
+        body: `Ratios, Partnerships, Averages, and Statistical Measures of Central Tendency constitute the **primary building blocks of all quantitative analysis, commercial arithmetic, and Data Interpretation**.
 
-1. **Ratios:** Represent dimensionless scale factors. Combining compound ratios ($A:B$ and $B:C \implies A:B:C$) standardizes multi-variable comparisons.
-2. **Partnership Law:** Profit is directly proportional to the product of **Capital Invested ($C$)** and **Time Duration ($T$)**: $\text{Profit} \propto C \times T$.
-3. **Averages via Net Deviation:** Averages represent the center of mass of a distribution; adding or replacing an element shifts the average by $\Delta = \frac{\text{Net Deviation}}{\text{Total Count}}$.`,
+1. **Ratios & Proportions:** Represent dimensionless scale factors. Combining compound ratios ($A:B$ and $B:C \\implies A:B:C$) standardizes multi-variable comparisons.
+2. **Partnership Law:** Profit is directly proportional to the product of **Capital Invested ($C$)** and **Time Duration ($T$)**: $\\text{Profit} \\propto C \\times T$.
+3. **Averages via Net Deviation:** Averages represent the center of mass of a distribution; adding or replacing an element shifts the average by $\\Delta = \\frac{\\text{Net Deviation}}{\\text{Total Count}}$.
+4. **Measures of Central Tendency (Mean, Median, Mode):**
+   - **Mean ($\\bar{x}$):** The arithmetic center; sensitive to every observation and heavily skewed by extreme outliers.
+   - **Median ($M$):** The positional middle value dividing the data into two equal halves; robust against extreme values and outliers.
+   - **Mode ($Z$):** The value occurring with maximum frequency; useful for identifying peak popularity or modal demand.`,
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'SYSTEMATIC_CATALOGUE',
-        title: 'Ratio Invariants, Partnership Equations & Deviation Methods',
+        title: 'Ratio Invariants, Partnership Equations, and the Master Central Tendency Suite',
         body: `### 1. Ratio Combination & Proportions
 - **Combining $A:B$ and $B:C$:**
-  $$\text{If } A:B = x:y \text{ and } B:C = m:n \implies A:B:C = (x \cdot m) : (y \cdot m) : (y \cdot n)$$
-- **Proportionality Laws:** If $\frac{a}{b} = \frac{c}{d}$, then:
-  - *Invertendo:* $\frac{b}{a} = \frac{d}{c}$
-  - *Alternando:* $\frac{a}{c} = \frac{b}{d}$
-  - *Componendo & Dividendo:* $\frac{a + b}{a - b} = \frac{c + d}{c - d}$
+  $$\\text{If } A:B = x:y \\text{ and } B:C = m:n \\implies A:B:C = (x \\cdot m) : (y \\cdot m) : (y \\cdot n)$$
+- **Proportionality Laws:** If $\\frac{a}{b} = \\frac{c}{d}$, then:
+  - *Invertendo:* $\\frac{b}{a} = \\frac{d}{c}$
+  - *Alternando:* $\\frac{a}{c} = \\frac{b}{d}$
+  - *Componendo & Dividendo:* $\\frac{a + b}{a - b} = \\frac{c + d}{c - d}$
 
 ---
 
 ### 2. Partnership Profit Sharing Formulation
-For partners investing capital $C_1, C_2, \dots$ for durations $T_1, T_2, \dots$:
-$$\text{Profit Ratio } = (C_1 \times T_1) : (C_2 \times T_2) : (C_3 \times T_3)$$
-- **Active / Managing Partner:** If Partner $A$ receives $x\%$ of total profit as a management salary, the salary is deducted first; the remaining $(100 - x)\%$ profit is distributed strictly in the $C \times T$ ratio.
+For partners investing capital $C_1, C_2, \\dots$ for durations $T_1, T_2, \\dots$:
+$$\\text{Profit Ratio } = (C_1 \\times T_1) : (C_2 \\times T_2) : (C_3 \\times T_3)$$
+- **Active / Managing Partner:** If Partner $A$ receives $x\\%$ of total profit as a management salary, the salary is deducted first; the remaining $(100 - x)\\%$ profit is distributed strictly in the $C \\times T$ ratio.
 
 ---
 
-### 3. Averages & The Assumed Mean / Deviation Method
-- **Mathematical Definition:** $\text{Average} = \frac{\text{Sum of Observations}}{\text{Total Number of Observations}}$.
+### 3. Averages & The Net Deviation Method
+- **Mathematical Definition:** $\\text{Average} = \\frac{\\text{Sum of Observations}}{\\text{Total Number of Observations}}$.
 - **The Net Deviation Method:**
-  $$\text{New Average} = \text{Assumed Mean } (A_0) + \frac{\sum (x_i - A_0)}{N}$$
-- **Replacement Formula:** If a person of weight $W_{\text{old}}$ is replaced by a person of weight $W_{\text{new}}$, causing average of $N$ people to change by $\Delta$:
-  $$W_{\text{new}} = W_{\text{old}} \pm (N \times \Delta)$$
+  $$\\text{New Average} = \\text{Assumed Mean } (A_0) + \\frac{\\sum (x_i - A_0)}{N}$$
+- **Replacement Formula:** If an element $W_{\\text{old}}$ is replaced by $W_{\\text{new}}$, shifting average of $N$ items by $\\Delta$:
+  $$W_{\\text{new}} = W_{\\text{old}} \\pm (N \\times \\Delta)$$
 
 ---
 
-### 4. Problems on Ages (Ratio Invariant)
-- The **Age Difference between any two individuals remains STRICTLY CONSTANT** across all time horizons ($t$ years ago, present, $t$ years hence).
-- If present ratio is $a:b$ and after $T$ years it becomes $c:d$, equalize the ratio difference units: $(a-b) = (c-d)$.`,
+### 4. Grouped Mean: The 3 Canonical Computational Methods
+When data is organized into continuous class intervals, the class mark (midpoint) is $x_i = \\frac{\\text{Upper Limit} + \\text{Lower Limit}}{2}$:
+
+| Method | Formula | When to Use |
+| :--- | :--- | :--- |
+| **1. Direct Method** | $\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$ | Small numerical values of $f_i$ and $x_i$ |
+| **2. Assumed Mean Method** | $\\bar{x} = a + \\frac{\\sum f_i d_i}{\\sum f_i}$ where $d_i = x_i - a$ | Large values of $x_i$; subtract central value $a$ to shrink numbers |
+| **3. Step-Deviation Method** | $\\bar{x} = a + h \\left(\\frac{\\sum f_i u_i}{\\sum f_i}\\right)$ where $u_i = \\frac{x_i - a}{h}$ | Equal class width $h$; divides deviations by $h$ for rapid mental calculation |
+
+---
+
+### 5. Median: Ungrouped vs Grouped Formulations
+- **Ungrouped Data:** Arrange $n$ observations in ascending order:
+  - If $n$ is **ODD**: $\\text{Median} = \\left(\\frac{n+1}{2}\\right)^{\\text{th}} \\text{ observation}$.
+  - If $n$ is **EVEN**: $\\text{Median} = \\frac{1}{2} \\left[\\left(\\frac{n}{2}\\right)^{\\text{th}} + \\left(\\frac{n}{2} + 1\\right)^{\\text{th}}\\right] \\text{ observation}$.
+- **Grouped Data:** Find cumulative frequency ($cf$). Identify **Median Class** where $cf \\ge \\frac{n}{2}$ ($n = \\sum f_i$):
+  $$\\mathbf{\\text{Median} = l + \\left(\\frac{\\frac{n}{2} - cf}{f}\\right) \\times h}$$
+  - $l$ = Lower limit of the median class.
+  - $n$ = Total number of observations ($\\sum f_i$).
+  - $cf$ = Cumulative frequency of the class **preceding** the median class.
+  - $f$ = Frequency of the median class itself.
+  - $h$ = Class width / size of median class.
+
+---
+
+### 6. Mode for Grouped Data & Karl Pearson's Empirical Law
+- **Grouped Mode Formula:** Modal class is the class with maximum frequency $f_1$:
+  $$\\mathbf{\\text{Mode} = l + \\left(\\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\\right) \\times h}$$
+  - $l$ = Lower limit of modal class.
+  - $f_1$ = Frequency of modal class.
+  - $f_0$ = Frequency of class immediately preceding modal class.
+  - $f_2$ = Frequency of class immediately succeeding modal class.
+  - $h$ = Class width.
+- **Karl Pearson's Empirical Relationship (Moderately Asymmetric Distributions):**
+  $$\\mathbf{\\text{Mode} = 3\\text{ Median} - 2\\text{ Mean}} \\quad \\iff \\quad \\mathbf{\\text{Mean} - \\text{Mode} = 3(\\text{Mean} - \\text{Median})}$$
+
+---
+
+### 7. Cumulative Frequency Ogives & Graphical Determination
+- **Less than Ogive:** Cumulative frequencies plotted against **Upper Class Limits** (curves upward).
+- **More than Ogive:** Cumulative frequencies plotted against **Lower Class Limits** (curves downward).
+- **Graphical Invariant:** The point where the "Less than" and "More than" ogives **intersect** yields the **Median** when projected down to the horizontal ($x$) axis!`,
         order: 2,
         visibility: 'PUBLIC',
       },
@@ -834,6 +877,15 @@ $$\text{Profit Ratio } = (C_1 \times T_1) : (C_2 \times T_2) : (C_3 \times T_3)$
         locator: 'Commercial Arithmetic Standards & Banking Faculty Corpus',
         excerpt: 'Profit distribution scales directly with capital-time product, and age difference remains invariant over time.',
       },
+      {
+        id: 'CLM-QUANT-06-02',
+        statement: 'In continuous frequency distributions, grouped median is given by l + ((n/2 - cf)/f)*h where cf is the cumulative frequency of the preceding class, and moderately skewed distributions obey Karl Pearson\'s empirical invariant Mode = 3*Median - 2*Mean.',
+        claimType: 'MATHEMATICAL_RULE',
+        epistemicLevel: 'ESTABLISHED_TRUTH',
+        confidence: 'VERY_HIGH',
+        locator: 'NCERT Class 10 Mathematics, Chapter 13: Statistics & CBSE Elementary Statistics Standards',
+        excerpt: 'The median class is the class whose cumulative frequency is greater than (and nearest to) n/2. The empirical relationship between the three measures of central tendency is Mode = 3 Median - 2 Mean.',
+      },
     ],
     examMappings: [
       {
@@ -852,11 +904,35 @@ $$\text{Profit Ratio } = (C_1 \times T_1) : (C_2 \times T_2) : (C_3 \times T_3)$
         requiredDepth: 'WORD_PROBLEM_MASTERY',
         notes: '2-3 guaranteed arithmetic questions in Prelims.',
       },
+      {
+        examCode: 'rpsc-ras',
+        syllabusUnit: 'Mains Paper 2: Elementary Mathematics & Statistics',
+        relevance: 'HIGH',
+        priority: 'CORE',
+        requiredDepth: 'DESCRIPTIVE_AND_CALCULATION',
+        notes: 'Measures of Central Tendency (Mean, Median, Mode), frequency distribution conversion, and ogives.',
+      },
+      {
+        examCode: 'upsc-apfc',
+        syllabusUnit: 'Elementary Mathematics & Statistics',
+        relevance: 'HIGH',
+        priority: 'CORE',
+        requiredDepth: 'PROFICIENT',
+        notes: 'Calculation of grouped mean, median class identification, and empirical formula questions.',
+      },
+      {
+        examCode: 'ssc-cgl',
+        syllabusUnit: 'Tier 2: Statistics & Mathematical Abilities',
+        relevance: 'HIGH',
+        priority: 'CORE',
+        requiredDepth: 'CALCULATION_SPEED',
+        notes: 'Grouped median, mode, and step-deviation mean calculations.',
+      },
     ],
     revisionUnits: [
       {
         type: 'KEY_FACTS',
-        content: 'Partnership: Profit A : Profit B = (C_A x T_A) : (C_B x T_B) | Active partner salary deducted first | Averages: New Avg = A0 + (Sum Dev)/N | Replacement: W_new = W_old +- (N x Delta) | Ages: Age gap between two people never changes.',
+        content: 'Partnership: Profit A : Profit B = (C_A x T_A) : (C_B x T_B) | Active partner salary deducted first | Averages: New Avg = A0 + (Sum Dev)/N | Central Tendency: Mean = Sum(fx)/Sum(f) = a + h*Sum(fu)/Sum(f) | Median = l + ((n/2 - cf)/f)*h (cf is PRECEDING class!) | Mode = l + ((f1 - f0)/(2f1 - f0 - f2))*h | Empirical: Mode = 3*Median - 2*Mean | Ogive intersection on x-axis = Median.',
         priority: 'HIGH',
         order: 1,
       },
@@ -870,6 +946,15 @@ $$\text{Profit Ratio } = (C_1 \times T_1) : (C_2 \times T_2) : (C_3 \times T_3)$
         explanation: '1. Profit ratio = (Capital A * Time A) : (Capital B * Time B) = (5000 * 12) : (6000 * 8) = 60,000 : 48,000 = 5 : 4.\n2. Total parts = 5 + 4 = 9.\n3. B\'s share = (4/9) * 18,000 = ₹8,000.',
         trapExplanation: 'Dividing profit merely in the ratio of capital (5000:6000 = 5:6) ignores the unequal time durations (12 months vs 8 months).',
         difficulty: 'EASY',
+      },
+      {
+        type: 'MULTIPLE_CHOICE',
+        stem: 'In a moderately skewed statistical distribution, the Mean and Median of the dataset are computed to be 28 and 30 respectively. According to Karl Pearson\'s empirical relationship, what is the value of the Mode?',
+        options: ['34', '32', '29', '36'],
+        correctAnswer: '34',
+        explanation: 'According to Karl Pearson\'s empirical relationship for moderately skewed distributions:\nMode = 3(Median) - 2(Mean)\nMode = 3(30) - 2(28) = 90 - 56 = 34.',
+        trapExplanation: 'Candidates often misremember the formula coefficients as Mode = 2 Median - 3 Mean (yielding negative/wrong values) or Mode = 3 Mean - 2 Median (yielding 3(28) - 2(30) = 84 - 60 = 24). Remember: Median has 3 syllables/coefficient 3, Mean has coefficient 2.',
+        difficulty: 'MEDIUM',
       },
     ],
   },
@@ -1826,7 +1911,19 @@ $$\text{Angle } (\theta) = \text{Percentage } (P\%) \times 3.6^\circ \qquad \iff
 ### 3. Line Graph Growth & CAGR Estimation
 - **Percentage Growth:** $\frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100$.
 - **CAGR Over $n$ Years:** If value grows from $V_0$ to $V_n$ over $n$ time intervals:
-  $$\text{CAGR} = \left(\frac{V_n}{V_0}\right)^{1/n} - 1$$`,
+  $$\text{CAGR} = \left(\frac{V_n}{V_0}\right)^{1/n} - 1$$
+
+---
+
+### 4. Frequency Distributions & Cumulative Frequency Curves (Ogives)
+- **Continuous Frequency Distribution Conversion:**
+  - For discrete/inclusive intervals (e.g. $10–19, 20–29$), convert to continuous true boundaries ($9.5–19.5, 19.5–29.5$) before computing cumulative frequencies or plotting.
+- **Ogives (Cumulative Frequency Graphs):**
+  - **"Less than" Ogive:** Plot **Upper Class Limits** on the $x$-axis and corresponding cumulative frequencies on the $y$-axis (curves monotonically upward).
+  - **"More than" Ogive:** Plot **Lower Class Limits** on the $x$-axis and corresponding cumulative frequencies on the $y$-axis (curves monotonically downward).
+- **Graphical Determination of Median:**
+  - The intersection point of the "Less than" and "More than" ogives has coordinates $(\text{Median}, \frac{n}{2})$.
+  - Projecting the intersection point vertically onto the $x$-axis gives the **Median** of the distribution.`,
         order: 2,
         visibility: 'PUBLIC',
       },
