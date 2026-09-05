@@ -2668,7 +2668,7 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
 ];
 
 export async function seedWorldHistoryMasterCanonicalKnowledge() {
-  console.log('Seeding World History & Modern Revolutions Master Knowledge (9 Concepts across 9 Topics)...');
+  console.log('Seeding World History & Modern Revolutions Master Knowledge (12 Concepts across 12 Topics)...');
 
   // 1. Ensure Domain & Subject exist
   const domain = await db.domain.upsert({
