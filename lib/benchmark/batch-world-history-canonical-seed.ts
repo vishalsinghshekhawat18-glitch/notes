@@ -775,8 +775,8 @@ In the mid-14th century, this frozen medieval order shattered:
   {
     id: 'CON-WLD-04',
     slug: 'the-french-revolution-1789-estates-general-rights-of-man-and-napoleon',
-    title: 'The French Revolution (1789): The Three Estates, Declaration of the Rights of Man & The Napoleonic Code',
-    shortDefinition: 'The political crucible of modern democracy: Financial bankruptcy of the Ancien Régime under Louis XVI, the Three Estates (Abbé Sieyès), the Tennis Court Oath, the Storming of the Bastille (July 14, 1789), the Declaration of the Rights of Man and of the Citizen, the Jacobins and Robespierre\'s Reign of Terror (1793–94), and the rise of Napoleon Bonaparte (Coup of 18 Brumaire 1799, Napoleonic Civil Code of 1804, Battle of Waterloo 1815).',
+    title: 'The French Revolution (1789): The Ancien Régime, Constitutional Experiments, Jacobin Republic & Napoleonic Transformation',
+    shortDefinition: 'The political crucible of modern democracy from NCERT Class IX: Fiscal crisis under Louis XVI, the Three Estates (Tithe vs Taille), Enlightenment philosophers (Locke, Montesquieu, Rousseau), the Tennis Court Oath (June 20, 1789), the Storming of the Bastille (July 14, 1789), the Declaration of the Rights of Man and of the Citizen, the political clubs (Jacobins vs Girondins), Robespierre\'s Reign of Terror (1793–94), Olympe de Gouges and women\'s revolutionary clubs, the colonial slavery abolition timeline (1794/1848), the Directory, and the Napoleonic Civil Code of 1804.',
     difficulty: 'ADVANCED',
     order: 4,
     topicSlug: 'french-revolution-and-napoleon',
@@ -784,155 +784,133 @@ In the mid-14th century, this frozen medieval order shattered:
       {
         type: 'INTUITION',
         title: 'Liberty, Equality, Fraternity: Dismantling the Divine Right of Kings',
-        body: `In the spring of 1789, France was the most populous, cultured, and powerful kingdom in Western Europe. Yet beneath the gilded mirrors of the Palace of Versailles lay a rotten, bankrupt social order: the ***Ancien Régime***.
-
-French society was divided into three unequal castes:
-* The **First Estate (Clergy)** and **Second Estate (Nobility)** constituted barely $2\\%$ of the population, owned $40\\%$ of all land, and paid **ZERO direct taxes**.
-* The **Third Estate**—comprising $98\\%$ of the people (peasants, urban workers, and educated merchants/bourgeoisie)—bore the entire crushing burden of state taxation, while facing starvation due to catastrophic wheat crop failures.
-
-When King **Louis XVI** convened the **Estates-General** in May 1789 to impose new taxes, the Third Estate revolted. They swore the **Tennis Court Oath**, declaring themselves the sovereign **National Assembly**. On **July 14, 1789**, the Parisian masses stormed the medieval fortress-prison of the **Bastille**, destroying the physical symbol of royal despotism!
-
-Out of this volcanic explosion emerged the modern world\'s defining political creed: **"Liberty, Equality, Fraternity" (*Liberté, Égalité, Fraternité*)**!`,
+        body: 'In the spring of 1789, France was the most populous, cultured, and powerful kingdom in Western Europe. Yet beneath the gilded mirrors of the Palace of Versailles lay a rotten, bankrupt social order: the Ancien Régime.\n\nFrench society was divided into three unequal estates:\n- The First Estate (Clergy) and Second Estate (Nobility) constituted barely 2% of the population, owned 60% of all land, and enjoyed complete exemption from state taxes.\n- The Third Estate—comprising 98% of the people (peasants, urban artisans, and the educated commercial bourgeoisie)—bore the entire crushing burden of taxation: the Tithe (to the Church) and the Taille (direct tax to the Crown), alongside brutal indirect taxes on daily salt (Gabelle) and tobacco.\n\nWhen King Louis XVI convened the Estates-General on May 5, 1789 to impose new taxes, the Third Estate revolted against the medieval feudal voting rule (one estate, one vote). Demanding individual voting per member, they broke away on June 20, 1789, took the historic Tennis Court Oath, and declared themselves the sovereign National Assembly.\n\nOn July 14, 1789, the Parisian masses stormed the medieval fortress-prison of the Bastille, destroying the physical embodiment of royal absolutism and inaugurating the modern democratic trinity: "Liberty, Equality, Fraternity" (Liberté, Égalité, Fraternité)!',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'Chronological Phases of the Revolution & The Napoleonic Legacy',
-        body: `### 1. The 4 Distinct Chronological Phases of the French Revolution
-
-| Phase & Timeline | Dominant Faction | Decisive Events & Milestones | Core Historical Legacy |
-| :--- | :--- | :--- | :--- |
-| **Phase 1: Constitutional Monarchy (1789–1792)** | Moderate Bourgeoisie (National Assembly / Girondins). | • **Tennis Court Oath (June 20, 1789)**.<br>• **Storming of the Bastille (July 14, 1789)**.<br>• **Declaration of the Rights of Man and of the Citizen (August 26, 1789)**: Proclaimed universal natural rights: liberty, property, security, and resistance to oppression.<br>• Civil Constitution of the Clergy (1790); King attempted flight to Varennes (1791). | Abolished feudalism, tithes, and noble exemptions; established constitutional monarchy. |
-| **Phase 2: Radical Republic & Reign of Terror (1792–1794)** | Radical **Jacobins** led by **Maximilien Robespierre** and Louis de Saint-Just. | • Monarchy abolished; French Republic declared (Sept 1792).<br>• Execution of **Louis XVI (Jan 1793)** and Marie Antoinette by Guillotine.<br>• **Committee of Public Safety** formed.<br>• **Reign of Terror (1793–94):** Over 40,000 "enemies of revolution" executed by Guillotine; Law of Maximum (price ceilings). | Defended France against invading European monarchical coalitions; destroyed internal counter-revolution; ended with Robespierre's own execution (**Thermidorian Reaction, July 1794**). |
-| **Phase 3: The Directory (1795–1799)** | Conservative Executive of 5 Directors. | Widespread corruption, financial instability, inflation; reliance on the military to crush royalist and jacobin revolts. | Created power vacuum exploited by young artillery general **Napoleon Bonaparte**. |
-| **Phase 4: The Napoleonic Era (1799–1815)** | **Napoleon Bonaparte** (First Consul 1799; Emperor of the French 1804). | • **Coup of 18 Brumaire (Nov 9, 1799):** Napoleon seized power.<br>• **Civil Code of 1804 (Napoleonic Code)**.<br>• Subjugated continental Europe (Battles of Austerlitz 1805, Jena 1806).<br>• Catastrophic invasion of Russia (1812); defeated at **Battle of Leipzig (1813)** and final defeat at **Battle of Waterloo (June 18, 1815)**. | Exported the principles of the French Revolution (equality before law, abolition of feudalism) across Europe. |
-
----
-
-### 2. The Napoleonic Civil Code of 1804 (*Code Civil des Français*)
-Even after Napoleon was exiled to Saint Helena, he remarked: *"My real glory is not having won 40 battles; Waterloo will wipe out the memory of my victories. But what will live forever is my Civil Code."*
-* **Key Provisions:**
-  1. **Equality before the Law:** Abolished all birth privileges of the nobility and clergy.
-  2. **Freedom of Religion & Secular State:** Confirmed the secular character of state courts.
-  3. **Right to Property:** Guaranteed absolute, inviolable private property rights.
-  4. **Universal Standardized Law:** Replaced over 300 conflicting regional feudal legal systems across France and conquered Europe with a single uniform code.
-  5. *Patriarchal Limitation:* Reduced the legal status of women, placing wives under total legal subordination to their husbands.`,
+        title: 'Social Stratification, Intellectual Catalysts & Revolutionary Chronology',
+        body: '### 1. The Three Estates & Fiscal Architecture of the Ancien Régime\n\n| Estate | Social Composition | Demographic Share | Land Ownership | Fiscal Obligations & Rights |\n| :--- | :--- | :--- | :--- | :--- |\n| **First Estate** | Catholic Clergy (High archbishops to parish priests) | ~1% (~100,000) | ~10% | Exemption from direct taxes; extracted **Tithe** (1/10th of agricultural produce) from peasants. |\n| **Second Estate** | Hereditary Nobility (Nobles of the sword & robe) | ~1.5% (~300,000) | ~25–30% | Total exemption from state taxes; extracted hereditary feudal dues and forced labor (**Corvée**) from peasantry. |\n| **Third Estate** | Big businessmen, merchants, court officials, lawyers, peasants, artisans, landless laborers | ~98% (~27 million) | ~60–65% | Paid all taxes: **Tithe** (to clergy), **Taille** (direct tax to king), and heavy indirect taxes on salt and tobacco. Held zero political voice. |\n\n---\n\n### 2. Intellectual Catalysts of the French Revolution (NCERT Cited)\n- **John Locke (*Two Treatises of Government*):** Refuted the divine and absolute right of the monarch.\n- **Jean-Jacques Rousseau (*The Social Contract*):** Proposed a government based on a social contract between people and their representatives, emphasizing the sovereign "General Will".\n- **Montesquieu (*The Spirit of the Laws*):** Proposed a division of state power between the legislature, executive, and judiciary—a model adopted by the American Constitution and French reformers.\n- **Abbé Sieyès:** Authored the incendiary pamphlet *"What is the Third Estate?"* declaring: *"What is the Third Estate? Everything. What has it been heretofore in the political order? Nothing. What does it demand? To become something."*\n\n---\n\n### 3. Chronological Trajectory of the Revolution (1789–1815)\n1. **May 5, 1789 (Estates-General Convenes):** Louis XVI summoned representatives at Versailles; Third Estate walked out over voting deadlock.\n2. **June 20, 1789 (Tennis Court Oath):** Led by Mirabeau and Abbé Sieyès, Third Estate delegates gathered in an indoor tennis court at Versailles, swearing not to disperse until drafting a constitution for France.\n3. **July 14, 1789 (Storming of the Bastille):** Paris citizens stormed the Bastille to seize ammunition and tear down royal despotism; now celebrated as Bastille Day.\n4. **August 4, 1789 (Abolition of Feudalism):** National Assembly passed a decree abolishing the feudal system of obligations and taxes, nationalizing church lands.\n5. **August 26, 1789 (Declaration of the Rights of Man and of the Citizen):** Proclaimed natural and inalienable rights: liberty, property, security, and resistance to oppression.\n6. **1791 (Constitutional Monarchy):** National Assembly completed the constitution, creating "Active Citizens" (men over 25 paying taxes equal to at least 3 days of labor, entitled to vote) and "Passive Citizens" (all women and poorer men, denied voting rights).\n7. **Sept 1792 (Birth of the Republic):** Monarchy abolished; newly elected National Convention declared France a Republic. King Louis XVI convicted of treason and executed by guillotine on Jan 21, 1793 at Place de la Concorde.\n8. **1793–1794 (Reign of Terror):** Robespierre\'s Committee of Public Safety; execution of political opponents; Law of the Maximum (wage/price ceilings); ended with the Thermidorian Reaction and execution of Robespierre (July 1794).\n9. **1795–1799 (The Directory):** A five-member executive ruling France amidst rampant corruption and instability.\n10. **1799 (Coup of 18 Brumaire):** Napoleon Bonaparte overthrew the Directory, establishing the Consulate and crowning himself Emperor in 1804; defeated at Waterloo in 1815.',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'The Continental System & The Anatomy of Napoleon\'s Downfall',
-        body: `### The Continental System (Berlin Decree, 1806)
-* Unable to defeat the British Royal Navy at sea (Battle of Trafalgar, 1805), Napoleon launched an economic embargo: **The Continental Blockade**.
-* Prohibited all European nations from trading with Great Britain, attempting to bankrupt British commercial manufacturing.
-* **Why it Backfired:** Britain possessed maritime supremacy and found alternative markets in the Americas. Continental Europe suffered acute shortages of coffee, sugar, and industrial goods, triggering widespread smuggling and driving Tsar Alexander I of Russia to break the blockade, provoking Napoleon's fatal 1812 invasion of Russia!`,
+        title: 'Women\'s Rights, Colonial Slavery & The Napoleonic Legal Order',
+        body: '### 1. Did Women Have a Revolution? (NCERT Class IX Focus)\n- Women were active participants from the start (e.g., the **Women\'s March on Versailles**, October 5, 1789, forcing the royal family back to Paris).\n- Women formed around 60 political clubs across French cities; the most famous was the **Society of Revolutionary and Republican Women** (*Société des Républicaines Révolutionnaires*).\n- **Olympe de Gouges (1748–1793):** Protested against the 1791 Constitution and Declaration of Rights of Man for excluding women. In 1791, she authored the landmark ***Declaration of the Rights of Woman and of the Female Citizen***:\n  > *"Woman is born free and remains equal to man in rights."*\n- During the Reign of Terror, the Jacobin government forcibly shut down women\'s clubs, banned women\'s political assemblies, and guillotined Olympe de Gouges in 1793.\n- *Note for Exams:* French women finally gained the right to vote only in **1946**!\n\n---\n\n### 2. The Triangular Slave Trade & The Slavery Abolition Timeline\n- **Triangular Trade Architecture:** European slave merchants sailed from French ports (Bordeaux, Nantes) to African coasts, bought enslaved Africans, shipped them across the Atlantic in a brutal 3-month Middle Passage to the Caribbean colonies (Martinique, Guadeloupe, San Domingo), where enslaved labor produced sugar, coffee, and indigo for European markets.\n- **Abolition Timeline:**\n  * In 1794, the radical **National Convention** passed a law emancipating all enslaved persons in French overseas colonies.\n  * In 1802, **Napoleon Bonaparte** re-established slavery to appease wealthy plantation owners and merchants.\n  * Slavery was finally and permanently abolished across all French colonies in **1848**.\n\n---\n\n### 3. The Napoleonic Civil Code of 1804 (*Code Civil des Français*)\n- Replaced over 300 regional customary feudal laws with a unified national civil code:\n  1. Abolished all privileges based on birth (clergy, nobility).\n  2. Established equality before the law for all citizens.\n  3. Secured and protected the inviolable right to private property.\n  4. Modernized administrative divisions, abolished the guild system in towns, and standardized weights and measures using the decimal metric system.\n- *Patriarchal Limitation:* Re-established patriarchal control; married women were legally subordinated to husbands and denied independent administration of property.',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Bastille Day Date & Napoleonic Code Date',
-        body: `### High-Frequency Traps in French Revolution History
-
-1. **Bastille Day Landmark:**
-   * Stormed on **July 14, 1789** (celebrated annually as France\'s National Day).
-
-2. **Napoleonic Code Enactment Year:**
-   * Enacted in **1804** (the exact year Napoleon crowned himself Emperor).
-
-3. **Battle of Waterloo Date & Defeater:**
-   * Fought on **June 18, 1815**; Napoleon defeated by the **Duke of Wellington (Britain)** and **Gebhard von Blücher (Prussia)**.`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical & Transatlantic Topology of Revolutionary France',
+        body: 'Geopolitical & Maritime Node Schematic of the French Revolution:\n\n       North Sea\n          |\n       [Great Britain] <== (Continental Blockade Berlin Decree 1806)\n          |\n       English Channel\n          |\n   +------V--------------------------------------------+\n   | FRANCE                                            |\n   |   [Paris] (Bastille 14 July 1789, Guillotine)    |\n   |   [Versailles] (Estates-General, Tennis Court)   |\n   |                                                   |\n   |   Slave Trade Ports:                              |\n   |   - [Nantes] (Atlantic slave trade port)          |\n   |   - [Bordeaux] (Wine, sugar, slave commerce)      |\n   |                                                   |\n   |   National Anthem Origin:                         |\n   |   - [Marseilles] --> Volunteers sang Roget de    |\n   |     L\'Isle\'s hymn "La Marseillaise" marching    |\n   |     to Paris (1792)                               |\n   +------|--------------------------------------------+\n          |\n   Transatlantic Middle Passage\n          |\n          V\n   [Caribbean Sugar Colonies: San Domingo / Haiti, Martinique, Guadeloupe]',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Indian Resonance & Standard Answer Frameworks',
+        body: '### 1. Examiner Traps & Misconceptions\n- **Tithe vs. Taille Trap:**\n  * *Tithe:* Ecclesiastical tax collected by the Catholic Church (1/10th of agricultural produce).\n  * *Taille:* Direct tax paid to the state/King by members of the Third Estate.\n- **Active vs. Passive Citizens Trap (1791 Constitution):** Only men above 25 years who paid taxes equal to at least 3 days of an agricultural laborer\'s wage were designated "Active Citizens" with the right to vote. All women, servants, and men unable to pay were "Passive Citizens".\n- **Slavery Abolition Dates:** The Convention abolished slavery in **1794**, Napoleon re-established it in **1802**, and France\'s final, permanent abolition was achieved in **1848**.\n- **La Marseillaise Composer:** Composed by **Roget de L\'Isle** as a war song for the Army of the Rhine; sung by volunteers from Marseilles entering Paris, becoming the national anthem of France.\n\n---\n\n### 2. Global & Indian Resonance (NCERT Explicit Highlight)\n- **Tipu Sultan (Mysore):** Deeply inspired by French revolutionary ideals; planted the "Tree of Liberty" at his capital Seringapatam in 1797 and became a member of the Jacobin Club.\n- **Raja Rammohan Roy:** Enthusiastically championed the ideals of the French Revolution and the 1830 July Revolution; celebrated the triumph of constitutional principles over European despotism.\n\n---\n\n### 3. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Evaluate the socio-economic and political causes of the French Revolution (1789).**\n- **Structure:**\n  * *Introduction (15 words):* Erupted on July 14, 1789 due to the structural collapse of the Ancien Régime under Louis XVI.\n  * *Socio-Economic Causes (45 words):* Severe inequality—1st and 2nd Estates (2% pop, 60% land) held tax exemptions; 3rd Estate (98% pop) paid Tithes and Tailles. Famines, soaring bread prices, and state bankruptcy caused by American War debt.\n  * *Political & Ideological Causes (30 words):* Royal absolutism and despotic Versailles court; intellectual mobilization by Locke, Rousseau (General Will), and Montesquieu (Separation of Powers).\n  * *Conclusion (10 words):* Catalyzed the historic shift from divine dynastic monarchy to national citizen sovereignty.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-04-1',
-        statement: 'The French Revolution erupted in 1789 with the Storming of the Bastille on July 14, followed by the National Assembly adopting the Declaration of the Rights of Man and of the Citizen on August 26, 1789.',
-        claimType: 'REVOLUTIONARY_EVENT',
+        statement: 'Under the Ancien Régime in France, the clergy collected the Tithe (one-tenth of agricultural produce) and the state collected the direct tax Taille, with the Third Estate bearing the entire tax burden while the first two estates enjoyed exemptions.',
+        claimType: 'TAXATION_AND_SOCIAL_ORDER',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-40',
-        excerpt: 'The French Revolution (1789): Storming of the Bastille July 14 1789, Declaration of Rights of Man.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 1, Section 1: French Society During the Late Eighteenth Century, pp. 4-6',
+        excerpt: 'The Church too extracted its share of taxes called tithes from the peasants, and finally, all members of the third estate had to pay taxes to the state. These included a direct tax, called taille, and a number of indirect taxes which were levied on articles of everyday consumption like salt or tobacco.',
       },
       {
         id: 'CLM-WLD-04-2',
-        statement: 'The radical phase of the French Revolution (1793–1794) was dominated by Robespierre\'s Committee of Public Safety executing thousands during the Reign of Terror until the Thermidorian reaction.',
-        claimType: 'POLITICAL_TERROR',
+        statement: 'The French revolutionary government under the National Convention abolished slavery across French overseas colonies in 1794, but Napoleon Bonaparte reintroduced it in 1802, before it was permanently abolished in 1848.',
+        claimType: 'LEGAL_AND_COLONIAL_TRANSFORMATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-40',
-        excerpt: 'Reign of Terror: Robespierre, Jacobins, Committee of Public Safety 1793-94.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 1, Section 5: The Abolition of Slavery, pp. 21-22',
+        excerpt: 'The Convention in 1794 legislated to free all slaves in the French overseas possessions. This, however, turned out to be a short-term measure: ten years later, Napoleon reintroduced slavery. Slavery was finally abolished in French colonies in 1848.',
       },
       {
         id: 'CLM-WLD-04-3',
-        statement: 'Napoleon Bonaparte seized power in the Coup of 18 Brumaire (1799) and promulgated the Civil Code of 1804 (Napoleonic Code), standardizing equality before the law and property rights before his defeat at Waterloo in 1815.',
-        claimType: 'LEGAL_AND_MILITARY_TRANSFORMATION',
+        statement: 'Olympe de Gouges protested against the 1791 Constitution for excluding women by writing the Declaration of the Rights of Woman and Citizen in 1791, prior to her trial and execution by the Jacobin regime during the Reign of Terror.',
+        claimType: 'GENDER_AND_POLITICAL_RIGHTS',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-45',
-        excerpt: 'The Rise of Nationalism in Europe: Napoleonic Code 1804, Battle of Waterloo 1815.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 1, Section 4: Did Women have a Revolution?, pp. 18-20',
+        excerpt: 'Olympe de Gouges was one of the most important of the politically active women in revolutionary France. She protested against the Constitution and the Declaration of Rights of Man and Citizen as they excluded women. So in 1791, she wrote a Declaration of the Rights of Woman and Citizen.',
+      },
+      {
+        id: 'CLM-WLD-04-4',
+        statement: 'Indian leaders Tipu Sultan and Raja Rammohan Roy responded directly to the ideals of the French Revolution, with Tipu Sultan joining the Jacobin Club and planting a Tree of Liberty at Seringapatam.',
+        claimType: 'GLOBAL_RECEPTION_AND_IMPACT',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class IX India and the Contemporary World - I, Chapter 1, Section 6: The Revolution and Everyday Life, p. 24',
+        excerpt: 'Tipu Sultan and Rammohan Roy are two examples of individuals who responded to the ideas coming from revolutionary France. Tipu Sultan planted the Tree of Liberty at Seringapatam and became a member of the Jacobin Club.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / French Revolution & Napoleonic Era',
+        syllabusUnit: 'GS Paper I — World History / French Revolution: Causes, Ideology, Global Impact & Napoleon',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Causes, phases of the French Revolution, and Napoleonic Code are among UPSC\'s most repeated World History themes.',
+        notes: 'High emphasis on Enlightenment intellectual foundations (Locke, Rousseau, Montesquieu), comparative examination of the Reign of Terror, and transatlantic dimensions (Haiti/Slavery).',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / French Revolution & Napoleon',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / The French Revolution and The Napoleonic Order',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Guaranteed 10-mark question on the causes of the French Revolution or evaluation of Napoleon.',
+        notes: 'Frequently examined in 2-mark terms (Tithe, Taille, Estates-General, Tennis Court Oath), 5-mark short notes (Robespierre\'s Reign of Terror, Civil Code 1804), and 10-mark essays on causes.',
       },
       {
         examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — World History',
+        syllabusUnit: 'General Awareness — World History & Landmark Revolutions',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Bastille Day (14 July 1789), Napoleonic Code year (1804), and Waterloo year (1815).',
+        notes: 'Focus on landmark dates (Bastille Day 14 July 1789, Napoleon Emperor 1804, Waterloo 1815), Tithe vs Taille definitions, and Olympe de Gouges.',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — Modern World History',
+        syllabusUnit: 'General Studies — Modern World History & Democratic Institutions',
         relevance: 'CORE',
         priority: 'HIGH',
         requiredDepth: 'POLITICAL_DEVELOPMENTS',
-        notes: 'Tested on Rights of Man declaration and Estates-General.',
+        notes: 'Emphasis on Declaration of Rights of Man, separation of powers doctrine, and early labor/property regulations.',
       },
       {
         examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global Milestones',
+        syllabusUnit: 'General Awareness — Global Historical Milestones',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on landmark democratic milestones.',
+        notes: 'Historical awareness of democratic principles and civil code legal origins.',
       },
       {
         examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Heritage',
+        syllabusUnit: 'General Awareness — World History',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on key European revolutions.',
+        notes: 'Landmark events of modern world history.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
+        syllabusUnit: 'General Awareness — Historical Milestones & Economic History',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static questions on world revolutions.',
+        notes: 'Evolution of state fiscal crises, public debt, and property law.',
       },
       {
         examCode: 'IIBF_DBF',
@@ -940,69 +918,71 @@ Even after Napoleon was exiled to Saint Helena, he remarked: *"My real glory is 
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Origins of modern constitutional rights and property law.',
+        notes: 'Origins of modern property rights and universal civil law.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'French Revolution (1789): 3 Estates (1st Clergy, 2nd Nobility - no tax; 3rd Commoners - paid all taxes). Tennis Court Oath (June 20, 1789). Storming of Bastille (July 14, 1789). Declaration of Rights of Man (Aug 26, 1789). Reign of Terror (1793-94, Robespierre, Jacobins, Guillotine). Napoleon: Coup of 18 Brumaire (1799), Napoleonic Code (1804, equality before law, property rights), Waterloo defeat (June 18, 1815).',
+        content: 'French Revolution (1789): 1) Estates: 1st Clergy (Tithe = 10% crop tax), 2nd Nobility (Taille-exempt, feudal dues), 3rd Commoners (98% pop, paid all taxes). 2) Outbreak: Tennis Court Oath (June 20, 1789), Bastille Stormed (July 14, 1789). 3) Milestones: Rights of Man (Aug 1789), 1791 Constitution (Active vs Passive citizens), Jacobin Reign of Terror (1793-94, Robespierre, Guillotine). 4) Women: Olympe de Gouges (1791 Rights of Woman; executed 1793). 5) Slavery: Abolished 1794, reintroduced by Napoleon 1802, final abolition 1848. 6) Napoleon: Code 1804, Waterloo 1815.',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'The French Revolution Blueprint: 1) Causes: Fiscal bankruptcy under Louis XVI; unfair privileges where the 1st and 2nd Estates paid no tax while the 3rd Estate bore all levies. 2) Constitutional Phase: Tennis Court Oath; Storming of Bastille (July 14, 1789); Declaration of the Rights of Man and Citizen (August 1789). 3) Radical Phase: Monarchy abolished; King executed; Robespierre\'s Jacobin Reign of Terror (1793–94). 4) Napoleonic Order: Napoleon seized power (1799); issued the Civil Code of 1804 establishing equality before law and inviolable property; defeated at Waterloo in 1815.',
+        content: 'The French Revolution Blueprint (NCERT Class IX): 1) Causes: Deep fiscal crisis under Louis XVI; inequitable three-estate feudal order where privileged clergy and nobility paid zero direct taxes, while the Third Estate bore Tithes and Tailles; bread shortages; Enlightenment ideas of Locke, Rousseau, and Montesquieu. 2) Constitutional Experiments: Tennis Court Oath (1789) formed the National Assembly; Bastille fell on July 14, 1789; Declaration of Rights of Man (August 1789); 1791 Constitution divided citizens into Active (tax-paying voters) and Passive. 3) Radical Republic & Terror: Jacobins under Robespierre overthrew the monarchy (1792), executed Louis XVI (Jan 1793), and instituted the Reign of Terror with wage-price ceilings and mass guillotining. 4) Gender & Slavery: Women formed clubs like the Society of Revolutionary and Republican Women; Olympe de Gouges championed women\'s rights; slavery was abolished in 1794, restored by Napoleon in 1802, and abolished in 1848. 5) Napoleonic Order: Napoleon\'s 1804 Civil Code established legal equality and property protection, ending feudalism across Europe before his 1815 defeat at Waterloo.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Modern Democratic Sovereignty Architecture: 1) Sovereign Relocation: Shifting legitimate authority from the divine body of the monarch to the abstract "Nation" and "Citizens". 2) Legal Universalism: Napoleonic Code dismantling centuries of feudal exemptions in favor of meritocratic civil law. 3) Dialectic of Imperial Liberation: French revolutionary armies exporting liberation across Europe while provoking anti-French nationalist reactions (Germany, Spain).',
+        content: 'French Revolutionary Statecraft Architecture:\n1) Fiscal Collapse to Popular Sovereignty: State bankruptcy forced the Estates-General convocation; deadlock over medieval voting (one vote per estate) led the Third Estate to proclaim national sovereignty (Tennis Court Oath).\n2) Rights-Based Universalism vs Exclusions: The Declaration of the Rights of Man proclaimed universal liberties, but operationalized exclusions: women were denied political franchise, creating counter-manifestos like Olympe de Gouges\'s 1791 Declaration; Caribbean colonial slavery persisted despite declarations of universal brotherhood until the 1794 decree.\n3) Institutional Legacy: The Napoleonic Code exported administrative rationalization, metric standards, and secular civil law across Western Europe, ensuring that even after the 1815 Bourbon Restoration, the feudal Ancien Régime could never be reconstituted.',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'FRENCH_REV_MCQ',
-        stem: 'On which historic date did the revolutionary citizens of Paris storm the medieval fortress and prison known as the "Bastille", marking the violent beginning of the French Revolution?',
-        options: ['May 5, 1789', 'June 20, 1789', 'July 14, 1789', 'August 26, 1789'],
-        correctAnswer: 'July 14, 1789',
-        explanation: 'The Storming of the Bastille took place on July 14, 1789, when an armed crowd seized the fortress-prison looking for gunpowder, symbolizing the collapse of royal absolutism. July 14 is celebrated as France\'s National Day (Bastille Day).',
-        trapExplanation: 'May 5 is the meeting of Estates-General; June 20 is the Tennis Court Oath; August 26 is the Declaration of Rights of Man.',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Under the Ancien Régime in France on the eve of the 1789 Revolution, what did the term "Taille" specifically denote?',
+        options: [
+          'A compulsory tax of one-tenth of agricultural produce levied by the Catholic Church',
+          'A direct tax paid by members of the Third Estate to the royal treasury',
+          'An indirect customs duty levied exclusively on luxury wines exported to England',
+          'A feudal labor service rendered by serfs on the lord\'s agricultural estate'
+        ],
+        correctAnswer: 'A direct tax paid by members of the Third Estate to the royal treasury',
+        explanation: 'In 18th-century France, "Taille" was the direct tax levied by the state and paid by the Third Estate. In contrast, "Tithe" was the religious tax amounting to one-tenth (10%) of agricultural produce collected by the Church from the peasantry.',
+        trapExplanation: 'Option A refers to the Tithe; Option D refers to the Corvée.',
         difficulty: 'EASY',
         isPYQ: true,
         pyqYear: 2021,
-        pyqPaper: 'SSC CGL Tier 1',
-        pyqStage: 'Tier 1',
-        examinerTrapPattern: 'Exact landmark date of the Storming of the Bastille (14 July 1789).',
+        pyqPaper: 'RPSC RAS Prelims',
+        pyqStage: 'Prelims',
+        examinerTrapPattern: 'Confusing Tithe (Church tax) with Taille (direct royal state tax).',
       },
       {
-        type: 'NAPOLEON_MCQ',
-        stem: 'Which of the following was a fundamental principle codified into law across Europe by the "Napoleonic Civil Code of 1804"?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'Consider the following statements regarding the abolition of slavery in the French colonies during the revolutionary era:\n1. The National Convention passed a law in 1794 emancipating all slaves in French overseas possessions.\n2. Napoleon Bonaparte permanently abolished slavery throughout the French Empire upon promulgating the Civil Code of 1804.\n3. Slavery in French colonies was finally and permanently abolished in the year 1848.\nWhich of the statements given above is/are strictly correct according to NCERT historical records?',
         options: [
-          'Restoration of the feudal rights and tax exemptions of the hereditary nobility',
-          'Establishment of legal equality of all citizens before the law and protection of the right to property',
-          'Grant of equal legal and inheritance rights to married women independent of their husbands',
-          'Mandatory state enforcement of the Catholic faith as the sole religion of the Empire'
+          '1 and 2 only',
+          '1 and 3 only',
+          '2 and 3 only',
+          '1, 2 and 3'
         ],
-        correctAnswer: 'Establishment of legal equality of all citizens before the law and protection of the right to property',
-        explanation: 'The Napoleonic Code of 1804 abolished hereditary feudal privileges, established absolute equality before the law for all male citizens, and secured the inviolability of private property rights. (However, it severely restricted women\'s legal rights, placing them under patriarchal authority).',
-        trapExplanation: 'Option C is a common misconception; the Napoleonic Code actually subordinated married women to their husbands.',
+        correctAnswer: '1 and 3 only',
+        explanation: 'Statement 1 is correct: In 1794, the radical Convention legislated to free all slaves in the French colonies. Statement 2 is incorrect: Napoleon Bonaparte did NOT abolish slavery; he reintroduced slavery in 1802 to protect merchant plantation interests in the Caribbean. Statement 3 is correct: Slavery was finally and permanently abolished in French colonies in 1848.',
+        trapExplanation: 'The common misconception is that Napoleon, as an enlightened reformer, abolished slavery; in reality, he reintroduced it in 1802.',
         difficulty: 'INTERMEDIATE',
         isPYQ: true,
-        pyqYear: 2020,
+        pyqYear: 2022,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Core provisions and patriarchal limitations of the 1804 Napoleonic Code.',
+        examinerTrapPattern: 'Attributing the abolition of slavery to Napoleon instead of the 1794 Convention / 1848 Republic.',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 5: 19th Century European Nationalism & State Unification
-  // =========================================================================
   {
     id: 'CON-WLD-05',
     slug: 'nineteenth-century-nationalism-unification-of-italy-and-germany',
