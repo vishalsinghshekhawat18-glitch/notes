@@ -692,254 +692,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 4: The Vijayanagara Empire & The Deccan Sultanates
   // =========================================================================
   {
-    id: 'CON-MED-04',
-    slug: 'vijayanagara-empire-dynasties-krishnadevaraya-and-amaranayaka-system',
-    title: 'The Vijayanagara Empire: Dynastic Architecture, The Amaranayaka Military System, and Imperial Urban Morphology at Hampi',
-    shortDefinition: 'The southern imperial fortress of Hindu revivalism (1336–1646 CE): The four dynasties (Sangama, Saluva, Tuluva, Aravidu), Krishnadevaraya\'s golden age (*Amuktamalyada*), the Amaranayaka feudal military administrative system, imperial urban architecture at Hampi (Mahanavami Dibba, Hazara Rama, Vittala temple), the Battle of Talikota (1565), and relations with the Deccan Sultanates.',
-    difficulty: 'ADVANCED',
-    order: 4,
-    topicSlug: 'vijayanagara-empire-and-deccan-sultanates',
-    contentBlocks: [
+    "id": "CON-MED-04",
+    "slug": "vijayanagara-empire-dynasties-krishnadevaraya-and-amaranayaka-system",
+    "title": "The Vijayanagara Empire: Dynastic Architecture, The Amaranayaka Military System, and Imperial Urban Morphology at Hampi",
+    "shortDefinition": "Authoritative NCERT Class XII Theme 7 (*An Imperial Capital: Vijayanagara*) synthesis: The southern imperial state (1336–1646 CE) founded by Harihara and Bukka in the Tungabhadra basin; dynastic succession across Sangama, Saluva, Tuluva, and Aravidu dynasties; Krishnadevaraya's (1509–1529 CE) golden age (*Amuktamalyada*, Ashtadiggajas, Nagalapuram); the Amaranayaka military-feudal tenure system; hydraulic engineering (Kamalapuram tank, Hiriya canal); fortified urban morphology chronicled by Abdur Razzaq and Domingo Paes; sacred architecture (Virupaksha, Vittala Stone Chariot, Mahanavami Dibba); and the catastrophic Battle of Talikota (1565 CE).",
+    "difficulty": "ADVANCED",
+    "order": 4,
+    "topicSlug": "vijayanagara-empire-and-deccan-sultanates",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'The "Forgotten Empire": A Jewel of Water, Granite, and Cavalry',
-        body: `In 1336 CE, on the rugged south bank of the rocky Tungabhadra River, two brothers—**Harihara and Bukka**, disciples of the sage Vidyaranya—founded the **Vijayanagara Empire (City of Victory)**. For over two centuries, Vijayanagara stood as the paramount southern bastion of Hindu statecraft, arts, and religion, checking the southward expansion of the Delhi Sultanate and the Bahmani Sultanate.
-
-When European travellers like **Domingo Paes** and **Fernão Nuniz** (Portugal) and **Abdur Razzaq** (Persia) walked into its capital at **Hampi**, they were stunned into disbelief. Paes recorded that the city was *"as large as Rome and very beautiful to the sight"*, with royal markets spilling over with diamonds, pearls, and imported Arabian war-horses.
-
-The empire\'s power rested on three pillars:
-1. **Hydraulic Engineering:** Massive dams across the Tungabhadra, the Kamalapuram tank, and the Hiriya canal that sustained agriculture amidst arid granite boulders.
-2. **The Amaranayaka System:** A sophisticated military tenure system where military commanders governed territories in exchange for maintaining war contingents.
-3. **Sacred Imperial Urbanism:** Synthesizing royal authority with devotion to the patron deity **Lord Virupaksha** and the mother goddess **Pampa Devi**.`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "The \"Forgotten Empire\": A Jewel of Water, Granite, and Cavalry",
+        "body": "In 1336 CE, on the rugged, granite-strewn southern bank of the rushing Tungabhadra River, two brothers—**Harihara and Bukka**, inspired by the spiritual counsel of sage Vidyaranya—established the **Vijayanagara Empire (\"City of Victory\")**. For over two centuries, Vijayanagara functioned as the paramount bastion of peninsular Hindu statecraft, culture, and architecture, successfully holding the northern frontier against the Delhi Sultanate and its successor Deccan Sultanates.\n\nWhen European and Persian travellers visited its capital at **Hampi** in the 15th and 16th centuries, they were left spellbound:\n* **Abdur Razzaq Samarqandi (1440s)** recorded in awe that the city was surrounded by **seven concentric rings of fortified stone walls** that enclosed not only palaces and temples, but cultivated fields, orchards, and waterways.\n* **Domingo Paes (c. 1520)** wrote that Vijayanagara was *\"as large as Rome, very beautiful to the sight... the best provided city in the world\"*, with markets overflowing with rubies, diamonds, emeralds, and fine silks.\n\nThe imperial genius of Vijayanagara rested upon three grand structural foundations:\n1. **Hydraulic Engineering Mastery:** Dams across the rocky Tungabhadra, the vast **Kamalapuram tank**, and the **Hiriya canal** that turned an arid boulder-landscape into an oasis of rice and sugarcane.\n2. **The Amaranayaka Military System:** A militarized territorial tenure framework where war-captains (*Nayakas*) governed assigned territories in return for maintaining permanent quotas of elite cavalry and war-elephants.\n3. **Sacred Imperial Legitimacy:** Royal authority integrated with deep religious veneration—kings ruled explicitly as earthly vice-regents on behalf of the patron deity **Lord Virupaksha**, signing royal edicts in Kannada script as *\"Sri Virupaksha\"*.",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'The 4 Dynasties, Krishnadevaraya & The Amaranayaka Framework',
-        body: `### 1. The 4 Ruling Dynasties of Vijayanagara
-
-| Dynasty | Reign Period | Legendary Sovereigns | Historical & Cultural Significance |
-| :--- | :--- | :--- | :--- |
-| **1. Sangama Dynasty** | **1336–1485 CE** | Harihara I, Bukka I, Deva Raya II. | Founded the empire; established control over Krishna-Tungabhadra Doab; Deva Raya II enlisted Muslim archers to modernize cavalry. |
-| **2. Saluva Dynasty** | **1485–1505 CE** | Saluva Narasimha. | Short military usurpation to prevent imperial collapse after weak Sangama successors. |
-| **3. Tuluva Dynasty** | **1505–1570 CE** | Vira Narasimha, **Krishnadevaraya**, Achyuta Deva Raya. | **The Golden Age of Vijayanagara**; Portuguese trade alliance; military zenith; Battle of Talikota (1565). |
-| **4. Aravidu Dynasty** | **1570–1646 CE** | Tirumala, Venkata II. | Ruled from Penukonda and Chandragiri after the destruction of Hampi; gradual decline. |
-
-### 2. Krishnadevaraya\'s Reign (1509–1529 CE) — The Golden Age
-* **Military Triumphs:** Subdued the rebellious chiefs of Ummattur; captured the Raichur Doab (1512); defeated the Sultan of Bijapur (Ismail Adil Shah) and the Gajapati ruler of Odisha (Prataparudra Deva).
-* **Literary Patronage:**
-  * Composed the Telugu political masterpiece **Amuktamalyada** (treatise on statecraft, royal duty, and public welfare).
-  * Composed Sanskrit drama **Jambavati Kalyanam**.
-  * His royal court (*Bhuvana Vijayam*) was graced by the **Ashtadiggajas** (Eight Literary Giants), including Allasani Peddana and Tenali Ramakrishna.
-* **Monuments:** Built the eastern *gopuram* of the Virupaksha Temple, added the Hall of Thousand Pillars, founded the suburban city of **Nagalapuram** (named after his mother Nagala Devi).
-
-### 3. The Amaranayaka Feudal Military System
-* **Definition:** Derived from the Sanskrit root *Samara* (battle). The **Amaranayakas** were military commanders who were granted territories to govern by the *Raya* (king).
-* **Fiscal & Military Responsibilities:**
-  * Collected taxes and dues from peasants, craftspersons, and traders in their territory.
-  * Retained a portion of revenue for personal maintenance, palace upkeep, and temple donations.
-  * **Maintained a fixed quota of elephants, cavalry, and infantry** for imperial mobilization whenever the Raya marched to war.
-* **Imperial Control Mechanisms:**
-  * Sent annual tribute directly to the king.
-  * Personally attended the royal court during the **Mahanavami festival** bearing expensive gifts (*Kani*) to demonstrate fealty.
-  * The king could transfer them to other territories at will (though later Nayakas became hereditary, weakening central control).`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The 4 Dynasties, Krishnadevaraya & The Amaranayaka Framework",
+        "body": "### 1. The 4 Ruling Dynasties of Vijayanagara\n\n| Dynasty | Reign Period | Legendary Sovereigns | Historical, Military & Cultural Legacy |\n| :--- | :--- | :--- | :--- |\n| **1. Sangama Dynasty** | **1336–1485 CE** | Harihara I, Bukka I, Deva Raya II (*Praudha Deva Raya*). | Founded the empire; secured the Krishna-Tungabhadra Doab; Deva Raya II modernized the army by enlisting skilled Muslim archers and cavalrymen, building a mosque for them in the capital. |\n| **2. Saluva Dynasty** | **1485–1505 CE** | Saluva Narasimha. | Military commanders who usurped power to restore order and stem territorial losses after weak Sangama successors. |\n| **3. Tuluva Dynasty** | **1505–1570 CE** | Vira Narasimha, **Krishnadevaraya**, Achyuta Deva Raya, Sadasiva Raya (under regent Rama Raya). | **The Imperial Golden Age**; total subjugation of the Raichur Doab; flourishing trade with the Portuguese; climax at the Battle of Talikota (1565). |\n| **4. Aravidu Dynasty** | **1570–1646 CE** | Tirumala, Venkata II. | Founded by Rama Raya's brother Tirumala; shifted capitals southeast to **Penukonda** and **Chandragiri** after Hampi's destruction; gradual fragmentation under rebellious Nayakas. |\n\n### 2. Krishnadevaraya's Reign (1509–1529 CE) — The Imperial Zenith\n* **Military Dominance:**\n  * Subdued the rebellious chiefs of **Ummattur** in southern Karnataka (1510–12).\n  * Annexed the strategic **Raichur Doab** between the Krishna and Tungabhadra rivers (1512).\n  * Defeated the Gajapati king of Odisha (**Prataparudra Deva**), restoring conquered coastal territories in exchange for peace and matrimonial alliance.\n  * Crushed Sultan **Ismail Adil Shah** of Bijapur, temporarily occupying Gulbarga and restoring the puppet Bahmani Sultan (taking the title *Yavana-rajya-sthapana-acharya* — \"Restorer of the Yavana Kingdom\").\n* **Economic & Diplomatic Astuteness:**\n  * Cultivated close trade alliances with the Portuguese governor **Afonso de Albuquerque**, securing an exclusive monopoly on high-breed Arabian and Persian war-horses imported via Goa.\n* **Literary & Cultural Patronage:**\n  * Authored the Telugu political classic **Amuktamalyada** (\"Giver of the Worn Garland\"), outlining principles of statecraft, irrigation investment, merchant protection, and justice.\n  * Composed the Sanskrit drama **Jambavati Kalyanam**.\n  * Patronized the legendary **Ashtadiggajas** (\"Eight Elephants of Literature\") in his royal assembly (*Bhuvana Vijayam*), led by Allasani Peddana (author of *Manucharitam*) and Tenali Ramakrishna.\n  * Founded the suburban royal township of **Nagalapuram** in memory of his mother Nagala Devi.\n\n### 3. The Amaranayaka Military-Feudal System\n* **Etymology & Origin:** The term *Amara* is believed to derive from the Sanskrit *Samara* (battle) and resembles the Persian *Amir* (commander).\n* **Structural Blueprint:**\n  * The **Amaranayakas** were military captains assigned territories (*Amara*) to govern by the sovereign (*Raya*).\n  * They collected land revenues, trade duties, and tolls from peasants, craftspersons, and merchants.\n  * Retained designated shares for personal maintenance, palatial establishments, and temple upkeep.\n  * **Maintained a mandatory standing contingent of war-elephants, cavalry, and foot-soldiers** to be mobilized whenever the Raya summoned the imperial army.\n* **Checks, Balances & Central Control:**\n  * Required to remit an annual financial tribute to the central royal treasury.\n  * Obligated to present themselves in person at the capital during the **Mahanavami festival**, bearing lavish gifts (*Kani*) to demonstrate fealty.\n  * The Raya retained the legal prerogative to transfer Amaranayakas across provinces or dismiss them for treason (though during the 16th and 17th centuries, many Nayakas established hereditary dynasties, culminating in the independent Nayak polities of Madurai, Thanjavur, and Senji).",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'Hampi Urban Architecture & The Cataclysmic Battle of Talikota (1565)',
-        body: `### 1. Sacred & Royal Architecture at Hampi (UNESCO World Heritage Site)
-* **Mahanavami Dibba:** A massive 40-foot-high, 11,000-sq-ft elevated stone platform where the Raya observed wrestling matches, military parades, state sacrifices, and worship of state horses during the 10-day Dussehra festival.
-* **Lotus Mahal:** Indo-Islamic secular pavilion with nine vaulted domes and cusped arches.
-* **Vittala Temple Complex:** Celebrated for its monolithic **Stone Chariot (*Ratha*)** and the 56 **Musical Pillars (*Sa-Re-Ga-Ma* Pillars)** that emit musical notes when struck.
-
-### 2. The Battle of Talikota / Rakshasi-Tangadi (January 23, 1565)
-* **Background:** The regent **Aliya Rama Raya** engaged in dangerous Machiavellian diplomacy, pitting the rival Deccan Sultanates against each other.
-* **The Grand Alliance:** The 4 Deccan Sultanates—**Bijapur, Golconda, Ahmadnagar, and Bidar** (Berar did not join)—formed an unprecedented grand coalition, cemented by matrimonial ties.
-* **The Climax:** At the battlefield between Rakshasi and Tangadi villages, Rama Raya was routed, captured, and beheaded by the Sultan of Ahmadnagar. The triumphant sultanate armies sacked and pillaged Hampi for six months, reducing one of the world's most glorious cities to ruins.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Hampi Urban Architecture, Hydraulic Works & The Cataclysmic Battle of Talikota (1565)",
+        "body": "### 1. Sacred, Royal, and Hydraulic Architecture at Hampi (NCERT Class XII Theme 7)\n* **Water Resource Management:**\n  * Situated in a semi-arid zone with natural granite boulder hills, Vijayanagara developed unmatched rainwater harvesting.\n  * **Kamalapuram Tank:** Built in the early 15th century; stored rainwater and runoff, irrigating central fields and piping drinking water via stone aqueducts to the Royal Centre.\n  * **Hiriya Canal:** Built by Sangama rulers; drew water from a dam across the Tungabhadra to cultivate the sacred valley between the sacred centre and the urban core.\n* **Sacred Centre Monuments:**\n  * **Virupaksha Temple:** Ancient shrine expanded over centuries; Krishnadevaraya added the grand eastern *raya-gopuram* and the ornate 100-pillared hall in 1510 CE to celebrate his coronation.\n  * **Vittala Temple Complex:** Celebrated for its iconic **Stone Chariot (*Ratha*)** (depicted on the Indian ₹50 banknote) and the 56 **Musical Pillars (*Sa-Re-Ga-Ma* pillars)** carved out of single granite monoliths that resonate with musical tones when struck.\n* **The Royal Centre & Civic Platforms:**\n  * **Mahanavami Dibba:** A massive, multi-tiered granite platform (40 feet high, 11,000 sq ft base) carved with high-relief friezes of cavalry, dancers, hunters, and court life. Here the Raya performed the 10-day *Mahanavami* (Navaratri/Dussehra) rituals, state sacrifices (*bali*), horse-worship (*ayudha puja*), wrestling bouts, and military reviews.\n  * **Lotus Mahal & Queen's Bath:** Masterpieces of Indo-Islamic secular synthesis featuring nine vaulted domes, lobed arches, and plaster arabesques.\n  * **Elephant Stables:** Grand vaulted pavilion with eleven domed chambers designed in the contemporary Deccani Islamic style to house the royal war-elephants.\n\n### 2. The Cataclysmic Battle of Talikota / Rakshasi-Tangadi (January 23, 1565)\n* **Underlying Geopolitical Friction:** Regent **Aliya Rama Raya** (who wielded real power while king Sadasiva Raya was a figurehead) played a cynical game of balance-of-power diplomacy, pitting the rival Deccan Sultanates against each other.\n* **The Grand Deccan Coalition:** Realizing Rama Raya's divide-and-rule strategy, four rival Sultanates—**Bijapur (Adil Shahi), Ahmadnagar (Nizam Shahi), Golconda (Qutb Shahi), and Bidar (Barid Shahi)**—forged an unprecedented grand matrimonial and military alliance. (**Crucial Exam Trap:** The fifth Sultanate, **Berar (Imad Shahi)**, did NOT join the coalition due to regional hostility with Ahmadnagar!).\n* **The Climax at Rakshasi-Tangadi:**\n  * The opposing armies clashed near the villages of Rakshasi and Tangadi on the banks of the Krishna River.\n  * Despite Vijayanagara's numerical superiority, the coordinated artillery batteries of Ahmadnagar and Bijapur decimated the imperial lines. Key Muslim divisions in the Vijayanagara army reportedly defected or refused to engage.\n  * Rama Raya was captured, summarily beheaded by Sultan Husain Nizam Shah I of Ahmadnagar, and his severed head stuffed with straw on a spear.\n* **The Aftermath:** The victorious coalition troops advanced unopposed to Hampi, looting, burning, and systematically demolishing its palaces, pavilions, and temples for over six months, leaving behind the magnificent stone skeleton seen today.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Foreign Travellers & Battle of Talikota Coalitions',
-        body: `### High-Frequency Traps in Vijayanagara History
-
-1. **Foreign Travellers Chronology & Attribution (UPSC Favorite!):**
-   * **Nicolo de Conti (Italian):** Visited under Deva Raya I (Sangama).
-   * **Abdur Razzaq (Persian ambassador):** Visited under Deva Raya II (Sangama); described 7 concentric fortification walls.
-   * **Duarte Barbosa (Portuguese):** Visited under Krishnadevaraya.
-   * **Domingo Paes (Portuguese):** Visited under Krishnadevaraya; compared Hampi to Rome.
-   * **Fernão Nuniz (Portuguese horse-trader):** Visited under Achyuta Deva Raya; chronicled the Amaranayaka system.
-
-2. **Battle of Talikota Deccan Sultanate Exclusion Trap:**
-   * *Trap:* Assuming all 5 Deccan Sultanates fought at Talikota.
-   * *Truth:* **Berar did NOT participate** in the coalition against Vijayanagara! The alliance comprised Bijapur, Ahmadnagar, Golconda, and Bidar.
-
-3. **Krishnadevaraya Dynasty:**
-   * *Trap:* Assuming Krishnadevaraya belonged to the Sangama dynasty.
-   * *Truth:* He belonged to the **Tuluva dynasty** (the 3rd dynasty)!`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, Foreign Travellers & Comparative Institutions",
+        "body": "### 1. Foreign Travellers Matrix (UPSC / State PSC High-Yield)\n\n| Traveller | Origin | Period & Sovereign | Landmark Eyewitness Observation |\n| :--- | :--- | :--- | :--- |\n| **Nicolo de Conti** | Italy (Venice) | c. 1420 CE (Deva Raya I, Sangama) | Described city circumference (60 miles), festive customs, and currency. |\n| **Abdur Razzaq Samarqandi** | Persia (Timurid envoy) | c. 1443 CE (Deva Raya II, Sangama) | Chronicled **seven concentric rings of fortified walls** enclosing agricultural fields and orchards. |\n| **Athanasius Nikitin** | Russia (Merchant) | c. 1470 CE (During Bahmani / Vijayanagara wars) | Observed stark social contrast between the extreme luxury of the nobility and the poverty of the commoners (*Voyage Beyond the Three Seas*). |\n| **Duarte Barbosa** | Portugal | c. 1516–18 CE (Krishnadevaraya, Tuluva) | Detailed trade in gemstones, pearls, and textiles; religious freedoms in the city. |\n| **Domingo Paes** | Portugal | c. 1520–22 CE (Krishnadevaraya, Tuluva) | Compared Hampi to Rome; detailed the Mahanavami festival, royal market wealth, and irrigation dams. |\n| **Fernão Nuniz** | Portugal (Horse-trader) | c. 1535–37 CE (Achyuta Deva Raya, Tuluva) | Wrote an exhaustive administrative chronicle of the **Amaranayaka system**, revenue collection, and military mobilization. |\n\n---\n\n### 2. High-Frequency Traps & Misconceptions\n\n* **Trap 1: The Talikota Coalition Roster.**\n  * *Trap Question:* \"All five Deccan Sultanates united to overthrow Vijayanagara at the Battle of Talikota in 1565.\"\n  * *Correct Fact:* **Incorrect.** Only four Sultanates united: Bijapur, Ahmadnagar, Golconda, and Bidar. **Berar took no part.**\n* **Trap 2: Krishnadevaraya's Dynasty.**\n  * *Trap Question:* \"Krishnadevaraya founded the Sangama dynasty of Vijayanagara.\"\n  * *Correct Fact:* **Incorrect.** He was the greatest ruler of the **Tuluva dynasty** (the third dynasty). Sangama was the first dynasty founded by Harihara and Bukka.\n* **Trap 3: Nature of Amaranayaka Tenure.**\n  * *Trap Question:* \"Amaranayakas held hereditary, permanent ownership of land and could not be transferred by the king.\"\n  * *Correct Fact:* **Incorrect.** Conceptually, they were military governors holding non-hereditary revenue assignments (*Amara*) subject to royal transfer and recall, though in the declining phase of the empire they asserted hereditary independence.\n* **Trap 4: Currency Representation.**\n  * *Static GA Trap:* Which UNESCO site and monument is depicted on the reverse of the modern Indian ₹50 banknote?\n  * *Correct Fact:* The **Stone Chariot (*Ratha*) of the Vittala Temple at Hampi**, Karnataka.",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Landscape of Southern Peninsular India: The Raichur Doab & Coastal Trade Corridors",
+        "body": "### The Strategic Topography of the Vijayanagara Empire\n\n>                          [DECCAN SULTANATES]\n>                   (Ahmadnagar, Bijapur, Golconda, Bidar)\n>                                  |\n>                                  v\n>           ~~~~~~~~~~~~~~~~~~ Krishna River ~~~~~~~~~~~~~~~~~~\n>          |                                                   |\n>          |         THE RAICHUR DOAB (Fertile Triangle)       |\n>          |    (Perpetual Flashpoint: Vijayanagara vs Bijapur)|\n>          |                                                   |\n>           ~~~~~~~~~~~~~~~ Tungabhadra River ~~~~~~~~~~~~~~~~~\n>                                  |\n>                      [HAMPI / VIJAYANAGARA]\n>            * Granite boulder ridges (natural defense bastions)\n>            * Kamalapuram Tank & Hiriya Canal irrigation\n>                                  |\n>          <----------------------------------------------->\n>          |                                               |\n>      WESTERN COAST                                  EASTERN COAST\n>    (Port of Goa / Bhatkal)                        (Coromandel Coast / Masulipatnam)\n>    * Portuguese horse trade monopoly              * Chank, pearl fisheries,\n>    * Arab cavalry import conduit                    fine cotton textiles\n\n### Key Geographic Realities (NCERT Class XII Theme 7)\n1. **The Tungabhadra Natural Fortress:** The capital was founded in a natural amphitheatre formed by the rushing Tungabhadra flowing northeastward through rugged granite boulder outcroppings, rendering cavalry charges against the capital almost impossible.\n2. **The Raichur Doab Flashpoint:** The wedge of highly fertile alluvial land between the Krishna and Tungabhadra rivers was the perpetual theater of war between the Vijayanagara Rayas and the Bahmani/Bijapur Sultans. Control over its iron, diamond mines, and agricultural surplus determined peninsular supremacy.\n3. **The Goa-Hampi Geopolitical Lifeline:** War-elephants alone could not win battles against rapid cavalry. Because high-breed horses did not breed successfully in southern India's climate, Vijayanagara was utterly dependent on maritime horse imports from Arabia and Persia. Krishnadevaraya secured this lifeline by cultivating an exclusive alliance with the Portuguese at Goa and Bhatkal.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-04-1',
-        statement: 'The Vijayanagara Empire (1336–1646 CE) was ruled by four dynasties: Sangama, Saluva, Tuluva, and Aravidu, reaching its zenith under Krishnadevaraya (1509–1529 CE) of the Tuluva dynasty.',
-        claimType: 'CHRONOLOGICAL_SEQUENCE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-4',
-        excerpt: 'Bhakti-Sufi Traditions & Vijayanagara Imperial Capital: Dynasties Sangama, Saluva, Tuluva, Aravidu; Krishnadevaraya.',
+        "id": "CLM-MED-04-1",
+        "statement": "The Vijayanagara Empire (1336–1646 CE), founded by Harihara and Bukka in the Tungabhadra basin, was ruled in succession by four distinct dynasties: Sangama (1336–1485), Saluva (1485–1505), Tuluva (1505–1570), and Aravidu (1570–1646), reaching its political and cultural peak under Krishnadevaraya (1509–1529 CE) of the Tuluva dynasty.",
+        "claimType": "CHRONOLOGICAL_SEQUENCE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 7: An Imperial Capital: Vijayanagara, Section 2: Kings and Traders, pp. 172-175",
+        "excerpt": "The first dynasty, known as the Sangama dynasty, exercised control till 1485. They were supplanted by the Saluvas, military commanders... replaced by the Tuluvas. Krishnadeva Raya belonged to the Tuluva dynasty... His rule was characterised by expansion and consolidation."
       },
       {
-        id: 'CLM-MED-04-2',
-        statement: 'The Amaranayaka system was a key military-administrative feature of Vijayanagara where commanders were assigned territories to collect taxes and maintain designated troop contingents for the king.',
-        claimType: 'FEUDAL_MECHANISM',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-4',
-        excerpt: 'Amaranayaka System: Military commanders given territories to govern, maintaining army contingents.',
+        "id": "CLM-MED-04-2",
+        "statement": "The Amaranayaka system was the paramount military-administrative institution of Vijayanagara, wherein military commanders (Amaranayakas) were assigned territories (Amara) to govern, collect revenues, remit annual tribute, and maintain fixed contingents of cavalry and war-elephants for the sovereign.",
+        "claimType": "FEUDAL_MECHANISM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 7: An Imperial Capital: Vijayanagara, Section 2.2: The Rayas and the Nayakas, pp. 175-176",
+        "excerpt": "The amara-nayaka system was a major political innovation of the Vijayanagara Empire. It is likely that many features of this system were derived from the iqta system of the Delhi Sultanate. The amara-nayakas were military commanders who were given territories to govern by the raya. They collected taxes... maintained an agreed quota of horses and elephants."
       },
       {
-        id: 'CLM-MED-04-3',
-        statement: 'The Battle of Talikota (Rakshasi-Tangadi) in 1565 resulted in the defeat of Aliya Rama Raya by a combined alliance of Bijapur, Golconda, Ahmadnagar, and Bidar, leading to the sacking of Hampi.',
-        claimType: 'HISTORICAL_EVENT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-4',
-        excerpt: 'Battle of Talikota (1565): Defeat of Vijayanagara by combined Deccan Sultanate coalition (Bijapur, Golconda, Ahmadnagar, Bidar).',
+        "id": "CLM-MED-04-3",
+        "statement": "At the Battle of Talikota (Rakshasi-Tangadi) on January 23, 1565, the Vijayanagara army under regent Aliya Rama Raya was decisively routed by a coalition of four Deccan Sultanates—Bijapur, Ahmadnagar, Golconda, and Bidar (with Berar excluded)—leading to the complete sacking and abandonment of Hampi.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 7: An Imperial Capital: Vijayanagara, Section 2.1: The Battle of Rakshasi-Tangadi, p. 174",
+        "excerpt": "In 1565 Rama Raya, the chief minister of Vijayanagara, led the army into battle at Rakshasi-Tangadi (also known as Talikota), where his forces were routed by the combined armies of Bijapur, Ahmadnagar and Golconda... The victorious armies sacked the city of Vijayanagara."
       },
+      {
+        "id": "CLM-MED-04-4",
+        "statement": "Vijayanagara's urban morphology featured sophisticated hydraulic infrastructure including the Kamalapuram tank and Hiriya canal, and seven concentric fortification walls that encircled not only the citadel but extensive cultivated agricultural fields and orchards, as documented by Persian envoy Abdur Razzaq.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 7: An Imperial Capital: Vijayanagara, Section 3: Vijayanagara: The Capital and its Environs, pp. 176-179",
+        "excerpt": "Abdur Razzaq, an ambassador sent by the ruler of Persia to Calicut in the fifteenth century, was greatly impressed by the fortifications, and mentioned seven lines of forts. These encircled not only the city but also its agricultural hinterland and forests... The most important such tank was built in the early years of the fifteenth century and is now called Kamalapuram tank."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Indian History / Art & Architecture (Hampi)',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_ARCHITECTURAL_AND_INSTITUTIONAL',
-        notes: 'Amaranayaka system, foreign travellers, and Hampi monuments appear almost every year in UPSC Prelims.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Indian History / Art & Architecture (Hampi & Vijayanagara)",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_ARCHITECTURAL_AND_INSTITUTIONAL",
+        "notes": "Amaranayaka system vs Delhi Iqta, foreign travellers accounts (Abdur Razzaq, Paes, Nuniz), and Hampi monuments appear with high regularity in UPSC Prelims and Mains."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Medieval Indian History & Culture',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark and 10-mark questions on Krishnadevaraya and Vijayanagara art.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Medieval Indian History & Cultural Legacy",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Frequent 5-mark and 10-mark questions on Krishnadevaraya's cultural achievements (Amuktamalyada, Ashtadiggajas) and Vijayanagara temple architecture."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Amuktamalyada author, Hampi location, and Battle of Talikota year (1565).',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History & Heritage",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on Amuktamalyada author, Hampi UNESCO site, Vittala stone chariot on ₹50 note, and Battle of Talikota date (1565)."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Medieval Architecture',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'HISTORICAL_TERMINOLOGY',
-        notes: 'Tested on Mahanavami Dibba, Amaranayakas, and Ashtadiggajas.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Architecture & Administrative Systems",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "HISTORICAL_TERMINOLOGY",
+        "notes": "Tested on administrative vocabulary (Amaranayakas, Ayagars, Mahanavami Dibba, Raya-gopurams)."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian Heritage',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'UNESCO World Heritage Sites (Hampi ruins, Vittala stone chariot on ₹50 note).',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian Heritage & Architecture",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "UNESCO World Heritage Sites (Hampi ruins, Vittala stone chariot depicted on ₹50 currency note)."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — Culture & Monuments',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Currency note monuments (₹50 note depicts Hampi Stone Chariot).',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Culture, Currency & Monuments",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Monuments on Indian currency notes (₹50 banknote features Hampi Stone Chariot)."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static history questions.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones & Heritage",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static history and cultural heritage questions."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Trade guilds and foreign commerce in medieval South India.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Trade & Guild Systems",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Maritime horse trade, commercial networks, and merchant guilds (Kudirai Chettis) in medieval South India."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Vijayanagara (1336-1646): 4 Dynasties = Sangama, Saluva, Tuluva, Aravidu. Krishnadevaraya (Tuluva): Amuktamalyada (Telugu), Ashtadiggajas, Nagalapuram. Amaranayaka: Military commanders granted revenue lands to maintain troop quotas. Hampi: Mahanavami Dibba, Vittala Temple (musical pillars & Stone Chariot). Battle of Talikota (1565): Defeated by Bijapur + Golconda + Ahmadnagar + Bidar (Berar excluded!).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Vijayanagara (1336–1646 CE): 4 Dynasties = Sangama, Saluva, Tuluva, Aravidu. Krishnadevaraya (Tuluva, 1509–29): Amuktamalyada (Telugu), Ashtadiggajas, Nagalapuram, Raichur Doab conquest. Amaranayaka: Military commanders granted revenue lands (Amara) to maintain troop quotas. Hampi: Kamalapuram tank, Mahanavami Dibba, Vittala Temple (musical pillars & Stone Chariot on ₹50 note). Battle of Talikota (1565): Defeated by 4 Deccan Sultanates (Bijapur, Golconda, Ahmadnagar, Bidar; Berar was ABSENT!).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Vijayanagara Imperial Blueprint: 1) Foundation & Zeniths: Founded 1336 by Harihara and Bukka (Sangama); golden age under Krishnadevaraya (1509-29, Tuluva) who wrote Amuktamalyada. 2) Amaranayaka System: Military commanders (Nayakas) collected revenue, maintained standing troop quotas for the Raya, and offered gifts at the annual Mahanavami festival. 3) Hampi Architecture: Sacred & royal centres, Kamalapuram tank, Mahanavami Dibba, Lotus Mahal, Vittala stone chariot. 4) Downfall: Battle of Talikota (1565, Rakshasi-Tangadi); 4 Deccan Sultanates routed Aliya Rama Raya and destroyed Hampi.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Vijayanagara Imperial Synthesis: 1) Genesis & Zenith: Founded 1336 CE by Harihara and Bukka (Sangama dynasty) on the Tungabhadra; reached golden age under Krishnadevaraya (1509–29, Tuluva) who defeated Bijapur and Odisha, composed Amuktamalyada, and allied with Portuguese for war-horses. 2) Amaranayaka Framework: Modeled on Sultanate Iqta; military captains collected taxes, remitted annual tribute, maintained standing troop contingents, and presented gifts at the annual Mahanavami festival. 3) Hampi Urbanism: Seven concentric walls enclosing fields (Abdur Razzaq), Kamalapuram tank, Hiriya canal, Mahanavami Dibba, Lotus Mahal, Vittala stone chariot. 4) Collapse: Battle of Talikota / Rakshasi-Tangadi (1565); coalition of 4 Deccan Sultanates routed Aliya Rama Raya and demolished Hampi.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Vijayanagara Statecraft Architecture: 1) Geopolitical Engine: Tungabhadra irrigation canals + Portuguese horse monopoly via Goa. 2) Dual Power Structure: Centralized Raya in Royal Centre <-> Amaranayaka militarized regional warlords. 3) International Validation: Chronicled by Nicolo Conti, Abdur Razzaq (7 concentric walls), Domingo Paes, and Fernão Nuniz. 4) Devotional Imperialism: Rule in the name of God Virupaksha (*Sri Virupaksha* royal signet).',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Vijayanagara Statecraft Architecture: 1) Hydraulic-Agrarian Foundation: Tungabhadra river valley, Kamalapuram reservoir, and Hiriya canal enabled urban food self-sufficiency under siege. 2) Military Economy: Controlled Raichur Doab; Portuguese monopoly on imported Arabian war-horses through Goa and Kudirai Chettis. 3) Dual Power Dynamics: Centralized Raya sovereign authority balanced against semi-autonomous Amaranayaka militarized territorial warlords. 4) Cosmopolitan Visual Statecraft: Sacred Dravidian temple architecture (Virupaksha raya-gopurams, Vittala stone chariot) coexisted with secular Indo-Islamic civic architecture (Lotus Mahal, Elephant Stables). 5) Catastrophic End: 1565 Talikota defeat shifted remaining Aravidu dynasty capital southeast to Penukonda and Chandragiri.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'VIJAYANAGARA_MCQ',
-        stem: 'Regarding the taxation and administrative system of the Vijayanagara Empire, which of the following statements about the "Amaranayaka" system is correct?',
-        options: [
-          'Amaranayakas were Buddhist monks entrusted with maintaining royal libraries',
-          'Amaranayakas were military commanders who were given territories to govern and were obligated to maintain fixed contingents of cavalry and foot soldiers for the king',
-          'Amaranayakas were hereditary village accountants who could never be transferred by the king',
-          'Amaranayakas collected taxes exclusively for the maintenance of mosques in the Deccan'
+        "type": "VIJAYANAGARA_MCQ",
+        "stem": "Regarding the taxation and administrative framework of the Vijayanagara Empire, which of the following statements about the \"Amaranayaka\" system is correct according to NCERT Class XII Theme 7?",
+        "options": [
+          "Amaranayakas were hereditary village accountants who could never be transferred or dismissed by the sovereign",
+          "Amaranayakas were military commanders who were granted territories to govern, collected revenue, and were obligated to maintain fixed contingents of cavalry and elephants for the king",
+          "Amaranayakas were Buddhist monks entrusted exclusively with administering educational institutions and monastic endowments",
+          "Amaranayakas were foreign Portuguese merchants appointed as royal treasurers in charge of the sea customs"
         ],
-        correctAnswer: 'Amaranayakas were military commanders who were given territories to govern and were obligated to maintain fixed contingents of cavalry and foot soldiers for the king',
-        explanation: 'Under the Amaranayaka system of Vijayanagara, the Amaranayakas were military commanders granted territories (Amara) by the Raya. They collected taxes, retained a portion for personal use and horses, and maintained a specified contingent of troops and elephants for imperial military service.',
-        trapExplanation: 'Confusing Amaranayakas with village accountants (Ayagars) or assuming hereditary un-transferable tenure are common errors.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Core institutional definition of the Amaranayaka system.',
+        "correctAnswer": "Amaranayakas were military commanders who were granted territories to govern, collected revenue, and were obligated to maintain fixed contingents of cavalry and elephants for the king",
+        "explanation": "Under the Amaranayaka system of Vijayanagara (derived from the concept of Iqta), Amaranayakas were military commanders granted territories (Amara) by the Raya. They collected taxes, maintained designated troop contingents, remitted annual revenue to the treasury, and presented gifts to the king during the Mahanavami festival.",
+        "trapExplanation": "Confusing Amaranayakas with hereditary village functionaries (Ayagars) or assuming hereditary unalterable land ownership are common examiner traps.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2020,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Core institutional definition and structural obligations of the Amaranayaka system."
       },
       {
-        type: 'VIJAYANAGARA_MCQ',
-        stem: 'Which fifteenth-century Persian ambassador and traveller visited the Vijayanagara Empire during the reign of Deva Raya II and documented that the capital city was encircled by seven concentric rings of fortified stone walls encompassing agricultural fields and irrigation canals?',
-        options: [
-          'Nicolo de Conti (Venetian merchant)',
-          'Abdur Razzaq Samarqandi (Ambassador of Shahrukh of Persia)',
-          'Duarte Barbosa (Portuguese writer)',
-          'Fernão Nuniz (Portuguese horse-trader)'
+        "type": "VIJAYANAGARA_MCQ",
+        "stem": "Which fifteenth-century Persian ambassador and traveller visited the Vijayanagara Empire during the reign of Deva Raya II and documented that the capital city was encircled by seven concentric rings of fortified stone walls encompassing agricultural fields and irrigation canals?",
+        "options": [
+          "Nicolo de Conti (Venetian merchant)",
+          "Abdur Razzaq Samarqandi (Ambassador of Timurid ruler Shahrukh of Persia)",
+          "Duarte Barbosa (Portuguese chronicler)",
+          "Fernão Nuniz (Portuguese horse-trader)"
         ],
-        correctAnswer: 'Abdur Razzaq Samarqandi (Ambassador of Shahrukh of Persia)',
-        explanation: 'Abdur Razzaq Samarqandi, sent by the ruler of Persia (Shahrukh) to Calicut and Vijayanagara in the 1440s, was astonished by the defensive fortifications of Vijayanagara. He explicitly recorded seven concentric lines of fortresses that enclosed not only the royal and sacred quarters but also cultivated agricultural fields, orchards, and water channels to withstand long sieges.',
-        trapExplanation: 'Nicolo de Conti visited earlier (c. 1420); Domingo Paes and Fernão Nuniz visited later in the 16th century during the Tuluva period. The specific "seven concentric walls" observation belongs to Abdur Razzaq.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2019,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Chronology and specific eyewitness accounts of foreign travellers at Vijayanagara.',
-      },
-    ],
+        "correctAnswer": "Abdur Razzaq Samarqandi (Ambassador of Timurid ruler Shahrukh of Persia)",
+        "explanation": "Abdur Razzaq Samarqandi, sent by Timurid ruler Shahrukh of Persia to Calicut and Vijayanagara in the 1440s (reign of Deva Raya II), was astonished by the defensive fortifications of Vijayanagara. He explicitly recorded seven concentric rings of stone ramparts enclosing not only the royal and sacred quarters but also cultivated agricultural fields, orchards, and water channels to withstand prolonged sieges.",
+        "trapExplanation": "Nicolo de Conti visited earlier (c. 1420); Domingo Paes and Fernão Nuniz visited later in the 16th century under the Tuluvas. The specific \"seven concentric walls enclosing agricultural fields\" observation belongs to Abdur Razzaq.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2019,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Chronology and specific eyewitness accounts of foreign travellers at Vijayanagara."
+      }
+    ]
   },
 
   // =========================================================================
