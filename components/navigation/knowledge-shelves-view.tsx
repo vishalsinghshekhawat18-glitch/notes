@@ -20,40 +20,71 @@ interface ThematicShelf {
 
 const THEMATIC_SHELVES: ThematicShelf[] = [
   {
-    id: 'governance',
-    title: 'Governance, Constitution & Public Policy',
-    icon: '🏛️',
-    badge: 'Constitutional Order',
-    accentColor: 'text-indigo-900 bg-indigo-50 border-indigo-200',
-    borderAccent: 'border-l-indigo-600',
-    subjectSlugs: ['indian-polity', 'government-schemes'],
+    id: 'shelf-1',
+    title: 'Shelf 1: Quantitative Logic, Communication & Welfare Architecture',
+    icon: '📐',
+    badge: 'Analytical & Policy Bastion',
+    accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
+    borderAccent: 'border-l-[#143227]',
+    subjectSlugs: [
+      'quantitative-aptitude-and-data-interpretation', // #6
+      'english-descriptive-writing',                   // #7
+      'government-schemes',                            // #10
+    ],
   },
   {
-    id: 'economics-banking',
-    title: 'Economics, Banking & Financial Regulations',
+    id: 'shelf-2',
+    title: 'Shelf 2: Macroeconomics, Financial Systems & Global Affairs',
     icon: '🏦',
-    badge: 'Macroeconomics & Finance',
-    accentColor: 'text-emerald-900 bg-emerald-50 border-emerald-200',
-    borderAccent: 'border-l-emerald-600',
-    subjectSlugs: ['indian-economy', 'iibf-banking-regulations'],
+    badge: 'Banking & Macro Escarpment',
+    accentColor: 'text-[#c25e2e] bg-[#fbf5ee] border-[#edd9cb]',
+    borderAccent: 'border-l-[#c25e2e]',
+    subjectSlugs: [
+      'iibf-banking-regulations',                      // #4
+      'indian-economy',                                // #1
+      'agriculture-and-rural-development',             // #11 (Rural Finance & Agri)
+      'general-awareness',                             // #12
+    ],
   },
   {
-    id: 'science-aptitude',
-    title: 'Science, Technology & Quantitative Reasoning',
+    id: 'shelf-3',
+    title: 'Shelf 3: Polity, Geography, Civilizations & World History',
+    icon: '🏛️',
+    badge: 'Statecraft & Heritage Highland',
+    accentColor: 'text-[#854d0e] bg-[#fef9ee] border-[#fde68a]',
+    borderAccent: 'border-l-[#b45309]',
+    subjectSlugs: [
+      'indian-polity',                                 // #2
+      'ancient-indian-history',                        // #5
+      'modern-indian-history',                         // #8
+      'geography-and-environment',                     // #9
+      'medieval-indian-history',                       // #13
+      'world-history',                                 // #14
+      'art-culture-rajasthan',                         // #15
+    ],
+  },
+  {
+    id: 'shelf-4',
+    title: 'Shelf 4: Industrial Relations, Labour Codes & Social Security',
+    icon: '⚖️',
+    badge: 'Statutory Labour Bastion',
+    accentColor: 'text-[#6b21a8] bg-[#fbf5ff] border-[#f3e8ff]',
+    borderAccent: 'border-l-[#9333ea]',
+    subjectSlugs: [
+      'industrial-relations-and-labour-laws',          // #17
+    ],
+  },
+  {
+    id: 'shelf-5',
+    title: 'Shelf 5: Empirical Science, Scientific Literacy & Biotechnology',
     icon: '🔬',
-    badge: 'Empirical & Analytical',
-    accentColor: 'text-teal-900 bg-teal-50 border-teal-200',
-    borderAccent: 'border-l-teal-600',
-    subjectSlugs: ['basic-science', 'quantitative-aptitude-and-data-interpretation'],
-  },
-  {
-    id: 'civilization-language',
-    title: 'Civilization, Language & General Studies',
-    icon: '📜',
-    badge: 'Heritage & Communication',
-    accentColor: 'text-amber-900 bg-amber-50 border-amber-200',
-    borderAccent: 'border-l-amber-600',
-    subjectSlugs: ['ancient-indian-history', 'english-descriptive-writing', 'general-awareness'],
+    badge: 'Science & Emerging Tech Peak',
+    accentColor: 'text-[#164e3f] bg-[#eef6f2] border-[#cbe4d7]',
+    borderAccent: 'border-l-[#164e3f]',
+    subjectSlugs: [
+      'basic-science',                                 // #3
+      'applied-science-and-biotechnology',             // #16
+    ],
   },
 ];
 
@@ -80,6 +111,11 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     if (code.startsWith('APT')) return { border: 'border-l-blue-600', badge: 'bg-blue-50 text-blue-800 border-blue-200' };
     if (code.startsWith('LAN')) return { border: 'border-l-purple-600', badge: 'bg-purple-50 text-purple-800 border-purple-200' };
     if (code.startsWith('PUB')) return { border: 'border-l-rose-600', badge: 'bg-rose-50 text-rose-800 border-rose-200' };
+    if (code.startsWith('GEO')) return { border: 'border-l-cyan-600', badge: 'bg-cyan-50 text-cyan-800 border-cyan-200' };
+    if (code.startsWith('ARD')) return { border: 'border-l-lime-600', badge: 'bg-lime-50 text-lime-800 border-lime-200' };
+    if (code.startsWith('ART')) return { border: 'border-l-fuchsia-600', badge: 'bg-fuchsia-50 text-fuchsia-800 border-fuchsia-200' };
+    if (code.startsWith('IRL')) return { border: 'border-l-violet-600', badge: 'bg-violet-50 text-violet-800 border-violet-200' };
+    if (code.startsWith('GEN')) return { border: 'border-l-sky-600', badge: 'bg-sky-50 text-sky-800 border-sky-200' };
     return { border: 'border-l-stone-600', badge: 'bg-stone-100 text-stone-800 border-stone-200' };
   };
 
@@ -103,7 +139,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     return (
       <article
         key={subject.id}
-        className={`bg-white border border-stone-200 hover:border-stone-400 rounded-xl p-4 shadow-2xs hover:shadow-xs transition-all flex flex-col justify-between border-l-4 ${theme.border} group`}
+        className={`bg-white border border-[#e5dfd3] hover:border-[#c25e2e] rounded-xl p-4 shadow-2xs hover:shadow-md transition-all duration-200 flex flex-col justify-between border-l-4 ${theme.border} group`}
       >
         <div className="space-y-2">
           {/* Header Row: Code & Counts */}
@@ -112,17 +148,17 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               {subject.code}
             </span>
             <div className="flex items-center gap-1.5 text-[11px]">
-              <span className="text-stone-500 bg-stone-100 px-1.5 py-0.5 rounded">
-                {subject.topicsCount} Topics
+              <span className="text-stone-600 bg-[#f7f5f0] border border-[#e5dfd3] px-1.5 py-0.5 rounded">
+                {subject.topicsCount} Peaks
               </span>
-              <span className="bg-emerald-50 text-emerald-800 font-bold px-1.5 py-0.5 rounded border border-emerald-100">
-                {subject.conceptsCount} Concepts
+              <span className="bg-[#eef6f2] text-[#143227] font-bold px-1.5 py-0.5 rounded border border-[#cbe4d7]">
+                {subject.conceptsCount} Waypoints
               </span>
             </div>
           </div>
 
           {/* Title */}
-          <Link href={`/subjects/${subject.slug}`} className="block group-hover:text-emerald-900 transition-colors">
+          <Link href={`/subjects/${subject.slug}`} className="block group-hover:text-[#143227] transition-colors">
             <h4 className="font-serif font-bold text-base sm:text-lg text-stone-900 leading-snug">
               {subject.name}
             </h4>
@@ -139,7 +175,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               {subject.featuredTopics.slice(0, 3).map((topicTitle, tIdx) => (
                 <span
                   key={tIdx}
-                  className="text-[10px] font-sans bg-stone-50 border border-stone-200/80 text-stone-600 px-1.5 py-0.5 rounded truncate max-w-[180px]"
+                  className="text-[10px] font-sans bg-[#f7f5f0] border border-[#e8e2d5] text-stone-600 px-1.5 py-0.5 rounded truncate max-w-[180px]"
                 >
                   {topicTitle}
                 </span>
@@ -154,12 +190,12 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
         </div>
 
         {/* Footer Actions */}
-        <div className="mt-3 pt-2.5 border-t border-stone-100 flex items-center justify-between text-xs font-medium">
+        <div className="mt-3 pt-2.5 border-t border-[#f0ebe1] flex items-center justify-between text-xs font-medium">
           <Link
             href={`/subjects/${subject.slug}`}
-            className="text-stone-500 hover:text-stone-900 transition-colors"
+            className="text-stone-500 hover:text-[#143227] transition-colors"
           >
-            Syllabus →
+            Syllabus Map →
           </Link>
 
           {subject.firstTopicSlug && (
@@ -167,11 +203,11 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               href={`/topics/${subject.firstTopicSlug}/read`}
               className={`px-2.5 py-1 rounded text-white text-[11px] font-semibold transition-colors inline-flex items-center gap-1 ${
                 isFlagship
-                  ? 'bg-emerald-800 hover:bg-emerald-900'
-                  : 'bg-stone-800 hover:bg-stone-900'
+                  ? 'bg-[#143227] hover:bg-[#1f493b]'
+                  : 'bg-[#292524] hover:bg-[#1c1917]'
               }`}
             >
-              <span>Start Reading</span>
+              <span>Begin Ascent</span>
               <span>→</span>
             </Link>
           )}
@@ -183,14 +219,14 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
   return (
     <div className="space-y-6">
       {/* View Switcher & Fast Filter Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-3">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#e5dfd3] pb-3">
         <div className="flex items-center gap-2">
-          <span className="text-xs font-mono font-bold uppercase tracking-wider text-stone-700">
-            Knowledge Shelves
+          <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#143227]">
+            ▲ Ridge Shelves
           </span>
-          <span className="text-xs text-stone-400 font-mono">•</span>
-          <span className="text-xs text-stone-500 font-mono">
-            {allSubjects.length} Curated Bodies of Knowledge
+          <span className="text-xs text-stone-300 font-mono">•</span>
+          <span className="text-xs text-stone-600 font-mono">
+            {allSubjects.length} Mountain Knowledge Escarpments
           </span>
         </div>
 
@@ -201,42 +237,40 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Filter subjects..."
-              className="bg-white border border-stone-200 focus:border-stone-400 rounded-lg px-2.5 py-1 text-xs text-stone-800 placeholder-stone-400 focus:outline-hidden transition-colors w-40 sm:w-48"
+              placeholder="Filter escarpments..."
+              className="w-48 sm:w-64 text-xs bg-white border border-[#dcd6c8] focus:border-[#c25e2e] rounded-lg px-3 py-1.5 outline-none transition-all placeholder:text-stone-400"
             />
             {searchQuery && (
               <button
                 onClick={() => setSearchQuery('')}
-                className="absolute right-2 top-1.5 text-stone-400 hover:text-stone-600 text-xs font-mono"
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-stone-400 hover:text-stone-700"
               >
                 ✕
               </button>
             )}
           </div>
 
-          {/* Layout Toggle */}
-          <div className="flex items-center p-0.5 bg-stone-100 border border-stone-200 rounded-lg text-xs font-mono">
+          {/* Mode Switcher */}
+          <div className="flex items-center bg-[#ede8dc] p-0.5 rounded-lg text-xs font-mono">
             <button
               onClick={() => setLayoutMode('SHELVES')}
-              className={`px-2.5 py-1 rounded-md transition-colors cursor-pointer ${
+              className={`px-2.5 py-1 rounded-md transition-colors ${
                 layoutMode === 'SHELVES'
                   ? 'bg-white text-stone-900 font-bold shadow-2xs'
                   : 'text-stone-600 hover:text-stone-900'
               }`}
-              title="Group similar subjects side-by-side in thematic shelf lines"
             >
-              Shelf Rows
+              Shelves
             </button>
             <button
               onClick={() => setLayoutMode('GRID')}
-              className={`px-2.5 py-1 rounded-md transition-colors cursor-pointer ${
+              className={`px-2.5 py-1 rounded-md transition-colors ${
                 layoutMode === 'GRID'
                   ? 'bg-white text-stone-900 font-bold shadow-2xs'
                   : 'text-stone-600 hover:text-stone-900'
               }`}
-              title="Compact 3-column unified grid"
             >
-              Compact Grid
+              All Domains
             </button>
           </div>
         </div>
@@ -253,38 +287,37 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
 
             if (shelfSubjects.length === 0) return null;
 
-            const gridCols =
-              shelfSubjects.length === 1
-                ? 'grid-cols-1 md:grid-cols-2'
-                : shelfSubjects.length === 2
-                ? 'grid-cols-1 md:grid-cols-2'
-                : 'grid-cols-1 md:grid-cols-3';
-
-            const totalShelfConcepts = shelfSubjects.reduce((acc, s) => acc + s.conceptsCount, 0);
-
             return (
-              <div key={shelf.id} className="space-y-2.5">
-                {/* Shelf Row Header */}
-                <div className="flex items-center justify-between gap-3 pt-1">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm">{shelf.icon}</span>
-                    <h3 className="text-xs sm:text-sm font-serif font-bold text-stone-900 tracking-tight">
-                      {shelf.title}
-                    </h3>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="hidden sm:inline-block text-[11px] font-mono text-stone-500 bg-stone-100 px-2 py-0.5 rounded">
-                      {totalShelfConcepts} Concepts
+              <section
+                key={shelf.id}
+                className="bg-[#ffffff] border border-[#e5dfd3] rounded-2xl p-4 sm:p-5 space-y-4 shadow-2xs"
+              >
+                {/* Shelf Header */}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#f0ebe1] pb-3">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-xl" role="img" aria-label={shelf.title}>
+                      {shelf.icon}
                     </span>
-                    <span className="h-px w-8 sm:w-16 bg-stone-200" />
+                    <div>
+                      <h3 className="font-serif font-bold text-stone-900 text-base sm:text-lg tracking-tight">
+                        {shelf.title}
+                      </h3>
+                      <span className="text-[11px] font-mono text-stone-600">
+                        {shelfSubjects.length} Escarpments in this Ridge
+                      </span>
+                    </div>
                   </div>
+
+                  <span className={`self-start sm:self-auto text-[10px] font-mono px-2 py-0.5 rounded-full border font-bold uppercase tracking-wider ${shelf.accentColor}`}>
+                    {shelf.badge}
+                  </span>
                 </div>
 
-                {/* Subject Boxes in the Same Line */}
-                <div className={`grid ${gridCols} gap-4`}>
+                {/* Subject Cards inside Shelf */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
                   {shelfSubjects.map(renderSubjectCard)}
                 </div>
-              </div>
+              </section>
             );
           })}
         </div>

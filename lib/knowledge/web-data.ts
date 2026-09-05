@@ -67,15 +67,23 @@ export interface DomainWithSubjects {
 }
 
 const SUBJECT_CODE_MAP: Record<string, string> = {
-  'indian-polity': 'GOV-01',
   'indian-economy': 'ECO-01',
+  'indian-polity': 'GOV-01',
   'basic-science': 'SCI-01',
   'iibf-banking-regulations': 'BNK-01',
   'ancient-indian-history': 'HIS-01',
   'quantitative-aptitude-and-data-interpretation': 'APT-01',
   'english-descriptive-writing': 'LAN-01',
+  'modern-indian-history': 'HIS-02',
+  'geography-and-environment': 'GEO-01',
   'government-schemes': 'PUB-01',
+  'agriculture-and-rural-development': 'ARD-01',
   'general-awareness': 'GEN-01',
+  'medieval-indian-history': 'HIS-03',
+  'world-history': 'HIS-04',
+  'art-culture-rajasthan': 'ART-01',
+  'applied-science-and-biotechnology': 'SCI-02',
+  'industrial-relations-and-labour-laws': 'IRL-01',
 };
 
 export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]> {

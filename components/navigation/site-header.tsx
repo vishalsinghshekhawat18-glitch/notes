@@ -20,17 +20,21 @@ export function SiteHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-30 bg-stone-50/90 backdrop-blur-md border-b border-stone-200">
+      <header className="sticky top-0 z-30 bg-[#f7f5f0]/90 backdrop-blur-md border-b border-[#e5dfd3] shadow-2xs">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-2 group">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-700 group-hover:scale-125 transition-transform" />
-              <span className="font-serif font-bold text-stone-900 tracking-tight text-base">
-                Mind of Aravalli
-              </span>
-              <span className="text-xs font-mono bg-stone-200 text-stone-700 px-1.5 py-0.5 rounded ml-1">
-                Reading Hub
-              </span>
+            <Link href="/" className="flex items-center gap-2.5 group">
+              <div className="w-7 h-7 rounded-lg bg-[#143227] text-[#f7f5f0] flex items-center justify-center font-bold text-xs shadow-xs group-hover:bg-[#c25e2e] transition-colors">
+                ▲
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif font-bold text-stone-900 tracking-tight text-base leading-tight group-hover:text-[#143227] transition-colors">
+                  Mind of Aravalli
+                </span>
+                <span className="text-[10px] font-mono text-stone-500 uppercase tracking-wider">
+                  Reading Hub • Ridge Library
+                </span>
+              </div>
             </Link>
 
             <nav className="hidden md:flex items-center gap-4 text-xs font-medium text-stone-600">
@@ -82,13 +86,13 @@ export function SiteHeader() {
           <div className="flex items-center gap-3">
             <button
               onClick={() => setIsSearchOpen(true)}
-              className="flex items-center gap-2 text-xs text-stone-500 bg-stone-100 hover:bg-stone-200 border border-stone-300 rounded-md px-2.5 py-1.5 transition-colors cursor-pointer"
+              className="flex items-center gap-2 text-xs text-stone-600 bg-white/80 hover:bg-white hover:text-stone-900 border border-[#dcd6c8] hover:border-[#c25e2e]/50 rounded-lg px-3 py-1.5 transition-all shadow-2xs cursor-pointer"
             >
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-3.5 h-3.5 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-              <span>Search concepts...</span>
-              <kbd className="hidden md:inline-block font-mono text-[10px] bg-stone-200 text-stone-600 px-1 py-0.5 rounded border border-stone-300">
+              <span>Search across the ridge...</span>
+              <kbd className="hidden md:inline-block font-mono text-[10px] bg-[#ede8dc] text-stone-700 px-1.5 py-0.5 rounded border border-[#d6cebe]">
                 ⌘K
               </kbd>
             </button>
