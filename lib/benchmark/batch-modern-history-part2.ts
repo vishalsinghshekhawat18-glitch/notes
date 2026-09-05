@@ -85,6 +85,44 @@ When the British introduced the new **Pattern 1853 Enfield rifle**—requiring s
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the 1857 Uprising: Storm Centers, River Corridors & Encirclement',
+        body: `Spatial Topography of the 1857 Revolt & Strategic Bastions:
+
+              [PUNJAB / CIS-SUTLEJ] (John Lawrence: Loyal base; Sikh & Punjabi levies)
+                         |
+                         v (March south to Delhi)
+       [MEERUT: Outbreak May 10] ---> [DELHI / RED FORT: May 11-12]
+                                     (Bahadur Shah Zafar, Bakht Khan;
+                                      Siege of Delhi; recaptured Sept 1857)
+                                           |
+       +-----------------------------------+-----------------------------------+
+       |                                   |                                   |
+       v                                   v                                   v
+   [ROHILKHAND: Bareilly]          [AWADH / OUDH: Lucknow]             [DOAB: Kanpur]
+   (Khan Bahadur Khan)             (Begum Hazrat Mahal, Birjis Qadr,  (Nana Saheb, Tantia Tope,
+                                    Siege of Residency; Campbell)       Azimullah; Satichaura Ghat)
+                                           |                                   |
+                                           +-----------------+-----------------+
+                                                             |
+                                                             v
+                                              [CENTRAL INDIA & BUNDELKHAND]
+                                              * Jhansi (Rani Lakshmibai)
+                                              * Kalpi (Arsenal & Tactical Retreat)
+                                              * Gwalior (Scindia fled; Kotah-ki-Serai)
+                                                             |
+                                                             v (Eastward Gangetic Axis)
+                                              [BIHAR: Arrah / Jagdishpur]
+                                              (Kunwar Singh & Amar Singh)
+
+Spatial & Strategic Dynamics:
+1. The Gangetic Artery of Revolt: The uprising followed the line of the Yamuna and Ganga rivers, linking Meerut, Delhi, Bareilly, Lucknow, Kanpur, and Arrah into a contiguous revolutionary zone.
+2. The Punjab Lifeline: John Lawrence disarmed sepoy regiments in Punjab and used Punjabi and Pashtun troops along the Grand Trunk Road to recapture Delhi, cutting the northern rebellion in two.
+3. Central Indian Plateau Retreat: When the Gangetic plains were cleared by Colin Campbell and Havelock, the resistance pivoted southward into the rugged terrain of Bundelkhand and Malwa (Kalpi, Jhansi, Gwalior).`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Exam Pitfalls, Chronological Traps & Key Associations',
         body: `### Critical Examiner Traps to Master:
@@ -101,7 +139,7 @@ When the British introduced the new **Pattern 1853 Enfield rifle**—requiring s
   * *"Neither first, nor national, nor war of independence"* = **R.C. Majumdar**.
   * *"Began as a fight for religion, ended as a war of independence"* = **Dr. S.N. Sen** (official historian).
   * *"Wholly unpatriotic and selfish Sepoy Mutiny"* = **Sir John Seeley**.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -112,8 +150,8 @@ When the British introduced the new **Pattern 1853 Enfield rifle**—requiring s
         claimType: 'HISTORICAL_EVENT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-58',
-        excerpt: 'When People Rebel - 1857 and After: Greased cartridge catalyst, Meerut outbreak May 10, 1857, Mangal Pandey at Barrackpore.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 5: When People Rebel 1857 and After, Section: A Mutiny Becomes a Popular Rebellion, pp. 54-57',
+        excerpt: 'On 29 March 1857, a young soldier, Mangal Pandey, was hanged to death for attacking his officers in Barrackpore. Some days later, on 9 May, 85 sepoys at Meerut were dismissed and sentenced to ten years imprisonment for refusing the greased cartridges; on 10 May the soldiers marched to the jail and released the imprisoned sepoys.',
       },
       {
         id: 'CLM-MOD-07-2',
@@ -121,8 +159,8 @@ When the British introduced the new **Pattern 1853 Enfield rifle**—requiring s
         claimType: 'HISTORICAL_BIOGRAPHY',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-58',
-        excerpt: 'Leadership of 1857: Bahadur Shah Zafar, Nana Saheb, Tantia Tope, Rani Lakshmibai, Begum Hazrat Mahal, Kunwar Singh.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 5: When People Rebel 1857 and After, Section: The rebellion spreads, pp. 57-60',
+        excerpt: 'The rebellion spread from Delhi to Kanpur, where Nana Saheb gathered armed forces; in Lucknow, Begum Hazrat Mahal took an active part in organising the uprising; in Jhansi, Rani Lakshmibai joined the rebel sepoys and fought the British along with Tantia Tope; in Bihar, an old zamindar, Kunwar Singh, joined the rebel sepoys.',
       },
       {
         id: 'CLM-MOD-07-3',
@@ -130,8 +168,8 @@ When the British introduced the new **Pattern 1853 Enfield rifle**—requiring s
         claimType: 'ADMINISTRATIVE_FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-58',
-        excerpt: 'Lord Canning Governor-General during 1857, princely states acting as breakwaters to the storm.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 11: Rebels and the Raj, pp. 292-297',
+        excerpt: 'Governor-General Lord Canning acknowledged that the princely states acted as breakwaters in the storm which otherwise would have swept the colonial regime away in one great wave, as rulers of Gwalior, Hyderabad, and Patiala actively supported British counter-insurgency.',
       },
     ],
     examMappings: [
@@ -343,6 +381,42 @@ The British army was radically reconstituted under the recommendations of the **
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Post-1858 Imperial Reorganization: Crown Rule & Military Cantonments',
+        body: `Spatial Reconfiguration of Imperial Governance Under Crown Rule (Post-1858):
+
+       [WHITEHALL / LONDON] 
+       (Secretary of State for India & 15-member Council of India; Submarine Telegraph 1870)
+                      |
+                      | (Direct imperial cables via Suez Canal 1869)
+                      v
+       [CALCUTTA: Viceregal Capital / Governor-General in Council]
+                      |
+       +--------------+------------------------------+
+       |                                             |
+       v                                             v
+   [BRITISH PROVINCES]                       [565 PRINCELY STATES: PROTECTED]
+   (Bengal, Madras, Bombay, NWP,             (Queen's 1858 Proclamation: Annexation halted;
+    Punjab; direct bureaucratic rule)         Sanads of Adoption issued; "Breakwaters")
+       |                                             |
+       +----------------------+----------------------+
+                              |
+                              v
+       [MILITARY CANTONMENTS & PEEL COMMISSION RATIOS]
+       * Bengal Army: 1 European to 2 Indian soldiers (1:2 ratio)
+       * Bombay & Madras Armies: 1 European to 3 Indian soldiers (1:3 ratio)
+       * Strategic Artillery: Stationed 100% under European control
+       * Recruitment Shift: Martial Races (Punjabi Muslims, Sikhs, Gurkhas, Pathans)
+         displacing traditional Awadh/Bihari Brahmins & Rajputs
+
+Spatial & Strategic Dynamics:
+1. The Princely Wall: By guaranteeing the perpetual existence and adoption rights of princely dynasties, the Crown turned 40% of the subcontinent into a conservative political bulwark against nationalism.
+2. Cantonment Segregation: Post-1858 cantonments (Civil Lines) were relocated far outside native walled cities, separated by open parade grounds and railways to prevent civilian-sepoy contagion.
+3. The Martial Race Frontier: Military recruitment shifted drastically from the rebellious Gangetic heartland to the loyal north-western frontier (Punjab, NWFP, Nepal).`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Exam Pitfalls, Legislative Traps & Comparative Ratios',
         body: `### Critical Examiner Traps to Master:
@@ -354,7 +428,7 @@ The British army was radically reconstituted under the recommendations of the **
   * Madras and Bombay Armies = **1 European : 3 Indian soldiers** (1:3).
   * Examiners frequently invert these numbers to create deceptive statements!
 * ⚠️ **Trap 5: Queen's Proclamation Venue:** Read at **Allahabad** (not Calcutta or Delhi) on **November 1, 1858** by Lord Canning.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -365,8 +439,8 @@ The British army was radically reconstituted under the recommendations of the **
         claimType: 'CONSTITUTIONAL_STATUTE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-58',
-        excerpt: 'Government of India Act 1858 (Lord Canning, 1st Viceroy of India); liquidation of Company rule.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 5: When People Rebel 1857 and After, Section: The Aftermath, pp. 62-64',
+        excerpt: 'The British Parliament passed a new Act in 1858 and transferred the powers of the East India Company to the British Crown in order to ensure a more responsible management of Indian affairs. A member of the British Cabinet was appointed Secretary of State for India and made responsible for all matters related to the governance of India.',
       },
       {
         id: 'CLM-MOD-08-2',
@@ -374,8 +448,8 @@ The British army was radically reconstituted under the recommendations of the **
         claimType: 'IMPERIAL_PROCLAMATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-58',
-        excerpt: 'Queen Victoria\'s Proclamation read at Allahabad Durbar Nov 1, 1858, renouncing territorial expansion.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 5: When People Rebel 1857 and After, Section: The Aftermath / Changes introduced by the British, pp. 62-63',
+        excerpt: 'All ruling chiefs of the country were assured that their territory would never be annexed in future. They were allowed to pass on their kingdoms to their heirs, including adopted sons. However, they were made to acknowledge the British Queen as their Sovereign Paramount.',
       },
       {
         id: 'CLM-MOD-08-3',
@@ -383,8 +457,8 @@ The British army was radically reconstituted under the recommendations of the **
         claimType: 'MILITARY_REORGANIZATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-58',
-        excerpt: 'Peel Commission army restructuring, European-to-Indian troop ratios, martial races recruitment policy.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 5: When People Rebel 1857 and After, Section: The Aftermath / Army Reorganisation, p. 63',
+        excerpt: 'It was decided that the proportion of European soldiers in the army would be increased and the number of Indian soldiers would be reduced. It was also decided that instead of recruiting soldiers from Awadh, Bihar, Central India and South India, more soldiers would be recruited from among the Gurkhas, Sikhs and Pathans.',
       },
     ],
     examMappings: [
@@ -586,6 +660,38 @@ These reformers recognized a fundamental truth: **no political struggle for nati
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the 19th-Century Socio-Religious Reform Renaissance',
+        body: `Spatial Diffusion of 19th-Century Indian Socio-Religious Reform Movements:
+
+                     [PUNJAB: Lahore & Amritsar]
+                     * Arya Samaj (Dayananda Saraswati - stronghold from 1877)
+                     * Singh Sabha Movement (1873)
+                                   |
+                                   v
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [WESTERN INDIA: Bombay & Pune]                      [EASTERN INDIA: Bengal Presidency]
+   * Prarthana Samaj (1867: Ranade, Bhandarkar)        * Brahmo Samaj (1828: Ram Mohan Roy)
+   * Satyashodhak Samaj (1873: Jyotirao Phule)         * Young Bengal (Derozio: radicalism)
+   * Poona Sarvajanik Sabha (1870)                     * Widow Remarriage (Vidyasagar 1856)
+   * Widow Remarriage Assn (Ranade, Vishnu Shastri)    * Ramakrishna Mission (1897: Vivekananda)
+       |                                               * Tattvabodhini Sabha (Debendranath Tagore)
+       v                                                       |
+   [SOUTH INDIA: Madras & Malabar]                             v
+   * Theosophical Society (Adyar 1886)                 [NORTHERN INDIA: Aligarh]
+   * Veda Samaj / Brahmo influence                     * Aligarh Movement (Sir Syed Ahmad Khan,
+   * Sree Narayana Guru (Aravippuram 1888)               MAO College 1875: rational modernist Islam)
+
+Spatial & Strategic Dynamics:
+1. Calcutta Maritime Primacy: Bengal served as the initial intellectual crucible where Western scientific education and orientalist rediscovery triggered the early Renaissance (Brahmo Samaj, Vidyasagar).
+2. Western Indian Social Pragmatism: In Bombay and Pune, reformers focused aggressively on concrete institutional social change—female education, widow remarriage homes, and non-Brahmin peasant mobilization.
+3. Northern Revivalist Diffusion: In Punjab and UP, the Arya Samaj and Aligarh Movement constructed mass educational institutions (DAV colleges and MAO College) synthesizing cultural revival with modern sciences.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Exam Pitfalls, Organization Schisms & Attribution Traps',
         body: `### Critical Examiner Traps to Master:
@@ -600,7 +706,7 @@ These reformers recognized a fundamental truth: **no political struggle for nati
 * ⚠️ **Trap 5: Educational Wings of Arya Samaj:**
   * **DAV Movement (Anglo-Vedic):** Founded at Lahore (1886) by Lala Hansraj and Lala Lajpat Rai (supported modern Western science + English).
   * **Gurukul Movement:** Founded at Kangri near Haridwar (1902) by Swami Shraddhanand (orthodox traditional Sanskrit and Vedic curriculum).`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -611,8 +717,8 @@ These reformers recognized a fundamental truth: **no political struggle for nati
         claimType: 'HISTORICAL_REFORM',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Women, Caste and Reform: Raja Ram Mohan Roy, Brahmo Samaj 1828, abolition of Sati 1829 via Regulation XVII.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 7: Women, Caste and Reform, Section: Working Towards Change / Changing the lives of widows, pp. 78-81',
+        excerpt: 'Rammohun Roy was particularly moved by the problems widows faced in their lives. He began a campaign against the practice of sati... In 1829, sati was banned. Rammohun Roy founded a reform association known as the Brahmo Sabha (later known as the Brahmo Samaj) in Calcutta.',
       },
       {
         id: 'CLM-MOD-09-2',
@@ -620,8 +726,8 @@ These reformers recognized a fundamental truth: **no political struggle for nati
         claimType: 'INTELLECTUAL_TREATISE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Arya Samaj 1875, Swami Dayananda Saraswati, Satyarth Prakash, Go Back to the Vedas.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 7: Women, Caste and Reform, Section: Caste and Social Reform / The Arya Samaj, pp. 88-90',
+        excerpt: 'Dayanand Saraswati, who founded the Arya Samaj in 1875, supported widow remarriage and sought to reform Hinduism by going back to the authority of the Vedas, opposing child marriage, idolatry, and hereditary caste divisions.',
       },
       {
         id: 'CLM-MOD-09-3',
@@ -629,8 +735,8 @@ These reformers recognized a fundamental truth: **no political struggle for nati
         claimType: 'LEGISLATIVE_REFORM',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Ishwar Chandra Vidyasagar, Hindu Widows Remarriage Act 1856, Sanskrit College principal.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 7: Women, Caste and Reform, Section: Changing the lives of widows / Ishwarchandra Vidyasagar, pp. 80-81',
+        excerpt: 'Ishwarchandra Vidyasagar used the ancient texts to suggest that widows could remarry. His suggestion was adopted by British officials, and a law was passed in 1856 permitting widow remarriage.',
       },
     ],
     examMappings: [
@@ -829,6 +935,41 @@ A parallel, far more radical stream of **Subaltern Emancipation** arose outside 
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Subaltern & Anti-Caste Emancipation Struggles',
+        body: `Spatial Epicenters of Anti-Caste Struggles & Subaltern Resistance in India:
+
+                     [CENTRAL PROVINCES / CHHATTISGARH]
+                     * Satnami Movement (Guru Ghasidas: Leatherworkers / Chamars)
+                                   |
+                                   v
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [MAHARASHTRA: Pune & Bombay]                        [BENGAL: Faridpur & East Bengal]
+   * Jyotirao Phule (Satyashodhak Samaj 1873)          * Matua Sect (Harichand Thakur / Namasudras)
+   * Savitribai Phule (Bhide Wada Girls School 1848)           |
+   * Dr. B.R. Ambedkar (Mahad Satyagraha 1927,                 v
+     Kalaram Temple Entry 1930, Poona Pact 1932)       [NORTH INDIA: Punjab & UP]
+   * Chhatrapati Shahu Maharaj (Kolhapur reservations) * Adi Dharm Movement (Mangu Ram)
+       |
+       +---------------------------+
+                                   |
+                                   v
+                     [SOUTH INDIA: Tamil Nadu & Kerala]
+                     * Sri Narayana Guru (Aravippuram 1888, SNDP Yogam 1903 - Ezhavas)
+                     * Ayyankali (Sadhu Jana Paripalana Sangham 1907 - Pulayas, Villuvandi march)
+                     * Periyar E.V. Ramasamy (Self-Respect Movement 1925, Kudi Arasu)
+                     * Iyothee Thass (Dravida Mahajana Sabha 1891, Sakya Buddhism)
+
+Spatial & Strategic Dynamics:
+1. Western Indian Urban Civil Rights: Maharashtra served as the ideological capital of anti-caste thought, pioneering radical vernacular critique (Phule's Gulamgiri) and public space desegregation (Ambedkar at Mahad).
+2. The Kerala Coastal Transformation: Aravippuram and Vaikom transformed Kerala from Swami Vivekananda's "lunatic asylum of caste" into a model of universal temple access and social mobility through education.
+3. Tamil Dravidian Ideological Rupture: Periyar's Self-Respect Movement ruptured traditional Brahmin hegemony by mobilizing non-Brahmins around regional language pride, secular rationalism, and gender equality.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Exam Pitfalls, Chronological Traps & Attribution Nuances',
         body: `### Critical Examiner Traps to Master:
@@ -840,7 +981,7 @@ A parallel, far more radical stream of **Subaltern Emancipation** arose outside 
 * ⚠️ **Trap 3: Target of the Mahad Satyagraha:** The Mahad Satyagraha (1927) was launched to assert the civil right to **access public drinking water from the Chavdar Tank**, NOT for entering a Hindu temple. Temple entry was the focus of the Kalaram Temple Satyagraha (Nashik, 1930) and Vaikom (1924).
 * ⚠️ **Trap 4: Poona Pact Signatories Trap:** The Poona Pact (Sept 1932) was signed by **Dr. B.R. Ambedkar** (on behalf of Depressed Classes) and **Madan Mohan Malaviya / C. Rajagopalachari** (on behalf of Caste Hindus). **Mahatma Gandhi himself did NOT formally sign the document**, as he was on a fast unto death as a prisoner!
 * ⚠️ **Trap 5: Periyar's Resignation from Congress:** Periyar did not leave Congress over the Non-Cooperation Movement; he resigned in 1925 after witnessing blatant caste-based dining segregation (Brahmin children fed separately from non-Brahmins) at the **Cheranmadevi Gurukulam**, which was funded by the Tamil Nadu Congress Committee.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -851,8 +992,8 @@ A parallel, far more radical stream of **Subaltern Emancipation** arose outside 
         claimType: 'SUBALTERN_ORGANIZATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Women, Caste and Reform: Jyotirao Phule, Satyashodhak Samaj 1873, Gulamgiri, girls education in Pune.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 7: Women, Caste and Reform, Section: Caste and Social Reform / Gulamgiri, pp. 86-88',
+        excerpt: 'Jyotirao Phule, born in 1827, developed his own ideas about the injustices of caste society. In 1873, Phule wrote a book titled Gulamgiri, meaning slavery. Some ten years before this, the American Civil War had been fought, leading to the end of slavery in America. Phule dedicated his book to all those Americans who had fought to free slaves.',
       },
       {
         id: 'CLM-MOD-10-2',
@@ -860,8 +1001,8 @@ A parallel, far more radical stream of **Subaltern Emancipation** arose outside 
         claimType: 'SPIRITUAL_ANTI_CASTE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Sri Narayana Guru, Aravippuram installation 1888, SNDP Yogam 1903, One Caste One Religion One God.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 7: Women, Caste and Reform, Section: Demands for equality and justice, pp. 85-86',
+        excerpt: 'In present-day Kerala, a guru from Ezhava caste, Shri Narayana Guru, proclaimed the ideals of unity for his people. He argued against treating people unequally on the basis of caste differences. According to him, all humankind belonged to the same caste: "oru jati, oru matam, oru daivam manushyanu" (one caste, one religion, one god for humankind).',
       },
       {
         id: 'CLM-MOD-10-3',
@@ -869,8 +1010,8 @@ A parallel, far more radical stream of **Subaltern Emancipation** arose outside 
         claimType: 'POLITICAL_CONSTITUTIONAL_EMANCIPATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Dr. B.R. Ambedkar, Mahad Satyagraha 1927, Bahishkrit Hitakarini Sabha, Poona Pact 1932.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 7: Women, Caste and Reform, Section: Who could enter temples? (Dr. B.R. Ambedkar), pp. 88-89',
+        excerpt: 'In 1927, Ambedkar started a temple entry movement, in which his Mahar caste followers participated. Brahman priests were outraged when the Dalits used water from the temple tank. Ambedkar led three such movements for temple entry between 1927 and 1935 to make everyone see the power of caste prejudices within society.',
       },
     ],
     examMappings: [
@@ -1090,6 +1231,41 @@ The Ilbert Bill fiasco taught the English-educated Indian intelligentsia an unfo
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Early Nationalism: Associational Networks & INC Sessions',
+        body: `Spatial Network of Early Nationalist Political Associations Leading to INC (1885):
+
+       [POONA / BOMBAY]                                [CALCUTTA / BENGAL]
+       * Poona Sarvajanik Sabha (1870: Ranade, Joshi)   * British Indian Association (1851)
+       * Bombay Presidency Assn (1885: Mehta, Telang)   * Indian Association (1876: Surendranath Banerjee)
+       * 1st INC Session (Dec 1885: Gokuldas Tejpal)    * 2nd INC Session (Dec 1886: Dadabhai Naoroji)
+                     \                                       /
+                      \                                     /
+                       +-----------------+-----------------+
+                                         |
+                                         v
+                                  [MADRAS / SOUTH]
+                                  * Madras Native Association (1852)
+                                  * Madras Mahajana Sabha (1884: Rangiah Naidu, Anandacharlu)
+                                  * 3rd INC Session (Dec 1887: Badruddin Tyabji)
+                                         |
+                                         v
+                                  [ALLAHABAD / NORTH]
+                                  * 4th INC Session (Dec 1888: George Yule - 1st British President)
+                                         |
+                                         v
+                         [TRANS-OCEANIC AXIS: LONDON]
+                         * East India Association (1866: Dadabhai Naoroji)
+                         * British Committee of INC & Journal "India" (1889)
+
+Spatial & Strategic Dynamics:
+1. Maritime Presidency Collaboration: The Indian National Congress rotated its annual December sessions systematically among the presidency capitals (Bombay 1885, Calcutta 1886, Madras 1887, Allahabad 1888) to construct a pan-Indian identity.
+2. The All-India Tour Catalyst: Surendranath Banerjee's all-India lecture tour in 1877–78 against the lowering of the ICS examination age limit laid the physical contact network for a national political forum.
+3. Trans-Imperial Lobbying: Early Moderate strategy relied heavily on the London corridor (Dadabhai Naoroji, William Wedderburn) to educate the British electorate and Parliament on colonial misrule.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Exam Pitfalls, Chronological Traps & Milestone Presidents',
         body: `### Critical Examiner Traps to Master:
@@ -1102,7 +1278,7 @@ The Ilbert Bill fiasco taught the English-educated Indian intelligentsia an unfo
   * 1888 (Allahabad): **George Yule** (1st European / British President).
   * 1889 (Bombay): **William Wedderburn**.
 * ⚠️ **Trap 4: Rights under Indian Councils Act 1892:** Under the 1892 Act, legislative council members were granted the right to **discuss the financial budget**, BUT they could **NOT vote on the budget**, nor could they **ask supplementary questions**. Supplementary questions and separate voting divisions were granted only later by the Morley-Minto Reforms (1909).`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -1113,8 +1289,8 @@ The Ilbert Bill fiasco taught the English-educated Indian intelligentsia an unfo
         claimType: 'FOUNDATIONAL_EVENT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'The Making of the National Movement: INC foundation 1885 Bombay, W.C. Bonnerjee, 72 delegates.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: The Indian National Congress, pp. 95-97',
+        excerpt: 'The Indian National Congress was established when 72 delegates from all over the country met at Bombay in December 1885. The early leadership – Dadabhai Naoroji, Pherozeshah Mehta, Badruddin Tyabji, W.C. Bonnerjee, Surendranath Banerji, Romesh Chandra Dutt – was largely from Bombay and Calcutta.',
       },
       {
         id: 'CLM-MOD-11-2',
@@ -1122,8 +1298,8 @@ The Ilbert Bill fiasco taught the English-educated Indian intelligentsia an unfo
         claimType: 'POLITICAL_GENESIS',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Early political associations: Indian Association of Surendranath Banerjee, Poona Sarvajanik Sabha.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: The Emergence of Nationalism, pp. 93-95',
+        excerpt: 'The consciousness began to be clearly stated by the political associations formed after 1850, especially those that came into being in the 1870s and 1880s: the Poona Sarvajanik Sabha, the Indian Association, the Madras Mahajana Sabha, the Bombay Presidency Association, and ultimately the Indian National Congress.',
       },
       {
         id: 'CLM-MOD-11-3',
@@ -1131,8 +1307,8 @@ The Ilbert Bill fiasco taught the English-educated Indian intelligentsia an unfo
         claimType: 'ECONOMIC_POLITICAL_CRITIQUE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Moderate era: Dadabhai Naoroji drain theory, Indian Councils Act 1892, constitutional agitation.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "A nation in the making", pp. 96-98',
+        excerpt: 'It was often said that the Congress in the first twenty years was "moderate" in its objectives and methods. During this period it demanded a greater voice for Indians in the administration and in government, separation of the judiciary from the executive, and the repeal of the Arms Act.',
       },
     ],
     examMappings: [
@@ -1360,6 +1536,42 @@ The spark that transformed this intellectual rebellion into a mass conflagration
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Partition of Bengal & The Swadeshi Diffusion Axis',
+        body: `Spatial Geography of the 1905 Partition of Bengal & Swadeshi Mobilization:
+
+                     [PARTITION BOUNDARY: OCT 16, 1905]
+        ============================================================
+        [WESTERN BENGAL: Capital CALCUTTA]   [EASTERN BENGAL & ASSAM: DACCA]
+        * Population: 54 Million             * Population: 31 Million
+        * Composition: 42M Hindu, 9M Muslim  * Composition: 18M Muslim, 12M Hindu
+        * Demography: Bengali minority       * Capital: Dacca (Lt. Gov Bampfylde Fuller)
+          (17M Bengalis vs 37M Bihari/Oriya) * Designed to foster communal division
+        ============================================================
+                     |
+                     | (Swadeshi & Boycott Diffusion across Subcontinent)
+                     v
+       +-------------+-------------+-----------------------------+
+       |                           |                             |
+       v                           v                             v
+   [BENGAL EPICENTER]       [MAHARASHTRA / PUNE]          [MADRAS / TUTICORIN]
+   * Town Hall Aug 7, 1905  * Bal Gangadhar Tilak         * V.O. Chidambaram Pillai
+   * Raksha Bandhan         * Shivaji & Ganapati festivals* Swadeshi Steam Navigation Co.
+   * National Council of Ed * Swadeshi picketing          * Subramania Bharati (poems)
+         |                         |                             |
+         v                         v                             v
+   [PUNJAB / DELHI]          [UNITED PROVINCES]            [SURAT: 1907 SPLIT]
+   * Lala Lajpat Rai         * Syed Haider Raza (Delhi)    * Extremists expelled;
+   * Ajit Singh (Pagdi Sambhal)                             Moderates retain Congress
+
+Spatial & Strategic Dynamics:
+1. Divide-and-Rule Cartography: Curzon's partition boundary deliberately divided the Bengali-speaking linguistic heartland, turning Bengalis into a linguistic minority in the West and creating a communal majority in the East.
+2. Trans-Provincial Swadeshi Network: For the first time, an agitation born in Calcutta spread to Bombay (Tilak), Punjab (Lajpat Rai), Delhi (Syed Haider Raza), and Tamil Nadu (Chidambaram Pillai).
+3. The Surat Catastrophe: The tactical divergence over extending boycott beyond Bengal and British goods provoked the historic Surat Split (1907) on the banks of the Tapti river, paralyzing the national movement until 1916.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Exam Pitfalls, Presidential Identity Traps & Swadeshi Milestones',
         body: `### Critical Examiner Traps to Master:
@@ -1371,7 +1583,7 @@ The spark that transformed this intellectual rebellion into a mass conflagration
 * ⚠️ **Trap 3: First Declaration of "Swaraj" from the INC Platform:** The goal of **"Swaraj" (Self-Government)** was officially proclaimed from the Congress presidential dais for the very first time by **Dadabhai Naoroji at the 1906 Calcutta Session**, NOT at the Surat Session of 1907, and NOT by Gandhi or Tilak alone!
 * ⚠️ **Trap 4: Southern Extension of Swadeshi:** When asked about the Swadeshi movement in the Madras Presidency, remember **V.O. Chidambaram Pillai** (VOC) and **Subramania Bharati** in Tirunelveli/Tuticorin. VOC established the *Swadeshi Steam Navigation Company* between Tuticorin and Colombo, facing severe British persecution.
 * ⚠️ **Trap 5: First Principal of Bengal National College:** **Aurobindo Ghosh** served as the very first principal of Bengal National College (founded in August 1906 under the National Council of Education), while **Satish Chandra Mukherjee** guided the Dawn Society that nurtured it.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -1382,8 +1594,8 @@ The spark that transformed this intellectual rebellion into a mass conflagration
         claimType: 'MASS_MOVEMENT_TRIGGER',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Partition of Bengal 1905, Curzon policy, Swadeshi and Boycott Movement, Raksha Bandhan.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "Freedom is our birthright" / The Partition of Bengal, pp. 98-100',
+        excerpt: 'In 1905 Viceroy Curzon partitioned Bengal. At that time Bengal was the biggest province of British India... The Partition of Bengal infuriated people all over India. All sections of the Congress – the Moderates and the Radicals – opposed it. Large public meetings and demonstrations were organised and novel methods of mass protest developed. The struggle that unfolded came to be known as the Swadeshi movement.',
       },
       {
         id: 'CLM-MOD-12-2',
@@ -1391,8 +1603,8 @@ The spark that transformed this intellectual rebellion into a mass conflagration
         claimType: 'CONGRESS_RESOLUTION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: '1906 Calcutta session: Dadabhai Naoroji declared Swaraj as goal, four resolutions adopted.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "Freedom is our birthright", pp. 99-100',
+        excerpt: 'At the 1906 Calcutta session under Dadabhai Naoroji, the Congress proclaimed Swaraj or self-government as the national goal and formally endorsed resolutions demanding Swadeshi, Boycott, and National Education.',
       },
       {
         id: 'CLM-MOD-12-3',
@@ -1400,8 +1612,8 @@ The spark that transformed this intellectual rebellion into a mass conflagration
         claimType: 'POLITICAL_SCHISM',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Surat Split 1907: Rash Behari Ghosh president, Congress schism between Moderates and Extremists.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "Freedom is our birthright" / The Surat Split, p. 100',
+        excerpt: 'The Congress split in 1907 at the Surat session. The Moderates were opposed to the use of boycott beyond Bengal... After the split the Congress came to be dominated by the Moderates with Tilak’s followers functioning from outside. The two groups reunited in December 1915.',
       },
     ],
     examMappings: [
