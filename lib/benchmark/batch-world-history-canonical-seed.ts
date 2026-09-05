@@ -1206,178 +1206,151 @@ In the mid-14th century, this frozen medieval order shattered:
   {
     id: 'CON-WLD-06',
     slug: 'industrial-revolution-in-britain-and-rise-of-capitalism',
-    title: 'The Industrial Revolution in Britain & The Rise of Industrial Capitalism: Mechanization, Factory Discipline & Socio-Economic Transformation',
-    shortDefinition: 'The transformation from an agrarian artisanal economy to machine-driven factory capitalism (c. 1760–1850): British structural preconditions, textile mechanization (Hargreaves, Arkwright, Crompton, Cartwright), James Watt steam engine, Abraham Darby coke smelting, railway network expansion (George Stephenson), labor exploitation, Luddite resistance, and early statutory factory legislation.',
-    difficulty: 'INTERMEDIATE',
+    title: 'The Age of Industrialisation: Proto-Industrialization, Hand Labor vs Steam, Industrial Capitalism & Colonial De-Industrialization',
+    shortDefinition: 'Comprehensive NCERT Class X Chapter 4 synthesis: Proto-industrialization (the domestic merchant-putting-out system controlled by urban merchant guilds), the pace of industrial change and slow steam engine adoption (Matthew Boulton, James Watt), hand labor vs steam machines in Victorian Britain (seasonal demand and bourgeois preference for handcrafted goods), the life of workers and hostile reactions to the Spinning Jenny, colonial impact on Indian textiles (decline of Surat and Hoogly, rise of Bombay and Calcutta), the Gomastha system of coercive advances, colonial tariff barriers and British cotton flooding Indian markets, early Indian industrialists (Dwarkanath Tagore, Dinshaw Petit, Jamsetjee Nusserwanjee Tata, Seth Hukumchand), and the Swadeshi boycott movement.',
+    difficulty: 'ADVANCED',
     order: 6,
     topicSlug: 'industrial-revolution-and-capitalism',
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'From Muscle and Wood to Steam and Coal: The Birth of the Mechanical World',
-        body: `For thousands of years of recorded human history, civilization was constrained by biological energy budgets: human muscles, draft animals, wind, and burning wood. Production took place in cottages under artisanal rhythms where workers owned their tools and controlled their working time.
-
-Between 1760 and 1850 in Great Britain, this millennia-old biological regime was shattered by the **Industrial Revolution**. By harnessing the thermal energy of underground fossil coal to drive **James Watt's steam engines**, British entrepreneurs replaced hand tools with self-acting machinery.
-
-The spinning of cotton and smelting of iron were concentrated into colossal multi-story brick factories. But this miraculous surge in productive power was accompanied by intense human misery: artisans lost their economic independence, families were herded into filthy industrial slums like Manchester, and children as young as six worked 14-hour days under relentless clock discipline. The Industrial Revolution created modern industrial capitalism and organized working-class resistance simultaneously.`,
+        title: 'From Cottage Handcraft to Mechanized Mills: Rethinking the Industrial Narrative',
+        body: 'When we envision the Industrial Revolution, our minds immediately picture smoke-belching chimneys, clattering railway locomotives, and colossal multi-story brick factories. This heroic narrative of progress was celebrated on the covers of popular nineteenth-century trade journals, such as the 1900 cover of *Dawn of the Century* or E.T. Paull\'s *Two Magicians*, contrasting Aladdin\'s mythical lamp with the modern mechanical engineer.\n\nYet NCERT Class X reveals a far more complex historical reality:\n1. Before the Factory: For over a century prior to the first factories, a massive commercial manufacturing system flourished—termed **Proto-Industrialization**—controlled by urban merchants who distributed raw wool and cotton to hundreds of peasant families working inside their rural cottages.\n2. The Reluctance to Mechanize: In nineteenth-century Victorian Britain, industrialists were often reluctant to install expensive, breakdown-prone steam engines when an abundance of impoverished human hand-labor was available for low seasonal wages.\n3. The Colonial Inversion: In India, the world\'s premier exporter of fine cotton calicos and muslins for centuries, the rise of Manchester mechanized cotton mills did not mean industrial growth: it meant catastrophic **de-industrialization**, as British colonial tariffs wiped out Indian weavers while flooding domestic bazaars with cheap machine-made cloth.',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'The British Crucible: Preconditions, Inventions & Legislative Trajectory',
-        body: `### 1. Why Britain First? (The Structural Preconditions)
-* **Agrarian Revolution & Enclosure Acts:** Common lands were consolidated by parliamentary enclosures, creating a massive pool of landless, propertyless agricultural wage-laborers forced to migrate to urban centers.
-* **Geographical Endowment:** Exceptional proximity of high-grade coal fields and iron ore reserves located close to navigable rivers and ports, reducing overland transportation costs.
-* **Commercial Wealth & Colonial Capital:** Dominance in maritime trade (the transatlantic Triangular Trade) provided abundant merchant capital, cheap raw American slave-grown cotton, and captive overseas colonial markets.
-* **Institutional Security:** Stable parliamentary constitutional monarchy post-1688, rule of law, protected patent property rights, and sophisticated joint-stock banking through the Bank of England (1694).
-
----
-
-### 2. The Chain of Mechanical Innovations in Textiles & Metallurgy
-| Sector | Breakthrough Invention | Inventor & Year | Mechanistic Impact |
-| :--- | :--- | :--- | :--- |
-| **Weaving** | **Flying Shuttle** | John Kay (1733) | Doubled weaving speed, creating a catastrophic bottleneck in yarn supply. |
-| **Spinning** | **Spinning Jenny** | James Hargreaves (1764) | Allowed a single worker to spin 8 to 80 threads simultaneously by hand. |
-| **Spinning** | **Water Frame** | Richard Arkwright (1769) | Heavy water-powered rollers produced strong warp thread; birthed the **first centralized factories** at Cromford. |
-| **Spinning** | **Spinning Mule** | Samuel Crompton (1779) | Combined Jenny and Water Frame to produce exceptionally strong and ultra-fine muslin yarn. |
-| **Weaving** | **Power Loom** | Edmund Cartwright (1785) | Fully mechanized weaving using water or steam power, breaking handloom weavers. |
-| **Power** | **Separate Condenser Steam Engine** | James Watt & Matthew Boulton (1769/1781) | Converted thermal coal energy into continuous rotary mechanical motion, freeing mills from rivers. |
-| **Metallurgy** | **Coke Smelting of Iron** | Abraham Darby I, II, III (1709–1750s) | Replaced scarce timber charcoal with purified coal (coke), producing cheap pig iron and wrought iron. |
-| **Transport** | **The Steam Locomotive (*The Rocket*)** | George Stephenson (1829) | Integrated national freight distribution via the Liverpool & Manchester Railway (1830). |
-
----
-
-### 3. Social Dislocations & Labor Resistance (Luddites to Factory Acts)
-* **Luddite Movement (1811–1816):** Skilled handloom weavers and knitters under mythical general "Ned Ludd" smashed mechanical shearing frames and wide knitting frames that undercut customary wages. Suppressed by the British army and the **Frame Breaking Act (1812)**, which made machine-wrecking a capital crime punishable by hanging!
-* **The Sadler Committee Report (1832):** Parliamentary investigation led by Michael Sadler exposing horrific abuse of child labor, physical deformities, and 16-hour shifts in textile mills.
-* **Factory Act of 1833:** Landmark legislation prohibiting employment of children under 9 in textile mills, limiting children aged 9–13 to 8 hours daily, and establishing the first independent **Factory Inspectorate** to enforce compliance.`,
+        title: 'Proto-Industrialization, Pace of Mechanization & The Victorian Labor Market',
+        body: '### 1. Proto-Industrialization & The Putting-Out Network (NCERT Class X Focus)\n- **Definition:** A decentralized commercial manufacturing network existing before the establishment of modern factories, organized by merchant capital for international trade.\n- **Why Merchants Moved to the Countryside:** In medieval European towns, powerful **Urban Craft & Merchant Guilds** controlled production, regulated prices, restricted competition, and barred new entrants. Merchants could not expand production in towns; they moved to the countryside.\n- **The Domestic Putting-Out Cycle (Woolen Example):**\n  1. *Stapler:* Merchant bought wool from a wool stapler (one who sorts wool according to fiber).\n  2. *Spinners:* Distributed to rural peasant cottages for spinning into yarn.\n  3. *Weavers & Fullers:* Yarn taken to weavers, then to fullers (who gather cloth by pleating), and finally to dyers.\n  4. *London as the Finishing Center:* The finished cloth was sent to **London** for final finishing before export; hence London was universally known as a **"Finishing Center"**!\n\n---\n\n### 2. The Real Pace of Industrial Change: Why Machines Spread Slowly\n- **The Exaggerated Factory Revolution:** Even by 1850, less than **20%** of the total British workforce was employed in technologically advanced industrial factories. The textile sector was dynamic, but a huge portion of output was still produced in domestic workshops.\n- **Technological Reluctance:** Steam technology was expensive, novel, and prone to catastrophic boiler explosions. Repairing broken steam engines took months. In 1781, when James Watt patented his improved steam engine and manufactured it with **Matthew Boulton**, there were only **321 steam engines** in all of England (over 80 in cotton, only 9 in wool, and the rest in coal/iron mines)!\n- **Hand Labor vs. Steam in Victorian Britain:**\n  * In Victorian England, there was **no shortage of human labor**; impoverished rural migrants flocked to cities, keeping wages low.\n  * Many industries had **seasonal demand** (gasworks in winter, breweries in cold months, bookbinding before Christmas, ship repairing before spring). Industrialists preferred hiring temporary hand-laborers rather than investing massive fixed capital in machines that would sit idle for half the year!\n  * Upper-class Victorian aristocrats and bourgeoisie preferred **handmade products**—handcrafted goods symbolized refinement, unique design, and prestige, whereas machine-made goods were meant for cheap colonial export.',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'The Industrial Mechanism: Energy Decoupling, Time Discipline & Urban Slums',
-        body: `### 1. The Energy Decoupling Mechanism (Wrigley's Model)
-* Pre-industrial economies relied on an **Organic Economy** dependent on the annual solar capture of plants (wood, draft animals). Land was the ultimate ceiling: food, fuel, building materials, and fiber all competed for identical surface acres.
-* The Industrial Revolution replaced the organic economy with a **Mineral-Based Energy Economy** by tapping fossilized solar energy stored millions of years ago in coal seams, breaking the ecological ceiling on economic growth.
-
-### 2. E.P. Thompson's "Time, Work-Discipline, and Industrial Capitalism"
-* Artisanal and agricultural labor operated on **Task-Oriented Time** (working when crops required or until a job was done, with traditional leisure on "Saint Monday").
-* Industrial capitalism replaced task-orientation with **Synchronized Clock-Oriented Labor**: workers sold their labor time by the exact hour and minute, disciplined by factory bells, overseers' fines, and mechanical line cadence.
-
-### 3. Spatial Segregation & Public Health Crises
-* Rapid unzoned urbanization concentrated working-class families into damp cellar dwellings and back-to-back tenements devoid of piped water, sewers, or refuse removal, triggering devastating cholera epidemics documented in Edwin Chadwick's 1842 sanitary report.`,
+        title: 'Workers\' Resistance, The Indian Textile Catastrophe & Early Nationalist Capitalists',
+        body: '### 1. Workers\' Lives & The Attacks on the Spinning Jenny\n- News of possible factory jobs drew thousands to cities; people slept under bridges, in casual wards, or in squalid night refuges.\n- **Resistance to the Spinning Jenny (1764):** Invented by James Hargreaves, the Spinning Jenny sped up spinning and reduced labor demand. When it was introduced in the woolen industry, hand-spinners (predominantly poor women) violently attacked and smashed the Jennies! Machine-wrecking continued for decades.\n\n---\n\n### 2. Colonial Subjugation of Indian Handloom Weavers (The Gomastha System)\n- Before British industrialization, India was the world\'s unrivaled producer of fine cotton textiles; the English East India Company faced fierce competition from the Dutch, French, and Portuguese.\n- **The Gomastha Surveillance System:** Once the Company established political monopoly in Bengal and Carnatic after the 1760s, it eliminated independent Indian brokers and appointed paid company supervisors called **Gomasthas**:\n  * Gomasthas gave advance loans to weavers to purchase raw materials.\n  * Weavers who accepted advances were bound to hand over all cloth exclusively to the Company; they could not sell to any other merchant.\n  * Gomasthas acted arrogantly, marching into villages with sepoys and peons, beating and flogging weavers for delayed delivery.\n  * Despairing weavers revolted, clashed with Gomasthas, deserted ancestral villages, or severed their own thumbs to escape forced servitude.\n- **Manchester Floods India:** In the 19th century, British industrialists lobbied parliament to impose prohibitive **import duties on Indian textiles** entering Britain, while forcing the East India Company to remove all duties on British machine-made cloth entering India:\n  * In 1811–12, cotton piece-goods made up **33%** of India\'s total exports; by 1850–51, they dropped to barely **3%**!\n  * British machine-made cotton was so cheap that Indian handloom weavers could not compete; simultaneously, exports of raw cotton from India to Britain caused severe raw cotton shortages for local weavers.\n\n---\n\n### 3. Early Indian Industrial Pioneers (NCERT Highlight)\n- **Dwarkanath Tagore (Bengal):** Made his fortune in the China tea and opium trade; established six joint-stock companies in the 1830s and 1840s (coal mining, shipping, banking) before the 1840s commercial crash.\n- **Dinshaw Petit & Jamsetjee Nusserwanjee Tata (Bombay):** Parsis who accumulated initial capital through the China opium trade and raw cotton exports; Tata founded the **Tata Iron and Steel Company (TISCO)** at Jamshedpur (1907).\n- **Seth Hukumchand (Calcutta):** Marwari businessman who established the first Indian jute mill in Calcutta in 1917, having made his capital trading with China.\n- **Shift during the Swadeshi Movement (1905) & World War I:** The Swadeshi boycott stimulated Indian mill production; during WWI, British mills were mobilized for war supplies, allowing Indian factories to capture the domestic home market permanently.',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Invention Attribution & Parliamentary Statutes',
-        body: `### High-Frequency Traps in Industrial Revolution History
-1. **Spinning vs Weaving Inventions (The #1 Classical Trap!):**
-   * *Spinning:* Hargreaves (Spinning Jenny), Arkwright (Water Frame), Crompton (Mule).
-   * *Weaving:* John Kay (Flying Shuttle - 1733), Edmund Cartwright (Power Loom - 1785).
-   * Examiner will often claim Cartwright invented the Spinning Mule! That was Samuel Crompton.
-
-2. **The Origin of the Modern Factory System:**
-   * Richard Arkwright's water frame at Cromford Mill in Derbyshire (1771) is recognized by historians as the archetype of the centralized industrial factory because the water-powered machinery was too heavy and expensive for home workshops.
-
-3. **Luddites vs Chartists:**
-   * **Luddites (1811–1816):** Machine smashers protesting wage degradation and unregulated machinery.
-   * **Chartists (1838–1848):** Political democratic movement demanding the **People's Charter** (universal male suffrage, secret ballot, equal constituencies, annual parliaments). Do NOT confuse machine sabotage with parliamentary petitioning!
-
-4. **Factory Act of 1833:**
-   * Did NOT ban all child labor; banned children under 9 and instituted the first government inspectors.`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'Spatial Reorientation: From Pre-Colonial Ports to Colonial Mill Capitals',
+        body: 'Geographical Reorientation of Indian Manufacturing & Global Commodity Chains:\n\n   +-------------------------------------------------------------------------+\n   | PRE-COLONIAL MARITIME TRADE HUBS (Decayed by late 18th century):       |\n   |   - [Surat] (Gujarat coast): Linked India to Gulf & Red Sea ports       |\n   |   - [Masulipatnam] (Coromandel coast): Ancient textile trade port       |\n   |   - [Hoogly] (Bengal): Traditional delta trade port                     |\n   |                                                                         |\n   | COLONIAL TRADE & FACTORY METROPOLES (Emerged under British monopoly):    |\n   |   - [Bombay]: Cotton textile mills (First mill 1854); Parsis / Gujaratis|\n   |   - [Calcutta]: Jute mills along the Hoogly River; Seth Hukumchand 1917 |\n   |   - [Ahmedabad]: First cotton textile mill (1861)                       |\n   |   - [Kanpur]: Elgin Mill (1860s) for woolen military goods              |\n   |   - [Jamshedpur / Sakchi]: Tata Iron & Steel Company (TISCO, 1907)      |\n   |                                                                         |\n   | COMMODITY CORRIDORS:                                                    |\n   |   India Raw Cotton =====> Liverpool / Manchester Mills                  |\n   |   Manchester Manufactured Textiles =====> Dumped duty-free into India   |\n   +-------------------------------------------------------------------------+',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Key Inventions & Standard Answer Frameworks',
+        body: '### 1. High-Frequency Traps in Industrialization History\n- **Proto-Industrialization Location Trap:** Production took place in **rural family cottages**, NOT in factories or urban centers; London\'s role was strictly as a **"finishing center"**.\n- **Spinning vs Weaving Inventions:**\n  * *Spinning Jenny:* Invented by **James Hargreaves (1764)** (spun multiple threads simultaneously).\n  * *Water Frame:* Invented by **Richard Arkwright (1769)** (water-powered rollers, launched the first centralized factories at Cromford).\n  * *Flying Shuttle:* Invented by **John Kay (1733)** (accelerated weaving).\n  * *Power Loom:* Invented by **Edmund Cartwright (1785)** (mechanized weaving).\n- **Gomastha Role:** Gomasthas were **paid colonial supervisors** of the East India Company, NOT independent Indian merchants or village panchayat elders.\n- **First Cotton Mill in India:** Established in **Bombay in 1854** (NOT Ahmedabad, NOT Calcutta! The first jute mill was at Rishra near Calcutta in 1855).\n\n---\n\n### 2. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Explain the concept of Proto-Industrialization and analyze the factors that caused the decline of Indian weavers in the 19th century.**\n- **Structure:**\n  * *Definition of Proto-Industrialization (25 words):* The phase of decentralized, commercial household manufacturing organized by urban merchants in rural peasant cottages for global markets before modern steam-powered factories emerged.\n  * *Decline of Indian Weavers (55 words):*\n    1. Coercive Gomastha advance-loan system monopolized weaver output and eliminated competitive market prices.\n    2. Prohibitive British tariffs blocked Indian cloth from European markets.\n    3. Inflow of cheap, duty-free Manchester machine-made cotton flooded the domestic Indian market.\n    4. Raw cotton exports to Britain created acute raw material shortages and soaring fiber prices for local artisans.\n  * *Conclusion (20 words):* Resulted in forced de-industrialization, throwing millions of skilled artisanal weavers into destitution and landless agricultural wage labor.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-06-1',
-        statement: 'Great Britain became the crucible of the Industrial Revolution due to convergent preconditions including agrarian enclosure labor surpluses, abundant coal and iron proximity, commercial maritime wealth, and institutional patent protection.',
+        statement: 'Before the advent of modern steam factories, a large-scale international commercial manufacturing system flourished in Europe known as Proto-Industrialization, wherein urban merchants organized production across rural peasant households, with London serving as the final finishing center.',
         claimType: 'HISTORICAL_PRECONDITION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-42',
-        excerpt: 'Industrial Revolution in Britain: Preconditions, enclosure movement, coal and iron deposits, colonial capital accumulation.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 4: The Age of Industrialisation, Section 1: Before the Industrial Revolution, pp. 79-82',
+        excerpt: 'Even before factories began to dot the landscape in England and Europe, there was large-scale industrial production for an international market. This was not based on factories. Many historians now refer to this phase of industrialisation as proto-industrialisation... A merchant clothier in England purchased wool from a wool stapler... The finishing was done in London before the export merchant sold the cloth in the international market. London in fact came to be known as a finishing centre.',
       },
       {
         id: 'CLM-WLD-06-2',
-        statement: 'A sequence of mechanical inventions—John Kay\'s Flying Shuttle (1733), James Hargreaves\' Spinning Jenny (1764), Richard Arkwright\'s Water Frame (1769), Samuel Crompton\'s Mule (1779), and Edmund Cartwright\'s Power Loom (1785)—mechanized the textile industry and created the modern centralized factory system.',
-        claimType: 'TECHNOLOGICAL_INNOVATION',
+        statement: 'In Victorian Britain, industrialists frequently preferred manual hand labor over steam technology because labor was cheap and abundant, many major industries faced seasonal demand fluctuations, and wealthy elites preferred handcrafted goods as symbols of refined taste.',
+        claimType: 'TECHNOLOGICAL_CHOICE_AND_LABOR',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-42',
-        excerpt: 'Textile mechanization: Flying Shuttle, Spinning Jenny, Water Frame, Spinning Mule, Power Loom, James Watt steam engine.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 4, Section 2: Hand Labour and Steam Power, pp. 83-85',
+        excerpt: 'In Victorian Britain there was no shortage of human labour... In many industries the demand for labour was seasonal... In all such industries where production fluctuated with the season, industrialists usually preferred hand labour, employing workers for the season... A range of products could be produced only with hand labour... In Victorian Britain, the aristocrats and the bourgeoisie - preferred things produced by hand.',
       },
       {
         id: 'CLM-WLD-06-3',
-        statement: 'Industrial capitalism generated severe social dislocation and worker immiseration, provoking artisan resistance through the Luddite movement (1811–1816) and compelling parliamentary regulation through the Sadler Report (1832) and Factory Act of 1833.',
-        claimType: 'SOCIO_ECONOMIC_IMPACT',
+        statement: 'The introduction of the Spinning Jenny invented by James Hargreaves in 1764 sparked violent resistance and machine-wrecking by British hand-spinners, especially women, who feared technological unemployment.',
+        claimType: 'WORKER_RESISTANCE',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-42',
-        excerpt: 'Social consequences: Child labor, factory conditions, Luddite machine wrecking, Sadler Committee Report 1832, Factory Act 1833.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 4, Section 2: Life of the Workers, p. 86',
+        excerpt: 'The fear of unemployment made workers hostile to the introduction of new technology. When the Spinning Jenny was introduced in the woollen industry, women who survived on hand spinning began attacking the new machines. This conflict over the introduction of the jenny continued for a long time.',
+      },
+      {
+        id: 'CLM-WLD-06-4',
+        statement: 'The English East India Company bypassed independent Indian brokers by appointing coercive paid supervisors called Gomasthas, who used advances to bind weavers exclusively to company contracts, cutting them off from free market transactions.',
+        claimType: 'COLONIAL_MONOPOLY_AND_SURVEILLANCE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 4, Section 3: What Happened to Weavers?, pp. 88-90',
+        excerpt: 'It appointed a paid servant called the gomastha to supervise weavers, collect supplies, and examine the quality of cloth. It prevented Company weavers from dealing with other buyers... through the system of advances... The gomastha was an outsider, with no long-term social link with the village. They acted arrogantly, marched into villages with sepoys and peons, and punished weavers for delays in supply - often beating and flogging them.',
+      },
+      {
+        id: 'CLM-WLD-06-5',
+        statement: 'The imposition of import tariffs on Indian textiles entering Britain and the dumping of cheap, duty-free Manchester cotton into colonial India caused the share of cotton piece-goods in India\'s exports to collapse from 33 percent in 1811–12 to barely 3 percent by 1850–51.',
+        claimType: 'COLONIAL_DE_INDUSTRIALIZATION',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class X India and the Contemporary World - II, Chapter 4, Section 3: Manchester Comes to India, pp. 91-92',
+        excerpt: 'As cotton industries developed in England, industrial groups began worrying about imports from other countries. They pressurised the government to impose import duties on cotton textiles so that Manchester goods could sell in Britain without facing any competition from outside... At the end of the eighteenth century, there had been virtually no import of cotton piece-goods into India. But by 1850 cotton piece-goods constituted over 31 per cent of the value of Indian imports... While in 1811-12 silk and cotton goods made up 33 per cent of India\'s exports, by 1850-51 the proportion was no more than 3 per cent.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Industrial Revolution & Socio-Economic Changes',
+        syllabusUnit: 'GS Paper I — World History / Industrial Revolution, Capitalism & Colonial De-Industrialization; Modern Indian History — Economic Impact of British Rule',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_HISTORICAL_ANALYSIS',
-        notes: 'Preconditions of Industrial Revolution in Britain and social consequences frequently tested in Mains.',
+        requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
+        notes: 'Perennial analytical questions on proto-industrialization, why Victorian Britain was slow to adopt steam power, and the mechanisms of Indian textile de-industrialization.',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History: Industrial Revolution and Its Impact',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / Industrial Revolution and Its Global Impact; Modern Indian History / Economic Impact of British Rule',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark and 10-mark questions on causes, inventions, and social consequences of Industrial Revolution.',
+        notes: 'Frequent 2-mark definitions (Proto-industrialization, Gomastha, Spinning Jenny, TISCO), 5-mark short notes (Hand labor vs steam in Victorian England), and 10-mark full essays on the decline of Indian weavers under British rule.',
       },
       {
         examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — World History',
+        syllabusUnit: 'General Awareness — World History, Inventions & Indian Economic History',
         relevance: 'CORE',
-        priority: 'HIGH',
+        priority: 'VERY_HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on key inventors: James Watt (steam engine), Hargreaves (Spinning Jenny), Arkwright, Stephenson.',
+        notes: 'Direct MCQs on first cotton mill in India (Bombay 1854), first jute mill (Rishra 1855), Spinning Jenny inventor (Hargreaves), and Gomastha definition.',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'Industrial Relations & Labor Legislation — Historical Evolution of Factory System',
+        syllabusUnit: 'Industrial Relations & Labor Legislation — Evolution of Manufacturing Systems & Colonial Labor Exploitation',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'LABOR_HISTORY_DEPTH',
-        notes: 'Sadler Committee Report 1832 and Factory Act 1833 are foundational historical roots of modern labor legislation.',
+        notes: 'Foundational history of putting-out contracts, wage-labor discipline, factory acts, and early Indian labor struggles.',
       },
       {
         examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Economic History Milestones',
+        syllabusUnit: 'General Awareness — Industrial & Economic History',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Origins of commercial banking and industrial investment capital.',
+        notes: 'History of early commercial banking, joint-stock enterprises, and industrialization.',
       },
       {
         examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — Global Economic Transitions',
+        syllabusUnit: 'General Awareness — Economic History',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on technological developments and rise of modern capitalism.',
+        notes: 'Landmark events of global industrial development.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness / Economic History',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Foundations of modern industrial capitalism and energy transitions.',
+        syllabusUnit: 'Economic & Social Issues (ESI) — Industrialization, Trade Policy & De-Industrialization Dynamics',
+        relevance: 'CORE',
+        priority: 'VERY_HIGH',
+        requiredDepth: 'EXPERT',
+        notes: 'Tariff protection mechanisms, structural trade imbalances, and the transition from proto-industrial networks to factory production.',
       },
       {
         examCode: 'IIBF_DBF',
@@ -1385,74 +1358,71 @@ The spinning of cotton and smelting of iron were concentrated into colossal mult
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Economic evolution from agrarian feudalism to industrial capitalism.',
+        notes: 'Evolution of commercial merchant capital into industrial joint-stock companies.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Industrial Revolution (Britain, c. 1760-1850): Preconditions = coal/iron proximity, enclosure labor surplus, colonial trade capital. Key Inventions: Spinning Jenny (1764 Hargreaves), Water Frame (1769 Arkwright - factory birth), Mule (1779 Crompton), Power Loom (1785 Cartwright), Watt Rotary Steam Engine (1769/81), Stephenson Rocket (1829). Resistance: Luddites (1811-16 machine smashers). Statutory Reform: Sadler Report (1832) -> Factory Act 1833 (first factory inspectors).',
+        content: 'Age of Industrialisation: 1) Proto-Industrial: Rural cottage production controlled by urban merchants; London was "Finishing Centre". 2) Steam Reality: In 1781, only 321 steam engines in England; Victorian capitalists preferred seasonal hand labor & bespoke handmade luxury goods. 3) Resistance: Women attacked Spinning Jenny (1764 Hargreaves). 4) India: East India Company appointed coercive Gomasthas (advances, flogging); British tariffs + duty-free Manchester cloth collapsed Indian textile exports from 33% (1811) to 3% (1850). 5) Mills: First Indian cotton mill (Bombay 1854), first jute mill (Rishra 1855), TISCO (1907).',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Industrial Revolution Blueprint: 1) Structural Genesis: Emerged in Great Britain c. 1760 through coal-iron geological proximity, agricultural enclosures generating wage labor, and overseas colonial capital extraction. 2) Textile Mechanization Sequence: Kay\'s Flying Shuttle triggered yarn bottleneck -> resolved by Hargreaves\' Jenny, Arkwright\'s Water Frame (establishing centralized factories), Crompton\'s Mule, and Cartwright\'s Power Loom. 3) Steam & Transport: James Watt converted steam into rotary motion, emancipating mills from riverbanks; Stephenson\'s railways created unified national commodity markets. 4) Social Toll & Labor Defense: Clock discipline, child exploitation, Luddite machine wrecking; Sadler Committee exposed horrors, compelling the milestone Factory Act of 1833.',
+        content: 'The Age of Industrialisation Blueprint (NCERT Class X): 1) Proto-Industrialization: A commercial system of international manufacture before modern factories; urban craft guilds forced merchants to coordinate production among rural peasant families, with London functioning as the finishing hub. 2) Pace of Mechanization: Factories did not displace traditional workshops overnight; industrialists preferred abundant, cheap human hand-labor for seasonal demands (gasworks, breweries), and elites prized handcrafted luxury goods. 3) Colonial Destruction of Indian Textiles: The British East India Company appointed Gomasthas to bind weavers with advance loans and eliminate competition. British protective tariffs shut Indian cloth out of England, while duty-free Manchester machine textiles flooded Indian markets, causing exports to collapse from 33% in 1811 to 3% by 1850. 4) Indian Industrial Pioneers: Entrepreneurs like Dwarkanath Tagore, Dinshaw Petit, Jamsetjee Tata (TISCO 1907), and Seth Hukumchand overcame colonial restrictions, using Swadeshi boycotts and WWI supply shifts to anchor Indian industrial capitalism.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Industrial Capitalism Structural Architecture: 1) Energy Regime Shift: Transition from surface organic flow energy (wood, water, draft animals) to underground mineral stock energy (fossil coal), lifting Malthusian ceilings on output. 2) Labor Discipline Reorientation: Eradication of artisanal task-oriented time; enforcement of strict clock-synchronized employer wage-labor. 3) Spatial Urban Segregation: Division of towns into affluent bourgeois residential areas and unsanitary proletarian slums.',
+        content: 'Industrial Capitalism & Imperial Extraction Architecture:\n1) Spatial Decoupling (The Putting-Out Logic): The proto-industrial putting-out system bypassed rigid urban guild monopolies by integrating rural agrarian underemployment into global export networks, laying the commercial credit infrastructure for subsequent factory concentration.\n2) The Dual Labor Regime: Technological adoption was fundamentally mediated by labor supply economics; Victorian industrialists resisted expensive fixed steam capital because abundant seasonal wage labor provided superior profit margins with zero maintenance overhead.\n3) Colonial Tariff Asymmetry & De-Industrialization: British industrial hegemony was not created solely by mechanical efficiency, but through aggressive state intervention: high protective tariff walls against Indian artisanal imports combined with imperial coercion (Gomasthas) and forced zero-tariff access to colonial markets, de-industrializing the colony while capitalizing the metropole.',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'TEXTILE_INVENTION_MCQ',
-        stem: 'During the British Industrial Revolution, which of the following mechanical inventions solved the chronic spinning bottleneck by enabling a single worker to spin multiple spindles of yarn simultaneously using a hand-cranked wheel?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'In the commercial history of eighteenth-century Europe, why was the city of London specifically known as a "Finishing Centre" during the phase of Proto-Industrialization?',
         options: [
-          'John Kay\'s Flying Shuttle (1733)',
-          'James Hargreaves\' Spinning Jenny (1764)',
-          'Edmund Cartwright\'s Power Loom (1785)',
-          'Thomas Newcomen\'s Atmospheric Engine (1712)',
+          'Because all mechanical steam engines were manufactured and assembled exclusively in London factories',
+          'Because woven cloth produced in rural cottages across England was sent to London for final finishing and dyeing before being exported to the international market',
+          'Because the British Parliament met in London to finalize import tariffs on foreign raw materials',
+          'Because all apprentice weavers had to complete their final master-craftsman examinations in London guilds'
         ],
-        correctAnswer: 'James Hargreaves\' Spinning Jenny (1764)',
-        explanation: 'James Hargreaves invented the Spinning Jenny in 1764. By attaching multiple spindles (initially 8, later up to 80) to a single drive wheel, a single operative could spin multiple threads simultaneously, breaking the severe yarn scarcity caused by John Kay\'s Flying Shuttle.',
-        trapExplanation: 'The Flying Shuttle accelerated weaving (not spinning); the Power Loom automated weaving; the Newcomen engine pumped water from coal mines.',
-        difficulty: 'INTERMEDIATE',
+        correctAnswer: 'Because woven cloth produced in rural cottages across England was sent to London for final finishing and dyeing before being exported to the international market',
+        explanation: 'According to NCERT Class X Chapter 4, in the proto-industrial putting-out system, wool was sorted by staplers, spun in cottages, woven by weavers, and then brought to London for final finishing before being sold by export merchants in world markets. Hence London came to be known as a "finishing centre".',
+        trapExplanation: 'London was not a factory manufacturing city in this period; it was the commercial finishing and export port.',
+        difficulty: 'EASY',
         isPYQ: true,
-        pyqYear: 2022,
+        pyqYear: 2021,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Distinguishing spinning inventions (Jenny, Mule, Water Frame) from weaving inventions (Shuttle, Power Loom).',
+        examinerTrapPattern: 'Exact historical reason for London being designated a "finishing centre" during Proto-Industrialization.',
       },
       {
-        type: 'LUDDITE_MOVEMENT_MCQ',
-        stem: 'In the social and economic history of nineteenth-century Britain, what was the primary objective of the \"Luddite\" movement (1811–1816)?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'With reference to the economic history of colonial India in the late eighteenth and nineteenth centuries, who were the "Gomasthas"?',
         options: [
-          'To demand universal adult suffrage and annual parliaments through constitutional petitions',
-          'To protest against wage-undercutting, loss of livelihood, and abusive factory conditions by smashing newly introduced textile machinery',
-          'To establish state-owned communist factories inspired by Karl Marx\'s writings',
-          'To demand the immediate repeal of the Corn Laws to lower bread prices',
+          'Hereditary village headmen who collected agricultural land revenue on behalf of the Mughal emperor',
+          'Paid supervisors appointed by the English East India Company to supervise weavers, collect cloth supplies, and enforce exclusive delivery contracts',
+          'Indian merchant bankers who provided long-term loans for establishing the first railway lines in Bombay',
+          'Independent artisan guild masters who resisted the introduction of European spinning machinery'
         ],
-        correctAnswer: 'To protest against wage-undercutting, loss of livelihood, and abusive factory conditions by smashing newly introduced textile machinery',
-        explanation: 'The Luddites were skilled British textile artisans and handloom weavers who smashed mechanized wide-frame knitting looms and shearing gig-mills between 1811 and 1816 under the mythical general Ned Ludd. They opposed the use of machinery to circumvent customary wages, degrade workmanship, and introduce unregulated child labor.',
-        trapExplanation: 'Option A describes the Chartists (1838–48); Option C is anachronistic (Marx wrote decades later); Option D describes the Anti-Corn Law League.',
-        difficulty: 'INTERMEDIATE',
+        correctAnswer: 'Paid supervisors appointed by the English East India Company to supervise weavers, collect cloth supplies, and enforce exclusive delivery contracts',
+        explanation: 'According to NCERT Class X Chapter 4, the English East India Company eliminated existing traders and appointed paid servants called Gomasthas to supervise weavers, inspect the quality of cloth, and enforce advances that legally prevented weavers from selling to other buyers.',
+        trapExplanation: 'Option A describes traditional revenue officials (Zamindars/Patels); Option C describes indigenous bankers (Shroffs/Seths); Gomasthas were paid Company agents.',
+        difficulty: 'EASY',
         isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'UPSC CSE Prelims',
+        pyqYear: 2022,
+        pyqPaper: 'RPSC RAS Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact historical objective of Luddism vs Chartism vs Anti-Corn Law League.',
+        examinerTrapPattern: 'Definition and coercive institutional role of Gomasthas under the East India Company.',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 9: The Russian Revolution of 1917 & The Soviet State
-  // =========================================================================
   {
     id: 'CON-WLD-09',
     slug: 'the-russian-revolution-of-1917-and-soviet-state',
