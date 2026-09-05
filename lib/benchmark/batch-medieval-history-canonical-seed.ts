@@ -1762,228 +1762,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 9: Foreign Travellers & Medieval Historiography
   // =========================================================================
   {
-    id: 'CON-MED-09',
-    slug: 'foreign-travellers-and-medieval-historiography-albiruni-ibn-battuta-bernier',
-    title: 'Foreign Travellers & Eyewitness Historiography: Al-Biruni (Kitab al-Hind), Ibn Battuta (Rihla), and François Bernier',
-    shortDefinition: 'Comparative eyewitness historiography of medieval India: Al-Biruni\'s 11th-century scientific encyclopaedia *Kitab al-Hind* (Sanskrit analysis, varna barriers, astronomical methods), Ibn Battuta\'s 14th-century travelogue *Rihla* (Delhi Sultanate under Muhammad bin Tughlaq, postal networks Uluq and Dawa, urban bazaar dynamism), and François Bernier\'s 17th-century *Travels in the Mogul Empire* (Eurocentric critique of state land ownership, camp cities, and karkhanas).',
-    difficulty: 'ADVANCED',
-    order: 9,
-    topicSlug: 'foreign-travellers-and-medieval-historiography',
-    contentBlocks: [
+    "id": "CON-MED-09",
+    "slug": "foreign-travellers-and-medieval-historiography-albiruni-ibn-battuta-bernier",
+    "title": "Foreign Travellers & Eyewitness Historiography: Al-Biruni (Kitab al-Hind), Ibn Battuta (Rihla), and François Bernier",
+    "shortDefinition": "Authoritative NCERT Class XII Theme 5 (*Through the Eyes of Travellers: Perceptions of Society*) synthesis: Comparative eyewitness historiography of medieval India across three distinct eras: Al-Biruni's 11th-century Arabic scientific encyclopaedia *Kitab al-Hind* (80 chapters on astronomy, philosophy, and caste barriers; study of Sanskrit and Patanjali); Ibn Battuta's 14th-century Moroccan travelogue *Rihla* (service as Qazi under Muhammad bin Tughlaq; descriptions of paan, coconut, and vibrant urban bazaars; documentation of the rapid dual postal network: Uluq horse post and Dawa foot post); and François Bernier's 17th-century French treatise *Travels in the Mogul Empire* (physician to Dara Shikoh; Eurocentric thesis on the absence of private property in land, \"camp cities\", and imperial karkhanas).",
+    "difficulty": "ADVANCED",
+    "order": 9,
+    "topicSlug": "foreign-travellers-and-medieval-historiography",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'Looking at India Through Alien Eyes: The Power of the Outside Witness',
-        body: `When historians study medieval India, court chronicles like *Akbarnama* or *Tarikh-i-Firuz Shahi* provide invaluable data, but they suffer from an inherent bias: they were written by salaried royal courtiers whose livelihood depended on flattering their imperial masters.
-
-To discover what daily life was *really* like—how postal couriers sprinted across deserts, how caste barriers functioned on the ground, and whether peasants were prosperous or impoverished—we rely on **foreign travellers**.
-
-Three extraordinary travellers from three different centuries and continents provide an indelible window into medieval India:
-1. **Al-Biruni (11th Century, Central Asia):** A rigorous polymath who mastered Sanskrit, studied Hindu scriptures directly, and wrote an objective, mathematical analysis of Indian society.
-2. **Ibn Battuta (14th Century, Morocco):** A globe-trotting Islamic jurist who travelled 73,000 miles, served as Chief Qazi of Delhi under Muhammad bin Tughlaq, and chronicled the breathtaking speed of the postal courier system.
-3. **François Bernier (17th Century, France):** A French physician and philosopher who lived at the Mughal court of Shah Jahan and Aurangzeb, developing the controversial thesis that the lack of private property in land was the root cause of Asian decline!`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "Looking at India Through Alien Eyes: The Power of the Outside Witness",
+        "body": "When historians study medieval India, official court chronicles like the *Akbarnama*, *Ain-i Akbari*, or *Tarikh-i-Firuz Shahi* provide invaluable chronological data. However, they suffer from an inevitable structural limitation: they were written by salaried royal courtiers whose survival and promotion depended entirely on flattering their imperial patrons.\n\nTo discover what daily life was *really* like—how long-distance trade functioned, how postal couriers raced across hundreds of miles in days, how caste barriers operated in villages, and whether peasants were flourishing or exploited—historians turn to **foreign travellers**.\n\nThree extraordinary travellers from three different centuries, cultures, and continents provide an indelible window into medieval Indian society:\n1. **Al-Biruni (11th Century, Central Asia):** A rigorous polymath who arrived with Mahmud of Ghazni, mastered Sanskrit, read Hindu philosophical scriptures directly, and wrote an objective, mathematical, and comparative analysis of Indian society.\n2. **Ibn Battuta (14th Century, Morocco):** A globe-trotting Islamic jurist who traveled over 73,000 miles across the Old World, served as Chief Qazi of Delhi under Muhammad bin Tughlaq, and documented vibrant urban bazaars and the blazing speed of the postal system.\n3. **François Bernier (17th Century, France):** A French physician and political philosopher who lived at the Mughal court of Shah Jahan and Aurangzeb, developing the influential (though flawed) thesis that the Crown's monopoly on landownership was the fundamental root cause of Asian decline!",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'The Master Triad: Al-Biruni vs Ibn Battuta vs François Bernier',
-        body: `### The Three Canonical Foreign Travellers Master Comparison Matrix
-
-| Parameter | Al-Biruni (11th Century) | Ibn Battuta (14th Century) | François Bernier (17th Century) |
-| :--- | :--- | :--- | :--- |
-| **Origin & Nationality** | **Khwarizm (modern Uzbekistan)**; brought to Ghazni by Mahmud of Ghazni. | **Tangier, Morocco**; renowned Islamic legal scholar (*Qazi*). | **France**; physician, philosopher, and political economist. |
-| **Chronological Era & Ruler** | **11th Century CE (c. 1017–1030 CE)**; contemporary with Mahmud of Ghazni. | **14th Century CE (1333–1342 in India)**; court of **Muhammad bin Tughlaq**. | **17th Century CE (1656–1668 in India)**; courts of **Shah Jahan and Aurangzeb** (physician to Prince Dara Shikoh). |
-| **Master Literary Work** | **Kitab al-Hind** (written in Arabic; also known as *Tarikh al-Hind*). | **Rihla** (The Travels; written in Arabic, recorded by Ibn Juzayy). | **Travels in the Mogul Empire** (written in French as letters to Colbert and King Louis XIV). |
-| **Core Methodological Approach** | **Scientific, Philological & Comparative:** Learned Sanskrit, translated Patanjali\'s *Yogasutra*, compared Indian concepts with Greek philosophy (Plato). | **Observational & Anthropological:** Recorded sights, smells, customs, markets, transport systems, and social habits with boundless curiosity. | **Comparative Political Economy:** Constantly contrasted Mughal India with Europe, arguing Europe was superior because of private property rights. |
-| **Key Thematic Discoveries** | Identified **3 Barriers to understanding India**: 1) Sanskrit language complexity; 2) Hindu insularity / religious pride; 3) Traumatic shock of Mahmud\'s invasions. Analyzed Varna and *Antyaja* (outcastes). | Fascinated by novelties: **Betel leaf (*Paan*)** and **Coconut** (described as human heads). Documented dynamic urban bazaars (*Tarababad* street of musicians). | Formulated the **"Crown Ownership of Land" thesis**: argued the Emperor owned all land, preventing hereditary capital investment and reducing subjects to beggars. Coined **"Camp Cities"**. |
-| **Postal / Transport System** | Documented astronomical routes and trade paths. | Detailed the **Postal System (*Barid*)**: Horse post (**Uluq**) stationed every 4 miles; Foot-runner post (**Dawa**) stationed every $\\frac{1}{3}$ mile (faster than horse post!). | Described imperial Mughal manufacturing workshops (**Karkhanas**). |`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The Master Triad: Al-Biruni vs Ibn Battuta vs François Bernier Matrix",
+        "body": "### The Three Canonical Foreign Travellers Master Comparison (NCERT Class XII Theme 5)\n\n| Analytical Dimension | Al-Biruni (11th Century) | Ibn Battuta (14th Century) | François Bernier (17th Century) |\n| :--- | :--- | :--- | :--- |\n| **Origin & Nationality** | **Khwarizm (modern Uzbekistan)**; captured and brought to Ghazni by Sultan Mahmud in 1017 CE. | **Tangier, Morocco**; born into a prestigious family of Islamic legal scholars (*Qazis*). | **France**; physician, philosopher, political theorist, and traveler. |\n| **Era & Indian Ruler** | **c. 1017–1030 CE**; contemporary with Mahmud of Ghazni; spent years in Punjab. | **1333–1342 CE**; court of **Muhammad bin Tughlaq** (appointed him Qazi of Delhi). | **1656–1668 CE**; courts of **Shah Jahan and Aurangzeb**; personal physician to Prince Dara Shikoh. |\n| **Master Literary Work** | **Kitab al-Hind** (written in **Arabic**; structured into 80 comprehensive chapters). | **Rihla** (\"The Travels\", written in **Arabic**; dictated to court scribe Ibn Juzayy in Morocco). | **Travels in the Mogul Empire** (written in **French**; framed as letters to minister Colbert and King Louis XIV). |\n| **Methodological Approach** | **Scientific, Philological & Comparative:** Mastered Sanskrit; translated Patanjali's *Yogasutra* into Arabic; compared Hindu philosophy with Plato and Aristotle. | **Observational & Anthropological:** Relied on personal travel experiences, interviews, trade routes, and boundless curiosity for unusual customs. | **Comparative Political Economy:** Explicitly compared Mughal India with Western Europe, seeking to demonstrate European institutional superiority. |\n| **Key Thematic Discoveries** | Identified **3 Major Barriers** preventing foreigners from understanding India: 1) Language (Sanskrit complexity); 2) Religion (Brahminical insularity); 3) Historical Trauma (Ghaznavid invasions). Analyzed Varna and *Antyaja* outcastes. | Documented unfamiliar Indian novelties: **Betel leaf (*Paan*)** and **Coconut** (likened to human heads). Recorded bustling urban markets (*Tarababad* in Daulatabad) and the rapid postal system. | Formulated the **\"Crown Ownership of Land\" thesis**: argued the Emperor owned all land, eliminating private property and creating a binary society of impoverished beggars and opulent nobles. Coined **\"Camp Cities\"**. |\n| **Communication / Production** | Documented astronomical calculation tables and overland pilgrimage itineraries. | Recorded the imperial **Postal System (*Barid*)**: Horse post (**Uluq**) stationed every 4 miles; Foot-runner post (**Dawa**) stationed every $\\frac{1}{3}$ mile. | Documented the royal **Karkhanas** (imperial manufacturing workshops under royal overseers). |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'Ibn Battuta\'s Postal Speed & Bernier\'s "Crown Ownership" Fallacy',
-        body: `### 1. Ibn Battuta\'s Description of the Indian Postal Telemetry
-* **Uluq (Horse Post):** Run by royal horses stationed at relays every **4 miles (*Kuroh*)**.
-* **Dawa (Foot Post):** Had 3 stations per mile (every $\\frac{1}{3}$ mile / *Dawa*). A courier held a rod with brass bells; hearing the bells, the next courier stood ready to grab the mail and sprint to the next post.
-* *Astonishing Speed:* While ordinary travel from Sindh to Delhi took **50 days**, the postal courier delivered intelligence reports in **just 5 days**! Fresh drinking water from the Ganga was transported to the Sultan in Daulatabad via this runner relay.
-
-### 2. Historiographical Deconstruction of Bernier\'s "Oriental Despotism"
-* Bernier claimed that because the Mughal Emperor was the sole owner of all land, there was no private property, leading to the ruin of agriculture and the absence of a "middle state" (middle class).
-* *Modern Historiographical Truth:* Modern historians (Irfan Habib, Romila Thapar) have proven that **Bernier was factually incorrect**. Peasants in Mughal India held hereditary occupancy rights (*Khudkasht*); the Emperor claimed a share of the *produce* (revenue), NOT total physical ownership of the soil! Bernier\'s thesis was used later by Karl Marx to formulate the concept of the "Asiatic Mode of Production".`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Postal Logistics, Urban Bazaar Economy & The Private Property Debate",
+        "body": "### 1. Ibn Battuta on the Indian Communication Network: Uluq vs Dawa\nIn the *Rihla*, Ibn Battuta expressed astonishment at the postal logistics of the Delhi Sultanate, which allowed the Sultan to receive intelligence from Sindh to Delhi (over 800 miles) in just 5 days, whereas ordinary travelers took 50 days!\n* **The Horse Post (*Uluq*):** Royal horses stationed at relay posts called *Dhis* established at intervals of every **four miles**.\n* **The Foot Post (*Dawa*):**\n  * Stationed at intervals of **one-third of a mile** (three stations per mile).\n  * In each station, couriers sat ready inside pavilions with two-cubit-long rods tipped with brass bells.\n  * When a runner arrived carrying dispatches, the next courier grabbed the letter, shook the ringing rod to alert the next outpost, and sprinted at top speed to the next station.\n  * **Crucial Detail:** The foot post (*Dawa*) was often significantly faster than the horse post (*Uluq*)! It was also used to transport fresh watermelons and Ganga water from Delhi to Daulatabad for the Sultan.\n\n---\n\n### 2. Ibn Battuta on Urban Bazaars and Global Commerce\n* **Bazaars as Social & Cultural Centers:** Indian cities were not mere administrative military camps; they were dynamic commercial hubs. Bazaars contained not only shops, but also a **mosque and a temple**, alongside public open spaces with swings and musical performances.\n* **Daulatabad's Market of Singers (*Tarababad*):** A magnificent, multi-tiered marketplace lined with shops of female singers and musicians, featuring a central domed carpeted pavilion where the market superintendent sat.\n* **Global Trade Integration:** Indian manufactures—fine cotton muslin, silks, brocades, and satin—were in massive demand across Southeast Asia, China, and the Mediterranean, yielding huge profits paid in foreign gold and silver.\n\n---\n\n### 3. François Bernier's Landownership Critique & \"Camp Cities\"\n* **The Problem of Private Property:** Bernier argued that in Mughal India, there was no private ownership of land: the King was the sole proprietor of all land. He asserted that because nobles held only temporary jagirs that lapsed upon death, they had no financial incentive to invest in long-term agricultural improvements, irrigation, or manuring.\n* **Social Polarization:** Consequently, Bernier claimed India had no respectable \"middle state\" (bourgeoisie): there was only an opulent ruling elite (*Omrahs*) living in dazzling luxury, and a wretched, starving mass of destitute peasants and artisans.\n* **\"Camp Cities\":** Bernier characterized Mughal urban centers (Delhi, Agra, Lahore) as dependent parasitic \"camp cities\" that grew only when the imperial court arrived and turned into ghost towns when the Emperor marched away to war.\n* **Historiographical Flaw:** Modern historians (Irfan Habib, Satish Chandra) have demonstrated that Bernier was fundamentally mistaken: while the Emperor claimed sovereignty and tax rights, peasant cultivators (*Khudkasht*) enjoyed hereditary occupancy and alienation rights, and India had a vibrant merchant bourgeoisie (*Mahajans*, *Sarrafs*, and *Nagarsheths*).",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Kitab al-Hind Language & Uluq vs Dawa',
-        body: `### High-Frequency Traps in Medieval Travellers
-
-1. **Kitab al-Hind Language Trap:**
-   * *Trap:* Believing *Kitab al-Hind* was written in Persian or Sanskrit.
-   * *Truth:* It was composed in **Arabic**, in 80 structured chapters covering religion, philosophy, astronomy, customs, and metrology!
-
-2. **Uluq vs Dawa Postal Units:**
-   * **Uluq:** The **Horse post**, stationed every 4 miles.
-   * **Dawa:** The **Foot-runner post**, stationed every 1/3 of a mile (3 relays per mile).
-   * *Trap:* Reversing the definitions of Uluq and Dawa.
-
-3. **Bernier\'s Patron:**
-   * Bernier was personal physician to **Prince Dara Shikoh** (Akbar\'s great-grandson, Shah Jahan\'s eldest son) and later attached to the court of Danishmand Khan under Aurangzeb.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, Language of Composition & Historiographical Debates",
+        "body": "### 1. High-Frequency Traps & Misconceptions\n\n* **Trap 1: Language of Kitab al-Hind.**\n  * *Trap Question:* \"Al-Biruni wrote his famous work Kitab al-Hind in the Persian language.\"\n  * *Correct Fact:* **Incorrect.** Al-Biruni wrote *Kitab al-Hind* in **Arabic**, using a simple, lucid style structured around an 80-chapter geometric method (posing a question, answering from Sanskrit texts, and concluding with a cross-cultural comparison).\n* **Trap 2: The Uluq vs Dawa Terminology.**\n  * *Trap Question:* \"In the Sultanate postal system recorded by Ibn Battuta, the Uluq designated the foot-couriers and the Dawa designated the horse-riders.\"\n  * *Correct Fact:* **Exact Inversion.** **Uluq** was the horse-post (every 4 miles); **Dawa** was the foot-runner post (every $1/3$ mile).\n* **Trap 3: Bernier's Patron at Court.**\n  * *Trap Question:* \"François Bernier served primarily as the court astrologer to Emperor Akbar.\"\n  * *Correct Fact:* **Completely Anachronistic.** Bernier visited in the mid-17th century (reigns of Shah Jahan and Aurangzeb), and served as physician to the tragic intellectual prince **Dara Shikoh**, and later to Danishmand Khan, an imperial Mughal noble.\n* **Trap 4: Bernier's View of India vs Reality.**\n  * *UPSC Mains Perspective:* Bernier was not an objective recorder; he was writing to convince King Louis XIV of France that private property was essential for European prosperity, using Mughal India as a negative foil or warning of what happens when a king claims total ownership over land.\n\n---\n\n### 2. Other Notable Foreign Travellers in Medieval India Matrix\n\n| Traveller | Country | Century & Ruler Visited | Landmark Observation |\n| :--- | :--- | :--- | :--- |\n| **Abdur Razzaq** | Persia | 15th Century (Deva Raya II, Vijayanagara) | Seven concentric walls of Hampi enclosing agricultural fields. |\n| **Athanasius Nikitin** | Russia | 15th Century (Bahmani Kingdom) | Contrast between opulent Deccani nobles and impoverished peasants (*Voyage Beyond the Three Seas*). |\n| **Ralph Fitch** | England | 16th Century (Akbar) | Described Agra and Fatehpur Sikri as far larger and more populous than London. |\n| **William Hawkins** | England | 17th Century (Jahangir) | First English East India Company envoy; spoke Turkish; received a mansab of 400 from Jahangir. |\n| **Sir Thomas Roe** | England | 17th Century (Jahangir) | Ambassador of King James I; secured royal farman granting trading privileges at Surat. |\n| **Jean-Baptiste Tavernier** | France | 17th Century (Shah Jahan / Aurangzeb) | French jewel merchant; made six voyages to India; gave detailed account of Indian diamond mines (Golconda) and the Peacock Throne. |\n| **Niccolao Manucci** | Italy (Venice) | 17th Century (Dara Shikoh / Aurangzeb) | Artilleryman and physician; authored *Storia do Mogor*, chronicling internal court intrigue. |",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "Trans-Continental Travel Corridors: The Global Journeys of Al-Biruni, Ibn Battuta, and Bernier",
+        "body": "### The Global Eurasian and African Travel Networks Connecting to India\n\n> [NORTH AFRICA / MEDITERRANEAN]           [CENTRAL ASIA / KHWARIZM]\n> * Ibn Battuta departs Tangier (1325)     * Al-Biruni from Khiva/Uzbekistan\n> * Marches across Cairo, Mecca,           * Arrives Ghazni with Mahmud (1017)\n>   Anatolia, Black Sea, Bukhara            * Reaches Punjab, Multan, Lahore\n>                     \\                                   /\n>                      \\                                 /\n>                       v                               v\n>                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n>                      [INDUS GATEWAY & DELHI SULTANATE]\n>                      * Multan -> Uch -> Delhi (Sultanate)\n>                      * Ibn Battuta serves as Qazi (1333–42)\n>                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n>                                       |\n>            <---------------------------------------------------->\n>            |                                                    |\n>      [SOUTHERN SEA ARTERY]                              [WESTERN EUROPEAN MARITIME]\n>      * Ibn Battuta sails to:                            * François Bernier sails\n>        Malabar (Calicut) ->                               from France (1656) via\n>        Maldives (Judge) ->                                Cape / Red Sea to Surat port;\n>        Sri Lanka -> Bengal -> China                      travels Surat -> Agra -> Delhi\n\n### Strategic Geographic Realities (NCERT Class XII Theme 5)\n1. **The Overland Silk and Desert Corridors:** Both Al-Biruni and Ibn Battuta entered India through the northwestern mountain passes (Khyber and Bolan routes) across the Indus river plain, crossing through Multan before reaching Delhi.\n2. **The Sea Maritime Corridor:** By the 17th century, European travelers like Bernier and Tavernier entered India not via overland Central Asian silk routes, but through oceanic navigation, landing at the booming commercial harbor of **Surat** on the western coast of Gujarat.\n3. **The Daulatabad-Delhi Highway:** Ibn Battuta's accounts highlight the north-south peninsular highway linking Delhi to Daulatabad, along which royal postal relays delivered intelligence and luxury commodities with unprecedented speed.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-09-1',
-        statement: 'Al-Biruni arrived in India in the 11th century with Mahmud of Ghazni, studied Sanskrit directly, and authored the 80-chapter Arabic encyclopaedia Kitab al-Hind detailing Hindu philosophy, caste barriers, and science.',
-        claimType: 'HISTORICAL_TRAVELOGUE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-47',
-        excerpt: 'Through the Eyes of Travellers: Al-Biruni Kitab al-Hind in Arabic, study of Sanskrit and Indian society.',
+        "id": "CLM-MED-09-1",
+        "statement": "Al-Biruni arrived in India in the 11th century CE with Mahmud of Ghazni, learned Sanskrit, studied Hindu philosophical texts, and authored the 80-chapter Arabic encyclopaedia Kitab al-Hind covering Indian religion, philosophy, astronomy, customs, laws, and the caste system.",
+        "claimType": "HISTORICAL_TRAVELOGUE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 5: Through the Eyes of Travellers, Section 1: Al-Biruni and the Kitab-ul-Hind, pp. 115-119",
+        "excerpt": "Al-Biruni was born in 973, in Khwarizm in present-day Uzbekistan... In 1017, when Sultan Mahmud invaded Khwarizm, he took several scholars and poets back to his capital, Ghazni; Al-Biruni was one of them... Al-Biruni's Kitab-ul-Hind, written in Arabic, is simple and lucid. It is a voluminous text, divided into 80 chapters on subjects such as religion and philosophy, festivals, astronomy, alchemy, manners and customs, social life, weights and measures, iconography, laws and metrology."
       },
       {
-        id: 'CLM-MED-09-2',
-        statement: 'Ibn Battuta, a 14th-century Moroccan jurist, authored the Rihla, served as Qazi of Delhi under Muhammad bin Tughlaq, and documented the dual postal courier network of Uluq (horse post) and Dawa (foot post).',
-        claimType: 'HISTORICAL_TRAVELOGUE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-47',
-        excerpt: 'Through the Eyes of Travellers: Ibn Battuta Rihla, Moroccan traveller under Muhammad bin Tughlaq, postal network.',
+        "id": "CLM-MED-09-2",
+        "statement": "Ibn Battuta, a 14th-century Moroccan Islamic jurist from Tangier, authored the travelogue Rihla in Arabic, served as Qazi of Delhi under Sultan Muhammad bin Tughlaq, and documented Indian social novelties (such as paan and coconut), flourishing urban bazaars, and the dual postal communication network composed of the Uluq (horse post stationed every 4 miles) and Dawa (foot post stationed every 1/3 mile).",
+        "claimType": "HISTORICAL_TRAVELOGUE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 5: Through the Eyes of Travellers, Section 2: Ibn Battuta's Rihla, pp. 119-125",
+        "excerpt": "Ibn Battuta's book of travels, called Rihla, written in Arabic, provides extremely rich and interesting details about the social and cultural life in the subcontinent in the fourteenth century... In India the postal system is of two kinds. The horse-post, called uluq, is run by royal horses stationed at a distance of every four miles. The foot-post has three stations per mile; it is called dawa... This foot-post is quicker than the horse-post."
       },
       {
-        id: 'CLM-MED-09-3',
-        statement: 'François Bernier, a 17th-century French physician, authored Travels in the Mogul Empire, critiquing Mughal statecraft through his thesis on the absence of private property in land and describing urban camp cities.',
-        claimType: 'HISTORICAL_TRAVELOGUE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-47',
-        excerpt: 'Through the Eyes of Travellers: Francois Bernier Travels in the Mogul Empire, critique of crown ownership of land.',
+        "id": "CLM-MED-09-3",
+        "statement": "François Bernier, a 17th-century French physician and philosopher who visited India between 1656 and 1668 CE and served Prince Dara Shikoh, authored Travels in the Mogul Empire, arguing the Eurocentric thesis that state ownership of all land and the lack of private property caused economic stagnation, and characterizing Mughal urban centers as dependent \"camp cities\".",
+        "claimType": "HISTORICAL_TRAVELOGUE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 5: Through the Eyes of Travellers, Section 3: Francois Bernier: A Doctor with a Difference, pp. 125-131",
+        "excerpt": "Francois Bernier, a Frenchman, was a doctor, political philosopher and historian... He was in India for twelve years, from 1656 to 1668, and was closely associated with the Mughal court, as a physician to Prince Dara Shukoh... Bernier felt that in the Mughal Empire the emperor owned all the land and distributed it among his nobles... He called these cities \"camp cities\", meaning that they owed their existence and survival to the imperial camp."
       },
+      {
+        "id": "CLM-MED-09-4",
+        "statement": "The accounts of foreign observers reveal vibrant commercial and socio-economic integration: Ibn Battuta recorded dynamic market streets like Tarababad in Daulatabad with female singers and Indian textile manufacturing dominance in Indian Ocean trade, while Bernier documented imperial manufacturing workshops (Karkhanas) and influential merchant financiers (Mahajans and Nagarsheths) operating in Mughal urban economies.",
+        "claimType": "SOCIO_ECONOMIC_OBSERVATION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 5: Through the Eyes of Travellers, Section 2.2: Cities and Commerce & Section 3.2: A More Complex Social Reality, pp. 122-124, 131-133",
+        "excerpt": "Ibn Battuta found cities in the subcontinent full of exciting opportunities for those who had the necessary drive, resources and skills... There was a market for male and female singers, which was known as Tarababad... Bernier's descriptions hint at a more complex social reality. Artisans had no incentive to improve the quality of their manufactures... Yet, at the same time, large quantities of the world's precious metals flowed into India, as manufactures were exported in exchange for gold and silver."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Indian History / Foreign Travellers & Historiography',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
-        notes: 'Al-Biruni, Ibn Battuta, and Bernier are explicitly prescribed in NCERT Themes in Indian History and heavily tested.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Indian History / Foreign Travellers & Eyewitness Historiography",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS",
+        "notes": "Al-Biruni's 3 barriers, Ibn Battuta's Uluq/Dawa postal systems, and Bernier's landownership thesis vs contemporary historical reality are premier UPSC Prelims and Mains themes."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Medieval Indian Society Through Travellers\' Accounts',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark question comparing Al-Biruni and Bernier\'s perspectives on Indian society.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Medieval Indian Society Through Foreign Travellers' Accounts",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Frequent 5-mark and 10-mark questions comparing Al-Biruni's sociological observations with Bernier's economic critique of Mughal India."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Travellers',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on books: Kitab al-Hind (Al-Biruni), Rihla (Ibn Battuta), and ruling sovereigns.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Travellers, Books & Rulers",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on books and languages: Kitab al-Hind (Arabic, Al-Biruni), Rihla (Arabic, Ibn Battuta), Travels in the Mogul Empire (Bernier), and Uluq/Dawa definitions."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Eyewitness Accounts',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'HISTORICAL_CONTEXT',
-        notes: 'Tested on Uluq/Dawa postal systems and Bernier\'s karkhanas.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Eyewitness Accounts & Communication Systems",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "HISTORICAL_CONTEXT",
+        "notes": "Tested on historical communication infrastructure (Uluq, Dawa), craft production in Karkhanas, and merchant institutions (Mahajans, Nagarsheths)."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian History',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on famous literary works of medieval history.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian History & Literature",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Famous historical manuscripts, foreign travelogues, and institutional origins."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Culture',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on traveller countries of origin and books.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — History, Literature & Travellers",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Country of origin of foreign travellers (Al-Biruni: Khwarizm; Ibn Battuta: Morocco; Bernier: France)."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static history questions.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones & Economic History",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static questions on historical trade routes, monetary flows, and pre-modern communication systems."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Early accounts of commerce, markets, and monetary systems.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Trade Networks & Merchant Finance",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Historical merchant credit, Sarrafs, money-changing, and long-distance trade settlement in medieval India."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Travellers: Al-Biruni (11th c, Uzbekistan/Ghazni, Kitab al-Hind in Arabic, learned Sanskrit, 3 barriers). Ibn Battuta (14th c, Morocco, Rihla in Arabic, Qazi under Md bin Tughlaq, paan/coconut, Uluq horse post & Dawa foot post). François Bernier (17th c, France, physician to Dara Shikoh, Travels in Mogul Empire, critique of Crown land ownership, camp cities).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Travellers: Al-Biruni (11th c, Khwarizm/Ghazni, Kitab al-Hind in Arabic, 80 chapters, learned Sanskrit, 3 barriers). Ibn Battuta (14th c, Morocco, Rihla in Arabic, Qazi under Md bin Tughlaq, paan/coconut, Uluq horse post & Dawa foot post). François Bernier (17th c, France, physician to Dara Shikoh, Travels in Mogul Empire, critique of Crown land ownership, camp cities).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Medieval Foreign Travellers Blueprint: 1) Al-Biruni (11th c): Polymath with Mahmud of Ghazni; wrote Kitab al-Hind in Arabic; identified Sanskrit complexity and Brahminical insularity as barriers; studied varna. 2) Ibn Battuta (14th c): Moroccan jurist who served Muhammad bin Tughlaq as Qazi; authored Rihla; documented bustling bazaars and the rapid dual postal courier system (Uluq horse post every 4 miles, Dawa foot post every 1/3 mile). 3) François Bernier (17th c): French physician under Shah Jahan/Aurangzeb; authored Travels in the Mogul Empire; argued lack of private land ownership caused Asian economic stagnation.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Medieval Foreign Travellers Blueprint: 1) Al-Biruni (11th c): Polymath with Mahmud of Ghazni; wrote Kitab al-Hind in Arabic; identified Sanskrit complexity, Brahminical insularity, and Ghaznavid trauma as barriers; studied varna. 2) Ibn Battuta (14th c): Moroccan jurist who served Muhammad bin Tughlaq as Qazi; authored Rihla; documented bustling bazaars and the rapid dual postal courier system (Uluq horse post every 4 miles, Dawa foot post every 1/3 mile). 3) François Bernier (17th c): French physician under Shah Jahan/Aurangzeb; authored Travels in the Mogul Empire; argued lack of private land ownership caused Asian economic stagnation, though modern research shows peasant hereditary rights.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Historiographical Lens of Foreign Observers: 1) Epistemic Framework: Al-Biruni (Scientific/Philological) vs Ibn Battuta (Experiential/Socio-geographic) vs Bernier (Eurocentric Political Economy). 2) Postal Communications: Dawa relay reducing 50-day transit to 5-day intelligence delivery. 3) Socio-Agrarian Dynamics: Peasant tenancy vs European misconceptions of despotic crown ownership.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Historiographical Lens of Foreign Observers: 1) Epistemic Framework: Al-Biruni (Scientific/Philological) vs Ibn Battuta (Experiential/Socio-geographic) vs Bernier (Comparative Political Economy). 2) Postal Communications: Dawa relay reducing 50-day overland journey to 5-day intelligence delivery. 3) Commercial Dynamics: Cosmopolitan bazaar culture (Tarababad), imperial royal Karkhanas, and European bullion absorption through high Indian textile exports.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'TRAVELLER_MCQ',
-        stem: 'In his travelogue "Rihla", the fourteenth-century Moroccan traveller Ibn Battuta marveled at the remarkable speed of the Indian postal communication network. What did the term "Dawa" specifically designate in this system?',
-        options: [
-          'The horse postal courier relay stationed at intervals of every four miles',
-          'The foot-runner postal relay stationed at intervals of every one-third of a mile',
-          'The carrier pigeon network operated between frontier mountain forts',
-          'The royal camel dispatch service across the Thar desert'
+        "type": "TRAVELLER_MCQ",
+        "stem": "In his travelogue \"Rihla\", the fourteenth-century Moroccan traveller Ibn Battuta marveled at the remarkable speed of the Indian postal communication network. What did the term \"Dawa\" specifically designate in this system according to NCERT Class XII Theme 5?",
+        "options": [
+          "The horse postal courier relay stationed at intervals of every four miles",
+          "The foot-runner postal relay stationed at intervals of every one-third of a mile",
+          "The carrier pigeon network operated between frontier mountain forts",
+          "The royal camel dispatch service across the Thar desert"
         ],
-        correctAnswer: 'The foot-runner postal relay stationed at intervals of every one-third of a mile',
-        explanation: 'In the postal system of the Delhi Sultanate documented by Ibn Battuta in the Rihla, the foot-post was called the "Dawa", which had three stations per mile (stationed every one-third of a mile). The horse-post was called the "Uluq", stationed at intervals of four miles. The Dawa was frequently quicker than the horse post.',
-        trapExplanation: 'Option A describes the Uluq (horse post), which is the most frequent trap.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact distinction between Uluq (horse post) and Dawa (foot post).',
+        "correctAnswer": "The foot-runner postal relay stationed at intervals of every one-third of a mile",
+        "explanation": "In the postal system of the Delhi Sultanate documented by Ibn Battuta in the Rihla, the foot-post was called the \"Dawa\", which had three stations per mile (stationed every one-third of a mile). The horse-post was called the \"Uluq\", stationed at intervals of four miles. The Dawa was frequently quicker than the horse post.",
+        "trapExplanation": "Option A describes the Uluq (horse post), which is the most frequent examiner trap.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Exact distinction between Uluq (horse post) and Dawa (foot post)."
       },
       {
-        type: 'TRAVELLER_MCQ',
-        stem: 'The famous encyclopaedic work "Kitab al-Hind", which provides an objective eleventh-century analysis of Indian religion, caste structure, philosophy, and sciences, was written by Al-Biruni in which language?',
-        options: ['Persian', 'Arabic', 'Sanskrit', 'Turkish'],
-        correctAnswer: 'Arabic',
-        explanation: 'Although Al-Biruni mastered Sanskrit to directly read Indian philosophical treatises and spent years in Ghazni and the Punjab, he composed his monumental 80-chapter work "Kitab al-Hind" in the Arabic language.',
-        trapExplanation: 'Candidates almost universally guess Persian because medieval court chronicles were usually written in Persian.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Original language of Kitab al-Hind (Arabic, NOT Persian).',
-      },
-    ],
+        "type": "TRAVELLER_MCQ",
+        "stem": "The famous encyclopaedic work \"Kitab al-Hind\", which provides an objective eleventh-century scientific analysis of Indian religion, caste structure, philosophy, and astronomy, was written by Al-Biruni in which language?",
+        "options": [
+          "Persian",
+          "Arabic",
+          "Sanskrit",
+          "Turkish"
+        ],
+        "correctAnswer": "Arabic",
+        "explanation": "Although Al-Biruni mastered Sanskrit to directly read Indian philosophical treatises and spent years in Ghazni and the Punjab, he composed his monumental 80-chapter work \"Kitab al-Hind\" in the Arabic language.",
+        "trapExplanation": "Candidates almost universally guess Persian because medieval court chronicles were usually written in Persian.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2020,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Original language of Kitab al-Hind (Arabic, NOT Persian)."
+      }
+    ]
   },
   // =========================================================================
   // TOPIC 4 (CONCEPT 2): The Bahmani Kingdom & The Five Deccan Sultanates
