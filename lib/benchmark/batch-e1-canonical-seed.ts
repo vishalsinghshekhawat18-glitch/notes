@@ -30,7 +30,7 @@ export interface CanonicalConceptDefinition {
     excerpt: string;
   }>;
   contentBlocks: Array<{
-    type: 'INTUITION' | 'CORE_IDEA' | 'MECHANISM' | 'LEGAL_DISTINCTION' | 'CASE_LAW' | 'EXAM_APPLICATION' | 'COMPARISON';
+    type: 'INTUITION' | 'CORE_IDEA' | 'MECHANISM' | 'LEGAL_DISTINCTION' | 'CASE_LAW' | 'EXAM_APPLICATION' | 'COMPARISON' | 'MAP_PERSPECTIVE' | 'SPATIAL_TRAJECTORY';
     title: string;
     body: string;
     order: number;

@@ -128,6 +128,10 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
         return { label: 'Exam Trap & High-Yield Analysis', bg: 'bg-rose-100 text-rose-900 border-rose-300' };
       case 'COMPARISON':
         return { label: 'Comparative Synthesis', bg: 'bg-teal-100 text-teal-900 border-teal-300' };
+      case 'MAP_PERSPECTIVE':
+        return { label: '🗺️ Map & Spatial Cartography', bg: 'bg-sky-100 text-sky-900 border-sky-300' };
+      case 'SPATIAL_TRAJECTORY':
+        return { label: '🧭 Spatial Trajectory & Cardinal Transect', bg: 'bg-cyan-100 text-cyan-900 border-cyan-300' };
       default:
         return { label: type.replace(/_/g, ' '), bg: 'bg-stone-100 text-stone-800 border-stone-300' };
     }
