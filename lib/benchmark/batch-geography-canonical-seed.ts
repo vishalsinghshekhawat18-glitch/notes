@@ -2587,6 +2587,198 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "examinerTrapPattern": "Falsely attributing early atmospheric oxygen to volcanic degassing or land vegetation."
       }
     ]
+  },
+  {
+    "id": "CON-GEO-014",
+    "topicOrder": 6,
+    "topicSlug": "fundamentals-of-human-geography",
+    "topicTitle": "Fundamentals of Human Geography",
+    "topicDescription": "Philosophical paradigms (Determinism, Possibilism, Neo-determinism), world population pyramids, primary/secondary/tertiary activities, global transport routes, and human settlement morphology.",
+    "slug": "fundamentals-of-human-geography-paradigms-population-pyramids-and-transport-lifelines",
+    "title": "Fundamentals of Human Geography: Paradigms, World Population Pyramids, Economic Activities & Global Transport Lifelines",
+    "shortDefinition": "Theoretical foundations and spatial frameworks of Human Geography: Environmental Determinism vs Possibilism vs Griffith Taylor's Neo-determinism; Age-Sex Population Pyramids (expanding, constant, declining); economic activity taxonomy (Primary to Quinary); Weber's industrial location and footloose industries; major trans-continental railways and oceanic canals (Suez and Panama); and rural/urban settlement morphology.",
+    "difficulty": "INTERMEDIATE",
+    "claims": [
+      {
+        "id": "CLM-GEO-014-01",
+        "statement": "Human geography paradigms evolved from Environmental Determinism (Friedrich Ratzel, Ellen Churchill Semple: humans as passive products shaped by environmental forces) to Possibilism (Paul Vidal de la Blache: nature sets limits and offers possibilities, humans choose and create culture), reconciled by Griffith Taylor's Neo-determinism or 'Stop-and-Go Determinism' (traffic light metaphor: human society can accelerate or retard environmental possibilities but cannot violate natural boundary laws).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class 12 Fundamentals of Human Geography, Chapter 1: Human Geography - Nature and Scope",
+        "excerpt": "Griffith Taylor introduced another concept which reflects a middle path between the two ideas of environmental determinism and possibilism. He termed it as Neodeterminism or stop and go determinism... It means that possibilities can be created within the limits which do not damage the environment and there is no free run without accidents."
+      },
+      {
+        "id": "CLM-GEO-014-02",
+        "statement": "Age-sex population pyramids represent demographic history and growth trajectory into three cardinal structural morphologies: Expanding (triangular pyramid with a broad base reflecting high birth rates, e.g. Nigeria, Bangladesh, Mexico), Constant/Stationary (bell-shaped pyramid with nearly equal birth and death rates tapering at the top, e.g. Australia), and Declining (narrow base and tapered top reflecting low birth rates and an aging population, e.g. Japan, Germany).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class 12 Fundamentals of Human Geography, Chapter 3: Population Composition",
+        "excerpt": "The age-sex structure of a population refers to the number of females and males in different age groups... Triangular shaped pyramid with a wide base is typical of less developed countries. A bell shaped pyramid which tapers towards the top shows equal birth and death rates. The Japan pyramid has a narrow base and a tapered top showing low birth and death rates."
+      },
+      {
+        "id": "CLM-GEO-014-03",
+        "statement": "Global economic geography categorizes human livelihood activities into Primary (extractive: hunting, pastoral nomadism, shifting cultivation, Mediterranean viticulture, plantation agriculture, collective farming Kolkhoz, dairy, open-cast/shaft mining), Secondary (manufacturing governed by Alfred Weber's Material Index where weight-losing raw materials with MI > 1 pull plants to the mine vs pure materials with MI <= 1 or footloose industries locating anywhere), Tertiary (commercial services), Quaternary (knowledge/R&D), and Quinary (highest executive policymaking).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class 12 Fundamentals of Human Geography, Chapters 5, 6, 7: Primary, Secondary, Tertiary and Quaternary Activities",
+        "excerpt": "Primary activities are directly dependent on environment... Mediterranean agriculture is highly specialised commercial agriculture. Viticulture or grape cultivation is a speciality of the Mediterranean region... Secondary activities add value to natural resources by transforming raw materials into valuable products... Footloose industries can be located in a wide variety of places. They are not dependent on any specific raw material, weight losing or otherwise."
+      },
+      {
+        "id": "CLM-GEO-014-04",
+        "statement": "Strategic international commerce hinges on trans-continental rail arteries (Trans-Siberian: 9,289 km from St. Petersburg to Vladivostok, world's longest; Trans-Canadian: 7,050 km from Halifax to Vancouver) and ocean canals: Suez Canal (opened 1869, designed by Ferdinand de Lesseps, connects Mediterranean and Red Sea at sea level without locks, saving ~6,400 km between Europe and India) and Panama Canal (opened 1914, cuts across Panama Isthmus with three tiered lock systems—Gatun, Pedro Miguel, Miraflores—saving ~13,000 km between New York and San Francisco).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class 12 Fundamentals of Human Geography, Chapter 8: Transport and Communication",
+        "excerpt": "The Suez Canal had been constructed in 1869 in Egypt between Port Said in the north and Port Suez in the south linking the Mediterranean Sea and the Red Sea. It gives Europe a new gateway to the Indian Ocean and reduces direct sea-route distance between Liverpool and Colombo compared to the Cape of Good Hope route... The Panama Canal connects the Atlantic Ocean in the east to the Pacific Ocean in the west... It has a six-lock system and ships cross the different levels through locks."
+      }
+    ],
+    "contentBlocks": [
+      {
+        "type": "INTUITION",
+        "title": "From Nature's Slave to Master to Eco-Conscious Driver",
+        "body": "Human geography is the biography of humanity's evolving relationship with planet Earth:\n1. **Phase 1 — Environmental Determinism (The Humble Child):** Early human societies lived in awe of raw nature. Climate dictated religion, shelter, and survival. As Ellen Semple wrote, *'Man is a product of the earth's surface.'*\n2. **Phase 2 — Possibilism (The Arrogant Engineer):** With steam engines, fertilizers, and technology, humans reshaped rivers, flattened hills, and air-conditioned deserts. Nature became a mere slate of possibilities.\n3. **Phase 3 — Neo-Determinism (The Traffic Light Driver):** Geographer Griffith Taylor pointed out the fatal flaw in pure possibilism: you can drive a car wherever you wish, but if you ignore the red light (climate limits, desertification, aquifer collapse), you crash. Neo-determinism is the philosophy of sustainable development—understanding nature's traffic signals and accelerating human progress only when the light is green.",
+        "order": 1
+      },
+      {
+        "type": "CORE_IDEA",
+        "title": "Human Geography Frameworks: Paradigms, Pyramids, Economic Sectors & Strategic Canals",
+        "body": "### 1. The Three Classical Paradigms of Human-Nature Interaction\n\n| Paradigm | Primary Proponents | Core Philosophical Thesis | Diagnostic Example / Analogy |\n|---|---|---|---|\n| **Environmental Determinism** | Friedrich Ratzel, Ellen Churchill Semple, Ellsworth Huntington | Physical environment strictly controls, dictates, and shapes human culture, history, and physiological traits | Inuit snow igloos; desert nomadism dictated by water holes |\n| **Possibilism** | Paul Vidal de la Blache, Lucien Febvre | Nature is not an absolute barrier; it offers opportunities (*possibilities*), and humans are the active agents choosing among them | Hydroponic greenhouses in freezing climates; ski resorts in Dubai |\n| **Neo-Determinism ('Stop-and-Go')** | Griffith Taylor | Middle path between Determinism and Possibilism; humanity can direct the pace of development, but cannot violate ecological limits | **Traffic Light Metaphor:** Red = Stop (overexploitation); Yellow = Transition; Green = Sustainable proceed |\n\n### 2. Global Age-Sex Population Pyramids Taxonomy\n\n| Pyramid Profile | Base & Apex Shape | Birth & Death Rate Dynamics | Representative Countries | Economic & Policy Implication |\n|---|---|---|---|---|\n| **Expanding Population** | Broad, wide base with sharply tapering apex (Triangular) | High Birth Rate, high child population, dropping infant mortality | **Nigeria, Bangladesh, Mexico, Kenya** | High dependency ratio for schooling, pediatric care; imminent youth bulge |\n| **Constant / Stationary** | Bell-shaped with nearly straight vertical sides tapering at top | Equal, low birth and death rates; balanced cohort replacement | **Australia, USA** | Stable labor supply; manageable old-age dependency |\n| **Declining Population** | Narrow, contracted base with broader middle/upper tiers (Urn-shaped) | Ultra-low birth rate ($TFR < 1.5$); high proportion of elderly | **Japan, Germany, Italy** | Severe workforce deficits, shrinking consumer base, massive geriatric healthcare and pension fiscal strain |\n\n### 3. Comprehensive Taxonomy of Primary Agronomic Systems\n\n| Agronomic System | Geographical Epicenters | Defining Operational Characteristics | Commercial / Subsistence Orientation |\n|---|---|---|---|\n| **Pastoral Nomadism** | North Africa (Bedouins), Central Asia (Kirghiz), Himalayas | Seasonal migration with livestock (**Transhumance**: Gujjars, Bakarwals, Gaddis, Bhotias between valley and *Bugyals*) | Pure subsistence; relies on animal milk, meat, wool |\n| **Commercial Livestock Rearing** | Western USA, Argentina (Pampas), Australia, New Zealand | Permanent fenced pastures (**Ranches**); scientifically bred single-species cattle/sheep; export orientation | Highly specialized commercial export (chilled beef, wool) |\n| **Primitive Subsistence (Slash-and-Burn)** | Amazon, Central Africa, SE Asia, NE India (*Jhumming*) | Forest patches cleared by fire, ashes add potash; shifting fields every 2–3 years when soil fertility declines | Low-yield subsistence; zero chemical inputs |\n| **Plantation Agriculture** | Tropics: Assam/Sri Lanka (Tea), Brazil (*Fazendas* Coffee), Malaysia (Rubber), West Indies (Banana) | Vast estates, single cash crop, heavy capital investment, immigrant labor, factory processing on-site | High-value global commercial trade |\n| **Mediterranean Agriculture** | Mediterranean Basin, California (Central Valley), Central Chile, Cape Town | Dry hot summers + wet mild winters; specialized **Viticulture** (fine wines from grapes) and citrus orchards (oranges, olives) | Intensive commercial; *'Orchards of the World'* |\n| **Market Gardening & Truck Farming** | Urban fringes of industrial cities (NW Europe, NE USA) | Small farms specializing in high-value vegetables/fruits/flowers; distance governed by overnight truck run | Intensive urban commercial supply |\n| **Collective Farming (*Kolkhoz*)** | Former Soviet Union (USSR) | Socialized ownership of land, pooled labor and machinery; farmers retained tiny private home plots | State-directed collective production |\n\n### 4. Five-Tier Hierarchy of Economic Activities\n\n- **Primary Sector (Red Collar):** Direct extraction from nature (agriculture, mining, fishing, forestry, pastoralism).\n- **Secondary Sector (Blue Collar):** Processing raw materials into finished manufactured goods (iron & steel, textiles, automobile assembly, chemical plants).\n- **Tertiary Sector (Pink / White Collar):** Tangible and intangible services (trade, transport, tourism, banking, healthcare, teaching).\n- **Quaternary Sector (White Collar):** Information-driven activities, knowledge generation, software programming, data science, R&D, specialized financial consulting.\n- **Quinary Sector (Gold Collar):** Highest-level strategic decision-making, executive policymaking, cabinet ministers, supreme court judges, top scientific directors.\n\n### 5. Trans-Continental Railways & The Two Great Oceanic Canals\n\n| Strategic Trade Artery | Construction / Opening | Terminus Endpoints & Key Nodes | Distance Saved & Global Significance |\n|---|---|---|---|\n| **Trans-Siberian Railway** | 1891–1916 (Russian Empire) | **St. Petersburg in west to Vladivostok on Pacific coast** ($9,289\\text{ km}$, longest railway in world) | Connects European Russia across the Urals, Omsk, Lake Baikal, and Amur River to Pacific Asia; electrified double track |\n| **Trans-Canadian Railway** | 1885 (Canadian Pacific) | **Halifax on Atlantic coast to Vancouver on Pacific coast** ($7,050\\text{ km}$) | Economic spine of Canada; carries Prairie wheat and lumber to ocean ports |\n| **Suez Canal** | **1869** (Ferdinand de Lesseps) | **Port Said (Mediterranean Sea) to Port Tewfik / Suez (Red Sea)** across Isthmus of Suez ($193.3\\text{ km}$) | **Sea-level canal WITHOUT locks**; cuts direct sea journey between Europe and India by **~6,400 km** compared to Cape of Good Hope |\n| **Panama Canal** | **1914** (United States) | **Colón (Atlantic Ocean) to Balboa (Pacific Ocean)** across Isthmus of Panama ($82\\text{ km}$) | Constructed across mountainous ridge using **three sets of lock chambers (Gatun, Pedro Miguel, Miraflores)**; saves **~13,000 km** between New York and San Francisco |\n| **Rhine Inland Waterway** | European Inland System | **Rotterdam (Netherlands) to Basel (Switzerland)**; navigable for $860\\text{ km}$ | World's most heavily trafficked inland waterway; serves Ruhr industrial heartland of Germany |",
+        "order": 2
+      },
+      {
+        "type": "MECHANISM",
+        "title": "Weber's Location Geometry, Footloose Industries & Settlement Morphology",
+        "body": "### 1. Alfred Weber's Least Cost Industrial Location Theory (1909)\nWeber formulated that industrial plants locate at the point that minimizes total transportation costs of raw materials and finished products:\n$\\mathbf{\\text{Material Index (MI)} = \\frac{\\text{Weight of Localized Raw Materials}}{\\text{Weight of Finished Product}}}$\n\n1. **Weight-Losing Raw Materials ($MI > 1$):**\n   - The raw material loses substantial weight during smelting or manufacturing (e.g. Iron & Steel, Copper smelting, Sugar cane crushing).\n   - **Optimal Location:** Strictly at the **RAW MATERIAL SOURCE**. Transporting 4 tons of iron ore and 2 tons of coking coal to produce 1 ton of steel costs far more than transporting the finished steel.\n2. **Pure / Non-Weight-Losing Raw Materials ($MI = 1$):**\n   - The raw material enters the finished product without weight loss (e.g. Cotton textile spinning).\n   - **Optimal Location:** Can locate at raw material site, market, or intermediate transport node with equal transportation cost.\n3. **Weight-Gaining Materials ($MI < 1$):**\n   - Product gains weight due to ubiquitous inputs like water (e.g. Aerated beverages, breweries, bakeries).\n   - **Optimal Location:** Strictly at the **CONSUMPTION MARKET**.\n4. **Footloose Industries:**\n   - Industries that are not bound to specific localized raw materials or energy sources because components are lightweight and high-value (e.g. Semiconductor microchips, watchmaking, diamond polishing).\n   - Can be located virtually anywhere connected by good highways; produce zero industrial air pollution; employ small, highly skilled labor forces.\n\n### 2. Typology & Geometric Patterns of Human Settlements\n- **Rural Settlement Types:**\n  - **Clustered / Nucleated:** Closely built-up houses clustered in fertile alluvial plains; common for defense and communal irrigation.\n  - **Semi-Clustered:** Segregation or fragmentation where dominant landowning castes occupy the central core while laboring castes live on the periphery.\n  - **Hamleted:** Fragmented physically into multiple named units (*Panna, Para, Palli, Nagla, Dhani* in Rajasthan), sharing a common revenue name.\n  - **Dispersed / Isolated:** Isolated huts or homesteads scattered across rugged hills (Himalayas, Meghalaya, Aravalli ridges).\n- **Geometric Patterns:**\n  - **Linear:** Houses aligned along a transport spine (road, railway track, river bank, or canal embankment).\n  - **Rectangular:** Cultivated plains where surveyed fields and cart tracks cross at right angles.\n  - **Circular / Semi-Circular:** Houses built around an inland water body (village tank, lake, or playa).\n  - **Star-like / Radial:** Settlement expanding outwards along radiating roads from a central marketplace.\n- **Urban Hierarchical Concepts:**\n  - **Conurbation:** Continuous urban agglomeration formed by the merging of several previously separate towns or cities (term coined by **Patrick Geddes in 1915**; e.g. Greater London, Tokyo-Yokohama).\n  - **Megalopolis:** Greek for 'great city'; vast super-metropolitan sprawl connecting multiple metropolitan areas (term popularized by **Jean Gottmann in 1957** for the northeastern US seaboard 'BosWash' from Boston to Washington DC).",
+        "order": 3
+      },
+      {
+        "type": "EXAM_APPLICATION",
+        "title": "Competitive Examination Traps & Institutional Crosswalks",
+        "body": "### Frequent Examiner Traps\n1. **Neo-Determinism Attributed Proponent Trap:** Examiners frequently misattribute 'Stop-and-Go Determinism' to French possibilists (Vidal de la Blache). Remember: **Griffith Taylor** (Australian-British geographer) founded Neo-determinism.\n2. **Suez vs Panama Canal Lock Chambers Trap:**\n   - **Suez Canal:** Operates at **sea level with ZERO locks** (no elevated terrain between Mediterranean and Red Sea).\n   - **Panama Canal:** Operates with **three sets of lock chambers (Gatun, Pedro Miguel, Miraflores)** to lift ships $26\\text{ meters}$ across the continental divide lake (Gatun Lake).\n3. **Sex Ratio Formula Inversion Trap:**\n   - **International UN Definition:** Number of **Males per 1,000 Females** ($\\frac{\\text{Male}}{\\text{Female}} \\times 1,000$).\n   - **Indian Census Definition:** Number of **Females per 1,000 Males** ($\\frac{\\text{Female}}{\\text{Male}} \\times 1,000$).\n4. **Footloose Industry Raw Material Trap:** Questions assert footloose industries locate near mineral mines. **TRAP!** Footloose industries have zero weight-losing raw material dependency and locate based on road connectivity and skilled talent (e.g. Silicon Valley, electronic assembly).\n5. **Urban Sociology Coining Trap:**\n   - **Conurbation** was coined by **Patrick Geddes (1915)**.\n   - **Megalopolis** was coined by **Jean Gottmann (1957)**.\n6. **Mediterranean Agriculture Diagnostic Product:** The hallmark commercial activity of Mediterranean agriculture is **Viticulture (grape cultivation for wine making)**, followed by olive and citrus fruit production.\n\n### Exam Alignment\n- **UPSC CSE:** GS Paper 1. Human geography paradigms, demographic transition, global migration, resource distributions, industrial location theories.\n- **UPSC APFC & EPFO:** General Studies. Industrial location factors, population structure, economic sectors.\n- **RPSC RAS:** Paper 2 Geography. World geography modules: global trade routes, canals, population distribution, settlement types.",
+        "order": 4
+      }
+    ],
+    "examMappings": [
+      {
+        "examCode": "UPSC_CSE",
+        "relevance": "CORE_SYLLABUS",
+        "priority": "HIGH",
+        "requiredDepth": "EXPERT",
+        "syllabusUnit": "Fundamentals of Human Geography: Paradigms, World Population & Settlement Morphology",
+        "notes": "High-yield topics: Griffith Taylor neo-determinism, Weber least cost model, age-sex pyramids, and strategic canals."
+      },
+      {
+        "examCode": "UPSC_APFC",
+        "relevance": "CORE_SYLLABUS",
+        "priority": "HIGH",
+        "requiredDepth": "PROFICIENT",
+        "syllabusUnit": "General Science & World Geography: Human Settlements & Economic Activities",
+        "notes": "Direct MCQs on primary/secondary/tertiary sectors, trans-continental railways, and Suez/Panama canal engineering."
+      },
+      {
+        "examCode": "UPSC_EPFO_EOAO",
+        "relevance": "CORE_SYLLABUS",
+        "priority": "MEDIUM",
+        "requiredDepth": "PROFICIENT",
+        "syllabusUnit": "General Science: Economic Geography",
+        "notes": "Basic definitions of economic sectors and demographic structures."
+      },
+      {
+        "examCode": "RPSC_RAS",
+        "relevance": "CORE_SYLLABUS",
+        "priority": "HIGH",
+        "requiredDepth": "EXPERT",
+        "syllabusUnit": "Mains Paper 2: World Geography: Major Oceanic & Terrestrial Trade Routes, Primary Activities",
+        "notes": "Suez and Panama canal comparisons, trans-continental railways, settlement patterns."
+      },
+      {
+        "examCode": "IBPS_PO",
+        "relevance": "ANCILLARY_COVERAGE",
+        "priority": "MEDIUM",
+        "requiredDepth": "AWARENESS",
+        "syllabusUnit": "General Awareness: Global Landmarks & Canals",
+        "notes": "Suez and Panama canal locations and waterways."
+      },
+      {
+        "examCode": "SBI_PO",
+        "relevance": "ANCILLARY_COVERAGE",
+        "priority": "MEDIUM",
+        "requiredDepth": "AWARENESS",
+        "syllabusUnit": "General Awareness",
+        "notes": "Global trade choke points and demographic transitions."
+      },
+      {
+        "examCode": "RBI_GRADE_B",
+        "relevance": "DIRECT_OVERLAY",
+        "priority": "HIGH",
+        "requiredDepth": "PROFICIENT",
+        "syllabusUnit": "Economic & Social Issues: Demographic Transitions & Global Trade Architecture",
+        "notes": "Ageing demographics, age-sex pyramids, global logistics, and maritime trade routes."
+      },
+      {
+        "examCode": "NABARD_GRADE_A",
+        "relevance": "CORE_SYLLABUS",
+        "priority": "HIGH",
+        "requiredDepth": "EXPERT",
+        "syllabusUnit": "Agriculture & Rural Development: Global Farming Systems & Rural Settlements",
+        "notes": "Pastoral nomadism, transhumance, plantation farming, Mediterranean viticulture, and rural settlement morphology."
+      }
+    ],
+    "revisionUnits": [
+      {
+        "type": "FLASH_30S",
+        "content": "Human Geo Paradigms: Determinism (Ratzel/Semple: nature rules) vs Possibilism (Vidal: humans choose) vs Neo-Determinism (Griffith Taylor: stop-and-go traffic lights). Pyramids: Triangle=Expanding (Nigeria), Bell=Stationary (Australia), Urn/Narrow=Declining (Japan). Suez: 1869, sea-level, NO locks, 6400km saved. Panama: 1914, 3 lock tiers (Gatun), 13000km saved. Weber: MI>1 locates at raw material; Footloose=anywhere.",
+        "order": 1
+      },
+      {
+        "type": "SUMMARY_2M",
+        "content": "Fundamentals of Human Geography encompass philosophical paradigms of human-nature interaction, demographic structures, economic activity hierarchies, and transport lifelines. Griffith Taylor reconciled the extreme dichotomy between Environmental Determinism (environment controls man) and Possibilism (man commands nature) through Neo-determinism or 'Stop-and-Go Determinism', using a traffic-light metaphor to illustrate that humans can alter development velocity but must respect ecological boundaries. Demographically, age-sex pyramids capture national growth dynamics across expanding (triangular, broad-base high fertility), constant (bell-shaped stable replacement), and declining (urn-shaped narrow-base aging) profiles. Economically, activities scale from Primary (extractive, transhumance pastoralism, Mediterranean viticulture, plantation crops) to Quinary (highest executive decision-making). Industrial location follows Alfred Weber's Material Index (MI = weight of raw materials / weight of product), dictating that weight-losing industries (MI > 1 like steel) anchor to raw material sites, whereas footloose industries with negligible weight penalty locate anywhere. Global commerce relies on the sea-level, lock-free Suez Canal (saving ~6,400 km) and the lock-tiered Panama Canal (saving ~13,000 km).",
+        "order": 2
+      },
+      {
+        "type": "ARCHITECTURE_5M",
+        "content": "# Architecture of Fundamentals of Human Geography\n\n1. **Philosophical Schools:**\n   - Environmental Determinism: Friedrich Ratzel & Ellen Semple.\n   - Possibilism: Paul Vidal de la Blache & Lucien Febvre.\n   - Neo-Determinism (Stop-and-Go): Griffith Taylor.\n2. **Demographic Pyramids:**\n   - Expanding: Triangular, wide base, high CBR (Nigeria, Bangladesh).\n   - Stationary: Bell-shaped, balanced birth/death (Australia).\n   - Declining: Narrow base, aging population, TFR < 1.5 (Japan, Germany).\n3. **Weber Industrial Siting Engine:**\n   - $MI > 1$: Weight-losing raw material $\\to$ Raw Material Mine (Steel, Copper).\n   - $MI = 1$: Pure material $\\to$ Flexible (Cotton Textiles).\n   - $MI < 1$: Weight-gaining $\\to$ Consumption Market (Beverages).\n   - Footloose: Zero weight-loss bias $\\to$ Transport / High-Tech Clusters.\n4. **Inter-Oceanic Canals Comparison:**\n   - Suez Canal (1869): Mediterranean - Red Sea, 193 km, sea-level, **NO locks**.\n   - Panama Canal (1914): Atlantic - Pacific, 82 km, **3 lock chambers (Gatun, Pedro Miguel, Miraflores)**.",
+        "order": 3
+      }
+    ],
+    "questions": [
+      {
+        "type": "CONCEPT_CHECK",
+        "stem": "Which geographer introduced the concept of 'Neo-Determinism' (also known as 'Stop-and-Go Determinism'), utilizing the metaphor of a traffic light controller to demonstrate that human societies can regulate the pace of development but cannot breach environmental boundary limits?",
+        "options": [
+          "Ellen Churchill Semple",
+          "Paul Vidal de la Blache",
+          "Griffith Taylor",
+          "Friedrich Ratzel"
+        ],
+        "correctAnswer": "Griffith Taylor",
+        "explanation": "Griffith Taylor introduced Neo-determinism or 'Stop-and-Go Determinism' as a middle path reconciling Environmental Determinism and Possibilism. Using the traffic light metaphor, he explained that a traffic controller can direct, slow down, or accelerate traffic flow, but cannot change the direction of travel or eliminate physical roadblocks, illustrating that humans must operate within nature's ecological tolerances.",
+        "trapExplanation": "Candidates often confuse Griffith Taylor with French possibilist Paul Vidal de la Blache or environmental determinist Ellen Churchill Semple.",
+        "difficulty": "MEDIUM",
+        "isPYQ": false,
+        "examinerTrapPattern": "Confusing the proponents of Environmental Determinism, Possibilism, and Neo-determinism."
+      },
+      {
+        "type": "APPLIED_SCENARIO",
+        "stem": "Consider the following statements regarding major international maritime canals and industrial location principles:\n1. The Suez Canal connects the Mediterranean Sea and the Red Sea as a sea-level canal without any lock chambers.\n2. The Panama Canal utilizes a series of lock chambers to elevate and lower vessels across differing water levels.\n3. According to Alfred Weber's Least Cost Theory, an industry with a Material Index (MI) strictly GREATER than 1 will tend to locate near the final consumption market.\nWhich of the statements given above are CORRECT?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2, and 3"
+        ],
+        "correctAnswer": "1 and 2 only",
+        "explanation": "Statements 1 and 2 are correct: Suez Canal (1869) is a sea-level canal without locks, while Panama Canal (1914) relies on three tiered lock chambers (Gatun, Pedro Miguel, Miraflores) to lift ships 26 meters over the continental divide. Statement 3 is INCORRECT: An industry with Material Index (MI) > 1 uses weight-losing raw materials; to minimize transportation freight costs on bulky raw materials, it must locate strictly at the RAW MATERIAL SOURCE, not at the market.",
+        "trapExplanation": "Candidates often assume an MI > 1 means market orientation, whereas MI > 1 strictly pulls the industry to the raw material site.",
+        "difficulty": "HARD",
+        "isPYQ": false,
+        "examinerTrapPattern": "Inverting Weber's Material Index location rules and confusing Suez lock-free engineering with Panama locks."
+      }
+    ]
   }
 ];
 
@@ -2629,7 +2821,8 @@ export async function seedGeographyCanonicalKnowledge() {
     { order: 2, slug: 'climatology-and-atmospheric-systems', title: 'Climatology & Atmospheric Systems', description: 'Atmospheric composition and structure, global wind circulation, Indian monsoon dynamics, heat budget, and cyclones.' },
     { order: 3, slug: 'oceanography-and-marine-hydrosphere', title: 'Oceanography & Marine Hydrosphere', description: 'Ocean floor topography, temperature, salinity, tides, currents, and ENSO / Indian Ocean Dipole.' },
     { order: 4, slug: 'indian-geography-physiography-and-soils', title: 'Indian Geography: Physiography, Drainage & Soils', description: 'Major physiographic divisions of India, Himalayan vs Peninsular drainage systems, and ICAR soil classifications.' },
-    { order: 5, slug: 'rajasthan-physical-geography-and-solar-system', title: 'Rajasthan Physical Geography & Planetary Science', description: '4 Physical divisions of Rajasthan (Thar, Aravallis, Eastern Plains, Hadoti) and Solar System origin.' }
+    { order: 5, slug: 'rajasthan-physical-geography-and-solar-system', title: 'Rajasthan Physical Geography & Planetary Science', description: '4 Physical divisions of Rajasthan (Thar, Aravallis, Eastern Plains, Hadoti) and Solar System origin.' },
+    { order: 6, slug: 'fundamentals-of-human-geography', title: 'Fundamentals of Human Geography', description: 'Philosophical paradigms (Determinism, Possibilism, Neo-determinism), population structure, primary/secondary/tertiary activities, global transport routes, and human settlement morphology.' }
   ];
 
   const topicMap: Record<string, string> = {};
