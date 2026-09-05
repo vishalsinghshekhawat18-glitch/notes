@@ -59,243 +59,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 1: Early Medieval Polities, Tripartite Struggle & Imperial Cholas
   // =========================================================================
   {
-    id: 'CON-MED-01',
-    slug: 'early-medieval-tripartite-struggle-and-chola-village-autonomy',
-    title: 'Early Medieval Polities: Tripartite Struggle for Kannauj & Imperial Chola Autonomous Local Governance (Uttaramerur Inscriptions)',
-    shortDefinition: 'Early medieval geopolitical architecture (750–1200 CE): The Tripartite Struggle for Kannauj between Gurjara-Pratiharas, Palas, and Rashtrakutas, alongside the Imperial Chola administrative model, autonomous village assemblies (Ur and Sabha) detailed in the Uttaramerur Inscriptions, and maritime naval power.',
-    difficulty: 'ADVANCED',
-    order: 1,
-    topicSlug: 'early-medieval-polities-and-cholas',
-    contentBlocks: [
+    "id": "CON-MED-01",
+    "slug": "early-medieval-tripartite-struggle-and-chola-village-autonomy",
+    "title": "Early Medieval Polities: The Tripartite Struggle for Kannauj, Imperial Chola State Architecture & Uttaramerur Democratic Inscriptions",
+    "shortDefinition": "Exhaustive NCERT Class VII Chapter 2 (*New Kings and Kingdoms*) & Class XII Theme synthesis: The early medieval geopolitical matrix (750–1200 CE) characterized by regional state formation, the 200-year Tripartite Struggle for Kannauj (Kanyakubja) between the Gurjara-Pratiharas, the Palas of Bengal, and the Rashtrakutas of Manyakheta; the rise of the Imperial Chola maritime empire founded by Vijayalaya (850 CE), the conquests of Raja Raja I (Brihadisvara Temple 1010 CE, conquest of Sri Lanka) and Rajendra I (Gangaikondachola expedition 1022 CE, Srivijaya maritime campaign 1025 CE); the administrative pyramid (Mandalams, Valanadus, Nadus, Kurrams), the three village corporate assemblies (Ur, Sabha/Mahasabha, Nagaram), the lost-wax (*cire perdue*) bronze Nataraja sculpture, and the democratic Kudavolai pot-lottery election mechanism and strict committee (*Variyam*) qualifications recorded on the stone walls of the Uttaramerur Inscriptions (919 and 921 CE) under Parantaka I.",
+    "difficulty": "ADVANCED",
+    "order": 1,
+    "topicSlug": "early-medieval-polities-and-cholas",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'The Battle for the Imperial Pivot & The World\'s First Democratic Village Council',
-        body: `Following the collapse of Harsha's empire in the 7th century CE, the city of **Kannauj (Kanyakubja)** in the fertile Gangetic valley became the supreme symbolic prize of North Indian sovereignty. Whoever controlled Kannauj controlled the agricultural surplus of the Doab and the lucrative trade routes connecting Bengal to the Silk Road. For two centuries, three massive regional superpowers—the **Gurjara-Pratiharas** from the northwest, the **Palas** from Bengal, and the **Rashtrakutas** marching up from the Deccan—locked horns in an exhausting, multi-generational conflict known as the **Tripartite Struggle**, which ultimately weakened all three and paved the way for foreign invasions.
-
-Simultaneously in the fertile Kaveri delta of Southern India, the **Imperial Cholas (founded by Vijayalaya in 850 CE)** constructed a vastly different state architecture. While Raja Raja I and Rajendra I built an invincible blue-water navy that conquered Sri Lanka and the Srivijaya Empire in Southeast Asia, their greatest genius was **radically decentralized village democracy**.
-
-As immortalized on the stone walls of the **Uttaramerur Inscriptions (919 and 921 CE)** under Parantaka I, Chola villages functioned as self-governing republics governed by specialized executive committees (*Variyams*), where village elders were selected by lottery (*Kudavolai*) under strict educational, moral, and asset qualification rules!`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "The Battle for the Imperial Pivot & The World's First Democratic Village Council",
+        "body": "Following the collapse of Harsha's empire in the 7th century CE, the city of **Kannauj (Kanyakubja)** in the fertile Gangetic valley became the supreme symbolic prize of North Indian sovereignty. Whoever controlled Kannauj controlled the agricultural surplus of the Doab and the lucrative trade routes connecting Bengal to the Silk Road. For two centuries, three massive regional superpowers—the **Gurjara-Pratiharas** from the northwest, the **Palas** from Bengal, and the **Rashtrakutas** marching up from the Deccan—locked horns in an exhausting, multi-generational conflict known as the **Tripartite Struggle**, which ultimately weakened all three and paved the way for foreign invasions.\n\nSimultaneously in the fertile Kaveri delta of Southern India, the **Imperial Cholas (founded by Vijayalaya in 850 CE)** constructed a vastly different state architecture. While Raja Raja I and Rajendra I built an invincible blue-water navy that conquered Sri Lanka and the Srivijaya Empire in Southeast Asia, their greatest genius was **radically decentralized village democracy**.\n\nAs immortalized on the stone walls of the **Uttaramerur Inscriptions (919 and 921 CE)** under Parantaka I, Chola villages functioned as self-governing republics governed by specialized executive committees (*Variyams*), where village elders were selected by lottery (*Kudavolai*) under strict educational, moral, and asset qualification rules!",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Tripartite Matrix & Chola Village Assemblies (Sabha vs Ur)',
-        body: `### 1. The Tripartite Struggle for Kannauj (8th–10th Centuries CE)
-
-| Contender Empire | Core Power Base & Geography | Notable Rulers in Conflict | Strategic Legacy & Eventual Outcome |
-| :--- | :--- | :--- | :--- |
-| **Gurjara-Pratiharas** | Western India, Malwa, and Rajasthan (capital at Kannauj eventually). | **Vatsaraja, Nagabhata II, Mihira Bhoja, Mahendrapala I**. | Acted as a military bulwark against early Arab incursions from Sindh. |
-| **Palas** | Bengal and Bihar (capital at Pataliputra / Gauda). | **Dharmapala, Devapala**. | Great patrons of Mahayana/Vajrayana Buddhism; founded Vikramashila, Odantapuri, and Somapura Mahaviharas. |
-| **Rashtrakutas** | Deccan / Karnataka (capital at Manyakheta / Malkhed). | **Dhruva, Govinda III, Amoghavarsha I, Krishna III**. | Possessed the most lethal military cavalry; repeatedly crossed the Vindhyas, captured Kannauj, but retreated back to the Deccan. Built the rock-cut Kailash Temple at Ellora. |
-
-### 2. Imperial Chola Administrative Hierarchy
-$$\\mathbf{\\text{Mandalams (Provinces)}} \\implies \\mathbf{\\text{Valanadus (Districts)}} \\implies \\mathbf{\\text{Nadus (Sub-districts)}} \\implies \\mathbf{\\text{Kurrams / Gramams (Village Clusters)}}$$
-
-### 3. Chola Village Governance: The Three Assemblies
-* **Ur:** The general assembly of the common agrarian village, consisting of tax-paying landholders (*Vellanvagai*).
-* **Sabha / Mahasabha:** The autonomous assembly of **Brahmadeya villages** (tax-free land granted to learned Brahmins). Handled justice, irrigation, temple endowments, and revenue collection.
-* **Nagaram:** The assembly of merchants and artisans in commercial urban centres.
-
-### 4. The Uttaramerur Inscriptions (919 & 921 CE) — The Kudavolai Electoral System
-* **Eligibility Criteria for Sabha Membership:**
-  * Must own at least $\\frac{1}{4}$ *veli* of taxable land.
-  * Must reside in a house built on own land.
-  * Age restriction: **Between 35 and 70 years**.
-  * Must possess knowledge of the **Vedas and Dharmashastras**.
-* **Disqualifications:** Those who failed to submit village accounts, those guilty of theft or murder (*Pancha-maha-patakas*), and their close relatives.
-* **Kudavolai (Pot-Ticket) Ballot Method:** Names of eligible candidates were written on palm leaves, placed inside an earthen pot (*Kuda*), and drawn out by a young boy before the assembled village. Selected members served on executive committees (*Variyams*):
-  * *Samvatsara-variyam* (Annual General Committee)
-  * *Eri-variyam* (Tank / Water Harvesting Committee)
-  * *Totta-variyam* (Garden & Agriculture Committee)
-  * *Pon-variyam* (Gold / Currency Assay Committee)`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "Tripartite Matrix & Chola Village Assemblies (Sabha vs Ur)",
+        "body": "### 1. The Tripartite Struggle for Kannauj (8th–10th Centuries CE)\n\n| Contender Empire | Core Power Base & Geography | Notable Rulers in Conflict | Strategic Legacy & Eventual Outcome |\n| :--- | :--- | :--- | :--- |\n| **Gurjara-Pratiharas** | Western India, Malwa, and Rajasthan (capital at Kannauj eventually). | **Vatsaraja, Nagabhata II, Mihira Bhoja, Mahendrapala I**. | Acted as a military bulwark against early Arab incursions from Sindh. |\n| **Palas** | Bengal and Bihar (capital at Pataliputra / Gauda). | **Dharmapala, Devapala**. | Great patrons of Mahayana/Vajrayana Buddhism; founded Vikramashila, Odantapuri, and Somapura Mahaviharas. |\n| **Rashtrakutas** | Deccan / Karnataka (capital at Manyakheta / Malkhed). | **Dhruva, Govinda III, Amoghavarsha I, Krishna III**. | Possessed the most lethal military cavalry; repeatedly crossed the Vindhyas, captured Kannauj, but retreated back to the Deccan. Built the rock-cut Kailash Temple at Ellora. |\n\n---\n\n### 2. Imperial Chola Administrative Hierarchy\n$$\\mathbf{\\text{Mandalams (Provinces)}} \\implies \\mathbf{\\text{Valanadus (Districts)}} \\implies \\mathbf{\\text{Nadus (Sub-districts)}} \\implies \\mathbf{\\text{Kurrams / Gramams (Village Clusters)}}$$\n\n---\n\n### 3. Chola Village Governance: The Three Assemblies\n* **Ur:** The general assembly of the common agrarian village, consisting of tax-paying landholders (*Vellanvagai*).\n* **Sabha / Mahasabha:** The autonomous assembly of **Brahmadeya villages** (tax-free land granted to learned Brahmins). Handled justice, irrigation, temple endowments, and revenue collection.\n* **Nagaram:** The assembly of merchants and artisans in commercial urban centres.\n\n---\n\n### 4. The Uttaramerur Inscriptions (919 & 921 CE) — The Kudavolai Electoral System\n* **Eligibility Criteria for Sabha Membership:**\n  * Must own at least $\\frac{1}{4}$ *veli* of taxable land.\n  * Must reside in a house built on own land.\n  * Age restriction: **Between 35 and 70 years**.\n  * Must possess knowledge of the **Vedas and Dharmashastras**.\n* **Disqualifications:** Those who failed to submit village accounts, those guilty of theft or murder (*Pancha-maha-patakas*), and their close relatives.\n* **Kudavolai (Pot-Ticket) Ballot Method:** Names of eligible candidates were written on palm leaves, placed inside an earthen pot (*Kuda*), and drawn out by a young boy before the assembled village. Selected members served on executive committees (*Variyams*):\n  * *Samvatsara-variyam* (Annual General Committee)\n  * *Eri-variyam* (Tank / Water Harvesting Committee)\n  * *Totta-variyam* (Garden & Agriculture Committee)\n  * *Pon-variyam* (Gold / Currency Assay Committee)",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'Maritime Blue-Water Navy & Brihadisvara Temple Architectural Engineering',
-        body: `### 1. The Chola Maritime Hegemony
-* **Raja Raja I (985–1014 CE):** Annexed Northern Sri Lanka (*Mummudi-Chola-mandalam*) and Maldives; constructed the colossal **Brihadisvara Temple at Thanjavur (1010 CE)**, featuring a monolithic granite 80-tonne *Kumbam* cupola.
-* **Rajendra I (1014–1044 CE):**
-  * Marched north to the Ganga, defeating Mahipala I of Bengal; assumed the title **Gangaikondachola** and built a new capital: **Gangaikondacholapuram**.
-  * Launched a massive naval expedition across the Bay of Bengal (1025 CE) against the **Srivijaya Empire** (Sumatra, Malaya, Java), securing unhindered maritime passage for Tamil merchant guilds (*Manigramam, Ayyavole-500*) to China (Song Dynasty).
-
-### 2. Lost-Wax (Cire Perdue) Bronze Sculptures
-* Chola artisans perfected the *cire perdue* technique, creating world-renowned masterpieces such as **Nataraja (Lord of the Cosmic Dance)** inside a fiery arch (*Prabha-mandala*), symbolizing creation, preservation, destruction, illusion (*Maya*), and liberation.`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Maritime Blue-Water Navy & Brihadisvara Temple Architectural Engineering",
+        "body": "### 1. The Chola Maritime Hegemony\n* **Raja Raja I (985–1014 CE):** Annexed Northern Sri Lanka (*Mummudi-Chola-mandalam*) and Maldives; constructed the colossal **Brihadisvara Temple at Thanjavur (1010 CE)**, featuring a monolithic granite 80-tonne *Kumbam* cupola.\n* **Rajendra I (1014–1044 CE):**\n  * Marched north to the Ganga, defeating Mahipala I of Bengal; assumed the title **Gangaikondachola** and built a new capital: **Gangaikondacholapuram**.\n  * Launched a massive naval expedition across the Bay of Bengal (1025 CE) against the **Srivijaya Empire** (Sumatra, Malaya, Java), securing unhindered maritime passage for Tamil merchant guilds (*Manigramam, Ayyavole-500*) to China (Song Dynasty).\n\n---\n\n### 2. Lost-Wax (Cire Perdue) Bronze Sculptures\n* Chola artisans perfected the *cire perdue* technique, creating world-renowned masterpieces such as **Nataraja (Lord of the Cosmic Dance)** inside a fiery arch (*Prabha-mandala*), symbolizing creation, preservation, destruction, illusion (*Maya*), and liberation.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Age Brackets & Kudavolai Disqualification Rules',
-        body: `### High-Frequency Traps in Early Medieval History
-
-1. **Uttaramerur Age Bracket Trap (Very Frequent in UPSC!):**
-   * *Trap:* Believing the age bracket for Sabha membership was 21–60 years or 25–50 years.
-   * *Truth:* The mandatory age bracket was strictly **35 to 70 years**!
-
-2. **Sabha vs Ur Composition:**
-   * *Sabha:* Exclusively an assembly of **Brahmins in Brahmadeya villages**.
-   * *Ur:* An assembly of **ordinary non-Brahmin peasant landholders**.
-   * *Trap:* Swapping the definitions of Ur and Sabha.
-
-3. **Gangaikondachola Title:**
-   * Assumed by **Rajendra I**, NOT Raja Raja I! Raja Raja I took titles like *Mummudi Chola* and *Jayamgonda*.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Topology of Early Medieval India: The Tripartite Arena & Chola Thalassocracy",
+        "body": "Spatial Topology of Early Medieval Superpowers & Maritime Corridors:\n\n          [NORTHWEST: Gurjara-Pratiharas] --------> [KANNAUJ] <-------- [EAST: Palas of Bengal]\n          (Bhinmal, Jodhpur, Ujjain;                 (Kanyakubja:        (Gauda, Pataliputra;\n           Bulwark against Arab incursions)           Doab Agrarian       Vikramashila, Nalanda)\n                        \\                               Prize)                     /\n                         \\                                |                       /\n                          \\                               |                      /\n                           +------------------------------+---------------------+\n                                                          ^\n                                                          |\n                                            [DECCAN: Rashtrakutas]\n                                            (Manyakheta, Ellora Kailash Temple;\n                                             Cavalry raids across Vindhyas)\n                                                          |\n                                                          v\n                                            [SOUTH: Imperial Cholas]\n                                            (Thanjavur, Gangaikondacholapuram,\n                                             Kaveri Delta agrarian core)\n                                                          |\n                               +--------------------------+--------------------------+\n                               |                                                     |\n                               v (Naval Expeditions 1017-1025 CE)                    v\n                   [SRI LANKA: Anuradhapura]                             [BAY OF BENGAL: \"Chola Lake\"]\n                   (Mummudi-Chola-mandalam)                                          |\n                                                                                     v\n                                                                       [MALACCA STRAIT: Srivijaya Empire]\n                                                                       (Sumatra, Kedah, Java; Route to Song China)\n\nSpatial Dynamics:\n1. Kannauj Pivotal Nexus: Located at the confluence of the Ganga and Yamuna transport corridors, forming the political magnet for three non-contiguous regional empires.\n2. The Kaveri Delta Hydraulic Base: Massive perennial irrigation network enabling dense population clusters, temple-centered urbanism, and agrarian revenues fueling naval construction.\n3. The \"Chola Lake\": Naval supremacy converting the Bay of Bengal into a patrolled maritime highway, protecting Tamil mercantile guilds (Ayyavole-500, Manigramam).",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "EXAM_APPLICATION",
+        "title": "Examiner Traps, Age Brackets & Kudavolai Disqualification Rules",
+        "body": "### High-Frequency Traps in Early Medieval History\n\n1. **Uttaramerur Age Bracket Trap (Very Frequent in UPSC!):**\n   * *Trap:* Believing the age bracket for Sabha membership was 21–60 years or 25–50 years.\n   * *Truth:* The mandatory age bracket was strictly **35 to 70 years**!\n\n2. **Sabha vs Ur Composition:**\n   * *Sabha:* Exclusively an assembly of **Brahmins in Brahmadeya villages**.\n   * *Ur:* An assembly of **ordinary non-Brahmin peasant landholders** (*Vellanvagai*).\n\n3. **Brihadisvara vs Gangaikondacholapuram Builders:**\n   * **Brihadisvara Temple at Thanjavur:** Built by **Raja Raja I** (completed 1010 CE).\n   * **Brihadisvara Temple at Gangaikondacholapuram:** Built by **Rajendra I** (to commemorate his march to the Ganga).\n\n4. **Kudavolai Process Invariant:**\n   * Names written on palm leaves (*Olais*) placed in a pot (*Kuda*), and picked by a **young boy** (symbolizing innocence/absence of bias), NOT by a village elder or royal officer!",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-01-1',
-        statement: 'The Tripartite Struggle was an eighth-to-tenth-century conflict over the control of Kannauj fought between the Gurjara-Pratiharas, the Palas of Bengal, and the Rashtrakutas of the Deccan.',
-        claimType: 'HISTORICAL_EVENT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-23',
-        excerpt: 'New Kings and Kingdoms (700–1200 CE): Tripartite struggle for Kannauj between Gurjara-Pratiharas, Palas, and Rashtrakutas.',
+        "id": "CLM-MED-01-1",
+        "statement": "The Tripartite Struggle was an eighth-to-tenth-century multi-generational conflict over the control of Kannauj fought between the Gurjara-Pratiharas, the Palas of Bengal, and the Rashtrakutas of the Deccan.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 2: New Kings and Kingdoms, Section: Warfare for Wealth, pp. 20-22",
+        "excerpt": "For centuries, rulers belonging to the Gurjara-Pratihara, Rashtrakuta and Pala dynasties fought for control over Kanauj. Because there were three parties in this long-drawn conflict, historians often describe it as the \"tripartite struggle\"."
       },
       {
-        id: 'CLM-MED-01-2',
-        statement: 'The Uttaramerur Inscriptions (919 and 921 CE) of Parantaka I detail the democratic Kudavolai lottery system, committee structures (Variyams), and strict qualifications (age 35–70, Vedic knowledge, property) for Chola village Sabhas.',
-        claimType: 'EPIGRAPHIC_RECORD',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-23',
-        excerpt: 'Chola Local Self-Government: Uttaramerur inscription details Sabha village administration and Kudavolai system.',
+        "id": "CLM-MED-01-2",
+        "statement": "The Uttaramerur Inscriptions (919 and 921 CE) of Parantaka I detail the democratic Kudavolai lottery system, committee structures (Variyams), and strict qualifications (age 35–70, Vedic knowledge, property) for Chola village Sabhas.",
+        "claimType": "EPIGRAPHIC_RECORD",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 2: New Kings and Kingdoms, Section: A Closer Look – The Cholas / Inscriptions and Texts, pp. 27-28",
+        "excerpt": "The inscriptions from Uttaramerur in Chingleput district, Tamil Nadu, provide details of the way in which the sabha was organised... All those who wish to become members of the sabha should be owners of land from which land revenue is collected, should have their own homes, should be between 35 and 70 years of age, and should have knowledge of the Vedas."
       },
       {
-        id: 'CLM-MED-01-3',
-        statement: 'Rajendra I assumed the title Gangaikondachola after his victorious expedition to the River Ganga, founded Gangaikondacholapuram, and launched a naval campaign against the Srivijaya Empire in 1025 CE.',
-        claimType: 'HISTORICAL_EVENT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-23',
-        excerpt: 'Chola Naval Power: Rajendra I expedition against Srivijaya and founding of Gangaikondacholapuram.',
+        "id": "CLM-MED-01-3",
+        "statement": "Rajendra I assumed the title Gangaikondachola after his victorious expedition to the River Ganga, founded Gangaikondacholapuram, and launched a naval campaign against the Srivijaya Empire in 1025 CE.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 2: New Kings and Kingdoms, Section: From Uraiyur to Thanjavur, pp. 23-26",
+        "excerpt": "Rajaraja I, considered the most powerful Chola ruler, became king in 985 and expanded control over most of these areas... Rajaraja's son Rajendra I continued his policies and even raided the Ganga valley, Sri Lanka and countries of Southeast Asia, developing a navy for these expeditions."
       },
+      {
+        "id": "CLM-MED-01-4",
+        "statement": "Chola bronze sculptures, particularly the iconic Nataraja cast using the lost-wax (cire perdue) technique, represent the pinnacle of medieval Indian metal sculpture, patronized by the royal court and temple authorities.",
+        "claimType": "CULTURAL_HERITAGE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 2: New Kings and Kingdoms, Section: Splendid Temples and Bronze Sculpture, pp. 24-25",
+        "excerpt": "Chola bronze images are considered amongst the finest in the world. While most images were of deities, sometimes images were made of devotees as well. The making of bronze images was done using the \"lost-wax\" technique."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Ancient & Early Medieval Indian History / Art & Culture',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_EPIGRAPHIC_ANALYSIS',
-        notes: 'Uttaramerur inscription qualifications and Chola bronzes are among UPSC\'s most repeated history themes.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Ancient & Early Medieval Indian History / Art & Culture",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_EPIGRAPHIC_ANALYSIS",
+        "notes": "Uttaramerur inscription qualifications, Kudavolai lottery, and Chola bronzes are among UPSC's most repeated history themes."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — History & Culture of Ancient and Medieval India',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Direct 5-mark and 10-mark questions on Chola administration and temple architecture.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — History & Culture of Ancient and Medieval India",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Direct 5-mark and 10-mark questions on Chola administration and temple architecture."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Brihadisvara temple builder (Raja Raja I) and Gangaikondachola title.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on Brihadisvara temple builder (Raja Raja I) and Gangaikondachola title."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Medieval Institutions',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'ADMINISTRATIVE_TERMINOLOGY',
-        notes: 'Tested on Variyams, Sabha, and Ur definitions.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Institutions",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "ADMINISTRATIVE_TERMINOLOGY",
+        "notes": "Tested on Variyams, Sabha, and Ur definitions."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian Heritage',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Occasional questions on UNESCO heritage sites (Brihadisvara at Thanjavur).',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian Heritage",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Occasional questions on UNESCO heritage sites (Brihadisvara at Thanjavur)."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — Culture & Monuments',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on temple architecture and dynastic founders.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Culture & Monuments",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on temple architecture and dynastic founders."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones of India',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 general awareness on Chola maritime influence and local self-governance.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones of India",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 general awareness on Chola maritime influence and local self-governance."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background of India',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Foundational history of South Indian commercial guilds and maritime trade.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background of India",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Foundational history of South Indian commercial guilds and maritime trade."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Early Medieval: Tripartite Struggle (Kannauj) = Pratiharas + Palas + Rashtrakutas. Cholas: Raja Raja I (Thanjavur Brihadisvara), Rajendra I (Gangaikonda Chola, Srivijaya naval raid 1025). Uttaramerur Inscription: Sabha qualifications (Age 35–70, Vedic learning, land), Kudavolai pot-lottery system, Variyams (committees). Ur = non-Brahmin village, Sabha = Brahmadeya assembly.',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Early Medieval: Tripartite Struggle (Kannauj) = Pratiharas + Palas + Rashtrakutas. Cholas: Raja Raja I (Thanjavur Brihadisvara), Rajendra I (Gangaikonda Chola, Srivijaya naval raid 1025). Uttaramerur Inscription: Sabha qualifications (Age 35–70, Vedic learning, land), Kudavolai pot-lottery system, Variyams (committees). Ur = non-Brahmin village, Sabha = Brahmadeya assembly.",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Early Medieval & Chola Blueprint: 1) Tripartite Struggle: 200-year conflict for Kannauj between Gurjara-Pratiharas, Palas, and Rashtrakutas. 2) Chola Administration: Mandalams -> Valanadus -> Nadus -> Kurrams. Three assemblies: Ur (ordinary taxpaying peasants), Sabha (Brahmins in Brahmadeya grants), Nagaram (merchants). 3) Uttaramerur (919/921 CE): Detailed democratic election rules for Sabha executive committees (Variyams: Eri, Garden, Gold) via Kudavolai palm-leaf lottery for candidates aged 35–70. 4) Art: Lost-wax Nataraja bronze and Thanjavur Vimana.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Early Medieval & Chola Blueprint: 1) Tripartite Struggle: 200-year conflict for Kannauj between Gurjara-Pratiharas, Palas, and Rashtrakutas. 2) Chola Administration: Mandalams -> Valanadus -> Nadus -> Kurrams. Three assemblies: Ur (ordinary taxpaying peasants), Sabha (Brahmins in Brahmadeya grants), Nagaram (merchants). 3) Uttaramerur (919/921 CE): Detailed democratic election rules for Sabha executive committees (Variyams: Eri, Garden, Gold) via Kudavolai palm-leaf lottery for candidates aged 35–70. 4) Art: Lost-wax Nataraja bronze and Thanjavur Vimana.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Chola State Structure & Geopolitics: 1) Geopolitical Core: Kaveri delta agrarian surplus driving blue-water maritime conquest. 2) Multi-Tiered Assemblies: Centralized imperial kingship at the apex harmoniously coexisting with autonomous corporate bodies (Ur, Sabha, Ayyavole trade guilds). 3) Agrarian Ecology: Tank irrigation managed by Eri-Variyam financed by land revenue assessments.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Chola State Structure & Geopolitics: 1) Geopolitical Core: Kaveri delta agrarian surplus driving blue-water maritime conquest. 2) Multi-Tiered Assemblies: Centralized imperial kingship at the apex harmoniously coexisting with autonomous corporate bodies (Ur, Sabha, Ayyavole trade guilds). 3) Agrarian Ecology: Tank irrigation managed by Eri-Variyam financed by land revenue assessments.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'CHOLA_MCQ',
-        stem: 'According to the Uttaramerur Inscription of Parantaka I, which of the following was a mandatory eligibility criterion for membership in the Chola village executive assembly (Sabha)?',
-        options: [
-          'The candidate must be aged between 21 and 50 years',
-          'The candidate must be aged between 35 and 70 years and possess knowledge of the Vedas',
-          'The candidate must belong to the merchant guild (Nagaram)',
-          'The candidate must have served in the imperial Chola army'
+        "type": "CHOLA_MCQ",
+        "stem": "According to the Uttaramerur Inscription of Parantaka I, which of the following was a mandatory eligibility criterion for membership in the Chola village executive assembly (Sabha)?",
+        "options": [
+          "The candidate must be aged between 21 and 50 years",
+          "The candidate must be aged between 35 and 70 years and possess knowledge of the Vedas",
+          "The candidate must belong to the merchant guild (Nagaram)",
+          "The candidate must have served in the imperial Chola army"
         ],
-        correctAnswer: 'The candidate must be aged between 35 and 70 years and possess knowledge of the Vedas',
-        explanation: 'The Uttaramerur Inscriptions (919 and 921 CE) laid down strict qualification rules for Sabha committee membership: candidate must be aged between 35 and 70 years, own at least 1/4 veli of taxable land, reside in a house on their own land, be proficient in the Vedas, and have clean accounts.',
-        trapExplanation: 'Standard modern democratic age brackets (21 or 25 years) are common distractors. The ancient Chola requirement was mature age 35 to 70.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact age qualification requirement in the Uttaramerur Inscription.',
+        "correctAnswer": "The candidate must be aged between 35 and 70 years and possess knowledge of the Vedas",
+        "explanation": "The Uttaramerur Inscriptions (919 and 921 CE) laid down strict qualification rules for Sabha committee membership: candidate must be aged between 35 and 70 years, own at least 1/4 veli of taxable land, reside in a house on their own land, be proficient in the Vedas, and have clean accounts.",
+        "trapExplanation": "Standard modern democratic age brackets (21 or 25 years) are common distractors. The ancient Chola requirement was mature age 35 to 70.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Exact age qualification requirement in the Uttaramerur Inscription."
       },
       {
-        type: 'CHOLA_MCQ',
-        stem: 'Which Chola ruler assumed the title of "Gangaikondachola" and sent a victorious maritime expedition against the Srivijaya kingdom in Southeast Asia in 1025 CE?',
-        options: ['Vijayalaya Chola', 'Parantaka I', 'Raja Raja I', 'Rajendra I'],
-        correctAnswer: 'Rajendra I',
-        explanation: 'Rajendra I (1014–1044 CE), son of Raja Raja I, assumed the title "Gangaikondachola" (the Chola who brought the Ganga) after marching to Bengal. In 1025 CE, he launched a massive naval campaign across the Bay of Bengal, subduing the Srivijaya kingdom to secure trade routes to China.',
-        trapExplanation: 'Confusing Rajendra I with his father Raja Raja I (who built the Thanjavur Brihadisvara temple and conquered Sri Lanka) is the primary trap.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2022,
-        pyqPaper: 'RPSC RAS Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Attribution between Raja Raja I and Rajendra I.',
-      },
-    ],
+        "type": "CHOLA_MCQ",
+        "stem": "Which Chola ruler assumed the title of \"Gangaikondachola\" and sent a victorious maritime expedition against the Srivijaya kingdom in Southeast Asia in 1025 CE?",
+        "options": [
+          "Vijayalaya Chola",
+          "Parantaka I",
+          "Raja Raja I",
+          "Rajendra I"
+        ],
+        "correctAnswer": "Rajendra I",
+        "explanation": "Rajendra I (1014–1044 CE), son of Raja Raja I, assumed the title \"Gangaikondachola\" (the Chola who brought the Ganga) after marching to Bengal. In 1025 CE, he launched a massive naval campaign across the Bay of Bengal, subduing the Srivijaya kingdom to secure trade routes to China.",
+        "trapExplanation": "Confusing Rajendra I with his father Raja Raja I (who built the Thanjavur Brihadisvara temple and conquered Sri Lanka) is the primary trap.",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2022,
+        "pyqPaper": "RPSC RAS Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Attribution between Raja Raja I and Rajendra I."
+      }
+    ]
   },
 
   // =========================================================================
