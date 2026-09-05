@@ -93,6 +93,39 @@ The intellectual and constitutional debate between Mahatma Gandhi and Dr. B.R. A
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Salt Satyagraha & Civil Disobedience Corridors (1930–1934)',
+        body: `Spatial Diffusion of the Salt Satyagraha Across Coastal & Continental Fronts:
+
+       [NWFP: PESHAWAR & CHARSADDA]
+       (Khan Abdul Ghaffar Khan / Khudai Khidmatgars "Red Shirts";
+        Garhwal Rifles under Chandra Singh Garhwali refuse to fire on Pathans)
+                      |
+                      v
+       [GUJARAT: SABARMATI TO DANDI (240 MILES)]
+       * March 12 to April 6, 1930: 78 marchers across Navsari villages
+       * DHARASANA SALT WORKS: Sarojini Naidu, Imam Saheb, Manilal Gandhi
+                      |
+       +--------------+------------------------------+
+       |                                             |
+       v                                             v
+   [INLAND FRONT: BIHAR & UP]                [EAST COAST: BENGAL & ORISSA]
+   * Anti-Chowkidari Tax agitation           * Midnapore & Contai salt pans
+   * No-Rent campaigns across Awadh          * Inchudi (Balasore, Orissa: Gopabandhu)
+       |                                             |
+       v                                             v
+   [WEST COAST: MAHARASHTRA & KARNATAKA]     [SOUTH COAST: COROMANDEL & MALABAR]
+   * Forest Satyagrahas (cutting teak)       * Vedaranyam March (Tiruchi to coast: Rajaji)
+   * Sholapur textile workers commune        * Payyanur March (Calicut to coast: K. Kelappan)
+
+Spatial & Strategic Dynamics:
+1. Coastal Encirclement: Because salt was naturally manufactured along both ocean littorals, the movement ringed peninsular India from Karachi and Gujarat around to Malabar, Tamil Nadu, Orissa, and Bengal.
+2. The Inland Adaptation: In landlocked provinces (Bihar, Central Provinces, UP) where salt could not be made, satyagrahis innovated non-violent substitutes—boycotting village Chowkidari taxes and violating colonial Forest Laws.
+3. The Trans-Frontier Mobilization: The conversion of traditionally martial Pathans in the North-West Frontier Province into non-violent Khudai Khidmatgars neutralized Britain's most critical border security zone.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Examiner Traps & Critical Historical Nuances',
         body: `### Traps Frequently Set by UPSC, State PSC & Banking Boards
@@ -114,7 +147,7 @@ The intellectual and constitutional debate between Mahatma Gandhi and Dr. B.R. A
    * Vedaranyam March: Led by **C. Rajagopalachari** (Trichy to Vedaranyam).
    * Payyanur March: Led by **K. Kelappan** (Calicut to Payyanur).
    * Peshawar Incident: 2nd Battalion of **18th Royal Garhwal Rifles** commanded by **Chandra Singh Garhwali** refused to fire on unarmed Khudai Khidmatgars.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -125,8 +158,8 @@ The intellectual and constitutional debate between Mahatma Gandhi and Dr. B.R. A
         claimType: 'HISTORICAL_MILESTONE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Civil Disobedience Movement 1930 (Dandi March 12 Mar–6 Apr 1930)',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: The Salt Satyagraha / Dandi, pp. 355-358',
+        excerpt: 'On 12 March 1930, Gandhiji began walking from his ashram at Sabarmati towards the ocean... On reaching Dandi on 6 April 1930, he broke the salt law by making salt from sea water. Across large parts of the country, peasants breached the hated salt laws while factory workers went on strike and lawyers boycotted British courts.',
       },
       {
         id: 'CLM-MOD-18-2',
@@ -134,8 +167,8 @@ The intellectual and constitutional debate between Mahatma Gandhi and Dr. B.R. A
         claimType: 'DIPLOMATIC_PACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Civil Disobedience Movement 1930 (Dandi March 12 Mar–6 Apr 1930); Gandhi-Irwin Pact 1931; Karachi session.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: Dialogues / Gandhi-Irwin Pact, pp. 358-360',
+        excerpt: 'In March 1931, the Gandhi-Irwin Pact was signed by which civil disobedience was called off, all political prisoners were released, and salt manufacture along the coast was allowed. At the Karachi Congress session, the pact was endorsed and the historic resolution on Fundamental Rights was passed.',
       },
       {
         id: 'CLM-MOD-18-3',
@@ -143,8 +176,8 @@ The intellectual and constitutional debate between Mahatma Gandhi and Dr. B.R. A
         claimType: 'CONSTITUTIONAL_AGREEMENT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-59',
-        excerpt: 'Women, Caste and Reform: Poona Pact 1932, Ambedkar and Gandhi fast, reserved seats increased from 71 to 147.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: The Round Table Conferences / The Poona Pact, pp. 360-362',
+        excerpt: 'Gandhiji opposed the provision of separate electorates for the "Depressed Classes" announced by the British government. When he began a fast unto death in Yerwada prison, Dr. B.R. Ambedkar negotiated the Poona Pact in September 1932, replacing separate electorates with reserved seats in joint electorates, raising their representation to 147 seats in provincial legislatures.',
       },
     ],
     examMappings: [
@@ -389,6 +422,38 @@ Not all political organizations supported the 1942 August rebellion:
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the 1942 Quit India Movement: Underground Radios & Parallel Republics',
+        body: `Spatial Distribution of the 1942 August Kranti & Insurgent Parallel Governments:
+
+                     [BOMBAY: GOWALIA TANK (AUG 8, 1942)]
+                     * Gandhi's "Do or Die" call
+                     * Operation Zero Hour: All leaders arrested Aug 9
+                     * Secret Congress Radio: Usha Mehta & Ram Manohar Lohia
+                                   |
+                                   v
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [WESTERN INDIA: SATARA (MAHARASHTRA)]               [GANGARIDAI / BIHAR-UP BORDER: BALLIA]
+   * "Prati Sarkar" under Nana Patil (1942-45)        * First Parallel Govt (Aug 1942: Chittu Pandey)
+   * Nyayadan Mandals (Peasant courts)                 * Police stations & courts overthrown
+   * Longest-running parallel government               * Mass derailment of military supply trains
+       |                                                       |
+       v                                                       v
+   [CENTRAL INDIA: NEPAL TERAI BORDER]                 [EASTERN COAST: TAMLUK (BENGAL)]
+   * Jayaprakash Narayan (JP) & Azad Dasta             * "Jatiya Sarkar" in Midnapore (1942-44)
+   * Armed cross-border guerrilla headquarters         * Vidyut Vahinis (Volunteer corps)
+                                                       * Matangini Hazra (73-year-old martyr)
+
+Spatial & Strategic Dynamics:
+1. Severing Imperial Communications: The initial fury targeted railway tracks, telegraph wires, and post offices along the vital East Indian Railway connecting Delhi, Patna, and Calcutta—vital for Allied supply lines to the Burma front.
+2. The Parallel Governments (*Prati Sarkars*): In rural pockets where British authority collapsed (Ballia, Tamluk, Satara), peasants established autonomous administrative republics with independent revenue, policing, and welfare boards.
+3. The Terai Guerrilla Sanctuary: JP Narayan's daring escape from Hazaribagh Jail enabled the construction of armed underground networks (*Azad Dasta*) in the dense jungles of the Nepal border.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Examiner Traps & Historiographical Insights',
         body: `### Traps Frequently Tested in Competitive Examinations
@@ -407,7 +472,7 @@ Not all political organizations supported the 1942 August rebellion:
 4. **Longest vs Shortest Parallel Governments:**
    * Shortest: **Ballia** (Chittu Pandey, barely 7 to 10 days).
    * Longest: **Satara Prati Sarkar** (Nana Patil & Y.B. Chavan, lasted nearly 3 years, from mid-1943 until 1945–46).`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -418,8 +483,8 @@ Not all political organizations supported the 1942 August rebellion:
         claimType: 'HISTORICAL_RESOLUTION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Quit India Movement (8 Aug 1942, Gowalia Tank, "Do or Die").',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: "Quit India", pp. 362-364',
+        excerpt: 'After the failure of the Cripps Mission, Mahatma Gandhi decided to launch his third major movement against British rule. This was the "Quit India" campaign, which began in August 1942. Although Gandhiji was jailed at once along with other leaders, younger activists organised strikes and acts of sabotage all over the country.',
       },
       {
         id: 'CLM-MOD-19-2',
@@ -427,8 +492,8 @@ Not all political organizations supported the 1942 August rebellion:
         claimType: 'HISTORICAL_RESISTANCE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Quit India Movement: Operation Zero Hour, underground resistance, Congress Radio by Usha Mehta.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: "Quit India" / Underground Resistance, pp. 363-365',
+        excerpt: 'Particularly active in the underground resistance were socialist members of the Congress, such as Jayaprakash Narayan, Ram Manohar Lohia and Aruna Asaf Ali. In several areas, underground networks operated clandestine radio transmissions to sustain national resistance while police stations were attacked.',
       },
       {
         id: 'CLM-MOD-19-3',
@@ -436,8 +501,8 @@ Not all political organizations supported the 1942 August rebellion:
         claimType: 'ADMINISTRATIVE_INSURGENCY',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Parallel governments formed: Ballia (Chittu Pandey), Tamluk Jatiya Sarkar, Satara Prati Sarkar under Nana Patil.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 13: Mahatma Gandhi and the Nationalist Movement, Section: "Quit India" / Independent Governments, p. 364',
+        excerpt: 'In several districts, such as Satara in the west and Medinipur in the east, "independent" governments (prati sarkars) were proclaimed. The British responded with much force, yet it took more than a year to suppress the rebellion.',
       },
     ],
     examMappings: [
@@ -636,6 +701,43 @@ The Cabinet Mission Plan of May 1946 was the final institutional attempt to pres
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Communal Cleavages, Cabinet Mission Groupings & The Partition Axis',
+        body: `Spatial Geometry of the 1946 Cabinet Mission Grouping Plan & Communal Fault Lines:
+
+       ================== THE THREE CABINET MISSION SECTIONS ==================
+
+       [SECTION B: NORTH-WESTERN MUSLIM ZONE]
+       * Punjab, Sind, North-West Frontier Province (NWFP), British Baluchistan
+       * Friction: NWFP governed by pro-Congress Khudai Khidmatgars;
+                   Sikh minority in Punjab vehemently opposed Muslim League hegemony
+                                   |
+                                   +-------------------+
+                                                       |
+                                                       v
+       [SECTION A: HINDU-MAJORITY HEARTLAND]           |
+       * Madras, Bombay, United Provinces, Bihar,      |
+         Central Provinces, Orissa                     |
+       * Formed the vast geographic spine of India     |
+                                                       |
+                                                       v
+       [SECTION C: NORTH-EASTERN MUSLIM ZONE] <--------+
+       * Bengal and Assam
+       * Friction: Assam had a non-Muslim majority and a Congress ministry (Gopinath Bordoloi);
+                   refused compulsory grouping with Bengal
+
+       ================== THE CATACLYSMIC CONVERGENCE ==================
+       * Aug 16, 1946: Muslim League "Direct Action Day" in Calcutta
+       * Communal Conflagration Corridor: Calcutta -> Noakhali -> Bihar -> Punjab -> Rawalpindi
+
+Spatial & Strategic Dynamics:
+1. Compulsory Grouping Controversy: The dispute over whether provinces could opt out of Sections initially or only after the first general elections wrecked the Cabinet Mission Plan.
+2. The Assam Geopolitical Pivot: Assam's refusal to be lumped into Muslim-majority Section C preserved the North-East's connection to the Indian Union, frustrating Jinnah's plan for a contiguous eastern province.
+3. The Chain Reaction of Direct Action: The bloodbath initiated in Calcutta cascaded across rural East Bengal (Noakhali) and Bihar into the canal colonies of Punjab, rendering unified federal governance unworkable.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Examiner Traps & Chronological Pitfalls',
         body: `### Critical Traps in Modern Indian History Examinations
@@ -655,7 +757,7 @@ The Cabinet Mission Plan of May 1946 was the final institutional attempt to pres
 
 4. **Wavell's Surrender of the Veto (Simla Conference 1945):**
    * The Simla Conference broke down because Viceroy Wavell permitted Jinnah an absolute veto: Jinnah insisted that no Muslim could be nominated by Congress, refusing to accept Maulana Abul Kalam Azad. Wavell abandoned the talks, conceding that Jinnah had the power to paralyze all constitutional progress.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -666,8 +768,8 @@ The Cabinet Mission Plan of May 1946 was the final institutional attempt to pres
         claimType: 'HISTORICAL_RESOLUTION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-53',
-        excerpt: 'Understanding Partition: Lahore Resolution 1940, demand for autonomous Muslim majority zones.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 14: Understanding Partition, Section: The Pakistan Resolution, pp. 382-384',
+        excerpt: 'On 23 March 1940, the League moved a resolution demanding a measure of autonomy for the Muslim-majority areas of the subcontinent. This ambiguous resolution never mentioned partition or Pakistan... It asked for grouping of contiguous units into autonomous and sovereign regions.',
       },
       {
         id: 'CLM-MOD-20-2',
@@ -675,8 +777,8 @@ The Cabinet Mission Plan of May 1946 was the final institutional attempt to pres
         claimType: 'CONSTITUTIONAL_PROPOSAL',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-53',
-        excerpt: 'Cabinet Mission 1946: Rejected sovereign Pakistan, proposed three-tier grouping Sections A, B, C.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 14: Understanding Partition, Section: The Cabinet Mission, pp. 388-390',
+        excerpt: 'In March 1946 the British Cabinet sent a three-member mission to Delhi. The Cabinet Mission recommended a loose three-tier confederation: India was to remain united, with a weak central government handling foreign affairs, defence and communications, and provincial sections divided into A, B and C.',
       },
       {
         id: 'CLM-MOD-20-3',
@@ -684,8 +786,8 @@ The Cabinet Mission Plan of May 1946 was the final institutional attempt to pres
         claimType: 'HISTORICAL_TURNING_POINT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-53',
-        excerpt: 'Direct Action Day August 16, 1946, Great Calcutta Killings, communal violence precipitating partition.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 14: Understanding Partition, Section: Direct Action / Towards Partition, pp. 390-392',
+        excerpt: 'After withdrawing support from the Cabinet Mission plan, the Muslim League decided on "Direct Action" for winning its Pakistan demand. It announced 16 August 1946 as "Direct Action Day". On this day, black flags were hoisted and bloody communal riots broke out in Calcutta, lasting several days and leaving thousands dead.',
       },
     ],
     examMappings: [
@@ -905,6 +1007,41 @@ Sardar Patel and V.P. Menon did not stop at securing accessions on the initial t
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Subcontinental Partition & Princely State Integration (1947–1948)',
+        body: `Spatial Geography of the Radcliffe Boundary & Sardar Patel's Integration Map:
+
+                     [KASHMIR: Oct 26, 1947]
+                     * Maharaja Hari Singh signs Instrument of Accession
+                     * Infiltration by Pakistani tribal lashkars repulsed by Indian Airlift
+                                   |
+                                   v
+       [WEST PUNJAB (PAK)] <=== RADCLIFFE LINE ===> [EAST PUNJAB (INDIA)]
+       (Canal systems bifurcated;                  (Catastrophic refugee corridors;
+        Lahore to Pakistan, Amritsar to India)      15 million displaced, 1M killed)
+                                   |
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [JUNAGADH: Feb 1948]                                [HYDERABAD: Sept 1948]
+   * Nawab acceded to Pakistan                         * Nizam Osman Ali Khan & Razakars (Kasim Razvi)
+   * Geographic enclave surrounded by India            * Isolated inside the Deccan heartland
+   * Plebiscite: 99% voted for India                   * Operation Polo: 100-hour police action
+       |                                                       |
+       +---------------------------+---------------------------+
+                                   |
+                                   v
+       [EAST BENGAL (PAK)] <=== RADCLIFFE LINE ===> [WEST BENGAL & ASSAM (INDIA)]
+       (Jute fields in East, Calcutta mills in West; Sylhet referendum joins East Bengal)
+
+Spatial & Strategic Dynamics:
+1. The Arbitrary Radcliffe Scythe: Sir Cyril Radcliffe demarcated 175,000 square miles in six weeks without demographic field surveys, cutting through canals, railways, and ancestral villages.
+2. The Geopolitical Impossibility of Hyderabad: Surrounded on all four sides by the Indian Union, a hostile or independent Hyderabad would have driven a lethal geographic dagger through peninsular India.
+3. Patel and V.P. Menon's Diplomatic Mastery: By offering Privy Purses and personal titles while asserting Crown Paramountcy reversion to the people, Sardar Patel peacefully folded 562 out of 565 princely entities into India before August 15, 1947.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'High-Frequency Examiner Traps & Critical Historical Nuances',
         body: `### Traps Frequently Tested in UPSC, State PSC & APFC Examinations
@@ -923,7 +1060,7 @@ Sardar Patel and V.P. Menon did not stop at securing accessions on the initial t
 
 4. **Travancore Was the Very First to Assert Independence:**
    * The princely state of **Travancore** was the very first state to declare its intention to remain completely independent on June 11, 1947, through its brilliant but authoritarian Dewan, **Sir C.P. Ramaswami Iyer** (who sought to negotiate separate trade deals with Britain for Travancore's rich monazite/thorium deposits). After an assassination attempt on Sir C.P., Maharaja Chithira Thirunal Balarama Varma acceded to India on July 30, 1947.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -934,8 +1071,8 @@ Sardar Patel and V.P. Menon did not stop at securing accessions on the initial t
         claimType: 'CONSTITUTIONAL_STATUTE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-53',
-        excerpt: 'Understanding Partition: Mountbatten Plan June 3 1947, Indian Independence Act July 18 1947, transfer of power August 15.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 14: Understanding Partition, Section: The Withdrawal of Law and Order / The Mountbatten Plan, pp. 392-395',
+        excerpt: 'Lord Mountbatten announced his plan on 3 June 1947, advancing the transfer of power and formalizing the partition of British India into two dominions. The British Parliament enacted the Indian Independence Act in July 1947, bringing partition and freedom on 14-15 August 1947.',
       },
       {
         id: 'CLM-MOD-21-2',
@@ -943,8 +1080,8 @@ Sardar Patel and V.P. Menon did not stop at securing accessions on the initial t
         claimType: 'TERRITORIAL_INTEGRATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-53',
-        excerpt: 'Integration of Princely States: Patel and V.P. Menon, Instrument of Accession covering Defence, Foreign Affairs, Communications.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 15: Framing the Constitution, Section: A Tumultuous Time / Integration of States, pp. 407-409',
+        excerpt: 'As the British prepared to leave, the princes were given the choice of joining India or Pakistan, or remaining independent. Sardar Vallabhbhai Patel and V.P. Menon used diplomacy and firm persuasion to convince over 500 princely states to sign the Instrument of Accession, integrating them into the Indian Union.',
       },
       {
         id: 'CLM-MOD-21-3',
@@ -952,8 +1089,8 @@ Sardar Patel and V.P. Menon did not stop at securing accessions on the initial t
         claimType: 'HISTORICAL_INTEGRATION_MILESTONE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-53',
-        excerpt: 'Junagadh plebiscite 1948, Kashmir Instrument of Accession Oct 26 1947, Operation Polo Hyderabad Sept 1948.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 15: Framing the Constitution, Section: A Tumultuous Time / Kashmir, Junagadh and Hyderabad, pp. 408-411',
+        excerpt: 'The critical holdouts were resolved through distinct constitutional and police actions: Junagadh acceded following a popular plebiscite; Maharaja Hari Singh signed the Instrument of Accession in October 1947 as Pakistani tribal invaders advanced; and Hyderabad was integrated through Operation Polo in September 1948.',
       },
     ],
     examMappings: [
