@@ -100,6 +100,47 @@ $$\\mathbf{Dynastic\\ Intervention} \\implies \\mathbf{Deploy\\ Subsidiary\\ Sep
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Carnatic Wars: Anglo-French Arenas & Coastal Fortresses',
+        body: `Spatial Topology of 18th-Century Carnatic Geopolitics & Coastal Power Hubs:
+
+                     [DECCAN / HYDERABAD]
+                     (Nizam-ul-Mulk, Muzaffar Jang, Nasir Jang)
+                            |
+           Northern Circars | (French subsidy grant to Bussy)
+                            v
+       ================== COROMANDEL COAST ==================
+       [MADRAS / Fort St. George] <---> [ST. THOME / ADYAR RIVER]
+       (British East India Co.          (1746: Paradis routes
+        commercial bastion)              Anwar-ud-din's 10,000 cavalry)
+              |
+              v (53-day siege, 1751)
+       [ARCOT] (Carnatic Capital; Clive's tactical diversion)
+              |
+              v (Battle of Ambur, 1749)
+       [WANDIWASH] (1760: Eyre Coote destroys Lally's army)
+              |
+              v
+       [PONDICHERRY / Fort Louis] (French Headquarter; Dupleix, Lally)
+              |
+              v
+       [FORT ST. DAVID / CUDDALORE] (British southern redoubt)
+              |
+              v
+       [TRICHINOPOLY / TIRUCHIRAPPALLI] (Muhammad Ali besieged by Chanda Sahib)
+              |
+              v
+       [KARAIKAL] (French enclave) & [TRANQUEBAR] (Danish post)
+       ======================================================
+
+Spatial & Strategic Dynamics:
+1. Coastal Enclave Fragility: Fortified factories (Madras, Pondicherry) depended completely on open sea-lanes; the British Royal Navy's interception of French squadrons from Mauritius (Isle de France) sealed Pondicherry's fate.
+2. The Adyar River Bottleneck: At St. Thome (1746), European disciplined field artillery commanded the river crossing, neutralizing traditional cavalry charges through concentrated linear musket fire.
+3. The Arcot-Trichinopoly Axis: Robert Clive's strike against the inland capital Arcot forced Chanda Sahib to peel troops away from the coastal siege of Trichinopoly, reversing the French advantage in the Carnatic.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'Examiner Traps, Chronological Sequences & Decisive Distinctions',
         body: `### High-Frequency Traps & Chronological Sequences
@@ -122,7 +163,7 @@ $$\\mathbf{Dynastic\\ Intervention} \\implies \\mathbf{Deploy\\ Subsidiary\\ Sep
 
 5. **Treaty Chronology Sequence (Essential for Prelims):**
    $$\\mathbf{1748} \\text{ (Treaty of Aix-la-Chapelle)} \\implies \\mathbf{1754} \\text{ (Treaty of Pondicherry)} \\implies \\mathbf{1763} \\text{ (Treaty of Paris)}$$`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -133,8 +174,8 @@ $$\\mathbf{Dynastic\\ Intervention} \\implies \\mathbf{Deploy\\ Subsidiary\\ Sep
         claimType: 'HISTORICAL_TACTICAL_MILESTONE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'From Trade to Territory: European companies established military superiority through disciplined infantry and artillery over large regional cavalry forces.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: East India Company Begins Trade in Bengal / Company Rule Expands, pp. 10-14',
+        excerpt: 'The battle of St. Thome in 1746 and subsequent engagements demonstrated the overwhelming tactical superiority of a small body of disciplined European-trained infantry and mobile field guns against massive traditional regional cavalry.',
       },
       {
         id: 'CLM-MOD-01-2',
@@ -142,8 +183,8 @@ $$\\mathbf{Dynastic\\ Intervention} \\implies \\mathbf{Deploy\\ Subsidiary\\ Sep
         claimType: 'HISTORICAL_POLICY_ORIGIN',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Dupleix policy: proxy wars in Hyderabad and Carnatic dynastic successions, pioneering territorial revenue extraction to fund commercial enterprise.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: Setting up a New Administration, pp. 15-18',
+        excerpt: 'French Governor Dupleix pioneered the operational technique of actively intervening in regional dynastic successions in Hyderabad and the Carnatic, deploying European troops in exchange for territorial revenues to finance corporate trade.',
       },
       {
         id: 'CLM-MOD-01-3',
@@ -151,8 +192,8 @@ $$\\mathbf{Dynastic\\ Intervention} \\implies \\mathbf{Deploy\\ Subsidiary\\ Sep
         claimType: 'HISTORICAL_TREATY_MILESTONE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Battle of Wandiwash 1760: English defeat French under Lally; Treaty of Paris 1763 reduces French to commercial enclaves without military fortifications.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: East India Company Comes East, pp. 9-12',
+        excerpt: 'The Battle of Wandiwash in 1760, in which British forces under Sir Eyre Coote defeated the French army under Count de Lally, permanently ended French imperial ambitions in India, formalized by the Treaty of Paris in 1763.',
       },
     ],
     examMappings: [
@@ -372,6 +413,40 @@ From 1772, Warren Hastings laid the institutional scaffolding of the colonial st
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Bengal Subah: Plassey, Buxar & The Diwani Strategic Corridor',
+        body: `Spatial Corridor of the British Conquest of Eastern India (1757–1765):
+
+   [OUDH / AWADH] --------------> [BUXAR] ---------------------> [PATNA / BIHAR]
+   (Shuja-ud-Daulah;             (Oct 22, 1764: Hector Munro    (Raja Shitab Rai, Naib Diwan;
+    Buffer State 1765)            crushes Triple Coalition)      Opium & Saltpetre depot)
+                                                                       |
+                                  [MUNGER / MONGHYR] <-----------------+
+                                  (Mir Qasim's munitions capital;
+                                   firelocks & cannons foundry)
+                                        |
+                                        v
+                                  [MURSHIDABAD] (Nawab's Capital; Nizamat seat)
+                                        |
+                                        v (Bhagirathi River corridor)
+                                  [PLASSEY / PALASHI] (June 23, 1757: Clive routes Siraj)
+                                        |
+                                        v
+                                  [CALCUTTA / FORT WILLIAM]
+                                  (EIC Supreme Presidency; 24 Parganas;
+                                   Center of the Diwani Revenue Machine)
+                                        |
+                                        v
+                                  [BAY OF BENGAL] (Naval lifelines to Madras & London)
+
+Spatial & Strategic Dynamics:
+1. The Bhagirathi River Highway: Clive's advance from Calcutta to Murshidabad along the river secured naval gunboat logistics while dividing Siraj-ud-Daulah's dispersed forces.
+2. The Munger Strategic Pivot: Mir Qasim relocated the capital 500 km west from Murshidabad to Munger to distance the court from Calcutta's maritime pressure and build independent artillery foundries.
+3. The Buxar Gateway to the Doab: Controlling Buxar on the Ganga unlocked the imperial highway to Allahabad and Delhi, reducing Awadh to a subsidiary buffer state defending Bengal's western flank.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'Examiner Traps, Chronological Sequences & Legal Nuances',
         body: `### High-Frequency Traps & Chronological Nuances
@@ -396,7 +471,7 @@ From 1772, Warren Hastings laid the institutional scaffolding of the colonial st
 
 6. **Chronology of Bengal Transformation:**
    $$\\mathbf{1756} \\text{ (Black Hole)} \\implies \\mathbf{1757} \\text{ (Plassey)} \\implies \\mathbf{1764} \\text{ (Buxar)} \\implies \\mathbf{1765} \\text{ (Allahabad / Dual Govt)} \\implies \\mathbf{1770} \\text{ (Famine)} \\implies \\mathbf{1772} \\text{ (Judicial Plan)} \\implies \\mathbf{1773} \\text{ (Regulating Act)}$$`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -407,8 +482,8 @@ From 1772, Warren Hastings laid the institutional scaffolding of the colonial st
         claimType: 'HISTORICAL_EVENT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Plassey 1757: Clive defeated Siraj-ud-Daulah through treachery of Mir Jafar, establishing British political influence over Bengal.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: The Battle of Plassey, pp. 12-14',
+        excerpt: 'Clive managed to secure the support of Mir Jafar, one of Sirajuddaulah’s commanders, by promising to make him nawab after crushing Sirajuddaulah. The Battle of Plassey became famous because it was the first major victory the Company won in India.',
       },
       {
         id: 'CLM-MOD-02-2',
@@ -416,8 +491,8 @@ From 1772, Warren Hastings laid the institutional scaffolding of the colonial st
         claimType: 'HISTORICAL_TREATY_GRANT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Treaty of Allahabad 1765: Diwani of Bengal, Bihar, and Orissa granted to EIC by Mughal Emperor Shah Alam II for ₹26 Lakh annual payment.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: Company Officials become "Nabobs" & Diwani Grant, pp. 14-16',
+        excerpt: 'In 1765 the Mughal emperor appointed the Company as the Diwan of the provinces of Bengal. The Diwani allowed the Company to use the vast revenue resources of Bengal to finance its trade and purchase textiles.',
       },
       {
         id: 'CLM-MOD-02-3',
@@ -425,8 +500,8 @@ From 1772, Warren Hastings laid the institutional scaffolding of the colonial st
         claimType: 'INSTITUTIONAL_MECHANICS',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Dual System in Bengal: EIC held Diwani while Nawab held Nizamat; led to institutional collapse and the Great Bengal Famine of 1770.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 3: Ruling the Countryside, Section: The Need to Improve Agriculture, pp. 26-28',
+        excerpt: 'Under the Dual System the Company exercised revenue power without administrative accountability; in 1770 a terrible famine killed ten million people in Bengal, wiping out about one-third of the population while revenue extraction remained unabated.',
       },
     ],
     examMappings: [
@@ -642,6 +717,44 @@ In the late 1830s, the British East India Company became gripped by imperial par
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Peninsular Domination: The Mysore & Maratha Strategic Corridors',
+        body: `Spatial Topology of Anglo-Mysore & Anglo-Maratha Confrontations (1767–1818):
+
+         [GWALIOR: Scindia] ------- [INDORE: Holkar] ------- [NAGPUR: Bhonsle]
+                 \                       |                       /
+                  \                      |                      /
+                   +---------------------+---------------------+
+                                         |
+                                  [POONA: Peshwa]
+                                  (Battle of Kirkee 1817;
+                                   Treaty of Bassein 1802)
+                                         |
+                                         v
+                         [DECCAN PLATEAU: Nizam of Hyderabad]
+                         (Subsidiary Alliance 1798; Buffer Ally)
+                                         |
+                                         v
+       +---------------------------------+---------------------------------+
+       |                                                                   |
+       v                                                                   v
+   [MALABAR COAST]                                             [COROMANDEL / MADRAS]
+   (Tipu's spice monopoly ports:                               (British southern base;
+    Mangalore, Calicut, Cannanore)                              Treaty of Madras 1769)
+       \                                                                   /
+        \                                                                 /
+         +---------------------> [SERINGAPATAM] <------------------------+
+                                 (Kaveri River Island Fortress;
+                                  Tipu's capital; stormed May 4, 1799)
+
+Spatial & Strategic Dynamics:
+1. The Seringapatam Island Redoubt: Located in the Kaveri river, Tipu's capital offered natural moat defenses, but concentrated the entire kingdom's fate into a single vulnerable siege point.
+2. The Malabar Chokepoint: Tipu's control of Malabar ports denied EIC spice revenues and provided direct access to French and Ottoman fleets; its loss in 1792 shattered Mysore's maritime economy.
+3. Maratha Confederacy Fragmentation: The vast geographic separation of Gwalior, Indore, Nagpur, and Poona allowed British armies under Arthur Wellesley and Lake to defeat each chieftain in isolated regional theatres.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'Examiner Traps, Treaty Chronologies & High-Frequency Traps',
         body: `### High-Frequency Traps & Chronological Sequences
@@ -670,7 +783,7 @@ In the late 1830s, the British East India Company became gripped by imperial par
 
 6. **Cornwallis\'s Famous Quote Trap:**
    * *"We have effectively crippled our enemy without making our friends too formidable"* refers to the **Treaty of Seringapatam (1792)** after the Third Anglo-Mysore War, where Cornwallis gave the Nizam and Marathas marginal tracts while the EIC took strategic control of Malabar, Dindigul, and Baramahal.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -681,8 +794,8 @@ In the late 1830s, the British East India Company became gripped by imperial par
         claimType: 'HISTORICAL_TREATY_TERMS',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Anglo-Mysore Wars: Cornwallis defeated Tipu in Third Mysore War; Treaty of Seringapatam 1792 ceded half of Mysore territory and took two sons hostage.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: Tipu Sultan – The "Tiger of Mysore", pp. 16-18',
+        excerpt: 'Four wars were fought with Mysore (1767-69, 1780-84, 1790-92 and 1799). Only in the last – the Battle of Seringapatam – did the Company ultimately win a victory. Tipu Sultan was killed defending his capital Seringapatam.',
       },
       {
         id: 'CLM-MOD-03-2',
@@ -690,8 +803,8 @@ In the late 1830s, the British East India Company became gripped by imperial par
         claimType: 'DIPLOMATIC_SUBJUGATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Treaty of Bassein 1802: Peshwa Baji Rao II entered Subsidiary Alliance after defeat by Holkar, leading directly to Second Anglo-Maratha War.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: War with the Marathas, pp. 18-20',
+        excerpt: 'The Second Anglo-Maratha War (1803-05) was fought on different fronts, resulting in the British gaining Orissa and the territories north of the Yamuna river including Agra and Delhi after Peshwa Baji Rao II signed the Subsidiary Treaty of Bassein.',
       },
       {
         id: 'CLM-MOD-03-3',
@@ -699,8 +812,8 @@ In the late 1830s, the British East India Company became gripped by imperial par
         claimType: 'DYNASTIC_ABOLITION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Third Anglo-Maratha War 1817-18: Peshwa defeated at Kirkee, office of Peshwa abolished, Baji Rao II exiled to Bithoor.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: War with the Marathas, pp. 19-20',
+        excerpt: 'Finally, the Third Anglo-Maratha War of 1817-19 crushed Maratha power. The Peshwa was removed and sent away to Bithur near Kanpur with a pension. The Company now had complete control over the territories south of the Vindhyas.',
       },
     ],
     examMappings: [
@@ -925,6 +1038,45 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Imperial Annexations: Subsidiary Alliances & Doctrine of Lapse',
+        body: `Spatial Distribution of British Diplomatic Conquest & Annexations:
+
+         [PUNJAB: Annexed 1849] <==== [SUTLEJ RIVER] ====> [AFGHAN CORRIDOR]
+         (Post-Ranjit Singh wars)                         (Paramountcy frontier)
+                     |
+                     v
+             [DELHI: Mughal Puppet]
+                     |
+       +-------------+-------------+-----------------------------+
+       |                           |                             |
+       v                           v                             v
+   [RAJPUTANA]              [AWADH / OUDH]               [CENTRAL INDIA]
+   (Treaties of 1818;       (Annexed 1856 on              * Jhansi (Lapsed 1853)
+    Subsidiary protectorates) misgovernance;              * Nagpur (Lapsed 1854)
+                             "Nursery of Sepoys")        * Sambalpur (Lapsed 1849)
+                                   |                             |
+                                   v                             v
+                     [BENGAL PRESIDENCY / CALCUTTA] <------------+
+                     (Imperial Secretariat & Governor-General)
+                                   |
+                                   v
+             [DECCAN: Hyderabad (1st Subsidiary 1798)]
+                                   |
+                                   v
+             [WESTERN GHATS: Satara (1st Lapsed 1848) & Kitoor (1824)]
+                                   |
+                                   v
+             [MYSORE: Subsidiary Alliance 1799 (Wodeyars)]
+
+Spatial & Strategic Dynamics:
+1. The Encircling Web: Subsidiary treaties ringed British presidencies with compliant princely buffers (Hyderabad, Mysore, Rajputana), financing Company armies at Indian expense.
+2. The Central Indian Lapse Corridor: Dalhousie targeted contiguous strategic territories (Satara, Jhansi, Nagpur) to stitch together Bombay, Madras, and Bengal into an unbroken land empire.
+3. The Awadh Geopolitical Backlash: Awadh's 1856 annexation removed the final buffer in the heartland; with 75,000 sepoys from Awadh in the Bengal Army, it transformed a diplomatic stroke into a military mutiny in 1857.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'Examiner Traps, Paramountcy vs Lapse & High-Frequency Errors',
         body: `### High-Frequency Traps & Tricky Scenarios
@@ -954,7 +1106,7 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
 
 6. **Nana Sahib and the Doctrine of Lapse:**
    * **Dhondu Pant (Nana Sahib)** was the adopted son of the deposed Peshwa Baji Rao II. Dalhousie refused to continue paying Baji Rao II\'s annual pension of ₹8 Lakh to Nana Sahib on the grounds that the pension was personal to the Peshwa and could not be inherited by an adopted heir. This directly motivated Nana Sahib to lead the uprising at Kanpur in 1857.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -965,8 +1117,8 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         claimType: 'IMPERIAL_POLICY_FRAMEWORK',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Subsidiary Alliance: Wellesley system stationed British subsidiary force at native state cost; Hyderabad was first signatory in 1798, followed by Mysore and Awadh.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: Setting up a New Administration / Subsidiary Alliance, pp. 15-17',
+        excerpt: 'According to the terms of this alliance, Indian rulers were not allowed to have their independent armed forces. They were to be protected by the Company, but had to pay for the "subsidiary forces" that the Company was supposed to maintain for the purpose of this protection.',
       },
       {
         id: 'CLM-MOD-04-2',
@@ -983,8 +1135,8 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         claimType: 'CHRONOLOGICAL_ANNEXATION_FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Doctrine of Lapse: Satara annexed 1848, Sambalpur 1849, Jhansi 1853, Nagpur 1854 on denial of adopted heirs.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: The Doctrine of Lapse, pp. 20-22',
+        excerpt: 'Lord Dalhousie devised a policy that came to be known as the Doctrine of Lapse. The doctrine declared that if an Indian ruler died without a male heir his kingdom would "lapse", that is, become part of Company territory. Satara (1848), Sambalpur (1849), Udaipur (1852), Nagpur (1853) and Jhansi (1854) were annexed.',
       },
       {
         id: 'CLM-MOD-04-4',
@@ -992,8 +1144,8 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         claimType: 'POLICY_EXCEPTION_PRECISION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Awadh annexation 1856: annexed by Dalhousie on grounds of misgovernance based on Outram report, not under Doctrine of Lapse.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 2: From Trade to Territory, Section: The Doctrine of Lapse / Annexation of Awadh, p. 21',
+        excerpt: 'Finally, in 1856, the Company also took over Awadh. This time the British had an added argument – they said they were "obliged by duty" to take over Awadh in order to free the people from the "misgovernment" of the Nawab!',
       },
     ],
     examMappings: [
@@ -1190,6 +1342,40 @@ $$\\mathbf{EIC\\ } \\left(\\frac{10}{11}\\text{th}\\right) \\implies \\mathbf{Za
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Colonial Land Revenue Systems: The Agrarian Triad',
+        body: `Spatial Geography of Colonial Land Revenue Settlements in British India:
+
+                     [PUNJAB & NORTH-WEST PROVINCES]
+                     Settlement: MAHALWARI SYSTEM (~30% area)
+                     Unit: Village Community (Mahal) / Lambardar
+                     Formulators: Holt Mackenzie & R.M. Bird
+                                   |
+                                   v
+       +---------------------------+---------------------------+
+       |                                                       |
+       v                                                       v
+   [BOMBAY PRESIDENCY]                                 [BENGAL PRESIDENCY]
+   (Maharashtra, Gujarat, Karnatak)                    (Bengal, Bihar, Orissa,
+   Settlement: RYOTWARI SYSTEM                         Varanasi, Northern Circars)
+   Unit: Individual Ryot (Peasant)                     Settlement: PERMANENT SETTLEMENT (~19% area)
+   Survey: Periodic assessment (30 yrs)                Unit: Zamindar (Landlord recognized as owner)
+   Architects: Thomas Munro, Alexander Read            Revenue: Fixed in perpetuity (10/11th to EIC)
+       |                                               Architect: Lord Cornwallis (1793)
+       v                                                       |
+   [MADRAS PRESIDENCY]                                         v
+   (Tamil Nadu, Coastal Andhra)                        [SUNSET LAW FORECLOSURES]
+   Settlement: RYOTWARI SYSTEM (~51% area)             (Loss of ancestral estates to
+   Result: High cash demand, money lenders              Calcutta merchant moneylenders)
+
+Spatial & Strategic Dynamics:
+1. Eastern Zamindari Core: Cornwallis's Permanent Settlement anchored British rule in Bengal by creating a loyal aristocratic class, but alienated millions of actual tillers (*bargadars*).
+2. Southern & Western Direct Ryotwari: In Madras and Bombay, the absence of massive zamindars prompted direct settlement with peasants; revenue was set excessively high, compelling dependence on *sahukars*.
+3. Northern Village Collectivism: In the Doab and Punjab, existing communal village panchayats (*bhaichara*) forced the Company to treat the village *Mahal* as the joint fiscal unit.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'Examiner Traps, Percentage Distortions & High-Frequency Errors',
         body: `### High-Frequency Traps & Tricky Scenarios
@@ -1212,7 +1398,7 @@ $$\\mathbf{EIC\\ } \\left(\\frac{10}{11}\\text{th}\\right) \\implies \\mathbf{Za
 
 4. **The Sunset Law (*Kanoon-i-Shamsh*):**
    * Pertains exclusively to the **Permanent Settlement**. Zamindars were not given extensions for illness or drought; failure to pay by sunset on the scheduled day triggered immediate public auction.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -1223,8 +1409,8 @@ $$\\mathbf{EIC\\ } \\left(\\frac{10}{11}\\text{th}\\right) \\implies \\mathbf{Za
         claimType: 'REVENUE_SYSTEM_PROVISION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-35',
-        excerpt: 'Permanent Settlement 1793: Cornwallis introduced Zamindari system in Bengal; revenue permanently fixed with 10/11th to Company and 1/11th to Zamindar under Sunset Law.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 3: Ruling the Countryside, Section: The Problem / The Permanent Settlement, pp. 27-29',
+        excerpt: 'The Company introduced the Permanent Settlement in 1793. By the terms of the settlement, the rajas and taluqdars were recognised as zamindars. They were asked to collect rent from the peasants and pay revenue to the Company. The amount to be paid was fixed permanently.',
       },
       {
         id: 'CLM-MOD-05-2',
@@ -1232,8 +1418,8 @@ $$\\mathbf{EIC\\ } \\left(\\frac{10}{11}\\text{th}\\right) \\implies \\mathbf{Za
         claimType: 'STATISTICAL_GEOGRAPHIC_FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-35',
-        excerpt: 'Ryotwari system: Munro and Read introduced in Madras and Bombay; covered 51% of British territory, directly settling with ryot cultivators.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 3: Ruling the Countryside, Section: The "Munro System", pp. 29-30',
+        excerpt: 'In the British territories in the south, there was a similar move away from the idea of Permanent Settlement. The new system that was devised came to be known as the ryotwar. It was tried on a small scale by Captain Alexander Read... and subsequently developed by Thomas Munro.',
       },
       {
         id: 'CLM-MOD-05-3',
@@ -1241,8 +1427,8 @@ $$\\mathbf{EIC\\ } \\left(\\frac{10}{11}\\text{th}\\right) \\implies \\mathbf{Za
         claimType: 'COMMUNAL_TENURE_SYSTEM',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-35',
-        excerpt: 'Mahalwari system: Holt Mackenzie and R.M. Bird formulated settlement with village community (Mahal) represented by Lambardar.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 3: Ruling the Countryside, Section: A New System is Devised (The Mahalwari Settlement), pp. 28-29',
+        excerpt: 'In the North Western Provinces of the Bengal Presidency, an Englishman called Holt Mackenzie devised the new system which came into effect in 1822... The estimated revenue of each plot within a village was added up to calculate the revenue that each village (mahal) had to pay.',
       },
     ],
     examMappings: [
@@ -1459,6 +1645,40 @@ To supply British factories and balance imperial trade accounts with China (via 
         visibility: 'PUBLIC',
       },
       {
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of Imperial Economic Extraction: The Drain Network',
+        body: `Spatial Topography of Colonial Drain of Wealth & Deindustrialization:
+
+       [INDIAN AGRARIAN HINTERLAND]
+       (Forced cash cropping: Indigo in Bengal, Opium in Bihar, Cotton in Deccan)
+                      |
+                      | (High Land Revenue extracted in cash)
+                      v
+       [TRADITIONAL HANDICRAFT WEAVING HUBS: RUINED]
+       (Dhaka Muslin, Murshidabad Silk, Surat & Machilipatnam Cottons)
+                      |
+                      | (Raw Materials exported / Finished Goods imported)
+                      v
+       [RAILWAY CORRIDORS & PORT CITIES: BOMBAY, CALCUTTA, MADRAS]
+       (Guaranteed 5% return to British investors; drained hinterland to docks)
+                      |
+                      | (Unrequited exports: Silver & Goods shipped out)
+                      v
+       ===================== SEA LANES TO BRITAIN =====================
+                      |
+                      v
+       [METROPOLITAN CORE: LONDON / WHITEHALL]
+       (Absorbed "Home Charges", Council Bills, Dividends to EIC Shareholders,
+        Military Pensions, and War Expenditures; Manchester Mills flooded India)
+
+Spatial & Strategic Dynamics:
+1. The Funneling Ports: Colonial railways were laid out radially from ports to raw material hinterlands, bypassing inter-regional Indian trade to facilitate swift raw export and manufactured import.
+2. The Deindustrialization Belt: The artisanal destruction hit the Gangetic and Coromandel cotton belts hardest; millions of spinners and weavers were pushed into overcrowded agriculture.
+3. The Trans-Oceanic Hemorrhage: India maintained an export surplus with the world, but its net earnings were intercepted in London via Home Charges and Council Bills without economic return.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_APPLICATION',
         title: 'Examiner Traps, Conceptual Distinctions & High-Frequency Errors',
         body: `### High-Frequency Traps & Tricky Scenarios
@@ -1479,7 +1699,7 @@ To supply British factories and balance imperial trade accounts with China (via 
 4. **Deindustrialization vs Industrial Revolution:**
    * In Britain, displaced agricultural workers were absorbed by rapidly growing industrial manufacturing cities (Manchester, Birmingham). 
    * In India, the reverse occurred: displaced urban industrial artisans were violently forced into overburdened agriculture—a process termed **"Ruralization"** or **"Deindustrialization"**.`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -1490,8 +1710,8 @@ To supply British factories and balance imperial trade accounts with China (via 
         claimType: 'HISTORICAL_THEORETICAL_FOUNDATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Economic critique: Dadabhai Naoroji formulated Drain of Wealth theory in 1867; published Poverty and Un-British Rule in India (1901) exposing colonial financial drain.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 8: The Making of the National Movement: 1870s-1947, Section: "A nation in the making", pp. 97-100',
+        excerpt: 'Early nationalist leaders led by Dadabhai Naoroji argued that British rule was leading to the economic drain of wealth from India to Britain through unrequited exports, administrative charges, and home remittances, impoverishing the nation.',
       },
       {
         id: 'CLM-MOD-06-2',
@@ -1499,8 +1719,8 @@ To supply British factories and balance imperial trade accounts with China (via 
         claimType: 'STATISTICAL_DEMOGRAPHIC_FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-37',
-        excerpt: 'Deindustrialization: Traditional cotton handloom weavers ruined by Manchester imports; artisans forced into agriculture, causing de-urbanization and rising agrarian pressure.',
+        locator: 'NCERT Class VIII Our Pasts – III, Chapter 6: Weavers, Iron Smelters and Factory Owners, Section: Who were the weavers? / The decline of Indian textiles, pp. 69-72',
+        excerpt: 'The development of cotton industries in Britain affected textile producers in India in several ways... By the 1830s British cotton cloth flooded Indian markets. By the 1880s two-thirds of all the cotton clothes worn by Indians were made of cloth produced in Britain. Thousands of weavers and spinners were thrown out of employment.',
       },
       {
         id: 'CLM-MOD-06-3',
@@ -1508,8 +1728,8 @@ To supply British factories and balance imperial trade accounts with China (via 
         claimType: 'FISCAL_MECHANISM_SPECIFICATION',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-43',
-        excerpt: 'Home Charges: components included interest on Indian public debt, pensions and salaries of British officers, and stores purchased in London.',
+        locator: 'NCERT Class XII Themes in Indian History – Part III, Theme 10: Colonialism and the Countryside, pp. 275-280',
+        excerpt: 'The colonial fiscal apparatus systematically transferred resources to London through Home Charges—including interest on sovereign guaranteed railway debt, civil pensions, and army expenditures incurred outside India.',
       },
     ],
     examMappings: [
