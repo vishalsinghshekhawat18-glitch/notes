@@ -3156,26 +3156,43 @@ $$\\mathbf{\\text{Green GDP}} = \\text{Conventional GDP} - \\text{Depreciation o
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Circular Flow of Income & National Accounting Identity',
-        body: `In any economy, money flows in a continuous circle between **Households** and **Firms**:
-* Households supply factor services (Labour, Land, Capital) to Firms and receive **Factor Income ($Y$)**.
-* Households use this income to purchase goods from Firms (**Consumption Expenditure $C$**).
+        title: 'The Circular Flow of Income: Real Flows, Money Flows & Keynesian Foundations',
+        body: `In any economy, economic activity is organized around a continuous circular flow between **Households** and **Firms**:
 
-However, in a realistic 4-sector open economy (Households, Firms, Government, External World), money leaks out of the direct circular flow and enters via injections:
+### 1. Two-Sector Model: Real Flow vs Money Flow
+Economic transactions consist of two reciprocal, opposing streams:
+* **Real Flow (Physical Flow):**
+  - Households supply primary **Factor Services** (Land, Labour, Capital, Enterprise) to Firms.
+  - Firms supply final **Goods and Services** back to Households to satisfy consumer wants.
+* **Money Flow (Nominal / Financial Flow):**
+  - Firms pay **Factor Payments** to Households as factor rewards:
+    - $\\text{Land} \\implies \\mathbf{\\text{Rent}}$
+    - $\\text{Labour} \\implies \\mathbf{\\text{Wages / Salaries}}$
+    - $\\text{Capital} \\implies \\mathbf{\\text{Interest}}$
+    - $\\text{Enterprise} \\implies \\mathbf{\\text{Profit}}$
+  - Households spend their factor earnings back on Firms as **Consumption Expenditure ($C$)**.
+* In a basic two-sector economy without government, savings, or foreign trade:
+  $$\\mathbf{\\text{Total Output}} \\equiv \\mathbf{\\text{Factor Payments (Income)}} \\equiv \\mathbf{\\text{Consumption Expenditure}}$$
 
-### 1. The 3 Leakages (Withdrawals from Circular Flow):
-* **Savings ($S$):** Money saved in banks instead of spent on consumption.
-* **Taxes ($T$):** Money paid to the government.
-* **Imports ($M$):** Money spent on foreign goods (leaks abroad).
+### 2. Say's Law of Markets vs The Keynesian Revolution
+* **Classical Say's Law (Jean-Baptiste Say):** *"Supply creates its own demand."* Classical economists believed every unit of output produced automatically pays out enough factor income to purchase that exact output. Consequently, general overproduction, aggregate demand deficiencies, and involuntary unemployment were considered theoretically impossible.
+* **The 1929 Great Depression Collapse:** The worldwide collapse of 1929 shattered Say's Law when factories sat idle, unsold inventories piled up, and unemployment surged past 25% despite flexible markets.
+* **Keynesian Macroeconomic Revolution (J.M. Keynes, 1936):** John Maynard Keynes demonstrated in *The General Theory of Employment, Interest and Money* that because households save a portion of their income without automatic, immediate reinvestment, **Aggregate Demand (Effective Demand)** determines the equilibrium level of output and employment in the short run. When aggregate demand is deficient, involuntary unemployment persists indefinitely unless corrected.
 
-### 2. The 3 Injections (Additions to Circular Flow):
-* **Investment ($I$):** Capital spending by firms.
-* **Government Expenditure ($G$):** Public procurement and infrastructure.
-* **Exports ($X$):** Spending by foreigners on domestic goods.
+### 3. Four-Sector Open Economy: Leakages vs Injections
+In a modern open economy with financial markets, government, and global trade:
+* **The 3 Leakages (Withdrawals from Circular Stream):**
+  - **Savings ($S$):** Income diverted into bank accounts or financial assets instead of spent domestically.
+  - **Taxes ($T$):** Income paid to the government.
+  - **Imports ($M$):** Spending that leaks abroad to foreign producers.
+* **The 3 Injections (Additions to Circular Stream):**
+  - **Investment ($I$):** Capital goods spending by business enterprises.
+  - **Government Expenditure ($G$):** Public infrastructure, defence, and social administration spending.
+  - **Exports ($X$):** Foreign spending entering the domestic economy.
 
-$$\\mathbf{\\text{Leakages}} = S + T + M \\qquad \\mathbf{\\text{Injections}} = I + G + X$$
+$$\\mathbf{\\text{Total Leakages}} = S + T + M \\qquad \\mathbf{\\text{Total Injections}} = I + G + X$$
 
-$$\\text{Macroeconomic Equilibrium occurs when: } \\mathbf{S + T + M = I + G + X}$$`,
+$$\\text{Macroeconomic Equilibrium requires: } \\mathbf{S + T + M = I + G + X}$$`,
         order: 1,
       },
       {
@@ -3251,10 +3268,16 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
 * When the US Federal Reserve hinted at raising interest rates ("Taper Tantrum"), foreign capital fled India rapidly, crashing the Indian Rupee from ₹54 to ₹68 per USD in weeks.
 
 ### Examiner Traps & High-Yield Pitfalls
-* ⚠️ **Trap 1: Savings Identity in a Closed vs Open Economy:**
+* ⚠️ **Trap 1: Real Flow vs Money Flow Direction:**
+  - Real flow involves physical goods, services, and factor inputs (no currency changes hands).
+  - Money flow involves monetary payments (wages, rent, prices). They flow in opposite physical directions!
+* ⚠️ **Trap 2: Say's Law vs Keynesian Effective Demand:**
+  - Say's Law assumes full employment is natural and automatic via wage flexibility.
+  - Keynesian theory proves that wage rigidities and saving leakages create underemployment equilibrium where output is constrained by **Aggregate Demand**, not supply capacity.
+* ⚠️ **Trap 3: Savings Identity in a Closed vs Open Economy:**
   - In a **Closed Economy ($X = M = 0$):** National Savings must mathematically equal Domestic Investment ($S = I$).
   - In an **Open Economy:** National Savings does NOT have to equal Domestic Investment; the difference is financed by foreign borrowing: $S - I = X - M = \\text{Net Capital Outflow}$.
-* ⚠️ **Trap 2: High Investment is Not Bad:** A high CAD is not necessarily disastrous if it is driven by high productive private investment ($I > S$) importing capital machinery that expands future productive capacity, rather than wasteful government consumption ($G > T$).`,
+* ⚠️ **Trap 4: High Investment is Not Bad:** A high CAD is not necessarily disastrous if it is driven by high productive private investment ($I > S$) importing capital machinery that expands future productive capacity, rather than wasteful government consumption ($G > T$).`,
         order: 4,
       },
     ],

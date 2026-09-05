@@ -3108,8 +3108,48 @@ export const BATCH_E4_CONCEPTS: CanonicalConceptDefinition[] = [
       },
       {
         type: 'CORE_IDEA',
-        title: 'Fiscal Policy Stances: Expansionary vs Contractionary',
-        body: 'The operational mechanics of discretionary fiscal stances:\n\n```\n                             FISCAL POLICY STANCES\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n1. EXPANSIONARY FISCAL POLICY                               2. CONTRACTIONARY FISCAL POLICY\n(Fighting Recessions & Unemployment)                        (Fighting Overheating & High Inflation)\n• Instruments:                                              • Instruments:\n  - Increase Government Spending ($\\Delta G > 0$)             - Decrease Government Spending ($\\Delta G < 0$)\n  - Decrease Tax Rates ($\\Delta T < 0$)                       - Increase Tax Rates ($\\Delta T > 0$)\n  - Expand Direct Benefit Transfers                           - Rationalize subsidies and cut wasteful outlays\n• Impact on AD: Shifts AD curve to the **RIGHT**            • Impact on AD: Shifts AD curve to the **LEFT**\n• Macro Effects: Output $\\uparrow$, Employment $\\uparrow$,  • Macro Effects: Inflation $\\downarrow$, Deficit $\\downarrow$,\n  Fiscal Deficit $\\uparrow$, Bond Yields $\\uparrow$           Bond Yields $\\downarrow$, Growth moderates\n```',
+        title: 'Fiscal Stances & The Aggregate Supply (AS) Equilibrium: Classical vs Keynesian',
+        body: `Macroeconomic stabilization operates at the intersection of Aggregate Demand ($AD$) and Aggregate Supply ($AS$):
+
+### 1. The Aggregate Supply (AS) Curve & The $45^\\circ$ Line
+- In national income determination, **Aggregate Supply ($AS$)** represents the total value of final goods and services planned to be produced in the economy during the accounting year.
+- Since aggregate output translates directly into total factor payments (National Income $Y$), which households either consume ($C$) or save ($S$):
+  $$\\mathbf{AS \\equiv Y = C + S}$$
+- On a Keynesian cross diagram (Output vs Income), the $AS$ curve is plotted as a **$45^\\circ$ line through the origin**, because at every point on this line, planned aggregate expenditure equals aggregate output and income ($AS = Y$).
+
+### 2. Classical vs Keynesian Aggregate Supply Curves
+| Dimension | Classical AS Curve (Long-Run AS) | Keynesian AS Curve (Short-Run AS) |
+|---|---|---|
+| **Shape** | **Strictly Vertical** at full employment output ($Y^*$). | **Horizontal / Flat** (or highly elastic) during recessions/depressions; slopes upward only near capacity. |
+| **Wage & Price Assumption** | **Perfect Price & Wage Flexibility**: Prices and wages adjust instantaneously to clear all markets. | **Wage & Price Rigidity (Sticky Wages)**: Workers resist nominal wage cuts; excess capacity and unutilized factories exist. |
+| **Impact of Shift in AD** | Shifting $AD$ to the right **increases ONLY the price level ($P$)** without expanding real output ($Y$). | Shifting $AD$ to the right **increases real output ($Y$) and employment** without causing demand-pull inflation! |
+
+### 3. Deflationary Gap vs Inflationary Gap
+- **Deflationary Gap (Recessionary Gap / Deficient Demand):**
+  - Occurs when equilibrium Aggregate Demand ($AD$) is **below** the aggregate supply required for full employment ($AD < AS_{\\text{full}}$).
+  - Generates involuntary unemployment, unsold inventories, and economic recession.
+  - **Policy Remedy:** Expansionary Fiscal Policy ($\\Delta G > 0$, $\\Delta T < 0$) to shift $AD$ rightward and close the gap.
+- **Inflationary Gap (Excess Demand):**
+  - Occurs when Aggregate Demand exceeds aggregate output capacity at full employment ($AD > AS_{\\text{full}}$).
+  - Because physical output cannot expand beyond full employment potential, the excess purchasing power drives up prices, causing **Demand-Pull Inflation**.
+  - **Policy Remedy:** Contractionary Fiscal Policy ($\\Delta G < 0$, $\\Delta T > 0$) to drain excess aggregate demand.
+
+### 4. Fiscal Policy Stances Matrix
+\`\`\`
+                             FISCAL POLICY STANCES
+                                       │
+         ┌─────────────────────────────┴─────────────────────────────┐
+         ▼                                                           ▼
+1. EXPANSIONARY FISCAL POLICY                               2. CONTRACTIONARY FISCAL POLICY
+(Eliminating Deflationary Gaps & Unemployment)              (Eliminating Inflationary Gaps & Overheating)
+• Instruments:                                              • Instruments:
+  - Increase Government Spending ($\\Delta G > 0$)             - Decrease Government Spending ($\\Delta G < 0$)
+  - Decrease Tax Rates ($\\Delta T < 0$)                       - Increase Tax Rates ($\\Delta T > 0$)
+  - Expand Direct Benefit Transfers                           - Rationalize subsidies and cut wasteful outlays
+• Impact on AD: Shifts AD curve to the **RIGHT**            • Impact on AD: Shifts AD curve to the **LEFT**
+• Macro Effects: Output $\\uparrow$, Employment $\\uparrow$,  • Macro Effects: Inflation $\\downarrow$, Deficit $\\downarrow$,
+  Fiscal Deficit $\\uparrow$, Bond Yields $\\uparrow$           Bond Yields $\\downarrow$, Growth moderates
+\`\`\``,
         order: 2,
       },
       {
@@ -3121,7 +3161,7 @@ export const BATCH_E4_CONCEPTS: CanonicalConceptDefinition[] = [
       {
         type: 'EXAM_APPLICATION',
         title: 'Exam Traps & Multi-Exam Crosswalks',
-        body: '### Critical Examiner Traps\n- **Trap 1: Automatic Stabilizers vs Discretionary Policy**: Discretionary policy requires an **explicit new legislative decision** (e.g., passing the 2019 Corporate Tax cut). Automatic stabilizers operate **automatically through existing permanent laws** (e.g., progressive tax slabs and MGNREGA).\n- **Trap 2: Fiscal Policy Lags**: Fiscal policy has a **long Implementation/Legislative lag** (takes months for Parliament to pass budgets) but a **short Impact lag** once cash is disbursed. Monetary policy is the opposite: **short implementation lag** (MPC meets in 3 days) but a **long impact lag** (takes 12–18 months for interest rate cuts to transmit through banks!).\n- **Trap 3: Pro-Cyclical vs Counter-Cyclical**: Counter-cyclical policy goes **against the cycle** (spends more during recessions). Pro-cyclical policy worsens the cycle (cutting spending during a recession because tax revenues fell).\n\n### Cross-Exam Focus\n- **RBI Grade B & SEBI Grade A**: Policy lags comparison (Fiscal vs Monetary), Automatic stabilizers, and countercyclical fiscal policy.\n- **SBI/IBPS PO & RPSC RAS**: Definitions of Expansionary vs Contractionary policy, MGNREGA as an automatic stabilizer, and fiscal drag.',
+        body: '### Critical Examiner Traps\n- **Trap 1: Automatic Stabilizers vs Discretionary Policy**: Discretionary policy requires an **explicit new legislative decision** (e.g., passing the 2019 Corporate Tax cut). Automatic stabilizers operate **automatically through existing permanent laws** (e.g., progressive tax slabs and MGNREGA).\n- **Trap 2: Fiscal Policy Lags**: Fiscal policy has a **long Implementation/Legislative lag** (takes months for Parliament to pass budgets) but a **short Impact lag** once cash is disbursed. Monetary policy is the opposite: **short implementation lag** (MPC meets in 3 days) but a **long impact lag** (takes 12–18 months for interest rate cuts to transmit through banks!).\n- **Trap 3: Pro-Cyclical vs Counter-Cyclical**: Counter-cyclical policy goes **against the cycle** (spends more during recessions). Pro-cyclical policy worsens the cycle (cutting spending during a recession because tax revenues fell).\n- **Trap 4: Deflationary Gap vs Deficit**: A Deflationary Gap is a shortfall in **Aggregate Demand below full-employment output**; a Fiscal Deficit is an excess of **Government Expenditure over Revenue**. Do not confuse the two!\n- **Trap 5: The 45-degree Line Identity**: On a Keynesian cross diagram, the $45^\\circ$ line represents $AS = Y = C + S$. At any point on this line, planned aggregate expenditure equals aggregate income.\n\n### Cross-Exam Focus\n- **RBI Grade B & SEBI Grade A**: Policy lags comparison (Fiscal vs Monetary), Automatic stabilizers, Deflationary/Inflationary gaps, and countercyclical fiscal policy.\n- **SBI/IBPS PO & RPSC RAS**: Definitions of Expansionary vs Contractionary policy, 45-degree line, MGNREGA as an automatic stabilizer, and fiscal drag.',
         order: 4,
       },
     ],
@@ -3287,14 +3327,67 @@ export const BATCH_E4_CONCEPTS: CanonicalConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Why Spending Multiplies: The Chain Reaction of the Government Rupee',
-        body: 'Suppose the government spends ₹100 to hire a worker to pave a road.\n\n- The road worker earns ₹100. If her Marginal Propensity to Consume ($MPC$) is $0.80$ ($80\\%$), she spends ₹80 at the local grocery store and saves ₹20.\n- The grocer now has ₹80 of new income. He spends $80\\%$ of it (₹64) on clothes and saves ₹16.\n- The tailor now has ₹64 of new income. He spends $80\\%$ of it (₹51.20) at a restaurant.\n\nThis chain reaction continues indefinitely! The original ₹100 government spending generated total economic output of:\n$$\\text{Total } \\Delta Y = 100 + 80 + 64 + 51.20 + \\dots = \\frac{100}{1 - 0.80} = \\frac{100}{0.20} = ₹500$$\n\nA ₹100 injection generated **₹500 of national GDP** (Multiplier $= 5$)!',
+        title: 'The Keynesian Consumption Function, Multiplier & The Paradox of Thrift',
+        body: `### 1. The Keynesian Consumption & Saving Functions
+Keynes demonstrated that private consumption expenditure is primarily a function of disposable income:
+* **The Linear Consumption Function:**
+  $$\\mathbf{C = \\bar{C} + cY}$$
+  - $\\mathbf{\\bar{C} > 0}$ (**Autonomous Consumption**): Baseline survival expenditure that occurs even when income is zero ($Y = 0$), financed by dissaving (drawing down past savings) or borrowing.
+  - $\\mathbf{c = MPC = \\frac{\\Delta C}{\\Delta Y}}$ (**Marginal Propensity to Consume**): The proportion of additional income that is spent on consumption ($0 < MPC < 1$).
+  - $\\mathbf{APC = \\frac{C}{Y}}$ (**Average Propensity to Consume**): The ratio of total consumption to total income. Note that as income $Y$ rises, $APC$ continuously declines because $\\bar{C}/Y$ shrinks.
+* **The Linear Saving Function:**
+  $$\\mathbf{S = Y - C = -\\bar{C} + (1 - c)Y = -\\bar{C} + sY}$$
+  - $\\mathbf{-\\bar{C}}$: Dissaving at zero income.
+  - $\\mathbf{s = MPS = \\frac{\\Delta S}{\\Delta Y} = 1 - c}$ (**Marginal Propensity to Save**): The fraction of an extra rupee saved.
+  - $\\mathbf{APS = \\frac{S}{Y}}$ (**Average Propensity to Save**): Can be negative at low income levels where $C > Y$.
+
+### 2. The Universal Propensity Identities
+$$\\mathbf{APC + APS = 1} \\qquad \\left(\\because \\frac{C}{Y} + \\frac{S}{Y} = \\frac{Y}{Y} = 1\\right)$$
+$$\\mathbf{MPC + MPS = 1} \\qquad \\left(\\because \\frac{\\Delta C}{\\Delta Y} + \\frac{\\Delta S}{\\Delta Y} = \\frac{\\Delta Y}{\\Delta Y} = 1\\right)$$
+
+### 3. Investment Multiplier ($k$) & The Chain Reaction
+Suppose the government or private sector makes an **Autonomous Investment injection** ($\\Delta I$) of ₹100 into building a highway.
+- The road worker earns ₹100. If her $MPC = 0.80$ ($MPS = 0.20$), she spends ₹80 on groceries and saves ₹20.
+- The grocer earns ₹80 of new income, spends $80\\%$ (₹64) on clothing, and saves ₹16.
+- The tailor earns ₹64 of new income, spends $80\\%$ (₹51.20) at a café, and saves ₹12.80.
+
+$$\\mathbf{k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS}} = \\frac{1}{0.20} = \\mathbf{5}$$
+A ₹100 investment injection expands national GDP by **₹500**!
+
+### 4. The Paradox of Thrift (Keynesian Fallacy of Composition)
+- If a single household decides to save more, its individual financial security rises.
+- But if **ALL households across the nation simultaneously attempt to save more** (i.e. $MPS \\uparrow$, $MPC \\downarrow$):
+  1. Collective consumption ($C$) plunges.
+  2. Aggregate Demand collapses, triggering unsold inventories.
+  3. Firms cut output, lay off workers, and national equilibrium income ($Y$) drops precipitously.
+  4. Because total income shrank, total realized savings across the economy ($S = s \\times Y$) **remains unchanged or even declines**!
+  5. What is virtue for the individual becomes economic ruin for the collective!`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Three Keynesian Multipliers: Mathematical Derivation',
-        body: 'The mathematical formulas and derivations:\n\n```\n                             THE THREE KEYNESIAN MULTIPLIERS\n                                            │\n┌───────────────────────────────────────────┼───────────────────────────────────────────┐\n▼                                           ▼                                           ▼\n1. GOVERNMENT SPENDING MULTIPLIER           2. TAX MULTIPLIER                           3. BALANCED-BUDGET MULTIPLIER\n• Formula:                                  • Formula:                                  • Formula:\n  k_G = \\frac{\\Delta Y}{\\Delta G}             k_T = \\frac{\\Delta Y}{\\Delta T}             k_{BB} = k_G + k_T\n      = \\frac{1}{1 - MPC}                         = \\frac{-MPC}{1 - MPC}                      = \\frac{1 - MPC}{1 - MPC} = 1\n• Why it is larger:                         • Why it is smaller:                        • Meaning:\n  100% of the government spending             If tax is cut by ₹100, households           If govt spends ₹100 Cr AND\n  directly enters Aggregate Demand            SAVE part of it (e.g. ₹20). Only            taxes ₹100 Cr simultaneously,\n  in the very first round!                    ₹80 enters the spending chain!              GDP expands by EXACTLY ₹100 Cr!\n```',
+        title: 'The Keynesian Multipliers & Investment Taxonomy: Mathematical Framework',
+        body: `The comprehensive mathematical suite of Keynesian determination of income:
+
+### 1. Investment Taxonomy: Autonomous vs Induced
+* **Autonomous Investment ($\\bar{I}$):** Independent of the level of national income ($Y$). It is policy-driven, infrastructure-focused (e.g. government highways, green energy transition), and represented as a flat horizontal line on the income-expenditure graph.
+* **Induced Investment:** Positively correlated with national income and corporate profits. As GDP expands, capacity utilization rises, inducing firms to buy more plant and machinery.
+
+### 2. The Suite of Multipliers
+\`\`\`
+                             KEYNESIAN MULTIPLIER TAXONOMY
+                                            │
+┌───────────────────────────┬───────────────┴───────────────┬───────────────────────────┐
+▼                           ▼                               ▼                           ▼
+1. INVESTMENT MULTIPLIER    2. GOVT SPENDING MULTIPLIER     3. TAX MULTIPLIER           4. BALANCED-BUDGET
+• Formula:                  • Formula:                      • Formula:                  • Formula:
+  k_I = \\frac{\\Delta Y}{\\Delta I}   k_G = \\frac{\\Delta Y}{\\Delta G}     k_T = \\frac{\\Delta Y}{\\Delta T}     k_{BB} = k_G + k_T
+      = \\frac{1}{1 - MPC}        = \\frac{1}{1 - MPC}             = \\frac{-MPC}{1 - MPC}          = \\frac{1 - MPC}{1 - MPC} = 1
+      = \\frac{1}{MPS}            = \\frac{1}{MPS}
+• Range: [1, \\infty)        • Magnitude: k_G = |k_T| + 1    • Smaller because initial   • Simultaneous equal
+• Max when MPC -> 1         • 100% of injection enters      tax relief partially leaks  $\\Delta G = \\Delta T$ expands GDP
+• Min = 1 when MPC = 0        Aggregate Demand in round 1    into savings in round 1!    by EXACTLY $\\Delta G$!
+\`\`\``,
         order: 2,
       },
       {
@@ -3306,7 +3399,17 @@ export const BATCH_E4_CONCEPTS: CanonicalConceptDefinition[] = [
       {
         type: 'EXAM_APPLICATION',
         title: 'Exam Traps & Multi-Exam Crosswalks',
-        body: '### Critical Examiner Traps\n- **Trap 1: Spending Multiplier vs Tax Multiplier**: The spending multiplier is ALWAYS larger than the tax multiplier by exactly 1 ($k_G - |k_T| = 1$). A ₹1,000 Crore spending hike stimulates more GDP than a ₹1,000 Crore tax cut!\n- **Trap 2: Balanced-Budget Multiplier Value**: The Balanced-Budget Multiplier ($k_{BB}$) is **ALWAYS equal to 1 (unity)**. (It is NOT zero!).\n- **Trap 3: MPC vs MPS in Multiplier**: Multiplier $= \\frac{1}{1 - MPC} = \\frac{1}{MPS}$. As Marginal Propensity to Save ($MPS$) increases, the multiplier becomes **smaller** (because more money leaks out of the spending stream into savings).\n- **Trap 4: Fiscal Dominance Definition**: Fiscal dominance means fiscal debt forces monetary policy to subordinate its inflation goal to sovereign debt servicing.\n\n### Cross-Exam Focus\n- **RBI Grade B & SEBI Grade A**: Multiplier numerical calculations, Balanced budget theorem, and Sargent-Wallace Fiscal Dominance arithmetic.\n- **SBI/IBPS PO & RPSC RAS**: Multiplier formulas ($1/(1-MPC)$), and 2-mark definitions of Balanced Budget Multiplier.',
+        body: `### Critical Examiner Traps
+- **Trap 1: Spending Multiplier vs Tax Multiplier**: The spending multiplier is ALWAYS larger than the tax multiplier by exactly 1 ($k_G - |k_T| = 1$). A ₹1,000 Crore spending hike stimulates more GDP than a ₹1,000 Crore tax cut!
+- **Trap 2: Balanced-Budget Multiplier Value**: The Balanced-Budget Multiplier ($k_{BB}$) is **ALWAYS equal to 1 (unity)**. (It is NOT zero!).
+- **Trap 3: MPC vs MPS in Multiplier**: Multiplier $= \\frac{1}{1 - MPC} = \\frac{1}{MPS}$. As Marginal Propensity to Save ($MPS$) increases, the multiplier becomes **smaller** (because more money leaks out of the spending stream into savings).
+- **Trap 4: APC Can Exceed 1, but MPC Cannot**: At very low income levels (or zero income), households dissave ($C > Y$), which means $APC = C/Y > 1$ and $APS = S/Y < 0$. However, $MPC$ and $MPS$ can NEVER be greater than 1 or less than 0 under standard Keynesian theory ($0 < MPC < 1$).
+- **Trap 5: Paradox of Thrift Core Insight**: Increasing the propensity to save ($MPS$) does NOT increase total equilibrium savings in a closed economy without induced investment; it lowers equilibrium income ($Y$) until savings equals autonomous investment ($S = I$).
+- **Trap 6: Fiscal Dominance Definition**: Fiscal dominance means fiscal debt forces monetary policy to subordinate its inflation goal to sovereign debt servicing.
+
+### Cross-Exam Focus
+- **RBI Grade B & SEBI Grade A**: Multiplier numerical calculations, APC/APS identities, Paradox of Thrift, Balanced budget theorem, and Sargent-Wallace Fiscal Dominance arithmetic.
+- **SBI/IBPS PO & RPSC RAS**: Multiplier formulas ($1/(1-MPC)$), Autonomous vs Induced investment, and 2-mark definitions of Balanced Budget Multiplier and Paradox of Thrift.`,
         order: 4,
       },
     ],
