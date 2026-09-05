@@ -15,12 +15,43 @@ export const MODERN_HISTORY_PART1_CONCEPTS: ModernHistoryConceptDef[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'From Fortified Warehouses to Imperial Mastery: The Crucible of the Coromandel',
-        body: `During the seventeenth and early eighteenth centuries, European companies came to the Indian subcontinent not as imperial conquerors, but as commercial chartered monopolists eager to purchase fine cottons, calicos, silk, saltpetre, and spices. The Portuguese had pioneered the oceanic route under Vasco da Gama (1498) and established a naval talassocracy through Francisco de Almeida's *Blue Water Policy* and Afonso de Albuquerque's capture of Goa (1510). The Dutch East India Company (*VOC*) established trading factories along the Coromandel coast and Bengal, but gradually redirected its core naval focus toward the Spice Islands of Indonesia after the Battle of Bedara (1759) and the Amboyna Massacre (1623).
+        title: 'From Fortified Warehouses to Imperial Mastery: Colonial Historiography & The Crucible of Trade',
+        body: `### 1. Historiography, Periodisation & The Colonial Archival State (NCERT Class 8 Foundations)
+How we understand modern Indian history depends critically on how the period was written, surveyed, and archived:
+* **The Problem of Colonial Periodisation (James Mill, 1817):**
+  - In *A History of British India* (1817), Scottish utilitarian philosopher **James Mill** divided Indian history into three communal periods: **Hindu, Muslim, and British**.
+  - Mill represented an orientalist prejudice: he claimed all Asian societies were at an inferior level of civilization compared to Europe, depicting pre-British India as steeped in religious taboos, caste tyranny, and superstitious darkness. Mill asserted that British conquest was essential to civilize India through European manners, institutions, and laws.
+  - **Modern Historiographical Critique:** Indian historians completely reject Mill's periodisation. It is fundamentally flawed because it characterized an entire era solely by the **religion of its rulers**, ignoring the vast religious pluralism of ordinary people and falsely implying that other faiths had no significance.
+* **Ancient-Medieval-Modern vs The "Colonial" Period:**
+  - Historians conventionally borrow the Western tripartite division: **Ancient, Medieval, and Modern**.
+  - In Western historiography, "Modern" signifies the rise of science, reason, democracy, individual liberty, and equality.
+  - However, in India under British subjugation, people had **no equality, freedom, or liberty**, nor was there genuine economic progress or industrialization. Consequently, nationalist and modern historians designate this period strictly as the **Colonial Period**.
+* **The Colonial Archival State & The Culture of Recording:**
+  - The British brought an obsessive bureaucratic conviction: **administration must produce records**. Every instruction, policy, agreement, and investigation had to be clearly written down, copied, and preserved.
+  - The British established specialized **Record Rooms** attached to every administrative organ: the Village Tahsildar's office, Collectorate, Commissioner's office, provincial Secretariats, and Law Courts.
+  - Institutions like the **National Archives of India (NAI)** and the **National Museum** were constructed in New Delhi directly adjacent to the Viceregal Palace (Rashtrapati Bhavan), signifying that archival documentation was central to imperial governance.
+* **Surveys & Decennial Census as Instruments of Control:**
+  - Believing that a country had to be properly known before it could be effectively administered, the British carried out extensive **Revenue Surveys** in villages (mapping topography, soil quality, flora, fauna, and cropping patterns).
+  - From the late nineteenth century, **Census operations** were conducted every ten years (systematic decennial census began in **1881**, following the first non-synchronous count in **1872**), meticulously classifying population by religion, caste, and occupation.
+* **Limitations of Official Records:** Official colonial records present exclusively what British bureaucrats thought, were interested in, and wished to preserve. They systematically obscure the experiences, distress, and protests of peasants, tribals, artisanal workers, and women. Reconstructing subaltern history requires reading against the imperial grain using indigenous vernacular pamphlets, folk songs, travelogues, and personal diaries.
 
-By the 1740s, the struggle for subcontinental maritime and commercial supremacy narrowed down to a duel between two European superpowers: Great Britain (the English East India Company, chartered in 1600) and France (the *Compagnie des Indes Orientales*, chartered under Jean-Baptiste Colbert in 1664). 
+---
 
-The catalyst that transformed peaceful commercial competitors into territorial warlords was the political disintegration of South India following the death of Mughal Emperor Aurangzeb (1707) and Nizam-ul-Mulk of Hyderabad (1748). Joseph François Dupleix, the ambitious French Governor-General of Pondicherry, recognized that the undisciplined, massive armies of Indian regional rulers could easily be routed by small, disciplined European infantry battalions armed with modern flintlock muskets and rapid-firing field artillery. By actively interfering in local dynastic succession disputes, European trading companies discovered they could manufacture puppet kings, extract vast territorial tax grants, and fund their commerce using Indian revenues.`,
+### 2. European Commercial Arrival & Early Bengal Footprint
+During the 17th and early 18th centuries, European chartered monopolists arrived solely to purchase fine Indian cottons, silks, calicos, saltpetre, and spices (pepper, cloves, cardamom, cinnamon):
+* **Early European Pioneers:**
+  - **Portuguese:** Vasco da Gama discovered the oceanic sea-route via Cape of Good Hope to Calicut (1498); established naval base at Goa (1510 under Albuquerque).
+  - **Dutch (VOC):** Focused on Coromandel and Bengal before pivoting toward the Spice Islands of Indonesia (Battle of Bedara 1759).
+  - **English East India Company (EIC):** Received a Royal Charter from **Queen Elizabeth I on December 31, 1600**, granting a 15-year monopoly on English trade with the East.
+* **First English Factory in Bengal (Hugli, 1651):**
+  - In **1651**, the first English factory in Bengal was set up on the banks of the **Hugli river**.
+  - The factory had a warehouse where goods for export were stored, and offices where Company merchants (known as **"factors"**) operated.
+* **Aurangzeb's Farman & The Abuse of Duty-Free Trade:**
+  - Mughal Emperor Aurangzeb issued a royal *farman* granting the Company the right to trade duty-free in Bengal.
+  - However, Company officials continuously conducted **illicit private trade** alongside official corporate trade, refusing to pay provincial customs duties. This caused enormous revenue loss to the Nawabs of Bengal and planted the seeds for the confrontation at Plassey.
+* **The Origin of Calcutta (1698):**
+  - The Company bribed Mughal officials to purchase the *zamindari* rights of three villages in 1698—**Kalikata, Sutanuti, and Govindpur**.
+  - Kalikata subsequently grew into the imperial metropolis of **Calcutta**, protected by the fortified headquarters of **Fort William**.`,
         order: 1,
         visibility: 'PUBLIC',
       },
@@ -73,19 +104,23 @@ $$\\mathbf{Dynastic\\ Intervention} \\implies \\mathbf{Deploy\\ Subsidiary\\ Sep
         title: 'Examiner Traps, Chronological Sequences & Decisive Distinctions',
         body: `### High-Frequency Traps & Chronological Sequences
 
-1. **The Recall of Dupleix vs The Execution of Lally:**
+1. **James Mill's Periodisation Trap:**
+   * *Trap:* Assuming James Mill divided Indian history into Ancient, Medieval, and Modern.
+   * *Fact:* James Mill (1817) divided Indian history into **Hindu, Muslim, and British** periods based strictly on the religion of rulers—a communal framing heavily rejected by modern historians.
+
+2. **Official Archives vs Subaltern Reality:**
+   * *Trap:* Believing British official records (Collectorate diaries, survey reports) provide an objective record of Indian society.
+   * *Fact:* Official archives reflect only what colonial authorities recorded for taxation and security; they conceal peasant and tribal discontent, which must be reconstructed through vernacular pamphlets, folk songs, and oral traditions.
+
+3. **First English Factory in Bengal:**
+   * *Trap:* Thinking the first English factory in Bengal was set up in Calcutta.
+   * *Fact:* It was set up on the river **Hugli in 1651**. Calcutta was founded later in **1698** by combining three villages (Kalikata, Sutanuti, Govindpur).
+
+4. **The Recall of Dupleix vs The Execution of Lally:**
    * *Trap:* Believing Dupleix was recalled after the French defeat at Wandiwash.
    * *Fact:* Dupleix was recalled in **1754** (during the Second Carnatic War) because the French directors wanted an immediate commercial peace and feared expenditure. Count de Lally was the commander during the Third Carnatic War (Battle of Wandiwash 1760); Lally was subsequently tried in Paris and executed in 1766.
 
-2. **Battle of St. Thome (1746) vs Battle of Wandiwash (1760):**
-   * *Battle of St. Thome (Adyar, 1746):* Fought between the **French (Captain Paradis)** and the **Nawab of Carnatic (Mahfuz Khan / Anwar-ud-din)**. English were not direct battlefield combatants.
-   * *Battle of Wandiwash (1760):* Direct combat between **Sir Eyre Coote (English)** and **Count de Lally / Marquis de Bussy (French)**.
-
-3. **Battle of Bedara / Chinsurah (1759):**
-   * *Trap:* Assuming Bedara was an Anglo-French battle.
-   * *Fact:* The Battle of Bedara (November 1759) was fought between the **English and the Dutch (VOC)** in Bengal, eliminating Dutch political power in India.
-
-4. **Treaty Chronology Sequence (Essential for Prelims):**
+5. **Treaty Chronology Sequence (Essential for Prelims):**
    $$\\mathbf{1748} \\text{ (Treaty of Aix-la-Chapelle)} \\implies \\mathbf{1754} \\text{ (Treaty of Pondicherry)} \\implies \\mathbf{1763} \\text{ (Treaty of Paris)}$$`,
         order: 4,
         visibility: 'PUBLIC',
@@ -315,7 +350,24 @@ The separation of revenue collection from governmental responsibility generated 
 2. **Artificial Scarcity & Grain Monopolization:** Private British merchants and their Indian agents (*Gomasthas*) cornered local rice stocks, hoarding grain to sell at astronomical black-market profits.
 3. **The Catastrophic Toll:** Between 1769 and 1770, **one-third of Bengal\'s population (an estimated 10 million people)** perished from starvation and epidemic disease.
 4. **Fiscal Cynicism:** In his official report to the Court of Directors in London, Governor **Warren Hastings** admitted that despite the starvation of one-third of the inhabitants, **the land revenue collected in 1770–71 was actually higher than the revenue of 1768**!
-5. **Abolition (1772):** Recognizing the administrative and economic devastation, the Court of Directors appointed Warren Hastings as Governor in 1772 with orders to abolish the Dual System, dismiss the Naib Diwans (Mohammad Reza Khan and Shitab Rai), and place Bengal under direct Company revenue management.`,
+5. **Abolition of Dual Government (1772):** The Court of Directors appointed Warren Hastings as Governor in 1772 with orders to abolish the Dual System, dismiss the Naib Diwans (Mohammad Reza Khan and Shitab Rai), and place Bengal under direct Company management.
+
+---
+
+### Setting up a New Administration (NCERT Class 8 Framework): Judicial Plan of 1772 & The Collectorate
+From 1772, Warren Hastings laid the institutional scaffolding of the colonial state:
+* **The 1772 District Judicial System:** Each district was provided with two distinct courts:
+  1. **Diwani Adalat (Civil Court):** Presided over directly by the **European District Collector**. Hindu Pandits and Muslim Maulvis attended the court to interpret customary personal laws (inheritance, marriage, caste).
+  2. **Faujdari Adalat (Criminal Court):** Presided over by traditional Indian judicial officials—a **Qazi** (Muslim judge) and a **Mufti** (Muslim jurist who expounds the law)—but placed under the direct supervision and veto of the British Collector.
+* **Codification of Laws (Halhed's Gentoo Code, 1776):**
+  - Because different Brahman pandits gave conflicting interpretations of local Dharmashastra texts, 11 pandits were commissioned in 1775 to compile a unified digest of Hindu laws.
+  - **Nathaniel Brassey Halhed** translated this Sanskrit compilation into English in **1776** as ***A Code of Gentoo Laws***. A parallel code of Muslim laws was compiled by 1778.
+* **The Regulating Act of 1773:**
+  - Upgraded the Governor of Bengal to the **Governor-General of Bengal** (Warren Hastings was the first).
+  - Established a **Supreme Court at Calcutta (1774)** with Sir Elijah Impey as first Chief Justice, alongside a superior court of appeal—the **Sadar Nizamat Adalat**.
+* **The Collectorate as the New Seat of Power:**
+  - The **Collector** became the principal executive in the district: primary responsibility was to collect revenue and maintain law and order with the aid of judges, police superintendents, and *darogas*.
+  - The **Collectorate** completely supplanted the traditional aristocratic durbars, becoming the unchallenged center of provincial administrative patronage.`,
         order: 3,
         visibility: 'PUBLIC',
       },
@@ -328,18 +380,22 @@ The separation of revenue collection from governmental responsibility generated 
    * *Trap:* Assuming Plassey was the battle that gave the Company the Diwani rights.
    * *Fact:* Plassey (1757) only installed Mir Jafar as puppet ruler and granted the 24 Parganas Zamindari. The **Diwani rights of Bengal, Bihar, and Orissa** were granted only after Buxar (1764) via the **Treaty of Allahabad (1765)**.
 
-2. **The Parties to the Treaty of Allahabad (1765):**
+2. **The 1772 District Courts Architecture (Diwani vs Faujdari):**
+   * *Trap:* Thinking Europeans presided over criminal courts in 1772.
+   * *Fact:* In the 1772 Judicial Plan, the **Diwani Adalat (Civil)** was presided over by the European Collector, while the **Faujdari Adalat (Criminal)** was presided over by traditional native officials—the **Qazi and Mufti** (though supervised by the Collector).
+
+3. **Halhed's Code of Gentoo Laws (1776):**
+   * *Fact:* Translated by **N.B. Halhed** from a Sanskrit digest prepared by 11 pandits to enable British judges to administer Hindu civil law.
+
+4. **The Parties to the Treaty of Allahabad (1765):**
    * *Trap:* Believing Mir Qasim was a party to the Treaty of Allahabad.
    * *Fact:* Mir Qasim fled the battlefield of Buxar and died in penury in Delhi in 1777. The Treaty of Allahabad was signed by Robert Clive with **Shah Alam II** (Mughal Emperor) and **Shuja-ud-Daulah** (Nawab of Awadh).
 
-3. **Capital Relocation by Mir Qasim:**
-   * Mir Qasim attempted to build military independence by shifting his capital from **Murshidabad to Munger (Monghyr)** in Bihar, setting up an arms and cannon foundry, and training his army on European lines.
+5. **Capital Relocation & Internal Duties by Mir Qasim:**
+   * Mir Qasim shifted his capital from **Murshidabad to Munger (Monghyr)** in Bihar to escape British surveillance, and in 1763 **abolished all internal transit duties** for both Indian and English traders alike, triggering the war.
 
-4. **Abolition of Internal Duties:**
-   * In 1763, Mir Qasim took the radical step of **abolishing all internal transit duties for both Indian and English traders alike**, eliminating the British private traders\' unfair advantage. This directly triggered the hostilities leading to Buxar.
-
-5. **Chronology of Bengal Transformation:**
-   $$\\mathbf{1756} \\text{ (Black Hole)} \\implies \\mathbf{1757} \\text{ (Plassey)} \\implies \\mathbf{1764} \\text{ (Buxar)} \\implies \\mathbf{1765} \\text{ (Allahabad / Dual Govt)} \\implies \\mathbf{1770} \\text{ (Famine)} \\implies \\mathbf{1772} \\text{ (Dual Govt Abolished)}$$`,
+6. **Chronology of Bengal Transformation:**
+   $$\\mathbf{1756} \\text{ (Black Hole)} \\implies \\mathbf{1757} \\text{ (Plassey)} \\implies \\mathbf{1764} \\text{ (Buxar)} \\implies \\mathbf{1765} \\text{ (Allahabad / Dual Govt)} \\implies \\mathbf{1770} \\text{ (Famine)} \\implies \\mathbf{1772} \\text{ (Judicial Plan)} \\implies \\mathbf{1773} \\text{ (Regulating Act)}$$`,
         order: 4,
         visibility: 'PUBLIC',
       },
@@ -550,20 +606,38 @@ The East India Company could never hope to conquer either power in a single conf
       {
         type: 'MECHANISM',
         title: 'Military Modernization vs Structural Disintegration',
-        body: `### Tipu Sultan\'s State-Led Modernization
+        body: `### Tipu Sultan\'s State-Led Modernization & Commercial Embargo (1785)
 Tipu Sultan was among the few 18th-century Indian rulers who recognized that European power was rooted in modern industrial science, global trade, and bureaucratic centralization:
-1. **Military Technology & Rocketry:** Developed iron-cased Mysorean rockets containing propellant that traveled up to 2 km with combustion swords attached. Captured examples at Seringapatam were reverse-engineered by William Congreve into the famous British Congreve rockets.
-2. **State Mercantile Capitalism:** Established the State Commercial Corporation (*Mulakat-ut-Tujjar*) with 30 state trading depots within Mysore and foreign trading factories in Muscat (Oman), Jeddah (Red Sea), and Basra. He introduced sericulture (silkworm farming) to Mysore, built naval dockyards at Jamalabad and Mangalore, and banned the export of raw timber.
-3. **International Ideological Diplomacy:** Established a **Jacobin Club** in Seringapatam (1797), planted the **Tree of Liberty**, and styled himself as *Citoyen Tipu* (Citizen Tipu) to forge a strategic alliance with the French Republic against Britain.
+1. **The 1785 Malabar Trade Embargo:** In 1785, Tipu struck a direct blow at British commerce by **banning the export of lucrative spices (pepper, cardamom) and sandalwood** through the ports of his kingdom, and strictly prohibited local merchants from trading with the East India Company.
+2. **Military Technology & Rocketry:** Developed iron-cased Mysorean war rockets containing propellant that traveled up to 2 km with combustion swords attached. Captured examples at Seringapatam were reverse-engineered by William Congreve into the famous British Congreve rockets.
+3. **State Mercantile Capitalism:** Established the State Commercial Corporation (*Mulakat-ut-Tujjar*) with 30 state trading depots within Mysore and foreign trading factories in Muscat (Oman), Jeddah (Red Sea), and Basra. He introduced sericulture (silkworm farming) to Mysore, built naval dockyards at Jamalabad and Mangalore, and banned the export of raw timber.
+4. **International Ideological Diplomacy:** Established a **Jacobin Club** in Seringapatam (1797), planted the **Tree of Liberty**, and styled himself as *Citoyen Tipu* (Citizen Tipu) to forge a strategic alliance with the French Republic against Britain.
 
 $$\\mathbf{Internal\\ Factionalism\\ (Scindia\\ vs\\ Holkar)} + \\mathbf{Defection\\ of\\ Mercenaries} + \\mathbf{Loss\\ of\\ Statesmen\\ (Fadnavis)} \\implies \\mathbf{Maratha\\ Collapse}$$
 
 ---
 
-### Structural Reasons for the Maratha Collapse
-1. **Feudal Heterogeneity & Civil War:** The Maratha Confederacy was never a centralized state. When the central authority of the Peshwa weakened, the five ruling families—Peshwa (Poona), Scindia (Gwalior), Holkar (Indore), Bhosle (Nagpur), and Gaekwad (Baroda)—fought murderous fratricidal wars. Yashwantrao Holkar marched on Poona and plundered his own Peshwa\'s capital in 1802.
+### Structural Reasons for the Maratha Collapse & The 5 Confederacy Seats
+1. **Feudal Heterogeneity & Civil War:** The Maratha Confederacy was never a centralized state. When the central authority of the Peshwa weakened, the five ruling houses fought murderous fratricidal wars:
+   - **Peshwa** at **Poona (Pune)**
+   - **Scindia (Sindhia)** at **Gwalior**
+   - **Holkar** at **Indore**
+   - **Gaekwad** at **Baroda**
+   - **Bhonsle** at **Nagpur**
+   Yashwantrao Holkar marched on Poona and plundered his own Peshwa\'s capital in 1802, driving Peshwa Baji Rao II to sign the humiliating Treaty of Bassein with the British.
 2. **Military Tactical Mismatch:** The Marathas abandoned their traditional, highly effective guerrilla cavalry tactics (*Ganimi Kava*) in favor of European-trained linear infantry and heavy artillery, led by mercenary European officers (such as Benoît de Boigne and Pierre Perron). When war broke out, these European officers betrayed the Maratha chiefs, deserting their posts and leaving Maratha battalions leaderless.
-3. **Loss of Great Statesmen:** The deaths of Mahadji Scindia (1794), Peshwa Madhavrao II (1795), and the "Maratha Machiavelli" **Nana Fadnavis (1800)** removed all visionary political direction, leaving power in the hands of the perfidious Peshwa Baji Rao II.`,
+3. **Loss of Great Statesmen:** The deaths of Mahadji Scindia (1794), Peshwa Madhavrao II (1795), and the "Maratha Machiavelli" **Nana Fadnavis (1800)** removed all visionary political direction, leaving power in the hands of the perfidious Peshwa Baji Rao II.
+
+---
+
+### Expansion in the North-West: The Russian Scare, Sindh (1843) & Punjab (1849)
+In the late 1830s, the British East India Company became gripped by imperial paranoia regarding Russian overland expansion toward India through Afghanistan:
+* **The First Anglo-Afghan War (1838–1842):** The Company fought a prolonged, disastrous war to establish a puppet regime (Shah Shuja) in Kabul; though suffering catastrophic losses during the 1842 retreat, the war secured indirect British influence.
+* **Annexation of Sindh (1843):** Under **Sir Charles Napier**, Sindh was annexed in 1843 without legitimate pretext purely to secure the Indus water route and compensate for the Afghan humiliation (famous pun telegram: *"Peccavi"* — *"I have sinned"*).
+* **Conquest of Punjab (1849):**
+  - Maharaja **Ranjit Singh** had built a formidable modernized Sikh army (*Khalsa*) and held the British at bay via the **Treaty of Amritsar (1809)**.
+  - After Ranjit Singh\'s death in **1839**, Court intrigues led to the **First Anglo-Sikh War (1845–1846)** (Treaty of Lahore; Sir Henry Lawrence installed as Resident).
+  - The **Second Anglo-Sikh War (1848–1849)** ended in total Sikh defeat; Governor-General **Lord Dalhousie annexed Punjab in March 1849**, ending Sikh sovereignty.`,
         order: 3,
         visibility: 'PUBLIC',
       },
@@ -577,14 +651,24 @@ $$\\mathbf{Internal\\ Factionalism\\ (Scindia\\ vs\\ Holkar)} + \\mathbf{Defecti
    * *Trap:* Confusing the treaties ending the 1st, 2nd, and 3rd Anglo-Mysore Wars. 
    * Note: The 4th Anglo-Mysore War (1799) had **NO treaty with Tipu**, because Tipu was killed in battle and his state was partitioned!
 
-2. **The Treaty of Salbai (1782) vs Treaty of Bassein (1802):**
+2. **Tipu Sultan's Commercial Sanctions (1785):**
+   * *Fact:* Tipu Sultan stopped the export of sandalwood, pepper, and cardamom through his ports in **1785** and banned local merchants from trading with Company factories.
+
+3. **The 5 Maratha Confederacy Seats (Match-the-Following Favorite):**
+   * Peshwa $\\to$ **Poona**
+   * Scindia $\\to$ **Gwalior**
+   * Holkar $\\to$ **Indore**
+   * Gaekwad $\\to$ **Baroda**
+   * Bhonsle $\\to$ **Nagpur**
+
+4. **North-West Annexations Chronology:**
+   $$\\mathbf{1838–1842} \\text{ (Afghan War)} \\implies \\mathbf{1843} \\text{ (Sindh Annexed)} \\implies \\mathbf{1845–46} \\text{ (1st Sikh War)} \\implies \\mathbf{1848–49} \\text{ (2nd Sikh War / Punjab Annexed)}$$
+
+5. **The Treaty of Salbai (1782) vs Treaty of Bassein (1802):**
    * *Treaty of Salbai (1782):* Ended the **First Anglo-Maratha War**; mediated by Mahadji Scindia; established 20 years of peace; British accepted Madhavrao II as Peshwa.
    * *Treaty of Bassein (1802):* Ended Maratha independence! Signed by **Peshwa Baji Rao II**, who accepted the **Subsidiary Alliance** after being defeated by Yashwantrao Holkar.
 
-3. **Who was the Peshwa during the Third Anglo-Maratha War?**
-   * **Baji Rao II** (son of Raghunath Rao). After the war, his office was abolished, and he was exiled to Bithoor. His adopted son, **Nana Sahib (Dhondu Pant)**, was later denied his pension by Lord Dalhousie, becoming a central leader of the 1857 Revolt!
-
-4. **Cornwallis\'s Famous Quote Trap:**
+6. **Cornwallis\'s Famous Quote Trap:**
    * *"We have effectively crippled our enemy without making our friends too formidable"* refers to the **Treaty of Seringapatam (1792)** after the Third Anglo-Mysore War, where Cornwallis gave the Nizam and Marathas marginal tracts while the EIC took strategic control of Malabar, Dindigul, and Baramahal.`,
         order: 4,
         visibility: 'PUBLIC',
@@ -751,33 +835,48 @@ $$\\mathbf{Internal\\ Factionalism\\ (Scindia\\ vs\\ Holkar)} + \\mathbf{Defecti
     id: 'CON-MOD-04',
     slug: 'subsidiary-alliance-and-doctrine-of-lapse',
     title: 'Imperial Diplomatic Instruments: Lord Wellesley\'s Subsidiary Alliance & Lord Dalhousie\'s Doctrine of Lapse',
-    shortDefinition: 'The institutional mechanics of indirect annexation and territorial absorption: Wellesley\'s Subsidiary Alliance (disbandment of native armies, British resident, subsidy extortion, chronological sequence: Hyderabad 1798, Mysore 1799, Awadh 1801) and Dalhousie\'s Doctrine of Lapse (denial of adopted heirs: Satara 1848, Sambalpur, Jhansi 1853, Nagpur 1854; Awadh annexation 1856 on misgovernance).',
+    shortDefinition: 'The institutional mechanics of indirect annexation, supreme authority, and military dominance: Wellesley\'s Subsidiary Alliance (disbandment of native armies, British resident, subsidy extortion), Hastings\' Doctrine of Paramountcy (supreme British authority over native states; resistance of Rani Channamma of Kitoor & Sangoli Rayanna), Dalhousie\'s Doctrine of Lapse (Satara 1848, Sambalpur 1849, Jhansi 1853, Nagpur 1854; Awadh 1856 on misgovernance), and the structural evolution of the Company\'s Sepoy (Sipahi) Army.',
     difficulty: 'ADVANCED',
     order: 4,
     topicSlug: 'colonial-diplomatic-instruments',
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Velvet Trap and the Legal Guillotine: The Pincers of Colonial Subjugation',
-        body: `How did the British conquer India without maintaining an army of millions of English soldiers? They accomplished this masterstroke through two devastating institutional instruments: **Lord Wellesley\'s Subsidiary Alliance System** (1798–1805) and **Lord Dalhousie\'s Doctrine of Lapse** (1848–1856).
+        title: 'The Velvet Trap, the Claim of Paramountcy, and the Disciplined Musket',
+        body: `How did the British East India Company transform from a maritime trading corporation into the master of an entire subcontinent without maintaining millions of European troops? They accomplished this through three interlocking institutional and military instruments: **Lord Wellesley\'s Subsidiary Alliance System** (1798–1805), **Lord Hastings\' Doctrine of Paramountcy** (1813–1823), and **Lord Dalhousie\'s Doctrine of Lapse** (1848–1856)—all backed by the relentless firepower of the reorganized **Company Sepoy (*Sipahi*) Army**.
 
-The Subsidiary Alliance was an imperial confidence trick. Under the pretext of "protecting" an Indian prince from his neighbors, the British persuaded the ruler to disband his own national army and host a permanent British-commanded mercenary force inside his borders. The prince paid for his own subjugation: if his treasury ran dry, the British confiscated his richest agrarian districts. A British Resident was installed in the capital, steadily usurping all sovereign authority until the native kingdom became a hollow husk.
+The Subsidiary Alliance was an imperial confidence trick. Under the pretext of "protecting" an Indian prince from his neighbors, the British persuaded the ruler to disband his own national army and host a permanent British-commanded mercenary force inside his borders. The prince paid for his own subjugation: if his treasury ran dry, the British confiscated his richest agrarian districts. A British Resident was installed in the capital, steadily usurping sovereign authority.
 
-Fifty years later, when the threat of external rivals had evaporated, Lord Dalhousie unleashed the **Doctrine of Lapse** to directly swallow these hollowed-out protectorates. Exploiting the traditional Hindu practice of childless monarchs adopting male heirs to perform sacred funeral rites, Dalhousie established an arbitrary colonial legal rule: an adopted son could inherit the personal private property of the deceased raja, but the political state itself "lapsed" to the paramount British power. Together, these two mechanisms completed the political map of British India.`,
+Under Lord Hastings, the Company took an even bolder constitutional leap: the **Claim to Paramountcy**. The British declared that Company authority was paramount or supreme, meaning its power was greater than that of all Indian states, thereby asserting the unilateral right to annex or threaten any Indian kingdom. This aggressive arrogance provoked fierce early armed resistance, most famously by **Rani Channamma of Kitoor** (Karnataka) in 1824 and her loyal chowkidar **Sangoli Rayanna**.
+
+Fifty years later, when external rivals were vanquished, Lord Dalhousie unleashed the **Doctrine of Lapse** to directly swallow hollowed-out protectorates. Exploiting the traditional Hindu practice of childless monarchs adopting male heirs, Dalhousie ruled that while an adopted son could inherit personal property, the political state lapsed to the paramount British power. 
+
+Underpinning all these imperial instruments was the **Company Army**: an indigenous mercenary force transformed from traditional feudal cavalry into a disciplined, European-drilled infantry armed with standardized muskets and matchlocks. Yet, by enforcing rigid uniformity while trampling upon Indian religious and caste sensibilities, the Company unwittingly forged the very weapon that would explode against it in 1857.`,
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Two Imperial Instruments: Structural Matrix & Chronologies',
-        body: `### Comparative Structural Architecture
+        title: 'The Imperial Expansion Instruments & Army Evolution Master Matrix',
+        body: `### Comparative Structural Architecture of Imperial Annexation Policies
 
-| Analytical Dimension | The Subsidiary Alliance System (1798–1805) | The Doctrine of Lapse (1848–1856) |
+| Analytical Dimension | The Subsidiary Alliance System (1798–1805) | The Policy of Paramountcy (1813–1823) | The Doctrine of Lapse (1848–1856) |
+| :--- | :--- | :--- | :--- |
+| **Architect & Governor-General** | Formulated into an imperial doctrine by **Lord Wellesley** (foreshadowed by Dupleix and Clive). | Initiated by **Lord Hastings** (Governor-General 1813–1823). | Institutionalized and ruthlessly enforced by **Lord Dalhousie** (1848–1856). |
+| **Operational Mechanism** | Native ruler surrendered external sovereignty; disbanded indigenous army; stationed British subsidiary force; paid cash subsidy or ceded territory; stationed a Resident. | The Company declared its authority **paramount or supreme** over all native states; claimed unilateral legal right to intervene, annex, or depose any ruler to safeguard British interests. | Refused to recognize the political succession rights of adopted sons in childless native royal families; declared the state annexed upon the ruler\'s death without natural male issue. |
+| **Early Resistance / Flashpoint** | Nizam of Hyderabad accepted immediately (1798); Tipu Sultan refused and fell fighting (1799). | **Kitoor Rebellion (1824):** Rani Channamma took up arms when British tried to annex Kitoor (Karnataka); guerrilla resistance continued by **Sangoli Rayanna**. | **Rani Lakshmibai of Jhansi** (denied adopted son Damodar Rao) and **Nana Sahib** (denied Baji Rao II\'s pension). |
+| **Legal Classification of States** | Applied broadly to all sovereign and autonomous regional states across India. | Applied universally: all Indian rulers were declared subordinate to the British Crown / Company authority. | Divided states into **3 rigid tiers**: (1) Sovereign states (free to adopt); (2) Dependent/Tributary states (sanction needed); (3) States created/revived by British grants (adoption barred). |
+
+---
+
+### Evolution of the Company Army: From Mughal Cavalry to Disciplined Sepoy Infantry
+
+| Characteristic | 18th-Century Pre-Colonial Armies (Mughal / Regional) | East India Company Sepoy (*Sipahi*) Army (19th Century) |
 | :--- | :--- | :--- |
-| **Architect & Governor-General** | Formulated into a grand imperial doctrine by **Lord Wellesley** (though originally practiced informally by Dupleix and Clive). | Systematically institutionalized and aggressively enforced by **Lord Dalhousie** (earlier invoked in minor cases by Court of Directors). |
-| **Operational Mechanism** | Native ruler surrendered external sovereignty; disbanded indigenous army; stationed a permanent British subsidiary force; paid cash subsidy or ceded territory; stationed a British Resident; expelled all other Europeans. | Refused to recognize the political succession rights of adopted sons in childless native royal families; declared the state annexed to British paramount territory upon the ruler\'s death without natural male issue. |
-| **Theoretical Justification** | "Mutual defense, military modernization, and protection against external aggression (e.g., French or Maratha threat)." | "Paramountcy doctrine: as the paramount power, Britain must absorb dependent states and substitute progressive European administration for native feudal misrule." |
-| **Legal Classification of States** | Applied broadly to all sovereign and autonomous regional states across India (Hyderabad, Mysore, Awadh, Maratha houses). | Divided states into **3 rigid tiers**: (1) Sovereign/Independent states (free to adopt); (2) Dependent/Tributary states (adoption subject to British sanction); (3) States created or revived by British grants (adoption of political successor strictly barred). |
+| **Dominant Arm** | **Cavalry (*Sowars*)** dominated; armed with swords, lances, and composite bows. Infantry (*Paik*) held secondary status. | **Infantry (*Sepoys/Sipahis*)** became supreme, armed with standardized European flintlock **muskets** and **matchlocks**. |
+| **Training & Drill** | Loose formations; reliance on individual warrior prowess and bravery. | Intense European-style daily drill, strict discipline, synchronized volley firing, and linear formations. |
+| **Social Composition & Caste Policy** | Diverse, decentralized recruitment based on clan and feudal levies. | Heavily recruited from upper-caste peasants (Brahmins and Rajputs of Awadh and Bihar). Cultivated a high-caste ethos. |
+| **The Inherent Conflict** | Armies respected local religious customs, dietary norms, and community taboos. | Imposed uniform military codes and dress, ignoring caste distinctions; ordered overseas service (**General Service Enlistment Act 1856**), breeding deep resentment that erupted in 1857. |
 
 ---
 
@@ -798,8 +897,17 @@ $$\\mathbf{1848} \\text{ (Satara - 1st)} \\implies \\mathbf{1849} \\text{ (Jaitp
       },
       {
         type: 'MECHANISM',
-        title: 'The Mechanics of Internal Ruin & The Awadh Annexation Anomaly',
-        body: `### How the Subsidiary Alliance Decayed Indian States From Within
+        title: 'The Mechanics of Internal Ruin, Paramountcy Resistance & The Awadh Anomaly',
+        body: `### Lord Hastings\' Policy of "Paramountcy" & The Kitoor Resistance (1824)
+Under **Lord Hastings (Governor-General 1813–1823)**, a new aggressive doctrine called **"Paramountcy"** was initiated:
+1. **The Doctrine:** The Company claimed that its authority was paramount or supreme, and hence its powers were superior to those of Indian states. In order to protect its interests, it was justified in annexing or threatening to annex any Indian kingdom.
+2. **The Kitoor Rebellion (1824):** When the British attempted to annex the small princely state of **Kitoor** (in modern Belagavi, Karnataka) after the death of its ruler Shivalinga Rudra Sarja without a natural heir, his widow **Rani Channamma** led an armed anti-British rebellion.
+3. **Capture and Martyrdom:** Rani Channamma routed the initial British assault (killing Collector St. John Thackeray), but was eventually captured in 1824 and imprisoned in Bailhongal Fort, where she died in 1829.
+4. **Sangoli Rayanna\'s Guerilla Struggle:** Following her arrest, **Sangoli Rayanna**, a poor chowkidar from Sangoli in Kitoor, carried on the guerrilla struggle against the British with popular support, destroying British camps and records before being captured and hanged by the British at Nandagad in **1830**.
+
+---
+
+### How the Subsidiary Alliance Decayed Indian States From Within
 1. **Fiscal Strangulation & Disarmament:** The cost of maintaining the British subsidiary force was intentionally inflated. When the ruler defaulted, the British annexed fertile lands (e.g., Wellesley took Rohilkhand and the southern Doab—the "Ceded Districts"—from Awadh in 1801; took Bellary and Cuddapah from Hyderabad in 1800).
 2. **Creation of Irresponsible Despotisms:** Traditionally, an Indian ruler who was tyrannical or incompetent faced rebellion or overthrow by his subjects or nobles. Under the Subsidiary Alliance, British bayonets guaranteed the ruler\'s physical throne. Rulers lost all incentive to govern well, falling into debauchery, administrative negligence, and extortion of the peasantry.
 3. **The Demobilization Crisis:** Disbanding native armies threw hundreds of thousands of traditional soldiers, sowars, and matchlockmen out of employment. Deprived of livelihoods, these disbanded soldiers joined bandit gangs, swelling the ranks of the **Pindaris** and creating social misery across Central India.
@@ -818,23 +926,34 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
       },
       {
         type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Legal Classifications & High-Frequency Errors',
+        title: 'Examiner Traps, Paramountcy vs Lapse & High-Frequency Errors',
         body: `### High-Frequency Traps & Tricky Scenarios
 
-1. **The Awadh Annexation Pretext (Most Repeated Question in Indian Exams):**
+1. **Policy of Paramountcy vs Doctrine of Lapse:**
+   * *Paramountcy:* Initiated by **Lord Hastings** (1813–1823); asserted supreme authority over all Indian states; triggered Rani Channamma\'s 1824 revolt in Kitoor.
+   * *Doctrine of Lapse:* Initiated by **Lord Dalhousie** (1848–1856); disallowed adopted heirs from political inheritance; targeted childless rulers (Satara, Jhansi, Nagpur).
+   * *Trap:* Confusing Lord Hastings (Paramountcy / Maratha destruction) with Warren Hastings (Regulating Act 1773 / 1st Maratha War).
+
+2. **Rani Channamma & Sangoli Rayanna (Modern History NCERT Classic):**
+   * *Rani Channamma:* Led armed resistance against British annexation of **Kitoor** (Karnataka) in 1824; died in prison in 1829.
+   * *Sangoli Rayanna:* Continued the resistance as a guerrilla fighter; executed in 1830.
+   * *Examiner Trap:* Misidentifying Kitoor with Kittur or confusing Rani Channamma with Rani Lakshmibai or Rani Chennamma of Keladi.
+
+3. **Transformation of Company Armies (Muskets vs Cavalry):**
+   * Pre-colonial armies were dominated by **cavalry (*sowars*)**; the British shifted primacy to **infantry armed with muskets and matchlocks**.
+   * Standardized drill created uniform behavior but rode roughshod over caste and community feelings, which combined with the **Enfield rifle greased cartridge** issue in 1857.
+
+4. **The Awadh Annexation Pretext (Most Repeated Question in Indian Exams):**
    * *Question:* "Under which policy was Awadh annexed by Lord Dalhousie in 1856?"
    * *Trap Option:* Doctrine of Lapse.
    * *Correct Option:* **Alleged Misgovernance / Maladministration (*Kuprashasan*)**.
 
-2. **First Signatories & Annexations:**
-   * *First Signatory of Subsidiary Alliance:* **Nizam of Hyderabad (1798)**. (Note: Dupleix initiated the concept; Clive made a subsidiary treaty with Awadh in 1765; but the formal Subsidiary Alliance System of Wellesley was first signed by Hyderabad in 1798).
-   * *First State Annexed under Doctrine of Lapse:* **Satara (1848)**, where Raja Appa Sahib died without natural male heirs.
+5. **First Signatories & Annexations:**
+   * *First Signatory of Subsidiary Alliance:* **Nizam of Hyderabad (1798)**.
+   * *First State Annexed under Doctrine of Lapse:* **Satara (1848)**.
 
-3. **Nana Sahib and the Doctrine of Lapse:**
-   * **Dhondu Pant (Nana Sahib)** was the adopted son of the deposed Peshwa Baji Rao II. Dalhousie refused to continue paying Baji Rao II\'s annual pension of ₹8 Lakh to Nana Sahib on the grounds that the pension was personal to the Peshwa and could not be inherited by an adopted heir. This directly motivated Nana Sahib to lead the uprising at Kanpur in 1857.
-
-4. **Abolition of Titles and Pensions by Dalhousie:**
-   * In addition to Lapse, Dalhousie abolished the royal titular dignities of the **Nawab of the Carnatic** (1855) and the **Raja of Tanjore** (1855), and declared that after the death of Mughal Emperor Bahadur Shah II, his successor would have to vacate the Red Fort and renounce the imperial title.`,
+6. **Nana Sahib and the Doctrine of Lapse:**
+   * **Dhondu Pant (Nana Sahib)** was the adopted son of the deposed Peshwa Baji Rao II. Dalhousie refused to continue paying Baji Rao II\'s annual pension of ₹8 Lakh to Nana Sahib on the grounds that the pension was personal to the Peshwa and could not be inherited by an adopted heir. This directly motivated Nana Sahib to lead the uprising at Kanpur in 1857.`,
         order: 4,
         visibility: 'PUBLIC',
       },
@@ -851,6 +970,15 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
       },
       {
         id: 'CLM-MOD-04-2',
+        statement: 'Under Lord Hastings (1813–1823), the East India Company asserted the "Policy of Paramountcy", claiming supreme authority over all Indian states; this triggered the 1824 Kitoor rebellion led by Rani Channamma and Sangoli Rayanna.',
+        claimType: 'PARAMOUNTCY_EXPANSION_FACT',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'NCERT_Class8_History#chapter-2',
+        excerpt: 'Under Lord Hastings, Company claimed Paramountcy; led to Rani Channamma taking arms in Kitoor (Karnataka) in 1824 and Rayanna continuing guerrilla resistance until 1830.',
+      },
+      {
+        id: 'CLM-MOD-04-3',
         statement: 'Under Lord Dalhousie\'s Doctrine of Lapse, Satara was the first state annexed in 1848, followed by Sambalpur (1849), Jhansi (1853), and Nagpur (1854).',
         claimType: 'CHRONOLOGICAL_ANNEXATION_FACT',
         epistemicLevel: 'ESTABLISHED_FACT',
@@ -859,7 +987,7 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         excerpt: 'Doctrine of Lapse: Satara annexed 1848, Sambalpur 1849, Jhansi 1853, Nagpur 1854 on denial of adopted heirs.',
       },
       {
-        id: 'CLM-MOD-04-3',
+        id: 'CLM-MOD-04-4',
         statement: 'The Kingdom of Awadh was annexed by Lord Dalhousie in February 1856 on the grounds of chronic misgovernance and administrative failure, rather than the Doctrine of Lapse.',
         claimType: 'POLICY_EXCEPTION_PRECISION',
         epistemicLevel: 'ESTABLISHED_FACT',
@@ -883,7 +1011,7 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5 and 10 mark analytical questions on Dalhousie\'s annexation policy and Wellesley\'s system.',
+        notes: 'Frequent 5 and 10 mark analytical questions on Dalhousie\'s annexation policy, Paramountcy, and Wellesley\'s system.',
       },
       {
         examCode: 'SSC_CGL',
@@ -891,7 +1019,7 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Direct recall MCQs: first state annexed under Lapse (Satara 1848) and first signatory of Subsidiary Alliance (Hyderabad 1798).',
+        notes: 'Direct recall MCQs: first state annexed under Lapse (Satara 1848), first signatory of Subsidiary Alliance (Hyderabad 1798), and Rani Channamma of Kitoor (1824).',
       },
       {
         examCode: 'UPSC_APFC',
@@ -899,7 +1027,7 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
         relevance: 'CORE',
         priority: 'HIGH',
         requiredDepth: 'HISTORICAL_MILESTONES',
-        notes: 'Questions examining Dalhousie\'s modernization (railways, post) versus his aggressive annexations.',
+        notes: 'Questions examining Dalhousie\'s modernization (railways, post) versus his aggressive annexations and sepoy grievances.',
       },
       {
         examCode: 'SBI_PO',
@@ -937,19 +1065,19 @@ $$\\mathbf{National\\ Army\\ Disbanded} \\implies \\mathbf{Exorbitant\\ Garrison
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Diplomatic Annexations: Subsidiary Alliance (Wellesley): Prince disbands army, pays British force, keeps British Resident, cedes foreign policy. Order: Hyderabad (1798, 1st), Mysore (1799), Awadh (1801), Peshwa (1802). Doctrine of Lapse (Dalhousie): Adopted sons cannot inherit political thrones of dependent states. Order: Satara (1848, 1st), Sambalpur (1849), Jhansi (1853), Nagpur (1854). CRUCIAL TRAP: Awadh annexed in 1856 on MISGOVERNANCE (Outram report), NOT Doctrine of Lapse!',
+        content: 'Imperial Expansion Instruments: 1) Subsidiary Alliance (Wellesley 1798): Prince disbands army, pays British force, keeps Resident. Order: Hyderabad (1798), Mysore (1799), Awadh (1801), Peshwa (1802). 2) Paramountcy (Lord Hastings 1813–23): Company claims supreme power; sparks Kitoor revolt (1824, Rani Channamma & Sangoli Rayanna). 3) Doctrine of Lapse (Dalhousie 1848): Barred adopted heirs from sovereignty. Order: Satara (1848), Sambalpur (1849), Jhansi (1853), Nagpur (1854). Awadh annexed 1856 on MISGOVERNANCE!',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Colonial Annexation Mechanisms: 1) Subsidiary Alliance (1798–1805, Lord Wellesley): Disarmed native rulers and stationed British garrisons at native expense. Default led to territorial confiscation. Nizam of Hyderabad signed first in 1798, followed by Mysore (1799), Awadh (1801), and Peshwa (1802). Hollowed out native administration and created unemployed soldier mobs (Pindaris). 2) Doctrine of Lapse (1848–1856, Lord Dalhousie): Denied political succession to adopted heirs of childless rulers in dependent states. Absorbed Satara (1848), Sambalpur (1849), Jhansi (1853), and Nagpur (1854). Awadh was annexed in 1856 on charges of "misgovernance", provoking the sepoy uprising of 1857.',
+        content: 'Colonial Expansion Triad & Military Evolution: 1) Subsidiary Alliance (1798–1805, Wellesley): Extracted cash subsidies and cessions (Ceded Districts) while stationing troops and Residents. 2) Policy of Paramountcy (1813–1823, Lord Hastings): Company asserted its authority was supreme over native rulers; resisted heroically by Rani Channamma of Kitoor (1824) and Sangoli Rayanna. 3) Doctrine of Lapse (1848–1856, Dalhousie): Refused political succession to adopted heirs, annexing Satara, Sambalpur, Jhansi, and Nagpur. Awadh was annexed in 1856 on charges of "misgovernance". 4) Company Army: Transformed from pre-colonial cavalry-heavy forces to disciplined sepoy infantry armed with muskets/matchlocks; rigid European discipline disregarded caste/religious customs, paving the path to 1857.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Imperial Absorption Architecture: 1) Velvet Subjugation: Wellesley\'s Subsidiary Alliance established military protectorates without upfront direct administrative liability; extracted fertile agrarian zones via treaty defaults. 2) Legalistic Confiscation: Dalhousie\'s Lapse eliminated buffer states by overriding customary Hindu adoption law for sovereignty while preserving private property. 3) The 1857 Catalyst: Dispossessed dynasties (Rani Lakshmibai, Nana Sahib) united with the aggrieved Awadh sepoys and dispossessed Taluqdars to detonate the Great Revolt.',
+        content: 'Colonial Hegemony Architecture: 1) Indirect Velvet Subjugation: Wellesley\'s Subsidiary Alliance turned autonomous princely states into demilitarized dependencies. 2) Unilateral Supremacy: Hastings\' Paramountcy established constitutional supremacy over all native states, overriding treaty equality. 3) Territorial Absorption: Dalhousie\'s Lapse eliminated protectorates when direct male line failed. 4) The Sepoy Paradox: Company built its empire on Indian peasant sepoys trained in European musket warfare; but systematic cultural insensitivity turned this military machine into the epicenter of the 1857 Great Rebellion.',
         priority: 'HIGH',
         order: 3,
       },
