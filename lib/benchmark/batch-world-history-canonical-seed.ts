@@ -61,8 +61,8 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
   {
     id: 'CON-WLD-01',
     slug: 'the-roman-empire-principate-senate-pax-romana-and-slave-economy',
-    title: 'The Roman Empire: The Principate, The Senate, Pax Romana & Mediterranean Agrarian Slavery',
-    shortDefinition: 'Classical Mediterranean statecraft: Transition from Roman Republic to Empire under Augustus (27 BCE, the Principate), the tripartite political equilibrium (Emperor, Senate, Army), Pax Romana, Mediterranean maritime trade (amphorae olive oil and wine), slave labor economics, and the 4th-century Christian transformation under Constantine (Constantinople).',
+    title: 'An Empire Across Three Continents: The Roman Principate, Gender & Family Law, Amphorae Commerce, Slave Labor & Late Antiquity',
+    shortDefinition: 'Exhaustive NCERT Class XI Theme 3 synthesis: The geopolitical boundaries of the Roman Empire (Rhine, Danube, Sahara, Euphrates) contrasted with the Iranian Sasanian Empire, the administrative and linguistic division (Latin West vs Greek East), the Augustan Principate (27 BCE) and the tripartite equilibrium (Emperor, Senate, Paid Standing Army), provincial urbanization (Carthage, Alexandria, Antioch), Roman family structures (nuclear family, absolute paternal authority of paterfamilias, unique female financial independence under civil marriage), agrarian capitalism and maritime trade in Dressel 20 olive oil amphorae, slave labor management (slaves as investment, slave breeding, Columella\'s ten-worker gangs), the Third Century Crisis (25 emperors in 47 years, Shapur I capturing Valerian), and the Late Antiquity transformation under Diocletian (Tetrarchy, rural defense) and Constantine (Edict of Milan 313 CE, Constantinople 330 CE, and the 4.5g gold Solidus).',
     difficulty: 'ADVANCED',
     order: 1,
     topicSlug: 'classical-antiquity-and-rome',
@@ -70,152 +70,142 @@ export const WORLD_HISTORY_CONCEPTS: WorldHistoryConceptDef[] = [
       {
         type: 'INTUITION',
         title: 'An Empire Encircling the Inland Sea: The Masterwork of Mediterranean Order',
-        body: `At its height in the 2nd century CE, the **Roman Empire** was a colossal multi-continental superpower stretching from Scotland in the west to the Euphrates River in Iraq, and from the Rhine and Danube rivers in Europe to the Sahara desert in North Africa. The Romans proudly called the Mediterranean Sea ***Mare Nostrum* ("Our Sea")**, for their empire encircled every single kilometer of its coastline.
-
-What made Rome politically unique was its constitutional genius:
-When **Augustus (Octavian)** ended decades of bloody civil wars in **27 BCE**, he established the imperial monarchy known as the **Principate**. But instead of declaring himself an absolute king or god (which Romans historically hated), Augustus cunningly called himself merely the ***Princeps* ("First Citizen")**, maintaining the outward democratic facade of the Roman Senate while secretly monopolizing supreme command of the army.
-
-Supported by a ruthless slave economy and thousands of self-governing Mediterranean cities, the empire sustained two centuries of unprecedented peace known as the **Pax Romana**!`,
+        body: 'At its zenith in the second century CE, the Roman Empire was a colossal multi-continental superpower stretching from Scotland in the northwest to the Euphrates in the east, and from the Rhine and Danube rivers in continental Europe to the Sahara desert in North Africa. The Romans proudly called the Mediterranean Sea ***Mare Nostrum* ("Our Sea")**, for their territory completely encircled every single kilometer of its coastline.\n\nDirectly to Rome\'s east lay its eternal geopolitical rival: **Iran**, ruled by the Parthians and later the Sasanians. While Iran ruled a largely contiguous landmass, Rome was essentially an empire of Mediterranean cities.\n\nWhat made Rome politically and legally extraordinary?\n1. The Constitutional Illusion of the Principate: When Augustus (Octavian) consolidated absolute personal control in 27 BCE, he did not declare himself an absolute autocrat or divine king (titles despised by Romans). Instead, he termed himself the ***Princeps* ("First Citizen")**, preserving the outward democratic facade of the Roman Senate while monopolizing supreme command over the paid standing army.\n2. A Commercial Superpower: Millions of liters of Spanish olive oil and Italian wine traversed Mediterranean sea lanes in ceramic containers called **amphorae** (such as the standardized *Dressel 20*).\n3. Progressive Civil Law: While Roman society rested on brutal slave labor and patriarchal family authority (*paterfamilias*), Roman civil law granted married women remarkable legal autonomy: a Roman daughter did not pass into her husband\'s property regime, retaining independent ownership over inherited family estates!',
         order: 1,
         visibility: 'PUBLIC',
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Triad of Roman Power & Late Antiquity Christianization',
-        body: `### 1. The Tripartite Political Equilibrium of Rome
-1. **The Emperor (*Princeps*):** The supreme military commander and head of state; succession was not strictly hereditary, requiring army loyalty and Senate approval.
-2. **The Senate:** The aristocratic council representing the wealthy landed nobility of Rome and the provinces; a ruler who respected the Senate was hailed as "good" (e.g. Trajan, Marcus Aurelius), while one who executed senators was branded a tyrant (e.g. Nero, Domitian).
-3. **The Standing Professional Army:** A paid, standing army of over 300,000 professional legionaries who served 25-year terms; the army was the ultimate arbiter of royal succession (a king who could not pay bonuses faced mutiny and assassination).
-
----
-
-### 2. Economy & Slavery in the Roman World
-* **The "Amphorae" Trade:** Tens of millions of ceramic vessels (**Amphorae**) carrying Spanish olive oil (Dressel 20) and Italian/Gallic wine were transported across Mediterranean sea lanes.
-* **Slave Labor System:** Slaves were regarded as living tools (*instrumentum vocale*); widespread in Italian vineyards, Spanish silver mines, and aristocratic households; managed via slave-gangs (*catenae*); large-scale manumission allowed freedmen to acquire wealth and citizenship.
-* **Gender & Law:** Roman civil law granted upper-class women remarkable legal autonomy: upon marriage, a Roman woman did not pass into her husband's legal control, retaining property rights inherited from her father!
-
----
-
-### 3. Late Antiquity & The Christian Transformation (4th Century CE)
-* **Emperor Diocletian (284–305 CE):** Abandoned territories of little strategic value; fortified frontiers; created the **Tetrarchy** (rule of four).
-* **Emperor Constantine the Great (306–337 CE):**
-  * **Christianity Legalized (Edict of Milan, 313 CE):** Converted to Christianity and made it the favored state religion.
-  * **Founded Constantinople (330 CE):** Transferred the imperial capital to Byzantium (renamed Constantinople / modern Istanbul), surrounded on three sides by water.
-  * **Monetary Stability:** Introduced the gold coin **Solidus** (4.5 grams pure gold), which remained the stable global currency of the Mediterranean for 800 years!`,
+        title: 'Geopolitical Boundaries, The Triad of Power & Roman Family Law',
+        body: '### 1. Geopolitical Boundaries & Administrative Geography (NCERT Class XI)\n- **Boundaries:**\n  * *North:* Natural frontiers formed by two great rivers: the **Rhine** and the **Danube**.\n  * *South:* The vast barrier of the **Sahara Desert**.\n  * *West:* The **Atlantic Ocean**.\n  * *East:* The **Euphrates River** (separating Rome from the Persian Sasanian Empire).\n- **Linguistic Division:** The Roman Empire was divided culturally into two dominant linguistic spheres:\n  * **The West:** Spoke and wrote in **Latin** (Italy, Gaul/France, Spain, North Africa).\n  * **The East:** Spoke and wrote in **Greek** (Greece, Asia Minor/Turkey, Syria, Egypt).\n  * The imperial administration conducted official state business in these two languages, ignoring regional tongues like Punic, Berber, Celtic, or Coptic.\n- **Urban Network of Governance:** Rome governed not through a bloated centralized bureaucracy, but through an empire-wide network of self-governing urban municipalities (**Carthage, Alexandria, Antioch**). Provincial landed elites collected taxes from their rural hinterlands, remitting revenues to the imperial treasury in exchange for Roman citizenship and entry into the imperial Senate!\n\n---\n\n### 2. The Tripartite Political Equilibrium of Rome\n1. **The Emperor (*Princeps*):** The source of supreme executive and military power; succession was ideological and military rather than strictly primogeniture.\n2. **The Senate:** The aristocratic assembly representing the landed nobility of Rome and the Italian/provincial aristocracy; emperors who respected and consulted the Senate were praised as "good" (e.g., Trajan, Hadrian, Marcus Aurelius), while those who executed senators without trial were vilified as tyrants (e.g., Nero, Caligula, Domitian).\n3. **The Professional Standing Army:** Unlike the conscript armies of Greece or Persia, Rome maintained a permanent, paid professional standing army (>300,000 legionaries, expanding to 600,000 by the 4th century). Soldiers served a mandatory **25-year enlistment**, receiving regular wages and discharge bonuses. The army was the true kingmaker: an emperor who failed to pay accession bonuses faced mutiny and assassination.\n\n---\n\n### 3. Roman Gender, Marriage & Property Law (NCERT Specific Focus)\n- **The Nuclear Family:** The nuclear family was the foundational social unit of Roman society. Adult sons did not live with their parents, and adult brothers rarely lived together.\n- **Absolute Paternal Authority (*Patria Potestas*):** The eldest male head of household—the ***paterfamilias*—wielded absolute legal authority over all family members, including the statutory legal power of life and death over newborn infants.\n- **Female Financial Independence under Roman Civil Law:**\n  * In contrast to Athenian Greek law (where women were perpetual legal minors under male guardians), a Roman woman who married under the customary "free marriage" (*sine manu*) **did not pass into the legal authority (*manus*) of her husband**.\n  * She remained under her father\'s legal house; upon her father\'s death, she became an independent legal owner of her inherited property, free to sell, buy, or bequeath land independently of her husband!\n  * *Divorce:* Was remarkably easy and required nothing more than a formal notice of intent sent by either partner.',
         order: 2,
         visibility: 'PUBLIC',
       },
       {
         type: 'MECHANISM',
-        title: 'The Solidus Monetary Engine & The Third-Century Crisis',
-        body: `### 1. The Crisis of the Third Century (235–284 CE)
-* Within 50 years, Rome witnessed **over 25 emperors assassinated**, simultaneous Germanic barbarian invasions across the Rhine/Danube, and the rise of the aggressive **Sasanian Empire of Persia** (King Shapur I captured Roman Emperor Valerian alive in 260 CE!).
-* Solved only when Diocletian and Constantine restructured the military and created the stable gold *Solidus*.`,
+        title: 'Amphorae Commerce, Slave Labor Economics & The Late Antiquity Transition',
+        body: '### 1. Agrarian Capitalism & The Amphorae Economy (Dressel 20)\n- The Mediterranean was an integrated economic space of high-yield commercial farming: wheat from Egypt and Sicily, olive oil from southern Spain and North Africa, and wine from Campania and Gaul.\n- **Amphorae Containers & Monte Testaccio:** Liquids were shipped across sea lanes in clay jars called **amphorae**. In Rome, an artificial hill named **Monte Testaccio** still stands today, composed of the broken shards of over **50 million ceramic olive oil amphorae**!\n- **Dressel 20 Amphorae:** Standardized globular olive oil containers manufactured along the Guadalquivir River in southern Spain (Baetica). Spanish oil producers undercut Italian producers during the 2nd century CE due to cheaper production costs and superior transport organization.\n\n---\n\n### 2. Slave Labor Management & The Economic Calcification of Slavery\n- Slaves were classified under Roman law as "talking tools" (***instrumentum vocale***), alongside animals (semi-vocal tools) and wagons (mute tools).\n- **Shift from Slave Capture to Slave Breeding:** Under the Republic, continuous wars of foreign expansion flooded Rome with cheap captive slaves. Under the Pax Romana of Augustus, foreign wars ceased; the price of slaves rose dramatically. Landowners shifted to **slave breeding** (encouraging female slaves to bear children who became slave property of the master).\n- **Supervision & Gang Labor (*Catenae*):** Roman agricultural writers like **Columella** recommended dividing slaves into small work gangs of **ten workers** each, arguing that smaller squads were easier to supervise, preventing slacking and covert sabotage.\n\n---\n\n### 3. The Crisis of the Third Century (235–284 CE)\n- After the peaceful 2nd century (the Antonine Golden Age), the 3rd century witnessed systemic collapse:\n  * In 47 years (235–284 CE), Rome had **over 25 emperors assassinated**!\n  * Germanic confederations (Franks, Alamanni, Goths) smashed across the Rhine-Danube frontier, sacking Gaul and Spain.\n  * In the east, the new **Sasanian Empire of Persia** inflicted catastrophic defeats: in 260 CE, King **Shapur I** defeated and captured Roman Emperor **Valerian** alive!\n\n---\n\n### 4. Late Antiquity & Constantine\'s Structural Revolution (4th Century CE)\n- **Emperor Diocletian (284–305 CE):** Cut imperial losses by abandoning indefensible frontiers; fortified borders; separated civilian and military commands; instituted the **Tetrarchy** (rule of four emperors).\n- **Emperor Constantine the Great (306–337 CE):**\n  1. **Founding of Constantinople (330 CE):** Established a new imperial capital at Byzantium (renamed Constantinople, modern Istanbul), surrounded on three sides by water, closer to rich eastern trade routes.\n  2. **Monetary Reform (The Gold Solidus):** Abandoned debased silver coinage and introduced the **Solidus**—a coin containing exactly **4.5 grams of pure gold**. The Solidus was minted in hundreds of millions and remained the stable international currency of the Mediterranean for over eight centuries!\n  3. **Legalization of Christianity (Edict of Milan, 313 CE):** Converted to Christianity and made it the favored state religion, laying the foundation for Christian Europe.',
         order: 3,
         visibility: 'PUBLIC',
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Princeps Meaning & Solidus Specifications',
-        body: `### High-Frequency Traps in Roman History
-
-1. **Princeps Title Trap:**
-   * *Princeps* means **"First Citizen"**, NOT "Absolute Monarch" or "Emperor". Augustus preserved the illusion of the Republic.
-
-2. **Solidus Weight and Metal:**
-   * Introduced by **Constantine**; made of **pure gold** weighing exactly **4.5 grams**.
-
-3. **Mare Nostrum Definition:**
-   * Latin term meaning **"Our Sea"**, applied strictly to the **Mediterranean Sea**.`,
+        type: 'MAP_PERSPECTIVE',
+        title: 'Geopolitical Topology of the Roman Imperium Across Three Continents',
+        body: 'Geographical Coordinates of the Roman Mediterranean World (*Mare Nostrum*):\n\n       [Scotland / Hadrian\'s Wall] (Northwest Perimeter)\n                    |\n       ============== [Rhine River] ======== [Danube River] ============= (Frontier)\n       [Gaul / France]      [Rome / Monte Testaccio]       [Balkans / Moesia]\n       (Wine, Textiles)     (Imperial Capital)             (Danubian Legions)\n              \\                       |                       /\n               \\                      |                      /\n   [Spain / Baetica] =====> [MEDITERRANEAN SEA] <===== [Byzantium / Constantinople]\n   (Dressel 20 Olive Oil)     (*Mare Nostrum*)          (Capital 330 CE; Bosporus)\n              /                       |                      \\\n             /                        |                       \\\n   [North Africa / Carthage]   [Egypt / Alexandria]     [Syria / Antioch] ===> [Euphrates]\n   (Wheat, Olive Oil)          (Grain Basket, Papyrus)  (Silk Road Trade)           |\n       ======================== [Sahara Desert] =============================   [Sasanian Iran]\n                               (Southern Perimeter)                            (Shapur I / Ctesiphon)',
         order: 4,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_APPLICATION',
+        title: 'Examiner Traps, Key Invariants & Standard Answer Frameworks',
+        body: '### 1. High-Frequency Traps in Roman History\n- **The Principate vs. Monarchy Trap:** Augustus called himself ***Princeps* ("First Citizen")**, deliberately avoiding titles like *Rex* (King) or *Dictator* to mask imperial monarchy under Republican traditions.\n- **Roman Female Property Independence (UPSC Trap!):** In civil marriage, a Roman woman did NOT pass into her husband\'s legal control; she remained her father\'s legal subject and inherited family property in her own right, retaining independent wealth upon divorce.\n- **Solidus Specifications:** Introduced by **Constantine** (NOT Augustus, NOT Diocletian!); composed of **4.5 grams of pure gold**.\n- **Monte Testaccio:** An artificial mound in Rome composed of over 50 million discarded **Dressel 20 olive oil amphorae** imported from southern Spain.\n- **Third Century Crisis Emperors:** Over **25 emperors** ruled in 47 years (235–284 CE), showing severe military instability before Diocletian restored order.\n\n---\n\n### 2. RPSC RAS Mains Answer Framework (10 Marks / 100 Words)\n**Q: Evaluate the political and economic structure of the Roman Empire during the Principate.**\n- **Structure:**\n  * *Introduction (15 words):* Established by Augustus in 27 BCE, the Principate unified Europe, North Africa, and the Middle East around the Mediterranean (*Mare Nostrum*).\n  * *Political Triad (45 words):* Governed through a delicate equilibrium: the Emperor (*Princeps*), the aristocratic Senate (representing wealthy landed elites), and a 300,000-strong paid professional standing army serving 25-year terms. Governance was decentralized through self-administering city municipalities (Carthage, Alexandria, Antioch).\n  * *Economic & Social Base (30 words):* High-yield agrarian trade in grain, wine, and Spanish olive oil transported in standardized amphorae (Dressel 20); supported by institutionalized slave labor and progressive civil property rights for women.\n  * *Conclusion (10 words):* Sustained two centuries of imperial peace (*Pax Romana*) before fracturing in the Third Century crisis.',
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
     claims: [
       {
         id: 'CLM-WLD-01-1',
-        statement: 'Augustus founded the Roman Empire in 27 BCE through the regime known as the Principate, ruling as Princeps (First Citizen) while balancing power between the Senate and the standing army.',
+        statement: 'In 27 BCE, Augustus established the Roman imperial monarchy termed the Principate, ruling not as an absolute monarch but as Princeps (First Citizen) to preserve the traditional constitutional fiction of the Roman Senate.',
         claimType: 'POLITICAL_FOUNDATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-2',
-        excerpt: 'An Empire Across Three Continents: The Roman Empire, Augustus, Principate 27 BCE, Senate, standing army.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 3: An Empire Across Three Continents, Section 1: The Early Empire, pp. 58-61',
+        excerpt: 'The regime established by Augustus, the first emperor, in 27 BCE was called the "Principate". Although Augustus was the sole ruler and the only real source of authority, the fiction was kept alive that he was actually only the "leading citizen" (Princeps in Latin), not the absolute ruler. This was done out of respect for the Senate.',
       },
       {
         id: 'CLM-WLD-01-2',
-        statement: 'Roman trade transported millions of liters of wine and olive oil in ceramic amphorae across the Mediterranean (Mare Nostrum), sustained by institutionalized slave labor.',
-        claimType: 'ECONOMIC_STRUCTURE',
+        statement: 'Roman civil law under customary marriage allowed adult married women to retain ownership and disposal rights over their inherited property independent of their husbands, representing a unique degree of legal autonomy in the ancient Mediterranean world.',
+        claimType: 'GENDER_AND_LEGAL_AUTONOMY',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-2',
-        excerpt: 'Roman Economy: Amphorae trade, Spanish olive oil Dressel 20, slave labor system.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 3: An Empire Across Three Continents, Section 2: Gender, Literacy, Culture, pp. 62-64',
+        excerpt: 'The wife did not transfer to her husband\'s authority but retained full rights in the property of her natal family. While the woman\'s dowry went to the husband for the duration of the marriage, the woman remained a primary heir of her father and became an independent property owner on her father\'s death. In respect of law, the married couple was not one financial entity but two, and the wife enjoyed complete legal independence.',
       },
       {
         id: 'CLM-WLD-01-3',
-        statement: 'Emperor Constantine adopted Christianity, founded Constantinople as the new capital in 330 CE, and introduced the pure gold Solidus coin (4.5 grams) providing monetary stability for centuries.',
+        statement: 'Roman Mediterranean commerce transported tens of millions of liters of olive oil in standardized ceramic jars known as Dressel 20 amphorae, produced primarily in southern Spain along the Guadalquivir River, as evidenced by the Monte Testaccio mound in Rome.',
+        claimType: 'COMMERCIAL_AMPHORAE_TRADE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 3: An Empire Across Three Continents, Section 3: Economic Expansion, pp. 64-66',
+        excerpt: 'Liquids like wine and olive oil were transported in containers called "amphorae". The fragments and sherds of a very large number of these survive (Monte Testaccio in Rome is said to contain the remnants of over 50 million vessels!)... Spanish producers succeeded in capturing markets for olive oil from their Italian counterparts. This would only have happened if Spanish producers supplied a better quality oil at lower prices. The Spanish olive oil of this period was mainly carried in a container called that "Dressel 20".',
+      },
+      {
+        id: 'CLM-WLD-01-4',
+        statement: 'Under the Pax Romana, Roman agriculturalists shifted from captive foreign slaves to slave-breeding to replenish rural labor, with agrarian manuals like Columella recommending the organization of slaves into supervised work gangs of ten laborers.',
+        claimType: 'SLAVE_LABOR_MANAGEMENT',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 3: An Empire Across Three Continents, Section 4: Controlling Workers, pp. 66-68',
+        excerpt: 'As peace was established in the first century, the supply of slaves tended to decline and the users of slave labour thus had to turn either to slave breeding... Agrarian writers advised on the management of labour. Columella recommended that workers should be grouped into squads of ten (decadiae), because it was easier to tell who was putting in work and who was not.',
+      },
+      {
+        id: 'CLM-WLD-01-5',
+        statement: 'In the fourth century CE, Emperor Constantine revolutionized the Mediterranean economy by introducing the pure gold Solidus coin weighing 4.5 grams, established Constantinople as the imperial capital in 330 CE, and made Christianity the favored state religion.',
         claimType: 'MONETARY_AND_RELIGIOUS_TRANSFORMATION',
         epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-2',
-        excerpt: 'Late Antiquity: Constantine, Edict of Milan 313 CE, Constantinople founded 330 CE, gold Solidus.',
+        confidence: 'ABSOLUTE',
+        locator: 'NCERT Class XI Themes in World History, Theme 3: An Empire Across Three Continents, Section 6: Late Antiquity, pp. 71-73',
+        excerpt: 'Constantine consolidated some of these changes and added others of his own. His chief innovations were in the monetary sphere, where he introduced a new denomination, the solidus, a coin of 4.5 gm of pure gold that would in fact outlast the Roman empire itself... His other great innovation was the creation of a second capital at Constantinople... Christianity was made the official religion.',
       },
     ],
     examMappings: [
       {
         examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — World History / Classical Civilizations & State Formations',
+        syllabusUnit: 'GS Paper I — World History / Classical Mediterranean Civilizations: Roman Principate, Economy, Gender Law & Christian Transformation',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_CONCEPTUAL_ANALYSIS',
-        notes: 'Roman administrative structures and comparison with Maurya/Gupta empires frequently examined.',
+        requiredDepth: 'EXHAUSTIVE_HISTORIOGRAPHICAL_ANALYSIS',
+        notes: 'Perennial analytical questions comparing Roman legal property rights of women vs other ancient societies, the mechanics of slave labor, and monetary stability of the gold Solidus.',
       },
       {
         examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — World History / Classical Civilizations',
+        syllabusUnit: 'Mains Paper I (History & Culture) — Unit I: World History / Classical Civilizations: The Roman Empire and Its Administration',
         relevance: 'CORE',
         priority: 'VERY_HIGH',
         requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark question on the Pax Romana or Constantine\'s reforms.',
+        notes: 'High-frequency 2-mark terms (Principate, Dressel 20, Solidus, Paterfamilias, Columella), 5-mark short notes (Roman women\'s legal status, Third Century crisis), and 10-mark full essays on Roman administrative architecture.',
       },
       {
         examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — World History',
+        syllabusUnit: 'General Awareness — World History & Ancient Rome',
         relevance: 'CORE',
         priority: 'HIGH',
         requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on first Roman Emperor (Augustus) and Constantinople founder (Constantine).',
+        notes: 'Direct MCQs on first Roman Emperor (Augustus), year of Principate (27 BCE), weight and metal of Solidus (4.5g gold), and founder of Constantinople (Constantine, 330 CE).',
       },
       {
         examCode: 'UPSC_APFC',
-        syllabusUnit: 'General Studies — World History Landmarks',
-        relevance: 'SUPPORTING',
+        syllabusUnit: 'General Studies — Evolution of Legal Institutions, Civil Law & Ancient Currencies',
+        relevance: 'CORE',
         priority: 'MEDIUM',
         requiredDepth: 'HISTORICAL_FOUNDATIONS',
-        notes: 'Tested on monetary history and trade routes.',
+        notes: 'Roots of civil property codes, female estate inheritance precedents, and gold standard currency anchors.',
       },
       {
         examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Global Milestones',
+        syllabusUnit: 'General Awareness — Global Historical Milestones',
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        notes: 'Historical awareness of early global standard currencies (Solidus).',
       },
       {
         examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — World History',
+        syllabusUnit: 'General Awareness — Ancient World History',
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'General static awareness.',
+        notes: 'General static awareness of Roman classical civilization.',
       },
       {
         examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Global Economic History',
+        syllabusUnit: 'General Awareness — Monetary History & Long-Term Currency Invariants',
         relevance: 'SUPPORTING',
         priority: 'MEDIUM',
         requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 questions on historical trade routes and currencies.',
+        notes: 'Historical monetary anchors: the transition from debased silver denarii to the gold Solidus.',
       },
       {
         examCode: 'IIBF_DBF',
@@ -223,69 +213,71 @@ Supported by a ruthless slave economy and thousands of self-governing Mediterran
         relevance: 'SUPPORTING',
         priority: 'LOW',
         requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Early global currencies (Solidus).',
+        notes: 'Origins of standardized commodity containers (amphorae) and international coinage.',
       },
     ],
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Rome: Republic -> Empire (27 BCE, Augustus, Principate, Princeps = First Citizen). Triad = Emperor + Senate + 300k Standing Army. Economy = Amphorae (Dressel 20 olive oil/wine), slave labor (instrumentum vocale), high female legal autonomy. Constantine: Legalized Christianity (313 CE), capital to Constantinople (330 CE), pure gold Solidus (4.5g). Mare Nostrum = Mediterranean.',
+        content: 'Rome Essentials: 1) Regime: 27 BCE Augustus founded Principate (Princeps = First Citizen; masked monarchy to appease Senate). 2) Triad: Emperor + Senate + 300k Paid Standing Army (25-yr service). 3) Gender: Nuclear family; paterfamilias had life/death power; wives kept natal property & had independent wealth. 4) Commerce: Olive oil in Dressel 20 amphorae (Spain Baetica -> Monte Testaccio in Rome). 5) Labor: Columella recommended 10-slave gangs; shift to slave breeding. 6) 4th Century: Constantine introduced 4.5g gold Solidus, legalized Christianity (313 CE), capital to Constantinople (330 CE).',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'The Roman Empire Blueprint: 1) Political Balance: Augustus created the Principate (27 BCE) masking monarchy under the title Princeps; governed via equilibrium between Emperor, aristocratic Senate, and professional army. 2) Socio-Economic Base: Mediterranean maritime trade centered on Spanish oil and Gallic wine in amphorae; relied on slave labor; Roman women enjoyed independent property rights. 3) Late Antiquity: Constantine established Constantinople (330 CE), adopted Christianity, and introduced the gold Solidus coin, transitioning Rome toward the Byzantine era.',
+        content: 'An Empire Across Three Continents Blueprint (NCERT Class XI): 1) Boundaries & Cities: Encircled the Mediterranean (Mare Nostrum) bounded by Rhine, Danube, Sahara, and Euphrates; governed through self-ruling urban municipalities (Carthage, Alexandria, Antioch) divided into Latin West and Greek East. 2) The Principate: Augustus masked autocratic monarchy under the title Princeps (First Citizen) to appease the senatorial aristocracy, ruling via a 300,000-man professional paid standing army. 3) Family & Gender Law: Nuclear families predominated under the legal authority of the paterfamilias; uniquely, married women did not pass into their husband\'s ownership, retaining full independent property rights. 4) Commercial Agrarian Capitalism: Millions of liters of Spanish olive oil traversed the sea in standardized Dressel 20 amphorae (discarded at Monte Testaccio); rural labor relied on supervised 10-worker slave squads and slave breeding. 5) Late Antiquity Transformation: Overcoming the catastrophic 3rd-century crisis (25 emperors in 47 years and Sasanian invasions), Constantine established Constantinople (330 CE), adopted Christianity, and introduced the 4.5g gold Solidus coin, anchoring Mediterranean commerce for 800 years.',
         priority: 'HIGH',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Roman Imperial Architecture: 1) Maritime Urban Integration: Coastal cities linked by Mediterranean maritime lanes rather than costly overland haulage. 2) Civic Co-optation: Integrating provincial elites into the Senate to eliminate rebellion. 3) Monetary Stability: The 4.5g gold Solidus serving as an invariant store of value amidst structural barbarian invasions.',
+        content: 'Roman Imperial Governance & Legal Architecture:\n1) The Tripartite Power Condominium: Political stability required balancing the autocratic military imperium of the Princeps, the aristocratic legitimacy of the Senate, and the fiscal satisfaction of the paid standing army through regular donatives.\n2) Civil Property Autonomy vs Social Subjugation: The Roman legal framework maintained a stark duality: absolute subjugation of the unfree under chattel slavery (instrumentum vocale) juxtaposed against sophisticated legal personhood for elite married women, who operated as autonomous economic agents with independent estate ownership.\n3) Monetary Anchoring of Late Antiquity: While the western provinces collapsed under barbarian migration, the eastern Mediterranean survived for a millennium because Constantine\'s gold Solidus (4.5g pure gold) eliminated inflationary debasement, providing an invariant store of value for imperial taxation and bureaucratic statecraft.',
         priority: 'HIGH',
         order: 3,
       },
     ],
     questions: [
       {
-        type: 'ROME_MCQ',
-        stem: 'In the political architecture of the Roman Empire founded by Augustus in 27 BCE, what did the term "Principate" designate?',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'With reference to the legal and social status of married women in the Roman Empire as recorded in NCERT historical texts, which of the following statements is strictly correct?',
         options: [
-          'A hereditary absolute military dictatorship where the Senate was completely abolished',
-          'The constitutional regime where the Emperor ruled as "Princeps" (First Citizen), maintaining the outward legal facade of the Republic and Senate',
-          'A decentralized confederation of autonomous Greek city-states',
-          'The rule of four co-emperors established to divide imperial territory'
+          'A Roman woman upon marriage passed completely into the legal ownership and property control of her husband',
+          'A Roman woman retained full legal rights in the property of her natal family, becoming an independent property owner on her father\'s death, and could divorce with simple notification',
+          'Roman civil law strictly prohibited married women from owning or inheriting agricultural land under any circumstances',
+          'Only women who served as priestesses of Vesta had independent property rights, while all other women were legal minors'
         ],
-        correctAnswer: 'The constitutional regime where the Emperor ruled as "Princeps" (First Citizen), maintaining the outward legal facade of the Republic and Senate',
-        explanation: 'The Principate was the system of imperial monarchy established by Augustus in 27 BCE. Recognizing that Romans abhorred kingship, Augustus ruled not as a king, but as Princeps (leading or first citizen), preserving the traditional Republican magistracies and the Senate while retaining actual supreme command.',
-        trapExplanation: 'Option D describes the Tetrarchy of Diocletian (293 CE); Option A is factually wrong because Augustus meticulously preserved the Senate.',
+        correctAnswer: 'A Roman woman retained full legal rights in the property of her natal family, becoming an independent property owner on her father\'s death, and could divorce with simple notification',
+        explanation: 'According to NCERT Class XI Theme 3, under Roman civil law, a married woman did not pass into her husband\'s authority. She remained under her father\'s legal house, became an independent property owner on her father\'s death, and the married couple was treated as two separate financial entities, giving Roman women remarkable property rights compared to other ancient societies.',
+        trapExplanation: 'Candidates assume ancient societies universally treated wives as property of husbands; Rome had unique legal separation of husband-wife property.',
         difficulty: 'INTERMEDIATE',
         isPYQ: true,
         pyqYear: 2021,
         pyqPaper: 'UPSC CSE Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact nature of the Augustan Principate vs open autocracy.',
+        examinerTrapPattern: 'Inversion of Roman female property independence into conventional patriarchal subservience.',
       },
       {
-        type: 'ROME_MCQ',
-        stem: 'Which Roman Emperor introduced the famous gold coin known as the "Solidus" (weighing 4.5 grams of pure gold) and transferred the capital of the empire to Byzantium in 330 CE?',
-        options: ['Julius Caesar', 'Augustus', 'Trajan', 'Constantine the Great'],
-        correctAnswer: 'Constantine the Great',
-        explanation: 'Emperor Constantine the Great (reigned 306–337 CE) fundamentally reformed the Roman economy by introducing the Solidus (4.5 grams of pure gold), which remained the standard international currency for centuries, and founded the new imperial capital of Constantinople on the site of ancient Byzantium in 330 CE.',
-        trapExplanation: 'Augustus founded the empire; Diocletian introduced the Tetrarchy; Constantine created the Solidus and Constantinople.',
+        type: 'NCERT_HIST_MCQ',
+        stem: 'What was "Dressel 20", tens of millions of shards of which have been discovered by archaeologists at the artificial mound of Monte Testaccio in Rome?',
+        options: [
+          'A bronze coin issued by Emperor Diocletian during the Third Century Crisis',
+          'A standardized ceramic container (amphora) used for transporting olive oil produced in southern Spain',
+          'A military siege weapon utilized by Roman legions on the Rhine-Danube frontier',
+          'A legal scroll recording the 25-year service contracts of Roman legionaries'
+        ],
+        correctAnswer: 'A standardized ceramic container (amphora) used for transporting olive oil produced in southern Spain',
+        explanation: 'According to NCERT Class XI Theme 3, "Dressel 20" was a standardized globular ceramic amphora used for transporting olive oil produced along the Guadalquivir River in southern Spain (Baetica). Monte Testaccio in Rome is an artificial hill composed of the fragments of over 50 million such amphorae.',
+        trapExplanation: 'Dressel 20 is strictly a ceramic amphora container for olive oil, named after archaeologist Heinrich Dressel.',
         difficulty: 'EASY',
         isPYQ: true,
         pyqYear: 2022,
         pyqPaper: 'RPSC RAS Prelims',
         pyqStage: 'Prelims',
-        examinerTrapPattern: 'Reforms of Constantine (Solidus and Constantinople).',
+        examinerTrapPattern: 'Identification of Dressel 20 as an olive oil transport amphora.',
       },
     ],
   },
 
-  // =========================================================================
-  // TOPIC 2: Nomadic Empires & The Mongol World System
-  // =========================================================================
   {
     id: 'CON-WLD-02',
     slug: 'nomadic-empires-genghis-khan-yasa-and-yam-courier-system',
