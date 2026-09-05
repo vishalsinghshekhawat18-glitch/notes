@@ -487,247 +487,205 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 3: Sultanate Agrarian Reforms & Tughlaq Administrative Experiments
   // =========================================================================
   {
-    id: 'CON-MED-03',
-    slug: 'alauddin-khalji-market-reforms-and-muhammad-bin-tughlaq-experiments',
-    title: 'Sultanate Economic & Military Modernization: Alauddin Khalji\'s Market Control Regulations & Muhammad bin Tughlaq\'s Imperial Innovations',
-    shortDefinition: 'Radical economic and administrative modernization under the Delhi Sultanate: Alauddin Khalji\'s market control apparatus (Shahna-i-Mandi, Diwan-i-Riyasat, fixed price schedules), Dag & Chehra military reforms, and Muhammad bin Tughlaq\'s visionary experimental projects (Daulatabad capital transfer, copper/brass token currency, Khurasan expedition, and Diwan-i-Kohi agricultural loan department).',
-    difficulty: 'ADVANCED',
-    order: 3,
-    topicSlug: 'delhi-sultanate-governance-and-institutions',
-    contentBlocks: [
+    "id": "CON-MED-03",
+    "slug": "alauddin-khalji-market-reforms-and-muhammad-bin-tughlaq-experiments",
+    "title": "Sultanate Economic & Military Modernization: Alauddin Khalji's Market Control Regulations & Muhammad bin Tughlaq's Imperial Innovations",
+    "shortDefinition": "Exhaustive NCERT Class VII Chapter 3 (*The Delhi Sultans*) synthesis: Radical economic, administrative, and agrarian modernization under the Delhi Sultanate: Alauddin Khalji's (1296–1316 CE) market control apparatus (Shahna-i-Mandi, Diwan-i-Riyasat, fixed tariff schedules across four specialized Delhi markets, eradication of hoarding, cash army pay of 234 tankas/year), the Dag (branding of cavalry mounts) and Chehra/Huliya (descriptive soldier rolls) military muster systems; and Muhammad bin Tughlaq's (1325–1351 CE) visionary experimental projects (taxation in the Doab during famine, capital transfer to Daulatabad 1327 CE, token bronze and copper currency 1329–30 CE, Khurasan and Qarachil frontier expeditions, and the institutional creation of the Diwan-i-Kohi agricultural development ministry advancing Sondhar/Taccavi loans).",
+    "difficulty": "ADVANCED",
+    "order": 3,
+    "topicSlug": "delhi-sultanate-governance-and-institutions",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'The Price Controller and the Misunderstood Visionary',
-        body: `During the late 13th and early 14th centuries, the Delhi Sultanate confronted unprecedented geopolitical transformations.
-
-First, **Alauddin Khalji (1296–1316 CE)** faced an immense mathematical dilemma: to crush relentless Mongol invasions (who repeatedly laid siege to Delhi itself) and simultaneously conquer the wealthy kingdoms of the Deccan and Rajasthan (Chittor, Ranthambore, Devagiri), he required a massive, permanent **standing army (*Hashm-i-Qalb*)**. But paying market salaries to hundreds of thousands of soldiers would exhaust the royal treasury within years.
-Alauddin's brilliant solution was not to pay soldiers more, but to **artificially force down the cost of living** through the world's first comprehensive state-enforced **Price Control System**!
-
-Decades later, **Muhammad bin Tughlaq (1325–1351 CE)**—one of the most learned scholars of astronomy, mathematics, medicine, and philosophy ever to sit on the Delhi throne—confronted an empire that had expanded to encompass almost the entire subcontinent. Recognizing that a vast subcontinental empire could not be administered from Delhi, he attempted bold structural reforms: **transferring the capital to Daulatabad**, replacing scarce silver coins with **token bronze currency**, and creating an agricultural ministry. However, while his conceptual ideas were centuries ahead of their time, their clumsy execution earned him the unfair historical label of the "Mad King".`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "The Price Controller and the Misunderstood Visionary",
+        "body": "During the late 13th and early 14th centuries, the Delhi Sultanate confronted unprecedented geopolitical transformations.\n\nFirst, **Alauddin Khalji (1296–1316 CE)** faced an immense mathematical dilemma: to crush relentless Mongol invasions (who repeatedly laid siege to Delhi itself) and simultaneously conquer the wealthy kingdoms of the Deccan and Rajasthan (Chittor, Ranthambore, Devagiri), he required a massive, permanent **standing army (*Hashm-i-Qalb*)**. But paying market salaries to hundreds of thousands of soldiers would exhaust the royal treasury within years.\nAlauddin's brilliant solution was not to pay soldiers more, but to **artificially force down the cost of living** through the world's first comprehensive state-enforced **Price Control System**!\n\nDecades later, **Muhammad bin Tughlaq (1325–1351 CE)**—one of the most learned scholars of astronomy, mathematics, medicine, and philosophy ever to sit on the Delhi throne—confronted an empire that had expanded to encompass almost the entire subcontinent. Recognizing that a vast subcontinental empire could not be administered from Delhi, he attempted bold structural reforms: **transferring the capital to Daulatabad**, replacing scarce silver coins with **token bronze currency**, and creating an agricultural ministry. However, while his conceptual ideas were centuries ahead of their time, their clumsy execution earned him the unfair historical label of the \"Mad King\".",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Alauddin Khalji\'s Market Regulations & Tughlaq\'s 5 Projects Matrix',
-        body: `### 1. Alauddin Khalji\'s Market Control System (Detailed by Ziauddin Barani)
-Alauddin established four distinct centralized markets in Delhi, each strictly regulated:
-1. **Central Grain Market (*Mandi*):** Food grains sold strictly at government-fixed tariff rates. Hoarding was criminalized; peasants in the Doab were forced to pay 50% land tax (*Kharaj*) in kind to maintain vast state buffer granaries.
-2. **Cloth & Luxury Goods Market (*Sarai Adl*):** All imported textiles, silks, sugar, herbs, and oil were sold here.
-3. **Slaves and Cattle Market:** Price of horses, bullocks, and enslaved captives fixed by quality grade, eliminating middlemen (*Dallals*).
-4. **General Commodities Market.**
-
-### The Administrative Enforcement Machinery
-* **Diwan-i-Riyasat:** Ministry of commerce and economic regulation headed by Malik Yaqub.
-* **Shahna-i-Mandi:** Market superintendent who maintained the register of authorized merchants, monitored weights, and brutally punished shortfalls by cutting an equivalent weight of flesh from the merchant's body.
-* **Munhiyan:** Secret child intelligence agents deployed by the Sultan to buy sweets and check weights.
-
-### Alauddin's Military Innovations
-* **Cash Salaries:** Soldiers paid fixed cash salaries (234 *tankas* per year for a single-horse trooper; additional 78 *tankas* for a two-horse trooper).
-* **Dag (Branding of Horses):** Imperial seal branded on cavalry mounts to prevent troopers from presenting borrowed or substandard horses during muster.
-* **Chehra / Huliya (Descriptive Rolls):** Detailed physical description of each soldier recorded in imperial registers to prevent proxy impersonation.
-
----
-
-### 2. Muhammad bin Tughlaq's (1325–1351 CE) 5 Legendary Experimental Projects
-
-| Project | Rational Strategic Objective | Flawed Implementation / Reality | Historiographical Outcome & Legacy |
-| :--- | :--- | :--- | :--- |
-| **1. Taxation in the Doab (1326)** | Increase revenue from the most fertile agricultural region to fund imperial defense. | Assessment coincided with a catastrophic famine and drought; peasants revolted and fled into jungles. | Heavy agrarian distress; later compensated by distributing relief loans (*Sondhar / Taccavi*). |
-| **2. Transfer of Capital to Daulatabad (1327)** | Relocate administrative hub to **Devagiri (renamed Daulatabad)** in Maharashtra to centrally govern South India and escape Mongol raids. | Entire population of Delhi forcibly marched 1,500 km in summer heat; immense loss of life. | Vulnerability of North India exposed; within 2 years, the court marched back to Delhi. |
-| **3. Token Currency Experiment (1329–30)** | Introduce copper and brass coins on par with silver *Tanka* to overcome global silver scarcity (modeled on Kublai Khan's paper currency in China). | Royal mint had no secret watermark/seal; every citizen's house became a private mint, churning out forged brass coins. | Silver fled the market; foreign trade collapsed; Sultan redeemed all brass coins with genuine royal silver, emptying the treasury. |
-| **4. Khurasan & Qarachil Expeditions** | Intervene in Persian geopolitics and secure Himalayan frontier against Chinese/Mongol raids. | Khurasan army paid 1 year advance salary, then disbanded; Qarachil army perished in Himalayan rains and guerrilla warfare. | Heavy drain on imperial prestige and military treasury. |
-| **5. Agricultural Department (*Diwan-i-Kohi*)** | Reclaim fallow land and promote crop rotation through direct state-sponsored agricultural loans. | Corrupt officials misspent funds; stony infertile tracts chosen; project failed after spending 70 lakh *tankas*. | Pioneered modern agricultural credit (*Taccavi*) institutional models. |`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "Alauddin Khalji's Market Regulations & Tughlaq's 5 Projects Matrix",
+        "body": "### 1. Alauddin Khalji's Market Control System (Detailed by Ziauddin Barani)\nAlauddin established four distinct centralized markets in Delhi, each strictly regulated:\n1. **Central Grain Market (*Mandi*):** Food grains sold strictly at government-fixed tariff rates. Hoarding was criminalized; peasants in the Doab were forced to pay 50% land tax (*Kharaj*) in kind to maintain vast state buffer granaries.\n2. **Cloth & Luxury Goods Market (*Sarai Adl*):** All imported textiles, silks, sugar, herbs, and oil were sold here under royal permit.\n3. **Slaves and Cattle Market:** Price of horses, bullocks, and enslaved captives fixed by quality grade, eliminating middlemen (*Dallals*).\n4. **General Commodities Market:** Everyday household necessities.\n\n### The Administrative Enforcement Machinery\n* **Diwan-i-Riyasat:** Ministry of commerce and economic regulation headed by Malik Yaqub.\n* **Shahna-i-Mandi:** Market superintendent who maintained the register of authorized merchants, monitored weights, and brutally punished shortfalls by cutting an equivalent weight of flesh from the merchant's body.\n* **Munhiyan:** Secret child intelligence agents deployed by the Sultan to buy sweets and check weights.\n\n### Alauddin's Military Innovations\n* **Cash Salaries:** Soldiers paid fixed cash salaries (234 *tankas* per year for a single-horse trooper; additional 78 *tankas* for a two-horse trooper).\n* **Dag (Branding of Horses):** Imperial seal branded on cavalry mounts to prevent troopers from presenting borrowed or substandard horses during muster.\n* **Chehra / Huliya (Descriptive Rolls):** Detailed physical description of each soldier recorded in imperial registers to prevent proxy impersonation.\n\n---\n\n### 2. Muhammad bin Tughlaq's (1325–1351 CE) 5 Legendary Experimental Projects\n\n| Project | Rational Strategic Objective | Flawed Implementation / Reality | Historiographical Outcome & Legacy |\n| :--- | :--- | :--- | :--- |\n| **1. Taxation in the Doab (1326)** | Increase revenue from the most fertile agricultural region to fund imperial defense. | Assessment coincided with a catastrophic famine and drought; peasants revolted and fled into jungles. | Heavy agrarian distress; later compensated by distributing relief loans (*Sondhar / Taccavi*). |\n| **2. Transfer of Capital to Daulatabad (1327)** | Relocate administrative hub to **Devagiri (renamed Daulatabad)** in Maharashtra to centrally govern South India and escape Mongol raids. | Entire population of Delhi forcibly marched 1,500 km in summer heat; immense loss of life. | Vulnerability of North India exposed; within 2 years, the court marched back to Delhi. |\n| **3. Token Currency Experiment (1329–30)** | Introduce copper and brass coins on par with silver *Tanka* to overcome global silver scarcity (modeled on Kublai Khan's paper currency in China). | Royal mint had no secret watermark/seal; every citizen's house became a private mint, churning out forged brass coins. | Silver fled the market; foreign trade collapsed; Sultan redeemed all brass coins with genuine royal silver, emptying the treasury. |\n| **4. Khurasan & Qarachil Expeditions** | Intervene in Persian geopolitics and secure Himalayan frontier against Chinese/Mongol raids. | Khurasan army paid 1 year advance salary, then disbanded; Qarachil army perished in Himalayan rains and guerrilla warfare. | Heavy drain on imperial prestige and military treasury. |\n| **5. Agricultural Department (*Diwan-i-Kohi*)** | Reclaim fallow land and promote crop rotation through direct state-sponsored agricultural loans. | Corrupt officials misspent funds; stony infertile tracts chosen; project failed after spending 70 lakh *tankas*. | Pioneered modern agricultural credit (*Taccavi*) institutional models. |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'Barani\'s Tariff Schedule & The Diwan-i-Kohi Credit Pipeline',
-        body: `### 1. Alauddin\'s Fixed Grain Tariffs (From Tarikh-i-Firuz Shahi)
-* Wheat: **7.5 Jitals per maund**
-* Barley: **4 Jitals per maund**
-* Rice / Gram: **5 Jitals per maund**
-* Sugar: **1.5 Jitals per seer**
-* *Invariant:* Prices remained frozen at these exact rates throughout Alauddin's 20-year reign, even during severe regional droughts, because royal granaries released stored grain directly into the Mandi!
-
-### 2. The Diwan-i-Kohi Agricultural Loan Pipeline
-1. Land divided into development blocks of 30 *krohs* (approx. 60 miles).
-2. State distributed advance cash loans (**Sondhar / Taccavi**) directly to peasants for purchasing seeds, digging wells, and transitioning from low-value crops (barley) to high-value cash crops (wheat, sugarcane, grapes).`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "Barani's Tariff Schedule & The Diwan-i-Kohi Credit Pipeline",
+        "body": "### 1. Alauddin's Fixed Grain Tariffs (From Tarikh-i-Firuz Shahi)\n* Wheat: **7.5 Jitals per maund**\n* Barley: **4 Jitals per maund**\n* Rice / Gram: **5 Jitals per maund**\n* Sugar: **1.5 Jitals per seer**\n* *Invariant:* Prices remained frozen at these exact rates throughout Alauddin's 20-year reign, even during severe regional droughts, because royal granaries released stored grain directly into the Mandi!\n\n---\n\n### 2. The Diwan-i-Kohi Agricultural Loan Pipeline\n1. Land divided into development blocks of 30 *krohs* (approx. 60 miles).\n2. State distributed advance cash loans (**Sondhar / Taccavi**) directly to peasants for purchasing seeds, digging wells, and transitioning from low-value crops (barley) to high-value cash crops (wheat, sugarcane, grapes).",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Diwan-i-Kohi vs Diwan-i-Khairat & Token Metals',
-        body: `### Critical Traps in Sultanate Administrative Reforms
-
-1. **Token Currency Metal Trap:**
-   * *Trap:* Believing Muhammad bin Tughlaq introduced *paper* or *leather* currency.
-   * *Truth:* His token coins were struck in **Bronze and Copper**, made legal tender on par with the silver *Tanka*!
-
-2. **Sultanate Ministries Attribution Trap (Crucial for UPSC/PCS!):**
-   * **Diwan-i-Kohi (Agriculture):** Created by **Muhammad bin Tughlaq**.
-   * **Diwan-i-Riyasat (Market Ministry):** Created by **Alauddin Khalji**.
-   * **Diwan-i-Khairat (Charity) & Diwan-i-Bandagan (Slaves):** Created by **Firuz Shah Tughlaq**.
-   * **Diwan-i-Arz (Military):** Created by **Balban**.
-
-3. **Dag & Chehra Attribution:**
-   * Introduced by **Alauddin Khalji** (and later modernized by Sher Shah Suri and Akbar).`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Topology of Market Networks & Daulatabad Strategic Axis",
+        "body": "Spatial Topology of Delhi Sultanate Economic Corridors & Capital Migration:\n\n          [CENTRAL ASIA / MONGOL STEPPE]\n                        |\n                        v (Invasion Vector: Multan -> Lahore -> Delhi)\n          [DELHI: Siri Fort / Mandi] <==============+ (Alauddin's Price Control Base:\n                        |                           |  4 Centralized Urban Markets)\n                        |                           |\n          +-------------+-------------+             |\n          |                           |             |\n          v (50% Kharaj in Kind)      v             |\n   [DOAB GRANARIES]            [RAJASTHAN FORTS]   |\n   (Meerut, Aligarh,            (Ranthambore,       |\n    Bulandshahr)                 Chittor)           |\n          |                           |             |\n          +-------------+-------------+             |\n                        |                           |\n                        v (1,500 km Capital March)  |\n          [DAULATABAD / DEVAGIRI] ------------------+ (Muhammad bin Tughlaq 1327 CE:\n          (Maharashtra: Strategic pivot              Attempted Southern Command Pivot)\n           commanding Deccan & Coromandel)\n                        |\n                        +---------------------------+\n                        |                           |\n                        v                           v\n              [WARANGAL / KAKATIYAS]       [DWARASAMUDRA / HOYSALAS]\n\nSpatial Logistics:\n1. Doab Hydraulic Monopsony: Direct extraction of grain tax (*Kharaj*) transported by state-registered banjaras directly to Delhi state granaries.\n2. The Daulatabad Dislocation: 1,500 km route traversing the Narmada and Tapti river chasms, demonstrating the geographic impossibility of administering the Gangetic plain from the northern Deccan plateau with medieval logistics.",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "EXAM_APPLICATION",
+        "title": "Examiner Traps, Diwan-i-Kohi vs Diwan-i-Khairat & Token Metals",
+        "body": "### Critical Traps in Sultanate Administrative Reforms\n\n1. **Token Currency Metal Trap:**\n   * *Trap:* Believing Muhammad bin Tughlaq introduced *paper* or *leather* currency.\n   * *Truth:* His token coins were struck in **Bronze and Copper**, made legal tender on par with the silver *Tanka*!\n\n2. **Sultanate Ministries Attribution Trap (Crucial for UPSC/PCS!):**\n   * **Diwan-i-Kohi (Agriculture):** Created by **Muhammad bin Tughlaq**.\n   * **Diwan-i-Riyasat (Market Ministry):** Created by **Alauddin Khalji**.\n   * **Diwan-i-Khairat (Charity) & Diwan-i-Bandagan (Slaves):** Created by **Firuz Shah Tughlaq**.\n   * **Diwan-i-Arz (Military):** Created by **Balban**.\n\n3. **Dag & Chehra Attribution:**\n   * Introduced by **Alauddin Khalji** (and later modernized by Sher Shah Suri and Akbar).\n\n4. **Chronicler Attribution:**\n   * Ziauddin Barani authored *Tarikh-i-Firuz Shahi*, describing both Alauddin's price regulations and Tughlaq's projects.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-03-1',
-        statement: 'Alauddin Khalji established four centralized price-controlled markets in Delhi supervised by the Diwan-i-Riyasat and Shahna-i-Mandi, enforced fixed grain tariffs, and introduced Dag (horse branding) and Chehra (descriptive rolls).',
-        claimType: 'ECONOMIC_REFORM',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-39',
-        excerpt: 'Market Reforms of Alauddin Khalji: Shahna-i-Mandi, price control of grains, Dag and Chehra.',
+        "id": "CLM-MED-03-1",
+        "statement": "Alauddin Khalji established four centralized price-controlled markets in Delhi supervised by the Diwan-i-Riyasat and Shahna-i-Mandi, enforced fixed grain tariffs, and introduced Dag (horse branding) and Chehra (descriptive rolls).",
+        "claimType": "ECONOMIC_REFORM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: Administration and Consolidation under the Khaljis and Tughluqs, pp. 38-41",
+        "excerpt": "Alauddin Khalji controlled the prices of goods in Delhi. Prices were carefully surveyed by officers, and merchants who did not sell at the prescribed rates were punished... Alauddin paid his soldiers cash salaries rather than iqtas... He established markets for grain, cloth, horses and cattle."
       },
       {
-        id: 'CLM-MED-03-2',
-        statement: 'Muhammad bin Tughlaq launched five controversial experimental projects: Doab taxation, capital transfer to Daulatabad (1327), copper/brass token currency (1329–30), Qarachil expedition, and the Diwan-i-Kohi agricultural loan department.',
-        claimType: 'HISTORICAL_EVENT',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-39',
-        excerpt: 'Muhammad bin Tughlaq experiments: Daulatabad transfer, token currency, Diwan-i-Kohi.',
+        "id": "CLM-MED-03-2",
+        "statement": "Muhammad bin Tughlaq launched five controversial experimental projects: Doab taxation, capital transfer to Daulatabad (1327), copper/brass token currency (1329–30), Qarachil expedition, and the Diwan-i-Kohi agricultural loan department.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: Administration and Consolidation under the Khaljis and Tughluqs, pp. 41-43",
+        "excerpt": "Muhammad Tughluq's administrative measures were a failure. His campaign into Kashmir was a disaster. He then gave up his plans to invade Transoxiana and disbanded his large army. Meanwhile, his administrative measures created complications. The shifting of people to Daulatabad was resented. The raising of taxes and famine in the Ganga-Yamuna belt led to widespread rebellion. And finally, the \"token\" currency had to be recalled."
       },
       {
-        id: 'CLM-MED-03-3',
-        statement: 'Diwan-i-Kohi was a dedicated ministry for agricultural improvement established by Muhammad bin Tughlaq to provide Sondhar/Taccavi loans and reclaim uncultivated land.',
-        claimType: 'INSTITUTIONAL_CREATION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-39',
-        excerpt: 'Sultanate Administration: Diwan-i-Kohi created by Muhammad bin Tughlaq for agriculture.',
-      },
+        "id": "CLM-MED-03-3",
+        "statement": "Diwan-i-Kohi was a dedicated ministry for agricultural improvement established by Muhammad bin Tughlaq to provide Sondhar/Taccavi loans and reclaim uncultivated land.",
+        "claimType": "INSTITUTIONAL_CREATION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: Close Comparison: Alauddin Khalji and Muhammad Tughluq, p. 42",
+        "excerpt": "Muhammad Tughluq also planned a campaign to capture Transoxiana... He introduced an agricultural policy to improve cultivation and advance loans to farmers, though poorly managed by his officials."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Economic History / Administration of Delhi Sultanate',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_CONCEPTUAL_ANALYSIS',
-        notes: 'Market reforms and Muhammad bin Tughlaq projects are premier questions in UPSC Prelims and Mains.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Economic History / Administration of Delhi Sultanate",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_CONCEPTUAL_ANALYSIS",
+        "notes": "Market reforms and Muhammad bin Tughlaq projects are premier questions in UPSC Prelims and Mains."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Medieval Indian History & Administrative Experiments',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 10-mark question evaluating Muhammad bin Tughlaq\'s character and failures.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Medieval Indian History & Administrative Experiments",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Direct 5-mark and 10-mark questions on Alauddin's market control policy or Muhammad bin Tughlaq's token currency."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Shahna-i-Mandi, Dag/Chehra, and Daulatabad capital transfer.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on Dag/Chehra attribution, Daulatabad capital transfer year (1327), and token currency metal."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Medieval Institutions',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'ADMINISTRATIVE_TERMINOLOGY',
-        notes: 'Tested on Diwan-i-Kohi and Taccavi loans.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Institutions",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "ADMINISTRATIVE_TERMINOLOGY",
+        "notes": "Tested on Diwan-i-Kohi and Taccavi loans."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian History',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on medieval currency innovations and key rulers.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian History",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on medieval currency innovations and key rulers."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Culture',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on economic history and dynasties.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — History & Culture",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on economic history and dynasties."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 general awareness questions on market price stabilization history.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 general awareness questions on market price stabilization history."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Early history of fiat token currency and state credit (Taccavi).',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Early history of fiat token currency and state credit (Taccavi)."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Alauddin Khalji: Market Control (Shahna-i-Mandi, Diwan-i-Riyasat, frozen grain tariffs), cash military pay, Dag (branding horses) & Chehra (descriptive rolls). Muhammad bin Tughlaq: 5 Projects (Doab tax hike, Daulatabad capital transfer 1327, token copper/brass currency 1329–30, Qarachil raid, Diwan-i-Kohi agricultural ministry with Sondhar loans).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Alauddin Khalji: Market Control (Shahna-i-Mandi, Diwan-i-Riyasat, frozen grain tariffs), cash military pay, Dag (branding horses) & Chehra (descriptive rolls). Muhammad bin Tughlaq: 5 Projects (Doab tax hike, Daulatabad capital transfer 1327, token copper/brass currency 1329–30, Qarachil raid, Diwan-i-Kohi agricultural ministry with Sondhar loans).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Sultanate Economic Modernization Blueprint: 1) Alauddin Khalji: Created a permanent standing army by freezing retail prices across four Delhi markets (Grains, Cloth, Cattle/Slaves, General); eliminated hoarders via Shahna-i-Mandi and secret spies (Munhiyan); instituted Dag (horse branding) and Chehra (soldier rolls). 2) Muhammad bin Tughlaq: Brilliant visionary with disastrous execution. Shifted capital to Daulatabad (1327) and back; token bronze/copper currency failed due to mass counterfeiting; created Diwan-i-Kohi to advance Taccavi agricultural loans to farmers.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Sultanate Economic Modernization Blueprint: 1) Alauddin Khalji: Created a permanent standing army by freezing retail prices across four Delhi markets (Grains, Cloth, Cattle/Slaves, General); eliminated hoarders via Shahna-i-Mandi and secret spies (Munhiyan); instituted Dag (horse branding) and Chehra (soldier rolls). 2) Muhammad bin Tughlaq: Brilliant visionary with disastrous execution. Shifted capital to Daulatabad (1327) and back; token bronze/copper currency failed due to mass counterfeiting; created Diwan-i-Kohi to advance Taccavi agricultural loans to farmers.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Economic & Fiscal Architecture of High Sultanate: 1) Market Command: State monopsony in grain collection (50% Kharaj in kind) feeding buffer granaries -> fixed urban prices. 2) Military Accounting: Dag & Chehra biometric verification linked to fixed cash annual salary. 3) Agrarian Credit Cycle: Diwan-i-Kohi state capital advances -> land reclamation -> crop upgrading.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Economic & Fiscal Architecture of High Sultanate: 1) Market Command: State monopsony in grain collection (50% Kharaj in kind) feeding buffer granaries -> fixed urban prices. 2) Military Accounting: Dag & Chehra biometric verification linked to fixed cash annual salary. 3) Agrarian Credit Cycle: Diwan-i-Kohi state capital advances -> land reclamation -> crop upgrading.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'SULTANATE_MCQ',
-        stem: 'The department of "Diwan-i-Kohi" established during the Delhi Sultanate was associated with which of the following administrative functions?',
-        options: [
-          'Supervision of royal espionage and secret intelligence',
-          'Development and modernization of agriculture',
-          'Enforcement of market prices and trade regulation',
-          'Management of imperial charity and pensions for the poor'
+        "type": "SULTANATE_MCQ",
+        "stem": "The department of \"Diwan-i-Kohi\" established during the Delhi Sultanate was associated with which of the following administrative functions?",
+        "options": [
+          "Supervision of royal espionage and secret intelligence",
+          "Development and modernization of agriculture",
+          "Enforcement of market prices and trade regulation",
+          "Management of imperial charity and pensions for the poor"
         ],
-        correctAnswer: 'Development and modernization of agriculture',
-        explanation: 'Diwan-i-Kohi was a specialized agricultural department created by Sultan Muhammad bin Tughlaq to bring fallow land under cultivation, encourage crop substitution, and disburse agricultural loans (Sondhar/Taccavi) directly to peasants.',
-        trapExplanation: 'Confusing Diwan-i-Kohi with Diwan-i-Riyasat (market control) or Diwan-i-Insha (correspondence) is the standard error.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2020,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Function of Sultanate administrative department (Diwan-i-Kohi).',
+        "correctAnswer": "Development and modernization of agriculture",
+        "explanation": "Diwan-i-Kohi was a specialized agricultural department created by Sultan Muhammad bin Tughlaq to bring fallow land under cultivation, encourage crop substitution, and disburse agricultural loans (Sondhar/Taccavi) directly to peasants.",
+        "trapExplanation": "Confusing Diwan-i-Kohi with Diwan-i-Riyasat (market control) or Diwan-i-Insha (correspondence) is the standard error.",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2020,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Function of Sultanate administrative department (Diwan-i-Kohi)."
       },
       {
-        type: 'SULTANATE_MCQ',
-        stem: 'Which Delhi Sultan introduced the military administrative regulations known as "Dag" (branding of war horses) and "Chehra" (descriptive rolls of soldiers)?',
-        options: ['Ghiyasuddin Balban', 'Alauddin Khalji', 'Firuz Shah Tughlaq', 'Sikandar Lodi'],
-        correctAnswer: 'Alauddin Khalji',
-        explanation: 'Alauddin Khalji introduced the system of "Dag" (branding the imperial insignia on cavalry horses to prevent fraud) and "Chehra" or "Huliya" (maintaining a descriptive register of every soldier\'s physical characteristics to prevent proxy attendance).',
-        trapExplanation: 'Balban introduced court rituals (Sijda/Paibos), whereas Alauddin introduced military verification (Dag/Chehra).',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2022,
-        pyqPaper: 'RPSC RAS Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Attribution of Dag and Chehra to Alauddin Khalji.',
-      },
-    ],
+        "type": "SULTANATE_MCQ",
+        "stem": "Which Delhi Sultan introduced the military administrative regulations known as \"Dag\" (branding of war horses) and \"Chehra\" (descriptive rolls of soldiers)?",
+        "options": [
+          "Ghiyasuddin Balban",
+          "Alauddin Khalji",
+          "Firuz Shah Tughlaq",
+          "Sikandar Lodi"
+        ],
+        "correctAnswer": "Alauddin Khalji",
+        "explanation": "Alauddin Khalji introduced the system of \"Dag\" (branding the imperial insignia on cavalry horses to prevent fraud) and \"Chehra\" or \"Huliya\" (maintaining a descriptive register of every soldier's physical characteristics to prevent proxy attendance).",
+        "trapExplanation": "Balban introduced court rituals (Sijda/Paibos), whereas Alauddin introduced military verification (Dag/Chehra).",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2022,
+        "pyqPaper": "RPSC RAS Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Attribution of Dag and Chehra to Alauddin Khalji."
+      }
+    ]
   },
 
   // =========================================================================
