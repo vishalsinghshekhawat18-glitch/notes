@@ -273,244 +273,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 2: The Delhi Sultanate: Dynastic Succession & Political Institutions
   // =========================================================================
   {
-    id: 'CON-MED-02',
-    slug: 'delhi-sultanate-dynastic-succession-balban-kingship-and-iqta-system',
-    title: 'The Delhi Sultanate: Dynastic Succession (1206–1526 CE), Balban\'s Theory of Kingship, and the Iqta Administrative Framework',
-    shortDefinition: 'Foundations and governance of the Delhi Sultanate: 5 ruling dynasties (Mamluk, Khalji, Tughlaq, Sayyid, Lodi), Iltutmish\'s institutionalization of the Turkan-i-Chahalgani, Ghiyasuddin Balban\'s authoritarian theory of kingship (Zill-i-Ilahi, Niyabat-i-Khudai, Sijda & Paibos), and the Iqta administrative-military decentralization framework.',
-    difficulty: 'ADVANCED',
-    order: 2,
-    topicSlug: 'delhi-sultanate-governance-and-institutions',
-    contentBlocks: [
+    "id": "CON-MED-02",
+    "slug": "delhi-sultanate-dynastic-succession-balban-kingship-and-iqta-system",
+    "title": "The Delhi Sultanate: Dynastic Succession (1206–1526 CE), Balban's Theory of Kingship, and the Iqta Administrative Framework",
+    "shortDefinition": "Exhaustive NCERT Class VII Chapter 3 (*The Delhi Sultans*) synthesis: Foundations and governance of the Delhi Sultanate: 5 ruling dynasties (Mamluk 1206–1290, Khalji 1290–1320, Tughlaq 1320–1414, Sayyid 1414–1451, Lodi 1451–1526), the transition from fortified military garrison towns (*hinterland-garrison dynamic*) to empire under internal and external frontier campaigns; Iltutmish's institutionalization of the Turkish elite slave-nobles (*Bandagan / Turkan-i-Chahalgani*) and coinage (silver *Tanka*, copper *Jital*); the accession of Raziyya Sultan (1236 CE) and chronicler Minhaj-i Siraj's ideological critique of gender; Ghiyasuddin Balban's authoritarian theory of divine kingship (*Zill-i-Ilahi*, *Niyabat-i-Khudai*, Persian ceremonials of *Sijda*, *Paibos*, and *Nauroz*, crushing the Forty); and the institutional mechanics of the Iqta system (assignment of land revenue rights to *Muqtis/Iqtadars*, audits, non-hereditary transfers, and remittance of surplus *Fawazil* to the imperial Diwan-i-Wizarat).",
+    "difficulty": "ADVANCED",
+    "order": 2,
+    "topicSlug": "delhi-sultanate-governance-and-institutions",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'Consolidating an Islamic Sultanate in an Alien Subcontinent',
-        body: `When Muhammad Ghori was assassinated in 1206 CE, his Turkish military slave (**Mamluk**), **Qutbuddin Aibak**, took charge of North Indian conquests, establishing the **Delhi Sultanate**. For the next 320 years (1206–1526 CE), five successive dynasties ruled from Delhi.
-
-However, the early sultans faced existential perils:
-1. They were a tiny Turkish-Afghan ruling aristocracy governing a vast non-Muslim population.
-2. The ruthless, unstoppable **Mongol hordes of Genghis Khan** were laying waste to Persia and Central Asia, repeatedly probing the Indus frontier.
-3. Powerful Turkish slave-nobles (**The Corp of Forty / *Turkan-i-Chahalgani***) continually conspired to murder and dethrone sultans at will.
-
-To survive, the Delhi Sultanate had to solve two fundamental problems:
-* **Ideological Legitimacy:** How to command absolute psychological submission without relying on constant bloodshed? Sultan **Ghiyasuddin Balban** solved this by inventing an awe-inspiring divine theory of kingship, declaring the Sultan to be the **Shadow of God on Earth (*Zill-i-Ilahi*)**.
-* **Fiscal-Military Integration:** How to fund a standing army across vast distances without modern banking? They institutionalized the **Iqta System**, assigning revenue rights of agricultural districts to military commanders in exchange for maintaining troops.`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "Consolidating an Islamic Sultanate in an Alien Subcontinent",
+        "body": "When Muhammad Ghori was assassinated in 1206 CE, his Turkish military slave (**Mamluk**), **Qutbuddin Aibak**, took charge of North Indian conquests, establishing the **Delhi Sultanate**. For the next 320 years (1206–1526 CE), five successive dynasties ruled from Delhi.\n\nHowever, the early sultans faced existential perils:\n1. **The Garrison vs Hinterland Dilemma:** In the early 13th century, Sultanate authority rarely extended beyond heavily fortified garrison towns (*qasbas*) occupied by Turkish soldiers. Rebellions, monsoon washouts, and severed communications constantly cut garrisons off from their rural hinterlands.\n2. **The Mongol Terror:** The unstoppable horse-archers of **Genghis Khan** reached the Indus River in 1221, repeatedly probing the Punjab and laying siege to Delhi itself.\n3. **The Slave-Noble Oligarchy (*Turkan-i-Chahalgani*):** Powerful Turkish elite slave-officers (**Bandagan** / The Corp of Forty) continually conspired to dethrone, blind, and assassinate monarchs at will.\n\nTo survive, the Delhi Sultanate instituted two revolutionary structural systems:\n* **Ideological Legitimacy via Divine Kingship:** Sultan **Ghiyasuddin Balban** solved the factional chaos by elevating the monarch above humanity, declaring the Sultan to be the **Shadow of God on Earth (*Zill-i-Ilahi*)** and demanding complete physical prostration.\n* **Fiscal-Military Integration via the Iqta:** The state institutionalized the **Iqta System**, transferring territorial revenue-collection rights to military commanders (*Muqtis*) in exchange for maintaining ready contingents of cavalry, while strictly auditing and extracting all surplus funds (**Fawazil**) into the central imperial treasury!",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'The 5 Dynasties & Balban\'s Divine Kingship Architecture',
-        body: `### 1. Chronological Sequence of the 5 Delhi Sultanate Dynasties
-
-| Dynasty | Reign Period | Key Imperial Architects | Decisive Historical Milestones |
-| :--- | :--- | :--- | :--- |
-| **1. Mamluk / Ilbari / Slave Dynasty** | **1206–1290 CE** | Qutbuddin Aibak, Iltutmish, Razia Sultan, Ghiyasuddin Balban. | Establishment of Turkish power; Qutb Minar begun; Iltutmish introduces Silver *Tanka* and Copper *Jital*; Razia becomes first female ruler; Balban crushes the Chahalgani. |
-| **2. Khalji Dynasty** | **1290–1320 CE** | Jalaluddin Khalji, **Alauddin Khalji**. | "Khalji Revolution" breaking Turkish ethnic monopoly; massive southern military campaigns (Malik Kafur); market price control; Dag & Chehra military reforms. |
-| **3. Tughlaq Dynasty** | **1320–1414 CE** | Ghiyasuddin Tughlaq, **Muhammad bin Tughlaq**, Firuz Shah Tughlaq. | Longest ruling dynasty; Muhammad bin Tughlaq's visionary experimental projects; Firuz Shah's canal networks, Diwan-i-Khairat, and Diwan-i-Bandagan. |
-| **4. Sayyid Dynasty** | **1414–1451 CE** | Khizr Khan, Mubarak Shah. | Established following Timur's sack of Delhi (1398); ruled nominally as Timurid vassals. |
-| **5. Lodi Dynasty** | **1451–1526 CE** | Bahlul Lodi, Sikandar Lodi, Ibrahim Lodi. | **First Afghan dynasty**; Sikandar Lodi founds Agra (1504) and introduces *Gaz-i-Sikandari*; defeated by Babur at First Battle of Panipat (1526). |
-
-### 2. Ghiyasuddin Balban's (1266–1287 CE) Theory of Kingship
-Balban realized that the prestige of the Crown had sunk into contempt due to the machinations of the *Chahalgani* (The Forty). He restored royal terror and majesty through a systematic doctrine of **"Blood and Iron" (*Lauh aur Rakt*)**:
-* **Niyabat-i-Khudai:** The Sultan is the Vicegerent / Deputy of God on earth. His actions cannot be questioned by mortals.
-* **Zill-i-Ilahi (Zilullah):** The Sultan is the Shadow of God on earth.
-* **Iranian Court Etiquette:** Introduced non-Islamic Persian ceremonial practices into the Delhi court:
-  * **Sijda:** Complete prostration before the Sultan.
-  * **Paibos (Zaminbos):** Kissing the feet of the Sultan.
-  * **Nauroz:** Celebrated the Persian spring New Year festival with immense pomp.
-* **Espionage Network (*Barids*):** Deployed secret news-writers across all provinces reporting directly to him.
-* Destruction of the *Chahalgani* to consolidate absolute autocratic sovereignty.`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "The 5 Dynasties & Balban's Divine Kingship Architecture",
+        "body": "### 1. Chronological Sequence of the 5 Delhi Sultanate Dynasties\n\n| Dynasty | Reign Period | Key Imperial Architects | Decisive Historical Milestones |\n| :--- | :--- | :--- | :--- |\n| **1. Mamluk / Ilbari / Slave Dynasty** | **1206–1290 CE** | Qutbuddin Aibak, Iltutmish, Raziyya Sultan, Ghiyasuddin Balban. | Turkish slave (*mamluk*) origin; Qutb Minar begun; Iltutmish introduces Silver *Tanka* (175 grains) and Copper *Jital*; Raziyya becomes first female sultan (1236); Balban crushes the Chahalgani. |\n| **2. Khalji Dynasty** | **1290–1320 CE** | Jalaluddin Khalji, **Alauddin Khalji**. | \"Khalji Revolution\" breaking Turkish ethnic monopoly; massive southern military campaigns (Malik Kafur); market price control; Dag & Chehra military reforms. |\n| **3. Tughlaq Dynasty** | **1320–1414 CE** | Ghiyasuddin Tughlaq, **Muhammad bin Tughlaq**, Firuz Shah Tughlaq. | Longest ruling dynasty; Muhammad bin Tughlaq's visionary experimental projects; Firuz Shah's canal networks, Diwan-i-Khairat, and Diwan-i-Bandagan. |\n| **4. Sayyid Dynasty** | **1414–1451 CE** | Khizr Khan, Mubarak Shah. | Established following Timur's sack of Delhi (1398); ruled nominally as Timurid vassals. |\n| **5. Lodi Dynasty** | **1451–1526 CE** | Bahlul Lodi, Sikandar Lodi, Ibrahim Lodi. | **First Afghan dynasty**; Sikandar Lodi founds Agra (1504) and introduces *Gaz-i-Sikandari*; defeated by Babur at First Battle of Panipat (1526). |\n\n---\n\n### 2. Raziyya Sultan & Minhaj-i Siraj's Gender Historiography (1236–1240 CE)\n* In 1236, Sultan Iltutmish's daughter, **Raziyya**, was placed on the throne because her brothers were incompetent.\n* The contemporary chronicler **Minhaj-i Siraj** recognized that she was more capable and qualified than all her brothers.\n* *NCERT Invariant:* Minhaj-i Siraj lamented that a woman's rule violated the \"ideal social order created by God, in which women were supposed to be subordinate to men.\" Raziyya abandoned the veil (*purdah*), rode elephants, and led armies, triggering violent aristocratic conspiracies that resulted in her overthrow and murder in 1240.\n\n---\n\n### 3. Ghiyasuddin Balban's (1266–1287 CE) Theory of Kingship\nBalban restored royal awe through a systematic doctrine of **\"Blood and Iron\" (*Lauh aur Rakt*)**:\n* **Niyabat-i-Khudai:** The Sultan is the Vicegerent / Deputy of God on earth; royal office is divinely ordained.\n* **Zill-i-Ilahi (Zilullah):** The Sultan is the Shadow of God on earth.\n* **Iranian Court Etiquette:** Introduced non-Islamic Persian ceremonial practices into the Delhi court:\n  * **Sijda:** Complete prostration before the Sultan.\n  * **Paibos (Zaminbos):** Kissing the feet of the Sultan.\n  * **Nauroz:** Grand public celebration of the Persian spring New Year festival.\n* **Espionage Network (*Barids*):** Deployed secret news-writers across all provinces reporting directly to him.\n* Destruction of the *Chahalgani* to consolidate absolute autocratic sovereignty.",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Iqta System: Fiscal Decentralization & Fawazil Accounting',
-        body: `### How the Iqta System Operated
-Originating in West Asia (Abbasid and Seljuk empires), the Iqta was institutionalized in India by **Shamsuddin Iltutmish**:
-1. **Assignment of Land Revenue:** The empire was divided into revenue tracts called **Iqtas**. An Iqta was **NOT private ownership of land**, but strictly the **right to collect land revenue** from that territory.
-2. **The Iqtadar / Muqti / Wali:** The military commander assigned an Iqta was responsible for:
-   * Maintaining law, order, and crushing local rebellions.
-   * Collecting land revenue according to state rates.
-   * Maintaining a stipulated contingent of cavalry and infantry for imperial service.
-3. **The Fawazil Surplus Rule:**
-   $$\\mathbf{\\text{Total Iqta Revenue}} - (\\mathbf{\\text{Administrative Expenses}} + \\mathbf{\\text{Troop Maintenance Cost}} + \\mathbf{\\text{Muqti's Personal Salary}}) = \\mathbf{\\text{Fawazil (Surplus)}}$$
-   * The *Fawazil* (excess surplus balance) was **mandatorily remitted to the central imperial treasury (*Diwan-i-Wizarat*)**.
-   * Under Balban and Alauddin Khalji, strict audits were enforced to prevent Muqtis from pocketing the *Fawazil*.
-4. **Transferability:** Iqtas were strictly **transferable and non-hereditary** under strong sultans to prevent commanders from establishing independent hereditary fiefdoms. (Firuz Shah Tughlaq later committed the fatal blunder of making Iqtas hereditary).`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "The Iqta System: Fiscal Decentralization & Fawazil Accounting",
+        "body": "### How the Iqta System Operated (NCERT Class VII Chapter 3)\nOriginating in West Asia (Abbasid and Seljuk empires), the Iqta was institutionalized in India by **Shamsuddin Iltutmish**:\n1. **Assignment of Land Revenue:** The empire was divided into revenue tracts called **Iqtas**. An Iqta was **NOT private ownership of land**, but strictly the **right to collect land revenue** from that territory.\n2. **The Iqtadar / Muqti / Wali:** The military commander assigned an Iqta was responsible for:\n   * Maintaining law, order, and crushing local rebellions.\n   * Collecting land revenue according to state rates.\n   * Maintaining a stipulated contingent of cavalry and infantry for imperial service.\n3. **The Fawazil Surplus Rule:**\n   $$\\mathbf{\\text{Total Iqta Revenue}} - (\\mathbf{\\text{Administrative Expenses}} + \\mathbf{\\text{Troop Maintenance Cost}} + \\mathbf{\\text{Muqti's Personal Salary}}) = \\mathbf{\\text{Fawazil (Surplus)}}$$\n   * The *Fawazil* (excess surplus balance) was **mandatorily remitted to the central imperial treasury (*Diwan-i-Wizarat*)**.\n   * Under Balban and Alauddin Khalji, royal accountants (*mutasarrifs*) strictly audited the revenue collections to prevent Muqtis from keeping excess troops or pocketing the *Fawazil*.\n4. **Transferability & State Control:**\n   * Under early strong sultans, the office of Muqti was strictly **transferable and non-hereditary**. Muqtis were reassigned every few years to prevent them from building deep local feudal roots.\n   * *The Decline:* Later, under **Firuz Shah Tughlaq (1351–1388 CE)**, Iqtas were made hereditary, directly accelerating the feudal decentralization and eventual collapse of the Sultanate.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, Hereditary Iqtas & Balban Etiquette Attribution',
-        body: `### High-Frequency Traps in Delhi Sultanate History
-
-1. **Sijda & Paibos Attribution Trap:**
-   * *Trap:* Attributing Sijda, Paibos, and Nauroz to Alauddin Khalji or Akbar.
-   * *Truth:* They were introduced by **Ghiyasuddin Balban** to re-establish royal prestige!
-
-2. **Iqta Ownership vs Revenue Rights:**
-   * *Trap:* Assuming the Muqti owned the soil of the Iqta.
-   * *Truth:* The Iqta was an assignment of **revenue rights only**; the peasant retained land possession.
-
-3. **Firuz Shah Tughlaq's Fatal Hereditary Iqta Blunder:**
-   * *Trap:* Believing all sultans kept Iqtas non-hereditary.
-   * *Truth:* **Firuz Shah Tughlaq made Iqtas hereditary**, which accelerated the feudal decentralization and collapse of the Sultanate!`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Topology of the Delhi Sultanate: Expansion Frontiers & Garrison Corridors",
+        "body": "Spatial Topology of the Delhi Sultanate Expansion:\n\n          [NORTHWEST FRONTIER: Indus River, Lahore, Multan]\n          (Frontier marches against Mongol Incursions: 1221, 1298, 1303 CE)\n                        |\n                        v\n          [THE SEAT OF EMPIRE: Delhi / Mehrauli / Siri / Tughlaqabad]\n          (The Imperial Garrison Hub & Coinage Mint)\n                        |\n          +-------------+-------------+\n          |                           |\n          v (Internal Frontier:       v (External Frontier:\n             Doab & Forests)             Deccan Expeditions)\n   [GANGA-YAMUNA DOAB]         [RAJASTHAN: Ranthambore 1301, Chittor 1303]\n   (Clearance of forests;                   |\n    Peasant settlements;                    v\n    Direct 50% Kharaj)         [MALWA & GUJARAT: Cambay, Surat ports]\n                                            |\n                                            v\n                               [DECCAN: Devagiri / Daulatabad] (Yadavas)\n                                            |\n                                            v\n                               [WARANGAL] (Kakatiyas / Koh-i-Noor diamond)\n                                            |\n                                            v\n                               [DWARASAMUDRA] (Hoysalas)\n                                            |\n                                            v\n                               [MADURAI] (Pandyas / Far South Reach)\n\nSpatial Vectors:\n1. The \"Internal Frontier\" (Hinterland Integration): Consolidation of the fertile Ganga-Yamuna Doab by clearing dense forests, expelling pastoralists, building garrison forts (*qasbas*), and settling Afghan/Turkish peasant colonies.\n2. The \"External Frontier\" (Military Plunder): Spearheaded by Alauddin Khalji's general **Malik Kafur** (1307–1311 CE), extracting immense tribute in war elephants, gold, and jewels from southern kingdoms without direct administrative annexation.",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "EXAM_APPLICATION",
+        "title": "Examiner Traps, Hereditary Iqtas & Balban Etiquette Attribution",
+        "body": "### High-Frequency Traps in Delhi Sultanate History\n\n1. **Sijda & Paibos Attribution Trap:**\n   * *Trap:* Attributing Sijda, Paibos, and Nauroz to Alauddin Khalji or Akbar.\n   * *Truth:* They were introduced by **Ghiyasuddin Balban** to re-establish royal prestige!\n\n2. **Iqta Ownership vs Revenue Rights:**\n   * *Trap:* Assuming the Muqti owned the soil of the Iqta.\n   * *Truth:* The Iqta was an assignment of **revenue rights only**; the peasant retained land possession.\n\n3. **Firuz Shah Tughlaq's Fatal Hereditary Iqta Blunder:**\n   * *Trap:* Believing all sultans kept Iqtas non-hereditary.\n   * *Truth:* **Firuz Shah Tughlaq made Iqtas hereditary**, which accelerated the feudal decentralization and collapse of the Sultanate!\n\n4. **Raziyya Sultan Chronology & Chronicler:**\n   * Ruled 1236–1240 CE. Chronicler who evaluated her reign was **Minhaj-i Siraj** in *Tabaqat-i Nasiri*.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-02-1',
-        statement: 'The Delhi Sultanate was ruled by five successive dynasties between 1206 and 1526 CE: Mamluk/Ilbari (1206–1290), Khalji (1290–1320), Tughlaq (1320–1414), Sayyid (1414–1451), and Lodi (1451–1526).',
-        claimType: 'CHRONOLOGICAL_SEQUENCE',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-39',
-        excerpt: 'The Delhi Sultans (1206–1526 CE): Dynastic chronology Mamluks, Khaljis, Tughlaqs, Sayyids, Lodis.',
+        "id": "CLM-MED-02-1",
+        "statement": "The Delhi Sultanate was ruled by five successive dynasties between 1206 and 1526 CE: Mamluk/Ilbari (1206–1290), Khalji (1290–1320), Tughlaq (1320–1414), Sayyid (1414–1451), and Lodi (1451–1526).",
+        "claimType": "CHRONOLOGICAL_SEQUENCE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: The Rulers of Delhi, pp. 30-31",
+        "excerpt": "Delhi first became the capital of a kingdom under the Tomara Rajputs... Under the Tomaras and Chauhans, Delhi became an important commercial centre... The transformation of Delhi into a capital that controlled vast areas of the subcontinent started with the foundation of the Delhi Sultanate in the beginning of the thirteenth century."
       },
       {
-        id: 'CLM-MED-02-2',
-        statement: 'Ghiyasuddin Balban propagated the divine theory of kingship designating the Sultan as Zill-i-Ilahi (Shadow of God) and Niyabat-i-Khudai (Vicegerent of God), introducing Persian court etiquettes of Sijda and Paibos.',
-        claimType: 'POLITICAL_IDEOLOGY',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-39',
-        excerpt: 'Balban Theory of Kingship: Zill-i-Ilahi, Niyabat-i-Khudai, blood and iron policy, Sijda, Paibos.',
+        "id": "CLM-MED-02-2",
+        "statement": "Ghiyasuddin Balban propagated the divine theory of kingship designating the Sultan as Zill-i-Ilahi (Shadow of God) and Niyabat-i-Khudai (Vicegerent of God), introducing Persian court etiquettes of Sijda and Paibos.",
+        "claimType": "POLITICAL_IDEOLOGY",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: Finding Out about the Delhi Sultans, pp. 32-35",
+        "excerpt": "In the thirteenth century, the control of the Delhi Sultans rarely went beyond heavily fortified towns occupied by garrisons... Ghiyasuddin Balban consolidated the hinterlands of the garrison towns... and instituted strict court etiquette asserting imperial prestige."
       },
       {
-        id: 'CLM-MED-02-3',
-        statement: 'Under the Iqta system institutionalized by Iltutmish, military commanders (Muqtis) collected agricultural revenue, maintained troop contingents, and were legally bound to remit the net surplus balance (Fawazil) to the central treasury.',
-        claimType: 'ADMINISTRATIVE_MECHANISM',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-39',
-        excerpt: 'Iqta System: Institutionalized by Iltutmish, non-hereditary revenue assignments, Fawazil surplus.',
+        "id": "CLM-MED-02-3",
+        "statement": "Under the Iqta system institutionalized by Iltutmish, military commanders (Muqtis) collected agricultural revenue, maintained troop contingents, and were legally bound to remit the net surplus balance (Fawazil) to the central treasury.",
+        "claimType": "ADMINISTRATIVE_MECHANISM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: A Closer Look – Administration and Consolidation, pp. 38-40",
+        "excerpt": "Like earlier Sultans, the Khalji and Tughluq monarchs appointed military commanders as governors of territories of varying sizes. These lands were called iqta and their holder was called iqtadar or muqti. The duty of the muqtis was to lead military campaigns and maintain law and order in their iqtas. In exchange for their military services, the muqtis collected the revenues of their assignments as salary... Accountants were appointed by the state to check the amount of revenue collected by the muqtis."
       },
+      {
+        "id": "CLM-MED-02-4",
+        "statement": "Raziyya Sultan, daughter of Iltutmish, reigned from 1236 to 1240 CE as the first female Sultan of Delhi, facing resistance from conservative Turkish nobles and chronicler Minhaj-i Siraj on patriarchal gender grounds.",
+        "claimType": "HISTORICAL_EVENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts – II, Chapter 3: The Delhi Sultans, Section: Raziyya, p. 33",
+        "excerpt": "Minhaj-i Siraj thought that the queen's rule went against the ideal social order created by God, in which women were supposed to be subordinate to men. He therefore asked: \"In the register of God's creation, since her account did not fall under the column of men, how did she gain from all of her excellent qualities?\""
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Indian History / Administrative Systems',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_CONCEPTUAL_ANALYSIS',
-        notes: 'Iqta system, Fawazil, and Balban\'s kingship are standard UPSC Prelims questions.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Indian History / Administrative Systems & State Formation",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_CONCEPTUAL_ANALYSIS",
+        "notes": "Iqta system, Fawazil surplus, Bandagan, and Balban's kingship are standard UPSC Prelims questions."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Medieval Indian Administration & Society',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Frequent 5-mark question on Balban\'s theory of kingship or Iqta system.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Medieval Indian Administration & Society",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Frequent 5-mark question on Balban's theory of kingship or Iqta system."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on dynastic order, Sijda/Paibos introduced by Balban, and silver Tanka introduced by Iltutmish.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on dynastic order, Sijda/Paibos introduced by Balban, and silver Tanka introduced by Iltutmish."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian Culture & Heritage — Medieval Institutions',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'ADMINISTRATIVE_TERMINOLOGY',
-        notes: 'Tested on Barid (spy), Muqti, and Fawazil terms.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Medieval Institutions",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "ADMINISTRATIVE_TERMINOLOGY",
+        "notes": "Tested on Barid (spy), Muqti, and Fawazil terms."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Indian History',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Occasional questions on Delhi Sultanate monuments and chronology.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian History",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Occasional questions on Delhi Sultanate monuments and chronology."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — History & Culture',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on dynastic sequence and key rulers.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — History & Culture",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Tested on dynastic sequence and key rulers."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 static history questions.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static history questions."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Evolution of Indian agrarian revenue systems.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Evolution of Indian agrarian revenue systems."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Delhi Sultanate: 5 Dynasties = Mamluk (1206-90), Khalji (1290-1320), Tughlaq (1320-1414), Sayyid (1414-51), Lodi (1451-1526). Balban: "Blood and Iron", Zill-i-Ilahi (Shadow of God), Niyabat-i-Khudai, crushed Chahalgani, Sijda & Paibos. Iqta: Revenue assignment to Muqti; surplus balance (Fawazil) remitted to central treasury.',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Delhi Sultanate: 5 Dynasties = Mamluk (1206-90), Khalji (1290-1320), Tughlaq (1320-1414), Sayyid (1414-51), Lodi (1451-1526). Raziyya (1236-40, Minhaj-i Siraj gender critique). Balban: \"Blood and Iron\", Zill-i-Ilahi (Shadow of God), Niyabat-i-Khudai, crushed Chahalgani, Sijda & Paibos, Nauroz. Iqta: Revenue assignment to Muqti; surplus balance (Fawazil) remitted to central treasury.",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Delhi Sultanate Foundations Blueprint: 1) Five Dynasties: Established 1206 by Qutbuddin Aibak; Iltutmish created Turkan-i-Chahalgani (The Forty) and silver Tanka/copper Jital; ended 1526 with First Battle of Panipat. 2) Balban (1266-87): Restored royal terror through divine kingship (Zill-i-Ilahi), eliminated the Forty, created Barid espionage network, instituted Iranian court rituals Sijda and Paibos. 3) Iqta System: Institutionalized by Iltutmish; assigned land revenue rights to Muqtis to fund cavalry; excess balance (Fawazil) paid to imperial treasury; non-hereditary under strong rulers.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "Delhi Sultanate Foundations Blueprint: 1) Five Dynasties: Established 1206 by Qutbuddin Aibak; Iltutmish created Turkan-i-Chahalgani (The Forty) and silver Tanka/copper Jital; Raziyya ruled 1236-40; dynasty ended 1526 with First Battle of Panipat. 2) Balban (1266-87): Restored royal terror through divine kingship (Zill-i-Ilahi), eliminated the Forty, created Barid espionage network, instituted Iranian court rituals Sijda and Paibos. 3) Iqta System: Institutionalized by Iltutmish; assigned land revenue rights to Muqtis to fund cavalry; excess balance (Fawazil) paid to imperial treasury; non-hereditary under strong rulers.",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Delhi Sultanate Institutional Architecture: 1) Sovereign Legitimacy: Caliphate recognition + Persian divine kingship. 2) Central Ministries: Diwan-i-Wizarat (Finance/Wazir), Diwan-i-Arz (Military/Ariz-i-Mamalik), Diwan-i-Insha (Royal Correspondence), Diwan-i-Risasat (Foreign Affairs/Markets). 3) Provincial & Revenue: Iqta tract -> Muqti extraction -> Fawazil audit -> Standing central army (Hashm-i-Qalb).',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Delhi Sultanate Institutional Architecture: 1) Sovereign Legitimacy: Caliphate recognition + Persian divine kingship. 2) Central Ministries: Diwan-i-Wizarat (Finance/Wazir), Diwan-i-Arz (Military/Ariz-i-Mamalik), Diwan-i-Insha (Royal Correspondence), Diwan-i-Risasat (Foreign Affairs/Markets). 3) Provincial & Revenue: Iqta tract -> Muqti extraction -> Fawazil audit -> Standing central army (Hashm-i-Qalb).",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'SULTANATE_MCQ',
-        stem: 'In the context of the administrative vocabulary of the Delhi Sultanate, what did the term "Fawazil" denote?',
-        options: [
-          'The hereditary land grant given to religious scholars and saints',
-          'The surplus revenue balance remitted to the central treasury by an Iqtadar after meeting sanctioned military and administrative expenses',
-          'The extra cess levied on agricultural produce during times of famine',
-          'The royal cavalry contingent stationed permanently at the imperial capital'
+        "type": "SULTANATE_MCQ",
+        "stem": "In the context of the administrative vocabulary of the Delhi Sultanate, what did the term \"Fawazil\" denote?",
+        "options": [
+          "The hereditary land grant given to religious scholars and saints",
+          "The surplus revenue balance remitted to the central treasury by an Iqtadar after meeting sanctioned military and administrative expenses",
+          "The extra cess levied on agricultural produce during times of famine",
+          "The royal cavalry contingent stationed permanently at the imperial capital"
         ],
-        correctAnswer: 'The surplus revenue balance remitted to the central treasury by an Iqtadar after meeting sanctioned military and administrative expenses',
-        explanation: 'Under the Iqta administrative system of the Delhi Sultanate, an Iqtadar (or Muqti) was entitled to collect revenue from his assigned territory, deduct sanctioned expenses for his troops, administrative overheads, and personal salary, and was obligated to remit the remaining surplus balance, known as "Fawazil", to the central treasury (Diwan-i-Wizarat).',
-        trapExplanation: 'Confusing Fawazil with religious land grants (Inam/Waqf) or extra cesses (Abwabs) is a frequent error.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2019,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Exact technical definition of Sultanate revenue term (Fawazil).',
+        "correctAnswer": "The surplus revenue balance remitted to the central treasury by an Iqtadar after meeting sanctioned military and administrative expenses",
+        "explanation": "Under the Iqta administrative system of the Delhi Sultanate, an Iqtadar (or Muqti) was entitled to collect revenue from his assigned territory, deduct sanctioned expenses for his troops, administrative overheads, and personal salary, and was obligated to remit the remaining surplus balance, known as \"Fawazil\", to the central treasury (Diwan-i-Wizarat).",
+        "trapExplanation": "Confusing Fawazil with religious land grants (Inam/Waqf) or extra cesses (Abwabs) is a frequent error.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2019,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Exact technical definition of Sultanate revenue term (Fawazil)."
       },
       {
-        type: 'SULTANATE_MCQ',
-        stem: 'Which Sultan of Delhi systematically introduced the court ceremonials of "Sijda" (prostration) and "Paibos" (kissing the feet of the monarch), and propagated the doctrine that the King is the "Shadow of God on Earth" (Zill-i-Ilahi)?',
-        options: ['Iltutmish', 'Ghiyasuddin Balban', 'Alauddin Khalji', 'Muhammad bin Tughlaq'],
-        correctAnswer: 'Ghiyasuddin Balban',
-        explanation: 'Ghiyasuddin Balban introduced the strict Persian court ceremonials of Sijda and Paibos to elevate the prestige of the Sultan above the Turkish nobility. He also propagated the ideological doctrine that the Sultan is Zill-i-Ilahi (Shadow of God) and Niyabat-i-Khudai (Deputy of God).',
-        trapExplanation: 'Many candidates incorrectly select Alauddin Khalji or Muhammad bin Tughlaq due to their radical administrative fame.',
-        difficulty: 'EASY',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'SSC CGL Tier 1',
-        pyqStage: 'Tier 1',
-        examinerTrapPattern: 'Balban court etiquette attribution.',
-      },
-    ],
+        "type": "SULTANATE_MCQ",
+        "stem": "Which Sultan of Delhi systematically introduced the court ceremonials of \"Sijda\" (prostration) and \"Paibos\" (kissing the feet of the monarch), and propagated the doctrine that the King is the \"Shadow of God on Earth\" (Zill-i-Ilahi)?",
+        "options": [
+          "Iltutmish",
+          "Ghiyasuddin Balban",
+          "Alauddin Khalji",
+          "Muhammad bin Tughlaq"
+        ],
+        "correctAnswer": "Ghiyasuddin Balban",
+        "explanation": "Ghiyasuddin Balban introduced the strict Persian court ceremonials of Sijda and Paibos to elevate the prestige of the Sultan above the Turkish nobility. He also propagated the ideological doctrine that the Sultan is Zill-i-Ilahi (Shadow of God) and Niyabat-i-Khudai (Deputy of God).",
+        "trapExplanation": "Many candidates incorrectly select Alauddin Khalji or Muhammad bin Tughlaq due to their radical administrative fame.",
+        "difficulty": "EASY",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "SSC CGL Tier 1",
+        "pyqStage": "Tier 1",
+        "examinerTrapPattern": "Balban court etiquette attribution."
+      }
+    ]
   },
 
   // =========================================================================
