@@ -1975,241 +1975,214 @@ export const MEDIEVAL_HISTORY_CONCEPTS: MedievalHistoryConceptDef[] = [
   // TOPIC 4 (CONCEPT 2): The Bahmani Kingdom & The Five Deccan Sultanates
   // =========================================================================
   {
-    id: 'CON-MED-10',
-    slug: 'the-bahmani-kingdom-and-the-five-deccan-sultanates',
-    title: 'The Bahmani Kingdom & The Five Deccan Sultanates: Mahmud Gawan, Deccani Architecture & The Talikota Coalition',
-    shortDefinition: 'The Islamic polities of the Deccan plateau (1347–1687 CE): Foundation by Alauddin Hasan Bahman Shah (Hasan Gangu), Mahmud Gawan\'s administrative centralisation, tarafs (provinces), and the three-storeyed Bidar Madrasa, disintegration into the five Deccan Sultanates (Adil Shahis of Bijapur, Nizam Shahis of Ahmadnagar, Qutb Shahis of Golconda, Barid Shahis of Bidar, Imad Shahis of Berar), the geopolitical struggle over the Krishna-Tungabhadra (Raichur) Doab culminating in the Battle of Talikota (1565), and cultural-architectural landmarks (Gol Gumbaz whispering gallery, Charminar, Ibrahim Rauza, Deccani miniature painting).',
-    difficulty: 'ADVANCED',
-    order: 10,
-    topicSlug: 'vijayanagara-empire-and-deccan-sultanates',
-    contentBlocks: [
+    "id": "CON-MED-10",
+    "slug": "the-bahmani-kingdom-and-the-five-deccan-sultanates",
+    "title": "The Bahmani Kingdom & The Five Deccan Sultanates: Mahmud Gawan, Deccani Architecture & The Talikota Coalition",
+    "shortDefinition": "Authoritative NCERT Class VII Chapters 3 & 4 and Class XII Theme 7 synthesis: The Islamic polities of the Deccan plateau (1347–1687 CE): Foundation by Alauddin Hasan Bahman Shah (Hasan Gangu) breaking away from the Tughlaq Sultanate; dynastic succession and factional friction between Deccanis (locals) and Afaqis (foreigners); Khwaja Mahmud Gawan's administrative centralisation (subdividing 4 provinces into 8 tarafs, royal Khas-i-Sultani lands, and the three-storeyed Bidar Madrasa 1472 CE); disintegration into the five Deccan Sultanates (Adil Shahi of Bijapur, Nizam Shahi of Ahmadnagar, Qutb Shahi of Golconda, Barid Shahi of Bidar, and Imad Shahi of Berar); the geopolitical struggle over the Krishna-Tungabhadra (Raichur) Doab culminating in the Battle of Talikota (1565 CE, with Berar absent); and monumental architectural landmarks (Gol Gumbaz in Bijapur with its acoustic Whispering Gallery, Charminar in Hyderabad 1591 CE, and Ibrahim Rauza).",
+    "difficulty": "ADVANCED",
+    "order": 10,
+    "topicSlug": "vijayanagara-empire-and-deccan-sultanates",
+    "contentBlocks": [
       {
-        type: 'INTUITION',
-        title: 'A Kingdom Born in Rebellion: The Rise of the Islamic Deccan',
-        body: `In the middle of the 14th century, as the tyrannical centralisation of Muhammad bin Tughlaq provoked rebellions across the Indian subcontinent, two rival imperial civilizations rose simultaneously south of the Vindhyas:
-* On the south bank of the Tungabhadra rose the Hindu empire of **Vijayanagara (1336)**.
-* On the north bank rose the sovereign Muslim state of the **Bahmani Kingdom (1347)**.
-
-Founded by an ambitious Afghan officer, **Alauddin Hasan Bahman Shah (popularly known as Hasan Gangu)**, the Bahmani Sultanate severed the Deccan from Delhi\'s control for two and a half centuries. 
-
-Operating at the crossroads of maritime Arabian Sea trade and the rich diamond mines of Golconda, the Bahmanis forged a vibrant Indo-Persian culture. However, the state was constantly torn by a bitter internal ethnic feud between the **Deccanis** (indigenous local Muslims) and the **Afaqis / Gharibs** (foreign Persian, Turkish, and Arab migrants). This factional rivalry ultimately led to the tragic execution of its greatest statesman, **Mahmud Gawan**, fracturing the kingdom into five independent Deccan Sultanates!`,
-        order: 1,
-        visibility: 'PUBLIC',
+        "type": "INTUITION",
+        "title": "A Kingdom Born in Rebellion: The Rise of the Islamic Deccan",
+        "body": "In the middle of the 14th century, as the aggressive centralisation of Sultan Muhammad bin Tughlaq provoked rebellions across the Indian subcontinent, two rival imperial civilizations rose simultaneously south of the Vindhya mountains:\n* On the south bank of the Tungabhadra River rose the Hindu empire of **Vijayanagara (1336 CE)**.\n* On the north bank rose the sovereign Muslim state of the **Bahmani Kingdom (1347 CE)**.\n\nFounded by an ambitious Afghan officer, **Alauddin Hasan Bahman Shah (popularly known as Hasan Gangu)**, who claimed lineage from the legendary Persian hero Bahman, the Bahmani Sultanate severed the Deccan from Delhi's direct political control for two and a half centuries.\n\nOperating at the strategic crossroads of Arabian Sea maritime trade (ports of Chaul and Dabhol) and the wealthy diamond mines of the Deccan plateau, the Bahmanis forged a vibrant Indo-Persian court culture. However, the kingdom was permanently crippled by a bitter, violent factional feud between the **Deccanis** (indigenous local Sunni Muslims and Kayasthas) and the **Afaqis / Gharibs** (newly arrived Persian, Turkish, and Arab immigrant nobles). This factional jealousy culminated in the judicial murder of the empire's greatest visionary statesman, **Khwaja Mahmud Gawan**, triggering the rapid disintegration of the Bahmani state into five independent Deccan Sultanates!",
+        "order": 1,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'CORE_IDEA',
-        title: 'Mahmud Gawan\'s Statecraft & The Five Deccan Sultanates Master Matrix',
-        body: `### 1. The Reforms of Khwaja Mahmud Gawan (Prime Minister, 1463–1481 CE)
-An Iranian merchant-turned-statesman who served under Muhammad Shah III, Mahmud Gawan modernized Bahmani governance:
-* **Administrative Centralization:** Divided the existing 4 unwieldy provinces (*tarafs*) into **8 smaller tarafs**, curbing the independent power of corrupt provincial governors (*Tarafdars*).
-* **Direct Royal Fiscal Control:** In every province, placed a tract of land directly under royal revenue collection (**Khas-i-Sultani**), ensuring the crown had funds independent of provincial lords.
-* **Military Inspection:** Obligated Tarafdars to maintain 500 horses for every ₹1 lakh of revenue; instituted strict salary deductions for under-strength contingents.
-* **Cultural Legacy:** Built the majestic three-storeyed **Mahmud Gawan Madrasa at Bidar (1472)** with a library of 3,000 Persian manuscripts and blue glazed ceramic tiles from Iran.
-* **Tragic Demise:** Jealous Deccani nobles forged a treasonous letter to the King of Orissa; the intoxicated Sultan ordered Gawan\'s execution in 1481 CE, fatally unravelling the empire.
-
----
-
-### 2. The Disintegration into the Five Deccan Sultanates (c. 1490–1527 CE)
-
-| Sultanate & Dynasty | Founder & Capital | Defining Architectural Masterpiece | Ultimate Historical Fate |
-| :--- | :--- | :--- | :--- |
-| **Bijapur (Adil Shahi)** | **Yusuf Adil Shah** (1489 CE); Capital: Bijapur. | **Gol Gumbaz** (Mausoleum of Muhammad Adil Shah; world's second-largest acoustic dome with acoustic "Whispering Gallery"); **Ibrahim Rauza**. | Major maritime Deccan power; patronized Dakhni poetry; annexed by Aurangzeb in **1686 CE**. |
-| **Golconda (Qutb Shahi)** | **Quli Qutb Shah** (1512 CE); Capital: Golconda / Hyderabad. | **Charminar (1591 CE)** built by Muhammad Quli Qutb Shah to commemorate plague eradication; massive Golconda diamond fortress. | World center of diamond trade (Koh-i-Noor, Hope Diamond); annexed by Aurangzeb in **1687 CE**. |
-| **Ahmadnagar (Nizam Shahi)** | **Malik Ahmad** (1490 CE); Capital: Ahmadnagar / Daulatabad. | Daulatabad Fort improvements; military innovations of Prime Minister **Malik Ambar** (guerilla warfare). | Heroic defense by **Chand Bibi**; annexed by Mughal Emperor Shah Jahan in **1636 CE**. |
-| **Bidar (Barid Shahi)** | **Qasim Barid** (1492 CE); Capital: Bidar. | Bidar Fort, Rangin Mahal (mother-of-pearl tile inlays); Bidriware metal craft. | Annexed by Bijapur in **1619 CE**. |
-| **Berar (Imad Shahi)** | **Fatullah Imad-ul-Mulk** (1490 CE); Capital: Ellichpur / Gawilgarh. | Gawilgarh hill fort fortifications. | **Annexed by Ahmadnagar in 1574 CE**; did NOT join the 1565 Talikota coalition! |`,
-        order: 2,
-        visibility: 'PUBLIC',
+        "type": "CORE_IDEA",
+        "title": "Mahmud Gawan's Statecraft & The Five Deccan Sultanates Master Matrix",
+        "body": "### 1. The Reforms of Khwaja Mahmud Gawan (Prime Minister, 1463–1481 CE)\nAn Iranian merchant-turned-statesman who served under Sultan Muhammad Shah III, Mahmud Gawan instituted sweeping administrative and military reforms:\n* **Provincial Reorganization:** Divided the 4 large, unwieldy provinces (*tarafs*) into **8 smaller tarafs**, slashing the territorial power base of provincial governors (*Tarafdars*).\n* **Direct Royal Fiscal Control:** In every province, designated a tract of fertile land directly under royal treasury collection (**Khas-i-Sultani**), ensuring the central monarch possessed independent revenue.\n* **Military Standardization:** Required Tarafdars to maintain 500 cavalrymen for every ₹1 lakh of assigned revenue; introduced strict salary deductions and branding inspections for under-strength contingents.\n* **Bidar Madrasa (1472 CE):** Constructed a magnificent three-storeyed theological college at Bidar decorated with blue glazed tiles from Iran, housing 3,000 rare Persian manuscripts and residential suites for scholars and students.\n* **Tragic Demise:** Jealous Deccani courtiers forged a treasonous letter to the Gajapati King of Odisha; the intoxicated Sultan ordered Gawan's execution in 1481 CE, fatally destroying the stability of the Bahmani state.\n\n---\n\n### 2. Disintegration into the Five Deccan Sultanates (c. 1490–1527 CE) (NCERT Class XII Theme 7)\n\n| Sultanate & Dynasty | Founder & Capital City | Defining Architectural Landmark | Ultimate Historical Fate |\n| :--- | :--- | :--- | :--- |\n| **Bijapur (Adil Shahi)** | **Yusuf Adil Shah** (1489 CE); Capital: Bijapur. | **Gol Gumbaz** (Mausoleum of Muhammad Adil Shah; world's second-largest acoustic dome with acoustic \"Whispering Gallery\"); **Ibrahim Rauza**. | Major maritime Deccan power; patronized Dakhni Urdu poetry; annexed by Emperor Aurangzeb in **1686 CE**. |\n| **Golconda (Qutb Shahi)** | **Quli Qutb Shah** (1512 CE); Capital: Golconda / Hyderabad. | **Charminar (1591 CE)** built by Muhammad Quli Qutb Shah to commemorate the eradication of plague; Golconda diamond citadel. | Global capital of diamond trade (source of the Koh-i-Noor and Hope Diamond); annexed by Aurangzeb in **1687 CE**. |\n| **Ahmadnagar (Nizam Shahi)** | **Malik Ahmad** (1490 CE); Capital: Junnar / Ahmadnagar. | Ahmadnagar Fort; mastered guerrilla cavalry warfare under Ethiopian minister **Malik Ambar** (Bargir-giri). | First major Deccani state to confront Mughal expansion; annexed under Shah Jahan in **1636 CE**. |\n| **Bidar (Barid Shahi)** | **Qasim Barid** (1492 CE); Capital: Bidar. | Rangin Mahal (decorated with mother-of-pearl inlay and colored glazed tiles within Bidar Fort). | Smallest sultanate; annexed by the Adil Shahis of Bijapur in **1619 CE**. |\n| **Berar (Imad Shahi)** | **Fathullah Imad-ul-Mulk** (1490 CE); Capital: Ellichpur / Gawilgarh. | Fortresses of Gawilgarh and Narnala. | Isolated northernmost sultanate; annexed by the Nizam Shahis of Ahmadnagar in **1574 CE**. **Crucial Exam Fact: Did NOT join the 1565 Talikota alliance!** |",
+        "order": 2,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'MECHANISM',
-        title: 'The Battle of Talikota (1565) & The Acoustic Architecture of Gol Gumbaz',
-        body: `### 1. Geopolitical Collision: The Battle of Talikota (Rakshasi-Tangadi, January 23, 1565)
-* **The Root Cause:** Perpetual war between Vijayanagara and the Deccan Sultanates over the fertile agricultural delta between the Krishna and Tungabhadra rivers (**The Raichur Doab**).
-* **The Diplomatic Catalyst:** Regent **Aliya Rama Raya** of Vijayanagara routinely pitted one Deccan Sultan against another. Disgusted by his arrogance, four sultanates formed a grand marital and military confederacy: **Bijapur, Ahmadnagar, Golconda, and Bidar**.
-* *Crucial Exception:* **Berar was excluded** due to its bitter territorial rivalry with Ahmadnagar.
-* **The Battle:** Heavy Deccan artillery and the sudden betrayal of two Muslim mercenary divisions under Rama Raya turned the tide. Rama Raya was captured and beheaded on the battlefield by Hussain Nizam Shah of Ahmadnagar, resulting in the sack and permanent ruin of Hampi.
-
-### 2. The Structural Engineering of the Gol Gumbaz
-* Constructed in 1656 CE by Yaqut of Dabul for Muhammad Adil Shah of Bijapur.
-* Features a massive hemispherical dome measuring **44 meters in external diameter**, supported without a single central pillar through an interlocking system of eight intersecting stone arches (**squinch system**).
-* Contains the famous circular **"Whispering Gallery"** around the inner perimeter, where the faintest acoustic whisper is echoed **11 times** and can be heard clearly across the entire 38-meter chamber!`,
-        order: 3,
-        visibility: 'PUBLIC',
+        "type": "MECHANISM",
+        "title": "The Battle of Talikota Coalition & Deccani Cultural-Architectural Zenith",
+        "body": "### 1. The Geopolitical Crucible of the Krishna-Tungabhadra Doab\nFor over two centuries, the fertile, mineral-rich **Raichur Doab** between the Krishna and Tungabhadra rivers served as the perpetual flashpoint between Vijayanagara and the northern Sultanates:\n* **Aliya Rama Raya's Balance of Power:** The regent of Vijayanagara exploited deep-seated rivalries among Bijapur, Golconda, and Ahmadnagar, alternating alliances to humble one Sultan with the aid of another.\n* **The Grand Alliance of 1565:** Sensing imminent subjugation, four Sultanates—**Bijapur, Ahmadnagar, Golconda, and Bidar**—subordinated their differences and cemented a grand military alliance through inter-dynastic marriages (Chand Bibi of Ahmadnagar married Ali Adil Shah I of Bijapur).\n* **Talikota / Rakshasi-Tangadi (1565 CE):** The coalition mobilized coordinated artillery batteries under Rumi Khan. Vijayanagara was decisively defeated, Rama Raya was executed, and the imperial capital of Hampi was systematically pillaged.\n\n---\n\n### 2. Architectural Marvels of the Deccan Sultanates\n* **Gol Gumbaz (Bijapur):**\n  * Completed in 1656 CE as the mausoleum of Muhammad Adil Shah.\n  * Structural Engineering: One of the largest single-span domes ever built without central pillar supports (internal diameter of 44 meters), supported on a system of eight intersecting arches (**squinches**).\n  * **The Whispering Gallery:** A circular cantilevered balcony running inside the base of the dome where even the faintest whisper is echoed eleven times across the 40-meter chamber!\n* **Charminar (Hyderabad):**\n  * Constructed in 1591 CE by Muhammad Quli Qutb Shah (the 5th ruler of the Qutb Shahi dynasty) at the center of his new capital city of Hyderabad.\n  * Built to commemorate the end of a catastrophic cholera/plague epidemic following royal prayers.\n  * Square granite structure with four grand 20-meter-wide arches facing the cardinal directions, surmounted by four soaring 56-meter-high minarets with double balconies.\n* **Malik Ambar's Military & Agrarian Innovations (Ahmadnagar):**\n  * An Ethiopian military leader (*Habshi*) who served as prime minister of Ahmadnagar.\n  * Pioneered guerrilla warfare (**Bargir-giri**) against the Mughal imperial armies, which later became the operational foundation of Chhatrapati Shivaji Maharaj's Maratha tactics.\n  * Introduced a scientific land revenue settlement based on measurement and classification, modeled on Todar Mal's Zabt system.",
+        "order": 3,
+        "visibility": "PUBLIC"
       },
       {
-        type: 'EXAM_APPLICATION',
-        title: 'Examiner Traps, The 5 Sultanates Matrix & Berar\'s Exclusion',
-        body: `### High-Frequency Traps in Deccan Sultanate History
-
-1. **The 5 Sultanates vs Founders Pairing (UPSC & State PSC Classic!):**
-   * **Bijapur:** Adil Shahi (Yusuf Adil Shah).
-   * **Golconda:** Qutb Shahi (Quli Qutb Shah).
-   * **Ahmadnagar:** Nizam Shahi (Malik Ahmad).
-   * **Bidar:** Barid Shahi (Qasim Barid).
-   * **Berar:** Imad Shahi (Fatullah Imad-ul-Mulk).
-   * *Trap:* Swapping Barid Shahi with Imad Shahi.
-
-2. **The Battle of Talikota Coalition Trap:**
-   * *Trap:* Assuming all five Deccan Sultanates fought against Vijayanagara.
-   * *Truth:* **Berar was ABSENT**! The alliance comprised only four: Bijapur, Ahmadnagar, Golconda, and Bidar.
-
-3. **Charminar Builder & Purpose:**
-   * Built in **1591 CE** by **Muhammad Quli Qutb Shah** at Hyderabad to commemorate the eradication of a devastating plague epidemic.`,
-        order: 4,
-        visibility: 'PUBLIC',
+        "type": "EXAM_APPLICATION",
+        "title": "High-Frequency Examiner Traps, Dynastic Matching & Deccani Terminology",
+        "body": "### 1. High-Frequency Traps & Misconceptions\n\n* **Trap 1: The Talikota Alliance Composition (The Berar Exclusion).**\n  * *Trap Question:* \"All five Deccan Sultanates united under a joint command to defeat Vijayanagara at the Battle of Talikota in 1565.\"\n  * *Correct Fact:* **Incorrect.** Only four Sultanates formed the alliance: Bijapur, Ahmadnagar, Golconda, and Bidar. **Berar took no part** due to ongoing territorial hostility with neighboring Ahmadnagar!\n* **Trap 2: Gol Gumbaz Ruler Matching.**\n  * *Trap Question:* \"Gol Gumbaz was constructed by Yusuf Adil Shah, the founder of the Bijapur dynasty.\"\n  * *Correct Fact:* **Incorrect.** It was built nearly 150 years later as the tomb of **Muhammad Adil Shah** (reigned 1627–1656 CE).\n* **Trap 3: Charminar Purpose & Builder.**\n  * *Trap Question:* \"Charminar was built as a victory gate by Aurangzeb after conquering Golconda.\"\n  * *Correct Fact:* **Completely False.** It was built in 1591 CE by **Muhammad Quli Qutb Shah** of Golconda to commemorate the eradication of the plague, nearly a century before Aurangzeb conquered Golconda in 1687 CE.\n* **Trap 4: Founder of Bahmani Kingdom.**\n  * *Trap Question:* \"The Bahmani Kingdom was founded by Mahmud Gawan.\"\n  * *Correct Fact:* **Incorrect.** It was founded in 1347 CE by **Alauddin Hasan Bahman Shah (Hasan Gangu)**. Mahmud Gawan was a Prime Minister (*Wakil-us-Sultanat*) who served much later (1463–1481 CE).\n\n---\n\n### 2. Dynastic Matching Quick-Reference Table (UPSC / State PSC)\n\n| Sultanate | Ruling Dynasty | Key Historic Ruler | Capital City |\n| :--- | :--- | :--- | :--- |\n| **Bijapur** | **Adil Shahi** | Ibrahim Adil Shah II (*Jagadguru Badshah*), Muhammad Adil Shah | Bijapur |\n| **Golconda** | **Qutb Shahi** | Muhammad Quli Qutb Shah | Golconda / Hyderabad |\n| **Ahmadnagar** | **Nizam Shahi** | Malik Ahmad, Chand Bibi, Malik Ambar (Regent) | Junnar / Ahmadnagar |\n| **Bidar** | **Barid Shahi** | Qasim Barid, Ali Barid | Bidar |\n| **Berar** | **Imad Shahi** | Fathullah Imad-ul-Mulk | Ellichpur / Gawilgarh |",
+        "order": 4,
+        "visibility": "PUBLIC"
       },
+      {
+        "type": "MAP_PERSPECTIVE",
+        "title": "Geopolitical Fragmentation of the Deccan Plateau: The Five Sultanates and River Basins",
+        "body": "### The Strategic Geopolitical Map of the Medieval Deccan\n\n>                     ~~~~~~~~~~~~~~~~ Godavari River ~~~~~~~~~~~~~~~~\n>                    |                                                |\n>            [BERAR / GAWILGARH]                            [ORISSA / GAJAPATIS]\n>            (Imad Shahi - North)                                     |\n>                    |                                                |\n>        [AHMADNAGAR / DAULATABAD]                                    |\n>        (Nizam Shahi - Northwest)                                    |\n>                    |                                                |\n>                    v                                                v\n>             [BIDAR / BARID SHAHI]                   [GOLCONDA / HYDERABAD]\n>             (Central Plateau Hub)                   (Qutb Shahi - East/Musi River)\n>                    |                                 * Diamond Mines (Kollur)\n>                    v                                                |\n>            [BIJAPUR / ADIL SHAHI]                                   |\n>            (Southwest / Krishna River)                              |\n>                    |                                                |\n>             ~~~~~~~~~~~~~~~~~~ Krishna River ~~~~~~~~~~~~~~~~~~\n>            |                                                   |\n>            |         THE RAICHUR DOAB (Contested Triangle)     |\n>            |                                                   |\n>             ~~~~~~~~~~~~~~~ Tungabhadra River ~~~~~~~~~~~~~~~~~\n>                                     |\n>                         [VIJAYANAGARA / HAMPI]\n>                         (Southern Imperial Power)\n\n### Strategic Geographic Realities (NCERT Class XII Theme 7)\n1. **The Riverine Front-lines:** The Godavari, Krishna, and Tungabhadra rivers defined the military frontiers of the Deccan. The triangular wedge of the **Raichur Doab** between the Krishna and Tungabhadra was the permanent theater of war.\n2. **Maritime Outlets to the Arabian Sea:** Bijapur and Ahmadnagar controlled the western ports of Chaul, Dabhol, and Goa (prior to Portuguese capture in 1510), giving them direct access to the lucrative Arabian war-horse import trade and Red Sea pilgrim routes.\n3. **Golconda's Riverine Diamond Corridor:** Golconda dominated the eastern deltaic plains of the Godavari and Krishna rivers, operating the world's richest alluvial diamond mines along the Krishna River basin at Kollur.",
+        "order": 5,
+        "visibility": "PUBLIC"
+      }
     ],
-    claims: [
+    "claims": [
       {
-        id: 'CLM-MED-10-1',
-        statement: 'The Bahmani Sultanate was founded in 1347 CE by Alauddin Hasan Bahman Shah (Hasan Gangu) breaking away from the Delhi Sultanate, establishing capitals first at Gulbarga and later at Bidar.',
-        claimType: 'POLITICAL_FOUNDATION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'The Bahmani Kingdom: Founded 1347 by Hasan Gangu; Gulbarga and Bidar capitals; administrative tarafs.',
+        "id": "CLM-MED-10-1",
+        "statement": "The Bahmani Sultanate was founded in 1347 CE by Alauddin Hasan Bahman Shah (Hasan Gangu) breaking away from the Tughlaq Delhi Sultanate, establishing capitals successively at Gulbarga (Ahsanabad) and Bidar (Muhammadabad).",
+        "claimType": "POLITICAL_FOUNDATION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 3: The Delhi Sultans, p. 40 & Class XII Theme 7, p. 170",
+        "excerpt": "In the fourteenth century, Muhammad Tughluq's policies led to widespread revolts... South of the Vindhyas, two major states emerged: the Vijayanagara Empire and the Bahmani Sultanate, established in 1347 by Hasan Gangu, who took the title Alauddin Bahman Shah."
       },
       {
-        id: 'CLM-MED-10-2',
-        statement: 'Prime Minister Mahmud Gawan (1463–1481 CE) centralized Bahmani administration by subdividing four provinces into eight tarafs, instituting direct royal lands (Khas-i-Sultani), and constructing the Mahmud Gawan Madrasa at Bidar.',
-        claimType: 'ADMINISTRATIVE_REFORM',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Mahmud Gawan: Prime minister under Muhammad Shah III, administrative reforms, 8 tarafs, Bidar madrasa 1472.',
+        "id": "CLM-MED-10-2",
+        "statement": "Prime Minister Khwaja Mahmud Gawan (1463–1481 CE) centralized Bahmani administration by subdividing four provinces into eight smaller tarafs, instituting crown lands (Khas-i-Sultani) in each province, enforcing military cavalry musters, and constructing the three-storeyed Mahmud Gawan Madrasa at Bidar in 1472 CE.",
+        "claimType": "ADMINISTRATIVE_REFORM",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 3: The Delhi Sultans, Supplementary Reading & Class XII Theme 7, p. 172",
+        "excerpt": "The Bahmani kingdom reached the height of its power during the prime ministership of Mahmud Gawan (1463–81)... He divided the kingdom into eight provinces (tarafs)... He built a magnificent madrasa in Bidar in the Persian architectural style with a library of thousands of manuscripts."
       },
       {
-        id: 'CLM-MED-10-3',
-        statement: 'The Bahmani state disintegrated into five Deccan Sultanates (Adil Shahi of Bijapur, Nizam Shahi of Ahmadnagar, Qutb Shahi of Golconda, Barid Shahi of Bidar, and Imad Shahi of Berar), four of which formed the 1565 Talikota alliance excluding Berar.',
-        claimType: 'DYNASTIC_SUCCESSION',
-        epistemicLevel: 'ESTABLISHED_FACT',
-        confidence: 'HIGH',
-        locator: 'History_Culture_Master.md#note-14',
-        excerpt: 'Disintegration into 5 Deccan Sultanates: Bijapur, Golconda, Ahmadnagar, Bidar, Berar; Talikota 1565.',
+        "id": "CLM-MED-10-3",
+        "statement": "The Bahmani state disintegrated into five independent Deccan Sultanates—the Adil Shahis of Bijapur, Nizam Shahis of Ahmadnagar, Qutb Shahis of Golconda, Barid Shahis of Bidar, and Imad Shahis of Berar—four of which formed a grand military coalition (with Berar excluded) to decisively defeat Vijayanagara at the Battle of Talikota in 1565 CE.",
+        "claimType": "DYNASTIC_SUCCESSION",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class XII Themes in Indian History - Part II, Theme 7: An Imperial Capital: Vijayanagara, Section 2.1: The Battle of Rakshasi-Tangadi, pp. 173-175",
+        "excerpt": "The sultans of the Deccan—Bijapur, Golconda, Ahmadnagar, Bidar and Berar—emerged from the breakup of the Bahmani kingdom... In 1565 Rama Raya led the army into battle at Rakshasi-Tangadi (Talikota), where his forces were routed by the combined armies of Bijapur, Ahmadnagar and Golconda... Berar did not join the coalition."
       },
+      {
+        "id": "CLM-MED-10-4",
+        "statement": "Deccani architectural expression achieved monumental peaks under the Sultanates, exemplified by the acoustic Whispering Gallery and single-span squinch dome of Gol Gumbaz in Bijapur (completed 1656 CE as the tomb of Muhammad Adil Shah) and the Charminar in Hyderabad (built in 1591 CE by Muhammad Quli Qutb Shah to commemorate plague eradication).",
+        "claimType": "ARCHITECTURAL_ACHIEVEMENT",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "NCERT Class VII Our Pasts - II, Chapter 5: Rulers and Buildings, Section: Engineering Skills & Monuments, pp. 66, 74",
+        "excerpt": "In the Deccan, monumental buildings like the Gol Gumbaz in Bijapur demonstrated extraordinary architectural mastery. Its colossal dome is supported on intersecting arches without central pillars, creating a famous whispering gallery... In Hyderabad, the Charminar was built by Muhammad Quli Qutb Shah in 1591."
+      }
     ],
-    examMappings: [
+    "examMappings": [
       {
-        examCode: 'UPSC_CSE',
-        syllabusUnit: 'GS Paper I — Medieval Indian History / Deccan Sultanates & Architecture',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'EXHAUSTIVE_HISTORICAL_ANALYSIS',
-        notes: 'Mahmud Gawan reforms, Gol Gumbaz squinch dome, and the 5 Sultanate founder matrix frequently tested.',
+        "examCode": "UPSC_CSE",
+        "syllabusUnit": "GS Paper I — Medieval Indian History / Deccan Sultanates, Architecture & Geopolitics",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "EXHAUSTIVE_DECCAN_ANALYSIS",
+        "notes": "Mahmud Gawan's tarafs, Deccani vs Afaqi conflict, Battle of Talikota coalition roster (Berar exclusion), and Gol Gumbaz acoustic engineering are premier UPSC CSE themes."
       },
       {
-        examCode: 'RPSC_RAS',
-        syllabusUnit: 'Mains Paper I — Medieval Indian History & Deccan Architecture',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'COMPREHENSIVE_DESCRIPTIVE',
-        notes: 'Descriptive questions on Battle of Talikota and Gol Gumbaz architecture.',
+        "examCode": "RPSC_RAS",
+        "syllabusUnit": "Mains Paper I — Medieval Indian Sultanates, Regional Kingdoms & Architecture",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "COMPREHENSIVE_DESCRIPTIVE",
+        "notes": "Frequent 5-mark questions on Mahmud Gawan's reforms and the Five Deccan Sultanates."
       },
       {
-        examCode: 'SSC_CGL',
-        syllabusUnit: 'General Awareness — Medieval Indian History',
-        relevance: 'CORE',
-        priority: 'VERY_HIGH',
-        requiredDepth: 'FACTUAL_RETRIEVAL',
-        notes: 'Tested on Gol Gumbaz location (Bijapur), Charminar builder (Quli Qutb Shah), and Hasan Gangu.',
+        "examCode": "SSC_CGL",
+        "syllabusUnit": "General Awareness — Medieval Indian History & Deccan Dynasties",
+        "relevance": "CORE",
+        "priority": "VERY_HIGH",
+        "requiredDepth": "FACTUAL_RETRIEVAL",
+        "notes": "Tested on founders and dynasties: Adil Shahi (Bijapur), Qutb Shahi (Golconda), Gol Gumbaz builder (Muhammad Adil Shah), Charminar builder (Muhammad Quli Qutb Shah)."
       },
       {
-        examCode: 'UPSC_APFC',
-        syllabusUnit: 'Indian History & Culture — Medieval Deccan',
-        relevance: 'CORE',
-        priority: 'HIGH',
-        requiredDepth: 'ADMINISTRATIVE_TERMS',
-        notes: 'Tested on Tarafdar provincial system and Talikota alliance.',
+        "examCode": "UPSC_APFC",
+        "syllabusUnit": "Indian Culture & Heritage — Deccan Regional Architecture & Administration",
+        "relevance": "CORE",
+        "priority": "HIGH",
+        "requiredDepth": "ADMINISTRATIVE_TERMINOLOGY",
+        "notes": "Tested on administrative vocabulary: Tarafs, Tarafdars, Khas-i-Sultani, Bargir-giri, and Deccani miniature painting schools."
       },
       {
-        examCode: 'SBI_PO',
-        syllabusUnit: 'General Awareness — Static Medieval Heritage',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on monuments like Charminar and Gol Gumbaz.',
+        "examCode": "SBI_PO",
+        "syllabusUnit": "General Awareness — Static Indian Heritage & Historical Monuments",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Monuments of national importance: Gol Gumbaz (Bijapur, Karnataka) and Charminar (Hyderabad, Telangana)."
       },
       {
-        examCode: 'IBPS_PO',
-        syllabusUnit: 'General Awareness — Culture & Monuments',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'FACTUAL_HIGHLIGHTS',
-        notes: 'Tested on Deccan Sultanates and architectural landmarks.',
+        "examCode": "IBPS_PO",
+        "syllabusUnit": "General Awareness — Culture, Monuments & History",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "FACTUAL_HIGHLIGHTS",
+        "notes": "Static awareness questions on historical architecture and founding dynasties."
       },
       {
-        examCode: 'RBI_GRADE_B',
-        syllabusUnit: 'General Awareness — Historical Milestones',
-        relevance: 'SUPPORTING',
-        priority: 'MEDIUM',
-        requiredDepth: 'GENERAL_AWARENESS',
-        notes: 'Phase 1 questions on medieval regional kingdoms.',
+        "examCode": "RBI_GRADE_B",
+        "syllabusUnit": "General Awareness — Historical Milestones & Regional Polities",
+        "relevance": "SUPPORTING",
+        "priority": "MEDIUM",
+        "requiredDepth": "GENERAL_AWARENESS",
+        "notes": "Phase 1 static questions on medieval trade hubs (Golconda diamonds, Chaul/Dabhol ports)."
       },
       {
-        examCode: 'IIBF_DBF',
-        syllabusUnit: 'General Socio-Economic Background',
-        relevance: 'SUPPORTING',
-        priority: 'LOW',
-        requiredDepth: 'CONCEPTUAL_OVERVIEW',
-        notes: 'Economic and cultural background of medieval Deccan.',
-      },
+        "examCode": "IIBF_DBF",
+        "syllabusUnit": "General Socio-Economic Background — Maritime Trade & Mineral Extraction",
+        "relevance": "SUPPORTING",
+        "priority": "LOW",
+        "requiredDepth": "CONCEPTUAL_OVERVIEW",
+        "notes": "Deccan maritime trade routes, Persian Gulf linkages, and the Kollur diamond mines."
+      }
     ],
-    revisionUnits: [
+    "revisionUnits": [
       {
-        type: 'FLASH_30S',
-        content: 'Bahmanis: Founded 1347 by Hasan Gangu (Alauddin Bahman Shah); capitals Gulbarga then Bidar. Mahmud Gawan (PM): 8 tarafs, Bidar Madrasa (1472). 5 Sultanates: Bijapur (Adil Shahi - Gol Gumbaz), Golconda (Qutb Shahi - Charminar 1591), Ahmadnagar (Nizam Shahi), Bidar (Barid Shahi), Berar (Imad Shahi). Battle of Talikota (1565): 4 Sultanates crushed Vijayanagara (Berar absent!).',
-        priority: 'HIGH',
-        order: 1,
+        "type": "FLASH_30S",
+        "content": "Bahmani (1347–1527): Founded by Hasan Gangu (Alauddin Bahman Shah). Capitals: Gulbarga -> Bidar. Mahmud Gawan (PM): 8 tarafs, Khas-i-Sultani royal lands, Bidar Madrasa (1472). 5 Deccan Sultanates: Bijapur (Adil Shahi, Gol Gumbaz), Golconda (Qutb Shahi, Charminar 1591), Ahmadnagar (Nizam Shahi, Malik Ambar), Bidar (Barid Shahi), Berar (Imad Shahi). Battle of Talikota (1565): Bijapur + Ahmadnagar + Golconda + Bidar defeated Vijayanagara (Berar was ABSENT!).",
+        "priority": "HIGH",
+        "order": 1
       },
       {
-        type: 'SUMMARY_2M',
-        content: 'Bahmani & Deccan Sultanates Blueprint: 1) Origin: 1347 CE revolt against Tughlaq by Hasan Gangu. 2) Golden Age: Mahmud Gawan divided provinces into 8 tarafs, strengthened royal treasury, built Bidar Madrasa; executed 1481 due to Deccani-Afaqi factionalism. 3) Disintegration: Splintered into 5 Sultanates: Adil Shahi (Bijapur), Qutb Shahi (Golconda), Nizam Shahi (Ahmadnagar), Barid Shahi (Bidar), Imad Shahi (Berar). 4) Talikota 1565: Coalition of 4 (excluding Berar) defeated Vijayanagara over the Raichur Doab. 5) Architecture: Gol Gumbaz whispering gallery dome and Charminar.',
-        priority: 'HIGH',
-        order: 2,
+        "type": "SUMMARY_2M",
+        "content": "The Bahmani Kingdom & Deccan Sultanates Blueprint: 1) Genesis & Climax: Founded 1347 CE by Hasan Gangu; reached apex under PM Mahmud Gawan who curbed feudal barons by doubling tarafs to 8 and creating crown lands. 2) Five Sultanates: Fractured into Bijapur (Adil Shahi), Golconda (Qutb Shahi), Ahmadnagar (Nizam Shahi), Bidar (Barid Shahi), and Berar (Imad Shahi). 3) Battle of Talikota (1565): 4 Sultanates formed a matrimonial coalition (Berar excluded) that routed Aliya Rama Raya. 4) Architecture: Gol Gumbaz in Bijapur (44m squinch dome, Whispering Gallery) and Charminar in Hyderabad (1591, Qutb Shahi plague memorial).",
+        "priority": "HIGH",
+        "order": 2
       },
       {
-        type: 'ARCHITECTURE_5M',
-        content: 'Deccan Polities Spatial Architecture: 1) Raichur Doab Geopolitical Axis: Fertile inter-fluvial prize driving centuries of war between Krishna and Tungabhadra rivers. 2) Deccani-Afaqi Dualism: Destructive internal ethnic clash between indigenous Deccanis and foreign Persian/Arab migrants. 3) Structural Engineering: Evolution of the squinch arch system culminating in the colossal Gol Gumbaz dome without central pillar support.',
-        priority: 'HIGH',
-        order: 3,
-      },
+        "type": "ARCHITECTURE_5M",
+        "content": "Deccan Sultanate Geopolitical Architecture: 1) Geostrategic Axis: Krishna-Tungabhadra (Raichur) Doab as the perpetual flashpoint between northern Muslim Sultanates and southern Hindu Vijayanagara. 2) Factional Polarity: Deccani (indigenous Sunni) vs Afaqi (foreign Persian/Turkish Shia) noble rivalries destabilizing central authority. 3) Economic Engines: Western Arabian Sea horse ports (Dabhol/Chaul) + Eastern Krishna delta diamond mines (Kollur). 4) Military Innovation: Malik Ambar's Bargir-giri guerrilla warfare laying the tactical groundwork for Maratha statehood.",
+        "priority": "HIGH",
+        "order": 3
+      }
     ],
-    questions: [
+    "questions": [
       {
-        type: 'DECCAN_SULTANATE_MCQ',
-        stem: 'Match List-I (Deccan Sultanate) with List-II (Ruling Dynasty) and select the correct option using the codes given below:\nA. Bijapur — 1. Nizam Shahi\nB. Ahmadnagar — 2. Adil Shahi\nC. Golconda — 3. Imad Shahi\nD. Berar — 4. Qutb Shahi',
-        options: [
-          'A-2, B-1, C-4, D-3',
-          'A-1, B-2, C-3, D-4',
-          'A-2, B-4, C-1, D-3',
-          'A-4, B-1, C-2, D-3'
+        "type": "DECCAN_MCQ",
+        "stem": "Which of the five Deccan Sultanates was NOT a participant in the grand military alliance that defeated the Vijayanagara Empire at the Battle of Talikota (Rakshasi-Tangadi) in 1565 CE?",
+        "options": [
+          "Adil Shahis of Bijapur",
+          "Imad Shahis of Berar",
+          "Nizam Shahis of Ahmadnagar",
+          "Barid Shahis of Bidar"
         ],
-        correctAnswer: 'A-2, B-1, C-4, D-3',
-        explanation: 'The five successor states of the Bahmani kingdom and their founding dynasties are: Bijapur — Adil Shahi; Ahmadnagar — Nizam Shahi; Golconda — Qutb Shahi; Berar — Imad Shahi; and Bidar — Barid Shahi.',
-        trapExplanation: 'Swapping Adil Shahi with Nizam Shahi or confusing Imad Shahi with Barid Shahi are classic examiner traps.',
-        difficulty: 'INTERMEDIATE',
-        isPYQ: true,
-        pyqYear: 2022,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'Deccan Sultanate dynasties matching matrix.',
+        "correctAnswer": "Imad Shahis of Berar",
+        "explanation": "The grand Deccan coalition that defeated Vijayanagara at the Battle of Talikota in 1565 consisted of four Sultanates: Bijapur, Ahmadnagar, Golconda, and Bidar. The fifth Sultanate, Berar (Imad Shahi), did NOT join the alliance due to bitter ongoing territorial disputes with neighboring Ahmadnagar.",
+        "trapExplanation": "Candidates frequently assume all five Deccan Sultanates joined forces; Berar was the sole non-participant.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2021,
+        "pyqPaper": "UPSC CSE Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "The Berar exclusion trap in the Battle of Talikota coalition."
       },
       {
-        type: 'TALIKOTA_COALITION_MCQ',
-        stem: 'Which of the following Deccan Sultanates did NOT participate in the grand alliance that defeated the Vijayanagara Empire at the Battle of Talikota (Rakshasi-Tangadi) in 1565?',
-        options: ['Bijapur', 'Ahmadnagar', 'Golconda', 'Berar'],
-        correctAnswer: 'Berar',
-        explanation: 'The Deccan Sultanate alliance that destroyed Vijayanagara in the Battle of Talikota (1565) comprised four sultanates: Bijapur, Ahmadnagar, Golconda, and Bidar. Due to ongoing regional feuds with Ahmadnagar, the Sultanate of Berar did NOT join the alliance.',
-        trapExplanation: 'Most students assume all five successor states of the Bahmani kingdom participated in the Battle of Talikota. Berar\'s absence is a famous examiner trap.',
-        difficulty: 'ADVANCED',
-        isPYQ: true,
-        pyqYear: 2021,
-        pyqPaper: 'UPSC CSE Prelims',
-        pyqStage: 'Prelims',
-        examinerTrapPattern: 'The excluded member of the 1565 Deccan coalition (Berar).',
-      },
-    ],
+        "type": "DECCAN_MCQ",
+        "stem": "The architectural masterpiece \"Gol Gumbaz\" in Bijapur—renowned for having one of the largest unsupported domes in the world and an acoustic \"Whispering Gallery\"—was constructed as the mausoleum of which Adil Shahi ruler?",
+        "options": [
+          "Yusuf Adil Shah",
+          "Ali Adil Shah I",
+          "Ibrahim Adil Shah II",
+          "Muhammad Adil Shah"
+        ],
+        "correctAnswer": "Muhammad Adil Shah",
+        "explanation": "Gol Gumbaz was completed in 1656 CE as the mausoleum of Muhammad Adil Shah (reigned 1627–1656 CE) of the Adil Shahi dynasty of Bijapur. It is celebrated for its massive 44-meter single-span dome supported on intersecting squinch arches and its extraordinary acoustic whispering gallery.",
+        "trapExplanation": "Yusuf Adil Shah was the founder; Ibrahim Adil Shah II built the Ibrahim Rauza; Muhammad Adil Shah built Gol Gumbaz.",
+        "difficulty": "INTERMEDIATE",
+        "isPYQ": true,
+        "pyqYear": 2020,
+        "pyqPaper": "RPSC RAS Prelims",
+        "pyqStage": "Prelims",
+        "examinerTrapPattern": "Exact ruler associated with Gol Gumbaz (Muhammad Adil Shah)."
+      }
+    ]
   },
 ];
 
