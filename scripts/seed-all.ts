@@ -31,6 +31,10 @@ import { seedAgricultureCanonicalKnowledge } from '../lib/benchmark/batch-agricu
 import { seedAPFCIRCanonicalKnowledge } from '../lib/benchmark/batch-apfc-ir-canonical-seed';
 import { seedPreviousYearQuestionsAndTraps } from '../lib/benchmark/batch-pyqs-and-traps-canonical-seed';
 import { seedRPSCRASPreviousYearQuestions } from '../lib/benchmark/batch-rpsc-ras-pyqs-seed';
+import { seedHindiMasterCanonicalKnowledge } from '../lib/benchmark/batch-hindi-master-canonical-seed';
+import { seedPubAdLawsMasterCanonicalKnowledge } from '../lib/benchmark/batch-pubad-laws-canonical-seed';
+import { seedEthicsBehaviorSportsCanonicalKnowledge } from '../lib/benchmark/batch-ethics-behavior-sports-canonical-seed';
+import { seedRajasthanMasterCanonicalKnowledge } from '../lib/benchmark/batch-rajasthan-master-canonical-seed';
 
 export async function main() {
   console.log('Seeding canonical database for static build...');
@@ -133,6 +137,18 @@ export async function main() {
 
   // Seed RPSC RAS 10-Year Canonical Question Bank (Prelims & Mains 2M, 5M, 10M)
   await seedRPSCRASPreviousYearQuestions();
+
+  // Seed General Hindi Master (Mains Paper IV — 120 Marks: Topics 1-15, 25 concepts)
+  await seedHindiMasterCanonicalKnowledge();
+
+  // Seed Public Administration & Minor Laws (Mains Paper III — 85 Marks: 20 concepts)
+  await seedPubAdLawsMasterCanonicalKnowledge();
+
+  // Seed Administrative Ethics, Behavior & Sports (Mains Paper II — 105 Marks: 18 concepts)
+  await seedEthicsBehaviorSportsCanonicalKnowledge();
+
+  // Seed Rajasthan History, Culture & Micro-Geography Master (Mains Paper I & Geography — 95 Marks: 18 concepts)
+  await seedRajasthanMasterCanonicalKnowledge();
 
   const count = await db.concept.count();
   console.log(`Successfully seeded ${count} canonical concepts.`);
