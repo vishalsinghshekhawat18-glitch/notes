@@ -479,5 +479,238 @@ export async function seedPreviousYearQuestionsAndTraps() {
     }
   }
 
-  console.log(`[PYQ Seed] Successfully seeded ${sbiCount} SBI PO Mains Quant PYQs and ${apfcCount} UPSC APFC/EPFO PYQs.`);
+  let asCount = 0;
+  for (const q of CANONICAL_AMIT_SENGUPTA_SOLVED_PYQS) {
+    const concept = await db.concept.findUnique({ where: { id: q.conceptId } });
+    if (!concept) {
+      console.warn(`[PYQ Seed] Concept ${q.conceptId} not found for Solved PYQ.`);
+      continue;
+    }
+
+    const existing = await db.question.findFirst({
+      where: { conceptId: concept.id, stem: q.stem }
+    });
+
+    if (!existing) {
+      await db.question.create({
+        data: {
+          conceptId: concept.id,
+          type: q.type,
+          stem: q.stem,
+          options: JSON.stringify(q.options),
+          correctAnswer: q.correctAnswer,
+          explanation: q.explanation,
+          trapExplanation: q.trapExplanation,
+          difficulty: q.difficulty,
+          isPYQ: true,
+          pyqYear: q.pyqYear,
+          pyqPaper: q.pyqPaper,
+          pyqStage: q.pyqStage,
+          examinerTrapPattern: q.examinerTrapPattern
+        }
+      });
+      asCount++;
+    }
+  }
+
+  console.log(`[PYQ Seed] Successfully seeded ${sbiCount} SBI PO Mains Quant PYQs, ${apfcCount} UPSC APFC/EPFO PYQs, and ${asCount} Solved Exam PYQs.`);
 }
+
+export const CANONICAL_AMIT_SENGUPTA_SOLVED_PYQS: PYQDefinition[] = [
+  // =========================================================================
+  // 1. UPSC CSE Prelims 2017 — Economics (Lecture #1 [LgVQi0H6VN8])
+  // =========================================================================
+  {
+    conceptId: 'CON-ECO-MOD-06', // Evolution of Indian Economy: License Raj to Industrial Policy
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Which of the following has/have occurred in India after its liberalization of economic policies in 1991?\n1. Share of agriculture in GDP increased enormously.\n2. Share of India\'s exports in world trade increased.\n3. FDI inflows increased.\n4. India\'s foreign exchange reserves increased enormously.\n\nSelect the correct answer using the code given below:',
+    options: [
+      '1 and 4 only',
+      '2, 3 and 4 only',
+      '2 and 3 only',
+      '1, 2, 3 and 4'
+    ],
+    correctAnswer: '2, 3 and 4 only',
+    explanation: 'Following the 1991 Balance of Payments crisis and subsequent LPG reforms (Liberalisation, Privatisation, Globalisation):\n1. The share of agriculture in India\'s GDP actually DECLINED from over 30% in 1990-91 to under 18% in recent decades, despite still employing a large workforce (structural imbalance).\n2. India\'s share of merchandise and services exports in world trade increased significantly from ~0.5% in 1991 to over 2%.\n3. Foreign Direct Investment (FDI) inflows accelerated massively as industrial licensing and foreign equity caps were dismantled.\n4. India\'s foreign exchange reserves grew from barely $1.2 billion in July 1991 (2 weeks of import cover) to over $680 billion.\n\nEliminating Statement 1 immediately eliminates options (a), (c), and (d).',
+    trapExplanation: 'The word "enormously" in statement 1 is an examiner trap; candidates often confuse agricultural output growth (which grew) with agriculture\'s structural share in national GDP (which declined significantly).',
+    difficulty: 'MEDIUM',
+    isPYQ: true,
+    pyqYear: 2017,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Confusing absolute agricultural production increase with its relative share in total GDP.'
+  },
+  {
+    conceptId: 'CON-ECO-MOD-03', // Monetary Policy Architecture: LAF, MPC & NPA Resolution
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Which of the following statements is/are correct regarding the Monetary Policy Committee (MPC)?\n1. It decides the RBI\'s benchmark interest rates.\n2. It is a 12-member body including the Governor of RBI and is reconstituted every year.\n3. It functions under the chairmanship of the Union Finance Minister.\n\nSelect the correct answer using the code given below:',
+    options: [
+      '1 only',
+      '1 and 2 only',
+      '3 only',
+      '2 and 3 only'
+    ],
+    correctAnswer: '1 only',
+    explanation: '1. Statement 1 is correct: Under Section 45ZB of the amended RBI Act 1934, the Monetary Policy Committee (MPC) is vested with the statutory authority to determine the policy repo rate required to achieve the flexible inflation target (4% ± 2%).\n2. Statement 2 is incorrect: The MPC is a 6-member body (3 from RBI, 3 nominated by the Central Government), not 12 members. External members hold office for a term of 4 years and are not eligible for re-appointment.\n3. Statement 3 is incorrect: The Governor of the Reserve Bank of India is the ex-officio Chairperson of the MPC, NOT the Union Finance Minister. The Finance Minister has zero voting presence on the MPC to preserve central bank operational independence.',
+    trapExplanation: 'Candidates frequently assume major economic committees are chaired by the Union Finance Minister or inflate the membership count.',
+    difficulty: 'EASY',
+    isPYQ: true,
+    pyqYear: 2017,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Factual inversion of Committee leadership (RBI Governor vs Finance Minister) and membership size.'
+  },
+  {
+    conceptId: 'CON-ECO-MOD-03', // Monetary Policy Architecture & Banking System
+    type: 'MULTIPLE_CHOICE',
+    stem: 'What is/are the purpose/purposes of setting up \'Small Finance Banks\' (SFBs) in India?\n1. To supply credit to small business units.\n2. To supply credit to small and marginal farmers.\n3. To encourage young entrepreneurs to set up business particularly in rural areas.\n\nSelect the correct answer using the code given below:',
+    options: [
+      '1 and 2 only',
+      '2 and 3 only',
+      '1 and 3 only',
+      '1, 2 and 3'
+    ],
+    correctAnswer: '1 and 2 only',
+    explanation: 'Per the RBI Guidelines for Licensing of Small Finance Banks:\n- The explicit objectives of setting up Small Finance Banks are to further financial inclusion by (a) providing savings vehicles, and (b) supply of credit to small business units, small and marginal farmers, micro and small industries, and other unorganised sector entities through high technology-low cost operations.\n- Statement 3 is a general entrepreneurial objective but is NOT a stated statutory or regulatory purpose for licensing Small Finance Banks by the RBI.\n- Additionally, SFBs are subject to a mandatory 75% Priority Sector Lending (PSL) target, compared to 40% for Universal Commercial Banks.',
+    trapExplanation: 'Candidates assume all positive welfare goals (like supporting young rural entrepreneurs) are formal regulatory objectives of Small Finance Banks.',
+    difficulty: 'HARD',
+    isPYQ: true,
+    pyqYear: 2017,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Adding a broad, plausible-sounding developmental goal that is not part of the statutory RBI charter.'
+  },
+  {
+    conceptId: 'CON-ECO-MOD-04', // External Sector, Payments & De-Dollarization
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Consider the following statements regarding retail payment systems in India:\n1. National Payments Corporation of India (NPCI) helps in promoting financial inclusion in the country.\n2. NPCI has launched RuPay, a domestic card payment network.\n\nWhich of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 only',
+      'Both 1 and 2',
+      'Neither 1 nor 2'
+    ],
+    correctAnswer: 'Both 1 and 2',
+    explanation: '1. Statement 1 is correct: National Payments Corporation of India (NPCI) is an umbrella organisation for operating retail payments and settlement systems in India, initiated by the RBI and Indian Banks\' Association (IBA) under the Payment and Settlement Systems Act, 2007. Its core mandate includes financial inclusion through low-cost retail payment infrastructure (AEPS, UPI, IMPS).\n2. Statement 2 is correct: NPCI launched RuPay in March 2012 as India\'s indigenous card payment network, designed to provide a low-cost, highly secure alternative to foreign payment gateways like Visa and MasterCard. RuPay cards were pivotal in the rollout of Pradhan Mantri Jan Dhan Yojana (PMJDY) zero-balance bank accounts.',
+    trapExplanation: 'Candidates sometimes believe RuPay was launched directly by the Ministry of Finance or RBI rather than NPCI.',
+    difficulty: 'EASY',
+    isPYQ: true,
+    pyqYear: 2017,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Testing institutional authorship of national digital payment infrastructure.'
+  },
+
+  // =========================================================================
+  // 2. UPSC CSE Prelims 2017 — Geography (Lecture #2 [wp62Kaw3XV0])
+  // =========================================================================
+  {
+    conceptId: 'CON-GEO-010', // Physiographic Divisions of India: Himalayas, Plains & Peninsula
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Consider the following statements regarding the physical geography of India:\n1. In India, the Himalayas are spread over five States only.\n2. Western Ghats are spread over five States only.\n3. Pulicat Lake is spread over two States only.\n\nWhich of the statements given above is/are correct?',
+    options: [
+      '1 and 2 only',
+      '3 only',
+      '2 and 3 only',
+      '1 and 3 only'
+    ],
+    correctAnswer: '3 only',
+    explanation: '1. Statement 1 is incorrect: The Himalayan mountain range spans across more than 5 Indian States/UTs: Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, West Bengal, and the northeastern states (Arunachal Pradesh, Nagaland, Manipur, Mizoram, Tripura, Meghalaya).\n2. Statement 2 is incorrect: The Western Ghats traverse exactly SIX states: Gujarat (starting south of Tapti river), Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu.\n3. Statement 3 is correct: Pulicat Lake—the second largest brackish water lagoon in India—is spread across exactly TWO states: Andhra Pradesh (major part, ~84%) and Tamil Nadu (~16%), separated from the Bay of Bengal by the barrier island of Sriharikota.',
+    trapExplanation: 'Candidates commonly forget that Gujarat contains the northernmost tail of the Western Ghats (Dang district) and that Tamil Nadu shares both the Western Ghats and Pulicat Lake.',
+    difficulty: 'HARD',
+    isPYQ: true,
+    pyqYear: 2017,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'State-count traps using the restrictive qualifier "only" on peninsular and Himalayan landforms.'
+  },
+  {
+    conceptId: 'CON-GEO-011', // Drainage Systems of India: Himalayan vs Peninsular
+    type: 'MULTIPLE_CHOICE',
+    stem: 'With reference to river Teesta, consider the following statements:\n1. The source of river Teesta is the same as that of Brahmaputra but it flows through Sikkim.\n2. River Rangeet originates in Sikkim and it is a tributary of river Teesta.\n3. River Teesta flows into the Bay of Bengal on the border of India and Bangladesh.\n\nWhich of the statements given above is/are correct?',
+    options: [
+      '1 and 3 only',
+      '2 only',
+      '2 and 3 only',
+      '1, 2 and 3'
+    ],
+    correctAnswer: '2 only',
+    explanation: '1. Statement 1 is incorrect: River Teesta originates from the Pahunri (or Teesta Khangse) glacier in North Sikkim. The Brahmaputra (Yarlung Tsangpo) originates from the Chemayungdung / Angsi glacier near Lake Manasarovar in Tibet, hundreds of kilometers further west.\n2. Statement 2 is correct: River Rangeet originates in Sikkim and is the largest tributary of river Teesta, joining it at Teesta Bazaar.\n3. Statement 3 is incorrect: River Teesta does NOT flow directly into the Bay of Bengal. It flows through West Bengal into Bangladesh, where it joins the Jamuna River (the main channel of the Brahmaputra) at Fulchhari, which later merges with the Padma and Meghna before emptying into the Bay of Bengal.',
+    trapExplanation: 'Candidates confuse Teesta with transboundary coastal rivers and assume all eastern rivers flow directly into the sea independently.',
+    difficulty: 'HARD',
+    isPYQ: true,
+    pyqYear: 2017,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Fictitious glacial confluence attribution and misrepresenting terminal river discharge geography.'
+  },
+
+  // =========================================================================
+  // 3. UPSC CSE Prelims 2018 — Geography (Lecture #3 [f5VTZPYyajI])
+  // =========================================================================
+  {
+    conceptId: 'CON-GEO-010', // Physiographic Divisions of India: Islands & Volcanism
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Consider the following statements regarding volcanic landforms in Indian territory:\n1. The Barren Island volcano is an active volcano located in the Indian territory.\n2. Barren Island lies about 140 km east of Great Nicobar.\n3. The last time the Barren Island volcano erupted was in 1991 and it has remained inactive since then.\n\nWhich of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 and 3 only',
+      '3 only',
+      '1 and 3 only'
+    ],
+    correctAnswer: '1 only',
+    explanation: '1. Statement 1 is correct: Barren Island, located in the Andaman Sea, is confirmed as the only active volcano in India and South Asia along the active volcanic arc linking Sumatra to Myanmar.\n2. Statement 2 is incorrect: Barren Island is situated approximately 135-140 km northeast of Port Blair (in the Andaman group), whereas Great Nicobar lies hundreds of kilometers to the south across the Ten Degree Channel.\n3. Statement 3 is incorrect: After remaining dormant for over a century, Barren Island erupted in 1991, but experienced subsequent major eruptive episodes in 1994-95, 2005-06, and as recently as 2017-2018.',
+    trapExplanation: 'Examiners use historical milestones (1991 eruption) to trick candidates into thinking the volcano has been dormant ever since.',
+    difficulty: 'MEDIUM',
+    isPYQ: true,
+    pyqYear: 2018,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'False claims of volcanic dormancy combined with cardinal spatial misplacement (Port Blair vs Great Nicobar).'
+  },
+
+  // =========================================================================
+  // 4. UPSC CSE Prelims 2020 — Geography (Lecture #5 [MBglMB91Nh0])
+  // =========================================================================
+  {
+    conceptId: 'CON-GEO-010', // Physiographic Divisions of India: Karakoram & Trans-Himalayan Glaciers
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Siachen Glacier is situated to the:',
+    options: [
+      'East of Aksai Chin',
+      'East of Leh',
+      'North of Gilgit',
+      'North of Nubra Valley'
+    ],
+    correctAnswer: 'North of Nubra Valley',
+    explanation: '1. The Siachen Glacier is located in the eastern Karakoram Range in the Himalayas, immediately east of the Line of Control between India and Pakistan.\n2. The Nubra River originates directly from the snout of the Siachen Glacier (at Siachen Base Camp) and flows south to join the Shyok River (a tributary of the Indus). Therefore, the Siachen Glacier is situated directly NORTH of the Nubra Valley.\n3. Aksai Chin lies further to the EAST of Siachen; Gilgit lies to the WEST/NORTHWEST; and Leh lies to the SOUTH (across the Khardung La pass).',
+    trapExplanation: 'Candidates confuse relative cardinal bearings in the complex Trans-Himalayan / Karakoram topography.',
+    difficulty: 'MEDIUM',
+    isPYQ: true,
+    pyqYear: 2020,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Testing spatial-cardinal mental mapping of strategic Himalayan chokepoints.'
+  },
+  {
+    conceptId: 'CON-GEO-006', // Indian Monsoons & Tropical Cyclones
+    type: 'MULTIPLE_CHOICE',
+    stem: 'Consider the following statements regarding atmospheric dynamics and cyclones:\n1. Jet streams occur in the Northern Hemisphere only.\n2. Only some cyclones develop an eye.\n3. The temperature inside the eye of a cyclone is nearly 10°C lesser than that of the surroundings.\n\nWhich of the statements given above is/are correct?',
+    options: [
+      '1 only',
+      '2 and 3 only',
+      '2 only',
+      '1 and 3 only'
+    ],
+    correctAnswer: '2 only',
+    explanation: '1. Statement 1 is incorrect: Jet streams are high-altitude meandering westerly geostrophic wind currents that occur in BOTH the Northern and Southern Hemispheres (Subtropical Westerly Jet and Polar Front Jet exist in both).\n2. Statement 2 is correct: A distinct, cloud-free central "eye" develops only in intense, mature tropical cyclones where central pressure drops severely enough to cause strong core subsidence. Mid-latitude extra-tropical cyclones and weaker tropical depressions do NOT develop a calm eye.\n3. Statement 3 is incorrect: The eye of a tropical cyclone is a region of subsiding, descending air which undergoes adiabatic compression. Consequently, the temperature inside the eye is actually WARMER (by up to 8°C to 10°C) than the surrounding cloud wall, creating a classic "warm core" anomaly.',
+    trapExplanation: 'The intuitive assumption that a stormy cyclone center must be colder is dead wrong; adiabatic compression makes the eye significantly warmer.',
+    difficulty: 'HARD',
+    isPYQ: true,
+    pyqYear: 2020,
+    pyqPaper: 'UPSC Civil Services Prelims GS-1',
+    pyqStage: 'Prelims',
+    examinerTrapPattern: 'Inversion of thermodynamic temperature properties (warm core vs cold core) and hemisphere absolutism ("only").'
+  }
+];
+
