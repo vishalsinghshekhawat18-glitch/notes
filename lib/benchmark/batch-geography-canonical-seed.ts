@@ -6,6 +6,7 @@
 
 import { db } from '../db/client';
 import { CanonicalConceptDefinition } from './batch-e1-canonical-seed';
+import { AMIT_SENGUPTA_GEOGRAPHY_SOURCE, AMIT_SENGUPTA_GEOGRAPHY_COVERAGE_UNITS } from './batch-amit-sengupta-geography-ledger';
 
 export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
   {
@@ -420,6 +421,24 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "confidence": "HIGH",
         "locator": "NCERT Class 11 Physical Geography, Chapter 6: Geomorphic Processes, Section: Mass Movements",
         "excerpt": "These movements transfer the mass of rock debris down the slopes under the direct influence of gravity. That means, air, water or ice do not carry debris with them from place to place but on the other hand the debris may carry with it air, water or ice."
+      },
+      {
+        "id": "CLM-GEO-003-04",
+        "statement": "Landforms across planetary geomorphic domains exhibit distinctive genetic pairings between erosional and depositional mechanisms: Fluvial (Gorges/Canyons/Waterfalls vs Deltas/Alluvial Fans/Oxbow Lakes), Aeolian (Yardangs/Zeugen/Mushroom Rocks vs Barchans/Seifs/Loess), Glacial (Cirques/Horns/Aretes/U-valleys vs Moraines/Drumlins/Eskers/Kames), Karst (Dolines/Sinkholes/Lapies/Poljes vs Stalactites/Stalagmites/Pillars), and Marine (Cliffs/Wave-cut platforms/Stacks vs Spits/Tombolos/Barrier Islands).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "Amit Sengupta Physical Geography Master Series [8McizDCj6qE]: Landforms & Geographical Terms of Earth",
+        "excerpt": "Erosional and depositional features form contrasting complementary signatures across river valleys, glaciers, deserts, limestone regions, and coastlines."
+      },
+      {
+        "id": "CLM-GEO-003-05",
+        "statement": "Geomorphological landform differentiation relies on precise structural and topographical boundaries: an Isthmus is a narrow strip of land connecting two larger landmasses separating two water bodies (e.g., Isthmus of Panama), whereas a Strait is a narrow body of water connecting two large bodies of water separating two landmasses (e.g., Strait of Gibraltar, Palk Strait); similarly, a Mesa is an isolated flat-topped tableland with steep cliffs that weathers into a smaller, narrower Butte.",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "Amit Sengupta Physical Geography Master Series [8McizDCj6qE]: Topographic & Coastal Terminologies",
+        "excerpt": "An isthmus connects two land areas across water, while a strait connects two water bodies between land. Mesas are broad table-topped hills with steep sides, and when eroded down to a smaller spire or pillar, they become buttes."
       }
     ],
     "contentBlocks": [
@@ -446,6 +465,12 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "title": "Competitive Examination Traps & Policy Application Matrix",
         "body": "### Common Examiner Traps\\n1. **Weathering vs. Erosion Trap:** Weathering is strictly an **IN-SITU (static)** process involving zero substantial transport of material. Erosion strictly involves **dynamic entrainment and active transport** by a moving medium (water, wind, ice).\\n2. **Barchan Dune Morphology:** Barchans are crescent-shaped sand dunes where the **horns (tips) point DOWNWIND** (in the direction of wind movement). Examiners frequently invert this and claim horns face the wind.\\n3. **Fossils in Rocks Trap:** **Fossils occur ONLY in Sedimentary rocks** (due to gentle deposition of strata). Igneous rocks originate from molten magma/lava and Metamorphic rocks undergo intense recrystallization under heat/pressure, destroying any pre-existing organic remains.\\n4. **Extrusive vs. Intrusive Igneous Textures:** Rapid cooling at the surface forms fine-grained extrusive rocks (**Basalt**); slow cooling deep inside crust forms coarse-grained intrusive rocks (**Granite**).\\n5. **Metamorphic Precursor Matching:** Limestone transforms into **Marble**; Sandstone transforms into **Quartzite**; Shale/Clay transforms into **Slate** (and subsequently Schist); Granite transforms into **Gneiss**.\\n6. **Stalactite vs. Stalagmite:** Stalac**T**ites grow down from the **T**op (ceiling); Stalag**M**ites grow up from the **M**iddle/ground (floor).\\n7. **Drumlins vs. Eskers:** Drumlins are streamlined whale-shaped mounds of unsorted glacial till (forming 'basket of eggs' topography); Eskers are sinuous winding ridges of sorted fluvioglacial gravel deposited by subglacial meltwater streams.\\n\\n### Exam Syllabus Matrix\\n- **UPSC CSE & APFC:** Geomorphology (Chapter 6 & 7 NCERT). Regular matching questions on landforms (Erosional vs Depositional) across geomorphic agents and rock classifications.\\n- **RPSC RAS:** Paper 2. Karst landforms, Barchan sand dunes of western Rajasthan, and Aravalli denudation history.",
         "order": 4
+      },
+      {
+        "type": "COMPARISON",
+        "title": "Universal Landform Master Taxonomy & Morphological Matrix (Amit Sengupta Visual Ledger)",
+        "body": "> 🎥 **Reference Video Lecture:** [Important Geographical Terms Features Landforms Of Earth — Amit Sengupta](https://youtu.be/8McizDCj6qE)\n\n### 1. Six Geomorphic Domains: Erosional vs Depositional Master Taxonomy\n\n| Geomorphic Agent / Medium | Erosional Landforms | Depositional Landforms | Key Diagnostic Geomorphic Signature |\n|---|---|---|---|\n| **Fluvial (Running Water)** | V-shaped Valley, Gorge (deep narrow canyon with near-vertical walls), Canyon (step-like valley walls in layered sedimentary rock), Waterfall, Plunge Pool, Potholes, River Terraces, Meander Scarp | Alluvial Fan (conical deposit at mountain foot), Meander Loop, Oxbow Lake (abandoned meander loop), Natural Levee (elevated banks flanking river channel), Point Bar, Braided Stream, Delta (Arcuate, Bird's Foot, Estuarine) | Water velocity ($v$) controls transport capacity (sediment load $\\propto v^6$); gradient changes dictate transition from vertical erosion (youth) to lateral planation (maturity) and deposition (old age). |\n| **Aeolian (Wind)** | Mushroom / Pedestal Rock (undercutting by abrasive sand saltation near base), Yardang (wind-aligned streamlined ridges of hard rock), Zeugen (ridge-and-furrow landscape in horizontal strata), Inselberg (isolated relict granite hill / monadnock), Deflation Hollow / Blowout, Ventifacts | Sand Dunes: **Barchan** (crescent-shaped, horns point downwind), **Seif / Longitudinal** (parallel to wind direction), **Transverse** (perpendicular to wind), **Parabolic** (vegetated desert margins, horns point upwind); **Loess** (unstratified, fertile wind-blown silt deposits, e.g., Huang He basin). | Wind turbulence and saltation (bouncing grains 0-2m above surface) dominate; sand supply and wind direction determine dune geometry. |\n| **Glacial (Moving Ice)** | **Cirque (Corrie)** (amphitheatre-shaped rock basin), **Arete** (serrated razor-sharp knife-edge ridge), **Horn / Pyramidal Peak** (steep-sided spire formed by 3+ cirques, e.g., Matterhorn), **U-shaped Glacial Trough**, **Hanging Valley** (tributary glacier valley perched above trunk valley floor), **Fiord (Fjord)** (steep-sided drowned glacial valley) | **Moraine** (lateral along sides, medial down center, terminal / end marking maximum advance; unsorted glacial till), **Drumlin** (streamlined inverted spoon / teardrop hill of till, blunt end faces up-ice, tapered end points in direction of ice retreat; 'basket of eggs' topography), **Esker** (sinuous winding ridge of sorted sand/gravel deposited by subglacial stream), **Kame** (steep-sided mound of stratified gravel), **Outwash Plain** (braided meltwater gravel fan). | Plucking (quarrying) and glacial striation (abrasion) carve deep troughs; ice melt deposits unsorted till or glaciofluvial sorted gravels. |\n| **Karst (Groundwater in Limestone)** | **Lapies** (grooved, fluted limestone surfaces), **Sinkhole (Doline)** (funnel-shaped depression caused by solution collapse), **Swallow Hole (Ponor)**, **Uvala** (compound coalesced dolines), **Polje** (vast flat-floored karst valley bounded by steep limestone walls), **Karst Caves & Caverns** | **Stalactite** (icicle-like calcium carbonate deposit hanging from cave ceiling: mnemonic Stalac**T**ite = **T**op), **Stalagmite** (upward-growing pillar on cave floor: mnemonic Stalag**M**ite = **M**iddle / ground), **Karst Pillar / Column** (coalesced stalactite + stalagmite), **Dripstone / Travertine / Tufa** curtains. | Carbonation reaction: $\\text{CaCO}_3 + \\text{H}_2\\text{O} + \\text{CO}_2 \\to \\text{Ca(HCO}_3)_2$; operates strictly in thick, soluble, jointed limestone or dolomite bedrock. |\n| **Coastal / Marine (Waves & Currents)** | **Sea Cliff**, **Wave-Cut Platform / Bench**, **Sea Cave**, **Sea Arch** (coastal headland eroded through both sides), **Sea Stack** (isolated vertical pillar left after arch collapses), **Stump** | **Beach** (shingle and sand shore), **Spit** (narrow ridge of sand extending into sea or estuary mouth), **Bar / Barrier Beach** (sand ridge sealing off a bay), **Tombolo** (sand spit connecting an offshore island to mainland), **Lagoon** (shallow water body enclosed by spit/barrier reef, e.g., Chilika, Pulicat), **Barrier Islands**. | Hydraulic action, wave quarrying, and abrasion attack headlands; longshore drift transports sand along coastline forming bars and spits. |\n| **Tectonic & Topographical Formations** | **Horst** (fault-bounded uplifted block mountain), **Graben / Rift Valley** (down-dropped crustal block between faults), **Fault Scarp**, **Fold Mountain Chains** | **Plateau** (vast elevated flat landmass), **Mesa** (isolated flat-topped tableland with steep cliff sides), **Butte** (narrow isolated rock pinnacle eroded from a mesa), **Cuesta** (asymmetric ridge with gentle dip slope and steep scarp), **Hogback** (steep symmetric ridge). | Endogenic faulting, crustal extension, differential lithological resistance, and protracted denudation sculpt regional relief. |\n\n### 2. High-Yield Topographical Terminology Pairs (Amit Sengupta Visual Ledger)\n\n1. **Isthmus vs. Strait:**\n   - **Isthmus:** A narrow neck of **land** connecting two large landmasses and separating two bodies of water. *Examples:* Isthmus of Panama (connects North & South America; separates Atlantic & Pacific), Isthmus of Suez (connects Africa & Asia; separates Mediterranean & Red Sea).\n   - **Strait:** A narrow navigable channel of **water** connecting two large bodies of water and separating two landmasses. *Examples:* Palk Strait (connects Bay of Bengal & Gulf of Mannar; separates India & Sri Lanka), Strait of Gibraltar (connects Atlantic Ocean & Mediterranean Sea; separates Europe & Africa), Strait of Malacca (connects Andaman Sea & South China Sea).\n2. **Peninsula vs. Gulf vs. Bay:**\n   - **Peninsula:** A piece of land surrounded by water on three sides (e.g., Indian Peninsula, Arabian Peninsula, Iberian Peninsula).\n   - **Gulf:** A large, deep inlet of sea almost surrounded by land, with a narrow mouth (e.g., Persian Gulf, Gulf of Mexico, Gulf of Kutch).\n   - **Bay:** A broad curved indentation of the sea where the land curves inward, typically with a wider open entrance than a gulf (e.g., Bay of Bengal, Hudson Bay).\n3. **Plateau $\\to$ Mesa $\\to$ Butte (Denudational Evolution):**\n   - **Plateau:** Broad, expansive elevated tract of flat rock capped by a resistant caprock layer (e.g., Colorado Plateau, Deccan Plateau).\n   - **Mesa:** As rivers and weathering dissect a plateau, large, flat-topped tablelands with vertical cliff-sides separate (Spanish *mesa* = table).\n   - **Butte:** Continued lateral cliff retreat and erosion reduce a mesa to an isolated, tall, narrow rock spire whose height exceeds its surface diameter.\n4. **Fjord (Fiord) vs. Ria:**\n   - **Fjord:** A deeply carved, steep-sided, submerged U-shaped **glacial valley** flooded by the sea, featuring a shallow rock threshold at its mouth (e.g., Norway, New Zealand, Alaska).\n   - **Ria:** A funnel-shaped drowned **river valley** (fluvial), which deepens seaward without a shallow rock sill (e.g., Coast of Galicia in Spain, SW Ireland).\n5. **Archipelago vs. Atoll:**\n   - **Archipelago:** An extensive chain, cluster, or collection of scattered islands (e.g., Indonesian Archipelago, Andaman & Nicobar, Japanese Archipelago).\n   - **Atoll:** A continuous or broken ring-shaped coral reef surrounding a central shallow lagoon without an emergent central volcanic island (e.g., Lakshadweep Atolls, Maldives).",
+        "order": 5
       }
     ],
     "examMappings": [
@@ -563,6 +588,38 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "difficulty": "HARD",
         "isPYQ": false,
         "examinerTrapPattern": "Inverting the orientation of barchan dune horns relative to wind direction."
+      },
+      {
+        "type": "CONCEPT_CHECK",
+        "stem": "Consider the following geomorphological features:\n1. Barchan\n2. Yardang\n3. Esker\n4. Cirque\n5. Stalagmite\n6. Doline\nWhich of the above are exclusively DEPOSITIONAL landforms?",
+        "options": [
+          "1, 3, and 5 only",
+          "2, 4, and 6 only",
+          "1, 2, and 3 only",
+          "3, 5, and 6 only"
+        ],
+        "correctAnswer": "1, 3, and 5 only",
+        "explanation": "Barchans are depositional sand dunes formed by wind (Aeolian). Eskers are sinuous depositional gravel/sand ridges deposited by subglacial meltwater streams (Glacial). Stalagmites are depositional calcium carbonate pillars growing upward from the floor of limestone caves (Karst). Conversely, Yardangs (aeolian), Cirques (glacial), and Dolines (karst sinkholes) are purely erosional landforms.",
+        "trapExplanation": "Examiners frequently mix erosional and depositional features across different agents. Yardang is wind-erosional, Cirque is ice-erosional, and Doline is solution-erosional.",
+        "difficulty": "MEDIUM",
+        "isPYQ": false,
+        "examinerTrapPattern": "Mixing erosional and depositional landforms across different geomorphic agents."
+      },
+      {
+        "type": "APPLIED_SCENARIO",
+        "stem": "In an examination scenario involving morphological and physical geography terminology, candidates are asked to distinguish between land and water topographic features. Which of the following statements is geographically accurate regarding Isthmus, Strait, Mesa, and Butte?",
+        "options": [
+          "An isthmus connects two water bodies while separating two land masses; a mesa is a tall, narrow spire of rock eroded from a butte.",
+          "An isthmus is a narrow strip of land connecting two larger land masses while separating two bodies of water; a mesa is an extensive flat-topped elevation with steep cliffs that denudes into a smaller, narrower butte.",
+          "A strait connects two land masses across a continental sea; a butte is larger in surface area than a plateau.",
+          "Both isthmus and strait are tectonic grabens submerged under ocean trenches; mesas are formed exclusively by glacial plucking."
+        ],
+        "correctAnswer": "An isthmus is a narrow strip of land connecting two larger land masses while separating two bodies of water; a mesa is an extensive flat-topped elevation with steep cliffs that denudes into a smaller, narrower butte.",
+        "explanation": "An Isthmus is a narrow neck of land connecting two larger landmasses and separating two bodies of water (e.g., Isthmus of Panama connecting North and South America). A Strait is a narrow navigable waterway connecting two large bodies of water (e.g., Strait of Malacca, Strait of Gibraltar). In arid/semi-arid geomorphology, a Plateau is vast; when dissected, it forms a flat-topped Mesa (Spanish for 'table'); as weathering and erosion continue to wear down the sides, the mesa shrinks into an isolated, narrow pinnacle known as a Butte.",
+        "trapExplanation": "Candidates often invert isthmus (land bridge) with strait (water channel), and confuse the relative sizes of plateau -> mesa -> butte (decreasing order of top surface area).",
+        "difficulty": "HARD",
+        "isPYQ": false,
+        "examinerTrapPattern": "Inverting isthmus with strait and reversing the evolutionary denudation scale of plateau, mesa, and butte."
       }
     ]
   },
@@ -2942,6 +2999,43 @@ export async function seedGeographyCanonicalKnowledge() {
     });
   }
 
+  // 4b. Ensure Amit Sengupta Pedagogical Source & Coverage Units exist
+  let ytSource = await db.source.findUnique({ where: { id: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.id } });
+  if (!ytSource) {
+    ytSource = await db.source.create({
+      data: {
+        id: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.id,
+        title: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.title,
+        sourceType: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.sourceType,
+        authorityTier: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.authorityTier,
+        description: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.description,
+        url: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.url,
+        author: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.author,
+        edition: AMIT_SENGUPTA_GEOGRAPHY_SOURCE.edition,
+      }
+    });
+  }
+
+  for (const cuDef of AMIT_SENGUPTA_GEOGRAPHY_COVERAGE_UNITS) {
+    const existingCu = await db.coverageUnit.findUnique({ where: { id: cuDef.id } });
+    if (!existingCu) {
+      await db.coverageUnit.create({
+        data: {
+          id: cuDef.id,
+          sourceId: ytSource.id,
+          label: cuDef.label,
+          scopeDescription: cuDef.scopeDescription,
+          order: cuDef.order,
+          status: cuDef.status,
+          extractionStatus: 'COMPLETE',
+          verificationStatus: 'CHECKED',
+          canonicalMappingStatus: cuDef.canonicalMappingStatus,
+          notes: cuDef.notes
+        }
+      });
+    }
+  }
+
   // 5. Ensure Target Examinations exist in examMap
   const examCodes = [
     'UPSC_CSE', 'UPSC_APFC', 'UPSC_EPFO_EOAO', 'RPSC_RAS',
@@ -3019,10 +3113,11 @@ export async function seedGeographyCanonicalKnowledge() {
         }
       });
 
+      const activeSourceId = cl.locator.includes('Amit Sengupta') ? AMIT_SENGUPTA_GEOGRAPHY_SOURCE.id : source.id;
       await db.evidence.create({
         data: {
           claimId: claim.id,
-          sourceId: source.id,
+          sourceId: activeSourceId,
           locator: cl.locator,
           excerpt: cl.excerpt,
           evidenceType: 'SCIENTIFIC_BENCHMARK',
