@@ -30,6 +30,7 @@ import { seedGeographyCanonicalKnowledge } from '../lib/benchmark/batch-geograph
 import { seedAgricultureCanonicalKnowledge } from '../lib/benchmark/batch-agriculture-canonical-seed';
 import { seedAPFCIRCanonicalKnowledge } from '../lib/benchmark/batch-apfc-ir-canonical-seed';
 import { seedPreviousYearQuestionsAndTraps } from '../lib/benchmark/batch-pyqs-and-traps-canonical-seed';
+import { seedRPSCRASPreviousYearQuestions } from '../lib/benchmark/batch-rpsc-ras-pyqs-seed';
 
 export async function main() {
   console.log('Seeding canonical database for static build...');
@@ -129,6 +130,9 @@ export async function main() {
 
   // Seed SBI PO Mains Quant & UPSC APFC PYQs & Rapid Revision Traps
   await seedPreviousYearQuestionsAndTraps();
+
+  // Seed RPSC RAS 10-Year Canonical Question Bank (Prelims & Mains 2M, 5M, 10M)
+  await seedRPSCRASPreviousYearQuestions();
 
   const count = await db.concept.count();
   console.log(`Successfully seeded ${count} canonical concepts.`);
