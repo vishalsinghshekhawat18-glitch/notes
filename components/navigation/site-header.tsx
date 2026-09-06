@@ -69,16 +69,28 @@ export function SiteHeader() {
                 IIBF
               </Link>
               <Link
-                href="/subjects/ancient-indian-history"
-                className="hover:text-stone-900 transition-colors"
+                href="/subjects/rajasthan-history-culture-geography"
+                className="hover:text-stone-900 transition-colors font-bold text-[#c25e2e]"
               >
-                History
+                RPSC RAS
               </Link>
               <Link
-                href="/subjects/quantitative-aptitude-and-data-interpretation"
+                href="/subjects/public-administration-and-laws"
                 className="hover:text-stone-900 transition-colors"
               >
-                Quant
+                PubAd
+              </Link>
+              <Link
+                href="/subjects/ethics-behavior-sports"
+                className="hover:text-stone-900 transition-colors"
+              >
+                Ethics
+              </Link>
+              <Link
+                href="/subjects/general-hindi"
+                className="hover:text-stone-900 transition-colors"
+              >
+                Hindi
               </Link>
             </nav>
           </div>

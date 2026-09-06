@@ -16,9 +16,13 @@ import { seedBatchQuantBatch1CanonicalKnowledge } from '@/lib/benchmark/batch-qu
 import { seedBatchQuantBatch2CanonicalKnowledge } from '@/lib/benchmark/batch-quant-batch-2-canonical-seed';
 import { seedBatchQuantBatch3PracticeBank } from '@/lib/benchmark/batch-quant-batch-3-practice-seed';
 import { seedBasicScienceMasterCanonicalKnowledge } from '@/lib/benchmark/batch-science-master-canonical-seed';
+import { seedHindiMasterCanonicalKnowledge } from '@/lib/benchmark/batch-hindi-master-canonical-seed';
+import { seedPubAdLawsMasterCanonicalKnowledge } from '@/lib/benchmark/batch-pubad-laws-canonical-seed';
+import { seedEthicsBehaviorSportsCanonicalKnowledge } from '@/lib/benchmark/batch-ethics-behavior-sports-canonical-seed';
+import { seedRajasthanMasterCanonicalKnowledge } from '@/lib/benchmark/batch-rajasthan-master-canonical-seed';
 
 /**
- * Ensures that all canonical benchmark data (Polity, Economics, Science, IIBF, History, Quant, English)
+ * Ensures that all canonical benchmark data (Polity, Economics, Science, IIBF, History, Quant, English, RPSC RAS)
  * is present in the database for web application rendering.
  */
 export async function ensureCanonicalDataSeeded() {
@@ -41,6 +45,10 @@ export async function ensureCanonicalDataSeeded() {
     await seedBatchQuantBatch2CanonicalKnowledge();
     await seedBatchQuantBatch3PracticeBank();
     await seedBasicScienceMasterCanonicalKnowledge();
+    await seedHindiMasterCanonicalKnowledge();
+    await seedPubAdLawsMasterCanonicalKnowledge();
+    await seedEthicsBehaviorSportsCanonicalKnowledge();
+    await seedRajasthanMasterCanonicalKnowledge();
   }
 }
 
@@ -84,6 +92,10 @@ const SUBJECT_CODE_MAP: Record<string, string> = {
   'art-culture-rajasthan': 'ART-01',
   'applied-science-and-biotechnology': 'SCI-02',
   'industrial-relations-and-labour-laws': 'IRL-01',
+  'rajasthan-history-culture-geography': 'RAJ-01',
+  'public-administration-and-laws': 'PAD-01',
+  'ethics-behavior-sports': 'ETH-01',
+  'general-hindi': 'HIN-01',
 };
 
 export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]> {

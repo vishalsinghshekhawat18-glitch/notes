@@ -86,6 +86,20 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
       'applied-science-and-biotechnology',             // #16
     ],
   },
+  {
+    id: 'shelf-6',
+    title: 'Shelf 6: Rajasthan Civil Services & State Governance (RPSC RAS Master)',
+    icon: '👑',
+    badge: 'RPSC RAS Complete Flagship',
+    accentColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
+    borderAccent: 'border-l-[#ea580c]',
+    subjectSlugs: [
+      'rajasthan-history-culture-geography',
+      'public-administration-and-laws',
+      'ethics-behavior-sports',
+      'general-hindi',
+    ],
+  },
 ];
 
 export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
@@ -116,6 +130,10 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     if (code.startsWith('ART')) return { border: 'border-l-fuchsia-600', badge: 'bg-fuchsia-50 text-fuchsia-800 border-fuchsia-200' };
     if (code.startsWith('IRL')) return { border: 'border-l-violet-600', badge: 'bg-violet-50 text-violet-800 border-violet-200' };
     if (code.startsWith('GEN')) return { border: 'border-l-sky-600', badge: 'bg-sky-50 text-sky-800 border-sky-200' };
+    if (code.startsWith('RAJ')) return { border: 'border-l-amber-700', badge: 'bg-amber-100 text-amber-900 border-amber-300' };
+    if (code.startsWith('PAD')) return { border: 'border-l-red-600', badge: 'bg-red-50 text-red-800 border-red-200' };
+    if (code.startsWith('ETH')) return { border: 'border-l-emerald-700', badge: 'bg-emerald-50 text-emerald-900 border-emerald-300' };
+    if (code.startsWith('HIN')) return { border: 'border-l-orange-700', badge: 'bg-orange-50 text-orange-950 border-orange-300' };
     return { border: 'border-l-stone-600', badge: 'bg-stone-100 text-stone-800 border-stone-200' };
   };
 

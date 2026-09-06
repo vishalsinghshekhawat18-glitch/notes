@@ -83,6 +83,52 @@ function getOrganizedTopicGroups(subjectSlug: string, topics: any[]): TopicGroup
     return groups;
   }
 
+  if (subjectSlug === 'rajasthan-history-culture-geography') {
+    const t1 = topics.filter((t) => t.slug.includes('dynastic') || t.slug.includes('movements'));
+    const t2 = topics.filter((t) => t.slug.includes('culture') || t.slug.includes('art') || t.slug.includes('dialects'));
+    const t3 = topics.filter((t) => t.slug.includes('geography') || t.slug.includes('drainage') || t.slug.includes('physical'));
+
+    const groups: TopicGroup[] = [];
+    if (t1.length) groups.push({ groupTitle: 'Module I: Dynastic Sovereignty, Peasant Revolts & Integration', topics: t1 });
+    if (t2.length) groups.push({ groupTitle: 'Module II: Sacred Art, Architecture, Deities, Performing Arts & Dialects', topics: t2 });
+    if (t3.length) groups.push({ groupTitle: 'Module III: Micro-Geography, Watershed Drainage, Soils & Mega Irrigation', topics: t3 });
+    if (groups.length > 0) return groups;
+  }
+
+  if (subjectSlug === 'public-administration-and-laws') {
+    const t1 = topics.filter((t) => t.slug.includes('foundations') || t.slug.includes('thinkers'));
+    const t2 = topics.filter((t) => t.slug.includes('statutes') || t.slug.includes('laws'));
+
+    const groups: TopicGroup[] = [];
+    if (t1.length) groups.push({ groupTitle: 'Unit 2: Public Administration, Theories & Good Governance (65 Marks)', topics: t1 });
+    if (t2.length) groups.push({ groupTitle: 'Unit 3: Minor Welfare & Administrative Statutes (20 Marks)', topics: t2 });
+    if (groups.length > 0) return groups;
+  }
+
+  if (subjectSlug === 'ethics-behavior-sports') {
+    const t1 = topics.filter((t) => t.slug.includes('ethics'));
+    const t2 = topics.filter((t) => t.slug.includes('behavior'));
+    const t3 = topics.filter((t) => t.slug.includes('sports'));
+
+    const groups: TopicGroup[] = [];
+    if (t1.length) groups.push({ groupTitle: 'Unit 1: Administrative Ethics, Thinkers & Probity (65 Marks)', topics: t1 });
+    if (t2.length) groups.push({ groupTitle: 'Unit 3 (Part A): Administrative Behavior & Applied Psychology (20 Marks)', topics: t2 });
+    if (t3.length) groups.push({ groupTitle: 'Unit 3 (Part B): Sports Policy, Traditional Games & Yoga (20 Marks)', topics: t3 });
+    if (groups.length > 0) return groups;
+  }
+
+  if (subjectSlug === 'general-hindi') {
+    const p1 = topics.filter((t) => t.order >= 1 && t.order <= 11);
+    const p2 = topics.filter((t) => t.order >= 12 && t.order <= 14);
+    const p3 = topics.filter((t) => t.order === 15);
+
+    const groups: TopicGroup[] = [];
+    if (p1.length) groups.push({ groupTitle: 'Part A: Vyakaran evam Shabdavali (Grammar & Vocabulary — 50 Marks)', topics: p1 });
+    if (p2.length) groups.push({ groupTitle: 'Part B: Sankshepan, Pallavan, Patra Lekhan evam Anuvad (Comprehension & Drafting — 50 Marks)', topics: p2 });
+    if (p3.length) groups.push({ groupTitle: 'Part C: Nibandh Rachna (Analytical Essay Writing — 20 Marks)', topics: p3 });
+    if (groups.length > 0) return groups;
+  }
+
   return [
     {
       groupTitle: 'All Curriculum Topics',
