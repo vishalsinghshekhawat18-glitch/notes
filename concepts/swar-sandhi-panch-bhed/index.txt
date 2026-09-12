@@ -1,0 +1,157 @@
+1:"$Sreact.fragment"
+2:I[7066,["619","static/chunks/619-ba102abea3e3d0e4.js","863","static/chunks/863-a2a527474016388c.js","177","static/chunks/app/layout-8c7191c3646ed218.js"],"ServiceWorkerCleaner"]
+3:I[7528,["619","static/chunks/619-ba102abea3e3d0e4.js","863","static/chunks/863-a2a527474016388c.js","177","static/chunks/app/layout-8c7191c3646ed218.js"],"SiteHeader"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+7:I[4431,[],"OutletBoundary"]
+9:I[5278,[],"AsyncMetadataOutlet"]
+b:I[4431,[],"ViewportBoundary"]
+d:I[4431,[],"MetadataBoundary"]
+e:"$Sreact.suspense"
+10:I[7150,[],""]
+:HL["/notes/_next/static/css/e31c83fd6466f5e6.css","style"]
+:HL["/notes/_next/static/css/a8a95238897091ab.css","style"]
+0:{"P":null,"b":"nxoKWjFQIsMw0Oa_sZx7W","p":"/notes","c":["","concepts","swar-sandhi-panch-bhed",""],"i":false,"f":[[["",{"children":["concepts",{"children":[["slug","swar-sandhi-panch-bhed","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/notes/_next/static/css/e31c83fd6466f5e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/notes/_next/static/css/a8a95238897091ab.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-[#f7f5f0] text-stone-900 antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t border-[#e5dfd3] bg-[#f2efe7]/80 py-8 text-center text-xs text-stone-600 font-mono","children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-[#143227] font-bold","children":"▲ Mind of Aravalli"}],["$","span",null,{"className":"text-stone-400","children":"•"}],["$","span",null,{"children":"The Ridge Reading Hub"}]]}],["$","div",null,{"className":"flex items-center gap-3 text-stone-500","children":[["$","span",null,{"children":"One Canonical Knowledge Base"}],["$","span",null,{"children":"•"}],["$","span",null,{"className":"text-[#c25e2e] font-semibold","children":"8 Examination Lenses"}]]}]]}]}]]}]}]]}],{"children":["concepts",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","swar-sandhi-panch-bhed","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+a:{"metadata":[["$","title","0",{"children":"Mind of Aravalli | Reading Hub"}],["$","meta","1",{"name":"description","content":"Source-grounded canonical knowledge and examination learning system"}]],"error":null,"digest":"$undefined"}
+f:"$a:metadata"
+11:I[1933,["330","static/chunks/d3ac728e-cf34fc833a02f99c.js","619","static/chunks/619-ba102abea3e3d0e4.js","558","static/chunks/558-6f397304e0c989e5.js","346","static/chunks/346-8c5bae240d59170c.js","806","static/chunks/app/concepts/%5Bslug%5D/page-b45f8cca82bd673b.js"],"ConceptLearningView"]
+12:T9c7,जब हम तीव्र गति से दो शब्दों का उच्चारण करते हैं, तो प्रथम शब्द की अंतिम ध्वनि और द्वितीय शब्द की प्रथम ध्वनि एक-दूसरे के इतने सन्निकट आ जाती हैं कि हमारा मुख-विवर ऊर्जा बचाने (Economy of Effort / Law of Least Effort) हेतु दोनों ध्वनियों को मिलाकर एक नवीन रूप प्रदान कर देता है।
+
+इसे समझने के लिए तीन अवस्थाओं की कल्पना कीजिए:
+1. **सजातीय ध्वनियों का विलय (दीर्घ स्वर सन्धि)**: जब दो समान स्वर मिलते हैं, तो मुख की मांसपेशियाँ एक लम्बा खिंचाव लेती हैं ($a + a \to \bar{a}$)। जैसे—हिम + आलय = हिमालय; विद्या + अर्थी = विद्यार्थी।
+2. **विजातीय ध्वनियों का संकरण (गुण एवं वृद्धि सन्धि)**: कंठ ध्वनि (अ/आ) जब तालु ध्वनि (इ/ई) से मिलती है, तो दोनों के बीच का बिंदु 'ए' (कंठ-तालव्य) बन जाता है। जब कंठ ध्वनि ओष्ठ ध्वनि (उ/ऊ) से मिलती है, तो 'ओ' (कंठोष्ठ्य) बन जाता है। वृद्धि सन्धि में यह एक पायदान और आगे बढ़कर क्रमशः 'ऐ' और 'औ' में परिणत हो जाता है।
+3. **अर्धस्वर में संक्रमण (यण एवं अयादि सन्धि)**: जब मुख पहले संकीर्ण स्वर (इ या उ) पर हो और अचानक खुले स्वर की ओर गति करे, तो स्वर घिसटकर अर्धस्वर 'य्' या 'व्' बन जाता है। (उदा. इ + आ = 'या' $\to$ इति + आदि = इत्यादि)।13:T2744,### 1. दीर्घ स्वर सन्धि (अकः सवर्णे दीर्घः)
+**नियम**: ह्रस्व या दीर्घ अ, इ, उ, ऋ के बाद क्रमशः समान ह्रस्व या दीर्घ अ, इ, उ, ऋ आएँ तो दोनों मिलकर दीर्घ **आ, ई, ऊ, ॠ** हो जाते हैं।
+
+| सन्धि प्रकार | संघटक स्वर | सामासिक पद (सन्धि रूप) | प्रामाणिक विच्छेद | अर्थ संदर्भ |
+| :--- | :--- | :--- | :--- | :--- |
+| **अ/आ + अ/आ = आ** | अ + अ | दैत्यारि | दैत्य + अरि | दैत्यों का शत्रु (विष्णु) |
+| | अ + आ | प्रांगण | प्र + अंगण | खुला विस्तृत आँगन |
+| | आ + अ | परीक्षार्थी | परीक्षा + अर्थी | परीक्षा चाहने वाला |
+| | आ + आ | दयानन्द | दया + आनन्द | दया में आनंदित |
+| **इ/ई + इ/ई = ई** | इ + इ | कवीन्द्र | कवि + इन्द्र | कवियों में श्रेष्ठ |
+| | इ + ई | कपीश | कपि + ईश | वानरों के स्वामी (हनुमान/सुग्रीव) |
+| | ई + इ | महीन्द्र | मही + इन्द्र | पृथ्वी का स्वामी (राजा) |
+| | ई + ई | सतीश | सती + ईश | सती के पति (शिव) |
+| **उ/ऊ + उ/ऊ = ऊ** | उ + उ | भानूदय | भानु + उदय | सूर्य का निकलना |
+| | उ + ऊ | लघूर्मि | लघु + ऊर्मि | छोटी लहर |
+| | ऊ + उ | चमूत्थान | चमू + उत्थान | सेना का उठना/प्रयाण |
+| | ऊ + ऊ | भूष्मा | भू + ऊष्मा | पृथ्वी की गरमी |
+| **ऋ + ऋ = ॠ** | ऋ + ऋ | पितॄण | पितृ + ऋण | पिता का ऋण |
+
+---
+
+### 2. गुण स्वर सन्धि (आद्गुणः)
+**नियम**: यदि 'अ/आ' के बाद 'इ/ई' आए तो दोनों मिलकर **'ए'**, 'उ/ऊ' आए तो **'ओ'**, तथा 'ऋ' आए तो **'अर्'** हो जाता है।
+
+| संघटक रूप | सन्धि पद | शुद्ध विच्छेद | परीक्षा में होने वाला अशुद्ध विच्छेद (Trap) |
+| :--- | :--- | :--- | :--- |
+| **अ/आ + इ/ई = ए** | गुडाकेश | गुडाका + ईश | *गुडा + केश* (गलत; गुडाका = निद्रा, ईश = स्वामी अर्थात् अर्जुन/शिव) |
+| | राकेश | राका + ईश | *राक + ईश* (गलत; राका = पूर्णिमा की रात) |
+| | यथेष्ट | यथा + इष्ट | *यथा + ईष्ट* (गलत; इष्ट में ह्रस्व 'इ' होता है) |
+| **अ/आ + उ/ऊ = ओ** | जलोर्मि | जल + ऊर्मि | *जल + उर्मि* (गलत; ऊर्मि में दीर्घ 'ऊ' होता है) |
+| | नवोढ़ा | नव + ऊढ़ा | *नव + ओढ़ा / नव + उढ़ा* (गलत; ऊढ़ा = विवाहिता) |
+| | शीतोष्ण | शीत + उष्ण | *शीत + ऊष्ण* (गलत; उष्ण में ह्रस्व 'उ') |
+| **अ/आ + ऋ = अर्** | महर्षि | महा + ऋषि | *मह + ऋषि* (गलत; मूल शब्द 'महा' है) |
+| | वर्षर्तु | वर्षा + ऋतु | *वर्ष + ऋतु* (गलत; वर्षा की ऋतु) |
+| | शीतर्तु | शीत + ऋतु | शीत की ऋतु |
+
+---
+
+### 3. वृद्धि स्वर सन्धि (वृद्धिरेचि)
+**नियम**: यदि 'अ/आ' के बाद 'ए/ऐ' आए तो दोनों मिलकर **'ऐ'** (दो मात्राएं: ै), और यदि 'ओ/औ' आए तो दोनों मिलकर **'औ'** (ौ) हो जाते हैं।
+
+| संघटक रूप | सन्धि पद | शुद्ध विच्छेद | परीक्षक जाल / शुद्ध वर्तनी टिप्पणी |
+| :--- | :--- | :--- | :--- |
+| **अ/आ + ए/ऐ = ऐ** | मतैक्य | मत + ऐक्य | *मत + एक्य* (एक्य अशुद्ध है; 'एक' में 'य' प्रत्यय से 'ऐक्य' बनता है) |
+| | महैश्वर्य | महा + ऐश्वर्य | ईश्वर + य = ऐश्वर्य |
+| | सदैव | सदा + एव | एव = ही |
+| | वसुधैव | वसुधा + एव | वसुधा = पृथ्वी |
+| **अ/आ + ओ/औ = औ** | जलौघ | जल + ओघ | ओघ = प्रवाह / वेग |
+| | महौषध | महा + औषध | औषध में 'औ' की मात्रा होती है |
+| | महौदार्य | महा + औदार्य | उदार + य = औदार्य |
+| | दन्तोष्ठ | दन्त + ओष्ठ | (अपवाद स्वरूप 'दन्तौष्ठ' और 'दन्तोष्ठ' दोनों शुद्ध मान्य) |
+
+---
+
+### 4. यण स्वर सन्धि (इको यणचि)
+**नियम**: यदि पूर्व पद के अंत में **इ/ई, उ/ऊ, ऋ** हो और परे कोई **असमान स्वर** आए, तो:
+- **इ/ई $	o$ य्**
+- **उ/ऊ $	o$ व्**
+- **ऋ $	o$ र्**
+
+| सन्धि पद | घटक विच्छेद | रूपान्तरण प्रक्रिया | अर्थ / टिप्पणी |
+| :--- | :--- | :--- | :--- |
+| **अध्येषणा** | अधि + एषणा | अधि (ध् + इ) + एषणा $	o$ अध् + य् + एषणा $	o$ अध्येषणा | खोज, अनुसंधान |
+| **व्यूह** | वि + ऊह | वि (व् + इ) + ऊह $	o$ व् + य् + ऊह $	o$ व्यूह | सैन्य रचना |
+| **प्रत्युपकार** | प्रति + उपकार | प्रति (त् + इ) + उपकार $	o$ प्रत् + य् + उपकार $	o$ प्रत्युपकार | उपकार के बदले उपकार |
+| **अन्वय** | अनु + अय | अनु (न् + उ) + अय $	o$ अन् + व् + अय $	o$ अन्वय | व्याकरणिक संगति |
+| **मध्वरी** | मधु + अरि | मधु (ध् + उ) + अरि $	o$ मध् + व् + अरि $	o$ मध्वरी | श्रीकृष्ण (मधु राक्षस के शत्रु) |
+| **गुरवज्ञा** | गुरु + अवज्ञा | गुरु (र् + उ) + अवज्ञा $	o$ गुर् + व् + अवज्ञा $	o$ गुरवज्ञा | गुरु की अवहेलना |
+| **पित्रनुमति** | पितृ + अनुमति | पितृ (त् + ऋ) + अनुमति $	o$ पत् + र् + अनुमति $	o$ पित्रनुमति | *पित्रा + अनुमति* अशुद्ध है! |
+| **मात्राज्ञा** | मातृ + आज्ञा | मातृ (त् + ऋ) + आज्ञा $	o$ पत् + र् + आज्ञा $	o$ मात्राज्ञा | माता की आज्ञा |
+
+---
+
+### 5. अयादि स्वर सन्धि (एचोऽयवायावः)
+**नियम**: यदि पूर्व पद के अंत में **ए, ऐ, ओ, औ** हो और परे कोई भी स्वर आए, तो:
+- **ए $	o$ अय्**
+- **ऐ $	o$ आय्**
+- **ओ $	o$ अव्**
+- **औ $	o$ आव्**
+
+| सन्धि पद | शुद्ध विच्छेद | परिवर्तन सूत्र | परीक्षा टिप्पणी |
+| :--- | :--- | :--- | :--- |
+| **नयन** | ने + अन | न् + ए + अन $	o$ न् + अय् + अन $	o$ नयन | आँख |
+| **नायक** | नै + अक | न् + ऐ + अक $	o$ न् + आय् + अक $	o$ नायक | नेता, अभिनेता |
+| **पवन** | पो + अन | प् + ओ + अन $	o$ प् + अव् + अन $	o$ पवन | वायु |
+| **पावक** | पौ + अक | प् + औ + अक $	o$ प् + आव् + अक $	o$ पावक | अग्नि |
+| **गवेषणा** | गो + एषणा | ग् + ओ + एषणा $	o$ ग् + अव् + एषणा $	o$ गवेषणा | गहन शोध (गायों की खोज से विकसित) |
+| **गव्य** | गो + य | ओ का अव् (वान्तो यि प्रत्यये सूत्र) $	o$ ग् + अव् + य = गव्य | गाय का दुग्ध आदि |
+| **भावुक** | भौ + उक | भ् + औ + उक $	o$ भ् + आव् + उक $	o$ भावुक | संवेदनशील |
+| **नाविक** | नौ + इक | न् + औ + इक $	o$ न् + आव् + इक $	o$ नाविक | मल्लाह |14:Tb45,स्वर सन्धि की गणितीय संरचना को निम्नांकित समीकरणों द्वारा समझा जा सकता है:
+
+### 1. यण सन्धि का परिवर्तन-चरण (Step-by-Step Morpho-phonemic Resolution):
+$$\text{अति} + \text{आचार} \xrightarrow{\text{वर्ण-वियोजन}} [अ + त् + इ] + [आ + च् + आ + र् + अ]$$
+$$\xrightarrow{इ + आ \implies य् + आ = या} अ + त् + या + च् + आ + र् + अ \implies \mathbf{अत्याचार}$$
+
+### 2. पितृ / मातृ आधारित यण सन्धि का शुद्धीकरण:
+$$\text{पितृ} + \text{उपदेश} \xrightarrow{त् + ऋ + उ} त् + र् + उ \implies \mathbf{त्रु} \implies \mathbf{पित्रुपदेश}$$
+*(परीक्षक ट्रैप: छात्र 'पित्रापदेश' या 'पितृपदेश' लिख देते हैं, जो शून्य अंक दिलाता है)*
+
+### 3. अयादि सन्धि एवं वान्तो यि प्रत्यये नियम:
+यदि 'ओ' अथवा 'औ' के अनन्तर 'य' प्रत्यय आए (यथा य-कारादि प्रत्यय), तो भी ओ का 'अव्' और औ का 'आव्' हो जाता है:
+- $\text{गो} + \text{य} \to \text{ग्} + \text{अव्} + \text{य} = \mathbf{गव्य}$
+- $\text{नौ} + \text{य} \to \text{न्} + \text{आव्} + \text{य} = \mathbf{नाव्य}$ (नौका से पार करने योग्य)
+
+### 4. गुण-वृद्धि के प्रमुख शास्त्रीय अपवाद (वार्तिक नियम):
+- **अक्ष + ऊहिनी = अक्षौहिणी** (नियमतः गुण से 'अक्षोहिणी' होना चाहिए था, किन्तु वार्तिक से वृद्धि होकर 'अक्षौहिणी' बनता है — चतुरंगिणी सेना)।
+- **प्र + ऊढ़ = प्रौढ़** (गुण का अपवाद $\to$ वृद्धि होकर 'प्रौढ़' बनता है)।
+- **प्र + ऊह = प्रौह**; **प्र + ऊढ़ि = प्रौढ़ि**।
+- **सुख + ऋत = सुखार्त** (सुखार्त = सुख से आर्त; तृतीया तत्पुरुष समास में 'ऋते च तृतीयासमासे' वार्तिक से 'अर्' के स्थान पर 'आर्' वृद्धि होती है)।15:Tb4c,### RPSC RAS Mains में सन्धि-विच्छेद करने के स्वर्णिम नियम:
+
+1. **अर्थवान मूल शब्दों की पहचान**:
+   विच्छेद करते समय दोनों शब्द पूर्णतः सार्थक होने चाहिए।
+   - *अशुद्ध विच्छेद*: अभ्यार्थी $\to$ छात्र लिख देते हैं 'अभ्या + अर्थी'।
+   - *शुद्ध विच्छेद*: **अभि + अर्थी = अभ्यर्थी** (यण सन्धि)। अतः शब्द भी 'अभ्यर्थी' शुद्ध है, 'अभ्यार्थी' अशुद्ध है!
+
+2. **मात्रा-भेद जाल (ह्रस्व बनाम दीर्घ)**:
+   - **ईश, ईश्वर, ईक्षण, ईहा, ईप्सित, ऊर्जा, ऊर्मि, ऊढ़ा**: इनमें सदैव **दीर्घ स्वर (ई, ऊ)** होता है।
+     * कपीश = कपि + **ईश**
+     * जलोर्मि = जल + **ऊर्मि**
+     * नवोढ़ा = नव + **ऊढ़ा**
+     * प्रतीक्षक = प्रति + **ईक्षक**
+   - **इन्द्र, इष्ट, उत्सव, उदय, उपकार, उत्तम, अनुमति**: इनमें सदैव **ह्रस्व स्वर (इ, उ)** होता है।
+     * रवीन्द्र = रवि + **इन्द्र**
+     * यथेष्ट = यथा + **इष्ट**
+     * महोत्थान = महा + **उत्थान**
+
+3. **'ऐ' और 'औ' वाले वृद्धि सन्धि शब्दों का विच्छेद**:
+   - मतैक्य = मत + **ऐक्य** (न कि एक्य)
+   - महैश्वर्य = महा + **ऐश्वर्य** (न कि ऐश्वर्य में ह्रस्व)
+   - वनौषधि = वन + **ओषधि** (ओषधि में ओ तथा औषध में औ मान्य है)
+
+4. **गवाक्ष का विशेष विवाद**:
+   - 'गवाक्ष' (खिड़की/झरोखा) का विच्छेद **गो + अक्ष** (अवादेश होकर) माना जाता है। दीर्घ सन्धि के अनुसार 'गव + अक्ष' भी कई पुस्तकों में मिलता है, किन्तु RPSC मानक संस्कृत वार्तिक 'सर्वत्र गोः' के अनुसार **गो + अक्ष** को प्राथमिकता देती है।6:["$","$L11",null,{"concept":{"id":"CON-HIN-002","topicId":"cmtyhy4q80luf422i7iyxxisl","parentId":null,"slug":"swar-sandhi-panch-bhed","title":"सन्धि एवं सन्धि-विच्छेद — स्वर सन्धि के पांच भेद (दीर्घ, गुण, वृद्धि, यण, अयादि)","shortDefinition":"दो स्वरों के पारस्परिक व्यवधानरहित मेल से उत्पन्न ध्वनि-परिवर्तन (विकार): दीर्घ (सजातीय दीर्घीकरण), गुण (ए, ओ, अर्), वृद्धि (ऐ, औ), यण (इ/उ/ऋ का य्/व्/र्) एवं अयादि (ए/ऐ/ओ/औ का अय्/आय्/अव्/आव्)।","difficulty":"INTERMEDIATE","status":"ACTIVE","order":2,"createdAt":"$D2026-09-12T14:44:53.825Z","updatedAt":"$D2026-09-12T14:44:53.825Z","topic":{"id":"cmtyhy4q80luf422i7iyxxisl","subjectId":"cmtyhy4q50lub422ikb77h225","slug":"sandhi-aur-sandhi-vichhed","title":"सन्धि एवं सन्धि-विच्छेद","description":"वर्णों के मेल से उत्पन्न विकार, स्वर सन्धि (दीर्घ, गुण, वृद्धि, यण, अयादि) के सूत्र व नियम।","scope":null,"order":2,"status":"ACTIVE","createdAt":"$D2026-09-12T14:44:53.745Z","updatedAt":"$D2026-09-12T14:44:53.745Z","subject":{"id":"cmtyhy4q50lub422ikb77h225","domainId":"cmtyhy4q30lu9422i69vm54vh","slug":"general-hindi","name":"General Hindi","description":"Comprehensive General Hindi for RPSC RAS Mains Paper IV (120 Marks) & civil services: Grammar, Administrative Vocabulary, Drafting, Précis, Idea Expansion, Translation, and Essays.","scopeStatement":"Exhaustive syllabus coverage for RPSC RAS Mains Paper IV: Part A Grammar & Vocab (50 Marks), Part B Comprehension & Drafting (50 Marks), and Part C Essays (20 Marks).","status":"ACTIVE","order":1,"createdAt":"$D2026-09-12T14:44:53.741Z","updatedAt":"$D2026-09-12T14:44:53.741Z","domain":{"id":"cmtyhy4q30lu9422i69vm54vh","slug":"humanities-and-communication","name":"Humanities & Communication","description":"Languages, Literature, Official Drafting, Communication, Philosophy, and Human Expression.","order":4,"status":"ACTIVE","createdAt":"$D2026-09-12T14:44:53.740Z","updatedAt":"$D2026-09-12T14:44:53.740Z"}},"concepts":[{"id":"CON-HIN-002","slug":"swar-sandhi-panch-bhed","title":"सन्धि एवं सन्धि-विच्छेद — स्वर सन्धि के पांच भेद (दीर्घ, गुण, वृद्धि, यण, अयादि)","difficulty":"INTERMEDIATE"},{"id":"CON-HIN-003","slug":"vyanjan-evam-visarga-sandhi-niyam-apvaad","title":"सन्धि एवं सन्धि-विच्छेद — व्यंजन सन्धि एवं विसर्ग सन्धि के प्रमुख नियम व अपवाद","difficulty":"ADVANCED"}]},"contentBlocks":[{"id":"cmtyhy4sj0lwj422iwmaef5vv","conceptId":"CON-HIN-002","type":"INTUITION","title":"स्वर सन्धि का ध्वन्यात्मक आधार: वाक्-प्रवाह में ऊर्जा-संरक्षण एवं उच्चारण-सुगमता","body":"$12","order":1,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.827Z","updatedAt":"$D2026-09-12T14:44:53.827Z"},{"id":"cmtyhy4sl0lwl422i5v41tvul","conceptId":"CON-HIN-002","type":"CORE_IDEA","title":"स्वर सन्धि के पाँचों भेदों के प्रामाणिक नियम, सूत्र एवं वर्गीकृत उदाहरण सारणी","body":"$13","order":2,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.829Z","updatedAt":"$D2026-09-12T14:44:53.829Z"},{"id":"cmtyhy4sn0lwn422i89b8ewcz","conceptId":"CON-HIN-002","type":"MECHANISM","title":"स्वर-सन्धि की रूप-ध्वन्यात्मक समीकरण प्रणाली एवं अपवाद विधान","body":"$14","order":3,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.831Z","updatedAt":"$D2026-09-12T14:44:53.831Z"},{"id":"cmtyhy4so0lwp422ic2zxl4s1","conceptId":"CON-HIN-002","type":"EXAM_APPLICATION","title":"RPSC RAS Mains Paper IV — परीक्षक के प्रिय प्रश्न, वर्तनी जाल एवं विच्छेद रणनीति","body":"$15","order":4,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.833Z","updatedAt":"$D2026-09-12T14:44:53.833Z"}],"claims":[{"id":"CLM-HIN-002-1","conceptId":"CON-HIN-002","statement":"सन्धि मात्र वर्णों का जोड़ (संयोग) नहीं है, अपितु दो निकटवर्ती वर्णों के परस्पर मेल से उत्पन्न अनिवार्य ध्वन्यात्मक विकार (परिवर्तन) है; स्वर सन्धि में विकार केवल स्वरों के मेल से उत्पन्न होता है।","claimType":"GRAMMATICAL_DEFINITION","epistemicLevel":"CANONICAL","importance":"MUST_KNOW","confidence":"VERY_HIGH","status":"VERIFIED","scopeConditions":null,"jurisdiction":"India","validFrom":null,"validTo":null,"createdAt":"$D2026-09-12T14:44:53.835Z","updatedAt":"$D2026-09-12T14:44:53.835Z","evidence":[{"id":"cmtyhy4ss0lwr422iy3zr5l2b","claimId":"CLM-HIN-002-1","sourceId":"SRC-HINDI-MASTER-2026","sourceSectionId":null,"locator":"पं. कामताप्रसाद गुरु, 'हिन्दी व्याकरण', नागरी प्रचारिणी सभा, अध्याय 3 'सन्धि', पृष्ठ 31-37","excerpt":"दो निर्दिष्ट अक्षरों के पास-पास आने के कारण उनके मेल से जो विकार होता है, उसे सन्धि कहते हैं। यदि बिना किसी विकार के वर्ण परस्पर जुड़ जाएँ तो उसे सन्धि नहीं बल्कि 'संयोग' कहते हैं (जैसे—युग + बोध = युगबोध)। स्वर सन्धि में स्वर के साथ स्वर का ही विकारयुक्त मेल होता है।","evidenceType":"EXCERPT","authority":"PRIMARY_REGULATORY_TEXT","evidentiarySupport":"DIRECT_SUPPORT","extractionConfidence":"CERTAIN","notes":null,"createdAt":"$D2026-09-12T14:44:53.837Z","source":{"id":"SRC-HINDI-MASTER-2026","title":"General Hindi Authoritative Lexicon & Grammar Corpus (Kamta Prasad Guru, Vasudev Nandan, Raghav Prakash, Secretariat Manual)","author":null,"publisher":null,"sourceType":"COMPREHENSIVE_LINGUISTIC_SYNTHESIS","authorityTier":"PEER_REVIEWED_MATHEMATICAL_REFERENCE","url":null,"publicationDate":null,"edition":null,"identifier":null,"language":"en","description":"Authoritative grammatical and administrative linguistic corpus for civil services examinations.","createdAt":"$D2026-09-12T14:44:53.769Z","updatedAt":"$D2026-09-12T14:44:53.769Z"}}]},{"id":"CLM-HIN-002-2","conceptId":"CON-HIN-002","statement":"यण सन्धि में पूर्व पद का स्वर (इ/ई, उ/ऊ, ऋ) असमान स्वर परे होने पर क्रमशः अर्धस्वर य्, व्, र् में रूपान्तरित होता है, जबकि उत्तर पद का स्वर उसमें केवल मात्रा बनकर जुड़ता है।","claimType":"PHONOLOGICAL_RULE","epistemicLevel":"CANONICAL","importance":"MUST_KNOW","confidence":"VERY_HIGH","status":"VERIFIED","scopeConditions":null,"jurisdiction":"India","validFrom":null,"validTo":null,"createdAt":"$D2026-09-12T14:44:53.838Z","updatedAt":"$D2026-09-12T14:44:53.838Z","evidence":[{"id":"cmtyhy4sv0lwt422ifz7nkmbr","claimId":"CLM-HIN-002-2","sourceId":"SRC-HINDI-MASTER-2026","sourceSectionId":null,"locator":"डॉ. हरदेव बाहरी, 'हिन्दी उद्भव, विकास और रूप', किताब महल, पृष्ठ 58-62","excerpt":"यण् सन्धि पाणिनि के 'इको यणचि' सूत्र पर आधारित है। इ/ई + असमान स्वर = य्; उ/ऊ + असमान स्वर = व्; ऋ + असमान स्वर = र्। जैसे—प्रति + उपकार = प्रत्युपकार; सु + अच्छ = स्वच्छ; पितृ + आज्ञा = पित्राज्ञा।","evidenceType":"EXCERPT","authority":"PRIMARY_REGULATORY_TEXT","evidentiarySupport":"DIRECT_SUPPORT","extractionConfidence":"CERTAIN","notes":null,"createdAt":"$D2026-09-12T14:44:53.840Z","source":{"id":"SRC-HINDI-MASTER-2026","title":"General Hindi Authoritative Lexicon & Grammar Corpus (Kamta Prasad Guru, Vasudev Nandan, Raghav Prakash, Secretariat Manual)","author":null,"publisher":null,"sourceType":"COMPREHENSIVE_LINGUISTIC_SYNTHESIS","authorityTier":"PEER_REVIEWED_MATHEMATICAL_REFERENCE","url":null,"publicationDate":null,"edition":null,"identifier":null,"language":"en","description":"Authoritative grammatical and administrative linguistic corpus for civil services examinations.","createdAt":"$D2026-09-12T14:44:53.769Z","updatedAt":"$D2026-09-12T14:44:53.769Z"}}]},{"id":"CLM-HIN-002-3","conceptId":"CON-HIN-002","statement":"अयादि सन्धि में ए, ऐ, ओ, औ के अनन्तर कोई भी स्वर आने पर क्रमशः अय्, आय्, अव्, आव् आदेश होता है; गवेषणा (गो + एषणा), गवाक्ष (गो + अक्ष - अपवाद), नाभिक (नौ + इक) इसके मानक उदाहरण हैं।","claimType":"EXAM_CANONICAL_SYNTHESIS","epistemicLevel":"CANONICAL","importance":"MUST_KNOW","confidence":"VERY_HIGH","status":"VERIFIED","scopeConditions":null,"jurisdiction":"India","validFrom":null,"validTo":null,"createdAt":"$D2026-09-12T14:44:53.842Z","updatedAt":"$D2026-09-12T14:44:53.842Z","evidence":[{"id":"cmtyhy4sz0lwv422ivneodmss","claimId":"CLM-HIN-002-3","sourceId":"SRC-HINDI-MASTER-2026","sourceSectionId":null,"locator":"डॉ. राघव प्रकाश, 'सामान्य हिन्दी', पिंक सिटी पब्लिशर्स, संस्करण 2024, पृष्ठ 21-33","excerpt":"एचोऽयवायावः सूत्रानुसार ए, ऐ, ओ, औ का अय्, आय्, अव्, आव् में परिवर्तन अयादि सन्धि कहलाता है। यद्यपि हिन्दी में अयादि सन्धि के शब्द प्रायः रूढ़ माने जाते हैं, किन्तु परीक्षा में तत्सम व्युत्पत्ति के अनुसार गो + एषणा = गवेषणा (ओ का अव्) ही मान्य सन्धि-विच्छेद है।","evidenceType":"EXCERPT","authority":"PRIMARY_REGULATORY_TEXT","evidentiarySupport":"DIRECT_SUPPORT","extractionConfidence":"CERTAIN","notes":null,"createdAt":"$D2026-09-12T14:44:53.844Z","source":{"id":"SRC-HINDI-MASTER-2026","title":"General Hindi Authoritative Lexicon & Grammar Corpus (Kamta Prasad Guru, Vasudev Nandan, Raghav Prakash, Secretariat Manual)","author":null,"publisher":null,"sourceType":"COMPREHENSIVE_LINGUISTIC_SYNTHESIS","authorityTier":"PEER_REVIEWED_MATHEMATICAL_REFERENCE","url":null,"publicationDate":null,"edition":null,"identifier":null,"language":"en","description":"Authoritative grammatical and administrative linguistic corpus for civil services examinations.","createdAt":"$D2026-09-12T14:44:53.769Z","updatedAt":"$D2026-09-12T14:44:53.769Z"}}]}],"examMappings":[{"examSlug":"rpsc-ras","examName":"RPSC RAS / RTS","syllabusUnit":"सामान्य हिन्दी - भाग 'अ' (व्याकरण): स्वर सन्धि एवं सन्धि-विच्छेद","relevance":"VERY_HIGH","priority":"P1","requiredDepth":"EXHAUSTIVE","questionStyle":null,"frequentTraps":null,"notes":"हर वर्ष 2-2 अंक के 2 से 3 प्रश्न सीधे सन्धि-विच्छेद एवं सन्धि-पद निर्माण पर पूछे जाते हैं। यण एवं अयादि सन्धि RPSC का सर्वाधिक प्रिय क्षेत्र है।"},{"examSlug":"upsc-cse","examName":"UPSC Civil Services Examination","syllabusUnit":"Compulsory Hindi: Sandhi and Grammatical Precision","relevance":"HIGH","priority":"P2","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"शुद्ध सन्धि ज्ञान से शब्द-विन्यास और निबंध में वर्तनी सम्बन्धी अशुद्धियों का निवारण होता है।"},{"examSlug":"uppsc-pcs","examName":"UPPSC","syllabusUnit":"General Hindi: सन्धि एवं विच्छेद (स्वर सन्धि)","relevance":"VERY_HIGH","priority":"P1","requiredDepth":"EXHAUSTIVE","questionStyle":null,"frequentTraps":null,"notes":"विगत 10 वर्षों में यण एवं वृद्धि सन्धि के अपवादों पर बारम्बार प्रश्न पूछे गए हैं।"},{"examSlug":"mppsc","examName":"MPPSC","syllabusUnit":"General Hindi Paper V: सन्धि एवं सन्धि-विच्छेद","relevance":"VERY_HIGH","priority":"P1","requiredDepth":"EXHAUSTIVE","questionStyle":null,"frequentTraps":null,"notes":"3-अंक के प्रश्नों में सीधे सूत्र, परिभाषा और दो-दो उदाहरण पूछे जाते हैं।"},{"examSlug":"bpsc","examName":"BPSC","syllabusUnit":"General Hindi: सन्धि प्रकरण","relevance":"HIGH","priority":"P1","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"सन्धि विच्छेद और सन्धि नामोल्लेख के व्यावहारिक प्रश्न।"},{"examSlug":"ukpsc","examName":"UKPSC","syllabusUnit":"General Hindi: स्वर सन्धि भेद","relevance":"HIGH","priority":"P2","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"दीर्घ, गुण, वृद्धि, यण एवं अयादि के सूक्ष्म नियमों पर प्रश्न।"},{"examSlug":"hpsc","examName":"HPSC","syllabusUnit":"General Hindi: Sandhi Rules & Word Formation","relevance":"HIGH","priority":"P2","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"मानक हिन्दी व्याकरण में स्वर सन्धि के अपवाद।"},{"examSlug":"dsssb","examName":"DSSSB","syllabusUnit":"Hindi Section: Sandhi Identification MCQ","relevance":"HIGH","priority":"P2","requiredDepth":"CONCEPTUAL","questionStyle":null,"frequentTraps":null,"notes":"बहुविकल्पीय प्रश्नों में यण सन्धि और अयादि सन्धि के पदों का चुनाव।"}],"revisionUnits":[{"id":"cmtyhy4ti0lxl422izy3v83wc","conceptId":"CON-HIN-002","examId":null,"type":"FLASH_30S","content":"स्वर सन्धि 5 भेद:\n1. दीर्घ: अ/इ/उ + सवर्ण = आ, ई, ऊ (दैत्यारि, कपीश, चमूत्थान)\n2. गुण: अ/आ + इ/उ/ऋ = ए, ओ, अर् (गुडाकेश, जलोर्मि, महर्षि)\n3. वृद्धि: अ/आ + ए/ओ = ऐ, औ (मतैक्य, महौषध; अपवाद: अक्षौहिणी, प्रौढ़)\n4. यण: इ/उ/ऋ + असमान = य्, व्, र् (अध्येषणा, मध्वरी, पित्रनुमति)\n5. अयादि: ए/ऐ/ओ/औ + स्वर = अय्, आय्, अव्, आव् (नयन, नायक, पवन, पावक, गवेषणा=गो+एषणा)।","priority":"P1","order":1,"createdAt":"$D2026-09-12T14:44:53.862Z","updatedAt":"$D2026-09-12T14:44:53.862Z"},{"id":"cmtyhy4tj0lxn422iw4674ig2","conceptId":"CON-HIN-002","examId":null,"type":"SUMMARY_2M","content":"स्वर सन्धि में दो स्वरों के मेल से विकार उत्पन्न होता है। दीर्घ सन्धि में सजातीय स्वर मिलकर दीर्घ (आ, ई, ऊ) बनते हैं। गुण सन्धि में अ/आ के बाद इ/उ/ऋ आने पर क्रमशः ए, ओ, अर् बनते हैं (राकेश=राका+ईश, महर्षि=महा+ऋषि)। वृद्धि सन्धि में अ/आ के बाद ए/ओ आने पर ऐ और औ बनते हैं (मतैक्य=मत+ऐक्य)। यण सन्धि में इ/ई का य्, उ/ऊ का व्, और ऋ का र् बनता है (प्रत्युपकार=प्रति+उपकार, पित्रनुमति=पितृ+अनुमति)। अयादि सन्धि में ए, ऐ, ओ, औ क्रमशः अय्, आय्, अव्, आव् में बदलते हैं (गवेषणा=गो+एषणा, नाविक=नौ+इक)। अपवाद: प्र+ऊढ़=प्रौढ़, अक्ष+ऊहिनी=अक्षौहिणी।","priority":"P1","order":2,"createdAt":"$D2026-09-12T14:44:53.864Z","updatedAt":"$D2026-09-12T14:44:53.864Z"},{"id":"cmtyhy4tl0lxp422ivv9bvjvr","conceptId":"CON-HIN-002","examId":null,"type":"ARCHITECTURE_5M","content":"### स्वर सन्धि संपूर्ण वास्तुकला (Vocalic Morpho-phonemics)\n1. **सजातीय संलयन (Homorganic Fusion)**:\n   - $V_{short/long} + V_{same} \\to V_{long}$ (दीर्घ सन्धि: आ, ई, ऊ, ॠ)\n2. **गुणात्मक संक्रमण (Qualitative Ablaut - Guna)**:\n   - कंठ्य (अ/आ) + तालव्य (इ/ई) $\\to$ कंठ-तालव्य (ए)\n   - कंठ्य (अ/आ) + ओष्ठ्य (उ/ऊ) $\\to$ कंठोष्ठ्य (ओ)\n   - कंठ्य (अ/आ) + मूर्धन्य (ऋ) $\\to$ कंठ-मूर्धन्य (अर्)\n3. **परिमाणात्मक वृद्धि (Quantitative Vowel Lengthening - Vriddhi)**:\n   - अ/आ + ए/ऐ $\\to$ ऐ; अ/आ + ओ/औ $\\to$ औ\n4. **अर्धस्वर संक्रमण (Glide Formation - Yan)**:\n   - इ/ई $\\to$ य्; उ/ऊ $\\to$ व्; ऋ $\\to$ र् (परवर्ती स्वर मात्रा रूप में संयुक्त)\n5. **द्विस्वर विघटन (Diphthongal Dissolution - Ayadi)**:\n   - ए $\\to$ अय्; ऐ $\\to$ आय्; ओ $\\to$ अव्; औ $\\to$ आव्\n6. **वार्तिक अपवाद नेटवर्क**:\n   - अक्ष + ऊहिनी = अक्षौहिणी (गुण नियम का अतिक्रमण कर वृद्धि)\n   - सुख + ऋत = सुखार्त (तृतीया तत्पुरुष में आर् वृद्धि)\n   - गो + अक्ष = गवाक्ष (अवादेश)।","priority":"P1","order":3,"createdAt":"$D2026-09-12T14:44:53.865Z","updatedAt":"$D2026-09-12T14:44:53.865Z"}],"questions":[{"id":"cmtyhy4to0lxt422i65u4lk8m","conceptId":"CON-HIN-002","claimId":null,"examId":null,"type":"DESCRIPTIVE_2M","stem":"RPSC RAS Mains Paper IV प्रारूप: निम्नलिखित पदों का सन्धि-विच्छेद करते हुए सन्धि का नामोल्लेख कीजिए:\n(क) महैश्वर्य\n(ख) अनवीक्षण\n(ग) गव्य\n(घ) प्रौढ़","options":null,"correctAnswer":"(क) महैश्वर्य — सन्धि विच्छेद: महा + ऐश्वर्य; सन्धि का नाम: वृद्धि स्वर सन्धि।\n(ख) अनवीक्षण — सन्धि विच्छेद: अनु + ईक्षण; सन्धि का नाम: यण स्वर सन्धि।\n(ग) गव्य — सन्धि विच्छेद: गो + य; सन्धि का नाम: अयादि स्वर सन्धि।\n(घ) प्रौढ़ — सन्धि विच्छेद: प्र + ऊढ़; सन्धि का नाम: वृद्धि स्वर सन्धि (गुण सन्धि का अपवाद)।","explanation":"प्रत्येक शुद्ध विच्छेद एवं सन्धि नाम के लिए 0.5 अंक नियत हैं। ऐश्वर्य में 'ऐ' और ईक्षण में दीर्घ 'ई' का सटीक अंकन अनिवार्य है।","trapExplanation":"प्रौढ़ का विच्छेद 'प्र + ओढ़' लिखना शून्य अंक दिलाता है; मूल शब्द 'ऊढ़' (विवाहित/परिपक्व) है। 'महैश्वर्य' में 'महा + ईश्वरता' या 'महा + एक्य' लिखना गंभीर त्रुटि है।","difficulty":"ADVANCED","isPYQ":false,"pyqYear":null,"pyqPaper":null,"pyqStage":null,"pyqQuestionNumber":null,"pyqMarks":null,"examinerTrapPattern":null,"createdAt":"$D2026-09-12T14:44:53.869Z","updatedAt":"$D2026-09-12T14:44:53.869Z"},{"id":"cmtyhy4tm0lxr422iwwwvbzkw","conceptId":"CON-HIN-002","claimId":null,"examId":null,"type":"SINGLE_CORRECT","stem":"निम्नलिखित में से 'यण् स्वर सन्धि' का शुद्ध एवं मानक उदाहरण कौन-सा है?","options":"[\"मतैक्य\",\"अन्विक्षा\",\"पवन\",\"महोत्सव\"]","correctAnswer":"अन्विक्षा","explanation":"'अन्विक्षा' में अनु + ईक्षा = अन्विक्षा (न् + उ + ई $\\to$ न् + व् + ई = न्वी) यण् स्वर सन्धि है। मतैक्य वृद्धि सन्धि है (मत + ऐक्य); पवन अयादि सन्धि है (पो + अन); महोत्सव गुण सन्धि है (महा + उत्सव)।","trapExplanation":"छात्र प्रायः 'अन्विक्षा' में 'अन्व' देखकर भ्रमित हो जाते हैं। 'अनु + ईक्षा' में उकार के बाद दीर्घ ईकार आने पर उ का व् होकर 'अन्वीक्षा' या 'अन्विक्षा' यण सन्धि का प्रामाणिक पद बनता है।","difficulty":"INTERMEDIATE","isPYQ":false,"pyqYear":null,"pyqPaper":null,"pyqStage":null,"pyqQuestionNumber":null,"pyqMarks":null,"examinerTrapPattern":null,"createdAt":"$D2026-09-12T14:44:53.867Z","updatedAt":"$D2026-09-12T14:44:53.867Z"}],"outgoingConnections":[]}}]

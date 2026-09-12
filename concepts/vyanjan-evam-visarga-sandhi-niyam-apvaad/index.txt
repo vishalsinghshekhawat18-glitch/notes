@@ -1,0 +1,154 @@
+1:"$Sreact.fragment"
+2:I[7066,["619","static/chunks/619-ba102abea3e3d0e4.js","863","static/chunks/863-a2a527474016388c.js","177","static/chunks/app/layout-8c7191c3646ed218.js"],"ServiceWorkerCleaner"]
+3:I[7528,["619","static/chunks/619-ba102abea3e3d0e4.js","863","static/chunks/863-a2a527474016388c.js","177","static/chunks/app/layout-8c7191c3646ed218.js"],"SiteHeader"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+7:I[4431,[],"OutletBoundary"]
+9:I[5278,[],"AsyncMetadataOutlet"]
+b:I[4431,[],"ViewportBoundary"]
+d:I[4431,[],"MetadataBoundary"]
+e:"$Sreact.suspense"
+10:I[7150,[],""]
+:HL["/notes/_next/static/css/e31c83fd6466f5e6.css","style"]
+:HL["/notes/_next/static/css/a8a95238897091ab.css","style"]
+0:{"P":null,"b":"nxoKWjFQIsMw0Oa_sZx7W","p":"/notes","c":["","concepts","vyanjan-evam-visarga-sandhi-niyam-apvaad",""],"i":false,"f":[[["",{"children":["concepts",{"children":[["slug","vyanjan-evam-visarga-sandhi-niyam-apvaad","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/notes/_next/static/css/e31c83fd6466f5e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/notes/_next/static/css/a8a95238897091ab.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-[#f7f5f0] text-stone-900 antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t border-[#e5dfd3] bg-[#f2efe7]/80 py-8 text-center text-xs text-stone-600 font-mono","children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-[#143227] font-bold","children":"▲ Mind of Aravalli"}],["$","span",null,{"className":"text-stone-400","children":"•"}],["$","span",null,{"children":"The Ridge Reading Hub"}]]}],["$","div",null,{"className":"flex items-center gap-3 text-stone-500","children":[["$","span",null,{"children":"One Canonical Knowledge Base"}],["$","span",null,{"children":"•"}],["$","span",null,{"className":"text-[#c25e2e] font-semibold","children":"8 Examination Lenses"}]]}]]}]}]]}]}]]}],{"children":["concepts",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","vyanjan-evam-visarga-sandhi-niyam-apvaad","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+a:{"metadata":[["$","title","0",{"children":"Mind of Aravalli | Reading Hub"}],["$","meta","1",{"name":"description","content":"Source-grounded canonical knowledge and examination learning system"}]],"error":null,"digest":"$undefined"}
+f:"$a:metadata"
+11:I[1933,["330","static/chunks/d3ac728e-cf34fc833a02f99c.js","619","static/chunks/619-ba102abea3e3d0e4.js","558","static/chunks/558-6f397304e0c989e5.js","346","static/chunks/346-8c5bae240d59170c.js","806","static/chunks/app/concepts/%5Bslug%5D/page-b45f8cca82bd673b.js"],"ConceptLearningView"]
+12:T21af,### 1. व्यंजन सन्धि के प्रमुख 10 नियम
+
+#### (क) वर्ग के प्रथम वर्ण का तीसरे वर्ण में परिवर्तन (जश्त्व विधान)
+- **सूत्र**: क्, च्, ट्, त्, प् + सघोष वर्ण (स्वर, वर्ग 3, 4, य, र, ल, व, ह) $\to$ **ग्, ज्, ड्, द्, ब्**
+- **उदा.**:
+  * दिक् + अम्बर = **दिगम्बर**
+  * वाक् + देवी = **वाग्देवी**
+  * अच् + आदि = **अजादि**
+  * षट् + दर्शन = **षड्दर्शन**
+  * तत् + रूप = **तद्रूप**
+  * अप् + द = **अब्द** (बादल); अप् + ज = **अब्ज** (कमल)
+
+#### (ख) वर्ग के प्रथम वर्ण का पंचमाक्षर में परिवर्तन (अनुनासिक विधान)
+- **सूत्र**: क्, ट्, त्, प् + न् / म् $\to$ **ङ्, ण्, न्, म्**
+- **उदा.**:
+  * वाक् + मय = **वाङ्मय** (*वाङ्गमय* अशुद्ध है!)
+  * षट् + मास = **षण्मास**
+  * षट् + मूर्ति = **षण्मूर्ति**
+  * तत् + मय = **तन्मय**
+  * उत् + नति = **उन्नति**
+  * मृत् + मय = **मृन्मय**
+  * अप् + मय = **अम्मय**
+
+#### (ग) 'त्' सम्बन्धी विशिष्ट परिवर्तन नियम
+1. त् + च / छ $\to$ **च्च / च्छ** (उत् + चारण = **उच्चारण**; शरत् + चन्द्र = **शरच्चन्द्र**)
+2. त् + ज / झ $\to$ **ज्ज** (सत् + जन = **सज्जन**; विपत् + जाल = **विपज्जाल**; उत् + ज्वल = **उज्ज्वल** — दोनों 'ज' आधे!)
+3. त् + ट / ठ $\to$ **ट्ट** (तत् + टीका = **तट्टीका**; बृहत् + टीका = **बृहट्टीका**)
+4. त् + ड / ढ $\to$ **ड्ड** (उत् + डयन = **उड्डयन**)
+5. त् + ल $\to$ **ल्ल** (उत् + लास = **उल्लास**; तत् + लीन = **तल्लीन**)
+6. त् + श $\to$ **च्छ** (उत् + श्वास = **उच्छ्वास**; उत् + शृंखल = **उच्छृंखल**; सत् + शास्त्र = **सच्छास्त्र**)
+7. त् + ह $\to$ **द्ध** (उत् + हार = **उद्धार**; तत् + हित = **तद्धित**; पद् + हति = **पद्धति**)
+
+#### (घ) 'छ' सम्बन्धी च-आगम नियम
+ह्रस्व स्वर के बाद 'छ' आए तो बीच में 'च्' का आगम होता है:
+- परि + छेद = **परिच्छेद**
+- अनु + छेद = **अनुच्छेद**
+- वि + छेद = **विच्छेद**
+- स्व + छंद = **स्वच्छंद**
+- मातृ + छाया = **मातृच्छाया** (मातृछाया अशुद्ध है)
+
+#### (ङ) 'म्' सम्बन्धी नियम (अनुस्वार विधान)
+1. म् + स्पर्श व्यंजन (क से म) $\to$ परसवर्ण (पंचमाक्षर) अथवा अनुस्वार (ं)
+   * सम् + कल्प = **संकल्प / सङ्कल्प**
+   * सम् + तोष = **संतोष / सन्तोष**
+   * सम् + पूर्ण = **संपूर्ण / सम्पूर्ण**
+2. म् + अंतःस्थ या ऊष्म (य, र, ल, व, श, ष, स, ह) $\to$ केवल **अनुस्वार (ं)**
+   * सम् + योग = **संयोग**
+   * सम् + रक्षण = **संरक्षण**
+   * सम् + वाद = **संवाद**
+   * सम् + हार = **संहार**
+
+#### (च) मूर्धन्यीकरण नियम (स् का ष् होना)
+'अ/आ' से भिन्न स्वर के बाद 'स्' आए तो 'स्' का **'ष्'** हो जाता है:
+- अभि + सेक = **अभिषेक**
+- वि + सम = **विषम**
+- सु + सुप्ति = **सुषुप्ति**
+- नि + सिद्ध = **निषिद्ध**
+- अनु + संगी = **अनुषंगी**
+
+#### (छ) 'न्' का 'ण्' में परिवर्तन
+एक ही पद में यदि **ऋ, र्, ष्** के बाद 'न्' आए तो 'न्' का **'ण्'** हो जाता है (चाहे बीच में स्वर, क-वर्ग, प-वर्ग का व्यवधान हो):
+- परि + नाम = **परिणाम**
+- प्र + मान = **प्रमाण**
+- राम + अयन = **रामायण** (दीर्घ स्वर + न का ण दोनों)
+- कृष् + न = **कृष्ण**
+- शूर्प + नखा = **शूर्पणखा**
+
+---
+
+### 2. विसर्ग सन्धि के प्रमुख नियम एवं सारणी
+
+| नियम क्र. | नियम का स्वरूप | उदाहरण (सन्धि पद) | शुद्ध विच्छेद | परीक्षा टिप्पणी |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. विसर्ग का 'ओ' होना** | अ + ः + सघोष $	o$ **ओ** | **मनोरथ** | मनः + रथ | मन का रथ |
+| | | **यशोदा** | यशः + दा | यश देने वाली |
+| | | **वयोवृद्ध** | वयः + वृद्ध | उम्र में बड़ा |
+| | | **पयोधर** | पयः + धर | बादल / स्तन |
+| | | **अधोपतन** (अशुद्ध) $	o$ **अधःपतन** | अधः + पतन | 'प' अघोष है, अतः ओ नहीं बनेगा! |
+| **2. विसर्ग का 'र्' होना** | (अ/आ भिन्न स्वर) + ः + सघोष $	o$ **र्** | **निर्धन** | निः + धन | धन से रहित |
+| | | **दुर्बल** | दुः + बल | कमजोर |
+| | | **निरीह** | निः + ईह | इच्छा रहित |
+| | | **आयुर्वेद** | आयुः + वेद | चिकित्सा वेद |
+| | | **पुनर्जन्म** | पुनः + जन्म | दोबारा जन्म |
+| **3. विसर्ग का श्, ष्, स् होना** | ः + च/छ $	o$ **श्** | **निश्चय** | निः + चय | अटल निर्णय |
+| | ः + ट/ठ $	o$ **ष्** | **धनुष्टंकार** | धनुः + टंकार | धनुष की टंकार |
+| | ः + त/थ $	o$ **स्** | **नमस्ते** | नमः + ते | नमस्कार |
+| | (इ/उ) + ः + क/ख/प/फ $	o$ **ष्** | **निष्कलंक** | निः + कलंक | कलंक रहित |
+| | | **दुष्परिणाम** | दुः + परिणाम | बुरा फल |
+| **4. विसर्ग लोप व दीर्घीकरण** | ः + र् $	o$ विसर्ग लोप + पूर्व स्वर दीर्घ | **नीरोग** | निः + रोग | *निरोग* अशुद्ध वर्तनी है! |
+| | | **नीरव** | निः + रव | रव (ध्वनि) रहित शांत |
+| | | **नीरस** | निः + रस | रसहीन |
+| **5. विसर्ग का ज्यों का त्यों रहना** | अ + ः + क/ख/प/फ $	o$ विसर्ग सुरक्षित | **प्रातःकाल** | प्रातः + काल | *प्रातःकाल* ही शुद्ध है |
+| | | **पयःपान** | पयः + पान | *पयोपान* अशुद्ध है |
+| | | **अंतःकरण** | अंतः + करण | *अंतकरण* अशुद्ध है |13:T9e8,### 1. 'उज्ज्वल' और 'उच्छ्वास' का निर्माण तंत्र:
+- **उज्ज्वल**:
+  $$\text{उत्} + \text{ज्वल} \xrightarrow{त् + ज \implies ज्ज} \text{उ} + \text{ज्} + \text{ज्वल} = \mathbf{उज्ज्वल}$$
+  *(यहाँ दोनों 'ज' अनिवार्य रूप से अर्द्ध हैं क्योंकि 'त्' हलन्त है और 'ज्वल' में 'ज्' पहले से ही आधा है)*
+- **उच्छ्वास**:
+  $$\text{उत्} + \text{श्वास} \xrightarrow{त् \to च्,\; श् \to छ्} \text{उ} + \text{च्} + \text{छ्वास} = \mathbf{उच्छ्वास}$$
+
+### 2. 'अहन्' शब्द की विसर्ग-प्रक्रिया (Phonological Split):
+'अहन्' (दिन) के साथ सन्धि के दो सर्वथा विपरीत नियम कार्य करते हैं:
+1. **यदि परवर्ती वर्ण 'र' न हो**: अहन् का विसर्ग होकर 'ओ' बन जाता है:
+   - $\text{अहन्} + \text{मुख} \to \mathbf{अहोमुख}$
+   - $\text{अहन्} + \text{रूप} \to \mathbf{अहोरूप}$
+   - $\text{अहन्} + \text{रात्र} \to \mathbf{अहोरात्र}$ (अहोरात्री अशुद्ध है!)
+2. **यदि परवर्ती वर्ण 'र' हो**: रो-री सूत्र से द्वित्व के भय से अहन् का 'अहर्' हो जाता है:
+   - $\text{अहन्} + \text{अहन्} \to \mathbf{अहरह}$ (दिन-प्रतिदिन)
+   - $\text{अहन्} + \text{निश} \to \mathbf{अहर्निश}$ (दिन-रात)
+   - $\text{अहन्} + \text{पति} \to \mathbf{अहर्पति}$ (सूर्य)
+
+### 3. अधःपतन बनाम मनोबल का विभेदक समीकरण:
+- $\text{मनः} + \text{बल} \xrightarrow{'ब' = \text{सघोष}} \mathbf{मनोबल}$ (विसर्ग का 'ओ')
+- $\text{अधः} + \text{पतन} \xrightarrow{'प' = \text{अघोष}} \mathbf{अधःपतन}$ (विसर्ग सुरक्षित रहेगा; 'अधोपतन' व्याकरण सम्मत नहीं है!)14:T9ab,### RPSC RAS Mains Paper IV व्यंजन व विसर्ग सन्धि के घातक ट्रैप:
+
+1. **'अधोपतन' एवं 'मनोकामना' की अशुद्धि**:
+   - छात्र धड़ल्ले से 'मनोकामना' बोलते हैं, किन्तु व्याकरण सम्मत शुद्ध शब्द **मनःकामना** (मनः + कामना) है क्योंकि 'क' अघोष है।
+   - इसी प्रकार **अधःपतन** (अधः + पतन) शुद्ध है, 'अधोपतन' अशुद्ध है।
+   - **प्रातःकाल**, **पयःपान**, **अंतःकरण** में विसर्ग सदैव सुरक्षित रहता है।
+
+2. **'नीरोग' एवं 'नीरस' की वर्तनी**:
+   - 'निः + रोग' में विसर्ग का लोप होकर पूर्व स्वर 'इ' दीर्घ होकर 'ई' बन जाता है।
+   - अतः **नीरोग** शुद्ध है; परीक्षा में 'निरोग' लिखना वर्तनी अशुद्धि माना जाएगा।
+
+3. **'वाङ्मय' का शुद्ध विच्छेद**:
+   - शब्द: वाङ्मय $\to$ विच्छेद: **वाक् + मय**।
+   - छात्र प्रायः 'वाङ् + मय' या 'वांग + मय' लिख देते हैं, जिससे शून्य अंक मिलता है। प्रथम पद सदैव वर्ग का प्रथम वर्ण (क्) हलन्त युक्त होना चाहिए।
+
+4. **'उच्छृंखल' का विच्छेद**:
+   - शुद्ध विच्छेद: **उत् + शृंखल** (त् का च् और शृ का छृ)।
+
+5. **'शिरोभाग' एवं 'वयःक्रम'**:
+   - शिरः + भाग = **शिरोभाग** (भा सघोष है)
+   - शिरः + छेद = **शिरच्छेद** (च परे होने से विसर्ग का श्)
+   - मनः + चिकित्सा = **मनश्चिकित्सा** (मनोचिकित्सा अशुद्ध है!)6:["$","$L11",null,{"concept":{"id":"CON-HIN-003","topicId":"cmtyhy4q80luf422i7iyxxisl","parentId":null,"slug":"vyanjan-evam-visarga-sandhi-niyam-apvaad","title":"सन्धि एवं सन्धि-विच्छेद — व्यंजन सन्धि एवं विसर्ग सन्धि के प्रमुख नियम व अपवाद","shortDefinition":"व्यंजन के साथ व्यंजन या स्वर के मेल से उत्पन्न विकार (जश्त्व, श्चुत्व, च-आगम, अनुनासिकता, मूर्धन्यीकरण) तथा विसर्ग (:) का ओ, र्, श्, ष्, स् अथवा विलोप में रूपान्तरण एवं अहन्-सम्बन्धी अपवाद।","difficulty":"ADVANCED","status":"ACTIVE","order":3,"createdAt":"$D2026-09-12T14:44:53.871Z","updatedAt":"$D2026-09-12T14:44:53.871Z","topic":{"id":"cmtyhy4q80luf422i7iyxxisl","subjectId":"cmtyhy4q50lub422ikb77h225","slug":"sandhi-aur-sandhi-vichhed","title":"सन्धि एवं सन्धि-विच्छेद","description":"वर्णों के मेल से उत्पन्न विकार, स्वर सन्धि (दीर्घ, गुण, वृद्धि, यण, अयादि) के सूत्र व नियम।","scope":null,"order":2,"status":"ACTIVE","createdAt":"$D2026-09-12T14:44:53.745Z","updatedAt":"$D2026-09-12T14:44:53.745Z","subject":{"id":"cmtyhy4q50lub422ikb77h225","domainId":"cmtyhy4q30lu9422i69vm54vh","slug":"general-hindi","name":"General Hindi","description":"Comprehensive General Hindi for RPSC RAS Mains Paper IV (120 Marks) & civil services: Grammar, Administrative Vocabulary, Drafting, Précis, Idea Expansion, Translation, and Essays.","scopeStatement":"Exhaustive syllabus coverage for RPSC RAS Mains Paper IV: Part A Grammar & Vocab (50 Marks), Part B Comprehension & Drafting (50 Marks), and Part C Essays (20 Marks).","status":"ACTIVE","order":1,"createdAt":"$D2026-09-12T14:44:53.741Z","updatedAt":"$D2026-09-12T14:44:53.741Z","domain":{"id":"cmtyhy4q30lu9422i69vm54vh","slug":"humanities-and-communication","name":"Humanities & Communication","description":"Languages, Literature, Official Drafting, Communication, Philosophy, and Human Expression.","order":4,"status":"ACTIVE","createdAt":"$D2026-09-12T14:44:53.740Z","updatedAt":"$D2026-09-12T14:44:53.740Z"}},"concepts":[{"id":"CON-HIN-002","slug":"swar-sandhi-panch-bhed","title":"सन्धि एवं सन्धि-विच्छेद — स्वर सन्धि के पांच भेद (दीर्घ, गुण, वृद्धि, यण, अयादि)","difficulty":"INTERMEDIATE"},{"id":"CON-HIN-003","slug":"vyanjan-evam-visarga-sandhi-niyam-apvaad","title":"सन्धि एवं सन्धि-विच्छेद — व्यंजन सन्धि एवं विसर्ग सन्धि के प्रमुख नियम व अपवाद","difficulty":"ADVANCED"}]},"contentBlocks":[{"id":"cmtyhy4tx0lxv422idksatcp8","conceptId":"CON-HIN-003","type":"INTUITION","title":"व्यंजन एवं विसर्ग सन्धि का आत्मसात्करण: मुख सुख और संकोच का ध्वन्यात्मक नियम","body":"जब दो कठोर पत्थर आपस में टकराते हैं तो एक पत्थर दूसरे के किनारे को तोड़कर समतल बना देता है। व्यंजन और विसर्ग सन्धि की यही मूल आत्मा है जिसे भाषाविज्ञान में 'समीकरण' (Assimilation) कहा जाता है।\n\n1. **सघोषीकरण (Voicing)**: अघोष व्यंजन (क्, त्) जब सघोष वायु (स्वर या ग, द) के संपर्क में आते हैं, तो वाग्-तंत्री में स्वतः कंपन शुरू हो जाता है, जिससे 'क्' कठोर न रहकर कोमल 'ग्' में और 'त्' कोमल 'द्' में ढल जाता है। (वाक् + जाल = वाग्जाल)।\n2. **अनुनासिकीकरण (Nasalization)**: जब आगे पंचमाक्षर (म् या न्) आ रहा हो, तो मुख-विवर पहले से ही नाक का रास्ता खोल देता है, जिससे प्रथम वर्ण सीधे अपने वर्ग के नासिक्य में कूद जाता है। (वाक् + मय = वाङ्मय; षट् + मास = षण्मास)।\n3. **विसर्ग की तरलता**: विसर्ग (ः) मूलतः संस्कृत की श्वास-ध्वनि है जो अंतःस्थित 'स्' या 'र्' का अवशिष्ट रूप है। अनुकूल वातावरण मिलते ही यह पुनः अपने मूल रूप 'र्', तालव्य 'श्', मूर्धन्य 'ष्' अथवा दन्त्य 'स्' में लौट आती है।","order":1,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.878Z","updatedAt":"$D2026-09-12T14:44:53.878Z"},{"id":"cmtyhy4tz0lxx422ii8x3otsl","conceptId":"CON-HIN-003","type":"CORE_IDEA","title":"व्यंजन एवं विसर्ग सन्धि के सम्पूर्ण प्रामाणिक नियम एवं उदाहरण तालिका","body":"$12","order":2,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.879Z","updatedAt":"$D2026-09-12T14:44:53.879Z"},{"id":"cmtyhy4u10lxz422isnvxa3qd","conceptId":"CON-HIN-003","type":"MECHANISM","title":"व्यंजन-विसर्ग रूप-परिवर्तन की ध्वन्यात्मक यंत्रणा एवं अहन्-नियम का विश्लेषण","body":"$13","order":3,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.881Z","updatedAt":"$D2026-09-12T14:44:53.881Z"},{"id":"cmtyhy4u20ly1422if2b0j3y2","conceptId":"CON-HIN-003","type":"EXAM_APPLICATION","title":"RPSC RAS Mains Paper IV — परीक्षक के घातक ट्रैप, शब्द-शुद्धि सह-सम्बन्ध एवं प्राप्तांक कुंजियाँ","body":"$14","order":4,"visibility":"PUBLIC","createdAt":"$D2026-09-12T14:44:53.883Z","updatedAt":"$D2026-09-12T14:44:53.883Z"}],"claims":[{"id":"CLM-HIN-003-1","conceptId":"CON-HIN-003","statement":"व्यंजन सन्धि में यदि वर्ग के प्रथम वर्ण (क्, च्, ट्, त्, प्) के बाद कोई सघोष वर्ण (तीसरा/चौथा वर्ण, य/र/ल/व/ह या कोई स्वर) आए तो प्रथम वर्ण अपने ही वर्ग के तीसरे वर्ण में परिवर्तित हो जाता है (जश्त्व विधान)।","claimType":"MORPHO_PHONEMIC_RULE","epistemicLevel":"CANONICAL","importance":"MUST_KNOW","confidence":"VERY_HIGH","status":"VERIFIED","scopeConditions":null,"jurisdiction":"India","validFrom":null,"validTo":null,"createdAt":"$D2026-09-12T14:44:53.885Z","updatedAt":"$D2026-09-12T14:44:53.885Z","evidence":[{"id":"cmtyhy4u60ly3422i1yjysqme","claimId":"CLM-HIN-003-1","sourceId":"SRC-HINDI-MASTER-2026","sourceSectionId":null,"locator":"पं. कामताप्रसाद गुरु, 'हिन्दी व्याकरण', नागरी प्रचारिणी सभा, अध्याय 3 'व्यंजन सन्धि', पृष्ठ 40-46","excerpt":"यदि क्, च्, ट्, त्, प् के परे कोई स्वर अथवा किसी वर्ग का तीसरा या चौथा वर्ण अथवा य्, र्, ल्, व्, ह् हो तो क् का ग्, च् का ज्, ट् का ड्, त् का द् और प् का ब् हो जाता है। जैसे—दिक् + गज = दिग्गज; वाक् + ईश = वागीश; अच् + अन्त = अजन्त; षट् + आनन = षडानन; सत् + धर्म = सद्धर्म।","evidenceType":"EXCERPT","authority":"PRIMARY_REGULATORY_TEXT","evidentiarySupport":"DIRECT_SUPPORT","extractionConfidence":"CERTAIN","notes":null,"createdAt":"$D2026-09-12T14:44:53.887Z","source":{"id":"SRC-HINDI-MASTER-2026","title":"General Hindi Authoritative Lexicon & Grammar Corpus (Kamta Prasad Guru, Vasudev Nandan, Raghav Prakash, Secretariat Manual)","author":null,"publisher":null,"sourceType":"COMPREHENSIVE_LINGUISTIC_SYNTHESIS","authorityTier":"PEER_REVIEWED_MATHEMATICAL_REFERENCE","url":null,"publicationDate":null,"edition":null,"identifier":null,"language":"en","description":"Authoritative grammatical and administrative linguistic corpus for civil services examinations.","createdAt":"$D2026-09-12T14:44:53.769Z","updatedAt":"$D2026-09-12T14:44:53.769Z"}}]},{"id":"CLM-HIN-003-2","conceptId":"CON-HIN-003","statement":"विसर्ग सन्धि में विसर्ग से पूर्व 'अ' हो और परे कोई सघोष वर्ण या 'अ' हो तो 'अ + ः' मिलकर 'ओ' में परिणत हो जाता है; किन्तु विसर्ग से पूर्व अ/आ से भिन्न स्वर हो तो विसर्ग 'र्' बन जाता है।","claimType":"PHONOLOGICAL_REGULATION","epistemicLevel":"CANONICAL","importance":"MUST_KNOW","confidence":"VERY_HIGH","status":"VERIFIED","scopeConditions":null,"jurisdiction":"India","validFrom":null,"validTo":null,"createdAt":"$D2026-09-12T14:44:53.889Z","updatedAt":"$D2026-09-12T14:44:53.889Z","evidence":[{"id":"cmtyhy4ua0ly5422izevsiiej","claimId":"CLM-HIN-003-2","sourceId":"SRC-HINDI-MASTER-2026","sourceSectionId":null,"locator":"डॉ. हरदेव बाहरी, 'हिन्दी उद्भव, विकास और रूप', किताब महल, पृष्ठ 65-70","excerpt":"मनः + हर = मनोहर; यशः + दा = यशोदा; सरः + वर = सरोवर। किन्तु यदि विसर्ग के पूर्व इ या उ हो तो विसर्ग का 'र्' होता है: निः + धन = निर्धन; दुः + जन = दुर्जन; निः + आशा = निराशा। यदि 'र्' परे हो तो विसर्ग लुप्त होकर पूर्व स्वर दीर्घ हो जाता है: निः + रोग = नीरोग; निः + रस = नीरस।","evidenceType":"EXCERPT","authority":"PRIMARY_REGULATORY_TEXT","evidentiarySupport":"DIRECT_SUPPORT","extractionConfidence":"CERTAIN","notes":null,"createdAt":"$D2026-09-12T14:44:53.891Z","source":{"id":"SRC-HINDI-MASTER-2026","title":"General Hindi Authoritative Lexicon & Grammar Corpus (Kamta Prasad Guru, Vasudev Nandan, Raghav Prakash, Secretariat Manual)","author":null,"publisher":null,"sourceType":"COMPREHENSIVE_LINGUISTIC_SYNTHESIS","authorityTier":"PEER_REVIEWED_MATHEMATICAL_REFERENCE","url":null,"publicationDate":null,"edition":null,"identifier":null,"language":"en","description":"Authoritative grammatical and administrative linguistic corpus for civil services examinations.","createdAt":"$D2026-09-12T14:44:53.769Z","updatedAt":"$D2026-09-12T14:44:53.769Z"}}]},{"id":"CLM-HIN-003-3","conceptId":"CON-HIN-003","statement":"'अहन्' शब्द के साथ सन्धि में र-प्रत्याहार को छोड़कर अन्य सघोष वर्णों के परे रहने पर अहन् का 'अहो' बनता है, किन्तु र-वर्ण परे होने पर 'अहर्' आदेश होता है (अहर्निश, अहर्पति)।","claimType":"EXCEPTIONAL_RULE_APPLICATION","epistemicLevel":"CANONICAL","importance":"MUST_KNOW","confidence":"VERY_HIGH","status":"VERIFIED","scopeConditions":null,"jurisdiction":"India","validFrom":null,"validTo":null,"createdAt":"$D2026-09-12T14:44:53.892Z","updatedAt":"$D2026-09-12T14:44:53.892Z","evidence":[{"id":"cmtyhy4ud0ly7422iqqw6rl48","claimId":"CLM-HIN-003-3","sourceId":"SRC-HINDI-MASTER-2026","sourceSectionId":null,"locator":"डॉ. राघव प्रकाश, 'सामान्य हिन्दी', संस्करण 2024, अध्याय 'सन्धि', पृष्ठ 38-48","excerpt":"अहन् शब्द के विसर्ग का नियम विशिष्ट है: अहन् + रूप = अहो रूप; अहन् + मुख = अहोमुख; अहन् + रात्रि = अहोरात्र (रात्र आदेश)। किन्तु यदि परे 'र' आए तो अहन् का 'अहर्' हो जाता है: अहन् + निश = अहर्निश (अपवाद); अहन् + पति = अहर्पति।","evidenceType":"EXCERPT","authority":"PRIMARY_REGULATORY_TEXT","evidentiarySupport":"DIRECT_SUPPORT","extractionConfidence":"CERTAIN","notes":null,"createdAt":"$D2026-09-12T14:44:53.894Z","source":{"id":"SRC-HINDI-MASTER-2026","title":"General Hindi Authoritative Lexicon & Grammar Corpus (Kamta Prasad Guru, Vasudev Nandan, Raghav Prakash, Secretariat Manual)","author":null,"publisher":null,"sourceType":"COMPREHENSIVE_LINGUISTIC_SYNTHESIS","authorityTier":"PEER_REVIEWED_MATHEMATICAL_REFERENCE","url":null,"publicationDate":null,"edition":null,"identifier":null,"language":"en","description":"Authoritative grammatical and administrative linguistic corpus for civil services examinations.","createdAt":"$D2026-09-12T14:44:53.769Z","updatedAt":"$D2026-09-12T14:44:53.769Z"}}]}],"examMappings":[{"examSlug":"rpsc-ras","examName":"RPSC RAS / RTS","syllabusUnit":"सामान्य हिन्दी - भाग 'अ' (व्याकरण): व्यंजन एवं विसर्ग सन्धि","relevance":"VERY_HIGH","priority":"P1","requiredDepth":"EXHAUSTIVE","questionStyle":null,"frequentTraps":null,"notes":"वाङ्मय, उच्छ्वास, उज्ज्वल, नीरोग, मनश्चिकित्सा जैसे शब्दों का विच्छेद RPSC RAS Mains में न्यूनतम 4 बार पूछा जा चुका है।"},{"examSlug":"upsc-cse","examName":"UPSC Civil Services Examination","syllabusUnit":"Compulsory Hindi: Orthography & Sandhi Junctions","relevance":"HIGH","priority":"P2","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"विसर्ग सम्बन्धी शब्द शुद्धि पर निबंध एवं संक्षेपण में विशेष ध्यान।"},{"examSlug":"uppsc-pcs","examName":"UPPSC","syllabusUnit":"General Hindi: व्यंजन एवं विसर्ग सन्धि नियम","relevance":"VERY_HIGH","priority":"P1","requiredDepth":"EXHAUSTIVE","questionStyle":null,"frequentTraps":null,"notes":"जश्त्व विधान तथा 'त्' सम्बन्धी 7 नियमों पर विश्लेषणात्मक प्रश्न।"},{"examSlug":"mppsc","examName":"MPPSC","syllabusUnit":"General Hindi Paper V: सन्धि विच्छेद एवं सन्धि","relevance":"VERY_HIGH","priority":"P1","requiredDepth":"EXHAUSTIVE","questionStyle":null,"frequentTraps":null,"notes":"3-अंकीय प्रश्नों में सीधे विसर्ग सन्धि के 3 नियम उदाहरण सहित पूछे जाते हैं।"},{"examSlug":"bpsc","examName":"BPSC","syllabusUnit":"General Hindi: व्यंजन व विसर्ग सन्धि","relevance":"HIGH","priority":"P1","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"संधि पदों के विच्छेद पर अनिवार्य लघु प्रश्न।"},{"examSlug":"ukpsc","examName":"UKPSC","syllabusUnit":"General Hindi: व्यंजन सन्धि","relevance":"HIGH","priority":"P2","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"मूर्धन्यीकरण एवं अनुनासिक नियमों के अनुप्रयोग।"},{"examSlug":"hpsc","examName":"HPSC","syllabusUnit":"General Hindi: Sandhi Exceptions & Rules","relevance":"HIGH","priority":"P2","requiredDepth":"MODERATE","questionStyle":null,"frequentTraps":null,"notes":"अहन् सम्बन्धी सन्धि नियमों पर तकनीकी प्रश्न।"},{"examSlug":"dsssb","examName":"DSSSB","syllabusUnit":"General Hindi: Vyanjan & Visarga Sandhi MCQ","relevance":"HIGH","priority":"P2","requiredDepth":"CONCEPTUAL","questionStyle":null,"frequentTraps":null,"notes":"उज्ज्वल, उच्छ्वास, सद्धर्म आदि के सन्धि विच्छेद पर बहुविकल्पीय प्रश्न।"}],"revisionUnits":[{"id":"cmtyhy4ux0lyx422ieeneg9f7","conceptId":"CON-HIN-003","examId":null,"type":"FLASH_30S","content":"व्यंजन व विसर्ग सन्धि सूत्र:\n1. 1st to 3rd: क्, च्, ट्, त्, प् + सघोष = ग्, ज्, ड्, द्, ब् (दिक्+गज=दिग्गज, वाक्+ईश=वागीश)\n2. 1st to 5th: 1st + न्/म् = 5th (वाक्+मय=वाङ्मय, षट्+मास=षण्मास)\n3. त्-नियम: त्+श्=च्छ (उच्छ्वास=उत्+श्वास); त्+ज्=ज्ज (उज्ज्वल=उत्+ज्वल); त्+ह्=द्ध (तद्धित=तत्+हित)\n4. विसर्ग: अः+सघोष=ओ (मनोरथ); इ/उ+ः+सघोष=र् (निर्धन); ः+र् = लोप+दीर्घ (नीरोग, नीरस); ः+च=श् (निश्चय); ः+अघोष सुरक्षित (प्रातःकाल, अधःपतन)।\nअहन्: अहन्+मुख=अहोमुख; अहन्+निश=अहर्निश।","priority":"P1","order":1,"createdAt":"$D2026-09-12T14:44:53.913Z","updatedAt":"$D2026-09-12T14:44:53.913Z"},{"id":"cmtyhy4uy0lyz422iyym5u2j7","conceptId":"CON-HIN-003","examId":null,"type":"SUMMARY_2M","content":"व्यंजन सन्धि में व्यंजन का व्यंजन या स्वर से मेल होता है। वर्ग के प्रथम वर्ण के बाद सघोष वर्ण आने पर वह तीसरे वर्ण (जश्त्व) में और पंचमाक्षर आने पर पाँचवें वर्ण (अनुनासिक) में बदलता है। त् के बाद श् आए तो 'च्छ' (उच्छ्वास=उत्+श्वास), ह् आए तो 'द्ध' (उद्धार=उत्+हार), और ज् आए तो 'ज्ज' (उज्ज्वल=उत्+ज्वल) बनता है। विसर्ग सन्धि में अः के बाद सघोष वर्ण आए तो 'ओ' (मनोहर=मनः+हर) बनता है, किन्तु अघोष आने पर विसर्ग सुरक्षित रहता है (अधःपतन, प्रातःकाल)। इ/उ के बाद विसर्ग हो और परे सघोष हो तो 'र्' बनता है (दुर्जन=दुः+जन)। विसर्ग के बाद 'र्' आए तो विसर्ग लुप्त होकर पूर्व स्वर दीर्घ हो जाता है (नीरोग=निः+रोग)। अहन् के बाद र छोड़कर अन्य सघोष आने पर 'अहो' और र आने पर 'अहर्' बनता है।","priority":"P1","order":2,"createdAt":"$D2026-09-12T14:44:53.915Z","updatedAt":"$D2026-09-12T14:44:53.915Z"},{"id":"cmtyhy4v00lz1422inwo6i6ok","conceptId":"CON-HIN-003","examId":null,"type":"ARCHITECTURE_5M","content":"### व्यंजन एवं विसर्ग सन्धि वास्तुकला (Consonantal & Visarga Network)\n1. **अघोष $\\to$ सघोष रूपान्तरण (Voicing Transformation)**:\n   - प्रथम वर्ण (क, च, ट, त, प) $\\xrightarrow{+ सघोष} 3$rd (ग, ज, ड, द, ब) [दिक् + अम्बर = दिगम्बर]\n2. **अनुनासिक समीकरण (Nasal Assimilation)**:\n   - प्रथम वर्ण $\\xrightarrow{+ न/म} 5$th (ङ, ञ, ण, न, म) [वाक् + मय = वाङ्मय]\n3. **त्-कार बहुआयामी नोड्स**:\n   - त् + श् $\\to$ च्छ (उच्छृंखल)\n   - त् + ह् $\\to$ द्ध (पद्धति)\n   - त् + ज् $\\to$ ज्ज (सज्जन)\n   - त् + ल् $\\to$ ल्ल (उल्लेख)\n4. **विसर्ग (ः) त्रि-मार्गी विन्यास**:\n   - **ओ-मार्ग**: अ + ः + सघोष $\\to$ ओ (तपोबल = तपः + बल)\n   - **र्-मार्ग**: इ/उ + ः + सघोष $\\to$ र् (निराशा = निः + आशा)\n   - **ऊष्मीकरण-मार्ग**: ः + च/छ $\\to$ श्; ः + ट/ठ $\\to$ ष्; ः + त/थ $\\to$ स्\n   - **दीर्घीकरण-लोप**: ः + र् $\\to$ दीर्घ स्वर + शून्य (निः + रव = नीरव)\n5. **अहन् विशेष द्विशाखा**:\n   - अहन् $\\to$ अहो (अहोरात्र) | अहन् $\\to$ अहर् (अहर्निश, अहर्पति)।","priority":"P1","order":3,"createdAt":"$D2026-09-12T14:44:53.917Z","updatedAt":"$D2026-09-12T14:44:53.917Z"}],"questions":[{"id":"cmtyhy4v40lz5422iy5hpav0j","conceptId":"CON-HIN-003","claimId":null,"examId":null,"type":"DESCRIPTIVE_2M","stem":"RPSC RAS Mains Paper IV प्रारूप: निम्नलिखित शब्दों का सन्धि-विच्छेद कीजिए तथा सन्धि का प्रकार (व्यंजन / विसर्ग) लिखिए:\n(क) उच्छृंखल\n(ख) वाङ्मुख\n(ग) अहर्निश\n(घ) नीरव","options":null,"correctAnswer":"(क) उच्छृंखल — सन्धि विच्छेद: उत् + शृंखल; सन्धि का प्रकार: व्यंजन सन्धि।\n(ख) वाङ्मुख — सन्धि विच्छेद: वाक् + मुख; सन्धि का प्रकार: व्यंजन सन्धि।\n(ग) अहर्निश — सन्धि विच्छेद: अहन् + निश; सन्धि का प्रकार: व्यंजन सन्धि (अहन्-सम्बन्धी नियम)।\n(घ) नीरव — सन्धि विच्छेद: निः + रव; सन्धि का प्रकार: विसर्ग सन्धि।","explanation":"प्रत्येक शुद्ध विच्छेद और सन्धि प्रकार के लिए 0.5 अंक हैं। वाङ्मुख में 'वाक्' हलन्त तथा उच्छृंखल में 'उत् + शृंखल' का अंकन अनिवार्य है।","trapExplanation":"उच्छृंखल का विच्छेद 'उत् + श्रृंखल' लिखना अशुद्ध माना जाता है (शृ में ऋ की मात्रा होती है, र नहीं)। वाङ्मुख को 'वांग + मुख' लिखने पर शून्य अंक मिलता है।","difficulty":"ADVANCED","isPYQ":false,"pyqYear":null,"pyqPaper":null,"pyqStage":null,"pyqQuestionNumber":null,"pyqMarks":null,"examinerTrapPattern":null,"createdAt":"$D2026-09-12T14:44:53.920Z","updatedAt":"$D2026-09-12T14:44:53.920Z"},{"id":"cmtyhy4v20lz3422ioical4i9","conceptId":"CON-HIN-003","claimId":null,"examId":null,"type":"SINGLE_CORRECT","stem":"निम्नलिखित सन्धि-पदों में से किस शब्द में 'विसर्ग सन्धि' नहीं है?","options":"[\"शिरोभाग\",\"मनोनुकूल\",\"संस्कार\",\"तपोवन\"]","correctAnswer":"संस्कार","explanation":"'संस्कार' में व्यंजन सन्धि है (सम् + कार = संस्कार, म् के बाद कृ धातु से बने शब्द आने पर म् का अनुस्वार और स् का आगम होता है)। अन्य सभी विसर्ग सन्धि हैं: शिरोभाग = शिरः + भाग; मनोनुकूल = मनः + अनुकूल; तपोवन = तपः + वन।","trapExplanation":"परीक्षार्थी 'संस्कार' को विसर्ग सन्धि समझ बैठते हैं, जबकि यह संस्कृत के 'सम्' उपसर्ग सम्बन्धी व्यंजन सन्धि का प्रामाणिक नियम है (सम् + कृत = संस्कृत; सम् + कार = संस्कार)।","difficulty":"INTERMEDIATE","isPYQ":false,"pyqYear":null,"pyqPaper":null,"pyqStage":null,"pyqQuestionNumber":null,"pyqMarks":null,"examinerTrapPattern":null,"createdAt":"$D2026-09-12T14:44:53.918Z","updatedAt":"$D2026-09-12T14:44:53.918Z"}],"outgoingConnections":[]}}]
