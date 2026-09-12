@@ -2135,7 +2135,67 @@ XYZ (Assistant Manager)
       {
         type: 'SYSTEMATIC_CATALOGUE',
         title: 'Curated Benchmark Model Essays Vault',
-        body: `### 1. Deepfakes, AI Voice Cloning & Digital Banking Fraud (250 Words)
+        body: `### 1. Bima Sugam & Democratizing Universal Insurance Coverage by 2047 (228 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *Insurance is a vital safety net for every household, yet India's insurance penetration remains low at around 4% of GDP.*
+> - **Key Facts & Anchors:** IRDAI, "Insurance for All by 2047", Bima Sugam, Bima Vistaar, Bima Vahak, DigiLocker integration.
+> - **Core Mechanism & Challenge:** Digital marketplace removing middleman commissions vs rural digital literacy and premium affordability gaps.
+> - **Closing Punchline:** *Technology must be paired with simple awareness campaigns and targeted premium subsidies to make universal social security a reality.*
+
+\`\`\`text
+Insurance is a vital safety net for every household, protecting families against sudden medical emergencies and financial loss. However, India's insurance penetration remains low at around 4% of GDP. To change this, the Insurance Regulatory and Development Authority of India (IRDAI) is building Bima Sugam—an integrated digital portal aimed at achieving the national goal of "Insurance for All by 2047."
+
+Bima Sugam functions like a digital marketplace for insurance, similar to how UPI transformed online payments. It brings product discovery, policy purchase, servicing, and claim settlements onto a single electronic platform. By allowing buyers to compare policies and settlement ratios from different companies in one place, it removes hidden middleman costs, increases transparency, and helps lower premium prices for consumers.
+
+Crucially, Bima Sugam works alongside grassroots initiatives like Bima Vistaar (affordable composite micro-insurance policies) and Bima Vahak (women-led rural distribution agents). Its integration with DigiLocker and hospital systems enables paperless, instant claims settlement, ensuring that low-income families do not fall into deep debt due to unexpected hospital bills.
+
+However, technology alone cannot solve the problem of low insurance coverage. Rural digital literacy gaps and low household incomes still keep many citizens from buying insurance. To make universal social security a reality, Bima Sugam must be supported by simple awareness campaigns, regional language support, and targeted government subsidies for vulnerable families.
+\`\`\`
+
+---
+
+### 2. The Rise of the Silver Economy: Demographic Transition & Geriatric Security (225 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *India's elderly population will double from 149 million to over 340 million by 2050, requiring a shift from viewing ageing as a burden to unlocking the Silver Economy.*
+> - **Key Facts & Anchors:** UNFPA India Ageing Report, 20% of population by 2050, SAGE, SACRED, Ayushman Bharat.
+> - **Core Mechanism & Challenge:** Vast professional mentorship and elder-care consumer markets vs 70% rural elderly without formal pensions.
+> - **Closing Punchline:** *Expanding health insurance and age-inclusive workplaces will ensure our seniors age with independence, security, and dignity.*
+
+\`\`\`text
+India is currently experiencing a historic demographic shift. According to the United Nations Population Fund (UNFPA) India Ageing Report, the country's elderly population will double from 149 million in 2022 to over 340 million by 2050, accounting for nearly one-fifth of the total population. This dramatic change means India must stop viewing old age as a financial burden and instead unlock the immense economic potential of the "Silver Economy."
+
+The silver economy presents major opportunities for growth. On one hand, senior citizens possess decades of professional experience, making them valuable mentors, consultants, and community leaders. On the demand side, a growing elderly population creates large new markets for specialized geriatric healthcare, assisted living facilities, home care services, and tailored financial products, driving private investment and new jobs.
+
+Nevertheless, severe socio-economic challenges remain. In India, over 70% of elderly citizens live in rural areas without regular pensions, depending almost entirely on their families for survival. Rising healthcare costs and chronic diseases can quickly wipe out household savings, pushing elderly citizens into poverty.
+
+To address these concerns, the government has introduced schemes like SAGE (Seniorcare Aging Growth Engine) and SACRED to support elder care startups and senior employment. Expanding affordable healthcare under Ayushman Bharat and designing elder-friendly workplaces will ensure that India's seniors can live with independence, financial security, and dignity.
+\`\`\`
+
+---
+
+### 3. Unified Lending Interface (ULI): Frictionless Credit for Agriculture & MSMEs (219 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *Following UPI's payments revolution, the Reserve Bank of India has introduced the Unified Lending Interface (ULI) to transform credit delivery.*
+> - **Key Facts & Anchors:** RBI, open APIs, digitized state land records, satellite crop data, dairy cooperatives, GST invoices, DPDP Act 2023.
+> - **Core Mechanism & Challenge:** Automated, collateral-free credit evaluation vs rural digital divide and data privacy risks.
+> - **Closing Punchline:** *Safeguarding borrower privacy under the DPDP Act will ensure ULI powers sustainable growth in farming and small business.*
+
+\`\`\`text
+Following the remarkable success of the Unified Payments Interface (UPI), the Reserve Bank of India has introduced the Unified Lending Interface (ULI). This digital public platform is designed to transform India's credit landscape by enabling seamless, consent-based sharing of financial and non-financial data between lenders and data providers.
+
+Traditionally, small farmers and micro-enterprises have struggled to access formal bank loans. They often faced lengthy paperwork, high processing fees, and impossible collateral demands because their economic records were scattered. ULI solves this challenge through digital integration. By linking digitized land records, satellite crop data, dairy milk-pour records, and GST filings, ULI allows banks to verify borrower details and approve loans in minutes instead of weeks.
+
+The economic benefits of ULI are far-reaching. It opens formal banking doors to millions of underserved rural borrowers, protecting them from predatory local moneylenders charging exorbitant interest rates. For commercial banks, ULI slashes operating costs, reduces loan processing delays, and improves credit assessment by replacing manual inspection with reliable, real-time economic data.
+
+At the same time, rapid digital lending brings new risks, including rural digital divides, algorithmic bias, and cybersecurity threats. Safeguarding customer data privacy under the Digital Personal Data Protection (DPDP) Act, 2023 will ensure that ULI expands credit safely and fuels growth in India's agricultural and small business sectors.
+\`\`\`
+
+---
+
+### 4. Deepfakes, AI Voice Cloning & Digital Banking Fraud (241 Words)
 
 > ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
 > - **Hook Sentence:** *Digital banking has expanded financial access in India, but deepfakes and AI voice cloning present an urgent threat to customer trust.*
@@ -2153,55 +2213,129 @@ The consequences go far beyond individual monetary losses. When people repeatedl
 To protect depositors, banks must adopt stronger defenses. Instead of relying only on static passwords or OTPs, lenders should implement behavioral biometrics, advanced AI fraud detection, and strict data safeguards under the Digital Personal Data Protection (DPDP) Act, 2023. At the same time, nationwide consumer awareness campaigns and clear bank liability rules under RBI guidelines will ensure digital banking remains secure, inclusive, and trusted.
 \`\`\`
 
-**Why This Works (Evaluator Deconstruction):**
-- **Word count:** 241 words (optimal for 200–250 word bank exam constraints).
-- **Clear Accessible Register:** No pretentious jargon; clear active-voice phrasing that can be reproduced under timed pressure.
-- **Micro-to-Macro Transmission:** Moves systematically from attack vectors (voice cloning, video-KYC spoofing) to macro fallout (erosion of digital trust) to statutory safeguards (DPDP Act 2023, RBI liability norms).
-
 ---
 
-### 2. Corporate Governance & Board Oversight in Commercial Banking (600 Words / 15-Marker)
+### 5. Central Bank Digital Currency (CBDC): e-Rupee Retail Pilots & UPI Synergy (226 Words)
 
 > ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
-> - **Hook Sentence:** *Commercial banks operate on public trust, making corporate governance a macroprudential duty rather than mere shareholder profit maximization.*
-> - **Key Facts & Anchors:** Uday Kotak Committee (2017), SEBI LODR, RBI Master Directions, DAKSH supervisory portal, separation of MD & Chairperson.
-> - **Core Mechanism & Challenge:** Board independence, direct reporting lines for CRO/CCO, executive clawbacks vs related-party transactions and cyber risk.
-> - **Closing Punchline:** *Aligning board oversight with Kotak Committee principles and enforcing an uncompromising tone at the top ensures long-term banking stability.*
+> - **Hook Sentence:** *The RBI's Digital Rupee represents an official sovereign token holding the exact same legal tender value as physical banknotes.*
+> - **Key Facts & Anchors:** RBI, e₹-Retail pilot, settlement finality, physical cash printing costs, UPI QR interoperability, programmable money.
+> - **Core Mechanism & Challenge:** Instant sovereign settlement and targeted subsidies vs rural offline payments and small-value privacy.
+> - **Closing Punchline:** *With offline payment support and privacy safeguards, the Digital Rupee will strengthen monetary infrastructure and cross-border trade.*
 
 \`\`\`text
-Corporate governance in banking refers to the systemic framework of rules, relationships, and risk controls by which financial institutions are directed, managed, and held accountable to depositors, shareholders, and regulatory authorities. Because banks operate on high financial leverage with public deposits, governance failures do not merely result in corporate insolvencies—they jeopardize public confidence and precipitate systemic contagion across the macroeconomy.
+The Reserve Bank of India’s introduction of the Central Bank Digital Currency (CBDC)—the Digital Rupee—marks a major step forward for India's monetary system. The Digital Rupee is an official digital token issued directly by the central bank. It holds the exact same legal tender status and value as physical paper banknotes, offering sovereign safety alongside the convenience of digital payments.
 
-THE 4 STRUCTURAL PILLARS OF BANK GOVERNANCE:
-Robust banking governance rests on four foundational pillars:
-• Board Independence and Diversity: Ensuring an optimal proportion of independent directors free from promoter influence, possessing specialized domain expertise in risk management, cybersecurity, and financial accounting.
-• Separation of Executive and Supervisory Roles: Demarcating the strategic oversight function of the Non-Executive Chairperson from the executive operational functions of the Managing Director / CEO.
-• Effective Risk and Audit Architecture: Establishing direct, uncompromised reporting channels from the Chief Risk Officer (CRO) and Chief Compliance Officer (CCO) to the Board-level Audit Committee.
-• Compensation and Fiduciary Integrity: Structuring executive remuneration to deter reckless short-term risk taking through mandatory deferred compensation and contractual clawback mechanisms.
+The retail Digital Rupee offers clear advantages for the economy. Unlike commercial bank money which carries minimal counterparty risk, CBDC transactions settle instantly and permanently without needing intermediary clearing houses. It also significantly reduces the enormous annual costs of printing, transporting, sorting, and storing physical currency notes across the country.
 
-THE UDAY KOTAK COMMITTEE RECOMMENDATIONS & REGULATORY CONVERGENCE:
-To eliminate systemic corporate fault lines, the SEBI-appointed Uday Kotak Committee (2017) proposed decisive structural reforms that were progressively codified under SEBI (LODR) Regulations and RBI Master Directions:
-• Enhanced Board Composition: Mandating a minimum of six directors on listed boards, with at least 50% independent directors and at least one independent woman director.
-• Separation of Chairperson and MD/CEO: Requiring listed entities with substantial public interest to separate the positions of Chairperson and MD/CEO to establish clear checks and balances.
-• Expanded Role of Audit Committees: Mandating that audit committees explicitly review the utilization of funds infused by parent companies into subsidiaries exceeding ₹100 crore.
-• Robust Risk Governance: Enforcing the constitution of a dedicated Risk Management Committee, mandating periodic cybersecurity and operational stress assessments.
+A critical milestone in India's CBDC journey has been linking digital rupee wallets with the existing UPI QR code network. This allows shoppers to walk into any shop, scan a standard merchant UPI QR code, and pay using digital rupees without creating extra friction for shopkeepers. Furthermore, programmable features allow government bodies to issue targeted subsidies for fertilizers or education, ensuring money is spent only on intended purposes.
 
-CONTEMPORARY CHALLENGES AND THE WAY FORWARD:
-Despite substantial regulatory tightening, contemporary bank governance faces emerging vulnerabilities:
-• Conflict of Interest in Related-Party Transactions: Tightening regulatory oversight over group lending entities and implementing algorithm-driven early warning systems to detect covert circular debt.
-• Cyber and Technology Governance: Bank boards must transition from traditional credit-centric oversight to digital-first risk supervision, instituting board-level cybersecurity literacy and zero-trust data architectures.
-• Strengthening Supervisory Technology (SupTech): The Reserve Bank of India’s DAKSH supervisory portal should be deepened with predictive AI analytics to detect governance anomalies before balance sheet impairments occur.
-
-In conclusion, effective corporate governance is the ultimate safeguard of financial stability. By aligning board accountability with Kotak Committee principles, enforcing executive clawbacks, and maintaining an uncompromising "tone at the top," commercial banks can sustain balance sheet resilience and underpin long-term macroeconomic growth.
+To achieve widespread adoption, authorities must ensure offline transaction support for rural areas with poor internet connectivity and provide strong privacy protections for everyday small purchases. With these safeguards in place, the Digital Rupee can strengthen India's financial infrastructure and support faster cross-border settlements.
 \`\`\`
-
-**Why This Works (Evaluator Deconstruction):**
-- **Structure:** Clear IBC architecture with lead-in capitalized headings for high visual scannability.
-- **Factual Anchor:** Integrates the Kotak Committee (2017), SEBI LODR, and RBI DAKSH portal.
-- **Tone:** Sober, central-banker policy register balancing opportunities against emerging tech/RPT risks.
 
 ---
 
-### 3. The Crucial Role of the Insurance Sector as a Catalyst for Capital Formation in India (250 Words / Bank PO & RBI Grade B)
+### 6. Green Finance & Sovereign Green Bonds in India’s Energy Transition (215 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *India's goals of 500 GW renewable energy by 2030 and Net-Zero by 2070 require massive capital that conventional bank loans cannot fund alone.*
+> - **Key Facts & Anchors:** Net-Zero 2070, 500 GW by 2030, Sovereign Green Bonds (SGrBs), Greenium, ESG global funds, SEBI BRSR Core.
+> - **Core Mechanism & Challenge:** Ring-fenced clean infrastructure funding vs risk of greenwashing and foreign exchange hedging costs.
+> - **Closing Punchline:** *Clear green taxonomies and transparent corporate disclosure under SEBI will ensure green finance powers sustainable growth.*
+
+\`\`\`text
+India has set ambitious environmental targets: achieving Net-Zero greenhouse gas emissions by 2070 and establishing 500 gigawatts of non-fossil energy capacity by 2030. Reaching these goals will require massive funding, estimated by the Reserve Bank of India at trillions of dollars. Because traditional bank loans have lending limits, Green Finance—especially through Sovereign Green Bonds—has become essential to fund India's clean energy transition.
+
+Green bonds are fixed-income financial instruments whose proceeds are strictly dedicated to climate-friendly public infrastructure. Funds raised through these bonds support solar and wind energy projects, grid modernization, cleaner public transport, and afforestation. By issuing sovereign green bonds, the government establishes a reliable benchmark for clean debt and often secures lower borrowing interest rates, known as a "greenium."
+
+In addition, green finance attracts international institutional capital. Global pension and sovereign wealth funds, which are mandated to invest in sustainable projects, can channel long-term foreign investment into Indian renewable initiatives. This helps ease domestic government financing pressure and supports the overall economy.
+
+However, scaling green finance comes with challenges, including the threat of "greenwashing" (false claims of sustainability) and currency risks on foreign borrowings. Clear definitions of green activities and strict corporate disclosure standards under SEBI rules will ensure that green finance transparently powers India's clean energy future.
+\`\`\`
+
+---
+
+### 7. Gig Economy & Social Security Code 2020: Safeguarding Platform Workers (218 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *App-based delivery and ride services have turned the gig economy into a major job engine, projected to reach 23 million workers by 2030.*
+> - **Key Facts & Anchors:** NITI Aayog (23.5M by 2030), Code on Social Security 2020, aggregator fee (1-2%), e-Shram portal, Rajasthan & Karnataka state acts.
+> - **Core Mechanism & Challenge:** Classification as independent contractors denying safety nets vs dedicated social security funds.
+> - **Closing Punchline:** *Implementing the Social Security Code and transparent pay algorithms will transform gig work into dignified and protected employment.*
+
+\`\`\`text
+The rapid rise of app-based platforms for ride-hailing, food delivery, and quick commerce has turned the gig economy into a massive employment engine in urban India. According to NITI Aayog, the gig workforce is expected to grow to over 23 million workers by 2030. While gig work offers flexible, low-barrier jobs for young citizens, it also creates severe social vulnerabilities that require legal protection.
+
+Traditionally, platform workers are treated as "independent contractors" rather than permanent employees. Because of this classification, they miss out on basic labor protections such as minimum wage guarantees, paid medical leave, accident compensation, and retirement pensions. Long 12-hour shifts in harsh weather and opaque app rating systems leave many delivery workers physically exhausted and financially insecure.
+
+To address these concerns, India included gig workers under the Code on Social Security, 2020. The Code provides for a dedicated Social Security Fund financed partly by contributions from platform companies (1% to 2% of annual turnover). Furthermore, registering workers on the national e-Shram portal allows them to carry accident and health benefits across different states.
+
+States like Rajasthan and Karnataka have also introduced progressive laws to protect platform workers. Effectively implementing the central Social Security Code, ensuring transparent pay formulas, and providing access to bank credit will help transform gig work into stable, protected, and dignified employment.
+\`\`\`
+
+---
+
+### 8. The Creator Economy & Digital Micro-Entrepreneurship in India (210 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *Affordable 5G internet and UPI payments have turned social media content creation into a booming engine of digital micro-entrepreneurship.*
+> - **Key Facts & Anchors:** 80 million creators, regional language monetization, UPI micro-tips, D2C local brand integration, digital IP as collateral.
+> - **Core Mechanism & Challenge:** Breaking metropolitan media monopolies vs income volatility and lack of formal bank credit.
+> - **Closing Punchline:** *Recognizing digital intellectual property as valid collateral will help commercial banks nurture sustainable creative businesses.*
+
+\`\`\`text
+The spread of affordable high-speed 4G and 5G internet, low-cost smartphones, and digital payment systems like UPI has triggered the explosive growth of India's Creator Economy. Today, millions of content creators, educators, writers, and artists are turning content creation into sustainable careers. This shift is turning casual social media use into a powerful driver of digital micro-entrepreneurship.
+
+The creator economy has democratized media and business across India. It breaks traditional city-centric media monopolies, enabling creators from Tier-2 and Tier-3 towns and villages to build large audiences by creating content in regional Indian languages. Through diverse earnings—including brand promotions, course sales, affiliate links, and direct viewer contributions via UPI—creators are running profitable small businesses that employ video editors, graphic designers, and managers.
+
+Moreover, content creators help local businesses grow. By reviewing and promoting homegrown brands and local handicrafts directly to consumers, creators help small artisans reach national and international buyers without expensive advertising agencies.
+
+Nevertheless, creators face critical hurdles, including unpredictable monthly incomes, sudden algorithm changes by social platforms, and difficulty securing formal bank loans due to a lack of physical collateral. Banks can support this growing sector by recognizing digital intellectual property as valid collateral and offering simple business credit to help creators build enduring enterprises.
+\`\`\`
+
+---
+
+### 9. Corporate Governance, Fiduciary Ethics & Board Oversight in Banking (206 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *Commercial banks hold public deposits in trust, making corporate governance a vital duty to protect depositors and maintain financial stability.*
+> - **Key Facts & Anchors:** Uday Kotak Committee, separating MD & Chairman, tenure caps for CEOs, independent Risk Management Committee, CRO/CCO reporting.
+> - **Core Mechanism & Challenge:** NPAs caused by insider lending and passive boards vs independent oversight and executive clawbacks.
+> - **Closing Punchline:** *Rewarding long-term asset quality rather than aggressive quarterly profits ensures integrity remains the foundation of banking growth.*
+
+\`\`\`text
+Commercial banks occupy a special position of trust in the economy: they collect hard-earned savings from everyday citizens and channel that money into businesses and public infrastructure. For this reason, corporate governance in the banking sector is far more than maximizing shareholder profits; it is a fundamental duty to safeguard depositors' money and maintain national financial stability.
+
+Past banking crises and rising non-performing assets (NPAs) in India have shown that bad loans are often caused by poor governance. Problems like insider lending, conflicts of interest, hiding bad debts, and weak board supervision allow risky loans to be approved without proper checks, eventually endangering the solvency of the bank.
+
+To strengthen banking governance, the Reserve Bank of India and guidelines from the Uday Kotak Committee have introduced strict reforms. These include separating the roles of Managing Director and Chairman, capping the tenure of bank Chief Executive Officers, creating independent Risk Management Committees, and ensuring that Chief Risk Officers and Chief Compliance Officers report directly to the Board of Directors.
+
+In addition, modern banks must foster strong ethical cultures and robust whistleblower systems where employees can report wrongdoing safely. By rewarding long-term loan quality rather than chasing short-term quarterly targets, banks can preserve depositor confidence and support sustainable economic growth.
+\`\`\`
+
+---
+
+### 10. Climate Heatwaves, Urban Productivity Loss & Resilience Financing (203 Words)
+
+> ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
+> - **Hook Sentence:** *With summer temperatures regularly crossing 45°C, extreme heat has become an urgent public health and economic productivity crisis.*
+> - **Key Facts & Anchors:** Temperatures >45°C, ILO projection (5.8% working hours lost by 2030), Heat Action Plans (HAPs), NDMA guidelines.
+> - **Core Mechanism & Challenge:** Severe toll on outdoor informal workers vs proactive climate resilience financing and cool-roof urban planning.
+> - **Closing Punchline:** *Parametric heat-stress insurance and heat-resilient construction will protect vulnerable workers and preserve economic output.*
+
+\`\`\`text
+Climate change in India is increasingly visible through frequent, intense summer heatwaves. With temperatures regularly crossing 45 degrees Celsius across northern, central, and peninsular India, extreme heat has grown from a seasonal discomfort into a serious economic, public health, and labor productivity crisis.
+
+The economic damage caused by extreme heat is substantial. According to the International Labour Organization (ILO), India could lose over 5% of its total working hours by 2030 due to heat stress—the equivalent of tens of millions of full-time jobs. The hardest-hit victims are outdoor and informal workers, such as construction laborers, street vendors, delivery workers, and small farmers, who suffer dehydration, heat exhaustion, and lost daily wages.
+
+Beyond human health, prolonged heatwaves trigger wider problems: electricity demand surges as cooling needs spike, urban water supplies deplete rapidly, and crops suffer terminal heat damage before harvest, driving up food prices.
+
+Tackling heatwaves requires proactive climate adaptation and financing. Cities must implement municipal Heat Action Plans, incorporating cool-roof paints, shaded public corridors, and emergency water stations. Additionally, offering heat-stress insurance for informal outdoor workers and integrating heat-resilient construction standards under National Disaster Management Authority guidelines will help protect workers' livelihoods and maintain economic productivity.
+\`\`\`
+
+---
+
+### 11. The Crucial Role of the Insurance Sector as a Catalyst for Capital Formation in India (232 Words)
 
 > ⚡ **Rapid Exam-Day Memory Trigger (30-Second Revision):**
 > - **Hook Sentence:** *The insurance sector protects families from risk while converting idle domestic savings into long-term investments for nation building.*
@@ -2217,14 +2351,7 @@ As of 2024, India’s insurance industry manages assets worth over ₹60 lakh cr
 Moreover, insurance promotes a culture of long-term savings and financial discipline among citizens. By pooling risks and offering returns through endowment and pension plans, it channels household savings into productive ventures instead of speculative or unorganized markets. This not only ensures financial stability for individuals but also builds a steady source of funds for capital-intensive sectors that require long-term financing.
 
 To sum up, the insurance sector acts as a bridge between savings and investment. Its contribution to capital formation strengthens India’s economic base, supports infrastructure expansion, and fuels sustainable growth, making it a cornerstone of national development.
-\`\`\`
-
-**Why This Works & Structural Deconstruction:**
-- **Word Count:** 232 words (optimally calibrated within the 200–250 word descriptive exam rubric).
-- **Introduction Hook:** Establishes the dual mandate (financial protection + growth) and defines the core transmission mechanism (mobilizing idle funds into productive investment).
-- **Empirical Grounding:** Deploys authoritative data anchors—₹60 lakh crore AUM, ~20% of domestic financial savings, LIC institutional backing, and IRDAI-cited 6–7% GDP capital infusion into infrastructure/renewables.
-- **Micro-Macro Bridge:** Links individual risk pooling (endowment/pension plans) to macroeconomic stability, preventing leakage into speculative markets and matching asset-liability duration for capital-intensive sectors.
-- **Circular Conclusion:** Synthesizes insurance as the indispensable bridge between household savings and long-term national capital formation.`,
+\`\`\``,
         order: 2,
         visibility: 'PUBLIC',
       },
@@ -2239,42 +2366,17 @@ To sum up, the insurance sector acts as a bridge between savings and investment.
         visibility: 'PUBLIC',
       },
     ],
-    examMappings: [
-      {
-        examCode: 'upsc-cse',
-        syllabusUnit: 'Essay Paper & General Studies Answer Writing',
-        relevance: 'DIRECT_SYLLABUS',
-        priority: 'HIGH',
-        requiredDepth: 'DEEP_DIVE',
-        notes: 'Exemplifies multi-layered arguments for Mains Essay and GS-2/GS-3.',
-      },
-      {
-        examCode: 'rpsc-ras',
-        syllabusUnit: 'Paper IV — Composition Models',
-        relevance: 'DIRECT_SYLLABUS',
-        priority: 'HIGH',
-        requiredDepth: 'EXAM_STANDARD',
-        notes: 'Model essays demonstrating high-scoring vocabulary and structure.',
-      },
-      {
-        examCode: 'iibf-dbf',
-        syllabusUnit: 'Strategic Management & Case Studies',
-        relevance: 'DIRECT_SYLLABUS',
-        priority: 'HIGH',
-        requiredDepth: 'EXAM_STANDARD',
-        notes: 'Exemplifies board governance, cyber resilience, and credit underwriting models.',
-      },
-    ],
+    examMappings: [],
     revisionUnits: [
       {
         type: 'SUMMARY_SNIPPET',
-        content: 'Benchmark Essays: Fuse conceptual precision, empirical reports (FSR, MPI), statutory acts (DPDP Act, Companies Act, RBI Act), and the Central Banker Stance within strict word bounds.',
+        content: 'Benchmark Essays: 11 curated contemporary banking, macroeconomics, and digital governance essays calibrated into clear, accessible language with Rapid Exam-Day Skeletons.',
         priority: 'HIGH',
         order: 1,
       },
       {
         type: 'KEY_FACTS',
-        content: '250w Essay Architecture: 4 paragraphs (Intro ~45w, Mechanism ~80w, Macro/Risks ~80w, Conclusion ~45w). 600w Essay: 5-6 paragraphs with Lead-in Keyword headings.',
+        content: '250w Essay Architecture: 4 paragraphs (Intro ~45w, Mechanism ~70w, Context/Challenges ~70w, Conclusion ~45w). Target word limit: 210–245 words.',
         priority: 'HIGH',
         order: 2,
       },
@@ -2285,36 +2387,7 @@ To sum up, the insurance sector acts as a bridge between savings and investment.
         order: 3,
       },
     ],
-    questions: [
-      {
-        type: 'CONCEPTUAL',
-        stem: 'In the model essay on Corporate Governance in Commercial Banks, why are "deferred compensation and clawback mechanisms" recommended for executive remuneration?',
-        options: [
-          'To ensure executives are never paid any bonuses under any circumstances',
-          'To align executive incentives with long-term asset quality and deter reckless short-term risk-taking that could compromise institutional solvency',
-          'To eliminate the need for independent directors on the board',
-          'To replace traditional auditing with voluntary self-declarations',
-        ],
-        correctAnswer: 'To align executive incentives with long-term asset quality and deter reckless short-term risk-taking that could compromise institutional solvency',
-        explanation: 'Deferred compensation and clawbacks ensure that executives face personal financial consequences if short-term profits result in hidden future credit deterioration.',
-        trapExplanation: 'Clawbacks do not ban bonuses; they enforce long-term risk accountability.',
-        difficulty: 'MEDIUM',
-      },
-      {
-        type: 'APPLICATION',
-        stem: 'In a competitive descriptive essay on "The Insurance Sector as a Catalyst for Capital Formation in India", which empirical benchmark and structural argument most effectively demonstrates its macroeconomic transmission to infrastructure?',
-        options: [
-          'Claiming insurance companies only keep idle cash in commercial bank current accounts',
-          'Highlighting that the insurance industry manages ₹60+ lakh crore in AUM (~20% of domestic financial savings), with life insurance funds contributing 6–7% to GDP in long-term investments across power, transport, housing, and renewables',
-          'Asserting that insurance eliminates the need for all government taxation',
-          'Focusing exclusively on short-term stock trading profits made by retail policyholders',
-        ],
-        correctAnswer: 'Highlighting that the insurance industry manages ₹60+ lakh crore in AUM (~20% of domestic financial savings), with life insurance funds contributing 6–7% to GDP in long-term investments across power, transport, housing, and renewables',
-        explanation: 'Effective economic essays substantiate arguments with official empirical benchmarks (IRDAI AUM data, % of financial savings, and sectoral long-term capital infusion) rather than vague generalizations.',
-        trapExplanation: 'Vague assertions without numerical and institutional anchors receive lower evaluation marks in Bank PO and RBI Phase 2 descriptive papers.',
-        difficulty: 'MEDIUM',
-      },
-    ],
+    questions: [],
   },
 
   {
