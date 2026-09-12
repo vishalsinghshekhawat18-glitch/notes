@@ -17,12 +17,24 @@ interface RevisionViewerProps {
 
 export function RevisionViewer({ revisionUnits, compact = false }: RevisionViewerProps) {
   // Density-aware filter: keep units with genuine revision content
+  // Remove 15/30-sec axiom/flash units entirely so 5-minute architecture and full deep dive are the primary focus
   const substantiveUnits = (revisionUnits || []).filter(
-    (u) => u.content && u.content.trim().length >= 25
+    (u) =>
+      u.content &&
+      u.content.trim().length >= 25 &&
+      u.type !== 'FLASH_30S' &&
+      u.type !== 'THIRTY_SECOND_FLASH' &&
+      !u.type.includes('15_SEC') &&
+      !u.type.includes('AXIOM')
   );
 
+  const defaultUnit =
+    substantiveUnits.find((u) => u.type === 'ARCHITECTURE_5M' || u.type === 'FIVE_MINUTE_MAP') ||
+    substantiveUnits.find((u) => u.type === 'SUMMARY_2M' || u.type === 'TWO_MINUTE_SUMMARY') ||
+    substantiveUnits[0];
+
   const [selectedType, setSelectedType] = useState<string>(
-    substantiveUnits[0]?.type || 'ONE_MINUTE_RECALL'
+    defaultUnit?.type || 'ARCHITECTURE_5M'
   );
 
   // Content-density policy: suppress if no substantive revision content exists
@@ -33,15 +45,15 @@ export function RevisionViewer({ revisionUnits, compact = false }: RevisionViewe
 
   const formatUnitType = (type: string) => {
     switch (type) {
-      case 'FLASH_30S':
-      case 'THIRTY_SECOND_FLASH':
-        return '⚡ 30-Sec Flash';
       case 'SUMMARY_2M':
       case 'TWO_MINUTE_SUMMARY':
       case 'ONE_MINUTE_RECALL':
+      case 'SUMMARY_SNIPPET':
         return '⏱️ 2-Min Summary';
       case 'ARCHITECTURE_5M':
       case 'FIVE_MINUTE_MAP':
+      case 'KEY_FACTS':
+      case 'EXAM_TRAPS':
         return '🏛️ 5-Min Architecture';
       default:
         return type.replace(/_/g, ' ');
@@ -52,7 +64,7 @@ export function RevisionViewer({ revisionUnits, compact = false }: RevisionViewe
     <div className="bg-stone-50/80 border border-stone-200/90 rounded-xl p-4 sm:p-5 space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-stone-200/70">
         <div className="text-xs font-mono font-bold uppercase tracking-wider text-stone-700">
-          ⚡ Key Revision & Architecture
+          🏛️ 5-Minute Architecture &amp; Key Revision
         </div>
 
         {/* Tab Switcher (if multiple tiers exist) */}

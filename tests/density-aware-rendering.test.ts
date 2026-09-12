@@ -98,11 +98,34 @@ describe('Concept Page Density-Aware Rendering Policy', () => {
       })
     );
 
-    expect(substantiveRevisionHtml).toContain('Key Revision &amp; Architecture');
+    expect(substantiveRevisionHtml).toContain('5-Minute Architecture &amp; Key Revision');
     expect(substantiveRevisionHtml).toContain('Article 14 guarantees equality before the law');
   });
 
-  it('5. Substantive Active Recall: renders mental prompt and doctrinal explanation trigger', () => {
+  it('5. 15-second / 30-second axiom flash units are suppressed in favor of 5-minute architecture and deep dive', () => {
+    const flashOnlyHtml = renderToStaticMarkup(
+      React.createElement(RevisionViewer, {
+        revisionUnits: [
+          {
+            id: 'f1',
+            type: 'FLASH_30S',
+            content: 'Rapid 15-second memory trigger axiom for quick scan.',
+            priority: 'HIGH',
+          },
+          {
+            id: 'f2',
+            type: 'THIRTY_SECOND_FLASH',
+            content: 'Another 30-second flash card axiom trigger.',
+            priority: 'HIGH',
+          },
+        ],
+      })
+    );
+    // Should be suppressed completely when only flash/axiom units are present
+    expect(flashOnlyHtml).toBe('');
+  });
+
+  it('6. Substantive Active Recall: renders mental prompt and doctrinal explanation trigger', () => {
     const substantiveRecallHtml = renderToStaticMarkup(
       React.createElement(ActiveRecallViewer, {
         questions: [
@@ -119,8 +142,8 @@ describe('Concept Page Density-Aware Rendering Policy', () => {
       })
     );
 
-    expect(substantiveRecallHtml).toContain('Active Recall Check');
+    expect(substantiveRecallHtml).toContain('Active Recall &amp; PYQ Vault');
     expect(substantiveRecallHtml).toContain('Under Article 200');
-    expect(substantiveRecallHtml).toContain('Reveal Answer &amp; Doctrine');
+    expect(substantiveRecallHtml).toContain('Reveal Answer &amp; Solution Doctrine');
   });
 });

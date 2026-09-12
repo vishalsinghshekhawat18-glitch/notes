@@ -270,15 +270,22 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
                 ((q.explanation && q.explanation.trim().length >= 25) ||
                  (q.trapExplanation && q.trapExplanation.trim().length >= 15))
             );
-            const hasSubstantiveRevision = concept.revisionUnits.some(
-              (u) => u.content && u.content.trim().length >= 25
+            const filteredRevisionUnits = (concept.revisionUnits || []).filter(
+              (u) =>
+                u.content &&
+                u.content.trim().length >= 25 &&
+                u.type !== 'FLASH_30S' &&
+                u.type !== 'THIRTY_SECOND_FLASH' &&
+                !u.type.includes('15_SEC') &&
+                !u.type.includes('AXIOM')
             );
+            const hasSubstantiveRevision = filteredRevisionUnits.length > 0;
 
             const availableTabs = [
               { id: 'READING', label: '📖 Full Canonical Text' },
               ...(hasSubstantiveExams ? [{ id: 'EXAMS', label: `🎯 Exam Focus (${formattedExamLenses.length})` }] : []),
               ...(hasSubstantiveRecall ? [{ id: 'ACTIVE_RECALL', label: `🧠 Active Recall (${concept.questions.length})` }] : []),
-              ...(hasSubstantiveRevision ? [{ id: 'REVISION', label: `⚡ Revision (${concept.revisionUnits.length})` }] : []),
+              ...(hasSubstantiveRevision ? [{ id: 'REVISION', label: `🏛️ 5-Min Revision (${filteredRevisionUnits.length})` }] : []),
               ...(concept.claims.length > 0 ? [{ id: 'EVIDENCE', label: `🔍 Sources & Claims (${concept.claims.length})` }] : []),
               ...(concept.outgoingConnections.length > 0 ? [{ id: 'CONNECTIONS', label: `🔗 Connections (${concept.outgoingConnections.length})` }] : []),
             ];
