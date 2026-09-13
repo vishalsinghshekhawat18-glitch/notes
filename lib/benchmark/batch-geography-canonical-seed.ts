@@ -6,7 +6,12 @@
 
 import { db } from '../db/client';
 import { CanonicalConceptDefinition } from './batch-e1-canonical-seed';
-import { AMIT_SENGUPTA_GEOGRAPHY_SOURCE, AMIT_SENGUPTA_GEOGRAPHY_COVERAGE_UNITS } from './batch-amit-sengupta-geography-ledger';
+import { 
+  AMIT_SENGUPTA_GEOGRAPHY_SOURCE, 
+  AMIT_SENGUPTA_GEOGRAPHY_COVERAGE_UNITS,
+  CLEAR_VISION_MAPPING_SOURCE,
+  CLEAR_VISION_MAPPING_COVERAGE_UNITS
+} from './batch-amit-sengupta-geography-ledger';
 
 export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
   {
@@ -1767,6 +1772,24 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "confidence": "HIGH",
         "locator": "NCERT Class 6 Geography, Chapter 7: Our Country - India & NCERT Class 9/11 India - Location",
         "excerpt": "India has an area of about 3.28 million sq. km. The north-south extent from Ladakh to Kanyakumari is about 3,200 km (3,214 km). And the east-west extent from Arunachal Pradesh to Kuchchh is about 2,900 km (2,933 km)... India is located in the northern hemisphere. From south to north, main land of India extends between 8°4' N and 37°6' N latitudes. From west to east, India extends between 68°7' E and 97°25' E longitudes. Sri Lanka is separated from India by the Palk Strait."
+      },
+      {
+        "id": "CLM-GEO-010-05",
+        "statement": "Indian mountain passes follow a distinct West-to-East and North-to-South spatial-orographic alignment across geopolitical borders: in Ladakh and Jammu & Kashmir (Karakoram, Khardung La, Chang La, Zoji La on NH-1 connecting Srinagar to Leh, Banihal/Jawahar Tunnel across Pir Panjal, Pensi La, Fotu La); Himachal Pradesh (Rohtang Pass connecting Kullu to Lahaul-Spiti bypassed by the 9.02 km Atal Tunnel, Bara Lacha La connecting Lahaul to Leh, Shipki La through which Sutlej enters India); Uttarakhand (Lipulekh Kailash-Mansarovar trijunction, Mana, Niti); Sikkim (Nathu La Old Silk Route, Jelep La Chumbi Valley); Arunachal Pradesh (Bomdi La, Bum La, Diphu Pass trijunction); and Peninsular escarpment gaps breaching the Western Ghats (Thal Ghat/Kasara Mumbai-Nashik, Bhor Ghat Mumbai-Pune, Palakkad Gap ~30 km breach between Nilgiri and Anaimalai, Shencottah Gap Kollam-Madurai).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "Clear Vision For UPSC Indian Mapping Master Series (CU-YT-GEO-MAP-01: Mountain Passes in One Shot) & NCERT Class 11 India Physical Environment",
+        "excerpt": "Mountain passes serve as natural strategic gateways across the Himalayan barriers and Western Ghats. In the northwest, Zoji La links Srinagar with Kargil and Leh, while Shipki La provides passage for the Sutlej into Himachal Pradesh. In Uttarakhand, Lipulekh, Mana, and Niti link with Tibet. In the East, Nathu La in Sikkim connects to Tibet, while Bomdi La and Bum La guard Arunachal. In peninsular India, the Western Ghats are pierced by Thal Ghat, Bhor Ghat, and the broad Palghat (Palakkad) gap."
+      },
+      {
+        "id": "CLM-GEO-010-06",
+        "statement": "The elevation hierarchy of India's prominent mountain peaks is distributed across distinct tectonic and cratonic systems: Karakoram Range houses K2 (Godwin Austen, 8,611 m, highest in Indian territory); the Great Himalayas contain Kanchenjunga (8,586 m in Sikkim, highest peak situated entirely within undisputed Indian territory) and Nanda Devi (7,816 m in Uttarakhand, highest peak located entirely within India's borders); while prominent regional culminations comprise Guru Shikhar (1,722 m, Mount Abu, Aravalli Range), Sadbhavana Shikhar/Kalumar Peak (752 m, Vindhya Range), Dhupgarh (1,350 m, Pachmarhi, Mahadeo Hills, Satpura Range), Parasnath/Shikharji (1,365 m, Chota Nagpur Plateau), Anamudi (2,695 m, Anaimalai Hills, Kerala, highest peak of Peninsular India and Western Ghats), Doddabetta (2,637 m, Nilgiri Hills, Tamil Nadu), Jindhagada (1,690 m) / Arma Konda (1,680 m, Eastern Ghats), Saramati (3,841 m, Naga Hills, Purvanchal), and Saddle Peak (732 m, North Andaman Island, highest in Andaman & Nicobar).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "Clear Vision For UPSC Indian Mapping Master Series (CU-YT-GEO-MAP-02: Important Peaks in One Shot + 25-yr PYQs) & Survey of India Orographic Records",
+        "excerpt": "K2 is the highest peak in the Indian subcontinent in Karakoram, followed by Kanchenjunga in Sikkim as the highest peak in undisputed Indian territory. Anamudi in the Anaimalai Hills is the highest peak in South India and the Western Ghats, surpassing Doddabetta in the Nilgiris. Guru Shikhar is the zenith of the ancient Aravalli chain, while Dhupgarh tops the Satpura range."
       }
     ],
     "contentBlocks": [
@@ -1799,6 +1822,12 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "title": "Mental Map & Spatial Cartography: Frontiers, Chokepoints & Island Transects",
         "body": "### 1. Bay of Bengal vs Arabian Sea Maritime Transect (South to North)\n\n| Parallel / Passage | Coordinate | Southern Landmass Separated | Northern Landmass Separated | Strategic Chokepoint Function |\n|---|---|---|---|---|\n| **Grand Channel (6° Channel)** | ~6°00' N | **Sumatra (Aceh, Indonesia)** | **Great Nicobar (Indira Point at 6°45' N)** | Major Western entrance gateway into the **Strait of Malacca** |\n| **Eight Degree Channel** | 8°00' N | **Maldives (Ihavandhippolhu Atoll)** | **Minicoy Island (India)** | Bounded international shipping lane across central Indian Ocean |\n| **Nine Degree Channel** | 9°00' N | **Minicoy Island** | **Suheli Par & Kalpeni (Main Lakshadweep)** | Deep-water navigational passage between Lakshadweep atolls |\n| **Ten Degree Channel** | 10°00' N | **Little Andaman (Andaman Group)** | **Car Nicobar (Nicobar Group)** | ~150 km wide oceanic passage linking Bay of Bengal to Andaman Sea |\n| **Duncan Passage** | ~11°15' N | **Little Andaman** | **South Andaman (Rutland Island)** | Internal channel between South Andaman and Little Andaman |\n\n### 2. Strategic Frontier Topological Schematics\n\n```\n                    [ SIKKIM ]             [ BHUTAN ]\n                         \\                    /\n                          \\                  /\n   [ NEPAL ]               \\   CHUMBI       /\n       \\                     \\  VALLEY     /\n        \\                     \\ (CHINA)   /\n         \\                     \\  Doklam  /\n          \\                     \\        /\n           ▼                      ▼      ▼\n    ┌──────────────────────────────────────────────┐\n    │     THE SILIGURI CORRIDOR (CHICKEN'S NECK)   │ <── 20 to 22 km bottleneck\n    │  NH-27 Highway • Railway • Oil Pipeline      │     connects Mainland to 8 NE States\n    └──────────────────────────────────────────────┘\n           ▲\n          /\n         /\n  [ BANGLADESH ] (Panchagarh / Tetulia border)\n```\n\n```\n                     [ TRIPURA (Sabroom) ]\n                               │\n                 ═════════════════════════════\n                 MAITRI SETU (over FENI RIVER)\n                 ═════════════════════════════\n                               │\n                   [ BANGLADESH (Ramgarh) ]\n                               │ (Only 72 km Highway Distance)\n                               ▼\n                    [ CHITTAGONG PORT ] (Bay of Bengal)\n```",
         "order": 5
+      },
+      {
+        "type": "SPATIAL_TRAJECTORY",
+        "title": "Master Orographic Reference: Strategic Mountain Passes & Regional Peaks Hierarchy",
+        "body": "### 1. Master Mountain Passes of India: West-to-East Spatial Sequencing Matrix\n\n| W $\\to$ E Seq | Pass Name | Elevation | State / UT | Mountain Range / Sector | Strategic Corridor / Connects | Key Geographic & Tactical Diagnostic |\n|---|---|---|---|---|---|---|\n| **1** | **Karakoram Pass** | 5,540 m | Ladakh | Karakoram Range | Leh (India) $\\leftrightarrow$ Yarkand (Tarim Basin, Xinjiang) | Ancient Silk Route pass; north of Siachen Glacier; historically strategic high-altitude route. |\n| **2** | **Khardung La** | 5,359 m | Ladakh | Ladakh Range | Leh $\\leftrightarrow$ Shyok and Nubra River Valleys | Gateway to the Siachen Base Camp and strategic northern military border posts. |\n| **3** | **Chang La** | 5,360 m | Ladakh | Ladakh Range | Leh $\\leftrightarrow$ Pangong Tso Lake | World's 3rd highest motorable pass; vital line of communication to eastern Ladakh border. |\n| **4** | **Zoji La** | 3,528 m | Ladakh / J&K | Great Himalayas | Srinagar (Kashmir Valley) $\\leftrightarrow$ Kargil & Leh (Ladakh) | Traversed by **NH-1**; vital lifeline across the Zaskar/Great Himalayan barrier; 14.15 km Zoji-la Tunnel under construction. |\n| **5** | **Fotu La** | 4,108 m | Ladakh | Zaskar Range | Srinagar $\\leftrightarrow$ Leh Highway (NH-1) | Highest elevation point on the Srinagar-Leh highway between Kargil and Leh. |\n| **6** | **Banihal Pass** | 2,832 m | Jammu & Kashmir | Pir Panjal Range | Jammu / Udhampur $\\leftrightarrow$ Srinagar (Kashmir Valley) | Pierced by the historic **Jawahar Tunnel** (2.85 km) and modern Qazigund twin-tube tunnel; gateway to Kashmir Valley. |\n| **7** | **Pir Panjal Pass** | 3,490 m | Jammu & Kashmir | Pir Panjal Range | Jammu (Poonch/Rajouri) $\\leftrightarrow$ Kashmir Valley (Shopian) | Historical Mughal Road route traversing the southern rim of the Kashmir depression. |\n| **8** | **Pensi La** | 4,400 m | Ladakh | Zaskar Range | Suru Valley (Kargil) $\\leftrightarrow$ Zanskar Valley (Padum) | Known as the 'Gateway to Zanskar'; overlooks the Drang-Drung glacier. |\n| **9** | **Bara Lacha La** | 4,890 m | Himachal Pradesh | Zaskar Range | Lahaul (HP) $\\leftrightarrow$ Leh (Ladakh) | High mountain pass connecting Manali-Leh Highway; headwaters of Bhaga and Chandra rivers rise nearby. |\n| **10** | **Rohtang Pass** | 3,978 m | Himachal Pradesh | Pir Panjal Range | Kullu Valley $\\leftrightarrow$ Lahaul & Spiti Valleys | Watershed divide between Beas (Arabian Sea) and Chenab basins; bypassed year-round by the **9.02 km Atal Tunnel**. |\n| **11** | **Shipki La** | 3,930 m | Himachal Pradesh | Zaskar Range | Kinnaur (HP) $\\leftrightarrow$ Ngari Prefecture (Tibet, China) | Entry gorge through which the antecedent **Sutlej River** cuts into India from Rakas Lake. |\n| **12** | **Debsa Pass** | 5,360 m | Himachal Pradesh | Great Himalayas | Kullu (Parbati Valley) $\\leftrightarrow$ Spiti Valley (Pin Valley) | High alpine crossover between the lush Parbati watershed and Spiti cold desert. |\n| **13** | **Lipulekh Pass** | 5,334 m | Uttarakhand | Great Himalayas | Pithoragarh (Kumaon) $\\leftrightarrow$ Tibet (China) | Strategic India-Nepal-China trijunction; primary land crossing for the official **Kailash Mansarovar Yatra**. |\n| **14** | **Mana Pass (Dungri La)**| 5,545 m | Uttarakhand | Zaskar / Great Himalayas | Chamoli (Garhwal) $\\leftrightarrow$ Guge (Tibet) | One of the highest vehicle-accessible passes in the world; located north of Badrinath shrine. |\n| **15** | **Niti Pass** | 5,068 m | Uttarakhand | Great Himalayas | Chamoli (Garhwal) $\\leftrightarrow$ Tibet | Ancient trans-Himalayan trade route; headwaters of the Dhauliganga River. |\n| **16** | **Muling La** | 5,669 m | Uttarakhand | Great Himalayas | Uttarkashi $\\leftrightarrow$ Tibet | High-altitude pass north of Gangotri; connects Bhagirathi catchment to Tibetan plateau. |\n| **17** | **Nathu La** | 4,310 m | Sikkim | Dongkya Range | Gangtok (Sikkim) $\\leftrightarrow$ Yadong County (Chumbi Valley, Tibet) | Historic branch of the **Old Silk Route**; reopened for bilateral border trade in 2006. |\n| **18** | **Jelep La** | 4,270 m | Sikkim | Great Himalayas | Kalimpong / East Sikkim $\\leftrightarrow$ Lhasa (via Chumbi Valley) | Carved by the Menmecho lake stream; alternative pass linking Bengal plains directly to Lhasa. |\n| **19** | **Bomdi La** | 2,217 m | Arunachal Pradesh | Great / Lesser Himalayas | West Kameng (Arunachal) $\\leftrightarrow$ Lhasa (Tibet) | Strategic gateway pass connecting Tezpur/Assam plains to Tawang and Tibet. |\n| **20** | **Bum La** | 4,600 m | Arunachal Pradesh | Great Himalayas | Tawang (Arunachal) $\\leftrightarrow$ Cona County (Tibet) | Historic invasion route of the 1962 Sino-Indian War; Border Personnel Meeting (BPM) point. |\n| **21** | **Sela Pass** | 4,170 m | Arunachal Pradesh | Great Himalayas | West Kameng $\\leftrightarrow$ Tawang District | Pierced by the newly constructed **Sela Tunnel** (world's longest bi-lane tunnel at >13,000 ft) ensuring all-weather connectivity. |\n| **22** | **Dihang Pass** | 4,000+ m | Arunachal Pradesh | Eastern Himalayas | Arunachal Pradesh $\\leftrightarrow$ Myanmar (Mandalay) | Gateway corridor linking northeastern Arunachal to northern Myanmar. |\n| **23** | **Diphu Pass** | 4,587 m | Arunachal Pradesh | Mishmi Hills | Arunachal Pradesh $\\leftrightarrow$ Kachin State (Myanmar) | Strategic trijunction border point of **India, China, and Myanmar** on the McMahon Line. |\n\n### 2. Highest Regional Peaks of India by Mountain Range / Orographic Division\n\n| Range / Orographic Division | Highest Peak Name | Elevation | State / UT / Regional Location | Tectonic / Conservation / Exam Diagnostic |\n|---|---|---|---|---|\n| **Karakoram Range** | **K2 (Godwin Austen)** | 8,611 m | Ladakh (Gilgit-Baltistan / PoK) | **2nd highest peak on Earth**; highest elevation point within sovereign Indian territory. |\n| **Great Himalayas (Undisputed)** | **Kanchenjunga** | 8,586 m | Sikkim (India-Nepal Border) | **3rd highest peak on Earth**; highest peak in undisputed territory administered by India; UNESCO Mixed World Heritage Site. |\n| **Great Himalayas (Entirely in India)** | **Nanda Devi** | 7,816 m | Uttarakhand (Garhwal Himalaya) | **Highest peak located completely within India's borders**; encircled by the Nanda Devi Biosphere Reserve (UNESCO). |\n| **Kamet** | **Kamet** | 7,756 m | Uttarakhand (Zaskar Range apex) | Second highest peak in Garhwal Himalayas after Nanda Devi; located near the Tibetan border. |\n| **Aravalli Range** | **Guru Shikhar** | 1,722 m | Rajasthan (Sirohi District, Mount Abu) | Culmination of the ancient Precambrian fold mountain belt; home to the Mount Abu wildlife sanctuary. |\n| **Vindhya Range** | **Sadbhavana Shikhar (Kalumar / Goodwill Peak)** | 752 m | Madhya Pradesh (Damoh District) | Highest point of the Vindhyan scarplands overlooking the central Indian plateau. |\n| **Satpura Range** | **Dhupgarh** | 1,350 m | Madhya Pradesh (Hoshangabad, Pachmarhi) | Situated in the **Mahadeo Hills** of the Satpura chain; premier hill station of MP. |\n| **Chota Nagpur Plateau** | **Parasnath (Shikharji)** | 1,365 m | Jharkhand (Giridih District) | Most sacred Jain pilgrimage shrine (*Tirthankaras* Nirvana site); elevated horst block. |\n| **Western Ghats (Sahyadris)** | **Anamudi** | 2,695 m | Kerala (Idukki District, Anaimalai Hills) | **Highest peak of South India and Western Ghats**; 'Everest of South India'; located in Eravikulam National Park (Nilgiri Tahr habitat). |\n| **Nilgiri Hills** | **Doddabetta** | 2,637 m | Tamil Nadu (Nilgiris District, Udhagamandalam) | Junction nexus of Western and Eastern Ghats; second highest peak in Peninsular India. |\n| **Eastern Ghats** | **Jindhagada / Arma Konda** | 1,690 m / 1,680 m | Andhra Pradesh (Visakhapatnam / Araku Valley) | Dissected crystalline khondalite peak; replaces the outdated Mahendragiri (1,501 m) in modern geographic surveys. |\n| **Purvanchal (Naga Hills)** | **Saramati** | 3,841 m | Nagaland (India-Myanmar Border) | Highest peak of the Purvanchal hill ranges; prominent natural frontier peak. |\n| **Purvanchal (Mizo Hills)** | **Phawngpui (Blue Mountain)**| 2,157 m | Mizoram (Lawngtlai District) | Highest peak in Mizoram; sacred mountain overlooking Chhimtuipui (Kaladan) river. |\n| **Purvanchal (Mishmi Hills)** | **Dapha Bum** | 4,578 m | Arunachal Pradesh (Changlang District) | Highest peak of the Mishmi and Patkai ranges; located near Namdapha National Park. |\n| **Andaman & Nicobar Islands**| **Saddle Peak** | 732 m | North Andaman Island | Highest elevation in the Bay of Bengal island archipelago; protected under Saddle Peak National Park. |\n| **Nicobar Group** | **Mount Thullier** | 642 m | Great Nicobar Island | Highest elevation in the Nicobar group; forms the core of the Great Nicobar Biosphere Reserve. |\n\n### 3. Peninsular Escarpment Gaps Matrix (The Sahyadri Breaches)\n\n| Gap / Pass Name | Mountain Sector | Corridors Linked | Physiographic & Commercial Diagnostic |\n|---|---|---|---|\n| **Thal Ghat (Kasara Ghat)** | Northern Sahyadris (Maharashtra) | **Mumbai $\\leftrightarrow$ Nashik / Dhule / Nagpur** | Carries the central railway mainline and NH-3; negotiates the sheer 580 m basaltic cliff of the Western Ghats. |\n| **Bhor Ghat (Khandala Ghat)** | Northern Sahyadris (Maharashtra) | **Mumbai $\\leftrightarrow$ Pune / Bengaluru / Chennai** | Traversed by Mumbai-Pune Expressway and southern railway line; historical battle pass between Marathas and British. |\n| **Palakkad Gap (Palghat)** | Central Sahyadris (Kerala-TN Border) | **Palakkad (Kerala) $\\leftrightarrow$ Coimbatore (Tamil Nadu)** | Low-altitude, ~30 km wide structural fault breach separating the **Nilgiri Hills** to the north from the **Anaimalai Hills** to the south; conduits southwest monsoon into western Tamil Nadu. |\n| **Shencottah Gap** | Southern Sahyadris (Kerala-TN Border) | **Kollam (Kerala) $\\leftrightarrow$ Madurai / Tenkasi (Tamil Nadu)** | Narrow mountain gap through the Cardamom and Agasthyamalai hills; utilized by Kollam-Sengottai railway corridor. |",
+        "order": 6
       }
     ],
     "examMappings": [
@@ -1932,6 +1961,38 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "difficulty": "HARD",
         "isPYQ": false,
         "examinerTrapPattern": "Confusing the location and height of Anamudi (Anaimalai) with Doddabetta (Nilgiri)."
+      },
+      {
+        "type": "APPLIED_SCENARIO",
+        "stem": "Arranging from WEST to EAST across the Himalayan and Northeast arc, which of the following represents the correct geographical sequence of mountain passes?\n1. Nathu La\n2. Shipki La\n3. Zoji La\n4. Bomdi La\n5. Lipulekh",
+        "options": [
+          "3 → 2 → 5 → 1 → 4",
+          "2 → 3 → 5 → 1 → 4",
+          "3 → 5 → 2 → 4 → 1",
+          "3 → 2 → 1 → 5 → 4"
+        ],
+        "correctAnswer": "3 → 2 → 5 → 1 → 4",
+        "explanation": "Moving from West to East across India: (1) Zoji La is in Ladakh/J&K (~75°30' E); (2) Shipki La is in Himachal Pradesh (~78°44' E); (3) Lipulekh Pass is in eastern Uttarakhand (~80°55' E); (4) Nathu La is in Sikkim (~88°55' E); (5) Bomdi La is in western Arunachal Pradesh (~92°25' E). Therefore, the exact sequence from West to East is Zoji La (3) → Shipki La (2) → Lipulekh (5) → Nathu La (1) → Bomdi La (4).",
+        "trapExplanation": "Candidates often mix up the relative longitudinal positions of Shipki La (Himachal) and Lipulekh (Uttarakhand), or place Nathu La east of Bomdi La.",
+        "difficulty": "HARD",
+        "isPYQ": true,
+        "examinerTrapPattern": "Scrambling longitudinal sequencing of Himalayan passes across states."
+      },
+      {
+        "type": "APPLIED_SCENARIO",
+        "stem": "Consider the following prominent mountain peaks of India and their respective mountain ranges / geographic regions:\n1. Anamudi — Anaimalai Hills\n2. Doddabetta — Nilgiri Hills\n3. Guru Shikhar — Aravalli Range\n4. Dhupgarh — Mahadeo Hills (Satpura Range)\n5. Saddle Peak — Middle Andaman\nHow many of the above pairs are CORRECTLY matched?",
+        "options": [
+          "Only two pairs",
+          "Only three pairs",
+          "Only four pairs",
+          "All five pairs"
+        ],
+        "correctAnswer": "Only four pairs",
+        "explanation": "Pairs 1, 2, 3, and 4 are correct: Anamudi (2,695 m, highest in South India) is in Anaimalai Hills; Doddabetta (2,637 m) is in Nilgiri Hills; Guru Shikhar (1,722 m) is the highest peak of Aravallis; Dhupgarh (1,350 m) is the highest peak of Satpura in Mahadeo Hills. Pair 5 is INCORRECT: Saddle Peak (732 m) is the highest peak of Andaman & Nicobar, but it is situated in NORTH Andaman, NOT Middle Andaman.",
+        "trapExplanation": "Examiners routinely place Saddle Peak in Middle or South Andaman rather than North Andaman.",
+        "difficulty": "HARD",
+        "isPYQ": true,
+        "examinerTrapPattern": "Misattributing Saddle Peak to Middle or South Andaman instead of North Andaman."
       }
     ]
   },
@@ -1972,6 +2033,15 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "confidence": "HIGH",
         "locator": "NCERT Class 11 India: Physical Environment, Chapter 3: Drainage System, Section: The Peninsular Rivers",
         "excerpt": "The Narmada and the Tapi are the two major west-flowing Peninsular rivers... They flow through fault depressions (rift valleys) and form estuaries rather than deltas."
+      },
+      {
+        "id": "CLM-GEO-011-04",
+        "statement": "The headwaters of the Ganga basin are configured by the sacred Panch Prayag (five holy confluences) along the descending course of the Alaknanda River sourced from the Satopanth and Bhagirath Kharak glaciers: (1) Vishnuprayag (Alaknanda meets Dhauliganga from Niti pass), (2) Nandaprayag (Alaknanda meets Nandakini from Nanda Ghunti), (3) Karnaprayag (Alaknanda meets Pindar River from Pindari glacier), (4) Rudraprayag (Alaknanda meets Mandakini/Kali Ganga from Chorabari glacier/Kedarnath), and (5) Devprayag (Alaknanda meets Bhagirathi from Gangotri glacier/Gaumukh, downstream of which the combined channel is designated as the Ganga); along with strategic inter-river confluences including Tandi (Chandra meets Bhaga to form Chenab), Harike Pattan (Beas meets Sutlej, feeding the Indira Gandhi Canal), and Panjnad/Mithankot (convergence of Jhelum, Chenab, Ravi, Beas, and Sutlej into the Indus).",
+        "claimType": "CORE_PRINCIPLE",
+        "epistemicLevel": "ESTABLISHED_FACT",
+        "confidence": "HIGH",
+        "locator": "Clear Vision For UPSC Indian Mapping Master Series (CU-YT-GEO-MAP-03: River Confluences & Panch Prayag) & NCERT Class 11 India Physical Environment Chapter 3",
+        "excerpt": "The Ganga is formed by the confluence of the Bhagirathi and Alaknanda at Devprayag. The Alaknanda has its source in the Satopanth glacier above Badrinath. In its southward journey, it is joined successively by the Dhauliganga at Vishnuprayag, the Nandakini at Nandaprayag, the Pindar at Karnaprayag, and the Mandakini at Rudraprayag before meeting the Bhagirathi at Devprayag."
       }
     ],
     "contentBlocks": [
@@ -2004,6 +2074,12 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "title": "Mental Map & Spatial Cartography: Peninsular & Himalayan Lacustrine Spines",
         "body": "### 1. Peninsular Coastal Lakes: Clockwise Coastal Circuit\n\n```\n      [ WEST COAST: Arabian Sea ]                   [ EAST COAST: Bay of Bengal ]\n                                                      Chilika Lake (Odisha)\n                                                            │\n                                                            ▼ [Mahanadi Delta Mouth]\n                                                      Kolleru Lake (Andhra Pradesh)\n                                                            │\n                                                            ▼ [Between Godavari & Krishna Deltas]\n                                                      Pulicat Lake (AP / TN Border)\n                                                            │\n                                                            ▼ [Sriharikota Barrier Island]\n  Sasthamkotta Lake (Kerala Freshwater)\n             ▲\n             │\n  Ashtamudi Lake (Kollam, 8 arms)\n             ▲\n             │\n  Vembanad Lake (Kochi / Kottayam)\n  [Longest in India: ~96.5 km]\n```\n\n### 2. High-Altitude Glacial Lakes of Himachal Pradesh (Elevation & Basin Alignment)\n\n| Lake | District & Elevation | Origin & Drainage Linkage | Visual / Spatial Diagnostic |\n|---|---|---|---|\n| **Surajtal (Surya Tal)** | Lahaul & Spiti (~4,890 m) | Glacial cirque below **Baralacha La Pass**; source of **Bhaga River** | 3rd highest lake in India; cold turquoise glacial water right below mountain pass |\n| **Chandratal (Chandra Tal)**| Lahaul & Spiti (~4,300 m) | Glacial depression near **Kunzum Pass**; source of **Chandra River** | Crescent moon shape; confluence with Bhaga at **Tandi** forms the **Chenab** |\n| **Prashar Lake** | Mandi (~2,730 m) | Tectonic basin overlooking Dhauladhar | Oval alpine bowl with a mysterious **floating circular peat island** that drifts |\n| **Rewalsar Lake** | Mandi (~1,360 m) | Tectonic / karst hill depression | Lotus shaped; tri-religious sacred sanctuary (Padmasambhava / Lomas / Guru Gobind Singh) |\n| **Renuka Lake** | Sirmaur (~672 m) | Subterranean seepage from Giri River valley | **Smallest Ramsar site in India**; shaped like the silhouette of a reclining goddess |",
         "order": 5
+      },
+      {
+        "type": "SPATIAL_TRAJECTORY",
+        "title": "Master Fluvial Reference: The Panch Prayag Descent Matrix & Strategic River Confluences",
+        "body": "### 1. Master Panch Prayag Hydrological Descent Matrix (North to South on the Alaknanda River)\n\n*The Alaknanda River rises at the snout of the **Satopanth and Bhagirath Kharak glaciers** above Badrinath, flowing southward through Chamoli, Rudraprayag, and Tehri Garhwal districts of Uttarakhand. On its journey, it absorbs five major glacial tributaries in a strict sequential order before becoming the Ganga.*\n\n| Sequence (N $\\to$ S) | Confluence (Prayag) | Elevation | Bank of Inflow | Joining Tributary | Tributary Glacial Source / Origin | Sacred Shrine / Notable Landmark | Resulting Downstream Flow |\n|---|---|---|---|---|---|---|---|\n| **1** | **Vishnuprayag** | ~1,372 m | **Left Bank** | **Dhauliganga** (Western Dhauli) | Rises near **Niti Pass** / Nanda Devi massif; joined by Rishiganga | Near Joshimath; site of Tapovan Vishnugad project | Alaknanda River |\n| **2** | **Nandaprayag** | ~870 m | **Left Bank** | **Nandakini** | Rises at **Nanda Ghunti** glacier (Trisul massif rim) | Historic capital of ancient Yadu kingdom; Nagar Panchayat | Alaknanda River |\n| **3** | **Karnaprayag** | ~788 m | **Left Bank** | **Pindar River** (Karna Ganga) | Originates from **Pindari Glacier** in Bageshwar district | Associated with Mahabharata warrior Karna; pilgrimage ghats | Alaknanda River |\n| **4** | **Rudraprayag** | ~610 m | **Right Bank** | **Mandakini River** (Kali Ganga) | Originates from **Chorabari Glacier** (Kedarnath peak) | Historic Rudranath temple; epicentre of 2013 Kedarnath flash floods | Alaknanda River |\n| **5** | **Devprayag** | ~472 m | **Right Bank** | **Bhagirathi River** | Originates from **Gaumukh** at the foot of **Gangotri Glacier** | Historic Raghunathji stone temple; confluence forms the mighty **GANGA** | **The Holy Ganga (Ganges)** |\n\n```\n               [ Satopanth Glacier / Badrinath ]\n                               │\n                               │  Alaknanda River (Mainstem Spine)\n                               ▼\n   (1) VISHNUPRAYAG ◄──────────┴────────── [ Dhauliganga River (from Niti Pass) ]\n                               │\n                               ▼\n   (2) NANDAPRAYAG  ◄──────────┴────────── [ Nandakini River (from Nanda Ghunti) ]\n                               │\n                               ▼\n   (3) KARNAPRAYAG  ◄──────────┴────────── [ Pindar River (from Pindari Glacier) ]\n                               │\n   [ Mandakini River ]         │\n   (Chorabari Glacier) ────────┴──────────► (4) RUDRAPRAYAG\n                               │\n   [ Bhagirathi River ]        │\n   (Gaumukh / Gangotri) ───────┴──────────► (5) DEVPRAYAG\n                               │\n                               ▼\n                       =================\n                        THE GANGA RIVER\n                       =================\n                               │ (Flows through Rishikesh & Haridwar onto Plains)\n                               ▼\n```\n\n### 2. Strategic National River Confluences & Hydrological Regulators\n\n| Confluence Location | Rivers Merging | State / Region | Canal Network / Strategic & Ecological Significance |\n|---|---|---|---|\n| **Tandi** | **Chandra + Bhaga** | Himachal Pradesh (Lahaul Valley) | The junction of Chandra (from Chandratal) and Bhaga (from Surajtal) forms the **Chandrabhaga**, known downstream in J&K as the **Chenab River** (largest Indus tributary by discharge). |\n| **Harike Pattan (Harike Barrage)** | **Beas + Sutlej** | Punjab (Tarn Taran / Ferozepur) | Feeds the **Indira Gandhi Canal (Rajasthan Feeder Canal)**, carrying waters 650 km into the Thar Desert; Ramsar wetland and sanctuary. |\n| **Prayagraj (Triveni Sangam)** | **Ganga + Yamuna + (subterranean Saraswati)** | Uttar Pradesh | Primary pilgrimage confluence; Yamuna contributes ~61% of combined discharge at the sangam; largest river junction in northern India. |\n| **Chambal-Yamuna Sangam (Pachnada)** | **Yamuna + Chambal + Sindh + Kuwari + Pahuj** | Uttar Pradesh (Etawah / Jalaun border) | Unique five-river convergence (Pachnada) creating deep dissected ravines (*Badlands*) and vital Gangetic Dolphin / Gharial sanctuary. |\n| **Panjnad** | **Jhelum + Chenab + Ravi + Beas + Sutlej** | Punjab (Bahawalpur, Pakistan) | The five rivers of Punjab combine into one massive channel (Panjnad) before discharging into the **Indus River** at **Mithankot**. |",
+        "order": 6
       }
     ],
     "examMappings": [
@@ -2137,6 +2213,22 @@ export const GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
         "difficulty": "HARD",
         "isPYQ": false,
         "examinerTrapPattern": "Overlooking the dual-monsoon (SW and NE) alimentation of the Cauvery basin."
+      },
+      {
+        "type": "APPLIED_SCENARIO",
+        "stem": "Which of the following correctly traces the NORTH-TO-SOUTH sequential descent of the sacred Panch Prayag (five holy river confluences) along the Alaknanda River in Uttarakhand?",
+        "options": [
+          "Vishnuprayag → Nandaprayag → Karnaprayag → Rudraprayag → Devprayag",
+          "Vishnuprayag → Karnaprayag → Nandaprayag → Rudraprayag → Devprayag",
+          "Nandaprayag → Vishnuprayag → Karnaprayag → Devprayag → Rudraprayag",
+          "Devprayag → Rudraprayag → Karnaprayag → Nandaprayag → Vishnuprayag"
+        ],
+        "correctAnswer": "Vishnuprayag → Nandaprayag → Karnaprayag → Rudraprayag → Devprayag",
+        "explanation": "The Alaknanda River originates at Satopanth glacier and descends southward, meeting tributaries at five successive prayags from North to South: (1) Vishnuprayag (meets Dhauliganga), (2) Nandaprayag (meets Nandakini), (3) Karnaprayag (meets Pindar), (4) Rudraprayag (meets Mandakini from right bank), and (5) Devprayag (meets Bhagirathi from right bank to become the Ganga).",
+        "trapExplanation": "Candidates often invert Nandaprayag and Karnaprayag, or confuse which river joins at which prayag (e.g. Mandakini at Rudraprayag vs Pindar at Karnaprayag).",
+        "difficulty": "MEDIUM",
+        "isPYQ": true,
+        "examinerTrapPattern": "Transposing Nandaprayag and Karnaprayag in the North-to-South descent sequence."
       }
     ]
   },
@@ -3036,6 +3128,43 @@ export async function seedGeographyCanonicalKnowledge() {
     }
   }
 
+  // 4c. Ensure Clear Vision Pedagogical Source & Coverage Units exist
+  let cvSource = await db.source.findUnique({ where: { id: CLEAR_VISION_MAPPING_SOURCE.id } });
+  if (!cvSource) {
+    cvSource = await db.source.create({
+      data: {
+        id: CLEAR_VISION_MAPPING_SOURCE.id,
+        title: CLEAR_VISION_MAPPING_SOURCE.title,
+        sourceType: CLEAR_VISION_MAPPING_SOURCE.sourceType,
+        authorityTier: CLEAR_VISION_MAPPING_SOURCE.authorityTier,
+        description: CLEAR_VISION_MAPPING_SOURCE.description,
+        url: CLEAR_VISION_MAPPING_SOURCE.url,
+        author: CLEAR_VISION_MAPPING_SOURCE.author,
+        edition: CLEAR_VISION_MAPPING_SOURCE.edition,
+      }
+    });
+  }
+
+  for (const cuDef of CLEAR_VISION_MAPPING_COVERAGE_UNITS) {
+    const existingCu = await db.coverageUnit.findUnique({ where: { id: cuDef.id } });
+    if (!existingCu) {
+      await db.coverageUnit.create({
+        data: {
+          id: cuDef.id,
+          sourceId: cvSource.id,
+          label: cuDef.label,
+          scopeDescription: cuDef.scopeDescription,
+          order: cuDef.order,
+          status: cuDef.status,
+          extractionStatus: 'COMPLETE',
+          verificationStatus: 'CHECKED',
+          canonicalMappingStatus: cuDef.canonicalMappingStatus,
+          notes: cuDef.notes
+        }
+      });
+    }
+  }
+
   // 5. Ensure Target Examinations exist in examMap
   const examCodes = [
     'UPSC_CSE', 'UPSC_APFC', 'UPSC_EPFO_EOAO', 'RPSC_RAS',
@@ -3113,7 +3242,9 @@ export async function seedGeographyCanonicalKnowledge() {
         }
       });
 
-      const activeSourceId = cl.locator.includes('Amit Sengupta') ? AMIT_SENGUPTA_GEOGRAPHY_SOURCE.id : source.id;
+      const activeSourceId = cl.locator.includes('Amit Sengupta')
+        ? AMIT_SENGUPTA_GEOGRAPHY_SOURCE.id
+        : (cl.locator.includes('Clear Vision') ? CLEAR_VISION_MAPPING_SOURCE.id : source.id);
       await db.evidence.create({
         data: {
           claimId: claim.id,
