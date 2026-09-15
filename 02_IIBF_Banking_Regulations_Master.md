@@ -337,6 +337,60 @@ Master recall matrix consolidating all numerical thresholds and statutory traps 
 • RBI FI-Index Dimension Weights: Access (35%), Usage (45%), Quality (20%).
 
 
+### 🏛️ 1. Master Chronology: Evolution of Indian Banking (1770–Present)
+
+| Era / Milestone | Bank / Institution | Founding Year & Statutory Basis | Historical Significance & Exam Trap |
+| :--- | :--- | :--- | :--- |
+| **First Modern Bank** | Bank of Hindustan | 1770 (Calcutta, Alexander & Co.) | First Western-style joint-stock bank in India; liquidated in 1832. |
+| **Early Pioneer** | General Bank of India | 1786 | Second bank established; liquidated in 1791. |
+| **Presidency Banks** | Bank of Calcutta (later Bengal) | 1806 (Chartered 1809) | First Presidency Bank. Issued own currency notes before 1861 Paper Currency Act. |
+| | Bank of Bombay | 1840 | Second Presidency Bank. |
+| | Bank of Madras | 1843 | Third Presidency Bank (amalgamation of Madras Bank and Carnatic Bank). |
+| **Oldest Joint-Stock Bank** | Allahabad Bank | 1865 | Oldest joint-stock bank surviving until merger with Indian Bank in 2020. |
+| **First Indian Limited Liability** | Oudh Commercial Bank | 1881 (Faizabad) | First bank with limited liability governed purely by an Indian Board of Directors (failed 1958). |
+| **First Swadeshi National Bank** | Punjab National Bank (PNB) | 1894 (Commenced 1895, Lahore) | Founded by Lala Lajpat Rai and Dyal Singh Majithia; first purely Indian capital bank surviving today. |
+| **Swadeshi Movement Boom** | Bank of India, Canara Bank | 1906 | Established during the anti-partition Swadeshi economic movement. |
+| | Indian Bank | 1907 | Established following the collapse of Arbuthnot & Co. in Madras. |
+| | Bank of Baroda | 1908 | Founded by Maharaja Sayajirao Gaekwad III. |
+| **First Purely Indian Commercial** | Central Bank of India | 1911 (Sir Sorabji Pochkhanawala) | First commercial bank wholly owned and managed by Indians without foreign patronage. |
+| **Imperial Amalgamation** | Imperial Bank of India | **27 January 1921** | Amalgamation of 3 Presidency Banks (Bengal, Bombay, Madras); functioned as semi-central bank. |
+| **Central Bank Inception** | Reserve Bank of India (RBI) | **1 April 1935** (RBI Act, 1934) | Recommended by Hilton Young Commission (1926). Nationalised on **1 January 1949**. |
+| **State Bank Genesis** | State Bank of India (SBI) | **1 July 1955** (SBI Act, 1955) | Nationalisation and transformation of Imperial Bank based on Gorwala Committee recommendations. |
+| **SBI Associate Amalgamation** | 5 Associate Banks + BMB | **1 April 2017** | State Bank of Bikaner & Jaipur, Hyderabad, Mysore, Patiala, Travancore + Bharatiya Mahila Bank merged into SBI. |
+
+
+### 🏛️ 2. Bank Nationalization Rosters: 1969 vs 1980
+
+| Wave | Date & Ordinance | Minimum Deposit Threshold | Number of Banks | Exact Roster of Nationalised Banks |
+| :--- | :--- | :--- | :--- | :--- |
+| **Phase 1** | **19 July 1969** (Banking Companies Acquisition & Transfer of Undertakings Act) | **₹50 Crore** | **14 Banks** | 1. Central Bank of India<br>2. Bank of India<br>3. Punjab National Bank<br>4. Bank of Baroda<br>5. United Commercial Bank (UCO)<br>6. Canara Bank<br>7. Dena Bank<br>8. Syndicate Bank<br>9. Union Bank of India<br>10. Allahabad Bank<br>11. Indian Bank<br>12. Bank of Maharashtra<br>13. Indian Overseas Bank<br>14. United Bank of India |
+| **Phase 2** | **15 April 1980** (Banking Companies Acquisition & Transfer of Undertakings Act) | **₹200 Crore** | **6 Banks** | 1. Andhra Bank<br>2. Corporation Bank<br>3. New Bank of India (*merged with PNB in 1993 — first PSBs merger*)<br>4. Oriental Bank of Commerce<br>5. Punjab & Sind Bank<br>6. Vijaya Bank |
+
+
+### ⚖️ 3. Reserve Bank - Integrated Ombudsman Scheme (RB-IOS) Architecture
+
+| Feature / Dimension | Statutory Parameter | Analytical Detail & Exam Trap |
+| :--- | :--- | :--- |
+| **Guiding Doctrine** | *"One Nation One Ombudsman"* | Integrates 3 erstwhile schemes: Banking Ombudsman (2006), NBFC Ombudsman (2018), Digital Transactions (2019). |
+| **Single-Window Portal** | Centralised Receipt and Processing Centre (CRPC) | Located at **RBI Chandigarh** for centralised receipt, initial scrutiny, and digital docketing of complaints. |
+| **Entities Covered** | All Commercial Banks, RRBs, Scheduled UCBs | Includes NBFCs with public deposits or asset size $\ge$ ₹100 Crore with customer interface; Non-bank System Participants (PPIs). |
+| **Ground of Complaint** | *Deficiency in Service* | Shifted from exhaustive positive list of grounds to a broad **deficiency-based standard** (omission or commission causing distress). |
+| **Compensation Ceilings** | Direct / Consequential Financial Loss | **Up to actual loss or ₹30 Lakh**, whichever is lower (exclusive of the disputed amount). |
+| | Harassment, Mental Anguish & Loss of Time | **Up to ₹1 Lakh** awarded at the Ombudsman's discretion. |
+| **Appellate Authority** | Executive Director, CEPD (RBI) | Either party can appeal against an award within **30 days** of receipt of the award or rejection. |
+| **Ineligibility Traps** | Pre-conditions for Filing | Customer must first complain to the Regulated Entity. Can approach Ombudsman only if: (a) No reply within 30 days, or (b) Reply rejected, or (c) Complainant dissatisfied. Complaint must be filed within 1 year of RE response. |
+
+
+### 📊 4. Institutional Banking Typology & Regulatory Thresholds
+
+| Institutional Category | Statutory Foundation | Minimum Capital | Shareholding / Promoter Norms | Priority Sector Lending (PSL) Target | Mandatory Lending Restrictions |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Scheduled Commercial Banks (SCBs)** | Section 42(6) RBI Act, 1934 | ₹500 Crore (New Private Banks) | Promoter cap: max 26% of paid-up voting equity after 15 years. | **40% of ANBC** or CEOBE (whichever is higher). | Standard prudential single/group borrower caps under Large Exposures Framework (20%/25% of Tier 1). |
+| **Regional Rural Banks (RRBs)** | Regional Rural Banks Act, 1976 (M. Narasimham WG) | ₹2,000 Crore authorized (₹1 Crore minimum paid-up) | **Central Govt: 50%**, **Sponsor Bank: 35%**, **State Govt: 15%**. | **75% of ANBC** | Target primarily small/marginal farmers, agricultural labourers, and rural artisans. |
+| **Small Finance Banks (SFBs)** | Section 22 BR Act, 1949 (Nachiket Mor / Usha Thorat) | **₹200 Crore** (₹100 Crore for Urban Co-ops converting) | Promoter must maintain min 40% paid-up voting equity for initial 5 years; phased to 26% in 15 years. | **75% of ANBC** (40% sub-targets as per SCB formula + 35% balance to eligible PSL). | **At least 50% of loan portfolio** must comprise loans and advances of ticket size up to **₹25 Lakh**. |
+| **Payments Banks** | Section 22 BR Act, 1949 (Nachiket Mor Committee) | **₹100 Crore** | Minimum 40% promoter stake for the first 5 years from commencement. | **Not Applicable (0%)** (Cannot undertake lending activities). | **Cannot lend or issue credit cards.** Maximum end-of-day balance: **₹2,00,000 per customer**. Min 75% deposits in G-Secs/T-Bills up to 1 yr. |
+
+
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → 🔥 HIGH — Pay close attention to statutory classifications, founding years, nodal ministries, and numerical thresholds in ⚡ IIBF High-Yield Banking Traps & Rapid Recall Cheat Sheet.
 
