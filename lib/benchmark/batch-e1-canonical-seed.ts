@@ -3789,6 +3789,15 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         locator: 'Professor Ryan, "RGDP Growth Rate & Per Capita GDP" (YouTube: OOIRNSlN_a4); N. Gregory Mankiw, Macroeconomics, Chapter 8: Economic Growth; Simon Kuznets (1934) National Income 1929-1932',
         excerpt: 'Real GDP growth isolates physical volume expansion from price changes. Per capita real GDP measures output per resident. When population growth exceeds real GDP growth, per capita output declines despite positive aggregate economic growth, highlighting that demographic growth acts as an essential denominator in living standard evaluations.',
       },
+      {
+        id: 'CLM-ECO-16-07',
+        statement: 'The Real Price of an individual good measures its price adjusted for changes in the overall price level (inflation), calculated by deflating the nominal price by a general price index: $\\text{Real Price}_t = \\text{Nominal Price}_t \\times \\left(\\frac{\\text{CPI}_{\\text{base}}}{\\text{CPI}_t}\\right)$; comparing real prices across periods reveals whether a specific good has become genuinely more expensive or cheaper relative to the general basket of goods and services, eliminating money illusion.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Real Price" (YouTube: vFJ9ldaqHxo); Hal Varian, Intermediate Microeconomics; N. Gregory Mankiw, Principles of Economics',
+        excerpt: 'The real price of a good is its price relative to an aggregate measure of prices, deflated by a price index like the CPI. A good may experience an increasing nominal price while its real price falls if the overall price level rises at a faster rate.',
+      },
     ],
     contentBlocks: [
       {
@@ -3885,7 +3894,43 @@ $$\\% \\Delta \\text{ Per Capita Real GDP} \\approx \\% \\Delta \\text{ Real GDP
   3. **Population Outpaces Output (Population Growth > Real GDP Growth):** If population grows by 4% while Real GDP grows by only 2%, Per Capita Real GDP contracts by approximately -2%, eroding average welfare despite positive aggregate headline growth.
 
 #### 4. Distributional Caveats:
-* **Mean vs Distribution:** Per Capita Real GDP is an arithmetic mean ($\\frac{\\text{Total Output}}{\\text{Population}}$). It does not reveal whether the newly generated output is distributed equitably across the populace or captured entirely by the top income decile.`,
+* **Mean vs Distribution:** Per Capita Real GDP is an arithmetic mean ($\\frac{\\text{Total Output}}{\\text{Population}}$). It does not reveal whether the newly generated output is distributed equitably across the populace or captured entirely by the top income decile.
+
+---
+
+### 5. Real Price vs. Nominal Price: Deflating Individual Prices via CPI (Professor Ryan)
+In *"Real Price"*, Professor Ryan demonstrates how the logic of deflating aggregate output (Real GDP) extends directly to the pricing of **individual goods and services**.
+
+#### 1. Defining Nominal Price vs. Real Price:
+* **Nominal Price:** The actual current dollar or rupee sticker price charged for a good at the time of purchase.
+* **Real Price:** The price of an individual good adjusted for changes in the general price level (inflation) relative to a designated base year. It measures the price of the good in terms of constant purchasing power—that is, relative to the overall basket of consumer goods and services.
+
+#### 2. The Deflating Formula:
+$$\\mathbf{\\text{Real Price}_t = \\text{Nominal Price}_t \\times \\left( \\frac{\\text{CPI}_{\\text{base}}}{\\text{CPI}_t} \\right) = \\frac{\\text{Nominal Price}_t}{\\text{CPI}_t / 100}}$$
+
+* **$\\text{CPI}_t$:** The Consumer Price Index in year $t$ (with $\\text{CPI}_{\\text{base}} = 100$).
+* **Economic Interpretation:** Deflating by the CPI removes general currency depreciation, allowing us to evaluate the **opportunity cost** or **relative scarcity** of an individual item across decades.
+
+#### 3. Real-World Illustration: The Gasoline Paradox:
+Suppose we observe the price of gasoline in two different years:
+* **2010 (Base Year, $\\text{CPI} = 100$):** Nominal price of gasoline = **₹50 / litre**.
+* **2024 (Current Year, $\\text{CPI} = 250$):** Nominal price of gasoline = **₹100 / litre**.
+
+At first glance, a consumer suffering from **Money Illusion** might complain: *"Gasoline has become twice as expensive! The price jumped by 100%!"*
+
+Let us compute the **Real Price** of gasoline in 2024 (in constant 2010 base rupees):
+$$\\text{Real Price}_{2024} = 100 \\times \\left( \\frac{100}{250} \\right) = \\mathbf{₹40}$$
+
+* **The Conclusion:** In real purchasing power terms, **gasoline actually became 20% cheaper** (falling from ₹50 to ₹40 in constant 2010 rupees).
+* **Why?** While the sticker price of gasoline doubled ($2\\times$), the general price level of all consumer goods escalated by $2.5\\times$ (CPI rose from 100 to 250). Therefore, gasoline became cheaper *relative* to food, housing, healthcare, and education. A worker had to give up *less* of their overall basket of goods to buy a litre of gasoline in 2024 than in 2010.
+
+#### 4. Crucial Distinction: Real Price vs. Real GDP:
+| Dimension | Real Price | Real GDP |
+|---|---|---|
+| **Level of Analysis** | **Microeconomic / Specific Market:** Evaluates the relative value of a single good or service. | **Macroeconomic Aggregate:** Evaluates the total physical output volume across the entire nation. |
+| **Deflator Used** | Consumer Price Index ($\\text{CPI}$) of consumer purchasing power. | GDP Deflator (implicit Paasche index of all domestic production). |
+| **Formula** | $P_{\\text{nominal}} \\times \\left( \\frac{\\text{CPI}_{\\text{base}}}{\\text{CPI}_t} \\right)$ | $\\sum (P_{\\text{base}} \\times Q_{\\text{current}}) = \\frac{\\text{Nominal GDP}}{\\text{GDP Deflator}} \\times 100$ |
+| **Purpose** | Eliminates money illusion to reveal true shifts in relative scarcity and opportunity cost. | Eliminates price inflation to reveal true percentage growth in physical productive volume. |`,
         order: 1,
       },
       {
@@ -4144,6 +4189,22 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Calculating multi-product Nominal vs Real GDP using the price-quantity matrix and decomposing nominal growth into real volume vs price inflation.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'In 2010 (designated base year, CPI = 100), the nominal price of petrol was ₹50 per litre. In 2024, the nominal price of petrol is ₹100 per litre, while the CPI has risen to 250. What is the Real Price of petrol in 2024 expressed in 2010 constant base rupees, and did petrol become more or less expensive in real purchasing-power terms?',
+        options: [
+          'Real Price = ₹40; petrol became 20% cheaper in real terms.',
+          'Real Price = ₹250; petrol became 150% more expensive in real terms.',
+          'Real Price = ₹100; petrol price remained exactly constant in real terms.',
+          'Real Price = ₹50; petrol experienced zero real change because nominal price doubled.',
+        ],
+        correctAnswer: 'Real Price = ₹40; petrol became 20% cheaper in real terms.',
+        explanation: 'As Professor Ryan demonstrates in "Real Price", to find the real price of an individual good adjusted for general inflation: $\\text{Real Price}_t = \\text{Nominal Price}_t \\times \\left(\\frac{\\text{CPI}_{\\text{base}}}{\\text{CPI}_t}\\right) = 100 \\times \\left(\\frac{100}{250}\\right) = ₹40$. Comparing the 2024 real price (₹40) to the 2010 base price (₹50): $\\frac{40 - 50}{50} \\times 100 = -20\\%$. Because the general price level rose by 150% (CPI grew 2.5 times) while petrol price rose by only 100% (doubled), petrol became 20% cheaper relative to the general basket of consumer goods, illustrating the danger of money illusion.',
+        trapExplanation: 'Option B confuses the CPI index value with the deflated price. Option C commits money illusion by assuming nominal price determines purchasing power. Option D assumes that doubling of nominal price offsets inflation without performing the CPI deflator calculation.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Calculating Real Price using CPI deflating and distinguishing real purchasing power changes from nominal price changes (overcoming money illusion).',
       },
     ],
   },
