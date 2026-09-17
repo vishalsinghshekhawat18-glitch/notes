@@ -101,12 +101,12 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
       },
       {
         id: 'CLM-ECO-01-03',
-        statement: 'Points on the PPF represent productive efficiency; the specific output point chosen by society represents allocative efficiency; points inside indicate underutilization of productive capacity or unemployment, measured empirically by the Capacity Utilization Rate: $\\text{Capacity Utilization} = \\left(\\frac{\\text{Actual Output}}{\\text{Potential Output}}\\right) \\times 100$.',
+        statement: 'Points on the PPF represent productive efficiency; the specific output point chosen by society represents allocative efficiency; points inside indicate underutilization of productive capacity or unemployment, measured empirically by the Capacity Utilization Rate: $\\text{Capacity Utilization} = \\left(\\frac{\\text{Actual Output}}{\\text{Potential Output}}\\right) \\times 100$; while points outside the frontier are unattainable in the long run without structural growth, an economy can temporarily "overproduce" beyond sustainable potential output ($Y > Y^*$, operating beyond the normal PPF) in the short run through unsustainable operational strain, continuous overtime, postponed machinery maintenance, and capacity utilization exceeding 90% to 100%, generating acute factor shortages and demand-pull inflation.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Professor Ryan, "Production Possibilities Frontier" (YouTube: jmB9cNfD3gQ) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs)',
-        excerpt: 'An economy achieves productive efficiency when it operates on its production frontier. Operating inside the frontier reflects underutilization of capacity. Capacity utilization measures the proportion of potential output actually realized; moving from inside to the frontier represents mobilizing idle capacity rather than expanding total productive capacity.',
+        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Professor Ryan, "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Production Possibilities Frontier" (YouTube: jmB9cNfD3gQ) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs)',
+        excerpt: 'An economy achieves productive efficiency when it operates on its production frontier. Operating inside reflects underutilization. An economy can temporarily overproduce beyond its sustainable possible output (potential capacity) by running extra overtime shifts and delaying equipment maintenance, but this cannot be sustained in the long run and triggers inflationary bottlenecks.',
       },
     ],
     contentBlocks: [
@@ -173,14 +173,20 @@ $$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost
 
 ---
 
-### 4. Capacity Utilization: Operating Inside the PPF vs Expanding the PPF (Professor Ryan)
-As Professor Ryan clarifies in *"Capacity Utilization"* and *"Production Possibilities Frontier"*, an economy's position relative to its PPF directly reflects its **Capacity Utilization Rate**:
+### 4. Capacity Utilization: Operating Inside, On, and Beyond the PPF (Professor Ryan)
+In *"Capacity Utilization"*, *"Production Possibilities Frontier"*, and *"Overproducing in the Economy"*, Professor Ryan demonstrates that an economy's operating coordinate relative to its PPF directly reflects its **Capacity Utilization Rate**:
 
 $$\\text{Capacity Utilization Rate} = \\left( \\frac{\\text{Actual Output } (Y)}{\\text{Potential Output / Productive Capacity } (Y^*)} \\right) \\times 100$$
 
-* **Operating Inside the Frontier (Capacity Utilization below 100%):** Represents underemployed labor, unutilized industrial machinery, and idle factory shifts. Moving from a point inside the PPF outward to the boundary represents an **increase in capacity utilization** (mobilizing existing idle resources), leaving total productive capacity unchanged.
-* **Operating on the Frontier (Productive Efficiency):** Represents full, efficient employment of existing productive capacity ($Y = Y^*$).
-* **Shifting the Frontier Outward (Expanding Productive Capacity):** Represents an outward expansion in potential output ($Y^*$) through investment in physical capital, technological innovation, or labor force growth.`,
+* **Operating Inside the Frontier (Capacity Utilization below 80%–85%):** Represents underemployed labor, unutilized industrial machinery, and idle factory shifts. Moving from an interior point outward toward the boundary represents an **increase in capacity utilization** (mobilizing existing idle resources), leaving total productive capacity unchanged.
+* **Operating on the Frontier (Productive Efficiency / Sustainable Full Capacity, $Y = Y^*$):** Represents normal, sustainable employment of existing productive capacity (typically 80% to 85% utilization). This allows regular maintenance downtime for capital machinery and normal working shifts for labor.
+* **Operating Beyond the Frontier: "Overproducing in the Economy" ($Y > Y^*$):**
+  - **The Economic Paradox:** Standard textbook economics asserts that points outside the PPF are "unattainable." How then can an economy produce *more* than its potential output?
+  - **The Resolution:** The PPF represents **normal sustainable capacity**, not absolute mechanical limits. An economy can temporarily "overproduce" in the short run by:
+    1. **Straining Labor:** Mandating double shifts, 60–70 hour work weeks, hiring marginal or retired workers, and paying high overtime wages ($u < \\text{NRU}$).
+    2. **Straining Capital:** Running factory assembly lines 24/7 without scheduled downtime, deferring preventative machine maintenance, and pushing equipment past rated speeds.
+  - **Why Overproduction is Unsustainable:** Overproducing causes equipment wear-and-tear, machine breakdowns, worker fatigue, input shortages, and escalating production costs. Firms aggressively bid up wages and materials, triggering **demand-pull and cost-push inflation**. The economy cannot remain beyond the frontier; it inevitably contracts back toward sustainable capacity ($Y^*$).
+* **Shifting the Frontier Outward (Expanding True Productive Capacity):** Represents a permanent, sustainable outward expansion in potential output ($Y^*$) achieved through net capital accumulation, technological innovation, or growth in the skilled labor force.`,
         order: 2,
       },
       {
@@ -312,6 +318,22 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the fundamental resource substitutability condition that distinguishes a linear PPF (constant MRT) from a concave PPF (increasing MRT).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In economic textbooks, points outside the Production Possibility Frontier (PPF) are conventionally designated as "unattainable." However, as macroeconomic theory and Professor Ryan demonstrate, how can an economy temporarily "overproduce" beyond its potential output ($Y > Y^*$), and why is this operating state unsustainable in the long run?',
+        options: [
+          'By running factories 24/7 with deferred maintenance, mandating extreme overtime shifts, and reducing unemployment below the natural rate ($u < \\text{NRU}$); it is unsustainable because worker fatigue, machine breakdowns, and input shortages trigger cost bottlenecks and accelerating inflation.',
+          'By printing fiat currency to eliminate physical resource scarcity; it is unsustainable because the currency automatically loses legal tender status after two quarters.',
+          'By transforming all consumer goods into capital goods instantaneously; it is unsustainable because the Marginal Rate of Transformation becomes permanently negative.',
+          'By importing intermediate inputs from abroad with zero domestic labor; it is unsustainable because foreign nations legally seize domestic factories.',
+        ],
+        correctAnswer: 'By running factories 24/7 with deferred maintenance, mandating extreme overtime shifts, and reducing unemployment below the natural rate ($u < \\text{NRU}$); it is unsustainable because worker fatigue, machine breakdowns, and input shortages trigger cost bottlenecks and accelerating inflation.',
+        explanation: 'As Professor Ryan demonstrates in "Overproducing in the Economy", the PPF represents normal sustainable productive capacity ($Y^*$) at an optimal utilization rate (~80-85%), not an absolute mechanical ceiling. In the short run, an economy can produce beyond its normal potential output by running overtime shifts, operating machinery continuously without maintenance downtime, and drawing marginal workers into the labor force ($u < \\text{NRU}$). However, this overproduction cannot be sustained: physical equipment suffers accelerated depreciation and breakdowns, workers suffer burnout, and intense bidding for scarce inputs ignites demand-pull and cost-push inflation, compelling the economy to contract back to sustainable capacity.',
+        trapExplanation: 'Option B confuses monetary expansion with physical resource constraints. Option C confuses sectoral reallocation with short-run overproduction. Option D invents fictitious foreign legal actions.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing how an economy can temporarily operate beyond its sustainable PPF/potential capacity (overproducing) and recognizing the physical and inflationary forces that make it unsustainable.',
       },
     ],
   },
@@ -4438,8 +4460,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
-        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain.',
+        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
+        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain. An economy can temporarily overproduce beyond its sustainable capacity ($Y > Y^*$) by running extra shifts and delaying maintenance, but this accelerates wear-and-tear and drives inflation.',
       },
       {
         id: 'CLM-ECO-17-06',
