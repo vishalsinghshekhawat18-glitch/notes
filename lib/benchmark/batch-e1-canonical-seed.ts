@@ -3530,8 +3530,8 @@ $$\\mathbf{\\text{GDP at Market Prices (GDP}_{\\text{MP}}\\text{)}} \\quad \\tex
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'MoSPI National Accounts Statistics (NAS); N. Gregory Mankiw, Macroeconomics, Chapter 2',
-        excerpt: 'The expenditure approach computes GDP as the sum of private consumption, gross investment, government purchases, and net exports.',
+        locator: 'Professor Ryan, "Determinants of Total Expenditure" (YouTube: s8yYqok0Gf8); MoSPI National Accounts Statistics (NAS); N. Gregory Mankiw, Macroeconomics, Chapter 2',
+        excerpt: 'The expenditure approach computes Total Expenditure (GDP) as the sum of final spending on domestically produced goods: Consumption (C), Gross Investment (I), Government Purchases (G), and Net Exports (X - M). Changes in total expenditure are driven by underlying determinants across each component (such as disposable income and consumer confidence for C, interest rates and expected profits for I, fiscal allocations for G, and foreign income and exchange rates for NX).',
       },
       {
         id: 'CLM-ECO-15-04',
@@ -3618,15 +3618,47 @@ $$\\mathbf{\\text{NDP}_{\\text{FC}}} = \\text{COE} + \\text{OS} + \\text{MI}$$
 * **Operating Surplus (OS):** Income from property and entrepreneurship = $\\text{Rent} + \\text{Royalty} + \\text{Interest} + \\text{Profit (Corporate Tax} + \\text{Dividend} + \\text{Undistributed Retained Earnings)}$.
 * **Mixed Income of the Self-Employed (MI):** Income of unincorporated own-account workers (farmers, shopkeepers, doctors in private practice) where labour and capital returns cannot be separated.
 
-### 3. Expenditure Method (Final Demand Approach)
-$$\\mathbf{\\text{GDP}_{\\text{MP}}} = C + I + G + (X - M)$$
-* **$C$ = Private Final Consumption Expenditure (PFCE):** Household consumption of non-durables, durables, and services (~56-60% of Indian GDP).
-* **$I$ = Gross Capital Formation (GCF) (~30-32% of GDP):**
-  - **Gross Fixed Capital Formation (GFCF):** Infrastructure, machinery, factory construction, commercial real estate.
-  - **Change in Stocks (Inventory Investment).**
-  - **Valuables:** Net acquisition of gold, silver, and precious stones.
-* **$G$ = Government Final Consumption Expenditure (GFCE):** Public administration salaries, defense operations, non-capital government services (~10-12% of GDP).
-* **$(X - M)$ = Net Exports:** Exports minus Imports (Historically negative in India due to trade deficit).
+### 3. Expenditure Method & Determinants of Total Expenditure (Professor Ryan)
+Total Expenditure ($TE$) measures the total monetary spending on currently produced final goods and services across four macroeconomic sectors:
+$$\mathbf{TE \equiv GDP_{MP}} = C + I + G + (X - M)$$
+
+#### A. The Four Components and Their Primary Economic Determinants:
+1. **$C$ = Private Final Consumption Expenditure (PFCE)** (~56–60% of Indian GDP):
+   - Household spending on durable goods (cars, appliances), non-durables (food, fuel), and services (healthcare, education, banking).
+   - **Primary Determinants:**
+     - **Disposable Income ($Y_d = Y - T$):** The primary driver; as disposable income rises, consumption spending increases in accordance with the Marginal Propensity to Consume ($MPC$).
+     - **Wealth Effect:** Changes in household wealth (equity markets, real estate values) alter perceived financial security, raising or lowering consumption independent of current income.
+     - **Consumer Confidence & Expectations:** Optimistic expectations regarding job security and future income boost current consumption, especially big-ticket durables.
+     - **Interest Rates & Credit Availability:** Lower consumer lending rates (auto loans, personal credit) decrease financing costs, expanding consumption spending.
+     - **Household Indebtedness:** High accumulated debt requires greater cash flow dedicated to debt service, depressing discretionary consumption.
+
+2. **$I$ = Gross Private Domestic Investment / Capital Formation (GCF)** (~30–32% of Indian GDP):
+   - Purchases of physical capital goods that enhance future productive capacity:
+     - **Gross Fixed Capital Formation (GFCF):** Non-residential structures (factories, warehouses), commercial equipment/machinery, intellectual property products, and new residential housing.
+     - **Change in Inventories / Stocks:** Net addition to unsold goods, materials in progress, and raw inventories.
+     - **Valuables:** Net acquisition of precious metals and gems.
+   - **Primary Determinants:**
+     - **Real Interest Rates (Cost of Borrowing):** The cost of financing capital projects. When interest rates rise, fewer investment projects achieve a rate of return exceeding the hurdle rate, curtailing business capital expenditure.
+     - **Expected Future Profits & Business Confidence:** If executives anticipate rising sales and robust market demand, investment surges; pessimistic expectations freeze capital outlays.
+     - **Corporate Taxes & Regulatory Compliance:** Lower corporate profit taxes and accelerated depreciation allowances increase after-tax returns, stimulating capital formation.
+     - **Technological Innovation:** Rapid technological change induces firms to modernize machinery and software to maintain cost competitiveness.
+     - **Capacity Utilization:** High current plant utilization (>80%) forces firms to invest in capacity expansion; low capacity utilization dampens new investment.
+
+3. **$G$ = Government Final Consumption Expenditure (GFCE)** (~10–12% of Indian GDP):
+   - Final expenditures by central, state, and local governments for goods and services: compensation of civil servants, defense equipment maintenance, public education, policing, and infrastructure upkeep.
+   - **Critical Distinction:** Excludes **Transfer Payments** (e.g., pensions, unemployment insurance, direct cash transfers like PM-KISAN) because transfers involve no current production or reciprocal exchange (*quid pro quo*).
+   - **Primary Determinants:**
+     - **Discretionary Fiscal Policy:** Government countercyclical spending decisions (Keynesian stimulus during recessions or fiscal consolidation during booms).
+     - **Geopolitical & Security Needs:** National defense emergencies and border security requirements.
+     - **Demographic Needs & Public Goods:** Demand for healthcare, public hygiene, and administrative services.
+
+4. **$(X - M)$ = Net Exports (Trade Balance)** (Historically negative in India due to energy/crude imports):
+   - Exports ($X$) represent foreign spending on domestically produced final goods and services; Imports ($M$) represent domestic spending on foreign-produced goods and services.
+   - **Primary Determinants:**
+     - **Foreign National Incomes:** When trading partner economies expand, foreign consumers and businesses purchase more domestic exports ($X \\uparrow$).
+     - **Domestic National Income:** When domestic GDP expands, domestic consumers purchase more foreign goods ($M \\uparrow$), decreasing net exports.
+     - **Exchange Rates:** Domestic currency depreciation makes domestic exports relatively cheaper for foreigners and imports more expensive domestically, improving $(X - M)$ over time (subject to the J-curve effect).
+     - **Trade Policies & Tariffs:** Protectionist tariffs, import quotas, and free trade agreements.
 
 ---
 
@@ -3789,6 +3821,22 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Distinguishing between real current production (goods + professional services) versus transfer payments, financial asset swaps, and second-hand sales.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to the macroeconomic theory of Total Expenditure ($TE \\equiv GDP = C + I + G + NX$) and its treatment of externalities, which of the following statements is economically ACCURATE?',
+        options: [
+          'A reduction in real interest rates stimulates gross private domestic investment ($I$) by lowering the financing cost of capital goods relative to expected returns.',
+          'Government expenditure ($G$) in national accounting includes both infrastructure project outlays and direct welfare transfer payments like universal basic income.',
+          'When a major industrial chemical spill pollutes a national river basin, conventional GDP immediately declines by the estimated monetary value of the environmental damage.',
+          'Net exports ($NX = X - M$) will automatically decrease if foreign national incomes increase while domestic national income remains constant.',
+        ],
+        correctAnswer: 'A reduction in real interest rates stimulates gross private domestic investment ($I$) by lowering the financing cost of capital goods relative to expected returns.',
+        explanation: 'Real interest rates represent the cost of borrowing capital funds. A decline in real interest rates lowers the hurdle rate for capital budgeting, rendering previously unviable factory, machinery, and commercial real estate projects profitable, thereby expanding gross investment ($I$). In contrast: Government purchases ($G$) strictly EXCLUDE transfer payments (Option B is false); conventional GDP does NOT subtract unpriced environmental damage from chemical spills, and perversely counts subsequent cleanup expenditures as positive additions to GDP (Option C is false); and an increase in foreign national income boosts foreign demand for domestic goods, which INCREASES net exports ($NX$) (Option D is false).',
+        trapExplanation: 'Examiners frequently test the dual traps of transfer payments inside G and the failure of conventional GDP to deduct environmental "bads".',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing macroeconomic determinants of expenditure components (investment sensitivity to interest rates) and the welfare paradox of economic bads in GDP accounting.',
       },
     ],
   },
