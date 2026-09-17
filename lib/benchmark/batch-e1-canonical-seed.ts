@@ -4563,7 +4563,7 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        locator: 'Professor Ryan, "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
         excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. An output gap occurs whenever actual real GDP differs from potential output.',
       },
       {
@@ -4827,10 +4827,31 @@ Current Account Deficit (CAD) Widens! (M > X)
 
 ---
 
-### 2. Output Gaps & Dynamics of the Aggregate Market: Shocks, Deviations & Adjustment Paths (Professor Ryan)
-In *"Output Gaps"* and *"Dynamics of the Aggregate Market"*, Professor Ryan demonstrates how the condition of the economy is diagnosed whenever **Actual Output ($Y$) differs from Possible Output / Potential Capacity ($Y^*$)**:
-$$\\mathbf{\\text{Output Gap} = Y - Y^*}$$
-When an economy is in long-run equilibrium ($AD = SRAS = LRAS$ at Potential Output $Y^*$), the output gap is zero ($Y - Y^* = 0$). Dynamic macroeconomic shocks displace the economy away from long-run equilibrium, opening one of two distinct output gaps:
+### 2. Short-Run Equilibrium, Output Gaps & Dynamics of the Aggregate Market (Professor Ryan)
+In *"Short Run Equilibrium & Output Gaps"*, *"Output Gaps"*, and *"Dynamics of the Aggregate Market"*, Professor Ryan demonstrates how the short-run equilibrium of the macroeconomy is determined by the intersection of Aggregate Demand and Short-Run Aggregate Supply ($AD \cap SRAS$), and how the health of the economy is diagnosed by comparing **Short-Run Real GDP ($Y$, "What Is")** with **Natural Real GDP ($Y^*$, Potential Capacity / "What Could Be")**:
+
+$$\mathbf{\text{Output Gap} = \text{Actual Output } (Y) - \text{Natural Real GDP } (Y^*) = Y - Y^*}$$
+
+#### The Three Macroeconomic Operating States:
+1. **Long-Run Equilibrium (Zero Output Gap, $Y = Y^*$):**
+   - The short-run equilibrium ($AD \cap SRAS$) occurs directly upon the vertical $LRAS$ curve.
+   - The output gap is exactly zero ($Y - Y^* = 0$). Cyclical unemployment is zero, labor vacancies balance job seekers, and capacity utilization sits at its sustainable benchmark (~80–85%).
+2. **Inflationary / Overheating Gap (Positive Output Gap, $Y > Y^*$):**
+   - Short-run equilibrium occurs to the **right of the $LRAS$ curve**.
+   - Output exceeds sustainable capacity ($Y - Y^* > 0$). Cyclical unemployment is negative (over-employment, $u < \text{NRU}$), factories run unsustainable overtime shifts (>90% utilization), and input shortages generate demand-pull and cost-push inflation.
+3. **Recessionary / Deflationary Gap (Negative Output Gap, $Y < Y^*$):**
+   - Short-run equilibrium occurs to the **left of the $LRAS$ curve**.
+   - Output falls short of potential capacity ($Y - Y^* < 0$). Productive machinery sits idle (<75% utilization), business inventories accumulate involuntarily, and cyclical unemployment surges ($u > \text{NRU}$).
+
+#### High-Yield Exam Practice: CON-ECO-17-Q15 (Output Gap Diagnosis & Short-Run Equilibrium)
+* **Question:** An economy's short-run equilibrium occurs where Aggregate Demand intersects Short-Run Aggregate Supply at a Real GDP level of $Y = ₹4,800\text{ Billion}$, while its Potential Natural GDP is $Y^* = ₹5,200\text{ Billion}$. 
+  1. Calculate the Output Gap.
+  2. Identify whether the economy is experiencing a recessionary or inflationary gap, and describe the corresponding state of capacity utilization and cyclical unemployment.
+* **Answer & Explanation:**
+  1. **Output Gap Calculation:** $\text{Output Gap} = Y - Y^* = ₹4,800 - ₹5,200 = \mathbf{-₹400\text{ Billion}}$ (or $-7.69\%$).
+  2. **Operating State Diagnosis:** Because Actual Output falls short of Potential Capacity ($Y < Y^*$), the economy is in a **Recessionary / Deflationary Gap**. 
+     - **Capacity Utilization:** Drops well below sustainable norms (<75%), leaving factories idle and machinery dormant.
+     - **Cyclical Unemployment:** Surges above the Natural Rate of Unemployment ($u > \text{NRU}$), as labor demand contracts.
 
 \`\`\`
 ========================================================================================
@@ -5382,6 +5403,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Synthesizing the three foundational macroeconomic goals (Growth, Full Employment, Price Stability) with the 3-curve Long-Run Equilibrium model.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In an Aggregate Market graph, an economy\'s short-run equilibrium coordinate ($AD \\cap SRAS$) is located strictly to the LEFT of the vertical Long-Run Aggregate Supply (LRAS) curve. According to macroeconomic theory and Professor Ryan\'s analysis in "Short Run Equilibrium & Output Gaps", what output gap is the economy experiencing, and what are its primary characteristics?',
+        options: [
+          'A Recessionary Gap; actual Real GDP is below Natural Real GDP ($Y < Y^*$), characterized by idle industrial capacity (<75% utilization), involuntary inventory build-up, and cyclical unemployment above zero.',
+          'An Inflationary Gap; actual Real GDP exceeds Natural Real GDP ($Y > Y^*$), characterized by acute labor shortages, overtime burnout, and demand-pull price acceleration.',
+          'Long-Run Equilibrium; the economy is operating at potential capacity with zero cyclical unemployment.',
+          'A Stagflationary Trap; Aggregate Demand has permanently collapsed to zero, rendering monetary policy completely ineffective.',
+        ],
+        correctAnswer: 'A Recessionary Gap; actual Real GDP is below Natural Real GDP ($Y < Y^*$), characterized by idle industrial capacity (<75% utilization), involuntary inventory build-up, and cyclical unemployment above zero.',
+        explanation: 'In "Short Run Equilibrium & Output Gaps", Professor Ryan demonstrates that when the short-run intersection of Aggregate Demand and Short-Run Aggregate Supply ($AD \\cap SRAS$) is located to the left of the vertical LRAS curve, actual Real GDP falls short of potential capacity ($Y < Y^*$). The economy is diagnosed with a Recessionary (Deflationary) Gap. Its defining symptoms include underutilized plant and machinery (<75% capacity utilization), involuntary inventory accumulation as sales slump, and elevated cyclical unemployment as firms cut back production.',
+        trapExplanation: 'Option B describes an inflationary gap, which occurs when short-run equilibrium is to the RIGHT of LRAS. Option C describes equilibrium lying directly on LRAS. Option D confuses cyclical downturns with hyper-collapse.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Diagnosing macroeconomic output gaps visually and conceptually from the relative positions of short-run equilibrium (AD ∩ SRAS) and vertical LRAS.',
       },
     ],
   },
