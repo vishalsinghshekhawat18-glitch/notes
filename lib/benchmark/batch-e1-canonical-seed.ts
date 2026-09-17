@@ -4631,8 +4631,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Keynesian Multiplier" (YouTube: AZ86yb3MdEQ) & "Chain Reaction of Consumption in KET" (YouTube: pNXLv8ECQNA); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10: The Marginal Propensity to Consume and the Multiplier',
-        excerpt: 'The Keynesian multiplier determines the overall change in total expenditure resulting from an initial change in investment, government spending, or net exports. It equals 1 / (1 - MPC). With an MPC of 0.75, the multiplier is 4.',
+        locator: 'Professor Ryan, "Marginal Propensity to Consume - Keynesian Theory" (YouTube: QS70Nx_BQ2s), "Keynesian Multiplier" (YouTube: AZ86yb3MdEQ) & "Chain Reaction of Consumption in KET" (YouTube: pNXLv8ECQNA); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10: The Marginal Propensity to Consume and the Multiplier',
+        excerpt: 'In "Marginal Propensity to Consume - Keynesian Theory", Professor Ryan defines Marginal Propensity to Consume (MPC) as the additional amount of money consumers will spend when they receive one more dollar of income: MPC = ΔC / ΔY = (C_new - C_old) / (Y_new - Y_old). In economics, "marginal" means "when there is one more of something", and "propensity" measures the likelihood or tendency to consume. Because MPC represents a stable behavioral parameter permeating the macroeconomy, consumption at any future income level can be predicted using C_n = C_{n-1} + MPC × (Y_n - Y_{n-1}). The Keynesian multiplier (k = 1 / (1 - MPC) = 1 / MPS) amplifies initial autonomous expenditures through successive spending rounds.',
       },
     ],
     contentBlocks: [
@@ -4720,12 +4720,12 @@ In **"Classical Economic Theory - The Labor Market Basics"** (YouTube: KId0-meFA
   W_H │───────────┬─────────────/   ───► LABOR SURPLUS (Q_S > Q_D)
       │          /│            /         • More workers than jobs available
   W_e │─────────┼─┼───────────/          • Cyclical Unemployment > 0  (u > NRU)
-      │        /  │ \        /           • Classical adjustment: W bids DOWN (W ↓)
+      │        /  │ \\        /           • Classical adjustment: W bids DOWN (W ↓)
   W_L │───────/───┼──┴──────/       ───► LABOR SHORTAGE (Q_D > Q_S)
-      │      /    │    \   /             • More jobs available than workers willing
-      │     /     │     \ /              • Over-tight labor market   (u < NRU)
+      │      /    │    \\   /             • More jobs available than workers willing
+      │     /     │     \\ /              • Over-tight labor market   (u < NRU)
       │    /      │      X   D_L (Firms) • Classical adjustment: W bids UP (W ↑)
-      └───/───────┴─────/─\─────►
+      └───/───────┴─────/─\\─────►
       0  Q_D     Q_e   Q_S      Quantity of Labor (L)
          [Jobs]        [Workers]
 
@@ -4820,13 +4820,19 @@ Classical economists completely rejected the underconsumption premise: **savers 
 
 #### The Keynesian Multiplier: The Multi-Round Iterative Re-Spending Chain
 When an autonomous injection enters the circular flow (such as business investment $\\Delta I$ or government spending $\\Delta G$), how much does total national income ($\\Delta Y$) actually expand?
-As Professor Ryan explains, an initial injection does **not** simply expand GDP by the face value of the initial expenditure — it initiates a **multi-round compounding chain reaction** because **one person's spending is another person's income**.
+As Professor Ryan explains in **"Marginal Propensity to Consume - Keynesian Theory"** (YouTube: QS70Nx_BQ2s), an initial injection does **not** simply expand GDP by the face value of the initial expenditure — it initiates a **multi-round compounding chain reaction** because **one person's spending is another person's income**.
 
-##### 1. Marginal Propensity to Consume ($MPC$) and Marginal Propensity to Save ($MPS$)
-When a household receives an additional unit of income ($\\Delta Y$):
-* A fraction is consumed: **Marginal Propensity to Consume ($MPC = \\frac{\\Delta C}{\\Delta Y}$)**.
-* The remainder is saved (leaked): **Marginal Propensity to Save ($MPS = \\frac{\\Delta S}{\\Delta Y}$)**.
-* By definition:
+##### 1. Marginal Propensity to Consume ($MPC$) & Marginal Propensity to Save ($MPS$)
+In **"Marginal Propensity to Consume - Keynesian Theory"**, Professor Ryan deconstructs the foundational behavioral parameter of Keynesian Macroeconomics:
+* **The Concept of "Marginal":** In economics, *marginal* strictly denotes *"when there is one more of something"*—observing economic adjustments one additional unit at a time.
+* **The Concept of "Propensity":** *Propensity* signifies the natural tendency, inclination, or likelihood to undertake an action.
+* **Definition:** The **Marginal Propensity to Consume ($MPC$)** is the additional amount of money that consumers will spend when they receive one more dollar (or rupee) of factor income.
+* **The Slope Formula:**
+  $$\\mathbf{MPC = \\frac{\\Delta C}{\\Delta Y} = \\frac{C_{\\text{new}} - C_{\\text{old}}}{Y_{\\text{new}} - Y_{\\text{old}}}}$$
+  Just as slope in algebra is $\\frac{y_2 - y_1}{x_2 - x_1}$, $MPC$ is the slope of the macroeconomic Consumption Function.
+* **Economy-Wide Permeation & Predictive Forecasting:** Because $MPC$ functions as a stable structural parameter permeating the aggregate economy, consumption expenditure ($C_n$) at any future income level ($Y_n$) is forecasted using:
+  $$\\mathbf{C_n = C_{n-1} + \\left[MPC \\times (Y_n - Y_{n-1})\\right]}$$
+* **The Leakage Complement ($MPS$):** Any unconsumed portion of additional income is saved ($MPS = \\frac{\\Delta S}{\\Delta Y}$). Since all incremental income is either spent or saved:
   $$\\mathbf{MPC + MPS = 1 \\implies MPS = 1 - MPC}$$
 
 ##### 2. Round-by-Round Iteration Table (Initial Injection = ₹100, $MPC = 0.75$, $MPS = 0.25$)
@@ -5766,6 +5772,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the Classical transmission mechanism for closing a recessionary gap: Labor Surplus -> Wages Fall (W bids down) -> Production Costs Fall -> SRAS Shifts Right (SRAS increases) -> Y returns to Y* with lower PL.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Keynesian macroeconomic theory and Professor Ryan\'s lecture in "Marginal Propensity to Consume - Keynesian Theory", household consumption data indicates that when national income rises from ₹14,700 to ₹14,800, consumption expenditure increases from ₹8,900 to ₹8,985. Based on this observation, what is the Marginal Propensity to Consume ($MPC$), and using the Keynesian table forecasting method, what is the projected consumption expenditure if national income expands further to ₹14,900?',
+        options: [
+          'Marginal Propensity to Consume ($MPC$) = 0.85; Projected Consumption at ₹14,900 Income = ₹9,070',
+          'Marginal Propensity to Consume ($MPC$) = 0.15; Projected Consumption at ₹14,900 Income = ₹9,000',
+          'Marginal Propensity to Consume ($MPC$) = 0.85; Projected Consumption at ₹14,900 Income = ₹9,850',
+          'Marginal Propensity to Consume ($MPC$) = 1.18; Projected Consumption at ₹14,900 Income = ₹9,103',
+        ],
+        correctAnswer: 'Marginal Propensity to Consume ($MPC$) = 0.85; Projected Consumption at ₹14,900 Income = ₹9,070',
+        explanation: 'In "Marginal Propensity to Consume - Keynesian Theory", Professor Ryan defines "marginal" as "when there is one more of something" and "propensity" as the natural inclination or likelihood to take an action. The Marginal Propensity to Consume ($MPC$) measures the additional consumption expenditure resulting from one additional unit of disposable income: $MPC = \\frac{\\Delta C}{\\Delta Y} = \\frac{C_{\\text{new}} - C_{\\text{old}}}{Y_{\\text{new}} - Y_{\\text{old}}}$. Here, $\\Delta Y = ₹14,800 - ₹14,700 = ₹100$, and $\\Delta C = ₹8,985 - ₹8,900 = ₹85$. Thus, $MPC = \\frac{85}{100} = 0.85$. Under Professor Ryan\'s table forecasting rule, consumption at any subsequent income row ($C_n$) equals the prior consumption plus the product of $MPC$ and the incremental income change: $C_n = C_{n-1} + [MPC \\times (Y_n - Y_{n-1})]$. For $Y = ₹14,900$, $\\Delta Y = ₹14,900 - ₹14,800 = ₹100$. The forecasted consumption is $C = 8,985 + (0.85 \\times 100) = 8,985 + 85 = \\mathbf{₹9,070}$.',
+        trapExplanation: 'Option B confuses the Marginal Propensity to Consume ($MPC = 0.85$) with the Marginal Propensity to Save ($MPS = 1 - 0.85 = 0.15$). Option C mistakenly adds ₹865 rather than the incremental consumption of ₹85. Option D inverts the slope formula as $\\frac{\\Delta Y}{\\Delta C} = \\frac{100}{85} \\approx 1.18$.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Calculating Marginal Propensity to Consume ($MPC = \\Delta C / \\Delta Y$) from incremental income data and forecasting successive consumption rows ($C_n = C_{n-1} + [MPC \\times \\Delta Y]$).',
       },
     ],
   },
