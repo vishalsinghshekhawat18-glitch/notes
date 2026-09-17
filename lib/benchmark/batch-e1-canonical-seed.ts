@@ -3780,6 +3780,15 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         locator: 'Professor Ryan, "Price Level Stability" (YouTube: tIwtrfYLbDE); Ben Bernanke (2002) Deflation: Making Sure "It" Doesn\'t Happen Here; Stanley Fischer (1993) The Role of Macroeconomic Factors in Growth',
         excerpt: 'Price level stability does not mean that prices never change; it means that changes in the general price level occur slowly and predictably enough that households and firms can make forward-looking plans without fear of erratic purchasing power shifts. A low positive inflation rate buffers against deflationary traps and facilitates real wage flexibility.',
       },
+      {
+        id: 'CLM-ECO-16-06',
+        statement: 'Real GDP Growth Rate measures the percentage change in physical economic output across periods holding prices constant; Per Capita Real GDP ($\\frac{\\text{Real GDP}}{\\text{Population}}$) measures average physical production per individual, with its growth rate approximated by the linear decomposition: $\\% \\Delta \\text{ Per Capita Real GDP} \\approx \\% \\Delta \\text{ Real GDP} - \\% \\Delta \\text{ Population}$, demonstrating that aggregate output expansion improves average material living standards only if it outpaces demographic population growth.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "RGDP Growth Rate & Per Capita GDP" (YouTube: OOIRNSlN_a4); N. Gregory Mankiw, Macroeconomics, Chapter 8: Economic Growth; Simon Kuznets (1934) National Income 1929-1932',
+        excerpt: 'Real GDP growth isolates physical volume expansion from price changes. Per capita real GDP measures output per resident. When population growth exceeds real GDP growth, per capita output declines despite positive aggregate economic growth, highlighting that demographic growth acts as an essential denominator in living standard evaluations.',
+      },
     ],
     contentBlocks: [
       {
@@ -3831,7 +3840,32 @@ In everyday discussions, people frequently assume that "Price Level Stability" i
 #### The Destructive Costs of Price Instability:
 * **Distorted Price Signals (Hayekian Signal-to-Noise Problem):** Price changes in a market economy communicate relative scarcity. Under volatile inflation, producers cannot distinguish whether a price hike represents increased demand for their specific good or general currency depreciation, leading to catastrophic capital misallocation.
 * **Arbitrary Wealth Redistribution:** Volatile inflation arbitrarily redistributes wealth from creditors, savers, and fixed-pensioners to leveraged borrowers. Volatile deflation does the exact reverse.
-* **Menu and Shoe-Leather Costs:** Rapidly changing prices waste real economic resources re-negotiating contracts, updating price catalogues, and holding excess cash reserves.`,
+* **Menu and Shoe-Leather Costs:** Rapidly changing prices waste real economic resources re-negotiating contracts, updating price catalogues, and holding excess cash reserves.
+
+---
+
+### 4. Real GDP Growth Rate & Per Capita Real GDP: The Demographic Denominator (Professor Ryan)
+In *"RGDP Growth Rate & Per Capita GDP"*, Professor Ryan demonstrates that evaluating macroeconomic progress requires two distinct calculations: measuring the growth in aggregate physical output, and adjusting that growth for demographic population expansion.
+
+#### 1. Calculating the Percentage Growth Rate of Real GDP:
+$$\\text{Real GDP Growth Rate}_t = \\left( \\frac{\\text{Real GDP}_t - \\text{Real GDP}_{t-1}}{\\text{Real GDP}_{t-1}} \\right) \\times 100$$
+* Because Real GDP is measured in constant base-year prices, this formula strictly measures the **percentage change in real physical production volume** ($\\Delta Q$), unaffected by currency inflation.
+
+#### 2. Per Capita Real GDP: The Individual Standard of Living:
+$$\\text{Per Capita Real GDP} = \\frac{\\text{Real GDP}}{\\text{Total Population}}$$
+* **Why Aggregate Real GDP Alone Can Mislead:** A country's aggregate Real GDP might expand significantly, giving the illusion of surging prosperity. However, if the country's population expands at an even faster pace, the average volume of goods and services available per citizen is actively shrinking!
+
+#### 3. The Linear Growth Decomposition:
+The annual percentage change in Per Capita Real GDP is closely approximated by:
+$$\\% \\Delta \\text{ Per Capita Real GDP} \\approx \\% \\Delta \\text{ Real GDP} - \\% \\Delta \\text{ Population}$$
+
+* **Three Demographic Scenarios:**
+  1. **Output Outpaces Population (Real GDP Growth > Population Growth):** Per capita real income rises; average material living standards genuinely expand (e.g., Real GDP growth around 7% and Population growth around 1% yields Per Capita growth of approximately +6%).
+  2. **Output Equals Population (Real GDP Growth = Population Growth):** Aggregate physical production expands, but per capita living standards remain completely stagnant (0% per capita change).
+  3. **Population Outpaces Output (Population Growth > Real GDP Growth):** If population grows by 4% while Real GDP grows by only 2%, Per Capita Real GDP contracts by approximately -2%, eroding average welfare despite positive aggregate headline growth.
+
+#### 4. Distributional Caveats:
+* **Mean vs Distribution:** Per Capita Real GDP is an arithmetic mean ($\\frac{\\text{Total Output}}{\\text{Population}}$). It does not reveal whether the newly generated output is distributed equitably across the populace or captured entirely by the top income decile.`,
         order: 1,
       },
       {
@@ -4042,6 +4076,22 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Confusing price level stability (small, predictable, low positive inflation) with zero inflation (static prices), and identifying the three structural justifications for low positive inflation targets.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'In a developing economy, Real GDP expands by 3.2% over a financial year, while its national census records an annual population growth rate of 4.5%. According to macroeconomic growth accounting principles, what happened to the country\'s average material standard of living (Per Capita Real GDP)?',
+        options: [
+          'Average standard of living increased by 7.7%, because demographic growth increases the domestic labor force and expands consumer demand.',
+          'Average standard of living decreased by approximately 1.3%, because the rate of population growth exceeded the rate of real physical output expansion.',
+          'Average standard of living remained exactly constant, because Real GDP is evaluated at constant base-year prices that automatically adjust for population size.',
+          'Average standard of living increased by 3.2%, because population changes only affect Nominal GDP through monetary inflation.',
+        ],
+        correctAnswer: 'Average standard of living decreased by approximately 1.3%, because the rate of population growth exceeded the rate of real physical output expansion.',
+        explanation: 'As Professor Ryan demonstrates in "RGDP Growth Rate & Per Capita GDP", average material standard of living is measured by Per Capita Real GDP ($\\frac{\\text{Real GDP}}{\\text{Population}}$). The percentage change in Per Capita Real GDP is closely approximated by the linear growth decomposition: $\\% \\Delta \\text{ Per Capita Real GDP} \\approx \\% \\Delta \\text{ Real GDP} - \\% \\Delta \\text{ Population} = 3.2\\% - 4.5\\% = -1.3\\%$. Although aggregate production expanded, the number of people dividing that output grew at a faster pace, causing average physical output per person to contract by approximately 1.3%.',
+        trapExplanation: 'Option A erroneously adds the two growth rates. Option C incorrectly assumes Real GDP adjusts for population. Option D falsely claims population only affects Nominal GDP.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the mathematical and economic relationship between Aggregate Real GDP Growth, Population Growth, and Per Capita Real GDP.',
       },
     ],
   },
