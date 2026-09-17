@@ -4604,8 +4604,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 20; N. Gregory Mankiw, Principles of Macroeconomics, Chapter 2',
-        excerpt: 'In the circular flow diagram, the economy is simplified into two decision-makers: households and firms. They interact in two types of markets: markets for goods and services (product markets) and markets for factors of production (resource markets).',
+        locator: 'Professor Ryan, "Classical Economic Theory - The Labor Market Basics" (YouTube: KId0-meFAJ0); Paul Samuelson & William Nordhaus, Economics, Chapter 20; N. Gregory Mankiw, Principles of Macroeconomics, Chapter 2',
+        excerpt: 'In the circular flow factor market, labor is unique: workers do not sell themselves as commodities, but rent their labor services. Households are the suppliers of labor (upward-sloping supply curve representing the labor force entering as wages rise), while firms are the demanders of labor (downward-sloping demand curve representing available job openings). Equilibrium wage equates labor supply and demand, producing full employment (zero cyclical unemployment). A wage above equilibrium creates a labor surplus (cyclical unemployment), while a wage below equilibrium creates a labor shortage.',
       },
       {
         id: 'CLM-ECO-17-05',
@@ -4700,7 +4700,55 @@ Every economic transaction generates two simultaneous flows moving in opposite d
 
 ---
 
-### 3. The Foundational Triple Identity of National Income Accounting
+### 3. The Factor Market for Labor: Renting Human Effort & The Three Labor Market Regimes (Professor Ryan)
+In **"Classical Economic Theory - The Labor Market Basics"** (YouTube: KId0-meFAJ0), Professor Ryan illuminates the foundational mechanics of the labor market that make it unique among all factor markets:
+* **Human Dignity & Rented Labor:** While land and capital are physical commodities purchased and owned by firms, workers do not sell themselves—they **rent their labor services** for a specified shift. Workers retain full self-ownership and the liberty to walk away.
+* **The Labor Market Actors:**
+  - **Suppliers ($S_L$):** Households / Workers (Upward-sloping: higher wage rates motivate individuals to overcome domestic opportunity costs and enter the active labor force, $Q_{S,L} \\uparrow$).
+  - **Demanders ($D_L$):** Firms / Employers (Downward-sloping: higher wage rates raise hiring costs, reducing posted job openings, $Q_{D,L} \\downarrow$).
+  - **Price of Labor:** The nominal wage rate ($W$).
+  - **Quantity of Labor:** Total employment ($L$), balancing the size of the active labor force with available job openings.
+
+\`\`\`text
+========================================================================================
+            THE CLASSICAL LABOR MARKET: THREE OPERATIONAL REGIMES
+========================================================================================
+
+  Wage Rate (W)
+      ▲
+      │                  S_L (Households: Labor Force)
+  W_H │───────────┬─────────────/   ───► LABOR SURPLUS (Q_S > Q_D)
+      │          /│            /         • More workers than jobs available
+  W_e │─────────┼─┼───────────/          • Cyclical Unemployment > 0  (u > NRU)
+      │        /  │ \        /           • Classical adjustment: W bids DOWN (W ↓)
+  W_L │───────/───┼──┴──────/       ───► LABOR SHORTAGE (Q_D > Q_S)
+      │      /    │    \   /             • More jobs available than workers willing
+      │     /     │     \ /              • Over-tight labor market   (u < NRU)
+      │    /      │      X   D_L (Firms) • Classical adjustment: W bids UP (W ↑)
+      └───/───────┴─────/─\─────►
+      0  Q_D     Q_e   Q_S      Quantity of Labor (L)
+         [Jobs]        [Workers]
+
+────────────────────────────────────────────────────────────────────────────────────────
+  AT EQUILIBRIUM WAGE (W_e): Q_S,L = Q_D,L
+  • Number of active job seekers matches the number of available job vacancies.
+  • Cyclical unemployment is zero  ===>  FULL EMPLOYMENT (u = NRU / NAIRU).
+========================================================================================
+\`\`\`
+
+#### The Three Operational Regimes:
+1. **Equilibrium Wage ($W_e$ / Full Employment):**
+   - $Q_{S,L} = Q_{D,L}$: The active labor force equals available jobs. Every worker seeking a job finds one, eliminating cyclical unemployment ($u_{\\text{cyclical}} = 0$). The economy operates at the **Natural Rate of Unemployment ($u = \\text{NRU} = \\text{NAIRU}$)** with normal frictional job-search and structural transitions intact.
+2. **Wage Above Equilibrium ($W_H > W_e$ / Labor Surplus & Cyclical Unemployment):**
+   - $Q_{S,L} > Q_{D,L}$: More individuals seek work than businesses are willing to hire. A **Labor Surplus** emerges, manifesting as **Cyclical Unemployment ($u > \\text{NRU}$)**.
+   - *Classical Self-Correction:* Unemployed job seekers compete for scarce openings, bidding nominal wages down ($W \\downarrow$) toward $W_e$.
+3. **Wage Below Equilibrium ($W_L < W_e$ / Labor Shortage & Overemployment):**
+   - $Q_{D,L} > Q_{S,L}$: Job vacancies exceed willing workers at the low wage. A **Labor Shortage** emerges, driving unemployment below the natural rate ($u < \\text{NRU}$) and depleting normal frictional search reserves.
+   - *Classical Self-Correction:* Competing employers bid nominal wages up ($W \\uparrow$) toward $W_e$.
+
+---
+
+### 4. The Foundational Triple Identity of National Income Accounting
 Because every dollar spent by a household in the product market becomes revenue for a firm, and every dollar spent by a firm on factor inputs becomes factor income for a household:
 
 $$\\mathbf{\\text{Aggregate Output (O)}} \\equiv \\mathbf{\\text{Aggregate Factor Income (Y)}} \\equiv \\mathbf{\\text{Aggregate Expenditure (E)}}$$
@@ -4712,7 +4760,7 @@ This equivalence forms the theoretical foundation for the **Three Classical Meth
 
 ---
 
-### 4. Say's Law vs Keynesian Effective Demand, Injections & The Keynesian Multiplier (Professor Ryan)
+### 5. Say's Law vs Keynesian Effective Demand, Injections & The Keynesian Multiplier (Professor Ryan)
 * **Classical Say's Law (J.B. Say):** *"Supply creates its own demand."* Classical theory assumed all factor payments are instantaneously spent back on output, making general demand shortages impossible.
 * **The Keynesian Revolution (J.M. Keynes, 1936):** Keynes proved that when households withdraw part of their income as **Savings ($S$)**, spending drops unless channeled back via business **Investment ($I$)**.
 * **Modern Open Economy Equilibrium:**
@@ -5578,6 +5626,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the three classical assumptions (Self-regulation/Laissez-faire, Say\'s Law demand sufficiency, Upward and Downward Wage Flexibility) and the modern downward wage stickiness critique.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Classical Economic Theory and Professor Ryan\'s lecture in "Classical Economic Theory - The Labor Market Basics", what defines the condition of Full Employment in the labor market graph, and what occurs when the prevailing wage rate is set ABOVE the equilibrium wage ($W > W_e$)?',
+        options: [
+          'Full Employment occurs at the equilibrium wage ($W_e$) where the quantity of labor supplied equals the quantity of labor demanded ($Q_{S,L} = Q_{D,L}$, meaning the labor force equals available jobs and cyclical unemployment is zero); a wage above equilibrium creates a Labor Surplus, manifesting as elevated Cyclical Unemployment ($u > \\text{NRU}$).',
+          'Full Employment occurs when the wage rate is zero; a wage above equilibrium causes all commercial firms to permanently exit the economy.',
+          'Full Employment requires that 100% of the entire population (including children and retirees) is actively employed; a wage above equilibrium eliminates frictional unemployment.',
+          'Full Employment occurs only during a severe recession; a wage above equilibrium shifts the Long-Run Aggregate Supply (LRAS) curve permanently to the left.',
+        ],
+        correctAnswer: 'Full Employment occurs at the equilibrium wage ($W_e$) where the quantity of labor supplied equals the quantity of labor demanded ($Q_{S,L} = Q_{D,L}$, meaning the labor force equals available jobs and cyclical unemployment is zero); a wage above equilibrium creates a Labor Surplus, manifesting as elevated Cyclical Unemployment ($u > \\text{NRU}$).',
+        explanation: 'In "Classical Economic Theory - The Labor Market Basics", Professor Ryan deconstructs the labor market: (1) At the equilibrium wage ($W_e$), quantity supplied of labor equals quantity demanded ($Q_{S,L} = Q_{D,L}$), meaning every worker in the active labor force seeking employment finds an available job vacancy. Cyclical unemployment is zero, achieving Full Employment where the actual unemployment rate equals the Natural Rate of Unemployment ($u = \\text{NRU} = \\text{NAIRU}$, with normal frictional and structural mobility persisting). (2) When the wage rate is above equilibrium ($W_H > W_e$), the number of workers seeking jobs ($Q_S$) exceeds the number of jobs businesses are willing to offer ($Q_D$). This produces a Labor Surplus, which manifests in the macroeconomy as Cyclical Unemployment ($u > \\text{NRU}$). In classical theory, surplus workers compete for jobs, bidding nominal wages down ($W \\downarrow$) to restore equilibrium.',
+        trapExplanation: 'Option B is absurd. Option C repeats the common fallacy that full employment requires zero total unemployment. Option D confuses labor market equilibrium with recessionary crises and LRAS shifts.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the definition of Full Employment in the labor market (Q_S = Q_D at W_e, cyclical unemployment = 0) versus labor surplus when W > W_e.',
       },
     ],
   },
