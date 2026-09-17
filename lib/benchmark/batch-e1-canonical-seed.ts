@@ -4554,8 +4554,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Long Run Equilibrium" (YouTube: 1zOa2ykuydA), "Determinants of Aggregate Demand" (YouTube: ne6xIS2YWc8), "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
-        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. Long-run macroeconomic equilibrium occurs when Aggregate Demand (AD), Short-Run Aggregate Supply (SRAS), and Long-Run Aggregate Supply (LRAS) simultaneously intersect at a single point, where actual output equals Natural Real GDP (Y = Y*), the output gap is zero, cyclical unemployment is eliminated, and price level stability is achieved. Aggregate Demand (AD) is determined by the components of Total Expenditure: Consumption (C), Investment (I), Government Purchases (G), and Net Exports (NX). LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain. An economy can temporarily overproduce beyond its sustainable capacity ($Y > Y^*$) by running extra shifts and delaying maintenance, but this accelerates wear-and-tear and drives inflation.',
+        locator: 'Professor Ryan, "Ideal State of the Economy" (YouTube: 6Vj2Jtckoq4), "Long Run Equilibrium" (YouTube: 1zOa2ykuydA), "Determinants of Aggregate Demand" (YouTube: ne6xIS2YWc8), "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
+        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. Long-run macroeconomic equilibrium represents the "Ideal State of the Economy" where Aggregate Demand (AD), Short-Run Aggregate Supply (SRAS), and Long-Run Aggregate Supply (LRAS) simultaneously intersect at a single point, where actual output equals Natural Real GDP (Y = Y*), the output gap is zero, cyclical unemployment is eliminated (job openings equal job seekers), and price level stability is achieved. Over time, economic growth shifts the LRAS curve rightward, expanding the sustainable production frontier. Aggregate Demand (AD) is determined by the components of Total Expenditure: Consumption (C), Investment (I), Government Purchases (G), and Net Exports (NX). Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain.',
       },
       {
         id: 'CLM-ECO-17-06',
@@ -5027,12 +5027,12 @@ $$\\mathbf{\\Delta AD = k \\times \\Delta \\bar{A} = \\frac{1}{1 - MPC} \\times 
 
 ---
 
-### 7. Long-Run Macroeconomic Equilibrium: The Three-Curve Intersection & Cardinal Properties (Professor Ryan)
-In *"Long Run Equilibrium"*, Professor Ryan synthesizes the complete aggregate market framework by defining the exact conditions under which an economy achieves **Long-Run Equilibrium**:
+### 7. Long-Run Macroeconomic Equilibrium: The "Ideal State of the Economy" & Cardinal Properties (Professor Ryan)
+In *"Ideal State of the Economy"* and *"Long Run Equilibrium"*, Professor Ryan synthesizes the complete aggregate market framework by defining **Long-Run Equilibrium** as the macroeconomic ideal toward which national policy and market dynamics strive:
 
 \`\`\`text
 ========================================================================================
-             LONG-RUN MACROECONOMIC EQUILIBRIUM: THE 3-CURVE INTERSECTION
+       THE "IDEAL STATE OF THE ECONOMY": LONG-RUN MACROECONOMIC EQUILIBRIUM
 ========================================================================================
      Price Level (PL)
        ▲
@@ -5042,48 +5042,49 @@ In *"Long Run Equilibrium"*, Professor Ryan synthesizes the complete aggregate m
        │                    │         /
        │                    │        /
    PL* │────────────────────┼───────/  ◄── Long-Run Equilibrium Coordinate
-       │  \\                 │      /       (AD = SRAS = LRAS)
-       │   \\                │     /
-       │    \\               │    /
-       │     \\              │   /
-       │      \\             │  /
-       │       \\            │ /
-       │        \\           │/
-       │         \\          │
-       │          \\         │          AD (Total Expenditure C+I+G+NX)
-       │           \\        │         /
-       └────────────\\───────┴────────/───────────────────►
+       │  \                 │      /       (AD = SRAS = LRAS)
+       │   \                │     /
+       │    \               │    /
+       │     \              │   /
+       │      \             │  /
+       │       \            │ /
+       │        \           │/
+       │         \          │
+       │          \         │          AD (Total Expenditure C+I+G+NX)
+       │           \        │         /
+       └────────────\───────┴────────/───────────────────►
        0                   Y* (Natural Real GDP)         Real GDP
        
-       [THE 5 CARDINAL EQUILIBRIUM PROPERTIES SATISFIED SIMULTANEOUSLY]
+       [WHERE THE THREE FOUNDATIONAL MACROECONOMIC GOALS CONVERGE SIMULTANEOUSLY]
 ========================================================================================
 \`\`\`
 
 #### The Definition of Long-Run Macroeconomic Equilibrium:
-Long-Run Equilibrium occurs when the short-run equilibrium between buyers and sellers in the aggregate market ($AD \\cap SRAS$) falls **directly upon the Long-Run Aggregate Supply ($LRAS$) curve**:
+Long-Run Equilibrium occurs when the short-run equilibrium between buyers and sellers in the aggregate market ($AD \cap SRAS$) falls **directly upon the Long-Run Aggregate Supply ($LRAS$) curve**:
 
-$$\\mathbf{AD = SRAS = LRAS \\quad \\text{at Coordinates } (Y^*, PL^*)}$$
+$$\mathbf{AD = SRAS = LRAS \quad \text{at Coordinates } (Y^*, PL^*)}$$
 
-#### The Five Cardinal Properties of Long-Run Equilibrium:
-1. **Property 1: Actual Output Equals Possible Output ($Y = Y^*$):**
-   - What the economy is currently producing ("What Is", Actual Real GDP $Y$) exactly equals what the economy\'s factor endowments sustainably allow it to produce ("What Could Be", Natural Real GDP / Potential GDP $Y^*$).
-2. **Property 2: Output Gap is Zero ($Y - Y^* = 0$):**
-   - The economy experiences neither an inflationary overheating gap ($Y > Y^*$) nor a recessionary slump ($Y < Y^*$).
-3. **Property 3: Full Employment ($u = u^* = \\text{NRU}$):**
-   - **Cyclical Unemployment is exactly 0.0%**. The only unemployment in the economy consists of inevitable, healthy job searches (Frictional) and technological re-skilling transitions (Structural).
-4. **Property 4: Price Level Stability ($PL = PL^*$):**
-   - Because aggregate demand matches physical capacity, there is zero demand-pull pressure driving prices up, and zero excess supply driving prices down. Inflation expectations are anchored.
-5. **Property 5: Optimal Sustainable Capacity Utilization (~80–85%):**
-   - Industrial capital machinery operates at normal, sustainable engineering loads without overtime labor exhaustion or deferred maintenance strain.
+#### Why Long-Run Equilibrium is the "Ideal State of the Economy" (Convergence of the 3 Macro Goals):
+1. **Convergence of Macro Goal 1: Full Employment ($u = \text{NRU}$):**
+   - In this state, **Cyclical Unemployment is 0.0%**.
+   - **Market Matching Balance:** The number of job openings across the economy roughly equals the number of unemployed individuals actively looking for work (the only joblessness consists of healthy frictional search transitions and structural career shifts).
+2. **Convergence of Macro Goal 2: Price Level Stability ($PL = PL^*$):**
+   - The price level is stable and predictable; inflation is non-accelerating and anchored because aggregate spending equals sustainable productive capacity ($AD = LRAS$).
+   - There is neither demand-pull pressure from shortages nor downward deflationary distress from gluts.
+3. **Convergence of Macro Goal 3: Sustainable Economic Growth ($LRAS \\rightarrow LRAS_2$):**
+   - While the economy sits sustainably at its long-run frontier ($Y = Y^*$), ongoing factor accumulation ($L, K, N$) and technological innovation ($A \\uparrow$) shift the vertical $LRAS$ curve progressively rightward over time, expanding potential capacity without triggering inflation.
+4. **Zero Output Gap & Sustainable Capacity Utilization (~80–85%):**
+   - The output gap is exactly zero ($Y - Y^* = 0$). Factories and capital equipment operate at normal engineering utilization rates (~80–85%), avoiding the deferred maintenance and overtime burnout of inflationary gaps ($Y > Y^*$) as well as the idle machinery and lay-offs of recessionary slumps ($Y < Y^*$).
 
 #### Short-Run Equilibrium vs. Long-Run Equilibrium:
-| Dimension | Short-Run Equilibrium | Long-Run Macroeconomic Equilibrium |
+| Dimension | Short-Run Equilibrium | Long-Run Macroeconomic Equilibrium ("Ideal State") |
 | :--- | :--- | :--- |
-| **Mathematical Condition** | $\\mathbf{AD = SRAS}$ | $\\mathbf{AD = SRAS = LRAS}$ |
+| **Mathematical Condition** | $\mathbf{AD = SRAS}$ | $\mathbf{AD = SRAS = LRAS}$ |
 | **Determination** | Intersection of buyers\' willingness to purchase ($AD$) and firms\' willingness to produce ($SRAS$) given **sticky factor input costs**. | Intersection of aggregate demand with the economy\'s **physical ability to produce** ($LRAS$) after all nominal wages and input prices have fully adjusted. |
 | **Output Level** | Can occur at any real GDP: $Y < Y^*$ (Recessionary), $Y = Y^*$ (Long Run), or $Y > Y^*$ (Inflationary). | Strictly constrained to Potential GDP ($Y = Y^*$). |
-| **Labor Market** | Cyclical unemployment can be positive (recession) or negative (overheating). | Cyclical unemployment is strictly zero; actual unemployment equals the Natural Rate ($u = \\text{NRU}$). |
-| **Adjustment Tendency** | Fleeting and unstable if $Y \\neq Y^*$. | The stable terminal attractor toward which the market gravitates once nominal contracts and wages adjust. |`,
+| **Labor Market** | Cyclical unemployment can be positive (recession) or negative (overheating). | Cyclical unemployment is strictly zero; job openings roughly balance job seekers ($u = \text{NRU}$). |
+| **Macro Goals Status** | Sacrifices price stability (in booms) or employment (in slumps). | Simultaneously achieves Full Employment, Price Stability, and Sustainable Capacity. |
+| **Adjustment Tendency** | Fleeting and unstable if $Y \neq Y^*$. | The stable terminal attractor toward which the market gravitates once nominal contracts and wages adjust. |`,
         order: 3,
       },
       {
@@ -5104,7 +5105,7 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
   - Keynesian theory proves that wage rigidities and saving leakages create underemployment equilibrium where output is constrained by **Aggregate Demand**, not supply capacity.
 * ⚠️ **Trap 3: Savings Identity in a Closed vs Open Economy:**
   - In a **Closed Economy ($X = M = 0$):** National Savings must mathematically equal Domestic Investment ($S = I$).
-  - In an **Open Economy:** National Savings does NOT have to equal Domestic Investment; the difference is financed by foreign borrowing: $S - I = X - M = \\text{Net Capital Outflow}$.
+  - In an **Open Economy:** National Savings does NOT have to equal Domestic Investment; the difference is financed by foreign borrowing: $S - I = X - M = \text{Net Capital Outflow}$.
 * ⚠️ **Trap 4: High Investment is Not Bad:** A high CAD is not necessarily disastrous if it is driven by high productive private investment ($I > S$) importing capital machinery that expands future productive capacity, rather than wasteful government consumption ($G > T$).
 * ⚠️ **Trap 5: Single Market Supply vs Long-Run Aggregate Supply (LRAS):** In an individual product market, an upward-sloping supply curve occurs because higher relative prices induce firms to bid away scarce labor and capital from other industries. In the macroeconomic Aggregate Market, however, all industries are already clustered together! In the long run, output cannot be expanded by bidding resources away from other sectors; total national output is strictly anchored to the economy's physical ability to produce (total factor endowments $L, K, N, A$), rendering the LRAS curve perfectly vertical at Potential GDP ($Y^*$).`,
         order: 4,
@@ -5301,7 +5302,7 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Calculating required autonomous fiscal dosage to close an output gap using $\\Delta G = \\Delta Y \\times MPS$ versus the full gap amount.',
-      },
+        },
       {
         type: 'CONCEPT_CHECK',
         stem: 'In Keynesian Economic Theory (KET), when an economy is stuck in a severe recessionary gap ($Y < Y^*$), why does John Maynard Keynes argue that governments must actively manage Aggregate Demand ($AD$) rather than waiting for the classical self-correction mechanism of Short-Run Aggregate Supply (SRAS)?',
@@ -5365,6 +5366,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Distinguishing between short-run equilibrium (AD = SRAS) and long-run equilibrium (simultaneous 3-curve intersection AD = SRAS = LRAS at potential output Y*).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In the macroeconomic synthesis presented by Professor Ryan in "Ideal State of the Economy", why is Long-Run Equilibrium ($AD = SRAS = LRAS$ at $Y^*$) regarded as the ideal state for the macroeconomy?',
+        options: [
+          'Because it represents the simultaneous convergence of the three foundational macroeconomic goals: Full Employment (cyclical unemployment is zero and job openings roughly match job seekers), Price Level Stability (non-accelerating, anchored inflation), and Sustainable Capacity with a zero output gap.',
+          'Because it guarantees that absolute consumer prices and nominal interest rates fall permanently to zero percent.',
+          'Because it ensures that 100% of the working-age population is employed, completely abolishing both frictional and structural unemployment.',
+          'Because it mandates that government budgets run continuous fiscal surpluses while commercial banks hold 100% liquid cash reserves.',
+        ],
+        correctAnswer: 'Because it represents the simultaneous convergence of the three foundational macroeconomic goals: Full Employment (cyclical unemployment is zero and job openings roughly match job seekers), Price Level Stability (non-accelerating, anchored inflation), and Sustainable Capacity with a zero output gap.',
+        explanation: 'In "Ideal State of the Economy", Professor Ryan demonstrates that Long-Run Equilibrium is the target ideal because it simultaneously satisfies the three core macroeconomic goals: (1) Full Employment, where cyclical unemployment is 0% and available job vacancies across the economy balance the number of active job seekers (leaving only normal frictional search and structural transition unemployment); (2) Price Level Stability, where aggregate spending matches productive capacity, keeping inflation predictable and non-accelerating; and (3) Sustainable Capacity ($Y = Y^*$), operating at optimal capital utilization (~80-85%) with a zero output gap. Over time, economic growth shifts LRAS rightward, steadily raising the sustainable standard of living.',
+        trapExplanation: 'Option B confuses price stability with zero absolute prices. Option C erroneously assumes full employment means zero total unemployment (frictional and structural unemployment persist). Option D confuses macroeconomic equilibrium with fiscal surpluses and narrow banking mandates.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Synthesizing the three foundational macroeconomic goals (Growth, Full Employment, Price Stability) with the 3-curve Long-Run Equilibrium model.',
       },
     ],
   },
