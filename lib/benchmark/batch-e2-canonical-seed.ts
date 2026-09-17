@@ -995,8 +995,8 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'STATUTORY_RULE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'MoSPI Technical Report on CPI Base 2012; RBI Act, 1934 Section 45ZA',
-        excerpt: 'CPI-Combined Base 2012=100 by NSO has 45.86% weight in Food & Beverages and is the headline targeting index.',
+        locator: 'Professor Ryan, "Inflation Rate" (YouTube: F6lId-QL1DY); MoSPI Technical Report on CPI Base 2012; RBI Act, 1934 Section 45ZA',
+        excerpt: 'The Consumer Price Index makes the abstract price level concrete by measuring the average cost of a representative consumer basket over time. The inflation rate is calculated as ((CPI_current - CPI_prior) / CPI_prior) * 100, reflecting both the percentage price increase and currency purchasing power decline.',
       },
       {
         id: 'CLM-ECO-23-02',
@@ -1020,8 +1020,8 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Retail Basket vs Wholesale Mandi: Why Price Indices Diverge',
-        body: 'Why does the newspaper report that WPI inflation is $-1\\%$ (deflation) while your monthly grocery bill rose by $+6\\%$ (CPI inflation)?\n\nThe difference lies in **who is buying** and **what is inside the basket**:\n- **Wholesale Price Index (WPI)** measures the bulk price of physical goods traded between businesses at the factory gate or wholesale mandi (dominated by manufactured goods and global crude metals, with $0\\%$ services).\n- **Consumer Price Index (CPI)** measures the retail cost of living experienced by households, heavily dominated by food ($45.86\\%$ of the basket), housing, education, healthcare, and services.\n\nWhen global metal and crude oil prices collapse, WPI plummets; but if domestic tomato and onion prices surge, CPI spikes.',
+        title: 'The Consumer Basket, Measuring Price Stability & The Inflation Rate (Professor Ryan)',
+        body: 'How do macroeconomists convert the abstract concept of the "overall price level" into concrete, actionable numbers to determine whether an economy is achieving **price level stability**?\n\nIn **"Inflation Rate"** (YouTube: F6lId-QL1DY), Professor Ryan explains that governments construct a **Consumer Price Index (CPI)** by filling a hypothetical "grocery cart" with a representative basket of goods and services purchased by typical households (food staples, milk, eggs, fuel, cell phone service, housing, toothpaste). By tracking the total average cost of this fixed basket over time across months and years, statistical agencies quantify the trajectory of aggregate prices.\n\n### The Inflation Rate Formula & Duality of Meaning\nThe **Inflation Rate** ($\\pi_n$) is the percentage change in the CPI from one period to the next, derived via the universal percentage change formula:\n$$\\pi_n = \\left(\\frac{\\text{CPI}_n - \\text{CPI}_{n-1}}{\\text{CPI}_{n-1}}\\right) \\times 100 = \\left(\\frac{\\text{New} - \\text{Old}}{\\text{Old}}\\right) \\times 100$$\n\n```text\n========================================================================================\n          THE ANATOMY OF INFLATION RATE MEASUREMENT (PROFESSOR RYAN)\n========================================================================================\n\n  1. THE CONSUMER BASKET (CPI)                   2. THE DUAL INTERPRETATION RULE\n  ────────────────────────────                   ───────────────────────────────\n  • Abstract price level made concrete           • When inflation is 3%:\n  • Representative basket of household goods:      A) Average prices rise by 3%\n    Food, fuel, utilities, rent, services          B) Currency purchasing power falls by ~3%\n  • Tracked monthly & annually                   • CRITICAL ANTI-DOUBLE-COUNTING TRAP:\n    CPI_t = Average cost of basket in year t       Interpret as (A) OR (B), NEVER BOTH!\n                                                   (Saying prices rose 3% AND money lost 3%\n                                                   does not mean you lost 6% of value!)\n\n────────────────────────────────────────────────────────────────────────────────────────\n               WORKED EXAMPLES: CALCULATING INFLATION RATES (π = ΔCPI / CPI_old)\n\n  • 2007 (Moderate Growth):   CPI_2007 = 207.342,  CPI_2006 = 201.6\n    π = (207.342 - 201.6) / 201.6 = 5.742 / 201.6 = 0.02848  ===>  2.85% (Stable)\n\n  • 1993 (Target Stability):  CPI_1993 = 144.5,    CPI_1992 = 140.3\n    π = (144.5 - 140.3) / 140.3 = 4.2 / 140.3 = 0.0299      ===>  2.99% (Stable)\n\n  • 1980 (Stagflation Shock): CPI_1980 = 82.4,     CPI_1979 = 72.6\n    π = (82.4 - 72.6) / 72.6 = 9.8 / 72.6 = 0.13498        ===>  13.5% (High Instability)\n    (A ₹1,000 expenditure in Jan 1980 surged to ₹1,135 by Dec 1980, severely hurting planning)\n\n────────────────────────────────────────────────────────────────────────────────────────\n  BENCHMARK FOR PRICE STABILITY:  π ≤ 3% per annum.\n  • US Federal Reserve Target: 2.0% headline inflation.\n  • RBI Target (Section 45ZA RBI Act): 4.0% ± 2% (Tolerance Band: 2.0% - 6.0%).\n========================================================================================\n```\n\n### Why Retail (CPI) and Wholesale (WPI) Diverge in Practice\nWhile CPI measures this retail shopping basket experienced by consumers (heavily weighted toward food at $45.86\\%$, housing, and retail services), the **Wholesale Price Index (WPI)** measures factory-gate and bulk mandi transactions dominated by manufactured goods ($64.23\\%$) and completely excluding services ($0\\%$). Thus, a drop in global crude oil or industrial metals plummets WPI, while domestic vegetable shocks keep CPI elevated.',
         order: 1,
       },
       {
@@ -1160,6 +1160,22 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
         trapExplanation: 'Precise calculation: $1.12 / 1.07 - 1 = 4.67\\%$. Linear approximation: $12\\% - 7\\% = 5\\%$. In standard options, 4.67% represents the exact compound figure.',
         difficulty: 'HARD',
         isPYQ: false,
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'An economy\'s Consumer Price Index (CPI) is recorded as 200.0 in Year 1 and rises to 210.0 in Year 2. Based on macroeconomic measurement principles and Professor Ryan\'s lecture in "Inflation Rate", what is the calculated annual inflation rate, and how should this rate be correctly interpreted regarding price levels and money purchasing power?',
+        options: [
+          'Inflation rate is 5.0%; it correctly indicates that average consumer prices rose by 5.0% OR that currency purchasing power fell by approximately 5.0%, but these two perspectives must not be added together to claim an effective 10.0% loss.',
+          'Inflation rate is 10.0%; it represents a 5.0% rise in retail prices combined simultaneously with an additional 5.0% drop in currency purchasing power.',
+          'Inflation rate is 4.76%; it is calculated as (200.0 / 210.0) * 100 and indicates that price stability has been permanently achieved.',
+          'Inflation rate is 5.0%; it indicates that every single good in every retail store across the country experienced an exact price increase of 5.0%.',
+        ],
+        correctAnswer: 'Inflation rate is 5.0%; it correctly indicates that average consumer prices rose by 5.0% OR that currency purchasing power fell by approximately 5.0%, but these two perspectives must not be added together to claim an effective 10.0% loss.',
+        explanation: 'Using the percentage change formula: Inflation Rate = ((New CPI - Old CPI) / Old CPI) * 100 = ((210.0 - 200.0) / 200.0) * 100 = (10.0 / 200.0) * 100 = 5.0%. As emphasized by Professor Ryan in "Inflation Rate", the 5.0% figure represents two sides of the same economic coin: (1) average prices increased by 5%, OR (2) money purchasing power declined by ~5%. A critical beginner trap is adding both interpretations together to claim an effective 10% loss (double-counting). Furthermore, CPI reflects the average movement of a representative basket, not an identical 5% increase across every single individual item.',
+        trapExplanation: 'Option B commits the double-counting fallacy identified by Professor Ryan. Option C incorrectly divides old by new. Option D confuses an aggregate macroeconomic average with uniform microeconomic price changes.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Confusing average basket inflation with uniform price increases and committing the double-counting error by adding price rise and purchasing power decline.',
       },
     ],
   },
