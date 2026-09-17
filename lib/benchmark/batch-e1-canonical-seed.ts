@@ -3696,8 +3696,8 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Nominal GDP" (YouTube: MVWE4f_jntM); MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
-        excerpt: 'Nominal GDP reflects both the physical production of goods and services and the prevailing market price level; comparing output across periods requires isolating physical volume through constant-price Real GDP.',
+        locator: 'Professor Ryan, "Nominal GDP" (YouTube: MVWE4f_jntM) & "Output" (YouTube: 3SXc0XBQZKM); MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
+        excerpt: 'Output (Q) measures the physical volume of currently produced goods and services; Nominal GDP conflates physical output with market prices, requiring constant base-year pricing (Real GDP) to isolate true macroeconomic expansion.',
       },
       {
         id: 'CLM-ECO-16-02',
@@ -3731,16 +3731,16 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
       {
         type: 'INTUITION',
         title: 'The Illusion of Price Inflation: Nominal vs Real',
-        body: `### 1. The Core Decomposition: Production ($Q$) vs Price ($P$) (Professor Ryan)
-As Professor Ryan explains in **"Nominal GDP"**, Gross Domestic Product measured at current market prices consists of two distinct components multiplying each other:
+        body: `### 1. The Core Decomposition: Physical Output ($Q$) vs Price ($P$) (Professor Ryan)
+As Professor Ryan formalizes in **"Nominal GDP"** and **"Output"**, macroeconomic production represents the physical creation of goods and services. Gross Domestic Product measured at current market prices decomposes into:
 $$\\mathbf{\\text{Nominal GDP} = \\sum (P_{\\text{current}} \\times Q_{\\text{current}})}$$
-- $\\mathbf{Q}$ (**Quantity / Physical Output**): The actual physical volume of goods and services produced (number of vehicles, bushels of grain, medical procedures, computing devices).
-- $\\mathbf{P}$ (**Price Level**): The prevailing market currency price per unit at the time of transaction.
+- $\\mathbf{Q}$ (**Physical Output**): The actual volume of goods and services produced (food grown, houses constructed, transportation trips completed, medical interventions delivered). **Physical output ($Q$) is the true physical bedrock of living standards**—people eat food and live in houses, they cannot consume currency notes.
+- $\\mathbf{P}$ (**Price Level**): The currency exchange valuation per unit at current market rates.
 
-Because Nominal GDP reflects both $P$ and $Q$, an increase in Nominal GDP can arise from three distinct macroeconomic sources:
-1. **Pure Output Expansion (Real Growth):** Physical production ($Q \\uparrow$) increases while prices ($P$) remain constant. Living standards genuinely improve.
-2. **Pure Price Inflation (Monetary Illusion):** Physical production ($Q$) remains stagnant, but prices ($P \\uparrow$) soar. Nominal GDP expands, but the nation is not a single unit wealthier.
-3. **Mixed Growth (The Real-World Reality):** Both physical output ($Q$) and prices ($P$) change simultaneously.
+Because Nominal GDP conflates $P$ and $Q$, changes in Nominal GDP stem from three sources:
+1. **Pure Output Expansion ($Q \\uparrow, P = \\bar{P}$):** Real physical production increases while prices stay constant. Societal living standards genuinely improve.
+2. **Pure Price Inflation ($Q = \\bar{Q}, P \\uparrow$):** Physical goods remain stagnant, but the money price tags escalate. Nominal GDP increases, but society is not a single crumb wealthier.
+3. **Mixed Shift ($Q \\neq \\bar{Q}, P \\neq \\bar{P}$):** Both physical output and market prices adjust simultaneously.
 
 ---
 
