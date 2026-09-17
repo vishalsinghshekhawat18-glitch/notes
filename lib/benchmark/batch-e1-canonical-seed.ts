@@ -4460,8 +4460,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
-        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain. An economy can temporarily overproduce beyond its sustainable capacity ($Y > Y^*$) by running extra shifts and delaying maintenance, but this accelerates wear-and-tear and drives inflation.',
+        locator: 'Professor Ryan, "Determinants of Aggregate Demand" (YouTube: ne6xIS2YWc8), "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
+        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. Aggregate Demand (AD) is determined by the components of Total Expenditure: Consumption (C), Investment (I), Government Purchases (G), and Net Exports (NX). Changes in non-price determinants of any of these four components shift the AD curve, altering real GDP and the price level in the short run. LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain. An economy can temporarily overproduce beyond its sustainable capacity ($Y > Y^*$) by running extra shifts and delaying maintenance, but this accelerates wear-and-tear and drives inflation.',
       },
       {
         id: 'CLM-ECO-17-06',
@@ -4891,7 +4891,45 @@ $$\\mathbf{\\text{Production Costs} \\downarrow \\implies \\text{SRAS} \\uparrow
    - **The Direct Cost Link:**
      $$\\mathbf{\\text{Per-Unit Production Cost} = \\frac{\\text{Nominal Wage}}{\\text{Labor Productivity}}}$$
      When productivity rises faster than nominal wages, unit production costs *fall*, shifting the $SRAS$ curve rightward even if wages are rising!
-   - **Productivity Drops:** Bureaucratic compliance burdens, severe natural disruptions, or decay in capital efficiency raise unit costs and shift $SRAS$ leftward.`,
+   - **Productivity Drops:** Bureaucratic compliance burdens, severe natural disruptions, or decay in capital efficiency raise unit costs and shift $SRAS$ leftward.
+
+---
+
+### 6. Determinants of Aggregate Demand (AD): Total Expenditure Components & Non-Price Shifters (Professor Ryan)
+In *"Determinants of Aggregate Demand"*, Professor Ryan demonstrates that **Aggregate Demand ($AD$)** represents the total real physical output demanded across all sectors of the economy at varying price levels. In macroeconomic equilibrium, Aggregate Demand is identical to **Total Expenditure ($TE$)**:
+
+$$\\mathbf{AD \\equiv TE = C + I + G + NX}$$
+
+#### Movement Along $AD$ vs. Shift of the $AD$ Curve:
+1. **Movement Along the $AD$ Curve:**
+   - Caused **exclusively** by a change in the general **Price Level ($P$, CPI, GDP Deflator)**.
+   - The downward slope of the $AD$ curve is driven by three macroeconomic phenomena:
+     - **The Wealth Effect (Real Balances Effect):** A lower price level ($P \\downarrow$) increases the real purchasing power of accumulated money assets, stimulating household consumption ($C \\uparrow$).
+     - **The Interest Rate Effect:** A lower price level reduces the demand for money to conduct transactions; households deposit surplus cash into financial markets, bidding down interest rates ($r \\downarrow$), which stimulates investment ($I \\uparrow$) and credit-financed consumption ($C \\uparrow$).
+     - **The Net Export / Exchange Rate Effect:** A lower domestic price level makes domestic goods cheaper relative to foreign goods, boosting exports ($X \\uparrow$) and curbing imports ($M \\downarrow$), expanding net exports ($NX \\uparrow$).
+   - ⚠️ **Key Exam Rule:** A change in the price level causes a **movement along** the $AD$ curve—it does **NOT** shift the curve!
+2. **Shifts of the $AD$ Curve (The Non-Price Determinants):**
+   - An increase in any of the four expenditure components at a given price level shifts the $AD$ curve **rightward/outward** ($AD \\uparrow \\implies PL \\uparrow, Y \\uparrow$ in the short run).
+   - A decrease in any of the four expenditure components shifts the $AD$ curve **leftward/inward** ($AD \\downarrow \\implies PL \\downarrow, Y \\downarrow$ in the short run).
+
+#### The Four Expenditure Determinants & Their Granular Shifters:
+| Total Expenditure Component | Primary Non-Price Shifters | Rightward Shift Triggers ($AD \\uparrow$) | Leftward Shift Triggers ($AD \\downarrow$) |
+| :--- | :--- | :--- | :--- |
+| **1. Household Consumption ($C$)**<br>*(~60–70% of GDP)* | • Consumer Wealth<br>• Consumer Expectations<br>• Household Taxes ($T$)<br>• Household Indebtedness & Interest Rates | • Asset boom (real estate or equity appreciation).<br>• Optimism about future job stability and wage growth.<br>• Personal income tax cuts ($Y_d = Y - T \\uparrow$).<br>• Lower interest rates lowering auto/mortgage borrowing costs. | • Asset price collapse (eroding net worth).<br>• Recession fears prompting precautionary saving ($S \\uparrow, C \\downarrow$).<br>• Tax hikes reducing disposable income.<br>• Excessive debt overhang forcing debt servicing over consumption. |
+| **2. Gross Private Investment ($I$)**<br>*(Most volatile component)* | • Real Interest Rates ($r$)<br>• Business Confidence / Expected Future Profits<br>• Corporate Profit Taxes<br>• Capacity Utilization Rate<br>• Technology & Capital Innovation | • Central bank interest rate cuts lowering the cost of capital ($r \\downarrow$).<br>• Robust sales projections and optimistic profit outlook.<br>• Corporate tax cuts raising after-tax rate of return.<br>• High capacity utilization (>85%) exhausting existing plants.<br>• Accelerated adoption of new technologies (AI, automation). | • Monetary tightening and rising interest rates ($r \\uparrow$).<br>• Pessimistic economic outlook and collapsing profit expectations.<br>• Higher corporate taxes discouraging capital formation.<br>• Low capacity utilization (<75%) leaving existing machinery idle.<br>• Capital obsolescence without replacement. |
+| **3. Government Purchases ($G$)**<br>*(Autonomous Sovereign Spending)* | • Discretionary Fiscal Policy<br>• National Infrastructure Programs<br>• Defense & Public Goods Allocations | • Increased sovereign spending on national highways, defense, public healthcare, or renewable energy infrastructure ($\\Delta G > 0$). | • Fiscal austerity programs, budgetary consolidation, or sovereign spending cuts ($\\Delta G < 0$).<br>*(Note: Excludes transfer payments; see distinction below)*. |
+| **4. Net Exports ($NX = X - M$)**<br>*(External Sector Balance)* | • Foreign National Income (Trading Partners\' GDP)<br>• Relative Currency Exchange Rates | • Economic boom in key export destination economies (e.g., US or EU growth expands demand for domestic goods: $X \\uparrow$).<br>• Real depreciation/devaluation of the domestic currency (makes domestic exports cheaper and foreign imports more expensive: $X \\uparrow, M \\downarrow \\implies NX \\uparrow$). | • Recession or trade slowdown in foreign partner nations ($X \\downarrow$).<br>• Significant currency appreciation (makes domestic exports expensive abroad and foreign imports cheap domestically: $X \\downarrow, M \\uparrow \\implies NX \\downarrow$). |
+
+#### The Crucial Exam Distinction: Direct Purchases ($G$) vs. Government Transfer Payments:
+- **Direct Government Purchases ($G$):** Directly enter the GDP identity ($Y = C + I + G + NX$). A ₹1,000 Crore road construction project immediately injects ₹1,000 Crore into Aggregate Demand ($\\Delta AD_0 = \\Delta G$).
+- **Government Transfer Payments (Pensions, Subsidies, PM-KISAN, Unemployment Benefits):** Transfer payments are **NOT** part of $G$ because the state receives no immediate physical good or service in exchange. Instead, transfers alter **Household Disposable Income ($Y_d = Y - T + \\text{Transfers}$)**.
+- **The Indirect Channel:** Transfers affect $AD$ only through **induced household consumption**:
+  $$\\mathbf{\\Delta C = MPC \\times \\Delta \\text{Transfers}}$$
+  If $MPC = 0.80$, a ₹1,000 Crore direct government purchase increases initial demand by ₹1,000 Crore, whereas a ₹1,000 Crore transfer payment increases initial demand by only $0.80 \\times ₹1,000 = ₹800\\text{ Crore}$ (because ₹200 Crore leaks immediately into private savings!).
+
+#### The Macroeconomic Multiplier Amplification:
+Any initial autonomous shift in total expenditure ($\\Delta \\bar{A} = \\Delta C_0 + \\Delta I_0 + \\Delta G + \\Delta NX_0$) sparks successive rounds of induced consumption, causing the entire $AD$ curve to shift horizontally by a multiple equal to:
+$$\\mathbf{\\Delta AD = k \\times \\Delta \\bar{A} = \\frac{1}{1 - MPC} \\times \\Delta \\bar{A}}$$`,
         order: 3,
       },
       {
@@ -4947,7 +4985,7 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Leakages $(S + T + M)$ = Injections $(I + G + X)$. Master Sectoral Balance Identity: $(S - I) + (T - G) = (X - M)$. Aggregate Market: $AD$ vs $SRAS$ determines short-run $(PL, Y)$. $AD ↑$ creates Inflationary Gap ($Y > Y^*$); $AD ↓$ creates Recessionary Gap ($Y < Y^*$). Adverse supply shock ($SRAS ↓$) causes Stagflation ($PL ↑, Y ↓$). $LRAS$ is strictly vertical at potential GDP ($Y^*$), determined by physical ability to produce.',
+        content: 'Leakages $(S + T + M)$ = Injections $(I + G + X)$. Master Sectoral Balance Identity: $(S - I) + (T - G) = (X - M)$. Aggregate Market: $AD$ ($C + I + G + NX$) vs $SRAS$ (economy-wide production costs) determines short-run $(PL, Y)$. Price level change moves along curves; non-price factors shift curves. $AD ↑$ creates Inflationary Gap ($Y > Y^*$); $AD ↓$ creates Recessionary Gap ($Y < Y^*$). Adverse supply shock ($SRAS ↓$) causes Stagflation ($PL ↑, Y ↓$). $LRAS$ is strictly vertical at potential GDP ($Y^*$), determined by physical ability to produce.',
         order: 1,
       },
       {
@@ -5141,6 +5179,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing production costs as the primary determinant of SRAS and understanding the net effect of wage increases vs productivity gains on per-unit costs.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic theory and Professor Ryan\'s analysis in "Determinants of Aggregate Demand", which of the following events will cause a RIGHTWARD SHIFT in the Aggregate Demand (AD) curve, rather than a movement along the curve?',
+        options: [
+          'A decrease in the aggregate price level (GDP deflator), which increases the purchasing power of accumulated household money balances.',
+          'A depreciation of the domestic currency combined with an increase in business confidence regarding future expected profits.',
+          'An increase in the domestic price level that raises transaction money demand and pushes domestic interest rates upward.',
+          'An across-the-board increase in economy-wide nominal wages unaccompanied by any change in labor productivity.',
+        ],
+        correctAnswer: 'A depreciation of the domestic currency combined with an increase in business confidence regarding future expected profits.',
+        explanation: 'In "Determinants of Aggregate Demand", Professor Ryan establishes the fundamental distinction between movements along the AD curve versus shifts of the AD curve. Aggregate Demand equals Total Expenditure ($AD = C + I + G + NX$). A shift in the AD curve occurs when a non-price factor alters any of these four components. Domestic currency depreciation makes domestic exports cheaper for foreigners and imports more expensive domestically, increasing Net Exports ($NX \\uparrow$). Simultaneously, higher business confidence raises expected future profits, stimulating Gross Private Investment ($I \\uparrow$). Both non-price factors shift the AD curve rightward. In contrast, options A and C represent changes in the aggregate price level, which cause movements ALONG the AD curve (via the Wealth Effect and Interest Rate Effect), NOT shifts. Option D represents an increase in economy-wide production costs, which shifts the Short-Run Aggregate Supply (SRAS) curve leftward, not the AD curve.',
+        trapExplanation: 'Option A describes the Pigou Wealth Effect, which explains why the AD curve slopes downward (a movement along the curve caused by price level changes), not a curve shift. Option C describes the Keynes Interest Rate Effect (another movement along the curve). Option D affects SRAS via production costs, not AD.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Confusing price-level-induced movements along the AD curve (wealth, interest rate, foreign trade effects) with non-price expenditure shifts ($C, I, G, NX$).',
       },
     ],
   },
