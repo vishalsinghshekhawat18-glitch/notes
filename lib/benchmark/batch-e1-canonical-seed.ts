@@ -871,16 +871,95 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         locator: 'Robert Giffen / Thorstein Veblen (1899) The Theory of the Leisure Class; Hal Varian, Intermediate Microeconomics',
         excerpt: 'For a Giffen good, the income effect is so strongly negative that it completely outweighs the substitution effect, resulting in an upward-sloping demand curve.',
       },
+      {
+        id: 'CLM-ECO-03-04',
+        statement: 'A market transaction requires mutual agreement between buyers and sellers on both Price (P) and Quantity (Q); Demand is strictly defined as the aggregate group of buyers who are both willing and able to purchase at various prices (effective demand requiring purchasing power, not mere desire), modeled in the non-negative First Quadrant with Price on the vertical axis and Quantity on the horizontal axis.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Supply & Demand" (YouTube: FE0zGR2trT0); Alfred Marshall (1890) Principles of Economics',
+        excerpt: 'A market transaction is an exchange where a buyer receives a product and a seller receives money, requiring agreement on price and quantity. Demand is the group of all buyers who are willing and able to buy, graphed in the first quadrant where price and quantity are non-negative.',
+      },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Why Does Demand Slope Downward?',
-        body: `When the price of a cup of tea rises from ₹10 to ₹20, two distinct psychological and economic forces simultaneously drive down consumption:
-1. **The Substitution Effect (Always Negative):** Tea becomes relatively more expensive compared to close substitutes (coffee, green tea, lemon water). Rational consumers substitute away from tea toward cheaper alternatives.
-2. **The Income Effect:** The higher price erodes the consumer's **real purchasing power** (real income). With the same nominal wallet, the consumer can afford fewer total goods and reduces consumption of tea.
+        title: 'Foundations of Market Transactions, The Circular Flow & Why Demand Slopes Downward',
+        body: `Markets do not function through abstract magic; they are social mechanisms built upon concrete human exchanges. Before analyzing mathematical curves, we must understand the foundational structure of market transactions, the circular flow of roles, and the precise meaning of economic Demand.
 
-Together, the Substitution Effect and Income Effect explain the fundamental downward slope of the demand curve:
+---
+
+### 1. The Anatomy of a Market Transaction: Mutual Agreement on P & Q
+A **market transaction** is an economic exchange:
+* The **Buyer** receives a good or service and surrenders money.
+* The **Seller** receives money and surrenders the good or service.
+
+For any transaction to take place in a voluntary market economy, both parties must reach explicit **mutual agreement on two specific variables**:
+1. **Price ($P$)**: The monetary consideration per unit of the good.
+2. **Quantity ($Q$)**: The physical volume or number of units exchanged.
+
+If the buyer and seller disagree on either Price or Quantity, the transaction does not occur and the exchange fails. A market is simply the institutional arrangement that brings buyers and sellers together to discover this mutual agreement.
+
+---
+
+### 2. The Circular Flow Origin: Buyers & Sellers as Economic Roles
+Professor Ryan emphasizes that "Buyer" and "Seller" are **not fixed identities of human beings**, but **functional roles** adopted depending on which market an individual or organization enters:
+
+\`\`\`
++-------------------------------------------------------------------------------+
+|                           THE CIRCULAR FLOW MATRIX                            |
++----------------------+-----------------------------+--------------------------+
+| Market Category      | Who Are the BUYERS (Demand)?| Who Are the SELLERS (Supply)?|
++----------------------+-----------------------------+--------------------------+
+| 1. Product Market    | HOUSEHOLDS                  | BUSINESSES / FIRMS       |
+|    (Goods & Services)| (Consumers buying bread,    | (Firms producing cars,   |
+|                      |  phones, clothing, haircuts)|  software, food, energy) |
++----------------------+-----------------------------+--------------------------+
+| 2. Resource / Factor | BUSINESSES / FIRMS          | HOUSEHOLDS               |
+|    Market            | (Firms hiring engineers,    | (Individuals supplying   |
+|    (Inputs of Prod.) |  renting land, borrowing)   |  labor, land, capital)   |
++----------------------+-----------------------------+--------------------------+
+\`\`\`
+
+* In the **Product Market**, households demand and businesses supply.
+* In the **Factor Market**, businesses demand and households supply.
+
+---
+
+### 3. The "Willing and Able" Criterion: Why Desire != Demand
+In colloquial language, "demand" is often confused with wanting, needing, or desiring something. In rigorous economic science, **Demand requires both Willingness AND Ability**:
+
+$$\\text{Economic Demand} \\equiv \\text{Willingness to Buy} \\cap \\text{Ability to Pay (Purchasing Power)}$$
+
+| Consumer Condition | Willing to Buy? | Able to Pay? | Economic Classification | Market Impact |
+| :--- | :--- | :--- | :--- | :--- |
+| **Case A: The Wishful Thinker** | **YES** (Deeply desires a luxury penthouse) | **NO** (Lacks financial capital/credit) | **Mere Desire / Fantasy** | **Zero Market Impact:** Does not constitute economic demand; sellers cannot build a business on unbacked desires. |
+| **Case B: The Uninterested Wealthy** | **NO** (Has zero interest in motorcycles) | **YES** (Possesses millions in cash reserves) | **Latent Wealth / Dormant Liquidity** | **Zero Market Impact:** Possessing money without willingness generates zero effective demand. |
+| **Case C: The Economic Demander** | **YES** (Wants a commuter bicycle) | **YES** (Has savings to pay the asking price) | **EFFECTIVE DEMAND** | **Enters the Market:** Forms part of the aggregate demand curve that determines price and output. |
+
+---
+
+### 4. Why Economics Graphs in the First Quadrant (Quadrant I)
+In mathematics, Cartesian coordinate systems contain four quadrants. Economic supply and demand models are **strictly drawn in the First Quadrant ($P \\ge 0, Q \\ge 0$)**:
+
+1. **The Physical Non-Negativity Principle**:
+   - In physical reality, a firm cannot manufacture $-500$ loaves of bread, and a family cannot consume $-10$ liters of milk. Output and consumption quantities are strictly non-negative ($Q \\ge 0$).
+2. **The Economic Non-Negativity Principle**:
+   - In consumer goods markets, prices are non-negative ($P \\ge 0$). Sellers do not pay customers to take goods away (barring rare negative price anomalies in physical storage crises, such as WTI crude oil in April 2020).
+3. **The Marshallian Axis Convention (The Mathematical Inversion)**:
+   - In standard calculus, the **independent variable** (cause) is plotted on the horizontal x-axis, and the **dependent variable** (effect) on the vertical y-axis ($y = f(x)$).
+   - In consumer theory, **Price causes changes in Quantity Demanded** ($Q_D = f(P)$), meaning Price is the independent variable.
+   - However, **Alfred Marshall (1890)** chose to graph **Price on the vertical axis (y-axis)** and **Quantity on the horizontal axis (x-axis)**. Economists preserved Marshall's convention because it makes marginal revenue ($MR$) and marginal cost ($MC$) directly comparable on the vertical price/cost scale.
+
+---
+
+### 5. Why Does the Demand Curve Slope Downward?
+When the price of a good rises, two distinct psychological and economic forces simultaneously drive down consumption:
+1. **The Substitution Effect (Always Negative):** The good becomes relatively more expensive than close substitutes. Rational consumers substitute away toward cheaper alternatives.
+2. **The Income Effect:** The higher price erodes the consumer's **real purchasing power** (real income). With the same nominal budget, the consumer can afford fewer total goods and cuts back consumption.
+3. **Law of Diminishing Marginal Utility (DMU):** Because each successive unit consumed yields less marginal satisfaction, a consumer is only willing to purchase additional units at progressively lower prices.
+
+Together, these forces dictate the fundamental downward slope of the demand curve:
 
 $$Q_D = a - bP \\quad (b > 0)$$`,
         order: 1,
@@ -1014,6 +1093,22 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         isPYQ: false,
         examinerTrapPattern: 'Testing cross-price elasticity effect as a shift vs movement.',
       },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In microeconomic theory and the circular flow model, which of the following scenarios correctly represents "Effective Demand" in the Product Market?',
+        options: [
+          'A household desiring a luxury sports car but lacking the personal income, savings, or credit to finance the purchase.',
+          'A billionaire with vast liquidity who has no desire, taste, or intention to purchase a commercial passenger bus.',
+          'A working professional who values a laptop computer and possesses the disposable income required to pay the market asking price.',
+          'A manufacturing corporation that hires mechanical engineers to staff its production lines in the factor market.',
+        ],
+        correctAnswer: 'A working professional who values a laptop computer and possesses the disposable income required to pay the market asking price.',
+        explanation: 'Effective Demand requires both willingness to purchase (consumer desire/utility) AND ability to pay (sufficient purchasing power/financial resources). Option A is merely an unbacked wish/desire; Option B is dormant wealth without willingness; Option D represents factor market demand (where firms are buyers of resources), not product market demand.',
+        trapExplanation: 'Option D correctly identifies a market transaction, but it is located in the Factor/Resource Market where firms demand labor, not in the Product Market where households demand finished goods.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the "Willing and Able" criterion alongside the Circular Flow distinction between Product and Factor markets.',
+      },
     ],
   },
   {
@@ -1070,7 +1165,15 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         title: 'Why Supply Slopes Upward & The ROTTEN Supply Shifters',
         body: `While consumers seek to maximize utility, producers seek to **maximize economic profit** ($\\text{Profit} = \\text{Total Revenue} - \\text{Total Cost}$).
 
-### 1. The Microeconomic Origin of the Upward Slope
+### 1. The Definition of Supply: The "Willing and Able" Seller Criterion
+Just as Demand requires willing and able buyers, **Supply is defined strictly as the aggregate group of sellers who are both willing and able to produce and offer a product for sale at various price levels**.
+* *Willingness without ability*: Wanting to produce commercial airliners or patented pharmaceuticals without manufacturing facilities, capital, or engineering permits is not economic supply.
+* *Ability without willingness*: Owning factory machinery or warehouses of inventory but refusing to offer them for sale at the current market price is not economic supply.
+* *Effective Supply*: Requires the exact intersection of profit incentive (willingness) and productive capability (ability).
+
+---
+
+### 2. The Microeconomic Origin of the Upward Slope
 In the short run, at least one factor of production (e.g. factory floor, heavy machinery) is fixed. As a firm employs more variable inputs (labour and raw materials), it encounters the **Law of Diminishing Marginal Returns**. 
 Consequently, the **Marginal Cost (MC)** of producing each additional unit increases. A rational, profit-maximizing firm will expand production only if the market price rises high enough to cover this escalating marginal cost:
 $$\\text{Firm's Supply Curve} \\equiv \\text{Upward-sloping portion of Marginal Cost (MC) above min AVC}$$
@@ -1079,7 +1182,7 @@ $$Q_S = -c + dP \\quad (d > 0)$$
 
 ---
 
-### 2. Movement Along Curve vs Shift of Curve (The ROTTEN Determinants)
+### 3. Movement Along Curve vs Shift of Curve (The ROTTEN Determinants)
 * **Movement Along the Supply Curve (Change in Quantity Supplied):** Caused **strictly and exclusively by a change in the good's own price ($P_x$)**.
   - A price rise causes **Expansion / Extension of Supply** (upward movement along curve).
   - A price drop causes **Contraction of Supply** (downward movement along curve).
