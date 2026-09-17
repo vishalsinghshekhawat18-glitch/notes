@@ -1384,6 +1384,15 @@ A high-scoring title encapsulates both the **Subject** and the **Core Conflict/D
         locator: 'Paraphrase Engine §9.3',
         excerpt: 'Re-engineering syntax while swapping key nouns and verbs ensures original articulation with semantic fidelity.',
       },
+      {
+        id: 'CLM-ENG-09-03',
+        statement: 'Contextual vocabulary questions (Synonyms/Antonyms) in reading comprehension can be deduced without prior word knowledge using Valence Filtering, Morphemic Affix Decomposition, and Binary Antonym Pair Traps.',
+        claimType: 'LEXICAL_REASONING_HEURISTIC',
+        epistemicLevel: 'CANONICAL',
+        confidence: 'HIGH',
+        locator: 'Anchit Kaur Bajwa / Verbal Ability Framework §9.4',
+        excerpt: 'By analyzing surrounding syntactic contrast markers, emotive tone polarities, and common option opposites, unfamiliar vocabulary in competitive RC passages can be systematically deduced.',
+      },
     ],
     contentBlocks: [
       {
@@ -1418,13 +1427,48 @@ When candidates copy clauses directly from the passage, automated and human eval
         visibility: 'PUBLIC',
       },
       {
+        type: 'MECHANISM',
+        title: 'Contextual Vocabulary Engine: Solving Synonyms & Antonyms Without Dictionary Knowledge',
+        body: `In Reading Comprehension passages across competitive exams (CDS, AFCAT, NDA, SSC CGL, Bank PO, and CSAT), passages routinely contain questions asking for the **Synonym** or **Antonym** of an unfamiliar word highlighted in the text. 
+
+Rather than relying on rote memorization, elite test-takers use **5 structural deduction heuristics**:
+
+### 1. The Valence / Tone Polarity Heuristic ($\\pm 0$)
+Every word in context carries an emotional charge:
+- **Positive (+):** Constructive, praiseworthy, expansive (e.g., *lucid, auspicious, bolster*).
+- **Negative (-):** Obstructive, critical, harmful (e.g., *inimical, deleterious, chastise*).
+- **Neutral (0):** Quantitative, procedural (e.g., *aggregate, nominal*).
+
+**Rule:** If a word appears in a sentence describing distress or failure (*"The regulator flagged the bank's [inimical] lending practices that triggered balance-sheet deterioration"*), the valence is strictly **negative (-)**. Instantly eliminate any positive or neutral answer choices.
+
+### 2. Syntactic Connector Cues (Contrast vs Reinforcement)
+Look at the conjunction linking the target word to surrounding clauses:
+- **Contrast Conjunctions (*however, although, yet, but, despite, conversely*):** The target word is polar opposite in meaning to the adjoining clause.
+- **Reinforcement Conjunctions (*and, furthermore, moreover, similarly*):** The target word reinforces the identical valence and semantic direction of the adjacent clause.
+
+### 3. Etymological Affix & Morpheme Decomposition
+Decompose the word into root, prefix, and suffix:
+- **Negative Prefixes:** *mal-* (malicious), *mis-* (misnomer), *dis-* (dismantle), *caco-* (cacophony), *in-/im-* (implacable).
+- **Beneficial Prefixes:** *bene-* (benefactor), *eu-* (eulogy), *pro-* (proponent).
+- **Directional/Quantitative:** *magn-* (magnanimous = great-souled), *omni-* (omniscient = all-knowing).
+
+### 4. The Binary Antonym Pair Invariant
+Examiners construct MCQ distractors with intentional traps. In over 70% of competitive vocabulary questions, **two of the four options are direct polar opposites of each other** (e.g., (A) *ephemeral*, (B) *perpetual*, (C) *audacious*, (D) *lucid*). 
+*Heuristic:* When an explicit pair of direct opposites exists among the options, the intended answer is almost always one of those two, because the examiner planted the antonym as the primary distractor!
+
+### 5. Odd-One-Out Cluster Elimination
+If three of the four options belong to the same semantic cluster (e.g., *praise, extol, applaud* vs *disparage*), they neutralize each other for a single-choice answer. The solitary outlier must be the answer.`,
+        order: 3,
+        visibility: 'PUBLIC',
+      },
+      {
         type: 'EXAM_TRAPS',
         title: 'Execution Traps in Subjective RC',
         body: `1. **The "Reverse Scan" Strategy:** Always read the **2–3 questions FIRST** before reading the passage. This primes your working memory to flag target keywords and command verbs immediately.
 2. **The "Out-of-Scope Fact" Trap:** Answering based on real-world knowledge that is NOT present in the passage text. In RC, truth is strictly bounded by the passage.
 3. **The "Word Limit Overflow" Trap:** Typing 100+ words per question, running out of exam time for the essay.  
    *Rule:* Keep answers tightly bounded between **40–50 words**.`,
-        order: 3,
+        order: 4,
         visibility: 'PUBLIC',
       },
       {
@@ -1437,7 +1481,7 @@ When candidates copy clauses directly from the passage, automated and human eval
 
 **Model Answer (44 Words):**
 > *"Legacy supervisory frameworks fail because periodic retrospective audits cannot monitor high-frequency algorithmic trade flows executing in real time. Consequently, regulatory authorities must transition toward continuous, automated RegTech surveillance tools to achieve instantaneous telemetry and preemptive systemic risk mitigation."*`,
-        order: 4,
+        order: 5,
         visibility: 'PUBLIC',
       },
     ],
@@ -1486,6 +1530,12 @@ When candidates copy clauses directly from the passage, automated and human eval
         priority: 'HIGH',
         order: 3,
       },
+      {
+        type: 'FLASH_30S',
+        content: 'Contextual Vocab Heuristics: 1) Valence (+/-) matching with sentence tone. 2) Conjunction cues: "However/yet" flips polarity; "and/moreover" preserves it. 3) Binary Antonym Pair: If 2 options are direct opposites, answer is almost always one of them. 4) Odd-One-Out: 3 similar options cancel each other out.',
+        priority: 'HIGH',
+        order: 4,
+      },
     ],
     questions: [
       {
@@ -1501,6 +1551,28 @@ When candidates copy clauses directly from the passage, automated and human eval
         explanation: 'Subjective RC tests whether the candidate can comprehend and syntactically re-articulate the author\'s points in their own words.',
         trapExplanation: 'Verbatim copying indicates passive extraction rather than active comprehension.',
         difficulty: 'EASY',
+      },
+      {
+        type: 'MULTIPLE_CHOICE',
+        stem: 'Consider this passage sentence: "Although the CEO expected the merger to yield synergistic cost benefits, the post-acquisition integration proved decidedly [deleterious] to company profitability." Without knowing the exact definition of "deleterious", which option is its SYNONYM?',
+        options: ['Advantageous', 'Detrimental', 'Inconsequential', 'Praiseworthy'],
+        correctAnswer: 'Detrimental',
+        explanation: '1. Look at the contrast conjunction: "Although the CEO expected synergistic benefits..." signals that the second clause must contrast with positive benefits.\n2. Therefore, the tone/valence of "deleterious" must be negative (-).\n3. Option Analysis: "Advantageous" (+) and "Praiseworthy" (+) are positive. "Inconsequential" is neutral (0). "Detrimental" is negative (-).\n4. Furthermore, Advantageous and Detrimental form a direct binary antonym pair. Since the context requires a negative outcome damaging profitability, "Detrimental" is unequivocally the correct synonym.',
+        trapExplanation: 'Selecting "Advantageous" because the opening clause mentions "synergistic benefits", ignoring the contrast marker "Although".',
+        difficulty: 'INTERMEDIATE',
+        isPYQ: false,
+        examinerTrapPattern: 'Contrast conjunction ignoring trap in contextual vocabulary.',
+      },
+      {
+        type: 'MULTIPLE_CHOICE',
+        stem: 'In a competitive RC vocabulary question, the options for finding the ANTONYM of an unfamiliar word are:\n(A) Transient\n(B) Ephemeral\n(C) Perpetual\n(D) Fleeting\nUsing option elimination heuristics alone, what is the correct choice?',
+        options: ['Transient', 'Ephemeral', 'Perpetual', 'Fleeting'],
+        correctAnswer: 'Perpetual',
+        explanation: '1. Cluster Analysis: Options (A) Transient, (B) Ephemeral, and (D) Fleeting all belong to the identical semantic cluster meaning "short-lived / temporary".\n2. In a single-correct MCQ, three near-synonyms cannot simultaneously be the answer; they mutually neutralize each other.\n3. Binary Antonym Pair: "Ephemeral" (temporary) and "Perpetual" (everlasting) are direct polar opposites.\n4. Therefore, the solitary odd-one-out and polar opposite of the cluster is (C) Perpetual.',
+        trapExplanation: 'Trying to recall the exact dictionary definition of the stem word instead of spotting that 3 options are synonymous with each other.',
+        difficulty: 'INTERMEDIATE',
+        isPYQ: false,
+        examinerTrapPattern: 'Mutual neutralization of three synonymous distractor options.',
       },
     ],
   },
