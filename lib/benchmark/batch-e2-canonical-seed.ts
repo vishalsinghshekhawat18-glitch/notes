@@ -794,8 +794,8 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Macroeconomics: Theories and Policies (Froyen); NCERT Class 12 Macroeconomics, Ch 6',
-        excerpt: 'Inflation is a continuous rise in the general price level rather than a once-and-for-all increase in specific prices.',
+        locator: 'Professor Ryan, "Inflation" (YouTube: SRmOwc37uIg); Macroeconomics: Theories and Policies (Froyen); NCERT Class 12 Macroeconomics, Ch 6',
+        excerpt: 'Inflation is a sustained and general increase in the overall price level of goods and services across the economy over time, which reduces the purchasing power of each unit of currency. A one-time price increase in an individual commodity is a relative price shift, not inflation.',
       },
       {
         id: 'CLM-ECO-22-02',
@@ -819,8 +819,8 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Price Thermometer: Measuring Purchasing Power Erosion',
-        body: 'Inflation is the persistent decrease in the purchasing power of money. If a basket of groceries costs ₹1,000 today and ₹1,060 next year, the purchasing power of ₹1,000 has eroded by $6\\%$. \n\nCrucially, inflation is **not** a one-time increase in the price of tomatoes due to seasonal monsoon disruptions, nor is it a rise in the price of smartphones while clothing and food prices fall. Inflation is a **broad-based, sustained increase in the general price index across the economy over time**.',
+        title: 'The Price Thermometer: Measuring Purchasing Power Erosion (Professor Ryan)',
+        body: 'Inflation is the persistent, ongoing decrease in the purchasing power of money. If a typical basket of consumer goods costs ₹1,000 today and ₹1,060 next year, the purchasing power of ₹1,000 has eroded by $6\\%$.\n\nIn **"Inflation"** (YouTube: SRmOwc37uIg), Professor Ryan formalizes the essential distinction between **Relative Price Changes** and **General Inflation**:\n* **Relative Price Change**: If unseasonal rain ruins the onion crop, onion prices surge while other prices remain stable or fall. This is a change in the relative price of onions driven by microeconomic supply and demand, NOT macroeconomic inflation.\n* **General Inflation**: An economy-wide, ongoing increase in the overall price level ($PL \\uparrow$) across virtually all goods and services. Individual prices may fluctuate, but the aggregate price index moves upward over time.\n\n```text\n========================================================================================\n                THE MECHANICS OF INFLATION & PURCHASING POWER EROSION\n========================================================================================\n\n  THE INFLATIONARY PROCESS (PL ↑)               PURCHASING POWER EROSION (1/PL ↓)\n  ───────────────────────────────               ─────────────────────────────────\n  • General Price Level Rises                   • Purchasing Power of Rupee/Dollar Drops\n    PL_t > PL_{t-1}                               Value of Money = 1 / PL\n  • Measured by Broad-Based Price Indices       • Each currency unit purchases fewer\n    (CPI, WPI, GDP Deflator)                      real goods and services\n\n────────────────────────────────────────────────────────────────────────────────────────\n           WINNERS & LOSERS OF UNANTICIPATED INFLATION (Professor Ryan):\n  • LOSERS: Creditors / Lenders (repaid in depreciated, cheaper currency),\n            Fixed-income earners / Pensioners (real income eroded),\n            Cash savers (real purchasing power diminishes: r = i - π).\n  • WINNERS: Debtors / Borrowers (repay debts with less valuable money),\n             Real Asset Owners (real estate, gold, commodities appreciate in nominal value).\n========================================================================================\n```\n\nCrucially, inflation is **not** a one-time increase in the price of tomatoes or smartphones; it is a **broad-based, sustained increase in the general price index across the economy over time**.',
         order: 1,
       },
       {
@@ -959,6 +959,22 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
         trapExplanation: 'Supply shocks shift AS left (Cost-Push), whereas monetary/fiscal stimulus shifts AD right (Demand-Pull).',
         difficulty: 'MEDIUM',
         isPYQ: false,
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic theory and Professor Ryan\'s lecture in "Inflation", which of the following scenarios represents genuine macroeconomic inflation, and how does unanticipated inflation redistribute real wealth between creditors and debtors?',
+        options: [
+          'A broad-based, ongoing increase in the general price level ($PL \\uparrow$) across the entire economy that systematically erodes currency purchasing power ($1/PL \\downarrow$); unanticipated inflation benefits borrowers/debtors (who repay fixed nominal loans with cheaper money) and harms lenders/creditors.',
+          'A seasonal price spike in tomatoes due to local monsoon rains; unanticipated inflation benefits creditors by automatically doubling real interest returns.',
+          'A permanent drop in the general price level below zero; unanticipated inflation harms debtors by wiping out all financial debt contracts.',
+          'A technological breakthrough that halves the market price of computers; unanticipated inflation affects all economic agents identically with zero redistribution.',
+        ],
+        correctAnswer: 'A broad-based, ongoing increase in the general price level ($PL \\uparrow$) across the entire economy that systematically erodes currency purchasing power ($1/PL \\downarrow$); unanticipated inflation benefits borrowers/debtors (who repay fixed nominal loans with cheaper money) and harms lenders/creditors.',
+        explanation: 'In "Inflation", Professor Ryan emphasizes two core macroeconomic principles: (1) True inflation is not a localized, relative price shift of an individual commodity (like tomatoes or fuel), but a sustained, broad-based rise in the economy-wide general price level ($PL$), causing a proportional erosion in the purchasing power of money ($1/PL$); and (2) Unanticipated inflation creates systematic distributional consequences: borrowers/debtors benefit because their nominal debt obligations are fixed while the real value of the money repaid has fallen, whereas lenders/creditors and fixed-income savers suffer because the real purchasing power of their returns ($r = i - \\pi$) is reduced.',
+        trapExplanation: 'Option B confuses a localized relative price change with general inflation and reverses creditor/debtor effects. Option C describes deflation. Option D describes a supply-side technological price decline.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Distinguishing general macroeconomic inflation from single-good relative price changes and identifying the winners (debtors) vs losers (creditors) of unanticipated inflation.',
       },
     ],
   },
