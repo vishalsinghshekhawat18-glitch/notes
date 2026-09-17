@@ -4507,11 +4507,41 @@ Once an economy is in initial equilibrium ($AD = SRAS = LRAS$ at Potential Outpu
 ### 3. Closing Output Gaps in KET: The Two Macroeconomic Adjustment Pathways (Professor Ryan)
 In **"Closing Output Gaps in KET"** and **"KET - Increase or Decrease GDP"**, Professor Ryan synthesizes how macroeconomic theory addresses output gaps ($Y - Y^*$):
 
+\`\`\`
+========================================================================================
+             CLOSING OUTPUT GAPS IN KET VIA AGGREGATE DEMAND (AD) SHIFTS
+========================================================================================
+
+ 1. CLOSING A RECESSIONARY GAP (Y < Y*)          2. CLOSING AN INFLATIONARY GAP (Y > Y*)
+    Price Level (PL)                               Price Level (PL)
+      ▲             LRAS      SRAS                   ▲             LRAS      SRAS
+      │               │      /                       │               │      /
+  PL1 │───────────────┼─────/──── AD1            PL0 │───────────────┼─────/──── AD0
+      │  \\            │    /                     PL1 │───────\\───────┼────/───── AD1
+  PL0 │───\\───────────┼───/────── AD0                │        \\      │   /
+      │    \\          │  /                           │         \\     │  /
+      └─────\\─────────┴─/────────►                   └──────────\\────┴─/────────►
+      0          Y0   Y*         Real GDP            0          Y*   Y0         Real GDP
+      [AD Shifts Right: Y ↑ to Y*, PL ↑]             [AD Shifts Left: Y ↓ to Y*, PL ↓]
+========================================================================================
+\`\`\`
+
+#### The Two Adjustment Channels Compared:
 | Dimension | Pathway 1: The Aggregate Demand ($AD$) Channel (Keynesian Policy) | Pathway 2: The Short-Run Aggregate Supply ($SRAS$) Channel (Supply Adjustments) |
 | :--- | :--- | :--- |
 | **Closing a Recessionary Gap ($Y < Y^*$)** | **Action:** Increase Aggregate Demand ($AD \\uparrow$) via expansionary fiscal policy ($G \\uparrow, T \\downarrow$) or monetary easing ($M_s \\uparrow, i \\downarrow$).<br>**Mechanism:** Multiplied expansion ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** as demand pulls output back to $Y^*$. | **Action:** Nominal wages and factor prices fall due to surplus labor ($SRAS \\uparrow$).<br>**Mechanism:** Reduced production costs shift $SRAS$ rightward.<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)**.<br>**Keynesian Critique:** ⚠️ **Downward Wage Rigidity** stalls this channel; workers and unions fiercely resist nominal wage cuts, leaving the economy trapped in high unemployment without policy stimulus. |
 | **Closing an Inflationary Gap ($Y > Y^*$)** | **Action:** Decrease Aggregate Demand ($AD \\downarrow$) via contractionary fiscal policy ($G \\downarrow, T \\uparrow$) or monetary tightening ($i \\uparrow$).<br>**Mechanism:** Multiplied contraction ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)** (disinflation). | **Action:** Labor shortages bid up nominal wages, and raw material costs surge ($SRAS \\downarrow$).<br>**Mechanism:** Increased production costs shift $SRAS$ leftward back to $Y^*$.<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** (stagflationary pressure). |
 | **Directional Price-Output Nexus** | **Same Direction:** Shifts in $AD$ move Real GDP and Price Level in the **SAME direction** ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$; $AD \\downarrow \\implies Y \\downarrow, PL \\downarrow$). | **Opposite Direction:** Shifts in $SRAS$ move Real GDP and Price Level in **OPPOSITE directions** ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$; $SRAS \\downarrow \\implies Y \\downarrow, PL \\uparrow$). |
+
+#### Why Keynesian Theory Focuses on the Aggregate Demand Channel:
+1. **The Downward Wage Rigidity ("Sticky Wages") Impasse:**
+   - Classical self-correction relies on the labor market clearing through flexible nominal wages ($W$). When unemployment is high, classical economists assume that jobless workers will bid wages down. Falling wages reduce firms' marginal costs, shifting $SRAS$ rightward until output returns to Potential GDP ($Y^*$).
+   - However, John Maynard Keynes demonstrated that in modern industrial economies, **nominal wages are rigid downward**:
+     - **Institutional Barriers:** Multi-year collective bargaining agreements, employment contracts, and statutory minimum wage laws establish legally binding wage floors.
+     - **Psychological & Efficiency Wage Resistance:** Workers exhibit intense psychological resistance to cuts in nominal paychecks ("money illusion"). Furthermore, employers avoid wage cuts because demoralized workers suffer reduced productivity and higher turnover (Efficiency Wage Theory).
+   - Because wages fail to drop, the supply-side self-correction channel freezes. As Keynes famously remarked: *"In the long run, we are all dead"*—waiting for automatic wage adjustments means tolerating years or decades of unnecessary mass unemployment and human suffering.
+2. **The Active Policy Imperative:**
+   - Because $SRAS$ is immobilized by downward wage stickiness during a recession, the only practical, humane method to restore full employment is for the sovereign state to intervene directly by shifting the **Aggregate Demand ($AD$)** curve through counter-cyclical fiscal injections ($G \\uparrow$) and monetary easing ($M_s \\uparrow$).
 
 #### The Policy Dosage Formulation: Increasing vs. Decreasing GDP (Professor Ryan)
 How much autonomous fiscal or monetary injection/withdrawal is required to eliminate an output gap?
@@ -4784,6 +4814,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Calculating required autonomous fiscal dosage to close an output gap using $\\Delta G = \\Delta Y \\times MPS$ versus the full gap amount.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Keynesian Economic Theory (KET), when an economy is stuck in a severe recessionary gap ($Y < Y^*$), why does John Maynard Keynes argue that governments must actively manage Aggregate Demand ($AD$) rather than waiting for the classical self-correction mechanism of Short-Run Aggregate Supply (SRAS)?',
+        options: [
+          'Because government statutory price controls make it legally impossible for business firms to produce more output during recessions.',
+          'Because nominal wages and factor prices are rigid downward ("sticky wages"), preventing labor costs from falling and blocking SRAS from shifting rightward to restore full employment.',
+          'Because shifting Aggregate Demand rightward lowers the general price level, providing instant disinflationary relief.',
+          'Because Long-Run Aggregate Supply (LRAS) permanently vanishes whenever actual real GDP falls below potential GDP.',
+        ],
+        correctAnswer: 'Because nominal wages and factor prices are rigid downward ("sticky wages"), preventing labor costs from falling and blocking SRAS from shifting rightward to restore full employment.',
+        explanation: 'In "Closing Output Gaps in KET", Professor Ryan explains the foundational Keynesian insight: classical self-correction assumes that surplus labor will bid nominal wages down smoothly, reducing production costs and shifting the SRAS curve rightward back to potential output ($Y^*$). However, Keynes proved that nominal wages are rigid downward ("sticky wages") due to formal labor contracts, minimum wage laws, worker morale concerns, and union resistance. Because wages do not fall, the SRAS self-correction channel fails, leaving the economy trapped in high unemployment unless the government deploys active demand stimulus ($AD \\uparrow$).',
+        trapExplanation: 'Option A invents fictitious statutory restrictions. Option C inverts the price level effect of shifting AD rightward ($PL \\uparrow$, not disinflation). Option D confuses cyclical downturns with physical capacity destruction.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the core theoretical justification for Keynesian demand management: downward nominal wage stickiness blocking SRAS self-correction.',
       },
     ],
   },
