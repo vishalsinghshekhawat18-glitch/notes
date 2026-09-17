@@ -1199,7 +1199,7 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Basic Elements of Supply and Demand; Professor Ryan, "Market Equilibrium" (YouTube: u3D8cnCR3e0)',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Basic Elements of Supply and Demand; Professor Ryan, "Market Equilibrium" (YouTube: u3D8cnCR3e0) & "Market Forces" (YouTube: RTNDHgscaKQ)',
         excerpt: 'The market equilibrium comes at that price and quantity where the forces of supply and demand are in balance. At the equilibrium price, the amount that buyers want to buy is just equal to the amount that sellers want to sell, leaving neither excess supply (surplus) nor excess demand (shortage).',
       },
       {
@@ -1281,9 +1281,11 @@ P2|---------/-----\\------- [Excess Demand / Shortage -> Price Rises to P*]
   +-------------------------> Quantity (Q)
 \`\`\`
 
-### 1. The Self-Correcting Price Mechanism (Walrasian Stability)
-* **Surplus ($P_1 > P^*$):** $Q_S > Q_D$. Unsold inventories accumulate in warehouses. Sellers engage in price-cutting competition to liquidate stock, pushing market price downward to $P^*$.
-* **Shortage ($P_2 < P^*$):** $Q_D > Q_S$. Consumers face stockouts and queues. Eager buyers bid up prices, signaling suppliers to expand output until equilibrium is restored at $P^*$.
+### 1. The Self-Correcting Price Mechanism & Market Forces (Walrasian Stability)
+In a free enterprise market, no central planner dictates price adjustments. Instead, the decentralized interaction of buyers and sellers generates directional **Market Forces**:
+* **The Downward Force of a Surplus ($P_1 > P^*$):** At prices above equilibrium, quantity supplied exceeds quantity demanded ($Q_S > Q_D$). Unsold inventories accumulate on store shelves and warehouses. To avoid liquidation losses and carrying costs, competing sellers discount prices. As price falls, quantity demanded expands along the demand curve while quantity supplied contracts along the supply curve until excess inventory is fully eliminated at $P^*$.
+* **The Upward Force of a Shortage ($P_2 < P^*$):** At prices below equilibrium, quantity demanded exceeds quantity supplied ($Q_D > Q_S$). Consumers encounter stockouts, empty shelves, and rationing queues. Frustrated buyers offer to pay higher prices to secure scarce units, creating an upward bidding force. As price rises, quantity demanded contracts while firms expand output along their upward-sloping supply curves until the shortage is resolved at $P^*$.
+* **The Market Clearing Invariant:** Market forces operate dynamically whenever $P \\neq P^*$, guaranteeing that in competitive, flexible-price markets, equilibrium is self-restoring.
 
 ---
 
