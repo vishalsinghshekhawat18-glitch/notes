@@ -4634,6 +4634,15 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         locator: 'Professor Ryan, "Marginal Propensity to Consume - Keynesian Theory" (YouTube: QS70Nx_BQ2s), "Keynesian Multiplier" (YouTube: AZ86yb3MdEQ) & "Chain Reaction of Consumption in KET" (YouTube: pNXLv8ECQNA); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10: The Marginal Propensity to Consume and the Multiplier',
         excerpt: 'In "Marginal Propensity to Consume - Keynesian Theory", Professor Ryan defines Marginal Propensity to Consume (MPC) as the additional amount of money consumers will spend when they receive one more dollar of income: MPC = ΔC / ΔY = (C_new - C_old) / (Y_new - Y_old). In economics, "marginal" means "when there is one more of something", and "propensity" measures the likelihood or tendency to consume. Because MPC represents a stable behavioral parameter permeating the macroeconomy, consumption at any future income level can be predicted using C_n = C_{n-1} + MPC × (Y_n - Y_{n-1}). The Keynesian multiplier (k = 1 / (1 - MPC) = 1 / MPS) amplifies initial autonomous expenditures through successive spending rounds.',
       },
+      {
+        id: 'CLM-ECO-17-08',
+        statement: 'In Keynesian Economic Theory (KET), Equilibrium Real GDP is achieved strictly when National Income (Aggregate Output) equals Total Aggregate Expenditure ($Y = TE = C + I + G + NX$); because Investment ($I$), Government Purchases ($G$), and Net Exports ($NX$) are autonomous (invariant to current income), the table of values represents a static possibilities matrix where disequilibrium rows ($Y \\neq TE$) generate unintended inventory drawdowns or accumulations, signaling firms to adjust production until output matches expenditure.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Equilibrium Real GDP - Keynesian Theory" (YouTube: NPCMUS8r-f4); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 3: The Principle of Effective Demand',
+        excerpt: 'In "Equilibrium Real GDP - Keynesian Theory", Professor Ryan formalizes that Investment, Government Spending, and Net Exports are autonomous shifters unaffected by current income. Each row of the Keynesian table of values represents a distinct, mutually exclusive counterfactual possibility for the economy in a single period, not a chronological progression. Equilibrium Real GDP is identified strictly where National Income equals Total Expenditure (Y = TE = C + I + G + NX), which aligns with the National Income accounting identity that GDP measured via the income approach must equal GDP measured via the expenditure approach.',
+      },
     ],
     contentBlocks: [
       {
@@ -4862,6 +4871,61 @@ $$\\mathbf{k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS
 In the Aggregate Market model, when autonomous investment ($\\Delta I$) increases, the initial horizontal shift of the Aggregate Demand ($AD$) curve is not merely $\\Delta I$, but the fully multiplied amount:
 $$\\mathbf{\\Delta AD = k \\times \\Delta I}$$
 This amplified shift in $AD$ pushes the short-run equilibrium along the upward-sloping $SRAS$ curve, creating an inflationary gap if initial output was at potential ($Y^*$), until prices and wages self-correct or counter-cyclical policy intervenes.
+
+##### 5. Determining Equilibrium Real GDP in Keynesian Theory ($Y = TE$) (Professor Ryan)
+In **"Equilibrium Real GDP - Keynesian Theory"** (YouTube: NPCMUS8r-f4), Professor Ryan formalizes how Keynesian macroeconomic equilibrium is derived from a static matrix of possibilities using the expenditure-income identity:
+
+\`\`\`text
+========================================================================================
+           KEYNESIAN EQUILIBRIUM REAL GDP & INVENTORY ADJUSTMENT DYNAMICS
+========================================================================================
+
+  1. ASSUMPTION OF AUTONOMOUS EXPENDITURE COMPONENTS:
+  ───────────────────────────────────────────────────
+  • Investment (I), Government Purchases (G), and Net Exports (NX = X - M) are
+    independent of the current level of national income (Y).
+  • NX is negative (-₹1,000 Billion) when a nation imports more than it exports (M > X).
+  • Autonomous Expenditure Base: I + G + NX = ₹3,000 + ₹2,700 - ₹1,000 = ₹4,700 Billion.
+
+  2. NATURE OF THE TABLE: STATIC POSSIBILITIES MATRIX (NOT A TIME SERIES):
+  ────────────────────────────────────────────────────────────────────────
+  • Critical Trap: The 12 rows do NOT represent consecutive months (Jan, Feb, Mar).
+  • Each row represents a mutually exclusive counterfactual possibility (parallel world)
+    for the macroeconomy in a single accounting period. Only ONE row can materialize.
+
+  3. NATIONAL ACCOUNTS EQUILIBRIUM CONDITION (Y = TE):
+  ───────────────────────────────────────────────────
+  • Income Approach (Y) must equal Expenditure Approach (TE = C + I + G + NX).
+  • When Y < TE : Spending > Output ===> Unplanned Inventory Depletion ===> Firms EXPAND (Y ↑)
+  • When Y > TE : Output > Spending ===> Unplanned Inventory Accumulation ===> Firms CONTRACT (Y ↓)
+  • When Y = TE : Output = Spending ===> Zero Unplanned Inventory Change ===> EQUILIBRIUM!
+========================================================================================
+\`\`\`
+
+###### Professor Ryan's Canonical 12-Row Possibilities Matrix ($MPC = 0.75$, Values in ₹ Billions):
+
+| Row | National Income ($Y$) | Consumption ($C$) | Investment ($I$) | Govt Purchases ($G$) | Net Exports ($NX$) | Total Expenditure ($TE$) | State of the Economy & Inventory Dynamics |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **1** | ₹12,000 | ₹7,400 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,100 | **Disequilibrium ($Y < TE$):** Spending exceeds output by ₹100; inventory depletion signals firms to expand output ($Y \\uparrow$). |
+| **2** | ₹12,100 | ₹7,475 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,175 | **Disequilibrium ($Y < TE$):** Excess demand of ₹75; unplanned inventory drawdown pushes output up ($Y \\uparrow$). |
+| **3** | ₹12,200 | ₹7,550 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,250 | **Disequilibrium ($Y < TE$):** Excess demand of ₹50; inventory depletion continues ($Y \\uparrow$). |
+| **4** | ₹12,300 | ₹7,625 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,325 | **Disequilibrium ($Y < TE$):** Excess demand of ₹25; minor inventory drawdown ($Y \\uparrow$). |
+| **5** | **₹12,400** | **₹7,700** | **₹3,000** | **₹2,700** | **-₹1,000** | **₹12,400** | **★ EQUILIBRIUM REAL GDP ($Y = TE$):** Aggregate production equals total expenditure; unplanned inventory change is zero! |
+| **6** | ₹12,500 | ₹7,775 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,475 | **Disequilibrium ($Y > TE$):** Output exceeds spending by ₹25; unintended inventory accumulation forces output cut ($Y \\downarrow$). |
+| **7** | ₹12,600 | ₹7,850 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,550 | **Disequilibrium ($Y > TE$):** Excess supply of ₹50; unintended inventory accumulation ($Y \\downarrow$). |
+| **8** | ₹12,700 | ₹7,925 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,625 | **Disequilibrium ($Y > TE$):** Excess supply of ₹75; factories cut production shifts ($Y \\downarrow$). |
+| **9** | ₹12,800 | ₹8,000 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,700 | **Disequilibrium ($Y > TE$):** Excess supply of ₹100; unsold goods pile up in warehouses ($Y \\downarrow$). |
+| **10** | ₹12,900 | ₹8,075 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,775 | **Disequilibrium ($Y > TE$):** Excess supply of ₹125; severe involuntary inventory accumulation ($Y \\downarrow$). |
+| **11** | ₹13,000 | ₹8,150 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,850 | **Disequilibrium ($Y > TE$):** Excess supply of ₹150; widespread layoffs ($Y \\downarrow$). |
+| **12** | ₹13,100 | ₹8,225 | ₹3,000 | ₹2,700 | -₹1,000 | ₹12,925 | **Disequilibrium ($Y > TE$):** Excess supply of ₹175; major production cutbacks ($Y \\downarrow$). |
+
+* **The Analytical Algebraic Proof:**
+  $$Y = C + I + G + NX = (\\bar{C} + cY) + \\bar{I} + \\bar{G} + \\bar{NX}$$
+  $$(1 - c)Y = \\bar{C} + \\bar{I} + \\bar{G} + \\bar{NX}$$
+  $$Y^* = \\frac{\\bar{A}}{1 - MPC} = \\frac{\\bar{A}}{MPS}$$
+  From Row 1, with $c = 0.75$ and $C = 7,400$ at $Y = 12,000$: $\\bar{C} = 7,400 - (0.75 \\times 12,000) = 7,400 - 9,000 = -1,600$.
+  Total Autonomous Expenditure $\\bar{A} = -1,600 + 3,000 + 2,700 - 1,000 = +₹3,100\\text{ Billion}$.
+  Equilibrium Real GDP $Y^* = \\frac{3,100}{1 - 0.75} = \\frac{3,100}{0.25} = \\mathbf{₹12,400\\text{ Billion}}$.
 
 ---
 
@@ -5788,6 +5852,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Calculating Marginal Propensity to Consume ($MPC = \\Delta C / \\Delta Y$) from incremental income data and forecasting successive consumption rows ($C_n = C_{n-1} + [MPC \\times \\Delta Y]$).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Keynesian Economic Theory (KET) and Professor Ryan\'s lecture in "Equilibrium Real GDP - Keynesian Theory", household consumption is ₹7,400 Billion at ₹12,000 Billion national income, with an $MPC$ of 0.75. Autonomous Investment is ₹3,000 Billion, Autonomous Government Purchases are ₹2,700 Billion, and Net Exports are -₹1,000 Billion. What is the Equilibrium Real GDP ($Y = TE$), and if the macroeconomy currently operates at $Y = ₹12,000\\text{ Billion}$, what is Total Expenditure ($TE$) and the resulting inventory adjustment mechanism?',
+        options: [
+          'Equilibrium Real GDP = ₹12,400 Billion; at $Y = ₹12,000\\text{ Billion}$, Total Expenditure is $TE = ₹12,100\\text{ Billion}$ ($TE > Y$), creating an unplanned inventory depletion of ₹100 Billion that signals businesses to expand production.',
+          'Equilibrium Real GDP = ₹12,100 Billion; at $Y = ₹12,000\\text{ Billion}$, Total Expenditure is $TE = ₹12,000\\text{ Billion}$ ($TE = Y$), meaning the macroeconomy is already at full sustainable equilibrium.',
+          'Equilibrium Real GDP = ₹13,000 Billion; at $Y = ₹12,000\\text{ Billion}$, Total Expenditure is $TE = ₹11,900\\text{ Billion}$ ($TE < Y$), creating unplanned inventory accumulation that forces businesses to cut nominal wages.',
+          'Equilibrium Real GDP = ₹11,500 Billion; at $Y = ₹12,000\\text{ Billion}$, Total Expenditure is $TE = ₹12,750\\text{ Billion}$ ($TE > Y$), causing central bank statutory fines that contract LRAS permanently.',
+        ],
+        correctAnswer: 'Equilibrium Real GDP = ₹12,400 Billion; at $Y = ₹12,000\\text{ Billion}$, Total Expenditure is $TE = ₹12,100\\text{ Billion}$ ($TE > Y$), creating an unplanned inventory depletion of ₹100 Billion that signals businesses to expand production.',
+        explanation: 'In "Equilibrium Real GDP - Keynesian Theory", Professor Ryan establishes that in Keynesian Theory, Investment, Government Purchases, and Net Exports are autonomous shifters invariant to current income. Total Expenditure is given by $TE = C + I + G + NX$. At $Y = ₹12,000\\text{ Billion}$, $TE = 7,400 + 3,000 + 2,700 - 1,000 = ₹12,100\\text{ Billion}$. Because Total Expenditure exceeds production ($TE > Y$ by ₹100 Billion), business inventories are unintentionally drawn down/depleted ($\\Delta I_{\\text{unplanned}} = -₹100\\text{ Billion}$). To replenish depleted inventories, firms hire labor and ramp up production ($Y \\uparrow$). Because $MPC = 0.75$, every ₹100 Billion increase in income increases consumption and expenditure by ₹75 Billion, narrowing the excess demand gap by ₹25 Billion per ₹100 Billion of output. The output expansion required to eliminate the ₹100 Billion gap is $\\frac{₹100\\text{ Billion}}{1 - 0.75} = \\frac{100}{0.25} = ₹400\\text{ Billion}$. Thus, Equilibrium Real GDP occurs at $Y^* = 12,000 + 400 = \\mathbf{₹12,400\\text{ Billion}}$, where $C = ₹7,700\\text{ Billion}$ and $TE = 7,700 + 4,700 = \\mathbf{₹12,400\\text{ Billion}}$ ($Y = TE$).',
+        trapExplanation: 'Option B confuses the disequilibrium expenditure at $Y = 12,000$ ($TE = 12,100$) with the terminal equilibrium. Option C incorrectly claims $TE < Y$, which would cause unplanned inventory build-up rather than depletion. Option D invents fictitious statutory penalties and confuses short-run cyclical expenditure with LRAS shifts.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the determination of Equilibrium Real GDP ($Y = TE$) from a Keynesian possibilities table and the unintended inventory depletion/accumulation adjustment mechanism.',
       },
     ],
   },
