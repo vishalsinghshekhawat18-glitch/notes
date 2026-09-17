@@ -3966,6 +3966,15 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         locator: 'Professor Ryan, "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
         excerpt: 'Dynamics of the aggregate market examine shifts in AD and SRAS. Shifts in AD create inflationary or recessionary gaps. In the long run, the economy self-corrects as wages adjust, shifting SRAS to restore potential output, though downward wage rigidities may delay this transition.',
       },
+      {
+        id: 'CLM-ECO-17-07',
+        statement: 'The Keynesian Multiplier ($k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS}$) demonstrates that an initial autonomous spending injection (investment, government purchases, or exports) initiates a multi-round chain of re-spending that expands equilibrium national output by a multiple of the initial outlay; the multiplier magnitude is determined entirely by the Marginal Propensity to Consume ($MPC$) and Marginal Propensity to Save ($MPS$), where saving leakages progressively dampen successive spending rounds.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Keynesian Multiplier" (YouTube: AZ86yb3MdEQ); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10: The Marginal Propensity to Consume and the Multiplier',
+        excerpt: 'The Keynesian multiplier determines the overall change in total expenditure resulting from an initial change in investment, government spending, or net exports. It equals 1 / (1 - MPC). With an MPC of 0.75, the multiplier is 4.',
+      },
     ],
     contentBlocks: [
       {
@@ -4044,7 +4053,7 @@ This equivalence forms the theoretical foundation for the **Three Classical Meth
 
 ---
 
-### 4. Say's Law vs Keynesian Effective Demand & The Leakage-Injection Balance
+### 4. Say's Law vs Keynesian Effective Demand, Injections & The Keynesian Multiplier (Professor Ryan)
 * **Classical Say's Law (J.B. Say):** *"Supply creates its own demand."* Classical theory assumed all factor payments are instantaneously spent back on output, making general demand shortages impossible.
 * **The Keynesian Revolution (J.M. Keynes, 1936):** Keynes proved that when households withdraw part of their income as **Savings ($S$)**, spending drops unless channeled back via business **Investment ($I$)**.
 * **Modern Open Economy Equilibrium:**
@@ -4052,6 +4061,47 @@ This equivalence forms the theoretical foundation for the **Three Classical Meth
   - **3 Injections (Additions):** Investment ($I$) + Government Spending ($G$) + Exports ($X$).
   - **Macroeconomic Equilibrium requires:**
     $$\\mathbf{S + T + M = I + G + X}$$
+
+#### The Keynesian Multiplier: The Multi-Round Iterative Re-Spending Chain
+When an autonomous injection enters the circular flow (such as business investment $\\Delta I$ or government spending $\\Delta G$), how much does total national income ($\\Delta Y$) actually expand?
+As Professor Ryan explains, an initial injection does **not** simply expand GDP by the face value of the initial expenditure — it initiates a **multi-round compounding chain reaction** because **one person's spending is another person's income**.
+
+##### 1. Marginal Propensity to Consume ($MPC$) and Marginal Propensity to Save ($MPS$)
+When a household receives an additional unit of income ($\\Delta Y$):
+* A fraction is consumed: **Marginal Propensity to Consume ($MPC = \\frac{\\Delta C}{\\Delta Y}$)**.
+* The remainder is saved (leaked): **Marginal Propensity to Save ($MPS = \\frac{\\Delta S}{\\Delta Y}$)**.
+* By definition:
+  $$\\mathbf{MPC + MPS = 1 \\implies MPS = 1 - MPC}$$
+
+##### 2. Round-by-Round Iteration Table (Initial Injection = ₹100, $MPC = 0.75$, $MPS = 0.25$)
+Suppose a business spends ₹100 building new machinery:
+
+| Round | Transaction Stage | Additional Income ($\\Delta Y$) | Consumer Spending ($MPC = 0.75$) | Saving Leakage ($MPS = 0.25$) | Cumulative Income ($\\sum \\Delta Y$) |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| **Round 1** | Machine manufacturer pays factory workers | ₹100.00 | ₹75.00 | ₹25.00 | ₹100.00 |
+| **Round 2** | Workers spend ₹75 on local restaurant meals | ₹75.00 | ₹56.25 | ₹18.75 | ₹175.00 |
+| **Round 3** | Restaurant pays food suppliers and staff | ₹56.25 | ₹42.19 | ₹14.06 | ₹231.25 |
+| **Round 4** | Suppliers spend on transport & utilities | ₹42.19 | ₹31.64 | ₹10.55 | ₹273.44 |
+| **...** | *Infinite iterative geometric series* | ... | ... | ... | ... |
+| **Total** | **Equilibrium National Expansion ($\\Delta Y$)** | **₹400.00** | **₹300.00** | **₹100.00** | **₹400.00** |
+
+Notice that the cumulative saving leakages across all infinite rounds ($\\sum \\text{Savings} = ₹25 + ₹18.75 + ₹14.06 + \\dots = ₹100$) exactly equal the initial injection of ₹100, restoring the fundamental leakage-injection balance ($S = I$).
+
+##### 3. Mathematical Derivation of the Multiplier Formula
+The total cumulative change in output is an infinite geometric series:
+$$\\Delta Y = \\Delta I + (\\Delta I \\cdot MPC) + (\\Delta I \\cdot MPC^2) + (\\Delta I \\cdot MPC^3) + \\dots$$
+$$\\Delta Y = \\Delta I \\left[ 1 + MPC + MPC^2 + MPC^3 + \\dots \\right]$$
+
+Since $0 < MPC < 1$, the sum of an infinite geometric series $\\sum_{n=0}^{\\infty} r^n = \\frac{1}{1 - r}$:
+$$\\mathbf{k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS}}$$
+
+For $MPC = 0.75$:
+$$k = \\frac{1}{1 - 0.75} = \\frac{1}{0.25} = 4 \\implies \\Delta Y = 4 \\times ₹100 = ₹400$$
+
+##### 4. Connection to the Aggregate Market ($AD$ Curve Shifts)
+In the Aggregate Market model, when autonomous investment ($\\Delta I$) increases, the initial horizontal shift of the Aggregate Demand ($AD$) curve is not merely $\\Delta I$, but the fully multiplied amount:
+$$\\mathbf{\\Delta AD = k \\times \\Delta I}$$
+This amplified shift in $AD$ pushes the short-run equilibrium along the upward-sloping $SRAS$ curve, creating an inflationary gap if initial output was at potential ($Y^*$), until prices and wages self-correct or counter-cyclical policy intervenes.
 
 ---
 
@@ -4374,6 +4424,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the diagnostic mechanics of an adverse supply shock (Stagflation) and the resulting central bank monetary policy trade-off.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In a macroeconomic model with a Marginal Propensity to Consume ($MPC$) of 0.75 and no taxes or imports, if business firms increase autonomous capital investment spending by ₹50,000 Crore, what will be the total expansion in equilibrium national income (GDP), and why does this expansion exceed the initial ₹50,000 Crore injection?',
+        options: [
+          'GDP expands by ₹50,000 Crore, because in economic equilibrium national output must exactly equal the initial capital injection.',
+          'GDP expands by ₹2,00,000 Crore, because the initial ₹50,000 Crore investment initiates an iterative re-spending chain with a Keynesian Multiplier of $k = \\frac{1}{1 - 0.75} = 4$.',
+          'GDP expands by ₹66,667 Crore, because the Marginal Propensity to Save acts as an injection that dampens the initial expenditure.',
+          'GDP expands by ₹12,500 Crore, because 75% of the initial capital injection leaks out of the domestic circular flow.',
+        ],
+        correctAnswer: 'GDP expands by ₹2,00,000 Crore, because the initial ₹50,000 Crore investment initiates an iterative re-spending chain with a Keynesian Multiplier of $k = \\frac{1}{1 - 0.75} = 4$.',
+        explanation: 'The Keynesian Multiplier is given by $k = \\frac{1}{1 - MPC} = \\frac{1}{1 - 0.75} = \\frac{1}{0.25} = 4$. When firms inject an autonomous investment of $\\Delta I = ₹50,000\\text{ Crore}$, recipients earn ₹50,000 Crore of income. With $MPC = 0.75$, they spend ₹37,500 Crore in round two, creating income for others who then spend ₹28,125 Crore in round three, and so on. Summing this infinite geometric series yields a total expansion in national income of $\\Delta Y = k \\times \\Delta I = 4 \\times ₹50,000\\text{ Crore} = ₹2,00,000\\text{ Crore}$.',
+        trapExplanation: 'Option A ignores the multi-round re-spending process. Option C uses an inverted calculation ($1 / 0.75$). Option D confuses MPC with MPS.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing numerical calculation and multi-round iterative intuition of the Keynesian Investment Multiplier ($k = 1 / [1 - MPC]$).',
       },
     ],
   },
