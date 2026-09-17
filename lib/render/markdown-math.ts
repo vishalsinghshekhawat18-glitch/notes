@@ -72,13 +72,22 @@ export function sanitizeLatex(mathStr: string): string {
 export function protectCurrency(text: string): { text: string; currencyTokens: string[] } {
   const currencyTokens: string[] = [];
 
-  // Match $ followed by a number, and optional unit/scale words (e.g. $100, $150B, $2.15, $10 billion, $5.50)
-  // Negative lookahead to ensure it's not a math expression like $1 + x$ or $10 \times 20$
-  const currencyRegex = /\$(?=\d)([0-9]+([.,][0-9]+)?(\s*(billion|million|trillion|lakh|crore|k|M|B|USD|dollars?|per\s+\w+))?(\+)?)(?![a-zA-Z0-9_\\]*[\+\-\*\/\=\^\_\{\}\\])/gi;
+  // 1. Explicit currency with units/scales (e.g. $100 billion, $150B, $2.15 per day, $10M, $500k, $50 USD)
+  const explicitCurrencyRegex = /\$(?=\d)[0-9,]+(\.[0-9]+)?\s*(billion|million|trillion|lakh|crore|k|M|B|USD|dollars?|per\s+[a-zA-Z]+)(\+)?/gi;
 
-  const processed = text.replace(currencyRegex, (match, p1) => {
+  // 2. Standalone currency (e.g. $100, $50, $10,000) that is NOT followed by a closing $ on the same line
+  // (Prevents capturing math tokens like $0.5$, $50%$, $10$, or $1/2$)
+  const standaloneCurrencyRegex = /\$(?=\d)([0-9,]+(\.[0-9]+)?)(?!\$)(?![^$\n]*\$)/g;
+
+  let processed = text.replace(explicitCurrencyRegex, (match) => {
     const placeholder = `___CURRENCY_TOKEN_${currencyTokens.length}___`;
-    currencyTokens.push(`$${p1}`);
+    currencyTokens.push(match);
+    return placeholder;
+  });
+
+  processed = processed.replace(standaloneCurrencyRegex, (match) => {
+    const placeholder = `___CURRENCY_TOKEN_${currencyTokens.length}___`;
+    currencyTokens.push(match);
     return placeholder;
   });
 

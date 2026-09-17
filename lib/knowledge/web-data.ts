@@ -288,7 +288,21 @@ export async function getTopicWithFullConcepts(topicSlug: string) {
           domain: true,
           topics: {
             orderBy: { order: 'asc' },
-            select: { id: true, slug: true, title: true, order: true },
+            select: {
+              id: true,
+              slug: true,
+              title: true,
+              order: true,
+              concepts: {
+                orderBy: { id: 'asc' },
+                select: {
+                  id: true,
+                  slug: true,
+                  title: true,
+                  difficulty: true,
+                },
+              },
+            },
           },
         },
       },

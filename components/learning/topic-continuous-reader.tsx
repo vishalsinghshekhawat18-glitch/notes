@@ -2,11 +2,13 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { BookOpen, Menu, ChevronLeft } from 'lucide-react';
 import { EvidenceDrawer, EvidenceItem } from './evidence-drawer';
 import { ExamLensViewer, ExamLensData } from './exam-lens-viewer';
 import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
 import { RevisionViewer, RevisionUnitData } from './revision-viewer';
 import { MarkdownContent } from '@/components/ui/markdown-content';
+import { ChapterNavigationSidebar, SidebarTopic } from './chapter-navigation-sidebar';
 
 export interface ContinuousReaderConcept {
   id: string;
@@ -80,12 +82,7 @@ export interface ContinuousReaderTopic {
       slug: string;
       name: string;
     };
-    topics: Array<{
-      id: string;
-      slug: string;
-      title: string;
-      order: number;
-    }>;
+    topics: SidebarTopic[];
   };
   concepts: ContinuousReaderConcept[];
 }
@@ -97,6 +94,7 @@ interface TopicContinuousReaderProps {
 export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
   const [activeConceptIndex, setActiveConceptIndex] = useState(0);
   const [isOutlineOpen, setIsOutlineOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const conceptRefs = useRef<(HTMLElement | null)[]>([]);
 
   // Find next topic in the same subject
@@ -222,17 +220,26 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
     <div className="min-h-screen bg-stone-50 text-stone-900 font-sans pb-24">
       {/* Sticky Top Reader Header */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-2xs">
-        <div className="max-w-4xl mx-auto px-4 py-2 flex items-center justify-between gap-4">
+        <div className="w-full px-4 sm:px-6 py-2 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 min-w-0">
-            <Link
-              href={`/topics/${topic.slug}`}
-              className="p-1 rounded-md text-stone-500 hover:text-stone-900 hover:bg-stone-100 transition-colors text-xs font-mono flex items-center gap-1 shrink-0"
-              title="Return to Topic Index"
+            {/* Sidebar toggle button */}
+            <button
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              className={`p-1.5 rounded-lg border transition-colors flex items-center gap-1.5 text-xs font-mono shrink-0 cursor-pointer ${
+                isSidebarOpen
+                  ? 'bg-emerald-50 border-emerald-300 text-emerald-900 font-semibold'
+                  : 'bg-stone-50 border-stone-200 text-stone-700 hover:bg-stone-100'
+              }`}
+              title="Toggle Chapters & Sections Sidebar"
+              aria-label="Toggle Chapters & Sections Sidebar"
             >
-              <span>←</span>
-              <span className="hidden sm:inline">Index</span>
-            </Link>
+              <BookOpen className="w-3.5 h-3.5 text-emerald-800" />
+              <span className="hidden sm:inline font-sans font-medium">Chapters</span>
+              <span className="text-[10px] text-stone-500 font-mono">({topic.subject.topics.length})</span>
+            </button>
+
             <div className="h-3.5 w-px bg-stone-300 shrink-0" />
+
             <div className="min-w-0">
               <Link
                 href={`/subjects/${topic.subject.slug}`}
@@ -260,12 +267,12 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
               </div>
             </div>
 
-            {/* Chapter Outline Jump Menu */}
+            {/* Quick Outline Jump Menu */}
             <button
               onClick={() => setIsOutlineOpen(!isOutlineOpen)}
               className="px-2.5 py-1 rounded-md border border-stone-300 hover:bg-stone-100 text-stone-700 text-xs font-medium flex items-center gap-1 transition-colors cursor-pointer"
             >
-              <span>📑 Chapters</span>
+              <span>📑 Jump</span>
               <span className="text-[9px]">{isOutlineOpen ? '▲' : '▼'}</span>
             </button>
           </div>
@@ -302,8 +309,24 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
         )}
       </header>
 
-      {/* Main Chapter Content Body */}
-      <main className="max-w-4xl mx-auto px-4 py-8 space-y-12">
+      {/* Reader Layout: Left Sidebar + Center Reading Content */}
+      <div className="flex w-full min-h-[calc(100vh-3.5rem)]">
+        {isSidebarOpen && (
+          <ChapterNavigationSidebar
+            subjectName={topic.subject.name}
+            subjectSlug={topic.subject.slug}
+            domainName={topic.subject.domain?.name}
+            currentTopicSlug={topic.slug}
+            topics={topic.subject.topics}
+            activeConceptIndex={activeConceptIndex}
+            onSelectConcept={scrollToConcept}
+            isOpen={isSidebarOpen}
+            onClose={() => setIsSidebarOpen(false)}
+          />
+        )}
+
+        {/* Main Chapter Content Body */}
+        <main className="flex-1 min-w-0 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
         {/* Chapter Introduction Hero */}
         <section className="border-b border-stone-200 pb-6">
           <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">
@@ -472,6 +495,8 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
           </div>
         </section>
       </main>
+      </div>
     </div>
   );
 }
+
