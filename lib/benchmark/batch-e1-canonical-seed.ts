@@ -3304,47 +3304,101 @@ $$\\mathbf{\\text{Green GDP}} = \\text{Conventional GDP} - \\text{Depreciation o
         locator: 'Martin Feldstein (1983) Domestic Saving and International Capital Movements; Economic Survey of India (External Sector Chapter)',
         excerpt: 'The twin deficits hypothesis demonstrates that an increase in the government budget deficit, holding private saving and investment constant, leads directly to an increase in the current account deficit.',
       },
+      {
+        id: 'CLM-ECO-17-04',
+        statement: 'The circular flow diagram models macroeconomic activity across the Product Market (where firms sell final output to households) and the Resource/Factor Market (where households sell productive factor services to firms); in the factor market, households are the sellers and firms are the buyers, establishing the foundational national accounting identity: Aggregate Output ≡ Aggregate Factor Income ≡ Aggregate Expenditure (O ≡ Y ≡ E).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 20; N. Gregory Mankiw, Principles of Macroeconomics, Chapter 2',
+        excerpt: 'In the circular flow diagram, the economy is simplified into two decision-makers: households and firms. They interact in two types of markets: markets for goods and services (product markets) and markets for factors of production (resource markets).',
+      },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Circular Flow of Income: Real Flows, Money Flows & Keynesian Foundations',
-        body: `In any economy, economic activity is organized around a continuous circular flow between **Households** and **Firms**:
+        title: 'The Circular Flow Diagram: Real Flows, Money Flows & The Two Fundamental Markets',
+        body: `In any economy, economic activity is organized around a continuous circular flow between **Households** and **Firms (Businesses)** mediated by two distinct markets: the **Product Market** and the **Resource (Factor) Market**.
 
-### 1. Two-Sector Model: Real Flow vs Money Flow
-Economic transactions consist of two reciprocal, opposing streams:
-* **Real Flow (Physical Flow):**
-  - Households supply primary **Factor Services** (Land, Labour, Capital, Enterprise) to Firms.
-  - Firms supply final **Goods and Services** back to Households to satisfy consumer wants.
-* **Money Flow (Nominal / Financial Flow):**
-  - Firms pay **Factor Payments** to Households as factor rewards:
-    - $\\text{Land} \\implies \\mathbf{\\text{Rent}}$
-    - $\\text{Labour} \\implies \\mathbf{\\text{Wages / Salaries}}$
-    - $\\text{Capital} \\implies \\mathbf{\\text{Interest}}$
-    - $\\text{Enterprise} \\implies \\mathbf{\\text{Profit}}$
-  - Households spend their factor earnings back on Firms as **Consumption Expenditure ($C$)**.
-* In a basic two-sector economy without government, savings, or foreign trade:
-  $$\\mathbf{\\text{Total Output}} \\equiv \\mathbf{\\text{Factor Payments (Income)}} \\equiv \\mathbf{\\text{Consumption Expenditure}}$$
+\`\`\`
+========================================================================================
+                      THE CANONICAL CIRCULAR FLOW DIAGRAM
+========================================================================================
 
-### 2. Say's Law of Markets vs The Keynesian Revolution
-* **Classical Say's Law (Jean-Baptiste Say):** *"Supply creates its own demand."* Classical economists believed every unit of output produced automatically pays out enough factor income to purchase that exact output. Consequently, general overproduction, aggregate demand deficiencies, and involuntary unemployment were considered theoretically impossible.
-* **The 1929 Great Depression Collapse:** The worldwide collapse of 1929 shattered Say's Law when factories sat idle, unsold inventories piled up, and unemployment surged past 25% despite flexible markets.
-* **Keynesian Macroeconomic Revolution (J.M. Keynes, 1936):** John Maynard Keynes demonstrated in *The General Theory of Employment, Interest and Money* that because households save a portion of their income without automatic, immediate reinvestment, **Aggregate Demand (Effective Demand)** determines the equilibrium level of output and employment in the short run. When aggregate demand is deficient, involuntary unemployment persists indefinitely unless corrected.
+                             ┌────────────────────────┐
+                             │     PRODUCT MARKET     │
+                             │ (Goods & Services Mkt) │
+                             └───────────┬────────────┘
+                        Revenue          │          Spending
+                     (Money Flow)        │        (Money Flow)
+                          ▲              │              │
+                          │              ▼              ▼
+                   ┌──────┴──────┐  Finished Goods  ┌─────────────┐
+                   │    FIRMS    │  (Physical Flow) │ HOUSEHOLDS  │
+                   │(Producers & │                  │  (Resource  │
+                   │ Employers)  │                  │  Owners &   │
+                   └──────┬──────┘  Factor Services │ Consumers)  │
+                          │         (Physical Flow) └──────┬──────┘
+                          │              ▲                 │
+                          ▼              │                 ▼
+                       Costs             │              Income
+                    (Money Flow)         │           (Money Flow)
+                             ┌───────────┴────────────┐
+                             │    RESOURCE MARKET     │
+                             │     (Factor Market)    │
+                             └────────────────────────┘
+========================================================================================
+\`\`\`
 
-### 3. Four-Sector Open Economy: Leakages vs Injections
-In a modern open economy with financial markets, government, and global trade:
-* **The 3 Leakages (Withdrawals from Circular Stream):**
-  - **Savings ($S$):** Income diverted into bank accounts or financial assets instead of spent domestically.
-  - **Taxes ($T$):** Income paid to the government.
-  - **Imports ($M$):** Spending that leaks abroad to foreign producers.
-* **The 3 Injections (Additions to Circular Stream):**
-  - **Investment ($I$):** Capital goods spending by business enterprises.
-  - **Government Expenditure ($G$):** Public infrastructure, defence, and social administration spending.
-  - **Exports ($X$):** Foreign spending entering the domestic economy.
+---
 
-$$\\mathbf{\\text{Total Leakages}} = S + T + M \\qquad \\mathbf{\\text{Total Injections}} = I + G + X$$
+### 1. The Two Reciprocal Streams: Real Flow vs Money Flow
+Every economic transaction generates two simultaneous flows moving in opposite directions:
+* **The Real Flow (Physical / Goods Flow):**
+  - **In Resource Market:** Households supply physical **Factor Services** (Land, Labour, Capital, Enterprise) to Firms.
+  - **In Product Market:** Firms deliver finished physical **Goods and Services** to Households.
+* **The Money Flow (Financial / Nominal Flow):**
+  - **In Resource Market:** Firms pay **Factor Payments** to Households as factor rewards:
+    - $\\text{Land} \\to \\mathbf{\\text{Rent}}$
+    - $\\text{Labour} \\to \\mathbf{\\text{Wages / Salaries}}$
+    - $\\text{Capital} \\to \\mathbf{\\text{Interest}}$
+    - $\\text{Enterprise} \\to \\mathbf{\\text{Profit}}$
+  - **In Product Market:** Households spend their factor income back on Firms as **Consumption Expenditure ($C$)**, which constitutes business revenue.
 
-$$\\text{Macroeconomic Equilibrium requires: } \\mathbf{S + T + M = I + G + X}$$`,
+---
+
+### 2. Product Market vs Resource (Factor) Market Comparison
+
+| Dimension | Product Market (Goods & Services) | Resource Market (Factor Market) |
+| :--- | :--- | :--- |
+| **Who are the SELLERS?** | **Firms** (sell finished output) | **Households** (owners of primary productive inputs) |
+| **Who are the BUYERS?** | **Households** (consumers purchasing satisfaction) | **Firms** (businesses hiring inputs to produce output) |
+| **What is Exchanged?** | Consumer goods (clothing, food, laptops, healthcare, schooling) | Primary factors: Human labour, commercial land, factory machinery, entrepreneurial initiative |
+| **Monetary Nature** | Household **Consumption Expenditure ($C$)** $\\to$ Firm **Sales Revenue** | Firm **Cost of Production** $\\to$ Household **Factor Income ($Y$)** |
+| **Exam Pitfall Warning** | Standard intuition: buyers are individuals, sellers are corporations. | ⚠️ **Frequent Trap:** In the Factor Market, **Households are the SELLERS** and **Firms are the BUYERS**! |
+
+---
+
+### 3. The Foundational Triple Identity of National Income Accounting
+Because every dollar spent by a household in the product market becomes revenue for a firm, and every dollar spent by a firm on factor inputs becomes factor income for a household:
+
+$$\\mathbf{\\text{Aggregate Output (O)}} \\equiv \\mathbf{\\text{Aggregate Factor Income (Y)}} \\equiv \\mathbf{\\text{Aggregate Expenditure (E)}}$$
+
+This equivalence forms the theoretical foundation for the **Three Classical Methods of Measuring GDP**:
+1. **Value Added / Product Method:** Measures the total market value of all final goods produced in the **Product Market**.
+2. **Income Method:** Measures the sum of all factor payments (wages + rent + interest + profit) earned in the **Resource Market**.
+3. **Expenditure Method:** Measures total final spending ($C + I + G + NX$) flowing through the circular system.
+
+---
+
+### 4. Say's Law vs Keynesian Effective Demand & The Leakage-Injection Balance
+* **Classical Say's Law (J.B. Say):** *"Supply creates its own demand."* Classical theory assumed all factor payments are instantaneously spent back on output, making general demand shortages impossible.
+* **The Keynesian Revolution (J.M. Keynes, 1936):** Keynes proved that when households withdraw part of their income as **Savings ($S$)**, spending drops unless channeled back via business **Investment ($I$)**.
+* **Modern Open Economy Equilibrium:**
+  - **3 Leakages (Withdrawals):** Savings ($S$) + Taxes ($T$) + Imports ($M$).
+  - **3 Injections (Additions):** Investment ($I$) + Government Spending ($G$) + Exports ($X$).
+  - **Macroeconomic Equilibrium requires:**
+    $$\\mathbf{S + T + M = I + G + X}$$`,
         order: 1,
       },
       {
@@ -3512,6 +3566,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Distinguishing Leakages (S, T, M) from Injections (I, G, X).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In the standard two-sector Circular Flow of Income model, what is the precise role of "Households" in the "Resource (Factor) Market"?',
+        options: [
+          'Households act as buyers of final goods and services, paying consumption expenditure to firms.',
+          'Households act as sellers of productive factor services (land, labour, capital, enterprise), receiving factor payments from firms.',
+          'Households act as financial intermediaries, converting private savings into business investment loans.',
+          'Households act as statutory regulators, setting minimum wage rates and interest ceilings for firms.',
+        ],
+        correctAnswer: 'Households act as sellers of productive factor services (land, labour, capital, enterprise), receiving factor payments from firms.',
+        explanation: 'In the circular flow diagram, the economy operates through two distinct markets with reversed buyer/seller roles. In the Resource (Factor) Market, Households are the SELLERS (they own all primary factors of production: land, labour, capital, and enterprise) and Firms are the BUYERS (hiring factor inputs to produce goods). In return, monetary factor payments (rent, wages, interest, profit) flow from firms to households as factor income. Conversely, in the Product Market, Firms are the sellers and Households are the buyers.',
+        trapExplanation: 'Option A describes the role of households in the Product Market, not the Resource (Factor) Market.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the role reversal between Product Market (firms sell, households buy) and Factor Market (households sell, firms buy).',
       },
     ],
   },
