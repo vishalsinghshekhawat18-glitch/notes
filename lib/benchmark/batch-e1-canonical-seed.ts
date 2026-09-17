@@ -921,7 +921,7 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 3: Demand',
+        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 3: Demand; Professor Ryan, "Basic Determinants of Supply & Demand" (YouTube: bZoGP9_bpTQ)',
         excerpt: 'We must carefully distinguish between shifts of the demand curve and movements along the demand curve caused by a change in own-price.',
       },
       {
@@ -1217,7 +1217,7 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Basic Elements of Supply and Demand; Hal Varian, Intermediate Microeconomics',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Basic Elements of Supply and Demand; Hal Varian, Intermediate Microeconomics; Professor Ryan, "Basic Determinants of Supply & Demand" (YouTube: bZoGP9_bpTQ)',
         excerpt: 'When costs of production fall or technology improves, the entire supply curve shifts to the right; a change in the price of the good itself moves the firm along its existing supply curve.',
       },
     ],
