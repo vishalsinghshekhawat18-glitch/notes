@@ -3402,19 +3402,65 @@ $$\\mathbf{\\text{GDP at Market Prices (GDP}_{\\text{MP}}\\text{)}} \\quad \\tex
         locator: 'MoSPI National Accounts Statistics (NAS); N. Gregory Mankiw, Macroeconomics, Chapter 2',
         excerpt: 'The expenditure approach computes GDP as the sum of private consumption, gross investment, government purchases, and net exports.',
       },
+      {
+        id: 'CLM-ECO-15-04',
+        statement: 'Gross Domestic Product (GDP) is the total money value of all final products produced within an economy over a specific period; the Expenditure Method (final market price paid by consumers) and the Income Method (sum of factor incomes earned across all stages of production) are theoretically equivalent because every dollar spent on final output is completely distributed as factor income, proving that summing intermediate transactions creates severe double counting.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Gross Domestic Product (GDP)" (YouTube: woAsxuGanvA); Simon Kuznets (1937) National Income 1929-1935',
+        excerpt: 'The Expenditure Method looks at the final price tag the consumer pays for a product, while the Income Method adds up all the income earned by everyone in the production process. Because total income equals the final price, both methods yield the exact same GDP figure.',
+      },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Triple Equivalence of Macroeconomics',
-        body: `Every rupee spent by a buyer on a final good is simultaneously:
+        title: 'The Triple Equivalence of Macroeconomics & The Multi-Stage Production Chain',
+        body: `Every rupee or dollar spent by a buyer on a final good or service is simultaneously:
 1. **Value Created** by the producer (Production).
-2. **Income Earned** by factors of production (Wages to workers, Profit to owners).
-3. **Expenditure Incurred** by the consumer or investor.
+2. **Income Earned** by the factors of production (Wages to labor, Rent to landowners, Interest to capital providers, Profit to entrepreneurs).
+3. **Expenditure Incurred** by the final purchaser.
 
-Therefore:
+Therefore, across an entire macroeconomy:
 
-$$\\mathbf{\\text{National Production} \\equiv \\text{National Income} \\equiv \\text{National Expenditure}}$$`,
+$$\\mathbf{\\text{National Production (Value Added)} \\equiv \\text{National Factor Income} \\equiv \\text{National Final Expenditure}}$$
+
+---
+
+### Professor Ryan's Multi-Stage Chair Example: Why Expenditure Equals Income
+To understand why the Expenditure Method and the Income Method yield the exact same GDP figure, follow the journey of a wooden chair through four stages of production:
+
+| Production Stage | Actor & Economic Activity | Sales Value (Revenue) | Cost of Intermediate Inputs | Value Added ($\\text{Sales} - \\text{Inputs}$) | Factor Income Distributed (Wages, Rent, Interest, Profit) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Stage 1: Forestry** | **Lumberjack** fells tree; sells raw log to sawmill. | **\\$20** | \\$0 (Natural resource) | **\\$20** | \\$20 (Wages to lumberjack) |
+| **Stage 2: Milling** | **Sawmill** cuts raw log into refined timber planks. | **\\$50** | \\$20 (Raw log) | **\\$30** | \\$30 (Sawyer wages, mill rent, profit) |
+| **Stage 3: Manufacturing** | **Carpenter** constructs and varnishes wooden chair. | **\\$120** | \\$50 (Timber planks) | **\\$70** | \\$70 (Carpenter wages, tool financing interest, profit) |
+| **Stage 4: Retail** | **Store Owner** displays chair and sells to consumer. | **\\$200** | \\$120 (Finished chair) | **\\$80** | \\$80 (Retail staff wages, showroom rent, store profit) |
+| **TOTALS** | **Aggregate Economic Activity** | **\\$390 (Gross Sales)** | **\\$190 (Intermediate Inputs)** | **\\$200 (Total GVA)** | **\\$200 (Total Factor Income)** |
+
+---
+
+### Three Core Insights from the Production Chain:
+1. **The Expenditure Method View**:
+   - The statistical agency simply reads the **final retail price tag** paid by the consumer at the store:
+     $$\\text{GDP by Final Expenditure} = \\mathbf{\\$200}$$
+   - Notice that the consumer does not pay the lumberjack, miller, or carpenter separately. The \\$200 price tag embeds the value of all preceding stages.
+
+2. **The Income Method View**:
+   - The statistical agency adds up all factor incomes earned by everyone who participated:
+     $$\\text{GDP by Factor Income} = \\$20 (\\text{Lumberjack}) + \\$30 (\\text{Miller}) + \\$70 (\\text{Carpenter}) + \\$80 (\\text{Retailer}) = \\mathbf{\\$200}$$
+   - **Theoretical Equivalence**: Because the final \\$200 spent is entirely divided among wages, rent, interest, and residual profit, $\\text{Expenditure} \\equiv \\text{Income}$.
+
+3. **The Production (Value-Added) Method View & The Double-Counting Trap**:
+   - Summing value added at each stage yields:
+     $$\\text{GDP by Value Added} = \\$20 + \\$30 + \\$70 + \\$80 = \\mathbf{\\$200}$$
+   - ⚠️ **The Double-Counting Error**: If an untrained analyst summed gross sales across all transactions ($\\$20 + \\$50 + \\$120 + \\$200 = \\$390$), they would overestimate GDP by **\\$190**! The value of the original log (\\$20) would be counted four separate times, the timber three times, and the chair twice.
+   - **Rule**: Intermediate goods (goods used up as inputs in the production of other goods within the same year) must **NEVER** be added to final expenditure.
+
+---
+
+### The Real-World Measurement Challenge
+While the equivalence $\\text{Expenditure} \\equiv \\text{Income}$ is a mathematical identity in economic theory, measuring an economy producing millions of products across trillions of dollars involves administrative delays, differing survey samples, and tax evasion. Statistical agencies reconcile these differences by publishing an official **Statistical Discrepancy** line item.`,
         order: 1,
       },
       {
@@ -3557,6 +3603,22 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Structural macro composition of India\'s GDP.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'Consider a simplified economy with only one final consumer product: wooden chairs. In a given year:\n1. Forestry firms chop timber and sell logs to sawmills for ₹50,000.\n2. Sawmills cut logs into planks and sell them to furniture makers for ₹120,000.\n3. Furniture makers craft chairs and sell them to retail showrooms for ₹260,000.\n4. Showrooms sell the finished chairs to households for ₹400,000.\n\nWhat is the Gross Domestic Product (GDP) of this economy, and what would be the result if an analyst calculated GDP by summing the gross sales of all four stages?',
+        options: [
+          'GDP is ₹400,000. Summing gross sales (₹830,000) causes double counting of intermediate goods, overestimating GDP by ₹430,000.',
+          'GDP is ₹830,000. Intermediate transactions represent valid economic turnover that must be included in GDP.',
+          'GDP is ₹260,000. Only wholesale value before retail markup represents real physical manufacturing output.',
+          'GDP is ₹430,000. GDP equals the sum of intermediate consumption across all manufacturing stages.',
+        ],
+        correctAnswer: 'GDP is ₹400,000. Summing gross sales (₹830,000) causes double counting of intermediate goods, overestimating GDP by ₹430,000.',
+        explanation: 'Under both the Expenditure Method (final consumer price) and the Value-Added Method, GDP equals the value of final output: GDP = ₹400,000. By Value Added: (₹50k - 0) + (₹120k - ₹50k) + (₹260k - ₹120k) + (₹400k - ₹260k) = ₹50k + ₹70k + ₹140k + ₹140k = ₹400,000. By Income Method, total factor income distributed equals ₹400,000. If one sums total gross sales across all stages (₹50k + ₹120k + ₹260k + ₹400k = ₹830,000), intermediate goods are repeatedly counted, causing an overstatement of ₹430,000.',
+        trapExplanation: 'Option B falls into the classic intermediate double-counting trap. Option C arbitrarily ignores retail distribution services which add legitimate economic value to the final product.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing multi-stage production accounting, value-added equivalence, and the intermediate double-counting error.',
       },
     ],
   },
