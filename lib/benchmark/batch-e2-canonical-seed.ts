@@ -36,8 +36,8 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'NCERT Class 12 Macroeconomics, Ch 3; RBI History of Indian Currency & Banking',
-        excerpt: 'Money eliminates the double coincidence of wants by acting as an intermediate medium of exchange.',
+        locator: 'Professor Ryan, "Money" (YouTube: r7brOV9lj9Q); NCERT Class 12 Macroeconomics, Ch 3; RBI History of Indian Currency & Banking',
+        excerpt: 'Money eliminates the double coincidence of wants by serving as a generally accepted medium of exchange, provides a common unit of account to quote relative prices (reducing barter exchange ratios from n(n-1)/2 to n), and acts as a store of value to transfer purchasing power across time.',
       },
       {
         id: 'CLM-ECO-18-02',
@@ -61,8 +61,8 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Liquidity Bridge: Eliminating the Coincidence Problem',
-        body: 'Imagine an economy with no money. If an economics teacher wants a haircut, she must find a barber who specifically desires 45 minutes of microeconomics tuition. If the barber wants shoes instead, no transaction can take place without an elaborate, high-friction multi-party chain. This is the **Double Coincidence of Wants** problem.\n\nMoney solves this informational and transaction friction by acting as a universal liquidity bridge. Instead of finding reciprocal trading partners, every market participant trades goods and services for money, and subsequently trades money for desired goods. Money is whatever is generally accepted in exchange for goods and services or in the settlement of debts.',
+        title: 'The Liquidity Bridge: Eliminating the Coincidence Problem (Professor Ryan)',
+        body: 'Imagine an economy with no money. If an economics teacher wants a haircut, she must find a barber who specifically desires 45 minutes of microeconomics tuition. If the barber wants shoes instead, no transaction can take place without an elaborate, high-friction multi-party chain. This is the **Double Coincidence of Wants** problem.\n\nIn **"Money"** (YouTube: r7brOV9lj9Q), Professor Ryan demonstrates how money solves this informational and transaction friction by acting as a universal liquidity bridge. Instead of finding reciprocal trading partners, every market participant trades goods and services for money, and subsequently trades money for desired goods. Money is whatever is generally accepted in exchange for goods and services or in the settlement of debts.\n\n```text\n========================================================================================\n                BARTER FRICTION vs. THE THREE FUNCTIONS OF MONEY\n========================================================================================\n\n  BARTER ECONOMY (Severe Inefficiencies)         MONETARY ECONOMY (Universal Liquidity)\n  ──────────────────────────────────────         ──────────────────────────────────────\n  • Requires Double Coincidence of Wants         • FUNCTION 1: MEDIUM OF EXCHANGE\n    (High search & transaction costs)              (Eliminates barter search; settles deals)\n  • Indivisibility of goods                      • FUNCTION 2: UNIT OF ACCOUNT\n    (Cannot trade 1/10th of a cow)                 (Universal pricing yardstick in ₹/$;\n  • Massive calculation burden                     Replaces n(n-1)/2 barter ratios with n prices)\n    (n goods require n(n-1)/2 price ratios)      • FUNCTION 3: STORE OF VALUE\n  • Perishable commodities cannot be stored        (Transfers purchasing power to the future;\n    (Wealth rots over time)                         Enables saving, investment, & capital formation)\n========================================================================================\n```\n\n### The N-Goods Price Quotation Formula:\nIn a barter economy with $n$ commodities, every good must be priced in terms of every other good, requiring:\n$$\\text{Number of Barter Exchange Ratios} = \\frac{n(n - 1)}{2}$$\n- For an economy with $n = 100$ goods: $\\frac{100 \\times 99}{2} = \\mathbf{4,950\\text{ distinct price ratios}}$.\n- For an economy with $n = 1,000$ goods: $\\frac{1,000 \\times 999}{2} = \\mathbf{499,500\\text{ distinct price ratios}}$.\nBy introducing a single universal Unit of Account (Money), the number of required price quotes collapses from $\\frac{n(n-1)}{2}$ to exactly $\\mathbf{n}$ prices! An economy with 1,000 goods requires only 1,000 price tags, dramatically slashing informational search costs.',
         order: 1,
       },
       {
@@ -198,6 +198,22 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
         trapExplanation: 'Candidates often believe that because a coin is legal tender, any amount of debt can be forced on a payee, forgetting the concept of limited legal tender.',
         difficulty: 'MEDIUM',
         isPYQ: false,
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to monetary economics and Professor Ryan\'s lecture in "Money", which of the following correctly pairs the three primary functions of money with their economic roles, and illustrates how the "Unit of Account" function drastically reduces market search costs?',
+        options: [
+          'Medium of Exchange facilitates trade by eliminating the double coincidence of wants; Unit of Account provides a common measure of value, reducing required price quotations from $\\frac{n(n-1)}{2}$ in barter to just $n$ in a monetary economy; Store of Value transfers purchasing power into the future.',
+          'Medium of Exchange measures inflation across sectors; Unit of Account guarantees that all bank deposits earn zero nominal interest; Store of Value forces consumers to spend all liquid currency within 30 days.',
+          'Medium of Exchange is restricted exclusively to gold and silver coins; Unit of Account applies only to central bank reserves; Store of Value prevents any physical depreciation of consumer goods.',
+          'Medium of Exchange enables barter credit; Unit of Account sets statutory minimum wages; Store of Value ensures the government budget remains balanced.',
+        ],
+        correctAnswer: 'Medium of Exchange facilitates trade by eliminating the double coincidence of wants; Unit of Account provides a common measure of value, reducing required price quotations from $\\frac{n(n-1)}{2}$ in barter to just $n$ in a monetary economy; Store of Value transfers purchasing power into the future.',
+        explanation: 'In "Money", Professor Ryan formalizes the three primary functions of money: (1) Medium of Exchange—an asset generally accepted to settle transactions, eliminating the friction of the double coincidence of wants; (2) Unit of Account—a standardized numerical unit used to price all goods and services, collapsing the informational burden of calculating $\\frac{n(n-1)}{2}$ barter exchange ratios to just $n$ money prices; and (3) Store of Value—an asset that allows individuals to store liquid purchasing power and transfer wealth across time.',
+        trapExplanation: 'Option B confuses microeconomic functions with regulatory mandates. Option C ignores modern fiat currency. Option D conflates monetary functions with fiscal and labor market regulations.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the three classical functions of money (Medium of Exchange, Unit of Account, Store of Value) alongside the mathematical reduction in price quotes from n(n-1)/2 to n.',
       },
     ],
   },

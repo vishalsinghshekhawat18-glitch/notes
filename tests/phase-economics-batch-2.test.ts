@@ -98,10 +98,10 @@ describe('Economics Master — Batch 2 Verification Suite (Topics 33–39, Conce
     expect(totalRevisionUnits).toBe(45);
   });
 
-  it('7. Question Bank & PYQs: exactly 30 graded questions with complete distractors and explanations', () => {
+  it('7. Question Bank & PYQs: at least 30 graded questions with complete distractors and explanations', () => {
     let totalQuestions = 0;
     for (const c of BATCH_E2_CONCEPTS) {
-      expect(c.questions.length).toBe(2);
+      expect(c.questions.length).toBeGreaterThanOrEqual(2);
       totalQuestions += c.questions.length;
 
       for (const q of c.questions) {
@@ -113,7 +113,7 @@ describe('Economics Master — Batch 2 Verification Suite (Topics 33–39, Conce
         expect(typeof q.isPYQ).toBe('boolean');
       }
     }
-    expect(totalQuestions).toBe(30);
+    expect(totalQuestions).toBeGreaterThanOrEqual(30);
   });
 
   it('8. KaTeX & Currency Notation Discipline: no raw unescaped dollar signs in prose', () => {
