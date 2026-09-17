@@ -112,10 +112,21 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'The Inescapable Reality of Scarcity',
-        body: `Every economic problem arises from a single universal tension: **human wants are infinite, but the physical resources available to satisfy them (land, labour, capital, entrepreneurship) are strictly finite**.
+        title: 'The Inescapable Reality of Scarcity & The Four Factors of Production',
+        body: `Every economic problem arises from a single universal tension: **human wants are infinite, but the physical resources available to satisfy them are strictly finite**.
 
-Because resources are scarce, choosing to produce or consume one good always requires sacrificing the next best alternative. This sacrifice is the **Opportunity Cost**.
+### The Four Factors of Production & Factor Returns
+In economics, all productive resources allocated to generate goods and services are grouped into **Four Factors of Production**, each earning a specific economic reward:
+
+| Factor of Production | Economic Definition | Factor Return / Reward | Distinguishing Characteristic |
+| :--- | :--- | :--- | :--- |
+| **1. Land** | All natural, non-manmade gifts of nature (soil, mineral ores, forests, water bodies, crude oil, geographic space). | **Rent** | Strictly limited in aggregate supply; inelastic nature. |
+| **2. Labour** | Human mental and physical effort expended in the production process. | **Wages / Salaries** | Cannot be separated from the human owner; perishable if unutilized. |
+| **3. Capital** | Manmade durable goods manufactured to produce other goods (machinery, factory buildings, tools, IT servers). | **Interest** | Produced means of production; depreciates over time. *(Note: Financial money becomes capital only when deployed to purchase physical capital goods).* |
+| **4. Enterprise / Entrepreneurship** | Human initiative that organizes the other three factors, innovates, and assumes non-insurable business risks. | **Profit** | Residual claimant; can be negative (loss), unlike contractually guaranteed wages or rent. |
+
+### Scarcity, Choice & Opportunity Cost
+Because these four productive factors are scarce, choosing to produce or consume one good always requires sacrificing the next best alternative. This sacrifice is the **Opportunity Cost**.
 
 * **Accounting Cost vs Opportunity Cost:** An accountant counts only explicit monetary outlays. An economist counts the total economic cost: explicit money spent + implicit value of the forgone opportunity.
 * **Example:** If a government spends ₹10,000 Crore on fuel subsidies, the economic cost is not just ₹10,000 Crore in cash; it is the 500 state-of-the-art hospitals or 2,000 km of national highways that *could* have been built with those identical resources.`,
