@@ -220,8 +220,8 @@ export const BATCH_E3_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Economics of Money, Banking and Financial Markets (Mishkin, Ch 2); NCERT Class 12 Business Studies & Macroeconomics',
-        excerpt: 'Direct finance channels funds directly via securities; indirect finance uses intermediaries.',
+        locator: 'Economics of Money, Banking and Financial Markets (Mishkin, Ch 2); NCERT Class 12 Business Studies & Macroeconomics; Professor Ryan, "The Credit Market" (YouTube: n5j5xnaysiI)',
+        excerpt: 'Direct finance channels funds directly via debt and equity securities in credit markets, whereas indirect finance operates through financial intermediaries (banks) who borrow from savers to lend to borrowers.',
       },
       {
         id: 'CLM-ECO-34-02',
