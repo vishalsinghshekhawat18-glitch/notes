@@ -3972,7 +3972,7 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Keynesian Multiplier" (YouTube: AZ86yb3MdEQ); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10: The Marginal Propensity to Consume and the Multiplier',
+        locator: 'Professor Ryan, "Keynesian Multiplier" (YouTube: AZ86yb3MdEQ) & "Chain Reaction of Consumption in KET" (YouTube: pNXLv8ECQNA); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10: The Marginal Propensity to Consume and the Multiplier',
         excerpt: 'The Keynesian multiplier determines the overall change in total expenditure resulting from an initial change in investment, government spending, or net exports. It equals 1 / (1 - MPC). With an MPC of 0.75, the multiplier is 4.',
       },
     ],

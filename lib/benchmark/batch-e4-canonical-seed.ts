@@ -3323,6 +3323,15 @@ export const BATCH_E4_CONCEPTS: CanonicalConceptDefinition[] = [
         locator: 'Some Unpleasant Monetarist Arithmetic (Thomas Sargent & Neil Wallace, 1981); Report on Currency and Finance (Reserve Bank of India)',
         excerpt: 'Fiscal multiplier magnitude depends critically on the monetary policy reaction function.',
       },
+      {
+        id: 'CLM-ECO-71-04',
+        statement: 'In Keynesian Economic Theory (KET), the "Chain Reaction of Consumption" demonstrates that an initial autonomous injection ($\\Delta \\bar{I}$ or $\\Delta \\bar{G}$) expands national income through successive rounds of induced consumer spending ($MPC \\cdot \\Delta Y$); this compounding expansion converges to a finite equilibrium ($k = \\frac{1}{1 - MPC}$) because progressive saving leakages ($MPS \\cdot \\Delta Y$) continually drain liquidity from the circular flow until cumulative leakages exactly balance the initial injection ($\\sum S = \\Delta \\bar{I}$).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Chain Reaction of Consumption in KET" (YouTube: pNXLv8ECQNA); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money, Chapter 10; Paul Samuelson (1948) Economics: An Introductory Analysis',
+        excerpt: 'An initial change in spending triggers a chain reaction of consumption: spending becomes income, which generates further consumption, compounding until savings leakages equal the original injection.',
+      },
     ],
     contentBlocks: [
       {
@@ -3345,14 +3354,24 @@ Keynes demonstrated that private consumption expenditure is primarily a function
 $$\\mathbf{APC + APS = 1} \\qquad \\left(\\because \\frac{C}{Y} + \\frac{S}{Y} = \\frac{Y}{Y} = 1\\right)$$
 $$\\mathbf{MPC + MPS = 1} \\qquad \\left(\\because \\frac{\\Delta C}{\\Delta Y} + \\frac{\\Delta S}{\\Delta Y} = \\frac{\\Delta Y}{\\Delta Y} = 1\\right)$$
 
-### 3. Investment Multiplier ($k$) & The Chain Reaction
-Suppose the government or private sector makes an **Autonomous Investment injection** ($\\Delta I$) of ₹100 into building a highway.
-- The road worker earns ₹100. If her $MPC = 0.80$ ($MPS = 0.20$), she spends ₹80 on groceries and saves ₹20.
-- The grocer earns ₹80 of new income, spends $80\\%$ (₹64) on clothing, and saves ₹16.
-- The tailor earns ₹64 of new income, spends $80\\%$ (₹51.20) at a café, and saves ₹12.80.
-
-$$\\mathbf{k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS}} = \\frac{1}{0.20} = \\mathbf{5}$$
-A ₹100 investment injection expands national GDP by **₹500**!
+### 3. Investment Multiplier ($k$) & The "Chain Reaction of Consumption in KET" (Professor Ryan)
+As Professor Ryan explains in **"Chain Reaction of Consumption in KET"**, an initial injection does not act as an isolated static event; it sets off a dynamic macroeconomic chain reaction:
+* **Autonomous vs Induced Components:**
+  - **The Initial Spark (Autonomous Spending):** An autonomous injection ($\\Delta \\bar{I}$, $\\Delta \\bar{G}$, or $\\Delta \\bar{C}_0$) enters the circular flow independent of the prevailing level of national income.
+  - **The Chain Links (Induced Consumption):** Every subsequent round of expansion is powered strictly by **induced household consumption** ($MPC \\times \\Delta Y$), where one person's consumption spending directly becomes another person's factor income.
+* **Round-by-Round Iteration Mechanics ($MPC = 0.80$, $MPS = 0.20$, Initial Autonomous Injection = ₹100):**
+  - **Round 1 (Autonomous Injection):** Government highway investment of ₹100 pays road workers $\\implies$ Income $\\Delta Y_1 = ₹100$. Workers consume $80\\%$ (₹80) on groceries and save $20\\%$ (₹20 leakage).
+  - **Round 2 (Induced Consumption):** Grocers earn $\\Delta Y_2 = ₹80$, consume $80\\%$ (₹64) on clothing, and save $20\\%$ (₹16 leakage).
+  - **Round 3 (Induced Consumption):** Tailors earn $\\Delta Y_3 = ₹64$, consume $80\\%$ (₹51.20) at local restaurants, and save $20\\%$ (₹12.80 leakage).
+  - **Round 4 (Induced Consumption):** Restaurant owners earn $\\Delta Y_4 = ₹51.20$, consume $80\\%$ (₹40.96) on supplies, and save $20\\%$ (₹10.24 leakage).
+  - **...** *Successive compounding rounds diminish geometrically.*
+* **The Leakage Drain & Equilibrium Termination:**
+  - Why does the chain reaction terminate at a finite equilibrium rather than compounding indefinitely?
+  - Because in every round, $20\\%$ ($MPS = 1 - MPC$) leaks out into savings.
+  - The compounding process terminates when and only when cumulative saving leakages across all rounds sum to exactly the initial autonomous injection:
+    $$\\sum_{n=1}^\\infty \\text{Saving Leakage } S_n = ₹20 + ₹16 + ₹12.80 + ₹10.24 + \\dots = \\mathbf{₹100} = \\Delta \\bar{I}$$
+  - The equilibrium multiplier and output expansion:
+    $$\\mathbf{k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS}} = \\frac{1}{0.20} = \\mathbf{5} \\implies \\Delta Y = 5 \\times ₹100 = \\mathbf{₹500}$$
 
 ### 4. The Paradox of Thrift (Keynesian Fallacy of Composition)
 - If a single household decides to save more, its individual financial security rises.
@@ -3530,6 +3549,22 @@ A ₹100 investment injection expands national GDP by **₹500**!
         trapExplanation: 'Tax cuts leak into savings in round 1; government spending enters aggregate demand at 100% in round 1.',
         difficulty: 'EASY',
         isPYQ: false,
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Keynesian Economic Theory (KET), when an autonomous increase in government investment spending sparks a "Chain Reaction of Consumption", which of the following best explains why the expansion of national income eventually terminates at a finite equilibrium rather than compounding indefinitely?',
+        options: [
+          'Because government debt ceilings legally halt further rounds of consumer spending after five iterations.',
+          'Because at every successive round of the chain reaction, a fraction of income is drained out as savings leakages ($MPS \\cdot \\Delta Y$), causing the induced consumption increments to diminish geometrically until total cumulative savings equal the initial autonomous injection.',
+          'Because commercial banks are mandated by the central bank to sterilize 100% of household deposits after the initial injection.',
+          'Because consumers exhaust their marginal utility of consumption, causing the Marginal Propensity to Consume ($MPC$) to drop to exactly zero in round three.',
+        ],
+        correctAnswer: 'Because at every successive round of the chain reaction, a fraction of income is drained out as savings leakages ($MPS \\cdot \\Delta Y$), causing the induced consumption increments to diminish geometrically until total cumulative savings equal the initial autonomous injection.',
+        explanation: 'In the Keynesian chain reaction of consumption, the initial autonomous spending creates income, which induces consumer spending ($MPC \\times \\Delta Y$). However, because the Marginal Propensity to Save ($MPS = 1 - MPC$) is strictly greater than zero, a fraction of income leaks out into savings during each round. These successive leakages diminish the remaining spending stream geometrically ($MPC < 1$). The chain reaction terminates when cumulative private savings across all rounds exactly equal the initial injection ($\\sum S = \\Delta I$), restoring macroeconomic equilibrium ($S = I$) at $\\Delta Y = \\frac{\\Delta I}{1 - MPC}$.',
+        trapExplanation: 'Option A confuses statutory debt ceilings with endogenous macroeconomic multiplier mechanics. Option C refers to central bank open market sterilization, not consumer spending chains. Option D incorrectly assumes MPC fluctuates to zero rather than remaining constant.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the fundamental leakage mechanism (MPS) that terminates the Keynesian chain reaction of consumption in KET.',
       },
     ],
   },
