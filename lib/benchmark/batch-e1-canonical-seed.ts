@@ -4129,6 +4129,22 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         isPYQ: false,
         examinerTrapPattern: 'Testing the mathematical identity between Nominal GDP, Real GDP, and the GDP Deflator in the designated base year.',
       },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'An economy produces only two final goods: Rice and Cloth. In Year 1 (designated base year), 100 kg of Rice sells at ₹10/kg and 50 metres of Cloth sells at ₹20/metre. In Year 2, the economy produces 120 kg of Rice at ₹15/kg and 60 metres of Cloth at ₹25/metre. What are the Nominal GDP and Real GDP for Year 2, and what was the true growth rate of physical output?',
+        options: [
+          'Nominal GDP = ₹3,300; Real GDP = ₹2,400; Physical Output Growth = 20%',
+          'Nominal GDP = ₹2,400; Real GDP = ₹3,300; Physical Output Growth = 65%',
+          'Nominal GDP = ₹3,300; Real GDP = ₹2,000; Physical Output Growth = 0%',
+          'Nominal GDP = ₹2,000; Real GDP = ₹2,400; Physical Output Growth = 15%',
+        ],
+        correctAnswer: 'Nominal GDP = ₹3,300; Real GDP = ₹2,400; Physical Output Growth = 20%',
+        explanation: '1. In Year 1 (Base Year): $\\text{Nominal GDP}_1 = (100 \\times 10) + (50 \\times 20) = 1,000 + 1,000 = ₹2,000$. By definition, $\\text{Real GDP}_1 = ₹2,000$.\n2. In Year 2: $\\text{Nominal GDP}_2 = \\sum (P_2 \\times Q_2) = (120 \\times 15) + (60 \\times 25) = 1,800 + 1,500 = ₹3,300$.\n3. Real GDP in Year 2 evaluates Year 2 physical output at Year 1 base prices: $\\text{Real GDP}_2 = \\sum (P_1 \\times Q_2) = (120 \\times 10) + (60 \\times 20) = 1,200 + 1,200 = ₹2,400$.\n4. True Physical Output Growth is the percentage change in Real GDP: $\\frac{2,400 - 2,000}{2,000} \\times 100 = 20\\%$. Notice that while Nominal GDP expanded by 65% ($\\frac{3,300 - 2,000}{2,000} \\times 100$), more than two-thirds of that nominal increase was pure price inflation rather than real output growth.',
+        trapExplanation: 'Option B inverts Nominal GDP and Real GDP values. Option C uses Year 1 output for Real GDP. Option D confuses output growth with the price inflation of individual items.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Calculating multi-product Nominal vs Real GDP using the price-quantity matrix and decomposing nominal growth into real volume vs price inflation.',
+      },
     ],
   },
   {
