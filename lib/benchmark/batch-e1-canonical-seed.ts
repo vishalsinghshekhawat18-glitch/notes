@@ -1052,8 +1052,8 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Supply & Demand" (YouTube: FE0zGR2trT0); Alfred Marshall (1890) Principles of Economics',
-        excerpt: 'A market transaction is an exchange where a buyer receives a product and a seller receives money, requiring agreement on price and quantity. Demand is the group of all buyers who are willing and able to buy, graphed in the first quadrant where price and quantity are non-negative.',
+        locator: 'Professor Ryan, "Price & Quantity" (YouTube: isSVY7mnZ1w), "Supply & Demand" (YouTube: FE0zGR2trT0); Alfred Marshall (1890) Principles of Economics',
+        excerpt: 'A market transaction is an exchange where a buyer receives a product and a seller receives money, requiring mutual agreement on price (P) and quantity (Q). Price represents the per-unit exchange value and scarcity signal, while quantity represents the physical volume of production or consumption. Total market expenditure and firm revenue equal the product of these two fundamental axes: TE = TR = P × Q.',
       },
     ],
     contentBlocks: [
@@ -1064,16 +1064,17 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
 
 ---
 
-### 1. The Anatomy of a Market Transaction: Mutual Agreement on P & Q
-A **market transaction** is an economic exchange:
+### 1. The Anatomy of a Market Transaction: Price (P) & Quantity (Q) (Professor Ryan)
+In **"Price & Quantity"** (YouTube: \`isSVY7mnZ1w\`) and **"Supply & Demand"**, Professor Ryan formalizes how every voluntary market exchange reduces to two core parameters:
 * The **Buyer** receives a good or service and surrenders money.
 * The **Seller** receives money and surrenders the good or service.
 
 For any transaction to take place in a voluntary market economy, both parties must reach explicit **mutual agreement on two specific variables**:
-1. **Price ($P$)**: The monetary consideration per unit of the good.
-2. **Quantity ($Q$)**: The physical volume or number of units exchanged.
+1. **Price ($P$)**: The rate of exchange between money and a unit of the good (monetary consideration per unit). Price acts as the economy's **fundamental information signal** indicating relative scarcity.
+2. **Quantity ($Q$)**: The physical volume or number of units exchanged within a specified timeframe.
 
-If the buyer and seller disagree on either Price or Quantity, the transaction does not occur and the exchange fails. A market is simply the institutional arrangement that brings buyers and sellers together to discover this mutual agreement.
+If the buyer and seller disagree on either Price or Quantity, the transaction does not occur and the exchange fails. A market is simply the institutional arrangement that brings buyers and sellers together to discover this mutual agreement. Furthermore, the product of these two fundamental variables defines aggregate market turnover:
+$$\\mathbf{\\text{Total Expenditure (TE)} = \\text{Total Revenue (TR)} = P \\times Q}$$
 
 ---
 
@@ -1325,6 +1326,22 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Testing the foundational directional contrast and graphical geometry of the Law of Demand (inverse/downward) versus the Law of Supply (direct/upward).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In microeconomic theory and Professor Ryan\'s analysis in "Price & Quantity", which of the following statements correctly defines the fundamental economic roles of Price ($P$) and Quantity ($Q$) in a voluntary market transaction?',
+        options: [
+          'Price ($P$) serves as the per-unit exchange value and information signal of relative scarcity, while Quantity ($Q$) measures the physical volume of units exchanged; a market transaction requires mutual agreement on both variables, and their product constitutes Total Expenditure ($\\text{TE} = P \\times Q$).',
+          'Price represents the total lifetime utility of a good, while Quantity measures the rate of inflation across the entire national economy.',
+          'Price is determined solely by government administrative decree, while Quantity is strictly determined by consumer wishes without regard to purchasing power.',
+          'Price and Quantity are identical concepts that can be used interchangeably when evaluating individual firm revenue.',
+        ],
+        correctAnswer: 'Price ($P$) serves as the per-unit exchange value and information signal of relative scarcity, while Quantity ($Q$) measures the physical volume of units exchanged; a market transaction requires mutual agreement on both variables, and their product constitutes Total Expenditure ($\\text{TE} = P \\times Q$).',
+        explanation: 'In "Price & Quantity", Professor Ryan demonstrates that every voluntary market transaction requires mutual agreement on two distinct variables: (1) Price ($P$), the rate of exchange between money and a unit of the good, acting as a decentralized information signal of relative scarcity; and (2) Quantity ($Q$), the physical volume of units bought and sold. If either variable fails to reach consensus between buyer and seller, the transaction fails. Furthermore, multiplying these two fundamental dimensions yields Total Market Expenditure from the consumer perspective and Total Revenue from the seller perspective ($\\text{TE} = \\text{TR} = P \\times Q$).',
+        trapExplanation: 'Option B confuses microeconomic transaction variables with subjective lifetime utility and macroeconomic inflation. Option C describes a command economy price ceiling and ignores effective demand. Option D confuses an intensive variable (price per unit) with an extensive variable (total physical volume).',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the foundational microeconomic definition of Price (rate of exchange / scarcity signal) and Quantity (physical volume) and their product (Total Expenditure / Revenue).',
       },
     ],
   },
