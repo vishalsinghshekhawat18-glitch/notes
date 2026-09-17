@@ -335,10 +335,26 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
 | **Verifiability** | Can be tested and verified against empirical data. | Cannot be verified; represents opinions and philosophical priorities. |
 | **Example** | *"A 10% hike in fuel tax reduces petrol consumption by 3%."* | *"The government should reduce fuel taxes to protect poor households."* |
 
-### 2. Microeconomics vs Macroeconomics
-* **Microeconomics (Price Theory):** Studies the economic behaviour of individual economic agents (a single consumer, firm, industry, or market). Analyzes price determination for specific goods.
-* **Macroeconomics (Income & Employment Theory):** Studies the economy as an aggregate whole. Analyzes national income, aggregate price level (inflation), total unemployment, balance of payments, and monetary/fiscal policies.
-* **The Fallacy of Composition:** What is true for an individual may be disastrous if practiced by everyone simultaneously (e.g. **The Paradox of Thrift** — if one person saves more, their wealth increases; if all citizens save more simultaneously, aggregate demand collapses, triggering a national recession).`,
+### 2. The Microeconomics vs Macroeconomics Dichotomy
+Economics is fundamentally divided into two major branches based on the scale of analysis:
+
+| Dimension | Microeconomics (Price Theory) | Macroeconomics (Income & Employment Theory) |
+| :--- | :--- | :--- |
+| **Origin & Founder** | Classical tradition (Adam Smith, Alfred Marshall). | Modern macroeconomics was born with **John Maynard Keynes (1936)** during the Great Depression. |
+| **Unit of Analysis** | Individual decision-makers: single consumer, household, firm, or specific industry. | The economy as an integrated aggregate whole (National / Global). |
+| **Central Focus** | **Resource allocation & Price determination:** How prices of apples, steel, or software engineer salaries are set in competitive markets. | **Aggregate Output & Stability:** Total national income, general price level (inflation), nationwide employment, and business cycle volatility. |
+| **Equilibrium Concept** | Partial Equilibrium (analyzing one market holding all other markets constant — *ceteris paribus*). | General Equilibrium (simultaneous equilibrium across goods markets, money markets, labour markets, and foreign trade). |
+| **Primary Instruments** | Price mechanism, marginal utility, supply-demand curves, profit maximization. | Fiscal Policy (taxation and government spending) and Monetary Policy (interest rates, money supply, reserve ratios). |
+
+### 3. The Three Grand Goals of Macroeconomic Policy
+Governments and central banks worldwide pursue three universal macroeconomic objectives:
+1. **Economic Growth:** Sustained expansion in productive capacity and Real GDP over time.
+2. **Price Stability:** Low, predictable inflation (e.g., the RBI's statutory target of $4\% \pm 2\%$) avoiding both destructive inflation and deflationary traps.
+3. **Full Employment:** Minimizing cyclical and involuntary unemployment so that everyone willing and able to work finds employment at prevailing wages.
+
+### 4. The Fallacy of Composition & The Paradox of Thrift
+The defining conceptual difference between Micro and Macro is the **Fallacy of Composition**: *the false belief that what is logically valid for an individual must also be true for the aggregate whole*.
+* **The Paradox of Thrift (Keynes):** If an individual household saves more of its income, its personal wealth increases (Micro perspective). But if **all households in the nation save more simultaneously**, total consumption expenditure plunges. Because one person's spending is another person's income, aggregate business revenue collapses, factories lay off workers, national income falls, and total aggregate savings in the economy paradoxically end up lower than before!`,
         order: 2,
       },
       {
