@@ -408,8 +408,8 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 29: Unemployment and the Foundations of Aggregate Supply; N. Gregory Mankiw, Macroeconomics, Chapter 7: Unemployment; Arthur Okun (1962) "Potential GNP: Its Measurement and Significance"',
-        excerpt: 'The natural rate of unemployment is the rate toward which the economy gravitates in the long run. Cyclical unemployment is the deviation of unemployment from its natural rate.',
+        locator: 'Professor Ryan, "Okuns Law" (YouTube: kbBr3oRLE54); Paul Samuelson & William Nordhaus, Economics, Chapter 29: Unemployment and the Foundations of Aggregate Supply; N. Gregory Mankiw, Macroeconomics, Chapter 7: Unemployment; Arthur Okun (1962) "Potential GNP: Its Measurement and Significance"',
+        excerpt: 'The natural rate of unemployment is the rate toward which the economy gravitates in the long run. Cyclical unemployment is the deviation of unemployment from its natural rate. Okun\'s Law demonstrates that for every 1% that cyclical unemployment rises above the natural rate, real GDP falls by approximately 2% relative to potential GDP due to labor hoarding, discouraged worker labor force exits, and idle capital capacity.',
       },
       {
         id: 'CLM-ECO-02-08',
@@ -694,13 +694,43 @@ When an economy is at Full Employment ($U = \text{NRU}$), it operates at its **P
 
 ---
 
-#### Okun's Law: The Real-World Output Cost of Cyclical Unemployment
-Arthur Okun (1962), Chairman of the U.S. Council of Economic Advisers, quantified the direct mathematical link between cyclical unemployment and lost national production:
+#### Okun's Law: The Real-World Output Cost of Cyclical Unemployment (Professor Ryan)
+In *"Okuns Law"*, Professor Ryan formalizes Arthur Okun's (1962) seminal empirical discovery linking labor market distress to lost macroeconomic production. While unemployment is experienced as an individual hardship, Okun's Law quantifies its aggregate damage to national output:
 
-$$\frac{Y^* - Y}{Y^*} \approx 2 \times (U - \text{NRU})$$
+$$\\mathbf{\\frac{Y^* - Y}{Y^*} \\approx \\beta \\times (u - u^*)} \\quad \\iff \\quad \\mathbf{\\% \\text{ Output Gap} \\approx -\\beta \\times (u - u^*)}$$
 
-* **Core Rule of Thumb**: For every **$1\%$ increase in cyclical unemployment** above the Natural Rate ($U > \text{NRU}$), an economy suffers an approximate **$2\%$ loss in Real GDP** relative to its potential output (the **GDP Output Gap**).
-* **The Irreversible Loss**: Unlike physical capital that can be put to work tomorrow, an idle worker's labor today is gone forever—the haircuts, lines of code, medical consultations, or manufactured parts that could have been produced today vanish permanently from national wealth.
+where:
+- $\\mathbf{Y}$ = Actual Real GDP produced by the economy.
+- $\\mathbf{Y^*}$ = Potential GDP (Natural Real GDP under full employment and price stability).
+- $\\mathbf{u}$ = Actual Unemployment Rate.
+- $\\mathbf{u^*}$ = Natural Rate of Unemployment (NRU, where cyclical unemployment is zero).
+- $\\mathbf{(u - u^*)}$ = Cyclical Unemployment Rate.
+- $\\mathbf{\\beta}$ = **Okun\'s Coefficient / Sensitivity Factor** (empirically estimated at $\\approx 2.0$, historically between 2 and 3 in developed and emerging economies).
+
+##### 1. The Core 1-Step Numerical Rule of Thumb:
+For every **$1\\%$ increase in cyclical unemployment** above the Natural Rate ($u > u^*$), the economy suffers an approximate **$2\\%$ contraction in Real GDP** relative to potential output:
+$$\\mathbf{\\Delta u = +1\\% \\implies \\% \\text{ GDP Output Gap} = -2\\%}$$
+
+##### 2. The Central Macroeconomic Puzzle: Why is Okun\'s Coefficient $\\beta > 1$?
+A naive linear assumption would suggest that if $1\\%$ of workers become unemployed, national output should fall by exactly $1\\%$. Why does output fall twice as much ($\\beta \\approx 2$)?
+As Professor Ryan explains, the official headline unemployment rate represents only the visible tip of the labor underutilization iceberg:
+1. **Labor Hoarding & Reduced Hours:** Because hiring, background vetting, and training new workers is expensive, firms facing falling demand do not lay off all redundant staff immediately. Instead, they cut average working hours (e.g., from 40 to 32 hours/week) or keep skilled personnel on payroll at reduced operating speed.
+2. **The Discouraged Worker Effect (Labor Force Shrinkage):** In deep recessions, thousands of laid-off workers stop actively searching after months of rejection, dropping out of the labor force entirely ($LF \\downarrow$). Because the headline unemployment rate ($u = U / LF$) counts only *active* job seekers, it severely **understates** the true loss of labor input!
+3. **Capital Underutilization:** When workers are laid off, the factory machines, software licenses, and commercial vehicles they operate sit idle. Output collapses because complementary capital and labor are unutilized simultaneously.
+4. **Pro-Cyclical Productivity:** Output per worker drops during downturns as overhead labor (administration, maintenance, management) is spread over smaller production volume.
+
+##### 3. The Difference (Growth) Form of Okun\'s Law:
+Over time, because the labor force grows and capital technology advances, potential GDP expands at an annual trend rate ($g^* \\approx 3\\%$ in advanced economies, $\\approx 6\\text{--}7\\%$ in India). In growth terms:
+$$\\mathbf{\\% \\Delta Y \\approx g^* - \\beta \\times \\Delta u}$$
+- To keep the unemployment rate constant ($\\Delta u = 0$), Real GDP must grow at the rate of potential output ($g^*$).
+- If Real GDP grows slower than potential output, unemployment rises; if Real GDP grows faster than potential output, unemployment falls.
+
+##### 4. Numerical Application & Irreversible Loss:
+- *Scenario:* Potential GDP $Y^* = ₹10,000\\text{ Crore}$, Natural Rate $u^* = 4.5\\%$. In a cyclical downturn, actual unemployment rises to $u = 7.0\\%$.
+- *Cyclical Unemployment:* $u - u^* = 7.0\\% - 4.5\\% = +2.5\\%$.
+- *Output Gap:* $\\% \\text{ Gap} = -2 \\times (+2.5\\%) = -5.0\\%$.
+- *Lost Production:* $5.0\\% \\times ₹10,000\\text{ Crore} = \\mathbf{₹500\\text{ Crore}}$ of goods and services that are never produced.
+- *The Irreversible Nature of Lost Output:* Unlike physical machinery that can be mothballed and restarted later, human labor hours that sit idle today vanish forever—the medical procedures, teaching hours, software code, and manufacturing assemblies that could have enriched society today are permanently lost from national wealth.
 
 ---
 
@@ -955,6 +985,22 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the two-stage decomposition of Nominal GDP into Real GDP (inflation adjustment) and Real GDP per capita (population adjustment) to measure living standards.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'An emerging economy has an estimated Potential GDP of ₹20,000 Crore and a Natural Rate of Unemployment (NRU) of 5.0%. Due to a global trade contraction, actual unemployment rises to 8.0%. Assuming an Okun\'s sensitivity coefficient of β = 2.0 as analyzed by Professor Ryan in "Okuns Law", what is the resulting GDP Output Gap, and which of the following explains why Okun\'s coefficient is greater than 1.0 (β > 1)?',
+        options: [
+          'Output Gap: -6.0% (₹1,200 Crore of lost GDP); β > 1 because rising unemployment is accompanied by reduced average working hours, discouraged worker labor force dropouts, and underutilized capital machinery.',
+          'Output Gap: -3.0% (₹600 Crore of lost GDP); β > 1 because inflation accelerates when workers become unemployed.',
+          'Output Gap: +6.0% (₹1,200 Crore of surplus GDP); β > 1 because firms hire extra workers during recessions to prepare for the recovery.',
+          'Output Gap: -1.5% (₹300 Crore of lost GDP); β > 1 because potential GDP automatically contracts whenever actual unemployment rises.',
+        ],
+        correctAnswer: 'Output Gap: -6.0% (₹1,200 Crore of lost GDP); β > 1 because rising unemployment is accompanied by reduced average working hours, discouraged worker labor force dropouts, and underutilized capital machinery.',
+        explanation: 'According to Okun\'s Law (\\frac{Y^* - Y}{Y^*} \\approx \\beta \\times [u - u^*]), Cyclical Unemployment is u - u^* = 8.0% - 5.0% = +3.0%. With Okun\'s coefficient \\beta = 2.0, the percentage GDP Output Gap is -\\beta \\times (u - u^*) = -2.0 \\times 3.0% = -6.0%. The absolute volume of lost output is 6.0% \\times ₹20,000 Crore = ₹1,200 Crore. As Professor Ryan demonstrates in "Okuns Law", \\beta > 1 (a 1% rise in unemployment causes more than a 1% drop in output) because official headline unemployment captures only active job seekers. During a recession, firms practice labor hoarding and cut average weekly hours, frustrated workers drop out of the labor force into the discouraged worker pool (hiding true labor loss), and idle workers leave factory capital machinery unutilized simultaneously.',
+        trapExplanation: 'Option B erroneously uses a 1-to-1 ratio (\\beta = 1.0) and invents an inflation claim. Option C confuses a recessionary output gap with an expansionary surplus. Option D divides by 2 instead of multiplying by \\beta = 2.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Applying the Okun\'s Law formula (-β × cyclical unemployment) and understanding the multi-channel transmission reasons why β exceeds 1.',
       },
     ],
   },
