@@ -4563,8 +4563,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. Closing a recessionary gap via SRAS requires increasing SRAS (shifting rightward as factor costs fall), which expands real GDP back to potential while lowering the price level. Closing an inflationary gap via SRAS occurs as input shortages bid up factor costs, shifting SRAS leftward back to potential output at a higher price level.',
+        locator: 'Professor Ryan, "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. Output gaps can be closed either through the demand side (shifting AD via fiscal and monetary policies) or through the supply side (shifting SRAS via factor cost adjustments). Closing a recessionary gap via AD (expansionary policy) shifts AD rightward, expanding real GDP back to potential while raising the price level (PL ↑). Closing an inflationary gap via AD (contractionary policy) shifts AD leftward, cooling real GDP back to potential while lowering the price level (PL ↓), in stark contrast to SRAS self-correction which pushes the price level higher.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -4896,7 +4896,7 @@ $$\mathbf{\text{Output Gap} = \text{Actual Output } (Y) - \text{Natural Real GDP
 ---
 
 ### 3. Closing Output Gaps: The Aggregate Demand (AD) vs Short-Run Supply (SRAS) Adjustment Pathways (Professor Ryan)
-In **"Closing Output Gaps with SRAS"**, **"Closing Output Gaps in KET"**, and **"KET - Increase or Decrease GDP"**, Professor Ryan synthesizes how macroeconomic theory addresses output gaps ($Y - Y^^*$) through either the demand side ($AD$) or the supply side ($SRAS$):
+In **"Closing Output Gaps with AD"**, **"Closing Output Gaps with SRAS"**, **"Closing Output Gaps in KET"**, and **"KET - Increase or Decrease GDP"**, Professor Ryan synthesizes how macroeconomic theory addresses output gaps ($Y - Y^*$) through either the demand side ($AD$) or the supply side ($SRAS$):
 
 \`\`\`text
 ========================================================================================
@@ -5455,6 +5455,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the supply-side self-correction mechanism for closing an inflationary gap ($SRAS \\downarrow$) and its stagflationary price-raising consequence ($PL \\uparrow$).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic theory and Professor Ryan\'s lectures in "Closing Output Gaps with AD" and "Closing Output Gaps with SRAS", how does closing an INFLATIONARY GAP ($Y > Y^*$) via contractionary Aggregate Demand policy differ from closing it via the market\'s Short-Run Aggregate Supply (SRAS) self-correction mechanism in terms of the price level outcome?',
+        options: [
+          'Closing the inflationary gap via contractionary AD policy ($AD \\downarrow$) reduces the price level ($PL \\downarrow$, achieving disinflation), whereas self-correction via the SRAS channel ($SRAS \\downarrow$) pushes the price level even higher ($PL \\uparrow$) as factor costs rise.',
+          'Closing the inflationary gap via AD policy shifts the LRAS curve permanently to the right, whereas SRAS self-correction shifts LRAS permanently to the left.',
+          'Both mechanisms result in an identical increase in the price level because total money supply in circulation remains fixed in both cases.',
+          'Closing the gap via AD causes hyperinflation, whereas SRAS self-correction eliminates all structural unemployment in the economy.',
+        ],
+        correctAnswer: 'Closing the inflationary gap via contractionary AD policy ($AD \\downarrow$) reduces the price level ($PL \\downarrow$, achieving disinflation), whereas self-correction via the SRAS channel ($SRAS \\downarrow$) pushes the price level even higher ($PL \\uparrow$) as factor costs rise.',
+        explanation: 'In "Closing Output Gaps with AD" and "Closing Output Gaps with SRAS", Professor Ryan highlights the critical divergence between active demand management and supply-side self-correction during an inflationary gap ($Y > Y^*$). When policymakers intervene with contractionary fiscal or monetary policy, Aggregate Demand shifts leftward ($AD \\downarrow$), moving the economy down along the existing SRAS curve back to Potential Output ($Y^*$) while reducing the price level ($PL \\downarrow$), thereby tamping down inflation. In contrast, if the economy is left to self-correct without policy intervention, severe resource and labor shortages bid up factor prices and nominal wages, increasing production costs. This shifts SRAS leftward ($SRAS \\downarrow$), which also restores output to $Y^*$, but does so by driving the price level permanently higher ($PL \\uparrow$), resulting in further cost-push inflation.',
+        trapExplanation: 'Option B is incorrect because neither short-run AD demand policy nor short-run SRAS wage adjustments shift the vertical LRAS curve (which depends on physical factor endowments and technology). Option C incorrectly assumes price movements are identical; AD shifts move P and Y in the same direction, while SRAS shifts move them in opposite directions. Option D is factually untrue.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Contrasting the price-level trajectory when closing an inflationary gap via Aggregate Demand ($AD \\downarrow \\implies PL \\downarrow$) versus Short-Run Aggregate Supply ($SRAS \\downarrow \\implies PL \\uparrow$).',
       },
     ],
   },
