@@ -3741,8 +3741,8 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Nominal GDP" (YouTube: MVWE4f_jntM) & "Output" (YouTube: 3SXc0XBQZKM); MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
-        excerpt: 'Output (Q) measures the physical volume of currently produced goods and services; Nominal GDP conflates physical output with market prices, requiring constant base-year pricing (Real GDP) to isolate true macroeconomic expansion.',
+        locator: 'Professor Ryan, "Nominal GDP" (YouTube: MVWE4f_jntM), "Real GDP" (YouTube: xK5Vv-WlgZA) & "Output" (YouTube: 3SXc0XBQZKM); MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
+        excerpt: 'Output (Q) measures the physical volume of currently produced goods and services; Nominal GDP conflates physical output with market prices, requiring constant base-year pricing (Real GDP) to isolate true macroeconomic expansion. In the base year, Nominal GDP and Real GDP are identical by definition.',
       },
       {
         id: 'CLM-ECO-16-02',
@@ -3807,7 +3807,10 @@ Because Nominal GDP conflates $P$ and $Q$, changes in Nominal GDP stem from thre
 
 ---
 
-### 2. The Single-Good Economy Numerical Illustration
+### 2. The Numerical Framework: Single-Good & Multi-Product Real GDP (Professor Ryan)
+In *"Real GDP"*, Professor Ryan demonstrates how fixing prices to a designated base year neutralizes the distortion of price inflation across single-good and multi-product economies.
+
+#### The Single-Good Economy Illustration:
 Imagine an economy that produces only one good: **Bicycles**.
 * **Year 1 (Base Year):** Produces 100 bicycles at ₹1,000 each $\\implies \\text{Nominal GDP} = \\mathbf{₹1,00,000}$.
 * **Year 2:** Produces 100 bicycles at ₹2,000 each $\\implies \\text{Nominal GDP} = \\mathbf{₹2,00,000}$.
@@ -3815,7 +3818,24 @@ Imagine an economy that produces only one good: **Bicycles**.
 Did the economy become twice as wealthy in Year 2? **No!** Citizens have the exact same 100 bicycles to ride. Physical output grew by **0%**, but pure monetary price inflation caused Nominal GDP to double.
 
 * **Why Nominal GDP Cannot Compare Across Years:** Because each year's Nominal GDP is measured using a different measuring rod (shifting price levels), comparing Nominal GDP directly across years violates the law of invariant measurement.
-* **The Solution — Real GDP:** Evaluates output using constant Base Year prices ($\\sum P_{\\text{base}} \\times Q_{\\text{current}}$) to neutralize price inflation and isolate genuine physical expansion.
+* **The Solution — Real GDP:** Evaluates output using constant Base Year prices ($\\sum P_{\\text{base}} \\times Q_{\\text{current}}$) to neutralize price inflation and isolate genuine physical expansion:
+  $$\\text{Real GDP}_{\\text{Year 2}} = P_{\\text{Year 1}} \\times Q_{\\text{Year 2}} = ₹1,000 \\times 100 = \\mathbf{₹1,00,000}$$
+  Real GDP growth is correctly shown as **0%**.
+
+#### The Fundamental Base-Year Equality Theorem:
+1. **In the Base Year ($t = \\text{base}$):**
+   $$\\mathbf{\\text{Nominal GDP}_{\\text{base}} \\equiv \\text{Real GDP}_{\\text{base}}}$$
+   Because $P_{\\text{current}} = P_{\\text{base}}$ by definition, the implicit GDP Deflator in the designated base year always equals exactly **100**.
+2. **In Post-Base Inflationary Years ($P_t > P_{\\text{base}}$):**
+   $$\\mathbf{\\text{Nominal GDP}_t > \\text{Real GDP}_t}$$
+   Nominal GDP is pulled upward by inflated prices, while Real GDP reflects true physical output.
+3. **In Pre-Base Years or Deflationary Periods ($P_t < P_{\\text{base}}$):**
+   $$\\mathbf{\\text{Nominal GDP}_t < \\text{Real GDP}_t}$$
+
+#### General Multi-Product Formulation:
+For an economy producing $n$ distinct goods and services:
+$$\\mathbf{\\text{Real GDP}_t = \\sum_{i=1}^n \\left( P_{i, \\text{base}} \\times Q_{i, t} \\right)}$$
+By freezing every individual price tag at its base-year level ($P_{i, \\text{base}}$), any change in the resulting aggregate sum across years is driven purely by changes in the physical quantities produced ($Q_{i, t}$).
 
 ---
 
@@ -4092,6 +4112,22 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Testing the mathematical and economic relationship between Aggregate Real GDP Growth, Population Growth, and Per Capita Real GDP.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'By macroeconomic accounting definition, which of the following mathematical relationships between Nominal GDP and Real GDP must hold true in an economy\'s designated "Base Year"?',
+        options: [
+          'Nominal GDP must be strictly greater than Real GDP by an amount equal to the annual core inflation rate.',
+          'Nominal GDP is identically equal to Real GDP, and the economy\'s implicit GDP Deflator equals exactly 100.',
+          'Real GDP must equal zero, because constant base-year price indices are only calculated starting from Year 2.',
+          'Nominal GDP equals Real GDP divided by the Marginal Propensity to Consume ($MPC$).',
+        ],
+        correctAnswer: 'Nominal GDP is identically equal to Real GDP, and the economy\'s implicit GDP Deflator equals exactly 100.',
+        explanation: 'As Professor Ryan demonstrates in "Real GDP", Real GDP is defined as $\\sum (P_{\\text{base}} \\times Q_t)$, while Nominal GDP is defined as $\\sum (P_t \\times Q_t)$. In the designated base year ($t = \\text{base}$), the current prices are identical to base-year prices ($P_{\\text{current}} = P_{\\text{base}}$). Consequently, Nominal GDP and Real GDP are identical by definition: $\\text{Nominal GDP}_{\\text{base}} = \\text{Real GDP}_{\\text{base}}$, and the implicit GDP Deflator ($\\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100$) must equal 100.',
+        trapExplanation: 'Option A describes post-base inflationary years, not the base year itself. Option C is a severe misconception of base period benchmarking. Option D confuses national income accounting with Keynesian multiplier theory.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the mathematical identity between Nominal GDP, Real GDP, and the GDP Deflator in the designated base year.',
       },
     ],
   },
