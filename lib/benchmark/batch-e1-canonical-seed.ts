@@ -101,12 +101,12 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
       },
       {
         id: 'CLM-ECO-01-03',
-        statement: 'Points on the PPF represent productive efficiency; the specific output point chosen by society represents allocative efficiency; points inside indicate underutilization or unemployment.',
+        statement: 'Points on the PPF represent productive efficiency; the specific output point chosen by society represents allocative efficiency; points inside indicate underutilization of productive capacity or unemployment, measured empirically by the Capacity Utilization Rate: $\\text{Capacity Utilization} = \\left(\\frac{\\text{Actual Output}}{\\text{Potential Output}}\\right) \\times 100$.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1',
-        excerpt: 'An economy achieves productive efficiency when it cannot produce more of one good without producing less of another, operating precisely on its production frontier.',
+        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Professor Ryan, "Capacity Utilization" (YouTube: 8G5oTUQ0lIs)',
+        excerpt: 'An economy achieves productive efficiency when it operates on its production frontier. Operating inside the frontier reflects underutilization of capacity. Capacity utilization measures the proportion of potential output actually realized; moving from inside to the frontier represents mobilizing idle capacity rather than expanding total productive capacity.',
       },
     ],
     contentBlocks: [
@@ -151,7 +151,16 @@ $$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost
 |---|---|---|
 | **Points on the Curve ($A, B, C$)** | **Productive Efficiency** | Full employment of all resources and optimal technology utilization. |
 | **Points Inside the Curve ($U$)** | **Inefficiency / Underutilization** | Unemployment, idle factory capacity, or misallocated resources. |
-| **Points Outside the Curve ($X$)** | **Unattainable in Short Run** | Requires economic growth (capital accumulation, technological progress, or labour force expansion) to reach. |`,
+| **Points Outside the Curve ($X$)** | **Unattainable in Short Run** | Requires economic growth (capital accumulation, technological progress, or labour force expansion) to reach. |
+
+### 4. Capacity Utilization: Operating Inside the PPF vs Expanding the PPF (Professor Ryan)
+As Professor Ryan clarifies in *"Capacity Utilization"*, an economy's position relative to its PPF directly reflects its **Capacity Utilization Rate**:
+
+$$\\text{Capacity Utilization Rate} = \\left( \\frac{\\text{Actual Output } (Y)}{\\text{Potential Output / Productive Capacity } (Y^*)} \\right) \\times 100$$
+
+* **Operating Inside the Frontier (Capacity Utilization below 100%):** Represents underemployed labor, unutilized industrial machinery, and idle factory shifts. Moving from a point inside the PPF outward to the boundary represents an **increase in capacity utilization** (mobilizing existing idle resources), leaving total productive capacity unchanged.
+* **Operating on the Frontier (Productive Efficiency):** Represents full, efficient employment of existing productive capacity ($Y = Y^*$).
+* **Shifting the Frontier Outward (Expanding Productive Capacity):** Represents an outward expansion in potential output ($Y^*$) through investment in physical capital, technological innovation, or labor force growth.`,
         order: 2,
       },
       {
@@ -3999,12 +4008,12 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
       },
       {
         id: 'CLM-ECO-17-05',
-        statement: 'The Aggregate Market model conceptually clusters all individual product markets into a unified macroeconomic framework where the price level (GDP Deflator / CPI) replaces individual price and Real GDP replaces individual quantity; Aggregate Demand ($AD = C + I + G + NX$) is downward-sloping, Short-Run Aggregate Supply (SRAS) is upward-sloping due to sticky input costs, and Long-Run Aggregate Supply (LRAS) is strictly vertical at potential output ($Y^*$) because long-run production depends exclusively on the economy\'s physical ability to produce (factor endowments and technology) rather than the price level or short-run willingness to produce.',
+        statement: 'The Aggregate Market model conceptually clusters all individual product markets into a unified macroeconomic framework where the price level (GDP Deflator / CPI) replaces individual price and Real GDP replaces individual quantity; Aggregate Demand ($AD = C + I + G + NX$) is downward-sloping, Short-Run Aggregate Supply (SRAS) is upward-sloping due to sticky input costs, and Long-Run Aggregate Supply (LRAS) is strictly vertical at potential output ($Y^*$) because long-run production depends exclusively on the economy\'s physical ability to produce (factor endowments and technology) rather than the price level or short-run willingness to produce; the percentage of potential productive capacity actively in use is measured by the Capacity Utilization Rate $\\left(\\frac{Y}{Y^*} \\times 100\\right)$.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4) & "Productive Capacity" (YouTube: mUkYt6cXxqY); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
-        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. LRAS is vertical at potential output ($Y^*$) because it reflects the economy\'s maximum physical productive capacity (governed by labor, capital, natural resources, and technology), which is invariant to aggregate price levels.',
+        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
+        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. LRAS is vertical at potential output ($Y^*$) because it reflects the economy\'s maximum physical productive capacity. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain.',
       },
       {
         id: 'CLM-ECO-17-06',
@@ -4330,7 +4339,28 @@ In **"Closing Output Gaps in KET"** and **"KET - Increase or Decrease GDP"**, Pr
 | :--- | :--- | :--- |
 | **Closing a Recessionary Gap ($Y < Y^*$)** | **Action:** Increase Aggregate Demand ($AD \\uparrow$) via expansionary fiscal policy ($G \\uparrow, T \\downarrow$) or monetary easing ($M_s \\uparrow, i \\downarrow$).<br>**Mechanism:** Multiplied expansion ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** as demand pulls output back to $Y^*$. | **Action:** Nominal wages and factor prices fall due to surplus labor ($SRAS \\uparrow$).<br>**Mechanism:** Reduced production costs shift $SRAS$ rightward.<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)**.<br>**Keynesian Critique:** ⚠️ **Downward Wage Rigidity** stalls this channel; workers and unions fiercely resist nominal wage cuts, leaving the economy trapped in high unemployment without policy stimulus. |
 | **Closing an Inflationary Gap ($Y > Y^*$)** | **Action:** Decrease Aggregate Demand ($AD \\downarrow$) via contractionary fiscal policy ($G \\downarrow, T \\uparrow$) or monetary tightening ($i \\uparrow$).<br>**Mechanism:** Multiplied contraction ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)** (disinflation). | **Action:** Labor shortages bid up nominal wages, and raw material costs surge ($SRAS \\downarrow$).<br>**Mechanism:** Increased production costs shift $SRAS$ leftward back to $Y^*$.<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** (stagflationary pressure). |
-| **Directional Price-Output Nexus** | **Same Direction:** Shifts in $AD$ move Real GDP and Price Level in the **SAME direction** ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$; $AD \\downarrow \\implies Y \\downarrow, PL \\downarrow$). | **Opposite Direction:** Shifts in $SRAS$ move Real GDP and Price Level in **OPPOSITE directions** ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$; $SRAS \\downarrow \\implies Y \\downarrow, PL \\uparrow$). |`,
+| **Directional Price-Output Nexus** | **Same Direction:** Shifts in $AD$ move Real GDP and Price Level in the **SAME direction** ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$; $AD \\downarrow \\implies Y \\downarrow, PL \\downarrow$). | **Opposite Direction:** Shifts in $SRAS$ move Real GDP and Price Level in **OPPOSITE directions** ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$; $SRAS \\downarrow \\implies Y \\downarrow, PL \\uparrow$). |
+
+---
+
+### 4. Capacity Utilization across Output Gaps (Professor Ryan)
+In *"Capacity Utilization"*, Professor Ryan formalizes how an economy's actual production relates to its potential productive capacity across the business cycle:
+
+$$\\mathbf{\\text{Capacity Utilization Rate (CUR)}} = \\left( \\frac{\\text{Actual Output } (Y)}{\\text{Potential Productive Capacity } (Y^*)} \\right) \\times 100$$
+
+#### The Three Operational Regimes:
+1. **Recessionary Gap ($Y < Y^*$ / Subdued Capacity Utilization):**
+   - **Characteristics:** CUR drops well below sustainable benchmarks (frequently below 75% in deep cyclical downturns).
+   - **Economic Consequences:** Factories maintain idle assembly lines, machines sit dormant, and cyclical unemployment climbs. With abundant unutilized capacity already in place, business enterprises have little incentive to purchase new capital equipment, causing **Private Investment ($I$) to stagnate**. Output prices and wages face persistent disinflationary or deflationary pressure.
+2. **Potential Output / Sustainable Full Employment ($Y = Y^*$ / Optimal Operating Capacity):**
+   - **Characteristics:** CUR hovers around its **sustainable long-run operating norm** (approximately 80% to 85% in advanced and large emerging economies).
+   - **Why Sustainable Capacity is not 100%:** Continuous 100% capacity utilization is neither feasible nor desirable in a dynamic economy. Physical equipment requires regular maintenance downtime, manufacturing plants need changeover buffers, and labor forces work standard shifts. An 80–85% utilization rate provides the optimal buffer to accommodate unexpected demand spikes without provoking immediate cost bottlenecks.
+3. **Inflationary Gap ($Y > Y^*$ / Over-Utilized Capacity):**
+   - **Characteristics:** CUR surges into unsustainable territory (above 85% to 90%).
+   - **Economic Consequences:** Plants operate continuous 24/7 overtime shifts, routine machinery servicing is postponed, and supply chain logistics become congested. As firms compete aggressively for scarce inputs, workers demand overtime premiums and supplier quotes escalate. This operational strain directly fuels **demand-pull and cost-push inflationary spirals**.
+
+#### Empirical Application: RBI's Manufacturing OBICUS Survey
+In India, the **Reserve Bank of India (RBI)** tracks manufacturing capacity utilization through its quarterly **Order Books, Inventories and Capacity Utilisation Survey (OBICUS)**. The Monetary Policy Committee (MPC) treats a sustained rise in capacity utilization above its historical long-term average (~75–76%) as a pivotal macroeconomic turning point: it signals that corporate balance sheets are exhausting idle capacity, foreshadowing the revival of the **Private Capital Expenditure (Capex) Cycle** (shifting LRAS rightward over time) while indicating rising underlying demand pressures.`,
         order: 3,
       },
       {
@@ -4516,6 +4546,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the contrasting directional price level effects of closing output gaps via Aggregate Demand versus Short-Run Aggregate Supply.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In macroeconomic analysis, why does an economy operating at Potential GDP ($Y^*$) maintain an optimal Capacity Utilization Rate of approximately 80% to 85% rather than 100%, and what typically occurs when capacity utilization exceeds 90%?',
+        options: [
+          'Because 15% to 20% of factory equipment is permanently obsolete; when utilization exceeds 90%, the economy immediately falls into a liquidity trap.',
+          'Because 80% to 85% allows necessary maintenance downtime and operational flexibility; exceeding 90% creates input bottlenecks and overtime pressures that fuel demand-pull and cost-push inflation.',
+          'Because central bank regulations legally mandate that 15% of all factory capacity remain idle as a strategic reserve; exceeding 90% triggers automatic statutory fines.',
+          'Because operating below 100% causes nominal wages to continuously fall, ensuring guaranteed long-run price deflation.',
+        ],
+        correctAnswer: 'Because 80% to 85% allows necessary maintenance downtime and operational flexibility; exceeding 90% creates input bottlenecks and overtime pressures that fuel demand-pull and cost-push inflation.',
+        explanation: 'As Professor Ryan explains in "Capacity Utilization", sustainable full-capacity potential output ($Y^*$) does not correspond to 100% engineering utilization. An optimal capacity utilization rate of ~80–85% allows for regular equipment maintenance, repairs, shift changes, and buffer stock management. When capacity utilization surges beyond 90% (an inflationary gap, $Y > Y^*$), plants run unsustainable overtime shifts, machine breakdowns increase, and severe supply chain bottlenecks emerge. Firms aggressively bid up nominal wages and raw material prices, generating accelerating inflationary pressures.',
+        trapExplanation: 'Option A confuses operational downtime with permanent obsolescence. Option C invents fictitious statutory regulations. Option D incorrectly claims below-100% utilization guarantees deflation.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Confusing sustainable potential output (80-85% utilization) with absolute 100% mechanical utilization, and identifying the inflationary consequence of over-utilization.',
       },
     ],
   },
