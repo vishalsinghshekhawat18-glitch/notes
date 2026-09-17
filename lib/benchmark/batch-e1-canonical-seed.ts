@@ -326,6 +326,15 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 19; N. Gregory Mankiw, Macroeconomics; RBI Act 1934 Section 45ZA',
         excerpt: 'The three central goals of macroeconomic policy are high and growing levels of real output, high employment with low involuntary unemployment, and stable prices.',
       },
+      {
+        id: 'CLM-ECO-02-06',
+        statement: 'To measure macroeconomic employment, the civilian non-institutional adult population is partitioned into three mutually exclusive categories: Employed (worked ≥1 hour for pay, ≥15 hours unpaid in a family business, or on temporary leave), Unemployed (without work, currently available, and actively searching within the past 4 weeks), and Not in the Labor Force (neither employed nor actively seeking, including retirees, students, homemakers, and discouraged workers). The headline Unemployment Rate (U / [E + U] × 100) is distorted by the Discouraged Worker Effect (where despairing job seekers stop searching, exiting the labor force and perversely lowering measured unemployment) and the classification of involuntary part-time workers as fully employed.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'U.S. Bureau of Labor Statistics (BLS) Handbook of Methods, Chapter 1: Labor Force Data Derived from the Current Population Survey (CPS); ILO Resolution concerning statistics of work (19th ICLS, 2013); N. Gregory Mankiw, Macroeconomics',
+        excerpt: 'The civilian noninstitutional population is divided into three groups: employed, unemployed, and not in the labor force. Persons with marginal attachment and discouraged workers are classified as not in the labor force.',
+      },
     ],
     contentBlocks: [
       {
@@ -412,7 +421,79 @@ Achieving all three goals simultaneously is challenging due to inherent structur
 
 ---
 
-### 4. The Fallacy of Composition & The Paradox of Thrift
+### 4. Macroeconomic Goal 2 Deep-Dive: The Three Categories of People Regarding Employment
+
+To systematically measure employment and unemployment across an entire economy, macroeconomic statistical agencies (such as the U.S. Bureau of Labor Statistics [BLS] and the International Labour Organization [ILO], mirrored in India by MoSPI's PLFS) follow a rigorous **two-stage filtering hierarchy**:
+
+\`\`\`
+                       TOTAL NATIONAL POPULATION
+                                   │
+       ┌───────────────────────────┴───────────────────────────┐
+       ▼                                                       ▼
+EXCLUDED POPULATION                               CIVILIAN NON-INSTITUTIONAL
+• Under 16 years of age (Children)                POPULATION (CNIP, Age 16+)
+• Institutionalized Persons                                    │
+  (Prisons, Jails, Psychiatric Facilities,         ┌───────────┴───────────┐
+   Long-term Nursing Homes)                        ▼                       ▼
+• Active-Duty Military Personnel             LABOUR FORCE (LF)   NOT IN THE LABOUR FORCE (NILF)
+                                                   │             • Full-Time Students
+                                      ┌────────────┴────────────┐• Retirees & Pensioners
+                                      ▼                         ▼• Homemakers & Family Caregivers
+                                1. EMPLOYED               2. UNEMPLOYED • Severely Disabled (Unable to Work)
+                         • Worked ≥1 hr for pay    • Has NO job  • DISCOURAGED WORKERS
+                         • Family business ≥15 hrs • AVAILABLE      (Gave up searching in despair)
+                         • On temporary leave      • ACTIVELY SEARCHED
+                                                     in past 4 weeks
+\`\`\`
+
+#### The Three Canonical Categories Defined
+Every single individual in the civilian non-institutional working-age population belongs to **exactly one** of these three mutually exclusive categories:
+
+1. **Category 1: Employed ($E$)**:
+   - Any person who performed **at least 1 hour of work for pay or profit** during the survey reference week.
+   - Any person who worked **15 hours or more as an unpaid worker** in a family-operated farm or commercial enterprise.
+   - Any person who had a job or business but was **temporarily absent** due to illness, vacation, maternity/paternity leave, bad weather, or a collective labor dispute (strike/lockout).
+   - *Crucial Real-World Note*: Part-time workers (even if working only 2 hours per week while desperately seeking a 40-hour full-time position) are classified as **100% Employed**.
+
+2. **Category 2: Unemployed ($U$)**:
+   - An individual is classified as unemployed **ONLY IF** they satisfy **ALL THREE** criteria simultaneously:
+     1. They currently do **NOT have a job**.
+     2. They are **currently available** to take up work.
+     3. They have **ACTIVELY looked for work within the preceding 4 weeks** (e.g., submitting job applications, attending interviews, registering with employment agencies, contacting recruiters).
+   - *Single Exception to Active Search*: Workers on temporary layoff who have been given a specific date of recall to their job do not need to actively search to be counted as unemployed.
+   - *Passive Search Disqualification*: Merely reading job advertisements, browsing job portals without applying, or daydreaming about employment does **NOT** qualify as active search.
+
+3. **Category 3: Not in the Labor Force ($NILF$)**:
+   - Any person in the adult civilian non-institutional population who is **neither employed nor unemployed** (i.e., does not have a job and has NOT actively looked for one in the past 4 weeks).
+   - Examples: Full-time students, homemakers/caregivers, retirees, independently wealthy individuals, and people with severe permanent disabilities.
+   - **The Critical Subgroup: Discouraged Workers**: Individuals who want a job and are available for work, but have stopped actively searching because they believe there are no jobs available for them or that they face structural discrimination. Because they made no active job search in the past 4 weeks, **they are legally classified as NOT in the Labor Force**, vanishing completely from the official unemployment count!
+
+---
+
+#### Core Mathematical Formulas & Relationships
+$$\text{Civilian Non-Institutional Population (CNIP)} = \text{Employed } (E) + \text{Unemployed } (U) + \text{Not in Labour Force } (NILF)$$
+$$\text{Labour Force (LF)} = \text{Employed } (E) + \text{Unemployed } (U)$$
+$$\text{Unemployment Rate (UR)} = \frac{\text{Unemployed } (U)}{\text{Labour Force } (LF)} \times 100 = \frac{U}{E + U} \times 100$$
+$$\text{Labour Force Participation Rate (LFPR)} = \frac{\text{Labour Force } (LF)}{\text{Civilian Non-Institutional Population } (CNIP)} \times 100$$
+$$\text{Employment-to-Population Ratio (EPR)} = \frac{\text{Employed } (E)}{\text{Civilian Non-Institutional Population } (CNIP)} \times 100$$
+
+---
+
+#### Professor Ryan's Three Labor Market Traps & Paradoxes
+1. **The Discouraged Worker Paradox**:
+   - In a severe or prolonged economic recession, thousands of frustrated unemployed workers give up searching for work.
+   - When a job-seeker stops actively searching, they drop out of the numerator ($U \downarrow$) and out of the denominator ($LF \downarrow$).
+   - **The Paradoxical Result**: The official headline Unemployment Rate ($UR = U / LF$) **DECLINES**, making it appear as though the labor market is recovering when, in reality, economic hardship and despair have intensified!
+2. **The Involuntary Part-Time / Underemployment Blindspot**:
+   - Headline unemployment metrics (BLS U-3 rate) treat an underemployed worker (e.g., an engineer working 5 hours a week at minimum wage who desperately wants full-time employment) identically to a fully employed executive working 50 hours a week. Both are counted as "Employed".
+   - This masks substantial **labor underutilization**, prompting economists to track broader metrics (such as BLS U-6 in the US, or Current Daily Status [CDS] in India) that include involuntary part-time workers and marginally attached job-seekers.
+3. **The Denominator Trap**:
+   - Laypersons and exam candidates routinely compute the unemployment rate by dividing Unemployed by the *Total Population* or *Working-Age Population*.
+   - In economics, the denominator is strictly the **Labour Force ($E + U$)**. A country can have 100 million adults, but if only 60 million are in the labor force and 3 million are unemployed, the unemployment rate is $\frac{3}{60} = 5.0\%$, not $\frac{3}{100} = 3.0\%$.
+
+---
+
+### 5. The Fallacy of Composition & The Paradox of Thrift
 The defining conceptual difference between Micro and Macro is the **Fallacy of Composition**: *the false belief that what is logically valid for an individual must also be true for the aggregate whole*.
 * **The Paradox of Thrift (Keynes):** If an individual household saves more of its income, its personal wealth increases (Micro perspective). But if **all households in the nation save more simultaneously**, total consumption expenditure plunges. Because one person's spending is another person's income, aggregate business revenue collapses, factories lay off workers, national income falls, and total aggregate savings in the economy paradoxically end up lower than before!`,
         order: 2,
@@ -554,6 +635,22 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Testing whether the student confuses full employment with 0% absolute unemployment.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'An economy has a civilian adult population (16+) of 100 million people. Of these, 57 million are employed, 3 million are unemployed actively seeking work, and 40 million are not in the labour force. Due to a prolonged recession, 1 million of the unemployed job seekers give up looking for work in despair. Assuming no other changes, what is the new official Unemployment Rate, and how is this phenomenon interpreted?',
+        options: [
+          'The Unemployment Rate drops from 5.0% to approximately 3.39%; this represents the "Discouraged Worker Effect", where headline unemployment perversely declines despite worsening labor market distress.',
+          'The Unemployment Rate increases from 5.0% to 6.67%, because discouraged workers increase the burden on the productive workforce.',
+          'The Unemployment Rate remains unchanged at 5.0%, because discouraged workers remain classified under the unemployed category until they reach retirement age.',
+          'The Unemployment Rate drops to 2.0%, because 1 million workers were subtracted directly from the 3.0% baseline rate.',
+        ],
+        correctAnswer: 'The Unemployment Rate drops from 5.0% to approximately 3.39%; this represents the "Discouraged Worker Effect", where headline unemployment perversely declines despite worsening labor market distress.',
+        explanation: 'Initial Labor Force = Employed (57M) + Unemployed (3M) = 60M. Initial Unemployment Rate = (3M / 60M) * 100 = 5.0%. When 1 million job seekers give up looking for work, they fail the mandatory 4-week active search criterion and are reclassified into "Not in the Labor Force" (as Discouraged Workers). New Unemployed = 2M. New Labor Force = 57M + 2M = 59M. New Unemployment Rate = (2M / 59M) * 100 ≈ 3.39%. Even though zero new jobs were created and economic misery deepened, the headline unemployment rate fell by ~1.61 percentage points. This is the classic "Discouraged Worker Paradox".',
+        trapExplanation: 'Option B wrongly assumes discouraged workers stay in the unemployment numerator; Option C fails to recognize that active search is mandatory to be counted as unemployed; Option D commits the denominator fallacy.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the mathematical mechanics of the Discouraged Worker Effect on both the unemployment rate numerator and denominator.',
       },
     ],
   },
