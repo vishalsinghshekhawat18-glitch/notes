@@ -326,7 +326,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
         )}
 
         {/* Main Chapter Content Body */}
-        <main className="flex-1 min-w-0 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+        <main className="flex-1 min-w-0 max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8 space-y-12">
         {/* Chapter Introduction Hero */}
         <section className="border-b border-stone-200 pb-6">
           <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">
@@ -337,7 +337,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
             {topic.title}
           </h2>
 
-          <p className="text-sm text-stone-600 font-serif italic mt-2 leading-relaxed max-w-3xl">
+          <p className="text-sm text-stone-600 font-serif italic mt-2 leading-relaxed max-w-5xl">
             {topic.description ||
               'A complete sequential chapter curriculum covering all core doctrines, mechanisms, examination overlays, and active recall.'}
           </p>
