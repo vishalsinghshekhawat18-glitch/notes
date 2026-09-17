@@ -38,8 +38,8 @@ export const BATCH_E3_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Financial Intermediation and Delegated Monitoring (Diamond, 1984); Modern Macroeconomics (Mishkin, Ch 8)',
-        excerpt: 'Financial intermediaries overcome transaction costs and asymmetric information through delegated monitoring.',
+        locator: 'Financial Intermediation and Delegated Monitoring (Diamond, 1984); Modern Macroeconomics (Mishkin, Ch 8); Professor Ryan, "Financial Intermediation" (YouTube: bM6I2VUFQvo)',
+        excerpt: 'Financial intermediaries overcome transaction costs and asymmetric information through delegated monitoring, channeling surplus household savings to productive borrowers.',
       },
       {
         id: 'CLM-ECO-33-02',
