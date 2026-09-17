@@ -308,20 +308,56 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         locator: 'Elinor Ostrom (1990) Governing the Commons, Chapter 1; Hal Varian, Intermediate Microeconomics',
         excerpt: 'Public goods are non-rival and non-excludable; common pool resources are rivalrous and non-excludable, leading to potential overexploitation.',
       },
+      {
+        id: 'CLM-ECO-02-04',
+        statement: 'In a capitalist market economy, resource allocation across the three central questions is coordinated by consumer sovereignty and the price mechanism without central direction; in contrast, a socialist command economy relies on central planning directives, which encounter the Hayek-Mises calculation problem due to the absence of market clearing price signals.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Ludwig von Mises (1920) Economic Calculation in the Socialist Commonwealth; F.A. Hayek (1945) The Use of Knowledge in Society; Paul Samuelson, Economics Ch 2',
+        excerpt: 'Without market prices for capital goods and factor inputs, central planners lack the objective informational signals needed to calculate the most efficient allocation of resources.',
+      },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'How Societies Organize Production & Solve Scarcity',
-        body: `Every human society, regardless of political ideology, faces the **Three Central Economic Problems**:
-1. **What to produce and in what quantities?** (Capital goods vs Consumer goods; Defense vs Healthcare).
-2. **How to produce?** (Labour-intensive techniques vs Capital-intensive automated techniques).
-3. **For whom to produce?** (How national output is distributed among citizens based on purchasing power or equity).
+        title: 'How Societies Organize Production: The Three Central Questions & Economic Systems Matrix',
+        body: `Every human society—from agrarian communities to advanced industrial nations—faces the inescapable reality of scarcity. Because productive resources (land, labour, capital, enterprise) are strictly finite while human needs and desires are infinite, every society must resolve the **Three Central Economic Questions**:
 
-### The Three Economic Systems:
-* **Market Economy (Laissez-Faire Capitalism):** Solved entirely by the **Price Mechanism** (Adam Smith's "Invisible Hand"). Consumer sovereignty dictates production; profit motivates producers; distribution is determined by factor earnings.
-* **Centrally Planned Economy (Socialism):** Solved by a central planning authority (e.g. Gosplan in the USSR). Production targets, resource allocation, and prices are fixed by the State.
-* **Mixed Economy (India's Model):** Coexistence of the private sector (driven by profit and market prices) and the public sector (driven by social welfare and strategic national priorities).`,
+1. **What to produce and in what quantities?**
+   - Should resources be allocated to food and healthcare or to military defense and luxury automobiles?
+   - Should an economy prioritize immediate **consumer goods** (clothing, food) or durable **capital goods** (machinery, power plants) that expand future productive capacity?
+2. **How to produce?**
+   - Which specific combination of productive resources and technology should be deployed?
+   - Should production rely on **Labour-Intensive Techniques** (utilizing abundant manpower, crucial for high-population nations like India) or **Capital-Intensive Techniques** (deploying advanced machinery, automation, and AI)?
+3. **For whom to produce?**
+   - How should the aggregate national output be distributed among members of society?
+   - Should goods be allocated strictly based on **purchasing power** (market factor earnings: rent, wages, interest, profit) or based on **social welfare, equality, and basic human need**?
+
+---
+
+### The Economic Systems Analytical Matrix
+
+To answer these three foundational questions, human societies organize themselves into three distinct institutional models:
+
+| Analytical Dimension | Pure Capitalism (Free Market / Laissez-Faire) | Pure Socialism (Centrally Planned / Command Economy) | Modern Mixed Economy (e.g., India, UK, USA) |
+| :--- | :--- | :--- | :--- |
+| **1. Ownership of Means of Production** | **Private Ownership:** Factories, land, mines, and capital goods are owned and controlled by private individuals and corporations. Private property rights are constitutionally protected. | **State / Collective Ownership:** All major means of production are owned by the state or public collectives. Private ownership of productive capital is strictly prohibited. | **Dual Ownership:** Coexistence of a vibrant private sector (consumer goods, services, technology) and Public Sector Undertakings (PSUs) / state control in strategic sectors. |
+| **2. Primary Coordinating Mechanism** | **The Free Price Mechanism:** Adam Smith's "Invisible Hand". Decentralized market interactions between buyers and sellers determine prices, which act as signals for resource allocation. | **Central Planning Directives:** A state planning agency (e.g., Soviet *Gosplan*) formulates centralized quantitative production targets, administrative quotas, and fixed official prices. | **Market Prices + State Regulation:** Price mechanism drives competitive commercial markets, complemented by fiscal subsidies, regulatory watchdogs (CCI, SEBI, TRAI), and sovereign CapEx planning. |
+| **3. Resolution: What to Produce?** | **Consumer Sovereignty:** Consumers cast "dollar/rupee votes" through demand. High consumer demand yields higher prices and profits, signaling private firms to produce those goods. | **Social / State Priorities:** Central planning board decides production baskets according to state ideological, industrial, or military goals, ignoring consumer preference signals. | **Dual Determination:** Consumer sovereignty drives market production of private consumer goods; the State decides provision of public goods, defense, infrastructure, and welfare goods. |
+| **4. Resolution: How to Produce?** | **Cost-Minimizing Efficiency:** Private firms compete to maximize profit, adopting the lowest-cost combination of factors (substituting cheaper inputs for expensive ones). | **Administrative Feasibility:** State planners dictate technology and employment mandates, frequently prioritizing artificial full employment over cost minimization. | **Hybrid Choice:** Private firms seek profit-maximizing cost efficiency; the State intervenes through industrial policies, labour laws, and employment schemes (e.g., MGNREGA, PLI schemes). |
+| **5. Resolution: For Whom to Produce?** | **Purchasing Power:** Distributed according to factor market earnings (whoever earns more rent, wages, interest, or profit buys more output). Those with zero factor earnings receive nothing. | **State Evaluation of Need:** Output is allocated through administrative distribution, rationing cards, state-subsidized price ceilings, or egalitarian principles ("to each according to his contribution"). | **Market Income + Redistribution:** Market rewards determine baseline income, but the State redistributes wealth via progressive taxation, food security (PDS / PMGKAY), and targeted cash transfers. |
+| **6. Core Driving Incentive** | **Self-Interest & Profit Motive:** Financial profit rewards innovation and hard work; threat of bankruptcy penalizes inefficiency and waste. | **Social Duty & State Compliance:** Workers and plant managers are motivated by ideological duty, state awards, or fear of punitive administrative penalties (absence of personal profit motive). | **Commercial Profit + Social Welfare:** Private enterprise pursues profit and capital accumulation, while public policy is oriented toward equity, poverty alleviation, and inclusive growth. |
+| **7. Systemic Advantages** | • High dynamic and productive efficiency.<br>• Rapid technological innovation and creative destruction.<br>• Vast consumer choice and agile responsiveness to shifting preferences. | • Ability to mobilize massive resources rapidly for strategic national priorities.<br>• Eradication of extreme private wealth concentration.<br>• Universal baseline access to necessities (healthcare, schooling, housing). | • Combines the dynamic efficiency and innovation of markets with the social security and equity safeguards of the welfare state. |
+| **8. Inherent Failure Modes** | • **Market Failures:** Negative externalities (pollution), under-provision of public goods, natural monopolies.<br>• High socio-economic inequality and cyclical unemployment. | • **The Economic Calculation Problem (Mises-Hayek):** Impossible for central planners to know real-time consumer preferences and scarcity without free prices.<br>• Chronic shortages, low quality, black markets, and bureaucratic inertia. | • Risk of regulatory overreach and bureaucratic red tape ("License Raj").<br>• Fiscal deficits from loss-making PSUs and populist subsidy burdens.<br>• Potential cronyism between private corporations and state regulators. |
+
+---
+
+### Core Theoretical Pillars
+
+1. **Adam Smith's "Invisible Hand" (1776):** In *The Wealth of Nations*, Adam Smith demonstrated that individuals seeking solely their private self-interest in competitive markets unintentionally promote society's broader economic welfare more effectively than when deliberately intending to do so. High prices signal shortages, drawing resources into under-supplied sectors.
+2. **The Socialist Calculation Debate (Mises 1920, Hayek 1945):** Austrian economists Ludwig von Mises and Friedrich Hayek established that a centrally planned economy cannot allocate resources efficiently because it lacks a **market price mechanism**. Prices are not merely accounting numbers—they are compressed information signals reflecting the dispersed, real-time knowledge and preferences of millions of individuals. Without market-clearing prices, central planners inevitably create chronic shortages of basic consumer goods and massive surpluses of unwanted products.
+3. **India's Mixed Economy Evolution:** Following independence in 1947, India chose a mixed economy path guided by Prime Minister Jawaharlal Nehru and statistician P.C. Mahalanobis (the **Nehru-Mahalanobis Model** of the Second Five-Year Plan, 1956). The State held the "commanding heights" of the economy (heavy industry, steel, energy, and later commercial banking in 1969). Following the 1991 Balance of Payments crisis, India executed its historic **LPG (Liberalisation, Privatisation, and Globalisation) Reforms**, dismantling the restrictive "License-Permit-Quota Raj", empowering private enterprise, and transitioning India into an agile, globally integrated mixed market economy.`,
         order: 1,
       },
       {
@@ -462,6 +498,22 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Confusing moral importance of a good (water is essential) with economic classification (rivalry/excludability).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In a pure market (capitalist) economic system, how is the central economic question of "What to produce" fundamentally resolved?',
+        options: [
+          'Through quantitative production targets formulated by a Central Planning Commission.',
+          'Through consumer sovereignty operating via the decentralized price mechanism and consumer spending decisions.',
+          'Through statutory production quotas negotiated between registered trade unions and industry cartels.',
+          'Through state price ceilings and targeted input subsidies for essential wage goods.',
+        ],
+        correctAnswer: 'Through consumer sovereignty operating via the decentralized price mechanism and consumer spending decisions.',
+        explanation: 'In a pure market economy (capitalism), what goods are produced and in what quantities is determined by "Consumer Sovereignty". Consumers signal their preferences and willingness to pay through market demand ("dollar/rupee votes"). The interaction of supply and demand establishes market prices. When consumer demand for a good rises, its price and profit margin rise, signaling self-interested private producers to allocate scarce land, labour, and capital toward expanding its production. No central planning agency dictates what goods are made.',
+        trapExplanation: 'Option A describes a socialist/command economy (e.g., the Soviet Gosplan). Options C and D involve administrative or fiscal interventions characteristic of command or heavily regulated mixed economies.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Confusing decentralized price mechanism signaling with centralized bureaucratic or legislative planning.',
       },
     ],
   },
