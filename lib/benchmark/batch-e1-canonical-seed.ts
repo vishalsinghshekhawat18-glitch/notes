@@ -1208,7 +1208,7 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'N. Gregory Mankiw, Principles of Microeconomics, Chapter 4',
+        locator: 'N. Gregory Mankiw, Principles of Microeconomics, Chapter 4; Professor Ryan, "Market Dynamics" (YouTube: okNiow7QCTg)',
         excerpt: 'When both supply and demand curves shift simultaneously, one of the two equilibrium variables (price or quantity) will change unambiguously, while the other is ambiguous without knowing the relative magnitude of shifts.',
       },
       {
