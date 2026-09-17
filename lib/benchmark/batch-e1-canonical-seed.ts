@@ -92,12 +92,12 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
       },
       {
         id: 'CLM-ECO-01-02',
-        statement: 'The Production Possibility Frontier (PPF) is downward-sloping and concave to the origin due to the Law of Increasing Opportunity Cost, measured by the Marginal Rate of Transformation (MRT).',
+        statement: 'The Production Possibility Frontier (PPF) is downward-sloping and concave to the origin due to the Law of Increasing Opportunity Cost, measured by the Marginal Rate of Transformation (MRT); a straight-line PPF reflects constant opportunity cost where resources are perfectly adaptable.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 1: Foundations of Economics',
-        excerpt: 'The production-possibility frontier shows the maximum quantities of traits that can be efficiently produced by an economy. Its concavity reflects the law of increasing opportunity costs.',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 1: Foundations of Economics; Professor Ryan, "Production Possibilities Frontier" (YouTube: jmB9cNfD3gQ)',
+        excerpt: 'The production-possibility frontier shows the maximum combinations of output that can be produced using all available resources efficiently. It is downward-sloping due to scarcity and trade-offs, and concave to the origin because specialized resources give rise to increasing opportunity costs.',
       },
       {
         id: 'CLM-ECO-01-03',
@@ -105,7 +105,7 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Professor Ryan, "Capacity Utilization" (YouTube: 8G5oTUQ0lIs)',
+        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Professor Ryan, "Production Possibilities Frontier" (YouTube: jmB9cNfD3gQ) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs)',
         excerpt: 'An economy achieves productive efficiency when it operates on its production frontier. Operating inside the frontier reflects underutilization of capacity. Capacity utilization measures the proportion of potential output actually realized; moving from inside to the frontier represents mobilizing idle capacity rather than expanding total productive capacity.',
       },
     ],
@@ -134,17 +134,35 @@ Because these four productive factors are scarce, choosing to produce or consume
       },
       {
         type: 'CORE_IDEA',
-        title: 'The Production Possibility Frontier (PPF) & MRT',
+        title: 'The Production Possibility Frontier (PPF), MRT & Curvature Analysis',
         body: `The **Production Possibility Frontier (PPF)** (or Transformation Curve) is a geometric model illustrating the maximum feasible production combinations of two goods that an economy can produce using all available resources and technology fully and efficiently.
 
-### 1. Geometry of the PPF
-* **Downward Sloping:** To produce more of Good X, resources must be diverted from Good Y.
-* **Concave to the Origin (Bowed Outwards):** Resources are specialized and not equally adaptable to all lines of production. As more of Good X is produced, increasingly less suited resources must be transferred from Good Y, requiring progressively larger sacrifices of Good Y.
+### 1. Foundational Assumptions & Geometry of the PPF (Professor Ryan)
+In *"Production Possibilities Frontier"*, Professor Ryan establishes that the PPF isolates core economic trade-offs under four explicit assumptions:
+1. **Resource Scarcity & Fixed Endowments:** The economy possesses a fixed aggregate stock of land, labor, physical capital, and entrepreneurship over the relevant time horizon.
+2. **Fixed State of Technology:** Production techniques and engineering knowledge are held constant.
+3. **Full Employment & Productive Efficiency:** All available resources are fully deployed with zero structural waste or idle slack.
+4. **Two-Good Simplification:** The infinite variety of national output is aggregated into two representative goods (e.g. Consumer Goods vs Capital Goods, or Civilian Goods vs Military Equipment).
 
-### 2. Marginal Rate of Transformation (MRT)
-The slope of the PPF at any given point is the **Marginal Rate of Transformation (MRT)**, representing the marginal opportunity cost of Good X in terms of Good Y:
+#### Geometric Characteristics:
+* **Downward Sloping (Negative Slope):** Because resources are scarce, an economy cannot expand production of Good X without transferring resources away from Good Y (a fundamental opportunity sacrifice, $\\Delta Y < 0$ when $\\Delta X > 0$).
+* **Concave to the Origin (Bowed Outwards):** Driven by the **Law of Increasing Opportunity Cost**. Productive factors are specialized and not equally adaptable across different production lines. Initial reallocations transfer inputs best suited to Good X, but producing further units requires transferring inputs that are progressively less efficient in Good X and far more suited to Good Y, causing the marginal sacrifice of Good Y to rise steadily.
+
+---
+
+### 2. Marginal Rate of Transformation (MRT) & Curvature Analysis
+The slope of the PPF at any given coordinate measures the **Marginal Rate of Transformation (MRT)**, which quantifies the marginal opportunity cost of Good X in terms of Good Y:
 
 $$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost of Good X}}{\\text{Marginal Cost of Good Y}} = \\frac{\\text{MC}_x}{\\text{MC}_y}$$
+
+#### Curvature vs Resource Substitutability Matrix:
+| Geometric Shape of PPF | Opportunity Cost Nature | Resource Substitutability Condition | Real-World Economic Context |
+| :--- | :--- | :--- | :--- |
+| **Concave to Origin (Bowed Out)** | **Increasing Opportunity Cost** | **Imperfect / Specialized Substitutability:** Farm soil and tractors are poorly suited to manufacture microchips or aircraft. | Universal baseline for modern diversified economies. |
+| **Linear (Straight Line)** | **Constant Opportunity Cost** | **Perfect Substitutability:** Inputs are completely interchangeable at a fixed ratio between both production lines. | Theoretical benchmark (e.g. producing two varieties of grain or assembling identical consumer electronics). |
+| **Convex to Origin (Bowed In)** | **Decreasing Opportunity Cost** | **Increasing Returns to Scale / Agglomeration:** Specialized clustering lowers unit marginal costs as production concentrates in one good. | Rare in aggregate macroeconomics; observed in highly localized technology clusters. |
+
+---
 
 ### 3. Economic Efficiency Classifications
 | Location on Diagram | Economic Interpretation | Policy Meaning |
@@ -153,8 +171,10 @@ $$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost
 | **Points Inside the Curve ($U$)** | **Inefficiency / Underutilization** | Unemployment, idle factory capacity, or misallocated resources. |
 | **Points Outside the Curve ($X$)** | **Unattainable in Short Run** | Requires economic growth (capital accumulation, technological progress, or labour force expansion) to reach. |
 
+---
+
 ### 4. Capacity Utilization: Operating Inside the PPF vs Expanding the PPF (Professor Ryan)
-As Professor Ryan clarifies in *"Capacity Utilization"*, an economy's position relative to its PPF directly reflects its **Capacity Utilization Rate**:
+As Professor Ryan clarifies in *"Capacity Utilization"* and *"Production Possibilities Frontier"*, an economy's position relative to its PPF directly reflects its **Capacity Utilization Rate**:
 
 $$\\text{Capacity Utilization Rate} = \\left( \\frac{\\text{Actual Output } (Y)}{\\text{Potential Output / Productive Capacity } (Y^*)} \\right) \\times 100$$
 
@@ -276,6 +296,22 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Confusing underutilization of resources (point inside) with destruction of productive capacity (inward shift).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'Under what specific technological and resource condition would an economy\'s Production Possibility Frontier (PPF) be depicted as a downward-sloping straight line rather than a concave (bowed-out) curve, and what does this imply for the Marginal Rate of Transformation (MRT)?',
+        options: [
+          'When the economy experiences hyperinflation, causing the Marginal Rate of Transformation to approach infinity.',
+          'When productive resources are perfectly adaptable and equally suited to producing both goods, resulting in a constant Marginal Rate of Transformation along the entire frontier.',
+          'When all capital equipment is imported from abroad, causing opportunity costs to diminish to zero.',
+          'When the economy operates strictly inside the frontier, ensuring that opportunity costs remain undefined.',
+        ],
+        correctAnswer: 'When productive resources are perfectly adaptable and equally suited to producing both goods, resulting in a constant Marginal Rate of Transformation along the entire frontier.',
+        explanation: 'As Professor Ryan demonstrates in "Production Possibilities Frontier", the standard bowed-out (concave) shape of a PPF is caused by the Law of Increasing Opportunity Cost, which arises because resources are specialized and not equally adaptable across different lines of production. If resources were instead completely homogeneous and perfectly substitutable between the two goods (such that shifting an additional unit of input always yields the same fixed ratio of output), the opportunity cost of producing an additional unit of Good X would never change. Geometrically, a constant opportunity cost produces a linear (straight-line) PPF with a constant slope (constant MRT).',
+        trapExplanation: 'Option A confuses monetary inflation with physical production geometry. Option C confuses trade with domestic transformation. Option D confuses points inside the curve (underutilization) with the shape of the boundary itself.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the fundamental resource substitutability condition that distinguishes a linear PPF (constant MRT) from a concave PPF (increasing MRT).',
       },
     ],
   },
