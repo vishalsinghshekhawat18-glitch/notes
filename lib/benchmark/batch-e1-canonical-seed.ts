@@ -3771,6 +3771,15 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         locator: 'Charles Goodhart (1975) Monetary Relationships: A View from Central Banking; Joseph Stiglitz, Amartya Sen, Jean-Paul Fitoussi (2009) Mismeasuring Our Lives: Why GDP Doesn\'t Add Up',
         excerpt: 'When a measure becomes a target, it ceases to be a good measure. Gross domestic product was never designed as a measure of social welfare; treating a concrete production metric as a proxy for abstract human well-being leads to profound policy failures.',
       },
+      {
+        id: 'CLM-ECO-16-05',
+        statement: 'Price level stability denotes a macroeconomic condition where changes in the general price level are small, gradual, and predictable rather than zero; a low, steady positive inflation rate preserves price predictability for forward planning, provides a critical safety buffer against debilitating deflationary spirals, and lubricates relative wage adjustments across sectors.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Price Level Stability" (YouTube: tIwtrfYLbDE); Ben Bernanke (2002) Deflation: Making Sure "It" Doesn\'t Happen Here; Stanley Fischer (1993) The Role of Macroeconomic Factors in Growth',
+        excerpt: 'Price level stability does not mean that prices never change; it means that changes in the general price level occur slowly and predictably enough that households and firms can make forward-looking plans without fear of erratic purchasing power shifts. A low positive inflation rate buffers against deflationary traps and facilitates real wage flexibility.',
+      },
     ],
     contentBlocks: [
       {
@@ -3797,7 +3806,32 @@ Imagine an economy that produces only one good: **Bicycles**.
 Did the economy become twice as wealthy in Year 2? **No!** Citizens have the exact same 100 bicycles to ride. Physical output grew by **0%**, but pure monetary price inflation caused Nominal GDP to double.
 
 * **Why Nominal GDP Cannot Compare Across Years:** Because each year's Nominal GDP is measured using a different measuring rod (shifting price levels), comparing Nominal GDP directly across years violates the law of invariant measurement.
-* **The Solution — Real GDP:** Evaluates output using constant Base Year prices ($\\sum P_{\\text{base}} \\times Q_{\\text{current}}$) to neutralize price inflation and isolate genuine physical expansion.`,
+* **The Solution — Real GDP:** Evaluates output using constant Base Year prices ($\\sum P_{\\text{base}} \\times Q_{\\text{current}}$) to neutralize price inflation and isolate genuine physical expansion.
+
+---
+
+### 3. Price Level Stability: Predictability vs Static Prices (Professor Ryan)
+In everyday discussions, people frequently assume that "Price Level Stability" implies that prices never change (static zero inflation). As Professor Ryan clarifies in *"Price Level Stability"*, this is a fundamental conceptual error.
+
+#### What Does "Stable" Truly Mean?
+* **Stable $\\neq$ Static:** Price level stability does **not** mean the price level is permanently frozen with zero change.
+* **Small and Gradual Changes:** Stability means that changes in the general price level are **minor, gradual, and predictable** over time.
+* **The Smoothly Moving Vehicle Analogy:** Imagine riding in a vehicle travelling at a smooth, constant speed. If the vehicle makes small, predictable adjustments, passengers can easily stand, walk, drink coffee, and plan their movements without being thrown around. Conversely, erratic and violent accelerations (surging inflation) or sudden, violent emergency braking (deflation) throw everyone off balance and cause widespread destruction.
+
+#### Why Modern Macroeconomics Targets Low, Predictable Inflation (2% to 4%) Rather Than 0%:
+1. **Predictability Enables Long-Term Planning:** When inflation is low and steady (e.g. 2% to 4% per annum), the annual erosion in the purchasing power of money is minor and easily factored into forward-looking decisions. Households can plan multi-decade retirement savings and 20-year home mortgages, while corporations can execute long-term capital expenditure without demanding punitive inflation risk premiums.
+2. **Critical Buffer Against the Deflation Trap:** If a central bank targeted exactly 0% inflation, any minor adverse demand shock would push the economy into **Deflation ($\\pi < 0$)**. Deflation is economically lethal:
+   - Consumers delay purchasing durable goods expecting lower prices in the future, causing aggregate demand to collapse.
+   - The real burden of existing debt surges ($r = i - \\pi \\implies r = i + |\\pi|$), forcing debt-deflation bankruptcies (Irving Fisher).
+   - Businesses slash production, freeze hiring, and lay off workers, triggering a vicious downward spiral.
+   - A target of 2% to 4% provides a crucial safety cushion above zero.
+3. **Greasing the Wheels of the Labor Market (Downward Nominal Wage Rigidity):** In modern industrial economies, workers fiercely resist cuts to their nominal wages. In a dynamic economy where some industries expand and others contract, a modest overall inflation rate allows struggling sectors to let **real wages** adjust downward gradually without imposing demoralizing nominal salary cuts.
+4. **Preserving Monetary Policy Space (Avoiding the Zero Lower Bound):** A modest inflation rate ensures nominal interest rates ($i = r + \\pi$) remain comfortably above zero during normal times, giving the central bank sufficient headroom to cut interest rates during recessions without hitting the **Zero Lower Bound (ZLB)**.
+
+#### The Destructive Costs of Price Instability:
+* **Distorted Price Signals (Hayekian Signal-to-Noise Problem):** Price changes in a market economy communicate relative scarcity. Under volatile inflation, producers cannot distinguish whether a price hike represents increased demand for their specific good or general currency depreciation, leading to catastrophic capital misallocation.
+* **Arbitrary Wealth Redistribution:** Volatile inflation arbitrarily redistributes wealth from creditors, savers, and fixed-pensioners to leveraged borrowers. Volatile deflation does the exact reverse.
+* **Menu and Shoe-Leather Costs:** Rapidly changing prices waste real economic resources re-negotiating contracts, updating price catalogues, and holding excess cash reserves.`,
         order: 1,
       },
       {
@@ -3992,6 +4026,22 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Testing understanding of the dual price-quantity decomposition of Nominal GDP and why it fails as a cross-temporal welfare comparison.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In modern central banking and macroeconomic theory, why is "Price Level Stability" defined as a low, gradual, and predictable rate of positive inflation (e.g. 2% to 4%) rather than an absolute zero inflation rate (0% price change)?',
+        options: [
+          'Because zero inflation makes it statistically impossible for statistical agencies like MoSPI to calculate the Consumer Price Index (CPI).',
+          'Because a low positive inflation rate provides a safety buffer against catastrophic deflationary spirals, lubricates real wage adjustments in the presence of downward nominal wage rigidity, and avoids the zero lower bound on policy interest rates.',
+          'Because central banks derive all of their annual operational revenue directly from commercial inflation taxes.',
+          'Because positive inflation automatically eliminates the need for base-year revisions in national income accounting.',
+        ],
+        correctAnswer: 'Because a low positive inflation rate provides a safety buffer against catastrophic deflationary spirals, lubricates real wage adjustments in the presence of downward nominal wage rigidity, and avoids the zero lower bound on policy interest rates.',
+        explanation: 'As Professor Ryan explains in "Price Level Stability", economic stability does not mean static prices (0% inflation). Modern central banks (including the Reserve Bank of India with its 4% ± 2% target) intentionally target a low, predictable positive inflation rate for three core reasons: (1) Deflation Buffer: targeting 0% leaves an economy vulnerable to minor demand shocks pushing it into a deflationary spiral (where deferred spending and rising real debt burdens depress economic activity); (2) Labor Market Lubrication: because workers resist cuts to nominal wages, modest inflation allows real wages to adjust downwards in declining sectors without formal nominal pay cuts; and (3) Monetary Policy Maneuverability: low positive inflation ensures nominal interest rates remain above zero, avoiding the Zero Lower Bound (ZLB) trap during downturns.',
+        trapExplanation: 'Option A is incorrect because mathematical index formulas easily accommodate zero percent changes. Option C misrepresents central bank institutional structures. Option D confuses national accounts methodology with monetary policy targets.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Confusing price level stability (small, predictable, low positive inflation) with zero inflation (static prices), and identifying the three structural justifications for low positive inflation targets.',
       },
     ],
   },
