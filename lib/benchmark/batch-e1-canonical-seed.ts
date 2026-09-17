@@ -3678,8 +3678,8 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
-        excerpt: 'Real GDP measures the value of goods and services produced evaluated at constant base-year prices, isolating changes in physical quantities.',
+        locator: 'Professor Ryan, "Nominal GDP" (YouTube: MVWE4f_jntM); MoSPI National Accounts Statistics: Sources and Methods (2015); N. Gregory Mankiw, Macroeconomics',
+        excerpt: 'Nominal GDP reflects both the physical production of goods and services and the prevailing market price level; comparing output across periods requires isolating physical volume through constant-price Real GDP.',
       },
       {
         id: 'CLM-ECO-16-02',
@@ -3713,13 +3713,28 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
       {
         type: 'INTUITION',
         title: 'The Illusion of Price Inflation: Nominal vs Real',
-        body: `Imagine an economy that produces only one good: **Bicycles**.
-* **Year 1 (Base Year):** Produces 100 bicycles at ₹1,000 each $\\implies \\text{GDP} = \\mathbf{₹1,00,000}$.
+        body: `### 1. The Core Decomposition: Production ($Q$) vs Price ($P$) (Professor Ryan)
+As Professor Ryan explains in **"Nominal GDP"**, Gross Domestic Product measured at current market prices consists of two distinct components multiplying each other:
+$$\\mathbf{\\text{Nominal GDP} = \\sum (P_{\\text{current}} \\times Q_{\\text{current}})}$$
+- $\\mathbf{Q}$ (**Quantity / Physical Output**): The actual physical volume of goods and services produced (number of vehicles, bushels of grain, medical procedures, computing devices).
+- $\\mathbf{P}$ (**Price Level**): The prevailing market currency price per unit at the time of transaction.
+
+Because Nominal GDP reflects both $P$ and $Q$, an increase in Nominal GDP can arise from three distinct macroeconomic sources:
+1. **Pure Output Expansion (Real Growth):** Physical production ($Q \\uparrow$) increases while prices ($P$) remain constant. Living standards genuinely improve.
+2. **Pure Price Inflation (Monetary Illusion):** Physical production ($Q$) remains stagnant, but prices ($P \\uparrow$) soar. Nominal GDP expands, but the nation is not a single unit wealthier.
+3. **Mixed Growth (The Real-World Reality):** Both physical output ($Q$) and prices ($P$) change simultaneously.
+
+---
+
+### 2. The Single-Good Economy Numerical Illustration
+Imagine an economy that produces only one good: **Bicycles**.
+* **Year 1 (Base Year):** Produces 100 bicycles at ₹1,000 each $\\implies \\text{Nominal GDP} = \\mathbf{₹1,00,000}$.
 * **Year 2:** Produces 100 bicycles at ₹2,000 each $\\implies \\text{Nominal GDP} = \\mathbf{₹2,00,000}$.
 
 Did the economy become twice as wealthy in Year 2? **No!** Citizens have the exact same 100 bicycles to ride. Physical output grew by **0%**, but pure monetary price inflation caused Nominal GDP to double.
 
-* **Real GDP** fixes prices at Base Year levels to reveal true physical expansion.`,
+* **Why Nominal GDP Cannot Compare Across Years:** Because each year's Nominal GDP is measured using a different measuring rod (shifting price levels), comparing Nominal GDP directly across years violates the law of invariant measurement.
+* **The Solution — Real GDP:** Evaluates output using constant Base Year prices ($\\sum P_{\\text{base}} \\times Q_{\\text{current}}$) to neutralize price inflation and isolate genuine physical expansion.`,
         order: 1,
       },
       {
@@ -3899,6 +3914,22 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         isPYQ: false,
         examinerTrapPattern: 'Confusing an operationalized concrete statistical proxy with the underlying abstract socioeconomic concept.',
       },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic measurement principles, why is Nominal GDP an unreliable metric for comparing an economy\'s economic performance and standard of living across different years?',
+        options: [
+          'Because Nominal GDP strictly excludes the agricultural and service sectors of the economy.',
+          'Because Nominal GDP combines changes in physical output volume ($Q$) with changes in market price levels ($P$), meaning Nominal GDP can rise substantially even when the actual volume of goods and services produced remains stagnant or declines.',
+          'Because Nominal GDP is calculated using base-year constant prices rather than current market prices.',
+          'Because Nominal GDP only measures export earnings and ignores all domestic consumption.',
+        ],
+        correctAnswer: 'Because Nominal GDP combines changes in physical output volume ($Q$) with changes in market price levels ($P$), meaning Nominal GDP can rise substantially even when the actual volume of goods and services produced remains stagnant or declines.',
+        explanation: 'As Professor Ryan emphasizes in his analysis of GDP, Nominal GDP is calculated as $\\sum (P_{\\text{current}} \\times Q_{\\text{current}})$. Consequently, an increase in Nominal GDP reflects a mix of changes in physical production ($Q$) and price inflation ($P$). If an economy experiences high inflation, Nominal GDP will rise rapidly even if physical production remains unchanged or contracts, giving a misleading impression of economic progress. To compare physical production across time, economists must strip out price changes using constant-price Real GDP.',
+        trapExplanation: 'Option C is inverted (Real GDP uses constant base prices, while Nominal GDP uses current prices). Option A and D are factually false definitions.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing understanding of the dual price-quantity decomposition of Nominal GDP and why it fails as a cross-temporal welfare comparison.',
+      },
     ],
   },
   {
@@ -3963,8 +3994,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'Dynamics of the aggregate market examine shifts in AD and SRAS. Shifts in AD create inflationary or recessionary gaps. In the long run, the economy self-corrects as wages adjust, shifting SRAS to restore potential output, though downward wage rigidities may delay this transition.',
+        locator: 'Professor Ryan, "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'Dynamics of the aggregate market examine shifts in AD and SRAS. Closing output gaps can occur through Keynesian demand management (shifting AD) or classical supply adjustment (shifting SRAS), though downward wage rigidity impedes the supply channel.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -4270,7 +4301,18 @@ Once an economy is in initial equilibrium ($AD = SRAS = LRAS$ at Potential Outpu
 | **1. Positive AD Shock ($AD ↑$)** | • Consumer & business optimism.<br>• Fiscal stimulus ($G ↑, T ↓$).<br>• Central bank rate cuts ($M_s ↑$). | **Price Level ($PL ↑$)**<br>**Real GDP ($Y ↑ > Y^*$)** | **Inflationary Gap (Overheating):** Labor shortages bid up nominal wages; unemployment falls below NAIRU. | **Self-Correction:** High wage demands increase production costs $\implies SRAS$ shifts left until output returns to $Y^*$, but at a higher price level.<br>**Policy:** Contractionary fiscal/monetary policy to shift $AD$ back left. |
 | **2. Negative AD Shock ($AD ↓$)** | • Stock market or housing crash.<br>• Severe credit crunch / banking crisis.<br>• Fiscal austerity or global trade slump. | **Price Level ($PL ↓$)**<br>**Real GDP ($Y ↓ < Y^*$)** | **Recessionary Gap (Deflationary Slump):** Idle factories, inventory accumulation, and spiking cyclical unemployment. | **The Keynesian Dilemma:** Classical self-correction requires nominal wages to fall so $SRAS$ shifts right; however, **downward wage rigidity** prevents rapid wage cuts. The economy remains stuck in prolonged recession unless government deploys **counter-cyclical stimulus ($AD ↑$)**. |
 | **3. Adverse Supply Shock ($SRAS ↓$)** | • Global crude oil or energy price spike.<br>• Disruption of semiconductor supply chains.<br>• Major crop failures or geopolitical war. | **Price Level ($PL ↑$)**<br>**Real GDP ($Y ↓ < Y^*$)** | **Stagflation:** The simultaneous occurrence of economic stagnation (recession) and cost-push inflation. | **The Central Bank Trap:** Easing interest rates to fight unemployment fuels further inflation; hiking interest rates to squash inflation deepens the recession. Only long-run supply-side measures can restore $SRAS$. |
-| **4. Positive Supply Shock ($SRAS ↑$)** | • Technological breakthroughs (AI, robotics).<br>• Discovery of cheap domestic energy.<br>• Large-scale corporate deregulation. | **Price Level ($PL ↓$)**<br>**Real GDP ($Y ↑ > Y^*$)** | **Beneficial Expansion:** Disinflationary growth where living standards expand without inflation. | Economy operates smoothly above historical trend until long-run productive capacity permanently expands ($LRAS$ shifts right). |`,
+| **4. Positive Supply Shock ($SRAS ↑$)** | • Technological breakthroughs (AI, robotics).<br>• Discovery of cheap domestic energy.<br>• Large-scale corporate deregulation. | **Price Level ($PL ↓$)**<br>**Real GDP ($Y ↑ > Y^*$)** | **Beneficial Expansion:** Disinflationary growth where living standards expand without inflation. | Economy operates smoothly above historical trend until long-run productive capacity permanently expands ($LRAS$ shifts right). |
+
+---
+
+### 3. Closing Output Gaps in KET: The Two Macroeconomic Adjustment Pathways (Professor Ryan)
+In **"Closing Output Gaps in KET"** and **"KET - Increase or Decrease GDP"**, Professor Ryan synthesizes how macroeconomic theory addresses output gaps ($Y - Y^*$):
+
+| Dimension | Pathway 1: The Aggregate Demand ($AD$) Channel (Keynesian Policy) | Pathway 2: The Short-Run Aggregate Supply ($SRAS$) Channel (Supply Adjustments) |
+| :--- | :--- | :--- |
+| **Closing a Recessionary Gap ($Y < Y^*$)** | **Action:** Increase Aggregate Demand ($AD \\uparrow$) via expansionary fiscal policy ($G \\uparrow, T \\downarrow$) or monetary easing ($M_s \\uparrow, i \\downarrow$).<br>**Mechanism:** Multiplied expansion ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** as demand pulls output back to $Y^*$. | **Action:** Nominal wages and factor prices fall due to surplus labor ($SRAS \\uparrow$).<br>**Mechanism:** Reduced production costs shift $SRAS$ rightward.<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)**.<br>**Keynesian Critique:** ⚠️ **Downward Wage Rigidity** stalls this channel; workers and unions fiercely resist nominal wage cuts, leaving the economy trapped in high unemployment without policy stimulus. |
+| **Closing an Inflationary Gap ($Y > Y^*$)** | **Action:** Decrease Aggregate Demand ($AD \\downarrow$) via contractionary fiscal policy ($G \\downarrow, T \\uparrow$) or monetary tightening ($i \\uparrow$).<br>**Mechanism:** Multiplied contraction ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)** (disinflation). | **Action:** Labor shortages bid up nominal wages, and raw material costs surge ($SRAS \\downarrow$).<br>**Mechanism:** Increased production costs shift $SRAS$ leftward back to $Y^*$.<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** (stagflationary pressure). |
+| **Directional Price-Output Nexus** | **Same Direction:** Shifts in $AD$ move Real GDP and Price Level in the **SAME direction** ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$; $AD \\downarrow \\implies Y \\downarrow, PL \\downarrow$). | **Opposite Direction:** Shifts in $SRAS$ move Real GDP and Price Level in **OPPOSITE directions** ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$; $SRAS \\downarrow \\implies Y \\downarrow, PL \\uparrow$). |`,
         order: 3,
       },
       {
@@ -4440,6 +4482,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Testing numerical calculation and multi-round iterative intuition of the Keynesian Investment Multiplier ($k = 1 / [1 - MPC]$).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Keynesian Economic Theory (KET), when an economy is operating in a recessionary gap ($Y < Y^*$), how does the outcome of closing the gap via the Aggregate Demand (AD) channel differ fundamentally from closing it via the Short-Run Aggregate Supply (SRAS) channel regarding the price level?',
+        options: [
+          'Closing the gap via AD shifts output rightward while lowering the price level, whereas closing it via SRAS raises the price level.',
+          'Closing the gap via AD shifts output rightward while raising the price level, whereas closing it via the SRAS channel (e.g. falling nominal wages) shifts output rightward while lowering the price level.',
+          'Both channels result in hyperinflation and permanent loss of potential output ($Y^*$).',
+          'Closing the gap via SRAS is instantaneous because wages adjust downwards immediately in modern industrial economies.',
+        ],
+        correctAnswer: 'Closing the gap via AD shifts output rightward while raising the price level, whereas closing it via the SRAS channel (e.g. falling nominal wages) shifts output rightward while lowering the price level.',
+        explanation: 'In the Aggregate Market model analyzed in KET by Professor Ryan, shifting Aggregate Demand moves output and price level in the same direction ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$). Therefore, closing a recessionary gap via expansionary policy ($AD \\uparrow$) expands Real GDP back to potential output ($Y^*$) but exerts upward pressure on the price level. Conversely, closing the gap through the supply side ($SRAS \\uparrow$, through falling nominal wages or reduced input costs) moves output and prices in opposite directions ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$), restoring potential output at a lower price level. However, Keynesians stress that downward wage stickiness prevents the SRAS mechanism from working effectively in practice.',
+        trapExplanation: 'Option A inverts the price effects. Option D contradicts the core Keynesian observation of downward wage rigidity.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the contrasting directional price level effects of closing output gaps via Aggregate Demand versus Short-Run Aggregate Supply.',
       },
     ],
   },
