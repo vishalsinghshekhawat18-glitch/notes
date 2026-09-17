@@ -4003,8 +4003,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
-        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. The quantity is Real GDP and the vertical axis is the price level. LRAS is vertical because it reflects the economy\'s ability to produce based on real resources, independent of the price level.',
+        locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4) & "Productive Capacity" (YouTube: mUkYt6cXxqY); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
+        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. LRAS is vertical at potential output ($Y^*$) because it reflects the economy\'s maximum physical productive capacity (governed by labor, capital, natural resources, and technology), which is invariant to aggregate price levels.',
       },
       {
         id: 'CLM-ECO-17-06',
