@@ -4622,8 +4622,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Classical Economic Theory - Insufficient Demand" (YouTube: KiD4ADxTvfw), "Classical Economic Theory - The Labor Market Basics" (YouTube: KId0-meFAJ0), "Classical Economic Theory Intro - Assumptions" (YouTube: 2Z1VyxIjS94), "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'In "Classical Economic Theory - Insufficient Demand" and "Classical Economic Theory Intro - Assumptions", Professor Ryan defines the three foundational pillars of Classical Macroeconomics: (1) The economy is self-regulating via laissez-faire (no government intervention needed; output naturally converges to natural real GDP), (2) Inadequate aggregate demand will not destroy the economy (Say\'s Law and the credit/loanable funds market ensure that savings leakages automatically lower interest rates and stimulate matching investment spending, S = I), and (3) Wage rates and prices are fully flexible both upward and downward (clearing labor surpluses and deficits). Modern Keynesian analysis identifies downward wage rigidity (contracts, minimum wage, unions) as the fatal breakdown of the third assumption.',
+        locator: 'Professor Ryan, "Closing Output Gaps - Classical Economic Theory" (YouTube: tTvhpwPSJfM), "Classical Economic Theory - Insufficient Demand" (YouTube: KiD4ADxTvfw), "Classical Economic Theory - The Labor Market Basics" (YouTube: KId0-meFAJ0), "Classical Economic Theory Intro - Assumptions" (YouTube: 2Z1VyxIjS94), "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'In "Closing Output Gaps - Classical Economic Theory" and "Classical Economic Theory Intro - Assumptions", Professor Ryan demonstrates how Classical laissez-faire theory explains the automatic self-correction of output gaps exclusively through shifts in Short-Run Aggregate Supply (SRAS), without government intervention. In a recessionary gap (Y < Y*), output is below potential and unemployment exceeds the natural rate (u > NRU, Okun\'s Law), meaning a labor surplus exists (Q_S > Q_D) because wages are above equilibrium. Jobless workers bid nominal wages down (W ↓), decreasing business production costs, which shifts SRAS rightward until real GDP expands to Natural Real GDP (Y = Y*). In an inflationary gap (Y > Y*), overproducing erodes frictional/structural search reserves (u < NRU), creating a labor shortage (Q_D > Q_S). Competing firms bid nominal wages up (W ↑), raising production costs, which shifts SRAS leftward until real GDP cools back to potential (Y = Y*). Classical theory prescribes: do nothing, the economy self-regulates via SRAS.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -5129,6 +5129,49 @@ In **"Classical Economic Theory Intro - Assumptions"** (YouTube: 2Z1VyxIjS94), P
     production costs and shifting SRAS rightward back to potential output (Y*).
   • THE MODERN/KEYNESIAN BREAKDOWN: Downward wage rigidity ("sticky wages" due to
     unions, minimum wage laws, and morale) immobilizes this third assumption.
+========================================================================================
+\`\`\`
+
+#### Classical Macroeconomic Theory: Automatic Self-Correction of Output Gaps via SRAS (Professor Ryan)
+In **"Closing Output Gaps - Classical Economic Theory"** (YouTube: tTvhpwPSJfM), Professor Ryan deconstructs how Classical laissez-faire doctrine explains the automatic restoration of long-run equilibrium without state intervention:
+* **The Classical Golden Rule:** In Classical theory, output gaps are closed **exclusively by shifts in Short-Run Aggregate Supply ($SRAS$)**, never by shifts in Aggregate Demand ($AD$). The government's optimal policy prescription is **laissez-faire ("hands off" / do nothing)**, because the labor market automatically transmits price signals into unit production costs.
+
+##### 1. Automatic Self-Correction of a Recessionary Gap ($Y < Y^*$):
+1. **Diagnosis:** Short-run equilibrium ($AD \\cap SRAS$) occurs to the left of the vertical $LRAS$ curve. Real GDP is depressed ($Y < Y^*$).
+2. **Okun's Law Transmission:** Low output translates directly into elevated unemployment ($u > \\text{NRU}$), meaning the economy is not at full employment.
+3. **Labor Market Disequilibrium:** An unemployment rate above natural implies that in the labor market, quantity supplied of labor exceeds quantity demanded ($Q_{S,L} > Q_{D,L}$). This occurs because the prevailing wage rate ($W_H$) is above the market-clearing equilibrium wage ($W_e$). A **Labor Surplus** exists.
+4. **Wage Deflation ($W \\downarrow$):** Jobless workers compete for scarce job openings, going to employers and offering to work for lower nominal pay. Downward wage flexibility allows market forces to bid nominal wages down toward $W_e$.
+5. **Production Cost Reduction:** Nominal wages represent business production costs. As wages fall, unit production costs across the economy decrease.
+6. **SRAS Shifts Right:** Falling costs motivate businesses to expand output at every price level, shifting the $SRAS$ curve rightward.
+7. **Equilibrium Restored:** $SRAS$ continues shifting rightward until it intersects $AD$ directly on the $LRAS$ curve at Potential Output ($Y = Y^*$), closing the recessionary gap and reducing the price level ($PL \\downarrow$).
+
+##### 2. Automatic Self-Correction of an Inflationary Gap ($Y > Y^*$):
+1. **Diagnosis:** Short-run equilibrium ($AD \\cap SRAS$) occurs to the right of the vertical $LRAS$ curve. The economy is overproducing ($Y > Y^*$), unsustainably burning through physical and human resources.
+2. **Okun's Law Transmission:** High output pulls the unemployment rate below the natural rate ($u < \\text{NRU}$), eroding normal frictional and structural search reserves.
+3. **Labor Market Disequilibrium:** An unemployment rate below natural implies that quantity demanded of labor exceeds quantity supplied ($Q_{D,L} > Q_{S,L}$). This occurs because the prevailing wage rate ($W_L$) is below equilibrium ($W_e$). A **Labor Shortage** exists.
+4. **Wage Inflation ($W \\uparrow$):** Employers competing for scarce workers bid wages up to attract and retain staff. Market forces push nominal wages upward toward $W_e$.
+5. **Production Cost Surge:** Rising wages drive up economy-wide production costs.
+6. **SRAS Shifts Left:** Escalating costs force firms to curtail production at every price level, shifting the $SRAS$ curve leftward.
+7. **Equilibrium Restored:** $SRAS$ continues shifting leftward until it intersects $AD$ directly on the $LRAS$ curve at Potential Output ($Y = Y^*$), closing the inflationary gap while pushing the price level permanently higher ($PL \\uparrow$).
+
+\`\`\`text
+========================================================================================
+    CLASSICAL AUTOMATIC SELF-CORRECTION: LABOR MARKET ──► SRAS TRANSMISSION
+========================================================================================
+
+  PANEL A: RECESSIONARY GAP (Y < Y*)              PANEL B: INFLATIONARY GAP (Y > Y*)
+  ─────────────────────────────────              ──────────────────────────────────
+  1. Output Low: Y < Y*                           1. Output Overheated: Y > Y*
+  2. Unemployment High: u > NRU (Okun's Law)     2. Unemployment Depleted: u < NRU
+  3. Labor Surplus: Q_S,L > Q_D,L (W too high)   3. Labor Shortage: Q_D,L > Q_S,L (W too low)
+  4. Competition bids Wages DOWN: W ↓            4. Competition bids Wages UP: W ↑
+  5. Business Production Costs FALL              5. Business Production Costs RISE
+  6. SRAS shifts RIGHT: SRAS0 ──► SRAS1          6. SRAS shifts LEFT: SRAS0 ──► SRAS1
+  7. Output expands to Y*, Price Level FALLS     7. Output cools to Y*, Price Level RISES
+  ══════════════════════════════════════════════════════════════════════════════════════
+  CLASSICAL SUMMARY:
+  • Policy Rule: LAISSEZ-FAIRE (Do Nothing, Zero State Intervention).
+  • Operating Channel: Output gaps close EXCLUSIVELY via SRAS shifts, NEVER via AD!
 ========================================================================================
 \`\`\`
 
@@ -5707,6 +5750,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the Classical Credit/Loanable Funds Market clearing mechanism where flexible interest rates convert savings into capital investment ($S = I$), refuting underconsumptionist demand deficiency.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to Classical Economic Theory and Professor Ryan\'s lecture in "Closing Output Gaps - Classical Economic Theory", how does an economy automatically close a RECESSIONARY GAP ($Y < Y^*$) under laissez-faire, and which curve shifts to restore long-run macroeconomic equilibrium?',
+        options: [
+          'In a recessionary gap ($Y < Y^*$), unemployment exceeds the natural rate ($u > \\text{NRU}$), creating a Labor Surplus ($Q_{S,L} > Q_{D,L}$); unemployed workers compete for jobs and bid nominal wages down ($W \\downarrow$), which lowers business production costs and shifts Short-Run Aggregate Supply rightward ($SRAS \\uparrow$) until Real GDP equals Natural Real GDP ($Y = Y^*$) and the price level falls ($PL \\downarrow$).',
+          'In a recessionary gap, the government must immediately enact massive fiscal stimulus to shift the Aggregate Demand curve rightward ($AD \\uparrow$), because Classical theory forbids supply curves from shifting.',
+          'In a recessionary gap, the Central Bank prints excess currency to shift the vertical Long-Run Aggregate Supply curve leftward ($LRAS \\downarrow$) to meet current depressed output.',
+          'In a recessionary gap, labor unions mandate higher nominal wages, forcing firms to shut down inefficient factories and permanently contracting the labor force.',
+        ],
+        correctAnswer: 'In a recessionary gap ($Y < Y^*$), unemployment exceeds the natural rate ($u > \\text{NRU}$), creating a Labor Surplus ($Q_{S,L} > Q_{D,L}$); unemployed workers compete for jobs and bid nominal wages down ($W \\downarrow$), which lowers business production costs and shifts Short-Run Aggregate Supply rightward ($SRAS \\uparrow$) until Real GDP equals Natural Real GDP ($Y = Y^*$) and the price level falls ($PL \\downarrow$).',
+        explanation: 'In "Closing Output Gaps - Classical Economic Theory", Professor Ryan details the automatic self-correction mechanism under Classical laissez-faire theory. When an economy experiences a recessionary gap ($Y < Y^*$), output is below potential. By Okun\'s Law, unemployment rises above the natural rate ($u > \\text{NRU}$). In the labor market, this manifests as a Labor Surplus ($Q_{S,L} > Q_{D,L}$) because prevailing nominal wages are above equilibrium. Unemployed workers compete for scarce job openings and bid nominal wages down ($W \\downarrow$). Because wages represent production costs to firms, lower wages reduce unit production costs across the macroeconomy. Lower costs shift the Short-Run Aggregate Supply curve rightward ($SRAS \\uparrow$) until it intersects Aggregate Demand directly at Natural Real GDP ($Y = Y^*$). Thus, in Classical theory, output gaps close exclusively through shifts in SRAS (never AD), restoring full employment while lowering the price level ($PL \\downarrow$) without any government intervention.',
+        trapExplanation: 'Option B describes the Keynesian interventionist solution (shifting AD via fiscal policy), which Classical theory explicitly rejects. Option C is false because LRAS depends on physical resource endowments and technology, not money printing. Option D inverts the Classical assumption of flexible downward wages.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the Classical transmission mechanism for closing a recessionary gap: Labor Surplus -> Wages Fall (W bids down) -> Production Costs Fall -> SRAS Shifts Right (SRAS increases) -> Y returns to Y* with lower PL.',
       },
     ],
   },
