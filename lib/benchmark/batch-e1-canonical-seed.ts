@@ -353,6 +353,15 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         locator: 'U.S. Bureau of Labor Statistics (BLS), "Labor Force Statistics from the Current Population Survey: Alternative Measures of Labor Underutilization"; N. Gregory Mankiw, Principles of Macroeconomics; MoSPI, Periodic Labour Force Survey (PLFS) Concepts and Definitions',
         excerpt: 'The BLS publishes six alternative measures of labor underutilization, labeled U-1 through U-6. U-3 is the total unemployed as a percent of the civilian labor force (official unemployment rate). U-6 includes total unemployed, plus all marginally attached workers, plus total employed part time for economic reasons.',
       },
+      {
+        id: 'CLM-ECO-02-09',
+        statement: 'Full Employment is achieved when Cyclical Unemployment is eliminated and the economy operates at the Non-Accelerating Inflation Rate of Unemployment (NAIRU / NRU). Attempting to drive unemployment below NAIRU (U < NAIRU) via expansionary monetary or fiscal stimulus creates acute labor shortages, triggering an accelerating wage-price spiral (W ↑ implies P ↑ implies inflation expectations ↑). Consequently, while the Short-Run Phillips Curve permits a temporary inflation-unemployment trade-off, the Long-Run Phillips Curve (LRPC) is strictly vertical at NAIRU, establishing that monetary policy has no permanent effect on equilibrium employment (the Classical Dichotomy in the long run).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Milton Friedman (1968) "The Role of Monetary Policy", American Economic Review; Edmund S. Phelps (1967) "Phillips Curves, Expectations of Inflation and Optimal Unemployment over Time", Economica; Franco Modigliani and Lucas Papademos (1975) "Targets for Monetary Policy in the Coming Year", Brookings Papers on Economic Activity',
+        excerpt: 'There is always a temporary trade-off between inflation and unemployment; there is no permanent trade-off. The permanent trade-off is not between inflation and unemployment, but between unemployment and unanticipated inflation.',
+      },
     ],
     contentBlocks: [
       {
@@ -533,7 +542,7 @@ Because the headline rate ($UR$, known as **U-3**) fails to capture discouraged 
 #### Professor Ryan's Three Labor Market Traps & Paradoxes
 1. **The Discouraged Worker Paradox**:
    - In a severe or prolonged economic recession, thousands of frustrated unemployed workers give up searching for work.
-   - When a job-seeker stops actively searching, they drop out of the numerator ($U \downarrow$) and out of the denominator ($LF \downarrow$).
+   - When a job-seeker stops actively searching, they drop out of the numerator ($U ↓$) and out of the denominator ($LF ↓$).
    - **The Paradoxical Result**: The official headline Unemployment Rate ($UR = U / LF$) **DECLINES**, making it appear as though the labor market is recovering when, in reality, economic hardship and despair have intensified!
 2. **The Involuntary Part-Time / Underemployment Blindspot**:
    - Headline unemployment metrics (BLS U-3 rate) treat an underemployed worker (e.g., an engineer working 5 hours a week at minimum wage who desperately wants full-time employment) identically to a fully employed executive working 50 hours a week. Both are counted as "Employed".
@@ -550,7 +559,7 @@ While measuring the headline unemployment rate tracks how many citizens are sear
 
 | Analytical Dimension | 1. Frictional Unemployment | 2. Structural Unemployment | 3. Cyclical Unemployment (Demand-Deficient) |
 | :--- | :--- | :--- | :--- |
-| **Fundamental Nature** | **Voluntary & Transitional:** Workers between jobs searching for a better career match. | **Involuntary & Long-Term:** Fundamental mismatch between workers' existing skills and employer requirements. | **Involuntary & Macroeconomic:** Deficiency in Aggregate Demand ($AD \downarrow$) during economic downturns/recessions. |
+| **Fundamental Nature** | **Voluntary & Transitional:** Workers between jobs searching for a better career match. | **Involuntary & Long-Term:** Fundamental mismatch between workers' existing skills and employer requirements. | **Involuntary & Macroeconomic:** Deficiency in Aggregate Demand ($AD ↓$) during economic downturns/recessions. |
 | **Root Causes** | • Information friction in the labor market.<br>• Time required for job search and interview matching.<br>• Recent university graduates entering the workforce.<br>• Geographic relocation across cities. | • **Creative Destruction & Technological Change:** Automation, robotics, AI, or digital transformation rendering old job functions obsolete.<br>• Consumer taste shifts wiping out entire industries.<br>• Geographic immobility of labor. | • Business cycle contraction / recession.<br>• Decline in consumer spending, business CapEx, or export demand.<br>• Firms face unsold inventory and lay off workers (Keynesian unemployment). |
 | **Typical Duration** | **Short-Term** (weeks to a few months). | **Chronic / Long-Term** (months to years; high risk of permanent skill atrophy/hysteresis). | **Medium-Term** (lasts as long as the recessionary trough of the business cycle). |
 | **Concrete Real-World Examples** | • A software engineer who voluntarily resigns to find a higher-paying AI engineering role.<br>• A fresh college graduate spending 2 months interviewing with consulting firms. | • Handloom weavers displaced by automated computerized powerlooms.<br>• Coal miners unemployed as energy grids transition to solar/wind.<br>• ICE automotive assembly workers displaced by electric vehicle manufacturing. | • Construction workers and auto plant employees laid off during the 2008 Global Financial Crisis or 2020 pandemic lockdown.<br>• Factory workers furloughed because consumer demand dropped by 20%. |
@@ -579,6 +588,35 @@ $$\frac{Y^* - Y}{Y^*} \approx 2 \times (U - \text{NRU})$$
 
 * **Core Rule of Thumb**: For every **$1\%$ increase in cyclical unemployment** above the Natural Rate ($U > \text{NRU}$), an economy suffers an approximate **$2\%$ loss in Real GDP** relative to its potential output (the **GDP Output Gap**).
 * **The Irreversible Loss**: Unlike physical capital that can be put to work tomorrow, an idle worker's labor today is gone forever—the haircuts, lines of code, medical consultations, or manufactured parts that could have been produced today vanish permanently from national wealth.
+
+---
+
+#### The Non-Accelerating Inflation Rate of Unemployment (NAIRU) & The Wage-Price Spiral
+While the **Natural Rate of Unemployment (NRU)** describes the real structural equilibrium of the labor market, Franco Modigliani and Lucas Papademos (1975) introduced the **Non-Accelerating Inflation Rate of Unemployment (NAIRU)** to define the exact frontier where price stability is maintained:
+
+$$\text{NAIRU} \iff \text{The specific unemployment rate at which the annual inflation rate remains constant } (\Delta \pi = 0)$$
+
+* **The Overheating Mechanism: What Happens When $U < \text{NAIRU}$?**:
+  1. **Acute Labor Shortages**: Aggregate demand expansion pushes output beyond sustainable potential ($Y > Y^*$). Employers face widespread shortages and bid aggressively for scarce labor.
+  2. **Wage-Push Cost Pressure**: With minimal fear of job loss, workers and labor unions gain immense bargaining power, extracting nominal wage hikes ($W ↑$) far exceeding labor productivity growth.
+  3. **Cost-Price Transmission**: To defend profit margins, firms pass higher wage expenses directly into consumer price tags ($P ↑$).
+  4. **Expectations Acceleration**: Observing surging living costs, workers and households raise their inflation expectations ($\pi^e ↑$). In the next wage bargaining cycle, workers demand even larger raises to protect real purchasing power, igniting an **accelerating wage-price spiral** ($\pi ↑↑$).
+* **The Asymmetric Policy Rule**:
+  - **$U = \text{NAIRU}$**: Labor market is in equilibrium; inflation is stable ($\Delta \pi = 0$).
+  - **$U < \text{NAIRU}$**: Economy is overheated; inflation accelerates continuously ($\Delta \pi > 0$).
+  - **$U > \text{NAIRU}$**: Economy has idle slack; inflation decelerates ($\Delta \pi < 0$, disinflation or deflation).
+
+---
+
+#### The Long-Run Vertical Phillips Curve (LRPC) & Structural Shifters of NAIRU
+Milton Friedman (1968) and Edmund Phelps (1967) demolished the Keynesian belief in a permanent, exploitable trade-off between inflation and unemployment (the **Accelerationist Hypothesis**):
+* In the **Short Run**, unanticipated policy stimulus can temporarily push unemployment below NAIRU along a downward-sloping Short-Run Phillips Curve (SRPC), but only by generating surprise inflation.
+* In the **Long Run**, once economic actors fully anticipate the higher inflation ($\pi^e = \pi$), the Short-Run Phillips Curve shifts upward. Real wages and employment return to their natural levels, proving that the **Long-Run Phillips Curve (LRPC) is strictly vertical at NAIRU**. Monetary policy is neutral in the long run (it affects only nominal prices, not real employment).
+* **Structural Determinants That Shift NAIRU (Moving the LRPC)**:
+  - *Workforce Demographics*: A higher proportion of prime-age experienced workers lowers frictional churn, shifting NAIRU leftward.
+  - *Labor Market Institutions*: Excessively generous or prolonged unemployment benefits and rigid job-security mandates increase structural rigidity, shifting NAIRU rightward.
+  - *Job-Matching Technology*: AI job-matching algorithms, transparent wage databases, and digital platforms reduce frictional search time, shifting NAIRU leftward.
+  - *Velocity of Structural Change*: Accelerating automation, robotics, and industrial disruption increase structural skill mismatches, shifting NAIRU rightward unless counteracted by dynamic national re-skilling programs.
 
 ---
 
@@ -772,6 +810,22 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'HARD',
         isPYQ: false,
         examinerTrapPattern: 'Testing the mathematical sensitivity of both LFPR and UR under simultaneous countervailing labor market flows.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'An economy has an estimated Natural Rate of Unemployment (NAIRU) of 4.5%, with current inflation stable at 2.0%. Ahead of national elections, the government introduces massive fiscal stimulus and the central bank slashes interest rates, successfully forcing the actual unemployment rate down to 3.0% for two consecutive years. According to the Friedman-Phelps Accelerationist Hypothesis, what will happen to the inflation rate and the economy in the long run?',
+        options: [
+          'Inflation will accelerate continuously as an acute wage-price spiral takes hold; in the long run, the economy will return to the NAIRU of 4.5% at a permanently higher inflation rate along the vertical Long-Run Phillips Curve (LRPC).',
+          'Inflation will remain stable at 2.0% because lower unemployment permanently expands aggregate productive capacity and consumer supply.',
+          'The economy will permanently sustain 3.0% unemployment with a one-time step increase in inflation to 4.0%, shifting the LRPC leftward to 3.0%.',
+          'Unemployment will drop to 0.0% because sustained monetary stimulus permanently eliminates frictional and structural search times.',
+        ],
+        correctAnswer: 'Inflation will accelerate continuously as an acute wage-price spiral takes hold; in the long run, the economy will return to the NAIRU of 4.5% at a permanently higher inflation rate along the vertical Long-Run Phillips Curve (LRPC).',
+        explanation: 'When actual unemployment is pushed below NAIRU (3.0% < 4.5%), extreme labor shortages give workers immense bargaining leverage to secure nominal wage hikes exceeding productivity growth. Firms pass these costs into consumer prices. As inflation expectations adjust upward (π^e ↑), the Short-Run Phillips Curve shifts upward. Inflation does not merely rise—it accelerates (Δπ > 0). In the long run, nominal wage adjustments restore real equilibrium, firms reduce hiring, and unemployment returns to the natural rate of 4.5% along the strictly vertical Long-Run Phillips Curve (LRPC), leaving the economy with high inflation and zero permanent employment gain.',
+        trapExplanation: 'Option C reflects the obsolete 1960s stable Phillips curve view that was definitively refuted by 1970s stagflation; Option D is impossible because monetary stimulus cannot eliminate voluntary job mobility or technological skill mismatches.',
+        difficulty: 'HARD',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the Friedman-Phelps Accelerationist Hypothesis and the strictly vertical nature of the Long-Run Phillips Curve at NAIRU.',
       },
     ],
   },
