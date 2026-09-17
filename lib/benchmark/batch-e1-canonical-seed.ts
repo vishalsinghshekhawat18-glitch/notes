@@ -4622,8 +4622,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. Output gaps can be closed either through the demand side (shifting AD via fiscal and monetary policies) or through the supply side (shifting SRAS via factor cost adjustments). Closing a recessionary gap via AD (expansionary policy) shifts AD rightward, expanding real GDP back to potential while raising the price level (PL ↑). Closing an inflationary gap via AD (contractionary policy) shifts AD leftward, cooling real GDP back to potential while lowering the price level (PL ↓), in stark contrast to SRAS self-correction which pushes the price level higher.',
+        locator: 'Professor Ryan, "Classical Economic Theory Intro - Assumptions" (YouTube: 2Z1VyxIjS94), "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'In "Classical Economic Theory Intro - Assumptions", Professor Ryan defines the three foundational pillars of Classical Macroeconomics: (1) The economy is self-regulating via laissez-faire (no government intervention needed; output naturally converges to natural real GDP), (2) Inadequate aggregate demand will not destroy the economy (Say\'s Law and the credit/loanable funds market ensure spending leakages match investment injections), and (3) Wage rates and prices are fully flexible both upward and downward (clearing labor surpluses and deficits). Modern Keynesian analysis identifies downward wage rigidity (contracts, minimum wage, unions) as the fatal breakdown of the third assumption.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -5003,7 +5003,39 @@ In **"Closing Output Gaps with AD"**, **"Closing Output Gaps with SRAS"**, **"Cl
 | **Closing an Inflationary Gap ($Y > Y^*$)** | **Action:** Decrease Aggregate Demand ($AD \\downarrow$) via contractionary fiscal policy ($G \\downarrow, T \\uparrow$) or monetary tightening ($i \\uparrow$).<br>**Mechanism:** Multiplied contraction ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)** (disinflation). | **Action:** Labor shortages bid up nominal wages, and raw material costs surge ($SRAS \\downarrow$).<br>**Mechanism:** Increased production costs shift $SRAS$ leftward back to $Y^*$.<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** (stagflationary pressure). |
 | **Directional Price-Output Nexus** | **Same Direction:** Shifts in $AD$ move Real GDP and Price Level in the **SAME direction** ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$; $AD \\downarrow \\implies Y \\downarrow, PL \\downarrow$). | **Opposite Direction:** Shifts in $SRAS$ move Real GDP and Price Level in **OPPOSITE directions** ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$; $SRAS \\downarrow \\implies Y \\downarrow, PL \\uparrow$). |
 
-#### Why Keynesian Theory Focuses on the Aggregate Demand Channel:
+#### The Foundations of Classical Macroeconomic Theory (Professor Ryan):
+In **"Classical Economic Theory Intro - Assumptions"** (YouTube: 2Z1VyxIjS94), Professor Ryan delineates the foundational paradigm that dominated economic thought from the late 1700s up to the Great Depression:
+
+\`\`\`text
+========================================================================================
+             THE THREE FOUNDATIONAL ASSUMPTIONS OF CLASSICAL THEORY
+========================================================================================
+
+  ASSUMPTION 1: THE ECONOMY IS SELF-REGULATING (LAISSEZ-FAIRE)
+  ────────────────────────────────────────────────────────────
+  • "Hands off" / "Let do": Government intervention is unnecessary and distortive.
+  • Inherent automatic mechanisms naturally guide output to Natural Real GDP (Y*).
+  • In a recessionary gap (Y < Y*), workers keep seeking jobs, firms adjust prices,
+    and the economy self-heals without central fiscal or monetary management.
+
+  ASSUMPTION 2: INADEQUATE AGGREGATE DEMAND WILL NOT DESTROY THE ECONOMY
+  ──────────────────────────────────────────────────────────────────────
+  • Say's Law: "Supply creates its own demand" (Factor payments = Purchasing power).
+  • Credit / Loanable Funds Market: Any savings leakage (S) is channeled into
+    productive investment spending (I) via flexible interest rates (r), maintaining S = I.
+  • Systemic, prolonged aggregate demand deficiencies are structurally impossible.
+
+  ASSUMPTION 3: WAGE RATES & PRICES ARE FULLY FLEXIBLE UP & DOWN
+  ──────────────────────────────────────────────────────────────
+  • Factor prices and nominal wage rates adjust freely in response to market signals.
+  • Labor surplus (unemployment) drives nominal wages down (W ↓), reducing unit
+    production costs and shifting SRAS rightward back to potential output (Y*).
+  • THE MODERN/KEYNESIAN BREAKDOWN: Downward wage rigidity ("sticky wages" due to
+    unions, minimum wage laws, and morale) immobilizes this third assumption.
+========================================================================================
+\`\`\`
+
+#### Why Keynesian Theory Rejects Classical Self-Correction:
 1. **The Downward Wage Rigidity ("Sticky Wages") Impasse:**
    - Classical self-correction relies on the labor market clearing through flexible nominal wages ($W$). When unemployment is high, classical economists assume that jobless workers will bid wages down. Falling wages reduce firms' marginal costs, shifting $SRAS$ rightward until output returns to Potential GDP ($Y^*$).
    - However, John Maynard Keynes demonstrated that in modern industrial economies, **nominal wages are rigid downward**:
@@ -5530,6 +5562,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Contrasting the price-level trajectory when closing an inflationary gap via Aggregate Demand ($AD \\downarrow \\implies PL \\downarrow$) versus Short-Run Aggregate Supply ($SRAS \\downarrow \\implies PL \\uparrow$).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to Classical Economic Theory and Professor Ryan\'s lecture in "Classical Economic Theory Intro - Assumptions", what are the three foundational assumptions that underpin the classical belief in macroeconomic self-regulation, and why does modern Keynesian economics identify the third assumption as the most problematic?',
+        options: [
+          'Assumptions: (1) The economy is self-regulating (laissez-faire), (2) Inadequate aggregate demand will not destroy the economy (Say\'s Law and loanable funds), and (3) Wage rates and prices are fully flexible both upward and downward; Modern Problem: Nominal wages are rigid downward ("sticky wages") due to labor contracts, minimum wage legislation, and worker morale, preventing automatic SRAS self-correction during recessions.',
+          'Assumptions: (1) The government must centrally plan all industrial output, (2) Aggregate demand is permanently deficient, and (3) Interest rates are fixed at zero percent; Modern Problem: Central banks cannot print sufficient paper currency.',
+          'Assumptions: (1) The economy is perpetually unstable, (2) Money supply determines only real GDP, and (3) Prices adjust with a five-year lag; Modern Problem: Commercial banks refuse to accept customer deposits.',
+          'Assumptions: (1) Full employment is physically impossible, (2) Consumers save 100% of income, and (3) Technological progress is negative; Modern Problem: Trade deficits permanently eliminate LRAS.',
+        ],
+        correctAnswer: 'Assumptions: (1) The economy is self-regulating (laissez-faire), (2) Inadequate aggregate demand will not destroy the economy (Say\'s Law and loanable funds), and (3) Wage rates and prices are fully flexible both upward and downward; Modern Problem: Nominal wages are rigid downward ("sticky wages") due to labor contracts, minimum wage legislation, and worker morale, preventing automatic SRAS self-correction during recessions.',
+        explanation: 'In "Classical Economic Theory Intro - Assumptions", Professor Ryan formalizes the three pillars of classical macroeconomics: (1) Self-Regulating Economy (laissez-faire: the macroeconomy naturally returns to Natural Real GDP without state intervention), (2) Inadequate Demand Will Not Destroy the Economy (refutes underconsumption fears via Say\'s Law and the credit/loanable funds market where flexible interest rates ensure S = I), and (3) Wage Flexibility Up and Down (labor surpluses bid nominal wages down, lowering production costs and shifting SRAS rightward back to full employment). Professor Ryan highlights that the third assumption is the most problematic in the modern world because institutional constraints—statutory minimum wages, labor unions, multi-year contracts, and efficiency wage considerations—render nominal wages rigid downward ("sticky"), causing prolonged recessionary traps that necessitate Keynesian demand management.',
+        trapExplanation: 'Option B inverts classical doctrine by asserting central planning and deficient demand. Option C confuses classical theory with extreme monetarist distortions. Option D posits absurd non-economic assumptions.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the three classical assumptions (Self-regulation/Laissez-faire, Say\'s Law demand sufficiency, Upward and Downward Wage Flexibility) and the modern downward wage stickiness critique.',
       },
     ],
   },
