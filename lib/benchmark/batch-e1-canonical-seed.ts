@@ -335,6 +335,15 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         locator: 'U.S. Bureau of Labor Statistics (BLS) Handbook of Methods, Chapter 1: Labor Force Data Derived from the Current Population Survey (CPS); ILO Resolution concerning statistics of work (19th ICLS, 2013); N. Gregory Mankiw, Macroeconomics',
         excerpt: 'The civilian noninstitutional population is divided into three groups: employed, unemployed, and not in the labor force. Persons with marginal attachment and discouraged workers are classified as not in the labor force.',
       },
+      {
+        id: 'CLM-ECO-02-07',
+        statement: 'Unemployment is classically decomposed into Three Distinct Types: (1) Frictional Unemployment (temporary matching frictions as workers voluntarily search for better-matching jobs or enter the workforce; inevitable, healthy, and short-duration), (2) Structural Unemployment (long-term structural mismatch between workers skills or geographic locations and employer requirements, driven by technological disruption and creative destruction), and (3) Cyclical Unemployment (involuntary joblessness caused by aggregate demand deficiency during macroeconomic recessions). The Natural Rate of Unemployment (NRU / NAIRU) equals Frictional plus Structural unemployment; Full Employment is achieved strictly when Cyclical Unemployment = 0%, and output deviations from potential GDP follow Okuns Law (a 1% rise in cyclical unemployment corresponds to an approximate 2% GDP output gap).',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 29: Unemployment and the Foundations of Aggregate Supply; N. Gregory Mankiw, Macroeconomics, Chapter 7: Unemployment; Arthur Okun (1962) "Potential GNP: Its Measurement and Significance"',
+        excerpt: 'The natural rate of unemployment is the rate toward which the economy gravitates in the long run. Cyclical unemployment is the deviation of unemployment from its natural rate.',
+      },
     ],
     contentBlocks: [
       {
@@ -493,7 +502,45 @@ $$\text{Employment-to-Population Ratio (EPR)} = \frac{\text{Employed } (E)}{\tex
 
 ---
 
-### 5. The Fallacy of Composition & The Paradox of Thrift
+### 5. Macroeconomic Goal 2 Deep-Dive: The Three Types of Unemployment, NRU & Okun's Law
+
+While measuring the headline unemployment rate tracks how many citizens are searching for work, macroeconomic policy must diagnose the **underlying structural cause** of that joblessness. Macroeconomists classify unemployment into three distinct types:
+
+| Analytical Dimension | 1. Frictional Unemployment | 2. Structural Unemployment | 3. Cyclical Unemployment (Demand-Deficient) |
+| :--- | :--- | :--- | :--- |
+| **Fundamental Nature** | **Voluntary & Transitional:** Workers between jobs searching for a better career match. | **Involuntary & Long-Term:** Fundamental mismatch between workers' existing skills and employer requirements. | **Involuntary & Macroeconomic:** Deficiency in Aggregate Demand ($AD \downarrow$) during economic downturns/recessions. |
+| **Root Causes** | • Information friction in the labor market.<br>• Time required for job search and interview matching.<br>• Recent university graduates entering the workforce.<br>• Geographic relocation across cities. | • **Creative Destruction & Technological Change:** Automation, robotics, AI, or digital transformation rendering old job functions obsolete.<br>• Consumer taste shifts wiping out entire industries.<br>• Geographic immobility of labor. | • Business cycle contraction / recession.<br>• Decline in consumer spending, business CapEx, or export demand.<br>• Firms face unsold inventory and lay off workers (Keynesian unemployment). |
+| **Typical Duration** | **Short-Term** (weeks to a few months). | **Chronic / Long-Term** (months to years; high risk of permanent skill atrophy/hysteresis). | **Medium-Term** (lasts as long as the recessionary trough of the business cycle). |
+| **Concrete Real-World Examples** | • A software engineer who voluntarily resigns to find a higher-paying AI engineering role.<br>• A fresh college graduate spending 2 months interviewing with consulting firms. | • Handloom weavers displaced by automated computerized powerlooms.<br>• Coal miners unemployed as energy grids transition to solar/wind.<br>• ICE automotive assembly workers displaced by electric vehicle manufacturing. | • Construction workers and auto plant employees laid off during the 2008 Global Financial Crisis or 2020 pandemic lockdown.<br>• Factory workers furloughed because consumer demand dropped by 20%. |
+| **Is it Healthy / Avoidable?** | **Healthy & Inevitable:** Proves that workers have the freedom to search for jobs where their productivity and wages are maximized. | **Inevitable Consequence of Progress:** Economic modernization requires sunsetting obsolete industries to birth higher-productivity sectors. | **Destructive & Avoidable:** Represents pure macroeconomic waste of human capital; can and should be eliminated via policy. |
+| **Primary Policy Remedies** | • Improved labor market information systems.<br>• Transparent digital employment portals (e.g., National Career Service).<br>• Reducing bureaucratic friction in recruitment. | • Targeted vocational re-skilling programs (e.g., Skill India, ITI modernization).<br>• Lifelong learning tax credits and trade adjustment assistance.<br>• Relocation subsidies for depressed industrial regions. | • **Expansionary Fiscal Policy:** Government capital expenditure, public infrastructure projects, tax cuts.<br>• **Expansionary Monetary Policy:** Central bank repo rate cuts, quantitative easing, expanding credit availability. |
+
+---
+
+#### The Natural Rate of Unemployment (NRU) & The Full Employment Identity
+In a dynamic, innovative market economy, **Frictional and Structural unemployment can never be zero**. In fact, forcing them to zero would mean outlawing job mobility (no one can quit to look for a better job) and outlawing technological progress (no new technology can displace older machines).
+
+$$\text{Actual Unemployment Rate } (U) = \text{Frictional Unemployment} + \text{Structural Unemployment} + \text{Cyclical Unemployment}$$
+
+$$\text{Natural Rate of Unemployment (NRU / NAIRU)} = \text{Frictional Unemployment} + \text{Structural Unemployment}$$
+
+$$\text{Full Employment State} \iff \text{Cyclical Unemployment} = 0\% \iff \text{Actual Unemployment } (U) = \text{NRU}$$
+
+When an economy is at Full Employment ($U = \text{NRU}$), it operates at its **Potential GDP ($Y^*$)**.
+
+---
+
+#### Okun's Law: The Real-World Output Cost of Cyclical Unemployment
+Arthur Okun (1962), Chairman of the U.S. Council of Economic Advisers, quantified the direct mathematical link between cyclical unemployment and lost national production:
+
+$$\frac{Y^* - Y}{Y^*} \approx 2 \times (U - \text{NRU})$$
+
+* **Core Rule of Thumb**: For every **$1\%$ increase in cyclical unemployment** above the Natural Rate ($U > \text{NRU}$), an economy suffers an approximate **$2\%$ loss in Real GDP** relative to its potential output (the **GDP Output Gap**).
+* **The Irreversible Loss**: Unlike physical capital that can be put to work tomorrow, an idle worker's labor today is gone forever—the haircuts, lines of code, medical consultations, or manufactured parts that could have been produced today vanish permanently from national wealth.
+
+---
+
+### 6. The Fallacy of Composition & The Paradox of Thrift
 The defining conceptual difference between Micro and Macro is the **Fallacy of Composition**: *the false belief that what is logically valid for an individual must also be true for the aggregate whole*.
 * **The Paradox of Thrift (Keynes):** If an individual household saves more of its income, its personal wealth increases (Micro perspective). But if **all households in the nation save more simultaneously**, total consumption expenditure plunges. Because one person's spending is another person's income, aggregate business revenue collapses, factories lay off workers, national income falls, and total aggregate savings in the economy paradoxically end up lower than before!`,
         order: 2,
@@ -651,6 +698,22 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the mathematical mechanics of the Discouraged Worker Effect on both the unemployment rate numerator and denominator.',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'During an economic assessment, an analyst examines three unemployed individuals:\n1. Priya, who voluntarily quit her software testing job last week to search for a higher-paying machine learning role.\n2. Vikram, an assembly line worker in an internal combustion engine component factory who was permanently laid off because the automaker transitioned 100% of production to electric vehicles requiring specialized battery technicians.\n3. Rahul, a structural construction worker who was laid off because national housing starts collapsed by 25% following a severe macroeconomic recession.\n\nWhich of the following correctly classifies their unemployment types, and identifies which individual can be returned to work via expansionary monetary policy (repo rate cuts)?',
+        options: [
+          'Priya: Frictional; Vikram: Structural; Rahul: Cyclical. Only Rahul can be returned to work via expansionary monetary policy.',
+          'Priya: Cyclical; Vikram: Frictional; Rahul: Structural. Priya and Vikram can be returned to work via expansionary monetary policy.',
+          'Priya: Structural; Vikram: Cyclical; Rahul: Frictional. Only Vikram can be returned to work via expansionary monetary policy.',
+          'Priya: Frictional; Vikram: Cyclical; Rahul: Structural. All three can be returned to work equally via expansionary monetary policy.',
+        ],
+        correctAnswer: 'Priya: Frictional; Vikram: Structural; Rahul: Cyclical. Only Rahul can be returned to work via expansionary monetary policy.',
+        explanation: 'Priya is voluntarily between jobs and actively searching for a better career match, which is Frictional Unemployment. Vikram has suffered a permanent mismatch between his skills and the demands of new technology (EV transition), which is Structural Unemployment (requiring vocational retraining, not monetary stimulus). Rahul lost his job due to a macroeconomic downturn and aggregate demand deficiency (housing market collapse), which is Cyclical Unemployment. Expansionary monetary policy (interest rate cuts) stimulates aggregate investment and consumer borrowing (AD ↑), restoring construction activity and hiring, which specifically cures Cyclical unemployment.',
+        trapExplanation: 'Option B inverts Priya and Rahul; Option C misidentifies structural mismatch as cyclical; Option D fails to recognize that monetary policy stimulates aggregate demand, which cannot fix structural technological skill mismatches or eliminate voluntary search frictions.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing whether the student can distinguish between structural obsolescence (cured by re-skilling) and cyclical demand deficiency (cured by monetary/fiscal stimulus).',
       },
     ],
   },
