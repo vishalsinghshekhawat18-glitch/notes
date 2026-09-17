@@ -2215,7 +2215,7 @@ Under the National Food Security Act (NFSA), does giving ₹1,000 cash or ₹1,0
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Ordinal Consumer Choice Architecture: 1. Axioms: Completeness, Transitivity, Monotonicity, Convexity. 2. Geometry: Tangency of IC with Budget Line. 3. Mathematical Condition: $\\max U(X,Y)$ s.t. $P_x X + P_y Y = M \\implies \\mathcal{L} = U(X,Y) - \\lambda(P_x X + P_y Y - M)$. 4. Slutsky Decomposition: $\\frac{\\partial X}{\\partial P_x} = \\left(\\frac{\\partial X}{\\partial P_x}\\right)_{\\text{comp}} - X \\frac{\\partial X}{\\partial M}$.',
+        content: 'Ordinal Consumer Choice Architecture: 1. Axioms: Completeness, Transitivity, Monotonicity, Convexity. 2. Geometry: Tangency of Indifference Curve with Budget Line. 3. Tangency Equilibrium Condition: $MRS_{xy} = \\frac{P_x}{P_y}$ (Marginal Rate of Substitution equals market price ratio). 4. Slutsky Rule: $\\text{Total Price Effect} = \\text{Substitution Effect (always negative)} + \\text{Income Effect}$.',
         order: 3,
       },
     ],
@@ -4333,16 +4333,14 @@ Suppose a business spends ₹100 building new machinery:
 
 Notice that the cumulative saving leakages across all infinite rounds ($\\sum \\text{Savings} = ₹25 + ₹18.75 + ₹14.06 + \\dots = ₹100$) exactly equal the initial injection of ₹100, restoring the fundamental leakage-injection balance ($S = I$).
 
-##### 3. Mathematical Derivation of the Multiplier Formula
-The total cumulative change in output is an infinite geometric series:
-$$\\Delta Y = \\Delta I + (\\Delta I \\cdot MPC) + (\\Delta I \\cdot MPC^2) + (\\Delta I \\cdot MPC^3) + \\dots$$
-$$\\Delta Y = \\Delta I \\left[ 1 + MPC + MPC^2 + MPC^3 + \\dots \\right]$$
-
-Since $0 < MPC < 1$, the sum of an infinite geometric series $\\sum_{n=0}^{\\infty} r^n = \\frac{1}{1 - r}$:
+##### 3. The Multiplier Formula (High-Yield Exam Tool)
+Because successive spending rounds diminish geometrically as leakages accumulate into savings, the overall expansion in national income is given by the compact formula:
 $$\\mathbf{k = \\frac{\\Delta Y}{\\Delta I} = \\frac{1}{1 - MPC} = \\frac{1}{MPS}}$$
 
-For $MPC = 0.75$:
-$$k = \\frac{1}{1 - 0.75} = \\frac{1}{0.25} = 4 \\implies \\Delta Y = 4 \\times ₹100 = ₹400$$
+* **Direct Numerical Calculation:**
+  - With $MPC = 0.75 \\implies MPS = 0.25$:
+    $$k = \\frac{1}{1 - 0.75} = \\frac{1}{0.25} = 4 \\implies \\Delta Y = 4 \\times ₹100 = ₹400$$
+  - Higher $MPC$ (or lower $MPS$) directly increases multiplier potency because less liquidity leaks out of the domestic circular flow during each spending iteration.
 
 ##### 4. Connection to the Aggregate Market ($AD$ Curve Shifts)
 In the Aggregate Market model, when autonomous investment ($\\Delta I$) increases, the initial horizontal shift of the Aggregate Demand ($AD$) curve is not merely $\\Delta I$, but the fully multiplied amount:
