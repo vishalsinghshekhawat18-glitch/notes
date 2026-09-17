@@ -3957,6 +3957,15 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         locator: 'Professor Ryan, "The Aggregate Market" (YouTube: hZ3NNwOSqA4); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
         excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. The quantity is Real GDP and the vertical axis is the price level. LRAS is vertical because it reflects the economy\'s ability to produce based on real resources, independent of the price level.',
       },
+      {
+        id: 'CLM-ECO-17-06',
+        statement: 'Macroeconomic shocks dynamically displace the economy from long-run equilibrium: demand shocks create inflationary gaps ($Y > Y^*$, $PL ↑$) or recessionary gaps ($Y < Y^*$, $PL ↓$), while adverse supply shocks shift Short-Run Aggregate Supply (SRAS) leftward causing stagflation (simultaneous contraction and inflation); while classical theory posits self-correction through long-run nominal wage adjustments restoring potential output ($Y^*$), Keynesian theory identifies downward wage rigidity as the cause of persistent underemployment, establishing the imperative for counter-cyclical stabilization.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Professor Ryan, "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'Dynamics of the aggregate market examine shifts in AD and SRAS. Shifts in AD create inflationary or recessionary gaps. In the long run, the economy self-corrects as wages adjust, shifting SRAS to restore potential output, though downward wage rigidities may delay this transition.',
+      },
     ],
     contentBlocks: [
       {
@@ -4142,8 +4151,9 @@ $$\\mathbf{\\text{Current Account Deficit (CAD)}} = (I - S) + (G - T)$$`,
       },
       {
         type: 'MECHANISM',
-        title: 'The Twin Deficit Transmission Mechanism',
-        body: `The **Twin Deficits Hypothesis** states that when a government runs a high **Fiscal Deficit ($G > T$)**, it directly pulls the country into a high **Current Account Deficit ($M > X$)**:
+        title: 'Transmission Mechanics: Twin Deficits & Dynamics of the Aggregate Market',
+        body: `### 1. The Twin Deficit Transmission Mechanism
+The **Twin Deficits Hypothesis** states that when a government runs a high **Fiscal Deficit ($G > T$)**, it directly pulls the country into a high **Current Account Deficit ($M > X$)**:
 
 \`\`\`
 Government Fiscal Deficit Expands (G > T)
@@ -4165,7 +4175,52 @@ Foreign Capital Inflow Appreciates Domestic Currency / Fuels Imports
                   |
                   v
 Current Account Deficit (CAD) Widens! (M > X)
-\`\`\``,
+\`\`\`
+
+---
+
+### 2. Dynamics of the Aggregate Market: Shocks, Output Gaps & Adjustment Paths (Professor Ryan)
+Once an economy is in initial equilibrium ($AD = SRAS = LRAS$ at Potential Output $Y^*$), dynamic macroeconomic shocks displace it:
+
+\`\`\`
+========================================================================================
+                  THE FOUR DYNAMIC AGGREGATE MARKET SHOCKS
+========================================================================================
+
+ 1. POSITIVE DEMAND SHOCK (AD ↑)                 2. NEGATIVE DEMAND SHOCK (AD ↓)
+    Price Level (PL)                               Price Level (PL)
+      ▲             LRAS      SRAS                   ▲             LRAS      SRAS
+      │               │      /                       │               │      /
+      │               │     /                        │               │     /
+  PL1 │───────────────┼────/─── AD1              PL0 │───────────────┼────/─── AD0
+      │  \\            │   /                      PL1 │───────\\───────┼───/──── AD1
+  PL0 │───\\───────────┼──/───── AD0                  │        \\      │  /
+      │    \\          │ /                            │         \\     │ /
+      └─────\\─────────┴/───────►                     └──────────\\────┴/───────►
+      0              Y* Y1   Real GDP                0          Y1  Y*        Real GDP
+      [INFLATIONARY GAP: Overheating]                [RECESSIONARY GAP: Unemployment]
+
+ 3. ADVERSE SUPPLY SHOCK (SRAS ↓)                4. POSITIVE SUPPLY SHOCK (SRAS ↑)
+    Price Level (PL)                               Price Level (PL)
+      ▲             LRAS  SRAS1  SRAS0               ▲             LRAS  SRAS0  SRAS1
+      │               │    /      /                  │               │    /      /
+  PL1 │───────────────┼───/──────/                   │               │   /      /
+      │  \\            │  /      /                PL0 │───────────────┼──/──────/
+  PL0 │───\\───────────┼─/──────/───              PL1 │───────────────┼─/──────/───
+      │    \\          │/      /                      │  \\            │/      /
+      └─────\\─────────┴──────/─►                     └───\\───────────┴──────/─►
+      0     Y1       Y*      Real GDP                0    \\         Y*     Y1 Real GDP
+      [STAGFLATION: Price ↑, Output ↓]               [GOLDILOCKS: Price ↓, Output ↑]
+========================================================================================
+\`\`\`
+
+#### The Comprehensive Shocks & Adjustment Matrix:
+| Macroeconomic Shock | Immediate Trigger Events | Short-Run Equilibrium Impact | Output Gap Created | Long-Run Self-Correction vs Policy Action |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Positive AD Shock ($AD ↑$)** | • Consumer & business optimism.<br>• Fiscal stimulus ($G ↑, T ↓$).<br>• Central bank rate cuts ($M_s ↑$). | **Price Level ($PL ↑$)**<br>**Real GDP ($Y ↑ > Y^*$)** | **Inflationary Gap (Overheating):** Labor shortages bid up nominal wages; unemployment falls below NAIRU. | **Self-Correction:** High wage demands increase production costs $\implies SRAS$ shifts left until output returns to $Y^*$, but at a higher price level.<br>**Policy:** Contractionary fiscal/monetary policy to shift $AD$ back left. |
+| **2. Negative AD Shock ($AD ↓$)** | • Stock market or housing crash.<br>• Severe credit crunch / banking crisis.<br>• Fiscal austerity or global trade slump. | **Price Level ($PL ↓$)**<br>**Real GDP ($Y ↓ < Y^*$)** | **Recessionary Gap (Deflationary Slump):** Idle factories, inventory accumulation, and spiking cyclical unemployment. | **The Keynesian Dilemma:** Classical self-correction requires nominal wages to fall so $SRAS$ shifts right; however, **downward wage rigidity** prevents rapid wage cuts. The economy remains stuck in prolonged recession unless government deploys **counter-cyclical stimulus ($AD ↑$)**. |
+| **3. Adverse Supply Shock ($SRAS ↓$)** | • Global crude oil or energy price spike.<br>• Disruption of semiconductor supply chains.<br>• Major crop failures or geopolitical war. | **Price Level ($PL ↑$)**<br>**Real GDP ($Y ↓ < Y^*$)** | **Stagflation:** The simultaneous occurrence of economic stagnation (recession) and cost-push inflation. | **The Central Bank Trap:** Easing interest rates to fight unemployment fuels further inflation; hiking interest rates to squash inflation deepens the recession. Only long-run supply-side measures can restore $SRAS$. |
+| **4. Positive Supply Shock ($SRAS ↑$)** | • Technological breakthroughs (AI, robotics).<br>• Discovery of cheap domestic energy.<br>• Large-scale corporate deregulation. | **Price Level ($PL ↓$)**<br>**Real GDP ($Y ↑ > Y^*$)** | **Beneficial Expansion:** Disinflationary growth where living standards expand without inflation. | Economy operates smoothly above historical trend until long-run productive capacity permanently expands ($LRAS$ shifts right). |`,
         order: 3,
       },
       {
@@ -4221,17 +4276,17 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Leakages $(S + T + M)$ = Injections $(I + G + X)$. Master Sectoral Balance Identity: $(S - I) + (T - G) = (X - M)$. The Aggregate Market clusters all individual product markets: Price Level ($PL$) vs Real GDP ($Y$). $AD$ slopes down; $SRAS$ slopes up due to sticky input costs; $LRAS$ is strictly vertical at potential output ($Y^*$) because long-run production depends exclusively on the physical ability to produce (factors $L, K, N, A$), not price levels.',
+        content: 'Leakages $(S + T + M)$ = Injections $(I + G + X)$. Master Sectoral Balance Identity: $(S - I) + (T - G) = (X - M)$. Aggregate Market: $AD$ vs $SRAS$ determines short-run $(PL, Y)$. $AD ↑$ creates Inflationary Gap ($Y > Y^*$); $AD ↓$ creates Recessionary Gap ($Y < Y^*$). Adverse supply shock ($SRAS ↓$) causes Stagflation ($PL ↑, Y ↓$). $LRAS$ is strictly vertical at potential GDP ($Y^*$), determined by physical ability to produce.',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Macroeconomic equilibrium operates on two interconnected dimensions: circular flow balances and the Aggregate Market. In the circular flow, leakages (Savings, Taxes, Imports) must equal injections (Investment, Government Spending, Exports), yielding the Fundamental Sectoral Balance Identity: $(S_p - I) + (T - G) = (X - M)$, which proves that a nation\'s Current Account Deficit (CAD) equals the sum of its private savings deficit $(I - S)$ and fiscal deficit $(G - T)$. Moving from micro product markets to macroeconomics, The Aggregate Market clusters all individual markets together with the Price Level on the vertical axis and Real GDP on the horizontal axis. While Short-Run Aggregate Supply (SRAS) slopes upward because sticky nominal contracts allow higher prices to temporarily expand profit margins and willingness to produce, Long-Run Aggregate Supply (LRAS) is perfectly vertical at Potential GDP ($Y^*$). In the long run, output is determined strictly by the economy\'s physical ability to produce (endowments of labor, capital, natural resources, and technology), independent of the nominal price level.',
+        content: 'Macroeconomic equilibrium operates on two interconnected dimensions: circular flow balances and the dynamic Aggregate Market. In circular flow, leakages equal injections, yielding the Sectoral Balance Identity: $(S_p - I) + (T - G) = (X - M)$, linking the private savings gap and fiscal deficit to CAD. In the Aggregate Market, macroeconomic shocks dynamically displace output and prices: positive AD shocks create an Inflationary Gap ($Y > Y^*$), while negative AD shocks cause a Recessionary Gap ($Y < Y^*$) with cyclical unemployment. An adverse supply shock (e.g. oil crisis) shifts SRAS leftward, creating Stagflation (stagnant output with inflation) and trapping central banks in a policy dilemma. While classical theory predicts long-run self-correction via flexible nominal wage adjustments shifting SRAS back to potential output ($Y^*$), downward nominal wage rigidity often traps economies in prolonged recessions, necessitating counter-cyclical fiscal and monetary stimulus.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Macro Aggregate Architecture: 1. Circular Flow: Product Market (firms sell, households buy) vs Factor Market (households sell, firms buy). 2. Leakage-Injection Equilibrium: $S + T + M = I + G + X$. 3. Twin Deficits: $\\text{CAD} = (I - S) + \\text{Fiscal Deficit}$. 4. The Aggregate Market: Clustering all markets into $(PL, Y)$ coordinates. 5. AD-AS Mechanics: Downward AD (wealth, interest, exchange rate effects), Upward SRAS (sticky wages/costs), Vertical LRAS (physical capacity). 6. Willingness vs Ability: Short-run willingness to produce is price-elastic; long-run ability to produce is anchored in factor endowments ($L, K, N, A$).',
+        content: 'Macro Aggregate Architecture: 1. Circular Flow: Product vs Factor Market; Leakages = Injections ($S + T + M = I + G + X$). 2. Twin Deficits: $\\text{CAD} = (I - S) + \\text{Fiscal Deficit}$. 3. Aggregate Market Axes: Price Level ($PL$) vs Real GDP ($Y$). 4. Curve Foundations: Downward AD (Pigou, Keynes, Mundell-Fleming), Upward SRAS (sticky input costs), Vertical LRAS (physical capacity). 5. Dynamics & Shocks: Positive AD (Inflationary gap), Negative AD (Recessionary gap), Negative SRAS (Stagflation), Positive SRAS (Disinflationary growth). 6. Self-Correction vs Policy: Wage adjustments shift SRAS back to $Y^*$ vs Keynesian wage rigidity requiring active stimulus.',
         order: 3,
       },
     ],
@@ -4303,6 +4358,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Confusing microeconomic resource reallocation (upward supply) with macroeconomic aggregate productive capacity (vertical LRAS).',
+      },
+      {
+        type: 'APPLIED_SCENARIO',
+        stem: 'An economy operating at its full-employment potential output ($Y^*$) suffers an unexpected geopolitical crisis that severely disrupts global oil pipelines, causing domestic energy and transport costs to surge. In the dynamic Aggregate Market (AD–AS) framework, what is the immediate short-run macroeconomic impact, and what fundamental dilemma does this pose for the central bank?',
+        options: [
+          'Aggregate Demand shifts rightward, creating an inflationary gap where the central bank can easily lower interest rates without triggering price pressure.',
+          'Short-Run Aggregate Supply (SRAS) shifts leftward, causing "Stagflation" (simultaneous real GDP contraction and rising price level); central bank monetary tightening to curb inflation worsens unemployment, while monetary easing to restore output risks accelerating inflation.',
+          'Long-Run Aggregate Supply (LRAS) permanently shifts leftward, forcing consumer prices to fall into a deflationary spiral.',
+          'Both Aggregate Demand and Short-Run Aggregate Supply shift rightward, generating non-inflationary high economic growth.',
+        ],
+        correctAnswer: 'Short-Run Aggregate Supply (SRAS) shifts leftward, causing "Stagflation" (simultaneous real GDP contraction and rising price level); central bank monetary tightening to curb inflation worsens unemployment, while monetary easing to restore output risks accelerating inflation.',
+        explanation: 'An oil price shock increases economy-wide production and transportation costs, shifting the Short-Run Aggregate Supply (SRAS) curve leftward. In the short run, this moves the economy to a new equilibrium with higher prices ($PL ↑$) and lower real output ($Y < Y^*$), known as Stagflation. This poses the classic macroeconomic policy dilemma: standard monetary policy can only shift Aggregate Demand. If the central bank raises rates to fight inflation, output and employment fall further; if it cuts rates to stimulate output, inflation accelerates.',
+        trapExplanation: 'Option A confuses a supply shock with a demand shock. Option C confuses temporary short-run cost shocks with permanent destruction of physical productive capacity (LRAS). Option D erroneously claims supply shocks expand output.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the diagnostic mechanics of an adverse supply shock (Stagflation) and the resulting central bank monetary policy trade-off.',
       },
     ],
   },
