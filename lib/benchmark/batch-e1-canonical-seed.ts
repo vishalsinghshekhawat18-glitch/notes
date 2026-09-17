@@ -1025,8 +1025,8 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Alfred Marshall (1890) Principles of Economics, Book III, Chapter 3',
-        excerpt: 'The greater the amount to be sold, the smaller must be the price at which it is offered in order that it may find purchasers; or, in other words, the amount demanded increases with a fall in price, and diminishes with a rise in price.',
+        locator: 'Professor Ryan, "Law of Supply & Law of Demand" (YouTube: QDofJzS2MBQ); Alfred Marshall (1890) Principles of Economics, Book III, Chapter 3',
+        excerpt: 'The Law of Demand establishes an inverse relationship where quantity demanded falls as price rises. The Law of Supply establishes a direct relationship where quantity supplied rises as price rises. When graphed on the Cartesian plane with price on the vertical axis and quantity on the horizontal axis, the demand curve slopes downward while the supply curve slopes upward.',
       },
       {
         id: 'CLM-ECO-03-02',
@@ -1136,7 +1136,33 @@ When the price of a good rises, two distinct psychological and economic forces s
 
 Together, these forces dictate the fundamental downward slope of the demand curve:
 
-$$Q_D = a - bP \\quad (b > 0)$$`,
+$$Q_D = a - bP \\quad (b > 0)$$
+
+---
+
+### 6. The Dual Behavioral Axioms: The Law of Demand vs. The Law of Supply (Professor Ryan)
+In **"Law of Supply & Law of Demand"** (YouTube: \`QDofJzS2MBQ\`), Professor Ryan explicitly contrasts the two foundational behavioral relationships governing market transactions:
+
+\`\`\`text
+========================================================================================
+                 THE LAW OF DEMAND vs THE LAW OF SUPPLY
+========================================================================================
+
+    THE LAW OF DEMAND (Buyers / Consumers)        THE LAW OF SUPPLY (Sellers / Producers)
+    ──────────────────────────────────────        ───────────────────────────────────────
+    • Direction: INVERSE (Negative)               • Direction: DIRECT (Positive)
+      P ↑  ===>  Q_D ↓                              P ↑  ===>  Q_S ↑
+      P ↓  ===>  Q_D ↑                              P ↓  ===>  Q_S ↓
+    • Graphical Slope: DOWNWARD                   • Graphical Slope: UPWARD
+      (Negative Slope: ΔP / ΔQ < 0)                 (Positive Slope: ΔP / ΔQ > 0)
+    • Behavioral Drivers:                         • Behavioral Drivers:
+      1. Law of Diminishing Marginal Utility        1. Profit Incentive (Expanded Margins)
+      2. Income Effect (Purchasing Power)           2. Law of Diminishing Marginal Returns
+      3. Substitution Effect (Relative Prices)         (Escalating Marginal Costs)
+    • Mathematical Form:                          • Mathematical Form:
+      Q_D = a - bP  (b > 0)                         Q_S = -c + dP  (d > 0)
+========================================================================================
+\`\`\``,
         order: 1,
       },
       {
@@ -1284,6 +1310,22 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         isPYQ: false,
         examinerTrapPattern: 'Testing the "Willing and Able" criterion alongside the Circular Flow distinction between Product and Factor markets.',
       },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to microeconomic theory and Professor Ryan\'s lecture in "Law of Supply & Law of Demand", which of the following statements correctly identifies the fundamental behavioral contrast between the Law of Demand and the Law of Supply on a Cartesian graph (Price on the vertical axis, Quantity on the horizontal axis)?',
+        options: [
+          'The Law of Demand establishes an inverse relationship resulting in a downward-sloping curve (as price rises, quantity demanded falls), whereas the Law of Supply establishes a direct relationship resulting in an upward-sloping curve (as price rises, quantity supplied increases).',
+          'The Law of Demand establishes a direct relationship because higher prices signal higher consumer prestige, whereas the Law of Supply establishes an inverse relationship because producers face fixed capacity.',
+          'Both laws describe strictly horizontal schedules in competitive markets, reflecting zero price sensitivity by both consumers and firms.',
+          'The Law of Demand applies strictly to factor markets, while the Law of Supply applies exclusively to finished consumer goods.',
+        ],
+        correctAnswer: 'The Law of Demand establishes an inverse relationship resulting in a downward-sloping curve (as price rises, quantity demanded falls), whereas the Law of Supply establishes a direct relationship resulting in an upward-sloping curve (as price rises, quantity supplied increases).',
+        explanation: 'In "Law of Supply & Law of Demand", Professor Ryan demonstrates that market transactions depend on two opposite behavioral forces: (1) The Law of Demand (buyers), which dictates an inverse (negative) relationship between price and quantity demanded ($P \\uparrow \\implies Q_D \\downarrow$), generating a downward-sloping curve driven by diminishing marginal utility, the income effect, and the substitution effect; and (2) The Law of Supply (sellers), which dictates a direct (positive) relationship between price and quantity supplied ($P \\uparrow \\implies Q_S \\uparrow$), generating an upward-sloping curve driven by expanding profit margins and the need to cover increasing marginal costs.',
+        trapExplanation: 'Option B confuses general demand theory with the Veblen effect exception and inverts supply behavior. Option C confuses normal demand/supply with infinitely elastic extremes. Option D ignores that both demand and supply operate simultaneously across both product and factor markets.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the foundational directional contrast and graphical geometry of the Law of Demand (inverse/downward) versus the Law of Supply (direct/upward).',
+      },
     ],
   },
   {
@@ -1303,8 +1345,8 @@ A shift occurs when non-price determinants change, causing consumers to demand a
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Hal Varian, Intermediate Microeconomics, Chapter 22: Firm Supply',
-        excerpt: 'The competitive firm\'s supply curve is precisely the upward-sloping portion of its marginal cost curve that lies above average variable cost.',
+        locator: 'Professor Ryan, "Law of Supply & Law of Demand" (YouTube: QDofJzS2MBQ); Hal Varian, Intermediate Microeconomics, Chapter 22: Firm Supply',
+        excerpt: 'The Law of Supply establishes a direct relationship between market price and quantity supplied along the upward-sloping marginal cost curve. When market price rises, firms are incentivized to expand production; when market price falls, quantity supplied contracts.',
       },
       {
         id: 'CLM-ECO-04-02',
