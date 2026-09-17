@@ -4563,8 +4563,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. An output gap occurs whenever actual real GDP differs from potential output.',
+        locator: 'Professor Ryan, "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. Closing a recessionary gap via SRAS requires increasing SRAS (shifting rightward as factor costs fall), which expands real GDP back to potential while lowering the price level. Closing an inflationary gap via SRAS occurs as input shortages bid up factor costs, shifting SRAS leftward back to potential output at a higher price level.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -4895,10 +4895,10 @@ $$\mathbf{\text{Output Gap} = \text{Actual Output } (Y) - \text{Natural Real GDP
 
 ---
 
-### 3. Closing Output Gaps in KET: The Two Macroeconomic Adjustment Pathways (Professor Ryan)
-In **"Closing Output Gaps in KET"** and **"KET - Increase or Decrease GDP"**, Professor Ryan synthesizes how macroeconomic theory addresses output gaps ($Y - Y^*$):
+### 3. Closing Output Gaps: The Aggregate Demand (AD) vs Short-Run Supply (SRAS) Adjustment Pathways (Professor Ryan)
+In **"Closing Output Gaps with SRAS"**, **"Closing Output Gaps in KET"**, and **"KET - Increase or Decrease GDP"**, Professor Ryan synthesizes how macroeconomic theory addresses output gaps ($Y - Y^^*$) through either the demand side ($AD$) or the supply side ($SRAS$):
 
-\`\`\`
+\`\`\`text
 ========================================================================================
              CLOSING OUTPUT GAPS IN KET VIA AGGREGATE DEMAND (AD) SHIFTS
 ========================================================================================
@@ -4908,12 +4908,32 @@ In **"Closing Output Gaps in KET"** and **"KET - Increase or Decrease GDP"**, Pr
       ▲             LRAS      SRAS                   ▲             LRAS      SRAS
       │               │      /                       │               │      /
   PL1 │───────────────┼─────/──── AD1            PL0 │───────────────┼─────/──── AD0
-      │  \\            │    /                     PL1 │───────\\───────┼────/───── AD1
-  PL0 │───\\───────────┼───/────── AD0                │        \\      │   /
-      │    \\          │  /                           │         \\     │  /
-      └─────\\─────────┴─/────────►                   └──────────\\────┴─/────────►
+      │  \            │    /                     PL1 │───────\───────┼────/───── AD1
+  PL0 │───\───────────┼───/────── AD0                │        \      │   /
+      │    \          │  /                           │         \     │  /
+      └─────\─────────┴─/────────►                   └──────────\────┴─/────────►
       0          Y0   Y*         Real GDP            0          Y*   Y0         Real GDP
       [AD Shifts Right: Y ↑ to Y*, PL ↑]             [AD Shifts Left: Y ↓ to Y*, PL ↓]
+========================================================================================
+\`\`\`
+
+\`\`\`text
+========================================================================================
+             CLOSING OUTPUT GAPS VIA SHORT-RUN AGGREGATE SUPPLY (SRAS) SHIFTS
+========================================================================================
+
+ 1. CLOSING A RECESSIONARY GAP (SRAS ↑)          2. CLOSING AN INFLATIONARY GAP (SRAS ↓)
+    (Labor Surplus → Factor Costs Fall)            (Resource Shortages → Factor Costs Rise)
+    Price Level (PL)                               Price Level (PL)
+      ▲             LRAS   SRAS0  SRAS1              ▲             LRAS   SRAS1  SRAS0
+      │               │     /      /                 │               │     /      /
+  PL0 │───────────────┼────/──────/              PL1 │───────────────┼────/──────/
+  PL1 │───────────────┼───/──────/               PL0 │───────────────┼───/──────/
+      │  \            │  /      /                    │  \            │  /      /
+      │   \           │ /      /                     │   \           │ /      /
+      └────\──────────┴/──────/──►                   └────\──────────┴/──────/──►
+      0    Y0        Y*          Real GDP            0          Y*   Y0         Real GDP
+      [SRAS Shifts Right: Y ↑ to Y*, PL ↓]           [SRAS Shifts Left: Y ↓ to Y*, PL ↑]
 ========================================================================================
 \`\`\`
 
@@ -5419,6 +5439,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Diagnosing macroeconomic output gaps visually and conceptually from the relative positions of short-run equilibrium (AD ∩ SRAS) and vertical LRAS.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic theory and Professor Ryan\'s lecture in "Closing Output Gaps with SRAS", how does an economy theoretically close an INFLATIONARY GAP ($Y > Y^*$) through the Short-Run Aggregate Supply (SRAS) channel, and what happens to the price level during this adjustment?',
+        options: [
+          'Acute labor and resource shortages bid up nominal wages and factor costs, which increases economy-wide production costs, shifting the SRAS curve leftward back to Potential GDP ($Y^*$) while pushing the price level HIGHER ($PL \\uparrow$).',
+          'Surplus inventories force firms to slash profit margins, shifting SRAS rightward and driving the price level down to zero.',
+          'The government automatically raises import tariffs, which forces the LRAS curve to shift leftward to meet current short-run demand.',
+          'Consumers voluntarily increase their savings rate to 100%, causing the SRAS curve to become perfectly vertical immediately.',
+        ],
+        correctAnswer: 'Acute labor and resource shortages bid up nominal wages and factor costs, which increases economy-wide production costs, shifting the SRAS curve leftward back to Potential GDP ($Y^*$) while pushing the price level HIGHER ($PL \\uparrow$).',
+        explanation: 'In "Closing Output Gaps with SRAS", Professor Ryan demonstrates that during an inflationary overheating gap ($Y > Y^*$), factories operate beyond sustainable capacity and unemployment falls below the natural rate ($u < \\text{NRU}$). Severe shortages of labor and material inputs force firms to bid up nominal wages, rents, and raw material prices. Because economy-wide production costs rise, Short-Run Aggregate Supply (SRAS) shifts leftward (decreases). Real GDP contracts back to Potential GDP ($Y^*$), but this self-correction comes at the cost of higher inflation, pushing the price level permanently higher ($PL \\uparrow$). In contrast, closing a recessionary gap via SRAS would require factor costs to fall ($SRAS \\uparrow \\implies PL \\downarrow$), which is blocked in reality by downward wage rigidity.',
+        trapExplanation: 'Option B describes closing a recessionary gap via supply, not an inflationary gap. Option C confuses cyclical supply shifts with trade policy changing LRAS capacity. Option D describes an extreme Keynesian paradox of thrift on the demand side, not an SRAS shift.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the supply-side self-correction mechanism for closing an inflationary gap ($SRAS \\downarrow$) and its stagflationary price-raising consequence ($PL \\uparrow$).',
       },
     ],
   },
