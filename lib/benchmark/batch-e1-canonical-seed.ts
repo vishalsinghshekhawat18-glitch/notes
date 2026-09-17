@@ -4469,8 +4469,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'Dynamics of the aggregate market examine shifts in AD and SRAS. Closing output gaps can occur through Keynesian demand management (shifting AD) or classical supply adjustment (shifting SRAS), though downward wage rigidity impedes the supply channel.',
+        locator: 'Professor Ryan, "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'An output gap occurs whenever actual short-run real GDP differs from potential output (Natural Real GDP). Dynamics of the aggregate market examine shifts in AD and SRAS. Closing output gaps can occur through Keynesian demand management (shifting AD) or classical supply adjustment (shifting SRAS), though downward wage rigidity impedes the supply channel.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -4733,8 +4733,10 @@ Current Account Deficit (CAD) Widens! (M > X)
 
 ---
 
-### 2. Dynamics of the Aggregate Market: Shocks, Output Gaps & Adjustment Paths (Professor Ryan)
-Once an economy is in initial equilibrium ($AD = SRAS = LRAS$ at Potential Output $Y^*$), dynamic macroeconomic shocks displace it:
+### 2. Output Gaps & Dynamics of the Aggregate Market: Shocks, Deviations & Adjustment Paths (Professor Ryan)
+In *"Output Gaps"* and *"Dynamics of the Aggregate Market"*, Professor Ryan demonstrates how the condition of the economy is diagnosed whenever **Actual Output ($Y$) differs from Possible Output / Potential Capacity ($Y^*$)**:
+$$\\mathbf{\\text{Output Gap} = Y - Y^*}$$
+When an economy is in long-run equilibrium ($AD = SRAS = LRAS$ at Potential Output $Y^*$), the output gap is zero ($Y - Y^* = 0$). Dynamic macroeconomic shocks displace the economy away from long-run equilibrium, opening one of two distinct output gaps:
 
 \`\`\`
 ========================================================================================
