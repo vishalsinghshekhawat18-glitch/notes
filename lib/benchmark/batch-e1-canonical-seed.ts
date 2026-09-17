@@ -317,6 +317,15 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         locator: 'Ludwig von Mises (1920) Economic Calculation in the Socialist Commonwealth; F.A. Hayek (1945) The Use of Knowledge in Society; Paul Samuelson, Economics Ch 2',
         excerpt: 'Without market prices for capital goods and factor inputs, central planners lack the objective informational signals needed to calculate the most efficient allocation of resources.',
       },
+      {
+        id: 'CLM-ECO-02-05',
+        statement: 'Modern macroeconomic policy operationalizes aggregate societal utility through Three Primary Intermediate Goals—Economic Growth (measured by Real GDP growth), Full Employment (measured by the Natural Rate of Unemployment with zero cyclical unemployment), and Price Stability (measured by low, predictable CPI inflation within central bank target bands, e.g. RBI 4% ± 2%)—which face short-run policy trade-offs governed by the Phillips curve and supply-shock stagflation dilemmas.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 19; N. Gregory Mankiw, Macroeconomics; RBI Act 1934 Section 45ZA',
+        excerpt: 'The three central goals of macroeconomic policy are high and growing levels of real output, high employment with low involuntary unemployment, and stable prices.',
+      },
     ],
     contentBlocks: [
       {
@@ -382,11 +391,26 @@ Economics is fundamentally divided into two major branches based on the scale of
 | **Equilibrium Concept** | Partial Equilibrium (analyzing one market holding all other markets constant — *ceteris paribus*). | General Equilibrium (simultaneous equilibrium across goods markets, money markets, labour markets, and foreign trade). |
 | **Primary Instruments** | Price mechanism, marginal utility, supply-demand curves, profit maximization. | Fiscal Policy (taxation and government spending) and Monetary Policy (interest rates, money supply, reserve ratios). |
 
-### 3. The Three Grand Goals of Macroeconomic Policy
-Governments and central banks worldwide pursue three universal macroeconomic objectives:
-1. **Economic Growth:** Sustained expansion in productive capacity and Real GDP over time.
-2. **Price Stability:** Low, predictable inflation (e.g., the RBI's statutory target of $4\% \pm 2\%$) avoiding both destructive inflation and deflationary traps.
-3. **Full Employment:** Minimizing cyclical and involuntary unemployment so that everyone willing and able to work finds employment at prevailing wages.
+---
+
+### 3. The Three Primary Macroeconomic Goals: Metrics, Benchmarks & Trade-offs
+In economic philosophy, the **ultimate goal** of economic activity is maximizing aggregate societal utility, life satisfaction, and human well-being. However, because utility is an abstract, subjective concept that cannot be directly engineered by government legislation, macroeconomic policy focuses on **Three Intermediate ("Penultimate") Goals**:
+
+| Macroeconomic Goal | Primary Statistical Indicator | Healthy Benchmark Target | Economic Rationale & Failure Mode | Primary Policy Levers |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Economic Growth** | **Real GDP Growth Rate** (% $\\Delta$ Real GDP) | • Mature Developed: ~2–3%<br>• Emerging (India): **~6–8%** | **Rationale:** Expands the national economic pie, generates employment, raises per capita living standards, and boosts tax revenues for public infrastructure.<br>• **Failure Mode:** Stagnation, technical recession ($<0\\%$), or jobless growth. | Public capital expenditure (CapEx), supply-side structural reforms, ease of doing business, R&D tax incentives. |
+| **2. Low Unemployment (Full Employment)** | **Unemployment Rate** ($U = \\frac{\\text{Unemployed}}{\\text{Labour Force}} \\times 100$) | **Natural Rate of Unemployment (NRU)** / NAIRU (~4–5% in developed nations; monitored via PLFS in India) | **Rationale:** Minimizes the tragic waste of human productive potential and avoids psychological and social distress.<br>• **Key Insight:** Full employment does **NOT mean 0% unemployment**! Frictional and structural unemployment always exist; full employment means **Cyclical Unemployment = 0%**.<br>• **Failure Mode:** Mass cyclical joblessness, skill erosion (hysteresis). | Expansionary fiscal policy, labour market skilling programs, rural employment guarantees (MGNREGA). |
+| **3. Price Stability** | **Inflation Rate** (% $\\Delta$ CPI) | • Developed: ~2.0%<br>• India (RBI): **$4\\% \\pm 2\\%$** (Statutory 2% to 6% tolerance band) | **Rationale:** Preserves real purchasing power, protects unindexed fixed-wage earners and domestic savers, and removes price volatility for business planning.<br>• **Failure Mode:** Hyperinflation, stagflation, or destructive **Deflationary Spirals** (liquidity trap). | Monetary policy rate hikes (Repo Rate), statutory reserve ratios (CRR/SLR), open market operations (OMO). |
+
+---
+
+### Macroeconomic Policy Dilemmas & Trade-offs
+Achieving all three goals simultaneously is challenging due to inherent structural tensions:
+1. **The Short-Run Phillips Curve Dilemma:** In the short run, aggressive policy stimulus aimed at accelerating GDP growth and reducing unemployment often overheats the economy, triggering **demand-pull inflation**. Conversely, central bank interest rate hikes designed to stamp out inflation inevitably increase unemployment and slow down GDP growth.
+2. **The Stagflation Nightmare (Adverse Supply Shock):** When an economy suffers an external supply shock (e.g., global crude oil supply disruptions or agricultural crop failure), the aggregate supply curve shifts leftward, causing **unemployment to rise while inflation simultaneously surges**. Traditional demand-management tools fail because stimulating demand worsens inflation, while contracting demand deepens unemployment.
+3. **Macro Policy Coordination:** Fiscal Policy (run by the Ministry of Finance) and Monetary Policy (run by an autonomous Central Bank like the RBI) must be closely coordinated to navigate these trade-offs without destabilizing sovereign debt or currency exchange rates.
+
+---
 
 ### 4. The Fallacy of Composition & The Paradox of Thrift
 The defining conceptual difference between Micro and Macro is the **Fallacy of Composition**: *the false belief that what is logically valid for an individual must also be true for the aggregate whole*.
@@ -514,6 +538,22 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'EASY',
         isPYQ: false,
         examinerTrapPattern: 'Confusing decentralized price mechanism signaling with centralized bureaucratic or legislative planning.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In modern macroeconomic theory, which of the following conditions correctly characterizes the state of "Full Employment"?',
+        options: [
+          'The unemployment rate in the economy is exactly 0.0%, meaning every citizen of working age has a job.',
+          'Cyclical unemployment is reduced to 0%, while positive frictional and structural unemployment remain at the Natural Rate of Unemployment (NRU).',
+          'All structural, frictional, and seasonal unemployment have been eliminated, leaving only cyclical unemployment.',
+          'The labour force participation rate equals 100% across both rural and urban sectors.',
+        ],
+        correctAnswer: 'Cyclical unemployment is reduced to 0%, while positive frictional and structural unemployment remain at the Natural Rate of Unemployment (NRU).',
+        explanation: 'In macroeconomics, "Full Employment" does NOT mean zero unemployment. In a dynamic, free economy, some frictional unemployment (workers transitioning between jobs) and structural unemployment (mismatch between worker skills and new technological requirements) are inevitable and healthy. Full employment is defined as the situation where CYCLICAL unemployment (unemployment caused by business cycle downturns / aggregate demand deficiency) is completely eliminated, and the economy operates at its Natural Rate of Unemployment (NRU) or Non-Accelerating Inflation Rate of Unemployment (NAIRU).',
+        trapExplanation: 'Option A is the most common student trap: 0% unemployment is physically impossible in a free labour market where individuals can quit, search, or transition between careers.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing whether the student confuses full employment with 0% absolute unemployment.',
       },
     ],
   },
