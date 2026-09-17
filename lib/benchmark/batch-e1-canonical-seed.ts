@@ -575,18 +575,29 @@ $$Q_D = a - bP \\quad (b > 0)$$`,
       },
       {
         type: 'CORE_IDEA',
-        title: 'Determinants of Demand & Shift vs Movement',
-        body: `### 1. Movement Along the Demand Curve (Change in Quantity Demanded)
-* Caused **strictly and exclusively by a change in the own price ($P_x$)** of the good.
-* A price cut causes **Expansion / Extension of Demand** (downward movement along the curve).
-* A price hike causes **Contraction of Demand** (upward movement along the curve).
+        title: 'Determinants of Demand: Movement Along Curve vs Shift of Curve (TIPEN)',
+        body: `A core distinction tested across all competitive examinations is the fundamental difference between a **movement along** the demand curve and a **shift of** the entire demand curve:
 
-### 2. Shift of the Demand Curve (Change in Demand)
-* Caused by changes in **non-price determinants** while own-price remains unchanged:
-  - **Consumer Income ($Y$):** Increase in income shifts demand rightward for **Normal Goods**, but leftward for **Inferior Goods** (e.g. coarse cereals, kerosene).
-  - **Price of Substitute Goods ($P_s$):** Rise in tea price shifts coffee demand to the right.
-  - **Price of Complementary Goods ($P_c$):** Rise in petrol price shifts car demand to the left.
-  - **Consumer Tastes & Preferences ($T$)** and Future Price Expectations ($E_p$).`,
+### 1. Movement Along the Demand Curve (Change in Quantity Demanded)
+* Caused **strictly and exclusively by a change in the own price ($P_x$)** of the good, holding all other factors constant (*ceteris paribus*).
+* **Expansion / Extension of Demand:** A fall in own price causes a downward movement along the fixed curve (higher quantity demanded).
+* **Contraction of Demand:** A rise in own price causes an upward movement along the fixed curve (lower quantity demanded).
+* ⚠️ **Terminology Rule:** Never refer to this as a "change in demand"—it is strictly a **"change in quantity demanded"**.
+
+---
+
+### 2. Shift of the Demand Curve (Change in Demand: The TIPEN Shifters)
+A shift occurs when non-price determinants change, causing consumers to demand a different quantity **at every possible price level**.
+* **Rightward Shift (Increase in Demand):** Consumers demand more at the same price.
+* **Leftward Shift (Decrease in Demand):** Consumers demand less at the same price.
+
+| Determinant Category (TIPEN) | Economic Mechanism | Directional Shift Impact |
+| :--- | :--- | :--- |
+| **T — Tastes & Preferences** | Favourable trends, positive health findings, or viral advertising campaigns increase consumer desire. | • Favourable taste trend → **Rightward Shift (↑)**.<br>• Negative publicity or health warning → **Leftward Shift (↓)**. |
+| **I — Income of Consumers** | Higher disposable income expands consumer purchasing power. | • **Normal Goods:** Income ↑ → **Rightward Shift (↑)**.<br>• **Inferior Goods:** Income ↑ → **Leftward Shift (↓)** (consumers upgrade to higher-quality substitutes). |
+| **P — Prices of Related Goods** | Interaction between competitive or joint-consumption goods. | • **Substitutes:** Rise in tea price → Coffee demand shifts **Right (↑)**.<br>• **Complements:** Rise in petrol price → Car demand shifts **Left (↓)**. |
+| **E — Expectations of Future Prices / Income** | Forward-looking speculative consumer behavior. | • Expecting price hike tomorrow → Current demand shifts **Right (↑)** (panic buying).<br>• Expecting price crash or festival discount → Current demand shifts **Left (↓)** (delayed purchase). |
+| **N — Number of Buyers (Demographics)** | Expansion or contraction of the total market consumer base. | • Population growth or entry into new regional markets → **Rightward Shift (↑)**.<br>• Outward emigration or aging demographic → **Leftward Shift (↓)**. |`,
         order: 2,
       },
       {
@@ -731,44 +742,90 @@ $$Q_D = a - bP \\quad (b > 0)$$`,
         locator: 'N. Gregory Mankiw, Principles of Microeconomics, Chapter 4',
         excerpt: 'When both supply and demand curves shift simultaneously, one of the two equilibrium variables (price or quantity) will change unambiguously, while the other is ambiguous without knowing the relative magnitude of shifts.',
       },
+      {
+        id: 'CLM-ECO-04-04',
+        statement: 'A change in a good\'s own price causes a movement along the supply curve (change in quantity supplied), whereas changes in non-price determinants—resource/input costs, production technology, taxes/subsidies, seller expectations, alternative goods prices, and number of sellers (ROTTEN)—shift the entire supply curve, altering equilibrium price and quantity.',
+        claimType: 'CORE_PRINCIPLE',
+        epistemicLevel: 'ESTABLISHED_FACT',
+        confidence: 'HIGH',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 3: Basic Elements of Supply and Demand; Hal Varian, Intermediate Microeconomics',
+        excerpt: 'When costs of production fall or technology improves, the entire supply curve shifts to the right; a change in the price of the good itself moves the firm along its existing supply curve.',
+      },
     ],
     contentBlocks: [
       {
         type: 'INTUITION',
-        title: 'Why Does Supply Slope Upward?',
-        body: `While consumers seek to maximize utility, producers seek to **maximize profit** ($\\text{Profit} = \\text{Total Revenue} - \\text{Total Cost}$).
+        title: 'Why Supply Slopes Upward & The ROTTEN Supply Shifters',
+        body: `While consumers seek to maximize utility, producers seek to **maximize economic profit** ($\\text{Profit} = \\text{Total Revenue} - \\text{Total Cost}$).
 
-As a firm expands production in the short run, it encounters diminishing marginal returns, causing the **Marginal Cost (MC)** of producing additional units to rise. A rational firm will produce additional units only if the market price rises high enough to cover this escalating marginal cost.
+### 1. The Microeconomic Origin of the Upward Slope
+In the short run, at least one factor of production (e.g. factory floor, heavy machinery) is fixed. As a firm employs more variable inputs (labour and raw materials), it encounters the **Law of Diminishing Marginal Returns**. 
+Consequently, the **Marginal Cost (MC)** of producing each additional unit increases. A rational, profit-maximizing firm will expand production only if the market price rises high enough to cover this escalating marginal cost:
+$$\\text{Firm's Supply Curve} \\equiv \\text{Upward-sloping portion of Marginal Cost (MC) above min AVC}$$
 
-Therefore, the **firm's supply curve is identical to its Marginal Cost curve** (above the minimum Average Variable Cost):
+$$Q_S = -c + dP \\quad (d > 0)$$
 
-$$Q_S = -c + dP \\quad (d > 0)$$`,
+---
+
+### 2. Movement Along Curve vs Shift of Curve (The ROTTEN Determinants)
+* **Movement Along the Supply Curve (Change in Quantity Supplied):** Caused **strictly and exclusively by a change in the good's own price ($P_x$)**.
+  - A price rise causes **Expansion / Extension of Supply** (upward movement along curve).
+  - A price drop causes **Contraction of Supply** (downward movement along curve).
+* **Shift of the Supply Curve (Change in Supply):** Caused by changes in **non-price production determinants**, shifting the curve so that firms produce more or less at *every* price level:
+
+| Determinant Category (ROTTEN) | Economic Transmission Mechanism | Directional Shift Impact |
+| :--- | :--- | :--- |
+| **R — Resource / Input Prices** | Fluctuations in factor prices (wages of labour, raw material costs, electricity tariffs, fuel prices). | • Input price hike → MC rises → **Leftward Shift (↓)**.<br>• Input cost reduction → MC falls → **Rightward Shift (↑)**. |
+| **O — Other Goods' Prices (Substitutes in Production)** | Multi-product firms or agricultural land capable of producing alternative crops (e.g. wheat vs mustard). | • Price of substitute crop rises → Land diverted → Supply of original crop shifts **Left (↓)**. |
+| **T — Technology & Productivity** | Scientific innovations, production line automation, process engineering, or AI dispatching. | • Technological advance lowers per-unit cost → **Rightward Shift (↑)**.<br>• Equipment breakdown / obsolescence → **Leftward Shift (↓)**. |
+| **T — Taxes & Subsidies (Fiscal Policy)** | Government levies per-unit indirect taxes (GST, excise) or provides production grants. | • Indirect tax / cess hike → Supply shifts **Left (↓, upward by tax amount)**.<br>• Production subsidy (PLI) → Supply shifts **Right (↑)**. |
+| **E — Expectations of Sellers** | Producers' anticipation of future market prices or shortages. | • Expected price surge next quarter → Current supply withheld → Current supply shifts **Left (↓)**.<br>• Expected price drop → Liquidation → Current supply shifts **Right (↑)**. |
+| **N — Number of Sellers (Industry Entry/Exit)** | Expansion or contraction of the aggregate industry supplier base. | • New corporate entrants / foreign firms entering market → **Rightward Shift (↑)**.<br>• Systemic bankruptcies / firm exits → **Leftward Shift (↓)**. |`,
         order: 1,
       },
       {
         type: 'CORE_IDEA',
-        title: 'Market Equilibrium & The Self-Correcting Price Mechanism',
-        body: `Market equilibrium is established at the intersection of aggregate demand and aggregate supply:
+        title: 'Market Equilibrium, Self-Correction & The 4 Single-Shift Scenarios',
+        body: `Market equilibrium is established at the intersection of aggregate market demand and market supply, where quantity demanded equals quantity supplied:
 
 $$Q_D(P^*) = Q_S(P^*)$$
 
 \`\`\`
 Price (P)
   ^
-  |        \         / (Supply Curve)
-  |         \       /
-P1|---------\-----/------- [Excess Supply / Surplus -> Price Falls]
-  |          \   /
+  |        \\         / (Supply Curve)
+  |         \\       /
+P1|---------\\-----/------- [Excess Supply / Surplus -> Price Falls to P*]
+  |          \\   /
 P*|----------- X --------- [Market Equilibrium: QD = QS]
-  |          /   \
-P2|---------/-----\------- [Excess Demand / Shortage -> Price Rises]
-  |        /       \ (Demand Curve)
+  |          /   \\
+P2|---------/-----\\------- [Excess Demand / Shortage -> Price Rises to P*]
+  |        /       \\ (Demand Curve)
   +-------------------------> Quantity (Q)
 \`\`\`
 
-### Automatic Stabilizing Mechanisms:
-1. **If Market Price is above Equilibrium ($P_1 > P^*$):** Quantity supplied exceeds quantity demanded ($Q_S > Q_D$). Unsold inventories pile up in warehouses. Sellers cut prices to clear stocks, driving price down toward $P^*$.
-2. **If Market Price is below Equilibrium ($P_2 < P^*$):** Quantity demanded exceeds quantity supplied ($Q_D > Q_S$). Long queues and shortages develop. Eager buyers bid up prices, incentivizing higher production until price reaches $P^*$.`,
+### 1. The Self-Correcting Price Mechanism (Walrasian Stability)
+* **Surplus ($P_1 > P^*$):** $Q_S > Q_D$. Unsold inventories accumulate in warehouses. Sellers engage in price-cutting competition to liquidate stock, pushing market price downward to $P^*$.
+* **Shortage ($P_2 < P^*$):** $Q_D > Q_S$. Consumers face stockouts and queues. Eager buyers bid up prices, signaling suppliers to expand output until equilibrium is restored at $P^*$.
+
+---
+
+### 2. Professor Ryan's 3-Step Market Analysis Protocol
+When evaluating the market equilibrium impact of any real-world economic event, follow this 3-step algorithm:
+1. **Step 1 (Identify Affected Curve):** Does the shock affect buyers' demand (TIPEN factors) or sellers' supply costs/capacity (ROTTEN factors)? *(Crucial check: If only the good's own price changed, neither curve shifts—only a movement along occurs).*
+2. **Step 2 (Determine Shift Direction):** Does the event increase the curve (shift **Rightward**) or decrease the curve (shift **Leftward**)?
+3. **Step 3 (Trace New Intersection):** Observe the new equilibrium point ($E_2$) relative to the initial point ($E_1$), and read off the unambiguous directional shifts in Equilibrium Price ($P^*$) and Equilibrium Quantity ($Q^*$).
+
+---
+
+### 3. The Four Fundamental Single-Shift Comparative Statics
+
+| Single Shift Scenario | Curve Shift Direction | Impact on Equilibrium Price ($P^*$) | Impact on Equilibrium Quantity ($Q^*$) | Economic Adjustment Logic |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Demand Increases** | Demand shifts **Right (↑)** | **Rises ($P^* ↑$)** | **Rises ($Q^* ↑$)** | Shortage at initial price drives buyers to bid up price; firms expand output along existing supply curve. |
+| **2. Demand Decreases** | Demand shifts **Left (↓)** | **Falls ($P^* ↓$)** | **Falls ($Q^* ↓$)** | Surplus at initial price forces price cuts; firms contract output along existing supply curve. |
+| **3. Supply Increases** | Supply shifts **Right (↑)** | **Falls ($P^* ↓$)** | **Rises ($Q^* ↑$)** | Cost reduction/new technology causes surplus at initial price; falling price stimulates greater consumer purchases. |
+| **4. Supply Decreases** | Supply shifts **Left (↓)** | **Rises ($P^* ↑$)** | **Falls ($Q^* ↓$)** | Input shock or crop destruction creates shortage; price spikes, rationing out marginal buyers. |`,
         order: 2,
       },
       {
@@ -778,10 +835,10 @@ P2|---------/-----\------- [Excess Demand / Shortage -> Price Rises]
 
 | Shift Scenario | Equilibrium Price ($P^*$) | Equilibrium Quantity ($Q^*$) |
 |---|---|---|
-| **Demand Increases ($\\uparrow$) & Supply Increases ($\\uparrow$)** | **Ambiguous** (Depends on which shifts more) | **Unambiguously Increases ($\\uparrow$)** |
-| **Demand Decreases ($\\downarrow$) & Supply Decreases ($\\downarrow$)** | **Ambiguous** | **Unambiguously Decreases ($\\downarrow$)** |
-| **Demand Increases ($\\uparrow$) & Supply Decreases ($\\downarrow$)** | **Unambiguously Increases ($\\uparrow$)** | **Ambiguous** (Depends on shift magnitudes) |
-| **Demand Decreases ($\\downarrow$) & Supply Increases ($\\uparrow$)** | **Unambiguously Decreases ($\\downarrow$)** | **Ambiguous** |`,
+| **Demand Increases (↑) & Supply Increases (↑)** | **Ambiguous** (Depends on which shifts more) | **Unambiguously Increases (↑)** |
+| **Demand Decreases (↓) & Supply Decreases (↓)** | **Ambiguous** | **Unambiguously Decreases (↓)** |
+| **Demand Increases (↑) & Supply Decreases (↓)** | **Unambiguously Increases (↑)** | **Ambiguous** (Depends on shift magnitudes) |
+| **Demand Decreases (↓) & Supply Increases (↑)** | **Unambiguously Decreases (↓)** | **Ambiguous** |`,
         order: 3,
       },
       {
@@ -875,6 +932,22 @@ In India, unseasonal monsoon rainfall destroys crops, shifting the agricultural 
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the invariant vs ambiguous variable in simultaneous rightward shifts.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'Which of the following economic events will cause a rightward shift of the market supply curve for solar panels, rather than a movement along its existing supply curve?',
+        options: [
+          'A rise in the retail market selling price of solar panels.',
+          'A government production-linked incentive (PLI) subsidy that lowers manufacturing costs for solar panel producers.',
+          'An increase in the statutory wage rate paid to workers in solar assembly plants.',
+          'A mandatory environmental recycling cess levied on each manufactured solar panel unit.',
+        ],
+        correctAnswer: 'A government production-linked incentive (PLI) subsidy that lowers manufacturing costs for solar panel producers.',
+        explanation: 'A shift of the supply curve is caused exclusively by changes in non-price determinants (the ROTTEN framework: Resource costs, Other goods prices, Technology, Taxes/Subsidies, Expectations, Number of sellers). A government production subsidy (like India\'s PLI scheme) reduces per-unit production costs, enabling producers to supply a higher quantity at every given market price—shifting the entire supply curve to the right. In contrast, Option A (a change in the good\'s own selling price) causes a movement along the curve (expansion of quantity supplied). Options C (higher wages) and D (a cess/tax) increase production costs, shifting the supply curve to the left.',
+        trapExplanation: 'Option A is the quintessential examiner trap: a change in the good\'s own price causes a MOVEMENT along the curve, NEVER a shift of the curve.',
+        difficulty: 'EASY',
+        isPYQ: false,
+        examinerTrapPattern: 'Confusing an own-price change (movement along supply curve) with a cost/subsidy shock (shift of supply curve).',
       },
     ],
   },
