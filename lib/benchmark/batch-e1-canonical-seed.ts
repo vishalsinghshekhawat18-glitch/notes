@@ -4513,6 +4513,40 @@ In **"Closing Output Gaps in KET"** and **"KET - Increase or Decrease GDP"**, Pr
 | **Closing an Inflationary Gap ($Y > Y^*$)** | **Action:** Decrease Aggregate Demand ($AD \\downarrow$) via contractionary fiscal policy ($G \\downarrow, T \\uparrow$) or monetary tightening ($i \\uparrow$).<br>**Mechanism:** Multiplied contraction ($\\Delta Y = k \\times \\Delta \\bar{A}$).<br>**Impact on Price Level:** **Price Level Falls ($PL \\downarrow$)** (disinflation). | **Action:** Labor shortages bid up nominal wages, and raw material costs surge ($SRAS \\downarrow$).<br>**Mechanism:** Increased production costs shift $SRAS$ leftward back to $Y^*$.<br>**Impact on Price Level:** **Price Level Rises ($PL \\uparrow$)** (stagflationary pressure). |
 | **Directional Price-Output Nexus** | **Same Direction:** Shifts in $AD$ move Real GDP and Price Level in the **SAME direction** ($AD \\uparrow \\implies Y \\uparrow, PL \\uparrow$; $AD \\downarrow \\implies Y \\downarrow, PL \\downarrow$). | **Opposite Direction:** Shifts in $SRAS$ move Real GDP and Price Level in **OPPOSITE directions** ($SRAS \\uparrow \\implies Y \\uparrow, PL \\downarrow$; $SRAS \\downarrow \\implies Y \\downarrow, PL \\uparrow$). |
 
+#### The Policy Dosage Formulation: Increasing vs. Decreasing GDP (Professor Ryan)
+How much autonomous fiscal or monetary injection/withdrawal is required to eliminate an output gap?
+As Professor Ryan formalizes in *"KET - Increase or Decrease GDP"*, because the Keynesian Multiplier operates bidirectionally ($k = \\frac{1}{1 - MPC} = \\frac{1}{MPS}$), policymakers do **not** need to inject or cut the entire magnitude of the output gap ($\\Delta Y$); they only need to administer the **autonomous policy dosage ($\\Delta \\bar{A} = \\Delta G$)**:
+
+$$\\mathbf{\\Delta G = \\frac{\\Delta Y}{k} = \\Delta Y \\times (1 - MPC) = \\Delta Y \\times MPS}$$
+
+1. **Increasing Real GDP to Eliminate a Recessionary Gap ($Y < Y^*$):**
+   - **Target:** Expand Real GDP by the gap amount $\\Delta Y = Y^* - Y > 0$.
+   - **Autonomous Policy Injection:** Deploy expansionary government purchases:
+     $$\\Delta G = \\frac{Y^* - Y}{k} = (Y^* - Y) \\times MPS > 0$$
+   - **Mechanism:** The initial injection $\\Delta G$ sparks the iterative re-spending chain:
+     $$\\Delta Y = \\Delta G \\cdot \\left[1 + MPC + MPC^2 + \\dots\\right] = \\Delta G \\times k$$
+     shifting the $AD$ curve rightward by exactly $\\Delta AD = k \\times \\Delta G = Y^* - Y$, restoring full-employment potential output ($Y^*$).
+   - **Numerical Illustration:**
+     - Potential GDP $Y^* = ₹5,000\\text{ Crore}$, Actual GDP $Y = ₹4,200\\text{ Crore}$.
+     - Recessionary Gap: $\\Delta Y = +₹800\\text{ Crore}$.
+     - Marginal Propensity to Consume: $MPC = 0.80 \\implies MPS = 0.20 \\implies k = \\frac{1}{0.20} = 5$.
+     - **Required Fiscal Dosage:**
+       $$\\Delta G = \\frac{+₹800\\text{ Crore}}{5} = +₹800 \\times 0.20 = \\mathbf{+₹160\\text{ Crore}}$$
+     - An autonomous fiscal injection of only ₹160 Crore expands equilibrium GDP by the full ₹800 Crore gap, because the remaining ₹640 Crore is generated through induced secondary consumer spending ($\\Delta C = MPC \\times \\Delta Y = 0.80 \\times ₹800 = ₹640\\text{ Crore}$).
+
+2. **Decreasing Real GDP to Eliminate an Inflationary Gap ($Y > Y^*$):**
+   - **Target:** Contract Real GDP by the overheating gap $\\Delta Y = Y^* - Y < 0$.
+   - **Autonomous Policy Withdrawal:** Enact contractionary fiscal cuts:
+     $$\\Delta G = \\frac{Y^* - Y}{k} = (Y^* - Y) \\times MPS < 0$$
+   - **Mechanism:** Cutting government spending drains liquidity from the circular flow, initiating a reverse multi-round contraction that shifts the $AD$ curve leftward by $k \\times |\\Delta G|$, cooling overheating and relieving demand-pull inflation ($PL \\downarrow$).
+   - **Numerical Illustration:**
+     - Potential GDP $Y^* = ₹6,000\\text{ Crore}$, Actual GDP $Y = ₹6,500\\text{ Crore}$.
+     - Inflationary Gap: $\\Delta Y = -₹500\\text{ Crore}$ (excess output).
+     - Marginal Propensity to Consume: $MPC = 0.75 \\implies MPS = 0.25 \\implies k = 4$.
+     - **Required Fiscal Dosage:**
+       $$\\Delta G = \\frac{-₹500\\text{ Crore}}{4} = -₹500 \\times 0.25 = \\mathbf{-₹125\\text{ Crore}}$$
+     - A budget cut of ₹125 Crore eliminates the entire ₹500 Crore inflationary gap, as reduced income dampens successive rounds of household consumption by ₹375 Crore.
+
 ---
 
 ### 4. Capacity Utilization across Output Gaps (Professor Ryan)
@@ -4734,6 +4768,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Confusing sustainable potential output (80-85% utilization) with absolute 100% mechanical utilization, and identifying the inflationary consequence of over-utilization.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'An economy\'s potential GDP ($Y^*$) is ₹5,000 Crore, but its current equilibrium real GDP ($Y$) is ₹4,200 Crore, creating an ₹800 Crore recessionary gap. If the economy\'s Marginal Propensity to Consume ($MPC$) is 0.80 (with no taxes or foreign trade), what autonomous change in government purchases ($\\Delta G$) is required under Keynesian Economic Theory (KET) to restore equilibrium at potential GDP?',
+        options: [
+          'An increase of ₹800 Crore in government purchases ($\\Delta G = +₹800\\text{ Crore}$)',
+          'An increase of ₹160 Crore in government purchases ($\\Delta G = +₹160\\text{ Crore}$)',
+          'A decrease of ₹160 Crore in government purchases ($\\Delta G = -₹160\\text{ Crore}$)',
+          'An increase of ₹640 Crore in government purchases ($\\Delta G = +₹640\\text{ Crore}$)',
+        ],
+        correctAnswer: 'An increase of ₹160 Crore in government purchases ($\\Delta G = +₹160\\text{ Crore}$)',
+        explanation: 'In Keynesian Economic Theory (KET), the relationship between autonomous spending and total output is dictated by the multiplier: $\\Delta Y = k \\times \\Delta G$, where $k = \\frac{1}{1 - MPC} = \\frac{1}{MPS}$. Here, $MPS = 1 - 0.80 = 0.20$, so $k = \\frac{1}{0.20} = 5$. To close the recessionary gap of $\\Delta Y = Y^* - Y = ₹5,000 - ₹4,200 = +₹800\\text{ Crore}$, the government does not need to spend ₹800 Crore. Instead, the required policy dosage is $\\Delta G = \\frac{\\Delta Y}{k} = \\Delta Y \\times MPS = ₹800\\text{ Crore} \\times 0.20 = +₹160\\text{ Crore}$. The remaining ₹640 Crore is generated through induced successive rounds of consumer spending.',
+        trapExplanation: 'Option A erroneously assumes government spending must equal the entire output gap, ignoring the multiplier. Option C recommends a contractionary cut during a recession. Option D mistakenly multiplies the output gap by $MPC$ instead of $MPS$.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Calculating required autonomous fiscal dosage to close an output gap using $\\Delta G = \\Delta Y \\times MPS$ versus the full gap amount.',
       },
     ],
   },
