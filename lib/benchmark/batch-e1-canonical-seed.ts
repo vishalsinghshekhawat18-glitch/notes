@@ -4506,8 +4506,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Determinants of Aggregate Demand" (YouTube: ne6xIS2YWc8), "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
-        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. Aggregate Demand (AD) is determined by the components of Total Expenditure: Consumption (C), Investment (I), Government Purchases (G), and Net Exports (NX). Changes in non-price determinants of any of these four components shift the AD curve, altering real GDP and the price level in the short run. LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain. An economy can temporarily overproduce beyond its sustainable capacity ($Y > Y^*$) by running extra shifts and delaying maintenance, but this accelerates wear-and-tear and drives inflation.',
+        locator: 'Professor Ryan, "Long Run Equilibrium" (YouTube: 1zOa2ykuydA), "Determinants of Aggregate Demand" (YouTube: ne6xIS2YWc8), "The Aggregate Market" (YouTube: hZ3NNwOSqA4), "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Natural Real GDP" (YouTube: zMWDVSUagH8), "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw), "Productive Capacity" (YouTube: mUkYt6cXxqY) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs); N. Gregory Mankiw, Macroeconomics, Chapter 10: Aggregate Demand and Aggregate Supply',
+        excerpt: 'The aggregate market clusters together all individual product markets into one comprehensive market. Long-run macroeconomic equilibrium occurs when Aggregate Demand (AD), Short-Run Aggregate Supply (SRAS), and Long-Run Aggregate Supply (LRAS) simultaneously intersect at a single point, where actual output equals Natural Real GDP (Y = Y*), the output gap is zero, cyclical unemployment is eliminated, and price level stability is achieved. Aggregate Demand (AD) is determined by the components of Total Expenditure: Consumption (C), Investment (I), Government Purchases (G), and Net Exports (NX). LRAS is vertical at potential output ($Y^*$, Natural Real GDP) because it reflects the economy\'s maximum physical productive capacity under full employment and price stability. Capacity utilization measures actual output as a percentage of potential capacity; sustainable equilibrium corresponds to normal operating utilization (~80-85%) rather than 100% mechanical strain. An economy can temporarily overproduce beyond its sustainable capacity ($Y > Y^*$) by running extra shifts and delaying maintenance, but this accelerates wear-and-tear and drives inflation.',
       },
       {
         id: 'CLM-ECO-17-06',
@@ -4975,7 +4975,67 @@ $$\\mathbf{AD \\equiv TE = C + I + G + NX}$$
 
 #### The Macroeconomic Multiplier Amplification:
 Any initial autonomous shift in total expenditure ($\\Delta \\bar{A} = \\Delta C_0 + \\Delta I_0 + \\Delta G + \\Delta NX_0$) sparks successive rounds of induced consumption, causing the entire $AD$ curve to shift horizontally by a multiple equal to:
-$$\\mathbf{\\Delta AD = k \\times \\Delta \\bar{A} = \\frac{1}{1 - MPC} \\times \\Delta \\bar{A}}$$`,
+$$\\mathbf{\\Delta AD = k \\times \\Delta \\bar{A} = \\frac{1}{1 - MPC} \\times \\Delta \\bar{A}}$$
+
+---
+
+### 7. Long-Run Macroeconomic Equilibrium: The Three-Curve Intersection & Cardinal Properties (Professor Ryan)
+In *"Long Run Equilibrium"*, Professor Ryan synthesizes the complete aggregate market framework by defining the exact conditions under which an economy achieves **Long-Run Equilibrium**:
+
+\`\`\`text
+========================================================================================
+             LONG-RUN MACROECONOMIC EQUILIBRIUM: THE 3-CURVE INTERSECTION
+========================================================================================
+     Price Level (PL)
+       ▲
+       │                   LRAS (Physical Capacity)
+       │                    │
+       │                    │          SRAS (Sticky Short-Run Costs)
+       │                    │         /
+       │                    │        /
+   PL* │────────────────────┼───────/  ◄── Long-Run Equilibrium Coordinate
+       │  \\                 │      /       (AD = SRAS = LRAS)
+       │   \\                │     /
+       │    \\               │    /
+       │     \\              │   /
+       │      \\             │  /
+       │       \\            │ /
+       │        \\           │/
+       │         \\          │
+       │          \\         │          AD (Total Expenditure C+I+G+NX)
+       │           \\        │         /
+       └────────────\\───────┴────────/───────────────────►
+       0                   Y* (Natural Real GDP)         Real GDP
+       
+       [THE 5 CARDINAL EQUILIBRIUM PROPERTIES SATISFIED SIMULTANEOUSLY]
+========================================================================================
+\`\`\`
+
+#### The Definition of Long-Run Macroeconomic Equilibrium:
+Long-Run Equilibrium occurs when the short-run equilibrium between buyers and sellers in the aggregate market ($AD \\cap SRAS$) falls **directly upon the Long-Run Aggregate Supply ($LRAS$) curve**:
+
+$$\\mathbf{AD = SRAS = LRAS \\quad \\text{at Coordinates } (Y^*, PL^*)}$$
+
+#### The Five Cardinal Properties of Long-Run Equilibrium:
+1. **Property 1: Actual Output Equals Possible Output ($Y = Y^*$):**
+   - What the economy is currently producing ("What Is", Actual Real GDP $Y$) exactly equals what the economy\'s factor endowments sustainably allow it to produce ("What Could Be", Natural Real GDP / Potential GDP $Y^*$).
+2. **Property 2: Output Gap is Zero ($Y - Y^* = 0$):**
+   - The economy experiences neither an inflationary overheating gap ($Y > Y^*$) nor a recessionary slump ($Y < Y^*$).
+3. **Property 3: Full Employment ($u = u^* = \\text{NRU}$):**
+   - **Cyclical Unemployment is exactly 0.0%**. The only unemployment in the economy consists of inevitable, healthy job searches (Frictional) and technological re-skilling transitions (Structural).
+4. **Property 4: Price Level Stability ($PL = PL^*$):**
+   - Because aggregate demand matches physical capacity, there is zero demand-pull pressure driving prices up, and zero excess supply driving prices down. Inflation expectations are anchored.
+5. **Property 5: Optimal Sustainable Capacity Utilization (~80–85%):**
+   - Industrial capital machinery operates at normal, sustainable engineering loads without overtime labor exhaustion or deferred maintenance strain.
+
+#### Short-Run Equilibrium vs. Long-Run Equilibrium:
+| Dimension | Short-Run Equilibrium | Long-Run Macroeconomic Equilibrium |
+| :--- | :--- | :--- |
+| **Mathematical Condition** | $\\mathbf{AD = SRAS}$ | $\\mathbf{AD = SRAS = LRAS}$ |
+| **Determination** | Intersection of buyers\' willingness to purchase ($AD$) and firms\' willingness to produce ($SRAS$) given **sticky factor input costs**. | Intersection of aggregate demand with the economy\'s **physical ability to produce** ($LRAS$) after all nominal wages and input prices have fully adjusted. |
+| **Output Level** | Can occur at any real GDP: $Y < Y^*$ (Recessionary), $Y = Y^*$ (Long Run), or $Y > Y^*$ (Inflationary). | Strictly constrained to Potential GDP ($Y = Y^*$). |
+| **Labor Market** | Cyclical unemployment can be positive (recession) or negative (overheating). | Cyclical unemployment is strictly zero; actual unemployment equals the Natural Rate ($u = \\text{NRU}$). |
+| **Adjustment Tendency** | Fleeting and unstable if $Y \\neq Y^*$. | The stable terminal attractor toward which the market gravitates once nominal contracts and wages adjust. |`,
         order: 3,
       },
       {
@@ -5241,6 +5301,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Confusing price-level-induced movements along the AD curve (wealth, interest rate, foreign trade effects) with non-price expenditure shifts ($C, I, G, NX$).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic theory and Professor Ryan\'s lecture in "Long Run Equilibrium", which of the following conditions correctly describes the state of an economy in Long-Run Macroeconomic Equilibrium?',
+        options: [
+          'Aggregate Demand (AD), Short-Run Aggregate Supply (SRAS), and Long-Run Aggregate Supply (LRAS) all intersect simultaneously at Potential Output (Natural Real GDP, Y*), where the output gap is zero and cyclical unemployment is 0%.',
+          'Aggregate Demand exceeds Long-Run Aggregate Supply by exactly 10%, generating a permanent trade surplus and zero structural unemployment.',
+          'The short-run intersection of AD and SRAS occurs to the left of the LRAS curve, ensuring that factories operate at 100% mechanical capacity.',
+          'The general price level drops to zero, completely eliminating nominal transaction money demand across all sectors.',
+        ],
+        correctAnswer: 'Aggregate Demand (AD), Short-Run Aggregate Supply (SRAS), and Long-Run Aggregate Supply (LRAS) all intersect simultaneously at Potential Output (Natural Real GDP, Y*), where the output gap is zero and cyclical unemployment is 0%.',
+        explanation: 'In "Long Run Equilibrium", Professor Ryan establishes that long-run macroeconomic equilibrium occurs when the aggregate market equilibrium (AD ∩ SRAS) falls directly on the vertical Long-Run Aggregate Supply curve (AD = SRAS = LRAS). At this 3-curve simultaneous intersection, actual real GDP equals Natural Real GDP (Y = Y*), the output gap is zero (Y - Y* = 0), cyclical unemployment is completely eliminated (actual unemployment equals the Natural Rate of Unemployment, u = NRU), and price level stability is achieved. In contrast, short-run equilibrium requires only that AD = SRAS, which can occur at output levels below potential (recessionary gap) or above potential (inflationary gap).',
+        trapExplanation: 'Option B confuses long-run equilibrium with an overheating trade surplus. Option C describes a recessionary gap (Y < Y*), where capacity utilization is depressed, not 100%. Option D confuses price level stability with zero absolute prices.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Distinguishing between short-run equilibrium (AD = SRAS) and long-run equilibrium (simultaneous 3-curve intersection AD = SRAS = LRAS at potential output Y*).',
       },
     ],
   },
