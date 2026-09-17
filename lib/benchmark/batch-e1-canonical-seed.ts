@@ -4622,8 +4622,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Classical Economic Theory Intro - Assumptions" (YouTube: 2Z1VyxIjS94), "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'In "Classical Economic Theory Intro - Assumptions", Professor Ryan defines the three foundational pillars of Classical Macroeconomics: (1) The economy is self-regulating via laissez-faire (no government intervention needed; output naturally converges to natural real GDP), (2) Inadequate aggregate demand will not destroy the economy (Say\'s Law and the credit/loanable funds market ensure spending leakages match investment injections), and (3) Wage rates and prices are fully flexible both upward and downward (clearing labor surpluses and deficits). Modern Keynesian analysis identifies downward wage rigidity (contracts, minimum wage, unions) as the fatal breakdown of the third assumption.',
+        locator: 'Professor Ryan, "Classical Economic Theory - Insufficient Demand" (YouTube: KiD4ADxTvfw), "Classical Economic Theory - The Labor Market Basics" (YouTube: KId0-meFAJ0), "Classical Economic Theory Intro - Assumptions" (YouTube: 2Z1VyxIjS94), "Closing Output Gaps with AD" (YouTube: Rsv82ukPij8), "Closing Output Gaps with SRAS" (YouTube: sRHX7dCJZ9w), "Short Run Equilibrium & Output Gaps" (YouTube: 0dorU6od6eA), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'In "Classical Economic Theory - Insufficient Demand" and "Classical Economic Theory Intro - Assumptions", Professor Ryan defines the three foundational pillars of Classical Macroeconomics: (1) The economy is self-regulating via laissez-faire (no government intervention needed; output naturally converges to natural real GDP), (2) Inadequate aggregate demand will not destroy the economy (Say\'s Law and the credit/loanable funds market ensure that savings leakages automatically lower interest rates and stimulate matching investment spending, S = I), and (3) Wage rates and prices are fully flexible both upward and downward (clearing labor surpluses and deficits). Modern Keynesian analysis identifies downward wage rigidity (contracts, minimum wage, unions) as the fatal breakdown of the third assumption.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -4769,6 +4769,55 @@ This equivalence forms the theoretical foundation for the **Three Classical Meth
   - **Macroeconomic Equilibrium requires:**
     $$\\mathbf{S + T + M = I + G + X}$$
 
+#### The "Inadequate Demand" Critique & The Classical Credit Market Resolution (Professor Ryan)
+In **"Classical Economic Theory - Insufficient Demand"** (YouTube: KiD4ADxTvfw), Professor Ryan addresses the central challenge to Classical Assumption 2 (*"Inadequate aggregate demand will not destroy the economy"*):
+
+##### 1. The Underconsumptionist / Inadequate Demand Critique
+Critics of classical economics (underconsumptionists and early socialists) argued that unequal income distribution inevitably creates a fatal aggregate demand shortfall:
+* **The Income Distribution Paradox:** Suppose a factory produces output valued at ₹10,000. It pays 100 assembly workers ₹10 each (₹1,000 total factor payroll). The factory owner retains ₹9,000 as operating profit.
+* **The Spending Asymmetry:**
+  - The 100 workers have high marginal propensities to consume and spend all ₹1,000 on consumer goods.
+  - The single wealthy owner, having satiated personal consumption, spends only ₹1,000 on consumer goods and saves the remaining ₹8,000.
+* **The Underconsumptionist Fear:** Total consumer demand equals only ₹2,000 ($₹1,000 + ₹1,000$), leaving ₹8,000 of produced goods unsold on warehouse shelves. Critics claimed this persistent leakage causes businesses to cut production, fire workers, and plunge the economy into a death spiral of involuntary unemployment.
+
+##### 2. The Classical Rebuttal: The Credit / Loanable Funds Market Clearing Mechanism
+Classical economists completely rejected the underconsumption premise: **savers do not hoard money in a physical drawer or stuff cash into mattresses**. Instead, unspent income flows directly into the **Credit (Loanable Funds) Market** (banks and financial intermediaries):
+* **Supply of Loanable Funds Shifts Right:** When households or business owners save ₹8,000, commercial bank deposits surge, shifting the supply of loanable funds rightward ($S \\to S'$).
+* **Flexible Interest Rates Fall ($r \\downarrow$):** In an unregulated, competitive financial market, an excess supply of credit puts immediate downward pressure on the price of borrowing—the interest rate falls from $r_1$ to $r_2$.
+* **Investment Spending Expands ($I \\uparrow$):** Lower interest rates reduce the cost of corporate borrowing, making capital investment projects profitable. Businesses borrow the accumulated ₹8,000 of savings to finance physical capital goods (constructing factories, acquiring heavy machinery, upgrading software, expanding warehouses).
+* **The Macroeconomic Identity ($S = I$ Holds):**
+  $$\\Delta C = -₹8,000 \\quad \\text{and} \\quad \\Delta I = +₹8,000 \\implies \\Delta \\text{Aggregate Demand} = \\Delta C + \\Delta I = 0$$
+  The ₹8,000 reduction in consumer expenditure is precisely matched by an ₹8,000 expansion in business investment expenditure. Total aggregate demand remains exactly ₹10,000 ($C + I = ₹2,000 + ₹8,000 = ₹10,000$), completely absorbing all produced output and validating Say's Law!
+
+\`\`\`text
+========================================================================================
+            THE CLASSICAL CREDIT (LOANABLE FUNDS) MARKET RESOLUTION
+========================================================================================
+
+  Interest Rate (r)
+      ▲
+      │           S (Initial Savings)
+      │             \\       S' (Surge in Savings: +₹8,000)
+  r_1 │───────────────\\───────\\
+      │                \\       \\
+      │                 ▼       ▼  [Interest Rate Falls: r ↓]
+  r_2 │──────────────────\\───────\\───────
+      │                   \\       \\
+      │                    \\       \\
+      │                     \\       \\     D_I (Business Borrowing for Capital Investment)
+      └──────────────────────\\───────\\───►
+      0                     I_1     I_2   Quantity of Loanable Funds (₹)
+                             [+₹8,000 Borrowed for Physical Investment]
+
+────────────────────────────────────────────────────────────────────────────────────────
+  CLASSICAL RESULT:
+  • Consumer Spending Drops:  \\Delta C = -₹8,000
+  • Investment Spending Rises: \\Delta I = +₹8,000 (induced by lower interest rate r ↓)
+  • Net Demand Impact:        \\Delta AD = \\Delta C + \\Delta I = -₹8,000 + ₹8,000 = 0
+  • Total Aggregate Demand remains ₹10,000 ===> All Output Sold, Say's Law Holds!
+========================================================================================
+\`\`\`
+
 #### The Keynesian Multiplier: The Multi-Round Iterative Re-Spending Chain
 When an autonomous injection enters the circular flow (such as business investment $\\Delta I$ or government spending $\\Delta G$), how much does total national income ($\\Delta Y$) actually expand?
 As Professor Ryan explains, an initial injection does **not** simply expand GDP by the face value of the initial expenditure — it initiates a **multi-round compounding chain reaction** because **one person's spending is another person's income**.
@@ -4810,7 +4859,7 @@ This amplified shift in $AD$ pushes the short-run equilibrium along the upward-s
 
 ---
 
-### 5. From the Product Market to "The Aggregate Market" (Professor Ryan's Macro Clustering Model)
+### 6. From the Product Market to "The Aggregate Market" (Professor Ryan's Macro Clustering Model)
 In microeconomics, we analyze single product markets (e.g. the market for wooden chairs, bicycles, or wheat) using individual price ($P$) and quantity ($Q$). But how do economists model the **entire macroeconomy**?
 
 As Professor Ryan explains, macroeconomists take all millions of individual product markets and **cluster them together** into one single overarching market: **The Aggregate Market**.
@@ -5642,6 +5691,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the definition of Full Employment in the labor market (Q_S = Q_D at W_e, cyclical unemployment = 0) versus labor surplus when W > W_e.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In Classical Economic Theory and Professor Ryan\'s lecture in "Classical Economic Theory - Insufficient Demand", how do classical economists refute the Underconsumptionist critique (which claims that unequal income distribution causes savings leakages that leave goods unsold and collapse the macroeconomy)?',
+        options: [
+          'Classical economists demonstrate that unspent income is channeled into the Credit (Loanable Funds) Market: surplus savings push interest rates downward ($r \\downarrow$), which incentivizes businesses to borrow and spend on physical capital investment ($I \\uparrow$), ensuring that $\\Delta C + \\Delta I = 0$ ($S = I$) and preserving Say\'s Law.',
+          'Classical economists argue that the government must mandate equal wages across all citizens to force 100% consumption spending.',
+          'Classical economists assert that money deposited in banks disappears permanently from the economy, permanently contracting LRAS.',
+          'Classical economists claim that consumer goods never spoil, so unsold inventories have no adverse economic impact on employment.',
+        ],
+        correctAnswer: 'Classical economists demonstrate that unspent income is channeled into the Credit (Loanable Funds) Market: surplus savings push interest rates downward ($r \\downarrow$), which incentivizes businesses to borrow and spend on physical capital investment ($I \\uparrow$), ensuring that $\\Delta C + \\Delta I = 0$ ($S = I$) and preserving Say\'s Law.',
+        explanation: 'In "Classical Economic Theory - Insufficient Demand", Professor Ryan details the classical rebuttal to the underconsumptionist/inadequate demand critique. Critics posited that because wealth is concentrated, high earners cannot consume their entire income, leading to large savings leakages that leave goods unsold. Classical theorists refuted this by showing that households and business owners do not hoard cash in physical drawers; their unspent funds flow into the Credit (Loanable Funds) Market. In a competitive financial system, this influx of savings shifts loanable funds supply rightward, driving flexible interest rates down ($r \\downarrow$). Lower borrowing costs stimulate business borrowing for physical capital investment ($I \\uparrow$). Consequently, the contraction in consumer spending is perfectly offset by an expansion in investment spending ($\\Delta C = -₹8,000, \\Delta I = +₹8,000 \\implies \\Delta AD = 0$), maintaining total aggregate demand at ₹10,000 and confirming that $S = I$ under Say\'s Law.',
+        trapExplanation: 'Option B is incorrect because classical economics advocates laissez-faire rather than state wage mandates. Option C represents the exact underconsumption fallacy that classical theory disproved. Option D is economic nonsense.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing the Classical Credit/Loanable Funds Market clearing mechanism where flexible interest rates convert savings into capital investment ($S = I$), refuting underconsumptionist demand deficiency.',
       },
     ],
   },
