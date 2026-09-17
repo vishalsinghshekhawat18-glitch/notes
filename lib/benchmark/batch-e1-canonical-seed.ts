@@ -4469,8 +4469,8 @@ A fatal pitfall occurs when policymakers confuse the **concrete indicator** with
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
-        excerpt: 'An output gap occurs whenever actual short-run real GDP differs from potential output (Natural Real GDP). Dynamics of the aggregate market examine shifts in AD and SRAS. Closing output gaps can occur through Keynesian demand management (shifting AD) or classical supply adjustment (shifting SRAS), though downward wage rigidity impedes the supply channel.',
+        locator: 'Professor Ryan, "Determinants of SRAS" (YouTube: dvpogjcaHWk), "Output Gaps" (YouTube: Yq_7Z8DF6L4), "Dynamics of the Aggregate Market" (YouTube: dx0loHyFqSI), "Closing Output Gaps in KET" (YouTube: A50hmnNVjKU) & "KET - Increase or Decrease GDP" (YouTube: iZmK3ejm7G0); John Maynard Keynes (1936) The General Theory of Employment, Interest and Money; N. Gregory Mankiw, Macroeconomics, Chapter 10',
+        excerpt: 'The primary determinant of Short-Run Aggregate Supply (SRAS) is economy-wide production costs, which move inversely with SRAS. Shifts in SRAS are driven by changes in factor input prices (wages, energy, raw materials) and factor productivity. An output gap occurs whenever actual real GDP differs from potential output.',
       },
       {
         id: 'CLM-ECO-17-07',
@@ -4872,7 +4872,26 @@ $$\\mathbf{\\text{Capacity Utilization Rate (CUR)}} = \\left( \\frac{\\text{Actu
    - **Economic Consequences:** Plants operate continuous 24/7 overtime shifts, routine machinery servicing is postponed, and supply chain logistics become congested. As firms compete aggressively for scarce inputs, workers demand overtime premiums and supplier quotes escalate. This operational strain directly fuels **demand-pull and cost-push inflationary spirals**.
 
 #### Empirical Application: RBI's Manufacturing OBICUS Survey
-In India, the **Reserve Bank of India (RBI)** tracks manufacturing capacity utilization through its quarterly **Order Books, Inventories and Capacity Utilisation Survey (OBICUS)**. The Monetary Policy Committee (MPC) treats a sustained rise in capacity utilization above its historical long-term average (~75–76%) as a pivotal macroeconomic turning point: it signals that corporate balance sheets are exhausting idle capacity, foreshadowing the revival of the **Private Capital Expenditure (Capex) Cycle** (shifting LRAS rightward over time) while indicating rising underlying demand pressures.`,
+In India, the **Reserve Bank of India (RBI)** tracks manufacturing capacity utilization through its quarterly **Order Books, Inventories and Capacity Utilisation Survey (OBICUS)**. The Monetary Policy Committee (MPC) treats a sustained rise in capacity utilization above its historical long-term average (~75–76%) as a pivotal macroeconomic turning point: it signals that corporate balance sheets are exhausting idle capacity, foreshadowing the revival of the **Private Capital Expenditure (Capex) Cycle** (shifting LRAS rightward over time) while indicating rising underlying demand pressures.
+
+---
+
+### 5. Determinants of Short-Run Aggregate Supply (SRAS): Production Costs & Factor Productivity (Professor Ryan)
+In *"Determinants of SRAS"*, Professor Ryan identifies **Economy-Wide Production Costs** as the single primary economic variable determining shifts in Short-Run Aggregate Supply:
+
+$$\\mathbf{\\text{Production Costs} \\uparrow \\implies \\text{SRAS} \\downarrow \\quad (\\text{Shifts Leftward})}$$
+$$\\mathbf{\\text{Production Costs} \\downarrow \\implies \\text{SRAS} \\uparrow \\quad (\\text{Shifts Rightward})}$$
+
+#### The Two Transmission Channels of SRAS Shifters:
+1. **Factor Input Prices (Wages, Energy, Raw Materials, Land Rent, Capital Interest):**
+   - **Nominal Wages ($W$):** Labor represents 60% to 70% of aggregate production costs across the economy. A rise in nominal wages or employee benefits raises per-unit operating expenses, forcing firms to demand higher selling prices for any given quantity, shifting $SRAS$ leftward. Conversely, falling factor costs shift $SRAS$ rightward.
+   - **Critical Energy & Commodity Prices:** Global crude oil spikes, electricity tariff hikes, or raw material shortages increase transportation and operational costs throughout the supply chain (adverse supply shock, shifting $SRAS$ leftward and creating stagflation).
+2. **Factor Productivity ($\\text{Productivity} = \\frac{\\text{Physical Output}}{\\text{Factor Inputs}}$):**
+   - **Productivity Growth ($A \\uparrow$):** Technological innovation, worker training, and capital deepening enable workers to generate more output per hour worked.
+   - **The Direct Cost Link:**
+     $$\\mathbf{\\text{Per-Unit Production Cost} = \\frac{\\text{Nominal Wage}}{\\text{Labor Productivity}}}$$
+     When productivity rises faster than nominal wages, unit production costs *fall*, shifting the $SRAS$ curve rightward even if wages are rising!
+   - **Productivity Drops:** Bureaucratic compliance burdens, severe natural disruptions, or decay in capital efficiency raise unit costs and shift $SRAS$ leftward.`,
         order: 3,
       },
       {
@@ -5106,6 +5125,22 @@ In 2013, India suffered from a classic **Twin Deficit Crisis**:
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing the core theoretical justification for Keynesian demand management: downward nominal wage stickiness blocking SRAS self-correction.',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'According to macroeconomic theory and Professor Ryan\'s analysis in "Determinants of SRAS", what is the primary economic variable that determines shifts in Short-Run Aggregate Supply (SRAS), and how would a simultaneous 5% increase in nominal wages alongside an 8% increase in labor productivity affect the SRAS curve?',
+        options: [
+          'Primary Determinant: Economy-wide production costs; Effect: SRAS shifts rightward (increases), because labor productivity growth exceeds wage growth, lowering unit production costs.',
+          'Primary Determinant: Consumer marginal propensity to consume; Effect: SRAS remains vertical because productivity only affects LRAS.',
+          'Primary Determinant: Government fiscal deficit; Effect: SRAS shifts leftward because any wage increase automatically increases total costs regardless of productivity.',
+          'Primary Determinant: Central bank foreign exchange reserves; Effect: SRAS shifts leftward causing immediate hyperinflation.',
+        ],
+        correctAnswer: 'Primary Determinant: Economy-wide production costs; Effect: SRAS shifts rightward (increases), because labor productivity growth exceeds wage growth, lowering unit production costs.',
+        explanation: 'As Professor Ryan demonstrates in "Determinants of SRAS", the single primary determinant of SRAS is economy-wide production costs, which share an inverse relationship with SRAS (higher costs shift SRAS left; lower costs shift SRAS right). Per-unit production cost is governed by the ratio of factor prices to factor productivity ($\\text{Unit Labor Cost} \\approx \\frac{\\text{Nominal Wage}}{\\text{Labor Productivity}}$). When labor productivity surges by 8% while nominal wages rise by only 5%, workers produce output faster than their compensation increases, causing unit production costs to fall by approximately 3%. Consequently, profit margins expand at any given price level, shifting the SRAS curve rightward (increasing aggregate supply).',
+        trapExplanation: 'Option B confuses SRAS shifters with demand-side MPC and falsely assumes productivity has no short-run supply impact. Option C ignores the offsetting effect of productivity on unit labor cost. Option D confuses aggregate supply determinants with foreign reserve balances.',
+        difficulty: 'MEDIUM',
+        isPYQ: false,
+        examinerTrapPattern: 'Testing production costs as the primary determinant of SRAS and understanding the net effect of wage increases vs productivity gains on per-unit costs.',
       },
     ],
   },
