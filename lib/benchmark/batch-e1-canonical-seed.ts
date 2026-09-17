@@ -3813,7 +3813,7 @@ In developed economies, almost all workers are salaried employees (COE) or corpo
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Natural Real GDP" (YouTube: zMWDVSUagH8), "The Business Cycle" (YouTube: BhSZpRT9uAk) & "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw); Arthur Burns & Wesley Mitchell (1946) Measuring Business Cycles (NBER); N. Gregory Mankiw, Macroeconomics, Chapter 10: Introduction to Economic Fluctuations',
+        locator: 'Professor Ryan, "Natural Real GDP & The Business Cycle" (YouTube: C2_E38vlk9k), "Natural Real GDP" (YouTube: zMWDVSUagH8), "The Business Cycle" (YouTube: BhSZpRT9uAk) & "Real GDP in the Short Run and Long Run" (YouTube: roC__UvxRYw); Arthur Burns & Wesley Mitchell (1946) Measuring Business Cycles (NBER); N. Gregory Mankiw, Macroeconomics, Chapter 10: Introduction to Economic Fluctuations',
         excerpt: 'Natural Real GDP is the volume of real output produced when the economy satisfies two simultaneous conditions: full employment and price level stability. The business cycle is the pattern of economic output fluctuating over time around Natural Real GDP. Comparing Actual Real GDP ("what is") to Natural Real GDP ("what could be") reveals whether the economy is in long-run equilibrium, a recessionary gap, or an overheating expansionary gap.',
       },
     ],
@@ -3981,7 +3981,7 @@ In *"Real GDP in the Short Run and Long Run"*, Professor Ryan formalizes the ess
 ---
 
 ### 7. The Anatomy of The Business Cycle: The 4 Phases, Natural Real GDP & Output Gaps (Professor Ryan)
-In *"The Business Cycle"*, Professor Ryan demonstrates how the continuous fluctuations of Short-Run Real GDP trace out a repeating, non-periodic waveform around **Natural Real GDP (Potential Output)**:
+In *"The Business Cycle"* and *"Natural Real GDP & The Business Cycle"*, Professor Ryan demonstrates how combining the graph of the cyclical fluctuations of Short-Run Real GDP with the upward-sloping secular trend line of **Natural Real GDP (Potential Output, $Y^*$)** reveals the foundational macroeconomic reality: actual economic output repeatedly oscillates above and below long-run sustainable capacity:
 
 \`\`\`text
 ========================================================================================
