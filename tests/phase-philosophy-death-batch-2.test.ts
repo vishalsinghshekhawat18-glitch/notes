@@ -1,33 +1,33 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import { db } from '../lib/db/client';
-import { BATCH_P1_CONCEPTS, seedBatchP1PhilosophyKnowledge } from '../lib/benchmark/batch-p1-philosophy-seed';
+import { BATCH_P2_CONCEPTS, seedBatchP2PhilosophyKnowledge } from '../lib/benchmark/batch-p2-philosophy-seed';
 
-describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaedo on the Soul (Yale PHIL 176)', () => {
+describe('Philosophy Master — Batch P2: Personal Identity & What Matters in Survival (Yale PHIL 176)', () => {
   beforeAll(async () => {
-    await seedBatchP1PhilosophyKnowledge();
+    await seedBatchP2PhilosophyKnowledge();
   });
 
   describe('Structural & Quantitative Verification', () => {
-    it('should contain exactly 5 canonical concepts across Topics 1 and 2', () => {
-      expect(BATCH_P1_CONCEPTS.length).toBe(5);
+    it('should contain exactly 5 canonical concepts across Topics 3 and 4', () => {
+      expect(BATCH_P2_CONCEPTS.length).toBe(5);
 
-      const topicOrders = new Set(BATCH_P1_CONCEPTS.map((c) => c.topicOrder));
+      const topicOrders = new Set(BATCH_P2_CONCEPTS.map((c) => c.topicOrder));
       expect(topicOrders.size).toBe(2);
-      expect(topicOrders.has(1)).toBe(true);
-      expect(topicOrders.has(2)).toBe(true);
+      expect(topicOrders.has(3)).toBe(true);
+      expect(topicOrders.has(4)).toBe(true);
 
-      const expectedIds = ['CON-PHIL-01', 'CON-PHIL-02', 'CON-PHIL-03', 'CON-PHIL-04', 'CON-PHIL-05'];
-      const actualIds = BATCH_P1_CONCEPTS.map((c) => c.id);
+      const expectedIds = ['CON-PHIL-06', 'CON-PHIL-07', 'CON-PHIL-08', 'CON-PHIL-09', 'CON-PHIL-10'];
+      const actualIds = BATCH_P2_CONCEPTS.map((c) => c.id);
       expect(actualIds).toEqual(expectedIds);
 
       // Verify unique slugs
-      const slugs = new Set(BATCH_P1_CONCEPTS.map((c) => c.slug));
+      const slugs = new Set(BATCH_P2_CONCEPTS.map((c) => c.slug));
       expect(slugs.size).toBe(5);
     });
 
     it('should verify each concept has at least 4 claims with authoritative lecture locators', () => {
       let totalClaims = 0;
-      for (const concept of BATCH_P1_CONCEPTS) {
+      for (const concept of BATCH_P2_CONCEPTS) {
         expect(concept.claims.length).toBeGreaterThanOrEqual(4);
         totalClaims += concept.claims.length;
         for (const claim of concept.claims) {
@@ -40,12 +40,12 @@ describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaed
           expect(claim.epistemicLevel).toBe('ESTABLISHED_FACT');
         }
       }
-      expect(totalClaims).toBe(22);
+      expect(totalClaims).toBe(20);
     });
 
     it('should verify each concept has exactly 4 content blocks with INTUITION, CORE_IDEA, MECHANISM, EXAM_APPLICATION', () => {
       let totalBlocks = 0;
-      for (const concept of BATCH_P1_CONCEPTS) {
+      for (const concept of BATCH_P2_CONCEPTS) {
         expect(concept.contentBlocks.length).toBe(4);
         totalBlocks += concept.contentBlocks.length;
         const types = concept.contentBlocks.map((b) => b.type);
@@ -67,7 +67,7 @@ describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaed
     it('should verify each concept maps to all 3 target examinations', () => {
       const requiredExams = ['PHILOSOPHY_OPTIONAL', 'UPSC_GS4', 'ACADEMIC_PHILOSOPHY'];
       let totalMappings = 0;
-      for (const concept of BATCH_P1_CONCEPTS) {
+      for (const concept of BATCH_P2_CONCEPTS) {
         expect(concept.examMappings.length).toBe(3);
         totalMappings += concept.examMappings.length;
         const examCodes = concept.examMappings.map((m) => m.examCode);
@@ -85,7 +85,7 @@ describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaed
 
     it('should verify each concept has 3 revision units: FLASH_30S, SUMMARY_2M, ARCHITECTURE_5M', () => {
       let totalRevUnits = 0;
-      for (const concept of BATCH_P1_CONCEPTS) {
+      for (const concept of BATCH_P2_CONCEPTS) {
         expect(concept.revisionUnits.length).toBe(3);
         totalRevUnits += concept.revisionUnits.length;
         const types = concept.revisionUnits.map((r) => r.type);
@@ -99,7 +99,7 @@ describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaed
 
     it('should verify each concept has at least 3 graded questions with trap explanations and options', () => {
       let totalQuestions = 0;
-      for (const concept of BATCH_P1_CONCEPTS) {
+      for (const concept of BATCH_P2_CONCEPTS) {
         expect(concept.questions.length).toBeGreaterThanOrEqual(3);
         totalQuestions += concept.questions.length;
         for (const q of concept.questions) {
@@ -116,7 +116,7 @@ describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaed
     });
 
     it('should verify math delimiters are balanced across all content blocks and revision units', () => {
-      for (const concept of BATCH_P1_CONCEPTS) {
+      for (const concept of BATCH_P2_CONCEPTS) {
         for (const block of concept.contentBlocks) {
           const dollarCount = (block.body.match(/\\\$/g) || []).length;
           const rawDollarCount = (block.body.match(/\$/g) || []).length;
@@ -144,19 +144,19 @@ describe('Philosophy Master — Batch P1: The Nature of Persons & Plato\'s Phaed
       expect(subject?.domainId).toBe(domain?.id);
     });
 
-    it('should verify Topics 1 and 2 exist under western-philosophy-metaphysics-ethics', async () => {
+    it('should verify Topics 3 and 4 exist under western-philosophy-metaphysics-ethics', async () => {
       const subject = await db.subject.findFirst({ where: { slug: 'western-philosophy-metaphysics-ethics' } });
       const topics = await db.topic.findMany({
-        where: { subjectId: subject?.id, order: { in: [1, 2] } },
+        where: { subjectId: subject?.id, order: { in: [3, 4] } },
         orderBy: { order: 'asc' },
       });
       expect(topics.length).toBe(2);
-      expect(topics[0].slug).toBe('the-nature-of-persons-dualism-vs-physicalism');
-      expect(topics[1].slug).toBe('platos-phaedo-and-arguments-for-immortality');
+      expect(topics[0].slug).toBe('personal-identity-body-soul-and-personality-views');
+      expect(topics[1].slug).toBe('the-problem-of-branching-and-what-matters-in-survival');
     });
 
     it('should verify all 5 Concepts exist in database with child relations', async () => {
-      for (const cDef of BATCH_P1_CONCEPTS) {
+      for (const cDef of BATCH_P2_CONCEPTS) {
         const concept = await db.concept.findUnique({
           where: { id: cDef.id },
           include: {
