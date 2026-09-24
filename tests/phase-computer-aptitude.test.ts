@@ -24,13 +24,13 @@ describe('Computer Aptitude & Digital Banking Systems Certification Suite', () =
     expect(subject).toBeDefined();
     expect(subject?.name).toBe('Computer Aptitude & Digital Banking Systems');
     expect(subject?.domain.name).toBe('Quantitative Aptitude & Reasoning');
-    expect(subject?.topics.length).toBe(7);
+    expect(subject?.topics.length).toBe(9);
 
     const totalConcepts = subject?.topics.reduce((acc, t) => acc + t.concepts.length, 0);
-    expect(totalConcepts).toBe(16);
+    expect(totalConcepts).toBe(19);
   });
 
-  it('2. should verify content blocks, claims, and evidence for CON-COMP-001', async () => {
+  it('2. should verify content blocks, claims, and evidence for CON-COMP-001 and CON-COMP-017', async () => {
     const concept = await db.concept.findUnique({
       where: { id: 'CON-COMP-001' },
       include: {
@@ -59,9 +59,26 @@ describe('Computer Aptitude & Digital Banking Systems Certification Suite', () =
     expect(concept?.examMappings.length).toBeGreaterThanOrEqual(2);
     expect(concept?.revisionUnits.length).toBeGreaterThanOrEqual(1);
     expect(concept?.questions.length).toBeGreaterThanOrEqual(1);
+
+    const dbmsConcept = await db.concept.findUnique({
+      where: { id: 'CON-COMP-017' },
+      include: {
+        contentBlocks: true,
+        claims: {
+          include: {
+            evidence: true,
+          },
+        },
+        questions: true,
+      },
+    });
+    expect(dbmsConcept).toBeDefined();
+    expect(dbmsConcept?.title).toContain('Database Management Systems');
+    expect(dbmsConcept?.contentBlocks.length).toBe(4);
+    expect(dbmsConcept?.claims[0].evidence.length).toBeGreaterThanOrEqual(1);
   });
 
-  it('3. should verify all 16 concepts have questions and exam mappings', async () => {
+  it('3. should verify all 19 concepts have questions and exam mappings', async () => {
     const concepts = await db.concept.findMany({
       where: {
         id: { startsWith: 'CON-COMP-' },
@@ -73,7 +90,7 @@ describe('Computer Aptitude & Digital Banking Systems Certification Suite', () =
       },
     });
 
-    expect(concepts.length).toBe(16);
+    expect(concepts.length).toBe(19);
     for (const c of concepts) {
       expect(c.contentBlocks.length).toBe(4);
       expect(c.questions.length).toBeGreaterThanOrEqual(1);
@@ -89,7 +106,7 @@ describe('Computer Aptitude & Digital Banking Systems Certification Suite', () =
     const compSubject = quantDomain?.subjects.find((s) => s.slug === 'computer-aptitude');
     expect(compSubject).toBeDefined();
     expect(compSubject?.code).toBe('CMP-01');
-    expect(compSubject?.topicsCount).toBe(7);
-    expect(compSubject?.conceptsCount).toBe(16);
+    expect(compSubject?.topicsCount).toBe(9);
+    expect(compSubject?.conceptsCount).toBe(19);
   });
 });

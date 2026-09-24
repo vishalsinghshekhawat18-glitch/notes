@@ -1487,10 +1487,320 @@ $$\\mathbf{\\text{2\'s Complement} = \\text{1\'s Complement (Invert Bits)} + 1}$
       },
     ],
   },
+  // =========================================================================
+  // TOPIC 8: Database Management Systems, SQL & Web Technologies
+  // =========================================================================
+  {
+    id: 'CON-COMP-017',
+    slug: 'relational-dbms-keys-normalization-and-sql-taxonomy',
+    title: 'Database Management Systems (DBMS), Relational Keys, ACID & SQL Taxonomy',
+    shortDefinition: 'Theoretical principles of Relational DBMS, relational terminology (tuples, attributes, cardinality, degree), key constraints (Primary, Foreign, Candidate), Normalization (1NF, 2NF, 3NF, BCNF), transaction ACID properties, and the SQL command taxonomy (DDL, DML, DQL, DCL, TCL).',
+    difficulty: 'INTERMEDIATE',
+    order: 1,
+    topicSlug: 'database-systems-sql-and-web-technologies',
+    contentBlocks: [
+      {
+        type: 'CORE_IDEA',
+        title: 'The Relational Model & Elimination of File Processing Redundancy',
+        body: 'Pioneered by **Dr. E.F. Codd (1970)**, the Relational Model organizes data into two-dimensional tables termed **Relations**, composed of named columns (**Attributes**) and unstructured rows (**Tuples**). In relational theory, **Cardinality** measures the total count of tuples (rows), while **Degree** measures the total count of attributes (columns). An RDBMS guarantees declarative querying through SQL, schema-instance separation, and mathematical constraints via relational keys.',
+        order: 1,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'MECHANISM',
+        title: 'Relational Keys, Normalization & SQL Taxonomy',
+        body: `### Relational Keys Architecture:
+- **Primary Key (PK):** Unique identifier for each tuple; strictly **cannot be NULL** (Entity Integrity Constraint). A table has exactly one PK.
+- **Candidate Key:** Minimal super key with no redundant attributes. All candidate keys not chosen as Primary Key become **Alternate Keys**.
+- **Foreign Key (FK):** Attribute matching the Primary Key in another table, enforcing **Referential Integrity**. Unlike PKs, foreign keys *can* contain NULL and duplicate values.
+
+### Normal Forms Progression:
+1. **1NF:** Atomic values only; eliminates repeating groups and comma-separated arrays.
+2. **2NF:** In 1NF + **no partial dependency** (every non-prime attribute is fully functionally dependent on the entire composite primary key).
+3. **3NF:** In 2NF + **no transitive dependency** (non-key attributes cannot depend on other non-key attributes).
+4. **BCNF:** Stricter 3NF; for every functional dependency $X \\to Y$, $X$ must be a **Super Key**.
+
+### SQL Command Categories:
+| Category | Full Name | Commands | Transactional Behavior |
+| :--- | :--- | :--- | :--- |
+| **DDL** | Data Definition Language | \`CREATE\`, \`ALTER\`, \`DROP\`, \`TRUNCATE\`, \`RENAME\` | **Auto-committed** (cannot be rolled back). |
+| **DML** | Data Manipulation Language | \`INSERT\`, \`UPDATE\`, \`DELETE\`, \`MERGE\` | **Manual commit** (can be rolled back). |
+| **DQL** | Data Query Language | \`SELECT\` | Read-only data retrieval. |
+| **DCL** | Data Control Language | \`GRANT\`, \`REVOKE\` | User permissions & security privileges. |
+| **TCL** | Transaction Control Language | \`COMMIT\`, \`ROLLBACK\`, \`SAVEPOINT\` | Transaction persistence & recovery points. |`,
+        order: 2,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_ANGLE',
+        title: 'The Critical Exam Distinction: DROP vs TRUNCATE vs DELETE & ACID',
+        body: `### High-Yield Comparison:
+- **\`DROP\` (DDL):** Destroys table structure, rows, indexes, and constraints completely. Space is deallocated. Cannot be rolled back.
+- **\`TRUNCATE\` (DDL):** Purges **all rows** while preserving the table schema/columns. Resets identity seed counters, deallocates data pages, executes instantly, does not fire \`ON DELETE\` triggers, and cannot be conditionally filtered (\`WHERE\` is disallowed).
+- **\`DELETE\` (DML):** Removes specific filtered rows (\`WHERE ID = 5\`) or all rows. Logs deletions row-by-row, fires \`ON DELETE\` triggers, retains identity counters, and **can be rolled back**.
+
+### Transaction ACID Properties:
+- **Atomicity ("All or Nothing"):** Either every operation in the transaction executes, or the entire transaction is rolled back.
+- **Consistency:** Database transitions between valid states, preserving all schema constraints.
+- **Isolation:** Concurrent transactions execute without mutual interference (managed by locks and 2PL).
+- **Durability:** Once committed, transaction results survive power failures and crashes (via Write-Ahead Logging).`,
+        order: 3,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'TECHNICAL_DEEP_DIVE',
+        title: 'Relational DBMS vs NoSQL Architectures',
+        body: `While RDBMS systems (Oracle, MySQL, PostgreSQL, MS SQL Server) scale **vertically** and enforce strict ACID transactions across structured tabular schemas, modern distributed systems employ **NoSQL** architectures (MongoDB, Cassandra, Redis). NoSQL databases scale **horizontally** across commoditized compute clusters, employing dynamic schema models (Document, Key-Value, Columnar, Graph) and the **BASE** philosophy (Basically Available, Soft-state, Eventual consistency) to handle petabyte-scale unstructured data streams.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+    ],
+    claims: [
+      {
+        id: 'CLM-COMP-017-01',
+        statement: 'In relational database terminology, Cardinality refers to the total number of rows (tuples) in a relation, whereas Degree refers to the total number of columns (attributes).',
+        claimType: 'TECHNICAL_DEFINITION',
+        epistemicLevel: 'CANONICAL_CONSENSUS',
+        confidence: 'CERTAIN',
+        locator: 'Unit 16: Database Management Systems (DBMS), Relational Architecture & SQL Taxonomy',
+        excerpt: 'Cardinality: The total number of tuples (rows) currently stored in a relation. Degree: The total number of attributes (columns) defining the relation schema.',
+      },
+    ],
+    examMappings: [
+      { examCode: 'ibps-rrb-scale-1', syllabusUnit: 'Computer Knowledge', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'Frequent questions on Cardinality vs Degree, Primary vs Foreign Keys, and TRUNCATE vs DELETE.' },
+      { examCode: 'ibps-po', syllabusUnit: 'Reasoning & Computer Aptitude', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'ACID properties and SQL command taxonomy.' },
+      { examCode: 'sbi-po', syllabusUnit: 'Reasoning & Computer Aptitude', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'Database integrity constraints and transaction processing.' },
+      { examCode: 'rbi-assistant', syllabusUnit: 'Computer Knowledge', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'DDL vs DML classification and Primary Key constraints.' },
+    ],
+    revisionUnits: [
+      { type: 'KEY_TAKEAWAY', content: 'Cardinality = Number of Rows (Tuples). Degree = Number of Columns (Attributes). Primary Key can never be NULL. Foreign Key enforces Referential Integrity.', priority: 'HIGH', order: 1 },
+      { type: 'PITFALL_WARNING', content: 'TRUNCATE is DDL (auto-committed, resets identity, cannot use WHERE). DELETE is DML (can rollback, retains identity, supports WHERE).', priority: 'HIGH', order: 2 },
+    ],
+    questions: [
+      {
+        type: 'MULTIPLE_CHOICE',
+        stem: 'Which of the following statements correctly differentiates the SQL commands TRUNCATE and DELETE in a relational database management system?',
+        options: [
+          'TRUNCATE is a DML command that can be rolled back, while DELETE is a DDL command that cannot be rolled back',
+          'TRUNCATE removes all rows, resets the table identity counter, and is a DDL command, whereas DELETE is a DML command that can remove specific rows using a WHERE clause',
+          'DELETE drops the entire table schema and structure from disk, while TRUNCATE preserves the table',
+          'TRUNCATE can be filtered with a WHERE condition, whereas DELETE executes indiscriminately',
+          'There is no operational difference; both are interchangeable synonyms in ANSI SQL',
+        ],
+        correctAnswer: 'TRUNCATE removes all rows, resets the table identity counter, and is a DDL command, whereas DELETE is a DML command that can remove specific rows using a WHERE clause',
+        explanation: 'TRUNCATE is a DDL command that deallocates data pages, resets the table identity counter, executes instantly without firing triggers, and does not accept a WHERE clause. DELETE is a DML command that logs row deletions, fires triggers, can be filtered with WHERE, and can be rolled back.',
+        trapExplanation: 'Option A reverses the categories; Option C describes DROP, not DELETE.',
+        difficulty: 'INTERMEDIATE',
+      },
+    ],
+  },
+  {
+    id: 'CON-COMP-018',
+    slug: 'web-architecture-http-status-codes-and-file-formats',
+    title: 'Web Architecture, HTTP Status Codes & Master File Formats Compendium',
+    shortDefinition: 'Web client-server architecture, DNS resolution pipeline, URL anatomy, HTTP vs HTTPS with TLS hybrid encryption, exhaustive HTTP status codes matrix (1xx through 5xx), cookies vs sessions, and comprehensive multimedia file formats (raster vs vector, audio codecs, video containers).',
+    difficulty: 'INTERMEDIATE',
+    order: 2,
+    topicSlug: 'database-systems-sql-and-web-technologies',
+    contentBlocks: [
+      {
+        type: 'CORE_IDEA',
+        title: 'The Stateless Web & The Client-Server Request Pipeline',
+        body: 'The World Wide Web operates upon the **Client-Server Architecture** communicating via the **Hypertext Transfer Protocol (HTTP)**. By design, HTTP is **stateless**: every incoming request is processed independently without persistent server memory. State is preserved using client-side **Cookies** (up to 4 KB text files) and server-side **Sessions** (where sensitive user state is held in server memory and linked via a session ID cookie). Secure communications utilize **HTTPS (Port 443)**, combining asymmetric encryption for initial TLS identity verification and key exchange with high-speed symmetric encryption (AES) for data transmission.',
+        order: 1,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'MECHANISM',
+        title: 'Master HTTP Status Codes Taxonomy',
+        body: `HTTP status codes are 3-digit numerical responses indicating request resolution:
+- **1xx (Informational):** \`100 Continue\` (proceed with body), \`101 Switching Protocols\`.
+- **2xx (Success):** \`200 OK\` (standard success), \`201 Created\` (resource created), \`204 No Content\`.
+- **3xx (Redirection):**
+  - **\`301 Moved Permanently\`:** Permanent URI redirect; browsers cache new address, SEO link juice transferred.
+  - **\`302 Found\`:** Temporary redirect; future requests still query original URI.
+  - **\`304 Not Modified\`:** Browser cache validated; server sends no payload.
+- **4xx (Client Error):**
+  - **\`400 Bad Request\`:** Malformed syntax or corrupted request.
+  - **\`401 Unauthorized\`:** **Authentication required or invalid credentials.**
+  - **\`403 Forbidden\`:** **Authenticated, but user lacks authorization/permission.**
+  - **\`404 Not Found\`:** Requested URI path does not exist on server.
+  - **\`429 Too Many Requests\`:** Rate limiting triggered.
+- **5xx (Server Error):**
+  - **\`500 Internal Server Error\`:** Unhandled server-side application exception.
+  - **\`502 Bad Gateway\`:** Reverse proxy received invalid response from upstream server.
+  - **\`503 Service Unavailable\`:** Server overloaded or undergoing maintenance.
+  - **\`504 Gateway Timeout\`:** Upstream server failed to respond within time threshold.`,
+        order: 2,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_ANGLE',
+        title: 'Master File Formats & Codecs Compendium',
+        body: `### Image Formats (Raster vs Vector):
+- **Raster (Pixel-based, pixelates when enlarged):**
+  - **JPEG/JPG:** Lossy compression, 24-bit color (16.7M colors). No transparency. Ideal for photographs.
+  - **PNG:** Lossless compression, 24-bit color + **8-bit Alpha Channel** for true transparency. Ideal for logos and screenshots.
+  - **GIF:** Lossless, restricted to **8-bit palette (256 colors max)**. Supports multi-frame animation.
+  - **BMP:** Uncompressed bitmap raster; huge file size.
+- **Vector (Math-based, scales infinitely without pixelation):**
+  - **SVG:** Scalable Vector Graphics, XML-based coordinate paths.
+
+### Audio & Video Standards:
+- **MP3:** Lossy audio using psychoacoustic frequency masking.
+- **WAV:** Uncompressed raw PCM audio; studio standard.
+- **FLAC:** Lossless compressed audio.
+- **MIDI:** **Stores no sound waves or vocals.** Encodes synthetic instrument control instructions (pitch, tempo, key).
+- **Video Containers vs Codecs:** Container (\`.mp4\`, \`.mkv\`, \`.avi\`) bundles video, audio, and subtitles. Codec (\`H.264\`, \`H.265/HEVC\`, \`AV1\`) executes actual video data compression.`,
+        order: 3,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'TECHNICAL_DEEP_DIVE',
+        title: 'URL Architecture & DNS Resolution Pipeline',
+        body: `A URL (\`https://netbanking.bank.co.in:443/portal/pay.php?acc=12#conf\`) decomposes into Scheme (\`https\`), Subdomain (\`netbanking\`), Domain (\`bank\`), TLD (\`.co.in\`), Port (\`443\`), Path (\`/portal/pay.php\`), Query Parameters (\`?acc=12\`), and Anchor Fragment (\`#conf\`). The DNS resolution pipeline queries Local Cache $\\to$ Recursive Resolver $\\to$ Root DNS Servers (13 logical clusters) $\\to$ TLD Servers $\\to$ Authoritative DNS Servers to convert human domains into routable IP addresses.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+    ],
+    claims: [
+      {
+        id: 'CLM-COMP-018-01',
+        statement: 'HTTP status code 401 signifies authentication failure (missing or invalid credentials), whereas 403 Forbidden indicates that the client is authenticated but lacks authorization permissions to access the requested resource.',
+        claimType: 'TECHNICAL_DEFINITION',
+        epistemicLevel: 'CANONICAL_CONSENSUS',
+        confidence: 'CERTAIN',
+        locator: 'Unit 17: Web Architecture, HTTP Status Codes & Master File Formats Compendium',
+        excerpt: '401 Unauthorized: Authentication required or failed. 403 Forbidden: Authenticated, but lacking authorization.',
+      },
+    ],
+    examMappings: [
+      { examCode: 'ibps-rrb-scale-1', syllabusUnit: 'Computer Knowledge', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'HTTP status codes (404, 403, 500, 503) and file formats (JPEG vs PNG, MIDI, MP3).' },
+      { examCode: 'ibps-po', syllabusUnit: 'Reasoning & Computer Aptitude', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'Port numbers (80, 443), HTTPS TLS handshake, and URL structure.' },
+      { examCode: 'rbi-assistant', syllabusUnit: 'Computer Knowledge', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'PROFICIENT', notes: 'Cookies vs Sessions, HTTP error codes, and raster vs vector images.' },
+    ],
+    revisionUnits: [
+      { type: 'KEY_TAKEAWAY', content: 'HTTP = Port 80; HTTPS = Port 443. 401 = Unauthenticated; 403 = Unauthorized/Forbidden. 301 = Permanent Redirect; 302 = Temporary Redirect.', priority: 'HIGH', order: 1 },
+      { type: 'PITFALL_WARNING', content: 'Vector graphics (SVG) scale infinitely without pixelation. MIDI files contain NO recorded sound waves, only synthesized instrument instructions.', priority: 'HIGH', order: 2 },
+    ],
+    questions: [
+      {
+        type: 'MULTIPLE_CHOICE',
+        stem: 'A banking customer logged into their corporate account attempts to access the core treasury disbursement console and receives an "HTTP 403" response. What is the precise technical meaning of this status code?',
+        options: [
+          'The customer entered an invalid password and their login session has expired',
+          'The treasury disbursement web page has been permanently relocated to another server URL',
+          'The web server recognizes the user authentication identity, but the user account lacks the requisite authorization permissions to view the requested resource',
+          'The upstream database server encountered an unexpected crash and failed to respond within the gateway timeout window',
+          'The customer web browser transmitted a corrupted HTTP header that the server cannot parse',
+        ],
+        correctAnswer: 'The web server recognizes the user authentication identity, but the user account lacks the requisite authorization permissions to view the requested resource',
+        explanation: 'HTTP 403 Forbidden indicates that the server understands the request and has authenticated the client, but refuses to authorize access because the client lacks necessary permissions. Invalid login credentials return 401 Unauthorized.',
+        trapExplanation: 'Option A corresponds to HTTP 401; Option B corresponds to HTTP 301; Option D corresponds to HTTP 504.',
+        difficulty: 'INTERMEDIATE',
+      },
+    ],
+  },
+  {
+    id: 'CON-COMP-019',
+    slug: 'po-mains-algorithmic-flowcharts-and-binary-logic-puzzles',
+    title: 'PO Mains Algorithmic Flowcharts, Variable Tracing & Binary Logic Puzzle Patterns',
+    shortDefinition: 'Advanced banking PO Mains computer aptitude puzzle methodologies: ISO flowchart symbol semantics, systematic trace table variable execution simulation, binary-encoded direction and distance logic ciphers, and operating system memory pagination (FIFO vs LRU page fault calculations).',
+    difficulty: 'ADVANCED',
+    order: 1,
+    topicSlug: 'po-mains-algorithmic-flowcharts-and-binary-logic',
+    contentBlocks: [
+      {
+        type: 'CORE_IDEA',
+        title: 'The PO Mains Computer Aptitude Paradigm: Machine Reasoning',
+        body: 'In SBI PO Mains and IBPS PO Mains, the section titled **Reasoning & Computer Aptitude** contains zero elementary factual questions. Instead, Computer Aptitude is tested through **machine execution simulation puzzles**: algorithmic flowcharts with multi-branch conditional loops, binary-coded symbol translation ciphers for spatial coordinates, and operating system memory paging algorithms. Candidates must act as an infallible central processing unit, tracing memory variable updates step-by-step through trace tables.',
+        order: 1,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'MECHANISM',
+        title: 'ISO Flowchart Symbols & Variable Trace Table Methodology',
+        body: `### ISO / ANSI Standard Flowchart Symbols:
+- **Oval / Capsule (Terminal):** Start, Stop, or Halt.
+- **Parallelogram (I/O):** Input (\`Read A, B\`) or Output (\`Display Sum\`).
+- **Rectangle (Process):** Variable computation, arithmetic, or assignment (\`X = X + 1\`).
+- **Diamond / Rhombus (Decision):** Conditional evaluation with **at least two exit paths** (True/False).
+- **Circle (Connector):** On-page link joining intersecting flowlines.
+
+### Systematic Trace Table Construction:
+Never calculate flowchart outputs mentally. Always construct a tabular **Trace Table** recording Step Number, Condition State, and individual variable columns ($A, B, C, \\text{Count}, \\text{Output}$). Update the table strictly row-by-row to completely eliminate off-by-one errors and loop iteration oversights.`,
+        order: 2,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'EXAM_ANGLE',
+        title: 'Binary-Coded Logic & Memory Page Fault Calculations',
+        body: `### Binary Coded Distance & Direction Models:
+Banking PO exams encrypt base-2 binary strings into symbol pairs (e.g., \`@ = 0\`, \`# = 1\`). To rapidly decode sequences:
+- Number \`###\` $= 111_2 = 4 + 2 + 1 = 7$.
+- Number \`#@#@\` $= 1010_2 = 8 + 0 + 2 + 0 = 10$.
+- Directional coordinate puzzles combine binary-decoded meters with Cartesian compass rules ($P \\& Q$ for North, $P \\% Q$ for South). Most Euclidean shortest-path questions resolve cleanly into Pythagorean triples: $(3,4,5), (6,8,10), (5,12,13), (8,15,17)$.
+
+### Operating System Memory Page Replacement (LRU vs FIFO):
+In Regulatory Body and Bank Specialist Officer exams, candidates calculate **Page Faults** across page frame capacities:
+- **FIFO (First-In, First-Out):** Replaces the page loaded earliest into memory.
+- **LRU (Least Recently Used):** Replaces the page in memory that has not been referenced for the longest duration of past time.`,
+        order: 3,
+        visibility: 'PUBLIC',
+      },
+      {
+        type: 'TECHNICAL_DEEP_DIVE',
+        title: 'Flowchart Loop Pitfalls: Variable Overwrite vs Accumulation',
+        body: `The most common trap set by IBPS/SBI examiners in PO Mains flowchart algorithms is confusing **Variable Reassignment** with **Variable Accumulation**:
+- **Reassignment (\`Total = X\`):** Discards the previous sum and stores only the current term.
+- **Accumulation (\`Total = Total + X\`):** Preserves the running total across successive loop iterations.
+Always check loop re-entry arrows to observe whether initialization blocks (\`Set Count = 0\`) are bypassed during iterative cycles or erroneously reset on loop re-entry.`,
+        order: 4,
+        visibility: 'PUBLIC',
+      },
+    ],
+    claims: [
+      {
+        id: 'CLM-COMP-019-01',
+        statement: 'In standard ISO flowchart conventions, an Oval represents terminal start/stop boundaries, a Parallelogram represents Input/Output operations, a Rectangle represents processing or arithmetic assignment, and a Diamond represents a conditional decision box with multiple exit branches.',
+        claimType: 'TECHNICAL_DEFINITION',
+        epistemicLevel: 'CANONICAL_CONSENSUS',
+        confidence: 'CERTAIN',
+        locator: 'Unit 18: PO Mains Algorithmic Flowcharts & Binary Logic Puzzle Patterns',
+        excerpt: 'Oval: Denotes Start/Stop boundary. Parallelogram: Represents raw data entering or output. Rectangle: Computation or variable assignment. Diamond: Decision Box with at least two exit paths.',
+      },
+    ],
+    examMappings: [
+      { examCode: 'sbi-po', syllabusUnit: 'Reasoning & Computer Aptitude', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'ADVANCED', notes: 'Core model for 4-5 mark puzzle clusters in SBI PO Mains.' },
+      { examCode: 'ibps-po', syllabusUnit: 'Reasoning & Computer Aptitude', relevance: 'CORE_SYLLABUS', priority: 'HIGH', requiredDepth: 'ADVANCED', notes: 'Standard flowchart variable tracing and binary coded direction puzzles.' },
+      { examCode: 'rbi-assistant', syllabusUnit: 'Computer Knowledge', relevance: 'CORE_SYLLABUS', priority: 'MEDIUM', requiredDepth: 'INTERMEDIATE', notes: 'Flowchart symbols and page replacement concepts.' },
+    ],
+    revisionUnits: [
+      { type: 'KEY_TAKEAWAY', content: 'Flowchart symbols: Capsule = Start/Stop; Parallelogram = I/O; Rectangle = Process; Diamond = Decision (2+ exit paths). Always build a Trace Table to solve PO Mains flowchart questions.', priority: 'HIGH', order: 1 },
+      { type: 'FORMULA_RULE', content: 'Binary decoding powers: 64, 32, 16, 8, 4, 2, 1. Pythagorean triples: (3,4,5), (6,8,10), (5,12,13), (8,15,17).', priority: 'HIGH', order: 2 },
+    ],
+    questions: [
+      {
+        type: 'MULTIPLE_CHOICE',
+        stem: 'In an ISO standard flowchart representation of an algorithm, which geometric symbol must be utilized to depict the condition: "Is Account Balance >= Minimum Daily Threshold"?',
+        options: [
+          'Rectangle',
+          'Parallelogram',
+          'Diamond (Rhombus)',
+          'Oval (Capsule)',
+          'Circle',
+        ],
+        correctAnswer: 'Diamond (Rhombus)',
+        explanation: 'A Diamond (Rhombus) is the standard decision box in ISO flowcharts, used to test Boolean conditional statements and route execution through two or more alternative exit paths (e.g., Yes/No).',
+        trapExplanation: 'A Rectangle represents arithmetic processing; a Parallelogram represents Input/Output; an Oval represents Start/Stop terminals.',
+        difficulty: 'EASY',
+      },
+    ],
+  },
 ];
 
 export async function seedBatchComputerAptitudeCanonicalKnowledge() {
-  console.log('Seeding Canonical Computer Aptitude & Digital Banking Systems Knowledge (16 Concepts across 7 Topics)...');
+  console.log('Seeding Canonical Computer Aptitude & Digital Banking Systems Knowledge (19 Concepts across 9 Topics)...');
 
   // 1. Ensure Domain exists: Quantitative Aptitude & Reasoning
   const domain = await db.domain.upsert({
@@ -1652,6 +1962,18 @@ export async function seedBatchComputerAptitudeCanonicalKnowledge() {
       title: 'Information Security, Malware & Banking Digital Infrastructure',
       order: 7,
       description: 'Malware taxonomy, social engineering attack vectors, symmetric vs asymmetric cryptography, IT Act 2000 provisions, Core Banking Solutions (CBS), NPCI payment rails, and RBI cyber frameworks.',
+    },
+    {
+      slug: 'database-systems-sql-and-web-technologies',
+      title: 'Database Management Systems, SQL & Web Technologies',
+      order: 8,
+      description: 'Relational data models, primary and foreign keys, ACID transactional properties, SQL syntax taxonomy (DDL, DML, DCL, TCL), HTTP/HTTPS architecture, status codes, and multimedia file formats.',
+    },
+    {
+      slug: 'po-mains-algorithmic-flowcharts-and-binary-logic',
+      title: 'PO Mains Algorithmic Flowcharts & Binary Logic Puzzles',
+      order: 9,
+      description: 'Advanced banking PO Mains computer aptitude puzzle patterns: conditional flowchart tracing, step-by-step loop state simulation, and binary-encoded direction/arithmetic logic models.',
     },
   ];
 
@@ -1817,5 +2139,5 @@ export async function seedBatchComputerAptitudeCanonicalKnowledge() {
 
   }
 
-  console.log('Successfully seeded 16 Canonical Computer Aptitude Concepts across 7 Topics into database.');
+  console.log('Successfully seeded 19 Canonical Computer Aptitude Concepts across 9 Topics into database.');
 }

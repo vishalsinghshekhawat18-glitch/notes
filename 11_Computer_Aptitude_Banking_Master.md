@@ -1,7 +1,7 @@
 # 💻 Computer Aptitude & Digital Banking Systems
 
 > **Subject ID:** `computer-aptitude`  
-> **Total Master Notes:** **15**  
+> **Total Master Notes:** **18**  
 > **Verified Source:** Banking Examination Command Center & Computer Systems Engineering Council  
 > **Target Examinations:** IBPS RRB Officer Scale-I & Office Assistant, IBPS PO/Clerk Mains, SBI PO Mains, RBI Assistant Mains, NABARD Grade A, UPSC APFC/EPFO, RPSC RAS  
 > **Last Updated:** 2026-09-24  
@@ -25,6 +25,9 @@
 13. [📌 Unit 13: Microsoft Office Master Suite (Word, Excel, PowerPoint & Access)](#note-13)
 14. [📌 Unit 14: Information Security, Malware Classification & Cyber Threats](#note-14)
 15. [📌 Unit 15: Banking Technology, Core Banking Solutions (CBS) & Statutory Cyber Frameworks](#note-15)
+16. [📌 Unit 16: Database Management Systems (DBMS), Relational Architecture & SQL Taxonomy](#note-16)
+17. [📌 Unit 17: Web Architecture, HTTP Status Codes & Master File Formats Compendium](#note-17)
+18. [📌 Unit 18: PO Mains Algorithmic Flowcharts & Binary Logic Puzzle Patterns](#note-18)
 
 ---
 
@@ -1440,3 +1443,636 @@ In response to surging digital fraud risks, the Reserve Bank of India issued its
 > 3. **SWIFT Does NOT Transfer Money:** SWIFT does not hold funds or settle cash; it is strictly a **secure financial messaging system**.
 > 4. **ATM Network Backbone:** The **National Financial Switch (NFS)**, developed by IDRBT and operated by **NPCI**, is the network interconnecting all bank ATMs in India.
 > 5. **Statutory Incident Reporting Window:** Regulated financial institutions must report cybersecurity incidents to **CERT-In within 6 HOURS of detection**.
+
+---
+
+<a id="note-16"></a>
+
+## 16. Unit 16: Database Management Systems (DBMS), Relational Architecture & SQL Taxonomy
+
+**Metadata:**
+- **Item ID:** `comp-unit-16-dbms-sql-relational-architecture`
+- **Category / Section:** Database Management Systems & Data Engineering
+- **Target Exams:** IBPS RRB (Scale-I/Clerk), IBPS PO/Clerk Mains, SBI PO Mains, RBI Assistant, NABARD Grade A, UPSC APFC, Bank IT Specialist Officers
+
+> **Executive Summary:** Exhaustive treatise on Database Management Systems (DBMS) and Relational Database Management Systems (RDBMS). Covers flat files vs databases, relational terminology (Tuples, Attributes, Cardinality, Degree), schema vs instance, candidate/primary/foreign keys and referential integrity constraints, functional dependencies, normalization levels (1NF, 2NF, 3NF, BCNF) and anomaly mitigation, complete SQL command taxonomy (DDL, DML, DQL, DCL, TCL), the critical `DROP` vs `TRUNCATE` vs `DELETE` comparison, transaction processing mechanics, and the four ACID properties (Atomicity, Consistency, Isolation, Durability).
+
+🪝 Context Hook — In manual and early flat-file computerized banking, customer ledger entries were stored in independent text files. If a customer changed their registered mobile number, an update in the savings account file left loan and fixed-deposit records unchanged, creating devastating data inconsistencies. Modern Core Banking Solutions (CBS) eliminate this by anchoring all operations in Relational Database Management Systems governed by strict mathematical normalization and ACID guarantees.
+
+> 🧠 **Key Concept — Relational Data Model vs Flat File Systems**  
+> Pioneered by **Dr. Edgar F. Codd (E.F. Codd)** at IBM in 1970, the **Relational Model** organizes data into two-dimensional tables termed **Relations**. Unlike flat file systems—which suffer from severe data redundancy, data inconsistency, lack of concurrency control, and tight hardware dependence—an RDBMS enforces logical and physical data independence, declarative querying via SQL, and strict mathematical constraints through relational keys.
+
+### 📊 Relational Database Terminology & Anatomy
+
+A relational database table is formally modeled as a mathematical relation. Banking examinations routinely test the precise technical terminology distinguishing table components:
+
+```
+Table: BANK_CUSTOMERS (Relation)
+┌──────────────┬──────────────────┬──────────────┬─────────────────┐
+│ Customer_ID  │  Customer_Name   │ Branch_Code  │ Account_Balance │  <-- Attributes (Columns / Fields)
+├──────────────┼──────────────────┼──────────────┼─────────────────┤     Degree = 4 (Total Columns)
+│ 1001         │ Rajesh Sharma    │ BR-DEL-01    │ 85400.00        │  <-- Tuple 1 (Row / Record)
+│ 1002         │ Ananya Iyer      │ BR-MUM-04    │ 124500.50       │  <-- Tuple 2 (Row / Record)
+│ 1003         │ Vikram Rathore   │ BR-JAI-02    │ 42000.00        │  <-- Tuple 3 (Row / Record)
+└──────────────┴──────────────────┴──────────────┴─────────────────┘
+                                                                       Cardinality = 3 (Total Rows)
+```
+
+| Relational Term | Common / Physical Term | Technical Definition & Invariant |
+| :--- | :--- | :--- |
+| **Relation** | **Table** | A two-dimensional grid of named columns and unstructured rows containing data elements of identical entity types. |
+| **Tuple** | **Row / Record** | A single horizontal entry representing a unique, complete instance of an entity (e.g., one single customer record). |
+| **Attribute** | **Column / Field** | A single vertical property or characteristic defining an entity (e.g., `Customer_Name`). |
+| **Domain** | **Data Type / Permitted Set** | The pool of atomic, valid values from which an attribute draws its values (e.g., `Age` domain is integers $18 \le x \le 120$). |
+| **Cardinality** | **Row Count** | The **total number of tuples (rows)** currently stored in a relation. Cardinality changes dynamically as records are inserted or deleted. |
+| **Degree** | **Column Count** | The **total number of attributes (columns)** defining the relation schema. Degree remains fixed unless an administrative schema alteration occurs. |
+| **Schema** | **Blueprint / Design** | The overall structural design and data type definitions of the database (rarely changes). |
+| **Instance** | **Database State / Snapshot** | The actual collection of data residing in the database at any specific given moment in time. |
+
+---
+
+### 🔑 Relational Database Keys Taxonomy
+
+Relational keys uniquely identify tuples within a table and establish referential relationships across multiple tables:
+
+1. **Super Key:**
+   - Any single attribute or set of attributes that can uniquely identify every tuple within a relation.
+   - A table can have many super keys. Example: `{Customer_ID}`, `{Customer_ID, Customer_Name}`, `{PAN_Number, Branch_Code}`.
+2. **Candidate Key:**
+   - A **minimal Super Key** containing no redundant attributes. If any attribute is removed from a candidate key, its uniqueness guarantee is broken.
+   - Example: If `{Customer_ID}` uniquely identifies a customer, then `{Customer_ID, Customer_Name}` is a super key, but **not** a candidate key because `Customer_Name` is redundant.
+3. **Primary Key (PK):**
+   - The specific candidate key chosen by the database designer to uniquely identify tuples in the table.
+   - **Absolute Constraints:**
+     - **Unique:** No two tuples can have the identical primary key value.
+     - **NOT NULL:** A primary key value can **never be NULL** (Entity Integrity Constraint).
+     - **Single Primary Key per Relation:** A relation can possess only one primary key (though it may be composed of multiple columns).
+4. **Alternate Key (Secondary Key):**
+   - All candidate keys that were **not** chosen as the Primary Key.
+   - Example: If a relation has candidate keys `{Account_Number}` and `{Aadhaar_Number}`, and `{Account_Number}` is designated as the Primary Key, then `{Aadhaar_Number}` functions as the Alternate Key.
+5. **Foreign Key (FK):**
+   - An attribute (or set of attributes) in one table whose values must match the **Primary Key** in another table (or the same table in self-referencing relationships).
+   - **Referential Integrity Constraint:** Ensures that a record in a child table cannot reference a non-existent record in the parent table.
+   - Unlike Primary Keys, a Foreign Key **can contain NULL values** (unless explicitly defined as NOT NULL) and **can contain duplicate values**.
+6. **Composite Key (Compound Key):**
+   - A primary or candidate key constructed from **two or more attributes combined together** when no single individual attribute can guarantee uniqueness.
+   - Example: In an interbank transaction log, `{Transaction_Date, Account_Number, Sequence_Number}` forms a composite key.
+7. **Surrogate Key:**
+   - An artificial, system-generated numerical identifier (e.g., auto-incrementing integer `ID: 1, 2, 3...`) introduced solely for database operations when real-world attributes (natural keys) are unwieldy or mutable.
+
+---
+
+### 🧬 Database Normalization & Anomaly Elimination
+
+**Normalization** is the systematic algorithmic process of decomposing complex, redundant tables into smaller, well-structured relations to eliminate data anomalies and ensure data integrity.
+
+#### The Three Destructive Data Anomalies:
+1. **Insertion Anomaly:** Inability to record certain facts without artificially inserting unrelated data (e.g., cannot record a new banking branch without first having an account holder enrolled at that branch).
+2. **Update / Modification Anomaly:** When identical data is replicated across multiple rows, modifying it in one row while missing another causes conflicting, corrupt records (e.g., updating a customer address in one branch ledger leaves another branch ledger displaying the old address).
+3. **Deletion Anomaly:** Deleting one fact inadvertently destroys completely unrelated, valuable information (e.g., deleting a customer's only account unintentionally deletes the branch's operational details from the database).
+
+#### Normal Forms Progression:
+
+```
+Unnormalized Table
+      ↓ (Eliminate multi-valued attributes & repeating groups)
+1st Normal Form (1NF)
+      ↓ (Eliminate Partial Dependencies on Composite Keys)
+2nd Normal Form (2NF)
+      ↓ (Eliminate Transitive Dependencies)
+3rd Normal Form (3NF)
+      ↓ (Every determinant must be a Super Key)
+Boyce-Codd Normal Form (BCNF / 3.5NF)
+```
+
+1. **First Normal Form (1NF):**
+   - **Requirement:** Every attribute value must be **atomic** (single, indivisible value).
+   - **Prohibitions:** No repeating groups, no arrays, no comma-separated values in a single cell (e.g., a customer phone number column cannot contain `"98111XXXXX, 98222XXXXX"`).
+2. **Second Normal Form (2NF):**
+   - **Requirement:** The table must be in **1NF**, AND **no non-prime attribute may be partially dependent on any candidate key**.
+   - **Full Functional Dependency:** Every non-prime attribute (column not part of any candidate key) must depend on the **entire composite key**, not merely a subset of it.
+   - *Note:* If a table's primary key consists of a single column (non-composite), and it is already in 1NF, it automatically satisfies 2NF.
+3. **Third Normal Form (3NF):**
+   - **Requirement:** The table must be in **2NF**, AND **no non-prime attribute may be transitively dependent on the primary key**.
+   - **Transitive Dependency:** If Attribute $A \to B$ (A determines B) and $B \to C$ (B determines C), then $A \to C$ is a transitive dependency. 3NF dictates that non-key columns cannot determine other non-key columns.
+   - **Formal Condition:** For every functional dependency $X \to Y$, either:
+     - $X$ is a **Super Key**, OR
+     - $Y$ is a **Prime Attribute** (member of a candidate key).
+4. **Boyce-Codd Normal Form (BCNF / 3.5NF):**
+   - A stricter, advanced variant of 3NF developed by Raymond F. Boyce and Edgar F. Codd.
+   - **Strict Requirement:** For every functional dependency $X \to Y$, **$X$ MUST be a Super Key** (eliminating even dependencies where $Y$ is a prime attribute).
+
+---
+
+### 💻 SQL (Structured Query Language) Command Taxonomy
+
+SQL is the universal declarative language used to manage relational databases. Banking exams classify SQL commands into five distinct functional categories:
+
+```
+                         ┌── DDL (Data Definition Language)
+                         ├── DML (Data Manipulation Language)
+          SQL Taxonomy ──┼── DQL (Data Query Language)
+                         ├── DCL (Data Control Language)
+                         └── TCL (Transaction Control Language)
+```
+
+| Category | Full Form | Purpose & Scope | Key Commands | Transactional Behavior |
+| :--- | :--- | :--- | :--- | :--- |
+| **DDL** | **Data Definition Language** | Defines, alters, or destroys physical database schema, tables, and indexes. | `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME` | **Auto-committed** immediately. Changes cannot be rolled back via standard undo commands. |
+| **DML** | **Data Manipulation Language** | Inserts, modifies, or removes records (rows) stored within existing tables. | `INSERT`, `UPDATE`, `DELETE`, `MERGE` | **Manual commit required.** Changes reside in transaction buffers and can be rolled back before committing. |
+| **DQL** | **Data Query Language** | Retrieves and filters data rows from one or more tables without altering stored data. | `SELECT` | Read-only operations. (Frequently grouped under DML in general syllabus overviews). |
+| **DCL** | **Data Control Language** | Manages security privileges, user roles, and access control rights on database objects. | `GRANT` (give privileges), `REVOKE` (take back privileges) | Administered by Database Administrators (DBA). |
+| **TCL** | **Transaction Control Language** | Manages the transactional integrity and permanence of DML executions. | `COMMIT` (save permanent), `ROLLBACK` (revert changes), `SAVEPOINT` (checkpoint) | Controls database consistency during multi-step financial transfers. |
+
+---
+
+### ⚔️ The Classic Exam Distinction: `DROP` vs `TRUNCATE` vs `DELETE`
+
+Examiners repeatedly target the structural, performance, and transactional differences between these three deletion commands:
+
+| Feature / Metric | `DROP` | `TRUNCATE` | `DELETE` |
+| :--- | :--- | :--- | :--- |
+| **SQL Category** | **DDL** (Data Definition Language) | **DDL** (Data Definition Language) | **DML** (Data Manipulation Language) |
+| **Operational Impact** | Destroys the **entire table structure**, all data rows, indexes, constraints, and privileges. | Deletes **all data rows** inside the table, but **preserves the table structure/schema**. | Deletes **specified rows** matching a `WHERE` condition (or all rows if `WHERE` omitted). |
+| **WHERE Clause Allowed?** | ❌ **No** | ❌ **No** (all rows purged indiscriminately) | ✅ **Yes** (supports conditional filtering: `WHERE ID = 5`) |
+| **Transaction Rollback?** | ❌ **No** (Auto-committed) | ❌ **No** (Auto-committed in standard SQL) | ✅ **Yes** (Can be reverted via `ROLLBACK`) |
+| **Execution Speed** | Fastest (drops object pointer) | Extremely fast (deallocates entire data storage pages; minimal logging) | Slower (deletes row-by-row, recording each deletion in transaction logs) |
+| **Identity / Auto-Increment** | Table no longer exists | **Resets identity counter** back to initial seed value (e.g., resets to 1) | **Retains identity counter** sequence (next insert continues from last index) |
+| **Database Triggers** | Does not fire DML triggers | Does **NOT** fire `ON DELETE` triggers | **Fires** `ON DELETE` triggers for each deleted tuple |
+
+---
+
+### 🛡️ Transaction Processing & The ACID Properties
+
+In a banking Core Banking Solution (CBS), a financial transaction represents an indivisible logical unit of work (e.g., transferring ₹10,000 from Customer A to Customer B). Every transaction must satisfy the four **ACID Properties** to prevent monetary corruption:
+
+$$\mathbf{A}\text{ (Atomicity)}\quad\longrightarrow\quad\mathbf{C}\text{ (Consistency)}\quad\longrightarrow\quad\mathbf{I}\text{ (Isolation)}\quad\longrightarrow\quad\mathbf{D}\text{ (Durability)}$$
+
+1. **Atomicity ("All-or-Nothing Principle"):**
+   - A transaction cannot be partially executed. Either **all** operations succeed and become permanent, or the transaction fails and the system **rolls back completely** to its original state.
+   - *Banking Example:* If ₹10,000 is debited from Account A, but a server crash occurs before crediting Account B, Atomicity mandates that the debit on Account A is immediately rolled back.
+2. **Consistency ("Preservation of Invariants"):**
+   - The database must transition from one valid legal state to another valid legal state, adhering to all integrity rules, primary/foreign key constraints, and business domain rules.
+   - *Banking Example:* The total sum of money across Account A and Account B before the transfer must equal the total sum after the transfer. An account balance cannot violate a `CHECK (Balance >= 0)` constraint.
+3. **Isolation ("Concurrency Independence"):**
+   - Multiple transactions executing simultaneously must execute without interfering with one another. The intermediate state of a transaction remains invisible to all other concurrent transactions until committed.
+   - *Mechanism:* Managed through **Concurrency Control Protocols** (e.g., Two-Phase Locking - 2PL, Timestamp Ordering).
+   - *Anomalies Prevented:* Dirty Reads (reading uncommitted data), Non-repeatable Reads, and Phantom Reads.
+4. **Durability ("Permanence After Commit"):**
+   - Once a transaction has been successfully committed, its changes survive permanently in the database, even in the event of an catastrophic system power failure or operating system crash.
+   - *Mechanism:* Implemented via **Write-Ahead Logging (WAL)** and non-volatile storage flushing (RAID arrays and battery-backed write caches).
+
+---
+
+### 🌐 Relational Databases (RDBMS) vs NoSQL Databases
+
+| Metric / Dimension | Relational DBMS (RDBMS) | NoSQL Databases |
+| :--- | :--- | :--- |
+| **Pioneering Model** | Relational Model (E.F. Codd, 1970) | Distributed Non-Relational Model (Web 2.0 / Big Data era) |
+| **Data Schema** | Rigid, predefined structured schema (tables, columns, types) | Dynamic, schema-less (Document, Key-Value, Column-family, Graph) |
+| **Scaling Mechanism** | **Vertical Scaling** (Scale-Up: adding faster CPU, more RAM to one server) | **Horizontal Scaling** (Scale-Out: partitioning across clusters of cheap nodes) |
+| **Query Standard** | Standardized SQL (Structured Query Language) | Unstandardized APIs, JSON queries, GraphQL |
+| **Guarantees** | Strict **ACID** (Atomicity, Consistency, Isolation, Durability) | **BASE** (Basically Available, Soft-state, Eventual consistency) |
+| **Primary Use Cases** | Core Banking Solutions (CBS), financial ledgers, ERP, airline ticketing | Social media feeds, IoT telemetry, real-time analytics, caching (Redis) |
+| **Leading Software** | Oracle Database, MySQL, PostgreSQL, Microsoft SQL Server, SQLite | MongoDB, Apache Cassandra, Redis, Couchbase, Neo4j |
+
+> 🎯 **Exam Anchor & High-Yield Traps:**
+> 1. **Cardinality vs Degree:** **Cardinality = Number of Rows (Tuples)**. **Degree = Number of Columns (Attributes)**. (Mnemonic: *Degree* has columns of education; *Cardinality* counts the card entries/rows).
+> 2. **Candidate Key Minimality:** Every candidate key is a super key, but **not every super key is a candidate key**. A candidate key is strictly a *minimal* super key.
+> 3. **Primary Key Nullability:** A primary key can **NEVER be NULL** (Entity Integrity). A foreign key **CAN be NULL** unless an explicit NOT NULL constraint is attached.
+> 4. **TRUNCATE vs DELETE Category:** `DELETE` is **DML** (can be rolled back, accepts WHERE). `TRUNCATE` is **DDL** (auto-committed, no WHERE, resets identity seed, executes instantly).
+> 5. **ACID "All or Nothing":** Atomicity is the specific ACID property defining the **"All or Nothing"** execution guarantee. Durability ensures persistence post-crash.
+
+---
+
+<a id="note-17"></a>
+
+## 17. Unit 17: Web Architecture, HTTP Status Codes & Master File Formats Compendium
+
+**Metadata:**
+- **Item ID:** `comp-unit-17-web-architecture-http-codes-file-formats`
+- **Category / Section:** Internet Systems, Web Protocols & Digital Media
+- **Target Exams:** IBPS RRB Scale-I & Clerk, IBPS PO Mains, SBI PO Mains, RBI Assistant, NABARD Grade A, UPSC APFC
+
+> **Executive Summary:** Comprehensive master blueprint of Web Architecture, client-server communications, URL anatomy, DNS resolution hierarchy, secure transmission mechanics (HTTP vs HTTPS and SSL/TLS handshakes), the exhaustive HTTP status codes matrix (`1xx` through `5xx`), web persistence mechanisms (Cookies vs Sessions), search engine bots (`robots.txt`), and the definitive Master File Formats & Codecs Compendium (Raster vs Vector graphics, Lossy vs Lossless audio, Video containers vs codecs, and document archival standards).
+
+🪝 Context Hook — When a banking customer attempts to access their net banking portal and encounters a `403 Forbidden` error, the issue is fundamentally different from a `404 Not Found` or a `502 Bad Gateway`. Understanding the client-server handshake, status codes, and media formats is critical not only for technical troubleshooting in digital banking operations but forms one of the highest-density scoring segments in modern banking computer examinations.
+
+> 🧠 **Key Concept — Stateless Request-Response Model of the Web**  
+> The World Wide Web operates primarily on the **Client-Server Architecture** utilizing **HTTP (Hypertext Transfer Protocol)**. By design, HTTP is **Stateless**: the web server treats every incoming HTTP request as completely independent, retaining no built-in memory of prior requests from the same user. To maintain stateful interactions—such as keeping a banking customer logged in across multiple account balance pages—web systems utilize **Cookies** and **Server-Side Sessions**.
+
+### 🌐 The Anatomy of a Uniform Resource Locator (URL)
+
+Every resource on the web is located via a standardized address known as a **URL (Uniform Resource Locator)**, which is a specific form of **URI (Uniform Resource Identifier)**:
+
+```
+  https://  netbanking.  bankofindia.co.in  :443  /portal/transfer.php  ?acc=98721&mode=neft  #confirmation
+  └─┬──┘    └───┬────┘   └───────┬───────┘  └─┬─┘ └────────┬─────────┘  └─────────┬─────────┘  └──────┬─────┘
+  Scheme     Subdomain    Domain Name       Port       Path              Query String           Fragment
+```
+
+1. **Scheme / Protocol (`https://`):** Specifies the communication protocol used to retrieve the resource (e.g., `http`, `https`, `ftp`, `sftp`).
+2. **Subdomain (`netbanking.`):** A child domain segregating specific organizational services from the apex domain.
+3. **Second-Level Domain (`bankofindia`):** The registered proprietary organization name.
+4. **Top-Level Domain - TLD (`.co.in` or `.com`, `.org`, `.edu`, `.gov`):** The final segment indicating geographical jurisdiction or institutional classification.
+5. **Port Number (`:443`):** The network socket channel on the host server. (Default port for HTTP is **80**; default port for HTTPS is **443**). Omitted in standard user URLs.
+6. **Path (`/portal/transfer.php`):** The exact hierarchical file or resource route on the host web server.
+7. **Query String (`?acc=98721&mode=neft`):** Key-value parameter pairs preceded by `?` and separated by `&`, used to transmit form inputs or filters to dynamic server scripts.
+8. **Fragment / Anchor (`#confirmation`):** Preceded by `#`, references a specific internal bookmark or element ID within the retrieved HTML document (processed client-side, never transmitted to server).
+
+---
+
+### 🗺️ The Hierarchical DNS Resolution Pipeline
+
+When a user types a human-readable domain name (e.g., `rbi.org.in`) into a web browser, the **Domain Name System (DNS)** resolves it into a machine-routable numerical IP address through a 4-tier query hierarchy:
+
+```
+User Web Browser
+     │ (Checks Local Browser Cache & OS Hosts File)
+     ▼
+Recursive DNS Resolver (ISP / 8.8.8.8)
+     │
+     ├── 1. Queries Root DNS Servers (13 logical root clusters: a.root-servers.net to m.root-servers.net)
+     │      └── Returns IP for TLD Servers (.in)
+     │
+     ├── 2. Queries TLD DNS Servers (Manages all .in domains)
+     │      └── Returns IP for Authoritative DNS Server of rbi.org.in
+     │
+     ├── 3. Queries Authoritative DNS Server (Houses authoritative DNS Zone File)
+     │      └── Returns definitive IP address: 52.140.115.14
+     │
+     ▼
+Browser connects directly to Web Server IP via TCP Handshake (SYN -> SYN-ACK -> ACK)
+```
+
+---
+
+### 🔒 HTTP vs HTTPS & The SSL/TLS Handshake
+
+| Dimension | HTTP (Hypertext Transfer Protocol) | HTTPS (HTTP Secure) |
+| :--- | :--- | :--- |
+| **Default Port** | **Port 80** | **Port 443** |
+| **Security Layer** | Plaintext transmission; zero encryption | Encrypted via **TLS (Transport Layer Security)** / SSL |
+| **Vulnerability** | Vulnerable to Packet Sniffing & Man-In-The-Middle (MITM) attacks | Authenticated host; eavesdropping prevented via cryptography |
+| **Handshake Mechanics** | Simple 3-Way TCP Handshake | 3-Way TCP Handshake **+** Multi-step TLS Cryptographic Handshake |
+| **Digital Certificate** | Not required | Requires digital **SSL/TLS Certificate** issued by trusted **Certificate Authority (CA)** |
+
+#### The TLS Hybrid Cryptographic Handshake:
+To balance speed and military-grade security, HTTPS uses **Hybrid Encryption**:
+1. **Asymmetric Key Exchange (Slow, Highly Secure):** The client (browser) and server use asymmetric public-key cryptography (RSA or Diffie-Hellman) along with the server's Digital Certificate to authenticate the server's identity and negotiate a temporary, shared secret **Symmetric Session Key**.
+2. **Symmetric Bulk Stream Encryption (Fast, Lightweight):** Once the session key is established, all ongoing web traffic (banking data, passwords, page content) is encrypted using high-speed symmetric algorithms (e.g., AES-256).
+
+---
+
+### 🚦 The Master HTTP Status Codes Matrix
+
+HTTP status codes are 3-digit numerical responses returned by a web server indicating the exact result of the client's request. Banking examinations test the major categories and specific status codes:
+
+```
+  1xx ── Informational (Request received, continuing process)
+  2xx ── Success (Action successfully received, understood, and accepted)
+  3xx ── Redirection (Further action required to complete request)
+  4xx ── Client Error (Request contains bad syntax or cannot be fulfilled)
+  5xx ── Server Error (Server failed to fulfill an apparently valid request)
+```
+
+| Status Code | Status Name | Technical Meaning & Banking Context |
+| :--- | :--- | :--- |
+| **`100`** | **Continue** | Server has received request headers and client should proceed to send the request body. |
+| **`101`** | **Switching Protocols** | Client requested protocol switch (e.g., upgrading from HTTP to WebSocket). |
+| **`200`** | **OK** | **Standard successful request.** Web page, account ledger, or media payload delivered successfully. |
+| **`201`** | **Created** | Request succeeded and resulted in the creation of a new resource (e.g., new bank account record registered via API). |
+| **`202`** | **Accepted** | Request accepted for processing, but processing has not yet completed (batch financial transaction queued). |
+| **`204`** | **No Content** | Server successfully processed request, but returns no body content (e.g., save preferences action). |
+| **`301`** | **Moved Permanently** | Target resource assigned a permanent new URI. Web browsers and search engines update bookmarks and transfer SEO equity. |
+| **`302`** | **Found (Temporary Redirect)** | Target resource temporarily resides under a different URI; clients should continue using original URI for future calls. |
+| **`304`** | **Not Modified** | Client-side cache validation. Server informs browser that cached copy is still fresh and does not re-transmit data (saves bandwidth). |
+| **`400`** | **Bad Request** | Malformed request syntax, invalid query parameter, or deceptive request routing. Server refuses to process. |
+| **`401`** | **Unauthorized** | **Authentication required or failed.** User has not supplied valid login credentials (e.g., invalid NetBanking password). |
+| **`403`** | **Forbidden** | **Authenticated, but lacking authorization.** Server recognizes identity, but user permissions prohibit accessing resource (e.g., a cashier trying to access the Branch Manager approval module). |
+| **`404`** | **Not Found** | Server cannot find the requested URL path. Most common client-facing error on the web. |
+| **`405`** | **Method Not Allowed** | Request HTTP method (e.g., `POST`) is not supported for the requested resource (which may only accept `GET`). |
+| **`408`** | **Request Timeout** | Server waited for client request transmission, but client connection timed out. |
+| **`429`** | **Too Many Requests** | Client exceeded rate-limiting thresholds (anti-scraping and brute-force password mitigation). |
+| **`500`** | **Internal Server Error** | Generic catch-all error: server encountered an unexpected exception preventing it from fulfilling request. |
+| **`502`** | **Bad Gateway** | Edge proxy or reverse proxy server (e.g., Cloudflare, Nginx) received an invalid response from upstream backend server. |
+| **`503`** | **Service Unavailable** | **Server temporarily offline or overloaded.** Often observed during month-end banking batch runs or server maintenance. |
+| **`504`** | **Gateway Timeout** | Reverse proxy or gateway server did not receive a timely response from upstream database or application server. |
+
+---
+
+### 🍪 State Persistence: Cookies vs Sessions
+
+Because HTTP is a stateless protocol, state persistence is maintained using two distinct mechanisms:
+
+| Feature / Metric | HTTP Cookies | Web Sessions |
+| :--- | :--- | :--- |
+| **Physical Storage Location** | Stored on the **Client Device** (inside browser profile on user hard drive/RAM). | Stored securely on the **Web Server** (in server RAM, database, or Redis cache). |
+| **Data Capacity** | Maximum **4 KB** (4096 bytes) per cookie. | Virtually unlimited (constrained only by server hardware resources). |
+| **Security Risk** | Vulnerable to client-side inspection, Cross-Site Scripting (XSS), and tampering. | High security; sensitive data remains on server. Client holds only an encrypted **Session ID**. |
+| **Classification** | - **Session Cookie:** Temporary; deleted immediately when browser closes.<br>- **Persistent Cookie:** Retained until an explicit expiration date.<br>- **Third-Party Cookie:** Placed by external ad networks for cross-site tracking. | Active until session timeout (e.g., banking portals terminate session after 5 minutes of user inactivity). |
+
+> **Web Crawlers (Spiders) & `robots.txt`:** Automated scripts operated by search engines (e.g., Googlebot) that traverse hyperlinks across the web to build search indexes. Webmasters place a standardized plaintext file named **`robots.txt`** in the root directory (e.g., `bank.com/robots.txt`) specifying the **Robots Exclusion Standard** to disallow crawlers from indexing private portals or admin directories.
+
+---
+
+### 📁 Master File Formats, Encodings & Codecs Compendium
+
+Banking and regulatory exams frequently test the classification, compression mechanisms, and technical extensions of digital files:
+
+#### 1. Image Formats: Raster (Pixel-Based) vs Vector (Math-Based)
+
+```
+                     ┌── Raster Graphics (Bitmaps: Pixel grids, loss of quality on zoom)
+Digital Images ──────┤
+                     └── Vector Graphics (Mathematical vectors: Infinite scaling without loss)
+```
+
+| Format | Full Name | Compression Type | Color Depth / Features | Typical Real-World Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **JPEG / JPG** | Joint Photographic Experts Group | **Lossy** | 24-bit True Color (16.7M colors). Discards psycho-visually imperceptible data. | Digital camera photographs; web banner imagery. Does **not** support transparency. |
+| **PNG** | Portable Network Graphics | **Lossless** | 24-bit True Color + **8-bit Alpha Channel** for true variable transparency. | Logos, web interface icons, infographics, text screenshots. Replaced GIF. |
+| **GIF** | Graphics Interchange Format | **Lossless** | Limited to **8-bit color palette (maximum 256 colors)**. Supports frame-based animation. | Short animated clips, simple reaction memes, legacy web graphics. |
+| **BMP** | Bitmap Image File | **Uncompressed** | Raw, uncompressed pixel map. Generates enormous file sizes. | Native Microsoft Windows internal graphics; device-level raw image processing. |
+| **TIFF / TIF** | Tagged Image File Format | **Lossless / Uncompressed** | Ultra-high bit depth, supports CMYK print color spaces. | Commercial offset printing, medical scanning (X-rays, MRI), archiving. |
+| **SVG** | Scalable Vector Graphics | **Vector (XML-based)** | Mathematically described paths, polygons, curves. **Scales infinitely with zero pixelation.** | Responsive website logos, UI icons, interactive dynamic charts. |
+| **WebP** | Web Picture Format (Google) | **Lossy & Lossless** | Advanced modern compression; 30% smaller than JPEG/PNG while supporting transparency and animation. | High-performance modern web publishing. |
+
+#### 2. Audio Formats: Lossy vs Lossless vs Synthesized
+
+| Format | Full Name | Type | Technical Mechanics & Operational Features |
+| :--- | :--- | :--- | :--- |
+| **MP3** | MPEG-1 Audio Layer III | **Lossy** | Utilizes **psychoacoustic modeling** to permanently strip out sound frequencies beyond human hearing range ($>20\text{ kHz}$) or masked by louder tones. Default bitrate: 128–320 kbps. |
+| **WAV** | Waveform Audio File Format | **Uncompressed Lossless** | Developed by Microsoft & IBM. Stores raw **Pulse Code Modulation (PCM)** audio wave samples. Pristine studio recording quality; massive file sizes (~10 MB per minute). |
+| **AAC** | Advanced Audio Coding | **Lossy** | Designed as the architectural successor to MP3. Achieves superior audio fidelity at lower bitrates. Default standard for YouTube, Apple Music, and Bluetooth streaming. |
+| **FLAC** | Free Lossless Audio Codec | **Compressed Lossless** | Compresses audio files by 50–60% without discarding a single acoustic bit. Open-source audiophile archival standard. |
+| **MIDI** | Musical Instrument Digital Interface | **Synthesized Control Commands** | **Does NOT record actual sound waves or human vocals.** Encodes performance instructions: note pitch, timing, duration, instrument channel, and key velocity. Tiny file sizes (kilobytes). |
+
+#### 3. Video Containers vs Compression Codecs
+
+Examiners heavily test the distinction between a **Container** (the file format housing video, audio, and subtitles) and a **Codec** (the compression algorithm encoding raw video data):
+
+- **Video Containers (File Extensions):**
+  - **MP4 (`.mp4`):** MPEG-4 Part 14. Universal web and mobile playback container.
+  - **MKV (`.mkv`):** Matroska Multimedia Container. Open-standard container capable of holding unlimited video, audio, and subtitle streams in a single file.
+  - **AVI (`.avi`):** Audio Video Interleave (Microsoft). Legacy container with minimal compression.
+  - **MOV (`.mov`):** Apple QuickTime format. Standard capture format for iOS and macOS video.
+- **Video Codecs (Compression Algorithms):**
+  - **H.264 / AVC:** Most widely deployed video compression standard on earth.
+  - **H.265 / HEVC:** High Efficiency Video Coding. Delivers 50% better data compression than H.264 at identical visual quality; standard for 4K/8K broadcasting.
+  - **AV1:** Open-source, royalty-free next-generation video codec developed by the Alliance for Open Media (Google, Netflix, Amazon, Apple).
+
+#### 4. Document & Archival Standards
+
+- **PDF (Portable Document Format - ISO 32000):** Developed by Adobe (John Warnock). Preserves exact document typography, vectors, raster images, and page geometry across all operating systems and hardware architectures independently of native fonts or software.
+- **RTF (Rich Text Format):** Developed by Microsoft for cross-platform formatted text exchange between word processors.
+- **CSV (Comma-Separated Values):** Plaintext tabular format where each line represents a data record and fields are delimited by commas. Universal format for bulk banking database exports.
+- **Compression Archives:**
+  - **ZIP / RAR / 7z:** Lossless data compression archive formats bundling multiple files into a single condensed file using algorithms like DEFLATE or LZMA.
+  - **TAR (`.tar`):** Tape Archive (Unix). Packages multiple files into a single archive without compression (frequently paired with Gzip to create `.tar.gz`).
+
+> 🎯 **Exam Anchor & High-Yield Traps:**
+> 1. **Default Network Ports:** HTTP is **Port 80**; HTTPS is **Port 443**. DNS is **Port 53**.
+> 2. **Authentication vs Authorization Status Codes:** **`401 Unauthorized` = Authentication failure** (identity unknown). **`403 Forbidden` = Authorization failure** (identity known, but access denied).
+> 3. **`301` vs `302` Redirects:** `301` is **Permanent** (browser caches new URL, search engine passes SEO rank); `302` is **Temporary** (future requests must still query original URI).
+> 4. **Raster vs Vector Scaling:** **Raster images (JPEG, PNG, GIF) pixelate when enlarged.** **Vector images (SVG) can be scaled infinitely** to any dimension without loss of clarity because they are rendered from mathematical formulas.
+> 5. **MIDI Does Not Store Sound:** A `.mid` (MIDI) file contains **no audio samples or recorded voices**; it stores only synthetic instrument control instructions (note, duration, tempo).
+
+---
+
+<a id="note-18"></a>
+
+## 18. Unit 18: PO Mains Algorithmic Flowcharts & Binary Logic Puzzle Patterns
+
+**Metadata:**
+- **Item ID:** `comp-unit-18-po-mains-flowchart-binary-puzzles`
+- **Category / Section:** Advanced Banking PO Mains Aptitude & Machine Logic
+- **Target Exams:** SBI PO Mains, IBPS PO Mains, RRB Scale-I Mains, RBI Grade B / Assistant Mains, Regulatory Body Examinations
+
+> **Executive Summary:** Advanced pedagogical master unit deciphering the specialized "Computer Aptitude" paradigm utilized in SBI PO Mains and IBPS PO Mains. Decodes the transition from factual recall to high-weightage machine reasoning puzzles: ISO flowchart symbol semantics, systematic trace table variable execution methodology, multi-loop conditional flowchart tracing walkthroughs, binary-coded symbol cipher logic (base-2 directional and mathematical operator substitutions), and operating system memory pagination (FIFO vs LRU page fault calculations).
+
+🪝 Context Hook — Candidates who prepare for SBI PO Mains or IBPS PO Mains by memorizing definitions of RAM, ROM, and printer types are invariably shocked on exam day: the section titled *"Reasoning & Computer Aptitude"* contains zero factual questions. Instead, it features complex, 5-mark algorithmic flowcharts and binary-encrypted directional puzzles. Computer Aptitude at the PO Mains level tests algorithmic thinking, condition evaluation, and machine execution simulation.
+
+> 🧠 **Key Concept — Algorithmic Machine Simulation**  
+> In banking PO Mains, the computer aptitude component tests your ability to function as an infallible **human central processing unit (CPU)**. You are presented with an abstract flowchart, machine algorithm, or binary cipher and required to trace the exact state changes of memory variables $(A, B, C, N, \text{Sum})$ through sequential decisions and iterative loops without making single-step off-by-one errors.
+
+### 📐 Standard ISO / ANSI Flowchart Symbols
+
+Flowcharts represent sequential logical algorithms visually. The International Organization for Standardization (ISO 5807) and ANSI standardize their structural symbols:
+
+```
+        Terminal (Start / Stop)               Input / Output (Data)
+             ╭──────────╮                         ╔══════════╗
+            │   Start    │                       ╱   Read N   ╱
+             ╰──────────╯                       ╚══════════╝
+                  │                                  │
+                  ▼                                  ▼
+           Process Box                        Decision Diamond
+        ┌──────────────────┐                       /\
+        │  Sum = Sum + A   │                      /  \
+        └──────────────────┘                     / A>B\  ── No ──>
+                  │                              \    /
+                  ▼                               \  /
+          On-Page Connector                        \/
+                 ○ A                               │ Yes
+                                                   ▼
+```
+
+| Flowchart Geometric Shape | Standard Symbol Name | Computational Function & Semantic Meaning |
+| :--- | :--- | :--- |
+| **Oval / Rounded Rectangle (Capsule)** | **Terminal** | Denotes the absolute **Start**, **Stop**, **Halt**, or **Exit** boundary of an algorithm. |
+| **Parallelogram** | **Input / Output (I/O)** | Represents raw data entering the system (`Input A, B`, `Read File`) or processed output emitted (`Print Total`, `Display Error`). |
+| **Rectangle** | **Process** | Represents an internal arithmetic computation, data manipulation, or variable assignment (`Set Counter = 1`, `Tax = Gross * 0.10`). |
+| **Diamond (Rhombus)** | **Decision Box** | Evaluates a conditional Boolean expression (`Is X > Y?`, `Balance >= Minimum?`). Has **one entry path and at least two exit paths** (True/False or Yes/No). |
+| **Circle (Small)** | **On-Page Connector** | Connects disjointed flow lines on the same page, identified by an alphanumeric label (e.g., `A`, `1`), preventing tangled crossover lines. |
+| **Pentagon (Home Plate)** | **Off-Page Connector** | Links a flowchart extending across multiple physical pages or screens. |
+| **Arrow Line** | **Flowline** | Indicates the absolute directional sequence of instruction execution. |
+
+---
+
+### 🧩 Pattern 1: Multi-Step Algorithmic Flowchart Variable Tracing
+
+In PO Mains, candidates are given a complex flowchart with conditional loops and required to answer 3 to 5 multi-step questions based on varying inputs.
+
+#### Fully Worked SBI PO Mains Benchmark Problem:
+
+**Algorithm Specification:** A banking payroll server calculates an employee's Annual Bonus and Tax Liability according to the following flowchart logic:
+
+```
+                      [ START ]
+                          │
+                          ▼
+            / INPUT: Salary (S), Rating (R), Years (Y) /
+                          │
+                          ▼
+                  [ Set Bonus = 0 ]
+                          │
+                          ▼
+                 /  Is Rating >= 4 ?  \
+                /                      \
+             Yes                        No
+             │                            │
+             ▼                            ▼
+     [ Bonus = S * 0.20 ]         [ Bonus = S * 0.10 ]
+             │                            │
+             └────────────┬───────────────┘
+                          │
+                          ▼
+                   /  Is Years > 5 ?  \
+                  /                    \
+               Yes                      No
+               │                          │
+               ▼                          │
+       [ Bonus = Bonus + 15000 ]          │
+               │                          │
+               └──────────┬───────────────┘
+                          │
+                          ▼
+            [ Set Net = S + Bonus ]
+                          │
+                          ▼
+                  /  Is Net > 80000 ?  \
+                 /                      \
+              Yes                        No
+              │                            │
+              ▼                            ▼
+      [ Tax = (Net - 80000) * 0.10 ]   [ Tax = 0 ]
+              │                            │
+              └───────────┬────────────────┘
+                          │
+                          ▼
+            [ Set FinalPay = Net - Tax ]
+                          │
+                          ▼
+             / OUTPUT: Bonus, FinalPay /
+                          │
+                          ▼
+                       [ STOP ]
+```
+
+#### Systematic Trace Table Execution:
+
+To solve questions with 100% accuracy without mental fatigue, construct a **Trace Table**:
+
+* **Question 1:** If Employee 1 has $\text{Salary } (S) = ₹60,000$, $\text{Rating } (R) = 5$, and $\text{Years } (Y) = 8$, what is their `FinalPay`?
+
+| Step Execution Sequence | Variable $S$ | Variable $R$ | Variable $Y$ | Variable `Bonus` | Variable `Net` | Variable `Tax` | Output `FinalPay` |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Input** | 60,000 | 5 | 8 | 0 | - | - | - |
+| **2. Condition: $R \ge 4$?** | - | - | - | **Yes** $\to$ $60000 \times 0.20 = 12000$ | - | - | - |
+| **3. Condition: $Y > 5$?** | - | - | - | **Yes** $\to 12000 + 15000 = 27000$ | - | - | - |
+| **4. Process: `Net`** | - | - | - | 27,000 | $60000 + 27000 = 87000$ | - | - |
+| **5. Condition: `Net` $> 80000$?**| - | - | - | - | 87,000 | **Yes** $\to (87000 - 80000) \times 0.10 = 700$ | - |
+| **6. Final Process & Output** | - | - | - | **27,000** | - | 700 | **87,000 - 700 = ₹86,300** |
+
+* **Question 2:** If Employee 2 has $\text{Salary } (S) = ₹50,000$, $\text{Rating } (R) = 3$, and $\text{Years } (Y) = 4$, what is their `FinalPay`?
+  - Step 1: $R \ge 4$ is **False** $\to \text{Bonus} = 50000 \times 0.10 = ₹5,000$.
+  - Step 2: $Y > 5$ is **False** $\to \text{Bonus}$ remains ₹5,000.
+  - Step 3: $\text{Net} = 50000 + 5000 = ₹55,000$.
+  - Step 4: $\text{Net} > 80000$ is **False** $\to \text{Tax} = 0$.
+  - Step 5: $\text{FinalPay} = 55000 - 0 = \mathbf{₹55,000}$.
+
+---
+
+### 🔣 Pattern 2: Binary-Coded Logic & Machine Translation Tables
+
+In IBPS/SBI PO Mains, examiners frequently encrypt numerical distances, directions, or arithmetic operators into **binary code representations** using special typographical symbols.
+
+#### The PO Mains Symbol Decoding Model:
+Suppose the exam defines:
+- Symbol `@` represents binary digit **`0`**.
+- Symbol `#` represents binary digit **`1`**.
+- Any number is written as a sequence of these two symbols starting with `#` from the left.
+
+#### Rapid Binary Conversion Key:
+To instantly decode symbol sequences, assign weights of ascending powers of 2 from right to left:
+
+| Binary Weight | $2^6 = 64$ | $2^5 = 32$ | $2^4 = 16$ | $2^3 = 8$ | $2^2 = 4$ | $2^1 = 2$ | $2^0 = 1$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Code: `###`** | - | - | - | - | $1 \times 4$ | $1 \times 2$ | $1 \times 1$ | $\mathbf{= 7}$ |
+| **Code: `#@#@`** | - | - | - | $1 \times 8$ | $0 \times 4$ | $1 \times 2$ | $0 \times 1$ | $\mathbf{= 10}$ |
+| **Code: `##@@#`** | - | - | $1 \times 16$ | $1 \times 8$ | $0 \times 4$ | $0 \times 2$ | $1 \times 1$ | $\mathbf{= 25}$ |
+
+#### Fully Worked PO Mains Direction & Binary Distance Puzzle:
+
+**Given Directional Code Rules:**
+- $P \ \& \ Q\ (X)$ means: $P$ is to the **North** of $Q$ at a distance of $X$ meters.
+- $P \ \%\ Q\ (X)$ means: $P$ is to the **South** of $Q$ at a distance of $X$ meters.
+- $P \ \$\ Q\ (X)$ means: $P$ is to the **East** of $Q$ at a distance of $X$ meters.
+- $P \ *\ Q\ (X)$ means: $P$ is to the **West** of $Q$ at a distance of $X$ meters.
+- Here, $X$ is given in the binary symbols where `@ = 0` and `# = 1`.
+
+**Given Statement:**
+1. $B \ \$\ A\ (\#\#@)$
+2. $C \ \%\ B\ (\#@@@)$
+3. $D \ *\ C\ (\#\#@)$
+
+**Decoding Step 1: Decode the numerical distances from binary:**
+- Distance 1: $\#\#@ = 110_2 = (1 \times 4) + (1 \times 2) + (0 \times 1) = \mathbf{6\text{ meters}}$.
+- Distance 2: $\#@@@ = 1000_2 = (1 \times 8) + (0 \times 4) + (0 \times 2) + (0 \times 1) = \mathbf{8\text{ meters}}$.
+- Distance 3: $\#\#@ = 110_2 = \mathbf{6\text{ meters}}$.
+
+**Decoding Step 2: Translate the statements into Cartesian spatial directions:**
+1. $B \ \$\ A\ (6) \implies B$ is **6 meters East** of $A$.
+2. $C \ \%\ B\ (8) \implies C$ is **8 meters South** of $B$.
+3. $D \ *\ C\ (6) \implies D$ is **6 meters West** of $C$.
+
+```
+       A ────── 6m East ────── B
+       │                       │
+       │                       │ 8m South
+       │                       │
+       D ────── 6m East ────── C
+```
+
+**Examination Questions Solved:**
+- **Question 1: What is the shortest distance between Point A and Point D?**
+  - Because $B$ is 6m East of $A$, and $D$ is 6m West of $C$ (which is directly South of $B$), $A, B, C, D$ forms a perfect rectangle.
+  - Therefore, $D$ is directly South of $A$, and the distance between $A$ and $D$ is equal to the distance between $B$ and $C$: $\mathbf{8\text{ meters}}$.
+- **Question 2: In which direction is Point B with respect to Point D?**
+  - Point $B$ is to the **North-East** of Point $D$.
+  - Shortest Euclidean distance between $D$ and $B$:
+    $$\text{Distance} = \sqrt{6^2 + 8^2} = \sqrt{36 + 64} = \sqrt{100} = \mathbf{10\text{ meters}}.$$
+  - Encoded in binary symbols: $10 = 1010_2 = \mathbf{\#@\#@}$.
+
+---
+
+### 📄 Pattern 3: Operating System Paging & Cache Replacement Simulations
+
+Tested in Regulatory Body examinations (RBI Assistant / Grade B, NABARD Grade A, Bank IT Specialist Officers), candidates are evaluated on calculating **Page Faults** when a CPU processes memory requests through finite cache page frames.
+
+#### Page Replacement Algorithms:
+1. **FIFO (First-In, First-Out):** Replaces the page that was brought into memory earliest in time.
+2. **LRU (Least Recently Used):** Replaces the page in memory that has not been referenced for the longest period of historical time.
+3. **Optimal Page Replacement:** Replaces the page that will not be used for the longest period of future time (theoretical benchmark).
+
+#### Worked Benchmark Simulation (LRU vs FIFO):
+**Reference String:** `1, 2, 3, 4, 1, 2, 5` with **3 physical page frames (initially empty)**.
+
+#### LRU (Least Recently Used) Execution:
+
+```
+Reference:    1     2     3     4     1     2     5
+           ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+Frame 1:   │  1  │  1  │  1  │  4  │  4  │  4  │  5  │
+Frame 2:   │  -  │  2  │  2  │  2  │  1  │  1  │  1  │
+Frame 3:   │  -  │  -  │  3  │  3  │  3  │  2  │  2  │
+           └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+Fault?:       M     M     M     M     M     M     M   (M = Miss / Page Fault, H = Hit)
+```
+
+1. Request `1`: Frame `[1, -, -]` $\to$ **Fault (Miss)**
+2. Request `2`: Frame `[1, 2, -]` $\to$ **Fault (Miss)**
+3. Request `3`: Frame `[1, 2, 3]` $\to$ **Fault (Miss)**
+4. Request `4`: All frames full. LRU page is `1` (used least recently). Replace `1` with `4` $\to$ Frame `[4, 2, 3]` $\to$ **Fault (Miss)**
+5. Request `1`: LRU page is `2`. Replace `2` with `1` $\to$ Frame `[4, 1, 3]` $\to$ **Fault (Miss)**
+6. Request `2`: LRU page is `3`. Replace `3` with `2` $\to$ Frame `[4, 1, 2]` $\to$ **Fault (Miss)**
+7. Request `5`: LRU page is `4`. Replace `4` with `5` $\to$ Frame `[5, 1, 2]` $\to$ **Fault (Miss)**
+- **Total Page Faults under LRU:** **7 Faults**.
+
+> 🎯 **Exam Anchor & High-Yield Traps:**
+> 1. **Flowchart Decision Exits:** A decision diamond must have **at least two exit paths** (typically True/False). It can never have only one exit path.
+> 2. **Loop Reassignment vs Accumulation Trap:** In flowchart tracing, pay extreme attention to `Sum = A` (overwrites variable) versus `Sum = Sum + A` (accumulates variable). Overlooking this distinction is the #1 cause of lost marks in PO Mains.
+> 3. **Binary Power Progression:** Always remember binary position values from right to left: $1, 2, 4, 8, 16, 32, 64, 128$. For $n$ binary bits, the maximum decimal value represented is $2^n - 1$.
+> 4. **Pythagorean Triples in Machine Coded Direction Puzzles:** PO Mains binary coordinate puzzles almost always resolve into standard Pythagorean triples: $(3, 4, 5)$, $(6, 8, 10)$, $(5, 12, 13)$, $(8, 15, 17)$, and $(7, 24, 25)$. Recognizing these allows instant calculation without calculating square roots.
+
