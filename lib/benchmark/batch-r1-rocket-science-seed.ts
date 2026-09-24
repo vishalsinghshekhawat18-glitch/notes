@@ -139,7 +139,56 @@ export const BATCH_R1_CONCEPTS: CanonicalConceptDefinition[] = [
       {
         "type": "MECHANISM",
         "title": "Newton's Orbital Regimes and Trajectory Dynamics",
-        "body": "The progression of trajectories from suborbital ballistic flight to escape velocity is illustrated below:\n\n```\n+-------------------------------------------------------------------------+\n|                   NEWTON'S CANNONBALL TRAJECTORIES                      |\n+-------------------------------------------------------------------------+\n|                                                                         |\n|                         [ Mountain Peak ]                               |\n|                                 *                                       |\n|                             * * * * *                                   |\n|                         * *     |     * *                               |\n|                       *         v         *                             |\n|                     *       (Launch)        *                           |\n|                   *             |             *                         |\n|                  *   Path A:    |              *                        |\n|                 *    v < 7.8    |   Path B:     *                       |\n|                *    (Suborbital)|   v = 7.8      *                      |\n|               *     [Hits Earth]|   (Circular)    *                     |\n|              *                  |   Perpetual     *                     |\n|              *                  v   Freefall      *                     |\n|             *                .-----.              *                     |\n|             *               /       \\             *                     |\n|             *              |  EARTH  |            *                     |\n|             *              | R=6371km|            *                     |\n|             *               \\       /             *                     |\n|              *               '-----'              *                     |\n|               *                                  *                      |\n|                *           Path C:              *                       |\n|                 *          v > 7.8 km/s        *                        |\n|                  *         (Elliptical)       *                         |\n|                   *                          *                          |\n|                     * *                  * *                            |\n|                         * * * * * * * *                                 |\n|                                                                         |\n|   Path D: v >= 11.2 km/s ---> Escapes Earth Gravitational Influence     |\n+-------------------------------------------------------------------------+\n|  CRITICAL EQUATIONS:                                                    |\n|  - Circular Orbital Velocity : v = sqrt(GM / r) ≈ 7.8 km/s (at LEO)     |\n|  - Escape Velocity           : v_esc = sqrt(2GM / r) ≈ 11.2 km/s        |\n|  - Gravitational Force at h  : g_h = g_0 * [R / (R + h)]^2 ≈ 8.7 m/s²  |\n+-------------------------------------------------------------------------+\n```",
+        "body": `The progression of trajectories from suborbital ballistic flight to escape velocity is illustrated below:
+
+<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<radialGradient id="earthGrad" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#1e3a8a" />
+<stop offset="70%" stop-color="#0f172a" />
+<stop offset="100%" stop-color="#0284c7" stop-opacity="0.3" />
+</radialGradient>
+</defs>
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="30" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">NEWTON'S CANNONBALL: ORBITAL FREEFALL &amp; ESCAPE VELOCITY</text>
+<text x="370" y="48" fill="#94a3b8" font-size="11" text-anchor="middle">The Physics of Orbit: Why Satellites Never 'Fall' to Earth</text>
+<circle cx="370" cy="270" r="110" fill="url(#earthGrad)" stroke="#38bdf8" stroke-width="2" />
+<circle cx="370" cy="270" r="118" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,3" stroke-opacity="0.5" />
+<text x="370" y="265" fill="#f8fafc" font-size="15" font-weight="800" text-anchor="middle">EARTH</text>
+<text x="370" y="285" fill="#94a3b8" font-size="11" text-anchor="middle">Radius R = 6,371 km</text>
+<path d="M 366,160 L 374,160 L 370,148 Z" fill="#94a3b8" />
+<circle cx="370" cy="148" r="4" fill="#f59e0b" />
+<text x="370" y="140" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Launch Mountain</text>
+<path d="M 370,148 Q 440,155 455,200" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="4,3" />
+<text x="462" y="195" fill="#ef4444" font-size="11" font-weight="700">Path A: Suborbital (v &lt; 7.8 km/s)</text>
+<circle cx="370" cy="270" r="135" fill="none" stroke="#10b981" stroke-width="2.5" />
+<text x="515" y="275" fill="#10b981" font-size="11.5" font-weight="700">Path B: Circular LEO (v = 7.8 km/s)</text>
+<ellipse cx="370" cy="295" rx="190" ry="160" fill="none" stroke="#38bdf8" stroke-width="2.2" />
+<text x="568" y="325" fill="#38bdf8" font-size="11.5" font-weight="700">Path C: Elliptical (7.8 &lt; v &lt; 11.2)</text>
+<path d="M 370,148 C 220,148 100,100 40,60" fill="none" stroke="#f59e0b" stroke-width="2.5" />
+<text x="140" y="105" fill="#f59e0b" font-size="11.5" font-weight="700">Path D: Escape (v ≥ 11.2 km/s)</text>
+<rect x="50" y="385" width="640" height="50" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+<text x="70" y="405" fill="#e2e8f0" font-size="11" font-weight="700">CRITICAL FORMULAE:</text>
+<text x="70" y="423" fill="#94a3b8" font-size="10.5">Circular Orbit: v = √(GM/r) ≈ 7.8 km/s  |  Escape: v_esc = √(2GM/r) ≈ 11.2 km/s  |  Gravity at 400 km (ISS): g ≈ 8.7 m/s² (89% of sea level!)</text>
+</svg>
+</div>
+
+\`\`\`
++-------------------------------------------------------------------------+
+|                   NEWTON'S CANNONBALL TRAJECTORIES                      |
++-------------------------------------------------------------------------+
+| Path A: v < 7.8 km/s   --> Suborbital Ballistic Arc (Strikes Ground)    |
+| Path B: v = 7.8 km/s   --> Circular LEO (Curvature Matches Drop-off)    |
+| Path C: v > 7.8 km/s   --> Elliptical Closed Orbit (Earth at One Focus) |
+| Path D: v >= 11.2 km/s --> Escape Velocity Parabolic Departure          |
++-------------------------------------------------------------------------+
+| CRITICAL EQUATIONS:                                                     |
+| - Circular Orbital Velocity : v = sqrt(GM / r) ≈ 7.8 km/s (at LEO)      |
+| - Escape Velocity           : v_esc = sqrt(2GM / r) ≈ 11.2 km/s         |
+| - Gravitational Force at h  : g_h = g_0 * [R / (R + h)]^2 ≈ 8.7 m/s²   |
++-------------------------------------------------------------------------+
+\`\`\``,
         "order": 3
       },
       {
@@ -487,7 +536,74 @@ export const BATCH_R1_CONCEPTS: CanonicalConceptDefinition[] = [
       {
         "type": "MECHANISM",
         "title": "The Architecture of Earth's Orbital Regimes",
-        "body": "The structural hierarchy of Earth orbital regimes, altitudes, periods, and primary missions is detailed below:\n\n```\n+-------------------------------------------------------------------------+\n|               EARTH ORBITAL REGIMES & MISSION ARCHITECTURE              |\n+-------------------------------------------------------------------------+\n| Altitude (km)                                                           |\n|                                                                         |\n| 36,086 km+ -- [ GRAVEYARD ORBIT: End-of-Life Disposal for GEO Satellites]|\n|                                                                         |\n| 35,786 km  -- GEOSTATIONARY / GEOSYNCHRONOUS ORBIT (GEO / GSO)          |\n|               * Period: 23h 56m 4s (Matches Earth Rotation)             |\n|               * Velocity: ~3.1 km/s | Round-trip Latency: ~250-280 ms   |\n|               * Coverage: 3 Satellites cover globe (except poles)       |\n|               * Missions: Direct-to-Home TV, Weather (GOES, INSAT)      |\n|                                                                         |\n| 20,200 km  -- MEDIUM EARTH ORBIT (MEO) SWEET SPOT                       |\n|               * Period: 12.0 Hours (Semi-Synchronous)                   |\n|               * Velocity: ~3.9 km/s                                     |\n|               * Missions: GNSS Constellations (GPS, Galileo, BeiDou)    |\n|                                                                         |\n| 1,000 km to   [ VAN ALLEN RADIATION BELTS: Intense Trapped Radiation ]  |\n| 12,000 km     (Harsh proton/electron flux; largely avoided by cameras)  |\n|                                                                         |\n| 160-2,000 km- LOW EARTH ORBIT (LEO)                                     |\n|               * Altitude: ISS (400 km), Hubble (550 km), Starlink(550km)|\n|               * Period: 90-120 minutes | Velocity: ~7.8 km/s            |\n|               * Latency: 10-20 ms | High Drag requiring re-boosting     |\n|               * Missions: Earth Observation, Spy Satellites, Mega-      |\n|                 Constellation Broadband (Starlink, OneWeb)              |\n|                                                                         |\n| 0 km       -- EARTH (Radius R ≈ 6,371 km)                               |\n+-------------------------------------------------------------------------+\n```",
+        "body": `The structural hierarchy of Earth orbital regimes, altitudes, periods, and primary missions is detailed below:
+
+<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<linearGradient id="radiationGrad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+<stop offset="50%" stop-color="#ec4899" stop-opacity="0.4" />
+<stop offset="100%" stop-color="#a855f7" stop-opacity="0.3" />
+</linearGradient>
+</defs>
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="30" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">EARTH ORBITAL REGIMES &amp; MISSION ARCHITECTURE</text>
+<text x="370" y="48" fill="#94a3b8" font-size="11" text-anchor="middle">Physical Regimes, Radiation Belts, and Modern Satellite Applications</text>
+<rect x="50" y="70" width="640" height="52" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" />
+<text x="65" y="92" fill="#f59e0b" font-size="13" font-weight="700">GEO: GEOSTATIONARY ORBIT (35,786 km)</text>
+<text x="65" y="110" fill="#cbd5e1" font-size="10.8">• T = 23h 56m 4s (Matches Earth rotation)  |  v ≈ 3.1 km/s  |  Latency ≈ 250 ms  |  3 satellites cover globe (INSAT, DTH TV)</text>
+<rect x="50" y="132" width="640" height="52" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+<text x="65" y="154" fill="#10b981" font-size="13" font-weight="700">MEO: MEDIUM EARTH ORBIT SWEET SPOT (~20,200 km)</text>
+<text x="65" y="172" fill="#cbd5e1" font-size="10.8">• T = 12.0 Hours (Semi-synchronous)  |  v ≈ 3.9 km/s  |  Global Navigation Constellations: GPS (USA), NavIC (India), Galileo (EU)</text>
+<rect x="50" y="194" width="640" height="48" rx="8" fill="url(#radiationGrad)" stroke="#ec4899" stroke-width="1.2" stroke-dasharray="4,4" />
+<text x="65" y="214" fill="#f43f5e" font-size="12" font-weight="700">⚠️ VAN ALLEN RADIATION BELTS (1,000 km – 12,000 km)</text>
+<text x="65" y="232" fill="#fecdd3" font-size="10.5">• Intense trapped solar protons &amp; electrons trapped by geomagnetic field. Avoided by commercial satellites to prevent silicon degradation.</text>
+<rect x="50" y="252" width="640" height="58" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+<text x="65" y="274" fill="#38bdf8" font-size="13" font-weight="700">LEO: LOW EARTH ORBIT (160 – 2,000 km)</text>
+<text x="65" y="292" fill="#cbd5e1" font-size="10.8">• T = 90–120 min  |  v ≈ 7.8 km/s  |  Low latency (10–20 ms)  |  ISS (400 km), Hubble (550 km), Earth Observation &amp; Megaconstellations (Starlink)</text>
+<text x="65" y="304" fill="#94a3b8" font-size="10">• High atmospheric drag requires periodic re-boosting; Kessler Syndrome risk from space debris.</text>
+<rect x="50" y="320" width="640" height="110" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+<text x="65" y="342" fill="#f8fafc" font-size="12" font-weight="700">CRITICAL UPSC &amp; EXAM DISTINCTIONS:</text>
+<text x="65" y="362" fill="#cbd5e1" font-size="10.5">1. GEO vs. GSO: Every Geostationary orbit is Geosynchronous, but ONLY zero-inclination equatorial orbits are stationary.</text>
+<text x="65" y="380" fill="#cbd5e1" font-size="10.5">2. Distance vs. Speed Inversion: v = √(GM/r). Satellites further out move SLOWER (LEO: 7.8 km/s → GEO: 3.1 km/s → Moon: 1.0 km/s).</text>
+<text x="65" y="398" fill="#cbd5e1" font-size="10.5">3. Polar Blindspot: GEO cannot service latitudes &gt; 81° N/S due to curvature. Polar regions require Molniya or LEO swarms.</text>
+<text x="65" y="416" fill="#f59e0b" font-size="10.5" font-weight="600">4. Graveyard Orbit: Disposed GEO satellites are boosted +300 km into a graveyard orbit to prevent cluttering orbital slots.</text>
+</svg>
+</div>
+
+\`\`\`
++-------------------------------------------------------------------------+
+|               EARTH ORBITAL REGIMES & MISSION ARCHITECTURE              |
++-------------------------------------------------------------------------+
+| Altitude (km)                                                           |
+|                                                                         |
+| 36,086 km+ -- [ GRAVEYARD ORBIT: End-of-Life Disposal for GEO Satellites]|
+|                                                                         |
+| 35,786 km  -- GEOSTATIONARY / GEOSYNCHRONOUS ORBIT (GEO / GSO)          |
+|               * Period: 23h 56m 4s (Matches Earth Rotation)             |
+|               * Velocity: ~3.1 km/s | Round-trip Latency: ~250-280 ms   |
+|               * Coverage: 3 Satellites cover globe (except poles)       |
+|               * Missions: Direct-to-Home TV, Weather (GOES, INSAT)      |
+|                                                                         |
+| 20,200 km  -- MEDIUM EARTH ORBIT (MEO) SWEET SPOT                       |
+|               * Period: 12.0 Hours (Semi-Synchronous)                   |
+|               * Velocity: ~3.9 km/s                                     |
+|               * Missions: GNSS Constellations (GPS, Galileo, BeiDou)    |
+|                                                                         |
+| 1,000 km to   [ VAN ALLEN RADIATION BELTS: Intense Trapped Radiation ]  |
+| 12,000 km     (Harsh proton/electron flux; largely avoided by cameras)  |
+|                                                                         |
+| 160-2,000 km- LOW EARTH ORBIT (LEO)                                     |
+|               * Altitude: ISS (400 km), Hubble (550 km), Starlink(550km)|
+|               * Period: 90-120 minutes | Velocity: ~7.8 km/s            |
+|               * Latency: 10-20 ms | High Drag requiring re-boosting     |
+|               * Missions: Earth Observation, Spy Satellites, Mega-      |
+|                 Constellation Broadband (Starlink, OneWeb)              |
+|                                                                         |
+| 0 km       -- EARTH (Radius R ≈ 6,371 km)                               |
++-------------------------------------------------------------------------+
+\`\`\``,
         "order": 3
       },
       {

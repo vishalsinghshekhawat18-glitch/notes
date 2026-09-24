@@ -244,7 +244,57 @@ export const MODULE_U3_CONCEPTS: UniversalConceptSeed[] = [
       {
         "type": "MECHANISM",
         "title": "Phase Space Divergence & The Lorenz Strange Attractor",
-        "body": "How trajectories diverge inside the bounded butterfly wings of the Lorenz Attractor:\n\n```\n+-------------------------------------------------------------------------+\n|                    LORENZ ATTRACTOR IN 3D PHASE SPACE                   |\n+-------------------------------------------------------------------------+\n\n               Trajectory Orbiting             Trajectory Orbiting\n                   LEFT WING                       RIGHT WING\n                 (Cold Front)                     (Warm Front)\n\n                     .---.                           .---.        \n                   /       \\                       /       \\      \n                  |    *----|-------------------->|--*      |     \n                   \\  /     /                      \\  \\    /      \n                     '---.-'                         '-.--'       \n                          \\                            /          \n                           \\      SADDLE POINT        /           \n                            '--->   (0, 0, 0)   <----'            \n                                   /         \\                    \n                                 /             \\                  \n             Orbit switches unpredictably between left & right!\n\n===========================================================================\n                 EXPONENTIAL DIVERGENCE OF TRAJECTORIES\n===========================================================================\n\n Trajectory 1:  [State A] -------------------------------> Blizzard in Paris\n                                \\ \n Trajectory 2:  [State A + 0.001] \\---------------------> Heatwave in Paris\n                                   ^\n                                   | Exponential divergence: e^(lambda * t)\n                                   +--- Lyapunov horizon reached (~14 days)\n\n 1. Bounded: The weather never reaches +500°C or -200°C (orbits stay on wings).\n 2. Aperiodic: Trajectories never intersect or repeat the exact same loop.\n 3. Fractal: Infinite layers of trajectories nested within finite volume.\n```",
+        "body": `How trajectories diverge inside the bounded butterfly wings of the Lorenz Attractor:
+
+<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<linearGradient id="leftWingGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#0284c7" stop-opacity="0.4" />
+</linearGradient>
+<linearGradient id="rightWingGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#f43f5e" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#ec4899" stop-opacity="0.4" />
+</linearGradient>
+</defs>
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="30" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">LORENZ STRANGE ATTRACTOR IN 3D PHASE SPACE</text>
+<text x="370" y="48" fill="#94a3b8" font-size="11" text-anchor="middle">Deterministic Chaos: Bounded, Aperiodic, and Exponential Trajectory Divergence (e^{λt})</text>
+<path d="M 270,300 C 180,310 110,260 110,190 C 110,120 180,110 240,150 C 290,190 280,260 270,300 Z" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.4" />
+<path d="M 270,300 C 190,300 130,250 130,195 C 130,135 190,125 245,160 C 285,195 275,260 270,300 Z" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6" />
+<path d="M 270,300 C 200,290 150,240 150,200 C 150,150 200,140 250,170 C 280,200 273,260 270,300 Z" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8" />
+<path d="M 270,300 C 270,300 310,220 370,180 C 430,220 470,300 470,300" fill="none" stroke="#f59e0b" stroke-width="2.5" />
+<circle cx="370" cy="180" r="5" fill="#f59e0b" />
+<text x="370" y="165" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Saddle Point (0,0,0)</text>
+<path d="M 470,300 C 560,310 630,260 630,190 C 630,120 560,110 500,150 C 450,190 460,260 470,300 Z" fill="none" stroke="#f43f5e" stroke-width="1.2" stroke-opacity="0.4" />
+<path d="M 470,300 C 550,300 610,250 610,195 C 610,135 550,125 495,160 C 455,195 465,260 470,300 Z" fill="none" stroke="#f43f5e" stroke-width="1.5" stroke-opacity="0.6" />
+<path d="M 470,300 C 540,290 590,240 590,200 C 590,150 540,140 490,170 C 460,200 467,260 470,300 Z" fill="none" stroke="#f43f5e" stroke-width="2" stroke-opacity="0.8" />
+<text x="180" y="95" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle">LEFT WING: Regime 1</text>
+<text x="180" y="112" fill="#94a3b8" font-size="10.5" text-anchor="middle">(e.g., Cold Front Orbit)</text>
+<text x="560" y="95" fill="#f43f5e" font-size="13" font-weight="700" text-anchor="middle">RIGHT WING: Regime 2</text>
+<text x="560" y="112" fill="#94a3b8" font-size="10.5" text-anchor="middle">(e.g., Warm Front Orbit)</text>
+<rect x="50" y="325" width="640" height="105" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+<text x="65" y="347" fill="#f8fafc" font-size="12" font-weight="700">THREE CORNERSTONE AXIOMS OF CHAOS THEORY:</text>
+<text x="65" y="367" fill="#cbd5e1" font-size="10.8">1. Bounded Manifold: Temperatures never reach ±1,000°C; trajectories remain trapped inside finite volume.</text>
+<text x="65" y="385" fill="#cbd5e1" font-size="10.8">2. Aperiodic &amp; Fractal: Orbits never intersect and never repeat. Hausdorff fractal dimension ≈ 2.06.</text>
+<text x="65" y="403" fill="#cbd5e1" font-size="10.8">3. Sensitive Dependence: Initial separation Δx₀ grows as Δx(t) = Δx₀ · e^{λt}. Predictability ceiling ≈ 14 days!</text>
+<text x="65" y="421" fill="#10b981" font-size="10.5" font-weight="600">→ Modern Mitigation: Run 50-member Ensemble Forecasts instead of illusory single-point forecasts.</text>
+</svg>
+</div>
+
+\`\`\`
++-------------------------------------------------------------------------+
+|                 EXPONENTIAL DIVERGENCE OF TRAJECTORIES                  |
++-------------------------------------------------------------------------+
+| Trajectory 1:  [State A] -------------------------------> Blizzard      |
+|                                \\                                        |
+| Trajectory 2:  [State A + 0.001] \\---------------------> Heatwave       |
+|                                   ^                                     |
+|                                   | Exponential divergence: e^(λ * t)   |
+|                                   +--- Lyapunov horizon reached (~14 d) |
++-------------------------------------------------------------------------+
+\`\`\``,
         "order": 3
       },
       {

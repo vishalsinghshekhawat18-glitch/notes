@@ -1228,7 +1228,62 @@ export const BATCH_E2_CONCEPTS: CanonicalConceptDefinition[] = [
       {
         type: 'CORE_IDEA',
         title: 'The Phillips Curve: Short-Run Trade-off vs Long-Run Vertical Reality',
-        body: 'The evolution of the Phillips Curve represents a cornerstone of modern monetary macroeconomics:\n\n### 1. Short-Run Phillips Curve (A.W. Phillips, 1958)\n- Originally demonstrated an empirical trade-off: Higher Inflation $\\implies$ Lower Unemployment.\n- **Mechanism**: When aggregate demand expands, firms hire more workers (lowering unemployment) while bidding up wages and prices (higher inflation).\n$$\\pi_t = \\pi_t^e - \\beta(u_t - u_n) + v$$\nWhere $\\pi_t$ is inflation, $\\pi_t^e$ is expected inflation, $u_t$ is unemployment, $u_n$ is the Natural Rate of Unemployment (NAIRU), and $v$ is a supply shock.\n\n### 2. Long-Run Vertical Phillips Curve (Friedman & Phelps, 1968)\n- **Natural Rate Hypothesis**: In the long run, workers and firms adjust their expectations completely ($\\,\\pi_t^e = \\pi_t\\,$).\n- When expectations catch up, real wages adjust back to equilibrium, and unemployment returns to the **Natural Rate of Unemployment (NAIRU)** regardless of inflation rate.\n- **Conclusion**: Central banks **cannot** permanently buy lower unemployment by tolerating higher inflation. Attempting to do so only generates higher inflation expectations with no output gain.',
+        body: `The evolution of the Phillips Curve represents a cornerstone of modern monetary macroeconomics:
+
+### 1. Short-Run Phillips Curve (A.W. Phillips, 1958)
+- Originally demonstrated an empirical trade-off: Higher Inflation $\\implies$ Lower Unemployment.
+- **Mechanism**: When aggregate demand expands, firms hire more workers (lowering unemployment) while bidding up wages and prices (higher inflation).
+$$\\pi_t = \\pi_t^e - \\beta(u_t - u_n) + v$$
+Where $\\pi_t$ is inflation, $\\pi_t^e$ is expected inflation, $u_t$ is unemployment, $u_n$ is the Natural Rate of Unemployment (NAIRU), and $v$ is a supply shock.
+
+<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<marker id="arrow-emerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+</marker>
+<marker id="arrow-rose" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#ef4444" />
+</marker>
+</defs>
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="32" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">THE PHILLIPS CURVE: SHORT-RUN TRADE-OFF VS. LONG-RUN NAIRU</text>
+<text x="370" y="52" fill="#94a3b8" font-size="11" text-anchor="middle">Expectations-Augmented Phillips Curve &amp; Friedman-Phelps Natural Rate Hypothesis</text>
+<line x1="80" y1="380" x2="680" y2="380" stroke="#475569" stroke-width="2" />
+<polygon points="680,380 672,375 672,385" fill="#475569" />
+<text x="670" y="405" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="end">Unemployment Rate (u)</text>
+<text x="80" y="402" fill="#64748b" font-size="11" text-anchor="middle">0%</text>
+<line x1="80" y1="380" x2="80" y2="70" stroke="#475569" stroke-width="2" />
+<polygon points="80,70 75,78 85,78" fill="#475569" />
+<text x="75" y="65" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="start">Inflation Rate (π)</text>
+<line x1="380" y1="380" x2="380" y2="85" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6,4" />
+<text x="380" y="78" fill="#f59e0b" font-size="13" font-weight="700" text-anchor="middle">LRPC (Vertical at NAIRU u_n)</text>
+<line x1="380" y1="380" x2="380" y2="388" stroke="#f59e0b" stroke-width="2" />
+<text x="380" y="404" fill="#f59e0b" font-size="12" font-weight="700" text-anchor="middle">u_n (NAIRU ~5%)</text>
+<path d="M 120,130 Q 200,320 620,350" fill="none" stroke="#38bdf8" stroke-width="3" />
+<text x="625" y="345" fill="#38bdf8" font-size="12" font-weight="700">SRPC₁ (πᵉ = 2%)</text>
+<path d="M 120,85 Q 220,230 620,280" fill="none" stroke="#ef4444" stroke-width="3" />
+<text x="625" y="275" fill="#ef4444" font-size="12" font-weight="700">SRPC₂ (πᵉ = 6%)</text>
+<circle cx="380" cy="335" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5" />
+<text x="395" y="340" fill="#38bdf8" font-size="12" font-weight="700">Point A (u_n, π = 2%)</text>
+<circle cx="210" cy="275" r="5" fill="#10b981" stroke="#ffffff" stroke-width="1.5" />
+<text x="135" y="265" fill="#10b981" font-size="12" font-weight="700">Point B (u₁ = 3%, π = 5%)</text>
+<circle cx="380" cy="180" r="5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5" />
+<text x="395" y="180" fill="#ef4444" font-size="12" font-weight="700">Point C (u_n, π = 6%)</text>
+<path d="M 370,330 C 310,310 240,290 220,280" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrow-emerald)" />
+<path d="M 220,270 C 270,220 340,195 370,185" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrow-rose)" />
+<rect x="420" y="105" width="280" height="95" rx="8" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+<text x="430" y="125" fill="#f8fafc" font-size="11" font-weight="700">DYNAMIC ADJUSTMENT CYCLE:</text>
+<text x="430" y="145" fill="#94a3b8" font-size="10.5">• A → B: Demand stimulus cuts u to 3%, π jumps to 5%</text>
+<text x="430" y="165" fill="#94a3b8" font-size="10.5">• Workers demand higher nominal wages (πᵉ rises to 6%)</text>
+<text x="430" y="185" fill="#f59e0b" font-size="10.5">• B → C: SRPC shifts UP; u returns to NAIRU at higher π</text>
+</svg>
+</div>
+
+### 2. Long-Run Vertical Phillips Curve (Friedman & Phelps, 1968)
+- **Natural Rate Hypothesis**: In the long run, workers and firms adjust their expectations completely ($\\,\\pi_t^e = \\pi_t\\,$).
+- When expectations catch up, real wages adjust back to equilibrium, and unemployment returns to the **Natural Rate of Unemployment (NAIRU)** regardless of inflation rate.
+- **Conclusion**: Central banks **cannot** permanently buy lower unemployment by tolerating higher inflation. Attempting to do so only generates higher inflation expectations with no output gain.`,
         order: 2,
       },
       {

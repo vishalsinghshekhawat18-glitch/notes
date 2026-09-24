@@ -807,7 +807,72 @@ export const BATCH_E7_CONCEPTS: CanonicalConceptDefinition[] = [
       {
         "type": "CORE_IDEA",
         "title": "The Lorenz Curve, Gini Coefficient & Modern Inequality Metrics",
-        "body": "```\\n                         THE LORENZ CURVE & GINI COEFFICIENT\\n      100 % ┌────────────────────────────────────────────────────────┐\\n            │                                                       /│ Line of Perfect Equality\\n            │                                                      / │ (45-degree diagonal)\\n            │                                                    /   │\\nCumulative  │                                                  /     │\\nShare of    │                                          Area A/       │\\nIncome (%)  │                                              /         │\\n            │                                            /           │\\n            │                                    . - - -             │\\n            │                            . - '                       │\\n            │                    . - '         Area B                │\\n            │            . - '                                       │ Empirical Lorenz Curve\\n          0 └────────────────────────────────────────────────────────┘\\n            0                                                      100 %\\n                        Cumulative Share of Population (%)\\n```\\n\\n### The Math of Gini and Alternative Inequality Metrics\\n$$\\\\text{Gini Coefficient} = \\\\frac{\\\\text{Area A}}{\\\\text{Area A} + \\\\text{Area B}} = 1 - 2 \\\\int_0^1 L(p) dp$$\\n\\n| Inequality Metric | Definition & Mathematical Formula | Diagnostic Advantage |\\n| :--- | :--- | :--- |\\n| **Gini Coefficient** | Ratio of Area A to total area $(A+B)$ under the 45-degree line. Range: $0$ (equality) to $1$ (maximal inequality). | Standard global benchmark; sensitive to middle-distribution transfers. |\\n| **Palma Ratio** | $\\\\text{Palma} = \\\\frac{\\\\text{Income Share of Top } 10\\\\%}{\\\\text{Income Share of Bottom } 40\\\\%}$ | Ignores the stable middle 50% (who typically earn ~50% of GDP) and focuses on the extreme tails. |\\n| **20:20 Ratio (S80/S20)** | $\\\\text{Ratio} = \\\\frac{\\\\text{Income of Top } 20\\\\%}{\\\\text{Income of Bottom } 20\\\\%}$ | Intuitive comparison of the richest quintile against the poorest quintile. |\\n| **Wealth-to-Income Ratio ($\\\\beta$)** | $\\\\beta = \\\\frac{\\\\text{Total National Wealth } (W)}{\\\\text{National Income } (Y)}$ | Measures the dominance of accumulated past capital relative to annual economic output. |",
+        "body": `<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<linearGradient id="areaAGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35" />
+<stop offset="100%" stop-color="#ef4444" stop-opacity="0.25" />
+</linearGradient>
+<linearGradient id="areaBGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+<stop offset="100%" stop-color="#0284c7" stop-opacity="0.08" />
+</linearGradient>
+</defs>
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="30" fill="#f8fafc" font-size="16" font-weight="700" text-anchor="middle">THE LORENZ CURVE &amp; GINI COEFFICIENT</text>
+<text x="370" y="48" fill="#94a3b8" font-size="11" text-anchor="middle">Geometric Quantification of Economic Inequality: Area A vs. Area B</text>
+<path d="M 90,370 L 450,90 L 450,370 Z" fill="#1e293b" fill-opacity="0.4" />
+<path d="M 90,370 L 450,90 C 450,90 390,260 290,340 C 210,365 140,370 90,370 Z" fill="url(#areaAGrad)" />
+<path d="M 90,370 C 140,370 210,365 290,340 C 390,260 450,90 450,90 L 450,370 L 90,370 Z" fill="url(#areaBGrad)" />
+<line x1="90" y1="370" x2="450" y2="90" stroke="#10b981" stroke-width="2.5" stroke-dasharray="6,4" />
+<text x="250" y="215" fill="#10b981" font-size="11.5" font-weight="700" transform="rotate(-38 250 215)">Line of Perfect Equality (45° Diagonal)</text>
+<path d="M 90,370 C 140,370 210,365 290,340 C 390,260 450,90 450,90" fill="none" stroke="#38bdf8" stroke-width="3.5" />
+<text x="365" y="325" fill="#38bdf8" font-size="13" font-weight="700">Lorenz Curve L(p)</text>
+<text x="290" y="260" fill="#f59e0b" font-size="20" font-weight="800">Area A</text>
+<text x="280" y="278" fill="#fcd34d" font-size="10.5" font-weight="600">(Inequality Gap)</text>
+<text x="360" y="355" fill="#38bdf8" font-size="18" font-weight="800">Area B</text>
+<line x1="90" y1="370" x2="460" y2="370" stroke="#64748b" stroke-width="2" />
+<line x1="90" y1="370" x2="90" y2="80" stroke="#64748b" stroke-width="2" />
+<line x1="450" y1="370" x2="450" y2="90" stroke="#475569" stroke-width="1.5" stroke-dasharray="3,3" />
+<line x1="90" y1="90" x2="450" y2="90" stroke="#475569" stroke-width="1.5" stroke-dasharray="3,3" />
+<text x="80" y="375" fill="#94a3b8" font-size="11" text-anchor="end">0%</text>
+<text x="80" y="95" fill="#94a3b8" font-size="11" text-anchor="end">100%</text>
+<text x="90" y="392" fill="#94a3b8" font-size="11" text-anchor="middle">0%</text>
+<text x="450" y="392" fill="#94a3b8" font-size="11" text-anchor="middle">100%</text>
+<text x="270" y="415" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="middle">Cumulative % of Population (p)</text>
+<text x="40" y="230" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="middle" transform="rotate(-90 40 230)">Cumulative % of Income L(p)</text>
+<circle cx="90" cy="370" r="4" fill="#10b981" />
+<circle cx="450" cy="90" r="4" fill="#10b981" />
+<rect x="475" y="75" width="245" height="315" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+<text x="490" y="102" fill="#f8fafc" font-size="13" font-weight="700">GINI COEFFICIENT FORMULA</text>
+<rect x="490" y="112" width="215" height="42" rx="6" fill="#1e293b" />
+<text x="597" y="138" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle">Gini = Area A / (Area A + B)</text>
+<text x="490" y="172" fill="#e2e8f0" font-size="11" font-weight="700">BOUNDS &amp; INTERPRETATION:</text>
+<text x="490" y="192" fill="#10b981" font-size="10.5">• G = 0 : Perfect Equality (Area A = 0)</text>
+<text x="490" y="210" fill="#ef4444" font-size="10.5">• G = 1 : Perfect Inequality (Area B = 0)</text>
+<line x1="490" y1="222" x2="705" y2="222" stroke="#334155" stroke-width="1" />
+<text x="490" y="240" fill="#e2e8f0" font-size="11" font-weight="700">KEY INEQUALITY METRICS:</text>
+<text x="490" y="258" fill="#94a3b8" font-size="10.5">• Palma Ratio = Top 10% / Bottom 40%</text>
+<text x="490" y="276" fill="#94a3b8" font-size="10.5">• 20:20 Ratio = Top 20% / Bottom 20%</text>
+<text x="490" y="294" fill="#94a3b8" font-size="10.5">• Piketty: r > g compounds capital share</text>
+<line x1="490" y1="306" x2="705" y2="306" stroke="#334155" stroke-width="1" />
+<text x="490" y="324" fill="#f59e0b" font-size="11" font-weight="700">INDIA BENCHMARKS:</text>
+<text x="490" y="342" fill="#cbd5e1" font-size="10.5">• Consumption Gini : ~0.35 (NSSO)</text>
+<text x="490" y="360" fill="#cbd5e1" font-size="10.5">• Wealth Gini : ~0.83 (WIR 2022)</text>
+<text x="490" y="378" fill="#f43f5e" font-size="10" font-weight="600">→ Wealth is 2.4× more concentrated!</text>
+</svg>
+</div>
+
+### The Math of Gini and Alternative Inequality Metrics
+$$\\text{Gini Coefficient} = \\frac{\\text{Area A}}{\\text{Area A} + \\text{Area B}} = 1 - 2 \\int_0^1 L(p) dp$$
+
+| Inequality Metric | Definition & Mathematical Formula | Diagnostic Advantage |
+| :--- | :--- | :--- |
+| **Gini Coefficient** | Ratio of Area A to total area $(A+B)$ under the 45-degree line. Range: $0$ (equality) to $1$ (maximal inequality). | Standard global benchmark; sensitive to middle-distribution transfers. |
+| **Palma Ratio** | $\\text{Palma} = \\frac{\\text{Income Share of Top } 10\\%}{\\text{Income Share of Bottom } 40\\%}$ | Ignores the stable middle 50% (who typically earn ~50% of GDP) and focuses on the extreme tails. |
+| **20:20 Ratio (S80/S20)** | $\\text{Ratio} = \\frac{\\text{Income of Top } 20\\%}{\\text{Income of Bottom } 20\\%}$ | Intuitive comparison of the richest quintile against the poorest quintile. |
+| **Wealth-to-Income Ratio ($\\\\beta$)** | $\\\\beta = \\frac{\\text{Total National Wealth } (W)}{\\text{National Income } (Y)}$ | Measures the dominance of accumulated past capital relative to annual economic output. |`,
         "order": 2
       },
       {
