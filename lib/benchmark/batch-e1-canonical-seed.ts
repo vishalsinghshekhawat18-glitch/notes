@@ -1505,19 +1505,52 @@ $$Q_S = -c + dP \\quad (d > 0)$$
 
 $$Q_D(P^*) = Q_S(P^*)$$
 
-\`\`\`
-Price (P)
-  ^
-  |        \\         / (Supply Curve)
-  |         \\       /
-P1|---------\\-----/------- [Excess Supply / Surplus -> Price Falls to P*]
-  |          \\   /
-P*|----------- X --------- [Market Equilibrium: QD = QS]
-  |          /   \\
-P2|---------/-----\\------- [Excess Demand / Shortage -> Price Rises to P*]
-  |        /       \\ (Demand Curve)
-  +-------------------------> Quantity (Q)
-\`\`\`
+<div class="my-6 flex flex-col items-center">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<defs>
+<marker id="eq-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+</marker>
+</defs>
+<text x="370" y="30" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">MARKET EQUILIBRIUM: DEMAND, SUPPLY &amp; SELF-CORRECTING MECHANISM</text>
+<text x="370" y="48" text-anchor="middle" fill="#94a3b8" font-size="11">Walrasian Price Discovery: Elimination of Surpluses (P &gt; P*) and Shortages (P &lt; P*)</text>
+<line x1="100" y1="360" x2="680" y2="360" stroke="#94a3b8" stroke-width="2" marker-end="url(#eq-arrow)" />
+<line x1="100" y1="360" x2="100" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#eq-arrow)" />
+<text x="86" y="374" text-anchor="end" fill="#94a3b8" font-size="12" font-weight="600">0</text>
+<text x="105" y="72" text-anchor="start" fill="#f1f5f9" font-size="12" font-weight="700">▲ Price (P) in ₹</text>
+<text x="670" y="385" text-anchor="end" fill="#f1f5f9" font-size="12" font-weight="700">Quantity (Q) in Units ➔</text>
+<line x1="100" y1="135" x2="550" y2="135" stroke="#ef4444" stroke-width="1.2" stroke-dasharray="4 4" />
+<text x="86" y="139" text-anchor="end" fill="#f87171" font-size="11" font-weight="600">P_High</text>
+<line x1="210" y1="135" x2="510" y2="135" stroke="#ef4444" stroke-width="3" />
+<rect x="260" y="105" width="200" height="24" rx="4" fill="#1e293b" stroke="#ef4444" stroke-width="1" />
+<text x="360" y="121" text-anchor="middle" fill="#f87171" font-size="10.5" font-weight="700">EXCESS SUPPLY (SURPLUS) ↓</text>
+<line x1="100" y1="290" x2="550" y2="290" stroke="#f59e0b" stroke-width="1.2" stroke-dasharray="4 4" />
+<text x="86" y="294" text-anchor="end" fill="#fbbf24" font-size="11" font-weight="600">P_Low</text>
+<line x1="210" y1="290" x2="510" y2="290" stroke="#f59e0b" stroke-width="3" />
+<rect x="260" y="298" width="200" height="24" rx="4" fill="#1e293b" stroke="#f59e0b" stroke-width="1" />
+<text x="360" y="314" text-anchor="middle" fill="#fbbf24" font-size="10.5" font-weight="700">EXCESS DEMAND (SHORTAGE) ↑</text>
+<line x1="140" y1="90" x2="580" y2="335" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" />
+<text x="590" y="340" fill="#38bdf8" font-size="12" font-weight="700">Demand (D)</text>
+<line x1="140" y1="335" x2="580" y2="90" stroke="#10b981" stroke-width="3.5" stroke-linecap="round" />
+<text x="590" y="95" fill="#10b981" font-size="12" font-weight="700">Supply (S)</text>
+<line x1="100" y1="212" x2="360" y2="212" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3" />
+<line x1="360" y1="212" x2="360" y2="360" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="86" y="216" text-anchor="end" fill="#f1f5f9" font-size="11.5" font-weight="700">P*</text>
+<text x="360" y="378" text-anchor="middle" fill="#f1f5f9" font-size="11.5" font-weight="700">Q*</text>
+<circle cx="360" cy="212" r="7" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+<rect x="375" y="195" width="160" height="34" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2" />
+<text x="385" y="210" fill="#fbbf24" font-size="11" font-weight="700">Equilibrium Point E</text>
+<text x="385" y="223" fill="#cbd5e1" font-size="9.5">Q_D = Q_S (Market Cleared)</text>
+<rect x="18" y="398" width="704" height="38" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+<circle cx="32" cy="417" r="5" fill="#f59e0b" />
+<text x="44" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Point E: Stable Equilibrium (Q_D = Q_S)</text>
+<circle cx="280" cy="417" r="5" fill="#ef4444" />
+<text x="292" y="421" fill="#e2e8f0" font-size="10" font-weight="600">P &gt; P*: Inventory Surplus ➔ Price Cuts</text>
+<circle cx="510" cy="417" r="5" fill="#10b981" />
+<text x="522" y="421" fill="#e2e8f0" font-size="10" font-weight="600">P &lt; P*: Stockout Shortage ➔ Price Bids Up</text>
+</svg>
+</div>
 
 ### 1. The Self-Correcting Price Mechanism & Market Forces (Walrasian Stability)
 In a free enterprise market, no central planner dictates price adjustments. Instead, the decentralized interaction of buyers and sellers generates directional **Market Forces**:
@@ -1932,17 +1965,49 @@ In a competitive market without externalities, market equilibrium **maximizes To
         title: 'Deadweight Loss & Harberger Triangles',
         body: `When a government introduces market distortions (taxes, price controls, import tariffs), it prevents mutually beneficial trades from occurring. The resulting uncaptured economic value that is lost to society is the **Deadweight Loss (DWL)**.
 
-\`\`\`
-Price (P)
-  ^
-  |        \ (Demand)   / (Supply)
-  |         \          /
-  |          \  [CS]  /
-P*|-----------X------X---------------- [Market Equilibrium]
-  |          /  [PS]  \
-  |         /          \
-  +-------------------------> Quantity (Q)
-\`\`\`
+<div class="my-6 flex flex-col items-center">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<defs>
+<marker id="wf-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+</marker>
+</defs>
+<text x="370" y="30" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">WELFARE ECONOMICS: CONSUMER SURPLUS, PRODUCER SURPLUS &amp; DEADWEIGHT LOSS</text>
+<text x="370" y="48" text-anchor="middle" fill="#94a3b8" font-size="11">Total Social Surplus Maximization vs Market Distortions (Taxes, Price Ceilings &amp; Floors)</text>
+<polygon points="100,85 360,212 100,212" fill="#0284c7" fill-opacity="0.3" stroke="#0284c7" stroke-width="1" />
+<polygon points="100,212 360,212 100,340" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="1" />
+<polygon points="260,155 360,212 260,270" fill="#ef4444" fill-opacity="0.5" stroke="#ef4444" stroke-width="1.5" />
+<line x1="100" y1="360" x2="680" y2="360" stroke="#94a3b8" stroke-width="2" marker-end="url(#wf-arrow)" />
+<line x1="100" y1="360" x2="100" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#wf-arrow)" />
+<text x="86" y="374" text-anchor="end" fill="#94a3b8" font-size="12" font-weight="600">0</text>
+<text x="105" y="72" text-anchor="start" fill="#f1f5f9" font-size="12" font-weight="700">▲ Price (P)</text>
+<text x="670" y="385" text-anchor="end" fill="#f1f5f9" font-size="12" font-weight="700">Quantity (Q) ➔</text>
+<line x1="100" y1="85" x2="580" y2="340" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" />
+<text x="590" y="345" fill="#38bdf8" font-size="12" font-weight="700">Demand (WTP)</text>
+<line x1="100" y1="340" x2="580" y2="85" stroke="#10b981" stroke-width="3.5" stroke-linecap="round" />
+<text x="590" y="90" fill="#10b981" font-size="12" font-weight="700">Supply (MC)</text>
+<line x1="100" y1="212" x2="360" y2="212" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3" />
+<line x1="360" y1="212" x2="360" y2="360" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="86" y="216" text-anchor="end" fill="#f1f5f9" font-size="11.5" font-weight="700">P*</text>
+<text x="360" y="378" text-anchor="middle" fill="#f1f5f9" font-size="11.5" font-weight="700">Q*</text>
+<line x1="260" y1="155" x2="260" y2="360" stroke="#ef4444" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="260" y="378" text-anchor="middle" fill="#f87171" font-size="11.5" font-weight="700">Q_Tax</text>
+<text x="175" y="165" fill="#38bdf8" font-size="11.5" font-weight="700">Consumer Surplus (CS)</text>
+<text x="175" y="265" fill="#34d399" font-size="11.5" font-weight="700">Producer Surplus (PS)</text>
+<line x1="300" y1="205" x2="400" y2="155" stroke="#ef4444" stroke-width="1.2" />
+<rect x="400" y="135" width="180" height="38" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.2" />
+<text x="410" y="152" fill="#f87171" font-size="11" font-weight="700">Deadweight Loss (DWL)</text>
+<text x="410" y="165" fill="#cbd5e1" font-size="9.5">Uncaptured Social Surplus Loss</text>
+<rect x="18" y="398" width="704" height="38" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+<circle cx="32" cy="417" r="5" fill="#0284c7" />
+<text x="44" y="421" fill="#e2e8f0" font-size="10" font-weight="600">CS: Area under Demand above Price</text>
+<circle cx="280" cy="417" r="5" fill="#10b981" />
+<text x="292" y="421" fill="#e2e8f0" font-size="10" font-weight="600">PS: Area above Supply below Price</text>
+<circle cx="510" cy="417" r="5" fill="#ef4444" />
+<text x="522" y="421" fill="#e2e8f0" font-size="10" font-weight="600">DWL: Harberger Triangle Welfare Waste</text>
+</svg>
+</div>
 
 ### The Three Classic Policy Distortions:
 1. **Per-Unit Tax:** Drives a tax wedge ($T = P_c - P_s$) between the price paid by consumers ($P_c$) and received by producers ($P_s$). Output falls from $Q^*$ to $Q_t$. The lost surplus triangle not captured by government tax revenue is the **Deadweight Loss**.
@@ -2127,22 +2192,44 @@ $$\\text{Total Utility (TU)} = \\sum \\text{MU} \\qquad \\text{and} \\qquad \\te
 | **Point of Satiety** | $MU = 0$ (Zero) | $TU$ reaches its **Absolute Maximum** | Maximum possible satisfaction. |
 | **Over-Consumption** | $MU < 0$ (Negative) | $TU$ begins to **Decline** | Disutility / economic waste. |
 
-\`\`\`
-Utility
-  ^
-TU|          .---''''---.   (TU Maximized where MU = 0)
-  |        .'            '.
-  |       /                \
-  |      /                  \
-  |-----+--------------------+--------> Quantity (Q)
-  |    / \                  /
-MU|   /   \                /
-  |  /     \ (MU Curve)   /
-  | /       \            /
-  0----------*------------------------> Quantity (Q)
-  |           \ (Point of Satiety: MU=0)
-  |            \ (Disutility: MU < 0)
-\`\`\``,
+<div class="my-6 flex flex-col items-center">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<defs>
+<marker id="ut-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+</marker>
+</defs>
+<text x="370" y="30" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">CARDINAL UTILITY: TOTAL UTILITY (TU) VS MARGINAL UTILITY (MU)</text>
+<text x="370" y="48" text-anchor="middle" fill="#94a3b8" font-size="11">Gossen's First Law: Diminishing Marginal Utility &amp; Point of Absolute Satiety (MU = 0)</text>
+<line x1="90" y1="310" x2="680" y2="310" stroke="#94a3b8" stroke-width="2" marker-end="url(#ut-arrow)" />
+<line x1="90" y1="380" x2="90" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#ut-arrow)" />
+<text x="76" y="314" text-anchor="end" fill="#94a3b8" font-size="12" font-weight="600">0</text>
+<text x="95" y="72" text-anchor="start" fill="#f1f5f9" font-size="12" font-weight="700">▲ Utility (Utils)</text>
+<text x="670" y="325" text-anchor="end" fill="#f1f5f9" font-size="12" font-weight="700">Units Consumed (Q) ➔</text>
+<path d="M 90 280 C 180 140, 290 90, 420 90 C 490 90, 560 120, 620 180" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" />
+<text x="630" y="185" fill="#38bdf8" font-size="12" font-weight="700">Total Utility (TU)</text>
+<path d="M 90 140 L 420 310 L 560 380" fill="none" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round" />
+<text x="570" y="385" fill="#f59e0b" font-size="12" font-weight="700">Marginal Utility (MU)</text>
+<line x1="420" y1="90" x2="420" y2="350" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4 4" />
+<circle cx="420" cy="90" r="6" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+<circle cx="420" cy="310" r="6" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+<rect x="360" y="105" width="220" height="40" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+<text x="370" y="122" fill="#34d399" font-size="11" font-weight="700">MAX TOTAL UTILITY (TU_max)</text>
+<text x="370" y="137" fill="#cbd5e1" font-size="9.5">Achieved strictly when MU = 0</text>
+<rect x="430" y="270" width="180" height="34" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.2" />
+<text x="440" y="285" fill="#f87171" font-size="10.5" font-weight="700">POINT OF SATIETY</text>
+<text x="440" y="298" fill="#cbd5e1" font-size="9">MU = 0 (Zero extra satisfaction)</text>
+<text x="480" y="350" fill="#f87171" font-size="10.5" font-weight="600">Disutility (MU &lt; 0) ↓</text>
+<rect x="18" y="398" width="704" height="38" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+<circle cx="32" cy="417" r="5" fill="#38bdf8" />
+<text x="44" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Stage 1: TU rises while MU is positive</text>
+<circle cx="280" cy="417" r="5" fill="#10b981" />
+<text x="292" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Satiety Point: TU maximum at MU = 0</text>
+<circle cx="510" cy="417" r="5" fill="#ef4444" />
+<text x="522" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Stage 3: Over-consumption causes MU &lt; 0</text>
+</svg>
+</div>`,
         order: 2,
       },
       {
@@ -2319,21 +2406,46 @@ This realistic preference-ranking framework is **Ordinal Utility Theory** (Hicks
 3. **Higher Indifference Curves Represent Higher Satisfaction ($IC_3 > IC_2 > IC_1$):** Because more goods are preferred to fewer ("monotonicity of preferences").
 4. **Two Indifference Curves Can NEVER Intersect:** If they intersected, transitivity of preferences would be violated (A = B and B = C would imply A = C, creating a logical contradiction).
 
-\`\`\`
-Good Y
-  ^
-  |\ (Budget Line: Px*X + Py*Y = M)
-  | \
-  |  \       .---- IC3 (Unattainable)
-  |   \    .'
-  |    \  /
-  |     *E (Consumer Equilibrium: MRS = Px/Py)
-  |    / \'.
-  |   /   \ '-- IC2 (Optimal Choice)
-  |  /     \
-  | /       \--- IC1 (Sub-optimal)
-  +-------------------------> Good X
-\`\`\``,
+<div class="my-6 flex flex-col items-center">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<defs>
+<marker id="ord-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+</marker>
+</defs>
+<text x="370" y="30" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">ORDINAL UTILITY: INDIFFERENCE MAP &amp; CONSUMER EQUILIBRIUM TANGENCY</text>
+<text x="370" y="48" text-anchor="middle" fill="#94a3b8" font-size="11">Hicks-Allen Optimization: MRS_xy = P_x / P_y (Slope of IC = Slope of Budget Line)</text>
+<line x1="90" y1="360" x2="680" y2="360" stroke="#94a3b8" stroke-width="2" marker-end="url(#ord-arrow)" />
+<line x1="90" y1="360" x2="90" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#ord-arrow)" />
+<text x="76" y="374" text-anchor="end" fill="#94a3b8" font-size="12" font-weight="600">0</text>
+<text x="95" y="72" text-anchor="start" fill="#f1f5f9" font-size="12" font-weight="700">▲ Good Y (M/Py)</text>
+<text x="670" y="385" text-anchor="end" fill="#f1f5f9" font-size="12" font-weight="700">Good X (M/Px) ➔</text>
+<line x1="90" y1="100" x2="550" y2="360" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" />
+<text x="555" y="355" fill="#f59e0b" font-size="11.5" font-weight="700">Budget Line (BL)</text>
+<path d="M 120 280 C 180 200, 260 170, 480 150" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="3 3" />
+<text x="490" y="155" fill="#94a3b8" font-size="11" font-weight="600">IC_1 (Sub-optimal)</text>
+<path d="M 140 220 C 220 150, 310 180, 520 100" fill="none" stroke="#38bdf8" stroke-width="3.5" />
+<text x="530" y="105" fill="#38bdf8" font-size="11.5" font-weight="700">IC_2 (Optimal Tangent)</text>
+<path d="M 180 160 C 280 90, 390 120, 580 50" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="3 3" />
+<text x="590" y="55" fill="#94a3b8" font-size="11" font-weight="600">IC_3 (Unattainable)</text>
+<circle cx="280" cy="252" r="7" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+<line x1="90" y1="252" x2="280" y2="252" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3" />
+<line x1="280" y1="252" x2="280" y2="360" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3" />
+<text x="76" y="256" text-anchor="end" fill="#f1f5f9" font-size="11.5" font-weight="700">Y*</text>
+<text x="280" y="378" text-anchor="middle" fill="#f1f5f9" font-size="11.5" font-weight="700">X*</text>
+<rect x="300" y="235" width="220" height="38" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+<text x="310" y="251" fill="#34d399" font-size="11" font-weight="700">EQUILIBRIUM POINT E</text>
+<text x="310" y="265" fill="#cbd5e1" font-size="9.5">Tangency: MRS_xy = P_x / P_y</text>
+<rect x="18" y="398" width="704" height="38" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+<circle cx="32" cy="417" r="5" fill="#f59e0b" />
+<text x="44" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Budget Line: Income affordability boundary</text>
+<circle cx="280" cy="417" r="5" fill="#10b981" />
+<text x="292" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Point E: Tangency achieves highest utility</text>
+<circle cx="510" cy="417" r="5" fill="#38bdf8" />
+<text x="522" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Higher IC = Greater utility (IC3 &gt; IC2 &gt; IC1)</text>
+</svg>
+</div>`,
         order: 2,
       },
       {
@@ -2721,21 +2833,44 @@ $$\\text{Marginal Cost (MC)} = \\frac{d\\text{TC}}{dQ} = \\frac{d\\text{TVC}}{dQ
 * **Average Variable Cost (AVC) & Average Total Cost (ATC):** Both are **U-shaped** due to the Law of Variable Proportions (initial increasing returns lower per-unit costs; eventual diminishing returns drive per-unit costs up).
 * **Marginal Cost (MC):** U-shaped (Nike Swoosh). **$MC$ passes through the minimum points of BOTH $AVC$ and $ATC$**.
 
-\`\`\`
-Cost (₹)
-  ^
-  |          / (MC Curve)       / (ATC Curve)
-  |         /     .------------/
-  |        /    .'            / (AVC Curve)
-  |       /   .' .-----------/
-  |      /   / .'
-  |     /   / /
-  |    *---X-* (MC cuts AVC at min, then ATC at min)
-  |   /   /
-  |  /   /
-  | /   /--------------------- (AFC Curve: Rectangular Hyperbola)
-  +-------------------------> Quantity (Q)
-\`\`\`
+<div class="my-6 flex flex-col items-center">
+<svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<defs>
+<marker id="cst-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+</marker>
+</defs>
+<text x="370" y="30" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">SHORT-RUN COST FAMILY: MC, ATC, AVC &amp; AFC RELATIONSHIPS</text>
+<text x="370" y="48" text-anchor="middle" fill="#94a3b8" font-size="11">The Golden Rule: MC intersects both AVC and ATC at their exact minimum points</text>
+<line x1="90" y1="360" x2="680" y2="360" stroke="#94a3b8" stroke-width="2" marker-end="url(#cst-arrow)" />
+<line x1="90" y1="360" x2="90" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#cst-arrow)" />
+<text x="76" y="374" text-anchor="end" fill="#94a3b8" font-size="12" font-weight="600">0</text>
+<text x="95" y="72" text-anchor="start" fill="#f1f5f9" font-size="12" font-weight="700">▲ Cost (₹)</text>
+<text x="670" y="385" text-anchor="end" fill="#f1f5f9" font-size="12" font-weight="700">Output Quantity (Q) ➔</text>
+<path d="M 120 120 Q 220 320, 600 345" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="4 4" />
+<text x="605" y="348" fill="#94a3b8" font-size="11" font-weight="600">AFC (Rectangular Hyperbola)</text>
+<path d="M 130 220 Q 280 270, 600 190" fill="none" stroke="#f59e0b" stroke-width="3" />
+<text x="605" y="195" fill="#f59e0b" font-size="11.5" font-weight="700">AVC</text>
+<path d="M 130 160 Q 360 210, 600 130" fill="none" stroke="#38bdf8" stroke-width="3" />
+<text x="605" y="135" fill="#38bdf8" font-size="11.5" font-weight="700">ATC (AC)</text>
+<path d="M 130 260 Q 220 280, 270 252 T 360 196 T 550 75" fill="none" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" />
+<text x="560" y="80" fill="#ef4444" font-size="12" font-weight="700">MC (Marginal Cost)</text>
+<circle cx="270" cy="252" r="6" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+<circle cx="360" cy="196" r="6" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+<rect x="210" y="275" width="130" height="28" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+<text x="275" y="293" text-anchor="middle" fill="#34d399" font-size="9.5" font-weight="700">MIN AVC (Shutdown)</text>
+<rect x="330" y="150" width="130" height="28" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+<text x="395" y="168" text-anchor="middle" fill="#34d399" font-size="9.5" font-weight="700">MIN ATC (Break-Even)</text>
+<rect x="18" y="398" width="704" height="38" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+<circle cx="32" cy="417" r="5" fill="#ef4444" />
+<text x="44" y="421" fill="#e2e8f0" font-size="10" font-weight="600">MC: Cuts AVC and ATC at their minimums</text>
+<circle cx="280" cy="417" r="5" fill="#38bdf8" />
+<text x="292" y="421" fill="#e2e8f0" font-size="10" font-weight="600">Gap between ATC &amp; AVC narrows by AFC</text>
+<circle cx="510" cy="417" r="5" fill="#94a3b8" />
+<text x="522" y="421" fill="#e2e8f0" font-size="10" font-weight="600">AFC: Asymptotic to axes, never reaches 0</text>
+</svg>
+</div>
 
 ### 3. The Mathematical MC-ATC Relationship
 * When $MC < ATC \\implies ATC$ is **Falling**.
