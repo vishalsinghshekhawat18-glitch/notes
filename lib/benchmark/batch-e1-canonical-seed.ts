@@ -167,32 +167,104 @@ $$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost
 ### 3. Visual Geometry & Economic Efficiency Classifications
 The geometric model of the Production Possibility Frontier illustrates the trade-off between two goods and classifies an economy's operating state:
 
-\`\`\`text
-========================================================================================
-             THE PRODUCTION POSSIBILITY FRONTIER (PPF) DIAGRAM
-========================================================================================
+<div class="my-6 flex flex-col items-center">
+  <svg viewBox="0 0 740 450" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+    <!-- Background Card -->
+    <rect width="740" height="450" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+    
+    <defs>
+      <!-- Arrow marker -->
+      <marker id="axis-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+      </marker>
+      <!-- Gradient for Attainable Region -->
+      <linearGradient id="attainable-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25" />
+        <stop offset="100%" stop-color="#10b981" stop-opacity="0.05" />
+      </linearGradient>
+    </defs>
 
-  Good Y
-  (Capital Goods / Machinery)
-    ▲
-    │
-    │───● [Point A] (High Capital Goods / Low Consumer Goods)
-    │      \\
-    │       \\
-    │────────\\──────● [Point B] (Balanced Productive Efficiency)
-    │         \\        \\
-    │   ● [Point U]    \\                 ● [Point X]
-    │ (Inefficiency /   \\            (Unattainable in Short Run /
-    │  Unemployment)     \\            Overproduction Strain)
-    │                     \\
-    │──────────────────────\\──────● [Point C] (High Consumer Goods / Low Capital)
-    │                       \\        \\
-    │                        \\        \\  [PPF₁: Sustainable Capacity Boundary]
-    └─────────────────────────┴────────┴────────────────────────► Good X
-    0                                                             (Consumer Goods)
+    <!-- Title Header -->
+    <text x="370" y="32" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">THE PRODUCTION POSSIBILITY FRONTIER (PPF) — OUTPUT TRADEOFF &amp; EFFICIENCY</text>
+    <text x="370" y="50" text-anchor="middle" fill="#94a3b8" font-size="11">Concave to Origin due to the Law of Increasing Opportunity Cost (Marginal Rate of Transformation)</text>
 
-========================================================================================
-\`\`\`
+    <!-- Grid / Shaded Attainable Area -->
+    <path d="M 110 85 C 280 90, 470 175, 570 350 L 110 350 Z" fill="url(#attainable-fill)" />
+    <text x="210" y="315" fill="#475569" font-size="12" font-weight="600" letter-spacing="1">ATTAINABLE PRODUCTION SET</text>
+
+    <!-- Axes -->
+    <line x1="110" y1="350" x2="680" y2="350" stroke="#94a3b8" stroke-width="2" marker-end="url(#axis-arrow)" />
+    <line x1="110" y1="350" x2="110" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#axis-arrow)" />
+    <text x="96" y="364" text-anchor="end" fill="#94a3b8" font-size="12" font-weight="600">0</text>
+
+    <!-- Axis Labels -->
+    <text x="115" y="72" text-anchor="start" fill="#f1f5f9" font-size="12" font-weight="700">▲ Good Y: Capital Goods (Machinery, Technology)</text>
+    <text x="670" y="375" text-anchor="end" fill="#f1f5f9" font-size="12" font-weight="700">Good X: Consumer Goods (Food, Clothing) ➔</text>
+
+    <!-- PPF Curve -->
+    <path d="M 110 85 C 280 90, 470 175, 570 350" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" />
+    <text x="560" y="300" text-anchor="start" fill="#38bdf8" font-size="12" font-weight="700">PPF₁ (Capacity Boundary Y*)</text>
+
+    <!-- Dashed Projection Lines for Point A -->
+    <line x1="185" y1="93" x2="110" y2="93" stroke="#475569" stroke-width="1.2" stroke-dasharray="3 3" />
+    <line x1="185" y1="93" x2="185" y2="350" stroke="#475569" stroke-width="1.2" stroke-dasharray="3 3" />
+    <text x="96" y="97" text-anchor="end" fill="#94a3b8" font-size="10.5">Y_A</text>
+    <text x="185" y="367" text-anchor="middle" fill="#94a3b8" font-size="10.5">X_A</text>
+
+    <!-- Dashed Projection Lines for Point B -->
+    <line x1="366" y1="154" x2="110" y2="154" stroke="#475569" stroke-width="1.2" stroke-dasharray="3 3" />
+    <line x1="366" y1="154" x2="366" y2="350" stroke="#475569" stroke-width="1.2" stroke-dasharray="3 3" />
+    <text x="96" y="158" text-anchor="end" fill="#94a3b8" font-size="10.5">Y_B</text>
+    <text x="366" y="367" text-anchor="middle" fill="#94a3b8" font-size="10.5">X_B</text>
+
+    <!-- Dashed Projection Lines for Point C -->
+    <line x1="500" y1="256" x2="110" y2="256" stroke="#475569" stroke-width="1.2" stroke-dasharray="3 3" />
+    <line x1="500" y1="256" x2="500" y2="350" stroke="#475569" stroke-width="1.2" stroke-dasharray="3 3" />
+    <text x="96" y="260" text-anchor="end" fill="#94a3b8" font-size="10.5">Y_C</text>
+    <text x="500" y="367" text-anchor="middle" fill="#94a3b8" font-size="10.5">X_C</text>
+
+    <!-- Point A -->
+    <circle cx="185" cy="93" r="6.5" fill="#0284c7" stroke="#ffffff" stroke-width="2" />
+    <text x="195" y="86" fill="#38bdf8" font-size="12" font-weight="700">Point A</text>
+    <text x="195" y="99" fill="#94a3b8" font-size="10">(High Capital Goods)</text>
+
+    <!-- Point B -->
+    <circle cx="366" cy="154" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+    <text x="376" y="145" fill="#34d399" font-size="12" font-weight="700">Point B</text>
+    <text x="376" y="158" fill="#94a3b8" font-size="10">(Balanced Efficiency)</text>
+
+    <!-- Point C -->
+    <circle cx="500" cy="256" r="6.5" fill="#0284c7" stroke="#ffffff" stroke-width="2" />
+    <text x="512" y="248" fill="#38bdf8" font-size="12" font-weight="700">Point C</text>
+    <text x="512" y="261" fill="#94a3b8" font-size="10">(High Consumer Goods)</text>
+
+    <!-- Point U (Inside) -->
+    <circle cx="230" cy="230" r="7" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+    <line x1="230" y1="230" x2="255" y2="215" stroke="#f59e0b" stroke-width="1.2" />
+    <rect x="255" y="198" width="180" height="42" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2" />
+    <text x="263" y="214" fill="#fbbf24" font-size="11" font-weight="700">Point U (Inside Curve)</text>
+    <text x="263" y="230" fill="#cbd5e1" font-size="9.5">Inefficiency &amp; Idle Capacity (Y &lt; Y*)</text>
+
+    <!-- Point X (Outside) -->
+    <circle cx="500" cy="115" r="7" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+    <line x1="500" y1="115" x2="480" y2="100" stroke="#ef4444" stroke-width="1.2" />
+    <rect x="360" y="80" width="180" height="42" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.2" />
+    <text x="368" y="96" fill="#f87171" font-size="11" font-weight="700">Point X (Outside Curve)</text>
+    <text x="368" y="112" fill="#cbd5e1" font-size="9.5">Unattainable in LR / Overtime Strain</text>
+
+    <!-- Bottom Legend Bar -->
+    <rect x="20" y="395" width="700" height="40" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+    
+    <circle cx="42" cy="415" r="5" fill="#10b981" />
+    <text x="54" y="419" fill="#e2e8f0" font-size="10.5" font-weight="600">Points A, B, C: Productive Efficiency (Full Potential Y = Y*)</text>
+
+    <circle cx="360" cy="415" r="5" fill="#f59e0b" />
+    <text x="372" y="419" fill="#e2e8f0" font-size="10.5" font-weight="600">Point U: Slack / Unemployment (Y &lt; Y*)</text>
+
+    <circle cx="575" cy="415" r="5" fill="#ef4444" />
+    <text x="587" y="419" fill="#e2e8f0" font-size="10.5" font-weight="600">Point X: Overheating / Inflation (Y &gt; Y*)</text>
+  </svg>
+</div>
 
 | Location on Diagram | Economic Interpretation | Policy Meaning |
 |---|---|---|
