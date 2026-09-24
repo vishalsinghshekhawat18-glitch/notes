@@ -20,6 +20,7 @@ import { seedHindiMasterCanonicalKnowledge } from '@/lib/benchmark/batch-hindi-m
 import { seedPubAdLawsMasterCanonicalKnowledge } from '@/lib/benchmark/batch-pubad-laws-canonical-seed';
 import { seedEthicsBehaviorSportsCanonicalKnowledge } from '@/lib/benchmark/batch-ethics-behavior-sports-canonical-seed';
 import { seedRajasthanMasterCanonicalKnowledge } from '@/lib/benchmark/batch-rajasthan-master-canonical-seed';
+import { seedBatchComputerAptitudeCanonicalKnowledge } from '@/lib/benchmark/batch-computer-aptitude-canonical-seed';
 
 /**
  * Ensures that all canonical benchmark data (Polity, Economics, Science, IIBF, History, Quant, English, RPSC RAS)
@@ -49,6 +50,7 @@ export async function ensureCanonicalDataSeeded() {
     await seedPubAdLawsMasterCanonicalKnowledge();
     await seedEthicsBehaviorSportsCanonicalKnowledge();
     await seedRajasthanMasterCanonicalKnowledge();
+    await seedBatchComputerAptitudeCanonicalKnowledge();
   }
 }
 
@@ -81,6 +83,7 @@ const SUBJECT_CODE_MAP: Record<string, string> = {
   'iibf-banking-regulations': 'BNK-01',
   'ancient-indian-history': 'HIS-01',
   'quantitative-aptitude-and-data-interpretation': 'APT-01',
+  'computer-aptitude': 'CMP-01',
   'english-descriptive-writing': 'LAN-01',
   'modern-indian-history': 'HIS-02',
   'geography-and-environment': 'GEO-01',
@@ -97,6 +100,7 @@ const SUBJECT_CODE_MAP: Record<string, string> = {
   'ethics-behavior-sports': 'ETH-01',
   'general-hindi': 'HIN-01',
 };
+
 
 export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]> {
   await ensureCanonicalDataSeeded();

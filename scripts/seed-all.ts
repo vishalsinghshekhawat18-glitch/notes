@@ -35,6 +35,7 @@ import { seedHindiMasterCanonicalKnowledge } from '../lib/benchmark/batch-hindi-
 import { seedPubAdLawsMasterCanonicalKnowledge } from '../lib/benchmark/batch-pubad-laws-canonical-seed';
 import { seedEthicsBehaviorSportsCanonicalKnowledge } from '../lib/benchmark/batch-ethics-behavior-sports-canonical-seed';
 import { seedRajasthanMasterCanonicalKnowledge } from '../lib/benchmark/batch-rajasthan-master-canonical-seed';
+import { seedBatchComputerAptitudeCanonicalKnowledge } from '../lib/benchmark/batch-computer-aptitude-canonical-seed';
 
 export async function main() {
   console.log('Seeding canonical database for static build...');
@@ -116,6 +117,10 @@ export async function main() {
 
   // Seed Quantitative Aptitude & Data Interpretation (Batch 4: Geometry, Solids, Quadratics, Series, DS & Logic)
   await seedBatchQuantBatch4CanonicalKnowledge();
+
+  // Seed Computer Aptitude & Digital Banking Systems (Topics 1-7: 16 concepts)
+  await seedBatchComputerAptitudeCanonicalKnowledge();
+
 
   // Seed Basic Science & Scientific Literacy Master (Part 1: Topics 1-6: 26 concepts)
   await seedBasicScienceMasterCanonicalKnowledge();

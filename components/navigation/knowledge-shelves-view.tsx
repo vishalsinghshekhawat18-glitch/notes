@@ -29,8 +29,10 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
     subjectSlugs: [
       'quantitative-aptitude-and-data-interpretation', // #6
       'english-descriptive-writing',                   // #7
+      'computer-aptitude',                             // #11
       'government-schemes',                            // #10
     ],
+
   },
   {
     id: 'shelf-2',
@@ -123,6 +125,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     if (code.startsWith('BNK')) return { border: 'border-l-amber-600', badge: 'bg-amber-50 text-amber-900 border-amber-200' };
     if (code.startsWith('HIS')) return { border: 'border-l-orange-600', badge: 'bg-orange-50 text-orange-900 border-orange-200' };
     if (code.startsWith('APT')) return { border: 'border-l-blue-600', badge: 'bg-blue-50 text-blue-800 border-blue-200' };
+    if (code.startsWith('CMP')) return { border: 'border-l-indigo-600', badge: 'bg-indigo-50 text-indigo-900 border-indigo-200' };
     if (code.startsWith('LAN')) return { border: 'border-l-purple-600', badge: 'bg-purple-50 text-purple-800 border-purple-200' };
     if (code.startsWith('PUB')) return { border: 'border-l-rose-600', badge: 'bg-rose-50 text-rose-800 border-rose-200' };
     if (code.startsWith('GEO')) return { border: 'border-l-cyan-600', badge: 'bg-cyan-50 text-cyan-800 border-cyan-200' };
