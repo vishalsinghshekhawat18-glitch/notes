@@ -117,7 +117,88 @@ export const IIBF_MASTER_PART_1_CONCEPTS: MasterBankingConceptDefinition[] = [
       {
         "type": "MECHANISM",
         "title": "The Operational Hierarchy & Section 7 Invocation Workflow",
-        "body": "The governance mechanism operates through defined statutory channels:\n\n```mermaid\ngraph TD\n    CG[Central Government Ministry of Finance] -->|Sec 7 1 Mandatory Consultation| GOV[Governor of RBI]\n    CG -->|Issues Binding Directive in Public Interest| CB[Central Board of Directors]\n    CB -->|Sec 7 2 General Superintendence| EX[Executive Operations: Governor & 4 Deputy Governors]\n    LB[4 Local Boards: West, East, South, North] -->|Sec 9 Advise & Regional Feedback| CB\n    EX -->|Monetary & Prudential Regulations| RE[Regulated Banking & Financial Entities]\n```\n\n### Step-by-Step Institutional Mechanism of Section 7:\n1. **Public Interest Trigger:** The Central Government forms an opinion that a critical national economic emergency or policy deadlock necessitates binding directions.\n2. **Statutory Consultation:** Under Section 7(1), the Central Government *must* consult the RBI Governor. Consultation must be meaningful and documented.\n3. **Directive Issuance:** If divergence persists, Central Government issues written directions to the Central Board.\n4. **Board Execution:** Under Section 7(2), the Central Board executes the directive, exercising general superintendence.\n5. **Day-to-Day Delegation:** Under Section 7(3), the Governor (or in their absence, a Deputy Governor authorized by the Governor) exercises all powers that may be exercised by the Bank, subject to regulations made by the Central Board.",
+        "body": `The governance mechanism operates through defined statutory channels:
+
+<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 520" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<linearGradient id="rbiCgGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#b45309" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#78350f" stop-opacity="0.8" />
+</linearGradient>
+<linearGradient id="rbiGovGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#047857" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#064e3b" stop-opacity="0.8" />
+</linearGradient>
+<linearGradient id="rbiBoardGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0284c7" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#075985" stop-opacity="0.8" />
+</linearGradient>
+<linearGradient id="rbiExecGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#4f46e5" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#3730a3" stop-opacity="0.8" />
+</linearGradient>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+</marker>
+<marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+</marker>
+<marker id="arrow-emerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+</marker>
+</defs>
+<rect width="740" height="520" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="28" fill="#f8fafc" font-size="15" font-weight="700" text-anchor="middle">RBI OPERATIONAL HIERARCHY &amp; SECTION 7 INVOCATION WORKFLOW</text>
+<text x="370" y="46" fill="#94a3b8" font-size="11" text-anchor="middle">Reserve Bank of India Act, 1934: Sovereign Directives, Consultative Mandate &amp; Executive Powers</text>
+<rect x="200" y="65" width="340" height="55" rx="8" fill="url(#rbiCgGrad)" stroke="#f59e0b" stroke-width="1.5" />
+<text x="370" y="88" fill="#fef3c7" font-size="13" font-weight="700" text-anchor="middle">CENTRAL GOVERNMENT (Ministry of Finance)</text>
+<text x="370" y="105" fill="#fde68a" font-size="10.5" text-anchor="middle">Sovereign Authority · Formulates Opinion on "Public Interest"</text>
+<path d="M 270,120 L 150,175" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow-amber)" />
+<rect x="75" y="132" width="165" height="24" rx="4" fill="#1e293b" stroke="#f59e0b" stroke-width="1" />
+<text x="157" y="148" fill="#fcd34d" font-size="9.5" font-weight="600" text-anchor="middle">Sec 7(1): Mandatory Consultation</text>
+<rect x="50" y="180" width="200" height="58" rx="8" fill="url(#rbiGovGrad)" stroke="#10b981" stroke-width="1.5" />
+<text x="150" y="204" fill="#ecfdf5" font-size="12" font-weight="700" text-anchor="middle">GOVERNOR OF RBI</text>
+<text x="150" y="222" fill="#a7f3d0" font-size="10" text-anchor="middle">Head of Apex Monetary Authority</text>
+<path d="M 470,120 L 470,175" fill="none" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrow-amber)" />
+<rect x="475" y="136" width="220" height="24" rx="4" fill="#1e293b" stroke="#f59e0b" stroke-width="1" />
+<text x="585" y="152" fill="#fcd34d" font-size="9.5" font-weight="600" text-anchor="middle">Sec 7(1): Binding Written Directions</text>
+<rect x="330" y="180" width="365" height="75" rx="8" fill="url(#rbiBoardGrad)" stroke="#38bdf8" stroke-width="1.5" />
+<text x="512" y="202" fill="#f0f9ff" font-size="13" font-weight="700" text-anchor="middle">CENTRAL BOARD OF DIRECTORS (Section 8)</text>
+<text x="512" y="219" fill="#bae6fd" font-size="10" text-anchor="middle">• Governor + Max 4 Deputy Governors [Sec 8(1)(a)] · 4 Local Board Reps [Sec 8(1)(b)]</text>
+<text x="512" y="235" fill="#bae6fd" font-size="10" text-anchor="middle">• 10 Non-Official Experts [Sec 8(1)(c)] · 2 Govt Nominee Officials [Sec 8(1)(d)]</text>
+<text x="512" y="248" fill="#7dd3fc" font-size="9.5" font-weight="600" text-anchor="middle">Entrusted with General Superintendence under Sec 7(2)</text>
+<rect x="50" y="275" width="200" height="60" rx="8" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" />
+<text x="150" y="297" fill="#e0e7ff" font-size="11.5" font-weight="700" text-anchor="middle">4 LOCAL BOARDS (Sec 9)</text>
+<text x="150" y="313" fill="#c7d2fe" font-size="9.5" text-anchor="middle">Mumbai, Kolkata, Chennai, New Delhi</text>
+<text x="150" y="327" fill="#a5b4fc" font-size="9" text-anchor="middle">5 Members each (4-Year Tenure)</text>
+<path d="M 250,305 L 340,305 L 430,260" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-dasharray="4,3" marker-end="url(#arrow-sky)" />
+<rect x="235" y="275" width="135" height="20" rx="3" fill="#0f172a" stroke="#818cf8" stroke-width="0.8" />
+<text x="302" y="289" fill="#c7d2fe" font-size="8.5" text-anchor="middle">Sec 9: Regional Advice</text>
+<path d="M 512,255 L 512,320" fill="none" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow-sky)" />
+<rect x="420" y="275" width="185" height="22" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+<text x="512" y="290" fill="#bae6fd" font-size="9.5" font-weight="600" text-anchor="middle">Sec 7(2): Superintendence Transfer</text>
+<rect x="330" y="325" width="365" height="62" rx="8" fill="url(#rbiExecGrad)" stroke="#818cf8" stroke-width="1.5" />
+<text x="512" y="347" fill="#f5f3ff" font-size="12.5" font-weight="700" text-anchor="middle">EXECUTIVE OPERATIONS &amp; MANAGEMENT</text>
+<text x="512" y="364" fill="#ddd6fe" font-size="10" text-anchor="middle">Governor &amp; 4 Deputy Governors [Section 7(3) &amp; Section 8(1)(a)]</text>
+<text x="512" y="378" fill="#c4b5fd" font-size="9.5" text-anchor="middle">Exercises all powers of the Bank subject to Central Board Regulations</text>
+<path d="M 512,387 L 512,425" fill="none" stroke="#10b981" stroke-width="2.5" marker-end="url(#arrow-emerald)" />
+<rect x="400" y="396" width="225" height="20" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+<text x="512" y="410" fill="#a7f3d0" font-size="9" font-weight="600" text-anchor="middle">Monetary Policy, CRR, SLR &amp; Prudential Directives</text>
+<rect x="50" y="430" width="645" height="42" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+<text x="372" y="448" fill="#f0fdf4" font-size="12" font-weight="700" text-anchor="middle">REGULATED BANKING &amp; FINANCIAL ENTITIES (REs)</text>
+<text x="372" y="463" fill="#a7f3d0" font-size="10" text-anchor="middle">Public &amp; Private Commercial Banks · Regional Rural Banks (RRBs) · Cooperative Banks · SFBs · NBFCs · AIFIs</text>
+<rect x="50" y="478" width="645" height="34" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+<text x="372" y="499" fill="#94a3b8" font-size="9.5" text-anchor="middle"><tspan fill="#f59e0b" font-weight="700">EXAMINER KEYNOTE:</tspan> Sec 7 has never been formally invoked to issue final directions in India's history (consultation initiated once in 2018).</text>
+</svg>
+</div>
+
+### Step-by-Step Institutional Mechanism of Section 7:
+1. **Public Interest Trigger:** The Central Government forms an opinion that a critical national economic emergency or policy deadlock necessitates binding directions.
+2. **Statutory Consultation:** Under Section 7(1), the Central Government *must* consult the RBI Governor. Consultation must be meaningful and documented.
+3. **Directive Issuance:** If divergence persists, Central Government issues written directions to the Central Board.
+4. **Board Execution:** Under Section 7(2), the Central Board executes the directive, exercising general superintendence.
+5. **Day-to-Day Delegation:** Under Section 7(3), the Governor (or in their absence, a Deputy Governor authorized by the Governor) exercises all powers that may be exercised by the Bank, subject to regulations made by the Central Board.`,
         "order": 3
       },
       {
@@ -294,7 +375,81 @@ export const IIBF_MASTER_PART_1_CONCEPTS: MasterBankingConceptDefinition[] = [
       {
         "type": "MECHANISM",
         "title": "Currency Issue and Emergency Liquidity Workflows",
-        "body": "```mermaid\ngraph TD\n    subgraph Issue Department [RBI Issue Department - Sec 33]\n        GOLD[Gold Coin & Bullion: Min ₹115 Cr] --> RES[Total Min Reserve: ₹200 Cr]\n        FOR[Foreign Securities: Max ₹85 Cr] --> RES\n        RES --> NOTE[Bank Notes Issued: Sec 22]\n    end\n    subgraph Banking Department [RBI Banking Department - Sec 17/18/20]\n        GOV[Central & State Governments] -->|Sec 20/21/21A Deposits & WMA Sec 17 5| BD[Banking Department]\n        BANKS[Scheduled Commercial Banks] -->|CRR Balances & Settlement Accounts| BD\n        BD -->|Sec 17 Standard Refinance / Repo| BANKS\n        BD -->|Sec 18 Emergency LoLR Accommodation| BANKS\n    end\n```\n\n### Institutional Step-by-Step Mechanisms:\n1. **Banknote Issuance Protocol:** Under Section 22, the Issue Department issues bank notes. Under Section 33, assets held in the Issue Department (Gold + Foreign Securities + Rupee Securities) must match total liabilities (notes in circulation + notes in banking dept). Under the Minimum Reserve System (adopted in 1956/1957), RBI maintains at least ₹200 Crore in gold and foreign securities, of which gold coin/bullion must be at least ₹115 Crore.\n2. **Ways and Means Advances (WMA) Lifecycle:** When Government expenditure temporarily exceeds tax revenues, RBI extends WMA under Sec 17(5). Interest is charged at Policy Repo Rate. WMA must be repaid within 90 days. If WMA exceeds limit for >14 consecutive working days, it enters Overdraft, subject to penal interest (Repo + 2%).\n3. **Lender of Last Resort (LoLR) Trigger:** When a solvent bank faces an acute liquidity shock and cannot borrow in interbank call money or standard LAF repo due to lack of eligible G-Secs, RBI invokes Section 18 to discount commercial paper or grant advances against other acceptable securities.",
+        "body": `<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+<svg viewBox="0 0 740 500" width="100%" height="auto" style="max-width: 720px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<defs>
+<linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#b45309" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#78350f" stop-opacity="0.8" />
+</linearGradient>
+<linearGradient id="bankDeptGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0284c7" stop-opacity="0.9" />
+<stop offset="100%" stop-color="#075985" stop-opacity="0.8" />
+</linearGradient>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+</marker>
+<marker id="arrow-sky2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+</marker>
+<marker id="arrow-emerald2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+</marker>
+</defs>
+<rect width="740" height="500" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+<text x="370" y="28" fill="#f8fafc" font-size="15" font-weight="700" text-anchor="middle">RBI INSTITUTIONAL SILOS: ISSUE DEPT VS. BANKING DEPT</text>
+<text x="370" y="46" fill="#94a3b8" font-size="11" text-anchor="middle">Reserve Bank of India Act, 1934: Currency Monopoly, Minimum Reserve System &amp; LoLR Architecture</text>
+<rect x="35" y="65" width="320" height="375" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+<rect x="35" y="65" width="320" height="38" rx="10" fill="url(#goldGrad)" />
+<text x="195" y="89" fill="#fef3c7" font-size="13" font-weight="700" text-anchor="middle">ISSUE DEPARTMENT (Section 33)</text>
+<rect x="50" y="115" width="290" height="85" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" />
+<text x="195" y="135" fill="#fcd34d" font-size="11.5" font-weight="700" text-anchor="middle">MINIMUM RESERVE SYSTEM (MRS)</text>
+<text x="195" y="153" fill="#cbd5e1" font-size="10.5" text-anchor="middle">Total Statutory Minimum: <tspan fill="#f59e0b" font-weight="700">₹200 Crore</tspan></text>
+<text x="195" y="171" fill="#cbd5e1" font-size="10" text-anchor="middle">• Gold Coin &amp; Bullion : <tspan fill="#10b981" font-weight="700">Min ₹115 Crore</tspan></text>
+<text x="195" y="187" fill="#cbd5e1" font-size="10" text-anchor="middle">• Foreign Securities : <tspan fill="#38bdf8" font-weight="700">Max ₹85 Crore</tspan></text>
+<path d="M 195,200 L 195,230" fill="none" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow-gold)" />
+<rect x="50" y="235" width="290" height="80" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+<text x="195" y="255" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="middle">BANK NOTE ISSUANCE (Section 22)</text>
+<text x="195" y="273" fill="#94a3b8" font-size="10" text-anchor="middle">Legal Tender across India (Section 26)</text>
+<text x="195" y="291" fill="#a7f3d0" font-size="10" text-anchor="middle">Denominations: ₹2 to ₹10,000 (Sec 24)</text>
+<text x="195" y="307" fill="#cbd5e1" font-size="9.5" text-anchor="middle">Signed by: <tspan fill="#10b981" font-weight="700">Governor of the RBI</tspan></text>
+<rect x="50" y="330" width="290" height="95" rx="6" fill="#18181b" stroke="#f43f5e" stroke-width="1" stroke-dasharray="4,3" />
+<text x="195" y="350" fill="#fecdd3" font-size="11" font-weight="700" text-anchor="middle">⚠️ EXAMINER STATUTORY TRAP:</text>
+<text x="195" y="369" fill="#fda4af" font-size="9.5" text-anchor="middle">₹1 Notes &amp; All Coins are issued by:</text>
+<text x="195" y="386" fill="#ffffff" font-size="10" font-weight="700" text-anchor="middle">Ministry of Finance (Coinage Act 2011)</text>
+<text x="195" y="403" fill="#cbd5e1" font-size="9.5" text-anchor="middle">Signed by: <tspan fill="#f59e0b" font-weight="700">Finance Secretary</tspan> (Put into</text>
+<text x="195" y="418" fill="#cbd5e1" font-size="9.5" text-anchor="middle">circulation exclusively by RBI)</text>
+<rect x="385" y="65" width="320" height="375" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+<rect x="385" y="65" width="320" height="38" rx="10" fill="url(#bankDeptGrad)" />
+<text x="545" y="89" fill="#f0f9ff" font-size="13" font-weight="700" text-anchor="middle">BANKING DEPARTMENT (Sec 17/18/20)</text>
+<rect x="400" y="115" width="290" height="85" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+<text x="545" y="135" fill="#7dd3fc" font-size="11.5" font-weight="700" text-anchor="middle">BANKER TO GOVERNMENTS (Sec 20/21/21A)</text>
+<text x="545" y="153" fill="#cbd5e1" font-size="10" text-anchor="middle">• Central Govt: Statutory Mandatory Agency</text>
+<text x="545" y="169" fill="#cbd5e1" font-size="10" text-anchor="middle">• State Govts: Bilateral Agreements (Sec 21A)</text>
+<text x="545" y="187" fill="#fde68a" font-size="9.5" font-weight="600" text-anchor="middle">Ways &amp; Means Advances WMA $\\le$ 90 Days [Sec 17(5)]</text>
+<path d="M 545,200 L 545,230" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow-sky2)" />
+<rect x="400" y="235" width="290" height="95" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+<text x="545" y="255" fill="#a7f3d0" font-size="11.5" font-weight="700" text-anchor="middle">BANKER TO BANKS &amp; REGULATION</text>
+<text x="545" y="273" fill="#cbd5e1" font-size="10" text-anchor="middle">• Holds CRR Balances (Sec 42 of RBI Act)</text>
+<text x="545" y="289" fill="#cbd5e1" font-size="10" text-anchor="middle">• Clearing House &amp; Interbank RTGS Settlement</text>
+<text x="545" y="307" fill="#cbd5e1" font-size="10" text-anchor="middle">• Standard Liquidity: LAF Repo &amp; MSF (Sec 17)</text>
+<text x="545" y="322" fill="#7dd3fc" font-size="9" text-anchor="middle">Discounting eligible bills of exchange &amp; G-Secs</text>
+<path d="M 545,330 L 545,348" fill="none" stroke="#10b981" stroke-width="2" marker-end="url(#arrow-emerald2)" />
+<rect x="400" y="352" width="290" height="75" rx="6" fill="#18181b" stroke="#10b981" stroke-width="1" />
+<text x="545" y="372" fill="#ecfdf5" font-size="11" font-weight="700" text-anchor="middle">LENDER OF LAST RESORT - LoLR (Sec 18)</text>
+<text x="545" y="390" fill="#a7f3d0" font-size="9.5" text-anchor="middle">Emergency liquidity during systemic stress</text>
+<text x="545" y="406" fill="#cbd5e1" font-size="9.5" text-anchor="middle">Advances against non-standard eligible securities</text>
+<text x="545" y="420" fill="#fcd34d" font-size="9" font-weight="600" text-anchor="middle">Prevents solvent bank runs &amp; systemic contagion</text>
+<rect x="35" y="450" width="670" height="38" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+<text x="370" y="468" fill="#e2e8f0" font-size="10" text-anchor="middle"><tspan fill="#38bdf8" font-weight="700">BALANCE SHEET ISOLATION:</tspan> Issue Dept liabilities (Notes in Circulation) are 100% matched by statutory assets.</text>
+<text x="370" y="482" fill="#94a3b8" font-size="9.5" text-anchor="middle">Banking Dept holds government &amp; bank deposits and conducts open market operations (OMO).</text>
+</svg>
+</div>
+
+### Institutional Step-by-Step Mechanisms:
+1. **Banknote Issuance Protocol:** Under Section 22, the Issue Department issues bank notes. Under Section 33, assets held in the Issue Department (Gold + Foreign Securities + Rupee Securities) must match total liabilities (notes in circulation + notes in banking dept). Under the Minimum Reserve System (adopted in 1956/1957), RBI maintains at least ₹200 Crore in gold and foreign securities, of which gold coin/bullion must be at least ₹115 Crore.
+2. **Ways and Means Advances (WMA) Lifecycle:** When Government expenditure temporarily exceeds tax revenues, RBI extends WMA under Sec 17(5). Interest is charged at Policy Repo Rate. WMA must be repaid within 90 days. If WMA exceeds limit for >14 consecutive working days, it enters Overdraft, subject to penal interest (Repo + 2%).
+3. **Lender of Last Resort (LoLR) Trigger:** When a solvent bank faces an acute liquidity shock and cannot borrow in interbank call money or standard LAF repo due to lack of eligible G-Secs, RBI invokes Section 18 to discount commercial paper or grant advances against other acceptable securities.`,
         "order": 3
       },
       {
