@@ -16,7 +16,7 @@ export function MarkdownContent({ content, className = '' }: MarkdownContentProp
 
   return (
     <div
-      className={`markdown-content ${className}`}
+      className={`markdown-content overflow-x-hidden max-w-full ${className}`}
       dangerouslySetInnerHTML={{ __html: parsedHtml }}
     />
   );

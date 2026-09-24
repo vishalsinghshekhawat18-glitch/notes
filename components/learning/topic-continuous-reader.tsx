@@ -217,7 +217,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
   };
 
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-900 font-sans pb-24">
+    <div className="min-h-screen bg-stone-50 text-stone-900 font-sans pb-24 overflow-x-hidden max-w-full">
       {/* Sticky Top Reader Header */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-2xs">
         <div className="w-full px-4 sm:px-6 py-2 flex items-center justify-between gap-4">
@@ -310,7 +310,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
       </header>
 
       {/* Reader Layout: Left Sidebar + Center Reading Content */}
-      <div className="flex w-full min-h-[calc(100vh-3.5rem)]">
+      <div className="flex w-full min-h-[calc(100vh-3.5rem)] overflow-x-hidden max-w-full">
         {isSidebarOpen && (
           <ChapterNavigationSidebar
             subjectName={topic.subject.name}
@@ -326,7 +326,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
         )}
 
         {/* Main Chapter Content Body */}
-        <main className="flex-1 min-w-0 max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8 space-y-12">
+        <main className="flex-1 min-w-0 max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8 space-y-12 overflow-x-hidden">
         {/* Chapter Introduction Hero */}
         <section className="border-b border-stone-200 pb-6">
           <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">

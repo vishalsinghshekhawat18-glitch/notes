@@ -15,11 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="bg-[#f7f5f0] text-stone-900 antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100">
+    <html lang="en" className="overflow-x-hidden">
+      <body className="bg-[#f7f5f0] text-stone-900 antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-hidden max-w-full">
         <ServiceWorkerCleaner />
         <SiteHeader />
-        <main className="flex-1">
+        <main className="flex-1 overflow-x-hidden max-w-full">
           {children}
         </main>
         <footer className="border-t border-[#e5dfd3] bg-[#f2efe7]/80 py-8 text-center text-xs text-stone-600 font-mono">

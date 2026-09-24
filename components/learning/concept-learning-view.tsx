@@ -138,7 +138,7 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6 font-sans">
+    <div className="max-w-7xl mx-auto px-4 py-6 font-sans overflow-x-hidden max-w-full">
       <div className="flex gap-8 items-start">
         {/* Left Navigation Sidebar (Topic Concepts) */}
         <aside className="hidden lg:block w-72 shrink-0 sticky top-20 bg-white border border-stone-200 rounded-xl p-4 shadow-xs max-h-[calc(100vh-6rem)] overflow-y-auto">

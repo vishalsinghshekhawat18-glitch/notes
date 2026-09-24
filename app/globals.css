@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
   body {
+    overflow-x: hidden;
+    max-width: 100%;
     color: #1c1917;
     background-color: #f7f5f0;
     background-image: 
@@ -49,6 +55,8 @@ div[data-next-badge] {
 .markdown-content {
   color: #292524;
   line-height: 1.75;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .markdown-content h1 {
@@ -197,7 +205,9 @@ div[data-next-badge] {
   border-left: 4px solid #065f46;
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;
-  overflow-x: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   margin: 1rem 0;
   white-space: pre-wrap;
   word-break: break-word;
@@ -205,6 +215,26 @@ div[data-next-badge] {
   font-family: inherit;
   font-size: 0.9375rem;
   line-height: 1.75;
+}
+
+.markdown-content pre::-webkit-scrollbar {
+  display: none;
+}
+
+.markdown-content svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.katex-display::-webkit-scrollbar {
+  display: none;
 }
 
 .markdown-content pre code {
