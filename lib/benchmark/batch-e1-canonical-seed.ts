@@ -164,12 +164,41 @@ $$\\text{MRT}_{xy} = -\\frac{\\Delta Y}{\\Delta X} = \\frac{\\text{Marginal Cost
 
 ---
 
-### 3. Economic Efficiency Classifications
+### 3. Visual Geometry & Economic Efficiency Classifications
+The geometric model of the Production Possibility Frontier illustrates the trade-off between two goods and classifies an economy's operating state:
+
+\`\`\`text
+========================================================================================
+             THE PRODUCTION POSSIBILITY FRONTIER (PPF) DIAGRAM
+========================================================================================
+
+  Good Y
+  (Capital Goods / Machinery)
+    ▲
+    │
+    │───● [Point A] (High Capital Goods / Low Consumer Goods)
+    │      \\
+    │       \\
+    │────────\\──────● [Point B] (Balanced Productive Efficiency)
+    │         \\        \\
+    │   ● [Point U]    \\                 ● [Point X]
+    │ (Inefficiency /   \\            (Unattainable in Short Run /
+    │  Unemployment)     \\            Overproduction Strain)
+    │                     \\
+    │──────────────────────\\──────● [Point C] (High Consumer Goods / Low Capital)
+    │                       \\        \\
+    │                        \\        \\  [PPF₁: Sustainable Capacity Boundary]
+    └─────────────────────────┴────────┴────────────────────────► Good X
+    0                                                             (Consumer Goods)
+
+========================================================================================
+\`\`\`
+
 | Location on Diagram | Economic Interpretation | Policy Meaning |
 |---|---|---|
-| **Points on the Curve ($A, B, C$)** | **Productive Efficiency** | Full employment of all resources and optimal technology utilization. |
-| **Points Inside the Curve ($U$)** | **Inefficiency / Underutilization** | Unemployment, idle factory capacity, or misallocated resources. |
-| **Points Outside the Curve ($X$)** | **Unattainable in Short Run** | Requires economic growth (capital accumulation, technological progress, or labour force expansion) to reach. |
+| **Points on the Curve ($A, B, C$)** | **Productive Efficiency** | Full employment of all resources and optimal technology utilization. Moving between A, B, and C requires sacrificing one good to produce more of the other (Opportunity Cost). |
+| **Points Inside the Curve ($U$)** | **Inefficiency / Underutilization** | Unemployment, idle factory capacity, or misallocated resources. Society can increase production of *both* goods simultaneously without any opportunity cost. |
+| **Points Outside the Curve ($X$)** | **Unattainable in Short Run** | Exceeds the economy's current physical capacity. Can only be reached sustainably through long-run economic growth (capital accumulation, technological progress) or temporarily via unsustainable short-run overproduction strain. |
 
 ---
 
