@@ -221,13 +221,13 @@ The geometric model of the Production Possibility Frontier illustrates the trade
 <rect x="360" y="80" width="180" height="42" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.2" />
 <text x="368" y="96" fill="#f87171" font-size="11" font-weight="700">Point X (Outside Curve)</text>
 <text x="368" y="112" fill="#cbd5e1" font-size="9.5">Unattainable in LR / Overtime Strain</text>
-<rect x="20" y="395" width="700" height="40" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
-<circle cx="42" cy="415" r="5" fill="#10b981" />
-<text x="54" y="419" fill="#e2e8f0" font-size="10.5" font-weight="600">Points A, B, C: Productive Efficiency (Full Potential Y = Y*)</text>
-<circle cx="360" cy="415" r="5" fill="#f59e0b" />
-<text x="372" y="419" fill="#e2e8f0" font-size="10.5" font-weight="600">Point U: Slack / Unemployment (Y &lt; Y*)</text>
-<circle cx="575" cy="415" r="5" fill="#ef4444" />
-<text x="587" y="419" fill="#e2e8f0" font-size="10.5" font-weight="600">Point X: Overheating / Inflation (Y &gt; Y*)</text>
+<rect x="18" y="395" width="704" height="40" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+<circle cx="32" cy="415" r="5" fill="#10b981" />
+<text x="42" y="419" fill="#e2e8f0" font-size="10" font-weight="600">Points A, B, C: Full Efficiency (Y = Y*)</text>
+<circle cx="285" cy="415" r="5" fill="#f59e0b" />
+<text x="295" y="419" fill="#e2e8f0" font-size="10" font-weight="600">Point U: Slack / Unemployment (Y &lt; Y*)</text>
+<circle cx="510" cy="415" r="5" fill="#ef4444" />
+<text x="520" y="419" fill="#e2e8f0" font-size="10" font-weight="600">Point X: Overheating / Inflation (Y &gt; Y*)</text>
 </svg>
 </div>
 
