@@ -75,7 +75,7 @@
 
 
 ```latex
-
+G = \frac{\text{Area } A}{\text{Area } A + \text{Area } B} = 2A = 1 - 2B
 ```
 
 *Explanation:* Ratio of area between Lorenz curve and line of perfect equality.
@@ -91,7 +91,7 @@
 🗺️ Income Distribution & Inequality Geometry
 
 
-1. Line of Perfect Equality: 45-degree diagonal line where $x%$ of population owns exactly $x%$ of total national income.
+1. Line of Perfect Equality: 45-degree diagonal line where $x\%$ of population owns exactly $x\%$ of total national income.
 
 
 2. Lorenz Curve (Max O. Lorenz, 1905): Convex curve plotting cumulative percentage of population against cumulative percentage of income earned.
@@ -100,7 +100,7 @@
 3. Gini Coefficient (Corrado Gini, 1912): Mathematical ratio of area between Line of Equality and Lorenz Curve ($A$) divided by total area under Line of Equality ($A + B$).
 
 
-4. Index Scale: $0$ represents Perfect Equality (everyone has equal income); $1$ or $100%$ represents Absolute Inequality (1 person owns all income).
+4. Index Scale: $0$ represents Perfect Equality (everyone has equal income); $1$ or $100\%$ represents Absolute Inequality (1 person owns all income).
 
 
 ### ⚡ 1. Geometry of the Lorenz Curve & Gini Ratio
@@ -130,7 +130,7 @@ Where:
 
 
 • **World Inequality Report Data:** Top 1% in India holds over 22% of national income, while bottom 50% holds ~15%.
-• **Consumption vs. Income Gini:** India's Consumption Gini (derived from NSO MPCE data) is lower ($sim 0.35$) than its Income/Wealth Gini ($sim 0.75$), because consumption inequality is bounded by physical survival limits.
+• **Consumption vs. Income Gini:** India's Consumption Gini (derived from NSO MPCE data) is lower ($\sim 0.35$) than its Income/Wealth Gini ($\sim 0.75$), because consumption inequality is bounded by physical survival limits.
 
 
 ### ⚖️ 4. Common Prelims & Mains Traps
@@ -215,7 +215,7 @@ $$\text{Gini} = \frac{A}{A + B} = \frac{0.15}{0.15 + 0.35} = \frac{0.15}{0.50} =
 
 • **Cost A2:** Includes all paid-out expenses directly incurred by farmer (seeds, fertilizers, pesticides, hired labor, fuel, irrigation).
 • **Cost A2 + FL:** Includes **Cost A2 + Imputed value of Unpaid Family Labor**. *(Official basis for 1.5x MSP formula!)*.
-• **Cost C2:** Comprehensive cost = $	ext{Cost A2+FL} + 	ext{Imputed rental value of owned land} + 	ext{Interest on owned fixed capital assets}$.
+• **Cost C2:** Comprehensive cost = $\text{Cost A2+FL} + \text{Imputed rental value of owned land} + \text{Interest on owned fixed capital assets}$.
 
 
 ### 📖 2. 22 Mandated Crops Breakdown Table
@@ -264,8 +264,8 @@ $$\text{Gini} = \frac{A}{A + B} = \frac{0.15}{0.15 + 0.35} = \frac{0.15}{0.50} =
 **Resolution:**
 
 
-• $A2 + FL = 800 + 400 = mathbf{₹1,200	ext{/quintal}}$.
-• $	ext{Minimum MSP} = 1.5 	imes (A2+FL) = 1.5 	imes 1200 = mathbf{₹1,800	ext{/quintal}}$.
+• $A2 + FL = 800 + 400 = \mathbf{₹1,200\text{/quintal}}$.
+• $\text{Minimum MSP} = 1.5 \times (A2+FL) = 1.5 \times 1200 = \mathbf{₹1,800\text{/quintal}}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -273,7 +273,7 @@ $$\text{Gini} = \frac{A}{A + B} = \frac{0.15}{0.15 + 0.35} = \frac{0.15}{0.50} =
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Swaminathan MSP Formula: MSP is recommended at $1.5 \times \text{Cost } C_2$ (comprehensive cost including imputed rent and interest on capital), but GOI currently fixes MSP at $1.5 \times (A_2 + \text{FL})$ (actual paid-out costs + imputed value of family labour). Note: CACP only *recommends* MSP; final notification is approved by CCEA (Cabinet Committee on Economic Affairs).
 
 
 ---
@@ -440,7 +440,7 @@ Sen classified economic access into **4 Legal Entitlements**:
 India's Forex Reserves held by RBI consist of **4 distinct assets**:
 
 
-• **Foreign Currency Assets (FCA):** Multi-currency liquid holdings (US Dollars, Euros, Pounds, Yen). *Largest component ($>85%$)!*.
+• **Foreign Currency Assets (FCA):** Multi-currency liquid holdings (US Dollars, Euros, Pounds, Yen). *Largest component ($>85\%$)!*.
 • **Gold:** Physical monetary gold held in RBI vaults & Bank of England.
 • **Special Drawing Rights (SDRs):** International reserve asset created by IMF based on a 5-currency basket (USD, EUR, RMB, JPY, GBP).
 • **Reserve Tranche Position (RTP):** Mandatory reserve quotient maintained by India with IMF.
@@ -470,12 +470,12 @@ India's Forex Reserves held by RBI consist of **4 distinct assets**:
 
 
 #### Tier 2 — Applied Scenario
-**Scenario:** India records a Merchandise Trade Deficit of $180 Billion, an Invisibles Surplus of $110 Billion, and a Capital Account Net Inflow of $85 Billion. Calculate the overall BoP Balance.  
+**Scenario:** India records a Merchandise Trade Deficit of \$180 Billion, an Invisibles Surplus of \$110 Billion, and a Capital Account Net Inflow of \$85 Billion. Calculate the overall BoP Balance.  
 **Resolution:**
 
 
-• $	ext{Current Account Balance} = 	ext{Invisibles} - 	ext{Trade Deficit} = 110 - 180 = -mathbf{$70	ext{ Billion}}$.
-• $	ext{Overall BoP Balance} = 	ext{Current Account} + 	ext{Capital Account} = -70 + 85 = mathbf{+$15	ext{ Billion}}$ (Surplus added to RBI Forex reserves!).
+• $\text{Current Account Balance} = \text{Invisibles} - \text{Trade Deficit} = 110 - 180 = -\mathbf{\$70\text{ Billion}}$.
+• $\text{Overall BoP Balance} = \text{Current Account} + \text{Capital Account} = -70 + 85 = +\mathbf{\$15\text{ Billion}}$ (Surplus added to RBI Forex reserves!).
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -504,7 +504,7 @@ India's Forex Reserves held by RBI consist of **4 distinct assets**:
 
 
 ```latex
-
+\text{CRAR} = \frac{\text{Tier 1 Capital} + \text{Tier 2 Capital}}{\text{Risk-Weighted Assets (RWA)}} \ge 9\% \quad (\text{RBI Norm})
 ```
 
 *Explanation:* Basel III Capital Adequacy Ratio requirement (minimum 9% for Indian Banks).
@@ -577,7 +577,7 @@ Different bank assets carry different risk weights:
 
 
 #### Tier 2 — Applied Scenario
-**Scenario:** A commercial bank has Tier 1 Capital of ₹6,000 Cr, Tier 2 Capital of ₹3,000 Cr, and Risk-Weighted Assets of ₹1,000,000 Cr. Calculate its CRAR.  
+**Scenario:** A commercial bank has Tier 1 Capital of ₹6,000 Cr, Tier 2 Capital of ₹3,000 Cr, and Risk-Weighted Assets of ₹1,00,000 Cr. Calculate its CRAR.  
 **Resolution:**  
 $$\text{CRAR} = \frac{6000 + 3000}{100000} \times 100 = \frac{9000}{100000} \times 100 = \mathbf{9.0\%}$$  
 (The bank exactly meets RBI's 9% CRAR requirement).
@@ -588,7 +588,7 @@ $$\text{CRAR} = \frac{6000 + 3000}{100000} \times 100 = \frac{9000}{100000} \tim
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Basel III Capital Thresholds in India: RBI mandates a minimum CRAR of **$9\%$** for commercial banks (higher than BCBS norm of $8\%$). Together with the Capital Conservation Buffer (CCB) of $2.5\%$, total minimum regulatory capital is **$11.5\%$**. Common Equity Tier 1 (CET1) must be at least **$5.5\%$** (or $8.0\%$ including CCB).
 
 
 ---
@@ -609,7 +609,7 @@ $$\text{CRAR} = \frac{6000 + 3000}{100000} \times 100 = \frac{9000}{100000} \tim
 
 
 ```latex
-
+P_{\text{bond}} = \sum_{t=1}^{n} \frac{C}{(1 + y)^t} + \frac{F}{(1 + y)^n} \implies P_{\text{bond}} \propto \frac{1}{y}
 ```
 
 *Explanation:* Inverse relationship equation between bond price and yield.
@@ -830,7 +830,7 @@ $$\mathbf{\text{Bond Price} \propto \frac{1}{\text{Bond Yield (YTM)}}}$$
 
 
 ```latex
-
+Y = C + I + G + (X - M) \iff S + T + M = I + G + X
 ```
 
 *Explanation:* Circular flow equation representing Aggregate Demand / National Output.
@@ -885,7 +885,7 @@ $$\mathbf{\text{Bond Price} \propto \frac{1}{\text{Bond Yield (YTM)}}}$$
 
 
 ```latex
-
+\text{Total Injections } (I + G + X) = \text{Total Leakages } (S + T + M)
 ```
 
 
@@ -920,8 +920,8 @@ $$\mathbf{\text{Bond Price} \propto \frac{1}{\text{Bond Yield (YTM)}}}$$
 
 
 #### Tier 2 — Applied Scenario
-**Scenario:** In an economy, private savings $S = ₹200	ext{ Cr}$, net taxes $T = ₹150	ext{ Cr}$, imports $M = ₹100	ext{ Cr}$, private investment $I = ₹250	ext{ Cr}$, and government expenditure $G = ₹100	ext{ Cr}$. What level of Exports ($X$) is required for circular flow equilibrium?  
-**Resolution:** Equilibrium identity: $S + T + M = I + G + X implies 200 + 150 + 100 = 250 + 100 + X implies 450 = 350 + X implies mathbf{X = ₹100	ext{ Cr}}$.
+**Scenario:** In an economy, private savings $S = ₹200\text{ Cr}$, net taxes $T = ₹150\text{ Cr}$, imports $M = ₹100\text{ Cr}$, private investment $I = ₹250\text{ Cr}$, and government expenditure $G = ₹100\text{ Cr}$. What level of Exports ($X$) is required for circular flow equilibrium?  
+**Resolution:** Equilibrium identity: $S + T + M = I + G + X implies 200 + 150 + 100 = 250 + 100 + X implies 450 = 350 + X implies \mathbf{X = ₹100\text{ Cr}}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -950,7 +950,7 @@ $$\mathbf{\text{Bond Price} \propto \frac{1}{\text{Bond Yield (YTM)}}}$$
 
 
 ```latex
-
+\text{Credit Multiplier } (k) = \frac{1}{\text{LRR}} \implies \text{Total Credit Created} = \text{Primary Deposit} \times \frac{1}{\text{LRR}}
 ```
 
 *Explanation:* Maximum credit creation capacity of commercial banks.
@@ -993,7 +993,7 @@ $$\mathbf{\text{Bond Price} \propto \frac{1}{\text{Bond Yield (YTM)}}}$$
 
 
 ```latex
-
+\text{Total Deposit Expansion} = \text{Initial Deposit} \times \frac{1}{\text{LRR}} = 10{,}000 \times \frac{1}{0.20} = \mathbf{₹50{,}000}
 ```
 
 
@@ -1026,7 +1026,7 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 
 #### Tier 2 — Applied Scenario
 **Scenario:** A bank receives an initial primary cash deposit of ₹1,000. If the mandatory reserve requirement ($LRR$) is set at 10%, calculate the total credit created in the banking system.  
-**Resolution:** Total Credit $= 1,000 	imes rac{1}{0.10} = 1,000 	imes 10 = mathbf{₹10,000}$.
+**Resolution:** Total Credit $= 1,000 \times \frac{1}{0.10} = 1,000 \times 10 = \mathbf{₹10,000}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -1034,7 +1034,7 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Money Multiplier & Reserve Ratio Invariant: The maximum deposit expansion by commercial banks is inversely related to the Legal Reserve Ratio ($k = 1/\text{LRR}$ where $\text{LRR} = \text{CRR} + \text{SLR}$). If CRR is hiked by RBI, the credit creation multiplier falls immediately, reducing broad money ($M_3$) supply.
 
 
 ---
@@ -1191,7 +1191,7 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 
 • **1st Plan (1951–56):** Harrod-Domar Model (Focus on Agriculture & Irrigation - Bhakra Nangal Dam). Target: 2.1%, Achieved: 3.6%.
 • **2nd Plan (1956–61):** PC Mahalanobis Model (Focus on Rapid Industrialization & Heavy Basic Industries - Durgapur, Rourkela, Bhilai steel plants).
-• **3rd Plan (1961–66):** Gadgil Yojana (Agri + Industry). Interrupted by Indo-China War (1962), Indo-Pak War (1965), and drought $ightarrow$ Led to **Plan Holiday (1966–69)**.
+• **3rd Plan (1961–66):** Gadgil Yojana (Agri + Industry). Interrupted by Indo-China War (1962), Indo-Pak War (1965), and drought $\rightarrow$ Led to **Plan Holiday (1966–69)**.
 • **5th Plan (1974–78):** Drafted by D.D. Dhar. Focus on *Garibi Hatao* (Poverty Alleviation) and Self-Reliance.
 • **12th Plan (2012–17):** Theme: *"Faster, More Inclusive and Sustainable Growth"*. Target growth: 8%.
 
@@ -1268,7 +1268,7 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 3. Current Account Convertibility: **Full Convertibility** accepted under IMF Article VIII in August 1994. Freedom to convert rupee for trade and travel.
 
 
-4. Capital Account Convertibility (CAC): **Partial Convertibility**. Governed by S.S. Tarapore Committee preconditions (Fiscal Deficit $
+4. Capital Account Convertibility (CAC): **Partial Convertibility**. Governed by S.S. Tarapore Committee preconditions (Gross Fiscal Deficit $\le 3.5\%$ of GDP, mandated inflation $3\text{--}5\%$, Gross NPAs $\le 3\%$, and adequate forex reserves).
 
 
 ### ⚡ 1. NEER vs. REER Comparison Matrix
@@ -1286,7 +1286,7 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 
 • **Current Account Convertibility:FULL (100%)**. In August 1994, India accepted **IMF Article VIII obligations**, making Rupee fully convertible for trade in goods/services, interest payments, and remittances.
 • **Capital Account Convertibility:PARTIAL**. Controlled under Foreign Exchange Management Act (FEMA 1999).
-• **Liberalised Remittance Scheme (LRS):** Resident individuals can freely remit up to **$250,000 per financial year** for permitted capital or current account transactions (education, medical, investment in stocks/property abroad).
+• **Liberalised Remittance Scheme (LRS):** Resident individuals can freely remit up to **\$250,000 per financial year** for permitted capital or current account transactions (education, medical, investment in stocks/property abroad).
 
 
 ### ⚖️ 3. Common Prelims & Mains Traps
@@ -1305,11 +1305,11 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 
 #### Tier 1 — Recall MCQ
 **Q:** Under RBI's Liberalised Remittance Scheme (LRS), what is the maximum annual limit up to which a resident individual can freely remit funds abroad for permitted transactions per financial year?  
-(A) $100,000  
-(B) $250,000  
-(C) $500,000  
-(D) $1,000,000  
-**Answer: — LRS cap is $250,000 per resident individual per financial year.
+(A) \$100,000  
+(B) \$250,000  
+(C) \$500,000  
+(D) \$1,000,000  
+**Answer: — LRS cap is \$250,000 per resident individual per financial year.
 
 
 #### Tier 2 — Applied Scenario
@@ -1343,7 +1343,10 @@ $$\text{Total Credit Created} = 10,000 \times \frac{1}{0.20} = 10,000 \times 5 =
 
 
 ```latex
-
+\begin{aligned}
+\text{GVA}_{\text{Basic Prices}} &= \text{GVA}_{\text{Factor Cost}} + (\text{Production Taxes} - \text{Production Subsidies}) \\
+\text{GDP}_{\text{Market Prices}} &= \text{GVA}_{\text{Basic Prices}} + (\text{Product Taxes} - \text{Product Subsidies})
+\end{aligned}
 ```
 
 *Explanation:* Relation between Factor Cost, Basic Prices, and Market Prices.
@@ -1411,7 +1414,7 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 
 
 > 🎯 **Exam Anchor & Trap:**
-> ⚠️ **Exam Trap 2:** If Product Subsidies exceed Product Taxes in a crisis year, $GDP_{MP}$ will be **LESS** than $GVA 	ext{ at Basic Prices}$!
+> ⚠️ **Exam Trap 2:** If Product Subsidies exceed Product Taxes in a crisis year, $GDP_{MP}$ will be **LESS** than $GVA \text{ at Basic Prices}$!
 
 
 ### ❓ 5. Chapter-Specific Active Recall & Practice Questions
@@ -1427,12 +1430,12 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 
 
 #### Tier 2 — Applied Scenario
-**Scenario:** A manufacturing sector has GVA at Factor Cost $= ₹500	ext{ Cr}$. Production Taxes $= ₹30	ext{ Cr}$, Production Subsidies $= ₹10	ext{ Cr}$, Product Taxes $= ₹80	ext{ Cr}$, and Product Subsidies $= ₹40	ext{ Cr}$. Calculate GVA at Basic Prices and GDP at Market Price.  
+**Scenario:** A manufacturing sector has GVA at Factor Cost $= ₹500\text{ Cr}$. Production Taxes $= ₹30\text{ Cr}$, Production Subsidies $= ₹10\text{ Cr}$, Product Taxes $= ₹80\text{ Cr}$, and Product Subsidies $= ₹40\text{ Cr}$. Calculate GVA at Basic Prices and GDP at Market Price.  
 **Resolution:**
 
 
-• $	ext{GVA at Basic Prices} = 500 + 30 - 10 = mathbf{₹520	ext{ Cr}}$.
-• $	ext{GDP at Market Price} = 520 + 80 - 40 = mathbf{₹560	ext{ Cr}}$.
+• $\text{GVA at Basic Prices} = 500 + 30 - 10 = \mathbf{₹520\text{ Cr}}$.
+• $\text{GDP at Market Price} = 520 + 80 - 40 = \mathbf{₹560\text{ Cr}}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -1440,7 +1443,7 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ($\text{NNP}_{\text{FC}}$). Formula: $\text{GVA}_{\text{Basic Prices}} = \text{GDP}_{\text{MP}} - \text{Product Taxes} + \text{Product Subsidies}$.
 
 
 ---
@@ -1470,7 +1473,7 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 🗺️ Priority Sector Lending (PSL) Targets & Sub-Targets
 
 
-1. Overall PSL Target: Domestic Commercial Banks & Foreign Banks ($ge 20$ branches): **40% of ANBC**. RRBs & Small Finance Banks (SFBs): **75% of ANBC**.
+1. Overall PSL Target: Domestic Commercial Banks & Foreign Banks ($\ge 20$ branches): **40% of ANBC**. RRBs & Small Finance Banks (SFBs): **75% of ANBC**.
 
 
 2. Agriculture Sub-Target (18%): Mandatory 18% of ANBC for Agriculture, including **10% sub-target for Small and Marginal Farmers (SMFs)**.
@@ -1488,7 +1491,7 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 | Bank Category | Overall PSL Target (% of ANBC) | Agriculture Sub-Target | Micro Enterprises Sub-Target | Weaker Sections Sub-Target |
 | --- | --- | --- | --- | --- |
 | **Domestic Commercial Banks** | **40%** | **18%** (10% for SMFs) | **7.5%** | **12%** |
-| **Foreign Banks ($ge 20$ branches)** | **40%** | 18% | 7.5% | 12% |
+| **Foreign Banks ($\ge 20$ branches)** | **40%** | 18% | 7.5% | 12% |
 | **Foreign Banks ($<20$ branches)** | **40%** | Flexible allocation | Flexible allocation | Flexible allocation |
 | **Regional Rural Banks (RRBs)** | **75%** | 18% (10% for SMFs) | 7.5% | 15% |
 | **Small Finance Banks (SFBs)** | **75%** | 18% (10% for SMFs) | 7.5% | 12% |
@@ -1639,7 +1642,7 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Statutory Regulatory Hierarchy: SEBI (statutory under SEBI Act 1992 following Harshad Mehta scam), IRDAI (statutory under IRDA Act 1999 following Malhotra Committee), PFRDA (PFRDA Act 2013), and IFSCA (IFSCA Act 2019 headquartered at GIFT City, Gandhinagar) are unified under the FSDC (Financial Stability and Development Council, chaired by Union Finance Minister).
 
 
 ---
@@ -1669,7 +1672,7 @@ Prior to 2015, India reported headline GDP growth at **GDP at Factor Cost**. In 
 🗺️ Foreign Investment Classification Framework (SEBI/RBI Norms)
 
 
-1. The 10% Equity Threshold (Mayaram Committee): Investment $ge 10%$ in listed company equity is classified as **FDI**. Investment $
+1. The 10% Equity Threshold (Mayaram Committee): Investment $\ge 10\%$ in listed company equity is classified as **FDI**. Investment $< 10\%$ is classified as **FPI**.
 
 
 2. FDI Characteristics: Long-term capital, non-volatile, transfers technology & managerial control, directly creates physical assets/factories.
@@ -1742,7 +1745,7 @@ Requires prior approval of Government of India via **Foreign Investment Facilita
 
 #### Tier 2 — Applied Scenario
 **Scenario:** A foreign institutional investor purchases a 4% equity stake in an Indian commercial bank via the stock exchange. 6 months later, it purchases an additional 8% stake in the same bank. How is the total holding classified?  
-**Resolution:** Total holding $= 4% + 8% = mathbf{12%}$. Since total holding exceeds the 10% threshold, the entire investment is reclassified as **Foreign Direct Investment (FDI)**!
+**Resolution:** Total holding $= 4\% + 8\% = \mathbf{12\%}$. Since total holding exceeds the 10% threshold, the entire investment is reclassified as **Foreign Direct Investment (FDI)**!
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -1800,7 +1803,7 @@ Requires prior approval of Government of India via **Foreign Investment Facilita
 | **Combined Debt-to-GDP Ratio** | **60% of GDP** | Debt anchor replacing pure deficit target |
 | **Central Govt Debt-to-GDP** | **40% of GDP** | Target ceiling for Union Government |
 | **State Govts Debt-to-GDP** | **20% of GDP** | Target ceiling for all State Governments |
-| **Central Fiscal Deficit** | **3.0% of GDP** | Post-pandemic glide path aiming for $<4.5%$ by FY26 |
+| **Central Fiscal Deficit** | **3.0% of GDP** | Post-pandemic glide path aiming for $<4.5\%$ by FY26 |
 | **Escape Clause Limit** | Max **0.5% of GDP** relaxation | Invoked during 2020 COVID pandemic shock |
 
 
@@ -1908,7 +1911,7 @@ Every year along with the Budget, the Government MUST present **3 FRBM Statement
 • **Legal Tender:** Currency that debtors are legally entitled to offer, and creditors are **legally bound to accept**, in discharge of debt.
 • *Coins:* **Limited Legal Tender** under Coinage Act 2011 (₹1 coins legal up to ₹1,000).
 • *Bank Notes:* **Unlimited Legal Tender** under RBI Act 1934 Section 26.
-• **Seigniorage:** Profit made by the central bank from issuing currency = $	ext{Face Value of Currency} - 	ext{Cost of Printing/Production}$.
+• **Seigniorage:** Profit made by the central bank from issuing currency = $\text{Face Value of Currency} - \text{Cost of Printing/Production}$.
 
 
 ### 🏛️ 3. Central Bank Digital Currency (CBDC / e-Rupee)
@@ -2062,12 +2065,12 @@ NFIA consists of **3 sub-components**:
 
 
 #### Tier 2 — Applied Scenario
-**Scenario:** An economy has $GDP_{MP} = ₹1,200	ext{ Cr}$, Depreciation $= ₹150	ext{ Cr}$, NFIA $= -₹30	ext{ Cr}$, Indirect Taxes $= ₹180	ext{ Cr}$, and Subsidies $= ₹60	ext{ Cr}$. Calculate National Income ($NNP_{FC}$).  
+**Scenario:** An economy has $GDP_{MP} = ₹1{,}200\text{ Cr}$, Depreciation $= ₹150\text{ Cr}$, NFIA $= -₹30\text{ Cr}$, Indirect Taxes $= ₹180\text{ Cr}$, and Subsidies $= ₹60\text{ Cr}$. Calculate National Income ($NNP_{FC}$).  
 **Resolution:**
 
 
-• $	ext{NIT} = 180 - 60 = mathbf{₹120	ext{ Cr}}$.
-• $NNP_{FC} = GDP_{MP} + 	ext{NFIA} - 	ext{Depreciation} - 	ext{NIT} = 1200 + (-30) - 150 - 120 = mathbf{₹900	ext{ Cr}}$.
+• $\text{NIT} = 180 - 60 = \mathbf{₹120\text{ Cr}}$.
+• $NNP_{FC} = GDP_{MP} + \text{NFIA} - \text{Depreciation} - \text{NIT} = 1200 + (-30) - 150 - 120 = \mathbf{₹900\text{ Cr}}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -2075,7 +2078,7 @@ NFIA consists of **3 sub-components**:
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ($\text{NNP}_{\text{FC}}$). Formula: $\text{GVA}_{\text{Basic Prices}} = \text{GDP}_{\text{MP}} - \text{Product Taxes} + \text{Product Subsidies}$.
 
 
 ---
@@ -2327,7 +2330,7 @@ Published annually by RBI in July (capturing data up to March):
 | Feature | IPR 1956 (State-Led Command Model) | New Industrial Policy 1991 (LPG Model) |
 | --- | --- | --- |
 | **Core Philosophy** | State commanding heights of economy | Market-led efficiency & global integration |
-| **Public Sector Reservation** | 17 Exclusive Industries (Schedule A) | Reduced to 8 in 1991 $ightarrow$ **Currently ONLY 2** (Atomic Energy, Railways) |
+| **Public Sector Reservation** | 17 Exclusive Industries (Schedule A) | Reduced to 8 in 1991 $\rightarrow$ **Currently ONLY 2** (Atomic Energy, Railways) |
 | **Industrial Licensing** | Mandatory license for expanding/setting up firms | **Abolished** for all except 5 hazardous/security industries |
 | **Monopoly Control** | MRTP Act 1969 (Asset cap of ₹20 Cr / ₹100 Cr) | MRTP limits removed; replaced by **Competition Act 2002** |
 | **Foreign Direct Investment** | Restricted; strict tech transfer rules | Automatic approval up to 51% FDI in priority sectors |
@@ -2530,7 +2533,7 @@ Developed by A.W. Phillips (1958) studying UK wage and unemployment data:
 3. WTO Subsidy Boxes (Marrakesh 1995): **Amber Box:** Trade-distorting subsidies (subject to De Minimis caps 5%/10%). **Blue Box:** Amber box subsidies with production limits. **Green Box:** Non-trade distorting (R&D, environmental, direct income support - unrestricted!).
 
 
-4. New Development Bank (NDB - BRICS): Established in 2014 (Fortaleza Declaration). HQs in **Shanghai**. Equal voting share among 5 founding members ($20%$ each).
+4. New Development Bank (NDB - BRICS): Established in 2014 (Fortaleza Declaration). HQs in **Shanghai**. Equal voting share among 5 founding members ($20\%$ each).
 
 
 ### ⚡ 1. Multilateral Institutions Architectural Comparison
@@ -2588,7 +2591,7 @@ Developed by A.W. Phillips (1958) studying UK wage and unemployment data:
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — SDR Currency Basket & Quota Review: Special Drawing Right (SDR) is an international reserve asset created by IMF (1969). Its value is based on a basket of 5 currencies: US Dollar, Euro, Chinese Renminbi, Japanese Yen, and British Pound Sterling. Quota shares determine member voting power, financial subscriptions, and access to IMF financing.
 
 
 ---
@@ -2683,7 +2686,7 @@ Developed by A.W. Phillips (1958) studying UK wage and unemployment data:
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Land Reform Pillars & Green Revolution Phases: Land reforms succeeded primarily in the abolition of intermediaries (Zamindari abolition), but lagged in tenancy reforms and land ceilings (except in Kerala and West Bengal's Operation Barga). Green Revolution Phase 1 (mid-1960s to mid-1970s) was restricted to wheat in Punjab, Haryana, and Western UP, while Phase 2 (mid-1970s to 1980s) expanded geographically to rice and other crops.
 
 
 ---
@@ -2704,7 +2707,7 @@ Developed by A.W. Phillips (1958) studying UK wage and unemployment data:
 
 
 ```latex
-
+\text{GDP}_{\text{MP}} = C + I + G + (X - M)
 ```
 
 *Explanation:* Expenditure approach to National Income accounting.
@@ -2762,7 +2765,7 @@ Where:
 ### 📖 2. The Problem of Double Counting & Solutions
 
 
-• **Double Counting:** Counting the value of intermediate goods multiple times at successive stages of production (e.g. counting wheat $ightarrow$ flour $ightarrow$ bread).
+• **Double Counting:** Counting the value of intermediate goods multiple times at successive stages of production (e.g. counting wheat $\rightarrow$ flour $\rightarrow$ bread).
 • **Solution 1:** Take ONLY the value of the **final good** (Bread price).
 • **Solution 2:** Take the **sum of Value Added** at each stage of production.
 
@@ -2814,7 +2817,7 @@ Where:
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ($\text{NNP}_{\text{FC}}$). Formula: $\text{GVA}_{\text{Basic Prices}} = \text{GDP}_{\text{MP}} - \text{Product Taxes} + \text{Product Subsidies}$.
 
 
 ---
@@ -2873,7 +2876,7 @@ Where:
 
 • **Composition:6 Members** (3 from RBI: Governor + Deputy Governor + 1 RBI Officer; 3 external experts appointed by Central Govt).
 • **Chairmanship:** RBI Governor (holds casting vote in case of tie).
-• **Mandate:** Meets at least **4 times a year** to fix Policy Repo Rate for maintaining CPI inflation target ($4% pm 2%$).
+• **Mandate:** Meets at least **4 times a year** to fix Policy Repo Rate for maintaining CPI inflation target ($4\% \pm 2\%$).
 
 
 ### ⚖️ 3. Common Prelims & Mains Traps
@@ -2956,7 +2959,7 @@ Where:
 
 | Parameter | Money Market | Capital Market |
 | --- | --- | --- |
-| **Instrument Maturity** | **Short-term** ($ 1 	ext{ Year}$, multi-year / equity perpetual) |  |
+| **Instrument Maturity** | **Short-term** ($\le 1\text{ Year}$) | **Medium to Long-term** ($> 1\text{ Year}$, multi-year / equity perpetual) |
 | **Primary Regulator** | **Reserve Bank of India (RBI)** | **Securities and Exchange Board of India (SEBI)** |
 | **Primary Function** | Liquidity adjustment & working capital funding | Fixed capital formation & long-term investment |
 | **Key Instruments** | Call Money, Treasury Bills, CPs, CDs, TREPS | Equity Shares, Preference Shares, Bonds, Debentures |
@@ -3026,7 +3029,7 @@ Where:
 
 
 ```latex
-
+M_3 = M_1 + \text{Time Deposits with the Banking System}
 ```
 
 *Explanation:* Broad Money aggregate (M3) defined by RBI.
@@ -3281,7 +3284,7 @@ Where $m$ depends on:
 1. Special Mention Accounts (SMA): SMA-0 (1-30 days overdue) | SMA-1 (31-60 days overdue) | SMA-2 (61-90 days overdue).
 
 
-2. NPA Classification (>90 Days Overdue): Substandard Asset ($le 12$ months as NPA) | Doubtful Asset ($>12$ months as NPA) | Loss Asset (Uncollectible value identified by audit/RBI).
+2. NPA Classification (>90 Days Overdue): Substandard Asset ($\le 12$ months as NPA) | Doubtful Asset ($>12$ months as NPA) | Loss Asset (Uncollectible value identified by audit/RBI).
 
 
 3. Insolvency & Bankruptcy Code (IBC 2016): Time-bound 180-day Corporate Insolvency Resolution Process (CIRP) under **National Company Law Tribunal (NCLT)**.
@@ -3299,8 +3302,8 @@ Where $m$ depends on:
 | **SMA-0** | 1 to 30 days overdue | Early warning tracking |
 | **SMA-1** | 31 to 60 days overdue | Mandatory reporting to CRILC database |
 | **SMA-2** | 61 to 90 days overdue | Pre-NPA resolution plan initiation |
-| **Substandard NPA** | Overdue $> mathbf{90	ext{ days}}$ up to 12 months | 15% provision (secured) / 25% (unsecured) |
-| **Doubtful NPA** | Remained substandard for $> mathbf{12	ext{ months}}$ | 25% to 100% provision depending on age |
+| **Substandard NPA** | Overdue $> \mathbf{90\text{ days}}$ up to 12 months | 15% provision (secured) / 25% (unsecured) |
+| **Doubtful NPA** | Remained substandard for $> \mathbf{12\text{ months}}$ | 25% to 100% provision depending on age |
 | **Loss Asset** | Identified as uncollectible by bank/RBI | **100% Provisioning** / Full write-off |
 
 
@@ -3309,7 +3312,7 @@ Where $m$ depends on:
 
 • **SARFAESI Act 2002:** Allows banks to seize and auction collateralized assets of defaulting borrowers **without court intervention** (applies to secured loans above ₹1 Lakh where NPA $>90$ days).
 • **IBC 2016:** Creditor-in-control model with a strict **180-day resolution timeline** (extendable by 90 days). NCLT is the Adjudicating Authority for corporates; DRT for individuals.
-• **NARCL (Bad Bank):** Buys stressed loans $ge ₹500	ext{ Cr}$ from commercial banks. Govt provides ₹30,600 Cr guarantee for Security Receipts (SRs).
+• **NARCL (Bad Bank):** Buys stressed loans $\ge ₹500\text{ Cr}$ from commercial banks. Govt provides ₹30,600 Cr guarantee for Security Receipts (SRs).
 
 
 ### ⚖️ 3. Common Prelims & Mains Traps
@@ -3345,7 +3348,7 @@ Where $m$ depends on:
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — NPA Classification & IBC Timeline: An asset turns NPA when interest or principal remains overdue for $> 90\text{ days}$. Stressed assets are staged through SMA-0 ($1\text{--}30\text{ days}$), SMA-1 ($31\text{--}60\text{ days}$), and SMA-2 ($61\text{--}90\text{ days}$). Under IBC 2016, Corporate Insolvency Resolution Process (CIRP) must be concluded within $180\text{ days}$, extendable once by $90\text{ days}$ up to an absolute mandatory outer cap of $330\text{ days}$.
 
 
 ---
@@ -3390,7 +3393,7 @@ Where $m$ depends on:
 ### ⚡ 1. Historical Timeline of Indian Poverty Committees
 
 
-• **Dadabhai Naoroji (1867–70):** Used Jail Cost of Living for adults ($rac{2}{3}$ of population needing full diet, children $rac{1}{3}$ needing half diet $implies rac{3}{4}$ average adult jail diet).
+• **Dadabhai Naoroji (1867–70):** Used Jail Cost of Living for adults ($\frac{2}{3}$ of population needing full diet, children $\frac{1}{3}$ needing half diet $\implies \frac{3}{4}$ average adult jail diet).
 • **National Planning Committee (1938):** Chaired by Jawaharlal Nehru (initiated by Subhash Chandra Bose). Set poverty line at ₹15 to ₹20 per capita per month.
 • **Bombay Plan (1944):** Proposed a poverty line of ₹75 per capita per year.
 • **Planning Commission Working Group (1962):** Recommended national minimum consumption of ₹20/month (Rural) and ₹25/month (Urban).
@@ -3424,7 +3427,7 @@ Rural population engages in heavier manual agricultural physical labor, requirin
 
 
 > 🎯 **Exam Anchor & Trap:**
-> ⚠️ **Exam Trap 2:** Dadabhai Naoroji's Jail Cost of Living estimate applied a $rac{3}{4}$ multiplier to adult jail diet to adjust for child demographic proportions in society.
+> ⚠️ **Exam Trap 2:** Dadabhai Naoroji's Jail Cost of Living estimate applied a $\frac{3}{4}$ multiplier to adult jail diet to adjust for child demographic proportions in society.
 
 
 ### ❓ 5. Chapter-Specific Active Recall & Practice Questions
@@ -3482,7 +3485,7 @@ Rural population engages in heavier manual agricultural physical labor, requirin
 1. Financial Autonomy Tiers: Maharatna (Investment delegation up to ₹5,000 Cr) | Navratna (up to ₹1,000 Cr) | Miniratna Category I & II.
 
 
-2. Types of Disinvestment: Minority Disinvestment (Govt retains $>51%$ stake & management control) vs Strategic Disinvestment (Govt sells $>50%$ stake AND transfers management control).
+2. Types of Disinvestment: Minority Disinvestment (Govt retains $>51\%$ stake & management control) vs Strategic Disinvestment (Govt sells $>50\%$ stake AND transfers management control).
 
 
 3. Institutional Nodal Body: **DIPAM** (Department of Investment and Public Asset Management) under Ministry of Finance.
@@ -3499,16 +3502,16 @@ To qualify for **Maharatna** status, a Central Public Sector Enterprise (CPSE) M
 
 • Hold **Navratna** status.
 • Listed on Indian stock exchange under SEBI regulations.
-• Average annual net profit $> mathbf{	ext{₹}2,500	ext{ Crore}}$ during last 3 years.
-• Average annual Net Worth $> mathbf{	ext{₹}15,000	ext{ Crore}}$ during last 3 years.
-• Average annual Turnover $> mathbf{	ext{₹}25,000	ext{ Crore}}$ during last 3 years.
+• Average annual net profit $> \mathbf{₹2{,}500\text{ Crore}}$ during last 3 years.
+• Average annual Net Worth $> \mathbf{₹15{,}000\text{ Crore}}$ during last 3 years.
+• Average annual Turnover $> \mathbf{₹25{,}000\text{ Crore}}$ during last 3 years.
 • Significant global footprint/international operations.
 
 
 ### 📖 2. Types of Disinvestment & NITI Aayog Role
 
 
-• **Minority Disinvestment:** Selling minority equity (e.g. IPO / OFS) while retaining $ge 51%$ shareholding and executive management control.
+• **Minority Disinvestment:** Selling minority equity (e.g. IPO / OFS) while retaining $\ge 51\%$ shareholding and executive management control.
 • **Strategic Disinvestment:** Sale of 50% or more of government equity in a CPSE along with **transfer of management control** to a private strategic partner (e.g., Air India sale to Tata Group in 2022).
 • **NITI Aayog Role:** Recommends CPSEs for strategic disinvestment to the Cabinet Committee on Economic Affairs (CCEA).
 
@@ -4713,7 +4716,7 @@ The Economic Survey 2025–26 provides an intellectual blueprint for India's jou
 
 
 ```latex
-
+\text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100
 ```
 
 *Explanation:* Equation for measuring economy-wide price inflation.
@@ -4756,7 +4759,7 @@ The Economic Survey 2025–26 provides an intellectual blueprint for India's jou
 
 
 ```latex
-
+\text{Inflation Rate}_{\text{Deflator}} = \frac{\text{Deflator}_t - \text{Deflator}_{t-1}}{\text{Deflator}_{t-1}} \times 100
 ```
 
 
@@ -4779,7 +4782,7 @@ The Economic Survey 2025–26 provides an intellectual blueprint for India's jou
 
 
 > 🎯 **Exam Anchor & Trap:**
-> ⚠️ **Exam Trap 1:** If Nominal GDP grows by 10% and Inflation is 4%, Real GDP growth is approximately **6%** ($10% - 4%$). Nominal growth alone does NOT mean physical output expanded by 10%!
+> ⚠️ **Exam Trap 1:** If Nominal GDP grows by 10% and Inflation is 4%, Real GDP growth is approximately **6%** ($10\% - 4\%$). Nominal growth alone does NOT mean physical output expanded by 10%!
 
 
 > 🎯 **Exam Anchor & Trap:**
@@ -4810,7 +4813,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Deflator vs. CPI Basket Invariant: GDP Deflator covers **all** domestically produced goods and services and has weights that vary dynamically with output. CPI covers a fixed basket of consumer goods (base year 2012) and includes **imported consumer goods**, which are excluded from the GDP Deflator.
 
 
 ---
@@ -4855,9 +4858,9 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 ### ⚡ 1. Economic Weight & Composition of Services Sector
 
 
-• **GVA Contribution:** Accounts for **$>53%$ of India's total Gross Value Added (GVA)**.
-• **Employment Share:** Employs $sim 31%$ of total Indian workforce.
-• **FDI Inflows:** Receives highest share ($>50%$) of total Foreign Direct Investment inflows (Financial, Computer Software/Hardware, Business Services).
+• **GVA Contribution:** Accounts for **$>53\%$ of India's total Gross Value Added (GVA)**.
+• **Employment Share:** Employs $\sim 31\%$ of total Indian workforce.
+• **FDI Inflows:** Receives highest share ($>50\%$) of total Foreign Direct Investment inflows (Financial, Computer Software/Hardware, Business Services).
 • **Net Services Exports:** Consistently surplus (IT software services, Global Capability Centers GCCs), offsetting a large part of merchandise trade deficit!
 
 
@@ -4905,7 +4908,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — India Stack & DPI Architecture: India Stack consists of three foundational layers: Identity (Aadhaar), Payments (UPI, IMPS, AePS operated by NPCI), and Data Governance (DEPA / Account Aggregator framework). NPCI is an umbrella entity set up under the Payment and Settlement Systems Act 2007 as a "Not-for-Profit" company under Section 8 of the Companies Act 2013.
 
 
 ---
@@ -5115,7 +5118,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 
 ```latex
-
+\text{Net GST Payable} = \text{Output GST (on Sales)} - \text{Input Tax Credit (ITC on Purchases)}
 ```
 
 *Explanation:* Net indirect tax payable under GST framework.
@@ -5140,7 +5143,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 3. 101st Constitutional Amendment Act (2016): Introduced **GST** (Goods and Services Tax - effective July 1, 2017). Article 246A gave concurrent power to Parliament & State Legislatures.
 
 
-4. GST Council (Article 279A): Constitutional body chaired by **Union Finance Minister**. Decision voting weight: Center $= 1/3	ext{rd}$, States $= 2/3	ext{rds}$. Majority required: **75% (3/4ths)**!
+4. GST Council (Article 279A): Constitutional body chaired by **Union Finance Minister**. Decision voting weight: Centre $= 1/3\text{rd}$, States $= 2/3\text{rds}$. Majority required: **75% (3/4ths)**!
 
 
 ### ⚡ 1. Direct vs. Indirect Taxes Feature Comparison
@@ -5164,7 +5167,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 
 ```latex
-
+\text{Decision Threshold} = \left(\frac{1}{3} \times \text{Centre Vote}\right) + \left(\frac{2}{3} \times \text{States Vote}\right) \ge 75\%
 ```
 
 
@@ -5172,7 +5175,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 
 > 🎯 **Exam Anchor & Trap:**
-> ⚠️ **Exam Trap 1:** Neither Center nor States alone can pass a resolution in the GST Council! Center has $33.3%$ vote (can veto, but cannot pass alone without states); States combined have $66.6%$ vote (need Center to reach $75%$).
+> ⚠️ **Exam Trap 1:** Neither Center nor States alone can pass a resolution in the GST Council! Center has $33.3\%$ vote (can veto, but cannot pass alone without states); States combined have $66.6\%$ vote (need Center to reach $75\%$).
 
 
 > 🎯 **Exam Anchor & Trap:**
@@ -5193,7 +5196,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 #### Tier 2 — Applied Scenario
 **Scenario:** State A and State B vote together in the GST Council against a proposal supported by the Central Government. If 20 out of 28 states support the Center, calculate if the proposal passes.  
-**Resolution:** Center vote $= 33.33%$. 20 states vote $= 20/28 	imes 66.67% = 47.62%$. Total weighted vote $= 33.33 + 47.62 = mathbf{80.95%} ge 75%$. The proposal **PASSES**!
+**Resolution:** Centre vote $= 33.33\%$. $20$ states vote $= \frac{20}{28} \times 66.67\% \approx 47.62\%$. Total weighted vote $= 33.33\% + 47.62\% = \mathbf{80.95\%} \ge 75\%$. The proposal **PASSES**!
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -5201,7 +5204,7 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — GST Constitutional Matrix: Enacted via 101st Constitutional Amendment Act (2016). Article 246A gives simultaneous power to Parliament and State Legislatures. Article 269A governs IGST levied by the Centre and apportioned between Centre and States. Article 279A establishes the GST Council where the Centre has $1/3\text{rd}$ voting weight and States collectively have $2/3\text{rds}$, with decisions requiring a $75\%$ weighted supermajority.
 
 
 ---
@@ -5335,20 +5338,20 @@ $$\text{GDP Deflator} = \frac{300}{180} \times 100 = 1.6667 \times 100 = \mathbf
 GDP at Market Price ($GDP_{MP}$): Total market value of all final goods & services produced within economic territory of India in a year.
 
 
-NDP at Market Price ($NDP_{MP}$): $NDP_{MP} = GDP_{MP} - 	ext{Depreciation}$ (Consumption of Fixed Capital).
+NDP at Market Price ($NDP_{MP}$): $NDP_{MP} = GDP_{MP} - \text{Depreciation}$ (Consumption of Fixed Capital).
 
 
-GNP at Market Price ($GNP_{MP}$): $GNP_{MP} = GDP_{MP} + 	ext{NFIA}$ (Net Factor Income from Abroad).
+GNP at Market Price ($GNP_{MP}$): $GNP_{MP} = GDP_{MP} + \text{NFIA}$ (Net Factor Income from Abroad).
 
 
-NNP at Factor Cost ($NNP_{FC}$ - NATIONAL INCOME): $NNP_{FC} = NNP_{MP} - 	ext{Net Indirect Taxes (Product Taxes - Subsidies)}$.
+NNP at Factor Cost ($NNP_{FC}$ - NATIONAL INCOME): $NNP_{FC} = NNP_{MP} - \text{Net Indirect Taxes (Product Taxes - Subsidies)}$.
 
 
 ### ⚡ 1. Beginner Jargon Unpack
 
 
 • **Factor Cost ($FC$):** Total cost of factors of production (Land, Labor, Capital, Entrepreneurship) paid as Rent, Wages, Interest, and Profit.
-• **Market Price ($MP$):** Price paid by consumer $ightarrow MP = FC + 	ext{Product Taxes} - 	ext{Product Subsidies}$.
+• **Market Price ($MP$):** Price paid by consumer $\rightarrow MP = FC + \text{Product Taxes} - \text{Product Subsidies}$.
 • **Net Factor Income from Abroad (NFIA):** Factor income earned by domestic residents abroad MINUS factor income earned by foreign residents within domestic territory.
 
 
@@ -5357,10 +5360,10 @@ NNP at Factor Cost ($NNP_{FC}$ - NATIONAL INCOME): $NNP_{FC} = NNP_{MP} - 	ext{N
 
 | Aggregate Target | Starting Formula | Add / Subtract Step 1 | Add / Subtract Step 2 | Final Calculation Formula |
 | --- | --- | --- | --- | --- |
-| **$NDP_{MP}$** | $GDP_{MP}$ | $-	ext{Depreciation}$ | — | $GDP_{MP} - 	ext{Depreciation}$ |
-| **$GNP_{MP}$** | $GDP_{MP}$ | $+	ext{NFIA}$ | — | $GDP_{MP} + 	ext{NFIA}$ |
-| **$NNP_{MP}$** | $GDP_{MP}$ | $+	ext{NFIA}$ | $-	ext{Depreciation}$ | $GDP_{MP} + 	ext{NFIA} - 	ext{Depreciation}$ |
-| **$NNP_{FC}$ (National Income)** | $GDP_{MP}$ | $+	ext{NFIA} - 	ext{Depreciation}$ | $-	ext{Net Indirect Taxes}$ | $NNP_{MP} - (	ext{Indirect Taxes} - 	ext{Subsidies})$ |
+| **$NDP_{MP}$** | $GDP_{MP}$ | $-\text{Depreciation}$ | — | $GDP_{MP} - \text{Depreciation}$ |
+| **$GNP_{MP}$** | $GDP_{MP}$ | $+\text{NFIA}$ | — | $GDP_{MP} + \text{NFIA}$ |
+| **$NNP_{MP}$** | $GDP_{MP}$ | $+\text{NFIA}$ | $-\text{Depreciation}$ | $GDP_{MP} + \text{NFIA} - \text{Depreciation}$ |
+| **$NNP_{FC}$ (National Income)** | $GDP_{MP}$ | $+\text{NFIA} - \text{Depreciation}$ | $-\text{Net Indirect Taxes}$ | $NNP_{MP} - (\text{Indirect Taxes} - \text{Subsidies})$ |
 
 
 🏷️ Itemized Verification Tag
@@ -5380,15 +5383,15 @@ Why did NSO switch from **GDP at Factor Cost** to **GVA at Basic Prices** as the
 ### 🧮 4. Layer 3: Worked Numerical Calculation (Step-by-Step Resolution)
 
 
-**Scenario:** An economy produces: $GDP_{MP} = $1,000	ext{ Billion}$, Depreciation $= $100	ext{ Billion}$, NFIA $= -$20	ext{ Billion}$, Indirect Taxes $= $150	ext{ Billion}$, Subsidies $= $50	ext{ Billion}$. Calculate National Income ($NNP_{FC}$).
+**Scenario:** An economy produces: $GDP_{MP} = \$1{,}000\text{ Billion}$, Depreciation $= \$100\text{ Billion}$, NFIA $= -\$20\text{ Billion}$, Indirect Taxes $= \$150\text{ Billion}$, Subsidies $= \$50\text{ Billion}$. Calculate National Income ($NNP_{FC}$).
 
 
 **Step-by-Step Resolution:**
 
 
-• Step 1: Calculate $NNP_{MP} = GDP_{MP} + 	ext{NFIA} - 	ext{Depreciation} = 1000 + (-20) - 100 = mathbf{$880	ext{ Billion}}$.
-• Step 2: Calculate Net Indirect Taxes (NIT) $= 	ext{Indirect Taxes} - 	ext{Subsidies} = 150 - 50 = mathbf{$100	ext{ Billion}}$.
-• Step 3: Calculate $NNP_{FC} = NNP_{MP} - 	ext{NIT} = 880 - 100 = mathbf{$780	ext{ Billion}}$.
+• Step 1: Calculate $NNP_{MP} = GDP_{MP} + \text{NFIA} - \text{Depreciation} = 1000 + (-20) - 100 = \mathbf{\$880\text{ Billion}}$.
+• Step 2: Calculate Net Indirect Taxes (NIT) $= \text{Indirect Taxes} - \text{Subsidies} = 150 - 50 = \mathbf{\$100\text{ Billion}}$.
+• Step 3: Calculate $NNP_{FC} = NNP_{MP} - \text{NIT} = 880 - 100 = \mathbf{\$780\text{ Billion}}$.
 
 
 ### 🏛️ 5. Concrete Anchor (Economic Report Landmark)
@@ -5510,7 +5513,7 @@ Why did NSO switch from **GDP at Factor Cost** to **GVA at Basic Prices** as the
 
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — National Income Invariant: National Income in India is officially defined as **NNP at Factor Cost** ((	ext{NNP}_{	ext{FC}})). Formula: (	ext{GVA}_{	ext{Basic Prices}} = 	ext{GDP}_{	ext{MP}} - 	ext{Product Taxes} + 	ext{Product Subsidies}).
+> 🎯 Exam Angle → 🔥 HIGH — Gig & Platform Worker Statutory Recognition: The Code on Social Security, 2020 legally defines "gig worker" and "platform worker" for the first time in Indian statutory law, mandating a Social Security Fund financed by contributions from aggregators ($1\text{--}2\%$ of annual turnover, capped at $5\%$ of payout to workers).
 
 
 ---
@@ -5531,7 +5534,7 @@ Why did NSO switch from **GDP at Factor Cost** to **GVA at Basic Prices** as the
 
 
 ```latex
-
+\text{Unemployment Rate (UR)} = \frac{\text{Number of Unemployed Persons}}{\text{Labour Force (Employed + Unemployed)}} \times 100
 ```
 
 *Explanation:* PLFS/NSO standard measure of labor underutilization.
@@ -5608,9 +5611,9 @@ $$UR = \frac{\text{Unemployed Persons}}{\text{Labor Force (Employed + Unemployed
 **Resolution:**
 
 
-• Labor Force $= 	ext{Employed} + 	ext{Seeking} = 500 + 50 = mathbf{550}$.
-• $LFPR = rac{550}{1000} 	imes 100 = mathbf{55%}$.
-• $UR = rac{50}{550} 	imes 100 = mathbf{9.09%}$.
+• Labor Force $= \text{Employed} + \text{Seeking} = 500 + 50 = \mathbf{550}$.
+• $LFPR = \frac{550}{1000} \times 100 = \mathbf{55\%}$.
+• $UR = \frac{50}{550} \times 100 = \mathbf{9.09\%}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -5639,7 +5642,10 @@ $$UR = \frac{\text{Unemployed Persons}}{\text{Labor Force (Employed + Unemployed
 
 
 ```latex
-
+\begin{aligned}
+\text{Fiscal Deficit} &= \text{Total Expenditure} - (\text{Revenue Receipts} + \text{Non-debt Capital Receipts}) \\
+&= \text{Borrowings and Other Liabilities}
+\end{aligned}
 ```
 
 *Explanation:* Government borrowing requirement for the financial year.
@@ -5720,9 +5726,9 @@ $$\mathbf{3. \text{Primary Deficit (PD)} = \text{Fiscal Deficit} - \text{Interes
 **Resolution:**
 
 
-• Non-Debt Capital Receipts $= 1	ext{ Lakh Cr}$.
-• $	ext{Fiscal Deficit} = 40 - (22 + 1) = 40 - 23 = \mathbf{₹17	ext{ Lakh Crore}}$.
-• $	ext{Primary Deficit} = 	ext{Fiscal Deficit} - 	ext{Interest Payments} = 17 - 9 = \mathbf{₹8	ext{ Lakh Crore}}$.
+• Non-Debt Capital Receipts $= ₹1\text{ Lakh Cr}$.
+• $\text{Fiscal Deficit} = 40 - (22 + 1) = 40 - 23 = \mathbf{₹17\text{ Lakh Crore}}$.
+• $\text{Primary Deficit} = \text{Fiscal Deficit} - \text{Interest Payments} = 17 - 9 = \mathbf{₹8\text{ Lakh Crore}}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
@@ -5751,7 +5757,7 @@ $$\mathbf{3. \text{Primary Deficit (PD)} = \text{Fiscal Deficit} - \text{Interes
 
 
 ```latex
-
+\text{Opportunity Cost} = \text{Value of Next Best Alternative Forgone}
 ```
 
 *Explanation:* Formula for calculating trade-off costs in allocation decisions.
@@ -5875,7 +5881,7 @@ $$\text{Marginal Rate of Transformation (MRT)} = \frac{\Delta \text{Good Y sacri
 
 
 ```latex
-
+\text{PGI} = \frac{1}{N} \sum_{i=1}^{q} \left( \frac{z - y_i}{z} \right)
 ```
 
 *Explanation:* Intensity of poverty depth below the poverty line (z).
@@ -5900,7 +5906,7 @@ $$\text{Marginal Rate of Transformation (MRT)} = \frac{\Delta \text{Good Y sacri
 3. Multidimensional Poverty Index (MPI): Developed by OPHI & UNDP using Alkire-Foster method across 3 equally weighted dimensions (Health, Education, Standard of Living) and 10/12 indicators.
 
 
-4. SDG Linkage: Sustainable Development Goal 1 (SDG 1.1) targets eradicating extreme poverty (people living on less than $2.15 a day at 2017 PPP) by 2030.
+4. SDG Linkage: Sustainable Development Goal 1 (SDG 1.1) targets eradicating extreme poverty (people living on less than \$2.15 a day at 2017 PPP) by 2030.
 
 
 ### ⚡ 1. Absolute Poverty vs. Relative Poverty
@@ -5973,7 +5979,7 @@ The **Global Multidimensional Poverty Index (MPI)** (OPHI/UNDP) uses **3 Dimensi
 
 • $HCR = 10 / 100 = \mathbf{10\%}$ or $\mathbf{0.10}$.
 • Individual gap $= \frac{100 - 80}{100} = 0.20$. Total sum $= 10 \times 0.20 = 2.0$.
-• $PGI = \frac{2.0}{100} = \mathbf{0.02}$ or \mathbf{2\%}$.
+• $PGI = \frac{2.0}{100} = \mathbf{0.02}$ or $\mathbf{2\%}$.
 
 
 #### Tier 3 — Mains Descriptive Prompt
