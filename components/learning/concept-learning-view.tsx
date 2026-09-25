@@ -8,6 +8,7 @@ import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
 import { RevisionViewer, RevisionUnitData } from './revision-viewer';
 import { KnowledgeReconstruction } from './knowledge-reconstruction';
 import { MarkdownContent } from '@/components/ui/markdown-content';
+import { FontSizeControl } from './font-size-control';
 
 export interface ConceptBlock {
   id: string;
@@ -239,8 +240,11 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
 
           {/* Compact Editorial Concept Header */}
           <header className="border-b border-stone-200 pb-4 mb-6">
-            <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800 mb-1">
-              {concept.topic.title} · Concept {currentIndex >= 0 ? currentIndex + 1 : 1} of {siblingConcepts.length || 1}
+            <div className="flex items-center justify-between gap-4 mb-1">
+              <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800">
+                {concept.topic.title} · Concept {currentIndex >= 0 ? currentIndex + 1 : 1} of {siblingConcepts.length || 1}
+              </div>
+              <FontSizeControl />
             </div>
 
             <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 leading-tight tracking-tight">
@@ -352,7 +356,7 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
 
                     <MarkdownContent
                       content={block.body}
-                      className="text-sm md:text-[15px] leading-relaxed text-stone-800 font-serif"
+                      className="leading-relaxed text-stone-800 font-serif"
                     />
 
                     {/* Evidence Drawer Trigger */}

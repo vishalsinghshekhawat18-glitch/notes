@@ -51,17 +51,70 @@ div[data-next-badge] {
   display: none !important;
 }
 
+/* Reader Typography Dynamic Scaling */
+:root {
+  --content-font-size: 1rem; /* 16px standard baseline */
+  --content-line-height: 1.75;
+  --content-table-size: 0.875rem; /* 14px */
+  --content-h1-size: 1.5rem;
+  --content-h2-size: 1.25rem;
+  --content-h3-size: 1.1rem;
+  --content-h4-size: 0.95rem;
+}
+
+html[data-font-size="sm"] {
+  --content-font-size: 0.875rem; /* 14px Compact */
+  --content-line-height: 1.65;
+  --content-table-size: 0.8125rem;
+  --content-h1-size: 1.35rem;
+  --content-h2-size: 1.15rem;
+  --content-h3-size: 1.05rem;
+  --content-h4-size: 0.9rem;
+}
+
+html[data-font-size="md"] {
+  --content-font-size: 1rem; /* 16px Standard Default */
+  --content-line-height: 1.75;
+  --content-table-size: 0.875rem;
+  --content-h1-size: 1.5rem;
+  --content-h2-size: 1.25rem;
+  --content-h3-size: 1.1rem;
+  --content-h4-size: 0.95rem;
+}
+
+html[data-font-size="lg"] {
+  --content-font-size: 1.125rem; /* 18px Large / Comfortable */
+  --content-line-height: 1.8;
+  --content-table-size: 0.9375rem;
+  --content-h1-size: 1.7rem;
+  --content-h2-size: 1.4rem;
+  --content-h3-size: 1.2rem;
+  --content-h4-size: 1.05rem;
+}
+
+html[data-font-size="xl"] {
+  --content-font-size: 1.25rem; /* 20px Extra Large / High Readability */
+  --content-line-height: 1.85;
+  --content-table-size: 1rem;
+  --content-h1-size: 1.9rem;
+  --content-h2-size: 1.55rem;
+  --content-h3-size: 1.35rem;
+  --content-h4-size: 1.15rem;
+}
+
 /* Polished Textbook Markdown Content Typography */
 .markdown-content {
   color: #292524;
-  line-height: 1.75;
+  line-height: var(--content-line-height, 1.75);
+  font-size: var(--content-font-size, 1rem);
   overflow-x: hidden;
   max-width: 100%;
+  transition: font-size 0.15s ease, line-height 0.15s ease;
 }
 
 .markdown-content h1 {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
+  font-size: var(--content-h1-size, 1.5rem);
   font-weight: 700;
   color: #1c1917;
   margin-top: 1.5rem;
@@ -72,7 +125,7 @@ div[data-next-badge] {
 
 .markdown-content h2 {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.25rem;
+  font-size: var(--content-h2-size, 1.25rem);
   font-weight: 700;
   color: #1c1917;
   margin-top: 1.25rem;
@@ -83,7 +136,7 @@ div[data-next-badge] {
 
 .markdown-content h3 {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.1rem;
+  font-size: var(--content-h3-size, 1.1rem);
   font-weight: 700;
   color: #1c1917;
   margin-top: 1rem;
@@ -92,7 +145,7 @@ div[data-next-badge] {
 
 .markdown-content h4 {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 0.95rem;
+  font-size: var(--content-h4-size, 0.95rem);
   font-weight: 600;
   color: #292524;
   margin-top: 0.75rem;
@@ -100,9 +153,10 @@ div[data-next-badge] {
 }
 
 .markdown-content p {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.85rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 0.9375rem;
+  font-size: var(--content-font-size, 1rem);
+  line-height: var(--content-line-height, 1.75);
 }
 
 .markdown-content p:last-child {
@@ -127,7 +181,8 @@ div[data-next-badge] {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 0.9375rem;
+  font-size: var(--content-font-size, 1rem);
+  line-height: var(--content-line-height, 1.75);
 }
 
 .markdown-content ol {
@@ -136,12 +191,13 @@ div[data-next-badge] {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 0.9375rem;
+  font-size: var(--content-font-size, 1rem);
+  line-height: var(--content-line-height, 1.75);
 }
 
 .markdown-content li {
-  margin-bottom: 0.375rem;
-  line-height: 1.6;
+  margin-bottom: 0.4rem;
+  line-height: var(--content-line-height, 1.75);
 }
 
 .markdown-content li > p {
@@ -154,6 +210,7 @@ div[data-next-badge] {
   padding: 0.625rem 1rem;
   margin: 0.875rem 0;
   font-style: italic;
+  font-size: var(--content-font-size, 1rem);
   color: #1c1917;
   border-radius: 0 0.5rem 0.5rem 0;
 }
@@ -162,7 +219,7 @@ div[data-next-badge] {
   width: 100%;
   margin: 1rem 0;
   border-collapse: collapse;
-  font-size: 0.8125rem;
+  font-size: var(--content-table-size, 0.875rem);
   font-family: ui-sans-serif, system-ui, sans-serif;
   border: 1px solid #d6d3d1;
   border-radius: 0.375rem;
@@ -190,7 +247,7 @@ div[data-next-badge] {
 
 .markdown-content code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.8125rem;
+  font-size: calc(var(--content-font-size, 1rem) * 0.875);
   background-color: #f5f5f4;
   color: #065f46;
   padding: 0.125rem 0.375rem;

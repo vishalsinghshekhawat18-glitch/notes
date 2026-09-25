@@ -9,6 +9,7 @@ import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
 import { RevisionViewer, RevisionUnitData } from './revision-viewer';
 import { MarkdownContent } from '@/components/ui/markdown-content';
 import { ChapterNavigationSidebar, SidebarTopic } from './chapter-navigation-sidebar';
+import { FontSizeControl } from './font-size-control';
 
 export interface ContinuousReaderConcept {
   id: string;
@@ -267,6 +268,9 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
               </div>
             </div>
 
+            {/* Font Size Stepper Control */}
+            <FontSizeControl />
+
             {/* Quick Outline Jump Menu */}
             <button
               onClick={() => setIsOutlineOpen(!isOutlineOpen)}
@@ -421,7 +425,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
 
                       <MarkdownContent
                         content={block.body}
-                        className="text-sm md:text-[15px] leading-relaxed text-stone-800 font-serif"
+                        className="leading-relaxed text-stone-800 font-serif"
                       />
                     </div>
                   );
