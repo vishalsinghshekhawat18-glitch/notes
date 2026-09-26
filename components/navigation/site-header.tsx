@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { SearchDialog } from './search-dialog';
 
 export function SiteHeader() {
@@ -24,8 +25,15 @@ export function SiteHeader() {
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-7 h-7 rounded-lg bg-[#143227] text-[#f7f5f0] flex items-center justify-center font-bold text-xs shadow-xs group-hover:bg-[#c25e2e] transition-colors">
-                ▲
+              <div className="w-8 h-8 rounded-lg bg-[#143227]/5 border border-[#143227]/10 flex items-center justify-center p-1 shadow-2xs group-hover:border-[#c25e2e]/30 group-hover:bg-[#c25e2e]/5 transition-all">
+                <Image
+                  src="/icon.png"
+                  alt="Mind of Aravalli Logo"
+                  width={28}
+                  height={28}
+                  className="w-full h-full object-contain drop-shadow-2xs group-hover:scale-105 transition-transform"
+                  priority
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-serif font-bold text-stone-900 tracking-tight text-base leading-tight group-hover:text-[#143227] transition-colors">

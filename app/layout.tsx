@@ -7,6 +7,13 @@ import { ServiceWorkerCleaner } from '@/components/navigation/service-worker-cle
 export const metadata: Metadata = {
   title: 'Mind of Aravalli | Reading Hub',
   description: 'Source-grounded canonical knowledge and examination learning system',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({
