@@ -23,9 +23,10 @@ export interface QuestionData {
 
 interface ActiveRecallViewerProps {
   questions: QuestionData[];
+  defaultOpen?: boolean;
 }
 
-export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
+export function ActiveRecallViewer({ questions, defaultOpen = false }: ActiveRecallViewerProps) {
   // Density-aware filter: keep questions that test substantive distinctions/mechanisms
   const substantiveQuestions = (questions || []).filter(
     (q) =>
@@ -35,6 +36,7 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
        (q.correctAnswer && q.correctAnswer.trim().length >= 15))
   );
 
+  const [isOpen, setIsOpen] = useState(defaultOpen);
   const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({});
 
   // Content-density policy: suppress section if no substantive question exists
@@ -48,8 +50,12 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
   };
 
   return (
-    <div className="bg-emerald-50/20 border border-emerald-200/60 rounded-xl p-4 sm:p-5 space-y-3.5">
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-emerald-200/50">
+    <div className="bg-emerald-50/20 border border-emerald-200/60 rounded-xl transition-all overflow-hidden">
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex flex-wrap items-center justify-between gap-2 p-3.5 sm:p-4 text-left cursor-pointer hover:bg-emerald-50/50 transition-colors"
+      >
         <div className="flex items-center gap-2">
           <span className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-900">
             🧠 Active Recall & PYQ Vault
@@ -58,12 +64,18 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
             {substantiveQuestions.length} Questions
           </span>
         </div>
-        <span className="text-[11px] font-mono text-stone-500">
-          Attempt mentally or draft answer before revealing solution
-        </span>
-      </div>
+        <div className="flex items-center gap-1.5 text-stone-600 text-xs font-mono font-medium">
+          <span>{isOpen ? 'Collapse Vault' : 'Expand Vault'}</span>
+          <span className="text-[10px] font-bold">{isOpen ? '▲' : '▼'}</span>
+        </div>
+      </button>
 
-      <div className="space-y-3.5">
+      {isOpen && (
+        <div className="p-4 sm:p-5 pt-2 border-t border-emerald-200/50 space-y-3.5">
+          <div className="text-[11px] font-mono text-stone-500 pb-1 border-b border-emerald-100">
+            Attempt mentally or draft answer before revealing solution
+          </div>
+          <div className="space-y-3.5">
         {substantiveQuestions.map((q, idx) => {
           const isRevealed = !!revealedIds[q.id];
           let parsedOptions: any[] = [];
@@ -211,7 +223,9 @@ export function ActiveRecallViewer({ questions }: ActiveRecallViewerProps) {
             </div>
           );
         })}
-      </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
