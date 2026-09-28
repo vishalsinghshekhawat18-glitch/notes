@@ -35,15 +35,6 @@
 
 ## 1. Unit 1: Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)
 
-**Metadata:**
-- **Item ID:** `comp-unit-1-evolution-pioneers-milestones`
-- **Category / Section:** Computer Systems & Foundations
-- **Target Exams:** IBPS RRB (Scale-I/Clerk), IBPS PO Mains, SBI PO Mains, RBI Assistant, UPSC APFC
-
-> **Executive Summary:** Chronological trajectory of mechanical, electromechanical, and electronic computing architectures. Covers ancient counting aids (Abacus, Napier’s Bones, Slide Rule), mechanical calculators (Pascaline, Leibniz Wheel), nineteenth-century programmable automation (Jacquard Loom, Babbage’s Engines, Ada Lovelace), punch-card tabulators (Hollerith), and twentieth-century pioneers (Mark-I, ABC, ENIAC, EDVAC, UNIVAC-I, Intel 4004).
-
-🪝 Context Hook — Modern digital computers did not originate as electronic gadgets, but as industrial-era mechanical calculators engineered to eliminate human arithmetic error in celestial navigation, astronomical tables, and national census administration.
-
 > 🧠 **Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing**  
 > Mechanical calculating machines operated on fixed gear ratios where program instructions and data were physically bound to mechanical levers. The true digital revolution emerged when **John von Neumann (1945)** conceptualized the **Stored-Program Architecture**, treating program instructions and calculation data as interchangeable binary bits stored within the exact same electronic memory medium.
 
@@ -81,15 +72,6 @@
 <a id="note-2"></a>
 
 ## 2. Unit 2: Generations of Computers & Structural Classification
-
-**Metadata:**
-- **Item ID:** `comp-unit-2-generations-classification`
-- **Category / Section:** Computer Architecture & Evolution
-- **Target Exams:** IBPS RRB Officer & Clerk, SBI/IBPS PO Mains, RBI Assistant, NABARD Grade A
-
-> **Executive Summary:** Comprehensive classification of computers across two rigorous axes: chronological hardware generations (1st to 5th Generation) and functional taxonomy (by operational principle: Analog, Digital, Hybrid; by scale and throughput: Micro, Mini, Mainframe, Supercomputer). Synthesizes semiconductor density, primary memory media, operating systems, and language evolution.
-
-🪝 Context Hook — Computer development is categorized into five distinct generations, each inaugurated not by incremental software updates, but by a fundamental breakthrough in underlying switching physics—from glowing thermionic vacuum tubes to atomic-scale nanometer transistors.
 
 ### ⚡ The Five Generations of Electronic Computers
 
@@ -163,15 +145,6 @@ BY OPERATIONAL LOGIC                              BY SIZE & PERFORMANCE
 <a id="note-3"></a>
 
 ## 3. Unit 3: Computer Hardware Architecture, CPU Mechanics & The System Bus
-
-**Metadata:**
-- **Item ID:** `comp-unit-3-hardware-cpu-system-bus`
-- **Category / Section:** Core Computer Architecture
-- **Target Exams:** IBPS RRB Officer & Clerk, SBI PO Mains, RBI Assistant Mains, UPSC APFC
-
-> **Executive Summary:** Rigorous engineering dissection of Von Neumann computer architecture. Explores the Internal Processing Cycle (IPO Cycle: Fetch, Decode, Execute, Store), Central Processing Unit functional units (ALU, CU, high-speed Registers), System Bus tri-partite topology (Data, Address, and Control Buses), Motherboard chipset mechanics (Northbridge vs Southbridge), and modern physical port standards.
-
-🪝 Context Hook — At its bare physical foundation, a digital computer does exactly one thing over and over billions of times each second: it fetches a binary instruction from memory, interprets its operation code, executes an arithmetic or logic gate transfer, and writes the resulting bits back to a register.
 
 ### 🏛️ The Von Neumann Machine Architecture
 
@@ -285,15 +258,6 @@ CPU ◄────────────►│ CONTROL BUS (Bidirectional Sig
 
 ## 4. Unit 4: Firmware, Booting Protocols & Hardware Diagnostics (BIOS, UEFI & POST)
 
-**Metadata:**
-- **Item ID:** `comp-unit-4-firmware-booting-bios-uefi`
-- **Category / Section:** Low-Level Systems & Firmware
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant Mains
-
-> **Executive Summary:** Technical breakdown of the hardware initialization lifecycle from power application to OS kernel handoff. Contrasts legacy BIOS with modern UEFI architectures, MBR vs GPT partitioning schemas, Cold vs Warm booting sequences, and Power-On Self-Test (POST) error trapping protocols.
-
-🪝 Context Hook — When you push the power button on a cold computer, the main CPU has completely empty registers and empty RAM. How does a machine with zero instructions in volatile memory know how to load an operating system from a billion-byte solid-state drive?
-
 ### 🧬 Firmware Foundations: BIOS vs UEFI
 
 Firmware is permanent, low-level software programmed directly into non-volatile hardware memory (ROM, EEPROM, or SPI Flash memory) on the motherboard.
@@ -362,15 +326,6 @@ Firmware is permanent, low-level software programmed directly into non-volatile 
 <a id="note-5"></a>
 
 ## 5. Unit 5: Input Devices & Biometric / Automated Data Capture Systems
-
-**Metadata:**
-- **Item ID:** `comp-unit-5-input-devices-biometrics`
-- **Category / Section:** Peripherals & Data Acquisition
-- **Target Exams:** IBPS RRB Clerk/PO, IBPS Clerk Mains, RBI Assistant Mains
-
-> **Executive Summary:** Technical survey of manual and automated input technologies. Covers keyboard switch engineering and functional key mappings (F1 to F12), pointing devices (mouse, trackball, digitizers), optical and magnetic recognition technologies (MICR, OCR, OMR, Barcodes, QR Codes), and modern banking biometric security standards.
-
-🪝 Context Hook — Input devices are transducers: physical instruments that convert human tactile pressure, optical reflections, magnetic fluxes, or biometric wave patterns into binary electrical pulses that a computer's CPU can decode.
 
 ### ⌨️ Computer Keyboard Architecture & Functional Key Mappings
 
@@ -446,15 +401,6 @@ Keyboards utilize the standard **QWERTY** layout, engineered in 1873 by **Christ
 <a id="note-6"></a>
 
 ## 6. Unit 6: Output Devices, Display Technologies & Printing Engineering
-
-**Metadata:**
-- **Item ID:** `comp-unit-6-output-monitors-printers`
-- **Category / Section:** Peripherals & Rendering Hardware
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant
-
-> **Executive Summary:** Technical breakdown of soft-copy (displays, sound cards) and hard-copy (impact vs non-impact printers, vector plotters) output devices. Analyzes monitor resolution metrics, refresh rates, dot pitch, and the operating physics of Dot Matrix, Inkjet, Laser, and Thermal printing systems.
-
-🪝 Context Hook — An output device performs the reverse physical translation of an input device: it takes processed binary bitstreams from system RAM and converts them into photons for human vision, pressure waves for human hearing, or physical ink patterns on cellulose paper.
 
 ### 🖥️ Visual Display Units (VDU) & Monitor Metrics
 
@@ -535,15 +481,6 @@ IMPACT PRINTERS (Physical Contact)             NON-IMPACT PRINTERS (No Contact)
 <a id="note-7"></a>
 
 ## 7. Unit 7: Memory Hierarchy, Primary Storage & Cache Optimization
-
-**Metadata:**
-- **Item ID:** `comp-unit-7-memory-hierarchy-primary-cache`
-- **Category / Section:** Memory Systems Engineering
-- **Target Exams:** IBPS RRB Scale-I & Clerk, SBI PO Mains, RBI Assistant Mains, UPSC APFC
-
-> **Executive Summary:** Rigorous thermodynamic and electrical analysis of the computer memory hierarchy. Covers fundamental memory capacity units (Bit to Yottabyte), volatile primary memory engineering (SRAM vs DRAM, DDR transfers), non-volatile ROM taxonomy (Mask, PROM, EPROM, EEPROM, Flash), multi-level Cache architecture (L1/L2/L3, Locality of Reference), and Virtual Memory paging dynamics.
-
-🪝 Context Hook — If a computer could be built with infinite, ultra-fast, zero-cost SRAM, computers would have only one single memory tier. In physical reality, storage technology faces an unbending physics tradeoff: memory is either blindingly fast and astronomically expensive, or vast and slow.
 
 ### 🏔️ The Memory Hierarchy Pyramid
 
@@ -644,15 +581,6 @@ Read-Only Memory (ROM) is non-volatile; it retains critical bootloader programs 
 
 ## 8. Unit 8: Secondary & Auxiliary Storage Technologies (Magnetic, Optical & Solid-State)
 
-**Metadata:**
-- **Item ID:** `comp-unit-8-secondary-auxiliary-storage`
-- **Category / Section:** Storage Systems
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant
-
-> **Executive Summary:** Technical breakdown of non-volatile secondary and auxiliary storage paradigms. Analyzes hard disk physical geometry (platters, cylinders, tracks, sectors), optical storage laser physics (CD, DVD, Blu-ray pits and lands), and solid-state NAND flash architectures (SLC, MLC, TLC, QLC, NVMe PCIe vs SATA).
-
-🪝 Context Hook — While primary memory operates at the speed of electrical electrons inside silicon gates, classical secondary storage has historically relied on rotating magnetic platters and spinning laser discs. Today, solid-state silicon has conquered storage, eliminating mechanical moving parts entirely.
-
 ### 🧲 Magnetic Storage: Hard Disk Drive (HDD) Geometry
 
 A Hard Disk Drive stores binary data magnetically on rapidly spinning rigid circular platters coated with a microscopic ferromagnetic layer.
@@ -727,15 +655,6 @@ SSDs contain **zero mechanical moving parts**. Data is stored entirely in non-vo
 <a id="note-9"></a>
 
 ## 9. Unit 9: Computer Software, Operating Systems & Process Scheduling
-
-**Metadata:**
-- **Item ID:** `comp-unit-9-software-os-scheduling`
-- **Category / Section:** Systems Software & Core OS
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant Mains
-
-> **Executive Summary:** Complete taxonomic classification of computer software (System, Application, Utilities). Explores language translator mechanics (Assemblers, Compilers, Interpreters, Linkers, Loaders), core Operating System architecture (Kernel vs Shell), Process Scheduling algorithms (FCFS, SJF, Round Robin), and file systems (FAT32 vs NTFS).
-
-🪝 Context Hook — Hardware without software is merely an inert sculpture of silicon, copper, and plastic. Software transforms passive physical circuits into a dynamic, programmable reasoning machine.
 
 ### 📦 Master Taxonomy of Computer Software
 
@@ -812,15 +731,6 @@ A **Process** is a program currently in active execution. When multiple processe
 <a id="note-10"></a>
 
 ## 10. Unit 10: Logic Design, Flowcharts, Number Systems & Computer Languages
-
-**Metadata:**
-- **Item ID:** `comp-unit-10-logic-flowcharts-languages`
-- **Category / Section:** Discrete Logic & Software Engineering
-- **Target Exams:** IBPS RRB Scale-I/Clerk, SBI PO Mains, RBI Assistant
-
-> **Executive Summary:** Dissection of computer logic structures, radix positional number systems (Binary, Octal, Decimal, Hexadecimal conversions), 1's and 2's complement arithmetic, standard ANSI/ISO flowchart geometries, and the historical taxonomy of programming languages (1GL to 5GL).
-
-🪝 Context Hook — At the circuit level, computers do not know what words, images, or bank balances are. Every piece of information inside a computer is mathematically encoded into base-2 binary radix digits processed through configurations of semiconductor logic gates.
 
 ### 🔢 Positional Number Systems & Base Conversions
 
@@ -922,15 +832,6 @@ A flowchart is a standardized visual representation of an algorithm detailing th
 
 ## 11. Unit 11: Computer Networks, Topologies & Network Hardware Devices
 
-**Metadata:**
-- **Item ID:** `comp-unit-11-networks-topologies-devices`
-- **Category / Section:** Computer Networking
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant Mains, UPSC APFC
-
-> **Executive Summary:** Complete structural architecture of data communication networks. Categorizes networks by geographic scale (PAN, LAN, MAN, WAN), analyzes topological resilience and link density formulas (Star, Bus, Ring, Mesh, Tree, Hybrid), dissects physical networking devices (Repeaters, Hubs, Bridges, Switches, Routers, Gateways), and examines physical transmission media (Twisted Pair, Coaxial, Fiber Optics).
-
-🪝 Context Hook — Standalone computers are isolated calculation silos. The moment two computers are connected via a communication medium to exchange packets, they become a network—enabling planetary-scale financial transactions, shared data repositories, and interbank clearance grids.
-
 ### 🌐 Network Classification by Geographic Scale
 
 ```
@@ -1029,15 +930,6 @@ PHYSICAL LAYER    ──────────► HUBS & REPEATERS (Signal Amp
 <a id="note-12"></a>
 
 ## 12. Unit 12: Network Architecture, OSI 7-Layer Model, TCP/IP & Internet Protocols
-
-**Metadata:**
-- **Item ID:** `comp-unit-12-osi-tcpip-internet-protocols`
-- **Category / Section:** Protocols & Internet Engineering
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant Mains, UPSC APFC
-
-> **Executive Summary:** Comprehensive architectural analysis of network protocol stacks. Compares the theoretical OSI 7-Layer Reference Model with the operational TCP/IP suite, analyzes data encapsulation and Protocol Data Units (PDUs), contrasts TCP and UDP transport dynamics, details IPv4 vs IPv6 addressing and private subnets, and inventories well-known application layer protocols and port mappings.
-
-🪝 Context Hook — How can an iPhone in Mumbai, an IBM mainframe in Frankfurt, and a Linux cloud cluster in Virginia communicate seamlessly without software conflict? They obey the universal layered abstraction of the OSI and TCP/IP protocol models.
 
 ### 🏛️ The OSI 7-Layer Reference Model vs TCP/IP Suite
 
@@ -1145,15 +1037,6 @@ Network port numbers are 16-bit integers ($0$ to $65,535$) identifying specific 
 <a id="note-13"></a>
 
 ## 13. Unit 13: Microsoft Office Master Suite (Word, Excel, PowerPoint & Access)
-
-**Metadata:**
-- **Item ID:** `comp-unit-13-ms-office-suite-productivity`
-- **Category / Section:** Office Productivity Applications
-- **Target Exams:** IBPS RRB Clerk/PO, IBPS Clerk Mains, SBI PO Mains, RBI Assistant Mains
-
-> **Executive Summary:** Complete operational mastery of the Microsoft Office suite. Focuses on MS Word advanced document features (Mail Merge, section breaks, Thesaurus), MS Excel grid architecture ($1,048,576\text{ rows} \times 16,384\text{ cols}$), absolute vs relative cell referencing, VLOOKUP/XLOOKUP and error diagnostics, MS PowerPoint Slide Master and presentation views, and universal keyboard shortcut combinations.
-
-🪝 Context Hook — In banking and administrative examinations, MS Office questions are not superficial: they test exact grid limits, formula syntax, keyboard shortcuts, and automated document generation mechanisms.
 
 ### 📝 Microsoft Word (Word Processing)
 
@@ -1267,15 +1150,6 @@ Network port numbers are 16-bit integers ($0$ to $65,535$) identifying specific 
 
 ## 14. Unit 14: Information Security, Malware Classification & Cyber Threats
 
-**Metadata:**
-- **Item ID:** `comp-unit-14-cybersecurity-malware-threats`
-- **Category / Section:** Information Security & Cryptography
-- **Target Exams:** IBPS RRB Officer/Clerk, SBI PO Mains, RBI Assistant Mains, UPSC APFC
-
-> **Executive Summary:** Forensic categorization of digital vulnerabilities and malicious software. Analyzes viruses, worms, trojans, ransomware, spyware, and rootkits. Dissects social engineering attack methodologies (Phishing, Vishing, Smishing, Spoofing, MitM, DDoS), the CIA Triad of security controls, symmetric vs asymmetric cryptography, and the Indian statutory framework under the Information Technology Act, 2000.
-
-🪝 Context Hook — Cyber warfare and financial bank fraud rarely succeed by cracking mathematical encryption algorithms with supercomputers. Over 90% of security breaches exploit human cognitive biases via deceptive social engineering or unpatched software vulnerabilities.
-
 ### 🦠 The Master Taxonomy of Malicious Software (Malware)
 
 Malware (Malicious Software) is any software code intentionally developed to damage, hijack, exfiltrate data from, or disrupt computer systems and networks.
@@ -1350,15 +1224,6 @@ Malware (Malicious Software) is any software code intentionally developed to dam
 <a id="note-15"></a>
 
 ## 15. Unit 15: Banking Technology, Core Banking Solutions (CBS) & Statutory Cyber Frameworks
-
-**Metadata:**
-- **Item ID:** `comp-unit-15-banking-cbs-statutory-cyber`
-- **Category / Section:** Banking IT Infrastructure & Payments Architecture
-- **Target Exams:** IBPS RRB Officer/Clerk, IBPS PO Mains, SBI PO Mains, RBI Assistant Mains
-
-> **Executive Summary:** Complete operational breakdown of modern digital banking infrastructure in India. Dissects Core Banking Solutions (CBS) architecture, electronic clearing and settlement rails (RTGS, NEFT, IMPS, NACH, CTS), National Payments Corporation of India (NPCI) systems (UPI, NFS, AePS), interbank financial messaging (SWIFT vs SFMS), and the RBI Cyber Security Framework (C-SOC, CCMP, 6-hour CERT-In incident reporting mandate).
-
-🪝 Context Hook — Modern banking is no longer a physical building with brass teller cages and paper ledgers; it is a real-time, fault-tolerant distributed transactional database operating under stringent statutory security regulations.
 
 ### 🏛️ Core Banking Solutions (CBS) Architecture
 
@@ -1449,15 +1314,6 @@ In response to surging digital fraud risks, the Reserve Bank of India issued its
 <a id="note-16"></a>
 
 ## 16. Unit 16: Database Management Systems (DBMS), Relational Architecture & SQL Taxonomy
-
-**Metadata:**
-- **Item ID:** `comp-unit-16-dbms-sql-relational-architecture`
-- **Category / Section:** Database Management Systems & Data Engineering
-- **Target Exams:** IBPS RRB (Scale-I/Clerk), IBPS PO/Clerk Mains, SBI PO Mains, RBI Assistant, NABARD Grade A, UPSC APFC, Bank IT Specialist Officers
-
-> **Executive Summary:** Exhaustive treatise on Database Management Systems (DBMS) and Relational Database Management Systems (RDBMS). Covers flat files vs databases, relational terminology (Tuples, Attributes, Cardinality, Degree), schema vs instance, candidate/primary/foreign keys and referential integrity constraints, functional dependencies, normalization levels (1NF, 2NF, 3NF, BCNF) and anomaly mitigation, complete SQL command taxonomy (DDL, DML, DQL, DCL, TCL), the critical `DROP` vs `TRUNCATE` vs `DELETE` comparison, transaction processing mechanics, and the four ACID properties (Atomicity, Consistency, Isolation, Durability).
-
-🪝 Context Hook — In manual and early flat-file computerized banking, customer ledger entries were stored in independent text files. If a customer changed their registered mobile number, an update in the savings account file left loan and fixed-deposit records unchanged, creating devastating data inconsistencies. Modern Core Banking Solutions (CBS) eliminate this by anchoring all operations in Relational Database Management Systems governed by strict mathematical normalization and ACID guarantees.
 
 > 🧠 **Key Concept — Relational Data Model vs Flat File Systems**  
 > Pioneered by **Dr. Edgar F. Codd (E.F. Codd)** at IBM in 1970, the **Relational Model** organizes data into two-dimensional tables termed **Relations**. Unlike flat file systems—which suffer from severe data redundancy, data inconsistency, lack of concurrency control, and tight hardware dependence—an RDBMS enforces logical and physical data independence, declarative querying via SQL, and strict mathematical constraints through relational keys.
@@ -1649,15 +1505,6 @@ $$\mathbf{A}\text{ (Atomicity)}\quad\longrightarrow\quad\mathbf{C}\text{ (Consis
 
 ## 17. Unit 17: Web Architecture, HTTP Status Codes & Master File Formats Compendium
 
-**Metadata:**
-- **Item ID:** `comp-unit-17-web-architecture-http-codes-file-formats`
-- **Category / Section:** Internet Systems, Web Protocols & Digital Media
-- **Target Exams:** IBPS RRB Scale-I & Clerk, IBPS PO Mains, SBI PO Mains, RBI Assistant, NABARD Grade A, UPSC APFC
-
-> **Executive Summary:** Comprehensive master blueprint of Web Architecture, client-server communications, URL anatomy, DNS resolution hierarchy, secure transmission mechanics (HTTP vs HTTPS and SSL/TLS handshakes), the exhaustive HTTP status codes matrix (`1xx` through `5xx`), web persistence mechanisms (Cookies vs Sessions), search engine bots (`robots.txt`), and the definitive Master File Formats & Codecs Compendium (Raster vs Vector graphics, Lossy vs Lossless audio, Video containers vs codecs, and document archival standards).
-
-🪝 Context Hook — When a banking customer attempts to access their net banking portal and encounters a `403 Forbidden` error, the issue is fundamentally different from a `404 Not Found` or a `502 Bad Gateway`. Understanding the client-server handshake, status codes, and media formats is critical not only for technical troubleshooting in digital banking operations but forms one of the highest-density scoring segments in modern banking computer examinations.
-
 > 🧠 **Key Concept — Stateless Request-Response Model of the Web**  
 > The World Wide Web operates primarily on the **Client-Server Architecture** utilizing **HTTP (Hypertext Transfer Protocol)**. By design, HTTP is **Stateless**: the web server treats every incoming HTTP request as completely independent, retaining no built-in memory of prior requests from the same user. To maintain stateful interactions—such as keeping a banking customer logged in across multiple account balance pages—web systems utilize **Cookies** and **Server-Side Sessions**.
 
@@ -1843,15 +1690,6 @@ Examiners heavily test the distinction between a **Container** (the file format 
 <a id="note-18"></a>
 
 ## 18. Unit 18: PO Mains Algorithmic Flowcharts & Binary Logic Puzzle Patterns
-
-**Metadata:**
-- **Item ID:** `comp-unit-18-po-mains-flowchart-binary-puzzles`
-- **Category / Section:** Advanced Banking PO Mains Aptitude & Machine Logic
-- **Target Exams:** SBI PO Mains, IBPS PO Mains, RRB Scale-I Mains, RBI Grade B / Assistant Mains, Regulatory Body Examinations
-
-> **Executive Summary:** Advanced pedagogical master unit deciphering the specialized "Computer Aptitude" paradigm utilized in SBI PO Mains and IBPS PO Mains. Decodes the transition from factual recall to high-weightage machine reasoning puzzles: ISO flowchart symbol semantics, systematic trace table variable execution methodology, multi-loop conditional flowchart tracing walkthroughs, binary-coded symbol cipher logic (base-2 directional and mathematical operator substitutions), and operating system memory pagination (FIFO vs LRU page fault calculations).
-
-🪝 Context Hook — Candidates who prepare for SBI PO Mains or IBPS PO Mains by memorizing definitions of RAM, ROM, and printer types are invariably shocked on exam day: the section titled *"Reasoning & Computer Aptitude"* contains zero factual questions. Instead, it features complex, 5-mark algorithmic flowcharts and binary-encrypted directional puzzles. Computer Aptitude at the PO Mains level tests algorithmic thinking, condition evaluation, and machine execution simulation.
 
 > 🧠 **Key Concept — Algorithmic Machine Simulation**  
 > In banking PO Mains, the computer aptitude component tests your ability to function as an infallible **human central processing unit (CPU)**. You are presented with an abstract flowchart, machine algorithm, or binary cipher and required to trace the exact state changes of memory variables $(A, B, C, N, \text{Sum})$ through sequential decisions and iterative loops without making single-step off-by-one errors.
@@ -2075,4 +1913,3 @@ Fault?:       M     M     M     M     M     M     M   (M = Miss / Page Fault, H 
 > 2. **Loop Reassignment vs Accumulation Trap:** In flowchart tracing, pay extreme attention to `Sum = A` (overwrites variable) versus `Sum = Sum + A` (accumulates variable). Overlooking this distinction is the #1 cause of lost marks in PO Mains.
 > 3. **Binary Power Progression:** Always remember binary position values from right to left: $1, 2, 4, 8, 16, 32, 64, 128$. For $n$ binary bits, the maximum decimal value represented is $2^n - 1$.
 > 4. **Pythagorean Triples in Machine Coded Direction Puzzles:** PO Mains binary coordinate puzzles almost always resolve into standard Pythagorean triples: $(3, 4, 5)$, $(6, 8, 10)$, $(5, 12, 13)$, $(8, 15, 17)$, and $(7, 24, 25)$. Recognizing these allows instant calculation without calculating square roots.
-

@@ -404,7 +404,9 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
 
               {/* Full Canonical Content Blocks */}
               <div className="space-y-6">
-                {sortedBlocks.map((block) => {
+                {sortedBlocks
+                  .filter((block) => block.type !== 'EXAM_APPLICATION' && !block.title?.includes('Examiner Traps'))
+                  .map((block) => {
                   const badge = getBlockBadge(block.type);
                   return (
                     <div
@@ -432,10 +434,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
                 })}
               </div>
 
-              {/* 2. Target Exam Lenses (Conditional: only renders when substantive insights exist) */}
-              <ExamLensViewer examLenses={formattedExamLenses} />
-
-              {/* 3. Fast Multi-Tier Revision (Conditional: suppressed for small concepts to avoid redundant repetition) */}
+              {/* Fast Multi-Tier Revision (Conditional: suppressed for small concepts to avoid redundant repetition) */}
               {!isSmallConcept && (
                 <RevisionViewer revisionUnits={concept.revisionUnits} />
               )}

@@ -48,6 +48,7 @@ vitest_output.txt
 
 # Raw Source Materials
 Computer/
+newpdf/
 
 # Print Output PDFs
 print_output/

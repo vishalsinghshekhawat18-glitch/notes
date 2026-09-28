@@ -319,7 +319,9 @@ export function ConceptLearningView({ concept }: ConceptLearningViewProps) {
           {/* TAB 1: Full Guided Reading */}
           {activeTab === 'READING' && (
             <div className="space-y-8">
-              {allBlocks.map((block) => {
+              {allBlocks
+                .filter((block) => block.type !== 'EXAM_APPLICATION' && !block.title?.includes('Examiner Traps'))
+                .map((block) => {
                 const badge = getBlockBadge(block.type);
                 const relevantClaims = concept.claims.filter((c) => {
                   if (block.type === 'CORE_IDEA' && (c.claimType === 'LEGAL_PROVISION' || c.claimType === 'DEFINITION' || c.claimType === 'CONSTITUTIONAL_PROVISION')) return true;

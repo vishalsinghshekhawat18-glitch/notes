@@ -113,9 +113,12 @@ const KATEX_OPTIONS: katex.KatexOptions = {
 export function renderMarkdownWithMath(content: string | null | undefined): string {
   if (!content || typeof content !== 'string') return '';
 
+  // Step 0: Unescape literal escaped newlines (e.g. "\\n" strings from double-escaped JSON/DB imports)
+  let normalized = content.replace(/\\n/g, '\n');
+
   // Step 1: Protect escaped dollars \$ -> temporary token
   const ESCAPED_DOLLAR = '___ESCAPED_DOLLAR___';
-  let processed = content.replace(/\\\$/g, ESCAPED_DOLLAR);
+  let processed = normalized.replace(/\\\$/g, ESCAPED_DOLLAR);
 
   // Step 2: Protect explicit currency patterns ($100, $10 billion, etc.)
   const { text: currencyProtected, currencyTokens } = protectCurrency(processed);

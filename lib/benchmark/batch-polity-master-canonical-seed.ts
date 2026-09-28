@@ -242,12 +242,15 @@ export async function seedPolityMasterCanonicalKnowledge(): Promise<void> {
     // Clear and Recreate ContentBlocks
     await db.contentBlock.deleteMany({ where: { conceptId: concept.id } });
     for (const cb of cDef.contentBlocks) {
+      if (cb.type === 'EXAM_APPLICATION' && cb.body.includes('Article & Nomenclature Confusion')) {
+        continue;
+      }
       await db.contentBlock.create({
         data: {
           conceptId: concept.id,
           type: cb.type,
           title: cb.title,
-          body: cb.body,
+          body: cb.body.replace(/\\n/g, '\n'),
           order: cb.order,
           visibility: 'CANONICAL_FULL',
         },
