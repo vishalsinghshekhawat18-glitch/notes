@@ -1,7 +1,7 @@
 # 🏺 History, Art, Culture & Heritage: The Master Chronological Edition
 
 > **A Comprehensive, Chronological Master Suite on Ancient, Medieval, Modern Indian History, Rajasthan Heritage & World History**  
-> **Structure:** 6 Volumes &bull; 60 Chronological Master Chapters  
+> **Structure:** 6 Volumes &bull; 70 Chronological Master Chapters  
 > **Pedagogy:** Chronological Epoch Progression &bull; Verified Literary & Archaeological Evidence &bull; Zero Fluff  
 
 ---
@@ -66,25 +66,35 @@
 45. [Peasants and Farmers (Agrarian Transformation)](#chapter-45)
 46. [Pastoralists in the Modern World](#chapter-46)
 
-### Volume V: History, Forts & Cultural Heritage of Rajasthan
+### Volume V: Comprehensive Rajasthan History, Art & Heritage (RPSC RAS Master Vault)
 
-47. [RAS History Ch 1: 6 UNESCO Hill Forts of Rajasthan & Military Architecture](#chapter-47)
-48. [RAS History Ch 2: Rajasthan Miniature Painting Schools (Mewar, Kishangarh, Bundi & Kota)](#chapter-48)
-49. [RAS History Ch 3: Rajasthan Peasant Revolts (Bijolia, Begun) & Prajamandal Movements](#chapter-49)
+47. [Pre- and Proto-Historic Archaeological Sites of Rajasthan](#chapter-47)
+48. [Major Inscriptions, Epigraphy & Ancient Coins of Rajasthan](#chapter-48)
+49. [Ancient Republics & The Great Rajput Origin Controversy](#chapter-49)
+50. [The Guhilas & Sisodias of Mewar (6th Century to 1615 CE)](#chapter-50)
+51. [The Chauhans of Shakambhari, Ajmer, Ranthambore & Jalore](#chapter-51)
+52. [The Rathores of Marwar & Bikaner: Maldeo, Chandrasen & Durgadas](#chapter-52)
+53. [The Kachchwahas of Amber & Jats of Bharatpur](#chapter-53)
+54. [Resistance to Imperial Powers & The 1857 Revolt in Rajasthan](#chapter-54)
+55. [Peasant, Tribal & Freedom Movements in Rajasthan](#chapter-55)
+56. [Prajamandal Movements & Revolutionary Patriots of Rajasthan](#chapter-56)
+57. [The Seven Stages of Integration of Rajasthan (1948–1956)](#chapter-57)
+58. [Six UNESCO Hill Forts of Rajasthan & Military Architecture](#chapter-58)
+59. [Rajasthan Miniature Painting Schools (Mewar, Marwar, Hadoti & Dhundhar)](#chapter-59)
 
 ### Volume VI: World History: Civilizations, Revolutions & Modernity
 
-50. [An Empire Across Three Continents (Roman Empire)](#chapter-50)
-51. [Nomadic Empires (Genghis Khan & The Mongols)](#chapter-51)
-52. [The Three Orders & Renaissance (Feudal Europe)](#chapter-52)
-53. [The French Revolution (1789)](#chapter-53)
-54. [The Rise of Nationalism in Europe](#chapter-54)
-55. [The Age of Industrialisation & Print Culture](#chapter-55)
-56. [The Making of a Global World (Globalisation History)](#chapter-56)
-57. [Confrontation of Cultures & Displacing Indigenous Peoples](#chapter-57)
-58. [Socialism in Europe and the Russian Revolution](#chapter-58)
-59. [Nazism and the Rise of Hitler](#chapter-59)
-60. [Paths to Modernisation (Japan & China)](#chapter-60)
+60. [An Empire Across Three Continents (Roman Empire)](#chapter-60)
+61. [Nomadic Empires (Genghis Khan & The Mongols)](#chapter-61)
+62. [The Three Orders & Renaissance (Feudal Europe)](#chapter-62)
+63. [The French Revolution (1789)](#chapter-63)
+64. [The Rise of Nationalism in Europe](#chapter-64)
+65. [The Age of Industrialisation & Print Culture](#chapter-65)
+66. [The Making of a Global World (Globalisation History)](#chapter-66)
+67. [Confrontation of Cultures & Displacing Indigenous Peoples](#chapter-67)
+68. [Socialism in Europe and the Russian Revolution](#chapter-68)
+69. [Nazism and the Rise of Hitler](#chapter-69)
+70. [Paths to Modernisation (Japan & China)](#chapter-70)
 
 ---
 
@@ -3143,117 +3153,801 @@ Passed on **August 2, 1858** ("An Act for the Better Government of India"):
 
 ---
 
-# 🏛️ Volume V: History, Forts & Cultural Heritage of Rajasthan
+# 🏛️ Volume V: Rajasthan History, Art, Culture & Heritage (RPSC RAS Master Vault)
 
 ---
 
 <a id="chapter-47"></a>
 
-## 47. RAS History Ch 1: 6 UNESCO Hill Forts of Rajasthan & Military Architecture
+## 47. Pre- and Proto-Historic Archaeological Sites of Rajasthan
 
-### 🏰 Inscription of 6 Hill Forts of Rajasthan (UNESCO World Heritage Site, 2013)
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The human settlement of Rajasthan extends from Middle Pleistocene hunter-gatherers along relict paleo-channels of the Saraswati and Luni river basins, culminating in the mature urbanism of Kalibangan and indigenous copper metallurgies of the Ahar-Banas and Ganeshwar-Kantara complexes.
 
-At the 37th Session of the World Heritage Committee in Phnom Penh (Cambodia, June 2013), **6 Hill Forts of Rajasthan** were collectively inscribed as a serial UNESCO World Heritage Site:
+### 🏺 1. Lithic Age Formations: Palaeolithic & Mesolithic Sites
 
-1. **Chittorgarh Fort (Mewar — Largest Fort in India):**
-   • **Geomorphology:** Built on the **Mesa Plateau (616m elevation)** by Chitrangada Mori; surrounded by Gambhiri and Berach rivers.
-   • **Three Historic Jauhars (Shakas):**
-     - **1st Jauhar (1303):** Rani Padmini & Rawal Ratan Singh against **Alauddin Khilji** (Gora and Badal fought bravely; Khilji renamed fort *Khizrabad*).
-     - **2nd Jauhar (1535):** Rani Karnavati (sent Rakhi to Humayun) against **Bahadur Shah of Gujarat** (Rawat Bagh Singh led defense).
-     - **3rd Jauhar (1568):** Led by Phool Kanwar against **Mughal Emperor Akbar** (Jaimal Rathore and Patta Sisodia fought to martyrdom; Akbar erected their elephant statues at Agra fort gate).
-   • **Monuments:Vijay Stambha** (9 stories, 122 ft, built by Maharana Kumbha to commemorate victory over Mahmud Khilji in Battle of Sarangpur 1437; architect Jaita, Napa, Punja); **Kirti Stambha** (7 stories, dedicated to 1st Jain Tirthankara Adinath by merchant Jija Shah).
-2. **Kumbhalgarh Fort (Rajsamand — The Inaccessible Fort):**
-   • **Architect & Wall:** Built by **Maharana Kumbha** (1443–1458) under chief architect **Mandan**; encircled by a **36 km continuous defensive perimeter wall** (2nd longest continuous wall in the world after the Great Wall of China; width allows 4 horsemen to ride abreast).
-   • **Katargarh (The Eye of Mewar):** Upper fortified citadel housing Kumbha's palace and the **birthplace of Maharana Pratap (9 May 1540 at Badal Mahal)**.
-3. **Ranthambore Fort (Sawai Madhopur — The Forest/Hill Fort):**
-   • **Legacy:** Famous for Chauhan ruler **Hammir Dev Chauhan** ("Hammir Hath"); besieged by **Alauddin Khilji in 1301** (1st historic Jauhar / *Jal Jauhar* of Rajasthan led by Rani Ranga Devi; Amir Khusro noted *"Today the bastion of infidelity has become the home of Islam"*).
-   • **Monuments:** Unique **Trinetra Ganesha Temple**; 32-Pillared Cenotaph (Battis Khambon ki Chhatri); Padmala Lake.
-4. **Gagron Fort (Jhalawar — Masterpiece of Water Fort / Jal Durg):**
-   • **Location:** Surrounded on three sides by the confluence of **Ahu and Kali Sindh rivers**; has **zero foundation** (rests directly on solid natural bedrock).
-   • **Two Jauhars:** 1st in 1423 under Achaldas Khichi against Hoshang Shah of Mandu (recorded in *Achaldas Khichi ri Vachanika* by Shivdas Gadan); 2nd in 1444 under Palhansi against Mahmud Khilji.
-5. **Amber Fort (Jaipur — Rajput-Mughal Fusion):**
-   • **Architecture:** Built by **Raja Man Singh I (1592)** on Cheel ka Teela; contains **Sheesh Mahal (Mirror Palace)**, Diwan-i-Aam, Diwan-i-Khas, Kesar Kyari garden in Maota Lake; houses the idol of **Shila Devi** (brought by Man Singh from Jessore, Bengal).
-6. **Jaisalmer Fort / Sonar Qila (Swarn Durg — Living Desert Fort):**
-   • **Construction:** Founded by Bhati Rajput ruler **Rao Jaisal (1156)** on Trikuta Hill; built of yellow sandstone with **interlocking stone joints (zero mortar/lime)**; home to 25% of city population.
-   • **2.5 Jauhars (Dhai Shaka):** 1st under Alauddin Khilji (Rawal Jait Singh); 2nd under Feroz Shah Tughlaq (Rawal Duda); **0.5 (Half) Jauhar in 1550** under Rawal Lunkaran against Afghan ruler Amir Ali (Rajput warriors fought to death, but women could not perform Jauhar in time, hence counted as half Jauhar).
+• **Palaeolithic Landscape of Rajasthan:**
+  - *Lower Palaeolithic:* Hand-axes, cleavers, and choppers discovered along the **Gambhiri, Berach, and Wagan rivers** in Chittorgarh, and at **Jayal and Didwana** (Nagaur) in western Rajasthan.
+  - *Middle & Upper Palaeolithic:* Flake-tool traditions and blade-burin industries found in the **Luni river basin** (Hakra paleo-channels) and at Pushkar (Ajmer).
+• **Mesolithic Epoch (Microlithic Hunter-Herders):**
+  1. **Bagor (Bhilwara District):**
+     - Located on the left bank of the **Kothari River**; excavated by **Dr. V.N. Misra** and Dr. L.S. Leshnik (1967–1970).
+     - Centered on the **Mahasati mound**.
+     - **Earliest Empirical Evidence of Animal Domestication in India** (dating back to **~5000–4500 BCE**), alongside Adamgarh (MP).
+     - Yielded geometric microliths (triangles, trapezes), bone tools, copper arrowheads, and three distinct cultural phases.
+  2. **Tilwara (Barmer District):**
+     - Located on the dry bed of the **Luni River**; excavated by V.N. Misra.
+     - Mesolithic hunter-gatherer pastoral camp with circular stone hearths, microliths, and animal skeletal remains.
 
-> 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — RPSC RAS Top Invariants:
-1. **UNESCO Fort Mnemonic:** Remember *"Chiku Gajar Aam"* ➔ **Chi**ttorgarh, **Ku**mbhalgarh, **Ga**gron, **J**aisalmer, **R**anthambore, **Aam**ber. (Mehrangarh Fort of Jodhpur and Taragarh Fort of Bundi are NOT in UNESCO list!).
-2. **Half-Jauhar (Ardh Shaka):** Occurred in Jaisalmer in 1550 under Rawal Lunkaran against Amir Ali of Kandahar.
+### 🧱 2. Bronze Age & Saraswati Civilization: Kalibangan
 
----
+• **Geographical Setting & Excavation:**
+  - Located on the southern bank of the dry, relict **Ghaggar River (ancient Saraswati/Drishadvati)** in **Hanumangarh district**.
+  - Literally translates to **"Black Bangles"** (named after abundant black terracotta bangles found on the surface).
+  - First identified by Italian Indologist **Luigi Pio Tessitori**; recognized as Harappan by **Amalananda Ghosh (1952)**; extensively excavated by **B.B. Lal and B.K. Thapar (1961–1969)**.
+• **Dual Cultural Strata:**
+  - *Period I (Pre-Harappan / Early Harappan):*
+    - Fortified settlement built of sun-dried mud bricks in standard ratio **3:2:1** (30 x 20 x 10 cm).
+    - **World's Earliest Ploughed Agricultural Field:** Discovered south-east of the citadel, featuring criss-cross furrow marks proving **simultaneous dual cropping** (horse gram/mustard in wide rows, chickpea in narrow rows), identical to modern Rajasthani agricultural practice.
+    - **Earliest Earthquake Evidence in Subcontinental History:** Faulted strata and cracked mud walls (~2600 BCE) that brought an abrupt end to the early phase.
+  - *Period II (Mature Harappan Urbanism):*
+    - Standard twin-mound plan: Western Citadel (fortified) and Eastern Lower Town (residential), with bricks in **4:2:1** ratio.
+    - **Seven Fire Altars (Havan Kunds):** Row of clay-lined sacrificial fire altars found on a mud-brick platform in the citadel containing charcoal, ash, and bovine animal bones, indicating ritual fire worship.
+    - **Unique Architectural Signature:** Complete **absence of burnt bricks** for residential construction (mud bricks used throughout due to fuel scarcity); only drains and wells were lined with baked bricks.
+    - **Wooden Drainage System:** Unique drains carved out of hollowed-out tree trunks.
+    - Cylindrical Mesopotamian seal (proving overseas maritime trade), camel skeletal bones, and child skull with trepanning (earliest primitive cranial surgery).
+
+### ⛏️ 3. Chalcolithic Cultures: Ahar-Banas & Ganeshwar-Kantara
+
+| Archaeological Site | District & River Basin | Excavators & Period | Unique Material Culture & Metallurgical Discoveries |
+| :--- | :--- | :--- | :--- |
+| **Ahar (Tambavati Nagari / Dhulkot)** | Udaipur (Ahar / Berach River, Banas Basin). | Akshay Kirti Vyas (1953), R.C. Agrawal (1954), H.D. Sankalia (1961–62). | • Known as **Tambavati Nagari** (City of Copper) in ancient inscriptions and **Dhulkot** (Dust Mound) locally.<br>• Center of the **Ahar-Banas Culture** (~2000–1500 BCE).<br>• Discovery of **circular copper-smelting hearths and crucibles**, flat copper axes, bangles.<br>• Ceramic hallmark: **Black-and-Red Ware (BRW)** decorated with white linear geometric paintings.<br>• Terracotta bull figurines known as the **"Banasian Bull"** (symbol of fertility cult). |
+| **Gilund** | Rajsamand (Banas River). | B.B. Lal (1959–60), V.S. Shinde & Gregory Possehl. | • Prominent Ahar-Banas regional center.<br>• Rare Chalcolithic usage of **Kiln-burnt bricks** for massive structural walls.<br>• Clay sealings with terracotta stamps and terracotta gamesmen. |
+| **Balathal** | Udaipur (Vallabhnagar tehsil). | V.N. Misra (1993–1998). | • Well-preserved fortified Chalcolithic settlement with a massive **mud-brick enclosure wall / bastion**.<br>• **Earliest fragment of woven textile cloth** in Rajasthan (dated ~1800 BCE).<br>• Human skeleton dating to ~2000 BCE showing oldest osteological evidence of **Leprosy** in South Asia. |
+| **Ganeshwar (Kantara Culture)** | Neem Ka Thana / Sikar (Kantli River). | R.C. Agrawal & Vijay Kumar (1977). | • Termed the **"Mother of Copper Age Cultures"** (*Tamra-Yugin Sabhyataon ki Janani*).<br>• Stratified into Pre-Harappan and Mature phases (~2800–2200 BCE).<br>• Exploited rich Khetri-Singhana copper veins; yielded thousands of copper implements made of **99% pure refined copper** (arrowheads, fish-hooks, spears, chisels, celts).<br>• Supplied raw copper ingots and tools to Harappan centers (Kalibangan, Harappa) via riverine trade. |
+| **Bairat (Viratnagar)** | Jaipur (Ban Ganga Basin). | Dayaram Sahni (1936), Nilratan Banerjee, Kailash Nath Dixit. | • Associated with Mahabharata Matsya kingdom.<br>• **Bijak ki Pahadi & Bhimsen ki Dungri**.<br>• Circular Buddhist stupa and brick monastery; punch-marked silver coins (including Greek Indo-Greek coins of Menander). |
+| **Sunari** | Jhunjhunu (Kantli River). | Rajasthan Archaeology Dept (1980–81). | • **Earliest iron-smelting blast furnaces** in India discovered here; produced iron arrowheads, spears, and sickle blades. |
+| **Rairh** | Tonk (Dhiledi River). | K.N. Puri. | • Nicknamed the **"Tata Nagar of Ancient Rajasthan"** due to massive iron industry and discovery of **3,075 punch-marked silver coins** (largest single coin hoard in ancient India). |
+
+> 🎯 **Top Civil Services Traps for Chapter 47:**
+> 1. **Ploughed Field Stratum:** The famous ploughed field at Kalibangan belongs to the **PRE-HARAPPAN (Early Harappan) phase**, NOT the Mature Harappan phase.
+> 2. **Banasian Bull Site:** The Banasian Bull terracotta figurine is associated specifically with the **Ahar-Banas Chalcolithic culture**, NOT Kalibangan.
+> 3. **Earliest Leprosy Evidence:** Discovered at **Balathal**, NOT Ahar or Bagor.
 
 ---
 
 <a id="chapter-48"></a>
 
-## 48. RAS History Ch 2: Rajasthan Miniature Painting Schools (Mewar, Kishangarh, Bundi & Kota)
+## 48. Major Inscriptions, Epigraphy & Ancient Coins of Rajasthan
 
-### 🎨 The 4 Principal Schools of Rajasthani Painting (Anand Coomaraswamy Framework)
+> 🧠 **Key Concept — First-Principles Core Truth**
+> Epigraphic lithic records and numismatic hoards constitute the irrefragable documentary backbone of Rajasthan’s historical reconstruction, preserving political genealogies, religious transitions from Vedic sacrifices to Bhagavatism, and administrative institutional terminology.
 
-Anand Kentish Coomaraswamy categorized Rajasthani painting in his seminal 1916 book *"Rajput Painting"*. The painting styles are classified into 4 distinct schools:
+### 📜 1. Landmark Ancient & Medieval Inscriptions
 
-1. **Mewar School (The Mother School of Rajasthani Art):**
-   • **Chawand Style (Origin):** Developed during Maharana Pratap’s reign at Chawand; painter **Nisardin** painted the famous *Ragamala* set in **1605** during Maharana Amar Singh I.
-   • **Udaipur Golden Era:** Under Maharana Jagat Singh I (1628–1652); established a dedicated painting department called **Chitaron ki Ovari** (also known as *Tasveera ro Karkhano*); master painter **Sahibdin** illustrated *Ragamala (1628)*, *Geet Govind*, and *Arsha Ramayana*.
-   • **Nathdwara Style (Pichwai Art):** Centered on Shrinathji temple; famous for **Pichwai cloth paintings** depicting Krishna Leela behind the deity idol; women painters: **Kamala and Ilaichi**.
-2. **Marwar School (Jodhpur, Bikaner, Kishangarh):**
-   • **Kishangarh Style & Bani Thani:** Golden age under **Raja Sawant Singh (pen name Nagridas)**; court artist **Nihal Chand** painted **Bani Thani** (court singer Rasik Bihari) with elongated fish-like eyes, arched brows, sharp nose, and transparent veil.
-   • **Eric Dickinson’s Tribute:** Art critic Eric Dickinson designated Bani Thani as the **"Mona Lisa of India"**; Government of India issued a 20-paise postage stamp on Bani Thani in 1973.
-   • **Bikaner Style:** Famous for **Usta Kala** (intricate gold embossing on camel leather by Usta craftsmen) and **Matheerna Kala** (fresco paintings of religious themes on wet plaster).
-3. **Hadoti School (Bundi & Kota):**
-   • **Bundi Style (Bird & Nature Specialization):** World-famous for rich depictions of wildlife, lush vegetation, water ponds, and monsoon peacocks; **Chitrashala (Picture Gallery)** built by Maharao Ummed Singh is called a *"Paradise of Wall Paintings"*.
-   • **Kota Style (Hunting Scenes):** Characterized by dynamic hunting expeditions (*Shikar scenes*) where **women and queens are depicted hunting tigers and wild beasts** alongside kings.
-4. **Dhundhar School (Jaipur, Alwar, Shekhawati):**
-   • **Shekhawati Haveli Frescoes:** Known globally as the **"Open Air Art Gallery of Rajasthan"** for exquisite fresco paintings (*Arayash technique / Morakasi*) across Havelis in Mandawa, Nawalgarh, and Fatehpur.
+| Inscription Name | Date & Dynasty | Provenance & Discovery | Substantive Historical & Socio-Cultural Content |
+| :--- | :--- | :--- | :--- |
+| **Bhabru (Bairat) Rock Edict** | **3rd Century BCE**<br>(Mauryan: Ashoka) | Bijak ki Pahadi, Bairat (Jaipur); discovered by **Captain Burt (1837)**; preserved in Asiatic Society, Kolkata. | Ashoka explicitly addresses the Buddhist Sangha, professes faith in the **Buddha, Dhamma, and Sangha (Triratna)**, and lists seven Buddhist canonical texts for study. Proves Ashoka's personal conversion to Buddhism. |
+| **Ghosundi Stone Inscription** | **2nd Century BCE**<br>(Gajayana Dynasty) | Ghosundi village near Nagari (Madhyamika), Chittorgarh; deciphered by **Dr. D.R. Bhandarkar**. | Written in Brahmi script and Sanskrit language. **Earliest epigraphic record of Vaishnavism / Bhagavata cult in Rajasthan**. Mentions the construction of a stone boundary wall (*Pujasila-prakara*) around the worship site of **Sankarshana (Balarama) and Vasudeva (Krishna)** by King Sarvatata following an **Ashvamedha Yajna**. |
+| **Nandsa Yupa Inscription** | **225 CE (Vikram Samvat 282)** | Nandsa village, Sahada, Bhilwara. | Yupa (sacrificial stone pillar) inscribed by Somasharman of the Malava republic celebrating the performance of the **Ekashashthi Yajna**, documenting Vedic revival against Saka Kshatrapas. |
+| **Badva Yupa Inscription** | **238 CE (Vikram Samvat 295)** | Badva village, Baran district; discovered by A.S. Altekar. | Records three Yupa pillars erected by three brothers (Balavardhana, Somadeva, Balasimha), sons of General Balaguru of the **Maukhari dynasty**, performing Triratra sacrifices. |
+| **Samoli Inscription** | **646 CE (Vikram Samvat 703)** | Samoli village, Bhomat, Udaipur. | Reign of Guhila king **Siladitya**. Mentions the opening of rich **zinc and copper mines at Jawar (Aranyavasini / Jawar Mata)**, establishment of trade guilds (*Nagara*), and economic prosperity of Mewar. |
+| **Ghatiyala Inscriptions** | **861 CE (Vikram Samvat 918)** | Ghatiyala near Jodhpur. | Inscribed by **Pratihara ruler Kakkuka** of the Mandore Pratihara branch. Mentions the clearance of dacoit-infested paths, establishment of a commercial market (*Rohitakupa*), building of a Jaina temple, and fair administration for Brahmins and Mahajanas. Written in prose and verse. |
+| **Bijolia Inscription** | **February 1170 CE**<br>(Chauhan Dynasty) | Engraved on a granite rock at Parshvanatha Jain Temple, Bijolia (Bhilwara); composed by **Gunabhadra**, engraved by **Govinda**. | **The Magna Carta of Chauhan Epigraphy:**<br>• Records complete genealogy of the **Chauhans of Shakambhari and Ajmer** from Chahamana and Vasudeva down to Someshvara.<br>• Declares Chauhans to be **Vatsa Gotra Brahmins** originating from Ahichhatrapura.<br>• Records ancient historical toponyms: **Jabalipura** (Jalore), **Sakambhari** (Sambhar), **Mandalgarh**, **Shrimala** (Bhinmal), **Nagadraha** (Nagda), **Ahichhatrapura** (Nagaur), **Kankad** (Kankroli). |
+| **Chirwa Inscription** | **1273 CE (Vikram Samvat 1330)** | Chirwa village near Udaipur; composed by Ratnaprabha Suri. | Reign of Guhila rulers **Padmasimha, Jaitra Singh, Tejasingh, and Samarsimha**. Mentions destruction of Nagda by Muslim forces (Iltutmish) and military exploits of administrative officers (*Talaraksha*). |
+| **Kumbhalgarh Prashasti** | **1460 CE (Vikram Samvat 1517)** | Inscribed on five slabs at Kumbhaswami temple, Kumbhalgarh Fort; composed by **Kanh Vyas / Mahesh**. | Authoritative court genealogy of Mewar from **Bappa Rawal** down to **Rana Kumbha**. Clarifies that Bappa Rawal and Guhaditya were distinct rulers; details Kumbha's victories over Malwa and Gujarat sultans. |
 
-> 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — RPSC RAS Visual Markers:
-1. **Women Hunting:** **Kota Style** is the ONLY school depicting queens/women hunting wild animals in forests.
-2. **Bird & Animal Dominance:** **Bundi Style**.
-3. **Bani Thani Painter & Patron:** Painter is **Nihal Chand**; King is **Sawant Singh (Nagridas)**; Termed "Mona Lisa of India" by **Eric Dickinson**.
+### 🪙 2. Numismatic Heritage of Rajasthan
 
----
+• **Punch-Marked Coins (Aahat Mudras):** Circulated from 5th to 2nd century BCE; massive hoards discovered at **Rairh (3,075 silver coins)**, Bairat, and Sambhar.
+• **Tribal Republic Coinages:**
+  - *Sibi Janapada Coins:* Minted at Madhyamika (Nagari, Chittor); legend: *"Majhamikaya Sibijanapadasa"* (In the name of the Sibi republic of Madhyamika).
+  - *Malava Coins:* Minted at Nagar (Karkota Nagar, Tonk); legend: *"Malavanam Jayah"* (Victory to the Malavas); considered among the smallest and lightest coins in ancient numismatic history.
+  - *Yaudheya Coins:* Minted in northern Rajasthan; depict warrior deity Karttikeya clutching a spear.
+• **Princely State Currencies (Medieval to Colonial Era):**
+  - **Mewar:** *Chandori* (struck by Maharani Chundawat), *Dhingla*, *Bhildi*, *Swaroop Shahi*.
+  - **Marwar (Jodhpur):** *Vijay Shahi*, *Bhim Shahi*, *Lallulia*.
+  - **Amber / Jaipur:** *Jhar Shahi* (stamped with a 6-branch tree/broom symbol), *Hali*.
+  - **Bikaner:** *Ganga Shahi*.
+  - **Jaisalmer:** *Akhai Shahi*, *Mohammad Shahi*.
+  - **Kota:** *Madan Shahi*, *Guman Shahi*.
+
+> 🎯 **Top Civil Services Traps for Chapter 48:**
+> 1. **Ghosundi Inscription Deity:** The Ghosundi inscription is dedicated to **Sankarshana and Vasudeva**, proving the early spread of the **Bhagavata (Vaishnavite) cult**, NOT Shaivism or Jainism.
+> 2. **Vatsa Gotra Chauhan Reference:** The claim that Chauhans are *Vatsa Gotra Brahmins* originates specifically in the **Bijolia Inscription (1170 CE)**.
 
 ---
 
 <a id="chapter-49"></a>
 
-## 49. RAS History Ch 3: Rajasthan Peasant Revolts (Bijolia, Begun) & Prajamandal Movements
+## 49. Ancient Republics & The Great Rajput Origin Controversy
 
-### 🌾 Peasant Revolts & Prajamandal Freedom Movement in Rajasthan
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The transition from classical republics (Janapadas) to medieval Rajput feudal polity involved complex demographic migrations, assimilation of Central Asian martial tribes, and Brahmanical genealogical legitimization through the Agnikula fire sacrifice and solar-lunar ancestry myths.
 
-1. **Bijolia Peasant Movement (Bhilwara — 1897 to 1941):**
-   • **Significance:** Longest non-violent organized peasant movement in world history (**44 years**, 1897–1941) against the Jagirdars of Bijolia (Thikana of Mewar).
-   • **Cess Exploitation:** Farmers burdened with **84 different types of cesses (*Lag-Bag*)**; in 1903, Rao Krishna Singh imposed **Chawri Kar** (₹5 tax per daughter's marriage); in 1906, Rao Prithvi Singh imposed **Talwar Bandhai** (succession cess).
-   • **Three Operational Phases:**
-     - **Phase 1 (1897–1915):** Led locally by **Sadhu Sitaram Das**, Nanji Patel, and Thakari Patel.
-     - **Phase 2 (1916–1927 - Golden Phase):Vijay Singh Pathik (Bhup Singh)** took leadership; established **Uparmal Panch Board** (1917, Sarpanch: Manna Patel) and newspaper *Pratap* (published from Kanpur by Ganesh Shankar Vidyarthi); supported by Manikya Lal Verma (wrote motivational song *Panchhida*).
-     - **Phase 3 (1927–1941):** Led by Jamnalal Bajaj and Haribhau Upadhyaya; successfully concluded with land rights restored in 1941 by Mewar Prime Minister Sir T. Vijayaraghavachari.
-2. **Begun Peasant Movement (Chittorgarh — 1921 to 1923):**
-   • **Leadership:** Led by **Ramnarayan Chaudhary** at Menal (Chittorgarh); Rawat Anoop Singh of Begun signed the **Bolshevik Agreement** with peasants (later annulled by Mewar Maharana).
-   • **Govindpura Firing (13 July 1923):** Commissioner Trench opened fire on peaceful farmer gathering; **Rupa ji Dhakad and Kripa ji Dhakad** were martyred.
-3. **Prajamandal Movement Master Chronology:**
-   • **Objective:** Established to secure responsible governance under the aegis of native princely rulers and abolish feudal cesses (*Lata-Kunta, Begar*).
-   • **Key Prajamandals & Founders:**
-     - **1931 (1st in Rajasthan):Jaipur Prajamandal** (Founded by Kapurchand Patni; reorganized in 1936 by Jamnalal Bajaj and Hiralal Shastri).
-     - **1931:Bundi Prajamandal** (Kanti Lal).
-     - **1934:Marwar Prajamandal** (Jai Narayan Vyas, Bhanwarlal Saraf).
-     - **1936:Bikaner Prajamandal** (Magharam Vaidya at Calcutta).
-     - **1938:Mewar Prajamandal** (Manikya Lal Verma, Balwant Singh Mehta as 1st President).
-     - **1939:Kota Prajamandal** (Pandit Nayanuram Sharma, Abhay Ali).
-     - **1944:Dungarpur Prajamandal** (**Bhogilal Pandya**, revered as *"Gandhi of Vagad"*).
+### 🏛️ 1. Ancient Republics (Janapadas) of Rajasthan
 
-> 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — RPSC RAS Top Traps:
-1. **First Prajamandal:** **Jaipur Prajamandal (1931)** was the 1st in Rajasthan.
-2. **Prajamandals Founded Outside Native States:**
-   • **Bikaner Prajamandal (1936):** Founded in **Calcutta** by Magharam Vaidya.
-   • **Sirohi Prajamandal (1939):** Founded in **Bombay** by Gokulbhai Bhatt ("Gandhi of Rajasthan").
-   • **Bharatpur Prajamandal (1938):** Founded in **Rewari (Haryana)** by Gopi Lal Yadav.
+```
+  Yaudheyas (North: Ganganagar & Hanumangarh) 
+  ▲
+  Matsya (Alwar-Jaipur: Viratnagar) ──► Arjunayanas (Bharatpur-Alwar)
+  ▼
+  Malavas (Tonk-Ajmer: Karkota Nagar) ──► Sibi Janapada (Chittorgarh: Madhyamika)
+```
+
+• **Matsya Janapada:** Mentioned in Rigveda and Shatapatha Brahmana. Capital: **Viratnagar (modern Bairat)**. King Virata sheltered the Pandavas during their 13th year of exile (*Agyatvas*); later absorbed into the Magadhan Empire.
+• **Sibi Janapada:** Displaced from Punjab during Alexander's invasion (326 BCE); settled around Chittorgarh with capital at **Madhyamika (modern Nagari)**.
+• **Malava Republic:** Migrated southward from Punjab after Alexander's assault; established stronghold in southeastern Rajasthan with capital at **Nagar (Karkota Nagar, Uniyara tehsil, Tonk)**. Established the **Krita / Malava Era (57 BCE)**, later known as the **Vikram Samvat**.
+• **Yaudheyas:** Powerful martial republic occupying northern Rajasthan (Ganganagar, Hanumangarh) and southern Punjab. The Junagadh Rock Inscription of Rudradaman (150 CE) honors the Yaudheyas as *"indomitable warriors who refused to bow down"*; destroyed Kushan hegemony in northern Rajasthan.
+• **Arjunayanas:** Occupied the Alwar-Bharatpur frontier; allied with the Yaudheyas to preserve republican independence.
+
+### 🔥 2. The Great Rajput Origin Controversy: Historiographical Schools
+
+| Theory of Origin | Principal Historians & Proponents | Core Historiographical Thesis & Supporting Evidence | Major Academic Counter-Arguments |
+| :--- | :--- | :--- | :--- |
+| **1. Agnikula Myth (Fire-Pit Origin)** | **Chand Bardai** (*Prithviraj Raso*), **Muhnot Nainsi**, **Suryamal Misran**. | Sage Vashistha performed a great yajna on **Mount Abu** to cleanse the earth of demons (*Asuras/Daityas*); from the sacrificial sacrificial fire pit emerged four warrior clans: **(1) Pratihara, (2) Paramara, (3) Chalukya (Solanki), and (4) Chahamana (Chauhan)**. | Allegorical, poetic myth popularized centuries after dynastic emergence to provide ritualistic purification and Kshatriya status to rising ruling lineages. |
+| **2. Foreign Origin Theory** | **Col. James Tod** (*Annals and Antiquities of Rajasthan*), **Vincent Smith**, William Crooke, **D.R. Bhandarkar**. | Rajputs are descendants of foreign Central Asian nomadic warrior tribes—**Sakas, Kushanas, Hunas, and Gurjaras**—who invaded India between 2nd C. BCE and 6th C. CE. They were assimilated into Hindu society through religious purification rituals (*Agnistoma yajna*), adopting Hindu customs like horse-worship (*Ashvamedha*), Sun worship, and martial cremation rituals (*Sati*). | Overemphasized superficial cultural resemblances; failed to account for deep continuous Vedic linguistic, legal, and social traditions linking Rajputs to ancient Indo-Aryans. |
+| **3. Indigenous Aryan (Kshatriya) Theory** | **Dr. Gaurishankar Hirachand Ojha (G.H. Ojha)**, **C.V. Vaidya**. | Rajputs are pure indigenous **Vedic Kshatriyas** descending from the ancient **Suryavanshi (Solar)** and **Chandravanshi (Lunar)** royal lines of the Epics and Puranas. Ancient inscriptions (e.g. Harishena's Gwalior Prashasti for Pratiharas as Lakshmana's descendants) consistently proclaim solar/lunar ancestry. | Does not explain sudden clan proliferation between 7th and 10th centuries CE and assimilation of tribal chieftains into the Rajput fold. |
+| **4. Mixed / Multi-Dimensional Theory (Modern Consensus)** | **Dr. Dasharatha Sharma**, **Bipan Chandra**, **B.D. Chattopadhyaya** (*Making of Early Medieval India*). | Rajputization was a **socio-political process rather than a static ethnic origin**. Diverse warrior lineages—indigenous Kshatriyas, upwardly mobile tribal leaders (Bhil, Med, Mina chiefs), and assimilated foreign invaders (Hunas)—consolidated into an open status group through military prowess, matrimonial alliances, and royal land grants (*Brahmadeya*). | Accepted modern consensus: Synthesizes indigenous continuity with historical socio-political mobility. |
+
+> 🎯 **Top Civil Services Traps for Chapter 49:**
+> 1. **Agnikula Order of Emergence:** In *Prithviraj Raso*, the Chauhans emerged **FOURTH (last)** from the sacrificial pit to slay the demons, after Pratihara, Paramara, and Chalukya had failed.
+> 2. **Vikram Samvat Nomenclature:** The Vikram Samvat (57 BCE) was originally known as the **Krita Era** and subsequently as the **Malava Era**, established by the Malava Republic of Rajasthan.
 
 ---
+
+<a id="chapter-50"></a>
+
+## 50. The Guhilas & Sisodias of Mewar (6th Century to 1615 CE)
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The Guhila-Sisodia dynasty of Mewar established the longest uninterrupted dynastic rule in human history, governed by the ideological doctrine of **Diwan of Eklingji**, championing uncompromising territorial sovereignty against Delhi Sultanate and Mughal imperial expansion.
+
+### 🛡️ 1. Foundation & Consolidation (Bappa Rawal to Rawal Ratan Singh)
+
+• **Guhaditya (566 CE):** Founder of the Guhila dynasty; reigned from Idar.
+• **Bappa Rawal (734–753 CE):**
+  - Real founder of Mewar's imperial power (original name: **Kalbhoj** according to G.H. Ojha).
+  - Disciple of **Sage Harit Rashi**, who granted him Mewar's sovereignty under the spiritual regency of **Lord Eklingji (Shiva)**. Bappa styled himself as the **Diwan of Eklingji**, ruling on God's behalf.
+  - In **734 CE**, captured **Chittorgarh Fort from Man Mori** (Paramara/Maurya ruler).
+  - Built the magnificent **Eklingji Temple at Kailashpuri (Nagda)**.
+  - Military exploits: Formed a confederacy with Nagabhata I; repelled Arab Umayyad caliphate forces; established a military garrison outpost at **Rawalpindi (now in Pakistan)**, named after him.
+• **Allata (10th Century):** Established capital at **Ahar**; introduced the first systematic civil bureaucracy in Mewar (appointing *Amatya, Sandhivigrahika, Akshapatalika*); married Huna princess **Hariyadevi**.
+• **Jaitra Singh (1213–1253 CE):**
+  - **Battle of Bhutala (1227 CE):** Crushed the invading Delhi Sultanate army under **Shamsuddin Iltutmish**. Though victorious, Nagda was devastated, prompting Jaitra Singh to make **Chittorgarh the permanent strategic capital of Mewar**. Historian Dr. G.H. Ojha praised him as the most valiant warrior ruler of early Mewar.
+• **Rawal Ratan Singh & The First Jauhar of Chittor (1303 CE):**
+  - Reigned for just one year (1302–1303); last ruler of the **Rawal branch**.
+  - **Alauddin Khilji's Siege of Chittor (January – August 1303):** Motivated by geopolitical imperialism, control over Gujarat trade routes, and personal ambition (*Padmini legend* immortalized by Malik Muhammad Jayasi in *Padmavat*, 1540).
+  - Heroic resistance led by generals **Gora and Badal**. Ratan Singh was martyred.
+  - On **August 26, 1303**, **Rani Padmini led the First Jauhar of Chittor**, where over 1,600 women plunged into burning fire pits.
+  - Alauddin slaughtered 30,000 Hindu inhabitants, handed Chittor to his son **Khizr Khan**, and renamed it **Khizrabad**.
+
+### 🏰 2. The Sisodia Renaissance: Rana Hammir & Maharana Kumbha
+
+• **Rana Hammir (1326–1364 CE) — Rescuer of Mewar:**
+  - Belonged to the cadet branch of **Sisoda village**; adopted the royal title **Rana**, establishing the **Sisodia dynasty**.
+  - Recaptured Chittorgarh in 1326 from Maldeo Songara (Jalore Chauhan governor under Delhi).
+  - Earned the honorific **"Uddharak of Mewar"** (Rescuer of Mewar).
+  - Inscriptions describe him as **"Vishama Ghati Panchanana"** (a lion in the terrifying mountain valleys of battle); Kumbha's *Rasikapriya* titles him **"Veer Raja"**. Defeated Muhammad bin Tughlaq in the **Battle of Singoli** (Banswara).
+• **Rana Lakha (1382–1421 CE):**
+  - Discovery of rich **zinc and silver deposits at Jawar mines**, triggering economic golden age.
+  - A Banjara nomad constructed the world-famous **Pichhola Lake** in Udaipur.
+  - Royal succession: Elder son **Chunda** renounced the throne for his infant half-brother Mokal (born of Marwar princess Hansa Bai), earning the legendary title **"Bhishma of Mewar"** (Chundawats granted hereditary right to lead the vanguard / *Harawal* of Mewar's army and counter-sign state charters with the royal spear emblem / *Bhala*).
+• **Maharana Kumbha (1433–1468 CE) — The Architectural & Cultural Colossus:**
+  - Son of Rana Mokal; unified regional military dominance with monumental artistic patronization.
+  - **Battle of Sarangpur (1437 CE):** Crushed the combined forces of Sultan Mahmud Khilji of Malwa; kept Khilji captive in Chittor for 6 months before releasing him with chivalry.
+  - **Vijay Stambha / Kirti Stambha (Tower of Victory):**
+    - Built between 1440 and 1448 to commemorate victory over Malwa.
+    - 9 stories, **122 feet high, 30 feet wide base, 157 steps**.
+    - Chief architect: **Jaita** and his sons **Napa, Poma, and Punja**.
+    - Dedicated to **Lord Vishnu**; inscribed with hundreds of carved Hindu deities, earning the title **"Encyclopedia of Indian Iconography"** (Dr. Goetz) and **"Museum of Hindu Deities"** (G.H. Ojha). Ferguson compared it to Trajan's Column in Rome.
+  - **Military Fortifications:** According to Kaviraj Shyamaldas (*Vir Vinod*), Kumbha built **32 of the 84 forts of Mewar**, including:
+    - **Kumbhalgarh Fort:** Designed by master architect **Mandan** on an inaccessible Aravalli ridge; encircled by a **36-kilometer continuous stone wall** (second longest in the world after the Great Wall of China); contains the inner citadel **Katargarh ("Eye of Mewar")**, birthplace of Maharana Pratap.
+    - Achalgarh (Abu) and Basantgarh (Sirohi).
+  - **Literary Masterpieces by Kumbha:**
+    - Mastered Sanskrit, music, and dramatic arts. Titled *Abhinav Bharatacharya, Hindu Suratrana, Rano Raso, Shail-Guru, Dan-Guru*.
+    - Authored the definitive treatise **Sangeet Raj** (divided into 5 *Ratnakaras*: Patha, Geeta, Vadya, Nritya, and Rasa).
+    - Authored *Sangeet Meemansa*, *Sood Prabandha*, *Kamraj Ratisar*, and commentaries on Jayadeva's *Gita Govinda* (**Rasikapriya**) and Bharata's *Natya Shastra*.
+    - Patronized court scholars: **Mandan** (authored *Devamurti Prakarana, Prasad Mandan, Rupa Mandan, Vastu Mandan, Rajavallabha*), **Kanh Vyas** (authored *Ekling Mahatmya*), and **Natha** (*Vastu Manjari*).
+
+### ⚔️ 3. Maharana Sanga: The Apex of Rajput Confederacy (1508–1528 CE)
+
+• **Physical Stature:** Known as **"Sainik ka Bhagnawashesh"** (The Fragment of a Soldier); bore **80 wounds** from swords and arrows, lost one eye in youth, had one arm amputated, and was crippled in one leg.
+• **Victorious Campaigns:**
+  - *Battle of Khatoli (1517):* Routed Sultan Ibrahim Lodi of Delhi.
+  - *Battle of Dholpur (1518):* Defeated Ibrahim Lodi's second expedition under Mian Makhan.
+  - *Battle of Gagron (1519):* Defeated Sultan Mahmud Khilji II of Malwa; captured the Sultan.
+  - *Battle of Bayana (February 1527):* Decisively routed Babur's Mughal vanguard under Mehndi Khwaja; Mughal soldiers were terrified of Rajput valor.
+• **The Tragic Battle of Khanwa (March 17, 1527):**
+  - Revived the ancient Rajput custom of **Pati Perawan** (summoning all Rajput and regional kings under one common banner).
+  - Seven high rajas, 9 raos, and 104 small chieftains rallied under Sanga, including: Hasan Khan Mewati, Mahmud Lodi, Raja Prithviraj of Amber, Rao Ganga of Marwar (led by prince Maldeo), Kalyanmal of Bikaner, and Medini Rai of Chanderi.
+  - Babur declared **Jihad**, smashed his wine goblets, abolished the stamp tax (*Tamga*), and employed the Ottoman **Tulghuma flanking strategy** and chained artillery cart-barricades (*Rumi system* under Ustad Ali and Mustafa).
+  - Sanga was gravely wounded in the forehead by an arrow; Jhala Ajja donned the royal insignia; treachery of **Silhadi of Raisen** (who defected to Babur with 35,000 troops) turned the tide of battle. Sanga was taken to Baswa (Dausa) unconscious; died at Kalpi (poisoned by hesitant nobles fearing renewed war with Babur); cremated at **Mandalgarh (Bhilwara)** where his cenotaph (*Chhatri*) stands.
+
+### 🏹 4. Maharana Pratap: The Immortal Resistance (1572–1597 CE)
+
+• **Accession Crisis:** Maharana Udai Singh II died on Holi (Feb 28, 1572) at Gogunda, nominating his younger son Jagmal as heir. Mewar nobles led by Rawat Krishna Das Chundawat and Akhairaj Songara deposed Jagmal and crowned **Pratap Singh** at **Gogunda**; second formal coronation held at Kumbhalgarh.
+• **Akbar's Four Diplomatic Missions (1572–1573):**
+  ```
+    1. Jalal Khan Qurchi (Nov 1572) ──► 2. Kunwar Man Singh (June 1573) ──► 3. Raja Bhagwant Das (Oct 1573) ──► 4. Todar Mal (Dec 1573)
+  ```
+  Pratap treated envoys courteously, but firmly refused to compromise Mewar's sovereignty or attend the Mughal court in person.
+• **The Battle of Haldighati (June 18, 1576):**
+  - Fought at the narrow yellow-soiled pass between Khamnor and Gogunda in Rajsamand.
+  - *Mughal Forces:* Commanded by **Kunwar Man Singh of Amber** and **Asaf Khan**; royal chronicler Abdul Qadir Badauni was present.
+  - *Mewar Army Architecture:*
+    - **Harawal (Vanguard):** Commanded by Afghan Pathan **Hakim Khan Sur** (exemplifying secular national defense).
+    - **Chandawal (Rearguard):** Commanded by **Rana Punja** and Bhil tribal archers.
+    - **Right Wing:** Ramdas Rathore (son of Jaimal) and Raja Ramshah Tanwar of Gwalior.
+    - **Left Wing:** Jhala Man (Bida) and Man Singh Deora of Sirohi.
+  - *Climax of Battle:* Pratap mounted on his war-steed **Chetak** charged directly at Man Singh atop his elephant *Mardan*; Chetak planted his hooves on the elephant's tusks; Pratap hurled his spear; elephant's poisoned trunk-blade sliced Chetak's leg.
+  - **Jhala Manna (Bida)** recognized the crisis, seized the royal umbrella (*Chhatra*) and insignia, sacrificing himself to divert the Mughal assault while wounded Pratap retreated across the Banas.
+  - **Chetak's Martyrdom:** Chetak leaped across a wide stream at **Balicha village** and collapsed dead; his cenotaph (*Chhatri*) stands at Balicha.
+  - **Military Reality:** Akbar failed completely in his primary objectives—Pratap was neither captured nor killed, Mewar did not submit, and within months Pratap recaptured the countryside.
+• **Battle of Dewair (October 1582) — "The Marathon of Mewar":**
+  - On Vijaya Dashami (1582), Pratap launched a lightning counter-offensive against the main Mughal garrison at **Dewair** (Rajsamand).
+  - Crown Prince Amar Singh I impaled Mughal commander **Sultan Khan** with a lance blow through his armor, horse, and into the ground.
+  - Pratap liquidated all 36 Mughal military outposts across Mewar; Col. James Tod called Haldighati the *"Thermopylae of Mewar"* and Dewair the **"Marathon of Mewar"**.
+• **Chavand Capital & Final Years:**
+  - In 1585, Pratap defeated Luna Rathore, captured **Chavand** (near Chhappan), and made it his permanent capital.
+  - Built Chamunda Mata temple; developed the indigenous **Chavand style of Mewar painting** (famous artist **Nasiruddin** painted the *Dholamaru* series).
+  - Pratap passed away peacefully on **January 19, 1597** at Chavand (aged 57) from internal injuries sustained while tightening a bowstring; cremated at **Bandoli village** near Chavand where his eight-pillared cenotaph stands on the banks of a stream.
+
+### 📜 5. The Mughal-Mewar Treaty of 1615 (Amar Singh I)
+
+• Prince Khurram (Shah Jahan) unleashed scorched-earth warfare on Mewar (1613–1615), burning crops and capturing civilian families.
+• Crown Prince **Karan Singh** and Mewar nobles urged Maharana Amar Singh I to negotiate an honorable peace.
+• **Terms of the 1615 Treaty:**
+  1. Maharana of Mewar was **exempt from personal attendance** at the Mughal court; Crown Prince Karan Singh would attend.
+  2. Mewar was **completely exempt from providing royal princesses in marriage** to the Mughal emperors.
+  3. **Chittorgarh Fort was restored to Mewar**, on the strict military condition that it would **never be repaired or refortified** (to prevent its use as an anti-Mughal stronghold).
+  4. Mewar would provide a contingent of 1,000 cavalry to the imperial army.
+• Heartbroken by the compromise of ancient absolute independence, Amar Singh abdicated active rule and spent his remaining days in meditative retirement at **Nau Chowki (Rajsamand)**.
+
+> 🎯 **Top Civil Services Traps for Chapter 50:**
+> 1. **Eklingji Deity vs King:** The real sovereign ruler of Mewar was considered to be **Lord Eklingji (Shiva)**; the Maharanas ruled merely as his humble **Diwan (Prime Minister)**.
+> 2. **Hakim Khan Sur's Tomb:** Afghan Pathan Hakim Khan Sur led Pratap's **vanguard (Harawal)** at Haldighati and was martyred; his tomb is located at **Khamnor (Rajsamand)**.
+> 3. **Dewair Marathon vs Thermopylae:** Col. Tod termed **Haldighati as the Thermopylae of Mewar**, but termed **Dewair as the Marathon of Mewar**.
+
+---
+
+<a id="chapter-51"></a>
+
+## 51. The Chauhans of Shakambhari, Ajmer, Ranthambore & Jalore
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The Chahamana (Chauhan) dynasties of Rajasthan forged an imperial frontier culture extending from the salt marshes of Sambhar to the ramparts of Delhi, Taragarh, and Ranthambore, sacrificing dynastic existence in desperate sieges against Alauddin Khilji rather than surrendering sovereign honor.
+
+### 🦅 1. The Shakambhari & Ajmer Imperial Lineage
+
+• **Vasudeva (551 CE):** Legendary progenitor; established early Chauhan capital at **Ahichhatrapura (Nagaur)** and **Shakambhari (Sambhar)**; constructed the salt lake of Sambhar and temple of family goddess **Shakambhari Mata**.
+• **Ajayaraja II (1113 CE):**
+  - Founded the strategic city of **Ajaymeru (modern Ajmer)** in 1113 CE.
+  - Built the impenetrable hill fortress **Garh Beetli / Taragarh Fort** on Beetli hill (Col. Tod called it the *"Gibraltar of Rajasthan"*).
+  - Issued silver and copper coins bearing his name and that of his queen **Somalladevi**.
+• **Arnoraja (Ana ji, 1133–1150 CE):**
+  - Defeated invading Ghaznavid Turk forces; to purify the blood-stained battlefield, he constructed the scenic **Ana Sagar Lake** in Ajmer (fed by the Chandra river).
+  - Built the famous **Varaha Temple at Pushkar**.
+• **Vigraharaja IV / Visaladeva (1153–1163 CE) — The Golden Age:**
+  - Expanded Chauhan empire from Shiwalik hills in Punjab to the Vindhyas; captured **Delhi from the Tomar Rajputs**, making Delhi a dependency of Ajmer.
+  - Inscriptions on the **Delhi-Topra Ashokan Pillar** record his great conquests and benevolence.
+  - Eminent scholar and playwright; authored the famous Sanskrit drama **Harakeli** (depicting Shiva and Arjuna).
+  - Built a magnificent Sanskrit college at Ajmer (*Saraswati Kanthabharana*), which **Qutb-ud-din Aibak demolished in 1198 CE** and hastily converted into a mosque known as **Adhai Din Ka Jhonpra** (verses of *Harakeli* are still carved on its stone arches).
+  - Patronized court poet **Somadeva**, author of the romantic play **Lalita Vigraharaja**.
+  - Built the artificial lake **Visalsar** at Todaraisingh (Tonk).
+• **Prithviraj Chauhan III (1177–1192 CE) — "Rai Pithora":**
+  - Succeeded to the throne at age 11 under the regency of his mother **Karpuri Devi** and minister **Kadambavasa (Kaimasa)**.
+  - Assumed titles: **Rai Pithora** and **Dalpanggula** ("Conqueror of the World").
+  - *Military Expansion:* Subdued the revolt of his cousin Nagarjuna; defeated the Bhandanakas; invaded Bundelkhand and defeated the Chandela king Paramardi Deva in the **Battle of Mahoba (1182 CE)** (commemorated in folk ballads for the heroic death of Banaphar warrior brothers **Alha and Udal**).
+  - *Conflict with Kannauj:* Abducted princess **Samyogita**, daughter of Gahadavala king Jayachandra, from her Swayamvara, triggering bitter inter-Rajput enmity.
+  - *Court Scholars & Poets:* **Chand Bardai** (author of epic *Prithviraj Raso*), **Jayanaka** (Kashmiri poet, author of *Prithviraj Vijaya*), Vidyapati Gauda, Vagishwara, Janardana, and Vishwarupa.
+  - **The Two Decisive Battles of Tarain (Karnal, Haryana):**
+    - *First Battle of Tarain (1191 CE):* Invading Ghurid forces under **Mu'izz al-Din Muhammad Ghori** clashed with Prithviraj's army. Govind Rai (ruler of Delhi) wounded Ghori with a lance; Ghurid army routed in total panic; Prithviraj chivalrously allowed the retreating invaders to escape unmolested.
+    - *Second Battle of Tarain (1192 CE):* Ghori returned with 120,000 disciplined cavalry, feigning retreat and launching surprise dawn attacks on the resting Rajput camp. Prithviraj was defeated, captured near the Saraswati River (Sirsa), and executed. **Marked the decisive turning point in subcontinental history**, ending Hindu imperial dominance in Northern India and ushering in the Delhi Sultanate.
+
+### 🐅 2. The Chauhans of Ranthambore: Rana Hammir Dev (1282–1301 CE)
+
+• **Lineage:** Founded by **Govindaraja** (son of Prithviraj III) in 1194 CE after expulsion from Ajmer by Ghori.
+• **Hammir Dev Chauhan (1282–1301 CE):**
+  - Fought 17 battles, victorious in 16. Performed the *Kotiyajana* sacrifice.
+  - Embodying Rajput obduracy (*Hammir Hath*): *"Singha savana satpurusha vachana, kadali phalata ik baar; Tiriya-tela Hammir-hath, chadhe na dooji baar"* (A lioness gives birth but once; a noble man never breaks his word; the plantain tree yields fruit once; a bride is anointed with wedding oil once; and Hammir never turns back from his vow).
+  - Refused to surrender Mongol fugitive nobles **Muhammad Shah and Khebru** who sought asylum (*Sharanagat-vatsalta*) after rebelling against Sultan Alauddin Khilji.
+• **The Epic Siege of Ranthambore (1301 CE):**
+  - Alauddin dispatched Ulugh Khan and Nusrat Khan (who was killed by a missile from Ranthambore's siege-slings / *Maghribi*).
+  - Alauddin personally besieged Ranthambore for nearly a year.
+  - Treachery of Hammir's prime ministers **Rannmal and Ripal**, who bribed by Alauddin, poisoned the water tanks with cow bones and betrayed secret entryways.
+  - Faced with starvation, the Rajputs donned saffron robes (*Kesariya*).
+  - Hammir died fighting heroically on **July 11, 1301**.
+  - **First Jauhar of Ranthambore:** Led by Queen **Ranga Devi** and daughter **Devalde (Padmalah)** who plunged into the waters of Padmalah lake (**Water Jauhar / Jal Jauhar**).
+  - Court chronicler **Amir Khusrau** recorded: *"Today the fortress of infidelity (Kufr ka Garh) became the home of Islam"*.
+
+### 🏰 3. The Songara Chauhans of Jalore: Kanhadadeve (1305–1311 CE)
+
+• **Foundation:** Founded in 1181 CE by **Kirtipala Chauhan** (Rana of Nadol, son of Alhana). Inscriptions praise Kirtipala as a *"Man like a lion" (Kitu ek Mahan Raja)*.
+• **Kanhadadeve Songara (1305–1311 CE):**
+  - Ruled Jalore from the golden fort of **Suvarnagiri / Songarh**.
+  - Refused transit to Alauddin's army marching to sack Somnath (1299); attacked the returning Muslim forces, liberated thousands of Hindu captives, and rescued the fragments of the holy Somnath Jyotirlinga.
+• **The Fall of Siwana (1308 CE):**
+  - Siwana ("The Key to Jalore / Ghamand Durg") held by Kanhadadeve's valiant nephew **Sataldeva and Som**.
+  - Traitor **Bhawla** contaminated the water pond (*Bhandelao Talab*) with cow blood.
+  - Rajputs performed Shaka; Sataldeva martyred; Alauddin renamed Siwana as **Khairabad**, appointing Kamal-ud-din Gurg as governor.
+• **The Siege of Jalore (1311 CE):**
+  - Alauddin besieged Jalore. Kanhadadeve and crown prince **Viramdeve** led heroic sorties.
+  - Traitor **Bika Dahiya** betrayed the secret, vulnerable mud section of the fort wall (*"Rai ke bhav raat hi bika"*).
+  - Rajputs performed Shaka; queens committed Jauhar. Kanhadadeve fell with sword in hand; Viramdeve stabbed himself to death rather than be captured alive by Alauddin's daughter Feroza.
+  - Chronicled masterfully by 15th-century poet **Padmanabha** in two landmark vernacular Rajasthani texts: **Kanhadade Prabandha** and **Viramdeva Feroza ri Baat**. Alauddin renamed Jalore as **Jalalabad**.
+
+> 🎯 **Top Civil Services Traps for Chapter 51:**
+> 1. **First vs Second Tarain Outcomes:** Prithviraj **WON the First Battle of Tarain (1191)** and **LOST the Second Battle of Tarain (1192)**.
+> 2. **Jal Jauhar of Rajasthan:** The famous and only recorded **Jal Jauhar (Water Jauhar)** in Rajasthan history occurred at **Ranthambore Fort (Padmalah Talab) in 1301**, led by Hammir's queen Ranga Devi and daughter Devalde, NOT at Chittor.
+> 3. **Suvarnagiri vs Swarnagiri:** **Suvarnagiri** refers to **Jalore Fort** (Songara Chauhans); **Swarnagiri (Sonar Qila)** refers to **Jaisalmer Fort** (Bhati Rajputs).
+
+---
+
+<a id="chapter-52"></a>
+
+## 52. The Rathores of Marwar & Bikaner: Maldeo, Chandrasen & Durgadas
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The Rathores established sovereign hegemony across the arid wastes of Marwar through relentless warfare, pioneering guerrilla mountain resistance under Rao Chandrasen and producing Veer Durgadas Rathore, whose thirty-year war of independence shattered Aurangzeb’s imperial prestige.
+
+### 🏜️ 1. Emergence & Consolidation of Marwar (Rao Siha to Rao Jodha)
+
+• **Origins:** Rathores claim descent from the ancient **Rashtrakuta dynasty** of Manyakheta and the Gahadavalas of Kannauj.
+• **Rao Siha (13th Century):** Founder; established base at **Pali**; martyred fighting Muslim invaders at **Bithu village (Pali)** in 1273 CE, where his memorial stone stands.
+• **Rao Dhuhad:** Brought the wooden idol of family deity **Nagnechi Mata (Chakreshwari)** from Karnataka and consecrated it at **Nagana village (Barmer)**.
+• **Rao Chunda (1394–1423 CE):** Acquired the historic capital of **Mandore** as a dowry gift from the Inda Pratiharas in 1395 CE, establishing Mandore as the seat of Rathore power.
+• **Rao Jodha (1438–1489 CE) — The Nation Builder:**
+  - Rebuilt Rathore power after escaping Mewar custody following Rao Ridmal's assassination.
+  - Signed the **Awal-Bawal Treaty (1453 CE)** with Rana Kumbha, fixing the political boundary between Mewar (where Awal trees grow) and Marwar (where Bawal/Acacia trees grow).
+  - On **May 12, 1459**, laid the foundation of **Jodhpur city** and began construction of the legendary fortress **Mehrangarh Fort** on **Chidia-Tunk hill**.
+  - Foundation stone laid by revered female ascetic **Karni Mata**. Also known as *Mayuradhwajgarh* (peacock-shaped) and *Chintamani Durg*.
+  - Built the **Ranisar Lake** (commissioned by Queen Hadi Jasma De).
+
+### ⚔️ 2. Rao Maldeo (1531–1562 CE) — "Hashmatwala Raja"
+
+• **The Zenith of Territorial Expansion:**
+  - Expanded Marwar into an imperial empire spanning 58 parganas; subdued Nagaur, Merta, Bhadrajun, Siwana, Bikaner, and Jalore.
+  - Persian historians (*Nizam-ud-din Ahmad, Farishta*) described him as the **"Most Powerful and Potent Hindu Ruler of Hindustan"** (*Hashmatwala Raja*).
+  - Fortified Mehrangarh, Pokhran, Merta, and Siwana.
+• **The Legend of "Roothi Rani" (Uma De):**
+  - Daughter of Rao Lunkaran of Jaisalmer; became alienated from Maldeo on the wedding night due to a perceived slight involving a maidservant (Bh惆li); spent her entire life separated from him in **Taragarh Fort (Ajmer)**; committed Sati upon Maldeo's death in 1562.
+• **The Battle of Sammel / Giri-Sumri (January 1544):**
+  - Fought near Jaitaran (Pali) between Rao Maldeo and Afghan Sultan **Sher Shah Suri**.
+  - Sher Shah, intimidated by Rathore strength, forged fraudulent letters implicating Maldeo's top generals **Jaita and Kumpa** in bribery, dropping them near Maldeo's tent.
+  - Maldeo fell into the psychological trap and retreated towards Jodhpur with the main army.
+  - Jaita and Kumpa, determined to prove their unimpeachable loyalty, launched a desperate assault on Sher Shah's 80,000 troops with only 12,000 Rathores. They cut through the Afghan vanguard and almost killed Sher Shah before Afghan reinforcements under Jalal Khan Jalwani turned the tide.
+  - Shaken by the near-annihilation of his empire, Sher Shah uttered his historic words:
+    > *"Khuda ka shukr hai ki fateh ho gayi, warna main ek mutthi bajre ke liye Hindustan ki badshahat kho deta"*  
+    > (*"Thank God for victory, otherwise for a handful of bajra [millet], I would have lost the empire of all Hindustan!"*).
+
+### 👑 3. Rao Chandrasen (1562–1581 CE) — "The Pratap of Marwar"
+
+• **Historical Stature:** Known as the **"Forgotten Hero of Rajasthan"** (*Bhula-Bisra Raja*) and the **"Forerunner of Maharana Pratap"**.
+• **The Nagaur Durbar (November 1570):**
+  - Akbar held a grand imperial assembly (*Durbar*) at Nagaur (excavated the *Shukra Talab*).
+  - Rulers of Bikaner (Rai Singh) and Jaisalmer (Harraj) submitted to Akbar and entered into matrimonial alliances.
+  - Chandrasen attended the Durbar, observed the humiliating subservience expected by Akbar, and **proudly walked out without submitting**.
+• **Guerrilla Resistance in the Aravallis:**
+  - Akbar dispatched imperial armies under Rai Singh and Jalal Khan to seize Jodhpur.
+  - Chandrasen abandoned the plains and retreated into the mountain fortresses of **Bhadrajun (Jalore), Siwana (Barmer), and the Sarang hills (Pali)**.
+  - First ruler in Rajasthan to demonstrate that the mighty Mughal cavalry could be paralyzed in the ravines of the Aravallis through **guerrilla warfare**.
+  - Passed away on **January 11, 1581** at **Sinchiyai (Sarang hills, Pali)** where his memorial cenotaph stands.
+• **Mota Raja Udai Singh (1583–1595):** Chandrasen's brother; surrendered to Akbar in 1583; married his daughter **Jodha Bai (Manmati / Jagat Gosain)** to Jahangir (mother of Shah Jahan); first Marwar ruler to accept formal Mughal suzerainty.
+
+### 🛡️ 4. Veer Durgadas Rathore & The 30-Year War of Independence
+
+• **Parentage:** Son of Askaran Rathore (minister of Maharaja Jaswant Singh I); born at Salwa village (Jodhpur) in 1638.
+• **The Succession Crisis of 1678:**
+  - Maharaja Jaswant Singh I died at Jamrud (Afghanistan) in 1678 without leaving a living heir.
+  - Aurangzeb immediately declared Marwar annexed to the Mughal empire, instituted **Jizya**, placed Indra Singh Rathore on the throne for a bribe of ₹36 lakh, and occupied Jodhpur.
+  - Two posthumous sons were born to Jaswant Singh's queens at Lahore, of whom **Ajit Singh** survived.
+• **The Escape from Delhi (1679):**
+  - Aurangzeb detained infant Ajit Singh and the royal Ranis at Kotla in Delhi, intending to raise the child as a Muslim.
+  - Durgadas Rathore, assisted by maidservant **Gora Dhai** (celebrated as the *"Panna Dhai of Marwar"*), carried out a daring nocturnal rescue, substituting the infant prince with another child and escorting Ajit Singh safely to Sirohi (sheltered by Mukand Das Khichi and Kalindi priest).
+• **The 30-Year Rathore Resistance (1679–1707):**
+  - Durgadas forged a historic alliance with **Maharana Raj Singh of Mewar**.
+  - Successfully subverted Aurangzeb's son **Prince Akbar**, who declared himself emperor at Nadol in 1681; when Akbar's rebellion failed, Durgadas escorted Akbar safely to the court of Chhatrapati Sambhaji in the Deccan.
+  - Exhibited exemplary moral chivalry: Aurangzeb's granddaughter Safiyat-un-Nissa and grandson Buland Akhtar were left in Durgadas's custody; he arranged for their strict education in Islamic theology and returned them to Aurangzeb with honor.
+  - Recaptured Jodhpur in 1707 following Aurangzeb's death and crowned Ajit Singh.
+  - Col. James Tod called him the **"Ulysses of the Rathores"**.
+  - Tragically exiled by ungrateful Ajit Singh in his old age; spent his final years at **Ujjain (Madhya Pradesh)** where he died on November 22, 1718; his cenotaph (*Chhatri*) stands on the banks of the sacred **Shipra River**.
+
+### 🏰 5. The Rathores of Bikaner: Rao Bika to Maharaja Rai Singh
+
+• **Rao Bika (1465–1504 CE):** Son of Rao Jodha; founded the separate Rathore kingdom of **Bikaner in 1488 CE** (with cooperation of Jat chieftain Nara, hence *Bika-Ner*); built Karni Mata temple at Deshnoke.
+• **Rao Jaitasi (1526–1542 CE):** Defeated Babur's son **Kamran** in the **Battle of Rati-Ghati (1534 CE)**; chronicled in Dingal masterpiece **Rao Jaitasi ro Chhand** by poet **Bithu Sooja**.
+• **Maharaja Rai Singh (1574–1612 CE) — "Karna of Rajputana":**
+  - Munshi Devi Prasad conferred the title **"Rajputana ka Karna"** for his immense charity and benevolence.
+  - Akbar's most dependable military general after Man Singh; served as Governor of Gujarat and Burhanpur.
+  - Built the formidable **Junagarh Fort (Bikaner)** between 1589 and 1594 (architect: Prime Minister Karam Chand); installed the famous **Rai Singh Prashasti** and statues of Jaimal and Patta at the Suraj Pol gate.
+• **Maharaja Anup Singh (1669–1698 CE):** Conferred title *Mahi Maratib* by Aurangzeb; golden age of Bikaner literature, music, and art; collected thousands of rare Sanskrit and Rajasthani manuscripts, founding the **Anup Sanskrit Library** at Junagarh Fort.
+
+> 🎯 **Top Civil Services Traps for Chapter 52:**
+> 1. **Durgadas Cenotaph Location:** Veer Durgadas Rathore was cremated and his cenotaph stands at **Ujjain (on the banks of the Shipra River in Madhya Pradesh)**, NOT in Jodhpur or Rajasthan.
+> 2. **Karna of Rajputana vs Karna of Kalyug:** **Maharaja Rai Singh of Bikaner** was titled *"Karna of Rajputana"* by Munshi Devi Prasad, whereas **Rao Lunkaran of Bikaner** was called *"Karna of Kalyug"* by Bithu Sooja in *Rao Jaitasi ro Chhand*.
+
+---
+
+<a id="chapter-53"></a>
+
+## 53. The Kachchwahas of Amber & Jats of Bharatpur
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The Kachchwahas of Amber achieved peerless imperial pre-eminence through proactive Mughal matrimonial alliances and administrative statesmanship under Man Singh and Sawai Jai Singh II, while the peasant Jats of Bharatpur constructed the invincible water-fortress of Lohagarh under Maharaja Suraj Mal.
+
+### 🏛️ 1. The Kachchwahas of Amber: Origin & Collaboration Strategy
+
+• **Lineage:** Claim descent from **Kusha**, elder son of Lord Rama; hence styled as *Raghuvamshis*. State flag bore the Sun emblem and motto: *"Yato Dharmastato Jayah"* (Where there is Righteousness, there is Victory).
+• **Dulha Rai (Dholarao, 1137 CE):** Migrated from Gwalior (Narwar); defeated Badgujars, captured Dausa, and founded the Kachchwaha dynasty; established capital at **Jamwa Ramgarh** and built temple of **Jamway Mata**.
+• **Kakil Dev (1207 CE):** Conquered Amber from the indigenous Meena rulers and made **Amber the permanent capital**.
+• **Raja Bharmal (Bhari Mal, 1547–1573 CE) — Pioneer of Mughal Alliance:**
+  - Facilitated by Chagatai noble Chaghtai Khan, Bharmal met Akbar at Sanganer in 1556 and formally submitted at **Sambhar in January 1562**.
+  - Married his eldest daughter **Harkha Bai** (given the imperial title **Mariam-uz-Zamani**; mother of Prince Salim / Emperor Jahangir) to Akbar at Sambhar.
+  - **First Rajput ruler in Indian history to voluntarily accept Mughal suzerainty** and contract a dynastic matrimonial alliance.
+• **Raja Man Singh I (1589–1614 CE) — The Imperial Commander:**
+  - Adopted son and grandson of Bharmal (son of Bhagwant Das); entered Akbar's service at age 12.
+  - Accorded the supreme title **Farzand** ("Son") and highest noble rank of **7,000 Mansabdar** (highest rank given to any non-Mughal).
+  - *Military Exploits:* Commander of Mughal forces at the **Battle of Haldighati (1576)**; annexed Kabul (1581–85); Governor of **Bihar (1587–1594)** where he subdued Rohtas and Jagannath Puri; Governor of **Bengal (1594–1606)** where he founded Akbarnagar (Rajmahal).
+  - *Architectural & Cultural Landmarks:*
+    - Brought the black stone idol of **Shila Devi** from Jessore (East Bengal) after defeating King Kedar and consecrated it inside Amber Fort.
+    - Began construction of the magnificent **Amber Palace** (completed by Mirza Raja Jai Singh).
+    - Built the **Govind Devji Temple at Vrindavan** (seven-storied red sandstone temple, top floors later demolished by Aurangzeb).
+    - Queen Kankavati constructed the **Jagat Shiromani Temple** at Amber in memory of deceased son Jagat Singh (enshrines the identical black stone idol of Krishna worshipped by Meera Bai in Chittor).
+    - Court poets: Pundarika Vitthala (authored *Ragamala, Ragamanjari*), Kripa Ram.
+• **Mirza Raja Jai Singh (1621–1667 CE) — The Diplomatic Statesman:**
+  - Reigned for 46 years; served three Mughal emperors: **Jahangir, Shah Jahan, and Aurangzeb**.
+  - Shah Jahan conferred the hereditary title **Mirza Raja** in 1637 during the Qandahar campaign.
+  - Sent by Aurangzeb to the Deccan to subdue the rising Maratha power of Chhatrapati Shivaji Maharaj.
+  - Besieged Purandar Fort and executed the historic **Treaty of Purandar (June 11, 1665)**: Shivaji surrendered 23 out of 35 forts to the Mughals and agreed to visit Agra court.
+  - Patronized court poet **Bihari**, who composed the world-famous 713 couplets of **Bihari Satsai** (Jai Singh granted him one gold coin / *Ashrafi* for every couplet); also patronized **Kavi Kalanidhi** (author of *Jai Singh Charitra*).
+  - Built the **Jaigarh Fort**, the grand *Diwan-i-Khas* and *Ganesh Pol* at Amber Palace. Died at Burhanpur in 1667.
+
+### 🌟 2. Sawai Jai Singh II (1699–1743 CE) — The Astronomer King
+
+• **Title Origin:** Aurangzeb was so impressed by his precocious wit that he remarked the young prince was a "quarter more" (*Sawai*) capable than his illustrious ancestor Mirza Raja Jai Singh, conferring the official title **Sawai**.
+• **Founding of Jaipur (November 18, 1727):**
+  - Shifted capital from congested, water-scarce Amber to the open plains, establishing the planned city of **Jayanagara (modern Jaipur)**.
+  - Master architect and urban planner: Bengali Brahmin **Vidyadhar Bhattacharya**.
+  - Designed strictly according to the **Vastu Shastra and Shilpa Shastra grid system (9-square grid / *Nau Grah Mandal*)**, with wide rectilinear roads intersecting at right angles (*Chaupars*).
+  - Built the **City Palace (Chandra Mahal)**, **Govind Devji Temple** (declared Govind Devji as the true king of Jaipur, ruling as his Diwan), and **Nahargarh Fort (Sudarshangarh)**.
+• **Scientific Genius: The Five Jantar Mantars (Astronomical Observatories):**
+  - Passionate astronomer who studied Ptolemy, Ulugh Beg, and European astronomical tables; found brass astrolabes too small and prone to wear, choosing to build monumental stone and marble masonry instruments.
+  - Built five astronomical observatories across Northern India:
+    1. **Delhi (1724):** First observatory constructed.
+    2. **Jaipur (1734):** Largest and best-preserved; inscribed as a **UNESCO World Heritage Site in 2010**; features the **Brihat Samrat Yantra (world's largest stone sundial, 27 meters high, measuring local solar time to an accuracy of 2 seconds)**, Jai Prakash Yantra, Ram Yantra, and Digamsha Yantra.
+    3. **Ujjain** (Tropic of Cancer meridian).
+    4. **Varanasi** (Man Mahal on the Ganga).
+    5. **Mathura** (destroyed during colonial period).
+  - Authored the authoritative astronomical manual **Zij-i-Muhammad Shahi** (dedicated to Mughal Emperor Muhammad Shah) and translated Euclid's *Elements* into Sanskrit as *Rekhaganita*.
+• **The Hurda Conference (July 17, 1734):**
+  - Deeply alarmed by devastating Maratha incursions (*Chauth* extortions) into Rajasthan, Sawai Jai Singh organized a grand confederacy of Rajput rulers at **Hurda (Bhilwara)**.
+  - Attended by: **Maharana Jagat Singh II of Mewar (presided over meeting)**, Sawai Jai Singh (Jaipur), Abhai Singh (Marwar), Bakhat Singh (Nagaur), Zorawar Singh (Bikaner), Durjansal (Kota), and Dalel Singh (Bundi).
+  - An agreement was signed pledging mutual defense and a joint offensive against the Marathas after the monsoon. **Failed completely** due to mutual jealousies, ego clashes, and lack of central leadership among Rajput rulers.
+• **Revival of Vedic Rites:** Last Hindu sovereign in Indian history to perform ancient Vedic sacrifices: **Ashvamedha Yajna (1740)**, *Vajapeya*, and *Rajasuya Yajnas* (officiated by chief priest **Pundarika Ratnakara**, author of *Jaisingh Kalpadruma*).
+
+### 🛡️ 3. The Jat Kingdom of Bharatpur: Maharaja Suraj Mal
+
+• **Origins:** Peasant revolt of the martial Jat community in the Agra-Mathura-Bharatpur region against Aurangzeb's religious bigotry:
+  - **Gokula (1669):** Led the Tilpat rebellion.
+  - **Rajaram (1688):** Desecrated and looted Akbar's tomb at Sikandra, burning Akbar's bones.
+  - **Churaman (1695–1721):** Built the stronghold of **Thun**; recognized by Mughals with title of Rao Bahadur.
+  - **Badan Singh (1722–1756):** Consolidated Jat territory; founded royal palaces of **Deeg**; granted title of **Raja of Brijraj** and zamindari of Deeg by Sawai Jai Singh II.
+• **Maharaja Suraj Mal (1756–1763 CE) — "The Plato of the Jat Tribe":**
+  - Celebrated by contemporary historians as the **"Jat Ulysses"** and **"Plato of the Jat Race"** for his profound political acumen, flawless diplomatic statesmanship, and military genius.
+  - Built the world-famous **Lohagarh Fort (Iron Fort) of Bharatpur** between 1733 and 1756:
+    - Encircled by two massive walls: an inner stone rampart surrounded by a colossal **outer earthen mud wall** (*Mitti ka Qila*); surrounded by a deep, wide moat (**Sujan Ganga canal**) fed by Moti Jheel.
+    - Cannonballs fired at the fort sank harmlessly into the thick soft mud walls without fracturing the stone ramparts.
+  - **The Third Battle of Panipat Aftermath (1761):** Suraj Mal advised Maratha commander Sadashivrao Bhau to leave heavy baggage, women, and artillery behind and adopt traditional Maratha guerrilla warfare; Bhau arrogantly rejected the advice. When the Maratha army was massacred by Ahmad Shah Abdali, **Suraj Mal extended magnificent humanitarian shelter to over 50,000 fleeing, starving Maratha survivors**, feeding, clothing, and nursing them in Bharatpur for months.
+  - Conquered Agra Fort in 1761, capturing its massive silver gates; martyred in a surprise night skirmish against Najib-ud-Daula's Rohilla Afghans on the banks of the Hindon River in December 1763.
+• **Maharaja Jawahar Singh (1764–1768):** Suraj Mal's son; attacked Delhi in 1764 to avenge his father's death; dismantled the monumental **Ashtadhatu (Eight-Metal) gates of the Red Fort in Delhi** (which Alauddin Khilji had originally looted from Chittorgarh in 1303) and re-installed them at the northern gate of **Lohagarh Fort**, where they stand today.
+• **The Siege of 1805 (Lord Lake's Humiliation):** British General **Lord Lake attacked Lohagarh Fort five times** in 1805 during the Second Anglo-Maratha War to capture Jaswantrao Holkar (sheltered by Maharaja Ranjit Singh of Bharatpur); Lake's heavy artillery was completely ineffective against the mud ramparts; suffered over 3,000 British casualties and was forced to withdraw in total humiliation.
+
+> 🎯 **Top Civil Services Traps for Chapter 53:**
+> 1. **Jantar Mantar Inscription Year:** The Jaipur Jantar Mantar was inscribed on the **UNESCO World Heritage List in 2010**, NOT in 2013 (which was for the 6 Hill Forts).
+> 2. **Hurda Conference President:** The historic Hurda Conference (1734) was organized by Sawai Jai Singh II of Jaipur, but it was **PRESIDED OVER by Maharana Jagat Singh II of Mewar**.
+> 3. **Ashtadhatu Gates Journey:** Originally at **Chittorgarh** $\to$ looted by Alauddin Khilji to **Delhi** $\to$ captured by Jawahar Singh and installed at **Lohagarh Fort (Bharatpur)**.
+
+---
+
+<a id="chapter-54"></a>
+
+## 54. Resistance to Imperial Powers & The 1857 Revolt in Rajasthan
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> While the princely rulers of Rajasthan aided the East India Company to preserve their thrones under the 1818 Subordinate Alliance treaties, the sepoys, peasantry, jagirdars, and common masses erupted in violent rebellion in 1857, producing heroic resistance at Naseerabad, Auwa, and Kota.
+
+### 📜 1. The 1818 Treaties of Subordinate Alliance & Rajputana Agency
+
+• **Metcalfe's Treaties (1817–1823):** Under Governor-General **Lord Hastings (Marquess of Hastings)**, British diplomat **Charles Metcalfe** negotiated treaties of Subordinate Alliance with the Rajput states to eliminate Maratha and Pindari marauding.
+  - **First State to Sign:** **Karauli** (Maharaja Harbaksh Pal, **November 9, 1817**).
+  - **Second State:** **Kota** (Zalim Singh Jhala, December 1817; supplementary treaty in 1818 created dual governance).
+  - Jodhpur (Jan 1818), Udaipur/Mewar (Jan 1818, Col. James Tod appointed first Political Agent), Jaipur (April 1818).
+  - **Last State to Sign:** **Sirohi** (Maharao Sheo Singh, **September 11, 1823**; delayed due to Palanpur/Jodhpur disputes).
+• **Rajputana Agency (1832):**
+  - Established in **1832 at Ajmer** to administer British paramountcy over 19 princely states and chiefdoms.
+  - Headed by the **Agent to the Governor-General (AGG)**. First AGG: **Mr. Abraham Lockett**.
+  - In **1845**, summer headquarters shifted to the cool hill station of **Mount Abu**.
+  - **AGG during the 1857 Revolt:** **Colonel George Patrick Lawrence**.
+
+### ⚔️ 2. Six British Military Cantonments in Rajasthan (1857)
+
+```
+  1. Naseerabad (Ajmer) ── 15th & 30th Bengal Native Infantry (First Outbreak)
+  2. Neemuch (now in MP) ── Bengal Artillery & Cavalry (Second Outbreak)
+  3. Deoli (Tonk) ── Kota Contingent
+  4. Erinpura (Pali) ── Jodhpur Legion ("Chalo Dilli, Maro Firingi")
+  5. Beawar (Ajmer) ── Mer Regiment (DID NOT REVOLT)
+  6. Kherwara (Udaipur) ── Mewar Bhil Corps (DID NOT REVOLT)
+```
+
+| Cantonment | Date of Outbreak | Revolutionary Leaders & Regiments | Decisive Revolutionary Actions & Outcomes |
+| :--- | :--- | :--- | :--- |
+| **Naseerabad (Ajmer)** | **May 28, 1857**<br>(First outbreak in Rajasthan) | **15th Bengal Native Infantry** (joined by 30th BNI); led by Bakhtawar Singh. | Mutinied over greased cartridges and British deployment of Bombay cavalry to spy on them. Shot dead **Major Spottiswoode and Colonel Newbery**; burned the cantonment and marched triumphantly towards Delhi. |
+| **Neemuch** | **June 3, 1857** | **Mohammad Ali Beg** and Subedar **Hira Singh**. | Subedar Mohammad Ali Beg boldly defied Colonel Abbott's demand to take an oath of loyalty to the British Crown, reminding him of Dalhousie's treachery in Awadh. Burned cantonment; marched through Chittor towards Delhi. Forty British officers and families fled and were sheltered by peasant Rugharam at Rungla village; **Maharana Swaroop Singh of Mewar** escorted them to safety at **Jag Mandir Palace (Pichhola Lake)**. |
+| **Erinpura (Pali)** | **August 21, 1857** | **Jodhpur Legion** (stationed at Abu & Erinpura); led by Sheonath Singh, Tilak Ram, and Motikhan. | Mutinied at Mount Abu, then marched to Erinpura; raised the historic immortal slogan: **"Chalo Dilli, Maro Firingi"** (*Onwards to Delhi, Strike down the Foreigner*). Marched towards Pali, uniting with Thakur Kushal Singh of Auwa. |
+
+### 🩸 3. The Epic Resistance of Auwa: Thakur Kushal Singh Champawat
+
+• **Thakur Kushal Singh:** Feudal Jagirdar of **Auwa (Pali)**; harbored deep grievances against the pro-British Maharaja Takht Singh of Jodhpur. Welcomed the mutinous Jodhpur Legion, forming a joint patriot army.
+• **Battle of Bithoda (September 8, 1857):**
+  - Combined forces of Kushal Singh and Jodhpur Legion clashed with the joint army of British Captain Heathcote and Jodhpur State forces at Bithoda (Pali).
+  - Revolutionaries won a crushing victory; Jodhpur Commander-in-Chief **Onar Singh was killed**; Captain Heathcote fled the field.
+• **Battle of Chelawas / "Battle of Black and White" (September 18, 1857):**
+  - Enraged by Bithoda, **AGG George Patrick Lawrence** marched personally with a large British force alongside **Captain Mock Mason** (Political Agent of Jodhpur).
+  - Fought at Chelawas; revolutionaries completely routed the British forces (nicknamed the *"Battle of Black and White"* because dark-skinned Indians defeated fair-skinned Britons).
+  - **Captain Mock Mason was shot dead**; his body was decapitated, and his severed head was proudly **hung at the main gateway of Auwa Fort** as a symbol of anti-colonial vengeance.
+• **Fall of Auwa (January 1858):**
+  - British sent a massive army under **Brigadier Holmes**.
+  - Kushal Singh evacuated the fort to wage guerrilla warfare, seeking shelter with Rawat Jodh Singh of Kotharia (Mewar) and Salumber.
+  - Holmes dynamited Auwa Fort, massacred villagers, and confiscated the sacred idol of **Sugali Mata** (family deity of Auwa, revered as the **"Goddess of the 1857 Revolution"**, featuring 10 heads and 54 arms; brought to Ajmer, now in Pali Museum).
+  - Kushal Singh surrendered at Neemuch in 1860; acquitted of murder charges by the **Major Taylor Commission**. Died at Udaipur in 1864.
+
+### 🔥 4. The Kota Rebellion & Other Theatres
+
+• **The Kota Mass Uprising (October 15, 1857):**
+  - Most widespread, organized, and civilian-led mass revolution in Rajasthan; led by eminent intellectual **Lala Jaidayal (advocate)** and army officer **Mehrab Khan (Risaldar)**.
+  - Rebels seized the state treasury, mutinied with the Kota Contingent, and attacked the British residency.
+  - Murdered Political Agent **Major Burton**, his two sons, and residency surgeon **Dr. Sadlar**. Major Burton's severed head was paraded through the streets of Kota.
+  - Placed **Maharao Ram Singh II under house arrest in his palace for 6 months**, forcing him to sign a 9-point treaty admitting responsibility for Burton's murder.
+  - Rebel administration governed Kota until March 1858, when British General H.G. Roberts liberated the city with help of Karauli troops (Maharaja Madan Pal). Lala Jaidayal and Mehrab Khan were captured and hanged in Kota.
+• **Amar Chand Banthia — "The Mangal Pandey of Rajasthan":**
+  - Bikaner-born Jain merchant functioning as Royal Treasurer at Gwalior.
+  - Opened the royal treasury of Gwalior to finance the liberation armies of **Rani Lakshmibai of Jhansi** and **Tatya Tope**.
+  - Captured by the British and publicly hanged from a neem tree at Sarrafa Bazaar, Gwalior on **June 22, 1858**.
+  - Celebrated as the **"First Martyr of Rajasthan in the 1857 Freedom Struggle"** and the *"Bhamashah of the 1857 Revolt"*.
+• **Tatya Tope's Campaigns in Rajasthan:**
+  - Entered Rajasthan twice in 1858 seeking alliances (Bhilwara, Tonk, Banswara, Jhalawar); captured Jhalawar after defeating Maharao Prithvi Singh.
+  - Betrayed by **Man Singh Naruka** of Narwar while sleeping in Paron forest; captured and hanged at Shivpuri (MP) in April 1859.
+
+> 🎯 **Top Civil Services Traps for Chapter 54:**
+> 1. **Cantonments that Did NOT Revolt:** Two of the six British cantonments in Rajasthan **DID NOT REVOLT in 1857**: **Beawar (Mer Regiment)** and **Kherwara (Mewar Bhil Corps)**.
+> 2. **Sugali Mata Iconography:** Sugali Mata of Auwa has **10 heads and 54 arms**, recognized as the divine patroness of the 1857 rebellion.
+> 3. **First Martyr of Rajasthan:** **Amar Chand Banthia**, hanged on June 22, 1858 at Gwalior.
+
+---
+
+<a id="chapter-55"></a>
+
+## 55. Peasant, Tribal & Freedom Movements in Rajasthan
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> Crushed beneath the dual yoke of British paramountcy and princely feudal extortion (*Lag-bag* and *Begar*), the peasants and indigenous tribes of Rajasthan waged legendary non-violent satyagrahas and armed rebellions that dismantled the moral legitimacy of the Jagirdari system.
+
+### 🚜 1. The Epic Bijolia Peasant Movement (1897–1941)
+
+• **Historical Antiquity:** The **longest, organized, non-violent peasant movement in world history**, lasting uninterrupted for **44 years**.
+• **Geographical Base:** **Bijolia (Uparmal region)** in Mewar state (now in Bhilwara district); a *First-Class Thikana* (Jagir) granted originally by Rana Sanga to **Ashok Parmar** for valor at Khanwa.
+• **Core Grievance:** Predominantly agricultural **Dhakar community** exploited by the Thikanedar with **84 different types of illegal feudal cesses (*Lag-bag*)**, forced unpaid labour (*Begar*), and oppressive crop-sharing systems (*Lata-Kunta*).
+• **The Three Historic Phases:**
+
+| Movement Phase | Period & Leadership | Decisive Milestones, Agitations & Retaliations | Historical Outcomes |
+| :--- | :--- | :--- | :--- |
+| **Phase I: Spontaneous Local Agitation** | **1897–1915**<br>Led by **Sadhu Sitaram Das**, Nanji Patel, and Thakari Patel. | • Began at death feast (*Mausar*) of Gangaram Dhakar in Girdharpura village (1897).<br>• Nanji and Thakari Patel sent to Maharana Fateh Singh; Maharana deputed Assistant Revenue Officer Hamid Hussain (inquiry confirmed oppression, but no action taken).<br>• **Chauri Tax (1903):** Rao Kishan Singh imposed ₹5 tax on every peasant marrying his daughter. Peasants refused to marry daughters for 2 years and boycotted plowing.<br>• **Talwar Bandhai (1906):** Rao Prithvi Singh imposed a succession tax on peasants, triggering non-tax payment under Sadhu Sitaram Das and Fateh Karan Charan. | Established local solidarity; laid organizational foundation for mass resistance. |
+| **Phase II: Organized Revolutionary Phase** | **1916–1927**<br>Led by **Vijay Singh Pathik** (Bhoop Singh), Manikya Lal Verma, and Prem Chand Bhil. | • Sadhu Sitaram Das invited Vijay Singh Pathik (veteran of Rash Behari Bose's armed revolution) to take leadership in 1916.<br>• Pathik founded **Uparmal Panch Board** (1917, on Hariyali Amavasya; Sarpanch: **Manna Patel**) and **Uparmal Sewa Samiti**.<br>• Published handwritten patriotic newsletter **Uparmal Danka**.<br>• Internationalized struggle: **Ganesh Shankar Vidyarthi** published regular front-page exposes in his national newspaper **Pratap** (Kanpur); Bal Gangadhar Tilak supported it in *Mahratta*; Mahatma Gandhi sent his personal secretary **Mahadev Desai**.<br>• **Holland Agreement (Feb 1922):** AGG Robert Holland negotiated an agreement abolishing 35 oppressive cesses; Thikanedar reneged after movement relaxed.<br>• Pathik arrested in 1923; imprisoned in Bundi jail. | Transformed a local agrarian dispute into a national symbol of anti-feudal satyagraha. |
+| **Phase III: Final Resolution & Victory** | **1927–1941**<br>Led by **Manikya Lal Verma**, Jamnalal Bajaj, and Haribhau Upadhyaya. | • Peasants surrendered their hereditary tenancy lands (*Barani lands*) in 1927 on Pathik's advice as a protest measure; Thikanedar auctioned the lands to outsiders, causing internal dispute and Pathik's resignation.<br>• Verma reorganized the movement; women leaders **Anjana Devi Chaudhary, Narayani Devi Verma, and Rama Devi** faced arrests and police lathi charges.<br>• In **1941**, Mewar Prime Minister **Sir T. Raghavachari** and Revenue Minister **Dr. Mohan Singh Mehta** intervened, accepted all peasant demands, and **restored all confiscated lands to the original Dhakar cultivators**. | Complete triumph after 44 years of peaceful resistance. |
+
+### 🌾 2. Other Landmark Peasant Movements in Rajasthan
+
+• **Begun Peasant Movement (1921–1925, Chittorgarh):**
+  - Peasants inspired by Bijolia met at **Menal (Bherukund)** in 1921; led by **Ramnarain Chaudhary** under Vijay Singh Pathik's guidance.
+  - Rawat Anoop Singh conceded peasant demands and signed an agreement; Mewar court cancelled it, branding it a **"Bolshevik Agreement"**, and placed Anoop Singh under house arrest.
+  - Government appointed the brutal **Trench Commission**. On **July 13, 1923**, Trench ordered troops to fire on an unarmed peasant gathering at **Govindpura village**, martyring **Rupa ji and Kripa ji Dhakar**.
+• **Bundi Peasant Movement (Barad Agitation, 1922–1943):**
+  - Agitated against 25 cesses, begar, and war taxes; led by **Pandit Nayanuram Sharma** of the Rajasthan Seva Sangh.
+  - **Dhabi Massacre (April 2, 1923):** Police Superintendent Ikram Hussain opened fire on a peaceful peasant gathering at Dhabi. **Nanak ji Bhil was martyred on the spot while bravely singing the patriotic *Jhanda Geet*** (Flag Song), alongside Devlal Gurjar. Manikya Lal Verma composed the iconic elegiac poem **"Panchhida"** in Nanak ji's memory.
+• **Neemuchana Massacre (May 14, 1925, Alwar State):**
+  - Rajput farmers gathered at Neemuchana village to protest against Maharaja Jai Singh's steep hike in land revenue and destruction of crops by wild boars.
+  - State police commander **General Chhaju Singh** surrounded the village with machine guns and opened fire, burning 144 houses and killing dozens of men, women, and children.
+  - **Mahatma Gandhi in *Young India* condemned the massacre as "Dyrism Double Distilled"** (worse than Jallianwala Bagh). Newspaper *Tarun Rajasthan* publicized the atrocities nationally.
+• **Shekhawati Kisan Movement & Katrathal Women's Conference (1934):**
+  - Jat peasants in Sikar, Jhunjhunu, and Khetri thikanas agitated against excessive revenue.
+  - **Historic Katrathal Conference (April 25, 1934):** Over **10,000 peasant women** assembled at Katrathal (Sikar) defying princely bans, under the presidency of **Kishori Devi** (wife of Hararlal Singh), protesting against the insult of women by the Thakur of Sirohi.
+
+### 🏹 3. Tribal Awakenings: Bhagat & Eki Movements
+
+| Tribal Movement | Founder & Leadership | Headquarters & Sacred Geography | Core Ideology & Historic Milestones | Decisive Climax / Massacre |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bhagat Movement** | **Govind Giri** (born 1858, Banjara community, Dungarpur). Influenced by **Swami Dayanand Saraswati**. | **Beda / Berasa** (Dungarpur) & **Mangarh Hills** (Banswara). | • Moral, religious, and socio-economic regeneration of Bhils.<br>• Established the **Samp Sabha in 1883** (promoting brotherhood, vegetarianism, abstinence from liquor, boycott of foreign cloth, and rejection of forced unpaid labour / *Begar*).<br>• Established *Dhuni* (sacred fire hearths) and hoisted religious flags in tribal villages. | **The Mangarh Dham Massacre (November 17, 1913 — Margsirsh Purnima):**<br>Over 1.5 lakh Bhils gathered peacefully at Mangarh Hills on the Rajasthan-Gujarat border. The British combined forces (Mewar Bhil Corps, Wellesley Rifles, Baroda State troops) surrounded the hill and opened machine-gun fire without warning.<br>**Over 1,500 Bhil tribals were martyred**.<br>Revered as the **"Jallianwala Bagh of Rajasthan"** (occurring 6 years *before* the Punjab massacre). Govind Giri was captured, imprisoned in Ahmedabad/Santrampur, and spent his final days at Kamboi (Gujarat). |
+| **Eki (Unity) Movement** | **Motilal Tejawat** (Oswal Jain family, Koliyari village, Udaipur; revered affectionately as **"Bavji"**). | Originated at **Matrikundiya (Rashmi, Chittorgarh)**, celebrated as the **"Haridwar of Rajasthan"**. | • Founded in **1921** among the Bhil, Garasia, and Damor tribes of Mewar, Sirohi, and Idar.<br>• Bound all tribals through an oath of sacred unity (*Eki*) not to pay *Hakim aur Hukm* (illegal taxes and unjust orders).<br>• Drafted a 21-point charter of tribal and peasant grievances titled **"Mewar Pukar"** presented to Maharana Fateh Singh (Maharana accepted 18 demands, rejecting 3: forest rights, begar, and wild boar killings). | **The Neemda Massacre (March 7, 1922):**<br>British Mewar Bhil Corps under Major Sutton surrounded thousands of tribals assembled at Neemda village (Idar state) and opened fire.<br>**1,200 innocent tribals were slaughtered** on the spot. Motilal Tejawat was wounded in the leg, rescued by Bhil archers, and lived underground until surrendering in 1929 on Mahatma Gandhi's advice. |
+
+> 🎯 **Top Civil Services Traps for Chapter 55:**
+> 1. **Mangarh Dham vs Jallianwala Bagh Date:** The Mangarh massacre occurred on **November 17, 1913**, **SIX YEARS BEFORE the Jallianwala Bagh massacre (April 1919)**.
+> 2. **Founder of Samp Sabha:** **Govind Giri founded the Samp Sabha in 1883**, NOT Motilal Tejawat. Motilal Tejawat founded the **Eki Movement in 1921**.
+> 3. **Haridwar of Rajasthan:** **Matrikundiya** in Rashmi tehsil (Chittorgarh) on the Banas river is called the *Haridwar of Rajasthan*.
+
+---
+
+<a id="chapter-56"></a>
+
+## 56. Prajamandal Movements & Revolutionary Patriots of Rajasthan
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The Prajamandal (States People's) movements bridged the political divide between British India and Princely Rajputana, mobilizing urban intellectuals and rural masses under the tricolor flag to demand responsible constitutional governance and civil liberties.
+
+### 🏛️ 1. Master Architectural Table of Prajamandals in Rajasthan
+
+| Prajamandal | Foundation Year | Founding Personalities | Prominent Presidents & Leaders | Unique Historical Context & Milestones |
+| :--- | :--- | :--- | :--- | :--- |
+| **Jaipur** | **1931** (First in Rajasthan) | **Kapur Chand Patni** (1931); Reorganized in **1936** by **Jamnalal Bajaj** and **Hiralal Shastri**. | Jamnalal Bajaj, Hiralal Shastri, Chiranjilal Mishra. | • **First Prajamandal in Rajasthan**.<br>• **Gentlemen's Agreement (1942):** Historic pact between Jaipur Prime Minister **Sir Mirza Ismail** and Prajamandal President **Hiralal Shastri**; agreed that Jaipur State would not aid British war efforts and Prajamandal would not launch Quit India in Jaipur.<br>• **Azad Morcha Formation:** Radical dissident youth under **Baba Harish Chandra**, Ramkaran Joshi, and Daulatmal Bhandari rebelled against Shastri, formed the *Azad Morcha*, and actively waged the Quit India movement (merged back into Prajamandal in 1945 by J.L. Nehru). |
+| **Marwar (Jodhpur)** | **1934** | **Jayanarayan Vyas (Sher-e-Rajasthan)**, Bhanwarlal Saraf, Abhaymal Jain. | Bhanwarlal Saraf (1st President). | • Preceded by *Marwar Sewa Sangh (1920)* and *Marwar Hitkarini Sabha (1921)*.<br>• **Marwar Lok Parishad (May 1938):** Formed under Ranchhod Das Gattani.<br>• **Martyrdom of Balmukund Bissa:** Died on **June 19, 1942** during hunger strike in Jodhpur Central Jail protesting inhuman conditions; revered as the **"Jatin Das of Rajasthan"**.<br>• **Dabra Incident (Nagaur, March 13, 1947):** Jagirdars brutally attacked farmers; Chhaganraj Chopasniwala wounded; Moti Ram Kisan martyred. |
+| **Mewar (Udaipur)** | **April 24, 1938** | **Manikya Lal Verma** (founded at residence of Balwant Singh Mehta). | **Balwant Singh Mehta** (First President); Bhurelal Baya (Vice-President). | • Banned immediately by Mewar government; Verma expelled, operated from Ajmer where he wrote *Mewar ka Vartaman Shasan*.<br>• **First Session (Nov 1941):** Held at Udaipur, inaugurated by **Acharya J.B. Kripalani**; attended by **Vijaya Lakshmi Pandit**.<br>• All-India States People's Conference (AISPC) 6th Session held at Udaipur (1945–46) under J.L. Nehru. |
+| **Bikaner** | **1936** | **Magharam Vaidya** and Laxmidas Swami. | Magharam Vaidya. | • Founded outside the state at **Calcutta** (due to severe state repression under Maharaja Ganga Singh).<br>• Preceded by **Sarvahitkarini Sabha (1907)** under Swami Gopal Das and Kanhaiyalal Dhoondh (opened *Kabir Pathshala* for Dalits and *Putri Pathshala*).<br>• **Bikaner Conspiracy Case (1932):** Leaders tried for distributing pamphlet *Bikaner: A True Scenario* at the Second Round Table Conference in London.<br>• **Birbal Singh Martyrdom (Raisinghnagar, July 1, 1946):** Shot holding tricolor; July 17 celebrated as *Birbal Day* in Bikaner. |
+| **Kota** | **1939** | **Pandit Nayanuram Sharma** and **Abhinna Hari**. | Pandit Nayanuram Sharma. | • Evolved from Hadoti Prajamandal (1934). Organized first session at Mangrol (Baran). Demanded responsible government. |
+| **Sirohi** | **1939** | **Gokulbhai Bhatt** ("Gandhi of Rajasthan"). | Gokulbhai Bhatt. | • Founded at **Bombay** in January 1939 by Sirohi diaspora, later shifted to Sirohi. |
+| **Alwar** | **1938** | **Kunjbihari Lal Modi** and **Harinarayan Sharma**. | Harinarayan Sharma. | • Focused on anti-untouchability, adult education, and responsible government. |
+| **Dholpur** | **1936** | **Krishnadutt Paliwal**, Jwala Prasad Jigyasu, Joharilal Indu. | Krishnadutt Paliwal. | • Tasimo incident (April 1947): Chhatar Singh and Pancham Singh martyred defending tricolor flag from police. |
+| **Jhalawar** | **1946** (Last Prajamandal) | **Mangilal Bhavya** and Kanhaiyalal Mittal. | Mangilal Bhavya. | • **Only Prajamandal established with the active support and patronage of the ruler** (Maharaja Harishchandra). |
+
+### 💥 2. Revolutionary Patriots & The Barhath Family of Shahpura
+
+• **The Barhath Family of Shahpura (Three Generations of Martyrs):**
+  - **1. Kesari Singh Barhath (1872–1941):**
+    - Charismatic revolutionary, poet, and scholar born in Devpura (Shahpura).
+    - Founded the revolutionary organization **Veer Bharat Sabha (1910)**.
+    - **Chetavani ra Chungatiya (1903):** Composed **13 fiery Rajasthani Dingal couplets (Sorathas)** and sent them to **Maharana Fateh Singh of Mewar**, successfully appealing to Sisodia ancestral pride and dissuading the Maharana from attending Lord Curzon's 1903 Delhi Durbar.
+    - Tried in the Pyarelal Murder Case (1914); sentenced to 20 years rigorous imprisonment in **Hazaribagh Jail (Bihar)**.
+  - **2. Pratap Singh Barhath (Son, 1893–1918):**
+    - Trained by Master Amir Chand and Rash Behari Bose; participated in the **Delhi Conspiracy Case (1912)** (bomb thrown at Viceroy Lord Hardinge at Chandni Chowk).
+    - Arrested in the Banaras Conspiracy Case; subjected to third-degree physical torture in **Bareilly Central Jail** by British investigator Sir Charles Cleaveland to extract information about Rash Behari Bose.
+    - Cleaveland told him: *"Your mother is weeping for you day and night"*. Young Pratap delivered his immortal response:
+      > *"I cannot weep for my single mother when thousands of Indian mothers are weeping. If I break my silence, my mother will smile, but thousands of mothers will cry. I prefer that my mother weeps, rather than causing thousands of mothers to weep!"*
+    - Martyred in Bareilly Jail on May 24, 1918 at the tender age of **22**.
+  - **3. Zorawar Singh Barhath (Brother, 1883–1939):**
+    - The intrepid revolutionary who personally threw the bomb onto Viceroy Lord Hardinge's elephant-howdah at Chandni Chowk on December 23, 1912.
+    - Successfully evaded British police arrest for **27 continuous years**, living an ascetic underground life in the ravines of the Chambal under the alias **"Sadhu Amar Das Bairagi"**. Died peacefully without ever being captured in 1939.
+• **Sagar Mal Gopa (1900–1946, Jaisalmer):**
+  - Fearless nationalist who waged an unrelenting campaign against the tyrannical feudal despotism of **Maharawal Jawahar Singh of Jaisalmer**.
+  - Published revolutionary explosive books: **Gundaraj in Jaisalmer** (*Jaisalmer ka Gundaraj*), **Raghunath Singh ka Muqadama**, and **Azadi ke Deewane**.
+  - Banished from Jaisalmer; arrested in May 1941 upon returning on his father's demise.
+  - Subjected to horrific physical torture in Jaisalmer jail under police officer Guman Singh; on **April 3, 1946, kerosene was poured on him and he was burned alive inside his prison cell**, dying the next day (April 4, 1946).
+  - Outrage across India forced the state to appoint the **Gopal Swaroop Pathak Inquiry Commission**.
+• **Arjun Lal Sethi (1869–1941, Jaipur):**
+  - First revolutionary leader of Rajasthan; rejected the post of Prime Minister of Jaipur with the historic words: *"If Arjun Lal takes up a government job, who will throw the British out of India?"*.
+  - Founded the **Vardhman Pathshala (1905, Jaipur)** to train youth in revolutionary activities and bomb-making.
+  - Imprisoned in Vellore Jail (Madras) in connection with the Nimez (Arrah) Mahant Murder Case. Spent final days teaching in Dargah at Ajmer under the name **"Karim Khan"**; passed away in 1941.
+
+> 🎯 **Top Civil Services Traps for Chapter 56:**
+> 1. **Gentlemen's Agreement Signatories:** Signed in **1942 between Sir Mirza Ismail (Jaipur PM) and Hiralal Shastri (Prajamandal President)**, NOT Jamnalal Bajaj.
+> 2. **Prajamandals Founded Outside Rajasthan:** Three Prajamandals were founded outside their respective home territories:
+>    - **Bikaner Prajamandal (1936):** Founded at **Calcutta** (by Magharam Vaidya).
+>    - **Sirohi Prajamandal (1939):** Founded at **Bombay** (by Gokulbhai Bhatt).
+>    - **Bharatpur Prajamandal (1938):** Founded at **Rewari, Haryana** (by Gopi Lal Yadav & Kishan Lal Joshi).
+
+---
+
+<a id="chapter-57"></a>
+
+## 57. The Seven Stages of Integration of Rajasthan (1948–1956)
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The geopolitical consolidation of Rajasthan transformed nineteen sovereign Rajput, Jat, and Muslim princely states and two chiefships into a unified democratic state of the Indian Union over seven distinct stages spanning eight years, orchestrated by Sardar Vallabhbhai Patel and V.P. Menon.
+
+### 🗺️ 1. Master Chronological Matrix of All 7 Stages
+
+```
+  Stage 1: Matsya Union (18 Mar 1948) ── Alwar, Bharatpur, Dholpur, Karauli
+  Stage 2: Rajasthan Union (25 Mar 1948) ── 9 Southern/Southeastern States
+  Stage 3: United Rajasthan (18 Apr 1948) ── Mewar merges with Rajasthan Union
+  Stage 4: Greater Rajasthan (30 Mar 1949) ── Jaipur, Jodhpur, Bikaner, Jaisalmer join [RAJASTHAN DAY]
+  Stage 5: USGR (15 May 1949) ── Matsya Union merges with Greater Rajasthan
+  Stage 6: Rajasthan (Part B) (26 Jan 1950) ── Sirohi (minus Abu-Delwara) joins
+  Stage 7: Reorganised Rajasthan (1 Nov 1956) ── Ajmer-Merwara, Abu-Delwara, Sunel Tappa join; Sironj to MP
+```
+
+| Stage & Date | Participating States & Chiefships | Capital | Rajpramukh / Maharajpramukh | Prime Minister / Chief Minister | Inaugurator & Key Committees |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Stage 1: Matsya Union**<br>(**18 March 1948**) | **4 States:** Alwar, Bharatpur, Dholpur, Karauli.<br>+ **Neemrana Chiefship**. | **Alwar** | **Maharaja Udaybhan Singh of Dholpur** (Rajpramukh); Ganesh Pal of Karauli (Up-Rajpramukh). | **Shobha Ram Kumawat** (Alwar). | Inaugurated by **N.V. Gadgil** (Union Minister of Works, Mines and Power) at Lohagarh Fort, Bharatpur. Name suggested by **K.M. Munshi** (after ancient Matsya Janapada). |
+| **Stage 2: Rajasthan Union**<br>(East Rajasthan)<br>(**25 March 1948**) | **9 States:** Banswara, Bundi, Dungarpur, Jhalawar, Kishangarh, Kota, Pratapgarh, Shahpura, Tonk.<br>+ **Kushalgarh Chiefship**. | **Kota** | **Maharao Bhim Singh of Kota** (Rajpramukh); Laxman Singh of Dungarpur (Up-Rajpramukh). | **Gokul Lal Asawa** (Shahpura). | Inaugurated by **N.V. Gadgil** at Kota. **Maharawal Chandraveer Singh of Banswara** made the famous remark while signing the Instrument of Accession: *"I am signing my own death warrant"*. |
+| **Stage 3: United Rajasthan**<br>(**18 April 1948**) | **Rajasthan Union + Mewar (Udaipur)**. | **Udaipur** | **Maharana Bhupal Singh of Mewar** (Rajpramukh); Bhim Singh of Kota (Up-Rajpramukh). | **Manikya Lal Verma** (Udaipur). | Inaugurated by **Pt. Jawaharlal Nehru** at Udaipur. Gokul Lal Asawa became Deputy Prime Minister. |
+| **Stage 4: Greater Rajasthan**<br>(**30 March 1949** — Celebrated as **Rajasthan Day**) | **United Rajasthan + 4 Big States:** **Jaipur, Jodhpur, Bikaner, Jaisalmer**.<br>+ **Lawa Chiefship**. | **Jaipur** | • **Maharajpramukh:** **Maharana Bhupal Singh of Mewar** (created specially for life; only ruler in Indian history to hold this title).<br>• **Rajpramukh:** **Sawai Man Singh II of Jaipur**.<br>• Up-Rajpramukh: Bhim Singh of Kota & Hanwant Singh of Jodhpur. | **Pt. Hiralal Shastri** (First Premier of Greater Rajasthan). | Inaugurated by **Sardar Vallabhbhai Patel** at Jaipur.<br>**P. Satyanarayan Rao Committee:** Recommended **Jaipur as permanent Capital**, and decentralized institutions:<br>• **High Court** $\to$ **Jodhpur**.<br>• **Education Dept** $\to$ **Bikaner**.<br>• **Mining & Customs Dept** $\to$ **Udaipur**.<br>• **Agriculture Dept** $\to$ **Bharatpur**.<br>• **Forest & Cooperative Dept** $\to$ **Kota**. |
+| **Stage 5: United States of Greater Rajasthan (USGR)**<br>(**15 May 1949**) | **Greater Rajasthan + Matsya Union**. | **Jaipur** | Maharajpramukh: Bhupal Singh.<br>Rajpramukh: Sawai Man Singh II. | **Pt. Hiralal Shastri**. | Merger executed on the recommendations of the **Dr. Shankarrao Deo Committee** (members: R.K. Sidhwa and Prabhu Dayal Himmat Singh) which ascertained popular will in Bharatpur and Dholpur. Shobha Ram Kumawat included in Shastri's cabinet. |
+| **Stage 6: Rajasthan (Part B State)**<br>(**26 January 1950**) | **USGR + Sirohi State** (EXCLUDING Abu and Delwara tehsils, which were handed over to Bombay State under Patel's orders). | **Jaipur** | Maharajpramukh: Bhupal Singh.<br>Rajpramukh: Sawai Man Singh II. | **Pt. Hiralal Shastri** (Designated as first **Chief Minister** of Rajasthan). | Formally named **"Rajasthan"** in Constitution of India under Part B. Excision of Abu and Delwara provoked widespread agitations led by **Gokulbhai Bhatt**. |
+| **Stage 7: Reorganised Rajasthan**<br>(**1 November 1956**) | **Final Modern Map of Rajasthan:**<br>1. **Ajmer-Merwara** merged into Rajasthan.<br>2. **Abu & Delwara tehsils** returned from Bombay.<br>3. **Sunel Tappa** of Mandsaur (MP) merged.<br>4. **Sironj sub-division** of Kota ceded to MP. | **Jaipur** | **The institution of Rajpramukh was permanently ABOLISHED** by the 7th Constitutional Amendment Act, 1956. | **Mohan Lal Sukhadia** (Chief Minister). | Executed under the **States Reorganisation Act, 1956** on recommendations of the **Fazl Ali Commission** (K.M. Panikkar, H.N. Kunzru).<br>Ajmer merged; its separate 30-member legislature (*Dhara Sabha*) and CM Haribhau Upadhyaya merged with Rajasthan.<br>**First Governor of Rajasthan:** **Sardar Gurumukh Nihal Singh** (sworn in Nov 1, 1956). |
+
+> 🎯 **Top Civil Services Traps for Chapter 57:**
+> 1. **Rajasthan Day vs Modern Rajasthan Formation:** **Rajasthan Day is celebrated on MARCH 30** (anniversary of Greater Rajasthan, 1949), but the **present geographical map of Rajasthan was completed on NOVEMBER 1, 1956** (Stage 7).
+> 2. **Matsya Union Merger Committee:** Matsya Union was merged into Greater Rajasthan on the recommendations of the **Dr. Shankarrao Deo Committee**, NOT the Fazl Ali or Satyanarayan Rao Committee.
+> 3. **Sole Maharajpramukh:** **Maharana Bhupal Singh of Mewar** was the ONLY ruler in Indian constitutional history to be accorded the unique title of **Maharajpramukh** (for life).
+
+---
+
+<a id="chapter-58"></a>
+
+## 58. Six UNESCO Hill Forts of Rajasthan & Military Architecture
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The hill forts of Rajasthan represent the architectural synthesis of traditional Hindu *Durgashastra* with Rajput martial necessity, utilizing natural cliff escarpments, tiered multi-gate defenses, and innovative rainwater harvesting systems to withstand medieval siege warfare.
+
+### 🏰 1. The 2013 UNESCO World Heritage Inscription
+
+• In **June 2013**, at the **37th session of the World Heritage Committee in Phnom Penh (Cambodia)**, UNESCO inscribed **Six Hill Forts of Rajasthan** on the prestigious World Heritage List under serial nomination.
+• **Mnemonic for the 6 UNESCO Forts:**
+  $$\mathbf{Chiku \;\; Gajar \;\; Aam}$$
+  - **Chi:** **Chittorgarh Fort**
+  - **Ku:** **Kumbhalgarh Fort**
+  - **Ga:** **Gagron Fort**
+  - **Ja:** **Jaisalmer Fort (Sonar Qila)**
+  - **R:** **Ranthambore Fort**
+  - **Aam:** **Amber Fort**
+
+### 🛡️ 2. Comprehensive Architectural & Defensive Master Matrix
+
+| Fort & Typology | Location & Builder | Strategic Defensive Design & Water Systems | Major Monuments, Temples & Shrines Inside | Historic Sieges & Cultural Landmarks |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chittorgarh Fort**<br>(*Giri Durg / Sthala Durg*) | Chittorgarh; Mesa Plateau on **Gambhiri & Berach** rivers (alt. 500m). Originally built by **Chitrangad Mori** (7th C). | • "King of Forts" (*Garh to Chittorgarh, baaki sab garhaiya*).<br>• Enclosed by continuous crenellated stone walls over 700 acres; accessed through **7 fortified Pols** (Padan Pol, Bhairon Pol, Hanuman Pol, Ganesh Pol, Jodla Pol, Laxman Pol, **Ram Pol**).<br>• 84 water reservoirs (ponds, stepwells / *kunds*) holding 4 billion liters of water. | • **Vijay Stambha** (Rana Kumbha, 1440–48).<br>• **Kirti Stambha** (12th C., 7 stories, dedicated to 1st Jain Tirthankara Adinatha; built by merchant Jija Shah).<br>• Padmini Palace & lotus pool.<br>• Kumbhaswami Temple & Meera Bai Temple.<br>• Kalika Mata Temple (originally 8th C. Sun Temple).<br>• Cenotaphs of **Jaimal, Kalla Rathore (4-armed deity)**, and **Patta**. | **Three Famous Sakes of Chittor:**<br>1. **1303:** Alauddin Khilji vs Ratan Singh (Rani Padmini Jauhar).<br>2. **1534–35:** Bahadur Shah of Gujarat vs Rani Karnavati (Jauhar led by Karnavati, Rawat Bagh Singh martyred).<br>3. **1567–68:** Akbar vs Udai Singh (defended by Jaimal & Patta, Jauhar led by Phool Kanwar). |
+| **Kumbhalgarh Fort**<br>(*Giri Durg*) | Rajsamand; built by **Maharana Kumbha** (1443–1458); architect **Mandan**. | • Built on 13 mountain peaks of Western Aravallis (elevation 1,100m).<br>• Encircles a **36-kilometer continuous defensive stone rampart**, 15 to 20 feet wide (4 horses can ride abreast; second longest wall in the world).<br>• Accessed through 7 gates: Aret Pol, Halla Pol, Hanuman Pol, Ram Pol, Vijay Pol, Bhairon Pol, Nimbu Pol. | • **Katargarh (The Inner Citadel / "Eye of Mewar"):** Highest point; private residence of Rana Kumbha.<br>• **Birthplace of Maharana Pratap** (Badal Mahal, Juna Kacheri, May 9, 1540).<br>• Kumbhaswami Temple & Nilkanth Mahadev Temple.<br>• Jhali Rani ka Maliya palace. | • Deemed militarily impregnable (*Ajey Durg*); conquered only once in history in **1578 by Mughal General Shahbaz Khan** (after water supply poisoned). |
+| **Gagron Fort**<br>(*Jal Durg / Audak Durg*) | Jhalawar; built by **Doda Rajputs (Bijaldeva)**, consolidated by **Khichi Chauhans** (Devan Singh Khichi). | • **Supreme Example of a Water Fort (Jal Durg)** in India; surrounded on **three sides by the waters of the Ahu and Kali Sindh rivers**.<br>• Rests directly on rock bedrock without formal foundation trenches.<br>• Encircled by three concentric ramparts (*Parikota*). | • Dargah of Sufi Saint **Miran Sahib (Mithhe Shah)**; annual Urs held.<br>• Cenotaph of saint-king **Sant Pipaji** (Khichi ruler Pratap Singh who abdicated throne, became Bhakti saint).<br>• Buland Darwaza (built by Aurangzeb).<br>• Ancient printing press and mint. | **Two Famous Sakes of Gagron:**<br>1. **1423:** Sultan Hoshang Shah of Malwa vs **Achaldas Khichi** (described in Shivdas Gadan's *Achaldas Khichi ri Vachanika*).<br>2. **1444:** Sultan Mahmud Khilji of Malwa vs Palhansi; Khilji renamed it **Mustafabad**. |
+| **Jaisalmer Fort (Sonar Qila)**<br>(*Dhanvan Durg / Giri Durg*) | Jaisalmer; built by **Bhati ruler Maharawal Jaisal** in **1156 CE** on **Trikuta Hill**. | • Built entirely of yellow Jurassic sandstone without any cement or mortar (interlocking dry stone joints).<br>• Glows like gold at sunrise and sunset; hence called **Sonar Qila (Golden Fort)**.<br>• Triple defensive rampart (*Ghar-se-ghar / Kamarkota*); 99 bastions (*Burj*).<br>• **Only Living Fort in India:** ~25% of Jaisalmer's civilian population resides permanently inside. | • Grand palaces: Raj Mahal, Gaj Mahal, Badal Mahal.<br>• Seven magnificent 12th–15th C. **Jain Temples** (Chintamani Parshvanatha, Sambhavnatha).<br>• **Jin Bhadra Suri Grantha Bhandar:** Most valuable subterranean collection of ancient palm-leaf and paper manuscripts in India. | **Two and a Half Sakes (Dhai Saka):**<br>1. First Saka: Alauddin Khilji vs Moolraj I (1299).<br>2. Second Saka: Feroz Shah Tughlaq vs Duda (1352).<br>3. **Half Saka (1550):** Afghan Amir Ali attacked Maharawal Lunkaran; Rajputs performed Kesariya and slain queens, but won battle before fire lit (hence Half Saka). |
+| **Ranthambore Fort**<br>(*Vana Durg & Giri Durg*) | Sawai Madhopur; nestled in dense Thambore forests of Aravalli-Vindhyan junction. Built by Sapaldaksha Chauhan ruler. | • Hidden completely from view until approaching within a few hundred yards (*"Sab garh nange hain, yeh baktar-band hai"* - Abul Fazl).<br>• 7 Gates: Navlakha Pol, Hathi Pol, Ganesh Pol, Suraj Pol, Satpol. | • **Trinetra Ganesha Temple (Three-Eyed Ganesha):** India's famous pilgrimage site where wedding invitation cards are mailed.<br>• **32-Pillared Cenotaph** (*32 Khambhon ki Chhatri*) built by Hammir in honor of his father Jaitrasimha's 32-year reign.<br>• Supari Mahal (harmonious site of temple, mosque, and church).<br>• Padmalah Lake. | • **1301 Siege by Alauddin Khilji:** Epic martyrdom of **Hammir Dev Chauhan**; First Jauhar (Jal Jauhar) of Ranga Devi. |
+| **Amber Fort**<br>(*Giri Durg*) | Jaipur; built by **Raja Man Singh I** (1592), expanded by Mirza Raja Jai Singh and Sawai Jai Singh. | • Picturesque hill fort overlooking **Maota Lake** and Kesar Kyari garden.<br>• Unmatched synthesis of **Rajput architectural grace and Mughal ornamental luxury**; accessed through grand Suraj Pol. | • **Sheesh Mahal (Palace of Mirrors):** Intricate convex glass mosaic.<br>• **Ganesh Pol:** Majestic two-storied gate painted with natural vegetable dyes.<br>• **Shila Devi Temple:** Enshrines black stone Mahishasuramardini idol brought by Man Singh I from Jessore (Bengal).<br>• Diwan-i-Aam and Diwan-i-Khas. | • Connected to the military defense fortress **Jaigarh Fort** via subterranean fortified passages; housed the imperial treasury. |
+
+> 🎯 **Top Civil Services Traps for Chapter 58:**
+> 1. **Dhai Saka Fort:** **Jaisalmer Fort** is famous for **Two and a Half Sakes (Dhai Saka)**, NOT Chittorgarh (which had three complete sakes).
+> 2. **Gagron Fort Rivers:** Gagron Fort is surrounded by the **Ahu and Kali Sindh rivers**, NOT the Chambal and Banas.
+> 3. **Baktar-Band Fort:** Abul Fazl famously described **Ranthambore Fort** as *"Baktar-band"* (armored / clad in protective armor), remarking that other forts were bare (*nange*).
+
+---
+
+<a id="chapter-59"></a>
+
+## 59. Rajasthan Miniature Painting Schools (Mewar, Marwar, Hadoti & Dhundhar)
+
+> 🧠 **Key Concept — First-Principles Core Truth**
+> The Rajasthani painting tradition is an indigenous devotional and romantic art form rooted in Western Indian manuscript traditions, structured into four major schools (Mewar, Marwar, Hadoti, Dhundhar) distinguished by regional color palettes, human facial profiles, and environmental symbology.
+
+### 🎨 1. Classification & Evolution of the Four Painting Schools
+
+```
+  Rajasthani Painting Schools (Chitrashaili)
+  ├── 1. Mewar School ── Mewar (Udaipur), Chavand, Nathdwara, Deogarh
+  ├── 2. Marwar School ── Jodhpur, Bikaner, Kishangarh (Bani Thani), Jaisalmer, Nagaur
+  ├── 3. Hadoti School ── Bundi (Bird & Nature), Kota (Hunting & Shikar)
+  └── 4. Dhundhar School ── Amber-Jaipur, Alwar, Shekhawati (Fresco Havelis), Uniara
+```
+
+• **Historical Antiquity & Naming:**
+  - In 1916, **Ananda Kentish Coomaraswamy** published the foundational scholarly work **Rajput Painting**, classifying these schools and distinguishing them from imperial Mughal miniatures.
+  - Earliest dated illustrated manuscript: **Savaka-Padikkamana-Sutta-Churni** (1260 CE), painted by **Kamalachandra** at Kamalavardhana (Ahar, Udaipur) during the reign of Guhila ruler **Rawal Tejasimha**.
+
+### 🖌️ 2. Master Diagnostic Table of Regional Painting Schools
+
+| School & Sub-School | Patron Monarchs & Golden Age | Distinctive Stylistic Features & Color Schemes | Famous Master Painters | Celebrated Masterpieces & Themes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mewar School (Udaipur)** | Maharana **Jagat Singh I** (1628–1652) & Sangram Singh II. | • Bright primary colors (red, yellow, saffron).<br>• Fish-shaped eyes, sturdy male figures, tight cholis.<br>• Jagat Singh established the royal painting academy **Chitaron ki Ovari** (also called *Tasveeraan ro Karkhano*). | **Sahibdin** and **Manohar**. | • *Ragamala* (1628), *Rasikapriya*, *Bhagavata Purana*, *Aranya Kanda* of Ramayana.<br>• **Chavand Style:** Initiated under Pratap; master artist **Nasiruddin** painted *Dholamaru* (1592) and *Ragamala* (1605). |
+| **Nathdwara Sub-School** | Raj Singh I (post-1671 installation of Shrinathji idol). | • **Pichhwai Paintings:** Large cloth backdrops hung behind the Shrinathji deity, depicting Krishna's leelas, cows, lotus ponds, and Kadamba trees.<br>• Prominent **women painters:** **Kamala and Ilaichi**. | Narayan, Chaturbhuj, Ghasiram, Hiralal. | Vaishnavite Pushtimarg devotion; Vatsalya and Shringara rasa. |
+| **Kishangarh Sub-School** | **Sawai Raja Sawant Singh** (1748–1764), who wrote devotional poetry under the pen-name **Nagari Das**. | • **The Zenith of Indian Romanticism**.<br>• Slender female forms, highly arched eyebrows, elongated almond/lotus eyes, sharp pointed nose, thin curving lips, transparent *Odhni*.<br>• Dominant colors: Pink, white, and turquoise green with nocturnal water pavilions. | Master Painter **Nihal Chand** (Mor-dhwaj). | • **Bani Thani:** Portrait of Sawant Singh's beloved courtesan/poetess; hailed by art critic **Eric Dickinson as the "Mona Lisa of India"**.<br>• Government of India issued a commemorative **postal stamp on Bani Thani in 1973**.<br>• *Chandani Raat ki Sangosthi* (by painter Amar Chand). |
+| **Bikaner Sub-School** | Maharaja Rai Singh & **Anup Singh** (1669–1698). | • High synthesis of Mughal delicacy with Rajput themes; subtle muted colors.<br>• **Usta Art:** Painting in gold lacquer relief on **camel hide** (pioneered by artist **Hisamuddin Usta**, awarded Padma Shri).<br>• **Mateerna Art:** Traditional Jain fresco and wall painting by native Mateerna community. | **Ali Raza, Ruknuddin**, Hamid, Isa, Nathu. | Artists traditionally inscribed their **name, father's name, and date (*San-Sambat*)** on the paintings—a unique Bikaner signature. |
+| **Jodhpur Sub-School** | Rao Maldeo, Jaswant Singh, and Man Singh. | • Robust warrior figures, high turbans (*Khidkiya Pagdi*), billowing swirling yellow skirts; yellow and red dominant.<br>• Golden age under **Maharaja Man Singh** (influenced by the Nath sect; painted *Nath Charitra*). | Shivdas, Bhati Dana, Jeewan, Chhagan, Amar Das. | *Dhola-Maru*, *Moomal-Mahendra*, *Panchatantra*, *Ragamala*. |
+| **Bundi Sub-School** | Rao Surjan, Rao Ratan Singh, and **Rao Raja Ummed Singh** (1749–1773). | • **Premier "School of Birds and Animal Studies"** (*Pashu-Pakshi Shaili*).<br>• Lush natural vegetation, dense date palms, plantain trees, lotus lakes, ducks, peacocks, dramatic rain clouds with golden lightning.<br>• Ummed Singh built the world-renowned **Chitrashala (Rang Mahal)** inside Bundi Palace, covered in original vibrant wall frescoes. | Surjan, Ahmed, Ramlal, Sadhu Ram. | *Ragamala* (1591), *Bhadon ki Teej*, bathing maidens. |
+| **Kota Sub-School** | Maharao Bhim Singh and **Maharao Ummed Singh I** (1771–1819). | • **The World's Greatest School of Hunting Scenes (Shikar Shaili)**.<br>• Dense, wild jungle backgrounds, roaring tigers, elephants, deep ravines.<br>• **Unique Hallmark:** **Queens and royal court women are depicted actively hunting wild tigers and lions** on horseback and atop trees alongside men. | Lachhiram, Nuru, Dalu, Govind. | Dynamic action hunting scrolls; *Ragamala* (1768) painted by Dalu. |
+| **Amber-Jaipur Sub-School** | Sawai Jai Singh II, **Sawai Pratap Singh** (1778–1803), and Sawai Madho Singh I. | • Deepest imperial Mughal influence.<br>• Pratap Singh established the grand **Suratkhana** (50+ artists employed).<br>• **Life-size Portrait Painting:** Master artist **Sahibram** painted massive, majestic life-size portraits of the rulers.<br>• Marble and miniature paintings embellished with real gold leaf work (*Jadaw*). | **Sahibram**, Mohammad Shah, Shaligram, Ramjidas. | Portraits of kings, *Rasa Mandala*, *Gita Govinda*, *Bihari Satsai*. |
+| **Shekhawati Fresco Murals** | 18th to early 20th Century (Marwari merchant patronage). | • Spectacular, continuous **Fresco Wall Murals** covering the interior and exterior walls of grand merchant **Havelis** in Nawalgarh, Mandawa, Fatehpur, and Jhunjhunu.<br>• Blended mythological themes (Ramayana, Krishna) with modern European colonial curiosities (aeroplanes, trains, motor cars, telephones, gramophones).<br>• Celebrated globally as the **"Open-Air Art Gallery of Rajasthan"**. | Indigenous potters (*Kumhars*) and mason-painters (*Chejara*). | Haveli facades of Nawalgarh (Anandi Lal Poddar Haveli), Mandawa, and Ramgarh. |
+
+> 🎯 **Top Civil Services Traps for Chapter 59:**
+> 1. **Mona Lisa of India:** **Bani Thani** of the **Kishangarh school** (painted by Nihal Chand) was dubbed the *"Mona Lisa of India"* by art historian **Eric Dickinson**.
+> 2. **Women Hunters in Paintings:** Depiction of **queens and court women actively hunting wild beasts** is the exclusive and unmistakable hallmark of the **KOTA SCHOOL**, NOT Bundi or Jodhpur.
+> 3. **Unique Bikaner Inscription:** The practice of artists signing their **name, father's name, and date** on miniature paintings was practiced uniquely by the artists of the **BIKANER SCHOOL**.
 
 ---
 
@@ -3261,9 +3955,9 @@ Anand Kentish Coomaraswamy categorized Rajasthani painting in his seminal 1916 b
 
 ---
 
-<a id="chapter-50"></a>
+<a id="chapter-60"></a>
 
-## 50. An Empire Across Three Continents (Roman Empire)
+## 60. An Empire Across Three Continents (Roman Empire)
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > An Empire Across Three Continents (Roman Empire) is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3337,9 +4031,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-51"></a>
+<a id="chapter-61"></a>
 
-## 51. Nomadic Empires (Genghis Khan & The Mongols)
+## 61. Nomadic Empires (Genghis Khan & The Mongols)
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > Nomadic Empires (Genghis Khan & The Mongols) is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3413,9 +4107,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-52"></a>
+<a id="chapter-62"></a>
 
-## 52. The Three Orders & Renaissance (Feudal Europe)
+## 62. The Three Orders & Renaissance (Feudal Europe)
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > The Three Orders & Renaissance (Feudal Europe) is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3489,9 +4183,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-53"></a>
+<a id="chapter-63"></a>
 
-## 53. The French Revolution (1789)
+## 63. The French Revolution (1789)
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > The French Revolution (1789) is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3565,9 +4259,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-54"></a>
+<a id="chapter-64"></a>
 
-## 54. The Rise of Nationalism in Europe
+## 64. The Rise of Nationalism in Europe
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > The Rise of Nationalism in Europe is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3641,9 +4335,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-55"></a>
+<a id="chapter-65"></a>
 
-## 55. The Age of Industrialisation & Print Culture
+## 65. The Age of Industrialisation & Print Culture
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > The Age of Industrialisation & Print Culture is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3717,9 +4411,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-56"></a>
+<a id="chapter-66"></a>
 
-## 56. The Making of a Global World (Globalisation History)
+## 66. The Making of a Global World (Globalisation History)
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > The Making of a Global World (Globalisation History) is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3793,9 +4487,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-57"></a>
+<a id="chapter-67"></a>
 
-## 57. Confrontation of Cultures & Displacing Indigenous Peoples
+## 67. Confrontation of Cultures & Displacing Indigenous Peoples
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > Confrontation of Cultures & Displacing Indigenous Peoples is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3869,9 +4563,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-58"></a>
+<a id="chapter-68"></a>
 
-## 58. Socialism in Europe and the Russian Revolution
+## 68. Socialism in Europe and the Russian Revolution
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > Socialism in Europe and the Russian Revolution is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -3945,9 +4639,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-59"></a>
+<a id="chapter-69"></a>
 
-## 59. Nazism and the Rise of Hitler
+## 69. Nazism and the Rise of Hitler
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > Nazism and the Rise of Hitler is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
@@ -4021,9 +4715,9 @@ Why did this historical shift occur in the Indian subcontinent or global history
 
 ---
 
-<a id="chapter-60"></a>
+<a id="chapter-70"></a>
 
-## 60. Paths to Modernisation (Japan & China)
+## 70. Paths to Modernisation (Japan & China)
 
 > 🧠 **Key Concept — First-Principles Core Truth**
 > Paths to Modernisation (Japan & China) is a pivotal historical development analyzed in UPSC CSE & State PCS examinations.
