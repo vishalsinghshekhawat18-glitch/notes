@@ -31,23 +31,17 @@
 
 ## 🧮 1. Master Mathematical Formulas for Measures of Dispersion
 
-```latex
+• **Standard Deviation (\(\sigma\)) & Variance:**
+  $\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^N (x_i - \bar{x})^2} = \sqrt{\text{Var}(X)}$
+  *Explanation:* The square root of variance. If a constant \(k\) is added to each observation, \(\sigma\) remains unchanged (independent of origin). If each observation is multiplied by \(k\), \(\sigma\) is multiplied by \(|k|\) (dependent on scale).
 
-```
+• **Coefficient of Variation (CV):**
+  $\text{CV} = \frac{\sigma}{\bar{x}} \times 100$
+  *Explanation:* Relative measure of dispersion expressed as a percentage. A series with a LOWER Coefficient of Variation is considered more consistent, stable, and uniform.
 
-*Explanation:* The square root of variance. If a constant \(k\) is added to each observation, \(\sigma\) remains unchanged. If each observation is multiplied by \(k\), \(\sigma\) is multiplied by \(|k|\).
-
-```latex
-
-```
-
-*Explanation:* A series with a LOWER Coefficient of Variation is considered more consistent, stable, and uniform.
-
-```latex
-
-```
-
-*Explanation:* Fundamental relationship established by Karl Pearson for unimodal moderately skewed distributions.
+• **Karl Pearson's Empirical Mode-Median-Mean Relationship:**
+  $\text{Mode} \approx 3\text{Median} - 2\text{Mean}$
+  *Explanation:* Fundamental relationship established by Karl Pearson for unimodal moderately skewed distributions (mnemonic: 3 Median minus 2 Mean).
 
 ## 🎲 2. Probability & Combinatorics Framework
 
@@ -313,27 +307,27 @@
 
 ## 🎯 1. Solved Past 10-Year UPSC Questions with Exhaustive Rationales
 
-**Worked Example:** 
+**Worked Example:** Under the Industrial Disputes Act, 1947, in an industrial establishment employing how many or more workmen can the appropriate Government require the constitution of a Works Committee? (a) 50 or more (b) 100 or more (c) 150 or more (d) 200 or more
 **Solution:** Correct Answer: (b) 100 or more workers.
 
 Statutory Rationale: Under Section 3 of the Industrial Relations Code 2020 (and erstwhile Section 3 of ID Act 1947), in an establishment with 100 or more workers, the appropriate Government may require the employer to constitute a Works Committee consisting of equal representatives of employers and workers.
 
-**Worked Example:** 
+**Worked Example:** Under the Unorganised Workers' Social Security Act, 2008, which of the following is NOT classified as an unorganised worker? (a) Home-based worker (b) Self-employed worker (c) Wage worker in an establishment covered under ESIC (d) Agricultural labourer
 **Solution:** Correct Answer: (c) Wage worker in an establishment covered under ESIC.
 
 Statutory Rationale: A worker covered under ESIC or EPFO belongs to the organized formal sector. An unorganized worker is defined as a home-based worker, self-employed worker, or a wage worker in an unorganized sector not covered by ESIC or EPF Acts.
 
-**Worked Example:** 
+**Worked Example:** What is the maximum statutory gratuity ceiling payable to an employee under the Payment of Gratuity Act, 1972? (a) ₹10 Lakhs (b) ₹15 Lakhs (c) ₹20 Lakhs (d) ₹25 Lakhs
 **Solution:** Correct Answer: (c) ₹20 Lakhs.
 
 Statutory Rationale: The Payment of Gratuity (Amendment) Act enhanced the maximum statutory limit of gratuity from ₹10 Lakhs to ₹20 Lakhs (matching the 7th Central Pay Commission recommendations for Central Govt employees).
 
-**Worked Example:** 
+**Worked Example:** Which section of the Trade Unions Act, 1926 grants registered trade unions immunity from civil liability in respect of acts done in contemplation or furtherance of a trade dispute? (a) Section 15 (b) Section 16 (c) Section 17 (d) Section 18
 **Solution:** Correct Answer: (d) Section 18.
 
 Statutory Rationale: Section 18 provides immunity from civil suits in respect of any act done in contemplation or furtherance of a trade dispute. (Section 17 provides immunity from criminal conspiracy; Section 16 deals with Political Funds).
 
-**Worked Example:** 
+**Worked Example:** Under Section 25C of the Industrial Disputes Act, 1947, what percentage of basic wages and dearness allowance is payable as layoff compensation to an eligible workman? (a) 33% (b) 50% (c) 66% (d) 75%
 **Solution:** Correct Answer: (b) 50%.
 
 Statutory Rationale: Under Section 25C of the Industrial Disputes Act 1947, layoff compensation is equal to 50% of the total of basic wages and dearness allowance that would have been payable for the period of layoff.
@@ -354,22 +348,22 @@ Statutory Rationale: Under Section 25C of the Industrial Disputes Act 1947, layo
 
 ## 🎯 1. Solved Past 10-Year UPSC Questions with Detailed Solutions
 
-**Worked Example:** 
+**Worked Example:** Which accounting concept dictates that fixed assets are shown in the balance sheet at historical cost less accumulated depreciation rather than their market liquidation value? (a) Money Measurement Concept (b) Going Concern Concept (c) Conservatism Concept (d) Realisation Concept
 **Solution:** Correct Answer: (b) Going Concern Concept.
 
 Accounting Rationale: Going concern assumes the enterprise will operate indefinitely, allowing fixed assets to be carried at historical cost less depreciation rather than immediate net realizable market value.
 
-**Worked Example:** 
+**Worked Example:** Wages paid to workers for the erection and installation of new machinery were debited to Wages Account instead of Machinery Account. What type of error is this, and will it affect the agreement of the Trial Balance? (a) Error of Commission; Trial balance will not tally (b) Error of Omission; Trial balance will tally (c) Error of Principle; Trial balance will tally (d) Compensating Error; Trial balance will not tally
 **Solution:** Correct Answer: (c) Error of Principle; Trial balance will tally.
 
 Accounting Rationale: Treating capital expenditure (installation of machinery) as revenue expenditure (wages) violates fundamental accounting principles. Because both debit and credit amounts remain equal, the Trial Balance will still tally.
 
-**Worked Example:** 
+**Worked Example:** In which type of insurance contract must insurable interest strictly exist at the time of policy inception, regardless of whether it exists at the time of claim/loss? (a) Marine Insurance (b) Fire Insurance (c) Life Insurance (d) Motor Insurance
 **Solution:** Correct Answer: (c) Life Insurance.
 
 Insurance Law Rationale: Under Dalby v. The India and London Life-Assurance Company (1854), insurable interest in Life Insurance is required strictly at policy inception. In Marine Insurance, it must exist at the time of loss; in Fire Insurance, at both inception and loss.
 
-**Worked Example:** 
+**Worked Example:** An asset costing ₹1,00,000 is depreciated at 10% per annum under the Written Down Value (WDV / Reducing Balance) method. What will be the book value of the asset at the end of Year 2? (a) ₹80,000 (b) ₹81,000 (c) ₹82,000 (d) ₹85,000
 **Solution:** Correct Answer: (b) ₹81,000.
 
 Mathematical Solution:
@@ -392,22 +386,22 @@ Mathematical Solution:
 
 ## 🎯 1. Solved Past 10-Year UPSC Questions with Exhaustive Explanations
 
-**Worked Example:** 
+**Worked Example:** Which Article of the Constitution of India was inserted by the 42nd Constitutional Amendment Act, 1976 to direct the State to secure the participation of workers in the management of undertakings? (a) Article 39A (b) Article 41 (c) Article 43A (d) Article 43B
 **Solution:** Correct Answer: (c) Article 43A.
 
 Constitutional Rationale: Article 43A was inserted by the 42nd Constitutional Amendment Act, 1976, directing the State to take steps to secure the participation of workers in the management of undertakings and establishments.
 
-**Worked Example:** 
+**Worked Example:** If every observation in a statistical series is multiplied by 3, what will be the effect on the Variance of the series? (a) It will remain unchanged (b) It will be multiplied by 3 (c) It will be multiplied by 9 (d) It will be multiplied by 27
 **Solution:** Correct Answer: (c) It will be multiplied by 9.
 
 Statistical Rationale: If a variable X is multiplied by constant k (here k = 3), the Standard Deviation becomes |k| * SD (3 * SD), and the Variance (which is SD squared) becomes k^2 * Variance = 3^2 * Variance = 9 times the original variance.
 
-**Worked Example:** 
+**Worked Example:** At which layer of the Open Systems Interconnection (OSI) reference model do Routers primarily operate to determine optimal packet delivery paths? (a) Data Link Layer (b) Transport Layer (c) Network Layer (d) Session Layer
 **Solution:** Correct Answer: (c) Network Layer.
 
 Networking Rationale: Routers operate at Layer 3 (Network Layer) of the OSI model, making forwarding and routing decisions based on logical IP addresses.
 
-**Worked Example:** 
+**Worked Example:** Which constitutional milestone first introduced Dyarchy (division of subjects into Transferred and Reserved) in the provinces of British India? (a) Indian Councils Act 1909 (b) Government of India Act 1919 (c) Government of India Act 1935 (d) Indian Independence Act 1947
 **Solution:** Correct Answer: (b) Government of India Act, 1919.
 
 Historical Rationale: The 1919 Act introduced Dyarchy in the provinces by dividing provincial subjects into 'Transferred' (administered by Ministers responsible to legislature) and 'Reserved' (administered by Governor and executive council). The 1935 Act abolished provincial dyarchy and introduced Provincial Autonomy while proposing dyarchy at the Centre.
