@@ -93,7 +93,7 @@
 *'Compare the administrative mechanisms of the Delhi Sultanate Iqta system with the Mughal Mansabdari system. How did land revenue assignments affect central authority in both empires?'*
 
 > 🎯 **Exam Anchor & Trap:**
-> 🎯 Exam Angle → 🔥 HIGH — Landmark Legislative Chronology: (1) Regulating Act 1773 (Warren Hastings, 1st Gov-Gen of Bengal); (2) Charter Act 1833 (Lord William Bentinck, 1st Gov-Gen of India); (3) Government of India Act 1858 (Lord Canning, 1st Viceroy of India); (4) Indian Councils Act 1909 (Morley-Minto, separate electorates for Muslims); (5) GoI Act 1919 (Montagu-Chelmsford, Dyarchy in provinces).
+> 🎯 Exam Angle → 🔥 HIGH — Ancient & Medieval Key Invariants: (1) Ashokan personal name appears only in Maski, Gujarra, Nittur, Udegolam; (2) Ajanta caves are exclusively Buddhist, Ellora caves are Hindu, Buddhist & Jain; (3) First gold coins: Indo-Greeks; Purest gold: Kushanas; Largest quantity: Guptas; (4) Mansabs were strictly non-hereditary, escheating to the Emperor under Zabt law; (5) Iqta was a revenue assignment, NOT land ownership.
 
 ---
 

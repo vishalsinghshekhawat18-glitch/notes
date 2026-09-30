@@ -133,16 +133,16 @@
 ## Part 1.3: Worked Exam Exemplars
 
 **Worked Example:** CI−SI difference to find principal. diff(2yr)=64, R=8%.
-**Solution:** 
+**Solution:** Formula: $\text{Difference} = P \left(\frac{R}{100}\right)^2$. Substitute: $64 = P \left(\frac{8}{100}\right)^2 = P \times \frac{64}{10000} \implies P = \text{₹}10,000$.
 
 **Worked Example:** Partnership with time gap. A invests ₹5000 for 12 months, B invests ₹6000 for 8 months.
-**Solution:** 
+**Solution:** Profit Ratio $= (\text{Investment}_A \times \text{Time}_A) : (\text{Investment}_B \times \text{Time}_B) = (5000 \times 12) : (6000 \times 8) = 60000 : 48000 = 5 : 4$.
 
 **Worked Example:** Work with efficiency change midway. A: 20 days, B: 30 days; B leaves after 6 days.
-**Solution:** 
+**Solution:** Total Work $= \text{LCM}(20, 30) = 60\text{ units}$. Daily efficiency: $E_A = 3$, $E_B = 2$. Work done by A and B in first 6 days: $(3 + 2) \times 6 = 30\text{ units}$. Remaining work: $60 - 30 = 30\text{ units}$. Time taken by A alone to finish: $30 / 3 = 10\text{ days}$. Total time to complete: $6 + 10 = 16\text{ days}$.
 
 **Worked Example:** Mixture with repeated replacement. 80L milk, 8L replaced with water twice.
-**Solution:** 
+**Solution:** Formula: $\text{Remaining Pure Liquid} = \text{Initial} \times \left(1 - \frac{x}{V}\right)^n = 80 \times \left(1 - \frac{8}{80}\right)^2 = 80 \times (0.9)^2 = 80 \times 0.81 = 64.8\text{ Litres}$ of pure milk remaining.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.
@@ -215,10 +215,10 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 ## Part 2.3: Worked Exam Exemplars
 
 **Worked Example:** Quadratic comparison (x vs y). I. x²−7x+12=0  II. y²−9y+20=0.
-**Solution:** 
+**Solution:** From I: $(x - 3)(x - 4) = 0 \implies x = 3, 4$. From II: $(y - 4)(y - 5) = 0 \implies y = 4, 5$. Comparing values: $3 < 4, 3 < 5, 4 = 4, 4 < 5$. Therefore, $x \le y$.
 
 **Worked Example:** a+1/a identity chain. a+1/a=5, find a³+1/a³.
-**Solution:** 
+**Solution:** Formula: $a^3 + \frac{1}{a^3} = \left(a + \frac{1}{a}\right)^3 - 3\left(a + \frac{1}{a}\right)$. Substitute $5$: $5^3 - 3(5) = 125 - 15 = 110$.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.
@@ -283,10 +283,10 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 ## Part 3.3: Worked Exam Exemplars
 
 **Worked Example:** Second-level difference series. 3, 4, 8, 17, 33, ?
-**Solution:** 
+**Solution:** First differences: $4 - 3 = 1 = 1^2$, $8 - 4 = 4 = 2^2$, $17 - 8 = 9 = 3^2$, $33 - 17 = 16 = 4^2$. Next difference must be $5^2 = 25$. Missing term $= 33 + 25 = 58$.
 
 **Worked Example:** Wrong number in series. 5, 10, 20, 41, 80, 161.
-**Solution:** 
+**Solution:** Pattern: alternating $(\times 2 + 1)$ and $(\times 2 - 2)$. $5 \times 2 + 1 = 11$ (series incorrectly gives 10). Testing with 11: $11 \times 2 - 2 = 20$; $20 \times 2 + 1 = 41$; $41 \times 2 - 2 = 80$; $80 \times 2 + 1 = 161$. Therefore, the wrong number is **10** (correct value is **11**).
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.
@@ -432,16 +432,16 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 ## Part 4.5: Worked Exam Exemplars
 
 **Worked Example:** Cone on cylinder — total volume. r=7, cylinder h=10, cone h=6.
-**Solution:** 
+**Solution:** Volume of cylinder $= \pi r^2 h_{\text{cyl}} = \frac{22}{7} \times 7^2 \times 10 = 1540\text{ cm}^3$. Volume of cone $= \frac{1}{3} \pi r^2 h_{\text{cone}} = \frac{1}{3} \times \frac{22}{7} \times 49 \times 6 = 308\text{ cm}^3$. Total Volume $= 1540 + 308 = 1848\text{ cm}^3$.
 
 **Worked Example:** Sphere melted into cones. Sphere r=6 melted into cones of r=3, h=4.
-**Solution:** 
+**Solution:** Volume of sphere $= \frac{4}{3} \pi R^3 = \frac{4}{3} \pi (6)^3 = 288 \pi\text{ cm}^3$. Volume of one cone $= \frac{1}{3} \pi r^2 h = \frac{1}{3} \pi (3)^2 (4) = 12 \pi\text{ cm}^3$. Number of cones $N = \frac{288 \pi}{12 \pi} = 24\text{ cones}$.
 
 **Worked Example:** Painting cost — hemisphere on cylinder (open top). r=3.5, cylinder h=8, rate ₹5/cm².
-**Solution:** 
+**Solution:** Surface area to paint $= \text{CSA}_{\text{hemisphere}} + \text{CSA}_{\text{cylinder}} + \text{Base}_{\text{circle}} = 2\pi r^2 + 2\pi rh + \pi r^2 = 3\pi r^2 + 2\pi rh = 3 \left(\frac{22}{7} \times 12.25\right) + 2 \left(\frac{22}{7} \times 3.5 \times 8\right) = 115.5 + 176 = 291.5\text{ cm}^2$. Total Cost $= 291.5 \times 5 = \text{₹}1,457.50$.
 
 **Worked Example:** Frustum bucket — capacity + metal sheet. R=20, r=12, h=15.
-**Solution:** 
+**Solution:** Capacity (Volume) $= \frac{1}{3} \pi h (R^2 + r^2 + Rr) = \frac{1}{3} \times \frac{22}{7} \times 15 \times (400 + 144 + 240) = 5 \times \frac{22}{7} \times 784 = 12,320\text{ cm}^3 = 12.32\text{ Litres}$. Slant height $l = \sqrt{h^2 + (R - r)^2} = \sqrt{15^2 + 8^2} = 17\text{ cm}$. Metal Sheet required $= \pi(R + r)l + \pi r^2 = \frac{22}{7} [(32 \times 17) + 144] = \frac{22}{7} [544 + 144] = \frac{22}{7} \times 688 \approx 2,162.29\text{ cm}^2$.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.
@@ -497,9 +497,7 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 
 ## Part 5.2: Handshake, Circular & Tournament Shortcuts
 
-```latex
-
-```
+$^{n}\text{P}_r = \frac{n!}{(n-r)!}, \qquad ^{n}\text{C}_r = \frac{n!}{r!(n-r)!}$
 
 *Explanation:* Formulas for Permutation (arrangements) and Combination (selections).
 
@@ -522,10 +520,10 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 ## Part 5.3: Worked Exam Exemplars
 
 **Worked Example:** Word arrangement with repeated letters. Arrangements of letters in 'BANANA'.
-**Solution:** 
+**Solution:** Total letters $= 6$, with 1 'B', 3 'A's, and 2 'N's. Distinct arrangements $= \frac{n!}{p! \cdot q! \cdot r!} = \frac{6!}{1! \times 3! \times 2!} = \frac{720}{1 \times 6 \times 2} = \frac{720}{12} = 60\text{ permutations}$.
 
 **Worked Example:** Independent events — at least one success. A hits target with prob 0.6, B with prob 0.5.
-**Solution:** 
+**Solution:** $P(\text{at least one}) = 1 - P(\text{neither hits}) = 1 - [P(A') \times P(B')] = 1 - [(1 - 0.6) \times (1 - 0.5)] = 1 - [0.4 \times 0.5] = 1 - 0.20 = 0.80$.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.
@@ -591,13 +589,13 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 ## Part 6.3: Worked Exam Exemplars
 
 **Worked Example:** Pie chart % to actual value. Total students=7200, sector=90°.
-**Solution:** 
+**Solution:** Sector central angle of $90^\circ$ represents $\frac{90^\circ}{360^\circ} = \frac{1}{4}$ of the total circle ($25\%$). Number of students $= \frac{1}{4} \times 7200 = 1,800\text{ students}$.
 
 **Worked Example:** Two pie charts compared (ratio of actuals). Sales 2019=5000, 2020=6000; X=20% in 2019, 25% in 2020.
-**Solution:** 
+**Solution:** Actual sales of X in 2019 $= 20\% \text{ of } 5000 = 1,000\text{ units}$. Actual sales of X in 2020 $= 25\% \text{ of } 6000 = 1,500\text{ units}$. Required Ratio $= 1000 : 1500 = 2 : 3$.
 
 **Worked Example:** CAGR from bar graph. 2018=200, 2021=343 (3-year gap).
-**Solution:** 
+**Solution:** Formula: $\text{CAGR} = \left(\frac{\text{End Value}}{\text{Start Value}}\right)^{1/n} - 1 = \left(\frac{343}{200}\right)^{1/3} - 1 = (1.715)^{1/3} - 1 \approx 1.197 - 1 = 19.7\% \approx 20\%\text{ per annum}$.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.
@@ -662,10 +660,10 @@ For a standard quadratic equation (ax^2 + bx + c = 0) with roots (alpha, eta):
 ## Part 7.3: Worked Exam Exemplars
 
 **Worked Example:** Quantity-based: find the number. Is x known? I. x²=49. II. x is a positive integer.
-**Solution:** 
+**Solution:** From Statement I alone: $x = \pm 7$ (two possible values, insufficient). From Statement II alone: $x$ can be any positive integer (infinitely many values, insufficient). Combining Statements I and II: $x$ must be positive, hence $x = 7$ uniquely. Both statements together are necessary and sufficient.
 
 **Worked Example:** Comparison-based: is x>y? I. x=y+5. II. y>0.
-**Solution:** 
+**Solution:** From Statement I alone: $x - y = 5 \implies x > y$ holds true for every real value of $y$ (whether positive, negative, or zero). Statement I alone is sufficient to answer the question affirmatively. Statement II is redundant.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Exam Angle → ⚡ Calculation Trap — Watch for base-year shifts, percentage of vs percentage more than traps, and units conversion (km/h ➔ m/s) in time-speed-distance.

@@ -419,21 +419,15 @@ Master recall matrix consolidating all numerical thresholds and statutory traps 
 
 ## 🧮 1. Mathematical Formulas for Core Depreciation Methods
 
-```latex
-
-```
+$\text{Depreciation} = \frac{\text{Original Cost} - \text{Estimated Scrap Value}}{\text{Useful Life in Years}}$
 
 *Explanation:* Equal amount of depreciation charged every year throughout asset life. Book value reaches exact scrap value at end of useful life.
 
-```latex
-
-```
+$D_t = r \times \text{Book Value}_{t-1}, \quad \text{where } r = 1 - \sqrt[n]{\frac{\text{Scrap Value}}{\text{Cost}}}$
 
 *Explanation:* Depreciation is calculated on opening written-down book value each year. Depreciation amount decreases progressively each year. Book value never mathematically reaches zero.
 
-```latex
-
-```
+$D_t = \frac{\text{Remaining Life at Start of Year}}{\frac{n(n+1)}{2}} \times (\text{Cost} - \text{Scrap Value})$
 
 *Explanation:* An accelerated depreciation method where higher depreciation is charged in initial years.
 
@@ -464,33 +458,23 @@ Master recall matrix consolidating all numerical thresholds and statutory traps 
 
 ## 🧮 1. Master Mathematical Formulas for Time Value of Money
 
-```latex
-
-```
+$\text{PV} = \frac{\text{FV}}{(1 + r)^n} = \text{FV} \times (1 + r)^{-n}$
 
 *Explanation:* Where \(PV\) = Present Value, \(FV\) = Future Value, \(r\) = interest rate per compounding period, and \(n\) = total number of compounding periods.
 
-```latex
-
-```
+$\text{PV}_{\text{Annuity}} = C \times \left[ \frac{1 - (1 + r)^{-n}}{r} \right]$
 
 *Explanation:* Used to determine the maximum loan amount sanctionable for a given equated periodic installment \(C\).
 
-```latex
-
-```
+$\text{PV}_{\text{Perpetuity}} = \frac{C}{r}$
 
 *Explanation:* A perpetuity is a stream of equal cash flows \(C\) that continues indefinitely forever (e.g. British Consols, irredeemable preference shares).
 
-```latex
-
-```
+$\text{PV}_{\text{Growing Perpetuity}} = \frac{C}{r - g} \quad (r > g)$
 
 *Explanation:* Where cash flows grow at constant annual rate \(g\) indefinitely (provided discount rate \(r > g\)).
 
-```latex
-
-```
+$\text{EAR} = \left( 1 + \frac{r_{\text{nominal}}}{m} \right)^m - 1$
 
 *Explanation:* Reflects true annual yield when interest is compounded \(m\) times per year (e.g. quarterly compounding in bank deposits where \(m=4\)).
 
@@ -563,21 +547,15 @@ Master recall matrix consolidating all numerical thresholds and statutory traps 
 
 ## 🧮 1. Master Mathematical Formulas for Marginal Costing
 
-```latex
-
-```
+$\text{P/V Ratio} = \frac{\text{Contribution}}{\text{Sales}} \times 100 = \frac{\text{Sales} - \text{Variable Cost}}{\text{Sales}} \times 100$
 
 *Explanation:* Expresses profitability per unit of sales volume. Higher P/V ratio indicates high profit-earning capacity.
 
-```latex
-
-```
+$\text{BEP (Units)} = \frac{\text{Fixed Cost}}{\text{Contribution per Unit}}, \quad \text{BEP (Value)} = \frac{\text{Fixed Cost}}{\text{P/V Ratio}}$
 
 *Explanation:* The sales volume at which Total Revenue equals Total Cost (Profit = 0).
 
-```latex
-
-```
+$\text{Margin of Safety (MoS)} = \text{Actual Sales} - \text{Break-Even Sales} = \frac{\text{Profit}}{\text{P/V Ratio}}$
 
 *Explanation:* The safety cushion by which sales can decline before the business begins incurring losses.
 
@@ -1233,9 +1211,7 @@ Paul Sweezy formulated the **Kinked Demand Curve hypothesis** to explain **Price
 
 ## 📐 1. Price Elasticity Formulas & Degrees
 
-```latex
-
-```
+$e_p = -\frac{\Delta Q / Q}{\Delta P / P} = -\frac{\Delta Q}{\Delta P} \times \frac{P}{Q}$
 
 *Explanation:* Point Price Elasticity of Demand formula.
 
@@ -1291,9 +1267,7 @@ Paul Sweezy formulated the **Kinked Demand Curve hypothesis** to explain **Price
 
 ## 🧮 2. Money Multiplier Formula & Credit Creation
 
-```latex
-
-```
+$m = \frac{1 + c}{c + r} = \frac{1 + \frac{C}{D}}{\frac{C}{D} + \frac{R}{D}}$
 
 *Explanation:* Where \(c = \frac{C}{D}\) is the Currency-Deposit Ratio and \(r = \frac{R}{D}\) is the Reserve-Deposit Ratio (CRR + excess cash reserves).
 
@@ -1485,9 +1459,7 @@ A **Liquidity Trap** occurs at an ultra-low rate of interest where the speculati
 
 ## 📐 2. Nominal GDP vs. Real GDP & GDP Deflator
 
-```latex
-
-```
+$\text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100$
 
 *Explanation:* Comprehensive price index reflecting price changes across all goods and services produced domestically.
 
@@ -2007,9 +1979,7 @@ A **Liquidity Trap** occurs at an ultra-low rate of interest where the speculati
 
 ## 📐 2. Bond Pricing: Clean Price vs. Dirty Price
 
-```latex
-
-```
+$\text{Accrued Interest} = \text{Coupon Amount} \times \left( \frac{\text{Days since last coupon payment}}{\text{Days in current coupon period}} \right)$
 
 *Explanation:* Accrued interest is the interest earned since the last coupon payment date.
 
@@ -2601,15 +2571,11 @@ Under RBI Master Directions on Counterfeit Currency, failure by a bank teller to
 
 ## 🧮 2. Key Mathematical Formulas for Credit Appraisal
 
-```latex
-
-```
+$\text{DSCR} = \frac{\text{Net Profit After Tax} + \text{Depreciation} + \text{Interest on Term Loan}}{\text{Interest on Term Loan} + \text{Principal Term Loan Installment}}$
 
 *Explanation:* Measures borrower's ability to service annual term debt obligations. Benchmark: Average DSCR should ideally be between 1.50 and 2.00. Minimum acceptable DSCR is generally 1.20.
 
-```latex
-
-```
+$\text{BEP (\% of capacity)} = \frac{\text{Fixed Costs}}{\text{Installed Capacity Output} \times (\text{Selling Price} - \text{Variable Cost per unit})} \times 100$
 
 *Explanation:* Indicates the level of production/sales where Total Revenue equals Total Cost (Zero Profit, Zero Loss). Lower BEP indicates higher margin of safety for lenders.
 
