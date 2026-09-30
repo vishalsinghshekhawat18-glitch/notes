@@ -1,7 +1,7 @@
 # 🏛️ IIBF & Banking Regulations
 
 > **Subject ID:** `iibf-regulations`  
-> **Total Master Notes:** **79**  
+> **Total Master Notes:** **94**  
 > **Verified Source:** Banking Command Center & Doctoral Faculty Council  
 > **Last Exported:** 2026-08-26  
 
@@ -2089,13 +2089,29 @@ A **Liquidity Trap** occurs at an ultra-low rate of interest where the speculati
 | 3. Asset Management Company (AMC) | Company registered under Companies Act, approved by SEBI | Investment manager; deploys pool into stocks/bonds; CIO, Fund Managers, Research Analysts. |
 | 4. Custodian | Independent entity registered with SEBI | Safekeeping of physical securities and demat holding; independent from AMC. |
 
-## 🧮 2. Net Asset Value (NAV) Calculation Formula
+## 🧮 2. Net Asset Value (NAV) & SEBI Operational Framework
 
-```latex
+$\text{NAV} = \frac{(\text{Market Value of Investments} + \text{Receivables} + \text{Other Assets}) - (\text{Accrued Expenses} + \text{Liabilities})}{\text{Total Number of Outstanding Units}}$
 
-```
+*Explanation:* Computed daily at the close of trading hours by AMCs and published on AMFI portal by 11:00 PM.
 
-*Explanation:* Computed daily at the close of trading hours by AMCs.
+### 📊 3. SEBI Mutual Fund Scheme Categorisation Matrix
+
+| Scheme Category | Primary Sub-Types | Portfolio Mandate & Asset Allocation |
+| :--- | :--- | :--- |
+| **Equity Schemes** | Large Cap / Mid Cap / Small Cap / Multi Cap / Flexi Cap | • **Large Cap:** Min **80%** in top 100 companies by market cap.<br>• **Mid Cap:** Min **65%** in 101st–250th companies.<br>• **Small Cap:** Min **65%** in 251st company downwards.<br>• **Flexi Cap:** Min 65% in equity across any market cap dynamically. |
+| **Debt Schemes** | Overnight / Liquid / Ultra-Short / Short Duration | • **Overnight:** Securities with maturity of **1 day**.<br>• **Liquid Fund:** Securities with maturity up to **91 days only** (no mark-to-market below 30 days).<br>• **Ultra-Short Duration:** Macaulay duration between **3 to 6 months**. |
+| **Hybrid Schemes** | Conservative / Balanced / Aggressive Hybrid | • **Aggressive Hybrid:** **65% to 80%** in equity; 20% to 35% in debt.<br>• **Conservative Hybrid:** 10% to 25% in equity; **75% to 90%** in debt. |
+
+### 🛡️ 4. Total Expense Ratio (TER) & The 6-Level Riskometer
+
+• **Total Expense Ratio (TER):** The annual fee charged by the AMC to manage the fund (management fee, custodial fee, audit, marketing) expressed as a percentage of daily net assets. SEBI prescribes statutory slabs:
+  - First ₹500 Crore of AUM: Maximum **2.25%** for equity schemes (**2.00%** for debt schemes).
+  - Next ₹250 Crore: Max **2.00%** (equity) / **1.75%** (debt).
+  - Slabs scale down to **1.05%** for AUM > ₹50,000 Crore.
+  - *Direct Plans:* TER must be lower by the amount of distributor commissions.
+• **SEBI 6-Tier Riskometer:** Every scheme portfolio risk must be evaluated monthly and depicted on a 6-tier pictorial Riskometer:
+  $\text{Low} \longrightarrow \text{Low to Moderate} \longrightarrow \text{Moderate} \longrightarrow \text{Moderately High} \longrightarrow \text{High} \longrightarrow \text{Very High}$
 
 ## 💼 3. Alternate Investment Funds (AIF) Categories (SEBI AIF Regulations 2012)
 
@@ -4002,4 +4018,798 @@ Verbal communication provides the intellectual substance of management, while no
 > 🎯 Exam Angle → 🔥 HIGH: Key statutory authorities, numerical thresholds (before/after caps), and institutional mandates in RBI Grade B (FM) Volume 2: Organisational Communication Descriptive Vault are classic SBI PO Mains & RBI Grade B traps.
 
 ---
-
+
+---
+
+<a id="note-80"></a>
+
+## 80. IIBF IE&IFS Unit 35: Evolution of Indian Economy, Structural Shifts & Post-2008 Resilience
+
+> 🧠 **Key Concept — IIBF Core Foundation: Macroeconomic Evolution**
+> The Indian economy transformed from a colonial agrarian base into a diversified $3.75+ trillion economy. Understanding this structural evolution and countercyclical responses to global shocks is fundamental to macro-banking.
+
+### 🏛️ 1. Historical Epochs of the Indian Economy
+
+| Historical Era | Core Structural Characteristics | Institutional Legacy & Impact |
+| :--- | :--- | :--- |
+| **Pre-British Period** | Self-sufficient village economy; vibrant rural handicrafts, shipbuilding, and textile trade (Dhaka muslin, Calico, Murshidabad silk). | Accounted for ~24-27% of global manufacturing output before colonial disruption. |
+| **Colonial Period (1757–1947)** | De-industrialisation, high tariffs on Indian exports, forced commercialisation of agriculture (Indigo, Opium, Cotton). | **"Drain of Wealth" Theory (Dadabhai Naoroji, 1867)**: Systemic unrequited capital export to Britain; near-zero per capita income growth. |
+| **Post-Independence (1947–1991)** | State-led industrialisation (Mahalanobis heavy industry model), Import Substitution Industrialisation (ISI), License-Permit Raj. | Established robust heavy engineering and educational infrastructure; plagued by the "Hindu rate of growth" (~3.5% per annum). |
+| **Post-1991 Liberalisation** | Abolition of industrial licensing, reduction of peak customs tariffs, financial deregulation, foreign capital entry (FDI/FII). | GDP growth accelerated to 7-9%; transition from agrarian dominance to service-led expansion. |
+
+### 📊 2. The Structural Divergence Paradox
+
+• **GVA Contribution vs. Workforce Deployment:**
+  - **Agriculture (Primary Sector):** Share in total GVA collapsed from **~54% in 1950-51 to ~16-18% today**, yet it still employs **~44-45% of the total workforce**.
+  - **Services (Tertiary Sector):** Share in GVA expanded from **~30% to over 54%**, but employs only **~30-31% of the workforce**.
+  - **The Structural Trap:** India skipped the classical Kuznets transition where surplus farm labour moves primarily into low-skill manufacturing; instead, surplus labour remained stuck in agriculture or shifted into low-productivity informal services.
+
+### ⚡ 3. The 2008 Global Financial Crisis (GFC) & India's Transmission Channels
+
+*The 2008 Lehman Brothers collapse transmitted to India primarily through secondary financial and trade channels:*
+1. **Financial Channel:** Reversal of FII capital flows, stock market crash (Sensex crashed >50%), severe liquidity freeze in domestic call money and commercial paper markets.
+2. **Real Trade Channel:** Steep contraction in external demand from the US and Eurozone leading to a slump in merchandise exports.
+3. **Monetary Easing:** RBI aggressively slashed policy rates (Repo rate reduced from 9.0% to 4.75%; CRR reduced by 400 bps, injecting over ₹4,00,000 Crore into the financial system).
+4. **Fiscal Stimulus:** Central Government announced three successive fiscal stimulus packages (excise duty cuts, expanded public spending, farm debt waiver), causing the Fiscal Deficit to balloon from 2.5% in 2007-08 to over 6.0% of GDP in 2008-09.
+
+### 🛡️ 4. Post-GFC Aftermath: The Twin Balance Sheet Problem & Resolution
+
+• **The Crisis:** Aggressive infrastructure lending during 2008–2012 coupled with regulatory delays led to severe corporate over-leverage and ballooning Non-Performing Assets (NPAs) in Public Sector Banks.
+• **Comprehensive Resolution Suite:**
+  - **Asset Quality Review (AQR, 2015):** RBI mandated realistic reclassification of hidden stressed assets.
+  - **Insolvency and Bankruptcy Code (IBC, 2016):** Shifted power from debtor to creditor; time-bound resolution (330-day statutory cap).
+  - **4R Strategy:** Recognition, Resolution, Recapitalisation, and Reforms (amalgamation of PSBs into 12 large anchor banks).
+
+> 🎯 **Top IIBF Traps for Unit 35:**
+> 1. **Direct Subprime Exposure:** Indian commercial banks had **zero direct exposure** to US subprime toxic mortgage assets due to stringent RBI prudential caps on securitization and credit derivatives.
+> 2. **Kuznets Transition Divergence:** India's industrial manufacturing share in GDP has remained largely stagnant around **15-17%**, rather than expanding to 30-40% as observed in East Asian economies.
+
+---
+
+<a id="note-81"></a>
+
+## 81. IIBF IE&IFS Unit 36: Climate Change, Sustainable Development Goals (SDGs) & Mandatory CSR (Sec 135)
+
+> 🧠 **Key Concept — IIBF Core Foundation: Sustainable ESG Finance**
+> Modern banking integrates Environmental, Social, and Governance (ESG) frameworks with mandatory statutory contributions under the Companies Act, 2013 and global climate pledges.
+
+### 🌿 1. UN Sustainable Development Goals (SDGs) & Indian Framework
+
+• **2030 Agenda:** 17 Goals and 169 Targets adopted by 193 UN member states in September 2015 (effective January 1, 2016).
+• **NITI Aayog SDG India Index:** Classifies Indian States and UTs into 4 benchmark performance tiers:
+  - *Aspirant:* Score 0–49
+  - *Performer:* Score 50–64
+  - *Front Runner:* Score 65–99
+  - *Achiever:* Score 100
+
+### 🌍 2. India's Panchamrit Climate Action Commitments (COP26 Glasgow)
+
+| Commitment Pillar | Target Benchmark | Time Horizon |
+| :--- | :--- | :--- |
+| **Non-Fossil Capacity** | Reach **500 GW** non-fossil energy capacity | By 2030 |
+| **Renewable Energy Share** | Meet **50% of energy requirements** from renewable energy | By 2030 |
+| **Carbon Emissions Reduction** | Reduce total projected carbon emissions by **1 Billion Tonnes** | From 2021 to 2030 |
+| **Carbon Intensity** | Reduce emissions intensity of GDP by **45%** (over 2005 levels) | By 2030 |
+| **Net-Zero Target** | Achieve **Net-Zero Greenhouse Gas Emissions** | By 2070 |
+
+### 📜 3. Mandatory Corporate Social Responsibility (CSR) — Section 135, Companies Act, 2013
+
+Every corporate entity (including private, public, and foreign bank branches in India) meeting **any ONE** of the following financial thresholds in the immediately preceding financial year must comply with Section 135:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       SECTION 135 APPLICABILITY THRESHOLDS                  │
+│                                                                             │
+│  1. NET WORTH        ≥  ₹500 Crore                                         │
+│  2. TURNOVER         ≥  ₹1,000 Crore                                       │
+│  3. NET PROFIT       ≥  ₹5 Crore                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+• **Statutory Spend Requirement:** Minimum **2% of the average net profits** earned during the **three immediately preceding financial years**.
+• **CSR Committee Composition:**
+  - Minimum **3 or more Directors**, including at least **1 Independent Director**.
+  - *Exemption:* If the annual CSR obligation is **₹50 Lakh or less**, the requirement to constitute a CSR Committee is waived; the Board of Directors directly discharges all CSR responsibilities.
+• **Treatment of Unspent CSR Funds:**
+  - *Ongoing Projects:* Unspent amount must be transferred to a special bank account titled **"Unspent Corporate Social Responsibility Account"** within **30 days** of FY end, and spent within **3 financial years**. Any amount remaining unspent after 3 years must be transferred to a Schedule VII Fund (e.g. PM CARES) within 30 days.
+  - *Non-Ongoing Projects:* Must be transferred to a Fund specified in Schedule VII within **6 months** from the expiry of the financial year.
+• **Statutory Penalties for Non-Compliance:**
+  - *Company:* Twice the amount required to be transferred, or **₹1 Crore**, whichever is less.
+  - *Defaulting Officer:* One-tenth of the unspent amount, or **₹2 Lakh**, whichever is less.
+
+> 🎯 **Top IIBF Traps for Unit 36:**
+> 1. **Trigger Criteria:** It is **ANY ONE** of the three criteria (Net Worth ₹500 Cr, Turnover ₹1000 Cr, or Net Profit ₹5 Cr), not all three.
+> 2. **Committee Exemption:** If CSR spending obligation does not exceed **₹50 Lakh**, no separate CSR Committee is required.
+> 3. **Non-Deductibility:** CSR expenditure **CANNOT be claimed as business expenditure** for Income Tax deductions under Section 37(1) of the Income Tax Act.
+
+---
+
+<a id="note-82"></a>
+
+## 82. IIBF IE&IFS Unit 37: Theories of Interest, Keynesian Liquidity Preference & Hicks-Hansen IS-LM Curve
+
+> 🧠 **Key Concept — IIBF Core Foundation: Monetary Dynamics of Interest**
+> Interest rates represent both the cost of borrowing capital and the opportunity cost of holding liquid cash balances. The IS-LM model synthesizes real goods market equilibrium with financial money market equilibrium.
+
+### 🏛️ 1. Classical vs. Keynesian Theories of Interest
+
+| Parameter | Classical Loanable Funds Theory | Keynesian Liquidity Preference Theory |
+| :--- | :--- | :--- |
+| **Nature of Interest** | Purely a **real phenomenon** (reward for abstinence, saving, and waiting). | Purely a **monetary phenomenon** (reward for parting with liquidity for a specified period). |
+| **Determinants** | Real investment demand ($I$) and real savings ($S$). | Demand for Money ($M_d$) and Supply of Money ($M_s$). |
+| **Equilibrium Rule** | Rate of interest adjusts until Savings equals Investment ($S = I$). | Rate adjusts until Money Demand equals Money Supply ($M_d = M_s$). |
+| **Flaw Flagged** | Assumes full employment; ignores bank credit and monetary elasticity. | Indeterminate without knowing the income level ($Y$) to calculate transaction demand. |
+
+### 💰 2. Keynesian Motives for Holding Cash (Demand for Money)
+
+Keynes identified three distinct psychological motives governing liquidity preference:
+1. **Transactions Motive ($L_1$):** Holding cash for day-to-day business transactions. Positively correlated with income ($Y$); interest-inelastic.
+2. **Precautionary Motive ($L_1$):** Holding cash for unforeseen medical or business emergencies. Positively correlated with income ($Y$).
+3. **Speculative Motive ($L_2$):** Holding liquid cash to exploit future market movements in bond prices and interest rates. **Inversely related to interest rate ($r$)**. When interest rates are very high, speculative cash holdings are minimal (bonds are attractive); when interest rates are low, cash demand is high.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              THE LIQUIDITY TRAP                             │
+│                                                                             │
+│  • Occurs at very low interest rates where bond prices are at their maximum. │
+│  • Public expects interest rates to rise and bond prices to fall.           │
+│  • Speculative demand for money becomes PERFECTLY ELASTIC (horizontal).     │
+│  • Injections of money supply are hoarded as cash; monetary policy fails.   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📈 3. Hicks-Hansen Synthesis: The IS-LM Curve Model
+
+*Sir John Hicks and Alvin Hansen unified real and monetary theories into a simultaneous general equilibrium model:*
+
+```
+  Interest (r)
+       ▲             LM (Money Market Equilibrium: L = M)
+       │      \     /
+       │       \   /
+    r* │─────────●  <── General Equilibrium (r*, Y*)
+       │       /   \
+       │      /     \  IS (Goods Market Equilibrium: I = S)
+       └─────┴───────┴────────► National Income (Y)
+                   Y*
+```
+
+• **The IS Curve (Investment-Saving):**
+  - Represents equilibrium in the **Goods Market** where planned Investment equals planned Savings ($I = S$).
+  - **Downward Sloping:** A drop in interest rates lowers borrowing costs $\rightarrow$ stimulates investment $\rightarrow$ increases aggregate output/income ($Y$) via the multiplier.
+• **The LM Curve (Liquidity-Money):**
+  - Represents equilibrium in the **Money Market** where money demand equals money supply ($L = M$).
+  - **Upward Sloping:** An increase in income ($Y$) raises transactions demand for cash $\rightarrow$ pushes interest rates ($r$) up to choke off speculative demand and balance fixed money supply.
+• **Macroeconomic Policy Shifts in IS-LM:**
+  - *Expansionary Fiscal Policy (Higher Govt Spending):* Shifts $IS$ curve to the **right** $\rightarrow$ Increases Income ($Y$) and **Increases Interest Rate ($r$)** (Crowding-out effect).
+  - *Expansionary Monetary Policy (Increased Money Supply):* Shifts $LM$ curve to the **right** $\rightarrow$ Increases Income ($Y$) and **Decreases Interest Rate ($r$)**.
+
+> 🎯 **Top IIBF Traps for Unit 37:**
+> 1. **Slopes:** The IS curve slopes **downward**; the LM curve slopes **upward**.
+> 2. **Liquidity Trap Policy Effectiveness:** In a liquidity trap (horizontal LM curve), **monetary policy is completely ineffective** (zero impact on $r$ or $Y$), while **fiscal policy is at its maximum effectiveness** (zero crowding out).
+
+---
+
+<a id="note-83"></a>
+
+## 83. IIBF IE&IFS Unit 38: Evolutionary Phases of Indian Financial System & Narasimham Committee Reforms
+
+> 🧠 **Key Concept — IIBF Core Foundation: Banking System Evolution**
+> India's financial system evolved from unorganized colonial credit to socialized banking, followed by market-driven deregulation recommended by the landmark Narasimham Committees.
+
+### 🏛️ 1. Three Evolutionary Phases of the Indian Financial System
+
+| Era | Institutional Milestones & Focus | Core Policies & Weaknesses |
+| :--- | :--- | :--- |
+| **Phase I: Pre-1951** | • Imperial Bank of India created in 1921 (merger of 3 Presidency Banks).<br>• RBI enacted under **RBI Act 1934** (operational April 1, 1935); nationalised Jan 1, 1949.<br>• **Banking Regulation Act, 1949** enacted. | Heavily urban-biased, focused on British commercial houses; frequent private bank failures. |
+| **Phase II: 1951–1991 (Social Banking)** | • Imperial Bank converted to State Bank of India (1955).<br>• **1st Nationalisation (July 19, 1969):** 14 major private commercial banks with deposits $\ge$ **₹50 Crore** nationalised.<br>• **2nd Nationalisation (April 15, 1980):** 6 private banks with deposits $\ge$ **₹200 Crore** nationalised.<br>• RRBs established under RRB Act, 1976. | Massive branch expansion in rural areas; severe financial repression, directed subsidized lending, and gross NPAs exceeding 15%. |
+| **Phase III: 1991 Onwards (Reforms)** | • Implementation of Narasimham Committee I (1991) and II (1998) recommendations.<br>• Licensing of new private sector banks (1993: HDFC, ICICI, UTI/Axis).<br>• Asset reconstruction (SARFAESI 2002, IBC 2016) and PSB consolidations. | Shift to prudential capital adequacy, risk-based supervision, market-determined interest rates, and Basel compliance. |
+
+### 📑 2. Landmark Recommendations: Narasimham Committee I (1991)
+
+1. **Reduction of Statutory Pre-emptions:** Phased reduction of Statutory Liquidity Ratio (SLR) from 38.5% towards 25%, and Cash Reserve Ratio (CRR) from 15% towards 3-5%, freeing up bank lendable resources.
+2. **Interest Rate Deregulation:** Phased dismantling of administered lending and deposit interest rates, linking yields to market benchmarks.
+3. **Prudential Accounting Norms:** Introduction of **Capital Adequacy Ratio (CAR)** of 8% (Basel I), standard 90-day delinquency income recognition, and four-tier asset classification (Standard, Sub-standard, Doubtful, Loss).
+4. **Entry of Private & Foreign Banks:** Permitted entry of technology-driven private banks to introduce competition and modern operational standards.
+5. **Dual Regulation Phase-Out:** Ended dual control of the Ministry of Finance over public sector banks, reinforcing the RBI as the sole autonomous regulator.
+
+### 🏛️ 3. Second Generation Reforms: Narasimham Committee II (1998)
+
+• **Higher Capital Adequacy:** Recommended raising CRAR to **9%** (subsequently raised to 11.5% under Basel III with CCB).
+• **Bank Restructuring & Consolidation:** Proposed creating a 3-tier banking structure: 2-3 international anchor banks, 8-10 national commercial banks, and dedicated regional banks.
+• **Asset Reconstruction:** Recommended establishing Asset Reconstruction Companies (ARCs) to take over sticky NPAs from bank balance sheets at discounted values.
+• **Concept of Narrow Banking:** Advised that chronically weak banks unable to recapitalise should restrict their assets to risk-free government securities and fee-based services.
+
+> 🎯 **Top IIBF Traps for Unit 38:**
+> 1. **Nationalisation Thresholds:** 1969 round covered **14 banks with $\ge$ ₹50 Crore deposits**; 1980 round covered **6 banks with $\ge$ ₹200 Crore deposits**.
+> 2. **Imperial Bank Transformation:** State Bank of India was formed on **July 1, 1955** under the SBI Act 1955, following the recommendations of the **All India Rural Credit Survey Committee (A.D. Gorwala Committee)**.
+
+---
+
+<a id="note-84"></a>
+
+## 84. IIBF IE&IFS Unit 39: Micro Finance Institutions (MFIs), SBLP, JLGs & RBI 2022 Regulatory Directions
+
+> 🧠 **Key Concept — IIBF Core Foundation: Microfinance Architecture**
+> Microfinance delivers collateral-free micro-credit, savings, and micro-insurance to low-income households. The unified 2022 RBI regulatory framework revolutionized micro-lending across all regulated lenders.
+
+### 🤝 1. Delivery Models in Indian Microfinance
+
+• **Self-Help Group – Bank Linkage Programme (SBLP):**
+  - Pioneered by **NABARD in 1992** based on the recommendations of the S.K. Kalia Committee.
+  - A homogeneous group of **10 to 20 rural individuals** (primarily women) pooling periodic small savings into a common fund.
+  - After 6 months of successful internal lending, commercial banks extend collateral-free credit linked to savings (initially 1:1, scaling up to 1:4 or higher).
+• **Joint Liability Groups (JLGs):**
+  - An informal group of **4 to 10 individuals** coming together to borrow funds from banks or MFIs under mutual guarantee without requiring prior joint savings.
+
+### ⚖️ 2. RBI Harmonized Regulatory Framework for Microfinance Loans (Effective April 1, 2022)
+
+*This framework replaced all previous entity-specific guidelines with an activity-based harmonized regulation across ALL Regulated Entities (Commercial Banks, SFBs, RRBs, Co-op Banks, NBFCs, NBFC-MFIs):*
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 CORE MANDATES OF THE 2022 RBI MICROFINANCE RULES            │
+│                                                                             │
+│  1. HOUSEHOLD INCOME CEILING  :  ₹3,00,000 per annum (Urban & Rural)        │
+│  2. COLLATERAL REQUIREMENT    :  STRICTLY COLLATERAL-FREE (Zero security)    │
+│  3. DEBT-SERVICE OUTFLOW CAP  :  MAXIMUM 50% of monthly household income    │
+│  4. PREPAYMENT PENALTY        :  STRICTLY ZERO (Foreclosure fees banned)     │
+│  5. NBFC-MFI QUALIFYING ASSETS:  Minimum 75% of total assets (down from 85%)│
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+• **Assessment of Household Income:** A "Household" is defined as an individual unit comprising husband, wife, and their unmarried children. Lenders must conduct a verified board-approved income assessment.
+• **Limit on Outflow (Debt Servicing Burden):** Regulated entities cannot sanction a microfinance loan if the total monthly debt repayment (principal + interest across all existing loans) exceeds **50% of total monthly household income**.
+• **Pricing of Credit:** RBI dismantled the previously prescribed interest rate caps and margin caps for NBFC-MFIs. Interest rates must be determined by a board-approved policy with a transparent component breakdown disclosed in the **Key Fact Statement (KFS)**.
+
+> 🎯 **Top IIBF Traps for Unit 39:**
+> 1. **Household Income Ceiling:** It is a uniform **₹3,00,000 per annum** for both rural and urban/semi-urban households.
+> 2. **Prepayment Penalty:** Charging prepayment penalties or foreclosure charges on microfinance loans is **strictly illegal (0%)**, regardless of interest rate regime.
+> 3. **Qualifying Asset Percentage for NBFC-MFIs:** Reduced from 85% to **75% of total assets**.
+
+---
+
+<a id="note-85"></a>
+
+## 85. IIBF IE&IFS Unit 40: Venture Capital Financing, Investment Stages & SEBI AIF Architecture
+
+> 🧠 **Key Concept — IIBF Core Foundation: Private Capital & Start-up Financing**
+> Venture Capital (VC) provides equity financing and managerial mentoring to innovative high-risk start-ups. In India, VC funds operate under the regulatory umbrella of Alternative Investment Funds (AIFs) governed by SEBI.
+
+### 🚀 1. The Five Sequential Stages of Venture Capital Financing
+
+```
+  Idea / Prototype ──► Early Product ──► Commercial Traction ──► Scaling & M&A ──► Pre-IPO Capital
+    [Seed Stage]       [Start-up]         [Second Stage]        [Expansion]       [Mezzanine / Bridge]
+```
+
+1. **Seed Capital / Early Stage:** Funding for proof-of-concept, initial R&D, and patent filing. Highest risk, provided by Angel investors and incubators.
+2. **Start-up Stage:** Financing for prototype manufacturing, testing, and assembling the core management team.
+3. **Second Stage (Series A / B):** Capital for working capital, setting up full-scale production, and market entry before breaking even.
+4. **Third Stage / Expansion (Series C / D):** Scaling sales channels, geographical expansion, product diversification, and major market penetration.
+5. **Bridge / Mezzanine Financing:** Short-to-medium term debt-equity hybrid financing deployed 6 to 12 months prior to an Initial Public Offering (IPO) to facilitate a smooth public listing.
+
+### 🏛️ 2. SEBI (Alternative Investment Funds) Regulations, 2012
+
+*AIFs pool capital from sophisticated domestic and foreign investors to invest in accordance with defined investment policies:*
+
+| AIF Category | Eligible Fund Sub-Types | Regulatory Constraints & Tax Status |
+| :--- | :--- | :--- |
+| **Category I AIF** | • Venture Capital Funds (VCF)<br>• Angel Funds<br>• SME Funds<br>• Social Impact Funds<br>• Infrastructure Funds | • Invests in early-stage, start-ups, and socially beneficial projects.<br>• **Tax pass-through status** under Section 115UB of Income Tax Act.<br>• Minimum corpus: ₹20 Cr (₹5 Cr for Angel Funds). |
+| **Category II AIF** | • Private Equity (PE) Funds<br>• Debt Funds<br>• Real Estate Funds<br>• Funds for Distressed Assets | • Invests in unlisted equity or debt.<br>• **Cannot undertake leverage** except to meet day-to-day operational needs (max 30 days, 4 times/yr, 10% of corpus).<br>• Tax pass-through status. |
+| **Category III AIF** | • Hedge Funds<br>• Long-Short Funds<br>• Complex Derivative Strategy Funds | • Employs diverse or complex trading strategies.<br>• **Permitted to deploy leverage and short positions** in listed/unlisted derivatives.<br>• Taxed at maximum marginal rate (MMR) at the fund level. |
+
+• **Minimum Ticket Size:** Minimum investment per investor is **₹1 Crore** (reduced to **₹25 Lakh** for Angel Funds and for accredited employees/directors of the AMC).
+• **Investor Ceiling:** Maximum number of investors per scheme is **1,000** (capped at **200** for Angel Funds).
+
+### 🚪 3. Primary Exit Routes for Venture Capitalists
+
+1. **Initial Public Offering (IPO):** Highest returns; shares offloaded via Offer for Sale (OFS) on stock exchanges.
+2. **Trade Sale:** Selling the entire company/stake to a large industrial or multinational competitor.
+3. **Secondary Sale:** Offloading the holding to a larger Private Equity fund or late-stage venture investor.
+4. **Promoter Buyback:** Promoters repurchase the VC's equity stake at an agreed valuation formula.
+
+> 🎯 **Top IIBF Traps for Unit 40:**
+> 1. **AIF Leverage Limits:** Leverage is **strictly prohibited in Category I and Category II AIFs**; it is permitted **only in Category III AIFs**.
+> 2. **Minimum Investment:** General AIF minimum ticket size is **₹1 Crore**; Angel fund minimum ticket is **₹25 Lakh**.
+
+---
+
+<a id="note-86"></a>
+
+## 86. IIBF IE&IFS Unit 41: Lease Finance, Accounting Standards (Ind AS 116) & Hire Purchase Mechanics
+
+> 🧠 **Key Concept — IIBF Core Foundation: Asset Financing Structures**
+> Equipment leasing and hire purchase enable industrial borrowers to acquire plant, machinery, and commercial vehicles without heavy upfront capital expenditure.
+
+### 🏭 1. Types of Lease Financing
+
+• **Financial Lease (Capital Lease):**
+  - A long-term, non-cancellable contract where substantially **all risks and rewards incidental to ownership are transferred to the Lessee**.
+  - *Full Payout Lease:* The sum of lease rentals over the primary lease period fully amortizes the purchase cost of the asset plus financing return.
+  - Maintenance, insurance, and obsolescence risks are borne by the **Lessee**.
+• **Operating Lease:**
+  - A short-term, cancellable lease where risks and rewards of ownership **remain with the Lessor**.
+  - The lease tenure is significantly shorter than the economic life of the asset (e.g. chartering aircraft, leasing computers or medical devices).
+  - Maintenance and servicing are normally borne by the **Lessor**.
+• **Leveraged Lease:**
+  - A tripartite financing arrangement involving:
+    1. *Lessor (Owner/Equity Participant)*: Contributes 20–40% equity.
+    2. *Lessee (User)*: Operates the asset.
+    3. *Long-term Lenders (Banks/FIs)*: Fund 60–80% of asset cost on a non-recourse basis secured by a mortgage on the asset and assignment of lease rentals.
+• **Sale and Leaseback:**
+  - A company sells its existing owned operational asset to a leasing company for immediate cash and instantly leases it back to retain uninterrupted operational control while freeing up locked working capital.
+
+### ⚖️ 2. Comprehensive Comparison: Lease Financing vs. Hire Purchase
+
+| Parameter | Lease Financing | Hire Purchase |
+| :--- | :--- | :--- |
+| **Governing Statute** | Indian Contract Act, 1872 / Transfer of Property Act | Hire Purchase Act, 1972 / Sale of Goods Act, 1930 |
+| **Ownership of Asset** | Remains with the **Lessor throughout** and after expiry. | Passes to the **Hirer upon full payment of the last installment**. |
+| **Depreciation Claim** | Claimed by the **Lessor** in the books. | Claimed by the **Hirer** from the first year itself. |
+| **Income Tax Treatment** | Entire lease rental is **100% tax-deductible** as revenue expenditure for the lessee. | Only the **finance charges (interest component)** are tax-deductible; principal is capital outlay. |
+| **Initial Down Payment** | Typically **Zero or nominal security deposit**. | Requires substantial upfront margin/down payment (15% to 25%). |
+| **Termination Rights** | Financial lease is strictly non-cancellable. | Hirer can terminate before maturity by returning the asset. |
+
+### 📑 3. Modern Accounting Treatment: Ind AS 116 (Leases)
+
+• **Single Lessee Accounting Model:** Replaced Ind AS 17 (and AS 19). Eliminates the distinction between operating and finance leases for the **Lessee**.
+• **On-Balance Sheet Recognition:** Lessees must capitalize virtually all leases on their balance sheet by recognizing:
+  1. **Right-of-Use (ROU) Asset:** Depreciated over the lease term on a straight-line basis.
+  2. **Lease Liability:** Present value of unpaid lease payments discounted at the incremental borrowing rate, amortized with interest expense.
+
+> 🎯 **Top IIBF Traps for Unit 41:**
+> 1. **Ownership Transfer in HP:** Ownership does **NOT** transfer on contract signing or down payment; it transfers **only when the last hire installment is fully cleared**.
+> 2. **Tax Deductibility of Rentals:** In lease financing, **100% of lease rental payments** are allowed as a deductible business expense, providing a significant tax shield for profit-making corporations.
+
+---
+
+<a id="note-87"></a>
+
+## 87. IIBF IE&IFS Unit 42: Credit Rating Agencies (CRAs) vs. Credit Information Companies (CICs & Credit Scores)
+
+> 🧠 **Key Concept — IIBF Core Foundation: Credit Risk Assessment**
+> Financial institutions rely on Credit Rating Agencies for debt instrument safety and Credit Information Companies for evaluating retail borrower creditworthiness.
+
+### 🏛️ 1. Credit Rating Agencies (CRAs) — Regulated by SEBI
+
+• **Statutory Framework:** Governed by the **SEBI (Credit Rating Agencies) Regulations, 1999**.
+• **Major Indian CRAs:** CRISIL (Credit Rating Information Services of India Ltd, 1987 — first CRA in India), ICRA (1991), CARE Ratings (1993), India Ratings and Research (Fitch group), Infomerics, and Acuité Ratings.
+• **Scope:** Rate specific debt instruments (Bonds, Debentures, Commercial Paper, Fixed Deposits) and structured finance products.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      LONG-TERM DEBT RATING SCALE CODES                      │
+│                                                                             │
+│  • AAA   : Highest Safety (Lowest credit risk)                              │
+│  • AA    : High Safety                                                      │
+│  • A     : Adequate Safety                                                  │
+│  • BBB   : Moderate Safety (LOWEST INVESTMENT GRADE BENCHMARK)             │
+│  ═════════════════════════════════════════════════════════════════════════  │
+│  • BB    : Moderate Risk (SPECULATIVE / JUNK GRADE THRESHOLD)               │
+│  • B     : High Risk                                                        │
+│  • C     : Very High Risk                                                   │
+│  • D     : In Default or expected to default soon                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 👤 2. Credit Information Companies (CICs) — Regulated by RBI
+
+• **Statutory Framework:** Governed by the **Credit Information Companies (Regulation) Act, 2005 (CICRA 2005)** and RBI guidelines.
+• **4 Authorized Operating CICs in India:**
+  1. TransUnion CIBIL
+  2. Equifax Credit Information Services
+  3. Experian Credit Information Company of India
+  4. CRIF High Mark Credit Information Services
+• **Core Mandate:** Aggregate borrower credit history from banks and NBFCs, and generate individual Credit Information Reports (CIR) and numeric Credit Scores.
+• **Numeric Score Spectrum:** Ranges strictly between **300 and 900**.
+  - **750 to 900:** Excellent credit profile; qualifies for prime borrower interest rate concessions.
+  - **700 to 749:** Good credit profile.
+  - **650 to 699:** Average / Moderate risk.
+  - **Below 650:** Subprime / High risk of delinquency.
+• **Statutory Consumer Rights under RBI Mandates:**
+  - Every individual is legally entitled to **one Full Credit Report (FCR) free of cost once every calendar year** from each of the 4 CICs.
+  - Member banks must update credit records with CICs on a **fortnightly / monthly basis** (effective 2024: fortnightly reporting).
+
+### ⚖️ 3. Fundamental Distinctions: Rating vs. Scoring
+
+| Parameter | Credit Rating Agencies (CRAs) | Credit Information Companies (CICs) |
+| :--- | :--- | :--- |
+| **Statutory Regulator** | **SEBI** (Securities and Exchange Board of India) | **RBI** (Reserve Bank of India under CICRA 2005) |
+| **Target Subject** | Debt securities, commercial paper, corporate entities | Individual retail borrowers and micro/small enterprises |
+| **Output Metric** | Qualitative Alphabetical Symbols (`AAA`, `AA`, `BBB-`, `A1+`) | Quantitative 3-Digit Numeric Score (300 to 900) |
+| **Evaluation Base** | Macro industry risk, management quality, financial ratios | Historical debt repayment discipline, credit utilization ratio, defaults |
+| **Mandatory Rating Requirement** | Mandatory for public issuance of debt securities, CP, CDs | Mandatory for sanctioning retail advances and credit cards |
+
+> 🎯 **Top IIBF Traps for Unit 42:**
+> 1. **Regulatory Split:** CRAs are regulated by **SEBI**; CICs are regulated by the **RBI**.
+> 2. **Lowest Investment Grade:** **`BBB-`** is the lowest investment-grade rating; **`BB+`** is the beginning of speculative/junk status.
+> 3. **Free Credit Report:** All citizens are entitled to **1 free report per year from each of the 4 CICs**.
+
+---
+
+<a id="note-88"></a>
+
+## 88. IIBF IE&IFS Unit 43: RBI Master Directions on Para-Banking & Ancillary Financial Services
+
+> 🧠 **Key Concept — IIBF Core Foundation: Para-Banking & Non-Core Lines**
+> Para-banking refers to non-traditional financial services (bancassurance, mutual fund distribution, PMS, credit cards) undertaken by commercial banks under strict RBI prudential safeguards.
+
+### 🏛️ 1. Permitted Para-Banking Activities & Statutory Norms
+
+• **Bancassurance (Insurance Business):**
+  - Commercial banks may undertake insurance distribution purely on a **fee-basis as a Corporate Agent** without taking any financial risk under IRDAI (Registration of Corporate Agents) Regulations.
+  - **Open Architecture Norms:** A bank acting as a corporate agent can tie up with up to **9 insurance companies**:
+    - Up to **3 Life Insurance** companies.
+    - Up to **3 General Insurance** companies.
+    - Up to **3 Standalone Health Insurance** companies.
+  - *Strict Prohibition on Coercion:* Banks are strictly forbidden from compelling any loan borrower to purchase an insurance policy from their corporate tie-up partner as a condition for loan sanction.
+• **Mutual Fund (MF) Distribution:**
+  - Banks can distribute mutual fund units on an agency basis without prior RBI approval.
+  - *Firewalls:* Services must be purely agency-based; banks cannot guarantee returns, NAV, or invest depositor funds into associated mutual funds.
+• **Portfolio Management Services (PMS):**
+  - Regulated under SEBI (Portfolio Managers) Regulations, 2020.
+  - Commercial banks **CANNOT offer Portfolio Management Services departmentally**. PMS can only be provided through a dedicated subsidiary with prior RBI approval.
+• **Credit Card Business:**
+  - Scheduled Commercial Banks with a **Net Worth of at least ₹100 Crore** can undertake standalone credit card business independently or in tie-up with card-issuing banks without prior RBI approval.
+• **Primary Dealership (PD) Business:**
+  - Eligible commercial banks can undertake departmental Primary Dealership in G-Secs with RBI approval if they satisfy:
+    1. Minimum Net Worth $\ge$ **₹1,000 Crore**.
+    2. Minimum CRAR $\ge$ **12.0%**.
+    3. Net NPAs not exceeding **3.0%**.
+    4. Demonstrated record of net profit over the last 3 consecutive financial years.
+
+### 🛡️ 2. Prudential Caps on Bank Equity Investments in Subsidiaries & Financial Ventures
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    PRUDENTIAL LIMITS ON BANK INVESTMENTS                    │
+│                                                                             │
+│  • In a Single Financial Services Subsidiary/JV:                            │
+│    Max 10% of Bank's Paid-Up Capital and Reserves                           │
+│                                                                             │
+│  • Aggregate in ALL Subsidiaries, JVs & Financial Ventures:                 │
+│    Max 20% of Bank's Paid-Up Capital and Reserves                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+• **Mandatory Disclosure in Annual Accounts:**
+  - Banks must disclose in the **"Notes to Accounts"** of their annual balance sheet all commissions, fees, and brokerages received from bancassurance, mutual fund distribution, and marketing third-party financial products.
+
+> 🎯 **Top IIBF Traps for Unit 43:**
+> 1. **Bancassurance Open Architecture Limits:** Maximum **3 Life + 3 General + 3 Health** insurance companies under corporate agency.
+> 2. **Credit Card Net Worth Threshold:** Minimum **₹100 Crore** net worth is mandatory for commercial banks to issue credit cards.
+> 3. **Single Subsidiary Investment Cap:** A bank cannot invest more than **10% of its paid-up capital and reserves** in any single financial services subsidiary or joint venture.
+
+---
+
+---
+
+<a id="note-89"></a>
+
+## 89. IIBF AFMB Unit 11: Preparation of Final Accounts of Banks (Third Schedule, BR Act 1949)
+
+> 🧠 **Key Concept — IIBF Core Foundation: Statutory Bank Balance Sheet & P&L**
+> Under Section 29 of the Banking Regulation Act, 1949, commercial banks must prepare their final accounts strictly in accordance with the 16 statutory schedules of Form A (Balance Sheet) and Form B (Profit & Loss) prescribed in the Third Schedule.
+
+### 🏛️ 1. Form A: Balance Sheet Architecture (Schedules 1 to 12)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 FORM A: BALANCE SHEET STATUTORY SCHEDULES                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ CAPITAL & LIABILITIES:                                                      │
+│   • Schedule 1  : Capital (Authorised, Issued, Subscribed, Paid-Up)         │
+│   • Schedule 2  : Reserves & Surplus (Statutory, Capital, Share Premium)    │
+│   • Schedule 3  : Deposits (Demand, Savings Bank, Term Deposits)            │
+│   • Schedule 4  : Borrowings (In India from RBI/Banks, Outside India)       │
+│   • Schedule 5  : Other Liabilities & Provisions (Bills Payable, Accrued)   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ASSETS:                                                                     │
+│   • Schedule 6  : Cash and Balances with Reserve Bank of India              │
+│   • Schedule 7  : Balances with Banks & Money at Call and Short Notice      │
+│   • Schedule 8  : Investments (G-Secs, Shares, Bonds, Subsidiaries)         │
+│   • Schedule 9  : Advances (Bills Discounted, Cash Credits, Term Loans)     │
+│   • Schedule 10 : Fixed Assets (Premises, Furniture & Fixtures)             │
+│   • Schedule 11 : Other Assets (Inter-office adjustments, Non-banking assets)│
+├─────────────────────────────────────────────────────────────────────────────┤
+│ OFF-BALANCE SHEET FOOTNOTE:                                                 │
+│   • Schedule 12 : Contingent Liabilities (Letters of Credit, Bank Guarantees)│
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📈 2. Form B: Profit & Loss Account Architecture (Schedules 13 to 16)
+
+| Section | Schedule Code & Name | Sub-Components Included |
+| :--- | :--- | :--- |
+| **I. Income** | **Schedule 13: Interest Earned** | • Interest/discount on advances and bills.<br>• Income on investments.<br>• Interest on balances with RBI and inter-bank funds. |
+| | **Schedule 14: Other Income** | • Commission, exchange, and brokerage fees.<br>• Net profit on sale of investments.<br>• Net profit on exchange transactions.<br>• Dividends from subsidiaries. |
+| **II. Expenditure** | **Schedule 15: Interest Expended** | • Interest paid on deposits (Savings, Term deposits).<br>• Interest on RBI and inter-bank borrowings. |
+| | **Schedule 16: Operating Expenses** | • Employee salaries, provisions, and allowances.<br>• Rent, taxes, lighting, printing, stationery.<br>• Depreciation on bank premises and assets.<br>• Director fees, auditor fees, legal charges. |
+| | *Provisions & Contingencies* | *(Direct Line in P&L, Not a Schedule)*: NPA provisions, standard asset provisioning, income tax provision. |
+
+### ⚖️ 3. Critical Statutory Reserve & Disclosure Rules
+
+• **Mandatory Transfer to Statutory Reserve (Section 17):** Every banking company must transfer **at least 20% of its net profit** (RBI recommends and enforces **25%** for commercial banks) each year before declaring any dividend.
+• **Non-Banking Assets Acquired in Satisfaction of Claims (Section 9):** Real estate or physical goods taken over from defaulted borrowers must be shown under **Schedule 11 (Other Assets)** and legally disposed of within **7 years** (RBI can extend up to an additional 5 years).
+• **Bills for Collection:** Cheques and bills received for collection are **NOT entered into the Balance Sheet balance**; they are disclosed purely as an informational footnote below Schedule 12.
+
+> 🎯 **Top IIBF Traps for Unit 11:**
+> 1. **LCs and Guarantees:** Appear in **Schedule 12 (Contingent Liabilities)**, outside the balance sheet total.
+> 2. **Bills Payable:** Falls under **Schedule 5 (Other Liabilities and Provisions)**; Bills Purchased/Discounted fall under **Schedule 9 (Advances)**.
+> 3. **Statutory Reserve Transfer:** Minimum statutory requirement is **20% under Sec 17(1) BR Act**, while the operational RBI benchmark is **25%**.
+
+---
+
+<a id="note-90"></a>
+
+## 90. IIBF AFMB Unit 12: Foreign Exchange Arithmetic & Quotation Mechanics
+
+> 🧠 **Key Concept — IIBF Core Foundation: Forex Rates & Merchant Pricing**
+> Foreign exchange transactions involve buying and selling one national currency against another. Understanding direct quotation, two-way pricing, bid-ask spreads, and cross rates is mandatory for banking treasury operations.
+
+### 🌐 1. Quotation Systems: Direct vs. Indirect Quotes
+
+• **Direct Quotation (Home Currency Price of Foreign Unit):**
+  - Expresses fixed 1 unit of foreign currency in variable units of domestic currency (e.g. `1 USD = INR 84.50`).
+  - *Indian Market Practice:* Effective **August 2, 1993**, India shifted from indirect to **Direct Quotation** for all merchant and interbank dealings.
+  - *Trading Golden Rule:* **Buy Low, Sell High** (Bank buys foreign currency cheaper and sells it at a higher rate).
+• **Indirect Quotation (Foreign Currency Price of Domestic Unit):**
+  - Expresses fixed units of home currency in variable units of foreign currency (e.g. `INR 100 = USD 1.18`).
+  - *Trading Golden Rule:* **Buy High, Sell Low**.
+
+### 🧮 2. Bid-Ask Spread & Two-Way Quotations
+
+Banks quote two rates simultaneously:
+$$\text{USD / INR} = 84.20 / 84.30$$
+• **Bid Rate (Buying Rate):** ₹84.20 (Rate at which the bank buys foreign currency).
+• **Ask Rate (Offer / Selling Rate):** ₹84.30 (Rate at which the bank sells foreign currency).
+• **Spread Formula:**
+  $$\text{Bid-Ask Spread} = \text{Ask Rate} - \text{Bid Rate} = 84.30 - 84.20 = \text{₹}0.10$$
+  $$\text{Spread Percentage} = \frac{\text{Ask Rate} - \text{Bid Rate}}{\text{Ask Rate}} \times 100$$
+
+### 🔗 3. Cross Rate Calculation (Chain Rule)
+
+*When a direct rate between two currencies is not quoted in the local interbank market, the rate is derived through a vehicle currency (usually USD):*
+
+$$\text{EUR / INR} = (\text{USD / INR}) \times (\text{EUR / USD})$$
+*Example:* If $\text{USD / INR} = 84.00$ and $\text{EUR / USD} = 1.08$:
+$$\text{EUR / INR} = 84.00 \times 1.08 = \text{₹}90.72$$
+
+### 📅 4. Forward Rates & Forward Margin Rules
+
+$$\text{Forward Rate} = \text{Spot Rate} \pm \text{Forward Margin (Premium or Discount)}$$
+
+| Forward Margin Pattern | Market State | Operational Rule in Direct Quotation |
+| :--- | :--- | :--- |
+| **Ascending Order** (e.g. `0.20 / 0.30`) | **Foreign Currency at Premium** | **ADD** margins to Spot Bid and Spot Ask. |
+| **Descending Order** (e.g. `0.35 / 0.25`) | **Foreign Currency at Discount** | **SUBTRACT** margins from Spot Bid and Spot Ask. |
+
+• **Merchant Card Rates Classification:**
+  1. *TT Buying Rate:* Inward telegraphic remittances where funds are already credited to bank's Nostro account.
+  2. *Bills Buying Rate:* Purchase/discount of foreign export documentary bills (involves transit interest + credit risk).
+  3. *TT Selling Rate:* Outward clean remittances, issue of foreign demand drafts.
+  4. *Bills Selling Rate:* Payment of foreign import bills.
+
+> 🎯 **Top IIBF Traps for Unit 12:**
+> 1. **Forward Rule:** In direct quote: **Ascending points = Premium (ADD)**; **Descending points = Discount (SUBTRACT)**.
+> 2. **Bank Principle:** In buying foreign currency, the bank quotes the lower rate (gives fewer Rupees); in selling, the bank quotes the higher rate (takes more Rupees).
+
+---
+
+<a id="note-91"></a>
+
+## 91. IIBF AFMB Unit 13: Capital Structure, Cost of Capital (WACC) & Leverage Mathematics
+
+> 🧠 **Key Concept — IIBF Core Foundation: Financial Structuring & Leverage**
+> Corporate finance evaluates the cost of debt versus equity and measures the risk magnification generated by fixed operating costs and financial obligations.
+
+### 💰 1. Component Cost of Capital & WACC
+
+• **Cost of Debt ($K_d$):**
+  Interest payments on debt are tax-deductible, creating an effective corporate tax shield:
+  $$K_d = I \times (1 - t)$$
+  *(where $I$ = Interest rate on debt, $t$ = Corporate income tax rate)*.
+• **Cost of Equity ($K_e$ via Capital Asset Pricing Model — CAPM):**
+  $$K_e = R_f + \beta \times (R_m - R_f)$$
+  *(where $R_f$ = Risk-free rate, $\beta$ = Beta coefficient of systematic risk, $R_m$ = Expected return of market portfolio, $(R_m - R_f)$ = Equity risk premium)*.
+• **Weighted Average Cost of Capital (WACC / $K_o$):**
+  $$\text{WACC} = \left(W_d \times K_d\right) + \left(W_e \times K_e\right) + \left(W_p \times K_p\right)$$
+  *(where $W$ represents the proportion of each financing component in the capital structure)*.
+
+### ⚙️ 2. The Three Dimensions of Leverage
+
+```
+  Sales Revenue ──(less Variable Costs)──► Contribution
+         │
+         ├── [Operating Leverage: Fixed Operating Costs]
+         ▼
+  EBIT (Earnings Before Interest & Taxes)
+         │
+         ├── [Financial Leverage: Fixed Financial Interest Charges]
+         ▼
+  EBT (Earnings Before Taxes) ──► Net Income ──► Earnings Per Share (EPS)
+```
+
+| Leverage Type | Mathematical Formula | Measures & Signifies |
+| :--- | :--- | :--- |
+| **Operating Leverage (OL)** | $$\text{OL} = \frac{\text{Contribution}}{\text{EBIT}}$$ | **Business Risk**: Magnification of EBIT resulting from changes in sales volume due to fixed operating costs. |
+| **Financial Leverage (FL)** | $$\text{FL} = \frac{\text{EBIT}}{\text{EBT}} = \frac{\text{EBIT}}{\text{EBIT} - \text{Interest}}$$ | **Financial Risk**: Magnification of EPS resulting from changes in operating profit due to fixed debt interest charges. |
+| **Combined Leverage (CL)** | $$\text{CL} = \text{OL} \times \text{FL} = \frac{\text{Contribution}}{\text{EBT}}$$ | **Total Risk**: Total percentage change in EPS for a given percentage change in sales revenue. |
+
+> 🎯 **Top IIBF Traps for Unit 13:**
+> 1. **Tax Shield on Dividends:** Interest on debt is **tax-deductible**; dividend payments on equity and preference shares are **NOT tax-deductible**.
+> 2. **Zero Leverage Threshold:** If a firm has zero fixed operating costs, its **Operating Leverage is 1.0** (not 0). If a firm has no debt interest, its **Financial Leverage is 1.0**.
+
+---
+
+<a id="note-92"></a>
+
+## 92. IIBF PPB Unit 19: Negotiable Instruments Act 1881 — Cheque Protections, Forgery & Sec 138 Dishonour
+
+> 🧠 **Key Concept — IIBF Core Foundation: Cheque Operations & Legal Protections**
+> The Negotiable Instruments Act, 1881 balances the operational speed of the banking clearing system with statutory protections for paying and collecting bankers against forged instruments.
+
+### 🛡️ 1. Statutory Protections to Paying Banker
+
+• **Section 85(1) (Order Cheque):** Where an order cheque purports to be endorsed by or on behalf of the payee, the paying banker is discharged by **Payment in Due Course**, even if an endorsement turns out to be forged.
+• **Section 85(2) (Bearer Cheque):** A cheque originally drawn as a bearer cheque remains payable to bearer regardless of any subsequent endorsements (*"Once a bearer, always a bearer"*). Paying banker is discharged if paid to the bearer in due course.
+• **Section 85A (Bank Drafts):** Draft drawn by one branch of a bank upon another branch; paying branch is fully protected if paid in due course despite forged endorsements.
+• **Section 128 (Crossed Cheques):** Paying banker is discharged if payment of a crossed cheque is made in good faith and without negligence to a banker (in general crossing) or to the specified banker (in special crossing).
+
+### ✍️ 2. The Absolute Rule on Forged Drawer Signature
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 FORGED ENDORSEMENT vs. FORGED DRAWER SIGNATURE              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 1. FORGED ENDORSEMENT (Sec 85) : Bank IS PROTECTED if paid in due course.   │
+│ 2. FORGED DRAWER SIGNATURE    : Bank IS NOT PROTECTED. Payment is a NULLITY.│
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+• *Legal Reality:* A forged signature of the drawer is completely void (*nullity*). There is no mandate from the customer. The paying banker cannot debit the customer's account, even if the forgery was executed with extreme skill (*Bihta Cooperative Bank vs. Bank of Bihar*).
+
+### 📥 3. Statutory Protection to Collecting Banker (Section 131)
+
+A collecting banker who receives payment of a crossed cheque for a customer incurs no liability to the true owner in case of title defect, provided:
+1. The cheque was **crossed before it came into the bank's hands**.
+2. The bank collected the cheque **in good faith and without negligence** (proper KYC, verification of apparent alterations).
+3. The bank acted purely as an **agent for collection on behalf of a customer** (not as a holder for value).
+
+### ⚖️ 4. Criminal Dishonour of Cheques: Section 138 of NI Act
+
+*Dishonour of a cheque due to insufficiency of funds is a criminal offense punishable with imprisonment up to 2 years, fine up to twice the cheque amount, or both:*
+
+```
+  Cheque Presented (Within 3 Months) ──► Returned Dishonoured (Memo Received)
+                                                      │
+         ┌────────────────────────────────────────────┘
+         ▼ (Within 30 Days)
+  Demand Notice Issued to Drawer in Writing
+         │
+         ▼ (Wait 15 Days for Drawer to Pay)
+  Drawer Fails to Clear Dues within 15 Days
+         │
+         ▼ (Within 1 Month)
+  Criminal Complaint Filed before Judicial / Metropolitan Magistrate
+```
+
+> 🎯 **Top IIBF Traps for Unit 19:**
+> 1. **Protection Condition for Collecting Banker:** Protection under Section 131 is available **ONLY if the cheque was crossed prior to deposit**. If an uncrossed cheque is crossed by the bank, Section 131 protection is forfeited.
+> 2. **Section 138 Timelines:** Demand notice must be issued within **30 days** of dishonour; drawer is granted **15 days** to pay; complaint must be filed within **1 month** thereafter.
+
+---
+
+<a id="note-93"></a>
+
+## 93. IIBF PPB Unit 20: Credit Appraisal Mathematics & Failed Electronic Transaction TAT Rules
+
+> 🧠 **Key Concept — IIBF Core Foundation: Working Capital Assessment & TAT Redressal**
+> Commercial credit appraisal determines working capital limits using standardized regulatory methods, while electronic banking enforces statutory compensation for failed payment turnaround times.
+
+### 🏭 1. Working Capital Assessment Methodologies
+
+#### A. Turnover Method (Nayak Committee Recommendations for MSMEs)
+• *Applicability:* For working capital loan limits up to **₹5 Crore** for MSMEs and small businesses.
+• **Total Working Capital Requirement:** Estimated at **25% of projected annual turnover**.
+• **Promoter Margin (Borrower Contribution):** Minimum **5% of projected turnover**.
+• **Maximum Bank Finance:** **20% of projected turnover**.
+
+$$\text{Bank Working Capital Limit} = \text{Projected Annual Turnover} \times 20\%$$
+
+#### B. Tandon Committee: Maximum Permissible Bank Finance (MPBF)
+*Working Capital Gap (WCG) = Current Assets (CA) - Current Liabilities other than Bank Borrowings (CL)*
+
+| Method | Bank Finance Share | Borrower Long-Term Margin Share | Minimum Current Ratio Benchmark |
+| :--- | :--- | :--- | :--- |
+| **Method 1** | $$\text{MPBF}_1 = 0.75 \times (\text{CA} - \text{CL})$$ | 25% of Working Capital Gap (WCG) | **1.17 : 1** |
+| **Method 2** | $$\text{MPBF}_2 = (0.75 \times \text{CA}) - \text{CL}$$ | 25% of total Current Assets (CA) | **1.33 : 1** |
+
+### 📈 2. Term Loan Viability: Debt Service Coverage Ratio (DSCR)
+
+$$\text{DSCR} = \frac{\text{Net Profit After Tax} + \text{Depreciation} + \text{Annual Term Loan Interest}}{\text{Annual Principal Installment} + \text{Annual Term Loan Interest}}$$
+• **Ideal Industry Benchmark:** Between **1.5 : 1 and 2.0 : 1**.
+• **Minimum Acceptable Ratio:** **1.25 : 1**. A DSCR below 1.0 indicates that company cash flows are insufficient to service debt without external infusion.
+
+### ⏱️ 3. RBI Harmonisation of Turn Around Time (TAT) & Penalty Compensation
+
+*Under RBI's circular, if a customer's account is debited but the transaction fails, the bank must reverse the funds within the prescribed TAT or pay mandatory auto-compensation without requiring customer complaint:*
+
+| Payment Channel | Authorized Resolution TAT | Mandatory Penalty for Delay |
+| :--- | :--- | :--- |
+| **ATM / Cash Recycler** (Cash not dispensed) | **T + 5 calendar days** | **₹100 per day** of delay |
+| **Point of Sale (PoS) / E-Commerce** | **T + 5 calendar days** | **₹100 per day** of delay |
+| **UPI Transactions** (Beneficiary not credited) | **T + 1 calendar day** | **₹100 per day** of delay |
+| **IMPS (Instant Interbank Transfer)** | **T + 1 calendar day** | **₹100 per day** of delay |
+| **NACH / Direct Debit Reversals** | **T + 1 calendar day** | **₹100 per day** of delay |
+
+> 🎯 **Top IIBF Traps for Unit 20:**
+> 1. **Nayak Method Percentages:** Total WC requirement = **25%**; Bank finance = **20%**; Borrower margin = **5%** of projected annual turnover.
+> 2. **Tandon Method 2 Current Ratio:** Requires minimum Current Ratio of **1.33:1**.
+> 3. **Compensation Auto-Credit:** The penalty of **₹100/day** must be credited automatically to the customer's account without requiring any formal claim.
+
+---
+
+<a id="note-94"></a>
+
+## 94. IIBF RBWM Unit 5: Retail Lending Regulatory Caps, 7 Ps Marketing Mix & RERA Escrow Architecture
+
+> 🧠 **Key Concept — IIBF Core Foundation: Retail Prudential Norms & Wealth Laws**
+> Retail banking requires strict compliance with RBI prudential Loan-to-Value (LTV) limits, IBA model education financing norms, service marketing delivery, and RERA buyer protections.
+
+### 🏠 1. Regulatory Loan-to-Value (LTV) Ratios for Housing Loans
+
+*To prevent systemic asset bubbles, the RBI mandates loan ceilings linked to property market valuations:*
+
+| Individual Housing Loan Category | Maximum Permissible LTV Ratio | Minimum Borrower Margin |
+| :--- | :--- | :--- |
+| **Up to ₹30 Lakh** | **90%** | **10%** |
+| **Above ₹30 Lakh to ₹75 Lakh** | **80%** | **20%** |
+| **Above ₹75 Lakh** | **75%** | **25%** |
+
+• *LTV Calculation Rule:* For loans above ₹10 Lakh, stamp duty, registration charges, and documentation expenses **cannot be included** in the total property cost for calculating the LTV ratio.
+
+### 🎓 2. IBA Model Education Loan Scheme Norms
+
+| Loan Quantum Slab | Margin Requirement | Collateral & Security Mandate |
+| :--- | :--- | :--- |
+| **Up to ₹4.00 Lakh** | **Nil (0% Margin)** | **No Collateral, No Third-Party Guarantee**. Parents/guardians as co-borrowers. |
+| **₹4.00 Lakh to ₹7.50 Lakh** | • **5%** for studies in India<br>• **15%** for studies abroad | Third-party guarantee acceptable to bank; **No tangible collateral**. |
+| **Above ₹7.50 Lakh** | • **5%** for studies in India<br>• **15%** for studies abroad | **Tangible Collateral Security** of full value + co-obligation of parents. |
+
+• **Moratorium / Repayment Holiday:** Course duration + **1 year** (or 6 months after securing employment, whichever is earlier).
+• **Interest Rate Concession:** 1% interest concession if simple interest is serviced during the study and moratorium period.
+
+### 📢 3. Extended Marketing Mix for Banking Services (The 7 Ps)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 THE 7 Ps OF FINANCIAL SERVICES MARKETING                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 1. PRODUCT           : Savings deposits, personal loans, credit cards.      │
+│ 2. PRICE             : Interest rate spread, processing fees, penal charges.│
+│ 3. PLACE             : Physical branches, ATMs, mobile banking apps, BCs.   │
+│ 4. PROMOTION         : Digital marketing, branding, financial literacy.     │
+│ 5. PEOPLE            : Branch staff, tellers, certified relationship mgrs.  │
+│ 6. PROCESS           : Instant digital onboarding, e-KYC, turnaround times. │
+│ 7. PHYSICAL EVIDENCE : Modern branch architecture, secure UI/UX, passbooks. │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+• **Cross-Selling vs. Up-Selling in Retail Banking:**
+  - *Cross-Selling:* Selling an ancillary, complementary financial product to an existing customer (e.g. selling motor insurance or mutual fund SIP to a home loan borrower).
+  - *Up-Selling:* Persuading a customer to upgrade to a higher-tier product (e.g. upgrading a savings account to a premium wealth account with higher minimum balance).
+
+### 🏢 4. Real Estate Regulation Act (RERA, 2016) Safeguards
+
+• **Mandatory Project Registration:** Every residential or commercial project with land area exceeding **500 square meters** or containing more than **8 apartments** must be registered with State RERA prior to public advertising or sale.
+• **Mandatory 70% Escrow Account:** Promoters must deposit **70% of the funds realized from allottees into a dedicated scheduled bank escrow account** to cover land and construction costs. Funds can only be withdrawn based on percentage completion certified by an engineer, architect, and chartered accountant.
+• **Structural Defect Guarantee:** Promoter must rectify any structural defects or poor workmanship within **5 years** of handover without charging the buyer.
+
+> 🎯 **Top IIBF Traps for Unit 21:**
+> 1. **LTV Cap on Large Loans:** Loans above ₹75 Lakh have a maximum LTV of **75%** (minimum 25% margin).
+> 2. **Education Loan Collateral:** Collateral cannot be demanded for loans **up to ₹7.50 Lakh** under the IBA model scheme.
+> 3. **RERA Escrow Proportion:** Exactly **70% of buyer collections** must be locked into the dedicated project escrow account.
+
+---
