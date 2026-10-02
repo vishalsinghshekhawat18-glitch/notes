@@ -42,7 +42,7 @@ export default function Shelf007IndexPage() {
       </div>
 
       {/* Sovereign Subject Escarpments */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {subjects.map((subj) => (
           <article
             key={subj.slug}
@@ -114,7 +114,11 @@ export default function Shelf007IndexPage() {
               </Link>
 
               <Link
-                href={`/shelf-007/${subj.slug}/${subj.slug === 'economics' ? 'chapter-01' : 'paper-1-module-a'}`}
+                href={
+                  subj.slug === 'iibf-dbf'
+                    ? '/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture'
+                    : `/shelf-007/${subj.slug}/chapter-01`
+                }
                 className="px-3.5 py-1.5 rounded-lg bg-[#143227] hover:bg-[#1f493b] text-white text-xs font-semibold font-mono transition-colors shadow-2xs inline-flex items-center gap-1.5"
               >
                 <span>Read Master Treatise</span>
@@ -123,37 +127,6 @@ export default function Shelf007IndexPage() {
             </div>
           </article>
         ))}
-
-        {/* Staged Escarpment: Political Science */}
-        <article className="bg-[#faf8f4] border border-dashed border-[#d6cebe] rounded-2xl p-6 sm:p-7 flex flex-col justify-between relative opacity-85">
-          <div className="space-y-4">
-            <div className="flex items-center justify-between text-xs font-mono">
-              <span className="px-2.5 py-1 rounded text-[11px] font-bold border bg-[#ede8dc] text-stone-600 border-[#d6cebe]">
-                POL-007
-              </span>
-              <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded border text-amber-800 bg-amber-50 border-amber-200">
-                Release v006 • Development Staged
-              </span>
-            </div>
-
-            <div>
-              <h2 className="font-serif font-bold text-xl sm:text-2xl text-stone-700 leading-snug">
-                Political Science & Constitutional Governance
-              </h2>
-              <div className="text-xs font-mono text-stone-500 pt-1">
-                Laxmikanth • D.D. Basu • Subhash Kashyap • Landmark SC Cases
-              </div>
-            </div>
-
-            <p className="text-xs sm:text-sm text-stone-500 leading-relaxed">
-              Constitutional mechanisms, landmark Supreme Court jurisprudence, comparative federalism, and statutory commissions. Fully staged in <code>007/notes/political_science/</code>.
-            </p>
-          </div>
-
-          <div className="mt-6 pt-4 border-t border-[#e8e2d5] text-xs font-mono text-stone-400">
-            ▲ Staged locally in <code>007/</code> • Release v006 in progress
-          </div>
-        </article>
       </div>
     </div>
   );

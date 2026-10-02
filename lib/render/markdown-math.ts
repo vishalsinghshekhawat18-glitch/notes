@@ -124,37 +124,32 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
   const { text: currencyProtected, currencyTokens } = protectCurrency(processed);
   processed = currencyProtected;
 
-  // Step 3: Handle Display Math ($$...$$ or \[...\] or \begin{...}...\end{...})
-  processed = processed.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => {
-    try {
-      const restored = restoreCurrency(math.trim(), currencyTokens);
-      const sanitized = sanitizeLatex(restored);
-      return katex.renderToString(sanitized, { ...KATEX_OPTIONS, displayMode: true });
-    } catch {
-      return `<div class="katex-display">${math}</div>`;
-    }
-  });
+  const mathPlaceholders: string[] = [];
 
-  processed = processed.replace(/\\\[([\s\S]*?)\\\]/g, (_, math) => {
+  const addMath = (rawMath: string, displayMode: boolean): string => {
+    const idx = mathPlaceholders.length;
     try {
-      const restored = restoreCurrency(math.trim(), currencyTokens);
+      const restored = restoreCurrency(rawMath.trim(), currencyTokens);
       const sanitized = sanitizeLatex(restored);
-      return katex.renderToString(sanitized, { ...KATEX_OPTIONS, displayMode: true });
+      const rendered = katex.renderToString(sanitized, { ...KATEX_OPTIONS, displayMode });
+      // Strip newlines from KaTeX HTML so multi-line SVGs or MathML never split markdown table cells or paragraphs
+      const cleaned = rendered.replace(/\r?\n\s*/g, ' ');
+      mathPlaceholders.push(cleaned);
     } catch {
-      return `<div class="katex-display">${math}</div>`;
+      const fallback = displayMode ? `<div class="katex-display">${rawMath}</div>` : rawMath;
+      mathPlaceholders.push(fallback);
     }
-  });
+    return displayMode
+      ? `<div class="katex-display-placeholder" data-katex="${idx}"></div>`
+      : `___KATEX_INLINE_${idx}___`;
+  };
+
+  // Step 3: Handle Display Math ($$...$$ or \[...\])
+  processed = processed.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => addMath(math, true));
+  processed = processed.replace(/\\\[([\s\S]*?)\\\]/g, (_, math) => addMath(math, true));
 
   // Step 4: Handle inline math \(...\)
-  processed = processed.replace(/\\\(([\s\S]*?)\\\)/g, (_, math) => {
-    try {
-      const restored = restoreCurrency(math.trim(), currencyTokens);
-      const sanitized = sanitizeLatex(restored);
-      return katex.renderToString(sanitized, { ...KATEX_OPTIONS, displayMode: false });
-    } catch {
-      return math;
-    }
-  });
+  processed = processed.replace(/\\\(([\s\S]*?)\\\)/g, (_, math) => addMath(math, false));
 
   // Step 5: Handle inline math $...$
   processed = processed.replace(/\$([^\s$](?:[^\n$]*?[^\s$])?)\$/g, (fullMatch, math) => {
@@ -165,13 +160,7 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
       return fullMatch;
     }
 
-    try {
-      const restored = restoreCurrency(trimmed, currencyTokens);
-      const sanitized = sanitizeLatex(restored);
-      return katex.renderToString(sanitized, { ...KATEX_OPTIONS, displayMode: false });
-    } catch {
-      return fullMatch;
-    }
+    return addMath(trimmed, false);
   });
 
   // Step 6: Restore currency tokens and escaped dollars
@@ -182,7 +171,19 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
   processed = transformAsciiBoxTables(processed);
 
   // Step 7: Parse markdown with marked
-  const parsed = marked.parse(processed, { async: false, gfm: true, breaks: true }) as string;
+  let parsed = marked.parse(processed, { async: false, gfm: true, breaks: true }) as string;
+
+  // Step 8: Unwrap any isolated display math placeholders that were placed inside <p>...</p>
+  parsed = parsed.replace(/<p>\s*(<div class="katex-display-placeholder" data-katex="\d+"><\/div>)\s*<\/p>/g, '$1');
+
+  // Step 9: Re-inject rendered KaTeX HTML back into placeholders
+  parsed = parsed.replace(/<div class="katex-display-placeholder" data-katex="(\d+)"><\/div>/g, (_, idx) => {
+    return mathPlaceholders[Number(idx)] || '';
+  });
+  parsed = parsed.replace(/___KATEX_INLINE_(\d+)___/g, (_, idx) => {
+    return mathPlaceholders[Number(idx)] || '';
+  });
+
   return parsed;
 }
 

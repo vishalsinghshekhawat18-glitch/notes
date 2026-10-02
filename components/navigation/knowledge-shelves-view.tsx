@@ -23,7 +23,7 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
     id: 'shelf-007',
     title: 'Shelf 007: Sovereign Knowledge Bastion & Master Examination Series',
     icon: '🏛️',
-    badge: 'Master Series • Release v005 Live',
+    badge: 'Master Series • Release v007 Live',
     accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
     borderAccent: 'border-l-[#143227]',
     subjectSlugs: [],
@@ -297,6 +297,28 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       syllabusUrl: '/shelf-007/iibf-dbf',
       readUrl: '/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture',
     },
+    {
+      id: 'pol-007',
+      code: 'POL-007',
+      badgeText: 'Gold Standard Sovereign Synthesis',
+      badgeColor: 'text-[#14532d] bg-[#f0fdf4] border-[#bbf7d0]',
+      title: 'Political Science & Constitutional Governance',
+      authorText: 'M. Laxmikanth (8th Ed., 2026) • The Constitution of India (Bare Act)',
+      countsText: '30 Master Chapters • 30 Revision Sheets • 1,520 MCQ Bank',
+      waypointsBadge: 'Release v007 Live',
+      description:
+        'Sovereign doctoral-depth master treatise covering Constitutional Framework, Federal Dynamics, Central & State Government Machinery, Judiciary & PIL, Constitutional & Statutory Bodies, Elections, RTI, Political Theory, 50 Deadliest Traps, and the complete 1,520-question Objective Diagnostic Vault.',
+      chips: [
+        'Constitutional Framework & Basic Structure',
+        'Parliament & Legislative Procedure',
+        'Supreme Court & Judicial Review',
+        'Constitutional & Statutory Bodies',
+        'Anti-Defection Law & Electoral Reforms',
+        '50 Deadliest Traps & 1,520 MCQ Bank',
+      ],
+      syllabusUrl: '/shelf-007/political-science',
+      readUrl: '/shelf-007/political-science/chapter-01',
+    },
   ];
 
   const renderSovereignMasterCard = (cardMeta: (typeof SOVEREIGN_CARDS)[number]) => {
@@ -483,7 +505,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                           </Link>
                         </div>
                         <span className="text-[11px] font-mono text-emerald-800 font-semibold">
-                          2 Sovereign Treatises • Direct Isolated Reader (Release v005)
+                          3 Sovereign Treatises • 1,520 MCQ Question Bank • Direct Isolated Reader (Release v007)
                         </span>
                       </div>
                     </div>
@@ -493,8 +515,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                     </span>
                   </div>
 
-                  {/* Sovereign Subject Cards (2-Column Flagship Layout) */}
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  {/* Sovereign Subject Cards (3-Column Flagship Layout) */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {filteredCards.map(renderSovereignMasterCard)}
                   </div>
                 </section>
