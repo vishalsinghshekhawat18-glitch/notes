@@ -12,50 +12,26 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 
 ## 1. 60-Second Master Majority Matrix
 
-```
-┌──────────────────────┬──────────────────────────────────────────┬──────────────────────────────────────┐
-│ MAJORITY FORMULATION │ MATHEMATICAL FORMULA                     │ PRIMARY CONSTITUTIONAL PURPOSES      │
-├──────────────────────┼──────────────────────────────────────────┼──────────────────────────────────────┤
-│ Simple Majority      │ $> 50\%$ Present & Voting                │ Ordinary/Money bills, No-Confidence, │
-│                      │                                          │ Arts 356, 360, Art 169(3) Council law│
-├──────────────────────┼──────────────────────────────────────────┼──────────────────────────────────────┤
-│ Effective Majority   │ $> 50\%$ of (Total Strength - Vacancies) │ VP removal in RS (67b), Speaker &    │
-│                      │                                          │ Dy Speaker removal in LS (94c)       │
-├──────────────────────┼──────────────────────────────────────────┼──────────────────────────────────────┤
-│ Absolute Majority    │ $> 50\%$ of Sanctioned Total Strength    │ Government formation (not used alone │
-│                      │ (e.g. 272 in Lok Sabha)                  │ for legislative bills)               │
-├──────────────────────┼──────────────────────────────────────────┼──────────────────────────────────────┤
-│ Special: Type 1      │ $\ge 2/3$ Present & Voting               │ RS State List law (249), RS All-     │
-│                      │                                          │ India Services creation (312)        │
-├──────────────────────┼──────────────────────────────────────────┼──────────────────────────────────────┤
-│ Special: Type 2      │ $\ge 2/3$ Present & Voting **PLUS**      │ Art 368 Amendments, Judge/CAG/CEC    │
-│ (Constitutional)     │ $> 50\%$ Total Membership of House       │ removal, Art 352 National Emergency  │
-├──────────────────────┼──────────────────────────────────────────┼──────────────────────────────────────┤
-│ Special: Type 3      │ $\ge 2/3$ of **TOTAL MEMBERSHIP**        │ Article 61 Impeachment of President  │
-│ (Super Impeachment)  │ (LS $\ge 362$, RS $\ge 164$)             │ ONLY (Highest majority in Constitut.)│
-└──────────────────────┴──────────────────────────────────────────┴──────────────────────────────────────┘
-```
+| Majority Formulation | Mathematical Formula | Primary Constitutional Purposes |
+| :--- | :--- | :--- |
+| **Simple Majority** | $> 50\%$ Present & Voting | Ordinary/Money bills, No-Confidence, Arts 356, 360, Art 169(3) Council law |
+| **Effective Majority** | $> 50\%$ of (Total Strength - Vacancies) | VP removal in RS (67b), Speaker & Dy Speaker removal in LS (94c) |
+| **Absolute Majority** | $> 50\%$ of Sanctioned Total Strength (e.g. 272 in Lok Sabha) | Government formation (not used alone for legislative bills) |
+| **Special: Type 1** | $\ge 2/3$ Present & Voting | RS State List law (249), RS All-India Services creation (312) |
+| **Special: Type 2 (Constitutional)** | $\ge 2/3$ Present & Voting **PLUS** $> 50\%$ Total Membership of House | Art 368 Amendments, Judge/CAG/CEC removal, Art 352 National Emergency |
+| **Special: Type 3 (Super Impeachment)** | $\ge 2/3$ of **TOTAL MEMBERSHIP** (LS $\ge 362$, RS $\ge 164$) | Article 61 Impeachment of President ONLY (Highest majority in Constitut.) |
 
 ---
 
 ## 2. 60-Second Master Emergency Comparison
 
-```
-┌──────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┐
-│ PARAMETER            │ NATIONAL EMERGENCY 352 │ PRESIDENT'S RULE 356   │ FINANCIAL EMERGENCY 360│
-├──────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-│ Approval Window      │ ONE MONTH (30 days)    │ TWO MONTHS (60 days)   │ TWO MONTHS (60 days)   │
-├──────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-│ Approval Majority    │ SPECIAL MAJORITY (368) │ SIMPLE MAJORITY        │ SIMPLE MAJORITY        │
-├──────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-│ Extension Period     │ 6 months at a time     │ 6 months at a time     │ No periodic extension  │
-├──────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-│ Maximum Time Cap     │ NO MAXIMUM CAP         │ THREE (3) YEARS MAX    │ NO MAXIMUM CAP         │
-├──────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤
-│ Rights Impact        │ 19 suspended (external)│ ZERO impact on rights  │ ZERO impact on rights  │
-│                      │ 20 & 21 NEVER touchable│                        │                        │
-└──────────────────────┴────────────────────────┴────────────────────────┴────────────────────────┘
-```
+| Parameter | National Emergency (Art 352) | President's Rule (Art 356) | Financial Emergency (Art 360) |
+| :--- | :--- | :--- | :--- |
+| **Approval Window** | **ONE MONTH (30 days)** | **TWO MONTHS (60 days)** | **TWO MONTHS (60 days)** |
+| **Approval Majority** | **SPECIAL MAJORITY (368)** | **SIMPLE MAJORITY** | **SIMPLE MAJORITY** |
+| **Extension Period** | 6 months at a time | 6 months at a time | No periodic extension |
+| **Maximum Time Cap** | **NO MAXIMUM CAP** | **THREE (3) YEARS MAX** | **NO MAXIMUM CAP** |
+| **Rights Impact** | Art 19 suspended (external); Arts 20 & 21 NEVER touchable | **ZERO impact on rights** | **ZERO impact on rights** |
 
 ---
 

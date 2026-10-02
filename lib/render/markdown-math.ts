@@ -193,8 +193,8 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
  */
 export function transformAsciiBoxTables(markdown: string): string {
   return markdown.replace(/```(?:[a-zA-Z]*)?\n([\s\S]*?)\n```/g, (fullMatch, blockContent) => {
-    // If it contains flowchart arrows or graph indicators, preserve as code diagram
-    if (/[▼▲►◄→←↓↑]|(?:──►)|(?:───►)|(?:\.\.\.>)/.test(blockContent)) {
+    // If it contains flowchart connectors or graph indicators, preserve as code diagram
+    if (/(?:──►)|(?:───►)|(?:\.\.\.>)|(?:==>)|(?:\b(?:flowchart|graph)\b)/i.test(blockContent)) {
       return fullMatch;
     }
 
