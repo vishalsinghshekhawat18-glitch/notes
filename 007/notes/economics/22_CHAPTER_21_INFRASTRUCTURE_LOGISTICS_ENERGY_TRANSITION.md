@@ -5,6 +5,7 @@
 **Canonical Sources Unified**:
 * Vivek Singh, *Indian Economy* (7th Ed., Ch. 9: Industry & Infrastructure, §§9.17–9.28)
 * Ramesh Singh, *Indian Economy* (McGraw Hill, Ch. 9: Energy, Transport & Communications)
+* Nitin Singhania, *Indian Economy for Civil Services* (McGraw Hill, Ch. 8: Infrastructure)
 * Sanjeev Verma, *The Indian Economy* (Ch. 13: Infrastructure & Energy Security)
 * Ministry of Commerce and Industry: *National Logistics Policy (NLP) 2022* & PM GatiShakti National Master Plan
 * NITI Aayog: *National Infrastructure Pipeline (NIP)* & *Taskforce Report on Energy Transition*
@@ -67,6 +68,47 @@ The financing of national highways in India evolved through four distinct contra
   * Recommended shifting focus from service delivery to asset life-cycle management.
   * Advocated renegotiation clauses for contracts impacted by unforeseen macroeconomic shocks.
   * Recommended establishing an **Infrastructure PPP Project Review Committee (IPPRC)** and independent sectoral regulators.
+
+---
+
+### The Swiss Challenge Procurement Method
+The **Swiss Challenge** is an alternative, innovative public procurement mechanism designed to encourage private sector innovation in infrastructure development:
+
+```
+                                 THE SWISS CHALLENGE LIFECYCLE
+ [Original Proponent]                                      [Public Authority]
+          │                                                         │
+          ├─────── Submits Unsolicited Project Proposal ───────────►│
+          │                                                         │ (Evaluates & Approves Project Concept)
+          │                                                         ▼
+          │                                            Invites Counter-Bids via
+          │                                            Open Public Auction ("Challenge")
+          │                                                         │
+          │                       ┌─────────────────────────────────┴─────────────────────────────────┐
+          │                       ▼                                                                   ▼
+          │         [No Challenger Bids Received]                                      [Superior Counter-Bid Received]
+          │                       │                                                                   │
+          │                       ▼                                                                   ▼
+          │         Original Proponent Wins                                            Original Proponent Exercised
+          │         Direct Concession Award                                            **Right of First Refusal (ROFR)**
+          │                                                                                           │
+          │                                                     ┌─────────────────────────────────────┴─────────────────────────────────────┐
+          │                                                     ▼                                                                           ▼
+          │                                        [Original Proponent MATCHES Bid]                            [Original Proponent DECLINES to Match]
+          │                                                     │                                                                           │
+          │                                                     ▼                                                                           ▼
+          │                                        Original Proponent Awarded Contract                         Challenger Wins Contract; Original
+          │                                                                                                    Proponent Reimbursed Preparation Costs
+```
+
+* **Core Operational Mechanics**:
+  1. **Unsolicited Proposal**: A private entrepreneur / developer conceives, designs, and submits an unsolicited project proposal to the public authority.
+  2. **Public Challenge**: The authority publishes the project contours and invites rival bids through an open Swiss Challenge tender.
+  3. **Right of First Refusal (ROFR)**: If a challenger submits a more economically advantageous bid (lower tariff, higher revenue share, or superior technical design), the original proponent is granted the exclusive legal right to match that bid. If matched, the contract goes to the original proponent; if declined, the contract is awarded to the challenger, and the challenger typically reimburses the original proponent for preparation/DPR expenses.
+* **The Vijay Kelkar Committee (2015) Stance**:
+  * The Kelkar Committee on Revisiting and Revitalizing PPP Model advised **strong caution against or outright discouragement of the Swiss Challenge method** for large public projects.
+  * **Rationale**: It creates significant information asymmetry (the original proponent has months of insider design knowledge, while challengers get limited tender windows), discourages genuine competition, risks crony capitalism, and breeds post-award litigation.
+  * Recommended standardizing transparent open competitive bidding and establishing an **Infrastructure PPP Project Review Committee (IPPRC)** and independent sectoral regulators.
 
 ---
 
@@ -237,6 +279,11 @@ Enacted under the *Energy Conservation (Amendment) Act, 2022*:
 │                                 │ water using RENEWABLE electricity**. Blue hydrogen is from  │
 │                                 │ fossil fuels with Carbon Capture (CCUS); Grey hydrogen is   │
 │                                 │ from natural gas with zero carbon capture.                  │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Swiss Challenge Procurement** │ **TRAP**: Swiss Challenge begins with an **unsolicited**    │
+│                                 │ private proposal, but requires open challenge bidding! The  │
+│                                 │ original proponent only has the **Right of First Refusal**  │
+│                                 │ to MATCH the best bid. Kelkar Committee cautioned against it│
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
@@ -273,4 +320,11 @@ ANSWER:
 2. Global Performance Ranking: Elevate India's position in the World Bank's Logistics Performance
 Index (LPI) into the top 25 nations by 2030.
 3. Tech Integration: Unify data across 30+ ministerial systems through ULIP (Unified Logistics Interface Platform).
+```
+
+```
+CARD 4: Explain the operational procedure and risks of the Swiss Challenge method in infrastructure procurement.
+ANSWER:
+1. Procedure: Private developer submits unsolicited project proposal -> Authority evaluates and invites open competitive counter-bids -> Original proponent gets Right of First Refusal (ROFR) to match any superior counter-bid -> If matched, original proponent wins; if declined, challenger wins and reimburses DPR costs.
+2. Risks & Kelkar Committee View: Asymmetric information favoring proponent, potential collusion/cronyism, lack of price discovery transparency. Kelkar Committee advised against its widespread use.
 ```

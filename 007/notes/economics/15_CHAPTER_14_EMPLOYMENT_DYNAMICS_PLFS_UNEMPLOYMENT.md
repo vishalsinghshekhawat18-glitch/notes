@@ -74,7 +74,85 @@ To analyze labor markets with macroeconomic precision, an entire national popula
 
 ---
 
-## 14.3 Activity Status Methodologies: US, UPSS & CWS
+## 14.3 Demographic Transition Theory & India's Dividend Architecture
+
+### 1. The Theory of Demographic Transition (Thompson & Notestein Framework)
+Human societies systematically transition through distinct demographic stages as economic modernization unfolds:
+
+```
+┌─────────┬──────────────────────┬─────────────┬─────────────┬─────────────────────────────────────────────────────────┐
+│ Stage   │ Phase Character      │ Birth Rate  │ Death Rate  │ Natural Growth & Economic Dynamics                      │
+├─────────┼──────────────────────┼─────────────┼─────────────┼─────────────────────────────────────────────────────────┤
+│ **I**   │ **High Stationary**  │ High        │ High        │ • **Near Zero Growth**: Primitive agrarian economy,     │
+│         │                      │ (35–45/1000)│ (35–45/1000)│   frequent famines, epidemics, zero modern healthcare.   │
+│         │                      │             │             │ • *India Pre-1921*: 1921 is the **"Year of the Great    │
+│         │                      │             │             │   Divide"**—the only census with negative growth (-0.31%).│
+├─────────┼──────────────────────┼─────────────┼─────────────┼─────────────────────────────────────────────────────────┤
+│ **II**  │ **Early Expanding**  │ High        │ Rapidly     │ • **Population Explosion**: Sanitation, antibiotics,     │
+│         │                      │             │ Falling     │   and famine relief collapse mortality while fertility  │
+│         │                      │             │             │   norms remain culturally high.                         │
+│         │                      │             │             │ • *India 1921–1971*: Population surged from 251M to 548M│
+├─────────┼──────────────────────┼─────────────┼─────────────┼─────────────────────────────────────────────────────────┤
+│ **III** │ **Late Expanding**   │ Falling     │ Low & Stable│ • **Decelerating Growth**: Urbanization, female literacy│
+│         │                      │             │ (6–8/1000)  │   access to family planning, rising cost of children.   │
+│         │                      │             │             │ • *India Today*: National Total Fertility Rate (TFR)    │
+│         │                      │             │             │   has dropped to **2.0** (below replacement level 2.1). │
+├─────────┼──────────────────────┼─────────────┼─────────────┼─────────────────────────────────────────────────────────┤
+│ **IV**  │ **Low Stationary**   │ Low         │ Low         │ • **Stationary / Stable**: Replacement level fertility, │
+│         │                      │ (~10/1000)  │ (~10/1000)  │   aging workforce (e.g., Western Europe, Japan).        │
+├─────────┼──────────────────────┼─────────────┼─────────────┼─────────────────────────────────────────────────────────┤
+│ **V**   │ **Contracting**      │ Below Death │ Stable /    │ • **Natural Population Decline**: Negative growth, severe│
+│         │                      │ Rate        │ Rising Age  │   dependency burdens (e.g., Japan, Italy, South Korea). │
+└─────────┴──────────────────────┴─────────────┴─────────────┴─────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 2. India's Demographic Dividend Window (2018–2055)
+* **The Opportunity Window**: India entered the demographic dividend window in 2018 (when the working-age cohort crossed 50% of the population) and it will remain open until approximately **2055** (~37-year window).
+* **Comparative Median Age Advantage**:
+  - India: **28.4 Years** (youngest large economy in the world).
+  - China: 38.4 Years | United States: 38.5 Years | Western Europe: 44.5 Years | Japan: 48.6 Years.
+* **The Regional Demographic Asymmetry (The North-South Divide)**:
+  - **Southern & Western States (Stage 4)**: Kerala (TFR 1.8), Tamil Nadu (1.8), Andhra Pradesh (1.7), Maharashtra (1.7) have completed the transition. Facing rapid aging, school closures, rising elder dependency, and heavy reliance on interstate migrant labor.
+  - **Northern & Eastern States (Late Stage 2 / Early Stage 3)**: Bihar (TFR 3.0), Uttar Pradesh (2.4), Jharkhand (2.3), Meghalaya (2.9) contain the bulk of India's future labor force additions.
+  - **The Economic Challenge**: The young labor force is concentrated in states with historically lower fiscal capacity, educational quality, and industrial capital investment.
+
+---
+
+### 3. The "Demographic Dividend" vs. "Demographic Disaster" Matrix
+The demographic dividend is not an automatic windfall; it is merely a **demographic potential** that translates into economic growth only through three policy channels:
+
+```
+┌───────────────────────────────────────┬─────────────────────────────────────────────────────────────────────────────┐
+│ Dividend Transmission Mechanism       │ Risk / Structural Failure Trap ("Demographic Disaster")                     │
+├───────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **1. Labor Supply Channel**           │ **Jobless Growth**: Inability to create formal, productive non-farm jobs    │
+│    Surging working-age cohort         │ traps youth in disguised unemployment or low-wage gig economy.              │
+├───────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **2. Capital Accumulation Channel**   │ **Skill Mismatch**: Less than 5% of India's workforce has formal vocational │
+│    Lower dependency ratio increases   │ training (vs. 75% in Germany, 96% in South Korea), keeping wages stagnant.  │
+│    household savings and investment   │                                                                             │
+├───────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **3. Human Capital & FLFPR Channel**  │ **Missing Women**: Subdued Female Labor Force Participation (~37% in PLFS)   │
+│    Smaller family size allows deeper  │ forfeits half the demographic potential. India risks "growing old before    │
+│    education/health spending per child│ it grows rich".                                                             │
+└───────────────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 4. Sex Ratio Economics & The "Missing Women" Phenomenon
+* **The Amartya Sen Formulation**: First identified in 1990, the term "Missing Women" quantifies the deficit of females relative to the biologically expected female-to-male ratio, resulting from sex-selective abortion (female foeticide), female infanticide, and differential mortality due to biased nutritional/medical care.
+* **Economic Metrics**:
+  - **Overall Sex Ratio (Census 2011)**: 940 females per 1,000 males.
+  - **Child Sex Ratio (0–6 years)**: Declined from 976 (1961) $\rightarrow$ 945 (1991) $\rightarrow$ **918 (2011)**, signaling intense son-preference enabled by ultrasound technology despite the *PCPNDT Act, 1994*.
+  - **NFHS-5 (2019–21) Improvement**: Overall sex ratio rose to 1,020 (though Sex Ratio at Birth remains skewed at **929**).
+* **Macroeconomic Cost**: IMF and World Bank studies indicate that persistent gender gaps in education, nutrition, and workforce participation suppress India's potential GDP growth rate by **1.5% to 2.5% annually**.
+
+---
+
+## 14.4 Activity Status Methodologies: US, UPSS & CWS
 
 Historically developed by the National Sample Survey Office (NSSO) and standardized under the modern Periodic Labour Force Survey (PLFS), employment is categorized across different reference accounting windows:
 
@@ -103,7 +181,7 @@ Historically developed by the National Sample Survey Office (NSSO) and standardi
 
 ---
 
-## 14.4 The Periodic Labour Force Survey (PLFS) Architecture
+## 14.5 The Periodic Labour Force Survey (PLFS) Architecture
 
 Launched in **April 2017** by the **National Statistical Office (NSO)**, Ministry of Statistics and Programme Implementation (MoSPI), replacing the earlier quinquennial (5-yearly) NSSO employment surveys:
 
@@ -121,7 +199,7 @@ Launched in **April 2017** by the **National Statistical Office (NSO)**, Ministr
 
 ---
 
-## 14.5 The Universal Typology of Unemployment
+## 14.6 The Universal Typology of Unemployment
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
@@ -159,7 +237,7 @@ Launched in **April 2017** by the **National Statistical Office (NSO)**, Ministr
 
 ---
 
-## 14.6 Structural Realities of the Indian Labor Market
+## 14.7 Structural Realities of the Indian Labor Market
 
 ### 1. The Tripartite Employment Classification:
 According to PLFS surveys, India's workforce is distributed across three structural categories:
@@ -190,7 +268,7 @@ According to PLFS surveys, India's workforce is distributed across three structu
 
 ---
 
-## 14.7 Institutional Labor Reforms: The Four Labour Codes
+## 14.8 Institutional Labor Reforms: The Four Labour Codes
 
 To dismantle a colonial, overlapping tangle of 29 archaic Central labor laws, Parliament codified them into **Four Comprehensive Labour Codes (2019–2020)**:
 
@@ -228,7 +306,7 @@ To dismantle a colonial, overlapping tangle of 29 archaic Central labor laws, Pa
 
 ---
 
-## 14.8 The Gig & Platform Economy
+## 14.9 The Gig & Platform Economy
 
 * **Definitions under Code on Social Security, 2020**:
   * **Gig Worker**: A person who performs work or participates in a work arrangement and earns from such activities outside of a traditional employer-employee relationship.
@@ -240,7 +318,7 @@ To dismantle a colonial, overlapping tangle of 29 archaic Central labor laws, Pa
 
 ---
 
-## 14.9 Examination Lenses & Trap Compendium
+## 14.10 Examination Lenses & Trap Compendium
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
@@ -270,7 +348,7 @@ To dismantle a colonial, overlapping tangle of 29 archaic Central labor laws, Pa
 
 ---
 
-## 14.10 Active Recall Diagnostic Cards
+## 14.11 Active Recall Diagnostic Cards
 
 ```
 CARD 1: Explain the mathematical denominator difference between the Labour Force Participation Rate (LFPR) and the Unemployment Rate (UR).

@@ -80,6 +80,8 @@
 │                                 │   (66.67%); **75% weighted vote to pass (Mutual Veto)**!    │
 │                                 │ • Perm Excluded: Alcohol (Art 366(12A)); Temp: 5 Petroleum. │
 │                                 │ • CIT: Sec 115BAA (22%), 115BAB (15%); MAT (15%).           │
+│                                 │ • PoEM (ABOI test); BEPS 15 Action Points; Inverted Duty    │
+│                                 │   Structure (Rule 89(5)); RCM (Cash payment only!).         │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **CH 12: Fiscal Federalism &    │ • Article 270 Divisible Pool = GTR $-$ (Cesses + Surcharges │
 │   Finance Commission**          │   + Cost of Collection).                                    │
@@ -99,7 +101,8 @@
 │   PLFS & Types of Joblessness** │   100$ (Denominator is Labour Force, NOT total pop!).       │
 │                                 │ • CWS = Worked $\ge 1 \text{ hour}$ on any 1 day of week.   │
 │                                 │ • Disguised Unemployment: $\mathbf{MP_L = 0}$ (Output same).│
-│                                 │ • 4 Labour Codes: Retrenchment threshold $\mathbf{300}$.     │
+│                                 │ • Demographic Dividend Window: **2018–2055** (median 28.4); │
+│                                 │   Sen's Missing Women; 4 Labour Codes (retrenchment 300).   │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **CH 15: Poverty Estimation &   │ • Tendulkar (2009): Dropped calories; MRP; added health/edu;│
 │   Inequality Metrics**          │   Poverty Line: ₹816 Rural, ₹1,000 Urban (21.9% poor).      │
@@ -133,15 +136,20 @@
 │                                 │ • Govt MSP = $\mathbf{1.5 \times (A2 + FL)}$; Swaminathan   │
 │                                 │   demanded $\mathbf{C2 + 50\%}$. Sugarcane FRP is legally    │
 │                                 │   binding on sugar mills within 14 days!                    │
+│                                 │ • Colonial Tenures (Zamindari/Ryotwari/Mahalwari); PMKSY 4  │
+│                                 │   pillars (AIBP, HKKP, PDMC, Watershed); LARR 2013 consent. │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **CH 20: Industrial Policy,     │ • MSME (2020): Micro (₹1Cr/₹5Cr), Small (₹10Cr/₹50Cr),      │
 │   MSMEs & Disinvestment**       │   Medium (₹50Cr/₹250Cr). **Export turnover EXCLUDED**!      │
 │                                 │ • Reserved for PSU: Only **Atomic Energy** & **Railways**.  │
 │                                 │ • IIP: Mfg 77.63%; 8 Core Industries = **40.27% of IIP**    │
 │                                 │   (Refinery Products largest 28.04%; Fertilizer smallest).  │
+│                                 │ • Lewis Turning Point vs Feldman-Mahalanobis $\lambda_k$;    │
+│                                 │   Food Processing & PMKSY-SAMPADA / PM-FME (ODOP 35%).      │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **CH 21: Infrastructure,        │ • HAM: 40% NHAI Cash + 60% Annuity; **Govt bears 100%       │
 │   Logistics & Energy Transition**│  traffic risk**! NIP: ₹111L Cr (Centre 39%, State 39%, Pvt22)│
+│                                 │ • Swiss Challenge: Unsolicited proposal + ROFR to match!    │
 │                                 │ • NLP: Reduce logistics to single digit (~8-9% GDP) by 2030.│
 │                                 │ • Panchamrit: 500 GW non-fossil by 2030; **Net-Zero 2070**! │
 │                                 │ • Green Hydrogen Mission: $\ge 5 \text{ MMT / year}$ by 2030│
@@ -234,6 +242,78 @@
 │                                 │ builds, collects tolls directly and **bears 100% traffic  │
 │                                 │ and revenue risk**. Transferred to state after 15–30 years│
 └─────────────────────────────────┴───────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────┐
+│ MASTER DISTINCTION 7: COLONIAL LAND TENURE SYSTEMS (ZAMINDARI vs. RYOTWARI vs. MAHALWARI)   │
+├─────────────────┬─────────────────────────┬─────────────────────────┬───────────────────────┤
+│ Feature         │ Permanent Settlement    │ Ryotwari System         │ Mahalwari System      │
+│                 │ (Zamindari, 1793)       │ (1820)                  │ (1822)                │
+├─────────────────┼─────────────────────────┼─────────────────────────┼───────────────────────┤
+│ **Architect**   │ Lord Cornwallis / Shore │ Thomas Munro & Read     │ Holt Mackenzie / Bird │
+├─────────────────┼─────────────────────────┼─────────────────────────┼───────────────────────┤
+│ **Geography**   │ Bengal, Bihar, Odisha,  │ Madras, Bombay, Assam,  │ NWFP, Punjab, Central │
+│                 │ Northern Madras (19%)   │ Coorg (51% of British)  │ Provinces, UP (30%)   │
+├─────────────────┼─────────────────────────┼─────────────────────────┼───────────────────────┤
+│ **Ownership &   │ Zamindars made absolute │ Individual peasant      │ Village community     │
+│   Liability**   │ hereditary owners;      │ (*Ryot*) recognized as  │ (*Mahal*) jointly and │
+│                 │ peasants became tenants │ direct owner-taxpayer   │ severally liable      │
+├─────────────────┼─────────────────────────┼─────────────────────────┼───────────────────────┤
+│ **Assessment**  │ Fixed in perpetuity;    │ Periodically revised    │ Periodically revised; │
+│                 │ 10/11th to British,     │ (every 20–30 years);    │ Talukdar / Lambardar  │
+│                 │ 1/11th to Zamindar      │ 45%–55% of gross produce│ collects for village  │
+└─────────────────┴─────────────────────────┴─────────────────────────┴───────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────┐
+│ MASTER DISTINCTION 8: MICRO-IRRIGATION ARCHITECTURE (DRIP IRRIGATION vs. SPRINKLER)        │
+├─────────────────────────────────┬───────────────────────────────────────────────────────────┤
+│ **Drip / Trickle Irrigation**   │ • Delivers water **directly to the root zone drop-by-drop**│
+│                                 │   via network of emitters / drippers under low pressure.  │
+│                                 │ • **Water Use Efficiency (WUE): 90%–95%** (highest!).     │
+│                                 │ • Ideal for row crops, orchards, vegetables, vine crops;  │
+│                                 │   minimal evaporation loss, ideal for fertigation.        │
+├─────────────────────────────────┼───────────────────────────────────────────────────────────┤
+│ **Sprinkler Irrigation**        │ • Sprays water **overhead through aerial nozzles**,       │
+│                                 │   simulating natural rainfall under high pressure.        │
+│                                 │ • **Water Use Efficiency (WUE): 70%–80%**.                │
+│                                 │ • Ideal for closely spaced crops (pulses, oilseeds, wheat,│
+│                                 │   tea); effective on undulating/sloping topography.       │
+└─────────────────────────────────┴───────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────┐
+│ MASTER DISTINCTION 9: DEVELOPMENT STRATEGIES (LEWIS DUAL-SECTOR vs. FELDMAN-MAHALANOBIS)    │
+├─────────────────────────────────┬───────────────────────────────────────────────────────────┤
+│ **Lewis Dual-Sector Model**     │ Structural labor reallocation engine: Transfers surplus   │
+│                                 │ agricultural labor ($MP_L \approx 0$) to modern industry  │
+│                                 │ at constant real wage, generating capitalist profit that  │
+│                                 │ is reinvested until the **Lewis Turning Point**.          │
+├─────────────────────────────────┼───────────────────────────────────────────────────────────┤
+│ **Feldman-Mahalanobis Strategy**│ Capital allocation engine ($\lambda_k$): Directs heavy capex│
+│                                 │ into **Sector K (Capital Goods / machine building)**,     │
+│                                 │ depressing short-term consumption to compound long-term   │
+│                                 │ national productive capacity exponentially.               │
+└─────────────────────────────────┴───────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────┐
+│ MASTER DISTINCTION 10: INFRASTRUCTURE PROCUREMENT (SWISS CHALLENGE vs. EPC / HAM)           │
+├─────────────────────────────────┬───────────────────────────────────────────────────────────┤
+│ **Swiss Challenge Procurement** │ Begins with an **unsolicited proposal** from a private    │
+│                                 │ proponent. Put to open competitive counter-bidding.       │
+│                                 │ Original proponent retains **Right of First Refusal       │
+│                                 │ (ROFR)** to match the best challenger bid.                │
+├─────────────────────────────────┼───────────────────────────────────────────────────────────┤
+│ **Standard EPC / HAM Bidding**  │ Fully government-initiated project design and feasibility │
+│                                 │ study (DPR). Awarded purely through transparent open      │
+│                                 │ competitive reverse bidding (L1) without any proponent    │
+│                                 │ matching privilege or right of first refusal.             │
+└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
 ---

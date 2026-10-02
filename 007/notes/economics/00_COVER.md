@@ -19,8 +19,8 @@
 <div style="width: 120px; height: 2px; background-color: #c25e2e; margin: 30px auto;"></div>
 
 <div style="font-size: 13px; font-family: monospace; color: #44403c; line-height: 1.8; margin-bottom: 50px;">
-  <strong>MULTI-AUTHOR CANONICAL FUSION:</strong><br/>
-  Ramesh Singh (McGraw Hill) • Vivek Singh (7th Ed.) • Sanjeev Verma • K. Sankarganesh (Key Concepts)<br/>
+  <strong>THE SOVEREIGN PENTA-TREATISE CANONICAL FUSION:</strong><br/>
+  Ramesh Singh (McGraw Hill) • Vivek Singh (7th Ed.) • Nitin Singhania (McGraw Hill) • Sanjeev Verma • K. Sankarganesh<br/>
   Cross-Verified with MoSPI National Accounts, Reserve Bank of India Bulletins & Economic Survey
 </div>
 

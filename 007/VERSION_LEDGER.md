@@ -17,7 +17,43 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
-### [STAGED / IN PROGRESS] v005 — Political Science & Constitutional Governance Sovereign Master Architecture
+### [STAGED / IN PROGRESS] v005 — Economics Sovereign Penta-Treatise Synthesis (Nitin Singhania Integration)
+* **Status**: Staged Locally in `007/` (Validation & Static Build Complete)
+* **Domain / Subject**: Indian Economy & Macroeconomic Architecture
+* **Canonical Fifth Treatise Ingested**:
+  - Nitin Singhania, *Indian Economy for Civil Services* (McGraw Hill, 2nd Edition, 2021–2022, 651 pages)
+  - Unified with the foundational quadriad: Ramesh Singh + Vivek Singh + Sanjeev Verma + K. Sankarganesh.
+* **Surgically Enriched Modules**:
+  1. **Chapter 11 (Taxation Architecture)**:
+     - Place of Effective Management (PoEM, Income Tax Act §6(3), ABOI test).
+     - OECD/G20 BEPS 15 Action Points and Two-Pillar Global Minimum Tax Solution.
+     - Inverted Duty Structure statutory refund formula (CGST Rule 89(5)).
+     - Reverse Charge Mechanism (RCM, §§9(3) & 9(4)) with cash-only settlement requirement.
+  2. **Chapter 14 (Employment Dynamics & Demographics)**:
+     - Thompson & Notestein 5-Stage Demographic Transition Theory.
+     - India's 37-Year Demographic Dividend Window (2018–2055, median age 28.4, North-South TFR divergence).
+     - Demographic Dividend vs. Disaster Policy Matrix.
+     - Amartya Sen's "Missing Women" phenomenon & Child Sex Ratio economics.
+  3. **Chapter 19 (Agriculture, Land Reforms & Water Resources)**:
+     - Pre-independence land revenue systems (Permanent Settlement 1793/Cornwallis, Ryotwari 1820/Munro, Mahalwari 1822/Mackenzie).
+     - Four pillars of post-independence land reforms & Model Land Leasing Act 2016.
+     - Digital India Land Records Modernization Programme (DILRMP) with 14-digit ULPIN / Bhu-Aadhaar.
+     - RFCTLARR Act 2013 consent quotas (80% private, 70% PPP, 0% public) and 4x/2x compensation.
+     - Water resource economics: Sources of irrigation (Wells >62%, Canals ~24%, Tanks ~3%), PMKSY 4 pillars (AIBP, HKKP, PDMC, Watershed), Atal Bhujal Yojana, CGWA rules.
+  4. **Chapter 20 (Industrial Architecture & Food Processing)**:
+     - Classical Development Models: Lewis Dual-Sector Model (surplus labor, Lewis Turning Point) & Feldman-Mahalanobis Strategy (capital allocation $\lambda_k$).
+     - Food Processing Industry (FPI): Macro-profile, CIPHET post-harvest loss deficit, PM Kisan SAMPADA Yojana (Mega Food Parks hub-spoke model, Operation Greens TOP to TOTAL 22 perishables), PM-FME (ODOP 35% subsidy).
+  5. **Chapter 21 (Infrastructure & PPP Procurement)**:
+     - Swiss Challenge Procurement Method: Unsolicited proposal lifecycle, Right of First Refusal (ROFR), Kelkar Committee (2015) caution and governance critique.
+  6. **Chapter 22 (Master Revision Vault & Front Matter)**:
+     - Updated Master 60-Second Retrieval Skeletons for Chapters 11, 14, 19, 20, 21.
+     - Added 4 Master Comparative Distinction Tables: Zamindari vs Ryotwari vs Mahalwari; Drip vs Sprinkler Irrigation; Lewis vs Feldman-Mahalanobis; Swiss Challenge vs Standard EPC/HAM.
+     - Updated `00_COVER.md` and `01_TABLE_OF_CONTENTS.md` to reflect the Sovereign Penta-Treatise.
+* **Operating Rules**: Radical non-duplication, first-principles preservation, zero unprompted push without explicit user sign-off.
+
+---
+
+### [STAGED / IN PROGRESS] v006 — Political Science & Constitutional Governance Sovereign Master Architecture
 * **Status**: Staged Locally in `007/` (Development Cycle Initialized)
 * **Domain / Subject**: Political Science, Constitutional Architecture & Indian Governance
 * **Dedicated Operational Base**:

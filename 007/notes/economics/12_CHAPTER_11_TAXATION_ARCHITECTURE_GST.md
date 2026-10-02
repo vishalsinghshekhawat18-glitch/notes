@@ -250,6 +250,24 @@ Capital gains arise from the transfer/sale of a capital asset (shares, real esta
 * Introduced under Chapter X-A of the IT Act (operational from 1st April 2017) based on the **Parthasarathi Shome Committee**.
 * Empowers tax authorities to declare any commercial arrangement as an **"Impermissible Avoidance Arrangement" (IAA)** if its primary purpose was obtaining a tax benefit and it lacks commercial substance (e.g., routing round-tripped black money through treaty-shopping tax havens like Mauritius or Cayman Islands).
 
+#### E. Place of Effective Management (PoEM - Section 6(3)):
+* **Statutory Determination of Corporate Residency**: A foreign company is treated as an Indian tax resident if its Place of Effective Management is situated in India during the previous financial year.
+* **Legal Definition**: PoEM means the place where key commercial and management decisions necessary for the conduct of the business of an entity as a whole are, in substance, made.
+* **The "Active Business Outside India" (ABOI) Test**:
+  - A company qualifies as ABOI if its passive income (dividends, interest, royalties, capital gains) is $\le 50\%$ of total income, AND less than 50% of its total assets, employees, or payroll are situated in India.
+  - If ABOI is satisfied, PoEM is presumed to be outside India unless the majority of board meetings take place in India. Prevents Indian promoters from incorporating shell subsidiaries abroad (e.g. Dubai, Singapore) while executing all operational decisions from Mumbai.
+
+#### F. Base Erosion and Profit Shifting (BEPS) & OECD Inclusive Framework:
+* Refers to tax planning strategies used by Multinational Enterprises (MNEs) that exploit gaps and mismatches in tax rules to artificially shift profits to low or no-tax locations where there is little or no economic activity.
+* **The 15 Action Points of OECD/G20 BEPS**:
+  1. *Action 1*: Addressing tax challenges of the Digital Economy (led to Equalisation Levy & Significant Economic Presence - SEP).
+  2. *Action 5*: Countering Harmful Tax Practices (patent boxes, preferential tax regimes).
+  3. *Action 6*: Preventing Treaty Abuse (Principle Purpose Test - PPT in Bilateral DTAAs to prevent treaty shopping).
+  4. *Action 13*: Country-by-Country (CbC) Reporting and transfer pricing documentation for MNEs with global turnover $> €750 \text{ Million}$ (₹6,400 Crore).
+* **The Two-Pillar Global Tax Consensus**:
+  - *Pillar One*: Reallocation of taxing rights over 25% of residual profits of the largest MNEs to market jurisdictions where users/consumers are located, regardless of physical presence.
+  - *Pillar Two*: **15% Global Minimum Corporate Tax (GloBE rules)**, ensuring MNEs pay a baseline effective tax rate worldwide to end the "race to the bottom" among sovereign tax havens.
+
 ---
 
 ## 11.4 The Goods and Services Tax (GST) Architecture
@@ -456,6 +474,21 @@ $$\text{GST Rate on Input Material} > \text{GST Rate on Finished Good}$$
   2. Creates severe working capital lockups and forces companies to seek government cash refunds under Section 54(3) of CGST Act.
   3. Discourages domestic value addition and makes imported finished goods cheaper than domestically manufactured items.
 * **Remedy**: Ongoing GST rate rationalization exercises by the Group of Ministers (GoM) to align raw material and final output tax rates (e.g., footwear, fertilizers, textiles).
+* **Statutory Refund Formula (Rule 89(5) of CGST Rules)**:
+  $$\text{Maximum Refund Amount} = \left( \frac{\text{Turnover of Inverted Rated Supply} \times \text{Net ITC}}{\text{Adjusted Total Turnover}} \right) - \text{Tax Payable on Inverted Rated Supply}$$
+
+---
+
+### 5. Reverse Charge Mechanism (RCM - Sections 9(3) & 9(4))
+Under the standard GST forward-charge mechanism, the supplier of goods or services collects GST from the buyer and deposits it with the government. Under RCM, the statutory liability to pay GST is **reversed onto the recipient/buyer**:
+* **Section 9(3) Mandatory Categories**: Specific goods/services notified by government where compliance is difficult to enforce on suppliers:
+  1. *Goods Transport Agency (GTA)* services supplied to businesses.
+  2. *Legal Services* provided by individual advocates or senior advocates to business entities.
+  3. *Arbitral Tribunal* services to business entities.
+  4. *Sponsorship Services* provided to corporate bodies or partnership firms.
+  5. *Directors' Remuneration* paid to independent/non-executive directors by companies.
+* **Section 9(4) Supplies from Unregistered Persons**: Procurements of specified goods/services by registered entities from unregistered suppliers (anti-evasion control).
+* **Critical Exam Rule on ITC**: Tax paid under RCM **must be paid in CASH through the Electronic Cash Ledger**; it CANNOT be paid by utilizing existing Input Tax Credit! However, once paid in cash, the recipient can claim ITC on that amount for future outward tax liabilities.
 
 ---
 

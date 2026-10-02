@@ -2,7 +2,7 @@
 
 **Treatise**: Indian Economy & Macroeconomic Architecture  
 **Sovereign Bastion**: Shelf 007 (Isolated Master Knowledge HQ)  
-**Methodology**: Unified Canonical Synthesis of Ramesh Singh, Vivek Singh, Sanjeev Verma, and K. Sankarganesh  
+**Methodology**: Unified Sovereign Penta-Treatise Synthesis of Ramesh Singh, Vivek Singh, Nitin Singhania, Sanjeev Verma, and K. Sankarganesh  
 **Cross-Verification**: MoSPI National Accounts, Reserve Bank of India, Economic Survey, Union Budget
 
 ---

@@ -5,6 +5,7 @@
 **Canonical Sources Unified**:
 * Vivek Singh, *Indian Economy* (7th Ed., Ch. 9: Industry & Infrastructure, §§9.1–9.16)
 * Ramesh Singh, *Indian Economy* (McGraw Hill, Ch. 9: Indian Industry & Infrastructure)
+* Nitin Singhania, *Indian Economy for Civil Services* (McGraw Hill, Ch. 6: Industry & Ch. 7: Industrial Policy)
 * Sanjeev Verma, *The Indian Economy* (Ch. 12: Industrial Sector & Disinvestment Policy)
 * Ministry of Micro, Small and Medium Enterprises: *Gazette Notification on Revised MSME Criteria (June 2020)*
 * Department of Investment and Public Asset Management (DIPAM): *New Public Sector Enterprise Policy (2021)*
@@ -13,9 +14,61 @@
 
 ---
 
-## 20.1 The Evolution of Indian Industrial Policy
+## 20.1 Theoretical Growth Models & The Evolution of Indian Industrial Policy
 
-India's post-independence industrial trajectory underwent a radical transformation from state-dominated command capitalism to market-oriented liberalized enterprise:
+### 1. Classical & Structural Development Models in Indian Industrialization
+
+To understand why independent India selected its capital-goods-led industrial trajectory, one must examine the foundational growth models that framed post-colonial developmental economics:
+
+#### A. The Lewis Dual-Sector Model (Sir W. Arthur Lewis, 1954)
+* **Core Premise**: Developing economies consist of two distinct structural sectors:
+  1. **Traditional Subsistence Sector (Agriculture)**: Characterized by zero or near-zero marginal productivity of labor ($MP_L \approx 0$). Widespread **disguised unemployment** exists; withdrawing surplus workers from the land causes zero loss in total agricultural output.
+  2. **Modern Capitalist Sector (Manufacturing / Industry)**: Characterized by reproducible capital, high productivity, and profit-maximizing commercial behavior.
+* **The Transmission Mechanism**:
+  $$\mathbf{w_{\text{industrial}}} = \mathbf{w_{\text{subsistence}}} + \text{Institutional Margin} \ (\approx 30\%)$$
+  * The modern sector offers a wage slightly above agricultural subsistence earnings, attracting an elastic supply of rural surplus labor.
+  * Capitalists extract an **economic surplus (profits)**, which is reinvested into additional productive capital assets.
+  * Capital accumulation expands the modern sector's demand for labor, continuing until the surplus labor pool is completely absorbed.
+* **The "Lewis Turning Point"**: The structural threshold where surplus rural labor is fully exhausted ($MP_L > 0$ in agriculture). Beyond this point, industrial wages must rise rapidly to attract additional workers, equalizing marginal returns across sectors.
+* **The Indian Aberration**: Why did India fail to replicate the East Asian Lewisian transition?
+  * India's industrial sector developed along **capital-intensive** rather than labor-intensive lines.
+  * Strict regulatory rigidities disincentivized factory-scale labor hiring.
+  * Consequently, surplus agricultural labor leapfrogged the manufacturing sector directly into **low-productivity informal urban services** ("premature tertiarization").
+
+```
+                                 THE LEWIS DUAL SECTOR DYNAMICS
+     Subsistence Sector (Agriculture)                  Modern Capitalist Sector (Industry)
+ ┌──────────────────────────────────────┐          ┌──────────────────────────────────────┐
+ │ • Unlimited supply of surplus labor  │  Labor   │ • Higher marginal productivity ($MP_L > w$) │
+ │ • Marginal product $MP_L \approx 0$  ├─────────►│ • Generates capitalist profit surplus       │
+ │ • Subsistence institutional wage     │ Transfer │ • Reinvestment of profit expands capex       │
+ └──────────────────────────────────────┘          └──────────────────┬───────────────────┘
+                                                                      │ Reinvestment Loop
+                                                                      ▼
+                                                       [Capital Accumulation Engine]
+                                                       (Pulls labor until Lewis Turning Point)
+```
+
+---
+
+#### B. The Feldman-Mahalanobis Strategy (P.C. Mahalanobis / G.A. Feldman)
+* **Historical Origin**: Developed independently by Soviet economist Grigory Feldman (1928) and Indian statistician Prasanta Chandra Mahalanobis (1953); became the analytical backbone of India's **Second Five-Year Plan (1956–1961)**.
+* **Mathematical Structural Split**: The economy is bifurcated into two foundational production sectors:
+  1. **Sector $K$ (Capital Goods / Heavy Investment Goods)**: Machines that manufacture other machines, basic metals (steel), power plants, heavy chemicals.
+  2. **Sector $C$ (Consumer Goods)**: Food, cloth, household amenities.
+* **The Dynamic Allocation Parameter ($\lambda_k$)**:
+  $$\mathbf{I_t} = \mathbf{I}_{K,t} + \mathbf{I}_{C,t} \implies \lambda_k = \frac{I_{K,t}}{I_t}, \quad \lambda_c = 1 - \lambda_k$$
+  Where $\lambda_k$ represents the fraction of total sovereign investment allocated to the capital goods sector.
+* **The Mahalanobis Paradox**:
+  * In the **short run**, allocating a high fraction to capital goods ($\lambda_k \uparrow$) depresses consumer goods production, yielding slower immediate consumption growth.
+  * In the **long run**, because capital goods are self-reproducing (machines that produce machines), a high $\lambda_k$ builds an unshakeable domestic productive base, causing consumer goods and overall national income to grow exponentially faster after an initial gestation lag!
+* **Strategic Outcome & Structural Blindspots**:
+  * Created India's sovereign heavy industrial complex (BHEL, SAIL, HEC Ranchi, nationalized steel towns).
+  * **Critical Weakness**: The severe neglect of agriculture, light consumer manufacturing, and wage-goods produced persistent inflationary pressures, severe food grain shortages, and chronic foreign exchange crises by the mid-1960s.
+
+---
+
+### 2. Historical Trajectory of Indian Industrial Policy Statements
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
@@ -95,7 +148,85 @@ both governed by the exact same thresholds!                         **EXACTLY 5x
 
 ---
 
-## 20.3 CPSE Classification & The Disinvestment Architecture
+---
+
+## 20.3 Food Processing Industry (FPI): Agro-Industrial Ecosystem & Scheme Matrix
+
+The **Food Processing Industry (FPI)** serves as the crucial structural bridge between the primary agricultural sector and the secondary manufacturing sector. Recognized as a **"Sunrise Sector"**, it exhibits immense employment elasticity and capital efficiency:
+
+### 1. Macroeconomic Profile & Structural Bottlenecks
+* **Macro Contribution**: Accounts for approximately **8.5%–9% of Manufacturing GVA**, ~1.5% of overall national GVA, and contributes over **10%–11% of India's total agricultural exports**.
+* **Employment Multiplier**: Employs nearly **2 million workers** in the registered factory sector and over **5 million workers** in unorganized cottage micro-enterprises.
+* **The Value Addition & Processing Deficit**:
+  * Despite India ranking #1 globally in milk, pulses, and spices, and #2 in fruits, vegetables, wheat, and rice, **India processes barely ~10% of its total agricultural output** (fruits and vegetables processing is $< 5\%$, dairy $\approx 35\%$, marine $\approx 26\%$, poultry $\approx 6\%$).
+  * By contrast, developed and peer emerging nations process vastly higher shares: USA (~65%), China (~23%), Malaysia (~80%), Thailand (~30%).
+* **Post-Harvest Losses (CIPHET Study)**: Inadequate post-harvest infrastructure results in estimated economic food losses of **₹92,000+ Crore annually** (losses range from 4.6% to 15.9% across fruits, vegetables, and fisheries).
+
+```
+                            THE INTEGRATED FARM-TO-FORK COLD CHAIN
+  [Farm Gate / Collection Centre] ──► [Primary Processing Centre] ──► [Central Processing Centre] ──► [Consumer Retail]
+  • Aggregation & Sorting             • Washing & Pre-cooling          • Cold Storage & Silos         • Reefer Transport
+  • Mobile Pre-coolers                • Grading & Packaging            • Advanced Food Processing     • Distribution Hubs
+  └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+                                   Zero Broken Cold-Chain Links Mandate
+```
+
+---
+
+### 2. Pradhan Mantri Kisan SAMPADA Yojana (PMKSY)
+Launched under the Ministry of Food Processing Industries (MoFPI) as a comprehensive umbrella package for modern agricultural logistics and processing infrastructure:
+
+```
+┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│ SAMPADA Sub-Pillar              │ Operational Scope & Infrastructure Created                  │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **1. Mega Food Parks (MFP)**    │ • **Hub-and-Spoke Model**: Operates on a minimum 50-acre    │
+│                                 │   land parcel creating a Central Processing Centre (CPC)    │
+│                                 │   connected to Primary Processing Centres (PPCs) and        │
+│                                 │   Collection Centres (CCs) at the farm gate.                │
+│                                 │ • Provides plug-and-play common industrial infrastructure:   │
+│                                 │   cold storage, deep freezing, effluent treatment (ETP).    │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **2. Integrated Cold Chain**    │ • Continuous, unbroken refrigerated supply chain from farm  │
+│                                 │   gate to retail outlet (pre-cooling, reefer vans, storage).│
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **3. Agro-Processing Clusters** │ • Clusters of minimum 10 food processing units on 10+ acres │
+│    **(APC)**                    │   with basic shared infrastructure and processing lines.    │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **4. Creation/Expansion of      │ • Target-specific individual food processing micro/small    │
+│    Capacity (CEFPPC)**          │   units to modernize machinery and augment processing volume│
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **5. Operation Greens**         │ • **"TOP to TOTAL" Expansion**: Initially launched for price│
+│                                 │   stabilization of Tomato, Onion, Potato (TOP); expanded to │
+│                                 │   **22 perishable horticulture commodities**.               │
+│                                 │ • Provides 50% subsidy on transportation and storage leasing│
+│                                 │   during market gluts to prevent distress sales.            │
+└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 3. PM Formalisation of Micro Food Processing Enterprises (PM-FME) Scheme
+* **Policy Context**: Launched under the *Aatmanirbhar Bharat Abhiyan* with an outlay of **₹10,000 Crore** (FY 2020–21 to 2024–25).
+* **The "One District One Product" (ODOP) Strategy**:
+  * Raw material procurement, common processing facilities, quality branding, and commercial retail marketing are coordinated around a single identified crop/product per district (e.g., makhana in Darbhanga, mango in Malihabad, turmeric in Nizamabad).
+* **Financial Architecture**:
+  * **Credit-linked Capital Subsidy**: 35% of eligible project cost with a ceiling of **₹10 Lakh per unit** for technology upgradation of existing unorganized micro food enterprises.
+  * **Seed Capital for Self-Help Groups (SHGs)**: Financial assistance of **₹40,000 per member** of SHGs engaged in food processing for working capital and minor equipment.
+
+---
+
+### 4. Production Linked Incentive Scheme for Food Processing (PLISFPI)
+* Central sector outlay of **₹10,900 Crore** (2021–22 to 2026–27).
+* Aimed at creating global food champion brands and driving export competitiveness across 4 major segments:
+  1. Ready-to-Cook / Ready-to-Eat (RTC/RTE) products including millet-based foods.
+  2. Processed Fruits & Vegetables.
+  3. Marine Products.
+  4. Mozzarella Cheese.
+
+---
+
+## 20.4 CPSE Classification & The Disinvestment Architecture
 
 Central Public Sector Enterprises (CPSEs) are granted graded operational, financial, and managerial autonomy:
 
@@ -176,7 +307,7 @@ Establishes a radical strategic retreat of the State from commercial enterprise:
 
 ---
 
-## 20.4 Industrial Performance Measurement: The IIP & Core Industries
+## 20.5 Industrial Performance Measurement: The IIP & Core Industries
 
 The **Index of Industrial Production (IIP)** is compiled and published monthly by the **National Statistical Office (NSO)**, MoSPI (Base Year **2011–12 = 100**):
 
@@ -214,7 +345,7 @@ The Eight Core Industries represent basic infrastructure foundation goods and ac
 
 ---
 
-## 20.5 Modern Manufacturing Schemes: The Production Linked Incentive (PLI)
+## 20.6 Modern Manufacturing Schemes: The Production Linked Incentive (PLI)
 
 To overcome India's historical manufacturing disabilities (poor logistics, expensive land/power, high compliance costs) and position India as a key player in **Global Value Chains (GVCs)**, the Government launched the **Production Linked Incentive (PLI) Scheme** across 14 strategic sectors with an outlay of **₹1.97 Lakh Crore**:
 
@@ -242,11 +373,29 @@ To overcome India's historical manufacturing disabilities (poor logistics, expen
 
 ---
 
-## 20.6 Examination Lenses & Trap Compendium
+## 20.7 Examination Lenses & Trap Compendium
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
 │ Critical Concept                │ High-Yield Examiner Trap / Exact Distinctions               │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Lewis Turning Point Trap**    │ **TRAP**: The Lewis model assumes agricultural marginal     │
+│                                 │ productivity is zero ($MP_L \approx 0$). Once rural surplus │
+│                                 │ labor is exhausted (the Turning Point), agricultural wages  │
+│                                 │ RISE rapidly and modern sector wages can no longer stay flat│
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Mahalanobis Strategy Focus**  │ **TRAP**: Mahalanobis prioritized **Capital Goods (heavy    │
+│                                 │ machines/steel)** over consumer goods, arguing that machines│
+│                                 │ to produce machines compound long-term output exponentially.│
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Food Processing Share Trap**  │ **TRAP**: India is the #1/#2 producer of many agri crops,   │
+│                                 │ but processes barely **~10% of total produce** (<5% of      │
+│                                 │ fruits & vegetables), far lower than the USA (>60%) or      │
+│                                 │ Malaysia (>80%).                                            │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Operation Greens Coverage**   │ **TRAP**: Operation Greens was originally launched for TOP  │
+│                                 │ (Tomato, Onion, Potato) but has been expanded to **TOTAL**   │
+│                                 │ (**22 perishable horticultural commodities**).              │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **MSME Definition Criteria**    │ **TRAP**: The 2020 definition uses **BOTH Investment AND   │
 │                                 │ Turnover**. Both criteria must be satisfied! There is       │
@@ -273,7 +422,7 @@ To overcome India's historical manufacturing disabilities (poor logistics, expen
 
 ---
 
-## 20.7 Active Recall Diagnostic Cards
+## 20.8 Active Recall Diagnostic Cards
 
 ```
 CARD 1: State the precise composite investment and turnover thresholds for Micro, Small, and Medium enterprises under the post-2020 definition.
@@ -288,7 +437,21 @@ Key Rules:
 ```
 
 ```
-CARD 2: Detail the sectoral composition of the Index of Industrial Production (IIP) and list the top 3 and bottom 1 industries in the Eight Core Industries basket.
+CARD 2: Contrast the Lewis Dual-Sector Model with the Feldman-Mahalanobis Strategy in explaining economic growth.
+ANSWER:
+1. Lewis Dual-Sector Model: Growth is driven by transferring surplus rural labor (with MPL = 0) from subsistence agriculture to modern capitalist industry, generating reinvestable profit surplus until the Lewis turning point.
+2. Feldman-Mahalanobis Strategy: Growth is accelerated by prioritizing investment in Sector K (Capital Goods / machines that produce machines) rather than Sector C (Consumer Goods), sacrificing short-term consumption for exponential long-term industrial capacity.
+```
+
+```
+CARD 3: Explain the core structure of PM Kisan SAMPADA Yojana and PM-FME Scheme in the Food Processing sector.
+ANSWER:
+1. PMKSY: Umbrella Central Sector Scheme incorporating Mega Food Parks (hub-and-spoke CPC-PPC model), Integrated Cold Chain, Agro-Processing Clusters, CEFPPC, and Operation Greens (expanded from TOP to TOTAL 22 perishables).
+2. PM-FME: Launched under Aatmanirbhar Bharat (outlay ₹10,000 Cr) adopting the One District One Product (ODOP) framework; provides 35% credit-linked capital subsidy (up to ₹10 Lakh) and ₹40,000 seed capital per SHG member.
+```
+
+```
+CARD 4: Detail the sectoral composition of the Index of Industrial Production (IIP) and list the top 3 and bottom 1 industries in the Eight Core Industries basket.
 ANSWER:
 1. IIP Sectoral Weights: Manufacturing (77.63%), Mining (14.37%), Electricity (7.99%). Base: 2011–12.
 2. Eight Core Industries (40.27% of IIP):
@@ -297,12 +460,9 @@ ANSWER:
 ```
 
 ```
-CARD 3: Explain the core distinction between Minority Disinvestment, Strategic Disinvestment, and Asset Monetization (NMP).
+CARD 5: Explain the core distinction between Minority Disinvestment, Strategic Disinvestment, and Asset Monetization (NMP).
 ANSWER:
-1. Minority Disinvestment: Government sells a portion of shares via IPO/OFS/ETF but retains >= 51%
-equity and complete management control.
-2. Strategic Disinvestment: Government sells >= 50% shares accompanied by full transfer of management
-control to a private buyer (Privatization).
-3. Asset Monetization (NMP): Government leases the commercial operational and revenue rights of a
-brownfield asset (highway/pipeline) for a fixed tenure while retaining 100% sovereign ownership of the underlying asset.
+1. Minority Disinvestment: Government sells a portion of shares via IPO/OFS/ETF but retains >= 51% equity and complete management control.
+2. Strategic Disinvestment: Government sells >= 50% shares accompanied by full transfer of management control to a private buyer (Privatization).
+3. Asset Monetization (NMP): Government leases the commercial operational and revenue rights of a brownfield asset (highway/pipeline) for a fixed tenure while retaining 100% sovereign ownership of the underlying asset.
 ```
