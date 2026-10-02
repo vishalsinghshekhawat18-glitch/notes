@@ -6,6 +6,7 @@
 * Vivek Singh, *Indian Economy* (7th Ed., Ch. 2, §§2.4–2.8)
 * Ramesh Singh, *Indian Economy* (McGraw Hill, Ch. 11 & 14: Financial Market & Security Market in India)
 * Sanjeev Verma, *The Indian Economy* (Ch. 5: Capital Markets)
+* K. Sankarganesh, *Indian Economy: Key Concepts* (McGraw Hill, 6th Ed., Ch. 8: Indian Financial System - Capital Market)
 * Reserve Bank of India & SEBI: *Master Directions on Money Market Instruments & Secondary Market Trading*
 * Government Securities Act, 2006 & Securities and Exchange Board of India Act, 1992
 
@@ -220,6 +221,44 @@ to raise fresh capital for corporations or government.             TRADED betwee
 * Issued by the Government of India under a specialized framework to mobilize resources for green public sector projects.
 * **Proceeds Ring-Fenced**: The funds raised can be spent exclusively on eligible climate projects: solar/wind power, mass public rapid transit (Metro rails), afforestation, and water management.
 * **Greenium**: Green bonds often price at a slight yield discount (lower interest cost for the sovereign) because global ESG funds willingly accept lower returns for verified green assets.
+
+---
+
+### 3. Cross-Border Equity Depository Receipts: ADRs, GDRs & IDRs
+> *(The Beginner's Intuitive Framework from K. Sankarganesh)*  
+> How can an Indian technology company (like Infosys) raise equity capital from American retail investors who cannot legally trade on the Bombay Stock Exchange in Indian Rupees?
+
+```
+[Indian Company (e.g. Infosys)]
+              │ Issues physical equity shares
+              ▼
+[Domestic Custodian Bank in India]
+              │ Instructs overseas partner
+              ▼
+[Overseas Depository Bank (in New York)]
+              │ Issues negotiable dollar receipts
+              ▼
+[American Depository Receipts (ADRs)] ──► Traded freely on NASDAQ / NYSE in US Dollars!
+```
+
+```
+┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
+│ Instrument                      │ Where Is It Issued & Traded?    │ Denomination Currency & Role    │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **American Depository Receipts  │ Issued and traded exclusively on│ Denominated in **US Dollars**.  │
+│ (ADR)**                         │ **US Stock Exchanges** (NYSE,   │ Subject to stringent US SEC     │
+│                                 │ NASDAQ).                        │ disclosure regulations.         │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Global Depository Receipts    │ Traded on **international       │ Usually denominated in **US     │
+│ (GDR)**                         │ exchanges outside the US**      │ **Dollars or Euros**. Accesses  │
+│                                 │ (London, Luxembourg, Singapore).│ European and Asian capital pools│
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Indian Depository Receipts    │ **The Mirror Image**: Issued in │ Denominated in **Indian Rupees**│
+│ (IDR)**                         │ India and traded on **Indian    │ Allows Indian citizens to invest│
+│                                 │ Stock Exchanges (BSE, NSE)**.   │ in foreign global giants (e.g., │
+│                                 │                                 │ Standard Chartered Bank IDR).   │
+└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
+```
 
 ---
 

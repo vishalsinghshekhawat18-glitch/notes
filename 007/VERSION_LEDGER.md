@@ -17,9 +17,27 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [RELEASED] v003 — Economics Master Treatise: Four-Author Quadriad & Pedagogical Enhancements
+* **Release Date**: 2026-10-02
+* **Status**: Released & Deployed to GitHub Remote Repository
+* **Domain / Subject**: Economics Master Treatise (*Indian Economy & Macroeconomic Architecture*)
+* **Authoritative Source Quadriad Unified**:
+  - Ramesh Singh, *Indian Economy* (McGraw Hill)
+  - Vivek Singh, *Indian Economy* (7th Edition)
+  - Sanjeev Verma, *The Indian Economy*
+  - **K. Sankarganesh, *Indian Economy: Key Concepts* (McGraw Hill, 6th Edition)**
+* **Pedagogical Enhancements Weaved (Sankarganesh Integration)**:
+  - **Chapter 01**: Injected the "Car Mileage in a Controlled Laboratory" mental model for *Ceteris Paribus* and Adam Smith's *Water-Diamond Paradox* (Value-in-Use vs. Value-in-Exchange).
+  - **Chapter 07**: Integrated *Off-Balance Sheet Exposures (OBE)*, contingent liabilities (Bank Guarantees, Letters of Credit), and the mechanics of hidden NPA risks.
+  - **Chapter 09**: Added first-principles deconstruction of cross-border equity instruments: American Depository Receipts (ADR), Global Depository Receipts (GDR), and Indian Depository Receipts (IDR).
+  - **Chapter 11**: Deepened the constitutional economic philosophy of *Origin-Based Taxation vs. Destination-Based (Consumption) Taxation* in GST.
+  - **Front Matter**: Updated `00_COVER.md` and `01_TABLE_OF_CONTENTS.md` to reflect the 4-Author Sovereign Foundation.
+
+---
+
 ### [RELEASED] v002 — Economics Master Treatise: Complete 22 Chapters & Revision Vault
 * **Release Date**: 2026-10-02
-* **Commit SHA**: `1d22d04`
+* **Commit SHA**: `1d22d04` (Audit SHA: `5579e2a`)
 * **Status**: Deployed to GitHub Remote Repository via GitHub Actions
 * **Domain / Subject**: Economics Master Treatise (*Indian Economy & Macroeconomic Architecture*)
 * **Authoritative Source Triad Unified**:

@@ -6,6 +6,7 @@
 * Vivek Singh, *Indian Economy* (7th Ed., Ch. 5: Taxation, §§5.1–5.16)
 * Ramesh Singh, *Indian Economy* (McGraw Hill, Ch. 18: Public Finance & Ch. 19: Tax Structure in India)
 * Sanjeev Verma, *The Indian Economy* (Ch. 6: Fiscal Policy & Taxation System)
+* K. Sankarganesh, *Indian Economy: Key Concepts* (McGraw Hill, 6th Ed., Ch. 5: Public Finance & Ch. 6: Constitution and Indian Economy)
 * Constitution of India (Articles 246, 246A, 265, 269A, 270, 271, 279A, 366(12A))
 * Reports of the Tax Reforms Committee (Raja Chelliah Committee, 1991; Vijay Kelkar Committee, 2002 & 2004)
 * The 101st Constitutional Amendment Act, 2016 & GST Council Resolutions
@@ -259,6 +260,37 @@ Rolled out on **1st July 2017**, GST represents the most radical fiscal-federal 
 1. **The Cascading Effect ("Tax on Tax")**: When excise duty was paid at the factory gate, State VAT was later calculated on the total amount *including* the excise duty. Taxes were levied on previously paid taxes.
 2. **Inter-State Tax Barriers**: Central Sales Tax (CST) of 2% levied on inter-State movement was non-creditable, incentivizing businesses to set up fragmented warehouses in every state rather than operating along supply-chain efficiency.
 3. **Multiplicity of Compliance**: Businesses were forced to file separate returns under Central Excise, Service Tax, State VAT, Octroi, Entry Tax, and Luxury Tax.
+
+---
+
+### The Core Philosophical Revolution: Origin-Based vs. Destination-Based Taxation
+> *(The Constitutional Economic Insight from K. Sankarganesh)*  
+> Why was the transition to GST such a monumental political struggle between Indian States?
+
+```
+┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
+│ Parameter                       │ Pre-GST: The Origin Principle   │ Post-GST: The Destination       │
+│                                 │                                 │ Principle (Consumption Tax)     │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Where Does Tax Accrue?**      │ Tax was collected by the State  │ Tax is collected and credited   │
+│                                 │ where the good was **PRODUCED   │ to the State where the good is  │
+│                                 │ or MANUFACTURED** (Origin).     │ **FINALLY CONSUMED**.           │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Illustrative Scenario**       │ A tractor manufactured in Pune  │ The tractor is sold in Patna.   │
+│                                 │ (Maharashtra) is sold to a      │ Under IGST, the State tax       │
+│                                 │ farmer in Patna (Bihar).        │ component (SGST) is credited to │
+│                                 │ • **Maharashtra collected CST**!│ **Bihar**, where the demand was │
+│                                 │ • Bihar received ₹0 tax revenue!│ created and consumption occurred│
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Fiscal-Federal Dynamic**      │ Historically favored rich,      │ **Fiscal Equalizer**: Empowers  │
+│                                 │ industrialized, coastal         │ high-population consuming states│
+│                                 │ manufacturing hubs (Gujarat,    │ (UP, Bihar, MP, Rajasthan, WB)  │
+│                                 │ Maharashtra, Tamil Nadu).       │ with higher revenue streams!    │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Political Consequence**       │ Manufacturing states resisted   │ Centre had to enact the **5-Year│
+│                                 │ GST, fearing severe tax loss.   │ 14% Compensation Guarantee**!   │
+└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
+```
 
 ---
 

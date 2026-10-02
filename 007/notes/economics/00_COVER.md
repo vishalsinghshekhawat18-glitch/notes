@@ -20,7 +20,7 @@
 
 <div style="font-size: 13px; font-family: monospace; color: #44403c; line-height: 1.8; margin-bottom: 50px;">
   <strong>MULTI-AUTHOR CANONICAL FUSION:</strong><br/>
-  Ramesh Singh (McGraw Hill) • Vivek Singh (7th Edition) • Sanjeev Verma (Unique Academy)<br/>
+  Ramesh Singh (McGraw Hill) • Vivek Singh (7th Ed.) • Sanjeev Verma • K. Sankarganesh (Key Concepts)<br/>
   Cross-Verified with MoSPI National Accounts, Reserve Bank of India Bulletins & Economic Survey
 </div>
 

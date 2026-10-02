@@ -6,6 +6,7 @@
 * Vivek Singh, *Indian Economy* (7th Ed., Ch. 1, §§1.1–1.8)
 * Ramesh Singh, *Indian Economy* (McGraw Hill, Ch. 1: Introduction)
 * Sanjeev Verma, *The Indian Economy* (Ch. 1: Output of an Economy)
+* K. Sankarganesh, *Indian Economy: Key Concepts* (McGraw Hill, 6th Ed., Ch. 1: Introduction to Economics)
 * NCERT Class XII: *Introductory Macroeconomics* (Ch. 1 & 2)
 
 ---
@@ -30,6 +31,24 @@ If resources were infinite, goods would be "free goods" (like atmospheric air in
         [Opportunity Cost]
   (Value of the next best alternative foregone)
 ```
+
+### The Beginner's Mental Model: The "Car Mileage in a Lab" Analogy (*Ceteris Paribus*)
+> **Why do economic theories rely on assumptions like "All other things being equal" (*Ceteris Paribus*)?**  
+> (Pedagogical insight from K. Sankarganesh):  
+> In a car's technical brochure, the manufacturer claims a mileage of **22 Kilometres per Litre (KMPL)**. Yet when you drive it on city roads, it yields only 15 KMPL. Does the 22 KMPL claim mean the engineering test failed?  
+> **No.** The 22 KMPL was measured under **strictly controlled laboratory conditions**—a frictionless test track, calibrated tire pressure, and zero traffic congestion. This laboratory isolation was essential to measure the *inherent efficiency of the engine itself*. In the real world, bad roads, traffic jams, and under-inflated tires introduce friction.  
+> 
+> **The Economic Lesson**: Economists formulate laws (like the Law of Demand: *as price rises, demand falls*) by assuming *Ceteris Paribus* (all other variables, like consumer income and tastes, remain constant). This isolates the fundamental causal link between price and demand. Once the core engine law is understood, economists layer back real-world friction.
+
+---
+
+### The Adam Smith Water-Diamond Paradox: Value-in-Use vs. Value-in-Exchange
+Why is life-giving water virtually free, while useless decorative diamonds command millions?
+* **Value-in-Use**: The total qualitative utility derived from consuming a good. Water has immense value-in-use; without it, human civilization perishes in days.
+* **Value-in-Exchange**: The purchasing power a good commands in the market. Water is available in relative abundance, so its **Marginal Utility (the satisfaction from one additional glass)** drops to near zero, yielding a low price. Diamonds are exceptionally scarce, so their **Marginal Utility of the last unit** is astronomical, commanding an exorbitant exchange price.
+* **Core Takeaway**: Market prices reflect **Marginal Utility and Scarcity**, NOT total utility or moral necessity!
+
+---
 
 ### The Production Possibility Frontier (PPF)
 The PPF is a graphical curve demonstrating the maximum feasible combinations of two goods an economy can produce given fixed resources and existing technology.
