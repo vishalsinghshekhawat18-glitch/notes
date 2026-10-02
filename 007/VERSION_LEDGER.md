@@ -53,12 +53,13 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ---
 
-### [STAGED / IN PROGRESS] v006 — Political Science & Constitutional Governance Sovereign Master Architecture
-* **Status**: Staged Locally in `007/` (Parts I, II, III, IV & V Complete: Batches 1 to 6 Authored)
+### [RELEASED] v006 — Political Science & Constitutional Governance Sovereign Master Architecture
+* **Release Date**: 2026-10-02
+* **Status**: Deployed to GitHub Remote Repository
 * **Domain / Subject**: Political Science, Constitutional Architecture & Indian Governance
 * **Foundational Gold Standard Ingested**:
   - M. Laxmikanth, *Indian Polity* (8th Edition, McGraw Hill 2026, 1,198 pages, 96 chapters)
-  - The Constitution of India (Bare Act, Articles 1 to 51-A, Article 368)
+  - The Constitution of India (Bare Act, Articles 1 to 395+, 12 Schedules, 106 Amendments)
 * **Batch 1 Master Modules Authored (`007/notes/political_science/`)**:
   1. `02_CHAPTER_01_HISTORICAL_UNDERPINNINGS_CONSTITUENT_ASSEMBLY.md`:
      - Company Rule (1773–1858) & Crown Rule (1858–1947) statutory vector.
@@ -168,7 +169,78 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
       - Conceptual origins: Term coined by Arthur Schlesinger Jr. (1947); post-Emergency transformation under Justice V.R. Krishna Iyer and Justice P.N. Bhagwati; shift from *A.K. Gopalan* to *Maneka Gandhi*.
       - Public Interest Litigation (PIL): Relaxation of traditional *Locus Standi*; epistolary jurisdiction (letters treated as writs, *Sunil Batra 1980*); first PIL *Hussainara Khatoon (1979)* (Pushpa Kapila Hingorani "Mother of PIL", Right to Speedy Trial under Art 21); *Bandhua Mukti Morcha (1984)*; *Oleum Gas Leak (1987)* Absolute Liability doctrine; *Vishaka (1997)* judicial lawmaking; *ADR/PUCL (2002)* candidate disclosures.
       - Regulatory guidelines & safeguards: *State of Uttaranchal v. Balwant Singh Chaufal (2010)*; matters excluded from PIL (service, landlord-tenant, college admissions).
-      - Judicial Review vs Activism vs Overreach; Judicial Restraint (*Aravali Golf Course 2007* warning against running the government).
+       - Judicial Review vs Activism vs Overreach; Judicial Restraint (*Aravali Golf Course 2007* warning against running the government).
+* **Batch 7 Master Modules Authored (`007/notes/political_science/`)**:
+  21. `22_CHAPTER_21_CONSTITUTIONAL_BODIES.md`:
+      - Election Commission of India (Article 324): 3-member evolution, equality rule (*T.N. Seshan 1995*), 2023 Statutory Selection Committee (PM + LoP in LS + Union Cabinet Minister post-*Anoop Baranwal 2023*); CEC removed like SC Judge; other ECs removed on CEC recommendation; local body elections excluded.
+      - Comptroller and Auditor General of India (Articles 148–151): 6 yrs / 65 yrs; removed like SC Judge; strictly ineligible for further office; audit scope under 1971 Act; 3 reports to PAC; Regulatory vs Propriety audit.
+      - UPSC & State PSCs (Articles 315–323): UPSC (6 yrs / 65 yrs) vs SPSC (6 yrs / 62 yrs); SPSC appointed by Governor but REMOVED SOLELY BY PRESIDENT under Article 317; misbehaviour reference to SC (SC advice strictly binding); JSPSC statutory.
+      - Finance Commission (Article 280): Quinquennial, Chairman + 4 members qualifications; Vertical/Horizontal devolution, grants-in-aid, Panchayat/Municipality resource augmentation (Arts 280(3)(bb) & (c)); 15th FC 41% devolution.
+      - GST Council (Article 279A, 101st AA 2016): Centre 1/3rd (33.3%) + States 2/3rd (66.7%), 75% weighted passing quota.
+      - National Commissions: NCSC (Art 338), NCST (Art 338A), NCBC (Art 338B via 102nd AA 2018); 5 members, 3-year term, civil court powers. Special Officer for Linguistic Minorities (Art 350-B).
+      - Attorney General (Art 76, qualified as SC judge, pleasure of President, speaks in Parliament without vote under Art 88) vs Advocate General (Art 165, qualified as HC judge, pleasure of Governor, speaks in State Legislature without vote under Art 177).
+  22. `23_CHAPTER_22_STATUTORY_QUASI_JUDICIAL_BODIES.md`:
+      - NITI Aayog: Jan 1, 2015 Cabinet Resolution; replaces Planning Commission; cooperative/competitive federalism; zero fund allocation powers; Governing Council (all CMs + LGs).
+      - NHRC & SHRC: Protection of Human Rights Act 1993 (2019 amendments: 3 yrs / 70 yrs; retired CJI or SC Judge; 6-member selection committee); purely recommendatory; 1-year limitation period.
+      - Central Information Commission (CIC): RTI Act 2005 (2019 amendments: tenure and salaries determined by Centre); 3-member selection committee; civil court powers, ₹25,000 max penalty.
+      - Central Vigilance Commission (CVC): Santhanam Committee (1964); statutory status under CVC Act 2003 (*Vineet Narain*); UNIQUE 4-YEAR TENURE (4 yrs / 65 yrs); 3-member selection committee; superintendence over CBI for corruption.
+      - Lokpal & Lokayuktas Act 2013: 1 Chair + 8 Members (50% judicial); 5-member selection committee; covers PM (with safeguards), Ministers, MPs, Group A-D officers; Lokayukta first in Maharashtra (1971).
+      - CBI: Executive resolution 1963, DSPE Act 1946; Director fixed 2-year tenure (ext. up to 5 yrs); state general/specific consent (§6). National Investigation Agency (NIA Act 2008): Sovereign pan-India terror jurisdiction without state consent.
+      - National Disaster Management Authority (NDMA 2005): PM (National), CM (State), DM + ZP Chair (District).
+  23. `24_CHAPTER_23_TRIBUNALS_REGULATORY_AUTHORITIES.md`:
+      - Tribunals: Part XIV-A (42nd AA 1976); Article 323A (Administrative only, Parliament only, single tier) vs Article 323B (9 domains, Parliament + States, hierarchy allowed); Central Administrative Tribunal (CAT 1985, ₹50 fee, Principles of Natural Justice, Armed Forces excluded); Landmark *L. Chandra Kumar (1997)* (7-judge bench: High Court review under Arts 226/227 is Basic Structure; tribunals act as courts of first instance).
+      - National Green Tribunal (NGT Act 2010): Article 21 base; 6-month mandatory disposal deadline; direct appeal to SC within 90 days; Polluter Pays, Precautionary Principle; Wildlife Protection Act 1972 and Forest Rights Act 2006 strictly excluded.
+      - Economic Regulators: SEBI (1992, SAT appeals), CCI (2002, Raghavan Comm, NCLAT appeals), TRAI (1997, TDSAT appeals), IBBI (IBC 2016, NCLT/DRT), IRDAI (1999), PFRDA (2013).
+       - Consumer Protection Act 2019: Central Consumer Protection Authority (CCPA); District ($\le$ ₹50 L), State (₹50 L – ₹2 Cr), National (> ₹2 Cr, SC appeal within 30 days).
+* **Batch 8 Master Modules Authored (`007/notes/political_science/`)**:
+  24. `25_CHAPTER_24_ELECTORAL_SYSTEM_REPRESENTATION_ACTS.md`:
+      - Part XV (Articles 324–329): Plenary ECI power (*Mohinder Singh Gill 1978*); Article 325 (single general roll, communal electorates ban); Article 326 (61st AA 1988 voting age lowered to 18); Article 329 (judicial bar on delimitation; High Court election petitions).
+      - RPA 1950 vs RPA 1951: RPA 1950 (pre-poll seats, delimitation, rolls, ERO) vs RPA 1951 (conduct, Returning Officer, candidate disqualifications, corrupt practices §123, party registration §29A).
+      - Disqualifications under RPA 1951: Section 8(1) & 8(2); Section 8(3) ($\ge 2$ yrs sentence $\rightarrow$ sentence duration + 6 yrs post-release); *Lily Thomas (2013)* striking down Section 8(4) (instant disqualification); Section 10A (3-yr election expenses bar).
+      - Delimitation: 42nd AA 1976 (1971 freeze) $\rightarrow$ 84th AA 2001 (freeze until post-2026) $\rightarrow$ 87th AA 2003 (2001 census intra-state boundaries); Delimitation orders have force of law and are immune from court challenge.
+      - Electoral reforms vector: Tarkunde (1974), Goswami (1990), Vohra (1993), Indrajit Gupta (1998, state funding in kind), Law Commission 170th & 255th reports; EVMs, VVPAT (*Swamy 2013*), NOTA (*PUCL 2013*), *Electoral Bonds Annulment (ADR 2024)* under Art 19(1)(a).
+  25. `26_CHAPTER_25_POLITICAL_PARTIES_ANTI_DEFECTION_COALITIONS.md`:
+      - Party typology in India: Rajni Kothari's "Congress System" (1952–1967) $\rightarrow$ Coalition era (1989–2014) $\rightarrow$ Dominant multi-party system; National Party criteria (6% in 4 states + 4 LS seats; OR 2% LS seats from 3 states; OR recognized in 4 states); State Party criteria; benefits (symbol, 40 star campaigners, media airtime).
+      - Anti-Defection Law (Tenth Schedule, 52nd AA 1985): "Aaya Ram Gaya Ram" context; 4 grounds of disqualification: voluntary relinquishment (*Ravi S. Naik 1994* broad conduct test), voting against whip (15 days condonation), independent member joining party (instant bar), nominated member joining party after 6 months (grace period within 6 months).
+      - Exemptions: 2/3rd merger under Paragraph 4; 91st AA 2003 DELETED 1/3rd split exemption; Presiding officer exemption.
+      - Deciding authority: Speaker/Chairman functions as a "Tribunal"; *Kihoto Hollohan (1992)* 5-judge bench struck down Para 7 (judicial review available on mala fides/perversity, but no interlocutory stay); *Keisham Meghachandra (2020)* (3-month decision deadline); *Subhash Desai (2023)* (organizational party supremacy over legislative faction).
+  26. `27_CHAPTER_26_PRESSURE_GROUPS_CIVIL_SOCIETY_NGOs.md`:
+      - Pressure groups vs political parties; Pluralist theory (Robert Dahl, David Truman); Almond & Powell 4-tier typology (Associational e.g. FICCI/BKU, Institutional e.g. IAS Assoc, Non-Associational e.g. caste sabhas, Anomic e.g. flash riots).
+      - Civil society & NGOs: Third sector; Social capital (Putnam); FCRA 2010 amended in 2020: mandatory single account at SBI New Delhi Main Branch, administrative expenses capped at 20% (cut from 50%), total ban on sub-granting, public servants barred.
+      - Citizen's Charter: UK 1991 (John Major); adopted in India 1997; 6 principles; lack of legal enforceability; Sevottam model (DARPG: charter, grievance redress, capability); Statutory Public Services Guarantee Acts (Madhya Pradesh 2010 first, daily salary deductions for defaulting bureaucrats).
+  27. `28_CHAPTER_27_RTI_OFFICIAL_SECRETS_GOOD_GOVERNANCE.md`:
+      - Constitutional genesis: Implied under Article 19(1)(a) & 21 (*Raj Narain 1975*, *SP Gupta 1981*); MKSS grassroots movement ("Hamara Paisa, Hamara Hisab"); RTI Act 2005 (effective Oct 12, 2005).
+      - RTI Architecture: Public Authority (§2h); Suo motu disclosure (§4); Timelines (§7: 30 days standard, 48 HOURS for Life or Liberty, 40 days third party); 10 exemptions (§8(1)) with Public Interest override (§8(2)) and 20-year rule (§8(3)); Section 24 security agency exemption with mandatory disclosure for corruption and human rights abuses; Appeals (§19 FAA and CIC/SIC) and Penalties (§20: ₹250/day up to ₹25,000).
+      - Official Secrets Act 1923 (§3 & §5 broad secrecy) vs RTI Act: Section 22 non-obstante clause gives RTI overriding supremacy over OSA.
+       - Good Governance: UN ESCAP 8 pillars; accountability tools (CPGRAMS, PRAGATI monthly PM reviews, Social Audit under MGNREGA §17, Whistle Blowers Act 2014).
+* **Batch 9 Master Modules Authored (`007/notes/political_science/`)**:
+  28. `29_CHAPTER_28_POLITICAL_THEORY_CONCEPTS.md`:
+      - Normative vs. Empirical political theory.
+      - Theories of Liberty: J.S. Mill's Harm Principle (*On Liberty* 1859, self-regarding vs other-regarding acts), Isaiah Berlin's *Two Concepts of Liberty* (Negative vs Positive liberty, dangers of totalitarian perversion).
+      - Theories of Equality: Formal equality, substantive equality of opportunity, Ronald Dworkin's *Equality of Resources* (Endowment-Insensitive vs Ambition-Sensitive luck), Amartya Sen & Martha Nussbaum's *Capability Approach* (Capabilities vs Functionings, capability deprivation).
+      - Theories of Justice: John Rawls (*A Theory of Justice* 1971, Original Position, Veil of Ignorance, Maximin rule, Lexical priority of Equal Basic Liberties, Fair Equality of Opportunity, Difference Principle); Robert Nozick (*Anarchy, State, and Utopia* 1974, Entitlement Theory: acquisition, transfer, rectification; self-ownership; "Liberty upsets patterns"); Michael Sandel (Communitarian unencumbered self critique); Amartya Sen (*Idea of Justice* 2009: *Niti* institutional rules vs *Nyaya* realized human lives).
+      - Theories of Rights: Natural Rights (Locke), Legal Positivism (Bentham: "nonsense upon stilts"), Historical (Burke), Social Welfare (Laski).
+      - Sovereignty: Monistic/Austinian (Bodin, Hobbes, Austin: absolute, indivisible, determinate human superior) vs Pluralist (Laski, Figgis: society is federal, authority must be federal; state as one association among many).
+      - Models of Democracy: Classical direct (Athens, Swiss mechanisms: Referendum, Initiative, Recall, Plebiscite), Protective (Locke, Madison), Elitist (Schumpeter, Pareto, Mosca), Pluralist Polyarchy (Robert Dahl), Deliberative (Habermas' "Ideal Speech Situation").
+  29. `30_CHAPTER_29_MAJOR_POLITICAL_IDEOLOGIES.md`:
+      - Ideology deconstruction: Diagnostic worldview, normative vision, action-oriented strategy.
+      - Liberalism: Classical (Locke, Smith, Bentham, laissez-faire, night-watchman state) vs Modern/Social (T.H. Green, Hobhouse, Keynes, Beveridge, welfare state) vs Neo-Liberalism (Hayek, Friedman, Nozick, Washington Consensus, rollback of state).
+      - Socialism: Utopian (Owen, Fourier, Saint-Simon), Fabian (*inevitability of gradualness*, parliamentary reform, Webbs, Bernard Shaw), Guild Socialism (G.D.H. Cole, industrial democracy, trade guilds).
+      - Marxism & Scientific Socialism: Historical Materialism (Base determining Superstructure, Forces and Relations of Production modes), Theory of Surplus Value (*Das Kapital* 1867), Theory of Alienation (1844 Manuscripts: product, production act, species-essence, society), Class struggle and Dictatorship of the Proletariat, State as coercive instrument of class rule, Withering away of the state.
+      - Western / Neo-Marxism: Antonio Gramsci (*Prison Notebooks*, Cultural Hegemony / *Egemonia*, civil society manufacturing consent, Organic Intellectuals, War of Position vs War of Maneuver), Louis Althusser (Repressive State Apparatuses - RSA vs Ideological State Apparatuses - ISA), Frankfurt School (Herbert Marcuse's *One-Dimensional Man*, consumerist co-optation).
+      - Fascism & Totalitarianism: Giovanni Gentile, Benito Mussolini, Carl Schmitt; radical statism ("Everything in the State, nothing outside, nothing against"), anti-individualism, hyper-nationalism, glorification of war.
+      - Gandhian Political Philosophy: Satyagraha & Ahimsa (active soul-force), absolute continuity of means and ends (seed and tree metaphor), Sarvodaya (*Unto This Last*, welfare of all vs utilitarian majority), Trusteeship (moral redistribution without violence), Swaraj (*Hind Swaraj* 1909: self-rule and self-restraint), Stateless Democracy & Oceanic Circles (concentric village republics, rejection of centralized apex state).
+* **Batch 10 Master Modules Authored (`007/notes/political_science/`)**:
+  30. `31_CHAPTER_30_CAPSTONE_GRAND_SYNTHESIS_VAULT.md`:
+      - Master Constitutional Topography: All 25 Parts & critical articles (1 to 395+).
+      - Complete 12 Schedules Master Directory (1st to 12th Schedule).
+      - Master Constitutional Amendment Acts Compendium: 1st Amendment (1951) through 106th Amendment (*Nari Shakti Vandan* 2023).
+      - The 6 Forms of Parliamentary Majorities: Simple, Effective, Absolute, Special Type 1 (Arts 249/312), Special Type 2 (Art 368), Special Type 3 (Art 61 Impeachment) with mathematical mechanics and constitutional triggers.
+      - Master Distinction Matrices: President vs Governor, 4 Legislative Bill categories (Money, Financial I, Financial II, Ordinary, Amendment), Article 32 vs 226, Financial Committees Triad (PAC vs Estimates vs CoPU).
+      - Unified Emergency Triad: Comprehensive comparison of National (352), President's Rule (356/365), and Financial (360).
+      - The 35 Landmark Supreme Court Cases That Shaped India (1950–2026): Ratios and principles from *A.K. Gopalan* to *Puttaswamy*, *Electoral Bonds (2024)*, and *Punjab/TN Governor (2024)*.
+      - The 30 Deadliest Exam Traps in Indian Polity: In-depth deconstruction of tricky clauses, hidden exceptions, and misleading conventions.
+      - The 100-Question Comprehensive Diagnostic Active Recall Bank: Rapid-fire epistemic mastery check covering every domain of Indian constitutionalism and governance.
 * **Rapid Revision Matrix Sheets (`007/revision/political_science/`)**:
   - `01_REV_CHAPTER_01_HISTORICAL_CONSTITUENT_ASSEMBLY.md`
   - `02_REV_CHAPTER_02_SALIENT_FEATURES_PREAMBLE.md`
@@ -190,6 +262,16 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
   - `18_REV_CHAPTER_18_SUPREME_COURT.md`
   - `19_REV_CHAPTER_19_HIGH_COURT_SUBORDINATE_ADR.md`
   - `20_REV_CHAPTER_20_JUDICIAL_ACTIVISM_PIL.md`
+  - `21_REV_CHAPTER_21_CONSTITUTIONAL_BODIES.md`
+  - `22_REV_CHAPTER_22_STATUTORY_QUASI_JUDICIAL_BODIES.md`
+  - `23_REV_CHAPTER_23_TRIBUNALS_REGULATORY_BODIES.md`
+  - `24_REV_CHAPTER_24_ELECTORAL_SYSTEM_REFORMS.md`
+  - `25_REV_CHAPTER_25_POLITICAL_PARTIES_ANTI_DEFECTION.md`
+  - `26_REV_CHAPTER_26_PRESSURE_GROUPS_CIVIL_SOCIETY.md`
+  - `27_REV_CHAPTER_27_RTI_GOOD_GOVERNANCE.md`
+  - `28_REV_CHAPTER_28_POLITICAL_THEORY.md`
+  - `29_REV_CHAPTER_29_POLITICAL_IDEOLOGIES.md`
+  - `30_REV_CHAPTER_30_GRAND_SYNTHESIS_CAPSTONE.md`
 * **Operating Rules**: Radical non-duplication, first-principles constitutional mechanisms, total replacement standard, zero push without explicit user sign-off.
 
 ---

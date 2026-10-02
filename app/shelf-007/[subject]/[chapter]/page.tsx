@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import {
   getEconomicsChapters,
   getIibfDbfChapters,
+  getPoliticalScienceChapters,
   getShelf007ChapterContent,
 } from '@/lib/shelf007/service';
 import { Shelf007ContinuousReader } from '@/components/shelf007/shelf007-continuous-reader';
@@ -23,17 +24,24 @@ export async function generateStaticParams() {
     subject: 'iibf-dbf',
     chapter: c.slug,
   }));
-  return [...econ, ...dbf];
+  const ps = getPoliticalScienceChapters().map((c) => ({
+    subject: 'political-science',
+    chapter: c.slug,
+  }));
+  return [...econ, ...dbf, ...ps];
 }
 
 export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPageProps) {
   const { subject, chapter } = await params;
 
-  if (subject !== 'economics' && subject !== 'iibf-dbf') {
+  if (subject !== 'economics' && subject !== 'iibf-dbf' && subject !== 'political-science') {
     notFound();
   }
 
-  const data = getShelf007ChapterContent(subject, chapter);
+  const data = getShelf007ChapterContent(
+    subject as 'economics' | 'iibf-dbf' | 'political-science',
+    chapter
+  );
   if (!data) {
     notFound();
   }

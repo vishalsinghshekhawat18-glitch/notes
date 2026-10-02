@@ -31,7 +31,7 @@ export interface Shelf007PartGroup {
 }
 
 export interface Shelf007SubjectMeta {
-  slug: 'economics' | 'iibf-dbf';
+  slug: 'economics' | 'iibf-dbf' | 'political-science';
   name: string;
   badge: string;
   badgeColor: string;
@@ -152,9 +152,11 @@ function extractDescriptionFromMarkdown(content: string, fallback: string): stri
 export function getShelf007Subjects(): Shelf007SubjectMeta[] {
   const econChapters = getEconomicsChapters();
   const dbfChapters = getIibfDbfChapters();
+  const psChapters = getPoliticalScienceChapters();
 
   const econWords = econChapters.reduce((acc, c) => acc + c.wordCount, 0);
   const dbfWords = dbfChapters.reduce((acc, c) => acc + c.wordCount, 0);
+  const psWords = psChapters.reduce((acc, c) => acc + c.wordCount, 0);
 
   return [
     {
@@ -196,7 +198,85 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         '5 Rapid Revision Vaults',
       ],
     },
+    {
+      slug: 'political-science',
+      name: 'Political Science & Constitutional Governance',
+      badge: 'Gold Standard Sovereign Synthesis',
+      badgeColor: 'text-[#14532d] bg-[#f0fdf4] border-[#bbf7d0]',
+      code: 'POL-007',
+      authors: 'M. Laxmikanth (8th Edition, 2026) • The Constitution of India (Bare Act)',
+      description:
+        'Sovereign 30-chapter doctoral-depth master treatise covering Constitutional Framework, Federal Dynamics, Central & State Government Machinery, Judiciary & PIL, Constitutional & Statutory Bodies, Elections, RTI, Political Theory, and Capstone Revision Vault.',
+      totalChapters: psChapters.length,
+      totalWords: psWords,
+      chips: [
+        'Constitutional Framework & Basic Structure',
+        'Parliament & Legislative Procedure',
+        'Supreme Court & Judicial Review',
+        'Constitutional & Statutory Bodies',
+        'Anti-Defection Law & Electoral Reforms',
+        'Political Theory & Capstone Vault (Ch 30)',
+      ],
+    },
   ];
+}
+
+export function getPoliticalScienceChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'political_science');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  return files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    let slug = fileName.replace(/\.md$/, '').toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = fileName.replace(/\.md$/, '').replace(/^\d+_/, '').replace(/_/g, ' ');
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Cover & Master Declaration';
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents';
+    } else if (fileName.includes('CAPSTONE')) {
+      slug = 'chapter-30';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 30: The Grand Synthesis Master Revision Vault';
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${parseInt(chMatch[1], 10)}`;
+        shortTitle = `Chapter ${parseInt(chMatch[1], 10)}: ${fileName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of constitutional doctrines, bare act clauses, judicial precedents, and high-yield examination matrices.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: idx + 1,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
 }
 
 export function getEconomicsChapters(): Shelf007ChapterItem[] {
@@ -364,7 +444,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
   return items;
 }
 
-export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf'): Shelf007PartGroup[] {
+export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'political-science'): Shelf007PartGroup[] {
   if (subject === 'economics') {
     const allChapters = getEconomicsChapters();
     const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -447,6 +527,88 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf'): Shelf0
     }));
   }
 
+  if (subject === 'political-science') {
+    const allChapters = getPoliticalScienceChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Curriculum Blueprint & Sovereign Synthesis Architecture',
+        groupSubtitle: 'Orientation, gold-standard treatise foundation, and 30-chapter master curriculum blueprint',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Constitutional Framework & Philosophy',
+        groupSubtitle: 'Historical underpinnings, constituent assembly, salient features, preamble, citizenship, fundamental rights, DPSP, and basic structure doctrine',
+        slugs: ['chapter-01', 'chapter-02', 'chapter-03', 'chapter-04', 'chapter-05', 'chapter-06'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'System of Government & Federal Dynamics',
+        groupSubtitle: 'Parliamentary vs presidential models, centre-state legislative/administrative/financial relations, inter-state councils, and emergency provisions',
+        slugs: ['chapter-07', 'chapter-08', 'chapter-09', 'chapter-10'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Central Government Machinery',
+        groupSubtitle: 'President of India, Vice-President, Prime Minister, Union Council of Ministers, Cabinet Committees, and Parliament of India legislative procedure',
+        slugs: ['chapter-11', 'chapter-12', 'chapter-13'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'State Executive, State Legislature & Local Governance',
+        groupSubtitle: 'Governor, Chief Minister, State Legislature bicameral dynamics, 73rd Amendment Panchayati Raj, PESA 1996, and 74th Amendment Urban Local Bodies',
+        slugs: ['chapter-14', 'chapter-15', 'chapter-16', 'chapter-17'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'Judicial Architecture & Rights Jurisprudence',
+        groupSubtitle: 'Supreme Court collegium & jurisdictions, High Courts, Subordinate Courts, ADR / Lok Adalats, and Judicial Activism & PIL doctrine',
+        slugs: ['chapter-18', 'chapter-19', 'chapter-20'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'Constitutional, Statutory & Regulatory Bodies',
+        groupSubtitle: 'ECI, CAG, UPSC/SPSC, Finance Commission, GST Council, NITI Aayog, NHRC, CIC, CVC, Lokpal, CBI, NIA, and Tribunals (CAT/NGT)',
+        slugs: ['chapter-21', 'chapter-22', 'chapter-23'],
+      },
+      {
+        partNumber: 'PART VII',
+        groupTitle: 'Political Dynamics, Elections & Governance Mechanisms',
+        groupSubtitle: 'Electoral systems, RPA 1950/1951, Anti-Defection 10th Schedule, Pressure Groups, FCRA 2020, RTI Act 2005, and Good Governance dynamics',
+        slugs: ['chapter-24', 'chapter-25', 'chapter-26', 'chapter-27'],
+      },
+      {
+        partNumber: 'PART VIII',
+        groupTitle: 'Political Theory & Comparative Governance',
+        groupSubtitle: 'Theories of liberty (Mill, Berlin), equality (Dworkin, Sen), justice (Rawls, Nozick), rights, sovereignty (Austin vs Laski), and major political ideologies',
+        slugs: ['chapter-28', 'chapter-29'],
+      },
+      {
+        partNumber: 'PART IX',
+        groupTitle: 'The Capstone: Master Consolidated Revision & Grand Synthesis Vault',
+        groupSubtitle: 'Master article topography, 12 schedules, major amendments, majority formulas, 35 landmark cases, 30 deadliest traps, and 100-question active recall diagnostic',
+        slugs: ['chapter-30'],
+      },
+    ];
+
+    return groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+  }
+
   // IIBF DBF
   const allChapters = getIibfDbfChapters();
   const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -515,8 +677,16 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf'): Shelf0
   });
 }
 
-export function getShelf007ChapterContent(subject: 'economics' | 'iibf-dbf', chapterSlug: string) {
-  const chapters = subject === 'economics' ? getEconomicsChapters() : getIibfDbfChapters();
+export function getShelf007ChapterContent(
+  subject: 'economics' | 'iibf-dbf' | 'political-science',
+  chapterSlug: string
+) {
+  const chapters =
+    subject === 'economics'
+      ? getEconomicsChapters()
+      : subject === 'iibf-dbf'
+      ? getIibfDbfChapters()
+      : getPoliticalScienceChapters();
   const currentIdx = chapters.findIndex((c) => c.slug === chapterSlug);
 
   if (currentIdx === -1) {

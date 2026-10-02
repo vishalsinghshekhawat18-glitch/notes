@@ -16,7 +16,7 @@ import { MarkdownContent } from '@/components/ui/markdown-content';
 import { FontSizeControl } from '@/components/learning/font-size-control';
 
 interface Shelf007ContinuousReaderProps {
-  subject: 'economics' | 'iibf-dbf';
+  subject: 'economics' | 'iibf-dbf' | 'political-science';
   currentChapter: Shelf007ChapterItem;
   prevChapter: Shelf007ChapterItem | null;
   nextChapter: Shelf007ChapterItem | null;
@@ -32,13 +32,15 @@ export function Shelf007ContinuousReader({
 }: Shelf007ContinuousReaderProps) {
   const [activeSectionIndex, setActiveSectionIndex] = useState(0);
   const [isOutlineOpen, setIsOutlineOpen] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   const subjectTitle =
     subject === 'economics'
       ? 'Economics Master Treatise'
-      : 'IIBF Diploma in Banking & Finance';
+      : subject === 'iibf-dbf'
+      ? 'IIBF Diploma in Banking & Finance'
+      : 'Political Science & Constitutional Governance';
 
   // Sync scroll position with active section index
   useEffect(() => {
@@ -70,7 +72,7 @@ export function Shelf007ContinuousReader({
     }
   }, []);
 
-  // Keyboard navigation: J (next section), K (prev section)
+  // Keyboard navigation: J (next section), K (prev section), Esc (close drawer)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
@@ -85,6 +87,9 @@ export function Shelf007ContinuousReader({
         if (activeSectionIndex > 0) {
           scrollToSection(activeSectionIndex - 1);
         }
+      } else if (e.key === 'Escape') {
+        setIsSidebarOpen(false);
+        setIsOutlineOpen(false);
       }
     };
 
@@ -98,6 +103,7 @@ export function Shelf007ContinuousReader({
       el.scrollIntoView({ behavior: 'smooth' });
       setActiveSectionIndex(index);
       setIsOutlineOpen(false);
+      setIsSidebarOpen(false);
     }
   };
 
@@ -231,27 +237,60 @@ export function Shelf007ContinuousReader({
         )}
       </header>
 
-      {/* Reader Layout: Left Sidebar + Center Reading Content */}
-      <div className="flex w-full min-h-[calc(100vh-3.5rem)] overflow-x-hidden max-w-full">
-        {/* Left Sidebar (Matches ChapterNavigationSidebar) */}
-        {isSidebarOpen && (
-          <aside className="w-72 sm:w-80 border-r border-stone-200 bg-stone-50/90 text-stone-800 flex flex-col shrink-0 select-none sticky top-12 h-[calc(100vh-3rem)] overflow-hidden">
-            {/* 1. Header: Back Link & Subject Title */}
-            <div className="p-4 border-b border-stone-200 bg-white/70 backdrop-blur-xs space-y-2">
-              <Link
-                href={`/shelf-007/${subject}`}
-                className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-stone-600 hover:text-emerald-800 transition-colors group"
+      {/* Floating Collapsible Left Index Toggle (Accessible anywhere on the page, even middle of reading) */}
+      <button
+        onClick={() => setIsSidebarOpen(true)}
+        className={`fixed left-3 sm:left-5 top-20 z-30 bg-stone-900/90 hover:bg-stone-900 text-stone-100 pl-3 pr-3.5 py-2 rounded-xl shadow-lg border border-stone-700/80 backdrop-blur-md flex items-center gap-2 text-xs font-mono font-medium transition-all hover:scale-105 cursor-pointer group ${
+          isSidebarOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
+        }`}
+        title="Open Table of Contents (Esc to close)"
+        aria-label="Open Table of Contents"
+      >
+        <BookOpen className="w-3.5 h-3.5 text-emerald-400 group-hover:text-emerald-300" />
+        <span className="font-sans font-medium text-stone-200">Index</span>
+        <span className="text-[10px] text-stone-400 bg-stone-800 px-1.5 py-0.5 rounded-full border border-stone-700">
+          § {activeSectionIndex + 1}/{currentChapter.sections.length}
+        </span>
+      </button>
+
+      {/* Collapsible Left Index Navbar (Overlay Drawer: Content stays right in centre at all times) */}
+      {isSidebarOpen && (
+        <>
+          {/* Backdrop */}
+          <div
+            onClick={() => setIsSidebarOpen(false)}
+            className="fixed inset-0 bg-stone-950/30 backdrop-blur-xs z-50 transition-opacity animate-in fade-in duration-150"
+          />
+
+          {/* Slide-out Drawer */}
+          <aside className="fixed left-0 top-0 bottom-0 w-80 sm:w-88 z-50 bg-stone-50 text-stone-800 flex flex-col shadow-2xl border-r border-stone-200 animate-in slide-in-from-left duration-200 select-none">
+            {/* 1. Header: Back Link, Title & Close Button */}
+            <div className="p-4 border-b border-stone-200 bg-white/90 backdrop-blur-xs flex items-center justify-between gap-2">
+              <div className="min-w-0">
+                <Link
+                  href={`/shelf-007/${subject}`}
+                  className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-stone-600 hover:text-emerald-800 transition-colors group mb-0.5"
+                >
+                  <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover:-translate-x-0.5 text-stone-500 group-hover:text-emerald-800" />
+                  <span>Subject Curriculum</span>
+                </Link>
+                <h2 className="font-serif font-bold text-sm text-stone-900 leading-snug truncate max-w-[220px]">
+                  {subjectTitle}
+                </h2>
+              </div>
+
+              <button
+                onClick={() => setIsSidebarOpen(false)}
+                className="p-1.5 rounded-lg text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition-colors cursor-pointer"
+                title="Close Index (Esc)"
+                aria-label="Close Index"
               >
-                <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover:-translate-x-0.5 text-stone-500 group-hover:text-emerald-800" />
-                <span>Subject Curriculum</span>
-              </Link>
-              <h2 className="font-serif font-bold text-sm text-stone-900 leading-snug truncate">
-                {subjectTitle}
-              </h2>
+                <X className="w-4 h-4" />
+              </button>
             </div>
 
             {/* 2. Fast Search Bar */}
-            <div className="p-2.5 border-b border-stone-200 bg-white/40">
+            <div className="p-2.5 border-b border-stone-200 bg-white/60">
               <div className="relative">
                 <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-stone-400" />
                 <input
@@ -273,7 +312,7 @@ export function Shelf007ContinuousReader({
             </div>
 
             {/* 3. Scrollable Chapter List */}
-            <nav className="flex-1 overflow-y-auto p-2 space-y-1 text-xs">
+            <nav className="flex-1 overflow-y-auto p-2.5 space-y-1 text-xs">
               {filteredChapters.map((ch) => {
                 const isCurrent = ch.slug === currentChapter.slug;
                 const isExpanded = expandedSlugs.has(ch.slug) || sidebarSearch.trim().length > 0;
@@ -329,7 +368,7 @@ export function Shelf007ContinuousReader({
                                   window.location.href = `/shelf-007/${subject}/${ch.slug}#${sec.id}`;
                                 }
                               }}
-                              className={`w-full text-left px-2 py-1 rounded text-[11px] truncate flex items-center gap-1.5 transition-colors cursor-pointer ${
+                              className={`w-full text-left px-2 py-1.5 rounded text-[11px] truncate flex items-center gap-1.5 transition-colors cursor-pointer ${
                                 isSectionActive
                                   ? 'bg-emerald-800 text-white font-medium shadow-2xs'
                                   : 'text-stone-600 hover:bg-stone-200/60 hover:text-stone-900'
@@ -349,11 +388,18 @@ export function Shelf007ContinuousReader({
                 );
               })}
             </nav>
-          </aside>
-        )}
 
-        {/* Main Content Body (Matches TopicContinuousReader) */}
-        <main className="flex-1 min-w-0 max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-8 space-y-12 overflow-x-hidden">
+            {/* Footer with shortcut hint */}
+            <div className="p-3 border-t border-stone-200 bg-stone-100/60 text-[10px] font-mono text-stone-500 text-center">
+              Press <kbd className="px-1 py-0.5 bg-white border border-stone-300 rounded text-stone-700">Esc</kbd> to close index
+            </div>
+          </aside>
+        </>
+      )}
+
+      {/* Main Content Body: Centered right in the viewport center, orientation never shifts */}
+      <div className="w-full min-h-[calc(100vh-3.5rem)]">
+        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
           {/* Chapter Introduction Hero */}
           <section className="border-b border-stone-200 pb-6 space-y-2">
             <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-emerald-800">
