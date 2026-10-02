@@ -343,7 +343,7 @@ The Indian Constitution originally comprised **22 Parts, 395 Articles, and 8 Sch
 
 ---
 
-## 8. The 30 Deadliest Exam Traps in Indian Polity
+## 8. The 50 Deadliest Exam Traps in Indian Polity (Audited from 1,520 Forensic Cases)
 
 ```
 ┌────┬───────────────────────────────────────┬─────────────────────────────────────────────────────────┐
@@ -389,6 +389,43 @@ The Indian Constitution originally comprised **22 Parts, 395 Articles, and 8 Sch
 │    │                                       │ (Article 243(b)), NOT all village inhabitants!          │
 │ 30 │ PESA Act 1996 Gram Sabha Rights       │ Mandatory ownership of Minor Forest Produce & consent   │
 │    │                                       │ for minor mineral mining in Scheduled Areas!            │
+│ 31 │ Governor Death Sentence Commutation   │ Governor CAN suspend, remit, or commute death sentences │
+│    │                                       │ under Art 161; only full PARDON is exclusive to Pres.   │
+│ 32 │ Regional Election Commissioner Removal│ Removed ONLY on recommendation of Chief Election Commi- │
+│    │                                       │ ssioner under Art 324(5), NOT the Governor of State!    │
+│ 33 │ No-Confidence Motion Mention          │ Phrase is NOWHERE in Constitution; governed entirely by │
+│    │                                       │ Rule 198 of Rules of Procedure of Lok Sabha!            │
+│ 34 │ Single Common Electoral Roll (Art 325)│ Only ONE general electoral roll for every constituency; │
+│    │                                       │ zero separate rolls for Parliament vs State Assembly!   │
+│ 35 │ Zonal Councils Legal Genesis          │ Statutory under States Reorganisation Act 1956; NOT     │
+│    │                                       │ constitutional under Art 263 (Inter-State Council)!     │
+│ 36 │ Trade in Foodstuffs Entry             │ Concurrent List (Entry 33), NOT exclusive Union List!   │
+│ 37 │ Rajya Sabha PAC Members Equal Status  │ Members of RS in PAC have FULL voting and participation │
+│    │                                       │ rights equal to Lok Sabha members!                      │
+│ 38 │ Co-operative Societies Directors Cap  │ Art 243-ZJ caps directors at 21, NOT 25; State Legis-   │
+│    │                                       │ lature makes laws under Entry 32, not Parliament!       │
+│ 39 │ State Official Language Adoption      │ State Legislature by law adopts languages under Art 345 │
+│    │                                       │ NOT the Parliament of India!                            │
+│ 40 │ Attorney General Qualifications       │ Must be qualified to be a Supreme Court Judge (Art 76), │
+│    │                                       │ NOT High Court Judge (Advocate General is HC qualified)!│
+│ 41 │ Art 19(2) Restriction Exclusions      │ "Protection of minorities" is NOT a ground for speech   │
+│    │                                       │ restriction under Art 19(2)! 8 grounds strictly defined.│
+│ 42 │ Anticipatory National Emergency       │ Can be proclaimed BEFORE actual occurrence of war or    │
+│    │                                       │ aggression in anticipation under Art 352 Explanation!   │
+│ 43 │ Public Health & Sanitation Entry      │ Exclusive State List (Entry 6), NOT Concurrent List!    │
+│ 44 │ Table of Precedence Governor Rank     │ Governors within their States rank 4th (ABOVE Former    │
+│    │                                       │ Presidents, Deputy PM, and Chief Justice of India)!     │
+│ 45 │ CVC Unique Four-Year Tenure           │ 4 years or age 65 (CVC Act 2003), NOT 5 or 6 years!     │
+│ 46 │ CBI Legal Source                      │ DSPE Act 1946; CBI itself is non-statutory, established │
+│    │                                       │ by executive resolution in 1963!                        │
+│ 47 │ Lokpal PM Exclusion Zones             │ Cannot inquire into PM on international relations,      │
+│    │                                       │ external/internal security, public order, atomic/space! │
+│ 48 │ Mandatory Bill Reservation (Art 200)  │ Governor is legally BOUND to reserve state bill if it   │
+│    │                                       │ derogates from High Court powers (Art 200 2nd proviso)! │
+│ 49 │ Intermediate Panchayat Exemption      │ States under 20 lakh population need not constitute     │
+│    │                                       │ intermediate Panchayats (Panchayat Samitis, Art 243-B)! │
+│ 50 │ Provisions in force on 26 Nov 1949    │ Emergency and Federal provisions took effect on 26 Jan  │
+│    │                                       │ 1950, NOT 26 Nov 1949 (Art 394 specified only 16 arts)! │
 └────┴───────────────────────────────────────┴─────────────────────────────────────────────────────────┘
 ```
 

@@ -17,6 +17,52 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED / IN PROGRESS] v008 — Economic and Social Issues (ESI) Sovereign Master Synthesis & 4 New Dedicated Chapters (CrackGradeB / CGB Mentors ESI Integration)
+* **Status**: Staged Locally in `007/` (1,100 Static Pages Verified, Build Succeeded)
+* **Domain / Subject**: Economics & Social Issues (ESI) Sovereign Synthesis (RBI Grade B, NABARD Grade A, UPSC CSE)
+* **Authoritative Coaching Material Ingested**:
+  - CrackGradeB / CGB Mentors ESI 2025–2026 Batch Courseware (21 PDF modules, ~95,000 words covering Labor Policy, Urbanization, Migration, Five-Year Plans, NITI Aayog, FTP 2023, Sustainable Development, and Multiculturalism).
+* **New Dedicated Sovereign Chapters Authored (`007/notes/economics/`)**:
+  1. `24_CHAPTER_22_ECONOMIC_PLANNING_FIVE_YEAR_PLANS_NITI_AAYOG.md`: Pre-independence planning (Visvesvaraya, NPC 1938, Bombay, Gandhian, People's, Sarvodaya); Cabinet resolutions 1950 & NDC 1952; All 12 FYPs review (Harrod-Domar, Mahalanobis 4-sector, Gadgil formula, Indicative planning); Transition to NITI Aayog (Jan 1, 2015); 15-7-3 planning horizon; Aspirational Districts (112 dist, 3C model, 5 pillars) & Aspirational Blocks (500 blocks).
+  2. `25_CHAPTER_23_LABOR_LAW_ARCHITECTURE_FOUR_LABOR_CODES.md`: Concurrent List 22/24; 2nd NCL (2002, Ravindra Varma); Enterprise dwarfism & informalization; The 4 Labor Codes (Wages 2019, IR 2020, Social Security 2020, OSH 2020); 300-worker retrenchment threshold; Sole negotiating union (51%); Fixed-Term gratuity in 1 year; 14-day strike notice; Gig/Platform worker fund (Aggregators 1-2% turnover capped at 5% payout); Factory thresholds 20/40; Women night shifts with consent.
+  3. `26_CHAPTER_24_URBANIZATION_DEMOGRAPHIC_TRANSITION_MIGRATION.md`: Statutory Towns (4,041) vs Census Towns (3,894 criteria); Census 2011 urban profile (31.16%, 377.1M); State rankings (Goa top 62.2%, HP lowest 10.0%, MH largest absolute 50.8M); Slum profile (65.5M / 17.4%); Theories of migration (Everett Lee Push-Pull, Ravenstein Laws, Harris-Todaro model); 455.7M internal migrants (37.6%); Urban missions: Smart Cities (100 ICCCs), AMRUT 2.0 (4,700 ULBs), PMAY-U (4 verticals), ONORC, e-Shram, ARHC.
+  4. `27_CHAPTER_25_SOCIAL_STRUCTURE_MULTICULTURALISM_PLURALISM.md`: Normative multiculturalism theories (Will Kymlicka liberal model & group-differentiated rights; Bhikhu Parekh dialogical pluralism; Charles Taylor politics of recognition); "Melting Pot" vs "Salad Bowl"; Indian secularism ("Principled Distance", Articles 15, 25–30); 8th Schedule (22 languages), Classical languages; Religious distribution (Census 2011); Affirmative action (SC 15%, ST 7.5%, OBC 27% Mandal/Indra Sawhney, EWS 10% Janhit Abhiyan 2022).
+* **Major Upgrades to Existing Chapters**:
+  - `18_CHAPTER_17_FOREX_NEER_REER_CONVERTIBILITY.md`: Injected Foreign Trade Policy 2023 (FTP 2023) architecture ($2T target by 2030, 4 pillars, Districts as Export Hubs, SCOMET) and Special Rupee Vostro Accounts (SVRA) international trade settlement.
+  - `22_CHAPTER_21_INFRASTRUCTURE_LOGISTICS_ENERGY_TRANSITION.md`: Injected 17 SDGs + 169 targets matrix, Global Climate Accords (Stockholm, Brundtland, Rio 1992, Kyoto flexible mechanisms CDM/JI/IET, Paris Agreement, COP28 UAE Consensus / Global Stocktake), NAPCC 8 National Missions, Mission LiFE, and Sovereign Green Bonds.
+  - `28_CHAPTER_26_THE_GRAND_SYNTHESIS_MASTER_REVISION_VAULT.md`: Upgraded title and 60-second concept retrieval skeletons to span all 25 chapters.
+* **Rapid Revision Matrices Authored (`007/revision/economics/`)**:
+  - `23_REV_CHAPTER_22_PLANNING_NITI.md`
+  - `24_REV_CHAPTER_23_LABOR_CODES.md`
+  - `25_REV_CHAPTER_24_URBANIZATION_MIGRATION.md`
+  - `26_REV_CHAPTER_25_MULTICULTURALISM_PLURALISM.md`
+* **Navigation & Service Updates (`lib/shelf007/service.ts`)**:
+  - Registered PART IX: Economic Planning, Labor Architecture & Social Issues (ESI) and PART X: Capstone Sovereign Synthesis across 25 chapters.
+
+### [STAGED / IN PROGRESS] v007 — Political Science Objective Diagnostic Vault & 1,520 MCQ Forensic Engine (M. Laxmikanth Objective Integration)
+* **Status**: Staged Locally in `007/` (Validation & Forensic Verification Complete)
+* **Domain / Subject**: Political Science & Indian Polity Objective Diagnostic Examination Engine
+* **Authoritative Question Bank Treatise Ingested**:
+  - M. Laxmikanth, *Objective Indian Polity: General Studies Paper-I* (McGraw Hill Education, 469 pages, 1,520 curated objective MCQs across 71 chapters, 10 appendices, and 10 full-length model test papers)
+* **Sovereign Modules Authored (`007/question_bank/political_science/`)**:
+  1. `00_COVER.md`: Sovereign Cover, Epistemic Charter, and 1,520-Question Curricular Audit Taxonomy.
+  2. `01_INDEX_AND_METHODOLOGY.md`: Curricular Index mapping all 71 book chapters, 10 appendices, and 10 model tests; 3-step active recall protocol and multi-statement elimination drills.
+  3. `02_PART_I_CONSTITUTIONAL_FRAMEWORK_DRILL.md`: Book Chapters 1–11 (Historical Underpinnings, Constituent Assembly, Salient Features, Preamble, Territory, Citizenship, FRs, DPSP, Duties, Amendment, Basic Structure) with complete answer keys & forensic trap autopsies.
+  4. `03_PART_II_SYSTEM_OF_GOVERNMENT_DRILL.md`: Book Chapters 12–16 (Parliamentary System, Federal System, Centre-State Relations, Inter-State Relations, Emergency Provisions) with complete answer keys & trap autopsies.
+  5. `04_PART_III_CENTRAL_GOVERNMENT_DRILL.md`: Book Chapters 17–25 (President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees, Parliament, Parliamentary Committees, Supreme Court) with complete answer keys & trap autopsies.
+  6. `05_PART_IV_STATE_LOCAL_GOVERNANCE_DRILL.md`: Book Chapters 26–37 (Governor, Chief Minister, State Council of Ministers, State Legislature, High Courts, Subordinate Courts, Special Provisions, Panchayati Raj, Municipalities, UTs & Scheduled/Tribal Areas) with complete answer keys & trap autopsies.
+  7. `06_PART_V_CONSTITUTIONAL_STATUTORY_BODIES_DRILL.md`: Book Chapters 38–56 (Election Commission, UPSC, SPSC, Finance Commission, NCSC, NCST, Special Officer for Linguistic Minorities, CAG, Attorney General, Advocate General, NITI Aayog, NHRC, SHRC, CIC, SIC, CVC, CBI, Lokpal/Lokayukta) with complete answer keys & trap autopsies.
+  8. `07_PART_VI_POLITICAL_DYNAMICS_GOVERNANCE_DRILL.md`: Book Chapters 57–71 (Co-operative Societies, Official Language, Public Services Art 311, Tribunals, Special Provisions Certain Classes, Political Parties, Elections, Election Laws, Electoral Reforms, Voting Behaviour, Coalition Government, Anti-Defection Law, Pressure Groups, National Integration, NCRWC) with complete answer keys & trap autopsies.
+  9. `08_PART_VII_APPENDICES_HIGH_YIELD_DRILL.md`: Appendices 1–10 (81 Curated MCQs covering Articles 1–395, 7th Schedule Union/State/Concurrent subjects, Table of Precedence, Constitutional Amendments 1st–106th, Presidential/VP elections math, Flag Code, and Models) with complete answer keys & trap autopsies.
+  10. `09_PART_VIII_MODEL_TEST_PAPERS_01_TO_05.md`: Full-Length Simulation Model Test Papers 01 to 05 (125 MCQs) with complete 5-paper answer matrix and forensic trap autopsies.
+  11. `10_PART_IX_MODEL_TEST_PAPERS_06_TO_10.md`: Full-Length Simulation Model Test Papers 06 to 10 (125 MCQs) with complete 5-paper answer matrix and forensic trap autopsies.
+* **Capstone Master Enhancements**:
+  - `31_CHAPTER_30_CAPSTONE_GRAND_SYNTHESIS_VAULT.md`: Expanded Section 8 from 30 to **The 50 Deadliest Exam Traps in Indian Polity** incorporating traps 31 through 50 (Governor death sentence commutation vs pardon, Regional Commissioner removal, no-confidence motion Lok Sabha rule 198 origin, single common roll Art 325, Zonal Councils 1956 statutory origin, foodstuffs Concurrent list entry 33, RS members equal PAC status, co-operatives 21 directors cap, Art 19(2) minority exclusion, anticipatory emergency, table of precedence governor rank 4, CVC 4-year tenure, CBI DSPE 1946 origin, Lokpal PM exclusion zones, mandatory Art 200 bill reservation, 20L intermediate panchayat exemption, 26 Nov 1949 provisions).
+  - `30_REV_CHAPTER_30_GRAND_SYNTHESIS_CAPSTONE.md`: Expanded Section 3 to **Top 20 Instant Killer Traps**.
+* **Operating Rules**: Radical non-duplication, first-principles preservation, zero cross-shelf bleed, total replacement standard, zero unprompted push without explicit user sign-off.
+
+---
+
 ### [STAGED / IN PROGRESS] v005 — Economics Sovereign Penta-Treatise Synthesis (Nitin Singhania Integration)
 * **Status**: Staged Locally in `007/` (Validation & Static Build Complete)
 * **Domain / Subject**: Indian Economy & Macroeconomic Architecture

@@ -248,7 +248,57 @@ Formulated by economists Robert Mundell and Marcus Fleming, the **Trilemma** sta
 
 ---
 
-## 17.7 Examination Lenses & Trap Compendium
+## 17.7 Foreign Trade Policy 2023 (FTP 2023) & International Rupee Settlement
+
+Released by the Directorate General of Foreign Trade (DGFT), Ministry of Commerce and Industry, the **Foreign Trade Policy 2023** took effect on **April 1, 2023**. Unlike previous Five-Year FTP iterations (e.g., FTP 2015–20), FTP 2023 is a **dynamic, perpetual policy document** without a fixed sunset date, designed to be nimble and continuously responsive to shifting global trade realities.
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                   FOREIGN TRADE POLICY 2023: THE FOUR STRATEGIC PILLARS                          │
+├────────────────────┬─────────────────────────────────────────────────────────────────────────────┤
+│ Strategic Pillar   │ Operational Mechanisms & Institutional Commitments                          │
+├────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **1. Incentive to  │ Structural shift away from export subsidies (actionable under WTO SCM       │
+│    Remission**     │ rules) toward automatic, transparent remission of embedded domestic taxes:  │
+│                    │ • **RoDTEP** (Remission of Duties and Taxes on Exported Products)           │
+│                    │ • **RoSCTL** (Rebate of State and Central Taxes and Levies for textiles)    │
+├────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **2. Export Promo- │ Institutionalizing a decentralized export ecosystem:                        │
+│    tion through    │ • **Districts as Export Hubs (DEH)**: Each district identifies 2–3 products │
+│    Collaboration** │   with competitive advantage; District Export Promotion Committees (DEPC).  │
+│                    │ • Active coordination with Indian Foreign Missions abroad for market access.│
+├────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **3. Ease of Doing │ Drastic reduction in transaction costs and regulatory friction:             │
+│    Business**      │ • MSME user charges for Advance Authorisation and EPCG schemes capped at    │
+│                    │   ₹5,000 (down from ₹1 Lakh). Paperless dual-use electronic applications.   │
+├────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ **4. Emerging      │ Future-proofing India's export basket:                                      │
+│    Areas**         │ • **E-Commerce Exports**: Consignment cap doubled from ₹5 Lakh to ₹10 Lakh; │
+│                    │   establishment of designated E-Commerce Export Hubs (ECEH).                │
+│                    │ • **SCOMET Streamlining**: Rationalized export of dual-use high-tech items. │
+│                    │ • **Green Technology**: Reduced export obligation for green energy goods.   │
+└────────────────────┴─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### The $2 Trillion Export Target by 2030
+FTP 2023 establishes a national target of achieving **US$ 2 Trillion in aggregate exports by 2030**:
+- **US$ 1 Trillion** in Merchandise Exports
+- **US$ 1 Trillion** in Services Exports (leveraging India's global IT, BPM, financial, and engineering consultancy leadership).
+
+### International Trade Settlement in Indian Rupee (INR)
+Under the RBI framework dated **July 11, 2022**, and codified within FTP 2023, India operationalized the mechanism for invoicing, payment, and settlement of international trade in Indian Rupees:
+- **Special Rupee Vostro Accounts (SVRA)**: Foreign correspondent banks open SVRAs with authorized dealer banks in India.
+- **Settlement Mechanics**: Indian importers pay in INR into the foreign bank's SVRA; Indian exporters are paid in INR from the foreign bank's SVRA.
+- **Surplus Balances**: Foreign entities can invest surplus INR balances in Indian Government Securities (G-Secs), Treasury Bills, or local investment projects.
+- **Strategic Impact**: Bypasses US Dollar payment gateways (SWIFT sanctions), insulates bilateral trade from exchange rate volatility, preserves forex reserves, and marks the initial step toward the internationalization of the Rupee.
+
+### Towns of Export Excellence (TEE) & Status Holders
+- **Towns of Export Excellence**: FTP 2023 added 4 new towns—**Faridabad** (Apparel), **Mirzapur** (Handmade Carpets), **Moradabad** (Handicrafts), and **Varanasi** (Handlooms and Handicrafts)—taking the national total to **43 TEEs** eligible for financial support under the Market Access Initiative (MAI).
+- **Status Holder Tiers**: Recalibrated export thresholds (1-Star at $3M up to 5-Star at $800M) allowing exporters priority customs clearances, exemption from compulsory negotiation of documents, and two-star status holders to self-certify manufactured goods.
+
+---
+
+## 17.8 Examination Lenses & Trap Compendium
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐

@@ -55,9 +55,22 @@ PART VIII: POLITICAL THEORY & COMPARATIVE GOVERNANCE (OPTIONAL & NET FOUNDATION)
   ├── Chapter 28: Political Theory: Liberty, Equality, Justice, Rights, Democracy & Sovereignty
   └── Chapter 29: Major Political Ideologies: Liberalism, Socialism, Marxism, Fascism & Gandhism
 
-PART IX: THE CAPSTONE: MASTER CONSOLIDATED REVISION & PYQ VAULT
+PART IX: THE CAPSTONE: MASTER CONSOLIDATED REVISION & CAPSTONE VAULT
   └── Chapter 30: The Grand Synthesis: 60-Second Retrieval Skeletons, Master Distinction Matrices,
-                  Unified Trap Compendium & Diagnostic Active Recall Bank
+                  The 50 Deadliest Exam Traps, and 100-Question Diagnostic Active Recall Bank
+
+COMPANION OBJECTIVE QUESTION BANK (007/question_bank/political_science/):
+  ├── 00_COVER.md: Epistemic Charter & 1,520 MCQ Audit Methodology
+  ├── 01_INDEX_AND_METHODOLOGY.md: 71-Chapter, 10-Appendix, 10-MTP Index & Elimination Protocols
+  ├── 02_PART_I_CONSTITUTIONAL_FRAMEWORK_DRILL.md: Chapters 1–11 Drill (Historical to Basic Structure)
+  ├── 03_PART_II_SYSTEM_OF_GOVERNMENT_DRILL.md: Chapters 12–16 Drill (Federal, Inter-State, Emergency)
+  ├── 04_PART_III_CENTRAL_GOVERNMENT_DRILL.md: Chapters 17–25 Drill (President, Parliament, SC)
+  ├── 05_PART_IV_STATE_LOCAL_GOVERNANCE_DRILL.md: Chapters 26–37 Drill (Governor, State Leg, Panchayats, UTs)
+  ├── 06_PART_V_CONSTITUTIONAL_STATUTORY_BODIES_DRILL.md: Chapters 38–56 Drill (ECI, UPSC, CAG, Lokpal)
+  ├── 07_PART_VI_POLITICAL_DYNAMICS_GOVERNANCE_DRILL.md: Chapters 57–71 Drill (Parties, 10th Sched, NCRWC)
+  ├── 08_PART_VII_APPENDICES_HIGH_YIELD_DRILL.md: Appendices 1–10 Drill (Articles, Precedence, Oaths)
+  ├── 09_PART_VIII_MODEL_TEST_PAPERS_01_TO_05.md: Full-Length MTPs 1–5 Simulation Drill
+  └── 10_PART_IX_MODEL_TEST_PAPERS_06_TO_10.md: Full-Length MTPs 6–10 Simulation Drill
 ```
 
 ---

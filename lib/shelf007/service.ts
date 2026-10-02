@@ -161,22 +161,23 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
   return [
     {
       slug: 'economics',
-      name: 'Economics Master Treatise (Penta-Treatise Synthesis)',
-      badge: '5-Author Sovereign Synthesis',
+      name: 'Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)',
+      badge: '5-Author + ESI Sovereign Synthesis',
       badgeColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
       code: 'ECO-007',
-      authors: 'Ramesh Singh • Vivek Singh • Nitin Singhania • Sanjeev Verma • K. Sankarganesh',
+      authors: 'Ramesh Singh • Vivek Singh • Nitin Singhania • Sanjeev Verma • K. Sankarganesh • CGB Mentors ESI',
       description:
-        'Sovereign macroeconomic architecture covering National Income (2015 SNA), Monetary Transmission, Banking & NPAs, Public Finance & GST, Fiscal Federalism, PLFS Employment, Land Reforms, Food Processing, and External Sector.',
+        'Sovereign macroeconomic and social issues architecture covering National Income (2015 SNA), Monetary Transmission, Banking & NPAs, Public Finance, Foreign Trade Policy 2023, Five-Year Plans & NITI Aayog, 4 New Labor Codes (2020), Urbanization & Migration, Multiculturalism, and Capstone Revision Vault.',
       totalChapters: econChapters.length,
       totalWords: econWords,
       chips: [
-        'National Income (NSO 2015 SNA)',
-        'Monetary Policy & Repo Corridor',
-        'NPAs, IBC 2016 & Bad Banks',
-        'GST Architecture & FRBM Act',
-        'Land Reforms & Food Processing (FPI)',
-        'Master Revision Vault (Ch 22)',
+        'National Income & Monetary Corridor',
+        'Foreign Trade Policy 2023 (FTP)',
+        'Economic Planning & NITI Aayog (Ch 22)',
+        '4 New Labor Codes 2020 (Ch 23)',
+        'Urbanization & Migration (Ch 24)',
+        'Multiculturalism & Pluralism (Ch 25)',
+        'Capstone Revision Vault (Ch 26)',
       ],
     },
     {
@@ -215,7 +216,7 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'Supreme Court & Judicial Review',
         'Constitutional & Statutory Bodies',
         'Anti-Defection Law & Electoral Reforms',
-        'Political Theory & Capstone Vault (Ch 30)',
+        '50 Deadliest Traps & 1,520 MCQ Question Bank',
       ],
     },
   ];
@@ -313,11 +314,11 @@ export function getEconomicsChapters(): Shelf007ChapterItem[] {
       category = 'Front Matter';
       shortTitle = 'Master Table of Contents';
       chapterOrder = 0;
-    } else if (fileName.startsWith('23_')) {
+    } else if (fileName.includes('REVISION_VAULT')) {
       slug = 'master-revision-vault';
       category = 'Capstone Vault';
-      shortTitle = 'Chapter 22: The Grand Synthesis Master Revision Vault';
-      chapterOrder = 22;
+      shortTitle = 'Chapter 26: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 26;
     } else {
       const chMatch = fileName.match(/CHAPTER_(\d+)/i);
       if (chMatch) {
@@ -525,8 +526,14 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'polit
       },
       {
         partNumber: 'PART IX',
+        groupTitle: 'Economic Planning, Labor Architecture & Social Issues (ESI)',
+        groupSubtitle: 'Planning history, NITI Aayog, 4 Labor Codes (2020), Urbanization, Internal Migration, and Multiculturalism',
+        slugs: ['chapter-22', 'chapter-23', 'chapter-24', 'chapter-25'],
+      },
+      {
+        partNumber: 'PART X',
         groupTitle: 'Capstone Sovereign Synthesis & High-Yield Matrices',
-        groupSubtitle: 'All-inclusive multidimensional revision vault, formulas, comparative matrices, and rapid examination recall',
+        groupSubtitle: 'All-inclusive multidimensional revision vault, formulas, comparative matrices, and rapid examination recall across all 25 chapters',
         slugs: ['master-revision-vault'],
       },
     ];
@@ -608,7 +615,7 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'polit
       {
         partNumber: 'PART IX',
         groupTitle: 'The Capstone: Master Consolidated Revision & Grand Synthesis Vault',
-        groupSubtitle: 'Master article topography, 12 schedules, major amendments, majority formulas, 35 landmark cases, 30 deadliest traps, and 100-question active recall diagnostic',
+        groupSubtitle: 'Master article topography, 12 schedules, major amendments, majority formulas, 35 landmark cases, 50 deadliest traps, and 100-question active recall diagnostic',
         slugs: ['chapter-30'],
       },
     ];

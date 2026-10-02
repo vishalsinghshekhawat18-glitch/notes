@@ -253,6 +253,91 @@ Enacted under the *Energy Conservation (Amendment) Act, 2022*:
 
 ---
 
+### Sustainable Development Architecture: 17 SDGs, Global Climate Regime & NAPCC 8 Missions
+
+Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs (*Brundtland Report, 1987*). It integrates three pillars: **Economic Growth**, **Social Inclusion**, and **Environmental Protection**.
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                   THE 17 SUSTAINABLE DEVELOPMENT GOALS (SDGs: 2015–2030)                         │
+├───────┬──────────────────────────────────────────┬───────┬───────────────────────────────────────┤
+│ Goal  │ Focus Area                               │ Goal  │ Focus Area                            │
+├───────┼──────────────────────────────────────────┼───────┼───────────────────────────────────────┤
+│ **1** │ No Poverty (End poverty in all forms)    │ **10**│ Reduced Inequalities                  │
+│ **2** │ Zero Hunger (End hunger, food security)  │ **11**│ Sustainable Cities & Communities      │
+│ **3** │ Good Health and Well-being               │ **12**│ Responsible Consumption & Production  │
+│ **4** │ Quality Education (Inclusive, lifelong)  │ **13**│ Climate Action (Urgent combat action) │
+│ **5** │ Gender Equality (Empower women & girls)  │ **14**│ Life Below Water (Conserve oceans)    │
+│ **6** │ Clean Water and Sanitation               │ **15**│ Life on Land (Forests, halt desert.)  │
+│ **7** │ Affordable and Clean Energy              │ **16**│ Peace, Justice & Strong Institutions  │
+│ **8** │ Decent Work and Economic Growth          │ **17**│ Partnerships for the Goals            │
+│ **9** │ Industry, Innovation and Infrastructure  │ —     │ *169 Targets & 232 Global Indicators* │
+└───────┴──────────────────────────────────────────┴───────┴───────────────────────────────────────┘
+```
+
+#### Chronological Evolution of Global Climate Accords
+1. **Stockholm Conference (1972)**: First global environmental conference; established United Nations Environment Programme (UNEP).
+2. **Brundtland Commission (1987)**: Formulated canonical definition of sustainable development in *Our Common Future*.
+3. **Rio Earth Summit (1992)**: Produced Agenda 21, the Rio Declaration, and opened three Rio Conventions: **UNFCCC**, **CBD** (Biodiversity), and **UNCCD** (Desertification).
+4. **Kyoto Protocol (1997, entered into force 2005)**:
+   - Established legally binding greenhouse gas reduction targets for developed nations (Annex I parties) under the principle of **Common But Differentiated Responsibilities and Respective Capabilities (CBDR-RC)**.
+   - **Three Flexible Market Mechanisms**:
+     1. *Clean Development Mechanism (CDM)*: Annex I nations invest in emission-reduction projects in developing nations to earn Certified Emission Reductions (CERs).
+     2. *Joint Implementation (JI)*: Emission-reduction projects implemented jointly between two Annex I parties.
+     3. *International Emissions Trading (IET)*: Trading of assigned emission allowances among Annex I nations.
+5. **Paris Agreement (COP21, 2015)**:
+   - Replaced Kyoto's rigid top-down Annexure system with bottom-up **Nationally Determined Contributions (NDCs)**.
+   - Long-term temperature goal: Hold global temperature rise **well below 2°C** above pre-industrial levels, pursuing efforts to limit it to **1.5°C**.
+6. **COP28 UAE Consensus (Dubai, 2023)**:
+   - Concluded the first **Global Stocktake (GST)** assessing collective progress toward the Paris goals.
+   - Landmark historical commitment: Called on all nations to **transition away from fossil fuels in energy systems in a just, orderly, and equitable manner** to achieve net-zero by 2050.
+   - Fully operationalized the **Loss and Damage Fund** to support vulnerable developing states hit by climate disasters.
+
+#### The National Action Plan on Climate Change (NAPCC, 2008) — The 8 National Missions
+Launched on June 30, 2008, the NAPCC serves as India's overarching policy umbrella for domestic climate mitigation and adaptation:
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                   THE 8 NATIONAL MISSIONS UNDER NAPCC: ARCHITECTURAL MATRIX                      │
+├──────────────────────────┬───────────────────────────────────────────────────────────────────────┤
+│ National Mission         │ Core Strategic Target & Functional Scope                              │
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **1. National Solar      │ Promotes solar energy generation; target scaled from 20 GW to         │
+│    Mission (JNNSM)**     │ **100 GW** (60 GW utility scale + 40 GW rooftop) by 2022.             │
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **2. Mission for Enhanced│ Market-based energy conservation mechanisms; operationalized through  │
+│    Energy Efficiency**   │ the **PAT (Perform, Achieve and Trade)** energy-saving certificate    │
+│    (NMEEE)               │ scheme implemented by the Bureau of Energy Efficiency (BEE).          │
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **3. Mission on          │ Energy-efficient building design via Energy Conservation Building    │
+│    Sustainable Habitat** │ Code (ECBC), modal shift to public transit, solid waste recycling.    │
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **4. National Water      │ Target: **20% improvement in water-use efficiency**; basin-level      │
+│    Mission (NWM)**       │ water resource management, rainwater harvesting, conservation pricing.│
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **5. Mission for Sustain-│ Long-term monitoring of the Himalayan ecosystem, glacial retreat      │
+│    ing the Himalayan     │ assessment, and bio-diversity conservation across 12 Himalayan states.│
+│    Ecosystem (NMSHE)**   │                                                                       │
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **6. Green India Mission │ Enhancing quality of degraded forest cover on **5 million hectares**   │
+│    (GIM)**               │ and afforestation on another 5 million hectares; expanding carbon sink│
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **7. Mission for Sustain-│ Developing climate-resilient crop varieties, micro-irrigation         │
+│    able Agriculture**    │ (Per Drop More Crop), soil health cards, integrated nutrient mgt.     │
+│    (NMSA)**              │                                                                       │
+├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ **8. Mission on Strategic│ Climate change data modeling, R&D capacity building, observational    │
+│    Knowledge for Climate │ networks under Department of Science and Technology (DST).            │
+│    Change (NMSKCC)**     │                                                                       │
+└──────────────────────────┴───────────────────────────────────────────────────────────────────────┘
+```
+
+#### Mission LiFE & Sovereign Green Bonds
+- **Mission LiFE (Lifestyle for Environment)**: Global initiative launched by India at COP26 to mobilize individuals and communities to adopt sustainable lifestyle choices (circular economy, reducing personal carbon footprint).
+- **Sovereign Green Bonds (SGrBs)**: In 2022–23, the Government of India issued sovereign green bonds to finance public sector projects that reduce carbon intensity (solar parks, wind power, metro rail, green hydrogen).
+
+---
+
 ## 21.6 Examination Lenses & Trap Compendium
 
 ```
