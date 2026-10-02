@@ -20,6 +20,15 @@ interface ThematicShelf {
 
 const THEMATIC_SHELVES: ThematicShelf[] = [
   {
+    id: 'shelf-007',
+    title: 'Shelf 007: Sovereign Knowledge Bastion & Master Examination Series',
+    icon: '🏛️',
+    badge: 'Master Series • Release v005 Live',
+    accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
+    borderAccent: 'border-l-[#143227]',
+    subjectSlugs: [],
+  },
+  {
     id: 'shelf-1',
     title: 'Shelf 1: Quantitative Logic, Communication & Welfare Architecture',
     icon: '📐',
@@ -36,14 +45,12 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
   },
   {
     id: 'shelf-2',
-    title: 'Shelf 2: Macroeconomics, Financial Systems & Global Affairs',
-    icon: '🏦',
-    badge: 'Banking & Macro Escarpment',
+    title: 'Shelf 2: Agriculture, Rural Finance & Global Institutions',
+    icon: '🌾',
+    badge: 'Rural Policy & Global Affairs',
     accentColor: 'text-[#c25e2e] bg-[#fbf5ee] border-[#edd9cb]',
     borderAccent: 'border-l-[#c25e2e]',
     subjectSlugs: [
-      'iibf-banking-regulations',                      // #4
-      'indian-economy',                                // #1
       'agriculture-and-rural-development',             // #11 (Rural Finance & Agri)
       'general-awareness',                             // #12
     ],
@@ -102,25 +109,19 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
       'general-hindi',
     ],
   },
-  {
-    id: 'shelf-007',
-    title: 'Shelf 007: Sovereign Knowledge Bastion & Master Examination Series',
-    icon: '🏛️',
-    badge: 'Master Series • Release v004 Live',
-    accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
-    borderAccent: 'border-l-[#143227]',
-    subjectSlugs: [
-      'indian-economy',
-      'iibf-banking-regulations',
-    ],
-  },
 ];
 
 export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
   const [layoutMode, setLayoutMode] = useState<'SHELVES' | 'GRID'>('SHELVES');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const allSubjects = useMemo(() => domains.flatMap((d) => d.subjects), [domains]);
+  // Exclude legacy database subjects that had errors/irrelevance (Economics and Banking are sovereign in Shelf 007)
+  const DEPRECATED_SLUGS = useMemo(() => new Set(['indian-economy', 'iibf-banking-regulations']), []);
+
+  const allSubjects = useMemo(
+    () => domains.flatMap((d) => d.subjects).filter((s) => !DEPRECATED_SLUGS.has(s.slug)),
+    [domains, DEPRECATED_SLUGS]
+  );
 
   // Map subjects by slug for instant lookup
   const subjectMap = useMemo(() => {
@@ -155,20 +156,6 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
   const matchesSearch = (subject: SubjectOverviewItem) => {
     if (!searchQuery.trim()) return true;
     const q = searchQuery.toLowerCase();
-    const isEconShelf007 =
-      subject.slug === 'indian-economy' &&
-      (q.includes('eco') ||
-        q.includes('vivek') ||
-        q.includes('ramesh') ||
-        q.includes('quadriad') ||
-        q.includes('treatise'));
-    const isDBFShelf007 =
-      subject.slug === 'iibf-banking-regulations' &&
-      (q.includes('dbf') ||
-        q.includes('jaiib') ||
-        q.includes('macmillan') ||
-        q.includes('paper') ||
-        q.includes('banking'));
 
     return (
       subject.name.toLowerCase().includes(q) ||
@@ -176,9 +163,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       subject.description.toLowerCase().includes(q) ||
       subject.domainName.toLowerCase().includes(q) ||
       subject.code.toLowerCase().includes(q) ||
-      subject.featuredTopics.some((t) => t.toLowerCase().includes(q)) ||
-      isEconShelf007 ||
-      isDBFShelf007
+      subject.featuredTopics.some((t) => t.toLowerCase().includes(q))
     );
   };
 
@@ -267,58 +252,57 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     );
   };
 
-  // Sovereign Master Card Renderer for Shelf 007 (Economics Master & IIBF DBF)
-  const renderSovereignMasterCard = (subject: SubjectOverviewItem) => {
-    const isEcon = subject.slug === 'indian-economy';
-    const isDBF = subject.slug === 'iibf-banking-regulations';
+  // Sovereign Master Cards Data for Shelf 007
+  const SOVEREIGN_CARDS = [
+    {
+      id: 'eco-007',
+      code: 'ECO-007',
+      badgeText: '5-Author Sovereign Synthesis',
+      badgeColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
+      title: 'Economics Master Treatise (Penta-Treatise Synthesis)',
+      authorText: 'Ramesh Singh • Vivek Singh • Nitin Singhania • Sanjeev Verma • K. Sankarganesh',
+      countsText: '22 Master Chapters • 22 Revision Matrices',
+      waypointsBadge: 'Release v005 Live',
+      description:
+        'Definitive macroeconomic architecture synthesizing 5 foundational treatises: National Income Accounting (2015 NSO SNA), Monetary Policy Corridor, Banking Architecture & NPAs, Public Finance & GST, Fiscal Federalism, PLFS Employment, Land Reforms, Food Processing (FPI), and External Sector.',
+      chips: [
+        'National Income (NSO 2015 SNA)',
+        'Monetary Transmission & Repo',
+        'NPAs, IBC 2016 & Bad Banks',
+        'GST Architecture & FRBM Act',
+        'Land Reforms & Food Processing',
+        'Master Revision Vault (Ch 22)',
+      ],
+      syllabusUrl: '/shelf-007/economics',
+      readUrl: '/shelf-007/economics/chapter-01',
+    },
+    {
+      id: 'dbf-007',
+      code: 'DBF-007',
+      badgeText: 'Official Macmillan Courseware',
+      badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#dbeafe]',
+      title: 'IIBF Diploma in Banking & Finance (DBF / JAIIB)',
+      authorText: 'Official Macmillan Courseware (IE&IFS • PPB • AFMB • RBWM)',
+      countsText: '4 Papers • 16 Modules • 5 Revision Vaults',
+      waypointsBadge: '23 Master Units',
+      description:
+        'Exhaustive 4-paper curriculum: Paper 1 (IE&IFS), Paper 2 (PPB), Paper 3 (AFMB), and Paper 4 (RBWM). Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III capital ratios, and 5 rapid revision formula vaults.',
+      chips: [
+        'Paper 1: IE&IFS (4 Modules)',
+        'Paper 2: PPB (4 Modules)',
+        'Paper 3: AFMB (4 Modules)',
+        'Paper 4: RBWM (4 Modules)',
+        '5 Rapid Revision Vaults',
+      ],
+      syllabusUrl: '/shelf-007/iibf-dbf',
+      readUrl: '/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture',
+    },
+  ];
 
-    const cardMeta = isEcon
-      ? {
-          code: 'ECO-007',
-          badgeText: '4-Author Sovereign Quadriad',
-          badgeColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
-          title: 'Economics Master Treatise',
-          authorText: 'Ramesh Singh • Vivek Singh • Sanjeev Verma • K. Sankarganesh',
-          countsText: '22 Master Chapters • 22 Revision Matrices • 76 Peaks',
-          description:
-            'Definitive macroeconomic architecture synthesizing 4 foundational treatises: National Income Accounting (2015 NSO SNA), Inflation Dynamics, RBI Monetary Policy Corridor, Banking Architecture & NPAs, Public Finance & GST, Fiscal Federalism, and External Sector / WTO.',
-          chips: [
-            'National Income (NSO 2015 SNA)',
-            'Monetary Transmission & Repo',
-            'NPAs, IBC 2016 & Bad Banks',
-            'FRBM Act & GST Council',
-          ],
-          syllabusUrl: '/subjects/indian-economy',
-          readUrl: `/topics/${subject.firstTopicSlug || 'national-income-and-macroeconomic-accounting'}/read`,
-        }
-      : isDBF
-      ? {
-          code: 'DBF-007',
-          badgeText: 'IIBF Compulsory 4-Paper Master Codex',
-          badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#dbeafe]',
-          title: 'IIBF Diploma in Banking & Finance (DBF / JAIIB)',
-          authorText: 'Official Macmillan Courseware (IE&IFS • PPB • AFMB • RBWM)',
-          countsText: '4 Papers • 16 Modules • 5 Revision Vaults • 25 Peaks',
-          description:
-            'Exhaustive 4-paper curriculum: Paper 1 (IE&IFS), Paper 2 (PPB), Paper 3 (AFMB), and Paper 4 (RBWM). Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III capital ratios, and 5 rapid revision formula vaults.',
-          chips: [
-            'Paper 1: IE&IFS (4 Modules)',
-            'Paper 2: PPB (4 Modules)',
-            'Paper 3: AFMB (4 Modules)',
-            'Paper 4: RBWM (4 Modules)',
-          ],
-          syllabusUrl: '/subjects/iibf-banking-regulations',
-          readUrl: `/topics/${subject.firstTopicSlug || 'reserve-bank-of-india-and-its-mandate-br-act-rbi-act'}/read`,
-        }
-      : null;
-
-    if (!cardMeta) {
-      return renderSubjectCard(subject);
-    }
-
+  const renderSovereignMasterCard = (cardMeta: (typeof SOVEREIGN_CARDS)[number]) => {
     return (
       <article
-        key={subject.id}
+        key={cardMeta.id}
         className="bg-white border-2 border-[#d6cebe] hover:border-[#143227] rounded-xl p-5 shadow-2xs hover:shadow-md transition-all duration-200 flex flex-col justify-between border-l-4 border-l-[#143227] group relative overflow-hidden"
       >
         <div className="absolute top-0 right-0 w-24 h-24 bg-[#143227]/5 rounded-bl-full pointer-events-none" />
@@ -352,7 +336,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               {cardMeta.countsText}
             </span>
             <span className="bg-[#eef6f2] text-[#143227] font-bold px-2 py-0.5 rounded border border-[#cbe4d7]">
-              {subject.conceptsCount} Waypoints
+              {cardMeta.waypointsBadge}
             </span>
           </div>
 
@@ -378,17 +362,17 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
         <div className="mt-4 pt-3 border-t border-[#f0ebe1] flex items-center justify-between text-xs font-medium">
           <Link
             href={cardMeta.syllabusUrl}
-            className="text-stone-600 hover:text-[#143227] font-semibold transition-colors flex items-center gap-1"
+            className="text-stone-600 hover:text-[#143227] font-semibold transition-colors flex items-center gap-1 font-mono"
           >
-            <span>Syllabus & Blueprint</span>
+            <span>Master Syllabus</span>
             <span>→</span>
           </Link>
 
           <Link
             href={cardMeta.readUrl}
-            className="px-3 py-1.5 rounded-lg text-white text-[11px] font-semibold transition-all inline-flex items-center gap-1.5 bg-[#143227] hover:bg-[#1f493b] shadow-xs hover:shadow"
+            className="px-3 py-1.5 rounded-lg text-white text-[11px] font-semibold transition-all inline-flex items-center gap-1.5 bg-[#143227] hover:bg-[#1f493b] shadow-xs hover:shadow font-mono"
           >
-            <span>Begin Master Ascent</span>
+            <span>Read Master Treatise</span>
             <span>→</span>
           </Link>
         </div>
@@ -460,14 +444,21 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       {layoutMode === 'SHELVES' ? (
         <div className="space-y-6">
           {THEMATIC_SHELVES.map((shelf) => {
-            const shelfSubjects = shelf.subjectSlugs
-              .map((slug) => subjectMap.get(slug))
-              .filter((s): s is SubjectOverviewItem => s !== undefined)
-              .filter(matchesSearch);
-
-            if (shelfSubjects.length === 0) return null;
-
             if (shelf.id === 'shelf-007') {
+              const matchesSovereign = (card: (typeof SOVEREIGN_CARDS)[number]) => {
+                if (!searchQuery.trim()) return true;
+                const q = searchQuery.toLowerCase();
+                return (
+                  card.title.toLowerCase().includes(q) ||
+                  card.description.toLowerCase().includes(q) ||
+                  card.authorText.toLowerCase().includes(q) ||
+                  card.chips.some((c) => c.toLowerCase().includes(q))
+                );
+              };
+
+              const filteredCards = SOVEREIGN_CARDS.filter(matchesSovereign);
+              if (filteredCards.length === 0) return null;
+
               return (
                 <section
                   key={shelf.id}
@@ -480,11 +471,19 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                         {shelf.icon}
                       </span>
                       <div>
-                        <h3 className="font-serif font-bold text-stone-900 text-base sm:text-lg tracking-tight">
-                          {shelf.title}
-                        </h3>
+                        <div className="flex items-center gap-2">
+                          <h3 className="font-serif font-bold text-stone-900 text-base sm:text-lg tracking-tight">
+                            {shelf.title}
+                          </h3>
+                          <Link
+                            href="/shelf-007"
+                            className="text-[11px] font-mono text-emerald-800 hover:text-emerald-950 font-bold underline"
+                          >
+                            Enter Sovereign Hub →
+                          </Link>
+                        </div>
                         <span className="text-[11px] font-mono text-emerald-800 font-semibold">
-                          2 Sovereign Escarpments • Release v004 Active
+                          2 Sovereign Treatises • Direct Isolated Reader (Release v005)
                         </span>
                       </div>
                     </div>
@@ -496,11 +495,18 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
 
                   {/* Sovereign Subject Cards (2-Column Flagship Layout) */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    {shelfSubjects.map(renderSovereignMasterCard)}
+                    {filteredCards.map(renderSovereignMasterCard)}
                   </div>
                 </section>
               );
             }
+
+            const shelfSubjects = shelf.subjectSlugs
+              .map((slug) => subjectMap.get(slug))
+              .filter((s): s is SubjectOverviewItem => s !== undefined)
+              .filter(matchesSearch);
+
+            if (shelfSubjects.length === 0) return null;
 
             return (
               <section
@@ -538,8 +544,13 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
         </div>
       ) : (
         /* Mode B: Compact 3-Column Unified Grid */
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {allSubjects.filter(matchesSearch).map(renderSubjectCard)}
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {SOVEREIGN_CARDS.map(renderSovereignMasterCard)}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {allSubjects.filter(matchesSearch).map(renderSubjectCard)}
+          </div>
         </div>
       )}
     </div>
