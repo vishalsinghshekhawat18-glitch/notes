@@ -1,0 +1,1130 @@
+BOOK: _OceanofPDF.com_Principles_and_Practices_of_Banking_-_IIBF.pdf
+TOTAL PAGES: 961
+
+
+=== PAGE 1 ===
+
+
+=== PAGE 2 ===
+PRINCIPLES &
+PRACTICES OF BANKING
+
+=== PAGE 3 ===
+INDIAN INSTITUTE OF BANKING & FINANCE
+(ISO 9001:2015 Certified)
+Kohinoor City, Commercial-II, Tower-1, 2nd & 3rd Floor,
+Kirol Road, Off-L.B.S. Marg, Kurla-West,
+Mumbai-400070
+Established on 30th April 1928
+MISSION
+• To develop professionally qualified and competent bankers and finance professionals primarily through
+a process of education, training, examination, consultancy/counselling and continuing professional
+development programs.
+VISION
+• To be the premier Institute for developing and nurturing competent professionals in banking and
+finance field.
+OBJECTIVES
+• To facilitate study of theory and practice of banking and finance.
+• To test and certify attainment of competence in the profession of banking and finance.
+• To collect, analyse and provide information needed by the professionals in banking and finance.
+• To promote continuous professional development.
+• To promote and undertake research relating to Operations, Products, Instruments, Processes, etc.,
+in banking and finance and to encourage innovation and creativity among finance professionals so
+that they could face competition and succeed.
+COMMITTED TO PROFESSIONAL EXCELLENCE
+Website: www.iibf.org.in
+
+=== PAGE 4 ===
+(For JAIIB/Diploma in Banking &
+Finance Examination)
+Indian Institute of Banking & Finance
+PRINCIPLES &
+PRACTICES OF BANKING
+
+=== PAGE 5 ===
+© INDIAN INSTITUTE OF BANKING & FINANCE, MUMBAI, 2023
+(This book has been published by Indian Institute of Banking & Finance. Permission of the Institute is essential for
+reproduction of any portion of this book. The views expressed herein are not necessarily the views of the Institute.)
+All rights reserved under the copyright act. No part of this publication may be reproduced, transcribed, transmitted,
+stored in a retrieval system or translated into any language or computer language, in any form or by any means,
+electronic, mechanical, magnetic, optical, chemical, manual, photocopy or otherwise without the prior permission of
+the copyright owner. Any person who does any unauthorised act in relation to this publication may be liable to criminal
+prosecution and civil claims for damages.
+First published, 2023
+MACMILLAN EDUCATION INDIA PRIVATE LIMITED
+Bengaluru Delhi Chennai Kolkata Mumbai Ahmedabad Bhopal
+Chandigarh Coimbatore Guwahati Hyderabad Lucknow Madurai
+Nagpur Patna Pune Thiruvananthapuram Visakhapatnam Kochi
+Bhubaneshwar Noida Sahibabad Hubli
+ISBN: 978-93-5666-032-8
+Published by Macmillan Education India Private Limited
+(formerly Macmillan Publishers India Private Limited),
+21, Patullos Road, Chennai 600002, India
+“This book is meant for educational and learning purposes. The author(s) of the book has/have taken all reasonable care to ensure that the contents of the
+book do not violate any copyright or other intellectual property rights of any person in any manner whatsoever. In the event the author(s) has/have been
+unable to track any source and if any copyright has been inadvertently infringed, please notify the publisher in writing for any corrective action.”
+PRINCIPLES & PRACTICES OF BANKING
+First Edition (2023)
+Revised & Updated by Mr. P.S. Khandelwal, Retd. Chief Compliance Officer, IndusInd Bank (Modules A, B and D) and
+Mr. Butchi Babu, Retd. General Manager, Bank of India (Module C)
+Vetted by Mr. S. Rajendran Nair, Retd Chief Manager, Indian Overseas Bank (Modules A, B & D) and Mr. Anand Shrimali,
+Retd. DGM-IT, Bank of India (Module C)
+
+=== PAGE 6 ===
+FOREWORD
+Formal education will make you a living; self-education will make you a fortune.
+–Jim Rohn
+The banking sector, currently, is experiencing a transformation catalysed by digitalization and information
+explosion with the customer as the focal point. Besides, competition from NBFCs, FinTechs, changing
+business models, growing importance of risk and compliance have contributed to this radical shift. Such
+an ever-evolving ecosystem requires strategic agility and constant upgradation of skill levels on the part
+of the Banking & Finance professionals to chart a clear pathway for their professional development.
+The mission of the Indian Institute of Banking & Finance is to develop professionally qualified and
+competent bankers and finance executives primarily through a process of education, training, examination,
+counseling and continuing professional development programs. In line with the Mission, the Institute
+has been offering a bouquet of courses and certifications for capacity building of the banking personnel.
+The flagship courses/examinations offered by the Institute are the JAIIB, CAIIB and the Diploma in
+Banking & Finance (DB&F) which have gained wide recognition among banks and financial institutions.
+With banking witnessing tectonic shifts, there was an imperative need to revisit the existing syllabi for
+the flagship courses.
+The pivotal point for revising the syllabi was to ensure that, in addition to acquiring basic knowledge, the
+candidates develop concept-based skills for keeping pace with the developments happening in the financial
+ecosystem and to ensure greater value addition to the flagship courses and to make them more practical
+and contemporary. This will culminate in creating a rich pool of knowledgeable and competent banking
+& finance professionals who are capable of contributing to the sustainable growth of their organizations.
+Keeping in view the above objectives, the Institute had constituted a high-level Syllabi Revision
+Committee comprising of members from public sector banks, private sector banks, co-operative banks
+and academicians. On the basis of the feedback received from various banks and changes suggested by
+the Committee, the syllabi of JAIIB & CAIIB have since been finalized.
+The revised JAIIB syllabi will now have four compulsory subjects as under:
+1. Indian Economy & Indian Financial System
+2. Principles & Practices of Banking
+3. Accounting & Financial Management for Bankers
+4. Retail Banking & Wealth Management
+The new subject on Indian Economy & Indian Financial System will cover the basics of economics
+and financial system prevalent in India. This will familiarise the candidates with the evolving financial
+ecosystem of the country.
+Insofar as the book on Accounting & Financial Management is concerned, two new modules viz Financial
+Management and Taxation & Fundamentals of Costing have been introduced. With bankers having to
+cater to the requirements of varied industries, it is imperative that they have an underlying understanding
+
+=== PAGE 7 ===
+of the relationships between cost accounting, financial accounting, management accounting and financial
+management. Some of the other topics that have been covered are Cost of Capital, Equipment Leasing,
+GST, Standard Costing, Marginal Costing, Budgetary Control system etc.
+The books on Principles & Practices of Banking and Retail Banking & Wealth Management have been
+thoroughly revised and updated.
+As is the practice followed by the Institute, a dedicated courseware for every paper/subject is published.
+The present courseware on Principles and Practices of Banking has now been authored in line with the
+revised syllabus for the subject. The book follows the same modular approach adopted by the Institute
+in the earlier editions/publications.
+While the Institute is committed to revise and update the courseware from time to time, the book should,
+however, not be considered as the only source of information / reading material while preparing for the
+examinations due to rapid changes witnessed in all the areas affecting banking & finance. The students
+have to keep themselves abreast with the current developments by referring to economic newspapers/
+journals, articles, books and Government / Regulators’ publications / websites etc. Questions will be
+based on the recent developments related to the syllabus.
+Considering that the courseware cannot be published frequently, the Institute will continue the practice
+of keeping candidates informed about the latest developments by placing important updates/Master
+Circulars/ Master Directions on its website and through publications like IIBF Vision, Bank Quest, etc.
+The courseware has been updated with the help of Subject Matter Experts (SMEs) drawn from respective
+fields and vetted by practitioners to ensure accuracy and correctness. The Institute acknowledges with
+gratitude the valuable contributions rendered by the SMEs in updating/vetting the courseware.
+We welcome suggestions for improvement of the courseware.
+Mumbai Biswa Ketan Das
+2023 Chief Executive Officer
+vi | FOREWORD
+
+=== PAGE 8 ===
+RECOMMENDED READING
+The Institute has prepared comprehensive courseware in the form of study kits to facilitate
+preparation for the examination without intervention of the teacher. An attempt has been made to
+cover fully the syllabus prescribed for each module/subject and the presentation of topics may not
+always be in the same sequence as given in the syllabus.
+Candidates are also expected to take note of all the latest developments relating to the subject
+covered in the syllabus by referring to Financial Papers, Economic Journals, Latest Books and
+Publications in the subjects concerned.
+
+=== PAGE 9 ===
+
+
+=== PAGE 10 ===
+PRINCIPLES & PRACTICES OF BANKING
+SYLLABUS
+MODULE A: GENERAL BANKING OPERATIONS
+Banker-Customer Relationship
+Requirements to be Called a Bank, Banker-Customer Relationship, Bank as a Trustee, Bailee-Bailor
+Relationship, Agent-Principal Relationship, Lessor and Lessee, Indemnifier and Indemnified, Different Deposit
+Products or Services, Services to Customers and Investors
+AML-KYC Guidelines
+Money Laundering & Financing of Terrorism Risks, AML Framework in India, Know Your Customer Policy,
+Organisational Set-up for AML, Obligations under PMLA, Risk Management, Obligations under International
+Agreements, FATF Identified Jurisdictions, Correspondent Banks, Reporting Under FATCA/ CRS, Reporting
+Obligations, Implications of Non-compliance of PMLA Obligations, Secrecy Obligations
+Operational Aspects of KYC
+Know Your Customers (KYC) Norms, Wire Transfers, Other Operations - Regulations, Central KYC Records
+Registry (CKYCR), Monitoring of Transactions
+Opening Accounts of Various Types of Customers
+Personal Accounts, Accounts of Other Customers, Norms for Opening Current Accounts, Obtaining Photographs
+of Account Holders, Legal Entity Identifier
+Operational Aspects of Deposit Accounts
+Salient Feature of Deposit Accounts, Interest on Deposit Accounts, Prohibitions & Exemptions, Inoperative
+Accounts & Unclaimed Deposits, Operational Instructions in Joint Accounts, Nomination Facility, Other
+Operational Guidelines, Attachment Orders, Procedure for Submission of Records to Statutory Authorities
+Operational Aspects of Handling Clearing/Collection/Cash
+Cheque Truncation System (CTS), RBI Guidelines on Collection of Instruments, Cash and its Custody, Security
+Arrangements at Branches and ATMs
+Banker’s Special Relationship
+Mandate – Definition, Power of Attorney (POA) – Definition, Banker’s Lien, Right of Set-off, Right of
+Appropriation
+Foreign Exchange Remittance Facilities for Individuals
+Evolution of FEMA, Definitions, Bringing in and Taking out Foreign Exchange, Inward Remittances, Outward
+Remittances, Indo - Nepal Remittance Scheme
+Operational Aspects of NRI Business
+Permitted Accounts in India for NRIs and PIOs, Accounts in India of Foreign Nationals Visiting India, Special
+Non-Resident Rupee Account – SNRR Account, Remittance of Assets Held by NRIs/ PIOs, Acquisition and
+Transfer of Immovable Property in India by a Non-Resident Indian (NRI), Creation of Charge on Immovable
+Property in India, Repatriation of Income and Sale Proceeds of Assets Held Abroad by NRIs, Investments
+by NRIs/ PIOs
+
+=== PAGE 11 ===
+Foreign Currency Accounts for Residents and Other Aspects
+Types of Accounts Permitted, Foreign Currency Denominated Accounts in India, Permitted Foreign Currency
+Accounts Outside India, Remittance of Assets by Foreign Nationals not Being PIOs, Modes of Acquiring
+Property Outside India by a Resident, Foreign Contribution (Regulation) Act 2010
+Cash Management Services and Its Importance
+Developments in CMS, Importance of Cash Management System, Types of Cash Management Services,
+Challenges and Issues
+Payment and Collection of Cheques and Other Negotiable Instruments
+Negotiable Instruments Act, Payment of a Cheque, Payment in due course – Section 10, Liability of the Paying
+Bank – Section 31, Collection of Cheques – Duties of a Collecting Bank, Endorsement of Cheques, Crossing
+of Cheques, Forged Instruments, Bouncing (Dishonour) of Cheques, Cheque Truncation System
+Responsibility of Paying Bank
+Negotiable Instruments Act and Paying Banks, Liability of Paying Banker when Customer’s Signature on the
+Cheque is Forged, Payment to be in Due Course for Bank to Seek Protection, Payment in Good Faith without
+Negligence of an Instrument on which Alteration is not Apparent, Payment by Bank Under Mistake Whether
+Recoverable, Cheque Truncation
+Responsibility of Collecting Bank
+Statutory Protection to Collecting Bank, Duties of the Collecting Bank
+Ancillary Services
+Remittances: Introduction, Demand Drafts (DD) and Banker’s Cheques (BC), Mail Transfer (MT), Telegraphic
+Transfer (TT), National Electronic Funds Transfer System (NEFT), Real Time Gross Settlement System
+(RTGS), Electronic Benefit Transfer (EBT) Scheme, Mobile Banking in India, Electronic/Digital Payments,
+Safe Deposit Lockers, Portfolio Management Services, Merchant Banking, Government Business, Levying
+of Service Charges
+Financial Inclusion & Financial Literacy
+Financial Inclusion by Extension of Banking Services, Use of Mobiles/Tablets in Financial Inclusion Drive,
+Financial Literacy, Rural Self Employment Training Institutes (RSETI)
+Customer Service Guidelines
+Customer Service in Banks, Policy for General Management of the Branches, ATM Operations, Security Issues
+and Risk Mitigation Measures, Service at the Counters, Information to the Customers, Special Arrangements
+at Branches, Other Provisions
+Duties & Rights of a Banker and Customer Rights
+Duty of Secrecy & Confidentiality, Duty of Reasonable Care, Garnishee or Attachment Order, Bank’s Rights,
+Customer Awareness, Banking Codes and Standards Board of India, Obligations on the Customer
+Grievance Redressal & RBI Integrated Ombudsman Scheme 2021
+Model Policy on Grievance Redressal, Internal Machinery to Handle Customer Complaints/ Grievances, The
+RBI - Integrated Ombudsman Scheme
+The Consumer Protection Act, 2019: Preamble, Extent and Definitions
+Purpose of The Act, Preamble and Extent, Act not Overriding on Any Other Law, Salient New Aspects
+of CPA 2019, Definitions, Various Fora, Consumer Protection Councils, Central Consumer Protection
+Authority, Consumer Disputes Redressal Commissions, Jurisdictions of Commissions, Complaints to District
+x | SYLLABUS
+
+=== PAGE 12 ===
+Commissions, Complaints to State Commissions/ National Commission, Appeals Against Orders of District/
+State Commission, Other Aspects, Mediation Process, Product Liability, Unfair Contracts, Data Protection,
+The CPA 2019 and Banking Services
+The Right to Information Act, 2005
+Applicability, Definitions, Right to Information, Obligations of Public Authorities, Designation of Public
+Information Officers, Procedure for Obtaining Information, Disposal of Request, Appeal, Orders in Appeal,
+Central Information Commission, State Information Commission, Penalties, Act to Have Overriding Effect
+MODULE B: FUNCTIONS OF BANKS
+Principles of Lending, Different Types of Borrowers, and Types of Credit Facilities
+Principles of Lending, Types of Borrowers, Types of Credit Facilities, Fund Based Working Capital Facilities,
+Term/ Demand Loans, Non-fund Based Facilities, Other Credit Facilities
+Appraisal and Assesement of Credit Facilities
+Credit Appraisal, Credit Appraisal techniques, Methods of Assessment of Loans, Assessment of Working
+Capital, Assessment of Term Loan
+Operational Aspects of Loan Accounts
+Interest Rates on Loans, Credit Management, Credit Monitoring, Common Operational Terms/Aspects in Loan
+Functions, Operational Process of Handling Loans, Accounting Aspects of Loan Products, Basic Operating
+Instructions on Loan Products, Operating Manual for Loans and Advances, Sample Operating Instructions,
+Operational Aspects of a Few Common Loan Products, Guidelines on Recovery Agents Engaged by Banks,
+Fair Practices Code for Lenders
+Types of Collaterals and Their Characteristics
+Effectiveness of Securities, What are ‘Secured Loans’ and ‘Unsecured Loans’?, Types of Securities, Land and
+Buildings, Goods, Documents of Title to Goods, Advances against Life Insurance Policies, Advance Against
+Shares, Advance Against Debentures, Loan against Book Debts, Loan against Term Deposits, Loan against
+Gold Ornaments, Supply Bills, Vehicle Finance
+Different Modes of Charging Securities
+Meaning and Essentials of a Contract, Contract of Agency, Contract of Bailment, Types of Charges, Registration
+of Charges
+Documentation
+Different Types of Documents, Documentation Procedure
+Non-Performing Assets/ Stressed Assets
+Definition, Income Recognition, Computation of Gross Advances, Gross NPA, Net Advances, and Net NPA,
+Asset Classification, Provisioning Norms, Writing Off of NPAs, NPA Management – Requirement of Effective
+Mechanism and Granular Data, Framework for Resolution of Stressed Assets, Prudential Norms Applicable
+to Restructuring , Other Aspects
+Important Laws Relating to Recovery Of Dues
+Introduction to Recovery of Debts and Bankruptcy Act, 1993 (DRB), Introduction To SARFAESI Act,
+Introduction To The Insolvency and Bankruptcy Code, 513, Introduction To The Legal Services Authorities
+Act, 513, Introduction To The Law of Limitation
+SYLLABUS | xi
+
+=== PAGE 13 ===
+Contracts of Indemnity
+Contract of Indemnity Defined , Distinctive Features of Indemnity Contract and Guarantee, Rights of an
+Indemnity Holder, Implied Indemnity, Enforceability of Contract of Indemnity, Scope and Application of
+Indemnity Contracts to Banks
+Contracts of Guarantee & Bank Guarantee
+Parties to the Contract, Basic Principles of Contract to be Complied, Consideration, The Liability of the Surety,
+Continuing Guarantee, Revocation of a Continuing Guarantee, Death of Surety, Variance in Terms of the
+Contract, Discharge of Principal Debtor, Forbearance to Sue, Surety can Claim His Dues from the Principal
+Debtor, Security, Implied Promise by the Principal Debtor to Indemnify the Surety, Misrepresentation Made
+by the Creditor, Co-sureties for the Same Debt, Release of One Co-surety does not Discharge Other, Bank
+Guarantees, Various Types of Bank Guarantees, Banker’s Duty to Honour Guarantee, Issuance of Bank
+Guarantee – Precautions to be Taken, Payment Under Bank Guarantee – Precautions to be Taken
+Letters of Credit
+Letters of Credit – General Consideration, Parties to a Letter of Credit, Types of Letters of Credit, Documents
+Under a Letter of Credit, Uniform Customs and Practices for Documentary Credits – UCPDC 600, Payment
+Under Letter of Credit – Banks Obligation Primary
+Deferred Payment Guarantee
+Purpose of Deferred Payment Guarantee, Method of Payment
+Laws Relating to Bill Finance
+Class of Bills and Laws Governing Bills, Classification of Bills, Various Types of Bill Finance, Bill Finance
+and Legal Position of a Banker
+Personal Finance
+Credit Card, Home Loans, Personal Loans, Consumer Loans
+Priority Sector Advances
+Applicability, Targets/Sub-Targets for Priority Sector, Categories of Priority Sector, Non-Achievement of
+Priority Sector Targets, Common guidelines for Priority Sector Loans, Other Modes of Lending to Priority
+Sectors, Other Aspects Related to Priority Sector Lending
+Agricultural Finance
+Short-Term Loans, Medium/Long-Term Loans, Crop Loan, Revised Scheme for Issue of Kisan Credit Card
+(KCC), Selected Activities Under Agricultural Financing, Minimum Support Prices Scheme, Prime Minister
+Fasal Bima Yojana (PMFBY)
+Finance to MFIs/Co-Lending Arrangements With NBFCs
+Background, Bank Borrowings - Source Of Finance for NBFCS, Bank Finance to NBFCS, Bank Loans
+to NBFCS for On-Lending, Bank Loans to NBFCS-MFIs, NBFC-MFI – Channelising Agent for Special
+Government Schemes, Co-Lending by Banks and NBFCS to Priority Sector, Framework for Scale Based
+Regulation (SBR) for Non-Banking Financial Companies
+Micro, Small and Medium Enterprises in India
+Aim of MSMEs, Micro, Small and Medium Enterprises Development (MSMED) Act, 667, Policy Package for
+MSMEs – Credit/Finance, Measures for Promotion, Development and Enhancement of Competitiveness of
+Micro, Small and Medium Enterprises, Delayed Payments, Trade Receivables Discounting System (TReDS),
+Performance and Credit Rating Scheme, Credit Guarantee Fund Scheme for Micro and Small Enterprises,
+Cluster Based Approach in Financing MSMEs, Common Guidelines / Instructions for Lending to MSME Sector
+xii | SYLLABUS
+
+=== PAGE 14 ===
+Government Sponsored Schemes
+Deendayal Antyodaya Yojana – National Rural Livelihoods Mission (DAY-NRLM), Deendayal Antyodaya
+Yojana – National Urban Livelihoods Mission (DAY-NULM), Pradhan Mantri Jan Dhan Yojana (PMJDY),
+MUDRA Loans, Khadi Village Industries Commission (KVIC)
+Self-Help Groups
+SHG – Definition, Need for SHGs, Forming SHGs, SHGs Under DAY-NRLM/ DAY-NULM Schemes, SHG-
+Bank Linkage Programme
+MODULE C: BANKING TECHNOLOGY
+Essentials of Bank Computerisation
+Bank Computerisation, Networking Technologies in Banks, Uninterrupted Power System (UPS), Core Banking,
+Data Warehousing and Data Mining
+Operational Aspects of CBS Environment
+Functions Performed by CBS, Flow of Transactions in CBS, The Accounting of Transactions in CBS, End
+of Day (EOD) And Begin of Day (BOD) Operations, End of Day (EOD) Operations, Password Control,
+Parameter/Master File, Logical Access Control, Operational Aspects of Security Control in CBS, Role and
+Responsibilities of the Bank Under CBS
+Alternate Delivery Channels – Digital Banking
+Alternate Delivery Channels, Automated Teller Machines (ATMs), Electromagnetic Cards, Electronic Banking,
+Customer Protection–Limiting Liability of Customers in Unauthorised Electronic Banking Transactions,
+Harmonization of Turn Around Time (TAT) and Customer Compensation for Failed Transactions Using
+Authorised Payment Systems
+Data Communication Network and EFT Systems
+Data Communications Networks, Network Scenario in India: Major Networks, Emerging Trends in
+Communications Networks for Banking, Evolution of EFT Systems, Structured Message Transfer System
+Using SWIFT, Automated Clearing Systems, Two-Level Funds Transfer System, Emergence of Electronic
+Payment Systems in India
+Digital Payment Systems – NPCI
+Electronic Clearing Systems in India, National Payment Corporation of India (NPCI), Digital Initiatives by
+the Government of India
+Impact of Technology Adoption and Trends in Banking Technology
+Trends in Technology Developments, Role and Uses of Technology Upgradation, Global Trends in Banking
+Systems, Impact of Information Technology on Banks, Some emerging technology trends in Banking
+Security Considerations and Mitigation Measures in Banks
+Risk Concern Areas, Different Types of Threats, Control Mechanism, Computer Audit, Information System
+Audit (IS Audit), Information System Security (IS Security), Modus Operandi of Online Frauds and Cyber
+Security Awareness, IT Resources Evaluation Requirements, Disaster Recovery Management Objective, Legal
+Framework for Electronic Transactions Information Technology Act, G. Gopalakrishana Committee Report,
+Cyber Security Framework in Banks, Integrated Ombudsman Scheme, 2021 by RBI
+Operational Aspects of Cyber Crimes/Fraud Risk Management in Cyber Tech
+Fraud vs Crime, Phases of an Effective Incident Response Plan
+SYLLABUS | xiii
+
+=== PAGE 15 ===
+Technology Trends in Banking, e-RUPI, Fintech - RegTech, SupTech, Hashtag Banking etc.
+e-RUPI, Fintech/Reg Tech/Sup Tech, Social Media Banking, Hashtag Banking, Account Aggregators, Open
+Banking
+MODULE D: ETHICS IN BANKS AND FINANCIAL INSTITUTIONS
+Ethics, Business Ethics & Banking: An Integrated Perspective
+Values and Ethics, Ethics and Business Values, Business Ethics – Definition, Principles and Practice, An
+Ethical Crisis: Is Business Ethics an Oxymoron?, Ethical Foundation of Banking: Finance Depends on Trust,
+Ethical Foundation of Being a Professional, Banking Ethics in Global Context: Enron and Its Lesson, Global
+Financial Crisis, Ethics in Indian Context: Satyam and Its Lessons, An Indian Bank Case Study
+Ethics at the Individual Level
+Values, Norms, Beliefs and Their Role, Core Values: The Value of a Value, Morality and Personal Values, Value
+– Conflicts: How Should I Live?, Personal Ethics and Business Ethics: Individual Integrity and Responsibility,
+The Golden Rule, Understanding Right and Wrong: Doing the Right Thing, Ethical Reasoning and Real-World
+Application, Ethical Dilemmas: Resolving Ethical Dilemmas, A Framework of Ethical Decision-Making
+Ethical Dimensions: Employees
+Abuse of Official Position: Insider Trading, Proprietary Data, Bribes, etc., Obligations to Third Parties, Job
+Discrimination, Sexual Harassment, Managing Conflict of Interests, Fair Accounting Practices: Related
+Party Transactions, HRM Ethics, Principles of Representation and Work Environment, Employees as Ethics
+Ambassadors & Managers as Ethical Leaders
+Work Ethics and the Workplace
+What Is Work Ethics? Something Bigger Than the Self, Ethical Behaviour at The Workplace: Benefits,
+Recognising Ethical Workplaces, Unethical Behaviours: Causes and Remedies, Conducting Personal Business
+During Office Time, Taking Credit for Others’ Work, Ethical Lapses and Organizational Culture, Ethics of a
+Banker, Whistleblowing in Banks, Whistleblowing Law in India
+Banking Ethics: Changing Dynamics
+Ethics and Technology, Data Security and Privacy, Intellectual Property Rights, Patents and Proprietary Rights,
+Ethics of Information Security
+xiv | SYLLABUS
+
+=== PAGE 16 ===
+CONTENTS
+Foreword v
+MODULE A: GENERAL BANKING OPERATIONS
+1. Banker-Customer Relationship 3
+2. AML- KYC Guidelines 15
+3. Operational Aspects of KYC 29
+4. Opening Accounts of Various Types of Customers 49
+5. Operational Aspects of Deposit Accounts 69
+6. Operational Aspects of Handling Clearing/Collection/Cash 99
+7. Banker’s Special Relationship 115
+8. Foreign Exchange Remittance Facilities for Individuals 121
+9. Operational Aspects of NRI Business 143
+10. Foreign Currency Accounts for Residents and Other Aspects 161
+11. Cash Management Services and its Importance 173
+12. Payment and Collection of Cheques and Other Negotiable Instruments 179
+13. Responsibility of Paying Bank 191
+14. Responsibility of Collecting Bank 201
+15. Ancillary Services 207
+16. Financial Inclusion & Financial Literacy 223
+17. Customer Service Guidelines 233
+18. Duties & Rights of a Banker and Customer Rights 247
+19. Grievance Redressal & RBI Integrated Ombudsman Scheme 2021 257
+20. The Consumer Protection Act, 2019: Preamble, Extent and Definitions 271
+21. The Right to Information Act, 2005 297
+MODULE B: FUNCTIONS OF BANKS
+22. Principles of Lending, Different Types of Borrowers, and Types of Credit Facilities 309
+23. Appraisal and Assesement of Credit Facilities 333
+24. Operational Aspects of Loan Accounts 367
+25. Types of Collaterals and their Characteristics 403
+
+=== PAGE 17 ===
+26. Different Modes of Charging Securities 437
+27. Documentation 475
+28. Non-Performing Assets/ Stressed Assets 483
+29. Important Laws Relating to Recovery of Dues 511
+30. Contracts of Indemnity 567
+31. Contracts of Guarantee & Bank Guarantee 573
+32. Letters of Credit 591
+33. Deferred Payment Guarantee 601
+34. Laws Relating to Bill Finance 605
+35. Personal Finance 611
+36. Priority Sector Advances 625
+37. Agricultural Finance 637
+38. Finance to MFIs/Co-Lending Arrangements with NBFCs 653
+39. Micro, Small and Medium Enterprises in India 665
+40. Government Sponsored Schemes 681
+41. Self-Help Groups 701
+MODULE C: BANKING TECHNOLOGY
+42. Essentials of Bank Computerisation 707
+43. Operational Aspects of CBS Environment 725
+44. Alternate Delivery Channels – Digital Banking 735
+45. Data Communication Network and EFT Systems 765
+46. Digital Payment Systems – NPCI 789
+47. Impact of Technology Adoption and Trends in Banking Technology 809
+48. Security Considerations and Mitigation Measures in Banks 827
+49. Operational Aspects of Cyber Crimes/Fraud Risk Management in Cyber Tech 871
+50. Technology Trends in Banking, e-RUPI, Fintech - RegTech, SupTech, Hashtag Banking etc. 881
+MODULE D: ETHICS IN BANKS AND FINANCIAL INSTITUTIONS
+51. Ethics, Business Ethics & Banking: An Integrated Perspective 895
+52. Ethics at the Individual Level 909
+53. Ethical Dimensions: Employees 921
+54. Work Ethics and the Workplace 927
+55. Banking Ethics: Changing Dynamics 939
+xvi | CONTENTS
+
+=== PAGE 18 ===
+MODULE A
+GENERAL BANKING OPERATIONS
+Unit 1. Banker-Customer Relationship
+Unit 2. AML- KYC Guidelines
+Unit 3. Operational Aspects of KYC
+Unit 4. Opening Accounts of Various Types of Customers
+Unit 5. Operational Aspects of Deposit Accounts
+Unit 6. Operational Aspects of Handling Clearing/Collection/ Cash
+Unit 7. Banker’s Special Relationship
+Unit 8. Foreign Exchange Remittance Facilities for Individuals
+Unit 9. Operational Aspects of NRI Business
+Unit 10. Foreign Currency Accounts for Residents and Other Aspects
+Unit 11. Cash Management Services and its Importance
+Unit 12. Payment and Collection of Cheques and Other Negotiable Instruments
+Unit 13. Responsibility of Paying Bank
+Unit 14. Responsibility of Collecting Bank
+Unit 15. Ancillary Services
+Unit 16. Financial Inclusion & Financial Literacy
+Unit 17. Customer Service Guidelines
+Unit 18. Duties & Rights of a Banker and Customer Rights
+Unit 19. Grievance Redressal & RBI Integrated Ombudsman Scheme 2021
+Unit 20. The Consumer Protection Act, 2019: Preamble, Extent and Definitions
+Unit 21. The Right to Information Act, 2005
+
+=== PAGE 19 ===
+
+
+=== PAGE 20 ===
+U N I T
+1 BANKER-CUSTOMER
+RELATIONSHIP
+STRUCTURE
+1.0 Objectives
+1.1 Introduction
+1.2 Requirements to be Called a Bank
+1.3 Banker-Customer Relationship
+1.3.1 Introduction
+1.3.2 Who is a Customer?
+1.3.3 Debtor-Creditor
+1.3.4 Creditor-Debtor
+1.4 Bank as a Trustee
+1.5 Bailee-Bailor Relationship
+1.6 Agent-Principal Relationship
+1.7 Lessor and Lessee
+1.8 Indemnifier and Indemnified
+1.8.1 Banker Customer Relationship Summarised
+1.9 Different Deposit Products or Services
+1.9.1 Deposit Products
+1.9.2 Demand Deposits
+1.9.3 Time Deposits
+1.9.4 Hybrid Deposits or Flexi Deposits
+1.9.5 Deposit Products for Non Resident Indians
+1.10 Services to Customers and Investors
+1.10.1 Merchant Banking
+1.10.2 Lease Financing
+1.10.3 Plastic Money
+1.10.4 Electronic Cards/ Payment Services
+1.10.5 Remittance Services
+1.10.6 Government Schemes
+1.10.7 Third Party Products Sale
+1.10.8 Safe Custody or Trusteeship Services
+1.11 Let Us Sum Up
+1.12 Keywords
+1.13 Check Your Progress
+1.14 Answers to ‘Check Your Progress’
+
+=== PAGE 21 ===
+4 | PRINCIPLES & PRACTICES OF BANKING
+1.0 OBJECTIVES
+After reading this Unit, you will:
+• Know the requirements of a bank
+• Understand various types of relationship between a bank and its customer
+• Know different types of deposit products and services
+• Know various types of services banks offer to customers and investors
+1.1 INTRODUCTION
+The basic function of a banker is accepting money from the public by way of deposits and deploying the
+same by means of loans and investments. Besides, bankers render a variety of services, like providing
+lockers, keeping articles in safe custody, collecting bills, cheques, etc. Different types of relationships
+are created between the banker and the customers, depending upon the nature of service rendered.
+1.2 REQUIREMENTS TO BE CALLED A BANK
+As per Sec. 5(b) of ‘the Banking Regulation Act, 1949 (BR Act)’, the term ‘Banking’ means accepting
+for the purpose of lending or investment, deposits of money from the public, repayable on demand or
+otherwise and withdrawable by cheque, draft, order or otherwise. Hence, the banker is in the business of
+accepting deposits from the public and utilising these for the purpose of lending or investment.
+Thus essentials to satisfy the requirements of the definition are:
+(a) Deposits should be only for lending and investment. Companies accepting deposits for trading or
+manufacturing are not considered as a bank.
+(b) The deposit should be from the public. So, ‘Nidhis’ multi-benefit societies, co-operative societies
+that accept deposit from their members are not covered as a bank.
+(c) Acceptance of deposit should be in the form of money.
+A company incorporated under Indian Companies Act, 1956 or Companies Act, 2013 can be a bank, a
+banker or a banking company. Under Sec. 5(c) of BR Act, ‘Banking Company’ means any company that
+transacts the business of banking in India. Sec. 7(1) of BR Act prohibits use of the words ‘banker’ or
+‘banking’ or ‘banking company’ by a company other than a banking company. Sec. 7(2) further prohibits
+the use of such words by an individual or a group of individuals or a firm.
+(a) Moneylenders are not bankers: The definition of banker does not include the moneylenders or
+mahajans, Sahukars or Shettys, because they run their business as individuals or groups of individuals
+and not as a company registered under the provisions of the Companies Act and BR Act. In the case
+of Kadiresan Chettiar vs. Ramanathan Chettiar (AIR 1927, Madras 438), it was held that while a
+moneylender lends his own money, a banker lends money of his customers/depositors.
+(b) Accepting deposits of money from the public: Every institution carrying out the business of banking
+must accept the deposits of money from the public and should not confine to the deposits from its
+members only. In the case entitled Mahalaxmi Bank Limited vs. Registrar of Companies, it was
+decided that if a company gave loan to the public but did not accept deposits from the public, it could
+not be considered as a banking company under Sec. 5 of BR Act.
+(c) Acceptance for the purpose of lending or investment: An institution accepting deposits of money
+without any purpose or with a purpose other than lending or investment cannot be termed as a bank.
+(d) Deposit repayable to depositors on demand or otherwise: Deposits of money may be repayable either
+on demand or if they are term deposits, on the expiry of the stipulated term or period.
+
+=== PAGE 22 ===
+BANKER-CUSTOMER RELATIONSHIP | 5
+(e) The deposits may be withdrawable by the customers by cheque, draft, order or otherwise.
+Banks are also authorised to carry out certain other transactions as provided under Sec.6 of BR Act,
+1949, mainly:
+(a) Discounting of bills; (b) Collection of cheques and bills; (c) Remittances; (d) Safe custody of articles;
+(e) Hiring safe deposit lockers; (f) Conducting foreign exchange transactions; (g) Conducting (Central/
+State) government transactions; (h) Issuing letters of credit and guarantees.
+Besides, banks now a days also undertake following activities:
+(i) Wealth Management services; (ii) Project appraisal; (iii) Sale of third party products such as Mutual
+funds, Life insurance, General insurance; (iv) Executor Trustee services; (v) Acceptance of Central and
+State Govt. Taxes; (vi) Franking of Stamp duty on documents; (vii) Securities Trading; (viii) Factoring;
+(ix) Venture Capital financing; (x) Demat services.
+1.3 BANKER-CUSTOMER RELATIONSHIP
+1.3.1 Introduction
+The relationship between a banker and a customer depends upon the nature of services provided by the
+banker.
+1.3.2 Who is a Customer?
+Before we understand the banker customer relationship it is necessary to know who is called as a customer.
+The term ‘customer’ of a bank is not defined by law. Ordinarily, a person who has an account in a bank
+is considered as a customer. The legal judgments in the past, however, used to qualify this statement by
+laying emphasis on the period for which an account had actually been maintained with the bank.
+In Sir John Paget’s view “to constitute a customer there must be some recognizable course or habit of
+dealing in the nature of regular banking business.” This definition of a customer of a bank lays emphasis
+on the duration of the dealings between the banker and the customer and is, therefore, called the ‘duration
+theory’. According to this viewpoint a person does not become a customer of the bank on the opening of
+an account; he must have been accustomed to deal with the banker before he is designated as a customer.
+The emphasis on the duration of the bank account is now discarded. According to Dr. Hart, “a customer
+is one who has an account with a banker or for whom a banker habitually undertakes to act as such.”
+Kerala High Court observed in the case of Central Bank of India Ltd. Bombay vs. V.Gopinathan Nair
+and others (A.I.R., 1979, Kerala 74): “Broadly speaking, a customer is a person who has the habit of
+resorting to the same place or person to do business. So far as banking transactions are concerned he is a
+person whose money has been accepted on the footing that banker will honour up to the amount standing
+to his credit, irrespective of his connection being of short or long standing.”
+For the purpose of KYC requirements, a ‘Customer’ is defined as:
+• A person or entity that maintains an account and/or has a business relationship with the bank or
+conducts a transaction with the bank
+• One on whose behalf the account is maintained or a transaction is conducted (i.e. the beneficial
+owner). [Ref: Prevention of Money Laundering Act, 2002 Sec. 2(fa) – “‘Beneficial Owner’ means
+an individual who ultimately owns or controls a client of a reporting entity or the person on whose
+behalf a transaction is being conducted and includes a person who exercises ultimate effective control
+over a juridical person”]
+
+=== PAGE 23 ===
+6 | PRINCIPLES & PRACTICES OF BANKING
+• Beneficiaries of transactions conducted by professional intermediaries, such as Stock Brokers,
+Chartered Accountants, Solicitors etc. as permitted under the law, and
+• Any person or entity connected with a financial transaction which can pose significant reputational
+or other risks to the bank, say, a wire transfer or issue of a high value demand draft as a single
+transaction.
+As per the Prevention of Money Laundering Act, 2022, “client” means a person who is engaged in a
+financial transaction or activity with a reporting entity and includes a person on whose behalf the person
+who engaged in the transaction or activity, is acting. A customer of a bank need not necessarily be a natural
+person. A firm, joint stock company, a society or any separate legal entity (like a partnership firm or an
+association of persons) may be a customer. Explanation to Sec. 45-Z of BR Act clarifies that “customer”
+includes a Government department and a corporation incorporated by or under any law.
+Since the banker-customer relationship is contractual, it follows that any person who is competent to
+contract can open a deposit account with a bank branch of his/her choice and convenience.
+1.3.3 Debtor-Creditor (Bank is a Debtor and Customer is a Creditor)
+When a customer deposits money with his bank, the customer becomes a lender and the bank becomes
+a borrower. The money handed over to the bank is a debt. The relationship between the banker and the
+customer is that of a debtor and a creditor. The main features of this relationship are:
+(a) The bank is free to use the money in a way most beneficial to it.
+(b) The customer should make a demand of payment. The banker is not required to pay voluntarily.
+(c) The demand should be made in specified manner, in writing by cheque, draft, withdrawal form, order
+or otherwise, during working hours.
+(d) The creditor (customer) does not have any security from the debtor (bank).
+(e) The law of limitation does not begin to run until a demand has been made for repayment, in case of
+both demand and fixed deposits.
+1.3.4 Creditor-Debtor (Bank is a Creditor and Customer is a Debtor)
+When the bank lends money to the customer, the customer is the borrower (i.e. a debtor) and the bank
+is the lender (i.e. a creditor). Lending money is the most important activity of a bank. The resources
+mobilized by banks are utilized for lending operations. Customer, who borrows money from the bank,
+owes money to the bank. In the case of any loan/advance account, the banker is the creditor and the
+customer is the debtor or the borrower. The borrower executes documents and offers security to the bank
+before utilizing the credit facility.
+In addition to these two activities, banks also undertake other activities mentioned in Sec.6 of the Banking
+Regulation Act. Depending upon the type of services rendered and the nature of the transaction, the banker
+acts as a bailee, trustee, principal, agent, lessor, custodian, etc.
+1.4 BANK AS A TRUSTEE
+A trustee is a person or firm that holds and administers property or assets for the benefit of a third
+party. Trustees are required to make decisions in the beneficiary’s best interests and have a fiduciary
+responsibility to them, meaning they act in the best interests of the beneficiaries to manage their assets.
+If a customer keeps certain valuables or securities with the bank for safe-keeping or deposits a certain
+
+=== PAGE 24 ===
+BANKER-CUSTOMER RELATIONSHIP | 7
+amount of money for a specific purpose, the banker, besides becoming a bailee, is also a trustee. In the
+case of Subramanyan Pillai and Others vs. Palai Central Bank Ltd. (AIR 1962 Ker. 210), certain persons
+deposited `2,000 each in the bank as guarantee money to purchase cars. The bank failed before they
+could get the vehicle. The court was of the view that the bank acted as a trustee and the money should
+be refunded as preferential debts.
+In one case, a customer remitted money for purchase of shares of a company. The bank bought shares
+in parts, but before completing the rest of the purchase, it failed. It was held that the bank stood in the
+position of a trustee, and the remitter was entitled to the refund of the unspent amount.
+1.5 BAILEE-BAILOR RELATIONSHIP (BANK-BAILEE AND CUSTOMER-BAILOR)
+When a customer deposits certain valuables, bonds, securities or other documents with the bank, for
+their safe custody, the bank, besides becoming a trustee as discussed earlier, also becomes a bailee and
+the customer is the bailor. According to the terms of Sec. 148 of the Indian Contract Act, 1872, the bank
+becomes custodian of the securities of the customer and hence as a bailee is liable for any loss caused to
+the bailor due to its negligence. The finder of lost goods (Sec. 71 Indian Contract Act) should return any
+increase in goods/animals to the true owner. Under Section 164 (Indian Contract Act), the finder has to
+take care of such goods as an ordinary prudent man. These are examples of bailee-bailor relationship.
+1.6 AGENT-PRINCIPAL RELATIONSHIP (BANK IS AGENT AND CUSTOMER IS
+PRINCIPAL)
+According to Section 182, of the Indian Contract Act, 1872, a principal is a person who delegates authority
+to another person namely, the agent. Among the ancillary services rendered by the bank are remittance,
+collection of cheques, bills, to pay regularly, electricity bills, telephone bills, insurance premium, club
+fees, etc. on behalf of the customers. In these cases, the bank acts as an agent, his principal being the
+customer. The relationship of agency, terminates on the death, insolvency and lunacy of the customer or
+on completion of the work assigned. In case of remittances, though the relation is of agency in the case
+of Traders Bank Ltd vs. S. Kalyan Singh (AIR 1953), Punb p. 195, the High Court has held the relation
+to be that of debtor-creditor.
+1.7 LESSOR AND LESSEE (BANK AS A LESSOR AND CUSTOMER AS A LESSEE)
+Section 105 of ‘Transfer of Property Act’ deals with lease, lesser, lessee. The banks provide safe deposit
+lockers to the customers for use on lease basis. The relationship here is that of lessor and lessee or of
+licensor and licensee. The bank shall not be liable for any damage and/or loss of contents of locker arising
+from natural calamities or Acts of God like earthquake, floods, lightning and thunderstorm or any act
+that is attributable to the sole fault or negligence of the customer. Banks shall, exercise appropriate care
+for protection of their locker systems and premises. It has the responsibility to ensure that incidents like
+fire, theft/burglary/ robbery, dacoity, building collapse do not occur in the bank’s premises due to its own
+shortcomings, negligence and by any act of omission/commission. In instances where loss of contents of
+locker is due to such incidents or attributable to fraud committed by its employee(s), the banks’ liability
+shall be for an amount equivalent to one hundred times the prevailing annual rent of the safe deposit locker.
+
+=== PAGE 25 ===
+8 | PRINCIPLES & PRACTICES OF BANKING
+1.8 INDEMNIFIER AND INDEMNIFIED (BANK IS INDEMNIFIED
+OR INDEMNITY HOLDER AND CUSTOMER IS INDEMNIFIER)
+A contract by which one party promises to save the other from loss caused to him by the conduct of the
+promisor himself or the conduct of any other person is a contract of indemnity – Sec. 124 (Indian Contract
+Act, 1872). In banking, such relationship occurs in transactions of issue of duplicate demand draft, fixed
+deposit receipt etc. In these cases the person availing the facility will compensate the other for any loss
+arising from the wrong/excess payment.
+1.8.1 Banker Customer Relationship Summarised
+The banker – customer relationships are summarized below for different types of transactions.
+Transaction Bank Customer
+Deposit in the bank Debtor Creditor
+Loan from bank Creditor Debtor
+Safe custody Bailee Bailor
+Locker Lessor Lessee
+Collection of Cheque Agent Principal
+Purchase of a draft* Debtor Creditor
+Payee of a draft Trustee Beneficiary
+Pledge Pawner (Pledgee) Pawnee (Pledger)
+Mortgage Mortgagee Mortgagor
+Standing instruction Agent Principal
+Sale/purchase of securities on behalf of a customer Agent Principal
+Money deposited but instructions not given for its disposal Trustee Beneficiary
+Articles left by mistake Trustee Beneficiary
+Shares given for sale Agent Principal
+Hypothecation Hypothecatee Hypothecator
+*As per Haryana and Punjab High court judgment in the case of Traders Banks vs. Kalyan Singh- 1953
+1.9 DIFFERENT DEPOSIT PRODUCTS OR SERVICES
+1.9.1 Deposit Products
+Deposit products consist of a wide variety of financial products whereby, clients deliver (deposit) funds
+(in cash or digitally) with a financial institution and may earn a financial return depending on the deposit
+type and duration. Let us know the different types of deposit products offered by banks. Detailed features
+of various deposit products are discussed in Unit 5.
+Types of Deposits
+Deposits are normally classified as demand deposits and time deposits.
+
+=== PAGE 26 ===
+BANKER-CUSTOMER RELATIONSHIP | 9
+Demand Deposits Time Deposits
+1. Payable on Demand. 1. Repaid after expiry of the Deposit Period.
+2. Low interest rates or no interest. 2. High interest rates, which vary according to period.
+3. It includes current, savings, overdue deposits and
+unclaimed deposits.
+3. Time deposits are for a period ranging from 7 days
+to 120 months period with or without reinvestment
+plans.
+1.9.2 Demand Deposits
+Demand deposits are classified into current accounts and savings accounts.
+Current Deposits: The deposis in current account are working funds of businesses or enter; rises, and
+fluctuate widely and are not paid any interest.
+Saving Deposits: Savings accounts are to inculcate savings habit and facilitate regular transactions through
+banking system, and attract interest. These fluctuate, albeit are less volatile.
+1.9.3 Time Deposits
+Term deposits (TD) are for investing surplus funds for short to long term. TD can have distinguishing
+features for following parameters:
+(i) Mode of interest payment – Periodical or cumulative.
+(ii) Mode of investment – in lump sum or in instalment.
+(iii) Mode of return of principal – on maturity or in instalment.
+TDs are of several types as indicated below:
+(i) Fixed Deposits (periodical interest payment)
+(ii) Short-term Deposits (of less than a year)
+(iii) Reinvestment Deposit Scheme (cumulative interest paid on maturity)
+(iv) Recurring Deposit Scheme (periodical deposits made)
+(v) Flexi Recurring Deposit (special type of recurring deposit)
+1.9.4 Hybrid Deposits or Flexi Deposits
+These are a combination of demand and fixed deposits, introduced giving flexibility to customer.
+1.9.5 Deposit Products for Non-Resident Indians
+Banks also offer special deposit accounts/ schemes for Non Resident Indians, Persons of Indian Origins,
+and Overseas Citizens of India.
+• Non-Resident Ordinary Rupee Account (NRO Account)
+• Non-Resident (External) Rupee Account (NRE Account)
+• Foreign Currency Non Resident (Bank) Account – FCNR (B) Account
+1.10 SERVICES TO CUSTOMERS AND INVESTORS
+Banks also provide certain other financial services to meet other needs of customers and investors. These
+services help in augmenting revenue earnings for the banks.
+
+=== PAGE 27 ===
+10 | PRINCIPLES & PRACTICES OF BANKING
+1.10.1 Merchant Banking
+Merchant bankers are financial intermediaries facilitating transfer of capital from those who own it
+(Investor or Bond Subscriber) to those who use it (Corporates or Governments). They help a corporate
+in Initial Public Offering (IPO) or a Follow-up Public Offer (FPO), popularly called a Public issue or
+Private Placement of Debt or Equity.
+Merchant bankers assist in introducing or selecting or appointing outside technical consultants in addition
+to in-house technical personnel for preparation of a detailed project report, market survey report, feasibility
+studies etc. It also assists in:
+(a) Obtaining regulatory clearances from Securities Exchange Board of India (SEBI), the stock exchanges
+(BSE, NSE), Registrar of Companies etc.
+(b) Specifically obtaining clearances from SEBI for the prospectus of the IPO or the FPO.
+(c) Planning and timing of the IPO/FPO.
+(d) Underwriting of public issue by financial institutions or brokers.
+(e) Selection of Principal Broker(s) and Sub-Brokers, lead-book-runners and sub-book runners.
+(f) Selecting the Registrar to the issue and fixing their remuneration.
+(g) Selecting bankers to the issue that will maintain the bank account for collecting and holding the
+funds to be raised till successful closure of the issue.
+(h) Selecting advertising consultants or agencies for publicity campaigns, investor conferences, analyst
+conferences and road shows.
+(i) Printing and distribution of prospectus/ application forms to brokers/ sub-brokers/book runners.
+(j) Making application to stock exchanges for listing of the security.
+(k) Monitoring and reporting the progress of the offering to the company and regulatory bodies.
+1.10.2 Lease Financing
+This means leasing out the capital assets owned by an institution to another company against payment
+of monthly rents for asset’s consumption or use. Here, the finance is provided by the institution (may be
+a bank too), called Lessor, which does not enjoy the use of asset but is its owner. The lessor is entitled
+to write off a certain amount of capital cost (i.e. in the form of depreciation charge on the capital asset)
+against its taxable profits until it is fully written off. While the lessee is benefited by not investing funds
+in capital cost, the lease charges are permitted to account as revenue expenses in its books of accounts.
+The lease can also be arranged on any existing freehold asset(s) or long leasehold property by either
+mortgaging it or by selling it at market price to a leasing company; this leasing company in turn would
+lease it back to the seller of the asset on lease thus benefiting both the entities. In a lease, the lessee of
+the equipment does not become the owner thereof.
+Advantages to Lessee
+(a) Use of asset without incurring the capital cost, thus saving on cost of capital.
+(b) Lease rentals are business revenue expense, contracting profits and reducing taxation.
+(c) Since there is no capital cost, this does not impact the liability side of the balance sheet.
+(d) Credit worthiness of the lessee is maintained at a higher level facilitating it to borrow further.
+Disadvantages to Lessee
+(a) Ownership of the asset is held with the lessor and not with the lessee.
+(b) The asset is permitted to be used for agreed business purposes only; preventing from utilising the
+asset for alternative business purposes, if any.
+
+=== PAGE 28 ===
+BANKER-CUSTOMER RELATIONSHIP | 11
+(c) Confiscation or repossession of the asset by the lessor on breach of terms and conditions.
+(d) If the lessor/owner becomes insolvent or goes into liquidation the asset may be attached by the
+liquidator.
+1.10.3 Plastic Money
+Plastic money in the form of credit cards and other types of cards has become a preferred mode of
+payments. Increasing use of the plastic money, has reduced the need of cash to a significant extent.
+(i) Charge Cards
+A charge card is an electronic payment card, where the cardholder is not charged interest but needs the
+user to pay the balance due in full upon receipt of the statement, usually every month. Holders of these
+cards may have to pay a high annual fee. There are very few issuers of charge cards. Charge cards usually
+do not have a preset spending limit and the amount allowed to be drawn varies depending on the usage
+and payment record built up. There are no charges levied on the amount spent apart from the annual fee.
+Late fee is charged on delayed payments.
+(ii) Credit Cards
+Credit card facilitates the card holder to utilize sanctioned credit limit primarily for making purchases
+of goods and services. The difference between a credit card and a charge card is that in case of charge
+card, the entire outstanding amount is to be paid within the specified period. In case of credit cards, the
+cardholder has the option to pay only part amount on due date.
+(iii) Debit Cards
+Debit cards are similar to credit cards in functionalities, except that the transaction amount is debited to
+the cardholder’s account as soon as it is notified to the issuer. Hence it is an instrument facilitating debit
+to a savings or current account.
+(iv) ATM Cards
+These are cards issued to the savings/ current account holders for drawing cash from Automated Teller
+Machines (ATMs) located in the branch or off site. Usually debit cards are also used as ATM cards.
+(v) Prepaid Cards
+Prepaid cards are loaded with the amount paid by the persons purchasing the cards. These cards can be
+given to third persons who can use these for making purchases from merchants. Some cards can also be
+used for withdrawing cash from ATMs.
+(vi) Co-branded Cards
+A co-branded card is a credit card that a retailer of consumer goods or services issues in partnership
+with a particular credit card issuer or network. Often bearing the logos of both the credit card company
+and the retailer, co-branded cards earn merchandise discounts, points, or other rewards when used with
+the sponsoring merchant, but they can also be used anywhere the cards from that network are accepted.
+1.10.4 Electronic Cards/Payment services
+As the financial services sector has become technology based and smart phones have become widely
+prevalent, electronic payment instruments have been introduced. These instruments can be loaded on the
+smartphones of the customers, like mobile wallet, etc. Various cards are now issued in electronic form also.
+
+=== PAGE 29 ===
+12 | PRINCIPLES & PRACTICES OF BANKING
+1.10.5 Remittance Services
+For facilitating funds transfers between two persons, banks were providing services in the form of Demand
+Drafts (DD), Banker’s Cheques (BC)/ Pay Orders (PO), Mail Transfers (MT) and Telegraphic Transfers
+(TT). With adoption of core banking system for bank operations, these products have become redundant.
+Transfer products have become technology as stated below:
+• National Electronic Funds Transfer (NEFT)
+• Real Time Gross Settlement (RTGS)
+• Immediate Payment Service (IMPS)
+• Unified Payment Interface (UPI) Transfers
+• Aadhaar Enabled Payment System (AePS)
+• National Automated Clearing House (NACH)
+1.10.6 Government Schemes
+Banks also serve as the distribution points for several Government Schemes that are aimed at financial
+inclusion and also providing safe avenues of investment to the common man. Some of the prominent
+schemes are mentioned below. These products provide commission income to banks, apart from facilitating
+them to cater to various needs of their customers under one roof.
+• Public Provident Fund (PPF)
+• National Pension Scheme (NPS)
+• Capital Gains Account Scheme 1988 (CGAS)
+• Senior Citizens Savings Scheme (SCSS)
+• Sukanya Samriddhi Account Scheme, 2019
+• RBI Bonds
+• Gold Monetisation Scheme, 2015
+• Sovereign Gold Bond Scheme (SGB)
+• Nominated Agency for Gold Imports
+• Atal Pension Yojana
+• Pradhan Mantri Vaya Vandana Yojana (PMVVY)
+• Pradhan Mantri Suraksha Bima Yojana (PMSBY)
+• Stand Up India Scheme
+• Pradhan Mantri Jan Dhan Yojana
+1.10.7 Third Party Products Sale
+With a view to providing one-stop-services to their customers, banks have tapped the opportunity made
+available through regulatory relaxations for banks to sell third party financial products pertaining mainly
+to the capital market and insurance sectors. For banks, it is an additional source of revenue. Customers,
+get financial services at one place. For capital market and insurance sector, it adds to their depth. Some
+of the major third party products are:
+(i) Demat Accounts: Tie-up with a Depository Participant (DP). Some banks register as a DP.
+(ii) Trading Account: Tie-up with a Stock Broker.
+(iii) Three-in-One Account: Linked Demat Account - Trading Account - Savings/ Current Account.
+(iv) Mutal Funds: Tie-up with various mutual fund companies.
+(v) Life Insurance Policy: Tie-up with a life insurance company.
+
+=== PAGE 30 ===
+BANKER-CUSTOMER RELATIONSHIP | 13
+(vi) Health Insurance Policy: Tie-up with a health insurance company.
+(vii) Vehicle Insurance, House Insurance, etc.: Tie-up with a general insurance company.
+1.10.8 Safe Custody or Trusteeship Services
+Banks and bankers enjoy tremendous public trust. Banks have therefore offered certain services that
+leverages on this public confidence. Certain services that banks provide in this context are as follows:
+(i) Safe Custody of articles, documents, etc.: Valuable articles/ documents are left in the custody of
+banks for safekeeping.
+(ii) Hiring out safe deposit lockers: Banks hire out safe deposit lockers for safe keeping of valuables
+(ornaments, gold, documents, etc).
+(iii) Escrow account: Such accounts are used when a party wants to exercise some control on the use
+of the funds received in the account in the name of another party.
+(iv) Escrow services for document: There are situations when certain parties to a transaction want to
+have joint control of a document until certain conditions are fulfilled.
+(v) Trusteeship: Banks offer trusteeship services for handling of certain funds or assets.
+(vi) Executorship: Banks offer the services of executorship for the wills made by their customers.
+1.11 LET US SUM UP
+The term ‘Banking’ has been comprehensively defined under BR Act. The banker is engaged in the
+business of accepting the deposits from the public and utilizing such deposits for lending or investment.
+The Act specifies the criteria to be fulfilled for being termed as ‘Bank’.
+The term ‘customer’ of a bank is not defined by law. Ordinarily, a person who has an account in a bank
+is considered as a customer. For the purpose of KYC policy, a ‘Customer’ is defined as a person or entity
+that maintains an account and/or has a business relationship with the bank.
+Banks are also authorised to carry out other transactions as provided under Sec. 6 of BR Act. These
+services provided by banks to customers give rise to certain relationship between them. The general view
+is that the banker’s relationship with the depositor is that of a debtor and a creditor. Other relationships
+are of: creditor - debtor, bailee - bailor, and trustee - beneficiary.
+Deposits are either demand deposits or time deposits. Demand deposits are made up of current accounts
+and saving accounts, while time deposits include fixed deposits, short-term deposits, recurring deposits,
+MIDS/QIDS/reinvestment deposits, etc.
+Other services provided by banks are merchant banking, lease financing, plastic money like credit or
+debit cards, etc.
+Remittance services have been a major activity of banks since their inception. New-age remittance
+products are NEFT, RTGS, IMPS, and AEPS that are available on 24 x 7 basis.
+Banks also administer and manage accounts under certain Government Schemes, especially those under
+Small Savings Schemes.
+Banks also support Central Government measures to mobilise stock of gold with public through various
+schemes.
+Banks are offering third party financial products like insurance products, mutual funds, stock trading
+account, demat account, and three-in-one accounts.
+
+=== PAGE 31 ===
+14 | PRINCIPLES & PRACTICES OF BANKING
+Banks also offer safe custody services and safe deposit vaults for safekeeping of valuable articles and
+documents. Banks also act as escrow agent (for funds and documents), trustee for assets, executors for
+estate.
+1.12 KEYWORDS
+Creditor, Debtor, Bailor, Bailee, Lessor, Lessee, Trustee, Principal, Indemnifier, Indemnified, Demand
+Deposits, Time Deposits, Hybrid Deposits, Tax Deduction at Source (TDS), Recurring Deposits, Merchant
+Banking, Initial Public Offering (IPO), Public Issue, Underwriting, Listing of Shares, Lease Financing,
+Credit Card, Debit Card, ATM Card, Pre-paid card, NEFT, RTGS, IMPS, AePS, NPS, SCSS, Gold
+Monetisation Scheme , Sovereign Gold Bond, Three-in-one account.
+1.13 CHECK YOUR PROGRESS
+1. Principal function(s) of banks is/are ________.
+(a) accepting deposits (b) lending and investing
+(c) non-fund business and remittance services (d) all of above (a) to (c)
+(e) only (a) and (b).
+2. When a bank lends money to the corporate person the relationship between them is of ________.
+(a) borrower and lender (b) creditor-debtor
+(c) debtor-creditor (d) customer and client
+3. What relationship is created when the bank collects a cheque in clearing?
+(a) holder for value (b) clearing member and principal
+(c) agent and principal (d) collecting bank and holder
+(e) none of above
+4. Demand deposits are those which can be withdrawn ________.
+(a) on request (b) on sanction by Manager
+(c) on demand (d) on persuasion
+5. Merchant bankers are ________.
+(a) financial brokers (b) financial intermediaries
+(c) credit appraisers (d) underwriters
+(e) All of the above.
+1.14 ANSWERS TO ‘CHECK YOUR PROGRESS’
+1. (d), 2. (b), 3. (c), 4. (c), 5. (b).
+(Sources: Banking Regulation Act, RBI Circulars, Websites of various banks and NPCI)
+
+=== PAGE 32 ===
+STRUCTURE
+2.0 Objectives
+2.1 Money Laundering & Financing of Terrorism Risks
+2.1.1 Introduction
+2.1.2 Stages of Money Laundering
+2.1.3 Stages of Financing of Terrorism
+2.1.4 Objectives of Prevention of Money Laundering
+2.2 AML Framework in India
+2.2.1 Money Laundering Offence
+2.2.2 Money Laundering – Risk Perception
+2.2.3 Measures to Mitigate Money Laundering Risk
+2.3 Know Your Customer Policy
+2.3.1 Practice of Introduction
+2.3.2 ‘Customer’ Definition: KYC Norms
+2.3.3 Key Elements of Know Your Customer (KYC) Policy
+2.4 Organisational Set-up for AML
+2.5 Obligations under PMLA
+2.6 Risk Management
+2.7 Obligations under International Agreements
+2.8 FATF Identified Jurisdictions
+2.9 Correspondent Banks
+2.10 Reporting Under FATCA/ CRS
+2.11 Reporting Obligations
+2.12 Implications of Non-compliance of PMLA Obligations
+2.13 Secrecy Obligations
+2.14 Let Us Sum Up
+2.15 Keywords
+2.16 Check Your Progress
+2.17 Answers to ‘Check Your Progress’
+U N I T
+2 AML-KYC GUIDELINES
+
+=== PAGE 33 ===
+16 | PRINCIPLES & PRACTICES OF BANKING
+2.0 OBJECTIVES
+After studying this Unit, you will:
+• Understand the ‘Money Laundering’ and ‘Financing of Terrorism’ concepts
+• Know about the purpose of KYC Policy and its elements
+• Know about the obligations of banks under the Prevention of Money Laundering Act
+2.1 MONEY LAUNDERING & FINANCING OF TERRORISM RISKS
+2.1.1 Introduction
+Money laundering (ML) is a process whereby the origin of funds generated from criminal activities (drug
+trafficking, gun smuggling, corruption etc.) is concealed and these funds are infused in the financial
+system appearing as if these originated from legitimate sources. Often such funds are deployed in legal
+activities or in legitimate assets.
+Corruption, tax evasion, Ponzi schemes, other financial crimes, cybercrimes are closely connected with
+money laundering. Funds from these crimes now form a substantial portion of money laundering funds.
+Financial crimes (FC) now constitute a significant part of criminal activities.
+Third component of the triad today is Terrorist financing (TF). With growth of several terrorist
+organisations, big and small, Terrorist financing has assumed large proportions. Terrorist financing has
+developed linkages with money laundering as for both purposes similar modalities are used.
+Thus ML, TF and FC are interconnected. Another aspect is that certain criminals have organized into
+Organised Crime Groups (OCGs) and Professional Money Launderers (PMLs). OCGs and PMLs together
+form the network that propagates criminal activities and launders the funds generated from such activities.
+Financial Action Task Force (FATF), a global organization, was set up for evolving measures to be taken
+by financial sector businesses and certain non-financial businesses and professions for prevention of
+money laundering. FATF issued certain recommendations that serve as anti-money laundering (AML)
+and combating financing of terrorism (CFT), and are known as FATF Standards 2012. Money laundering
+and terrorism financing are considered as criminal activities across the world.
+2.1.2 Stages of Money Laundering
+Funds from criminal activities are typically generated outside the financial system, and are placed in it
+to give them legal form. This money laundering cycle comprises three stages stated below.
+(a) Placement: In this stage the funds from criminal activity are introduced into the financial system.
+Typically, this is done through deposits in multiple bank accounts.
+(b) Layering: Next, those funds are passed through numerous financial transactions in these accounts
+creating several layers of funds transfers. This helps in hiding the source of these funds.
+(c) Integration: Next step is collecting the funds lying in multiple accounts in one or few accounts
+that are then deployed for investing in some legal business activity or for acquiring some asset in
+legitimate manner.
+
+=== PAGE 34 ===
+AML-KYC GUIDELINES | 17
+2.1.3 Stages of Financing of Terrorism
+There are numerous terrorist outfits, in the world. These have financial cycles similar to commercial
+entities, and use banks and financial institutions. Financing of Terrorism comprises following stages:
+(a) Raising: Terrorist organisations source funds from their sympathisers both individuals and
+organisations. Sometimes, terrorist outfits also engage in various income generating activities, legal
+or criminal. Channeling funds from both such sources is done in a clandestine manner so that the
+purpose for which these are collected is not known.
+(b) Moving: Contributors to the terrorist organisations can be located anywhere not only in their home
+country but across the world. These funds are therefore required to be moved to the places of their
+establishments of the terrorist organisations.
+(c) Storing: As the funds raised may be deployed for terrorism related activities including the regular
+activities for running the outfits with a gap of time and spread over a period, these are parked in the
+interim in bank accounts or any other financial investment.
+(d) Using: Finally, the raised funds are used for the purposes of carrying out the terrorism act or for
+various organisational related activities.
+2.1.4 Objectives of Prevention of Money Laundering
+The main objectives of measures for prevention of money laundering are:
+(a) To prevent criminal elements from using the financial system for money laundering activities.
+(b) To prevent spread of criminal activities in society.
+(c) To safeguard the economy from financial crimes.
+(d) To prevent terrorists from gaining access to financial resources.
+2.2 AML FRAMEWORK IN INDIA
+Based on FATF Recommendations, in India Prevention of Money Laundering Act, 2002 (PMLA) was
+enacted under which, inter alia, few obligations for all financial sector players and certain non-finance
+businesses have also been stipulated. These entities in the financial sector and the designated businesses
+in non-financial sector are termed as Reporting Entities (RE). Detailed legal provisions for REs, have
+been included in Prevention of Money Laundering (Maintenance of Records) Rules (PMLR).
+Besides, specific institutional framework has also been put in place for dealing with money laundering
+crime.
+(i) Financial Intelligence Unit-India (FIU-Ind) has been set up for receiving information about various
+financial transactions from certain businesses, including banks and financial institutions. FIU-India
+also has supervisory powers over the business entities that are subject to PMLA.
+(ii) Enforcement Directorate (ED) is the investigation and prosecuting authority for money laundering
+crime. The powers of ED include tracking and attaching assets related to money laundering.
+(iii) Special Courts are set up for adjudication of cases pertaining to money laundering crime. The
+adjudicating authority has powers to freeze the assets and even confiscate the assets proved to be
+related to money laundering.
+(iv) The Regulators of various business activities, covered under PMLA, issue operating instructions
+and guidelines for the businesses regulated by them for discharging their obligations under the
+PMLA and PMLR.
+
+=== PAGE 35 ===
+18 | PRINCIPLES & PRACTICES OF BANKING
+2.2.1 Money Laundering Offence
+The offence of money laundering has been defined in Sec. 3 of the PMLA as:
+“whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party
+or is actually involved in any process or activity connected with the proceeds of crime including
+its concealment, possession, acquisition or use and projecting or claiming it as untainted property
+shall be guilty of offence of money laundering.”
+Sec. 45 of PMLA stipulates that all offences under the PMLA are to be deemed to be cognizable and
+non-bailable offences.
+Sec. 4 of PMLA stipulates the punishment for money laundering offence, which is rigorous imprisonment
+for not less than 3 years but up to 7 years and fine as per the gravity of the offence. In cases connected
+with offences under the Narcotics Drugs and Psychotropic Substances Act the imprisonment may extend
+up to maximum 10 years.
+2.2.2 Money Laundering – Risk Perception
+Financial products and services are designed to provide quick, convenient and efficient modes for dealing
+with funds for different purposes. These are abused by the criminals for money laundering and financing
+of terrorism, by disguising or misrepresenting their true identities, profiles and purposes.
+For example, for a salaried executive a savings account is a basic banking product that is used by her for
+managing her regular inflows and outflows of funds related to her livelihood and living needs. A criminal
+engaged in running a gambling racket, on the other hand, opens a savings account for dealing with betting
+money received from the customers. However, the criminal poses as a freelancer photographer to disguise
+the inflows as earnings from this occupation.
+Thus the primary source of ML/FT risks is the customers. These are also affected by:
+(i) Nature of products and services
+(ii) Country of incorporation of the bank
+(iii) Place of the bank branch
+(iv) Place(s) with which the transaction is connected.
+(v) Nature and value of transaction
+2.2.3 Measures to Mitigate Money Laundering Risk
+The obligations under PMLA require the banks to mitigate ML/FT risks. Banks are required to take
+appropriate measures for the following purposes:
+(a) To know/understand the customers and their financial dealings better.
+(b) To detect and report suspicious activities to FIU-Ind as per the laid down procedures.
+(c) To comply with applicable laws and regulatory guidelines.
+(d) To adequately train the staff in KYC/AML procedures.
+These make it difficult for criminals to abuse banks for ML/FT as their activities are closely monitored.
+They mitigate ML/FT risks as criminals would avoid vigilant banks.

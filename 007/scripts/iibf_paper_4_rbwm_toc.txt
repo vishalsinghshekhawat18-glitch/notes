@@ -1,0 +1,996 @@
+BOOK: _OceanofPDF.com_Retail_Banking_and_Wealth_Management_-_IIBF.pdf
+TOTAL PAGES: 649
+
+
+=== PAGE 1 ===
+
+
+=== PAGE 2 ===
+RETAIL BANKING &
+WEALTH MANAGEMENT
+
+=== PAGE 3 ===
+INDIAN INSTITUTE OF BANKING & FINANCE
+(ISO 9001:2015 Certified)
+Kohinoor City, Commercial-II, Tower-1, 2nd & 3rd Floor,
+Kirol Road, Off-L.B.S. Marg, Kurla-West,
+Mumbai-400070
+Established on 30th April 1928
+MISSION
+• 	To develop professionally qualified and competent bankers and finance professionals primarily through
+a process of education, training, examination, consultancy/counselling and continuing professional
+development programs.
+VISION
+• 	To be the premier Institute for developing and nurturing competent professionals in banking and
+finance field.
+OBJECTIVES
+• 	To facilitate study of theory and practice of banking and finance.
+• 	To test and certify attainment of competence in the profession of banking and finance.
+• 	To collect, analyse and provide information needed by the professionals in banking and finance.
+• 	To promote continuous professional development.
+• 	To promote and undertake research relating to Operations, Products, Instruments, Processes, etc.,
+in banking and finance and to encourage innovation and creativity among finance professionals so
+that they could face competition and succeed.
+COMMITTED TO PROFESSIONAL EXCELLENCE
+Website: www.iibf.org.in
+
+=== PAGE 4 ===
+RETAIL BANKING &
+WEALTH MANAGEMENT
+(For JAIIB/Diploma in Banking &
+Finance Examination)
+Indian Institute of Banking & Finance
+
+=== PAGE 5 ===
+© INDIAN INSTITUTE OF BANKING & FINANCE, MUMBAI, 2023
+(This book has been published by Indian Institute of Banking & Finance. Permission of the Institute is essential for
+reproduction of any portion of this book. The views expressed herein are not necessarily the views of the Institute.)
+All rights reserved under the copyright act. No part of this publication may be reproduced, transcribed, transmitted,
+stored in a retrieval system or translated into any language or computer language, in any form or by any means,
+electronic, mechanical, magnetic, optical, chemical, manual, photocopy or otherwise without the prior permission of
+the copyright owner. Any person who does any unauthorised act in relation to this publication may be liable to criminal
+prosecution and civil claims for damages.
+First published 2023
+MACMILLAN EDUCATION INDIA PRIVATE LIMITED
+Bengaluru Delhi Chennai Kolkata Mumbai Ahmedabad Bhopal
+Chandigarh Coimbatore Guwahati Hyderabad Lucknow Madurai
+Nagpur Patna Pune Thiruvananthapuram Visakhapatnam Kochi
+Bhubaneshwar Noida Sahibabad Hubli
+ISBN: 978-93-5666-034-2
+Published by Macmillan Education India Private Limited
+(formerly Macmillan Publishers India Private Limited),
+21, Patullos Road, Chennai 600002, India
+“This book is meant for educational and learning purposes. The author(s) of the book has/have taken all reasonable care to ensure that the contents of the
+book do not violate any copyright or other intellectual property rights of any person in any manner whatsoever. In the event the author(s) has/have been
+unable to track any source and if any copyright has been inadvertently infringed, please notify the publisher in writing for any corrective action.”
+RETAIL BANKING & WEALTH MANAGEMENT
+First Edition (2023)
+Authored, Revised & Updated by Mr. D. P. Srivastava, Retd. DGM, BoB
+Vetted by Mr. S. R. Meena, Retd. GM, BOI
+
+=== PAGE 6 ===
+FOREWORD
+Formal education will make you a living; self-education will make you a fortune.
+–Jim Rohn
+The banking sector, currently, is experiencing a transformation catalysed by digitalization and information
+explosion with the customer as the focal point. Besides, competition from NBFCs, FinTechs, changing
+business models, growing importance of risk and compliance have contributed to this radical shift. Such
+an ever-evolving ecosystem requires strategic agility and constant upgradation of skill levels on the part
+of the Banking & Finance professionals to chart a clear pathway for their professional development.
+The mission of the Indian Institute of Banking & Finance is to develop professionally qualified and
+competent bankers and finance executives primarily through a process of education, training, examination,
+counselling and continuing professional development programs. In line with the Mission, the Institute
+has been offering a bouquet of courses and certifications for capacity building of the banking personnel.
+The flagship courses/examinations offered by the Institute are the JAIIB, CAIIB and the Diploma in
+Banking & Finance (DB&F) which have gained wide recognition among banks and financial institutions.
+With banking witnessing tectonic shifts, there was an imperative need to revisit the existing syllabi for
+the flagship courses.
+The pivotal point for revising the syllabi was to ensure that, in addition to acquiring basic knowledge, the
+candidates develop concept-based skills for keeping pace with the developments happening in the financial
+ecosystem and to ensure greater value addition to the flagship courses and to make them more practical
+and contemporary. This will culminate in creating a rich pool of knowledgeable and competent banking
+& finance professionals who are capable of contributing to the sustainable growth of their organizations.
+Keeping in view the above objectives, the Institute had constituted a high-level Syllabi Revision
+Committee comprising of members from public sector banks, private sector banks, co-operative banks
+and academicians. On the basis of the feedback received from various banks and changes suggested by
+the Committee, the syllabi of JAIIB & CAIIB have since been finalized.
+The revised JAIIB syllabi will now have four compulsory subjects as under:
+1. 	Indian Economy & Indian Financial System
+2. 	Principles & Practices of Banking
+3. 	Accounting & Financial Management for Bankers
+4. 	Retail Banking & Wealth Management
+The new subject on Indian Economy & Indian Financial System will cover the basics of economics
+and financial system prevalent in India. This will familiarise the candidates with the evolving financial
+ecosystem of the country.
+In so far as the book on Accounting & Financial Management is concerned, two new modules viz Financial
+Management and Taxation & Fundamentals of Costing have been introduced. With bankers having to
+cater to the requirements of varied industries, it is imperative that they have an underlying understanding
+of the relationships between cost accounting, financial accounting, management accounting and financial
+management. Some of the other topics that have been covered are Cost of Capital, Equipment Leasing,
+GST, Standard Costing, Marginal Costing, Budgetary Control system etc.
+
+=== PAGE 7 ===
+The books on Principles & Practices of Banking and Retail Banking & Wealth Management have been
+thoroughly revised and updated.
+As is the practice followed by the Institute, a dedicated courseware for every paper/subject is published.
+The present courseware on Retail Banking and Wealth Management for Bankers has now been authored
+in line with the revised syllabus for the subject. The book follows the same modular approach adopted
+by the Institute in the earlier editions/publications.
+While the Institute is committed to revise and update the courseware from time to time, the book should,
+however, not be considered as the only source of information / reading material while preparing for the
+examinations due to rapid changes witnessed in all the areas affecting banking & finance. The students
+have to keep themselves abreast with the current developments by referring to economic newspapers/
+journals, articles, books and Government / Regulators’ publications / websites etc. Questions will be
+based on the recent developments related to the syllabus.
+Considering that the courseware cannot be published frequently, the Institute will continue the practice
+of keeping candidates informed about the latest developments by placing important updates/Master
+Circulars/ Master Directions on its website and through publications like IIBF Vision, Bank Quest, etc.
+The courseware has been updated with the help of Subject Matter Experts (SMEs) drawn from respective
+fields and vetted by practitioners to ensure accuracy and correctness. The Institute acknowledges with
+gratitude the valuable contributions rendered by the SMEs in updating/vetting the courseware.
+We welcome suggestions for improvement of the courseware.
+Mumbai 	Biswa Ketan Das
+2023 	Chief Executive Officer
+vi | FOREWORD
+
+=== PAGE 8 ===
+RECOMMENDED READING
+The Institute has prepared comprehensive courseware in the form of study kits to facilitate
+preparation for the examination without intervention of the teacher. An attempt has been made to
+cover fully the syllabus prescribed for each module/subject and the presentation of topics may not
+always be in the same sequence as given in the syllabus.
+Candidates are also expected to take note of all the latest developments relating to the subject
+covered in the syllabus by referring to Financial Papers, Economic Journals, Latest Books and
+Publications in the subjects concerned.
+
+=== PAGE 9 ===
+
+
+=== PAGE 10 ===
+RETAIL BANKING & WEALTH
+MANAGEMENT
+SYLLABUS
+MODULE A: RETAIL BANKING
+Retail Banking: Introduction
+Characteristics of Retail Banking; Advantages of Retail Banking; Constraints in Retail Banking;
+Evolution of Retail Banking; Prerequisite for Success of Retail Banking; Challenges for Retail Banking;
+Future of Retail Banking
+Retail Banking: Role within the Bank Operations
+Business Models
+Applicability of Retail Banking Concepts and Distinction between Retail and Corporate/
+Wholesale Banking
+Applicability of Retail Banking Concepts; Distinction between Retail and Corporate/Wholesale Banking
+Branch Profitability
+Banking System: An Introduction; Banking in India; What is Profitability; What is Profit; Gross Profit,
+Operating Profit and Net Profit; Profit and Profitability in the context of Banking; Traditional Measures
+of Profitability; The ROA (Return on Asset); Return on Equity (ROE) for Banks; Branch Operating
+Efficiency; Strategies for Improving Efficiencies of Banking Operations; Factors Affecting Profitability
+of Banks in India; Profitability Analysis of Bank Branches; Steps to Improve Branch Profitability;
+Essential Factors to Make Continuous Improvement in Profitability
+MODULE B: RETAIL PRODUCTS AND RECOVERY
+Customer Requirements
+Maslow’s Theory and Customer Requirements; Customer Requirements about Service Quality; Service
+Quality
+Product Development Process
+Product Development Process; Product Life Cycle; Product Lines of a Banker; Deposit Products or
+Liability Products; Credit Products or Asset Products; Other Products and Services; Other Fee Based
+Services – Distribution of third party products; New Product Development; Stages in New Product
+Development; Constraints in New Product Development; Product Management; Product Policy
+
+=== PAGE 11 ===
+Credit Scoring
+What is a Credit Score?; Evolution of Credit Scoring; What’s a Good Credit Score?; Credit Scoring
+Model; Managing the Credit Score; Positive Side of Credit Score; Warning Signs in Credit Score; Credit
+Information Companies in India; Issues in Credit Scoring; Mistakes in Credit Scoring; Troubleshooting
+Credit Score
+Important Retail Liability Products
+Demand Deposits : An Introduction; Current Deposit: An Introduction; Main features of Current Deposit
+Account; Advantage of Current Deposit Account; Documents required for opening various types of
+Current Accounts; Opening of Current Account; Operational Instructions in Current Account; Transfer of
+Accounts; Inoperative Accounts; Closure of Current Account; Savings Bank Account: An Introduction;
+Advantages and Importance of Savings Bank Deposits to Customers; Who Can Open a Savings Bank
+Account?; Deregulation of interest in Savings Deposit Account; Maintenance of Balance in Savings
+Bank Account and Interest Payment; Restrictions on Transactions in SB Account; Services offered in
+Savings Bank Accounts; Time Deposit – An Introduction; Periodicity of Time Deposit; Operational
+instructions; Interest on Fixed Deposit; Term Deposit accounts of minors; Premature Payment of FD;
+Operational Issues of FD; Advances Against Bank’s own Time Deposit Receipts; Renewal of FD;
+Recent Rule of RBI on overdue FD; Form 15 G/ 15 H; Deposit of TDS to Income Tax Department by
+Banks; 2 in 1 Account; Recurring Deposit (RD)
+Important Retail Asset Products
+Home Loans; Housing Loan under Prime Minister’s Awas Yojana (PMAY); Home Improvement Loans;
+Home Decor Loans; Auto/Vehicle Loans; Personal Loans; Educational Loans; Other Retail Loans;
+Processing of Retail Loans
+Credit and Debit Cards
+Credit Cards; Charge Cards; Pre-paid Cards; Debit Cards; Co-branded Cards; Contactless Cards
+Remittance Products
+Electronic Payment Systems; National Electronic Funds Transfer (NEFT); Real Time Gross Settlement
+(RTGS); Electronic Clearing Services (ECS); National Automated Clearing House (NACH) System;
+Aadhaar enabled Payment System (AePS); Bharat Bill Payment System (BBPS); Benchmarking India’s
+Payment System
+Digitisation of Retail Banking Products
+Technology in Retail Banking; Technology Processes in Retail Banking; Some Important User Friendly
+Features; Customer Analytics; Institute for Development and Research on Banking Technologies
+(IDRBT); Indian Financial Network (INFINET); Structured Financial Messaging System (SFMS);
+National Financial Switch (NFS); Indian Banking Community Cloud (IBCC); Wealth Management
+Solutions; Digital Lending
+x | SYLLABUS
+
+=== PAGE 12 ===
+Role of AI and Technology in Retail Banking
+Dimensions of Banking Technology; Banking Today; Relationship between Banking and Technology;
+Evolution of Banking Technology; A New Era in Banking; Evolution of Banking Technology in India;
+Challenges towards adoption of Technology by Indian Banks; Technology in Retail Banking; Benefits
+of Technology in Retail Banking; Artificial Intelligence (AI); Difference between Artificial Intelligence
+(AI) 	and Automation; Evolution of Artificial Intelligence; Artificial Intelligence Industry in India;
+Artificial Intelligence in Indian Banking Industry; Indian Banks and the Technology; Why AI in Banking
+Industry?; Benefits of Artificial Intelligence Technology in Banking and Finance; Artificial Intelligence
+in Retail Banking; Artificial Intelligence in Retail Banking in India; The Challenges Facing India’s AI
+Development; Benefits of AI in Retail Banking
+Recovery of Retail Loans
+Repayment in Retail Loans; Default and Re-scheduling in Retail Loans; Monitoring of Loan Accounts;
+Classification of Irregular Loan Accounts; Recovery Policy of Banks; Securitization and Reconstruction
+of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act); Debt Recovery
+Tribunal (DRT); Recovery through Lok Adalat; Engaging Direct Recovery Agents
+Management Information Systems
+The main elements of MIS; Role of Management Information Systems; Role of MIS in Improving
+decision making; Role of MIS in Banking Industry; Designing MIS for a Bank; Issues Related to
+Management Information System (MIS); Suggestions for Solution to MIS related Issues
+Securitization
+Securitization of Assets
+MODULE C: SUPPORT SERVICES – MARKETING OF BANKING SERVICES/
+PRODUCTS
+Marketing: An Introduction
+Marketing in Retail Banking; Marketing Mix in Retail Banking
+Delivery Channels in Retail Banking
+Channel Experience; Physical/Direct Channels – Branch; Automated Teller Machines; Point of Sale
+Terminal; Mobile Banking; Internet Banking; Customer’s Liability on Unauthorized Electronic
+Transactions
+Delivery Models
+Delivery Models; Internal Customers – Staff at the Branch Level; Dedicated Marketing Managers;
+Direct Selling Agents (DSAs); Tie-up with Institutions/OEMs/Dealers, etc.
+SYLLABUS | xi
+
+=== PAGE 13 ===
+Customer Relationship Management in Retail Banking
+Customer Relationship Management in Retail Banking; Why CRM?; Implementation Aspects of CRM
+in Banks; Implementation Process of CRM in Banks; Implementation Stages in CRM; Benefits of CRM;
+Impact of CRM on Customer Satisfaction
+Service Standards for Retail Banking
+Members of BCSBI; Main Aims and Objects; Code of Banks’ Commitment; Code of Banks Commitment
+to Micro and Small Enterprises; Function of BCSBI; Code Compliance Rating; Customer Grievances
+Handling Mechanism; General Information
+Marketing Information Systems- A Longitudinal Analysis
+Functions of MKIS; Components of MKIS; The MKIS Model; Observations; Usage of Computers in
+MKIS; Supports for Marketing Management; Supports for Marketing Mix Decisions; Use of Decision
+Models; Performance of MKIS; Recommendations; Advantages of MKIS
+MODULE D: WEALTH MANAGEMENT
+Importance of Wealth Management
+Wealth Management – Broad View; Wealth Management Business Structures; Wealth management
+process; Wealth Management Products and Services; Alternative asset; Bond; Insurance; Mutual fund;
+Real estate Service; Retirement Planning; Strategic Business Strategy; Will Writing; Private Wealth
+Management; Personal Financial Planning; Wealth Management Assessment; Private Banking; Benefits
+of Wealth management; Importance of Wealth Management
+Investment Management
+Element of Investment; Basics of Investment Management; Steps in Investment Management; Investment
+Banking; Services being offered by Full-service Investment Banks; Investment Bank Organizational
+Structure; Investment Management Vs Investment Banking; Portfolio Management; Objectives of
+Portfolio Management; Key Elements of Portfolio Management; Portfolio Management Vs Investment
+Banking; Role of Portfolio Manager; Portfolio Management Service Vs Mutual Funds (MFs); Types of
+Portfolio Management Services; Steps of the Portfolio Management Process; Advantages of Portfolio
+Management Services; Disadvantages of PMS; Recent developments in the Portfolio Management
+Services area in India
+Tax Planning
+Classification of Tax Structure in India; Financial Year; Assessment Year; Previous Year; Concept of
+Previous Year & Financial Year vis-a-vis Assessment Year; Residential Status for Income Tax; A few
+important terms in Income Tax; Heads of Income for computation of the total income; Income Tax
+Slab rate for FY 2021-22 (AY 2022-23); Conditions for opting New Tax Regime; Example for Old Tax
+Regime Vs New Tax Regime & which is better; Income Tax Slabs for non-individual entities; Investment
+Products for Tax Savings; Estate Planning-Tax Planning through Wills/ Trusts; Capital Gains Tax
+xii | SYLLABUS
+
+=== PAGE 14 ===
+Other Financial Services Provided by Banks
+Distribution of Third Party Products in Retail Banking; Mutual Fund Business; Insurance Business;
+Some Social Security Insurance Schemes; Cross Selling; Depository Services by Banks; Portfolio
+Management Services; Factoring; Other Agency Business by Banks
+ADDITIONAL READING MATERIAL ON HOME LOANS
+Lender’s Appraisal Procedure
+Appraisal Procedures; Application Form; Documents to be Submitted for Availing a Home Loan;
+Application Received through Agent; Appraisal of Loan Request; Other Relevant Issues at Pre-sanction
+Stage; Documentation; Mortgage; Registration of Documents; Detection of Forged and Fabricated
+Title Deeds; Other Securities; Registration of Charges with CERSAI on Security Internet; Monitoring;
+Closure of Account; Home Loan Frauds
+Housing Finance and Tax Planning
+Tax Benefits in Respect of Housing Finance
+Mortgage Advice
+Development of “Home Information Packs”; Time Value of Money-interest and Annuities; Capital
+Gains; Loan Calculator and Loan Amortization Schedule
+Valuation of Real Property
+Who does Valuation?; Land with Building; Life of Structures; Sinking Fund; Reverse Mortgage
+SYLLABUS | xiii
+
+=== PAGE 15 ===
+
+
+=== PAGE 16 ===
+CONTENTS
+Foreword 	v
+MODULE A: RETAIL BANKING
+1. Retail Banking: Introduction 	3
+2. Retail Banking: Role within the Bank Operations 	27
+3. Applicability of Retail Banking Concepts and Distinction between Retail and
+Corporate/Wholesale Banking 	33
+4. Branch Profitability 	49
+MODULE B: RETAIL PRODUCTS AND RECOVERY
+5. Customer Requirements 	73
+6. Product Development Process 	87
+7. Credit Scoring 	117
+8. Important Retail Liability Products 	129
+9. Important Retail Asset Products 	165
+10. Credit and Debit Cards 	185
+11. Remittance Products 	213
+12. Digitisation of Retail Banking Products 	251
+13. Role of AI and Technology in Retail Banking 	269
+14. Recovery of Retail Loans 	295
+15. Management Information Systems 	323
+16. Securitization 	333
+MODULE C: SUPPORT SERVICES – MARKETING OF BANKING SERVICES/PRODUCTS
+17. Marketing: An Introduction 	347
+18. Delivery Channels in Retail Banking 	355
+
+=== PAGE 17 ===
+19. Delivery Models 	397
+20. Customer Relationship Management in Retail Banking 	409
+21. Service Standards for Retail Banking 	423
+22. Marketing Information Systems-A Longitudinal Analysis 	437
+MODULE D: WEALTH MANAGEMENT
+23. Importance of Wealth Management 	451
+24. Investment Management 	471
+25. Tax Planning 	493
+26. Other Financial Services Provided by Banks 	517
+ADDITIONAL READING MATERIAL ON HOME LOANS
+27. Lender’s Appraisal Procedure 	553
+28. Housing Finance and Tax Planning 	583
+29. Mortgage Advice 	591
+30. Valuation of Real Property 	613
+Appendix 	629
+References 	631
+xvi | CONTENTS
+
+=== PAGE 18 ===
+MODULE – A
+RETAIL BANKING
+Unit 1: Retail Banking: Introduction
+Unit 2: Retail Banking: Role within the Bank Operations
+Unit 3: Applicability of Retail Banking Concepts and Distinction between Retail
+and Corporate/Wholesale Banking
+Unit 4: Branch Profitability
+
+=== PAGE 19 ===
+
+
+=== PAGE 20 ===
+U N I T	U N I T
+1 RETAIL BANKING:
+INTRODUCTION
+STRUCTURE
+1.0 	Objectives
+1.1 	Introduction
+1.2 	Characteristics of Retail Banking
+1.3 	Advantages of Retail Banking
+1.4 	Constraints in Retail Banking
+1.5 	Evolution of Retail Banking
+1.6 	Prerequisite for Success of Retail Banking
+1.7 	Challenges for Retail Banking
+1.8 	Future of Retail Banking
+Let Us Sum Up
+Keywords
+Check Your Progress
+Answers to Check Your Progress
+
+=== PAGE 21 ===
+4 | RETAIL BANKING & WEALTH MANAGEMENT
+1.0 	OBJECTIVES
+The objectives of this unit are to understand the:
+• 	History and definition of Retail Banking
+• 	Characteristics of Retail Banking
+• 	Advantages and constraints of Retail Banking
+• 	Retail banking scenario in India – Why Retail Banking? Factors for Success, Challenges,
+Future Strategy
+• 	Global trend in Retail Banking
+1.1 	INTRODUCTION
+The Indian economy over the past decades has been witnessing an upswing due to the liberalization
+policy adopted by the planners. The economic changes have given rise to increased income and
+saving levels leading to increased demand on the financial markets and more particularly on
+banks, which continue to be a safe and secure source for individual savings and investments.
+In recent times, banks have been moving away from their traditional banking role and are open
+to change in response to the multifarious demands of customers/ society. From a mere service
+provider to park surpluses, banks have blossomed into one stop financial hub for all kinds of
+financial needs of the customers. Banks have come out with various alternatives which can
+cater to almost all needs of various type of customers due to innovation and positioning of new
+products and processes.
+Considering the increased competition, there is a felt need for the banks to be innovative and
+develop different products with a variety of features to cater the needs of varied profile of
+customers. It becomes imperative on the part of the banks to develop products customized
+to suit the needs of variety of customers and move away from a Product Centric Approach to
+Customer Centric Approach. Banks have slowly started realising that the customer is the king
+and to retain the customer, especially in a tough competitive market, they have to satisfy all the
+financial needs by offering products to suit the customers’ requirements.
+Intermediation is the primary function of banks and mobilisation of deposits is the first step to
+intermediation. They accept deposit from public and lend it to the enterprise class engaged in
+productive activities. The robustness of any economy depends to a great extent on the savings
+that are generated in it. These savings constitute the source for creation of further wealth by
+deploying them in tune with economic directions adopted by a country. Investments stimulate
+economic activities to greater heights leading to economic prosperity.
+Despite the changes in the functions performed by banks, the major function of the bank
+remain as collecting deposits and lending including retail lending. Banks have accordingly
+developed various variants of deposit as well as lending products with special emphasis on
+retail lending products to suit various requirements of variety of customers from all segments
+of the society.
+
+=== PAGE 22 ===
+RETAIL BANKING: INTRODUCTION | 5
+Retail Banking refers to provision of banking products and services offered to individual
+customers, typically for non-entrepreneurial purposes. On the liability side, banking has
+generally been ‘retail’, i.e., the banks have raised resources primarily from a large number of
+retail depositors. In asset side also, the focus has been on lending to large number of customers
+with low ticket size. Thus, on the whole, retail banking involves offering of products of both
+sides of the balance sheet, e.g., fixed deposit, current/savings accounts on the liability side; and
+mortgages, loans (e.g., personal, housing, auto and educational) on the asset side. Additionally,
+retail banking also involves offering of credit cards, depository services, para-banking products
+and services viz., insurance products, capital market products, etc., to individuals.
+Typically, retail banking begins with a target clientele, which is the common masses, and it
+slowly graduates through a stage, which can be called as ‘class retail banking.’ The ‘mass retail
+banking’ is the stage in which the bank provides standardized banking products and services to
+its customers. In this phase, the banks attempt to build a sufficiently broad customer base which
+can serve as a stable source of funding. The ‘class retail banking’, on the other hand, is the stage
+in which the bank offers customized products and services targeted at a niche customer segment,
+the high net worth individuals. Retail banking focused solely at a niche customer segment may
+also be termed as private banking.
+A graphical representation of the positioning of mass retail banking vis-à-vis other segments
+of banking is as under:
+(Source: RBI Website)
+Definitions:
+Before we move further, let us have a look “What is Retail Banking”? Let us see the different
+definitions of retail banking.
+
+=== PAGE 23 ===
+6 | RETAIL BANKING & WEALTH MANAGEMENT
+“Retail Banking, also known as consumer banking or personal banking, is banking that provides
+financial services to individual consumers rather than businesses. Retail banking is a way for
+individual consumers to manage their money, have access to credit, and deposit their money in
+a secure manner”.
+“Retail Banking is a banking service that is geared primarily towards individual consumers.
+Retail banking is usually made available by commercial banks. Unlike wholesale banking, retail
+banking focuses strictly on consumer markets. Retail banking entities provide a wide range of
+personal banking services, including offering savings and other operative accounts, bill paying
+services, as well as debit and credit cards. Through retail banking, consumers may also obtain
+mortgages and personal loans. Although retail banking is, for the most part, mass-market driven,
+many retail banking products may also extend to small and medium sized businesses. Today,
+much of retail banking is streamlined electronically via Automated Teller Machines (ATMs),
+or through virtual retail banking known as online banking.”
+“Retail Banking deals with lending money to consumers. This includes a wide variety of loans,
+including credit cards, mortgage loans and auto loans, and can also be used to refer to loans
+taken out at either the prime rate or the subprime rate.”
+“Retail banking refers to banking in which banking institutions execute transactions directly
+with consumers, rather than corporations or other entities”.
+Retail Banking refers to “the part of a bank’s operations providing services at its branches for
+small (in bank terms) account holders.”
+“Banking services offered to individual customers such as savings accounts, retail loans,
+remittance services, etc.”
+“Pure retail banking is generally conceived to be the provision of mass market banking services
+to private individuals. It has been expanded over the years to include in many cases services
+provided to small- and medium-sized businesses. Some banks may also include their “private
+banking” business (i.e., services to high net worth individuals) in their definition of retail
+banking.”
+What Does Retail Banking Provide?
+Retail banking provides financial services to individual consumers rather than large institutions.
+• 	Services offered include savings and current accounts, mortgages, personal loans, debit or
+credit cards, and certificates of deposit (CDs).
+• 	Retail banks can be local community banks or the divisions of large commercial banks.
+• 	In the digital age, many fintech companies can provide all of the same services as retail
+banks through internet platforms and smartphone apps.
+• 	While retail banking services are provided to individuals in the general public, corporate
+banking services are only provided to small or large companies and corporate bodies.
+
+=== PAGE 24 ===
+RETAIL BANKING: INTRODUCTION | 7
+1.2 	CHARACTERISTICS OF RETAIL BANKING
+Retail Banking provides banking services to multiple customer groups with multiple products
+through multiple channels of distribution. The definitions of retail banking as discussed above
+bring out the following characteristics:
+1. 	Banking facilities are targeted at individual customers or small organisations.
+2. 	Meets the need of a large number of customers with well diversified portfolios.
+3. 	It is focussed towards the mass market segment covering a large population of individuals
+and non-individual entities.
+4. 	It offers different liability, asset and a plethora of service products to the various customer
+categories.
+5. 	The delivery model of retail banking is both physical and virtual, i.e., services are extended
+through branches and also through technology driven electronic off-site delivery channels
+like ATMs, Internet Banking, Mobile Banking, Phone Banking, etc.
+6. 	The services are extended to small- and medium-size businesses as well.
+In short, Retail Banking encompasses multiple products in liability, asset, cards, digital banking,
+payments, etc.; it caters to multiple customer groups in both individual as well as non-individual
+categories & multiple channels of distribution in both physical as well as virtual space.
+1.3 	ADVANTAGES OF RETAIL BANKING
+1. 	Client base will be large and therefore risk is spread across the customer base.
+2. 	Customer loyalty will be strong with a good scope for cross selling and customers tend not
+to change from one bank to another very often.
+3. 	Attractive and wide interest spreads since customers are too fragmented to bargain effectively;
+Credit risk tends to be well diversified, as loan amounts are relatively small. There is less
+volatility in demand and credit cycle than from large corporates. Large numbers of clients
+can facilitate marketing, mass selling and the ability to categorize/select clients using scoring
+systems/data mining.
+1.4 	CONSTRAINTS IN RETAIL BANKING
+Though retail banking as a segment has a number of embedded advantages, the segment suffers
+from constraints too. A few of the constraints are as listed below:
+1. 	Problems in managing large numbers of clients, especially if the available IT systems are
+not sufficiently robust.
+2. 	Rapid evolution of products can lead to IT complications.
+3. 	The costs of maintaining branch networks and handling large numbers of low-value
+transactions tend to be relatively high. (For this reason, banks are encouraging clients to use
+
+=== PAGE 25 ===
+8 | RETAIL BANKING & WEALTH MANAGEMENT
+cheaper distribution channels, such as ATMs, the mobile or the internet for these transactions
+and reserve the branches for higher value added transactions).
+4. 	Higher delinquencies especially in unsecured retail loans and credit card receivables.
+5. 	Any loss in faith in a particular bank can lead to sudden outflow of retail deposits resulting
+in collapse of the bank. This is called a bank run.
+6. 	The competition is very fierce which may sometimes lead to unhealthy competition.
+1.5 	EVOLUTION OF RETAIL BANKING
+Having understood what retail banking is all about; let us see the evolution and history of retail
+banking.
+Retail Banking as a Business Model
+Retail Banking, as a business model of banks, had evolved over the years from the traditional
+banking space. Historically, banking in the Indian scenario before 1960s was identified with
+lending to business and corporate clients for working capital and project financing. The traditional
+forms of banking in the above period was restricted to class clients and satisfy their total banking
+requirements in the form of financing for raw materials, work in progress, finished goods and
+bills receivables. For delivering these services, various products, instruments and facilities were
+introduced to serve the corporate customers. The operative accounts, like current accounts for
+extending the above services, formed an integral part of the services. The basic premises, under
+which these services were structured, were that the needs and requirements were straight and
+simple. But over a period of time, as the needs and wants of the customers expanded and more
+and more products and services were needed, banks had redesigned their product and service
+paradigm. There was an absolute need by banks to develop specialized and sophisticated products
+to meet the manifold and diverse growth of organizations. The stage had come where the legacy
+architecture of banks was unable to service the diverse needs, and hence emergence of banks
+with functional focus came into existence. From being plain vanilla commercial functions,
+banks took new avatars like Investment Banks and Merchant Banks, to carry out the investment
+side of banking and also corporate capital raising, fund raising and debt structuring activities.
+Investment function was hived off as a separate activity and also standalone investment banks
+had emerged to take care of the multi-dimensional functions of Investment Banking, Mergers
+and Acquisitions, etc. Merchant Banks were the answer for Capital and Debt raising and other
+related activities. But the buck did not stop there as banking was always on the explosion mode
+and there was absolute necessity for banks to reposition themselves with newer business models
+to satisfy the ever-changing needs of the existing customers and also to cater to the expectations
+of the new class of emerging customers. As the evolution of banking was a continuous process,
+with the broadening of the customer base, and the character of the customers’ base changed
+from homogenous to heterogeneous over a period of time, banks were under the compulsion to
+redesign their products and services models to cater to these customers and fulfill their varied
+
+=== PAGE 26 ===
+RETAIL BANKING: INTRODUCTION | 9
+needs. Thus, came corporate banking and retail banking. In some banks, retail banking was
+christened as consumer banking, as the focus was towards individual consumers.
+Capgemini brings out World Retail Banking Reports from time to time. “The World Retail
+Banking Report 2015” was released by Capgemini and European Financial Management &
+Marketing Association (EFMA). The major findings were:
+• 	Banks are falling short of customer expectations. Customer expectations are on the rise at
+a faster pace than banks can handle. Positive customer behavior is also on the decline. The
+shift is mainly on account of younger generation, who are less likely to take debt, more
+likely to leave, and less likely to refer friends or buy additional retail products.
+• 	Competition from non-bank players is accelerating. Banks are still unsure about the impact
+of non-bank players and this may lead to threat to core business in future.
+• 	Banks focus too much on the front end at the cost of back end service. Banks need to continue
+to invest in the front office because that is the first interaction for the customer experience.
+But, at the same time, they can no longer defer the significant efforts required on the middle
+and back-end because the clients don’t want to be exposed at the back-end and do not accept
+that it takes three weeks to be provided with paperwork, etc.
+The World Retail Banking Report 2016 by Capgemini and EFMA found that 63% of customers
+across the globe are now using fintech products or services. Penetration is currently highest in the
+emerging markets and among younger customers but is expected to increase in all geographies
+and ages. While 96% of banking executives agreed that the industry is evolving towards a digital
+banking ecosystem, only 13% say they have the systems in place to support it. Fintech providers
+are gaining popularity among consumers – thanks to the perception that they are easy to use,
+offer fast service and provide a good experience. Only 36% of banks agree that Fintech offer fast
+service and only 40% agreeing that Fintech provide a good experience. Competition is evolving
+into acceptance, with 65% of bank executives saying they view Fintech firms as partners.
+Retail Banking Scenario in India
+The evolution of retail banking in India can be traced back to the entry of foreign banks. The
+conventional banking business by Public Sector Banks (PSBs) was done on a more generalized
+approach and there was no specific demarcation as retail and non-retail activities. Customer and
+Industry segmentation was adopted within the overall business plan of banks. Offering products
+and services based on specific consumer segments was not attempted in a focused way. Foreign
+banks operating in India set the trend and in the late 1970 and early 1980s and came out with
+their consumer banking models with hybrid liability and asset products specifically targeted
+at the personal segment. Standard Chartered Bank and Grindlays Bank were the pioneers in
+introducing these types of products. Citibank created waves in the early 1980s with their credit
+card products and spurred the retail banking space. State Bank of India and some public sector
+banks like Indian Overseas Bank, Bank of India, Bank of Baroda and Andhra Bank developed
+and marketed asset products and card products to cater to retail segment. In fact, Bank of Baroda
+
+=== PAGE 27 ===
+10 | RETAIL BANKING & WEALTH MANAGEMENT
+and Andhra Bank were two of the early players in the credit card business in the PSB space.
+The entry of new generation private sector banks in early 1990s has created a new approach to
+retail banking by banks. With the advantage of technology right from start, these banks had a
+clear positioning for retail banking and aggressively strategized for creating new markets for
+the retail segment. In addition, the new generation private banks had posed a threat to the retail
+business of foreign banks that had by then well-defined business models for retail banking. To
+add to the fuel, PSBs also with technology initiatives and redefined business model for retail
+had aggressively entered the market space, creating a retail war and capture their share of the
+pie in the liberalized economic environment and the resultant opportunities in retail banking.
+The retail war is in full swing now with a win – win situation for all the players and the focus
+is on capturing and improving the market share and customer base.
+India’s preparedness for IT revolution has impacted the banking sector significantly. It created
+a need for Private sector banks as also public sector banks to adopt core banking solution. It
+led to organized and comprehensive computerization of operations of banks across all levels.
+The growth of IT and its remarkable application to banking has greatly facilitated the growth
+and development of retail banking in India to a large extent. IT has allowed the integration of
+ATMs, mobile banking and internet banking. Due to technological advancement, India witnessed
+the adoption of modern payment systems, securities settlement, electronic fund transfer, cheque
+truncation system, ATMs and many other modern system of banking transactions.
+Strong economic fundamentals, growing urban population, higher disposable incomes, rise in
+young population, emergence of new customer segments and rise in the mass affluent space,
+explosion of service economy in addition to manufacturing space have catapulted the scope
+for retail banking business in India. The segment has become an important component in the
+business design of the banks in India and almost all players in the foreign, public and private (old
+and new) space are in this and it has become almost a fashion statement for all the players. The
+retail plans basically stem from the enormous opportunities across geographies and customer
+segments and the huge untapped potential for retail banking in India. There is a virtual gold
+mine to be unearthed and even the top layer is not yet scratched fully. There is a whole lot of
+customer pyramid to be tapped and the present activities till recently were confined only to the
+top and higher middle end of the customer pyramid. Of late banks, especially foreign banks
+and new generation private players are seriously looking at the bottom of the customer pyramid
+and reengineering their retail strategies to develop independent and exclusive strategies for this
+segment. In addition, the recent trend is that Non-Banking Finance Companies (NBFCs) and
+MNCs have also aggressively entered and active in this ‘Bottom of the Pyramid’ segment and
+posing a big threat to the conventional banking players.
+RBI Data on Retail Banking in India
+The Indian retail banking is in growth trajectory. There have been several recent developments
+in Indian retail banking. The growth in various elements of retail banking space over the past
+few years are published by RBI in their Bulletin, “Report on Trend and Progress of Banking in
+
+=== PAGE 28 ===
+RETAIL BANKING: INTRODUCTION | 11
+India & Financial Stability Report”, which reflects the business performance achieved in the
+retail assets and other services by banks as under:
+I. Growth Rate of Retail Assets of the Banking System
+(Amount in ₹ Billion)
+S
+No.
+Type of Retail Asset 	2019 	2020 	2021
+1. 	Housing Loans 	12044 	13965 	15619
+Percentage growth over the previous year 	19.5 	15.9 	11.8
+2. 	Consumer durable loans 	92 	111 	216
+Percentage growth over the previous year 	-51.7 	21.3 	93.4
+3. 	Credit Card Receivables 	1113 	1321 	1386
+Percentage growth over the previous year 	34.5 	18.6 	4.9
+4. 	Vehicle/ Auto Loans 	2697 	2894 	3295
+Percentage growth over the previous year 	12.9 	7.3 	13.9
+5 	Other Retail / Personal Loans 	6335 	7510 	8560
+Percentage growth over the previous year 	22.77 	18.54 	13.99
+6. 	Educational Loans 	762 	791 	788
+Percentage growth over the previous year 	1.8 	3.7 	-0.3
+Total Retail Loans 	23043 	26592 	29864
+Percentage growth over the previous year 	18.6 	15.4 	12.3
+(Source: Trend and progress of banking in India 2020-21-RBI)
+II. Percentage of Retail Assets to Total Assets of the Banking System
+S. No. 	Details of Advances 	2019 	2020 	2021
+1. 	Total Advances of Banking System 	95269 	100984 	106408
+2. 	Percentage growth over the previous year 	13.4 	6.00 	5.4
+3. 	Percentage share of Retail to Total Advances 	24.18 	26.33 	28.06
+III. Number of ATMs of Schedule Commercial Banks
+ATMs 	Number as on
+31.03.2019
+Number as on
+31.03.2020
+Number as on
+31.03.2021
+Number of Onsite ATMs 	106259 	113271 	115605
+Number of Offsite ATMs 	95813 	97489 	97970
+Total Number of ATMs 	202072 	210760 	213575
+Number of Bank Branches 	120535 	122994 	122976
+ATMs as percentage of Bank Branches 	167% 	171% 	173%
+Number of Branches covered under CBS 	120535 	122994 	122976
+Coverage of Branches 	100% 	100% 	100%
+(Source: RBI Bulletin)
+
+=== PAGE 29 ===
+12 | RETAIL BANKING & WEALTH MANAGEMENT
+IV. Other/ New Payment Infrastructure
+(Lakhs)
+Payment Infrastructure 	Number as on
+31.03.2019
+Number as on
+31.03.2020
+Number as on
+31.03.2021
+White Label ATMs 	- 	0.23 	0.25
+Micro ATMs 	- 	2.71 	4.04
+Bharat QR* 	- 	20.27 	35.70
+UPI QR** 	- 	- 	925.22
+(Source: RBI Bulletin)
+V. Payment System Indicators
+S.
+No.
+System 	2018-19
+Vol.
+(Mn.)
+2018-19
+Value
+(Bn.)
+2019-20
+Vol.
+(Mn.)
+2019-20
+Value
+(Bn.)
+2020-21
+Vol.
+(Mn.)
+2020-21
+Value
+(Bn.)
+1. 	RTGS 	136 	1356881 	150 	1311564 	159 	1055998
+2. 	NEFT 	2318 	227936 	2744 	229455 	3092 	251309
+3. 	ECS(DR) 	0.9 	12 	0.1 	0.39 	- 	-
+4. 	ECS(CR) 	5.4 	132 	1.8 	51 	- 	-
+5. 	IMPS 	1752 	15902 	2579 	23375 	3278 	29415
+6. 	NACH (CR) 	883 	7296 	1129 	10432 	1646 	12327
+7. 	NACH(DR) 	483 	5224 	734 	7182 	963 	8689
+8. 	UPI 	5391 	8769 	12518 	21317 	22330 	41036
+9. 	Credit Card 	1762 	6034 	2177 	7309 	1764 	6304
+10. 	Debit Card 	4414 	5934 	5061 	7039 	4020 	6626
+11. 	Prepaid
+Instruments
+4607 	2133 	5381 	2155 	4974 	1976
+12 	Mobile Banking 	6200 	29583 	13926 	57815 	25210 	90543
+The above data throws open the following interesting revelations about the performance of
+the retail banking as well as innovative ways to provide service to the retails customers in the
+recent past.
+Performance of Different Segments of Retail Banking from 2019 to 2021
+1. 	Banks’ retail loan portfolio registered double-digit growth. The housing loan component
+which constitutes more than 52% of the total retail portfolio of banks increased by
+29.68% from 2019 to 2021. All though there is slight decline in growth as compared to the
+corresponding previous year. Retail loan portfolio of banks continued to grow at around an
+average 29.60% during 2019-2021 even though there was deceleration in the total credit
+
+=== PAGE 30 ===
+RETAIL BANKING: INTRODUCTION | 13
+growth of banks. Auto loan registered an average growth rate of 22.19% during 2019-21.
+Credit card receivable grew by more than 24%. The significant growth has emerged from
+several quarters—mortgage loans (Housing), personal loans, credit card, etc.
+2. 	Weak domestic demand and subdued performance of the corporate sector moderated the
+demand for bank credit. As a result, at the end of March 2021, gross outstanding credit of
+scheduled commercial banks increased by 5.4% to ₹106408 billion, as against of 6% and
+13.4% during the corresponding previous year 2020 and 2019 respectively.
+3. 	The geographic reach of ATMs increased further all though the ATMs by scheduled
+commercial banks remained constant around 0.22 million during 2019-21. Number of White
+label ATMs registered almost 100% growth during the same period. Micro ATMs grew by
+49% over corresponding previous year March 2020.
+4. 	New system known QR code emerged as most popular payment system during 2020-2021.
+More than 96 million static QR codes were registered as on March 21. QR codes became
+very cost effective and most convenient way of payment of small value transactions.
+5. 	Outstanding Debit card grew by 8.40% during 2020-21. Supply of debit card to each Savings
+Bank/ operative account holder is a basic banking requirement now a days.
+6. 	Credit card registered growth of 31.77% as on March 21 as against March 19. However,
+there was nominal growth in the volume of credit card transaction during 2019 to 2021.
+7. 	Retail electronic and QR code as well as card based payments registered quantum jump
+in the past two years. The promotion policy for digital transactions has added fuel to the
+rapid growth. UPI transactions have created new record of volume and value on monthly
+basis. Mobile banking has grown more than four time during 2019 to 2021 and became
+most preferred way of banking. Decline/ nominal growth in the volume and value of other
+payment systems is due to preferred mobile transactions by the customers.
+The different scenarios in retail banking indicated various dimensions of retail banking and its im-
+pact on profitability. Retail banking is a critical source of revenue and profitability for most major
+banks around the world. According to a research study by Boston Consulting Group, retail seg-
+ment brings in nearly 60% of the total banking revenue worldwide. It is expected that this situation
+will continue and retail banking will remain the dominant source of revenue for banks worldwide
+through the years to follow. But the fact is that retail banks are facing tougher competition and de-
+clining margins and to overcome this, banks have to develop winning models and requisite skills.
+1.6 	PREREQUISITE FOR SUCCESS OF RETAIL BANKING
+There are various factors that can subscribe to the success of retail banking in India, a few of
+which are listed herein below:
+
+=== PAGE 31 ===
+14 | RETAIL BANKING & WEALTH MANAGEMENT
+Presence of an efficient delivery mechanism
+It is the most important pre-requisite for retail banking to succeed. What essentially binds customers
+to their bank is the quality of services offered, the fairness and affordability of pricing and the
+promptness of service. While there is not much scope for the banks to differentiate their product and
+service offerings, in so far as the basic products are concerned, it is important for the bank to enhance
+the customer experience by ensuring that the services are made available whenever and wherever
+the customer demands them. Further, the banks can bring down their cost of service delivery, if and
+only if they are able to improve operational efficiency. In a nutshell, the banks should be able to
+deliver the products and services to the customers in safe, secure, prompt and cost effective manner
+by leveraging technology. In future, customers’ needs and preferences will increasingly drive the
+integration of all types of banking channels mainly alternate channels. Channel innovation, which
+has changed the face of banking in recent years, must continue to spearhead the charge. There is
+much to be gained from innovation including improved customer engagement, agility efficiency
+and regulatory compliance. Not to mention, that even banks’ long term future might depend on how
+well they innovate.
+Direct Banking: The Fastest-Growing and Dominant Channel of the Future
+Direct banking, which is usually thought of as just online banking from a specific institution,
+compasses a wide range of channel approaches to sell and service customers’ needs, including
+ATMs, call and email centres, mobile banking devices, direct mail, and a variety of web-based
+models. Statistics show direct marketing to be the fastest-growing channel to retail bank
+customers. Over the last five years, the number of households banking online have grown at a
+compound annual growth rate (CAGR) of over 20 percent. It is believed direct-banking sales
+volumes are poised to grow even further over the next five to 10 years as the channel evolves
+primarily from a service tool to support branch networks to a customer-driven platform for
+collaboration and relationship management across a wide range of sales and service needs and
+making services available without physical presence and beyond geographical boundaries,
+round the clock.
+Product appropriateness
+Another essential pre-condition for the success of retail banking is appropriateness of product
+and services for the customers. As the banks strive to bring in new customers into their fold and
+also to retain the existing ones, they must invest heavily into data analytics and assess what are
+the appropriate products and services for the specific groups of their customers. The banks have
+to be sensitive about the customers’ needs and requirements.
+Pricing
+The pricing demonstrates that the products and services, both on the liability as well as on the
+asset side, are heavily weighed against the retail customers as a group.
+
+=== PAGE 32 ===
+RETAIL BANKING: INTRODUCTION | 15
+Scoring models for assessing the credit worthiness
+The scoring models are being used for assessing the credit worthiness of borrowers to bring
+in greater transparency and efficiency. Credit scoring model is a statistical technique that
+combines several financial characteristics to predict the behaviour of new applicants based on
+the performance of existing borrowers. Some banks started employing credit scoring even in
+retail segment. Most of the banks are using credit information reports to assess the financial
+discipline of the applicants. This is also based on scoring.
+Consumer protection environment
+Across the globe, the regulators and supervisors are turning increasingly intolerant of unfair
+market practices adopted by the market participants. It has been observed that large amounts of
+penalties are levied on banks by the regulators mainly for failing to protect consumers’ interests
+and for unfair practices. More focus needs to be given to develop conviction on the customers
+that their rights are adequately protected. This has culminated in creation of separate
+authorities for enforcing fair market conduct and for protection of financial consumers. Therefore,
+unless the banks in the developing countries are firmly committed to treating their customers
+fairly and put in place appropriate systems and processes, they would be well advised to refrain
+from riding the bandwagon of retail banking.
+1.7 	CHALLENGES FOR RETAIL BANKING
+Consumer Protection & Pricing
+There are several examples reported on pricing being arbitrary and, to a certain extent, illogical.
+There are charges for non-maintenance of minimum balance, charges for cheque return and
+there are charges even where no service has been provided – customers not conducting any
+transactions, etc. Another disquieting feature in the pricing of products and services by banks,
+and that is – the poor subsidising the rich. For the retail banking model to be successful, banks’
+pricing should be non-discriminatory, risk-based, competitive and value added.
+Inadequacy of MIS
+A crucial input for success of any business is the accurate, consistent and granular information
+about its various components. The data on segmental revenues and segments of profits are not
+available with any granularity. Under the circumstances, the banks would find it very difficult
+to make their pricing risk based. It is crucial, therefore, that if the retail banking has to be rolled
+out successfully, the banks would need to build an appropriate MIS.
+Understanding of KYC/AML issues
+The banks in the developed countries have faced significant amount of penalties from the
+regulators for their failure to conduct adequate due diligence on their customers. Even, in India,
+RBI had imposed penalties on some of the banks for their failure to have proper due diligence
+
+=== PAGE 33 ===
+16 | RETAIL BANKING & WEALTH MANAGEMENT
+on their customers. It is important, therefore, to understand and appreciate KYC requirements
+in all manifestations – be it for the products on the asset side of the balance sheet or on the
+liability side. Banks would also need to be mindful about the KYC due diligence for the third-
+party products that they sell from their premises/through their delivery channel.
+Managing Risk
+The retail banking business involves dealing with a large number of customers over varied
+delivery channels, thereby creating significant vulnerabilities across banks’ systems. These could
+be in the form of inadequacy of internal guidelines or non-adherence by staff, inadequacy in the
+technology systems supplied by vendors, fraudulent practices employed by customers, hackers,
+etc. Though banks have developed sufficient safeguards to deal with operational risk associated
+with traditional delivery channels, it is essential for adequate safeguards for non-traditional
+delivery channels, as evident from large number of technology related frauds being witnessed
+across Indian banks in the past few years. The banks would also need to recognize and manage
+risks arising from mis-selling, etc., besides the other business risks like market risk, liquidity
+risk, interest rate risk, etc. Unless banks address these issues quickly, even the low-value frauds
+would have the potential to cause reputational risk and unwarranted litigation for the banks.
+Now fraudsters/hackers have moved beyond the physical boundaries and time zones open new
+vulnerabilities. At times technical innovation and upgradations makes the existing systems
+vulnerable. Lack of customer literacy (more specifically about technology based products) opens
+up new risks. It is, therefore, absolutely important that the banks improve their risk management
+systems to address these issues.
+Effects of disruptive new technologies
+With the increased proliferation of alternate delivery channels (ATMs, internet mobile banking
+and QR codes), retail banking has become the segment impacted most by technology. While the
+use of technology-aided delivery channels has grown multifold, so has the scope for fraudulent
+transactions through impersonations, identity thefts, sim swap, and device control apps etc.
+Banks would also need to quickly put in place lasting technology-based solutions to thwart the
+efforts of fraudsters and minimize the customer complaints. As the use of new delivery channels
+gets more popular, the banks would need to ensure that their customers continue to have good
+experience with their service offerings and remain loyal to them.
+Continuing growth
+Despite banks’ concerted efforts on increasing the banking penetration and bringing more and
+more adult population under the formal financial system over the last 7–8 years, more than half
+of the target population remains uncovered. Similarly, the credit penetration from the banking
+system in the country is abysmally low at about 10%. In absence of access to formal sources
+of finance, the alternate cost of funds for the people is exorbitantly high. As the pricing of
+loans no longer remains restricted, due to any regulatory/ government fiat, the banks are free to
+reasonably charge their customers.
+
+=== PAGE 34 ===
+RETAIL BANKING: INTRODUCTION | 17
+All these means that the retail banking has a huge potential to grow in India over time. It is,
+therefore, assumed that the challenge for the retail banks/banking is not one of finding new
+customers or new markets; it is more of a mind-set issue. The banks need to get convinced about
+financial inclusion as a viable and profit-making business proposition and pursue that objective
+with a missionary zeal.
+The growth of retail lending, especially in emerging economies, is attributable to the rapid
+advances in information technology, the evolving macro-economic environment, financial market
+reforms, and several micro-level demand and supply side factors. In the context of retail lending,
+deployment of scoring models would minimize the subjective element and thereby fast-track
+the decision-making process. Quality of services offered by the banks is going to be another
+key differentiator. In ultimate analysis, providing better service to the customers would be the
+key to generate larger revenue for the banks.
+Reasons for the Growth of the Retail Banking Segment
+There are various reasons that contribute to the growth trajectory of Retail Banking segment,
+a few of which are as under:
+a. 	Rise of the Young Indian Professionals: The rise of the Indian middle class is an important
+contributory factor in this regard. The percentage of middle to high income Indian households
+is expected to continue rising. The younger population not only wields increasing purchasing
+power, but as far as acquiring personal debt is concerned, they are perhaps more comfortable
+than previous generations. Improving consumer purchasing power, coupled with more liberal
+attitudes toward personal debt, is contributing to India’s retail banking segment.
+b. 	Growth as an Economic superpower: Retail banking has played a role in a growing
+economy of India. As the growth story gets unfolded in India, retail banking is going to
+emerge as a major driver. A. T. Kearney, a global management consulting firm, identified
+India as the ‘second most attractive retail destination’ of the 30 emergent markets.
+c. 	Increasing purchasing power of middle class people: The rise of the Indian middle class
+is an important contributory factor in this regard. The percentage of middle to high income
+Indian households is expected to continue rising. The younger population not only wields
+increasing purchasing power, but as far as acquiring personal debt is concerned, they are
+perhaps more comfortable than previous generations. Improving consumer purchasing
+power, coupled with more liberal attitudes towards personal debt, is contributing to India’s
+retail banking segment.
+d. 	Financial market reforms: The subject matter of retail banking is of prime importance. In
+recent years, commercial banks have witnessed development in the form of retail lending, all
+over the world. The growth in the field of retail lending is primarily because of the speedy
+advancement in the IT sector, evolving macroeconomic environment, numerous micro level
+demand and supply side factors and financial market reforms. This criterion is based on the
+market research report on retail banking.
+
+=== PAGE 35 ===
+18 | RETAIL BANKING & WEALTH MANAGEMENT
+e. 	Engine of economic growth: Retail banks play a critical role in their home economies, and
+their activities have implications for the global economy as well. They offer critical credit
+functions, which largely fuel the engine of economic growth in their economies. When
+problems hit the retail banking sector the result is often dire economic circumstances for the
+economy as a whole. When retail banks are failing, little or no credit is available for credit
+seekers, and economic activity becomes depressed.
+f. 	Mass-market banking: Retail banks offer a variety of important services to their customers.
+The retail banking sector is often described as a typical mass-market banking, offering
+services such as savings and operative accounts and all kinds of personal loans, including
+auto loans and student loans. Retail banks also offer mortgage services, debit and credit
+card services and ATM services, all of which have become essential to today’s consumers.
+g. 	Volume driven business: Retail Credit ensures that the business is widely dispersed
+among a large customer base unlike in the case of corporate lending, where the risk may
+be concentrated on a selected few. Ability of a bank to administer a large portfolio of retail
+credit products depends upon such factors like; strong credit assessment capability, sound
+documentation, adequate capital base, regular/constant follow-up, skilled human resource
+and technological support.
+h. 	Automation of banking process: The growth in retail banking has been facilitated by growth
+in banking technology and automation of banking processes to enable extension of reach
+and rationalization of costs. ATMs have emerged as an alternative banking delivery channel
+which facilitates low-cost transactions vis-à-vis traditional branches/method of lending. It
+also has the advantage of reducing the branch traffic and enables banks with small networks
+to offset the traditional disadvantages by increasing their reach and spread.
+i. 	Easy and affordable access: Banks provide retail loans through a wide range of options/
+flexibility. Banks even finance cost of registration, stamp duty, society charges and other
+associated expenditures such as furniture and fixtures in case of housing loans and cost of
+registration and insurance, etc., in case of auto loans.
+j. 	Financial Liquidity: Banks making financing attractive by offering free/concessional/
+value added services like issue of credit card, insurance, etc. As also waiver of processing
+fees administration fees, prepayment charges, etc., by the banks. In many a case, the cost
+of retail lending is restricted to the interest costs.
+k. 	Economic prosperity: The consequent increase in purchasing power has given a fillip to
+a consumer boom. Note that during the 10 years after 1992, India’s economy grew at an
+average rate of 6.8 percent and continues to grow almost at the same rate, not many countries
+can match this performance.
+l. 	Changing consumer demographics: The size of population indicates vast potential for
+growth in consumption both qualitatively and quantitatively. India is one of the countries
+having highest proportion (70%) of the population below 35 years of age (young population).

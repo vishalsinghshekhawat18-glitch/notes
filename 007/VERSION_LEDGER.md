@@ -17,6 +17,34 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [RELEASED] v004 — IIBF DBF / JAIIB: Complete 4-Paper Master Curriculum & Revision Vaults
+* **Release Date**: 2026-10-02
+* **Status**: Released & Deployed to GitHub Remote Repository
+* **Domain / Subject**: Banking & Financial Services (*IIBF Diploma in Banking & Finance / JAIIB*)
+* **Authoritative Courseware Unified**:
+  - Official IIBF Macmillan Courseware:
+    1. *Paper 1: Indian Economy & Indian Financial System (IE&IFS)* (664 pages)
+    2. *Paper 2: Principles & Practices of Banking (PPB)* (961 pages)
+    3. *Paper 3: Accounting & Financial Management for Bankers (AFMB)* (632 pages)
+    4. *Paper 4: Retail Banking & Wealth Management (RBWM)* (649 pages)
+  - Statutory & Master Directions: Banking Laws (Amendment) Act 2025, DICGC Act, Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2026), Ind AS, UCPDC 600, Basel III Capital Adequacy.
+* **New Modules & Vaults Created**:
+  - **Notes (`007/notes/iibf_dbf/`)**:
+    - `00_COVER.md`: Sovereign Master Cover.
+    - `01_SYLLABUS_AND_EXAM_BLUEPRINT.md`: Comprehensive Exam Scheme & Blueprint.
+    - **Paper 1 (IE&IFS)**: Modules A, B, C, D (4 Comprehensive Files).
+    - **Paper 2 (PPB)**: Modules A, B, C, D (4 Comprehensive Files).
+    - **Paper 3 (AFMB)**: Modules A, B, C, D (4 Comprehensive Files).
+    - **Paper 4 (RBWM)**: Modules A, B, C, D (4 Comprehensive Files).
+  - **Revision Vault (`007/revision/iibf_dbf/`)**:
+    - `01_IE_IFS_RAPID_REVISION_CHEAT_SHEET.md`
+    - `02_PPB_LEGAL_CHARGES_OPERATIONAL_MATRIX.md`
+    - `03_AFMB_FORMULAS_TVM_RATIOS_COSTING_VAULT.md`
+    - `04_RBWM_PRODUCT_LIMITS_RECOVERY_MATRIX.md`
+    - `05_SOLVED_NUMERICALS_AND_CASE_STUDIES_VAULT.md`
+
+---
+
 ### [RELEASED] v003 — Economics Master Treatise: Four-Author Quadriad & Pedagogical Enhancements
 * **Release Date**: 2026-10-02
 * **Commit SHA**: `1532426`
