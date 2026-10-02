@@ -55,6 +55,7 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ### [RELEASED] v006 — Political Science & Constitutional Governance Sovereign Master Architecture
 * **Release Date**: 2026-10-02
+* **Commit SHA**: `9d1a6d7`
 * **Status**: Deployed to GitHub Remote Repository
 * **Domain / Subject**: Political Science, Constitutional Architecture & Indian Governance
 * **Foundational Gold Standard Ingested**:
