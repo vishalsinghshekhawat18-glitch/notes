@@ -116,9 +116,17 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
   // Step 0: Unescape literal escaped newlines (e.g. "\\n" strings from double-escaped JSON/DB imports)
   let normalized = content.replace(/\\n/g, '\n');
 
+  // Step 0.5: Protect code blocks (fenced ``` and inline `) from math processing
+  const codeBlocks: string[] = [];
+  let processed = normalized.replace(/(```[\s\S]*?```|`[^`\n]+`)/g, (match) => {
+    const placeholder = `___CODE_BLOCK_${codeBlocks.length}___`;
+    codeBlocks.push(match);
+    return placeholder;
+  });
+
   // Step 1: Protect escaped dollars \$ -> temporary token
   const ESCAPED_DOLLAR = '___ESCAPED_DOLLAR___';
-  let processed = normalized.replace(/\\\$/g, ESCAPED_DOLLAR);
+  processed = processed.replace(/\\\$/g, ESCAPED_DOLLAR);
 
   // Step 2: Protect explicit currency patterns ($100, $10 billion, etc.)
   const { text: currencyProtected, currencyTokens } = protectCurrency(processed);
@@ -141,7 +149,7 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
     }
     return displayMode
       ? `<div class="katex-display-placeholder" data-katex="${idx}"></div>`
-      : `___KATEX_INLINE_${idx}___`;
+      : `<span data-katex-inline="${idx}"></span>`;
   };
 
   // Step 3: Handle Display Math ($$...$$ or \[...\])
@@ -167,6 +175,9 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
   processed = restoreCurrency(processed, currencyTokens);
   processed = processed.replace(new RegExp(ESCAPED_DOLLAR, 'g'), '$');
 
+  // Step 6.2: Restore code blocks before marked.parse so code renders verbatim
+  processed = processed.replace(/___CODE_BLOCK_(\d+)___/g, (_, idx) => codeBlocks[Number(idx)]);
+
   // Step 6.5: Convert ASCII box-drawing tables into clean GFM tables
   processed = transformAsciiBoxTables(processed);
 
@@ -174,14 +185,19 @@ export function renderMarkdownWithMath(content: string | null | undefined): stri
   let parsed = marked.parse(processed, { async: false, gfm: true, breaks: true }) as string;
 
   // Step 8: Unwrap any isolated display math placeholders that were placed inside <p>...</p>
-  parsed = parsed.replace(/<p>\s*(<div class="katex-display-placeholder" data-katex="\d+"><\/div>)\s*<\/p>/g, '$1');
+  parsed = parsed.replace(/<p>\s*(<div\s+class=["']katex-display-placeholder["']\s+data-katex=["']?\d+["']?\s*><\/div>)\s*<\/p>/g, '$1');
 
   // Step 9: Re-inject rendered KaTeX HTML back into placeholders
-  parsed = parsed.replace(/<div class="katex-display-placeholder" data-katex="(\d+)"><\/div>/g, (_, idx) => {
+  parsed = parsed.replace(/<div\s+class=["']katex-display-placeholder["']\s+data-katex=["']?(\d+)["']?\s*><\/div>/g, (_, idx) => {
     return mathPlaceholders[Number(idx)] || '';
   });
-  parsed = parsed.replace(/___KATEX_INLINE_(\d+)___/g, (_, idx) => {
+  parsed = parsed.replace(/<span\s+data-katex-inline=["']?(\d+)["']?\s*><\/span>/g, (_, idx) => {
     return mathPlaceholders[Number(idx)] || '';
+  });
+  // Fallback for any legacy or mangled tokens
+  parsed = parsed.replace(/(?:%%KATEX_INLINE_(\d+)%%|___KATEX_INLINE_(\d+)___|<em><strong>KATEX_INLINE_(\d+)<\/strong><\/em>|<strong><em>KATEX_INLINE_(\d+)<\/em><\/strong>|KATEX_INLINE_(\d+))/g, (_, id1, id2, id3, id4, id5) => {
+    const idx = Number(id1 ?? id2 ?? id3 ?? id4 ?? id5);
+    return mathPlaceholders[idx] || '';
   });
 
   return parsed;
