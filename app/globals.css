@@ -262,20 +262,24 @@ html[data-font-size="xl"] {
   border-left: 4px solid #065f46;
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;
-  overflow-x: hidden;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  overflow-x: auto;
   margin: 1rem 0;
-  white-space: pre-wrap;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  font-family: inherit;
-  font-size: 0.9375rem;
-  line-height: 1.75;
+  white-space: pre !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-size: 0.8125rem;
+  line-height: 1.25 !important;
+  letter-spacing: 0;
 }
 
 .markdown-content pre::-webkit-scrollbar {
-  display: none;
+  height: 6px;
+}
+
+.markdown-content pre::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 3px;
 }
 
 .markdown-content svg {
@@ -299,19 +303,20 @@ html[data-font-size="xl"] {
   color: inherit;
   padding: 0;
   border: none;
-  white-space: pre-wrap;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  font-family: inherit;
+  white-space: pre !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
   font-size: inherit;
   line-height: inherit;
+  letter-spacing: inherit;
 }
 
-/* Maintain monospace only for actual programming languages */
-.markdown-content pre code[class*="language-"]:not(.language-text):not(.language-none) {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.84375rem;
-  line-height: 1.6;
+/* Maintain monospace for all code elements */
+.markdown-content pre code[class*="language-"] {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  font-size: 0.8125rem;
+  line-height: 1.4;
 }
 
 .markdown-content a {

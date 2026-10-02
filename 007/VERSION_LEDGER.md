@@ -54,7 +54,7 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 ---
 
 ### [STAGED / IN PROGRESS] v006 — Political Science & Constitutional Governance Sovereign Master Architecture
-* **Status**: Staged Locally in `007/` (Parts I, II & III Complete: Batches 1, 2, 3 & 4 Authored)
+* **Status**: Staged Locally in `007/` (Parts I, II, III, IV & V Complete: Batches 1 to 6 Authored)
 * **Domain / Subject**: Political Science, Constitutional Architecture & Indian Governance
 * **Foundational Gold Standard Ingested**:
   - M. Laxmikanth, *Indian Polity* (8th Edition, McGraw Hill 2026, 1,198 pages, 96 chapters)
@@ -133,6 +133,42 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
       - Four categories of Bills: Ordinary, Money (Art 110 exclusive LS powers, RS 14-day limit), Financial Bill (I) (Art 117(1)), Financial Bill (II) (Art 117(3)); Joint Sitting (Article 108: Ordinary & Financial only, Simple Majority of present and voting, barred for Money Bills and Art 368).
       - Budgetary procedure (Arts 112–117): 6 stages, Charged vs Made expenditure, Cut Motions (Policy ₹1, Economy, Token ₹100), Guillotine closure, Appropriation Bill (Art 114), Finance Bill (75-day rule).
       - Parliamentary Committees: Financial triad (PAC 22 members with opposition chairman convention, Estimates 30 members all-LS with zero RS, CoPU 22 members); 24 DRSCs (31 members: 21 LS + 10 RS); ministerial membership prohibition; Parliamentary Privileges (Art 105 individual civil arrest immunity 40 days vs collective breach of privilege).
+* **Batch 5 Master Modules Authored (`007/notes/political_science/`)**:
+  14. `15_CHAPTER_14_GOVERNOR_STATE_COUNCIL_MINISTERS.md`:
+      - Article 153 dual Governor rule (7th AA 1956), Canadian appointment model (Art 155), Pleasure doctrine (*B.P. Singhal 2010* non-arbitrary standard).
+      - Powers: Article 164 mandatory Tribal Welfare Minister in 4 states (Chhattisgarh, Jharkhand, MP, Odisha; Bihar removed by 94th AA 2006); SPSC appointment (Art 316) vs removal solely by President (Art 317); SEC appointment (Art 243K) vs removal like HC Judge; 1/6th SLC nomination with "Co-operative Movement" (Art 171(5)).
+      - Article 200 Veto architecture: Assent, Withhold, Return, Reserve for President (mandatory for HC derogation under 2nd Proviso); No pocket veto for Governors (*Punjab 2023* & *Tamil Nadu 2024*); Article 213 Ordinance mechanics.
+      - Discretionary Powers: Textual asymmetry between Art 74(1) and Art 163(1) & (2); Constitutional discretion (Art 200, Art 356, Art 239(2), 6th Schedule royalties, Art 371); Floor Test Doctrine (*Bommai 1994*, *Rameshwar Prasad 2006*, *Nabam Rebia 2016*, *Subhash Desai 2023*); Sarkaria & Punchhi reform blueprints.
+      - State Council of Ministers: 91st AA 2003 (15% max SLA cap + MANDATORY MINIMUM FLOOR OF 12 MINISTERS under Art 164(1A)).
+  15. `16_CHAPTER_15_STATE_LEGISLATURE_BICAMERAL_DYNAMICS.md`:
+      - Bicameral states (6: UP, Bihar, Maharashtra, Karnataka, Andhra Pradesh, Telangana); Article 169 Council creation/abolition procedure (SLA Special Majority $\rightarrow$ Parliament Simple Majority, exempt from Art 368).
+      - Composition: Assembly (500 max, 60 min, small-state exceptions Goa/Mizoram 40, Sikkim 32; 104th AA 2019 discontinued Anglo-Indians; 106th AA 2023 33% women's reservation); Council (Max 1/3rd of SLA, Min 40 members; 1/3 Local + 1/12 Grad + 1/12 Teach + 1/3 MLA + 1/6 Gov).
+      - Legislative Procedure: ZERO Joint Sitting in States; Dilatory Council mechanics (3 months 1st instance + 1 month 2nd instance = 4 MONTHS MAX DELAY); Money Bills (14 days max); Council-originating bills immediately dead if rejected by Assembly.
+      - Article 194 Parliamentary privileges (*Searchlight 1959*, *Keshav Singh 1965* reference).
+  16. `17_CHAPTER_16_PANCHAYATI_RAJ_73RD_AMENDMENT_PESA.md`:
+      - Evolution: Balwant Rai Mehta (1957, 3-tier, Nagaur Oct 2 1959), Ashok Mehta (1977, 2-tier Mandal Panchayat), GVK Rao (1985, "Grass without roots", DDC), LM Singhvi (1986, first constitutional recognition call), Gadgil Committee.
+      - 73rd Amendment Act 1992: Part IX (Arts 243–243-O), 11th Schedule (29 subjects); Compulsory vs Voluntary provisions; 20 Lakh population exemption for intermediate tier; 21-year age rule; $\ge 33\%$ women reservation; Remainder period doctrine (Art 243E); SEC (Art 243K) & SFC (Art 243-I).
+      - PESA Act 1996 (Bhuria Committee): 10 Fifth Schedule states; Gram Sabha ownership of Minor Forest Produce (MFP), mandatory prior recommendation for minor minerals, mandatory consultation for land acquisition/resettlement, prohibition and land alienation powers.
+  17. `18_CHAPTER_17_URBAN_LOCAL_GOVERNANCE_74TH_AMENDMENT.md`:
+      - Evolution: First municipal corporation in Madras (1688), Bombay & Calcutta (1726), Lord Mayo (1870), Lord Ripon (1882 "Magna Carta of Local Self-Government").
+      - 74th Amendment Act 1992: Part IX-A (Arts 243-P to 243-ZG), 12th Schedule (18 subjects); 3 Types (Nagar Panchayat, Municipal Council, Municipal Corporation); Industrial Township exemption; Wards Committees ($\ge 3$ Lakhs pop); 21-year contesting age.
+      - Planning Machinery: District Planning Committee (Art 243-ZD, 4/5th elected from ZP & Municipalities) vs Metropolitan Planning Committee (Art 243-ZE, $\ge 10$ Lakhs pop, 2/3rd elected).
+      - 8 Types of Urban Bodies: Municipal Corporation, Municipality, Notified Area Committee, Town Area Committee, Cantonment Board (Cantonments Act 2006, Ministry of Defence), Township, Port Trust, Special Purpose Agency; 3F Deficit and Municipal Bonds (SEBI 2015, Ahmedabad 1998, Pune 2017).
+* **Batch 6 Master Modules Authored (`007/notes/political_science/`)**:
+  18. `19_CHAPTER_18_SUPREME_COURT_COLLEGIUM_JURISDICTION.md`:
+      - Sanctioned strength: 34 Judges (1 CJI + 33 Puisne) under 2019 Amendment; qualifications (5 yrs HC Judge, 10 yrs HC Advocate, or Distinguished Jurist in President's opinion under Art 124(3)(c)); retirement at 65; absolute post-retirement practice ban (Art 124(7)).
+      - The Four Judges Cases & NJAC: First Judges 1981 (Executive primacy) $\rightarrow$ Second Judges 1993 (Consultation = Concurrence, Collegium born) $\rightarrow$ Third Judges 1998 (CJI + 4 Senior SC Judges for SC; CJI + 2 for HC) $\rightarrow$ Fourth Judges 2015 (NJAC / 99th AA struck down 4:1 as violating Basic Structure).
+      - Jurisdictions: Original (Art 131 exclusive federal legal disputes); Writ (Art 32); Appellate (Arts 132–134, Art 136 SLP discretionary against any court/tribunal EXCEPT Court Martial under Art 136(2)); Advisory (Art 143(1) discretionary vs Art 143(2) mandatory); Court of Record (Art 129); Complete Justice (Art 142); Review (Art 137) & Curative Petitions (*Rupa Ashok Hurra 2002*).
+  19. `20_CHAPTER_19_HIGH_COURT_SUBORDINATE_ADR_LOK_ADALAT.md`:
+      - High Court architecture: 25 High Courts; 6 Common High Courts (Art 231); President determines HC strength (Art 216); qualifications (no distinguished jurist category for HC!); retirement at 62 (15th AA 1963); sworn by Governor (Art 219), resigns to President.
+      - Article 226 vs Article 32: HC writ jurisdiction is BROADER than SC (covers Fundamental Rights AND "any other purpose"); discretionary nature; supervisory superintendence under Art 227 (administrative + judicial).
+      - Subordinate Courts (Arts 233–237): District & Sessions Judge (apex, death sentence subject to HC confirmation under Sec 366 CrPC/BNSS); Subordinate Judge $\rightarrow$ Munsiff; CJM $\rightarrow$ JMFC; appointments by Governor in consultation with HC.
+      - ADR & Legal Services: Article 39A; Legal Services Authorities Act 1987 (NALSA, SLSA, DLSA); Lok Adalats (Section 21 civil decree status, ZERO APPEAL to any court, compoundable matters only); Permanent Lok Adalats (Sec 22B, Public Utility Services, decides on merits, ₹1 crore cap).
+  20. `21_CHAPTER_20_JUDICIAL_ACTIVISM_PIL_RESTRAINT.md`:
+      - Conceptual origins: Term coined by Arthur Schlesinger Jr. (1947); post-Emergency transformation under Justice V.R. Krishna Iyer and Justice P.N. Bhagwati; shift from *A.K. Gopalan* to *Maneka Gandhi*.
+      - Public Interest Litigation (PIL): Relaxation of traditional *Locus Standi*; epistolary jurisdiction (letters treated as writs, *Sunil Batra 1980*); first PIL *Hussainara Khatoon (1979)* (Pushpa Kapila Hingorani "Mother of PIL", Right to Speedy Trial under Art 21); *Bandhua Mukti Morcha (1984)*; *Oleum Gas Leak (1987)* Absolute Liability doctrine; *Vishaka (1997)* judicial lawmaking; *ADR/PUCL (2002)* candidate disclosures.
+      - Regulatory guidelines & safeguards: *State of Uttaranchal v. Balwant Singh Chaufal (2010)*; matters excluded from PIL (service, landlord-tenant, college admissions).
+      - Judicial Review vs Activism vs Overreach; Judicial Restraint (*Aravali Golf Course 2007* warning against running the government).
 * **Rapid Revision Matrix Sheets (`007/revision/political_science/`)**:
   - `01_REV_CHAPTER_01_HISTORICAL_CONSTITUENT_ASSEMBLY.md`
   - `02_REV_CHAPTER_02_SALIENT_FEATURES_PREAMBLE.md`
@@ -147,6 +183,13 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
   - `11_REV_CHAPTER_11_PRESIDENT_VICE_PRESIDENT.md`
   - `12_REV_CHAPTER_12_PRIME_MINISTER_CABINET.md`
   - `13_REV_CHAPTER_13_PARLIAMENT_COMMITTEES.md`
+  - `14_REV_CHAPTER_14_GOVERNOR_STATE_COUNCIL.md`
+  - `15_REV_CHAPTER_15_STATE_LEGISLATURE.md`
+  - `16_REV_CHAPTER_16_PANCHAYATI_RAJ_PESA.md`
+  - `17_REV_CHAPTER_17_MUNICIPALITIES.md`
+  - `18_REV_CHAPTER_18_SUPREME_COURT.md`
+  - `19_REV_CHAPTER_19_HIGH_COURT_SUBORDINATE_ADR.md`
+  - `20_REV_CHAPTER_20_JUDICIAL_ACTIVISM_PIL.md`
 * **Operating Rules**: Radical non-duplication, first-principles constitutional mechanisms, total replacement standard, zero push without explicit user sign-off.
 
 ---
