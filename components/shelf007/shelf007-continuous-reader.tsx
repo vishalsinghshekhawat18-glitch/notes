@@ -332,7 +332,7 @@ export function Shelf007ContinuousReader({
                         title={ch.title}
                       >
                         <span className="font-mono text-[10px] text-stone-400 shrink-0">
-                          {ch.order < 10 ? `0${ch.order}` : ch.order}
+                          {ch.order === 0 ? '••' : ch.order < 10 ? `0${ch.order}` : ch.order}
                         </span>
                         <span className="truncate leading-tight font-serif">
                           {ch.shortTitle}
@@ -471,7 +471,7 @@ export function Shelf007ContinuousReader({
           {/* Chapter Completion Footer */}
           <section className="bg-stone-900 text-stone-100 rounded-2xl p-6 sm:p-8 text-center space-y-3 shadow-xs">
             <div className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-300 font-mono text-[11px] font-semibold">
-              ✓ CHAPTER {currentChapter.order} COMPLETE
+              ✓ {currentChapter.order > 0 ? `CHAPTER ${currentChapter.order}` : currentChapter.category.toUpperCase()} COMPLETE
             </div>
 
             <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">

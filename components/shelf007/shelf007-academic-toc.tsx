@@ -339,7 +339,7 @@ export function Shelf007AcademicTOC({
                               >
                                 <div className="flex items-start sm:items-center gap-2.5 flex-1 min-w-0">
                                   <span className="text-xs font-mono font-semibold text-stone-400 group-hover:text-emerald-800 shrink-0">
-                                    § {chapter.order}.{sIdx + 1}
+                                    § {chapter.order > 0 ? `${chapter.order}.${sIdx + 1}` : `${sIdx + 1}`}
                                   </span>
                                   <Link
                                     href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}

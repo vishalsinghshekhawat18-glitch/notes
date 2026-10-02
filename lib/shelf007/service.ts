@@ -232,28 +232,35 @@ export function getPoliticalScienceChapters(): Shelf007ChapterItem[] {
     const content = fs.readFileSync(fullPath, 'utf-8');
     const wordCount = content.split(/\s+/).filter(Boolean).length;
 
-    let slug = fileName.replace(/\.md$/, '').toLowerCase();
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
     let category = 'Master Chapter';
-    let shortTitle = fileName.replace(/\.md$/, '').replace(/^\d+_/, '').replace(/_/g, ' ');
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
 
     if (fileName.startsWith('00_')) {
       slug = 'cover';
       category = 'Front Matter';
       shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
     } else if (fileName.startsWith('01_')) {
       slug = 'table-of-contents';
       category = 'Front Matter';
       shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
     } else if (fileName.includes('CAPSTONE')) {
       slug = 'chapter-30';
       category = 'Capstone Vault';
       shortTitle = 'Chapter 30: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 30;
     } else {
       const chMatch = fileName.match(/CHAPTER_(\d+)/i);
       if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
         slug = `chapter-${chMatch[1].padStart(2, '0')}`;
-        category = `Chapter ${parseInt(chMatch[1], 10)}`;
-        shortTitle = `Chapter ${parseInt(chMatch[1], 10)}: ${fileName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
       }
     }
 
@@ -271,7 +278,7 @@ export function getPoliticalScienceChapters(): Shelf007ChapterItem[] {
       category,
       description,
       filePath: fullPath,
-      order: idx + 1,
+      order: chapterOrder,
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
@@ -290,28 +297,35 @@ export function getEconomicsChapters(): Shelf007ChapterItem[] {
     const content = fs.readFileSync(fullPath, 'utf-8');
     const wordCount = content.split(/\s+/).filter(Boolean).length;
 
-    let slug = fileName.replace(/\.md$/, '').toLowerCase();
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
     let category = 'Master Chapter';
-    let shortTitle = fileName.replace(/\.md$/, '').replace(/^\d+_/, '').replace(/_/g, ' ');
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
 
     if (fileName.startsWith('00_')) {
       slug = 'cover';
       category = 'Front Matter';
       shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
     } else if (fileName.startsWith('01_')) {
       slug = 'table-of-contents';
       category = 'Front Matter';
       shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
     } else if (fileName.startsWith('23_')) {
       slug = 'master-revision-vault';
       category = 'Capstone Vault';
       shortTitle = 'Chapter 22: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 22;
     } else {
       const chMatch = fileName.match(/CHAPTER_(\d+)/i);
       if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
         slug = `chapter-${chMatch[1].padStart(2, '0')}`;
-        category = `Chapter ${parseInt(chMatch[1], 10)}`;
-        shortTitle = `Chapter ${parseInt(chMatch[1], 10)}: ${fileName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
       }
     }
 
@@ -329,7 +343,7 @@ export function getEconomicsChapters(): Shelf007ChapterItem[] {
       category,
       description,
       filePath: fullPath,
-      order: idx + 1,
+      order: chapterOrder,
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
