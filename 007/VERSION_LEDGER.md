@@ -17,6 +17,23 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED / IN PROGRESS] v005 — Political Science & Constitutional Governance Sovereign Master Architecture
+* **Status**: Staged Locally in `007/` (Development Cycle Initialized)
+* **Domain / Subject**: Political Science, Constitutional Architecture & Indian Governance
+* **Dedicated Operational Base**:
+  - Skill: `007/skills/political-science-master-skill.md`
+  - Drop Zone: `007/sources/political_science/`
+  - Master Chapters: `007/notes/political_science/`
+  - Revision Vaults: `007/revision/political_science/`
+* **Target Multi-Exam Benchmarks**:
+  - UPSC Civil Services (Prelims & Mains GS-2 / PSIR Optional)
+  - RPSC RAS (Paper 3: Indian Political System & State Administration)
+  - UGC-NET / SLET Political Science
+  - APFC / EPFO / SSC CGL Indian Polity
+* **Operating Rules**: Radical non-duplication, first-principles constitutional mechanisms, total replacement standard, zero push without explicit user sign-off.
+
+---
+
 ### [RELEASED] v004 — IIBF DBF / JAIIB: Complete 4-Paper Master Curriculum & Revision Vaults
 * **Release Date**: 2026-10-02
 * **Commit SHA**: `c594aa7`

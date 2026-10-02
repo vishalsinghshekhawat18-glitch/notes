@@ -106,11 +106,12 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
     id: 'shelf-007',
     title: 'Shelf 007: Sovereign Knowledge Bastion & Master Examination Series',
     icon: '🏛️',
-    badge: 'Master Examination Series',
+    badge: 'Master Series • Release v004 Live',
     accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
     borderAccent: 'border-l-[#143227]',
     subjectSlugs: [
-      'economics-master',
+      'indian-economy',
+      'iibf-banking-regulations',
     ],
   },
 ];
@@ -154,12 +155,30 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
   const matchesSearch = (subject: SubjectOverviewItem) => {
     if (!searchQuery.trim()) return true;
     const q = searchQuery.toLowerCase();
+    const isEconShelf007 =
+      subject.slug === 'indian-economy' &&
+      (q.includes('eco') ||
+        q.includes('vivek') ||
+        q.includes('ramesh') ||
+        q.includes('quadriad') ||
+        q.includes('treatise'));
+    const isDBFShelf007 =
+      subject.slug === 'iibf-banking-regulations' &&
+      (q.includes('dbf') ||
+        q.includes('jaiib') ||
+        q.includes('macmillan') ||
+        q.includes('paper') ||
+        q.includes('banking'));
+
     return (
       subject.name.toLowerCase().includes(q) ||
+      subject.slug.toLowerCase().includes(q) ||
       subject.description.toLowerCase().includes(q) ||
       subject.domainName.toLowerCase().includes(q) ||
       subject.code.toLowerCase().includes(q) ||
-      subject.featuredTopics.some((t) => t.toLowerCase().includes(q))
+      subject.featuredTopics.some((t) => t.toLowerCase().includes(q)) ||
+      isEconShelf007 ||
+      isDBFShelf007
     );
   };
 
@@ -248,6 +267,135 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     );
   };
 
+  // Sovereign Master Card Renderer for Shelf 007 (Economics Master & IIBF DBF)
+  const renderSovereignMasterCard = (subject: SubjectOverviewItem) => {
+    const isEcon = subject.slug === 'indian-economy';
+    const isDBF = subject.slug === 'iibf-banking-regulations';
+
+    const cardMeta = isEcon
+      ? {
+          code: 'ECO-007',
+          badgeText: '4-Author Sovereign Quadriad',
+          badgeColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
+          title: 'Economics Master Treatise',
+          authorText: 'Ramesh Singh • Vivek Singh • Sanjeev Verma • K. Sankarganesh',
+          countsText: '22 Master Chapters • 22 Revision Matrices • 76 Peaks',
+          description:
+            'Definitive macroeconomic architecture synthesizing 4 foundational treatises: National Income Accounting (2015 NSO SNA), Inflation Dynamics, RBI Monetary Policy Corridor, Banking Architecture & NPAs, Public Finance & GST, Fiscal Federalism, and External Sector / WTO.',
+          chips: [
+            'National Income (NSO 2015 SNA)',
+            'Monetary Transmission & Repo',
+            'NPAs, IBC 2016 & Bad Banks',
+            'FRBM Act & GST Council',
+          ],
+          syllabusUrl: '/subjects/indian-economy',
+          readUrl: `/topics/${subject.firstTopicSlug || 'national-income-and-macroeconomic-accounting'}/read`,
+        }
+      : isDBF
+      ? {
+          code: 'DBF-007',
+          badgeText: 'IIBF Compulsory 4-Paper Master Codex',
+          badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#dbeafe]',
+          title: 'IIBF Diploma in Banking & Finance (DBF / JAIIB)',
+          authorText: 'Official Macmillan Courseware (IE&IFS • PPB • AFMB • RBWM)',
+          countsText: '4 Papers • 16 Modules • 5 Revision Vaults • 25 Peaks',
+          description:
+            'Exhaustive 4-paper curriculum: Paper 1 (IE&IFS), Paper 2 (PPB), Paper 3 (AFMB), and Paper 4 (RBWM). Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III capital ratios, and 5 rapid revision formula vaults.',
+          chips: [
+            'Paper 1: IE&IFS (4 Modules)',
+            'Paper 2: PPB (4 Modules)',
+            'Paper 3: AFMB (4 Modules)',
+            'Paper 4: RBWM (4 Modules)',
+          ],
+          syllabusUrl: '/subjects/iibf-banking-regulations',
+          readUrl: `/topics/${subject.firstTopicSlug || 'reserve-bank-of-india-and-its-mandate-br-act-rbi-act'}/read`,
+        }
+      : null;
+
+    if (!cardMeta) {
+      return renderSubjectCard(subject);
+    }
+
+    return (
+      <article
+        key={subject.id}
+        className="bg-white border-2 border-[#d6cebe] hover:border-[#143227] rounded-xl p-5 shadow-2xs hover:shadow-md transition-all duration-200 flex flex-col justify-between border-l-4 border-l-[#143227] group relative overflow-hidden"
+      >
+        <div className="absolute top-0 right-0 w-24 h-24 bg-[#143227]/5 rounded-bl-full pointer-events-none" />
+
+        <div className="space-y-2.5">
+          {/* Header Row: Code & Counts */}
+          <div className="flex items-center justify-between text-xs font-mono">
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold border bg-[#ede8dc] text-[#143227] border-[#d6cebe]">
+              {cardMeta.code}
+            </span>
+            <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${cardMeta.badgeColor}`}>
+              {cardMeta.badgeText}
+            </span>
+          </div>
+
+          {/* Title & Author Meta */}
+          <div>
+            <Link href={cardMeta.syllabusUrl} className="block group-hover:text-[#143227] transition-colors">
+              <h4 className="font-serif font-bold text-lg sm:text-xl text-stone-900 leading-snug">
+                {cardMeta.title}
+              </h4>
+            </Link>
+            <div className="text-[11px] font-mono text-stone-500 pt-0.5">
+              {cardMeta.authorText}
+            </div>
+          </div>
+
+          {/* Counts Bar */}
+          <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-mono">
+            <span className="bg-[#f7f5f0] border border-[#e5dfd3] text-stone-700 px-2 py-0.5 rounded font-medium">
+              {cardMeta.countsText}
+            </span>
+            <span className="bg-[#eef6f2] text-[#143227] font-bold px-2 py-0.5 rounded border border-[#cbe4d7]">
+              {subject.conceptsCount} Waypoints
+            </span>
+          </div>
+
+          {/* Description */}
+          <p className="text-xs text-stone-600 leading-relaxed font-sans">
+            {cardMeta.description}
+          </p>
+
+          {/* Topic Highlights Chips */}
+          <div className="flex flex-wrap gap-1.5 pt-1">
+            {cardMeta.chips.map((chip, cIdx) => (
+              <span
+                key={cIdx}
+                className="text-[10px] font-mono bg-[#fdfbf7] border border-[#e5dfd3] text-stone-700 px-2 py-0.5 rounded"
+              >
+                {chip}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Footer Actions */}
+        <div className="mt-4 pt-3 border-t border-[#f0ebe1] flex items-center justify-between text-xs font-medium">
+          <Link
+            href={cardMeta.syllabusUrl}
+            className="text-stone-600 hover:text-[#143227] font-semibold transition-colors flex items-center gap-1"
+          >
+            <span>Syllabus & Blueprint</span>
+            <span>→</span>
+          </Link>
+
+          <Link
+            href={cardMeta.readUrl}
+            className="px-3 py-1.5 rounded-lg text-white text-[11px] font-semibold transition-all inline-flex items-center gap-1.5 bg-[#143227] hover:bg-[#1f493b] shadow-xs hover:shadow"
+          >
+            <span>Begin Master Ascent</span>
+            <span>→</span>
+          </Link>
+        </div>
+      </article>
+    );
+  };
+
   return (
     <div className="space-y-6">
       {/* View Switcher & Fast Filter Header */}
@@ -317,49 +465,41 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               .filter((s): s is SubjectOverviewItem => s !== undefined)
               .filter(matchesSearch);
 
-            if (shelfSubjects.length === 0) {
-              if (shelf.id === 'shelf-007') {
-                return (
-                  <section
-                    key={shelf.id}
-                    className="bg-[#ffffff] border border-[#e5dfd3] rounded-2xl p-4 sm:p-5 space-y-4 shadow-2xs"
-                  >
-                    {/* Shelf Header */}
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#f0ebe1] pb-3">
-                      <div className="flex items-center gap-2.5">
-                        <span className="text-xl" role="img" aria-label={shelf.title}>
-                          {shelf.icon}
-                        </span>
-                        <div>
-                          <h3 className="font-serif font-bold text-stone-900 text-base sm:text-lg tracking-tight">
-                            {shelf.title}
-                          </h3>
-                          <span className="text-[11px] font-mono text-stone-600">
-                            Isolated Master Codex • Work in Progress
-                          </span>
-                        </div>
-                      </div>
+            if (shelfSubjects.length === 0) return null;
 
-                      <span className={`self-start sm:self-auto text-[10px] font-mono px-2 py-0.5 rounded-full border font-bold uppercase tracking-wider ${shelf.accentColor}`}>
-                        {shelf.badge}
+            if (shelf.id === 'shelf-007') {
+              return (
+                <section
+                  key={shelf.id}
+                  className="bg-[#ffffff] border-2 border-[#d6cebe] rounded-2xl p-4 sm:p-6 space-y-5 shadow-xs"
+                >
+                  {/* Shelf Header */}
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#e5dfd3] pb-3">
+                    <div className="flex items-center gap-2.5">
+                      <span className="text-xl" role="img" aria-label={shelf.title}>
+                        {shelf.icon}
                       </span>
+                      <div>
+                        <h3 className="font-serif font-bold text-stone-900 text-base sm:text-lg tracking-tight">
+                          {shelf.title}
+                        </h3>
+                        <span className="text-[11px] font-mono text-emerald-800 font-semibold">
+                          2 Sovereign Escarpments • Release v004 Active
+                        </span>
+                      </div>
                     </div>
 
-                    <div className="p-6 rounded-xl border border-dashed border-[#dcd6c8] bg-[#fbf9f5] flex flex-col items-center justify-center text-center space-y-2">
-                      <div className="w-8 h-8 rounded-full bg-[#143227]/10 text-[#143227] flex items-center justify-center font-bold text-sm">
-                        007
-                      </div>
-                      <h4 className="font-serif font-bold text-stone-800 text-sm">
-                        Shelf 007 Initialized & Live
-                      </h4>
-                      <p className="text-xs text-stone-500 max-w-md font-sans">
-                        Isolated sovereign knowledge bastion initialized. Multiple comprehensive subjects (starting with Economics) are staged locally and will populate here upon authorized release.
-                      </p>
-                    </div>
-                  </section>
-                );
-              }
-              return null;
+                    <span className={`self-start sm:self-auto text-[10px] font-mono px-2.5 py-1 rounded-full border font-bold uppercase tracking-wider ${shelf.accentColor}`}>
+                      {shelf.badge}
+                    </span>
+                  </div>
+
+                  {/* Sovereign Subject Cards (2-Column Flagship Layout) */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    {shelfSubjects.map(renderSovereignMasterCard)}
+                  </div>
+                </section>
+              );
             }
 
             return (
