@@ -19,7 +19,8 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ### [RELEASED] v002 — Economics Master Treatise: Complete 22 Chapters & Revision Vault
 * **Release Date**: 2026-10-02
-* **Status**: Deployed to GitHub Remote Repository
+* **Commit SHA**: `1d22d04`
+* **Status**: Deployed to GitHub Remote Repository via GitHub Actions
 * **Domain / Subject**: Economics Master Treatise (*Indian Economy & Macroeconomic Architecture*)
 * **Authoritative Source Triad Unified**:
   - Ramesh Singh, *Indian Economy* (McGraw Hill)
