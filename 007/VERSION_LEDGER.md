@@ -17,6 +17,100 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED / IN PROGRESS] v011 — General Science Codex (Physics, Chemistry & Biology Unified)
+* **Status**: Fully Authored & Verified Locally in `007/` (All 4 Parts, 28 Chapters, 27 Revision Modules, Cover, TOC & Capstone Vault Complete)
+* **Domain / Subject**: General Science (Physics, Chemistry & Biology Unified for UPSC CSE, State PSCs, SSC CGL, CDS/NDA)
+* **Canonical Multi-Source Epistemic Fusion**:
+  - NCERT Science (Classes VI–X Core Foundations & Classes XI–XII High-Yield Units)
+  - International Metrological Standards (BIPM 2019 SI Base Unit Redefinitions & IUPAC Nomenclature)
+  - Standard Treatises (Halliday-Resnick Physics, Campbell Biology, Morrison-Boyd Chemistry)
+  - Competitive Compendiums (Lucent, Arihant, Disha, Ghatna Chakra)
+* **Sovereign Modules Authored (`007/notes/general_science/`)**:
+  - `00_COVER.md`: Sovereign Front Cover, Epistemic Pledge & Volume Metadata.
+  - `01_TABLE_OF_CONTENTS.md`: 4-Part, 28-Chapter Comprehensive Curriculum Architecture.
+  - `02_CHAPTER_01_PHYSICAL_QUANTITIES_UNITS_MEASUREMENT.md`: Base vs Derived, 2019 SI Redefinition via Fundamental Constants, Astronomical Units, Dimensional Analysis, Error Propagation.
+  - `03_CHAPTER_02_KINEMATICS_DYNAMICS_LAWS_OF_MOTION.md`: Kinematics, Equations of Motion, Galileo Free-Fall, Projectile Max Range ($45^\circ$), Newton's 3 Laws, Momentum, Friction Hierarchy.
+  - `04_CHAPTER_03_GRAVITATION_PLANETARY_SATELLITE_MECHANICS.md`: Universal Gravitation, $g$ Variations, Elevator Weightlessness, Kepler's Laws, Orbital/Escape Velocity, Geostationary Orbits.
+  - `05_CHAPTER_04_WORK_ENERGY_POWER_CONSERVATION_LAWS.md`: Work ($\vec{F}\cdot\vec{s}$), Work-Energy Theorem, Power, Commercial Units ($1\text{ kWh} = 3.6\text{ MJ}$), Elastic/Inelastic Collisions.
+  - `06_CHAPTER_05_FLUID_MECHANICS_SURFACE_TENSION_VISCOSITY.md`: Pascal's Principle, Archimedes Buoyancy, Surface Tension, Viscosity, Bernoulli's Theorem, Capillarity, Stokes' Law.
+  - `07_CHAPTER_06_THERMAL_PHYSICS_HEAT_TRANSFER_THERMODYNAMICS.md`: Temperature Scales, Water Anomalous Expansion ($4^\circ\text{C}$), Latent Heat, Heat Transfer Modes, Laws of Thermodynamics.
+  - `08_CHAPTER_07_WAVE_MOTION_SHM_ACOUSTICS_SOUND.md`: SHM, Simple Pendulum, Sound Waves in Media, Audibility, Echo, SONAR, Doppler Effect, Auditory Anatomy.
+  - `09_CHAPTER_08_RAY_WAVE_OPTICS_HUMAN_EYE.md`: Reflection, Refraction, TIR, Lenses, Dispersion, Rayleigh Scattering, Vision Defects (Myopia, Hypermetropia, Astigmatism).
+  - `10_CHAPTER_09_ELECTROSTATICS_CAPACITANCE_CURRENT_ELECTRICITY.md`: Coulomb's Law, Capacitance, Ohm's Law, Domestic Circuits, Joule Heating, Electrical Safety.
+  - `11_CHAPTER_10_MAGNETISM_ELECTROMAGNETISM_INDUCTION.md`: Earth's Magnetism, Magnetic Materials (Dia/Para/Ferro), Lorentz Force, Faraday & Lenz Laws, Transformers.
+  - `12_CHAPTER_11_MODERN_PHYSICS_NUCLEAR_SEMICONDUCTORS.md`: Photoelectric Effect, De Broglie, Nuclear Binding Energy, Radioactivity ($\alpha, \beta, \gamma$), Fission/Fusion, Semiconductors ($n$-type/$p$-type).
+  - `13_CHAPTER_12_NATURE_OF_MATTER_SEPARATION_COLLOIDS.md`: States of Matter, Physical/Chemical Changes, Colloids (Tyndall, Brownian), Hardy-Schulze Rule, Separation Techniques.
+  - `14_CHAPTER_13_ATOMIC_STRUCTURE_QUANTUM_NUMBERS_ISOTOPES.md`: Subatomic Discovery, 4 Quantum Numbers, Aufbau/Pauli/Hund Rules, Isotopes/Isobars/Isotones, Radiotracers.
+  - `15_CHAPTER_14_CHEMICAL_BONDING_PERIODIC_TABLE.md`: Periodic Trends, Electronegativity, Ionic/Covalent/Coordinate Bonding, Hydrogen Bonding Anomalies.
+  - `16_CHAPTER_15_CHEMICAL_REACTIONS_CATALYSIS_REDOX.md`: Reaction Types, Redox (OIL RIG), Corrosion & Galvanization, Catalysis Kinetics, Mole Concept.
+  - `17_CHAPTER_16_ACIDS_BASES_SALTS_PH_BUFFERS.md`: Acid-Base Theories, pH Scale, Buffers, Natural Acids, Commercial Salts (Baking/Washing Soda, Bleaching Powder, PoP).
+  - `18_CHAPTER_17_METALS_NONMETALS_METALLURGY_ALLOYS.md`: Reactivity Series, Metallurgy Steps (Roasting/Calcination), Important Alloys (Brass, Bronze, Solder, Stainless Steel).
+  - `19_CHAPTER_18_CARBON_ALLOTROPES_HYDROCARBONS.md`: Catenation/Tetravalency, Allotropes (Diamond, Graphite, Fullerenes, Graphene), Hydrocarbons, LPG/CNG, Functional Groups.
+  - `20_CHAPTER_19_CHEMISTRY_IN_EVERYDAY_LIFE.md`: Soaps & Detergents (Micelles), Polymers (Thermoplastics/Thermosetting), Glass, Portland Cement, Explosives.
+  - `21_CHAPTER_20_CELL_STRUCTURE_ORGANELLES_DIVISION.md`: Cell Theory, Prokaryotic vs Eukaryotic, Endomembrane System, Mitochondria, Chloroplasts, Ribosomes, Mitosis & Meiosis (Prophase I LZPDD).
+  - `22_CHAPTER_21_BIOMOLECULES_CARBS_PROTEINS_NUCLEIC_ACIDS.md`: Carbohydrates, Lipids, Protein Hierarchy ($1^\circ\text{--}4^\circ$), Enzyme Kinetics ($K_m, V_{max}$), DNA Watson-Crick B-Form, Chargaff's Rules, Vitamins.
+  - `23_CHAPTER_22_BIOLOGICAL_CLASSIFICATION_MICROORGANISMS.md`: Binomial Nomenclature, Whittaker 5 Kingdoms, Woese 3 Domains, Monera, Protista, Fungi, Viruses, Viroids, Prions, Body Plans.
+  - `24_CHAPTER_23_PLANT_PHYSIOLOGY_PHOTOSYNTHESIS_HORMONES.md`: Water Potential, Transpiration Pull, Nitrogen Fixation (Nitrogenase/Leghemoglobin), Light Reactions (Z-Scheme), $C_3/C_4/\text{CAM}$, Respiration (Glycolysis, TCA, ETC), Phytohormones.
+  - `25_CHAPTER_24_HUMAN_PHYSIOLOGY_DIGESTION_RESPIRATION_CIRCULATION.md`: Gastrointestinal Digestion, Spirometric Volumes/Capacities, Gas Transport (Bohr Effect, Chloride Shift), Cardiovascular Hemodynamics, ECG, Blood Groups.
+  - `26_CHAPTER_25_HUMAN_PHYSIOLOGY_EXCRETION_NERVOUS_ENDOCRINE.md`: Modes of Excretion, Nephron Counter-Current, RAAS, Axonal Action Potentials, Brain Anatomy, Endocrine Glands & Hormone Mechanisms.
+  - `27_CHAPTER_26_HUMAN_REPRODUCTION_GENETICS_DISORDERS.md`: Gametogenesis, Ovarian Cycle, Mendel's Laws & Non-Mendelian Extensions, Central Dogma, Lac Operon, Genetic & Chromosomal Disorders.
+  - `28_CHAPTER_27_HUMAN_HEALTH_DISEASES_IMMUNITY_VACCINES.md`: Infectious Pathologies (Bacterial, Viral, Protozoan, Helminthic), Humoral vs CMI, Antibodies, Vaccines, Cancer, Recombinant Biotechnology (Humulin, Bt Crops, RNAi).
+  - `29_CHAPTER_28_CAPSTONE_MASTER_CONSOLIDATED_REVISION_VAULT.md`: 60-Second Retrieval Skeletons (Ch 01–27), Grand Cross-Domain Distinction Matrix, 50 Deadliest Test-Maker Traps, Diagnostic Active-Recall Elimination Bank.
+* **Rapid Revision Cards Authored (`007/revision/general_science/`)**:
+  - `01_REV_CHAPTER_01.md` through `27_REV_CHAPTER_27.md` (Complete 27-Module Rapid Recall Library).
+* **Skills Authored (`007/skills/`)**:
+  - `general-science-master-skill.md`: First-principles scientific epistemology, de-duplication rules, and formatting standards.
+* **Deployment Governance**: Staged locally; zero unprompted push without explicit user sign-off.
+
+### [STAGED / IN PROGRESS] v010 — Quantitative Aptitude & Mathematical Logic Sovereign Master Architecture (Axiomatic & Speed Synthesis)
+* **Status**: Staged Locally in `007/` (Sovereign Tree Initialized, Chapter 01 Live, UI & Service Integrated)
+* **Domain / Subject**: Quantitative Aptitude & Mathematical Logic (Banking PO/Mains, RBI Grade B Phase 1, UPSC CSAT, CAT/XAT)
+* **Canonical Multi-Author Aptitude Fusion**:
+  - Sarvesh K. Verma (*Quantum CAT*) • Arun Sharma (*Quantitative Aptitude for CAT*) • R.S. Aggarwal • Rajesh Verma (*Fast Track Objective Arithmetic*)
+* **Scope & 10-Part Master Architecture**:
+  1. Part I: Mental Calculation, Speed Engines & Number Sense (Ch 01–03)
+  2. Part II: Number Theory & Arithmetic Invariants (Ch 04–06)
+  3. Part III: Algebraic Architecture & Equations (Ch 07–09)
+  4. Part IV: Commercial Arithmetic: Ratios, Percentages & Proportionality (Ch 10–12)
+  5. Part V: Commercial Arithmetic: Financial Dynamics & Mixtures (Ch 13–16)
+  6. Part VI: Work, Motion & Physical Rates (Ch 17–20)
+  7. Part VII: Geometry & Spatial Mensuration (Ch 21–22)
+  8. Part VIII: Modern Mathematics & Combinatorics (Ch 23–24)
+  9. Part IX: Data Interpretation & Decision Logic (Ch 25–26)
+  10. Part X: Capstone Master Consolidated Revision & Trap Vault (Ch 27)
+* **Epistemic Standards & Operating Skills Authored**:
+  - `007/skills/quantitative-aptitude-master-skill.md`: Definitive operational manual enforcing total replacement standard, dual-speed problem solving (first-principles proof + 30-sec competitive heuristic), examiner trap avoidance, and native GFM proportional tables.
+* **Master Chapters & Front Matter Authored (`007/notes/quantitative_aptitude/`)**:
+  - `00_COVER.md`: Sovereign codex cover with Epistemic Pledge and canonical fusion credits.
+  - `01_TABLE_OF_CONTENTS.md`: 27-chapter master curriculum blueprint organized into 10 thematic parts.
+  - `02_CHAPTER_01_MENTAL_ARITHMETIC_BASE_MULTIPLICATION_VEDIC.md`: Complete doctoral-depth treatise on base multiplication ($100 \pm x$), criss-cross $2 \times 2$, digital root casting-out-nines invariants, distinction matrix, and top 5 calculation traps.
+* **Rapid Revision Matrices Authored (`007/revision/quantitative_aptitude/`)**:
+  - `01_REV_CHAPTER_01_MENTAL_ARITHMETIC.md`: Core distinction matrices, 60-second retrieval skeleton, and top 5 instant killer traps.
+* **Service & UI Integration**:
+  - Registered `quantitative-aptitude` (`QNT-007`) in `lib/shelf007/service.ts`, `app/shelf-007/[subject]/page.tsx`, and `app/shelf-007/[subject]/[chapter]/page.tsx`.
+  - Added sovereign card in `components/navigation/knowledge-shelves-view.tsx` with direct reading anchors.
+  - Added keyboard hotkeys, dynamic outline, and progress tracking in `components/shelf007/shelf007-continuous-reader.tsx`.
+* **Deployment Governance**: Staged locally; zero unprompted push without explicit user sign-off.
+
+### [STAGED / IN PROGRESS] v009 — History Sovereign Multi-Dimensional Master Architecture (Ancient, Medieval, Modern, Rajasthan & World Combined)
+* **Status**: Staged Locally in `007/` (Sovereign Tree Initialized & Front Matter Deployed)
+* **Domain / Subject**: History Sovereign Multi-Dimensional Synthesis (UPSC CSE, RPSC RAS, APFC/EPFO, State PSCs)
+* **Scope & Dimensions Covered**:
+  1. Part I: Ancient Indian Civilizations & Cultural Foundations (Ch 01–07)
+  2. Part II: Medieval India & Institutional Synthesis (Ch 08–14)
+  3. Part III: Modern India & The Freedom Struggle (Ch 15–23)
+  4. Part IV: Rajasthan History, Dynasties & Heritage (RPSC RAS Master Lens) (Ch 24–30)
+  5. Part V: World History & Global Transformations (UPSC Mains GS-1 Lens) (Ch 31–38)
+  6. Part VI: Capstone Grand Synthesis & Master Revision Vault (Ch 39)
+* **Epistemic Standards & Operating Skills Authored**:
+  - `007/skills/history-master-skill.md`: Definitive operational manual enforcing total replacement standard, primary epigraphic/archaeological grounding, chronological synthesis, and radical de-duplication.
+* **Front Matter Authored (`007/notes/history/`)**:
+  - `00_COVER.md`: Sovereign codex cover with Epistemic Pledge and canonical fusion credits.
+  - `01_TABLE_OF_CONTENTS.md`: 39-chapter master curriculum blueprint organized into 6 thematic parts.
+* **Service & UI Integration**:
+  - Registered `history` (`HIST-007`) in `lib/shelf007/service.ts`, `app/shelf-007/[subject]/page.tsx`, and `app/shelf-007/[subject]/[chapter]/page.tsx`.
+* **Deployment Governance**: Staged locally; zero unprompted push without explicit user sign-off.
+
 ### [STAGED / IN PROGRESS] v008 — Economic and Social Issues (ESI) Sovereign Master Synthesis & 4 New Dedicated Chapters (CrackGradeB / CGB Mentors ESI Integration)
 * **Status**: Staged Locally in `007/` (1,100 Static Pages Verified, Build Succeeded)
 * **Domain / Subject**: Economics & Social Issues (ESI) Sovereign Synthesis (RBI Grade B, NABARD Grade A, UPSC CSE)
@@ -44,9 +138,10 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 * **Domain / Subject**: Political Science & Indian Polity Objective Diagnostic Examination Engine
 * **Authoritative Question Bank Treatise Ingested**:
   - M. Laxmikanth, *Objective Indian Polity: General Studies Paper-I* (McGraw Hill Education, 469 pages, 1,520 curated objective MCQs across 71 chapters, 10 appendices, and 10 full-length model test papers)
+  - M. Laxmikanth, *Governance in India* (McGraw Hill Education, 2nd Edition, Appendices 11 & 12: 292 Prelims Questions & 72 Mains Analytical Questions)
 * **Sovereign Modules Authored (`007/question_bank/political_science/`)**:
-  1. `00_COVER.md`: Sovereign Cover, Epistemic Charter, and 1,520-Question Curricular Audit Taxonomy.
-  2. `01_INDEX_AND_METHODOLOGY.md`: Curricular Index mapping all 71 book chapters, 10 appendices, and 10 model tests; 3-step active recall protocol and multi-statement elimination drills.
+  1. `00_COVER.md`: Sovereign Cover, Epistemic Charter, and 1,580-Question Curricular Audit Taxonomy.
+  2. `01_INDEX_AND_METHODOLOGY.md`: Curricular Index mapping all 71 book chapters, 10 appendices, Governance Part VIII drill, and 10 model tests; 3-step active recall protocol and multi-statement elimination drills.
   3. `02_PART_I_CONSTITUTIONAL_FRAMEWORK_DRILL.md`: Book Chapters 1–11 (Historical Underpinnings, Constituent Assembly, Salient Features, Preamble, Territory, Citizenship, FRs, DPSP, Duties, Amendment, Basic Structure) with complete answer keys & forensic trap autopsies.
   4. `03_PART_II_SYSTEM_OF_GOVERNMENT_DRILL.md`: Book Chapters 12–16 (Parliamentary System, Federal System, Centre-State Relations, Inter-State Relations, Emergency Provisions) with complete answer keys & trap autopsies.
   5. `04_PART_III_CENTRAL_GOVERNMENT_DRILL.md`: Book Chapters 17–25 (President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees, Parliament, Parliamentary Committees, Supreme Court) with complete answer keys & trap autopsies.
@@ -54,8 +149,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
   7. `06_PART_V_CONSTITUTIONAL_STATUTORY_BODIES_DRILL.md`: Book Chapters 38–56 (Election Commission, UPSC, SPSC, Finance Commission, NCSC, NCST, Special Officer for Linguistic Minorities, CAG, Attorney General, Advocate General, NITI Aayog, NHRC, SHRC, CIC, SIC, CVC, CBI, Lokpal/Lokayukta) with complete answer keys & trap autopsies.
   8. `07_PART_VI_POLITICAL_DYNAMICS_GOVERNANCE_DRILL.md`: Book Chapters 57–71 (Co-operative Societies, Official Language, Public Services Art 311, Tribunals, Special Provisions Certain Classes, Political Parties, Elections, Election Laws, Electoral Reforms, Voting Behaviour, Coalition Government, Anti-Defection Law, Pressure Groups, National Integration, NCRWC) with complete answer keys & trap autopsies.
   9. `08_PART_VII_APPENDICES_HIGH_YIELD_DRILL.md`: Appendices 1–10 (81 Curated MCQs covering Articles 1–395, 7th Schedule Union/State/Concurrent subjects, Table of Precedence, Constitutional Amendments 1st–106th, Presidential/VP elections math, Flag Code, and Models) with complete answer keys & trap autopsies.
-  10. `09_PART_VIII_MODEL_TEST_PAPERS_01_TO_05.md`: Full-Length Simulation Model Test Papers 01 to 05 (125 MCQs) with complete 5-paper answer matrix and forensic trap autopsies.
-  11. `10_PART_IX_MODEL_TEST_PAPERS_06_TO_10.md`: Full-Length Simulation Model Test Papers 06 to 10 (125 MCQs) with complete 5-paper answer matrix and forensic trap autopsies.
+  10. `09_PART_VIII_PUBLIC_ADMINISTRATION_GOVERNANCE_DRILL.md`: Specialized Governance Diagnostic Vault (60 Curated MCQs + 10 Mains Analytical Model Frameworks sourced from *Governance in India* Appendices 11 & 12).
+  11. `10_PART_IX_MODEL_TEST_PAPERS_01_TO_05.md`: Full-Length Simulation Model Test Papers 01 to 05 (125 MCQs) with complete 5-paper answer matrix and forensic trap autopsies.
+  12. `11_PART_X_MODEL_TEST_PAPERS_06_TO_10.md`: Full-Length Simulation Model Test Papers 06 to 10 (125 MCQs) with complete 5-paper answer matrix and forensic trap autopsies.
 * **Capstone Master Enhancements**:
   - `31_CHAPTER_30_CAPSTONE_GRAND_SYNTHESIS_VAULT.md`: Expanded Section 8 from 30 to **The 50 Deadliest Exam Traps in Indian Polity** incorporating traps 31 through 50 (Governor death sentence commutation vs pardon, Regional Commissioner removal, no-confidence motion Lok Sabha rule 198 origin, single common roll Art 325, Zonal Councils 1956 statutory origin, foodstuffs Concurrent list entry 33, RS members equal PAC status, co-operatives 21 directors cap, Art 19(2) minority exclusion, anticipatory emergency, table of precedence governor rank 4, CVC 4-year tenure, CBI DSPE 1946 origin, Lokpal PM exclusion zones, mandatory Art 200 bill reservation, 20L intermediate panchayat exemption, 26 Nov 1949 provisions).
   - `30_REV_CHAPTER_30_GRAND_SYNTHESIS_CAPSTONE.md`: Expanded Section 3 to **Top 20 Instant Killer Traps**.
@@ -189,7 +285,7 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
       - Discretionary Powers: Textual asymmetry between Art 74(1) and Art 163(1) & (2); Constitutional discretion (Art 200, Art 356, Art 239(2), 6th Schedule royalties, Art 371); Floor Test Doctrine (*Bommai 1994*, *Rameshwar Prasad 2006*, *Nabam Rebia 2016*, *Subhash Desai 2023*); Sarkaria & Punchhi reform blueprints.
       - State Council of Ministers: 91st AA 2003 (15% max SLA cap + MANDATORY MINIMUM FLOOR OF 12 MINISTERS under Art 164(1A)).
   15. `16_CHAPTER_15_STATE_LEGISLATURE_BICAMERAL_DYNAMICS.md`:
-      - Bicameral states (6: UP, Bihar, Maharashtra, Karnataka, Andhra Pradesh, Telangana); Article 169 Council creation/abolition procedure (SLA Special Majority $\rightarrow$ Parliament Simple Majority, exempt from Art 368).
+      - Bicameral states (6: UP, Bihar, Maharashtra, Karnataka, Andhra Pradesh, Telangana); Article 169 Council creation/abolition procedure (SLA Special Majority → Parliament Simple Majority, exempt from Art 368).
       - Composition: Assembly (500 max, 60 min, small-state exceptions Goa/Mizoram 40, Sikkim 32; 104th AA 2019 discontinued Anglo-Indians; 106th AA 2023 33% women's reservation); Council (Max 1/3rd of SLA, Min 40 members; 1/3 Local + 1/12 Grad + 1/12 Teach + 1/3 MLA + 1/6 Gov).
       - Legislative Procedure: ZERO Joint Sitting in States; Dilatory Council mechanics (3 months 1st instance + 1 month 2nd instance = 4 MONTHS MAX DELAY); Money Bills (14 days max); Council-originating bills immediately dead if rejected by Assembly.
       - Article 194 Parliamentary privileges (*Searchlight 1959*, *Keshav Singh 1965* reference).
@@ -205,12 +301,12 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 * **Batch 6 Master Modules Authored (`007/notes/political_science/`)**:
   18. `19_CHAPTER_18_SUPREME_COURT_COLLEGIUM_JURISDICTION.md`:
       - Sanctioned strength: 34 Judges (1 CJI + 33 Puisne) under 2019 Amendment; qualifications (5 yrs HC Judge, 10 yrs HC Advocate, or Distinguished Jurist in President's opinion under Art 124(3)(c)); retirement at 65; absolute post-retirement practice ban (Art 124(7)).
-      - The Four Judges Cases & NJAC: First Judges 1981 (Executive primacy) $\rightarrow$ Second Judges 1993 (Consultation = Concurrence, Collegium born) $\rightarrow$ Third Judges 1998 (CJI + 4 Senior SC Judges for SC; CJI + 2 for HC) $\rightarrow$ Fourth Judges 2015 (NJAC / 99th AA struck down 4:1 as violating Basic Structure).
+      - The Four Judges Cases & NJAC: First Judges 1981 (Executive primacy) → Second Judges 1993 (Consultation = Concurrence, Collegium born) → Third Judges 1998 (CJI + 4 Senior SC Judges for SC; CJI + 2 for HC) → Fourth Judges 2015 (NJAC / 99th AA struck down 4:1 as violating Basic Structure).
       - Jurisdictions: Original (Art 131 exclusive federal legal disputes); Writ (Art 32); Appellate (Arts 132–134, Art 136 SLP discretionary against any court/tribunal EXCEPT Court Martial under Art 136(2)); Advisory (Art 143(1) discretionary vs Art 143(2) mandatory); Court of Record (Art 129); Complete Justice (Art 142); Review (Art 137) & Curative Petitions (*Rupa Ashok Hurra 2002*).
   19. `20_CHAPTER_19_HIGH_COURT_SUBORDINATE_ADR_LOK_ADALAT.md`:
       - High Court architecture: 25 High Courts; 6 Common High Courts (Art 231); President determines HC strength (Art 216); qualifications (no distinguished jurist category for HC!); retirement at 62 (15th AA 1963); sworn by Governor (Art 219), resigns to President.
       - Article 226 vs Article 32: HC writ jurisdiction is BROADER than SC (covers Fundamental Rights AND "any other purpose"); discretionary nature; supervisory superintendence under Art 227 (administrative + judicial).
-      - Subordinate Courts (Arts 233–237): District & Sessions Judge (apex, death sentence subject to HC confirmation under Sec 366 CrPC/BNSS); Subordinate Judge $\rightarrow$ Munsiff; CJM $\rightarrow$ JMFC; appointments by Governor in consultation with HC.
+      - Subordinate Courts (Arts 233–237): District & Sessions Judge (apex, death sentence subject to HC confirmation under Sec 366 CrPC/BNSS); Subordinate Judge → Munsiff; CJM → JMFC; appointments by Governor in consultation with HC.
       - ADR & Legal Services: Article 39A; Legal Services Authorities Act 1987 (NALSA, SLSA, DLSA); Lok Adalats (Section 21 civil decree status, ZERO APPEAL to any court, compoundable matters only); Permanent Lok Adalats (Sec 22B, Public Utility Services, decides on merits, ₹1 crore cap).
   20. `21_CHAPTER_20_JUDICIAL_ACTIVISM_PIL_RESTRAINT.md`:
       - Conceptual origins: Term coined by Arthur Schlesinger Jr. (1947); post-Emergency transformation under Justice V.R. Krishna Iyer and Justice P.N. Bhagwati; shift from *A.K. Gopalan* to *Maneka Gandhi*.
@@ -238,16 +334,16 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
       - Tribunals: Part XIV-A (42nd AA 1976); Article 323A (Administrative only, Parliament only, single tier) vs Article 323B (9 domains, Parliament + States, hierarchy allowed); Central Administrative Tribunal (CAT 1985, ₹50 fee, Principles of Natural Justice, Armed Forces excluded); Landmark *L. Chandra Kumar (1997)* (7-judge bench: High Court review under Arts 226/227 is Basic Structure; tribunals act as courts of first instance).
       - National Green Tribunal (NGT Act 2010): Article 21 base; 6-month mandatory disposal deadline; direct appeal to SC within 90 days; Polluter Pays, Precautionary Principle; Wildlife Protection Act 1972 and Forest Rights Act 2006 strictly excluded.
       - Economic Regulators: SEBI (1992, SAT appeals), CCI (2002, Raghavan Comm, NCLAT appeals), TRAI (1997, TDSAT appeals), IBBI (IBC 2016, NCLT/DRT), IRDAI (1999), PFRDA (2013).
-       - Consumer Protection Act 2019: Central Consumer Protection Authority (CCPA); District ($\le$ ₹50 L), State (₹50 L – ₹2 Cr), National (> ₹2 Cr, SC appeal within 30 days).
+       - Consumer Protection Act 2019: Central Consumer Protection Authority (CCPA); District (≤ ₹50 L), State (₹50 L – ₹2 Cr), National (> ₹2 Cr, SC appeal within 30 days).
 * **Batch 8 Master Modules Authored (`007/notes/political_science/`)**:
   24. `25_CHAPTER_24_ELECTORAL_SYSTEM_REPRESENTATION_ACTS.md`:
       - Part XV (Articles 324–329): Plenary ECI power (*Mohinder Singh Gill 1978*); Article 325 (single general roll, communal electorates ban); Article 326 (61st AA 1988 voting age lowered to 18); Article 329 (judicial bar on delimitation; High Court election petitions).
       - RPA 1950 vs RPA 1951: RPA 1950 (pre-poll seats, delimitation, rolls, ERO) vs RPA 1951 (conduct, Returning Officer, candidate disqualifications, corrupt practices §123, party registration §29A).
-      - Disqualifications under RPA 1951: Section 8(1) & 8(2); Section 8(3) ($\ge 2$ yrs sentence $\rightarrow$ sentence duration + 6 yrs post-release); *Lily Thomas (2013)* striking down Section 8(4) (instant disqualification); Section 10A (3-yr election expenses bar).
-      - Delimitation: 42nd AA 1976 (1971 freeze) $\rightarrow$ 84th AA 2001 (freeze until post-2026) $\rightarrow$ 87th AA 2003 (2001 census intra-state boundaries); Delimitation orders have force of law and are immune from court challenge.
+      - Disqualifications under RPA 1951: Section 8(1) & 8(2); Section 8(3) ($\ge 2$ yrs sentence → sentence duration + 6 yrs post-release); *Lily Thomas (2013)* striking down Section 8(4) (instant disqualification); Section 10A (3-yr election expenses bar).
+      - Delimitation: 42nd AA 1976 (1971 freeze) → 84th AA 2001 (freeze until post-2026) → 87th AA 2003 (2001 census intra-state boundaries); Delimitation orders have force of law and are immune from court challenge.
       - Electoral reforms vector: Tarkunde (1974), Goswami (1990), Vohra (1993), Indrajit Gupta (1998, state funding in kind), Law Commission 170th & 255th reports; EVMs, VVPAT (*Swamy 2013*), NOTA (*PUCL 2013*), *Electoral Bonds Annulment (ADR 2024)* under Art 19(1)(a).
   25. `26_CHAPTER_25_POLITICAL_PARTIES_ANTI_DEFECTION_COALITIONS.md`:
-      - Party typology in India: Rajni Kothari's "Congress System" (1952–1967) $\rightarrow$ Coalition era (1989–2014) $\rightarrow$ Dominant multi-party system; National Party criteria (6% in 4 states + 4 LS seats; OR 2% LS seats from 3 states; OR recognized in 4 states); State Party criteria; benefits (symbol, 40 star campaigners, media airtime).
+      - Party typology in India: Rajni Kothari's "Congress System" (1952–1967) → Coalition era (1989–2014) → Dominant multi-party system; National Party criteria (6% in 4 states + 4 LS seats; OR 2% LS seats from 3 states; OR recognized in 4 states); State Party criteria; benefits (symbol, 40 star campaigners, media airtime).
       - Anti-Defection Law (Tenth Schedule, 52nd AA 1985): "Aaya Ram Gaya Ram" context; 4 grounds of disqualification: voluntary relinquishment (*Ravi S. Naik 1994* broad conduct test), voting against whip (15 days condonation), independent member joining party (instant bar), nominated member joining party after 6 months (grace period within 6 months).
       - Exemptions: 2/3rd merger under Paragraph 4; 91st AA 2003 DELETED 1/3rd split exemption; Presiding officer exemption.
       - Deciding authority: Speaker/Chairman functions as a "Tribunal"; *Kihoto Hollohan (1992)* 5-judge bench struck down Para 7 (judicial review available on mala fides/perversity, but no interlocutory stay); *Keisham Meghachandra (2020)* (3-month decision deadline); *Subhash Desai (2023)* (organizational party supremacy over legislative faction).

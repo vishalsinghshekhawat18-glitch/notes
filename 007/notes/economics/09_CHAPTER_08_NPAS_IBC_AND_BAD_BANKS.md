@@ -27,7 +27,7 @@ A bank's primary assets are loans extended to borrowers. When borrowers service 
                         ▼ (Day 91: Crosses the Default Rubicon)
           ┌─────────────┴─────────────┐
           ▼                           ▼
-[NON-PERFORMING ASSET (NPA)] ──> [Sub-Standard Asset] (NPA $\le$ 12 Months)
+[NON-PERFORMING ASSET (NPA)] ──> [Sub-Standard Asset] (NPA ≤ 12 Months)
                                       │
                                       ▼
                                  [Doubtful Asset]     (Sub-Standard > 12 Months)
@@ -139,7 +139,7 @@ Before 2016, India's debt recovery regime was heavily biased in favor of the deb
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
 │ Historical Framework            │ Mechanism & Fatal Structural Flaw                           │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ 1. Debt Recovery Tribunals (DRT)│ Established under RDDBFI Act, 1993 for claims $\ge$ ₹20 L.   │
+│ 1. Debt Recovery Tribunals (DRT)│ Established under RDDBFI Act, 1993 for claims ≥ ₹20 L.   │
 │                                 │ *Flaw*: Paralyzed by civil litigation; cases dragged for    │
 │                                 │ 5 to 10 years without enforcement.                          │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
@@ -330,12 +330,12 @@ Announced in the Union Budget 2021–22, India established a specialized two-tie
 * **Net NPA**: $\text{Gross NPA} - \text{Provisions}$. $\text{PCR} = \frac{\text{Provisions}}{\text{Gross NPA}} \ge 70\%$.
 * **SARFAESI (2002)**: Seize & auction collateral without courts; **Agricultural land is strictly EXEMPT**.
 * **IBC (2016)**:
-  * Paradigm: Debtor-in-possession $\rightarrow$ **Creditor-in-control**.
+  * Paradigm: Debtor-in-possession → **Creditor-in-control**.
   * Ecosystem: IBBI (Regulator), NCLT (Companies/LLPs), DRT (Individuals), NeSL (Information Utility).
   * Threshold: **₹1 Crore**. CoC = Financial Creditors only (Vote = **66%**).
   * Time Limit: 180 + 90 days $\implies$ **330 days outer cap** (else liquidation).
   * Section 29A: Defaults promoters barred.
-  * Waterfall (§53): Resolution costs $\rightarrow$ Workers (24 mos) & Secured $\rightarrow$ Wages (12 mos) $\rightarrow$ Unsecured $\rightarrow$ Taxes $\rightarrow$ Equity (last).
+  * Waterfall (§53): Resolution costs → Workers (24 mos) & Secured → Wages (12 mos) → Unsecured → Taxes → Equity (last).
 * **Bad Bank (2021)**: **NARCL** (51% PSBs, acquires loans via 15% Cash + 85% SRs) + **IDRCL** (51% Private, manages turnaround). Backed by **₹30,600 Cr Govt guarantee**.
 
 ---

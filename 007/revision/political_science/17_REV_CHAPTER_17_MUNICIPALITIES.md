@@ -19,10 +19,10 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 │ 74th Amendment Enforcement│ June 1, 1993; inserted PART IX-A (Articles 243-P to 243-ZG)        │
 │ Twelfth Schedule Subjects │ Exactly EIGHTEEN (18) functional items (Article 243W)              │
 │ Types of Municipalities   │ Nagar Panchayat (Transitional), Council (Small), Corp (Large)      │
-│ Wards Committees Threshold│ Mandatory for cities with population $\ge$ THREE (3) LAKHS (243-S) │
+│ Wards Committees Threshold│ Mandatory for cities with population ≥ THREE (3) LAKHS (243-S) │
 │ DPC Elected Quota (243-ZD)│ FOUR-FIFTHS (4/5th / 80%) elected from Zilla Parishad + Municipal. │
 │ MPC Elected Quota (243-ZE)│ TWO-THIRDS (2/3rd / 66.7%) elected from Municipalities + Panchayats│
-│ MPC Population Threshold  │ Metropolitan area with population $\ge$ TEN (10) LAKHS (1 Million) │
+│ MPC Population Threshold  │ Metropolitan area with population ≥ TEN (10) LAKHS (1 Million) │
 │ Cantonment Board Act      │ Cantonments Act 2006; Administered by MINISTRY OF DEFENCE (Union)  │
 │ First Municipal Corp.     │ MADRAS in 1688; Bombay and Calcutta in 1726                        │
 │ Magna Carta of Local Govt.│ LORD RIPON'S RESOLUTION OF 1882 ("Father of Local Self-Government")│
@@ -39,7 +39,7 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 ├──────────────────────┼──────────────────────────────────┼──────────────────────────────────────┤
 │ Constitutional Base  │ ARTICLE 243-ZD                   │ ARTICLE 243-ZE                       │
 ├──────────────────────┼──────────────────────────────────┼──────────────────────────────────────┤
-│ Population Criterion │ Every District                   │ Metropolitan Area $\ge$ 10 LAKHS pop │
+│ Population Criterion │ Every District                   │ Metropolitan Area ≥ 10 LAKHS pop │
 ├──────────────────────┼──────────────────────────────────┼──────────────────────────────────────┤
 │ Elected Quota        │ FOUR-FIFTHS (4/5th / 80%)        │ TWO-THIRDS (2/3rd / 66.7%)           │
 ├──────────────────────┼──────────────────────────────────┼──────────────────────────────────────┤

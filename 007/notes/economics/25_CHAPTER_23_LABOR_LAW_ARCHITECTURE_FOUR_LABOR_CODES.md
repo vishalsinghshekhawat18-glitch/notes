@@ -67,7 +67,7 @@ Prior to the 2020 codification, the Indian labor market suffered from severe str
 │ Structural Pathology     │ Economic Impact & Distortion Mechanism                                │
 ├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤
 │ **Enterprise Dwarfism**  │ Under Chapter V-B of the Industrial Disputes Act 1947, firms with     │
-│ (*Missing Middle*)       │ $\ge$ 100 workers required government permission for retrenchment,    │
+│ (*Missing Middle*)       │ ≥ 100 workers required government permission for retrenchment,    │
 │                          │ lay-off, or closure. Firms deliberately stayed tiny (<99 workers)     │
 │                          │ to avoid regulatory compliance, inhibiting economies of scale.        │
 ├──────────────────────────┼───────────────────────────────────────────────────────────────────────┤

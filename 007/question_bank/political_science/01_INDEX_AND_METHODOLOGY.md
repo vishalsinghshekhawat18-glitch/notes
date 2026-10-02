@@ -6,7 +6,9 @@
 ==================================================================================================
 SHELF 007: QUESTION BANK & DIAGNOSTIC ENGINE | POLITICAL SCIENCE
 MODULE INDEX & FORENSIC METHODOLOGY
-CANONICAL SOURCE: M. Laxmikanth, Objective Indian Polity (McGraw Hill Education)
+CANONICAL SOURCES:
+  - M. Laxmikanth, Objective Indian Polity (McGraw Hill Education)
+  - M. Laxmikanth, Governance in India (2nd Edition, McGraw Hill Education)
 ==================================================================================================
 ```
 
@@ -56,10 +58,15 @@ CANONICAL SOURCE: M. Laxmikanth, Objective Indian Polity (McGraw Hill Education)
 │             │ Articles 1–395, 7th Schedule Lists, Table of    │            │ (App 1: 15, App 2: 12, │
 │             │ Precedence, Oaths, Flag Code, Amendments        │            │ App 3: 10, App 4: 8...)│
 ├─────────────┼─────────────────────────────────────────────────┼────────────┼────────────────────────┤
-│ Module 09   │ Part VIII: Full-Length Model Test Papers 01–05  │ MTP 01–05  │ 125 MCQs (25 x 5)      │
-│ Module 10   │ Part IX: Full-Length Model Test Papers 06–10    │ MTP 06–10  │ 125 MCQs (25 x 5)      │
+│ Module 09   │ Part VIII: Public Administration & Governance   │ Ch 31–36   │ 60 High-Yield MCQs     │
+│             │ Central/State/Field Admn, 2nd ARC (15 Reports), │ (Gov In-   │ + 10 Mains Model       │
+│             │ Civil Services, Police Reforms, Regulatory State│ dia App 11 │ Analytical Frameworks  │
+│             │ Tribunals, Vulnerable Sections & Comparative    │ & 12)      │                        │
+├─────────────┼─────────────────────────────────────────────────┼────────────┼────────────────────────┤
+│ Module 10   │ Part IX: Full-Length Model Test Papers 01–05    │ MTP 01–05  │ 125 MCQs (25 x 5)      │
+│ Module 11   │ Part X: Full-Length Model Test Papers 06–10     │ MTP 06–10  │ 125 MCQs (25 x 5)      │
 ├─────────────┴─────────────────────────────────────────────────┴────────────┴────────────────────────┤
-│ TOTAL CURRICULAR AUDITED QUESTIONS:                                        │ 1,520 MCQs             │
+│ TOTAL CURRICULAR AUDITED QUESTIONS:                                        │ 1,580 MCQs + Mains     │
 └────────────────────────────────────────────────────────────────────────────┴────────────────────────┘
 ```
 

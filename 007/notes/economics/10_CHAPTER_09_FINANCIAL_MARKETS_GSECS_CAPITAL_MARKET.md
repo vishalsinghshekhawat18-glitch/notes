@@ -328,12 +328,12 @@ Established in 1988 as an administrative body, the **Securities and Exchange Boa
   * Call (1D) vs Notice (2–14D) vs Term (15D–1Y) $\implies$ Operating target = **WACR**.
   * **T-Bills**: Central Govt ONLY; 91, 182, 364 Days; **Zero Coupon** (discount to par). States CANNOT issue.
   * CMBs: $<91$ days cash mismatch.
-  * **Commercial Paper (CP)**: Corporates; Unsecured; 7D to 1Y; Min **₹5 Lakh**; Rating $\ge$ A3.
+  * **Commercial Paper (CP)**: Corporates; Unsecured; 7D to 1Y; Min **₹5 Lakh**; Rating ≥ A3.
   * **Certificates of Deposit (CD)**: Banks; 7D to 1Y; Min **₹1 Lakh**.
 * **G-Secs & Yields**:
   * G-Secs (Central) vs SDLs (State: yield spread ~30–75 bps).
   * **Inverse Law**: $\text{Bond Price} \uparrow \implies \text{Yield} \downarrow$. (RBI rate hike $\implies$ Bond price falls, yield rises).
-  * **Retail Direct (2021)**: Individual RDG account with RBI $\rightarrow$ Direct bidding in G-Secs/T-Bills.
+  * **Retail Direct (2021)**: Individual RDG account with RBI → Direct bidding in G-Secs/T-Bills.
 * **Capital Market**:
   * Primary (IPO, FPO, Rights, QIP, OFS) vs Secondary (BSE, NSE).
   * Settlement: **T+1** fully deployed in India (2nd in world after China); T+0 pilot.

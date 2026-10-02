@@ -357,7 +357,7 @@ $$\text{Output Gap} = \text{Actual GDP } (Y) - \text{Potential GDP } (Y^*)$$
   * $\text{GNP} = \text{GDP} + \text{NFIA}$
   * $\text{NNP} = \text{GNP} - \text{Depreciation} = \text{National Income}$
 * **Territory Rule**: Location = GDP; Residency = GNP. Embassies abroad = Domestic; Foreign embassies in India = Excluded.
-* **NFIA Components**: Net Employee Compensation + Net Property/Entrepreneurial Income + Net Retained Earnings. (Remittances are transfers $\rightarrow$ EXCLUDED!).
+* **NFIA Components**: Net Employee Compensation + Net Property/Entrepreneurial Income + Net Retained Earnings. (Remittances are transfers → EXCLUDED!).
 * **India Identity**: $\text{NFIA} < 0 \implies \text{GDP} > \text{GNP}$.
 * **Three Methods**: Product (Value Added) $\equiv$ Income ($\text{CoE} + \text{OS} + \text{MI}$) $\equiv$ Expenditure ($C + I + G + [X - M]$).
 * **The 2015 Pricing Ladder**:

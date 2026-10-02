@@ -419,6 +419,20 @@ Parliamentary privileges are special rights, immunities, and exemptions enjoyed 
 
 ---
 
+> ### 🔬 [SCHOLARLY DISCOURSE & EMPIRICAL METRICS: OXFORD HANDBOOK (2024)]
+> *(Optional Deep Dive: Read for Mains Value-Addition & Academic Citations; Skip on Rapid First Read)*
+>
+> * **Empirical Decline in Parliamentary Sittings (Dr. M.R. Madhavan, *Oxford Handbook of Indian Politics*)**:
+>   - Analysis of seven decades of parliamentary proceedings by PRS Legislative Research reveals a systemic contraction in legislative deliberation:
+>     - **Annual Sittings**: The 1st Lok Sabha (1952–1957) sat for an average of **135 days per year**. By the 16th Lok Sabha (2014–2019), this plummeted to **66 days**, and the 17th Lok Sabha (2019–2024) averaged just **55 days per year**.
+>     - **Bypassing the Committee System**: Departmentally Related Standing Committees (DRSCs) were established in 1993 to ensure non-partisan, clause-by-clause scrutiny. In the 15th Lok Sabha (2009–2014), **71% of bills were referred to committees**. In the 16th Lok Sabha, this dropped to **27%**, and in the 17th Lok Sabha, it cratered to **only 16%**. Over 80% of legislation was passed without committee review.
+>     - **Budgetary Scrutiny via Guillotine**: Between 2019 and 2024, nearly **75% to 80% of the Union Budget's Demands for Grants were guillotined** (passed without any line-item parliamentary debate).
+> * **The De-Federalization of the Rajya Sabha (Prof. Sandeep Shastri)**:
+>   - Shastri analyzes the impact of the **Representation of the People (Amendment) Act, 2003**, which removed the mandatory requirement that a candidate for Rajya Sabha must be an "ordinary resident" of the State they represent (upheld by the Supreme Court in *Kuldip Nayar v. Union of India, 2006*).
+>   - **The Consequence**: The Upper House has increasingly ceased to function as an authentic "Council of States" articulating regional interests. Instead, it has been transformed into a national party-political chamber, frequently utilized by parties to rehabilitate senior leaders who lost direct Lok Sabha elections.
+
+---
+
 ## 10. Active Recall Diagnostic Vault
 
 ```

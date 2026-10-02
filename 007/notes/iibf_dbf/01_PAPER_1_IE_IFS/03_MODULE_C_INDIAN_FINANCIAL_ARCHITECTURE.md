@@ -340,7 +340,7 @@
 | Era | Institutional Milestones & Focus | Core Policies & Weaknesses |
 | :--- | :--- | :--- |
 | **Phase I: Pre-1951** | • Imperial Bank of India created in 1921 (merger of 3 Presidency Banks).<br>• RBI enacted under **RBI Act 1934** (operational April 1, 1935); nationalised Jan 1, 1949.<br>• **Banking Regulation Act, 1949** enacted. | Heavily urban-biased, focused on British commercial houses; frequent private bank failures. |
-| **Phase II: 1951–1991 (Social Banking)** | • Imperial Bank converted to State Bank of India (1955).<br>• **1st Nationalisation (July 19, 1969):** 14 major private commercial banks with deposits $\ge$ **₹50 Crore** nationalised.<br>• **2nd Nationalisation (April 15, 1980):** 6 private banks with deposits $\ge$ **₹200 Crore** nationalised.<br>• RRBs established under RRB Act, 1976. | Massive branch expansion in rural areas; severe financial repression, directed subsidized lending, and gross NPAs exceeding 15%. |
+| **Phase II: 1951–1991 (Social Banking)** | • Imperial Bank converted to State Bank of India (1955).<br>• **1st Nationalisation (July 19, 1969):** 14 major private commercial banks with deposits ≥ **₹50 Crore** nationalised.<br>• **2nd Nationalisation (April 15, 1980):** 6 private banks with deposits ≥ **₹200 Crore** nationalised.<br>• RRBs established under RRB Act, 1976. | Massive branch expansion in rural areas; severe financial repression, directed subsidized lending, and gross NPAs exceeding 15%. |
 | **Phase III: 1991 Onwards (Reforms)** | • Implementation of Narasimham Committee I (1991) and II (1998) recommendations.<br>• Licensing of new private sector banks (1993: HDFC, ICICI, UTI/Axis).<br>• Asset reconstruction (SARFAESI 2002, IBC 2016) and PSB consolidations. | Shift to prudential capital adequacy, risk-based supervision, market-determined interest rates, and Basel compliance. |
 
 ### 📑 2. Landmark Recommendations: Narasimham Committee I (1991)
@@ -359,7 +359,7 @@
 • **Concept of Narrow Banking:** Advised that chronically weak banks unable to recapitalise should restrict their assets to risk-free government securities and fee-based services.
 
 > 🎯 **Top IIBF Traps for Unit 38:**
-> 1. **Nationalisation Thresholds:** 1969 round covered **14 banks with $\ge$ ₹50 Crore deposits**; 1980 round covered **6 banks with $\ge$ ₹200 Crore deposits**.
+> 1. **Nationalisation Thresholds:** 1969 round covered **14 banks with ≥ ₹50 Crore deposits**; 1980 round covered **6 banks with ≥ ₹200 Crore deposits**.
 > 2. **Imperial Bank Transformation:** State Bank of India was formed on **July 1, 1955** under the SBI Act 1955, following the recommendations of the **All India Rural Credit Survey Committee (A.D. Gorwala Committee)**.
 
 ---

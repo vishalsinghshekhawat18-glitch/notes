@@ -54,9 +54,9 @@ Under the *Election Symbols (Reservation and Allotment) Order, 1968*, the Electi
 │                   CRITERIA FOR RECOGNITION AS A STATE PARTY                                      │
 ├──────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ A registered political party is recognized as a STATE PARTY if it fulfills ANY ONE:              │
-│ 1. Secures $\ge$ 6% of valid votes polled in the State in an Assembly election + wins at least   │
+│ 1. Secures ≥ 6% of valid votes polled in the State in an Assembly election + wins at least   │
 │    TWO (2) SEATS in the State Legislative Assembly; OR                                           │
-│ 2. Secures $\ge$ 6% of valid votes polled in the State in a Lok Sabha election + wins at least    │
+│ 2. Secures ≥ 6% of valid votes polled in the State in a Lok Sabha election + wins at least    │
 │    ONE (1) SEAT in the Lok Sabha from that State; OR                                             │
 │ 3. Wins at least THREE PERCENT (3%) OF TOTAL SEATS in the State Legislative Assembly, or         │
 │    THREE (3) SEATS, whichever is more; OR                                                        │

@@ -302,6 +302,22 @@ The Centre can issue mandatory administrative directions to States regarding:
 
 ---
 
+> ### 🔬 [SCHOLARLY DISCOURSE & EMPIRICAL METRICS: OXFORD HANDBOOK (2024)]
+> *(Optional Deep Dive: Read for Mains Value-Addition & Academic Citations; Skip on Rapid First Read)*
+>
+> * **The Four Historical Epochs of Indian Federalism (Prof. Rekha Saxena, *Oxford Handbook of Indian Politics*)**:
+>   - Saxena categorizes the evolution of Centre-State power dynamics into four empirical phases:
+>     1. **One-Party Dominant "Cooperative" Federalism (1950–1967)**: Governed by the overarching "Congress System" (Rajni Kothari), where Centre-State disputes were settled through internal party consensus rather than inter-governmental friction.
+>     2. **Confrontational & Centralizing Federalism (1967–1989)**: Triggered by regional parties capturing power in 8 states in 1967. Characterized by aggressive central intervention, with Article 356 invoked over 100 times to dismiss elected opposition state governments.
+>     3. **Multiparty Coalition & "Market-Preserving" Federalism (1989–2014)**: The era of minority union governments dependent on regional coalition partners. The Supreme Court's *S.R. Bommai (1994)* ruling severely curtailed Article 356 abuses, while post-1991 economic liberalization forced States into competitive federalism for private capital.
+>     4. **National Hegemony & Asymmetric Friction (Post-2014)**: Return of single-party majority rule. Institutionalized cooperation via the **GST Council** and NITI Aayog, contrasted with sharp friction over Governor discretion, centrally sponsored scheme (CSS) conditionalities, and fiscal transfers.
+> * **Asymmetric Federalism as a Democratic Shock Absorber**:
+>   - Unlike American federalism (which treats all 50 states identically), Indian federalism is deliberately **asymmetric** (Articles 371 to 371-J, Fifth and Sixth Schedules). Saxena demonstrates that differential constitutional autonomy has prevented centrifugal secession by accommodating diverse linguistic, tribal, and borderland sub-nationalisms.
+
+---
+
+---
+
 ### [EXAM TRAP & WARNING: HIGH-YIELD PITFALLS FOR CANDIDATES]
 > ⚠️ **Trap 1: "State governments can borrow money from foreign international banks like the World Bank."**  
 > **FALSE**: Under Article 293, States can borrow **ONLY WITHIN INDIA**. Only the Central Government (Article 292) can borrow externally.

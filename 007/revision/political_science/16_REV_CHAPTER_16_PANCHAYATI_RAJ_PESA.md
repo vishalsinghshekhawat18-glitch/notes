@@ -18,7 +18,7 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 ├───────────────────────────┼────────────────────────────────────────────────────────────────────┤
 │ 73rd Amendment Enforcement│ April 24, 1993 (National Panchayati Raj Day); Part IX inserted     │
 │ Eleventh Schedule Subjects│ Exactly TWENTY-NINE (29) functional items (Article 243G)           │
-│ Intermediate Tier Exemption│ States with population $\le$ 20 LAKHS exempted (Article 243B(2))   │
+│ Intermediate Tier Exemption│ States with population ≤ 20 LAKHS exempted (Article 243B(2))   │
 │ Minimum Contesting Age    │ 21 YEARS (Article 243F(1)(b))                                      │
 │ Women Reservation Floor   │ MINIMUM ONE-THIRD (33%) in seats and chairpersonships (Art 243D(3))│
 │ Dissolution Election Rule │ MUST be completed within 6 MONTHS of dissolution (Article 243E)    │

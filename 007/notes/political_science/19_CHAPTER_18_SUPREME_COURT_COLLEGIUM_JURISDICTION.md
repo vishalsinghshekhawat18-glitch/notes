@@ -288,6 +288,20 @@ Judicial review is the power of the judiciary to examine the constitutionality o
 
 ---
 
+> ### 🔬 [SCHOLARLY DISCOURSE & EMPIRICAL METRICS: OXFORD HANDBOOK (2024)]
+> *(Optional Deep Dive: Read for Mains Value-Addition & Academic Citations; Skip on Rapid First Read)*
+>
+> * **The "Polyvocal" Court and Structural Fragmentation (Dr. Ronojoy Sen, *Oxford Handbook of Indian Politics*)**:
+>   - Sen contrasts the Indian Supreme Court with the US Supreme Court. The US apex court sits *en banc* (all 9 judges sit together on every heard case, hearing fewer than 80 cases a year).
+>   - In contrast, the Indian Supreme Court operates as a **"Polyvocal Court"** fragmented into 15 to 17 two-judge and three-judge division benches. Because benches sit separately, different judges frequently deliver conflicting interpretations on the same legal principles (especially regarding bail standards under PMLA/UAPA, death penalty sentencing, and arbitration).
+> * **The Master of the Roster Debate**:
+>   - In *Asok Pande (2018)* and *CJAR (2017)*, the Supreme Court ruled that the Chief Justice of India (CJI) is the sole "Master of the Roster" with exclusive administrative discretion to constitute benches and assign cases.
+>   - Sen highlights the academic critique: In high-stakes constitutional litigation (Electoral Bonds, Demonetization, Article 370), the CJI's bench-allocation power effectively determines judicial outcomes, generating urgent calls for an automated, rule-based case allocation mechanism.
+> * **The SLP Docket Crisis**:
+>   - Article 136 (Special Leave Petition) was intended as an extraordinary residual safety valve for gross injustice. Instead, SLPs now consume **over 80% of the Supreme Court's judicial time**. By transforming itself into a court of regular appellate correction for land and commercial disputes, constitutional bench hearings have been severely delayed, driving apex court pendency past **82,000 cases**.
+
+---
+
 ## 8. Active Recall Diagnostic Vault
 
 ```

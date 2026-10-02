@@ -63,7 +63,7 @@ Traditional economics evaluated human beings merely as **Human Capital**—as in
 └───────────────────────────────────┴───────────────────────────────────┘
 ```
 
-### Sen's Triad: Commodities $\longrightarrow$ Characteristics $\longrightarrow$ Functionings $\longrightarrow$ Capabilities
+### Sen's Triad: Commodities ⟶ Characteristics ⟶ Functionings ⟶ Capabilities
 
 1. **Commodities**: Physical goods possessed (e.g. a bicycle).
 2. **Functionings**: What a person can actually *be* or *do* (e.g. being literate, being well-nourished, moving freely, participating in community life without shame).
@@ -260,7 +260,7 @@ Categorizes every country based on **Gross National Income (GNI) per capita** ca
 
 | World Bank Income Tier (FY 2024–25) | GNI Per Capita Threshold (Atlas Method) |
 | :--- | :--- |
-| **Low-Income Economies** | $\le$ \$1,145 |
+| **Low-Income Economies** | ≤ \$1,145 |
 | **Lower-Middle-Income Economies** | \$1,146 to \$4,515 ★ [**India is here: ~$2,500**] |
 | **Upper-Middle-Income Economies** | \$4,516 to \$14,005 (e.g., China, Brazil) |
 | **High-Income Economies** | > \$14,005 (e.g., USA, UK, Japan, UAE) |
@@ -337,7 +337,7 @@ Divides the world into two broad blocs:
   * Formula: $\text{MPI} = H \times A$ (Headcount $\times$ Intensity).
   * Threshold: Deprivation score $\ge 33.33\%$.
   * Global = 10 indicators; NITI Aayog National MPI = 12 indicators (adds Maternal Health & Bank Accounts).
-* **World Bank Tiers (GNI per cap)**: Low ($\le$ \$1,145), Lower-Middle (\$1,146–\$4,515 $\leftarrow$ **India**), Upper-Middle (\$4,516–\$14,005), High (> \$14,005).
+* **World Bank Tiers (GNI per cap)**: Low (≤ \$1,145), Lower-Middle (\$1,146–\$4,515 ← **India**), Upper-Middle (\$4,516–\$14,005), High (> \$14,005).
 
 ---
 

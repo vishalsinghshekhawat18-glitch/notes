@@ -208,7 +208,7 @@ Enacted in 2003, the **Fiscal Responsibility and Budget Management (FRBM) Act** 
 ### The Historic Shift: The N.K. Singh Review Committee (2017)
 In May 2016, the Government appointed an expert committee chaired by **N.K. Singh** to review the FRBM Act. The committee submitted its historic report in January 2017, recommending a fundamental paradigm shift:
 
-> **Shift from Annual Deficit Targeting $\longrightarrow$ Debt-to-GDP Anchor**
+> **Shift from Annual Deficit Targeting ⟶ Debt-to-GDP Anchor**
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐

@@ -31,8 +31,8 @@
 | **Statute** | Section 22 & 26 of RBI Act, 1934 | Coinage Act, 2011 | Negotiable Instruments Act, 1881 |
 | **Issuing Authority** | **Reserve Bank of India** | **Government of India (MoF)** | Commercial Banks (Individual accounts) |
 | **Signatory** | **Governor, RBI** | **Finance Secretary, GoI** | Individual account holder / Drawer |
-| **Legal Nature** | **Unlimited Legal Tender** | **Limited Legal Tender** (Coins $\ge$ ₹1 up to ₹1,000; 50p up to ₹10) | **Fiduciary Money (NOT legal tender)** |
-| **Backing** | Minimum Reserve System (₹200 Cr: $\ge$ ₹115 Cr gold) | Direct Sovereign Credit of GoI | Bank balance of drawer |
+| **Legal Nature** | **Unlimited Legal Tender** | **Limited Legal Tender** (Coins ≥ ₹1 up to ₹1,000; 50p up to ₹10) | **Fiduciary Money (NOT legal tender)** |
+| **Backing** | Minimum Reserve System (₹200 Cr: ≥ ₹115 Cr gold) | Direct Sovereign Credit of GoI | Bank balance of drawer |
 
 ---
 

@@ -7,6 +7,9 @@ import {
   getEconomicsChapters,
   getIibfDbfChapters,
   getPoliticalScienceChapters,
+  getHistoryChapters,
+  getQuantitativeAptitudeChapters,
+  getGeneralScienceChapters,
 } from '@/lib/shelf007/service';
 import { Shelf007AcademicTOC } from '@/components/shelf007/shelf007-academic-toc';
 
@@ -21,13 +24,23 @@ export async function generateStaticParams() {
     { subject: 'economics' },
     { subject: 'iibf-dbf' },
     { subject: 'political-science' },
+    { subject: 'history' },
+    { subject: 'quantitative-aptitude' },
+    { subject: 'general-science' },
   ];
 }
 
 export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPageProps) {
   const { subject } = await params;
 
-  if (subject !== 'economics' && subject !== 'iibf-dbf' && subject !== 'political-science') {
+  if (
+    subject !== 'economics' &&
+    subject !== 'iibf-dbf' &&
+    subject !== 'political-science' &&
+    subject !== 'history' &&
+    subject !== 'quantitative-aptitude' &&
+    subject !== 'general-science'
+  ) {
     notFound();
   }
 
@@ -39,7 +52,13 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
       ? getEconomicsChapters()
       : subject === 'iibf-dbf'
       ? getIibfDbfChapters()
-      : getPoliticalScienceChapters();
+      : subject === 'political-science'
+      ? getPoliticalScienceChapters()
+      : subject === 'history'
+      ? getHistoryChapters()
+      : subject === 'quantitative-aptitude'
+      ? getQuantitativeAptitudeChapters()
+      : getGeneralScienceChapters();
 
   const firstReadSlug =
     chapters.find((c) => !['cover', 'table-of-contents', 'syllabus-blueprint'].includes(c.slug))?.slug ||

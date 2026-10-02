@@ -22,7 +22,7 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 │ Oath Administered By      │ GOVERNOR OF THE STATE (Article 219)                                │
 │ Resignation Addressed To  │ PRESIDENT OF INDIA (Proviso (a) to Article 217(1))                 │
 │ Writ Jurisdiction (226)   │ Fundamental Rights + "ANY OTHER PURPOSE" (broader than Art 32)    │
-│ District Judge Appt. (233)│ By GOVERNOR in consultation with HIGH COURT; $\ge$ 7 yrs advocate  │
+│ District Judge Appt. (233)│ By GOVERNOR in consultation with HIGH COURT; ≥ 7 yrs advocate  │
 │ Lok Adalat Award Appeal   │ ZERO APPEAL LIES TO ANY COURT; deemed civil court decree (Sec 21)  │
 │ Permanent Lok Adalat Cap  │ Up to ₹1 CRORE; decides disputes on merits for Public Utilities    │
 │ Death Sentence by Sessions│ Mandatory CONFIRMATION BY HIGH COURT (Sec 366 CrPC / BNSS)         │

@@ -285,8 +285,8 @@ In the Union Budget 2022–23, the Government announced the introduction of the 
 
 ## 5.9 The 60-Second Memory Skeleton (Rapid Recall)
 
-* **Charter**: Hilton Young (1926) $\rightarrow$ RBI Act 1934 $\rightarrow$ Operations 1 April 1935 $\rightarrow$ Nationalized 1 Jan 1949.
-* **Transition**: Multiple Indicators (Pre-2016) $\rightarrow$ Flexible Inflation Targeting (Urjit Patel Committee, 2014 $\rightarrow$ Finance Act 2016, Chapter III-F).
+* **Charter**: Hilton Young (1926) → RBI Act 1934 → Operations 1 April 1935 → Nationalized 1 Jan 1949.
+* **Transition**: Multiple Indicators (Pre-2016) → Flexible Inflation Targeting (Urjit Patel Committee, 2014 → Finance Act 2016, Chapter III-F).
 * **The Target**: **Headline CPI-Combined @ 4% $\pm$ 2% (2% to 6%)**. Set once every 5 years by Central Govt in consultation with RBI.
 * **Failure Rule**: Average CPI $> 6\%$ or $< 2\%$ for **3 consecutive quarters**. RBI submits confidential report to Govt (Causes, Remedies, Timeline). First failure occurred in Q1–Q3 2022.
 * **The MPC (6 Members)**:
@@ -295,7 +295,7 @@ In the Union Budget 2022–23, the Government announced the introduction of the 
   * Quorum = 4; Decisions = Majority; Tie = Governor has **Casting Vote** (§45ZL). Minutes on 14th day.
 * **Economic Capital (Bimal Jalan 2019)**:
   * Contingency Risk Buffer = $5.5\% - 6.5\%$ of balance sheet.
-  * Revaluation Reserves (CGRA) = Unrealized gains $\rightarrow$ **Strictly CANNOT be paid as dividend**.
+  * Revaluation Reserves (CGRA) = Unrealized gains → **Strictly CANNOT be paid as dividend**.
 * **CBDC ($e₹$)**: Legal tender digital banknote (§2 RBI Act); wholesale ($e₹-W$) for G-Sec settlement; retail ($e₹-R$) token wallet for public (liability of RBI, unlike UPI which is a bank payment rail).
 
 ---

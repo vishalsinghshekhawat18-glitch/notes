@@ -45,14 +45,14 @@ The Census of India defines an urban area through strict statutory and demograph
 ```
 
 ### Census City Classification by Population Size
-- **Class I Cities**: Population $\ge$ 100,000 (1 Lakh+).
+- **Class I Cities**: Population ≥ 100,000 (1 Lakh+).
 - **Class II Towns**: Population between 50,000 and 99,999.
 - **Class III Towns**: Population between 20,000 and 49,999.
 - **Class IV Towns**: Population between 10,000 and 19,999.
 - **Class V Towns**: Population between 5,000 and 9,999.
 - **Class VI Towns**: Population $< 5,000$.
-- **Million-Plus Cities / UAs**: Population $\ge$ 1,000,000 (10 Lakh+). (*53 cities in Census 2011, up from 35 in 2001*).
-- **Mega Cities**: Population $\ge$ 10,000,000 (1 Crore+). (*Greater Mumbai, Delhi, and Kolkata*).
+- **Million-Plus Cities / UAs**: Population ≥ 1,000,000 (10 Lakh+). (*53 cities in Census 2011, up from 35 in 2001*).
+- **Mega Cities**: Population ≥ 10,000,000 (1 Crore+). (*Greater Mumbai, Delhi, and Kolkata*).
 
 ---
 

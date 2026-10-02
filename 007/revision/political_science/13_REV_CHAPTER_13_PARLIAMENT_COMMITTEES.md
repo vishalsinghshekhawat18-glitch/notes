@@ -74,7 +74,7 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 
 ## 4. High-Yield Exam Traps
 
-1. **Joint Sitting Presiding Officer**: The Chairman of Rajya Sabha (Vice-President) **never** presides over a Joint Sitting because he is not an MP. Order: Speaker $\rightarrow$ Deputy Speaker $\rightarrow$ Deputy Chairman of Rajya Sabha.
+1. **Joint Sitting Presiding Officer**: The Chairman of Rajya Sabha (Vice-President) **never** presides over a Joint Sitting because he is not an MP. Order: Speaker → Deputy Speaker → Deputy Chairman of Rajya Sabha.
 2. **Estimates Committee Rajya Sabha Ban**: Rajya Sabha has zero representation in the Estimates Committee (all 30 are from Lok Sabha).
 3. **Ministers Barred from Committees**: Ministers cannot be members of PAC, Estimates, CoPU, or DRSCs. If an MP becomes a minister, they cease to be a committee member.
 4. **Money Bill Speaker Certification**: Speaker's certificate under Article 110(3) is final and unchallengeable.

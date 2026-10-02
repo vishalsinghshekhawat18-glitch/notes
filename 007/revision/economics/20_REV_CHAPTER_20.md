@@ -11,9 +11,9 @@
 
 | Enterprise Class | Investment in Plant & Machinery | Annual Turnover Ceiling (Domestic) | Distinguishing Statutory Rule |
 | :--- | :--- | :--- | :--- |
-| **MICRO** | **$\le$ ₹1 Crore** | **$\le$ ₹5 Crore** | **Turnover is exactly $5\times$ Investment** |
-| **SMALL** | **$\le$ ₹10 Crore** | **$\le$ ₹50 Crore** | **Zero difference between Goods & Services** |
-| **MEDIUM** | **$\le$ ₹50 Crore** | **$\le$ ₹250 Crore** | **EXPORT TURNOVER IS 100% EXCLUDED** |
+| **MICRO** | **≤ ₹1 Crore** | **≤ ₹5 Crore** | **Turnover is exactly $5\times$ Investment** |
+| **SMALL** | **≤ ₹10 Crore** | **≤ ₹50 Crore** | **Zero difference between Goods & Services** |
+| **MEDIUM** | **≤ ₹50 Crore** | **≤ ₹250 Crore** | **EXPORT TURNOVER IS 100% EXCLUDED** |
 
 ---
 

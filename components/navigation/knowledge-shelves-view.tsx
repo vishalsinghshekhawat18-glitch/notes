@@ -137,7 +137,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     if (code.startsWith('SCI')) return { border: 'border-l-teal-600', badge: 'bg-teal-50 text-teal-800 border-teal-200' };
     if (code.startsWith('BNK')) return { border: 'border-l-amber-600', badge: 'bg-amber-50 text-amber-900 border-amber-200' };
     if (code.startsWith('HIS')) return { border: 'border-l-orange-600', badge: 'bg-orange-50 text-orange-900 border-orange-200' };
-    if (code.startsWith('APT')) return { border: 'border-l-blue-600', badge: 'bg-blue-50 text-blue-800 border-blue-200' };
+    if (code.startsWith('APT') || code.startsWith('QNT')) return { border: 'border-l-blue-600', badge: 'bg-blue-50 text-blue-800 border-blue-200' };
     if (code.startsWith('CMP')) return { border: 'border-l-indigo-600', badge: 'bg-indigo-50 text-indigo-900 border-indigo-200' };
     if (code.startsWith('LAN')) return { border: 'border-l-purple-600', badge: 'bg-purple-50 text-purple-800 border-purple-200' };
     if (code.startsWith('PUB')) return { border: 'border-l-rose-600', badge: 'bg-rose-50 text-rose-800 border-rose-200' };
@@ -303,21 +303,70 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       badgeText: 'Gold Standard Sovereign Synthesis',
       badgeColor: 'text-[#14532d] bg-[#f0fdf4] border-[#bbf7d0]',
       title: 'Political Science & Constitutional Governance',
-      authorText: 'M. Laxmikanth (8th Ed., 2026) • The Constitution of India (Bare Act)',
-      countsText: '30 Master Chapters • 30 Revision Sheets • 1,520 MCQ Bank',
+      authorText: 'M. Laxmikanth (8th Ed., 2026) • M. Laxmikanth (Governance in India) • Bare Act',
+      countsText: '36 Master Chapters • 36 Revision Sheets • 1,520 MCQ Bank',
       waypointsBadge: 'Release v007 Live',
       description:
-        'Sovereign doctoral-depth master treatise covering Constitutional Framework, Federal Dynamics, Central & State Government Machinery, Judiciary & PIL, Constitutional & Statutory Bodies, Elections, RTI, Political Theory, 50 Deadliest Traps, and the complete 1,520-question Objective Diagnostic Vault.',
+        'Sovereign doctoral-depth master treatise covering Constitutional Framework, Federal Dynamics, Central & State Machinery, Field & District Administration, 2nd ARC 15-Report Compendium, Civil Services & Police Reforms, Sectoral Regulators, Social Justice Statutes, Comparative Constitutions, and the 1,520-question Objective Diagnostic Vault.',
       chips: [
         'Constitutional Framework & Basic Structure',
-        'Parliament & Legislative Procedure',
-        'Supreme Court & Judicial Review',
-        'Constitutional & Statutory Bodies',
-        'Anti-Defection Law & Electoral Reforms',
+        'Field & District Administration (Ch 31)',
+        '2nd ARC 15-Report Compendium (Ch 32)',
+        'Civil Services & Police Reforms (Ch 33)',
+        'Sectoral Regulatory State (Ch 34)',
+        'Social Justice Statutes (Ch 35)',
+        'Comparative Constitutions (Ch 36)',
         '50 Deadliest Traps & 1,520 MCQ Bank',
       ],
       syllabusUrl: '/shelf-007/political-science',
       readUrl: '/shelf-007/political-science/chapter-01',
+    },
+    {
+      id: 'qnt-007',
+      code: 'QNT-007',
+      badgeText: 'Axiomatic & Speed Synthesis',
+      badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#bfdbfe]',
+      title: 'Quantitative Aptitude & Mathematical Logic',
+      authorText: 'Sarvesh K. Verma (Quantum CAT) • Arun Sharma • R.S. Aggarwal • Rajesh Verma',
+      countsText: '27 Master Chapters • Formula Skeletons • Speed Drills',
+      waypointsBadge: 'Release v009 Inception',
+      description:
+        'Sovereign mathematical logic and problem-solving architecture covering Mental Arithmetic, Base Multiplication, Number Theory & Invariants, Pure Algebra & Master Sign-Table, Commercial Arithmetic, Rates & Motion, Spatial Mensuration, Combinatorics, and Data Interpretation.',
+      chips: [
+        'Mental Calculation & Vedic Engines',
+        'Number Theory & Divisibility Invariants',
+        'Algebra & Master Sign-Table Heuristics',
+        'Commercial Arithmetic & Cross-Alligation',
+        'Time, Work, Rates & Motion Invariants',
+        'Combinatorics & Probability',
+        'Data Interpretation & Decision Trees',
+      ],
+      syllabusUrl: '/shelf-007/quantitative-aptitude',
+      readUrl: '/shelf-007/quantitative-aptitude/chapter-01',
+    },
+    {
+      id: 'sci-007',
+      code: 'SCI-007',
+      badgeText: 'NCERT 6–12 + Competitive Fusion',
+      badgeColor: 'text-[#164e3f] bg-[#eef6f2] border-[#cbe4d7]',
+      title: 'General Science: Physics, Chemistry & Biology Unified',
+      authorText: 'NCERT (Classes 6–12) • Halliday-Resnick • Campbell Biology • Morrison-Boyd',
+      countsText: '28 Master Chapters • 27 Revision Cards • Capstone Vault',
+      waypointsBadge: 'Release v011 Complete',
+      description:
+        'Sovereign 28-chapter publication-grade science master treatise covering Foundational & Applied Physics (Ch 01–11), Inorganic, Organic & Applied Chemistry (Ch 12–19), Biological Systems, Physiology & Genetics (Ch 20–27), and the Capstone Consolidated Revision Vault (Ch 28).',
+      chips: [
+        'Mechanics, Gravitation & Fluids (Part I)',
+        'Thermal, Waves & Optics (Part I)',
+        'Atomic Structure, Bonding & Reactions (Part II)',
+        'Carbon, Metallurgy & Everyday Chemistry (Part II)',
+        'Cell Biology, Biomolecules & Genetics (Part III)',
+        'Plant & Human Physiology (Part III)',
+        'Health, Immunity & Applied Biotech (Part III)',
+        '50 Deadliest Traps & Capstone Vault (Part IV)',
+      ],
+      syllabusUrl: '/shelf-007/general-science',
+      readUrl: '/shelf-007/general-science/chapter-01',
     },
   ];
 

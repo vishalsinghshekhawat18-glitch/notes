@@ -57,7 +57,7 @@ Master recall matrix consolidating all numerical thresholds and statutory traps 
 | :--- | :--- | :--- |
 | **Guiding Doctrine** | *"One Nation One Ombudsman"* | Integrates 3 erstwhile schemes: Banking Ombudsman (2006), NBFC Ombudsman (2018), Digital Transactions (2019). |
 | **Single-Window Portal** | Centralised Receipt and Processing Centre (CRPC) | Located at **RBI Chandigarh** for centralised receipt, initial scrutiny, and digital docketing of complaints. |
-| **Entities Covered** | All Commercial Banks, RRBs, Scheduled UCBs | Includes NBFCs with public deposits or asset size $\ge$ ₹100 Crore with customer interface; Non-bank System Participants (PPIs). |
+| **Entities Covered** | All Commercial Banks, RRBs, Scheduled UCBs | Includes NBFCs with public deposits or asset size ≥ ₹100 Crore with customer interface; Non-bank System Participants (PPIs). |
 | **Ground of Complaint** | *Deficiency in Service* | Shifted from exhaustive positive list of grounds to a broad **deficiency-based standard** (omission or commission causing distress). |
 | **Compensation Ceilings** | Direct / Consequential Financial Loss | **Up to actual loss or ₹30 Lakh**, whichever is lower (exclusive of the disputed amount). |
 | | Harassment, Mental Anguish & Loss of Time | **Up to ₹1 Lakh** awarded at the Ombudsman's discretion. |

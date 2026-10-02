@@ -1,21 +1,24 @@
 <div style="page-break-before: always;"></div>
 
 # SOVEREIGN QUESTION BANK & DIAGNOSTIC VAULT
-## Objective Indian Polity: 1,520 Curated Prelims MCQs & Forensic Trap Engine
+## Objective Indian Polity & Governance: 1,580 Curated Prelims MCQs, Forensic Trap Engine & Mains Analytical Vault
 
 ```
 ==================================================================================================
 SHELF 007: SOVEREIGN KNOWLEDGE BASTION & MASTER EXAMINATION SERIES
 DOMAIN: POLITICAL SCIENCE & CONSTITUTIONAL GOVERNANCE (MCQ DIAGNOSTIC ENGINE)
-PRIMARY CANONICAL COMPANION INGESTED:
+PRIMARY CANONICAL COMPANIONS INGESTED:
   - M. Laxmikanth, Objective Indian Polity: General Studies Paper-I (McGraw Hill Education)
+  - M. Laxmikanth, Governance in India (2nd Edition, McGraw Hill Education, Appendices 11 & 12)
   - Unified with: M. Laxmikanth, Indian Polity (8th Edition, 2026, 1,198 pages)
   - The Constitution of India (Bare Act verbatim with all amendments)
 TOTAL AUDITED DRILL VOLUME:
   - 1,189 Chapter-Wise Categorized MCQs (Chapters 1 to 71)
   - 81 Specialized Appendices Drill MCQs (Appendices 1 to 10)
-  - 250 Full-Length Simulation MCQs (10 Model Test Papers)
-  - GRAND TOTAL: Exactly 1,520 High-Yield Curated Questions
+  - 60 Specialized Public Administration & Governance Drill MCQs (Part VIII)
+  - 250 Full-Length Simulation MCQs (10 Model Test Papers: Parts IX & X)
+  - 10 Mains Model Analytical Frameworks & Answer Blueprints
+  - GRAND TOTAL: Exactly 1,580 High-Yield Curated Questions + Mains Vault
 PRINT STATUS: Print-Ready Publication Typography | Page-Break Delimited | Master Ledger Stage: v007
 ==================================================================================================
 ```
@@ -36,17 +39,17 @@ This Question Bank is the **empirical laboratory** of Shelf 007's Political Scie
 
 ```
                                   ┌───────────────────────────────────────────────┐
-                                  │      THE 1,520-QUESTION DIAGNOSTIC VAULT      │
+                                  │      THE 1,580-QUESTION DIAGNOSTIC VAULT      │
                                   └──────────────────────┬────────────────────────┘
                                                          │
-         ┌────────────────────────┬──────────────────────┼──────────────────────┬────────────────────────┐
-         ▼                        ▼                      ▼                      ▼                        ▼
-  ┌─────────────┐          ┌─────────────┐        ┌─────────────┐        ┌─────────────┐          ┌─────────────┐
-  │  PARTS I–IV │          │  PARTS V–VI │        │  PART VII   │        │  PART VIII  │          │   PART IX   │
-  │ Constitutional│        │ Institutions│        │  Appendices │        │ Model Tests │          │ Model Tests │
-  │ & Governance│          │ & Dynamics  │        │   Drills    │        │   01 to 05  │          │   06 to 10  │
-  │  (680 MCQs) │          │  (409 MCQs) │        │  (81 MCQs)  │        │  (125 MCQs) │          │  (125 MCQs) │
-  └─────────────┘          └─────────────┘        └─────────────┘        └─────────────┘          └─────────────┘
+         ┌───────────────────────┬───────────────────────┼───────────────────────┬───────────────────────┐
+         ▼                       ▼                       ▼                       ▼                       ▼
+  ┌─────────────┐         ┌─────────────┐         ┌─────────────┐         ┌─────────────┐         ┌─────────────┐
+  │ PARTS I–IV  │         │ PARTS V–VI  │         │  PART VII   │         │  PART VIII  │         │ PARTS IX–X  │
+  │Constitutional│        │Institutions │         │ Appendices  │         │ Governance &│         │ Model Tests │
+  │ & Governance│         │ & Dynamics  │         │   Drills    │         │ Public Admn │         │  01 to 10   │
+  │ (680 MCQs)  │         │ (409 MCQs)  │         │  (81 MCQs)  │         │  (60 MCQs)  │         │ (250 MCQs)  │
+  └─────────────┘         └─────────────┘         └─────────────┘         └─────────────┘         └─────────────┘
 ```
 
 ---
@@ -64,6 +67,7 @@ This Question Bank is the **empirical laboratory** of Shelf 007's Political Scie
   ├── 06_PART_V_CONSTITUTIONAL_STATUTORY_BODIES_DRILL.md (Chapters 38–56: 200 MCQs + Answers & Traps)
   ├── 07_PART_VI_POLITICAL_DYNAMICS_GOVERNANCE_DRILL.md (Chapters 57–71: 200 MCQs + Answers & Traps)
   ├── 08_PART_VII_APPENDICES_HIGH_YIELD_DRILL.md (Appendices 1–10: 81 MCQs + Answers & Traps)
-  ├── 09_PART_VIII_MODEL_TEST_PAPERS_01_TO_05.md (Full-Length Mocks 1–5: 125 MCQs + Answers & Traps)
-  └── 10_PART_IX_MODEL_TEST_PAPERS_06_TO_10.md (Full-Length Mocks 6–10: 125 MCQs + Answers & Traps)
+  ├── 09_PART_VIII_PUBLIC_ADMINISTRATION_GOVERNANCE_DRILL.md (Part VIII: 60 MCQs + 10 Mains Frameworks)
+  ├── 10_PART_IX_MODEL_TEST_PAPERS_01_TO_05.md (Full-Length Mocks 1–5: 125 MCQs + Answers & Traps)
+  └── 11_PART_X_MODEL_TEST_PAPERS_06_TO_10.md (Full-Length Mocks 6–10: 125 MCQs + Answers & Traps)
 ```

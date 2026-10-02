@@ -41,19 +41,19 @@ $$\text{Special Agricultural Norm}: \quad \text{Short-Duration Crop} = \mathbf{2
 ### Matrix C: Liquidation Waterfall Hierarchy (Section 53 of IBC)
 
 $$\text{Rank 1: Insolvency \& Liquidation Costs (Paid first in full)}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 2: Workmen's Dues (Past 24 Months) \& Secured Creditors}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 3: Other Employee Wages (Past 12 Months)}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 4: Unsecured Financial Creditors}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 5: Central \& State Government Dues (Taxes)}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 6: Operational Creditors \& Remaining Debts}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 7: Preference Shareholders}$$
-$$\downarrow$$
+$↓$
 $$\text{Rank 8: Equity Shareholders (Paid last; absorb residual loss)}$$
 
 ---

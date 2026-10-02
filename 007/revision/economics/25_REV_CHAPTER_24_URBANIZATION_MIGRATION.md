@@ -12,8 +12,8 @@
 | Category | Legal Nature | Mandatory Census Criteria | 2011 Count |
 | :--- | :--- | :--- | :--- |
 | **Statutory Town (ST)** | Statutory urban local body | Municipal Corporation, Municipality, Cantt Board, or NTAC | **4,041 towns** |
-| **Census Town (CT)** | Administratively rural (Gram Panchayat) | 1. Min **5,000 population**<br>2. $\ge$ **75% male non-agri work**<br>3. Density $\ge$ **400 persons/sq. km** | **3,894 towns** (surged 186% from 1,362 in 2001) |
-| **Urban Agglomeration** | Continuous urban spread | Min 1 Statutory Town + total pop $\ge$ **20,000 persons** | 475 UAs |
+| **Census Town (CT)** | Administratively rural (Gram Panchayat) | 1. Min **5,000 population**<br>2. ≥ **75% male non-agri work**<br>3. Density ≥ **400 persons/sq. km** | **3,894 towns** (surged 186% from 1,362 in 2001) |
+| **Urban Agglomeration** | Continuous urban spread | Min 1 Statutory Town + total pop ≥ **20,000 persons** | 475 UAs |
 
 ---
 
@@ -54,7 +54,7 @@ $$\mathbf{\text{Census 2011 Slum Population}}: \quad \mathbf{65.5 \text{ Million
 
 ## 3. High-Yield Examiner Traps (Quick Scan)
 
-1. **Census Town Criteria**: A Census Town requires **ALL THREE** conditions: (a) Population $\ge$ 5,000; (b) $\ge$ 75% **male main working population** in non-agriculture; (c) Density $\ge$ **400 persons/sq. km**.
+1. **Census Town Criteria**: A Census Town requires **ALL THREE** conditions: (a) Population ≥ 5,000; (b) ≥ 75% **male main working population** in non-agriculture; (c) Density ≥ **400 persons/sq. km**.
 2. **Most Urbanized State vs Largest Absolute**: **Goa (62.2%)** is the most urbanized state by percentage; **Maharashtra (50.8 Million)** has the largest absolute urban population.
 3. **Primary Migration Driver**: **Marriage** is the single largest cause of internal migration in India (~70% of female migration); economic employment dominates male migration (~39%).
 4. **PMAY-Urban Four Verticals**: PMAY-U operates through 4 distinct verticals: (1) ISSR (In-situ Slum Redevelopment), (2) CLSS (Credit Linked Subsidy), (3) AHP (Affordable Housing in Partnership), (4) BLC (Beneficiary-led Construction).

@@ -59,9 +59,17 @@ PART IX: THE CAPSTONE: MASTER CONSOLIDATED REVISION & CAPSTONE VAULT
   └── Chapter 30: The Grand Synthesis: 60-Second Retrieval Skeletons, Master Distinction Matrices,
                   The 50 Deadliest Exam Traps, and 100-Question Diagnostic Active Recall Bank
 
+PART X: PUBLIC ADMINISTRATION, GOVERNANCE & INSTITUTIONAL ARCHITECTURE (THE 2ND ARC EXTENSION)
+  ├── Chapter 31: Field & District Administration, State Machinery & Secretarial Architecture (Curzon, PMO, Chief Secy, DM)
+  ├── Chapter 32: The Second Administrative Reforms Commission (2nd ARC) Master Compendium (Complete 15 Reports)
+  ├── Chapter 33: Civil Services, Personnel Administration & Police Reforms (Part XIV, Article 311, Hota, Sorabjee, Prakash Singh)
+  ├── Chapter 34: The Sectoral Regulatory State & Quasi-Judicial Tribunals (SEBI, IRDAI, TRAI, CCI, NGT, L. Chandra Kumar)
+  ├── Chapter 35: Social Justice Legislation & Institutional Protection for Vulnerable Sections (PCR, PoA 18A, FRA, PWDVA, POSH, POCSO)
+  └── Chapter 36: Comparative Constitutional Systems (India, USA, UK, France, Japan & Russia: Cross-Jurisdictional Analysis)
+
 COMPANION OBJECTIVE QUESTION BANK (007/question_bank/political_science/):
-  ├── 00_COVER.md: Epistemic Charter & 1,520 MCQ Audit Methodology
-  ├── 01_INDEX_AND_METHODOLOGY.md: 71-Chapter, 10-Appendix, 10-MTP Index & Elimination Protocols
+  ├── 00_COVER.md: Epistemic Charter & 1,580 MCQ Audit Methodology
+  ├── 01_INDEX_AND_METHODOLOGY.md: 71-Chapter, 10-Appendix, Governance & 10-MTP Index & Elimination Protocols
   ├── 02_PART_I_CONSTITUTIONAL_FRAMEWORK_DRILL.md: Chapters 1–11 Drill (Historical to Basic Structure)
   ├── 03_PART_II_SYSTEM_OF_GOVERNMENT_DRILL.md: Chapters 12–16 Drill (Federal, Inter-State, Emergency)
   ├── 04_PART_III_CENTRAL_GOVERNMENT_DRILL.md: Chapters 17–25 Drill (President, Parliament, SC)
@@ -69,8 +77,9 @@ COMPANION OBJECTIVE QUESTION BANK (007/question_bank/political_science/):
   ├── 06_PART_V_CONSTITUTIONAL_STATUTORY_BODIES_DRILL.md: Chapters 38–56 Drill (ECI, UPSC, CAG, Lokpal)
   ├── 07_PART_VI_POLITICAL_DYNAMICS_GOVERNANCE_DRILL.md: Chapters 57–71 Drill (Parties, 10th Sched, NCRWC)
   ├── 08_PART_VII_APPENDICES_HIGH_YIELD_DRILL.md: Appendices 1–10 Drill (Articles, Precedence, Oaths)
-  ├── 09_PART_VIII_MODEL_TEST_PAPERS_01_TO_05.md: Full-Length MTPs 1–5 Simulation Drill
-  └── 10_PART_IX_MODEL_TEST_PAPERS_06_TO_10.md: Full-Length MTPs 6–10 Simulation Drill
+  ├── 09_PART_VIII_PUBLIC_ADMINISTRATION_GOVERNANCE_DRILL.md: Public Administration & Governance Drill (60 MCQs + 10 Mains Frameworks)
+  ├── 10_PART_IX_MODEL_TEST_PAPERS_01_TO_05.md: Full-Length MTPs 1–5 Simulation Drill
+  └── 11_PART_X_MODEL_TEST_PAPERS_06_TO_10.md: Full-Length MTPs 6–10 Simulation Drill
 ```
 
 ---

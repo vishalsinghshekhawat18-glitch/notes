@@ -70,8 +70,8 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 
 ## 4. Flash Retrieval Diagnostic (10 Seconds Each)
 
-- *Who called natural rights "nonsense upon stilts"?* $\rightarrow$ **Jeremy Bentham**.
-- *Who coined the term "Polyarchy"?* $\rightarrow$ **Robert Dahl**.
-- *Who authored "Two Concepts of Liberty"?* $\rightarrow$ **Isaiah Berlin (1958)**.
-- *Who claimed "Liberty upsets patterns"?* $\rightarrow$ **Robert Nozick**.
-- *What is Dworkin's formula for justice?* $\rightarrow$ **Endowment-Insensitive and Ambition-Sensitive**.
+- *Who called natural rights "nonsense upon stilts"?* → **Jeremy Bentham**.
+- *Who coined the term "Polyarchy"?* → **Robert Dahl**.
+- *Who authored "Two Concepts of Liberty"?* → **Isaiah Berlin (1958)**.
+- *Who claimed "Liberty upsets patterns"?* → **Robert Nozick**.
+- *What is Dworkin's formula for justice?* → **Endowment-Insensitive and Ambition-Sensitive**.

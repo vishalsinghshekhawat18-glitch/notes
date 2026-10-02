@@ -31,7 +31,7 @@ export interface Shelf007PartGroup {
 }
 
 export interface Shelf007SubjectMeta {
-  slug: 'economics' | 'iibf-dbf' | 'political-science';
+  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science';
   name: string;
   badge: string;
   badgeColor: string;
@@ -205,21 +205,283 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
       badge: 'Gold Standard Sovereign Synthesis',
       badgeColor: 'text-[#14532d] bg-[#f0fdf4] border-[#bbf7d0]',
       code: 'POL-007',
-      authors: 'M. Laxmikanth (8th Edition, 2026) • The Constitution of India (Bare Act)',
+      authors: 'M. Laxmikanth (8th Edition, 2026) • M. Laxmikanth (Governance in India, 2nd Ed.) • The Constitution of India (Bare Act)',
       description:
-        'Sovereign 30-chapter doctoral-depth master treatise covering Constitutional Framework, Federal Dynamics, Central & State Government Machinery, Judiciary & PIL, Constitutional & Statutory Bodies, Elections, RTI, Political Theory, and Capstone Revision Vault.',
+        'Sovereign 36-chapter doctoral-depth master treatise covering Constitutional Framework, Federal Dynamics, Central & State Government Machinery, Judiciary & PIL, Constitutional & Statutory Bodies, Field & District Administration, 2nd ARC 15-Report Compendium, Civil Services & Police Reforms, Sectoral Regulators, Social Justice Statutes, Comparative Constitutions, and Capstone Revision Vault.',
       totalChapters: psChapters.length,
       totalWords: psWords,
       chips: [
         'Constitutional Framework & Basic Structure',
         'Parliament & Legislative Procedure',
         'Supreme Court & Judicial Review',
-        'Constitutional & Statutory Bodies',
-        'Anti-Defection Law & Electoral Reforms',
+        'Field & District Administration (Ch 31)',
+        '2nd ARC 15-Report Compendium (Ch 32)',
+        'Civil Services & Police Reforms (Ch 33)',
+        'Sectoral Regulatory State (Ch 34)',
+        'Social Justice Statutes (Ch 35)',
+        'Comparative Constitutions (Ch 36)',
         '50 Deadliest Traps & 1,520 MCQ Question Bank',
       ],
     },
+    {
+      slug: 'history',
+      name: 'History: Ancient, Medieval, Modern, Rajasthan & World Combined',
+      badge: 'Unified 5-Dimensional Master Treatise',
+      badgeColor: 'text-[#854d0e] bg-[#fefce8] border-[#fef08a]',
+      code: 'HIST-007',
+      authors: 'Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • G.N. Sharma • Norman Lowe',
+      description:
+        'Sovereign 39-chapter doctoral-depth historical synthesis integrating Ancient Civilizations & Epigraphy, Medieval Institutional Dynamics, Modern Freedom Struggle, Comprehensive Rajasthan Dynasties & Heritage (RPSC RAS), World History Revolutions, and Capstone Synchronized Revision Vault.',
+      totalChapters: getHistoryChapters().length,
+      totalWords: getHistoryChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Ancient India & Archaeological Edicts',
+        'Medieval Institutions & Bhakti/Sufi Synthesis',
+        'Modern India & Gandhian Freedom Struggle',
+        'Rajasthan Dynasties, 1857 & Integration (RAS)',
+        'World Revolutions & Global Transformations',
+        'Grand Chronological Sync Vault (Ch 39)',
+      ],
+    },
+    {
+      slug: 'quantitative-aptitude',
+      name: 'Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)',
+      badge: 'Axiomatic & Speed Synthesis',
+      badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#bfdbfe]',
+      code: 'QNT-007',
+      authors: 'Sarvesh K. Verma (Quantum CAT) • Arun Sharma • R.S. Aggarwal • Rajesh Verma',
+      description:
+        'Sovereign mathematical logic and problem-solving architecture covering Mental Arithmetic, Base Multiplication, Number Theory & Invariants, Pure Algebra & Master Sign-Table, Commercial Arithmetic, Rates & Motion, Spatial Mensuration, Combinatorics, and Data Interpretation.',
+      totalChapters: getQuantitativeAptitudeChapters().length,
+      totalWords: getQuantitativeAptitudeChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Mental Calculation & Vedic Engines',
+        'Number Theory & Divisibility Invariants',
+        'Algebra & Master Sign-Table Heuristics',
+        'Commercial Arithmetic & Cross-Alligation',
+        'Time, Work, Rates & Motion Invariants',
+        'Combinatorics & Probability',
+        'Data Interpretation & Decision Trees',
+      ],
+    },
+    {
+      slug: 'general-science',
+      name: 'General Science: Physics, Chemistry & Biology Unified',
+      badge: 'NCERT Classes 6–12 + Competitive Fusion',
+      badgeColor: 'text-[#164e3f] bg-[#eef6f2] border-[#cbe4d7]',
+      code: 'SCI-007',
+      authors: 'NCERT (Classes 6–12) • Halliday-Resnick • Campbell Biology • Morrison-Boyd',
+      description:
+        'Sovereign 28-chapter publication-grade science master treatise covering Foundational & Applied Physics (Ch 01–11), Inorganic, Organic & Applied Chemistry (Ch 12–19), Biological Systems, Physiology & Genetics (Ch 20–27), and the Capstone Consolidated Revision Vault (Ch 28).',
+      totalChapters: getGeneralScienceChapters().length,
+      totalWords: getGeneralScienceChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Mechanics, Gravitation & Fluids (Part I)',
+        'Thermal, Waves, Optics & Modern Physics (Part I)',
+        'Atomic Structure, Bonding & Reactions (Part II)',
+        'Carbon, Metallurgy & Everyday Chemistry (Part II)',
+        'Cell Biology, Biomolecules & Genetics (Part III)',
+        'Plant & Human Physiology (Part III)',
+        'Health, Immunity & Applied Biotech (Part III)',
+        '50 Deadliest Traps & Capstone Vault (Part IV)',
+      ],
+    },
   ];
+}
+
+export function getGeneralScienceChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'general_science');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  return files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('CONSOLIDATED_REVISION_VAULT')) {
+      slug = 'chapter-28';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 28: Capstone Master Consolidated Revision Vault';
+      chapterOrder = 28;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of first-principles scientific concepts, mathematical laws, comparative matrices, and high-yield examination trap avoidance.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
+}
+
+export function getQuantitativeAptitudeChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'quantitative_aptitude');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  return files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS') || fileName.includes('TRAP_VAULT')) {
+      slug = 'chapter-27';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 27: The Grand Synthesis Master Revision & Trap Vault';
+      chapterOrder = 27;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of first-principles mathematical derivations, dual-speed problem heuristics, and high-yield examination trap avoidance.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
+}
+
+export function getHistoryChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'history');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  return files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS')) {
+      slug = 'chapter-39';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 39: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 39;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of historical epochs, primary inscriptional evidence, socio-economic transitions, and high-yield examination matrices.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
 }
 
 export function getPoliticalScienceChapters(): Shelf007ChapterItem[] {
@@ -459,7 +721,9 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
   return items;
 }
 
-export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'political-science'): Shelf007PartGroup[] {
+export function getShelf007PartGroups(
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science'
+): Shelf007PartGroup[] {
   if (subject === 'economics') {
     const allChapters = getEconomicsChapters();
     const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -618,6 +882,12 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'polit
         groupSubtitle: 'Master article topography, 12 schedules, major amendments, majority formulas, 35 landmark cases, 50 deadliest traps, and 100-question active recall diagnostic',
         slugs: ['chapter-30'],
       },
+      {
+        partNumber: 'PART X',
+        groupTitle: 'Public Administration, Governance & Institutional Architecture',
+        groupSubtitle: 'Field & district administration, 2nd ARC 15-report master compendium, civil services & police reforms, modern sectoral regulatory state, social justice enactments, and comparative constitutions',
+        slugs: ['chapter-31', 'chapter-32', 'chapter-33', 'chapter-34', 'chapter-35', 'chapter-36'],
+      },
     ];
 
     return groups.map((g) => ({
@@ -628,6 +898,261 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'polit
         .map((slug) => chapterMap.get(slug))
         .filter((c): c is Shelf007ChapterItem => c !== undefined),
     }));
+  }
+
+  if (subject === 'history') {
+    const allChapters = getHistoryChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Curriculum Blueprint & Sovereign Synthesis Architecture',
+        groupSubtitle: 'Orientation, multi-author canonical fusion, and 39-chapter master curriculum blueprint',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Ancient Indian Civilizations & Cultural Foundations',
+        groupSubtitle: 'Pre-history, Indus Valley Civilization, Vedic transitions, heterodox movements (Buddhism/Jainism), Mauryan statecraft, Post-Mauryan trade, Guptas, and South Indian antiquity',
+        slugs: ['chapter-01', 'chapter-02', 'chapter-03', 'chapter-04', 'chapter-05', 'chapter-06', 'chapter-07'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'Medieval India & Institutional Synthesis',
+        groupSubtitle: 'Tripartite struggle, Delhi Sultanate market/iqta systems, Vijayanagara Nayankara administration, Bhakti/Sufi movements, Mughal Empire, and 18th-century Maratha transition',
+        slugs: ['chapter-08', 'chapter-09', 'chapter-10', 'chapter-11', 'chapter-12', 'chapter-13', 'chapter-14'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Modern India & The Freedom Struggle',
+        groupSubtitle: 'Colonial expansion, drain of wealth, 1857 revolt, socio-religious reforms, early nationalist emergence, Gandhian mass movements, revolutionary currents, and 1947 independence',
+        slugs: ['chapter-15', 'chapter-16', 'chapter-17', 'chapter-18', 'chapter-19', 'chapter-20', 'chapter-21', 'chapter-22', 'chapter-23'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'Rajasthan History, Dynasties & Heritage (RPSC RAS Master Lens)',
+        groupSubtitle: 'Ancient sites (Kalibangan/Ahar), Mewar/Marwar/Amber dynasties, 1857 in Rajasthan, peasant/tribal movements (Bijolia/Eki), Prajamandals, 7-stage integration, and hill forts',
+        slugs: ['chapter-24', 'chapter-25', 'chapter-26', 'chapter-27', 'chapter-28', 'chapter-29', 'chapter-30'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'World History & Global Transformations (UPSC Mains GS-1 Lens)',
+        groupSubtitle: 'Renaissance, Atlantic revolutions (American/French), Industrial Revolution, Italian/German unification, imperialism, World War I, Russian Revolution, Fascism/Nazism, and WWII',
+        slugs: ['chapter-31', 'chapter-32', 'chapter-33', 'chapter-34', 'chapter-35', 'chapter-36', 'chapter-37', 'chapter-38'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'Capstone Grand Synthesis & Master Revision Vault',
+        groupSubtitle: 'Global, Pan-Indian & Rajasthan synchronized timelines, 60-second retrieval skeletons, master distinction matrices, top 50 deadly traps, and diagnostic active recall bank',
+        slugs: ['chapter-39'],
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
+  if (subject === 'quantitative-aptitude') {
+    const allChapters = getQuantitativeAptitudeChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Curriculum Blueprint & Sovereign Synthesis Architecture',
+        groupSubtitle: 'Orientation, axiomatic math manifesto, and 27-chapter master curriculum blueprint',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Mental Calculation, Speed Engines & Number Sense',
+        groupSubtitle: 'Mental arithmetic foundations, base multiplication, Vedic engines, fraction-percentage tables, indices, and square/cube roots',
+        slugs: ['chapter-01', 'chapter-02', 'chapter-03'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'Number Theory & Arithmetic Invariants',
+        groupSubtitle: 'Divisibility invariants, prime factorization, factor sums, totient theory, HCF-LCM arithmetic models, remainder theorems, and trailing zeros',
+        slugs: ['chapter-04', 'chapter-05', 'chapter-06'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Algebraic Architecture & Equations',
+        groupSubtitle: 'Algebraic identities, symmetric polynomials, 2-variable linear systems, quadratic equations, discriminant nature of roots, and Master Sign Table',
+        slugs: ['chapter-07', 'chapter-08', 'chapter-09'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'Commercial Arithmetic: Ratios, Percentages & Proportionality',
+        groupSubtitle: 'Base shifts, net percentage changes, ratio compounding, partnership capital-time models, weighted averages, and age progression',
+        slugs: ['chapter-10', 'chapter-11', 'chapter-12'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'Commercial Arithmetic: Financial Dynamics & Mixtures',
+        groupSubtitle: 'CP/SP/MP, discounts, dishonest dealer mechanics, Simple & Compound Interest, compounding intervals, CI-SI differences, and cross-alligation',
+        slugs: ['chapter-13', 'chapter-14', 'chapter-15', 'chapter-16'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'Work, Motion & Physical Rates',
+        groupSubtitle: 'Time & Work LCM unitary models, alternate day cycles, pipes & cisterns negative cycles, relative speed, trains, boats, escalators, and circular tracks',
+        slugs: ['chapter-17', 'chapter-18', 'chapter-19', 'chapter-20'],
+      },
+      {
+        partNumber: 'PART VII',
+        groupTitle: 'Geometry & Spatial Mensuration',
+        groupSubtitle: '2D plane figures, incircles/circumcircles, pathways, 3D solids, melting/recasting volume invariants, frustums, and percentage scaling multipliers',
+        slugs: ['chapter-21', 'chapter-22'],
+      },
+      {
+        partNumber: 'PART VIII',
+        groupTitle: 'Modern Mathematics & Combinatorics',
+        groupSubtitle: 'Permutations, combinations, circular arrangements, tie methods, classical/conditional probability, and Bayes Theorem heuristics',
+        slugs: ['chapter-23', 'chapter-24'],
+      },
+      {
+        partNumber: 'PART IX',
+        groupTitle: 'Data Interpretation & Decision Logic',
+        groupSubtitle: 'Tabular, line, bar, pie, radar/funnel charts, caselet Venn diagrams, 2-statement Data Sufficiency decision trees, and Quantity Comparisons (Q1 vs Q2 vs Q3)',
+        slugs: ['chapter-25', 'chapter-26'],
+      },
+      {
+        partNumber: 'PART X',
+        groupTitle: 'The Capstone: Master Consolidated Revision & Trap Vault',
+        groupSubtitle: 'All-chapter 60-second formula retrieval skeletons, Grand Master Distinction Matrices, The 50 Deadliest Traps in Aptitude, and diagnostic drills',
+        slugs: ['chapter-27'],
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
+  if (subject === 'general-science') {
+    const allChapters = getGeneralScienceChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Corpus Architecture & Epistemic Pledge',
+        groupSubtitle: 'Sovereign front cover, academic declaration, and 4-Part 28-Chapter curriculum syllabus mapping',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Foundational & Applied Physics',
+        groupSubtitle: 'Measurements, kinematics, gravitation, fluid mechanics, thermodynamics, acoustics, optics, electromagnetism, and modern semiconductor physics',
+        slugs: [
+          'chapter-01', 'chapter-02', 'chapter-03', 'chapter-04', 'chapter-05',
+          'chapter-06', 'chapter-07', 'chapter-08', 'chapter-09', 'chapter-10', 'chapter-11'
+        ],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'Inorganic, Organic & Applied Chemistry',
+        groupSubtitle: 'Matter & colloids, atomic structure, periodic trends, chemical bonding, reactions & redox, acids/bases/salts, metallurgy & carbon allotropes',
+        slugs: [
+          'chapter-12', 'chapter-13', 'chapter-14', 'chapter-15', 'chapter-16',
+          'chapter-17', 'chapter-18', 'chapter-19'
+        ],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Biological Systems, Physiology & Life Sciences',
+        groupSubtitle: 'Cytology, cell division, biomolecules, classification & microorganisms, plant physiology, human organ systems, genetics, and immunology',
+        slugs: [
+          'chapter-20', 'chapter-21', 'chapter-22', 'chapter-23', 'chapter-24',
+          'chapter-25', 'chapter-26', 'chapter-27'
+        ],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'Capstone Master Consolidated Revision Vault',
+        groupSubtitle: '60-second retrieval skeletons (Ch 01–27), Grand Cross-Domain Distinction Matrix, 50 Deadliest Test-Maker Traps, and Active-Recall Bank',
+        slugs: ['chapter-28'],
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
   }
 
   // IIBF DBF
@@ -699,7 +1224,7 @@ export function getShelf007PartGroups(subject: 'economics' | 'iibf-dbf' | 'polit
 }
 
 export function getShelf007ChapterContent(
-  subject: 'economics' | 'iibf-dbf' | 'political-science',
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science',
   chapterSlug: string
 ) {
   const chapters =
@@ -707,7 +1232,13 @@ export function getShelf007ChapterContent(
       ? getEconomicsChapters()
       : subject === 'iibf-dbf'
       ? getIibfDbfChapters()
-      : getPoliticalScienceChapters();
+      : subject === 'political-science'
+      ? getPoliticalScienceChapters()
+      : subject === 'history'
+      ? getHistoryChapters()
+      : subject === 'quantitative-aptitude'
+      ? getQuantitativeAptitudeChapters()
+      : getGeneralScienceChapters();
   const currentIdx = chapters.findIndex((c) => c.slug === chapterSlug);
 
   if (currentIdx === -1) {

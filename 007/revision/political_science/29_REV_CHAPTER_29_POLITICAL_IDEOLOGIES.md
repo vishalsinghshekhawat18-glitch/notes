@@ -71,8 +71,8 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 
 ## 4. Flash Retrieval Diagnostic (10 Seconds Each)
 
-- *Who authored "The Road to Serfdom"?* $\rightarrow$ **Friedrich A. Hayek (1944)**.
-- *Who authored "Hind Swaraj"?* $\rightarrow$ **Mahatma Gandhi (1909)**.
-- *Who coined "Inevitability of Gradualness"?* $\rightarrow$ **Sidney Webb (Fabian Society)**.
-- *What book contains Marx's theory of alienation?* $\rightarrow$ ***Economic and Philosophic Manuscripts of 1844***.
-- *Which amendment inserted "Socialist" into the Indian Preamble?* $\rightarrow$ **42nd Amendment Act, 1976**.
+- *Who authored "The Road to Serfdom"?* → **Friedrich A. Hayek (1944)**.
+- *Who authored "Hind Swaraj"?* → **Mahatma Gandhi (1909)**.
+- *Who coined "Inevitability of Gradualness"?* → **Sidney Webb (Fabian Society)**.
+- *What book contains Marx's theory of alienation?* → ***Economic and Philosophic Manuscripts of 1844***.
+- *Which amendment inserted "Socialist" into the Indian Preamble?* → **42nd Amendment Act, 1976**.

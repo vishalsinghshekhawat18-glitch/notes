@@ -262,9 +262,9 @@ Impeachment is a **quasi-judicial procedure** conducted entirely within Parliame
 
 #### The Veto Powers of the President (Article 111)
 When an ordinary bill is presented to the President after being passed by both Houses, the President has three constitutional options under Article 111:
-1. He may give his **assent** to the Bill $\rightarrow$ Bill becomes an Act.
-2. He may **withhold his assent** to the Bill $\rightarrow$ Bill dies (**Absolute Veto**).
-3. He may **return the Bill** (if it is not a Money Bill) for reconsideration of the Houses $\rightarrow$ (**Suspensive Veto**).
+1. He may give his **assent** to the Bill → Bill becomes an Act.
+2. He may **withhold his assent** to the Bill → Bill dies (**Absolute Veto**).
+3. He may **return the Bill** (if it is not a Money Bill) for reconsideration of the Houses → (**Suspensive Veto**).
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐

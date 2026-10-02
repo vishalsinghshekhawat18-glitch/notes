@@ -64,7 +64,7 @@ $$\text{Commodity Money (Salt, Cattle)} \longrightarrow \text{Metallic Money (Go
 │                                 │ ₹20, ₹50, ₹100, ₹200, ₹500).    │ ₹1, ₹2, ₹5, ₹10, ₹20).          │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ Legal Payment Limit             │ **Unlimited Amount**: Can be    │ **Restricted Limits**:          │
-│                                 │ used to settle any legal debt to│ • Coins $\ge$ ₹1: Legal tender  │
+│                                 │ used to settle any legal debt to│ • Coins ≥ ₹1: Legal tender  │
 │                                 │ any monetary value.             │   up to **₹1,000 only**.        │
 │                                 │                                 │ • 50 paise coins: Legal tender  │
 │                                 │                                 │   up to **₹10 only**.           │
@@ -331,14 +331,14 @@ $$\mathbf{M \times V = P \times Y}$$
 ## 4.11 The 60-Second Memory Skeleton (Rapid Recall)
 
 * **Functions**: Primary (Medium of exchange, Unit of account), Secondary (Deferred payment, Store of value).
-* **Fiat vs Fiduciary**: Fiat = sovereign decree / no intrinsic value; Fiduciary = based on trust (cheques $\rightarrow$ NOT legal tender).
+* **Fiat vs Fiduciary**: Fiat = sovereign decree / no intrinsic value; Fiduciary = based on trust (cheques → NOT legal tender).
 * **Legal Tender**:
   * Banknotes = **Unlimited** legal tender (RBI Act §26).
-  * Coins = **Limited** legal tender (Coinage Act 2011: $\ge$ ₹1 coins up to ₹1,000; 50p coins up to ₹10).
+  * Coins = **Limited** legal tender (Coinage Act 2011: ≥ ₹1 coins up to ₹1,000; 50p coins up to ₹10).
 * **Issuance Architecture**:
   * ₹1 note + coins = Minted by **Govt of India** (Finance Secretary signs ₹1 note; Govt liability).
   * ₹2 to ₹500 notes = Issued by **RBI** (RBI Governor signs; RBI liability; RBI Act §22).
-  * Backing = **Minimum Reserve System** (₹200 Cr minimum: $\ge$ ₹115 Cr gold, remainder foreign securities; RBI Act §33).
+  * Backing = **Minimum Reserve System** (₹200 Cr minimum: ≥ ₹115 Cr gold, remainder foreign securities; RBI Act §33).
 * **Money Supply Rule**: Money of the **PUBLIC only**! Excludes RBI cash, Govt cash, Bank vault cash, and Inter-bank deposits.
 * **Aggregates**:
   * $\mathbf{M_0} = \text{Currency in Circulation} + \text{Bankers' Deposits with RBI} + \text{'Other' Deposits with RBI}$

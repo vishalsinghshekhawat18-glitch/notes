@@ -418,13 +418,13 @@ Keynes identified three distinct psychological motives governing liquidity prefe
 
 • **The IS Curve (Investment-Saving):**
   - Represents equilibrium in the **Goods Market** where planned Investment equals planned Savings ($I = S$).
-  - **Downward Sloping:** A drop in interest rates lowers borrowing costs $\rightarrow$ stimulates investment $\rightarrow$ increases aggregate output/income ($Y$) via the multiplier.
+  - **Downward Sloping:** A drop in interest rates lowers borrowing costs → stimulates investment → increases aggregate output/income ($Y$) via the multiplier.
 • **The LM Curve (Liquidity-Money):**
   - Represents equilibrium in the **Money Market** where money demand equals money supply ($L = M$).
-  - **Upward Sloping:** An increase in income ($Y$) raises transactions demand for cash $\rightarrow$ pushes interest rates ($r$) up to choke off speculative demand and balance fixed money supply.
+  - **Upward Sloping:** An increase in income ($Y$) raises transactions demand for cash → pushes interest rates ($r$) up to choke off speculative demand and balance fixed money supply.
 • **Macroeconomic Policy Shifts in IS-LM:**
-  - *Expansionary Fiscal Policy (Higher Govt Spending):* Shifts $IS$ curve to the **right** $\rightarrow$ Increases Income ($Y$) and **Increases Interest Rate ($r$)** (Crowding-out effect).
-  - *Expansionary Monetary Policy (Increased Money Supply):* Shifts $LM$ curve to the **right** $\rightarrow$ Increases Income ($Y$) and **Decreases Interest Rate ($r$)**.
+  - *Expansionary Fiscal Policy (Higher Govt Spending):* Shifts $IS$ curve to the **right** → Increases Income ($Y$) and **Increases Interest Rate ($r$)** (Crowding-out effect).
+  - *Expansionary Monetary Policy (Increased Money Supply):* Shifts $LM$ curve to the **right** → Increases Income ($Y$) and **Decreases Interest Rate ($r$)**.
 
 > 🎯 **Top IIBF Traps for Unit 37:**
 > 1. **Slopes:** The IS curve slopes **downward**; the LM curve slopes **upward**.

@@ -138,8 +138,8 @@ A 5-judge Constitution Bench laid down definitive constitutional limits on the r
 
 #### The Veto Options of the Governor (Article 200):
 When a bill passed by the State Legislature is presented to the Governor, the Governor has **four constitutional options**:
-1. He may give **assent** to the Bill $\rightarrow$ Bill becomes an Act.
-2. He may **withhold assent** to the Bill $\rightarrow$ Bill falls through.
+1. He may give **assent** to the Bill → Bill becomes an Act.
+2. He may **withhold assent** to the Bill → Bill falls through.
 3. He may **return the Bill** (if not a Money Bill) with a message for reconsideration. If the Bill is passed again by the House(s) with or without amendment, **the Governor MUST give his assent** (cannot withhold or return again).
 4. He may **reserve the Bill for the consideration of the President**.
 

@@ -19,7 +19,7 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 │ SC Sanctioned Strength    │ 34 Judges (1 CJI + 33 Puisne Judges) (2019 Amendment Act)          │
 │ Maximum Retirement Age    │ SIXTY-FIVE (65) YEARS (Article 124(2))                             │
 │ Collegium Quotas          │ SC: CJI + 4 Senior SC Judges | HC: CJI + 2 Senior SC Judges (1998) │
-│ NJAC Striking Down        │ Fourth Judges Case (2015, 4:1) $\rightarrow$ Basic Structure       │
+│ NJAC Striking Down        │ Fourth Judges Case (2015, 4:1) → Basic Structure       │
 │ Impeachment Signatures    │ 100 Lok Sabha MPs OR 50 Rajya Sabha MPs (Judges Inquiry Act 1968)  │
 │ Impeachment Majority      │ Special Majority of Art 368 (Absolute + 2/3rd Present & Voting)   │
 │ Post-Retirement Practice  │ ABSOLUTE BAN on pleading before any court in India (Art 124(7))    │

@@ -1,11 +1,11 @@
 <div style="page-break-before: always;"></div>
 
-# PART VIII DIAGNOSTIC DRILL: Full-Length Model Test Papers 01 to 05
+# PART IX DIAGNOSTIC DRILL: Full-Length Model Test Papers 01 to 05
 ## Simulation Mock Papers 01, 02, 03, 04 & 05: 125 Full-Length Prelims Simulation Questions
 
 ```
 ==================================================================================================
-SHELF 007: QUESTION BANK & DIAGNOSTIC ENGINE | POLITICAL SCIENCE — MODULE 09
+SHELF 007: QUESTION BANK & DIAGNOSTIC ENGINE | POLITICAL SCIENCE — MODULE 10
 CANONICAL SOURCE: M. Laxmikanth, Objective Indian Polity (Part Thirteen: Model Tests 1 to 5)
 TOTAL DRILL QUESTIONS: 125 Full-Length MCQs | Complete Answer Key & Forensic Trap Notes
 ==================================================================================================

@@ -17,12 +17,12 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 │ CONSTITUTIONAL ENTITY     │ STATUTORY FORMULA / RATIO / CONSTITUTIONAL MECHANIC                │
 ├───────────────────────────┼────────────────────────────────────────────────────────────────────┤
 │ Voting Age Reduction      │ 61st Amendment Act 1988 (lowered from 21 to 18; Article 326)       │
-│ Section 8(3) Disqualif.   │ Conviction $\ge 2$ YEARS $\rightarrow$ Disqualified during sentence│
+│ Section 8(3) Disqualif.   │ Conviction $\ge 2$ YEARS → Disqualified during sentence│
 │                           │ PLUS SIX (6) YEARS post-release                                    │
 │ Section 8(4) Annulment    │ Struck down in *Lily Thomas (2013)*; instant disqualification      │
 │ RPA 1950 Scope            │ Pre-poll: Seat allocation, delimitation, ERO, electoral rolls      │
 │ RPA 1951 Scope            │ Conduct: Disqualifications, Returning Officer, Corrupt practices   │
-│ Section 10A Disqualif.    │ Failure to submit election expenses $\rightarrow$ 3-year ECI bar   │
+│ Section 10A Disqualif.    │ Failure to submit election expenses → 3-year ECI bar   │
 │ Delimitation Immunity     │ Article 329(a): Orders CANNOT be questioned in any court           │
 │ Delimitation Freeze Year  │ 84th AA 2001 froze seats at 1971 census until FIRST CENSUS POST-2026│
 │ Electoral Bonds Annulment │ *ADR (2024)* 5-Judge Bench: Struck down under Article 19(1)(a)     │

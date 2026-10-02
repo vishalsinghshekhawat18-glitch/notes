@@ -386,9 +386,9 @@ Collected by Centre        Collected by State               Collected by Centre,
 Input Tax Credit prevents the cascading effect by allowing businesses to deduct the tax already paid on input purchases from the tax liability on output sales.
 
 #### Strict Cross-Utilization Order of Priority:
-1. **IGST Credit**: Must be exhausted first against IGST liability $\rightarrow$ then CGST liability $\rightarrow$ then SGST/UTGST liability in any order.
-2. **CGST Credit**: Used to offset CGST liability $\rightarrow$ then IGST liability. **CGST credit CAN NEVER be used to pay SGST!**
-3. **SGST Credit**: Used to offset SGST liability $\rightarrow$ then IGST liability. **SGST credit CAN NEVER be used to pay CGST!**
+1. **IGST Credit**: Must be exhausted first against IGST liability → then CGST liability → then SGST/UTGST liability in any order.
+2. **CGST Credit**: Used to offset CGST liability → then IGST liability. **CGST credit CAN NEVER be used to pay SGST!**
+3. **SGST Credit**: Used to offset SGST liability → then IGST liability. **SGST credit CAN NEVER be used to pay CGST!**
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────────┐

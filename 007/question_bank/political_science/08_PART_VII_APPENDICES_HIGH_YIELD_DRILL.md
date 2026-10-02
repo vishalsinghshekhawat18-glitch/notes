@@ -99,10 +99,10 @@ Which of the statements given above are correct?
 
 ### Question 9 (Amendments Vector)
 Match List-I (Amendment) with List-II (Impact):
-- A. 52nd Amendment $\rightarrow$ 1. Anti-Defection Law (Tenth Schedule)
-- B. 61st Amendment $\rightarrow$ 2. Lowered voting age from 21 to 18 years
-- C. 86th Amendment $\rightarrow$ 3. Right to Education (Article 21A)
-- D. 91st Amendment $\rightarrow$ 4. 15% Cap on Council of Ministers & Split deletion
+- A. 52nd Amendment → 1. Anti-Defection Law (Tenth Schedule)
+- B. 61st Amendment → 2. Lowered voting age from 21 to 18 years
+- C. 86th Amendment → 3. Right to Education (Article 21A)
+- D. 91st Amendment → 4. 15% Cap on Council of Ministers & Split deletion
 Codes:
 (a) A-1, B-2, C-3, D-4  
 (b) A-2, B-1, C-4, D-3  
@@ -134,7 +134,7 @@ Codes:
 2. **Trap on Q.5 (Table of Precedence Top Tier)**:  
    *The Trap*: Placing CJI or Former Presidents above Governors within their States.  
    *The Reality*: The Table of Precedence order is:  
-   1. President $\rightarrow$ 2. Vice-President $\rightarrow$ 3. Prime Minister $\rightarrow$ **4. Governors within their respective States** $\rightarrow$ 5. Former Presidents $\rightarrow$ 5A. Deputy Prime Minister $\rightarrow$ 6. Chief Justice of India & Speaker of Lok Sabha!
+   1. President → 2. Vice-President → 3. Prime Minister → **4. Governors within their respective States** → 5. Former Presidents → 5A. Deputy Prime Minister → 6. Chief Justice of India & Speaker of Lok Sabha!
 
 3. **Trap on Q.7 (Third Schedule Oaths Exclusion)**:  
    *The Trap*: Assuming all constitutional dignitaries take oaths under the 3rd Schedule.  

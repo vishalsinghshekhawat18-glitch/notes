@@ -16,7 +16,7 @@ import { MarkdownContent } from '@/components/ui/markdown-content';
 import { FontSizeControl } from '@/components/learning/font-size-control';
 
 interface Shelf007ContinuousReaderProps {
-  subject: 'economics' | 'iibf-dbf' | 'political-science';
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science';
   currentChapter: Shelf007ChapterItem;
   prevChapter: Shelf007ChapterItem | null;
   nextChapter: Shelf007ChapterItem | null;
@@ -40,7 +40,13 @@ export function Shelf007ContinuousReader({
       ? 'Economics Master Treatise'
       : subject === 'iibf-dbf'
       ? 'IIBF Diploma in Banking & Finance'
-      : 'Political Science & Constitutional Governance';
+      : subject === 'political-science'
+      ? 'Political Science & Constitutional Governance'
+      : subject === 'history'
+      ? 'History: Ancient, Medieval, Modern, Rajasthan & World'
+      : subject === 'quantitative-aptitude'
+      ? 'Quantitative Aptitude & Mathematical Logic'
+      : 'General Science: Physics, Chemistry & Biology Unified';
 
   // Sync scroll position with active section index
   useEffect(() => {

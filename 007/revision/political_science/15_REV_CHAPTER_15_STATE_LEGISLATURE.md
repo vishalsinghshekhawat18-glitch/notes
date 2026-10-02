@@ -17,14 +17,14 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 │ CONSTITUTIONAL ENTITY     │ STATUTORY FORMULA / RATIO / CONSTITUTIONAL MECHANIC                │
 ├───────────────────────────┼────────────────────────────────────────────────────────────────────┤
 │ Bicameral States (6)      │ Uttar Pradesh, Bihar, Maharashtra, Karnataka, Andhra, Telangana    │
-│ Article 169 Abolish/Create│ SLA Special Majority $\rightarrow$ Parliament Simple Majority      │
+│ Article 169 Abolish/Create│ SLA Special Majority → Parliament Simple Majority      │
 │ SLA Strength Limits       │ Max: 500 members | Min: 60 (Exceptions: Goa/Mizoram 40, Sikkim 32) │
 │ SLC Strength Limits       │ Max: 1/3rd of Assembly strength | Min: 40 members (Art 171(1))     │
 │ SLC Composition Math      │ 1/3 (Local) + 1/12 (Grad) + 1/12 (Teach) + 1/3 (MLA) + 1/6 (Gov)   │
 │ Ordinary Bill Delay Limit │ 4 MONTHS MAX (3 Months in 1st instance + 1 Month in 2nd instance)  │
 │ Money Bill Retention (SLC)│ Strictly 14 DAYS max (Art 198)                                     │
 │ Joint Sitting in States   │ STRICTLY ZERO (No Article 108 parallel exists in State Lawmaking!) │
-│ Council Originating Bill  │ If rejected by Assembly $\rightarrow$ IMMEDIATELY DEAD!            │
+│ Council Originating Bill  │ If rejected by Assembly → IMMEDIATELY DEAD!            │
 └───────────────────────────┴────────────────────────────────────────────────────────────────────┘
 ```
 

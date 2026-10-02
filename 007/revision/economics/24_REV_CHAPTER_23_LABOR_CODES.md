@@ -22,10 +22,10 @@
 
 | Regulatory Dimension | Legacy Regime (Pre-2020) | Post-Reform Code Regime (2020) |
 | :--- | :--- | :--- |
-| **Retrenchment / Lay-off Approval** | Required for firms with $\ge$ **100 workers** | Required for firms with $\ge$ **300 workers** |
-| **Standing Orders Threshold** | Establishments with $\ge$ **100 workers** | Establishments with $\ge$ **300 workers** |
+| **Retrenchment / Lay-off Approval** | Required for firms with ≥ **100 workers** | Required for firms with ≥ **300 workers** |
+| **Standing Orders Threshold** | Establishments with ≥ **100 workers** | Establishments with ≥ **300 workers** |
 | **Factory Definition (Power / No Power)** | 10 workers (with power) / 20 workers (no power) | **20 workers (with power) / 40 workers (no power)** |
-| **Contract Labor Applicability** | Establishments employing $\ge$ **20 contract workers** | Establishments employing $\ge$ **50 contract workers** |
+| **Contract Labor Applicability** | Establishments employing ≥ **20 contract workers** | Establishments employing ≥ **50 contract workers** |
 | **Gratuity for Fixed-Term Workers** | Mandatory 5 continuous years of service | **1 year of continuous service** (pro-rata basis) |
 | **Coverage of Minimum Wages** | Only "Scheduled Employments" (~60% workforce) | **100% universal workforce coverage** |
 

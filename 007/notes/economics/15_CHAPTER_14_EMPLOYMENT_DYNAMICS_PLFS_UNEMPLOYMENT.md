@@ -124,7 +124,7 @@ The demographic dividend is not an automatic windfall; it is merely a **demograp
 * **The Amartya Sen Formulation**: First identified in 1990, the term "Missing Women" quantifies the deficit of females relative to the biologically expected female-to-male ratio, resulting from sex-selective abortion (female foeticide), female infanticide, and differential mortality due to biased nutritional/medical care.
 * **Economic Metrics**:
   - **Overall Sex Ratio (Census 2011)**: 940 females per 1,000 males.
-  - **Child Sex Ratio (0–6 years)**: Declined from 976 (1961) $\rightarrow$ 945 (1991) $\rightarrow$ **918 (2011)**, signaling intense son-preference enabled by ultrasound technology despite the *PCPNDT Act, 1994*.
+  - **Child Sex Ratio (0–6 years)**: Declined from 976 (1961) → 945 (1991) → **918 (2011)**, signaling intense son-preference enabled by ultrasound technology despite the *PCPNDT Act, 1994*.
   - **NFHS-5 (2019–21) Improvement**: Overall sex ratio rose to 1,020 (though Sex Ratio at Birth remains skewed at **929**).
 * **Macroeconomic Cost**: IMF and World Bank studies indicate that persistent gender gaps in education, nutrition, and workforce participation suppress India's potential GDP growth rate by **1.5% to 2.5% annually**.
 

@@ -52,3 +52,7 @@ newpdf/
 
 # Print Output PDFs
 print_output/
+
+# Raw Source PDFs
+007/PDF's/
+007/scripts/audit_report.json

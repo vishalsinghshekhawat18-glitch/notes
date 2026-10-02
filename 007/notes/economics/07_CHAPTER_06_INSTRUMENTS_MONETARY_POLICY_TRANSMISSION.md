@@ -275,7 +275,7 @@ Faced with chronic transmission bottlenecks, the RBI mandated that effective **O
   * Operation Twist: Buy long-term + Sell short-term $\implies$ Net liquidity neutral; flattens yield curve.
   * MSS: Special bonds to sterilize massive foreign capital inflows.
 * **Transmission Evolution**:
-  * PLR $\rightarrow$ BPLR $\rightarrow$ Base Rate $\rightarrow$ MCLR $\rightarrow$ **EBLR (Oct 2019)**.
+  * PLR → BPLR → Base Rate → MCLR → **EBLR (Oct 2019)**.
   * EBLR: All floating retail/MSE loans tied to external benchmark (Repo/T-Bills); reset every 3 months $\implies$ **Instant transmission**.
 
 ---

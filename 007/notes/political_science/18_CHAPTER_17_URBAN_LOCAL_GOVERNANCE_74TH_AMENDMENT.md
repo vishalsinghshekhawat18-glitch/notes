@@ -154,7 +154,7 @@ Urban local governance in India possesses an ancient pedigree, but its modern st
 │                    │   unexpired remainder of the 5-year term.                                   │
 ├────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
 │ MINIMUM AGE TO     │ • TWENTY-ONE (21) YEARS (Article 243-V(1)(b)).                              │
-│ CONTEST (ART 243-V)│ • Cannot be disqualified on ground of being < 25 years if $\ge$ 21 years.   │
+│ CONTEST (ART 243-V)│ • Cannot be disqualified on ground of being < 25 years if ≥ 21 years.   │
 ├────────────────────┼─────────────────────────────────────────────────────────────────────────────┤
 │ COMMON ENGINES     │ • State Election Commission (SEC) under Article 243-ZA (draws from 243K).   │
 │ WITH PART IX       │ • State Finance Commission (SFC) under Article 243-Y (draws from 243-I).    │

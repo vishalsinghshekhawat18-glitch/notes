@@ -34,10 +34,10 @@ Indian banking developed through three distinct structural phases:
 2. **Creation of State Bank of India (1955)**: Based on the recommendations of the **All India Rural Credit Survey Committee (A.D. Gorwala Committee)**, the Imperial Bank was nationalized to create the State Bank of India (SBI) to drive rural agricultural credit.
 3. **The 14 Major Banks Nationalization (July 19, 1969)**:
    * Promulgated via the *Banking Companies (Acquisition and Transfer of Undertakings) Ordinance, 1969* by Prime Minister Indira Gandhi.
-   * Target: 14 largest commercial banks holding deposits **$\ge$ ₹50 Crore** (e.g. PNB, Bank of Baroda, Canara Bank, Central Bank of India).
+   * Target: 14 largest commercial banks holding deposits **≥ ₹50 Crore** (e.g. PNB, Bank of Baroda, Canara Bank, Central Bank of India).
    * Objective: Break the monopoly of corporate business houses over bank credit and direct lending into rural agriculture, small-scale industries, and priority sectors (**Social Banking**).
 4. **The Second Wave of Nationalization (April 15, 1980)**:
-   * 6 additional commercial banks with deposits **$\ge$ ₹200 Crore** were nationalized (including Andhra Bank, Corporation Bank, Oriental Bank of Commerce).
+   * 6 additional commercial banks with deposits **≥ ₹200 Crore** were nationalized (including Andhra Bank, Corporation Bank, Oriental Bank of Commerce).
 5. **The M. Narasimham Committee Reports (1991 & 1998)**:
    * **Narasimham Committee I (1991)**: Recommended reducing crushing CRR/SLR requirements, phasing out directed credit, ending interest rate controls, establishing prudential norms for asset classification, and licensing **new private sector banks** (ushering in HDFC, ICICI, Axis).
    * **Narasimham Committee II (1998)**: Recommended capital adequacy norms (Basel I/II), legal frameworks for asset recovery (laying the foundation for the SARFAESI Act, 2002), and consolidation of public sector banks into fewer, globally competitive lenders.
@@ -61,7 +61,7 @@ and RBI Act, 1934. Profit-seeking.                                      RBI (Ame
          ▼                                        ▼                              ▼                         ▼
 [SCHEDULED COMMERCIAL BANKS]           [DIFFERENTIATED / NICHE BANKS]   [URBAN COOPERATIVE BANKS] [RURAL COOPERATIVES]
 • Second Schedule of RBI Act           • Niche specialized licenses      • Primary (Tier 1-4)      • State Coop Banks
-• Paid-up capital $\ge$ ₹5 Lakh        • Nachiket Mor Committee (2014)   • Regulated by RBI        • DCCBs / PACS
+• Paid-up capital ≥ ₹5 Lakh        • Nachiket Mor Committee (2014)   • Regulated by RBI        • DCCBs / PACS
          │                                        │
          ├── Public Sector Banks (12)             ├── Payments Banks (e.g. Airtel, India Post)
          ├── Private Sector Banks                 └── Small Finance Banks (e.g. AU, Equitas, Ujjivan)
@@ -348,12 +348,12 @@ Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Acti
 
 ## 7.9 The 60-Second Memory Skeleton (Rapid Recall)
 
-* **History**: Imperial Bank (1921) $\rightarrow$ SBI (1955: Gorwala); 14 Banks (1969: $\ge$₹50 Cr); 6 Banks (1980: $\ge$₹200 Cr); Narasimham I (1991: private banks, prudential norms) & II (1998: Basel, recovery).
-* **Scheduled Status**: Second Schedule of RBI Act 1934; Capital $\ge$ ₹5 Lakh; Not detrimental to depositors; Gets LAF access.
+* **History**: Imperial Bank (1921) → SBI (1955: Gorwala); 14 Banks (1969: ≥₹50 Cr); 6 Banks (1980: ≥₹200 Cr); Narasimham I (1991: private banks, prudential norms) & II (1998: Basel, recovery).
+* **Scheduled Status**: Second Schedule of RBI Act 1934; Capital ≥ ₹5 Lakh; Not detrimental to depositors; Gets LAF access.
 * **RRBs (1975)**: Center **50%**, Sponsor Bank **35%**, State **15%**. PSL = 75%.
 * **Differentiated Banks (Nachiket Mor, 2014)**:
   * **Payments Banks**: Demand deposits only (cap ₹2 Lakh); **NO lending, NO credit cards**; 75% in G-Secs (SLR); Min capital ₹100 Cr (Airtel, IPPB).
-  * **Small Finance Banks**: Deposits + **Lending permitted**; PSL = 75%; 50% loans $\le$ ₹25 Lakh; Min capital ₹200 Cr (AU, Equitas).
+  * **Small Finance Banks**: Deposits + **Lending permitted**; PSL = 75%; 50% loans ≤ ₹25 Lakh; Min capital ₹200 Cr (AU, Equitas).
 * **Capital Adequacy (CRAR)**: $\frac{\text{Tier 1} + \text{Tier 2}}{\text{RWA}} \times 100$.
   * Tier 1 = Going-concern (CET1: equity/reserves + AT1: perpetual bonds).
   * Tier 2 = Gone-concern (Subordinated debt/provisions).

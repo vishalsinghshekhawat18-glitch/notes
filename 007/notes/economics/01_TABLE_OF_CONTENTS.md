@@ -74,7 +74,7 @@ PART VIII: THE CAPSTONE: MASTER CONSOLIDATED REVISION & PYQ VAULT
 * **2.1 The Four Pillars of National Output**: GDP, NDP, GNP, and NNP defined from first principles.
 * **2.2 The Geographic vs. National Demarcation**: Domestic Territory vs. National Residency; Net Factor Income from Abroad (NFIA).
 * **2.3 The 2015 Methodological Shift by NSO**:
-  * Factor Cost ($FC$) $\longrightarrow$ Basic Price ($BP$) $\longrightarrow$ Market Price ($MP$).
+  * Factor Cost ($FC$) ⟶ Basic Price ($BP$) ⟶ Market Price ($MP$).
   * Disentangling Product Taxes/Subsidies from Production Taxes/Subsidies.
   * Headline GDP transition from GDP at Factor Cost to GDP at Market Price.
   * The Role of MCA-21 Database.

@@ -179,10 +179,10 @@ Understanding how goods are classified is the single most heavily tested area ac
 ```
 
 > **The Golden Test of Classification**: A good is NOT defined by its physical nature, but by its **end-use**.
-> * *Sugar bought by a household* $\longrightarrow$ Final Consumption Good.
-> * *Sugar bought by a sweet shop (halwai)* $\longrightarrow$ Intermediate Good.
-> * *Coal bought by a thermal power plant* $\longrightarrow$ Intermediate Good.
-> * *Coal bought by a household for domestic heating* $\longrightarrow$ Final Good.
+> * *Sugar bought by a household* ⟶ Final Consumption Good.
+> * *Sugar bought by a sweet shop (halwai)* ⟶ Intermediate Good.
+> * *Coal bought by a thermal power plant* ⟶ Intermediate Good.
+> * *Coal bought by a household for domestic heating* ⟶ Final Good.
 
 ---
 
@@ -317,7 +317,7 @@ Economics categorizes all goods in society by two physical and legal characteris
 
 ## 1.9 The 60-Second Memory Skeleton (Rapid Recall)
 
-* **Scarcity $\rightarrow$ Choice $\rightarrow$ Opportunity Cost**: Every economic decision involves sacrifice.
+* **Scarcity → Choice → Opportunity Cost**: Every economic decision involves sacrifice.
 * **PPF Curve**: Points on curve = full employment; slope = Marginal Rate of Transformation ($MRT$).
 * **Three Questions**: What (allocation), How (technique: LIT vs CIT), For Whom (distribution: rent, wages, interest, profit).
 * **Four Sectors**: Households (factor owners/consumers), Firms (producers), Govt (tax/transfers/public goods), External (trade).
@@ -327,13 +327,13 @@ Economics categorizes all goods in society by two physical and legal characteris
 * **Goods Matrix**:
   * *Excludable + Rival* = **Private Good** (Food, clothes)
   * *Excludable + Non-Rival* = **Club Good** (Cinema, toll highway)
-  * *Non-Excludable + Rival* = **Common Pool Resource** (Fisheries, groundwater $\rightarrow$ Tragedy of Commons)
-  * *Non-Excludable + Non-Rival* = **Public Good** (Defense $\rightarrow$ Free-rider problem $\rightarrow$ Tax funding)
+  * *Non-Excludable + Rival* = **Common Pool Resource** (Fisheries, groundwater → Tragedy of Commons)
+  * *Non-Excludable + Non-Rival* = **Public Good** (Defense → Free-rider problem → Tax funding)
 * **Special Goods**:
-  * *Merit*: Positive externalities $\rightarrow$ State subsidy
-  * *Demerit*: Negative externalities $\rightarrow$ Sin taxes
-  * *Veblen*: Conspicuous luxury $\rightarrow$ Price $\uparrow$, Demand $\uparrow$
-  * *Giffen*: Non-luxury inferior staple $\rightarrow$ Price $\uparrow$, Demand $\uparrow$ (Income effect > Substitution effect).
+  * *Merit*: Positive externalities → State subsidy
+  * *Demerit*: Negative externalities → Sin taxes
+  * *Veblen*: Conspicuous luxury → Price ↑, Demand ↑
+  * *Giffen*: Non-luxury inferior staple → Price ↑, Demand ↑ (Income effect > Substitution effect).
 
 ---
 

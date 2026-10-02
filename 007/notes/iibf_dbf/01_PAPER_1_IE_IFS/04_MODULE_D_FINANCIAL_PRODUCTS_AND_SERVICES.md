@@ -597,8 +597,8 @@ Set up under RBI guidelines pursuant to the Payment and Settlement Systems Act, 
   - Scheduled Commercial Banks with a **Net Worth of at least ₹100 Crore** can undertake standalone credit card business independently or in tie-up with card-issuing banks without prior RBI approval.
 • **Primary Dealership (PD) Business:**
   - Eligible commercial banks can undertake departmental Primary Dealership in G-Secs with RBI approval if they satisfy:
-    1. Minimum Net Worth $\ge$ **₹1,000 Crore**.
-    2. Minimum CRAR $\ge$ **12.0%**.
+    1. Minimum Net Worth ≥ **₹1,000 Crore**.
+    2. Minimum CRAR ≥ **12.0%**.
     3. Net NPAs not exceeding **3.0%**.
     4. Demonstrated record of net profit over the last 3 consecutive financial years.
 

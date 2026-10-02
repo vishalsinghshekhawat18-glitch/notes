@@ -105,7 +105,7 @@ Section 8 of the Representation of the People Act, 1951 provides the statutory a
 ├────────────────────┼──────────────────────────────────────┼──────────────────────────────────────┤
 │ Section 8(3)       │ RESIDUARY CLAUSE: Conviction for     │ Disqualified from date of conviction │
 │ (Crucial Clause)   │ ANY OTHER OFFENCE resulting in       │ AND continues for SIX (6) YEARS since│
-│                    │ imprisonment for $\ge$ TWO (2) YEARS │ his release from prison.             │
+│                    │ imprisonment for ≥ TWO (2) YEARS │ his release from prison.             │
 └────────────────────┴──────────────────────────────────────┴──────────────────────────────────────┘
 ```
 
@@ -220,6 +220,21 @@ Delimitation literally means the act or process of fixing limits or boundaries o
 │                         │      │ under Article 19(1)(a); struck down unamended Companies Act cap.│
 └─────────────────────────┴──────┴─────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+> ### 🔬 [SCHOLARLY DISCOURSE & EMPIRICAL METRICS: OXFORD HANDBOOK (2024)]
+> *(Optional Deep Dive: Read for Mains Value-Addition & Academic Citations; Skip on Rapid First Read)*
+>
+> * **The Political Finance Paradox & Electoral Bonds Autopsy (Dr. Milan Vaishnav, *Oxford Handbook of Indian Politics*)**:
+>   - Vaishnav identifies a structural contradiction in Indian elections: candidate expenditure is strictly capped by the ECI under Rule 90 of the Conduct of Elections Rules, yet **political party expenditure remains legally uncapped**.
+>   - **Empirical Evidence on the Electoral Bonds Regime (2018–2024)**:
+>     - Of the over ₹16,518 Crores worth of Electoral Bonds sold between March 2018 and January 2024, **over 94% were purchased in the highest denomination (₹1 Crore)**. This debunked the government's claim that bonds were a tool for ordinary citizen micro-donations; they operated as an opaque vehicle for large corporate conglomerates and infrastructure contractors.
+>     - **Structural Asymmetry**: The ruling national party captured **more than 55% to 60%** of all total bond value, with regional ruling parties taking another 30%, starving national opposition parties of capital.
+>     - The Supreme Court's unanimous judgment in *ADR v. Union of India (2024)* vindicated this empirical critique: striking down amendments to Section 182 of the Companies Act (which previously allowed loss-making shell companies to donate unlimited sums) as a violation of the voter's Right to Information under Article 19(1)(a).
+> * **Voter Behavior and Media Polarization (Prof. Sanjay Kumar & Dr. Rahul Verma)**:
+>   - Utilizing seven decades of CSDS-Lokniti survey data, Kumar and Verma illustrate the decline of traditional local caste-arithmetic voting.
+>   - It has been replaced by a dual driver: **direct targeted welfare delivery** (the "Labharthi" phenomenon) coupled with **media polarization**, where traditional television and algorithmic social media messaging significantly magnify partisan loyalty prior to balloting.
 
 ---
 

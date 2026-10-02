@@ -25,7 +25,7 @@ FORMAT: 60-Second Retrieval Tables | Formulae | Traps | High-Yield Fact Vault
 │ NGT Disposal Deadline     │ Mandatory SIX (6) MONTHS disposal from date of filing (Sec 18)     │
 │ NGT Direct Appeal         │ Lies DIRECTLY TO SUPREME COURT within 90 days (Section 22)         │
 │ Excluded from NGT         │ Wildlife (Protection) Act 1972 & Forest Rights Act 2006 (FRA)      │
-│ Consumer Forum Caps (2019)│ District $\le$ ₹50 L | State ₹50 L – ₹2 Cr | National > ₹2 Crore   │
+│ Consumer Forum Caps (2019)│ District ≤ ₹50 L | State ₹50 L – ₹2 Cr | National > ₹2 Crore   │
 └───────────────────────────┴────────────────────────────────────────────────────────────────────┘
 ```
 
