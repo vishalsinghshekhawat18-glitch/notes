@@ -19,7 +19,8 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ### [RELEASED] v004 — IIBF DBF / JAIIB: Complete 4-Paper Master Curriculum & Revision Vaults
 * **Release Date**: 2026-10-02
-* **Status**: Released & Deployed to GitHub Remote Repository
+* **Commit SHA**: `c594aa7`
+* **Status**: Deployed to GitHub Remote Repository
 * **Domain / Subject**: Banking & Financial Services (*IIBF Diploma in Banking & Finance / JAIIB*)
 * **Authoritative Courseware Unified**:
   - Official IIBF Macmillan Courseware:
