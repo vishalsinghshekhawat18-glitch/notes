@@ -3,7 +3,6 @@ import { db } from '../lib/db/client';
 import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 import {
   getAllLibraryData,
   getTopicWithConcepts,
@@ -39,8 +38,6 @@ describe('Web Application Slice: Library, Curriculum, and Concept Viewer Service
     await seedTopic9CanonicalKnowledge();
     // seedTopic10CanonicalKnowledge seeds Topic 10 (5 concepts)
     await seedTopic10CanonicalKnowledge();
-    // seedInflationCanonicalKnowledge seeds Inflation (5 concepts)
-    await seedInflationCanonicalKnowledge();
   }, 45000);
 
   afterAll(async () => {
@@ -49,7 +46,7 @@ describe('Web Application Slice: Library, Curriculum, and Concept Viewer Service
 
   it('1. should load all Library domains and subjects with topics and concept counts', async () => {
     const domains = await getAllLibraryData();
-    expect(domains.length).toBeGreaterThanOrEqual(2);
+    expect(domains.length).toBeGreaterThanOrEqual(1);
 
     const polityDomain = domains.find(
       (d) => d.slug === 'constitutional-law-governance' || d.slug === 'indian-governance-administration' || d.name.toLowerCase().includes('polity') || d.name.toLowerCase().includes('governance')
@@ -101,8 +98,8 @@ describe('Web Application Slice: Library, Curriculum, and Concept Viewer Service
     expect(equalityResults.length).toBeGreaterThanOrEqual(1);
     expect(equalityResults.some((r) => r.slug === 'article-14-equality-non-arbitrariness')).toBe(true);
 
-    const cpiResults = await searchConcepts('CPI');
-    expect(cpiResults.length).toBeGreaterThanOrEqual(1);
-    expect(cpiResults.some((r) => r.slug === 'price-indices-measurement-cpi-wpi-core-headline')).toBe(true);
+    const preambleResults = await searchConcepts('Preamble');
+    expect(preambleResults.length).toBeGreaterThanOrEqual(1);
+    expect(preambleResults.some((r) => r.slug === 'status-justiciability-amendability-of-the-preamble')).toBe(true);
   });
 });

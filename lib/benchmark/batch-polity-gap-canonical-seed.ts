@@ -3,7 +3,7 @@
 // Topics 22, 23, 24, 25: Constitutional Bodies, Statutory Commissions, Welfare Laws, Political Parties & Rajasthan Polity
 
 import { db } from '../db/client';
-import { CanonicalConceptDefinition } from './batch-e1-canonical-seed';
+import { CanonicalConceptDefinition } from './types';
 
 export const BATCH_POLITY_GAP_CONCEPTS: CanonicalConceptDefinition[] = [
   // =========================================================================

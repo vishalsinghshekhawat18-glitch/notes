@@ -4,7 +4,6 @@ import { seedBatchBCanonicalKnowledge, BATCH_B_CONCEPTS } from '../lib/benchmark
 import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 import {
   getTopicWithConcepts,
   getConceptWithFullContext,
@@ -38,7 +37,6 @@ describe('Phase 12: Indian Polity Batch B Canonical Knowledge Expansion', () => 
     await seedBatchBCanonicalKnowledge();
     await seedTopic9CanonicalKnowledge();
     await seedTopic10CanonicalKnowledge();
-    await seedInflationCanonicalKnowledge();
   }, 60000);
 
   it('1. should verify complete zero-omission coverage ledger for Batch B (25 semantic units)', async () => {
@@ -303,6 +301,6 @@ describe('Phase 12: Indian Polity Batch B Canonical Knowledge Expansion', () => 
     expect(ociResults.length).toBeGreaterThanOrEqual(1);
 
     const totalConcepts = await db.concept.count();
-    expect(totalConcepts).toBe(66); // 22 (Batch A) + 18 (Batch B) + 16 (T9) + 5 (T10) + 5 (Inflation)
+    expect(totalConcepts).toBe(61); // 22 (Batch A) + 18 (Batch B) + 16 (T9) + 5 (T10)
   });
 });

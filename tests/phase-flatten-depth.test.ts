@@ -24,7 +24,6 @@ import { seedBatchP4CanonicalKnowledge } from '../lib/benchmark/batch-p4-canonic
 import { seedBatchP5CanonicalKnowledge } from '../lib/benchmark/batch-p5-canonical-seed';
 import { seedBatchP6CanonicalKnowledge } from '../lib/benchmark/batch-p6-canonical-seed';
 import { seedBatchP7CanonicalKnowledge } from '../lib/benchmark/batch-p7-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 
 describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
   beforeAll(async () => {
@@ -59,7 +58,6 @@ describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
     await seedBatchP5CanonicalKnowledge();
     await seedBatchP6CanonicalKnowledge();
     await seedBatchP7CanonicalKnowledge();
-    await seedInflationCanonicalKnowledge();
   }, 120000);
 
   it('1. should verify that all concepts contain complete content blocks with zero gating', async () => {
@@ -71,7 +69,6 @@ describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
       '73rd-amendment-panchayati-raj-architecture-and-devolution',
       'political-demography-electoral-geography-social-stratification-rajasthan',
       'constitutional-models-sovereignty-uk-usa-indian-synthesis',
-      'inflation-definition-distinctions-real-nominal',
     ];
 
     for (const slug of sampleConcepts) {
@@ -96,7 +93,6 @@ describe('Phase Flatten Depth: Full Canonical Content Architecture', () => {
       'local-governance-panchayats-and-municipalities',
       'rajasthan-state-polity-and-governance',
       'comparative-constitutional-systems',
-      'inflation-dynamics-measurement-policy',
     ];
 
     for (const tSlug of testTopicSlugs) {

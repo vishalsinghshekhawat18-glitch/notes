@@ -13,16 +13,12 @@ import { describe, it, expect, beforeAll } from 'vitest';
 import { renderMarkdownWithMath } from '../lib/render/markdown-math';
 import { db } from '../lib/db/client';
 import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
-import { seedBatchE1CanonicalKnowledge } from '../lib/benchmark/batch-e1-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 
 describe('Markdown & KaTeX Math Rendering Pipeline', () => {
   beforeAll(async () => {
     const count = await db.contentBlock.count();
     if (count === 0) {
       await seedBatchACanonicalKnowledge();
-      await seedBatchE1CanonicalKnowledge();
-      await seedInflationCanonicalKnowledge();
     }
   });
 

@@ -1,15 +1,5 @@
 import { db } from '../lib/db/client';
 import { seedPolityMasterCanonicalKnowledge } from '../lib/benchmark/batch-polity-master-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
-import { seedBatchE1CanonicalKnowledge } from '../lib/benchmark/batch-e1-canonical-seed';
-import { seedBatchE2CanonicalKnowledge } from '../lib/benchmark/batch-e2-canonical-seed';
-import { seedBatchE3CanonicalKnowledge } from '../lib/benchmark/batch-e3-canonical-seed';
-import { seedBatchE4CanonicalKnowledge } from '../lib/benchmark/batch-e4-canonical-seed';
-import { seedBatchE5CanonicalKnowledge } from '../lib/benchmark/batch-e5-canonical-seed';
-import { seedBatchE6CanonicalKnowledge } from '../lib/benchmark/batch-e6-canonical-seed';
-import { seedBatchE7CanonicalKnowledge } from '../lib/benchmark/batch-e7-canonical-seed';
-import { seedBatchE8CanonicalKnowledge } from '../lib/benchmark/batch-e8-canonical-seed';
-import { seedIIBFMasterCanonicalKnowledge } from '../lib/benchmark/batch-iibf-master-canonical-seed';
 import { seedBatchGASchemesCanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-canonical-seed';
 import { seedBatchGASchemesBatch2CanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-batch-2-canonical-seed';
 import { seedBatchStaticGABatch2CanonicalKnowledge } from '../lib/benchmark/batch-static-ga-batch-2-canonical-seed';
@@ -62,26 +52,6 @@ export async function main() {
 
   // Seed Modernized Indian Polity Master (Topics 1-25: 136 concepts, 4 blocks, 8 exam mappings, 272+ questions)
   await seedPolityMasterCanonicalKnowledge();
-
-  // Seed Economics Batch 1 (Topics 27-32: 17 concepts)
-  await seedBatchE1CanonicalKnowledge();
-  // Seed Economics Batch 2 (Topics 33-39: 15 concepts)
-  await seedBatchE2CanonicalKnowledge();
-  // Seed Economics Batch 3 (Topics 40-48: 21 concepts)
-  await seedBatchE3CanonicalKnowledge();
-  // Seed Economics Batch 4 (Topics 49-61: 26 concepts)
-  await seedBatchE4CanonicalKnowledge();
-  // Seed Economics Batch 5 (Topics 62-76: 27 concepts)
-  await seedBatchE5CanonicalKnowledge();
-  // Seed Economics Batch 6 (Topics 77-85: 18 concepts)
-  await seedBatchE6CanonicalKnowledge();
-  // Seed Economics Batch 7 (Topics 86-94: 18 concepts)
-  await seedBatchE7CanonicalKnowledge();
-  // Seed Economics Batch 8 (Topics 95-102: 18 concepts - Final Capstone)
-  await seedBatchE8CanonicalKnowledge();
-
-  // Seed Modernized IIBF & Banking Regulations Master (Topics 38-62: 80 concepts, 4 blocks, 8 exam mappings, 160+ questions)
-  await seedIIBFMasterCanonicalKnowledge();
 
   // Seed Static GA & Government Schemes (Topics 52-56: 8 concepts)
   await seedBatchGASchemesCanonicalKnowledge();

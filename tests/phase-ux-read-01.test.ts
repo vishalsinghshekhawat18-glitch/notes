@@ -12,7 +12,6 @@ import { seedBatchP4CanonicalKnowledge } from '../lib/benchmark/batch-p4-canonic
 import { seedBatchP5CanonicalKnowledge } from '../lib/benchmark/batch-p5-canonical-seed';
 import { seedBatchP6CanonicalKnowledge } from '../lib/benchmark/batch-p6-canonical-seed';
 import { seedBatchP7CanonicalKnowledge } from '../lib/benchmark/batch-p7-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 
 describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
   beforeAll(async () => {
@@ -27,7 +26,6 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
     await seedBatchP5CanonicalKnowledge();
     await seedBatchP6CanonicalKnowledge();
     await seedBatchP7CanonicalKnowledge();
-    await seedInflationCanonicalKnowledge();
   }, 180000);
 
   it('1. Every topic should have a continuous reading data loader with all canonical concepts', async () => {
@@ -36,7 +34,7 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
       select: { slug: true, title: true },
     });
 
-    expect(topics.length).toBeGreaterThanOrEqual(21);
+    expect(topics.length).toBeGreaterThanOrEqual(20);
 
     for (const t of topics) {
       const fullTopic = await getTopicWithFullConcepts(t.slug);
@@ -55,7 +53,6 @@ describe('Phase UX-READ-01: Continuous Topic Reading Mode', () => {
       'the-union-judiciary',
       'centre-state-relations-and-federalism',
       'emergency-provisions-and-safeguards',
-      'inflation-dynamics-measurement-policy',
     ];
 
     for (const slug of testTopicSlugs) {

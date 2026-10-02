@@ -5,7 +5,7 @@
  */
 
 import { db } from '../db/client';
-import { CanonicalConceptDefinition } from './batch-e1-canonical-seed';
+import { CanonicalConceptDefinition } from './types';
 import { 
   AMIT_SENGUPTA_GEOGRAPHY_SOURCE, 
   AMIT_SENGUPTA_GEOGRAPHY_COVERAGE_UNITS,

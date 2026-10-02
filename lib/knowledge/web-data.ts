@@ -1,14 +1,5 @@
 import { db } from '@/lib/db/client';
 import { seedPolityMasterCanonicalKnowledge } from '@/lib/benchmark/batch-polity-master-canonical-seed';
-import { seedBatchE1CanonicalKnowledge } from '@/lib/benchmark/batch-e1-canonical-seed';
-import { seedBatchE2CanonicalKnowledge } from '@/lib/benchmark/batch-e2-canonical-seed';
-import { seedBatchE3CanonicalKnowledge } from '@/lib/benchmark/batch-e3-canonical-seed';
-import { seedBatchE4CanonicalKnowledge } from '@/lib/benchmark/batch-e4-canonical-seed';
-import { seedBatchE5CanonicalKnowledge } from '@/lib/benchmark/batch-e5-canonical-seed';
-import { seedBatchE6CanonicalKnowledge } from '@/lib/benchmark/batch-e6-canonical-seed';
-import { seedBatchE7CanonicalKnowledge } from '@/lib/benchmark/batch-e7-canonical-seed';
-import { seedBatchE8CanonicalKnowledge } from '@/lib/benchmark/batch-e8-canonical-seed';
-import { seedIIBFMasterCanonicalKnowledge } from '@/lib/benchmark/batch-iibf-master-canonical-seed';
 import { seedBatchGASchemesCanonicalKnowledge } from '@/lib/benchmark/batch-ga-schemes-canonical-seed';
 import { seedBatchEnglishCanonicalKnowledge } from '@/lib/benchmark/batch-english-canonical-seed';
 import { seedAncientMasterCanonicalKnowledge } from '@/lib/benchmark/batch-ancient-master-canonical-seed';
@@ -22,23 +13,10 @@ import { seedEthicsBehaviorSportsCanonicalKnowledge } from '@/lib/benchmark/batc
 import { seedRajasthanMasterCanonicalKnowledge } from '@/lib/benchmark/batch-rajasthan-master-canonical-seed';
 import { seedBatchComputerAptitudeCanonicalKnowledge } from '@/lib/benchmark/batch-computer-aptitude-canonical-seed';
 
-/**
- * Ensures that all canonical benchmark data (Polity, Economics, Science, IIBF, History, Quant, English, RPSC RAS)
- * is present in the database for web application rendering.
- */
 export async function ensureCanonicalDataSeeded() {
   const conceptCount = await db.concept.count();
   if (conceptCount === 0) {
     await seedPolityMasterCanonicalKnowledge();
-    await seedBatchE1CanonicalKnowledge();
-    await seedBatchE2CanonicalKnowledge();
-    await seedBatchE3CanonicalKnowledge();
-    await seedBatchE4CanonicalKnowledge();
-    await seedBatchE5CanonicalKnowledge();
-    await seedBatchE6CanonicalKnowledge();
-    await seedBatchE7CanonicalKnowledge();
-    await seedBatchE8CanonicalKnowledge();
-    await seedIIBFMasterCanonicalKnowledge();
     await seedBatchGASchemesCanonicalKnowledge();
     await seedBatchEnglishCanonicalKnowledge();
     await seedAncientMasterCanonicalKnowledge();
@@ -77,10 +55,8 @@ export interface DomainWithSubjects {
 }
 
 const SUBJECT_CODE_MAP: Record<string, string> = {
-  'indian-economy': 'ECO-01',
   'indian-polity': 'GOV-01',
   'basic-science': 'SCI-01',
-  'iibf-banking-regulations': 'BNK-01',
   'ancient-indian-history': 'HIS-01',
   'quantitative-aptitude-and-data-interpretation': 'APT-01',
   'computer-aptitude': 'CMP-01',

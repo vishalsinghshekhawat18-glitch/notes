@@ -54,18 +54,99 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 ---
 
 ### [STAGED / IN PROGRESS] v006 — Political Science & Constitutional Governance Sovereign Master Architecture
-* **Status**: Staged Locally in `007/` (Development Cycle Initialized)
+* **Status**: Staged Locally in `007/` (Parts I, II & III Complete: Batches 1, 2, 3 & 4 Authored)
 * **Domain / Subject**: Political Science, Constitutional Architecture & Indian Governance
-* **Dedicated Operational Base**:
-  - Skill: `007/skills/political-science-master-skill.md`
-  - Drop Zone: `007/sources/political_science/`
-  - Master Chapters: `007/notes/political_science/`
-  - Revision Vaults: `007/revision/political_science/`
-* **Target Multi-Exam Benchmarks**:
-  - UPSC Civil Services (Prelims & Mains GS-2 / PSIR Optional)
-  - RPSC RAS (Paper 3: Indian Political System & State Administration)
-  - UGC-NET / SLET Political Science
-  - APFC / EPFO / SSC CGL Indian Polity
+* **Foundational Gold Standard Ingested**:
+  - M. Laxmikanth, *Indian Polity* (8th Edition, McGraw Hill 2026, 1,198 pages, 96 chapters)
+  - The Constitution of India (Bare Act, Articles 1 to 51-A, Article 368)
+* **Batch 1 Master Modules Authored (`007/notes/political_science/`)**:
+  1. `02_CHAPTER_01_HISTORICAL_UNDERPINNINGS_CONSTITUENT_ASSEMBLY.md`:
+     - Company Rule (1773–1858) & Crown Rule (1858–1947) statutory vector.
+     - Constituent Assembly formation, Cabinet Mission ratios, dual mechanics (Constitution-making vs. Provisional Parliament under Prasad/Mavalankar).
+     - Full committee taxonomy, 7-member Drafting Committee, calligraphic and artistic provenance (Raizada, Bose, Sinha).
+  2. `03_CHAPTER_02_SALIENT_FEATURES_PREAMBLE_PHILOSOPHY.md`:
+     - Concept of Constitutionalism, written vs. unwritten constitutions, 12 salient features.
+     - Global borrowing matrix (UK, US, Ireland, Canada, Australia, Germany, USSR, France, SA, Japan).
+     - Preamble deconstruction (4 ingredients, 9 key terms, 42nd Amendment additions).
+     - Jurisprudential trilogy: *Berubari (1960)* ➔ *Kesavananda Bharati (1973)* ➔ *LIC of India (1995)*.
+  3. `04_CHAPTER_03_UNION_TERRITORY_CITIZENSHIP.md`:
+     - Articles 1–4: Indestructible Union of destructible states, simple majority re-organization.
+     - Cession jurisprudence: *Berubari (1960)* requiring Art 368 vs. *Maganbhai (1969)* executive boundary settlement; 100th Amendment (2015).
+     - Linguistic statehood chronology (Dhar, JVP, Potti Sreeramulu fast, Andhra 1953, Fazl Ali SRC 1955, 1956 Act, 1960–2026 state additions).
+     - Articles 5–11 & Citizenship Act 1955: 5 modes of acquisition, 3 modes of loss.
+     - CAA 2019 mechanics, Section 6A Assam Accord Supreme Court validation (2024), OCI privileges & restrictions.
+* **Batch 2 Master Modules Authored (`007/notes/political_science/`)**:
+  4. `05_CHAPTER_04_FUNDAMENTAL_RIGHTS_DOCTRINES_WRITS.md`:
+     - Part III architecture: Articles 12 (State instrumentality test - *Ajay Hasia*) & 13 (Eclipse, Severability, Non-waiver).
+     - Right to Equality (Articles 14–18): Reasonable classification, *Indra Sawhney 1992* (27% OBC, creamy layer, 50% cap), EWS 10% (*Janhit Abhiyan 2022*), Untouchability Act 1955, National Awards (*Balaji Raghavan 1996*).
+     - Right to Freedom (Articles 19–22): 6 freedoms, reasonable restrictions; Article 20 criminal guards (ex-post facto, double jeopardy, self-incrimination / *Selvi 2010* narco ban); Article 21 revolution (*A.K. Gopalan* to *Maneka Gandhi* Due Process & Golden Triangle; Privacy *Puttaswamy 2017*, Livelihood *Olga Tellis 1985*, Passive Euthanasia *Common Cause 2018*); Article 21-A (RTE Act); Article 22 (Punitive vs. Preventive detention 3-month board).
+     - Exploitation (23–24), Religion (25–28: Individual vs. Collective, Essential Religious Practices test, Tax vs. Fee), Minorities (29–30).
+     - Article 32: Heart and Soul (Ambedkar); The 5 Prerogative Writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto); Comparative jurisdiction with Article 226.
+     - Articles 31A, 31B, 31C (Primacy of 39(b)&(c) over 14&19), 33, 34, 35.
+  5. `06_CHAPTER_05_DPSP_FUNDAMENTAL_DUTIES_INTERACTION.md`:
+     - Part IV: Instrument of Instructions, non-justiciable under Article 37; Socialistic, Gandhian, and Liberal-Intellectual streams.
+     - Directives outside Part IV: Articles 335 (SC/ST efficiency), 350-A (Mother tongue primary), 351 (Hindi spread).
+     - 30-year judicial war: *Champakam Dorairajan 1951* ➔ *Golaknath 1967* ➔ 25th Amendment 1971 ➔ *Kesavananda 1973* ➔ 42nd Amendment ➔ *Minerva Mills 1980* (Bedrock balance as Basic Structure).
+     - Part IV-A (Article 51-A): Swaran Singh Committee (1976), 42nd Amendment (10 duties from USSR), 86th Amendment (11th duty 2002); Verma Committee (1999) penal enactments, *AIIMS 2002* reasonableness touchstone.
+  6. `07_CHAPTER_06_AMENDMENT_PROCEDURE_BASIC_STRUCTURE.md`:
+     - Article 368: Three types of amendment (Simple outside 368, Special, Special + State ratification); Step-by-step procedure; Strict ban on Joint Sitting (no Art 108); Mandatory Presidential Assent (24th Amendment 1971).
+     - 22-year battle: *Shankari Prasad 1951* ➔ *Sajjan Singh 1965* ➔ *Golaknath 1967* ➔ 24th Amendment ➔ *Kesavananda Bharati 1973* (7:6 bench, Basic Structure Doctrine born on 24 April 1973).
+     - Post-1973 tests: *Indira Gandhi 1975*, *Minerva Mills 1980*, *Waman Rao 1981* (24 April 1973 cut-off date), *S.R. Bommai 1994*, *I.R. Coelho 2007* (Ninth Schedule post-1973 reviewability), *NJAC 2015* (Judicial independence).
+     - Authoritative compendium of 19 Basic Structure elements.
+* **Batch 3 Master Modules Authored (`007/notes/political_science/`)**:
+  7. `08_CHAPTER_07_PARLIAMENTARY_VS_PRESIDENTIAL.md`:
+     - Executive-Legislative Fusion vs. Strict Separation of Powers; Bagehot's "efficient secret".
+     - Westminster model in India: CAD Ambedkar debate, 4 structural rationales (familiarity, executive responsibility, heterogeneity, legislative-executive friction avoidance).
+     - Indian vs. British parliamentary model divergence (Republican vs. Monarchical, Parliamentary Supremacy vs. Constitutional Sovereignty, Non-MP minister 6-month leeway, Shadow Cabinet absence, legal responsibility of ministers).
+     - Article 74 evolution (binding aid and advice, 42nd Amendment mandatory vs. 44th Amendment one-time reconsideration, judicial inquiry shield under Art 74(2)).
+  8. `09_CHAPTER_08_FEDERAL_SYSTEM_CENTRE_STATE_RELATIONS.md`:
+     - Three-tier relations: Legislative (Arts 245–255, 7th Schedule 42nd Amendment transfers, Art 254(2) Presidential assent shield, 5 exceptional overrides Arts 249/250/252/253/356), Administrative (Arts 256–263, Article 365 non-compliance hammer, All India Services Art 312), Financial (Arts 268–293, GST 101st Amendment, Article 246A, 15th FC 41% devolution formula).
+     - Inter-governmental dispute resolution, Sarkaria Commission (1988) & Punchhi Commission (2010) landmark federalism recommendations.
+  9. `10_CHAPTER_09_INTER_STATE_RELATIONS_REGIONAL_COUNCILS.md`:
+     - Article 261 Full Faith and Credit Clause (civil public acts, records, proceedings).
+     - Article 262 Inter-State River Water Disputes Act 1956 (§11 bar of jurisdiction vs. Article 136 Special Leave Petition oversight).
+     - Article 263 Inter-State Council (Sarkaria recommendation 1990, mandate, composition).
+     - Part XIII (Articles 301–307) Freedom of Trade, Commerce, and Intercourse (statutory exceptions, state taxation restrictions).
+     - Statutory Zonal Councils (States Reorganisation Act 1956, 5 councils) vs. North Eastern Council (NEC Act 1971 + Sikkim 2002 amendment).
+  10. `11_CHAPTER_10_EMERGENCY_PROVISIONS_DOCTRINES.md`:
+     - Part XVIII: Article 352 National Emergency (grounds, 44th Amendment 'armed rebellion' substitution, written cabinet advice, special majority approval within 1 month, 6-month extension rule, simple majority revocation).
+     - Fundamental Rights suspension: Article 358 (automatic suspension of Art 19 during external emergency only) vs. Article 359 (presidential order, non-derogable Articles 20 & 21, judicial review, *ADM Jabalpur* overruling by *Puttaswamy 2017*).
+     - Article 356 President's Rule & Article 365: Grounds, Parliamentary approval, maximum 3-year ceiling (with Election Commission certification after 1 year), *S.R. Bommai (1994)* 8-point landmark doctrine on mala fide dissolution and judicial review.
+     - Article 360 Financial Emergency: Proclamation, Parliamentary approval (simple majority within 2 months), indefinite duration, executive powers over state salaries and money bills.
+* **Batch 4 Master Modules Authored (`007/notes/political_science/`)**:
+  11. `12_CHAPTER_11_PRESIDENT_VICE_PRESIDENT.md`:
+      - Electoral College (Article 54) mathematics: MLA vote value formula (1971 census freeze under 84th AA 2001 until post-2026), MP vote value formula (700 post-J&K reorganization), PR-STV Quota formula, ₹15,000 security deposit & 1/6th vote threshold.
+      - Article 71 Supreme Court exclusive jurisdiction over election disputes.
+      - Article 61 Impeachment: Sole ground "Violation of the Constitution", 1/4th notice, two-thirds of TOTAL MEMBERSHIP in both houses, nominated MPs vote while MLAs excluded.
+      - Article 111 Veto architecture: Absolute, Suspensive (overridden by simple majority, barred for Money Bills), Pocket veto (Zail Singh 1986). Article 201 State Bill veto asymmetry.
+      - Article 123 Ordinance making: Recess condition, co-extensive powers, 6 weeks from reassembly (~7.5 months max), *R.C. Cooper (1970)*, *D.C. Wadhwa (1987)*, *Krishna Kumar Singh (2017)* 7-judge mandatory tabling doctrine.
+      - Article 72 Clemency: 5 modalities (Pardon, Commutation, Remission, Respite, Reprieve); Article 72 vs Article 161 (Court Martial & Death sentence pardon exclusivity); *Kehar Singh (1989)* & *Epuru Sudhakar (2006)* judicial review limits.
+      - Vice-President (Articles 63–71): Electoral college (All MPs of LS & RS, zero MLA representation), Article 67(b) removal (initiated in RS only, Effective Majority in RS + Simple Majority in LS).
+  12. `13_CHAPTER_12_PRIME_MINISTER_COUNCIL_CABINET_COMMITTEES.md`:
+      - Prime Minister as de facto executive; Article 75 appointment and situational discretion; Article 78 triad of duties; dissolution of entire cabinet upon PM death/resignation.
+      - Article 74 & 75 Council of Ministers: 91st Amendment Act 2003 (15% LS ceiling, anti-defection ministerial ban); Collective Responsibility (Art 75(3)) to Lok Sabha alone; Individual Responsibility (Art 75(2)); zero legal responsibility in India.
+      - Council of Ministers vs The Cabinet: Size, constitutional introduction (Article 352 via 44th AA 1978; absent in 1950 text); Three ministerial tiers (Cabinet, MoS Independent/Attached, Deputy).
+      - Cabinet Committees: Extra-constitutional (Rules of Business 1961), Standing vs Ad-Hoc; 8 Standing committees (ACC, CCS, CCEA, CCPA "Super-Cabinet", Investment & Growth, Employment & Skill Development chaired by PM; Accommodation and Parliamentary Affairs chaired by senior ministers); Cabinet Secretariat and Cabinet Secretary (No. 11 precedence).
+  13. `14_CHAPTER_13_PARLIAMENT_OF_INDIA_LEGISLATIVE_PROCEDURE.md`:
+      - Article 79 Tripartite Parliament (President + RS + LS); Rajya Sabha (Article 80, 250 max, 245 current, 12 nominated LSAS, PR-STV open ballot *Kuldip Nayar 2006*, 6-year term under RPA 1951); Lok Sabha (Article 81, 550 max post-104th AA 2019 discontinuing Anglo-Indian nominations, 543 current, 1971 seat freeze until post-2026, 106th AA 2023 *Nari Shakti Vandan Adhiniyam* 33% women's reservation).
+      - Presiding Officers: Speaker & Deputy Speaker (Articles 93–96, effective majority removal); Speaker's exclusive prerogatives (Money Bill certification Art 110(3), Joint Sitting presiding Art 118(4), 10th Schedule defection *Kihoto Hollohan 1992*); Chairman RS non-member status and ban on presiding over Joint Sitting.
+      - Four categories of Bills: Ordinary, Money (Art 110 exclusive LS powers, RS 14-day limit), Financial Bill (I) (Art 117(1)), Financial Bill (II) (Art 117(3)); Joint Sitting (Article 108: Ordinary & Financial only, Simple Majority of present and voting, barred for Money Bills and Art 368).
+      - Budgetary procedure (Arts 112–117): 6 stages, Charged vs Made expenditure, Cut Motions (Policy ₹1, Economy, Token ₹100), Guillotine closure, Appropriation Bill (Art 114), Finance Bill (75-day rule).
+      - Parliamentary Committees: Financial triad (PAC 22 members with opposition chairman convention, Estimates 30 members all-LS with zero RS, CoPU 22 members); 24 DRSCs (31 members: 21 LS + 10 RS); ministerial membership prohibition; Parliamentary Privileges (Art 105 individual civil arrest immunity 40 days vs collective breach of privilege).
+* **Rapid Revision Matrix Sheets (`007/revision/political_science/`)**:
+  - `01_REV_CHAPTER_01_HISTORICAL_CONSTITUENT_ASSEMBLY.md`
+  - `02_REV_CHAPTER_02_SALIENT_FEATURES_PREAMBLE.md`
+  - `03_REV_CHAPTER_03_UNION_CITIZENSHIP.md`
+  - `04_REV_CHAPTER_04_FUNDAMENTAL_RIGHTS.md`
+  - `05_REV_CHAPTER_05_DPSP_DUTIES.md`
+  - `06_REV_CHAPTER_06_AMENDMENT_BASIC_STRUCTURE.md`
+  - `07_REV_CHAPTER_07_PARLIAMENTARY_SYSTEM.md`
+  - `08_REV_CHAPTER_08_CENTRE_STATE_RELATIONS.md`
+  - `09_REV_CHAPTER_09_INTER_STATE_REGIONAL_COUNCILS.md`
+  - `10_REV_CHAPTER_10_EMERGENCY_PROVISIONS.md`
+  - `11_REV_CHAPTER_11_PRESIDENT_VICE_PRESIDENT.md`
+  - `12_REV_CHAPTER_12_PRIME_MINISTER_CABINET.md`
+  - `13_REV_CHAPTER_13_PARLIAMENT_COMMITTEES.md`
 * **Operating Rules**: Radical non-duplication, first-principles constitutional mechanisms, total replacement standard, zero push without explicit user sign-off.
 
 ---

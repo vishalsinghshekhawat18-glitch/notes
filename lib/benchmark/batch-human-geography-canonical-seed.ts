@@ -5,7 +5,7 @@
  */
 
 import { db } from '../db/client';
-import { CanonicalConceptDefinition } from './batch-e1-canonical-seed';
+import { CanonicalConceptDefinition } from './types';
 
 export const HUMAN_GEOGRAPHY_CANONICAL_CONCEPTS: CanonicalConceptDefinition[] = [
   {

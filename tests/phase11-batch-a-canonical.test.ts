@@ -3,7 +3,6 @@ import { db } from '../lib/db/client';
 import { seedBatchACanonicalKnowledge, BATCH_A_CONCEPTS } from '../lib/benchmark/batch-a-canonical-seed';
 import { seedTopic9CanonicalKnowledge } from '../lib/benchmark/topic-9-canonical-seed';
 import { seedTopic10CanonicalKnowledge } from '../lib/benchmark/topic-10-canonical-seed';
-import { seedInflationCanonicalKnowledge } from '../lib/benchmark/inflation-canonical-seed';
 import { BATCH_A_SEMANTIC_UNITS } from '../lib/ingestion/batch-a-semantic-inventory';
 import {
   getAllLibraryData,
@@ -38,7 +37,6 @@ describe('Phase 11: Indian Polity Batch A Canonical Knowledge Expansion', () => 
     await seedBatchACanonicalKnowledge();
     await seedTopic9CanonicalKnowledge();
     await seedTopic10CanonicalKnowledge();
-    await seedInflationCanonicalKnowledge();
   }, 45000);
 
   afterAll(async () => {
@@ -194,6 +192,6 @@ describe('Phase 11: Indian Polity Batch A Canonical Knowledge Expansion', () => 
     expect(coelhoResults.length).toBeGreaterThanOrEqual(1);
 
     const totalConcepts = await db.concept.count();
-    expect(totalConcepts).toBe(48); // 22 (Batch A) + 16 (T9) + 5 (T10) + 5 (Inflation)
+    expect(totalConcepts).toBe(43); // 22 (Batch A) + 16 (T9) + 5 (T10)
   });
 });
