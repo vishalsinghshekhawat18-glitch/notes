@@ -96,7 +96,7 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 1: Foundations of Economics; Professor Ryan, "Production Possibilities Frontier" (YouTube: jmB9cNfD3gQ)',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 1: Foundations of Economics; N. Gregory Mankiw, Principles of Economics',
         excerpt: 'The production-possibility frontier shows the maximum combinations of output that can be produced using all available resources efficiently. It is downward-sloping due to scarcity and trade-offs, and concave to the origin because specialized resources give rise to increasing opportunity costs.',
       },
       {
@@ -105,7 +105,7 @@ export const BATCH_E1_CONCEPTS: CanonicalConceptDefinition[] = [
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Professor Ryan, "Overproducing in the Economy" (YouTube: xRyfQuGLC_M), "Production Possibilities Frontier" (YouTube: jmB9cNfD3gQ) & "Capacity Utilization" (YouTube: 8G5oTUQ0lIs)',
+        locator: 'Hal Varian, Intermediate Microeconomics: A Modern Approach, Chapter 1; Paul Samuelson & William Nordhaus, Economics',
         excerpt: 'An economy achieves productive efficiency when it operates on its production frontier. Operating inside reflects underutilization. An economy can temporarily overproduce beyond its sustainable possible output (potential capacity) by running extra overtime shifts and delaying equipment maintenance, but this cannot be sustained in the long run and triggers inflationary bottlenecks.',
       },
     ],
@@ -137,8 +137,8 @@ Because these four productive factors are scarce, choosing to produce or consume
         title: 'The Production Possibility Frontier (PPF), MRT & Curvature Analysis',
         body: `The **Production Possibility Frontier (PPF)** (or Transformation Curve) is a geometric model illustrating the maximum feasible production combinations of two goods that an economy can produce using all available resources and technology fully and efficiently.
 
-### 1. Foundational Assumptions & Geometry of the PPF (Professor Ryan)
-In *"Production Possibilities Frontier"*, Professor Ryan establishes that the PPF isolates core economic trade-offs under four explicit assumptions:
+### 1. Foundational Assumptions & Geometry of the PPF
+Standard macroeconomic theory isolates core economic trade-offs under four explicit assumptions:
 1. **Resource Scarcity & Fixed Endowments:** The economy possesses a fixed aggregate stock of land, labor, physical capital, and entrepreneurship over the relevant time horizon.
 2. **Fixed State of Technology:** Production techniques and engineering knowledge are held constant.
 3. **Full Employment & Productive Efficiency:** All available resources are fully deployed with zero structural waste or idle slack.
@@ -239,8 +239,8 @@ The geometric model of the Production Possibility Frontier illustrates the trade
 
 ---
 
-### 4. Capacity Utilization: Operating Inside, On, and Beyond the PPF (Professor Ryan)
-In *"Capacity Utilization"*, *"Production Possibilities Frontier"*, and *"Overproducing in the Economy"*, Professor Ryan demonstrates that an economy's operating coordinate relative to its PPF directly reflects its **Capacity Utilization Rate**:
+### 4. Capacity Utilization: Operating Inside, On, and Beyond the PPF
+An economy's operating coordinate relative to its PPF directly reflects its **Capacity Utilization Rate**:
 
 $$\\text{Capacity Utilization Rate} = \\left( \\frac{\\text{Actual Output } (Y)}{\\text{Potential Output / Productive Capacity } (Y^*)} \\right) \\times 100$$
 
@@ -379,7 +379,7 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
           'When the economy operates strictly inside the frontier, ensuring that opportunity costs remain undefined.',
         ],
         correctAnswer: 'When productive resources are perfectly adaptable and equally suited to producing both goods, resulting in a constant Marginal Rate of Transformation along the entire frontier.',
-        explanation: 'As Professor Ryan demonstrates in "Production Possibilities Frontier", the standard bowed-out (concave) shape of a PPF is caused by the Law of Increasing Opportunity Cost, which arises because resources are specialized and not equally adaptable across different lines of production. If resources were instead completely homogeneous and perfectly substitutable between the two goods (such that shifting an additional unit of input always yields the same fixed ratio of output), the opportunity cost of producing an additional unit of Good X would never change. Geometrically, a constant opportunity cost produces a linear (straight-line) PPF with a constant slope (constant MRT).',
+        explanation: 'The standard bowed-out (concave) shape of a PPF is caused by the Law of Increasing Opportunity Cost, which arises because resources are specialized and not equally adaptable across different lines of production. If resources were instead completely homogeneous and perfectly substitutable between the two goods (such that shifting an additional unit of input always yields the same fixed ratio of output), the opportunity cost of producing an additional unit of Good X would never change. Geometrically, a constant opportunity cost produces a linear (straight-line) PPF with a constant slope (constant MRT).',
         trapExplanation: 'Option A confuses monetary inflation with physical production geometry. Option C confuses trade with domestic transformation. Option D confuses points inside the curve (underutilization) with the shape of the boundary itself.',
         difficulty: 'MEDIUM',
         isPYQ: false,
@@ -387,7 +387,7 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
       },
       {
         type: 'CONCEPT_CHECK',
-        stem: 'In economic textbooks, points outside the Production Possibility Frontier (PPF) are conventionally designated as "unattainable." However, as macroeconomic theory and Professor Ryan demonstrate, how can an economy temporarily "overproduce" beyond its potential output ($Y > Y^*$), and why is this operating state unsustainable in the long run?',
+        stem: 'In economic textbooks, points outside the Production Possibility Frontier (PPF) are conventionally designated as "unattainable." However, as macroeconomic theory demonstrates, how can an economy temporarily "overproduce" beyond its potential output ($Y > Y^*$), and why is this operating state unsustainable in the long run?',
         options: [
           'By running factories 24/7 with deferred maintenance, mandating extreme overtime shifts, and reducing unemployment below the natural rate ($u < \\text{NRU}$); it is unsustainable because worker fatigue, machine breakdowns, and input shortages trigger cost bottlenecks and accelerating inflation.',
           'By printing fiat currency to eliminate physical resource scarcity; it is unsustainable because the currency automatically loses legal tender status after two quarters.',
@@ -395,7 +395,7 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
           'By importing intermediate inputs from abroad with zero domestic labor; it is unsustainable because foreign nations legally seize domestic factories.',
         ],
         correctAnswer: 'By running factories 24/7 with deferred maintenance, mandating extreme overtime shifts, and reducing unemployment below the natural rate ($u < \\text{NRU}$); it is unsustainable because worker fatigue, machine breakdowns, and input shortages trigger cost bottlenecks and accelerating inflation.',
-        explanation: 'As Professor Ryan demonstrates in "Overproducing in the Economy", the PPF represents normal sustainable productive capacity ($Y^*$) at an optimal utilization rate (~80-85%), not an absolute mechanical ceiling. In the short run, an economy can produce beyond its normal potential output by running overtime shifts, operating machinery continuously without maintenance downtime, and drawing marginal workers into the labor force ($u < \\text{NRU}$). However, this overproduction cannot be sustained: physical equipment suffers accelerated depreciation and breakdowns, workers suffer burnout, and intense bidding for scarce inputs ignites demand-pull and cost-push inflation, compelling the economy to contract back to sustainable capacity.',
+        explanation: 'The PPF represents normal sustainable productive capacity ($Y^*$) at an optimal utilization rate (~80-85%), not an absolute mechanical ceiling. In the short run, an economy can produce beyond its normal potential output by running overtime shifts, operating machinery continuously without maintenance downtime, and drawing marginal workers into the labor force ($u < \\text{NRU}$). However, this overproduction cannot be sustained: physical equipment suffers accelerated depreciation and breakdowns, workers suffer burnout, and intense bidding for scarce inputs ignites demand-pull and cost-push inflation, compelling the economy to contract back to sustainable capacity.',
         trapExplanation: 'Option B confuses monetary expansion with physical resource constraints. Option C confuses sectoral reallocation with short-run overproduction. Option D invents fictitious foreign legal actions.',
         difficulty: 'MEDIUM',
         isPYQ: false,
@@ -461,11 +461,11 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
       },
       {
         id: 'CLM-ECO-02-06',
-        statement: 'To measure macroeconomic employment, the civilian non-institutional adult population is partitioned into three mutually exclusive categories: Employed (worked ≥1 hour for pay, ≥15 hours unpaid in a family business, or on temporary leave), Unemployed (without work, currently available, and actively searching within the past 4 weeks), and Not in the Labor Force (neither employed nor actively seeking, including retirees, students, homemakers, and discouraged workers). The headline Unemployment Rate (U / [E + U] × 100) is distorted by the Discouraged Worker Effect (where despairing job seekers stop searching, exiting the labor force and perversely lowering measured unemployment) and the classification of involuntary part-time workers as fully employed.',
+        statement: 'To measure macroeconomic employment, the adult working-age population (15–59 cohort in India / PLFS 15+) is partitioned into three mutually exclusive categories: Employed (worked ≥1 hour for pay, ≥15 hours unpaid in a family business, or on temporary leave), Unemployed (without work, currently available, and actively searching within the past 4 weeks), and Not in the Labor Force (neither employed nor actively seeking, including retirees, students, homemakers, and discouraged workers). The headline Unemployment Rate (U / [E + U] × 100) is distorted by the Discouraged Worker Effect (where despairing job seekers stop searching, exiting the labor force and perversely lowering measured unemployment) and the classification of involuntary part-time workers as fully employed.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'U.S. Bureau of Labor Statistics (BLS) Handbook of Methods, Chapter 1: Labor Force Data Derived from the Current Population Survey (CPS); ILO Resolution concerning statistics of work (19th ICLS, 2013); N. Gregory Mankiw, Macroeconomics',
+        locator: 'MoSPI, Periodic Labour Force Survey (PLFS) Concepts and Definitions; ILO Resolution concerning statistics of work (19th ICLS, 2013); N. Gregory Mankiw, Macroeconomics',
         excerpt: 'The civilian noninstitutional population is divided into three groups: employed, unemployed, and not in the labor force. Persons with marginal attachment and discouraged workers are classified as not in the labor force.',
       },
       {
@@ -474,17 +474,17 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Okuns Law" (YouTube: kbBr3oRLE54); Paul Samuelson & William Nordhaus, Economics, Chapter 29: Unemployment and the Foundations of Aggregate Supply; N. Gregory Mankiw, Macroeconomics, Chapter 7: Unemployment; Arthur Okun (1962) "Potential GNP: Its Measurement and Significance"',
+        locator: 'Paul Samuelson & William Nordhaus, Economics, Chapter 29: Unemployment and the Foundations of Aggregate Supply; N. Gregory Mankiw, Macroeconomics, Chapter 7: Unemployment; Arthur Okun (1962) "Potential GNP: Its Measurement and Significance"',
         excerpt: 'The natural rate of unemployment is the rate toward which the economy gravitates in the long run. Cyclical unemployment is the deviation of unemployment from its natural rate. Okun\'s Law demonstrates that for every 1% that cyclical unemployment rises above the natural rate, real GDP falls by approximately 2% relative to potential GDP due to labor hoarding, discouraged worker labor force exits, and idle capital capacity.',
       },
       {
         id: 'CLM-ECO-02-08',
-        statement: 'The official headline Unemployment Rate (UR = U / [E + U] × 100) must be evaluated in conjunction with the Labor Force Participation Rate (LFPR = LF / CNIP × 100) and the Employment-to-Population Ratio (EPR = E / CNIP × 100), linked by the identity UR = (1 - EPR / LFPR) × 100; boundary transitions across the labor market (such as new entrant flows or discouraged worker exits) cause UR and EPR to diverge. Broader labor underutilization is measured internationally through the U-1 to U-6 spectrum (where U-3 is the official headline rate and U-6 incorporates marginally attached and involuntary part-time workers), directly corresponding in India to the distinction between chronic Usual Status (UPSS) and high-frequency Current Daily Status (CDS).',
+        statement: 'In India, macroeconomic employment and labor underutilization are officially measured through MoSPI\'s Periodic Labour Force Survey (PLFS) using three distinct activity statuses: Usual Principal and Subsidiary Status (UPSS, 365-day reference measuring chronic, structural employment), Current Weekly Status (CWS, 7-day reference measuring short-term employment aligned with ILO standards), and Current Daily Status (CDS, measuring person-days to capture acute underemployment and casual labor idleness). Additionally, developing economies exhibit Disguised Unemployment—a condition where more workers are engaged than economically necessary such that the Marginal Productivity of Labor is zero (MP_L = 0), predominantly in subsistence agriculture.',
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'U.S. Bureau of Labor Statistics (BLS), "Labor Force Statistics from the Current Population Survey: Alternative Measures of Labor Underutilization"; N. Gregory Mankiw, Principles of Macroeconomics; MoSPI, Periodic Labour Force Survey (PLFS) Concepts and Definitions',
-        excerpt: 'The BLS publishes six alternative measures of labor underutilization, labeled U-1 through U-6. U-3 is the total unemployed as a percent of the civilian labor force (official unemployment rate). U-6 includes total unemployed, plus all marginally attached workers, plus total employed part time for economic reasons.',
+        locator: 'Ministry of Statistics and Programme Implementation (MoSPI), Periodic Labour Force Survey (PLFS) Annual Report; W. Arthur Lewis (1954) Economic Development with Unlimited Supplies of Labour; N. Gregory Mankiw, Macroeconomics',
+        excerpt: 'In PLFS, activity status is determined under three approaches: Usual Status (ps+ss), Current Weekly Status, and Current Daily Status. Usual Status measures chronic unemployment, while Current Daily Status measures person-day unemployment including underemployment. Disguised unemployment occurs when marginal productivity of labor is zero.',
       },
       {
         id: 'CLM-ECO-02-09',
@@ -501,7 +501,7 @@ In the Union Budget, the Finance Minister faces a real-world PPF trade-off betwe
         claimType: 'CORE_PRINCIPLE',
         epistemicLevel: 'ESTABLISHED_FACT',
         confidence: 'HIGH',
-        locator: 'Professor Ryan, "Economic Growth" (YouTube: njjvVSzJK6g); Simon Kuznets (1934) National Income Reports; N. Gregory Mankiw, Macroeconomics',
+        locator: 'Simon Kuznets (1934) National Income Reports; N. Gregory Mankiw, Macroeconomics; MoSPI, National Accounts Statistics',
         excerpt: 'Measuring economic growth presents a fundamental aggregation dilemma because disparate physical goods cannot simply be added together. Economists solve this by using market prices to compute GDP, stripping out inflation via constant base-year prices (Real GDP), and dividing by population to evaluate per-capita standard of living.',
       },
     ],
@@ -576,7 +576,7 @@ In economic philosophy, the **ultimate goal** of economic activity is maximizing
 
 | Macroeconomic Goal | Primary Statistical Indicator | Healthy Benchmark Target | Economic Rationale & Failure Mode | Primary Policy Levers |
 | :--- | :--- | :--- | :--- | :--- |
-| **1. Economic Growth** | **Real GDP Growth Rate** (% $\\Delta$ Real GDP) | • Mature Developed: ~2–3%<br>• Emerging (India): **~6–8%** | **Rationale:** Expands the national economic pie, generates employment, raises per capita living standards, and boosts tax revenues for public infrastructure.<br>• **Failure Mode:** Stagnation, technical recession ($<0\\%$), or jobless growth. | Public capital expenditure (CapEx), supply-side structural reforms, ease of doing business, R&D tax incentives. |
+| **1. Economic Growth** | **Real GDP Growth Rate** (% $\\Delta$ Real GDP) | • Mature Developed: ~2–3%<br>• Emerging (India): **~6–8%** | **Rationale:** Expands the national economic pie, generates employment, raises per capita living standards, and boosts tax revenues for public infrastructure.<br>• **Failure Mode:** Stagnation, technical recession ($< 0\\%$, negative real growth), or jobless growth. | Public capital expenditure (CapEx), supply-side structural reforms, ease of doing business, R&D tax incentives. |
 | **2. Low Unemployment (Full Employment)** | **Unemployment Rate** ($U = \\frac{\\text{Unemployed}}{\\text{Labour Force}} \\times 100$) | **Natural Rate of Unemployment (NRU)** / NAIRU (~4–5% in developed nations; monitored via PLFS in India) | **Rationale:** Minimizes the tragic waste of human productive potential and avoids psychological and social distress.<br>• **Key Insight:** Full employment does **NOT mean 0% unemployment**! Frictional and structural unemployment always exist; full employment means **Cyclical Unemployment = 0%**.<br>• **Failure Mode:** Mass cyclical joblessness, skill erosion (hysteresis). | Expansionary fiscal policy, labour market skilling programs, rural employment guarantees (MGNREGA). |
 | **3. Price Stability** | **Inflation Rate** (% $\\Delta$ CPI) | • Developed: ~2.0%<br>• India (RBI): **$4\\% \\pm 2\\%$** (Statutory 2% to 6% tolerance band) | **Rationale:** Preserves real purchasing power, protects unindexed fixed-wage earners and domestic savers, and removes price volatility for business planning.<br>• **Failure Mode:** Hyperinflation, stagflation, or destructive **Deflationary Spirals** (liquidity trap). | Monetary policy rate hikes (Repo Rate), statutory reserve ratios (CRR/SLR), open market operations (OMO). |
 
@@ -595,65 +595,124 @@ Achieving all three goals simultaneously is challenging due to inherent structur
 While macroeconomists agree that **Economic Growth** (expanding society's total material consumption possibilities and shifting out the Production Possibilities Frontier) is a primary goal, measuring whether an entire nation produced *more* this year than last year presents a fundamental methodological dilemma:
 
 #### The Aggregation Dilemma: The "Apples and Oranges" Paradox
-* In a single microeconomic market, tracking growth is straightforward: if a factory produces 100 cars in Year 1 and 120 cars in Year 2, physical output grew by $+20\%$.
+* In a single microeconomic market, tracking growth is straightforward: if a factory produces 100 cars in Year 1 and 120 cars in Year 2, physical output grew by $+20\\%$.
 * At the national macroeconomic scale, however, an economy produces millions of completely heterogeneous goods and services: tons of wheat, pairs of shoes, haircuts, jet airliners, open-heart surgeries, and gigabytes of cloud computing.
 * **The Physical Summation Fallacy**: You **cannot sum disparate physical units**:
-  $$100\text{ haircuts} + 5\text{ jet engines} + 1,000\text{ tons of wheat} \ne 1,105\text{ units of output}$$
+  $$100\\text{ haircuts} + 5\\text{ jet engines} + 1,000\\text{ tons of wheat} \\ne 1,105\\text{ units of output}$$
   Attempting to add physical counts across different goods is the classic **"apples and oranges" aggregation error**.
 
 #### The Economic Solution: Money as the Universal Common Denominator (GDP)
-To aggregate millions of distinct physical products into a single number, economists convert every final good and service into its **market monetary value** ($P \times Q$):
-$$\text{Gross Domestic Product (GDP)} = \sum_{i=1}^{n} (P_i \times Q_i)$$
-By using market prices as common weighting coefficients, a haircut valued at \$20 and a jet engine valued at \$20,000,000 can be combined into an aggregate national figure.
+To aggregate millions of distinct physical products into a single number, economists convert every final good and service into its **market monetary value** ($P \\times Q$):
+$$\\text{Gross Domestic Product (GDP)} = \\sum_{i=1}^{n} (P_i \\times Q_i)$$
+By using market prices as common weighting coefficients, a haircut valued at ₹1,600 and a commercial tractor valued at ₹10,00,000 can be combined into an aggregate national figure.
 
 #### The Inflation Distortion: Nominal GDP vs Real GDP
 However, using monetary values introduces a dangerous measurement distortion: **Price Level Inflation**.
-* Suppose an economy produces the exact same physical quantities of goods in Year 2 as in Year 1 ($Q_2 = Q_1$), but overall prices double ($P_2 = 2 \times P_1$).
+* Suppose an economy produces the exact same physical quantities of goods in Year 2 as in Year 1 ($Q_2 = Q_1$), but overall prices double ($P_2 = 2 \\times P_1$).
 * The monetary value of output doubles (+100%).
 * **Has the economy experienced real economic growth? NO!** Society has not a single additional sandwich, car, or doctor consultation to consume—only price tags have changed.
 * To isolate true physical growth from price fluctuations, economists establish:
-  1. **Nominal GDP**: Total output evaluated at **current-year market prices** ($\sum P_{\text{current}} \times Q_{\text{current}}$). Affected by both physical quantity changes and price inflation.
-  2. **Real GDP**: Total output evaluated at **constant base-year prices** ($\sum P_{\text{base}} \times Q_{\text{current}}$). Holds prices constant, so changes reflect **pure physical volume of production**.
+  1. **Nominal GDP**: Total output evaluated at **current-year market prices** ($\\sum P_{\\text{current}} \\times Q_{\\text{current}}$). Affected by both physical quantity changes and price inflation.
+  2. **Real GDP**: Total output evaluated at **constant base-year prices** ($\\sum P_{\\text{base}} \\times Q_{\\text{current}}$). Holds prices constant, so changes reflect **pure physical volume of production**.
   3. **The True Growth Rate Formula**:
-     $$\text{Economic Growth Rate } (g) = \frac{\text{Real GDP}_t - \text{Real GDP}_{t-1}}{\text{Real GDP}_{t-1}} \times 100$$
+     $$\\text{Economic Growth Rate } (g) = \\frac{\\text{Real GDP}_t - \\text{Real GDP}_{t-1}}{\\text{Real GDP}_{t-1}} \\times 100$$
 
 #### The Population Trap: Aggregate Real GDP vs Real GDP Per Capita
 Even when Real GDP grows, it does not guarantee that individual citizens enjoy a higher standard of living:
-* If a country's Real GDP grows by **$3\%$**, but its population simultaneously grows by **$4\%$**, the average quantity of goods and services available per citizen has **contracted by approximately $1\%$**!
+* If a country's Real GDP grows by **$3\\%$**, but its population simultaneously grows by **$4\\%$**, the average quantity of goods and services available per citizen has **contracted by approximately $1\\%$**!
 * **Real GDP Per Capita**:
-  $$\text{Real GDP Per Capita} = \frac{\text{Real GDP}}{\text{Total Population}}$$
-* **The Standard of Living Golden Rule**: An economy achieves real improvements in average individual living standards **ONLY IF** the growth rate of Real GDP exceeds the growth rate of population:
-  $$\% \Delta \text{Standard of Living} \approx \% \Delta \text{Real GDP} - \% \Delta \text{Population} > 0$$
+  $$\\text{Real GDP Per Capita} = \\frac{\\text{Real GDP}}{\\text{Total Population}}$$
+* **The Standard of Living Growth Rule**: The growth in average individual living standards is the difference between real output growth and demographic growth:
+  $$\\% \\Delta \\text{Standard of Living} \\approx \\% \\Delta \\text{Real GDP} - \\% \\Delta \\text{Population}$$
+
+* **Condition for Real Improvement:** Living standards improve if and only if real GDP growth exceeds population growth:
+  $$\\% \\Delta \\text{Real GDP} > \\% \\Delta \\text{Population} \\iff \\% \\Delta \\text{Standard of Living} > 0$$
 
 ---
 
 ### 5. Macroeconomic Goal 2 Deep-Dive: The Three Categories of People Regarding Employment
 
-To systematically measure employment and unemployment across an entire economy, macroeconomic statistical agencies (such as the U.S. Bureau of Labor Statistics [BLS] and the International Labour Organization [ILO], mirrored in India by MoSPI's PLFS) follow a rigorous **two-stage filtering hierarchy**:
+To systematically measure employment and unemployment across an entire economy, macroeconomic statistical agencies (such as MoSPI's Periodic Labour Force Survey [PLFS] in India, and the ILO internationally) follow a rigorous **two-stage filtering hierarchy**:
 
-\`\`\`
-                       TOTAL NATIONAL POPULATION
-                                   │
-       ┌───────────────────────────┴───────────────────────────┐
-       ▼                                                       ▼
-EXCLUDED POPULATION                               CIVILIAN NON-INSTITUTIONAL
-• Under 16 years of age (Children)                POPULATION (CNIP, Age 16+)
-• Institutionalized Persons                                    │
-  (Prisons, Jails, Psychiatric Facilities,         ┌───────────┴───────────┐
-   Long-term Nursing Homes)                        ▼                       ▼
-• Active-Duty Military Personnel             LABOUR FORCE (LF)   NOT IN THE LABOUR FORCE (NILF)
-                                                   │             • Full-Time Students
-                                      ┌────────────┴────────────┐• Retirees & Pensioners
-                                      ▼                         ▼• Homemakers & Family Caregivers
-                                1. EMPLOYED               2. UNEMPLOYED • Severely Disabled (Unable to Work)
-                         • Worked ≥1 hr for pay    • Has NO job  • DISCOURAGED WORKERS
-                         • Family business ≥15 hrs • AVAILABLE      (Gave up searching in despair)
-                         • On temporary leave      • ACTIVELY SEARCHED
-                                                     in past 4 weeks
-\`\`\`
+<div class="my-6 flex flex-col items-center">
+<svg viewBox="0 0 760 480" width="100%" height="auto" style="max-width: 740px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <rect width="760" height="480" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="1.5" />
+  
+  <text x="380" y="32" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700" letter-spacing="0.5">THE MACROECONOMIC LABOR HIERARCHY &amp; FILTERING ARCHITECTURE</text>
+  <text x="380" y="50" text-anchor="middle" fill="#94a3b8" font-size="11">Systematic Filtering: Total Population ➔ Working-Age Cohort ➔ Labor Force &amp; NILF ➔ Employed &amp; Unemployed</text>
+
+  <!-- Level 1: Total Population -->
+  <rect x="250" y="70" width="260" height="38" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="380" y="94" text-anchor="middle" fill="#f8fafc" font-size="12" font-weight="700">TOTAL NATIONAL POPULATION</text>
+
+  <!-- Connectors from Level 1 to Level 2 -->
+  <path d="M 380 108 L 380 130 L 160 130 L 160 150" fill="none" stroke="#64748b" stroke-width="1.5" />
+  <path d="M 380 108 L 380 130 L 530 130 L 530 150" fill="none" stroke="#64748b" stroke-width="1.5" />
+
+  <!-- Level 2 Left: Excluded Population -->
+  <rect x="50" y="150" width="220" height="110" rx="8" fill="#18181b" stroke="#ef4444" stroke-width="1.5" />
+  <rect x="50" y="150" width="220" height="26" rx="8" fill="#ef4444" fill-opacity="0.15" />
+  <text x="160" y="168" text-anchor="middle" fill="#f87171" font-size="11" font-weight="700">EXCLUDED POPULATION</text>
+  <text x="62" y="192" fill="#cbd5e1" font-size="10">• Below Working Age (&lt;15 Years / Children)</text>
+  <text x="62" y="210" fill="#cbd5e1" font-size="10">• Institutionalized Persons</text>
+  <text x="74" y="224" fill="#94a3b8" font-size="9">(Prisons, Inmates, Long-term Care)</text>
+  <text x="62" y="244" fill="#cbd5e1" font-size="10">• Active-Duty Military Personnel</text>
+
+  <!-- Level 2 Right: Working-Age Population -->
+  <rect x="370" y="150" width="320" height="42" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <text x="530" y="168" text-anchor="middle" fill="#38bdf8" font-size="11.5" font-weight="700">WORKING-AGE POPULATION</text>
+  <text x="530" y="183" text-anchor="middle" fill="#94a3b8" font-size="10">(Ages 15–59 Years in India / 15+ in PLFS)</text>
+
+  <!-- Connectors from Level 2 Right to Level 3 -->
+  <path d="M 530 192 L 530 220 L 420 220 L 420 240" fill="none" stroke="#64748b" stroke-width="1.5" />
+  <path d="M 530 192 L 530 220 L 630 220 L 630 240" fill="none" stroke="#64748b" stroke-width="1.5" />
+
+  <!-- Level 3 Right: Not In Labor Force (NILF) -->
+  <rect x="530" y="240" width="200" height="170" rx="8" fill="#18181b" stroke="#f59e0b" stroke-width="1.5" />
+  <rect x="530" y="240" width="200" height="26" rx="8" fill="#f59e0b" fill-opacity="0.15" />
+  <text x="630" y="258" text-anchor="middle" fill="#fbbf24" font-size="10.5" font-weight="700">NOT IN LABOUR FORCE (NILF)</text>
+  <text x="542" y="282" fill="#cbd5e1" font-size="10">• Full-Time Students</text>
+  <text x="542" y="300" fill="#cbd5e1" font-size="10">• Retirees &amp; Pensioners</text>
+  <text x="542" y="318" fill="#cbd5e1" font-size="10">• Homemakers &amp; Caregivers</text>
+  <text x="542" y="336" fill="#cbd5e1" font-size="10">• Severely Disabled (Unable)</text>
+  <line x1="542" y1="350" x2="718" y2="350" stroke="#334155" stroke-width="1" />
+  <text x="542" y="368" fill="#f87171" font-size="10" font-weight="700">⚠️ DISCOURAGED WORKERS</text>
+  <text x="542" y="384" fill="#94a3b8" font-size="9">(Gave up looking in despair —</text>
+  <text x="542" y="398" fill="#94a3b8" font-size="9">vanish from unemployment rate!)</text>
+
+  <!-- Level 3 Left: Labor Force -->
+  <rect x="310" y="240" width="200" height="42" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+  <text x="410" y="258" text-anchor="middle" fill="#34d399" font-size="11.5" font-weight="700">LABOUR FORCE (LF)</text>
+  <text x="410" y="273" text-anchor="middle" fill="#94a3b8" font-size="10">LF = Employed (E) + Unemployed (U)</text>
+
+  <!-- Connectors from Level 3 Left to Level 4 -->
+  <path d="M 410 282 L 410 305 L 340 305 L 340 325" fill="none" stroke="#64748b" stroke-width="1.5" />
+  <path d="M 410 282 L 410 305 L 470 305 L 470 325" fill="none" stroke="#64748b" stroke-width="1.5" />
+
+  <!-- Level 4: 1. Employed -->
+  <rect x="270" y="325" width="135" height="110" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+  <text x="337" y="345" text-anchor="middle" fill="#a7f3d0" font-size="11" font-weight="700">1. EMPLOYED (E)</text>
+  <text x="278" y="366" fill="#ecfdf5" font-size="9">• ≥1 hr paid work</text>
+  <text x="278" y="382" fill="#ecfdf5" font-size="9">• ≥15 hrs family farm</text>
+  <text x="278" y="398" fill="#ecfdf5" font-size="9">• Temporary leave</text>
+  <text x="278" y="414" fill="#a7f3d0" font-size="8.5">(illness/vacation)</text>
+
+  <!-- Level 4: 2. Unemployed -->
+  <rect x="415" y="325" width="135" height="110" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5" />
+  <text x="482" y="345" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="700">2. UNEMPLOYED (U)</text>
+  <text x="423" y="366" fill="#fef2f2" font-size="9">• Has NO job</text>
+  <text x="423" y="382" fill="#fef2f2" font-size="9">• AVAILABLE now</text>
+  <text x="423" y="398" fill="#fef2f2" font-size="9">• ACTIVELY SEARCHED</text>
+  <text x="423" y="414" fill="#fca5a5" font-size="8.5">(in past 4 weeks)</text>
+
+  <!-- Bottom Legend Bar -->
+  <rect x="20" y="445" width="720" height="26" rx="6" fill="#111827" stroke="#1f2937" stroke-width="1" />
+  <text x="380" y="462" text-anchor="middle" fill="#94a3b8" font-size="10" font-weight="600">Headline Unemployment Rate = [ U / (E + U) ] × 100  |  LFPR = [ (E + U) / Working-Age ] × 100</text>
+</svg>
+</div>
 
 #### The Three Canonical Categories Defined
-Every single individual in the civilian non-institutional working-age population belongs to **exactly one** of these three mutually exclusive categories:
+Every single individual in the working-age population belongs to **exactly one** of these three mutually exclusive categories:
 
 1. **Category 1: Employed ($E$)**:
    - Any person who performed **at least 1 hour of work for pay or profit** during the survey reference week.
@@ -670,65 +729,105 @@ Every single individual in the civilian non-institutional working-age population
    - *Passive Search Disqualification*: Merely reading job advertisements, browsing job portals without applying, or daydreaming about employment does **NOT** qualify as active search.
 
 3. **Category 3: Not in the Labor Force ($NILF$)**:
-   - Any person in the adult civilian non-institutional population who is **neither employed nor unemployed** (i.e., does not have a job and has NOT actively looked for one in the past 4 weeks).
+   - Any person in the adult working-age population who is **neither employed nor unemployed** (i.e., does not have a job and has NOT actively looked for one in the past 4 weeks).
    - Examples: Full-time students, homemakers/caregivers, retirees, independently wealthy individuals, and people with severe permanent disabilities.
    - **The Critical Subgroup: Discouraged Workers**: Individuals who want a job and are available for work, but have stopped actively searching because they believe there are no jobs available for them or that they face structural discrimination. Because they made no active job search in the past 4 weeks, **they are legally classified as NOT in the Labor Force**, vanishing completely from the official unemployment count!
 
 ---
 
 #### Core Mathematical Formulas & The Triple-Rate Identity
-$$\text{Civilian Non-Institutional Population (CNIP)} = \text{Employed } (E) + \text{Unemployed } (U) + \text{Not in Labour Force } (NILF)$$
-$$\text{Labour Force (LF)} = \text{Employed } (E) + \text{Unemployed } (U)$$
-$$\text{Unemployment Rate (UR)} = \frac{\text{Unemployed } (U)}{\text{Labour Force } (LF)} \times 100 = \frac{U}{E + U} \times 100$$
-$$\text{Labour Force Participation Rate (LFPR)} = \frac{\text{Labour Force } (LF)}{\text{Civilian Non-Institutional Population } (CNIP)} \times 100$$
-$$\text{Employment-to-Population Ratio (EPR)} = \frac{\text{Employed } (E)}{\text{Civilian Non-Institutional Population } (CNIP)} \times 100$$
+$$\\text{Working-Age Population} = \\text{Employed } (E) + \\text{Unemployed } (U) + \\text{Not in Labour Force } (NILF)$$
+$$\\text{Labour Force (LF)} = \\text{Employed } (E) + \\text{Unemployed } (U)$$
+$$\\text{Unemployment Rate (UR)} = \\frac{\\text{Unemployed } (U)}{\\text{Labour Force } (LF)} \\times 100 = \\frac{U}{E + U} \\times 100$$
+$$\\text{Labour Force Participation Rate (LFPR)} = \\frac{\\text{Labour Force } (LF)}{\\text{Working-Age Population}} \\times 100$$
+$$\\text{Employment-to-Population Ratio (EPR)} = \\frac{\\text{Employed } (E)}{\\text{Working-Age Population}} \\times 100$$
 
 * **The Unified Triple-Rate Identity**: The three primary labor indicators are mathematically locked by:
-$$\text{UR} = \frac{\text{LFPR} - \text{EPR}}{\text{LFPR}} \times 100 = \left(1 - \frac{\text{EPR}}{\text{LFPR}}\right) \times 100$$
+$$\\text{UR} = \\frac{\\text{LFPR} - \\text{EPR}}{\\text{LFPR}} \\times 100 = \\left(1 - \\frac{\\text{EPR}}{\\text{LFPR}}\\right) \\times 100$$
 This identity reveals that the Unemployment Rate can fall for two entirely opposite reasons: either the employment ratio ($EPR$) rose (genuine economic improvement), or the labor participation rate ($LFPR$) collapsed due to discouraged worker dropouts (labor market deterioration).
 
 ---
 
-#### The 5 Boundary Transition Dynamics (Professor Ryan's Sensitivity Matrix)
+#### The 5 Boundary Transition Dynamics (Labor Market Sensitivity Matrix)
 To understand how real-world labor flows alter official statistics, consider the impact of 5 specific boundary transitions on $E$, $U$, $LF$, $UR$, and $LFPR$:
 
 | Boundary Transition Event | Impact on Employed ($E$) | Impact on Unemployed ($U$) | Impact on Labour Force ($LF$) | Impact on Unemployment Rate ($UR$) | Impact on $LFPR$ & $EPR$ | Economic Assessment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Unemployed Worker Finds a Job** | ↑ (+1) | ↓ (-1) | **Unchanged** | **Declines** (↓) | $LFPR$ unchanged;<br>$EPR$ ↑ (+1) | **Unambiguous Progress:** Both $UR$ and $EPR$ signal real job creation. |
-| **2. Employed Worker is Laid Off** | ↓ (-1) | ↑ (+1) | **Unchanged** | **Rises** (↑) | $LFPR$ unchanged;<br>$EPR$ ↓ (-1) | **Unambiguous Deterioration:** Job loss expands the unemployment pool. |
-| **3. Discouraged Worker Exits Labor Force** | **Unchanged** | ↓ (-1) | ↓ (-1) | **Declines** (↓) | $LFPR$ ↓ (-1);<br>$EPR$ unchanged | **Perverse Statistical Illusion:** Headline $UR$ improves despite zero jobs created; exposed by falling $LFPR$. |
-| **4. New Entrant Begins Active Job Search** | **Unchanged** | ↑ (+1) | ↑ (+1) | **Rises** (↑) | $LFPR$ ↑ (+1);<br>$EPR$ unchanged | **Optimistic Rise:** $UR$ rises because confident graduates or parents enter the workforce to seek jobs. |
-| **5. Full-Time Worker Reduced to Part-Time** | **Unchanged** (still $\ge 1$ hr) | **Unchanged** | **Unchanged** | **Unchanged** | $LFPR$ & $EPR$ unchanged | **Masked Underemployment:** Worker loses 80% of income, but headline metrics detect zero change. |
+| **1. Unemployed Worker Finds a Job** | +1 person (↑) | -1 person (↓) | **Unchanged** | **Declines** (↓) | $LFPR$ unchanged;<br>$EPR$ Rises (↑) | **Unambiguous Progress:** Both $UR$ and $EPR$ signal real job creation. |
+| **2. Employed Worker is Laid Off** | -1 person (↓) | +1 person (↑) | **Unchanged** | **Rises** (↑) | $LFPR$ unchanged;<br>$EPR$ Declines (↓) | **Unambiguous Deterioration:** Job loss expands the unemployment pool. |
+| **3. Discouraged Worker Exits Labor Force** | **Unchanged** | -1 person (↓) | -1 person (↓) | **Declines** (↓) | $LFPR$ Declines (↓);<br>$EPR$ unchanged | **Perverse Statistical Illusion:** Headline $UR$ improves despite zero jobs created; exposed by falling $LFPR$. |
+| **4. New Entrant Begins Active Job Search** | **Unchanged** | +1 person (↑) | +1 person (↑) | **Rises** (↑) | $LFPR$ Rises (↑);<br>$EPR$ unchanged | **Optimistic Rise:** $UR$ rises because confident graduates or parents enter the workforce to seek jobs. |
+| **5. Full-Time Worker Reduced to Part-Time** | **Unchanged** (still $\\ge 1$ hr) | **Unchanged** | **Unchanged** | **Unchanged** | $LFPR$ & $EPR$ unchanged | **Masked Underemployment:** Worker loses 80% of income, but headline metrics detect zero change. |
 
 ---
 
-#### Alternative Measures of Labor Underutilization: The BLS U-1 to U-6 Spectrum vs India's PLFS
-Because the headline rate ($UR$, known as **U-3**) fails to capture discouraged workers and involuntary part-time employees, the U.S. Bureau of Labor Statistics publishes **six alternative measures of labor underutilization**:
+#### Measuring Employment & Labor Underutilization in India: MoSPI's PLFS Architecture
 
-* **U-1**: Persons unemployed **15 weeks or longer** as a percent of the civilian labor force (measures chronic long-term unemployment).
-* **U-2**: Job losers and persons who completed temporary jobs as a percent of the civilian labor force (measures cyclical employment separation).
-* **U-3 (Official Headline Rate)**: Total unemployed as a percent of the civilian labor force ($\frac{U}{E+U} \times 100$).
-* **U-4**: U-3 + **Discouraged Workers** as a percent of the labor force plus discouraged workers.
-* **U-5**: U-4 + **All other Marginally Attached Workers** (persons who want work and searched in past 12 months, but not past 4 weeks).
-* **U-6 (Total Labor Underutilization / "Broad Unemployment")**: Total unemployed + all marginally attached workers + **total employed part-time for economic reasons** (involuntary part-time workers), as a percent of the expanded labor force. U-6 is typically **1.5× to 2.0× higher** than the headline U-3 rate.
+In India, comprehensive employment and unemployment statistics were historically gathered via quinquennial (5-yearly) National Sample Survey (NSS) rounds. Since 2017, the **National Statistical Office (NSO)** under the **Ministry of Statistics and Programme Implementation (MoSPI)** conducts the **Periodic Labour Force Survey (PLFS)**.
 
-* **Direct International Mapping to India's PLFS Architecture**:
-  - **BLS U-3 $\iff$ India's Usual Status (UPSS)**: Measures chronic/structural employment based on major time spent over a 365-day horizon.
-  - **BLS U-6 $\iff$ India's Current Daily Status (CDS)**: Measures acute underemployment on a half-day basis (capturing casual workers idle for portions of the reference week), consistently yielding the highest unemployment rate.
+To capture the complex structural reality of India's labor market—where over 85% to 90% of workers operate in the informal/unorganized sector without permanent salaries—MoSPI deploys **Three Distinct Activity Status Approaches**:
+
+##### 1. Usual Principal and Subsidiary Status (UPSS) — The Headline Chronic Metric
+* **Reference Period:** **365 days** preceding the date of survey.
+* **Two-Step Determination:**
+  1. **Usual Principal Status (UPS):** Determined by the "major time criterion"—the activity status on which an individual spent the relatively longest duration ($\\ge 183$ days) during the reference year.
+  2. **Subsidiary Status (SS):** An individual categorized as non-working under Principal Status (such as a homemaker or student) who pursued an economic activity for **30 days or more** during the year is classified as Employed under UPSS ($ps + ss$).
+* **Economic Assessment:** Measures **chronic, long-term structural employment**. Because performing just 30 days of economic work qualifies a person as employed, UPSS yields the **lowest unemployment rate** among all measures. It is the headline metric presented in the Economic Survey and Union Budget.
+
+##### 2. Current Weekly Status (CWS) — Short-Run International Benchmark
+* **Reference Period:** **7 days** preceding the date of survey.
+* **Criterion:** An individual is classified as Employed if they performed any economic activity for **at least 1 hour on any 1 day** during the reference week.
+* **Economic Assessment:** Aligned directly with **International Labour Organization (ILO)** standards. Sensitive to short-term cyclical downturns, seasonal fluctuations, and rapid labor market adjustments.
+
+##### 3. Current Daily Status (CDS) — Acute Underemployment & Person-Days
+* **Reference Period:** Each of the 7 days preceding the survey, recording activity intensity twice per day:
+  - $\\ge 4\\text{ hours}$ = Full Day work (intensity 1.0).
+  - $1\\text{ to } 4\\text{ hours}$ = Half Day work (intensity 0.5).
+  - $< 1\\text{ hour}$ = Nil (unemployed or outside labor force).
+* **Economic Assessment:** Measures employment in **aggregate person-days** rather than headcounts. Because it records casual workers idle on individual days of the week, CDS exposes **acute underemployment and disguised idleness**, consistently yielding the **highest unemployment rate** in India.
 
 ---
 
-#### Professor Ryan's Three Labor Market Traps & Paradoxes
+#### The Four Structural Phenotypes of Unemployment in the Indian Economy
+
+Macroeconomic policy in India must address structural realities that standard Western textbook models omit:
+
+##### 1. Disguised Unemployment (Hidden Unemployment / $MP_L = 0$)
+* **Core Definition:** A condition where more workers are engaged in an activity than are technically necessary to produce the prevailing volume of output.
+* **The Defining Mathematical Hallmark:** The **Marginal Physical Product of Labor is zero or near-zero**:
+  $$\\mathbf{MP_L = \\frac{\\Delta \\text{Total Output}}{\\Delta L} \\approx 0}$$
+* **The "Zero-Loss" Test:** If 3 out of 8 family members working on a 2-acre ancestral farm are withdrawn and shifted to urban construction, total agricultural crop harvest does not decline at all ($\\Delta Y = 0$). Those 3 workers were in reality **disguisedly unemployed**.
+* **Theoretical Foundation:** Sir W. Arthur Lewis's seminal **Two-Sector Surplus Labor Model (1954)** demonstrates that economic development requires transferring this zero-marginal-product surplus labor from subsistence agriculture into high-productivity modern manufacturing.
+* **Primary Locus in India:** Smallholder agriculture, family-run retail mom-and-pop shops (*kirana*), and unorganized household enterprises.
+
+##### 2. Seasonal Unemployment
+* Directly governed by agricultural crop cycles. Farm laborers experience peak employment during the labor-intensive sowing and harvesting windows of **Kharif** (paddy, pulses) and **Rabi** (wheat, mustard), but face widespread joblessness during intervening dry slack seasons (Zaid).
+* **Policy Remedy:** Guaranteed counter-cyclical public employment schemes like **MGNREGA** (providing 100 days of guaranteed wage labor to rural households).
+
+##### 3. Educated Unemployment & The Employability Mismatch
+* India exhibits a persistent paradox: high unemployment and severe underemployment among university graduates alongside acute corporate shortages of skilled technical personnel.
+* **Root Causes:** Mismatch between outdated academic curricula and modern industry requirements, deficiency in vocational apprenticeships, and aspirations for formal government jobs over technical trades.
+* **Policy Remedies:** Modernization of ITIs, National Apprenticeship Promotion Scheme (NAPS), and National Education Policy (NEP) vocational integration.
+
+##### 4. Informal & Vulnerable Employment
+* Over **85% to 90%** of India's total workforce is employed in the informal sector (unregistered micro-enterprises or informal contract labor in formal firms).
+* **Characteristics:** Absence of written employment contracts, zero paid leave, and no statutory access to social security (EPFO, ESIC, pensions). Addressed through national registration drives on the **e-Shram** portal and PM-SYM pensions.
+
+> 🌐 **Comparative International Note:** In the United States, the Bureau of Labor Statistics (BLS) tracks headline unemployment via **U-3** (analogous to CWS) and broader labor underutilization via **U-6** (including involuntary part-time workers). In Indian civil services and regulatory examinations, questions focus primarily on **MoSPI's PLFS (UPSS vs CDS)** and the dynamics of **Disguised Unemployment ($MP_L = 0$)**.
+
+---
+
+#### Three Critical Labor Market Traps & Paradoxes
 1. **The Discouraged Worker Paradox**:
    - In a severe or prolonged economic recession, thousands of frustrated unemployed workers give up searching for work.
    - When a job-seeker stops actively searching, they drop out of the numerator ($U ↓$) and out of the denominator ($LF ↓$).
    - **The Paradoxical Result**: The official headline Unemployment Rate ($UR = U / LF$) **DECLINES**, making it appear as though the labor market is recovering when, in reality, economic hardship and despair have intensified!
 2. **The Involuntary Part-Time / Underemployment Blindspot**:
-   - Headline unemployment metrics (BLS U-3 rate) treat an underemployed worker (e.g., an engineer working 5 hours a week at minimum wage who desperately wants full-time employment) identically to a fully employed executive working 50 hours a week. Both are counted as "Employed".
-   - This masks substantial **labor underutilization**, prompting economists to track broader metrics (such as BLS U-6 in the US, or Current Daily Status [CDS] in India) that include involuntary part-time workers and marginally attached job-seekers.
+   - Headline unemployment metrics (such as UPSS or CWS in India) treat an underemployed worker (e.g., an engineering graduate working 5 hours a week at minimum wage who desperately wants full-time employment) identically to a fully employed executive working 50 hours a week. Both are counted as "Employed".
+   - This masks substantial **labor underutilization**, prompting Indian economists to evaluate **Current Daily Status (CDS)**, which records employment on a person-day/person-hour basis to expose acute disguised underemployment.
 3. **The Denominator Trap**:
    - Laypersons and exam candidates routinely compute the unemployment rate by dividing Unemployed by the *Total Population* or *Working-Age Population*.
-   - In economics, the denominator is strictly the **Labour Force ($E + U$)**. A country can have 100 million adults, but if only 60 million are in the labor force and 3 million are unemployed, the unemployment rate is $\frac{3}{60} = 5.0\%$, not $\frac{3}{100} = 3.0\%$.
+   - In economics, the denominator is strictly the **Labour Force ($E + U$)**. A country can have 100 million adults, but if only 60 million are in the labor force and 3 million are unemployed, the unemployment rate is $\\frac{3}{60} = 5.0\\%$, not $\\frac{3}{100} = 3.0\\%$.
 
 ---
 
@@ -750,20 +849,22 @@ While measuring the headline unemployment rate tracks how many citizens are sear
 #### The Natural Rate of Unemployment (NRU) & The Full Employment Identity
 In a dynamic, innovative market economy, **Frictional and Structural unemployment can never be zero**. In fact, forcing them to zero would mean outlawing job mobility (no one can quit to look for a better job) and outlawing technological progress (no new technology can displace older machines).
 
-$$\text{Actual Unemployment Rate } (U) = \text{Frictional Unemployment} + \text{Structural Unemployment} + \text{Cyclical Unemployment}$$
+$$\\text{Actual Unemployment Rate } (U) = \\text{Frictional Unemployment} + \\text{Structural Unemployment} + \\text{Cyclical Unemployment}$$
 
-$$\text{Natural Rate of Unemployment (NRU / NAIRU)} = \text{Frictional Unemployment} + \text{Structural Unemployment}$$
+$$\\text{Natural Rate of Unemployment (NRU / NAIRU)} = \\text{Frictional Unemployment} + \\text{Structural Unemployment}$$
 
-$$\text{Full Employment State} \iff \text{Cyclical Unemployment} = 0\% \iff \text{Actual Unemployment } (U) = \text{NRU}$$
+$$\\text{Full Employment State} \\iff \\text{Cyclical Unemployment} = 0\\% \\iff \\text{Actual Unemployment } (U) = \\text{NRU}$$
 
-When an economy is at Full Employment ($U = \text{NRU}$), it operates at its **Potential GDP ($Y^*$)**.
+When an economy is at Full Employment ($U = \\text{NRU}$), it operates at its **Potential GDP ($Y^*$)**.
 
 ---
 
-#### Okun's Law: The Real-World Output Cost of Cyclical Unemployment (Professor Ryan)
-In *"Okuns Law"*, Professor Ryan formalizes Arthur Okun's (1962) seminal empirical discovery linking labor market distress to lost macroeconomic production. While unemployment is experienced as an individual hardship, Okun's Law quantifies its aggregate damage to national output:
+#### Okun's Law: The Real-World Output Cost of Cyclical Unemployment
+Arthur Okun (1962) established the seminal empirical link connecting labor market distress to lost macroeconomic production. While unemployment is experienced as an individual hardship, Okun's Law quantifies its aggregate damage to national output:
 
-$$\\mathbf{\\frac{Y^* - Y}{Y^*} \\approx \\beta \\times (u - u^*)} \\quad \\iff \\quad \\mathbf{\\% \\text{ Output Gap} \\approx -\\beta \\times (u - u^*)}$$
+$$\\mathbf{\\text{GDP Output Gap } (\\%) = \\left( \\frac{Y - Y^*}{Y^*} \\right) \\times 100 \\approx -\\beta \\times (u - u^*)}$$
+
+$$\\mathbf{\\text{Alternatively (as Output Shortfall): } \\left( \\frac{Y^* - Y}{Y^*} \\right) \\times 100 \\approx \\beta \\times (u - u^*)}$$
 
 where:
 - $\\mathbf{Y}$ = Actual Real GDP produced by the economy.
@@ -779,7 +880,7 @@ $$\\mathbf{\\Delta u = +1\\% \\implies \\% \\text{ GDP Output Gap} = -2\\%}$$
 
 ##### 2. The Central Macroeconomic Puzzle: Why is Okun\'s Coefficient $\\beta > 1$?
 A naive linear assumption would suggest that if $1\\%$ of workers become unemployed, national output should fall by exactly $1\\%$. Why does output fall twice as much ($\\beta \\approx 2$)?
-As Professor Ryan explains, the official headline unemployment rate represents only the visible tip of the labor underutilization iceberg:
+In macroeconomic reality, the official headline unemployment rate represents only the visible tip of the labor underutilization iceberg:
 1. **Labor Hoarding & Reduced Hours:** Because hiring, background vetting, and training new workers is expensive, firms facing falling demand do not lay off all redundant staff immediately. Instead, they cut average working hours (e.g., from 40 to 32 hours/week) or keep skilled personnel on payroll at reduced operating speed.
 2. **The Discouraged Worker Effect (Labor Force Shrinkage):** In deep recessions, thousands of laid-off workers stop actively searching after months of rejection, dropping out of the labor force entirely ($LF \\downarrow$). Because the headline unemployment rate ($u = U / LF$) counts only *active* job seekers, it severely **understates** the true loss of labor input!
 3. **Capital Underutilization:** When workers are laid off, the factory machines, software licenses, and commercial vehicles they operate sit idle. Output collapses because complementary capital and labor are unutilized simultaneously.
@@ -803,24 +904,24 @@ $$\\mathbf{\\% \\Delta Y \\approx g^* - \\beta \\times \\Delta u}$$
 #### The Non-Accelerating Inflation Rate of Unemployment (NAIRU) & The Wage-Price Spiral
 While the **Natural Rate of Unemployment (NRU)** describes the real structural equilibrium of the labor market, Franco Modigliani and Lucas Papademos (1975) introduced the **Non-Accelerating Inflation Rate of Unemployment (NAIRU)** to define the exact frontier where price stability is maintained:
 
-$$\text{NAIRU} \iff \text{The specific unemployment rate at which the annual inflation rate remains constant } (\Delta \pi = 0)$$
+$$\\text{NAIRU} \\iff \\text{The specific unemployment rate at which the annual inflation rate remains constant } (\\Delta \\pi = 0)$$
 
-* **The Overheating Mechanism: What Happens When $U < \text{NAIRU}$?**:
+* **The Overheating Mechanism: What Happens When $U < \\text{NAIRU}$?**:
   1. **Acute Labor Shortages**: Aggregate demand expansion pushes output beyond sustainable potential ($Y > Y^*$). Employers face widespread shortages and bid aggressively for scarce labor.
   2. **Wage-Push Cost Pressure**: With minimal fear of job loss, workers and labor unions gain immense bargaining power, extracting nominal wage hikes ($W ↑$) far exceeding labor productivity growth.
   3. **Cost-Price Transmission**: To defend profit margins, firms pass higher wage expenses directly into consumer price tags ($P ↑$).
-  4. **Expectations Acceleration**: Observing surging living costs, workers and households raise their inflation expectations ($\pi^e ↑$). In the next wage bargaining cycle, workers demand even larger raises to protect real purchasing power, igniting an **accelerating wage-price spiral** ($\pi ↑↑$).
+  4. **Expectations Acceleration**: Observing surging living costs, workers and households raise their inflation expectations ($\\pi^e \\uparrow$). In the next wage bargaining cycle, workers demand even larger raises to protect real purchasing power, igniting an **accelerating wage-price spiral** ($\\pi \\uparrow\\uparrow$).
 * **The Asymmetric Policy Rule**:
-  - **$U = \text{NAIRU}$**: Labor market is in equilibrium; inflation is stable ($\Delta \pi = 0$).
-  - **$U < \text{NAIRU}$**: Economy is overheated; inflation accelerates continuously ($\Delta \pi > 0$).
-  - **$U > \text{NAIRU}$**: Economy has idle slack; inflation decelerates ($\Delta \pi < 0$, disinflation or deflation).
+  - **$U = \\text{NAIRU}$**: Labor market is in equilibrium; inflation is stable ($\\Delta \\pi = 0$).
+  - **$U < \\text{NAIRU}$**: Economy is overheated; inflation accelerates continuously ($\\Delta \\pi > 0$).
+  - **$U > \\text{NAIRU}$**: Economy has idle slack; inflation decelerates ($\\Delta \\pi < 0$, disinflation or deflation).
 
 ---
 
 #### The Long-Run Vertical Phillips Curve (LRPC) & Structural Shifters of NAIRU
 Milton Friedman (1968) and Edmund Phelps (1967) demolished the Keynesian belief in a permanent, exploitable trade-off between inflation and unemployment (the **Accelerationist Hypothesis**):
 * In the **Short Run**, unanticipated policy stimulus can temporarily push unemployment below NAIRU along a downward-sloping Short-Run Phillips Curve (SRPC), but only by generating surprise inflation.
-* In the **Long Run**, once economic actors fully anticipate the higher inflation ($\pi^e = \pi$), the Short-Run Phillips Curve shifts upward. Real wages and employment return to their natural levels, proving that the **Long-Run Phillips Curve (LRPC) is strictly vertical at NAIRU**. Monetary policy is neutral in the long run (it affects only nominal prices, not real employment).
+* In the **Long Run**, once economic actors fully anticipate the higher inflation ($\\pi^e = \\pi$), the Short-Run Phillips Curve shifts upward. Real wages and employment return to their natural levels, proving that the **Long-Run Phillips Curve (LRPC) is strictly vertical at NAIRU**. Monetary policy is neutral in the long run (it affects only nominal prices, not real employment).
 * **Structural Determinants That Shift NAIRU (Moving the LRPC)**:
   - *Workforce Demographics*: A higher proportion of prime-age experienced workers lowers frictional churn, shifting NAIRU leftward.
   - *Labor Market Institutions*: Excessively generous or prolonged unemployment benefits and rigid job-security mandates increase structural rigidity, shifting NAIRU rightward.
@@ -889,17 +990,17 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
     revisionUnits: [
       {
         type: 'FLASH_30S',
-        content: 'Economic Systems: Capitalism (price mechanism), Socialism (central planning), Mixed (India). Positive = "what is" (empirical/verifiable); Normative = "what ought to be" (value judgment). Goods Matrix: Private (R+E), Public (NR+NE), Common Pool (R+NE -> Tragedy of Commons), Club (NR+E).',
+        content: 'Economic Systems: Capitalism (price mechanism), Socialism (central planning), Mixed (India). Positive = "what is" (empirical/verifiable); Normative = "what ought to be" (value judgment). Labor: MoSPI PLFS (UPSS chronic lowest, CWS weekly, CDS person-days highest). Disguised Unemployment in agriculture has $MP_L = 0$. Goods Matrix: Private (R+E), Public (NR+NE), Common Pool (R+NE -> Tragedy of Commons), Club (NR+E).',
         order: 1,
       },
       {
         type: 'SUMMARY_2M',
-        content: 'Three central economic problems: What, How, For Whom to produce. Microeconomics analyzes individual price determination (Fallacy of Composition warns against generalizing micro rules to macro). Positive economics states testable facts; Normative economics prescribes ethical goals. The Goods Matrix divides goods by Excludability (can you stop non-payers?) and Rivalry (does use diminish supply?). Public goods (non-rival, non-excludable) suffer from the Free-Rider Problem and require State funding. Common resources (rival, non-excludable) suffer from the Tragedy of the Commons (e.g. groundwater).',
+        content: 'Three central economic problems: What, How, For Whom to produce. Microeconomics analyzes individual price determination; Macroeconomics studies aggregate income, growth, employment, and inflation. Three Macro Goals: Real GDP Growth, Full Employment (Cyclical = 0%, NRU/NAIRU, Okun\'s Law $\\beta \\approx 2$), Price Stability (RBI $4\\% \\pm 2\\%$). Labor Market Hierarchy: Working-age (15-59) -> Labor Force (E+U) vs NILF (Retirees, Students, Homemakers, Discouraged Workers). In India, MoSPI PLFS measures employment via UPSS (365 days, lowest rate), CWS (7 days, ILO), and CDS (person-days, highest rate). Indian Phenotypes: Disguised ($MP_L = 0$), Seasonal, Educated, Informal. Goods Matrix: Private, Public (Free-Rider), Common Pool (Ostrom), Club.',
         order: 2,
       },
       {
         type: 'ARCHITECTURE_5M',
-        content: 'Structural Foundations: 1. Economic Systems: Free Market vs Command vs Mixed. 2. Methodological Dichotomies: Positive vs Normative, Micro vs Macro. 3. Goods Taxonomy Matrix (2x2): Private, Club, Common Pool, Pure Public. 4. Market Failures: Free-Rider problem (Public Goods), Tragedy of the Commons (Common Resources - Ostrom framework).',
+        content: 'Structural Foundations & Exam Radar: 1. Economic Systems: Free Market vs Command vs Mixed (India Nehru-Mahalanobis to 1991 LPG). 2. Methodological Dichotomies: Positive vs Normative, Micro vs Macro (Fallacy of Composition, Paradox of Thrift). 3. Macro Goals & Metrics: Real GDP (constant base prices) vs Nominal, Real GDP per Capita, Inflation (RBI FIT $4\\% \\pm 2\\%$), NAIRU & Vertical LRPC. 4. Labor Accounting: UR = U/(E+U) * 100, EPR = E/Pop, LFPR = LF/Pop, locked by UR = (1 - EPR/LFPR)*100. Discouraged worker exits drop UR perversely! 5. MoSPI PLFS Framework: UPSS (chronic) vs CWS (weekly) vs CDS (daily underemployment). 6. Indian Structural Unemployment: Disguised Unemployment ($MP_L = 0$, Lewis Model), Seasonal (MGNREGA), Educated mismatch, Informal (e-Shram). 7. Goods Taxonomy Matrix (2x2): Private, Club, Common Pool (Ostrom), Pure Public (Samuelson Free-Rider).',
         order: 3,
       },
     ],
@@ -974,7 +1075,7 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
       },
       {
         type: 'APPLIED_SCENARIO',
-        stem: 'An economy has a civilian adult population (16+) of 100 million people. Of these, 57 million are employed, 3 million are unemployed actively seeking work, and 40 million are not in the labour force. Due to a prolonged recession, 1 million of the unemployed job seekers give up looking for work in despair. Assuming no other changes, what is the new official Unemployment Rate, and how is this phenomenon interpreted?',
+        stem: 'An economy has a working-age population (15-59 cohort / PLFS 15+) of 100 million people. Of these, 57 million are employed, 3 million are unemployed actively seeking work, and 40 million are not in the labour force. Due to a prolonged recession, 1 million of the unemployed job seekers give up looking for work in despair. Assuming no other changes, what is the new official Unemployment Rate, and how is this phenomenon interpreted?',
         options: [
           'The Unemployment Rate drops from 5.0% to approximately 3.39%; this represents the "Discouraged Worker Effect", where headline unemployment perversely declines despite worsening labor market distress.',
           'The Unemployment Rate increases from 5.0% to 6.67%, because discouraged workers increase the burden on the productive workforce.',
@@ -1003,6 +1104,26 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
         difficulty: 'MEDIUM',
         isPYQ: false,
         examinerTrapPattern: 'Testing whether the student can distinguish between structural obsolescence (cured by re-skilling) and cyclical demand deficiency (cured by monetary/fiscal stimulus).',
+      },
+      {
+        type: 'CONCEPT_CHECK',
+        stem: 'In the Indian agricultural sector, eight members of a farming household cultivate a 2-acre plot of land. If three members migrate to a nearby industrial town to take up textile jobs, the total annual crop yield from the plot remains completely unchanged at 40 quintals. According to economic theory, which type of unemployment were the three migrating members experiencing prior to departure, and what was their Marginal Physical Productivity of Labor ($MP_L$)?',
+        options: [
+          'Frictional Unemployment; $MP_L > 0$',
+          'Disguised (Hidden) Unemployment; $MP_L = 0$',
+          'Cyclical Unemployment; $MP_L < 0$',
+          'Voluntary Unemployment; $MP_L = \\text{Undefined}$',
+        ],
+        correctAnswer: 'Disguised (Hidden) Unemployment; $MP_L = 0$',
+        explanation: 'Disguised Unemployment (a classic feature of agrarian developing economies analyzed in Sir W. Arthur Lewis\'s Two-Sector Surplus Labor Model) occurs when more workers are engaged in an economic activity than are technically necessary. The hallmark of disguised unemployment is that the Marginal Physical Product of Labor is zero ($MP_L = \\frac{\\Delta Y}{\\Delta L} = 0$). Withdrawing surplus workers leaves aggregate output unaffected (\\Delta Y = 0). In Indian labor statistics, these workers are counted as "Employed" under Usual Status (UPSS), concealing acute economic slack.',
+        trapExplanation: 'Option A confuses job search mobility with agricultural surplus labor; Option C confuses macroeconomic business cycle demand deficiency with structural agricultural overcrowding.',
+        difficulty: 'MEDIUM',
+        isPYQ: true,
+        pyqYear: 2013,
+        pyqPaper: 'UPSC Civil Services Prelims (GS Paper 1)',
+        pyqStage: 'Prelims',
+        pyqQuestionNumber: 27,
+        examinerTrapPattern: 'Testing the zero-marginal-productivity condition that defines Disguised Unemployment in Indian agriculture.',
       },
       {
         type: 'APPLIED_SCENARIO',
@@ -1054,7 +1175,7 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
       },
       {
         type: 'APPLIED_SCENARIO',
-        stem: 'An emerging economy has an estimated Potential GDP of ₹20,000 Crore and a Natural Rate of Unemployment (NRU) of 5.0%. Due to a global trade contraction, actual unemployment rises to 8.0%. Assuming an Okun\'s sensitivity coefficient of β = 2.0 as analyzed by Professor Ryan in "Okuns Law", what is the resulting GDP Output Gap, and which of the following explains why Okun\'s coefficient is greater than 1.0 (β > 1)?',
+        stem: 'An emerging economy has an estimated Potential GDP of ₹20,000 Crore and a Natural Rate of Unemployment (NRU) of 5.0%. Due to a global trade contraction, actual unemployment rises to 8.0%. Assuming an Okun\'s sensitivity coefficient of β = 2.0, what is the resulting GDP Output Gap, and which of the following explains why Okun\'s coefficient is greater than 1.0 (β > 1)?',
         options: [
           'Output Gap: -6.0% (₹1,200 Crore of lost GDP); β > 1 because rising unemployment is accompanied by reduced average working hours, discouraged worker labor force dropouts, and underutilized capital machinery.',
           'Output Gap: -3.0% (₹600 Crore of lost GDP); β > 1 because inflation accelerates when workers become unemployed.',
@@ -1062,7 +1183,7 @@ Because Common Pool Resources are **rivalrous but non-excludable**, individuals 
           'Output Gap: -1.5% (₹300 Crore of lost GDP); β > 1 because potential GDP automatically contracts whenever actual unemployment rises.',
         ],
         correctAnswer: 'Output Gap: -6.0% (₹1,200 Crore of lost GDP); β > 1 because rising unemployment is accompanied by reduced average working hours, discouraged worker labor force dropouts, and underutilized capital machinery.',
-        explanation: 'According to Okun\'s Law (\\frac{Y^* - Y}{Y^*} \\approx \\beta \\times [u - u^*]), Cyclical Unemployment is u - u^* = 8.0% - 5.0% = +3.0%. With Okun\'s coefficient \\beta = 2.0, the percentage GDP Output Gap is -\\beta \\times (u - u^*) = -2.0 \\times 3.0% = -6.0%. The absolute volume of lost output is 6.0% \\times ₹20,000 Crore = ₹1,200 Crore. As Professor Ryan demonstrates in "Okuns Law", \\beta > 1 (a 1% rise in unemployment causes more than a 1% drop in output) because official headline unemployment captures only active job seekers. During a recession, firms practice labor hoarding and cut average weekly hours, frustrated workers drop out of the labor force into the discouraged worker pool (hiding true labor loss), and idle workers leave factory capital machinery unutilized simultaneously.',
+        explanation: 'According to Okun\'s Law (\\frac{Y^* - Y}{Y^*} \\approx \\beta \\times [u - u^*]), Cyclical Unemployment is u - u^* = 8.0% - 5.0% = +3.0%. With Okun\'s coefficient \\beta = 2.0, the percentage GDP Output Gap is -\\beta \\times (u - u^*) = -2.0 \\times 3.0% = -6.0%. The absolute volume of lost output is 6.0% \\times ₹20,000 Crore = ₹1,200 Crore. In macroeconomic reality, \\beta > 1 (a 1% rise in unemployment causes more than a 1% drop in output) because official headline unemployment captures only active job seekers. During a recession, firms practice labor hoarding and cut average weekly hours, frustrated workers drop out of the labor force into the discouraged worker pool (hiding true labor loss), and idle workers leave factory capital machinery unutilized simultaneously.',
         trapExplanation: 'Option B erroneously uses a 1-to-1 ratio (\\beta = 1.0) and invents an inflation claim. Option C confuses a recessionary output gap with an expansionary surplus. Option D divides by 2 instead of multiplying by \\beta = 2.',
         difficulty: 'MEDIUM',
         isPYQ: false,

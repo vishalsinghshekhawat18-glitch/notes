@@ -102,6 +102,17 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
       'general-hindi',
     ],
   },
+  {
+    id: 'shelf-007',
+    title: 'Shelf 007: Sovereign Knowledge Bastion & Master Examination Series',
+    icon: '🏛️',
+    badge: 'Master Examination Series',
+    accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
+    borderAccent: 'border-l-[#143227]',
+    subjectSlugs: [
+      'economics-master',
+    ],
+  },
 ];
 
 export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
@@ -306,7 +317,50 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
               .filter((s): s is SubjectOverviewItem => s !== undefined)
               .filter(matchesSearch);
 
-            if (shelfSubjects.length === 0) return null;
+            if (shelfSubjects.length === 0) {
+              if (shelf.id === 'shelf-007') {
+                return (
+                  <section
+                    key={shelf.id}
+                    className="bg-[#ffffff] border border-[#e5dfd3] rounded-2xl p-4 sm:p-5 space-y-4 shadow-2xs"
+                  >
+                    {/* Shelf Header */}
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#f0ebe1] pb-3">
+                      <div className="flex items-center gap-2.5">
+                        <span className="text-xl" role="img" aria-label={shelf.title}>
+                          {shelf.icon}
+                        </span>
+                        <div>
+                          <h3 className="font-serif font-bold text-stone-900 text-base sm:text-lg tracking-tight">
+                            {shelf.title}
+                          </h3>
+                          <span className="text-[11px] font-mono text-stone-600">
+                            Isolated Master Codex • Work in Progress
+                          </span>
+                        </div>
+                      </div>
+
+                      <span className={`self-start sm:self-auto text-[10px] font-mono px-2 py-0.5 rounded-full border font-bold uppercase tracking-wider ${shelf.accentColor}`}>
+                        {shelf.badge}
+                      </span>
+                    </div>
+
+                    <div className="p-6 rounded-xl border border-dashed border-[#dcd6c8] bg-[#fbf9f5] flex flex-col items-center justify-center text-center space-y-2">
+                      <div className="w-8 h-8 rounded-full bg-[#143227]/10 text-[#143227] flex items-center justify-center font-bold text-sm">
+                        007
+                      </div>
+                      <h4 className="font-serif font-bold text-stone-800 text-sm">
+                        Shelf 007 Initialized & Live
+                      </h4>
+                      <p className="text-xs text-stone-500 max-w-md font-sans">
+                        Isolated sovereign knowledge bastion initialized. Multiple comprehensive subjects (starting with Economics) are staged locally and will populate here upon authorized release.
+                      </p>
+                    </div>
+                  </section>
+                );
+              }
+              return null;
+            }
 
             return (
               <section
