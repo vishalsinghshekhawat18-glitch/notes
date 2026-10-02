@@ -258,19 +258,12 @@ International organizations classify economies not by total GDP size, but by **a
 ### 1. The World Bank Income Classification (Atlas Method)
 Categorizes every country based on **Gross National Income (GNI) per capita** calculated in US Dollars using the World Bank Atlas conversion factor (a 3-year smoothed exchange rate to filter currency volatility).
 
-```
-┌─────────────────────────────────────────┬─────────────────────────────────────────────┐
-│ World Bank Income Tier (FY 2024–25)     │ GNI Per Capita Threshold (Atlas Method)     │
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ Low-Income Economies                    │ $\le \$1,145$                               │
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ Lower-Middle-Income Economies           │ $\$1,146 - \$4,515$  ★ [INDIA IS HERE: ~$2,500]│
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ Upper-Middle-Income Economies           │ $\$4,516 - \$14,005$ (e.g. China, Brazil)   │
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ High-Income Economies                   │ $> \$14,005$ (e.g. US, UK, Japan, UAE)      │
-└─────────────────────────────────────────┴─────────────────────────────────────────────┘
-```
+| World Bank Income Tier (FY 2024–25) | GNI Per Capita Threshold (Atlas Method) |
+| :--- | :--- |
+| **Low-Income Economies** | $\le$ \$1,145 |
+| **Lower-Middle-Income Economies** | \$1,146 to \$4,515 ★ [**India is here: ~$2,500**] |
+| **Upper-Middle-Income Economies** | \$4,516 to \$14,005 (e.g., China, Brazil) |
+| **High-Income Economies** | > \$14,005 (e.g., USA, UK, Japan, UAE) |
 
 > **The "Middle-Income Trap"**: A developmental pathology where rapidly growing emerging economies escape absolute low-income poverty through low-wage manufacturing, but stagnate before reaching high-income status because they fail to transition to high-productivity innovation, patents, and advanced human capital.
 
@@ -344,7 +337,7 @@ Divides the world into two broad blocs:
   * Formula: $\text{MPI} = H \times A$ (Headcount $\times$ Intensity).
   * Threshold: Deprivation score $\ge 33.33\%$.
   * Global = 10 indicators; NITI Aayog National MPI = 12 indicators (adds Maternal Health & Bank Accounts).
-* **World Bank Tiers (GNI per cap)**: Low ($\le \$1,145$), Lower-Middle ($\$1,146–\$4,515$ $\leftarrow$ **India**), Upper-Middle ($\$4,516–\$14,005$), High ($>\$14,005$).
+* **World Bank Tiers (GNI per cap)**: Low ($\le$ \$1,145), Lower-Middle (\$1,146–\$4,515 $\leftarrow$ **India**), Upper-Middle (\$4,516–\$14,005), High (> \$14,005).
 
 ---
 

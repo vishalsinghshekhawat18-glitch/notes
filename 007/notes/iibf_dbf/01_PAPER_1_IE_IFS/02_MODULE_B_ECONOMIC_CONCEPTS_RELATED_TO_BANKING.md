@@ -290,7 +290,7 @@ A **Liquidity Trap** occurs at an ultra-low rate of interest where the speculati
 
 | Aggregate | Formula / Definition | Key Distinction |
 | --- | --- | --- |
-| Gross Domestic Product (GDP) | $$\text{Total market value of all final goods & services produced WITHIN domestic territory in 1 year}$$ | Spatial/Territorial measure (includes foreign nationals working in India). |
+| Gross Domestic Product (GDP) | $$\text{Total market value of all final goods and services produced WITHIN domestic territory in 1 year}$$ | Spatial/Territorial measure (includes foreign nationals working in India). |
 | Gross National Product (GNP) | $$GDP + \text{NFIA}$$ (Net Factor Income from Abroad) | Citizenship/Resident measure. \(\text{NFIA} = \text{Income earned by residents abroad} - \text{Income earned by non-residents in India}\). |
 | Net Domestic Product (NDP) | $$GDP - \text{Depreciation (Consumption of Fixed Capital)}$$ | Adjusts for capital equipment wear and tear. |
 | Net National Product (NNP) | $$GNP - \text{Depreciation}$$ | Cleanest measure of aggregate national wealth output. |

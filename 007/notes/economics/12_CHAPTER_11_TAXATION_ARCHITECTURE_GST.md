@@ -95,22 +95,10 @@ Tax Rate (%)
 
 These two mathematical indicators assess whether tax revenues are growing in tandem with national output:
 
-```
-┌───────────────────────────────────────────────┬───────────────────────────────────────────────┐
-│ Tax Buoyancy                                  │ Tax Elasticity                                │
-├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ $$\mathbf{\text{Tax Buoyancy}} =              │ $$\mathbf{\text{Tax Elasticity}} =            │
-│ \frac{\% \Delta \text{Total Tax Revenue}}     │ \frac{\% \Delta \text{Tax Revenue (Auto)}}    │
-│      {\% \Delta \text{Nominal GDP}}$$         │      {\% \Delta \text{Nominal GDP}}$$         │
-├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ • Measures responsiveness of tax revenue      │ • Measures **pure automatic response** of tax │
-│   including **ALL discretionary policy        │   yield to GDP growth **WITHOUT any           │
-│   measures** (rate changes, new levies, base  │   discretionary tax changes** (holding rates  │
-│   broadening, anti-evasion drives).           │   and exemptions constant).                   │
-│ • If Buoyancy $> 1$, tax collections grow     │ • Isolates organic revenue growth from        │
-│   faster than national income.                │   legislative tinkering.                      │
-└───────────────────────────────────────────────┴───────────────────────────────────────────────┘
-```
+| Indicator | Mathematical Formulation | Epistemic Significance & Interpretation |
+| :--- | :--- | :--- |
+| **Tax Buoyancy** | $$\text{Tax Buoyancy} = \frac{\% \Delta \text{Total Tax Revenue}}{\% \Delta \text{Nominal GDP}}$$ | • Measures responsiveness of tax revenue including **ALL discretionary policy measures** (rate changes, new levies, base broadening, anti-evasion drives).<br/>• If Buoyancy $> 1$, tax collections grow faster than national income. |
+| **Tax Elasticity** | $$\text{Tax Elasticity} = \frac{\% \Delta \text{Tax Revenue (Automatic)}}{\% \Delta \text{Nominal GDP}}$$ | • Measures **pure automatic response** of tax yield to GDP growth **WITHOUT any discretionary tax changes** (holding rates and exemptions constant).<br/>• Isolates organic revenue growth from legislative tinkering. |
 
 ---
 

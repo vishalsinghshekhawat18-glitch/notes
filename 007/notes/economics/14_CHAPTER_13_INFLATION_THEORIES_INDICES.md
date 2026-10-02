@@ -80,7 +80,7 @@ Price Level
 ### 2. Cost-Push Inflation
 Originates from an exogenous reduction in Aggregate Supply caused by an increase in input costs, shifting the supply curve inward (leftward) while aggregate demand remains constant:
 
-$$\mathbf{Input Costs \uparrow} \implies \mathbf{Supply Curve Shifts Left} \implies \text{Prices Rise & Output Contracts}$$
+$$\text{Input Costs } \uparrow \implies \text{Supply Curve Shifts Left} \implies \text{Prices Rise and Output Contracts}$$
 
 * **Key Drivers**:
   * Global commodity price shocks (e.g., crude oil spikes, fertilizer price jumps).

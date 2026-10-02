@@ -58,36 +58,12 @@ Balance      surplus        abroad (deficit)(Massive surplus!)
 
 The Current Account records transactions that do not create future sovereign liabilities or claim redemptions:
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Component                       │ Nature of Inflows / Outflows & Indian Reality               │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **1. Merchandise Trade          │ $$\mathbf{\text{Trade Balance}} =                           │
-│    Balance (Goods)**            │ \text{Merchandise Exports} - \text{Merchandise Imports}$$   │
-│                                 │ • **Structurally in heavy deficit for India** (-$150B to    │
-│                                 │   -$250B annually) due to high import dependence on:        │
-│                                 │   - Crude oil and gas (~85% import dependent)               │
-│                                 │   - Electronic hardware and components                      │
-│                                 │   - Gold, precious stones, and capital machinery.           │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **2. Services (Invisibles)**    │ • **Structurally in large surplus for India** (+$100B to    │
-│                                 │   +$150B annually).                                         │
-│                                 │ • Dominated by Software, IT services, BPO/BPM, Global       │
-│                                 │   Capability Centres (GCCs), transport, and consultancy.    │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **3. Primary Income**           │ • Flow of factor income (Interest, Dividends, Profits, and  │
-│    *(Investment Income)*        │   Compensation of Employees).                               │
-│                                 │ • **Structurally in deficit for India**: Dividend/profit    │
-│                                 │   outflows on foreign capital invested in India far exceed  │
-│                                 │   returns earned by Indians investing abroad.               │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **4. Secondary Income**         │ • **Unrequited / Unilateral Transfers** (no economic quid   │
-│    *(Current Transfers)*        │   pro quo): Private cross-border remittances, gifts, grants.│
-│                                 │ • **Massive surplus for India**: India is the **world's     │
-│                                 │   largest remittance recipient** ($> \$110 \text{ Billion}$ │
-│                                 │   annually, driven by GCC nations, USA, and UK diaspora).   │
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Component | Mathematical / Economic Formulation | Nature of Inflows & Indian Reality |
+| :--- | :--- | :--- |
+| **1. Merchandise Trade Balance (Goods)** | $$\text{Trade Balance} = \text{Merchandise Exports} - \text{Merchandise Imports}$$ | • **Structurally in heavy deficit for India** (-\$150B to -\$250B annually) due to high import dependence on:<br/>- Crude oil and gas (~85% import dependent)<br/>- Electronic hardware and components<br/>- Gold, precious stones, and capital machinery. |
+| **2. Services (Invisibles)** | Net Service Receipts | • **Structurally in large surplus for India** (+\$100B to +\$150B annually).<br/>• Dominated by Software, IT services, BPO/BPM, Global Capability Centres (GCCs), transport, and consultancy. |
+| **3. Primary Income (Investment Income)** | Factor Income Balance | • Flow of factor income (Interest, Dividends, Profits, and Compensation of Employees).<br/>• **Structurally in deficit for India**: Dividend/profit outflows on foreign capital invested in India far exceed returns earned by Indians investing abroad. |
+| **4. Secondary Income (Current Transfers)** | Unilateral Transfers | • **Unrequited Transfers** (no economic quid pro quo): Private cross-border remittances, gifts, grants.<br/>• **Massive surplus for India**: India is the **world's largest remittance recipient** (> \$110 Billion annually, driven by GCC nations, USA, and UK diaspora). |
 
 $$\mathbf{\text{Current Account Balance (CAB)}} = \text{Merchandise Trade Balance} + \mathbf{\text{Net Invisibles}} \; (\text{Services} + \text{Primary} + \text{Secondary})$$
 
@@ -213,30 +189,12 @@ US$, Euro, Yen, GBP    Bank of England vaults                   Rights allocated
 
 ## 16.7 External Vulnerability & Debt Sustainability Ratios
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Vulnerability Metric            │ Formula & Benchmark Prudential Threshold                    │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Import Cover**                │ $$\mathbf{\text{Import Cover}} =                            │
-│                                 │ \frac{\text{Forex Reserves}}{\text{Monthly Merchandise Imp}}│
-│                                 │ Expressed in number of months. India maintains ~**10 to 12  │
-│                                 │ months** of import cover (safe threshold $> 6$ months).     │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Debt Service Ratio**          │ $$\mathbf{\text{Debt Service Ratio}} =                      │
-│                                 │ \frac{\text{Principal Repayment} + \text{Interest Due}}     │
-│                                 │      {\text{Current Account Receipts}} \times 100$$         │
-│                                 │ Measures capacity to service external debt using export &   │
-│                                 │ invisible earnings. India's ratio is healthy at ~**5%–6%**. │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **External Debt to GDP**        │ India's sovereign and commercial external debt ratio is     │
-│                                 │ ~**18.5% to 19.0% of GDP**, among the lowest among major    │
-│                                 │ emerging market economies.                                  │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Short-Term Debt to Forex**    │ Short-term debt (by original maturity) as a percentage of   │
-│                                 │ total Forex reserves stands at ~**20%–22%**, confirming     │
-│                                 │ exceptional foreign exchange liquidity buffer.              │
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Vulnerability Metric | Mathematical Formulation | Benchmark Prudential Threshold & Reality |
+| :--- | :--- | :--- |
+| **Import Cover** | $$\text{Import Cover} = \frac{\text{Forex Reserves}}{\text{Monthly Merchandise Imports}}$$ | Expressed in number of months. India maintains ~**10 to 12 months** of import cover (safe threshold > 6 months). |
+| **Debt Service Ratio** | $$\text{Debt Service Ratio} = \frac{\text{Principal Repayment} + \text{Interest Due}}{\text{Current Account Receipts}} \times 100$$ | Measures capacity to service external debt using export & invisible earnings. India's ratio is healthy at ~**5%–6%**. |
+| **External Debt to GDP** | Total External Debt / GDP | India's sovereign and commercial external debt ratio is ~**18.5% to 19.0% of GDP**, among the lowest among major emerging market economies. |
+| **Short-Term Debt to Forex** | Short-Term Debt / Forex Reserves | Short-term debt (by original maturity) as a percentage of total Forex reserves stands at ~**20%–22%**, confirming exceptional foreign exchange liquidity buffer. |
 
 ---
 

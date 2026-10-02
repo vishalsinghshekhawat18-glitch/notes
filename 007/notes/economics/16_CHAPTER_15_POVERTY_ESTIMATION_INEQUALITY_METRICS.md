@@ -234,29 +234,11 @@ $$\mathbf{\text{Gini Coefficient}} = \frac{\mathbf{\text{Area } A}}{\mathbf{\tex
 
 ### 3. Alternative Distributional Indicators:
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Distribution Metric             │ Mathematical Formulation & Interpretation                   │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Palma Ratio**                 │ $$\mathbf{\text{Palma Ratio}} =                             │
-│                                 │ \frac{\text{Income Share of Richest 10\%}}                  │
-│                                 │      {\text{Income Share of Poorest 40\%}}$$                │
-│                                 │ Gabriel Palma observed that middle-class (deciles 5 to 9)   │
-│                                 │ capture ~50% of income across all societies; inequality is  │
-│                                 │ driven almost entirely by the tug-of-war between top 10%    │
-│                                 │ and bottom 40%. Palma $> 1$ indicates significant disparity.│
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Poverty Gap Index (PGI)**     │ $$\mathbf{\text{PGI}} =                                     │
-│                                 │ \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)$$ │
-│                                 │ Measures the **depth of poverty** (the average cash shortfall│
-│                                 │ of poor individuals below the poverty line $z$ as a share of│
-│                                 │ $z$). Reflects how much money is needed to eliminate poverty│
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Squared Poverty Gap (SPG)**   │ Squares the poverty gap of each poor individual before      │
-│ *(Poverty Severity Index)*      │ averaging. Gives disproportionate mathematical weight to the│
-│                                 │ poorest of the poor (measures **severity of deprivation**). │
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Distribution Metric | Mathematical Formulation | Epistemic Interpretation & Significance |
+| :--- | :--- | :--- |
+| **Palma Ratio** | $$\text{Palma Ratio} = \frac{\text{Income Share of Richest 10\%}}{\text{Income Share of Poorest 40\%}}$$ | Gabriel Palma observed that middle-class (deciles 5 to 9) capture ~50% of income across all societies; inequality is driven almost entirely by the tug-of-war between top 10% and bottom 40%. Palma $> 1$ indicates significant disparity. |
+| **Poverty Gap Index (PGI)** | $$\text{PGI} = \frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)$$ | Measures the **depth of poverty** (the average cash shortfall of poor individuals below the poverty line $z$ as a share of $z$). Reflects how much resources are needed to eliminate poverty. |
+| **Squared Poverty Gap (SPG)** *(Poverty Severity Index)* | Squares the poverty gap of each poor individual before averaging: $\frac{1}{N} \sum_{i=1}^{q} \left(\frac{z - y_i}{z}\right)^2$ | Gives disproportionate mathematical weight to the poorest of the poor (measures **severity of deprivation**). |
 
 ---
 

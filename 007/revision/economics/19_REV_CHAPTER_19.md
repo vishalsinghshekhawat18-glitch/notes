@@ -16,7 +16,7 @@
 | **Small & Marginal (Combined)**| **Below 2.0 Hectares** | **86.2%** | **47.3%** |
 | **Semi-Medium / Medium** | 2.0 to 10.0 Hectares | 13.3% | 43.6% |
 | **Large Holdings** | **10.0 Hectares and Above** | **0.57%** | **9.1%** |
-| **National Average Holding** | Continually fragmented: **1.08 Hectares** (down from 2.28 ha in 1970–71) |
+| **National Average Holding** | Continually fragmented: **1.08 Hectares** (down from 2.28 ha in 1970–71) | — | — |
 
 ---
 

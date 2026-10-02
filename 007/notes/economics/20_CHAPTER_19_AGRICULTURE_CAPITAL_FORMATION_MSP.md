@@ -325,46 +325,21 @@ $$\mathbf{\text{GCF in Agriculture}} = \mathbf{\text{Public GCF (State Capex)}} 
 
 ### 3. The Three Cost Formulations of CACP
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Cost Measure                    │ Specific Mathematical & Accounting Inclusions               │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **1. Cost A2**                  │ **Actual Paid-Out Direct Expenses**: Cash and in-kind       │
-│                                 │ expenditure incurred by the farmer on:                      │
-│                                 │ • Seeds, fertilizers, pesticides, and manure                │
-│                                 │ • Hired human labor, bullock labor, and machine rentals     │
-│                                 │ • Fuel, electricity, and canal irrigation charges           │
-│                                 │ • Rent paid for leased-in land.                             │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **2. Cost A2 + FL**             │ **Cost A2 PLUS Imputed Family Labor**:                      │
-│                                 │ $$\mathbf{A2 + FL} = A2 + \text{Imputed Economic Value of   │
-│                                 │ Unpaid Family Labor (based on prevailing casual wage)}$$    │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **3. Cost C2**                  │ **Comprehensive Economic Cost**:                            │
-│                                 │ $$\mathbf{C2} = (A2 + FL) + \text{Imputed Rent of Owned Land}│
-│                                 │ + \text{Imputed Interest on Owned Fixed Capital Assets}$$   │
-│                                 │ Reflects full economic opportunity cost of all owned capital│
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Cost Measure | Specific Mathematical & Accounting Inclusions | Epistemic Character |
+| :--- | :--- | :--- |
+| **1. Cost A2** | Direct paid-out cash and in-kind expenditure incurred by the farmer on seeds, fertilizers, pesticides, manure, hired labor, machinery rentals, fuel, irrigation, and leased land rent. | **Actual Paid-Out Direct Expenses** |
+| **2. Cost A2 + FL** | $$\text{Cost}(A2 + FL) = A2 + \text{Imputed Value of Unpaid Family Labor}$$ | Cost A2 PLUS imputed economic value of unpaid family labor (based on prevailing casual wage). |
+| **3. Cost C2** | $$\text{Cost } C2 = (A2 + FL) + \text{Imputed Owned Land Rent} + \text{Imputed Fixed Capital Asset Interest}$$ | **Comprehensive Economic Cost**: Reflects full economic opportunity cost of all owned capital and land. |
 
 ---
 
 ### 4. The M.S. Swaminathan Committee Recommendation vs. Government Formula
 
-```
-┌───────────────────────────────────────────────┬───────────────────────────────────────────────┐
-│ M.S. Swaminathan Committee (2006)             │ Government Formula (Implemented 2018–19)      │
-├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ The National Commission on Farmers mandated   │ The Union Budget 2018–19 fixed MSP at:        │
-│ fixing MSP at:                                │                                               │
-│                                               │ $$\mathbf{\text{MSP}} =                       │
-│ $$\mathbf{\text{MSP}} =                       │ \mathbf{1.5 \times (A2 + FL)}$$               │
-│ \mathbf{C2 + 50\%}$$                          │                                               │
-│                                               │ *(A 50% margin over paid-out costs + family   │
-│ *(A 50% return over the COMPREHENSIVE cost,   │  labor, but EXCLUDING imputed rent and owned  │
-│  including land rent and fixed asset capital)*│  capital interest)*                           │
-└───────────────────────────────────────────────┴───────────────────────────────────────────────┘
-```
+| Parameter | M.S. Swaminathan Committee Recommendation (2006) | Government Operational Formula (Since 2018–19) |
+| :--- | :--- | :--- |
+| **MSP Benchmark Formula** | $$\text{MSP} = C2 + 50\% = 1.5 \times C2$$ | $$\text{MSP} = 1.5 \times (A2 + FL)$$ |
+| **Cost Inclusions** | 50% return over the **COMPREHENSIVE cost ($C2$)**, including imputed land rent and fixed asset capital interest. | 50% margin over paid-out costs + family labor, but **EXCLUDING** imputed land rent and owned capital interest. |
+| **Farmer Demand Status** | Core statutory demand of national farmer protests for legal MSP guarantee. | Current operational price floor enacted in Union Budget 2018–19. |
 
 > **The Statutory Trap**: Farmers demand legal enactment of the **$C2 + 50\%$** formula. The current operational policy gives a 50% profit margin over **$(A2 + FL)$**, which is significantly lower than $C2$.
 

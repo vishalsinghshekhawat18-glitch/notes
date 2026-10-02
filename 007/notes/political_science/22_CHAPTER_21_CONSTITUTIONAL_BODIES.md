@@ -256,8 +256,8 @@ Inserted by the **101st Constitutional Amendment Act, 2016**, the GST Council is
   - **Quorum**: Minimum **one-half (50%)** of the total number of members.
   - **Passage Majority**: Every decision is taken by a majority of **NOT LESS THAN THREE-FOURTHS (3/4th / 75%) of the weighted votes** of the members present and voting.
   - **Weighted Allocation**:
-    $$\text{Vote of the Central Government} = \frac{1}{3}\text{rd (33.33%) of the Total Votes Cast}$$
-    $$\text{Votes of ALL State Governments Combined} = \frac{2}{3}\text{rds (66.67%) of the Total Votes Cast}$$
+    $$\text{Vote of the Central Government} = \frac{1}{3}\text{rd (33.33\%) of the Total Votes Cast}$$
+    $$\text{Votes of ALL State Governments Combined} = \frac{2}{3}\text{rds (66.67\%) of the Total Votes Cast}$$
   - *Federal Equilibrium*: Neither the Centre alone (33%) nor all States combined (67%) can pass a resolution unilaterally without a degree of cross-consensus to cross the 75% threshold!
 
 ---

@@ -49,7 +49,7 @@ $$\mathbf{\text{REER} > 100} \implies \mathbf{\text{Rupee Overvalued}} \implies 
 
 $$\mathbf{\text{REER} < 100} \implies \mathbf{\text{Rupee Undervalued}} \implies \text{Exports Highly Competitive, Imports Costlier}$$
 
-$$\mathbf{\text{LRS Remittance Limit}}: \quad \mathbf{\$250,000} \text{ per resident individual per financial year}$$
+$$\text{LRS Remittance Limit}: \quad \text{USD 250,000 per resident individual per financial year}$$
 
 ---
 

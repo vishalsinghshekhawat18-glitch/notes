@@ -46,10 +46,10 @@ $$\text{Poverty Cut-off } (k): \quad \text{Deprivation Score } \ge 33.33\% \impl
 
 | Income Tier | GNI Per Capita Range (USD) | Global Position of India |
 | :--- | :--- | :--- |
-| **Low Income** | $\le \$1,145$ | Escaped in late 2000s |
-| **Lower-Middle Income** | $\mathbf{\$1,146 - \$4,515}$ | **India sits here (~$2,500 GNI per capita)** |
-| **Upper-Middle Income** | $\$4,516 - \$14,005$ | China (~$13,000), Brazil |
-| **High Income** | $> \$14,005$ | United States, OECD nations |
+| **Low Income** | $\le$ \$1,145 | Escaped in late 2000s |
+| **Lower-Middle Income** | **\$1,146 to \$4,515** | **India sits here (~$2,500 GNI per capita)** |
+| **Upper-Middle Income** | \$4,516 to \$14,005 | China (~$13,000), Brazil |
+| **High Income** | > \$14,005 | United States, OECD nations |
 
 ---
 

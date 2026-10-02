@@ -41,34 +41,12 @@ To analyze labor markets with macroeconomic precision, an entire national popula
 
 ## 14.2 The Four Core Mathematical Labor Indicators
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Indicator                       │ Mathematical Formulation & Denominator Check                │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Labour Force Participation    │ $$\mathbf{\text{LFPR}} =                                    │
-│ Rate (LFPR)**                   │ \frac{\text{Labour Force (Employed + Unemployed)}}          │
-│                                 │      {\text{Total Working-Age Population (15+)}} \times 100$$│
-│                                 │ Measures the proportion of working-age citizens willing     │
-│                                 │ and available to work.                                      │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Worker Population Ratio (WPR) │ $$\mathbf{\text{WPR}} =                                     │
-│ / Employment Rate**             │ \frac{\text{Total Employed Persons}}                        │
-│                                 │      {\text{Total Population (or 15+)}} \times 100$$        │
-│                                 │ Measures the proportion of the population actively engaged  │
-│                                 │ in productive economic output.                              │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Unemployment Rate (UR)**      │ $$\mathbf{\text{UR}} =                                      │
-│                                 │ \frac{\mathbf{\text{Unemployed Persons}}}                   │
-│                                 │      {\mathbf{\text{Labour Force (E + U)}}} \times 100$$    │
-│                                 │ **CRITICAL DENOMINATOR TRAP**: The denominator is the       │
-│                                 │ **Labour Force**, NOT the total population or working age!  │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Age Dependency Ratio**        │ $$\mathbf{\text{Dependency Ratio}} =                        │
-│                                 │ \frac{\text{Pop (0–14)} + \text{Pop (60+)}}                 │
-│                                 │      {\text{Working-Age Pop (15–59)}} \times 100$$          │
-│                                 │ Measures the economic burden borne by the working-age group.│
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Indicator | Mathematical Formulation | Denominator Check & Epistemic Focus |
+| :--- | :--- | :--- |
+| **Labour Force Participation Rate (LFPR)** | $$\text{LFPR} = \frac{\text{Labour Force (Employed + Unemployed)}}{\text{Total Working-Age Population (15+)}} \times 100$$ | Measures the proportion of working-age citizens willing and available to work. |
+| **Worker Population Ratio (WPR) / Employment Rate** | $$\text{WPR} = \frac{\text{Total Employed Persons}}{\text{Total Population (or 15+)}} \times 100$$ | Measures the proportion of the population actively engaged in productive economic output. |
+| **Unemployment Rate (UR)** | $$\text{UR} = \frac{\text{Unemployed Persons}}{\text{Labour Force (E + U)}} \times 100$$ | **CRITICAL DENOMINATOR TRAP**: The denominator is the **Labour Force**, NOT the total population or working age! |
+| **Age Dependency Ratio** | $$\text{Dependency Ratio} = \frac{\text{Pop (0–14)} + \text{Pop (60+)}}{\text{Working-Age Pop (15–59)}} \times 100$$ | Measures the economic burden borne by the working-age group. |
 
 > **The Demographic Dividend**: A transient economic window of opportunity occurring when a nation's **Age Dependency Ratio drops to its historical minimum**, meaning the working-age population expands significantly faster than the dependent cohort. In India, this window opened around 2005–06 and will peak near 2041 before transitioning into population aging.
 
