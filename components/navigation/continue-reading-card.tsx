@@ -23,7 +23,11 @@ export function ContinueReadingCard() {
       if (stored) {
         const parsed = JSON.parse(stored) as SavedPosition;
         if (parsed && parsed.url && parsed.topicTitle) {
-          setPosition(parsed);
+          if (parsed.url.startsWith('/subjects/') || parsed.url.startsWith('/topics/') || parsed.url.startsWith('/concepts/')) {
+            localStorage.removeItem('reading_hub_last_position');
+          } else {
+            setPosition(parsed);
+          }
         }
       }
     } catch {

@@ -12,10 +12,15 @@ interface SubjectPageProps {
   }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const subjects = await db.subject.findMany({
     select: { slug: true },
   });
+  if (subjects.length === 0) {
+    return [{ slug: '_empty' }];
+  }
   return subjects.map((s) => ({ slug: s.slug }));
 }
 

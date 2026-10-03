@@ -1,33 +1,8 @@
 import { db } from '@/lib/db/client';
-import { seedBatchGASchemesCanonicalKnowledge } from '@/lib/benchmark/batch-ga-schemes-canonical-seed';
-import { seedBatchEnglishCanonicalKnowledge } from '@/lib/benchmark/batch-english-canonical-seed';
-import { seedAncientMasterCanonicalKnowledge } from '@/lib/benchmark/batch-ancient-master-canonical-seed';
-import { seedBatchQuantBatch1CanonicalKnowledge } from '@/lib/benchmark/batch-quant-batch-1-canonical-seed';
-import { seedBatchQuantBatch2CanonicalKnowledge } from '@/lib/benchmark/batch-quant-batch-2-canonical-seed';
-import { seedBatchQuantBatch3PracticeBank } from '@/lib/benchmark/batch-quant-batch-3-practice-seed';
-import { seedBasicScienceMasterCanonicalKnowledge } from '@/lib/benchmark/batch-science-master-canonical-seed';
-import { seedHindiMasterCanonicalKnowledge } from '@/lib/benchmark/batch-hindi-master-canonical-seed';
-import { seedPubAdLawsMasterCanonicalKnowledge } from '@/lib/benchmark/batch-pubad-laws-canonical-seed';
-import { seedEthicsBehaviorSportsCanonicalKnowledge } from '@/lib/benchmark/batch-ethics-behavior-sports-canonical-seed';
-import { seedRajasthanMasterCanonicalKnowledge } from '@/lib/benchmark/batch-rajasthan-master-canonical-seed';
-import { seedBatchComputerAptitudeCanonicalKnowledge } from '@/lib/benchmark/batch-computer-aptitude-canonical-seed';
 
 export async function ensureCanonicalDataSeeded() {
-  const conceptCount = await db.concept.count();
-  if (conceptCount === 0) {
-    await seedBatchGASchemesCanonicalKnowledge();
-    await seedBatchEnglishCanonicalKnowledge();
-    await seedAncientMasterCanonicalKnowledge();
-    await seedBatchQuantBatch1CanonicalKnowledge();
-    await seedBatchQuantBatch2CanonicalKnowledge();
-    await seedBatchQuantBatch3PracticeBank();
-    await seedBasicScienceMasterCanonicalKnowledge();
-    await seedHindiMasterCanonicalKnowledge();
-    await seedPubAdLawsMasterCanonicalKnowledge();
-    await seedEthicsBehaviorSportsCanonicalKnowledge();
-    await seedRajasthanMasterCanonicalKnowledge();
-    await seedBatchComputerAptitudeCanonicalKnowledge();
-  }
+  // Shelves 1 through 6 are fully purged.
+  // Sovereign Shelf 007 operates independently.
 }
 
 export interface SubjectOverviewItem {
@@ -52,28 +27,7 @@ export interface DomainWithSubjects {
   subjects: SubjectOverviewItem[];
 }
 
-const SUBJECT_CODE_MAP: Record<string, string> = {
-  'indian-polity': 'GOV-01',
-  'basic-science': 'SCI-01',
-  'ancient-indian-history': 'HIS-01',
-  'quantitative-aptitude-and-data-interpretation': 'APT-01',
-  'computer-aptitude': 'CMP-01',
-  'english-descriptive-writing': 'LAN-01',
-  'modern-indian-history': 'HIS-02',
-  'geography-and-environment': 'GEO-01',
-  'government-schemes': 'PUB-01',
-  'agriculture-and-rural-development': 'ARD-01',
-  'general-awareness': 'GEN-01',
-  'medieval-indian-history': 'HIS-03',
-  'world-history': 'HIS-04',
-  'art-culture-rajasthan': 'ART-01',
-  'applied-science-and-biotechnology': 'SCI-02',
-  'industrial-relations-and-labour-laws': 'IRL-01',
-  'rajasthan-history-culture-geography': 'RAJ-01',
-  'public-administration-and-laws': 'PAD-01',
-  'ethics-behavior-sports': 'ETH-01',
-  'general-hindi': 'HIN-01',
-};
+const SUBJECT_CODE_MAP: Record<string, string> = {};
 
 
 export async function getLibrarySubjectsOverview(): Promise<DomainWithSubjects[]> {

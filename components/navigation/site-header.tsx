@@ -53,52 +53,52 @@ export function SiteHeader() {
                 Shelves
               </Link>
               <Link
-                href="/subjects/indian-polity"
+                href="/shelf-007"
+                className="hover:text-stone-900 transition-colors font-bold text-[#143227]"
+              >
+                Shelf 007
+              </Link>
+              <Link
+                href="/shelf-007/history"
+                className="hover:text-stone-900 transition-colors"
+              >
+                History
+              </Link>
+              <Link
+                href="/shelf-007/political-science"
                 className="hover:text-stone-900 transition-colors"
               >
                 Polity
               </Link>
               <Link
-                href="/subjects/indian-economy"
+                href="/shelf-007/economics"
                 className="hover:text-stone-900 transition-colors"
               >
                 Economy
               </Link>
               <Link
-                href="/subjects/basic-science"
-                className="hover:text-stone-900 transition-colors font-semibold text-emerald-800"
+                href="/shelf-007/geography"
+                className="hover:text-stone-900 transition-colors"
+              >
+                Geography
+              </Link>
+              <Link
+                href="/shelf-007/general-science"
+                className="hover:text-stone-900 transition-colors"
               >
                 Science
               </Link>
               <Link
-                href="/subjects/iibf-banking-regulations"
+                href="/shelf-007/quantitative-aptitude"
                 className="hover:text-stone-900 transition-colors"
               >
-                IIBF
+                Quantitative
               </Link>
               <Link
-                href="/subjects/rajasthan-history-culture-geography"
-                className="hover:text-stone-900 transition-colors font-bold text-[#c25e2e]"
-              >
-                RPSC RAS
-              </Link>
-              <Link
-                href="/subjects/public-administration-and-laws"
+                href="/shelf-007/english-language"
                 className="hover:text-stone-900 transition-colors"
               >
-                PubAd
-              </Link>
-              <Link
-                href="/subjects/ethics-behavior-sports"
-                className="hover:text-stone-900 transition-colors"
-              >
-                Ethics
-              </Link>
-              <Link
-                href="/subjects/general-hindi"
-                className="hover:text-stone-900 transition-colors"
-              >
-                Hindi
+                English
               </Link>
             </nav>
           </div>

@@ -10,10 +10,15 @@ interface TopicReadPageProps {
   }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const topics = await db.topic.findMany({
     select: { slug: true },
   });
+  if (topics.length === 0) {
+    return [{ slug: '_empty' }];
+  }
   return topics.map((t) => ({ slug: t.slug }));
 }
 

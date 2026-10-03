@@ -28,84 +28,6 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
     borderAccent: 'border-l-[#143227]',
     subjectSlugs: [],
   },
-  {
-    id: 'shelf-1',
-    title: 'Shelf 1: Quantitative Logic, Communication & Welfare Architecture',
-    icon: '📐',
-    badge: 'Analytical & Policy Bastion',
-    accentColor: 'text-[#143227] bg-[#ede8dc] border-[#d6cebe]',
-    borderAccent: 'border-l-[#143227]',
-    subjectSlugs: [
-      'quantitative-aptitude-and-data-interpretation', // #6
-      'english-descriptive-writing',                   // #7
-      'computer-aptitude',                             // #11
-      'government-schemes',                            // #10
-    ],
-
-  },
-  {
-    id: 'shelf-2',
-    title: 'Shelf 2: Global Institutions & General Awareness',
-    icon: '🌐',
-    badge: 'International Affairs & Static GA',
-    accentColor: 'text-[#c25e2e] bg-[#fbf5ee] border-[#edd9cb]',
-    borderAccent: 'border-l-[#c25e2e]',
-    subjectSlugs: [
-      'general-awareness',                             // #12
-    ],
-  },
-  {
-    id: 'shelf-3',
-    title: 'Shelf 3: Civilizations, Heritage & World History',
-    icon: '🏛️',
-    badge: 'Historical Foundations & World Revolutions',
-    accentColor: 'text-[#854d0e] bg-[#fef9ee] border-[#fde68a]',
-    borderAccent: 'border-l-[#b45309]',
-    subjectSlugs: [
-      'ancient-indian-history',                        // #5
-      'modern-indian-history',                         // #8
-      'medieval-indian-history',                       // #13
-      'world-history',                                 // #14
-      'art-culture-rajasthan',                         // #15
-    ],
-  },
-  {
-    id: 'shelf-4',
-    title: 'Shelf 4: Industrial Relations, Labour Codes & Social Security',
-    icon: '⚖️',
-    badge: 'Statutory Labour Bastion',
-    accentColor: 'text-[#6b21a8] bg-[#fbf5ff] border-[#f3e8ff]',
-    borderAccent: 'border-l-[#9333ea]',
-    subjectSlugs: [
-      'industrial-relations-and-labour-laws',          // #17
-    ],
-  },
-  {
-    id: 'shelf-5',
-    title: 'Shelf 5: Empirical Science, Scientific Literacy & Biotechnology',
-    icon: '🔬',
-    badge: 'Science & Emerging Tech Peak',
-    accentColor: 'text-[#164e3f] bg-[#eef6f2] border-[#cbe4d7]',
-    borderAccent: 'border-l-[#164e3f]',
-    subjectSlugs: [
-      'basic-science',                                 // #3
-      'applied-science-and-biotechnology',             // #16
-    ],
-  },
-  {
-    id: 'shelf-6',
-    title: 'Shelf 6: Rajasthan Civil Services & State Governance (RPSC RAS Master)',
-    icon: '👑',
-    badge: 'RPSC RAS Complete Flagship',
-    accentColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
-    borderAccent: 'border-l-[#ea580c]',
-    subjectSlugs: [
-      'rajasthan-history-culture-geography',
-      'public-administration-and-laws',
-      'ethics-behavior-sports',
-      'general-hindi',
-    ],
-  },
 ];
 
 export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
@@ -114,7 +36,30 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
 
   // Exclude legacy database subjects that were purged
   const DEPRECATED_SLUGS = useMemo(
-    () => new Set(['indian-economy', 'iibf-banking-regulations', 'indian-polity', 'geography-and-environment', 'agriculture-and-rural-development']),
+    () => new Set([
+      'indian-economy',
+      'iibf-banking-regulations',
+      'indian-polity',
+      'geography-and-environment',
+      'agriculture-and-rural-development',
+      'rajasthan-history-culture-geography',
+      'public-administration-and-laws',
+      'ethics-behavior-sports',
+      'general-hindi',
+      'basic-science',
+      'applied-science-and-biotechnology',
+      'ancient-indian-history',
+      'modern-indian-history',
+      'medieval-indian-history',
+      'world-history',
+      'art-culture-rajasthan',
+      'industrial-relations-and-labour-laws',
+      'quantitative-aptitude-and-data-interpretation',
+      'english-descriptive-writing',
+      'computer-aptitude',
+      'government-schemes',
+      'general-awareness',
+    ]),
     []
   );
 
@@ -368,6 +313,74 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       syllabusUrl: '/shelf-007/general-science',
       readUrl: '/shelf-007/general-science/chapter-01',
     },
+    {
+      id: 'hist-007',
+      code: 'HIST-007',
+      badgeText: 'Unified 5-Dimensional Master Treatise',
+      badgeColor: 'text-[#854d0e] bg-[#fefce8] border-[#fef08a]',
+      title: 'History: Ancient, Medieval, Modern, Rajasthan & World Combined',
+      authorText: 'Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • G.N. Sharma • Norman Lowe',
+      countsText: '39 Master Chapters • Chronological Sync Vault',
+      waypointsBadge: 'Release v012 Live',
+      description:
+        'Sovereign 39-chapter doctoral-depth historical synthesis integrating Ancient Civilizations & Epigraphy, Medieval Institutional Dynamics, Modern Freedom Struggle, Comprehensive Rajasthan Dynasties & Heritage (RPSC RAS), World History Revolutions, and Capstone Synchronized Revision Vault.',
+      chips: [
+        'Ancient India & Archaeological Edicts',
+        'Medieval Institutions & Bhakti/Sufi Synthesis',
+        'Modern India & Gandhian Freedom Struggle',
+        'Rajasthan Dynasties, 1857 & Integration (RAS)',
+        'World Revolutions & Global Transformations',
+        'Grand Chronological Sync Vault',
+      ],
+      syllabusUrl: '/shelf-007/history',
+      readUrl: '/shelf-007/history/chapter-01',
+    },
+    {
+      id: 'geo-007',
+      code: 'GEO-007',
+      badgeText: 'Majid Husain • Shankar IAS • Savindra Singh • Bhalla',
+      badgeColor: 'text-[#0f766e] bg-[#f0fdfa] border-[#99f6e4]',
+      title: 'Geography: India, World & Rajasthan',
+      authorText: 'Prof. Majid Husain • Shankar IAS Academy • Dr. Savindra Singh • Dr. L.R. Bhalla • NCERTs',
+      countsText: '38 Master Chapters • 36 Revision Modules',
+      waypointsBadge: 'Release v013 Live',
+      description:
+        'Sovereign 38-chapter doctoral-depth geographical codex integrating Geomorphology, Climatology, Oceanography, Environmental Ecology, World Regions & Strategic Chokepoints, Indian Morphotectonics & Monsoons, Rajasthan Regional Geography (RPSC RAS), Human Geographic Paradigms, and Capstone Revision Vault.',
+      chips: [
+        'Planetary Geomorphology & Plate Tectonics',
+        'Climatology, Pressure Belts & Cyclones',
+        'Oceanography, Currents & UNCLOS Zones',
+        'Environmental Ecology & Climate Accords',
+        'World Regions & Strategic Chokepoints',
+        'Indian Physiography, Monsoons & Soils',
+        'Rajasthan Geography (4 Divisions, IGNP, Minerals - RAS)',
+      ],
+      syllabusUrl: '/shelf-007/geography',
+      readUrl: '/shelf-007/geography/01_geomorphology_earth_structure_and_plate_tectonics',
+    },
+    {
+      id: 'eng-007',
+      code: 'ENG-007',
+      badgeText: 'Black Book • Vocab Prodigy • Wren & Martin',
+      badgeColor: 'text-[#431407] bg-[#fbf5ee] border-[#fed7aa]',
+      title: 'English Language & Descriptive Writing Master Codex',
+      authorText: 'Nikhil Gupta (Black Book) • Nimisha Bansal (Vocab Prodigy) • Wren & Martin • Strunk & White',
+      countsText: '44 Master Chapters • 120 Golden Rules • Essay Lab',
+      waypointsBadge: 'Release v014 Live',
+      description:
+        'Sovereign doctoral-depth treatise covering 120 Golden Rules of Grammar, Syntactic Inversion, Etymological Root Engine (1,000+ roots), Fixed Prepositions, Phrasal Verbs, Paronyms, Descriptive Essay Architecture (PESTLE-S & PEEL), Précis 1/3rd Distillation, Official Correspondence (Full-Block & Reports), and Capstone Revision Vault.',
+      chips: [
+        '120 Golden Grammar Rules',
+        'Syntactic Inversion & Sentence Variety',
+        'Etymological Roots (Cognition & Society)',
+        'Fixed Prepositions & Phrasal Verbs',
+        'Descriptive Essay Laboratory (PESTLE-S & PEEL)',
+        'Précis Distillation & Official Reports',
+        'Grand Synthesis Capstone Vault',
+      ],
+      syllabusUrl: '/shelf-007/english-language',
+      readUrl: '/shelf-007/english-language/01_master_chapter_120_golden_grammar_rules',
+    },
   ];
 
   const renderSovereignMasterCard = (cardMeta: (typeof SOVEREIGN_CARDS)[number]) => {
@@ -554,7 +567,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                           </Link>
                         </div>
                         <span className="text-[11px] font-mono text-emerald-800 font-semibold">
-                          3 Sovereign Treatises • 1,520 MCQ Question Bank • Direct Isolated Reader (Release v007)
+                          8 Sovereign Master Disciplines • 232 Master Chapters • 1,520 MCQ Diagnostic Bank • Release v007 Live
                         </span>
                       </div>
                     </div>

@@ -128,68 +128,75 @@ export function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
             <div className="p-4 space-y-4">
               <div>
                 <div className="text-[11px] font-mono uppercase tracking-wider text-stone-400 font-semibold mb-2">
-                  Browse by Subject
+                  Browse Shelf 007 Disciplines
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                   <Link
-                    href="/subjects/indian-polity"
+                    href="/shelf-007/political-science"
                     onClick={onClose}
                     className="p-2.5 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 hover:border-stone-300 transition-all text-xs block"
                   >
-                    <div className="font-serif font-bold text-stone-900">Indian Polity</div>
-                    <div className="text-[10px] font-mono text-stone-500 mt-0.5">28 Topics • 133 Concepts</div>
+                    <div className="font-serif font-bold text-stone-900">Political Science</div>
+                    <div className="text-[10px] font-mono text-stone-500 mt-0.5">38 Chapters • 1,520 MCQs</div>
                   </Link>
                   <Link
-                    href="/subjects/indian-economy"
+                    href="/shelf-007/economics"
                     onClick={onClose}
                     className="p-2.5 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 hover:border-stone-300 transition-all text-xs block"
                   >
-                    <div className="font-serif font-bold text-stone-900">Indian Economy</div>
-                    <div className="text-[10px] font-mono text-stone-500 mt-0.5">12 Topics • 49 Concepts</div>
+                    <div className="font-serif font-bold text-stone-900">Economics & ESI</div>
+                    <div className="text-[10px] font-mono text-stone-500 mt-0.5">28 Chapters • Sovereign Synthesis</div>
                   </Link>
                   <Link
-                    href="/subjects/iibf-banking-regulations"
+                    href="/shelf-007/iibf-dbf"
                     onClick={onClose}
                     className="p-2.5 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 hover:border-stone-300 transition-all text-xs block"
                   >
-                    <div className="font-serif font-bold text-stone-900">IIBF & Banking</div>
-                    <div className="text-[10px] font-mono text-stone-500 mt-0.5">14 Topics • 51 Concepts</div>
+                    <div className="font-serif font-bold text-stone-900">IIBF DBF / JAIIB</div>
+                    <div className="text-[10px] font-mono text-stone-500 mt-0.5">4 Papers • 23 Modules</div>
                   </Link>
                 </div>
               </div>
 
               <div>
                 <div className="text-[11px] font-mono uppercase tracking-wider text-stone-400 font-semibold mb-2">
-                  Frequent Topics
+                  Frequent Master Chapters
                 </div>
                 <div className="flex flex-wrap gap-1.5">
                   <Link
-                    href="/topics/part-3-fundamental-rights/read"
+                    href="/shelf-007/political-science/chapter-07"
                     onClick={onClose}
                     className="px-2.5 py-1 bg-stone-100 hover:bg-emerald-50 hover:text-emerald-900 rounded-lg text-xs border border-stone-200 transition-colors"
                   >
-                    Part III: Fundamental Rights
+                    Polity: Fundamental Rights
                   </Link>
                   <Link
-                    href="/topics/national-income-accounting-and-gdp-metrics/read"
+                    href="/shelf-007/economics/chapter-01"
                     onClick={onClose}
                     className="px-2.5 py-1 bg-stone-100 hover:bg-emerald-50 hover:text-emerald-900 rounded-lg text-xs border border-stone-200 transition-colors"
                   >
-                    National Income & GDP
+                    Economics: National Income & GDP
                   </Link>
                   <Link
-                    href="/topics/iibf-indian-financial-system-architecture/read"
+                    href="/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture"
                     onClick={onClose}
                     className="px-2.5 py-1 bg-stone-100 hover:bg-emerald-50 hover:text-emerald-900 rounded-lg text-xs border border-stone-200 transition-colors"
                   >
-                    IIBF: Financial System
+                    IIBF: Economic Architecture
                   </Link>
                   <Link
-                    href="/topics/monetary-policy-and-central-banking/read"
+                    href="/shelf-007/general-science/chapter-01"
                     onClick={onClose}
                     className="px-2.5 py-1 bg-stone-100 hover:bg-emerald-50 hover:text-emerald-900 rounded-lg text-xs border border-stone-200 transition-colors"
                   >
-                    Monetary Policy & RBI
+                    Science: Mechanics & Gravitation
+                  </Link>
+                  <Link
+                    href="/shelf-007/quantitative-aptitude/chapter-01"
+                    onClick={onClose}
+                    className="px-2.5 py-1 bg-stone-100 hover:bg-emerald-50 hover:text-emerald-900 rounded-lg text-xs border border-stone-200 transition-colors"
+                  >
+                    Quant: Mental Arithmetic Engines
                   </Link>
                 </div>
               </div>

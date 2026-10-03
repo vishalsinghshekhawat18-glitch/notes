@@ -1,22 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 import { getLibrarySubjectsOverview } from '@/lib/knowledge/web-data';
+import { getShelf007Subjects } from '@/lib/shelf007/service';
 import { GlobalSearchBar } from '@/components/navigation/global-search-bar';
 import { ContinueReadingCard } from '@/components/navigation/continue-reading-card';
 import { KnowledgeShelvesView } from '@/components/navigation/knowledge-shelves-view';
 
 export default async function LibraryPage() {
   const domains = await getLibrarySubjectsOverview();
-
-  const totalSubjects = domains.reduce((acc, d) => acc + d.subjects.length, 0);
-  const totalTopics = domains.reduce(
-    (acc, d) => acc + d.subjects.reduce((sAcc, s) => sAcc + s.topicsCount, 0),
-    0
-  );
-  const totalConcepts = domains.reduce(
-    (acc, d) => acc + d.subjects.reduce((sAcc, s) => sAcc + s.conceptsCount, 0),
-    0
-  );
+  const sovereignSubjects = getShelf007Subjects();
+  const totalChapters = sovereignSubjects.reduce((acc, s) => acc + s.totalChapters, 0);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 sm:py-8 font-sans space-y-8">
@@ -42,10 +35,10 @@ export default async function LibraryPage() {
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs font-mono font-medium tracking-wider text-amber-200 shadow-xs">
               <span className="text-amber-400">▲</span>
-              <span>ARAVALLI RIDGE • KNOWLEDGE OPERATING SYSTEM</span>
+              <span>ARAVALLI RIDGE • SOVEREIGN KNOWLEDGE BASTION (SHELF 007)</span>
             </div>
             <div className="text-xs font-mono text-emerald-200 bg-black/20 backdrop-blur-md border border-white/10 px-3.5 py-1 rounded-full shadow-2xs">
-              Elevation: 17 Escarpments • {totalTopics} Peaks • {totalConcepts} Waypoints
+              Elevation: {sovereignSubjects.length} Sovereign Treatises • {totalChapters} Master Chapters • 1,520 MCQ Diagnostic Bank
             </div>
           </div>
 
@@ -55,7 +48,7 @@ export default async function LibraryPage() {
               Ascend the Ridge of Knowledge
             </h1>
             <p className="text-sm sm:text-base text-stone-300 leading-relaxed font-serif max-w-2xl">
-              An unyielding, source-grounded intellectual sanctuary carved into canonical truth. Traverse structured escarpments, master immutable propositions, and conquer competitive examinations without fragmented notes.
+              An unyielding, source-grounded intellectual sanctuary carved into canonical truth. Traverse sovereign master treatises, master immutable propositions, and conquer competitive examinations without fragmented notes.
             </p>
           </div>
 

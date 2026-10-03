@@ -11,10 +11,15 @@ interface ConceptPageProps {
   }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const concepts = await db.concept.findMany({
     select: { slug: true },
   });
+  if (concepts.length === 0) {
+    return [{ slug: '_empty' }];
+  }
   return concepts.map((c) => ({ slug: c.slug }));
 }
 

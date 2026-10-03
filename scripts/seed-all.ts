@@ -1,28 +1,4 @@
 import { db } from '../lib/db/client';
-import { seedBatchGASchemesCanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-canonical-seed';
-import { seedBatchGASchemesBatch2CanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-batch-2-canonical-seed';
-import { seedBatchStaticGABatch2CanonicalKnowledge } from '../lib/benchmark/batch-static-ga-batch-2-canonical-seed';
-import { seedBatchEnglishCanonicalKnowledge } from '../lib/benchmark/batch-english-canonical-seed';
-import { seedBatchEnglishBatch2CanonicalKnowledge } from '../lib/benchmark/batch-english-batch-2-canonical-seed';
-import { seedAncientMasterCanonicalKnowledge } from '../lib/benchmark/batch-ancient-master-canonical-seed';
-import { seedMedievalMasterCanonicalKnowledge } from '../lib/benchmark/batch-medieval-history-canonical-seed';
-import { seedModernMasterCanonicalKnowledge } from '../lib/benchmark/batch-modern-history-canonical-seed';
-import { seedArtCultureRajasthanMasterCanonicalKnowledge } from '../lib/benchmark/batch-art-culture-rajasthan-canonical-seed';
-import { seedWorldHistoryMasterCanonicalKnowledge } from '../lib/benchmark/batch-world-history-canonical-seed';
-import { seedBatchQuantBatch1CanonicalKnowledge } from '../lib/benchmark/batch-quant-batch-1-canonical-seed';
-import { seedBatchQuantBatch2CanonicalKnowledge } from '../lib/benchmark/batch-quant-batch-2-canonical-seed';
-import { seedBatchQuantBatch3PracticeBank } from '../lib/benchmark/batch-quant-batch-3-practice-seed';
-import { seedBatchQuantBatch4CanonicalKnowledge } from '../lib/benchmark/batch-quant-batch-4-canonical-seed';
-import { seedBasicScienceMasterCanonicalKnowledge } from '../lib/benchmark/batch-science-master-canonical-seed';
-import { seedBiotechCanonicalKnowledge } from '../lib/benchmark/batch-biotech-canonical-seed';
-import { seedAPFCIRCanonicalKnowledge } from '../lib/benchmark/batch-apfc-ir-canonical-seed';
-import { seedPreviousYearQuestionsAndTraps } from '../lib/benchmark/batch-pyqs-and-traps-canonical-seed';
-import { seedRPSCRASPreviousYearQuestions } from '../lib/benchmark/batch-rpsc-ras-pyqs-seed';
-import { seedHindiMasterCanonicalKnowledge } from '../lib/benchmark/batch-hindi-master-canonical-seed';
-import { seedPubAdLawsMasterCanonicalKnowledge } from '../lib/benchmark/batch-pubad-laws-canonical-seed';
-import { seedEthicsBehaviorSportsCanonicalKnowledge } from '../lib/benchmark/batch-ethics-behavior-sports-canonical-seed';
-import { seedRajasthanMasterCanonicalKnowledge } from '../lib/benchmark/batch-rajasthan-master-canonical-seed';
-import { seedBatchComputerAptitudeCanonicalKnowledge } from '../lib/benchmark/batch-computer-aptitude-canonical-seed';
 
 export async function main() {
   console.log('Seeding canonical database for static build...');
@@ -47,74 +23,8 @@ export async function main() {
   await db.subject.deleteMany();
   await db.domain.deleteMany();
 
-  // Seed Static GA & Government Schemes (Topics 52-56: 8 concepts)
-  await seedBatchGASchemesCanonicalKnowledge();
-  // Seed Government Schemes Batch 2: Health, Housing, Women/Child, Energy, Education, GatiShakti, AIF (8 concepts)
-  await seedBatchGASchemesBatch2CanonicalKnowledge();
-  // Seed Static GA Batch 2: Regulators, D-SIBs, SEBI F&O, Bima Trinity, UPS, NI Act, NRE/NRO, VB-G RAM G (8 concepts)
-  await seedBatchStaticGABatch2CanonicalKnowledge();
-
-  // Seed English Language & Descriptive Writing (Topics 57-62: 15 concepts)
-  await seedBatchEnglishCanonicalKnowledge();
-  // Seed English Language Batch 2: Grammar Foundations, Vocabulary, RC & Para-jumbles (Topics 63-65: 8 concepts)
-  await seedBatchEnglishBatch2CanonicalKnowledge();
-
-  // Seed Modernized Ancient Indian History Master (Topics 1-25: 65 concepts, 4 blocks, 8 exam mappings, 130+ questions)
-  await seedAncientMasterCanonicalKnowledge();
-  // Seed Modernized Medieval Indian History Master (Topics 1-8: 10 concepts, 4 blocks, 8 exam mappings, 20 questions)
-  await seedMedievalMasterCanonicalKnowledge();
-  // Seed Modernized Modern Indian History & National Movement Master (Topics 1-13: 21 concepts, 4 blocks, 8 exam mappings, 42 questions)
-  await seedModernMasterCanonicalKnowledge();
-  // Seed Indian Art, Heritage & Rajasthan History Master (Topics 1-5: 6 concepts, 4 blocks, 8 exam mappings, 12 questions)
-  await seedArtCultureRajasthanMasterCanonicalKnowledge();
-  // Seed World History & Modern Revolutions Master (Topics 1-9: 9 concepts, 4 blocks, 8 exam mappings, 18 questions)
-  await seedWorldHistoryMasterCanonicalKnowledge();
-
-  // Seed Quantitative Aptitude & Data Interpretation (Batch 1: Topics 80-84: 16 concepts)
-  await seedBatchQuantBatch1CanonicalKnowledge();
-
-  // Seed Quantitative Aptitude & Data Interpretation (Batch 2: Topics 85-89: 11 concepts)
-  await seedBatchQuantBatch2CanonicalKnowledge();
-
-  // Seed Quantitative Aptitude & Data Interpretation (Batch 3: Practice & PYQ Consolidation Bank)
-  await seedBatchQuantBatch3PracticeBank();
-
-  // Seed Quantitative Aptitude & Data Interpretation (Batch 4: Geometry, Solids, Quadratics, Series, DS & Logic)
-  await seedBatchQuantBatch4CanonicalKnowledge();
-
-  // Seed Computer Aptitude & Digital Banking Systems (Topics 1-7: 16 concepts)
-  await seedBatchComputerAptitudeCanonicalKnowledge();
-
-
-  // Seed Basic Science & Scientific Literacy Master (Part 1: Topics 1-6: 26 concepts)
-  await seedBasicScienceMasterCanonicalKnowledge();
-
-  // Seed Applied Science, Biotechnology & Emerging Tech (Topic 26: 5 concepts CON-SCI-116 to CON-SCI-120)
-  await seedBiotechCanonicalKnowledge();
-
-  // Seed UPSC APFC, Industrial Relations, Social Security & Governance (Topics 1-5: 5 concepts CON-IRL-001 to CON-IRL-005)
-  await seedAPFCIRCanonicalKnowledge();
-
-  // Seed SBI PO Mains Quant & UPSC APFC PYQs & Rapid Revision Traps
-  await seedPreviousYearQuestionsAndTraps();
-
-  // Seed RPSC RAS 10-Year Canonical Question Bank (Prelims & Mains 2M, 5M, 10M)
-  await seedRPSCRASPreviousYearQuestions();
-
-  // Seed General Hindi Master (Mains Paper IV — 120 Marks: Topics 1-15, 25 concepts)
-  await seedHindiMasterCanonicalKnowledge();
-
-  // Seed Public Administration & Minor Laws (Mains Paper III — 85 Marks: 20 concepts)
-  await seedPubAdLawsMasterCanonicalKnowledge();
-
-  // Seed Administrative Ethics, Behavior & Sports (Mains Paper II — 105 Marks: 18 concepts)
-  await seedEthicsBehaviorSportsCanonicalKnowledge();
-
-  // Seed Rajasthan History, Culture & Micro-Geography Master (Mains Paper I & Geography — 95 Marks: 18 concepts)
-  await seedRajasthanMasterCanonicalKnowledge();
-
   const count = await db.concept.count();
-  console.log(`Successfully seeded ${count} canonical concepts.`);
+  console.log(`Shelves 1 to 6 purged. Database reset cleanly. Sovereign Shelf 007 active.`);
   await db.$disconnect();
 }
 
