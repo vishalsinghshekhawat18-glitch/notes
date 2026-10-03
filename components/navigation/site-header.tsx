@@ -24,19 +24,19 @@ export function SiteHeader() {
   const navLinks = [
     { label: 'Library', href: '/' },
     { label: 'Subjects', href: '/shelf-007' },
-    { label: 'Continue', href: '/#continue-reading' },
-    { label: 'Knowledge Terrain', href: '/#knowledge-terrain' },
-    { label: 'Revision Vaults', href: '/shelf-007/political-science/chapter-30' },
-    { label: 'Library Health', href: '/#knowledge-health' },
+    { label: 'Waypoint', href: '/#continue-reading' },
+    { label: 'Domains', href: '/#knowledge-terrain' },
+    { label: 'Revision', href: '/shelf-007/political-science/chapter-30' },
+    { label: 'Audit', href: '/#knowledge-health' },
   ];
 
   return (
     <>
-      <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-2">
+      <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm max-w-full overflow-x-hidden">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-2 w-full min-w-0">
           {/* Brand & Subtitle */}
-          <div className="flex items-center gap-6 min-w-0">
-            <Link href="/" className="flex items-center gap-2.5 group min-w-0">
+          <div className="flex items-center gap-4 sm:gap-6 min-w-0">
+            <Link href="/" className="flex items-center gap-2.5 group min-w-0 shrink-0">
               <div className="w-8 h-8 rounded-md bg-[#173A2F] border border-[#274E3E] flex items-center justify-center p-1 shadow-2xs group-hover:scale-105 transition-transform shrink-0">
                 <Image
                   src="/icon.png"
@@ -48,7 +48,7 @@ export function SiteHeader() {
                 />
               </div>
               <div className="flex flex-col min-w-0">
-                <span className="font-serif font-bold text-[#FAF8F3] tracking-tight text-sm sm:text-base leading-tight group-hover:text-[#C59B4B] transition-colors truncate max-w-[160px] sm:max-w-none">
+                <span className="font-serif font-bold text-[#FAF8F3] tracking-tight text-sm sm:text-base leading-tight group-hover:text-[#C59B4B] transition-colors truncate max-w-[150px] sm:max-w-none">
                   Mind of Aravalli
                 </span>
                 <span className="hidden sm:inline text-[10px] font-mono text-[#A1B8A9] uppercase tracking-wider truncate">
@@ -58,12 +58,12 @@ export function SiteHeader() {
             </Link>
 
             {/* Desktop Scholarly Navigation */}
-            <nav className="hidden lg:flex items-center gap-6 text-xs font-serif text-[#D5DDD6]">
+            <nav className="hidden lg:flex items-center gap-4 xl:gap-5 text-xs font-serif text-[#D5DDD6] min-w-0">
               {navLinks.map((link) => (
                 <Link
                   key={link.label}
                   href={link.href}
-                  className="hover:text-[#FAF8F3] font-medium transition-colors"
+                  className="hover:text-[#FAF8F3] font-medium transition-colors shrink-0"
                 >
                   {link.label}
                 </Link>

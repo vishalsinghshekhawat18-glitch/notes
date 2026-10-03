@@ -29,6 +29,8 @@ export interface SubjectBookConfig {
   targetExams: string[];
   notesSubdir: string;
   isPaperModular?: boolean; // For IIBF DBF which has Paper 1..4 subfolders
+  coverPledgeBadge?: string;
+  colophonNotice?: string;
 }
 
 export const SOVEREIGN_SUBJECT_CATALOG: SubjectBookConfig[] = [
@@ -53,6 +55,8 @@ export const SOVEREIGN_SUBJECT_CATALOG: SubjectBookConfig[] = [
     ],
     targetExams: ['UPSC CSE (GS-3 & Optional)', 'RBI Grade B (Phase I & II ESI)', 'NABARD Grade A', 'RPSC RAS (Paper 1)', 'State PSCs', 'UGC-NET Economics'],
     notesSubdir: 'economics',
+    coverPledgeBadge: 'Comprehensive 26-Chapter Curricular Synthesis • Authoritative Macroeconomic & Statistical Grounding',
+    colophonNotice: 'Curricular Scope & Synthesis Notice: This volume provides a comprehensive curricular synthesis of Macroeconomics, Indian Economic Development, and Social Issues across 26 doctoral-depth chapters for rigorous study and examination revision. Official statistical datasets (MoSPI, RBI, Union Budget, Economic Survey) and statutory enactments are structured for canonical reference on Shelf 007.',
   },
   {
     slug: 'political_science',
@@ -171,6 +175,8 @@ export const SOVEREIGN_SUBJECT_CATALOG: SubjectBookConfig[] = [
     targetExams: ['IIBF Diploma in Banking & Finance (DB&F)', 'IIBF JAIIB Examination', 'Bank Specialist Officer (IBPS SO IT / Law / Credit)', 'RBI Grade B General / Legal'],
     notesSubdir: 'iibf_dbf',
     isPaperModular: true,
+    coverPledgeBadge: 'Comprehensive 4-Paper Curricular Synthesis • Authoritative Regulatory & Statutory Grounding',
+    colophonNotice: 'Curricular Scope & Synthesis Notice: This volume provides a comprehensive curricular synthesis of the official IIBF Diploma in Banking & Finance (DB&F / JAIIB) 4-paper curriculum (IE&IFS, PPB, AFM, RBWM) for rigorous study and examination revision. Statutory enactments, RBI master directions, and regulatory frameworks are structured for canonical reference on Shelf 007.',
   },
   {
     slug: 'history',
@@ -1216,7 +1222,7 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
     </div>
 
     <div class="cover-bottom-footer">
-      <div class="cover-pledge-badge">Comprehensive 4-Paper Curricular Synthesis • Authoritative Regulatory & Statutory Grounding</div>
+      <div class="cover-pledge-badge">${subject.coverPledgeBadge || `Comprehensive Curricular Synthesis • Authoritative Grounding in ${subject.category}`}</div>
       <div class="cover-pledge-sub">Typeset in Classical Book Serif & Clean Sans • Dedicated 20mm Spine Gutter for Permanent Bookbinding</div>
     </div>
   </div>
@@ -1236,7 +1242,7 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
       </div>
     </div>
     <div class="colophon-imprint-text">
-      <strong>Curricular Scope & Synthesis Notice:</strong> This volume provides a comprehensive curricular synthesis of the official IIBF Diploma in Banking & Finance (DB&F / JAIIB) 4-paper curriculum (IE&IFS, PPB, AFM, RBWM) for rigorous study and examination revision. Statutory enactments, RBI master directions, and regulatory frameworks are structured for canonical reference on Shelf 007.
+      ${subject.colophonNotice ? `<strong>Curricular Scope & Synthesis Notice:</strong> ${subject.colophonNotice.replace(/^Curricular Scope & Synthesis Notice:\s*/, '')}` : `<strong>Curricular Scope & Synthesis Notice:</strong> This volume provides a comprehensive curricular synthesis of ${subject.title} for rigorous study and examination revision across Shelf 007.`}
     </div>
   </div>
 
@@ -1361,7 +1367,8 @@ async function main() {
   const subjectArg = args.find(a => a.startsWith('--subject='));
   const subjectSlug = subjectArg ? subjectArg.split('=')[1] : null;
   const outDirArg = args.find(a => a.startsWith('--outDir='));
-  const targetOutDir = outDirArg ? path.resolve(outDirArg.split('=')[1]) : path.resolve('print_output');
+  const rawOutDir = outDirArg ? outDirArg.slice('--outDir='.length).replace(/^["']|["']$/g, '') : null;
+  const targetOutDir = rawOutDir ? path.resolve(rawOutDir) : path.resolve('print_output');
 
   if (args.includes('--list')) {
     console.log('\nAvailable Shelf 007 Subjects:');

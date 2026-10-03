@@ -285,16 +285,16 @@ export function ScholarlyLibraryHome() {
   const totalMCQs = useMemo(() => MONOGRAPHS.reduce((acc, m) => acc + m.mcqCount, 0), []);
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-6 text-[#172720] font-sans">
+    <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-6 text-[#172720] font-sans min-w-0 overflow-x-hidden">
       
       {/* =========================================================================
           1. THE SCHOLARLY PROSCENIUM & LIBRARY MASTHEAD
           Compact, dignified, high information density.
           ========================================================================= */}
-      <header className="relative border-b border-[#E0D9CB] pb-5 space-y-4">
+      <header className="relative border-b border-[#E0D9CB] pb-5 space-y-4 w-full min-w-0">
         
         {/* Archival Register Stamp */}
-        <div className="flex flex-wrap items-center justify-between gap-2 text-[11px] font-mono">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-[11px] font-mono min-w-0">
           <div className="inline-flex items-center gap-2 text-[#10251F] font-medium tracking-wider uppercase">
             <span className="w-1.5 h-1.5 rounded-full bg-[#9E722C]" />
             <span>MIND OF ARAVALLI</span>
@@ -308,7 +308,7 @@ export function ScholarlyLibraryHome() {
         </div>
 
         {/* Central Dignified Header */}
-        <div className="max-w-3xl space-y-2">
+        <div className="max-w-3xl space-y-2 min-w-0">
           <h1 className="font-serif font-bold text-2xl sm:text-3xl text-[#10251F] tracking-tight leading-tight">
             A Sovereign Scholarly Library
           </h1>
@@ -318,33 +318,28 @@ export function ScholarlyLibraryHome() {
         </div>
 
         {/* The Macro Register Strip (Key Numbers) */}
-        <div className="pt-2 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs font-mono border-t border-[#E8E2D5] text-[#5A7365]">
-          <span className="flex items-center gap-1.5">
+        <div className="pt-2 flex flex-wrap items-center gap-2 sm:gap-x-3 sm:gap-y-1.5 text-xs font-mono border-t border-[#E8E2D5] text-[#5A7365] w-full min-w-0">
+          <span className="inline-flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded shadow-2xs">
             <strong className="text-[#10251F] font-serif text-xs">5</strong>
             <span>Academic Domains</span>
           </span>
-          <span className="text-[#C5BEAF]">•</span>
-          <span className="flex items-center gap-1.5">
+          <span className="inline-flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded shadow-2xs">
             <strong className="text-[#10251F] font-serif text-xs">8</strong>
             <span>Master Treatises</span>
           </span>
-          <span className="text-[#C5BEAF]">•</span>
-          <span className="flex items-center gap-1.5">
+          <span className="inline-flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded shadow-2xs">
             <strong className="text-[#10251F] font-serif text-xs">{totalChapters}</strong>
             <span>Curriculum Chapters</span>
           </span>
-          <span className="text-[#C5BEAF]">•</span>
-          <span className="flex items-center gap-1.5">
+          <span className="inline-flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded shadow-2xs">
             <strong className="text-[#9E722C] font-serif text-xs">{totalMCQs.toLocaleString()}</strong>
             <span>Practice MCQs</span>
           </span>
-          <span className="text-[#C5BEAF]">•</span>
-          <span className="flex items-center gap-1.5">
+          <span className="inline-flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded shadow-2xs">
             <strong className="text-[#10251F] font-serif text-xs">600K+</strong>
             <span>Compiled Words</span>
           </span>
-          <span className="text-[#C5BEAF]">•</span>
-          <span className="text-[#10251F] font-semibold text-[11px]">
+          <span className="inline-flex items-center gap-1.5 bg-[#F5F2EB] border border-[#E0D9CB] px-2 py-0.5 rounded text-[#10251F] font-semibold text-[11px] shadow-2xs">
             Bare Acts & Standard Texts
           </span>
         </div>
@@ -352,23 +347,23 @@ export function ScholarlyLibraryHome() {
 
       {/* =========================================================================
           2. THE SCHOLAR'S LECTERN (INTEGRATED ACTIVE STATION & SEARCH TOOLBAR)
-          Compact, horizontal, cohesive. No giant sidebar taking up half the screen.
+          Compact, horizontal, cohesive. No sidebars, zero width blowout.
           ========================================================================= */}
-      <section id="continue-reading" className="scroll-mt-20 my-6 p-4 sm:p-5 rounded-2xl bg-[#FFFFFF] border border-[#E0D9CB] flex flex-col md:flex-row items-center justify-between gap-4 shadow-xs">
+      <section id="continue-reading" className="scroll-mt-20 my-6 p-4 sm:p-5 rounded-2xl bg-[#FFFFFF] border border-[#E0D9CB] flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 shadow-xs w-full min-w-0 overflow-hidden">
         
         {/* Left: Session Waypoint */}
-        <div className="flex items-center gap-3.5 min-w-0 w-full md:w-auto">
+        <div className="flex items-center gap-3.5 min-w-0 flex-1">
           <div className="w-9 h-9 rounded-xl bg-[#10251F] text-[#FAF8F3] border border-[#1E3A2E] flex items-center justify-center font-serif text-base font-bold shrink-0 shadow-2xs">
             ▲
           </div>
 
           <div className="min-w-0 flex-1">
             {savedPosition ? (
-              <div className="space-y-0.5">
-                <div className="flex items-center gap-2 text-[11px] font-mono text-[#5A7365]">
-                  <span className="w-2 h-2 rounded-full bg-[#9E722C] animate-pulse" />
-                  <span className="uppercase font-semibold">Active Reading Session</span>
-                  <span>•</span>
+              <div className="space-y-0.5 min-w-0">
+                <div className="flex items-center gap-2 text-[11px] font-mono text-[#5A7365] min-w-0">
+                  <span className="w-2 h-2 rounded-full bg-[#9E722C] animate-pulse shrink-0" />
+                  <span className="uppercase font-semibold shrink-0">Active Reading Session</span>
+                  <span className="shrink-0">•</span>
                   <span className="truncate">{savedPosition.subjectName}</span>
                 </div>
                 <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] truncate">
@@ -376,11 +371,11 @@ export function ScholarlyLibraryHome() {
                 </div>
               </div>
             ) : (
-              <div className="space-y-0.5">
+              <div className="space-y-0.5 min-w-0">
                 <div className="flex items-center gap-2 text-[11px] font-mono text-[#5A7365]">
                   <span className="uppercase font-semibold">Recommended Starting Foundation</span>
                 </div>
-                <div className="font-serif font-bold text-sm sm:text-base text-[#10251F]">
+                <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] truncate">
                   Political Science & Constitutional Governance (Chapter 01)
                 </div>
               </div>
@@ -389,11 +384,11 @@ export function ScholarlyLibraryHome() {
         </div>
 
         {/* Right: Actions (Resume / Start & Quick Search) */}
-        <div className="flex flex-wrap items-center gap-2 w-full md:w-auto md:justify-end">
+        <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
           {savedPosition ? (
             <Link
               href={savedPosition.url}
-              className="px-3.5 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
+              className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
             >
               <span>Resume Reading</span>
               <span>→</span>
@@ -401,7 +396,7 @@ export function ScholarlyLibraryHome() {
           ) : (
             <Link
               href="/shelf-007/political-science/chapter-01"
-              className="px-3.5 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
+              className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
             >
               <span>Begin Chapter 01</span>
               <span>→</span>
@@ -410,7 +405,7 @@ export function ScholarlyLibraryHome() {
 
           <button
             onClick={() => setIsSearchOpen(true)}
-            className="px-3 py-2 rounded-lg bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#E0D9CB] text-xs font-mono text-[#10251F] transition-colors inline-flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs flex-1 sm:flex-initial"
+            className="px-3 py-2 rounded-lg bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#E0D9CB] text-xs font-mono text-[#10251F] transition-colors inline-flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs shrink-0"
             title="Search entire library corpus"
           >
             <span>🔍</span>
@@ -424,8 +419,8 @@ export function ScholarlyLibraryHome() {
           3. DISCIPLINE FAST-DIRECTORY (HORIZONTAL SCHOLARLY JUMP ANCHORS)
           Instant spatial orientation across the 5 Academic Domains.
           ========================================================================= */}
-      <nav id="knowledge-terrain" className="scroll-mt-20 mb-6 flex flex-wrap items-center gap-2 text-xs font-mono">
-        <span className="text-[11px] font-semibold text-[#5A7365] uppercase tracking-wider mr-1">
+      <nav id="knowledge-terrain" className="scroll-mt-20 mb-6 flex flex-wrap items-center gap-2 text-xs font-mono w-full min-w-0">
+        <span className="text-[11px] font-semibold text-[#5A7365] uppercase tracking-wider mr-1 shrink-0">
           Catalog Index:
         </span>
         {KNOWLEDGE_DOMAINS.map((domain) => {
@@ -434,7 +429,7 @@ export function ScholarlyLibraryHome() {
             <a
               key={domain.id}
               href={`#domain-${domain.id.toLowerCase()}`}
-              className="px-2.5 py-1 rounded-lg bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] text-[#172720] transition-colors inline-flex items-center gap-1.5 shadow-2xs text-xs"
+              className="px-2.5 py-1 rounded-lg bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] text-[#172720] transition-colors inline-flex items-center gap-1.5 shadow-2xs text-xs shrink-0"
             >
               <span>{domain.emblem}</span>
               <span className="font-medium">{domain.name}</span>
@@ -448,21 +443,21 @@ export function ScholarlyLibraryHome() {
 
       {/* =========================================================================
           4. THE MASTER CORPUS: 5 SECTIONS / 8 ARCHITECTURAL FOLIO PLATES
-          Compact, rich density, vertical natural flow.
+          Pure vertical book-flow: each treatise is a unified, full-width codex plate.
+          Zero column jumps, zero horizontal shifts.
           ========================================================================= */}
-      <div className="space-y-8">
+      <div className="space-y-8 w-full min-w-0">
         {KNOWLEDGE_DOMAINS.map((domain) => {
           const domainMonographs = MONOGRAPHS.filter((m) => m.domainId === domain.id);
-          const isTwoCol = domainMonographs.length > 1;
 
           return (
             <section
               key={domain.id}
               id={`domain-${domain.id.toLowerCase()}`}
-              className="space-y-4 scroll-mt-20"
+              className="space-y-4 scroll-mt-20 w-full min-w-0"
             >
               {/* Domain Masthead Banner */}
-              <div className="border-b-2 border-[#10251F] pb-2 flex flex-col sm:flex-row sm:items-end justify-between gap-1.5">
+              <div className="border-b-2 border-[#10251F] pb-2 flex flex-col sm:flex-row sm:items-end justify-between gap-1.5 min-w-0">
                 <div>
                   <div className="text-[11px] font-mono uppercase tracking-widest text-[#10251F] flex items-center gap-2">
                     <span>Section {domain.numeral}</span>
@@ -478,27 +473,31 @@ export function ScholarlyLibraryHome() {
                 </p>
               </div>
 
-              {/* Folio Grid: 2 Columns for Sections with 2 Treatises; Full Width for Single Treatises */}
-              <div className={isTwoCol ? 'grid grid-cols-1 md:grid-cols-2 gap-4' : 'space-y-4'}>
+              {/* Continuous Book-Folio Sequence (Full-width authoritative plates) */}
+              <div className="space-y-4 w-full min-w-0">
                 {domainMonographs.map((m) => (
                   <article
                     key={m.id}
-                    className="rounded-xl bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] p-4 sm:p-5 flex flex-col justify-between transition-all duration-200 shadow-xs hover:shadow-sm group"
+                    className="w-full rounded-xl bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] p-5 sm:p-6 transition-all duration-200 shadow-xs hover:shadow-sm group min-w-0 overflow-hidden flex flex-col justify-between gap-4"
                   >
-                    <div className="space-y-2.5">
+                    <div className="space-y-3 min-w-0">
                       {/* Top Ribbon: Volume Stamp, Code & High-Level Scale */}
-                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-2 text-xs font-mono">
-                        <div className="flex items-center gap-1.5">
-                          <span className="px-1.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider">
+                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-2.5 text-xs font-mono min-w-0">
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider shrink-0">
                             {m.volumeRoman}
                           </span>
-                          <span className="font-bold text-[#9E722C] text-[11px]">
+                          <span className="font-bold text-[#9E722C] text-xs shrink-0">
                             {m.code}
+                          </span>
+                          <span className="hidden sm:inline text-[#C5BEAF]">•</span>
+                          <span className="hidden sm:inline text-[11px] text-[#5A7365] truncate font-sans">
+                            {m.domainTitle}
                           </span>
                         </div>
 
-                        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-[11px] text-[#5A7365]">
-                          <span className="font-semibold text-[#10251F]">{m.totalChapters} Ch</span>
+                        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2.5 text-[11px] text-[#5A7365] shrink-0">
+                          <span className="font-semibold text-[#10251F]">{m.totalChapters} Chapters</span>
                           <span>•</span>
                           <span>{m.totalWordsText}</span>
                           <span>•</span>
@@ -506,48 +505,48 @@ export function ScholarlyLibraryHome() {
                         </div>
                       </div>
 
-                      {/* Monograph Title */}
-                      <div>
+                      {/* Monograph Title & Author Sources */}
+                      <div className="min-w-0">
                         <Link href={m.hubUrl} className="block group-hover:text-[#1B4D3C] transition-colors">
                           <h3 className="font-serif font-bold text-lg sm:text-xl text-[#10251F] tracking-tight leading-snug">
                             {m.title}
                           </h3>
                         </Link>
-                        <p className="text-xs font-mono text-[#5A7365] pt-0.5 leading-normal">
-                          <span className="font-semibold text-[#10251F]">Sources: </span>
+                        <p className="text-xs font-mono text-[#5A7365] pt-1 leading-normal break-words">
+                          <span className="font-semibold text-[#10251F]">Primary Sources: </span>
                           {m.authorText}
                         </p>
                       </div>
 
                       {/* Substantive Description */}
-                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-relaxed line-clamp-3">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-relaxed break-words">
                         {m.description}
                       </p>
 
                       {/* Editorial Key Coverage Breadcrumb */}
-                      <div className="pt-0.5 text-[11px] font-mono text-[#4A6355] leading-normal line-clamp-2">
-                        <span className="font-semibold uppercase tracking-wider text-[#10251F] text-[9px] mr-1">
-                          Scope:
+                      <div className="pt-1 text-[11px] font-mono text-[#4A6355] leading-normal break-words">
+                        <span className="font-semibold uppercase tracking-wider text-[#10251F] text-[9px] mr-1.5 bg-[#F5F2EB] px-1.5 py-0.5 rounded border border-[#E0D9CB]">
+                          Curriculum Scope
                         </span>
                         {m.keyCoverage}
                       </div>
                     </div>
 
                     {/* Folio Bottom Action Ledger */}
-                    <div className="pt-3 mt-3 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
+                    <div className="pt-3 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-2 text-xs font-mono min-w-0">
                       <Link
                         href={m.hubUrl}
-                        className="text-[#5A7365] hover:text-[#10251F] font-medium transition-colors inline-flex items-center gap-1 text-[11px]"
+                        className="text-[#5A7365] hover:text-[#10251F] font-medium transition-colors inline-flex items-center gap-1.5 text-xs py-1"
                       >
-                        <span>Syllabus ({m.totalChapters} Ch)</span>
+                        <span>Syllabus & Table of Contents ({m.totalChapters} Chapters)</span>
                         <span>→</span>
                       </Link>
 
                       <Link
                         href={m.readUrl}
-                        className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-semibold text-xs tracking-wide transition-all inline-flex items-center gap-1.5 shadow-2xs shrink-0"
+                        className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-semibold text-xs tracking-wide transition-all inline-flex items-center gap-2 shadow-2xs shrink-0"
                       >
-                        <span>Read</span>
+                        <span>Begin Reading Codex</span>
                         <span>→</span>
                       </Link>
                     </div>
@@ -563,8 +562,8 @@ export function ScholarlyLibraryHome() {
           5. CANONICAL AUDIT LEDGER (4-COLUMN GRAND REPOSITORIES)
           Grounded, verifiable, zero pseudo-percentages.
           ========================================================================= */}
-      <section id="knowledge-health" className="mt-16 sm:mt-20 border-t-2 border-[#10251F] pt-8 sm:pt-10 space-y-6 scroll-mt-20">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+      <section id="knowledge-health" className="mt-16 sm:mt-20 border-t-2 border-[#10251F] pt-8 sm:pt-10 space-y-6 scroll-mt-20 w-full min-w-0">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 min-w-0">
           <div>
             <span className="text-xs font-mono uppercase tracking-widest text-[#10251F]">
               Canonical Provenance & Audit
@@ -578,7 +577,7 @@ export function ScholarlyLibraryHome() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full min-w-0">
           {[
             {
               title: 'Curriculum Scope',
@@ -603,16 +602,16 @@ export function ScholarlyLibraryHome() {
           ].map((metric, idx) => (
             <div
               key={idx}
-              className="p-5 rounded-xl bg-[#FFFFFF] border border-[#E0D9CB] space-y-2 flex flex-col justify-between shadow-xs"
+              className="p-5 rounded-xl bg-[#FFFFFF] border border-[#E0D9CB] space-y-2 flex flex-col justify-between shadow-xs min-w-0 overflow-hidden"
             >
-              <div className="space-y-1">
+              <div className="space-y-1 min-w-0">
                 <span className="text-[11px] font-mono uppercase tracking-wider text-[#5A7365]">
                   {metric.title}
                 </span>
-                <div className="font-serif font-bold text-2xl text-[#10251F]">
+                <div className="font-serif font-bold text-2xl text-[#10251F] truncate">
                   {metric.value}
                 </div>
-                <p className="text-xs font-serif text-[#5A7365] leading-relaxed pt-1">
+                <p className="text-xs font-serif text-[#5A7365] leading-relaxed pt-1 break-words">
                   {metric.detail}
                 </p>
               </div>
@@ -624,8 +623,8 @@ export function ScholarlyLibraryHome() {
       {/* =========================================================================
           6. RECENT LIBRARY AUDIT LOGS (HORIZONTAL ARCHIVAL LEDGER)
           ========================================================================= */}
-      <section className="mt-12 p-5 sm:p-6 rounded-2xl bg-[#F5F2EB] border border-[#E0D9CB] space-y-4">
-        <div className="flex items-center justify-between border-b border-[#E0D9CB] pb-2.5">
+      <section className="mt-12 p-5 sm:p-6 rounded-2xl bg-[#F5F2EB] border border-[#E0D9CB] space-y-4 w-full min-w-0 overflow-hidden">
+        <div className="flex items-center justify-between border-b border-[#E0D9CB] pb-2.5 min-w-0">
           <span className="text-xs font-mono uppercase tracking-wider text-[#5A7365]">
             Recent Archival Revisions & Subject Audits
           </span>
@@ -634,12 +633,12 @@ export function ScholarlyLibraryHome() {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs font-mono">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs font-mono w-full min-w-0">
           {RECENT_REVISIONS.map((item, idx) => (
             <Link
               key={idx}
               href={item.url}
-              className="p-3 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] transition-colors group block shadow-2xs"
+              className="p-3 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] transition-colors group block shadow-2xs min-w-0 overflow-hidden"
             >
               <div className="font-serif font-bold text-sm text-[#10251F] group-hover:text-[#1B4D3C] truncate">
                 {item.subject}
@@ -647,7 +646,7 @@ export function ScholarlyLibraryHome() {
               <div className="text-[11px] text-[#5A7365] truncate pt-0.5">
                 {item.focus}
               </div>
-              <div className="text-[10px] text-[#9E722C] pt-1">
+              <div className="text-[10px] text-[#9E722C] pt-1 truncate">
                 {item.time} · {item.source}
               </div>
             </Link>

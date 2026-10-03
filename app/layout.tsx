@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="overflow-x-clip max-w-full w-full" suppressHydrationWarning>
+    <html lang="en" className="overflow-x-hidden max-w-full w-full" suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -30,14 +30,14 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-[#FAF9F4] text-[#1B211E] antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-clip max-w-full w-full">
+      <body className="bg-[#FAF9F4] text-[#1B211E] antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-hidden max-w-full w-full">
         <ServiceWorkerCleaner />
         <SiteHeader />
-        <main className="flex-1 overflow-x-clip max-w-full w-full">
+        <main className="flex-1 overflow-x-hidden max-w-full w-full">
           {children}
         </main>
-        <footer className="py-6 border-t border-[#1E3A2E] bg-[#10251F] px-4 text-center text-xs text-[#A1B8A9] font-mono shrink-0 select-none">
-          <div className="max-w-5xl mx-auto w-full flex flex-col sm:flex-row items-center justify-between gap-3">
+        <footer className="py-6 border-t border-[#1E3A2E] bg-[#10251F] px-4 sm:px-6 text-center text-xs text-[#A1B8A9] font-mono shrink-0 select-none">
+          <div className="max-w-5xl mx-auto w-full flex flex-col sm:flex-row items-center justify-between gap-3 min-w-0">
             <div className="flex items-center gap-2">
               <span className="text-[#FAF8F3] font-bold font-serif">▲ Mind of Aravalli</span>
               <span className="text-[#2A4D3E]">•</span>
