@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Shelf007PartGroup, Shelf007SubjectMeta } from '@/lib/shelf007/service';
-import { BookOpen, Search, X, ChevronRight, ChevronDown } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 interface Shelf007AcademicTOCProps {
   subject: Shelf007SubjectMeta;
@@ -91,87 +91,99 @@ export function Shelf007AcademicTOC({
   }, [filteredGroups]);
 
   return (
-    <div className="space-y-8 font-sans">
-      {/* Subject Academic Header (Identical to other shelves) */}
-      <header className="bg-stone-50 border border-stone-200 rounded-2xl p-6 sm:p-8 shadow-xs space-y-6">
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono">
-          <div className="flex items-center gap-2">
-            <span className="text-emerald-900 font-bold uppercase tracking-widest bg-emerald-100/70 px-2.5 py-1 rounded">
-              SHELF 007 · SOVEREIGN MASTER
+    <div className="space-y-10 font-sans">
+      {/* 1. Subject Academic Proscenium Header (Noble Parchment Folio Plate) */}
+      <header className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xs space-y-6 relative overflow-hidden">
+        {/* Subtle Ambient Watermark */}
+        <div className="pointer-events-none absolute -right-16 -top-16 w-64 h-64 rounded-full bg-[#10251F]/5 blur-3xl" />
+
+        {/* Top Register Strip */}
+        <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono border-b border-[#E8E2D5] pb-4">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="px-2.5 py-1 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[11px] tracking-wider">
+              SHELF 007
             </span>
-            <span className="bg-[#ede8dc] text-[#143227] px-2 py-0.5 rounded font-bold border border-[#d6cebe]">
+            <span className="font-bold text-[#9E722C] text-xs">
               {subject.code}
+            </span>
+            <span className="text-[#5A7365] hidden sm:inline">
+              • {subject.badge}
             </span>
           </div>
 
-          <div className="flex items-center gap-2 text-stone-500">
-            <span className="bg-white border border-stone-200 text-stone-700 px-2 py-0.5 rounded-md font-medium">
-              {partGroups.length} {partGroups.length === 1 ? 'Part' : 'Parts'}
+          <div className="flex flex-wrap items-center gap-3 text-xs text-[#5A7365]">
+            <span className="font-medium">
+              {partGroups.length} {partGroups.length === 1 ? 'Curricular Part' : 'Curricular Parts'}
             </span>
             <span>•</span>
-            <span className="bg-white border border-stone-200 text-stone-700 px-2 py-0.5 rounded-md font-medium">
+            <span className="font-semibold text-[#10251F]">
               {totalChapters} Chapters
             </span>
             <span>•</span>
-            <span className="bg-emerald-50 border border-emerald-200 text-emerald-800 px-2 py-0.5 rounded-md font-semibold">
+            <span className="font-semibold text-[#9E722C]">
               {totalSections} Sub-Lessons
             </span>
             <span>•</span>
-            <span className="text-stone-600 font-medium">
-              ~{totalReadingMinutes} mins total (~{(subject.totalWords / 1000).toFixed(0)}k words)
+            <span>
+              ~{totalReadingMinutes}m (~{(subject.totalWords / 1000).toFixed(0)}k words)
             </span>
           </div>
         </div>
 
-        <div className="space-y-3">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-stone-900 tracking-tight leading-tight">
+        {/* Title, Authority & Synopsis */}
+        <div className="space-y-4">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#10251F] tracking-tight leading-tight">
             {subject.name}
           </h1>
-          <div className="text-xs sm:text-sm font-mono text-stone-500">
+
+          <div className="text-xs sm:text-sm font-mono text-[#5A7365] leading-relaxed">
+            <span className="font-semibold text-[#10251F]">Canonical Primary Sources: </span>
             {subject.authors}
           </div>
-          <p className="text-sm sm:text-base text-stone-600 max-w-4xl leading-relaxed font-sans">
+
+          <p className="text-sm sm:text-base text-[#2B3B33] max-w-4xl leading-relaxed font-serif">
             {subject.description}
           </p>
         </div>
 
+        {/* Primary Sequential Reading Action */}
         {firstReadSlug && (
-          <div className="pt-2 flex flex-wrap items-center gap-4">
+          <div className="pt-2 flex flex-wrap items-center gap-4 border-t border-[#E8E2D5] pt-5">
             <Link
               href={`/shelf-007/${subject.slug}/${firstReadSlug}`}
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-800 hover:bg-emerald-900 text-white text-sm font-semibold rounded-xl shadow-xs transition-all hover:shadow-md group"
+              className="inline-flex items-center gap-2.5 px-6 py-3 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-sm font-serif font-semibold rounded-xl shadow-xs transition-all hover:shadow-md group cursor-pointer"
             >
               <span>▶ Begin Sequential Reading</span>
-              <span className="text-emerald-200 text-xs font-normal group-hover:translate-x-0.5 transition-transform">
+              <span className="text-[#C59B4B] text-xs font-mono font-normal group-hover:translate-x-0.5 transition-transform">
                 (Start from Beginning)
               </span>
             </Link>
 
-            <span className="text-xs text-stone-500 font-mono hidden sm:inline">
-              Read all chapters continuously with collapsible sidebar, font-size control, and jump outlines
+            <span className="text-xs text-[#5A7365] font-mono hidden md:inline">
+              Continuous reading mode with collapsible syllabus drawer, dynamic font scaling & section jump outline
             </span>
           </div>
         )}
       </header>
 
-      {/* Editorial Table of Contents Bar: Live Search & Expand Controls */}
-      <div className="bg-white border border-stone-200 rounded-xl p-4 shadow-2xs flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+      {/* 2. Editorial Search & Curricular Controls Bar */}
+      <div className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-xl p-3 sm:p-4 shadow-2xs flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
         {/* Search Input */}
         <div className="relative flex-1">
-          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
+          <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-[#5A7365]">
             <Search className="w-4 h-4" />
           </div>
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search chapters, sub-lessons, or keywords (e.g. GDP, Repo, NPAs, Basel III, GST, FRBM)..."
-            className="w-full pl-9 pr-8 py-2 text-xs sm:text-sm bg-stone-50 border border-stone-200 rounded-lg text-stone-800 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-emerald-800/30 focus:border-emerald-800 transition-all"
+            placeholder={`Search across ${totalChapters} chapters, ${totalSections} sub-lessons, or keywords...`}
+            className="w-full pl-10 pr-9 py-2 text-xs sm:text-sm bg-[#FAF9F4] border border-[#E0D9CB] rounded-lg text-[#10251F] placeholder-[#8A9E92] focus:outline-none focus:ring-2 focus:ring-[#10251F]/30 transition-all font-sans"
           />
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="absolute inset-y-0 right-0 pr-3 flex items-center text-xs text-stone-400 hover:text-stone-600 font-mono"
+              className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-xs text-[#5A7365] hover:text-[#10251F] font-mono cursor-pointer"
             >
               ✕
             </button>
@@ -181,21 +193,21 @@ export function Shelf007AcademicTOC({
         {/* Expand / Collapse Controls */}
         <div className="flex items-center justify-between sm:justify-end gap-2 text-xs font-mono shrink-0">
           {searchQuery && (
-            <span className="text-stone-500 font-medium mr-2">
+            <span className="text-[#5A7365] font-medium mr-2">
               Found {matchingChaptersCount} of {totalChapters} chapters
             </span>
           )}
 
           <button
             onClick={expandAll}
-            className="px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 transition-colors font-medium text-[11px]"
+            className="px-3 py-1.5 rounded-lg bg-[#F5F2EB] hover:bg-[#EAE4D7] text-[#10251F] transition-colors font-medium text-xs cursor-pointer border border-[#E0D9CB]"
             title="Expand all nested sub-lessons"
           >
             Expand All
           </button>
           <button
             onClick={collapseAll}
-            className="px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 transition-colors font-medium text-[11px]"
+            className="px-3 py-1.5 rounded-lg bg-[#F5F2EB] hover:bg-[#EAE4D7] text-[#10251F] transition-colors font-medium text-xs cursor-pointer border border-[#E0D9CB]"
             title="Collapse nested sub-lessons and show chapter titles only"
           >
             Collapse All
@@ -203,15 +215,15 @@ export function Shelf007AcademicTOC({
         </div>
       </div>
 
-      {/* Main Table of Contents Body */}
+      {/* 3. Main Curriculum Body */}
       {filteredGroups.length === 0 ? (
-        <div className="bg-white border border-stone-200 rounded-2xl p-12 text-center space-y-3">
-          <p className="text-stone-500 text-sm font-sans">
-            No curriculum chapters or sub-lessons match &ldquo;<span className="font-semibold text-stone-800">{searchQuery}</span>&rdquo;.
+        <div className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-12 text-center space-y-3">
+          <p className="text-[#5A7365] text-sm font-sans">
+            No curriculum chapters or sub-lessons match &ldquo;<span className="font-semibold text-[#10251F]">{searchQuery}</span>&rdquo;.
           </p>
           <button
             onClick={() => setSearchQuery('')}
-            className="text-xs font-mono text-emerald-800 hover:underline font-semibold"
+            className="text-xs font-mono text-[#10251F] hover:underline font-semibold cursor-pointer"
           >
             Clear Search Filter
           </button>
@@ -220,48 +232,48 @@ export function Shelf007AcademicTOC({
         <div className="space-y-12">
           {filteredGroups.map((group, groupIdx) => (
             <section key={groupIdx} className="space-y-6">
-              {/* Part / Module Header */}
-              <div className="border-b-2 border-stone-900 pb-3 flex flex-wrap items-baseline justify-between gap-3">
+              {/* Part / Module Section Heading */}
+              <div className="border-b-2 border-[#10251F] pb-3 flex flex-wrap items-baseline justify-between gap-3">
                 <div className="space-y-1">
                   <div className="flex items-center gap-2.5">
                     {group.partNumber && (
-                      <span className="text-xs font-mono font-bold text-emerald-900 uppercase tracking-widest bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                      <span className="text-xs font-mono font-bold text-[#10251F] uppercase tracking-widest bg-[#F5F2EB] px-2.5 py-0.5 rounded border border-[#E0D9CB]">
                         {group.partNumber}
                       </span>
                     )}
-                    <h2 className="text-xl sm:text-2xl font-serif font-bold text-stone-900 tracking-tight">
+                    <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#10251F] tracking-tight">
                       {group.groupTitle}
                     </h2>
                   </div>
                   {group.groupSubtitle && (
-                    <p className="text-xs sm:text-sm text-stone-600 font-sans italic">
+                    <p className="text-xs sm:text-sm text-[#5A7365] font-sans italic">
                       {group.groupSubtitle}
                     </p>
                   )}
                 </div>
-                <span className="text-xs font-mono text-stone-500 shrink-0">
+                <span className="text-xs font-mono text-[#5A7365] shrink-0 font-medium">
                   {group.chapters.length} {group.chapters.length === 1 ? 'Chapter' : 'Chapters'}
                 </span>
               </div>
 
               {/* Chapters & Sub-Lessons List */}
-              <div className="divide-y divide-stone-200 border-b border-stone-200">
+              <div className="space-y-4">
                 {group.chapters.map((chapter) => {
                   const isExpanded = expandedChapterSlugs.has(chapter.slug) || searchQuery.trim().length > 0;
                   const sectionCount = chapter.sections.length;
 
                   return (
-                    <div
+                    <article
                       key={chapter.slug}
-                      className="py-5 hover:bg-stone-50/70 transition-colors rounded-xl px-3 sm:px-4 -mx-3 sm:-mx-4 space-y-3"
+                      className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-5 sm:p-6 transition-all duration-200 group shadow-xs hover:shadow-sm space-y-4"
                     >
                       {/* Chapter Headline Row */}
-                      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
-                        <div className="flex items-start gap-3 flex-1">
+                      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                        <div className="flex items-start gap-3.5 flex-1 min-w-0">
                           {/* Toggle chevron */}
                           <button
                             onClick={() => toggleChapter(chapter.slug)}
-                            className="mt-1 text-stone-400 hover:text-stone-700 transition-colors p-0.5 rounded shrink-0 focus:outline-none cursor-pointer"
+                            className="mt-1 text-[#5A7365] hover:text-[#10251F] p-1 rounded-md shrink-0 focus:outline-none cursor-pointer hover:bg-[#F5F2EB] transition-colors"
                             aria-label={isExpanded ? 'Collapse sub-lessons' : 'Expand sub-lessons'}
                           >
                             <svg
@@ -281,43 +293,46 @@ export function Shelf007AcademicTOC({
                             </svg>
                           </button>
 
-                          <div className="space-y-1.5 flex-1">
-                            <div className="flex flex-wrap items-center gap-2 text-xs font-mono">
-                              <span className="font-bold text-stone-500">
+                          <div className="space-y-2 flex-1 min-w-0">
+                            {/* Breadcrumb Locator & Timing Strip */}
+                            <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
+                              <span className="font-bold text-[#10251F]">
                                 {chapter.category}
                               </span>
                               <span>•</span>
-                              <span className="text-stone-500 font-medium">
+                              <span className="font-semibold text-[#9E722C]">
                                 {sectionCount} {sectionCount === 1 ? 'Lesson' : 'Lessons'}
                               </span>
                               <span>•</span>
-                              <span className="text-stone-400">~{chapter.readingMinutes}m read</span>
+                              <span>~{chapter.readingMinutes}m read</span>
                               <span>•</span>
-                              <span className="text-stone-400">~{(chapter.wordCount / 1000).toFixed(1)}k words</span>
+                              <span>~{(chapter.wordCount / 1000).toFixed(1)}k words</span>
                             </div>
 
+                            {/* Commanding Serif Chapter Title */}
                             <Link
                               href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                              className="group block"
+                              className="group/title block"
                             >
-                              <h3 className="text-base sm:text-lg font-serif font-bold text-stone-900 group-hover:text-emerald-900 transition-colors leading-snug">
+                              <h3 className="text-xl sm:text-2xl font-serif font-bold text-[#10251F] group-hover/title:text-[#1B4D3C] transition-colors leading-snug">
                                 {chapter.title}
                               </h3>
                             </Link>
 
+                            {/* Substantive Description */}
                             {chapter.description && (
-                              <p className="text-xs sm:text-sm text-stone-600 font-sans leading-relaxed max-w-3xl">
+                              <p className="text-sm font-sans text-[#2B3B33] leading-relaxed max-w-4xl pt-0.5">
                                 {chapter.description}
                               </p>
                             )}
                           </div>
                         </div>
 
-                        {/* Direct Chapter Action Buttons */}
-                        <div className="flex items-center gap-2 sm:self-start pl-7 sm:pl-0 shrink-0">
+                        {/* Direct Chapter Read Action */}
+                        <div className="flex items-center gap-2 sm:self-start pl-8 sm:pl-0 shrink-0">
                           <Link
                             href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                            className="px-3.5 py-1.5 text-xs font-semibold text-white bg-emerald-800 hover:bg-emerald-900 rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5"
+                            className="px-4 py-2 text-xs font-mono font-semibold text-[#FAF8F3] bg-[#10251F] hover:bg-[#1B4D3C] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5 cursor-pointer"
                           >
                             <span>Read Chapter</span>
                             <span>→</span>
@@ -325,37 +340,38 @@ export function Shelf007AcademicTOC({
                         </div>
                       </div>
 
-                      {/* Sub-Lessons Granular Directory (Indented Book Hierarchy) */}
+                      {/* Sub-Lessons Granular Breakdown (When Expanded) */}
                       {isExpanded && chapter.sections.length > 0 && (
-                        <div className="ml-7 sm:ml-9 pl-3 sm:pl-5 border-l-2 border-stone-200 pt-1 space-y-2">
-                          <div className="text-[11px] font-mono uppercase tracking-wider text-stone-400 font-semibold mb-1">
-                            Chapter Sub-Lessons ({chapter.sections.length}):
+                        <div className="ml-2 sm:ml-4 pl-4 sm:pl-6 border-l-2 border-[#10251F] pt-2 space-y-2.5">
+                          <div className="text-[11px] font-mono uppercase tracking-wider text-[#5A7365] font-semibold">
+                            Chapter Curriculum ({chapter.sections.length} Sub-Lessons):
                           </div>
+
                           <div className="grid grid-cols-1 gap-1.5">
                             {chapter.sections.map((sec, sIdx) => (
                               <div
                                 key={sec.id}
-                                className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 p-2 rounded-lg hover:bg-stone-100/80 transition-colors group"
+                                className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2.5 rounded-lg bg-[#F7F5EE] border border-[#E8E2D5] hover:bg-[#FFFFFF] hover:border-[#10251F] transition-all group/sec"
                               >
                                 <div className="flex items-start sm:items-center gap-2.5 flex-1 min-w-0">
-                                  <span className="text-xs font-mono font-semibold text-stone-400 group-hover:text-emerald-800 shrink-0">
+                                  <span className="text-xs font-mono font-bold text-[#9E722C] shrink-0">
                                     § {chapter.order > 0 ? `${chapter.order}.${sIdx + 1}` : `${sIdx + 1}`}
                                   </span>
                                   <Link
                                     href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
-                                    className="text-xs sm:text-sm font-sans font-medium text-stone-800 group-hover:text-emerald-900 transition-colors truncate"
+                                    className="text-xs sm:text-sm font-sans font-medium text-[#112019] group-hover/sec:text-[#1B4D3C] transition-colors truncate"
                                   >
                                     {sec.title}
                                   </Link>
                                 </div>
 
-                                <div className="flex items-center gap-2 shrink-0 pl-6 sm:pl-0">
-                                  <span className="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200">
-                                    Master
+                                <div className="flex items-center gap-2.5 shrink-0 pl-6 sm:pl-0">
+                                  <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded bg-[#FFFFFF] text-[#5A7365] border border-[#E0D9CB]">
+                                    Master Unit
                                   </span>
                                   <Link
                                     href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
-                                    className="text-[11px] font-mono text-stone-400 group-hover:text-emerald-800 transition-colors inline-flex items-center gap-0.5"
+                                    className="text-xs font-mono text-[#5A7365] group-hover/sec:text-[#10251F] transition-colors inline-flex items-center gap-0.5"
                                   >
                                     <span>view</span>
                                     <span>›</span>
@@ -366,7 +382,7 @@ export function Shelf007AcademicTOC({
                           </div>
                         </div>
                       )}
-                    </div>
+                    </article>
                   );
                 })}
               </div>

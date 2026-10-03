@@ -232,8 +232,8 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
       authors: 'Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • G.N. Sharma • Norman Lowe',
       description:
         'Sovereign 39-chapter doctoral-depth historical synthesis integrating Ancient Civilizations & Epigraphy, Medieval Institutional Dynamics, Modern Freedom Struggle, Comprehensive Rajasthan Dynasties & Heritage (RPSC RAS), World History Revolutions, and Capstone Synchronized Revision Vault.',
-      totalChapters: getHistoryChapters().length,
-      totalWords: getHistoryChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      totalChapters: 39,
+      totalWords: 0,
       chips: [
         'Ancient India & Archaeological Edicts',
         'Medieval Institutions & Bhakti/Sufi Synthesis',

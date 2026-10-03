@@ -1,11 +1,11 @@
 import React from 'react';
-import { ExecutiveSinglePageHub } from '@/components/home/executive-single-page-hub';
+import { ScholarlyLibraryHome } from '@/components/home/scholarly-library-home';
 
 export const metadata = {
-  title: 'Mind of Aravalli | Shelf 007 Sovereign Knowledge Bastion',
-  description: 'Executive single-screen portal to 8 sovereign master treatises, 232 chapters, and 1,520 MCQs.',
+  title: 'Mind of Aravalli | Sovereign Knowledge Library',
+  description: 'A structured intellectual corpus for learning, revision, examination and long-term mastery.',
 };
 
 export default function LibraryPage() {
-  return <ExecutiveSinglePageHub />;
+  return <ScholarlyLibraryHome />;
 }

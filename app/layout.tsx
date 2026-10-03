@@ -30,27 +30,27 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-[#f7f5f0] text-stone-900 antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-hidden max-w-full">
+      <body className="bg-[#FAF9F4] text-[#1B211E] antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-hidden max-w-full">
         <ServiceWorkerCleaner />
         <SiteHeader />
         <main className="flex-1 overflow-x-hidden max-w-full">
           {children}
         </main>
-        <footer className="h-8 border-t border-[#e5dfd3] dark:border-[#24332c] bg-[#f2efe7]/90 dark:bg-[#101613]/90 px-4 flex items-center justify-between text-center text-[11px] text-stone-600 dark:text-stone-400 font-mono shrink-0 select-none">
-          <div className="max-w-[1620px] mx-auto w-full flex items-center justify-between gap-2">
+        <footer className="py-6 border-t border-[#1E3A2E] bg-[#10251F] px-4 text-center text-xs text-[#A1B8A9] font-mono shrink-0 select-none">
+          <div className="max-w-[1440px] mx-auto w-full flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="flex items-center gap-2">
-              <span className="text-[#143227] dark:text-emerald-400 font-bold">▲ Mind of Aravalli</span>
-              <span className="text-stone-300 dark:text-stone-600">•</span>
-              <span>Shelf 007 Sovereign Knowledge Bastion</span>
+              <span className="text-[#FAF8F3] font-bold font-serif">▲ Mind of Aravalli</span>
+              <span className="text-[#2A4D3E]">•</span>
+              <span className="text-[#D5DDD6]">Sovereign Knowledge Library</span>
             </div>
-            <div className="hidden sm:flex items-center gap-3 text-stone-500 dark:text-stone-400">
-              <span>8 Treatises</span>
-              <span>•</span>
-              <span>232 Chapters</span>
-              <span>•</span>
-              <span>1,520 MCQs</span>
-              <span>•</span>
-              <span className="text-[#c25e2e] dark:text-amber-400 font-semibold">Zero Unaccounted-For Source Omission</span>
+            <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-[11px] text-[#A1B8A9]">
+              <span>5 Academic Domains</span>
+              <span className="text-[#2A4D3E]">•</span>
+              <span>8 Master Treatises</span>
+              <span className="text-[#2A4D3E]">•</span>
+              <span>269 Chapters</span>
+              <span className="text-[#2A4D3E]">•</span>
+              <span className="text-[#C59B4B] font-semibold">Primary Source Grounded</span>
             </div>
           </div>
         </footer>

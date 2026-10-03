@@ -78,18 +78,20 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
     '';
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 sm:py-10 space-y-8 font-sans">
-      {/* Breadcrumb Navigation */}
-      <nav className="text-xs font-mono text-stone-500 flex items-center gap-2">
-        <Link href="/" className="hover:text-stone-900 transition-colors">
-          Library
+    <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-8 font-sans">
+      {/* Archival Parchment Breadcrumb */}
+      <nav className="text-xs font-mono text-[#5A7365] flex items-center gap-2 flex-wrap">
+        <Link href="/" className="hover:text-[#10251F] transition-colors">
+          Catalogue
         </Link>
-        <span>›</span>
-        <Link href="/shelf-007" className="hover:text-stone-900 transition-colors font-semibold text-[#143227]">
-          Shelf 007 (Sovereign Bastion)
+        <span className="text-[#C5BEAF]">/</span>
+        <Link href="/shelf-007" className="hover:text-[#10251F] transition-colors font-medium">
+          Shelf 007
         </Link>
-        <span>›</span>
-        <span className="text-stone-800 font-semibold">{currentSubj.name}</span>
+        <span className="text-[#C5BEAF]">/</span>
+        <span className="text-[#10251F] font-bold">{currentSubj.code}</span>
+        <span className="text-[#C5BEAF]">/</span>
+        <span className="text-[#2B3B33] font-serif truncate max-w-lg">{currentSubj.name}</span>
       </nav>
 
       {/* Editorial Academic Table of Contents */}

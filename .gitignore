@@ -57,3 +57,13 @@ print_output/
 007/PDF's/
 007/scripts/audit_report.json
 007/scripts/extracted_pages/
+
+# Diagnostics & Screenshot Scripts
+diag_*.html
+diag_*.pdf
+diagnose_*.html
+diagnose_*.pdf
+render_viewer.html
+scripts/capture_*.cjs
+scripts/take_screenshots.*
+scripts/audit_canonical.cjs
