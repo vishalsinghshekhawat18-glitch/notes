@@ -293,22 +293,6 @@ export function Shelf007ContinuousReader({
         )}
       </header>
 
-      {/* Floating Collapsible Left Index Toggle */}
-      <button
-        onClick={() => setIsSidebarOpen(true)}
-        className={`fixed left-3 sm:left-5 top-20 z-30 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] pl-3 pr-3.5 py-2 rounded-xl shadow-lg border border-[#1E3A2E] backdrop-blur-md flex items-center gap-2 text-xs font-mono font-medium transition-all hover:scale-105 cursor-pointer group ${
-          isSidebarOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
-        }`}
-        title="Open Table of Contents (Esc to close)"
-        aria-label="Open Table of Contents"
-      >
-        <BookOpen className="w-3.5 h-3.5 text-[#C59B4B] group-hover:scale-110 transition-transform" />
-        <span className="font-sans font-medium text-[#FAF8F3]">Index</span>
-        <span className="text-[10px] text-[#A1B8A9] bg-[#16352A] px-1.5 py-0.5 rounded-full border border-[#234A3C]">
-          § {activeSectionIndex + 1}/{currentChapter.sections.length}
-        </span>
-      </button>
-
       {/* Collapsible Left Index Navbar (Overlay Drawer) */}
       {isSidebarOpen && (
         <>
@@ -453,9 +437,9 @@ export function Shelf007ContinuousReader({
         </>
       )}
 
-      {/* Main Content Body: Centered right in the viewport center, orientation never shifts */}
-      <div className="w-full min-h-[calc(100vh-3.5rem)]">
-        <main className="max-w-3xl mx-auto px-4 sm:px-6 py-6 space-y-6">
+      {/* Main Content Body: Centered right in the viewport center, perfectly aligned with header */}
+      <div className="w-full flex-1">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 space-y-6">
           {/* Chapter Introduction Hero */}
           <section className="border-b border-[#E0D9CB] pb-4 space-y-2.5">
             {/* Archival Breadcrumb */}
@@ -594,7 +578,7 @@ export function Shelf007ContinuousReader({
               )}
             </div>
           </section>
-        </main>
+        </div>
       </div>
     </div>
   );
