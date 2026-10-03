@@ -299,29 +299,29 @@ export function Shelf007ContinuousReader({
           {/* Backdrop */}
           <div
             onClick={() => setIsSidebarOpen(false)}
-            className="fixed inset-0 bg-black/50 backdrop-blur-xs z-50 transition-opacity animate-in fade-in duration-150"
+            className="fixed inset-0 bg-black/40 backdrop-blur-xs z-50 transition-opacity"
           />
 
-          {/* Slide-out Drawer */}
-          <aside className="fixed left-0 top-0 bottom-0 w-80 sm:w-88 z-50 bg-[#FFFFFF] text-[#10251F] flex flex-col shadow-2xl border-r border-[#E0D9CB] animate-in slide-in-from-left duration-200 select-none">
+          {/* Slide-out Drawer: strictly fixed at left: 0 with zero transform clipping */}
+          <aside className="fixed left-0 top-0 bottom-0 w-84 sm:w-96 max-w-[90vw] z-50 bg-[#FFFFFF] text-[#10251F] flex flex-col shadow-2xl border-r border-[#E0D9CB] select-none" style={{ transform: 'none' }}>
             {/* 1. Header: Back Link, Title & Close Button */}
-            <div className="p-4 border-b border-[#E0D9CB] bg-[#F7F5EE] backdrop-blur-xs flex items-center justify-between gap-2">
-              <div className="min-w-0">
+            <div className="p-4 border-b border-[#E0D9CB] bg-[#F7F5EE] flex items-center justify-between gap-3">
+              <div className="min-w-0 flex-1">
                 <Link
                   href={`/shelf-007/${subject}`}
-                  className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-[#5A7365] hover:text-[#10251F] transition-colors group mb-0.5"
+                  className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-[#5A7365] hover:text-[#10251F] transition-colors group mb-1"
                 >
                   <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover:-translate-x-0.5 text-[#5A7365] group-hover:text-[#10251F]" />
                   <span>Subject Curriculum</span>
                 </Link>
-                <h2 className="font-serif font-bold text-sm text-[#10251F] leading-snug truncate max-w-[220px]">
+                <h2 className="font-serif font-bold text-sm text-[#10251F] leading-snug truncate">
                   {subjectTitle}
                 </h2>
               </div>
 
               <button
                 onClick={() => setIsSidebarOpen(false)}
-                className="p-1.5 rounded-lg text-[#5A7365] hover:text-[#10251F] hover:bg-[#EAE4D7] transition-colors cursor-pointer"
+                className="p-1.5 rounded-lg text-[#5A7365] hover:text-[#10251F] hover:bg-[#EAE4D7] transition-colors cursor-pointer shrink-0"
                 title="Close Index (Esc)"
                 aria-label="Close Index"
               >
@@ -368,6 +368,7 @@ export function Shelf007ContinuousReader({
                     >
                       <Link
                         href={`/shelf-007/${subject}/${ch.slug}`}
+                        onClick={() => setIsSidebarOpen(false)}
                         className="flex-1 truncate mr-1.5 flex items-baseline gap-2"
                         title={ch.title}
                       >
@@ -402,6 +403,7 @@ export function Shelf007ContinuousReader({
                             <button
                               key={sec.id}
                               onClick={() => {
+                                setIsSidebarOpen(false);
                                 if (isCurrent) {
                                   scrollToSection(sIdx);
                                 } else {
