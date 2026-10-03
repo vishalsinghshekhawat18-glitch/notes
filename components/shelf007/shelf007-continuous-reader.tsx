@@ -451,11 +451,11 @@ export function Shelf007ContinuousReader({
 
       {/* Main Content Body: Centered right in the viewport center, orientation never shifts */}
       <div className="w-full min-h-[calc(100vh-3.5rem)]">
-        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+        <main className="max-w-3xl mx-auto px-4 sm:px-6 py-6 space-y-6">
           {/* Chapter Introduction Hero */}
-          <section className="border-b border-[#E0D9CB] pb-6 space-y-3">
+          <section className="border-b border-[#E0D9CB] pb-4 space-y-2.5">
             {/* Archival Breadcrumb */}
-            <nav className="text-xs font-mono text-[#5A7365] flex items-center gap-2 flex-wrap pb-1">
+            <nav className="text-xs font-mono text-[#5A7365] flex items-center gap-2 flex-wrap pb-0.5">
               <Link href="/" className="hover:text-[#10251F] transition-colors">
                 Catalogue
               </Link>
@@ -471,30 +471,30 @@ export function Shelf007ContinuousReader({
               <span className="text-[#10251F] font-bold truncate max-w-xs">{currentChapter.shortTitle}</span>
             </nav>
 
-            <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-[#10251F]">
+            <div className="text-[10px] font-mono font-semibold uppercase tracking-wider text-[#10251F]">
               {subjectTitle} · {currentChapter.category}
             </div>
 
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#10251F] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#10251F] tracking-tight">
               {currentChapter.title}
             </h2>
 
             {currentChapter.description && (
-              <p className="text-sm sm:text-base text-[#2B3B33] font-serif italic leading-relaxed max-w-4xl pt-1">
+              <p className="text-xs sm:text-sm text-[#2B3B33] font-serif italic leading-relaxed max-w-3xl pt-0.5">
                 {currentChapter.description}
               </p>
             )}
 
-            <div className="pt-2 flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
-              <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2.5 py-1 rounded-md">
+            <div className="pt-1.5 flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
+              <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded">
                 📚 {currentChapter.sections.length} Editorial Sections
               </span>
               <span>•</span>
-              <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2.5 py-1 rounded-md">
+              <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded">
                 ⏱️ ~{currentChapter.readingMinutes} mins read
               </span>
               <span>•</span>
-              <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2.5 py-1 rounded-md">
+              <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded">
                 📝 ~{(currentChapter.wordCount / 1000).toFixed(1)}k words
               </span>
             </div>
@@ -509,27 +509,27 @@ export function Shelf007ContinuousReader({
                 ref={(el) => {
                   sectionRefs.current[index] = el;
                 }}
-                className="scroll-mt-16 bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xs space-y-6 transition-all"
+                className="scroll-mt-16 bg-[#FFFFFF] border border-[#E0D9CB] rounded-xl p-5 sm:p-6 shadow-2xs space-y-4 transition-all"
               >
                 {/* Compact Editorial Section Header */}
-                <header className="border-b border-[#E8E2D5] pb-3.5 flex flex-wrap items-baseline justify-between gap-2">
+                <header className="border-b border-[#E8E2D5] pb-2.5 flex flex-wrap items-baseline justify-between gap-2">
                   <div>
-                    <div className="text-[11px] font-mono font-semibold uppercase tracking-wider text-[#10251F] mb-1">
+                    <div className="text-[10px] font-mono font-semibold uppercase tracking-wider text-[#10251F] mb-0.5">
                       {currentChapter.shortTitle} · Section {index + 1} of {currentChapter.sections.length}
                     </div>
 
-                    <h3 className="text-xl sm:text-2xl font-serif font-bold text-[#10251F] tracking-tight leading-snug">
+                    <h3 className="text-lg sm:text-xl font-serif font-bold text-[#10251F] tracking-tight leading-snug">
                       {section.title}
                     </h3>
                   </div>
 
-                  <span className="text-[11px] font-mono text-[#5A7365] shrink-0">
+                  <span className="text-[10px] font-mono text-[#5A7365] shrink-0">
                     ~{Math.max(1, Math.ceil(section.wordCount / 220))}m read
                   </span>
                 </header>
 
                 {/* Section Markdown Body */}
-                <div className="space-y-4">
+                <div className="space-y-3">
                   <MarkdownContent
                     content={section.body}
                     className="leading-relaxed text-[#1B211E] font-serif"
@@ -540,12 +540,12 @@ export function Shelf007ContinuousReader({
           })}
 
           {/* Chapter Completion Footer */}
-          <section className="bg-[#10251F] border border-[#1E3A2E] text-[#FAF8F3] rounded-2xl p-6 sm:p-8 text-center space-y-3 shadow-xs">
-            <div className="inline-block px-2.5 py-0.5 rounded-full bg-[#16382D] border border-[#274E3E] text-[#C59B4B] font-mono text-[11px] font-semibold">
+          <section className="bg-[#10251F] border border-[#1E3A2E] text-[#FAF8F3] rounded-xl p-5 sm:p-6 text-center space-y-2.5 shadow-2xs">
+            <div className="inline-block px-2 py-0.5 rounded-full bg-[#16382D] border border-[#274E3E] text-[#C59B4B] font-mono text-[10px] font-semibold">
               ✓ {currentChapter.order > 0 ? `CHAPTER ${currentChapter.order}` : currentChapter.category.toUpperCase()} COMPLETE
             </div>
 
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-[#FAF8F3]">
+            <h3 className="text-lg sm:text-xl font-serif font-bold text-[#FAF8F3]">
               You&apos;ve Completed {currentChapter.title}
             </h3>
 

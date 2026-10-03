@@ -403,44 +403,31 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
   const luxuryPrintCss = `
     @page {
       size: A4 portrait;
-      margin-top: 18mm;
+      margin-top: 16mm;
       margin-bottom: 18mm;
       margin-left: 20mm; /* 20mm spine gutter for spiral/wiro/perfect binding */
       margin-right: 16mm;
 
-      /* Running Headers */
+      /* Top Headers: Completely suppressed across real chapter and content pages */
       @top-left {
-        content: "${subject.code} • ${subject.title.slice(0, 38)}...";
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        font-size: 8pt;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: #222222;
-        border-bottom: 0.5pt solid #888888;
-        padding-bottom: 2mm;
+        content: none;
+        border: none;
       }
 
       @top-right {
-        content: "Shelf 007 • Mind of Aravalli";
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        font-size: 8pt;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        color: #444444;
-        border-bottom: 0.5pt solid #888888;
-        padding-bottom: 2mm;
+        content: none;
+        border: none;
       }
 
-      /* Running Footers */
+      /* Running Footers: All extra metadata & pagination consolidated in bottom footer */
       @bottom-left {
-        content: "Sovereign Knowledge Bastion • Canonical Study-Book Edition";
+        content: "${subject.code} • ${subject.title.slice(0, 38)}... • Shelf 007";
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         font-size: 8pt;
         letter-spacing: 0.04em;
         color: #555555;
-        border-top: 0.5pt solid #aaaaaa;
-        padding-top: 2mm;
+        border-top: 0.5pt solid #888888;
+        padding-top: 2.5mm;
       }
 
       @bottom-right {
@@ -449,8 +436,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
         font-size: 8.5pt;
         font-weight: 700;
         color: #000000;
-        border-top: 0.5pt solid #aaaaaa;
-        padding-top: 2mm;
+        border-top: 0.5pt solid #888888;
+        padding-top: 2.5mm;
       }
     }
 
@@ -499,8 +486,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
       text-align: justify;
       text-justify: inter-word;
       hyphens: auto;
-      orphans: 2;
-      widows: 2;
+      orphans: 3;
+      widows: 3;
     }
 
     /* Lists */
@@ -515,6 +502,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
       line-height: 1.48;
       orphans: 2;
       widows: 2;
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
     }
 
     /* Bullets: Bold label on line 1, explanation content starts on NEXT line */
@@ -936,8 +925,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
       border: 1pt solid #000000;
       border-left: 4.5pt solid #000000;
       background: #fafafa !important;
-      page-break-inside: auto;
-      break-inside: auto;
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
     }
 
     .exam-trap-feature .feature-bar-black {
@@ -970,8 +959,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
       border: 1pt solid #333333;
       border-left: 4.5pt double #000000;
       background: #fbfbfb !important;
-      page-break-inside: auto;
-      break-inside: auto;
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
     }
 
     .statute-feature .statute-bar-header {
@@ -1004,8 +993,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
       border: 1pt solid #444444;
       border-left: 4.5pt solid #111111;
       background: #fafafa !important;
-      page-break-inside: auto;
-      break-inside: auto;
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
     }
 
     .mechanism-feature .mechanism-bar-header {

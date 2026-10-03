@@ -91,27 +91,27 @@ export function Shelf007AcademicTOC({
   }, [filteredGroups]);
 
   return (
-    <div className="space-y-10 font-sans">
+    <div className="space-y-6 font-sans">
       {/* 1. Subject Academic Proscenium Header (Noble Parchment Folio Plate) */}
-      <header className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xs space-y-6 relative overflow-hidden">
+      <header className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-5 sm:p-6 shadow-2xs space-y-4 relative overflow-hidden">
         {/* Subtle Ambient Watermark */}
         <div className="pointer-events-none absolute -right-16 -top-16 w-64 h-64 rounded-full bg-[#10251F]/5 blur-3xl" />
 
         {/* Top Register Strip */}
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono border-b border-[#E8E2D5] pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono border-b border-[#E8E2D5] pb-3">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="px-2.5 py-1 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[11px] tracking-wider">
+            <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider">
               SHELF 007
             </span>
             <span className="font-bold text-[#9E722C] text-xs">
               {subject.code}
             </span>
-            <span className="text-[#5A7365] hidden sm:inline">
+            <span className="text-[#5A7365] hidden sm:inline text-xs">
               • {subject.badge}
             </span>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3 text-xs text-[#5A7365]">
+          <div className="flex flex-wrap items-center gap-2.5 text-xs text-[#5A7365]">
             <span className="font-medium">
               {partGroups.length} {partGroups.length === 1 ? 'Curricular Part' : 'Curricular Parts'}
             </span>
@@ -131,27 +131,27 @@ export function Shelf007AcademicTOC({
         </div>
 
         {/* Title, Authority & Synopsis */}
-        <div className="space-y-4">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#10251F] tracking-tight leading-tight">
+        <div className="space-y-2.5">
+          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#10251F] tracking-tight leading-tight">
             {subject.name}
           </h1>
 
-          <div className="text-xs sm:text-sm font-mono text-[#5A7365] leading-relaxed">
+          <div className="text-xs font-mono text-[#5A7365] leading-relaxed">
             <span className="font-semibold text-[#10251F]">Canonical Primary Sources: </span>
             {subject.authors}
           </div>
 
-          <p className="text-sm sm:text-base text-[#2B3B33] max-w-4xl leading-relaxed font-serif">
+          <p className="text-xs sm:text-sm text-[#2B3B33] max-w-4xl leading-relaxed font-serif">
             {subject.description}
           </p>
         </div>
 
         {/* Primary Sequential Reading Action */}
         {firstReadSlug && (
-          <div className="pt-2 flex flex-wrap items-center gap-4 border-t border-[#E8E2D5] pt-5">
+          <div className="flex flex-wrap items-center gap-3 border-t border-[#E8E2D5] pt-4">
             <Link
               href={`/shelf-007/${subject.slug}/${firstReadSlug}`}
-              className="inline-flex items-center gap-2.5 px-6 py-3 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-sm font-serif font-semibold rounded-xl shadow-xs transition-all hover:shadow-md group cursor-pointer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs sm:text-sm font-serif font-semibold rounded-lg shadow-2xs transition-all hover:shadow-xs group cursor-pointer"
             >
               <span>▶ Begin Sequential Reading</span>
               <span className="text-[#C59B4B] text-xs font-mono font-normal group-hover:translate-x-0.5 transition-transform">
@@ -217,7 +217,7 @@ export function Shelf007AcademicTOC({
 
       {/* 3. Main Curriculum Body */}
       {filteredGroups.length === 0 ? (
-        <div className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-12 text-center space-y-3">
+        <div className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-8 text-center space-y-3">
           <p className="text-[#5A7365] text-sm font-sans">
             No curriculum chapters or sub-lessons match &ldquo;<span className="font-semibold text-[#10251F]">{searchQuery}</span>&rdquo;.
           </p>
@@ -229,24 +229,24 @@ export function Shelf007AcademicTOC({
           </button>
         </div>
       ) : (
-        <div className="space-y-12">
+        <div className="space-y-8">
           {filteredGroups.map((group, groupIdx) => (
-            <section key={groupIdx} className="space-y-6">
+            <section key={groupIdx} className="space-y-4">
               {/* Part / Module Section Heading */}
-              <div className="border-b-2 border-[#10251F] pb-3 flex flex-wrap items-baseline justify-between gap-3">
-                <div className="space-y-1">
-                  <div className="flex items-center gap-2.5">
+              <div className="border-b-2 border-[#10251F] pb-2.5 flex flex-wrap items-baseline justify-between gap-2">
+                <div className="space-y-0.5">
+                  <div className="flex items-center gap-2">
                     {group.partNumber && (
-                      <span className="text-xs font-mono font-bold text-[#10251F] uppercase tracking-widest bg-[#F5F2EB] px-2.5 py-0.5 rounded border border-[#E0D9CB]">
+                      <span className="text-[10px] font-mono font-bold text-[#10251F] uppercase tracking-wider bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
                         {group.partNumber}
                       </span>
                     )}
-                    <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#10251F] tracking-tight">
+                    <h2 className="text-xl sm:text-2xl font-serif font-bold text-[#10251F] tracking-tight">
                       {group.groupTitle}
                     </h2>
                   </div>
                   {group.groupSubtitle && (
-                    <p className="text-xs sm:text-sm text-[#5A7365] font-sans italic">
+                    <p className="text-xs text-[#5A7365] font-sans italic">
                       {group.groupSubtitle}
                     </p>
                   )}
@@ -257,7 +257,7 @@ export function Shelf007AcademicTOC({
               </div>
 
               {/* Chapters & Sub-Lessons List */}
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {group.chapters.map((chapter) => {
                   const isExpanded = expandedChapterSlugs.has(chapter.slug) || searchQuery.trim().length > 0;
                   const sectionCount = chapter.sections.length;
@@ -265,15 +265,15 @@ export function Shelf007AcademicTOC({
                   return (
                     <article
                       key={chapter.slug}
-                      className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-5 sm:p-6 transition-all duration-200 group shadow-xs hover:shadow-sm space-y-4"
+                      className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-4 sm:p-5 transition-all duration-200 group shadow-2xs hover:shadow-xs space-y-3"
                     >
                       {/* Chapter Headline Row */}
-                      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
-                        <div className="flex items-start gap-3.5 flex-1 min-w-0">
+                      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+                        <div className="flex items-start gap-3 flex-1 min-w-0">
                           {/* Toggle chevron */}
                           <button
                             onClick={() => toggleChapter(chapter.slug)}
-                            className="mt-1 text-[#5A7365] hover:text-[#10251F] p-1 rounded-md shrink-0 focus:outline-none cursor-pointer hover:bg-[#F5F2EB] transition-colors"
+                            className="mt-0.5 text-[#5A7365] hover:text-[#10251F] p-1 rounded-md shrink-0 focus:outline-none cursor-pointer hover:bg-[#F5F2EB] transition-colors"
                             aria-label={isExpanded ? 'Collapse sub-lessons' : 'Expand sub-lessons'}
                           >
                             <svg
@@ -293,7 +293,7 @@ export function Shelf007AcademicTOC({
                             </svg>
                           </button>
 
-                          <div className="space-y-2 flex-1 min-w-0">
+                          <div className="space-y-1.5 flex-1 min-w-0">
                             {/* Breadcrumb Locator & Timing Strip */}
                             <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
                               <span className="font-bold text-[#10251F]">
@@ -314,14 +314,14 @@ export function Shelf007AcademicTOC({
                               href={`/shelf-007/${subject.slug}/${chapter.slug}`}
                               className="group/title block"
                             >
-                              <h3 className="text-xl sm:text-2xl font-serif font-bold text-[#10251F] group-hover/title:text-[#1B4D3C] transition-colors leading-snug">
+                              <h3 className="text-lg sm:text-xl font-serif font-bold text-[#10251F] group-hover/title:text-[#1B4D3C] transition-colors leading-snug">
                                 {chapter.title}
                               </h3>
                             </Link>
 
                             {/* Substantive Description */}
                             {chapter.description && (
-                              <p className="text-sm font-sans text-[#2B3B33] leading-relaxed max-w-4xl pt-0.5">
+                              <p className="text-xs sm:text-sm font-sans text-[#2B3B33] leading-relaxed max-w-4xl pt-0.5">
                                 {chapter.description}
                               </p>
                             )}
@@ -329,10 +329,10 @@ export function Shelf007AcademicTOC({
                         </div>
 
                         {/* Direct Chapter Read Action */}
-                        <div className="flex items-center gap-2 sm:self-start pl-8 sm:pl-0 shrink-0">
+                        <div className="flex items-center gap-2 sm:self-start pl-7 sm:pl-0 shrink-0">
                           <Link
                             href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                            className="px-4 py-2 text-xs font-mono font-semibold text-[#FAF8F3] bg-[#10251F] hover:bg-[#1B4D3C] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5 cursor-pointer"
+                            className="px-3 py-1.5 text-xs font-mono font-semibold text-[#FAF8F3] bg-[#10251F] hover:bg-[#1B4D3C] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5 cursor-pointer"
                           >
                             <span>Read Chapter</span>
                             <span>→</span>

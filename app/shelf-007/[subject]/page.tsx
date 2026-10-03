@@ -78,7 +78,7 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
     '';
 
   return (
-    <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-8 font-sans">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 space-y-6 font-sans">
       {/* Archival Parchment Breadcrumb */}
       <nav className="text-xs font-mono text-[#5A7365] flex items-center gap-2 flex-wrap">
         <Link href="/" className="hover:text-[#10251F] transition-colors">
