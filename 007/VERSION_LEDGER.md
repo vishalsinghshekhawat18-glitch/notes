@@ -17,6 +17,32 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [RELEASED] v014 — English Language & Descriptive Writing: Subjective RC, Ombudsman RB-IOS 2021, Workplace Communications Vault & F.A.C.T.S. Value-Addition Arsenal
+* **Release Date**: 2026-10-03
+* **Commit SHA**: `a64105e`
+* **Status**: Deployed to GitHub Remote Repository
+* **Domain / Subject**: English Language & Descriptive Writing (SBI/IBPS PO Mains, RBI Grade B Phase II, NABARD Grade A, UPSC CSE Essay & Compulsory English)
+* **Authoritative Source Ingested & Synthesized**:
+  - *06_English_Descriptive_Writing_A4_Print.pdf* (85 pages Master Study-Book Edition)
+* **Surgical Integrations & Enhancements**:
+  1. **Chapter 10 & Rev Matrix 10 (Objective & Subjective Discourse)**:
+     - Implemented the IBPS PO Mains *Subjective Reading Comprehension Protocol* (10-Mark, 3-to-4 sentence strict word-budget formula).
+     - Integrated 2 comprehensive live walkthroughs: (1) FinTech, RegTech & Algorithmic Underwriting, (2) Sovereign Green Bonds & Liquidity Premium.
+     - Added Subjective RC rapid retrieval matrix and diagnostic recall flashcards.
+  2. **Chapter 17 & Rev Matrix 17 (Official Correspondence & Workplace Vault)**:
+     - Formulated formal escalation letter to *Banking Ombudsman under Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021)* covering failed UPI debits, statutory compensation under RBI circulars, and the mandatory 30-day branch waiting clause.
+     - Introduced *The Workplace Banking Communications Vault* featuring:
+       - Model 5.1: Internal Branch Incident Memo (ATM Skimming & Operational Risk Mitigation).
+       - Model 5.2: Operational Escalation Email to Central Processing Centre (CPC) for Home Loan KYC SLA breach.
+       - Model 5.3: Customer-Facing Explanatory Email on Inward Remittance statutory TCS deductions under LRS.
+     - Added Workplace Correspondence classification matrix and recall flashcards.
+  3. **Chapter 14 & Rev Matrix 14 (Descriptive Essay Blueprints & Evidential Muscle)**:
+     - Formulated *The F.A.C.T.S. Thematic Value-Addition Arsenal* supplying empirical, institutional, and judicial evidence across 4 high-yield domains: (1) Banking, FinTech & Digital Public Infrastructure, (2) Macroeconomic Stability & Fiscal Federalism, (3) Agrarian Transformation & Rural Credit, (4) Technology, Artificial Intelligence & ESG/Climate Transition.
+     - Added F.A.C.T.S. Evidential Layer Matrix and active recall diagnostic flashcards.
+* **Verification & Audit**:
+  - TypeScript compilation: 0 errors (`npx tsc --noEmit`).
+  - Next.js static site export verified clean.
+
 ### [RELEASED] v013 — English Language & Descriptive Writing Master Codex (The Black Book of English Vocabulary + Vocab Prodigy Sovereign Synthesis)
 * **Release Date**: 2026-10-03
 * **Status**: Deployed to GitHub Remote Repository (All 9 Parts, 21 Chapters, 21 Rapid Revision Matrices, Cover, Table of Contents, and UI Service Integration Complete; 0 Errors in TypeScript Compilation)

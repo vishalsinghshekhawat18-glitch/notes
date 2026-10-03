@@ -168,6 +168,64 @@ Understanding how question-setters manufacture wrong options allows you to elimi
 
 ## 5. The 60-Second Objective Discourse Memory Skeleton
 
+---
+
+## 5. The Modern IBPS PO Subjective Reading Comprehension Protocol (10-Mark Format)
+
+In modern banking examinations (specifically the IBPS PO Mains 25-mark descriptive paper), the test is frequently partitioned into an **Essay (15 Marks)** and a **Subjective Reading Comprehension exercise (10 Marks)** consisting of two analytical questions carrying 5 marks each.
+
+Unlike objective CSAT or preliminary RC questions, candidates must **type original, coherent answers of 35 to 50 words** in their own words.
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│          SUBJECTIVE RC ANSWER ARCHITECTURE (35–50 WORDS)    │
+├─────────────────────────────────────────────────────────────┤
+│ Sentence 1: Direct Affirmative Proposition (The Core Claim) │
+│ Sentence 2: Textual Mechanism / Causal Explanation          │
+│ Sentence 3: Institutional Impact / Regulatory Corollary     │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 5.1 Inviolable Subjective RC Evaluation Rules
+1. **The Zero-Verbatim Mandate**: Copying even a single full sentence directly from the reading passage triggers an automatic **zero mark** for that question. Evaluators demand syntactic reformulation and lexical substitution.
+2. **Strict Word Bounds (35 to 50 Words)**: Writing under 30 words is penalized for superficiality; exceeding 55 words is penalized for lack of conciseness.
+3. **No External Information**: Answers must be strictly derived from the author’s provided text, even if real-world policy facts diverge.
+
+---
+
+### 5.2 Dissected Subjective RC Walkthroughs
+
+#### Walkthrough 1: FinTech, RegTech & Algorithmic Underwriting
+
+**Passage Excerpt**:
+> The rapid acceleration of non-bank financial technology platforms has transformed consumer credit origination from a relationship-driven underwriting process into an automated algorithmic extraction. By scraping unstructured smartphone metadata—including geolocation patterns, contact directories, and social media behavioral cues—fintech entities extend instant collateral-free micro-credit to historically unbanked cohorts. However, the reliance on proprietary, black-box artificial intelligence models introduces severe opacity. Traditional prudential supervisory frameworks, engineered around audited historical balance sheets and standardized credit bureau scores, lack the forensic capabilities to audit real-time algorithmic decision trees. Consequently, regulatory bodies face persistent blind spots regarding predatory annual percentage rates, systemic risk correlation, and algorithmic discrimination.
+
+* **Question (5 Marks)**: *According to the passage, why do traditional prudential frameworks struggle to supervise algorithmic micro-lending platforms effectively?*
+* **Target Word Budget**: 35–50 words.
+* **❌ Amateur Copied Response (Score: 0/5)**:  
+  *"Traditional prudential supervisory frameworks struggle because they were engineered around audited balance sheets and standardized credit bureau scores, and so they lack forensic capabilities to audit real-time algorithmic decision trees."*  
+  *(Fatal Flaw: 85% verbatim copy from the passage text).*
+* **✅ Master Codex Response (Score: 5/5)**:  
+  *"Traditional supervisory mechanisms are structurally misaligned with algorithmic lending because they rely on conventional balance-sheet metrics and credit scores. Consequently, regulatory bodies lack the forensic technological tools required to decipher opaque, black-box algorithms, creating acute supervisory blind spots regarding systemic risk and exploitative consumer practices."* (44 words)
+  * *Diagnostic Strengths*: 100% non-verbatim reformulation; precisely identifies the causal mismatch (balance sheets vs. black-box code); captures the regulatory consequence; perfectly fits the 44-word budget.
+
+---
+
+#### Walkthrough 2: Sovereign Green Bonds & Liquidity Premium
+
+**Passage Excerpt**:
+> To finance climate mitigation infrastructure without worsening sovereign debt sustainability, emerging economies have increasingly turned to sovereign green bonds (SGrBs). These debt instruments are specifically earmarked for verified renewable energy, public transport decarbonization, and afforestation initiatives. However, the issuance of sovereign green bonds confronts an inherent pricing friction known as the "greenium"—the pricing concession or lower yield that environmentally conscious institutional investors are willing to accept in exchange for certified green assets. In nascent capital markets, if the greenium is excessively compressed or wiped out by illiquid secondary trading, foreign institutional investors revert to conventional, highly liquid sovereign debt. Ensuring sustained capital mobilization therefore requires establishing secondary market liquidity and transparent reporting frameworks.
+
+* **Question (5 Marks)**: *What systemic challenge determines whether institutional investors choose sovereign green bonds over conventional debt?*
+* **Target Word Budget**: 35–50 words.
+* **✅ Master Codex Response (Score: 5/5)**:  
+  *"Institutional investor participation in sovereign green bonds depends fundamentally on the presence of a viable yield concession ('greenium') and secondary market liquidity. If trading remains illiquid and the pricing premium diminishes, institutional capital readily retreats toward conventional, highly liquid sovereign debt instruments."* (41 words)
+  * *Diagnostic Strengths*: Directly answers the prompt; captures the twin conditions (greenium + secondary liquidity); flawless syntactic economy.
+
+---
+
+## 6. The 60-Second Objective Discourse Memory Skeleton
+
 ```text
 Para-Jumbles: Never open with pronouns / dependent conjunctions (These, Such, He, However) 
 ➔ Find Sovereign Starter (Proper noun / universal thesis) 
@@ -177,12 +235,13 @@ Para-Jumbles: Never open with pronouns / dependent conjunctions (These, Such, He
 ➔ Verify Collocations (wreak havoc, pay heed, incur losses, lodge complaint) 
 ➔ Reading Comprehension: Skim paragraph skeletons (first/last lines) ➔ Read Question Stems 
 ➔ Beware the Four Distractors: Extreme Words (always/never), Out-of-Scope, Inverted Causality, Half-Truths 
-➔ Tone Recognition: Analytical (neutral/data) vs. Critical (censorious) vs. Sardonic (caustic) vs. Sanguine (optimistic)
+➔ Modern Subjective RC (IBPS PO): 35–50 words per question ➔ 100% Non-Verbatim 
+➔ Formula: Core Affirmation (Sentence 1) + Causal Mechanism (Sentence 2) + Regulatory Consequence (Sentence 3).
 ```
 
 ---
 
-## 6. Active Recall Diagnostic Flashcards
+## 7. Active Recall Diagnostic Flashcards
 
 #### Card 1
 * **Diagnostic Sentence**: *Which sentence cannot be the opening of a coherent paragraph: (A) "Financial inclusion in rural banking has expanded significantly." or (B) "Such institutional interventions have, however, failed to eliminate informal usury."?*
@@ -193,5 +252,10 @@ Para-Jumbles: Never open with pronouns / dependent conjunctions (These, Such, He
 * **Answer**: **(B) Initiate**. In formal administrative register, one *initiates*, *launches*, or *institutes* an investigation; *make* and *build* are improper colloquial collocations.
 
 #### Card 3
+* **Diagnostic Sentence**: *In an IBPS PO Subjective RC answer, a candidate writes 72 words summarizing the whole passage. What will the evaluator do?*
+* **Answer**: The evaluator will penalize the response for exceeding the strict word budget (target: 35–50 words) and for failing to directly answer the specific question asked, resulting in a deduction of 2 to 3 marks out of 5.
+
+#### Card 4
 * **Diagnostic Sentence**: *An author writes: "While the fiscal stimulus temporarily stabilized headline consumption, it fundamentally failed to address the deep structural bottlenecks hobbling capital formation." What is the author's primary tone?*
 * **Answer**: **Critical / Analytical**. The author acknowledges a minor short-term benefit (*"temporarily stabilized"*) but delivers a sharp, reasoned critique of the underlying policy failure (*"fundamentally failed to address deep structural bottlenecks"*).
+

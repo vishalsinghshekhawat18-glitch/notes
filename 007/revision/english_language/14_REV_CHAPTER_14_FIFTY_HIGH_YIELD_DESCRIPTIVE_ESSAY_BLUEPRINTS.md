@@ -27,6 +27,16 @@
 | **Technology & Cyber** | NITI Aayog National AI Strategy, BN Srikrishna Report, CERT-In | Digital Public Infrastructure (DPI), Algorithmic Bias, Data Sovereignty |
 | **Macro & Trade** | NK Singh FRBM Committee, Economic Survey, WTO Trade Reports | Crowding-out Effect, Gross Capital Formation (GCF), Current Account Deficit |
 
+### Matrix C: The F.A.C.T.S. Evidential Layer Matrix
+
+| Layer | Component | Function in PEEL Paragraph | Master Banking & Macro Exemplar |
+| :--- | :--- | :--- | :--- |
+| **F** | **Frameworks** | Explains theoretical mechanics / causality. | *Basel III Capital Accord / Mundell-Fleming Trilemma* |
+| **A** | **Authorities** | Authoritative statutory or global regulator. | *Reserve Bank of India (RBI) / BIS / NGFS* |
+| **C** | **Committees** | Credible landmark investigative report. | *PJ Nayak Committee / Ashok Dalwai Committee (DFI)* |
+| **T** | **Trends** | Quantitative / empirical trajectory benchmark. | *Gross NPAs < 3% / Monthly UPI Volume > 14 Billion* |
+| **S** | **Statutes** | Enforceable parliamentary act / constitution. | *Banking Regulation Act 1949 (Sec 35) / IBC 2016* |
+
 ---
 
 ## 2. 60-Second Retrieval Skeleton
@@ -37,6 +47,7 @@ Quad-Paragraph Structure: 300-350 words ➔ Strict Word Budget Discipline
 ➔ Para 2: Positive Drivers & Institutional Proof (RBI / Survey / NITI / Dalwai Committee) 
 ➔ Para 3: Structural Bottlenecks, Trade-offs & Regulatory Blind Spots 
 ➔ Para 4: Circular Callback (Echo Para 1 motif ➔ Synthesize forward policy horizon) 
+➔ F.A.C.T.S. Arsenal: Frameworks [F] + Authorities [A] + Committees [C] + Trends [T] + Statutes [S] 
 ➔ Always use double-enter paragraph breaks for TCS iON scannability ➔ 0 personal pronouns (no "I think").
 ```
 
@@ -51,3 +62,7 @@ Quad-Paragraph Structure: 300-350 words ➔ Strict Word Budget Discipline
 #### Card 2
 * **Diagnostic Question**: *How does a candidate maintain neutrality in an essay discussing the privatization of public sector banks?*
 * **Answer**: By presenting the efficiency, capitalization, and fiscal dividend arguments for privatization in Paragraph 2, followed immediately in Paragraph 3 by the critical social banking, rural financial inclusion, and priority sector lending obligations fulfilled by public sector banks.
+
+#### Card 3
+* **Diagnostic Question**: *In the F.A.C.T.S. framework for descriptive essays, why is pairing an Authority [A] with a Statute [S] highly scored?*
+* **Answer**: It grounds the argument in constitutional and statutory legitimacy (e.g. citing the *Reserve Bank of India [A]* acting under *Section 35 of the Banking Regulation Act, 1949 [S]*), demonstrating that the candidate understands executive power and rule-of-law constraints.

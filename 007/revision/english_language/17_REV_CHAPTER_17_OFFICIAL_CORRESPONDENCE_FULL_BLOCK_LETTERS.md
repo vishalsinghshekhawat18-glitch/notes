@@ -32,6 +32,15 @@
 | **Adverbial Casing** | *Yours faithfully* (lowercase 'f') | *Yours Faithfully* ❌ (Incorrect capitalization). |
 | **Paragraph Break** | Single blank line (Double Enter) | Tab indents ❌ (Violates modern block rules). |
 
+### Matrix C: Workplace Banking & Operational Formats Matrix
+
+| Communication Type | Primary Audience | Key Structural Requirement | Fatal Trap to Avoid |
+| :--- | :--- | :--- | :--- |
+| **Ombudsman Escalation** | RBI CRPC / Ombudsman | Must state 30-day branch waiting period & cite RB-IOS 2021. | Approaching Ombudsman before filing branch complaint. |
+| **Internal Branch Memo** | Regional Manager / Dept Head | Header block (`TO`, `FROM`, `REF NO`) + numbered action steps. | Including postal address lines or "Yours faithfully". |
+| **Operational Email** | CPC / Operations Team | Direct subject line (`URGENT: SLA Breach`) + business impact. | Vague casual requests without customer file/ticket IDs. |
+| **Customer Clarification** | Retail / Corporate Client | Transparent breakdown of charges + citation of statutory rules. | Defensive argument without citing schedule of fees. |
+
 ---
 
 ## 2. 60-Second Retrieval Skeleton
@@ -42,8 +51,9 @@ Full-Block Standard: 100% Left Margin Aligned (0 Tab Indents, 0 Right-alignments
 ➔ Subject: Concise (6-10 words, highlighted, between address and salutation) 
 ➔ Formal Salutation: Sir / Madam ➔ Close: Yours faithfully (Yours has NO apostrophe, lowercase f) 
 ➔ If recipient is named (Dear Mr. Sen): Close with Yours sincerely 
-➔ Informal: Omit recipient address & subject line ➔ Dear [Name] ➔ Yours affectionately 
-➔ Tri-Paragraph Formal Body: Para 1 (Purpose & A/C ID) ➔ Para 2 (Facts & Breach) ➔ Para 3 (Action & Deadline).
+➔ Ombudsman Letter (RB-IOS 2021): State date of branch complaint + Cite 30-day non-resolution condition 
+➔ Internal Memo: Header Block (TO, FROM, DATE, REF NO, SUBJECT) ➔ Numbered operational clauses 
+➔ Email Architecture: Header (To, Cc, Date, Subject) ➔ Direct claim ➔ Business loss ➔ 24h deadline.
 ```
 
 ---
@@ -59,5 +69,9 @@ Full-Block Standard: 100% Left Margin Aligned (0 Tab Indents, 0 Right-alignments
 * **Answer**: The specific **Bank Account Number** and the **exact nature/date of the grievance or unauthorized transaction**.
 
 #### Card 3
-* **Diagnostic Question**: *What is the penalty for writing "Thanking you" before "Yours faithfully"?*
-* **Answer**: *"Thanking you"* is a grammatically incomplete hanging participial phrase. Examiners flag it as outdated writing; the letter should transition directly from the final body paragraph to the complimentary close.
+* **Diagnostic Question**: *Under the Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS 2021), what condition must be met before filing an ombudsman complaint?*
+* **Answer**: The complainant must have first submitted a formal representation to the bank's internal grievance redressal mechanism, and either **thirty days have elapsed without a response**, or the bank has rejected the complaint, or the customer is dissatisfied with the reply.
+
+#### Card 4
+* **Diagnostic Question**: *How does an internal bank memorandum differ from a customer-facing letter?*
+* **Answer**: An internal memo uses an administrative header block (`TO`, `FROM`, `DATE`, `REF NO`, `SUBJECT`), omits postal addresses and personal sign-offs (`Yours faithfully`), and divides the content into numbered operational and analytical sections.

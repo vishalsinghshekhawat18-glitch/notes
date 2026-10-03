@@ -27,6 +27,14 @@
 | **Reversal Trap** | Reverses the subject and object or inverts cause and effect. | Text says *A led to B*; option states *B triggered A*. | **ELIMINATE**. |
 | **Half-Truth Trap** | First half repeats text accurately; second half adds unsubstantiated claim. | Scrutinize the final 4-5 words of the option. | **ELIMINATE**. |
 
+### Matrix C: Subjective RC (IBPS PO 10M Split) Answer Formula
+
+| Answer Layer | Required Focus | Word Budget | Critical Examiner Penalty |
+| :--- | :--- | :--- | :--- |
+| **Sentence 1: Direct Claim** | Assertive answer to question stem. | 12–16 words | Copying words verbatim from passage. |
+| **Sentence 2: Textual Mechanism** | Explain WHY/HOW according to author. | 16–22 words | Adding external real-world facts not in text. |
+| **Sentence 3: Impact/Corollary** | Regulatory or systemic conclusion. | 10–14 words | Exceeding 55-word ceiling or under 30 words. |
+
 ---
 
 ## 2. 60-Second Retrieval Skeleton
@@ -39,7 +47,8 @@ Para-Jumbles: Scan for Independent Topic Sentence (No pronouns, no contrast adve
 ➔ Check Lexical Collocations (wreak havoc, pay heed, lodge protest, execute agreement) 
 ➔ Reading Comprehension: Skim paragraph skeletons (Sentence 1 + Sentence Last) ➔ Read Questions 
 ➔ Distractor Traps: Absolute words (always/never) = Toxic | Out-of-scope truths = Invalid 
-➔ Tone Recognition: Analytical (empirical) vs. Critical (censorious) vs. Sardonic (acerbic) vs. Didactic (pedagogical)
+➔ Modern Subjective RC (IBPS PO): 35–50 words per question ➔ 100% Non-Verbatim 
+➔ Formula: Core Claim (S1) + Causal Mechanism (S2) + Consequence (S3).
 ```
 
 ---
@@ -57,3 +66,7 @@ Para-Jumbles: Scan for Independent Topic Sentence (No pronouns, no contrast adve
 #### Card 3
 * **Diagnostic Question**: *In a Cloze Test, the sentence reads: "The regulatory commission refused to ______ to industry pressure." Options: (A) accept, (B) succumb, (C) agree, (D) conform.*
 * **Answer**: **(B) Succumb**. The verb *succumb* takes the fixed preposition *to* in the sense of yielding or submitting under force/pressure. While *agree* also takes *to*, *agree to pressure* is idiomatic nonsense (*agree to a proposal*, but *yield/succumb to pressure*).
+
+#### Card 4
+* **Diagnostic Question**: *In the IBPS PO 10-mark Subjective RC section, what happens if an answer copies key clauses directly from the passage text?*
+* **Answer**: The candidate receives an automatic **zero mark** for that question. Examiners test the candidate's active vocabulary and syntactic paraphrasing ability, demanding complete non-verbatim reformulation.

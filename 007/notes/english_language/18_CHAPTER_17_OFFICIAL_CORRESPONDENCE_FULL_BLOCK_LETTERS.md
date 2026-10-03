@@ -214,20 +214,142 @@ Rohit
 
 ---
 
-## 5. The 60-Second Letter Writing Memory Skeleton
+### Model 4: To Banking Ombudsman under RB-IOS 2021 (Statutory Escalation Lens)
+
+```text
+House No. 112, Sector 9
+Malviya Nagar, Jaipur 302017
+
+October 14, 2026
+
+The Banking Ombudsman
+Reserve Bank of India
+Centralized Receipt and Processing Centre (CRPC)
+4th Floor, Sector 17, Chandigarh 160017
+
+Subject: Complaint under Reserve Bank - Integrated Ombudsman Scheme, 2021 regarding Unresolved Failed UPI Debit and Non-Payment of Auto-Reversal Compensation (Ref: SBI/GR/2026/89402)
+
+Sir
+
+I am formally lodging a complaint under Section 11 of the Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS 2021) against State Bank of India, Commercial Branch, Jaipur, for failure to resolve a failed digital transaction and refusal to credit statutory auto-reversal compensation.
+
+On August 20, 2026, an amount of Rs 25,000 was debited from my savings account (A/C No. 20491827401) during a failed Unified Payments Interface (UPI) transaction to merchant "TechEquip India". Despite the immediate generation of a transaction failure notification, the debited amount was not reversed within the mandated T+1 business day window. I lodged a formal grievance with the branch manager on August 22, 2026 (Ticket Ref: SBI/GR/2026/89402). More than thirty calendar days have elapsed without resolution or written response, fulfilling the jurisdictional prerequisite under Clause 10(1) of the Scheme. Furthermore, the bank has failed to credit the statutory compensation of Rs 100 per day of delay mandated under RBI Circular DPSS.CO.PD No.629/02.01.014/2019-20.
+
+I therefore petition the Banking Ombudsman to direct the respondent bank to immediately refund the principal amount of Rs 25,000, along with statutory delay compensation accrued to date, and award appropriate token costs for administrative harassment.
+
+Yours faithfully
+
+[Signature]
+
+Devendra Singh Rathore
+Contact: +91 94140 XXXXX
+```
+
+---
+
+## 5. The Workplace Banking Communications Vault (Internal Memos & Operational Emails)
+
+In contemporary SBI PO, IBPS PO, and RBI Grade B recruitment, examiners frequently require candidates to draft internal operational communications—such as **Internal Incident Memos**, **Inter-Departmental Escalation Emails**, and **Customer Clarification Notices**.
+
+### 5.1 Model Internal Branch Incident Memo (Operational Risk Lens)
+
+```text
+MEMORANDUM
+
+TO:           The Regional Manager, Regional Business Office, State Bank of India, Jaipur Rural
+FROM:         Branch Manager, Chomu Industrial Area Branch (Code: 04921)
+DATE:         October 14, 2026
+REF NO:       SBI/CIA/OPS-RISK/2026/04
+SUBJECT:      Urgent Incident Report: Detection of ATM Skimming Device and Immediate Mitigation Actions
+
+1. INCIDENT OVERVIEW
+During the mandatory daily morning physical inspection on October 14, 2026, at 08:30 hours, our branch ATM custodian detected an external skimming overlay and a pinhole micro-camera fitted onto the card reader slot of on-site ATM-01 (Machine ID: S1NA004921).
+
+2. IMMEDIATE CONTAINMENT ACTIONS EXECUTED
+• The ATM unit was immediately shut down and disconnected from the regional switch at 08:35 hours to prevent further compromised sessions.
+• Preliminary electronic audit logs indicate that eighteen customer transactions were processed between 20:00 hours on October 13 and 08:30 hours on October 14.
+• A preventive temporary block was placed on all eighteen customer debit cards through the Centralized Card Management System (CCMS) at 09:10 hours to preclude fraudulent cloning withdrawals.
+• CCTV footage covering the ATM lobby was extracted and preserved for forensic handover to the local Cyber Police Station.
+
+3. RECOMMENDATIONS & NEXT STEPS
+It is recommended that the Regional Office dispatch the empanelled vendor engineering team for forensic hardware audit and authorize the urgent issuance of free replacement EMV-chip cards for the eighteen impacted account holders.
+
+[Signature]
+
+Pradeep Sharma
+Branch Manager
+```
+
+---
+
+### 5.2 Model Operational Escalation Email to Central Processing Centre (CPC)
+
+```text
+To:           head.homeloans.cpc@bank.co.in
+Cc:           agm.retailcredit.ro@bank.co.in
+From:         bm.manchesternagar@bank.co.in
+Date:         October 14, 2026
+Subject:      URGENT: Escalation of KYC Verification SLA Breach — Stalled High-Value Home Loan Files (Branch Code: 2184)
+
+Dear Sir / Madam
+
+I am writing to formally escalate an operational bottleneck at the Central Processing Centre (CPC) regarding seven high-value retail home loan applications (aggregate loan volume: Rs 6.8 Crore) submitted by this branch between October 1 and October 4, 2026.
+
+Under our retail credit Service Level Agreement (SLA), Centralized KYC (CKYC) verification and automated digital title vetting must be completed within forty-eight hours of file dispatch. However, all seven files have remained stuck at the "Document Ingestion / CKYC Match" queue for over nine business days without any query or rejection notation. Four of these applicants are premier corporate payroll clients who have now served formal notices threatening to cancel their purchase agreements and migrate their mortgages to private commercial competitors due to this processing delay.
+
+Given the significant revenue implications and the risk to our branch retail credit targets, I request your personal intervention to expedite the clearing of these files within the next twenty-four hours.
+
+Warm regards
+
+Rajeev Nambiar
+Chief Manager, Retail Banking
+State Bank of India, Manchester Nagar Branch
+```
+
+---
+
+### 5.3 Model Customer-Facing Explanatory Email (Forex & Fee Transparency)
+
+```text
+To:           sunil.kapoor@globalexport.com
+From:         forex.support@nationalbank.co.in
+Date:         October 14, 2026
+Subject:      Clarification Regarding Inward Remittance Processing & Statutory TCS Deductions (Ref: TT-2026-94821)
+
+Dear Mr. Kapoor
+
+We write with reference to your email dated October 12, 2026, requesting clarification regarding the statutory deductions applied to your inward foreign outward remittance under the Liberalized Remittance Scheme (LRS).
+
+We wish to clarify that the total deductions of Rs 42,500 comprised two distinct components: (1) Standard correspondent bank handling charges of Rs 1,500 as per our published Schedule of Service Charges, and (2) Tax Collected at Source (TCS) of Rs 41,000 levied at the statutory rate of 20% on amounts exceeding the threshold of Rs 7 Lakhs, strictly in compliance with Section 206C(1G) of the Income Tax Act, 1961.
+
+Please be assured that the TCS amount has been remitted to the Income Tax Department and is fully reflected against your Permanent Account Number (PAN) in your Form 26AS / Annual Information Statement (AIS), making it eligible for credit or tax refund during your annual income tax assessment.
+
+Should you require any further documentation, our dedicated Forex Desk remains at your disposal.
+
+Yours sincerely
+
+Kavita Krishnan
+Manager, International Banking Division
+```
+
+---
+
+## 6. The 60-Second Letter & Memo Memory Skeleton
 
 ```text
 Full-Block Architecture: Flush Left Everything (No tab indents, no right alignment) 
 ➔ Date Format: October 14, 2026 (Month spelled out, 0 ordinals like 'th') 
 ➔ Subject Line: 6–10 words, bold/underlined, between address and salutation 
 ➔ Salutation / Close: Sir / Madam ➔ Yours faithfully (NO apostrophe in Yours, lowercase f) 
-➔ Tri-Paragraph Formal Body: Para 1 (Purpose & Account ID) ➔ Para 2 (Facts & Statutory breach) ➔ Para 3 (Demand & Deadline) 
-➔ Informal: Dear [Name] ➔ Yours affectionately ➔ Warm, mentoring tone.
+➔ If recipient is named (Dear Mr. Sen): Close with Yours sincerely 
+➔ Ombudsman Letter (RB-IOS 2021): State date of branch complaint + Cite 30-day non-resolution condition 
+➔ Internal Memo: Header Block (TO, FROM, DATE, REF NO, SUBJECT) ➔ Numbered operational sections 
+➔ Email Architecture: Header (To, Cc, Date, Subject) ➔ Concise purpose ➔ Business impact ➔ Clear call to action.
 ```
 
 ---
 
-## 6. Active Recall Diagnostic Flashcards
+## 7. Active Recall Diagnostic Flashcards
 
 #### Card 1
 * **Diagnostic Sentence**: *A candidate ends a formal letter to a municipal commissioner with: "Thanking you, Your's respectfully, Amit Sharma." Identify all errors.*
@@ -243,9 +365,13 @@ Full-Block Architecture: Flush Left Everything (No tab indents, no right alignme
      ```
 
 #### Card 2
-* **Diagnostic Question**: *In a formal letter, when should "Yours sincerely" be used instead of "Yours faithfully"?*
-* **Answer**: Use **Yours sincerely** when the letter is addressed to a **named individual** (e.g., *Dear Mr. Verma* or *Dear Dr. Sen*). Use **Yours faithfully** when the letter is addressed to an **unnamed designation** (e.g., *Dear Sir / Madam* or *Sir*).
+* **Diagnostic Question**: *In an escalation complaint to the Banking Ombudsman, what statutory condition must be explicitly stated in the letter?*
+* **Answer**: The complainant must state that a formal grievance was first lodged with the regulated entity (bank) and that either **thirty days have elapsed without resolution**, or the bank has rejected the complaint, or the customer is dissatisfied with the reply.
 
 #### Card 3
+* **Diagnostic Question**: *How does an internal bank memorandum differ structurally from a formal letter?*
+* **Answer**: A memorandum uses an administrative header block (`TO`, `FROM`, `DATE`, `REF NO`, `SUBJECT`), omits personal postal addresses and complimentary closes (`Yours faithfully`), and divides findings into structured, numbered operational clauses.
+
+#### Card 4
 * **Diagnostic Question**: *Under the modern Full-Block format, what separates paragraphs?*
 * **Answer**: A single blank line (double Enter) separates paragraphs. Paragraphs must never be indented from the left margin.

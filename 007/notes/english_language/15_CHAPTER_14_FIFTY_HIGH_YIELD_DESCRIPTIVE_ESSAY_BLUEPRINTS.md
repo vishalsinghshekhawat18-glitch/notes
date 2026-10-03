@@ -203,7 +203,31 @@ the horizons of human potential rather than hollowing out the foundations of civ
 
 ---
 
-## 4. The 60-Second Essay Blueprint Memory Skeleton
+## 4. The F.A.C.T.S. Thematic Value-Addition Arsenal
+
+To transition an essay from a generic passing grade (18/40) into the top 5th percentile (34+/40), candidates must weave **verifiable, authoritative institutional anchors** into their PEEL explanations.
+
+The **F.A.C.T.S. Framework** provides a high-speed mental repository categorized into five distinct evidential layers:
+* **F — Frameworks & Theoretical Models**: Economic/governance principles explaining causality.
+* **A — Authorities & International Bodies**: Credible statutory and multilateral regulators.
+* **C — Committees & Seminal Reports**: High-level judicial, parliamentary, and apex committees.
+* **T — Trends & Macroeconomic Invariants**: Empirical trajectory benchmarks and metrics.
+* **S — Statutes & Constitutional Articles**: Enforceable legislative Acts and bare constitutional provisions.
+
+---
+
+### Master F.A.C.T.S. Matrix across Core Domains
+
+| Thematic Domain | Frameworks & Theories [F] | Authorities & Bodies [A] | Committees & Reports [C] | Trends & Benchmarks [T] | Statutes & Acts [S] |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Banking, Credit & FinTech** | • Basel III Capital Accords<br>• Scale-Based Regulation (SBR)<br>• Frictionless Credit Transmission | • Reserve Bank of India (RBI)<br>• Bank for International Settlements (BIS)<br>• Financial Stability Board (FSB) | • Narasimham Committee I & II<br>• PJ Nayak Committee (Governance)<br>• RBI Digital Lending Report (2021) | • Gross NPAs descending to decadal lows (<3%)<br>• CASA ratio compression<br>• Monthly UPI volume crossing 14B+ | • Banking Regulation Act, 1949 (Sec 35)<br>• Insolvency and Bankruptcy Code (IBC 2016)<br>• RB-IOS 2021 |
+| **Macro, Trade & Fiscal Policy** | • The Mundell-Fleming Trilemma<br>• Crowding-Out Effect<br>• Fiscal Multiplier on CapEx | • Ministry of Finance<br>• International Monetary Fund (IMF)<br>• World Trade Organization (WTO) | • NK Singh FRBM Review Committee<br>• Fifteenth Finance Commission<br>• Economic Survey (Macro Horizon) | • Gross Tax-to-GDP ratio hovering ~11.5%<br>• Current Account Deficit within 1.5% of GDP<br>• Foreign Exchange Reserves buffer | • FRBM Act, 2003 (Amended Glide Path)<br>• Article 280 (Finance Commission)<br>• Foreign Trade Policy (FTP 2023) |
+| **Agrarian & Rural Economy** | • Aggregation Economy Model<br>• Cobweb Agricultural Price Cycle<br>• Priority Sector Lending (PSL) | • NABARD<br>• Small Farmers' Agribusiness Consortium (SFAC)<br>• Food Corporation of India (FCI) | • Ashok Dalwai Committee (DFI)<br>• MS Swaminathan Commission (C2+50%)<br>• Mihir Shah Committee (Water) | • Small & marginal farmers comprise 86.2%<br>• Post-harvest losses in perishables (15–20%)<br>• 10,000 FPOs establishment targets | • PM-KISAN Operational Guidelines<br>• Multi-State Cooperative Societies Act<br>• Model APMC / e-NAM Guidelines |
+| **Tech, AI & Climate ESG** | • Algorithmic Bias & Opacity<br>• The "Greenium" Pricing Model<br>• Just Transition Framework | • NITI Aayog (#AIforAll)<br>• CERT-In (Cyber Defense)<br>• NGFS (Greening Financial System) | • BN Srikrishna Committee (Data)<br>• SEBI Kotak Committee (ESG Governance)<br>• COP28 UAE Consensus Declarations | • Clean energy capacity crossing 45% of total<br>• Global cyber fraud surge in digital banking<br>• Synthetic deepfake identity theft threats | • Digital Personal Data Protection Act, 2023<br>• Information Technology Act, 2000 (Sec 43A)<br>• SEBI BRSR Core ESG Framework |
+
+---
+
+## 5. The 60-Second Essay Blueprint Memory Skeleton
 
 ```text
 Quad-Paragraph Rule: 300 to 350 words total ➔ 4 Paragraphs (50 + 85 + 85 + 50 words) 
@@ -211,12 +235,13 @@ Quad-Paragraph Rule: 300 to 350 words total ➔ 4 Paragraphs (50 + 85 + 85 + 50 
 ➔ Para 2 (PEEL 1): Positive Drivers, Operational Mechanics & Reports (RBI / Survey / NITI / Basel) 
 ➔ Para 3 (PEEL 2): Systemic Vulnerabilities, Structural Trade-offs, Implementation Gaps 
 ➔ Para 4 (Circular Callback): Echo opening motif ➔ Reconcile tension ➔ Forward policy catalyst 
+➔ F.A.C.T.S. Weaponization: Plug in 1 Framework, 1 Authority, 1 Committee, 1 Trend, 1 Statute per essay 
 ➔ Visual Hygiene: Double Enter between paragraphs ➔ 0 informal jargon ➔ Rhythmic cadence.
 ```
 
 ---
 
-## 5. Active Recall Diagnostic Flashcards
+## 6. Active Recall Diagnostic Flashcards
 
 #### Card 1
 * **Diagnostic Question**: *In an essay on "Privatization of Public Sector Banks", what empirical counter-argument must be included to balance the efficiency narrative?*
@@ -227,5 +252,10 @@ Quad-Paragraph Rule: 300 to 350 words total ➔ 4 Paragraphs (50 + 85 + 85 + 50 
 * **Answer**: Institutional citations signal authentic multidisciplinary scholarship, instill epistemic confidence in the examiner, and demonstrate that the candidate's arguments are grounded in audited statutory reality rather than personal speculation.
 
 #### Card 3
+* **Diagnostic Question**: *In an essay on Green Financing, what does the term "greenium" mean in the F.A.C.T.S. framework?*
+* **Answer**: The yield discount or pricing concession that investors accept when buying certified green bonds compared to conventional debt of the same issuer, lowering borrowing costs for sustainable projects.
+
+#### Card 4
 * **Diagnostic Question**: *What is the fatal flaw in an essay conclusion that simply says: "In conclusion, both sides have good points, and the government should take strict steps"?*
 * **Answer**: It is vacuous, intellectually lazy, and lacks an actionable policy synthesis. A high-scoring conclusion must specify *what* institutional mechanisms, regulatory guardrails, or structural reforms are needed to reconcile the opposing tensions.
+
