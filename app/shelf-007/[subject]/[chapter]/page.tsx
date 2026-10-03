@@ -7,6 +7,7 @@ import {
   getHistoryChapters,
   getQuantitativeAptitudeChapters,
   getGeneralScienceChapters,
+  getGeographyChapters,
   getShelf007ChapterContent,
 } from '@/lib/shelf007/service';
 import { Shelf007ContinuousReader } from '@/components/shelf007/shelf007-continuous-reader';
@@ -43,7 +44,11 @@ export async function generateStaticParams() {
     subject: 'general-science',
     chapter: c.slug,
   }));
-  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci];
+  const geo = getGeographyChapters().map((c) => ({
+    subject: 'geography',
+    chapter: c.slug,
+  }));
+  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo];
 }
 
 export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPageProps) {
@@ -55,13 +60,14 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
     subject !== 'political-science' &&
     subject !== 'history' &&
     subject !== 'quantitative-aptitude' &&
-    subject !== 'general-science'
+    subject !== 'general-science' &&
+    subject !== 'geography'
   ) {
     notFound();
   }
 
   const data = getShelf007ChapterContent(
-    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science',
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography',
     chapter
   );
   if (!data) {

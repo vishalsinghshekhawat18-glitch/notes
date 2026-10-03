@@ -16,26 +16,30 @@
 │   ├── political_science/← Constitutional texts, Laxmikanth, treatises, landmark rulings
 │   ├── quantitative_aptitude/ ← Standard math treatises, speed calculation manuals, CAT/Banking PYQs
 │   ├── history/          ← Ancient, Medieval, Modern, Rajasthan & World treatises/sources
-│   └── general_science/  ← NCERTs, standard physics/chemistry/biology treatises & coaching notes
+│   ├── general_science/  ← NCERTs, standard physics/chemistry/biology treatises & coaching notes
+│   └── geography/        ← Majid Husain, Shankar IAS, Savindra Singh, Rajasthan Board / Bhalla
 ├── notes/                ← Comprehensive Canonical Master Notes:
 │   ├── economics/        ← Complete 26-Chapter Master Economics & ESI Treatise
 │   ├── iibf_dbf/         ← 4-Paper Banking & Finance Master Curriculum
 │   ├── political_science/← Publication-grade Political Science & Governance Codex
 │   ├── quantitative_aptitude/ ← First-Principles Quantitative Aptitude & Mathematical Logic Treatise
 │   ├── history/          ← Unified History (Ancient, Medieval, Modern, Rajasthan, World)
-│   └── general_science/  ← Comprehensive General Science (Physics, Chemistry & Biology Unified)
+│   ├── general_science/  ← Comprehensive General Science (Physics, Chemistry & Biology Unified)
+│   └── geography/        ← Multi-Dimensional Sovereign Geography (India, World, Rajasthan, Physical, Human, Environment)
 ├── revision/             ← Rapid review materials:
 │   ├── economics/        ← 60-Second Recall Skeletons, Distinction Matrices, Trap Avoidance Sheets
 │   ├── iibf_dbf/         ← Formula vaults, legal charge matrices, solved case studies
 │   ├── political_science/← Constitutional article vaults, landmark case matrices, trap alerts
 │   ├── quantitative_aptitude/ ← 60-Second Formula Skeletons, Sign-Table Matrices, 50 Deadliest Traps
 │   ├── history/          ← Chronological timelines, dynastic matrices, trap alerts
-│   └── general_science/  ← 60-Second Retrieval Skeletons, Distinction Matrices, Scientific Traps
+│   ├── general_science/  ← 60-Second Retrieval Skeletons, Distinction Matrices, Scientific Traps
+│   └── geography/        ← 60-Second Spatial Profiles, Comparative Matrices, 50 Deadliest Traps
 ├── question_bank/        ← Diagnostic question banks & elimination drills:
 │   ├── political_science/← 1,520-MCQ Objective Polity Diagnostic Engine
 │   ├── quantitative_aptitude/ ← Multi-Tier Diagnostic Problem Vaults & Speed Drills
 │   ├── history/          ← UPSC, RPSC RAS, APFC PYQ Drills & Historical Autopsies
-│   └── general_science/  ← Multi-Exam Diagnostic PYQ & MCQ Elimination Vault
+│   ├── general_science/  ← Multi-Exam Diagnostic PYQ & MCQ Elimination Vault
+│   └── geography/        ← Majid Husain & Multi-Exam Diagnostic PYQ / MCQ Elimination Engine
 ├── skills/               ← Operational skills, distillation frameworks, and pedagogical guidelines
 │   ├── book-distillation-framework.md
 │   ├── claude-style-writing.md
@@ -43,7 +47,8 @@
 │   ├── political-science-master-skill.md
 │   ├── quantitative-aptitude-master-skill.md
 │   ├── history-master-skill.md
-│   └── general-science-master-skill.md
+│   ├── general-science-master-skill.md
+│   └── geography-master-skill.md
 ├── VERSION_LEDGER.md     ← Sequential release ledger (v001, v002, v003, v004, v005...)
 └── README.md             ← Operating charter and index
 ```

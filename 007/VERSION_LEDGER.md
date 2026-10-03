@@ -17,6 +17,40 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [RELEASED] v012 — Geography Sovereign Master Architecture (India, World & Rajasthan — Physical, Human, Social & Environmental Combined)
+* **Release Date**: 2026-10-03
+* **Commit SHA**: `a00b8ca`
+* **Status**: Deployed to GitHub Remote Repository (All 9 Parts, 36 Chapters, 36 Rapid Revision Modules, Cover, TOC & Capstone Vault Complete with High-Yield Agricultural & Hydrological Cross-Pollination)
+* **Domain / Subject**: Comprehensive Geography Sovereign Architecture (UPSC CSE, RPSC RAS, APFC/EPFO, UGC-NET, State PSCs)
+* **Canonical Multi-Source Epistemic Fusion**:
+  - Prof. Majid Husain, *Objective Indian and World Geography: General Studies Paper 1* (McGraw Hill Education, 4th Edition, 906 pages)
+  - Shankar IAS Academy, *Environment & Ecology* (436 pages, definitive environmental & climate authority)
+  - Dr. Savindra Singh, *Physical Geography & Geomorphology*
+  - Dr. L.R. Bhalla & Rajasthan Hindi Granth Academy, *Geography of Rajasthan* (Comprehensive RPSC RAS Lens)
+  - NCERT Geography (Class XI *Fundamentals of Physical Geography*, *India: Physical Environment*; Class XII *Fundamentals of Human Geography*, *India: People & Economy*)
+  - Official Institutional Data: Geological Survey of India (GSI), IMD, Forest Survey of India (ISFR), Census of India, MoEFCC, IPCC Reports
+  - Vault Cross-Pollination (`07_Geography_Environment_Master.md` & `09_Agriculture_Rural_Development_Master.md`): Integrated Indian irrigation typology (Major $>10\text{k}$, Medium $2\text{k--}10\text{k}$, Minor $<2\text{k ha}$ commanding $65\text{--}70\%$ net irrigated area), the $\sim 24\text{ Mha}$ IPC-IPU structural gap, CADWM, Warabandi 168-hr scheduling, RPIMIS Act 2000 WUAs, Soil Health Card 12 statutory parameters (excluding Ca/Mg), NPK distortion ($8.2:3.2:1$), Watershed hierarchy (Micro $100\text{--}1\text{k}$, Mini $1\text{k--}10\text{k}$, Sub $10\text{k--}50\text{k}$, Macro $>50\text{k ha}$), Agroforestry (SMAF $2.5\text{--}3\text{ Gt } CO_2e$ sink), and Blue Economy fisheries metrics ($8,118\text{ km}$ coast, $2.02\text{M km}^2$ EEZ, Inland $75\%$ vs Marine $25\%$).
+* **Scope & Logical Part Divisions (36 Master Chapters Authored)**:
+  1. Part I: Physical Geomorphology & Earth Dynamics (Ch 01–05) [Notes 02–06 + Rev 01–05]
+  2. Part II: Climatology & Atmospheric Systems (Ch 06–10) [Notes 07–11 + Rev 06–10]
+  3. Part III: Oceanography & Marine Hydrology (Ch 11–14) [Notes 12–15 + Rev 11–14]
+  4. Part IV: Environmental Geography, Ecology & Biogeography (Ch 15–18) [Notes 16–19 + Rev 15–18]
+  5. Part V: World Regional, Economic & Strategic Geography (Ch 19–23) [Notes 20–24 + Rev 19–23]
+  6. Part VI: Geography of India — Physical, Drainage & Spatial Systems (Ch 24–28) [Notes 25–29 + Rev 24–28]
+  7. Part VII: Geography of Rajasthan (RPSC RAS Master Lens) (Ch 29–33) [Notes 30–34 + Rev 29–33]
+  8. Part VIII: Human, Social & Economic Geography Paradigms (Ch 34–35) [Notes 35–36 + Rev 34–35]
+  9. Part IX: Capstone Sovereign Synthesis & Master Revision Vault (Ch 36) [Note 37 + Rev 36]
+* **Epistemic Standards & Operating Skills Authored**:
+  - `007/skills/geography-master-skill.md`: Operational charter enforcing total replacement standard, first-principles geomorphic/atmospheric mechanics, balanced table architecture, zero KaTeX leakage in regular prose, and RPSC RAS regional depth.
+* **Front Matter & Capstone Authored (`007/notes/geography/` & `007/revision/geography/`)**:
+  - `00_COVER.md`: Sovereign codex cover with Epistemic Pledge and canonical fusion credits.
+  - `01_TABLE_OF_CONTENTS.md`: 36-chapter master curriculum blueprint organized into 9 thematic modules.
+  - `37_CHAPTER_36_GRAND_CAPSTONE_REVISION_VAULT.md`: 60-Second Retrieval Skeletons (Ch 01–35), 12 Grand Comparative Matrices, Top 55 Deadliest Geography Traps, and 55 Multi-Tier Master Active Recall Cards.
+  - `36_REV_CHAPTER_36_CAPSTONE_ACTIVE_RECALL.md`: Master Invariants, Grand Curricular Architecture Matrix, and 12 Capstone Killer Traps.
+* **Service & UI Integration**:
+  - Registered `geography` (`GEO-007`) in `lib/shelf007/service.ts`, `app/shelf-007/[subject]/page.tsx`, `app/shelf-007/[subject]/[chapter]/page.tsx`, and `components/shelf007/shelf007-continuous-reader.tsx`.
+* **Deployment Governance**: Staged locally in `007/`; strictly zero unprompted push to remote git without explicit user sign-off.
+
 ### [STAGED / IN PROGRESS] v011 — General Science Codex (Physics, Chemistry & Biology Unified)
 * **Status**: Fully Authored & Verified Locally in `007/` (All 4 Parts, 28 Chapters, 27 Revision Modules, Cover, TOC & Capstone Vault Complete)
 * **Domain / Subject**: General Science (Physics, Chemistry & Biology Unified for UPSC CSE, State PSCs, SSC CGL, CDS/NDA)

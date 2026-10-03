@@ -16,7 +16,7 @@ import { MarkdownContent } from '@/components/ui/markdown-content';
 import { FontSizeControl } from '@/components/learning/font-size-control';
 
 interface Shelf007ContinuousReaderProps {
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science';
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography';
   currentChapter: Shelf007ChapterItem;
   prevChapter: Shelf007ChapterItem | null;
   nextChapter: Shelf007ChapterItem | null;
@@ -46,7 +46,9 @@ export function Shelf007ContinuousReader({
       ? 'History: Ancient, Medieval, Modern, Rajasthan & World'
       : subject === 'quantitative-aptitude'
       ? 'Quantitative Aptitude & Mathematical Logic'
-      : 'General Science: Physics, Chemistry & Biology Unified';
+      : subject === 'general-science'
+      ? 'General Science: Physics, Chemistry & Biology Unified'
+      : 'Geography: India, World & Rajasthan Master Treatise';
 
   // Sync scroll position with active section index
   useEffect(() => {

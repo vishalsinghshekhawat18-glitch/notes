@@ -31,7 +31,7 @@ export interface Shelf007PartGroup {
 }
 
 export interface Shelf007SubjectMeta {
-  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science';
+  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography';
   name: string;
   badge: string;
   badgeColor: string;
@@ -286,7 +286,95 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         '50 Deadliest Traps & Capstone Vault (Part IV)',
       ],
     },
+    {
+      slug: 'geography',
+      name: 'Geography: India, World & Rajasthan (Physical, Human, Social & Environmental Master Architecture)',
+      badge: 'Majid Husain • Shankar IAS • Savindra Singh • Bhalla',
+      badgeColor: 'text-[#0f766e] bg-[#f0fdfa] border-[#99f6e4]',
+      code: 'GEO-007',
+      authors: 'Prof. Majid Husain • Shankar IAS Academy • Dr. Savindra Singh • Dr. L.R. Bhalla • NCERTs',
+      description:
+        'Sovereign 36-chapter doctoral-depth geographical codex integrating Geomorphology, Climatology, Oceanography, Environmental Ecology, World Regions & Strategic Chokepoints, Indian Morphotectonics & Monsoons, Rajasthan Regional Geography (RPSC RAS), Human Geographic Paradigms, and Capstone Revision Vault.',
+      totalChapters: getGeographyChapters().length,
+      totalWords: getGeographyChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Planetary Geomorphology & Plate Tectonics',
+        'Climatology, Pressure Belts & Cyclones',
+        'Oceanography, Currents & UNCLOS Zones',
+        'Environmental Ecology & Climate Accords',
+        'World Regions & Strategic Chokepoints',
+        'Indian Physiography, Monsoons & Soils',
+        'Rajasthan Geography (4 Divisions, IGNP, Minerals - RAS)',
+        'Human Geography & Demographic Models',
+        'Grand Capstone Revision Vault (Ch 36)',
+      ],
+    },
   ];
+}
+
+export function getGeographyChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'geography');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  return files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS')) {
+      slug = 'chapter-36';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 36: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 36;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of physical, human, regional and environmental geography, causal models, and high-yield examination matrices.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
 }
 
 export function getGeneralScienceChapters(): Shelf007ChapterItem[] {
@@ -722,7 +810,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
 }
 
 export function getShelf007PartGroups(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science'
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography'
 ): Shelf007PartGroup[] {
   if (subject === 'economics') {
     const allChapters = getEconomicsChapters();
@@ -1155,6 +1243,102 @@ export function getShelf007PartGroups(
     return result;
   }
 
+  if (subject === 'geography') {
+    const allChapters = getGeographyChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Curriculum Blueprint & Sovereign Synthesis Architecture',
+        groupSubtitle: 'Orientation, multi-author integration ledger, and 36-chapter master curriculum roadmap',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Physical Geomorphology & Earth Dynamics',
+        groupSubtitle: 'Planetary accretion, Earth interior, seismic discontinuities, continental drift, seafloor spreading, plate tectonics, endogenic/exogenic processes, and landforms',
+        slugs: ['chapter-01', 'chapter-02', 'chapter-03', 'chapter-04', 'chapter-05'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'Climatology & Atmospheric Systems',
+        groupSubtitle: 'Atmosphere composition, thermal stratification, insolation, heat budget, planetary pressure belts, Coriolis, tri-cellular circulation, moisture, cyclones, and Köppen classification',
+        slugs: ['chapter-06', 'chapter-07', 'chapter-08', 'chapter-09', 'chapter-10'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Oceanography & Marine Hydrology',
+        groupSubtitle: 'Bathymetric relief, ocean temperature, salinity, density stratification, planetary current gyres, ENSO/IOD, tides, coral reefs, and UNCLOS maritime zones',
+        slugs: ['chapter-11', 'chapter-12', 'chapter-13', 'chapter-14'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'Environmental Geography, Ecology & Biogeography',
+        groupSubtitle: 'Levels of ecological organization, trophic dynamics, bio-geochemical cycles, biodiversity hotspots, protected areas, pedogenesis/soils, climate change, and global conventions',
+        slugs: ['chapter-15', 'chapter-16', 'chapter-17', 'chapter-18'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'World Regional, Economic & Strategic Geography',
+        groupSubtitle: 'Global morphotectonics, major drainage basins, metallic/energy minerals, Whittlesey agricultural realms, and maritime chokepoints',
+        slugs: ['chapter-19', 'chapter-20', 'chapter-21', 'chapter-22', 'chapter-23'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'Geography of India: Physical, Drainage & Spatial Systems',
+        groupSubtitle: 'Morphotectonic divisions, Himalayas, Northern Plains, Peninsular Shield, drainage systems & river interlinking, monsoon dynamics, soils, and transport corridors',
+        slugs: ['chapter-24', 'chapter-25', 'chapter-26', 'chapter-27', 'chapter-28'],
+      },
+      {
+        partNumber: 'PART VII',
+        groupTitle: 'Geography of Rajasthan (RPSC RAS Master Lens)',
+        groupSubtitle: '4 physical divisions, Thar desert geomorphology, Aravalli ranges, drainage basins & lakes, IGNP & ERCP, agro-climate, scientific soils, and mineral wealth',
+        slugs: ['chapter-29', 'chapter-30', 'chapter-31', 'chapter-32', 'chapter-33'],
+      },
+      {
+        partNumber: 'PART VIII',
+        groupTitle: 'Human, Social & Economic Geography Paradigms',
+        groupSubtitle: 'Philosophical paradigms (determinism, possibilism, neo-determinism), demographic transition, migration models, urban settlements, and central place/spatial theories',
+        slugs: ['chapter-34', 'chapter-35'],
+      },
+      {
+        partNumber: 'PART IX',
+        groupTitle: 'The Capstone: Sovereign Synthesis & Master Revision Vault',
+        groupSubtitle: 'All-chapter 60-second retrieval skeletons, Grand Master Distinction Matrices, Top 50 Deadliest Geography Traps, and diagnostic active recall elimination drills',
+        slugs: ['chapter-36'],
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
   // IIBF DBF
   const allChapters = getIibfDbfChapters();
   const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -1224,7 +1408,7 @@ export function getShelf007PartGroups(
 }
 
 export function getShelf007ChapterContent(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science',
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography',
   chapterSlug: string
 ) {
   const chapters =
@@ -1238,7 +1422,9 @@ export function getShelf007ChapterContent(
       ? getHistoryChapters()
       : subject === 'quantitative-aptitude'
       ? getQuantitativeAptitudeChapters()
-      : getGeneralScienceChapters();
+      : subject === 'general-science'
+      ? getGeneralScienceChapters()
+      : getGeographyChapters();
   const currentIdx = chapters.findIndex((c) => c.slug === chapterSlug);
 
   if (currentIdx === -1) {

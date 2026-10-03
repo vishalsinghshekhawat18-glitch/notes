@@ -10,6 +10,7 @@ import {
   getHistoryChapters,
   getQuantitativeAptitudeChapters,
   getGeneralScienceChapters,
+  getGeographyChapters,
 } from '@/lib/shelf007/service';
 import { Shelf007AcademicTOC } from '@/components/shelf007/shelf007-academic-toc';
 
@@ -27,6 +28,7 @@ export async function generateStaticParams() {
     { subject: 'history' },
     { subject: 'quantitative-aptitude' },
     { subject: 'general-science' },
+    { subject: 'geography' },
   ];
 }
 
@@ -39,14 +41,17 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
     subject !== 'political-science' &&
     subject !== 'history' &&
     subject !== 'quantitative-aptitude' &&
-    subject !== 'general-science'
+    subject !== 'general-science' &&
+    subject !== 'geography'
   ) {
     notFound();
   }
 
   const subjects = getShelf007Subjects();
   const currentSubj = subjects.find((s) => s.slug === subject)!;
-  const partGroups = getShelf007PartGroups(subject);
+  const partGroups = getShelf007PartGroups(
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography'
+  );
   const chapters =
     subject === 'economics'
       ? getEconomicsChapters()
@@ -58,7 +63,9 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
       ? getHistoryChapters()
       : subject === 'quantitative-aptitude'
       ? getQuantitativeAptitudeChapters()
-      : getGeneralScienceChapters();
+      : subject === 'general-science'
+      ? getGeneralScienceChapters()
+      : getGeographyChapters();
 
   const firstReadSlug =
     chapters.find((c) => !['cover', 'table-of-contents', 'syllabus-blueprint'].includes(c.slug))?.slug ||
