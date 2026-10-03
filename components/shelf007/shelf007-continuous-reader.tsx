@@ -16,7 +16,7 @@ import { MarkdownContent } from '@/components/ui/markdown-content';
 import { FontSizeControl } from '@/components/learning/font-size-control';
 
 interface Shelf007ContinuousReaderProps {
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography';
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language';
   currentChapter: Shelf007ChapterItem;
   prevChapter: Shelf007ChapterItem | null;
   nextChapter: Shelf007ChapterItem | null;
@@ -36,7 +36,9 @@ export function Shelf007ContinuousReader({
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   const subjectTitle =
-    subject === 'economics'
+    subject === 'english-language'
+      ? 'English Language & Descriptive Writing'
+      : subject === 'economics'
       ? 'Economics Master Treatise'
       : subject === 'iibf-dbf'
       ? 'IIBF Diploma in Banking & Finance'

@@ -9,18 +9,11 @@
  * 4. Economics national-income identities, Fisher equations, and money multiplier formulas render into valid KaTeX.
  */
 
-import { describe, it, expect, beforeAll } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { renderMarkdownWithMath } from '../lib/render/markdown-math';
 import { db } from '../lib/db/client';
-import { seedBatchACanonicalKnowledge } from '../lib/benchmark/batch-a-canonical-seed';
 
 describe('Markdown & KaTeX Math Rendering Pipeline', () => {
-  beforeAll(async () => {
-    const count = await db.contentBlock.count();
-    if (count === 0) {
-      await seedBatchACanonicalKnowledge();
-    }
-  });
 
   it('1. should convert markdown headings (###) into semantic HTML headings', () => {
     const raw = '### 1. The Four Modern Elements of Statehood';

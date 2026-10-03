@@ -8,6 +8,7 @@ import {
   getQuantitativeAptitudeChapters,
   getGeneralScienceChapters,
   getGeographyChapters,
+  getEnglishLanguageChapters,
   getShelf007ChapterContent,
 } from '@/lib/shelf007/service';
 import { Shelf007ContinuousReader } from '@/components/shelf007/shelf007-continuous-reader';
@@ -48,7 +49,11 @@ export async function generateStaticParams() {
     subject: 'geography',
     chapter: c.slug,
   }));
-  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo];
+  const eng = getEnglishLanguageChapters().map((c) => ({
+    subject: 'english-language',
+    chapter: c.slug,
+  }));
+  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng];
 }
 
 export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPageProps) {
@@ -61,13 +66,14 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
     subject !== 'history' &&
     subject !== 'quantitative-aptitude' &&
     subject !== 'general-science' &&
-    subject !== 'geography'
+    subject !== 'geography' &&
+    subject !== 'english-language'
   ) {
     notFound();
   }
 
   const data = getShelf007ChapterContent(
-    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography',
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language',
     chapter
   );
   if (!data) {
@@ -78,7 +84,17 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
 
   return (
     <Shelf007ContinuousReader
-      subject={subject}
+      subject={
+        subject as
+          | 'economics'
+          | 'iibf-dbf'
+          | 'political-science'
+          | 'history'
+          | 'quantitative-aptitude'
+          | 'general-science'
+          | 'geography'
+          | 'english-language'
+      }
       currentChapter={current}
       prevChapter={prev}
       nextChapter={next}

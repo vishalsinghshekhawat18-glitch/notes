@@ -17,6 +17,39 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [RELEASED] v013 — English Language & Descriptive Writing Master Codex (The Black Book of English Vocabulary + Vocab Prodigy Sovereign Synthesis)
+* **Release Date**: 2026-10-03
+* **Status**: Deployed to GitHub Remote Repository (All 9 Parts, 21 Chapters, 21 Rapid Revision Matrices, Cover, Table of Contents, and UI Service Integration Complete; 0 Errors in TypeScript Compilation)
+* **Domain / Subject**: English Language, Syntactic Architecture, Etymological Morphology & High-Scoring Descriptive Discourse (RBI Grade B Phase II, NABARD Grade A, SBI/IBPS PO Mains, UPSC CSE Compulsory English & Essay, RPSC RAS Paper 4)
+* **Authoritative Treatises Ingested**:
+  - Nikhil Gupta, *The Black Book of English Vocabulary* (467 pages, 1,091 Greek & Latin Roots, 3,500+ One Word Substitutions with frequency rankings, Top 1,000 The Hindu vocabulary, specialized taxonomies)
+  - Nimisha Bansal, *Vocab Prodigy* (300 pages, 220 Core Root Words, Fixed Prepositions matrix, Phrasal Verbs particle logic, Confusing Words / Paronyms, Banking editorial lexicon)
+  - P.C. Wren & H. Martin, *High School English Grammar and Composition* (Syntax, Concord & Inversion)
+  - William Strunk Jr. & E.B. White, *The Elements of Style* (Principles of Composition & Brevity)
+* **Curricular Architecture (9 Parts + Capstone Vault + Rapid Revision Suite)**:
+  - Part I: Foundational Grammar & Syntactic Architecture (Ch 01–02)
+  - Part II: Etymological Morphology & Root Word Engine (Ch 03–05)
+  - Part III: Precision Usage: Fixed Prepositions, Phrasal Verbs & Paronyms (Ch 06–08)
+  - Part IV: High-Frequency Lexicon & Objective Discourse (Ch 09–10)
+  - Part V: The Descriptive Essay Laboratory (Ch 11–14)
+  - Part VI: Précis Writing & Non-Verbatim Distillation (Ch 15–16)
+  - Part VII: Formal Correspondence & Official Writing (Ch 17–18)
+  - Part VIII: Multi-Exam Intelligence & Evaluation Rubrics (Ch 19–20)
+  - Part IX: Capstone Grand Synthesis & Master Revision Vault (Ch 21)
+  - Rapid Revision: 21 High-Speed Recall Matrices & 60-Second Skeletons (Rev Ch 01–21)
+* **Sovereign Artifacts Authored (44 Files Total, ~70,000+ Words)**:
+  1. `007/skills/english-language-descriptive-master-skill.md`: Operating skill and epistemic charter.
+  2. `007/notes/english_language/00_COVER.md`: Sovereign book cover and Epistemic Pledge.
+  3. `007/notes/english_language/01_TABLE_OF_CONTENTS.md`: Master Part & Chapter curriculum breakdown.
+  4. Chapters 01 to 21 (`02_CHAPTER_01_...` through `22_CHAPTER_21_...`): Full-scale master chapters with theoretical foundations, distinction matrices, 60s memory skeletons, and active recall diagnostic flashcards.
+  5. Rapid Revision Matrices 01 to 21 (`01_REV_CHAPTER_01_...` through `21_REV_CHAPTER_21_...`): 21 rapid revision matrices with distinction tables, 60-second retrieval skeletons, and high-yield examination flashcards.
+* **Service & UI Integration**:
+  - Registered `'english-language'` in `Shelf007SubjectMeta.slug`, `getShelf007Subjects()`, `getShelf007PartGroups()`, and `getShelf007ChapterContent()` in `lib/shelf007/service.ts`.
+  - Seamlessly maps all 44 items (23 note chapters + 21 rapid revision modules) across 11 visual part groups.
+  - Verified static generation in `app/shelf-007/[subject]/page.tsx` and `app/shelf-007/[subject]/[chapter]/page.tsx`.
+  - Type-checked with `npx tsc --noEmit` (**0 errors**).
+* **Git Status**: Strictly local staging. ZERO git pushes executed.
+
 ### [RELEASED] v012 — Geography Sovereign Master Architecture (India, World & Rajasthan — Physical, Human, Social & Environmental Combined)
 * **Release Date**: 2026-10-03
 * **Commit SHA**: `5a74d8e`

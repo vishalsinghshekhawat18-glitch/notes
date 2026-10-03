@@ -45,28 +45,25 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
   },
   {
     id: 'shelf-2',
-    title: 'Shelf 2: Agriculture, Rural Finance & Global Institutions',
-    icon: '🌾',
-    badge: 'Rural Policy & Global Affairs',
+    title: 'Shelf 2: Global Institutions & General Awareness',
+    icon: '🌐',
+    badge: 'International Affairs & Static GA',
     accentColor: 'text-[#c25e2e] bg-[#fbf5ee] border-[#edd9cb]',
     borderAccent: 'border-l-[#c25e2e]',
     subjectSlugs: [
-      'agriculture-and-rural-development',             // #11 (Rural Finance & Agri)
       'general-awareness',                             // #12
     ],
   },
   {
     id: 'shelf-3',
-    title: 'Shelf 3: Polity, Geography, Civilizations & World History',
+    title: 'Shelf 3: Civilizations, Heritage & World History',
     icon: '🏛️',
-    badge: 'Statecraft & Heritage Highland',
+    badge: 'Historical Foundations & World Revolutions',
     accentColor: 'text-[#854d0e] bg-[#fef9ee] border-[#fde68a]',
     borderAccent: 'border-l-[#b45309]',
     subjectSlugs: [
-      'indian-polity',                                 // #2
       'ancient-indian-history',                        // #5
       'modern-indian-history',                         // #8
-      'geography-and-environment',                     // #9
       'medieval-indian-history',                       // #13
       'world-history',                                 // #14
       'art-culture-rajasthan',                         // #15
@@ -115,8 +112,11 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
   const [layoutMode, setLayoutMode] = useState<'SHELVES' | 'GRID'>('SHELVES');
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Exclude legacy database subjects that had errors/irrelevance (Economics and Banking are sovereign in Shelf 007)
-  const DEPRECATED_SLUGS = useMemo(() => new Set(['indian-economy', 'iibf-banking-regulations']), []);
+  // Exclude legacy database subjects that were purged
+  const DEPRECATED_SLUGS = useMemo(
+    () => new Set(['indian-economy', 'iibf-banking-regulations', 'indian-polity', 'geography-and-environment', 'agriculture-and-rural-development']),
+    []
+  );
 
   const allSubjects = useMemo(
     () => domains.flatMap((d) => d.subjects).filter((s) => !DEPRECATED_SLUGS.has(s.slug)),

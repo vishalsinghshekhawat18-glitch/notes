@@ -1,5 +1,4 @@
 import { db } from '@/lib/db/client';
-import { seedPolityMasterCanonicalKnowledge } from '@/lib/benchmark/batch-polity-master-canonical-seed';
 import { seedBatchGASchemesCanonicalKnowledge } from '@/lib/benchmark/batch-ga-schemes-canonical-seed';
 import { seedBatchEnglishCanonicalKnowledge } from '@/lib/benchmark/batch-english-canonical-seed';
 import { seedAncientMasterCanonicalKnowledge } from '@/lib/benchmark/batch-ancient-master-canonical-seed';
@@ -16,7 +15,6 @@ import { seedBatchComputerAptitudeCanonicalKnowledge } from '@/lib/benchmark/bat
 export async function ensureCanonicalDataSeeded() {
   const conceptCount = await db.concept.count();
   if (conceptCount === 0) {
-    await seedPolityMasterCanonicalKnowledge();
     await seedBatchGASchemesCanonicalKnowledge();
     await seedBatchEnglishCanonicalKnowledge();
     await seedAncientMasterCanonicalKnowledge();

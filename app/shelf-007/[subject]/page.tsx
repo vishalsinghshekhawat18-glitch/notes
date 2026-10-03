@@ -11,6 +11,7 @@ import {
   getQuantitativeAptitudeChapters,
   getGeneralScienceChapters,
   getGeographyChapters,
+  getEnglishLanguageChapters,
 } from '@/lib/shelf007/service';
 import { Shelf007AcademicTOC } from '@/components/shelf007/shelf007-academic-toc';
 
@@ -29,6 +30,7 @@ export async function generateStaticParams() {
     { subject: 'quantitative-aptitude' },
     { subject: 'general-science' },
     { subject: 'geography' },
+    { subject: 'english-language' },
   ];
 }
 
@@ -42,7 +44,8 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
     subject !== 'history' &&
     subject !== 'quantitative-aptitude' &&
     subject !== 'general-science' &&
-    subject !== 'geography'
+    subject !== 'geography' &&
+    subject !== 'english-language'
   ) {
     notFound();
   }
@@ -50,10 +53,12 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
   const subjects = getShelf007Subjects();
   const currentSubj = subjects.find((s) => s.slug === subject)!;
   const partGroups = getShelf007PartGroups(
-    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography'
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language'
   );
   const chapters =
-    subject === 'economics'
+    subject === 'english-language'
+      ? getEnglishLanguageChapters()
+      : subject === 'economics'
       ? getEconomicsChapters()
       : subject === 'iibf-dbf'
       ? getIibfDbfChapters()

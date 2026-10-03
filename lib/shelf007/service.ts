@@ -31,7 +31,7 @@ export interface Shelf007PartGroup {
 }
 
 export interface Shelf007SubjectMeta {
-  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography';
+  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language';
   name: string;
   badge: string;
   badgeColor: string;
@@ -309,7 +309,129 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'Grand Capstone Revision Vault (Ch 36)',
       ],
     },
+    {
+      slug: 'english-language',
+      name: 'English Language & Descriptive Writing Master Codex',
+      badge: 'Black Book • Vocab Prodigy • Wren & Martin • Strunk & White',
+      badgeColor: 'text-[#431407] bg-[#fbf5ee] border-[#fed7aa]',
+      code: 'ENG-007',
+      authors: 'Nikhil Gupta (Black Book) • Nimisha Bansal (Vocab Prodigy) • Wren & Martin • Strunk & White',
+      description:
+        'Sovereign doctoral-depth treatise covering 120 Golden Rules of Grammar, Syntactic Inversion, Etymological Root Engine (1,000+ roots), Fixed Prepositions, Phrasal Verbs, Paronyms, Descriptive Essay Architecture (PESTLE-S & PEEL), Précis 1/3rd Distillation, Official Correspondence (Full-Block & Reports), and Capstone Revision Vault.',
+      totalChapters: getEnglishLanguageChapters().length,
+      totalWords: getEnglishLanguageChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        '120 Golden Grammar Rules (Ch 01)',
+        'Syntactic Inversion & Sentence Variety (Ch 02)',
+        'Etymological Roots (Cognition & Society)',
+        'Fixed Prepositions & Phrasal Verbs',
+        'Descriptive Essay Laboratory (PESTLE-S & PEEL)',
+        'Précis Distillation & Official Reports',
+        'Grand Synthesis Capstone Vault',
+      ],
+    },
   ];
+}
+
+export function getEnglishLanguageChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'english_language');
+  const revDir = path.join(process.cwd(), '007', 'revision', 'english_language');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  const noteItems: Shelf007ChapterItem[] = files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Cover & Master Declaration';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS')) {
+      slug = 'chapter-21';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 21: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 21;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of English grammar, syntactic models, etymological roots, and high-scoring descriptive discourse.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
+
+  const revItems: Shelf007ChapterItem[] = [];
+  if (fs.existsSync(revDir)) {
+    const revFiles = fs.readdirSync(revDir).filter((f) => f.endsWith('.md')).sort();
+    for (const f of revFiles) {
+      const fullPath = path.join(revDir, f);
+      const content = fs.readFileSync(fullPath, 'utf-8');
+      const wordCount = content.split(/\s+/).filter(Boolean).length;
+      const chMatch = f.match(/CHAPTER_(\d+)/i);
+      const num = chMatch ? parseInt(chMatch[1], 10) : 0;
+      const slug = `rev-chapter-${String(num).padStart(2, '0')}`;
+      const shortTitle = `Rapid Revision: Chapter ${String(num).padStart(2, '0')}`;
+      const title = extractTitleFromMarkdown(content, shortTitle);
+      const description = extractDescriptionFromMarkdown(
+        content,
+        'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
+      );
+      const sections = extractSectionsFromMarkdown(content);
+
+      revItems.push({
+        slug,
+        title,
+        shortTitle,
+        category: 'Rapid Revision Matrix',
+        description,
+        filePath: fullPath,
+        order: 100 + num,
+        wordCount,
+        readingMinutes: calculateReadingMinutes(wordCount),
+        sections,
+      });
+    }
+  }
+
+  return [...noteItems, ...revItems];
 }
 
 export function getGeographyChapters(): Shelf007ChapterItem[] {
@@ -810,8 +932,110 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
 }
 
 export function getShelf007PartGroups(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography'
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language'
 ): Shelf007PartGroup[] {
+  if (subject === 'english-language') {
+    const allChapters = getEnglishLanguageChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Curriculum Blueprint & Sovereign Synthesis Architecture',
+        groupSubtitle: 'Orientation, multi-treatise integration ledger, and master structural index',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Foundational Grammar & Syntactic Architecture',
+        groupSubtitle: 'The 120 Golden Rules of Grammar, Subject-Verb Agreement, Inversion, Conditionals, Modifiers, and Sentence Variety',
+        slugs: ['chapter-01', 'chapter-02'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'Etymological Morphology & Root Word Engine',
+        groupSubtitle: 'Greek & Latin roots, morphological derivations, specialized taxonomies, and foreign borrowings',
+        slugs: ['chapter-03', 'chapter-04', 'chapter-05'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Precision Usage: Fixed Prepositions, Phrasal Verbs & Paronyms',
+        groupSubtitle: 'Master fixed preposition dependencies, phrasal verb particle logic, and 150 homophone/paronym distinction pairs',
+        slugs: ['chapter-06', 'chapter-07', 'chapter-08'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'High-Frequency Lexicon & Objective Discourse',
+        groupSubtitle: 'Top 500 exam words, The Hindu editorial lexicon, and objective discourse algorithms (para-jumbles & cloze tests)',
+        slugs: ['chapter-09', 'chapter-10'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'The Descriptive Essay Laboratory',
+        groupSubtitle: 'PESTLE-S ideation grids, PEEL paragraph architecture, introduction hooks, circular callbacks, and 50 model blueprints',
+        slugs: ['chapter-11', 'chapter-12', 'chapter-13', 'chapter-14'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'Précis Writing & Non-Verbatim Distillation',
+        groupSubtitle: 'The 1/3rd word-budget rule, negative filtering, heading formulation, and model précis benchmark vault',
+        slugs: ['chapter-15', 'chapter-16'],
+      },
+      {
+        partNumber: 'PART VII',
+        groupTitle: 'Formal Correspondence & Official Writing',
+        groupSubtitle: 'Modern Full-Block formal letters, banking ombudsman grievances, and official branch inspection reports',
+        slugs: ['chapter-17', 'chapter-18'],
+      },
+      {
+        partNumber: 'PART VIII',
+        groupTitle: 'Multi-Exam Intelligence & Evaluation Rubrics',
+        groupSubtitle: 'Scoring parameters for RBI Grade B, NABARD, Bank PO, UPSC, and 30-day progressive training blueprint',
+        slugs: ['chapter-19', 'chapter-20'],
+      },
+      {
+        partNumber: 'PART IX',
+        groupTitle: 'The Capstone: Master Consolidated Revision Vault',
+        groupSubtitle: '60-second grammar skeletons, root-word cheat sheets, Top 50 Deadliest Traps, and 100-question active recall bank',
+        slugs: ['chapter-21'],
+      },
+      {
+        partNumber: 'RAPID REVISION',
+        groupTitle: 'High-Speed Recall Matrices & 60-Second Skeletons',
+        groupSubtitle: 'Rapid revision sheets, distinction matrices, and active recall flashcards for all 21 chapters',
+        slugs: Array.from({ length: 21 }, (_, i) => `rev-chapter-${String(i + 1).padStart(2, '0')}`),
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
   if (subject === 'economics') {
     const allChapters = getEconomicsChapters();
     const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -1408,11 +1632,13 @@ export function getShelf007PartGroups(
 }
 
 export function getShelf007ChapterContent(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography',
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language',
   chapterSlug: string
 ) {
   const chapters =
-    subject === 'economics'
+    subject === 'english-language'
+      ? getEnglishLanguageChapters()
+      : subject === 'economics'
       ? getEconomicsChapters()
       : subject === 'iibf-dbf'
       ? getIibfDbfChapters()

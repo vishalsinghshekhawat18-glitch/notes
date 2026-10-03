@@ -1,5 +1,4 @@
 import { db } from '../lib/db/client';
-import { seedPolityMasterCanonicalKnowledge } from '../lib/benchmark/batch-polity-master-canonical-seed';
 import { seedBatchGASchemesCanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-canonical-seed';
 import { seedBatchGASchemesBatch2CanonicalKnowledge } from '../lib/benchmark/batch-ga-schemes-batch-2-canonical-seed';
 import { seedBatchStaticGABatch2CanonicalKnowledge } from '../lib/benchmark/batch-static-ga-batch-2-canonical-seed';
@@ -16,8 +15,6 @@ import { seedBatchQuantBatch3PracticeBank } from '../lib/benchmark/batch-quant-b
 import { seedBatchQuantBatch4CanonicalKnowledge } from '../lib/benchmark/batch-quant-batch-4-canonical-seed';
 import { seedBasicScienceMasterCanonicalKnowledge } from '../lib/benchmark/batch-science-master-canonical-seed';
 import { seedBiotechCanonicalKnowledge } from '../lib/benchmark/batch-biotech-canonical-seed';
-import { seedGeographyCanonicalKnowledge } from '../lib/benchmark/batch-geography-canonical-seed';
-import { seedAgricultureCanonicalKnowledge } from '../lib/benchmark/batch-agriculture-canonical-seed';
 import { seedAPFCIRCanonicalKnowledge } from '../lib/benchmark/batch-apfc-ir-canonical-seed';
 import { seedPreviousYearQuestionsAndTraps } from '../lib/benchmark/batch-pyqs-and-traps-canonical-seed';
 import { seedRPSCRASPreviousYearQuestions } from '../lib/benchmark/batch-rpsc-ras-pyqs-seed';
@@ -49,9 +46,6 @@ export async function main() {
   await db.topic.deleteMany();
   await db.subject.deleteMany();
   await db.domain.deleteMany();
-
-  // Seed Modernized Indian Polity Master (Topics 1-25: 136 concepts, 4 blocks, 8 exam mappings, 272+ questions)
-  await seedPolityMasterCanonicalKnowledge();
 
   // Seed Static GA & Government Schemes (Topics 52-56: 8 concepts)
   await seedBatchGASchemesCanonicalKnowledge();
@@ -97,12 +91,6 @@ export async function main() {
 
   // Seed Applied Science, Biotechnology & Emerging Tech (Topic 26: 5 concepts CON-SCI-116 to CON-SCI-120)
   await seedBiotechCanonicalKnowledge();
-
-  // Seed Geography & Environment Master (Topics 1-5: 14 concepts CON-GEO-001 to CON-GEO-014)
-  await seedGeographyCanonicalKnowledge();
-
-  // Seed Agriculture & Rural Development Master (Topics 1-4: 12 concepts CON-ARD-001 to CON-ARD-012)
-  await seedAgricultureCanonicalKnowledge();
 
   // Seed UPSC APFC, Industrial Relations, Social Security & Governance (Topics 1-5: 5 concepts CON-IRL-001 to CON-IRL-005)
   await seedAPFCIRCanonicalKnowledge();
