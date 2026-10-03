@@ -389,11 +389,11 @@ export function ScholarlyLibraryHome() {
         </div>
 
         {/* Right: Actions (Resume / Start & Quick Search) */}
-        <div className="flex items-center gap-2.5 w-full md:w-auto shrink-0 justify-end">
+        <div className="flex flex-wrap items-center gap-2 w-full md:w-auto md:justify-end">
           {savedPosition ? (
             <Link
               href={savedPosition.url}
-              className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center gap-2"
+              className="px-3.5 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
             >
               <span>Resume Reading</span>
               <span>→</span>
@@ -401,7 +401,7 @@ export function ScholarlyLibraryHome() {
           ) : (
             <Link
               href="/shelf-007/political-science/chapter-01"
-              className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center gap-2"
+              className="px-3.5 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
             >
               <span>Begin Chapter 01</span>
               <span>→</span>
@@ -410,7 +410,7 @@ export function ScholarlyLibraryHome() {
 
           <button
             onClick={() => setIsSearchOpen(true)}
-            className="px-3.5 py-2 rounded-lg bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#E0D9CB] text-xs font-mono text-[#10251F] transition-colors inline-flex items-center gap-2 cursor-pointer shadow-2xs"
+            className="px-3 py-2 rounded-lg bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#E0D9CB] text-xs font-mono text-[#10251F] transition-colors inline-flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs flex-1 sm:flex-initial"
             title="Search entire library corpus"
           >
             <span>🔍</span>
@@ -497,7 +497,7 @@ export function ScholarlyLibraryHome() {
                           </span>
                         </div>
 
-                        <div className="flex items-center gap-2 text-[11px] text-[#5A7365]">
+                        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-[11px] text-[#5A7365]">
                           <span className="font-semibold text-[#10251F]">{m.totalChapters} Ch</span>
                           <span>•</span>
                           <span>{m.totalWordsText}</span>

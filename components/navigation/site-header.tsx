@@ -33,11 +33,11 @@ export function SiteHeader() {
   return (
     <>
       <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm">
-        <div className="max-w-[1620px] mx-auto px-4 h-14 flex items-center justify-between">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-2">
           {/* Brand & Subtitle */}
-          <div className="flex items-center gap-8">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-8 h-8 rounded-md bg-[#173A2F] border border-[#274E3E] flex items-center justify-center p-1 shadow-2xs group-hover:scale-105 transition-transform">
+          <div className="flex items-center gap-6 min-w-0">
+            <Link href="/" className="flex items-center gap-2.5 group min-w-0">
+              <div className="w-8 h-8 rounded-md bg-[#173A2F] border border-[#274E3E] flex items-center justify-center p-1 shadow-2xs group-hover:scale-105 transition-transform shrink-0">
                 <Image
                   src="/icon.png"
                   alt="Mind of Aravalli Logo"
@@ -48,7 +48,7 @@ export function SiteHeader() {
                 />
               </div>
               <div className="flex flex-col min-w-0">
-                <span className="font-serif font-bold text-[#FAF8F3] tracking-tight text-sm sm:text-base leading-tight group-hover:text-[#C59B4B] transition-colors truncate">
+                <span className="font-serif font-bold text-[#FAF8F3] tracking-tight text-sm sm:text-base leading-tight group-hover:text-[#C59B4B] transition-colors truncate max-w-[160px] sm:max-w-none">
                   Mind of Aravalli
                 </span>
                 <span className="hidden sm:inline text-[10px] font-mono text-[#A1B8A9] uppercase tracking-wider truncate">

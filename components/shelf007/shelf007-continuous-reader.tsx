@@ -194,8 +194,8 @@ export function Shelf007ContinuousReader({
 
       {/* Sticky Top Reader Header (Forest Lectern Architectural Frame) */}
       <header className="sticky top-0 z-40 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm">
-        <div className="w-full px-4 sm:px-6 py-2 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-2.5 min-w-0">
+        <div className="max-w-5xl mx-auto px-3 sm:px-6 py-2 flex items-center justify-between gap-2 sm:gap-4">
+          <div className="flex items-center gap-2 min-w-0 flex-1">
             {/* Sidebar toggle button */}
             <button
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -208,28 +208,28 @@ export function Shelf007ContinuousReader({
               aria-label="Toggle Chapters & Sections Sidebar"
             >
               <BookOpen className="w-3.5 h-3.5 text-[#C59B4B]" />
-              <span className="hidden sm:inline font-sans font-medium text-[#FAF8F3]">Chapters</span>
+              <span className="hidden md:inline font-sans font-medium text-[#FAF8F3]">Chapters</span>
               <span className="text-[10px] text-[#A1B8A9] font-mono">({allChapters.length})</span>
             </button>
 
             <div className="h-3.5 w-px bg-[#234A3C] shrink-0" />
 
-            <div className="min-w-0">
+            <div className="min-w-0 flex-1">
               <Link
                 href={`/shelf-007/${subject}`}
                 className="text-[10px] font-mono uppercase tracking-wider text-[#C59B4B] hover:text-[#FAF8F3] transition-colors truncate block"
               >
                 {subjectTitle}
               </Link>
-              <h1 className="text-xs sm:text-sm font-bold text-[#FAF8F3] truncate">
+              <h1 className="text-xs sm:text-sm font-bold text-[#FAF8F3] truncate max-w-[140px] sm:max-w-[260px] md:max-w-md">
                 {currentChapter.title}
               </h1>
             </div>
           </div>
 
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
             {/* Progress indicator */}
-            <div className="hidden sm:flex flex-col items-end text-right">
+            <div className="hidden lg:flex flex-col items-end text-right">
               <span className="text-[10px] font-mono text-[#A1B8A9]">
                 {activeSectionIndex + 1} / {currentChapter.sections.length} sections
               </span>
@@ -242,7 +242,9 @@ export function Shelf007ContinuousReader({
             </div>
 
             {/* Font Size Stepper Control */}
-            <FontSizeControl />
+            <div className="hidden sm:inline-flex">
+              <FontSizeControl />
+            </div>
 
             {/* Reading Ambience Switcher */}
             <ThemeSwitcher />
@@ -250,9 +252,11 @@ export function Shelf007ContinuousReader({
             {/* Quick Outline Jump Menu */}
             <button
               onClick={() => setIsOutlineOpen(!isOutlineOpen)}
-              className="px-2.5 py-1 rounded-md border border-[#234A3C] bg-[#16352A] hover:bg-[#1D4436] text-[#FAF8F3] text-xs font-medium flex items-center gap-1 transition-colors cursor-pointer"
+              className="px-2 py-1 rounded-md border border-[#234A3C] bg-[#16352A] hover:bg-[#1D4436] text-[#FAF8F3] text-xs font-medium flex items-center gap-1 transition-colors cursor-pointer"
+              title="Jump to section"
             >
-              <span>📑 Jump</span>
+              <span className="text-xs">📑</span>
+              <span className="hidden sm:inline">Jump</span>
               <span className="text-[9px]">{isOutlineOpen ? '▲' : '▼'}</span>
             </button>
           </div>
