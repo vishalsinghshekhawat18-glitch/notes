@@ -22,8 +22,8 @@ export function SiteHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-30 bg-[#f7f5f0]/90 backdrop-blur-md border-b border-[#e5dfd3] shadow-2xs">
-        <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
+      <header className="sticky top-0 z-30 bg-[#f7f5f0]/90 dark:bg-[#0d1210]/90 backdrop-blur-md border-b border-[#e5dfd3] dark:border-[#23302a] shadow-2xs">
+        <div className="max-w-[1620px] mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-2.5 group">
               <div className="w-8 h-8 rounded-lg bg-[#143227]/5 border border-[#143227]/10 flex items-center justify-center p-1 shadow-2xs group-hover:border-[#c25e2e]/30 group-hover:bg-[#c25e2e]/5 transition-all">

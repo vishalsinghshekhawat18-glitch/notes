@@ -36,17 +36,21 @@ export default function RootLayout({
         <main className="flex-1 overflow-x-hidden max-w-full">
           {children}
         </main>
-        <footer className="border-t border-[#e5dfd3] bg-[#f2efe7]/80 py-8 text-center text-xs text-stone-600 font-mono">
-          <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <footer className="h-8 border-t border-[#e5dfd3] dark:border-[#24332c] bg-[#f2efe7]/90 dark:bg-[#101613]/90 px-4 flex items-center justify-between text-center text-[11px] text-stone-600 dark:text-stone-400 font-mono shrink-0 select-none">
+          <div className="max-w-[1620px] mx-auto w-full flex items-center justify-between gap-2">
             <div className="flex items-center gap-2">
-              <span className="text-[#143227] font-bold">▲ Mind of Aravalli</span>
-              <span className="text-stone-400">•</span>
-              <span>The Ridge Reading Hub</span>
+              <span className="text-[#143227] dark:text-emerald-400 font-bold">▲ Mind of Aravalli</span>
+              <span className="text-stone-300 dark:text-stone-600">•</span>
+              <span>Shelf 007 Sovereign Knowledge Bastion</span>
             </div>
-            <div className="flex items-center gap-3 text-stone-500">
-              <span>One Canonical Knowledge Base</span>
+            <div className="hidden sm:flex items-center gap-3 text-stone-500 dark:text-stone-400">
+              <span>8 Treatises</span>
               <span>•</span>
-              <span className="text-[#c25e2e] font-semibold">8 Examination Lenses</span>
+              <span>232 Chapters</span>
+              <span>•</span>
+              <span>1,520 MCQs</span>
+              <span>•</span>
+              <span className="text-[#c25e2e] dark:text-amber-400 font-semibold">Zero Unaccounted-For Source Omission</span>
             </div>
           </div>
         </footer>
