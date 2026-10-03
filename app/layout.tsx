@@ -26,7 +26,7 @@ export default function RootLayout({
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var s=localStorage.getItem('reading_hub_font_size');if(s&&['sm','md','lg','xl'].indexOf(s)!==-1){document.documentElement.setAttribute('data-font-size',s);}else{document.documentElement.setAttribute('data-font-size','md');}}catch(e){}})();`,
+            __html: `(function(){try{var s=localStorage.getItem('reading_hub_font_size');if(s&&['sm','md','lg','xl'].indexOf(s)!==-1){document.documentElement.setAttribute('data-font-size',s);}else{document.documentElement.setAttribute('data-font-size','md');}var t=localStorage.getItem('reading_hub_theme');if(t&&['parchment','obsidian','ivory'].indexOf(t)!==-1){document.documentElement.setAttribute('data-theme',t);}else{document.documentElement.setAttribute('data-theme','parchment');}}catch(e){}})();`,
           }}
         />
       </head>

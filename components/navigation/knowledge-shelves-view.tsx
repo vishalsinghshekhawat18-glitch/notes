@@ -33,6 +33,7 @@ const THEMATIC_SHELVES: ThematicShelf[] = [
 export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
   const [layoutMode, setLayoutMode] = useState<'SHELVES' | 'GRID'>('SHELVES');
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<'ALL' | 'GOV' | 'ECO' | 'SCI' | 'HUM'>('ALL');
 
   // Exclude legacy database subjects that were purged
   const DEPRECATED_SLUGS = useMemo(
@@ -202,6 +203,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'eco-007',
       code: 'ECO-007',
+      category: 'ECO',
+      categoryName: 'Macroeconomics & Public Policy',
       badgeText: '5-Author Sovereign Synthesis',
       badgeColor: 'text-[#9a3412] bg-[#fff7ed] border-[#ffedd5]',
       title: 'Economics Master Treatise (Penta-Treatise Synthesis)',
@@ -224,6 +227,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'dbf-007',
       code: 'DBF-007',
+      category: 'ECO',
+      categoryName: 'Banking & Financial Regulations',
       badgeText: 'Official Macmillan Courseware',
       badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#dbeafe]',
       title: 'IIBF Diploma in Banking & Finance (DBF / JAIIB)',
@@ -245,6 +250,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'pol-007',
       code: 'POL-007',
+      category: 'GOV',
+      categoryName: 'Constitutional Law & Governance',
       badgeText: 'Gold Standard Sovereign Synthesis',
       badgeColor: 'text-[#14532d] bg-[#f0fdf4] border-[#bbf7d0]',
       title: 'Political Science & Constitutional Governance',
@@ -269,6 +276,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'qnt-007',
       code: 'QNT-007',
+      category: 'SCI',
+      categoryName: 'Mathematical Logic & Aptitude',
       badgeText: 'Axiomatic & Speed Synthesis',
       badgeColor: 'text-[#1e3a8a] bg-[#eff6ff] border-[#bfdbfe]',
       title: 'Quantitative Aptitude & Mathematical Logic',
@@ -292,6 +301,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'sci-007',
       code: 'SCI-007',
+      category: 'SCI',
+      categoryName: 'Natural & Applied Sciences',
       badgeText: 'NCERT 6–12 + Competitive Fusion',
       badgeColor: 'text-[#164e3f] bg-[#eef6f2] border-[#cbe4d7]',
       title: 'General Science: Physics, Chemistry & Biology Unified',
@@ -316,6 +327,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'hist-007',
       code: 'HIST-007',
+      category: 'HUM',
+      categoryName: 'Indian & World Civilizations',
       badgeText: 'Unified 5-Dimensional Master Treatise',
       badgeColor: 'text-[#854d0e] bg-[#fefce8] border-[#fef08a]',
       title: 'History: Ancient, Medieval, Modern, Rajasthan & World Combined',
@@ -338,6 +351,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'geo-007',
       code: 'GEO-007',
+      category: 'HUM',
+      categoryName: 'Geomorphology & Environment',
       badgeText: 'Majid Husain • Shankar IAS • Savindra Singh • Bhalla',
       badgeColor: 'text-[#0f766e] bg-[#f0fdfa] border-[#99f6e4]',
       title: 'Geography: India, World & Rajasthan',
@@ -361,6 +376,8 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
     {
       id: 'eng-007',
       code: 'ENG-007',
+      category: 'HUM',
+      categoryName: 'Linguistic Logic & Descriptive Codex',
       badgeText: 'Black Book • Vocab Prodigy • Wren & Martin',
       badgeColor: 'text-[#431407] bg-[#fbf5ee] border-[#fed7aa]',
       title: 'English Language & Descriptive Writing Master Codex',
@@ -392,11 +409,16 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
         <div className="absolute top-0 right-0 w-24 h-24 bg-[#143227]/5 rounded-bl-full pointer-events-none" />
 
         <div className="space-y-2.5">
-          {/* Header Row: Code & Counts */}
+          {/* Header Row: Code, Category & Badge */}
           <div className="flex items-center justify-between text-xs font-mono">
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold border bg-[#ede8dc] text-[#143227] border-[#d6cebe]">
-              {cardMeta.code}
-            </span>
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span className="px-2 py-0.5 rounded text-[10px] font-bold border bg-[#ede8dc] text-[#143227] border-[#d6cebe]">
+                {cardMeta.code}
+              </span>
+              <span className="text-[10px] font-sans font-medium text-stone-500 bg-stone-100 border border-stone-200/80 px-1.5 py-0.2 rounded hidden sm:inline">
+                {cardMeta.categoryName}
+              </span>
+            </div>
             <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${cardMeta.badgeColor}`}>
               {cardMeta.badgeText}
             </span>
@@ -530,12 +552,15 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
           {THEMATIC_SHELVES.map((shelf) => {
             if (shelf.id === 'shelf-007') {
               const matchesSovereign = (card: (typeof SOVEREIGN_CARDS)[number]) => {
+                const matchesCategory = selectedCategory === 'ALL' || card.category === selectedCategory;
+                if (!matchesCategory) return false;
                 if (!searchQuery.trim()) return true;
                 const q = searchQuery.toLowerCase();
                 return (
                   card.title.toLowerCase().includes(q) ||
                   card.description.toLowerCase().includes(q) ||
                   card.authorText.toLowerCase().includes(q) ||
+                  card.categoryName.toLowerCase().includes(q) ||
                   card.chips.some((c) => c.toLowerCase().includes(q))
                 );
               };
@@ -575,6 +600,42 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                     <span className={`self-start sm:self-auto text-[10px] font-mono px-2.5 py-1 rounded-full border font-bold uppercase tracking-wider ${shelf.accentColor}`}>
                       {shelf.badge}
                     </span>
+                  </div>
+
+                  {/* Thematic Category Filter Tabs */}
+                  <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
+                    {[
+                      { id: 'ALL', label: 'All 8 Treatises', count: 8, icon: '🏛️' },
+                      { id: 'GOV', label: 'Governance & Law', count: 1, icon: '⚖️' },
+                      { id: 'ECO', label: 'Macroeconomics & Banking', count: 2, icon: '📈' },
+                      { id: 'SCI', label: 'STEM & Logic', count: 2, icon: '🔬' },
+                      { id: 'HUM', label: 'Humanities & Codex', count: 3, icon: '🌍' },
+                    ].map((tab) => {
+                      const isActive = selectedCategory === tab.id;
+                      return (
+                        <button
+                          key={tab.id}
+                          onClick={() => setSelectedCategory(tab.id as any)}
+                          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-mono transition-all cursor-pointer ${
+                            isActive
+                              ? 'bg-[#143227] text-amber-200 font-bold shadow-xs border border-[#143227]'
+                              : 'bg-[#f7f5f0] text-stone-700 hover:bg-[#ede8dc] border border-[#e5dfd3]'
+                          }`}
+                        >
+                          <span>{tab.icon}</span>
+                          <span>{tab.label}</span>
+                          <span
+                            className={`text-[10px] px-1.5 py-0.2 rounded-full font-bold ${
+                              isActive
+                                ? 'bg-white/20 text-white'
+                                : 'bg-stone-200 text-stone-600'
+                            }`}
+                          >
+                            {tab.count}
+                          </span>
+                        </button>
+                      );
+                    })}
                   </div>
 
                   {/* Sovereign Subject Cards (3-Column Flagship Layout) */}

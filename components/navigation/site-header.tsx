@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { SearchDialog } from './search-dialog';
+import { ThemeSwitcher } from './theme-switcher';
 
 export function SiteHeader() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -103,7 +104,7 @@ export function SiteHeader() {
             </nav>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <button
               onClick={() => setIsSearchOpen(true)}
               className="flex items-center gap-2 text-xs text-stone-600 bg-white/80 hover:bg-white hover:text-stone-900 border border-[#dcd6c8] hover:border-[#c25e2e]/50 rounded-lg px-3 py-1.5 transition-all shadow-2xs cursor-pointer"
@@ -111,11 +112,13 @@ export function SiteHeader() {
               <svg className="w-3.5 h-3.5 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-              <span>Search across the ridge...</span>
+              <span className="hidden sm:inline">Search across the ridge...</span>
+              <span className="sm:hidden">Search...</span>
               <kbd className="hidden md:inline-block font-mono text-[10px] bg-[#ede8dc] text-stone-700 px-1.5 py-0.5 rounded border border-[#d6cebe]">
                 ⌘K
               </kbd>
             </button>
+            <ThemeSwitcher />
           </div>
         </div>
       </header>

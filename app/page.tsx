@@ -56,6 +56,33 @@ export default async function LibraryPage() {
           <div className="pt-2 max-w-2xl">
             <GlobalSearchBar />
           </div>
+
+          {/* Stat HUD Metrics Grid */}
+          <div className="pt-4 grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3.5 border-t border-white/10 text-stone-200">
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-xs flex flex-col justify-between">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-amber-300">Architecture</span>
+              <div className="text-xl sm:text-2xl font-serif font-bold text-white mt-0.5">8 Disciplines</div>
+              <span className="text-[10px] text-stone-300 font-sans mt-0.5">Penta-Treatise & Bare Acts</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-xs flex flex-col justify-between">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-300">Curriculum</span>
+              <div className="text-xl sm:text-2xl font-serif font-bold text-white mt-0.5">232 Chapters</div>
+              <span className="text-[10px] text-stone-300 font-sans mt-0.5">Complete Canonical Depth</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-xs flex flex-col justify-between">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-cyan-300">Active Recall</span>
+              <div className="text-xl sm:text-2xl font-serif font-bold text-white mt-0.5">1,520 MCQs</div>
+              <span className="text-[10px] text-stone-300 font-sans mt-0.5">Diagnostic & Trap Vaults</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-xs flex flex-col justify-between">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-rose-300">Standard</span>
+              <div className="text-xl sm:text-2xl font-serif font-bold text-white mt-0.5">100% Gold</div>
+              <span className="text-[10px] text-stone-300 font-sans mt-0.5">Total Replacement Policy</span>
+            </div>
+          </div>
         </div>
       </section>
 

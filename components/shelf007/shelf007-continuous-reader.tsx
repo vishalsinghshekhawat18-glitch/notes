@@ -14,6 +14,7 @@ import {
 import { Shelf007ChapterItem, Shelf007SectionItem } from '@/lib/shelf007/service';
 import { MarkdownContent } from '@/components/ui/markdown-content';
 import { FontSizeControl } from '@/components/learning/font-size-control';
+import { ThemeSwitcher } from '@/components/navigation/theme-switcher';
 
 interface Shelf007ContinuousReaderProps {
   subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language';
@@ -52,7 +53,9 @@ export function Shelf007ContinuousReader({
       ? 'General Science: Physics, Chemistry & Biology Unified'
       : 'Geography: India, World & Rajasthan Master Treatise';
 
-  // Sync scroll position with active section index
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  // Sync scroll position with active section index and progress bar
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY + 180;
@@ -63,9 +66,16 @@ export function Shelf007ContinuousReader({
           break;
         }
       }
+
+      const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (totalScroll > 0) {
+        const currentProgress = (window.scrollY / totalScroll) * 100;
+        setScrollProgress(Math.min(100, Math.max(0, currentProgress)));
+      }
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -153,6 +163,14 @@ export function Shelf007ContinuousReader({
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900 font-sans pb-24 overflow-x-hidden max-w-full">
+      {/* Precision Scroll Progress Line */}
+      <div className="fixed top-0 left-0 right-0 h-[3px] bg-stone-200/40 z-50 pointer-events-none">
+        <div
+          className="h-full bg-gradient-to-r from-emerald-600 via-amber-500 to-emerald-700 transition-all duration-75 shadow-xs"
+          style={{ width: `${scrollProgress}%` }}
+        />
+      </div>
+
       {/* Sticky Top Reader Header (Identical to TopicContinuousReader) */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-2xs">
         <div className="w-full px-4 sm:px-6 py-2 flex items-center justify-between gap-4">
@@ -188,7 +206,7 @@ export function Shelf007ContinuousReader({
             </div>
           </div>
 
-          <div className="flex items-center gap-3 shrink-0">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             {/* Progress indicator */}
             <div className="hidden sm:flex flex-col items-end text-right">
               <span className="text-[10px] font-mono text-stone-500">
@@ -204,6 +222,9 @@ export function Shelf007ContinuousReader({
 
             {/* Font Size Stepper Control */}
             <FontSizeControl />
+
+            {/* Reading Ambience Switcher */}
+            <ThemeSwitcher />
 
             {/* Quick Outline Jump Menu */}
             <button
