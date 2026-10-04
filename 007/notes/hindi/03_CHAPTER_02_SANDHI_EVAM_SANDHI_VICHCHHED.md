@@ -518,3 +518,64 @@ $$\mathbf{इ/उ + ः + र \longrightarrow ई/ऊ + र \ (विसर्�
 13. **तपोभूमि** = `तपः + भूमि` (विसर्ग संधि)
 14. **पावक** = `पौ + अक` (अयादि स्वर संधि)
 15. **वाङ्मय** = `वाक् + मय` (व्यंजन संधि)
+
+---
+
+## 2.9 RPSC 2024–2025 नवीनतम परीक्षा चक्र विभेदक (Edge Cases & Trap Matrix)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, सहायक कृषि अधिकारी, स्कूल व्याख्याता 2024) में पूछे गए उच्च-विभेदक संधि प्रश्न:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 22%;">संधि पद</th>
+      <th style="padding: 8px; text-align: left; width: 28%;">शुद्ध विच्छेद</th>
+      <th style="padding: 8px; text-align: left; width: 20%;">संधि भेद</th>
+      <th style="padding: 8px; text-align: left; width: 30%;">परीक्षक का जाल (Trap Warning)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">अभीष्ट</td>
+      <td style="padding: 6px;">अभि + इष्ट</td>
+      <td style="padding: 6px;">दीर्घ स्वर संधि</td>
+      <td style="padding: 6px; color: #dc2626;">'इष्ट' में ह्रस्व 'इ' होता है; 'ईष्ट' लिखना अशुद्ध है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">अभीप्सा</td>
+      <td style="padding: 6px;">अभि + ईप्सा</td>
+      <td style="padding: 6px;">दीर्घ स्वर संधि</td>
+      <td style="padding: 6px; color: #dc2626;">'ईप्सा' में दीर्घ 'ई' होता है; 'इप्सा' ❌ अशुद्ध।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">अन्वेषण</td>
+      <td style="padding: 6px;">अनु + एषण</td>
+      <td style="padding: 6px;">यण स्वर संधि</td>
+      <td style="padding: 6px; color: #dc2626;">'एषण' (इच्छा) में एक मात्रा 'ए' होती है; 'ऐषण' नहीं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">पित्राज्ञा</td>
+      <td style="padding: 6px;">पितृ + आज्ञा</td>
+      <td style="padding: 6px;">यण स्वर संधि</td>
+      <td style="padding: 6px; color: #dc2626;">ऋ + आ = रा; 'पितृआज्ञा' लिखना अशुद्ध है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">अतएव</td>
+      <td style="padding: 6px;">अतः + एव</td>
+      <td style="padding: 6px;">विसर्ग संधि</td>
+      <td style="padding: 6px; color: #dc2626;">विसर्ग लोप नियम; 'अतःएव' या 'अतैएव' अशुद्ध।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">मन्वन्तर</td>
+      <td style="padding: 6px;">मनु + अन्तर</td>
+      <td style="padding: 6px;">यण स्वर संधि</td>
+      <td style="padding: 6px; color: #dc2626;">उ + अ = व; 'मनवन्तर' ❌ अशुद्ध।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">दिङ्मण्डल</td>
+      <td style="padding: 6px;">दिक् + मण्डल</td>
+      <td style="padding: 6px;">व्यंजन संधि</td>
+      <td style="padding: 6px; color: #dc2626;">प्रथम वर्ण का पंचम में परिवर्तन (क् ➔ ङ्)। 'दिग्मण्डल' ❌ अशुद्ध।</td>
+    </tr>
+  </tbody>
+</table>

@@ -136,3 +136,46 @@
    *उत्तर*: `अंस` = **कंधा**, `अंश` = **हिस्सा / भाग**।
 5. **प्रश्न**: 'वसन' एवं 'व्यसन' के अर्थ स्पष्ट कीजिए।  
    *उत्तर*: `वसन` = **वस्त्र (कपड़ा)**, `व्यसन` = **बुरी लत (आदत)**।
+
+---
+
+## 7.6 RPSC 2024–2025 नवीनतम परीक्षा चक्र विभेदक (Edge Cases & Trap Matrix)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, स्कूल व्याख्याता 2024) में पूछे गए उच्च-विभेदक शब्द-युग्म:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 25%;">शब्द-युग्म</th>
+      <th style="padding: 8px; text-align: left; width: 35%;">मानक अर्थ-भेद</th>
+      <th style="padding: 8px; text-align: left; width: 40%;">परीक्षक का जाल (Trap Warning)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">पुष्कल - पुष्कर</td>
+      <td style="padding: 6px;">पुष्कल = प्रचुर / पर्याप्त<br>पुष्कर = तालाब / कमल / तीर्थ</td>
+      <td style="padding: 6px; color: #dc2626;">'पुष्कल' को 'पुष्प' या 'तालाब' समझना भारी भूल है; पुष्कल का अर्थ पर्याप्त/अधिक होता है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">चतुष्पद - चतुष्पथ</td>
+      <td style="padding: 6px;">चतुष्पद = चौपाया (पशु)<br>चतुष्पथ = चौराहा (चार मार्ग)</td>
+      <td style="padding: 6px; color: #dc2626;">'पद' = पैर (चौपाया जानवर); 'पथ' = रास्ता (चौराहा)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">अद्य - आद्य</td>
+      <td style="padding: 6px;">अद्य = आज<br>आद्य = प्रथम / पहला</td>
+      <td style="padding: 6px; color: #dc2626;">'अद्य' अव्यय है (आज); 'आद्य' विशेषण है (आदि का/प्रथम)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">टुक - टूक</td>
+      <td style="padding: 6px;">टुक = थोड़ा / जरा-सा<br>टूक = टुकड़ा / खंड</td>
+      <td style="padding: 6px; color: #dc2626;">ह्रस्व 'टुक' = थोड़ा; दीर्घ 'टूक' = टुकड़ा (जैसे 'दो टूक बात')।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">तरणि - तरणी - तरुणी</td>
+      <td style="padding: 6px;">तरणि = सूर्य<br>तरणी = नाव<br>तरुणी = युवती</td>
+      <td style="padding: 6px; color: #dc2626;">ह्रस्व 'णि' = सूर्य; दीर्घ 'णी' = नाव; 'रुणी' = युवती।</td>
+    </tr>
+  </tbody>
+</table>

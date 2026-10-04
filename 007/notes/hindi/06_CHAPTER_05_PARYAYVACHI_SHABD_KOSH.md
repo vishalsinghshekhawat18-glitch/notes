@@ -198,3 +198,52 @@ RPSC RAS Mains में देवताओं, पौराणिक पात�
    *उत्तर*: **`मनोज`** तथा **`अनंग`** (अथवा `कंदर्प`, `मन्मथ`)।
 5. **प्रश्न**: 'बिजली' के दो पर्यायवाची लिखिए।  
    *उत्तर*: **`दामिनी`** तथा **`तड़ित्`** (अथवा `सौदामिनी`, `विद्युत`, `चंचला`)।
+
+---
+
+## 5.8 RPSC 2024–2025 नवीनतम परीक्षा चक्र विभेदक (Edge Cases & Trap Matrix)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, स्कूल व्याख्याता 2024) में पूछे गए उच्च-विभेदक पर्यायवाची प्रश्न:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 20%;">मूल शब्द</th>
+      <th style="padding: 8px; text-align: left; width: 35%;">प्रामाणिक पर्यायवाची वर्ग</th>
+      <th style="padding: 8px; text-align: left; width: 20%;">भ्रामक शब्द (Imposter)</th>
+      <th style="padding: 8px; text-align: left; width: 25%;">परीक्षक का भेद (Diagnostic Note)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">भिक्षा</td>
+      <td style="padding: 6px;">भीख, याचना, मधुकरी</td>
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">भुक्ति</td>
+      <td style="padding: 6px;">'भुक्ति' का अर्थ उपभोग या भोजन होता है, भिक्षा नहीं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">सूर्य</td>
+      <td style="padding: 6px;">मिहिर, पतंग, अर्क, मार्तंड</td>
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">तारकेश / विधु</td>
+      <td style="padding: 6px;">'तारकेश' एवं 'विधु' चंद्रमा के पर्याय हैं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">कामदेव</td>
+      <td style="padding: 6px;">मन्मथ, कंदर्प, मकरध्वज, अनंग</td>
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">मकरंद</td>
+      <td style="padding: 6px;">'मकरंद' पुष्प-रस/पराग को कहते हैं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">समुद्र</td>
+      <td style="padding: 6px;">अर्णव, पारावार, पयोधि, रत्नाकर</td>
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">वारिद</td>
+      <td style="padding: 6px;">'वारिद' (जल देने वाला) बादल है, समुद्र नहीं।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">रात</td>
+      <td style="padding: 6px;">विभावरी, शर्वरी, त्रियामा, निशीथिनी</td>
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">वासर</td>
+      <td style="padding: 6px;">'वासर' दिन का पर्याय है।</td>
+    </tr>
+  </tbody>
+</table>

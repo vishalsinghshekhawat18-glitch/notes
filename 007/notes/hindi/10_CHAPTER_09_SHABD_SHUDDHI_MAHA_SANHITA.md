@@ -287,3 +287,51 @@ RPSC RAS मुख्य परीक्षा में **शब्द शु�
    *उत्तर*: 'श' में 'ऋ' की मात्रा जुड़ने पर पदेन 'र' हट जाता है, अतः शुद्ध रूप **`शृंगार`** एवं **`शृंखला`** है।
 5. **प्रश्न**: 'हाथिनी' एवं 'कमलनी' के शुद्ध रूप क्या हैं?  
    *उत्तर*: **`हथिनी`** तथा **`कमलिनी`**।
+
+---
+
+## 9.7 RPSC 2024–2025 नवीनतम परीक्षा चक्र विभेदक (Edge Cases & Trap Matrix)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, स्कूल व्याख्याता 2024) में पूछे गए उच्च-विभेदक शब्द शुद्धि प्रश्न:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 22%;">अशुद्ध रूप (❌)</th>
+      <th style="padding: 8px; text-align: left; width: 25%;">शुद्ध रूप (✅)</th>
+      <th style="padding: 8px; text-align: left; width: 53%;">व्याकरणिक नियम एवं परीक्षक का जाल</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">दुरावस्था</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">दुरवस्था</td>
+      <td style="padding: 6px;">'दुर्' उपसर्ग में 'अवस्था' जुड़ने पर 'र' में 'अ' मिलकर हलन्त हटता है, 'रा' नहीं बनता।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">निरलम्ब</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">निरावलम्ब</td>
+      <td style="padding: 6px;">'निर्' + 'आवलम्ब' (आश्रय-रहित) = निरावलम्ब शुद्ध तत्सम रूप है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">पुरुस्कार</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">पुरस्कार</td>
+      <td style="padding: 6px;">'र' में ह्रस्व 'उ' (रु) होता है, दीर्घ 'रू' (रू) नहीं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">मरिचिका, महिना</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">मरीचिका, महीना</td>
+      <td style="padding: 6px;">'मरीचिका' में 'री' दीर्घ और 'का' ह्रस्व; 'महीना' में 'ही' दीर्घ होता है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">प्रदर्शिनी</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">प्रदर्शनी</td>
+      <td style="padding: 6px;">'प्रदर्शनी' शुद्ध है ('प्रियदर्शिनी' के भ्रम में छात्र 'प्रदर्शिनी' लिख देते हैं)।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; color: #dc2626; font-weight: bold;">अहिल्या</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">अहल्या</td>
+      <td style="padding: 6px;">शास्त्रीय तत्सम रूप 'अहल्या' है ('अहिल्या' लोकप्रचलित परंतु अशुद्ध है)।</td>
+    </tr>
+  </tbody>
+</table>

@@ -200,3 +200,52 @@
    *उत्तर*: **तिरोभाव**।
 5. **प्रश्न**: 'श्लाघा' का विलोम शब्द क्या है?  
    *उत्तर*: **निंदा**।
+
+---
+
+## 6.7 RPSC 2024–2025 नवीनतम परीक्षा चक्र विभेदक (Edge Cases & Trap Matrix)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, सहायक कृषि अधिकारी 2024, स्कूल व्याख्याता 2024) में पूछे गए उच्च-विभेदक विलोम प्रश्न:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 22%;">मूल शब्द</th>
+      <th style="padding: 8px; text-align: left; width: 25%;">शुद्ध विलोम (Standard)</th>
+      <th style="padding: 8px; text-align: left; width: 25%;">घातक विकल्प (Trap Option)</th>
+      <th style="padding: 8px; text-align: left; width: 28%;">व्याकरणिक कारण एवं विश्लेषण</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">हत</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">अहत</td>
+      <td style="padding: 6px; color: #dc2626;">निहत / विहत</td>
+      <td style="padding: 6px;">'हत' का अर्थ मारा हुआ है; निहत/विहत उसके पर्याय हैं, विलोम केवल 'अहत' है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">रूक्ष</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">मसृण</td>
+      <td style="padding: 6px; color: #dc2626;">सरल / स्निग्ध</td>
+      <td style="padding: 6px;">रूक्ष का शास्त्रीय तत्सम विलोम 'मसृण' (चिकना/कोमल) है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">आमिष</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">निरामिष</td>
+      <td style="padding: 6px; color: #dc2626;">सामिष</td>
+      <td style="padding: 6px;">'आमिष' और 'सामिष' दोनों समानार्थी (मांसाहारी) हैं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">अमित</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">परिमित</td>
+      <td style="padding: 6px; color: #dc2626;">सीमित</td>
+      <td style="padding: 6px;">तत्सम 'अमित' का मानक विलोम तत्सम 'परिमित' ही होगा।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">अज्ञ</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">विज्ञ / प्रज्ञ</td>
+      <td style="padding: 6px; color: #dc2626;">सर्वज्ञ</td>
+      <td style="padding: 6px;">अज्ञ (न जानने वाला) का विलोम विज्ञ (विशेष जानने वाला) है; 'सर्वज्ञ' अल्पज्ञ का विलोम है।</td>
+    </tr>
+  </tbody>
+</table>

@@ -246,3 +246,46 @@
    *उत्तर*: **निशीथ**।
 5. **प्रश्न**: 'जो बाएं हाथ से धनुष चला सके' के लिए एक शब्द बताइए।  
    *उत्तर*: **सव्यसाची**।
+
+---
+
+## 8.11 RPSC 2024–2025 नवीनतम परीक्षा चक्र विभेदक (Edge Cases & Trap Matrix)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, स्कूल व्याख्याता 2024) में पूछे गए उच्च-विभेदक वाक्यांश:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 40%;">वाक्यांश (Statement)</th>
+      <th style="padding: 8px; text-align: left; width: 25%;">शुद्ध सार्थक शब्द</th>
+      <th style="padding: 8px; text-align: left; width: 35%;">परीक्षक का जाल एवं विभेदक (Trap Analysis)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">समय पर जिसकी बुद्धि तुरंत ठीक कार्य करे</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">प्रत्युत्पन्नमति</td>
+      <td style="padding: 6px; color: #dc2626;">विकल्प में 'बुद्धिजीवी' या 'कुशाग्रबुद्धि' भटकाव हेतु दिए जाते हैं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">मार्ग में उपभोग के लिए दी जाने वाली खाद्य सामग्री</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">पाथेय</td>
+      <td style="padding: 6px; color: #dc2626;">'पथ्य' रोगी का हितकर भोजन है; मार्ग का भोजन केवल 'पाथेय' है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">जो अपने स्थान या स्थिति से अलग न किया जा सके</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">अच्युत</td>
+      <td style="padding: 6px; color: #dc2626;">'अटल' या 'अडिग' सामान्य विशेषण हैं; शास्त्रसम्मत तत्सम शब्द 'अच्युत' है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">वह स्त्री जिसका पति परदेस से लौटा हो</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">आगतपतिका</td>
+      <td style="padding: 6px; color: #dc2626;">जिसका जाने वाला हो = प्रवत्स्यत्पतिका; जिसका गया हुआ हो = प्रोषितपतिका।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">किए हुए उपकार को मानने वाला / न मानने वाला</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">कृतज्ञ / कृतघ्न</td>
+      <td style="padding: 6px; color: #dc2626;">'कृतघ्न' में 'घ्न' (हनन करने वाला) है; 'कृतज्ञ' में 'ज्ञ' (जानने वाला) है।</td>
+    </tr>
+  </tbody>
+</table>

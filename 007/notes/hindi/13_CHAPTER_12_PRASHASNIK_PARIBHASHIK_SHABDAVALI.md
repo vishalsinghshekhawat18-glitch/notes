@@ -198,3 +198,96 @@ RPSC RAS मुख्य परीक्षा के प्रश्न-पत�
   - *De facto* $\rightarrow$ **वस्तुतः / यथार्थतः**
   - *Prima facie* $\rightarrow$ **प्रथम दृष्टया**
   - *Tender* $\rightarrow$ **निविदा**
+
+---
+
+## 5. RPSC उच्च-आवृत्ति पारिभाषिक शब्दावली परिशिष्ट (SI & RAS High-Frequency Core List)
+
+राजस्थान लोक सेवा आयोग (RPSC) की परीक्षाओं में बारंबार पूछे जाने वाले उच्च-प्राथमिकता विधिक एवं प्रशासनिक पारिभाषिक शब्द:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 30%;">अंग्रेजी शब्द (Official Term)</th>
+      <th style="padding: 8px; text-align: left; width: 35%;">मानक हिंदी पारिभाषिक रूप</th>
+      <th style="padding: 8px; text-align: left; width: 35%;">प्रशासनिक संदर्भ एवं अर्थ-विभेदक</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Ab initio</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">आदितः / आरंभ से ही</td>
+      <td style="padding: 6px;">विधिक संविदा जो प्रारंभ से ही शून्य हो (Void ab initio)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Abatement</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">उपशमन / कमी</td>
+      <td style="padding: 6px;">कर अथवा प्रदूषण का उपशमन (Pollution abatement)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Abdication</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">पदत्याग / राजत्याग</td>
+      <td style="padding: 6px;">संवैधानिक या राजपद का स्वेच्छा से त्याग।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Abetment / Abettor</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">दुष्प्रेरण / दुष्प्रेरक</td>
+      <td style="padding: 6px;">आपराधिक विधि (IPC/BNS) में अपराध हेतु उकसाना।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Absconder</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">भगोड़ा / फरार</td>
+      <td style="padding: 6px;">न्यायालयी प्रक्रिया से बचने वाला अभियुक्त।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Accreditation</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">प्रत्यायन</td>
+      <td style="padding: 6px;">संस्थान या पत्रकार को आधिकारिक मान्यता (NAAC accreditation)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Accrual</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">प्रोद्भावन / प्रोद्भुत होना</td>
+      <td style="padding: 6px;">वित्तीय लेखांकन में देयता या आय का उपार्जन।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Acquittance</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">भरपाई / निस्तारण / रसीद</td>
+      <td style="padding: 6px;">ऋण या देयता का पूर्ण भुगतान प्रमाण (Acquittance roll)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Ad infinitum</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">निरवधि / अनंत काल तक</td>
+      <td style="padding: 6px;">बिना किसी समय-सीमा के।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Ad valorem</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">मूल्यानुसार</td>
+      <td style="padding: 6px;">वस्तु के मूल्य के अनुपात में लगाया गया शुल्क (Ad valorem duty)।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Addendum</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">अनुशेष / परिवर्धन</td>
+      <td style="padding: 6px;">दस्तावेज के अंत में जोड़ा गया पूरक भाग।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Adjournment motion</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">स्थगन प्रस्ताव / काम रोको प्रस्ताव</td>
+      <td style="padding: 6px;">संसदीय/विधानसभा प्रक्रिया में अविलंबनीय लोक महत्व का मुद्दा।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Adjudicator</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">न्यायनिर्णायक</td>
+      <td style="padding: 6px;">प्रशासनिक अधिकरण या विवाद में औपचारिक निर्णयकर्ता।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">Administered price</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">निर्देशित कीमत / प्रशासित मूल्य</td>
+      <td style="padding: 6px;">सरकार द्वारा निर्धारित मूल्य (जैसे आवश्यक वस्तुओं हेतु)।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">Administrative sanction</td>
+      <td style="padding: 6px; color: #15803d; font-weight: bold;">प्रशासनिक स्वीकृति / प्रशासनिक मंजूरी</td>
+      <td style="padding: 6px;">योजना के क्रियान्वयन हेतु सक्षम प्राधिकारी का औपचारिक अनुमोदन।</td>
+    </tr>
+  </tbody>
+</table>

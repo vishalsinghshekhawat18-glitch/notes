@@ -277,3 +277,41 @@ $$\text{कर्ता} \longrightarrow \text{गौण कर्म (सजी
 3. **संबोधन और क्रिया का असामंजस्य**:
    - अशुद्ध: "महोदय, आप अपना अभिमत प्रस्तुत करो।"
    - शुद्ध: "**महोदय, आप अपना अभिमत प्रस्तुत करें (कीजिए)।**"
+
+---
+
+## 7. RPSC 2024–2025 अव्यय, निपात एवं क्रिया-विशेषण अन्वय विभेदक (Advanced Syntax Traps)
+
+हाल ही की आरपीएससी परीक्षाओं (उप-निरीक्षक दूरसंचार 2025, स्कूल व्याख्याता 2024) में पूछे गए वाक्य रचना एवं अव्यय अन्वय के उच्च-स्तरीय विभेदक:
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;">
+  <thead>
+    <tr style="border-top: 1.5pt solid #000; border-bottom: 1pt solid #000; background-color: #f8fafc;">
+      <th style="padding: 8px; text-align: left; width: 25%;">व्याकरणिक पद / कोटि</th>
+      <th style="padding: 8px; text-align: left; width: 35%;">RPSC परीक्षा वाक्य उदाहरण</th>
+      <th style="padding: 8px; text-align: left; width: 40%;">आयोग की कसौटी एवं विश्लेषण (Diagnostic Key)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">क्रिया-विशेषण भेद विभेदक</td>
+      <td style="padding: 6px;">"वह बहुत थक गया था।"</td>
+      <td style="padding: 6px;">'बहुत' यहाँ **परिमाणवाचक** है (रीतिवाचक नहीं)। 'तेजी से', 'ध्यानपूर्वक', 'भलीभाँति' रीतिवाचक हैं।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">निपात अन्वय पहचान</td>
+      <td style="padding: 6px;">"उसने अपने भाई <u>तक</u> को नहीं बुलाया।" vs "राम ने पुस्तक खरीदी थी।"</td>
+      <td style="padding: 6px;">'तक', 'भर', 'भी', 'तो' निपात हैं जो पद पर विशेष बल देते हैं। दूसरे वाक्य में कोई निपात नहीं है।</td>
+    </tr>
+    <tr style="border-bottom: 0.5pt solid #e2e8f0;">
+      <td style="padding: 6px; font-weight: bold;">विस्मयादिबोधक अव्यय भेद</td>
+      <td style="padding: 6px;">"हट! दूर हो जा।" vs "अजी! सुनते हो।"</td>
+      <td style="padding: 6px;">'हट!' **तिरस्कार/घृणाबोधक** अव्यय है; 'अजी!', 'अरी!', 'हे!' संबोधनद्योतक अव्यय हैं।</td>
+    </tr>
+    <tr style="border-bottom: 1.5pt solid #000;">
+      <td style="padding: 6px; font-weight: bold;">युग्म समुच्चयबोधक दोष</td>
+      <td style="padding: 6px;">अशुद्ध: "यद्यपि वह निर्धन है परंतु ईमानदार है।"<br>शुद्ध: "यद्यपि वह निर्धन है <u>तथापि</u> ईमानदार है।"</td>
+      <td style="padding: 6px;">'यद्यपि' के साथ अनिवार्यतः 'तथापि' आता है, 'परंतु' या 'लेकिन' लगाना वाक्य दोष है।</td>
+    </tr>
+  </tbody>
+</table>
