@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 @layer base {
   *, *::before, *::after {
     box-sizing: border-box;
+  }
+  :root {
+    --font-serif: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
   html {
     overflow-x: clip;
@@ -17,6 +24,7 @@
     width: 100%;
     position: relative;
     touch-action: pan-y;
+    font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     color: #1c1917;
     background-color: #f7f5f0;
     background-image: 
@@ -122,7 +130,7 @@ html[data-font-size="xl"] {
 }
 
 .markdown-content h1 {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-h1-size, 1.5rem);
   font-weight: 700;
   color: #1c1917;
@@ -133,7 +141,7 @@ html[data-font-size="xl"] {
 }
 
 .markdown-content h2 {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-h2-size, 1.25rem);
   font-weight: 700;
   color: #1c1917;
@@ -144,7 +152,7 @@ html[data-font-size="xl"] {
 }
 
 .markdown-content h3 {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-h3-size, 1.1rem);
   font-weight: 700;
   color: #1c1917;
@@ -153,7 +161,7 @@ html[data-font-size="xl"] {
 }
 
 .markdown-content h4 {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-h4-size, 0.95rem);
   font-weight: 600;
   color: #292524;
@@ -163,7 +171,7 @@ html[data-font-size="xl"] {
 
 .markdown-content p {
   margin-bottom: 0.85rem;
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-font-size, 1rem);
   line-height: var(--content-line-height, 1.75);
 }
@@ -189,7 +197,7 @@ html[data-font-size="xl"] {
   padding-left: 1.35rem;
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-font-size, 1rem);
   line-height: var(--content-line-height, 1.75);
 }
@@ -199,7 +207,7 @@ html[data-font-size="xl"] {
   padding-left: 1.35rem;
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-libron), "Libron", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: var(--content-font-size, 1rem);
   line-height: var(--content-line-height, 1.75);
 }

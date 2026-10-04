@@ -1,8 +1,36 @@
 import type { Metadata } from 'next';
+import localFont from 'next/font/local';
 import './globals.css';
 import 'katex/dist/katex.min.css';
 import { SiteHeader } from '@/components/navigation/site-header';
 import { ServiceWorkerCleaner } from '@/components/navigation/service-worker-cleaner';
+
+const libron = localFont({
+  src: [
+    {
+      path: './fonts/libron/Libron-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './fonts/libron/Libron-Italic.woff2',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: './fonts/libron/Libron-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: './fonts/libron/Libron-BoldItalic.woff2',
+      weight: '700',
+      style: 'italic',
+    },
+  ],
+  variable: '--font-libron',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Mind of Aravalli | Reading Hub',
@@ -22,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="overflow-x-clip max-w-full w-full" suppressHydrationWarning>
+    <html lang="en" className={`overflow-x-clip max-w-full w-full ${libron.variable}`} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -30,7 +58,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-[#FAF9F4] text-[#1B211E] antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-clip max-w-full w-full">
+      <body className={`${libron.variable} bg-[#FAF9F4] text-[#1B211E] antialiased font-serif min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-clip max-w-full w-full`}>
         <ServiceWorkerCleaner />
         <SiteHeader />
         <main className="flex-1 overflow-x-clip max-w-full w-full">
