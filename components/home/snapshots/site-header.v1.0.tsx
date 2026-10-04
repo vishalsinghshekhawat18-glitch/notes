@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logoIcon from '@/app/icon.png';
-import { SearchDialog } from './search-dialog';
-import { ThemeSwitcher } from './theme-switcher';
+import { SearchDialog } from '@/components/navigation/search-dialog';
+import { ThemeSwitcher } from '@/components/navigation/theme-switcher';
 
 export function SiteHeader() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
