@@ -22,18 +22,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="overflow-x-hidden max-w-full w-full" suppressHydrationWarning>
+    <html lang="en" className="overflow-x-clip max-w-full w-full" suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var s=localStorage.getItem('reading_hub_font_size');if(s&&['sm','md','lg','xl'].indexOf(s)!==-1){document.documentElement.setAttribute('data-font-size',s);}else{document.documentElement.setAttribute('data-font-size','md');}var t=localStorage.getItem('reading_hub_theme');if(t&&['parchment','obsidian','ivory'].indexOf(t)!==-1){document.documentElement.setAttribute('data-theme',t);}else{document.documentElement.setAttribute('data-theme','parchment');}}catch(e){}})();`,
+            __html: `(function(){try{var s=localStorage.getItem('reading_hub_font_size');if(s&&['sm','md','lg','xl'].indexOf(s)!==-1){document.documentElement.setAttribute('data-font-size',s);}else{document.documentElement.setAttribute('data-font-size','md');}var t=localStorage.getItem('reading_hub_theme');if(t&&['parchment','obsidian','ivory'].indexOf(t)!==-1){document.documentElement.setAttribute('data-theme',t);}else{document.documentElement.setAttribute('data-theme','parchment');}}catch(e){}if(typeof window!=='undefined'){window.addEventListener('scroll',function(){if(window.scrollX!==0)window.scrollTo(0,window.scrollY);},{passive:true});}})();`,
           }}
         />
       </head>
-      <body className="bg-[#FAF9F4] text-[#1B211E] antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-hidden max-w-full w-full">
+      <body className="bg-[#FAF9F4] text-[#1B211E] antialiased font-sans min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-clip max-w-full w-full">
         <ServiceWorkerCleaner />
         <SiteHeader />
-        <main className="flex-1 overflow-x-hidden max-w-full w-full">
+        <main className="flex-1 overflow-x-clip max-w-full w-full">
           {children}
         </main>
         <footer className="py-6 border-t border-[#1E3A2E] bg-[#10251F] px-4 sm:px-6 text-center text-xs text-[#A1B8A9] font-mono shrink-0 select-none">

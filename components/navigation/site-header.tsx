@@ -32,7 +32,7 @@ export function SiteHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm max-w-full overflow-x-hidden">
+      <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm max-w-full overflow-x-clip">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-2 w-full min-w-0">
           {/* Brand & Subtitle */}
           <div className="flex items-center gap-4 sm:gap-6 min-w-0">
@@ -58,7 +58,7 @@ export function SiteHeader() {
             </Link>
 
             {/* Desktop Scholarly Navigation */}
-            <nav className="hidden lg:flex items-center gap-4 xl:gap-5 text-xs font-serif text-[#D5DDD6] min-w-0">
+            <nav className="hidden xl:flex items-center gap-4 xl:gap-5 text-xs font-serif text-[#D5DDD6] min-w-0">
               {navLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -81,8 +81,8 @@ export function SiteHeader() {
               <svg className="w-3.5 h-3.5 text-[#A1B8A9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-              <span className="hidden sm:inline text-[11px] text-[#D5DDD6]">Search library corpus...</span>
-              <kbd className="hidden md:inline-block font-mono text-[9px] bg-[#10251F] text-[#C59B4B] px-1.5 py-0.5 rounded border border-[#234A3C]">
+              <span className="hidden md:inline text-[11px] text-[#D5DDD6]">Search library...</span>
+              <kbd className="hidden lg:inline-block font-mono text-[9px] bg-[#10251F] text-[#C59B4B] px-1.5 py-0.5 rounded border border-[#234A3C]">
                 ⌘K
               </kbd>
             </button>
@@ -92,7 +92,7 @@ export function SiteHeader() {
             {/* Mobile / Tablet Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-1.5 rounded-lg border border-[#234A3C] text-[#FAF8F3] hover:bg-[#16352A] transition-colors"
+              className="xl:hidden p-1.5 rounded-lg border border-[#234A3C] text-[#FAF8F3] hover:bg-[#16352A] transition-colors"
               aria-label="Toggle navigation drawer"
             >
               {isMobileMenuOpen ? (
@@ -110,7 +110,7 @@ export function SiteHeader() {
 
         {/* Mobile Navigation Dropdown Drawer */}
         {isMobileMenuOpen && (
-          <nav className="lg:hidden border-t border-[#1E3A2E] bg-[#10251F] px-4 py-3 space-y-1 font-serif text-sm">
+          <nav className="xl:hidden border-t border-[#1E3A2E] bg-[#10251F] px-4 py-3 space-y-1 font-serif text-sm">
             {navLinks.map((link) => (
               <Link
                 key={link.label}

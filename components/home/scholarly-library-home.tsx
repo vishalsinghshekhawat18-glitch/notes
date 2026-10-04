@@ -285,7 +285,7 @@ export function ScholarlyLibraryHome() {
   const totalMCQs = useMemo(() => MONOGRAPHS.reduce((acc, m) => acc + m.mcqCount, 0), []);
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-6 text-[#172720] font-sans min-w-0 overflow-x-hidden">
+    <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-6 text-[#172720] font-sans min-w-0 overflow-x-clip">
       
       {/* =========================================================================
           1. THE SCHOLARLY PROSCENIUM & LIBRARY MASTHEAD

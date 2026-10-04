@@ -183,7 +183,7 @@ export function Shelf007ContinuousReader({
   });
 
   return (
-    <div className="min-h-screen bg-[#FAF9F4] text-[#1B211E] font-sans pb-24 overflow-x-hidden max-w-full">
+    <div className="min-h-screen bg-[#FAF9F4] text-[#1B211E] font-sans pb-24 overflow-x-clip max-w-full">
       {/* Precision Scroll Progress Line */}
       <div className="fixed top-0 left-0 right-0 h-[3px] bg-[#E0D9CB] z-50 pointer-events-none">
         <div
