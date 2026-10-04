@@ -9,6 +9,8 @@ import {
   getGeneralScienceChapters,
   getGeographyChapters,
   getEnglishLanguageChapters,
+  getHindiChapters,
+  getCurrentAffairsChapters,
   getShelf007ChapterContent,
 } from '@/lib/shelf007/service';
 import { Shelf007ContinuousReader } from '@/components/shelf007/shelf007-continuous-reader';
@@ -53,7 +55,15 @@ export async function generateStaticParams() {
     subject: 'english-language',
     chapter: c.slug,
   }));
-  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng];
+  const hin = getHindiChapters().map((c) => ({
+    subject: 'hindi',
+    chapter: c.slug,
+  }));
+  const ca = getCurrentAffairsChapters().map((c) => ({
+    subject: 'current-affairs',
+    chapter: c.slug,
+  }));
+  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng, ...hin, ...ca];
 }
 
 export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPageProps) {
@@ -67,13 +77,15 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
     subject !== 'quantitative-aptitude' &&
     subject !== 'general-science' &&
     subject !== 'geography' &&
-    subject !== 'english-language'
+    subject !== 'english-language' &&
+    subject !== 'hindi' &&
+    subject !== 'current-affairs'
   ) {
     notFound();
   }
 
   const data = getShelf007ChapterContent(
-    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language',
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs',
     chapter
   );
   if (!data) {
@@ -94,6 +106,8 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
           | 'general-science'
           | 'geography'
           | 'english-language'
+          | 'hindi'
+          | 'current-affairs'
       }
       currentChapter={current}
       prevChapter={prev}

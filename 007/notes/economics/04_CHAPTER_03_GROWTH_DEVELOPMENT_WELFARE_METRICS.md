@@ -139,7 +139,8 @@ $$I_x = \frac{\text{Actual Value} - \text{Minimum Goalpost}}{\text{Maximum Goalp
    $$I_{\text{Education}} = \frac{I_{\text{MYS}} + I_{\text{EYS}}}{2}$$
 3. **Income Dimension ($I_{\text{Income}}$)**:
    Uses **natural logarithms ($\ln$)** to reflect the **diminishing marginal utility of income** (an extra \$1,000 transforms the life of a destitute person far more than a billionaire):
-   $$I_{\text{Income}} = \frac{\ln(\text{Actual GNI per capita PPP \$}) - \ln(100)}{\ln(75,000) - \ln(100)}$$
+   $$I_{\text{Income}} = \frac{\ln(\text{Actual GNI per capita PPP USD}) - \ln(100)}{\ln(75,000) - \ln(100)}$$
+
 
 ---
 

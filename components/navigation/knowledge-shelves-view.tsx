@@ -398,6 +398,57 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       syllabusUrl: '/shelf-007/english-language',
       readUrl: '/shelf-007/english-language/01_master_chapter_120_golden_grammar_rules',
     },
+    {
+      id: 'hin-007',
+      code: 'HIN-007',
+      category: 'HUM',
+      categoryName: 'Classical Linguistics & Administrative Rhetoric',
+      badgeText: 'Dr. Raghav Prakash • Dr. Hardev Bahri • RBSE 9–12 • CSTT',
+      badgeColor: 'text-[#831843] bg-[#fdf2f8] border-[#fbcfe8]',
+      title: 'General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)',
+      authorText: 'डॉ. राघव प्रकाश • डॉ. हरदेव बाहरी • डॉ. वासुदेवनंदन प्रसाद • RBSE कक्षा 9–12 • CSTT',
+      countsText: '42 Master Chapters • Shabd Shuddhi • CSTT Glossary • Alekhan',
+      waypointsBadge: 'Release v015 Live',
+      description:
+        'Sovereign 20-chapter doctoral-depth master treatise covering Phonetics & Sandhi (संधि), Affixes (उपसर्ग/प्रत्यय), Lexicon (पर्यायवाची/विलोम/युग्म), Orthography & Syntax (शब्द शुद्धि/वाक्य शुद्धि), Rhetoric (मुहावरे/कहावतें), CSTT Administrative Terminology, Précis (संक्षिप्तीकरण), Idea Expansion (पल्लवन), Official Correspondence & Drafting (परिपत्र/निविदा/अधिसूचना), Translation, High-Scoring Essays, and Capstone Revision Vault.',
+      chips: [
+        'Sandhi & Phonetics (Ch 01-02)',
+        'Affixes & Morphology (Ch 03-04)',
+        'Lexicon & Semantics (Ch 05-08)',
+        'Shabd & Vakya Shuddhi (Ch 09-10)',
+        'CSTT Administrative Glossary (Ch 12)',
+        'Précis & Expansion (Ch 13-14)',
+        'Official Correspondence & Drafting (Ch 16-17)',
+        'Essay Laboratory & Capstone Vault (Ch 18-20)',
+      ],
+      syllabusUrl: '/shelf-007/hindi',
+      readUrl: '/shelf-007/hindi/chapter-01',
+    },
+    {
+      id: 'ca-007',
+      code: 'CA-007',
+      category: 'ECO',
+      categoryName: 'Banking Regulation & Contemporary Public Policy',
+      badgeText: 'Gazette • RBI • SC • Senior Paper-Setter Strike Dossier',
+      badgeColor: 'text-[#0369a1] bg-[#f0f9ff] border-[#bae6fd]',
+      title: 'Contemporary Issues, Banking Regulation & Current Affairs Master Codex',
+      authorText: 'The Gazette of India • Reserve Bank of India • Supreme Court Constitution Bench • PIB • SEBI • IFSCA',
+      countsText: '22 Master Chapters • 183k Words • 10 Revision Matrices • Q1–Q3 2026',
+      waypointsBadge: 'Release v016 Live',
+      description:
+        'Senior Paper-Setter master codex encompassing Static Banking Acts & Prudential Norms, 2026 Monthly & Quarterly Dossiers (January–September), Multi-Exam 35+ Marks Guarantee Mega-Compendium, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
+      chips: [
+        'Static Banking & Regulatory Core (Ch 01)',
+        'Q1 2026 (Jan–Mar) Consolidated (Ch 02)',
+        'April–July 2026 Dossiers (Ch 03–06)',
+        'August 2026 & PIB Coverage (Ch 07)',
+        'September 2026 (120 Clusters) (Ch 08)',
+        'IBPS Mains 35+ Mega-Compendium (Ch 09)',
+        'Computer Aptitude & CBS Master (Ch 10)',
+      ],
+      syllabusUrl: '/shelf-007/current-affairs',
+      readUrl: '/shelf-007/current-affairs/chapter-01',
+    },
   ];
 
   const renderSovereignMasterCard = (cardMeta: (typeof SOVEREIGN_CARDS)[number]) => {
@@ -592,7 +643,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                           </Link>
                         </div>
                         <span className="text-[11px] font-mono text-emerald-800 font-semibold">
-                          8 Sovereign Master Disciplines • 232 Master Chapters • 1,520 MCQ Diagnostic Bank • Release v007 Live
+                          10 Sovereign Master Disciplines • 333 Master Chapters • 1,520 MCQ Diagnostic Bank • Release v016 Live
                         </span>
                       </div>
                     </div>
@@ -605,11 +656,11 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
                   {/* Thematic Category Filter Tabs */}
                   <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
                     {[
-                      { id: 'ALL', label: 'All 8 Treatises', count: 8, icon: '🏛️' },
+                      { id: 'ALL', label: 'All 10 Treatises', count: 10, icon: '🏛️' },
                       { id: 'GOV', label: 'Governance & Law', count: 1, icon: '⚖️' },
-                      { id: 'ECO', label: 'Macroeconomics & Banking', count: 2, icon: '📈' },
+                      { id: 'ECO', label: 'Macroeconomics, Banking & CA', count: 3, icon: '📈' },
                       { id: 'SCI', label: 'STEM & Logic', count: 2, icon: '🔬' },
-                      { id: 'HUM', label: 'Humanities & Codex', count: 3, icon: '🌍' },
+                      { id: 'HUM', label: 'Humanities & Languages', count: 4, icon: '🌍' },
                     ].map((tab) => {
                       const isActive = selectedCategory === tab.id;
                       return (

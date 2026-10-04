@@ -17,6 +17,72 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [RELEASED] v016 — Contemporary Issues, Banking Regulation & Current Affairs Sovereign Master Codex (Release v016)
+* **Release Date**: 2026-10-04
+* **Commit SHA**: Production Deployment
+* **Status**: Deployed to GitHub Remote Repository (4 Parts, 10 Sovereign Master Chapters, 10 Rapid Revision Matrices, Cover, Table of Contents, UI Service Integration, and Sovereign Book #10 Configured; 0 Errors in TypeScript Compilation)
+* **Domain / Subject**: Contemporary Issues, Banking Regulation & Current Affairs (RBI Grade B, SEBI Grade A, NABARD Grade A, SBI PO & IBPS PO/Clerk Mains, UPSC CSE, RPSC RAS)
+* **Authoritative Treatises & Source Dossiers Ingested (10 Primary Sources, 100% Content Preserved)**:
+  1. `static_banking_regulatory_core.md` (57,520 bytes, 8,372 words) → Chapter 01
+  2. `current_affairs_2026_q1_jan_mar.md` (112,794 bytes, 16,085 words) → Chapter 02
+  3. `current_affairs_2026_april.md` (49,370 bytes, 7,422 words) → Chapter 03
+  4. `current_affairs_2026_may.md` (70,601 bytes, 9,652 words) → Chapter 04
+  5. `current_affairs_2026_june.md` (104,828 bytes, 14,562 words) → Chapter 05
+  6. `current_affairs_2026_july.md` (65,084 bytes, 9,054 words) → Chapter 06
+  7. `aug_ca_cgb1-31aug_pib1-18aug.md` (155,605 bytes, 22,393 words) → Chapter 07
+  8. `current_affairs_2026_september.md` (195,795 bytes, 27,085 words) → Chapter 08
+  9. `IBPS_MAINS_35PLUS_MASTER_JAN_SEPT.md` (302,041 bytes, 43,718 words) → Chapter 09
+  10. `computer_aptitude_mains_master.md` (137,542 bytes, 20,425 words) → Chapter 10
+* **Curricular Architecture (4 Sovereign Parts + Front Matter + Rapid Revision Suite)**:
+  - Front Matter: Neoclassical Sovereign Cover (`00_COVER.md`) & Master Table of Contents (`01_TABLE_OF_CONTENTS.md`)
+  - Part I: Static Banking, Regulatory Acts & Prudential Foundations (Ch 01)
+  - Part II: 2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026) (Ch 02–08)
+  - Part III: Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium (Ch 09)
+  - Part IV: Computer Aptitude, Digital Banking Systems & Cybersecurity Master (Ch 10)
+  - Rapid Revision: 10 High-Speed Recall Matrices & 60-Second Skeletons (`01_REV_CHAPTER_01.md` through `10_REV_CHAPTER_10.md`)
+* **Sovereign Artifacts Authored (22 Master Files, 183,363 Words)**:
+  1. `007/skills/current-affairs-master-skill.md`: Operating charter, epistemic hierarchy & A4 B&W standards.
+  2. `007/notes/current_affairs/00_COVER.md`: Sovereign book cover and Epistemic Pledge of Total Replacement.
+  3. `007/notes/current_affairs/01_TABLE_OF_CONTENTS.md`: Master Part & Chapter curriculum breakdown.
+  4. Chapters 01 to 10 (`02_CHAPTER_01_...` through `11_CHAPTER_10_...`): Full-scale master chapters with preserved 100% source fidelity.
+  5. Rapid Revision Matrices 01 to 10 (`01_REV_CHAPTER_01_...` through `10_REV_CHAPTER_10_...`): 10 rapid review matrices with distinction tables, 60-second retrieval skeletons, and high-yield examination flashcards.
+  6. Added Book #10 (`CA-007`, `current_affairs`) to `SOVEREIGN_SUBJECT_CATALOG` in `007/scripts/build_sovereign_books.ts`.
+  7. Source backups preserved in `007/sources/current_affairs/`.
+* **Service & UI Integration**:
+  - Registered `'current-affairs'` in `Shelf007SubjectMeta.slug`, `getShelf007Subjects()`, `getShelf007PartGroups()`, and `getShelf007ChapterContent()` in `lib/shelf007/service.ts`.
+  - Configured static route parameters in `app/shelf-007/[subject]/page.tsx` and `app/shelf-007/[subject]/[chapter]/page.tsx`.
+  - Configured continuous reader title in `components/shelf007/shelf007-continuous-reader.tsx`.
+* **Verification & Audit**:
+  - TypeScript compilation: 0 errors (`npx tsc --noEmit`).
+  - Strict deployment rule: Zero `git push` executed without user command.
+
+### [STAGED LOCAL] v015 — General Hindi & Administrative Rhetoric Master Codex (RPSC RAS Paper 4 Sovereign Synthesis)
+* **Release Date**: 2026-10-04
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: Complete Local Integration (All 9 Parts, 20 Chapters, 20 Rapid Revision Matrices, Cover, Table of Contents, UI Service Integration, and Sovereign Book #9 Configured; 0 Errors in TypeScript Compilation)
+* **Domain / Subject**: General Hindi & Administrative Rhetoric (RPSC RAS Mains Paper 4 — 120 Marks, UPSC CSE Compulsory Hindi, RPSC Sub-Inspector, Rajasthan CET)
+* **Authoritative Treatises & Statutory Canons Ingested**:
+  - डॉ. राघव प्रकाश, *व्यावहारिक सामान्य हिंदी* (पिंकसिटी पब्लिशर्स, जयपुर)
+  - डॉ. हरदेव बाहरी, *सामान्य हिंदी एवं प्रशासनिक शब्दावली* (लोकभारती प्रकाशन, प्रयागराज)
+  - डॉ. वासुदेवनंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना* (भारती भवन)
+  - राजस्थान माध्यमिक शिक्षा बोर्ड (RBSE), *नवीन हिंदी व्याकरण एवं रचना* (कक्षा 9 से 12)
+  - वैज्ञानिक तथा तकनीकी शब्दावली आयोग (CSTT), शिक्षा मंत्रालय, भारत सरकार (प्रशासनिक शब्दावली A–Z)
+  - राजस्थान सचिवालय, *कार्यालय कार्य-विधि एवं प्रक्रिया नियमावली* (Official Secretariat Manual)
+  - RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 विगत 10 वर्षों के हल प्रश्न-पत्र (2013, 2016, 2018, 2021, 2023)
+* **Curricular Architecture (9 Parts + 20 Chapters + 20 Rapid Revision Matrices)**:
+  - Part I: शास्त्रीय वर्ण विचार एवं उच्चारण स्थान (Ch 01)
+  - Part II: संधि एवं संधिविच्छेद महा-तंत्र (Ch 02)
+  - Part III: शब्द रचना विधान: उपसर्ग एवं प्रत्यय (Ch 03–04)
+  - Part IV: शब्द सामर्थ्य एवं अर्थ विज्ञान (पर्यायवाची, विलोम, युग्म शब्द, वाक्यांश के लिए एक शब्द) (Ch 05–08)
+  - Part V: व्याकरणिक परिशुद्धता: शब्द शुद्धि एवं वाक्य शुद्धि (Ch 09–10)
+  - Part VI: प्रशासनिक अलंकार शास्त्र एवं शब्दावली (मुहावरे, लोकोक्तियाँ, CSTT शब्दावली) (Ch 11–12)
+  - Part VII: संक्षेपण, पल्लवन एवं प्रशासनिक अनुवाद (Ch 13–15)
+  - Part VIII: शासकीय पत्राचार एवं प्रारूप लेखन (कार्यालयी पत्र, अ.शा. पत्र, परिपत्र, निविदा, अधिसूचना, प्रेस नोट, आदेश, ज्ञापन) (Ch 16–17)
+  - Part IX: निबंध प्रयोगशाला, महा-पुनरावृत्ति एवं PYQ शव-परीक्षा (Ch 18–20)
+* **Verification & Audit**:
+  - TypeScript compilation: 0 errors (`npx tsc --noEmit`).
+  - Strict deployment rule: Zero `git push` executed without user command.
+
 ### [RELEASED] v014 — English Language & Descriptive Writing: Subjective RC, Ombudsman RB-IOS 2021, Workplace Communications Vault & F.A.C.T.S. Value-Addition Arsenal
 * **Release Date**: 2026-10-03
 * **Commit SHA**: `a64105e`

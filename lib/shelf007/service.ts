@@ -31,7 +31,7 @@ export interface Shelf007PartGroup {
 }
 
 export interface Shelf007SubjectMeta {
-  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language';
+  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs';
   name: string;
   badge: string;
   badgeColor: string;
@@ -330,7 +330,252 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'Grand Synthesis Capstone Vault',
       ],
     },
+    {
+      slug: 'hindi',
+      name: 'General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)',
+      badge: 'Dr. Raghav Prakash • Dr. Hardev Bahri • RBSE 9–12 • CSTT',
+      badgeColor: 'text-[#831843] bg-[#fdf2f8] border-[#fbcfe8]',
+      code: 'HIN-007',
+      authors: 'डॉ. राघव प्रकाश • डॉ. हरदेव बाहरी • डॉ. वासुदेवनंदन प्रसाद • RBSE कक्षा 9–12 • CSTT',
+      description:
+        'Sovereign 20-chapter doctoral-depth master treatise covering Phonetics & Sandhi (संधि), Affixes (उपसर्ग/प्रत्यय), Lexicon (पर्यायवाची/विलोम/युग्म), Orthography & Syntax (शब्द शुद्धि/वाक्य शुद्धि), Rhetoric (मुहावरे/कहावतें), CSTT Administrative Terminology, Précis (संक्षिप्तीकरण), Idea Expansion (पल्लवन), Official Correspondence & Drafting (परिपत्र/निविदा/अधिसूचना), Translation, High-Scoring Essays, and Capstone Revision Vault.',
+      totalChapters: getHindiChapters().length,
+      totalWords: getHindiChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Sandhi & Phonetics (Ch 01-02)',
+        'Affixes & Morphology (Ch 03-04)',
+        'Lexicon & Semantics (Ch 05-08)',
+        'Shabd & Vakya Shuddhi (Ch 09-10)',
+        'CSTT Administrative Glossary (Ch 12)',
+        'Précis & Expansion (Ch 13-14)',
+        'Official Correspondence & Drafting (Ch 16-17)',
+        'Essay Laboratory & Capstone Vault (Ch 18-20)',
+      ],
+    },
+    {
+      slug: 'current-affairs',
+      name: 'Contemporary Issues & Current Affairs Sovereign Master Codex',
+      badge: 'Gazette • PIB • SC Judgments • The Hindu/IE • Yojana',
+      badgeColor: 'text-[#0369a1] bg-[#f0f9ff] border-[#bae6fd]',
+      code: 'CA-007',
+      authors: 'The Gazette of India • Supreme Court Constitution Bench • PIB • PRS Legislative Research • The Hindu • The Indian Express',
+      description:
+        'Comprehensive sovereign master codex encompassing Static Banking & Regulatory Acts, 2026 Monthly & Quarterly Dossiers (Jan–Sept), IBPS PO / Regulatory Mains 35+ Marks Guarantee Mega-Compendium, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
+      totalChapters: getCurrentAffairsChapters().length,
+      totalWords: getCurrentAffairsChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Static Banking & Regulatory Core (Ch 01)',
+        'Q1 2026 (Jan–Mar) Consolidated (Ch 02)',
+        'April–July 2026 Dossiers (Ch 03–06)',
+        'August 2026 & PIB Coverage (Ch 07)',
+        'September 2026 (120 Clusters) (Ch 08)',
+        'IBPS Mains 35+ Mega-Compendium (Ch 09)',
+        'Computer Aptitude & CBS Master (Ch 10)',
+      ],
+    },
   ];
+}
+
+export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'current_affairs');
+  const revDir = path.join(process.cwd(), '007', 'revision', 'current_affairs');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  const noteItems: Shelf007ChapterItem[] = files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Sovereign Cover & Epistemic Pledge';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents & Thematic Curriculum';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS') || fileName.includes('REVISION_VAULT')) {
+      slug = 'chapter-34';
+      category = 'Capstone Vault';
+      shortTitle = 'The Grand Synthesis Master Revision Vault';
+      chapterOrder = 34;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of Contemporary Issues & Current Affairs, statutory genesis, institutional mechanisms, and multi-exam elimination frameworks.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
+
+  const revItems: Shelf007ChapterItem[] = [];
+  if (fs.existsSync(revDir)) {
+    const revFiles = fs.readdirSync(revDir).filter((f) => f.endsWith('.md')).sort();
+    for (const f of revFiles) {
+      const fullPath = path.join(revDir, f);
+      const content = fs.readFileSync(fullPath, 'utf-8');
+      const wordCount = content.split(/\s+/).filter(Boolean).length;
+      const chMatch = f.match(/CHAPTER_(\d+)/i);
+      const num = chMatch ? parseInt(chMatch[1], 10) : 0;
+      const slug = `rev-chapter-${String(num).padStart(2, '0')}`;
+      const shortTitle = `Rapid Revision: Chapter ${String(num).padStart(2, '0')}`;
+      const title = extractTitleFromMarkdown(content, shortTitle);
+      const description = extractDescriptionFromMarkdown(
+        content,
+        'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
+      );
+      const sections = extractSectionsFromMarkdown(content);
+
+      revItems.push({
+        slug,
+        title,
+        shortTitle,
+        category: 'Rapid Revision Matrix',
+        description,
+        filePath: fullPath,
+        order: 100 + num,
+        wordCount,
+        readingMinutes: calculateReadingMinutes(wordCount),
+        sections,
+      });
+    }
+  }
+
+  return [...noteItems, ...revItems];
+}
+
+export function getHindiChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'hindi');
+  const revDir = path.join(process.cwd(), '007', 'revision', 'hindi');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  const noteItems: Shelf007ChapterItem[] = files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'मुखपृष्ठ एवं संप्रभु प्रतिज्ञा (Cover & Epistemic Pledge)';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'विषय-सूची एवं पाठ्यक्रम (Master Table of Contents)';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS')) {
+      slug = 'chapter-19';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 19: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 19;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
+
+  const revItems: Shelf007ChapterItem[] = [];
+  if (fs.existsSync(revDir)) {
+    const revFiles = fs.readdirSync(revDir).filter((f) => f.endsWith('.md')).sort();
+    for (const f of revFiles) {
+      const fullPath = path.join(revDir, f);
+      const content = fs.readFileSync(fullPath, 'utf-8');
+      const wordCount = content.split(/\s+/).filter(Boolean).length;
+      const chMatch = f.match(/CHAPTER_(\d+)/i);
+      const num = chMatch ? parseInt(chMatch[1], 10) : 0;
+      const slug = `rev-chapter-${String(num).padStart(2, '0')}`;
+      const shortTitle = `Rapid Revision: Chapter ${String(num).padStart(2, '0')}`;
+      const title = extractTitleFromMarkdown(content, shortTitle);
+      const description = extractDescriptionFromMarkdown(
+        content,
+        'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
+      );
+      const sections = extractSectionsFromMarkdown(content);
+
+      revItems.push({
+        slug,
+        title,
+        shortTitle,
+        category: 'Rapid Revision Matrix',
+        description,
+        filePath: fullPath,
+        order: 100 + num,
+        wordCount,
+        readingMinutes: calculateReadingMinutes(wordCount),
+        sections,
+      });
+    }
+  }
+
+  return [...noteItems, ...revItems];
 }
 
 export function getEnglishLanguageChapters(): Shelf007ChapterItem[] {
@@ -932,8 +1177,190 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
 }
 
 export function getShelf007PartGroups(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language'
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs'
 ): Shelf007PartGroup[] {
+  if (subject === 'current-affairs') {
+    const allChapters = getCurrentAffairsChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'Sovereign Front Matter & Epistemic Pledge',
+        groupSubtitle: 'Sovereign book cover, epistemic pledge, verified source canonical fusion, and master curriculum index',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'Static Banking, Regulatory Acts & Prudential Foundations',
+        groupSubtitle: 'Statutory bedrocks (RBI Act, BR Act, DICGC, NI Act), recovery laws (SARFAESI, IBC, PMLA), Basel III capital framework, PCA, and PSL mandates',
+        slugs: ['chapter-01'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: '2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)',
+        groupSubtitle: 'Exhaustive monthly & quarterly dossiers spanning January to September 2026 (ESI, Monetary Policy, Regulators, PIB Circulars, National Missions)',
+        slugs: [
+          'chapter-02',
+          'chapter-03',
+          'chapter-04',
+          'chapter-05',
+          'chapter-06',
+          'chapter-07',
+          'chapter-08',
+        ],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium',
+        groupSubtitle: 'High-scoring January–September 2026 master synthesis: deep recency, policy anchors, Union Budget, flagship missions, distinction matrices & exam trap warning vaults',
+        slugs: ['chapter-09'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'Computer Aptitude, Digital Banking Systems & Cybersecurity Master',
+        groupSubtitle: 'Units [COMP-001] to [COMP-018]: CPU Architecture, BIOS/UEFI, Operating Systems, Networking & OSI, Core Banking Solutions (CBS), DBMS/SQL, and PO Mains Binary Flowcharts',
+        slugs: ['chapter-10'],
+      },
+      {
+        partNumber: 'RAPID REVISION',
+        groupTitle: 'High-Speed Recall Matrices & 60-Second Skeletons',
+        groupSubtitle: 'Rapid revision sheets, distinction matrices, and active recall flashcards for Chapters 01–10',
+        slugs: Array.from({ length: 10 }, (_, i) => `rev-chapter-${String(i + 1).padStart(2, '0')}`),
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
+  if (subject === 'hindi') {
+    const allChapters = getHindiChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची',
+        groupSubtitle: 'प्रामाणिक आधार-ग्रंथ, षट्-शास्त्रीय स्रोत संकलन एवं RPSC RAS परीक्षा अंक भार संरचना',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'वर्ण विचार एवं संधि विज्ञान',
+        groupSubtitle: 'ध्वन्यात्मक वर्गीकरण, उच्चारण स्थान, स्वर संधि, व्यंजन संधि, विसर्ग संधि, अपवाद एवं RPSC परीक्षा जाल',
+        slugs: ['chapter-01', 'chapter-02'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'शब्द रचना एवं व्युत्पत्ति विज्ञान (उपसर्ग एवं प्रत्यय)',
+        groupSubtitle: 'संस्कृत, हिन्दी व विदेशी उपसर्ग, कृत् व तद्धित प्रत्यय, अप्रत्यय एवं विशिष्ट रूपांतरण नियम',
+        slugs: ['chapter-03', 'chapter-04'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'शब्द संपदा एवं अर्थ विज्ञान',
+        groupSubtitle: 'पर्यायवाची शब्द कोश, विलोम शब्द तंत्र, समश्रुत भिन्नार्थक युग्म-शब्द एवं वाक्यांश के लिए एक सार्थक शब्द',
+        slugs: ['chapter-05', 'chapter-06', 'chapter-07', 'chapter-08'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'वर्तनी शुद्धि एवं वाक्य विज्ञान',
+        groupSubtitle: 'शब्द शुद्धि महा-संहिता (50 स्वर्णिम नियम व 500 घातक शब्द) एवं वाक्य शुद्धि (अन्वय व पदक्रम विधान)',
+        slugs: ['chapter-09', 'chapter-10'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'व्यावहारिक मुहावरे, लोकोक्तियां एवं पारिभाषिक शब्दावली',
+        groupSubtitle: 'लाक्षणिक मुहावरे, लोकोक्तियां (प्रशासनिक वाक्य प्रयोग) एवं CSTT A-to-Z मानक पारिभाषिक शब्दावली',
+        slugs: ['chapter-11', 'chapter-12'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'संक्षिप्तीकरण, पल्लवन एवं अनुवाद (30 अंक)',
+        groupSubtitle: 'संक्षिप्तीकरण (1/3rd शब्द सीमा), पल्लवन (100 शब्द भाव विस्तार) एवं अंग्रेजी से हिन्दी प्रशासनिक अनुवाद',
+        slugs: ['chapter-13', 'chapter-14', 'chapter-15'],
+      },
+      {
+        partNumber: 'PART VII',
+        groupTitle: 'कार्यालयी पत्र एवं प्रशासनिक प्रारूप लेखन (20 अंक)',
+        groupSubtitle: 'शासकीय व अर्धशासकीय पत्र, कार्यालय आदेश, परिपत्र, विज्ञप्ति, निविदा, अधिसूचना एवं ज्ञापन',
+        slugs: ['chapter-16', 'chapter-17'],
+      },
+      {
+        partNumber: 'PART VIII',
+        groupTitle: 'उच्च-स्तरीय निबंध लेखन प्रयोगशाला (20 अंक)',
+        groupSubtitle: 'प्रशासनिक, सांस्कृतिक, राजस्थान-विशिष्ट, सामाजिक एवं चिंतनपरक निबंध — रूपरेखा, कोटेशन बैंक व मॉडल निबंध',
+        slugs: ['chapter-18'],
+      },
+      {
+        partNumber: 'PART IX',
+        groupTitle: 'महा-पुनरावलोकन एवं RPSC PYQ इंजन',
+        groupSubtitle: '60-Second Retrieval Skeletons, All-Topic Distinction Matrices एवं RPSC 1995–2024 PYQ Autopsy Bank',
+        slugs: ['chapter-19', 'chapter-20'],
+      },
+      {
+        partNumber: 'RAPID REVISION',
+        groupTitle: 'High-Speed Recall Matrices & 60-Second Skeletons',
+        groupSubtitle: 'Rapid revision sheets, distinction matrices, and active recall flashcards for all Hindi chapters',
+        slugs: Array.from({ length: 20 }, (_, i) => `rev-chapter-${String(i + 1).padStart(2, '0')}`),
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
   if (subject === 'english-language') {
     const allChapters = getEnglishLanguageChapters();
     const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -1632,11 +2059,15 @@ export function getShelf007PartGroups(
 }
 
 export function getShelf007ChapterContent(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language',
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs',
   chapterSlug: string
 ) {
   const chapters =
-    subject === 'english-language'
+    subject === 'current-affairs'
+      ? getCurrentAffairsChapters()
+      : subject === 'hindi'
+      ? getHindiChapters()
+      : subject === 'english-language'
       ? getEnglishLanguageChapters()
       : subject === 'economics'
       ? getEconomicsChapters()

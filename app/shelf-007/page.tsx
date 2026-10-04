@@ -30,10 +30,10 @@ export default function Shelf007IndexPage() {
 
         <div className="pt-1 flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
           <span className="flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2.5 py-1 rounded shadow-2xs">
-            🛡️ 8 Treatises
+            🛡️ 10 Treatises
           </span>
           <span className="flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2.5 py-1 rounded shadow-2xs">
-            ⚡ 269 Chapters
+            ⚡ 333 Chapters
           </span>
           <span className="flex items-center gap-1.5 bg-[#FFFFFF] border border-[#E0D9CB] px-2.5 py-1 rounded shadow-2xs">
             🎯 6,870 MCQs

@@ -18,7 +18,9 @@
 │   ├── history/          ← Ancient, Medieval, Modern, Rajasthan & World treatises/sources
 │   ├── general_science/  ← NCERTs, standard physics/chemistry/biology treatises & coaching notes
 │   ├── geography/        ← Majid Husain, Shankar IAS, Savindra Singh, Rajasthan Board / Bhalla
-│   └── english_language/ ← Black Book of English Vocabulary, Vocab Prodigy, standard grammar treatises
+│   ├── english_language/ ← Black Book of English Vocabulary, Vocab Prodigy, standard grammar treatises
+│   ├── hindi/            ← Dr. Raghav Prakash, Hardev Bahri, Vasudevnandan Prasad, RBSE 9-12, CSTT
+│   └── current_affairs/  ← Gazette notifications, PIB, SC Judgments, Committee reports, The Hindu/IE, Yojana
 ├── notes/                ← Comprehensive Canonical Master Notes:
 │   ├── economics/        ← Complete 26-Chapter Master Economics & ESI Treatise
 │   ├── iibf_dbf/         ← 4-Paper Banking & Finance Master Curriculum
@@ -27,7 +29,9 @@
 │   ├── history/          ← Unified History (Ancient, Medieval, Modern, Rajasthan, World)
 │   ├── general_science/  ← Comprehensive General Science (Physics, Chemistry & Biology Unified)
 │   ├── geography/        ← Multi-Dimensional Sovereign Geography (India, World, Rajasthan, Physical, Human, Environment)
-│   └── english_language/ ← English Language & Descriptive Writing Master Codex
+│   ├── english_language/ ← English Language & Descriptive Writing Master Codex
+│   ├── hindi/            ← General Hindi & Administrative Rhetoric Master Codex (RPSC RAS Paper 4)
+│   └── current_affairs/  ← Sovereign Issue-Based Current Affairs Codex (Polity, Economy, Geopolitics, S&T, Climate)
 ├── revision/             ← Rapid review materials:
 │   ├── economics/        ← 60-Second Recall Skeletons, Distinction Matrices, Trap Avoidance Sheets
 │   ├── iibf_dbf/         ← Formula vaults, legal charge matrices, solved case studies
@@ -36,14 +40,18 @@
 │   ├── history/          ← Chronological timelines, dynastic matrices, trap alerts
 │   ├── general_science/  ← 60-Second Retrieval Skeletons, Distinction Matrices, Scientific Traps
 │   ├── geography/        ← 60-Second Spatial Profiles, Comparative Matrices, 50 Deadliest Traps
-│   └── english_language/ ← 60-Second Grammar Skeletons, Root Matrices, Fixed Preposition Vaults
+│   ├── english_language/ ← 60-Second Grammar Skeletons, Root Matrices, Fixed Preposition Vaults
+│   ├── hindi/            ← 60-Second Retrieval Skeletons, Shabd Shuddhi Matrices, CSTT Administrative Glossary
+│   └── current_affairs/  ← 60-Second Topic Skeletons, Multilateral Distinction Matrices, 50 Deadliest Traps
 ├── question_bank/        ← Diagnostic question banks & elimination drills:
 │   ├── political_science/← 1,520-MCQ Objective Polity Diagnostic Engine
 │   ├── quantitative_aptitude/ ← Multi-Tier Diagnostic Problem Vaults & Speed Drills
 │   ├── history/          ← UPSC, RPSC RAS, APFC PYQ Drills & Historical Autopsies
 │   ├── general_science/  ← Multi-Exam Diagnostic PYQ & MCQ Elimination Vault
 │   ├── geography/        ← Majid Husain & Multi-Exam Diagnostic PYQ / MCQ Elimination Engine
-│   └── english_language/ ← Multi-Exam Error Spotting, Cloze Tests & Model Essay Blueprints
+│   ├── english_language/ ← Multi-Exam Error Spotting, Cloze Tests & Model Essay Blueprints
+│   ├── hindi/            ← RPSC RAS 1995–2024 Mains Paper 4 Diagnostic PYQ Autopsy Engine
+│   └── current_affairs/  ← Multi-Statement Prelims Traps & Mains Diagnostic Multi-Dimensional Frameworks
 ├── skills/               ← Operational skills, distillation frameworks, and pedagogical guidelines
 │   ├── book-distillation-framework.md
 │   ├── claude-style-writing.md
@@ -53,7 +61,9 @@
 │   ├── history-master-skill.md
 │   ├── general-science-master-skill.md
 │   ├── geography-master-skill.md
-│   └── english-language-descriptive-master-skill.md
+│   ├── english-language-descriptive-master-skill.md
+│   ├── hindi-master-skill.md
+│   └── current-affairs-master-skill.md
 ├── VERSION_LEDGER.md     ← Sequential release ledger (v001, v002, v003, v004, v005...)
 └── README.md             ← Operating charter and index
 ```

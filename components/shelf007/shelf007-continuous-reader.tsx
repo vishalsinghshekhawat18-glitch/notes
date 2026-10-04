@@ -16,7 +16,7 @@ import { FontSizeControl } from '@/components/learning/font-size-control';
 import { ThemeSwitcher } from '@/components/navigation/theme-switcher';
 
 interface Shelf007ContinuousReaderProps {
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language';
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs';
   currentChapter: Shelf007ChapterItem;
   prevChapter: Shelf007ChapterItem | null;
   nextChapter: Shelf007ChapterItem | null;
@@ -36,7 +36,11 @@ export function Shelf007ContinuousReader({
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   const subjectTitle =
-    subject === 'english-language'
+    subject === 'current-affairs'
+      ? 'Contemporary Issues & Current Affairs Master Codex'
+      : subject === 'hindi'
+      ? 'General Hindi & Administrative Rhetoric'
+      : subject === 'english-language'
       ? 'English Language & Descriptive Writing'
       : subject === 'economics'
       ? 'Economics Master Treatise'

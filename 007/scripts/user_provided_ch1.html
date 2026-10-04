@@ -1,0 +1,319 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Chapter 01 — Foundations of Economic Organization, Sectors &amp; Goods Typology</title><style>
+@page{size:A4;margin:0}
+:root{--ink:#000;--ink2:#333;--rule:#777;--tint:#ececec;--tint2:#d9d9d9;
+--serif:"Liberation Serif","Times New Roman",serif;--sans:"Liberation Sans","DejaVu Sans",Arial,sans-serif;--mono:"DejaVu Sans Mono",monospace}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font-family:var(--serif);color:var(--ink);font-size:10.5pt;line-height:1.42}
+.page{width:210mm;height:297mm;padding:22mm 20mm 20mm;position:relative;page-break-after:always;overflow:hidden}
+.rh{position:absolute;top:10mm;left:20mm;right:20mm;display:flex;justify-content:space-between;font:6.4pt var(--sans);letter-spacing:.06em;white-space:nowrap;text-transform:uppercase;color:var(--ink2);border-bottom:.6pt solid var(--ink);padding-bottom:1.5mm}
+.rf{position:absolute;bottom:9mm;left:20mm;right:20mm;display:flex;align-items:center;font:7pt var(--sans);letter-spacing:.1em;color:var(--ink2)}
+.rf:before,.rf:after{content:"";flex:1;border-top:.4pt solid var(--rule)}
+.rf b{border:.8pt solid var(--ink);padding:.5mm 3mm;margin:0 4mm;font-size:9pt;color:var(--ink);letter-spacing:0}
+.lbl{font:700 6.8pt var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--ink2);margin:0 0 1.5mm}
+.sp{margin:0 0 5mm}
+.opener{display:flex;align-items:flex-end;gap:6mm;border-top:2.5pt solid #000;border-bottom:.6pt solid #000;padding:4mm 0 4mm;margin-bottom:6mm}
+.opener .n{font:700 58pt/0.85 var(--serif);letter-spacing:-.03em}
+.opener .t small{display:block;font:700 7.5pt var(--sans);letter-spacing:.3em;margin-bottom:1.5mm}
+.opener .t h1{font:700 17pt/1.15 var(--sans);margin:0;letter-spacing:.01em}
+h2{font:700 13.5pt var(--sans);margin:0 0 3mm;display:flex;align-items:center;gap:3mm;border-bottom:.8pt solid #000;padding-bottom:1.6mm}
+h2 .s{background:#000;color:#fff;font-size:9.5pt;padding:.8mm 2.4mm;letter-spacing:.04em}
+h3{font:700 10.5pt var(--sans);margin:0 0 2mm;padding-left:2.6mm;border-left:3pt solid #000}
+h4{font:700 9pt var(--sans);margin:0 0 1.5mm;letter-spacing:.04em;text-transform:uppercase;color:var(--ink2)}
+p{margin:0 0 2.2mm;text-align:justify;hyphens:auto}
+.dc:first-letter{font:700 25pt/0.8 var(--serif);float:left;padding:1mm 1.5mm 0 0}
+.term{font-weight:700;font-variant:small-caps;letter-spacing:.02em}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.box{margin:0 0 4mm;padding:2.5mm 3.5mm;position:relative;break-inside:avoid}
+.box .tag{font:700 6.5pt var(--sans);letter-spacing:.18em;text-transform:uppercase;display:block;margin-bottom:1.2mm}
+.box p:last-child{margin:0}
+.def{background:var(--tint);border-left:3.5pt solid #000}
+.ex{border:.8pt dashed #000;padding-top:3.2mm}
+.ex .tag{position:absolute;top:-2.2mm;left:3mm;background:#fff;padding:0 1.5mm}
+.key{border:1.6pt solid #000;outline:.5pt solid #000;outline-offset:1.2pt}
+.key .tag{background:#000;color:#fff;display:inline-block;padding:.6mm 2mm}
+.trap{border:1.4pt solid #000;padding-left:9mm;background:linear-gradient(90deg,#000 0 0) left/1.2mm 100% no-repeat,repeating-linear-gradient(135deg,#fff 0 1.1mm,#bdbdbd 1.1mm 1.5mm) 1.8mm 0/4mm 100% no-repeat}
+.trap .tag{font-size:7pt}
+.exam{border-top:1.4pt solid #000;border-bottom:.5pt solid #000;padding:2.5mm 0;margin:0 0 4mm}
+.exam ul{margin:0;padding:0;list-style:none}.exam li{display:flex;gap:2.5mm;margin-bottom:1.2mm}
+.mk{flex:none;font:700 7pt var(--sans);border:.8pt solid #000;border-radius:3mm;padding:.3mm 2mm;height:4.6mm;margin-top:.4mm}
+.fm{margin:0 0 4mm;padding:3mm 0;text-align:center;font:9.5pt var(--mono);border-top:2.2pt double #000;border-bottom:2.2pt double #000;line-height:1.9}
+table{border-collapse:collapse;width:100%;font-size:9pt;margin:0 0 4mm;line-height:1.3}
+th{background:#222;color:#fff;font:700 7.5pt var(--sans);letter-spacing:.1em;text-transform:uppercase;text-align:left;padding:2mm 2.5mm}
+td{padding:2mm 2.5mm;vertical-align:top;border-bottom:.5pt solid #555}
+td:first-child{font:700 8.8pt var(--sans);width:24%}tr:nth-child(even) td{background:var(--tint)}
+thead{display:table-header-group}tr{break-inside:avoid}
+.flow{display:flex;align-items:center;justify-content:space-between;margin:0 0 4mm;gap:1.5mm}
+.flow div{flex:1;border:1pt solid #000;text-align:center;padding:2mm 1mm;font:700 7.8pt var(--sans)}
+.flow div:nth-child(odd){background:var(--tint)}.flow span{font:12pt var(--sans)}
+.card{border:1.2pt solid #000;margin:0 0 4mm;break-inside:avoid}
+.card .q{background:var(--tint2);padding:2.2mm 3.5mm;border-bottom:.8pt solid #000}
+.card .q>b{font:700 7pt var(--sans);letter-spacing:.16em}
+.card .a{padding:2.5mm 3.5mm;font-size:10pt}
+.card .a .h{font:700 7pt var(--sans);letter-spacing:.16em;display:block;margin-bottom:1mm}
+.ramp{display:flex;margin:0 0 5mm}.ramp div{flex:1;height:9mm;font:6.5pt var(--sans);padding:1mm 1.5mm;border:.4pt solid #000;margin-left:-.4pt}
+.note{font:8pt var(--sans);color:var(--ink2);border-top:.4pt solid var(--rule);padding-top:2mm}
+.fn{font:italic 8.8pt var(--serif);color:var(--ink2)}
+.mat{display:grid;grid-template-columns:27mm 1fr 1fr;border:1pt solid #000;margin:0 0 4mm;font:8.2pt var(--sans)}
+.mat>div{padding:2mm 2.5mm;border:.4pt solid #000}.mat .h{background:#222;color:#fff;font-weight:700;letter-spacing:.1em;font-size:7pt}.mat .s{background:var(--tint2);font-weight:700;font-size:6.6pt;letter-spacing:.04em}
+
+.page{padding:21mm 19mm 19mm}
+body{font-size:10pt;line-height:1.4}
+.dc:first-letter{font-size:30pt}
+.scar{margin:2mm 0 4mm;text-align:center;font-family:var(--sans)}
+.scar .r{display:flex;align-items:center;justify-content:center;gap:3mm}
+.scar .b{border:1pt solid #000;padding:2mm 3.5mm;font-weight:700;font-size:8.5pt;background:var(--tint)}
+.scar .b.k{background:#000;color:#fff}
+.scar .v{font:italic 9pt var(--serif)}
+.scar .d{font-size:10pt;line-height:1;margin:1.2mm 0}
+.scar .c{font:italic 8.5pt var(--serif);margin-top:1.5mm;color:var(--ink2)}
+.q{font:italic 10pt var(--serif);margin:0 0 2mm;padding-left:2.6mm}
+.src{font:8.5pt var(--sans);color:var(--ink2);margin:0 0 2mm;padding-left:2.6mm}
+.lead{font:700 9.5pt var(--sans);margin:0 0 1mm}
+.dl{margin:0 0 4mm;border-top:1pt solid #000}
+.dl div{display:grid;grid-template-columns:34mm 1fr;gap:3mm;padding:1.8mm 0;border-bottom:.5pt solid #555;break-inside:avoid}
+.dl b{font:700 8.4pt var(--sans)}.dl span{text-align:left}
+.sys{margin:0 0 3mm;break-inside:avoid}
+.sys h3{background:#000;color:#fff;border:0;padding:1.5mm 3mm;margin:0 0 2mm;font-size:9.8pt}
+.sys .e{border-bottom:.5pt solid #777;padding:1.3mm 0}.sys .e:last-child{border:0}
+.sys .e b{display:block;font:700 7.2pt var(--sans);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.4mm}
+.sys .e p{margin:0;text-align:left;font-size:9.8pt;line-height:1.36}
+.hr2{border:0;border-top:.5pt solid var(--rule);margin:3mm 0}
+
+.page{padding:19mm 19mm 17mm}body{font-size:9.8pt;line-height:1.36}
+.opener{padding:2.5mm 0;margin-bottom:4mm}.opener .n{font-size:46pt}
+h2{margin-bottom:2mm}h3{margin-bottom:1.5mm}p{margin-bottom:1.6mm}
+.box{margin-bottom:2.6mm;padding:2mm 3.2mm}.box.ex{padding-top:2.6mm}
+.scar{margin:1mm 0 2.5mm}.dc:first-letter{font-size:26pt}
+.rh{top:8mm}.rf{bottom:7mm}
+
+.tl{margin:0 0 3.5mm 1.5mm;border-left:1.6pt solid #000}
+.tl .i{position:relative;padding:0 0 2.2mm 5mm;break-inside:avoid}
+.tl .i:before{content:"";position:absolute;left:-3.6pt;top:1.6mm;width:7pt;height:7pt;background:#fff;border:1.6pt solid #000;border-radius:50%}
+.tl .i.n:before{background:#000}
+.tl b{font:700 8.6pt var(--sans);display:block;margin-bottom:.4mm}
+.tl p{margin:0;text-align:left}
+.sect{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin:0 0 3.5mm}
+.sect .c{border:1pt solid #000;padding:2.2mm 3mm 2.4mm;break-inside:avoid}
+.sect h4{display:flex;gap:2mm;align-items:center;margin:0 0 1.5mm;color:#000;text-transform:none;font-size:9.2pt;letter-spacing:0;line-height:1.2}
+.sect h4 i{flex:none;font:700 8pt var(--sans);background:#000;color:#fff;width:5mm;height:5mm;display:flex;align-items:center;justify-content:center;font-style:normal}
+.sect .c p{margin:0 0 1.2mm;text-align:left;font-size:9.6pt;line-height:1.34}.sect .c p:last-child{margin:0}
+.fd{text-align:center;font-family:var(--sans);margin:1mm 0 3.5mm}
+.fd .t{display:inline-block;border:1.2pt solid #000;padding:1.6mm 6mm;background:#000;color:#fff}
+.fd .t b{display:block;font-size:8.6pt;letter-spacing:.08em}.fd .t span{font-size:7.6pt}
+.fd .ar{display:flex;justify-content:space-around;font-size:10pt;line-height:1.1;margin:.6mm 0;border-top:0}
+.fd .bar{height:3mm;border:1pt solid #000;border-bottom:0;margin:0 17%}
+.fd .r{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;text-align:left}
+.fd .r div{border:1pt solid #000;padding:1.8mm 2.5mm;background:var(--tint)}
+.fd .r b{display:block;font-size:8pt;letter-spacing:.06em;margin-bottom:.6mm;border-bottom:.5pt solid #000;padding-bottom:.6mm}
+.fd .r span{display:block;font-size:8.4pt;line-height:1.3}
+.fl{display:flex;align-items:stretch;gap:1.5mm;margin:0 0 3mm;font-family:var(--sans)}
+.fl div{flex:1;border:1pt solid #000;text-align:center;padding:2mm 1mm;font-weight:700;font-size:8pt;display:flex;align-items:center;justify-content:center}
+.fl div:nth-child(odd){background:var(--tint)}.fl span{align-self:center;font-size:12pt}
+.tw td:first-child{font:inherit;width:50%}.tw td{font-size:9.4pt;line-height:1.3;padding:1.6mm 2.5mm}.tw td+td,.tw th+th{border-left:.8pt solid #000}
+.ap{display:grid;grid-template-columns:1fr auto 1fr;gap:1.5mm 3mm;align-items:baseline;margin:0}
+.ap span{text-align:left}.ap .a{font-family:var(--sans)}
+.lead2{font:italic 10pt var(--serif);border-left:3pt solid #000;padding-left:3mm;margin:0 0 3mm;text-align:left}
+.page{padding:19mm 19mm 17mm}body{font-size:9.8pt;line-height:1.36}
+.rh{top:8mm}.rf{bottom:7mm}h2{margin-bottom:2mm}h3{margin-bottom:1.5mm}p{margin-bottom:1.6mm}
+.box{margin-bottom:2.6mm;padding:2mm 3.2mm}
+
+.pg3 p,.pg3 .tl p{font-size:10.5pt}
+.pg3 .sect .c p{font-size:10.2pt}.pg3 .tl{margin-bottom:5mm}
+.pg3 h2{margin-top:2mm}.pg3 .fd{margin-bottom:5mm}.pg3 .sect{gap:4mm;margin-bottom:5mm}
+
+.mat2{display:grid;grid-template-columns:28mm 1fr 1fr;border:1pt solid #000;margin:0 0 3mm;font-family:var(--sans)}
+.mat2>div{padding:1.8mm 2.6mm;border:.5pt solid #000;font-size:8.8pt;line-height:1.3}
+.mat2 .h{background:#222;color:#fff;font-weight:700;letter-spacing:.12em;font-size:7.2pt;text-align:center}
+.mat2 .s{background:var(--tint2);font-weight:700;font-size:7.2pt;letter-spacing:.06em;display:flex;align-items:center}
+.mat2 b{display:block;font-size:8.2pt;letter-spacing:.04em;margin-bottom:.8mm;border-bottom:.5pt solid #000;padding-bottom:.5mm}
+.mat2 span{display:block}
+.ul{margin:0 0 3mm;padding:0;list-style:none}.ul li{padding:1.1mm 0 1.1mm 5mm;position:relative;text-align:justify;border-bottom:.4pt solid #999}
+.ul li:before{content:"■";position:absolute;left:0;top:1.9mm;font-size:5pt}.ul li:last-child{border:0}
+.t3 td:first-child{width:15%}.t3 td{font-size:9.2pt}.t3 th:nth-child(2),.t3 th:nth-child(3),.t3 td:nth-child(2),.t3 td:nth-child(3){border-left:.8pt solid #000}
+.pr{margin:0 0 2.5mm}.pr h5{font:700 8.6pt var(--sans);margin:0 0 1mm;letter-spacing:.04em;border-bottom:.5pt solid #000;padding-bottom:.6mm}
+.pr ul{margin:0;padding:0;list-style:none}.pr li{padding-left:4.5mm;position:relative;margin-bottom:1mm;text-align:left}.pr li:before{content:"▸";position:absolute;left:0}
+.cont{border-left:3pt solid #000;padding-left:3mm;margin:0 0 3mm}.cont p{margin:0}
+.trap{border:1.4pt solid #000;padding-left:9mm;background:linear-gradient(90deg,#000 0 0) left/1.2mm 100% no-repeat,repeating-linear-gradient(135deg,#fff 0 1.1mm,#bdbdbd 1.1mm 1.5mm) 1.8mm 0/4mm 100% no-repeat}
+.trap .hd{font:700 9.4pt var(--sans);margin-bottom:1.4mm;letter-spacing:.01em}
+.sk{border:1.6pt solid #000;margin:0 0 3mm}.sk>div{display:grid;grid-template-columns:33mm 1fr;gap:3mm;padding:1.5mm 3mm;border-bottom:.5pt solid #777;break-inside:avoid}
+.sk>div:last-child{border:0}.sk b{font:700 8.4pt var(--sans)}.sk span{text-align:left;font-size:9.5pt;line-height:1.32}
+.sk .g{display:block}.sk .g i{display:block;font-style:normal;padding-left:3mm;position:relative}.sk .g i:before{content:"▸";position:absolute;left:0}
+.sk .cc{background:var(--tint)}
+.card .q{padding:1.8mm 3.2mm}.card .q p{font-size:9.6pt;margin:1mm 0 0;text-align:left}
+.card .a{padding:2mm 3.2mm;font-size:9.4pt;line-height:1.34}.card .a p{margin:0 0 1.4mm;text-align:justify}.card .a p:last-child{margin:0}
+.pg5,.pg6,.pg7,.pg8{padding-bottom:16mm}
+.pg5{font-size:9.3pt;line-height:1.32}.pg5 p{margin-bottom:1.2mm}.pg5 .dl div{padding:1.1mm 0}.pg5 .box{padding:1.6mm 3mm;margin-bottom:2mm}
+.pg5 .sys .e p{font-size:9.2pt;line-height:1.3}.pg5 .sys h3{padding:1.1mm 2.5mm;font-size:9pt}.pg5 .mat2>div{padding:1.2mm 2.4mm;font-size:8.4pt}
+.pg5 h3{margin-bottom:1mm;font-size:10pt}.pg5 .fm{padding:1.2mm 0!important;margin-bottom:2mm!important}.pg5 h4{margin-bottom:1mm}
+.box.trap{padding-left:9mm}.pg7{font-size:9.4pt}.pg7 .box.trap{padding-top:1.6mm;padding-bottom:1.6mm;margin-bottom:2mm}.pg7 .trap p{font-size:9.4pt;line-height:1.32;margin-bottom:.8mm}
+.pg7 .sk>div{padding:1.1mm 3mm}.pg7 .sk span{font-size:9.1pt;line-height:1.28}.pg7 .ul li{padding:.8mm 0 .8mm 5mm;font-size:9.6pt}.pg7 h2{margin-bottom:1.5mm}.pg7 h3{margin-bottom:1mm}
+.pg6{font-size:10.3pt}.pg6 .t3 td{font-size:9.6pt}.pg6 .ul li,.pg6 .pr li{font-size:10.2pt}
+.pg8 .card .a{font-size:10pt;line-height:1.38}.pg8 .card .q p{font-size:10pt}
+</style></head><body><div class="page"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<div class="opener"><div class="n">01</div><div class="t"><small>C H A P T E R &nbsp; 0 1</small><h1>FOUNDATIONS OF ECONOMIC ORGANIZATION, SECTORS &amp; GOODS TYPOLOGY</h1></div></div>
+<h2><span class="s">§ 1.1</span>The Epistemic Foundation: Scarcity &amp; The Economic Problem</h2>
+<h3>The Universal Dilemma: Unlimited Wants vs. Scarce Means</h3>
+<p class="dc">Economics is the study of how societies allocate scarce resources that have alternative uses to satisfy unlimited human wants (Lionel Robbins, 1932).</p>
+<p>If resources were infinite, goods would be “free goods” (like atmospheric air in its natural state), prices would not exist, and economic systems would be unnecessary. Scarcity forces every human society to make choices, and every choice incurs an <span class="term">Opportunity Cost</span>.</p>
+<div class="scar"><div class="r"><span class="b">Unlimited Human Desires</span><span class="v">vs.</span><span class="b">Finite Productive Resources</span></div><div class="d">▼</div>
+<div class="r"><span class="b">Absolute Scarcity</span><span>⟶</span><span class="b">Compulsory Choice</span><span>⟶</span><span class="b k">Opportunity Cost</span></div>
+<div class="c">(Value of the next best alternative foregone)</div></div>
+<h3>The Beginner's Mental Model: The “Car Mileage in a Lab” Analogy (Ceteris Paribus)</h3>
+<p class="q">Why do economic theories rely on assumptions like “All other things being equal” (Ceteris Paribus)?</p>
+<p class="src">(Pedagogical insight from K. Sankarganesh):</p>
+<div class="box ex"><span class="tag">▸ Analogy</span>
+<p>In a car's technical brochure, the manufacturer claims a mileage of 22 Kilometres per Litre (KMPL). Yet when you drive it on city roads, it yields only 15 KMPL. Does the 22 KMPL claim mean the engineering test failed?</p>
+<p>No. The 22 KMPL was measured under strictly controlled laboratory conditions—a frictionless test track, calibrated tire pressure, and zero traffic congestion. This laboratory isolation was essential to measure the inherent efficiency of the engine itself. In the real world, bad roads, traffic jams, and under-inflated tires introduce friction.</p></div>
+<div class="box def"><span class="tag">◆ Key Idea</span><p><b>The Economic Lesson:</b> Economists formulate laws (like the Law of Demand: as price rises, demand falls) by assuming Ceteris Paribus (all other variables, like consumer income and tastes, remain constant). This isolates the fundamental causal link between price and demand. Once the core engine law is understood, economists layer back real-world friction.</p></div>
+<h3>The Adam Smith Water-Diamond Paradox: Value-in-Use vs. Value-in-Exchange</h3>
+<p class="q">Why is life-giving water virtually free, while useless decorative diamonds command millions?</p>
+<div class="cols">
+<div class="box def" style="margin:0 0 3mm"><span class="tag">◆ Definition</span><p><b>Value-in-Use:</b> The total qualitative utility derived from consuming a good. Water has immense value-in-use; without it, human civilization perishes in days.</p></div>
+<div class="box def" style="margin:0 0 3mm"><span class="tag">◆ Definition</span><p><b>Value-in-Exchange:</b> The purchasing power a good commands in the market. Water is available in relative abundance, so its Marginal Utility (the satisfaction from one additional glass) drops to near zero, yielding a low price. Diamonds are exceptionally scarce, so their Marginal Utility of the last unit is astronomical, commanding an exorbitant exchange price.</p></div></div>
+<div class="box key"><span class="tag">★ Key Point</span><p><b>Core Takeaway:</b> Market prices reflect Marginal Utility and Scarcity, NOT total utility or moral necessity!</p></div>
+<div class="rf"><b>1</b></div></div><div class="page"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<h3>The Production Possibility Frontier (PPF)</h3>
+<p>The PPF is a graphical curve demonstrating the maximum feasible combinations of two goods an economy can produce given fixed resources and existing technology.</p>
+<div class="dl">
+<div><b>Points on the Curve:</b><span>Productive efficiency (full resource employment).</span></div>
+<div><b>Points inside the Curve:</b><span>Inefficiency or under-utilization (unemployment, idle factory machinery).</span></div>
+<div><b>Points outside the Curve:</b><span>Currently unattainable without economic growth (technological innovation, capital accumulation, or labor force expansion).</span></div>
+<div><b>Slope of PPF:</b><span>Represents the Marginal Rate of Transformation (MRT), which reflects increasing opportunity cost as resources are imperfectly substitutable between sectors.</span></div></div>
+<h2><span class="s">§ 1.2</span>The Three Fundamental Economic Questions</h2>
+<p>Every economic society, regardless of its ideology, must solve three structural questions:</p>
+<table><thead><tr><th>Fundamental Question</th><th>Structural Economic Decision</th></tr></thead><tbody>
+<tr><td>1. What to produce?</td><td>Allocation of resources between consumer goods and capital goods; civil goods vs. defense equipment.</td></tr>
+<tr><td>2. How to produce?</td><td>Choice of production technique: Labor-Intensive Technology (LIT) vs. Capital-Intensive Technology (CIT).</td></tr>
+<tr><td>3. For whom to produce?</td><td>Distribution of national product across factors of production: Rent (Land), Wages (Labor), Interest (Capital), and Profit (Enterprise).</td></tr></tbody></table>
+<h2><span class="s">§ 1.3</span>Typology of Economic Systems</h2>
+<p>Human societies organize production and distribution through three primary institutional frameworks:</p>
+<div class="cols">
+<div class="sys"><h3>1. Market Economy (Capitalism / Free Enterprise)</h3>
+<div class="e"><b>Core Mechanism:</b><p>Private ownership of factors of production. Allocation is driven exclusively by Adam Smith’s “Invisible Hand”—the price mechanism operating through supply and demand without state intervention.</p></div>
+<div class="e"><b>Consumer Sovereignty:</b><p>Production follows consumer willingness and ability to pay.</p></div>
+<div class="e"><b>Critical Vulnerability:</b><p>Market failure in providing public goods (defense, roads), rampant income inequality, negative externalities (pollution), and neglect of non-profitable social welfare.</p></div></div>
+<div class="sys"><h3>2. Command Economy (Socialist / State-Directed)</h3>
+<div class="e"><b>Core Mechanism:</b><p>State ownership of all collective means of production (Karl Marx). Allocation is planned centrally by a National Planning Authority (e.g., Gosplan in Soviet Russia).</p></div>
+<div class="e"><b>Decision Criterion:</b><p>Social welfare, equitable distribution, and planned industrialization rather than individual profit.</p></div>
+<div class="e"><b>Critical Vulnerability:</b><p>Inefficient resource allocation due to absence of price signals (the Economic Calculation Problem identified by Ludwig von Mises), bureaucratic sclerosis, lack of consumer choice, and suppression of entrepreneurial innovation.</p></div></div></div>
+<div class="rf"><b>2</b></div></div></body></html><div class="page pg3"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<h3>3. Mixed Economy (The Indian Paradigm)</h3>
+<div class="box def"><span class="tag">◆ Key Idea</span><p><b>Core Mechanism:</b> Coexistence of a robust Private Sector driven by market incentives and an active Public Sector regulating markets, providing public infrastructure, and safeguarding social equity.</p></div>
+<h4>Indian Historical Trajectory:</h4>
+<div class="tl">
+<div class="i"><b>1947–1991 (Nehruvian-Mahalanobis Framework):</b><p>Mixed economy with the State commanding the “commanding heights” of the economy (heavy industry, banking, utilities) via the License-Quota-Permit Raj.</p></div>
+<div class="i n"><b>Post-1991 (LPG Reforms):</b><p>Transitioned toward a market-friendly mixed economy where the private sector is the prime engine of growth, while the state pivots toward social safety nets, regulation, and macroeconomic stability.</p></div></div>
+<h2><span class="s">§ 1.4</span>The Four Macroeconomic Sectors</h2>
+<p>To understand national output and accounting, modern macroeconomics divides the economic universe into four interacting sectors:</p>
+<div class="fd"><div class="t"><b>REST OF THE WORLD</b><span>(Exports &amp; Imports)</span></div>
+<div class="ar"><span>▼</span><span>▼</span><span>▼</span></div>
+<div class="r"><div><b>HOUSEHOLD SECTOR</b><span>• Owners of Factors</span><span>• Ultimate Consumers</span></div><div><b>GOVERNMENT SECTOR</b><span>• Public Goods</span><span>• Taxation/Transfers</span></div><div><b>BUSINESS / FIRMS</b><span>• Production Units</span><span>• Factor Employers</span></div></div></div>
+<div class="sect">
+<div class="c"><h4><i>1</i>The Household Sector:</h4><p><b>Dual Role:</b> Ultimate owners of all factors of production (land, labor, capital, entrepreneurship) AND ultimate consumers of final goods and services.</p><p><b>Income Source:</b> Factor payments (Rent, Wages, Interest, Profit) and Transfer Payments.</p></div>
+<div class="c"><h4><i>2</i>The Business Sector (Firms / Enterprises):</h4><p>Production units that hire factor services from households to produce goods and services for sale.</p></div>
+<div class="c"><h4><i>3</i>The Government Sector:</h4><p>Collects compulsory non-quid-pro-quo taxes, purchases goods/services, produces public goods, and redistributes income via welfare transfer payments (pensions, subsidies).</p></div>
+<div class="c"><h4><i>4</i>The External Sector (Rest of the World):</h4><p>Engages in international trade (exports, imports) and cross-border capital/factor flows (remittances, external debt, foreign investments).</p></div></div>
+<h2><span class="s">§ 1.5</span>The Circular Flow of Income &amp; Product</h2>
+<p>Economic activity is a continuous, unbroken circle: Production generates Income, and Income generates Expenditure on Production.</p>
+<div class="fl"><div>Production Phase</div><span>⟶</span><div>Income Distribution Phase</div><span>⟶</span><div>Expenditure / Disposition Phase</div><span>⟶</span><div>Production Phase</div></div>
+<div class="rf"><b>3</b></div></div><div class="page"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<h3>Real Flows vs. Nominal (Money) Flows</h3>
+<div class="cols">
+<div class="box def" style="margin:0 0 3mm"><span class="tag">◆ Definition</span><p><b>Real Flow:</b> The physical movement of factor services (labor hours, land usage, capital equipment) from households to firms, and the counter-movement of physical goods and services from firms to households.</p></div>
+<div class="box def" style="margin:0 0 3mm"><span class="tag">◆ Definition</span><p><b>Money Flow:</b> The monetary counterpart: firms paying factor incomes (wages, rent, interest, profit) to households, and households spending money income on goods produced by firms.</p></div></div>
+<h3>The Leakages-Injections Equilibrium</h3>
+<p>In an open economy with government, income generated is not fully spent on domestic consumer goods:</p>
+<div class="fm" style="padding:2mm 0;margin-bottom:3mm;line-height:1.8">Leakages (W) = Savings (S) + Taxes (T) + Imports (M)<br>Injections (J) = Investment (I) + Government Spending (G) + Exports (X)</div>
+<p>Macroeconomic Equilibrium Condition: Total Leakages must equal Total Injections:</p>
+<div class="fm" style="padding:2mm 0;margin-bottom:3mm"><b>S + T + M = I + G + X</b></div>
+<div class="box key"><span class="tag">★ Key Point</span><p><b>Policy Implication:</b> If Leakages exceed Injections (<span style="font-family:var(--mono);font-size:9pt">S + T + M &gt; I + G + X</span>), aggregate demand contracts, leading to deflation and rising unemployment. If Injections exceed Leakages, aggregate demand expands, potentially fueling demand-pull inflation.</p></div>
+<h2><span class="s">§ 1.6</span>The Universal Typology of Goods</h2>
+<p class="lead2">Understanding how goods are classified is the single most heavily tested area across UPSC, RPSC, and Banking.</p>
+<h3>A. Final Goods vs. Intermediate Goods (The Double-Counting Boundary)</h3>
+<table class="tw"><thead><tr><th>Final Goods</th><th>Intermediate Goods</th></tr></thead><tbody>
+<tr><td>• Goods that have crossed the boundary line of production.</td><td>• Goods that remain within the production boundary line.</td></tr>
+<tr><td>• Purchased for final consumption or capital formation.</td><td>• Purchased for resale OR for use as inputs in the same year</td></tr>
+<tr><td>• Value is directly included in National Income (GDP).</td><td>• Value is NOT included in GDP; already embedded in final good</td></tr>
+<tr><td>• Examples: Bread eaten by a family; car bought by driver.</td><td>• Examples: Flour purchased by baker; tires bought by Maruti.</td></tr></tbody></table>
+<div class="box key"><span class="tag">★ Key Point</span><p style="margin-bottom:2mm"><b>The Golden Test of Classification:</b> A good is NOT defined by its physical nature, but by its end-use.</p>
+<div class="ap"><span>Sugar bought by a household</span><span class="a">⟶</span><span>Final Consumption Good.</span>
+<span>Sugar bought by a sweet shop (halwai)</span><span class="a">⟶</span><span>Intermediate Good.</span>
+<span>Coal bought by a thermal power plant</span><span class="a">⟶</span><span>Intermediate Good.</span>
+<span>Coal bought by a household for domestic heating</span><span class="a">⟶</span><span>Final Good.</span></div></div>
+<h3>B. Consumption Goods vs. Capital Goods</h3>
+<p style="margin-bottom:1mm"><b>1. Consumption Goods:</b> Goods satisfying human wants directly:</p>
+<div class="dl" style="margin-bottom:0"><div><b>Durable Goods:</b><span>Multi-year lifespan (cars, television, refrigerators).</span></div></div>
+<div class="rf"><b>4</b></div></div></body></html><div class="page pg5"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<div class="dl" style="margin-bottom:2.5mm"><div><b>Semi-Durable Goods:</b><span>Span of roughly one year (clothing, footwear, crockery).</span></div>
+<div><b>Non-Durable / Single-Use Goods:</b><span>Consumed in a single act (milk, bread, petrol).</span></div>
+<div><b>Services:</b><span>Intangible non-material activities (teaching, legal counsel, banking).</span></div></div>
+<p style="margin-bottom:1mm"><b>2. Capital Goods:</b> Tangible durable goods produced to facilitate further production:</p>
+<div class="dl" style="margin-bottom:2.5mm"><div><b>Examples:</b><span>Machine tools, industrial tractors, factory buildings, blast furnaces.</span></div>
+<div><b>Crucial Rule:</b><span>Capital goods do not merge into the product; they undergo wear and tear over time (Depreciation).</span></div></div>
+<div class="box key"><span class="tag">★ Key Point</span><p><b>The Capital Goods vs. Consumer Durable Distinction:</b> A sewing machine used by a tailoring boutique is a Capital Good; the exact same sewing machine used by a mother at home is a Consumer Durable Good.</p></div>
+<h3>C. Gross Investment, Depreciation &amp; Net Investment</h3>
+<div class="cols">
+<div class="box def" style="margin:0 0 2.5mm"><span class="tag">◆ Definition</span><p><b>Consumption of Fixed Capital (CFC / Depreciation):</b> Expected, normal wear and tear and foreseen obsolescence of capital assets during normal production.</p></div>
+<div class="box def" style="margin:0 0 2.5mm"><span class="tag">◆ Definition</span><p><b>Capital Loss (Unforeseen Destruction):</b> Destruction of capital caused by natural disasters (earthquakes, floods) or wars. Capital loss is NOT depreciation and is never deducted to arrive at Net National Product.</p></div></div>
+<div class="fm" style="padding:2mm 0;margin-bottom:3mm;line-height:1.8;font-size:9pt">Gross Investment = Net Addition to Fixed Assets + Change in Inventories(ΔStock)<br>Net Investment = Gross Investment − Depreciation (Consumption of Fixed Capital)</div>
+<h3>D. The Four-Quadrant Excludability &amp; Rivalry Matrix</h3>
+<p style="margin-bottom:1mm">Economics categorizes all goods in society by two physical and legal characteristics:</p>
+<div class="dl" style="margin-bottom:2.5mm"><div><b>1. Excludability:</b><span>Can individuals be prevented from consuming the good if they do not pay for it?</span></div>
+<div><b>2. Rivalry:</b><span>Does one person's consumption diminish the amount available for another person?</span></div></div>
+<div class="mat2"><div class="h"></div><div class="h">RIVALROUS</div><div class="h">NON-RIVALROUS</div>
+<div class="s">EXCLUDABLE</div><div><b>PRIVATE GOODS</b><span>• Food, clothing, cars</span><span>• Toll roads with traffic</span></div><div><b>CLUB GOODS</b><span>• Cinemas, subscription TV</span><span>• Toll highway (empty)</span></div>
+<div class="s">NON-EXCLUDABLE</div><div><b>COMMON POOL RESOURCES</b><span>• Ocean fisheries, pastures</span><span>• Ground water aquifers</span></div><div style="background:var(--tint)"><b>PURE PUBLIC GOODS</b><span>• National defense, lighthouses</span><span>• Street lights, clean air</span></div></div>
+<h4>Detailed Breakdown of Public Goods &amp; Common Resources:</h4>
+<div class="cols">
+<div class="sys"><h3>1. Pure Public Goods (Non-Excludable &amp; Non-Rivalrous):</h3>
+<div class="e"><b>Mechanism:</b><p>Once provided, you cannot stop non-payers from enjoying it (Non-Excludability), and one citizen's protection by the Indian Army does not reduce protection for another (Non-Rivalry).</p></div>
+<div class="e"><b>Market Failure:</b><p>The Free-Rider Problem. Because consumers know they can enjoy the good without paying, private markets cannot charge a price and therefore produce zero public goods. The state must finance them through compulsory taxation.</p></div></div>
+<div class="sys"><h3>2. Common Pool Resources (Non-Excludable but Rivalrous):</h3>
+<div class="e"><b>Mechanism:</b><p>Anyone can fish in the high seas (Non-Excludable), but every fish caught reduces the fish available for others (Rivalrous).</p></div>
+<div class="e"><b>Market Failure:</b><p>The Tragedy of the Commons (Garrett Hardin, 1968). Rational individual self-interest leads to systemic over-exploitation and collapse of the resource. Solved via property rights, quotas, or Elinor Ostrom’s</p></div></div></div><div class="rf"><b>5</b></div></div><div class="page pg6"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<div class="cont"><p>community governance.</p></div>
+<div class="sys"><h3>3. Club Goods (Excludable but Non-Rivalrous):</h3>
+<div class="e"><b>Mechanism:</b><p>You must pay to enter the cinema or stream Netflix (Excludable), but your viewing does not diminish the show for others until congestion occurs (Non-Rivalrous).</p></div></div>
+<h3>E. Specialized Goods Typology (Frequently Tested Traps)</h3>
+<table class="t3"><thead><tr><th>Good Type</th><th>Defining Epistemic Mechanism</th><th>Real-World Example</th></tr></thead><tbody>
+<tr><td>Merit Goods</td><td>Goods whose social benefit exceeds private benefit (positive externalities); under-consumed if left to market forces.</td><td>Primary education, immunization vaccines, basic healthcare. State subsidizes or provides free of cost.</td></tr>
+<tr><td>Demerit Goods</td><td>Goods whose social cost exceeds private cost (negative externalities); over-consumed in free markets due to imperfect info.</td><td>Cigarettes, alcohol, gambling. State imposes heavy sin taxes or outright statutory bans.</td></tr>
+<tr><td>Veblen Goods</td><td>Conspicuous luxury goods whose demand INCREASES as price rises (Status/Snob appeal). Violates the Law of Demand.</td><td>Rolex watches, luxury sports cars, designer jewelry. Higher price signals elite social status.</td></tr>
+<tr><td>Giffen Goods</td><td>Non-luxury inferior staple goods whose demand INCREASES as price rises due to an overwhelming negative income effect.</td><td>Coarse grains (bajra, potatoes) for destitute households. Negative income effect eclipses the substitution effect.</td></tr></tbody></table>
+<h2><span class="s">§ 1.7</span>Multi-Examination Analytical Lenses</h2>
+<h3>1. UPSC Civil Services &amp; APFC Lens</h3>
+<ul class="ul"><li>Focuses on structural market failures: Why the market under-supplies Merit Goods and pure Public Goods.</li>
+<li>Questions frequently test the Free-Rider problem, Tragedy of the Commons, and the distinction between Intermediate vs. Final Goods in real-world supply chains.</li>
+<li>Conceptual link: Relate Public Goods to Article 21 (Right to Clean Environment, Right to Health) and State constitutional obligations under Directive Principles (DPSPs).</li></ul>
+<h3>2. RPSC RAS &amp; State PCS Lens</h3>
+<div class="pr"><h5>2-Marker Prompts:</h5><ul><li>Define Opportunity Cost. (The value of the next highest-valued alternative sacrifice made when a choice is selected).</li>
+<li>Differentiate between Gross and Net Investment. (<span style="font-family:var(--mono);font-size:8.6pt">Gross Investment − CFC (Depreciation) = Net Investment</span>).</li></ul></div>
+<div class="pr"><h5>5-Marker Prompts:</h5><ul><li>Explain the 4-quadrant classification of goods based on excludability and rivalry with examples.</li><li>Analyze the circular flow of income in a 3-sector economy.</li></ul></div>
+<div class="pr"><h5>10-Marker Prompts:</h5><ul><li>Trace the evolution of India's mixed economy from state-led commanding heights to regulatory market governance post-1991.</li></ul></div><div class="rf"><b>6</b></div></div><div class="page pg7"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<h3>3. Banking &amp; RBI Grade B Lens</h3>
+<ul class="ul"><li>Focuses on the Macroeconomic Equilibrium of Leakages and Injections (<span style="font-family:var(--mono);font-size:8.6pt">S + T + M = I + G + X</span>).</li>
+<li>Emphasizes the transmission of Gross Fixed Capital Formation (GFCF) into productive capacity.</li>
+<li>Mathematical identity: Disentangling unexpected capital losses from predictable depreciation in national accounts.</li></ul>
+<h2><span class="s">§ 1.8</span>Examiner Traps &amp; Warning Vault</h2>
+<div class="box trap"><span class="tag">⚠ WARNING</span><p class="hd">TRAP 1: The “Physical Nature” Fallacy</p><p><b>Exam Trap:</b> “A tractor or computer is always a capital good.”</p><p><b>Correction:</b> FALSE. An asset's status is determined exclusively by its end-use. A computer purchased by an IT software firm is a capital good; the exact same computer purchased by a school student for gaming is a consumer durable good.</p></div>
+<div class="box trap"><span class="tag">⚠ WARNING</span><p class="hd">TRAP 2: Confusing Depreciation with Capital Loss</p><p><b>Exam Trap:</b> “Factory machinery destroyed during a sudden earthquake is deducted as Depreciation in calculating NDP.”</p><p><b>Correction:</b> FALSE. Natural disasters, accidental fires, and wars cause Capital Losses, not Depreciation. Depreciation (CFC) covers only normal, foreseen wear and tear and expected obsolescence. Capital loss is recorded in the National Balance Sheet, not in the production account.</p></div>
+<div class="box trap"><span class="tag">⚠ WARNING</span><p class="hd">TRAP 3: Public Goods vs. Publicly Provided Goods</p><p><b>Exam Trap:</b> “Any good provided by the Government is a Public Good.”</p><p><b>Correction:</b> FALSE. The government often provides Private Goods (e.g., subsidized wheat through PDS ration shops, train tickets, electricity). A good is only a Public Good if it satisfies the strict technical criteria of being both non-excludable and non-rivalrous (e.g., national defense, street lighting).</p></div>
+<h2><span class="s">§ 1.9</span>The 60-Second Memory Skeleton (Rapid Recall)</h2>
+<div class="sk">
+<div><b>Scarcity → Choice → Opportunity Cost:</b><span>Every economic decision involves sacrifice.</span></div>
+<div><b>PPF Curve:</b><span>Points on curve = full employment; slope = Marginal Rate of Transformation (<span style="font-family:var(--mono);font-size:8.6pt">MRT</span>).</span></div>
+<div><b>Three Questions:</b><span>What (allocation), How (technique: LIT vs CIT), For Whom (distribution: rent, wages, interest, profit).</span></div>
+<div><b>Four Sectors:</b><span>Households (factor owners/consumers), Firms (producers), Govt (tax/transfers/public goods), External (trade).</span></div>
+<div><b>Equilibrium Identity:</b><span>Leakages (<span style="font-family:var(--mono);font-size:8.6pt">S + T + M</span>) = Injections (<span style="font-family:var(--mono);font-size:8.6pt">I + G + X</span>).</span></div>
+<div><b>End-Use Rule:</b><span>Final Good = crossed production boundary (included in GDP); Intermediate Good = input for resale/re-use (excluded to prevent double-counting).</span></div>
+<div><b>Depreciation:</b><span>Normal wear/tear + foreseen obsolescence. Unforeseen disasters = Capital Loss (not CFC).</span></div>
+<div class="cc"><b>Goods Matrix:</b><span class="g"><i>Excludable + Rival = Private Good (Food, clothes)</i><i>Excludable + Non-Rival = Club Good (Cinema, toll highway)</i><i>Non-Excludable + Rival = Common Pool Resource (Fisheries, groundwater → Tragedy of Commons)</i><i>Non-Excludable + Non-Rival = Public Good (Defense → Free-rider problem → Tax funding)</i></span></div>
+<div><b>Special Goods:</b><span class="g"><i>Merit: Positive externalities → State subsidy</i><i>Demerit: Negative externalities → Sin taxes</i><i>Veblen: Conspicuous luxury → Price ↑, Demand ↑</i></span></div></div><div class="rf"><b>7</b></div></div><div class="page pg8"><div class="rh"><span>Chapter 01 : Foundations of Economic Organization</span><span>Shelf 007 : Indian Macroeconomic Architecture</span></div>
+<div class="sk" style="margin-bottom:4mm"><div><b>Giffen:</b><span>Non-luxury inferior staple → Price ↑, Demand ↑ (Income effect &gt; Substitution effect).</span></div></div>
+<h2><span class="s">§ 1.10</span>Active Recall Diagnostic Cards</h2>
+<div class="card"><div class="q"><b>✦ CARD 1 (CONCEPTUAL MECHANICS)</b><p><b>Question:</b> Why does the presence of “Non-Excludability” in pure public goods inevitably cause competitive market mechanisms to fail?</p></div>
+<div class="a"><span class="h">✦ VIEW RIGOROUS CAUSAL ANSWER</span><p>Competitive markets function by excluding consumers who refuse to pay the equilibrium price. When a good is non-excludable (like national defense or clean air), it is technically impossible or prohibitively expensive to prevent non-paying individuals from consuming it once it is provided. Rational individuals recognize this and withhold voluntary payment, acting as Free Riders. Because private producers cannot generate revenue through market pricing to cover production costs, expected private profit is zero, and the market produces zero output. Therefore, public goods require compulsory collective financing through sovereign taxation.</p></div></div>
+<div class="card"><div class="q"><b>✦ CARD 2 (DIAGNOSTIC DISTINCTION)</b><p><b>Question:</b> A commercial printing company purchases paper sheets worth ₹50,000 to print academic textbooks, and also purchases a modern digital laser printing press worth ₹10,00,000. How does national income accounting classify each of these two purchases, and why?</p></div>
+<div class="a"><span class="h">✦ VIEW RIGOROUS CAUSAL ANSWER</span><p><b>1. Paper Sheets (₹50,000):</b> Classified as an Intermediate Good. The paper is transformed, physically incorporated into the final book, and entirely used up during the production period. Its value will be fully reflected in the final selling price of the textbooks; counting it separately would cause double-counting.</p><p><b>2. Digital Printing Press (₹10,00,000):</b> Classified as a Final Capital Good (Gross Fixed Capital Formation). The printing press is not resold or transformed into the final product. It remains outside the product itself, yields productive services over multiple production cycles, and depreciates gradually over its operational lifespan. Its full initial purchase value is added to Gross Investment in national GDP.</p></div></div>
+<div class="card"><div class="q"><b>✦ CARD 3 (APPLIED SCENARIO &amp; EDGE CASE)</b><p><b>Question:</b> A farmer in Rajasthan relies on an open-access underground water aquifer to irrigate his mustard crop. Explain why this aquifer is classified as a Common Pool Resource rather than a Public Good, and identify the specific economic pathology that threatens it.</p></div>
+<div class="a"><span class="h">✦ VIEW RIGOROUS CAUSAL ANSWER</span><p>The aquifer is non-excludable (any farmer drilling a borewell on their land can draw water without restriction), but it is rivalrous in consumption (every liter of water pumped by one farmer reduces the remaining water table available for neighboring farmers). Goods that are non-excludable yet rivalrous are defined as Common Pool Resources, whereas Public Goods must be non-rivalrous. The pathology threatening the aquifer is the Tragedy of the Commons: because individual farmers capture 100% of the private benefit of extracting water while dispersing the cost of depleted water levels across the entire community, rational self-interest leads to competitive over-extraction, aquifer exhaustion, and collective ecological collapse.</p></div></div><div class="rf"><b>8</b></div></div></body></html>

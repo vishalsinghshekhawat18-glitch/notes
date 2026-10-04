@@ -11,9 +11,11 @@ marked.use(
   markedKatex({
     throwOnError: false,
     strict: false,
-    output: 'htmlAndMathml',
+    output: 'html',
+    nonStandard: true,
   })
 );
+
 
 export interface SubjectBookConfig {
   slug: string;
@@ -199,6 +201,62 @@ export const SOVEREIGN_SUBJECT_CATALOG: SubjectBookConfig[] = [
     ],
     targetExams: ['UPSC CSE (GS-1 & History Optional)', 'RPSC RAS (Paper 1 History & Culture of Rajasthan)', 'UPSC APFC / EPFO', 'State Public Service Commissions'],
     notesSubdir: 'history',
+  },
+  {
+    slug: 'hindi',
+    code: 'HIN-007',
+    bookNumber: 9,
+    outputPdfName: '007_Book_09_General_Hindi_Master_Codex_A4_BW.pdf',
+    title: 'GENERAL HINDI & ADMINISTRATIVE RHETORIC MASTER CODEX',
+    subtitle: 'RPSC RAS Mains Paper 4 (120 Marks) Sovereign Epistemic Treatise: Phonetics, Grammar, Orthography, Terminology, Précis, Correspondence & Essay',
+    category: 'Vyavaharik Hindi Vyakaran, Shabd Shuddhi, Prashasnik Karyalayi Alekhan & Nibandh',
+    emblem: '📜',
+    authors: 'Dr. Raghav Prakash • Dr. Hardev Bahri • Dr. Vasudevnandan Prasad • Pt. Kamta Prasad Guru • RBSE Classes 9–12 • CSTT',
+    primarySources: [
+      'Dr. Raghav Prakash, Vyavaharik Samanya Hindi (Pink City Publishers)',
+      'Dr. Hardev Bahri, Samanya Hindi & Prashasnik Hindi Shabdavali (Rajkamal Prakashan)',
+      'Dr. Vasudevnandan Prasad, Adhunik Hindi Vyakaran Aur Rachna (Bharati Bhawan)',
+      'RBSE Classes 9-12, Naveen Hindi Vyakaran Evam Rachna Prabodh',
+      'CSTT (Commission for Scientific and Technical Terminology), Administrative & Legal Glossary (GoI)',
+      'Rajasthan Secretariat Manual of Office Procedure (Official Formats & Drafting Standards)',
+      'RPSC RAS Mains Paper 4 Past Examination Question Autopsies (1995–2024)'
+    ],
+    targetExams: ['RPSC RAS Mains (Paper 4 — 120 Marks)', 'RPSC SI (Sub-Inspector)', 'UPPSC Mains (General Hindi)', 'MPPSC Mains', 'UPSC CSE (Compulsory Indian Language Hindi)'],
+    notesSubdir: 'hindi',
+    coverPledgeBadge: 'Zero Unaccounted-For Source Omission • Verified Statutory & Secretariat Grounding',
+    colophonNotice: 'Curricular Scope & Synthesis Notice: This volume provides a comprehensive curricular synthesis of General Hindi for RPSC RAS Mains (Paper 4 — 120 Marks). All grammatical derivations, spelling rules, official drafting templates, and administrative vocabulary adhere strictly to Rajasthan High Court and RBSE recognized standards on Shelf 007.',
+  },
+  {
+    slug: 'current_affairs',
+    code: 'CA-007',
+    bookNumber: 10,
+    outputPdfName: '007_Book_10_Current_Affairs_Banking_Regulatory_Codex_A4_BW.pdf',
+    title: 'CONTEMPORARY ISSUES, BANKING REGULATION & CURRENT AFFAIRS MASTER CODEX',
+    subtitle: 'Senior Paper-Setter Master Strike Treatise: Static Banking Acts, Prudential Norms, 2026 Monthly/Quarterly Dossiers, IBPS 35+ Guarantee & Computer Aptitude',
+    category: 'Banking Regulation, Monetary Policy, Contemporary National Affairs & Computer Aptitude',
+    emblem: '🌐',
+    authors: 'The Gazette of India • Reserve Bank of India • Supreme Court Constitution Bench • PIB • SEBI • PFRDA • IFSCA',
+    primarySources: [
+      'The Gazette of India (Bare Acts, Legislative Amendments & Ministry Determinations)',
+      'Reserve Bank of India (RBI Master Directions, Circulars, Monetary Policy Bulletins & Prudential Norms)',
+      'Supreme Court of India (Constitution Bench Judgments & Judicial Doctrines)',
+      'Press Information Bureau (PIB), Union Budget 2026-27, Economic Survey & MoSPI Releases',
+      'Securities and Exchange Board of India (SEBI) & IFSCA Market Abuse Regulations (GIFT IFSC)',
+      'CrackGradeB / CGB Mentors & Senior Paper-Setter Master Dossiers (January–September 2026)',
+      'Official National Curricula for Computer Aptitude, Core Banking Solutions (CBS) & Cybersecurity'
+    ],
+    targetExams: [
+      'IBPS PO / Clerk Mains (35+ Marks Guarantee)',
+      'SBI PO / Clerk Mains',
+      'RBI Grade B (Phase I & II ESI / Finance & Management)',
+      'SEBI Grade A & IFSCA Grade A',
+      'NABARD Grade A',
+      'UPSC CSE (GS-2 & GS-3 Contemporary Issues)',
+      'RPSC RAS (Paper 1 & Paper 3 Current Affairs)'
+    ],
+    notesSubdir: 'current_affairs',
+    coverPledgeBadge: 'Zero Unaccounted-For Source Omission • Verified Statutory Directions & Senior Paper-Setter Grounding',
+    colophonNotice: 'Curricular Scope & Synthesis Notice: This volume provides a comprehensive curricular synthesis of Contemporary Issues, Banking Regulations, 2026 Monthly Dossiers (January to September), and Computer Aptitude for High-Scoring Mains Performance. All facts, thresholds, and directives adhere strictly to official gazette and regulatory publications on Shelf 007.'
   }
 ];
 
@@ -252,21 +310,116 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
     .replace(/^[•\-\*]\s+\*\*Item ID:\*\*.*$/gm, '')
     .replace(/^[•\-\*]\s+\*\*Target Exams:\*\*.*$/gm, '');
 
-  // 2. Math escaping defense & bullet list normalization
+  // 2. Eliminate ghost blank pages by removing inline forced page breaks
+  text = text.replace(/<div[^>]*style="[^"]*page-break-[^"]*"[^>]*>\s*<\/div>/gi, '');
+  text = text.replace(/<div[^>]*class="[^"]*page-break[^"]*"[^>]*>\s*<\/div>/gi, '');
+
+  // Ensure double newlines after <summary> tags so marked parses markdown and KaTeX inside details
+  text = text.replace(/(<summary>[\s\S]*?<\/summary>)\s*\n/gi, '$1\n\n');
+
+  // 3. Mathematical Formatting & Rupee Normalization
+
+  // A. Display math blocks: multi-line capture, escape percent, normalize Rupee & PPP $
+  text = text.replace(/\$\$([\s\S]+?)\$\$/g, (match, inner) => {
+    let cleanInner = inner
+      .replace(/\n+/g, ' ')
+      .replace(/<\/?(em|strong|b|i|span)[^>]*>/gi, '')
+      .replace(/\\mathbf\{₹([^}]*)\}/g, '\\text{₹}\\mathbf{$1}')
+      .replace(/(?<!\\text\{)₹/g, '\\text{₹}')
+      .replace(/(?<=[0-9])%/g, '\\%')
+      .replace(/PPP\s*\\?\$/g, 'PPP \\$')
+      .trim();
+    return `\n\n$$ ${cleanInner} $$\n\n`;
+  });
+
+  // B. Currency Collision Defense: Protect isolated dollar currencies from KaTeX math parser
+  text = text.replace(/\\(\$)/g, '___CURRENCY_USD___');
+  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d+[\d,\.]*\s*(?:billion|million|trillion|crore|lakh|bn|m|b|k)\b)/gi, '$1___CURRENCY_USD___$2');
+  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d[\d,\.]*)(?![^\n]*\$)/g, '$1___CURRENCY_USD___$2');
+  text = text.replace(/\bUS\$/g, 'US___CURRENCY_USD_SIGN___');
+
+  // C. Inline math blocks: escape percent and normalize Rupee
+  text = text.replace(/(?<!\$)\$([^\$\n]+)\$(?!\$)/g, (m, inner) => {
+    let clean = inner
+      .replace(/\\mathbf\{₹([^}]*)\}/g, '\\text{₹}\\mathbf{$1}')
+      .replace(/(?<!\\text\{)₹/g, '\\text{₹}')
+      .replace(/(?<=[0-9])%/g, '\\%');
+    return `$${clean}$`;
+  });
+
+
+  // 5. Fix parenthesized inline math: ensure clean boundaries
+  text = text.replace(/\(\$([^\$\n]+)\$\)/g, (match, inner) => `( $${inner}$ )`);
+  text = text.replace(/\[\$([^\$\n]+)\$\]/g, (match, inner) => `[ $${inner}$ ]`);
+
+  // 6. Ensure tag boundaries around inline math $ have space
+  text = text.replace(/(>)\$([^\$\n]+)\$/g, (match, tag, inner) => `${tag} $${inner}$`);
+  text = text.replace(/\$([^\$\n]+)\$(<)/g, (match, inner, tag) => `$${inner}$ ${tag}`);
+  text = text.replace(/\$([^\$\n]+)\$([;:,])/g, (match, inner, punct) => `$${inner}$ ${punct}`);
+
+
+  // 8. Transform Table of Contents ASCII code tree into an Oxford Monograph Curricular Index
+  text = text.replace(/```text\s*\n(PART I:[\s\S]*?)```/g, (match, tocContent) => {
+    const lines = tocContent.split('\n');
+    let tocHtml = '<div class="curriculum-toc-magazine">\n';
+    let inPart = false;
+
+    lines.forEach((line: string) => {
+      const trimmed = line.trim();
+      if (!trimmed) return;
+
+      if (trimmed.startsWith('PART ')) {
+        if (inPart) {
+          tocHtml += '</div>\n';
+        }
+        const colonIdx = trimmed.indexOf(':');
+        const partTag = colonIdx > -1 ? trimmed.slice(0, colonIdx).trim() : trimmed;
+        const partTitle = colonIdx > -1 ? trimmed.slice(colonIdx + 1).trim() : '';
+
+        tocHtml += `<div class="toc-magazine-part-banner">\n<span class="toc-part-tag">${partTag}</span>\n<span class="toc-part-title">${partTitle}</span>\n</div>\n<div class="toc-magazine-chapters-group">\n`;
+        inPart = true;
+      } else if (trimmed.includes('Chapter ')) {
+        const chMatch = trimmed.match(/Chapter\s+(\d+):\s*(.*)/i);
+        if (chMatch) {
+          const chNum = chMatch[1].padStart(2, '0');
+          const chTitle = chMatch[2].trim();
+          tocHtml += `<div class="toc-magazine-ch-row">\n<span class="toc-magazine-ch-pill">CHAPTER ${chNum}</span>\n<span class="toc-magazine-ch-name">${chTitle}</span>\n<span class="toc-magazine-leader"></span>\n</div>\n`;
+        }
+      }
+    });
+
+    if (inPart) {
+      tocHtml += '</div>\n';
+    }
+    tocHtml += '</div>\n';
+    return tocHtml;
+  });
+
+  // 9. Math escaping defense & bullet list normalization
   text = text.replace(/\\\\\$/g, '___DOUBLE_ESC_DOLLAR___');
 
   // Convert unicode bullets (•, ●, etc.) to standard markdown hyphens
   text = text.replace(/^([ \t]*)[•●○■◆]\s+/gm, '$1- ');
 
   // Move trailing colon inside bold asterisks so it doesn't dangle on the next line
-  text = text.replace(/\*\*([^*\n]+)\*\*:\s*/g, '**$1:** ');
+  text = text.replace(/\*\*([^*\n\r]+)\*\*:[ \t]*/g, '**$1:** ');
+
 
   // Ensure clean separation for list items so marked doesn't merge paragraphs
   text = text.replace(/([^\n])\n([*\-]\s+)/g, '$1\n\n$2');
   text = text.replace(/([^\n])\n(\d+\.\s+)/g, '$1\n\n$2');
 
-  // 3. Render Markdown through marked + KaTeX
+  // 10. Render Markdown through marked + KaTeX
   let html = marked.parse(text) as string;
+
+  // Restore protected currency amounts
+  html = html.replace(/___CURRENCY_USD___/g, '$');
+  html = html.replace(/___CURRENCY_USD_SIGN___/g, '$');
+
+  // Transform HTML <details><summary> active recall flashcards into full-fidelity print blocks
+  html = html.replace(/<details>\s*<summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/gi, (match, summaryText, bodyText) => {
+    return `<div class="active-recall-card">\n<div class="card-prompt-bar">⚡ ACTIVE RECALL &amp; DIAGNOSTIC PROMPT</div>\n<div class="card-prompt-summary">${summaryText.trim()}</div>\n<div class="card-answer-box">\n<div class="card-answer-tag">RIGOROUS CAUSAL PROOF &amp; EXAM SOLUTION</div>\n<div class="card-answer-body">\n${bodyText.trim()}\n</div>\n</div>\n</div>\n`;
+  });
 
   // 4. Transform blockquotes into high-impact Magazine & Academic Callout Featurettes
   html = html.replace(/<blockquote>([\s\S]*?)<\/blockquote>/g, (match, inner) => {
@@ -397,8 +550,21 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
   });
 
   // 7. Inject Drop Cap wrapper onto the first paragraph following a chapter opener
-  html = html.replace(/(<div class="chapter-ornament-rules">[\s\S]*?<\/div>\s*<\/div>\s*)(<p>)([\s\S]*?<\/p>)/, (match, opener, pTag, pContent) => {
+  html = html.replace(/(<div class="chapter-ornament-rules">[\s\S]*?<\/div>\s*<\/div>\s*)(<p>)([\s\S]*?<\/p>)/g, (match, opener, pTag, pContent) => {
     return `${opener}<p class="drop-cap-lead">${pContent}`;
+  });
+
+  // 7.B Tag wide and ultrawide pre blocks for proportional scale-down
+  html = html.replace(/<pre><code(?:\s+class="([^"]*)")?>([\s\S]*?)<\/code><\/pre>/g, (match, lang, codeContent) => {
+    const lines = codeContent.split('\n');
+    const maxLine = Math.max(...lines.map((l: string) => l.length));
+    let extraClass = '';
+    if (maxLine > 130) {
+      extraClass = ' pre-ultrawide';
+    } else if (maxLine > 88) {
+      extraClass = ' pre-wide';
+    }
+    return `<pre class="${extraClass}"><code${lang ? ` class="${lang}"` : ''}>${codeContent}</code></pre>`;
   });
 
   // 8. Inject Absolute KaTeX font paths
@@ -703,12 +869,15 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
     .colophon-verso-page {
       border: 1pt solid #333333;
       padding: 9pt 12pt;
+      margin-top: 30mm;
       margin-bottom: 16pt;
       background: #fafafa !important;
       font-size: 9pt;
       line-height: 1.40;
       color: #222222;
       break-inside: avoid;
+      page-break-after: always;
+      break-after: page;
     }
 
     .colophon-cip-header {
@@ -821,6 +990,8 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
 
     /* TOC Headers */
     .toc-header-wrapper {
+      page-break-before: always;
+      break-before: page;
       break-after: avoid;
       margin-bottom: 12pt;
     }
@@ -1142,30 +1313,182 @@ export function transformMarkdownToPrintHtml(rawMarkdown: string, subject: Subje
     }
 
     pre {
-      font-family: "Consolas", "Courier New", monospace;
-      background-color: #f7f7f7 !important;
-      border: 0.75pt solid #333333;
+      font-family: "Consolas", "Courier New", monospace !important;
+      background-color: #fafafa !important;
+      border: 0.75pt solid #333333 !important;
       border-radius: 2px;
-      padding: 7pt 9pt;
-      font-size: 9.5pt;
-      line-height: 1.35;
+      padding: 5pt 7pt !important;
+      font-size: 7.2pt !important;
+      line-height: 1.25 !important;
+      letter-spacing: -0.025em !important;
       max-width: 100% !important;
       box-sizing: border-box !important;
       overflow-x: hidden !important;
-      white-space: pre-wrap !important;
-      word-break: break-all !important;
+      white-space: pre !important;
+      word-break: normal !important;
       break-inside: avoid;
       page-break-inside: avoid;
-      margin: 8pt 0 10pt 0;
+      margin: 6pt 0 8pt 0 !important;
+    }
+
+    pre.pre-wide {
+      font-size: 6.0pt !important;
+      line-height: 1.20 !important;
+      letter-spacing: -0.03em !important;
+    }
+
+    pre.pre-ultrawide {
+      font-size: 4.8pt !important;
+      line-height: 1.15 !important;
+      letter-spacing: -0.035em !important;
     }
 
     pre code {
       background: none !important;
-      border: none;
-      padding: 0;
+      border: none !important;
+      padding: 0 !important;
+      font-size: inherit !important;
+      line-height: inherit !important;
+      letter-spacing: inherit !important;
+      white-space: pre !important;
+      word-break: normal !important;
+    }
+
+    /* Active Recall Diagnostic Cards (Printed Full-Fidelity) */
+    .active-recall-card {
+      margin: 10pt 0 14pt 0;
+      border: 1.25pt solid #000000;
+      border-left: 4.5pt solid #000000;
+      background: #ffffff !important;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .card-prompt-bar {
+      background: #000000 !important;
+      color: #ffffff !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 8pt;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 3.5pt 8pt;
+    }
+
+    .card-prompt-summary {
+      font-family: "Georgia", serif;
+      font-size: 10.5pt;
+      font-weight: 700;
+      font-style: italic;
+      color: #000000;
+      padding: 6pt 10pt 4pt 10pt;
+      border-bottom: 0.75pt dashed #888888;
+    }
+
+    .card-answer-box {
+      padding: 6pt 10pt 8pt 10pt;
+      background: #fafafa !important;
+    }
+
+    .card-answer-tag {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 7.5pt;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #333333;
+      margin-bottom: 4pt;
+    }
+
+    .card-answer-body {
+      font-size: 10pt;
+      line-height: 1.45;
+      color: #000000;
+    }
+
+    .card-answer-body p {
+      margin-bottom: 4pt;
+      text-align: justify;
+    }
+
+    /* Magazine Table of Contents Grid */
+    .curriculum-toc-magazine {
+      margin: 10pt 0 16pt 0;
+      width: 100%;
+    }
+
+    .toc-magazine-part-banner {
+      background: #000000 !important;
+      color: #ffffff !important;
+      padding: 4.5pt 8pt;
+      margin-top: 10pt;
+      margin-bottom: 5pt;
+      display: flex;
+      align-items: center;
+      gap: 8pt;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .toc-part-tag {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 8.5pt;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      background: #ffffff !important;
+      color: #000000 !important;
+      padding: 1.5pt 6pt;
+    }
+
+    .toc-part-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 8.5pt;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .toc-magazine-chapters-group {
+      margin-bottom: 8pt;
+      border-left: 1.25pt solid #cccccc;
+      padding-left: 8pt;
+    }
+
+    .toc-magazine-ch-row {
+      display: flex;
+      align-items: baseline;
+      padding: 2.5pt 0;
       font-size: 9.5pt;
-      white-space: pre-wrap !important;
-      word-break: break-all !important;
+      border-bottom: 0.25pt dashed #e0e0e0;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .toc-magazine-ch-pill {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 7.5pt;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      background: #f0f0f0 !important;
+      color: #222222 !important;
+      border: 0.5pt solid #cccccc;
+      padding: 1pt 5pt;
+      margin-right: 8pt;
+      white-space: nowrap;
+    }
+
+    .toc-magazine-ch-name {
+      font-family: "Georgia", serif;
+      font-size: 9.5pt;
+      color: #111111;
+      flex: 1;
+    }
+
+    .toc-magazine-leader {
+      flex: 1;
+      border-bottom: 0.5pt dotted #999999;
+      margin: 0 4pt;
+      height: 1pt;
     }
 
     /* KaTeX Mathematical Formulas */
