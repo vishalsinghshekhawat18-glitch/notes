@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import logoIcon from '@/app/icon.png';
 import { SearchDialog } from './search-dialog';
 import { ThemeSwitcher } from './theme-switcher';
 
@@ -39,7 +40,7 @@ export function SiteHeader() {
             <Link href="/" className="flex items-center gap-2.5 group min-w-0 shrink-0">
               <div className="w-8 h-8 rounded-md bg-[#173A2F] border border-[#274E3E] flex items-center justify-center p-1 shadow-2xs group-hover:scale-105 transition-transform shrink-0">
                 <Image
-                  src="/icon.png"
+                  src={logoIcon}
                   alt="Mind of Aravalli Logo"
                   width={24}
                   height={24}
