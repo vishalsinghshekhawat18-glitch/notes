@@ -28,7 +28,6 @@ export function SiteHeader() {
     { label: 'Waypoint', href: '/#continue-reading' },
     { label: 'Domains', href: '/#knowledge-terrain' },
     { label: 'Revision', href: '/shelf-007/political-science/chapter-30' },
-    { label: 'Audit', href: '/#knowledge-health' },
   ];
 
   return (
