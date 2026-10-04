@@ -4893,7 +4893,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "History: Ancient, Medieval, Modern, Rajasthan & World Combined"
     },
-    "badge": "HIST-007 • 2 Chapters"
+    "badge": "HIST-007 • 39 Chapters"
   },
   {
     "id": "shelf007-ch-history-cover",
@@ -14658,5 +14658,4047 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "concept": "3. High-Yield Examination Flashcards"
     },
     "badge": "110 words"
+  },
+  {
+    "id": "shelf007-subj-hindi",
+    "type": "SUBJECT",
+    "title": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+    "slug": "hindi",
+    "url": "/shelf-007/hindi",
+    "description": "Sovereign 20-chapter doctoral-depth master treatise covering Phonetics & Sandhi (संधि), Affixes (उपसर्ग/प्रत्यय), Lexicon (पर्यायवाची/विलोम/युग्म), Orthography & Syntax (शब्द शुद्धि/वाक्य शुद्धि), Rhetoric (मुहावरे/कहावतें), CSTT Administrative Terminology, Précis (संक्षिप्तीकरण), Idea Expansion (पल्लवन), Official Correspondence & Drafting (परिपत्र/निविदा/अधिसूचना), Translation, High-Scoring Essays, and Capstone Revision Vault.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)"
+    },
+    "badge": "HIN-007 • 42 Chapters"
+  },
+  {
+    "id": "shelf007-ch-hindi-cover",
+    "type": "TOPIC",
+    "title": "सामान्य हिन्दी एवं प्रशासनिक आलेखन",
+    "slug": "cover",
+    "url": "/shelf-007/hindi/cover",
+    "description": "▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची"
+    },
+    "badge": "322 words • 2 min read"
+  },
+  {
+    "id": "shelf007-ch-hindi-table-of-contents",
+    "type": "TOPIC",
+    "title": "TABLE OF CONTENTS & MASTER CURRICULUM",
+    "slug": "table-of-contents",
+    "url": "/shelf-007/hindi/table-of-contents",
+    "description": "Treatise: सामान्य हिन्दी एवं प्रशासनिक आलेखन (General Hindi & Administrative Rhetoric Master Codex)  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nMethodology: Hexa-Source Canonical Fusion of Dr. Raghav Prakash, Dr. Hardev Bahri, Dr. Vasudevna...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची"
+    },
+    "badge": "620 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-table-of-contents-sec-2",
+    "type": "CONCEPT",
+    "title": "GENERAL HINDI & ADMINISTRATIVE RHETORIC (RPSC RAS MAINS PAPER 4 — 120 MARKS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/table-of-contents",
+    "description": "Treatise: सामान्य हिन्दी एवं प्रशासनिक आलेखन (General Hindi & Administrative Rhetoric Master Codex)  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nMethodology: Hexa-Source",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
+      "concept": "GENERAL HINDI & ADMINISTRATIVE RHETORIC (RPSC RAS MAINS PAPER 4 — 120 MARKS)"
+    },
+    "badge": "69 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-table-of-contents-sec-3",
+    "type": "CONCEPT",
+    "title": "Master Part & Chapter Architecture",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/table-of-contents",
+    "description": "text\nPART I: वर्ण विचार एवं संधि विज्ञान (PHONETICS & SANDHI MECHANICS)\n  ├── Chapter 01: वर्ण विचार, उच्चारण स्थान एवं ध्वन्यात्मक वर्गीकरण\n  └── Chapter 02: संधि एवं संधि-विच्छेद महा-विज्ञान (स्व",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
+      "concept": "Master Part & Chapter Architecture"
+    },
+    "badge": "385 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-table-of-contents-sec-4",
+    "type": "CONCEPT",
+    "title": "Curricular Marks Mapping (RPSC RAS Mains Paper 4)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/table-of-contents",
+    "description": "| भाग / Section | विषय / Content Units | अंक भार / Marks | संबंधित अध्याय / Chapters |\n| :--- | :--- | :--- | :--- |\n| भाग 'अ' (व्याकरण) | संधि, उपसर्ग, प्रत्यय, पर्यायवाची, विलोम, युग्म-शब्द, एक",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
+      "concept": "Curricular Marks Mapping (RPSC RAS Mains Paper 4)"
+    },
+    "badge": "130 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-01",
+    "type": "TOPIC",
+    "title": "अध्याय ०१: वर्ण विचार, उच्चारण स्थान एवं ध्वन्यात्मक वर्गीकरण",
+    "slug": "chapter-01",
+    "url": "/shelf-007/hindi/chapter-01",
+    "description": "[⚖️ RPSC शास्त्रीय विभेद एवं परीक्षा जाल]:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "वर्ण विचार एवं संधि विज्ञान"
+    },
+    "badge": "3,104 words • 15 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-01-sec-2",
+    "type": "CONCEPT",
+    "title": "(PHONETICS, ARTICULATION DYNAMICS & PHONOLOGICAL CLASSIFICATION)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-01",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय 1: वर्ण विचार — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (वर्ण विचार एवं ध्वन्या",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०१: वर्ण विचार, उच्चारण स्थान एवं ध्वन्यात्मक वर्गीकरण",
+      "concept": "(PHONETICS, ARTICULATION DYNAMICS & PHONOLOGICAL CLASSIFICATION)"
+    },
+    "badge": "69 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-01-sec-3",
+    "type": "CONCEPT",
+    "title": "1.1 भाषा एवं ध्वनि की मौलिक इकाइयां (The Epistemic Hierarchy)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-01",
+    "description": "हिन्दी व्याकरण की संप्रभु समझ के लिए भाषा की न्यूनतम इकाइयों के मध्य सूक्ष्म तात्विक भेद को समझना अनिवार्य है:\n\ntext\n[ध्वनि / Phone]          ← भाषा की लघुत्तम मौखिक/श्रव्य इकाई (केवल उच्चारित रूप)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०१: वर्ण विचार, उच्चारण स्थान एवं ध्वन्यात्मक वर्गीकरण",
+      "concept": "1.1 भाषा एवं ध्वनि की मौलिक इकाइयां (The Epistemic Hierarchy)"
+    },
+    "badge": "227 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-01-sec-4",
+    "type": "CONCEPT",
+    "title": "1.2 हिन्दी वर्णमाला की समग्र संरचना (The Alphabet Matrix)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-01",
+    "description": "हिन्दी वर्णमाला में मानक देवनागरी लिपि (केन्द्रीय हिन्दी निदेशालय एवं RBSE) के अनुसार कुल 52 वर्ण स्वीकार किए जाते हैं:\n\n<div style=\"overflow-x: auto;\">\n\n| क्र. | वर्ण वर्ग | वर्णों की सूची |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०१: वर्ण विचार, उच्चारण स्थान एवं ध्वन्यात्मक वर्गीकरण",
+      "concept": "1.2 हिन्दी वर्णमाला की समग्र संरचना (The Alphabet Matrix)"
+    },
+    "badge": "256 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-01-sec-5",
+    "type": "CONCEPT",
+    "title": "1.3 स्वर विज्ञान (Vowel Taxonomy & Mechanics)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-01",
+    "description": "परिभाषा: वे ध्वनियां जिनका उच्चारण बिना किसी अन्य ध्वनि (व्यंजन) की सहायता के स्वतंत्र रूप से तथा फेफड़ों से निकलने वाली वायु बिना किसी घर्षण या अवरोध के बाहर निकलती है, स्वर कहलाती हैं।",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०१: वर्ण विचार, उच्चारण स्थान एवं ध्वन्यात्मक वर्गीकरण",
+      "concept": "1.3 स्वर विज्ञान (Vowel Taxonomy & Mechanics)"
+    },
+    "badge": "467 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-02",
+    "type": "TOPIC",
+    "title": "अध्याय ०२: संधि एवं संधि-विच्छेद महा-विज्ञान",
+    "slug": "chapter-02",
+    "url": "/shelf-007/hindi/chapter-02",
+    "description": "[⚖️ संधि बनाम संयोग (Sandhi vs. Conjunction)]:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "वर्ण विचार एवं संधि विज्ञान"
+    },
+    "badge": "4,722 words • 22 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-02-sec-2",
+    "type": "CONCEPT",
+    "title": "(PHONOLOGICAL SANDHI MECHANICS, EUPHONIC COMBINATIONS & EXAM TRAPS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-02",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय 2: संधि — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत संधि एवं अपवाद मीमां",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०२: संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "(PHONOLOGICAL SANDHI MECHANICS, EUPHONIC COMBINATIONS & EXAM TRAPS)"
+    },
+    "badge": "73 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-02-sec-3",
+    "type": "CONCEPT",
+    "title": "2.1 संधि की तात्विक अवधारणा (Epistemic Foundation)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-02",
+    "description": "1. परिभाषा एवं स्वरूप:\nदो निकटवर्ती वर्णों के परस्पर मेल से उत्पन्न ध्वन्यात्मक विकार (परिवर्तन) को संधि कहते हैं:\n$$\\text{प्रथम शब्द का अंतिम वर्ण} + \\text{द्वितीय शब्द का प्रथम वर्ण} \\lo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०२: संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "2.1 संधि की तात्विक अवधारणा (Epistemic Foundation)"
+    },
+    "badge": "178 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-02-sec-4",
+    "type": "CONCEPT",
+    "title": "2.2 स्वर संधि महा-विज्ञान (Vowel Euphonic System — 5 भेद)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-02",
+    "description": "दो स्वरों के परस्पर मेल से जो विकार उत्पन्न होता है, उसे स्वर संधि कहते हैं। इसके 5 सर्वमान्य भेद हैं:\n\n---\n\n 1. दीर्घ स्वर संधि (अकः सवर्णे दीर्घः)\nनियम: जब ह्रस्व या दीर्घ अ, इ, उ, ऋ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०२: संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "2.2 स्वर संधि महा-विज्ञान (Vowel Euphonic System — 5 भेद)"
+    },
+    "badge": "1935 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-02-sec-5",
+    "type": "CONCEPT",
+    "title": "2.3 व्यंजन संधि महा-विज्ञान (Consonant Euphonic Combinations)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-02",
+    "description": "व्यंजन के बाद स्वर या व्यंजन आने पर व्यंजन में जो विकार होता है, उसे व्यंजन संधि कहते हैं। इसके 14 अचूक शास्त्रीय नियम हैं:\n\n---\n\n नियम 1: प्रथम वर्ण का तृतीय वर्ण में रूपान्तरण (झलां जशोऽ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०२: संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "2.3 व्यंजन संधि महा-विज्ञान (Consonant Euphonic Combinations)"
+    },
+    "badge": "1099 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-03",
+    "type": "TOPIC",
+    "title": "अध्याय ०३: उपसर्ग विधान एवं व्युत्पत्ति विज्ञान",
+    "slug": "chapter-03",
+    "url": "/shelf-007/hindi/chapter-03",
+    "description": "[शास्त्रीय श्लोक - उपसर्ग की शक्ति]:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "शब्द रचना एवं व्युत्पत्ति विज्ञान (उपसर्ग एवं प्रत्यय)"
+    },
+    "badge": "2,008 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-03-sec-2",
+    "type": "CONCEPT",
+    "title": "(PREFIX MORPHOLOGY, SANSKRIT/TADBHAV/FOREIGN AFFIXATION & EXAM TRAPS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-03",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: उपसर्ग)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत उपसर्ग एवं संयुक्त उपसर्ग विवेचन)\n डॉ.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०३: उपसर्ग विधान एवं व्युत्पत्ति विज्ञान",
+      "concept": "(PREFIX MORPHOLOGY, SANSKRIT/TADBHAV/FOREIGN AFFIXATION & EXAM TRAPS)"
+    },
+    "badge": "53 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-03-sec-3",
+    "type": "CONCEPT",
+    "title": "3.1 उपसर्ग की तात्विक अवधारणा (Morphological Foundation)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-03",
+    "description": "1. परिभाषा एवं लक्षण:\nवे शब्दांश जो किसी मूल शब्द (धातु या संज्ञा/विशेषण) के पूर्व (आरंभ) में जुड़कर उसके अर्थ में विशेषता ला देते हैं, अर्थ को पूर्णतः बदल देते हैं अथवा विलोम बना देते हैं,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०३: उपसर्ग विधान एवं व्युत्पत्ति विज्ञान",
+      "concept": "3.1 उपसर्ग की तात्विक अवधारणा (Morphological Foundation)"
+    },
+    "badge": "214 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-03-sec-4",
+    "type": "CONCEPT",
+    "title": "3.2 उपसर्गों का त्रिविध वर्गीकरण (The Tri-Fold Taxonomy)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-03",
+    "description": "हिन्दी में मूल स्रोतों के आधार पर तीन प्रकार के उपसर्ग प्रयुक्त होते हैं:\n1. संस्कृत के उपसर्ग (तत्सम उपसर्ग): कुल 22 मानक उपसर्ग।\n2. हिन्दी के उपसर्ग (तद्भव उपसर्ग): प्रमुख 13 उपसर्ग।",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०३: उपसर्ग विधान एवं व्युत्पत्ति विज्ञान",
+      "concept": "3.2 उपसर्गों का त्रिविध वर्गीकरण (The Tri-Fold Taxonomy)"
+    },
+    "badge": "45 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-03-sec-5",
+    "type": "CONCEPT",
+    "title": "3.3 संस्कृत के 22 प्रामाणिक उपसर्ग (The Classical 22 Pradi Prefixes)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-03",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| क्र. | उपसर्ग | मूल अर्थ | सामान्य संयोग उदाहरण | संधि-युक्त गूढ़ उदाहरण (RPSC Favorite) |\n| :---: | :--- | :--- | :--- | :--- |\n| 1. | अति | अधिक, परे, उस प",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०३: उपसर्ग विधान एवं व्युत्पत्ति विज्ञान",
+      "concept": "3.3 संस्कृत के 22 प्रामाणिक उपसर्ग (The Classical 22 Pradi Prefixes)"
+    },
+    "badge": "494 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-04",
+    "type": "TOPIC",
+    "title": "अध्याय ०४: प्रत्यय विधान एवं रूपान्तरण विज्ञान",
+    "slug": "chapter-04",
+    "url": "/shelf-007/hindi/chapter-04",
+    "description": "[⚖️ उपसर्ग बनाम प्रत्यय का मौलिक अंतर]:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "शब्द रचना एवं व्युत्पत्ति विज्ञान (उपसर्ग एवं प्रत्यय)"
+    },
+    "badge": "2,373 words • 11 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-04-sec-2",
+    "type": "CONCEPT",
+    "title": "(SUFFIX MORPHOLOGY, KRIT/TADDHIT MECHANICS, ADI-VRIDDHI RULES & EXAM TRAPS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-04",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: प्रत्यय — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत प्रत्यय, आदिवृद्धि",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०४: प्रत्यय विधान एवं रूपान्तरण विज्ञान",
+      "concept": "(SUFFIX MORPHOLOGY, KRIT/TADDHIT MECHANICS, ADI-VRIDDHI RULES & EXAM TRAPS)"
+    },
+    "badge": "69 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-04-sec-3",
+    "type": "CONCEPT",
+    "title": "4.1 प्रत्यय की तात्विक अवधारणा (Suffix Morphology)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-04",
+    "description": "1. परिभाषा एवं स्वरूप:\nवे शब्दांश जो किसी धातु (क्रिया के मूल रूप) अथवा प्रातिपदिक (संज्ञा, सर्वनाम, विशेषण) के अंत (परवर्ती भाग) में जुड़कर नए शब्दों की रचना करते हैं, प्रत्यय कहलाते हैं:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०४: प्रत्यय विधान एवं रूपान्तरण विज्ञान",
+      "concept": "4.1 प्रत्यय की तात्विक अवधारणा (Suffix Morphology)"
+    },
+    "badge": "205 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-04-sec-4",
+    "type": "CONCEPT",
+    "title": "4.2 कृत् प्रत्यय महा-विज्ञान (Krit Pratyaya — 5 प्रकार)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-04",
+    "description": "क्रिया या धातु के अंत में जुड़ने वाले प्रत्यय कृत् प्रत्यय कहलाते हैं और इनसे बने शब्दों को कृदन्त (कृत् + अंत) कहा जाता है।\n\n<div style=\"overflow-x: auto;\">\n\n| भेद | कार्य / लक्षण | प्रयुक्त",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०४: प्रत्यय विधान एवं रूपान्तरण विज्ञान",
+      "concept": "4.2 कृत् प्रत्यय महा-विज्ञान (Krit Pratyaya — 5 प्रकार)"
+    },
+    "badge": "306 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-04-sec-5",
+    "type": "CONCEPT",
+    "title": "4.3 तद्धित प्रत्यय महा-विज्ञान (Taddhit Pratyaya — 6 प्रकार)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-04",
+    "description": "संज्ञा, सर्वनाम अथवा विशेषण के अंत में जुड़कर नए शब्द बनाने वाले प्रत्यय तद्धित प्रत्यय कहलाते हैं और इनसे बने शब्दों को तद्धितान्त (तद्धित + अंत) कहा जाता है।\n\n<div style=\"overflow-x: auto;\">",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०४: प्रत्यय विधान एवं रूपान्तरण विज्ञान",
+      "concept": "4.3 तद्धित प्रत्यय महा-विज्ञान (Taddhit Pratyaya — 6 प्रकार)"
+    },
+    "badge": "324 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-05",
+    "type": "TOPIC",
+    "title": "अध्याय ०५: पर्यायवाची शब्द कोश एवं सूक्ष्म अर्थ-भेद",
+    "slug": "chapter-05",
+    "url": "/shelf-007/hindi/chapter-05",
+    "description": "[⚖️ पूर्ण पर्याय का अभाव एवं सूक्ष्म अर्थ-भेद (No Absolute Synonyms)]:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "शब्द संपदा एवं अर्थ विज्ञान"
+    },
+    "badge": "2,019 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-05-sec-2",
+    "type": "CONCEPT",
+    "title": "(CANONICAL SYNONYM COMPENDIUM, CLASSICAL/NATURE/DEITY TAXONOMY & EXAM TRAPS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-05",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: पर्यायवाची शब्द — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत पर्यायवाची",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०५: पर्यायवाची शब्द कोश एवं सूक्ष्म अर्थ-भेद",
+      "concept": "(CANONICAL SYNONYM COMPENDIUM, CLASSICAL/NATURE/DEITY TAXONOMY & EXAM TRAPS)"
+    },
+    "badge": "63 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-05-sec-3",
+    "type": "CONCEPT",
+    "title": "5.1 पर्यायवाची शब्दों का वैज्ञानिक आधार (The Semantic Principle)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-05",
+    "description": "1. परिभाषा एवं स्वरूप:\nसमान अथवा लगभग समान अर्थ व्यक्त करने वाले शब्दों को पर्यायवाची (समानार्थक) शब्द कहा जाता है।\n\n> [⚖️ पूर्ण पर्याय का अभाव एवं सूक्ष्म अर्थ-भेद (No Absolute Synonyms)]",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०५: पर्यायवाची शब्द कोश एवं सूक्ष्म अर्थ-भेद",
+      "concept": "5.1 पर्यायवाची शब्दों का वैज्ञानिक आधार (The Semantic Principle)"
+    },
+    "badge": "302 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-05-sec-4",
+    "type": "CONCEPT",
+    "title": "5.2 पौराणिक एवं देव-वर्गीय पर्यायवाची (Deities & Mythological Figures)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-05",
+    "description": "RPSC RAS Mains में देवताओं, पौराणिक पात्रों एवं शास्त्रीय प्रतीकों के दो-दो प्रामाणिक पर्याय अनिवार्य रूप से पूछे जाते हैं:\n\n<div style=\"overflow-x: auto;\">\n\n| शब्द | प्रामाणिक शास्त्रीय पर्यायवाची (T",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०५: पर्यायवाची शब्द कोश एवं सूक्ष्म अर्थ-भेद",
+      "concept": "5.2 पौराणिक एवं देव-वर्गीय पर्यायवाची (Deities & Mythological Figures)"
+    },
+    "badge": "483 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-05-sec-5",
+    "type": "CONCEPT",
+    "title": "5.3 प्रकृति, भूगोल एवं जीव-जगत के पर्यायवाची (Nature & Living World)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-05",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| शब्द | प्रामाणिक पर्यायवाची (Top Synonyms) | मुख्य परीक्षा में पूछे गए वर्ष / टिप्पणी |\n| :--- | :--- | :--- |\n| अश्व / घोड़ा | हय, तुरंग, बाजि, घोटक, सैंधव, र",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०५: पर्यायवाची शब्द कोश एवं सूक्ष्म अर्थ-भेद",
+      "concept": "5.3 प्रकृति, भूगोल एवं जीव-जगत के पर्यायवाची (Nature & Living World)"
+    },
+    "badge": "377 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-06",
+    "type": "TOPIC",
+    "title": "अध्याय ०६: विलोम शब्द तंत्र एवं विपरीतार्थक यांत्रिकी",
+    "slug": "chapter-06",
+    "url": "/shelf-007/hindi/chapter-06",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: विलोम शब्द — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विलोम शब्द निर्माण एवं व्याकरणिक संगति)\n डॉ. हरदेव बाहरी: मानक हिन्दी व्याकरण (विपरीतार्थक शब्...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "शब्द संपदा एवं अर्थ विज्ञान"
+    },
+    "badge": "1,712 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-06-sec-2",
+    "type": "CONCEPT",
+    "title": "(ANTONYM DYNAMICS, PREFIX-INDUCED OPPOSITION & THE PART-OF-SPEECH INVARIANT)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-06",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: विलोम शब्द — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विलोम शब्द निर्माण एवं व",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०६: विलोम शब्द तंत्र एवं विपरीतार्थक यांत्रिकी",
+      "concept": "(ANTONYM DYNAMICS, PREFIX-INDUCED OPPOSITION & THE PART-OF-SPEECH INVARIANT)"
+    },
+    "badge": "66 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-06-sec-3",
+    "type": "CONCEPT",
+    "title": "6.1 विलोम शब्द का स्वर्णिम नियम (The Part-of-Speech Invariant)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-06",
+    "description": "1. व्याकरणिक संगति का नियम:\nविलोम (विपरीतार्थक) शब्द लिखते समय जातीय एवं व्याकरणिक संगति का निर्वाह अनिवार्य है। जिस कोटि (Class) का मूल शब्द होगा, उसका विलोम भी उसी कोटि का होना चाहिए:\n\nte",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०६: विलोम शब्द तंत्र एवं विपरीतार्थक यांत्रिकी",
+      "concept": "6.1 विलोम शब्द का स्वर्णिम नियम (The Part-of-Speech Invariant)"
+    },
+    "badge": "236 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-06-sec-4",
+    "type": "CONCEPT",
+    "title": "6.2 विलोम निर्माण के 5 वैज्ञानिक तंत्र (Mechanics of Opposition)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-06",
+    "description": "हिन्दी में विलोम शब्द केवल रटने का विषय नहीं हैं; वे 5 स्पष्ट नियमों पर आधारित होते हैं:\n\n 1. उपसर्ग परिवर्तन अथवा संयोजन द्वारा:\n 'अ' उपसर्ग जोड़कर: सत्य $\\rightarrow$ असत्य, धर्म $\\righta",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०६: विलोम शब्द तंत्र एवं विपरीतार्थक यांत्रिकी",
+      "concept": "6.2 विलोम निर्माण के 5 वैज्ञानिक तंत्र (Mechanics of Opposition)"
+    },
+    "badge": "287 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-06-sec-5",
+    "type": "CONCEPT",
+    "title": "6.3 RPSC RAS उच्च-आवृत्ति महा-विलोम शब्द तालिका (Top 120 Master Invariants)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-06",
+    "description": "विगत 30 वर्षों में RPSC, UPSC एवं राज्य लोक सेवा आयोगों में सर्वाधिक पूछे गए प्रामाणिक शब्द:\n\n<div style=\"overflow-x: auto;\">\n\n| क्र. | शब्द | विलोम शब्द | अर्थ एवं शास्त्रीय व्याख्या |\n| :---: | :---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०६: विलोम शब्द तंत्र एवं विपरीतार्थक यांत्रिकी",
+      "concept": "6.3 RPSC RAS उच्च-आवृत्ति महा-विलोम शब्द तालिका (Top 120 Master Invariants)"
+    },
+    "badge": "725 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-07",
+    "type": "TOPIC",
+    "title": "अध्याय ०७: समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+    "slug": "chapter-07",
+    "url": "/shelf-007/hindi/chapter-07",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: समश्रुत भिन्नार्थक शब्द)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (युग्म-शब्द महा-संकलन एवं अर्थ-भेद)\n डॉ. हरदेव बाहरी: मानक हिन्दी शिक्षार्थी शब्दकोश (ध्वनि-साम्य शब्...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "शब्द संपदा एवं अर्थ विज्ञान"
+    },
+    "badge": "1,588 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-07-sec-2",
+    "type": "CONCEPT",
+    "title": "(HOMOPHONIC PAIRS, PHONETIC CONFUSABLES & SEMANTIC DISCRIMINATION)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-07",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: समश्रुत भिन्नार्थक शब्द)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (युग्म-शब्द महा-संकलन एवं अर्थ-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०७: समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "(HOMOPHONIC PAIRS, PHONETIC CONFUSABLES & SEMANTIC DISCRIMINATION)"
+    },
+    "badge": "51 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-07-sec-3",
+    "type": "CONCEPT",
+    "title": "7.1 युग्म-शब्द की तात्विक अवधारणा (Homophonic Mechanics)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-07",
+    "description": "1. परिभाषा एवं स्वरूप:\nवे शब्द जो सुनने एवं उच्चारण करने में लगभग एक समान (समश्रुत) प्रतीत होते हैं, किन्तु वर्तनी (मात्रा/वर्ण) में अत्यंत सूक्ष्म अंतर के कारण उनके अर्थ पूर्णतः भिन्न होत",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०७: समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "7.1 युग्म-शब्द की तात्विक अवधारणा (Homophonic Mechanics)"
+    },
+    "badge": "109 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-07-sec-4",
+    "type": "CONCEPT",
+    "title": "7.2 RPSC RAS उच्च-आवृत्ति महा-युग्म शब्द संकलन (Top 100 Master Pairs)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-07",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| क्र. | प्रथम शब्द | अर्थ | द्वितीय शब्द | अर्थ | परीक्षा विश्लेषण / स्मृति सूत्र |\n| :---: | :--- | :--- | :--- | :--- | :--- |\n| 1. | अंस | कंधा | अंश",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०७: समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "7.2 RPSC RAS उच्च-आवृत्ति महा-युग्म शब्द संकलन (Top 100 Master Pairs)"
+    },
+    "badge": "1048 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-07-sec-5",
+    "type": "CONCEPT",
+    "title": "7.3 RPSC परीक्षा जाल एवं सर्वाधिक पूछे गए घातक युग्म (Exam Trap Autopsy)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-07",
+    "description": "<div style=\"border: 1.5pt solid 000; background: fafafa; padding: 16px 20px; margin: 20px 0;\">\n\n ⚡ RPSC DEADLIEST HOMOPHONE TRAPS (परीक्षा जाल)\n\n1. 'प्रासाद' बनाम 'प्रसाद' (RPSC Favorite):",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०७: समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "7.3 RPSC परीक्षा जाल एवं सर्वाधिक पूछे गए घातक युग्म (Exam Trap Autopsy)"
+    },
+    "badge": "138 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-08",
+    "type": "TOPIC",
+    "title": "अध्याय ०८: वाक्यांश के लिए एक सार्थक शब्द",
+    "slug": "chapter-08",
+    "url": "/shelf-007/hindi/chapter-08",
+    "description": "[⚖️ इच्छा ('आ') बनाम इच्छुक ('उ') का सार्वभौमिक व्याकरणिक नियम]:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "शब्द संपदा एवं अर्थ विज्ञान"
+    },
+    "badge": "2,016 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-08-sec-2",
+    "type": "CONCEPT",
+    "title": "(ONE-WORD SUBSTITUTION, PHILOSOPHICAL/LEGAL/NATURAL TAXONOMY & EXAM TRAPS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-08",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: वाक्यांश के लिए एक शब्द)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत सार्थक शब्द संकलन एवं",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०८: वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "(ONE-WORD SUBSTITUTION, PHILOSOPHICAL/LEGAL/NATURAL TAXONOMY & EXAM TRAPS)"
+    },
+    "badge": "65 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-08-sec-3",
+    "type": "CONCEPT",
+    "title": "8.1 वाक्यांश संक्षेपण का महत्व एवं व्याकरणिक अनुशासन",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-08",
+    "description": "विस्तृत विचारों को एक सटीक, संस्कृतनिष्ठ एवं अर्थगर्भित शब्द में समाहित करने की क्षमता को वाक्यांश के लिए एक शब्द (One-Word Substitution) कहते हैं। प्रशासनिक पत्र-व्यवहार, टिप्पण (Noting) एवं संक्",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०८: वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "8.1 वाक्यांश संक्षेपण का महत्व एवं व्याकरणिक अनुशासन"
+    },
+    "badge": "112 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-08-sec-4",
+    "type": "CONCEPT",
+    "title": "8.2 दिशाओं एवं भौगोलिक कोणों का शास्त्रीय वर्गीकरण (The 10 Directions)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-08",
+    "description": "भारतीय वास्तुशास्त्र एवं शास्त्रीय व्याकरण के अनुसार चारों कोणों एवं दिशाओं के प्रामाणिक नाम:\n\ntext\n                           उत्तर (North)\n                                 ▲\n              वायव्य",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०८: वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "8.2 दिशाओं एवं भौगोलिक कोणों का शास्त्रीय वर्गीकरण (The 10 Directions)"
+    },
+    "badge": "189 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-08-sec-5",
+    "type": "CONCEPT",
+    "title": "8.3 अग्नि, भूख एवं जल के त्रिविध रूप (The Triads)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-08",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| क्र. | वाक्यांश | मानक सार्थक शब्द | व्याकरणिक विच्छेद |\n| :---: | :--- | :--- | :--- |\n| 1. | पेट में लगने वाली आग (पाचक रस की ज्वाला) | जठराग्नि / जठरानल",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०८: वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "8.3 अग्नि, भूख एवं जल के त्रिविध रूप (The Triads)"
+    },
+    "badge": "123 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-09",
+    "type": "TOPIC",
+    "title": "अध्याय ०९: शब्द शुद्धि महा-संहिता एवं वर्तनी विज्ञान",
+    "slug": "chapter-09",
+    "url": "/shelf-007/hindi/chapter-09",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: शब्द शुद्धि — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत शब्द शुद्धि एवं भ्रम निवारण महा-कोश)\n डॉ. हरदेव बाहरी: मानक हिन्दी वर्तनी एवं शुद्ध ह...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "वर्तनी शुद्धि एवं वाक्य विज्ञान"
+    },
+    "badge": "2,437 words • 12 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-09-sec-2",
+    "type": "CONCEPT",
+    "title": "(ORTHOGRAPHIC CODEX, PHONETIC RECTIFICATION, 12 GOLDEN RULES & 250 DEADLY TRAPS)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-09",
+    "description": "Canonical Sources Unified:\n RBSE कक्षा 9–12: नवीन हिन्दी व्याकरण एवं रचना प्रबोध (अध्याय: शब्द शुद्धि — विधिक राज्य मानक)\n डॉ. राघव प्रकाश: व्यावहारिक सामान्य हिन्दी (विस्तृत शब्द शुद्धि एवं",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०९: शब्द शुद्धि महा-संहिता एवं वर्तनी विज्ञान",
+      "concept": "(ORTHOGRAPHIC CODEX, PHONETIC RECTIFICATION, 12 GOLDEN RULES & 250 DEADLY TRAPS)"
+    },
+    "badge": "81 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-09-sec-3",
+    "type": "CONCEPT",
+    "title": "9.1 वर्तनी शुद्धि का संप्रभु महत्व (Orthographic Philosophy)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-09",
+    "description": "RPSC RAS मुख्य परीक्षा में शब्द शुद्धि का महत्व द्वि-स्तरीय है:\n1. प्रत्यक्ष अंक भार: भाग 'अ' में सीधे 5 से 10 अंक के शब्द-शुद्धि प्रश्न पूछे जाते हैं (10 अशुद्ध शब्द $\\rightarrow$ शुद्ध रूप =",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०९: शब्द शुद्धि महा-संहिता एवं वर्तनी विज्ञान",
+      "concept": "9.1 वर्तनी शुद्धि का संप्रभु महत्व (Orthographic Philosophy)"
+    },
+    "badge": "79 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-09-sec-4",
+    "type": "CONCEPT",
+    "title": "9.2 वर्तनी अशुद्धियों के 8 मूल कारण (Root Causes of Orthographic Errors)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-09",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| क्र. | अशुद्धि का मूल कारण | प्रकृति | अशुद्ध रूप $\\rightarrow$ शुद्ध रूप |\n| :---: | :--- | :--- | :--- |\n| 1. | स्वर (मात्रा) जनित | ह्रस्व के स्थान पर दीर",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०९: शब्द शुद्धि महा-संहिता एवं वर्तनी विज्ञान",
+      "concept": "9.2 वर्तनी अशुद्धियों के 8 मूल कारण (Root Causes of Orthographic Errors)"
+    },
+    "badge": "246 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-09-sec-5",
+    "type": "CONCEPT",
+    "title": "9.3 वर्तनी शुद्धि के 12 स्वर्णिम शास्त्रीय नियम (The 12 Golden Rules)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-09",
+    "description": "नियम 1: 'कवयित्री', 'रचयिता' एवं स्वर विपर्यय नियम\n कवयित्री: मूल शब्द 'कवि' का स्त्रीलिंग बनाते समय 'वि' की मात्रा लुप्त होकर 'य' पर ह्रस्व 'इ' और 'त्र' पर दीर्घ 'ई' लगती है $\\rightarrow$",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "अध्याय ०९: शब्द शुद्धि महा-संहिता एवं वर्तनी विज्ञान",
+      "concept": "9.3 वर्तनी शुद्धि के 12 स्वर्णिम शास्त्रीय नियम (The 12 Golden Rules)"
+    },
+    "badge": "1038 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-10",
+    "type": "TOPIC",
+    "title": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान महा-संहिता (Syntactic Invariants & Sentence Rectification)",
+    "slug": "chapter-10",
+    "url": "/shelf-007/hindi/chapter-10",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "वर्तनी शुद्धि एवं वाक्य विज्ञान"
+    },
+    "badge": "2,744 words • 13 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-10-sec-2",
+    "type": "CONCEPT",
+    "title": "1. वाक्य का स्वरूप एवं अनिवार्य तत्त्व (The Anatomy of a Grammatical Sentence)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-10",
+    "description": "सारगर्भित एवं शुद्ध वाक्य रचना भाषा की सर्वोच्च अभिव्यक्ति है। RPSC RAS मुख्य परीक्षा के प्रश्न-पत्र 4 में वाक्य शुद्धि न केवल भाग 'अ' (5 अंक) में पूछी जाती है, अपितु भाग 'ब' (संक्षिप्तीकरण, पल्लवन, प",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान महा-संहिता (Syntactic Invariants & Sentence Rectification)",
+      "concept": "1. वाक्य का स्वरूप एवं अनिवार्य तत्त्व (The Anatomy of a Grammatical Sentence)"
+    },
+    "badge": "259 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-10-sec-3",
+    "type": "CONCEPT",
+    "title": "2. पदक्रम के सार्वभौमिक नियम (Rules of Word Order)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-10",
+    "description": "हिंदी भाषा की प्रकृति मूलतः SOV (Subject-Object-Verb / कर्ता-कर्म-क्रिया) प्रणाली पर आधारित है।\n\n नियम 1: आधारभूत ढाँचा\nवाक्य के आरंभ में कर्ता, मध्य में कर्म और अंत में क्रिया आती",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान महा-संहिता (Syntactic Invariants & Sentence Rectification)",
+      "concept": "2. पदक्रम के सार्वभौमिक नियम (Rules of Word Order)"
+    },
+    "badge": "291 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-10-sec-4",
+    "type": "CONCEPT",
+    "title": "3. अन्वय के अकाट्य सिद्धांत (The Laws of Grammatical Agreement)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-10",
+    "description": "अन्वय का अर्थ है 'मेल' या 'अनुरूपता'। कर्ता, कर्म और क्रिया के लिंग, वचन तथा पुरुष का सामंजस्य निम्नलिखित नियमों से निर्धारित होता है:\n\n सिद्धान्त 1: कर्ता-क्रिया अन्वय (कर्तृवाच्य)\nयदि कर्ता के सा",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान महा-संहिता (Syntactic Invariants & Sentence Rectification)",
+      "concept": "3. अन्वय के अकाट्य सिद्धांत (The Laws of Grammatical Agreement)"
+    },
+    "badge": "360 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-10-sec-5",
+    "type": "CONCEPT",
+    "title": "4. वाक्य-दोषों का षड्विध वर्गीकरण (Sixfold Taxonomy of Errors)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-10",
+    "description": "वर्ग I: पुनरुक्ति एवं अनावश्यक पद दोष (Redundancy & Tautology)\nजब एक ही अर्थ प्रकट करने वाले दो पद एक साथ आ जाएँ:\n\n| अशुद्ध वाक्य (प्रचलित भ्रांति ❌) | शुद्ध वाक्य (मानक व्याकरण ✅) | व्याकरणिक निद",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान महा-संहिता (Syntactic Invariants & Sentence Rectification)",
+      "concept": "4. वाक्य-दोषों का षड्विध वर्गीकरण (Sixfold Taxonomy of Errors)"
+    },
+    "badge": "1006 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-11",
+    "type": "TOPIC",
+    "title": "Chapter 11: मुहावरे एवं लोकोक्तियाँ (Rhetorical Idioms & Administrative Proverbs)",
+    "slug": "chapter-11",
+    "url": "/shelf-007/hindi/chapter-11",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "व्यावहारिक मुहावरे, लोकोक्तियां एवं पारिभाषिक शब्दावली"
+    },
+    "badge": "3,188 words • 15 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-11-sec-2",
+    "type": "CONCEPT",
+    "title": "1. मुहावरे एवं लोकोक्ति में तात्त्विक अंतर (The Structural & Semantic Distinction)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-11",
+    "description": "RPSC RAS मुख्य परीक्षा (Paper 4) के भाग 'अ' में मुहावरे (5 अंक) और कहावतें/लोकोक्तियाँ (5 अंक) कुल 10 अंकों का एक अत्यंत निर्णायक खंड हैं। अधिकांश अभ्यर्थी केवल अभिधार्थ (Literal meaning) लिख देते हैं",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 11: मुहावरे एवं लोकोक्तियाँ (Rhetorical Idioms & Administrative Proverbs)",
+      "concept": "1. मुहावरे एवं लोकोक्ति में तात्त्विक अंतर (The Structural & Semantic Distinction)"
+    },
+    "badge": "306 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-11-sec-3",
+    "type": "CONCEPT",
+    "title": "2. RPSC मार्किंग स्कीम एवं उत्कृष्ट वाक्य-प्रयोग के स्वर्णिम नियम",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-11",
+    "description": "1. अभिधार्थ बनाम लाक्षणिक अर्थ:\n   - यदि मुहावरा है 'अंगूठा दिखाना', तो इसका अर्थ \"हाथ का अंगूठा सामने करना\" ❌ नहीं, अपितु \"ऐन वक्त पर साफ़ मना कर देना\" ✅ है।\n2. बालसुलभ वाक्यों से बचें",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 11: मुहावरे एवं लोकोक्तियाँ (Rhetorical Idioms & Administrative Proverbs)",
+      "concept": "2. RPSC मार्किंग स्कीम एवं उत्कृष्ट वाक्य-प्रयोग के स्वर्णिम नियम"
+    },
+    "badge": "124 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-11-sec-4",
+    "type": "CONCEPT",
+    "title": "3. उच्च-स्तरीय मुहावरा महा-कोश (120+ High-Yield Idioms with Administrative Sentences)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-11",
+    "description": "(क) अंग-संबंधित मुहावरे (Anatomical Idioms)\n\n1. अंगारे उगलना:\n   - अर्थ: अत्यधिक क्रोध में अत्यंत कठोर और कटु वचन बोलना।\n   - वाक्य: \"समीक्षा बैठक में परियोजना की घोर विफलता देखकर जिला कले",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 11: मुहावरे एवं लोकोक्तियाँ (Rhetorical Idioms & Administrative Proverbs)",
+      "concept": "3. उच्च-स्तरीय मुहावरा महा-कोश (120+ High-Yield Idioms with Administrative Sentences)"
+    },
+    "badge": "1373 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-11-sec-5",
+    "type": "CONCEPT",
+    "title": "4. उच्च-स्तरीय लोकोक्ति महा-संहिता (80+ High-Yield Proverbs / Proverbial Codices)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-11",
+    "description": "लोकोक्तियाँ लोक-जीवन के दीर्घकालीन अनुभवों का सारगर्भित निष्कर्ष होती हैं। वाक्य में इनका प्रयोग एक स्वतंत्र और परिपूर्ण दृष्टांत के रूप में किया जाता है:\n\n1. अंधा बाँटे रेवड़ी, फिर-फिर अपनों को दे",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 11: मुहावरे एवं लोकोक्तियाँ (Rhetorical Idioms & Administrative Proverbs)",
+      "concept": "4. उच्च-स्तरीय लोकोक्ति महा-संहिता (80+ High-Yield Proverbs / Proverbial Codices)"
+    },
+    "badge": "1175 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-12",
+    "type": "TOPIC",
+    "title": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली महा-कोश (CSTT Administrative Terminology A–Z Compendium)",
+    "slug": "chapter-12",
+    "url": "/shelf-007/hindi/chapter-12",
+    "description": "\"जिनकी सीमाएँ निश्चित और सुस्पष्ट होती हैं। इनका केवल एक ही अर्थ होता है और यह अर्थ केवल किसी विशेष विषय या प्रशासनिक कार्यक्षेत्र में ही मान्य होता है।\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "व्यावहारिक मुहावरे, लोकोक्तियां एवं पारिभाषिक शब्दावली"
+    },
+    "badge": "2,426 words • 12 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-12-sec-2",
+    "type": "CONCEPT",
+    "title": "1. पारिभाषिक शब्दावली के सिद्धांत एवं CSTT दिशा-निर्देश (Principles of Administrative Terminology)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-12",
+    "description": "RPSC RAS मुख्य परीक्षा के प्रश्न-पत्र 4 में प्रशासनिक पारिभाषिक शब्दावली (5 अंक) एक गणितीय परिशुद्धता (Mathematical Precision) वाला खंड है। यहाँ परीक्षक 'आस-पास' का या सामान्य बोलचाल का अनुवाद स्व",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली महा-कोश (CSTT Administrative Terminology A–Z Compendium)",
+      "concept": "1. पारिभाषिक शब्दावली के सिद्धांत एवं CSTT दिशा-निर्देश (Principles of Administrative Terminology)"
+    },
+    "badge": "173 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-12-sec-3",
+    "type": "CONCEPT",
+    "title": "2. A to Z आधिकारिक प्रशासनिक पारिभाषिक शब्दावली (300+ Standard CSTT Terms)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-12",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली महा-कोश (CSTT Administrative Terminology A–Z Compendium)",
+      "concept": "2. A to Z आधिकारिक प्रशासनिक पारिभाषिक शब्दावली (300+ Standard CSTT Terms)"
+    },
+    "badge": "1965 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-12-sec-4",
+    "type": "CONCEPT",
+    "title": "3. राजस्थान सचिवालय विशिष्ट पारिभाषिक शब्दावली (Rajasthan Secretariat Lexicon)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-12",
+    "description": "राजस्थान सचिवालय कार्य-विधि नियमावली में प्रयुक्त होने वाले अति-महत्वपूर्ण पद:\n\n1. Department $\\rightarrow$ विभाग\n2. Section $\\rightarrow$ अनुभाग\n3. Desk Officer System $\\rightarro",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली महा-कोश (CSTT Administrative Terminology A–Z Compendium)",
+      "concept": "3. राजस्थान सचिवालय विशिष्ट पारिभाषिक शब्दावली (Rajasthan Secretariat Lexicon)"
+    },
+    "badge": "147 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-12-sec-5",
+    "type": "CONCEPT",
+    "title": "4. विगत 10 वर्षों के RPSC RAS शब्द (PYQ Diagnostic Bank)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-12",
+    "description": "- 2021:\n  - Affidavit $\\rightarrow$ शपथ-पत्र\n  - Quorum $\\rightarrow$ गणपूर्ति\n  - Discrepancy $\\rightarrow$ विसंगति\n  - Sine die $\\rightarrow$ अनिश्चित काल के लिए\n  - Sub",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली महा-कोश (CSTT Administrative Terminology A–Z Compendium)",
+      "concept": "4. विगत 10 वर्षों के RPSC RAS शब्द (PYQ Diagnostic Bank)"
+    },
+    "badge": "80 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-13",
+    "type": "TOPIC",
+    "title": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान (Précis Writing: The 1/3rd Distillation Engine)",
+    "slug": "chapter-13",
+    "url": "/shelf-007/hindi/chapter-13",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "संक्षिप्तीकरण, पल्लवन एवं अनुवाद (30 अंक)"
+    },
+    "badge": "1,827 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-13-sec-2",
+    "type": "CONCEPT",
+    "title": "1. संक्षिप्तीकरण की सैद्धांतिक रूपरेखा (The Theoretical Architecture of Précis Writing)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-13",
+    "description": "RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 के भाग 'ब' में संक्षिप्तीकरण (Précis Writing) 10 अंकों का एक अत्यंत प्रतिष्ठित और विश्लेषणात्मक प्रश्न है। एक प्रशासनिक अधिकारी के रूप में दैनिक कार्यप्रणाली म",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान (Précis Writing: The 1/3rd Distillation Engine)",
+      "concept": "1. संक्षिप्तीकरण की सैद्धांतिक रूपरेखा (The Theoretical Architecture of Précis Writing)"
+    },
+    "badge": "314 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-13-sec-3",
+    "type": "CONCEPT",
+    "title": "2. संक्षिप्तीकरण की चतुष्पदीय प्रक्रिया (The 4-Step Operational Algorithm)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-13",
+    "description": "$$\\text{प्रथम वाचन (भाव-बोध)} \\longrightarrow \\text{द्वितीय वाचन (अंडरलाइन/नोट्स)} \\longrightarrow \\text{कच्चा प्रारूप (Draft)} \\longrightarrow \\text{अंतिम संक्षेपण एवं शब्द-गणना}$$\n\n1. चरण 1: तीव्र",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान (Précis Writing: The 1/3rd Distillation Engine)",
+      "concept": "2. संक्षिप्तीकरण की चतुष्पदीय प्रक्रिया (The 4-Step Operational Algorithm)"
+    },
+    "badge": "158 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-13-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 10 पूर्ण मॉडल संक्षिप्तीकरण (10 Sovereign Master Précis Specimens)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-13",
+    "description": "---\n\n मॉडल 1: दार्शनिक एवं नैतिक विषय (चरित्र निर्माण)\n\n [मूल अवतरण]\n\"संसार में धन ही सब कुछ नहीं है। धन की पूजा तो बहुत कम जगहों में देखी गई है। संसार में ऐसे अनेक महापुरुष हुए हैं जिनके पास फ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान (Précis Writing: The 1/3rd Distillation Engine)",
+      "concept": "3. 10 पूर्ण मॉडल संक्षिप्तीकरण (10 Sovereign Master Précis Specimens)"
+    },
+    "badge": "1216 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-13-sec-5",
+    "type": "CONCEPT",
+    "title": "4. संक्षिप्तीकरण में परीक्षक के अंक-कटौती के 5 मुख्य बिंदु",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-13",
+    "description": "1. शीर्षक न लिखना या भ्रामक शीर्षक: 2 अंकों की सीधी क्षति।\n2. मूल पाठ के वाक्यों को ज्यों-का-त्यों लिख देना: मौलिकता के अभाव में 50% अंकों की कटौती।\n3. 1/3rd शब्द सीमा का गंभीर उल्लंघन: $\\",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान (Précis Writing: The 1/3rd Distillation Engine)",
+      "concept": "4. संक्षिप्तीकरण में परीक्षक के अंक-कटौती के 5 मुख्य बिंदु"
+    },
+    "badge": "81 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-14",
+    "type": "TOPIC",
+    "title": "Chapter 14: पल्लवन एवं भाव विस्तार (Idea Expansion & Semantic Elaboration)",
+    "slug": "chapter-14",
+    "url": "/shelf-007/hindi/chapter-14",
+    "description": "पल्लवन की परिभाषा: \"किसी सुगठित, संक्षिप्त, विचार-गर्भित सूत्र, सूक्ति, लोकोक्ति अथवा काव्यांश के अंतर्निहित भावों, तर्कों एवं जीवन-दर्शन को तार्किक और धाराप्रवाह शैली में लगभग 100 शब्दों में विशद एवं स्पष्ट रूप से प्रस्तुत करना ही पल्लवन कहलाता है।\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "संक्षिप्तीकरण, पल्लवन एवं अनुवाद (30 अंक)"
+    },
+    "badge": "1,904 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-14-sec-2",
+    "type": "CONCEPT",
+    "title": "1. पल्लवन का स्वरूप एवं दर्शन (The Concept & Mechanics of Pallavan)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-14",
+    "description": "RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 के भाग 'ब' में पल्लवन (भाव विस्तार) 10 अंकों का एक अत्यंत संवेदनशील और सृजनात्मक प्रश्न है। \n\n'पल्लवन' शब्द संस्कृत के 'पल्लव' (कोमल नया पत्ता / कोंपल) से बना",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार (Idea Expansion & Semantic Elaboration)",
+      "concept": "1. पल्लवन का स्वरूप एवं दर्शन (The Concept & Mechanics of Pallavan)"
+    },
+    "badge": "159 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-14-sec-3",
+    "type": "CONCEPT",
+    "title": "2. पल्लवन रचना के सात स्वर्णिम सिद्धांत (The 7 Cardinal Rules of Pallavan)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-14",
+    "description": "1. बीज भाव का सटीक उद्घाटन (Identification of Core Thought):\n   - पहली ही पंक्ति में दी गई सूक्ति के केंद्रीय विचार को स्पष्ट करें। इधर-उधर की भूमिका बाँधने में शब्द व्यर्थ न करें।\n2. सकारात्मक",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार (Idea Expansion & Semantic Elaboration)",
+      "concept": "2. पल्लवन रचना के सात स्वर्णिम सिद्धांत (The 7 Cardinal Rules of Pallavan)"
+    },
+    "badge": "220 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-14-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 15 मॉडल उच्च-अंक पल्लवन संकलन (15 Sovereign Master Pallavan Specimens)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-14",
+    "description": "---\n\n मॉडल 1: 'मन के हारे हार है, मन के जीते जीत'\n\nपल्लवन:\nमनुष्य की सफलता अथवा असफलता का वास्तविक निर्णायक उसका बाह्य शारीरिक बल या भौतिक साधन नहीं, अपितु उसका आंतरिक मनोबल और मानसिक संकल्प हो",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार (Idea Expansion & Semantic Elaboration)",
+      "concept": "3. 15 मॉडल उच्च-अंक पल्लवन संकलन (15 Sovereign Master Pallavan Specimens)"
+    },
+    "badge": "1395 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-14-sec-5",
+    "type": "CONCEPT",
+    "title": "4. पल्लवन में सामान्य त्रुटियाँ एवं परीक्षक का दृष्टिकोण",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-14",
+    "description": "1. अप्रासंगिक विस्तार: मूल सूक्ति को छोड़कर किसी अन्य दिशा में बह जाना।\n2. संवाद शैली का प्रयोग: सूक्ति की व्याख्या करते हुए काल्पनिक पात्रों के संवाद गढ़ना सर्वथा अनुचित है।\n3. वर्तनी एवं व",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार (Idea Expansion & Semantic Elaboration)",
+      "concept": "4. पल्लवन में सामान्य त्रुटियाँ एवं परीक्षक का दृष्टिकोण"
+    },
+    "badge": "68 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-15",
+    "type": "TOPIC",
+    "title": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद (English to Hindi Administrative Translation Engine)",
+    "slug": "chapter-15",
+    "url": "/shelf-007/hindi/chapter-15",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "संक्षिप्तीकरण, पल्लवन एवं अनुवाद (30 अंक)"
+    },
+    "badge": "2,146 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-15-sec-2",
+    "type": "CONCEPT",
+    "title": "1. अनुवाद का सिद्धांत एवं प्रशासनिक भाषा का स्वभाव (The Science of Administrative Translation)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-15",
+    "description": "RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 के भाग 'ब' में अंग्रेजी से हिंदी अनुवाद (Translation) 10 अंकों का एक अत्यंत महत्वपूर्ण और वस्तुनिष्ठ प्रश्न है। \n\nप्रशासन में अनुवाद का उद्देश्य केवल एक भाषा क",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद (English to Hindi Administrative Translation Engine)",
+      "concept": "1. अनुवाद का सिद्धांत एवं प्रशासनिक भाषा का स्वभाव (The Science of Administrative Translation)"
+    },
+    "badge": "177 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-15-sec-3",
+    "type": "CONCEPT",
+    "title": "2. सिंटैक्स पुनर्गठन के बुनियादी नियम (Syntactic Restructuring: S-V-O to S-O-V)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-15",
+    "description": "नियम 1: आधारभूत वाक्य-क्रम का विपर्यय\n- अंग्रेजी संरचना: $\\text{Subject (S)} \\longrightarrow \\text{Verb (V)} \\longrightarrow \\text{Object (O)}$\n- हिंदी संरचना: $\\text{कर्ता (S)} \\longright",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद (English to Hindi Administrative Translation Engine)",
+      "concept": "2. सिंटैक्स पुनर्गठन के बुनियादी नियम (Syntactic Restructuring: S-V-O to S-O-V)"
+    },
+    "badge": "293 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-15-sec-4",
+    "type": "CONCEPT",
+    "title": "3. उच्च-आवृत्ति प्रशासनिक अनुवाद सूत्र (Administrative Translation Formulas)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-15",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद (English to Hindi Administrative Translation Engine)",
+      "concept": "3. उच्च-आवृत्ति प्रशासनिक अनुवाद सूत्र (Administrative Translation Formulas)"
+    },
+    "badge": "281 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-15-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 10 पूर्ण मॉडल अनुवाद अभ्यास (10 Sovereign Master Translation Specimens)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-15",
+    "description": "---\n\n मॉडल 1: सुशासन एवं लोक सेवा गारंटी (Good Governance & Public Services)\n\n [मूल अंग्रेजी पाठ]\n\"Good governance is not merely an abstract concept; it is a fundamental requirement for inclusi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद (English to Hindi Administrative Translation Engine)",
+      "concept": "4. 10 पूर्ण मॉडल अनुवाद अभ्यास (10 Sovereign Master Translation Specimens)"
+    },
+    "badge": "1234 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-16",
+    "type": "TOPIC",
+    "title": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र (Official & Demi-Official Correspondence)",
+    "slug": "chapter-16",
+    "url": "/shelf-007/hindi/chapter-16",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "कार्यालयी पत्र एवं प्रशासनिक प्रारूप लेखन (20 अंक)"
+    },
+    "badge": "1,723 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-16-sec-2",
+    "type": "CONCEPT",
+    "title": "1. प्रशासनिक पत्राचार का स्वरूप एवं राजस्थान सचिवालय नियमावली (Administrative Correspondence Architecture)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-16",
+    "description": "RPSC RAS मुख्य परीक्षा (प्रश्न-पत्र 4, भाग 'ब') में प्रशासनिक पत्राचार एवं प्रारूप लेखन कुल 20 अंकों (प्रायः 10-10 अंक के दो प्रश्न) का एक अत्यंत निर्णायक खंड है। \n\nप्रशासन में पत्र केवल सूचना",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र (Official & Demi-Official Correspondence)",
+      "concept": "1. प्रशासनिक पत्राचार का स्वरूप एवं राजस्थान सचिवालय नियमावली (Administrative Correspondence Architecture)"
+    },
+    "badge": "402 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-16-sec-3",
+    "type": "CONCEPT",
+    "title": "2. शासकीय पत्र का मानक सचिवालय प्रारूप (Standard Official Letter Layout)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-16",
+    "description": "राजस्थान सरकार\n                        गृह (आपदा प्रबंधन) विभाग\n                       शासन सचिवालय, जयपुर - 302005\n\nक्रमांक: प. 7(12)गृह/आपदा/2026/1428",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र (Official & Demi-Official Correspondence)",
+      "concept": "2. शासकीय पत्र का मानक सचिवालय प्रारूप (Standard Official Letter Layout)"
+    },
+    "badge": "292 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-16-sec-4",
+    "type": "CONCEPT",
+    "title": "3. अर्ध-शासकीय पत्र (D.O. Letter) का मानक सचिवालय प्रारूप",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-16",
+    "description": "क. ख. ग., भा.प्र.से.                                   अर्ध-शासकीय पत्र क्रमांक: अ.शा.प. 3(5)कार्मिक/क-2/2026/89\nप्रमुख शासन सचिव,                                      शासन सचिवालय, जयपुर\nकार्मिक",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र (Official & Demi-Official Correspondence)",
+      "concept": "3. अर्ध-शासकीय पत्र (D.O. Letter) का मानक सचिवालय प्रारूप"
+    },
+    "badge": "185 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-16-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 8 पूर्ण मॉडल शासकीय एवं अर्ध-शासकीय पत्र (High-Scoring Sovereign Specimens)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-16",
+    "description": "---\n\n मॉडल 1: शासकीय पत्र — अवैध खनन पर अंकुश लगाने हेतु टास्क फोर्स गठन\n\nप्रश्न: प्रमुख शासन सचिव, खान एवं भू-विज्ञान विभाग की ओर से समस्त संभागीय आयुक्तों एवं जिला कलेक्टरों को अरावली पर्वतमा",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र (Official & Demi-Official Correspondence)",
+      "concept": "4. 8 पूर्ण मॉडल शासकीय एवं अर्ध-शासकीय पत्र (High-Scoring Sovereign Specimens)"
+    },
+    "badge": "671 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-17",
+    "type": "TOPIC",
+    "title": "Chapter 17: कार्यालयी प्रारूप महा-संहिता (Official Drafting Compendium: Orders, Circulars, Tenders & Notifications)",
+    "slug": "chapter-17",
+    "url": "/shelf-007/hindi/chapter-17",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "कार्यालयी पत्र एवं प्रशासनिक प्रारूप लेखन (20 अंक)"
+    },
+    "badge": "2,230 words • 11 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-17-sec-2",
+    "type": "CONCEPT",
+    "title": "1. प्रशासनिक प्रारूपों का विधिक वर्गीकरण (Taxonomy of Administrative Formats)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-17",
+    "description": "RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 के भाग 'ब' में प्रारूप लेखन (Drafting) 10 अंकों का एक अत्यंत तकनीकी प्रश्न है। यहाँ किसी भी प्रारूप के शीर्षक, विन्यास, विधिक प्राधिकार (Legal Authority) अथवा तकनी",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता (Official Drafting Compendium: Orders, Circulars, Tenders & Notifications)",
+      "concept": "1. प्रशासनिक प्रारूपों का विधिक वर्गीकरण (Taxonomy of Administrative Formats)"
+    },
+    "badge": "462 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-17-sec-3",
+    "type": "CONCEPT",
+    "title": "2. निविदा सूचना (Tender Notice) का पूर्ण मानक प्रारूप",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-17",
+    "description": "निविदा में RTPP Act, 2012 (राजस्थान लोक उपापन में पारदर्शिता अधिनियम) के नियमों का पालन दर्शाना अनिवार्य है:\n\n\n                            राजस्थान सरकार\n                 कार्यालय अधीक्षण अभियं",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता (Official Drafting Compendium: Orders, Circulars, Tenders & Notifications)",
+      "concept": "2. निविदा सूचना (Tender Notice) का पूर्ण मानक प्रारूप"
+    },
+    "badge": "384 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-17-sec-4",
+    "type": "CONCEPT",
+    "title": "3. परिपत्र (Circular) का मानक प्रारूप",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-17",
+    "description": "विषय: राजकीय कार्यालयों में कार्य-संस्कृति, समय-पालन एवं ई-फाइल प्रणाली के अनिवार्य उपयोग के संबंध में।\n\n\n                            राजस्थान सरकार\n                             कार्मिक विभाग",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता (Official Drafting Compendium: Orders, Circulars, Tenders & Notifications)",
+      "concept": "3. परिपत्र (Circular) का मानक प्रारूप"
+    },
+    "badge": "345 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-17-sec-5",
+    "type": "CONCEPT",
+    "title": "4. अधिसूचना (Notification) का मानक प्रारूप",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-17",
+    "description": "विषय: राजस्थान सिविल सेवा (आचरण) नियमों के अंतर्गत लोकसेवकों द्वारा चल-अचल संपत्ति का वार्षिक ऑनलाइन विवरण अनिवार्य करने के संबंध में।\n\n\n                            राजस्थान सरकार",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता (Official Drafting Compendium: Orders, Circulars, Tenders & Notifications)",
+      "concept": "4. अधिसूचना (Notification) का मानक प्रारूप"
+    },
+    "badge": "276 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-18",
+    "type": "TOPIC",
+    "title": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
+    "slug": "chapter-18",
+    "url": "/shelf-007/hindi/chapter-18",
+    "description": "\"प्रौद्योगिकी जब मानवीय करुणा और संवैधानिक मूल्यों से जुड़ती है, तब वह लोकतंत्र की सर्वोच्च संवाहक बन जाती है।\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "उच्च-स्तरीय निबंध लेखन प्रयोगशाला (20 अंक)"
+    },
+    "badge": "2,076 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-18-sec-2",
+    "type": "CONCEPT",
+    "title": "1. प्रशासनिक निबंध का दर्शन एवं RPSC मूल्यांकन कसौटी (The Philosophy of Administrative Essay Writing)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-18",
+    "description": "RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 के भाग 'स' में निबंध लेखन (Essay Writing) पूरे 20 अंकों (लगभग 250 से 300 शब्द) का सर्वोच्च भार वाला प्रश्न है। \n\nप्रशासनिक निबंध किसी सामान्य कॉलेज या साहि",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
+      "concept": "1. प्रशासनिक निबंध का दर्शन एवं RPSC मूल्यांकन कसौटी (The Philosophy of Administrative Essay Writing)"
+    },
+    "badge": "242 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-18-sec-3",
+    "type": "CONCEPT",
+    "title": "2. निबंध कोटेशन बैंक (The Sovereign Quotation Vault)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-18",
+    "description": "(क) सुशासन एवं राष्ट्र निर्माण\n- \"सर्वजन हिताय सर्वजन सुखाय।\" — ऋग्वेद\n- \"प्रजासुखे सुखं राज्ञः प्रजानां च हिते हितम्।\" — चाणक्य (अर्थशास्त्र)\n- \"स्वतंत्रता का सच्चा अर्थ उत्तरदायित्व का निर्",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
+      "concept": "2. निबंध कोटेशन बैंक (The Sovereign Quotation Vault)"
+    },
+    "badge": "196 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-18-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 10 पूर्ण मॉडल निबंध (10 Sovereign Master Essay Specimens: 250-300 Words)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-18",
+    "description": "---\n\n मॉडल 1: डिजिटल भारत और सुशासन (Digital India & Good Governance)\n\n [रूपरेखा]\n1. प्रस्तावना: तकनीकी क्रांति और लोकतंत्र।\n2. ई-गवर्नेंस से सुशासन: पारदर्शिता, गतिशीलता और जवाबदेही।\n3. लोक-कल",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
+      "concept": "3. 10 पूर्ण मॉडल निबंध (10 Sovereign Master Essay Specimens: 250-300 Words)"
+    },
+    "badge": "1491 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-18-sec-5",
+    "type": "CONCEPT",
+    "title": "4. निबंध लेखन में 20/20 अंक सुनिश्चित करने की अंतिम चेकलिस्ट",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-18",
+    "description": "1. रूपरेखा का अंकन: क्या आपने निबंध से ठीक पहले 4-5 बिंदुओं की रूपरेखा लिखी है? (अनिवार्य)\n2. कोटेशन का सही चयन: क्या प्रस्तावना या निष्कर्ष में कम से कम एक प्रामाणिक श्लोक/पंक्ति है?\n3. पैर",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
+      "concept": "4. निबंध लेखन में 20/20 अंक सुनिश्चित करने की अंतिम चेकलिस्ट"
+    },
+    "badge": "85 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-19",
+    "type": "TOPIC",
+    "title": "Chapter 19: The Grand Synthesis Master Revision Vault (संपूर्ण 120-अंक एकीकृत महा-संहिता)",
+    "slug": "chapter-19",
+    "url": "/shelf-007/hindi/chapter-19",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "महा-पुनरावलोकन एवं RPSC PYQ इंजन"
+    },
+    "badge": "1,870 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-19-sec-2",
+    "type": "CONCEPT",
+    "title": "1. RPSC RAS Paper 4: 120-अंक संप्रभु पाठ्यक्रम मानचित्र (The Sovereign 120-Mark Curriculum Matrix)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-19",
+    "description": "सामान्य हिंदी (प्रश्न-पत्र 4) आरएएस मुख्य परीक्षा में रैंक और सेवा (RAS vs Subordinate) निर्धारित करने वाला सबसे शक्तिशाली प्रश्न-पत्र है। 200 अंकों के इस प्रश्न-पत्र में हिंदी का कुल भार 120 अंक",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 19: The Grand Synthesis Master Revision Vault (संपूर्ण 120-अंक एकीकृत महा-संहिता)",
+      "concept": "1. RPSC RAS Paper 4: 120-अंक संप्रभु पाठ्यक्रम मानचित्र (The Sovereign 120-Mark Curriculum Matrix)"
+    },
+    "badge": "279 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-19-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 30-Minute Pre-Exam Sprint Vault (परीक्षा-कक्ष में प्रवेश से पूर्व अंतिम 30 मिनट)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-19",
+    "description": "भाग 1: संधि महा-सूत्र (The Sandhi Engine in 10 Formulas)\n1. दीर्घ: $a/ā + a/ā = ā$; $i/ī + i/ī = ī$; $u/ū + u/ū = ū$ (अभय + अरण्य = अभयारण्य; श्री + ईश = श्रीमती; सु + उक्ति = सूक्ति",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 19: The Grand Synthesis Master Revision Vault (संपूर्ण 120-अंक एकीकृत महा-संहिता)",
+      "concept": "2. 30-Minute Pre-Exam Sprint Vault (परीक्षा-कक्ष में प्रवेश से पूर्व अंतिम 30 मिनट)"
+    },
+    "badge": "1548 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-chapter-20",
+    "type": "TOPIC",
+    "title": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank (2013–2023)",
+    "slug": "chapter-20",
+    "url": "/shelf-007/hindi/chapter-20",
+    "description": "Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "महा-पुनरावलोकन एवं RPSC PYQ इंजन"
+    },
+    "badge": "1,781 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-20-sec-2",
+    "type": "CONCEPT",
+    "title": "1. विगत 10 वर्षों के प्रश्न-पत्रों का रणनीतिक विश्लेषण (Decadal Trend Analysis: 2013–2023)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/chapter-20",
+    "description": "RPSC RAS मुख्य परीक्षा प्रश्न-पत्र 4 (सामान्य हिंदी एवं सामान्य अंग्रेजी) के अंतर्गत सामान्य हिंदी के 120 अंकों का विगत 10 वर्षों (2013, 2016, 2018, 2021 एवं 2023/24) का सूक्ष्म पोस्टमार्टम यह सिद्ध क",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank (2013–2023)",
+      "concept": "1. विगत 10 वर्षों के प्रश्न-पत्रों का रणनीतिक विश्लेषण (Decadal Trend Analysis: 2013–2023)"
+    },
+    "badge": "225 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-20-sec-3",
+    "type": "CONCEPT",
+    "title": "2. भाग 'अ' (व्याकरण - 50 अंक) का वर्षवार पोस्टमार्टम (Year-Wise Autopsy)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/chapter-20",
+    "description": "---\n\n [2021 मुख्य परीक्षा — व्याकरण विश्लेषण एवं आदर्श समाधान]\n\n 1. संधि एवं संधि-विच्छेद:\n- (i) पित्रनुमति $\\rightarrow$ पितृ + अनुमति (यण स्वर संधि - ऋ + अ = र् + अ = र)।\n- (ii) षडानन",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank (2013–2023)",
+      "concept": "2. भाग 'अ' (व्याकरण - 50 अंक) का वर्षवार पोस्टमार्टम (Year-Wise Autopsy)"
+    },
+    "badge": "682 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-20-sec-4",
+    "type": "CONCEPT",
+    "title": "3. भाग 'ब' (रचना एवं प्रारूप - 50 अंक) का विगत वर्षों का चीर-फाड़",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/chapter-20",
+    "description": "1. संक्षिप्तीकरण (Précis Writing):\n- 2021 गद्यांश का विषय: \"भारतीय दर्शन में कर्मयोग एवं निष्काम सेवा का महत्व...\" (लगभग 140 शब्द)।\n  - सटीक शीर्षक: कर्मयोग का मर्म / निष्काम कर्म का म",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank (2013–2023)",
+      "concept": "3. भाग 'ब' (रचना एवं प्रारूप - 50 अंक) का विगत वर्षों का चीर-फाड़"
+    },
+    "badge": "274 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-chapter-20-sec-5",
+    "type": "CONCEPT",
+    "title": "4. भाग 'स' (निबंध - 20 अंक) का 10-वर्षीय विषय मानचित्र",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/chapter-20",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank (2013–2023)",
+      "concept": "4. भाग 'स' (निबंध - 20 अंक) का 10-वर्षीय विषय मानचित्र"
+    },
+    "badge": "248 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-01",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 01 — वर्ण विचार एवं उच्चारण स्थान",
+    "slug": "rev-chapter-01",
+    "url": "/shelf-007/hindi/rev-chapter-01",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 01 (Phonetics & Phonological Classification)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,010 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-01-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, DISTINCTION MATRICES & EXAM TRAPS",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-01",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 01 (Phonetics & Phonological Classification)  \nStandard: High-Speed Active Recall & Distinction Engi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 01 — वर्ण विचार एवं उच्चारण स्थान",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, DISTINCTION MATRICES & EXAM TRAPS"
+    },
+    "badge": "23 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-01-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second High-Density Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-01",
+    "description": "text\n[स्वर (11)] ─────── मूल/ह्रस्व (4): अ, इ, उ, ऋ \n                    दीर्घ (7): आ, ई, ऊ (सजातीय) | ए, ऐ, ओ, औ (संयुक्त/संध्याक्षर)\n                    जिह्वा: अग्र (इ, ई, ए, ऐ) | मध्य (अ) | पश्",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 01 — वर्ण विचार एवं उच्चारण स्थान",
+      "concept": "1. 60-Second High-Density Retrieval Skeleton"
+    },
+    "badge": "193 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-01-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-01",
+    "description": "Matrix 1: प्राणत्व (अल्पप्राण vs महाप्राण)\n\n<div style=\"overflow-x: auto;\">\n\n| मापदंड / Parameter | अल्पप्राण (Low Aspiration) | महाप्राण (High Aspiration) |\n| :--- | :--- | :--- |\n| वायु का वेग",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 01 — वर्ण विचार एवं उच्चारण स्थान",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "389 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-01-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Deadliest Exam Traps (Pitfall Avoidance)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-01",
+    "description": "1. 'ह' की प्रकृति: ऊष्म होते हुए भी 'ह' सघोष + महाप्राण + कण्ठ्य/काकल्य है (अघोष नहीं)।\n2. 'ज्ञ' का विच्छेद: उच्चारण 'ग्य' होने पर भी विच्छेद ज् + ञ् + अ ही मानक है।\n3. 'ड़' और 'ढ़",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 01 — वर्ण विचार एवं उच्चारण स्थान",
+      "concept": "3. Top 10 Deadliest Exam Traps (Pitfall Avoidance)"
+    },
+    "badge": "178 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-02",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 02 — संधि एवं संधि-विच्छेद महा-विज्ञान",
+    "slug": "rev-chapter-02",
+    "url": "/shelf-007/hindi/rev-chapter-02",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 02 (Phonological Sandhi Mechanics)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,155 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-02-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, DISTINCTION MATRICES & 15 DEADLIEST TRAPS",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-02",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 02 (Phonological Sandhi Mechanics)  \nStandard: High-Speed Active Recall & Distinction Engine\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 02 — संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, DISTINCTION MATRICES & 15 DEADLIEST TRAPS"
+    },
+    "badge": "22 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-02-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Sandhi Deconstruction Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-02",
+    "description": "text\n[स्वर संधि (5)] ── दीर्घ: सजातीय मिलकर दीर्घ ──> आ, ई, ऊ, ऋ\n                  गुण: अ/आ + इ/ई(ए) | अ/आ + उ/ऊ(ओ) | अ/आ + ऋ(अर्)\n                  वृद्धि: अ/आ + ए/ऐ(ऐ) | अ/आ + ओ/औ(औ)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 02 — संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "1. 60-Second Sandhi Deconstruction Skeleton"
+    },
+    "badge": "188 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-02-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-02",
+    "description": "Matrix 1: यण संधि बनाम अयादि संधि बनाम गुण संधि\n\n<div style=\"overflow-x: auto;\">\n\n| मापदंड / Parameter | गुण संधि (Guna) | यण संधि (Yana) | अयादि संधि (Ayadi) |\n| :--- | :--- | :--- | :--- |\n| प",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 02 — संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "278 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-02-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 15 Deadliest Sandhi Traps in RPSC RAS",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-02",
+    "description": "1. स्वागत: स्व + आगत (अशुद्ध) $\\rightarrow$ सु + आगत (शुद्ध, यण संधि)।\n2. उज्ज्वल: उज + वल (अशुद्ध) $\\rightarrow$ उत् + ज्वल (शुद्ध व्यंजन संधि, दो आधे 'ज्')।\n3. अभयारण्य:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 02 — संधि एवं संधि-विच्छेद महा-विज्ञान",
+      "concept": "3. Top 15 Deadliest Sandhi Traps in RPSC RAS"
+    },
+    "badge": "217 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-03",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 03 — उपसर्ग विधान",
+    "slug": "rev-chapter-03",
+    "url": "/shelf-007/hindi/rev-chapter-03",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 03 (Prefix Morphology & Word Derivation)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "804 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-03-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, DISTINCTION MATRICES & MULTI-PREFIX AUDIT",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-03",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 03 (Prefix Morphology & Word Derivation)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 03 — उपसर्ग विधान",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, DISTINCTION MATRICES & MULTI-PREFIX AUDIT"
+    },
+    "badge": "24 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-03-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second High-Density Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-03",
+    "description": "text\n[उपसर्ग का सार] ── शब्दांश जो मूल शब्द के आरंभ में जुड़कर अर्थ में विशेषता/विलोमता लाते हैं।\n\n[संस्कृत के 22] ── प्र, परा, अप, सम्, अनु, अव, निस्, निर्, दुस्, दुर्, वि, आ, नि, अधि,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 03 — उपसर्ग विधान",
+      "concept": "1. 60-Second High-Density Retrieval Skeleton"
+    },
+    "badge": "126 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-03-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-03",
+    "description": "Matrix 1: 'स्व' बनाम 'सु' का सूक्ष्म भेद\n\n<div style=\"overflow-x: auto;\">\n\n| शब्द | उपसर्ग | संधि / प्रक्रिया | अर्थ / विश्लेषण |\n| :--- | :---: | :--- | :--- |\n| स्वागत | सु | यण संधि (स",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 03 — उपसर्ग विधान",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "246 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-03-sec-5",
+    "type": "CONCEPT",
+    "title": "3. बहु-उपसर्ग पहचान तालिका (Multiple Prefixes Audit)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-03",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| शब्द | प्रयुक्त उपसर्ग (क्रमशः) | मूल शब्द | विच्छेद |\n| :--- | :--- | :---: | :--- |\n| पर्यावरण | परि + आ | वरण | परि + आ + वरण |\n| समाचार | सम् +",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 03 — उपसर्ग विधान",
+      "concept": "3. बहु-उपसर्ग पहचान तालिका (Multiple Prefixes Audit)"
+    },
+    "badge": "153 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-04",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 04 — प्रत्यय विधान",
+    "slug": "rev-chapter-04",
+    "url": "/shelf-007/hindi/rev-chapter-04",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 04 (Suffix Morphology & Derivation)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "896 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-04-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, ADI-VRIDDHI MATRICES & 12 DEADLIEST TRAPS",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-04",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 04 (Suffix Morphology & Derivation)  \nStandard: High-Speed Active Recall & Distinction Engine\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 04 — प्रत्यय विधान",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, ADI-VRIDDHI MATRICES & 12 DEADLIEST TRAPS"
+    },
+    "badge": "23 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-04-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second High-Density Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-04",
+    "description": "text\n[प्रत्यय के दो भेद] ── कृत् (क्रिया/धातु के अंत में: लेखक, तैराक, खिलौना, बनावट)\n                      तद्धित (संज्ञा/सर्वनाम/विशेषण के अंत में: सुंदरता, सामाजिक, लुहार)\n\n[आदिवृद्धि नियम] ────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 04 — प्रत्यय विधान",
+      "concept": "1. 60-Second High-Density Retrieval Skeleton"
+    },
+    "badge": "121 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-04-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-04",
+    "description": "Matrix 1: कृत् प्रत्यय बनाम तद्धित प्रत्यय\n\n<div style=\"overflow-x: auto;\">\n\n| मापदंड / Parameter | कृत् प्रत्यय (Krit Pratyaya) | तद्धित प्रत्यय (Taddhit Pratyaya) |\n| :--- | :--- | :--- |\n| सं",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 04 — प्रत्यय विधान",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "324 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-04-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 12 Deadliest Pratyaya Traps in RPSC RAS",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-04",
+    "description": "1. प्रामाणिक: 'प्रमाणिक' अशुद्ध है $\\rightarrow$ प्रामाणिक शुद्ध (आदिवृद्धि)।\n2. व्यावहारिक: 'व्यवहारिक' अशुद्ध है $\\rightarrow$ व्यावहारिक शुद्ध (व्यवहार + इक)।\n3. ऐतिहासिक:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 04 — प्रत्यय विधान",
+      "concept": "3. Top 12 Deadliest Pratyaya Traps in RPSC RAS"
+    },
+    "badge": "132 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-05",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 05 — पर्यायवाची शब्द कोश",
+    "slug": "rev-chapter-05",
+    "url": "/shelf-007/hindi/rev-chapter-05",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 05 (Synonym Lexicon & Semantic Nuance)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "659 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-05-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, ROOT FORMULAS & HIGH-YIELD MATRICES",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-05",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 05 (Synonym Lexicon & Semantic Nuance)  \nStandard: High-Speed Active Recall & Distinction Engine\n\n--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 05 — पर्यायवाची शब्द कोश",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, ROOT FORMULAS & HIGH-YIELD MATRICES"
+    },
+    "badge": "24 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-05-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Core Root Derivation Formula",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-05",
+    "description": "text\n[जल]   वारि, नीर, तोय, अंबु, पय, सलिल, उदक\n  │\n  ├─── + 'ज' (जन्म)  ──> [कमल]: जलज, वारिज, तोयज, अंबुज, पयोज + अरविंद, पुंडरीक\n  ├─── + 'द' (देने वाला) ─> [बादल]: जलद, वारिद, तोयद, अंबुद, पयोद",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 05 — पर्यायवाची शब्द कोश",
+      "concept": "1. 60-Second Core Root Derivation Formula"
+    },
+    "badge": "55 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-05-sec-4",
+    "type": "CONCEPT",
+    "title": "2. High-Frequency Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-05",
+    "description": "Matrix 1: आसानी से भ्रमित होने वाले पर्यायवाची जोड़े\n\n<div style=\"overflow-x: auto;\">\n\n| भ्रमित जोड़ा | प्रथम शब्द के दो पर्याय | द्वितीय शब्द के दो पर्याय |\n| :--- | :--- | :--- |\n| अनल vs अनिल",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 05 — पर्यायवाची शब्द कोश",
+      "concept": "2. High-Frequency Distinction Matrices"
+    },
+    "badge": "180 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-05-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 15 High-Yield Words & Their Dual Synonyms (RAS Direct Scoring)",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-05",
+    "description": "<div style=\"overflow-x: auto;\">\n\n| क्र. | शब्द | प्रथम मानक पर्याय | द्वितीय मानक पर्याय | तृतीय अप्रचलित पर्याय |\n| :---: | :--- | :--- | :--- | :--- |\n| 1. | अग्नि | पावक | हुताशन |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 05 — पर्यायवाची शब्द कोश",
+      "concept": "3. Top 15 High-Yield Words & Their Dual Synonyms (RAS Direct Scoring)"
+    },
+    "badge": "212 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-06",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 06 — विलोम शब्द तंत्र",
+    "slug": "rev-chapter-06",
+    "url": "/shelf-007/hindi/rev-chapter-06",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 06 (Antonym Architecture & Semantic Invariants)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "554 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-06-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, OPPOSITION MATRICES & 10 DEADLIEST TRAPS",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-06",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 06 (Antonym Architecture & Semantic Invariants)  \nStandard: High-Speed Active Recall & Distinction E",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 06 — विलोम शब्द तंत्र",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, OPPOSITION MATRICES & 10 DEADLIEST TRAPS"
+    },
+    "badge": "24 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-06-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second High-Density Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-06",
+    "description": "text\n[जातीय संगति नियम] ── तत्सम ──> तत्सम (रात्रि ──> दिवस) | तद्भव ──> तद्भव (रात ──> दिन)\n                      संज्ञा ──> संज्ञा (राजा ──> रंक) | विशेषण ──> विशेषण (धनी ──> निर्धन)\n\n[शीर्ष 20 म",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 06 — विलोम शब्द तंत्र",
+      "concept": "1. 60-Second High-Density Retrieval Skeleton"
+    },
+    "badge": "97 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-06-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-06",
+    "description": "Matrix 1: सर्वाधिक भ्रमित होने वाले विलोम जोड़े\n\n<div style=\"overflow-x: auto;\">\n\n| मूल शब्द | शुद्ध विलोम शब्द | अशुद्ध / परीक्षा जाल | अर्थ-भेद एवं नियम |\n| :--- | :--- | :--- | :--- |\n| उन्मू",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 06 — विलोम शब्द तंत्र",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "155 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-06-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Deadliest Antonym Traps in RPSC RAS",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-06",
+    "description": "1. 'अथ' का विलोम: 'अंत' नहीं, शुद्ध विलोम इति है।\n2. 'अर्वाचीन' का विलोम: 'नवीन' नहीं (अर्वाचीन स्वयं नया है!), इसका विलोम प्राचीन है।\n3. 'उन्मूलन' का विलोम: रोपण (जड़ से",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 06 — विलोम शब्द तंत्र",
+      "concept": "3. Top 10 Deadliest Antonym Traps in RPSC RAS"
+    },
+    "badge": "80 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-07",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 07 — समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+    "slug": "rev-chapter-07",
+    "url": "/shelf-007/hindi/rev-chapter-07",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 07 (Homophonic Pairs & Semantic Discrimination)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "597 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-07-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, CONFUSABLE PAIR MATRICES & 10 DEADLIEST TRAPS",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-07",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 07 (Homophonic Pairs & Semantic Discrimination)  \nStandard: High-Speed Active Recall & Distinction E",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 07 — समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, CONFUSABLE PAIR MATRICES & 10 DEADLIEST TRAPS"
+    },
+    "badge": "24 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-07-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second High-Density Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-07",
+    "description": "text\n[शीर्ष 20 युग्म-अर्थ] ── अंस (कंधा)          vs  अंश (भाग/हिस्सा)\n                         अनल (आग)            vs  अनिल (हवा)\n                         अलि (भौंरा)         vs  अली (सखी)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 07 — समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "1. 60-Second High-Density Retrieval Skeleton"
+    },
+    "badge": "99 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-07-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-07",
+    "description": "Matrix 1: सर्वाधिक पूछे गए 5 महा-भ्रामक युग्म\n\n<div style=\"overflow-x: auto;\">\n\n| क्र. | युग्म-शब्द | प्रथम का सटीक अर्थ | द्वितीय का सटीक अर्थ | परीक्षा जाल एवं बचाव |\n| :---: | :--- | :--- | :--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 07 — समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "162 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-07-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Deadliest Homophone Traps in RPSC RAS",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-07",
+    "description": "1. 'प्रासाद': राजमहल (कृपा या भोग नहीं)।\n2. 'द्विप': हाथी (टापू नहीं)।\n3. 'जरठ': बूढ़ा (पेट नहीं)।\n4. 'अंस': कंधा (हिस्सा नहीं)।\n5. 'अलि': भौंरा (सखी नहीं)।\n6. 'अपथ्य': जो स्वा",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 07 — समश्रुत भिन्नार्थक शब्द (युग्म-शब्द)",
+      "concept": "3. Top 10 Deadliest Homophone Traps in RPSC RAS"
+    },
+    "badge": "65 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-08",
+    "type": "TOPIC",
+    "title": "RAPID REVISION: CHAPTER 08 — वाक्यांश के लिए एक सार्थक शब्द",
+    "slug": "rev-chapter-08",
+    "url": "/shelf-007/hindi/rev-chapter-08",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 08 (One-Word Substitution & Semantic Condensation)  \nStandard: High-Speed Active Recall & Distinction Engine",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "603 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-08-sec-2",
+    "type": "CONCEPT",
+    "title": "60-SECOND RETRIEVAL SKELETONS, DIRECTION/FIRE MATRICES & 10 DEADLIEST TRAPS",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-08",
+    "description": "Subject: General Hindi & Administrative Rhetoric (HIN-007)  \nCurriculum Anchor: Chapter 08 (One-Word Substitution & Semantic Condensation)  \nStandard: High-Speed Active Recall & Distinctio",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 08 — वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "60-SECOND RETRIEVAL SKELETONS, DIRECTION/FIRE MATRICES & 10 DEADLIEST TRAPS"
+    },
+    "badge": "24 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-08-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 60-Second High-Density Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-08",
+    "description": "text\n[इच्छा vs इच्छुक] ── अंत में 'आ' = इच्छा (भाववाचक संज्ञा) | अंत में 'उ' = इच्छुक (व्यक्ति/विशेषण)\n                     जिज्ञासा (जानने की इच्छा) vs जिज्ञासु (इच्छुक)\n                     जिजीव",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 08 — वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "1. 60-Second High-Density Retrieval Skeleton"
+    },
+    "badge": "130 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-08-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Comparative Distinction Matrices",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-08",
+    "description": "Matrix 1: सर्वाधिक भ्रमित करने वाले 6 युग्म\n\n<div style=\"overflow-x: auto;\">\n\n| वाक्यांश १ | सार्थक शब्द १ | वाक्यांश २ | सार्थक शब्द २ |\n| :--- | :--- | :--- | :--- |\n| पर्वत के ऊपर की भूमि |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 08 — वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "2. Master Comparative Distinction Matrices"
+    },
+    "badge": "122 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-08-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Deadliest Traps in RPSC RAS",
+    "slug": "sec-5",
+    "url": "/shelf-007/hindi/rev-chapter-08",
+    "description": "1. 'अधित्यका': पर्वत के ऊपर की भूमि (नीचे की नहीं; नीचे की भूमि = उपत्यका)।\n2. 'वैयाकरण': जो व्याकरण जानता हो (व्याकरणज्ञ या व्याकरणशास्त्री नहीं)।\n3. 'सव्यसाची': जो बाएं हाथ से भी तीर",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "RAPID REVISION: CHAPTER 08 — वाक्यांश के लिए एक सार्थक शब्द",
+      "concept": "3. Top 10 Deadliest Traps in RPSC RAS"
+    },
+    "badge": "105 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-09",
+    "type": "TOPIC",
+    "title": "Chapter 09: शब्द शुद्धि महा-संहिता — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-09",
+    "url": "/shelf-007/hindi/rev-chapter-09",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,402 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-09-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-09",
+    "description": "1. संधि-जनित नियम:\n   - अ + अ = आ $\\rightarrow$ अभय + अरण्य = अभयारण्य (अभ्यारण्य ❌).\n   - उद् + ज्वल = उज्ज्वल (दो आधे 'ज'; उज्जवल ❌, प्रज्ज्वल ❌ $\\rightarrow$ प्र + ज्वल = प्रज्वल",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 09: शब्द शुद्धि महा-संहिता — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "333 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-09-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 50 RPSC Deadliest Word Traps Matrix",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-09",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 09: शब्द शुद्धि महा-संहिता — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 50 RPSC Deadliest Word Traps Matrix"
+    },
+    "badge": "621 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-09-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Yield Flashcard Drill (20 Rapid Testing Items)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-09",
+    "description": "| प्रश्न (अशुद्ध शब्द दिया गया है) | शुद्ध रूप क्या होगा? | त्वरित तर्क / पहचान बिंदु |\n| :--- | :--- | :--- |\n| 1. प्रदर्शनी vs प्रियदर्शिनी | प्रदर्शनी, प्रियदर्शिनी | प्रदर्शन में ई = प्रदर",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 09: शब्द शुद्धि महा-संहिता — Rapid Revision & Diagnostic Vault",
+      "concept": "3. High-Yield Flashcard Drill (20 Rapid Testing Items)"
+    },
+    "badge": "411 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-10",
+    "type": "TOPIC",
+    "title": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-10",
+    "url": "/shelf-007/hindi/rev-chapter-10",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "989 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-10-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-10",
+    "description": "1. पदक्रम के 3 स्तम्भ:\n   - कर्ता $\\rightarrow$ गौण कर्म (सजीव) $\\rightarrow$ मुख्य कर्म (निर्जीव) $\\rightarrow$ क्रिया।\n   - विशेषण सदा विशेष्य के ठीक पूर्व (\"फूलों की एक माला\", न कि \"एक फूलो",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "263 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-10-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 25 Deadliest Sentence Correction Traps Matrix",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-10",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 25 Deadliest Sentence Correction Traps Matrix"
+    },
+    "badge": "518 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-10-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Active Recall Diagnostic Test (10 High-Yield Sentences)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-10",
+    "description": "1. वाक्य: \"उसकी आयु इस समय तीस वर्ष है।\" $\\rightarrow$ शुद्ध रूप: \"उसकी अवस्था इस समय तीस वर्ष है।\" (आयु संपूर्ण जीवनकाल होता है)।\n2. वाक्य: \"वहाँ भारी भरकम भीड़ एकत्र हो गई।\" $\\rightarrow",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 10: वाक्य शुद्धि एवं अन्वय विधान — Rapid Revision & Diagnostic Vault",
+      "concept": "3. Active Recall Diagnostic Test (10 High-Yield Sentences)"
+    },
+    "badge": "169 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-11",
+    "type": "TOPIC",
+    "title": "Chapter 11: मुहावरे एवं लोकोक्तियाँ — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-11",
+    "url": "/shelf-007/hindi/rev-chapter-11",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "971 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-11-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-11",
+    "description": "1. मुहावरा vs लोकोक्ति त्वरित भेद:\n   - मुहावरा: वाक्यांश (Phrase), अंत में 'ना' क्रिया, वाक्य में व्याकरणिक रूप से बदलता है, लक्षणा शब्द शक्ति।\n   - लोकोक्ति: पूर्ण वाक्य (Independent sta",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 11: मुहावरे एवं लोकोक्तियाँ — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "340 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-11-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 20 High-Speed Diagnostic Flashcards",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-11",
+    "description": "| क्रम | मुहावरा / लोकोक्ति | सटीक अर्थ | मानक प्रशासनिक वाक्य-संदर्भ |\n| :--- | :--- | :--- | :--- |\n| 1 | अंगारे उगलना | अत्यंत क्रोध में कटु वचन बोलना | भ्रष्टाचार देखकर कलेक्टर ने अंगारे उगले। |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 11: मुहावरे एवं लोकोक्तियाँ — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 20 High-Speed Diagnostic Flashcards"
+    },
+    "badge": "605 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-12",
+    "type": "TOPIC",
+    "title": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-12",
+    "url": "/shelf-007/hindi/rev-chapter-12",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "715 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-12-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-12",
+    "description": "1. CSTT की आधारशिला:\n   - कोई अनुमानित या बोलचाल का अर्थ नहीं चलेगा; केवल वैज्ञानिक तथा तकनीकी शब्दावली आयोग (CSTT) का अधिकृत मानक शब्द ही मान्य है।\n   - 'Bill' = विधेयक (संसद/विधानसभा) या द",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "143 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-12-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 50 High-Yield Terminology Distinction Matrix",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-12",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 50 High-Yield Terminology Distinction Matrix"
+    },
+    "badge": "439 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-12-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Active Recall Flashcards (20 Diagnostic Items)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-12",
+    "description": "1. Agenda $\\rightarrow$ कार्यसूची\n2. Allocation $\\rightarrow$ आबंटन\n3. Allotment $\\rightarrow$ आवंटन\n4. Annexure $\\rightarrow$ उपाबंध / अनुलग्नक\n5. Appendix $\\right",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली — Rapid Revision & Diagnostic Vault",
+      "concept": "3. Active Recall Flashcards (20 Diagnostic Items)"
+    },
+    "badge": "98 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-13",
+    "type": "TOPIC",
+    "title": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-13",
+    "url": "/shelf-007/hindi/rev-chapter-13",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "548 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-13-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-13",
+    "description": "1. संक्षिप्तीकरण का स्वर्ण-सूत्र:\n   $$\\text{संक्षेपण शब्द संख्या} = \\frac{\\text{मूल शब्द संख्या}}{3} \\pm 10\\%$$\n   - यदि मूल 150 शब्द हैं $\\rightarrow$ संक्षेपण 45 से 55 शब्द।\n\n2. शीर्षक चयन के",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "157 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-13-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 5-Point Scoring Rubric (10 Marks Breakdown)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-13",
+    "description": "| घटक (Dimension) | आवंटित अंक | परीक्षक क्या देखता है? |\n| :--- | :--- | :--- |\n| 1. शीर्षक की उपयुक्तता (Title) | 2 अंक | क्या शीर्षक सटीक, सारगर्भित और 2-4 शब्दों का है? |\n| 2. केंद्रीय भाव क",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 5-Point Scoring Rubric (10 Marks Breakdown)"
+    },
+    "badge": "128 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-13-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Speed Drill: 5 अवतरणों के तत्काल शीर्षक एवं केंद्रीय विचार",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-13",
+    "description": "1. अवतरण विषय: \"संसार में साहित्य समाज का दर्पण है, जो समाज की विकृतियों को दिखाकर सुधार का मार्ग प्रशस्त करता है...\"\n   - शीर्षक: साहित्य और समाज\n   - केंद्रीय भाव: साहित्य समाज का यथ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 13: संक्षिप्तीकरण कला एवं विज्ञान — Rapid Revision & Diagnostic Vault",
+      "concept": "3. High-Speed Drill: 5 अवतरणों के तत्काल शीर्षक एवं केंद्रीय विचार"
+    },
+    "badge": "222 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-14",
+    "type": "TOPIC",
+    "title": "Chapter 14: पल्लवन एवं भाव विस्तार — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-14",
+    "url": "/shelf-007/hindi/rev-chapter-14",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "454 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-14-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-14",
+    "description": "1. पल्लवन का स्वरूप:\n   - व्यास शैली (Expansion), बीज विचार से पुष्पित-पल्लवित करना।\n   - शब्द सीमा: 100 शब्द $\\pm 10\\%$ (आदर्श: 90 से 110 शब्द)।\n   - शैली: अन्य पुरुष, गंभीर, विचारोत्तेजक, पर",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "142 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-14-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 5-Point Scoring Rubric (10 Marks Breakdown)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-14",
+    "description": "| मूल्यांकन आयाम | आवंटित अंक | उच्च-प्राप्तांक कसौटी (Topper Benchmark) |\n| :--- | :--- | :--- |\n| 1. बीज भाव की समझ | 3 अंक | क्या अभ्यर्थी ने सूक्ति के मूल दार्शनिक/नैतिक मर्म को सटीक पकड़ा है?",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 5-Point Scoring Rubric (10 Marks Breakdown)"
+    },
+    "badge": "127 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-14-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Speed Drill: 5 प्रमुख सूक्तियों के बीज-भाव (Instant Retrieval)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-14",
+    "description": "1. 'मन के हारे हार है, मन के जीते जीत' $\\rightarrow$ बीज भाव: बाह्य साधनों से अधिक मनुष्य का आंतरिक मनोबल और अदम्य संकल्प ही विजय का निर्णायक होता है।\n2. 'साँच को आँच नहीं' $\\rightarrow$ बी",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 14: पल्लवन एवं भाव विस्तार — Rapid Revision & Diagnostic Vault",
+      "concept": "3. High-Speed Drill: 5 प्रमुख सूक्तियों के बीज-भाव (Instant Retrieval)"
+    },
+    "badge": "145 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-15",
+    "type": "TOPIC",
+    "title": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-15",
+    "url": "/shelf-007/hindi/rev-chapter-15",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "518 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-15-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-15",
+    "description": "1. सिंटैक्स पुनर्गठन सूत्र (S-V-O $\\rightarrow$ S-O-V):\n   - English: $\\text{Subject} \\longrightarrow \\text{Verb} \\longrightarrow \\text{Object}$\n   - Hindi: $\\text{कर्ता} \\longrightarrow \\text{कर्",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "173 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-15-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 5-Point Scoring Rubric (10 Marks Breakdown)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-15",
+    "description": "| मूल्यांकन आयाम | आवंटित अंक | उच्च-प्राप्तांक कसौटी (Topper Benchmark) |\n| :--- | :--- | :--- |\n| 1. अर्थ एवं भाव की पूर्णता | 3 अंक | क्या अंग्रेजी पाठ का प्रत्येक विचार और उपवाक्य अनुवाद में स",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 5-Point Scoring Rubric (10 Marks Breakdown)"
+    },
+    "badge": "125 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-15-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Speed Drill: 5 जटिल वाक्यों का तुरंत प्रशासनिक रूपांतरण",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-15",
+    "description": "1. English: \"In exercise of the powers conferred by the proviso to Article 309 of the Constitution, the Governor hereby makes the following rules.\"\n   - शुद्ध हिंदी: \"संविधान के अनुच्छेद 309 के",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 15: अंग्रेजी से हिंदी प्रशासनिक अनुवाद — Rapid Revision & Diagnostic Vault",
+      "concept": "3. High-Speed Drill: 5 जटिल वाक्यों का तुरंत प्रशासनिक रूपांतरण"
+    },
+    "badge": "179 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-16",
+    "type": "TOPIC",
+    "title": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-16",
+    "url": "/shelf-007/hindi/rev-chapter-16",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "390 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-16-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-16",
+    "description": "1. शासकीय पत्र (Official Letter):\n   - नेचर: औपचारिक, पद-से-पद, विधिक अभिलेख।\n   - शैली: अन्य पुरुष, अनाभिव्यक्तिक (\"मुझे यह निदेश हुआ है कि...\"), 'महोदय' $\\rightarrow$ 'भवदीय'।\n   - स्थ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "146 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-16-sec-3",
+    "type": "CONCEPT",
+    "title": "2. दोनों प्रारूपों का तुलनात्मक दृश्य-मानचित्र (Visual Structural Map)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-16",
+    "description": "[शासकीय पत्र संरचना]                        [अर्ध-शासकीय पत्र संरचना]\n\n     राजस्थान सरकार                              [प्रेषक का नाम, पद, फोन]       [अ.शा.प. क्रमांक व दिनांक]\n  [विभाग/सचिवालय,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र — Rapid Revision & Diagnostic Vault",
+      "concept": "2. दोनों प्रारूपों का तुलनात्मक दृश्य-मानचित्र (Visual Structural Map)"
+    },
+    "badge": "90 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-16-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 5-Point Scoring Rubric (10 Marks Breakdown)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-16",
+    "description": "| घटक | अंक | परीक्षक की कसौटी |\n| :--- | :--- | :--- |\n| 1. प्रारूप की तकनीकी शुद्धता | 3 अंक | क्या पत्रांक, दिनांक, प्रेषक/प्रेषिती का स्थान विहित नियमों के अनुसार है? |\n| 2. संबोधन एवं स्वनि",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 16: शासकीय एवं अर्ध-शासकीय पत्र — Rapid Revision & Diagnostic Vault",
+      "concept": "3. 5-Point Scoring Rubric (10 Marks Breakdown)"
+    },
+    "badge": "115 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-17",
+    "type": "TOPIC",
+    "title": "Chapter 17: कार्यालयी प्रारूप महा-संहिता — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-17",
+    "url": "/shelf-007/hindi/rev-chapter-17",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "556 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-17-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-17",
+    "description": "1. प्रारूपों के विशिष्ट अनिवार्य तत्त्व (The Master Matrix):\n   - निविदा (Tender): 6-कॉलम तालिका (क्र.सं., कार्य, लागत, EMD, शुल्क, अवधि) + RTPP Act 2012 + महत्वपूर्ण तिथियाँ।\n   - अधिसूचना",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "185 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-17-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 6 मुख्य प्रारूपों का विन्यास तुलनात्मक चार्ट",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-17",
+    "description": "<table style=\"width: 100%; border-collapse: collapse; font-family: 'Crimson Pro', serif; margin-bottom: 24px;\">\n  <thead>\n    <tr style=\"border-top: 1.5pt solid 000; border-bottom: 1pt solid 000; ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 6 मुख्य प्रारूपों का विन्यास तुलनात्मक चार्ट"
+    },
+    "badge": "215 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-17-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 5-Point Scoring Rubric (10 Marks Breakdown)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-17",
+    "description": "| मूल्यांकन आयाम | आवंटित अंक | उच्च-प्राप्तांक कसौटी (Topper Benchmark) |\n| :--- | :--- | :--- |\n| 1. मानक विन्यास एवं संरचना | 3 अंक | क्या क्रमांक, दिनांक, शीर्षक, और हस्ताक्षर अपनी सही मानक स्",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 17: कार्यालयी प्रारूप महा-संहिता — Rapid Revision & Diagnostic Vault",
+      "concept": "3. 5-Point Scoring Rubric (10 Marks Breakdown)"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-18",
+    "type": "TOPIC",
+    "title": "Chapter 18: निबंध लेखन प्रयोगशाला — Rapid Revision & Diagnostic Vault",
+    "slug": "rev-chapter-18",
+    "url": "/shelf-007/hindi/rev-chapter-18",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "472 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-18-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-18",
+    "description": "1. निबंध का 5-चरणीय ढाँचा (250-300 शब्द):\n   - रूपरेखा (Synopsis): 4-5 बुलेट बिंदु (प्रस्तावना, मुख्य आयाम, सरकारी प्रयास/राजस्थान, चुनौतियाँ, समाधानपरक निष्कर्ष) $\\rightarrow$ सीधे +2 अंक",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला — Rapid Revision & Diagnostic Vault",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "180 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-18-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 5-Point Scoring Rubric (20 Marks Breakdown)",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-18",
+    "description": "| मूल्यांकन आयाम | आवंटित अंक | उच्च-प्राप्तांक कसौटी (Topper Benchmark) |\n| :--- | :--- | :--- |\n| 1. रूपरेखा एवं संरचना | 3 अंक | स्पष्ट, व्यवस्थित 4-5 बिंदुओं की रूपरेखा तथा संतुलित पैराग्राफ व",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला — Rapid Revision & Diagnostic Vault",
+      "concept": "2. 5-Point Scoring Rubric (20 Marks Breakdown)"
+    },
+    "badge": "116 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-18-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Speed Drill: 5 प्रमुख विषयों के 1-लाइन प्रशासनिक निष्कर्ष",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-18",
+    "description": "1. डिजिटल भारत और सुशासन: \"तकनीक जब अंत्योदय और संवेदनशीलता से जुड़ती है, तभी एक समतामूलक, पारदर्शी और आत्मनिर्भर भारत का निर्माण संभव है।\"\n2. राजस्थान में सौर ऊर्जा: \"सौर विकिरण की विपुलता को",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 18: निबंध लेखन प्रयोगशाला — Rapid Revision & Diagnostic Vault",
+      "concept": "3. High-Speed Drill: 5 प्रमुख विषयों के 1-लाइन प्रशासनिक निष्कर्ष"
+    },
+    "badge": "137 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-19",
+    "type": "TOPIC",
+    "title": "Chapter 19: The Grand Synthesis Master Revision Vault — Rapid Revision Matrix",
+    "slug": "rev-chapter-19",
+    "url": "/shelf-007/hindi/rev-chapter-19",
+    "description": "\"व्याकरण में गणितीय सटीकता, प्रारूप में सचिवालयी गरिमा, और निबंध में संवैधानिक संवेदनशीलता ही सामान्य हिंदी (पेपर 4) में 100+ अंक का संप्रभु मार्ग प्रशस्त करती है।\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "397 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-19-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-19",
+    "description": "1. संपूर्ण 120-अंक सामरिक लक्ष्य:\n   - भाग 'अ' (50 अंक): 45+ लक्ष्य (शून्य वर्तनी त्रुटि, गणितीय व्याकरण)।\n   - भाग 'ब' (50 अंक): 38+ लक्ष्य (सचिवालय प्रारूप, 1/3rd संक्षिप्तीकरण, 100 शब्द पल्लवन,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 19: The Grand Synthesis Master Revision Vault — Rapid Revision Matrix",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "118 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-19-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 120-Mark Rapid Formula Sheet",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-19",
+    "description": "| घटक | कुल अंक | मुख्य तकनीक / स्वर्णिम सूत्र |\n| :--- | :---: | :--- |\n| संधि | 5 | वर्ण-परिवर्तन, हलन्त व विसर्ग का शुद्ध प्रयोग (उज्ज्वल, अहर्निश, वाङ्मय)। |\n| उपसर्ग / प्रत्यय | 10 | मूल",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 19: The Grand Synthesis Master Revision Vault — Rapid Revision Matrix",
+      "concept": "2. 120-Mark Rapid Formula Sheet"
+    },
+    "badge": "217 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-19-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top Examination Day Confidence Affirmation",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-19",
+    "description": "> \"व्याकरण में गणितीय सटीकता, प्रारूप में सचिवालयी गरिमा, और निबंध में संवैधानिक संवेदनशीलता ही सामान्य हिंदी (पेपर 4) में 100+ अंक का संप्रभु मार्ग प्रशस्त करती है।\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 19: The Grand Synthesis Master Revision Vault — Rapid Revision Matrix",
+      "concept": "3. Top Examination Day Confidence Affirmation"
+    },
+    "badge": "28 words"
+  },
+  {
+    "id": "shelf007-ch-hindi-rev-chapter-20",
+    "type": "TOPIC",
+    "title": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank — Rapid Revision Matrix",
+    "slug": "rev-chapter-20",
+    "url": "/shelf-007/hindi/rev-chapter-20",
+    "description": "High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "418 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-20-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Memory Skeleton (Instant Recall)",
+    "slug": "sec-2",
+    "url": "/shelf-007/hindi/rev-chapter-20",
+    "description": "1. विगत वर्षों के 5 सर्वाधिक पूछे गए संधि-विच्छेद:\n   - पित्रनुमति: पितृ + अनुमति (यण संधि)\n   - षडानन: षट् + आनन (व्यंजन संधि)\n   - उद्धार: उत् + हार (व्यंजन संधि)\n   - वाङ्मय: वा",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank — Rapid Revision Matrix",
+      "concept": "1. 60-Second Memory Skeleton (Instant Recall)"
+    },
+    "badge": "161 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-20-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 120-Mark Final Pre-Exam Diagnostic Checklist",
+    "slug": "sec-3",
+    "url": "/shelf-007/hindi/rev-chapter-20",
+    "description": "- [ ] भाग 'अ' (व्याकरण - 50 अंक):\n  - क्या आपने संधि में हलंत (्) और विसर्ग (ः) का शत-प्रतिशत शुद्ध अंकन किया?\n  - क्या आपने 'सौंदर्यता', 'माधुर्यता', 'ऐक्यता' जैसे द्वि-प्रत्यय दोषों को पूरी",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank — Rapid Revision Matrix",
+      "concept": "2. 120-Mark Final Pre-Exam Diagnostic Checklist"
+    },
+    "badge": "205 words"
+  },
+  {
+    "id": "shelf007-sec-hindi-rev-chapter-20-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Sovereign Victory Inscription (विजय उद्घोष)",
+    "slug": "sec-4",
+    "url": "/shelf-007/hindi/rev-chapter-20",
+    "description": "$$\\text{अखंड अध्ययन} + \\text{शास्त्र-सम्मत शुद्धता} + \\text{प्रशासनिक गरिमा} = \\mathbf{100+\\; Marks\\; in\\; Hindi\\; Paper\\; 4}$$",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
+      "topic": "Chapter 20: RPSC RAS Mains PYQ Autopsy & Diagnostic Bank — Rapid Revision Matrix",
+      "concept": "3. Sovereign Victory Inscription (विजय उद्घोष)"
+    },
+    "badge": "15 words"
+  },
+  {
+    "id": "shelf007-subj-current-affairs",
+    "type": "SUBJECT",
+    "title": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+    "slug": "current-affairs",
+    "url": "/shelf-007/current-affairs",
+    "description": "Comprehensive sovereign master codex encompassing Static Banking & Regulatory Acts, 2026 Monthly & Quarterly Dossiers (Jan–Sept), IBPS PO / Regulatory Mains 35+ Marks Guarantee Mega-Compendium, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex"
+    },
+    "badge": "CA-007 • 22 Chapters"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-cover",
+    "type": "TOPIC",
+    "title": "CONTEMPORARY ISSUES & CURRENT AFFAIRS",
+    "slug": "cover",
+    "url": "/shelf-007/current-affairs/cover",
+    "description": "▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "Sovereign Front Matter & Epistemic Pledge"
+    },
+    "badge": "277 words • 2 min read"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-table-of-contents",
+    "type": "TOPIC",
+    "title": "TABLE OF CONTENTS & MASTER CURRICULUM",
+    "slug": "table-of-contents",
+    "url": "/shelf-007/current-affairs/table-of-contents",
+    "description": "Treatise: Contemporary Issues, Banking Regulation & Current Affairs Master Codex  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nCurricular Architecture: 4 Sovereign Parts • 10 Comprehensive Master Chapters • 178,768 Canonical Words  \nAuthority...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "Sovereign Front Matter & Epistemic Pledge"
+    },
+    "badge": "1,178 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-table-of-contents-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Part & Chapter Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/table-of-contents",
+    "description": "text\n┌────────────────────────────────────────────────────────────────────────────────────────┐\n│ FRONT MATTER: SOVEREIGN DEDICATION & EPISTEMIC PLEDGE                                  │\n│   ├── 00",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
+      "concept": "Sovereign Part & Chapter Architecture"
+    },
+    "badge": "442 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-table-of-contents-sec-3",
+    "type": "CONCEPT",
+    "title": "Detailed Chapter Scope & Learning Matrix",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/table-of-contents",
+    "description": "Chapter 01: Master Static Banking, Regulatory Acts & Prudential Norms Core\n Statutory Bedrocks: The Reserve Bank of India Act 1934 (Preamble, Section 7, Section 17, Section 18, Section 42 CRR",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
+      "concept": "Detailed Chapter Scope & Learning Matrix"
+    },
+    "badge": "639 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-01",
+    "type": "TOPIC",
+    "title": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
+    "slug": "chapter-01",
+    "url": "/shelf-007/current-affairs/chapter-01",
+    "description": "## 0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "Static Banking, Regulatory Acts & Prudential Foundations"
+    },
+    "badge": "8,372 words • 39 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-01-sec-2",
+    "type": "CONCEPT",
+    "title": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-01",
+    "description": "📰 [STA-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
+      "concept": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
+    },
+    "badge": "8322 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-02",
+    "type": "TOPIC",
+    "title": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
+    "slug": "chapter-02",
+    "url": "/shelf-007/current-affairs/chapter-02",
+    "description": "Master Consolidation Note: All three months sit in the Light-Touch Zone. Tier A items from Jan, Feb, and March have been pooled into 10 unified thematic sections rather than appended sequentially. Overlapping stories and phased regulatory rollouts have been sy...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "16,085 words • 74 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-02-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-02",
+    "description": "📰 [Q1-001] India's Economy — Size, Growth & the Feb 1 Budget (merged: Jan's pre-Budget context + Feb's actual Budget content)\n\n🪝 Hook — India overtook Japan to become the world's 4th-largest e",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
+      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+    },
+    "badge": "2126 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-02-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-02",
+    "description": "📰 [Q1-012] RBI Monetary Policy — Feb 2026 Report + Aug 2026 Update (Feb, with live status update)\n\n- Benchmark Policy Rates Status: Reserve Bank of India maintained the Policy Repo Rate a",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
+      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+    },
+    "badge": "2624 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-02-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-02",
+    "description": "📰 [Q1-025] UPI — Two-month growth trend (Dec 2025 → Jan 2026) (merged: sequential monthly data, not a duplicate)\n\n🪝 Hook — UPI crossed 21 billion monthly transactions for the first time in Dec",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
+      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+    },
+    "badge": "1574 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-02-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-02",
+    "description": "📰 [Q1-033] Census 2027 — Phase Structure & Caste Enumeration\n\n- Phase 1: House Listing Operations (HLO): Scheduled to run nationwide from April 1 to September 30, 2026, collecting baselin",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
+      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+    },
+    "badge": "2167 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-03",
+    "type": "TOPIC",
+    "title": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+    "slug": "chapter-03",
+    "url": "/shelf-007/current-affairs/chapter-03",
+    "description": "Master Consolidation Note: April 2026 sits firmly in the Core Zone (April – September 2026), carrying the highest weightage for the upcoming examination. All 10 canonical sections from Part 1 and Part 2 have been consolidated into a single unified dossier foll...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "7,422 words • 34 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-03-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-03",
+    "description": "📰 [APR-001] Small Savings Schemes — Rates Unchanged, Q1 FY27\n\n🪝 Hook — For the 8th straight quarter, your PPF and Sukanza Samriddhi rates haven't moved — the government held small savings rates",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+    },
+    "badge": "979 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-03-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-03",
+    "description": "📰 [APR-009] RBI Monetary Policy — April 2026 (FY27 First Bi-Monthly Statement)\n\n🪝 Hook — The MPC kept rates on hold for a second straight meeting, even as it penciled in a punchy 6.9% GDP growth",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+    },
+    "badge": "1593 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-03-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-03",
+    "description": "📰 [APR-020] Bank/Insurer Product & Partnership Cluster (merged: multiple Tier B product launches)\n\n- A. CSB Bank launched \"Smart Save Account\" — auto-sweep to FDs at 7% interest, RuPay",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+    },
+    "badge": "664 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-03-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-03",
+    "description": "📰 [APR-026] India's 100 GW Nuclear Power Roadmap by 2047\n\n🪝 Hook — India wants to go from 8.8 GW to 100 GW of nuclear power in 21 years — but first it needs to cut approval timelines almost in h",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+    },
+    "badge": "1225 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-04",
+    "type": "TOPIC",
+    "title": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
+    "slug": "chapter-04",
+    "url": "/shelf-007/current-affairs/chapter-04",
+    "description": "EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "9,652 words • 44 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-04-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 💰 BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-04",
+    "description": "📰 [MAY-001] DFS Approves Viability Plan 2.0 for Regional Rural Banks (RRBs) Across 30 Performance Metrics\n\n- Regulatory Framework & Mandate: The Department of Financial Services (DFS), Mi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
+      "concept": "1. 💰 BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE"
+    },
+    "badge": "261 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-04-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 🌾 AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-04",
+    "description": "📰 [MAY-002] Cabinet Approves Kharif MSP 2026–27: Common Paddy at ₹2,441 & Moong Yields Record 61% Margin\n\n- Statutory Pricing Mandate: The Cabinet Committee on Economic Affairs (CCEA), ch",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
+      "concept": "2. 🌾 AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS"
+    },
+    "badge": "739 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-04-sec-4",
+    "type": "CONCEPT",
+    "title": "3. ⚖️ CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-04",
+    "description": "📰 [MAY-005] Constitution (131st Amendment) Bill, 2026: Lok Sabha Strength Proposed to Expand to 850 Members\n\n- Legislative Restructuring: The Union Government introduced The Constitution (O",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
+      "concept": "3. ⚖️ CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY"
+    },
+    "badge": "882 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-04-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 🌐 INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-04",
+    "description": "📰 [MAY-009] India-New Zealand Free Trade Agreement: 100% Tariff-Free Access & \\$20 Billion Investment Pledge\n\n- Bilateral Trade Architecture: India and New Zealand concluded negotiations on a",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
+      "concept": "4. 🌐 INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS"
+    },
+    "badge": "716 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-05",
+    "type": "TOPIC",
+    "title": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+    "slug": "chapter-05",
+    "url": "/shelf-007/current-affairs/chapter-05",
+    "description": "EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "14,562 words • 67 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-05-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 💰 BANKING, MONETARY POLICY & FINANCIAL REGULATION",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-05",
+    "description": "📰 [JUN-001] RBI Relaxes Capital Requirements for Bank Loans under ECLGS 5.0 (Split Risk-Weight Structure)\n\n- Regulatory Framework & Mandate: Reserve Bank of India issued an amendment to the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "1. 💰 BANKING, MONETARY POLICY & FINANCIAL REGULATION"
+    },
+    "badge": "6165 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-05-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 📈 CAPITAL MARKETS, SEBI & PENSIONS REGULATION",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-05",
+    "description": "📰 [JUN-023] SEBI Revises Trading Framework for ETFs: Dynamic Price Bands & Pre-Open Auction\n\n- Regulatory Directive: Securities and Exchange Board of India (SEBI) revamped the trading framewo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "2. 📈 CAPITAL MARKETS, SEBI & PENSIONS REGULATION"
+    },
+    "badge": "1027 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-05-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 🌐 MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-05",
+    "description": "📰 [JUN-028] NPCI International (NIPL) Expands Cross-Border UPI to Cambodia via KHQR Network\n\n- Bilateral Linkage: NPCI International Payments Limited (NIPL), the global arm of the Nationa",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "3. 🌐 MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS"
+    },
+    "badge": "2289 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-05-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 🏛️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-05",
+    "description": "📰 [JUN-040] MNRE Operationalizes Green Hydrogen Certification Scheme of India (GHCI)\n\n- Framework & Institutional Mandate: Ministry of New and Renewable Energy (MNRE) operationalized the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "4. 🏛️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY"
+    },
+    "badge": "4928 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-06",
+    "type": "TOPIC",
+    "title": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+    "slug": "chapter-06",
+    "url": "/shelf-007/current-affairs/chapter-06",
+    "description": "EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "9,054 words • 42 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-06-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-06",
+    "description": "📰 [JUL-001] RBI Monthly Bulletin (July): State of the Economy & RBI-DPI Surge to 445.50\n\n- State of the Economy Overview: Authored by the RBI research team led by Deputy Governor Dr. Michael",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+    },
+    "badge": "1510 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-06-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-06",
+    "description": "📰 [JUL-008] RBI Master Direction — Treatment of Wilful Defaulters and Large Defaulters (July 30)\n\n- Scope & Applicability: Applicable to all Scheduled Commercial Banks (incl. RRBs), All-India",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+    },
+    "badge": "2945 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-06-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-06",
+    "description": "📰 [JUL-021] State Bank of India raises ₹10,000 Crore via 15-Year Infrastructure Bonds\n\n- Mega Debt Issuance: State Bank of India (SBI) concluded the issuance of its fifth tranche of infrastru",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+    },
+    "badge": "923 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-06-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-06",
+    "description": "📰 [JUL-026] Historic Legal Transition: Three New Criminal Laws Enacted Nationwide (July 1)\n\n- Enforcement Date: Three transformative criminal law statutes came into full legal effect across I",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
+      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+    },
+    "badge": "1000 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-07",
+    "type": "TOPIC",
+    "title": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
+    "slug": "chapter-07",
+    "url": "/shelf-007/current-affairs/chapter-07",
+    "description": "📰 [AUG-001] India's economic size & fiscal snapshot — two data points",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "22,393 words • 102 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-07-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-07",
+    "description": "📰 [AUG-001] India's economic size & fiscal snapshot — two data points\n\n🪝 Two separate GDP-adjacent numbers came out this fortnight — don't confuse the \"6th-largest\" ranking with the FY26 debt/de",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
+      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+    },
+    "badge": "5980 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-07-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-07",
+    "description": "📰 [AUG-041] SEBI Reforms Cluster — Market Structure & Investor Access (1–11 Aug)\n\n- A) Closing Auction Session (CAS) for F&O-eligible stocks, eff. 3 Aug 2026: regular trading till 3:15 PM",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
+      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+    },
+    "badge": "2441 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-07-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-07",
+    "description": "📰 [AUG-056] Monetary Policy Statement, 2026-27 (62nd MPC Meeting)\n\n🪝 RBI's rate-setting panel held rates but trimmed its inflation forecast, flagging El Niño as a fresh risk.\n\n- Meeting: 3-5 A",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
+      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+    },
+    "badge": "1234 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-07-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-07",
+    "description": "NATIONAL\n\n📰 [AUG-068] 80th Independence Day Announcements (15 Aug 2026)\n\n🪝 PM Modi's speech laid out a nuclear-energy push, an AI-skilling target, and a new civil-defence framework alongside",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
+      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+    },
+    "badge": "1805 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-08",
+    "type": "TOPIC",
+    "title": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
+    "slug": "chapter-08",
+    "url": "/shelf-007/current-affairs/chapter-08",
+    "description": "EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
+    },
+    "badge": "27,085 words • 124 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-08-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 🏛️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-08",
+    "description": "📰 [SEP-001] IFSCA Notifies Market Abuse Regulations 2026 in GIFT IFSC: Replaces SEBI PIT and PFUTP Regimes\n\n- Genesis & Regulatory Autonomy: The International Financial Services Centres Autho",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
+      "concept": "1. 🏛️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS"
+    },
+    "badge": "2918 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-08-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 🏦 BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-08",
+    "description": "📰 [SEP-014] Coastal Local Area Bank Admitted to Second Schedule of RBI Act, 1934: India's First Scheduled LAB\n\n- Historic Scheduled Status: The Reserve Bank of India officially accorded Sch",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
+      "concept": "2. 🏦 BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS"
+    },
+    "badge": "3445 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-08-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 💳 DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-08",
+    "description": "📰 [SEP-030] Prime Minister Inaugurates Global Fintech Fest (GFF) 2026: Unveils 4-Point Strategic Fintech Roadmap\n\n- Flagship Convergence: Prime Minister Narendra Modi inaugurated the 5th edit",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
+      "concept": "3. 💳 DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE"
+    },
+    "badge": "3514 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-08-sec-5",
+    "type": "CONCEPT",
+    "title": "4. 📊 MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-08",
+    "description": "📰 [SEP-045] Japan Credit Rating Agency (JCR) Upgrades India's Sovereign Rating to 'A-' with Stable Outlook\n\n- Historic Rating Milestone: Japan Credit Rating Agency (JCR), Japan's premier",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
+      "concept": "4. 📊 MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE"
+    },
+    "badge": "3615 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-09",
+    "type": "TOPIC",
+    "title": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
+    "slug": "chapter-09",
+    "url": "/shelf-007/current-affairs/chapter-09",
+    "description": "EXAMINER'S STRATEGIC BLUEPRINT FOR 35+ MARKS OUT OF 50:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium"
+    },
+    "badge": "43,718 words • 199 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-09-sec-2",
+    "type": "CONCEPT",
+    "title": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-09",
+    "description": "📰 [MS-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
+      "concept": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
+    },
+    "badge": "5210 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-09-sec-3",
+    "type": "CONCEPT",
+    "title": "1. 🏛️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-09",
+    "description": "📰 [MS-012] Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory\n- Continuous Policy Rate Pause: The MPC held the Policy Repo Rate at 5.25% with a neutral monetary stance",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
+      "concept": "1. 🏛️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS"
+    },
+    "badge": "6261 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-09-sec-4",
+    "type": "CONCEPT",
+    "title": "2. 🏦 BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-09",
+    "description": "📰 [MS-040] DICGC Four-Tier Risk-Based Premium Architecture\n- Transition to Risk-Sensitive Pricing: Deposit Insurance and Credit Guarantee Corporation (DICGC) transitioned from the legacy flat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
+      "concept": "2. 🏦 BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION"
+    },
+    "badge": "2946 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-09-sec-5",
+    "type": "CONCEPT",
+    "title": "3. 💳 DIGITAL PAYMENTS, FINTECH & SEBI MASTER DIRECTIONS",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-09",
+    "description": "📰 [MS-055] Unified Payments Interface (UPI) Global Expansion & Bilateral Linkages\n- Sovereign Cross-Border Integrations: NPCI International Payments Limited (NIPL) expanded bilateral cross-bo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
+      "concept": "3. 💳 DIGITAL PAYMENTS, FINTECH & SEBI MASTER DIRECTIONS"
+    },
+    "badge": "3326 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-chapter-10",
+    "type": "TOPIC",
+    "title": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
+    "slug": "chapter-10",
+    "url": "/shelf-007/current-affairs/chapter-10",
+    "description": "🧠 Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing\nMechanical calculating machines operated on fixed gear ratios where program instructions and data were physically bound to\nmechanical levers. The true digital revolution eme...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "Computer Aptitude, Digital Banking Systems & Cybersecurity Master"
+    },
+    "badge": "20,425 words • 93 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-10-sec-2",
+    "type": "CONCEPT",
+    "title": "📑 Master Index & Quick Jump Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/chapter-10",
+    "description": "| ID | Unit Title | Core High-Yield Invariants |\n|---|---|---|\n| [COMP-001] | Evolution of Computing & Pioneers | Abacus, Napier, Pascaline, Babbage, Von Neumann Stored-Program Architecture |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
+      "concept": "📑 Master Index & Quick Jump Matrix"
+    },
+    "badge": "392 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-10-sec-3",
+    "type": "CONCEPT",
+    "title": "📰 [COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/chapter-10",
+    "description": "🧠 Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing\nMechanical calculating machines operated on fixed gear ratios where program instructions and data were physically",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
+      "concept": "📰 [COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**"
+    },
+    "badge": "826 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-10-sec-4",
+    "type": "CONCEPT",
+    "title": "📰 [COMP-002] **Generations of Computers & Structural Classification**",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/chapter-10",
+    "description": "📐 Classification by Scale & Processing Throughput\n1. Supercomputers:\nThe most powerful, expensive, and fastest computing systems on Earth, designed to execute trillions of floating-point\noperations p",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
+      "concept": "📰 [COMP-002] **Generations of Computers & Structural Classification**"
+    },
+    "badge": "393 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-chapter-10-sec-5",
+    "type": "CONCEPT",
+    "title": "📰 [COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**",
+    "slug": "sec-5",
+    "url": "/shelf-007/current-affairs/chapter-10",
+    "description": "🏛 The Von Neumann Machine Architecture\n\ntext\n┌────────────────────────────────────────────────────────────────────────┐\n│ \tCENTRAL PROCESSING UNIT (CPU) \t│\n│ \t│\n│ ┌────────────────────────┐ \t┌────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
+      "concept": "📰 [COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**"
+    },
+    "badge": "1276 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-01",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 01",
+    "slug": "rev-chapter-01",
+    "url": "/shelf-007/current-affairs/rev-chapter-01",
+    "description": "Topic: Static Banking, Regulatory Acts & Prudential Norms Core  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 01",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "595 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-01-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Statutory Acts & Mandates Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-01",
+    "description": "| Statute / Bare Act | Critical Sections | Enforcement Authority | Core Invariant & Examination Trap |\n| :--- | :--- | :--- | :--- |\n| RBI Act 1934 | Sec 7 (Govt directions), Sec 17 (Business powe",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 01",
+      "concept": "1. Statutory Acts & Mandates Matrix"
+    },
+    "badge": "263 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-01-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Basel III & Prudential Norms Master Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-01",
+    "description": "| Capital Ratio / Framework | Mandated Threshold (SCBs) | Calculation Base | Supervisory Action & Traps |\n| :--- | :--- | :--- | :--- |\n| Common Equity Tier 1 (CET-1) | 5.5% | Percentage of Ri",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 01",
+      "concept": "2. Basel III & Prudential Norms Master Grid"
+    },
+    "badge": "206 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-01-sec-4",
+    "type": "CONCEPT",
+    "title": "3. 60-Second Memory Skeleton & Trap Alerts",
+    "slug": "sec-4",
+    "url": "/shelf-007/current-affairs/rev-chapter-01",
+    "description": "- Cheque Bounce Penal Provision: Section 138 of Negotiable Instruments Act 1881 mandates imprisonment up to 2 years or fine up to twice the cheque amount, or both.\n- PMLA Cash Transactio",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 01",
+      "concept": "3. 60-Second Memory Skeleton & Trap Alerts"
+    },
+    "badge": "76 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-02",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 02",
+    "slug": "rev-chapter-02",
+    "url": "/shelf-007/current-affairs/rev-chapter-02",
+    "description": "Topic: Q1 2026 (January – March) Comprehensive Consolidated Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 02",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "307 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-02-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Q1 2026 High-Yield Macro & Policy Indicators",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-02",
+    "description": "| Metric / Event | Benchmark Data / Stat | Governing Authority | Exam Angle & Pitfall |\n| :--- | :--- | :--- | :--- |\n| Sovereign Green Bonds (SGrBs) | ₹20,000 Crore target allocation in Q4 FY26 |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 02",
+      "concept": "1. Q1 2026 High-Yield Macro & Policy Indicators"
+    },
+    "badge": "191 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-02-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Quick Scan: Q1 Regulatory Interventions",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-02",
+    "description": "- NBFC Scale-Based Regulation (SBR): 4 layers—Base Layer (NBFC-BL), Middle Layer (NBFC-ML), Upper Layer (NBFC-UL), and Top Layer (NBFC-TL). Upper layer NBFCs must maintain CET-1 $ge$ 9%.\n- Stand",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 02",
+      "concept": "2. 60-Second Quick Scan: Q1 Regulatory Interventions"
+    },
+    "badge": "73 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-03",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 03",
+    "slug": "rev-chapter-03",
+    "url": "/shelf-007/current-affairs/rev-chapter-03",
+    "description": "Topic: April 2026 Consolidated Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 03",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "255 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-03-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Key Directives & Financial Trends Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-03",
+    "description": "| Sector / Focus | Strategic Measure | Regulatory Anchor | High-Yield Trap Alert |\n| :--- | :--- | :--- | :--- |\n| Monetary Policy Review (April) | Repo Rate held at 6.50%; Stance: \"Withdrawal of",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 03",
+      "concept": "1. Key Directives & Financial Trends Matrix"
+    },
+    "badge": "179 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-03-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-03",
+    "description": "- Ways and Means Advances (WMA): Temporary advances to Central Govt (max 90 days tenure) to bridge mismatches in receipts and payments.\n- Special Drawing Rights (SDR): IMF currency basket curr",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 03",
+      "concept": "2. 60-Second Retrieval Skeleton"
+    },
+    "badge": "41 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-04",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 04",
+    "slug": "rev-chapter-04",
+    "url": "/shelf-007/current-affairs/rev-chapter-04",
+    "description": "Topic: May 2026 (PIB & Regulatory Directions) Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 04",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "251 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-04-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Agrarian, Industrial & Public Policy Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-04",
+    "description": "| Policy Initiative | Operational Mechanism | Key Benchmarks & Targets | Exam Traps |\n| :--- | :--- | :--- | :--- |\n| Agrarian MSP Determinations | $1.5\times$ formula based on $A2+FL$ costs | Comm",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 04",
+      "concept": "1. Agrarian, Industrial & Public Policy Matrix"
+    },
+    "badge": "171 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-04-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Memory Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-04",
+    "description": "- PM-KISAN: ₹6,000 p.a. transferred in three equal installments of ₹2,000 directly via DBT; 100% funded by Central Government.\n- Kisan Credit Card (KCC): Credit limit up to ₹3 Lakhs at 7% inte",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 04",
+      "concept": "2. 60-Second Memory Skeleton"
+    },
+    "badge": "42 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-05",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 05",
+    "slug": "rev-chapter-05",
+    "url": "/shelf-007/current-affairs/rev-chapter-05",
+    "description": "Topic: June 2026 (Banking & Financial Regulation) Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 05",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "243 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-05-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Financial Markets & Cross-Border Frameworks",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-05",
+    "description": "| Domain | Key Intervention | Governing Directive | Key Invariant |\n| :--- | :--- | :--- | :--- |\n| ECLGS 5.0 Split Risk-Weight | Capital relief for guaranteed MSME credit | RBI Prudential Norms o",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 05",
+      "concept": "1. Financial Markets & Cross-Border Frameworks"
+    },
+    "badge": "165 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-05-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Recall Guide",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-05",
+    "description": "- LRS (Liberalised Remittance Scheme): Max $250,000 per financial year for resident individuals; TCS of 20% applies on remittances above ₹7 Lakhs (except education and medical treatment).\n-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 05",
+      "concept": "2. 60-Second Recall Guide"
+    },
+    "badge": "41 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-06",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 06",
+    "slug": "rev-chapter-06",
+    "url": "/shelf-007/current-affairs/rev-chapter-06",
+    "description": "Topic: July 2026 (State of Economy & Regulators) Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 06",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "230 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-06-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Economic Indices & Digital Velocity Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-06",
+    "description": "| Index / Metric | Value / Magnitude | Measuring Body | Core Structural Significance |\n| :--- | :--- | :--- | :--- |\n| RBI Digital Payments Index (RBI-DPI) | Surged to 445.50 (Base March 2018",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 06",
+      "concept": "1. Economic Indices & Digital Velocity Grid"
+    },
+    "badge": "148 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-06-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Memory Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-06",
+    "description": "- Financial Stability Report (FSR): Published bi-annually (June & December); details macro-stress tests for credit risk under baseline and severe stress scenarios.\n- Systemic Liquidity Stance:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 06",
+      "concept": "2. 60-Second Memory Skeleton"
+    },
+    "badge": "43 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-07",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 07",
+    "slug": "rev-chapter-07",
+    "url": "/shelf-007/current-affairs/rev-chapter-07",
+    "description": "Topic: August 2026 (Full Month Consolidated & PIB) Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 07",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "290 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-07-sec-2",
+    "type": "CONCEPT",
+    "title": "1. High-Yield Policy Revisions & Statutory Milestones",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-07",
+    "description": "| Sector / Program | Critical 2026 Milestone | Administrative Entity | Crucial Numerical Invariant |\n| :--- | :--- | :--- | :--- |\n| Index of Core Industries (ICI) | Base Year revised to 2022-23",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 07",
+      "concept": "1. High-Yield Policy Revisions & Statutory Milestones"
+    },
+    "badge": "205 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-07-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Quick Scan: August Anchors",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-07",
+    "description": "- SEBI Cyber Suraksha Portal: Mandatory centralized reporting dashboard for all stock brokers, depositories, and mutual funds for real-time cyber threat intelligence sharing.\n- GOBARdhan (Galvan",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 07",
+      "concept": "2. 60-Second Quick Scan: August Anchors"
+    },
+    "badge": "44 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-08",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 08",
+    "slug": "rev-chapter-08",
+    "url": "/shelf-007/current-affairs/rev-chapter-08",
+    "description": "Topic: September 2026 (120 In-Depth Policy Clusters) Dossier  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 08",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "248 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-08-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Regulatory Codes & Global Finance Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-08",
+    "description": "| Strategic Framework | Core Provisions | Regulating Body | Examination Pitfall & Alert |\n| :--- | :--- | :--- | :--- |\n| IFSCA Market Abuse Regulations 2026 | Comprehensive insider trading and ma",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 08",
+      "concept": "1. Regulatory Codes & Global Finance Grid"
+    },
+    "badge": "166 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-08-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Memory Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-08",
+    "description": "- IFSCA Headquarters: GIFT City, Gandhinagar, Gujarat; established under IFSCA Act 2019; unified regulator for banking, capital markets, and insurance in IFSCs.\n- Inland Waterways National Highw",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 08",
+      "concept": "2. 60-Second Memory Skeleton"
+    },
+    "badge": "44 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-09",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 09",
+    "slug": "rev-chapter-09",
+    "url": "/shelf-007/current-affairs/rev-chapter-09",
+    "description": "Topic: IBPS PO / Regulatory Mains 35+ Marks Guarantee Mega-Compendium  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 09",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "335 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-09-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The 35+ Marks Guarantee Examination Strike Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-09",
+    "description": "| Domain | High-Frequency Invariant Slabs | Common Paper-Setter Distractor Trap | Verified Correct Fact |\n| :--- | :--- | :--- | :--- |\n| Union Budget Fiscal Deficit | Target 4.9% of GDP for FY25;",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 09",
+      "concept": "1. The 35+ Marks Guarantee Examination Strike Grid"
+    },
+    "badge": "224 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-09-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Retrieval Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-09",
+    "description": "- Sukanya Samriddhi Yojana (SSY): Max deposit ₹1.5 Lakh/FY, Min ₹250; account opened for girl child up to 10 years of age; matures after 21 years from opening date.\n- Senior Citizens Savings Sch",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 09",
+      "concept": "2. 60-Second Retrieval Skeleton"
+    },
+    "badge": "70 words"
+  },
+  {
+    "id": "shelf007-ch-current-affairs-rev-chapter-10",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX: CHAPTER 10",
+    "slug": "rev-chapter-10",
+    "url": "/shelf-007/current-affairs/rev-chapter-10",
+    "description": "Topic: Computer Aptitude, Digital Banking Systems & Cybersecurity Master  \nShelf: 007 (Sovereign Master Knowledge Bastion)  \nCurricular Link: Chapter 10",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "386 words • 2 min read"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-10-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Computer Systems, Protocols & Architecture Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/current-affairs/rev-chapter-10",
+    "description": "| Component / Layer | Protocol / Unit | Key Technical Function | Exam Distractor & Pitfall |\n| :--- | :--- | :--- | :--- |\n| CPU Architecture | Program Counter (PC) vs Instruction Register (IR) |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 10",
+      "concept": "1. Computer Systems, Protocols & Architecture Matrix"
+    },
+    "badge": "291 words"
+  },
+  {
+    "id": "shelf007-sec-current-affairs-rev-chapter-10-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 60-Second Memory Skeleton",
+    "slug": "sec-3",
+    "url": "/shelf-007/current-affairs/rev-chapter-10",
+    "description": "- ISO 20022: Universal XML-based financial messaging standard adopted for RTGS and international payments replacing legacy SWIFT MT messages.\n- CBS (Core Banking Solutions): Centralized online",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
+      "topic": "RAPID REVISION MATRIX: CHAPTER 10",
+      "concept": "2. 60-Second Memory Skeleton"
+    },
+    "badge": "56 words"
   }
 ];

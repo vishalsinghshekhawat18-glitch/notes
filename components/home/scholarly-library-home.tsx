@@ -211,6 +211,42 @@ const MONOGRAPHS: MonographSubject[] = [
     hubUrl: '/shelf-007/english-language',
     readUrl: '/shelf-007/english-language/chapter-01',
   },
+  {
+    id: 'hin-007',
+    code: 'HIN-007',
+    volumeRoman: 'VOL. IX',
+    domainId: 'LANG',
+    domainTitle: 'Language & Administrative Rhetoric',
+    title: 'General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)',
+    authorText: 'डॉ. राघव प्रकाश • डॉ. हरदेव बाहरी • डॉ. वासुदेवनंदन प्रसाद • RBSE 9–12 • CSTT',
+    description:
+      'Sovereign 20-chapter doctoral-depth master treatise covering Phonetics & Sandhi (संधि), Affixes (उपसर्ग/प्रत्यय), Lexicon (पर्यायवाची/विलोम/युग्म), Orthography & Syntax (शब्द शुद्धि/वाक्य शुद्धि), Rhetoric (मुहावरे/कहावतें), CSTT Administrative Terminology, Précis, Expansion, Official Formats & Essays.',
+    totalChapters: 42,
+    totalWordsText: '61K words',
+    mcqCount: 500,
+    primarySource: 'Dr. Raghav Prakash • Dr. Hardev Bahri • RBSE 9–12 • CSTT • Secretariat Manual',
+    keyCoverage: 'Sandhi & Phonetics · Shabd & Vakya Shuddhi · CSTT Glossary · Official Drafting & Formats · Essay Laboratory',
+    hubUrl: '/shelf-007/hindi',
+    readUrl: '/shelf-007/hindi/chapter-01',
+  },
+  {
+    id: 'ca-007',
+    code: 'CA-007',
+    volumeRoman: 'VOL. X',
+    domainId: 'ECO',
+    domainTitle: 'Contemporary Affairs & Public Policy',
+    title: 'Contemporary Issues, Banking Regulation & Current Affairs Master Codex',
+    authorText: 'The Gazette of India • Reserve Bank of India • Supreme Court • PIB • SEBI',
+    description:
+      'Senior Paper-Setter master codex encompassing Static Banking Acts & Prudential Norms, 2026 Monthly & Quarterly Dossiers (January–September), Multi-Exam 35+ Marks Guarantee Mega-Compendium, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
+    totalChapters: 22,
+    totalWordsText: '183K words',
+    mcqCount: 1200,
+    primarySource: 'The Gazette of India • Reserve Bank of India • Supreme Court • PIB',
+    keyCoverage: 'Static Banking Regulations · Q1–Q3 2026 Monthly Dossiers · IBPS Mains 35+ Mega-Compendium · Computer Aptitude & CBS',
+    hubUrl: '/shelf-007/current-affairs',
+    readUrl: '/shelf-007/current-affairs/chapter-01',
+  },
 ];
 
 interface SavedPosition {
