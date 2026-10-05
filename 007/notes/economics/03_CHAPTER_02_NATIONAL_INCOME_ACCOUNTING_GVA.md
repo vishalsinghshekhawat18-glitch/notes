@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 02: NATIONAL INCOME ACCOUNTING, GVA & THE 2015 NSO METHODOLOGY
+# CHAPTER 02: NATIONAL INCOME ACCOUNTING, GVA & THE 2015–2026 METHODOLOGICAL EVOLUTION
 
 **Canonical Sources Unified**:
 * Vivek Singh, *Indian Economy* (7th Ed., Ch. 1, §§1.9–1.15)
@@ -191,6 +191,11 @@ Prior to 2015, economists treated taxes simply as "Indirect Taxes". The SNA 2008
 
 $$\mathbf{GVA \text{ at Basic Price}} = \text{GVA at Factor Cost} + (\text{Production Taxes} - \text{Production Subsidies})$$
 $$\mathbf{GDP \text{ at Market Price}} = \sum \text{GVA at Basic Price} + (\text{Product Taxes} - \text{Product Subsidies})$$
+
+> [!NOTE]
+> **METHODOLOGICAL CLARIFICATION: FACTOR COST VS. BASIC PRICE IN OFFICIAL ACCOUNTS**
+> * **Factor Cost ($FC$)**: Historically used by CSO prior to 2015 as the principal headline production metric. In the modern UN System of National Accounts (SNA 2008), Factor Cost is no longer an official national accounts valuation aggregate compiled directly by statistical agencies—it survives primarily as a theoretical construct, an examination convention, and the definition of classical National Income ($NNP_{FC}$).
+> * **Basic Price ($BP$)**: The official SNA 2008 production-account valuation measure adopted by MoSPI/NSO since the 2015 revision. It reflects what producers actually retain at factory gate, incorporating production taxes/subsidies (unlinked to volume) while excluding product taxes/subsidies (linked to volume).
 
 ---
 

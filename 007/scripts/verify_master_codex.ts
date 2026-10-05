@@ -10,11 +10,11 @@ async function verifyMasterCodex() {
 
   console.log(`\n======================================================`);
   console.log(`FORENSIC AUDIT OF BOOK 01 MASTER CODEX: ${masterPath}`);
-  console.log(`Total Pages: ${total} (Expected: 206)`);
+  console.log(`Total Pages: ${total} (Expected: 208)`);
   console.log(`======================================================`);
 
-  if (total !== 206) {
-    console.error(`FAIL: Expected 206 pages, found ${total}`);
+  if (total !== 208) {
+    console.error(`FAIL: Expected 208 pages, found ${total}`);
     process.exit(1);
   }
 
@@ -47,8 +47,8 @@ async function verifyMasterCodex() {
     { ch: 23, physStart: 164, bodyStart: 160, pages: 7 },
     { ch: 24, physStart: 171, bodyStart: 167, pages: 5 },
     { ch: 25, physStart: 176, bodyStart: 172, pages: 5 },
-    { ch: 26, physStart: 181, bodyStart: 177, pages: 19 },
-    { ch: 27, physStart: 200, bodyStart: 196, pages: 7 },
+    { ch: 26, physStart: 181, bodyStart: 177, pages: 20 },
+    { ch: 27, physStart: 201, bodyStart: 197, pages: 8 },
   ];
 
   for (const m of EXPECTED_MAPPING) {

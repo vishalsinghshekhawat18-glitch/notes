@@ -33,8 +33,8 @@ const EXACT_TOC_MAPPING = [
   { ch: 23, start: 160, end: 166, pages: 7 },
   { ch: 24, start: 167, end: 171, pages: 5 },
   { ch: 25, start: 172, end: 176, pages: 5 },
-  { ch: 26, start: 177, end: 195, pages: 19 },
-  { ch: 27, start: 196, end: 202, pages: 7 },
+  { ch: 26, start: 177, end: 196, pages: 20 },
+  { ch: 27, start: 197, end: 204, pages: 8 },
 ];
 
 export function buildTableOfContentsHtml(): string {
@@ -276,7 +276,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • Shelf 007 Bastion</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">27 Chapters • 202 Pages</div>
+      <div class="meta-tag">27 Chapters • 204 Pages</div>
     </div>
 
     <!-- PART I -->
@@ -296,7 +296,7 @@ export function buildTableOfContentsHtml(): string {
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 02</span>
-        <span class="chapter-name">National Income Accounting, GVA &amp; 2015 NSO Methodology</span>
+        <span class="chapter-name">National Income Accounting, GVA &amp; 2015–2026 Methodological Evolution</span>
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 8</span>
       </div>
@@ -390,7 +390,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 68</span>
       </div>
-      <div class="chapter-subtopics">Constitutional Funds (Articles 266 &amp; 267) • Fiscal Deficit • N.K. Singh 60% Debt • Union Budget 2026-27 Anchor (4.1%)</div>
+      <div class="chapter-subtopics">Constitutional Funds (Articles 266 &amp; 267) • Fiscal Deficit • N.K. Singh 60% Debt • Union Budget 2026–27 Anchor (4.3%)</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
@@ -423,7 +423,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 91</span>
       </div>
-      <div class="chapter-subtopics">Headline vs Core • CPI 2024 Series (358 Items) vs 2012 Base • FIT 4% ± 2% (2026–31) • WPI 697 Items • Phillips Curve</div>
+      <div class="chapter-subtopics">Headline vs Core • CPI 2024 Series (358 Items, Food 36.75%) vs 2012 Base • FIT 4% ± 2% (2026–31) • WPI 697 Items • Phillips Curve</div>
     </div>
   </div>
 
@@ -573,7 +573,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 177</span>
       </div>
-      <div class="chapter-subtopics">60-Second Skeletons (Ch 01-27) • 10 Comparative Matrices • 35 Examiner Traps • 72 Diagnostic Active Recall Cards</div>
+      <div class="chapter-subtopics">60-Second Skeletons (Ch 01-27) • 10 Comparative Matrices • 35 Traps • 72 Recall Cards • Multi-Exam PYQ Matrix</div>
     </div>
 
     <!-- PART X -->
@@ -586,9 +586,9 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 27</span>
         <span class="chapter-name">Economy of Rajasthan: GSDP, Sectors, Infrastructure &amp; Reforms</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 196</span>
+        <span class="chapter-locator">p. 197</span>
       </div>
-      <div class="chapter-subtopics">GSDP / NSDP / PCI • 6th SFC Devolution (75.1% PRI) • IGNP &amp; ERCP/PKC • 20th Livestock Census • RIICO / RIPS 2024 / MSME Act 2019 • Pachpadra Refinery (9 MMTPA) • Solar Superpower (>20 GW) • MAAY &amp; Jan Soochna</div>
+      <div class="chapter-subtopics">2025–26 AE GSDP (₹18.75L Cr) / PCI (₹2.02L) • 6th SFC • IGNP &amp; ERCP/PKC • RIICO / RIPS 2024 • HRRL (9 MMTPA) • Solar #1 • Welfare &amp; Farmer Schemes</div>
     </div>
   </div>
 

@@ -23,22 +23,19 @@ Priority Sector Lending (PSL) serves as the Reserve Bank of India’s statutory 
 > • Under the RBI's revised directions for Urban Co-operative Banks (UCBs), the overall PSL target is **60% of ANBC / CEOBE** (moderated from the earlier transitional aspirational trajectory of 75% to align with operational feasibility across cooperative banks).  
 > • All PSL targets are calculated against **ANBC or CEOBE, whichever is higher**, as of the corresponding date of the preceding financial year.
 
-### 2. Eight Eligible Priority Sector Categories & Credit Ceilings
+### 2. Eight Eligible Priority Sector Categories & Credit Ceilings (RBI Directions 2025, Updated Jan 19, 2026)
 
-1. **Agriculture:**
-   - *Farm Credit:* Short-term crop loans, term loans for farm machinery and micro-irrigation.
-   - *Agriculture Infrastructure:* Bank credit up to **₹100 Crore per borrower** for cold storage units, warehouses, and silo facilities.
-   - *Ancillary Activities:* Credit up to **₹5 Crore per borrower** for Agri-clinics and Agri-business Centres (ACABC); loans up to **₹50 Crore** to Food and Agro-processing units.
-2. **Micro, Small and Medium Enterprises (MSMEs):** All bank lending to MSMEs meeting official composite criteria.
-3. **Export Credit:** Incremental export credit up to 2% of ANBC (subject to a cap of **₹40 Crore per borrower**) for domestic banks; foreign banks (<20 branches) up to 32% of ANBC.
-4. **Education:** Loans to individuals for educational purposes (both domestic and overseas studies) up to **₹20 Lakh**.
-5. **Housing:**
-   - *Metropolitan Centres (Population ≥ 10 Lakh):* Loans up to **₹35 Lakh** provided the overall cost of the dwelling unit does not exceed **₹45 Lakh**.
-   - *Other Centres:* Loans up to **₹25 Lakh** provided the overall cost of the dwelling unit does not exceed **₹30 Lakh**.
-   - *Repairs to damaged dwelling units:* Loans up to **₹10 Lakh in metropolitan centres** and up to **₹6 Lakh in other centres**.
-6. **Social Infrastructure:** Bank credit up to **₹5 Crore per borrower** for building schools, drinking water facilities, and sanitation infrastructure; loans up to **₹10 Crore per borrower** for health care facilities under Ayushman Bharat in Tier II to Tier VI centres.
-7. **Renewable Energy:** Loans up to **₹30 Crore per borrower** for solar/wind/biomass installations; individual household rooftop solar loans up to **₹10 Lakh per borrower**.
-8. **Others:** Loans not exceeding **₹1 Lakh per borrower** to distressed persons indebted to non-institutional lenders; loans to State Sponsored Organisations for SC/ST; loans to SHGs/JLGs.
+1. **Agriculture:** *Farm Credit* (crop loans, machinery); *Agri-Infrastructure* up to **₹100 Crore** per borrower (cold storages, warehouses); *Ancillary Activities* up to **₹5 Crore** (ACABC) and **₹50 Crore** for Food/Agro-processing units.
+2. **MSMEs:** All bank lending meeting official composite criteria.
+3. **Export Credit:** Incremental export credit up to 2% of ANBC (max **₹50 Crore** per borrower) for domestic banks; foreign banks (<20 branches) up to 32% of ANBC.
+4. **Education:** Loans to individuals (including vocational courses) up to **₹25 Lakh** per borrower (domestic and overseas).
+5. **Housing (Calibrated by Population Bands):**
+   - *Metro (Pop ≥ 50 Lakh):* Up to **₹50 Lakh** (dwelling cost ceiling **₹63 Lakh**); *Repairs:* up to **₹15 Lakh**.
+   - *Urban (Pop 10L–50L):* Up to **₹45 Lakh** (dwelling cost ceiling **₹57 Lakh**); *Repairs:* up to **₹12 Lakh**.
+   - *Other Centres (Pop < 10L):* Up to **₹35 Lakh** (dwelling cost ceiling **₹44 Lakh**); *Repairs:* up to **₹10 Lakh**.
+6. **Social Infrastructure:** Up to **₹8 Crore** per borrower for schools, drinking water, and sanitation; up to **₹12 Crore** per borrower for healthcare in Tier II–VI centres.
+7. **Renewable Energy:** Up to **₹35 Crore** per borrower for commercial project developers; individual household loans up to **₹10 Lakh**.
+8. **Others:** Loans up to **₹1 Lakh** to distressed persons indebted to non-institutional lenders; SHGs/JLGs.
 
 ### 3. Revised MSME Classification Criteria (Effective 1 April 2025)
 
@@ -76,6 +73,7 @@ The Ministry of Micro, Small and Medium Enterprises notified the **revised compo
 2. **Trap — Delayed Payment Penalty Rate:** The penal interest on delayed MSME payments is **3 times the RBI Bank Rate compounded monthly**, not simple interest and not linked to the Repo rate or MCLR.
 3. **Trap — Urban Co-operative Bank PSL Target:** In the 2025 regulatory framework, the overall PSL target for Primary Urban Co-operative Banks (UCBs) is **60% of ANBC**, not 75% or 40%.
 4. **Trap — Non-Achievement of PSL:** Shortfall in PSL is not retained as a fine by the RBI; it must be invested in **RIDF (NABARD)**, **SEDF (SIDBI)**, or **RHDF (NHB)** at yields significantly below market lending rates.
+5. **Trap — PSL Credit Ceilings (2025 Directions):** Education loan ceiling is **₹25 Lakh** (not ₹20 Lakh); Housing loans in Metros are eligible up to **₹50 Lakh** (dwelling cost ceiling **₹63 Lakh**); Social Infrastructure limit is **₹8 Crore** for schools/water and **₹12 Crore** for healthcare in Tier II–VI; Renewable Energy project cap is **₹35 Crore** (not ₹30 Crore).
 
 ---
 

@@ -53,7 +53,7 @@ In modern commercial banking, the **Integrated Treasury** consolidates domestic 
   - **Front Office:** Dealing room executing market trades.
   - **Mid Office:** Independent risk management unit monitoring Value at Risk (VaR), stop-loss limits, counterparty exposure limits, and ALM mismatches. Reports directly to the **Chief Risk Officer (CRO)**.
   - **Back Office:** Confirmation, settlement, accounting, and regulatory reporting to RBI.
-  - **Asset-Liability Committee (ALCO):** Apex operational and senior management committee chaired by the CEO/CMD (or Executive Director) that manages asset-liability mismatches, sets interest rate views, establishes liquidity buffers, and monitors funds transfer pricing, reporting functionally to the Board's Risk Management Committee (RMC).
+  - **Asset-Liability Committee (ALCO):** Senior management operational committee chaired by the CEO/CMD (or Executive Director) that manages asset-liability mismatches, liquidity buffers, and interest rate risk, reporting functionally to the Board's Risk Management Committee (RMC).
 
 ---
 
@@ -94,11 +94,12 @@ The SEBI (Merchant Bankers) (Amendment) Regulations, 2025 (effective 3 January 2
 
 | Category | Permissible Scope of Activities | Mandatory Minimum Net Worth | Mandatory Liquid Net Worth |
 | :--- | :--- | :--- | :--- |
-| **Category I** | • Can act as **Lead Manager to Public Issues (IPOs / FPOs / Rights)**.<br>• Underwriting of issues.<br>• Corporate financial advisory, capital restructuring, and M&A consultancy.<br>• Portfolio management services (subject to separate SEBI PMS registration). | **₹50 Crore**<br>*(Enhanced from legacy ₹5 Cr)* | **₹12.5 Crore**<br>*(25% of Net Worth)* |
-| **Category II** | • Can act as **adviser or consultant** to an issue.<br>• Can act as underwriter or portfolio manager.<br>• *Statutory Restriction:* **CANNOT act as Lead Manager** to an issue. | **₹10 Crore**<br>*(Enhanced from legacy ₹50 Lakh)* | **₹2.5 Crore**<br>*(25% of Net Worth)* |
+| **Category I** | • Can act as **Lead Manager to Public Issues (IPOs / FPOs / Rights)**.<br>• Underwriting of issues.<br>• Corporate financial advisory, capital restructuring, and M&A consultancy.<br>• Portfolio management services (subject to separate SEBI PMS registration). | **₹50 Crore**<br>*(Enhanced from obsolete legacy ₹5 Cr)* | **₹12.5 Crore**<br>*(25% of Net Worth)* |
+| **Category II** | • Can act as **adviser or consultant** to an issue.<br>• Can act as underwriter or portfolio manager.<br>• *Statutory Restriction:* **CANNOT act as Lead Manager** to an issue. | **₹10 Crore**<br>*(Enhanced from obsolete legacy ₹50 Lakh)* | **₹2.5 Crore**<br>*(25% of Net Worth)* |
 
-> **Phased Compliance for Existing Entities (SEBI Circular January 2026):**  
-> Existing registered merchant bankers are provided a structured transition glide path to augment their net worth to ₹50 Crore / ₹10 Crore, ensuring non-disruptive compliance while safeguarding public issue integrity.
+> **Implementation Timeline & Phased Compliance (SEBI Circulars Jan 2026 & June 2026 Extension):**  
+> • **New Applicants:** Must satisfy the full net worth and liquid net worth requirements immediately upon registration (Category I: ₹50 Crore / ₹12.5 Cr liquid; Category II: ₹10 Crore / ₹2.5 Cr liquid).  
+> • **Existing Registrants:** Subject to phased compliance under the structured transition glide path as amended by SEBI's June 2026 extension circular, giving existing players time to augment capital. The legacy ₹5 Crore threshold is an **obsolete historical figure** and must not be treated as current law.
 
 > **Crucial Regulatory Mandate:**  
 > Only a **Category I Merchant Banker** is legally permitted to act as the **Lead Manager** to an Initial Public Offering (IPO) or rights issue on an Indian stock exchange!

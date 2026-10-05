@@ -58,14 +58,17 @@ The Basel Committee on Banking Supervision (BCBS) formulated Basel III following
 
 ### 3. Prompt Corrective Action (PCA) Framework (RBI Framework Effective 1 Jan 2022)
 
-The RBI's **Prompt Corrective Action (PCA) Framework for Scheduled Commercial Banks** imposes structured, mandatory, and discretionary supervisory interventions based on four core performance indicators:
+The RBI's **Prompt Corrective Action (PCA) Framework for Scheduled Commercial Banks** (Circular dated 2 Nov 2021, effective 1 Jan 2022) monitors banks across three parameters: **Capital, Asset Quality, and Leverage**.
 
-| Core Indicator | Minimum Regulatory Baseline | Risk Threshold 1 | Risk Threshold 2 | Risk Threshold 3 |
+> **Regulatory Minimum vs. PCA Trigger Distinction:**  
+> The **Capital Conservation Buffer (CCB of 2.5%)** is an ongoing regulatory capital requirement, but the breach of CCB alone is NOT the PCA trigger. PCA risk thresholds are triggered when capital drops below the **prescribed minimum regulatory capital** (9.0% CRAR / 5.5% CET1) by specified basis points:
+
+| Parameter & Indicator | Regulatory Minimum Prescription | Risk Threshold 1 (Dividend Restrictions) | Risk Threshold 2 (Threshold 1 + Branch Curbs) | Risk Threshold 3 (Threshold 2 + Management Pay Curbs) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Capital: CRAR** | **11.5%**<br>*(9.0% Min + 2.5% CCB)* | Falls below 11.5% but **≥ 9.0%**<br>*(Up to 250 bps breach of CCB)* | Falls below 9.0% but **≥ 6.5%**<br>*(Breach of min CRAR up to 250 bps)* | Falls **below 6.5%**<br>*(Breach of min CRAR by > 250 bps)* |
-| **Capital: CET1 Ratio** | **8.0%**<br>*(5.5% Min + 2.5% CCB)* | Falls below 8.0% but **≥ 5.5%**<br>*(Up to 250 bps breach of CCB)* | Falls below 5.5% but **≥ 4.0%**<br>*(Breach of min CET1 up to 150 bps)* | Falls **below 4.0%**<br>*(Breach of min CET1 by > 150 bps)* |
-| **Asset Quality: Net NPA Ratio** | **< 6.0%** | **≥ 6.0% but < 9.0%** | **≥ 9.0% but < 12.0%** | **≥ 12.0%** |
-| **Leverage: Tier 1 Leverage Ratio** | **4.0%** for D-SIBs<br>**3.5%** for Other SCBs | • D-SIBs: Falls below 4.0% but **≥ 3.5%**<br>• Other: Falls below 3.5% but **≥ 3.0%**<br>*(Up to 50 bps breach)* | • D-SIBs: Falls **below 3.5%**<br>• Other: Falls **below 3.0%**<br>*(Breach by > 50 bps)* | *[No Threshold 3 prescribed for Leverage in RBI framework]* |
+| **CRAR (Total Capital)** | **9.0%**<br>*(11.5% with 2.5% CCB)* | **Up to 250 bps below** minimum CRAR<br>*(CRAR < 9.0% down to ≥ 6.5%)* | **> 250 bps but ≤ 400 bps below** minimum CRAR<br>*(CRAR < 6.5% down to ≥ 5.0%)* | **> 400 bps below** minimum regulatory CRAR<br>*(CRAR < 5.0%)* |
+| **Common Equity Tier 1 (CET1)** | **5.5%**<br>*(8.0% with 2.5% CCB)* | **Up to 162.5 bps below** minimum CET1<br>*(CET1 < 5.5% down to ≥ 3.875%)* | **> 162.5 bps but ≤ 312.5 bps below** minimum CET1<br>*(CET1 < 3.875% down to ≥ 2.375%)* | **> 312.5 bps below** minimum regulatory CET1<br>*(CET1 < 2.375%)* |
+| **Asset Quality (Net NPA Ratio)** | **< 6.0%** | **≥ 6.0% but < 9.0%** | **≥ 9.0% but < 12.0%** | **≥ 12.0%** |
+| **Tier 1 Leverage Ratio** | **3.5%** (Other SCBs)<br>**4.0%** (D-SIBs) | **Up to 50 bps below** regulatory minimum<br>*(3.0% to < 3.5% Other; 3.5% to < 4.0% D-SIBs)* | **> 50 bps but ≤ 100 bps below** regulatory minimum<br>*(2.5% to < 3.0% Other; 3.0% to < 3.5% D-SIBs)* | **> 100 bps below** regulatory minimum<br>*(< 2.5% Other; < 3.0% D-SIBs)* |
 
 > **Critical Supervisory Evolution:**  
 > • **Removal of RoA Trigger:** In the revised PCA framework, **Return on Assets (RoA) was officially removed** as a mandatory supervisory trigger.  
@@ -84,6 +87,7 @@ The RBI's **Prompt Corrective Action (PCA) Framework for Scheduled Commercial Ba
 3. **Trap — RoA in Revised PCA:** Return on Assets (RoA) is **NO LONGER a trigger** under the revised PCA framework for commercial banks.
 4. **Trap — Tier 2 Capital Cap:** Under Basel III, eligible Tier 2 capital is capped at a maximum of **2.0% of Risk-Weighted Assets (RWAs)**.
 5. **Trap — Current D-SIBs:** The three designated Domestic Systemically Important Banks in India are **SBI, HDFC Bank, and ICICI Bank**.
+6. **Trap — PCA Capital Trigger vs CCB:** The Capital Conservation Buffer (2.5%) is NOT by itself the PCA trigger. Risk Threshold 1 on CRAR triggers only when Total CRAR falls **below the minimum regulatory prescription of 9.0%** (up to 250 bps below, i.e., between 6.5% and 9.0%).
 
 ---
 

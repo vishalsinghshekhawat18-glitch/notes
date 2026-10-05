@@ -236,8 +236,8 @@ India measures inflation through two primary institutional indices: the **Consum
 ├───────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┤
 │ **[CURRENT 2024 Series Basket]** (HCES 2022–23 recalibrated): │ 1. **Manufactured Products: 64.23%**          │
 │ • **358 Weighted Items** (expanded for modern digital items)  │    (Chemicals, metals, machinery, food prod)  │
-│ • **Food and Beverages**: Lowered to ~39–41% (Engel's Law)    │ 2. **Primary Articles: 22.62%**               │
-│ • **Miscellaneous & Services**: Expanded to ~33–35%           │    (Food articles 15.26%, Non-food, Minerals) │
+│ • **Food and Beverages**: Exactly **36.753%** (Engel's Law)   │ 2. **Primary Articles: 22.62%**               │
+│ • **Miscellaneous & Services**: Expanded significantly        │    (Food articles 15.26%, Non-food, Minerals) │
 │ • **Housing & Utilities**: Re-indexed for urban-rural spread  │ 3. **Fuel and Power: 13.15%**                 │
 │                                                               │    (Coal, mineral oils, electricity)          │
 │ **[HISTORICAL 2012 Series Benchmark]** (Tested in PYQs):      │                                               │
@@ -257,7 +257,7 @@ India measures inflation through two primary institutional indices: the **Consum
 Following the recommendations of the **Dr. Urjit Patel Committee (2014)**, the Reserve Bank abandoned WPI and adopted **CPI (Combined)** as its nominal anchor for Flexible Inflation Targeting (FIT):
 1. **Omission of the Services Sector**: Services account for more than 50% of India's GDP, but WPI captures zero services. WPI completely excluded education, hospital bills, transit, and rents.
 2. **Citizen Reality**: Consumers do not buy goods at wholesale mandi rates or factory gates; they buy at local retail shops, paying retail markups and local indirect taxes.
-3. **Food Weight**: Food forms a major share of an average Indian citizen's consumption basket (`[HISTORICAL 2012]`: 45.86%; `[CURRENT 2024]`: ~39–41%; vs. only 24.38% total food in WPI). An inflation anchor must reflect the cost of living of the vulnerable.
+3. **Food Weight**: Food forms a major share of an average Indian citizen's consumption basket (`[HISTORICAL 2012]`: 45.86%; `[CURRENT 2024]`: **36.753%** across 358 items; vs. only 24.38% total food in WPI). An inflation anchor must reflect the cost of living of the vulnerable.
 4. **Statutory FIT Mandate for 2026–2031**: Under Section 45ZA of the RBI Act, 1934, the Central Government, in formal consultation with the RBI, retained the **4.0% Headline CPI target with a tolerance band of 2.0% to 6.0% (4% ± 2%)** for the quinquennium **1 April 2026 to 31 March 2031**.
 
 ---
@@ -336,7 +336,7 @@ $$\mathbf{\text{GDP Deflator}} = \frac{\mathbf{\text{Nominal GDP}}}{\mathbf{\tex
 CARD 1: Define Core Inflation and state why the RBI focuses on Headline CPI rather than Core CPI for its target.
 ANSWER:
 1. Core Inflation = Headline Inflation minus volatile Food and Fuel items.
-2. Why RBI targets Headline CPI: Food and beverages constitute a massive portion of household consumption (`[HISTORICAL 2012]`: 45.86%; `[CURRENT 2024]`: ~39–41%).
+2. Why RBI targets Headline CPI: Food and beverages constitute a massive portion of household consumption (`[HISTORICAL 2012]`: 45.86%; `[CURRENT 2024]`: 36.753%).
 Food inflation directly anchors household inflation expectations and living costs in India.
 Ignoring food would disconnect the central bank's policy target (4% ± 2%, locked for 2026–31) from the lived reality of the populace.
 ```
@@ -355,6 +355,6 @@ a vertical line at NAIRU, meaning monetary expansion generates higher inflation 
 CARD 3: Detail the three key structural differences between the Consumer Price Index (Combined) and the Wholesale Price Index (WPI).
 ANSWER:
 1. Scope: CPI covers both Goods and Services; WPI covers Goods ONLY (zero services).
-2. Basket Dominance: CPI is dominated by Food and Beverages (`[HISTORICAL 2012]`: 45.86%, 299 items; `[CURRENT 2024]`: ~39–41%, 358 items); WPI is dominated by Manufactured Products (64.23%, 697 items).
+2. Basket Dominance: CPI is dominated by Food and Beverages (`[HISTORICAL 2012]`: 45.86%, 299 items; `[CURRENT 2024]`: 36.753%, 358 items); WPI is dominated by Manufactured Products (64.23%, 697 items).
 3. Institutional Origin: CPI is published monthly by NSO (MoSPI, Base 2024 / Base 2012); WPI is published monthly by the Office of Economic Adviser (DPIIT, Ministry of Commerce & Industry, Base 2011–12).
 ```

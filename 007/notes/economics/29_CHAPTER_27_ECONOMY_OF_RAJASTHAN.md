@@ -17,24 +17,25 @@ The economy of Rajasthan constitutes India's largest state by geographical area 
 
 ```
 ┌─────────────────────────────────┬───────────────────────────────────┬───────────────────────────────────┐
-│ Macro Aggregate                 │ Constant Prices (Base 2011–12)    │ Current Prices                    │
+│ Macro Aggregate [2025–26 AE]    │ Constant Prices (Base 2011–12)    │ Current Prices                    │
 ├─────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ **Gross State Domestic Product** │ **~₹8.5 Lakh Crore**              │ **~₹16.0 Lakh Crore**             │
-│ **(GSDP)**                      │ Real economic output growth ~7.5% │ Nominal growth ~11-12%            │
+│ **Gross State Domestic Product** │ **₹9,82,000 Crore**               │ **₹18,75,413 Crore**              │
+│ **(GSDP)**                      │ Real economic growth **8.66%**    │ Nominal growth **10.24%**         │
 ├─────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ **Net State Domestic Product**  │ GSDP minus Consumption of Fixed   │ Real output minus depreciation    │
-│ **(NSDP)**                      │ Capital (Depreciation).           │ at current market valuation.      │
+│ **Net State Domestic Product**  │ **₹8,74,520 Crore**               │ **₹16,84,310 Crore**              │
+│ **(NSDP)**                      │ GSDP minus Consumption of Fixed   │ Real output minus depreciation    │
+│                                 │ Capital (Depreciation).           │ at current market valuation.      │
 ├─────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ **Per Capita Income (PCI)**     │ **~₹90,000 – ₹92,000**            │ **~₹1,65,000 – ₹1,70,000**        │
-│                                 │ (Benchmark for State prosperity)  │ (Reflects nominal standard)       │
+│ **Per Capita Income (PCI)**     │ **₹1,02,154**                     │ **₹2,02,349**                     │
+│                                 │ (Benchmark for State prosperity)  │ (Reflects nominal living standard)│
 └─────────────────────────────────┴───────────────────────────────────┴───────────────────────────────────┘
 ```
 
-### Sectoral Composition of Gross State Value Added (GSVA):
+### Sectoral Composition of Gross State Value Added (GSVA) [2025–26 AE]:
 Unlike the national macroeconomic profile (where Services account for >53%), Rajasthan presents a unique, resilient tripartite balance:
-1. **Services Sector (~45–46%)**: Tourism, trade, hospitality, real estate, transportation, public administration, financial services.
-2. **Agriculture & Allied Sector (~27–28%)**: Crop production, livestock (dairy, wool), forestry, fisheries. Displays high inter-annual volatility due to monsoon dependence.
-3. **Industry Sector (~26–27%)**: Manufacturing, mining and quarrying, construction, electricity, gas, and water supply.
+1. **Services Sector (47.71% at Current Prices / 44.82% at Constant Prices)**: Tourism, trade, hospitality, real estate, transportation, communication, and public administration.
+2. **Industry Sector (26.55% at Current Prices / 27.98% at Constant Prices)**: Manufacturing, mining and quarrying, construction, electricity, gas, and water supply.
+3. **Agriculture & Allied Sector (25.74% at Current Prices / 27.20% at Constant Prices)**: Crop production, livestock (dairy, wool), forestry, and fisheries. Displays monsoon-related cyclical swings.
 
 ---
 
@@ -255,6 +256,57 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
   * Unified "One Number, One Card, One Identity" family card serving as the universal database for delivering direct benefit transfers (DBT) and subsidized public services in Rajasthan.
 * **Raj-Kaj Platform**:
   * Unified enterprise e-office platform automating digital file movement and administrative governance across all State Secretariats.
+
+### 3. Consolidated Matrix: Flagship Social Welfare Schemes (RAS Direct Recall):
+```
+┌─────────────────────────────────┬────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│ Scheme Name                     │ Nodal Department           │ Statutory Entitlement & Operational Mechanism               │
+├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Mukhya Mantri Ayushman**      │ Medical, Health & Family   │ • Cashless secondary and tertiary hospitalization coverage  │
+│ **Arogya Yojana (MAAY)**        │ Welfare                    │   in empaneled public and private healthcare facilities.    │
+├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Nishulk Dawa & Janch Yojana** │ Medical & Health           │ • 100% free supply of essential medicines and OPD/IPD       │
+│                                 │                            │   diagnostic tests across all State public hospitals.       │
+├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Indira Gandhi Shahari Rozgar**│ Local Self Government      │ • Guaranteed **125 days of unskilled wage employment**      │
+│ **Guarantee (IRGY-Urban)**      │ (LSG)                      │   annually for adult urban job seekers (modeled on MGNREGA).│
+├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Palanhar Yojana**             │ Social Justice &           │ • Monthly foster assistance for orphans and destitute kids: │
+│                                 │ Empowerment (SJED)         │   **₹1,500/month** (0–6 years); **₹2,500/month** (6–18 yrs) │
+│                                 │                            │   plus ₹2,000 annual clothing and educational allowance.    │
+├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Mukhyamantri Vridhjan & Ekal**│ Social Justice &           │ • Monthly pension (**minimum ₹1,150/month**) with statutory │
+│ **Nari Samman Pension**         │ Empowerment (SJED)         │   **15% automatic annual indexation** (mandated by Act).    │
+├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Mukhyamantri Kanyadan**       │ Social Justice &           │ • Marriage grant: **₹31,000 to ₹51,000** for girls from     │
+│ **(Hathleva) Yojana**           │ Empowerment (SJED)         │   BPL, SC, ST, and minority families upon reaching 18 years.│
+└─────────────────────────────────┴────────────────────────────┴─────────────────────────────────────────────────────────────┘
+```
+
+### 4. Consolidated Matrix: Flagship Farmer & Rural Welfare Schemes (RAS / ARD Recall):
+```
+┌─────────────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────┐
+│ Agricultural / Rural Scheme     │ Statutory Mechanism, Subsidy Anchor & Operational Outreach                              │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤
+│ **PM-KUSUM (Components A & C)** │ • **Component A**: 2 MW grid-tied solar plants on barren farm lands (SKAY portal).      │
+│ **& Saur Krishi Ajeevika (SKAY)**│ • **Component C**: Solarization of dedicated agricultural feeder lines. Rank #1 nation. │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤
+│ **Mukhya Mantri Kisan Mitra**   │ • Direct energy subsidy of **₹1,000 per month** (up to **₹12,000 per year**) credited   │
+│ **Urja Yojana**                 │   directly against monthly electricity bills of metered agricultural power connections. │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤
+│ **Mukhya Mantri Dugdh Utpadak** │ • Direct cash incentive of **₹5 per liter of milk** poured by livestock owners into     │
+│ **Sambal Yojana**               │   cooperative dairy societies affiliated with RCDF ("Saras" Dairy network).            │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤
+│ **Tarbandi (Farm Fencing)**     │ • **50% to 60% capital subsidy** (up to ₹40,000 – ₹48,000 for 400 running meters) to    │
+│ **Yojana**                      │   safeguard standing food and cash crops from stray cattle and wild nilgai damage.       │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤
+│ **Micro-Irrigation Mission**    │ • **70% to 75% subsidy** on Drip and Sprinkler installations for small/marginal/women   │
+│ **(Drip & Sprinkler Subsidy)**  │   farmers. Compulsory by statutory regulation in the Narmada Canal Project command.     │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤
+│ **Mukhya Mantri Beej**          │ • Free distribution of certified seed minikits of high-yielding drought-hardy varieties│
+│ **Swavalamban Yojana**          │   (Bajra, Moong, Moth, Mustard) to small and marginal farmers to achieve seed autonomy. │
+└─────────────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 

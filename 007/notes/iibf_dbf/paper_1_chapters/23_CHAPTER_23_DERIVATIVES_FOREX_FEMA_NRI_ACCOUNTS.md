@@ -118,7 +118,7 @@ C. Theta
 D. Vega  
 
 **Q4. [PYQ-RECOLLECTED] Consider the following statements regarding Non-Resident Indian deposit accounts:**  
-Statement I: Interest income earned on an NRE fixed deposit account is 100% exempt from Indian Income Tax under Section 10(4) of the Income Tax Act.  
+Statement I: Interest income earned on an NRE fixed deposit account is 100% exempt from Indian Income Tax (Income-tax Act, 2025 / legacy Section 10(4) of the 1961 Act).  
 Statement II: Capital funds held in an NRO account can be repatriated overseas up to a statutory ceiling of $1 Million USD per financial year.  
 Which of the statements given above is/are correct?  
 A. Statement I only  

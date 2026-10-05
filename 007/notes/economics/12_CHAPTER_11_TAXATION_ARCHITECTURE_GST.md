@@ -169,15 +169,15 @@ Since the Finance Act, 2020 (and preserved as the core baseline under the Income
 ---
 
 ### 2. Corporate Income Tax (CIT) & The 2019 Historic Slash
-Prior to September 2019, India's headline corporate tax rate was among the highest in emerging Asia (~30% base + surcharge + cess $\approx 34.94\%$). Via the *Taxation Laws (Amendment) Act, 2019*, India executed a historic supply-side corporate tax slash to revive private capex:
+Prior to September 2019, India's headline corporate tax rate was among the highest in emerging Asia (~30% base + surcharge + cess $\approx 34.94\%$). Via the *Taxation Laws (Amendment) Act, 2019*, India executed a historic supply-side corporate tax slash to revive private capex (preserved and codified under the Income-tax Act, 2025):
 
-* **Section 115BAA (Existing Domestic Companies)**:
+* **Standard Concessional Corporate Regime [1961 Act §115BAA $\longrightarrow$ Codified in Income-tax Act, 2025] (Domestic Companies)**:
   * Base tax rate slashed to **22%**.
   * Surcharge fixed at **10%** and Health & Education Cess at **4%**.
   * **Effective Tax Rate = 25.17%** ($22 \times 1.10 \times 1.04$).
   * Condition: The company must forego all specific tax incentives, holidays, and accelerated depreciation.
-* **Section 115BAB (New Domestic Manufacturing Companies)**:
-  * For new manufacturing companies incorporated on or after 1st October 2019 (sunset extended to 31st March 2024).
+* **New Manufacturing Regime [1961 Act §115BAB $\longrightarrow$ Sunset 31 March 2024]**:
+  * For new manufacturing companies incorporated on or after 1st October 2019 (sunset on 31st March 2024).
   * Base tax rate slashed to **15%**.
   * **Effective Tax Rate = 17.16%** ($15 \times 1.10 \times 1.04$).
   * Placed India's corporate tax on par with ASEAN hubs (Singapore, Vietnam, Thailand).
@@ -186,13 +186,13 @@ Prior to September 2019, India's headline corporate tax rate was among the highe
 
 ### 3. Minimum Alternate Tax (MAT) & Alternate Minimum Tax (AMT)
 * **The "Zero-Tax Company" Hazard**: Many profitable corporations used legal deductions, depreciation shields, and tax holidays under the Income Tax Act to reduce their taxable income to zero, paying zero tax despite declaring large accounting profits and paying fat dividends to shareholders.
-* **Mechanism of MAT (Section 115JB)**:
+* **Mechanism of MAT [1961 Act §115JB $\longrightarrow$ Codified in Income-tax Act, 2025]**:
   * Introduced to ensure every corporate entity pays a baseline minimum tax on its **Book Profit** (profits calculated as per the Companies Act, 2013).
   * Current MAT rate: **15%** of book profits (plus applicable surcharge and cess).
   * If tax under normal income tax provisions is less than 15% of book profits, the company pays MAT.
   * **MAT Credit**: The excess of MAT paid over normal tax can be carried forward and set off against future normal tax liability for up to **15 assessment years**.
-  * **Critical Exam Rule**: MAT is **NOT applicable** to companies that opt for the new concessional corporate tax regimes under Section 115BAA or Section 115BAB!
-* **Alternate Minimum Tax (AMT - Section 115JC)**: Applies MAT principles to non-corporate entities (LLPs, firms, associations of persons) at **15%** of adjusted total income.
+  * **Critical Exam Rule**: MAT is **NOT applicable** to companies that opt for the concessional corporate tax regimes (such as 1961 Act §115BAA / §115BAB or their 2025 Act codifications)!
+* **Alternate Minimum Tax [1961 Act §115JC $\longrightarrow$ Codified in Income-tax Act, 2025]**: Applies MAT principles to non-corporate entities (LLPs, firms, associations of persons) at **15%** of adjusted total income.
 
 ---
 
@@ -214,7 +214,8 @@ Capital gains arise from the transfer/sale of a capital asset (shares, real esta
 ├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
 │ • **Listed Equity / Equity Mutual Funds**:    │ • **Listed Equity / Equity Mutual Funds**:    │
 │   - Holding period: $\le 12 \text{ months}$.  │   - Holding period: $> 12 \text{ months}$.    │
-│   - Tax Rate: **20%** under Section 111A      │   - Tax Rate: **12.5%** under Section 112A    │
+│   - Tax Rate: **20%** [1961 Act §111A         │   - Tax Rate: **12.5%** [1961 Act §112A       │
+│     $\longrightarrow$ Codified in 2025 Act]   │     $\longrightarrow$ Codified in 2025 Act]   │
 │     (raised from 15% in Budget 2024).         │     (raised from 10% in Budget 2024).         │
 │                                               │   - **Exemption Threshold**: LTCG up to       │
 │                                               │     **₹1.25 Lakh per year is exempt**         │
@@ -242,17 +243,17 @@ Capital gains arise from the transfer/sale of a capital asset (shares, real esta
 * Expanded in 2020 to **2%** on foreign e-commerce operators supplying goods or services to Indian residents.
 * **Reform**: Phased out / repealed in the Finance Act, 2024 as India transitions toward the **OECD Two-Pillar Solution** (Pillar 1: reallocating taxing rights; Pillar 2: 15% Global Minimum Corporate Tax).
 
-#### C. The Abolition of the "Angel Tax" (Budget 2024):
-* **Section 56(2)(viib)** of the Income Tax Act (introduced in 2012) treated funds raised by unlisted startups from investors in excess of "Fair Market Value" (FMV) as taxable "income from other sources".
+#### C. The Abolition of the "Angel Tax" [1961 Act §56(2)(viib) $\longrightarrow$ Fully Abolished in Budget 2024 / Excluded in 2025 Act]:
+* **Section 56(2)(viib)** of the 1961 Act (introduced in 2012) treated funds raised by unlisted startups from investors in excess of "Fair Market Value" (FMV) as taxable "income from other sources".
 * Stifled early-stage venture funding and caused severe tax disputes.
 * **Union Budget 2024–25 completely abolished Angel Tax for all classes of investors**, unlocking risk capital for the Indian startup ecosystem.
 
-#### D. General Anti-Avoidance Rule (GAAR):
-* Introduced under Chapter X-A of the IT Act (operational from 1st April 2017) based on the **Parthasarathi Shome Committee**.
+#### D. General Anti-Avoidance Rule (GAAR) [1961 Act Chapter X-A $\longrightarrow$ Codified in Income-tax Act, 2025]:
+* Introduced under Chapter X-A of the 1961 Act (operational from 1st April 2017) based on the **Parthasarathi Shome Committee** and preserved in the 2025 Act.
 * Empowers tax authorities to declare any commercial arrangement as an **"Impermissible Avoidance Arrangement" (IAA)** if its primary purpose was obtaining a tax benefit and it lacks commercial substance (e.g., routing round-tripped black money through treaty-shopping tax havens like Mauritius or Cayman Islands).
 
-#### E. Place of Effective Management (PoEM - Section 6(3)):
-* **Statutory Determination of Corporate Residency**: A foreign company is treated as an Indian tax resident if its Place of Effective Management is situated in India during the previous financial year.
+#### E. Place of Effective Management (PoEM) [1961 Act §6(3) $\longrightarrow$ Codified in Income-tax Act, 2025]:
+* **Statutory Determination of Corporate Residency**: A foreign company is treated as an Indian tax resident if its Place of Effective Management is situated in India during the relevant financial year.
 * **Legal Definition**: PoEM means the place where key commercial and management decisions necessary for the conduct of the business of an entity as a whole are, in substance, made.
 * **The "Active Business Outside India" (ABOI) Test**:
   - A company qualifies as ABOI if its passive income (dividends, interest, royalties, capital gains) is $\le 50\%$ of total income, AND less than 50% of its total assets, employees, or payroll are situated in India.

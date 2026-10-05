@@ -28,10 +28,10 @@ The Capital Market provides long-term debt and equity financing for corporations
 | **Follow-on Public Offering (FPO)** | An already listed company issuing additional fresh equity shares to the public. | General public and institutions. |
 | **Rights Issue** | An issue of shares offered to **existing shareholders** in proportion to their existing holding as on a record date. | Existing shareholders; rights entitlements can be renounced in favor of third parties. |
 | **Bonus Issue** | Capitalization of free reserves into fully paid-up additional shares issued free of cost to existing shareholders. | Existing equity holders; share capital expands while net worth remains unchanged. |
-| **Qualified Institutional Placement (QIP)** | Private placement of equity shares or convertible securities by a listed company to **Qualified Institutional Buyers (QIBs)**. | Fast-track institutional route allotted exclusively to **Qualified Institutional Buyers (QIBs) as defined under SEBI ICDR Regulations** (including Mutual Funds, Insurance Companies, FPIs, Scheduled Commercial Banks, AIFs, and PF/Pension funds); no retail participation. |
+| **Qualified Institutional Placement (QIP)** | Private placement of equity shares or convertible securities by a listed company to **Qualified Institutional Buyers (QIBs)**. | Fast-track institutional route allotted exclusively to **Qualified Institutional Buyers (QIBs)** as defined under SEBI ICDR Regulations (illustrative eligible categories include Mutual Funds, Insurance Companies, registered FPIs, Scheduled Commercial Banks, AIFs, and Pension Funds); retail investors are not eligible. |
 | **Offer for Sale (OFS)** | Fast-track bidding window on the stock exchange for promoters or large shareholders to dilute equity holdings. | General public and institutions to comply with minimum 25% public shareholding norms. |
 
-• **Applications Supported by Blocked Amount (ASBA):** Mandatory application mechanism for public issues (IPOs/FPOs) and applicable rights issues. The application funds **remain in the investor's own bank account (lien marked)** via Self-Certified Syndicate Banks (SCSBs), continuing to earn interest, and are debited only upon successful allotment of shares.  
+• **Applications Supported by Blocked Amount (ASBA):** Prescribed blocked-funds mechanism for relevant public issue categories (IPOs/FPOs) and designated rights issues. The application funds **remain in the investor's own bank account (lien marked)** via Self-Certified Syndicate Banks (SCSBs), continuing to earn interest, and are debited only upon successful allotment of shares.  
 • **T+1 Rolling Settlement:** India was the first major global economy to transition 100% of equity trades to **T+1 rolling settlement** (trades settle within 24 hours).
 
 ---
@@ -39,7 +39,7 @@ The Capital Market provides long-term debt and equity financing for corporations
 ## § 22.2 Unit 32: Fixed Income Markets
 
 > **Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 32)**  
-> **Core Proposition:** Fixed income markets establish the sovereign yield curve through G-Secs, SDLs, and SGBs. Yield-to-Maturity and Duration govern interest rate risk, valued under FBIL benchmark curves and FIMMDA market conventions. Retail participation is enabled via the RBI Retail Direct Scheme, while corporate short-term funding includes Inter-Corporate Deposits (ICDs).
+> **Core Proposition:** Fixed income markets establish the sovereign yield curve through G-Secs, SDLs, and SGBs. Yield-to-Maturity and Duration govern interest rate risk, valued under official **FBIL benchmark curves** alongside **FIMMDA market conventions**. Retail participation is enabled via the RBI Retail Direct Scheme, while corporate short-term funding includes Inter-Corporate Deposits (ICDs).
 
 ### 1. Sovereign Debt Instruments: G-Secs, SDLs & SGBs
 

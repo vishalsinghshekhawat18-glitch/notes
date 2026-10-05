@@ -252,8 +252,12 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
    $$\text{Target}: \quad \text{Reach Fiscal Deficit } \mathbf{< 4.5\% \text{ of GDP by FY 2025–26}} \quad \implies \text{Achieved at 4.4\% in FY 2025–26}$$
 
 3. **Layer 3: Current Union Budget 2026–27 Macro Strategy & Debt Anchor**:
-   * **Transition to Debt-Stabilizing Framework**: Commencing FY 2026–27, sovereign fiscal policy transitions from targeting rigid annual nominal deficit ratios to a **Declining Sovereign Debt-to-GDP Anchor** (targeting Central Government debt reduction toward $50\%$ of GDP over the medium term).
-   * **FY 2026–27 Fiscal Deficit Target**: Budgeted at **4.1% of GDP**, supported by capex-led public investment and robust direct-tax buoyancy, continuing structural fiscal consolidation without triggering growth-depressing fiscal drag.
+   * **Transition to Debt-Stabilizing Framework**: Commencing FY 2026–27, sovereign fiscal policy transitions from targeting rigid annual nominal deficit ratios to a **Declining Sovereign Debt-to-GDP Anchor** (targeting Central Government debt reduction toward **50 ± 1% of GDP by FY 2030–31**).
+   * **Union Budget 2026–27 (Budget Estimates - BE) Parameters**:
+     * **Fiscal Deficit**: Budgeted at **4.3% of GDP** (continuing post-COVID structural consolidation from 4.4% in FY 2025–26).
+     * **Revenue Deficit**: Budgeted at **1.5% of GDP**.
+     * **Primary Deficit**: Budgeted at **0.7% of GDP**.
+     * **Central Government Debt**: Positioned at **55.6% of GDP**, anchored to glide down toward $50 \pm 1\%$ over the five-year horizon.
 
 ---
 
@@ -320,7 +324,7 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
 * **FRBM & N.K. Singh (2017)**:
   * Debt Anchor: **60% of GDP** (40% Center, 20% States).
   * Post-COVID Glide Path: **Target < 4.5% by FY 2025–26 (Achieved at 4.4%)**.
-  * Union Budget 2026–27 Anchor: **4.1% of GDP**, shifting to medium-term debt reduction ($\le 50\%$ Central Debt/GDP).
+  * Union Budget 2026–27 (BE): **Fiscal Deficit 4.3% of GDP** (RD 1.5%, PD 0.7%, Central Debt 55.6%); Medium-term debt anchor: **50 ± 1% by FY 2030–31**.
 
 ---
 
