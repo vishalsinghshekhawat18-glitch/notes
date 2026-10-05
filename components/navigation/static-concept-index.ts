@@ -3783,7 +3783,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,022 words • 5 min read"
+    "badge": "1,071 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-2",
@@ -3798,7 +3798,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
       "concept": "§ 20.1 Unit 39: MSME Classification & Statutory Safeguards"
     },
-    "badge": "381 words"
+    "badge": "430 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-3",

@@ -1266,6 +1266,18 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
           } else if (chNum === 27) {
             category = 'Paper 1 · Capstone Master Revision Vault';
           }
+        } else if (dirName === 'paper_2_chapters') {
+          if (chNum >= 1 && chNum <= 12) {
+            category = 'Paper 2 · Module A: General Banking Operations';
+          } else if (chNum >= 13 && chNum <= 23) {
+            category = 'Paper 2 · Module B: Functions of Banks';
+          } else if (chNum >= 24 && chNum <= 27) {
+            category = 'Paper 2 · Module C: Banking Technology';
+          } else if (chNum >= 28 && chNum <= 29) {
+            category = 'Paper 2 · Module D: Ethics in Banks & Financial Institutions';
+          } else if (chNum === 30) {
+            category = 'Paper 2 · Capstone Master Revision Vault';
+          }
         }
 
         const title = extractTitleFromMarkdown(content, shortTitle);

@@ -227,18 +227,18 @@ ECGC provides credit insurance covers to banks and direct exporters to mitigate 
 
 | Enterprise Category | Investment in Plant & Machinery / Equipment | Annual Turnover Limit | Calculation Basis / Data Source |
 | --- | --- | --- | --- |
-| Micro Enterprise | Does NOT exceed **₹1 Crore** | Does NOT exceed **₹5 Crore** | Linked to ITR & GSTN. Exports excluded from turnover calculation. |
-| Small Enterprise | Does NOT exceed **₹10 Crore** | Does NOT exceed **₹50 Crore** | Linked to ITR & GSTN. Exports excluded from turnover calculation. |
-| Medium Enterprise | Does NOT exceed **₹50 Crore** | Does NOT exceed **₹250 Crore** | Linked to ITR & GSTN. Exports excluded from turnover calculation. |
+| Micro Enterprise | Does NOT exceed **₹2.50 Crore** | Does NOT exceed **₹10.00 Crore** | Linked to ITR & GSTN. Exports excluded from turnover calculation. |
+| Small Enterprise | Does NOT exceed **₹25.00 Crore** | Does NOT exceed **₹100.00 Crore** | Linked to ITR & GSTN. Exports excluded from turnover calculation. |
+| Medium Enterprise | Does NOT exceed **₹125.00 Crore** | Does NOT exceed **₹500.00 Crore** | Linked to ITR & GSTN. Exports excluded from turnover calculation. |
 
-## 🛡️ 3. Credit Guarantee Fund Trust for Micro & Small Enterprises (CGTMSE)
+## 3. Credit Guarantee Fund Trust for Micro & Small Enterprises (CGTMSE)
 
 • **Jointly Set Up By:** Ministry of MSME, Govt of India and **SIDBI** (Ratio 4:1).
-• **Maximum Credit Cap:** Collateral-free credit facility up to **₹500 Lakhs (₹5 Crores)** per eligible borrower.
-• **Guarantee Coverage Slabs:**.
+• **Maximum Credit Cap:** Collateral-free credit facility up to **₹1,000 Lakhs (₹10 Crores)** per eligible borrower.
+• **Guarantee Coverage Slabs:**
 • • **Micro Enterprises up to ₹5 Lakhs:** Up to **85%** guarantee cover.
 • • **Women Entrepreneurs / SC-ST / Aspirational Districts / ZED units:** Up to **85%** guarantee cover.
-• • **General Category (Loans > ₹5 Lakhs up to ₹500 Lakhs):** Up to **75%** guarantee cover.
+• • **General Category (Loans up to ₹1,000 Lakhs):** Up to **75%** guarantee cover.
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Top Exam Traps on PSL & MSME:

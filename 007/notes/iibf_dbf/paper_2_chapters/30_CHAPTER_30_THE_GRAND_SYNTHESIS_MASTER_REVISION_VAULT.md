@@ -110,7 +110,7 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 +-------------------------------+------------------------------------+-------------------------------------+
 | **32: MSME Architecture**     | MSMED Act 2006 (Revised Criteria   | Micro: <= ₹2.5 Cr Inv / ₹10 Cr Turn;|
 |                               | effective April 1, 2025); CGTMSE   | Small: ₹25 Cr / ₹100 Cr; Medium:    |
-|                               |                                    | ₹125 Cr / ₹500 Cr; CGTMSE: ₹5 Cr;   |
+|                               |                                    | ₹125 Cr / ₹500 Cr; CGTMSE: ₹10 Cr;  |
 |                               |                                    | Delayed payment: 3x Bank Rate comp. |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **33: Government Schemes**    | PMMY (MUDRA); DAY-NRLM             | Shishu <= ₹50k; Kishore ₹50k-₹5L;   |

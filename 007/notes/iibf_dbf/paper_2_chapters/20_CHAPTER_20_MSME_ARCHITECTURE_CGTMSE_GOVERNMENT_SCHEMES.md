@@ -28,10 +28,11 @@ Micro, Small and Medium Enterprises (MSMEs) drive industrial output, exports, an
 
 • **Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE):**
   - Jointly set up by Ministry of MSME and SIDBI.
-  - Provides credit guarantee coverage up to **₹5 Crore** per borrower without requiring collateral or third-party guarantees.
-  - Guarantee cover extends from 75% to 85% depending on borrower category (higher for women, SC/ST, and aspirational districts).
+  - Provides credit guarantee coverage up to **₹10 Crore** per borrower without requiring collateral or third-party guarantees.
+  - Guarantee cover extends up to 85% for micro enterprises (loans up to ₹5 Lakh), women entrepreneurs, SC/ST, and aspirational districts; 75% for general category MSEs up to ₹10 Crore (and up to 90% for select special initiatives).
 • **Trade Receivables Discounting System (TReDS):**
   - Electronic institutional platform authorized by RBI to facilitate financing/discounting of trade receivables of MSMEs from corporate buyers and PSUs through multiple financiers.
+  - **Operator Net Worth:** Entities setting up and operating a TReDS platform must have a minimum paid-up equity capital / net worth of **₹25 Crore** as mandated by the RBI.
   - **Non-Recourse Factoring:** Discounting on TReDS is strictly **without recourse to the MSME seller**; the financier assumes credit risk directly on the corporate buyer.
 
 ---

@@ -178,6 +178,15 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check CGTMSE ₹10 Crore & TReDS ₹25 Crore in Ch 20
+  const ch20Text = fs.readFileSync(path.join(chaptersDir, '20_CHAPTER_20_MSME_ARCHITECTURE_CGTMSE_GOVERNMENT_SCHEMES.md'), 'utf-8');
+  if (ch20Text.includes('₹10 Crore') && ch20Text.includes('₹25 Crore')) {
+    console.log(`  ✓ High-Risk Finding Verified: CGTMSE collateral-free guarantee up to ₹10 Crore & TReDS operator net worth ₹25 Crore codified in Chapter 20.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: CGTMSE ₹10 Crore or TReDS ₹25 Crore missing in Chapter 20.`);
+    dataCheckPass = false;
+  }
+
   if (dataCheckPass) {
     passedGates++;
   }
