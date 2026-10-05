@@ -27,13 +27,14 @@ jobs:
       - name: Generate Prisma, Seed SQLite & Build Next.js Static Export
         run: |
           npx prisma generate
-          npx prisma db push --skip-generate
+          npx prisma db push --skip-generate --accept-data-loss
           npx tsx scripts/seed-all.ts
           npx next build
           touch out/.nojekyll
         env:
           GITHUB_ACTIONS: "true"
           DATABASE_URL: "file:./dev.db"
+          NODE_OPTIONS: "--max-old-space-size=4096"
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
