@@ -49,9 +49,9 @@ Contracts of indemnity and guarantee are core risk-mitigation structures in comm
 │    • The agreed grace period following the validity date within which the   │
 │      beneficiary must formally lodge a written demand on the bank.          │
 │    • Exception 3 to Section 28 of the Indian Contract Act: Permits banks to │
-│      stipulate a condition that the guarantee shall be discharged unless a  │
-│      claim is lodged within a specified period of NOT LESS THAN ONE (1)     │
-│      YEAR from the expiry of validity.                                      │
+│      stipulate a condition extinguishing rights or discharging liability if │
+│      no claim is lodged within a specified period of NOT LESS THAN ONE (1)  │
+│      YEAR from the date of occurring or non-occurring of a specified event. │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 3. STATUTORY LIMITATION PERIOD (LIMITATION ACT, 1963):                      │
 │    • The timeframe within which a beneficiary can file a legal suit in court│
@@ -94,5 +94,5 @@ D. The guarantor can be sued only after the extended period expires
 ## § 16.4 Answer Key & Detailed Explanatory Rationale
 
 • **Q1 — Answer: B.** Under Section 128, the liability of the surety is **co-extensive** with that of the principal debtor unless contractually limited. The creditor bank is under no legal obligation to exhaust remedies or obtain an execution against the borrower before proceeding against the guarantor (*Bank of Bihar v. Damodar Prasad*).  
-• **Q2 — Answer: C.** Exception 3 to Section 28 of the Indian Contract Act permits bank guarantees to contain an extinguishment clause, provided the period for lodging a claim is **not less than one (1) year** from the date of occurrence of the specified event/expiry.  
+• **Q2 — Answer: C.** Exception 3 to Section 28 of the Indian Contract Act permits bank guarantees to contain an extinguishment or discharge stipulation, provided the period for lodging a claim is **not less than one (1) year** from the date of occurring or non-occurring of a specified event.  
 • **Q3 — Answer: B.** Under Section 135, an agreement between the creditor and the principal debtor to give time or compound the debt without the surety's consent **discharges the surety**, because it impairs the surety's eventual remedy against the debtor.

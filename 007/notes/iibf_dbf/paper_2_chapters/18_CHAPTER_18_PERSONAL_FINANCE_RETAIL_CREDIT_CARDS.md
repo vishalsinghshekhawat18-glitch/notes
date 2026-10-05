@@ -11,9 +11,9 @@ Retail lending has expanded into a primary asset engine for commercial banks, ch
 
 ### 1. Master Home Loan Prudential Framework (RBI LTV Caps)
 
-| Individual Housing Loan Slab | Maximum Permissible Loan-to-Value (LTV) Ratio | Minimum Borrower Margin | Standard Risk Weight |
+| Individual Housing Loan Slab | Maximum Permissible Loan-to-Value (LTV) Ratio | Minimum Borrower Margin | Prudential Risk Weight |
 | :--- | :--- | :--- | :--- |
-| **Up to ₹30 Lakh** | **Up to 90%** (if LTV $\le$ 80%) / **80%** (if LTV > 80% $\le$ 90%) | 10% to 20% | 35% |
+| **Up to ₹30 Lakh** | **Up to 90%** | 10% (for LTV > 80%) / 20% (for LTV $\le$ 80%) | 35% (LTV $\le$ 80%) / 50% (LTV > 80% to 90%) |
 | **Above ₹30 Lakh up to ₹75 Lakh** | **Up to 80%** | 20% | 35% |
 | **Above ₹75 Lakh** | **Up to 75%** | 25% | 50% |
 
@@ -39,11 +39,11 @@ Retail lending has expanded into a primary asset engine for commercial banks, ch
 ## § 18.2 Credit Card Operations & Regulatory Safeguards
 
 • **Credit Card Billing & Minimum Amount Due (MAD):**
-  - Minimum Amount Due is usually 5% of total outstanding balance (comprising all taxes, interest charges, fees, plus 100% of EMIs).
-  - Failure to pay MAD attracts late payment charges and adverse reporting to Credit Information Companies.
+  - Minimum Amount Due is determined by card issuers under Board-approved policy (commonly around 5% of outstanding balance, covering all taxes, interest, fees, plus 100% of EMIs).
+  - RBI mandates that card statements must carry a prominent warning advising cardholders that paying only the Minimum Amount Due results in compounding interest and prolonged debt amortization.
 • **RBI Master Direction on Credit Card Conduct (2022/2024 Rules):**
   - **Unsolicited Cards:** Issuing a credit card without written consent is strictly prohibited. If an unsolicited card is activated without consent, the bank must **pay a penalty of twice the billed amount** to the recipient!
-  - **Grace Period (Free Credit Period):** Interest can be charged only if payment is not made by the Payment Due Date. A minimum grace period of **three (3) days** beyond the due date must be provided before reporting the account to credit bureaus as overdue.
+  - **Three-Day Reporting Threshold:** Card issuers can report an account as past due to Credit Information Companies (CICs) or levy late payment fees only when the account remains overdue for **more than three (3) days** past the Payment Due Date. (This is distinct from the interest-free credit period).
   - **Closure of Card:** Request for closure must be honored within **7 working days**. Failure to close within 7 days attracts a penalty of **₹500 per day of delay** payable to the customer.
 
 ---

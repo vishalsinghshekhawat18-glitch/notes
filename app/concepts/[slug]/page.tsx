@@ -25,6 +25,13 @@ export async function generateStaticParams() {
 
 export default async function ConceptPage({ params }: ConceptPageProps) {
   const { slug } = await params;
+  if (slug === '_empty') {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-12 text-center text-stone-500 font-mono text-sm">
+        No concepts configured in active database.
+      </div>
+    );
+  }
   const concept = await getConceptWithFullContext(slug);
 
   if (!concept) {

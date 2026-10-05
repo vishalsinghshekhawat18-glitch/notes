@@ -24,6 +24,13 @@ export async function generateStaticParams() {
 
 export default async function TopicPage({ params }: TopicPageProps) {
   const { slug } = await params;
+  if (slug === '_empty') {
+    return (
+      <div className="max-w-5xl mx-auto px-4 py-12 text-center text-stone-500 font-mono text-sm">
+        No topics configured in active database.
+      </div>
+    );
+  }
   const topic = await getTopicWithConcepts(slug);
 
   if (!topic) {

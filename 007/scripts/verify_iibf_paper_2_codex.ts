@@ -127,7 +127,7 @@ async function runForensicAudit() {
   // Check P0 C-03: Companies Act Sec 77 charge timeline (30 + 30 + 60 days) in Ch 04
   const ch4Text = fs.readFileSync(path.join(chaptersDir, '04_CHAPTER_04_COMPANIES_TRUSTS_CHARGE_REGISTRATION.md'), 'utf-8');
   if (ch4Text.includes('30') && ch4Text.includes('60') && (ch4Text.includes('120') || ch4Text.includes('Section 87'))) {
-    console.log(`  ✓ P0 C-03 Verified: Companies Act Sec 77 charge registration timeline (30 + 30 + 60 days = 120 days) & Sec 87 condonation codified in Chapter 04.`);
+    console.log(`  ✓ P0 C-03 Verified: Companies Act Sec 77 charge registration timeline (30d normal + up to 60d from creation + further 60d = 120 days) & Sec 87 condonation codified in Chapter 04.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: P0 C-03 Companies Act Sec 77 timeline missing.`);
     dataCheckPass = false;
@@ -160,12 +160,39 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check SARFAESI Sec 31(g) debt < 20% exemption in Ch 22
+  // Check SARFAESI Sec 31(j) debt < 20% exemption in Ch 22
   const ch22Text = fs.readFileSync(path.join(chaptersDir, '22_CHAPTER_22_RECOVERY_LAWS_SARFAESI_DRT_IBC_LOK_ADALATS.md'), 'utf-8');
-  if (ch22Text.includes('31(g)') || (ch22Text.includes('20%') && ch22Text.includes('principal and interest'))) {
-    console.log(`  ✓ High-Risk Finding Verified: SARFAESI Sec 31(g) exemption for debt less than 20% of principal + interest codified in Chapter 22.`);
+  if (ch22Text.includes('31(j)') && ch22Text.includes('20%') && ch22Text.includes('principal and interest')) {
+    console.log(`  ✓ High-Risk Finding Verified: SARFAESI Sec 31(j) exemption for debt less than 20% of principal + interest codified in Chapter 22.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: SARFAESI Sec 31(g) rule missing.`);
+    console.error(`  ✗ GATE 5 FAIL: SARFAESI Sec 31(j) rule missing.`);
+    dataCheckPass = false;
+  }
+
+  // Check KCC Collateral-Free ₹2.00 Lakh in Ch 19
+  const ch19KccText = fs.readFileSync(path.join(chaptersDir, '19_CHAPTER_19_PRIORITY_SECTOR_LENDING_AGRICULTURAL_FINANCE.md'), 'utf-8');
+  if (ch19KccText.includes('₹2.00 Lakh') && ch19KccText.includes('collateral')) {
+    console.log(`  ✓ High-Risk Finding Verified: KCC collateral-free loan ceiling strictly updated to ₹2.00 Lakh in Chapter 19.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: KCC ₹2.00 Lakh collateral-free limit missing in Chapter 19.`);
+    dataCheckPass = false;
+  }
+
+  // Check NBFC-MFI Qualifying Assets 60% in Ch 23
+  const ch23Text = fs.readFileSync(path.join(chaptersDir, '23_CHAPTER_23_FINANCE_TO_MFIS_CO_LENDING_SBR_FRAMEWORK.md'), 'utf-8');
+  if (ch23Text.includes('60%') && ch23Text.toLowerCase().includes('qualifying assets')) {
+    console.log(`  ✓ High-Risk Finding Verified: NBFC-MFI qualifying assets updated to 60% (June 2025 RBI circular) in Chapter 23.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: NBFC-MFI 60% qualifying assets missing in Chapter 23.`);
+    dataCheckPass = false;
+  }
+
+  // Check UPI Lite ₹1,000 / ₹5,000 in Ch 26
+  const ch26Text = fs.readFileSync(path.join(chaptersDir, '26_CHAPTER_26_NPCI_DIGITAL_RAILS_E_RUPI_ACCOUNT_AGGREGATORS.md'), 'utf-8');
+  if (ch26Text.includes('₹1,000') && ch26Text.includes('₹5,000') && ch26Text.includes('UPI Lite')) {
+    console.log(`  ✓ High-Risk Finding Verified: UPI Lite ₹1,000 per txn and ₹5,000 wallet balance codified in Chapter 26.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: UPI Lite enhanced limits missing in Chapter 26.`);
     dataCheckPass = false;
   }
 

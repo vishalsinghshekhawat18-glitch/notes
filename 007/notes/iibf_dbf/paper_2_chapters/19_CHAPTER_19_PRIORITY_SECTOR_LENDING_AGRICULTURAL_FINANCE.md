@@ -50,7 +50,13 @@ Banks failing to achieve their priority sector targets or sub-targets are not pe
   - Government provides a **1.5% p.a. interest subvention** to lending institutions, lowering basic rate to 7.0%.
   - Farmers ensuring prompt repayment receive an additional **3.0% Prompt Repayment Incentive (PRI)**.
   - **Effective Interest Rate to Farmers:** Exactly **4.0% p.a.** on crop loans up to ₹3 Lakh!
-• **Collateral-Free Limit:** The limit for collateral-free agricultural loans is **₹1.60 Lakh** (extendable to ₹3 Lakh under tie-up arrangements).
+• **Collateral-Free Agricultural Loan Limit (RBI Enhanced Benchmark):**
+  - The mandatory threshold for collateral-free agricultural loans stands enhanced from ₹1.60 Lakh to **₹2.00 Lakh per borrower** (effective December 2024 per RBI circular / Annual Report benchmark; no margin or collateral can be obtained).
+  - Can be extended up to ₹3.00 Lakh for loans with tie-up arrangements for recovery.
+• **Distinction Between Agriculture Credit Thresholds (Top Examiner Trap):**
+  1. *Collateral-Free Mandate:* Exactly **₹2.00 Lakh**.
+  2. *Interest Subvention (MISS) Maximum Eligibility:* Up to **₹3.00 Lakh** (yielding 4.0% net rate).
+  3. *Overall KCC Limit:* Determined by cropping pattern, acreage, and Scale of Finance for 5 years with 10% annual step-up.
 
 ### 3. Pradhan Mantri Fasal Bima Yojana (PMFBY)
 

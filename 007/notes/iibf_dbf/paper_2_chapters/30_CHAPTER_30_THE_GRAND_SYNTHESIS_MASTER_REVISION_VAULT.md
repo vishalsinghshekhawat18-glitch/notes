@@ -21,7 +21,7 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 +-------------------------------+------------------------------------+-------------------------------------+
 | **04: Special Customers**     | Indian Majority Act 1875;          | Minors (>10 yrs self-operate);      |
 |                               | Hindu Succession (Amendment) 2005  | Daughters equal coparceners/Karta;  |
-|                               | Companies Act 2013 Sec 77          | Charge filing: 30 + 30 + 60 days    |
+|                               | Companies Act 2013 Sec 77          | Charge: 30d; +60d creation; +60d adv|
 +-------------------------------+------------------------------------+-------------------------------------+
 | **05: Deposit Operations**    | BR Act 1949 Sec 26 & 26A;          | Inoperative: 2 yrs; DEA Fund: 10 yrs|
 |                               | CPC Order 21 Rule 46 (Garnishee)   | Garnishee: Debts due or accruing due|
@@ -104,8 +104,8 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               |                                    | Micro enterprises sub-target: **7.5%**|
 |                               |                                    | Agriculture: 18%; SMF: 10%          |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **31: Agricultural Finance**  | KCC Guidelines; RBI Interest       | KCC: 5 yrs, limit based on cropping |
-|                               | Subvention Scheme; PMFBY           | pattern; 3% PRI -> 4% net interest; |
+| **31: Agricultural Finance**  | KCC Guidelines; RBI Interest       | KCC: 5 yrs; Collateral-free: ₹2.00L;|
+|                               | Subvention Scheme; PMFBY           | 3% PRI -> 4% net int (MISS ₹3.00L); |
 |                               |                                    | PMFBY: Kharif 2%, Rabi 1.5%, Com 5% |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **32: MSME Architecture**     | MSMED Act 2006 (Revised Criteria   | Micro: <= ₹2.5 Cr Inv / ₹10 Cr Turn;|
@@ -121,14 +121,13 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               | Prudential Framework June 7, 2019  | (<=12 mos): 15% (25% unsec); Doubtful|
 |                               |                                    | D1: 25%, D2: 40%, D3: 100%; Loss:100%|
 +-------------------------------+------------------------------------+-------------------------------------+
-| **35: Recovery & SARFAESI**   | SARFAESI Act 2002; RDDBFI Act 1993;| SARFAESI: Sec 13(2) 60 days; Exempt |
-|                               | IBC 2016; Legal Services Auth 1987 | if debt < 20% principal + int;      |
-|                               |                                    | DRT: >= ₹20L; IBC: >= ₹1 Cr; Lok    |
-|                               |                                    | Adalats: up to ₹20 Lakh             |
+| **35: Recovery & SARFAESI**   | SARFAESI Act 2002; RDDBFI Act 1993;| SARFAESI: Sec 13(2) 60d; Sec 31(j)  |
+|                               | IBC 2016; Legal Services Auth 1987 | exempt < 20% debt; DRT >= ₹20L; IBC |
+|                               |                                    | >= ₹1 Cr; Lok Adalat DRT: <= ₹20L   |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **36: MFI & Co-Lending**      | RBI Regulatory Framework for Micro-| NBFC-MFI: Household income <= ₹3L;  |
-|                               | finance Loans 2022; Co-Lending Dir | Outflow <= 50%; Co-Lending: 80:20   |
-|                               |                                    | min risk retention by bank/NBFC     |
+| **36: MFI & Co-Lending**      | RBI Regulatory Framework for Micro-| NBFC-MFI: Qualifying Assets >= 60%; |
+|                               | finance Loans 2022; Co-Lending Dir | Income <= ₹3L; Outflow <= 50%;      |
+|                               |                                    | Co-Lending: 80:20 risk retention    |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **37: SBR Framework**         | RBI Scale Based Regulation (SBR)   | Base, Middle, Upper, Top layers;    |
 |                               | for NBFCs                          | Upper Layer: Top 10 NBFCs by size,  |
@@ -138,9 +137,9 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               | RBI Customer Liability MD          | ₹100/day penalty; Zero liability if |
 |                               |                                    | reported within 3 days (3rd party)  |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **40 & 41: Digital Rails**    | NPCI Architecture; Section 22 RBI  | UPI: P2P ₹1L, IPO/G-Sec/Tax ₹5L;    |
-|                               | Act (CBDC Amendment 2022)          | e-RUPI: Up to ₹1,00,000 per voucher;|
-|                               |                                    | CBDC (e₹): Sovereign token, non-int.|
+| **40 & 41: Digital Rails**    | NPCI Architecture; Section 22 RBI  | UPI: P2P ₹1L, IPO ₹5L; UPI Lite:    |
+|                               | Act (CBDC Amendment 2022)          | ₹1,000/txn, ₹5,000 wallet; e-RUPI:   |
+|                               |                                    | ₹1 Lakh; CBDC: Sovereign token non-i|
 +-------------------------------+------------------------------------+-------------------------------------+
 | **42 & 43: Cybersecurity**    | IT Act 2000 (Amended 2008); RBI IT | Incident reporting: RBI 2-6 hrs,    |
 |                               | Governance MD 2023; CERT-In Dir    | CERT-In 6 hrs; CISO independent;    |
@@ -169,9 +168,9 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 4. **Locker Term Deposit:** Banks may obtain a Term Deposit at locker allocation covering a maximum of **3 years' rent plus break-open charges**, but cannot demand disproportionate fixed deposits.
 5. **Micro Enterprises PSL Target:** The Priority Sector Lending target for Micro Enterprises is **7.5% of ANBC / CEOBE** (NOT 8.0%, which is a frequent distractor).
 6. **Commercial Bank PSL Target:** Domestic Scheduled Commercial Banks must achieve **40% of ANBC** for total PSL, whereas Small Finance Banks (SFBs) and Regional Rural Banks (RRBs) must achieve **75%**.
-7. **Companies Act Charge Registration:** Form CHG-1 must be filed within **30 days**. The Registrar of Companies (RoC) can extend this by **30 additional days** on payment of additional fees, and a further **60 days** on payment of *ad-valorem* fees (total 120 days). Beyond that, condonation by the Regional Director (Section 87) is required.
+7. **Companies Act Charge Registration:** Form CHG-1 must be filed within **30 days**. The Registrar of Companies (RoC) can permit filing within **60 days of creation** on payment of additional fees, and a further **60 days** on payment of *ad-valorem* fees (total 120 days from creation). Beyond 120 days, condonation by the Regional Director (Section 87) is required.
 8. **Effect of Unregistered Charge:** An unregistered charge is **void against the liquidator and any creditor** of the company, but the company's contractual obligation to repay the debt remains valid (becomes an unsecured creditor).
-9. **Bank Guarantee Claim Period (Contract Act Sec 28):** A bank guarantee claim period cannot be extinguished by contract if it is less than **one year from the expiry of the validity period** (Exception 3 to Section 28). This is distinct from the statutory limitation period under the Limitation Act (3 years for private entities, 30 years for government).
+9. **Bank Guarantee Claim Period (Contract Act Sec 28):** Under Exception 3 to Section 28, a bank guarantee can validly stipulate the extinguishment of rights or discharge of liability if no claim is lodged within a specified period of **not less than one year from the date of occurring or non-occurring of a specified event**. This claim period is distinct from the statutory limitation period for filing a court suit (3 years for private entities, 30 years for government).
 10. **Cheque Truncation System (CTS) Clearing:** CTS in India operates on a **continuous clearing and grid-based image exchange model** with on-realisation settlement (the old physical clearing batches are obsolete).
 11. **Positive Pay System (PPS):** Banks must enable PPS for all cheques of **₹50,000 and above** (at customer discretion) and may make it mandatory for cheques of **₹5,00,000 and above**.
 12. **Section 138 Notice Period:** Following dishonor of a cheque for insufficiency of funds, the statutory demand notice must be issued within **30 days** of receiving intimation. The drawer has **15 days** to pay before an offense is committed.
@@ -201,9 +200,9 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 36. **Prepayment Penalty Ban:** Banks are strictly prohibited from charging prepayment penalties or foreclosure charges on **floating-rate retail and MSME loans** sanctioned to individual borrowers.
 37. **LTV Ratios for Home Loans:** Up to ₹30 Lakh: LTV up to **90%**; ₹30 Lakh to ₹75 Lakh: LTV up to **80%**; Above ₹75 Lakh: LTV up to **75%**.
 38. **SARFAESI Agricultural Exemption:** Under Section 31(i), SARFAESI Act provisions **do not apply to agricultural land**.
-39. **SARFAESI 20% Rule:** Under Section 31(g), SARFAESI does not apply where the remaining unpaid debt is **less than 20% of the principal and interest** originally secured.
+39. **SARFAESI 20% Rule:** Under **Section 31(j)** [NOT Section 31(g), which exempts CPC Section 60 properties], SARFAESI does not apply where the remaining unpaid debt is **less than 20% of the principal and interest** originally secured.
 40. **DRT Jurisdiction Threshold:** Debts Recovery Tribunals handle bank recovery claims of **₹20 Lakh and above** under the Recovery of Debts and Bankruptcy Act.
-41. **Lok Adalat Ceiling:** Public and institutional Lok Adalats have jurisdiction to settle civil and recovery disputes up to **₹20 Lakh**; their award is final, binding, and has the status of a civil court decree with zero appeal.
+41. **Lok Adalat Ceiling:** In institutional banking practice and for dispute referrals from DRTs, Lok Adalats handle recovery matters up to **₹20 Lakh**; under the Legal Services Authorities Act, 1987, their consensual award is final, binding, and has the status of a civil court decree with zero appeal.
 42. **IBC Minimum Default Threshold:** Insolvency and Bankruptcy Code (IBC) corporate insolvency resolution can be initiated only for corporate debt defaults of **₹1 Crore and above**.
 43. **Consumer Protection Act 2019 Pecuniary Limits:** District Commission handles claims up to **₹50 Lakh**; State Commission from **₹50 Lakh to ₹2 Crore**; National Commission handles claims exceeding **₹2 Crore**.
 44. **Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021):** Award compensation limit is up to **₹20 Lakh** for actual financial loss, plus an additional award up to **₹1 Lakh** for loss of complainant's time, expenses, and mental agony.
@@ -233,7 +232,7 @@ D) 1, 2, 3, and 4
 
 ### Question 2
 Under Section 77 of the Companies Act, 2013, a commercial bank creates a charge on the fixed assets of a borrower company on January 1. What is the statutory timeline for filing the charge with the Registrar of Companies (RoC), including permissible extensions?
-A) 30 days initially, extendable by RoC by an additional 30 days on payment of additional fees, and a further 60 days on payment of ad-valorem fees (total 120 days).
+A) 30 days initially, extendable by RoC up to 60 days from creation on payment of additional fees, and a further 60 days on payment of ad-valorem fees (total 120 days from creation).
 B) 30 days only; failure to file immediately renders the entire underlying debt legally unenforceable against the company.
 C) 60 days initially, extendable up to 180 days with the approval of the Reserve Bank of India.
 D) 90 days initially, with indefinite condonation available from the District Magistrate.
@@ -248,7 +247,7 @@ D) The bank is exempt from compensation because off-site ATMs are managed by thi
 ### Question 4
 Under Exception 3 to Section 28 of the Indian Contract Act, 1872, what is the mandatory minimum claim period that commercial banks must stipulate in Bank Guarantees to legally restrict the guarantee's enforceability?
 A) Not less than 30 days from the date of default.
-B) Not less than one year from the expiry of the validity period of the guarantee.
+B) Not less than one year from the date of occurring or non-occurring of a specified event.
 C) Not less than three years for private commercial entities and thirty years for government entities.
 D) Not less than six months under UCPDC 600 rules.
 
@@ -273,13 +272,13 @@ D) 1, 2, 3, and 4
    * *Analysis:* Statements 1, 3, and 4 are correct. Statement 2 is incorrect because zero liability under the RBI Customer Liability Master Direction requires the customer to report a third-party breach within **3 working days** (reporting between 4 to 7 working days caps customer liability at ₹5,000/₹10,000/₹25,000; reporting beyond 7 working days defaults to bank policy).
 
 2. **Correct Answer: A**
-   * *Analysis:* Under Section 77(1) of the Companies Act, 2013, charges must be registered within 30 days of creation. The RoC may allow filing within an additional 30 days on payment of additional fees. If not filed within 60 days, the RoC may permit filing within a further 60 days upon payment of *ad-valorem* fees (maximum statutory window under RoC power is $30 + 30 + 60 = 120\text{ days}$). Beyond 120 days, condonation of delay must be sought from the Central Government / Regional Director under Section 87.
+   * *Analysis:* Under Section 77(1) provisos of the Companies Act, 2013, charges must be registered within 30 days of creation. The RoC may allow filing within 60 days from creation on payment of additional fees. If not filed within that period, the RoC may permit filing within a further 60 days upon payment of *ad-valorem* fees (maximum statutory window under RoC power is 120 days from creation). Beyond 120 days, condonation of delay must be sought from the Central Government / Regional Director under Section 87.
 
 3. **Correct Answer: B**
    * *Analysis:* Under the RBI Harmonised TAT framework, the prescribed TAT for proactive auto-reversal of failed ATM transactions is **T + 5 calendar days**. If the bank resolves the transaction on T + 8 days, there is an overdue delay of 3 calendar days. The bank is legally mandated to auto-credit ₹100 per day of delay ($3 \times ₹100 = ₹300$) alongside the principal reversal of ₹5,000, without waiting for a customer dispute claim.
 
 4. **Correct Answer: B**
-   * *Analysis:* Exception 3 to Section 28 of the Indian Contract Act, 1872 explicitly validates bank guarantee clauses that extinguish the rights of the creditor or discharge the bank guarantee at the end of a specified period, provided that such claim period is **not less than one year** from the expiry date of the guarantee. (The 3-year and 30-year windows represent the Limitation Act periods for filing a legal suit in court if the demand was lodged within the valid claim period).
+   * *Analysis:* Exception 3 to Section 28 of the Indian Contract Act, 1872 explicitly validates bank guarantee clauses that extinguish the rights of the creditor or discharge the bank guarantee at the end of a specified period, provided that such claim period is **not less than one year from the date of occurring or non-occurring of a specified event**. (The 3-year and 30-year windows represent the Limitation Act periods for filing a legal suit in court if the demand was lodged within the valid claim period).
 
 5. **Correct Answer: A**
    * *Analysis:* Statements 1, 2, and 3 are correct. Statement 4 is incorrect because Section 3(k) of the Indian Patents Act, 1970 explicitly excludes a computer program *per se*, mathematical methods, business methods, or algorithms from patentability.

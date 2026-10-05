@@ -2466,7 +2466,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,277 words • 6 min read"
+    "badge": "1,419 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-2",
@@ -2489,14 +2489,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 2.2 Unit 03: Operational Aspects of KYC & 2025 Amendments",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
-    "description": "1. Risk Categorization & Baseline Periodic Updation (Re-KYC)\n\n| Risk Tier | Risk Parameters & Customer Categories | Baseline Re-KYC Periodicity |\n| :--- | :--- | :--- |\n| High Risk | PEPs (Pol",
+    "description": "1. Risk-Based Categorization & Periodic Updation (Re-KYC)\n\nBanks must adopt a Risk-Based Approach (RBA) to customer due diligence, categorizing customers into Low, Medium, and High risk based",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
       "concept": "§ 2.2 Unit 03: Operational Aspects of KYC & 2025 Amendments"
     },
-    "badge": "394 words"
+    "badge": "536 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-4",
@@ -2540,7 +2540,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,126 words • 6 min read"
+    "badge": "1,266 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-03_chapter_03_account_opening_special_customers_lei-sec-2",
@@ -2555,7 +2555,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "ACCOUNT OPENING, SPECIAL CUSTOMER CATEGORIES & LEI",
       "concept": "§ 3.1 Unit 04: Customer Due Diligence & Special Customer Types"
     },
-    "badge": "665 words"
+    "badge": "805 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-03_chapter_03_account_opening_special_customers_lei-sec-3",
@@ -2599,7 +2599,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,200 words • 6 min read"
+    "badge": "1,360 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-2",
@@ -2607,14 +2607,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 4.1 Unit 04b: Corporate Entities, Trusts & Clubs",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
-    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 04 / 26)  \n> Core Proposition: A company is an artificial legal person created by law, with perpetual succession and a common sea",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 04 / 26)  \n> Core Proposition: A company is an artificial legal person created by law, with perpetual succession and an optional",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
       "concept": "§ 4.1 Unit 04b: Corporate Entities, Trusts & Clubs"
     },
-    "badge": "370 words"
+    "badge": "415 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-3",
@@ -2629,7 +2629,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
       "concept": "§ 4.2 Unit 26b: Companies Act, 2013 Section 77 Charge Registration"
     },
-    "badge": "329 words"
+    "badge": "358 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-4",
@@ -2644,7 +2644,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
       "concept": "§ 4.3 High-Yield Examination Drill"
     },
-    "badge": "254 words"
+    "badge": "302 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-5",
@@ -2659,7 +2659,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
       "concept": "§ 4.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "150 words"
+    "badge": "188 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
@@ -3191,7 +3191,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,011 words • 5 min read"
+    "badge": "1,042 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti-sec-2",
@@ -3206,7 +3206,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA & RTI",
       "concept": "§ 12.1 Unit 19: The Reserve Bank - Integrated Ombudsman Scheme, 2021"
     },
-    "badge": "305 words"
+    "badge": "336 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti-sec-3",
@@ -3487,7 +3487,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,199 words • 6 min read"
+    "badge": "1,208 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee-sec-2",
@@ -3517,7 +3517,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
       "concept": "§ 16.2 Unit 31b & 33: Bank Guarantees & Section 28 Claim Period Doctrine"
     },
-    "badge": "277 words"
+    "badge": "282 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee-sec-4",
@@ -3547,7 +3547,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
       "concept": "§ 16.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "140 words"
+    "badge": "144 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
@@ -3635,7 +3635,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "947 words • 5 min read"
+    "badge": "974 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-2",
@@ -3650,7 +3650,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
       "concept": "§ 18.1 Unit 35: Retail Loan Products Architecture"
     },
-    "badge": "351 words"
+    "badge": "357 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-3",
@@ -3658,14 +3658,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 18.2 Credit Card Operations & Regulatory Safeguards",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
-    "description": "• Credit Card Billing & Minimum Amount Due (MAD):\n  - Minimum Amount Due is usually 5% of total outstanding balance (comprising all taxes, interest charges, fees, plus 100% of EMIs).\n  - Failure t",
+    "description": "• Credit Card Billing & Minimum Amount Due (MAD):\n  - Minimum Amount Due is determined by card issuers under Board-approved policy (commonly around 5% of outstanding balance, covering all taxes, i",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
       "concept": "§ 18.2 Credit Card Operations & Regulatory Safeguards"
     },
-    "badge": "170 words"
+    "badge": "191 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-4",
@@ -3709,7 +3709,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,020 words • 5 min read"
+    "badge": "1,108 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-2",
@@ -3739,7 +3739,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
       "concept": "§ 19.2 Unit 37: Agricultural Financing & Kisan Credit Card (KCC)"
     },
-    "badge": "303 words"
+    "badge": "391 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-4",
@@ -3931,7 +3931,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,158 words • 6 min read"
+    "badge": "1,262 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-2",
@@ -3946,7 +3946,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
       "concept": "§ 22.1 Unit 29: Statutory Debt Recovery Framework"
     },
-    "badge": "351 words"
+    "badge": "383 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-3",
@@ -3961,7 +3961,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
       "concept": "§ 22.2 DRT, IBC, Lok Adalats & The Law of Limitation"
     },
-    "badge": "335 words"
+    "badge": "349 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-4",
@@ -3969,14 +3969,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 22.3 High-Yield Examination Drill",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
-    "description": "Q1. Under Section 31(g) of the SARFAESI Act, 2002, in which of the following scenarios is a secured commercial bank legally BARRED from enforcing its security interest under the Act?  \nA. When the",
+    "description": "Q1. [Statutory Benchmark] Under Section 31(j) of the SARFAESI Act, 2002, in which of the following scenarios is a secured commercial bank legally BARRED from enforcing its security interest under th",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
       "concept": "§ 22.3 High-Yield Examination Drill"
     },
-    "badge": "226 words"
+    "badge": "234 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-5",
@@ -3984,14 +3984,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 22.4 Answer Key & Detailed Explanatory Rationale",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
-    "description": "• Q1 — Answer: B. Under Section 31(g) of the SARFAESI Act, the provisions of the Act do not apply to any case where the amount due is less than 20% of the principal amount and interest thereon",
+    "description": "• Q1 — Answer: B. Under Section 31(j) of the SARFAESI Act, 2002, the provisions of the Act do not apply to any case where the amount due is less than 20% of the principal amount and interest",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
       "concept": "§ 22.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "139 words"
+    "badge": "189 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
@@ -4005,7 +4005,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "972 words • 5 min read"
+    "badge": "986 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework-sec-2",
@@ -4020,7 +4020,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FINANCE TO MFIS, CO-LENDING & SCALE-BASED REGULATION",
       "concept": "§ 23.1 Unit 38: Microfinance Regulatory Architecture (2022 Baseline)"
     },
-    "badge": "242 words"
+    "badge": "256 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework-sec-3",
@@ -4227,7 +4227,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "2,694 words • 13 min read"
+    "badge": "2,702 words • 13 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-2",
@@ -4242,7 +4242,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 26: NPCI DIGITAL RAILS, E-RUPI, CBDC & ACCOUNT AGGREGATORS",
       "concept": "26.1 National Payments Corporation of India (NPCI) Ecosystem"
     },
-    "badge": "825 words"
+    "badge": "826 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-3",
@@ -4523,7 +4523,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "4,278 words • 20 min read"
+    "badge": "4,315 words • 20 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-2",
@@ -4538,7 +4538,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger"
     },
-    "badge": "1546 words"
+    "badge": "1535 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-3",
@@ -4553,7 +4553,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)"
     },
-    "badge": "1659 words"
+    "badge": "1702 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-4",
@@ -4568,7 +4568,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.3 Master Diagnostic Capstone Drill"
     },
-    "badge": "672 words"
+    "badge": "676 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-5",
@@ -4583,7 +4583,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.4 Diagnostic Solutions & Analysis"
     },
-    "badge": "358 words"
+    "badge": "359 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
@@ -23296,7 +23296,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "8,914 words • 41 min read"
+    "badge": "8,924 words • 41 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-06-sec-2",
@@ -23326,7 +23326,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
       "concept": "2. ️ REGULATORY BODIES NEWS"
     },
-    "badge": "2906 words"
+    "badge": "2916 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-06-sec-4",
@@ -23444,7 +23444,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "26,719 words • 122 min read"
+    "badge": "26,736 words • 122 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-08-sec-2",
@@ -23474,7 +23474,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
       "concept": "2. BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS"
     },
-    "badge": "3397 words"
+    "badge": "3414 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-08-sec-4",
@@ -23518,7 +23518,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium"
     },
-    "badge": "43,189 words • 197 min read"
+    "badge": "43,258 words • 197 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-2",
@@ -23533,7 +23533,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "5177 words"
+    "badge": "5213 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-3",
@@ -23563,7 +23563,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "2. BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION"
     },
-    "badge": "2897 words"
+    "badge": "2927 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-5",

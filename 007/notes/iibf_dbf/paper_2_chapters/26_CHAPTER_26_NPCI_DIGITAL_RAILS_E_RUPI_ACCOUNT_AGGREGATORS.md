@@ -53,7 +53,7 @@ The National Payments Corporation of India (NPCI) was incorporated in 2008 under
   * *Tax Payments (CBDT / Direct Taxes):* Raised to ₹5,00,000 per transaction.
 * **Key Evolutionary Variants:**
   * *UPI 2.0:* Introduced Overdraft (OD) account linking, One-Time Mandates with block functionality, Invoice in the Inbox (pre-payment bill verification), and Signed Intent/QR codes to protect against malicious tampering.
-  * *UPI Lite:* An on-device wallet feature enabling pinless micro-transactions up to ₹500 per transaction with an aggregate wallet holding limit of ₹2,00,000 (or ₹2,000 depending on specific issuer tier), decongesting bank CBS core switches.
+  * *UPI Lite:* An on-device wallet feature enabling pinless micro-transactions up to **₹1,000 per transaction** with an aggregate wallet holding limit of **₹5,000** (enhanced from the initial ₹500 / ₹2,000 limits), decongesting bank CBS core switches.
   * *UPI 123PAY:* Multi-channel payment system engineered for non-internet feature phones operating via Interactive Voice Response (IVR) numbers, missed call technology, embedded OEM apps, and sound-wave proximity communication.
   * *Credit Line on UPI:* Enables pre-sanctioned credit lines from commercial banks to be drawn dynamically via UPI rails without requiring a plastic credit card.
 
@@ -197,7 +197,7 @@ The Account Aggregator (AA) framework is a consent-driven, secure data-sharing f
 Under the Reserve Bank of India and NPCI regulatory guidelines, which of the following statements regarding the Unified Payments Interface (UPI) transaction value caps is correct?
 A) The maximum limit for all UPI transactions, including merchant, retail, and capital market investments, is strictly capped at ₹1,00,000 per transaction.
 B) The transaction limit for payments towards Initial Public Offerings (IPOs) and Retail Direct Scheme G-Sec investments through UPI is ₹5,00,000 per transaction.
-C) UPI Lite allows offline transactions up to ₹2,000 per individual transaction without entering a UPI PIN.
+C) UPI Lite allows pinless offline transactions up to ₹5,000 per individual transaction without entering a UPI PIN.
 D) Overdraft accounts are legally prohibited from being linked to UPI IDs under the Payment and Settlement Systems Act.
 
 ### Question 2
@@ -233,7 +233,7 @@ D) Aadhaar Number + Registered Mobile Number OTP only
 ## 26.6 Diagnostic Solutions & Analysis
 
 1. **Correct Answer: B**
-   * *Analysis:* NPCI and RBI have raised the transaction ceiling for specific categories under UPI: payments towards IPO applications and the RBI Retail Direct Scheme (G-Secs), as well as educational institutions, direct tax payments, and healthcare, have a limit of **₹5,00,000** per transaction, compared to the standard ₹1,00,000 limit. Statement C is incorrect because UPI Lite permits individual pinless transactions up to ₹500 (with an aggregate wallet limit). Statement D is incorrect because UPI 2.0 explicitly permits linking Overdraft (OD) accounts.
+   * *Analysis:* NPCI and RBI have raised the transaction ceiling for specific categories under UPI: payments towards IPO applications and the RBI Retail Direct Scheme (G-Secs), as well as educational institutions, direct tax payments, and healthcare, have a limit of **₹5,00,000** per transaction, compared to the standard ₹1,00,000 limit. Statement C is incorrect because UPI Lite permits individual pinless transactions up to **₹1,000** (with an aggregate wallet limit of **₹5,000**), not ₹5,000 per transaction. Statement D is incorrect because UPI 2.0 explicitly permits linking Overdraft (OD) accounts.
 
 2. **Correct Answer: A**
    * *Analysis:* CBDC (Digital Rupee) is sovereign legal tender and constitutes a direct liability of the central bank (RBI) appearing on its balance sheet, carrying zero sovereign credit risk. In contrast, commercial bank deposits are liabilities of individual commercial banks, subject to commercial bank credit and liquidity risks (partially mitigated by DICGC coverage up to ₹5 Lakh). The Digital Rupee does not bear interest.

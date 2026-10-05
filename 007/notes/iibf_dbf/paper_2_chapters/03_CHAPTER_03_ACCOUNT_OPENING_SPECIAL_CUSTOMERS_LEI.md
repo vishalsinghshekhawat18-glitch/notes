@@ -13,10 +13,10 @@ Opening and managing bank accounts requires strict compliance with statutory cap
 
 | Customer Class | Legal & Contractual Basis | Core Operational Rules & Non-Negotiable Safeguards |
 | :--- | :--- | :--- |
-| **Minor (Individual Account)** | Sec 11 Contract Act / Hindu Minority & Guardianship Act | • Minors aged **10 years and above** can open and operate independent savings accounts in their own name.<br>• Account must **ALWAYS remain in credit**; overdrafts are void *ab initio*.<br>• Minor cannot be personally sued for debts; cannot ratify debt upon attaining majority. |
+| **Minor (Individual Account)** | Sec 11 Contract Act / Hindu Minority & Guardianship Act | • Minors aged **10 years and above** are permitted under RBI regulations to open and operate independent savings bank accounts in their own name (subject to each bank's board-approved risk limits on maximum balance).<br>• Account must **ALWAYS remain in credit**; overdrafts are void *ab initio*.<br>• Minor cannot be personally sued for debts; cannot ratify debt upon attaining majority. |
 | **Minor (Under Guardianship)** | Father / Mother natural guardians; Court-appointed guardian | • Natural guardians: Father and mother have equal status post *Githa Hariharan* Supreme Court verdict.<br>• Guardian ceases to operate account immediately upon minor attaining **18 years** (or **21 years** if court-appointed guardian under Guardians & Wards Act). |
 | **Hindu Undivided Family (HUF)** | Mitakshara / Dayabhaga School; Hindu Succession Act | • Governed by **Karta** (senior-most coparcener; post-2005 amendment, **daughters are coparceners by birth and can be Karta**).<br>• Account opened in HUF name; operated exclusively by Karta.<br>• Karta has unlimited liability; other coparceners' liability is limited to their share in joint family property. |
-| **Illiterate Customer** | Contract Act (Thumb impression attestation) | • Account opened via **Left Thumb Impression (LTI)** for males / **Right Thumb Impression (RTI)** for females, attested by independent witness.<br>• Modern practice: Physical presence at branch with photo verification; cheque book generally not issued except for direct government benefit credits. |
+| **Illiterate Customer** | Contract Act (Thumb impression attestation) | • Under standard banking procedure, account opened via **Left Thumb Impression (LTI)** for males / **Right Thumb Impression (RTI)** for females, attested by an independent witness.<br>• Common banking practice: Cash withdrawals require physical counter presence with photo comparison; cheque books are generally withheld under internal risk policies, though not statutorily barred for direct benefit transfers. |
 | **Visually Impaired Customer** | Rights of Persons with Disabilities Act, 2016 / RBI Directives | • **Strict Non-Discrimination:** Same facilities as sighted customers (cheque book, ATM card, net banking, locker).<br>• **No Mandatory Witness:** Banks **CANNOT compel a third-party witness or force thumb impression** if the visually impaired customer can sign or wishes to operate independently. |
 | **Purdahnashin Woman** | Common law doctrine of undue influence | • Contracts presumed to be executed under undue influence unless independent legal advice is established.<br>• Branch practice: Identity verified by a female officer or attested by an acceptable referee. |
 
@@ -29,17 +29,22 @@ Opening and managing bank accounts requires strict compliance with statutory cap
   - **Jointly:** Both/all holders must sign every withdrawal, mandate, or cheque.
 • **Revocation of Mandate:** Any single joint account holder can give a **Stop Payment instruction** or revoke an operating authority, requiring the bank to stop operations until all joint holders sign jointly.
 
-### 3. Current Account Opening Framework & LEI Architecture
+### 3. RBI Current Account Opening Framework & LEI Architecture
 
-• **RBI Current Account Opening Norms:**
-  - For borrowers with aggregate banking exposure **< ₹5 Crore:** Banks can open current accounts without restriction, subject to an undertaking that the borrower will inform when credit facilities reach ₹5 Crore.
-  - Exposure **$\ge$ ₹5 Crore:** Borrowers must route all transactions through Cash Credit / Overdraft (CC/OD) accounts. Non-lending banks cannot open current accounts.
+• **The Three-Tier Current Account Opening Regime (RBI Master Directions):**
+
+| Aggregate Banking Exposure Band | Permissible Current Account Rules for Lending Banks | Operational Rules for Non-Lending Banks |
+| :--- | :--- | :--- |
+| **Tier 1: < ₹5 Crore** | Any bank can open Current Accounts freely without restriction. | Can open Current Accounts, subject to obtaining an undertaking that customer will inform when exposure reaches ₹5 Crore. |
+| **Tier 2: $\ge$ ₹5 Crore to < ₹50 Crore** | Lending banks can open Current Accounts freely. Transactions can also be routed via CC/OD accounts. | **CANNOT open Current Accounts.** Can open only **Collection Accounts** (credits permitted freely; debits allowed ONLY for transferring balance to lending bank's CC/OD account). |
+| **Tier 3: $\ge$ ₹50 Crore** | **Mandatory Escrow Mechanism.** Only the **Escrow Managing Bank** can open Current Accounts. Other lending banks may open only Collection Accounts. | **STRICTLY PROHIBITED** from opening Current Accounts or Collection Accounts. |
+
 • **Legal Entity Identifier (LEI):**
   - A unique **20-digit alphanumeric code** based on ISO 17442 standard.
   - Identifies distinct legal entities participating in global and domestic financial transactions.
-  - **Mandatory Thresholds in India:**
-    1. All non-individual transactions **$\ge$ ₹50 Crore** routed through RTGS and NEFT.
-    2. All non-individual borrowers with aggregate banking exposure **$\ge$ ₹5 Crore** from banks and financial institutions.
+  - **Mandatory Regulatory Thresholds in India:**
+    1. **Borrower Exposure:** All non-individual borrowers with aggregate banking exposure **$\ge$ ₹5 Crore** from banks and financial institutions.
+    2. **Large Value Payment Transactions:** All non-individual single transactions **$\ge$ ₹50 Crore** routed through RTGS and NEFT.
 
 ---
 

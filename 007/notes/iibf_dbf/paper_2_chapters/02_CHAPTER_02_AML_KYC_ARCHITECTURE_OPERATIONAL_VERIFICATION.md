@@ -34,33 +34,36 @@ Anti-Money Laundering (AML), Combating Financing of Terrorism (CFT), and Know Yo
 
 ## § 2.2 Unit 03: Operational Aspects of KYC & 2025 Amendments
 
-### 1. Risk Categorization & Baseline Periodic Updation (Re-KYC)
+### 1. Risk-Based Categorization & Periodic Updation (Re-KYC)
 
-| Risk Tier | Risk Parameters & Customer Categories | Baseline Re-KYC Periodicity |
+Banks must adopt a **Risk-Based Approach (RBA)** to customer due diligence, categorizing customers into Low, Medium, and High risk based on parameters such as identity, social/financial status, nature of business, and geographical location.
+
+| Risk Tier | Illustrative Higher-Risk Categories & Risk Indicators | Baseline Re-KYC Cadence |
 | :--- | :--- | :--- |
-| **High Risk** | PEPs (Politically Exposed Persons), non-residents, trusts, charities, bullion dealers, high net-worth individuals, shell companies. | **Every 2 Years** (Full KYC documentation) |
-| **Medium Risk** | Salaried employees with high turnover, small businesses, partnership firms, rental income earners. | **Every 8 Years** (Updated OVD verification) |
-| **Low Risk** | Salaried individuals, government pensioners, basic savings bank account holders with low turnover. | **Every 10 Years** (Self-declaration permitted) |
+| **High Risk** | Illustrative factors requiring Enhanced Due Diligence (EDD): Politically Exposed Persons (PEPs) of foreign origin, non-residents, trusts/charities with cross-border flows, high net-worth individuals with unexplained turnover, companies with complex shell shareholding structures. | **Every 2 Years** (Full KYC / fresh OVD documentation) |
+| **Medium Risk** | Customers who do not fall into high risk but whose transaction profile requires regular monitoring: small businesses, partnership firms, rental income earners, retail traders. | **Every 8 Years** (Updated OVD verification) |
+| **Low Risk** | Salaried individuals with clear source of income, government pensioners, basic savings bank deposit account holders with low turnover. | **Every 10 Years** (Self-declaration permitted if no change) |
 
-### 2. The 2025 RBI KYC (Amendment) Directions: Overdue Updation Relief
+### 2. The 12 June 2025 RBI KYC Amendments: Overdue Updation Relief
 
-> **P0 Audit Fix — Stop-Ship Regulatory Clearance (C-06)**  
-> Previously, banks were required to freeze accounts immediately upon expiry of the periodic updation window. On **12 June 2025**, the RBI issued comprehensive amendments introducing a humane, risk-calibrated operational relaxation:
-> 1. **Zero Abrupt Freezing for Low-Risk Overdue Accounts:** For low-risk individuals whose periodic updation is overdue, banks **shall not freeze accounts abruptly**. A continuous monitoring protocol is maintained.
-> 2. **Outer Grace Window up to June 30, 2026:** Banks are provided an outer operational window extending up to **30 June 2026** to complete re-KYC for pending low-risk accounts.
-> 3. **Business Correspondent (BC) Enabled Self-Declaration:** Low-risk customers whose address/particulars have not changed can complete periodic updation through **Business Correspondents (BCs)**, mobile banking, ATM channels, or registered email without visiting the branch.
-> 4. **No OVD Requirement for Unchanged Particulars:** A simple self-declaration confirming no change in information is legally sufficient; banks cannot insist on physical fresh OVDs.
+> **P0 Audit Fix — Stop-Ship Regulatory Clearance (C-06 & R3-08)**  
+> On **12 June 2025**, the RBI amended the Master Direction on KYC, introducing targeted operational relief for pending periodic updation:
+> 1. **Zero Abrupt Freezing for Low-Risk Overdue Accounts:** For low-risk individual customers whose periodic KYC updation is overdue, banks **shall not abruptly freeze operations or stop transactions**. Instead, a proportionate risk monitoring protocol is maintained.
+> 2. **Outer Operational Window up to June 30, 2026:** Banks are provided an outer implementation timeframe extending up to **30 June 2026** to clear backlogs of pending periodic updations for low-risk individuals.
+> 3. **BC-Enabled Self-Declaration (Specific June 2025 Mandate):** Where there is no change in KYC information, the 12 June 2025 amendment explicitly empowers low-risk individual customers to submit their self-declaration through authorized **Business Correspondents (BCs)** (via biometric / mobile-enabled confirmation) without traveling to bank branches. (Separate general circulars permit digital submissions via net banking, mobile apps, or registered email).
+> 4. **No OVD Requirement for Unchanged Particulars:** A simple self-declaration confirming no change in status/address is legally sufficient; banks cannot demand fresh physical OVDs.
 
 ### 3. Officially Valid Documents (OVDs) & CKYCR Architecture
 
 • **The Six Statutory OVDs (Rule 2(1)(d), PML Rules):**
   1. Passport
   2. Driving Licence
-  3. Proof of possession of Aadhaar number (with masked first 8 digits)
+  3. Proof of possession of Aadhaar number (with first 8 digits masked)
   4. Voter's Identity Card (Election Commission of India)
   5. Job Card issued by NREGA duly signed by an officer of the State Government
   6. Letter issued by the National Population Register (NPR) containing details of name and address.
-• **Central KYC Records Registry (CKYCR):** Operated by CERSAI. Receives customer KYC records from reporting entities within **10 days of account opening**. Issues a unique **14-digit KYC Identifier (KIN)**. Once a customer has a KIN, no other reporting entity can demand physical KYC documents for opening an account.
+• **Central KYC Records Registry (CKYCR):** Operated by CERSAI. Reporting entities must upload customer KYC records within **10 days of account opening**. Issues a unique **14-digit KYC Identifier (KIN)**.
+• **CKYCR Retrieval Rule & Exceptions:** Once a customer has a KIN, other reporting entities can retrieve the KYC record from CKYCR without demanding fresh physical documents, **EXCEPT when:** (i) customer's particulars or address have changed, (ii) the retrieved record is incomplete or unclear, or (iii) the bank requires additional verification under its Enhanced Due Diligence (EDD) risk policy.
 
 ---
 

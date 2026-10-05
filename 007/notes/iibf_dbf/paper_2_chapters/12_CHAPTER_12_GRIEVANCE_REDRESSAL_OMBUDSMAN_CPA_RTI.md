@@ -7,7 +7,7 @@ The customer protection architecture in banking operates across a tiered statuto
 ## § 12.1 Unit 19: The Reserve Bank - Integrated Ombudsman Scheme, 2021
 
 > **Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 19)**  
-> **Core Proposition:** Launched on 12 November 2021, RB-IOS integrates the earlier Banking Ombudsman Scheme (2006), Ombudsman for NBFCs (2018), and Ombudsman for Digital Transactions (2019) into a single unified 'One Nation One Ombudsman' framework.
+> **Core Proposition:** Launched on 12 November 2021, RB-IOS integrates the earlier Banking Ombudsman Scheme (2006), Ombudsman for NBFCs (2018), and Ombudsman for Digital Transactions (2019) into a single unified 'One Nation One Ombudsman' framework. *(Exam Cutoff Note: RB-IOS 2021 is the canonical benchmark governing the examination cycle through the 30 June 2026 regulatory freeze cutoff; subsequent revisions effective post-June 2026 fall outside this exam cycle).*
 
 ### 1. Master Operational Architecture of RB-IOS, 2021
 

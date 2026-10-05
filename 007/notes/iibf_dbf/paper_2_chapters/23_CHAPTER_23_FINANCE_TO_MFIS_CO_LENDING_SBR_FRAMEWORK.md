@@ -18,7 +18,7 @@ The non-banking financial sector complements commercial banking by expanding fin
 | **Collateral Security** | Strictly **COLLATERAL-FREE**. | Lenders cannot demand physical, financial, or third-party collateral/guarantees. |
 | **Prepayment Penalty** | **Strictly ZERO Prepayment Penalty**. | Borrowers can prepay at any time without fee or foreclosure charges. |
 | **Margin Cap Elimination** | Earlier margin caps (10% / 12%) were **completely abolished**. | Replaced by a Board-approved, risk-based transparent pricing policy. |
-| **Qualifying Assets for NBFC-MFIs** | Minimum **75% of total assets** of an NBFC-MFI must consist of microfinance loans. | Reduced from the earlier 85% requirement to facilitate asset diversification. |
+| **Qualifying Assets for NBFC-MFIs** | Minimum **60% of total assets** (net of intangible assets) must consist of microfinance loans *(RBI circular dated 6 June 2025)*. | Reduced from the earlier 75% requirement (and historical 85% rule) to foster portfolio diversification and financial resilience. |
 
 ---
 

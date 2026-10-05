@@ -26,6 +26,13 @@ export async function generateStaticParams() {
 
 export default async function SubjectPage({ params }: SubjectPageProps) {
   const { slug } = await params;
+  if (slug === '_empty') {
+    return (
+      <div className="max-w-5xl mx-auto px-4 py-12 text-center text-stone-500 font-mono text-sm">
+        No subjects configured in active database.
+      </div>
+    );
+  }
   const subject = await getSubjectWithTopics(slug);
 
   if (!subject) {

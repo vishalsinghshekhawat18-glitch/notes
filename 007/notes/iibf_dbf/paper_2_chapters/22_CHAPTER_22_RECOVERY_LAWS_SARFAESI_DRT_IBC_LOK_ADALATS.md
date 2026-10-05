@@ -25,12 +25,13 @@ The statutory debt recovery ecosystem provides institutional mechanisms for the 
   4. **Section 14 Assistance:** Bank can petition the Chief Metropolitan Magistrate (CMM) or District Magistrate (DM) to take physical possession of assets.
   5. **CERSAI Registration:** Mandatory registration of security interest on CERSAI portal within 30 days. Unregistered charges cannot be enforced under Chapter III of SARFAESI.
 
-> **Auditor Finding Fix — Precise Statutory Wording of Section 31(g) (H-11):**  
+> **P0 Statutory Precision — SARFAESI Section 31 Exemptions (India Code Baseline):**  
 > Under Section 31 of the SARFAESI Act, the provisions of the Act **SHALL NOT APPLY** to:
-> • **Section 31(g):** *"Any case in which the amount due is less than twenty per cent (20%) of the principal amount and interest thereon."* (Both principal and interest are part of the denominator).
+> • **Section 31(j):** *"Any case in which the amount due is less than twenty per cent (20%) of the principal amount and interest thereon."* (Both principal and interest form the denominator; often confused in exams with Section 31(g)).
+> • **Section 31(g):** Any properties not liable to attachment or sale under the first proviso to Section 60(1) of the Code of Civil Procedure, 1908.
 > • **Section 31(h):** Any security interest for securing repayment of any financial asset **not exceeding ₹1 Lakh**.
 > • **Section 31(i):** Any security interest created on **Agricultural Land**.
-> • **Section 31(a):** A lien on any goods, money, or security given by statute; a pledge of movables under Section 172 of Contract Act.
+> • **Section 31(a) & (b):** A statutory lien on goods, money, or securities; a pledge of movables under Section 172 of the Indian Contract Act.
 
 ---
 
@@ -55,9 +56,10 @@ The statutory debt recovery ecosystem provides institutional mechanisms for the 
 │                       │                       │ Adjudicated by NCLT; 330-day │
 │                       │                       │ statutory outer limit.      │
 ├───────────────────────┼───────────────────────┼─────────────────────────────┤
-│ **Lok Adalats**       │ Disputes **up to**    │ Consensual alternative dispute│
-│ **(LSA Act 1987)**    │ **₹20 Lakh**          │ resolution; award is deemed  │
-│                       │                       │ a Civil Court decree;       │
+│ **Lok Adalats**       │ Bank claims up to     │ Consensual alternative dispute│
+│ **(LSA Act 1987)**    │ **₹20 Lakh**          │ resolution; institutional & │
+│                       │ (Institutional / DRT  │ DRT referral ceiling; award │
+│                       │ referral limit)       │ is a Civil Court decree;    │
 │                       │                       │ **NO APPEAL LIES ANYWHERE**.│
 └───────────────────────┴───────────────────────┴─────────────────────────────┘
 ```
@@ -78,19 +80,19 @@ The statutory debt recovery ecosystem provides institutional mechanisms for the 
 
 ## § 22.3 High-Yield Examination Drill
 
-**Q1. Under Section 31(g) of the SARFAESI Act, 2002, in which of the following scenarios is a secured commercial bank legally BARRED from enforcing its security interest under the Act?**  
-A. When the security interest is created on a commercial factory  
+**Q1. [Statutory Benchmark] Under Section 31(j) of the SARFAESI Act, 2002, in which of the following scenarios is a secured commercial bank legally BARRED from enforcing its security interest under the Act?**  
+A. When the security interest is created on an urban commercial factory building  
 B. When the outstanding debt due is less than 20% of the principal amount and interest thereon  
 C. When the borrowing company is an MSME registered under the MSMED Act  
 D. When the loan was sanctioned without a personal guarantee  
 
-**Q2. Under the Recovery of Debts and Bankruptcy Act, 1993 (RDB Act), what is the minimum debt threshold mandated by the Central Government for a bank to file an original recovery application before the Debt Recovery Tribunal (DRT)?**  
+**Q2. [Numerical Assessment] Under the Recovery of Debts and Bankruptcy Act, 1993 (RDB Act), what is the minimum debt threshold mandated by the Central Government for a bank to file an original recovery application before the Debt Recovery Tribunal (DRT)?**  
 A. ₹10 Lakh  
 B. ₹20 Lakh  
 C. ₹50 Lakh  
 D. ₹1 Crore  
 
-**Q3. When a loan recovery dispute is resolved through a settlement award passed by a statutory Lok Adalat organized under the Legal Services Authorities Act, 1987, what is the appellate remedy available to the borrower or bank?**  
+**Q3. [Examiner Trap] When a loan recovery dispute is resolved through a settlement award passed by a statutory Lok Adalat organized under the Legal Services Authorities Act, 1987, what is the appellate remedy available to the borrower or bank?**  
 A. An appeal lies to the High Court within 30 days  
 B. An appeal lies to the Debt Recovery Appellate Tribunal (DRAT)  
 C. No appeal lies to any court or authority; the Lok Adalat award is final, binding, and deemed a civil court decree  
@@ -100,6 +102,6 @@ D. An appeal can be filed before the Supreme Court under Article 136
 
 ## § 22.4 Answer Key & Detailed Explanatory Rationale
 
-• **Q1 — Answer: B.** Under Section 31(g) of the SARFAESI Act, the provisions of the Act do not apply to any case where the amount due is **less than 20% of the principal amount and interest thereon**. (Other statutory exemptions include debts up to ₹1 Lakh and agricultural land).  
-• **Q2 — Answer: B.** The Central Government enhanced the minimum pecuniary jurisdiction threshold for filing an Original Application before the **Debt Recovery Tribunal (DRT)** to **₹20 Lakh** (from the earlier ₹10 Lakh). Debts below ₹20 Lakh are pursued through Civil Courts or Lok Adalats.  
-• **Q3 — Answer: C.** Section 21(2) of the Legal Services Authorities Act, 1987 provides that every award made by a Lok Adalat is final and binding on all parties to the dispute, and **no appeal shall lie to any court** against the award.
+• **Q1 — Answer: B.** Under **Section 31(j)** of the SARFAESI Act, 2002, the provisions of the Act do not apply to any case where the amount due is **less than 20% of the principal amount and interest thereon**. (Examiner Trap: Clause (g) exempts properties not liable to attachment under CPC Section 60; Clause (h) exempts debts up to ₹1 Lakh; Clause (i) exempts agricultural land; Clause (j) exempts debts less than 20% of principal + interest).  
+• **Q2 — Answer: B.** The Central Government enhanced the minimum pecuniary jurisdiction threshold for filing an Original Application before the **Debt Recovery Tribunal (DRT)** to **₹20 Lakh** (from the earlier ₹10 Lakh). Debts below ₹20 Lakh are pursued through Civil Courts or Lok Adalats (or SARFAESI if security exists).  
+• **Q3 — Answer: C.** Section 21(2) of the Legal Services Authorities Act, 1987 provides that every award made by a Lok Adalat is final and binding on all parties to the dispute, and **no appeal shall lie to any court** against the award. For banking matters, Lok Adalats handle pre-litigation and pending claims up to **₹20 Lakh** under institutional referral guidelines.
