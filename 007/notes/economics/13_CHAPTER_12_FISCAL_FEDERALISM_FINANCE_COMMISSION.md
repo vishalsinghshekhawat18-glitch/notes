@@ -230,11 +230,13 @@ Constituted under Article 280 on 31 December 2023, the **16th Finance Commission
 │                                 │ 3. Augmenting State Consolidated Funds for PRIs and ULBs.   │
 │                                 │ 4. Disaster management financing (NDRF/SDRF review).        │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Horizontal Calibrations**     │ Retains Income Distance (~45%) and Area (~15%), while       │
-│                                 │ recalibrating **Demographic Performance (10%)** using       │
-│                                 │ direct decadal population growth metrics rather than pure   │
-│                                 │ TFR, balancing southern demographic stability vs northern   │
-│                                 │ scale requirements.                                         │
+│ **Horizontal Devolution Formula**│ • **Income Distance**: **42.5%** (Equity anchor)            │
+│ **(2026–31 Quinquennium)**      │ • **Population (2011)**: **17.5%** (Scale factor)           │
+│                                 │ • **Demographic Performance**: **10.0%** (TFR reward)       │
+│                                 │ • **Area**: **10.0%** (Administrative cost parity)          │
+│                                 │ • **Forest & Ecology**: **10.0%** (Green carbon reward)     │
+│                                 │ • **Contribution to GDP**: **10.0%** (Efficiency incentive) │
+│                                 │ • *Tax & Fiscal Effort*: **Removed** (discontinued).        │
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
@@ -336,15 +338,24 @@ The remaining net proceeds are shared between Union and States (currently 41% to
 ```
 
 ```
-CARD 2: Detail the horizontal devolution formula of the 15th Finance Commission with exact percentage weights.
+CARD 2: Detail the horizontal devolution formulas of the 15th FC (Historical) and 16th FC (Current 2026–31) with exact weights.
 ANSWER:
-1. Income Distance: 45.0% (Equity)
-2. Population (2011 Census): 15.0% (Scale/Need)
-3. Area: 15.0% (Cost disability)
-4. Forest and Ecology: 10.0% (Ecological preservation)
-5. Demographic Performance: 12.5% (Reward for TFR control)
-6. Tax Effort: 2.5% (Fiscal efficiency)
-Total: 100%
+[HISTORICAL 15th FC (2021–26)]:
+1. Income Distance: 45.0%
+2. Population (2011 Census): 15.0%
+3. Area: 15.0%
+4. Forest and Ecology: 10.0%
+5. Demographic Performance: 12.5%
+6. Tax Effort: 2.5% (Total = 100%)
+
+[CURRENT 16th FC (2026–31)]:
+1. Income Distance: 42.5% (Equity anchor)
+2. Population (2011 Census): 17.5% (Scale requirement)
+3. Demographic Performance: 10.0% (Fertility control reward)
+4. Area: 10.0% (Administrative cost parity)
+5. Forest & Ecology: 10.0% (Green carbon reward)
+6. Contribution to GDP: 10.0% (Efficiency incentive; replaces historical Tax Effort)
+Total = 100% (Vertical Devolution retained at 41%).
 ```
 
 ```

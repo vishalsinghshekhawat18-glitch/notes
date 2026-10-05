@@ -170,6 +170,12 @@ export const CHAPTERS_REGISTRY: ChapterMeta[] = [
     shortHeader: 'CHAPTER 26 : THE GRAND SYNTHESIS REVISION VAULT',
     fullTitle: 'THE GRAND SYNTHESIS: MASTER CONSOLIDATED REVISION VAULT',
   },
+  {
+    index: 27,
+    filename: '29_CHAPTER_27_ECONOMY_OF_RAJASTHAN.md',
+    shortHeader: 'CHAPTER 27 : ECONOMY OF RAJASTHAN (RPSC RAS)',
+    fullTitle: 'ECONOMY OF RAJASTHAN: GSDP, SECTORAL ARCHITECTURE & REFORMS',
+  },
 ];
 
 export function transformChapterMarkdown(rawMarkdown: string, meta: ChapterMeta, assetsDir: string): string {

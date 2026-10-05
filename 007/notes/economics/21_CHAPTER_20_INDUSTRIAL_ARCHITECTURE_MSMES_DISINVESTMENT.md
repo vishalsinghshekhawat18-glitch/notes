@@ -89,9 +89,13 @@ To understand why independent India selected its capital-goods-led industrial tr
 │ *(The Liberalization Era)*      │    industrial licensing for all but 4 hazardous/security    │
 │                                 │    industries (Aerospace/defense, explosives, hazardous     │
 │                                 │    chemicals, specified tobacco).                           │
-│                                 │ 2. **Dereservation of Public Sector**: Slashed the public   │
-│                                 │    monopoly from 17 sectors down to just **2 sectors**:     │
-│                                 │    *(i) Atomic Energy, and (ii) Railway Operations*.        │
+│                                 │ 2. **Dereservation of Public Sector**: Slashed statutory    │
+│                                 │    exclusive public reservation from 17 sectors down to just│
+│                                 │    **2 core reserved sectors**: *(i) Atomic Energy*         │
+│                                 │    (core fission/fuel cycle operations), and *(ii) Railway  │
+│                                 │    Operations* (core sovereign track and traffic operations;│
+│                                 │    ancillary activities like wagon leasing, dedicated freight│
+│                                 │    corridors, and station redevelopment permit private PPP).│
 │                                 │ 3. **MRTP Liberalization**: Scrapped pre-entry investment   │
 │                                 │    asset thresholds for large business houses.              │
 │                                 │ 4. **Automatic Approval for FDI**: Up to 51% in priority.   │
@@ -118,21 +122,21 @@ Zero distinction between goods & services;                          Annual Turno
 both governed by the exact same thresholds!                         proportionately to investment!
 ```
 
-#### Dual-Layer Comparative Framework: Historical vs Current Live Series
+#### Dual-Layer Comparative Framework: Current Live Series vs. Historical Benchmark
 
 ```
 ┌─────────────────────────┬───────────────────────────────────────────┬───────────────────────────────────────────┐
-│ Enterprise Category     │ [HISTORICAL BENCHMARK: July 2020 Series]  │ [CURRENT 2026 LIVE SERIES: April 2025]    │
-│                         │ (Plant & Machinery Capex / Turnover)      │ (Revised Thresholds for Scale)            │
+│ Enterprise Category     │ [CURRENT LIVE SERIES: Effective April 2025│ [HISTORICAL BENCHMARK: July 2020 Series]  │
+│                         │  Primary Memorization Standard for Scale] │ (Frequently Tested in Older PYQs)         │
 ├─────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
-│ **1. MICRO ENTERPRISE** │ Investment $\le$ **₹1 Crore**   AND       │ Investment $\le$ **₹2.5 Crore** AND       │
-│                         │ Turnover $\le$ **₹5 Crore**               │ Turnover $\le$ **₹10 Crore**              │
+│ **1. MICRO ENTERPRISE** │ Investment $\le$ **₹2.5 Crore** AND       │ Investment $\le$ **₹1 Crore**   AND       │
+│                         │ Turnover $\le$ **₹10 Crore**              │ Turnover $\le$ **₹5 Crore**               │
 ├─────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
-│ **2. SMALL ENTERPRISE** │ Investment $\le$ **₹10 Crore**  AND       │ Investment $\le$ **₹25 Crore**  AND       │
-│                         │ Turnover $\le$ **₹50 Crore**              │ Turnover $\le$ **₹100 Crore**             │
+│ **2. SMALL ENTERPRISE** │ Investment $\le$ **₹25 Crore**  AND       │ Investment $\le$ **₹10 Crore**  AND       │
+│                         │ Turnover $\le$ **₹100 Crore**             │ Turnover $\le$ **₹50 Crore**              │
 ├─────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
-│ **3. MEDIUM ENTERPRISE**│ Investment $\le$ **₹50 Crore**  AND       │ Investment $\le$ **₹125 Crore** AND       │
-│                         │ Turnover $\le$ **₹250 Crore**             │ Turnover $\le$ **₹500 Crore**             │
+│ **3. MEDIUM ENTERPRISE**│ Investment $\le$ **₹125 Crore** AND       │ Investment $\le$ **₹50 Crore**  AND       │
+│                         │ Turnover $\le$ **₹500 Crore**             │ Turnover $\le$ **₹250 Crore**             │
 └─────────────────────────┴───────────────────────────────────────────┴───────────────────────────────────────────┘
 ```
 

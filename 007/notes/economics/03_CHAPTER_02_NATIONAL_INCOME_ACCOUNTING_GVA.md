@@ -366,7 +366,7 @@ $$\text{Output Gap} = \text{Actual GDP } (Y) - \text{Potential GDP } (Y^*)$$
 * **The 2015 Pricing Ladder**:
   * $\text{Basic Price} = \text{Factor Cost} + \text{Production Taxes} - \text{Production Subsidies}$
   * $\text{Market Price} = \text{Basic Price} + \text{Product Taxes} - \text{Product Subsidies}$
-* **Headline Metric**: Headline GDP is **GDP at Market Price** (constant 2011-12 prices); Sectoral is **GVA at Basic Price**.
+* **Headline Metric**: Headline GDP is **GDP at Market Price** (`[CURRENT]`: measured at constant 2022–23 prices; `[HISTORICAL]`: constant 2011–12 prices); Sectoral output is **GVA at Basic Price**.
 * **Deflator**: $\frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100$ (Comprehensive, changing weights, domestic only).
 * **ICOR**: $\frac{I}{\Delta Y}$. Lower ICOR = Higher Capital Efficiency. $g = \frac{s}{\text{ICOR}}$.
 * **Output Gap**: $\text{Actual GDP} - \text{Potential GDP}$. Positive = Inflation pressure; Negative = Economic slack.

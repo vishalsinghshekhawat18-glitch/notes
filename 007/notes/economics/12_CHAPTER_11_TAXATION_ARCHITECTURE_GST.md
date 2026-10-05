@@ -132,12 +132,25 @@ Total Tax Revenue
 
 ## 11.3 Direct Taxation Architecture in India
 
+> ### 🏛️ CURRENT DIRECT-TAX STATUTORY REFORM BOX: THE INCOME-TAX ACT, 2025
+> * **Enactment & Effective Date**: The Parliament enacted the comprehensive **Income-tax Act, 2025**, which officially came into force on **1 April 2026**, completely repealing and replacing the historic but overly complex **Income-tax Act, 1961**.
+> * **Subordinate Legislation**: Operationalized alongside the newly notified **Income-tax Rules, 2026**, replacing the Income-tax Rules, 1962.
+> * **Legislative Rationale**: Over six decades, the 1961 Act had accumulated thousands of amendments, provisos, explanations, and transitional riders, ballooning into dense legalese prone to pervasive litigation. The 2025 Act executes a structural overhaul focused on **plain language, logical modularity, and systemic compression**.
+> * **Structural Transition vs. Policy Continuity**:
+>   * *What Changed Structurally*: Codification of the **Faceless Assessment & Digital Appeals Architecture** directly into the core statutory body; rationalized terminology (modernizing historical dual concepts of "Previous Year" and "Assessment Year" into a unified tax year framework); harmonized limitation periods for reassessment; and substantial reduction of penalty/prosecution friction.
+>   * *What Remained Constant*: Substantive tax incidence, personal income tax slab schedules, the corporate tax rate structure (e.g., 22% concessional rate), and bilateral tax treaty protections remain fully preserved to guarantee macroeconomic and fiscal stability.
+> * **Historical Section Crosswalk (PYQ / Exam Navigation)**:
+>   * *Old Act §115BAC* (Default Personal Concessional Regime) $\longrightarrow$ Now the codified primary individual baseline.
+>   * *Old Act §115BAA* (22% Concessional Domestic Corporate Tax) $\longrightarrow$ Codified standard corporate tax regime.
+>   * *Old Act §115JB* (Minimum Alternate Tax / MAT) $\longrightarrow$ Codified book-profit minimum baseline (15%).
+>   * *Old Act §56(2)(viib)* ("Angel Tax" on unlisted startups) $\longrightarrow$ **Fully Abolished** by Parliament.
+
 ### 1. Personal Income Tax (PIT): The Dual-Regime Architecture
-Since the Finance Act, 2020, India has operated a two-track personal income tax framework:
+Since the Finance Act, 2020 (and preserved as the core baseline under the Income-tax Act, 2025), India operates a two-track personal income tax framework:
 
 ```
 ┌───────────────────────────────────────────────┬───────────────────────────────────────────────┐
-│ Old Tax Regime                                │ New Tax Regime (Section 115BAC)               │
+│ Old Tax Regime                                │ New Default Tax Regime (ex-Section 115BAC)    │
 ├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
 │ • Higher marginal tax slab rates.             │ • Significantly lower, streamlined slab rates.│
 │ • Retains ~70 exemptions and deductions:      │ • Almost all deductions eliminated (No 80C,   │

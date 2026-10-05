@@ -18,22 +18,23 @@ const EXACT_TOC_MAPPING = [
   { ch: 8, start: 54, end: 58, pages: 5 },
   { ch: 9, start: 59, end: 67, pages: 9 },
   { ch: 10, start: 68, end: 75, pages: 8 },
-  { ch: 11, start: 76, end: 83, pages: 8 },
-  { ch: 12, start: 84, end: 88, pages: 5 },
-  { ch: 13, start: 89, end: 94, pages: 6 },
-  { ch: 14, start: 95, end: 101, pages: 7 },
-  { ch: 15, start: 102, end: 106, pages: 5 },
-  { ch: 16, start: 107, end: 109, pages: 3 },
-  { ch: 17, start: 110, end: 116, pages: 7 },
-  { ch: 18, start: 117, end: 123, pages: 7 },
-  { ch: 19, start: 124, end: 131, pages: 8 },
-  { ch: 20, start: 132, end: 140, pages: 9 },
-  { ch: 21, start: 141, end: 148, pages: 8 },
-  { ch: 22, start: 149, end: 155, pages: 7 },
-  { ch: 23, start: 156, end: 162, pages: 7 },
-  { ch: 24, start: 163, end: 167, pages: 5 },
-  { ch: 25, start: 168, end: 172, pages: 5 },
-  { ch: 26, start: 173, end: 190, pages: 18 },
+  { ch: 11, start: 76, end: 84, pages: 9 },
+  { ch: 12, start: 85, end: 90, pages: 6 },
+  { ch: 13, start: 91, end: 96, pages: 6 },
+  { ch: 14, start: 97, end: 103, pages: 7 },
+  { ch: 15, start: 104, end: 108, pages: 5 },
+  { ch: 16, start: 109, end: 111, pages: 3 },
+  { ch: 17, start: 112, end: 118, pages: 7 },
+  { ch: 18, start: 119, end: 125, pages: 7 },
+  { ch: 19, start: 126, end: 135, pages: 10 },
+  { ch: 20, start: 136, end: 144, pages: 9 },
+  { ch: 21, start: 145, end: 152, pages: 8 },
+  { ch: 22, start: 153, end: 159, pages: 7 },
+  { ch: 23, start: 160, end: 166, pages: 7 },
+  { ch: 24, start: 167, end: 171, pages: 5 },
+  { ch: 25, start: 172, end: 176, pages: 5 },
+  { ch: 26, start: 177, end: 195, pages: 19 },
+  { ch: 27, start: 196, end: 202, pages: 7 },
 ];
 
 export function buildTableOfContentsHtml(): string {
@@ -275,7 +276,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • Shelf 007 Bastion</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">26 Chapters • 190 Pages</div>
+      <div class="meta-tag">27 Chapters • 202 Pages</div>
     </div>
 
     <!-- PART I -->
@@ -389,7 +390,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 68</span>
       </div>
-      <div class="chapter-subtopics">Constitutional Funds (Articles 266 &amp; 267) • Fiscal &amp; Primary Deficits • N.K. Singh 60% Debt Targets</div>
+      <div class="chapter-subtopics">Constitutional Funds (Articles 266 &amp; 267) • Fiscal Deficit • N.K. Singh 60% Debt • Union Budget 2026-27 Anchor (4.1%)</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
@@ -398,16 +399,16 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 76</span>
       </div>
-      <div class="chapter-subtopics">Direct vs. Indirect Taxes • GST Council 75% Weighted Majority • Input Tax Credit • Corporate Tax Reforms</div>
+      <div class="chapter-subtopics">Income-tax Act, 2025 (Effective 1 April 2026) • Rules 2026 • GST Council 75% Majority • ITC • Corporate Tax 22%</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 12</span>
         <span class="chapter-name">Fiscal Federalism, Finance Commission &amp; Relations</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 84</span>
+        <span class="chapter-locator">p. 85</span>
       </div>
-      <div class="chapter-subtopics">Article 270 Divisible Pool • 15th FC 41% Vertical Devolution • Horizontal Criteria • Article 293(3) Consent</div>
+      <div class="chapter-subtopics">Article 270 Divisible Pool • 16th FC (2026–31, 41% Vertical) • Final Horizontal Formula (Income Dist 42.5%) • Article 293(3)</div>
     </div>
 
     <!-- PART V (START) -->
@@ -420,13 +421,13 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 13</span>
         <span class="chapter-name">Inflation: Mechanisms, Theories &amp; Indices (CPI vs WPI)</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 89</span>
+        <span class="chapter-locator">p. 91</span>
       </div>
-      <div class="chapter-subtopics">Headline vs Core • CPI Combined (2012 Base, 45.86% Food) vs WPI (2011-12 Base, Zero Services) • Phillips Curve</div>
+      <div class="chapter-subtopics">Headline vs Core • CPI 2024 Series (358 Items) vs 2012 Base • FIT 4% ± 2% (2026–31) • WPI 697 Items • Phillips Curve</div>
     </div>
   </div>
 
-  <!-- ==================== TOC SHEET 2 (PARTS V CONTD TO IX: CHAPTERS 14 TO 26) ==================== -->
+  <!-- ==================== TOC SHEET 2 (PARTS V CONTD TO X: CHAPTERS 14 TO 27) ==================== -->
   <div class="toc-sheet">
     <!-- PART V (CONTD) -->
     <div class="part-banner" style="margin-top: 0;">
@@ -438,16 +439,16 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 14</span>
         <span class="chapter-name">Employment Dynamics, Periodic Labour Force Survey &amp; Types</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 95</span>
+        <span class="chapter-locator">p. 97</span>
       </div>
-      <div class="chapter-subtopics">Unemployment Rate Formula • UPSS vs CWS 1-Hour Rule • Disguised MPL=0 • Demographic Dividend</div>
+      <div class="chapter-subtopics">Unemployment Rate Formula • UPSS vs CWS 1-Hour Rule • Disguised MPL=0 • Demographic Dividend (2018-2055)</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 15</span>
         <span class="chapter-name">Poverty Estimation Methodologies &amp; Inequality Metrics</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 102</span>
+        <span class="chapter-locator">p. 104</span>
       </div>
       <div class="chapter-subtopics">Tendulkar MRP Poverty Line (21.9%) • Rangarajan Methodology • Lorenz Curve &amp; Gini Coefficient</div>
     </div>
@@ -462,7 +463,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 16</span>
         <span class="chapter-name">Balance of Payments (BoP) Architecture: Current &amp; Capital</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 107</span>
+        <span class="chapter-locator">p. 109</span>
       </div>
       <div class="chapter-subtopics">Current Account (Trade + Invisibles) • Capital Account • Arvind Mayaram 10% FDI Rule • Forex Hierarchy</div>
     </div>
@@ -471,18 +472,18 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 17</span>
         <span class="chapter-name">Forex Dynamics, NEER, REER &amp; Currency Convertibility</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 110</span>
+        <span class="chapter-locator">p. 112</span>
       </div>
-      <div class="chapter-subtopics">NEER &amp; REER Valuation • Current Account Convertibility (1994) • Capital Convertibility • FTP 2023</div>
+      <div class="chapter-subtopics">NEER &amp; REER Valuation • Current Account Convertibility (1994) • Capital Convertibility • FTP 2023 • SRVA</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 18</span>
         <span class="chapter-name">International Economic Organizations: IMF, World Bank, WTO</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 117</span>
+        <span class="chapter-locator">p. 119</span>
       </div>
-      <div class="chapter-subtopics">IMF SDR Basket • World Bank Group (India Non-Membership in ICSID) • WTO Agreement on Agriculture Boxes</div>
+      <div class="chapter-subtopics">IMF SDR Basket • World Bank Group (India Non-Membership in ICSID) • WTO AoA Boxes • Appellate Body / MPIA</div>
     </div>
 
     <!-- PART VII -->
@@ -493,29 +494,29 @@ export function buildTableOfContentsHtml(): string {
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 19</span>
-        <span class="chapter-name">Indian Agriculture: Capital Formation, Pricing (MSP)</span>
+        <span class="chapter-name">Indian Agriculture, MSP &amp; Rural Economy (NABARD ARD Suite)</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 124</span>
+        <span class="chapter-locator">p. 126</span>
       </div>
-      <div class="chapter-subtopics">86.2% Small/Marginal Landholdings • CACP 23 Crops • Govt 1.5*(A2+FL) vs Swaminathan C2+50% • Sugarcane FRP</div>
+      <div class="chapter-subtopics">86.2% Small/Marginal • CACP 23 Crops • NABARD Refinance • 3-Tier STCCS (PACS) • RIDF • PMFBY • e-NAM &amp; e-NWRs</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 20</span>
         <span class="chapter-name">Industrial Architecture, MSMEs, Disinvestment &amp; Policy</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 132</span>
+        <span class="chapter-locator">p. 136</span>
       </div>
-      <div class="chapter-subtopics">MSME 2020 Composite Criteria (Excluding Exports) • Atomic &amp; Rail Monopoly • 8 Core Industries (40.27%)</div>
+      <div class="chapter-subtopics">April 2025 MSME Criteria (₹2.5/₹25/₹125 Cr) • Export Turnover Excluded • 9-Core Industries (Iron Ore) • Atomic/Rail Reservation</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 21</span>
         <span class="chapter-name">Infrastructure, PM GatiShakti &amp; Energy Transition</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 141</span>
+        <span class="chapter-locator">p. 145</span>
       </div>
-      <div class="chapter-subtopics">HAM (40% Cash / NHAI 100% Traffic Risk) • National Logistics Policy • COP26 Panchamrit (2070 Net-Zero)</div>
+      <div class="chapter-subtopics">HAM (40% Cash / NHAI Traffic Risk) • National Logistics Policy • COP26 Panchamrit (2070 Net-Zero) • Carbon Market</div>
     </div>
 
     <!-- PART VIII -->
@@ -528,7 +529,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 22</span>
         <span class="chapter-name">Economic Planning History, Five-Year Plans &amp; NITI Aayog</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 149</span>
+        <span class="chapter-locator">p. 153</span>
       </div>
       <div class="chapter-subtopics">Planning Commission History • NITI Aayog Think-Tank Architecture • 112 Aspirational Districts (3Cs)</div>
     </div>
@@ -537,16 +538,16 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 23</span>
         <span class="chapter-name">Labor Law Architecture, IR &amp; Four New Labor Codes</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 156</span>
+        <span class="chapter-locator">p. 160</span>
       </div>
-      <div class="chapter-subtopics">50% Wage-Allowance Rule • 300-Worker Retrenchment • 1-Year Fixed-Term Gratuity • Gig Worker Aggregator Levy</div>
+      <div class="chapter-subtopics">21 Nov 2025 Implementation • 50% Wage-Allowance Rule • 300-Worker Retrenchment • 1-Year FTE Gratuity • Gig Fund</div>
     </div>
     <div class="chapter-row">
       <div class="chapter-main-line">
         <span class="chapter-num">Ch. 24</span>
         <span class="chapter-name">Urbanization, Demographic Transition &amp; Migration</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 163</span>
+        <span class="chapter-locator">p. 167</span>
       </div>
       <div class="chapter-subtopics">Census Towns (5000 / 75% Non-Agri / 400 density) • Census 2011 (31.16% Urban) • Harris-Todaro Model</div>
     </div>
@@ -555,9 +556,9 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 25</span>
         <span class="chapter-name">Social Structure, Multiculturalism, Secularism &amp; Pluralism</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 168</span>
+        <span class="chapter-locator">p. 172</span>
       </div>
-      <div class="chapter-subtopics">Kymlicka Group-Differentiated Rights • Principled Distance Secularism • Articles 15, 25-30 • Affirmative Action</div>
+      <div class="chapter-subtopics">Kymlicka Group Rights • Principled Distance Secularism • 11 Classical Languages • Articles 15, 25-30 • Affirmative Action</div>
     </div>
 
     <!-- PART IX -->
@@ -570,9 +571,24 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 26</span>
         <span class="chapter-name">The Grand Synthesis: Master Revision &amp; Diagnostic Vault</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 173</span>
+        <span class="chapter-locator">p. 177</span>
       </div>
-      <div class="chapter-subtopics">60-Second Skeletons (Ch 01-25) • 10 Comparative Matrices • 35 Examiner Traps • 72 Diagnostic Active Recall Cards</div>
+      <div class="chapter-subtopics">60-Second Skeletons (Ch 01-27) • 10 Comparative Matrices • 35 Examiner Traps • 72 Diagnostic Active Recall Cards</div>
+    </div>
+
+    <!-- PART X -->
+    <div class="part-banner">
+      <span class="part-title">Part X : State Economic Architecture (RPSC RAS Master Block)</span>
+      <span class="part-tag">Chapter 27</span>
+    </div>
+    <div class="chapter-row">
+      <div class="chapter-main-line">
+        <span class="chapter-num">Ch. 27</span>
+        <span class="chapter-name">Economy of Rajasthan: GSDP, Sectors, Infrastructure &amp; Reforms</span>
+        <span class="leader-dots"></span>
+        <span class="chapter-locator">p. 196</span>
+      </div>
+      <div class="chapter-subtopics">GSDP / NSDP / PCI • 6th SFC Devolution (75.1% PRI) • IGNP &amp; ERCP/PKC • 20th Livestock Census • RIICO / RIPS 2024 / MSME Act 2019 • Pachpadra Refinery (9 MMTPA) • Solar Superpower (>20 GW) • MAAY &amp; Jan Soochna</div>
     </div>
   </div>
 
@@ -1186,13 +1202,13 @@ export async function mergeFullBookPdf(
     console.log(`✓ Added Table of Contents: ${tocPages.length} pages`);
   }
 
-  // 3. Append Body Chapters (190 Continuous Pages)
+  // 3. Append Body Chapters (202 Continuous Pages)
   if (fs.existsSync(bodyPdfPath)) {
     const bodyBytes = fs.readFileSync(bodyPdfPath);
     const bodyDoc = await PDFDocument.load(bodyBytes);
     const bodyPages = await mergedPdf.copyPages(bodyDoc, bodyDoc.getPageIndices());
     bodyPages.forEach(p => mergedPdf.addPage(p));
-    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 190)`);
+    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 202)`);
   }
 
   const finalBytes = await mergedPdf.save();
@@ -1227,9 +1243,9 @@ async function main() {
   }
   console.log(`✓ Table of Contents PDF ready: ${tocPdfPath}`);
 
-  // 2. Assemble Unified Continuous Body PDF (Pages 1 to 190)
-  console.log(`\n[2/3] Assembling Continuous 26-Chapter Master Body PDF (190 Pages)...`);
-  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_190P_A4_BW.pdf');
+  // 2. Assemble Unified Continuous Body PDF (Pages 1 to 202)
+  console.log(`\n[2/3] Assembling Continuous 27-Chapter Master Body PDF (202 Pages)...`);
+  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_202P_A4_BW.pdf');
   await assembleContinuousBodyPdf(printDesignerDir, bodyPdfPath);
 
   // 3. Merge Front Matter + TOC + Body into Master Monograph

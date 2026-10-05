@@ -82,7 +82,7 @@ Article 112(2) statutorily divides all expenditures of the Consolidated Fund of 
    * **Rule**: Without an Appropriation Act, the Government cannot spend a single rupee from the Treasury after 31st March.
 2. **The Finance Bill (Article 110 - Money Bill)**:
    * Legalizes the Government's taxation proposals for the upcoming year (income tax slabs, customs duties, excise adjustments).
-   * Under the *Provisional Collection of Taxes Act, 2023* (which repealed and replaced the 1931 Act), declared taxation proposals take **immediate temporary legal effect upon introduction for a maximum statutory window of 75 days**. This authorizes immediate tax collection pending debate, but if the Finance Bill is not enacted into law within this 75-day period, the provisional authority automatically lapses.
+   * Under the *Provisional Collection of Taxes Act, 2023* (which repealed and replaced the colonial 1931 Act), temporary legal force for a maximum statutory window of **75 days** is **conditional and proposal-specific**. It applies strictly to **declared proposals** (primarily customs duties, excise levies, and specific rate adjustments where an explicit statutory declaration is made in the Bill) to prevent speculative hoarding and market manipulation pending legislative debate. It is **not a blanket 75-day provisional enactment of the entire Finance Bill**. If Parliament does not pass the Finance Bill within 75 days, the declared provisional authority automatically lapses and any excess collected must be refunded.
 
 ---
 
@@ -241,9 +241,19 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
 4. **Structural Reforms** in the economy with substantial fiscal implications (e.g. GST rollout).
 5. **Sharp Decline in Real GDP Growth**: A decline in real GDP growth of at least **3 percentage points below the average** of the previous four quarters.
 
-### The Post-COVID Fiscal Consolidation Glide Path
-Following the COVID-19 pandemic, India's fiscal deficit spiked to **9.2% of GDP in FY 2020–21**. In the Union Budget 2021–22, Finance Minister Nirmala Sitharaman announced a revised statutory fiscal consolidation glide path:
-$$\text{Target}: \quad \text{Reach a Fiscal Deficit below } \mathbf{4.5\% \text{ of GDP by FY 2025–26}}$$
+### The Three-Layer Fiscal Consolidation Framework
+
+1. **Layer 1: N.K. Singh Review Committee (2017) Historical Benchmark**:
+   * Debt-to-GDP Ceiling: **60% General Government** (40% Central Government + 20% State Governments) targeted by FY 2022–23.
+   * Fiscal Deficit: Recommended 2.5% of GDP by FY 2022–23 (interrupted by macroeconomic shocks and the COVID-19 pandemic).
+
+2. **Layer 2: Post-COVID Consolidation Glide Path (FY 2021–22 to FY 2025–26)**:
+   * Following the pandemic shock when Central Fiscal Deficit surged to **9.2% of GDP in FY 2020–21**, the Union Budget 2021–22 anchored an explicit glide path:
+   $$\text{Target}: \quad \text{Reach Fiscal Deficit } \mathbf{< 4.5\% \text{ of GDP by FY 2025–26}} \quad \implies \text{Achieved at 4.4\% in FY 2025–26}$$
+
+3. **Layer 3: Current Union Budget 2026–27 Macro Strategy & Debt Anchor**:
+   * **Transition to Debt-Stabilizing Framework**: Commencing FY 2026–27, sovereign fiscal policy transitions from targeting rigid annual nominal deficit ratios to a **Declining Sovereign Debt-to-GDP Anchor** (targeting Central Government debt reduction toward $50\%$ of GDP over the medium term).
+   * **FY 2026–27 Fiscal Deficit Target**: Budgeted at **4.1% of GDP**, supported by capex-led public investment and robust direct-tax buoyancy, continuing structural fiscal consolidation without triggering growth-depressing fiscal drag.
 
 ---
 
@@ -309,8 +319,8 @@ $$\text{Target}: \quad \text{Reach a Fiscal Deficit below } \mathbf{4.5\% \text{
   * $\mathbf{\text{Primary Deficit}} = \text{Fiscal Deficit} - \text{Interest Payments}$.
 * **FRBM & N.K. Singh (2017)**:
   * Debt Anchor: **60% of GDP** (40% Center, 20% States).
-  * Escape Clause: Up to **0.5% GDP deviation** (War, disaster, agriculture collapse, structural reform, growth drop $\ge 3\%$).
-  * Post-COVID Glide Path: **Below 4.5% of GDP by FY 2025–26**.
+  * Post-COVID Glide Path: **Target < 4.5% by FY 2025–26 (Achieved at 4.4%)**.
+  * Union Budget 2026–27 Anchor: **4.1% of GDP**, shifting to medium-term debt reduction ($\le 50\%$ Central Debt/GDP).
 
 ---
 

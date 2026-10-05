@@ -149,15 +149,23 @@ India's linguistic diversity encompasses four major language families:
 - **71st Amendment (1992)**: Added **Konkani, Manipuri, Nepali** (KMN).
 - **92nd Amendment (2003)**: Added **Bodo, Dogri, Maithili, Santhali** (BDMS).
 
-#### The Six Classical Languages of India
-Languages recognized by the Government of India as possessing classical status based on strict historical antiquity (1,500–2,000 years of recorded history, original literary tradition, distinct ancient poetry):
-1. **Tamil** (Declared 2004)
-2. **Sanskrit** (Declared 2005)
-3. **Kannada** (Declared 2008)
-4. **Telugu** (Declared 2008)
-5. **Malayalam** (Declared 2013)
-6. **Odia** (Declared 2014)  
-*(In October 2024, Union Cabinet conferred Classical Language status to 5 more languages: Marathi, Pali, Prakrit, Assamese, and Bengali).*
+#### The 11 Classical Languages of India
+Languages recognized by the Government of India as possessing classical status based on strict statutory criteria (high antiquity of early texts/recorded history spanning 1,500–2,000 years, a body of ancient literature considered valuable heritage, and an original literary tradition not borrowed from another speech community):
+
+* **[CURRENT SOVEREIGN TOTAL: 11 CLASSICAL LANGUAGES]**:
+  1. **Tamil** (Declared 2004 — First language recognized)
+  2. **Sanskrit** (Declared 2005)
+  3. **Kannada** (Declared 2008)
+  4. **Telugu** (Declared 2008)
+  5. **Malayalam** (Declared 2013)
+  6. **Odia** (Declared 2014)
+  7. **Marathi** (Conferred October 2024)
+  8. **Pali** (Conferred October 2024)
+  9. **Prakrit** (Conferred October 2024)
+  10. **Assamese** (Conferred October 2024)
+  11. **Bengali** (Conferred October 2024)
+
+*(Note for PYQ Cross-Reference: Older examination questions frequently test the 'Original Six' languages recognized between 2004 and 2014; the current 2026 baseline is **11**).*
 
 ---
 
