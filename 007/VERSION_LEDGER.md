@@ -17,6 +17,36 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v019 — Book 03: IIBF DB&F / JAIIB Paper 2 (PPB) Sovereign Master Codex Forensic Remediation & Certification (PASS 100/100)
+* **Release Date**: 2026-10-05
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: 100% Certified Sovereign Master Print Codex (`007_Book_03_IIBF_Paper_2_PPB_Master_Codex_A4_BW.pdf`)
+* **Audit Score**: **100 / 100 (GREEN LIGHT FOR PRINTING)** — All 10 Certification Gates passed.
+* **Stop-Ship Defects Repaired**: Remediated P0 defects C-01 to C-10 and High-Risk defects H-01 to H-12 from the forensic audit report.
+* **Syllabus & Curricular Architecture**:
+  - Full official IIBF 2026 Rules & Syllabus Dual-Coverage Framework across Modules A, B, C, D (All 55 Units covered).
+  - Expanded from old 21-chapter / 63-page draft into **30 Comprehensive Master Chapters** spanning **104 continuous body pages** (108 total pages including 2 Front Matter + 2 Table of Contents).
+  - Module A: Chapters 01 to 12 (Units 01 to 21) covering General Banking Operations, AML/KYC, Corporate charges, Lockers, FEMA, Clean Note Policy, NI Act, CTS, Ancillary Services, Financial Inclusion, Customer Service, Ombudsman, CPA 2019, and RTI Act.
+  - Module B: Chapters 13 to 23 (Units 22 to 41) covering Lending Principles, Credit Appraisal (Nayak & Tandon methods), Collaterals & Mortgages, Indemnity & Bank Guarantees, Letters of Credit (UCPDC 600), Retail Credit, Priority Sector Lending (PSL 2025/2026), Agricultural Credit, MSME & CGTMSE, NPA Management (IRAC norms), Debt Recovery (SARFAESI, DRT, IBC, Lok Adalats), MFI regulations, Co-Lending, and NBFC Scale-Based Regulation (SBR).
+  - Module C: Chapters 24 to 27 (Units 42 to 50) covering Core Banking Systems (CBS), Delivery Channels (ATMs, WLAs, POS), NPCI Digital Rails (IMPS, UPI, AePS, NACH, e-RUPI, CBDC Digital Rupee e₹, Account Aggregators), and Cybersecurity (CISO, SOC, BCP/DR, Gopalakrishnan Report, IT Act 2000).
+  - Module D: Chapters 28 and 29 (Units 51 to 55) dedicated deep coverage of Ethics in Banking, Business Values, Corporate Governance collapses (Enron, Satyam, PNB-SWIFT, Wells Fargo), Employee Ethics, POSH Act 2013, Whistleblowing (Companies Act Sec 177), DPDP Act 2023, and IPR/Patents.
+  - Capstone: Chapter 30 (The Grand Synthesis: 55-Unit Reconciled Fast-Recall Ledger, 50 Master Examiner Traps for PPB, and Master Diagnostic Capstone Drill).
+* **Currency & Live Regulatory Baseline**:
+  - Banking Laws (Amendment) Act, 2025: Codified up to four (4) simultaneous nominees with specified percentage shares and affirmed nominee's legal status as a trustee for legal heirs.
+  - Priority Sector Lending (PSL) 2025/2026: Sub-target for lending to Micro Enterprises strictly verified as 7.5% of ANBC (eliminating obsolete 8% distractors).
+  - Companies Act, 2013: Section 77 charge registration timeline codified as 30 days + 30 days additional + 60 days ad-valorem (120 days total) before Regional Director condonation (Section 87).
+  - Indian Contract Act, 1872: Bank guarantee claim period doctrine under Exception 3 to Section 28 (minimum 1 year from validity expiry) explicitly disentangled from Limitation Act periods (3 years private, 30 years government).
+  - Cheque Truncation System (CTS): Codified continuous grid clearing with on-realisation settlement and Positive Pay System (PPS).
+  - KYC Master Directions (June 12, 2025 Amendments): Codified outer operational relaxation window up to June 30, 2026 for overdue low-risk accounts with BC-enabled self-declaration.
+  - SARFAESI Act, 2002: Codified Section 31(g) exemption where remaining debt is < 20% of principal + interest.
+  - Digital Payments & Consumer Protection: Codified 3-day zero customer liability rule for third-party breaches, failed ATM T+5 auto-reversal with ₹100/day penalty, e-RUPI ₹1,00,000 voucher cap, DPDP Act 2023 ₹250 Crore penalty, and POSH Act 50% women Internal Committee quorum.
+* **Typographic & Layout Engineering**:
+  - Strict ISO A4 portrait geometry (595.28 × 841.89 pt) across all 108 pages.
+  - 0 Emojis detected across all 30 markdown source files.
+  - Double-stacked folios completely eliminated by suppressing Chromium `@bottom-right` and stamping single clean continuous folios exclusively via `pdf-lib`.
+  - 100% TOC alignment: zero locator or page drift across all 30 chapters (Body p. 1–104 -> Physical PDF p. 5–108).
+  - All 30 chapter examination drills feature answers, explanations, and distractor analyses isolated at chapter ends.
+
 ### [STAGED LOCAL] v018 — Book 02: IIBF DB&F Paper 1 (IE&IFS) Sovereign Master Codex Forensic Re-Audit Certification (PASS 100/100)
 * **Release Date**: 2026-10-05
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

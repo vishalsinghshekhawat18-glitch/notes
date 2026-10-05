@@ -4,28 +4,46 @@ import * as os from 'os';
 import { execSync } from 'child_process';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 
-export const EXACT_TOC_MAPPING_PPB = [
-  { ch: 1, start: 1, end: 3, pages: 3, title: "Banker-Customer Relationship, Rights & Statutory Duties", sub: "Debtor-Creditor • Trustee-Beneficiary • Bailee-Bailor • Banker's Lien (§171) • Set-Off & Clayton's Rule" },
-  { ch: 2, start: 4, end: 6, pages: 3, title: "AML / KYC Norms, Risk Categorization & Due Diligence (CDD)", sub: "PMLA 2002 • 6 OVDs & Simplified Due Diligence • High/Med/Low Risk Review (2/8/10 Yrs) • CTR/STR to FIU-IND" },
-  { ch: 3, start: 7, end: 9, pages: 3, title: "Operations in Accounts of Special Categories of Customers", sub: "Minors & Natural Guardians • Illiterate Persons • Blind & Differently-Abled • Joint Accounts • Sole Proprietorship" },
-  { ch: 4, start: 10, end: 12, pages: 3, title: "Accounts of Companies, Trusts, Clubs & Charge Registration", sub: "MOA & AOA Ultra Vires • Board Resolution • ROC Charge Registration (§77, 30+300 Days) • Public vs Private Trusts" },
-  { ch: 5, start: 13, end: 15, pages: 3, title: "Mandates, Power of Attorney & Court Orders (Garnishee / Attachment)", sub: "Mandate vs General/Special POA • Garnishee Order Nisi & Absolute (Order 21 CPC) • IT Attachment Order (§226(3))" },
-  { ch: 6, start: 16, end: 18, pages: 3, title: "Safe Deposit Lockers, Safe Custody & Nomination Norms", sub: "Lessor-Lessee • Bailor-Bailee • RBI Revised Locker Directions 2021 • Section 45ZA-ZF Nomination • 100x Rent Liability" },
-  { ch: 7, start: 19, end: 21, pages: 3, title: "Cash Operations, Clean Note Policy & Counterfeit Currency", sub: "Clean Note Policy 1999 • Soiled vs Mutilated Notes (RBI Note Refund Rules 2009) • Impounding FICN • FIR Thresholds" },
-  { ch: 8, start: 22, end: 24, pages: 3, title: "Negotiable Instruments Act 1881: Cheques, Protection & Sec 138", sub: "Promissory Note (§4), Bill of Exchange (§5), Cheque (§6) • Paying Banker (§85) • Collecting Banker (§131) • Sec 138" },
-  { ch: 9, start: 25, end: 26, pages: 2, title: "Principles of Lending, Working Capital & Term Loan Appraisal", sub: "Canons of Lending (Safety, Liquidity, Purpose) • MPBF Tandon & Nayak Committees • Turnover Method • DSCR Math" },
-  { ch: 10, start: 27, end: 29, pages: 3, title: "Collaterals & Charges: Pledge, Hypothecation, Lien & Mortgages", sub: "Pledge (Pawnor-Pawnee) • Hypothecation • Banker's General Lien • 6 Mortgages (TP Act §58: Equitable vs Simple)" },
-  { ch: 11, start: 30, end: 32, pages: 3, title: "Non-Fund Facilities I: Letters of Credit (LC) & UCPDC 600", sub: "Revocable vs Irrevocable • Confirmed vs Unconfirmed • UCPDC 600 Rules • Strict Compliance • Autonomy Principle" },
-  { ch: 12, start: 33, end: 35, pages: 3, title: "Non-Fund Facilities II: Bank Guarantees (BG) & Deferred Payments", sub: "Performance vs Financial BG • Indian Contract Act §126 • Limitation Act §28 (1-Year Claim) • Co-Acceptance & DPGs" },
-  { ch: 13, start: 36, end: 38, pages: 3, title: "Export Finance, Pre/Post-Shipment Credit & ECGC Policies", sub: "Pre-Shipment Packing Credit (PCFC) • Post-Shipment Negotiation • Concessional Interest Subvention • ECGC Cover" },
-  { ch: 14, start: 39, end: 41, pages: 3, title: "Priority Sector Lending (PSL), MSME Mandates & CGTMSE", sub: "40% Domestic vs 75% RRB/SFB Targets • 18% Agri (10% SF/MF) • Revised MSME Definition • CGTMSE ₹5 Cr Hybrid Cover" },
-  { ch: 15, start: 42, end: 44, pages: 3, title: "NPA Management, Asset Classification, SARFAESI Act & DRT", sub: "90-Day Out of Order Norm • Substandard (15%), Doubtful (25/40/100%), Loss (100%) • SARFAESI §13(2) & 13(4) • DRT Recovery" },
-  { ch: 16, start: 45, end: 47, pages: 3, title: "Credit Appraisal Mathematics & Failed Transaction TAT Rules", sub: "Operating Cycle Math • Current & Quick Ratio • DSCR Calculation • RBI Harmonisation TAT Framework (₹100/Day)" },
-  { ch: 17, start: 48, end: 50, pages: 3, title: "Bank Computerization, Core Banking (CBS) & Data Centers", sub: "CBS 24x7 Architecture • Primary Data Center (PDC) & Disaster Recovery (DRC) • RPO vs RTO • Cloud Computing in Banks" },
-  { ch: 18, start: 51, end: 53, pages: 3, title: "Electronic Payment Systems, NPCI Platforms & Digital Rupee (e₹)", sub: "NEFT (Batch) vs RTGS (Gross Real-Time) • IMPS & UPI Architecture • CTS-2010 • CBDC e-Rupee Tokenized Architecture" },
-  { ch: 19, start: 54, end: 56, pages: 3, title: "Cyber Security in Banks, ISO 27001 & IT Act 2000", sub: "RBI Cyber Security Framework 2016 • SOC 24x7 • Phishing, Ransomware & DDoS • IT Act 2000 (§43A, §66, §85) • CERT-In" },
-  { ch: 20, start: 57, end: 59, pages: 3, title: "Banking Ethics, Customer Rights Charter & Governance", sub: "BCSBI Codes • RBI Customer Rights Charter (5 Rights) • Whistleblower Policy • ESG & Corporate Governance in Banks" },
-  { ch: 21, start: 60, end: 63, pages: 4, title: "The Grand Synthesis: IIBF Paper 2 (PPB) Master Revision Vault", sub: "20 Chapter Master Skeletons • 10 High-Yield Matrices • 50 Examiner Traps • Rapid Diagnostic Active Recall Drill" },
+export interface TocEntry {
+  ch: number;
+  start: number;
+  end: number;
+  pages: number;
+  title: string;
+  sub: string;
+}
+
+export const EXACT_TOC_MAPPING_PPB: TocEntry[] = [
+  { ch: 1, start: 1, end: 4, pages: 4, title: "Banker-Customer Relationship, Rights & Statutory Duties", sub: "Debtor-Creditor • Trustee-Beneficiary • Bailee-Bailor • Banker's General Lien (§171) • Right of Set-Off & Clayton's Rule" },
+  { ch: 2, start: 5, end: 7, pages: 3, title: "AML / KYC Architecture, PMLA Framework & CDD Norms", sub: "PMLA 2002 • 6 OVDs • June 2025 KYC Amendments (June 30, 2026 Window) • CTR/STR/CCR Reporting • CKYCR 10-Day Mandate" },
+  { ch: 3, start: 8, end: 10, pages: 3, title: "Accounts of Special Customers, Operational Mandates & LEI", sub: "Minors (>10 Yrs Self-Operate) • Hindu Succession Coparcenary/Karta • Blind/Differently-Abled • LEI ₹5 Cr Mandate" },
+  { ch: 4, start: 11, end: 13, pages: 3, title: "Companies, Trusts, Societies & Charge Registration", sub: "Corporate Accounts • MOA/AOA Ultra Vires • Companies Act §77 Charge Registration (30+30+60 Days) • Sec 87 Rectification" },
+  { ch: 5, start: 14, end: 16, pages: 3, title: "Deposit Operations, Unclaimed Balances & Attachment Orders", sub: "Inoperative Accounts (2 Yrs) • DEA Fund (10 Yrs) • UDGAM Portal • Garnishee Orders (Debts Due) vs IT Sec 226(3)" },
+  { ch: 6, start: 17, end: 19, pages: 3, title: "Safe Deposit Lockers, Safe Custody & Nomination (2025/2026)", sub: "Banking Laws (Amendment) Act 2025 (Up to 4 Simultaneous Nominees) • Nominee as Trustee • RBI 100x Rent Liability Cap" },
+  { ch: 7, start: 20, end: 22, pages: 3, title: "Foreign Exchange Management Act (FEMA), NRI Accounts & LRS", sub: "LRS USD 250,000/FY • NRE vs NRO vs FCNR(B) Taxation • RFC/EEFC • FCRA 2010 • Ban on Agricultural Land Purchase" },
+  { ch: 8, start: 23, end: 25, pages: 3, title: "Cash Operations, Clean Note Policy, Counterfeit & CMS", sub: "Clean Note Policy Stapling Ban • Soiled vs Mutilated 80%/40% Refund • Counterfeit Impounding & FIR (>=5 Notes) • CMS" },
+  { ch: 9, start: 26, end: 28, pages: 3, title: "Negotiable Instruments Act 1881 & CTS Clearing", sub: "Promissory Note vs BOE vs Cheque • HIDC Privileges • Continuous CTS Grid Clearing • Sec 138 Dishonor 30/15-Day Rules" },
+  { ch: 10, start: 29, end: 31, pages: 3, title: "Paying & Collecting Banker Duties, Protections & Ancillary Services", sub: "Paying Bank Protection (§85/85A/89) • Forged Drawer Zero Protection • Collecting Bank (§131) • DD Non-Bearer • NEFT/RTGS" },
+  { ch: 11, start: 32, end: 34, pages: 3, title: "Financial Inclusion, PMJDY, Customer Service & Secrecy", sub: "PMJDY BSBDA (Zero Min Bal, ₹10,000 OD) • BC/BF Model • Damodaran Committee • Dissolution of BCSBI • CIC Reporting" },
+  { ch: 12, start: 35, end: 37, pages: 3, title: "Grievance Redressal, Integrated Ombudsman, CPA 2019 & RTI", sub: "RBI Integrated Ombudsman (RB-IOS 2021, ₹20L/₹1L) • CPA 2019 Pecuniary Tiers (₹50L/₹2Cr) • RTI Act 2005 (30-Day/48-Hr)" },
+  { ch: 13, start: 38, end: 40, pages: 3, title: "Principles of Lending, Loan Policy, EBLR & Recovery Norms", sub: "5 Cs of Credit • CC/OD/TL/DL Taxonomy • Mandatory EBLR Quarterly Reset • Fair Practices Code • Recovery Agent Calling Hours" },
+  { ch: 14, start: 41, end: 43, pages: 3, title: "Credit Appraisal, Ratio Analysis, Nayak & Tandon Working Capital", sub: "Nayak Turnover Method (25% WCR, 20% Bank, 5% Margin) • Tandon Method II (1.33:1 CR) • DSCR Policy Benchmarks" },
+  { ch: 15, start: 44, end: 46, pages: 3, title: "Collateral Charges, Mortgages, Stamping & Limitation Act", sub: "Pledge vs Hypothecation vs Lien vs Assignment • 6 Mortgages (Equitable in Notified Towns) • Stamp Act DPN • Limitation" },
+  { ch: 16, start: 47, end: 49, pages: 3, title: "Contracts of Indemnity, Guarantee & Bank Guarantee Doctrine", sub: "Indemnity vs Guarantee • Co-Extensive Liability (§128) • Contract Act §28 Exception 3 (Min 1-Yr Claim) vs Limitation Act" },
+  { ch: 17, start: 50, end: 52, pages: 3, title: "Letters of Credit (LC), UCPDC 600 Rules & Bill Finance", sub: "UCPDC 600 Irrevocability • Article 14b 5-Banking-Day Examination • Strict Compliance • Red vs Green Clause • D/P vs D/A" },
+  { ch: 18, start: 53, end: 55, pages: 3, title: "Personal Finance, Housing LTV Ratios & Credit Card Regulations", sub: "Home Loan LTV (90%/80%/75%) • Zero Prepayment Penalty on Floating Retail • Credit Card Minimum Amount Due (MAD)" },
+  { ch: 19, start: 56, end: 57, pages: 2, title: "Priority Sector Lending (PSL 2025/2026), KCC & Agricultural Credit", sub: "PSL 40% (SFB/RRB 75%) • Micro Enterprises Sub-Target: 7.5% (NOT 8%) • Agriculture 18% (10% SMF) • KCC 4% Net Rate" },
+  { ch: 20, start: 58, end: 60, pages: 3, title: "MSME Statutory Architecture, CGTMSE, TReDS & Government Schemes", sub: "MSME 2025 Criteria (₹2.5/10 Cr, ₹25/100 Cr, ₹125/500 Cr) • CGTMSE ₹5 Cr • MSMED §16 3x Bank Rate • MUDRA ₹20L • DAY-NRLM" },
+  { ch: 21, start: 61, end: 63, pages: 3, title: "NPA Management, Prudential IRAC Norms & Stressed Assets", sub: "90-Day Overdue Norm • Standard/Substandard (15%/25%) • Doubtful D1/D2/D3 (25%/40%/100%) • Loss 100% • June 7, 2019 Framework" },
+  { ch: 22, start: 64, end: 66, pages: 3, title: "Debt Recovery Statutes: SARFAESI Act 2002, DRT, IBC & Lok Adalats", sub: "SARFAESI §13(2)/13(4) • §31(g) Debt < 20% Exemption • DRT ₹20L • IBC ₹1 Cr • Lok Adalats ₹20L Final Award" },
+  { ch: 23, start: 67, end: 69, pages: 3, title: "Finance to MFIs, Bank-NBFC Co-Lending & SBR Framework", sub: "NBFC-MFI 2022 Directions (₹3L Cap, 50% FOIR) • Co-Lending 80:20 Risk Split • Scale Based Regulation (Base/Middle/Upper/Top)" },
+  { ch: 24, start: 70, end: 72, pages: 3, title: "Core Banking Systems (CBS), Hardware Architecture & Data Centers", sub: "CBS Real-Time Engine • Maker-Checker Controls • Online UPS 0 ms vs Offline • Data Warehousing ETL • PDC & DRS Mirroring" },
+  { ch: 25, start: 73, end: 78, pages: 6, title: "Delivery Channels, Electronic Payments, Harmonised TAT & Liability", sub: "WLAs vs BLAs • POS/MDR • NEFT 24x7 48 Batches • RTGS Min ₹2L • SWIFT MT/MX STP • RBI Customer Liability (3-Day 0-Liability)" },
+  { ch: 26, start: 79, end: 84, pages: 6, title: "NPCI Digital Rails, e-RUPI, Central Bank Digital Currency & Account Aggregators", sub: "IMPS ₹5L • UPI Caps (₹1L / ₹5L) • AePS Biometric • NACH • e-RUPI Vouchers ₹1L • CBDC Sovereign e₹ • NBFC-AA Data Blindness" },
+  { ch: 27, start: 85, end: 88, pages: 4, title: "Cybersecurity, Incident Response, BCP/DR & The IT Act 2000", sub: "Independent CISO • 24x7 SOC • Gopalakrishnan Report • CERT-In 6-Hr Reporting • RPO vs RTO • IT Act §43, 65, 66C/D, 66F, 72" },
+  { ch: 28, start: 89, end: 92, pages: 4, title: "Ethics, Business Values, Corporate Governance & Banking Perspectives", sub: "Fiduciary Trust in Finance • Kantian Duty vs Utilitarianism • Kidder's 4 Dilemmas • Satyam, Enron, PNB-SWIFT & Wells Fargo Cases" },
+  { ch: 29, start: 93, end: 96, pages: 4, title: "Employee Ethics, Workplace Conduct, POSH Act, Whistleblowing & DPDP Act", sub: "Insider Trading UPSI • POSH 2013 IC (>=50% Women) • Whistleblower §177(9) Audit Comm Access • DPDP 2023 ₹250 Cr Max Penalty • IPR" },
+  { ch: 30, start: 97, end: 104, pages: 8, title: "The Grand Synthesis: 55-Unit Reconciled Fast-Recall Vault & Diagnostic Drill", sub: "55-Unit Complete Fast-Recall Codex • 50 Master Examiner Traps (PPB) • Comprehensive Multi-Statement Diagnostic Drill" },
 ];
 
 export function buildFrontMatterHtml(): string {
@@ -122,7 +140,7 @@ export function buildFrontMatterHtml(): string {
     margin-bottom: 3.5mm;
   }
   .sub-title {
-    font-size: 13pt;
+    font-size: 12pt;
     font-style: italic;
     color: #222;
     line-height: 1.35;
@@ -219,7 +237,7 @@ export function buildFrontMatterHtml(): string {
 
       <div>
         <div class="edition-banner">
-          <div class="edition-text">FIRST DUPLEX MONOCHROME PRINT EDITION • MACMILLAN 2023 CURRICULUM COMPLIANT</div>
+          <div class="edition-text">SECOND REVISED PRINT EDITION • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
         </div>
         <div class="imprint">PUBLISHED UNDER THE CHARTER OF MIND OF ARAVALLI • SHELF 007 BASTION</div>
       </div>
@@ -241,12 +259,12 @@ export function buildFrontMatterHtml(): string {
         <p><strong>Title:</strong> Principles &amp; Practices of Banking (PPB): Book 03 — Master Curricular Monograph.</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 3).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 2 • Statutory Banking Law • Credit Appraisal • FinTech &amp; Cyber Security • Professional Ethics.</p>
-        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF Macmillan Courseware 2023 Modules A, B, C &amp; D (55 Units).</p>
-        <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.5pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition.</p>
+        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (55 Units).</p>
+        <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.5pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition • 30 Comprehensive Chapters • 104 Body Pages.</p>
       </div>
 
       <div>
-        <p style="font-size: 8pt; color: #666;">Compiled and synthesized directly from statutory enactments (NI Act 1881, BR Act 1949, RBI Act 1934, SARFAESI 2002, PMLA 2002, IT Act 2000), RBI Master Directions, and official courseware. Manufactured for physical print and desk revision.</p>
+        <p style="font-size: 8pt; color: #666;">Compiled and synthesized directly from statutory enactments (NI Act 1881, BR Act 1949, RBI Act 1934, Banking Laws Amendment Act 2025, SARFAESI 2002, PMLA 2002, Companies Act 2013, POSH Act 2013, DPDP Act 2023, IT Act 2000), RBI Master Directions, and official courseware. Manufactured for physical print and desk revision.</p>
       </div>
     </div>
   </div>
@@ -256,28 +274,26 @@ export function buildFrontMatterHtml(): string {
 }
 
 export function buildTableOfContentsHtml(): string {
-  let rowsHtml = '';
+  let sheet1RowsHtml = '';
+  let sheet2RowsHtml = '';
 
   for (const item of EXACT_TOC_MAPPING_PPB) {
     let partBanner = '';
     if (item.ch === 1) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part I : Module A — General Banking Operations</span><span class="part-tag">Chapters 01 – 08</span></div>`;
-    } else if (item.ch === 9) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part II : Module B — Functions of Banks / Credit &amp; Lending Operations</span><span class="part-tag">Chapters 09 – 13</span></div>`;
-    } else if (item.ch === 14) {
-      partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part II : Module B (Contd.) — Credit, PSL &amp; Recovery Framework</span><span class="part-tag">Chapters 14 – 16</span></div>`;
-    } else if (item.ch === 17) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part III : Module C — Banking Technology &amp; Digital Innovations</span><span class="part-tag">Chapters 17 – 19</span></div>`;
-    } else if (item.ch === 20) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Ethics in Banks &amp; Financial Institutions</span><span class="part-tag">Chapter 20</span></div>`;
-    } else if (item.ch === 21) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part V : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 21</span></div>`;
+      partBanner = `<div class="part-banner"><span class="part-title">Part I : Module A — General Banking Operations &amp; Regulatory Framework</span><span class="part-tag">Chapters 01 – 12</span></div>`;
+    } else if (item.ch === 13) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part II : Module B — Functions of Banks / Credit &amp; Lending Operations</span><span class="part-tag">Chapters 13 – 23</span></div>`;
+    } else if (item.ch === 15) {
+      partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part II : Module B (Contd.) — Credit Charges, PSL &amp; Recovery</span><span class="part-tag">Chapters 15 – 23</span></div>`;
+    } else if (item.ch === 24) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part III : Module C — Banking Technology &amp; Digital Innovations</span><span class="part-tag">Chapters 24 – 27</span></div>`;
+    } else if (item.ch === 28) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Ethics in Banks &amp; Financial Institutions</span><span class="part-tag">Chapters 28 – 29</span></div>`;
+    } else if (item.ch === 30) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part V : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 30</span></div>`;
     }
 
-    const pageBreak = item.ch === 14 ? `</div><div class="toc-sheet">` : '';
-
-    rowsHtml += `
-      ${pageBreak}
+    const rowMarkup = `
       ${partBanner}
       <div class="chapter-row">
         <div class="chapter-main-line">
@@ -289,6 +305,12 @@ export function buildTableOfContentsHtml(): string {
         <div class="chapter-subtopics">${item.sub}</div>
       </div>
     `;
+
+    if (item.ch <= 14) {
+      sheet1RowsHtml += rowMarkup;
+    } else {
+      sheet2RowsHtml += rowMarkup;
+    }
   }
 
   return `<!DOCTYPE html>
@@ -374,7 +396,7 @@ export function buildTableOfContentsHtml(): string {
     color: #111;
     background: #fff;
     font-size: 9.5pt;
-    line-height: 1.42;
+    line-height: 1.35;
   }
   .toc-wrapper {
     page: toc-page;
@@ -389,7 +411,7 @@ export function buildTableOfContentsHtml(): string {
     border-top: 2.2pt solid #000;
     border-bottom: 0.8pt solid #000;
     padding: 2.5mm 0;
-    margin-bottom: 3.5mm;
+    margin-bottom: 2.5mm;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -405,7 +427,7 @@ export function buildTableOfContentsHtml(): string {
     margin-bottom: 0.8mm;
   }
   .toc-opener-header .title-area h1 {
-    font-size: 14pt;
+    font-size: 13.5pt;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -425,9 +447,9 @@ export function buildTableOfContentsHtml(): string {
     background: #ececec;
     border: 1pt solid #000;
     border-left: 3.5pt solid #000;
-    padding: 1.2mm 2.5mm;
-    margin-top: 3.2mm;
-    margin-bottom: 1.8mm;
+    padding: 1.1mm 2.5mm;
+    margin-top: 2.2mm;
+    margin-bottom: 1.2mm;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -436,10 +458,10 @@ export function buildTableOfContentsHtml(): string {
   }
   .part-title {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 7.8pt;
+    font-size: 7.6pt;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     color: #000;
   }
   .part-tag {
@@ -450,22 +472,22 @@ export function buildTableOfContentsHtml(): string {
     letter-spacing: 0.05em;
   }
   .chapter-row {
-    margin-bottom: 2mm;
+    margin-bottom: 1.4mm;
     page-break-inside: avoid;
     break-inside: avoid;
   }
   .chapter-main-line {
     display: flex;
     align-items: baseline;
-    font-size: 9.2pt;
+    font-size: 8.8pt;
   }
   .chapter-num {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 7.2pt;
+    font-size: 7pt;
     font-weight: 800;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    padding: 0.4mm 1.5mm;
+    padding: 0.3mm 1.4mm;
     border: 0.6pt solid #000;
     background: #f7f7f7;
     margin-right: 2mm;
@@ -484,17 +506,17 @@ export function buildTableOfContentsHtml(): string {
   }
   .chapter-locator {
     font-family: "Times New Roman", Georgia, serif;
-    font-size: 9pt;
+    font-size: 8.8pt;
     font-weight: 700;
     flex-shrink: 0;
     color: #000;
   }
   .chapter-subtopics {
-    font-size: 7.4pt;
+    font-size: 7.1pt;
     color: #444;
-    margin-left: 12mm;
-    line-height: 1.28;
-    margin-top: 0.2mm;
+    margin-left: 11mm;
+    line-height: 1.22;
+    margin-top: 0.1mm;
   }
 </style>
 </head>
@@ -506,9 +528,13 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • IIBF DB&amp;F Paper 2</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">21 Chapters • 63 Body Pages</div>
+      <div class="meta-tag">30 Chapters • 104 Body Pages</div>
     </div>
-    ${rowsHtml}
+    ${sheet1RowsHtml}
+  </div>
+
+  <div class="toc-sheet">
+    ${sheet2RowsHtml}
   </div>
 </div>
 </body>
@@ -520,7 +546,7 @@ export async function assembleContinuousBodyPdf(
   outBodyPdfPath: string
 ): Promise<number> {
   console.log(`\n======================================================`);
-  console.log(`ASSEMBLING CONTINUOUS 63-PAGE BODY FOR IIBF PAPER 2`);
+  console.log(`ASSEMBLING CONTINUOUS 104-PAGE BODY FOR IIBF PAPER 2`);
   console.log(`======================================================`);
 
   const bodyPdf = await PDFDocument.create();
@@ -548,40 +574,24 @@ export async function assembleContinuousBodyPdf(
       const isVersoInChapter = pIdx % 2 === 1;
       const textWidth = font.widthOfTextAtSize(pageNumStr, 11);
 
-      if (map.ch > 1) {
-        if (!isVersoInChapter) {
-          // Recto layout inside chapter file
-          page.drawRectangle({
-            x: 520,
-            y: 5,
-            width: 40,
-            height: 22,
-            color: rgb(1, 1, 1),
-          });
-          page.drawText(pageNumStr, {
-            x: 556.5 - textWidth,
-            y: 9.42,
-            size: 11,
-            font: font,
-            color: rgb(0, 0, 0),
-          });
-        } else {
-          // Verso layout inside chapter file
-          page.drawRectangle({
-            x: 490,
-            y: 5,
-            width: 40,
-            height: 22,
-            color: rgb(1, 1, 1),
-          });
-          page.drawText(pageNumStr, {
-            x: 528.0 - textWidth,
-            y: 9.42,
-            size: 11,
-            font: font,
-            color: rgb(0, 0, 0),
-          });
-        }
+      if (!isVersoInChapter) {
+        // Recto layout inside chapter file (margin-left: 24mm, margin-right: 14mm)
+        page.drawText(pageNumStr, {
+          x: 556.5 - textWidth,
+          y: 9.42,
+          size: 11,
+          font: font,
+          color: rgb(0, 0, 0),
+        });
+      } else {
+        // Verso layout inside chapter file (margin-left: 14mm, margin-right: 24mm)
+        page.drawText(pageNumStr, {
+          x: 528.0 - textWidth,
+          y: 9.42,
+          size: 11,
+          font: font,
+          color: rgb(0, 0, 0),
+        });
       }
 
       bodyPdf.addPage(page);
@@ -633,7 +643,7 @@ export async function mergeFullBookPdf(
     const bodyDoc = await PDFDocument.load(bodyBytes);
     const bodyPages = await mergedPdf.copyPages(bodyDoc, bodyDoc.getPageIndices());
     bodyPages.forEach(p => mergedPdf.addPage(p));
-    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 63)`);
+    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 104)`);
   }
 
   const finalBytes = await mergedPdf.save();
@@ -648,50 +658,52 @@ export async function mergeFullBookPdf(
 }
 
 async function main() {
-  const printDesignerDir = path.resolve('007', 'PRINT DESIGNER', 'IIBF_PAPER_2');
-  const chaptersDir = path.join(printDesignerDir, 'chapters');
-
   const browserPath = fs.existsSync('C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe')
     ? 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
     : 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 
-  // 1. Build Front Matter PDF
-  console.log(`[1/3] Building Front Matter PDF (Cover + Colophon CIP)...`);
+  const outBaseDir = path.resolve('007', 'PRINT DESIGNER', 'IIBF_PAPER_2');
+  const chaptersDir = path.join(outBaseDir, 'chapters');
+  const workDir = path.join(outBaseDir, 'codex_build');
+  if (!fs.existsSync(workDir)) {
+    fs.mkdirSync(workDir, { recursive: true });
+  }
+
+  const frontMatterHtmlPath = path.join(workDir, '00_front_matter.html');
+  const frontMatterPdfPath = path.join(workDir, '00_front_matter.pdf');
+  const tocHtmlPath = path.join(workDir, '00_toc.html');
+  const tocPdfPath = path.join(workDir, '00_toc.pdf');
+  const bodyPdfPath = path.join(workDir, 'master_body_104_pages.pdf');
+  const finalMasterPdfPath = path.resolve('007', 'PRINT DESIGNER', '007_Book_03_IIBF_Paper_2_PPB_Master_Codex_A4_BW.pdf');
+
+  console.log('Rendering Front Matter (Cover + Colophon)...');
   const fmHtml = buildFrontMatterHtml();
-  const fmHtmlPath = path.join(printDesignerDir, '01_FRONT_MATTER_A4_BW.html');
-  const fmPdfPath = path.join(printDesignerDir, '01_FRONT_MATTER_A4_BW.pdf');
-  fs.writeFileSync(fmHtmlPath, fmHtml, 'utf-8');
+  fs.writeFileSync(frontMatterHtmlPath, fmHtml, 'utf-8');
+  renderHtmlToPdf(frontMatterHtmlPath, frontMatterPdfPath, browserPath);
 
-  const tempProfileDir1 = fs.mkdtempSync(path.join(os.tmpdir(), 'edge-fm-iibf-ppb-'));
-  try {
-    execSync(`"${browserPath}" --headless --disable-gpu --run-all-compositor-stages-before-draw --no-pdf-header-footer --user-data-dir="${tempProfileDir1}" --print-to-pdf="${fmPdfPath}" "file:///${fmHtmlPath.replace(/\\/g, "/")}"`, { stdio: 'pipe' });
-  } finally {
-    try { fs.rmSync(tempProfileDir1, { recursive: true, force: true }); } catch (e) {}
-  }
-  console.log(`✓ Front Matter PDF ready: ${fmPdfPath}`);
-
-  // 2. Build Table of Contents PDF
-  console.log(`\n[2/3] Building Table of Contents PDF...`);
+  console.log('Rendering Table of Contents...');
   const tocHtml = buildTableOfContentsHtml();
-  const tocHtmlPath = path.join(printDesignerDir, '02_TABLE_OF_CONTENTS_A4_BW.html');
-  const tocPdfPath = path.join(printDesignerDir, '02_TABLE_OF_CONTENTS_A4_BW.pdf');
   fs.writeFileSync(tocHtmlPath, tocHtml, 'utf-8');
+  renderHtmlToPdf(tocHtmlPath, tocPdfPath, browserPath);
 
-  const tempProfileDir2 = fs.mkdtempSync(path.join(os.tmpdir(), 'edge-toc-iibf-ppb-'));
-  try {
-    execSync(`"${browserPath}" --headless --disable-gpu --run-all-compositor-stages-before-draw --no-pdf-header-footer --user-data-dir="${tempProfileDir2}" --print-to-pdf="${tocPdfPath}" "file:///${tocHtmlPath.replace(/\\/g, "/")}"`, { stdio: 'pipe' });
-  } finally {
-    try { fs.rmSync(tempProfileDir2, { recursive: true, force: true }); } catch (e) {}
-  }
-  console.log(`✓ Table of Contents PDF ready: ${tocPdfPath}`);
-
-  // 3. Assemble Continuous Body PDF
-  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_63P_A4_BW.pdf');
   await assembleContinuousBodyPdf(chaptersDir, bodyPdfPath);
+  await mergeFullBookPdf(frontMatterPdfPath, tocPdfPath, bodyPdfPath, finalMasterPdfPath);
 
-  // 4. Merge Everything into Master Codex
-  const masterCodexPdfPath = path.resolve('007', 'PRINT DESIGNER', '007_Book_03_IIBF_Paper_2_PPB_Master_Codex_A4_BW.pdf');
-  await mergeFullBookPdf(fmPdfPath, tocPdfPath, bodyPdfPath, masterCodexPdfPath);
+  console.log('Book 03: IIBF Paper 2 Master Codex build completed successfully!');
+}
+
+function renderHtmlToPdf(htmlPath: string, pdfPath: string, browserPath: string) {
+  const tempProfileDir = fs.mkdtempSync(path.join(os.tmpdir(), 'edge-pdf-master-ppb-'));
+  const htmlUrl = 'file:///' + htmlPath.replace(/\\/g, '/');
+  const cmd = `"${browserPath}" --headless --disable-gpu --run-all-compositor-stages-before-draw --no-pdf-header-footer --user-data-dir="${tempProfileDir}" --disable-background-networking --disable-sync --disable-extensions --no-first-run --print-to-pdf="${pdfPath}" "${htmlUrl}"`;
+
+  try {
+    execSync(cmd, { stdio: 'pipe' });
+  } finally {
+    try {
+      fs.rmSync(tempProfileDir, { recursive: true, force: true });
+    } catch (e) {}
+  }
 }
 
 if (process.argv[1] && (process.argv[1].includes('build_iibf_paper_2_master_codex.ts') || process.argv[1].includes('build_iibf_paper_2_master_codex'))) {
