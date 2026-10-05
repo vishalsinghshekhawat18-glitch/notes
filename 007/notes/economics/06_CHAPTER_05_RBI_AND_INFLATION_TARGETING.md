@@ -216,7 +216,7 @@ In the Union Budget 2022–23, the Government announced the introduction of the 
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│ Feature                         │ Retail CBDC ($e₹-R$)            │ Unified Payments Interface (UPI)│
+│ Feature                         │ Retail CBDC (e₹-R)              │ Unified Payments Interface (UPI)│
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ Fundamental Nature              │ **Sovereign Currency (Liability │ **Payment Rails / Intermediary**│
 │                                 │ of RBI)**. Direct legal tender. │ Transfer mechanism for money.   │

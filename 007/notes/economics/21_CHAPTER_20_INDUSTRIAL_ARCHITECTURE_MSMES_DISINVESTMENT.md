@@ -39,8 +39,8 @@ To understand why independent India selected its capital-goods-led industrial tr
                                  THE LEWIS DUAL SECTOR DYNAMICS
      Subsistence Sector (Agriculture)                  Modern Capitalist Sector (Industry)
  ┌──────────────────────────────────────┐          ┌──────────────────────────────────────┐
- │ • Unlimited supply of surplus labor  │  Labor   │ • Higher marginal productivity ($MP_L > w$) │
- │ • Marginal product $MP_L \approx 0$  ├─────────►│ • Generates capitalist profit surplus       │
+ │ • Unlimited supply of surplus labor  │  Labor   │ • Higher marginal productivity (MP_L > w)    │
+ │ • Marginal product MP_L ≈ 0          ├─────────►│ • Generates capitalist profit surplus        │
  │ • Subsistence institutional wage     │ Transfer │ • Reinvestment of profit expands capex       │
  └──────────────────────────────────────┘          └──────────────────┬───────────────────┘
                                                                       │ Reinvestment Loop
@@ -276,9 +276,9 @@ The **Department of Investment and Public Asset Management (DIPAM)** under the M
              ┌───────────────────────────────┴───────────────────────────────┐
              ▼                                                               ▼
 [MINORITY DISINVESTMENT]                                            [STRATEGIC DISINVESTMENT]
-• Government retains **$\ge 51\%$ shareholding**                     • Government sells **$\ge 50\%$ equity**
-  and full management control.                                        together with **TRANSFER OF
-• Executed via:                                                       MANAGEMENT CONTROL** to private
+• Government retains ≥ 51% shareholding                             • Government sells ≥ 50% equity
+  and full management control.                                        together with TRANSFER OF
+• Executed via:                                                       MANAGEMENT CONTROL to private
   - Initial Public Offer (IPO) / FPO                                  strategic bidder (e.g., Air India).
   - Offer for Sale (OFS) via stock exchange                           • Privatizes the enterprise.
   - Exchange Traded Funds (CPSE-ETF, BHARAT-22)

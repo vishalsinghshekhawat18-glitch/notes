@@ -60,22 +60,24 @@ Aligned with the Union vision of *Viksit Bharat @ 2047*, Rajasthan has instituti
 
 ### 1. State Budgetary Architecture & Borrowing Constraints
 * **Revenue Receipts**: Comprise State's Own Tax Revenue (SOTR: State GST, State Excise, Stamps & Registration, Tax on Vehicles, Land Revenue), State's Own Non-Tax Revenue (SONTR: Mining royalties, interest receipts), and Central Transfers (Devolution under Article 270 + Grants-in-Aid under Article 275).
-* **Fiscal Deficit Ceiling**: Governed by the **Rajasthan Fiscal Responsibility and Budget Management (FRBM) Act, 2005**:
-  * Anchored to statutory ceiling of **3.0% of GSDP** (with 0.5% performance-based borrowing leeway for power sector reforms).
-  * Governed by **Article 293(3)**: Rajasthan cannot borrow from market without Central consent due to outstanding Central loans.
+* **Fiscal Deficit Framework & Borrowing Ceiling**: Governed by the **Rajasthan Fiscal Responsibility and Budget Management (FRBM) Act, 2005** and Central borrowing permissions under **Article 293(3)**:
+  * **Structural FRBM Anchor**: Baseline long-term statutory target of **3.0% of GSDP**.
+  * **2026–27 Permitted Fiscal Deficit Limit**: **3.7% of GSDP** (incorporating the operative additional borrowing headroom sanctioned by the Centre for power distribution reforms and capital expenditure benchmarks).
+  * **Actual Budget Estimate (BE 2026–27)**: **3.69% of GSDP** (₹79,492.52 Crore), remaining strictly within the 3.7% permissible borrowing envelope.
 
 ### 2. The State Finance Commission Architecture & Chronology
 * **Constitutional Anchor**: Constituted by the Governor under **Article 243-I** (Panchayati Raj) and **Article 243-Y** (Municipalities).
-* **6th State Finance Commission (Award Period: 2020–2025)**:
-  * **Chairperson**: **Pradyumn Singh** (Commissioners: Ashok Lahoti, Laxman Singh Rawat).
-  * Recommends devolving **6.75% of State's Own Net Tax Revenue** to Local Self-Governments.
-  * **Inter-Institutional Ratio**:
-    * **75.10%** to Panchayati Raj Institutions (PRIs).
-    * **24.90%** to Urban Local Bodies (ULBs).
-  * **Intra-Panchayat Tier Devolution**:
-    * **Gram Panchayats (Grassroots Tier)**: **75%** of PRI share (maximum execution burden).
-    * **Panchayat Samitis (Block Tier)**: **20%** of PRI share.
-    * **Zila Parishads (District Tier)**: **5%** of PRI share.
+* **6th State Finance Commission (Award Period: 2020–2025)** — *Chairperson: Pradyumn Singh* (Commissioners: Ashok Lahoti, Laxman Singh Rawat):
+  * **LAYER A: ORIGINAL SFC RECOMMENDATION (Formal Report Benchmark)**:
+    * Recommended devolving **6.75% of State's Own Net Tax Revenue** to Local Self-Governments.
+    * **Inter-Institutional Ratio**: **75.10%** to Panchayati Raj Institutions (PRIs) and **24.90%** to Urban Local Bodies (ULBs).
+    * **Intra-Panchayat Tier Devolution**:
+      * **Gram Panchayats (Grassroots Tier)**: **75%** of PRI share (maximum execution burden).
+      * **Panchayat Samitis (Block Tier)**: **20%** of PRI share.
+      * **Zila Parishads (District Tier)**: **5%** of PRI share.
+  * **LAYER B: SUBSEQUENT STATE GOVERNMENT IMPLEMENTATION / MODIFICATION (Budget & Review Framework)**:
+    * In subsequent Action Taken Reports and State Budget operationalization, the State Government adopted a rounded **7.0% devolution window** with an adjusted inter-institutional ratio of **73.2% (PRIs) : 26.8% (ULBs)** to account for accelerating urban local body infrastructure responsibilities.
+    * *Chronological Clarity for Exams*: When asked for the *original 6th SFC recommendation*, cite **6.75% (75.1 : 24.9)**; when asked for the *subsequent operational budget/ATR framework*, recognize the **7.0% (73.2 : 26.8)** administrative modification.
 * **7th State Finance Commission (Subsequent Layer)**: Formulated for the **2025–2026 interim-report layer** to establish post-2025 municipal and PRI transfer guidelines.
 
 ### 3. Current State Budget Anchor — Rajasthan 2026–27 (BE)
@@ -341,7 +343,7 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 | **Petroleum Architecture** | Four domestic sedimentary basins; Barmer-Sanchore leads onshore crude. | HRRL Pachpadra: **9 MMTPA capacity**; **74% HPCL : 26% GoR** | HPCL Rajasthan Refinery Ltd (HRRL) | HRRL is 74:26 JV, NOT 50:50; produces BS-VI fuels and petrochem polymers. |
 | **Renewable Energy** | Unrivaled solar irradiation (325 sunny days); national leader in solar. | Total Solar Potential: **142 GW**<br>Bhadla (Phalodi): **2,245 MW** | RREC / PM-KUSUM / SKAY Portal | Component A is grid-tied decentralized plants on barren land; Component C is agricultural feeder solarization. |
 | **Industrial Ecosystem** | Apex body for land acquisition, industrial parks, and SEZs. | Special Investment Regions (Bhiwadi, Neemrana, Boranada) | RIICO (Est. 1969/1980) / RIPS 2024 | DMIC freight corridor spans ~38% of total route through Rajasthan; MSME Act gives 3–5 yr exemption. |
-| **State Fiscal Federalism** | Horizontal and vertical fiscal devolution under State Constitution. | Devolution: **6.75% of State Tax**<br>PRI : ULB = **75.10% : 24.90%** | 6th State Finance Commission (Pradyumn Singh) | Inside PRIs, devolution is 75% Gram Panchayat, 20% Panchayat Samiti, 5% Zila Parishad. Award 2020–25. |
+| **State Fiscal Federalism** | Horizontal and vertical fiscal devolution under State Constitution. | Original: **6.75% of State Tax** (75.1% PRI : 24.9% ULB)<br>Operational ATR: **7.0%** (73.2% PRI : 26.8% ULB) | 6th State Finance Commission (Pradyumn Singh) | Inside PRIs, devolution is 75% Gram Panchayat, 20% Panchayat Samiti, 5% Zila Parishad. Award 2020–25; 7th SFC interim layer. |
 | **Demography & Literacy** | Decadal population growth, spatial urbanization, and educational gap. | Pop: **6.85 Cr** (2011)<br>Urban: **24.87%**; Sex Ratio: **928** | Census of India / ORGI | Female literacy (52.12%) is among lowest in India; Rural female literacy is only 45.8%. |
 | **Social Security Safety Net** | Statutory right to guaranteed minimum income and welfare pensions. | Minimum Pension: **₹1,150/mo** (+15% automatic annual indexation) | Rajasthan Minimum Guaranteed Income Act, 2023 | Guarantees 125 days wage employment (IRGY-Urban) and statutory right to social security pension. |
 
@@ -349,14 +351,13 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 
 ## 27.10 Active Recall Diagnostic Cards (RPSC RAS Lens)
 
-#### Card 1 (Inter-Institutional PRI Devolution)
-**Question**: Detail the horizontal distribution ratio recommended by the 6th State Finance Commission between PRIs and ULBs, and the internal breakdown across the three tiers of Panchayats.
+#### Card 1 (Inter-Institutional PRI Devolution & Chronological Layers)
+**Question**: Detail the horizontal distribution ratio recommended by the 6th State Finance Commission between PRIs and ULBs, the internal breakdown across the three tiers of Panchayats, and the subsequent operational State Government implementation.
 <details>
 <summary>View Rigorous Causal Answer</summary>
-The 6th State Finance Commission (chaired by Pradyumn Singh) recommended devolving 6.75% of State's Own Net Tax Revenue. This fund is distributed:<br/>
-1. <strong>75.10%</strong> to Panchayati Raj Institutions (PRIs).<br/>
-2. <strong>24.90%</strong> to Urban Local Bodies (ULBs).<br/>
-Within the 75.10% PRI allocation, the internal formula divides funds: <strong>75% to Gram Panchayats</strong> (grassroots level), <strong>20% to Panchayat Samitis</strong> (block level), and <strong>5% to Zila Parishads</strong> (district level).
+1. <strong>Original 6th SFC Recommendation (Report Benchmark)</strong>: The Commission (chaired by Pradyumn Singh) recommended devolving 6.75% of State's Own Net Tax Revenue, divided <strong>75.10% to PRIs</strong> and <strong>24.90% to ULBs</strong>.<br/>
+2. <strong>Intra-Panchayat Tier Devolution</strong>: Within the PRI share, funds are distributed: <strong>75% to Gram Panchayats</strong> (grassroots level), <strong>20% to Panchayat Samitis</strong> (block level), and <strong>5% to Zila Parishads</strong> (district level).<br/>
+3. <strong>Subsequent State Government Implementation (ATR / Budget Framework)</strong>: In operational budget implementation, the State Government adopted a rounded <strong>7.0% devolution window</strong> with an adjusted <strong>73.2% (PRIs) : 26.8% (ULBs)</strong> distribution to support expanded urban local body infrastructure commitments.
 </details>
 
 #### Card 2 (Rajasthan MSME Act 2019 Innovation)

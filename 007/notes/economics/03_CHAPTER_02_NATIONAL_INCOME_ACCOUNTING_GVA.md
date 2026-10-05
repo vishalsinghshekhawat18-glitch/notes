@@ -295,13 +295,13 @@ $$g = \frac{32\%}{4.0} = 8.0\%$$
 ## 2.8 Potential GDP & The Output Gap
 
 ```
-Output ($Y$)
+Output (Y)
    ▲
    │                           / Actual GDP (Business Cycle)
    │               /\         /
    │              /  \  +    /     Output Gap = Actual GDP - Potential GDP
    │             /    \     /
-   │  ──────────/──────\───/────── Potential GDP ($Y^*$) (Full capacity trend)
+   │  ──────────/──────\───/────── Potential GDP (Y*) (Full capacity trend)
    │           /   -    \ /
    │          /          V
    └─────────────────────────────────────► Time

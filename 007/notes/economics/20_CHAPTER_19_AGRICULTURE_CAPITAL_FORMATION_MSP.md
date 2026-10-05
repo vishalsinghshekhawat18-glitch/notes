@@ -365,13 +365,10 @@ The **Food Corporation of India (FCI)**, established under the *Food Corporation
 • Acquisition Cost (MSP paid to farmers)                                          • Nominal price at which grains
 • Procurement Incidentals (Mandi tax, bagging, gunny bags)                          are issued to PDS beneficiaries.
 • Distribution Cost (Freight, storage losses, handling)                           • **Made ₹0 (100% FREE)** under
-         │                                                                          PMGKAY since January 2023!
-         └─────────────────────────────────────┬────────────────────────────────────┘
-                                               ▼
-                              $$\mathbf{\text{Food Subsidy}} =
-               [\mathbf{\text{Economic Cost}} - \mathbf{\text{Central Issue Price}}]
-                                  \times \mathbf{\text{Quantity}}$$
+                                                                                    PMGKAY since January 2023!
 ```
+
+$$\mathbf{\text{Food Subsidy}} = [\mathbf{\text{Economic Cost}} - \mathbf{\text{Central Issue Price}}] \times \mathbf{\text{Quantity}}$$
 
 * **The Shanta Kumar Committee Recommendations (2015)**:
   1. **Outsource Procurement**: FCI should hand over grain procurement to States that have developed robust infrastructure (Punjab, Haryana, AP, MP, Chhattisgarh) and focus procurement solely on non-traditional eastern states (UP, Bihar, WB, Assam).

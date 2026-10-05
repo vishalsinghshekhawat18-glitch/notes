@@ -278,17 +278,11 @@ Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Acti
 
 ### The Three Operational Trigger Metrics:
 
-```
-┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│ Tracked Financial Metric        │ Healthy Benchmark               │ Risk Threshold 1 Trigger        │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 1. Capital Adequacy (CRAR/CET1) │ $\text{CRAR} \ge 9.0\%$, $\text{CET1} \ge 5.5\%$ │ $\text{CRAR} < 9.0\%$ or $\text{CET1} < 5.5\%$  │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 2. Asset Quality (Net NPA Ratio)│ $\text{Net NPA} < 6.0\%$        │ **$\text{Net NPA} \ge 6.0\%$**  │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 3. Leverage Ratio (Tier 1)      │ $\ge 3.5\%$                     │ $< 3.5\%$                       │
-└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
-```
+| Tracked Financial Metric | Healthy Benchmark | Risk Threshold 1 Trigger |
+| :--- | :--- | :--- |
+| **1. Capital Adequacy (CRAR / CET1)** | $\text{CRAR} \ge 9.0\%$, $\text{CET1} \ge 5.5\%$ | $\text{CRAR} < 9.0\%$ or $\text{CET1} < 5.5\%$ |
+| **2. Asset Quality (Net NPA Ratio)** | $\text{Net NPA} < 6.0\%$ | **$\text{Net NPA} \ge 6.0\%$** |
+| **3. Leverage Ratio (Tier 1)** | $\ge 3.5\%$ | $< 3.5\%$ |
 
 *(Note: Return on Assets (RoA) was dropped as a standalone trigger metric in the 2021 revision to focus strictly on capital, asset quality, and leverage).*
 

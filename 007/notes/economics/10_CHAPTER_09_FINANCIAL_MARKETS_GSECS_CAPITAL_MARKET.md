@@ -129,7 +129,7 @@ Newly issued bonds offer higher coupon interest
 Existing older bonds with lower coupon rates become unattractive
                    │
                    ▼
-Investors sell older bonds $\implies$ Market Price of Old Bonds FALLS
+Investors sell older bonds ──► Market Price of Old Bonds FALLS
                    │
                    ▼
 Yield on Old Bonds RISES until it matches new market rates!

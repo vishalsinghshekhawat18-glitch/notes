@@ -109,7 +109,7 @@ Formulated by economist Arthur Laffer (1974), the curve illustrates the non-line
 ```
 Total Tax Revenue
        ▲
-       │                  Peak Revenue ($R_{max}$)
+       │                  Peak Revenue (R_max)
        │                        ╭───╮
        │                     ╭──     ──╮
        │                   ╭─           ─╮
@@ -120,7 +120,7 @@ Total Tax Revenue
        │             ╭                         ╮
        │            ╭                           ╮
        └───────────┴─────────────────────────────┴────────► Tax Rate (%)
-                   0%          Optimal ($t^*$)   100%
+                   0%          Optimal (t*)      100%
 ```
 
 * **At 0% Tax Rate**: Revenue is ₹0 because the state extracts nothing.

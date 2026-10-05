@@ -101,46 +101,17 @@ Pioneered by Gunnar Myrdal, Raúl Prebisch, and Indian structural economists:
 
 ## 13.3 Specialized Inflation Typology
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Specialized Metric              │ Precise Economic Definition & Mechanism                     │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Headline Inflation**          │ Inflation measured across the **entire price index basket** │
-│                                 │ (including food, fuel, commodities). Highly volatile.      │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Core Inflation**              │ Inflation measured **excluding volatile components**:       │
-│                                 │ $$\mathbf{\text{Core}} = \text{Headline} - [\text{Food} + \text{Fuel}]$$ │
-│                                 │ Isolates sticky, underlying demand-driven price pressures.  │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Reflation**                   │ A deliberate, controlled policy-induced price rise initiated│
-│                                 │ by the state (via fiscal stimulus or rate cuts) to pull an  │
-│                                 │ economy out of a slump, recession, or deflationary trap.   │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Disinflation**                │ A **decrease in the rate of inflation**. Prices are still   │
-│                                 │ rising, but at a progressively slower velocity (e.g., if    │
-│                                 │ inflation drops from 7% in Year 1 to 4% in Year 2).         │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Deflation**                   │ A **persistent decline in the general price level**         │
-│                                 │ (negative inflation rate, $\pi < 0$). Severe hazard: causes │
-│                                 │ consumers to postpone purchases, triggering depression.    │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Stagflation**                 │ The toxic coexistence of **stagnant economic growth / high  │
-│                                 │ unemployment** alongside **high persistent inflation**      │
-│                                 │ (violates the classical trade-off of the Phillips Curve).   │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Shrinkflation**               │ A stealth form of inflation where the **market retail price │
-│                                 │ of a product remains unchanged**, but the manufacturer      │
-│                                 │ **reduces the package size, volume, weight, or quantity**.  │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Skewflation**                 │ Sustained price inflation concentrated in **one or a few    │
-│                                 │ specific sectors** (e.g., pulses or onions) while other     │
-│                                 │ commodity prices remain completely stable or depressed.    │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Greedflation**                │ Inflation driven by corporations exploiting general supply  │
-│                                 │ disruption narratives to raise profit markups far above     │
-│                                 │ underlying input cost increases.                            │
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Specialized Metric | Precise Economic Definition & Mechanism |
+| :--- | :--- |
+| **Headline Inflation** | Inflation measured across the **entire price index basket** (including food, fuel, commodities). Highly volatile. |
+| **Core Inflation** | Inflation measured **excluding volatile components**:<br>$$\mathbf{\text{Core}} = \text{Headline} - [\text{Food} + \text{Fuel}]$$<br>Isolates sticky, underlying demand-driven price pressures. |
+| **Reflation** | A deliberate, controlled policy-induced price rise initiated by the state (via fiscal stimulus or rate cuts) to pull an economy out of a slump, recession, or deflationary trap. |
+| **Disinflation** | A **decrease in the rate of inflation**. Prices are still rising, but at a progressively slower velocity (e.g., if inflation drops from 7% in Year 1 to 4% in Year 2). |
+| **Deflation** | A **persistent decline in the general price level** (negative inflation rate, $\pi < 0$). Severe hazard: causes consumers to postpone purchases, triggering depression. |
+| **Stagflation** | The toxic coexistence of **stagnant economic growth / high unemployment** alongside **high persistent inflation** (violates the classical trade-off of the Phillips Curve). |
+| **Shrinkflation** | A stealth form of inflation where the **market retail price of a product remains unchanged**, but the manufacturer **reduces the package size, volume, weight, or quantity**. |
+| **Skewflation** | Sustained price inflation concentrated in **one or a few specific sectors** (e.g., pulses or onions) while other commodity prices remain completely stable or depressed. |
+| **Greedflation** | Inflation driven by corporations exploiting general supply disruption narratives to raise profit markups far above underlying input cost increases. |
 
 ---
 

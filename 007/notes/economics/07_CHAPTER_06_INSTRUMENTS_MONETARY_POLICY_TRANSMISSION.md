@@ -88,13 +88,13 @@ The **Liquidity Adjustment Facility (LAF)** is the primary operational framework
 
 > [!NOTE]
 > **DYNAMIC POLICY RATES SNAPSHOT (As of January 2026)**  
-> • **Policy Repo Rate**: 6.50% (Anchor)  
-> • **Standing Deposit Facility (SDF)**: 6.25% (Floor: $\text{Repo} - 25\text{ bps}$)  
-> • **Marginal Standing Facility (MSF)**: 6.75% (Ceiling: $\text{Repo} + 25\text{ bps}$)  
-> • **Bank Rate**: 6.75% (Aligned with MSF under Section 49)  
-> • **Cash Reserve Ratio (CRR)**: 4.50% of NDTL  
+> • **Policy Repo Rate**: 5.25% (Policy Anchor)  
+> • **Standing Deposit Facility (SDF)**: 5.00% (Floor: $\text{Repo} - 25\text{ bps}$)  
+> • **Marginal Standing Facility (MSF)**: 5.50% (Ceiling: $\text{Repo} + 25\text{ bps}$)  
+> • **Bank Rate**: 5.50% (Aligned with MSF under Section 49)  
+> • **Cash Reserve Ratio (CRR)**: 3.00% of NDTL  
 > • **Statutory Liquidity Ratio (SLR)**: 18.00% of NDTL  
-> *(Note: The 50 bps corridor width and directional roles [Ceiling/Anchor/Floor] are timeless structural features; all absolute percentage rates are dynamic snapshot values set by the MPC/RBI).*
+> *(Rates subsequently changed; this box is a dated historical/current-exam snapshot. The structural relationships remain separate: MSF = Repo + 25 bps, SDF = Repo − 25 bps, Corridor width = 50 bps).*
 
 ---
 

@@ -42,7 +42,7 @@ Every international transaction is recorded as both a credit and a debit entry:
 [CURRENT ACCOUNT]                                                             [CAPITAL & FINANCIAL ACCOUNT]
 Covers flow of goods, services,                                               Covers cross-border financial
 primary income, and unilateral transfers.                                     claims, liabilities, and assets.
-Affects current national income ($Y$).                                        Modifies sovereign balance sheet.
+Affects current national income (Y).                                         Modifies sovereign balance sheet.
          │                                                                             │
  ┌───────┴───────┬───────────────┬───────────────┐                             ┌───────┴───────┬───────────────┐
  ▼               ▼               ▼               ▼                             ▼               ▼               ▼

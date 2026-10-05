@@ -179,39 +179,14 @@ Launched in **April 2017** by the **National Statistical Office (NSO)**, Ministr
 
 ## 14.6 The Universal Typology of Unemployment
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Type of Unemployment            │ Theoretical Mechanism & Practical Manifestation             │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **1. Disguised Unemployment**   │ **Marginal Productivity of Labor is ZERO ($\mathbf{MP_L = 0}$)**│
-│    *(Hidden Unemployment)*      │ More workers are engaged in an economic activity than are   │
-│                                 │ technically required. If surplus workers are completely     │
-│                                 │ withdrawn, **Total Output does NOT decline**!               │
-│                                 │ • Classic characteristic of Indian peasant agriculture.     │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **2. Structural Unemployment**  │ A chronic, long-term mismatch between the **skills          │
-│                                 │ possessed by job-seekers** and the **technical skills       │
-│                                 │ demanded by employers**, driven by technological transitions│
-│                                 │ or capital-intensive automation.                            │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **3. Cyclical Unemployment**    │ **Demand-Deficient Unemployment** caused by downswings in   │
-│    *(Keynesian Unemployment)*   │ the business cycle (economic recessions or depressions).    │
-│                                 │ As aggregate demand drops, firms cut production and retrench│
-│                                 │ staff (e.g., global tech layoffs during monetary tightening)│
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **4. Frictional Unemployment**  │ **Search Unemployment**: The temporary transition period    │
-│                                 │ spent by a worker moving between jobs, or a fresh graduate  │
-│                                 │ searching for their first employment. Normal and voluntary. │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **5. Seasonal Unemployment**    │ Unemployment occurring at predictable intervals of the year │
-│                                 │ due to seasonal production cycles (e.g., agricultural slack │
-│                                 │ seasons between sowing and harvesting, sugarcane crushing). │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **6. Vulnerable Employment**    │ Persons working as own-account workers or contributing family│
-│                                 │ workers without formal employment contracts, paid leave,    │
-│                                 │ or social security protections.                             │
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Type of Unemployment | Theoretical Mechanism & Practical Manifestation |
+| :--- | :--- |
+| **1. Disguised Unemployment** *(Hidden Unemployment)* | **Marginal Productivity of Labor is ZERO ($\mathbf{MP_L = 0}$)**.<br>More workers are engaged in an economic activity than are technically required. If surplus workers are completely withdrawn, **Total Output does NOT decline**!<br>• Classic characteristic of Indian peasant agriculture. |
+| **2. Structural Unemployment** | A chronic, long-term mismatch between the **skills possessed by job-seekers** and the **technical skills demanded by employers**, driven by technological transitions or capital-intensive automation. |
+| **3. Cyclical Unemployment** *(Keynesian Unemployment)* | **Demand-Deficient Unemployment** caused by downswings in the business cycle (economic recessions or depressions). As aggregate demand drops, firms cut production and retrench staff. |
+| **4. Frictional Unemployment** | **Search Unemployment**: The temporary transition period spent by a worker moving between jobs, or a fresh graduate searching for their first employment. Normal and voluntary. |
+| **5. Seasonal Unemployment** | Unemployment occurring at predictable intervals of the year due to seasonal production cycles (e.g., agricultural slack seasons between sowing and harvesting, sugarcane crushing). |
+| **6. Vulnerable Employment** | Persons working as own-account workers or contributing family workers without formal employment contracts, paid leave, or social security protections. |
 
 ---
 
@@ -298,31 +273,13 @@ To dismantle a colonial, overlapping tangle of 29 archaic Central labor laws, Pa
 
 ## 14.10 Examination Lenses & Trap Compendium
 
-```
-┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Critical Concept                │ High-Yield Examiner Trap / Exact Distinctions               │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Unemployment Rate Formula**   │ **TRAP**: UR is calculated as a percentage of the **Labour  │
-│                                 │ Force**, NOT the total population or working-age group!     │
-│                                 │ If discouraged workers drop out of the labor force, UR can  │
-│                                 │ paradoxically *fall* even if fewer people are working!      │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **CWS 1-Hour Rule**             │ **TRAP**: Under Current Weekly Status (CWS), working for    │
-│                                 │ **just 1 single hour on any one day during the reference    │
-│                                 │ week** classifies an individual as **employed**!            │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Disguised Unemployment**      │ **TRAP**: Disguised unemployment does NOT mean zero total   │
-│                                 │ output. It means **Marginal Product is ZERO ($\mathbf{MP_L = 0}$)**.│
-│                                 │ Total output remains constant if workers are removed.       │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Industrial Relations 300 Cap**│ **TRAP**: The prior threshold requiring government sanction │
-│                                 │ for retrenchment was **100 workers**; the 2020 Industrial   │
-│                                 │ Relations Code raised this threshold to **300 workers**.    │
-├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **PLFS Publishing Authority**   │ **TRAP**: PLFS is conducted by **NSO (MoSPI)**, NOT by the  │
-│                                 │ Ministry of Labour and Employment or the Labour Bureau!     │
-└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+| Critical Concept | High-Yield Examiner Trap / Exact Distinctions |
+| :--- | :--- |
+| **Unemployment Rate Formula** | **TRAP**: UR is calculated as a percentage of the **Labour Force**, NOT the total population or working-age group! If discouraged workers drop out of the labor force, UR can paradoxically *fall* even if fewer people are working! |
+| **CWS 1-Hour Rule** | **TRAP**: Under Current Weekly Status (CWS), working for **just 1 single hour on any one day during the reference week** classifies an individual as **employed**! |
+| **Disguised Unemployment** | **TRAP**: Disguised unemployment does NOT mean zero total output. It means **Marginal Product is ZERO ($\mathbf{MP_L = 0}$)**. Total output remains constant if workers are removed. |
+| **Industrial Relations 300 Cap** | **TRAP**: The prior threshold requiring government sanction for retrenchment was **100 workers**; the 2020 Industrial Relations Code raised this threshold to **300 workers**. |
+| **PLFS Publishing Authority** | **TRAP**: PLFS is conducted by **NSO (MoSPI)**, NOT by the Ministry of Labour and Employment or the Labour Bureau! |
 
 ---
 

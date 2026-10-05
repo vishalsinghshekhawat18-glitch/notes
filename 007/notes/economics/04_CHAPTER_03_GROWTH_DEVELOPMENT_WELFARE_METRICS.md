@@ -159,28 +159,11 @@ $$I_x = \frac{\text{Actual Value} - \text{Minimum Goalpost}}{\text{Maximum Goalp
 
 HDI measures average national achievements, but **averages conceal deep disparities**. In 2010, UNDP introduced three companion indices to expose inequalities:
 
-```
-┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│ Metric                          │ Core Analytical Mission         │ Mathematical Formulation        │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 1. Inequality-Adjusted HDI      │ Measures HDI discounted for     │ Adjusts each dimension by the   │
-│    (IHDI)                       │ internal inequality across the  │ Atkinson inequality measure:    │
-│                                 │ population. If inequality = 0,  │ $\text{Loss} = 1 - \frac{\text{IHDI}}{\text{HDI}}$│
-│                                 │ $\text{IHDI} = \text{HDI}$.     │ India loses ~25-30% of its HDI  │
-│                                 │                                 │ value due to acute inequality!  │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 2. Gender Development Index     │ Ratio of female HDI to male     │ $\text{GDI} = \frac{\text{HDI}_{\text{Female}}}{\text{HDI}_{\text{Male}}}$│
-│    (GDI)                        │ HDI. Measures gender disparities│ Measures how close females are  │
-│                                 │ in basic human capabilities.    │ to parity with males.           │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 3. Gender Inequality Index      │ Measures loss in potential      │ Three dimensions:               │
-│    (GII)                        │ development due to gender-based │ 1. Reproductive Health (MMR &   │
-│                                 │ disparities.                    │    Adolescent birth rate)       │
-│                                 │ *Scale: 0 (equality) to 1.*     │ 2. Empowerment (Parliament seats│
-│                                 │ Lower score = Superior gender   │    & secondary education)       │
-│                                 │ parity.                         │ 3. Labor Market (LFPR gap)      │
-└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
-```
+| Metric | Core Analytical Mission | Mathematical Formulation |
+| :--- | :--- | :--- |
+| **1. Inequality-Adjusted HDI (IHDI)** | Measures HDI discounted for internal inequality across the population. If inequality = 0, $\text{IHDI} = \text{HDI}$. | Adjusts each dimension by the Atkinson inequality measure:<br>$$\text{Loss} = 1 - \frac{\text{IHDI}}{\text{HDI}}$$ India loses ~25–30% of its HDI value due to acute inequality! |
+| **2. Gender Development Index (GDI)** | Ratio of female HDI to male HDI. Measures gender disparities in basic human capabilities. | $$\text{GDI} = \frac{\text{HDI}_{\text{Female}}}{\text{HDI}_{\text{Male}}}$$ Measures how close females are to parity with males. |
+| **3. Gender Inequality Index (GII)** | Measures loss in potential development due to gender-based disparities.<br>*Scale: 0 (equality) to 1.* Lower score = Superior gender parity. | Three dimensions:<br>1. Reproductive Health (MMR & Adolescent birth rate)<br>2. Empowerment (Parliament seats & secondary education)<br>3. Labor Market (LFPR gap) |
 
 ---
 
@@ -227,28 +210,11 @@ $$\mathbf{\text{MPI}} = H \times A$$
 
 ## 3.7 Alternative Welfare Paradigms
 
-```
-┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│ Paradigm                        │ Core Epistemic Philosophy       │ Key Structural Pillars          │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 1. Gross National Happiness     │ Enunciated by King Jigme Singye │ 4 Pillars & 9 Domains:          │
-│    (GNH) — Bhutan (1972)        │ Wangchuck: True human progress  │ • Sustainable socio-economic dev│
-│                                 │ occurs when spiritual, cultural,│ • Environmental conservation    │
-│                                 │ and psychological wellbeing are │ • Preservation of culture       │
-│                                 │ placed above material output.   │ • Good governance               │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 2. Green GDP                    │ Conventional GDP treats the     │ $\text{Green GDP} = \text{GDP}$ │
-│                                 │ destruction of nature as output.│ $- \text{Environmental Damage}$ │
-│                                 │ Green GDP subtracts natural     │ $- \text{Depletion of Natural}$ │
-│                                 │ capital depletion & ecological  │   $\text{Capital (Forests/Water)}$│
-│                                 │ degradation costs from GDP.     │                                 │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 3. Genuine Progress Indicator   │ Accounts for income inequality,  │ Deducts crime costs, divorce    │
-│    (GPI)                        │ value of non-market household   │ costs, pollution, ozone loss;   │
-│                                 │ labor, volunteering, and        │ adds volunteer labor and parent-│
-│                                 │ environmental degradation.      │ ing time to conventional GDP.   │
-└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
-```
+| Paradigm | Core Epistemic Philosophy | Key Structural Pillars |
+| :--- | :--- | :--- |
+| **1. Gross National Happiness (GNH)** — Bhutan (1972) | Enunciated by King Jigme Singye Wangchuck: True human progress occurs when spiritual, cultural, and psychological wellbeing are placed above material output. | 4 Pillars & 9 Domains:<br>• Sustainable socio-economic development<br>• Environmental conservation<br>• Preservation of culture<br>• Good governance |
+| **2. Green GDP** | Conventional GDP treats the destruction of nature as output. Green GDP subtracts natural capital depletion & ecological degradation costs from GDP. | $$\text{Green GDP} = \text{GDP} - \text{Environmental Damage} - \text{Depletion of Natural Capital (Forests/Water)}$$ |
+| **3. Genuine Progress Indicator (GPI)** | Accounts for income inequality, value of non-market household labor, volunteering, and environmental degradation. | Deducts crime costs, divorce costs, pollution, ozone loss; adds volunteer labor and parenting time to conventional GDP. |
 
 ---
 

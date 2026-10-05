@@ -148,22 +148,37 @@ export function parseAsciiTable(rawBlockText: string): ParsedTable | null {
 
   function formatInlineTypography(str: string): string {
     let out = str;
-    // Bold: **text**
-    out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-    // Italics: *text*
-    out = out.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
-    // Math inline KaTeX
+    // 1. Display math $$...$$
+    out = out.replace(/\$\$([\s\S]+?)\$\$/g, (m, inner) => {
+      let clean = inner
+        .replace(/\n+/g, ' ')
+        .replace(/(?<!\\text\{)₹/g, '\\text{₹}')
+        .replace(/(?<=[0-9])(?<!\\)%/g, '\\%')
+        .trim();
+      try {
+        return `<div class="math-display-wrap">${katex.renderToString(clean, { displayMode: true, throwOnError: true, strict: false })}</div>`;
+      } catch {
+        return m;
+      }
+    });
+
+    // 2. Inline math $...$
     out = out.replace(/(?<!\$)\$([^\$\n]+)\$(?!\$)/g, (m, inner) => {
       let clean = inner
         .replace(/(?<!\\text\{)₹/g, '\\text{₹}')
         .replace(/(?<=[0-9])(?<!\\)%/g, '\\%')
         .trim();
       try {
-        return katex.renderToString(clean, { displayMode: false, throwOnError: false, strict: false });
+        return katex.renderToString(clean, { displayMode: false, throwOnError: true, strict: false });
       } catch {
         return m;
       }
     });
+
+    // 3. Bold: **text**
+    out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    // 4. Italics: *text*
+    out = out.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
     return out;
   }
 

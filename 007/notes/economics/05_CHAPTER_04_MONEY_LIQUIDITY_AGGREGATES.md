@@ -241,24 +241,11 @@ $$m = \frac{1 + c}{c + r}$$
 * **$c = \frac{C}{D}$ (Currency-Deposit Ratio)**: The proportion of money the public prefers to hold as physical cash relative to bank deposits. Driven by financial literacy, banking access, and digital payments (UPI).
 * **$r = \frac{R}{D}$ (Reserve-Deposit Ratio)**: The proportion of deposits banks hold as reserves ($r = \text{CRR} + \text{Excess Reserves}$).
 
-```
-┌─────────────────────────────────────────┬─────────────────────────────────────────────┐
-│ Behavioral Shock                        │ Impact on Money Multiplier ($m$) & Money    │
-│                                         │ Supply ($M_3$)                              │
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ 1. Surge in UPI & Digital Banking       │ Public holds less cash $\implies c \downarrow$.   │
-│    (Decreases Currency-Deposit Ratio)   │ Multiplier increases ($m \uparrow$). Money  │
-│                                         │ creation capacity of banks expands.         │
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ 2. Panic Bank Runs / Cash Hoarding      │ Public withdraws cash $\implies c \uparrow$.       │
-│    (Increases Currency-Deposit Ratio)   │ Multiplier collapses ($m \downarrow$). Total│
-│                                         │ money supply contracts sharply.             │
-├─────────────────────────────────────────┼─────────────────────────────────────────────┤
-│ 3. RBI Hikes Cash Reserve Ratio (CRR)   │ Mandatory reserve ratio rises $\implies r \uparrow$.│
-│    (Increases Reserve-Deposit Ratio)    │ Multiplier decreases ($m \downarrow$). Bank │
-│                                         │ lending capacity shrinks (Monetary squeeze).│
-└─────────────────────────────────────────┴─────────────────────────────────────────────┘
-```
+| Behavioral Shock | Impact on Money Multiplier ($m$) & Money Supply ($M_3$) |
+| :--- | :--- |
+| **1. Surge in UPI & Digital Banking**<br>*(Decreases Currency-Deposit Ratio)* | Public holds less cash $\implies c \downarrow$. Multiplier increases ($m \uparrow$). Money creation capacity of banks expands. |
+| **2. Panic Bank Runs / Cash Hoarding**<br>*(Increases Currency-Deposit Ratio)* | Public withdraws cash $\implies c \uparrow$. Multiplier collapses ($m \downarrow$). Total money supply contracts sharply. |
+| **3. RBI Hikes Cash Reserve Ratio (CRR)**<br>*(Increases Reserve-Deposit Ratio)* | Mandatory reserve ratio rises $\implies r \uparrow$. Multiplier decreases ($m \downarrow$). Bank lending capacity shrinks (Monetary squeeze). |
 
 ---
 

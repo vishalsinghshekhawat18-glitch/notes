@@ -10,11 +10,11 @@ async function verifyMasterCodex() {
 
   console.log(`\n======================================================`);
   console.log(`FORENSIC AUDIT OF BOOK 01 MASTER CODEX: ${masterPath}`);
-  console.log(`Total Pages: ${total} (Expected: 212)`);
+  console.log(`Total Pages: ${total} (Expected: 211)`);
   console.log(`======================================================`);
 
-  if (total !== 212) {
-    console.error(`FAIL: Expected 212 pages, found ${total}`);
+  if (total !== 211) {
+    console.error(`FAIL: Expected 211 pages, found ${total}`);
     process.exit(1);
   }
 
@@ -24,31 +24,31 @@ async function verifyMasterCodex() {
   const EXPECTED_MAPPING = [
     { ch: 1, physStart: 5, bodyStart: 1, pages: 7 },
     { ch: 2, physStart: 12, bodyStart: 8, pages: 8 },
-    { ch: 3, physStart: 20, bodyStart: 16, pages: 9 },
-    { ch: 4, physStart: 29, bodyStart: 25, pages: 6 },
-    { ch: 5, physStart: 35, bodyStart: 31, pages: 8 },
-    { ch: 6, physStart: 43, bodyStart: 39, pages: 6 },
-    { ch: 7, physStart: 49, bodyStart: 45, pages: 9 },
-    { ch: 8, physStart: 58, bodyStart: 54, pages: 5 },
-    { ch: 9, physStart: 63, bodyStart: 59, pages: 9 },
-    { ch: 10, physStart: 72, bodyStart: 68, pages: 8 },
-    { ch: 11, physStart: 80, bodyStart: 76, pages: 9 },
-    { ch: 12, physStart: 89, bodyStart: 85, pages: 6 },
-    { ch: 13, physStart: 95, bodyStart: 91, pages: 6 },
-    { ch: 14, physStart: 101, bodyStart: 97, pages: 7 },
-    { ch: 15, physStart: 108, bodyStart: 104, pages: 6 },
-    { ch: 16, physStart: 114, bodyStart: 110, pages: 3 },
-    { ch: 17, physStart: 117, bodyStart: 113, pages: 7 },
-    { ch: 18, physStart: 124, bodyStart: 120, pages: 7 },
-    { ch: 19, physStart: 131, bodyStart: 127, pages: 10 },
-    { ch: 20, physStart: 141, bodyStart: 137, pages: 9 },
-    { ch: 21, physStart: 150, bodyStart: 146, pages: 9 },
-    { ch: 22, physStart: 159, bodyStart: 155, pages: 7 },
-    { ch: 23, physStart: 166, bodyStart: 162, pages: 7 },
-    { ch: 24, physStart: 173, bodyStart: 169, pages: 5 },
-    { ch: 25, physStart: 178, bodyStart: 174, pages: 5 },
-    { ch: 26, physStart: 183, bodyStart: 179, pages: 20 },
-    { ch: 27, physStart: 203, bodyStart: 199, pages: 10 },
+    { ch: 3, physStart: 20, bodyStart: 16, pages: 8 },
+    { ch: 4, physStart: 28, bodyStart: 24, pages: 6 },
+    { ch: 5, physStart: 34, bodyStart: 30, pages: 8 },
+    { ch: 6, physStart: 42, bodyStart: 38, pages: 6 },
+    { ch: 7, physStart: 48, bodyStart: 44, pages: 9 },
+    { ch: 8, physStart: 57, bodyStart: 53, pages: 5 },
+    { ch: 9, physStart: 62, bodyStart: 58, pages: 9 },
+    { ch: 10, physStart: 71, bodyStart: 67, pages: 8 },
+    { ch: 11, physStart: 79, bodyStart: 75, pages: 9 },
+    { ch: 12, physStart: 88, bodyStart: 84, pages: 6 },
+    { ch: 13, physStart: 94, bodyStart: 90, pages: 6 },
+    { ch: 14, physStart: 100, bodyStart: 96, pages: 7 },
+    { ch: 15, physStart: 107, bodyStart: 103, pages: 6 },
+    { ch: 16, physStart: 113, bodyStart: 109, pages: 3 },
+    { ch: 17, physStart: 116, bodyStart: 112, pages: 7 },
+    { ch: 18, physStart: 123, bodyStart: 119, pages: 7 },
+    { ch: 19, physStart: 130, bodyStart: 126, pages: 10 },
+    { ch: 20, physStart: 140, bodyStart: 136, pages: 9 },
+    { ch: 21, physStart: 149, bodyStart: 145, pages: 9 },
+    { ch: 22, physStart: 158, bodyStart: 154, pages: 7 },
+    { ch: 23, physStart: 165, bodyStart: 161, pages: 7 },
+    { ch: 24, physStart: 172, bodyStart: 168, pages: 5 },
+    { ch: 25, physStart: 177, bodyStart: 173, pages: 5 },
+    { ch: 26, physStart: 182, bodyStart: 178, pages: 20 },
+    { ch: 27, physStart: 202, bodyStart: 198, pages: 10 },
   ];
 
   for (const m of EXPECTED_MAPPING) {
