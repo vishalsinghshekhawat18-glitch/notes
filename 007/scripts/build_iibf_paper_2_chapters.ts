@@ -16,129 +16,183 @@ export interface ChapterMeta {
 export const IIBF_PAPER_2_REGISTRY: ChapterMeta[] = [
   {
     index: 1,
-    filename: '01_CHAPTER_01_BANKER_CUSTOMER_RELATIONSHIP.md',
-    shortHeader: 'CHAPTER 01 : BANKER-CUSTOMER RELATIONSHIP & RIGHTS',
-    fullTitle: 'BANKER-CUSTOMER RELATIONSHIP, RIGHTS & STATUTORY DUTIES',
+    filename: '01_CHAPTER_01_BANKER_CUSTOMER_RELATIONSHIP_RIGHTS_DUTIES.md',
+    shortHeader: 'CHAPTER 01 : BANKER-CUSTOMER RELATIONSHIP & DUTIES',
+    fullTitle: 'BANKER-CUSTOMER RELATIONSHIP, LEGAL RIGHTS & STATUTORY DUTIES',
   },
   {
     index: 2,
-    filename: '02_CHAPTER_02_AML_KYC_CUSTOMER_DUE_DILIGENCE.md',
-    shortHeader: 'CHAPTER 02 : AML, KYC NORMS & DUE DILIGENCE',
-    fullTitle: 'AML / KYC NORMS, RISK CATEGORIZATION & DUE DILIGENCE (CDD)',
+    filename: '02_CHAPTER_02_AML_KYC_ARCHITECTURE_OPERATIONAL_VERIFICATION.md',
+    shortHeader: 'CHAPTER 02 : AML, KYC NORMS & OPERATIONAL VERIFICATION',
+    fullTitle: 'AML / KYC ARCHITECTURE, PMLA FRAMEWORK & RISK CATEGORIZATION',
   },
   {
     index: 3,
-    filename: '03_CHAPTER_03_SPECIAL_CUSTOMERS_ACCOUNTS.md',
-    shortHeader: 'CHAPTER 03 : SPECIAL CUSTOMERS & FIDUCIARY ACCOUNTS',
-    fullTitle: 'OPERATIONS IN ACCOUNTS OF SPECIAL CATEGORIES OF CUSTOMERS',
+    filename: '03_CHAPTER_03_ACCOUNT_OPENING_SPECIAL_CUSTOMERS_LEI.md',
+    shortHeader: 'CHAPTER 03 : SPECIAL CUSTOMERS & LEI MANDATE',
+    fullTitle: 'ACCOUNTS OF SPECIAL CUSTOMERS, OPERATIONAL MANDATES & LEI',
   },
   {
     index: 4,
-    filename: '04_CHAPTER_04_COMPANIES_TRUSTS_SOCIETIES.md',
-    shortHeader: 'CHAPTER 04 : CORPORATE ACCOUNTS, TRUSTS & CHARGES',
-    fullTitle: 'ACCOUNTS OF COMPANIES, TRUSTS, CLUBS & CHARGE REGISTRATION',
+    filename: '04_CHAPTER_04_COMPANIES_TRUSTS_CHARGE_REGISTRATION.md',
+    shortHeader: 'CHAPTER 04 : CORPORATE ENTITIES & CHARGE REGISTRATION',
+    fullTitle: 'COMPANIES, TRUSTS, SOCIETIES & COMPANIES ACT CHARGE REGISTRATION',
   },
   {
     index: 5,
-    filename: '05_CHAPTER_05_MANDATES_POAS_COURT_ORDERS.md',
-    shortHeader: 'CHAPTER 05 : MANDATES, POAS & ATTACHMENT ORDERS',
-    fullTitle: 'MANDATES, POWER OF ATTORNEY & COURT ORDERS (GARNISHEE / ATTACHMENT)',
+    filename: '05_CHAPTER_05_DEPOSIT_OPERATIONS_ATTACHMENT_ORDERS.md',
+    shortHeader: 'CHAPTER 05 : DEPOSIT OPERATIONS & ATTACHMENT ORDERS',
+    fullTitle: 'DEPOSIT OPERATIONS, UNCLAIMED BALANCES & ATTACHMENT ORDERS',
   },
   {
     index: 6,
-    filename: '06_CHAPTER_06_LOCKERS_SAFE_CUSTODY_NOMINATION.md',
-    shortHeader: 'CHAPTER 06 : SAFE DEPOSIT LOCKERS & NOMINATION',
-    fullTitle: 'SAFE DEPOSIT LOCKERS, SAFE CUSTODY & NOMINATION NORMS',
+    filename: '06_CHAPTER_06_LOCKERS_SAFE_CUSTODY_NOMINATION_2025.md',
+    shortHeader: 'CHAPTER 06 : LOCKERS, SAFE CUSTODY & NOMINATION 2025',
+    fullTitle: 'SAFE DEPOSIT LOCKERS, SAFE CUSTODY & NOMINATION STATUTES (2025/2026)',
   },
   {
     index: 7,
-    filename: '07_CHAPTER_07_CASH_OPERATIONS_CLEAN_NOTE_POLICY.md',
-    shortHeader: 'CHAPTER 07 : CASH OPERATIONS & COUNTERFEIT DETECTION',
-    fullTitle: 'CASH OPERATIONS, CLEAN NOTE POLICY & COUNTERFEIT CURRENCY',
+    filename: '07_CHAPTER_07_FEMA_NRI_ACCOUNTS_FOREIGN_REMITTANCES.md',
+    shortHeader: 'CHAPTER 07 : FEMA, NRI ACCOUNTS & LRS REMITTANCES',
+    fullTitle: 'FOREIGN EXCHANGE MANAGEMENT ACT (FEMA), NRI ACCOUNTS & LRS',
   },
   {
     index: 8,
-    filename: '08_CHAPTER_08_NEGOTIABLE_INSTRUMENTS_ACT_1881.md',
-    shortHeader: 'CHAPTER 08 : NEGOTIABLE INSTRUMENTS & CHEQUES',
-    fullTitle: 'NEGOTIABLE INSTRUMENTS ACT 1881: CHEQUES, PROTECTION & SEC 138',
+    filename: '08_CHAPTER_08_CASH_OPERATIONS_CLEAN_NOTE_POLICY_CMS.md',
+    shortHeader: 'CHAPTER 08 : CASH OPERATIONS & CLEAN NOTE POLICY',
+    fullTitle: 'CASH OPERATIONS, CLEAN NOTE POLICY, COUNTERFEIT DETECTION & CMS',
   },
   {
     index: 9,
-    filename: '09_CHAPTER_09_PRINCIPLES_OF_LENDING_WORKING_CAPITAL.md',
-    shortHeader: 'CHAPTER 09 : LENDING PRINCIPLES & WORKING CAPITAL',
-    fullTitle: 'PRINCIPLES OF LENDING, WORKING CAPITAL & TERM LOAN APPRAISAL',
+    filename: '09_CHAPTER_09_NEGOTIABLE_INSTRUMENTS_ACT_CTS_CLEARING.md',
+    shortHeader: 'CHAPTER 09 : NEGOTIABLE INSTRUMENTS & CTS CLEARING',
+    fullTitle: 'NEGOTIABLE INSTRUMENTS ACT 1881 & CHEQUE TRUNCATION SYSTEM (CTS)',
   },
   {
     index: 10,
-    filename: '10_CHAPTER_10_COLLATERALS_AND_CREATION_OF_CHARGES.md',
-    shortHeader: 'CHAPTER 10 : COLLATERALS & SECURITY CHARGES',
-    fullTitle: 'COLLATERALS & CHARGES: PLEDGE, HYPOTHECATION, LIEN & MORTGAGES',
+    filename: '10_CHAPTER_10_PAYING_AND_COLLECTING_BANK_ANCILLARY_SERVICES.md',
+    shortHeader: 'CHAPTER 10 : PAYING & COLLECTING BANK PROTECTIONS',
+    fullTitle: 'PAYING AND COLLECTING BANKER DUTIES, PROTECTIONS & ANCILLARY SERVICES',
   },
   {
     index: 11,
-    filename: '11_CHAPTER_11_LETTERS_OF_CREDIT_UCPDC_600.md',
-    shortHeader: 'CHAPTER 11 : LETTERS OF CREDIT & UCPDC 600',
-    fullTitle: 'NON-FUND FACILITIES I: LETTERS OF CREDIT (LC) & UCPDC 600',
+    filename: '11_CHAPTER_11_FINANCIAL_INCLUSION_CUSTOMER_SERVICE_SECRECY.md',
+    shortHeader: 'CHAPTER 11 : FINANCIAL INCLUSION & CUSTOMER SERVICE',
+    fullTitle: 'FINANCIAL INCLUSION, PMJDY, CUSTOMER SERVICE NORMS & SECRECY',
   },
   {
     index: 12,
-    filename: '12_CHAPTER_12_BANK_GUARANTEES_CO_ACCEPTANCE.md',
-    shortHeader: 'CHAPTER 12 : BANK GUARANTEES & CONTRACT LAWS',
-    fullTitle: 'NON-FUND FACILITIES II: BANK GUARANTEES (BG) & DEFERRED PAYMENTS',
+    filename: '12_CHAPTER_12_GRIEVANCE_REDRESSAL_OMBUDSMAN_CPA_RTI.md',
+    shortHeader: 'CHAPTER 12 : GRIEVANCE REDRESSAL, OMBUDSMAN & RTI',
+    fullTitle: 'GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA 2019 & RTI ACT',
   },
   {
     index: 13,
-    filename: '13_CHAPTER_13_EXPORT_FINANCE_AND_FOREX_OPERATIONS.md',
-    shortHeader: 'CHAPTER 13 : EXPORT CREDIT & ECGC FRAMEWORK',
-    fullTitle: 'EXPORT FINANCE, PRE/POST-SHIPMENT CREDIT & ECGC POLICIES',
+    filename: '13_CHAPTER_13_PRINCIPLES_OF_LENDING_LOAN_MANAGEMENT.md',
+    shortHeader: 'CHAPTER 13 : PRINCIPLES OF LENDING & RECOVERY NORMS',
+    fullTitle: 'PRINCIPLES OF LENDING, LOAN POLICY, EBLR & FAIR PRACTICES CODE',
   },
   {
     index: 14,
-    filename: '14_CHAPTER_14_PRIORITY_SECTOR_MSME_CGTMSE.md',
-    shortHeader: 'CHAPTER 14 : PSL TARGETS, MSMES & CGTMSE',
-    fullTitle: 'PRIORITY SECTOR LENDING (PSL), MSME MANDATES & CGTMSE',
+    filename: '14_CHAPTER_14_CREDIT_APPRAISAL_ASSESSMENT_WORKING_CAPITAL.md',
+    shortHeader: 'CHAPTER 14 : CREDIT APPRAISAL & WORKING CAPITAL',
+    fullTitle: 'CREDIT APPRAISAL, RATIO ANALYSIS, NAYAK & TANDON WORKING CAPITAL',
   },
   {
     index: 15,
-    filename: '15_CHAPTER_15_NPA_MANAGEMENT_SARFAESI_DRT_IBC.md',
-    shortHeader: 'CHAPTER 15 : NPAS, SARFAESI ACT & RECOVERY LAWS',
-    fullTitle: 'NPA MANAGEMENT, ASSET CLASSIFICATION, SARFAESI ACT & DRT',
+    filename: '15_CHAPTER_15_COLLATERALS_CHARGES_MORTGAGE_DOCUMENTATION.md',
+    shortHeader: 'CHAPTER 15 : COLLATERALS, CHARGES & MORTGAGES',
+    fullTitle: 'COLLATERAL CHARGES, MORTGAGES, STAMPING & LIMITATION ACT',
   },
   {
     index: 16,
-    filename: '16_CHAPTER_16_CREDIT_MATH_AND_ELECTRONIC_TAT_RULES.md',
-    shortHeader: 'CHAPTER 16 : CREDIT MATH & ELECTRONIC TAT NORMS',
-    fullTitle: 'CREDIT APPRAISAL MATHEMATICS & FAILED TRANSACTION TAT RULES',
+    filename: '16_CHAPTER_16_CONTRACTS_OF_INDEMNITY_AND_GUARANTEE.md',
+    shortHeader: 'CHAPTER 16 : INDEMNITY & BANK GUARANTEE DOCTRINE',
+    fullTitle: 'CONTRACTS OF INDEMNITY AND GUARANTEE & BANK GUARANTEE CLAIM DOCTRINE',
   },
   {
     index: 17,
-    filename: '17_CHAPTER_17_CBS_DATA_CENTERS_DISASTER_RECOVERY.md',
-    shortHeader: 'CHAPTER 17 : CBS ARCHITECTURE & DATA CENTERS',
-    fullTitle: 'BANK COMPUTERIZATION, CORE BANKING (CBS) & DATA CENTERS',
+    filename: '17_CHAPTER_17_LETTERS_OF_CREDIT_UCPDC_600_BILL_FINANCE.md',
+    shortHeader: 'CHAPTER 17 : LETTERS OF CREDIT & UCPDC 600',
+    fullTitle: 'LETTERS OF CREDIT (LC), UCPDC 600 RULES & BILL FINANCE',
   },
   {
     index: 18,
-    filename: '18_CHAPTER_18_ELECTRONIC_PAYMENTS_NPCI_DIGITAL_RUPEE.md',
-    shortHeader: 'CHAPTER 18 : PAYMENT SYSTEMS & NPCI PLATFORMS',
-    fullTitle: 'ELECTRONIC PAYMENT SYSTEMS, NPCI PLATFORMS & DIGITAL RUPEE (e₹)',
+    filename: '18_CHAPTER_18_PERSONAL_FINANCE_RETAIL_CREDIT_CARDS.md',
+    shortHeader: 'CHAPTER 18 : RETAIL LOANS & CREDIT CARD REGULATIONS',
+    fullTitle: 'PERSONAL FINANCE, HOUSING LTV RATIOS & CREDIT CARD REGULATIONS',
   },
   {
     index: 19,
-    filename: '19_CHAPTER_19_CYBER_SECURITY_ISO_IT_ACT.md',
-    shortHeader: 'CHAPTER 19 : CYBER SECURITY & IT LEGISLATION',
-    fullTitle: 'CYBER SECURITY IN BANKS, ISO 27001 & IT ACT 2000',
+    filename: '19_CHAPTER_19_PRIORITY_SECTOR_LENDING_AGRICULTURAL_FINANCE.md',
+    shortHeader: 'CHAPTER 19 : PRIORITY SECTOR LENDING & AGRI CREDIT',
+    fullTitle: 'PRIORITY SECTOR LENDING (PSL 2025/2026), KCC & AGRICULTURAL FINANCE',
   },
   {
     index: 20,
-    filename: '20_CHAPTER_20_BANKING_ETHICS_CUSTOMER_RIGHTS.md',
-    shortHeader: 'CHAPTER 20 : ETHICS & CUSTOMER RIGHTS CHARTER',
-    fullTitle: 'BANKING ETHICS, CUSTOMER RIGHTS CHARTER & GOVERNANCE',
+    filename: '20_CHAPTER_20_MSME_ARCHITECTURE_CGTMSE_GOVERNMENT_SCHEMES.md',
+    shortHeader: 'CHAPTER 20 : MSME CLASSIFICATION & GOVT SCHEMES',
+    fullTitle: 'MSME STATUTORY ARCHITECTURE, CGTMSE, TREDS & GOVERNMENT SCHEMES',
   },
   {
     index: 21,
-    filename: '21_CHAPTER_21_THE_GRAND_SYNTHESIS_PPB_REVISION_VAULT.md',
-    shortHeader: 'CHAPTER 21 : PPB MASTER REVISION VAULT',
-    fullTitle: 'THE GRAND SYNTHESIS: IIBF PAPER 2 (PPB) MASTER REVISION VAULT',
+    filename: '21_CHAPTER_21_NPA_MANAGEMENT_IRAC_NORMS_STRESSED_ASSETS.md',
+    shortHeader: 'CHAPTER 21 : NPA MANAGEMENT & PRUDENTIAL IRAC NORMS',
+    fullTitle: 'NPA MANAGEMENT, PRUDENTIAL IRAC NORMS & PRUDENTIAL FRAMEWORK',
+  },
+  {
+    index: 22,
+    filename: '22_CHAPTER_22_RECOVERY_LAWS_SARFAESI_DRT_IBC_LOK_ADALATS.md',
+    shortHeader: 'CHAPTER 22 : RECOVERY LAWS, SARFAESI, DRT & IBC',
+    fullTitle: 'DEBT RECOVERY STATUTES: SARFAESI ACT 2002, DRT, IBC 2016 & LOK ADALATS',
+  },
+  {
+    index: 23,
+    filename: '23_CHAPTER_23_FINANCE_TO_MFIS_CO_LENDING_SBR_FRAMEWORK.md',
+    shortHeader: 'CHAPTER 23 : MFI REGULATIONS, CO-LENDING & SBR',
+    fullTitle: 'FINANCE TO MFIS, BANK-NBFC CO-LENDING & SCALE BASED REGULATION (SBR)',
+  },
+  {
+    index: 24,
+    filename: '24_CHAPTER_24_CORE_BANKING_SYSTEMS_CBS_INFRASTRUCTURE.md',
+    shortHeader: 'CHAPTER 24 : CBS ARCHITECTURE & INFRASTRUCTURE',
+    fullTitle: 'CORE BANKING SYSTEMS (CBS), HARDWARE INFRASTRUCTURE & DATA CENTERS',
+  },
+  {
+    index: 25,
+    filename: '25_CHAPTER_25_DELIVERY_CHANNELS_PAYMENTS_CUSTOMER_LIABILITY.md',
+    shortHeader: 'CHAPTER 25 : DELIVERY CHANNELS & CUSTOMER LIABILITY',
+    fullTitle: 'DELIVERY CHANNELS, ELECTRONIC PAYMENTS, HARMONISED TAT & CUSTOMER LIABILITY',
+  },
+  {
+    index: 26,
+    filename: '26_CHAPTER_26_NPCI_DIGITAL_RAILS_E_RUPI_ACCOUNT_AGGREGATORS.md',
+    shortHeader: 'CHAPTER 26 : NPCI RAILS, E-RUPI, CBDC & AAS',
+    fullTitle: 'NPCI DIGITAL RAILS, E-RUPI, CENTRAL BANK DIGITAL CURRENCY & ACCOUNT AGGREGATORS',
+  },
+  {
+    index: 27,
+    filename: '27_CHAPTER_27_CYBERSECURITY_INCIDENT_RESPONSE_IT_ACT.md',
+    shortHeader: 'CHAPTER 27 : CYBERSECURITY & IT ACT 2000',
+    fullTitle: 'CYBERSECURITY, INCIDENT RESPONSE, BCP/DR & THE INFORMATION TECHNOLOGY ACT',
+  },
+  {
+    index: 28,
+    filename: '28_CHAPTER_28_ETHICS_BUSINESS_VALUES_BANKING_PERSPECTIVES.md',
+    shortHeader: 'CHAPTER 28 : BUSINESS ETHICS & BANKING VALUES',
+    fullTitle: 'ETHICS, BUSINESS VALUES, CORPORATE GOVERNANCE & BANKING PERSPECTIVES',
+  },
+  {
+    index: 29,
+    filename: '29_CHAPTER_29_EMPLOYEE_ETHICS_WORKPLACE_WHISTLEBLOWING_IPR.md',
+    shortHeader: 'CHAPTER 29 : EMPLOYEE ETHICS, POSH ACT & DPDP',
+    fullTitle: 'EMPLOYEE ETHICS, WORKPLACE CONDUCT, POSH ACT, WHISTLEBLOWING & DPDP ACT',
+  },
+  {
+    index: 30,
+    filename: '30_CHAPTER_30_THE_GRAND_SYNTHESIS_MASTER_REVISION_VAULT.md',
+    shortHeader: 'CHAPTER 30 : MASTER REVISION VAULT & SYNTHESIS',
+    fullTitle: 'THE GRAND SYNTHESIS: 55-UNIT RECONCILED FAST-RECALL VAULT & DIAGNOSTIC DRILL',
   },
 ];
 
@@ -354,11 +408,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -397,11 +447,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -440,11 +486,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -888,7 +930,7 @@ export async function main() {
   const katexCss = fs.existsSync(katexCssPath) ? fs.readFileSync(katexCssPath, 'utf-8') : '';
 
   console.log(`\n======================================================`);
-  console.log(`BATCH COMPILING ALL 21 CHAPTERS FOR IIBF PAPER 2 (PPB)`);
+  console.log(`BATCH COMPILING ALL 30 CHAPTERS FOR IIBF PAPER 2 (PPB)`);
   console.log(`======================================================`);
 
   for (const meta of IIBF_PAPER_2_REGISTRY) {
@@ -904,7 +946,7 @@ export async function main() {
     console.log(`  -> Finished ${pdfName} (${(stats.size / 1024).toFixed(1)} KB)`);
   }
 
-  console.log(`\n✓ All 21 chapters compiled successfully into ${outChaptersDir}!`);
+  console.log(`\n✓ All 30 chapters compiled successfully into ${outChaptersDir}!`);
 }
 
 if (process.argv[1] && (process.argv[1].includes('build_iibf_paper_2_chapters.ts') || process.argv[1].includes('build_iibf_paper_2_chapters'))) {

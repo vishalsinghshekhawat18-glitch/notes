@@ -322,9 +322,6 @@ export function ScholarlyLibraryHome() {
     }
   }, []);
 
-  const totalChapters = useMemo(() => MONOGRAPHS.reduce((acc, m) => acc + m.totalChapters, 0), []);
-  const totalMCQs = useMemo(() => MONOGRAPHS.reduce((acc, m) => acc + m.mcqCount, 0), []);
-
   const filteredDomains = useMemo(() => {
     if (activeDomainFilter === 'ALL') {
       return KNOWLEDGE_DOMAINS;
@@ -335,67 +332,6 @@ export function ScholarlyLibraryHome() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 lg:space-y-20 py-8 sm:py-10 text-[#172720] min-w-0 overflow-x-clip">
 
-      {/* =========================================================================
-          LAYER B: THE LIBRARY ENTRANCE & EDITORIAL HERO
-          Monumental presence: deep forest green, Aravalli mountain silhouette,
-          spacious desktop 12-column composition.
-          ========================================================================= */}
-      <section className="relative rounded-3xl bg-[#0B1E18] text-[#FAF8F3] border border-[#1E3A2E] shadow-md p-7 sm:p-10 lg:p-12 overflow-hidden w-full min-w-0">
-        
-        {/* Subtle Atmospheric Depth & Topography Mountain Silhouette */}
-        <div className="absolute inset-0 bg-radial from-[#1A4536]/30 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute top-0 right-0 w-[30rem] h-[30rem] bg-[radial-gradient(circle_at_top_right,rgba(197,155,75,0.09),transparent_70%)] pointer-events-none" />
-        <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-[radial-gradient(circle_at_bottom_left,rgba(30,69,55,0.45),transparent_70%)] pointer-events-none" />
-
-        {/* Decorative Aravalli Mountain Ridge Silhouette */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none opacity-25 overflow-hidden">
-          <svg className="w-full h-full" viewBox="0 0 1200 120" fill="none" preserveAspectRatio="none">
-            <path
-              d="M0 120L0 70C140 40 280 80 420 45C560 10 700 60 840 30C980 2 1100 40 1200 20L1200 120Z"
-              fill="#C59B4B"
-              fillOpacity="0.25"
-            />
-            <path
-              d="M0 120L0 85C160 60 320 100 480 70C640 40 790 85 930 55C1070 25 1140 50 1200 45L1200 120Z"
-              fill="#1B4D3C"
-              fillOpacity="0.5"
-            />
-          </svg>
-        </div>
-
-        <div className="relative z-10 space-y-10 w-full min-w-0">
-          
-          {/* Top Archival Header Ledger Stamp */}
-          <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono border-b border-[#1E3A2E] pb-5 min-w-0">
-            <div className="inline-flex items-center gap-2.5 text-[#FAF8F3] tracking-wider uppercase">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#C59B4B] shadow-[0_0_10px_rgba(197,155,75,0.7)] shrink-0" />
-              <span className="font-bold text-xs sm:text-sm">MIND OF ARAVALLI</span>
-              <span className="text-[#2A4D3E]">•</span>
-              <span className="text-[#C59B4B] font-semibold">SOVEREIGN KNOWLEDGE LIBRARY</span>
-              <span className="hidden sm:inline text-[#2A4D3E]">•</span>
-              <span className="hidden sm:inline text-[#A1B8A9]">SHELF 007 CANONICAL SERIES</span>
-            </div>
-
-            <div className="inline-flex items-center gap-2 text-[#A1B8A9] text-xs">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#2A4D3E]" />
-              <span>Universal Knowledge Core · Primary Statutory Grounding · Zero Abridgement</span>
-            </div>
-          </div>
-
-          {/* Institutional Opening Header */}
-          <div className="space-y-6 max-w-4xl min-w-0">
-            <h1 className="font-serif font-bold text-3xl sm:text-5xl lg:text-6xl text-[#FAF8F3] tracking-tight leading-[1.08]">
-              A Sovereign Scholarly Library
-            </h1>
-            <p className="font-serif text-base sm:text-xl text-[#D5DDD6] leading-relaxed max-w-3xl">
-              Ten canonical master treatises codified across {totalChapters} curriculum chapters and {totalMCQs.toLocaleString()} curated practice questions. Grounded in primary statutory bare acts, official inquiry reports, and authoritative university courseware.
-            </p>
-            <div className="pt-1 text-xs sm:text-sm font-serif italic text-[#C59B4B] max-w-xl">
-              &ldquo;Conceived and codified as an enduring intellectual sanctuary overlooking the ancient Aravalli ranges.&rdquo;
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* =========================================================================
           LAYER C: THE SCHOLAR\'S STUDY DESK (Active Reading Sanctuary)
