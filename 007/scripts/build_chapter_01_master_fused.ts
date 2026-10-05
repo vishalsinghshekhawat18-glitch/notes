@@ -60,7 +60,7 @@ async function main() {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Chapter 01: Foundations of Economic Organization, Sectors &amp; Goods Typology</title>
+<title>Chapter 01: Foundations of Economic Organization</title>
 <style>
   ${katexCss}
 
@@ -72,9 +72,10 @@ async function main() {
   :root {
     --ink: #000;
     --ink2: #222;
-    --rule: #555;
+    --rule: #444;
     --rule-light: #aaa;
-    --tint: #f3f3f3;
+    --tint-head: #ececec;
+    --tint: #f4f4f4;
     --tint-subtle: #fafafa;
     --serif: "Times New Roman", "Baskerville", "Georgia", serif;
     --sans: "Helvetica Neue", "Arial", sans-serif;
@@ -93,8 +94,8 @@ async function main() {
     margin: 0;
     font-family: var(--serif);
     color: var(--ink);
-    font-size: 10.5pt;
-    line-height: 1.44;
+    font-size: 11.5pt;
+    line-height: 1.45;
     background: #fff;
   }
 
@@ -119,30 +120,33 @@ async function main() {
 
   /* Recto (Odd: 1, 3, 5, 7) -> 24mm Left Binding Gutter, 14mm Right Margin */
   .page.recto {
-    padding: 13mm 14mm 12mm 24mm;
+    padding: 12mm 14mm 11mm 24mm;
   }
 
   /* Verso (Even: 2, 4, 6, 8) -> 14mm Left Margin, 24mm Right Binding Gutter */
   .page.verso {
-    padding: 13mm 24mm 12mm 14mm;
+    padding: 12mm 24mm 11mm 14mm;
   }
 
   /* =========================================================
-     RUNNING HEADERS & FOOTERS (SOVEREIGN BENCHMARK)
+     SINGLE-LINE FAR-LEFT RUNNING HEADERS
      ========================================================= */
   .rh {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
     border-bottom: 0.8pt solid #000;
     padding-bottom: 1.2mm;
     margin-bottom: 3.2mm;
-    font: 700 7pt var(--sans);
+    font: 700 7.2pt var(--sans);
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #222;
+    color: #111;
   }
 
+  /* =========================================================
+     RUNNING FOOTERS (FAR RIGHT UNBOXED PAGE NUMBERS)
+     ========================================================= */
   .rf {
     display: flex;
     align-items: center;
@@ -150,31 +154,19 @@ async function main() {
     margin-top: 2.5mm;
     padding-top: 1.2mm;
     border-top: 0.8pt solid #000;
-    font: 700 6.8pt var(--sans);
-    letter-spacing: 0.12em;
+  }
+
+  .rf-left {
+    font: 700 7pt var(--sans);
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #333;
+    color: #222;
   }
 
-  .rf-col {
-    flex: 1;
-  }
-
-  .rf-col.left { text-align: left; }
-  .rf-col.right { text-align: right; }
-  .rf-col.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3mm;
-  }
-
-  .rf-pill {
-    border: 0.9pt solid #000;
-    padding: 0.6mm 3.2mm;
-    font: 700 8.5pt var(--serif);
+  .rf-page {
+    font: 700 11pt var(--serif);
     color: #000;
-    background: #fff;
+    margin-left: auto;
   }
 
   .page-body {
@@ -192,7 +184,7 @@ async function main() {
     align-items: center;
     justify-content: space-between;
     gap: 3.5mm;
-    border-top: 2pt solid #000;
+    border-top: 2.2pt solid #000;
     border-bottom: 0.8pt solid #000;
     padding: 3mm 0;
     margin-bottom: 3.2mm;
@@ -233,7 +225,7 @@ async function main() {
   }
 
   .opener .t h1 {
-    font: 900 13.5pt/1.18 var(--sans);
+    font: 900 14.5pt/1.18 var(--sans);
     margin: 0;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -252,13 +244,13 @@ async function main() {
   }
 
   /* =========================================================
-     SECTION BARS & SUBSECTION HEADERS
+     PRINT-FRIENDLY SECTION BARS & SUBSECTION HEADERS
      ========================================================= */
   .section-bar {
     display: flex;
     align-items: center;
     gap: 3mm;
-    background: #f0f0f0;
+    background: var(--tint-head);
     border: 0.8pt solid #000;
     padding: 1.2mm 2.5mm;
     margin: 2.8mm 0 2.2mm;
@@ -269,8 +261,9 @@ async function main() {
   }
 
   .sec-pill {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
+    border: 1.1pt solid #000;
     font: 800 8.5pt var(--sans);
     padding: 0.6mm 2.2mm;
     letter-spacing: 0.05em;
@@ -290,9 +283,10 @@ async function main() {
     gap: 2mm;
     background: #f7f7f7;
     border-left: 3.5pt solid #000;
+    border-bottom: 0.5pt solid #ddd;
     padding: 1mm 2.5mm;
     margin: 2.2mm 0 1.6mm;
-    font: 700 9.2pt var(--sans);
+    font: 700 9.4pt var(--sans);
     color: #000;
   }
 
@@ -356,17 +350,18 @@ async function main() {
   }
 
   .flow-pill {
-    border: 0.8pt solid #333;
+    border: 0.8pt solid #444;
     padding: 1mm 2.5mm;
-    font: 700 8pt var(--sans);
+    font: 700 8.2pt var(--sans);
     background: #fafafa;
     text-align: center;
   }
 
-  .flow-pill.dark {
-    background: #000;
-    color: #fff;
-    border-color: #000;
+  .flow-pill.highlight {
+    background: #e8e8e8;
+    color: #000;
+    border: 1.2pt solid #000;
+    font-weight: 800;
   }
 
   .flow-arr {
@@ -375,32 +370,24 @@ async function main() {
 
   /* Key Takeaway / Lesson Boxes */
   .key-lesson-box {
-    background: #f2f2f2;
+    background: #f4f4f4;
     border-left: 3pt solid #000;
     padding: 1.5mm 2.5mm;
     margin-top: 1.5mm;
-    font-size: 8.8pt;
+    font-size: 9pt;
     line-height: 1.35;
   }
 
-  .takeaway-bar {
-    background: #000;
-    color: #fff;
-    padding: 1.6mm 3mm;
-    margin-top: 1.5mm;
-    font: 700 8.6pt var(--sans);
+  .takeaway-bar-print {
+    border: 1.2pt solid #000;
+    border-top: 2.2pt solid #000;
+    background: #f8f8f8;
+    color: #000;
+    padding: 1.8mm 3mm;
+    margin-top: 1.6mm;
+    font: 800 9pt var(--sans);
     text-align: center;
     letter-spacing: 0.02em;
-  }
-
-  .takeaway-bar-gray {
-    background: #f0f0f0;
-    border: 0.8pt solid #000;
-    padding: 1.4mm 2.8mm;
-    margin-top: 1.5mm;
-    font: 700 8.6pt var(--sans);
-    text-align: center;
-    color: #000;
   }
 
   /* =========================================================
@@ -414,7 +401,7 @@ async function main() {
   }
 
   .sys-card-header {
-    font: 700 9.2pt var(--sans);
+    font: 700 9.5pt var(--sans);
     border-bottom: 0.6pt solid #ccc;
     padding-bottom: 1mm;
     margin-bottom: 1.6mm;
@@ -429,8 +416,8 @@ async function main() {
   }
 
   .sys-bullets {
-    font-size: 9pt;
-    line-height: 1.35;
+    font-size: 9.3pt;
+    line-height: 1.36;
   }
 
   .sys-bullets div {
@@ -439,7 +426,7 @@ async function main() {
 
   .sys-bullets b {
     font-family: var(--sans);
-    font-size: 8.2pt;
+    font-size: 8.5pt;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #111;
@@ -459,32 +446,34 @@ async function main() {
   }
 
   /* =========================================================
-     SECTORS & TABLES (PAGE 4)
+     PRINT-FRIENDLY TABLES (PAGE 4)
      ========================================================= */
   table.t-grid {
     width: 100%;
     border-collapse: collapse;
-    font-size: 8.8pt;
+    font-size: 9.2pt;
     margin-bottom: 2mm;
   }
 
   table.t-grid th, table.t-grid td {
-    border: 0.6pt solid #444;
-    padding: 1.4mm 2mm;
+    border: 0.6pt solid #555;
+    padding: 1.5mm 2.2mm;
     vertical-align: top;
   }
 
   table.t-grid th {
-    background: #000;
-    color: #fff;
-    font: 700 8pt var(--sans);
+    background: var(--tint-head);
+    color: #000;
+    font: 800 8.4pt var(--sans);
     text-transform: uppercase;
     letter-spacing: 0.04em;
     text-align: left;
+    border-bottom: 1.2pt solid #000;
+    border-top: 0.8pt solid #000;
   }
 
   table.t-grid tr:nth-child(even) td {
-    background: #f9f9f9;
+    background: #fbfbfb;
   }
 
   .macro-sect-grid {
@@ -505,18 +494,19 @@ async function main() {
     display: flex;
     align-items: center;
     gap: 1.8mm;
-    font: 700 8.8pt var(--sans);
+    font: 700 9pt var(--sans);
     margin-bottom: 1.2mm;
     border-bottom: 0.5pt solid #bbb;
     padding-bottom: 0.8mm;
   }
 
   .macro-pill {
-    background: #000;
-    color: #fff;
-    font: 800 7.5pt var(--sans);
-    width: 4mm;
-    height: 4mm;
+    background: #f0f0f0;
+    color: #000;
+    border: 1pt solid #000;
+    font: 800 8pt var(--sans);
+    width: 4.2mm;
+    height: 4.2mm;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,7 +514,7 @@ async function main() {
   }
 
   .macro-card-body {
-    font-size: 8.5pt;
+    font-size: 8.8pt;
     line-height: 1.35;
   }
 
@@ -544,12 +534,12 @@ async function main() {
     padding: 2mm 3mm;
     margin-bottom: 2.5mm;
     background: #fff;
-    font-size: 8.8pt;
+    font-size: 9pt;
     line-height: 1.35;
   }
 
   .trap-card-head {
-    font: 800 8.5pt var(--sans);
+    font: 800 8.6pt var(--sans);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 1mm;
@@ -564,7 +554,7 @@ async function main() {
   .sk-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 8.6pt;
+    font-size: 8.8pt;
     margin-bottom: 2.5mm;
   }
 
@@ -577,9 +567,9 @@ async function main() {
   .sk-table td.sk-key {
     font-family: var(--sans);
     font-weight: 700;
-    font-size: 8.2pt;
+    font-size: 8.4pt;
     width: 32mm;
-    background: #f7f7f7;
+    background: #f4f4f4;
     border-right: 0.6pt solid #bbb;
   }
 
@@ -596,18 +586,18 @@ async function main() {
     background: #f2f2f2;
     border-bottom: 0.6pt solid #000;
     padding: 1.4mm 2.5mm;
-    font: 700 8.5pt var(--sans);
+    font: 700 8.8pt var(--sans);
   }
 
   .diag-a {
     padding: 1.8mm 2.5mm;
-    font-size: 8.6pt;
+    font-size: 8.8pt;
     line-height: 1.35;
   }
 
   .diag-a b {
     font-family: var(--sans);
-    font-size: 8.2pt;
+    font-size: 8.3pt;
     text-transform: uppercase;
   }
 
@@ -616,15 +606,10 @@ async function main() {
 <body>
 
   <!-- =========================================================
-       PAGE 1 (RECTO): OPENER, § 1.1 SCARCITY & PARADOX
+       PAGE 1 (RECTO): OPENER, § 1.1 SCARCITY & PARADOX (NO HEADER)
        ========================================================= -->
   <div class="page recto">
     <div>
-      <div class="rh">
-        <span>Chapter 01 : Foundations of Economic Organization</span>
-        <span>Shelf 007 : Sovereign Bastion</span>
-      </div>
-
       <div class="opener">
         <div class="n-box">
           <div class="n-lbl">Chapter</div>
@@ -632,7 +617,7 @@ async function main() {
         </div>
         <div class="t">
           <small>C H A P T E R &nbsp; 0 1</small>
-          <h1>FOUNDATIONS OF ECONOMIC ORGANIZATION, SECTORS &amp; GOODS TYPOLOGY</h1>
+          <h1>FOUNDATIONS OF ECONOMIC ORGANIZATION</h1>
         </div>
         <div class="citadel-box">
           <img src="file:///${assetsDir}/ch1_opener_fort.png" alt="Aravalli Ridge Historic Citadel" />
@@ -659,17 +644,17 @@ async function main() {
               <span class="flow-pill">Finite Productive Resources</span>
             </div>
             <div class="flow-arr">▼</div>
-            <div class="flow-pill dark">Absolute Scarcity</div>
+            <div class="flow-pill highlight">Absolute Scarcity</div>
             <div class="flow-arr">▼</div>
             <div class="flow-pill">Compulsory Choice</div>
             <div class="flow-arr">▼</div>
-            <div class="flow-pill dark">Opportunity Cost</div>
-            <div style="font-size: 7.5pt; font-style: italic; color: #444; margin-top: 0.5mm;">
+            <div class="flow-pill highlight">Opportunity Cost</div>
+            <div style="font-size: 7.8pt; font-style: italic; color: #444; margin-top: 0.5mm;">
               (Value of the next best alternative foregone)
             </div>
           </div>
           <div style="text-align: center; width: 55mm;">
-            <img src="file:///${assetsDir}/ch1_scarcity_signpost.png" style="max-width: 100%; height: auto; max-height: 27mm; display: block; margin: 0 auto;" alt="Scarcity Signpost" />
+            <img src="file:///${assetsDir}/ch1_scarcity_signpost.png" style="max-width: 100%; height: auto; max-height: 28mm; display: block; margin: 0 auto;" alt="Scarcity Signpost" />
           </div>
         </div>
       </div>
@@ -680,10 +665,10 @@ async function main() {
       <div class="dashed-card">
         <div class="card-2col">
           <div>
-            <p style="font-size: 8.8pt; margin-bottom: 1.2mm;">
+            <p style="font-size: 9.2pt; margin-bottom: 1.2mm;">
               <strong>Pedagogical Insight (K. Sankarganesh):</strong> Why do economic theories rely on assumptions like "All other things being equal" (<em>Ceteris Paribus</em>)?
             </p>
-            <p style="font-size: 8.6pt; line-height: 1.35; margin-bottom: 1.2mm;">
+            <p style="font-size: 9pt; line-height: 1.35; margin-bottom: 1.2mm;">
               In a car's brochure, the maker claims <strong>22 KMPL</strong>. Yet in Indian city traffic, it yields only 15 KMPL. The 22 KMPL was measured under controlled lab conditions—a frictionless track, calibrated tire pressure, and zero congestion—to isolate engine efficiency.
             </p>
             <div class="key-lesson-box">
@@ -691,7 +676,7 @@ async function main() {
             </div>
           </div>
           <div style="text-align: center; width: 45mm;">
-            <img src="file:///${assetsDir}/ch1_car_analogy.png" style="max-width: 100%; height: auto; max-height: 32mm; display: block; margin: 0 auto;" alt="Car Mileage Analogy" />
+            <img src="file:///${assetsDir}/ch1_car_analogy.png" style="max-width: 100%; height: auto; max-height: 33mm; display: block; margin: 0 auto;" alt="Car Mileage Analogy" />
           </div>
         </div>
       </div>
@@ -699,37 +684,34 @@ async function main() {
       <div class="subsec-bar">
         <span>The Adam Smith Water-Diamond Paradox: Value-in-Use vs. Value-in-Exchange</span>
       </div>
-      <p style="font-style: italic; font-size: 8.8pt; margin-bottom: 1.5mm;">
+      <p style="font-style: italic; font-size: 9.2pt; margin-bottom: 1.5mm;">
         Why is life-giving water virtually free, while useless decorative diamonds command millions?
       </p>
       <div class="dashed-card" style="margin-bottom: 1.5mm;">
         <div class="card-2col-equal">
           <div style="display: flex; gap: 2.5mm; align-items: center;">
-            <img src="file:///${assetsDir}/ch1_water_glass.png" style="height: 17mm; width: auto;" alt="Water Glass" />
-            <div style="font-size: 8.5pt; line-height: 1.35;">
+            <img src="file:///${assetsDir}/ch1_water_glass.png" style="height: 18mm; width: auto;" alt="Water Glass" />
+            <div style="font-size: 8.8pt; line-height: 1.35;">
               <strong>Value-in-Use:</strong> Essential for survival, but in immense abundance. The <strong>Marginal Utility</strong> of the last glass drops to near zero, yielding negligible price.
             </div>
           </div>
           <div style="display: flex; gap: 2.5mm; align-items: center;">
-            <img src="file:///${assetsDir}/ch1_diamond.png" style="height: 15mm; width: auto;" alt="Diamond" />
-            <div style="font-size: 8.5pt; line-height: 1.35;">
+            <img src="file:///${assetsDir}/ch1_diamond.png" style="height: 16mm; width: auto;" alt="Diamond" />
+            <div style="font-size: 8.8pt; line-height: 1.35;">
               <strong>Value-in-Exchange:</strong> Exceptionally scarce. The <strong>Marginal Utility</strong> of the last unit is astronomical, commanding exorbitant exchange price.
             </div>
           </div>
         </div>
       </div>
 
-      <div class="takeaway-bar">
+      <div class="takeaway-bar-print">
         Core Takeaway: Market prices reflect Marginal Utility and Scarcity, NOT total utility or moral necessity!
       </div>
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Mind of Aravalli Press</div>
-      <div class="rf-col center">
-        <span class="rf-pill">1</span>
-      </div>
-      <div class="rf-col right">Shelf 007 • Sovereign Master Codex</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">1</span>
     </div>
   </div>
 
@@ -739,20 +721,19 @@ async function main() {
   <div class="page verso">
     <div>
       <div class="rh">
-        <span>Shelf 007 : Indian Macroeconomic Architecture</span>
-        <span>Chapter 01 : Foundations</span>
+        <span>CHAPTER 01 : FOUNDATIONS OF ECONOMIC ORGANIZATION</span>
       </div>
 
       <div class="subsec-bar" style="margin-top: 0;">
         <span>The Production Possibility Frontier (PPF)</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         The PPF demonstrates the maximum feasible combinations of two goods an economy can produce given fixed resources and technology:
       </p>
 
       <div class="dashed-card" style="margin-bottom: 2.5mm;">
         <div class="card-2col">
-          <div style="font-size: 8.6pt; line-height: 1.38;">
+          <div style="font-size: 9pt; line-height: 1.38;">
             <div style="margin-bottom: 1.2mm;">
               <strong>Points on Curve:</strong> Productive efficiency (full resource employment and optimal allocation).
             </div>
@@ -776,7 +757,7 @@ async function main() {
         <span class="sec-pill">§ 1.2</span>
         <span class="sec-title">The Three Fundamental Economic Questions</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         Every economic society, regardless of political ideology, must solve three structural allocation questions:
       </p>
 
@@ -807,7 +788,7 @@ async function main() {
         <span class="sec-pill">§ 1.3</span>
         <span class="sec-title">Typology of Economic Systems</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         Human societies organize production and distribution through three primary institutional frameworks:
       </p>
 
@@ -830,11 +811,8 @@ async function main() {
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Shelf 007 • Sovereign Master Codex</div>
-      <div class="rf-col center">
-        <span class="rf-pill">2</span>
-      </div>
-      <div class="rf-col right">Mind of Aravalli Press</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">2</span>
     </div>
   </div>
 
@@ -844,8 +822,7 @@ async function main() {
   <div class="page recto">
     <div>
       <div class="rh">
-        <span>Chapter 01 : Foundations of Economic Organization</span>
-        <span>Shelf 007 : Sovereign Bastion</span>
+        <span>SHELF 007 : INDIAN MACROECONOMIC ARCHITECTURE</span>
       </div>
 
       <div class="sys-card" style="margin-top: 0;">
@@ -901,12 +878,12 @@ async function main() {
         </div>
       </div>
 
-      <div class="dashed-card" style="background: #f9f9f9; padding: 2mm 3mm; margin-bottom: 0;">
-        <div style="font: 800 8.5pt var(--sans); text-transform: uppercase; margin-bottom: 1mm; display: flex; align-items: center; gap: 2mm;">
-          <span style="background: #000; color: #fff; padding: 0.4mm 1.8mm; font-size: 7.5pt;">SYNTHESIS</span>
+      <div class="dashed-card" style="background: #fbfbfb; padding: 2mm 3mm; margin-bottom: 0;">
+        <div style="font: 800 8.8pt var(--sans); text-transform: uppercase; margin-bottom: 1mm; display: flex; align-items: center; gap: 2mm;">
+          <span style="border: 0.8pt solid #000; background: #e8e8e8; color: #000; padding: 0.4mm 2mm; font-size: 7.8pt;">SYNTHESIS</span>
           <span>Core Takeaway on Economic Systems</span>
         </div>
-        <ul style="padding-left: 4.5mm; font-size: 8.8pt; line-height: 1.35;">
+        <ul style="padding-left: 4.5mm; font-size: 9.2pt; line-height: 1.35;">
           <li>No modern economy is purely capitalist, socialist, or command in isolation; virtually all operate along a mixed spectrum.</li>
           <li>The critical modern debate is not "State vs. Market," but the precise institutional calibration between market efficiency and state regulatory intervention.</li>
         </ul>
@@ -914,11 +891,8 @@ async function main() {
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Mind of Aravalli Press</div>
-      <div class="rf-col center">
-        <span class="rf-pill">3</span>
-      </div>
-      <div class="rf-col right">Shelf 007 • Sovereign Master Codex</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">3</span>
     </div>
   </div>
 
@@ -928,8 +902,7 @@ async function main() {
   <div class="page verso">
     <div>
       <div class="rh">
-        <span>Shelf 007 : Indian Macroeconomic Architecture</span>
-        <span>Chapter 01 : Foundations</span>
+        <span>CHAPTER 01 : FOUNDATIONS OF ECONOMIC ORGANIZATION</span>
       </div>
 
       <div class="section-bar first">
@@ -940,7 +913,7 @@ async function main() {
       <div class="subsec-bar">
         <span>1. Primary, Secondary and Tertiary Sectors</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         Economic activity is classified into three broad sectors based on the nature of output and stage of production:
       </p>
 
@@ -981,13 +954,13 @@ async function main() {
       <div class="subsec-bar">
         <span>2. Further Classification of Sectors</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         Sectors are also categorized on the basis of ownership, legal organization, and formality:
       </p>
 
       <div class="dashed-card" style="margin-bottom: 2.2mm;">
         <div class="card-2col">
-          <div style="font-size: 8.5pt; line-height: 1.35;">
+          <div style="font-size: 8.8pt; line-height: 1.35;">
             <div style="border: 0.6pt solid #ccc; background: #fafafa; padding: 1.4mm 2mm; margin-bottom: 1.2mm;">
               <strong>A. Organised vs. Unorganised Sector:</strong>
               <br>• <em>Organised:</em> Registered under government laws, formal job security, social security benefits.
@@ -1014,7 +987,7 @@ async function main() {
         <span>3. Sectoral Composition and Economic Development</span>
       </div>
       <div class="dashed-card" style="background: #fdfdfd; padding: 1.8mm 2.5mm; margin-bottom: 0;">
-        <div style="font-size: 8.6pt; line-height: 1.35;">
+        <div style="font-size: 9pt; line-height: 1.35;">
           <div style="margin-bottom: 1mm;">
             <strong>Stage of Development:</strong> Developed economies feature a dominant Tertiary sector (~70–80% of GDP). Developing economies transition out of Primary dominance into Secondary and Tertiary.
           </div>
@@ -1029,11 +1002,8 @@ async function main() {
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Shelf 007 • Sovereign Master Codex</div>
-      <div class="rf-col center">
-        <span class="rf-pill">4</span>
-      </div>
-      <div class="rf-col right">Mind of Aravalli Press</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">4</span>
     </div>
   </div>
 
@@ -1043,15 +1013,14 @@ async function main() {
   <div class="page recto">
     <div>
       <div class="rh">
-        <span>Chapter 01 : Foundations of Economic Organization</span>
-        <span>Shelf 007 : Sovereign Bastion</span>
+        <span>SHELF 007 : INDIAN MACROECONOMIC ARCHITECTURE</span>
       </div>
 
       <div class="section-bar first">
         <span class="sec-pill">§ 1.4B</span>
         <span class="sec-title">The Four Macroeconomic Sectors</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         To understand national output and accounting, modern macroeconomics divides the economic universe into four interacting sectors:
       </p>
 
@@ -1100,13 +1069,13 @@ async function main() {
         <span class="sec-pill">§ 1.5</span>
         <span class="sec-title">The Circular Flow of Income &amp; Product</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         Economic activity is a continuous, unbroken circle: <strong>Production generates Income, and Income generates Expenditure on Production:</strong>
       </p>
 
       <div class="dashed-card" style="padding: 1.8mm 2.5mm; margin-bottom: 2.2mm;">
         <div class="flow-row" style="justify-content: space-between;">
-          <div class="flow-pill dark" style="flex: 1; margin: 0 1mm;">
+          <div class="flow-pill highlight" style="flex: 1; margin: 0 1mm;">
             1. Production Phase<br><small style="font-weight: normal;">Generation of Value Added</small>
           </div>
           <span>→</span>
@@ -1114,7 +1083,7 @@ async function main() {
             2. Income Distribution Phase<br><small style="font-weight: normal;">Distribution of Factor Income</small>
           </div>
           <span>→</span>
-          <div class="flow-pill dark" style="flex: 1; margin: 0 1mm;">
+          <div class="flow-pill highlight" style="flex: 1; margin: 0 1mm;">
             3. Expenditure Phase<br><small style="font-weight: normal;">Disposition of Income on Goods</small>
           </div>
           <span>↺</span>
@@ -1123,18 +1092,18 @@ async function main() {
 
       <div class="card-2col-equal" style="margin-bottom: 2.2mm;">
         <div style="border: 0.6pt solid #000; background: #fafafa; padding: 1.8mm 2.2mm;">
-          <div style="font: 800 8pt var(--sans); text-transform: uppercase; margin-bottom: 1mm;">
+          <div style="font: 800 8.2pt var(--sans); text-transform: uppercase; margin-bottom: 1mm;">
             Real Flows
           </div>
-          <p style="font-size: 8.5pt; line-height: 1.35; margin: 0;">
+          <p style="font-size: 8.8pt; line-height: 1.35; margin: 0;">
             The physical movement of factor services (labor hours, land usage, capital equipment) from households to firms, and physical goods/services from firms to households.
           </p>
         </div>
         <div style="border: 0.6pt solid #000; background: #fafafa; padding: 1.8mm 2.2mm;">
-          <div style="font: 800 8pt var(--sans); text-transform: uppercase; margin-bottom: 1mm;">
+          <div style="font: 800 8.2pt var(--sans); text-transform: uppercase; margin-bottom: 1mm;">
             Nominal (Money) Flows
           </div>
-          <p style="font-size: 8.5pt; line-height: 1.35; margin: 0;">
+          <p style="font-size: 8.8pt; line-height: 1.35; margin: 0;">
             The monetary counterpart: firms paying factor incomes (wages, rent, interest, profit) to households, and households spending money income on goods produced by firms.
           </p>
         </div>
@@ -1143,7 +1112,7 @@ async function main() {
       <div class="subsec-bar">
         <span>The Leakages-Injections Equilibrium</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         In an open economy with government, income generated is not fully spent on domestic consumer goods:
       </p>
 
@@ -1172,25 +1141,22 @@ async function main() {
         </tbody>
       </table>
 
-      <div style="border: 1pt solid #000; background: #fff; padding: 2mm 3mm; margin-bottom: 0;">
-        <div style="font: 800 8.5pt var(--sans); text-transform: uppercase; margin-bottom: 1mm; text-align: center;">
+      <div style="border: 1.2pt solid #000; background: #fff; padding: 2mm 3mm; margin-bottom: 0;">
+        <div style="font: 800 8.8pt var(--sans); text-transform: uppercase; margin-bottom: 1mm; text-align: center;">
           Macroeconomic Equilibrium Identity
         </div>
         <div style="font-size: 11pt; text-align: center; margin: 1mm 0 1.5mm;">
           ${mathLeakages}
         </div>
-        <p style="font-size: 8.5pt; line-height: 1.35; margin: 0; text-align: center;">
+        <p style="font-size: 8.8pt; line-height: 1.35; margin: 0; text-align: center;">
           <strong>Policy Implication:</strong> If Leakages exceed Injections ($W > J$), aggregate demand contracts, driving deflation and unemployment. If Injections exceed Leakages ($J > W$), aggregate demand expands, risking demand-pull inflation.
         </p>
       </div>
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Mind of Aravalli Press</div>
-      <div class="rf-col center">
-        <span class="rf-pill">5</span>
-      </div>
-      <div class="rf-col right">Shelf 007 • Sovereign Master Codex</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">5</span>
     </div>
   </div>
 
@@ -1200,15 +1166,14 @@ async function main() {
   <div class="page verso">
     <div>
       <div class="rh">
-        <span>Shelf 007 : Indian Macroeconomic Architecture</span>
-        <span>Chapter 01 : Foundations</span>
+        <span>CHAPTER 01 : FOUNDATIONS OF ECONOMIC ORGANIZATION</span>
       </div>
 
       <div class="section-bar first">
         <span class="sec-pill">§ 1.6</span>
         <span class="sec-title">The Universal Typology of Goods</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.8mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.8mm;">
         Understanding how goods are classified is the single most heavily tested foundational area across UPSC, RPSC, and Banking exams.
       </p>
 
@@ -1241,10 +1206,10 @@ async function main() {
       </table>
 
       <div style="border: 0.8pt solid #000; background: #fafafa; padding: 1.8mm 2.5mm; margin-bottom: 2.5mm;">
-        <div style="font: 800 8.2pt var(--sans); text-transform: uppercase; margin-bottom: 1mm;">
+        <div style="font: 800 8.5pt var(--sans); text-transform: uppercase; margin-bottom: 1mm;">
           ★ The Golden Test of Classification: End-Use Principle
         </div>
-        <p style="font-size: 8.5pt; line-height: 1.35; margin: 0;">
+        <p style="font-size: 8.8pt; line-height: 1.35; margin: 0;">
           A good is NOT defined by its physical nature, but strictly by its <strong>end-use</strong>:
           <br>• Sugar bought by a household → <strong>Final Consumption Good</strong>.
           <br>• Sugar bought by a sweet shop (halwai) → <strong>Intermediate Good</strong>.
@@ -1286,16 +1251,16 @@ async function main() {
         <span>C. Gross Investment, Depreciation &amp; Net Investment</span>
       </div>
       <div class="card-2col-equal" style="margin-bottom: 2mm;">
-        <div style="border: 0.6pt solid #ccc; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.4pt;">
+        <div style="border: 0.6pt solid #ccc; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.8pt;">
           <strong>Consumption of Fixed Capital (CFC / Depreciation):</strong> Expected, normal wear and tear and foreseen obsolescence of capital assets during normal production.
         </div>
-        <div style="border: 0.6pt solid #ccc; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.4pt;">
+        <div style="border: 0.6pt solid #ccc; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.8pt;">
           <strong>Capital Loss (Unforeseen Destruction):</strong> Destruction caused by natural disasters (earthquakes, floods) or wars. Capital loss is <strong>NOT depreciation</strong> and is never deducted to arrive at Net National Product.
         </div>
       </div>
 
-      <div style="border: 1pt solid #000; background: #fff; padding: 1.8mm 2.5mm; margin-bottom: 0;">
-        <div style="font: 800 8.2pt var(--sans); text-transform: uppercase; margin-bottom: 1mm; text-align: center;">
+      <div style="border: 1.2pt solid #000; background: #fff; padding: 1.8mm 2.5mm; margin-bottom: 0;">
+        <div style="font: 800 8.5pt var(--sans); text-transform: uppercase; margin-bottom: 1mm; text-align: center;">
           National Accounting Identities
         </div>
         <div style="font-size: 10pt; text-align: center; margin: 1mm 0;">
@@ -1308,11 +1273,8 @@ async function main() {
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Shelf 007 • Sovereign Master Codex</div>
-      <div class="rf-col center">
-        <span class="rf-pill">6</span>
-      </div>
-      <div class="rf-col right">Mind of Aravalli Press</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">6</span>
     </div>
   </div>
 
@@ -1322,14 +1284,13 @@ async function main() {
   <div class="page recto">
     <div>
       <div class="rh">
-        <span>Chapter 01 : Foundations of Economic Organization</span>
-        <span>Shelf 007 : Sovereign Bastion</span>
+        <span>SHELF 007 : INDIAN MACROECONOMIC ARCHITECTURE</span>
       </div>
 
       <div class="subsec-bar" style="margin-top: 0;">
         <span>D. The Four-Quadrant Excludability &amp; Rivalry Matrix</span>
       </div>
-      <p style="font-size: 8.8pt; margin-bottom: 1.5mm;">
+      <p style="font-size: 9.2pt; margin-bottom: 1.5mm;">
         Economics categorizes all goods in society by two physical and legal characteristics:
         <br>• <strong>Excludability:</strong> Can individuals be prevented from consuming the good if they do not pay for it?
         <br>• <strong>Rivalry:</strong> Does one person's consumption diminish the amount available for another person?
@@ -1345,7 +1306,7 @@ async function main() {
         </thead>
         <tbody>
           <tr>
-            <td style="background: #000; color: #fff; font-weight: 700;">Excludable</td>
+            <td style="background: var(--tint-head); font-weight: 700;">Excludable</td>
             <td>
               <strong>PRIVATE GOODS</strong>
               <br>• Food, clothing, smartphones, cars.
@@ -1358,7 +1319,7 @@ async function main() {
             </td>
           </tr>
           <tr>
-            <td style="background: #000; color: #fff; font-weight: 700;">Non-Excludable</td>
+            <td style="background: var(--tint-head); font-weight: 700;">Non-Excludable</td>
             <td>
               <strong>COMMON POOL RESOURCES</strong>
               <br>• Ocean fisheries, pastures, groundwater aquifers.
@@ -1374,10 +1335,10 @@ async function main() {
       </table>
 
       <div class="card-2col-equal" style="margin-bottom: 2.2mm;">
-        <div style="border: 0.6pt solid #000; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.3pt; line-height: 1.35;">
+        <div style="border: 0.6pt solid #000; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.6pt; line-height: 1.35;">
           <strong>Pure Public Goods &amp; Free-Rider Problem:</strong> Once provided, non-payers cannot be excluded, and one citizen's consumption does not diminish protection for another. Consumers withhold voluntary payment; competitive markets produce zero output. The State must finance them via compulsory taxation.
         </div>
-        <div style="border: 0.6pt solid #000; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.3pt; line-height: 1.35;">
+        <div style="border: 0.6pt solid #000; background: #fafafa; padding: 1.5mm 2mm; font-size: 8.6pt; line-height: 1.35;">
           <strong>Common Resources &amp; Tragedy of Commons:</strong> Anyone can access the resource, but every unit harvested diminishes the remaining stock for others. Individual self-interest leads to over-exploitation and collapse (Garrett Hardin). Solved via quotas or community governance (Elinor Ostrom).
         </div>
       </div>
@@ -1421,7 +1382,7 @@ async function main() {
         <span class="sec-pill">§ 1.7</span>
         <span class="sec-title">Multi-Examination Analytical Lenses</span>
       </div>
-      <div style="font-size: 8.5pt; line-height: 1.35;">
+      <div style="font-size: 8.8pt; line-height: 1.35;">
         <div style="border-left: 2.5pt solid #000; padding-left: 2mm; margin-bottom: 1.2mm;">
           <strong>1. UPSC Civil Services &amp; APFC Lens:</strong> Focuses on market failures (why markets fail to supply Merit Goods), the Free-Rider problem, and connecting Public Goods to Article 21 (Clean Environment, Health).
         </div>
@@ -1438,11 +1399,8 @@ async function main() {
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Mind of Aravalli Press</div>
-      <div class="rf-col center">
-        <span class="rf-pill">7</span>
-      </div>
-      <div class="rf-col right">Shelf 007 • Sovereign Master Codex</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">7</span>
     </div>
   </div>
 
@@ -1452,8 +1410,7 @@ async function main() {
   <div class="page verso">
     <div>
       <div class="rh">
-        <span>Shelf 007 : Indian Macroeconomic Architecture</span>
-        <span>Chapter 01 : Foundations</span>
+        <span>CHAPTER 01 : FOUNDATIONS OF ECONOMIC ORGANIZATION</span>
       </div>
 
       <div class="section-bar first">
@@ -1560,18 +1517,15 @@ async function main() {
     </div>
 
     <div class="rf">
-      <div class="rf-col left">Shelf 007 • Sovereign Master Codex</div>
-      <div class="rf-col center">
-        <span class="rf-pill">8</span>
-      </div>
-      <div class="rf-col right">Mind of Aravalli Press</div>
+      <span class="rf-left">Mind of Aravalli Press</span>
+      <span class="rf-page">8</span>
     </div>
   </div>
 
 </body>
 </html>`;
 
-  console.log('Rendering Master Fused Chapter 01 to PDF...');
+  console.log('Rendering Master Fused Chapter 01 to PDF with 11.5pt font, single-line headers, and print-friendly styles...');
   renderHtmlToPdf(html, pdfPath);
 
   const stats = fs.statSync(pdfPath);

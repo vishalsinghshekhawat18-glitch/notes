@@ -14,6 +14,7 @@ import {
   getEnglishLanguageChapters,
   getHindiChapters,
   getCurrentAffairsChapters,
+  getRajasthanChapters,
 } from '@/lib/shelf007/service';
 import { Shelf007AcademicTOC } from '@/components/shelf007/shelf007-academic-toc';
 
@@ -35,6 +36,7 @@ export async function generateStaticParams() {
     { subject: 'english-language' },
     { subject: 'hindi' },
     { subject: 'current-affairs' },
+    { subject: 'rajasthan' },
   ];
 }
 
@@ -51,7 +53,8 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
     subject !== 'geography' &&
     subject !== 'english-language' &&
     subject !== 'hindi' &&
-    subject !== 'current-affairs'
+    subject !== 'current-affairs' &&
+    subject !== 'rajasthan'
   ) {
     notFound();
   }
@@ -59,10 +62,12 @@ export default async function Shelf007SubjectPage({ params }: Shelf007SubjectPag
   const subjects = getShelf007Subjects();
   const currentSubj = subjects.find((s) => s.slug === subject)!;
   const partGroups = getShelf007PartGroups(
-    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs'
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan'
   );
   const chapters =
-    subject === 'current-affairs'
+    subject === 'rajasthan'
+      ? getRajasthanChapters()
+      : subject === 'current-affairs'
       ? getCurrentAffairsChapters()
       : subject === 'hindi'
       ? getHindiChapters()

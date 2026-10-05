@@ -31,7 +31,7 @@ export interface Shelf007PartGroup {
 }
 
 export interface Shelf007SubjectMeta {
-  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs';
+  slug: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan';
   name: string;
   badge: string;
   badgeColor: string;
@@ -373,6 +373,28 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'Computer Aptitude & CBS Master (Ch 10)',
       ],
     },
+    {
+      slug: 'rajasthan',
+      name: 'Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)',
+      badge: 'RBSE • Dr. Gopinath Sharma • Jain & Mali • Bhalla • Saxena • DES',
+      badgeColor: 'text-[#854d0e] bg-[#fefce8] border-[#fef08a]',
+      code: 'RAJ-007',
+      authors: 'Rajasthan Board (RBSE) • डॉ. गोपीनाथ शर्मा • डॉ. हुकुमचंद जैन • डॉ. एल.आर. भल्ला • डॉ. हरि मोहन सक्सेना • डॉ. जनक सिंह मीना • DES',
+      description:
+        'Sovereign 37-chapter publication-grade master treatise covering Rajasthan Ancient Civilizations & Dynastic Hegemony (Ch 01–05), Colonial Resistance & Freedom Movements (Ch 06–10), Art, Architecture & Culture (Ch 11–17), Morphotectonic Divisions, Drainage & Environment (Ch 18–23), Political & Administrative Governance (Ch 24–29), Economy & Economic Review (Ch 30–34), Specialized RAS Mains Disciplines (Ch 35–36), and Capstone Revision Vault (Ch 37).',
+      totalChapters: getRajasthanChapters().length,
+      totalWords: getRajasthanChapters().reduce((acc, c) => acc + c.wordCount, 0),
+      chips: [
+        'Ancient Sites & Dynasties (Ch 01–05)',
+        '1857, Peasant & Prajamandal (Ch 06–10)',
+        'Art, Forts & Culture (Ch 11–17)',
+        'Geography, IGNP & Minerals (Ch 18–23)',
+        'Polity & State Administration (Ch 24–29)',
+        'Rajasthan Economy & DES Review (Ch 30–34)',
+        'Sociology & Sports (Ch 35–36)',
+        'Capstone Revision Vault (Ch 37)',
+      ],
+    },
   ];
 }
 
@@ -464,6 +486,108 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
         title,
         shortTitle,
         category: 'Rapid Revision Matrix',
+        description,
+        filePath: fullPath,
+        order: 100 + num,
+        wordCount,
+        readingMinutes: calculateReadingMinutes(wordCount),
+        sections,
+      });
+    }
+  }
+
+  return [...noteItems, ...revItems];
+}
+
+export function getRajasthanChapters(): Shelf007ChapterItem[] {
+  const dir = path.join(process.cwd(), '007', 'notes', 'rajasthan');
+  const revDir = path.join(process.cwd(), '007', 'revision', 'rajasthan');
+  if (!fs.existsSync(dir)) return [];
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+
+  const noteItems: Shelf007ChapterItem[] = files.map((fileName, idx) => {
+    const fullPath = path.join(dir, fileName);
+    const content = fs.readFileSync(fullPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+
+    const baseName = fileName.replace(/\.md$/, '');
+    let slug = baseName.toLowerCase();
+    let category = 'Master Chapter';
+    let shortTitle = baseName.replace(/^\d+_/, '').replace(/_/g, ' ');
+    let chapterOrder = idx + 1;
+
+    if (fileName.startsWith('00_')) {
+      slug = 'cover';
+      category = 'Front Matter';
+      shortTitle = 'Sovereign Cover & Epistemic Pledge';
+      chapterOrder = 0;
+    } else if (fileName.startsWith('01_')) {
+      slug = 'table-of-contents';
+      category = 'Front Matter';
+      shortTitle = 'Master Table of Contents & Thematic Curriculum';
+      chapterOrder = 0;
+    } else if (fileName.includes('CAPSTONE') || fileName.includes('GRAND_SYNTHESIS') || fileName.includes('REVISION_VAULT')) {
+      slug = 'chapter-37';
+      category = 'Capstone Vault';
+      shortTitle = 'Chapter 37: The Grand Synthesis Master Revision Vault';
+      chapterOrder = 37;
+    } else {
+      const chMatch = fileName.match(/CHAPTER_(\d+)/i);
+      if (chMatch) {
+        const num = parseInt(chMatch[1], 10);
+        slug = `chapter-${chMatch[1].padStart(2, '0')}`;
+        category = `Chapter ${num}`;
+        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        chapterOrder = num;
+      }
+    }
+
+    const title = extractTitleFromMarkdown(content, shortTitle);
+    const description = extractDescriptionFromMarkdown(
+      content,
+      `Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.`
+    );
+    const sections = extractSectionsFromMarkdown(content);
+
+    return {
+      slug,
+      title,
+      shortTitle,
+      category,
+      description,
+      filePath: fullPath,
+      order: chapterOrder,
+      wordCount,
+      readingMinutes: calculateReadingMinutes(wordCount),
+      sections,
+    };
+  });
+
+  const revItems: Shelf007ChapterItem[] = [];
+  if (fs.existsSync(revDir)) {
+    const revFiles = fs.readdirSync(revDir).filter((f) => f.endsWith('.md')).sort();
+    for (const f of revFiles) {
+      const fullPath = path.join(revDir, f);
+      const content = fs.readFileSync(fullPath, 'utf-8');
+      const wordCount = content.split(/\s+/).filter(Boolean).length;
+      const baseName = f.replace(/\.md$/, '');
+      const chMatch = f.match(/REV_CHAPTER_(\d+)/i);
+      const num = chMatch ? parseInt(chMatch[1], 10) : 0;
+      const slug = `rev-chapter-${String(num).padStart(2, '0')}`;
+      const shortTitle = `Rapid Recall Matrix ${num}: ${baseName.replace(/^\d+_REV_CHAPTER_\d+_?/, '').replace(/_/g, ' ')}`;
+      const title = extractTitleFromMarkdown(content, shortTitle);
+      const description = extractDescriptionFromMarkdown(
+        content,
+        'High-speed 60-second retrieval skeletons, distinction matrices, and diagnostic flashcards.'
+      );
+      const sections = extractSectionsFromMarkdown(content);
+
+      revItems.push({
+        slug,
+        title,
+        shortTitle,
+        category: 'Rapid Revision',
         description,
         filePath: fullPath,
         order: 100 + num,
@@ -1177,8 +1301,104 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
 }
 
 export function getShelf007PartGroups(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs'
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan'
 ): Shelf007PartGroup[] {
+  if (subject === 'rajasthan') {
+    const allChapters = getRajasthanChapters();
+    const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
+
+    const groups: Array<{
+      partNumber: string;
+      groupTitle: string;
+      groupSubtitle: string;
+      slugs: string[];
+    }> = [
+      {
+        partNumber: 'FRONT MATTER',
+        groupTitle: 'संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची',
+        groupSubtitle: 'Sovereign Front Cover, Epistemic Pledge & Master 37-Chapter RPSC RAS Curricular Index',
+        slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PART I',
+        groupTitle: 'प्रागैतिहासिक स्थल, अभिलेख एवं पूर्व-मध्यकालीन राजवंश',
+        groupSubtitle: 'Prehistoric civilizations, epigraphic heritage, Gurjara-Pratiharas, Chauhans, Guhils-Sisodias, Rathores, and Kachhwahas',
+        slugs: ['chapter-01', 'chapter-02', 'chapter-03', 'chapter-04', 'chapter-05'],
+      },
+      {
+        partNumber: 'PART II',
+        groupTitle: 'आंग्ल संधियां, 1857 विप्लव, किसान-जनजाति आंदोलन एवं एकीकरण',
+        groupSubtitle: '1818 British Treaties, 1857 Revolt in Rajasthan, Peasant & Tribal movements, Prajamandal, and the 7 stages of Integration',
+        slugs: ['chapter-06', 'chapter-07', 'chapter-08', 'chapter-09', 'chapter-10'],
+      },
+      {
+        partNumber: 'PART III',
+        groupTitle: 'स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प',
+        groupSubtitle: 'UNESCO Hill Forts, Baoris, Haveli architecture, Painting schools, Folk dances & instruments, Folk deities, and GI Handicrafts',
+        slugs: ['chapter-11', 'chapter-12', 'chapter-13', 'chapter-14', 'chapter-15', 'chapter-16', 'chapter-17'],
+      },
+      {
+        partNumber: 'PART IV',
+        groupTitle: 'भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज',
+        groupSubtitle: 'Western Plain, Aravallis, Eastern Plains, Hadoti Plateau, Drainage basins, IGNP & ERCP, ISFR Forest analysis, and Minerals',
+        slugs: ['chapter-18', 'chapter-19', 'chapter-20', 'chapter-21', 'chapter-22', 'chapter-23'],
+      },
+      {
+        partNumber: 'PART V',
+        groupTitle: 'राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय',
+        groupSubtitle: 'Governor, CM, Vidhan Sabha, High Court, RPSC, SEC, SHRC, Lokayukta, Secretariat, Panchayati Raj & Good Governance Acts',
+        slugs: ['chapter-24', 'chapter-25', 'chapter-26', 'chapter-27', 'chapter-28', 'chapter-29'],
+      },
+      {
+        partNumber: 'PART VI',
+        groupTitle: 'राजस्थान की अर्थव्यवस्था, पशुधन, औद्योगिक परिदृश्य एवं योजनाएं',
+        groupSubtitle: 'Macroeconomic profile (आर्थिक समीक्षा), Agriculture & 20th Livestock Census, RIICO & MSMEs, Infrastructure & Flagship Welfare Schemes',
+        slugs: ['chapter-30', 'chapter-31', 'chapter-32', 'chapter-33', 'chapter-34'],
+      },
+      {
+        partNumber: 'PART VII',
+        groupTitle: 'RPSC RAS मुख्य परीक्षा विशिष्ट विषय: समाजशास्त्र एवं खेल-कूद',
+        groupSubtitle: 'Rajasthan Sociology (Tribal social customs) & Sports and Yoga (RSSC, Awards, State academies & eminent athletes)',
+        slugs: ['chapter-35', 'chapter-36'],
+      },
+      {
+        partNumber: 'PART VIII',
+        groupTitle: 'महा-पुनरावलोकन एवं RPSC 50 घातक परीक्षा जाल',
+        groupSubtitle: '60-Second Retrieval Skeletons, Master Distinction Matrices, Top 50 Deadliest Traps & 25-Year PYQ Elimination Engine',
+        slugs: ['chapter-37'],
+      },
+      {
+        partNumber: 'RAPID REVISION',
+        groupTitle: 'High-Speed Recall Matrices & 60-Second Skeletons',
+        groupSubtitle: 'Rapid revision sheets, distinction matrices, and active recall flashcards for all Rajasthan chapters',
+        slugs: Array.from({ length: 37 }, (_, i) => `rev-chapter-${String(i + 1).padStart(2, '0')}`),
+      },
+    ];
+
+    const matchedSlugs = new Set(groups.flatMap((g) => g.slugs));
+    const unmapped = allChapters.filter((c) => !matchedSlugs.has(c.slug));
+
+    const result = groups.map((g) => ({
+      partNumber: g.partNumber,
+      groupTitle: g.groupTitle,
+      groupSubtitle: g.groupSubtitle,
+      chapters: g.slugs
+        .map((slug) => chapterMap.get(slug))
+        .filter((c): c is Shelf007ChapterItem => c !== undefined),
+    }));
+
+    if (unmapped.length > 0) {
+      result.push({
+        partNumber: 'STAGED',
+        groupTitle: 'Staged Chapters',
+        groupSubtitle: 'Additional staged chapters in synthesis pipeline',
+        chapters: unmapped,
+      });
+    }
+
+    return result;
+  }
+
   if (subject === 'current-affairs') {
     const allChapters = getCurrentAffairsChapters();
     const chapterMap = new Map(allChapters.map((c) => [c.slug, c]));
@@ -2059,11 +2279,13 @@ export function getShelf007PartGroups(
 }
 
 export function getShelf007ChapterContent(
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs',
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan',
   chapterSlug: string
 ) {
   const chapters =
-    subject === 'current-affairs'
+    subject === 'rajasthan'
+      ? getRajasthanChapters()
+      : subject === 'current-affairs'
       ? getCurrentAffairsChapters()
       : subject === 'hindi'
       ? getHindiChapters()

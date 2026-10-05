@@ -1,0 +1,1219 @@
+Paper 1 Forensic Audit | Page 1
+DB&F / JAIIB PAPER 1
+INDIAN ECONOMY &
+INDIAN FINANCIAL SYSTEM
+Forensic Audit & Single-Source Readiness Report
+FINAL VERDICT
+NOT SAFE AS A SINGLE SOURCE YET. The PDF is structurally strong and conceptually ambitious, but the 2026
+syllabus benchmark, several high-yield regulatory figures, current national-accounting data, and multiple
+syllabus blocks require correction or expansion before it can be treated as the canonical preparation source.
+Audited file: 007_Book_02_IIBF_Paper_1_IE_IFS_Master_Codex_A4_BW.pdf
+Audit date: 5 October 2026 | Physical PDF: 88 pages
+Audit standard: IIBF 2026 Rules & Syllabus + official regulator/government updates + available memory-based PYQ
+evidence
+
+-- 1 of 25 --
+
+Paper 1 Forensic Audit | Page 2
+Contents
+Section Report location
+1 Executive Verdict
+2 What Was Audited and How
+3 Scorecard
+4 Critical Findings - Stop-Ship Issues
+5 Official 2026 Syllabus Coverage Audit
+6 Module A Findings
+7 Module B Findings
+8 Module C Findings
+9 Module D Findings
+10 PYQ / Exam-Pattern Audit
+11 Factual, Regulatory and Currency Audit
+12 Internal Consistency & Editorial Audit
+13 Page/Chapter-Level Defect Register
+14 Repair Specification - What Must Be Added/Corrected
+15 Single-Source Certification Test
+16 Final Recommendation
+Appendix A Source Register
+Appendix B Audit Severity Legend
+
+-- 2 of 25 --
+
+Paper 1 Forensic Audit | Page 3
+1. Executive Verdict
+The candidate PDF is a high-effort, exam-oriented monograph. Its strengths are real: it has a strong visual
+hierarchy, dense synthesis tables, repeated “Examiner Trap” sections, active-recall prompts, and a broad
+sweep across economics, banking, financial institutions, markets, products and regulation. The physical PDF
+itself is readable and professionally structured.
+However, the bar here is not “good notes.” The requested bar is a trustworthy primary/single-source system
+for the 2026 DB&F Paper 1 examination. Against that bar, the document currently fails certification. The
+largest problem is not writing quality; it is benchmark integrity: the book explicitly anchors itself to the 2023
+Macmillan curriculum, while IIBF is publishing a 2026 courseware edition, and the book contains multiple
+2020/2023-era regulatory figures that have already changed.
+RED FLAG
+Do not start final memorisation from this PDF as-is. Several wrong/outdated facts are presented inside
+“Examiner Trap” boxes, which increases the risk of memorising the defect rather than noticing it.
+The strongest positive finding
+The conceptual-engineering layer is substantially better than ordinary coaching notes. The book repeatedly
+tries to move from definition -> mechanism -> trap -> recall. The active-recall vault is useful, and the chapter
+architecture is compact. This means the document is worth repairing rather than discarding.
+The decisive negative finding
+Several official syllabus areas are either absent, only name-checked, or placed under a misleading internal
+unit numbering system. The Banking Regulation Act / RBI Act block is the clearest example: IIBF explicitly
+calls for RBI Act Chapters I-V, its Schedules, and Banking Regulation Act Sections 1-56, while the candidate
+PDF does not provide a comparable statutory walkthrough. [IIBF-2026]
+What would change the verdict?
+ Replace the 2023 syllabus benchmark with the 2026 IIBF benchmark and rebuild the unit map.
+ Repair all high-yield outdated figures, especially MSME thresholds, PSL bank-category targets, GDP base year,
+CD denomination, NBFC Upper Layer membership rule, and NPS exit language.
+ Add the materially missing syllabus blocks: Economic Reforms, Issues Facing Indian Economy, RBI Act /
+Banking Regulation Act, DFI history, BRDS, LTRO, FIMMDA, RBI Retail Direct Scheme, Inter-Corporate Deposits,
+Interconnectedness, and Merchant Banking.
+ Expand the practice layer from five explicit MCQs into a real exam bank built around the recurring
+factual/conceptual patterns seen in available memory-based papers.
+ Create a dated “current affairs / regulatory patch layer” for the November 2026 examination. IIBF’s own rules
+state that the syllabus is indicative and latest developments may be tested.
+
+-- 3 of 25 --
+
+Paper 1 Forensic Audit | Page 4
+2. What Was Audited and How
+Primary object: the uploaded 88-page PDF. The audit does not silently rewrite its content. It records what the
+PDF actually states, then tests those statements against the current official IIBF 2026 benchmark and
+authoritative regulator/government material where verification is needed.
+Audit layers
+Layer Audit question
+A. Syllabus fidelity Official IIBF 2026 Paper 1 syllabus mapped topic-by-topic.
+Missing, partial, misplaced, outdated and over-compressed
+areas are marked.
+B. Factual accuracy High-yield numbers, definitions, institutional roles,
+legal/regulatory claims, formulas and dates tested against
+primary sources where required.
+C. Currency Any time-sensitive value is treated as unsafe unless it has a
+date/context label. This includes policy rates, ratios, limits,
+eligibility, scheme benefits, regulatory targets and statistical
+series.
+D. PYQ readiness Available memory-based IE&IFS papers/question archives
+used as pattern evidence. These are not treated as verbatim
+official IIBF papers.
+E. Internal integrity The PDF was checked for unit numbering, repeated facts,
+contradiction, page-count claims, terminology drift and
+answer-key consistency.
+F. Learning utility Depth, explanation, active recall, trap design, revision speed
+and information density assessed.
+G. Production quality Rendered PDF inspected for legibility, clipping, table integrity
+and major white-space inefficiency.
+Examination context used
+The IIBF 2026 rules state that Paper 1 has approximately 100 objective questions for 100 marks, is online,
+carries no negative marking, and runs for two hours. IIBF also states that the syllabus is indicative and that
+current developments can be tested even when they are not explicitly included. [IIBF-2026]
+For the November 2026 cycle, the official DB&F page lists Indian Economy & Indian Financial System on 1
+November 2026, and IIBF’s cut-off rule means regulator instructions and important developments up to 30
+June 2026 are the relevant examination window. [IIBF-2026-SCHEDULE]
+
+-- 4 of 25 --
+
+Paper 1 Forensic Audit | Page 5
+3. Scorecard
+These scores are audit heuristics, not an official IIBF grade. They are intentionally conservative because the
+requested standard is single-source readiness, not ordinary usefulness.
+Dimension Score Band Reason
+Conceptual teaching quality 85/100 Strong Clear causal framing, tables,
+traps and recall structure.
+Physical / editorial usability 88/100 Strong Readable, consistent, revision-
+friendly; some pages waste
+substantial vertical space.
+Breadth of subject matter 78/100 Good Broad sweep across the
+paper; however breadth
+sometimes substitutes for
+required statutory/detail
+coverage.
+2026 syllabus fidelity 54/100 Weak Important official syllabus
+blocks are missing or mis-
+mapped.
+Currentness of facts 46/100 Weak Multiple high-value
+data/regulatory items are
+stale for 2026.
+Factual reliability 59/100 Caution Many statements are fine, but
+several hard
+errors/overstatements occur
+in high-risk zones.
+PYQ/exam-readiness 61/100 Caution Exam traps are plentiful, but
+explicit practice volume is far
+too small for a 100-question
+objective paper.
+Internal consistency 62/100 Caution Unit numbers, page-count
+claim and some historical
+attributions require repair.
+Single-source readiness 49/100 FAIL Cannot be certified until
+critical patches are
+incorporated.
+BOTTOM LINE
+Overall usefulness: HIGH. Current single-source safety: LOW. The PDF is a strong base document, but it
+currently contains enough outdated or missing material that trusting it blindly would be unsafe.
+
+-- 5 of 25 --
+
+Paper 1 Forensic Audit | Page 6
+4. Critical Findings - Stop-Ship Issues
+ID Finding Severity PDF locus Why it matters Required action
+C-01 2023 benchmark used
+as if current
+CRITICAL PDF pp.1-2 The cover says
+“Macmillan 2023
+Curriculum
+Compliant” and the
+CIP says the book is
+aligned to the 2023
+courseware. IIBF
+currently lists 2026
+Paper 1 courseware.
+This invalidates the
+book’s own
+curriculum-control
+claim.
+Replace benchmark
+with IIBF 2026 and re-
+audit every module.
+[IIBF-2026-PAGE]
+C-02 GDP base year is
+obsolete
+CRITICAL PDF p.27 and revision
+vault
+The PDF repeatedly
+says the current
+Indian GDP series
+uses 2011-12. MoSPI
+released the new
+national accounts
+series with base year
+2022-23 on 27 Feb
+2026.
+Replace current-series
+references; retain
+2011-12 only as
+historical/previous-
+series context.
+[MOSPI-2026]
+C-03 MSME classification is
+obsolete
+CRITICAL PDF pp.12-13 The PDF uses the July
+2020 thresholds
+(Micro 1/5, Small
+10/50, Medium 50/250
+crore). Revised MSME
+classification effective
+1 Apr 2025 uses
+2.5/10, 25/100 and
+125/500 crore
+respectively.
+Update all tables,
+examples and traps;
+explicitly date the
+classification.
+C-04 PSL bank-category
+targets are stale
+CRITICAL PDF p.12 The PDF states SFB
+overall PSL at 75%
+and UCB transition to
+75% by Mar 2026. The
+2025 revised PSL
+framework changed
+the UCB overall target
+to 60% and changed
+the SFB requirement
+as well.
+Rebuild the entire PSL
+matrix from the 2025
+RBI Directions, with
+effective-date labels.
+C-05 NBFC Upper Layer
+says “Top 25”
+CRITICAL PDF p.52 and revision
+vault
+Current RBI SBR rules
+say the top ten
+eligible NBFCs by
+asset size are always
+in the Upper Layer.
+Replace every “Top
+25” occurrence with
+the current rule and
+distinguish the
+mandatory top-ten
+rule from other score-
+based inclusions.
+[RBI-SBR]
+C-06 Certificate of Deposit
+minimum
+denomination is
+wrong
+CRITICAL PDF pp.59-60 and
+revision vault
+The PDF states CD
+minimum
+denomination ₹1
+lakh. RBI’s CD
+framework specifies
+₹5 lakh and multiples
+thereof. [RBI-CD]
+Correct the
+instrument matrix,
+trap and final vault.
+C-07 Major statutory
+syllabus block is
+missing
+CRITICAL PDF Module C IIBF explicitly
+requires RBI Act
+Chapters I-V,
+Schedules and
+Banking Regulation
+Act Sections 1-56. The
+candidate book does
+not supply equivalent
+statutory treatment.
+Add a dedicated
+statutory unit with
+section-by-section
+exam map.
+
+-- 6 of 25 --
+
+Paper 1 Forensic Audit | Page 7
+C-08 Major financial-
+market blocks are
+missing
+CRITICAL PDF Module D BRDS, LTRO,
+FIMMDA, RBI Retail
+Direct Scheme, Inter-
+Corporate Deposits,
+Interconnectedness,
+and Merchant
+Banking are explicitly
+named by IIBF but
+are absent or not
+treated as dedicated
+syllabus coverage.
+Add dedicated, exam-
+ready sections rather
+than scattered
+mentions.
+C-09 NPS language is
+outdated
+CRITICAL PDF pp.74-80/revision
+vault
+The PDF uses blanket
+“locked until age 60 /
+40% annuity / 60%
+lump-sum” wording.
+Current PFRDA exit
+frameworks vary by
+model and have
+changed materially.
+Replace with model-
+specific current rules
+and date labels.
+[PFRDA]
+C-10 Unit-control system
+does not actually
+contain 45 current
+units
+CRITICAL PDF pp.3-4 The TOC claims 45
+Units, but the
+document contains 43
+internal UNIT
+headings: 1-43. More
+importantly, the
+internal numbers do
+not match the 2026
+syllabus topic
+sequence.
+Re-number units after
+rebuilding the 2026
+coverage map.
+
+-- 7 of 25 --
+
+Paper 1 Forensic Audit | Page 8
+5. Official 2026 Syllabus Coverage Audit
+The official IIBF 2026 Paper 1 syllabus has four modules. The following matrix is deliberately strict: a topic is
+not marked “strong” merely because a related keyword appears somewhere in the PDF.
+Module A - Indian Economic Architecture
+Official area Status PDF location Audit note
+Overview of Indian Economy Strong but dated Ch1 Historical evolution and
+structural profile are covered.
+Current GDP/population facts
+are date-sensitive.
+Economic Planning in India Strong Ch1, Ch3 Good FYP table and NITI
+comparison; some plan-model
+attributions require
+verification.
+Sectors of Indian Economy Strong Ch2 Good
+primary/secondary/tertiary/qua
+ternary/quinary treatment;
+some statistics are date-
+sensitive.
+Priority Sector & MSME Strong breadth; stale rules Ch4 Wide coverage but the MSME
+classification and PSL matrix
+require 2025/26 repair.
+Infrastructure incl. social
+infrastructure
+Moderate-strong Ch5 Energy, transport, education
+and health are present; many
+policy numbers are
+historical/aspirational.
+Globalisation - Impact on India Moderate Ch6 Trade/capital/remittance
+channels are covered; policy
+framing should be expanded.
+Economic Reforms Weak Ch1/Ch6 1991 is discussed, but the
+required real-sector, financial-
+sector and global-integration
+transformation deserves a
+dedicated syllabus block.
+FTP, foreign investments &
+economic development
+Strong breadth; needs update Ch6 FTP 2023 and FDI/FPI are
+covered, but current
+developments and the official
+2015-20 historical syllabus
+framing need cleaner
+separation.
+International Economic
+Organisations
+Moderate-strong Ch6 IMF/World
+Bank/WTO/ADB/NDB/AIIB
+appear; regional cooperation
+and current issues could be
+expanded.
+Climate Change & SDGs Moderate Ch5 Panchamrit/SDGs/CSR appear;
+current scorecards and
+developments need a dated
+update layer.
+Issues facing Indian Economy WEAK / materially incomplete Ch1 fragments No equivalent focused
+treatment of poverty
+alleviation, jobless growth,
+inequality, migration/resource
+pressure, remedies and
+pandemic implications as a
+coherent syllabus unit.
+
+-- 8 of 25 --
+
+Paper 1 Forensic Audit | Page 9
+Module B - Economic Concepts Related to Banking
+Official area Status PDF location Audit note
+Fundamentals / micro / macro /
+types of economies
+Strong Ch7 Good definitions and market
+structures.
+Supply & Demand Strong Ch8 Good curve/elasticity
+framework.
+Money Supply & Inflation Strong but date-sensitive Ch10 M0-M4, multiplier and inflation
+are useful; current series/rates
+require date control.
+Theories of Interest Strong Ch11 Classical, Keynes and IS-LM are
+treated well.
+Business Cycles Strong Ch12 Phases and banking
+transmission covered.
+Monetary & Fiscal Policy Strong but stale numerical
+anchors
+Ch12 Good concepts; hard-coded
+corridor/operational figures
+need dated updating.
+National Income & GDP
+Concepts
+Moderate-strong but materially
+stale
+Ch9 Concepts are good; 2011-12
+“current” base-year claim is
+now wrong.
+Union Budget Moderate Ch12 Receipts/deficits included; Plan
+Expenditure requires explicit
+historical labeling.
+
+-- 9 of 25 --
+
+Paper 1 Forensic Audit | Page 10
+Module C - Indian Financial Architecture
+Official area Status PDF location Audit note
+Financial System overview /
+reform history
+Strong Ch13 Broad historical architecture is
+present.
+Indian Banking Structure Strong breadth Ch15-16 Commercial banks, RRBs, UCBs
+and differentiated banks
+covered.
+RBI Act 1934 + Banking
+Regulation Act 1949
+FAIL - major omission Ch14/15 references only IIBF explicitly requires
+Chapters I-V, schedules, BR Act
+Sections 1-56. Not adequately
+taught.
+Development Financial
+Institutions
+Partial Ch18 SIDBI, EXIM, NABARD, NHB,
+NaBFID covered; IFCI/ICICI/IDBI
+history and evolution are not
+comparably developed.
+Micro Finance Institutions Strong Ch17 Regulatory framework and 2022
+directions treated well, subject
+to current updates.
+NBFCs / SBR Strong breadth; one critical
+error
+Ch17 SBR is covered, but “Top 25” is
+wrong; current rule is top ten
+eligible by asset size.
+Insurance Companies Moderate Ch23 Products/intermediaries/
+reinsurance/social schemes
+appear, but depth should be
+checked against all explicit
+syllabus components and
+current figures.
+Regulators & roles Strong Ch14 RBI/SEBI/IRDAI/PFRDA
+discussed; IFSCA language
+elsewhere is overly broad.
+Banking reforms / bad banks /
+EASE
+Weak-moderate Ch15/18 fragments Need dedicated coverage of
+bad-bank architecture and
+EASE concepts as named by
+IIBF.
+
+-- 10 of 25 --
+
+Paper 1 Forensic Audit | Page 11
+Module D - Financial Products and Services
+Official area Status PDF location Audit note
+Overview of Financial Markets Moderate Ch19-20 Market functions and
+segmentation are present but
+should be made a dedicated
+foundation unit.
+Money Markets Partial Ch19 Call/notice/term, T-bills, CP, CD,
+repo/TREPS present; BRDS and
+LTRO absent.
+Fixed Income Markets Partial Ch20 G-secs/bond valuation present;
+FIMMDA, RBI Retail Direct
+Scheme and ICD need dedicated
+coverage.
+Capital Markets & Stock
+Exchanges
+Strong Ch20 Primary/secondary, ASBA, QIP,
+exchanges, corporate debt
+terms covered.
+Forex Markets Strong Ch21 FEMA, FX products, NRI
+accounts and market
+participants covered.
+Interconnection of markets /
+dynamics
+FAIL / scattered Ch21 fragments No dedicated treatment of the
+explicit official topic list and
+contagion/integration
+framework.
+Merchant Banking Services FAIL / scattered No dedicated unit The TOC and body do not
+provide the official merchant-
+banking syllabus block; only
+incidental mentions occur.
+Derivatives incl. CDS Strong Ch21 Forwards/futures/options/swaps
+and Greeks treated; CDS-specific
+RBI/ISDA detail should be
+expanded.
+Factoring / forfaiting / TReDS Strong Ch22 Good comparative treatment.
+Venture Capital Strong Ch22 Dedicated unit exists.
+Leasing & Hire Purchase Strong breadth; legal precision
+needed
+Ch23 Good comparison, but legal
+basis statements should be
+revalidated.
+Credit rating/scoring Strong Ch23 CRA/CIC distinction is useful;
+current regulatory details need
+date labels.
+Mutual Funds / AIF Strong Ch22 Good core treatment; current
+SEBI rules should be patchable.
+Insurance products Strong breadth Ch23 Bancassurance/social
+schemes/Ombudsman present;
+verify current rules.
+Pension/APY/NPS Moderate; outdated Ch23 Current exit rules require a
+rewrite of blanket NPS
+statements.
+Para-banking Moderate Ch23 Present, but IIBF asks
+organisation/disclosure
+specifics that deserve deeper
+dedicated treatment.
+REIT / InvIT Strong Ch22 Dedicated treatment and payout
+logic present.
+
+-- 11 of 25 --
+
+Paper 1 Forensic Audit | Page 12
+6. Module A - Detailed Findings
+What is genuinely good
+ The FYP master tables are highly usable for rapid recall.
+ The sectoral productivity/employment mismatch is explained rather than merely listed.
+ The FTP/SRVA/BoP section gives a useful mechanism-level view of external-sector transactions.
+ Infrastructure content connects projects to funding/risk allocation, which is valuable for banking-oriented
+questions.
+
+-- 12 of 25 --
+
+Paper 1 Forensic Audit | Page 13
+Major defects
+ID Finding PDF locus Audit conclusion
+A-01 Current macro profile is frozen
+at an old snapshot
+p.1 “Fifth-largest by nominal GDP”,
+1,428+ million population,
+median age 28.7 etc. are
+snapshot statistics, not timeless
+facts. For a 2026 exam source
+they require date labels and
+update fields.
+A-02 Economic Reforms is underbuilt Ch1/Ch6 The official syllabus explicitly
+separates Economic Reforms
+from Globalisation and FTP. The
+candidate book discusses 1991
+liberalisation but not as a
+complete transformation block
+covering real sector, financial
+sector, global integration and
+reform architecture.
+A-03 Issues Facing Indian Economy
+is materially missing
+End of Module A The official syllabus explicitly
+names poverty alleviation,
+jobless growth, inequalities,
+migration/resource pressure,
+remedies and pandemic
+situations. This should be a
+2026-ready unit, not implicit
+fragments.
+A-04 Planning-horizon language is
+historical
+p.11 The “15-Year Vision / 7-Year
+Strategy / 3-Year Action
+Agenda” framework is
+presented as a current NITI
+planning architecture. It should
+be labeled as a historical
+planning framework unless
+separately updated.
+A-05 MSME threshold error pp.12-13 The 2020 classification is
+reproduced as current. This is
+one of the most dangerous
+memory-based errors because
+the table is visually prominent
+and repeated.
+A-06 PSL matrix requires complete
+rebuild
+p.12 SFB/UCB targets and category-
+specific figures are exposed to
+2025 revisions. A static 2023-
+style matrix is unsafe for 2026.
+A-07 NIP / logistics targets need
+status labels
+Ch5 A target like “reduce logistics
+costs below 8%” must not be
+presented like an achieved
+current statistic. Use tags:
+historical target / current
+estimate / policy aspiration /
+achieved.
+A-08 PM-JAY snapshot is dated Ch5 Append current
+eligibility/coverage changes
+with dates.
+
+-- 13 of 25 --
+
+Paper 1 Forensic Audit | Page 14
+7. Module B - Detailed Findings
+Module B is the strongest part of the book conceptually. The core economics is taught in a way that is much
+closer to exam-ready understanding than a pure fact sheet. The main weakness is not conceptual economics;
+it is the use of old statistical baselines and dated operational anchors.
+ID Finding PDF locus Audit conclusion
+B-01 National accounts baseline is
+obsolete for 2026
+p.27 The book calls 2011-12 the
+current base year. MoSPI’s 27
+Feb 2026 release replaced the
+previous 2011-12 series with a
+2022-23 base year.
+[MOSPI-2026]
+B-02 Historical vs current
+methodology is not separated
+Ch9 Keep 2015/2011-12 methodology
+for exam-history context, but
+label it “previous series.” Add
+the 2022-23 current-series
+method as the live benchmark.
+B-03 Monetary-policy figures need
+date stamps
+Ch12 A fixed LAF-corridor figure can
+become wrong quickly. Every
+operational rate should carry
+“as on [date]” and live-update
+instructions.
+B-04 Plan Expenditure needs
+historical context
+Ch12 The phrase remains in IIBF’s
+syllabus, but India’s Plan/Non-
+Plan expenditure classification
+was abolished in the Union
+Budget framework after 2017.
+Teach it as an examinable
+historical terminology
+distinction.
+B-05 Some historical plan “models”
+are questionable
+Ch1/Ch3 Attributions such as “John
+Sandy”, “Pranab Mukherjee
+Model” and “John W. Miller
+Model” require source
+validation. Do not make
+uncertain attributions into trap
+questions.
+B-06 Formula pedagogy is good but
+date-control should sit beside it
+Ch9-12 Equations such as GDP deflator,
+ICOR and money multiplier are
+useful; the book should
+distinguish stable formulas
+from mutable data series.
+Conceptual quality verdict for Module B
+GREEN
+Keep most of the conceptual explanations, graphs and causal reasoning. This module needs a data/methodology
+patch more than a wholesale rewrite.
+
+-- 14 of 25 --
+
+Paper 1 Forensic Audit | Page 15
+8. Module C - Detailed Findings
+ID Finding PDF locus Audit conclusion
+C-11 RBI Act / Banking Regulation
+Act coverage is not exam-safe
+Official Unit IIBF expressly names RBI Act
+Chapters I-V, Schedules and BR
+Act Sections 1-56. A banking
+exam candidate needs an
+indexed statutory map: section
+number -> subject -> exam
+point.
+C-12 DFI coverage is uneven Ch18 NABARD, SIDBI, EXIM, NHB and
+NaBFID receive attention. IFCI,
+ICICI and IDBI are not
+developed to the same level as
+the official syllabus. Their
+evolution is examinable and
+should be explicitly
+represented.
+C-13 NBFC Upper Layer is wrong p.52 “Top 25” is repeated. RBI says
+the top ten eligible NBFCs by
+asset size shall always reside in
+the Upper Layer. [RBI-SBR]
+C-14 IFSCA role is too absolute Ch14 The book describes IFSCA as if it
+simply supersedes multiple
+domestic regulators. The correct
+framing is activity/location-
+specific regulation inside an
+International Financial Services
+Centre.
+C-15 Bad banks / EASE are not
+sufficiently standalone
+Ch15/18 These are explicitly named in
+the current IIBF syllabus and
+deserve dedicated exam-ready
+notes, not only contextual
+mentions.
+C-16 Current regulatory figures are
+over-densified
+Ch15-17 Capital ratios, PCA,
+microfinance limits and SBR
+parameters are presented as
+stable memory facts. Add
+“regulatory snapshot date”
+labels and update protocol.
+Statutory repair requirement
+This is the largest content repair in the entire book. The replacement should contain four layers: (1) one-page
+architecture, (2) section-index table, (3) concept explanation, and (4) IIBF-style trap questions. The objective
+is not to reproduce the Acts verbatim; it is to make every named syllabus component answerable.
+
+-- 15 of 25 --
+
+Paper 1 Forensic Audit | Page 16
+9. Module D - Detailed Findings
+ID Finding PDF locus Audit conclusion
+D-01 Money-market coverage is
+incomplete
+Ch19 Call/notice/term, T-bills, CP, CD
+and TREPS are useful. BRDS and
+LTRO - explicitly named by IIBF
+- are absent.
+D-02 CD denomination is wrong Ch19 / vault PDF says ₹1 lakh; current RBI
+direction uses ₹5 lakh and
+multiples. [RBI-CD]
+D-03 Fixed-income syllabus is
+incomplete
+Ch20 FIMMDA, RBI Retail Direct
+Scheme and Inter-Corporate
+Deposits are explicitly required
+but not developed.
+D-04 Interconnectedness is missing
+as a real unit
+Ch19-21 The PDF has market-linked
+comments but not the official
+framework: levels of
+integration, market
+interdependence, treasury
+integration and contagion
+effect.
+D-05 Merchant banking is missing as
+a dedicated syllabus block
+Module D Incidental wording is not
+equivalent to the official list:
+history, development, bank vs
+merchant bank, licensing, SEBI
+regulation, activities and codes
+of conduct need their own unit.
+D-06 NPS statements are too absolute Ch23 / vault Current PFRDA rules differ by
+model and have changed.
+Blanket “locked until 60” and
+fixed 60/40 language is unsafe.
+D-07 TREPS wording is too absolute Ch19 “Eliminates counterparty credit
+risk” should be softened to
+explain CCP/CCIL novation and
+risk mitigation rather than
+absolute elimination.
+D-08 Legal treatment in hire
+purchase needs verification
+Ch23 The statement naming a “Hire
+Purchase Act, 1972” as
+governing law should not be left
+unqualified without checking
+enactment/commencement
+status and current legal
+practice.
+Module D verdict
+AMBER
+The financial-markets section looks the most “complete” on first reading, but the missing topics are exactly the
+kind of low-frequency/high-specificity items that can cost objective marks.
+
+-- 16 of 25 --
+
+Paper 1 Forensic Audit | Page 17
+10. PYQ / Exam-Pattern Audit
+The PDF is marketed as a master monograph, but its explicit practice layer is much smaller than the
+surrounding volume suggests. A text extraction of the PDF identifies only five explicit Q-numbered MCQs in
+the main body, plus a much larger number of active-recall prompts and “exam trap” blocks. The latter are
+useful, but they are not a substitute for full objective practice.
+Evidence from PDF Observed Interpretation
+Explicit Q1/Q2/Q3 style MCQs 5 Too small as a question bank for a
+roughly 100-question objective paper.
+Active recall prompts 41 Strong for learning; should be converted
+into MCQs as well.
+Examiner-trap / trap blocks Many Strong exam orientation, but some trap
+statements themselves contain
+stale/wrong facts.
+Question-to-syllabus traceability Weak Most questions are not tagged to an
+official syllabus item or PYQ source.
+Verbatim official PYQ evidence None established inside PDF The book should not imply exhaustive
+PYQ coverage without source tagging.
+What the PYQ layer should become
+ A 45-topic PYQ index aligned to the 2026 syllabus.
+ For each recurring concept: at least one direct-recall question, one conceptual question, one statement-based
+trap, and one “close option” question.
+ A source label: official / memory-based / reconstructed / author-generated.
+ An error-analysis column: why the wrong alternatives are wrong.
+ A “recently asked / repeatedly asked / syllabus but not yet seen” classification.
+IMPORTANT
+Available online PYQs are generally memory-based rather than official verbatim IIBF releases. They are
+valuable for pattern discovery, but they must not be presented as official question papers unless provenance is
+demonstrated.
+
+-- 17 of 25 --
+
+Paper 1 Forensic Audit | Page 18
+11. Factual, Regulatory and Currency Audit
+High-confidence corrections
+Item PDF statement Required current treatment Primary basis
+MSME classification PDF: Micro 1/5; Small 10/50;
+Medium 50/250 crore
+Current benchmark: Micro
+2.5/10; Small 25/100; Medium
+125/500 crore, with both
+investment and turnover
+ceilings. Effective 1 Apr 2025.
+Ministry of MSME, revised
+classification
+GDP base year PDF: 2011-12 is “currently” the
+base year
+Current national accounts
+series: base year 2022-23,
+released 27 Feb 2026.
+MoSPI new series [MOSPI-2026]
+CD denomination PDF: ₹1 lakh RBI: minimum ₹5 lakh and
+multiples thereof.
+RBI CD framework [RBI-CD]
+NBFC Upper Layer PDF: Top 25 RBI SBR: top ten eligible NBFCs
+by asset size always in Upper
+Layer.
+RBI SBR [RBI-SBR]
+NPS PDF: blanket 60/40 and lock-in-
+to-60 wording
+Current PFRDA rules are model-
+specific and include changed
+normal-exit provisions; blanket
+language is unsafe.
+PFRDA [PFRDA-NPS]
+PSL PDF matrix reflects older
+framework
+RBI revised PSL directions in
+2025; UCB overall target was
+revised to 60%, and other
+targets/categories were also
+changed.
+RBI PSL 2025
+Statements that require a “date stamp” rather than a permanent memory fact
+ Repo/SDF/MSF/CRR and other policy rates
+ PSL targets and loan ceilings
+ Government scheme coverage and benefits
+ Current GDP, population, fiscal and external-sector numbers
+ Towns of Export Excellence counts and e-commerce consignment ceilings
+ Banking-sector capital/PCA snapshots
+ Insurance company counts, penetration/density and reinsurance cession
+ UPI/IMPS/payment limits
+ NPS and other pension-exit provisions
+Overstatement / wording risks
+ “Zero direct exposure” of Indian banks to US subprime assets is too absolute and should be replaced by a
+sourced, quantified statement.
+ TREPS should be described as central-counterparty risk mitigation, not absolute elimination of counterparty
+risk.
+ IFSCA should not be described as globally superseding all other financial regulators; its remit is tied to financial
+products/services in IFSCs.
+ Policy targets and aspirations must be labeled as such, not mixed with achieved values.
+ Historical classifications (Plan vs Non-Plan) should be explicitly marked as historical when taught for exam
+purposes.
+
+-- 18 of 25 --
+
+Paper 1 Forensic Audit | Page 19
+12. Internal Consistency & Editorial Audit
+ID Issue Location Assessment
+I-01 88-page physical PDF vs “99
+body pages”
+PDF pp.3-4 / file structure The TOC says 99 body pages,
+while the actual PDF contains
+88 pages. This is a production-
+control defect.
+I-02 45 units claimed vs 43 UNIT
+headers
+PDF pp.3-4 and body The body has UNIT numbers 1-
+43 only. Units 44 and 45 do not
+appear as UNIT headings. The
+content sequence also does not
+match the 2026 official syllabus
+numbering.
+I-03 Misleading unit labels Throughout Examples: “UNIT 35” is used for
+a macroeconomic evolution
+block; later Unit 35 is absent.
+This breaks revision indexing
+and any future agent-based
+update workflow.
+I-04 Repeated stale facts in
+summary vault
+Final revision pages Errors are amplified because
+the old numbers are repeated in
+the “master” revision layer. A
+correction must therefore be
+global, not local.
+I-05 High density + large unused
+white space
+Many pages The book is compact in content
+but often leaves large lower-
+page voids. This does not harm
+correctness, but it signals that
+some chapters could absorb
+missing syllabus coverage
+without increasing overall page
+count dramatically.
+I-06 Some historical attributions
+need source verification
+FYP tables Unusual named “models” can
+create false certainty and
+should be either sourced or
+simplified.
+I-07 Typographical/format artifacts
+in extracted text
+Multiple tables Some formulas/table labels are
+vulnerable to reading
+ambiguity; final production
+should be checked from the
+rendered page, not text
+extraction alone.
+Editorial standard for the corrected master
+ Every mutable number gets a date or fiscal-year tag.
+ Every regulator-specific rule carries regulator + document/date.
+ Every chapter links to one or more official 2026 syllabus items.
+ Every final revision-table fact is generated from corrected source sections, not manually typed again.
+ Historical values are visually labeled HISTORICAL / PREVIOUS SERIES / POLICY TARGET / CURRENT.
+
+-- 19 of 25 --
+
+Paper 1 Forensic Audit | Page 20
+13. Page / Chapter-Level Defect Register
+Pages Area Finding Severity Repair
+1-2 Cover + CIP 2023 curriculum claim CRITICAL Re-benchmark to 2026.
+3-4 TOC / syllabus map 99 body pages + 45-unit
+claim
+CRITICAL Repair page count and unit
+index.
+5 Ch1 macro profile Old GDP/population
+snapshot without date
+MAJOR Date or update current
+values.
+6 Ch1 demography Stage 3 stated as
+settled/current
+MODERATE Label as demographic-
+model framing.
+7-8 FYP/NITI Questionable plan-model
+attributions
+MAJOR Verify or simplify.
+9-10 2008 GFC “Zero direct exposure”
+claim
+CRITICAL Replace with sourced
+exposure analysis.
+11 Ch2 sector architecture Current shares frozen as
+approximations
+MODERATE Date the statistics.
+12-13 Ch4 PSL/MSME 2020 MSME and old PSL
+targets
+CRITICAL Full 2025/26 rebuild.
+15 Ch3 NITI 15/7/3 planning framework
+treated as current
+MAJOR Historical label + update.
+19-20 Ch6 FTP/World Bank Some 2023 snapshots
+presented as live
+MODERATE Date and update.
+27 Ch9 GDP 2011-12 current base year CRITICAL 2022-23 current series.
+36-40 Ch12 policy/budget Hard-coded policy anchors MAJOR Date-sensitive update
+architecture.
+41-45 Ch13-14 Legal/regulatory
+architecture compressed
+MAJOR Add statutory map.
+46-51 Ch15-16 Capital/PCA/PSL/bank
+structure snapshots
+MAJOR Regulatory update layer.
+52-55 Ch17-18 NBFC top-25 error; DFI
+gaps
+CRITICAL Correct SBR + add DFI
+history.
+59-61 Ch19 CD ₹1 lakh; BRDS/LTRO
+missing
+CRITICAL Repair money-market unit.
+62-65 Ch20 FIMMDA/RBI Retail
+Direct/ICD missing
+CRITICAL Expand fixed-income
+syllabus.
+66-68 Ch21 Interconnectedness/
+merchant banking
+insufficient
+CRITICAL Add dedicated units.
+69-73 Ch22 Broadly strong but current
+SEBI rules need patch
+MODERATE Date sensitive.
+74-80 Ch23 NPS blanket wording;
+some insurance data can
+stale
+CRITICAL Rewrite current rules.
+81-88 Revision vault Repeats stale numbers CRITICAL Regenerate from corrected
+source sections.
+
+-- 20 of 25 --
+
+Paper 1 Forensic Audit | Page 21
+14. Repair Specification - What Must Be Added / Corrected
+Patch Pack P1 - Benchmark reset
+ Delete “Macmillan 2023 curriculum compliant” as the controlling claim.
+ Insert an “IIBF 2026 benchmark” page with four modules and all named official topics.
+ Create a 45-topic internal index that remains stable even if chapters are rearranged.
+Patch Pack P2 - Current-data layer
+ MSME 2025 classification
+ PSL 2025 directions + current targets
+ GDP 2022-23 base series
+ Current monetary policy framework
+ Current NPS exit rules by model
+ Current CD rules
+ Current NBFC SBR
+ Current insurance / pension / payment limits
+Patch Pack P3 - Missing syllabus blocks
+Missing block Minimum required replacement
+Economic Reforms Real-sector, financial-sector, global-integration
+transformation; reform chronology; major reform committees.
+Issues Facing Indian Economy Poverty, jobless growth, inequality, migration, resource
+pressure, remedies, pandemic effects.
+RBI Act / BR Act Chapters/sections/schedules explicitly named by IIBF, with
+section-index and traps.
+DFIs IFCI, ICICI, IDBI plus evolution and transition to universal
+banking.
+BRDS + LTRO Definition, purpose, participants, mechanics, comparison with
+repo/TREPS.
+Fixed-income extras FIMMDA, RBI Retail Direct, corporate bond market, ICD.
+Interconnectedness Integration levels, market links, treasury operations,
+contagion.
+Merchant Banking Definition, history, licensing, SEBI rules, activities, codes of
+conduct.
+Patch Pack P4 - Question engine
+Convert the final book into an exam engine: every official topic should have a mini-bank of MCQs; every
+high-yield fact should have at least one distractor-based question; every formula should have one
+numerical/application item where applicable; and every current regulation should have a dated “as-on”
+question.
+Patch Pack P5 - Revision vault rebuild
+The current vault should be regenerated automatically from corrected source sections. This prevents a
+classic master-book failure: the chapter is corrected but the final “one-page revision” still contains the
+obsolete number.
+
+-- 21 of 25 --
+
+Paper 1 Forensic Audit | Page 22
+15. Single-Source Certification Test
+The following are the gates the revised book must pass before it receives a GREEN certification.
+Gate Test Pass condition
+Gate 1 2026 syllabus map 100% of named Paper 1 areas have a
+mapped page/section.
+Gate 2 Current-rule audit No undated mutable regulatory number
+is presented as permanently valid.
+Gate 3 Statutory completeness RBI Act / BR Act items named by IIBF are
+directly answerable.
+Gate 4 Market-products completeness All explicit Module D products/services
+have dedicated coverage.
+Gate 5 PYQ architecture Available PYQs are mapped; source
+provenance is visible.
+Gate 6 Question generation At least a meaningful practice set per
+official topic; not just a handful of MCQs.
+Gate 7 Revision integrity Summary vault is generated only after
+source corrections.
+Gate 8 Internal consistency No conflicting numbers/definitions
+across chapters.
+Gate 9 Currentness window A clearly dated patch list covers all
+developments through the IIBF cutoff.
+Gate 10 Final red-team A second pass searches specifically for
+“absolute” wording, exceptions, changed
+limits, dates and regulator-role traps.
+CERTIFICATION NOW
+FAIL / RED. The candidate PDF does not pass the current single-source test. It should be treated as a high-quality
+draft master, not a final authority.
+
+-- 22 of 25 --
+
+Paper 1 Forensic Audit | Page 23
+16. Final Recommendation
+Keep the book - but do not trust it blindly yet.
+The most rational move is not to abandon this PDF. Its structure is already better than what would normally
+be built from scratch. The efficient path is forensic repair: keep the chapter skeleton and most of the
+explanatory writing, then patch the current syllabus, current rules, missing official topics, and question
+engine.
+Recommended status labels
+Part of book Status now Action
+Conceptual economics core GREEN Keep; selectively refine.
+Exam-trap design GREEN/AMBER Keep format; correct every stale trap.
+Module A current facts RED/AMBER Update before memorisation.
+Module B core theory GREEN/AMBER Keep; update national-accounting series.
+Module C statutory coverage RED Major expansion required.
+Module D market syllabus RED/AMBER Fill explicit gaps.
+Final revision vault RED Regenerate after all corrections.
+PYQ layer AMBER Build into a proper source-tagged
+question bank.
+Target after repair
+GREEN TARGET
+The repaired book should be able to answer: “Where in this book is every official 2026 Paper 1 syllabus item?”,
+“Which facts are current as of the relevant cutoff?”, and “What happens if IIBF changes the rule next cycle?” A
+true single-source system needs those three answers.
+Important: no static textbook can guarantee a top score. IIBF itself explicitly warns that the courseware
+should not be the only source because banking and finance rules change rapidly, and it advises candidates to
+follow updates and regulator publications. The practical goal should therefore be a canonical master book
+plus a dated update layer - not a frozen PDF that pretends to stay current forever. [IIBF-2026]
+
+-- 23 of 25 --
+
+Paper 1 Forensic Audit | Page 24
+Appendix A - Source Register
+Ref Source Location
+[IIBF-2026] Indian Institute of Banking & Finance,
+Diploma in Banking & Finance - Rules &
+Syllabus 2026. Official Paper 1 syllabus, exam
+pattern, courseware disclaimer and current-
+development rule.
+https://www.iibf.org.in/documents/
+RulesSyllabus/2026/42_DBF-
+Final_23_2_26%20_Final_website_12_03_2026.p
+df
+[IIBF-2026-PAGE] IIBF official DB&F page. Current 2026
+examination schedule and 2026 Macmillan
+study-material listing.
+https://iibf.org.in/diploma-banking-finance
+[MOSPI-2026] Ministry of Statistics & Programme
+Implementation, New Series of GDP Estimates
+with base year 2022-23, 27 February 2026.
+https://mospi.gov.in/uploads/
+release_calendar/
+1772190058170_Press_Note_on_New_Series_of_
+GDP_Estimates_with_Base_Year_2022-
+23_27022026.pdf
+[RBI-PSL-2025] Reserve Bank of India, revised Priority Sector
+Lending framework effective from 1 April
+2025; use the current Master Direction for the
+live target/limit matrix.
+https://www.rbi.org.in/
+[RBI-SBR] Reserve Bank of India, Master Direction -
+Reserve Bank of India (Non-Banking Financial
+Company - Scale Based Regulation) Directions,
+2023, as amended.
+https://www.rbi.org.in/Scripts/
+BS_ViewMasDirections.aspx?id=10690
+[RBI-CD] Reserve Bank of India, Certificate of Deposit
+directions; current minimum denomination ₹5
+lakh and multiples.
+https://www.rbi.org.in/Scripts/
+NotificationUser.aspx?Id=12108
+[PFRDA-NPS] PFRDA, current NPS exit/withdrawal guidance
+and model-specific rules.
+https://pfrda.org.in/
+[IRDAI] Insurance Regulatory and Development
+Authority of India, current notifications
+including obligatory cession and insurance
+regulations.
+https://irdai.gov.in/notifications/
+[PYQ-CAVEAT] Publicly available memory-based IE&IFS
+PYQ/question archives. Use only for pattern
+discovery unless provenance establishes an
+official IIBF paper.
+Verify each item before treating it as verbatim
+IIBF content.
+How to read this report
+PDF page references in this report refer to the printed page numbers inside the candidate PDF when visible;
+where a range is given, the issue is repeated or confirmed within that chapter. The report is an audit artifact,
+not a replacement study book.
+
+-- 24 of 25 --
+
+Paper 1 Forensic Audit | Page 25
+Appendix B - Audit Severity Legend
+Severity Meaning User action
+CRITICAL Wrong/outdated/high-yield fact, major
+syllabus omission, or broken benchmark
+integrity.
+Do not memorise as written. Patch
+before use.
+MAJOR Meaningful incompleteness, weak
+legal/regulatory precision, or
+currentness problem.
+Patch before treating chapter as
+complete.
+MODERATE Useful content with date, context or
+explanation issue.
+Keep with correction/annotation.
+MINOR Spelling, style, formatting, redundancy
+or non-material clarity issue.
+Fix during production pass.
+AUDIT PRINCIPLE
+The standard used throughout is intentionally adversarial: “What is the easiest way this PDF could make a
+prepared candidate lose marks?” Any content that creates that risk is flagged.
+
+-- 25 of 25 --
+

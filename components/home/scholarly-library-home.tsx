@@ -262,7 +262,49 @@ interface SavedPosition {
 export function ScholarlyLibraryHome() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [savedPosition, setSavedPosition] = useState<SavedPosition | null>(null);
-  const [activeDomainFilter, setActiveDomainFilter] = useState<'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG'>('ALL');
+  const [activeDomainFilter, setActiveDomainFilter] = useState<'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG'>('GOV');
+
+  useEffect(() => {
+    try {
+      const savedWing = localStorage.getItem('reading_hub_active_wing');
+      if (savedWing && ['ALL', 'GOV', 'ECO', 'EARTH', 'SCI', 'LANG'].includes(savedWing)) {
+        setActiveDomainFilter(savedWing as any);
+      }
+    } catch {
+      // Ignore localStorage errors
+    }
+  }, []);
+
+  const handleSelectWing = (wing: 'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG') => {
+    setActiveDomainFilter(wing);
+    try {
+      localStorage.setItem('reading_hub_active_wing', wing);
+    } catch {
+      // Ignore localStorage errors
+    }
+  };
+
+  const renderProvenanceAndScope = (
+    item: MonographSubject,
+    customClass?: string
+  ) => {
+    return (
+      <div className={`space-y-3 ${customClass || ''}`}>
+        <div className="text-xs sm:text-sm font-mono text-[#5A7365] leading-normal break-words bg-[#FAF9F4] p-3 rounded-xl border border-[#EBE5D8]">
+          <span className="font-bold text-[#10251F] uppercase text-[11px] tracking-wider mr-2">
+            Primary Sources:
+          </span>
+          {item.authorText}
+        </div>
+        <div className="text-xs font-mono text-[#4A6355] leading-normal break-words">
+          <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-2 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
+            Curriculum Scope
+          </span>
+          <span>{item.keyCoverage}</span>
+        </div>
+      </div>
+    );
+  };
 
   useEffect(() => {
     try {
@@ -291,14 +333,14 @@ export function ScholarlyLibraryHome() {
   }, [activeDomainFilter]);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-16 sm:space-y-20 lg:space-y-24 text-[#172720] min-w-0 overflow-x-clip">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 lg:space-y-20 py-8 sm:py-10 text-[#172720] min-w-0 overflow-x-clip">
 
       {/* =========================================================================
           LAYER B: THE LIBRARY ENTRANCE & EDITORIAL HERO
           Monumental presence: deep forest green, Aravalli mountain silhouette,
           spacious desktop 12-column composition.
           ========================================================================= */}
-      <section className="relative rounded-3xl bg-[#0B1E18] text-[#FAF8F3] border border-[#1E3A2E] shadow-md p-8 sm:p-12 lg:p-14 overflow-hidden w-full min-w-0">
+      <section className="relative rounded-3xl bg-[#0B1E18] text-[#FAF8F3] border border-[#1E3A2E] shadow-md p-7 sm:p-10 lg:p-12 overflow-hidden w-full min-w-0">
         
         {/* Subtle Atmospheric Depth & Topography Mountain Silhouette */}
         <div className="absolute inset-0 bg-radial from-[#1A4536]/30 via-transparent to-transparent pointer-events-none" />
@@ -568,7 +610,7 @@ export function ScholarlyLibraryHome() {
         {/* The 5 Domain Wing Selectors (Interactive Spatial Navigation) */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 w-full min-w-0 text-xs sm:text-sm font-mono">
           <button
-            onClick={() => setActiveDomainFilter('ALL')}
+            onClick={() => handleSelectWing('ALL')}
             className={`p-4 sm:p-5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-2 shadow-2xs min-h-[110px] sm:min-h-[120px] ${
               activeDomainFilter === 'ALL'
                 ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] shadow-sm'
@@ -594,7 +636,7 @@ export function ScholarlyLibraryHome() {
             return (
               <button
                 key={domain.id}
-                onClick={() => setActiveDomainFilter(isSelected ? 'ALL' : domain.id)}
+                onClick={() => handleSelectWing(isSelected ? 'ALL' : domain.id)}
                 className={`p-4 sm:p-5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-2 shadow-2xs min-h-[110px] sm:min-h-[120px] ${
                   isSelected
                     ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] shadow-sm'
@@ -617,6 +659,26 @@ export function ScholarlyLibraryHome() {
             );
           })}
         </div>
+
+        {activeDomainFilter !== 'ALL' && (
+          <div className="p-4 rounded-2xl bg-[#10251F] text-[#FAF8F3] border border-[#2A4D3E] flex flex-wrap items-center justify-between gap-3 font-mono text-xs shadow-sm">
+            <div className="flex items-center gap-2.5">
+              <span className="text-lg">🏛️</span>
+              <span>
+                Viewing Room: <strong className="text-[#C59B4B]">{KNOWLEDGE_DOMAINS.find((d) => d.id === activeDomainFilter)?.name}</strong>
+              </span>
+              <span className="text-[#A1B8A9] hidden sm:inline">
+                ({MONOGRAPHS.filter((m) => m.domainId === activeDomainFilter).length} Treatises shown • ~55% shorter page length)
+              </span>
+            </div>
+            <button
+              onClick={() => handleSelectWing('ALL')}
+              className="px-3.5 py-1.5 rounded-lg bg-[#1E3A2E] hover:bg-[#2A4D3E] text-[#FAF8F3] border border-[#3E6554] cursor-pointer text-xs font-bold transition-colors"
+            >
+              Show All 5 Wings (Unrolled) →
+            </button>
+          </div>
+        )}
       </section>
 
       {/* =========================================================================
@@ -685,23 +747,11 @@ export function ScholarlyLibraryHome() {
                           </h4>
                         </Link>
 
-                        <div className="text-xs sm:text-sm font-mono text-[#5A7365] leading-normal break-words bg-[#FAF9F4] p-3 rounded-xl border border-[#EBE5D8]">
-                          <span className="font-bold text-[#10251F] uppercase text-[11px] tracking-wider mr-2">
-                            Primary Sources:
-                          </span>
-                          {pol.authorText}
-                        </div>
-
                         <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed break-words max-w-3xl">
                           {pol.description}
                         </p>
 
-                        <div className="text-xs font-mono text-[#4A6355] leading-normal break-words">
-                          <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-2 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                            Curriculum Scope
-                          </span>
-                          <span>{pol.keyCoverage}</span>
-                        </div>
+                        {renderProvenanceAndScope(pol)}
                       </div>
 
                       {/* Right 4 Cols: Archival Ledger Rail & Actions */}
@@ -780,22 +830,13 @@ export function ScholarlyLibraryHome() {
                           {hist.title}
                         </h4>
                       </Link>
-                      <p className="text-xs sm:text-sm font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8]">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-2">Primary Sources:</span>
-                        {hist.authorText}
-                      </p>
                     </div>
 
                     <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed max-w-3xl">
                       {hist.description}
                     </p>
 
-                    <div className="text-xs font-mono text-[#4A6355]">
-                      <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-2 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                        Curriculum Scope
-                      </span>
-                      <span>{hist.keyCoverage}</span>
-                    </div>
+                    {renderProvenanceAndScope(hist)}
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm font-mono">
                       <Link
@@ -867,21 +908,11 @@ export function ScholarlyLibraryHome() {
                         </h4>
                       </Link>
 
-                      <p className="text-xs font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8] line-clamp-2">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-1.5">Sources:</span>
-                        {eco.authorText}
-                      </p>
-
                       <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
                         {eco.description}
                       </p>
 
-                      <div className="text-xs font-mono text-[#4A6355]">
-                        <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-1.5 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                          Scope
-                        </span>
-                        <span>{eco.keyCoverage}</span>
-                      </div>
+                      {renderProvenanceAndScope(eco)}
                     </div>
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
@@ -917,21 +948,11 @@ export function ScholarlyLibraryHome() {
                         </h4>
                       </Link>
 
-                      <p className="text-xs font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8] line-clamp-2">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-1.5">Sources:</span>
-                        {dbf.authorText}
-                      </p>
-
                       <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
                         {dbf.description}
                       </p>
 
-                      <div className="text-xs font-mono text-[#4A6355]">
-                        <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-1.5 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                          Scope
-                        </span>
-                        <span>{dbf.keyCoverage}</span>
-                      </div>
+                      {renderProvenanceAndScope(dbf)}
                     </div>
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
@@ -981,22 +1002,13 @@ export function ScholarlyLibraryHome() {
                         {ca.title}
                       </h4>
                     </Link>
-                    <p className="text-xs sm:text-sm font-mono text-[#5A7365] bg-[#FAF9F4] p-3 rounded-xl border border-[#EBE5D8]">
-                      <span className="font-bold text-[#10251F] uppercase text-[10px] mr-2">Statutory & Gazette Sources:</span>
-                      {ca.authorText}
-                    </p>
                   </div>
 
                   <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed max-w-3xl">
                     {ca.description}
                   </p>
 
-                  <div className="text-xs font-mono text-[#4A6355]">
-                    <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-2 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                      Curriculum Scope
-                    </span>
-                    <span>{ca.keyCoverage}</span>
-                  </div>
+                  {renderProvenanceAndScope(ca)}
 
                   <div className="pt-4 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm font-mono">
                     <Link href={ca.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
@@ -1084,22 +1096,13 @@ export function ScholarlyLibraryHome() {
                           {geo.title}
                         </h4>
                       </Link>
-                      <div className="text-xs sm:text-sm font-mono text-[#5A7365] bg-[#FAF9F4] p-3 rounded-xl border border-[#EBE5D8] max-w-3xl">
-                        <span className="font-bold text-[#10251F] uppercase text-[11px] mr-2">Authoritative Cartographic Sources:</span>
-                        {geo.authorText}
-                      </div>
                     </div>
 
                     <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed max-w-3xl">
                       {geo.description}
                     </p>
 
-                    <div className="text-xs font-mono text-[#4A6355] max-w-3xl">
-                      <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-2 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                        Curriculum Scope
-                      </span>
-                      <span>{geo.keyCoverage}</span>
-                    </div>
+                    {renderProvenanceAndScope(geo)}
 
                     <div className="pt-5 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-4 text-xs sm:text-sm font-mono">
                       <Link href={geo.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
@@ -1164,21 +1167,11 @@ export function ScholarlyLibraryHome() {
                         </h4>
                       </Link>
 
-                      <p className="text-xs font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8] line-clamp-2">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-1.5">Sources:</span>
-                        {sci.authorText}
-                      </p>
-
                       <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
                         {sci.description}
                       </p>
 
-                      <div className="text-xs font-mono text-[#4A6355]">
-                        <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-1.5 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                          Scope
-                        </span>
-                        <span>{sci.keyCoverage}</span>
-                      </div>
+                      {renderProvenanceAndScope(sci)}
                     </div>
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
@@ -1214,21 +1207,11 @@ export function ScholarlyLibraryHome() {
                         </h4>
                       </Link>
 
-                      <p className="text-xs font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8] line-clamp-2">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-1.5">Sources:</span>
-                        {qnt.authorText}
-                      </p>
-
                       <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
                         {qnt.description}
                       </p>
 
-                      <div className="text-xs font-mono text-[#4A6355]">
-                        <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-1.5 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                          Scope
-                        </span>
-                        <span>{qnt.keyCoverage}</span>
-                      </div>
+                      {renderProvenanceAndScope(qnt)}
                     </div>
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
@@ -1294,21 +1277,11 @@ export function ScholarlyLibraryHome() {
                         </h4>
                       </Link>
 
-                      <p className="text-xs font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8] line-clamp-2">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-1.5">Sources:</span>
-                        {eng.authorText}
-                      </p>
-
                       <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
                         {eng.description}
                       </p>
 
-                      <div className="text-xs font-mono text-[#4A6355]">
-                        <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-1.5 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                          Scope
-                        </span>
-                        <span>{eng.keyCoverage}</span>
-                      </div>
+                      {renderProvenanceAndScope(eng)}
                     </div>
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
@@ -1344,21 +1317,11 @@ export function ScholarlyLibraryHome() {
                         </h4>
                       </Link>
 
-                      <p className="text-xs font-mono text-[#5A7365] bg-[#FAF9F4] p-2.5 rounded-xl border border-[#EBE5D8] line-clamp-2">
-                        <span className="font-bold text-[#10251F] uppercase text-[10px] mr-1.5">Sources:</span>
-                        {hin.authorText}
-                      </p>
-
                       <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
                         {hin.description}
                       </p>
 
-                      <div className="text-xs font-mono text-[#4A6355]">
-                        <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-1.5 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
-                          Scope
-                        </span>
-                        <span>{hin.keyCoverage}</span>
-                      </div>
+                      {renderProvenanceAndScope(hin)}
                     </div>
 
                     <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">

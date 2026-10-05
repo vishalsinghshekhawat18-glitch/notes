@@ -1,0 +1,194 @@
+[
+  {
+    "ch": 1,
+    "start": 1,
+    "end": 6,
+    "pages": 6,
+    "title": "Overview of Indian Economy & Demographic Transition",
+    "sub": "Pre-1947 to Post-1991 • 4-Stage DTM • 1921 Great Divide • Stage 3 Window"
+  },
+  {
+    "ch": 2,
+    "start": 7,
+    "end": 9,
+    "pages": 3,
+    "title": "Sectoral Architecture: Primary, Secondary & Tertiary",
+    "sub": "Leapfrogging Anomaly • 17% Agri / 45% Workforce • Disguised Unemployment • NMP"
+  },
+  {
+    "ch": 3,
+    "start": 10,
+    "end": 11,
+    "pages": 2,
+    "title": "Economic Planning Architecture & NITI Aayog Strategy",
+    "sub": "FYPs History • NITI Aayog Think-Tank • Governing Council • Aspirational Districts"
+  },
+  {
+    "ch": 4,
+    "start": 12,
+    "end": 14,
+    "pages": 3,
+    "title": "Priority Sector Lending (PSL) & MSME Architecture",
+    "sub": "40% Domestic vs 75% RRB/SFB Targets • 18% Agri • MSME 2020 Criteria (Excl Exports)"
+  },
+  {
+    "ch": 5,
+    "start": 15,
+    "end": 18,
+    "pages": 4,
+    "title": "Infrastructure, Logistics & Climate SDGs",
+    "sub": "NIP • PM GatiShakti • HAM Risk Allocation (40% Govt / 100% Traffic Risk) • CSR §135"
+  },
+  {
+    "ch": 6,
+    "start": 19,
+    "end": 22,
+    "pages": 4,
+    "title": "Globalization, Foreign Trade Policy & Global Institutions",
+    "sub": "FTP 2023 $2T Target • Special Rupee Vostro • IMF SDR • World Bank • WTO AoA Boxes"
+  },
+  {
+    "ch": 7,
+    "start": 23,
+    "end": 24,
+    "pages": 2,
+    "title": "Fundamentals of Economics & Market Structures",
+    "sub": "Perfect Competition (P=AR=MR) • Pure Monopoly • Sweezy Kinked Demand in Oligopoly"
+  },
+  {
+    "ch": 8,
+    "start": 25,
+    "end": 26,
+    "pages": 2,
+    "title": "Law of Demand, Supply & Elasticity Formulas",
+    "sub": "Point Price Elasticity • Cross-Price Substitutes/Complements • Income Elasticity"
+  },
+  {
+    "ch": 9,
+    "start": 27,
+    "end": 28,
+    "pages": 2,
+    "title": "National Income Accounting, GVA & GDP Deflator",
+    "sub": "2015 NSO Methodology (Base 2011-12) • Basic Price vs Market Price • ICOR Formula"
+  },
+  {
+    "ch": 10,
+    "start": 29,
+    "end": 31,
+    "pages": 3,
+    "title": "Money Supply Measures (M0-M4, L1-L3) & Inflation",
+    "sub": "RBI §33 Minimum Reserve • M0, M1, M3 • Money Multiplier m=(1+c)/(c+r) • CPI vs WPI"
+  },
+  {
+    "ch": 11,
+    "start": 32,
+    "end": 35,
+    "pages": 4,
+    "title": "Theories of Interest, Liquidity Preference & IS-LM Curve",
+    "sub": "Keynes 3 Motives • Speculative Liquidity Trap • IS Goods & LM Money Equilibrium"
+  },
+  {
+    "ch": 12,
+    "start": 36,
+    "end": 40,
+    "pages": 5,
+    "title": "Business Cycles, Monetary Policy & The Union Budget",
+    "sub": "4 Phases • 50 bps LAF Corridor • Fiscal vs Primary Deficits • Articles 266 & 267"
+  },
+  {
+    "ch": 13,
+    "start": 41,
+    "end": 43,
+    "pages": 3,
+    "title": "Indian Financial System & Narasimham Committee Reforms",
+    "sub": "4 Pillars • Narasimham I (1991) 8% CAR, 90-Day NPA • Narasimham II (1998) Reforms"
+  },
+  {
+    "ch": 14,
+    "start": 44,
+    "end": 45,
+    "pages": 2,
+    "title": "Apex Regulatory Hierarchy: RBI, SEBI, IRDAI & FSDC",
+    "sub": "RBI Act 1934 • SEBI 1992 • IRDAI Hyderabad 1999 • IFSCA GIFT City • FSDC Chair"
+  },
+  {
+    "ch": 15,
+    "start": 46,
+    "end": 48,
+    "pages": 3,
+    "title": "Commercial Banking, Basel III & PCA Framework",
+    "sub": "Indian 11.5% CRAR (8% Tier 1 + 2.5% CCB) • LCR & NSFR • PCA Triggers (NPA ≥ 6%)"
+  },
+  {
+    "ch": 16,
+    "start": 49,
+    "end": 51,
+    "pages": 3,
+    "title": "Differentiated Banking: RRBs & 4-Tier Cooperative Banks",
+    "sub": "RRB 50:15:35 Shareholding • 75% PSL • BR Amendment 2020 • 4-Tier UCB Framework"
+  },
+  {
+    "ch": 17,
+    "start": 52,
+    "end": 54,
+    "pages": 3,
+    "title": "NBFCs Scale-Based Regulation, HFCs & Microfinance (MFIs)",
+    "sub": "SBR (Base, Middle, Upper, Top) • HFCs under RBI • Microfinance 2022 Directions"
+  },
+  {
+    "ch": 18,
+    "start": 55,
+    "end": 58,
+    "pages": 4,
+    "title": "DFIs, NaBFID, Financial Inclusion & Digital Rails (CBDC)",
+    "sub": "NaBFID Act 2021 (₹20,000 Cr Equity) • PMJDY ₹10K OD • FI-Index • NPCI & e-Rupee"
+  },
+  {
+    "ch": 19,
+    "start": 59,
+    "end": 61,
+    "pages": 3,
+    "title": "Money Market Architecture: Call, T-Bills, CP, CD & TREPS",
+    "sub": "Call (1D) vs Notice (2-14D) vs Term • T-Bills (91/182/364D) • CP ₹5L • CD ₹1L"
+  },
+  {
+    "ch": 20,
+    "start": 62,
+    "end": 65,
+    "pages": 4,
+    "title": "Capital Markets, Stock Exchanges, G-Secs & Bond Yields",
+    "sub": "Primary vs Secondary • NSDL/CDSL • Inverse Price-Yield Rule • Modified Duration"
+  },
+  {
+    "ch": 21,
+    "start": 66,
+    "end": 68,
+    "pages": 3,
+    "title": "Financial Derivatives, Forex, FEMA & NRI Accounts",
+    "sub": "Forwards vs Futures • Options Greeks • FEMA 1999 • NRE vs NRO vs FCNR(B) Risk"
+  },
+  {
+    "ch": 22,
+    "start": 69,
+    "end": 73,
+    "pages": 5,
+    "title": "Mutual Funds, AIFs, REITs, Factoring & TReDS",
+    "sub": "NAV Computation • AIF Cat I/II/III • REITs/InvITs • Factoring vs Forfaiting • TReDS"
+  },
+  {
+    "ch": 23,
+    "start": 74,
+    "end": 80,
+    "pages": 7,
+    "title": "Para-Banking, Insurance, Pension (NPS), Leasing & CRAs",
+    "sub": "Bancassurance • Bima Trinity • NPS Tier-I vs Tier-II • CRAs vs CICs (300-900)"
+  },
+  {
+    "ch": 24,
+    "start": 81,
+    "end": 84,
+    "pages": 4,
+    "title": "The Grand Synthesis: IIBF Paper 1 Master Revision Vault",
+    "sub": "23 Chapter Skeletons • 10 Comparison Matrices • 50 Examiner Traps • Active Recall"
+  }
+]

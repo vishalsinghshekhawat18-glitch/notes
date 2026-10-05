@@ -7,14 +7,14 @@
 
 > **EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD**:
 > - **Fact Discipline**: Fully cross-verified against official Reserve Bank of India notifications, Gazette of India releases, NITI Aayog benchmarks, and multilateral indices.
-> - **Structure**: Formatted using the authentic **Rajputana Gazette Broadsheet** layout with ladder bullets and dedicated **🎯 EXAM ANGLE** distractor matrices.
+> - **Structure**: Formatted using the authentic **Rajputana Gazette Broadsheet** layout with ladder bullets and dedicated ****EXAM ANGLE:**** distractor matrices.
 > - **Target Exams**: RBI Grade B, SEBI Grade A, NABARD Grade A, SBI PO & IBPS PO/Clerk Mains 2026.
 
 ---
 
-## 1. 💰 ESI, FINANCE & BUSINESS NEWS
+## 1. ESI, FINANCE & BUSINESS NEWS
 
-📰 [JUL-001] **RBI Monthly Bulletin (July): State of the Economy & RBI-DPI Surge to 445.50**
+[JUL-001] **RBI Monthly Bulletin (July): State of the Economy & RBI-DPI Surge to 445.50**
 
 - **State of the Economy Overview**: Authored by the RBI research team led by Deputy Governor Dr. Michael Debabrata Patra; affirmed India's GDP growth projection at **7.2% for FY25**.
 - **Inflation Trajectory**: Core CPI inflation (excluding food and fuel) settled at a historic low of **3.1%**, while headline CPI was volatile due to vegetable price pressures.
@@ -24,7 +24,7 @@
   - Sub-parameter Weights: Payment Enablers (25%), Payment Infrastructure – Demand side (10%), Payment Infrastructure – Supply side (15%), Payment Performance (**45%**), Consumer Centricity (5%).
 - **Financial Conditions Index (FCI)**: Firmly anchored in the comfortable "easy" liquidity zone, indicating benign sovereign bond yields and smooth corporate credit growth.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - RBI-DPI Base Period: **March 2018 = 100** (a perennial favorite MCQ in bank mains).
 - Highest Sub-parameter Weight: **Payment Performance (45%)**, followed by **Payment Enablers (25%)**.
@@ -32,7 +32,7 @@
 
 ---
 
-📰 [JUL-002] **India's External Debt Reaches \$663.8 Billion; Debt-to-GDP Ratio Declines to 18.7%**
+[JUL-002] **India's External Debt Reaches \$663.8 Billion; Debt-to-GDP Ratio Declines to 18.7%**
 
 - **Headline External Debt**: RBI released data on India's external debt as of end-March 2024, showing total debt stood at **USD 663.8 billion** (an increase of USD 39.7 billion over end-March 2023).
 - **Debt-to-GDP Ratio**: Improved significantly, declining to **18.7%** at end-March 2024 from 19.0% at end-March 2023.
@@ -40,7 +40,7 @@
 - **Currency Composition**: US dollar-denominated debt remained the largest component at **53.8%**, followed by the Indian rupee (**31.5%**), SDR (5.8%), and Japanese yen (5.4%).
 - **Short-Term vs. Long-Term Debt**: Long-term debt (original maturity >1 year) accounted for **81.6%** of total debt; short-term debt was **18.4%**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Debt-to-GDP Ratio: Declined to **18.7%** (do NOT confuse with general government debt of ~82% of GDP).
 - Currency Dominance: US Dollar (**53.8%**) > Indian Rupee (**31.5%**) > SDR (**5.8%**).
@@ -48,7 +48,7 @@
 
 ---
 
-📰 [JUL-003] **FPI Investment Limits in Sovereign Debt & Restoration of Export Realisation Period**
+[JUL-003] **FPI Investment Limits in Sovereign Debt & Restoration of Export Realisation Period**
 
 - **Restoration of Export Realisation Period**: Reserve Bank of India restored the statutory export proceeds realisation and repatriation period to **9 months** from the date of export (rolling back temporary relaxations).
 - **Foreign Portfolio Investor (FPI) Debt Limits**:
@@ -59,7 +59,7 @@
   - Expanded to include designated Government Securities with maturities of **15, 30, and 40 years**.
   - Securities issued under the FAR route carry **no foreign investment limits**, supporting Indian sovereign debt integration into global benchmark indices.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Export Realisation Window: **9 months** from date of export (not 6 or 12 months).
 - Sovereign Debt FPI Caps: **6.0%** in Central G-Secs, **2.0%** in State Development Loans (SDLs).
@@ -67,7 +67,7 @@
 
 ---
 
-📰 [JUL-004] **RBI Financial Inclusion (FI) Index Advances to 64.2 (Zero Base Year Metric)**
+[JUL-004] **RBI Financial Inclusion (FI) Index Advances to 64.2 (Zero Base Year Metric)**
 
 - **Genesis & Scope**: Formally published by the Reserve Bank of India annually in July, the composite Financial Inclusion Index (FI-Index) captures the extent of financial inclusion across the entire country.
 - **Index Trajectory**:
@@ -79,7 +79,7 @@
   3. **Quality (20% weight)**: Assesses financial literacy, consumer protection, grievances, and service inequalities.
 - **Unique Methodological Attribute**: The FI-Index has **no base year**; it operates as a continuous metric bounded between **0 (complete exclusion) and 100 (complete financial inclusion)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Base Period Trap: FI-Index has **NO base year** (do NOT confuse with RBI-DPI which is March 2018 = 100).
 - Pillar Weights: **Usage (45%)** > **Access (35%)** > **Quality (20%)**.
@@ -87,7 +87,7 @@
 
 ---
 
-📰 [JUL-005] **AustralianSuper Invests AU\$500 Million in NIIF; Total India Exposure Reaches AU\$3.3 Billion**
+[JUL-005] **AustralianSuper Invests AU\$500 Million in NIIF; Total India Exposure Reaches AU\$3.3 Billion**
 
 - **Headline Investment Commitment**: AustralianSuper, Australia's largest pension and superannuation fund manager with over AU\$300 billion in assets under management, committed an additional **AU\$500 million (over ₹3,300 crore)** to the National Investment and Infrastructure Fund (NIIF).
 - **Cumulative Sovereign Footprint**: With this tranche, AustralianSuper's cumulative direct and indirect investment in India expanded to **AU\$3.3 billion (~₹18,500 crore)**, making it one of the largest foreign institutional investors in Indian infrastructure.
@@ -97,7 +97,7 @@
   - **Operational Focus**: Channeling institutional patient capital into green energy, expressways, ports, airports, logistics, and digital telecom infrastructure.
   - **Leadership**: Headquartered in Mumbai; led by Sanjiv Aggarwal (MD & CEO).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Capital Outlay: AustralianSuper committed **AU\$500 million (over ₹3,300 Cr)** to NIIF.
 - Total Exposure: AustralianSuper's aggregate India portfolio reaches **AU\$3.3 billion**.
@@ -106,7 +106,7 @@
 
 ---
 
-📰 [JUL-006] **NPCI Partners with HSBC India & JP Morgan Payments for Real-Time FX Conversion in Cross-Border UPI**
+[JUL-006] **NPCI Partners with HSBC India & JP Morgan Payments for Real-Time FX Conversion in Cross-Border UPI**
 
 - **Cross-Border FX Settlement Architecture**: National Payments Corporation of India (NPCI) forged strategic infrastructure partnerships with **HSBC India** and **JP Morgan Payments** to integrate dynamic, live-market foreign exchange conversion directly into cross-border UPI transactions.
 - **Technical Mechanism & API Integration**:
@@ -115,7 +115,7 @@
   - **Unified Agent Protocol (UAP)**: NPCI concurrently initiated development of the Unified Agent Protocol (UAP), an interoperable standard enabling autonomous agentic AI models to execute pre-authorized UPI transactions within user-defined security parameters.
 - **Consumer Transparency Mandate**: Eliminates outdated end-of-day markups and opaque foreign currency conversion fees by showing the exact INR deduction before authorization.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Lead Banking Partners: **HSBC India** (real-time FX rates) and **JP Morgan Payments** (clearing and settlement).
 - Protocol Innovation: NPCI's **Unified Agent Protocol (UAP)** designed to govern Agentic AI-driven automated micro-transactions.
@@ -123,7 +123,7 @@
 
 ---
 
-📰 [JUL-007] **RBI Master Circular on Special Rupee Vostro Accounts (SRVA) for Cross-Border Trade Settlement**
+[JUL-007] **RBI Master Circular on Special Rupee Vostro Accounts (SRVA) for Cross-Border Trade Settlement**
 
 - **Consolidated Regulatory Architecture**: Reserve Bank of India issued a comprehensive Master Circular consolidating all directions governing **Special Rupee Vostro Accounts (SRVA)** issued between 2022 and 2025 under the Foreign Exchange Management Act, 1999 (FEMA).
 - **Core Operational Directives**:
@@ -133,7 +133,7 @@
   - **Settlement Process**: Indian importers making payments through this mechanism credit the invoice amount in INR into the SRVA of the correspondent overseas bank against bills of lading; Indian exporters are paid directly in INR from the balances in the SRVA.
   - **Surplus Rupee Balance Deployment**: Overseas banks holding surplus INR balances in SRVAs are permitted to invest funds in **Government Treasury Bills (T-Bills)**, sovereign G-Secs, and designated local bank deposits.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Account Type: **Special Rupee Vostro Account (SRVA)** allows foreign correspondent banks to hold INR balances in Indian AD banks.
 - Currency Mandate: Trade invoices must be denominated in **Indian Rupees (INR)**.
@@ -142,9 +142,9 @@
 
 ---
 
-## 2. 🏛️ REGULATORY BODIES NEWS
+## 2. ️ REGULATORY BODIES NEWS
 
-📰 [JUL-008] **RBI Master Direction — Treatment of Wilful Defaulters and Large Defaulters (July 30)**
+[JUL-008] **RBI Master Direction — Treatment of Wilful Defaulters and Large Defaulters (July 30)**
 
 - **Scope & Applicability**: Applicable to all Scheduled Commercial Banks (incl. RRBs), All-India Financial Institutions (NABARD, EXIM, SIDBI, NHB), NBFCs, and Co-operative Banks.
 - **Categorization Thresholds**:
@@ -159,7 +159,7 @@
   - **Corporate Bar**: Debarred from floating new ventures for 5 years and disqualified from serving as a Director on any corporate board under Section 164(2) of the Companies Act.
   - **Compromise Settlement Restriction**: No compromise or one-time settlement (OTS) allowed unless a mandatory cooling-off period of **12 months** has elapsed.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Threshold Trap: Wilful Defaulter = **₹25 lakh and above**; Large Defaulter = **₹1 crore and above** (classic IBPS/RBI trap).
 - Timeline Trap: Lender must initiate wilful default examination within **6 months of NPA classification** (not 1 year).
@@ -167,7 +167,7 @@
 
 ---
 
-📰 [JUL-009] **RBI Master Directions on Fraud Risk Management in Regulated Entities (July 15)**
+[JUL-009] **RBI Master Directions on Fraud Risk Management in Regulated Entities (July 15)**
 
 - **Scope**: Replaced the legacy 2016 framework; issued across three distinct directions for Commercial Banks (incl. RRBs), Co-operative Banks, and NBFCs.
 - **Compliance with Supreme Court Mandate (*SBI vs. Rajesh Agarwal, 2023*)**:
@@ -181,7 +181,7 @@
   - Mandatory reporting to Law Enforcement Agencies (State Police / CBI) based on threshold: Frauds >₹3 crore by private/foreign banks to CBI/SFIO; PSU banks follow CVC guidelines.
 - **Early Warning Signals (EWS)**: Mandatory implementation of 42 EWS indicators for all borrower credit exposures of **₹50 crore and above**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Landmark Precedent: Rooted in the Supreme Court judgment *State Bank of India & Ors. vs. Rajesh Agarwal & Ors.*
 - Notice Window: Minimum **21 days** given to the borrower to reply to SCN before fraud classification.
@@ -190,7 +190,7 @@
 
 ---
 
-📰 [JUL-010] **RBI expands Liberalised Remittance Scheme (LRS) to IFSCs in GIFT City (July 10)**
+[JUL-010] **RBI expands Liberalised Remittance Scheme (LRS) to IFSCs in GIFT City (July 10)**
 
 - **Policy Shift**: Authorized Dealer (AD Category-I) banks are permitted to facilitate remittances by resident individuals to International Financial Services Centres (IFSCs) at GIFT City, Gandhinagar, under the **Liberalised Remittance Scheme (LRS)**.
 - **Annual Ceilings**: Retains the standard LRS cap of **USD 250,000 per financial year** (April–March) for permissible capital and current account transactions.
@@ -200,7 +200,7 @@
   - **Financial Products & Services**: Subscriptions to mutual funds, alternative investment funds (AIFs), insurance products, and debt securities issued by entities registered in GIFT City.
 - **Key Prohibition**: Remittances to IFSCs cannot be used for speculative trading, gambling, or round-tripping of capital.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Remittance Limit: Retains the statutory LRS ceiling of **USD 250,000 per financial year**.
 - New Permissible Area: Tuition/living expenses for foreign universities located directly inside GIFT City IFSC.
@@ -208,7 +208,7 @@
 
 ---
 
-📰 [JUL-011] **RBI Prompt Corrective Action (PCA) Framework for Urban Co-operative Banks (UCBs)**
+[JUL-011] **RBI Prompt Corrective Action (PCA) Framework for Urban Co-operative Banks (UCBs)**
 
 - **Regulatory Reach**: Extended to all Primary (Urban) Co-operative Banks categorized under **Tier 3 (deposits ₹100 crore to ₹1,000 crore)** and **Tier 4 (deposits >₹1,000 crore)**.
 - **Three Core Financial Health Indicators**:
@@ -220,7 +220,7 @@
   - **Risk Threshold 2**: Complete ban on opening new branches, expansion of business lines, and restriction on capital expenditure.
   - **Risk Threshold 3**: Discretionary RBI powers to supersede the Board of Directors, enforce amalgamation/merger, or cancel banking license.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Tier Applicability: Applicable only to **Tier 3 and Tier 4 UCBs** (deposits exceeding ₹100 crore); Tier 1 and Tier 2 UCBs are excluded.
 - Net NPA Trigger: Net NPA crossing **6.0%** triggers PCA.
@@ -228,7 +228,7 @@
 
 ---
 
-📰 [JUL-012] **RBI Revised Framework on Domestic Money Transfer (DMT) & Cash KYC (July 24)**
+[JUL-012] **RBI Revised Framework on Domestic Money Transfer (DMT) & Cash KYC (July 24)**
 
 - **Context**: Comprehensive overhaul of domestic cash transfers through Business Correspondents (BCs), digital wallets, and prepaid payment instruments (PPIs) to curb illicit financial flows and mule accounts.
 - **Mandatory Remitter Identification**:
@@ -239,14 +239,14 @@
   - Single cash transaction capped at **₹5,000** for non-KYC walk-in customers at BC outlets.
 - **Beneficiary Verification**: Banks must include remitter identification details in the payment message (IMPS/NEFT/UPI) sent to the destination beneficiary bank to ensure end-to-end auditability.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Monthly Cash Limit: ₹50,000 per remitter per month.
 - Core Regulatory Mandate: Mandatory remitter mobile OTP verification and OVD registration for all cash remittances at BC points.
 
 ---
 
-📰 [JUL-013] **RBI Directives on Dividend Declaration by Commercial Banks**
+[JUL-013] **RBI Directives on Dividend Declaration by Commercial Banks**
 
 - **Prudential Standards**: Revised framework specifying parameters commercial banks must satisfy to declare dividends on equity shares or remit profits (in the case of foreign bank branches).
 - **Three Minimum Pre-requisites**:
@@ -258,7 +258,7 @@
   - Net NPA between 0% and 1%: Maximum Dividend Payout Ratio is **40%**.
   - Net NPA between 5% and 6%: Maximum Dividend Payout Ratio is **10%**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Net NPA Ceiling: Must be **<6%** to be eligible for any dividend payout.
 - Minimum CRAR: Must be at least **11.5%** for preceding 3 consecutive years.
@@ -266,7 +266,7 @@
 
 ---
 
-📰 [JUL-014] **Trade Receivables Discounting System (TReDS) & Mandatory CERSAI Registration**
+[JUL-014] **Trade Receivables Discounting System (TReDS) & Mandatory CERSAI Registration**
 
 - **Statutory Framework**: Governed under the Payment and Settlement Systems Act, 2007, and the Factoring Regulation Act, 2011, providing non-recourse digital discounting of MSME trade receivables.
 - **Mandatory CERSAI Registration**:
@@ -281,7 +281,7 @@
 - **Net Worth Mandate**: Existing RBI-authorized TReDS operators must meet the statutory minimum net worth requirement of **₹25 crore** by **March 31, 2027**.
 - **Eligible Participants**: Buyers (corporates, CPSEs, government departments), Sellers (MSMEs), and Financiers (banks, NBFC factors).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Fraud Prevention: Mandatory registration with **CERSAI** eliminates duplicate invoice financing.
 - First TReDS Platform: **RXIL** (commenced operations in 2016; NSE + SIDBI JV).
@@ -290,7 +290,7 @@
 
 ---
 
-📰 [JUL-015] **RBI Recognition of Sahamati Foundation as SRO for Account Aggregator Ecosystem**
+[JUL-015] **RBI Recognition of Sahamati Foundation as SRO for Account Aggregator Ecosystem**
 
 - **Regulatory Milestone**: Under the Omnibus Framework for Self-Regulatory Organisations (SROs), Reserve Bank of India granted formal recognition to the **Sahamati Foundation** as the official SRO for the **Account Aggregator (AA)** ecosystem.
 - **Institutional Structure**:
@@ -301,7 +301,7 @@
   - **Ownership Ceiling**: No single member entity is permitted to hold more than **10%** of the voting paid-up equity share capital to ensure neutral governance.
   - **Net Worth Band**: Prescribed minimum net worth between **₹2 crore to ₹10 crore** depending on operational scale.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Designated SRO: **Sahamati Foundation** for the Account Aggregator network.
 - Portal for SRO Applications: RBI's **PRAVAAH Portal**.
@@ -309,7 +309,7 @@
 
 ---
 
-📰 [JUL-016] **SEBI Depository Investor Protection Fund (IPF) Norms: Operational Expense Utilization Capped at 5%**
+[JUL-016] **SEBI Depository Investor Protection Fund (IPF) Norms: Operational Expense Utilization Capped at 5%**
 
 - **Regulatory Framework & Effective Date**: Securities and Exchange Board of India (SEBI) amended norms governing Investor Protection Funds (IPF) maintained by depositories (NSDL and CDSL), permitting depositories to utilize **up to 5% of annual interest or income** earned from the IPF corpus for administrative and operational expenses, effective **September 2026**.
 - **Eligible Operating Outlays**:
@@ -320,7 +320,7 @@
   - In case administrative expenses exceed the 5% threshold, the deficit must be absorbed entirely by the depository from its own corporate balance sheet, not from the IPF principal.
   - Unutilized portions of the 5% allowance cannot be carried forward as profit and must revert to the corpus.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Permitted Expense Cap: Maximum **5% of annual interest/income** from the IPF corpus (not 5% of the total corpus).
 - Mandatory Replenishment: At least **95% of annual income** must be added back into the principal fund.
@@ -328,7 +328,7 @@
 
 ---
 
-📰 [JUL-017] **SEBI Reintroduces Open-Market Share Buybacks via Stock Exchanges; Freezes Promoter ISINs**
+[JUL-017] **SEBI Reintroduces Open-Market Share Buybacks via Stock Exchanges; Freezes Promoter ISINs**
 
 - **Policy Reversal & Streamlining**: SEBI formally reintroduced corporate share buybacks conducted through the secondary stock exchange trading window, effective **August 1, 2026**.
 - **Core Prudential Parameters**:
@@ -338,7 +338,7 @@
   - **Merchant Banker Option**: Appointment of a merchant banker for open-market buybacks is made optional, placing direct compliance accountability on the corporate board.
   - **Minimum Public Shareholding (MPS)**: Companies are strictly prohibited from announcing buyback volumes that would reduce post-offer public shareholding below the statutory **25% MPS threshold**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Open-Market Buyback Cap: Strictly **less than 15%** of paid-up capital and free reserves.
 - Execution Timeline: Opens within **4 working days** and closes within **66 working days** (earlier 6 months).
@@ -347,7 +347,7 @@
 
 ---
 
-📰 [JUL-018] **SEBI Comprehensive Employee Code of Conduct: Mandatory Divestment of Non-Permitted Equities**
+[JUL-018] **SEBI Comprehensive Employee Code of Conduct: Mandatory Divestment of Non-Permitted Equities**
 
 - **Governance & Conflict-of-Interest Overhaul**: SEBI notified a stringent, revised employee Code of Conduct requiring all whole-time officers and staff members to immediately disclose, freeze, or systematically divest holdings in non-permitted securities.
 - **Divestment & Disclosure Mandates**:
@@ -356,7 +356,7 @@
   - **Mandatory Reporting Windows**: Staff must report professional interests held over the preceding 3 years, disclose gifts exceeding **₹50,000**, and report any negotiations for future employment with regulated entities within **30 days**.
   - **Cooling-Off Period**: Prescribed a mandatory **2-year cooling-off period** for former SEBI officers before they can represent private clients or appear before the Board.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Mandatory Cooling-Off: **2 years** for former employees before appearing before SEBI.
 - Gift Reporting Threshold: Any gift valued above **₹50,000** must be officially declared.
@@ -364,7 +364,7 @@
 
 ---
 
-📰 [JUL-019] **SEBI Authorises Intraday Borrowing Window for Mutual Funds to Bridge Same-Day Settlement Gaps**
+[JUL-019] **SEBI Authorises Intraday Borrowing Window for Mutual Funds to Bridge Same-Day Settlement Gaps**
 
 - **Liquidity Management Relaxation**: SEBI permitted Asset Management Companies (AMCs) to access intraday borrowing credit lines to resolve temporary same-day cash flow mismatches arising from lumpy redemption pressures and delayed banking settlement legs.
 - **Operational Boundaries**:
@@ -373,7 +373,7 @@
   - **Zero Cost Transfer to Unit-Holders**: Unit-holders cannot be charged for intraday facility expenses; any interest cost, commitment fee, or losses resulting from delays in receiving anticipated funds must be borne **exclusively by the AMC**, not the scheme.
   - **Board Governance**: AMCs must formulate an independent Board-approved policy on intraday credit limits and publish the operational architecture on their official portals.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Repayment Mandate: Intraday borrowings must be repaid **before the end of the same trading day**.
 - Expense Liability: Costs must be absorbed **100% by the AMC** (zero cost transfer to mutual fund unit-holders).
@@ -381,7 +381,7 @@
 
 ---
 
-📰 [JUL-020] **Delhi High Court Orders Liquidation of Paytm Payments Bank; Appoints Official Liquidator**
+[JUL-020] **Delhi High Court Orders Liquidation of Paytm Payments Bank; Appoints Official Liquidator**
 
 - **Judicial Liquidation Order**: On **July 8, 2026** (supplemented by directions on July 22), the Delhi High Court officially admitted a winding-up petition against **Paytm Payments Bank Limited (PPBL)** and appointed **Shri Girikumar M. Nair (former Chief General Manager, State Bank of India)** as the Official Liquidator.
 - **Statutory Enforcement Background**:
@@ -392,7 +392,7 @@
   - Operational Rules: Minimum paid-up capital of ₹100 crore; demand deposits capped at **₹2,00,000 per individual customer**; permitted to issue debit cards but **strictly prohibited from lending, issuing credit cards, or accepting time deposits**.
   - Active Surviving Entities: Airtel Payments Bank (first to launch, 2016), India Post Payments Bank (IPPB), Fino Payments Bank, Jio Payments Bank, and NSDL Payments Bank.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Statutory Power: Banking licence cancelled under **Section 22(4) of Banking Regulation Act 1949**.
 - Committee Genesis: Payment Banks conceptualized by the **Nachiket Mor Committee (2013)**.
@@ -401,30 +401,30 @@
 
 ---
 
-## 3. 🏦 BANKING & INSURANCE NEWS
+## 3. BANKING & INSURANCE NEWS
 
-📰 [JUL-021] **State Bank of India raises ₹10,000 Crore via 15-Year Infrastructure Bonds**
+[JUL-021] **State Bank of India raises ₹10,000 Crore via 15-Year Infrastructure Bonds**
 
 - **Mega Debt Issuance**: State Bank of India (SBI) concluded the issuance of its fifth tranche of infrastructure bonds, raising **₹10,000 crore** at a coupon rate of **7.36%**.
 - **Tenor & Pricing**: 15-year tenor; priced tightly at 21 basis points over the corresponding Government of India (G-Sec) benchmark security yield.
 - **Statutory Regulatory Relief**: Funds raised through long-term infrastructure bonds are **exempt from regulatory reserve requirements** (no CRR or SLR obligations apply), and 100% of proceeds are channeled directly into infrastructure and affordable housing lending.
 - **Cumulative Record**: With this issuance, SBI's total long-term infrastructure bond book crossed **₹50,000 crore**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Regulatory Exemption: Infrastructure bonds are completely exempt from Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR) requirements.
 - Issue Quantum & Tenor: ₹10,000 Crore; 15-year maturity at 7.36% coupon.
 
 ---
 
-📰 [JUL-022] **NABARD Celebrates 43rd Foundation Day (July 12)**
+[JUL-022] **NABARD Celebrates 43rd Foundation Day (July 12)**
 
 - **Milestone Celebration**: National Bank for Agriculture and Rural Development (NABARD) observed its **43rd Foundation Day** on July 12, 2024.
 - **Historical Genesis**: Established on **July 12, 1982**, under Act 61 of 1981, upon the strategic recommendations of the **B. Sivaraman Committee** (Committee to Review Arrangements For Institutional Credit for Agriculture and Rural Development - CRAFICARD).
 - **Core Remit**: Apex development bank providing refinance to State Co-operative Banks, RRBs, and commercial banks for agriculture, MSMEs, and rural infrastructure through the Rural Infrastructure Development Fund (RIDF).
 - **Headquarters**: Mumbai, Maharashtra.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Established Date: **12 July 1982** under NABARD Act, 1981.
 - Recommending Committee: **B. Sivaraman Committee (CRAFICARD)**.
@@ -432,7 +432,7 @@
 
 ---
 
-📰 [JUL-023] **Payment System Metrics: The Great Credit vs. Debit Card Divergence**
+[JUL-023] **Payment System Metrics: The Great Credit vs. Debit Card Divergence**
 
 - **Debit Card Volume & Value Contraction**:
   - Debit card transaction volume collapsed precipitously from **408.7 crore to 133.6 crore** transactions.
@@ -446,7 +446,7 @@
   - **Public Sector Banks (PSBs)**: Maintained a steady footprint between **23.5% and 23.9%** (anchored by SBI Cards).
   - **Foreign Banks**: Footprint contracted sharply from **9.3% down to 3.8%** following multinational retail banking portfolio sales.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Contraction Root Cause: Debit card drop is driven by **UPI adoption** (not ATM closures or regulatory bans).
 - Market Dominance: Private sector banks issue **71.1%** of credit cards; Foreign banks declined to **3.8%**.
@@ -454,7 +454,7 @@
 
 ---
 
-📰 [JUL-024] **Small Savings Schemes (SSS) Interest Rates — Q2 FY 2024–25 (July–September)**
+[JUL-024] **Small Savings Schemes (SSS) Interest Rates — Q2 FY 2024–25 (July–September)**
 
 - **Fixing Mechanism**: Administered by the Department of Economic Affairs (DEA), Ministry of Finance, reviewed quarterly based on the **Shyamala Gopinath Committee (2011)** formula benchmarked against secondary market government security yields.
 - **Roster of Core Scheme Rates**:
@@ -467,7 +467,7 @@
   - **Public Provident Fund (PPF)**: **7.1%** (annual deposit ceiling ₹1.5 lakh; sovereign EEE tax exemption status).
   - **Post Office Savings Account (POSA)**: **4.0%**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Highest Interest Rate: **8.2%** for Sukanya Samriddhi (SSAS) and Senior Citizens (SCSS).
 - KVP Doubling Maturity: **115 months** (9 years and 7 months).
@@ -476,7 +476,7 @@
 
 ---
 
-📰 [JUL-025] **RBI Prohibits Bank SMS Alert Charges for Compliance & Promos; Makes Alerts Below ₹500 Optional**
+[JUL-025] **RBI Prohibits Bank SMS Alert Charges for Compliance & Promos; Makes Alerts Below ₹500 Optional**
 
 - **Customer Protection Directive**: Reserve Bank of India directed all Scheduled Commercial Banks, Payment Banks, and Small Finance Banks to immediately cease levying quarterly SMS alert fees on account holders for mandatory compliance notices, financial literacy alerts, or promotional broadcasts.
 - **Industry Financial Impact**:
@@ -486,7 +486,7 @@
   - To prevent unnecessary notification spam and reduce telecom transmission expenses, RBI clarified that automated transactional SMS alerts for debit transactions valued at **₹500 or less are now optional** (at the bank's discretion or customer opt-in).
   - High-value debit transaction notifications, critical OTPs, and unauthorized debit warning prompts remain mandatory and must be delivered free of charge.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Prohibited Fee: Levying quarterly charges for regulatory, awareness, and promotional SMS messages.
 - Discretionary Alert Ceiling: Transactional SMS alerts for amounts **≤ ₹500** are made optional.
@@ -494,9 +494,9 @@
 
 ---
 
-## 4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS
+## 4. NATIONAL, STATE & INTERNATIONAL NEWS
 
-📰 [JUL-026] **Historic Legal Transition: Three New Criminal Laws Enacted Nationwide (July 1)**
+[JUL-026] **Historic Legal Transition: Three New Criminal Laws Enacted Nationwide (July 1)**
 
 - **Enforcement Date**: Three transformative criminal law statutes came into full legal effect across India on **July 1, 2024**, completely repealing and replacing British colonial-era penal codes:
   1. **Bharatiya Nyaya Sanhita, 2023 (BNS)**: Replaced the Indian Penal Code, 1860 (IPC).
@@ -508,7 +508,7 @@
   - Mandatory audio-video recording of search and seizure operations, and mandatory forensic investigation for offences punishable by **7 years or more**.
   - Introduction of **Community Service** as a recognized formal penal punishment for minor offences.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Enforcement Date: **July 1, 2024** (not Jan 1 or April 1).
 - Statutory Cross-Mapping: BNS = IPC; BNSS = CrPC; BSA = Evidence Act.
@@ -516,13 +516,13 @@
 
 ---
 
-📰 [JUL-027] **Union Cabinet approves ₹76,220 Crore Mega Major Port at Vadhavan, Maharashtra**
+[JUL-027] **Union Cabinet approves ₹76,220 Crore Mega Major Port at Vadhavan, Maharashtra**
 
 - **Sovereign Infrastructure Push**: Union Cabinet approved the development of a greenfield all-weather deep-water Major Port at **Vadhavan near Dahanu in Palghar district, Maharashtra**.
 - **Financial Outlay**: Total estimated project cost is **₹76,220 crore**, developed by Vadhavan Port Project Limited (VPPL) — an SPV between Jawaharlal Nehru Port Authority (JNPA, 74%) and Maharashtra Maritime Board (MMB, 26%).
 - **Top 10 Global Target**: Designed with a natural draft of **20 meters**, capable of handling the world's largest container mega-vessels (up to 24,000 TEUs); target cumulative capacity of **298 million metric tonnes (MMT)** per annum, propelling India into the Top 10 container ports globally.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Location & District: Vadhavan, Palghar district, Maharashtra.
 - Total Outlay: ₹76,220 crore.
@@ -530,7 +530,7 @@
 
 ---
 
-📰 [JUL-028] **Public Examinations (Prevention of Unfair Means) Act & Implementing Rules Enacted**
+[JUL-028] **Public Examinations (Prevention of Unfair Means) Act & Implementing Rules Enacted**
 
 - **Statutory Enforcement**: Ministry of Personnel, Public Grievances and Pensions operationalized the **Public Examinations (Prevention of Unfair Means) Act, 2024** and notified its comprehensive implementing rules nationwide.
 - **Examinations & Bodies Covered**:
@@ -541,7 +541,7 @@
   - **Service Provider Penalty**: Examination conducting agencies/service providers found complicit face recovery of full examination costs and a complete bar from conducting public examinations for **4 years**.
   - **Legal Character**: All offences under the statute are non-bailable, cognizable, and non-compoundable.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Banking Exam Coverage: Explicitly governs **IBPS** examinations alongside UPSC, SSC, and NTA.
 - Organized Syndicate Penalties: Minimum fine of **₹1 Crore**; 5 to 10 years imprisonment.
@@ -549,7 +549,7 @@
 
 ---
 
-📰 [JUL-029] **Andhra Pradesh Launches 'Pillale Sampada' Demographic Policy; Ladakh Notifies 25% Pashmina Production Incentive**
+[JUL-029] **Andhra Pradesh Launches 'Pillale Sampada' Demographic Policy; Ladakh Notifies 25% Pashmina Production Incentive**
 
 - **Andhra Pradesh 'Pillale Sampada' (Children are Wealth) Paradigm Shift**:
   - Chief Minister N. Chandrababu Naidu officially announced a pivot from population control to **population conservation and demographic renewal** on World Population Day (July 11) in Vijayawada.
@@ -560,7 +560,7 @@
   - Sanctioned an **₹8 crore dedicated revolving fund** for the All Changthang Pashmina Growers Cooperative Marketing Society Ltd.
   - Pastoral Context: Pashmina is derived exclusively from the undercoat fleece of the indigenous **Changthangi (Capra hircus) goat**, reared at altitudes above 14,000 feet in eastern Ladakh.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Andhra Initiative: **Pillale Sampada** focuses on demographic conservation; Talliki Vandanam provides **₹15,000 per child**.
 - Ladakh Pashmina Top-up: **25% procurement incentive** delivered via Direct Benefit Transfer.
@@ -568,7 +568,7 @@
 
 ---
 
-📰 [JUL-030] **Geographical Indication (GI) Registrations: West Bengal Sweets & Boats, Gujarat Unjha Spices, Rajasthan Jodhpuri Mojari**
+[JUL-030] **Geographical Indication (GI) Registrations: West Bengal Sweets & Boats, Gujarat Unjha Spices, Rajasthan Jodhpuri Mojari**
 
 - **Tripartite Regional GI Accords**: Geographical Indications Registry (Chennai) under DPIIT (Ministry of Commerce and Industry) granted statutory GI protection under the **Geographical Indications of Goods (Registration and Protection) Act, 1999** across three major states:
   - **West Bengal (Triple Inscription)**:
@@ -581,7 +581,7 @@
     - 200-year-old handcrafted traditional leather footwear crafted by artisans in Jodhpur utilizing vegetable-tanned leather and intricate silk-thread embroidery.
 - **Statutory Framework**: GI tags are valid for a duration of **10 years**, renewable indefinitely upon payment of statutory renewal fees.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Law: **Geographical Indications of Goods Act, 1999** (administered by GI Registry, Chennai under DPIIT).
 - Validity Period: **10 years** (renewable).
@@ -589,9 +589,9 @@
 
 ---
 
-## 6. 🔬 SCIENCE, TECHNOLOGY, DEFENCE & SPORTS
+## 6. SCIENCE, TECHNOLOGY, DEFENCE & SPORTS
 
-📰 [JUL-031] **CSIR-IICT Develops India's First Indigenous HFO-1234yf Green Refrigerant & Smart Algal Liquid Tree (SALT)**
+[JUL-031] **CSIR-IICT Develops India's First Indigenous HFO-1234yf Green Refrigerant & Smart Algal Liquid Tree (SALT)**
 
 - **Breakthrough Clean Refrigerant Synthesis**: CSIR–Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad, successfully synthesized India's first fully indigenous process technology for **Hydrofluoroolefin-1234yf (HFO-1234yf)**.
   - **Environmental Profile**: Zero Ozone Depletion Potential (ODP) and an ultra-low Global Warming Potential (**GWP < 1**), engineered to replace hydrofluorocarbons (HFC-134a, which has a GWP of 1,430) in automotive air-conditioning and industrial chillers.
@@ -600,7 +600,7 @@
   - Developed by CSIR–Central Institute of Mining and Fuel Research (CSIR-CIMFR), Dhanbad.
   - Utilizes concentrated microalgae cultures in a mobile photobioreactor column to absorb carbon dioxide ($CO_2$) and discharge pure oxygen at rates equivalent to 10–20 mature urban trees; deployed at CIMFR Dhanbad and Northern Coalfields Limited (NCL) Singrauli.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Green Chemical: **HFO-1234yf** developed by **CSIR-IICT Hyderabad** with Global Warming Potential **GWP < 1**.
 - International Treaty: Replaces HFCs pursuant to the **Kigali Amendment to the Montreal Protocol**.
@@ -608,7 +608,7 @@
 
 ---
 
-📰 [JUL-032] **Indian Navy Commissions Guided-Missile Stealth Frigate INS Mahendragiri (Project 17A Nilgiri-Class)**
+[JUL-032] **Indian Navy Commissions Guided-Missile Stealth Frigate INS Mahendragiri (Project 17A Nilgiri-Class)**
 
 - **Warship Commissioning Milestone**: Indian Navy commissioned **INS Mahendragiri** at Mumbai on **July 11, 2026**, marking the operational induction of the **seventh and final Nilgiri-class stealth guided-missile frigate** under **Project 17A**.
 - **Shipbuilding & Indigenous Pedigree**:
@@ -619,7 +619,7 @@
   - Fitted with supersonic **BrahMos anti-ship cruise missiles** and **Barak-8 / LRSAM (Long Range Surface-to-Air Missiles)** developed jointly with Israel Aerospace Industries (IAI).
   - Equipped with the indigenous **MF-STAR (Multi-Function Surveillance, Track and Missile Guidance Radar)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Final Frigate: **INS Mahendragiri** is the 7th and final warship under **Project 17A (Nilgiri-class)**.
 - Shipbuilder: Constructed by **Mazagon Dock Shipbuilders Limited (MDL)** in Mumbai.
@@ -628,7 +628,7 @@
 
 ---
 
-📰 [JUL-033] **Novo Nordisk Launches World's First Once-Weekly Basal Insulin 'Awiqli' (Insulin Icodec) in India**
+[JUL-033] **Novo Nordisk Launches World's First Once-Weekly Basal Insulin 'Awiqli' (Insulin Icodec) in India**
 
 - **Therapeutic Innovation in Endocrinology**: Pharmaceutical major Novo Nordisk received Central Drugs Standard Control Organisation (CDSCO) marketing authorization to commercialize **Awiqli (Insulin Icodec)** in India.
 - **Clinical Paradigm Shift**:
@@ -636,7 +636,7 @@
   - **Injection Burden Compression**: Slashes the requisite basal insulin injection frequency from **365 subcutaneous daily injections per year down to just 52 weekly injections per year**.
   - **Pharmacokinetics**: Features a multi-day extended half-life achieved through strong, reversible albumin binding, delivering steady basal glycemic control over a full 7-day therapeutic window via a single pen injection.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Brand & Molecule: **Awiqli (Insulin Icodec)** manufactured by Novo Nordisk.
 - Dosing Innovation: **Once-weekly basal insulin** (52 annual injections vs. traditional 365 daily injections).
@@ -644,9 +644,9 @@
 
 ---
 
-## 7. 🏆 AWARDS, BOOKS, INDICES & RANKINGS
+## 7. AWARDS, BOOKS, INDICES & RANKINGS
 
-📰 [JUL-034] **NITI Aayog SDG India Index 2023–24 (4th Edition): Composite Score Advances to 67**
+[JUL-034] **NITI Aayog SDG India Index 2023–24 (4th Edition): Composite Score Advances to 67**
 
 - **National Progress**: NITI Aayog released the 4th edition of the **SDG India Index 2023–24**, tracking progress across all 16 Sustainable Development Goals.
 - **Composite Score Improvement**: India's overall composite SDG score surged to **67** (up from 66 in 2020–21 and 57 in 2018), driven by massive progress in Goal 1 (No Poverty), Goal 7 (Affordable & Clean Energy), Goal 11 (Sustainable Cities), and Goal 13 (Climate Action).
@@ -656,7 +656,7 @@
 - **Union Territory Performance**: **Chandigarh** ranked 1st among UTs with a score of 91, followed by Jammu & Kashmir (74).
 - **Categorization Criteria**: Aspirant (0–49), Performer (50–64), Front Runner (65–99), Achiever (100). All states are now either Performers or Front Runners (zero states in Aspirant).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Composite Score: **67** for India as a whole.
 - Top States: **Uttarakhand and Kerala** (tie at 79 score).
@@ -665,7 +665,7 @@
 
 ---
 
-📰 [JUL-035] **Global Peace Index 2024 (Institute for Economics & Peace): India Ranked 116th**
+[JUL-035] **Global Peace Index 2024 (Institute for Economics & Peace): India Ranked 116th**
 
 - **Annual Benchmark**: 18th edition of the **Global Peace Index (GPI 2024)** published by international think-tank Institute for Economics & Peace (IEP, Sydney).
 - **India's Standing**: India ranked **116th out of 163 countries** with an overall score of 2.319 (improved by 10 positions from 126th in 2023).
@@ -673,7 +673,7 @@
   - **Most Peaceful Country**: **Iceland** (ranked 1st globally since 2008), followed by Ireland (2nd), Austria (3rd), and New Zealand (4th).
   - **Least Peaceful Country**: **Yemen (163rd)**, replacing Afghanistan, followed by Sudan (162nd) and South Sudan (161st).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India's Rank: **116th** (out of 163 countries).
 - Most Peaceful: **Iceland** (holds position since 2008).
@@ -681,7 +681,7 @@
 
 ---
 
-📰 [JUL-036] **Global Liveability Index 2024 (Economist Intelligence Unit — EIU)**
+[JUL-036] **Global Liveability Index 2024 (Economist Intelligence Unit — EIU)**
 
 - **Methodology & Scope**: Annual index compiled by the Economist Intelligence Unit (EIU, London), evaluating 173 world cities across 5 core pillars: Stability, Healthcare, Culture & Environment, Education, and Infrastructure.
 - **Top Ranked Liveable Cities Globally**:
@@ -694,7 +694,7 @@
   - Highest ranked in India: **New Delhi and Mumbai** (tied at **140th rank**).
   - Followed by Bengaluru (146th), Ahmedabad (147th), and Chennai (148th).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - #1 Most Liveable City: **Vienna, Austria** (retains title for 3 consecutive years).
 - Bottom City: **Damascus, Syria** (173rd rank).
@@ -702,7 +702,7 @@
 
 ---
 
-📰 [JUL-037] **The State of Food Security and Nutrition in the World (SOFI) Report**
+[JUL-037] **The State of Food Security and Nutrition in the World (SOFI) Report**
 
 - **Multilateral Authorship**: Jointly produced by five United Nations agencies: Food and Agriculture Organization (**FAO** — lead), IFAD, UNICEF, WFP, and WHO.
 - **Core Theme**: *"Financing to end hunger, food insecurity and all forms of malnutrition"*.
@@ -713,7 +713,7 @@
   - Over **2.8 billion people** worldwide (over one-third of the global population) were unable to afford a healthy diet.
   - In India, an estimated 55.6% of the population faces financial barriers to affording nutrient-rich diets.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Lead UN Agency: **Food and Agriculture Organization (FAO)**.
 - Global Hunger Count: **733 million people** (1 in 11 globally).
@@ -721,7 +721,7 @@
 
 ---
 
-📰 [JUL-038] **Sustainable Development Report 2024 (SDR) — UN SDSN**
+[JUL-038] **Sustainable Development Report 2024 (SDR) — UN SDSN**
 
 - **Publishing Authority**: Published by the United Nations Sustainable Development Solutions Network (SDSN), prepared under the leadership of Prof. Jeffrey Sachs, tracking the performance of all UN member states toward the 17 Sustainable Development Goals.
 - **India's Global Position**:
@@ -732,7 +732,7 @@
   - **2nd Rank**: Sweden; **3rd Rank**: Denmark; **4th Rank**: Germany; **5th Rank**: France.
   - **Lowest Ranked**: South Sudan (167th) and Central African Republic (166th).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India's Rank: **109th** (score 64.0).
 - Global Leader: **Finland** (4 consecutive years at #1).
@@ -740,7 +740,7 @@
 
 ---
 
-📰 [JUL-039] **Performance Grading Index for Districts (PGI-D) — Ministry of Education**
+[JUL-039] **Performance Grading Index for Districts (PGI-D) — Ministry of Education**
 
 - **Assessment Mandate**: Released by the Department of School Education and Literacy (DoSEL), Ministry of Education, evaluating school education system health across all 700+ districts in India.
 - **Evaluation Framework & Points**:
@@ -751,7 +751,7 @@
   - Subsequent Tiers: Atti-Uttam (71–80%), Uttam (61–70%), Prachesta-1, Prachesta-2, Prachesta-3, Akanshi-1, Akanshi-2, and Akanshi-3 (<10%).
 - **Leading Jurisdictions**: Districts in **Punjab** and the Union Territory of **Chandigarh** lead the top scoring tiers.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Total Score: **600 points** across 83 indicators.
 - Top Category Nomenclature: **Daksha** (>90%, unachieved); second-tier is **Utkarsh** (81–90%).
@@ -759,7 +759,7 @@
 
 ---
 
-📰 [JUL-040] **Henley Passport Index 2024 (July Global Update)**
+[JUL-040] **Henley Passport Index 2024 (July Global Update)**
 
 - **Methodology & Data Foundation**: Published by Henley & Partners based on proprietary travel intelligence provided by the International Air Transport Association (IATA), analyzing 199 passports across 227 travel destinations.
 - **India's Standing**:
@@ -771,7 +771,7 @@
   - **3rd Rank**: Austria, Finland, Ireland, Luxembourg, Netherlands, South Korea, Sweden (191 destinations).
 - **Weakest Passport**: **Afghanistan (103rd / bottom)** with visa-free access to only 26 nations.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India's Rank: **82nd** (access to 58 destinations).
 - #1 Most Powerful Passport: **Singapore** (195 destinations).
@@ -779,9 +779,9 @@
 
 ---
 
-## 8. 📅 IMPORTANT DAYS & PERSONS IN NEWS
+## 8. IMPORTANT DAYS & PERSONS IN NEWS
 
-📰 [JUL-041] **July Commemorative Days & Milestones Roster**
+[JUL-041] **July Commemorative Days & Milestones Roster**
 
 - **July 1 — National Doctors' Day**: Commemorates the birth and death anniversary of legendary physician and 2nd Chief Minister of West Bengal, **Dr. Bidhan Chandra Roy** (Bharat Ratna, 1961). Also observed as **Chartered Accountants (CA) Day** (ICAI founded 1 July 1949) and **GST Day** (7th anniversary of GST rollout).
 - **July 11 — World Population Day**: Established by the UNDP Governing Council in 1989; 2024 Theme: *"Leave no one behind, count everyone"*.
@@ -790,14 +790,14 @@
 - **July 28 — World Hepatitis Day**: Theme: *"It's time for action"*; commemorates birthday of Nobel laureate Dr. Baruch Blumberg (discovered Hepatitis B virus).
 - **July 29 — International Tiger Day**: Observed globally following the 2010 Saint Petersburg Tiger Summit; India hosts **over 75%** of the world's wild tiger population (3,682 tigers per NTCA 2022 census).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Silver Jubilee: 2024 marked the **25th anniversary** of Kargil Vijay Diwas (Operation Vijay, 1999).
 - Tiger Census: India tiger count is **3,682** (75% of global total); Madhya Pradesh is the 'Tiger State' (785 tigers).
 
 ---
 
-📰 [JUL-042] **National Fish Farmers’ Day (July 10) & PMMSY Blue Economy Milestones**
+[JUL-042] **National Fish Farmers’ Day (July 10) & PMMSY Blue Economy Milestones**
 
 - **Historical Significance**: Observed annually on **July 10** commemorating the pioneering scientific breakthrough by **Dr. Hiralal Chaudhuri and Dr. K.H. Alikunhi**, who successfully demonstrated induced breeding (hypophysation) in Indian Major Carps on July 10, 1957 in Angul, Odisha.
 - **Pradhan Mantri Matsya Sampada Yojana (PMMSY) Benchmarks**:
@@ -806,7 +806,7 @@
   - Target: Scaling national fisheries exports to **₹1 lakh crore** and generating over 55 lakh direct and indirect employment opportunities.
 - **Digital Enablers**: Operationalization of the **Matsya Setu** mobile learning app and the National Fisheries Digital Platform (NFDP) to advance formal credit and insurance access to fishers.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Observed Date: **July 10** (honors Dr. Hiralal Chaudhuri & Dr. K.H. Alikunhi's 1957 hypophysation breakthrough).
 - Global Fish Rank: India is the **2nd largest fish producer** in the world (~8% share).
@@ -814,7 +814,7 @@
 
 ---
 
-📰 [JUL-043] **National Statistics Day (June 29) & P.C. Mahalanobis Legacy**
+[JUL-043] **National Statistics Day (June 29) & P.C. Mahalanobis Legacy**
 
 - **Commemorative Observance**: Celebrated annually on **June 29** (designated in 2007) honoring the birth anniversary of **Prof. Prasanta Chandra Mahalanobis**, universally recognized as the *"Father of Indian Modern Statistics"*.
 - **2024 National Theme**: *"Use of Data for Decision Making"*.
@@ -824,7 +824,7 @@
   - Formulated the **Mahalanobis Distance**, a fundamental statistical measure used in multivariate data analysis.
 - **National Recognition**: Ministry of Statistics and Programme Implementation (MoSPI) confers the annual **Prof. P.C. Mahalanobis National Award in Official Statistics** to eminent statisticians.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Commemorated Date: **June 29** (Father of Indian Statistics).
 - Five-Year Plan Model: **Second Five-Year Plan (1956–61)** was modeled on the Mahalanobis strategy.
@@ -832,9 +832,9 @@
 
 ---
 
-## 10. 📌 MISCELLANEOUS — GOVT SCHEMES & STATIC
+## 10. MISCELLANEOUS — GOVT SCHEMES & STATIC
 
-📰 [JUL-044] **Prudential Guidelines on Project Finance — Construction Phase Debt (RBI Exposure Draft)**
+[JUL-044] **Prudential Guidelines on Project Finance — Construction Phase Debt (RBI Exposure Draft)**
 
 - **Context**: Standard prudential guidelines for financing infrastructure and non-infrastructure project loans during the pre-commissioning phase.
 - **Graduated Provisioning Architecture**:
@@ -843,7 +843,7 @@
   - **Stabilization Phase**: Drops further to **1.0%** once the project generates sufficient positive free cash flow and repays at least 20% of its long-term debt.
 - **Financial Closure Deadline**: Financial closure must be achieved within **1 year** from the date of sanction for infrastructure projects.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Proposed Peak Provisioning: **5.0%** during construction phase (vs. normal 0.4%).
 - Operational Step-Down: Drops to **2.5%** upon achieving DCCO, and **1.0%** upon 20% debt repayment.

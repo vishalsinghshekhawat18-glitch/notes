@@ -16,7 +16,7 @@ import { FontSizeControl } from '@/components/learning/font-size-control';
 import { ThemeSwitcher } from '@/components/navigation/theme-switcher';
 
 interface Shelf007ContinuousReaderProps {
-  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs';
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan';
   currentChapter: Shelf007ChapterItem;
   prevChapter: Shelf007ChapterItem | null;
   nextChapter: Shelf007ChapterItem | null;
@@ -36,7 +36,9 @@ export function Shelf007ContinuousReader({
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   const subjectTitle =
-    subject === 'current-affairs'
+    subject === 'rajasthan'
+      ? 'Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)'
+      : subject === 'current-affairs'
       ? 'Contemporary Issues & Current Affairs Master Codex'
       : subject === 'hindi'
       ? 'General Hindi & Administrative Rhetoric'

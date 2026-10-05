@@ -4,12 +4,12 @@
 *Canonical Examination Study Dossier for IBPS PO/Clerk Mains, SBI PO Mains, RRB Scale-I & Regulatory Bodies (Units COMP-001 to COMP-018)*
 
 ### Canonical Examination Study Dossier for IBPS PO/Clerk Mains, SBI PO Mains, RRB Officer Scale-I & Regulatory Bodies
-**Target Exam Section**: Section I — Reasoning & Computer Aptitude (45 Questions, 60 Marks)  
+**Target Exam Section**: Section I — Reasoning & Computer Aptitude (45 Questions, 60 Marks)
 **Standard Coverage**: Units [COMP-001] to [COMP-018] (Flowcharts, Binary Logic, CBS, OSI, DBMS, Networking, Hardware, Security)
 
 ---
 
-## 📑 Master Index & Quick Jump Matrix
+## Master Index & Quick Jump Matrix
 | ID | Unit Title | Core High-Yield Invariants |
 |---|---|---|
 | **[COMP-001]** | Evolution of Computing & Pioneers | Abacus, Napier, Pascaline, Babbage, Von Neumann Stored-Program Architecture |
@@ -33,14 +33,14 @@
 
 ---
 
-## 📰 [COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**
+## [COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**
 
-🧠 Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing
+ Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing
 Mechanical calculating machines operated on fixed gear ratios where program instructions and data were physically bound to
 mechanical levers. The true digital revolution emerged when John von Neumann (1945) conceptualized the Stored-Program
 Architecture, treating program instructions and calculation data as interchangeable binary bits stored within the exact same
 electronic memory medium.
-🏛 The Master Chronology of Computing Pioneers
+ The Master Chronology of Computing Pioneers
 COMPUTING
 DEVICE /
 MACHINE
@@ -244,8 +244,8 @@ chip; 4-bit CPU
 The world's first single-chip commercial
 microprocessor. Ignited the personal
 computing revolution.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Father of Computers vs Father of Modern Computer Science: Charles Babbage is the "Father of Computers" (for the
 Analytical Engine). Alan Turing is the "Father of Modern Computer Science / AI" (for the Turing Machine, Universal
 Computation, and Breaking Enigma).
@@ -260,9 +260,9 @@ Company (C-T-R) in 1911, which was renamed International Business Machines (IBM)
 
 ---
 
-## 📰 [COMP-002] **Generations of Computers & Structural Classification**
+## [COMP-002] **Generations of Computers & Structural Classification**
 
-📐 Classification by Scale & Processing Throughput
+ Classification by Scale & Processing Throughput
 1. Supercomputers:
 The most powerful, expensive, and fastest computing systems on Earth, designed to execute trillions of floating-point
 operations per second (FLOPS: PetaFLOPS, ExaFLOPS).
@@ -291,8 +291,8 @@ Single-user design intended for general-purpose productivity, communication, and
 Form Factors: Desktop PCs, Laptops / Notebooks, Netbooks, Palmtops / Personal Digital Assistants (PDAs), Tablets,
 Smartphones, Workstations (high-end graphics/engineering PCs), and Embedded Systems (microcontrollers
 embedded in washing machines, cars, microwave ovens).
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. First Indian Supercomputer: PARAM 8000, developed in 1991 by the Center for Development of Advanced Computing
 (C-DAC) at Pune, led by Dr. Vijay Bhatkar.
 2. Supercomputer Speed Unit: Supercomputer processing throughput is measured in FLOPS (Floating Point Operations Per
@@ -304,9 +304,9 @@ is the complete operational machine (including microprocessor, motherboard, RAM,
 
 ---
 
-## 📰 [COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**
+## [COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**
 
-🏛 The Von Neumann Machine Architecture
+ The Von Neumann Machine Architecture
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -334,7 +334,7 @@ SYSTEM BUS (Address, Data, Control)
 ▼ 	▼ 	▼
 ```
 PRIMARY MEMORY (RAM/ROM) 	INPUT DEVICES (Keyboard, etc.) 	OUTPUT DEVICES
-⚙ The Three Functional Organs of the CPU
+ The Three Functional Organs of the CPU
 1. Arithmetic Logic Unit (ALU):
 The digital computational workhorse of the CPU. Executes two distinct classes of operations:
 Arithmetic Operations: Fundamental numeric additions, subtractions, multiplications, divisions, and bitwise
@@ -378,7 +378,7 @@ SP 	Stack Pointer 	32 / 64 bits 	Stores the memory address of the current top of
 subroutine calls, interrupts, and local variables).
 Flags / PSW 	Program Status Word 	8 to 64 bits 	Individual single-bit indicator flip-flops reflecting execution status (Zero Flag
 Z , Carry Flag C , Sign Flag S , Overflow Flag O , Parity Flag P ).
-🔁 The Instruction Execution Cycle (Machine Cycle)
+ The Instruction Execution Cycle (Machine Cycle)
 Every CPU instruction executes across four synchronized micro-phases:
 1. Fetch: The Control Unit reads the memory address stored in the Program Counter (PC), loads that address into the MAR,
 signals a memory Read command across the Control Bus, and transfers the instruction word from RAM into the
@@ -392,26 +392,26 @@ operands.
 internal CPU register or routed across the Data Bus into main memory. $$\mathbf{\text{Instruction Time (I-Time)} =
 \text{Fetch} + \text{Decode}} \quad \Big| \quad \mathbf{\text{Execution Time (E-Time)} = \text{Execute} +
 \text{Store}}$$
-🚌 The System Bus Architecture
+ The System Bus Architecture
 A "Bus" is a collection of parallel conductive wires connecting two or more internal components. The System Bus is divided
 into three functional channels:
 
 ```text
 ┌─────────────────────────────────────────┐
 ```
-CPU 
+CPU
 ```text
 ─────────────►│ ADDRESS BUS (Unidirectional from CPU) 	│──────────► MEMORY & I/O
 └─────────────────────────────────────────┘
 ┌─────────────────────────────────────────┐
 ```
-CPU 
+CPU
 ```text
 ◄────────────►│ DATA BUS (Bidirectional) 	│◄─────────► MEMORY & I/O
 └─────────────────────────────────────────┘
 ┌─────────────────────────────────────────┐
 ```
-CPU 
+CPU
 ```text
 ◄────────────►│ CONTROL BUS (Bidirectional Signals) 	│◄─────────► MEMORY & I/O
 └─────────────────────────────────────────┘
@@ -435,7 +435,7 @@ Bus Width Rule: The width of the data bus determines the CPU's word size and mem
 Transmits synchronization, command, and status signals across system components.
 Key signals include: Memory Read , Memory Write , I/O Read , I/O Write , Bus Request , Bus Grant , Clock
 Pulse , Reset , and Interrupt Request (IRQ) .
-🔌 Physical Connectors, Ports & Motherboard Chipsets
+ Physical Connectors, Ports & Motherboard Chipsets
 Northbridge (Host Bridge): Traditionally connected the CPU directly to high-speed system components (Main DRAM
 memory and PCIe x16 graphics card). In modern processors, the Northbridge is completely integrated into the CPU die
 itself.
@@ -456,8 +456,8 @@ RJ-45 (Registered Jack 45): 8-pin / 8-conductor modular connector utilized for E
 networking (LAN). (Distinguished from RJ-11, the 4/6-pin connector utilized for landline telephone wiring).
 PS/2 Port: 6-pin mini-DIN connector utilized for legacy input devices (standardized color-coding: Purple for Keyboard,
 Green for Mouse).
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Address Bus Directionality: The Address Bus is strictly UNIDIRECTIONAL (signals flow ONLY outward from the CPU to
 memory/devices). The Data Bus and Control Bus are BIDIRECTIONAL.
 2. 32-Bit Memory Barrier: A 32-bit processor cannot natively utilize more than 4 GB of physical RAM because
@@ -470,10 +470,10 @@ Hard Disk.
 
 ---
 
-## 📰 [COMP-004] **Firmware, Booting Protocols & Hardware Diagnostics (BIOS, UEFI & POST)**
+## [COMP-004] **Firmware, Booting Protocols & Hardware Diagnostics (BIOS, UEFI & POST)**
 
 POST)
-🧬 Firmware Foundations: BIOS vs UEFI
+ Firmware Foundations: BIOS vs UEFI
 Firmware is permanent, low-level software programmed directly into non-volatile hardware memory (ROM, EEPROM, or SPI
 Flash memory) on the motherboard.
 ARCHITECTURAL
@@ -503,8 +503,8 @@ Security Architecture 	Zero pre-boot authentication; vulnerable to
 bootkits
 Secure Boot (cryptographically verifies OS loader signatures)
 Boot Speed 	Slow sequential hardware probing 	Rapid parallel hardware initialization
-🔄 The Master Booting Sequence & The POST Routine
-[POWER ON] 
+ The Master Booting Sequence & The POST Routine
+[POWER ON]
 ```text
 ──► [POWER GOOD SIGNAL] ──► [CPU Resets to 0xFFFF0] ──► [EXECUTE POST]
 │
@@ -526,13 +526,13 @@ Boot Speed 	Slow sequential hardware probing 	Rapid parallel hardware initializa
 │
 ▼
 ```
-[BOOTSTRAP LOADER] 
+[BOOTSTRAP LOADER]
 ```text
 ──► Loads OS Bootloader (Windows Boot Manager / GRUB)
 │
 ▼
 ```
-[OS KERNEL INITIALIZATION] 
+[OS KERNEL INITIALIZATION]
 ```text
 ──► Loads Device Drivers ──► [USER LOGIN SCREEN]
 ```
@@ -560,15 +560,15 @@ Firmware reads the very first physical sector of the bootable drive: the Master 
 bytes, containing 446 bytes of Bootstrap code, a 64-byte Partition Table, and a 2-byte signature 0x55AA ).
 The bootstrap loader program executes, loads the primary Operating System bootloader into RAM (e.g. bootmgr in
 Windows or GRUB in Linux), and transfers control to the OS kernel.
-❄ Cold Boot vs 🔥 Warm Boot
+ Cold Boot vs  Warm Boot
 Cold Boot (Hard Boot): Powering ON a computer from a state of total electrical shutdown. Involves a full hardware
 power cycle, power surge stabilization, complete POST hardware diagnostics, and full bootstrap loading. (Initiated via
 physical power button).
 Warm Boot (Soft Boot): Restarting an operating computer without disconnecting electrical power from the
 motherboard. Clears volatile RAM and re-initializes the OS kernel, but skips certain hardware diagnostic routines (POST),
 making it substantially faster. (Initiated via Ctrl + Alt + Delete or OS Restart menu).
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. BIOS vs CMOS Distinction: BIOS is firmware (software code) stored permanently in non-volatile ROM/Flash. CMOS is
 hardware memory that stores user settings and real-time clock data, powered by the CR2032 battery.
 2. MBR Size Limit: MBR cannot natively address drives larger than 2.2 TB because its partition table uses 32-bit sector
@@ -580,7 +580,7 @@ stored on the boot sector of secondary storage (HDD/SSD).
 
 ---
 
-## 📰 [COMP-005] **Input Devices & Biometric / Automated Data Capture Systems**
+## [COMP-005] **Input Devices & Biometric / Automated Data Capture Systems**
 
 ⌨ Computer Keyboard Architecture & Functional Key Mappings
 Keyboards utilize the standard QWERTY layout, engineered in 1873 by Christopher Latham Sholes for the Sholes and Glidden
@@ -608,7 +608,7 @@ of line), End (jumps to end of line), Page Up , Page Down .
 Special / System Keys: Esc (Escape - cancels current operation/dialogue), Print Screen (captures screen buffer
 to clipboard), Insert (toggles insert/overwrite mode), Delete (erases character to the right of cursor),
 Backspace (erases character to the left of cursor).
-⚡ The Universal Function Keys Master Matrix (F1–F12)
+ The Universal Function Keys Master Matrix (F1–F12)
 FUNCTION
 KEY
 UNIVERSAL WINDOWS / BROWSER
@@ -667,7 +667,7 @@ Jumps to next field code. 	Create Chart: Generates instant
 chart sheet.
 F12 	Opens Developer Tools in web browsers. 	Save As: Opens the "Save As" dialogue box. 	Save As: Opens the "Save As"
 dialogue box.
-🖱 Pointing, Scanning & Automated Data Capture (ADC)
+ Pointing, Scanning & Automated Data Capture (ADC)
 1. Pointing Devices:
 Mouse: Invented by Douglas Engelbart in 1964 (wooden shell with two metal wheels). Modern mice are Optical
 (utilize an LED and optoelectronic sensor) or Laser (utilize an infrared laser diode for high-precision tracking across
@@ -734,8 +734,8 @@ security biometric matching of eye trabecular meshwork), Retina scanners, Facial
 
 Core Application in India: Aadhaar Enabled Payment System (AePS) and biometric branch authentication for Micro-
 ATMs / Bank Mitras.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Backspace vs Delete: Backspace deletes the character to the LEFT of the cursor. Delete deletes the character to the
 RIGHT of the cursor.
 2. MICR 9-Digit Code Structure: In Indian banking cheques, the 9-digit MICR code contains exactly: $$\mathbf{\text{Digits
@@ -747,9 +747,9 @@ F7 , while F7 alone launches standard Spelling & Grammar.
 
 ---
 
-## 📰 [COMP-006] **Output Devices, Display Technologies & Printing Engineering**
+## [COMP-006] **Output Devices, Display Technologies & Printing Engineering**
 
-🖥 Visual Display Units (VDU) & Monitor Metrics
+ Visual Display Units (VDU) & Monitor Metrics
 Soft Copy vs Hard Copy: Output displayed temporarily on a monitor screen or emitted through audio speakers is a Soft
 Copy (intangible, editable, volatile). Output physically printed onto paper or engraved by a plotter is a Hard Copy
 (permanent, tangible).
@@ -775,7 +775,7 @@ Refresh Rate: The number of times per second the display hardware redraws the sc
 (Hz) (e.g. 60 Hz, 120 Hz, 144 Hz). High refresh rates eliminate motion blur.
 Aspect Ratio: The proportional ratio of screen width to height (Standard traditional = $4:3$; Modern widescreen =
 $16:9$; Ultra-wide = $21:9$).
-🖨 Printer Taxonomy: Impact vs Non-Impact Engineering
+ Printer Taxonomy: Impact vs Non-Impact Engineering
 PRINTERS
 
 ```text
@@ -813,7 +813,7 @@ DPI}$).
 Representative Types 	Dot Matrix Printer (DMP), Daisy Wheel, Drum, Chain,
 Band.
 Laser Printer, Inkjet Printer, Thermal Printer.
-🔬 Dissection of Core Printer Types
+ Dissection of Core Printer Types
 1. Dot Matrix Printer (DMP - Impact):
 Uses a print head containing a vertical matrix of 9 or 24 stiff metal pins (wires) driven by electromagnets. As the head
 moves horizontally across the carriage, pins strike an inked fabric ribbon to form characters out of dots.
@@ -850,8 +850,8 @@ Unlike raster printers that print in lines of dots, a Plotter draws continuous, 
 automated mechanical ink pens or knives.
 Used by architects, civil engineers, and cartographers for CAD blueprints, circuit schematics, and GIS topographic
 maps. (Types: Drum Plotter vs Flatbed Plotter).
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Speed Metric Trap:
 Dot Matrix speed = CPS (Characters Per Second).
 Line printer speed = LPM (Lines Per Minute).
@@ -863,9 +863,9 @@ ALWAYS an Impact Printer (Dot Matrix) because non-impact printers apply zero phy
 
 ---
 
-## 📰 [COMP-007] **Memory Hierarchy, Primary Storage & Cache Optimization**
+## [COMP-007] **Memory Hierarchy, Primary Storage & Cache Optimization**
 
-🔢 Units of Digital Storage Measurement
+ Units of Digital Storage Measurement
 Data in computers is structured around the Bit (Binary Digit: 0 or 1 ).
 STORAGE UNIT 	ABBREVIATION 	EXACT MATHEMATICAL EQUIVALENCY 	POWER OF 2
 Bit 	b 	Single binary digit: 0 or 1
@@ -881,7 +881,7 @@ Zettabyte 	ZB 	1,024 EB
 Yottabyte 	YB 	1,024 ZB
 Brontobyte 	BB 	1,024 YB
 Geopbyte 	- 	1,024 Brontobytes
-⚡ Primary Memory: SRAM vs DRAM
+ Primary Memory: SRAM vs DRAM
 Primary memory (Main Memory) communicates directly with the CPU via the memory bus. It is predominantly Volatile (loses
 contents instantaneously upon power disconnection).
 ENGINEERING
@@ -921,7 +921,7 @@ Primary System Use 	CPU Cache Memory (L1, L2, L3). 	System Primary RAM (DDR3, DD
 DDR SDRAM (Double Data Rate Synchronous DRAM): System RAM synchronized with the CPU system clock. While
 traditional SDRAM transfers data only on the rising edge of each clock cycle, DDR transfers data on BOTH the rising and
 falling edges of each clock cycle, effectively doubling memory throughput without doubling clock speed.
-🔒 Non-Volatile Primary Memory: ROM Evolution
+ Non-Volatile Primary Memory: ROM Evolution
 Read-Only Memory (ROM) is non-volatile; it retains critical bootloader programs and firmware permanently without
 requiring electrical power.
 1. Masked ROM (MROM): Hardwired at the semiconductor foundry during physical fabrication; cannot be modified or
@@ -936,7 +936,7 @@ minutes. All memory cells are erased simultaneously.
 standard circuit voltages without removing the chip from the motherboard.
 5. Flash Memory: An advanced, highly optimized form of EEPROM that erases and writes data in multi-kilobyte blocks
 rather than individual bytes. Forms the basis of modern USB flash drives, memory cards, and Solid-State Drives (SSDs).
-🚀 Cache Memory & The Principle of Locality
+ Cache Memory & The Principle of Locality
 Function: A small, ultra-fast block of SRAM placed directly between the lightning-fast CPU core and the comparatively
 sluggish DRAM main memory to prevent CPU execution bottlenecks.
 The Principle of Locality of Reference:
@@ -955,7 +955,7 @@ Cache Hit: CPU finds requested data in cache memory.
 Cache Miss: Requested data is not in cache; CPU must stall while fetching it from slow DRAM.
 Hit Ratio: Percentage of total memory accesses satisfied by the cache: $$\mathbf{\text{Hit Ratio} = \frac{\text{Cache
 Hits}}{\text{Cache Hits} + \text{Cache Misses}} \times 100%}$$
-🌀 Virtual Memory & OS Paging
+ Virtual Memory & OS Paging
 Definition: A memory management capability of the Operating System that uses secondary storage (HDD or NVMe SSD)
 to simulate additional physical RAM when physical RAM runs out.
 Mechanism (Paging):
@@ -968,8 +968,8 @@ an available RAM frame, and resumes execution.
 Thrashing: A catastrophic operating system condition occurring when physical memory is severely overcommitted.
 The OS spends virtually 100% of its CPU time continuously swapping pages back and forth between RAM and
 secondary storage rather than executing actual application code.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. DRAM Periodic Refresh: DRAM must be refreshed continuously because its storage mechanism uses capacitors that leak
 charge. SRAM uses flip-flops and requires NO refreshing.
 2. Cache Memory Technology: Cache memory is constructed from SRAM, NOT DRAM.
@@ -980,10 +980,10 @@ Secondary Storage (Hard Disk / SSD) managed by the Operating System.
 
 ---
 
-## 📰 [COMP-008] **Secondary & Auxiliary Storage Technologies (Magnetic, Optical & Solid-State)**
+## [COMP-008] **Secondary & Auxiliary Storage Technologies (Magnetic, Optical & Solid-State)**
 
 Solid-State)
-🧲 Magnetic Storage: Hard Disk Drive (HDD) Geometry
+ Magnetic Storage: Hard Disk Drive (HDD) Geometry
 A Hard Disk Drive stores binary data magnetically on rapidly spinning rigid circular platters coated with a microscopic
 ferromagnetic layer.
 TOP-DOWN VIEW OF PLATTER
@@ -1024,7 +1024,7 @@ head. (Average latency is the time for half a revolution: at 7,200 RPM, average 
 3. Transfer Rate: The rate at which data bits are read from the surface and transmitted to system RAM.
 $$\mathbf{\text{Total Access Time} = \text{Seek Time} + \text{Rotational Latency} + \text{Transfer Time}}$$
 
-💿 Optical Storage: Lasers, Pits & Lands
+ Optical Storage: Lasers, Pits & Lands
 Optical media store digital bits as microscopic indentations (Pits) and flat reflective surfaces (Lands) stamped along a
 continuous spiral track on a polycarbonate plastic disc. A focused laser diode shines on the track: lands reflect light back into
 a photodiode detector (interpreted as binary 1 ), while pits scatter light (interpreted as binary 0 ).
@@ -1047,7 +1047,7 @@ DVD-ROM).
 burner (burns dye layer); once written, data cannot be erased.
 -RW (ReWritable): Uses phase-change material (chalcogenide alloy); laser can switch material between crystalline
 (reflective) and amorphous (absorbing) states up to 1,000 times.
-⚡ Solid-State Drives (SSD) & Flash Storage
+ Solid-State Drives (SSD) & Flash Storage
 SSDs contain zero mechanical moving parts. Data is stored entirely in non-volatile NAND Flash memory chips consisting of
 floating-gate or charge-trap transistors.
 NAND Cell Density Architectures:
@@ -1064,8 +1064,8 @@ slots, bypassing legacy disk controllers. Operates with 64,000 parallel queues, 
 (PCIe 3.0) to over 14,000 MB/s (PCIe 5.0).
 TRIM Command: An OS command that informs the SSD which data blocks are no longer considered in use and can be
 wiped internally. Crucial for maintaining SSD write performance and longevity.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Seek Time vs Latency: Seek Time is moving the head to the track. Rotational Latency is waiting for the platter to rotate
 the sector under the head. Seek Time is the slowest mechanical operation.
 1.6 μm
@@ -1080,9 +1080,9 @@ disk platter.
 
 ---
 
-## 📰 [COMP-009] **Computer Software, Operating Systems & Process Scheduling**
+## [COMP-009] **Computer Software, Operating Systems & Process Scheduling**
 
-🛡 Operating System Architecture: Kernel & Shell
+ Operating System Architecture: Kernel & Shell
 The Operating System (OS) is the master system software that manages hardware resources, memory, storage devices, and
 provides an abstraction layer for application programs.
 Source Code Compiler Object Modules (.obj) Linker Executable File (.exe) Loader Execution in RAM
@@ -1112,7 +1112,7 @@ and allocated to the next process in a cyclic queue.
 4. Priority Scheduling: Each process is assigned a priority integer; the CPU is allocated to the highest-priority process.
 Lower-priority processes may suffer starvation unless Aging (gradually increasing the priority of waiting processes over
 time) is implemented.
-📁 File Systems: FAT32 vs NTFS
+ File Systems: FAT32 vs NTFS
 FEATURE / METRIC 	FAT32 (FILE ALLOCATION TABLE 32) 	NTFS (NEW TECHNOLOGY FILE SYSTEM)
 Developer & Era 	Microsoft (Windows 95 OSR2, 1996) 	Microsoft (Windows NT, 1993; modern Windows standard)
 Maximum Single File Size 	Strictly 4 Gigabytes (GB) ($2^{32} - 1\text{ bytes}$) 	16 Terabytes (TB)
@@ -1136,8 +1136,8 @@ Universal (works on Windows, macOS, Linux, TVs, Car
 audio)
 Native read/write on Windows; read-only on macOS
 without tools
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 
 1. Compiler vs Interpreter Error Handling: A Compiler scans the entire document and displays all errors together. An
 Interpreter stops execution immediately at the first error encountered.
@@ -1150,9 +1150,9 @@ which is then interpreted or Just-In-Time (JIT) compiled into native machine cod
 
 ---
 
-## 📰 [COMP-010] **Logic Design, Flowcharts, Number Systems & Computer Languages**
+## [COMP-010] **Logic Design, Flowcharts, Number Systems & Computer Languages**
 
-🔢 Positional Number Systems & Base Conversions
+ Positional Number Systems & Base Conversions
 A number system is defined by its Base (Radix), which dictates the number of unique symbols utilized:
 Binary (Base 2): Digits 0, 1 .
 Octal (Base 8): Digits 0, 1, 2, 3, 4, 5, 6, 7 . (Each octal digit maps to exactly 3 binary bits: $2^3 = 8$).
@@ -1172,7 +1172,7 @@ record remainders from bottom to top (Double-Dabble Method).
 \mathbf{D6{16}}$$
 3. Binary to Octal: Group binary bits in sets of 3 bits starting from the right: $$\mathbf{11010110_2} \implies (011)_2\
 (010)_2\ (110)_2 \implies \mathbf{326_8}$$
-➕ Negative Binary Representation: 1's & 2's Complement
+ Negative Binary Representation: 1's & 2's Complement
 1's Complement: Invert all bits (change all 0 s to 1 s and all 1 s to 0 s).
 Example: 1's complement of 	.
 2's Complement: Add binary 1 to the 1's complement result. $$\mathbf{\text{2's Complement} = \text{1's
@@ -1181,7 +1181,7 @@ Example: 2's complement of 	: $$\text{1's complement} = 01001101 \implies 010011
 \mathbf{01001110_2}$$
 Significance: Modern computer ALUs perform subtraction entirely using 2's Complement Addition, eliminating the
 need for separate subtraction circuits and resolving the ambiguity of positive and negative zero.
-🚪 Fundamental & Universal Logic Gates
+ Fundamental & Universal Logic Gates
 LOGIC GATE 	LOGIC SYMBOL 	BOOLEAN ALGEBRAIC
 EXPRESSION
 OPERATIONAL TRUTH CONDITION
@@ -1216,7 +1216,7 @@ XNOR
 XOR with bubble 	Output is 1 if inputs are IDENTICAL.
 Universal Gates: NAND and NOR gates are designated "Universal Gates" because any conceivable Boolean circuit,
 memory latch, or processor can be constructed using exclusively NAND or NOR gates alone.
-📊 ANSI / ISO Flowchart Standard Symbols
+ ANSI / ISO Flowchart Standard Symbols
 A flowchart is a standardized visual representation of an algorithm detailing the sequence of operations:
 [ START / STOP ] 	<--- OVAL / ROUNDED RECTANGLE (Terminator)
 
@@ -1254,7 +1254,7 @@ paths for True/False).
 5. Circle (Connector): Links intersecting flow lines on the same page.
 6. Pentagon (Off-Page Connector): Connects flowchart sequences across multiple separate printed pages.
 7. Arrows (Flowlines): Indicate the precise directional path of execution.
-💻 The Five Generations of Computer Languages
+ The Five Generations of Computer Languages
 1GL (First Generation - Machine Language): Direct native binary codes ( 0 and 1 ). Directly executed by CPU circuitry;
 zero translation delay; extreme machine dependency; nearly impossible for humans to debug.
 2GL (Second Generation - Assembly Language): Replaces binary opcodes with readable alphanumeric Mnemonics (e.g.
@@ -1275,8 +1275,8 @@ development tools.
 5GL (Fifth Generation - Logic & Constraint AI): Solves problems using declarative constraints and rules rather than
 programmer-written algorithms. Includes Prolog (Programming in Logic) and LISP (List Processing), foundational to
 artificial intelligence and expert systems.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Universal Logic Gates: The only two universal gates are NAND and NOR.
 2. Flowchart Decision Symbol: The decision/branching block is ALWAYS a Diamond. Input/Output is ALWAYS a
 Parallelogram. Process is a Rectangle.
@@ -1289,9 +1289,9 @@ A = 10, B = 11, C = 12, D = 13, E = 14, F = 15
 
 ---
 
-## 📰 [COMP-011] **Computer Networks, Topologies & Network Hardware Devices**
+## [COMP-011] **Computer Networks, Topologies & Network Hardware Devices**
 
-🌐 Network Classification by Geographic Scale
+ Network Classification by Geographic Scale
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -1319,7 +1319,7 @@ Internet is the world's largest public WAN.
 5. SAN (Storage Area Network): A dedicated, high-speed, private network interconnecting block-level storage arrays (RAID,
 tape libraries) directly to enterprise banking servers via Fibre Channel or iSCSI, bypassing the standard LAN to avoid
 bandwidth saturation.
-🕸 Master Matrix of Network Topologies
+ Master Matrix of Network Topologies
 Network topology defines the physical layout or logical arrangement of connected nodes (computers/printers) and
 communication links.
 TOPOLOGY 	GEOMETRIC
@@ -1420,32 +1420,32 @@ Mesh Cable Calculation Formula: For a fully connected mesh network of 	devices: 
 Duplex Links} = \frac{N(N - 1)}{2}} \quad \Big| \quad \mathbf{\text{Ports per Device} = N - 1}$$
 Example: A banking network connecting 8 regional servers in a full mesh requires: $$\frac{8 \times (8 - 1)}{2} =
 \frac{8 \times 7}{2} = \mathbf{28\text{ Physical Cable Links}}$$
-🔌 Physical Networking Devices & Operating OSI Layers
-APPLICATION LAYER 
+ Physical Networking Devices & Operating OSI Layers
+APPLICATION LAYER
 ```text
 ──────┐
 ```
-PRESENTATION LAYER 	
+PRESENTATION LAYER
 ```text
 │ ──► GATEWAYS (Protocol Converters)
 ```
-SESSION LAYER 	
+SESSION LAYER
 ```text
 ──────┘
 ```
-TRANSPORT LAYER 	
+TRANSPORT LAYER
 ```text
 ──────────► L4 FIREWALLS
 ```
-NETWORK LAYER 	
+NETWORK LAYER
 ```text
 ──────────► ROUTERS (IP Addressing & Routing)
 ```
-DATA LINK LAYER 	
+DATA LINK LAYER
 ```text
 ──────────► SWITCHES & BRIDGES (MAC Addressing & Filtering)
 ```
-PHYSICAL LAYER 	
+PHYSICAL LAYER
 ```text
 ──────────► HUBS & REPEATERS (Signal Amplification & Regeneration)
 ```
@@ -1491,7 +1491,7 @@ telephone/cable lines (Modulation), and converts received analog signals back in
 8. Network Interface Card (NIC):
 A hardware expansion card or onboard chip providing physical connection to the network medium. Contains a
 globally unique 48-bit (6-Byte) MAC Address hardcoded into its ROM at the manufacturing plant.
-🧶 Transmission Media: Guided (Wired) vs Unguided (Wireless)
+ Transmission Media: Guided (Wired) vs Unguided (Wireless)
 Twisted Pair Cable: Consists of color-coded copper wires twisted in pairs to cancel out electromagnetic interference
 (EMI) and crosstalk. Terminated with RJ-45 connectors.
 UTP (Unshielded Twisted Pair): Standard office LAN cabling (e.g. Cat5e supports 1 Gbps up to 100 m; Cat6/Cat6a
@@ -1508,8 +1508,8 @@ Single-Mode Fiber (SMF): Narrow core ($\sim 9\ \mu\text{m}$); uses laser diodes;
 with minimal modal dispersion (backbone WAN/transoceanic cables).
 Multi-Mode Fiber (MMF): Wider core ($50–62.5\ \mu\text{m}$); uses LEDs; transmits over shorter distances within
 data centers ($< 500\text{ m}$).
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Hub vs Switch Broadcast: A Hub broadcasts incoming data to EVERY connected port. A Switch unicasts data specifically
 to the destination port using its MAC table.
 
@@ -1526,9 +1526,9 @@ N(N − 1)/2
 
 ---
 
-## 📰 [COMP-012] **Network Architecture, OSI 7-Layer Model, TCP/IP & Internet Protocols**
+## [COMP-012] **Network Architecture, OSI 7-Layer Model, TCP/IP & Internet Protocols**
 
-🏛 The OSI 7-Layer Reference Model vs TCP/IP Suite
+ The OSI 7-Layer Reference Model vs TCP/IP Suite
 Formulated by the International Organization for Standardization (ISO) in 1984, the Open Systems Interconnection (OSI)
 model standardizes network communication into seven discrete layers.
 OSI 7-LAYER MODEL 	TCP/IP 4-LAYER MODEL 	PROTOCOL DATA UNIT (PDU)
@@ -1550,10 +1550,9 @@ OSI 7-LAYER MODEL 	TCP/IP 4-LAYER MODEL 	PROTOCOL DATA UNIT (PDU)
 │ 	PHYSICAL LAYER 	│ ────────┘ 	(Link Layer)
 └─────────────────────────┘
 ```
-📋 Deep-Dive Matrix of the OSI 7 Layers
+ Deep-Dive Matrix of the OSI 7 Layers
 LAYER
-#
-LAYER
+# LAYER
 NAME
 PROTOCOL DATA
 UNIT (PDU)
@@ -1615,7 +1614,7 @@ unit with its own protocol header (and trailer at Layer 2): $$\mathbf{\text{Data
 \xrightarrow{L1} \mathbf{\text{Bits}}$$ Upon arrival at the destination, the reverse process (Decapsulation) strips
 headers sequentially as data ascends the stack.
 
-⚖ Transport Layer Protocols: TCP vs UDP
+ Transport Layer Protocols: TCP vs UDP
 FEATURE /
 PROPERTY
 TCP (TRANSMISSION CONTROL PROTOCOL) 	UDP (USER DATAGRAM PROTOCOL)
@@ -1643,7 +1642,7 @@ Core Applications 	Web browsing (HTTP/HTTPS), Secure Shell (SSH), Email
 (SMTP/IMAP), File Transfer (FTP), Banking Transactions.
 Real-time voice/video calls (VoIP), Video streaming,
 Online gaming, DNS queries, DHCP.
-🌐 IP Addressing Architecture: IPv4 vs IPv6
+ IP Addressing Architecture: IPv4 vs IPv6
 IPv4 (Internet Protocol Version 4):
 32-bit binary address, written in Dotted-Decimal Notation as four 8-bit octets separated by dots (e.g.
 192.168.1.1 ).
@@ -1670,7 +1669,7 @@ Total theoretical address space: 	(virtually inexhaustible).
 2 =	32 	4, 294, 967, 296 addresses
 2 	≈	128 	3.4 × 10 addresses	38
 
-🚪 Well-Known Ports & Application Layer Protocols Master Inventory
+ Well-Known Ports & Application Layer Protocols Master Inventory
 Network port numbers are 16-bit integers ($0$ to $65,535$) identifying specific application processes:
 PORT # 	PROTOCOL 	FULL NAME 	PRIMARY NETWORK FUNCTION
 20 &
@@ -1697,8 +1696,8 @@ devices.
 Protocol
 Monitoring and managing network devices (routers, switches, printers).
 443 	HTTPS 	Hypertext Transfer Protocol Secure 	Web browsing encrypted over SSL / TLS (foundational for secure online banking).
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. OSI Layer of Encryption: Encryption and Decryption (SSL/TLS) occur at the Presentation Layer (Layer 6).
 2. PDU Terminology:
 Layer 4 PDU = Segment (TCP) or Datagram (UDP).
@@ -1713,7 +1712,7 @@ TCP/IP protocol stack is functioning correctly on the computer.
 
 ---
 
-## 📰 [COMP-013] **Microsoft Office Master Suite (Word, Excel, PowerPoint & Access)**
+## [COMP-013] **Microsoft Office Master Suite (Word, Excel, PowerPoint & Access)**
 
 ⌨ Universal Microsoft Office Keyboard Shortcuts Master Reference
 KEYBOARD SHORTCUT 	UNIVERSAL ACTION ACROSS MS OFFICE
@@ -1741,8 +1740,8 @@ Ctrl + W 	Close current document / window.
 Ctrl + X 	Cut selected text or object to clipboard.
 Ctrl + Y 	Redo last undone action.
 Ctrl + Z 	Undo last action.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. New Slide vs New Presentation: To create a New Presentation / File, press Ctrl + N . To insert a New Slide inside an
 existing presentation, press Ctrl + M .
 
@@ -1756,9 +1755,9 @@ J .
 
 ---
 
-## 📰 [COMP-014] **Information Security, Malware Classification & Cyber Threats**
+## [COMP-014] **Information Security, Malware Classification & Cyber Threats**
 
-🛡 Defensive Architecture & Cryptography Controls
+ Defensive Architecture & Cryptography Controls
 The CIA Triad:
 1. Confidentiality: Ensuring information is shielded from unauthorized access (achieved via Encryption, Access Control
 Lists, Multi-Factor Authentication).
@@ -1782,7 +1781,7 @@ ECC - Elliptic Curve Cryptography, Diffie-Hellman).
 Digital Signatures: Provides Authentication, Integrity, and Non-Repudiation (the sender cannot deny having sent the
 message). Created by encrypting a document's cryptographic hash using the sender's Private Key; verified by anyone
 using the sender's Public Key.
-⚖ Indian Cyber Law: Key Penal Provisions of the Information Technology Act, 2000
+ Indian Cyber Law: Key Penal Provisions of the Information Technology Act, 2000
 SECTION (IT ACT
 2000)
 OFFENCE / SUBJECT MATTER 	PRESCRIBED STATUTORY PENALTY /
@@ -1809,8 +1808,8 @@ Imprisonment for LIFE.
 Section 70 	Unauthorized access to a declared Protected System (Critical Information
 Infrastructure)
 Imprisonment up to 10 Years and fine.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Virus vs Worm Host Dependency: A Virus REQUIRES a host program to replicate. A Worm is completely autonomous
 and does NOT require a host file.
 2. Digital Signature Key Pair: A digital signature is created using the sender's PRIVATE KEY and verified by the recipient
@@ -1824,9 +1823,9 @@ and Basit Farooq Alvi).
 
 ---
 
-## 📰 [COMP-015] **Banking Technology, Core Banking Solutions (CBS) & Statutory Cyber Frameworks**
+## [COMP-015] **Banking Technology, Core Banking Solutions (CBS) & Statutory Cyber Frameworks**
 
-🏛 Core Banking Solutions (CBS) Architecture
+ Core Banking Solutions (CBS) Architecture
 Historically, bank accounts were tied strictly to a specific physical branch where paper account ledgers resided (Branch
 Banking). Today, banking operates under Core Banking Solutions (CBS).
 CENTRAL BANK CBS DATA CENTER
@@ -1853,7 +1852,7 @@ Finacle: Developed by Infosys (utilized by State Bank of India, Punjab National 
 BaNCS: Developed by Tata Consultancy Services (TCS) (utilized by Central Bank of India, Indian Bank, and global
 financial institutions).
 Flexcube: Developed by Oracle Financial Services Software (utilized by HDFC Bank, Citibank, Kotak Mahindra Bank).
-💳 Electronic Fund Transfer & Settlement Rails
+ Electronic Fund Transfer & Settlement Rails
 The Reserve Bank of India (RBI) and National Payments Corporation of India (NPCI) operate several domestic electronic
 payment systems:
 PAYMENT
@@ -1945,7 +1944,7 @@ greyscale and UV digital
 images transmitted
 electronically to drawee
 bank.
-🌐 The National Payments Corporation of India (NPCI) Ecosystem
+ The National Payments Corporation of India (NPCI) Ecosystem
 Incorporated in 2008 under the provisions of the Payment and Settlement Systems Act, 2007 (PSSA) as a "Not-for-Profit"
 company under Section 25 of the Companies Act 1956 (Section 8 of Companies Act 2013), NPCI serves as the umbrella retail
 payment infrastructure provider in India.
@@ -1969,7 +1968,7 @@ Centralized interoperable bill payment ecosystem covering electricity, water, ga
 6. NETC (National Electronic Toll Collection - FASTag):
 Interoperable electronic toll payment platform utilizing RFID (Radio Frequency Identification) technology affixed to
 motor vehicle windscreens.
-📨 Financial Messaging Architecture: SWIFT vs SFMS
+ Financial Messaging Architecture: SWIFT vs SFMS
 SWIFT (Society for Worldwide Interbank Financial Telecommunication):
 A secure international financial messaging network headquartered in La Hulpe, Belgium.
 
@@ -1985,7 +1984,7 @@ Technology (IDRBT) in Hyderabad.
 Transmits standardized interbank financial messages within India securely across the INFINET (Indian Financial
 Network) closed satellite/terrestrial communications network. Forms the secure messaging backbone for domestic
 RTGS and NEFT transactions.
-🛡 RBI Cyber Security Framework & Regulatory Mandates
+ RBI Cyber Security Framework & Regulatory Mandates
 In response to surging digital fraud risks, the Reserve Bank of India issued its comprehensive Cyber Security Framework in
 Banks (2016):
 1. Board-Level Cyber Security Oversight: Every bank must establish a specialized Board-level IT Strategy Committee and an
@@ -2003,8 +2002,8 @@ detection.
 statutory directive mandating that all SWIFT outbound messaging operations must be automated and tightly integrated
 with the bank's Core Banking Solution (CBS). No bank officer can transmit a SWIFT payment guarantee (LoU/LoC)
 without an automatic pre-sanctioned credit limit and ledger entry in the CBS.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. RTGS Minimum Limit: The minimum transaction limit for customer transactions under RTGS is ₹2,00,000 (₹2 Lakhs).
 There is NO minimum limit for NEFT (can send ₹1).
 2. NEFT Batch Timings: NEFT operates 24x7x365 in 48 half-hourly batches (settling every 30 minutes).
@@ -2018,14 +2017,14 @@ within 6 HOURS of detection.
 
 ---
 
-## 📰 [COMP-016] **Database Management Systems (DBMS), Relational Architecture & SQL Taxonomy**
+## [COMP-016] **Database Management Systems (DBMS), Relational Architecture & SQL Taxonomy**
 
-🧠 Key Concept — Relational Data Model vs Flat File Systems
+ Key Concept — Relational Data Model vs Flat File Systems
 Pioneered by Dr. Edgar F. Codd (E.F. Codd) at IBM in 1970, the Relational Model organizes data into two-dimensional tables termed
 Relations. Unlike flat file systems—which suffer from severe data redundancy, data inconsistency, lack of concurrency control, and
 tight hardware dependence—an RDBMS enforces logical and physical data independence, declarative querying via SQL, and strict
 mathematical constraints through relational keys.
-📊 Relational Database Terminology & Anatomy
+ Relational Database Terminology & Anatomy
 A relational database table is formally modeled as a mathematical relation. Banking examinations routinely test the precise
 technical terminology distinguishing table components:
 Table: BANK_CUSTOMERS (Relation)
@@ -2062,7 +2061,7 @@ Schema 	Blueprint / Design 	The overall structural design and data type definiti
 Instance 	Database State /
 Snapshot
 The actual collection of data residing in the database at any specific given moment in time.
-🔑 Relational Database Keys Taxonomy
+ Relational Database Keys Taxonomy
 Relational keys uniquely identify tuples within a table and establish referential relationships across multiple tables:
 1. Super Key:
 Any single attribute or set of attributes that can uniquely identify every tuple within a relation.
@@ -2100,7 +2099,7 @@ composite key.
 7. Surrogate Key:
 An artificial, system-generated numerical identifier (e.g., auto-incrementing integer ID: 1, 2, 3... ) introduced
 solely for database operations when real-world attributes (natural keys) are unwieldy or mutable.
-🧬 Database Normalization & Anomaly Elimination
+ Database Normalization & Anomaly Elimination
 Normalization is the systematic algorithmic process of decomposing complex, redundant tables into smaller, well-structured
 relations to eliminate data anomalies and ensure data integrity.
 The Three Destructive Data Anomalies:
@@ -2145,7 +2144,7 @@ is a Prime Attribute (member of a candidate key).
 A stricter, advanced variant of 3NF developed by Raymond F. Boyce and Edgar F. Codd.
 Strict Requirement: For every functional dependency 	, 	MUST be a Super Key (eliminating even
 dependencies where 	is a prime attribute).
-💻 SQL (Structured Query Language) Command Taxonomy
+ SQL (Structured Query Language) Command Taxonomy
 SQL is the universal declarative language used to manage relational databases. Banking exams classify SQL commands into
 five distinct functional categories:
 A → B 	B → C 	A → C
@@ -2160,7 +2159,7 @@ Y
 ┌── DDL (Data Definition Language)
 ├── DML (Data Manipulation Language)
 ```
-SQL Taxonomy 
+SQL Taxonomy
 ```text
 ──┼── DQL (Data Query Language)
 ├── DCL (Data Control Language)
@@ -2215,7 +2214,7 @@ ROLLBACK (revert changes),
 SAVEPOINT (checkpoint)
 Controls database consistency during
 multi-step financial transfers.
-⚔ The Classic Exam Distinction: DROP vs TRUNCATE vs DELETE
+ The Classic Exam Distinction: DROP vs TRUNCATE vs DELETE
 Examiners repeatedly target the structural, performance, and transactional differences between these three deletion
 commands:
 FEATURE /
@@ -2235,13 +2234,13 @@ WHERE condition (or all rows if
 WHERE omitted).
 WHERE Clause
 Allowed?
-❌ No 	❌ No (all rows purged indiscriminately) 	✅ Yes (supports conditional filtering:
+ No 	 No (all rows purged indiscriminately) 	 Yes (supports conditional filtering:
 WHERE ID = 5 )
 Transaction
 Rollback?
-❌ No (Auto-committed) 	❌ No (Auto-committed in standard
+ No (Auto-committed) 	 No (Auto-committed in standard
 SQL)
-✅ Yes (Can be reverted via
+ Yes (Can be reverted via
 ROLLBACK )
 Execution Speed 	Fastest (drops object pointer) 	Extremely fast (deallocates entire data
 storage pages; minimal logging)
@@ -2258,7 +2257,7 @@ Triggers
 Does not fire DML triggers 	Does NOT fire ON DELETE triggers 	Fires ON DELETE triggers for each
 deleted tuple
 
-🛡 Transaction Processing & The ACID Properties
+ Transaction Processing & The ACID Properties
 In a banking Core Banking Solution (CBS), a financial transaction represents an indivisible logical unit of work (e.g.,
 transferring ₹10,000 from Customer A to Customer B). Every transaction must satisfy the four ACID Properties to prevent
 monetary corruption:
@@ -2282,7 +2281,7 @@ Once a transaction has been successfully committed, its changes survive permanen
 event of an catastrophic system power failure or operating system crash.
 Mechanism: Implemented via Write-Ahead Logging (WAL) and non-volatile storage flushing (RAID arrays and battery-
 backed write caches).
-🌐 Relational Databases (RDBMS) vs NoSQL Databases
+ Relational Databases (RDBMS) vs NoSQL Databases
 METRIC /
 DIMENSION
 RELATIONAL DBMS (RDBMS) 	NOSQL DATABASES
@@ -2306,8 +2305,8 @@ Server, SQLite
 MongoDB, Apache Cassandra, Redis, Couchbase, Neo4j
 A (Atomicity) 	⟶ 	C (Consistency) 	⟶ 	I (Isolation) 	⟶ 	D (Durability)
 
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Cardinality vs Degree: Cardinality = Number of Rows (Tuples). Degree = Number of Columns (Attributes). (Mnemonic:
 Degree has columns of education; Cardinality counts the card entries/rows).
 2. Candidate Key Minimality: Every candidate key is a super key, but not every super key is a candidate key. A candidate
@@ -2321,14 +2320,14 @@ Durability ensures persistence post-crash.
 
 ---
 
-## 📰 [COMP-017] **Web Architecture, HTTP Status Codes & Master File Formats Compendium**
+## [COMP-017] **Web Architecture, HTTP Status Codes & Master File Formats Compendium**
 
-🧠 Key Concept — Stateless Request-Response Model of the Web
+ Key Concept — Stateless Request-Response Model of the Web
 The World Wide Web operates primarily on the Client-Server Architecture utilizing HTTP (Hypertext Transfer Protocol). By design,
 HTTP is Stateless: the web server treats every incoming HTTP request as completely independent, retaining no built-in memory of
 prior requests from the same user. To maintain stateful interactions—such as keeping a banking customer logged in across multiple
 account balance pages—web systems utilize Cookies and Server-Side Sessions.
-🌐 The Anatomy of a Uniform Resource Locator (URL)
+ The Anatomy of a Uniform Resource Locator (URL)
 Every resource on the web is located via a standardized address known as a URL (Uniform Resource Locator), which is a
 specific form of URI (Uniform Resource Identifier):
 https:// netbanking. bankofindia.co.in :443 /portal/transfer.php ?acc=98721&mode=neft #confirmation
@@ -2350,7 +2349,7 @@ HTTPS is 443). Omitted in standard user URLs.
 transmit form inputs or filters to dynamic server scripts.
 8. Fragment / Anchor ( #confirmation ): Preceded by # , references a specific internal bookmark or element ID within the
 retrieved HTML document (processed client-side, never transmitted to server).
-🗺 The Hierarchical DNS Resolution Pipeline
+ The Hierarchical DNS Resolution Pipeline
 When a user types a human-readable domain name (e.g., rbi.org.in ) into a web browser, the Domain Name System
 (DNS) resolves it into a machine-routable numerical IP address through a 4-tier query hierarchy:
 
@@ -2376,7 +2375,7 @@ Recursive DNS Resolver (ISP / 8.8.8.8)
 ▼
 ```
 Browser connects directly to Web Server IP via TCP Handshake (SYN -> SYN-ACK -> ACK)
-🔒 HTTP vs HTTPS & The SSL/TLS Handshake
+ HTTP vs HTTPS & The SSL/TLS Handshake
 DIMENSION 	HTTP (HYPERTEXT TRANSFER PROTOCOL) 	HTTPS (HTTP SECURE)
 Default Port 	Port 80 	Port 443
 Security Layer 	Plaintext transmission; zero encryption 	Encrypted via TLS (Transport Layer Security) / SSL
@@ -2396,26 +2395,26 @@ cryptography (RSA or Diffie-Hellman) along with the server's Digital Certificate
 negotiate a temporary, shared secret Symmetric Session Key.
 2. Symmetric Bulk Stream Encryption (Fast, Lightweight): Once the session key is established, all ongoing web traffic
 (banking data, passwords, page content) is encrypted using high-speed symmetric algorithms (e.g., AES-256).
-🚦 The Master HTTP Status Codes Matrix
+ The Master HTTP Status Codes Matrix
 HTTP status codes are 3-digit numerical responses returned by a web server indicating the exact result of the client's request.
 Banking examinations test the major categories and specific status codes:
-1xx 
+1xx
 ```text
 ── Informational (Request received, continuing process)
 ```
-2xx 
+2xx
 ```text
 ── Success (Action successfully received, understood, and accepted)
 ```
-3xx 
+3xx
 ```text
 ── Redirection (Further action required to complete request)
 ```
-4xx 
+4xx
 ```text
 ── Client Error (Request contains bad syntax or cannot be fulfilled)
 ```
-5xx 
+5xx
 ```text
 ── Server Error (Server failed to fulfill an apparently valid request)
 ```
@@ -2460,7 +2459,7 @@ backend server.
 maintenance.
 504 	Gateway Timeout 	Reverse proxy or gateway server did not receive a timely response from upstream database or application
 server.
-🍪 State Persistence: Cookies vs Sessions
+ State Persistence: Cookies vs Sessions
 Because HTTP is a stateless protocol, state persistence is maintained using two distinct mechanisms:
 FEATURE / METRIC 	HTTP COOKIES 	WEB SESSIONS
 Physical Storage
@@ -2489,7 +2488,7 @@ Web Crawlers (Spiders) & robots.txt : Automated scripts operated by search engin
 across the web to build search indexes. Webmasters place a standardized plaintext file named robots.txt in the root directory
 (e.g., bank.com/robots.txt ) specifying the Robots Exclusion Standard to disallow crawlers from indexing private portals or
 admin directories.
-📁 Master File Formats, Encodings & Codecs Compendium
+ Master File Formats, Encodings & Codecs Compendium
 Banking and regulatory exams frequently test the classification, compression mechanisms, and technical extensions of digital
 files:
 1. Image Formats: Raster (Pixel-Based) vs Vector (Math-Based)
@@ -2497,7 +2496,7 @@ files:
 ```text
 ┌── Raster Graphics (Bitmaps: Pixel grids, loss of quality on zoom)
 ```
-Digital Images 
+Digital Images
 ```text
 ──────┤
 └── Vector Graphics (Mathematical vectors: Infinite scaling without loss)
@@ -2615,8 +2614,8 @@ algorithms like DEFLATE or LZMA.
 TAR ( .tar ): Tape Archive (Unix). Packages multiple files into a single archive without compression (frequently paired
 with Gzip to create .tar.gz ).
 
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Default Network Ports: HTTP is Port 80; HTTPS is Port 443. DNS is Port 53.
 2. Authentication vs Authorization Status Codes: 401 Unauthorized = Authentication failure (identity unknown). 403
 Forbidden = Authorization failure (identity known, but access denied).
@@ -2629,14 +2628,14 @@ instrument control instructions (note, duration, tempo).
 
 ---
 
-## 📰 [COMP-018] **PO Mains Algorithmic Flowcharts & Binary Logic Puzzle Patterns**
+## [COMP-018] **PO Mains Algorithmic Flowcharts & Binary Logic Puzzle Patterns**
 
-🧠 Key Concept — Algorithmic Machine Simulation
+ Key Concept — Algorithmic Machine Simulation
 In banking PO Mains, the computer aptitude component tests your ability to function as an infallible human central processing unit
 (CPU). You are presented with an abstract flowchart, machine algorithm, or binary cipher and required to trace the exact state
 changes of memory variables 	through sequential decisions and iterative loops without making single-step off-
 by-one errors.
-📐 Standard ISO / ANSI Flowchart Symbols
+ Standard ISO / ANSI Flowchart Symbols
 Flowcharts represent sequential logical algorithms visually. The International Organization for Standardization (ISO 5807) and
 ANSI standardize their structural symbols:
 Terminal (Start / Stop) 	Input / Output (Data)
@@ -2658,7 +2657,7 @@ Process Box 	Decision Diamond
 ▼ 	\ /
 ```
 On-Page Connector 	\/
-○ A 	
+○ A
 ```text
 │ Yes
 ▼
@@ -2685,7 +2684,7 @@ Pentagon (Home Plate) 	Off-Page
 Connector
 Links a flowchart extending across multiple physical pages or screens.
 Arrow Line 	Flowline 	Indicates the absolute directional sequence of instruction execution.
-🧩 Pattern 1: Multi-Step Algorithmic Flowchart Variable Tracing
+ Pattern 1: Multi-Step Algorithmic Flowchart Variable Tracing
 In PO Mains, candidates are given a complex flowchart with conditional loops and required to answer 3 to 5 multi-step
 questions based on varying inputs.
 (A, B, C, N , Sum)
@@ -2735,7 +2734,7 @@ Yes 	No
 │ 	│
 ▼ 	│
 ```
-[ Bonus = Bonus + 15000 ] 	
+[ Bonus = Bonus + 15000 ]
 ```text
 │
 │ 	│
@@ -2826,7 +2825,7 @@ Step 2: 	is False 	remains ₹5,000.
 Step 3: 	.
 Step 4: 	is False 	.
 Step 5: 	.
-🔣 Pattern 2: Binary-Coded Logic & Machine Translation Tables
+ Pattern 2: Binary-Coded Logic & Machine Translation Tables
 In IBPS/SBI PO Mains, examiners frequently encrypt numerical distances, directions, or arithmetic operators into binary code
 representations using special typographical symbols.
 The PO Mains Symbol Decoding Model:
@@ -2886,14 +2885,14 @@ Decoding Step 2: Translate the statements into Cartesian spatial directions:
 1. 	is 6 meters East of .
 2. 	is 8 meters South of .
 3. 	is 6 meters West of .
-A 
+A
 ```text
 ────── 6m East ────── B
 │ 	│
 │ 	│ 8m South
 │ 	│
 ```
-D 
+D
 ```text
 ────── 6m East ────── C
 ```
@@ -2908,7 +2907,7 @@ Point 	is to the North-East of Point .
 Shortest Euclidean distance between 	and : $$\text{Distance} = \sqrt{6^2 + 8^2} = \sqrt{36 + 64} = \sqrt{100} =
 \mathbf{10\text{ meters}}.$$
 Encoded in binary symbols: 	.
-📄 Pattern 3: Operating System Paging & Cache Replacement Simulations
+ Pattern 3: Operating System Paging & Cache Replacement Simulations
 Tested in Regulatory Body examinations (RBI Assistant / Grade B, NABARD Grade A, Bank IT Specialist Officers), candidates
 are evaluated on calculating Page Faults when a CPU processes memory requests through finite cache page frames.
 Page Replacement Algorithms:
@@ -2946,15 +2945,15 @@ Reference: 	1 	2 	3 	4 	1 	2 	5
 ```text
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
 ```
-Frame 1: 	
+Frame 1:
 ```text
 │ 1 │ 1 │ 1 │ 4 │ 4 │ 4 │ 5 │
 ```
-Frame 2: 	
+Frame 2:
 ```text
 │ - │ 2 │ 2 │ 2 │ 1 │ 1 │ 1 │
 ```
-Frame 3: 	
+Frame 3:
 ```text
 │ - │ - │ 3 │ 3 │ 3 │ 2 │ 2 │
 └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
@@ -2969,8 +2968,8 @@ Fault?: 	M 	M 	M 	M 	M 	M 	M 	(M = Miss / Page Fault, H = Hit)
 6. Request 2 : LRU page is 3 . Replace 3 with 2 	Frame [4, 1, 2] 	Fault (Miss)
 7. Request 5 : LRU page is 4 . Replace 4 with 5 	Frame [5, 1, 2] 	Fault (Miss)
 Total Page Faults under LRU: 7 Faults.
-🎯 EXAM ANGLE & TRAP MATRIX
-🎯 Exam Anchor & High-Yield Traps:
+**EXAM ANGLE:**& TRAP MATRIX
+ Exam Anchor & High-Yield Traps:
 1. Flowchart Decision Exits: A decision diamond must have at least two exit paths (typically True/False). It can never have
 only one exit path.
 2. Loop Reassignment vs Accumulation Trap: In flowchart tracing, pay extreme attention to Sum = A (overwrites variable)

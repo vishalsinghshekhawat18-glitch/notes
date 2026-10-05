@@ -1,9 +1,9 @@
 # TABLE OF CONTENTS & MASTER CURRICULUM
 
-**Treatise**: Contemporary Issues, Banking Regulation & Current Affairs Master Codex  
-**Sovereign Bastion**: Shelf 007 (Isolated Master Knowledge HQ)  
-**Curricular Architecture**: 4 Sovereign Parts • 10 Comprehensive Master Chapters • 178,768 Canonical Words  
-**Authority & Fact Discipline**: Reserve Bank of India Master Directions, Gazette of India, PIB, SEBI, PFRDA, IFSCA, Union Budget & Standard National Anchors  
+**Treatise**: Contemporary Issues, Banking Regulation & Current Affairs Master Codex
+**Sovereign Bastion**: Shelf 007 (Isolated Master Knowledge HQ)
+**Curricular Architecture**: 4 Sovereign Parts • 10 Comprehensive Master Chapters • 178,768 Canonical Words
+**Authority & Fact Discipline**: Reserve Bank of India Master Directions, Gazette of India, PIB, SEBI, PFRDA, IFSCA, Union Budget & Standard National Anchors
 **Target Examinations**: RBI Grade B, SEBI Grade A, NABARD Grade A, SBI PO & IBPS PO/Clerk Mains, UPSC CSE, RPSC RAS
 
 ---
@@ -88,7 +88,7 @@
 * The flagship multi-exam super-dossier designed for high-scoring mastery:
   - 60–65% recency depth (June–September updates, Union Budget, latest RBI directions).
   - 30–35% policy anchors (January–May regulatory notifications, flagship schemes).
-  - High-frequency static anchors, distinction matrices, and 🎯 EXAM ANGLE pitfall warnings.
+  - High-frequency static anchors, distinction matrices, and **EXAM ANGLE:**pitfall warnings.
 
 ### Chapter 10: Computer Aptitude, Digital Banking Systems & Cybersecurity Master
 * Units [COMP-001] to [COMP-018] complete codex:

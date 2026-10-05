@@ -7,15 +7,15 @@
 
 > **EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD**:
 > - **Fact Discipline**: 100% verified against official Gazette notifications, Reserve Bank of India (RBI) circulars, SEBI/IFSCA/IRDAI/PFRDA regulations, MoF determinations, and official bilateral defence releases.
-> - **Format**: Authentic **Rajputana Gazette Broadsheet** layout featuring nested ladder bullets and dedicated **🎯 EXAM ANGLE** distractor traps.
+> - **Format**: Authentic **Rajputana Gazette Broadsheet** layout featuring nested ladder bullets and dedicated ****EXAM ANGLE:**** distractor traps.
 > - **Zero Tickmark Boxes**: Strictly streamlined newsprint broadsheet presentation without interactive task checkboxes.
 > - **Target Exams**: RBI Grade B, SEBI Grade A, IFSCA Grade A, NABARD Grade A, SBI PO & IBPS PO/Clerk Mains 2026.
 
 ---
 
-## 1. 🏛️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS
+## 1. ️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS
 
-📰 [SEP-001] **IFSCA Notifies Market Abuse Regulations 2026 in GIFT IFSC: Replaces SEBI PIT and PFUTP Regimes**
+[SEP-001] **IFSCA Notifies Market Abuse Regulations 2026 in GIFT IFSC: Replaces SEBI PIT and PFUTP Regimes**
 
 - **Genesis & Regulatory Autonomy**: The International Financial Services Centres Authority (**IFSCA**) notified the *IFSCA (Market Abuse) Regulations, 2026*, establishing a dedicated statutory framework to prevent insider trading, market manipulation, and unlawful disclosure of inside information in GIFT City.
 - **Dismantling Domestic SEBI Regime**:
@@ -26,7 +26,7 @@
 - **Statutory Enforcement Powers**:
   - Empowers IFSCA to issue formal warnings, censures, monetary penalties, disgorgement of illegal profits, and suspension or cancellation of registration of intermediaries and listed entities under Section 12 & Section 13 of the *IFSCA Act, 2019*.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Regulatory Replacement: Replaces SEBI PIT 2015 and SEBI PFUTP 2003 in IFSC.
 - Quarterly Disclosure Threshold: Trades above **\$25,000 within 2 business days** (crucial numerical question).
 - Governing Law: **IFSCA Act, 2019** (HQ: GIFT City, Gandhinagar; Chairperson: K. Rajaraman).
@@ -34,7 +34,7 @@
 
 ---
 
-📰 [SEP-002] **PFRDA Mandates 5 Equity-Based Risk Categories for NPS Multiple Scheme Framework (MSF)**
+[SEP-002] **PFRDA Mandates 5 Equity-Based Risk Categories for NPS Multiple Scheme Framework (MSF)**
 
 - **Standardised Risk Classification**: The Pension Fund Regulatory and Development Authority (**PFRDA**) introduced a uniform 5-tier classification system for all schemes under the **Multiple Scheme Framework (MSF)** to simplify subscriber comparison.
 - **The 5 Mandated Equity Categories**:
@@ -45,7 +45,7 @@
   - **Category E**: **0%–10% Equity allocation** → *Debt-oriented / Low Risk*
 - **Portfolio Restructuring**: All existing Pension Fund Managers (PFMs) are mandated to restructure and rename their existing MSF offerings to strictly adhere to these prescribed equity bands and risk nomenclatures.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Highest Equity Slab (Category A): **80%–100%** (Aggressive / Very High Risk).
 - Debt-Oriented Slab (Category E): **0%–10% equity**.
 - Regulator: **PFRDA** (administered under PFRDA Act, 2013; HQ: New Delhi).
@@ -53,7 +53,7 @@
 
 ---
 
-📰 [SEP-003] **SEBI Eases Compliance Norms for Category-I FPIs Investing 100% in Government Securities**
+[SEP-003] **SEBI Eases Compliance Norms for Category-I FPIs Investing 100% in Government Securities**
 
 - **Targeted Regulatory Relief**: Securities and Exchange Board of India (**SEBI**) relaxed granular disclosure and operational norms for Foreign Portfolio Investors (**FPIs**) investing solely in sovereign debt.
 - **Eligibility & Exemption Conditions**:
@@ -61,14 +61,14 @@
   - Exempts eligible sovereign debt FPIs from providing granular beneficial ownership (BO) disclosures mandated under the August 2023 anti-circumvention framework.
   - Substantially lowers compliance turnaround time to encourage foreign capital inflows into fully accessible route (FAR) sovereign bonds post-J.P. Morgan and Bloomberg-EM index inclusion.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Eligible Segment: **Category-I FPIs** with **100% G-Sec / Sovereign debt** holdings.
 - Exempted Requirement: Granular Beneficial Ownership (BO) look-through reporting.
 - Regulatory Anchor: Promulgated under SEBI (Foreign Portfolio Investors) Regulations, 2019.
 
 ---
 
-📰 [SEP-004] **SEBI Proposes Net Settlement for Mutual Fund Scheme Cash Trades & Extends Angel Fund Accredited Norms**
+[SEP-004] **SEBI Proposes Net Settlement for Mutual Fund Scheme Cash Trades & Extends Angel Fund Accredited Norms**
 
 - **Cash Market Net Settlement Proposal**:
   - SEBI issued a consultation paper proposing **net settlement of funds** across mutual fund schemes within the cash market segment.
@@ -77,39 +77,39 @@
   - Extended the compliance deadline for Angel Funds to ensure all contributing investors satisfy the **accredited investor framework**.
   - Existing portfolio investments will remain protected and grandfathered under their original Private Placement Memorandum (PPM) agreements.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Core Mechanism: Shift from gross settlement to **net settlement of funds** for MF schemes in cash equity.
 - Angel Funds: Accredited investor compliance transition extended while grandfathering existing PPMs.
 
 ---
 
-📰 [SEP-005] **SEBI and European Securities and Markets Authority (ESMA) Sign Landmark CCP Cooperation MoU**
+[SEP-005] **SEBI and European Securities and Markets Authority (ESMA) Sign Landmark CCP Cooperation MoU**
 
 - **Cross-Border Market Infrastructure Accord**: SEBI and the European Securities and Markets Authority (**ESMA**) executed a bilateral Memorandum of Understanding on Central Counterparties (**CCPs**).
 - **Strategic Significance & Trade Clearing**:
   - Establishes formal supervisory cooperation and information-exchange protocols regarding qualified Indian Central Counterparties clearing trades for European banks and institutions.
   - Mitigates systemic regulatory friction and ensures uninterrupted cross-border capital flow between the European Union and the Indian clearing ecosystem (Clearing Corporation of India / CCIL).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Bilateral Counterparts: **SEBI (India)** and **ESMA (European Union)**.
 - Subject Matter: Supervision, equivalence, and information sharing on **Central Counterparties (CCPs)**.
 
 ---
 
-📰 [SEP-006] **National Financial Reporting Authority (NFRA) Constitutes Advisory Panel on Audit Quality and Technology**
+[SEP-006] **National Financial Reporting Authority (NFRA) Constitutes Advisory Panel on Audit Quality and Technology**
 
 - **Institutional Modernisation**: The National Financial Reporting Authority (**NFRA**) constituted a high-level **Advisory Committee on Audit Quality, Assurance, and Technology**.
 - **Mandate & Strategic Scope**:
   - Formulate modern auditing standards, enhance supervisory audit inspection methodologies, and institutionalise AI and automated audit analytics tools to detect corporate misstatements.
   - Mandated under Section 132 of the *Companies Act, 2013*.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Regulatory Body: **NFRA** (established October 1, 2018; statutory independent audit regulator under Section 132, Companies Act, 2013).
 - Panel Focus: Audit Quality, Assurance, and Emerging Forensic Technologies.
 
 ---
 
-📰 [SEP-007] **SEBI Introduces IT Resilience Index (ITRI) Framework for Market Infrastructure Institutions (MIIs)**
+[SEP-007] **SEBI Introduces IT Resilience Index (ITRI) Framework for Market Infrastructure Institutions (MIIs)**
 
 - **Genesis & Systemic Risk Oversight**: The Securities and Exchange Board of India (**SEBI**) issued a master circular establishing an **IT Resilience Index (ITRI)** framework for Market Infrastructure Institutions (**MIIs**)—encompassing Stock Exchanges, Clearing Corporations, and Depositories—to continuously assess, audit, and benchmark systemic operational stability and disaster resilience.
 - **The 100-Point Scoring Model Across 9 Parameters**:
@@ -124,7 +124,7 @@
   - **Incident Handling & Root Cause Analysis**: **5% weightage** (mean time to detect/resolve and statutory forensic disclosures).
 - **Implementation Mechanism**: The **Industry Standards Forum (ISF)**, comprising technical leaders from MIIs, has been mandated to formulate standardized assessment metrics, automated data feeds, and quarterly self-assessment scorecards.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Institutional Coverage: Mandatory for all **MIIs** (Stock Exchanges, Clearing Corporations, and Depositories).
 - Dominant Weightage Parameters: **Availability (20%)** and **Cybersecurity (20%)** together constitute 40% of the aggregate index.
 - 5% Weightage Parameters: **Scalability (5%)** and **Incident Handling (5%)** (classic examiner trap).
@@ -133,7 +133,7 @@
 ---
 
 
-📰 [SEP-008] **Bankers’ Books Evidence Act, 2026 to Come into Force on October 1: Modernisation of Digital Judicial Proof**
+[SEP-008] **Bankers’ Books Evidence Act, 2026 to Come into Force on October 1: Modernisation of Digital Judicial Proof**
 - **Statutory Overhaul & Colonial Repeal**: Parliament enacted the **Bankers’ Books Evidence Act, 2026**, officially notified to take effect from **October 1, 2026**, completely repealing and replacing the 135-year-old colonial **Bankers’ Books Evidence Act, 1891**.
 - **Statutory Admissibility of Electronic Records**:
   - Formally establishes printouts, encrypted digital ledgers, cloud-hosted Core Banking Solution (CBS) databases, and electronic transaction audit trails as **primary admissible evidence** in all civil and criminal judicial proceedings without requiring physical ledger production.
@@ -142,7 +142,7 @@
   - Mandates that digital evidence certificates must be signed by the principal accountant, branch manager, or authorized IT compliance officer of the bank verifying system integrity.
   - Grants legal protection to bank personnel against routine personal court appearances where certified electronic records are presented.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Effective Date: **October 1, 2026**.
 - Repealed Law: **Bankers’ Books Evidence Act, 1891** (135-year-old statute).
@@ -151,7 +151,7 @@
 
 ---
 
-📰 [SEP-009] **SEBI Unveils 'Demat 2.0' Pilot: Tokenised Corporate Debt on DLT & Wholesale CBDC (e₹)**
+[SEP-009] **SEBI Unveils 'Demat 2.0' Pilot: Tokenised Corporate Debt on DLT & Wholesale CBDC (e₹)**
 - **Next-Generation Market Infrastructure**: At the Global Fintech Fest (GFF) 2026 in Mumbai, the Securities and Exchange Board of India (**SEBI**) announced the rollout of **“Demat 2.0”**—a flagship pilot project testing the tokenisation of corporate bonds.
 - **Distributed Ledger Architecture**:
   - The pilot enables the end-to-end issuance, trading, holding, and delivery-versus-payment (DvP) settlement of corporate bonds as digital tokens recorded on a shared **Distributed Ledger Technology (DLT)** network.
@@ -159,7 +159,7 @@
 - **Integration with Wholesale Digital Rupee (e₹-W)**:
   - Demat 2.0 is directly bridged to the Reserve Bank of India’s **wholesale Central Bank Digital Currency (CBDC / Digital Rupee e₹)** via the Unified Market Interface, achieving real-time atomic settlement and eliminating counterparty settlement risk.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Project Name: **Demat 2.0** (initiated by SEBI).
 - Asset Class Tested: **Tokenised Corporate Bonds**.
@@ -169,7 +169,7 @@
 
 ---
 
-📰 [SEP-010] **FIU-IND Cracks Down on 15 Offshore Virtual Digital Asset (VDA) Service Providers under PMLA**
+[SEP-010] **FIU-IND Cracks Down on 15 Offshore Virtual Digital Asset (VDA) Service Providers under PMLA**
 - **Sovereign AML/CFT Enforcement**: The **Financial Intelligence Unit - India (FIU-IND)** issued formal show-cause notices and initiated restrictive compliance proceedings against **15 offshore Virtual Digital Asset (VDA) service providers** and crypto platforms operating without mandatory registration.
 - **Statutory Mandate & Reporting Hierarchy**:
   - Established in **2004** as an independent central national agency under the Department of Revenue, Ministry of Finance.
@@ -178,7 +178,7 @@
 - **Mandatory PMLA Registration Norms**:
   - All domestic and offshore VDA entities serving Indian residents are legally mandated to register as Reporting Entities under the **Prevention of Money Laundering Act (PMLA), 2002**, maintain 5-year KYC transaction logs, and report high-risk wallet transfers.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Institutional Origin: **FIU-IND** established in **2004** under Department of Revenue, Ministry of Finance.
 - Governing Council: Reports directly to the **Economic Intelligence Council (EIC)** headed by the **Union Finance Minister**.
@@ -186,7 +186,7 @@
 - Target MCQ Form: "To which high-level council headed by the Union Finance Minister does the Financial Intelligence Unit - India (FIU-IND) report directly?" → **Economic Intelligence Council (EIC)**.
 
 ---
-📰 [SEP-011] **IRDAI Authorises Indian Insurers to Invest in New Development Bank's 'Maharajah INR Bonds' (₹25,000 Cr Outlay)**
+[SEP-011] **IRDAI Authorises Indian Insurers to Invest in New Development Bank's 'Maharajah INR Bonds' (₹25,000 Cr Outlay)**
 
 - **Genesis & Regulatory Clearance**: The Insurance Regulatory and Development Authority of India (**IRDAI**) formally permitted Indian life and general insurance companies to invest in **"Maharajah INR Bonds"**—the proposed onshore rupee-denominated bond programme of the **New Development Bank (NDB)**.
 - **Programme Outlay & Tenor**:
@@ -202,7 +202,7 @@
   - *Maharajah Bonds*: Rupee-denominated debt instruments issued *onshore within Indian domestic capital markets* by multilateral or supranational development banks to mobilise domestic institutional savings.
 - **Institutional Profile of NDB**: Established in July 2014 by BRICS nations (operationalized 2015; HQ: Shanghai, China; President: Dilma Rousseff; 11 member nations: Brazil, Russia, India, China, South Africa, Bangladesh, UAE, Egypt, Algeria, Colombia, Uzbekistan).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Category Codes: **`EORB`** (NDB Onshore Rupee Bonds) and **`IORB`** (Infrastructure-Approved Bonds).
 - Fundamental Concept: Maharajah Bonds are issued *onshore within India*; Masala Bonds are issued *offshore outside India*.
@@ -212,7 +212,7 @@
 
 ---
 
-📰 [SEP-012] **PFRDA Standardises Point of Presence (PoP) Charge Architecture Across National Pension System (NPS)**
+[SEP-012] **PFRDA Standardises Point of Presence (PoP) Charge Architecture Across National Pension System (NPS)**
 
 - **Comprehensive Charge Realignment**: The Pension Fund Regulatory and Development Authority (**PFRDA**) notified a standardised charge framework applicable to Point of Presence (**PoP**) entities under the **National Pension System (NPS)** and NPS Lite via circular titled *Standardised framework for classification and presentation of schemes under NPS*.
 - **Dismantling Legacy Dual Regimes**:
@@ -223,7 +223,7 @@
   - Mandates digital onboarding fees to be strictly segregated from physical offline document submission fees to incentivize paperless e-NPS adoption.
   - Directs all registered PoPs (commercial banks, NBFCs, and fintech intermediaries) to display standardized service charges on web portals and mobile apps without hidden processing levies.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Regulatory Authority: **PFRDA** (governed under PFRDA Act, 2013; HQ: New Delhi).
 - Core Reform: Dismantles differential charge tiers between common schemes and Multiple Scheme Framework (MSF) under NPS.
@@ -232,7 +232,7 @@
 
 ---
 
-📰 [SEP-013] **DoCA Notifies Legal Metrology (Indian Standard Time) Rules, 2026 under Section 52 of Legal Metrology Act, 2009**
+[SEP-013] **DoCA Notifies Legal Metrology (Indian Standard Time) Rules, 2026 under Section 52 of Legal Metrology Act, 2009**
 
 - **Statutory Mandate & Uniform Reference**: The Department of Consumer Affairs (**DoCA**), Ministry of Consumer Affairs, Food and Public Distribution, notified the *Legal Metrology (Indian Standard Time) Rules, 2026*, framed under **Section 52 of the Legal Metrology Act, 2009**. The Rules establish Indian Standard Time (**IST**) as the single, uniform legal reference for all legal, administrative, commercial, and official purposes across India, prohibiting alternative time references unless expressly authorized.
 - **Transition Window & Synchronisation Protocols**:
@@ -245,7 +245,7 @@
   - Directs critical infrastructure (banking networks, stock exchanges, digital payment systems, telecommunications, railways, power grids, and statutory registries) to synchronise via **NavIC** (Navigation with Indian Constellation) and approved indigenous timing sources, mitigating dependency on foreign satellite navigation constellations such as US GPS.
   - Follows the commissioning of a national demonstration timing network utilizing **White Rabbit technology** at the Regional Reference Standard Laboratory (**RRSL**) in Bengaluru in July 2026.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Governing Statutory Clause: **Section 52 of the Legal Metrology Act, 2009**.
 - Transition Period: **180 days** from publication in the Official Gazette.
 - Statutory Custodian of Time: **CSIR-National Physical Laboratory (CSIR-NPL)** (*High-yield trap: not ISRO, not IMD*).
@@ -254,9 +254,9 @@
 
 ---
 
-## 2. 🏦 BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS
+## 2. BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS
 
-📰 [SEP-014] **Coastal Local Area Bank Admitted to Second Schedule of RBI Act, 1934: India's First Scheduled LAB**
+[SEP-014] **Coastal Local Area Bank Admitted to Second Schedule of RBI Act, 1934: India's First Scheduled LAB**
 
 - **Historic Scheduled Status**: The Reserve Bank of India officially accorded **Scheduled Bank status** to **Coastal Local Area Bank Limited (Coastal LAB)**.
 - **Inclusion in Second Schedule**:
@@ -266,7 +266,7 @@
   - Eligible to access RBI's liquidity windows, including the **Liquidity Adjustment Facility (LAF)**, repo auctions, and Marginal Standing Facility (MSF).
   - Authorized to participate in primary clearing houses, undertake government agency banking, and issue commercial certificates of deposit (CDs).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Institution: **Coastal Local Area Bank (Coastal LAB)**.
 - Headquarters: **Vijayawada, Andhra Pradesh**.
 - Milestone: **First Local Area Bank (LAB)** in India to receive Scheduled Bank status.
@@ -275,7 +275,7 @@
 
 ---
 
-📰 [SEP-015] **Ministry of Finance Secures \$1 Billion IFC Financing to Catalyse Long-Term MSME Credit**
+[SEP-015] **Ministry of Finance Secures \$1 Billion IFC Financing to Catalyse Long-Term MSME Credit**
 
 - **Multilateral MSME Credit Accord**: The Ministry of Finance secured a **\$1 Billion (approx. ₹8,400 crore)** credit facility from the International Finance Corporation (**IFC**), the private-sector investment arm of the World Bank Group.
 - **Direct Capital Infusion to SIDBI**:
@@ -283,41 +283,41 @@
 - **Targeted Deployment**:
   - Dedicated to extending long-term, fixed-rate loans for MSME capital expenditure, industrial modernization, clean energy adoption, and technology acquisition.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Total Accord Size: **USD 1 Billion**.
 - Tranche Disbursed to SIDBI: **USD 500 Million**.
 - Multilateral Institution: **International Finance Corporation (IFC)** (HQ: Washington, D.C.; World Bank Group).
 
 ---
 
-📰 [SEP-016] **RBI Launches Quarterly Monetary Policy Input Surveys: CCS, IESH, and Rural RCCS Battery**
+[SEP-016] **RBI Launches Quarterly Monetary Policy Input Surveys: CCS, IESH, and Rural RCCS Battery**
 
 - **Statutory Forecasting Inputs**: Ahead of the upcoming Monetary Policy Committee (**MPC**) bi-monthly review, the RBI rolled out its quarterly survey battery across 19 major cities and rural belts:
   1. **Consumer Confidence Survey (CCS)**: Assesses urban household perceptions and 1-year expectations regarding general economic conditions, employment, prices, and spending.
   2. **Inflation Expectations Survey of Households (IESH)**: Gauges qualitative and quantitative inflation projections over 3-month and 1-year horizons across 6,000+ urban households.
   3. **Rural Consumer Confidence Survey (RCCS)**: Captures rural household economic confidence, agricultural wages, and discretionary consumption indices.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Three Anchor Surveys: **CCS, IESH, and RCCS**.
 - Primary Policy Destination: Acts as direct empirical input for the 6-member **Monetary Policy Committee (MPC)** benchmark rate determination.
 
 ---
 
-📰 [SEP-017] **RBI Permits Urban Co-operative Banks (UCBs) to Acquire Equity Shares in IDPIC for Membership**
+[SEP-017] **RBI Permits Urban Co-operative Banks (UCBs) to Acquire Equity Shares in IDPIC for Membership**
 
 - **Prudential Investment Norm Relaxation**: The Reserve Bank of India amended investment directions for **Urban Co-operative Banks (UCBs)**.
 - **Scope of Amendment**:
   - Permits UCBs to subscribe to equity shares of the **Indian Depositors Pension and Insurance Corporation (IDPIC)** to obtain institutional membership.
   - Exempts this targeted equity acquisition from the aggregate regulatory ceiling on UCB investments in non-SLR securities and commercial equity, subject to specific capital adequacy safeguards.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Regulated Entity: **Urban Co-operative Banks (UCBs)**.
 - Approved Equity Subscription: **IDPIC** (for institutional membership).
 - Regulatory Waiver: Carve-out from standard commercial non-SLR equity exposure limits.
 
 ---
 
-📰 [SEP-018] **RBI Approves LIC Stake Acquisition Up to 9.99% in ICICI Bank & Imposes ₹26.82 Lakh Fine on CIBIL**
+[SEP-018] **RBI Approves LIC Stake Acquisition Up to 9.99% in ICICI Bank & Imposes ₹26.82 Lakh Fine on CIBIL**
 
 - **LIC's Strategic Banking Stake**:
   - The RBI approved **Life Insurance Corporation of India (LIC)** to acquire up to **9.99% of the paid-up share capital or voting rights in ICICI Bank**.
@@ -326,14 +326,14 @@
 - **Enforcement Penalty on Credit Bureau**:
   - RBI slapped a monetary penalty of **₹26.82 lakh on TransUnion CIBIL Limited** under Section 25 of the *Credit Information Companies (Regulation) Act, 2005 (CICRA)* for non-compliance with statutory credit reporting and consumer data resolution timelines.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Permissible Cap for LIC: Up to **9.99% voting rights / share capital** in ICICI Bank.
 - Acquisition Window: Must be executed within **1 year**.
 - Penalty Target: **TransUnion CIBIL** penalised **₹26.82 lakh** under CICRA 2005.
 
 ---
 
-📰 [SEP-019] **India Post Payments Bank (IPPB) Celebrates 9th Foundation Day: ₹100 Crore Profit & New FinTech Battery**
+[SEP-019] **India Post Payments Bank (IPPB) Celebrates 9th Foundation Day: ₹100 Crore Profit & New FinTech Battery**
 
 - **Institutional Genesis & Milestones**: India Post Payments Bank (**IPPB**) marked its **9th Foundation Day** on September 1, 2026 (launched nationwide on September 1, 2018 under Department of Posts).
 - **Sovereign Network & Cumulative Financial Metrics**:
@@ -345,7 +345,7 @@
   - **“Digital Insurance Technology Platform”**: Seamless open architecture connecting rural and semi-urban citizens to Life, Health, and General Insurance policies.
   - **“Digital Mutual Fund Platform”**: Direct paperless mutual fund and micro-SIP investment engine tailored for tier-3 to tier-6 unbanked corridors.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Foundation Day: **September 1, 2018 (9th Foundation Day in 2026)**.
 - Cumulative Volume Milestone: **₹21.61 Lakh Crore** total transactions processed.
 - Newly Unveiled Products: **DakPay Sound Box**, **Digital Insurance Technology Platform**, and **Digital Mutual Fund Platform**.
@@ -353,7 +353,7 @@
 
 ---
 
-📰 [SEP-020] **Credit Ratings & Banking Operations: S&P Assigns 'BBB' to BoI & Bandhan Bank Enters Credit Cards**
+[SEP-020] **Credit Ratings & Banking Operations: S&P Assigns 'BBB' to BoI & Bandhan Bank Enters Credit Cards**
 
 - **S&P Global Ratings for Bank of India (BoI)**:
   - S&P assigned an investment-grade **'BBB' long-term and 'A-2' short-term issuer rating** to public sector lender **Bank of India (BoI)** with a Stable Outlook, citing robust systemic capital buffers, low-cost deposit franchise, and sustained asset quality recovery.
@@ -366,14 +366,14 @@
 - **SBI & Bisleri 'Bottles for Change' Accord**:
   - State Bank of India partnered with Bisleri International to institutionalize PET plastic waste recycling across its national branch network under the *"Bottles for Change"* initiative.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - S&P Rating: **'BBB' investment grade** assigned to Bank of India.
 - Indian Bank Overseas Outpost: **Dubai, UAE**.
 - Axis Bank Program: **'ARISE Homecoming'** (career returnship initiative).
 
 ---
 
-📰 [SEP-021] **RBI Relaxes Concessional USD-INR Swap Access Norms & Appoints Suman Ray as Executive Director**
+[SEP-021] **RBI Relaxes Concessional USD-INR Swap Access Norms & Appoints Suman Ray as Executive Director**
 
 - **Forex Swap Window Liberalisation**: The Reserve Bank of India (**RBI**) relaxed the access rules for its concessional **USD-INR foreign exchange swap facility** linked to Foreign Currency Non-Resident (Bank) / **FCNR(B)** deposits.
 - **The \$100 Million Exemption Architecture**:
@@ -383,7 +383,7 @@
   - RBI appointed career central banker **Suman Ray** as **Executive Director (ED)** effective September 1, 2026 (elevated from Regional Director for Maharashtra).
   - Assigned Portfolios: Appointed to head the **Department of DICGC** (Deposit Insurance and Credit Guarantee Corporation) and the **Premises Department**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Swap Access Threshold: Transactions **above \$100 Million** can be executed on any business day (transactions ≤ \$100M stay on weekly allocated day).
 - Underlying Anchor: Concessional forex swap facility linked to **FCNR(B) deposits**.
 - Suman Ray's Central Bank Portfolios: **Department of DICGC** and **Premises Department**.
@@ -391,7 +391,7 @@
 
 ---
 
-📰 [SEP-022] **State Bank of India Revises BSBDA Branch Cash Withdrawal Fee Architecture Effective October 1, 2026**
+[SEP-022] **State Bank of India Revises BSBDA Branch Cash Withdrawal Fee Architecture Effective October 1, 2026**
 
 - **Regulatory Scope & Product Code**: State Bank of India (**SBI**) issued a customer directive revising the cash withdrawal charge matrix for **Basic Savings Bank Deposit Accounts (BSBDA)** under **Product Code 1011-1701**, taking effect on **October 1, 2026**.
 - **Revised Withdrawal Entitlements & Surcharges**:
@@ -400,7 +400,7 @@
 - **Absolute Exemption for Digital Channels**:
   - SBI clarified that alternative banking channels—including **UPI transactions, ATM cash withdrawals, and Net/Mobile Banking (NEFT/IMPS)**—remain 100% free and do not count toward the 4-withdrawal monthly quota.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Effective Date: **October 1, 2026**.
 - Monthly Free Branch Transactions: **4 withdrawals**.
 - Post-Limit Flat Fee: **₹15 + applicable GST per withdrawal**.
@@ -409,7 +409,7 @@
 
 ---
 
-📰 [SEP-023] **Reserve Bank of India (PSL – Targets and Classification) Third Amendment Directions, 2026 (RBI/2026-27/256)**
+[SEP-023] **Reserve Bank of India (PSL – Targets and Classification) Third Amendment Directions, 2026 (RBI/2026-27/256)**
 
 - **Genesis & Statutory Notification**: Notified by the Reserve Bank of India on **September 11, 2026** (Ref: *RBI/2026-27/256*), amending the *Master Direction – Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025*.
 - **Advance in Terminal Cut-Off Date for ANBC Exemption**:
@@ -421,7 +421,7 @@
 - **Ceiling & Regulatory Alignment**:
   - Total amount excluded from ANBC for priority sector target computation cannot exceed the fresh outstanding FCNR(B) or NRE deposits eligible for CRR/SLR exemption under corresponding RBI liquidity directives.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Notification Date: **September 11, 2026** (Circular Ref: *RBI/2026-27/256*).
 - Revised Cut-Off Date: Mobilization terminal date advanced to **August 31, 2026** (earlier September 30, 2026).
 - Minimum Tenor Requirement: FCNR(B) = **3 to 5 years**; NRE = **3 years or more**.
@@ -429,7 +429,7 @@
 
 ---
 
-📰 [SEP-024] **Reserve Bank of India (Local Area Banks – CRR and SLR) Second Amendment Directions, 2026 (RBI/2026-27/255)**
+[SEP-024] **Reserve Bank of India (Local Area Banks – CRR and SLR) Second Amendment Directions, 2026 (RBI/2026-27/255)**
 
 - **Regulatory Harmonization**: Issued by the RBI on **September 11, 2026** (Ref: *RBI/2026-27/255*), amending the statutory liquidity management framework for **Local Area Banks (LABs)** under Section 24 and Section 42 of the Banking Regulation Act, 1949.
 - **Reporting Cycle & Liquidity Synchronization**:
@@ -439,7 +439,7 @@
   - Focuses supervisory rigor on India's operational Local Area Banks (including *Coastal Local Area Bank Ltd.* and *Krishna Bhima Samruddhi Local Area Bank Ltd.*).
   - Maintains mandatory CRR holding in current account with RBI and SLR in approved sovereign securities.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Notification Date: **September 11, 2026** (Ref: *RBI/2026-27/255*).
 - Regulated Entities: **Local Area Banks (LABs)** (niche banks introduced in 1996 to mobilize rural/semi-urban savings across contiguous districts).
 - Statutory Baseline: Section 24 (SLR) and Section 42 (CRR) of the Banking Regulation Act.
@@ -448,7 +448,7 @@
 ---
 
 
-📰 [SEP-025] **IDFC FIRST Bank Becomes India's First Lender to Eliminate Forex Markup Across All Credit Cards**
+[SEP-025] **IDFC FIRST Bank Becomes India's First Lender to Eliminate Forex Markup Across All Credit Cards**
 - **Pioneering Retail FX Disruption**: **IDFC FIRST Bank** became the first commercial bank in India to introduce **Zero Forex Markup** across its entire existing and newly issued credit card portfolio.
 - **Consumer Cost Relief**:
   - Standard commercial credit cards in India levy a foreign currency conversion/markup fee ranging from **1.5% to 3.5% plus GST** on overseas POS transactions and international e-commerce billings.
@@ -458,7 +458,7 @@
   - Genesis: Founded following the landmark reverse merger between **IDFC Bank** and non-bank retail financing powerhouse **Capital First** in **December 2018**.
   - Leadership: Managing Director and CEO is **V. Vaidyanathan**; Part-Time Non-Executive Chairperson is **Sanjeeb Chaudhuri**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - First Bank with Zero Forex Markup on All Cards: **IDFC FIRST Bank**.
 - Typical Industry Fee Abolished: **1.5% to 3.5%** foreign transaction markup.
@@ -468,7 +468,7 @@
 
 ---
 
-📰 [SEP-026] **Maldives Clears Final \$50M Tranche to Repay US\$150M SBI Facility: India Borne \$45M Sovereign Interest**
+[SEP-026] **Maldives Clears Final \$50M Tranche to Repay US\$150M SBI Facility: India Borne \$45M Sovereign Interest**
 - **Full Debt Retirement**: The Government of Maldives successfully completed the final repayment of a **US\$50 Million tranche** on September 17, 2026, marking the complete settlement of the **US\$150 Million Treasury Bill (T-bill) facility** extended through the State Bank of India (**SBI**).
 - **India's Sovereign Financial Relief Package**:
   - The original T-bill facility was subscribed by SBI in **2019** to support Male’s budgetary stability during severe foreign exchange liquidity crises.
@@ -477,7 +477,7 @@
   - To prevent future balance of payments stress, India has extended a bilateral **₹3,000 Crore currency swap facility** to the Maldives Monetary Authority (MMA).
   - Additionally, the Government of India has subscribed to **\$350 Million worth of Maldivian sovereign Treasury Bonds (T-Bonds)** with extended tenures maturing in **2029 and 2030**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Retired T-Bill Facility: **US\$150 Million** subscribed by SBI (final \$50M repaid September 2026).
 - Interest Borne by India: **Nearly US\$45 Million** in sovereign interest support over 5 years.
@@ -486,7 +486,7 @@
 - Target MCQ Form: "How much interest assistance did the Government of India absorb to support the Maldives in servicing its US\$150 Million SBI T-bill facility?" → **Nearly US\$45 Million**.
 
 ---
-📰 [SEP-027] **Pradhan Mantri Jan Dhan Yojana (PMJDY) Completes 12 Years: Accounts Cross 59.09 Crore & Deposits Touch ₹2.31 Lakh Crore**
+[SEP-027] **Pradhan Mantri Jan Dhan Yojana (PMJDY) Completes 12 Years: Accounts Cross 59.09 Crore & Deposits Touch ₹2.31 Lakh Crore**
 
 - **12-Year National Milestone**: Launched by Prime Minister Narendra Modi on **August 28, 2014**, as the world's largest financial inclusion mission, PMJDY completed 12 years of nationwide operationalization under the Department of Financial Services (DFS), Ministry of Finance.
 - **Four-Fold Account Growth Trajectory**:
@@ -502,7 +502,7 @@
   - Total RuPay Debit Cards issued: **36.86 crore cards**, bundled with built-in **₹2 lakh free accidental death insurance coverage** (for cards issued post-August 28, 2018; ₹1 lakh for earlier cards).
   - Overdraft (OD) facility: Up to **₹10,000** (with no conditional assessment for amounts up to ₹2,000; upper age ceiling 65 years).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Total PMJDY Accounts: **59.09 crore accounts** (August 2026).
 - Rural/Semi-Urban Share: **77.8% (45.95 crore accounts)**.
@@ -513,7 +513,7 @@
 
 ---
 
-📰 [SEP-028] **Bank of Baroda Launches 'UPI Global Reverse Acceptance' for International Tourists & Foreign Wallets**
+[SEP-028] **Bank of Baroda Launches 'UPI Global Reverse Acceptance' for International Tourists & Foreign Wallets**
 
 - **Cross-Border P2M Inbound Architecture**: Bank of Baroda (**BoB**) rolled out **UPI Global Reverse Acceptance**, enabling inbound international tourists, overseas Indians, and eligible foreign wallet/banking application users to make seamless QR-based merchant payments across India by scanning Bank of Baroda’s merchant UPI QR codes with their home-country payment apps.
 - **NPCI International Alignment**:
@@ -524,13 +524,13 @@
 - **Institutional Profile**:
   - Bank of Baroda (HQ: Vadodara, Gujarat; MD & CEO: Debadatta Chand; Tagline: *"India's International Bank"*).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Pioneering PSU Bank: **Bank of Baroda (BoB)** (HQ: Vadodara; MD & CEO: Debadatta Chand).
 - Transaction Architecture: Cross-border **Person-to-Merchant (P2M)** transactions for foreign inbound travelers.
 - Global Footprint Base: UPI operational across **11 countries** worldwide.
 - Target MCQ Form: "Which public sector bank launched 'UPI Global Reverse Acceptance' to enable inbound foreign travelers to pay Indian merchants via domestic UPI QR codes?" → Bank of Baroda.
 
-📰 [SEP-029] **Tata Capital & Japan's Resona Bank Ink Strategic MoU: Launches Dedicated 'Japan Desk' & Bilateral Financing**
+[SEP-029] **Tata Capital & Japan's Resona Bank Ink Strategic MoU: Launches Dedicated 'Japan Desk' & Bilateral Financing**
 
 - **Bilateral Cross-Border Syndicate**: Tata Capital Limited, one of India’s premier diversified Non-Banking Financial Companies (**NBFCs**), signed a strategic Memorandum of Understanding (MoU) with Japan’s **Resona Bank** to facilitate Japanese corporate expansion, foreign direct investment (FDI), and industrial ventures in the Indian market.
 - **Operational Framework & Japan Desk**:
@@ -540,7 +540,7 @@
   - Tata Capital (HQ: Mumbai; MD & CEO: Rajiv Sabharwal; Chairman: Saurabh Agrawal).
   - Resona Bank (HQ: Osaka/Tokyo, Japan; leading retail and commercial banking group).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Institutional Counterparties: **Tata Capital** and **Resona Bank** (Japan).
 - Prior Strategic Investment: **\$20 million** LP commitment in Tata Capital Growth Fund III LP.
 - Dedicated Facility: Japanese-language **"Japan Desk"** for corporate advisory and rupee financing.
@@ -548,9 +548,9 @@
 
 ---
 
-## 3. 💳 DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE
+## 3. DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE
 
-📰 [SEP-030] **Prime Minister Inaugurates Global Fintech Fest (GFF) 2026: Unveils 4-Point Strategic Fintech Roadmap**
+[SEP-030] **Prime Minister Inaugurates Global Fintech Fest (GFF) 2026: Unveils 4-Point Strategic Fintech Roadmap**
 
 - **Flagship Convergence**: Prime Minister Narendra Modi inaugurated the 5th edition of the **Global Fintech Fest (GFF) 2026** at the Jio World Convention Centre, **Mumbai**.
 - **The 4-Point Strategic Fintech Charter**:
@@ -561,28 +561,28 @@
 - **Next-Generation Tech Deployments**:
   - Showcased national applications of **Agentic AI** in underwriting, decentralized **Tokenisation**, and **Post-Quantum Cryptography** standards for interbank settlement.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Venue: **Mumbai, Maharashtra**.
 - Key Charter: **4-Point Fintech Roadmap** (Cybersecurity, Data Protection, Innovation Sandbox, Consumer Protection Index).
 - Frontline Themes: **Agentic AI, Quantum Resistance, and Tokenised Settlements**.
 
 ---
 
-📰 [SEP-031] **Jio Payment Solutions Secures RBI PA-CB Clearance: Partners with Citi for Global Exporter Collections**
+[SEP-031] **Jio Payment Solutions Secures RBI PA-CB Clearance: Partners with Citi for Global Exporter Collections**
 
 - **Cross-Border Aggregator Licence**: Jio Payment Solutions Limited (**JPSL**), a subsidiary of Jio Financial Services, secured formal authorization from the Reserve Bank of India to operate as a **Payment Aggregator for Cross-Border (PA-CB) transactions** for both export and import legs.
 - **Strategic Partnership with Citi**:
   - Partnered with **Citibank N.A. (Citi)** as its Authorised Dealer Category-1 (AD Cat-1) partner.
   - Empowers Indian exporters to accept multi-currency collections through virtual accounts, global payment schemes, and international commercial credit cards.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Entity: **Jio Payment Solutions Limited (JPSL)**.
 - Licence Acquired: **RBI PA-CB (Payment Aggregator - Cross-Border)** for export & import.
 - AD Category-1 Banking Partner: **Citi (Citibank)**.
 
 ---
 
-📰 [SEP-032] **NPCI International Partners with HUMO in Uzbekistan: Expands UPI QR Footprint to 11 Nations**
+[SEP-032] **NPCI International Partners with HUMO in Uzbekistan: Expands UPI QR Footprint to 11 Nations**
 
 - **Central Asian Strategic Foothold**: NPCI International Payments Limited (**NIPL**), the international arm of the National Payments Corporation of India, signed a definitive commercial agreement with Uzbekistan's **National Interbank Processing Centre JSC (NIPC - HUMO)**, operator of the national payment switch HUMO.
 - **UZQR Interoperability & Bilateral Clearances**:
@@ -592,7 +592,7 @@
   - With Uzbekistan's formal operationalisation, UPI merchant payments are now officially live across **11 countries**:
     **Singapore, UAE, France, Mauritius, Nepal, Bhutan, Qatar, Sri Lanka, Cambodia, Greece, and Uzbekistan**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Partner Entity: **NIPC - HUMO (Uzbekistan)** (operator of HUMO payment system).
 - Interoperable Standard: **UZQR**.
 - Official 11 UPI Nations: Singapore, UAE, France, Mauritius, Nepal, Bhutan, Qatar, Sri Lanka, Cambodia, Greece, Uzbekistan.
@@ -600,7 +600,7 @@
 
 ---
 
-📰 [SEP-033] **Fintech Rollouts: PhonePe & Visa GFF Solutions, PayGlocal 'Flash', RNFI Services PA Nod & India's 1st Tokenised Bond**
+[SEP-033] **Fintech Rollouts: PhonePe & Visa GFF Solutions, PayGlocal 'Flash', RNFI Services PA Nod & India's 1st Tokenised Bond**
 
 - **PhonePe and Visa Triple Solution at GFF 2026**:
   - Unveiled three joint solutions:
@@ -616,14 +616,14 @@
 - **WhatsApp In-App Utility Bill Payments**:
   - Meta rolled out full-suite BBPS utility bill payments (FASTag recharges, electricity, water, municipal tax) directly inside WhatsApp chats.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - First Indian App with Cross-Border Visa QR: **PhonePe** (operational across 14 countries).
 - In-Principle PA Nod: **RNFI Services**.
 - Atomic Settlement Milestone: India's first **Tokenised Bond** on DLT.
 
 ---
 
-📰 [SEP-034] **IRDAI Proposes Public Insurance Registry (PIR) & Slaps ₹1 Crore Penalty on ICICI Lombard**
+[SEP-034] **IRDAI Proposes Public Insurance Registry (PIR) & Slaps ₹1 Crore Penalty on ICICI Lombard**
 
 - **Public Insurance Registry (PIR) Blueprint**:
   - The Insurance Regulatory and Development Authority of India (**IRDAI**) floated an exposure draft proposing the establishment of a **Public Insurance Registry (PIR)**.
@@ -633,14 +633,14 @@
 - **LIC Launches 'Bima Platinum' & 'Jeevan Raksha' Plans**:
   - Life Insurance Corporation of India launched two distinct products: *LIC Bima Platinum* (guaranteed savings) and *LIC Jeevan Raksha* (low-cost term cover).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Digital Infrastructure: **Public Insurance Registry (PIR)** proposed by IRDAI.
 - Monetary Penalty: **₹1 Crore** levied on **ICICI Lombard**.
 - Regulatory Body: **IRDAI** (Insurance Act 1938 / IRDA Act 1999; HQ: Hyderabad; Chairman: Debasish Panda).
 
 ---
 
-📰 [SEP-035] **Bank of Baroda Unveils 'UPI Global Reverse Acceptance' for Inbound International Travellers**
+[SEP-035] **Bank of Baroda Unveils 'UPI Global Reverse Acceptance' for Inbound International Travellers**
 
 - **First-in-Market Cross-Border P2M Milestone**: Bank of Baroda (**BoB**) launched **“UPI Global Reverse Acceptance”**, becoming the first public sector bank in India to operationalise inbound QR payments for foreign tourists, international business delegations, and Non-Resident Indians (NRIs) arriving in India.
 - **Operational Architecture**:
@@ -648,7 +648,7 @@
   - Foreign digital wallets or international bank apps are debited directly in foreign currency, while the Indian merchant instantly receives settlement in Indian Rupees (**INR**), eliminating physical currency conversion and point-of-sale foreign card markups.
 - **Strategic Network Convergence**: Directly integrated with **NPCI International Payments Limited (NIPL)**, expanding financial interconnectivity across India's merchant corridors.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Distinctive Concept: **Reverse Acceptance** = Inbound international travellers spending in India via UPI QR codes (as opposed to Indian tourists spending UPI abroad).
 - First Public Sector Bank: **Bank of Baroda** (Vadodara, Gujarat; MD & CEO: Debadatta Chand; Tagline: "India's International Bank").
 - Infrastructure Backing: **NPCI International Payments Limited (NIPL)**.
@@ -656,7 +656,7 @@
 
 ---
 
-📰 [SEP-036] **NCDEX Launches 'RAINCHNNAI': India's First Weather Index Monsoon Futures Derivative**
+[SEP-036] **NCDEX Launches 'RAINCHNNAI': India's First Weather Index Monsoon Futures Derivative**
 
 - **Pioneering Climate Derivative**: The National Commodity and Derivatives Exchange (**NCDEX**), regulated by SEBI, launched **“RAINCHNNAI”**, India's first weather index futures derivative contract, with trading commencing on August 31, 2026.
 - **Hedging Chennai's Northeast Monsoon**:
@@ -667,7 +667,7 @@
   - **Tick Size & Lot Constraints**: Minimum tick size of **1 millimetre**; maximum single order lot size restricted to **50 lots**.
   - **Settlement**: Strictly **cash-settled** against cumulative precipitation deviations; trading runs Monday through Friday between 10:00 AM and 11:30 PM / 11:55 PM.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Exchange: **NCDEX** (National Commodity and Derivatives Exchange; HQ: Mumbai).
 - Specific Meteorological Target: **Northeast Monsoon** (retreating monsoon affecting Tamil Nadu).
 - Index Model: **Cumulative Deviation Rainfall (CDR)** model.
@@ -676,7 +676,7 @@
 
 ---
 
-📰 [SEP-037] **NPCI Notifies UPI Merchant Discount Rate (MDR) Regulatory Framework 2026 (Effective October 15, 2026)**
+[SEP-037] **NPCI Notifies UPI Merchant Discount Rate (MDR) Regulatory Framework 2026 (Effective October 15, 2026)**
 
 - **Genesis & Institutional Sustainability**: National Payments Corporation of India (**NPCI**) in consultation with the Reserve Bank of India and Ministry of Finance announced a recalibrated Merchant Discount Rate (MDR) framework for specific UPI transactions, taking effect on **October 15, 2026**, to ensure long-term technological and cybersecurity funding of the UPI rails.
 - **Strict Protection for Consumers & P2P (Zero Charges)**:
@@ -691,7 +691,7 @@
   - **Essential Utilities & Public Services**: Railways, fuel stations, telecom, utilities, insurance, and agricultural inputs attract a flat concessional fee of **₹5 per transaction** for payments above ₹2,000.
   - **Capital Market Inflows**: Payments to mutual funds and SEBI-registered stockbrokers attract an ultra-low MDR of **0.02%, capped at ₹300**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Effective Implementation Date: **October 15, 2026**.
 - Consumer & P2P Impact: **100% Free / Zero MDR** (banks barred from passing fees to customers).
 - Small Ticket P2M Threshold: Transactions **up to ₹2,000 attract Zero MDR** (covers >95% of volume).
@@ -702,7 +702,7 @@
 
 ---
 
-📰 [SEP-038] **RBI Directs "Lien Over Disputed Amount" Protocol & Mandatory AI Monitoring for Transfers ≥ ₹1,000**
+[SEP-038] **RBI Directs "Lien Over Disputed Amount" Protocol & Mandatory AI Monitoring for Transfers ≥ ₹1,000**
 
 - **Genesis & Paradigm Shift in Fraud Containment**: In response to widespread operational harassment caused by blunt, wholesale freezing of bank accounts flagged in cybercrime inquiries, the Reserve Bank of India (**RBI**) issued supervisory directions prohibiting banks from blanket account-freezing.
 - **The "Surgical Lien" Mandate**:
@@ -714,7 +714,7 @@
 - **Inter-Agency Coordination via I4C**:
   - Integrates direct automated API workflows with the **Indian Cyber Crime Coordination Centre (I4C)** under the Ministry of Home Affairs and the National Cybercrime Reporting Portal (NCRP / Citizen Financial Cyber Fraud Reporting System Helpline 1930).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Key Operational Shift: **Lien over disputed amount** instead of complete account freezing.
 - AI Screening Floor: Applies to digital transfers of **₹1,000 or more**.
 - Reporting Helpline & Portal: **1930** (Citizen Financial Cyber Fraud Reporting System) operated by **I4C** (MHA).
@@ -724,7 +724,7 @@
 ---
 
 
-📰 [SEP-039] **NSE Enables India's First Tokenised Corporate Bond Issuance (₹1,00,0 Crore): REC & L&T on DLT**
+[SEP-039] **NSE Enables India's First Tokenised Corporate Bond Issuance (₹1,00,0 Crore): REC & L&T on DLT**
 - **Historic Tokenised Debt Milestone**: The **National Stock Exchange (NSE)** successfully enabled India's inaugural tokenised corporate bond issuances on its Electronic Bidding Platform (**NSE EBP**) with an aggregate mobilization of **₹1,000 Crore**.
 - **Pioneering Corporate Issuers**:
   - **REC Limited**: State-owned Maharatna NBFC raised **₹500 Crore**, recording the very first tokenised corporate bond issuance executed on the NSE EBP platform.
@@ -733,7 +733,7 @@
   - Executed under SEBI's pilot framework utilizing distributed ledgers to tokenize securities, providing automated corporate actions, digital coupon distribution, and real-time ownership ledger synchronization.
   - *NSE Leadership*: Headquartered in Mumbai; Chairperson is **Srinivas Injeti**; Managing Director & CEO is **Ashishkumar Chauhan**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Total Tokenised Debt Mobilised: **₹1,000 Crore** across two issuers.
 - First Tokenised Corporate Bond Issuer: **REC Limited (₹500 Crore)**.
@@ -743,7 +743,7 @@
 
 ---
 
-📰 [SEP-040] **FASTag 'One Tag' Interoperability & Portability Initiative Launched by IHMCL & NPCI**
+[SEP-040] **FASTag 'One Tag' Interoperability & Portability Initiative Launched by IHMCL & NPCI**
 - **Seamless Issuer Portability**: Union Minister for Road Transport & Highways Nitin Gadkari unveiled the **“OneTag”** facility at the Global Fintech Fest (GFF) 2026 in Mumbai.
 - **National Electronic Toll Collection (NETC) Upgrade**:
   - Developed as a joint initiative between the **Indian Highways Management Company Limited (IHMCL)** and the **National Payments Corporation of India (NPCI)**.
@@ -751,7 +751,7 @@
 - **Digital Deployment via Rajmargyatra**:
   - Integrated directly into the National Highways Authority of India's (**NHAI**) flagship mobile portal, the **Rajmargyatra app**, allowing bank switching through basic vehicle registration and mobile OTP authentication.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Portal Solution Name: **OneTag** (FASTag issuer portability).
 - Joint Developers: **IHMCL (Indian Highways Management Company Ltd)** and **NPCI**.
@@ -760,7 +760,7 @@
 - Target MCQ Form: "What is the name of the NETC FASTag portability facility launched by IHMCL and NPCI allowing users to change their issuer bank without physical tag replacement?" → **OneTag**.
 
 ---
-📰 [SEP-041] **DFS Issues Statutory Gazette Notification under Section 10A of PSS Act: Strict Zero-MDR on UPI up to ₹2,000 and RuPay Debit Cards**
+[SEP-041] **DFS Issues Statutory Gazette Notification under Section 10A of PSS Act: Strict Zero-MDR on UPI up to ₹2,000 and RuPay Debit Cards**
 
 - **Statutory Enforcement & Legislative Anchor**: The Department of Financial Services (**DFS**), Ministry of Finance, published a legally binding Gazette notification under **Section 10A of the Payment and Settlement Systems Act, 2007 (PSS Act)**.
 - **Strict Prohibition of Direct/Indirect Levies**:
@@ -772,7 +772,7 @@
 - **Fiscal Underpinning**:
   - The Central Government continues to compensate acquiring banks and NPCI through dedicated digital payment incentive budgetary allocations (~₹1,500–₹2,000 Cr annually) to sustain the zero-MDR ecosystem for small merchants and citizens.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Statutory Section: **Section 10A of the Payment and Settlement Systems Act, 2007**.
 - Transaction Ceiling for Zero-Fee Protection: UPI transactions **up to ₹2,000** and all **RuPay Debit Card** transactions.
@@ -781,7 +781,7 @@
 
 ---
 
-📰 [SEP-042] **Global Fintech Fest (GFF) 2026: NPCI & RBI Unveil 'UPI Tap & Pay' NFC Contactless Capability and Delegated Payments**
+[SEP-042] **Global Fintech Fest (GFF) 2026: NPCI & RBI Unveil 'UPI Tap & Pay' NFC Contactless Capability and Delegated Payments**
 
 - **Architectural Innovations at GFF 2026**: At the Global Fintech Fest held in Mumbai, the Reserve Bank of India and National Payments Corporation of India (**NPCI**) unveiled transformative next-generation capabilities on the UPI rail.
 - **UPI Tap & Pay (Near Field Communication / NFC)**:
@@ -792,7 +792,7 @@
 - **Conversational Payments & AI Voice Verification**:
   - Integrated with Bhashini NLP models to enable multi-lingual voice-driven peer-to-merchant transfers across 12 scheduled Indian languages.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Technology Standard: **Near Field Communication (NFC)** powering UPI Tap & Pay.
 - Offline Capability: Enables contactless PoS tapping without active mobile data connectivity.
@@ -801,7 +801,7 @@
 
 ---
 
-📰 [SEP-043] **LIC Launches 'Bima Platinum' & 'Jeevan Raksha' Endowment & Term Plans to Mark 70th Anniversary**
+[SEP-043] **LIC Launches 'Bima Platinum' & 'Jeevan Raksha' Endowment & Term Plans to Mark 70th Anniversary**
 
 - **Platinum Jubilee Portfolio Expansion**: Life Insurance Corporation of India (**LIC**) unveiled two bespoke retail products—**"Bima Platinum"** and **"Jeevan Raksha"**—to commemorate the 70th anniversary of the Corporation’s founding (established September 1, 1956).
 - **Product 1: Bima Platinum (Savings + Protection)**:
@@ -815,13 +815,13 @@
 - **Institutional Vital Statistics**:
   - LIC (HQ: Mumbai; CEO & MD: R. Doraiswamy; Founded: 1 September 1956; Tagline: *"Yogakshemam Vahamyaham"*).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Milestone Occasion: **70th Anniversary** of LIC (commenced operations 1 September 1956).
 - Bima Platinum Guaranteed Addition: **₹70 per ₹1,000 annual premium**; Booster Benefit: **70% of Basic Sum Assured**.
 - Minimum Sum Assured Thresholds: **₹3 Lakh** (Bima Platinum); **₹5 Lakh to ₹24 Lakh** (Jeevan Raksha).
 - Target MCQ Form: "What are the guaranteed additions offered under LIC's newly launched 70th-anniversary policy 'Bima Platinum'?" → ₹70 per ₹1,000 of annual premium paid.
 
-📰 [SEP-044] **Cashfree Payments Launches 'Relay' AI Super Agent to Automate SMB & Startup Payment Operations**
+[SEP-044] **Cashfree Payments Launches 'Relay' AI Super Agent to Automate SMB & Startup Payment Operations**
 
 - **Autonomous Payment Orchestration**: Cashfree Payments, an AI-native full-stack payment orchestration gateway, announced the general rollout of **"Relay"**, an enterprise-grade AI Super Agent designed to automate and resolve payment lifecycles for Small and Medium Businesses (SMBs) and high-growth startups.
 - **Autonomous Workflow Execution vs. Alert Flagging**:
@@ -832,7 +832,7 @@
 - **Corporate Credentials**:
   - Cashfree Payments (HQ: Bengaluru; CEO & Co-founder: Akash Sinha; Founded: 2015).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Product Identity: **Relay** (developed by Cashfree Payments).
 - Core Capability: Autonomous actioning on transaction logs (not just notification/alert generation).
 - Target Metric: Reduces SMB weekly payment operations from **60 hours to under 45 minutes**.
@@ -840,9 +840,9 @@
 
 ---
 
-## 4. 📊 MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE
+## 4. MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE
 
-📰 [SEP-045] **Japan Credit Rating Agency (JCR) Upgrades India's Sovereign Rating to 'A-' with Stable Outlook**
+[SEP-045] **Japan Credit Rating Agency (JCR) Upgrades India's Sovereign Rating to 'A-' with Stable Outlook**
 
 - **Historic Rating Milestone**: Japan Credit Rating Agency (**JCR**), Japan's premier international credit rating institution, upgraded the Government of India's Long-Term Foreign Currency and Local Currency Issuer Ratings by one notch from **'BBB+' to 'A-' (Investment Grade)** with a **Stable Outlook**.
 - **Rationale for Upgrade**:
@@ -850,7 +850,7 @@
   - Sound fiscal consolidation trajectory adhering to the glidepath below 4.5% of GDP.
   - Strong external sector stability anchored by record foreign exchange reserves exceeding **\$680 billion**, low external commercial debt, and stable current account dynamics.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Rating Agency: **Japan Credit Rating Agency (JCR)**.
 - Upgraded Rating: **'A-' (from 'BBB+')** with **Stable Outlook**.
 - Significance: Elevated India into the prestigious **'A' category sovereign rating** benchmark in Japanese capital markets.
@@ -858,7 +858,7 @@
 
 ---
 
-📰 [SEP-046] **Gross GST Collections Hit ₹1.87 Lakh Crore & UPI Reaches Record 24.51 Billion Transactions in August 2026**
+[SEP-046] **Gross GST Collections Hit ₹1.87 Lakh Crore & UPI Reaches Record 24.51 Billion Transactions in August 2026**
 
 - **Buoyant Fiscal Trajectory**: India's gross Goods and Services Tax (**GST**) revenue collections for the month of August 2026 reached **₹1,87,345 Crore (~₹1.87 Lakh Crore)**, recording a sharp **14.8% Year-on-Year (YoY)** acceleration over August 2025 (net revenue post refunds stood at **₹1.65 Lakh Crore**, up 13.2%).
   - Collection Breakdown: Central GST (**CGST**): ₹33,480 Cr; State GST (**SGST**): ₹41,250 Cr; Integrated GST (**IGST**): ₹98,415 Cr (including ₹46,200 Cr collected on import of goods); Compensation Cess: ₹14,200 Cr.
@@ -867,7 +867,7 @@
   - On a YoY basis, monthly transaction volume surged **22%** (from 19.63 billion in August 2025), while monthly value rose **20%** (from ₹24.85 Lakh Crore).
   - Average Daily Volume: Reached **791 million transactions per day** (from 763 million in July 2026). All-time monthly value record remains ₹29.90 Lakh Crore (May 2026).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - August 2026 Gross GST: **₹1.87 Lakh Crore** (14.8% YoY acceleration).
 - August 2026 UPI Volume Record: **24.51 Billion transactions** (791 million/day average; +22% YoY).
 - August 2026 UPI Value: **₹29.82 Lakh Crore** (+20% YoY).
@@ -875,7 +875,7 @@
 
 ---
 
-📰 [SEP-047] **India's Current Account Deficit (CAD) Stands at \$4.2 Billion (0.4% of GDP) in Q1 FY27: RBI Data**
+[SEP-047] **India's Current Account Deficit (CAD) Stands at \$4.2 Billion (0.4% of GDP) in Q1 FY27: RBI Data**
 
 - **Balance of Payments (BoP) Release**: The Reserve Bank of India released the Balance of Payments data for the first quarter of FY 2026–27 (April–June 2026).
 - **Current Account Metrics**:
@@ -887,14 +887,14 @@
   - Foreign Portfolio Investment (**FPI**) recorded net inflows of **\$15.7 billion**.
   - Overall Balance of Payments witnessed a foreign exchange reserve accretion of **\$5.2 billion** on a BoP basis.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - CAD Volume: **\$4.2 Billion** in Q1 FY27.
 - CAD as % of GDP: **0.4% of GDP**.
 - Net Services Receipts: **\$39.7 Billion**.
 
 ---
 
-📰 [SEP-048] **MoSPI National Accounts Statistics (NAS 2026): Q1 FY27 Real GDP Expands 7.8% (₹81.36 Lakh Cr)**
+[SEP-048] **MoSPI National Accounts Statistics (NAS 2026): Q1 FY27 Real GDP Expands 7.8% (₹81.36 Lakh Cr)**
 
 - **Macro Headline Expansion**: Data released by the National Statistics Office (**NSO / MoSPI**) for Q1 FY27 (April–June 2026) revealed India's **Real GDP grew 7.8% year-on-year**, beating the Reserve Bank of India's quarterly projection of 7.0% and market consensus of 7.1%.
   - **Real GDP at Constant Prices**: Reached **₹81.36 Lakh Crore** (up from ₹75.46 Lakh Crore in Q1 FY26).
@@ -908,7 +908,7 @@
   - **Gross Fixed Capital Formation (GFCF)**: Surged **11.9% at constant prices** (compared to 5.8% in Q1 FY26).
   - **HSBC Manufacturing PMI**: Remained resilient in expansion territory at **52.8 in August 2026**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Real GDP Growth (Q1 FY27): **7.8%** (₹81.36 Lakh Crore).
 - Real GVA Growth (Q1 FY27): **8.2%** (₹73.82 Lakh Crore).
 - Revised Base Year under NAS 2026: **2022-23**.
@@ -917,20 +917,20 @@
 
 ---
 
-📰 [SEP-049] **DEA Allows E-Commerce Entities to Hold Inventory for Exports Under FDI Guidelines**
+[SEP-049] **DEA Allows E-Commerce Entities to Hold Inventory for Exports Under FDI Guidelines**
 
 - **Foreign Trade Policy & FDI Reform**: The Department of Economic Affairs (**DEA**), Ministry of Finance, amended FDI regulations governing e-commerce operations.
 - **Key Regulatory Shift**:
   - Permits foreign-funded marketplace e-commerce entities to maintain and hold physical inventory **exclusively for export purposes**.
   - Resolves a critical bottleneck for export-oriented cross-border trade hubs, enabling foreign buyers to procure Indian goods directly from bonded e-commerce export warehouses while strictly preserving the 100% marketplace model for domestic domestic tariff area (DTA) sales.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Policy Change: Inventory holding permitted **strictly for export purposes** under e-commerce FDI norms.
 - Issuing Authority: **Department of Economic Affairs (DEA)**, Ministry of Finance.
 
 ---
 
-📰 [SEP-050] **Union Government Achieves 78% of FY27 Disinvestment Target in 5 Months & Jio Platforms Clears ₹37,700 Cr IPO**
+[SEP-050] **Union Government Achieves 78% of FY27 Disinvestment Target in 5 Months & Jio Platforms Clears ₹37,700 Cr IPO**
 
 - **DIPAM Capital Receipt Milestone**: The Department of Investment and Public Asset Management (**DIPAM**) announced that the Central Government achieved **78% of its FY27 budgeted disinvestment and asset monetisation target** of ₹80,000 Crore in the first 5 months (April–August 2026), generating **₹62,124 Crore**.
 - **Disinvestment Capital Composition**:
@@ -941,7 +941,7 @@
   - Comprises 270 million fresh equity shares of ₹10 face value; ₹27,500 Crore is earmarked for prepaying/repaying debt of Reliance Jio Infocomm.
   - Shareholding Structure: Reliance Industries (**66.43%**), Meta Platforms (**9.98%**), and Google Alphabet (**7.73%**).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Budgeted Disinvestment Target (FY27): **₹80,000 Crore** (₹62,124 Crore achieved in 5 months).
 - Dominant Transaction: **LIC 6.5% stake sale yielding ₹31,515 Crore**.
 - Jio Platforms Shareholding Pattern: **RIL (66.43%)**, **Meta (9.98%)**, **Google (7.73%)**.
@@ -949,7 +949,7 @@
 
 ---
 
-📰 [SEP-051] **DGFT Liberalises 'One Star Export House' Norms Under Foreign Trade Policy 2023**
+[SEP-051] **DGFT Liberalises 'One Star Export House' Norms Under Foreign Trade Policy 2023**
 
 - **Status-Holder Eligibility Reform**: The Directorate General of Foreign Trade (**DGFT**), Ministry of Commerce and Industry, amended the eligibility criteria for **One Star Export House** recognition under the **Foreign Trade Policy (FTP) 2023**.
 - **The '2 Out of 3 Fiscals' Standard**:
@@ -960,7 +960,7 @@
   - **Certificate Validity**: Status holder certificates remain valid for **5 years** from the date of issuance.
   - **Automated EPCG & PRC Module**: DGFT introduced an automated online facility for granting export obligation extensions for cases reviewed by the Policy Relaxation Committee (**PRC**) and EPCG Committee.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Modified Rule: Exporters qualify based on performance in **any 2 of 3 preceding financial years** (relaxed from all 3 years).
 - Excluded Sector: **Gems & Jewellery** (retains separate 2-year criteria).
 - Status Holder Validity: **5 years** from date of issue.
@@ -970,7 +970,7 @@
 ---
 
 
-📰 [SEP-052] **India–New Zealand Free Trade Agreement (FTA) Comes Into Force: US\$20 Billion Investment Accord**
+[SEP-052] **India–New Zealand Free Trade Agreement (FTA) Comes Into Force: US\$20 Billion Investment Accord**
 - **Enforcement Milestone**: Union Commerce and Industry Minister Piyush Goyal announced that the **India–New Zealand Free Trade Agreement (FTA)** will formally come into force on **October 20, 2026** (signed earlier on April 27, 2026).
 - **100% Tariff Elimination for Indian Exports**:
   - The comprehensive trade pact guarantees **100% duty-free market access** for all Indian merchandise and industrial exports entering New Zealand from Day 1 of enforcement.
@@ -978,7 +978,7 @@
 - **Long-Term Sovereign Investment Commitment**:
   - New Zealand formally committed to mobilizing and investing **US\$20 Billion in India over a 15-year period** across renewable energy, agricultural technology, cold-chain logistics, and education.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Enforcement Date: **October 20, 2026** (Signed: 27 April 2026).
 - Market Access: **100% duty-free access** for Indian exports to New Zealand.
@@ -987,7 +987,7 @@
 
 ---
 
-📰 [SEP-053] **GIFT City Climbs 9 Spots to 37th Globally in Global Financial Centres Index (GFCI 40)**
+[SEP-053] **GIFT City Climbs 9 Spots to 37th Globally in Global Financial Centres Index (GFCI 40)**
 - **Global Financial Ranking Surge**: In the 40th edition of the **Global Financial Centres Index (GFCI 40)** published by London-based think tank **Z/Yen Group** in collaboration with the China Development Institute, India's sole IFSC, **GIFT City (Gandhinagar)**, climbed 9 places to rank **37th globally** (up from 46th in GFCI 39).
 - **FinTech Global Benchmark**:
   - In the specialized global FinTech sub-index, GIFT City surged 3 positions to secure the **26th rank globally** (improving from 29th).
@@ -999,7 +999,7 @@
   4. *Singapore* (4th)
   5. *San Francisco* (5th)
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - GIFT City Overall Rank: **37th globally** (climbed 9 places from 46th).
 - GIFT City FinTech Rank: **26th globally** (climbed 3 places from 29th).
@@ -1009,7 +1009,7 @@
 
 ---
 
-📰 [SEP-054] **JLL Global Real Estate Transparency Index 2026: India Ranks 26th Globally as Top APAC Mover**
+[SEP-054] **JLL Global Real Estate Transparency Index 2026: India Ranks 26th Globally as Top APAC Mover**
 - **Biennial Transparency Benchmark**: Global real estate advisory firm **JLL** and LaSalle Investment Management released the 14th edition of the **Global Real Estate Transparency Index (GRETI 2026)**, evaluating 89 markets across 256 individual indicators.
 - **India's Tier-1 Markets Milestone**:
   - India’s composite real estate market (anchored by Tier-1 metropolitan centres) advanced 5 positions to rank **26th globally** (improving from 31st in 2024).
@@ -1021,7 +1021,7 @@
   4. *United States* (4th)
   5. *Netherlands* (5th)
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India Rank: **26th globally** (up from 31st).
 - Regional Distinction: **#1 most-improved market in Asia-Pacific**.
@@ -1030,7 +1030,7 @@
 - Target MCQ Form: "In the 2026 JLL Global Real Estate Transparency Index, what rank did India secure globally while being named the top-improved market in Asia-Pacific?" → **26th**.
 
 ---
-📰 [SEP-055] **NSO PLFS August 2026 Bulletin: India's Overall Unemployment Rate Drops to 6-Month Low of 5.0% (Rural UR at 4.1%)**
+[SEP-055] **NSO PLFS August 2026 Bulletin: India's Overall Unemployment Rate Drops to 6-Month Low of 5.0% (Rural UR at 4.1%)**
 
 - **17th Monthly PLFS Bulletin**: The National Statistical Office (**NSO**), Ministry of Statistics and Programme Implementation (MoSPI), released the *Periodic Labour Force Survey (PLFS) Monthly Bulletin for August 2026*.
 - **Headline Labour Market Numbers (Persons aged 15 years and above)**:
@@ -1041,7 +1041,7 @@
   - All-India LFPR (Current Weekly Status / CWS) stood resilient at **54.8%**.
   - All-India WPR stood at **52.1%**, highlighting sustained workforce absorption.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - All-India Unemployment Rate: **5.0%** (6-month low).
 - Rural Unemployment Rate: **4.1%** | Urban Unemployment Rate: **6.8%**.
@@ -1050,7 +1050,7 @@
 
 ---
 
-📰 [SEP-056] **India and MERCOSUR Sign First Additional Protocol to PTA: Operationalises Paperless Electronic Certificates of Origin (e-CoOs)**
+[SEP-056] **India and MERCOSUR Sign First Additional Protocol to PTA: Operationalises Paperless Electronic Certificates of Origin (e-CoOs)**
 
 - **Bilateral Trade Modernisation**: India and the South American **MERCOSUR** trade bloc (comprising Argentina, Brazil, Paraguay, and Uruguay) formally signed the *First Additional Protocol to the India-MERCOSUR Preferential Trade Agreement (PTA)*.
 - **Amendment to Rules of Origin**:
@@ -1060,7 +1060,7 @@
   - Eliminates the legacy requirement for wet-ink stamped paper certificates dispatched via air courier, reducing customs clearance transit delays at Brazilian, Argentine, and Indian ports from 10–14 days to real-time verification.
 - **Bilateral Trade Context**: India-MERCOSUR bilateral trade crossed \$15 billion, anchored in petroleum crude, organic chemicals, pharmaceuticals, vegetable oils, and auto components.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - International Agreement: **First Additional Protocol to India-MERCOSUR Preferential Trade Agreement (PTA)**.
 - Specific Amendment: **Article 16 of Annex III** (Rules of Origin) for electronic Certificates of Origin (e-CoOs).
@@ -1069,7 +1069,7 @@
 
 ---
 
-📰 [SEP-057] **World Economic Forum (WEF) Releases Global Gender Gap Report 2026: India Ranks 131st as Iceland Tops for 17th Year**
+[SEP-057] **World Economic Forum (WEF) Releases Global Gender Gap Report 2026: India Ranks 131st as Iceland Tops for 17th Year**
 
 - **20th Anniversary Edition**: The World Economic Forum (**WEF**), headquartered in Cologny-Geneva, Switzerland, published the *Global Gender Gap Report 2026* benchmarking gender parity across 145 countries.
 - **Global Parity Landscape**:
@@ -1085,7 +1085,7 @@
     4. *Economic Participation and Opportunity*: Lowest sub-index score at 39.8%, reflecting female labour force participation gaps.
   - *Regional Peers*: Bangladesh ranked 99th, Nepal 117th, Sri Lanka 122nd, China 107th, Pakistan 142nd.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Publishing Body: **World Economic Forum (WEF)** (Annual report, 20th edition).
 - Top Ranked Country: **Iceland (#1 for 17th consecutive year)**.
@@ -1094,7 +1094,7 @@
 
 ---
 
-📰 [SEP-058] **NITI Aayog Unveils India Electric Mobility Index (IEMI) 2025: Delhi Retains #1 Rank Followed by Maharashtra and Karnataka**
+[SEP-058] **NITI Aayog Unveils India Electric Mobility Index (IEMI) 2025: Delhi Retains #1 Rank Followed by Maharashtra and Karnataka**
 
 - **Policy Benchmark**: NITI Aayog Member Rajiv Gauba released the 2nd edition of the *India Electric Mobility Index (IEMI) 2025*, developed jointly by NITI Aayog and the World Resources Institute (**WRI India**).
 - **Evaluation Framework**: Evaluates all 36 States and UTs across 4 composite thematic pillars: *EV Penetration & Market Adoption*, *Charging Infrastructure & Grid Readiness*, *State EV Policy Incentives*, and *Ecosystem & Manufacturing Investments*.
@@ -1105,7 +1105,7 @@
   4. **Chandigarh**: **Rank 4 (Score: 71/100)**.
   5. **Goa**: **Rank 5 (Score: 65/100)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Release Body: **NITI Aayog** in collaboration with **WRI India**.
 - #1 State/UT: **Delhi (Score: 84/100)** for 2nd consecutive year.
@@ -1114,7 +1114,7 @@
 
 ---
 
-📰 [SEP-059] **TIME & Statista 4th 'World's Best Companies 2026' Index: Nvidia Ranks #1 Globally; Apple Ranks #3**
+[SEP-059] **TIME & Statista 4th 'World's Best Companies 2026' Index: Nvidia Ranks #1 Globally; Apple Ranks #3**
 
 - **Global Corporate Benchmarking**: The 4th edition of the *World's Best Companies 2026* index, jointly published by **TIME magazine and Statista**, evaluated the top 1,000 public and private corporations globally.
 - **Top Global Rankings**:
@@ -1130,13 +1130,13 @@
     3. **Sustainability Transparency**: Evaluated using comprehensive Environmental, Social, and Governance (**ESG**) data and disclosure standards.
 - **Sectoral Shifts**: Defence manufacturers recorded massive jumps amid European security re-evaluations—**Thales (France)** surged to #22 (from #224) and **Leonardo (Italy)** rose to #25 (from #126).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Global Rank 1: **Nvidia** (97.51/100) for the 2nd straight year.
 - Evaluation Pillars: **Employee satisfaction, Revenue growth (3-year), Sustainability transparency (ESG)**.
 - Minimum Qualifying Criterion: Annual revenue of at least **\$100 million** with positive growth.
 - Target MCQ Form: "Which company clinched the 1st rank globally for the second consecutive year in the TIME-Statista 'World's Best Companies 2026' ranking?" → Nvidia.
 
-📰 [SEP-060] **Sikkim Identifies 40 High-Hazard Glacial Lakes: 16 Classified Under Category-A Catastrophic GLOF Risk**
+[SEP-060] **Sikkim Identifies 40 High-Hazard Glacial Lakes: 16 Classified Under Category-A Catastrophic GLOF Risk**
 
 - **Himalayan Cryosphere Vulnerability**: Sikkim’s Department of Science and Technology disclosed a high-precision assessment identifying **40 high-hazard glacial lakes** across the state, with **16 designated under Category-A**—representing the highest vulnerability tier for catastrophic Glacial Lake Outburst Floods (**GLOFs**).
 - **Hazard Categorisation Spectrum**:
@@ -1148,7 +1148,7 @@
   - Follows the catastrophic October 2023 **South Lhonak Lake** GLOF disaster, which destroyed the 1,200 MW Chungthang Teesta-III dam, claimed over 60 lives, and washed away roads across Mangan, Gangtok, Pakyong, and Namchi districts.
   - Nodal Authority: Sikkim Department of Science and Technology designated as nodal body for GLOF monitoring and mitigation since February 2025, deploying high-resolution remote sensing, SAR interferometry, and automated early warning systems (EWS).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Vulnerability Inventory: **40 high-hazard glacial lakes** total; **16 in Category-A** (highest risk).
 - Landmark Past GLOF Precedent: **South Lhonak Lake outburst** (October 2023) destroying Chungthang Dam on the Teesta River.
 - Nodal Institutional Mandate: Sikkim Department of Science and Technology.
@@ -1156,9 +1156,9 @@
 
 ---
 
-## 5. 🏛️ NATIONAL HERITAGE, URBAN POLICIES & STRATEGIC ACCORDS
+## 5. ️ NATIONAL HERITAGE, URBAN POLICIES & STRATEGIC ACCORDS
 
-📰 [SEP-061] **India Adds 4 Landmark Heritage Sites to UNESCO World Heritage Tentative List**
+[SEP-061] **India Adds 4 Landmark Heritage Sites to UNESCO World Heritage Tentative List**
 
 - **Expanded Tentative Heritage Tally**: India officially inscribed **4 new cultural and natural sites** onto the **UNESCO World Heritage Tentative List**, taking India's cumulative tentative heritage tally to **57 sites**:
   1. **Rangpur-Sivasagar Historic Ensemble (Assam)**: Medieval capital of the Ahom dynasty showcasing unique earthen amphitheatre (*Rang Ghar*), multi-storey royal palaces (*Talatal Ghar*), and royal temples.
@@ -1166,14 +1166,14 @@
   3. **Nicobarese Cultural Continuity (Nicobar Islands)**: Indigenous tribal settlements, traditional village assemblies (*Tuhet*), and ancestral marine ecological heritage in the Nicobar archipelago.
   4. **Painted Haveli Towns of Shekhawati (Rajasthan)**: Open-air fresco galleries across Nawalgarh, Mandawa, and Fatehpur featuring 18th–19th century Marwari merchant mansions.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - The 4 Sites: **Rangpur-Sivasagar (Assam)**, **Colonial Penal Settlement (Andamans)**, **Nicobarese Cultural Continuity (Nicobars)**, and **Shekhawati Havelis (Rajasthan)**.
 - Current UNESCO Status: Added to **Tentative List** (precursor to formal World Heritage inscription).
 - India's World Heritage Sites (Inscribed): **43 Sites** (43rd was *Moidams of Ahom Dynasty* in July 2024).
 
 ---
 
-📰 [SEP-062] **Historic Bihar–Jharkhand Accord Ends 25-Year Dispute Over Sone River: Allocates 5.75 MAF to Bihar & 2 MAF to Jharkhand**
+[SEP-062] **Historic Bihar–Jharkhand Accord Ends 25-Year Dispute Over Sone River: Allocates 5.75 MAF to Bihar & 2 MAF to Jharkhand**
 
 - **Inter-State River Accord & Volumetric Pact**: In the presence of Union Home Minister Amit Shah and Union Jal Shakti Minister C.R. Paatil, the Chief Ministers of Bihar and Jharkhand executed a landmark bilateral agreement resolving the **25-year-old water-sharing dispute** over the **Sone River basin** originating from the *Bihar Reorganisation Act, 2000*.
 - **Statutory Volumetric Water Distribution**:
@@ -1184,7 +1184,7 @@
   - *Rihand Dam* (Govind Ballabh Pant Sagar): Located in Sonbhadra, **Uttar Pradesh**.
   - *Indrapuri Barrage*: Located at Dehri-on-Sone, Rohtas district, **Bihar**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Exact Volumetric Distribution: **5.75 MAF to Bihar** and **2.00 MAF to Jharkhand**.
 - Genesis of Dispute: Bifurcation of Bihar and creation of Jharkhand in **November 2000**.
 - Mediating Authorities: Union Home Minister Amit Shah & Union Jal Shakti Minister C.R. Paatil.
@@ -1192,7 +1192,7 @@
 
 ---
 
-📰 [SEP-063] **National Heritage & Urban Dispatches: Gollala Gudi Temple, Dr. Jitendra Singh 'CSS Shield' & Punjab Pehchaan**
+[SEP-063] **National Heritage & Urban Dispatches: Gollala Gudi Temple, Dr. Jitendra Singh 'CSS Shield' & Punjab Pehchaan**
 
 - **Gollala Gudi Declared Monument of National Importance**:
   - The Archaeological Survey of India (ASI) notified the historic **Gollala Gudi Temple at Alampur, Telangana**, as a **Protected Monument of National Importance** under the *AMASR Act, 1958*, preserving 7th-century Badami Chalukyan sandstone architecture.
@@ -1205,14 +1205,14 @@
 - **Tata Consumer Study: 'The Many Urban Indias'**:
   - Disclosed distinct financial behaviors: **Bengaluru** records the highest urban income; **Chandigarh** records the highest per-capita discretionary spending; **Chennai** logs the highest household credit borrowings.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Monument of National Importance: **Gollala Gudi Temple (Telangana)**.
 - Digital Portal for Unidentified Deceased: **Pehchaan (Punjab)**.
 - Top Vulture Reintroduction Sites: **Melghat & Pench (Maharashtra)**.
 
 ---
 
-📰 [SEP-064] **PPPAC Grants In-Principle Clearance for ₹8,622 Crore Privatisation of 11 AAI Airports in 5 Bundles**
+[SEP-064] **PPPAC Grants In-Principle Clearance for ₹8,622 Crore Privatisation of 11 AAI Airports in 5 Bundles**
 
 - **High-Level Infrastructure Sanction**: The Public Private Partnership Appraisal Committee (**PPPAC**), chaired by **Anuradha Thakur** (Secretary, Department of Economic Affairs, Ministry of Finance), accorded in-principle clearance for the privatisation of operations, management, and development of **11 Airports Authority of India (AAI) airports**.
 - **Capital Outlay & PPP Concession**: Mobilises an estimated **₹8,622 Crore** in private sector investment under a 50-year Public-Private Partnership (**PPP**) concession model.
@@ -1224,7 +1224,7 @@
   5. **Bundle 5**: Tiruchirappalli (Tamil Nadu) paired with Tirupati (Andhra Pradesh) → **₹1,411 Crore**
 - **Strategic Policy Precedent**: Represents the second major nationwide airport concession round following the 2019 privatisation of 6 airports (Ahmedabad, Lucknow, Mangaluru, Jaipur, Guwahati, Thiruvananthapuram awarded to Adani Group).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Committee Leadership: Chaired by **Secretary, Department of Economic Affairs (DEA), MoF** (Anuradha Thakur).
 - Total Private Capital Outlay: **₹8,622 Crore** across **11 airports in 5 bundles**.
 - Highest Investment Bundle: **Bhubaneswar + Hubballi (₹2,725 Crore)**.
@@ -1232,7 +1232,7 @@
 
 ---
 
-📰 [SEP-065] **Ministry of Education Releases AISHE Report 2023-24: Gross Enrolment Ratio Reaches 30.0%**
+[SEP-065] **Ministry of Education Releases AISHE Report 2023-24: Gross Enrolment Ratio Reaches 30.0%**
 
 - **Survey Footprint & Institutional Coverage**: The Union Ministry of Education released the **All India Survey on Higher Education (AISHE) Report for 2023-24** (conducted annually since 2010-11), registering voluntary submissions from **59,533 of 64,756 Higher Education Institutions (HEIs)** (>90% response rate).
 - **Macro Enrolment Benchmarks**:
@@ -1245,7 +1245,7 @@
   - **STEM Discipline Representation**: Total STEM enrolment hit **1.02 Crore**, with female share rising to **44.0%** (up from 38.4%).
   - **Teaching Faculty**: Reached **17.32 Lakh educators**, with women representing **44.9%** of the national academic workforce (7.78 Lakh female faculty).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Higher Education GER (2023-24): **30.0%** (NEP 2020 Target: **50% by 2035**).
 - Female GER vs Male GER: **31.2% vs 28.9%** (Gender Parity Index = **1.08**).
 - Steepest Tier Growth: **PhD enrolments up 192.9% (to 3.43 lakh)**.
@@ -1254,7 +1254,7 @@
 
 ---
 
-📰 [SEP-066] **Legal Metrology (Indian Standard Time) Rules 2026 Notified & National Tribunals Data Grid Enacted**
+[SEP-066] **Legal Metrology (Indian Standard Time) Rules 2026 Notified & National Tribunals Data Grid Enacted**
 
 - **Statutory Mandate for IST**: The Department of Consumer Affairs (**DoCA**), Ministry of Consumer Affairs, Food and Public Distribution, notified the *Legal Metrology (Indian Standard Time) Rules, 2026* under Section 52 of the *Legal Metrology Act, 2009*.
 - **'One Nation, One Time' Operational Directives**:
@@ -1265,7 +1265,7 @@
   - Repeals the *Tribunals Reforms Act, 2021* and mandates the development of the **National Tribunals Data Grid (NTDG)**—a unified portal tracking cases across **16 tribunals** (over 5.24 lakh pending cases).
   - Governed by the **National Tribunals Commission (NTC)**: Comprises a Chairperson (retired SC Judge or HC Chief Justice), 2 Judicial Members, and 2 Technical Members (minimum 25 years' professional experience in finance, law, or tech; 5-year tenure or up to age 70).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Legal Mandate: **Section 52, Legal Metrology Act, 2009** (Implementation window: **180 days**).
 - Sole Custodian of IST: **CSIR-National Physical Laboratory (CSIR-NPL)** (common examiner trap: IMD or ISRO).
 - Synchronisation Technologies: **NavIC, NTP, PTP, and White Rabbit protocol**.
@@ -1273,7 +1273,7 @@
 
 ---
 
-📰 [SEP-067] **Union Cabinet Approves Landmark Hike in EPFO Mandatory Wage Ceiling to ₹25,000/Month**
+[SEP-067] **Union Cabinet Approves Landmark Hike in EPFO Mandatory Wage Ceiling to ₹25,000/Month**
 
 - **First Revision in 12 Years**: The Union Cabinet chaired by Prime Minister Narendra Modi approved a historic hike in the statutory wage ceiling for mandatory coverage under the Employees' Provident Fund Organisation (**EPFO**) from **₹15,000 to ₹25,000 per month** (effective **September 17, 2026**).
 - **Historic Precedent**: The previous statutory revision occurred on September 1, 2014, when the wage threshold was increased from ₹6,500 to ₹15,000.
@@ -1283,7 +1283,7 @@
   - **EPS (Employees' Pension Scheme)**: Pensionable salary calculation base elevated to ₹25,000/month.
   - **EDLI (Employees' Deposit-Linked Insurance)**: Statutory life insurance coverage cap proportionately scaled.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Revised Wage Ceiling: **₹25,000 per month** (hiked from ₹15,000).
 - Effective Date: **September 17, 2026**.
 - Additional Workforce Covered: **51 Lakh workers**.
@@ -1292,13 +1292,13 @@
 
 ---
 
-📰 [SEP-068] **Cabinet Approves Strategic Railway Multi-Tracking Projects: ₹9,450 Crore Capacity Expansion**
+[SEP-068] **Cabinet Approves Strategic Railway Multi-Tracking Projects: ₹9,450 Crore Capacity Expansion**
 
 - **Infrastructure Outlay**: Union Cabinet approved 4 major multi-tracking projects under the Ministry of Railways with an aggregate capital outlay of **₹9,450 Crore**.
 - **Geographical Footprint**: Covers 8 districts across four states: **West Bengal, Odisha, Tamil Nadu, and Andhra Pradesh**.
 - **Track Addition**: Adds **410 km** of dedicated track infrastructure to debottleneck critical freight corridors transporting coal, cement, iron ore, and agro-commodities.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Total Outlay: **₹9,450 Crore**.
 - Track Capacity Added: **410 km** across 4 states (WB, Odisha, TN, AP).
 - Target MCQ Form: "What is the total capital outlay approved by the Union Cabinet for 4 multi-tracking railway projects in August 2026?" → ₹9,450 Crore.
@@ -1306,7 +1306,7 @@
 ---
 
 
-📰 [SEP-069] **Asia's First Dedicated Telecom Manufacturing Zone (TMZ) Sanctioned in Gwalior (₹5,500 Crore)**
+[SEP-069] **Asia's First Dedicated Telecom Manufacturing Zone (TMZ) Sanctioned in Gwalior (₹5,500 Crore)**
 - **Industrial Infrastructure Milestone**: The Government sanctioned the establishment of **Asia’s first Telecom Manufacturing Zone (TMZ)** with an aggregate investment of approximately **₹5,500 Crore**.
 - **Geographical Location & Layout**:
   - Located at the **Shrimant Madhavrao Scindia Counter Magnet City (SADA)** in **Gwalior, Madhya Pradesh**.
@@ -1314,7 +1314,7 @@
 - **Strategic Policy Intent**:
   - Complements the Telecom PLI Scheme to reduce import dependency on telecom hardware, positioning Gwalior as an industrial node alongside the Delhi-Mumbai Industrial Corridor (DMIC).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Project: **Asia's first Telecom Manufacturing Zone (TMZ)**.
 - Location: **Gwalior, Madhya Pradesh (SADA City)**.
@@ -1323,7 +1323,7 @@
 
 ---
 
-📰 [SEP-070] **Passports (Amendment) Rules, 2026: Minor Passport Upper Validity Ceiling Extended to 18 Years**
+[SEP-070] **Passports (Amendment) Rules, 2026: Minor Passport Upper Validity Ceiling Extended to 18 Years**
 - **Statutory Revision by MEA**: The Ministry of External Affairs (**MEA**) officially notified the **Passports (Amendment) Rules, 2026**, amending the parent statutory framework of the **Passports Rules, 1980**.
 - **Age Harmonization with Majority Law**:
   - Elevates the upper age eligibility threshold for minor passports from **15 years to 18 years**, aligning passport administrative regulations directly with the Indian Majority Act and child rights laws.
@@ -1331,7 +1331,7 @@
   - For children below 15 years, ordinary passports will now carry a validity of **5 years or until the child turns 18 years of age**, whichever is earlier.
   - Minors aged between 15 and 18 years are granted the option to apply for an adult-tenure passport valid for **10 years** (subject to full adult passport fee and police verification norms).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Governing Regulation: **Passports (Amendment) Rules, 2026** amending **Passports Rules, 1980**.
 - Upper Age Threshold Shift: Increased from **15 years to 18 years**.
@@ -1340,13 +1340,13 @@
 
 ---
 
-📰 [SEP-071] **Karnataka Declares Tulu as Second Additional Administrative Language in Coastal Districts**
+[SEP-071] **Karnataka Declares Tulu as Second Additional Administrative Language in Coastal Districts**
 - **Linguistic Administrative Accord**: The State Government of Karnataka officially granted **Tulu** the status of a **second additional administrative language** within the coastal jurisdictions of **Udupi and Dakshina Kannada districts**.
 - **Linguistic Heritage & Geography**:
   - Tulu is an ancient Dravidian language spoken predominantly in southwestern coastal Karnataka (historically known as *Tulu Nadu*) and the Kasaragod district of northern Kerala.
   - Enables official state gazette notifications, government application forms, and municipal administrative signage to be printed in Tulu alongside Kannada and English.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - State Granting Status: **Karnataka**.
 - Districts Covered: **Udupi and Dakshina Kannada**.
@@ -1354,7 +1354,7 @@
 - Target MCQ Form: "Which Indian state granted Tulu the status of a second additional administrative language in its coastal districts?" → **Karnataka**.
 
 ---
-📰 [SEP-072] **Registration of Births and Deaths (Amendment) Act, 2026 Enforced from October 1: Institutes Two-Tier Delayed Registration System**
+[SEP-072] **Registration of Births and Deaths (Amendment) Act, 2026 Enforced from October 1: Institutes Two-Tier Delayed Registration System**
 
 - **Gazette Notification & Enforcement**: Registrar General of India (**Mrityunjay Kumar Narayan**) notified that the *Registration of Births and Deaths (Amendment) Act, 2026* comes into force nationwide from **October 1, 2026**.
 - **Statutory Focus**: Amends **Section 13(3)** of the principal *Registration of Births and Deaths Act, 1969*, introducing stringent judicial oversight for delayed registrations to prevent fraudulent demographic documentation.
@@ -1363,7 +1363,7 @@
   - *Delay Exceeding 2 Years*: Registration strictly requires an order from a **Judicial Magistrate of the First Class (JMFC)** or Metropolitan Magistrate, eliminating administrative discretion.
 - **Digital Registry & Legal Utility**: Builds on the 2023 legislative reform establishing a centralized national birth-death database; the digital birth certificate serves as conclusive single-document legal proof for school admissions, voter lists, driving licences, passport issuances, Aadhaar registration, and government appointments.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Effective Enforcement Date: **October 1, 2026** (notified by Registrar General of India Mrityunjay Kumar Narayan).
 - Amending Section: **Section 13(3)** of Registration of Births and Deaths Act, 1969.
@@ -1374,7 +1374,7 @@
 
 ---
 
-📰 [SEP-073] **Rural Development Ministry Notifies DILRMP 3.0 Guidelines: ₹565.50 Cr Outlay, 14-Digit Bhu-Aadhaar & Registration Seva Kendras**
+[SEP-073] **Rural Development Ministry Notifies DILRMP 3.0 Guidelines: ₹565.50 Cr Outlay, 14-Digit Bhu-Aadhaar & Registration Seva Kendras**
 
 - **Phase-3 Operational Guidelines**: Union Minister for Rural Development Shivraj Singh Chouhan unveiled operational guidelines for the third phase of the *Digital India Land Records Modernisation Programme (DILRMP 3.0)*.
 - **Scheme Architecture & Outlay**:
@@ -1386,7 +1386,7 @@
   - Earmarks **₹37.5 crore** to transform **75 high-footfall Sub-Registrar Offices (SROs)** across the country into state-of-the-art "Registration Seva Kendras", modelled after Passport Seva Kendras.
 - **Federated National Land Stack**: Creates interoperable state-level land stacks integrated via APIs with Revenue Court Case Management Systems (RCCMS) and banks, alongside expanding the NAKSHA pilot for urban property cards (UrPro Cards). Earlier phases completed 99.9% digitisation of Records of Rights (RoRs).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Implementing Ministry: **Department of Land Resources, Ministry of Rural Development**.
 - Scheme Outlay & Period: **₹565.50 crore (April 1, 2026 to March 31, 2031)**.
@@ -1396,7 +1396,7 @@
 
 ---
 
-📰 [SEP-074] **MoPNG Issues Operational Guidelines for ₹23,731 Crore GOBARdhan Scheme: 100% CBG Offtake Assurance & 10-Year Fixed ACP**
+[SEP-074] **MoPNG Issues Operational Guidelines for ₹23,731 Crore GOBARdhan Scheme: 100% CBG Offtake Assurance & 10-Year Fixed ACP**
 
 - **Policy Notification**: Ministry of Petroleum and Natural Gas (**MoPNG**) notified comprehensive operational guidelines for the **₹23,731 crore GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) National Circular Bioenergy Scheme**, implementing Cabinet decisions from August 2026 for FY 2026-27 to FY 2035-36 (10-year horizon).
 - **100% Offtake Guarantee & Commercial De-risking**:
@@ -1410,7 +1410,7 @@
   - *Existing Biogas Upgrades*: Financial assistance of **₹0.60 crore per TPD**, capped at **₹5 crore per project**.
 - **Mandatory CGD Blending Obligations**: Mandates CBG blending targets of **3% in FY27**, **4% in FY28**, and **5% from FY29 onwards** across CNG and domestic PNG networks.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Total Scheme Outlay: **₹23,731 crore** (FY27 to FY36, 10-year term).
 - Administered CBG Price (ACP): **₹2,110 per MMBtu (~₹98/kg)** fixed till March 31, 2036.
@@ -1420,7 +1420,7 @@
 
 ---
 
-📰 [SEP-075] **PM Vishwakarma Scheme Reaches 3-Year Milestone: Enrols 30 Lakh Verified Artisans with ₹13,000 Crore Outlay**
+[SEP-075] **PM Vishwakarma Scheme Reaches 3-Year Milestone: Enrols 30 Lakh Verified Artisans with ₹13,000 Crore Outlay**
 
 - **Triennial Anniversary**: Launched on September 17, 2023, by Prime Minister Narendra Modi, the flagship *PM Vishwakarma Scheme* completed 3 years, reaching its milestone target of **30 lakh verified artisans and craftspeople**.
 - **Scheme Framework & Financial Outlay**:
@@ -1436,7 +1436,7 @@
      - **Tranche 2**: Up to **₹2,00,000 (₹2 Lakh)** with a 30-month repayment tenure (eligible after standard repayment of Tranche 1).
   - *Digital Transaction Incentives*: ₹1 per digital transaction for up to 100 transactions per month (₹100/month maximum incentive).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Verified Beneficiaries Reached: **30 lakh artisans**.
 - Covered Trades: **18 traditional artisan trades**.
@@ -1447,7 +1447,7 @@
 
 ---
 
-📰 [SEP-076] **Pradhan Mantri Kisan Maandhan Yojana (PM-KMY) Completes 7 Years: Assured Old-Age Pension for Small and Marginal Farmers**
+[SEP-076] **Pradhan Mantri Kisan Maandhan Yojana (PM-KMY) Completes 7 Years: Assured Old-Age Pension for Small and Marginal Farmers**
 
 - **7-Year Milestone**: Launched on September 12, 2019, from Ranchi, Jharkhand, PM-KMY completed 7 years of providing institutional social security to India's farming community.
 - **Statutory Scheme Architecture**:
@@ -1462,7 +1462,7 @@
   - 100% Equal Matching Contribution: Central Government deposits an equal matching amount (50:50) directly into the farmer's pension fund account.
   - Auto-Debit Facility: Farmers can choose to auto-debit their monthly contribution directly from their **PM-KISAN** income transfer instalments.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Monthly Pension Amount: Guaranteed **₹3,000 per month** after age 60.
 - Eligibility Landholding: Up to **2 hectares of cultivable land**.
@@ -1472,7 +1472,7 @@
 
 ---
 
-📰 [SEP-077] **6 States Sign Landmark MoA for ₹11,550 Cr Kishau Multipurpose Project on Tons River (Yamuna Basin)**
+[SEP-077] **6 States Sign Landmark MoA for ₹11,550 Cr Kishau Multipurpose Project on Tons River (Yamuna Basin)**
 
 - **Inter-State River Basin Consensus**: In the presence of Union Home Minister Amit Shah and Union Jal Shakti Minister C.R. Patil, the Chief Ministers of six northern states—**Uttar Pradesh, Uttarakhand, Himachal Pradesh, Rajasthan, Delhi, and Haryana**—signed the historic Memorandum of Agreement (MoA) for the **Kishau Multipurpose Project**, marking the resolution of the **10th major inter-state water dispute** resolved since 2014.
 - **Engineering & Storage Specifications**:
@@ -1483,13 +1483,13 @@
   - **Innovative Water-Power Swap**: Himachal Pradesh’s share of water will be re-allocated to **Delhi and Rajasthan**; in reciprocal return, Delhi and Rajasthan will bear Himachal Pradesh’s portion of the capital cost for the power generation component.
   - Resolves an impasse dating back to the **May 12, 1994 Upper Yamuna Basin Agreement**, and complements the earlier settlements of the **Lakhwar (Uttarakhand)** and **Renukaji (HP)** dams.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Dam Dimensions: **232.6 metres high** concrete gravity dam on the **Tons River** (Yamuna tributary).
 - Central Funding Share: **90% Central Assistance** on the water component (States bear 10%).
 - Water-for-Power Bilateral Swap: HP water share allocated to **Delhi & Rajasthan** in exchange for power capital funding.
 - Target MCQ Form: "The Kishau Multipurpose Dam, for which 6 states signed a landmark MoA in 2026, is being constructed across which river?" → Tons River (tributary of Yamuna).
 
-📰 [SEP-078] **Andhra Pradesh Signs ₹40,000 Cr G2G Urban Infrastructure & Smart Mobility Accord with United Kingdom**
+[SEP-078] **Andhra Pradesh Signs ₹40,000 Cr G2G Urban Infrastructure & Smart Mobility Accord with United Kingdom**
 
 - **Sovereign Sub-National G2G Pact**: The Government of Andhra Pradesh executed a landmark Government-to-Government (**G2G**) Memorandum of Understanding (MoU) with the **United Kingdom (UK)** to deploy advanced British engineering, sustainable design, and smart urban infrastructure technologies across Andhra Pradesh.
 - **Project Outlay & Geographical Scope**:
@@ -1499,7 +1499,7 @@
   - Urban mobility modernisation across metro rail transit, EV bus networks, airport transit links, pedestrianised corridors, and data-driven civic planning.
   - Bilateral governance overseen by a dedicated **Joint Government-to-Government Steering Group**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Partner Sovereign Nation: **United Kingdom (UK)**.
 - Financial Outlay: **₹40,000 crore** across **123 urban local bodies (ULBs)**.
 - Focus Hubs: Capital city **Amaravati** and the Amaravati Riverfront.
@@ -1507,9 +1507,9 @@
 
 ---
 
-## 6. 🛡️ DEFENCE, STRATEGIC MISSIONS & AEROSPACE
+## 6. ️ DEFENCE, STRATEGIC MISSIONS & AEROSPACE
 
-📰 [SEP-079] **Operation 'BRICS Kavach': NSG Mounts Multi-Agency Counter-Terror Drill Ahead of 18th BRICS Summit**
+[SEP-079] **Operation 'BRICS Kavach': NSG Mounts Multi-Agency Counter-Terror Drill Ahead of 18th BRICS Summit**
 
 - **Elite Counter-Terror Preparedness**: The **National Security Guard (NSG)** mounted a large-scale, multi-layered tactical exercise code-named **"Operation BRICS Kavach"**.
 - **Security Mandate & Venues**:
@@ -1517,7 +1517,7 @@
   - Simulated simultaneous counter-hijack, hostage rescue, and anti-drone neutralization missions to secure international heads of state attending the upcoming **18th BRICS Summit**.
 - **India's Historical BRICS Chairships**: India previously hosted and chaired the BRICS Summit in **2012, 2016, and 2021**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Exercise Name: **Operation BRICS Kavach**.
 - Executing Agency: **National Security Guard (NSG)** ('Black Cats'; Ministry of Home Affairs).
 - Summit Secured: **18th BRICS Summit**.
@@ -1525,21 +1525,21 @@
 
 ---
 
-📰 [SEP-080] **Exercise Veer Guardian 2026: 2nd Edition Bilateral Air Exercise Between IAF and Japan JASDF**
+[SEP-080] **Exercise Veer Guardian 2026: 2nd Edition Bilateral Air Exercise Between IAF and Japan JASDF**
 
 - **Bilateral Air Combat Exercise**: The Indian Air Force (**IAF**) and the Japan Air Self-Defense Force (**JASDF**) commenced the **2nd edition** of bilateral air exercise **"Veer Guardian 2026"**.
 - **Dates & Tactical Base**:
   - Conducted from **September 9 to 22, 2026**, at **Air Force Station Jodhpur, Rajasthan**.
   - Features high-end multi-domain air combat, complex air-to-air dogfights, and integrated electronic warfare simulations between IAF Su-30MKI fighters and JASDF F-2/F-15 combat jets.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Partner Nations: **India & Japan** (Air Forces: IAF & JASDF).
 - Edition: **2nd Edition** (Inaugural edition held at Hyakuri Air Base, Japan in 2023).
 - Venue: **Air Force Station Jodhpur, Rajasthan**.
 
 ---
 
-📰 [SEP-081] **IAF Hosts 'Dronathon-2026' at Pokhran & Army Establishes AASHVAST Drone Security Lab**
+[SEP-081] **IAF Hosts 'Dronathon-2026' at Pokhran & Army Establishes AASHVAST Drone Security Lab**
 
 - **IAF Dronathon-2026 at Pokhran**:
   - The Indian Air Force conducted **"Dronathon-2026"** at the **Pokhran Firing Range in Jaisalmer, Rajasthan**.
@@ -1549,14 +1549,14 @@
   - **Full Form**: *Assessment and Analysis of Electronic Systems Hardware for Vulnerabilities and Security Threats*.
   - Mandated to scan military drones, loitering munitions, and tactical communications systems for malware, backdoor chip vulnerabilities, and unauthorized origin components.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Dronathon-2026 Location: **Pokhran Range, Jaisalmer, Rajasthan**.
 - Lab Acronym: **AASHVAST** (DG EME, Indian Army, New Delhi).
 - Core Mandate: Hardware/software vulnerability scanning of military drones.
 
 ---
 
-📰 [SEP-082] **AVNL Jabalpur T-72 & T-90 Tank Overhaul Facility (₹472 Cr) & GE Aerospace Delivers 3 F404 Engines to HAL**
+[SEP-082] **AVNL Jabalpur T-72 & T-90 Tank Overhaul Facility (₹472 Cr) & GE Aerospace Delivers 3 F404 Engines to HAL**
 
 - **National Main Battle Tank Overhaul Architecture**:
   - Defence Minister Rajnath Singh and MP Chief Minister Dr. Mohan Yadav laid the foundation stone for the **T-Series Tank Overhaul Facility** at the 57-year-old **Vehicle Factory Jabalpur (VFJ)**, Madhya Pradesh.
@@ -1566,7 +1566,7 @@
   - US aviation giant **GE Aerospace** delivered the initial consignment of **3 F404-IN20 turbofan engines** to **Hindustan Aeronautics Limited (HAL)** in Bengaluru, unblocking flight delivery schedules for the 83 Tejas Mk1A fighter jets.
   - *Note*: HAL holds **Maharatna status**, standing as India's **14th Central Public Sector Enterprise (CPSE)** to achieve the status.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - VFJ Jabalpur Outlay & Annual Capacity: **₹472 Crore**; **80 tanks/year** (T-72 Ajeya & T-90 Bhishma).
 - Army Annual Requirement: **~230 tanks per year** (Avadi HVF: ~150/year; VFJ Jabalpur: 80/year).
 - PSU Operator: **Armoured Vehicles Nigam Limited (AVNL)** (HQ: Avadi, Chennai).
@@ -1574,20 +1574,20 @@
 
 ---
 
-📰 [SEP-083] **Defence Strategic Milestones: Rajnath Singh Unveils 'RAKSHA' & Indo-US Super Garuda Shield**
+[SEP-083] **Defence Strategic Milestones: Rajnath Singh Unveils 'RAKSHA' & Indo-US Super Garuda Shield**
 
 - **Rajnath Singh Unveils 'RAKSHA' Diplomacy Framework**:
   - Defence Minister Rajnath Singh released *"RAKSHA"*, the Government's unified Strategic Defence Diplomacy Framework document, articulating India's defence export partnerships, joint military exercises, and naval hydrographic support across the Global South.
 - **Multinational Exercise Super Garuda Shield**:
   - United States and Indonesia launched the annual multinational military exercise **"Super Garuda Shield 2026"** across Bandung, Baturaja, and North Kalimantan, joined by 13 partner nations.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Defence Policy Document: **'RAKSHA'** (Defence Diplomacy Framework).
 - Super Garuda Shield: Led by **US and Indonesia** (annual exercise since 2006).
 
 ---
 
-📰 [SEP-084] **Indian Navy Commissions DSV 'INS Nipun' & L&T Delivers First Multi-Purpose Vessel 'Samarthak'**
+[SEP-084] **Indian Navy Commissions DSV 'INS Nipun' & L&T Delivers First Multi-Purpose Vessel 'Samarthak'**
 
 - **Deep Submergence Capability Milestone**: The Indian Navy formally commissioned **‘INS Nipun’** (Yard 11191), its second indigenously designed and built **Nistar-class Diving Support Vessel (DSV)**, at the Naval Dockyard in Mumbai, presided over by Chief of the Naval Staff Admiral Krishna Swaminathan.
   - Built by: **Hindustan Shipyard Limited (HSL)**, Visakhapatnam.
@@ -1596,7 +1596,7 @@
   - Built under an **₹887 Crore** 'Buy (Indian)' contract for 2 vessels (>75% indigenous content; 3,750 tonnes displacement; sister vessel *Utkarsh*).
 - **Coast Guard Fleet Augmentation**: Goa Shipyard Limited (**GSL**) handed over **‘ICGS Ajit’** (Yard 1277), the 7th Fast Patrol Vessel (FPV) in the Adamya-class series (51.43m length, 330 tonnes displacement).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - INS Nipun Shipyard: **Hindustan Shipyard Limited (HSL), Visakhapatnam** (displacement: **9,350 tonnes**; class: **Nistar-class DSV**).
 - Samarthak Shipyard: **Larsen & Toubro (L&T), Kattupalli Shipyard** (Contract: **₹887 Crore** for 2 MPVs).
 - ICGS Ajit Builder: **Goa Shipyard Limited (GSL)** for the Adamya-class FPV.
@@ -1604,7 +1604,7 @@
 
 ---
 
-📰 [SEP-085] **HAL–Safran Finalise JV Contract for 'Aravalli' Helicopter Engines & India Joins GCAP as Dialogue Partner**
+[SEP-085] **HAL–Safran Finalise JV Contract for 'Aravalli' Helicopter Engines & India Joins GCAP as Dialogue Partner**
 
 - **The 'Aravalli' Helicopter Engine Contract**: Hindustan Aeronautics Limited (**HAL**) and France's **Safran Helicopter Engines** signed the definitive procurement and development contract through their 50:50 joint venture, **SAFHAL Helicopter Engines Pvt. Ltd.**
   - **Power Envelope & Nomenclature**: The new **“Aravalli” engine** operates in the **3,500–4,000 shaft horsepower (shp)** power bracket, named after India's Aravalli range.
@@ -1613,7 +1613,7 @@
 - **Sixth-Gen Stealth Fighter Diplomacy**: India secured **‘Dialogue Partner’** status in the **Global Combat Air Programme (GCAP)**—popularly known as the **Tempest programme**—jointly spearheaded by the **United Kingdom, Japan, and Italy**.
   - The status permits technical observation and strategic capability evaluations without binding financial co-development or access to classified design source code.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Joint Venture Name: **SAFHAL Helicopter Engines Pvt. Ltd.** (50:50 HAL & Safran).
 - Engine Designation & Power: **“Aravalli”**, **3,500–4,000 shaft horsepower (shp)**.
 - Production Facility Location: **Tumakuru, Karnataka**.
@@ -1622,7 +1622,7 @@
 
 ---
 
-📰 [SEP-086] **Indian Army Signs \$45.7M Javelin Missile LOA with US & Raises First 'Baaz Battalion' Drone Unit**
+[SEP-086] **Indian Army Signs \$45.7M Javelin Missile LOA with US & Raises First 'Baaz Battalion' Drone Unit**
 
 - **Indo-US Javelin Anti-Tank Deal**: The Indian Army executed a binding Letter of Offer and Acceptance (**LOA**) with the United States under the **Foreign Military Sales (FMS)** mechanism for the **FGM-148 Javelin** anti-tank guided missile system.
   - Transaction Value & Package: **\$45.7 Million** outlay covering **100 Javelin missile rounds**, 1 fly-to-buy test round, and **25 Javelin Lightweight Command Launch Units (Block-1 CLUs)**, resolving a 16-year procurement effort since 2010.
@@ -1633,7 +1633,7 @@
   - **Khagantak-243 Glide Bomb**: IAF conducted successful drop trials of the indigenously developed *Khagantak-243 Long Range Glide Bomb (LRGB)*, developed by JSR Dynamics with guidance systems by Bharat Electronics Limited (**BEL**).
   - **DRDO MCPS Test**: Successfully air-dropped the indigenous *Military Combat Parachute System (MCPS)* from **22,000 feet** at the Nyoma-Mudh Drop Zone in Eastern Ladakh at -15°C (developed by ADRDE Agra).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Javelin Deal Terms: **\$45.7 Million for 100 missiles & 25 Block-1 CLUs** via US FMS route.
 - Baaz Battalion Location & Command: **Jalandhar, Punjab (11 Corps)**.
 - Khagantak-243 Developers: **JSR Dynamics and Bharat Electronics Ltd (BEL)**.
@@ -1642,7 +1642,7 @@
 ---
 
 
-📰 [SEP-087] **SLINEX-26 Maritime Exercise (13th Edition) & Trilateral Naval Security Maneuvers**
+[SEP-087] **SLINEX-26 Maritime Exercise (13th Edition) & Trilateral Naval Security Maneuvers**
 - **Bilateral Maritime Engagement**: The Indian Navy and Sri Lanka Navy conducted the **13th edition** of their annual bilateral maritime exercise, **SLINEX-26**, off the coast of **Visakhapatnam, Andhra Pradesh**.
 - **Indian Navy Operational Assets**:
   - **INS Kavaratti**: Indigenous *Kamorta-class* Anti-Submarine Warfare (ASW) stealth corvette.
@@ -1653,7 +1653,7 @@
   - Sea Phase involving anti-surface warfare firings, ASW maneuvers, and coordinated maritime air patrols with Dornier-228 aircraft.
   - *Institutional Context*: SLINEX was first conceptualised and initiated in **2005**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Exercise Name & Edition: **SLINEX-26 (13th Edition)**.
 - Participating Navies: **Indian Navy and Sri Lanka Navy**.
@@ -1663,7 +1663,7 @@
 
 ---
 
-📰 [SEP-088] **DRDO Successfully Tests Military Combat Parachute System (MCPS) at Nyoma-Mudh Drop Zone (22,000 ft, Ladakh LAC)**
+[SEP-088] **DRDO Successfully Tests Military Combat Parachute System (MCPS) at Nyoma-Mudh Drop Zone (22,000 ft, Ladakh LAC)**
 
 - **Extreme High-Altitude Tactical Insertion**: The Defence Research and Development Organisation (**DRDO**) achieved a historic operational breakthrough by successfully executing high-altitude jumps with its indigenously developed **Military Combat Parachute System (MCPS)** at the **Nyoma-Mudh Drop Zone** in Leh district, Eastern Ladakh, situated in immediate proximity to the Line of Actual Control (LAC).
 - **Operational Flight Profile**:
@@ -1675,13 +1675,13 @@
   - Tailored for high-altitude tactical insertions of Special Forces personnel carrying heavy combat payloads.
   - Builds on previous milestone tests including a combat freefall jump from **32,000 feet in October 2025**, solidifying MCPS as the only operational Indian military parachute qualified for jumps above 25,000 feet.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Drop Zone Location: **Nyoma-Mudh Drop Zone, Leh, Eastern Ladakh** (elevation: 13,700 ft).
 - Developing Laboratories: **ADRDE (Agra)** and **DEBEL (Bengaluru)** under DRDO.
 - Jump Parameters: Exit from **22,000 ft** at **-15°C**; deployed at 20,000 ft; landed at 13,700 ft.
 - Target MCQ Form: "The indigenously developed Military Combat Parachute System (MCPS) tested by DRDO at Nyoma-Mudh drop zone was developed by which DRDO laboratory?" → Aerial Delivery Research and Development Establishment (ADRDE), Agra.
 
-📰 [SEP-089] **Munitions India Limited (MIL) & Drogo Aerospace Partner for 'Delta Wing Kamikaze' Loitering Munition UAVs**
+[SEP-089] **Munitions India Limited (MIL) & Drogo Aerospace Partner for 'Delta Wing Kamikaze' Loitering Munition UAVs**
 
 - **Public-Private Defence Synthesis**: Munitions India Limited (**MIL**), the largest Defence Public Sector Undertaking (DPSU) formed under the Ministry of Defence, signed a strategic MoU with Hyderabad-based private drone manufacturer **Drogo Aerospace** in Pune to co-develop indigenous loitering munitions and attack UAV systems.
 - **Workshare & Technology Division**:
@@ -1696,13 +1696,13 @@
   - Munitions India Limited (MIL; HQ: Pune; CMD: Prakash Agarwala; established in 2021 post OFB corporatisation).
   - Drogo Aerospace (HQ: Hyderabad; Founder & CEO: Yashwanth Bonthu).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Loitering Munition Platform: **Delta Wing Kamikaze** (One-way attack / suicide drone).
 - Operational Strike Range: **Up to 1,000 km** with **20–30 kg** warhead payload.
 - Partner Entities: **Munitions India Limited (MIL, Pune)** + **Drogo Aerospace (Hyderabad)**.
 - Target MCQ Form: "Munitions India Limited (MIL) partnered with Drogo Aerospace to co-develop the 'Delta Wing Kamikaze' loitering munition UAV having an operational range of up to:" → 1,000 km.
 
-📰 [SEP-090] **INS Trishul Conducts Maritime PASSEX with Egyptian Navy ENS Bernees in Alexandria, Mediterranean Sea**
+[SEP-090] **INS Trishul Conducts Maritime PASSEX with Egyptian Navy ENS Bernees in Alexandria, Mediterranean Sea**
 
 - **Strategic Mediterranean Forward Deployment**: The Indian Navy’s guided missile stealth frigate **INS Trishul** carried out a Passage Exercise (**PASSEX**) with Egyptian Navy frontline warship **ENS Bernees** off the coast of Alexandria, Egypt, enhancing bilateral interoperability, communications interoperability, and tactical formation maneuvering in the Eastern Mediterranean Sea.
 - **Naval Escort & Port Call**:
@@ -1713,7 +1713,7 @@
 - **Class & Platform Identity**:
   - INS Trishul is a Talwar-class guided missile frigate attached to the Western Fleet (HQ: Mumbai).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Participating Warships: **INS Trishul** (Indian Navy) and **ENS Bernees / ENS Al Qadeer** (Egyptian Navy).
 - Location of Exercise: **Alexandria, Egypt (Mediterranean Sea)**.
 - Historic War Memorial Visited: **Chatby War Memorial**, Alexandria (commemorating Indian soldiers in WW-I & WW-II).
@@ -1721,9 +1721,9 @@
 
 ---
 
-## 7. 🔬 SCIENCE, DEEP-TECH, SPACE & ENVIRONMENT
+## 7. SCIENCE, DEEP-TECH, SPACE & ENVIRONMENT
 
-📰 [SEP-091] **ISRO Launches EOS-05 Earth Observation Satellite into Geosynchronous Orbit via GSLV**
+[SEP-091] **ISRO Launches EOS-05 Earth Observation Satellite into Geosynchronous Orbit via GSLV**
 
 - **Advanced Satellite Launch**: The Indian Space Research Organisation (**ISRO**) successfully launched the **Earth Observation Satellite EOS-05** from the Satish Dhawan Space Centre (SDSC) in **Sriharikota**.
 - **Mission Specifications & Launch Vehicle**:
@@ -1731,7 +1731,7 @@
   - Injected EOS-05 into a Geosynchronous Transfer Orbit (GTO) prior to circularization into a **geosynchronous orbit**, establishing India's first continuous optical/infrared observation platform in geosynchronous space.
   - Provides real-time disaster monitoring, cloud tracking, flood mapping, and environmental security assessments across the Indian subcontinent.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Satellite Launched: **EOS-05** (Earth Observation Satellite).
 - Launch Vehicle: **GSLV** (Geosynchronous Satellite Launch Vehicle).
 - Launch Base: **SDSC SHAR, Sriharikota, Andhra Pradesh**.
@@ -1739,7 +1739,7 @@
 
 ---
 
-📰 [SEP-092] **DRDO and University of Hyderabad Patent BAM-H24 Next-Gen Rocket Fuel & GalaxEye Wins US Patent**
+[SEP-092] **DRDO and University of Hyderabad Patent BAM-H24 Next-Gen Rocket Fuel & GalaxEye Wins US Patent**
 
 - **High-Energy BAM-H24 Propellant Patent**:
   - Scientists from **DRDO and the University of Hyderabad (UoH)** secured a joint patent for a next-generation energetic compound designated **BAM-H24**.
@@ -1749,14 +1749,14 @@
 - **Jitendra Singh Launches BIO-NIVESH**:
   - Union Minister Dr. Jitendra Singh launched **BIO-NIVESH** under the Ministry of Science & Technology, mobilizing private venture capital for biotech commercialization backed by the **₹1 lakh crore RDI Fund** with **BIRAC** acting as second-level fund manager.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - High-Energy Compound: **BAM-H24** (DRDO + University of Hyderabad).
 - First Indian Space Startup with US Patent: **GalaxEye Space** (SAR + Optical).
 - Biotech Venture Engine: **BIO-NIVESH** (BIRAC / ₹1 Lakh Crore RDI Fund).
 
 ---
 
-📰 [SEP-093] **India Joins 24 Nations in Global 6G Initiative & Meta Launches 'Muse' AI Agent**
+[SEP-093] **India Joins 24 Nations in Global 6G Initiative & Meta Launches 'Muse' AI Agent**
 
 - **Multilateral 6G Coalition**:
   - India joined a strategic coalition of **24 nations** committing to open, interoperable, and secure **Sixth-Generation (6G) wireless technology** development.
@@ -1766,13 +1766,13 @@
 - **Türkiye Joins NASA Artemis Accords**:
   - **Türkiye** formally acceded to NASA's **Artemis Accords**, becoming the **71st signatory nation** committed to peaceful, transparent lunar and deep-space exploration.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - 6G Global Coalition: **India among 24 participating countries**.
 - Artemis Accords 71st Signatory: **Türkiye** (71st party to US-led lunar pact).
 
 ---
 
-📰 [SEP-094] **Global Environmental Accords: UNCCD COP17, 4th Indo-German Forum & Coral Reef Decline**
+[SEP-094] **Global Environmental Accords: UNCCD COP17, 4th Indo-German Forum & Coral Reef Decline**
 
 - **UNCCD COP17 Announced for Ulaanbaatar**:
   - The United Nations Convention to Combat Desertification announced that the **17th Session of the Conference of the Parties (COP17)** will be held in **Ulaanbaatar, Mongolia**.
@@ -1782,14 +1782,14 @@
   - UNEP released empirical assessments warning that global warming will breach the 1.5°C Paris benchmark under current NDCs, heading toward 2.6°C by 2100.
   - Global Coral Reef Monitoring Network (GCRMN) released the *7th Status of the World's Coral Reefs report*, documenting a catastrophic **9.5% decline in global hard coral cover** since the 1980–2009 baseline.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - UNCCD COP17 Host: **Ulaanbaatar, Mongolia**.
 - Indo-German Forum Theme: **"Together For More Resilience"** (New Delhi).
 - Global Coral Cover Loss: **9.5% decline** (GCRMN 7th Report).
 
 ---
 
-📰 [SEP-095] **National Critical Minerals Mission Launches Innovation Hackathon & C-DOT Unveils 14 Quantum Products**
+[SEP-095] **National Critical Minerals Mission Launches Innovation Hackathon & C-DOT Unveils 14 Quantum Products**
 
 - **Critical Minerals R&D Impetus**: Union Minister of Coal and Mines G. Kishan Reddy launched the **Critical Minerals Innovation Hackathon 2026 (CMiH 2026)** to operationalise the **National Critical Minerals Mission (NCMM)**.
   - Problem Statements: Focuses on open-data mineral prospectivity mapping and advanced processing/beneficiation of 30 designated critical minerals, backed by a ₹100 Crore R&D scheme at JNARDDC Nagpur.
@@ -1799,7 +1799,7 @@
 - **Bureau of Indian Standards (BIS) Silver Hallmarking Expansion**:
   - Expanded mandatory HUID-based silver hallmarking to **341 centres across 102 districts** with 25,000+ registered jewellers under the revised **IS 2112:2025** standard (mandatory 6-digit alphanumeric code).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - NCMM Hackathon: **CMiH 2026** under Ministry of Coal and Mines (G. Kishan Reddy).
 - C-DOT Product Battery: **14 quantum products** across QKD and PQC disciplines.
 - Silver Hallmarking Standard: **IS 2112:2025** (Mandatory 6-digit **HUID** across 102 districts).
@@ -1808,7 +1808,7 @@
 ---
 
 
-📰 [SEP-096] **TRISHNA Mission: Joint ISRO–CNES Thermal Satellite for Natural Resource & Evapotranspiration Mapping**
+[SEP-096] **TRISHNA Mission: Joint ISRO–CNES Thermal Satellite for Natural Resource & Evapotranspiration Mapping**
 - **Bilateral Space Collaboration**: The Indian Space Research Organisation (**ISRO**) and the French National Centre for Space Studies (**CNES**) finalized technical deployment protocols for their flagship joint satellite mission, **TRISHNA**.
 - **Mission Acronym & Objectives**:
   - *TRISHNA* stands for **Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment**.
@@ -1817,7 +1817,7 @@
   - Equipped with dual state-of-the-art optical payloads: a Thermal Infrared (TIR) instrument developed by CNES and a Visible Near-Infrared (VNIR) optical sensor built by ISRO.
   - Delivers high-resolution, high-frequency thermal imaging to measure field-level crop **evapotranspiration**, monitor agricultural drought vulnerabilities, assess urban heat islands, and track glacial retreat across the Himalayas.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Space Agencies: **ISRO (India) and CNES (France)**.
 - Satellite Name: **TRISHNA** (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment).
@@ -1827,7 +1827,7 @@
 
 ---
 
-📰 [SEP-097] **Project Cheetah Completes 4 Years: India's Wild Feline Population Expands to 52 across Kuno & Gandhi Sagar**
+[SEP-097] **Project Cheetah Completes 4 Years: India's Wild Feline Population Expands to 52 across Kuno & Gandhi Sagar**
 - **Four-Year Reintroduction Milestone**: India's landmark transcontinental wildlife restoration initiative, **Project Cheetah**, completed **4 full years** on **September 17, 2026** (launched by PM Narendra Modi on September 17, 2022).
 - **Wild Population Growth (52 Cheetahs)**:
   - From the original batch of 8 wild cheetahs translocated from **Namibia in 2022** and 12 from **South Africa in 2023**, India's total cheetah population expanded to **52 cheetahs**.
@@ -1837,7 +1837,7 @@
   - **3 cheetahs** successfully introduced into the second landscape, **Gandhi Sagar Wildlife Sanctuary (Mandsaur, Madhya Pradesh)**.
   - Genetic diversification bolstered in 2026 through the arrival of **9 cheetahs from Botswana**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Launch Date: **17 September 2022** (Kuno National Park, MP).
 - 4th Anniversary Total Population: **52 cheetahs** (32 born in India).
@@ -1847,7 +1847,7 @@
 
 ---
 
-📰 [SEP-098] **India Joins IAEA ATLAS Initiative: Advancing Small Modular Reactors (SMRs) for Civilian Maritime Fleets**
+[SEP-098] **India Joins IAEA ATLAS Initiative: Advancing Small Modular Reactors (SMRs) for Civilian Maritime Fleets**
 - **Nuclear Maritime Expansion**: India officially joined the **ATLAS (Atomic Technologies Licensed for Applications at Sea)** project launched by the **International Atomic Energy Agency (IAEA)** at its ministerial conference in Washington D.C.
 - **Small Modular Reactor (SMR) Focus**:
   - Formulates global safety, regulatory, and non-proliferation protocols for deploying **Small Modular Reactors (SMRs)** in commercial cargo shipping, container carriers, and floating coastal nuclear power barges.
@@ -1857,7 +1857,7 @@
   - Headquarters: **Vienna, Austria**.
   - Leadership: Director General is **Rafael Mariano Grossi**; membership comprises **182 member states**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Project Acronym: **ATLAS** (Atomic Technologies Licensed for Applications at Sea).
 - Lead Agency: **IAEA (International Atomic Energy Agency)**.
@@ -1867,13 +1867,13 @@
 
 ---
 
-📰 [SEP-099] **UK Recognises India's Carbon Credit Trading Scheme (CCTS) for Carbon Border Adjustment Relief**
+[SEP-099] **UK Recognises India's Carbon Credit Trading Scheme (CCTS) for Carbon Border Adjustment Relief**
 - **Sovereign Climate Trade Alignment**: The United Kingdom officially recognised India’s domestic **Carbon Credit Trading Scheme (CCTS)**, providing Indian industrial exporters relief under the UK's upcoming **Carbon Border Adjustment Mechanism (UK-CBAM)** scheduled for implementation in 2027.
 - **Protection for Hard-to-Abate Sectors**:
   - Ensures that carbon fees paid by Indian heavy industrial manufacturers (steel, aluminium, cement, and fertilisers) under the Bureau of Energy Efficiency’s (**BEE**) carbon market will be offset against UK-CBAM import taxes.
   - Prevents double carbon taxation and preserves the export competitiveness of Indian engineering goods entering the British and European markets.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Foreign Country Recognizing Indian Carbon Scheme: **United Kingdom (UK)**.
 - Indian Scheme: **Carbon Credit Trading Scheme (CCTS)** (administered by Bureau of Energy Efficiency, Ministry of Power).
@@ -1881,7 +1881,7 @@
 - Target MCQ Form: "Which country officially recognized India's Carbon Credit Trading Scheme (CCTS) to provide tax offsets against its upcoming Carbon Border Adjustment Mechanism?" → **United Kingdom**.
 
 ---
-📰 [SEP-100] **GRSE Launches Ocean Research Vessel 'ORV Sagar Manthan' (Yard 3041) under ₹840 Crore Deep Ocean Mission Vertical-4**
+[SEP-100] **GRSE Launches Ocean Research Vessel 'ORV Sagar Manthan' (Yard 3041) under ₹840 Crore Deep Ocean Mission Vertical-4**
 
 - **Vessel Launch & Construction**: Union Minister Dr. Jitendra Singh launched India's advanced Ocean Research Vessel (ORV) **"Sagar Manthan" (Yard 3041)** at the Rishi Bankim Shipyard of Garden Reach Shipbuilders and Engineers (**GRSE**), Kolkata.
 - **Mission Anchor & Outlay**:
@@ -1894,7 +1894,7 @@
   - Scientific Payload: Equipped with multichannel seismic systems, multibeam bathymetry, sub-bottom profilers, drop keels, and deployment bays for Remotely Operated Vehicles (ROVs) and Autonomous Underwater Vehicles (AUVs).
 - **Replacement Timeline**: Gradually replaces India's historic 43-year-old research vessel *ORV Sagar Kanya* (procured from Germany in 1983); final delivery and NCPOR commissioning scheduled for 2028.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Vessel Name & Yard: **ORV Sagar Manthan (Yard 3041)** built by **GRSE, Kolkata**.
 - Flagship Umbrella: **Deep Ocean Mission (Vertical-4: Deep Ocean Survey)**; Outlay = **₹840 crore**.
@@ -1904,7 +1904,7 @@
 
 ---
 
-📰 [SEP-101] **Akasa Air Operates India's First Commercial Flight Blended with 1% Sustainable Aviation Fuel (SAF) via BPCL**
+[SEP-101] **Akasa Air Operates India's First Commercial Flight Blended with 1% Sustainable Aviation Fuel (SAF) via BPCL**
 
 - **Decarbonisation Milestone**: Akasa Air operated India's first commercial passenger flight powered by conventional Aviation Turbine Fuel (ATF) blended with **1% Sustainable Aviation Fuel (SAF)**, supplied by Bharat Petroleum Corporation Limited (**BPCL**).
 - **Flight Route & Fleet Technology**:
@@ -1913,7 +1913,7 @@
   - Ministry of Civil Aviation and MoPNG set a national mandate of **5% mandatory SAF blending by 2030** for domestic airlines, aligning with the International Air Transport Association's (**IATA**) global commitment of Net-Zero Carbon Emissions by 2050.
 - **Airline Decarbonisation Innovations**: Akasa Air utilizes the OpenAirlines "SkyBreathe" fuel analytics platform and was the first Indian airline to discontinue traditional ceremonial water-cannon salutes during route inaugurations, saving over 5.5 lakh litres of water.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Airline & Fuel Partner: **Akasa Air** and **BPCL** (Mumbai to Goa flight).
 - SAF Blending Ratio: **1% Sustainable Aviation Fuel (SAF)**.
@@ -1922,7 +1922,7 @@
 
 ---
 
-📰 [SEP-102] **OIL Green Energy (OGEL) Inks 4 Municipal MoUs in Haryana for 5,000 TPD Waste-to-CBG & 50 MW Power Projects**
+[SEP-102] **OIL Green Energy (OGEL) Inks 4 Municipal MoUs in Haryana for 5,000 TPD Waste-to-CBG & 50 MW Power Projects**
 
 - **Circular Bioeconomy Scaling**: OIL Green Energy Limited (**OGEL**), the dedicated renewable energy subsidiary of Maharatna CPSE Oil India Limited (**OIL**), signed four tripartite MoUs with key municipal corporations in Haryana in the presence of Chief Minister Nayab Singh Saini to set up integrated municipal waste-to-energy and Compressed Biogas (**CBG**) complexes.
 - **Processing Scale & City Clusters**:
@@ -1937,13 +1937,13 @@
 - **National Policy Anchoring**:
   - Aligned with the **GOBARdhan** (*Galvanizing Organic Bio-Agro Resources Dhan*) National Circular Bioenergy Scheme 2026 under the Ministry of Petroleum and Natural Gas.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Municipal Locations in Haryana: **Gurugram (2,000 TPD), Faridabad (1,600 TPD), Ambala (900 TPD), Hisar (500 TPD)**.
 - Aggregate Capacities: **5,000 TPD waste**, producing **70–75 TPD CBG** and **50 MW green power**.
 - Parent Maharatna Firm: **Oil India Limited (OIL)** via subsidiary **OIL Green Energy Limited (OGEL)**.
 - Target MCQ Form: "OIL Green Energy Limited (OGEL) signed agreements to process 5,000 TPD of municipal waste into CBG and 50 MW power across four cities of which state?" → Haryana (Gurugram, Faridabad, Ambala, Hisar).
 
-📰 [SEP-103] **BPCL & Centre for Science and Environment (CSE) Ink Strategic MoU for Biofuels & Circular Bioeconomy Value Chains**
+[SEP-103] **BPCL & Centre for Science and Environment (CSE) Ink Strategic MoU for Biofuels & Circular Bioeconomy Value Chains**
 
 - **Decarbonisation & Biomass Value Chains**: Maharatna CPSE Bharat Petroleum Corporation Limited (**BPCL**) entered into a strategic Memorandum of Understanding (MoU) with leading environmental think-tank **Centre for Science and Environment (CSE)** in Mumbai to establish sustainable commercial frameworks across biofuels, waste-to-resource pathways, and circular bioeconomy ecosystems.
 - **Scope of Collaborative Verticals**:
@@ -1954,7 +1954,7 @@
   - BPCL (HQ: Mumbai; Chairman & MD: Sanjay Khanna; founded 1952).
   - Centre for Science and Environment (CSE; HQ: New Delhi; Director General: Sunita Narain; founded 1980).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Institutional Partners: **BPCL** + **Centre for Science and Environment (CSE)**.
 - Alternative Fuels Covered: **CBG, Bioethanol, Biodiesel, and Sustainable Aviation Fuel (SAF)**.
 - By-Product Focus: **Fermented Organic Manure (FOM)** and bio-CO₂ commercial utilization.
@@ -1962,22 +1962,22 @@
 
 ---
 
-## 8. 🏆 HONOURS, AWARDS, SUMMITS & INTERNATIONAL DIPLOMACY
+## 8. HONOURS, AWARDS, SUMMITS & INTERNATIONAL DIPLOMACY
 
-📰 [SEP-104] **Ramon Magsaysay Awards 2026: Tommy Koh, Bo Kyi, and Runa Khan Conferred Asia's Nobel Prize**
+[SEP-104] **Ramon Magsaysay Awards 2026: Tommy Koh, Bo Kyi, and Runa Khan Conferred Asia's Nobel Prize**
 
 - **68th Edition of Asia's Highest Honour**: The Ramon Magsaysay Award Foundation announced the laureates for the **2026 Ramon Magsaysay Award** (established in 1958, honoring former Philippine President Ramon Magsaysay):
   1. **Tommy Koh (Singapore)**: Veteran international lawyer, diplomat, and law of the sea negotiator; recognized for principled multilateral diplomacy and global environmental advocacy.
   2. **Bo Kyi (Myanmar)**: Pro-democracy human rights champion and former political prisoner; honored for documenting abuses and rehabilitating political prisoners.
   3. **Runa Khan (Bangladesh)**: Social reformer and founder of Friendship NGO; recognized for establishing floating hospitals and climate-resilient schools across vulnerable riverine island communities (*chars*).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Laureates & Countries: **Tommy Koh (Singapore)**, **Bo Kyi (Myanmar)**, and **Runa Khan (Bangladesh)**.
 - Award Heritage: Often hailed as **"Asia's Nobel Prize"** (first instituted in 1958, Manila, Philippines).
 
 ---
 
-📰 [SEP-105] **72nd National Film Awards to be Held at Ekta Nagar, Gujarat: First Time Outside Delhi Since 1970**
+[SEP-105] **72nd National Film Awards to be Held at Ekta Nagar, Gujarat: First Time Outside Delhi Since 1970**
 
 - **Historical Shift in Venue**: The Ministry of Information and Broadcasting announced that the **72nd National Film Awards** ceremony will take place on September 22, 2026, at **Ekta Nagar (Kevadia), Narmada district, Gujarat**, near the iconic Statue of Unity.
 - **Presided by Head of State**: Awards will be conferred by **President Droupadi Murmu**.
@@ -1985,13 +1985,13 @@
   - Marks the **first time in 56 years** that the National Film Awards ceremony is hosted outside New Delhi.
   - The only previous instance occurred on November 21, 1970, when the 17th National Film Awards were presented at the University Centenary Auditorium in Madras (Chennai).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - 72nd National Film Awards Venue: **Ekta Nagar, Gujarat** (near Statue of Unity).
 - Historical Precedent: First ceremony outside Delhi since the **17th edition in Madras (1970)**.
 
 ---
 
-📰 [SEP-106] **Global Summits, International Honours & Accords: PM Modi Conferred Uzbekistan's Highest Award & Tenzing Norgay Awards**
+[SEP-106] **Global Summits, International Honours & Accords: PM Modi Conferred Uzbekistan's Highest Award & Tenzing Norgay Awards**
 
 - **Prime Minister Conferred Uzbekistan's Highest Honour**:
   - Uzbek President Shavkat Mirziyoyev conferred the **“Oliy Darajali Do’stlik” Order (Order of Highest Friendship)**—Uzbekistan's highest state honour for foreign leaders—on Prime Minister Narendra Modi at Kuksaroy Presidential Palace, Tashkent, recognising his contribution to strengthening the India-Uzbekistan Comprehensive Strategic Partnership (marking PM Modi's 4th state visit to Uzbekistan).
@@ -2006,7 +2006,7 @@
 - **UNGA 'Correct the Map' Resolution**:
   - The United Nations General Assembly adopted the *"Correct the Map"* resolution, officially recommending cartographic agencies transition away from the distorted Mercator projection to accurate equal-area projections reflecting Africa's true landmass (over 30 million sq km).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Uzbekistan Highest Honour: **“Oliy Darajali Do’stlik” Order** conferred on PM Narendra Modi.
 - World Knowledge Forum Host: **Seoul, South Korea** (*The Promethean Moment*).
 - Artemis Accords 71st Signatory: **Türkiye** (India is 27th signatory, joined June 2023).
@@ -2015,7 +2015,7 @@
 
 ---
 
-📰 [SEP-107] **Institutional Accords & Multilateral Development: ADB ₹1,750 Crore Karnataka Loan & NABARD–NaBFID Partnership**
+[SEP-107] **Institutional Accords & Multilateral Development: ADB ₹1,750 Crore Karnataka Loan & NABARD–NaBFID Partnership**
 
 - **ADB ₹1,750 Crore School Transformation Loan**: The Asian Development Bank (**ADB**) and the Government of Karnataka signed a **₹1,750 Crore sovereign loan agreement** to upgrade **500 government schools** into model **Karnataka Public Schools (KPS)** by 2029-30 (each equipped for ≥ 1,200 students).
 - **DFI Infrastructure Financing Convergence**:
@@ -2023,7 +2023,7 @@
 - **Mission Rangeen Machhli 2031**:
   - Vice President C.P. Radhakrishnan unveiled **“Mission Rangeen Machhli 2031”** at Agatti, Lakshadweep—a Strategic Action Plan under the **Pradhan Mantri Matsya Sampada Yojana (PMMSY)** to standardize ornamental fish breeding, quarantine, and export certification with a dedicated ₹62 Crore allocation for Lakshadweep.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - ADB Karnataka Loan Outlay: **₹1,750 Crore for 500 schools** (KPS model school upgradation).
 - DFI Alliance: **NABARD + NaBFID** for rural infrastructure financing.
 - Ornamental Fisheries Plan: **Mission Rangeen Machhli 2031** launched in **Agatti, Lakshadweep** under **PMMSY**.
@@ -2032,7 +2032,7 @@
 ---
 
 
-📰 [SEP-108] **Dadasaheb Phalke Award 2024: Veteran Actor Anant Nag Conferred India's Highest Cinema Honour**
+[SEP-108] **Dadasaheb Phalke Award 2024: Veteran Actor Anant Nag Conferred India's Highest Cinema Honour**
 - **Apex Cinematic Accolade**: The Ministry of Information & Broadcasting announced the prestigious **Dadasaheb Phalke Award for the year 2024** to legendary actor **Anant Nag** in recognition of his illustrious lifetime contribution to Indian and Kannada cinema.
 - **Ceremony Venue Milestone**:
   - The formal investiture ceremony took place at **Kevadia (Ekta Nagar), Gujarat**, marking the continuation of hosting apex national cultural awards outside the national capital.
@@ -2040,7 +2040,7 @@
   - Over a distinguished career spanning 5 decades across 300+ films, Anant Nag worked extensively in Kannada, Hindi, Marathi, and Telugu cinema, known for landmark collaborations in parallel cinema with Shyam Benegal (*Ankur, Nishant, Manthan, Bhumika*).
   - *Statutory Anchor*: The Dadasaheb Phalke Award was instituted in **1969** (first recipient: Devika Rani); carries a Swarna Kamal medallion, shawl, and cash prize of **₹10 Lakh**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Dadasaheb Phalke Award 2024 Recipient: **Anant Nag**.
 - Awarding Authority: **Ministry of Information & Broadcasting**.
@@ -2050,13 +2050,13 @@
 
 ---
 
-📰 [SEP-109] **Arthur M. Bueche Award 2026: Dr. Sethuraman Panchanathan Becomes First Indian-American Honouree**
+[SEP-109] **Arthur M. Bueche Award 2026: Dr. Sethuraman Panchanathan Becomes First Indian-American Honouree**
 - **Global Engineering Triumph**: The U.S. **National Academy of Engineering (NAE)** conferred the **2026 Arthur M. Bueche Award** upon distinguished computer scientist and engineer **Dr. Sethuraman Panchanathan**.
 - **Historic Distinction**:
   - Dr. Panchanathan became the **first Indian-American** and the first resident of Arizona to receive this apex engineering leadership award.
   - Recognized for seminal contributions to science and technology policy, human-centered computing, and national innovation ecosystems during his tenure as Director of the U.S. National Science Foundation (NSF).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Award: **2026 Arthur M. Bueche Award**.
 - Conferred By: **U.S. National Academy of Engineering (NAE)**.
@@ -2066,7 +2066,7 @@
 
 ---
 
-📰 [SEP-110] **26th SCO Summit in Bishkek Designates Lahore as SCO 'Tourism and Cultural Capital for 2026–27'**
+[SEP-110] **26th SCO Summit in Bishkek Designates Lahore as SCO 'Tourism and Cultural Capital for 2026–27'**
 
 - **SCO Cultural Presidency Milestone**: The Shanghai Cooperation Organisation (**SCO**), at the 26th meeting of the Council of Heads of State in **Bishkek, Kyrgyzstan**, officially designated **Lahore, Pakistan** as the **"SCO Tourism and Cultural Capital for 2026–27"**.
 - **Chairmanship Theme & Timeline**:
@@ -2082,13 +2082,13 @@
   - Full members (10): China, India, Kazakhstan, Kyrgyzstan, Pakistan, Russia, Tajikistan, Uzbekistan, Iran, and Belarus (admitted in 2024).
   - Secretariat: Beijing, China; Secretary-General: Nurlan Yermekbayev; Established: June 15, 2001 (originated from Shanghai Five).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - New Cultural Capital: **Lahore, Pakistan (2026–27)**.
 - Summit Host City: **Bishkek, Kyrgyzstan** (26th Council of Heads of State).
 - Inaugural Titleholder (High-Yield): **Varanasi, India (2022–23)**.
 - Target MCQ Form: "Which city has been designated as the Shanghai Cooperation Organisation (SCO) 'Tourism and Cultural Capital for 2026–27'?" → Lahore, Pakistan.
 
-📰 [SEP-111] **Booker Prize Foundation Unveils 2026 Shortlist: Mary Beard Chairs Panel Featuring 2 Previous Winners**
+[SEP-111] **Booker Prize Foundation Unveils 2026 Shortlist: Mary Beard Chairs Panel Featuring 2 Previous Winners**
 
 - **Literary Masterpieces Shortlist**: The Booker Prize Foundation unveiled the definitive shortlist of six novels contending for the prestigious **Booker Prize 2026**, selected from 163 submissions of English-language fiction published across the UK and Ireland.
 - **Judging Panel**:
@@ -2104,7 +2104,7 @@
   - Winner receives **£50,000**, with each shortlisted author receiving **£2,500**.
   - Ceremony scheduled for **November 9, 2026**, at **Old Billingsgate, London**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Jury Chair: **Mary Beard** (British classicist).
 - 2 Past Winners on Shortlist: **Marlon James** (2015 winner) and **Douglas Stuart** (2020 winner).
 - Purse Value: **£50,000** for the winner; **£2,500** for shortlisted finalists.
@@ -2112,9 +2112,9 @@
 
 ---
 
-## 9. 🎖️ APPOINTMENTS, RESIGNATIONS & SPORTS TRAJECTORIES
+## 9. ️ APPOINTMENTS, RESIGNATIONS & SPORTS TRAJECTORIES
 
-📰 [SEP-112] **Global Leadership Shifts: John Ternus Named Apple CEO as Tim Cook Becomes Executive Chairman**
+[SEP-112] **Global Leadership Shifts: John Ternus Named Apple CEO as Tim Cook Becomes Executive Chairman**
 
 - **Corporate Succession at World's Most Valuable Tech Firm**:
   - **John Ternus** was appointed as the new **Chief Executive Officer (CEO) of Apple Inc.**, effective September 1, 2026.
@@ -2129,7 +2129,7 @@
   - *Air Marshal Jeetendra Mishra (Retd)*: Appointed as the **first Chief Executive Officer of Shri Ram Janmbhoomi Teerth Kshetra Trust**.
   - *Tatsuya Fujimoto*: Appointed MD & CEO of **IFFCO-TOKIO General Insurance**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - New Apple CEO: **John Ternus** (Tim Cook is now Executive Chairman).
 - APPU Secretary-General: **Vinaya Prakash Singh** (2nd term; HQ: Bangkok).
 - New Adobe CEO: **Anil Chakravarthy**.
@@ -2137,7 +2137,7 @@
 
 ---
 
-📰 [SEP-113] **Sports Sagas: Lionel Messi Retires, Smriti Mandhana World Record, Satwik-Chirag China Masters & Pickleball WC**
+[SEP-113] **Sports Sagas: Lionel Messi Retires, Smriti Mandhana World Record, Satwik-Chirag China Masters & Pickleball WC**
 
 - **Lionel Messi Retires from International Football**:
   - Argentina's talismanic captain **Lionel Messi** officially announced his retirement from international football after 207 caps and **125 goals** for Argentina.
@@ -2153,7 +2153,7 @@
 - **Maiden WTT Title for Ankur Bhattacharjee**:
   - Ankur Bhattacharjee captured his maiden Men's Singles crown at the **WTT Feeder Olomouc** in Czechia and partnered Akash Pal to win the Men's Doubles title.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - International Football Retirement: **Lionel Messi** (125 goals, 207 matches, 8 Ballon d'Ors).
 - Women's Cricket Milestone: **Smriti Mandhana** (highest all-format run-scorer).
 - Badminton Milestone: **Satwik-Chirag** won India's first **China Masters title** (Shenzhen).
@@ -2161,7 +2161,7 @@
 
 ---
 
-📰 [SEP-114] **Airtel Payments Bank Leadership Transition & World Bank Record \$112B Private Capital Milestone**
+[SEP-114] **Airtel Payments Bank Leadership Transition & World Bank Record \$112B Private Capital Milestone**
 
 - **Airtel Payments Bank Board Restructuring**:
   - **Shabnam Sinha** appointed as the new **Non-Executive Chairperson** of Airtel Payments Bank, effective **October 1, 2026**.
@@ -2173,7 +2173,7 @@
 - **World Circular Economy Forum (WCEF 2026) in South Asia**:
   - Hosted in India from **September 15–18, 2026**, marking the forum's inaugural South Asian edition; focused on resource circularity, critical mineral recycling, and bio-economy frameworks.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Airtel Payments Bank New Chairperson: **Shabnam Sinha** (takes charge October 1, 2026).
 - First Payments Bank in India: **Airtel Payments Bank** (launched January 2017).
 - World Bank FY26 Private Capital Milestone: **\$112 Billion** mobilized.
@@ -2182,7 +2182,7 @@
 
 ---
 
-📰 [SEP-115] **Savita Punia Becomes India's Most-Capped Women's Hockey Player (321 International Caps)**
+[SEP-115] **Savita Punia Becomes India's Most-Capped Women's Hockey Player (321 International Caps)**
 - **Historic Hockey Milestone**: Veteran Indian goalkeeper **Savita Punia** became the **most-capped player in the history of Indian women’s hockey**, earning her **321st international senior cap**.
 - **Record-Breaking Appearance**:
   - Achieved the landmark during India’s Pool B clash against Indonesia at the Asian Games 2026.
@@ -2191,7 +2191,7 @@
   - Reared as *"The Wall of India"* for her heroic performances in penalty shoot-outs and the Tokyo 2020 Olympics; awarded a ₹10 Lakh cash reward by Hockey India.
   - Stands alongside Vandana Katariya as the only two Indian women to cross 300 caps, and only the second Indian goalkeeper after legendary **PR Sreejesh** to achieve the 300-cap milestone.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Most-Capped Indian Woman Hockey Player: **Savita Punia (321 caps)**.
 - Surpassed: **Vandana Katariya (320 caps)**.
@@ -2201,14 +2201,14 @@
 
 ---
 
-📰 [SEP-116] **Marathi Feature Film 'Gondhal' Selected as India's Official Entry for 99th Academy Awards (Oscars 2027)**
+[SEP-116] **Marathi Feature Film 'Gondhal' Selected as India's Official Entry for 99th Academy Awards (Oscars 2027)**
 - **Official Sovereign Selection**: The **Film Federation of India (FFI)** officially announced that the critically acclaimed Marathi feature film **'Gondhal'** has been chosen as **India’s official entry for the 99th Academy Awards (Oscars 2027)** in the **Best International Feature Film category**.
 - **Selection Process & Thematic Core**:
   - Selected by a 15-member jury headed by prominent filmmakers after screening 35 shortlisted multi-lingual Indian films.
   - Explores traditional folk ritual theater, rural agrarian resilience, and social justice tensions in rural Maharashtra.
   - *Historical Precedent*: Follows previous Marathi official Oscar entries including *Shwaas (2004)* and *Harishchandrachi Factory (2009)*.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India's Official Oscar Entry (Oscars 2027): **'Gondhal'** (Marathi film).
 - Selecting Authority: **Film Federation of India (FFI)**.
@@ -2216,7 +2216,7 @@
 - Language: **Marathi**.
 - Target MCQ Form: "Which feature film was selected by the Film Federation of India as India's official entry for the Oscars 2027 in the Best International Feature Film category?" → **Gondhal** (Marathi).
 
-📰 [SEP-117] **Dr. Dinesh Sharma Appointed 15th Lieutenant Governor of Andaman & Nicobar Islands**
+[SEP-117] **Dr. Dinesh Sharma Appointed 15th Lieutenant Governor of Andaman & Nicobar Islands**
 
 - **Constitutional Gubernatorial Appointment**: President Droupadi Murmu appointed veteran academic and parliamentarian **Dr. Dinesh Sharma** as the **15th Lieutenant Governor of the Andaman and Nicobar Islands**, as announced by Rashtrapati Bhavan on September 5, 2026.
 - **Predecessor & Tenure Transition**:
@@ -2227,13 +2227,13 @@
 - **Strategic Significance of the UT**:
   - Andaman & Nicobar Islands (Capital: Port Blair / Sri Vijaya Puram) occupies India’s eastern maritime bastion at the mouth of the Malacca Strait, hosting India’s only joint services operational theatre command (Andaman and Nicobar Command / ANC).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Appointed Dignitary: **Dr. Dinesh Sharma (15th LG)**.
 - Predecessor Replaced: **Admiral D.K. Joshi (Retd.)**.
 - Prior Major Public Office: **Deputy Chief Minister of Uttar Pradesh (2017–2022)**.
 - Target MCQ Form: "Dr. Dinesh Sharma has been appointed as the 15th Lieutenant Governor of Andaman and Nicobar Islands, succeeding whom?" → Admiral D.K. Joshi (Retd.).
 
-📰 [SEP-118] **AGMUT-Cadre IAS Officer Mandeep K. Bhandari Appointed Chairperson of CBSE**
+[SEP-118] **AGMUT-Cadre IAS Officer Mandeep K. Bhandari Appointed Chairperson of CBSE**
 
 - **Apex School Education Leadership**: The Appointments Committee of the Cabinet (**ACC**) approved the appointment of **Mandeep K. Bhandari**, a senior 2001-batch IAS officer of the AGMUT (*Arunachal Pradesh-Goa-Mizoram and Union Territories*) cadre, as the Chairperson of the Central Board of Secondary Education (**CBSE**).
 - **Rank & Tenure Details**:
@@ -2243,13 +2243,13 @@
 - **CBSE Institutional Profile**:
   - Central Board of Secondary Education (HQ: New Delhi; Established: 1962; operates under the Department of School Education and Literacy, Ministry of Education).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - New Chairperson: **Mandeep K. Bhandari (IAS, 2001 AGMUT cadre)**.
 - Prior Posting: Principal Secretary to Lieutenant Governor of Jammu and Kashmir.
 - Predecessor Relieved: **Lokhande Prashant Sitaram**.
 - Target MCQ Form: "Who has been appointed as the new Chairperson of the Central Board of Secondary Education (CBSE) in September 2026?" → Mandeep K. Bhandari.
 
-📰 [SEP-119] **Dhiraj Bommadevara Makes History as 1st Indian Male Recurve Archer to Win Archery World Cup Final Gold**
+[SEP-119] **Dhiraj Bommadevara Makes History as 1st Indian Male Recurve Archer to Win Archery World Cup Final Gold**
 
 - **Historic Archery World Title**: 25-year-old Indian Army archer **Dhiraj Bommadevara** scripted Indian sporting history by becoming the **first Indian male archer ever to win an individual gold medal at the Archery World Cup Final**, clinching the title at Saltillo, Mexico.
 - **The Gold Medal Shoot-Off Encounter**:
@@ -2261,13 +2261,13 @@
   - Ended a **16-year medal drought** for Indian male recurve archers at the World Cup Final (the last medal was Jayanta Talukdar’s bronze in Edinburgh in 2010).
   - Caps a stellar 2026 season for India, which collected **7 medals (4 gold)** across World Cup stages in Puebla, Shanghai, Antalya, and Madrid.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Historic Feat: **1st Indian male archer** to win Archery World Cup Final gold.
 - Host City: **Saltillo, Mexico**.
 - Preceding Indian Gold Medalist (2007): **Dola Banerjee** (Dubai, 2007).
 - Target MCQ Form: "Who became the first Indian male recurve archer to win an individual gold medal at the Archery World Cup Final in Saltillo, Mexico?" → Dhiraj Bommadevara.
 
-📰 [SEP-120] **46th FIDE Chess Olympiad in Samarkand: Indian Men Beat Netherlands 3-1 with Praggnanandhaa & Gukesh Wins**
+[SEP-120] **46th FIDE Chess Olympiad in Samarkand: Indian Men Beat Netherlands 3-1 with Praggnanandhaa & Gukesh Wins**
 
 - **Global Chess Domination**: At the 46th **FIDE Chess Olympiad** held in Samarkand, Uzbekistan, the Indian Men’s Chess team registered an emphatic **3–1 victory over the Netherlands** in Round 5, maintaining a flawless 5–0 match record and sharing the tournament summit alongside Uzbekistan and Germany.
 - **Individual Board Encounters**:
@@ -2277,7 +2277,7 @@
 - **Women’s Team Trajectory**:
   - The Indian Women’s team faced a setback, falling **1.5–2.5 to Poland** (their 3rd consecutive loss to Poland in Olympiad competition), as IM Aleksandra Maltsevskaya defeated R. Vaishali while Harika Dronavalli, Divya Deshmukh, and Vantika Agrawal drew their boards.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 - Host City of 46th Olympiad: **Samarkand, Uzbekistan**.
 - Round 5 Result: Indian Men defeated Netherlands **3–1** (Praggnanandhaa beat Anish Giri; Gukesh beat Erwin l’Ami).
 - Board Results: Men maintain a 5-match winning streak; Women's team slipped to 8th rank.

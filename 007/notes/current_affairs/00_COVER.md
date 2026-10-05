@@ -5,7 +5,7 @@
 </div>
 
 <div style="margin: 40px 0 20px 0;">
-  <span style="font-size: 48px;">🌐</span>
+  <span style="font-size: 48px;"></span>
 </div>
 
 <h1 style="font-size: 44px; font-weight: bold; color: #143227; line-height: 1.15; margin: 0 0 16px 0; letter-spacing: -0.5px;">

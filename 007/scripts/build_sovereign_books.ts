@@ -257,6 +257,37 @@ export const SOVEREIGN_SUBJECT_CATALOG: SubjectBookConfig[] = [
     notesSubdir: 'current_affairs',
     coverPledgeBadge: 'Zero Unaccounted-For Source Omission • Verified Statutory Directions & Senior Paper-Setter Grounding',
     colophonNotice: 'Curricular Scope & Synthesis Notice: This volume provides a comprehensive curricular synthesis of Contemporary Issues, Banking Regulations, 2026 Monthly Dossiers (January to September), and Computer Aptitude for High-Scoring Mains Performance. All facts, thresholds, and directives adhere strictly to official gazette and regulatory publications on Shelf 007.'
+  },
+  {
+    slug: 'rajasthan',
+    code: 'RAJ-007',
+    bookNumber: 11,
+    outputPdfName: '007_Book_11_Rajasthan_Master_Codex_A4_BW.pdf',
+    title: 'RAJASTHAN SOVEREIGN MASTER CODEX (THE MEGA BOOK)',
+    subtitle: 'Doctoral Synthesis of Rajasthan History, Art, Culture, Morphotectonics, Drainage, Governance, and Economic Review for RPSC RAS',
+    category: 'Rajasthan Comprehensive State Studies & Administrative Canon',
+    emblem: '🏰',
+    authors: 'Rajasthan Board (RBSE) • डॉ. गोपीनाथ शर्मा • डॉ. हुकुमचंद जैन • डॉ. एल.आर. भल्ला • डॉ. हरि मोहन सक्सेना • डॉ. जनक सिंह मीना • DES (आर्थिक समीक्षा)',
+    primarySources: [
+      'Rajasthan Board of Secondary Education (RBSE): Class 9 "Swatantrata Andolan", Class 10 "Itihas evam Sanskriti", Adhyayan 9–12',
+      'Dr. Gopinath Sharma, Rajasthan Ka Itihas (Rajasthan Hindi Granth Academy)',
+      'Dr. Hukum Chand Jain & Dr. Narayan Lal Mali, Rajasthan Ka Swatantrata Sangram evam Sanskritik Itihas (RHGA)',
+      'Dr. L.R. Bhalla, Rajasthan Ka Bhugol (Kuldeep Publications)',
+      'Dr. Hari Mohan Saxena, Rajasthan Ka Bhugol (Rajasthan Hindi Granth Academy)',
+      'Dr. Janak Singh Meena & Dr. B.L. Fadia, Rajasthan Ki Rajnaitik evam Prashasnik Vyavastha (RHGA)',
+      'Directorate of Economics & Statistics (DES), Rajasthan Economic Review (आर्थिक समीक्षा) & State Budget',
+      'Official Rajasthan Bare Acts (Panchayati Raj Act 1994, Public Services Guarantee Act 2011, Right to Hearing Act 2012)'
+    ],
+    targetExams: [
+      'RPSC RAS (Prelims & Mains Papers 1, 2, 3)',
+      'RPSC Sub-Inspector',
+      'College Lecturer (Paper 3)',
+      'School Lecturer (Paper 1)',
+      'State Engineering & Accounts Services'
+    ],
+    notesSubdir: 'rajasthan',
+    coverPledgeBadge: 'Comprehensive 37-Chapter Master Synthesis • Official RBSE & Hindi Granth Academy Authoritative Grounding',
+    colophonNotice: 'Curricular Scope & Synthesis Notice: This volume provides a comprehensive curricular synthesis of Rajasthan History, Art, Culture, Geography, Administrative Governance, and Macroeconomy across 37 doctoral-depth chapters for rigorous RPSC RAS examination preparation. Official RBSE and Rajasthan Hindi Granth Academy treatises and statutory enactments are structured for canonical reference on Shelf 007.'
   }
 ];
 

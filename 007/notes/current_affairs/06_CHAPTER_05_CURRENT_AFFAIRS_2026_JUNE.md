@@ -7,14 +7,14 @@
 
 > **EXAMINER'S BLUEPRINT & COMPLIANCE STANDARD**:
 > - **Fact Discipline**: 100% verified against official Reserve Bank of India circulars, Master Directions, SEBI guidelines, PFRDA regulations, and Ministry of Finance gazette orders.
-> - **Format**: Authentic **Rajputana Gazette Broadsheet** layout featuring nested ladder bullets and dedicated **🎯 EXAM ANGLE** distractor traps.
+> - **Format**: Authentic **Rajputana Gazette Broadsheet** layout featuring nested ladder bullets and dedicated ****EXAM ANGLE:**** distractor traps.
 > - **Target Exams**: RBI Grade B, SEBI Grade A, NABARD Grade A, SBI PO & IBPS PO/Clerk Mains 2026.
 
 ---
 
-## 1. 💰 BANKING, MONETARY POLICY & FINANCIAL REGULATION
+## 1. BANKING, MONETARY POLICY & FINANCIAL REGULATION
 
-📰 [JUN-001] **RBI Relaxes Capital Requirements for Bank Loans under ECLGS 5.0 (Split Risk-Weight Structure)**
+[JUN-001] **RBI Relaxes Capital Requirements for Bank Loans under ECLGS 5.0 (Split Risk-Weight Structure)**
 
 - **Regulatory Framework & Mandate**: Reserve Bank of India issued an amendment to the *Master Direction – RBI (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025*, significantly easing capital requirements for bank loans backed by the Emergency Credit Line Guarantee Scheme (**ECLGS 5.0**).
 - **Split Risk-Weight Mechanism**:
@@ -25,7 +25,7 @@
   - If the 30-day settlement requirement is breached, the benefit of the 0% risk weight is revoked, and standard capital charges apply.
 - **Strategic Intent**: Designed to release trapped bank capital, incentivize fresh liquidity flow to distressed and contact-intensive businesses, and align sovereign-backed portfolio risk with Basel III Pillar 1 norms.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Risk-Weight Split: **0% on 75%** of guaranteed portion vs **20% on remaining 25%** (a classic matching/statement MCQ).
 - Time Boundary for Settlement: Must be settled within **30 days** of claim invocation to retain 0% risk weight.
@@ -33,7 +33,7 @@
 
 ---
 
-📰 [JUN-002] **Launch of ARIFAC: National Industry Platform for AML/CFT Compliance with FIU-IND Oversight**
+[JUN-002] **Launch of ARIFAC: National Industry Platform for AML/CFT Compliance with FIU-IND Oversight**
 
 - **Genesis & Institutional Architecture**: India's financial sector formally launched the **Alliance of Reporting Entities in AML/CFT (ARIFAC)** as a premier national industry-led coordination platform to bolster Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT) frameworks.
 - **Administrative Secretariat**: Jointly managed and operated by the **Payments Council of India (PCI)** and the **Fintech Convergence Council (FCC)**.
@@ -45,7 +45,7 @@
   - Insurance companies and **Virtual Digital Asset (VDA) service providers**.
 - **Operational Focus**: Standardizing suspicious transaction reporting (STR) formats, conducting joint capacity-building certifications, and creating early-warning networks to intercept financial mule rings.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Joint Secretariat: **Payments Council of India (PCI)** + **Fintech Convergence Council (FCC)** (NOT IBA alone).
 - Observer Agency: **FIU-IND** (Financial Intelligence Unit – India).
@@ -53,7 +53,7 @@
 
 ---
 
-📰 [JUN-003] **Credit Guarantee Scheme for Microfinance Institutions 2.0 (CGSMFI-2.0): Expansion to ₹20,000 Crore Pool**
+[JUN-003] **Credit Guarantee Scheme for Microfinance Institutions 2.0 (CGSMFI-2.0): Expansion to ₹20,000 Crore Pool**
 
 - **Framework Evolution**: Ministry of Finance (Department of Financial Services – DFS) and NCGTC operationalized **CGSMFI-2.0**, transitioning from emergency COVID-era relief (launched 28 June 2021) into a permanent, risk-based, tier-structured credit enhancement framework.
 - **Pool Size & Validity**:
@@ -72,7 +72,7 @@
   - Guarantee fee fixed at **0.50% per annum** on the sanctioned amount in the 1st year, and on outstanding balance from Year 2 onwards.
   - Minimum **80% of funds** must be deployed for fresh microfinance loan assets within **4 months**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Large MFI Max Loan Ceiling: Enhanced from ₹300 Cr to **₹1,000 crore** (capped at 20% of AUM).
 - Tier-wise Guarantee Cover: Small = **80%**, Medium = **75%**, Large = **70%**.
@@ -81,7 +81,7 @@
 
 ---
 
-📰 [JUN-004] **RBI Master Directions on Bank Lending to REITs & InvITs (49% Aggregate Exposure Cap)**
+[JUN-004] **RBI Master Directions on Bank Lending to REITs & InvITs (49% Aggregate Exposure Cap)**
 
 - **Policy Harmonization**: RBI released the *Master Directions on Bank Lending to Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs)*, permitting scheduled commercial banks to lend directly to business trusts under strict prudential boundaries.
 - **Eligibility & Asset Composition Norms**:
@@ -96,7 +96,7 @@
   - Board-approved policies mandatory; statutory migration to a comprehensive capital charge framework effective **1 April 2027**.
 - **Statutory Effective Date**: Directions take effect from **1 October 2026** (banks permitted voluntary early adoption).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Aggregate Exposure Cap: **≤49%** of the value of the trust's total assets (NOT 50% or 75%).
 - Completed Asset Requirement: Minimum **80%** completed and revenue-generating with >1 year positive cash flow.
@@ -104,7 +104,7 @@
 
 ---
 
-📰 [JUN-005] **RBI Master Directions on Authorisation of Payment System Operators (PSOs) — Perpetual Licences & Governance**
+[JUN-005] **RBI Master Directions on Authorisation of Payment System Operators (PSOs) — Perpetual Licences & Governance**
 
 - **Statutory Authority**: Issued under **Section 4 of the Payment and Settlement Systems (PSS) Act, 2007**, governing entities seeking to operate payment systems in India.
 - **Perpetual Validity Regime**:
@@ -118,7 +118,7 @@
   - Surrendering a CoA requires a written application to DPSS Central Office, accompanied by a **Statutory Auditor's certificate** confirming all customer, merchant, and bank liabilities are fully settled.
   - A mandatory **one-year cooling-off period** is imposed before an entity can re-apply if its CoA was revoked, renewal was rejected, or licence was surrendered.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Licence Validity: **Perpetual validity** for compliant PSOs; **1 year only** for non-compliant entities.
 - FATF Non-Compliant Voting Cap: Must remain strictly **below 20%** of aggregate voting power.
@@ -126,7 +126,7 @@
 
 ---
 
-📰 [JUN-006] **RBI Master Directions on Trade Receivables Discounting System (TReDS) 2026 & Mandatory CERSAI Registration**
+[JUN-006] **RBI Master Directions on Trade Receivables Discounting System (TReDS) 2026 & Mandatory CERSAI Registration**
 
 - **Framework Objective**: Comprehensive overhaul of the 2014 TReDS guidelines to accelerate MSME invoice monetization, expand participant categories, and eliminate duplicate factoring frauds.
 - **Net Worth Requirement & Transition Timeline**:
@@ -144,7 +144,7 @@
   4. C2treds (C2FO Factoring Solutions Pvt. Ltd.).
   5. DTX (KredX Platform Pvt. Ltd.).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - TReDS Minimum Net Worth: **₹25 crore**; Existing platforms must comply by **31 March 2028**.
 - Fraud Prevention Registry: Mandatory registration of assigned receivables with **CERSAI**.
@@ -153,7 +153,7 @@
 
 ---
 
-📰 [JUN-007] **RBI Revamped Kisan Credit Card (KCC) Scheme Directions 2026: Collateral-Free Limit Raised to ₹2 Lakh**
+[JUN-007] **RBI Revamped Kisan Credit Card (KCC) Scheme Directions 2026: Collateral-Free Limit Raised to ₹2 Lakh**
 
 - **Comprehensive Overhaul**: RBI issued the *Reserve Bank of India (Kisan Credit Card – KCC) Directions, 2026*, applying to all Scheduled Commercial Banks, Small Finance Banks, RRBs, and Rural Co-operative Banks, taking effect from **1 January 2027** (existing loans continue till maturity/renewal).
 - **Enhanced Collateral-Free Exemption Limit**:
@@ -172,7 +172,7 @@
   - Sanctioned limit based on scale of finance + 10% for post-harvest/household + 20% for maintenance/repairs.
   - For 2nd crop season onwards, MPL is notionally increased by **10% per annum** over the previous crop season's limit.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Collateral-Free Limit: **₹2 lakh per borrower** (enhanced from ₹1.60 lakh).
 - Standardized Crop Seasons: Short-duration = **12 months**; Long-duration = **18 months**.
@@ -182,7 +182,7 @@
 
 ---
 
-📰 [JUN-008] **RBI Revamps Lead Bank Scheme (LBS): 60% CD Ratio Benchmark & 3-Tier Governance**
+[JUN-008] **RBI Revamps Lead Bank Scheme (LBS): 60% CD Ratio Benchmark & 3-Tier Governance**
 
 - **Framework Background**: RBI issued revised comprehensive guidelines for the **Lead Bank Scheme (LBS)** (first introduced in 1969 following the Gadgil Study Group and Nariman Committee recommendations).
 - **Key Administrative Designations**:
@@ -201,7 +201,7 @@
   - **CD Ratio below 20%**: District placed under the **Special Category Districts** for rigorous monthly monitoring and structural intervention.
   - Similar Special Sub-Committees constituted if Annual Credit Plan (ACP) achievement falls **below 100%**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - CD Ratio Thresholds: Ideal target = **60%**; Special Sub-Committee review triggered at **<40%**; Special Category status triggered at **<20%**.
 - Rank of SLBC Convenor: Not below **General Manager (GM)**.
@@ -209,7 +209,7 @@
 
 ---
 
-📰 [JUN-009] **DFS Launches Common Landing Portal for Unclaimed Financial Assets & UDGAM Convergence**
+[JUN-009] **DFS Launches Common Landing Portal for Unclaimed Financial Assets & UDGAM Convergence**
 
 - **Nationwide Campaign**: Department of Financial Services (DFS), Ministry of Finance launched the *Common Landing Portal for Unclaimed Financial Assets* anchored around the national theme: *"आपकी पूँजी, आपका अधिकार"* (*Your Money, Your Right*).
 - **Institutional Integration**: Integrates cross-sector unclaimed funds across multiple regulators into a unified citizen-facing interface:
@@ -219,7 +219,7 @@
   - **Mutual Funds & Pensions**: SEBI / PFRDA centralized tracing engines.
 - **Search Capability**: Centralized search across multiple banking and financial institutions using PAN, Name, Mobile Number, and Aadhaar-authenticated digital KYC.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Campaign Slogan: *"आपकी पूँजी, आपका अधिकार"* (*Your Money, Your Right*).
 - Inactive Account Transfer Horizon: Savings/Current/FD inactive for **10 years or more** transferred to DEA Fund.
@@ -227,7 +227,7 @@
 
 ---
 
-📰 [JUN-010] **RBI Annual Report 2025–26: Balance Sheet Surges 20.6% to ₹91.97 Lakh Crore & ₹2.89 Lakh Crore Surplus Transfer**
+[JUN-010] **RBI Annual Report 2025–26: Balance Sheet Surges 20.6% to ₹91.97 Lakh Crore & ₹2.89 Lakh Crore Surplus Transfer**
 
 - **Statutory Submission**: Submitted by the Central Board of Directors of the Reserve Bank of India to the Central Government under **Section 53(2) of the Reserve Bank of India Act, 1934** (reporting period: **April 2025 – March 2026**).
 - **Balance Sheet Expansion**:
@@ -244,7 +244,7 @@
   - **Domestic Assets (29.1%)**: Rose 44.9% to ₹22.59 lakh crore. Rupee securities interest income grew 37.7% to ₹1.18 lakh crore.
   - **Liabilities Breakdown**: Revaluation accounts (+63.4%), Notes issued (+11.8%), Deposits (+11.6%), Other liabilities (+21.1%).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Total Balance Sheet Size: **₹91,97,121.08 crore** (+20.6% YoY growth; **26.4% of GDP**).
 - Surplus Transferred to GoI: **₹2,88,588.45 crore** (FY25: ₹2,68,588.07 crore).
@@ -253,7 +253,7 @@
 
 ---
 
-📰 [JUN-011] **RBI Annual Report 2025–26: Currency Management, Counterfeits (FICNs) & Digital Rupee (e₹)**
+[JUN-011] **RBI Annual Report 2025–26: Currency Management, Counterfeits (FICNs) & Digital Rupee (e₹)**
 
 - **Banknotes & Coins in Circulation**:
   - **Banknotes in Circulation (BiC)**: Increased by **11.9% in value** and **10.5% in volume** during 2025–26.
@@ -270,7 +270,7 @@
   - **Denomination Trends**: Counterfeit notes detected in ₹10, ₹50, ₹100, ₹200, and ₹2000 denominations registered a marked decline; counterfeit ₹500 notes increased by **20.5%** and ₹20 notes increased by **47.4%**.
   - **Currency Infrastructure & Awareness**: **State Bank of India (SBI)** accounted for the highest share of Currency Chests across India. RBI replaced its legacy 'Paisa Bolta Hai' portal with the comprehensive **Indian Currency Microsite** on September 10, 2025. Print trials of varnished banknotes were conducted at **BRBNMPL Mysuru Press**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Total CBDC (e₹) in Circulation: **₹771.7 crore** (as of March 31, 2026).
 - ₹2000 Note Return Rate: **98.45%** of ₹3.56 lakh crore total value returned.
@@ -280,7 +280,7 @@
 
 ---
 
-📰 [JUN-012] **RBI Annual Report 2025–26: Bank Frauds, Supervisory Reforms & Regulatory Modernisation**
+[JUN-012] **RBI Annual Report 2025–26: Bank Frauds, Supervisory Reforms & Regulatory Modernisation**
 
 - **Systemic Fraud Surge**:
   - Total fraud amount surged **46% to ₹48,021 crore** in 2025–26 (from ₹32,803 crore in FY25), even as total reported fraud incidents fell by more than half to 10,114 cases.
@@ -301,7 +301,7 @@
   - **MuleHunter.ai™**: AI/ML supervised model developed by RBI Innovation Hub (RBIH) to identify mule bank accounts in near-real time.
   - **Digital Payment Intelligence Platform (DPIP)**: Established as a collaborative network-level digital intelligence utility to combat payment fraud.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Consolidation of Regulations: **11,000+ circulars** condensed into **244 Master Directions**; 9,445 repealed.
 - DICGC Flat Premium: **0.12% per annum** (12 paise per ₹100); RBP framework effective **April 1, 2026**.
@@ -311,7 +311,7 @@
 
 ---
 
-📰 [JUN-013] **RBI Annual Report 2025–26: Monetary Operations, Payment Systems & Organisational Milestones**
+[JUN-013] **RBI Annual Report 2025–26: Monetary Operations, Payment Systems & Organisational Milestones**
 
 - **Monetary Policy Operations & Corridors**:
   - **Policy Corridor**: Retained a symmetric policy corridor of **50 bps** around the policy repo rate (SDF at -25 bps, MSF at +25 bps).
@@ -331,7 +331,7 @@
   - **Public Engagement**: Launched official podcast series **'RBI Talks: From Paisa to Policy'** on January 1, 2026 (debut episode on KYC). Nationwide public awareness tagline: *"RBI Kehta Hai... Smart Bano, Cool Raho"*.
   - **Training & Infrastructure**: Reserve Bank Staff College (RBSC) located in **Chennai**; College of Agricultural Banking (CAB) in **Pune**; College of Supervisors (CoS) in **Mumbai**; ECCTI in **Bhubaneswar**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - UPI Transaction Metrics: Over **200 billion transactions** (+30% YoY); **86% share** of total retail payments.
 - QR-Code Global Footprint: Operational across **8 nations**.
@@ -343,7 +343,7 @@
 
 ---
 
-📰 [JUN-014] **RBI 61st MPC Meeting (June 2026): Repo Rate Held at 5.25% with Neutral Stance**
+[JUN-014] **RBI 61st MPC Meeting (June 2026): Repo Rate Held at 5.25% with Neutral Stance**
 
 - **Monetary Policy Review**: The Monetary Policy Committee (MPC) conducted its 61st meeting (2nd Bi-Monthly Meeting of FY 2026-27), chaired by RBI Governor Sanjay Malhotra.
 - **Policy Rates Decision**:
@@ -356,7 +356,7 @@
   - **Real GDP Growth for FY27**: Projected at **6.6%** (Q1 at 6.6%, Q2 at 6.3%, Q3 at 6.5%, Q4 at 6.8%).
   - **CPI Inflation for FY27**: Projected at **5.1%** (Q1 at 4.2%, Q2 at 5.1%, Q3 at 5.9%, Q4 at 5.4%).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Policy Repo Rate: **5.25%** (SDF: 5.00%, MSF/Bank Rate: 5.50%).
 - Policy Stance: **Neutral** (not "Withdrawal of Accommodation").
@@ -364,7 +364,7 @@
 
 ---
 
-📰 [JUN-015] **RBI Introduces Special USD-Rupee Forex Swap Facilities to Attract Capital Inflows**
+[JUN-015] **RBI Introduces Special USD-Rupee Forex Swap Facilities to Attract Capital Inflows**
 
 - **Twin Forex Swap Windows**: To stabilize the Rupee against crude oil volatility and encourage foreign currency inflows, RBI introduced two concessional USD-INR forex swap facilities:
   1. *FCNR(B) Window*: For fresh **Foreign Currency Non-Resident Bank [FCNR(B)]** deposits of 3 to 5 years maturity.
@@ -377,7 +377,7 @@
   - Eligible FCNR(B) deposits mobilized under this scheme are **exempt from CRR (3.0%) and SLR (18.0%)** requirements.
   - RBI **exempted swap positions from Net Open Position in Rupee (NOP-INR) limits** (which restricts banks' onshore deliverable positions to USD 100 million at end of day), allowing banks to swap up to hundreds of millions without breaching exposure caps.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Fixed Swap Rate: **1.5% per annum** compounded semi-annually.
 - Statutory Exemptions: Fresh FCNR(B) deposits under the scheme are **exempt from CRR and SLR**.
@@ -385,7 +385,7 @@
 
 ---
 
-📰 [JUN-016] **Ministry of Finance & RBI Reform FPI Debt Framework: Capital Gains Exemption & PROI Limit Hike**
+[JUN-016] **Ministry of Finance & RBI Reform FPI Debt Framework: Capital Gains Exemption & PROI Limit Hike**
 
 - **Income-Tax Exemption on Sovereign Debt**:
   - Central Government notified that tax liability for Foreign Portfolio Investors (FPIs/FIIs) on specified Government Securities (G-Secs) investments is **reduced to Nil** effective **1 April 2026**.
@@ -400,7 +400,7 @@
   - Concentration limits (earlier 10% to 15% per corporate debt issuer) **completely removed**.
   - Retained quantitative sovereign caps: **6.0%** of outstanding stock in Central G-Secs and **2.0%** in State Development Loans (SDLs).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - FPI G-Sec Tax Rate: Reduced to **Nil** from 1 April 2026 (both interest and capital gains).
 - PROI Equity Investment Caps: Individual limit raised to **10%** (from 5%); Aggregate limit raised to **24%** (from 10%).
@@ -408,7 +408,7 @@
 
 ---
 
-📰 [JUN-017] **President Approves Mega-Merger of REC Limited into Power Finance Corporation (PFC)**
+[JUN-017] **President Approves Mega-Merger of REC Limited into Power Finance Corporation (PFC)**
 
 - **Sovereign Consolidation Directive**: The President of India formally approved the strategic merger of **REC Limited** (formerly Rural Electrification Corporation) into **Power Finance Corporation Limited (PFC)**, creating India's largest consolidated state-run non-banking infrastructure finance conglomerate.
 - **Strategic & Regulatory Rationale**:
@@ -417,7 +417,7 @@
 - **Institutional Profile**:
   - Both entities are **Maharatna Central Public Sector Enterprises (CPSEs)** operating under the administrative aegis of the Ministry of Power.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Merging CPSEs: **REC Limited merged into Power Finance Corporation (PFC)** (NOT IREDA or NHPC).
 - Administrative Ministry: **Ministry of Power**.
@@ -425,7 +425,7 @@
 
 ---
 
-📰 [JUN-018] **Government Nominates Sanjay Lohiya to Central Boards of Reserve Bank of India & SBI**
+[JUN-018] **Government Nominates Sanjay Lohiya to Central Boards of Reserve Bank of India & SBI**
 
 - **Key Governance Appointments**: The Appointments Committee of the Cabinet (ACC) approved the nomination of **Sanjay Lohiya**, Special Secretary in the Department of Financial Services (**DFS**), Ministry of Finance, as a Government Nominee Director on key financial apex boards.
 - **Dual Directorship Portfolio**:
@@ -433,7 +433,7 @@
   - Simultaneously nominated as **Director on the Central Board of the State Bank of India (SBI)** under Section 19(e) of the *State Bank of India Act, 1955*.
 - **Institutional Context**: Fills key government liaison and policy-oversight vacancies following high-level administrative reshuffles within the Ministry of Finance.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Nominated Director: **Sanjay Lohiya** (Special Secretary, DFS, Ministry of Finance).
 - Apex Boards Appointed To: **Reserve Bank of India (Central Board)** and **State Bank of India (Central Board)**.
@@ -441,7 +441,7 @@
 
 ---
 
-📰 [JUN-019] **Hitesh Joshi Appointed CMD of GIC Re; Tushar Mehta Reappointed Solicitor General of India**
+[JUN-019] **Hitesh Joshi Appointed CMD of GIC Re; Tushar Mehta Reappointed Solicitor General of India**
 
 - **Insurance Reinsurance Leadership**: The Appointments Committee of the Cabinet approved the appointment of **Hitesh Rameshchandra Joshi** as the **Chairman-cum-Managing Director (CMD)** of the **General Insurance Corporation of India (GIC Re)**, the nation's sole domestic reinsurance company.
   - GIC Re was established on **22 November 1972** under the *General Insurance Business (Nationalisation) Act, 1972*; Headquartered in Mumbai, Maharashtra.
@@ -449,7 +449,7 @@
   - Senior Advocate **Tushar Mehta** was reappointed as the **Solicitor General of India (SGI)** for a further three-year term effective **1 July 2026**.
   - Mehta has served as Solicitor General since October 2018, functioning as the secondary law officer assisting the Attorney General for India (R. Venkataramani).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - New CMD of GIC Re: **Hitesh Rameshchandra Joshi**.
 - GIC Re Foundation Date: **22 November 1972** (Headquarters: Mumbai).
@@ -457,7 +457,7 @@
 
 ---
 
-📰 [JUN-020] **Bank of Baroda & Federal Bank Launch Specialized NRI & High-Yield Retail Deposit Products**
+[JUN-020] **Bank of Baroda & Federal Bank Launch Specialized NRI & High-Yield Retail Deposit Products**
 
 - **Public Sector Mobilization (Bank of Baroda)**:
   - **'bob Legend FCNR(B) Deposit Scheme'**: Introduced specialized foreign currency fixed deposits offering preferential, premium interest yields across major convertible currencies (USD, GBP, EUR) targeting Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs).
@@ -465,7 +465,7 @@
 - **Private Sector Inflow Mobilization (Federal Bank)**:
   - Federal Bank rolled out the **'FCNR Max Deposit Scheme'**, offering enhanced floating-rate linked dollar deposit yields designed to capture repatriable remittance surpluses amidst global rate adjustments.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - 'bob Golden Goal Deposit' Tenor & Rate: **555 days** tenor with interest up to **7.40%** (for deposits < ₹3 crore).
 - Bank Offering 'bob Legend FCNR(B)': **Bank of Baroda**.
@@ -473,7 +473,7 @@
 
 ---
 
-📰 [JUN-021] **Government Reappoints Swaminathan Janakiraman as RBI Deputy Governor for 2-Year Term**
+[JUN-021] **Government Reappoints Swaminathan Janakiraman as RBI Deputy Governor for 2-Year Term**
 
 - **Apex Central Banking Leadership**: The Appointments Committee of the Cabinet (ACC) approved the extension of tenure of **Swaminathan Janakiraman** as **Deputy Governor of the Reserve Bank of India (RBI)** for a further period of **two years**.
 - **Tenure Background**:
@@ -482,7 +482,7 @@
   - Under Section 8(1)(a) of the *Reserve Bank of India Act, 1934*, the Central Bank is mandated to have **four Deputy Governors** appointed by the Central Government.
   - Swaminathan leads critical operational portfolios including the **Department of Supervision (DoS)**, **Department of Inspection**, and **Financial Inclusion and Development Department (FIDD)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Reappointed Deputy Governor: **Swaminathan Janakiraman** (extended by **2 years**).
 - Statutory Deputy Governor Strength: Exactly **4 Deputy Governors** under Section 8(1)(a) of *RBI Act, 1934*.
@@ -490,7 +490,7 @@
 
 ---
 
-📰 [JUN-022] **RBI Payments Bulletin: Private Banks Command 71.1% of Credit Cards as UPI QR Surges to 7,313 Lakh**
+[JUN-022] **RBI Payments Bulletin: Private Banks Command 71.1% of Credit Cards as UPI QR Surges to 7,313 Lakh**
 
 - **Payment System Landscape**: Reserve Bank of India's payment systems report revealed structural market-share shifts across payment instruments and digital acquiring rails in India:
 - **Credit Card Issuance Dominance**:
@@ -501,7 +501,7 @@
   - **UPI QR Code Footprint**: Deployed UPI QR terminals across merchant locations escalated from **6,782 lakh (June 2025)** to **7,313 lakh (December 2025)**, underpinning rapid digital formalization.
   - Traditional acquiring rails (ATMs, physical PoS swipe machines, and Micro-ATMs) witnessed relative stagnation and contraction as lower-cost interoperable UPI QR codes became the default merchant payment acceptance medium.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Private Banks Credit Card Market Share: **71.1%** (commanding nearly three-fourths of market).
 - Foreign Banks Share Contraction: Sunk to **3.8%** (from 9.3%).
@@ -509,9 +509,9 @@
 
 ---
 
-## 2. 📈 CAPITAL MARKETS, SEBI & PENSIONS REGULATION
+## 2. CAPITAL MARKETS, SEBI & PENSIONS REGULATION
 
-📰 [JUN-023] **SEBI Revises Trading Framework for ETFs: Dynamic Price Bands & Pre-Open Auction**
+[JUN-023] **SEBI Revises Trading Framework for ETFs: Dynamic Price Bands & Pre-Open Auction**
 
 - **Regulatory Directive**: Securities and Exchange Board of India (SEBI) revamped the trading framework for **Exchange Traded Funds (ETFs)**, taking effect from **1 September 2026**, replacing the rigid 20% fixed NAV price band.
 - **Dynamic Price Band Architecture**:
@@ -525,7 +525,7 @@
 - **Pre-Open Call Auction Mechanism**:
   - Introduced a dedicated Pre-Open Call Auction session specifically for **commodity ETFs** to ensure fair price discovery prior to regular market open.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Initial Dynamic Price Bands: **10%** for Equity/Debt ETFs (max 20%); **±6%** for Commodity Gold/Silver ETFs (expandable by 3%, no cap).
 - Excluded Categories: **Overnight and Liquid ETFs**.
@@ -534,7 +534,7 @@
 
 ---
 
-📰 [JUN-024] **BSE Launches 'BSE Saatvik 100 Index' — India's First Ethical & Values-Based Benchmark**
+[JUN-024] **BSE Launches 'BSE Saatvik 100 Index' — India's First Ethical & Values-Based Benchmark**
 
 - **Launch Overview**: BSE Index Services Private Limited (wholly-owned subsidiary of Bombay Stock Exchange) unveiled India's first values-based ethical index: **BSE Saatvik 100 Index**.
 - **Constituent Selection & Universe**:
@@ -546,7 +546,7 @@
   - **Top Sector Contribution**: **Financial Services** is the single largest sector weight, accounting for **37.55%** of the index.
   - **Top Stock Weight**: **HDFC Bank Limited** is the largest individual constituent.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Index Base Value & Date: Base value **1000**; Base date **June 20, 2005**.
 - Constituent Count: **100 companies** derived from the BSE 500.
@@ -554,7 +554,7 @@
 
 ---
 
-📰 [JUN-025] **IRDAI Constitutes 7-Member Working Group on Artificial Intelligence (WG-AI)**
+[JUN-025] **IRDAI Constitutes 7-Member Working Group on Artificial Intelligence (WG-AI)**
 
 - **Mandate & Genesis**: Insurance Regulatory and Development Authority of India (IRDAI) formed a specialized 7-member Working Group on Artificial Intelligence (**WG-AI**) to frame an ethical AI governance architecture for India's insurance sector.
 - **Leadership**: Chaired by **Prof. Sandeep K. Shukla**, Director of the International Institute of Information Technology (**IIIT Hyderabad**).
@@ -562,7 +562,7 @@
 - **Core Scope**: Algorithmic fairness in underwriting, fraud detection, privacy safeguards for generative AI in claims processing, and preventing socioeconomic bias in health/life insurance pricing.
 - **IRDAI Statutory Background**: Established pursuant to the R. N. Malhotra Committee (1993); incorporated under the *IRDA Act, 1999*; statutory body since **2000**; Composition: 1 Chairman + 5 full-time + 4 part-time members.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Committee Chairman: **Prof. Sandeep K. Shukla** (Director, IIIT Hyderabad).
 - Reporting Window: **3 months** from constitution.
@@ -570,7 +570,7 @@
 
 ---
 
-📰 [JUN-026] **PFRDA Eases NPS Annuity Exit Rules & Launches 'StAR NPS' Digital Onboarding Platform**
+[JUN-026] **PFRDA Eases NPS Annuity Exit Rules & Launches 'StAR NPS' Digital Onboarding Platform**
 
 - **Exit Relaxation in NPS Annuities**:
   - Pension Fund Regulatory and Development Authority (PFRDA) relaxed rigid lifetime lock-in norms for annuity contracts purchased under the National Pension System (NPS).
@@ -586,7 +586,7 @@
   - Eligible applicants include registered intermediaries, fintech firms, and LLPs with a minimum net worth of **₹10 lakh**.
   - Mandatory reporting: Monthly progress reports, plus any fraud incident or financial loss must be reported within **24 hours**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Annuity Surrender Ground: Eased exclusively for **critical illness** (self or family); CRA must be notified within **7 working days**.
 - StAR NPS Developer: **BSE Technologies Private Limited (BTPL)**; Onboarding fee = **₹200** (borne by PoP).
@@ -595,22 +595,22 @@
 
 ---
 
-📰 [JUN-027] **Nuvama Wealth Receives SEBI Approval for Mutual Fund Operations**
+[JUN-027] **Nuvama Wealth Receives SEBI Approval for Mutual Fund Operations**
 
 - **Market Entry**: Nuvama Wealth Management Limited received final regulatory approval from the Securities and Exchange Board of India (SEBI) to commence **Mutual Fund (MF) operations** in India.
 - **Asset Management Subsidiary**: Mutual fund operations will be conducted through its wholly-owned subsidiary, **Nuvama Asset Management Limited (NAML)**.
 - **Regulatory Context**: Marks the continued expansion of non-banking wealth management houses into retail and passive asset management under SEBI's mutual fund licensing guidelines.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Entity Name: **Nuvama Wealth Management Limited** (Asset Management arm: Nuvama Asset Management Ltd).
 - Regulatory Licensor: **SEBI** (chaired by Tuhin Kanta Pandey).
 
 ---
 
-## 3. 🌐 MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS
+## 3. MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS
 
-📰 [JUN-028] **NPCI International (NIPL) Expands Cross-Border UPI to Cambodia via KHQR Network**
+[JUN-028] **NPCI International (NIPL) Expands Cross-Border UPI to Cambodia via KHQR Network**
 
 - **Bilateral Linkage**: NPCI International Payments Limited (**NIPL**), the global arm of the National Payments Corporation of India (NPCI), partnered with Cambodia's **ACLEDA Bank Plc** to enable cross-border QR payments.
 - **Payment Architecture**:
@@ -621,7 +621,7 @@
   - Cambodia becomes the **9th country** to enable merchant QR code acceptance for UPI.
   - Existing acceptance network spans: **Bhutan, France, Mauritius, Nepal, Singapore, Sri Lanka, UAE, Qatar, and Cambodia**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Cambodian Partner Bank: **ACLEDA Bank Plc**.
 - Cambodian QR & System Name: **KHQR code** under the **Bakong** digital payment system.
@@ -629,7 +629,7 @@
 
 ---
 
-📰 [JUN-029] **BharatPe Launches 'BharatPe Flex' Credit-on-UPI Solution in Partnership with YES Bank**
+[JUN-029] **BharatPe Launches 'BharatPe Flex' Credit-on-UPI Solution in Partnership with YES Bank**
 
 - **Product Innovation**: Leading fintech platform BharatPe partnered with **YES Bank Limited** to launch **'BharatPe Flex'**, an interoperable Credit-on-UPI line.
 - **Core Mechanism**:
@@ -637,7 +637,7 @@
   - Features an interest-free credit period of **up to 45 days**, with flexible conversion of outstandings into Equated Monthly Instalments (EMIs).
 - **Regulatory Framework**: Built on the Reserve Bank of India's operational guidelines permitting scheduled commercial banks to link pre-sanctioned credit lines as funding accounts on the UPI network.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Banking Partner for BharatPe Flex: **YES Bank Limited** (NOT SBI or ICICI).
 - Interest-Free Credit Tenor: Up to **45 days**.
@@ -645,7 +645,7 @@
 
 ---
 
-📰 [JUN-030] **Pine Labs Unveils 'P3P': India's First Agentic Payment Protocol Built on UPI**
+[JUN-030] **Pine Labs Unveils 'P3P': India's First Agentic Payment Protocol Built on UPI**
 
 - **Technological Breakthrough**: Leading fintech unicorn Pine Labs launched the **Pine Labs Payment Protocol (P3P)**, heralded as India's first agentic payment protocol natively integrated with the Unified Payments Interface (**UPI**).
 - **Core AI-Payment Mechanics**:
@@ -654,7 +654,7 @@
   - Safeguarded by user-defined operational guardrails: consumers pre-set maximum spend thresholds, transaction frequency caps, and permitted merchant categories.
 - **Architectural Significance**: Bridges Large Language Model (LLM) agent frameworks with the National Payments Corporation of India's (**NPCI**) real-time settlement rails, establishing the infrastructural foundation for the agentic commerce economy in India.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Protocol Name: **Pine Labs Payment Protocol (P3P)** (NOT Razorpay Agent or PhonePe AI).
 - Underlying Rail: Built natively on **UPI / NPCI network**.
@@ -662,7 +662,7 @@
 
 ---
 
-📰 [JUN-031] **Skydo Receives Canadian MSB Licence: First Indian Cross-Border Payments Fintech to Secure Foreign Regulatory Approval**
+[JUN-031] **Skydo Receives Canadian MSB Licence: First Indian Cross-Border Payments Fintech to Secure Foreign Regulatory Approval**
 
 - **Global Expansion Milestone**: Bengaluru-headquartered B2B cross-border fintech **Skydo** achieved an international breakthrough by securing a Money Services Business (**MSB**) licence from the Financial Transactions and Reports Analysis Centre of Canada (**FINTRAC**).
 - **Historic Regulatory First**:
@@ -672,7 +672,7 @@
   - Co-founded in **2022** in Bengaluru by Movin Jain and Srivatsan Sridhar.
   - Operates transparent flat-fee FX remittance architecture, directly challenging legacy correspondent banking spreads that charge up to 3–5% on cross-border invoices.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - First Indian Cross-Border Fintech Licensed Overseas: **Skydo** (NOT Razorpay or Cashfree).
 - Licensing Jurisdiction & Authority: **Canada (FINTRAC)** as Money Services Business (MSB).
@@ -680,7 +680,7 @@
 
 ---
 
-📰 [JUN-032] **Uzbekistan Admitted to New Development Bank (NDB) as First Central Asian Member**
+[JUN-032] **Uzbekistan Admitted to New Development Bank (NDB) as First Central Asian Member**
 
 - **Multilateral Expansion**: The Board of Governors of the **New Development Bank (NDB)** formally approved the Republic of Uzbekistan as a full member of the multilateral development institution.
 - **Geopolitical Significance**:
@@ -693,7 +693,7 @@
     2. **Individual Non-Founding Cap**: No single non-founding member country may hold more than **7% voting power**.
     3. **Non-Borrowing Developed Ceiling**: Total equity and voting share of non-borrowing developed member nations must remain strictly **below 20%**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - First Central Asian Member of NDB: **Uzbekistan** (Capital: Tashkent).
 - NDB Headquarters: **Shanghai, China** (President: **Dilma Rousseff**).
@@ -702,7 +702,7 @@
 
 ---
 
-📰 [JUN-033] **World Bank Sanctions \$1.5 Billion DPF Loan for Job Creation & ₹4,000 Crore for Haryana Water Project**
+[JUN-033] **World Bank Sanctions \$1.5 Billion DPF Loan for Job Creation & ₹4,000 Crore for Haryana Water Project**
 
 - **Two Major World Bank Sovereign Financings**: The Executive Board of the World Bank approved two massive financial packages totaling over ₹16,500 crore to support India's economic modernization and resource sustainability.
 - **\$1.5 Billion Private Sector Development Policy Financing (DPF)**:
@@ -713,7 +713,7 @@
 - **Institutional Profile**:
   - President: **Ajay Banga**; Headquarters: **Washington, D.C., USA**; Comprises 189 member countries; Established in July 1944 (Bretton Woods Conference).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Private Sector DPF Loan Amount: **\$1.5 Billion** from the World Bank.
 - State Water Project & Loan: **₹4,000 Crore** for **Jal Sanrakshit Haryana Project**.
@@ -721,7 +721,7 @@
 
 ---
 
-📰 [JUN-034] **Bangladesh Joins International Big Cat Alliance (IBCA) as 27th Member Nation**
+[JUN-034] **Bangladesh Joins International Big Cat Alliance (IBCA) as 27th Member Nation**
 
 - **Transboundary Conservation Alliance**: The Government of the People's Republic of Bangladesh formally ratified the Framework Agreement to become the **27th member nation** of the **International Big Cat Alliance (IBCA)**.
 - **Ecological Strategic Value**:
@@ -732,7 +732,7 @@
   - **Covered 7 Big Cat Species**: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma.
   - **Global Mandate**: Uniting 97 range countries to combat poaching, stop illegal wildlife trade, and mobilize climate finance for predator habitat corridors.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - 27th Member Country of IBCA: **Bangladesh** (Sundarbans tiger range partner).
 - Initial Outlay: **₹150 crore** over 5 years (2023–24 to 2027–28).
@@ -741,7 +741,7 @@
 
 ---
 
-📰 [JUN-035] **16th BRICS Agriculture Ministers' Meeting: Unanimous Adoption of the BRICS Indore Declaration**
+[JUN-035] **16th BRICS Agriculture Ministers' Meeting: Unanimous Adoption of the BRICS Indore Declaration**
 
 - **Multilateral Agrarian Summit**: India hosted the **16th BRICS Agriculture Ministers' Meeting** in **Indore, Madhya Pradesh**, bringing together agricultural leaders and policymakers from Brazil, Russia, India, China, South Africa, and newly inducted BRICS nations.
 - **Summit Theme**: *"Building for Resilience, Innovation, Cooperation, and Sustainability (BRICS)"*.
@@ -751,7 +751,7 @@
   3. **Regenerative & Climate-Resilient Agriculture**: Promoting climate-smart agronomy, organic bio-inputs, and climate-hardy crops (focusing on millets / Shree Anna).
   4. **Partnerships for Innovation & Food Systems**: Scaling Agri-Tech startups, satellite crop monitoring, and institutional investments into cold-chain storage.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Host City for 16th BRICS Agriculture Meeting: **Indore, Madhya Pradesh** (Indore Declaration).
 - Theme: *"Building for Resilience, Innovation, Cooperation, and Sustainability (BRICS)"*.
@@ -759,7 +759,7 @@
 
 ---
 
-📰 [JUN-036] **India-Oman Comprehensive Economic Partnership Agreement (CEPA): 99.38% Duty-Free Tariff Lines**
+[JUN-036] **India-Oman Comprehensive Economic Partnership Agreement (CEPA): 99.38% Duty-Free Tariff Lines**
 
 - **Bilateral Trade Architecture**: India and the Sultanate of Oman concluded negotiations on the landmark **India-Oman Comprehensive Economic Partnership Agreement (CEPA)**, creating a premier tariff-free trade gateway into the Gulf Cooperation Council (GCC).
 - **Reciprocal Tariff Concessions**:
@@ -770,7 +770,7 @@
   - Eliminated import duties of up to **5% on Indian marine exports** (shrimp, cephalopods, and processed fish).
   - Instituted bilateral **Tariff Rate Quotas (TRQs)** and **Minimum Import Price (MIP)** trigger mechanisms against predatory surges.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Oman Duty-Free Coverage: **99.38% of tariff lines** (covering **98.08% of Indian exports**).
 - India Tariff Liberalization: **77.79% of tariff lines** (covering **94.81% of imports**).
@@ -779,7 +779,7 @@
 
 ---
 
-📰 [JUN-037] **India Signs \$629 Million (₹60 Billion) BrahMos Supersonic Cruise Missile Export Deal with Vietnam**
+[JUN-037] **India Signs \$629 Million (₹60 Billion) BrahMos Supersonic Cruise Missile Export Deal with Vietnam**
 
 - **Major Defence Export Breakthrough**: The Government of India signed a landmark sovereign defence export agreement valued at approximately **\$629 million (₹60,000 crore / ₹60 billion)** with the Socialist Republic of **Vietnam** for the supply of **BrahMos supersonic cruise missile batteries**.
 - **Customer Footprint & Geopolitics**:
@@ -790,7 +790,7 @@
   - Cruises at **Mach 2.8 to 3.0** (nearly three times the speed of sound), delivering high kinetic impact; export variant range is calibrated to **~290 kilometres** (compliant with MTCR guidelines).
 - **Bilateral Leadership**: Prime Minister of Vietnam: **Pham Minh Chinh**; Capital: **Hanoi**; Currency: **Vietnamese Dong (VND)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Procuring Country: **Vietnam** (Second export customer after **Philippines**).
 - Total Contract Value: **\$629 million (~₹60 billion)**.
@@ -799,7 +799,7 @@
 
 ---
 
-📰 [JUN-038] **ICRIER Report: India Ranks 5th Globally in CHIPS AI Framework & 4th in Digitally Delivered Trade (\$328 Bn)**
+[JUN-038] **ICRIER Report: India Ranks 5th Globally in CHIPS AI Framework & 4th in Digitally Delivered Trade (\$328 Bn)**
 
 - **Knowledge Economy Benchmark**: The Indian Council for Research on International Economic Relations (**ICRIER**), chaired by Pramod Bhasin, released its flagship assessment on India's artificial intelligence and digital commerce competitiveness.
 - **Global CHIPS AI Index**:
@@ -811,7 +811,7 @@
   - **Private AI Capital Lag**: Currently receives only **~1% of global private AI investment**, highlighting an immense commercialization opportunity.
   - **Digitally Delivered Trade**: India ranks as the **4th largest exporter** of digitally delivered services globally, achieving **\$328 billion** in cross-border digital transactions.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India's Rank in CHIPS AI Index: **5th globally** (up from 8th).
 - India's Share of Global AI Users: **19.9%** (nearly 20%).
@@ -820,7 +820,7 @@
 
 ---
 
-📰 [JUN-039] **Bangladesh Foreign Minister Khalilur Rahman Elected President of 81st UN General Assembly (UNGA)**
+[JUN-039] **Bangladesh Foreign Minister Khalilur Rahman Elected President of 81st UN General Assembly (UNGA)**
 
 - **Global Diplomatic Election**: The United Nations General Assembly formally elected Bangladesh Foreign Minister **Khalilur Rahman** as the **President of the 81st session of the UN General Assembly (UNGA)**.
 - **Tenure & Regional Rotation**:
@@ -828,7 +828,7 @@
   - Nominated by consensus to represent the **Asia-Pacific Group** at the United Nations headquarters in New York.
 - **Focus Areas**: Prioritizing South-South climate resilience funding, LDC graduation transitional support, and reform of international multilateral financial architectures.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - 81st UNGA President: **Khalilur Rahman** (Foreign Minister of **Bangladesh**).
 - Regional Group Represented: **Asia-Pacific Group** (Headquarters: New York).
@@ -836,9 +836,9 @@
 
 ---
 
-## 4. 🏛️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY
+## 4. ️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY
 
-📰 [JUN-040] **MNRE Operationalizes Green Hydrogen Certification Scheme of India (GHCI)**
+[JUN-040] **MNRE Operationalizes Green Hydrogen Certification Scheme of India (GHCI)**
 
 - **Framework & Institutional Mandate**: Ministry of New and Renewable Energy (**MNRE**) operationalized the **Green Hydrogen Certification Scheme of India (GHCI)** under the National Green Hydrogen Mission (**NGHM**), establishing the nation's statutory standard for green hydrogen accounting.
 - **Emission & Quality Benchmark**:
@@ -853,7 +853,7 @@
   - **Dedicated Policy States (6)**: Maharashtra, Rajasthan, Uttar Pradesh, West Bengal, Gujarat, and Uttarakhand.
   - **Integrated Policy States (6)**: Himachal Pradesh, Madhya Pradesh, Odisha, Telangana, Chhattisgarh, Andhra Pradesh, and Assam.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Well-to-Gate Emission Cap: **≤2.0 kg CO2 equivalent per kg H2** (critical numerical MCQ).
 - 2030 Production Target: **5 MMT per annum** backed by **125 GW renewable energy**.
@@ -862,7 +862,7 @@
 
 ---
 
-📰 [JUN-041] **Ministry of Textiles Rationalizes PLI Scheme: Halves Minimum Investment Thresholds in Round 3**
+[JUN-041] **Ministry of Textiles Rationalizes PLI Scheme: Halves Minimum Investment Thresholds in Round 3**
 
 - **Policy Recalibration**: The Ministry of Textiles announced sweeping relaxations under the **Production Linked Incentive (PLI) Scheme for Textiles** to unlock stalled capital and widen participation for MSMEs and emerging apparel exporters.
 - **Round 3 Scope Expansion**:
@@ -874,7 +874,7 @@
   - The mandatory year-on-year incremental turnover condition was drastically softened from **25% to 10%** starting from FY 2025-26.
 - **Strategic Impact**: Removes stringent entry barriers, allowing domestic fabric and garment manufacturers to access sovereign incentive tranches amidst global supply chain diversification.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Part 1 Minimum Investment Cut: Slashed from ₹300 Cr to **₹150 crore** (50% reduction).
 - Part 2 Minimum Investment Cut: Slashed from ₹100 Cr to **₹50 crore**.
@@ -883,7 +883,7 @@
 
 ---
 
-📰 [JUN-042] **WPI Base Year Revision to 2022-23: DPIIT Introduces Targeted Mean Imputation for Missing Prices**
+[JUN-042] **WPI Base Year Revision to 2022-23: DPIIT Introduces Targeted Mean Imputation for Missing Prices**
 
 - **Statistical Modernization**: Office of the Economic Adviser (DPIIT, Ministry of Commerce & Industry) finalized the methodology for transitioning the **Wholesale Price Index (WPI)** from the 2011-12 base to the new **2022-23 base year**.
 - **Methodological Breakthrough**:
@@ -894,7 +894,7 @@
   - WPI Food Index inflation stood at **4.49%**.
 - **Administrative Anchor**: DPIIT Secretary **Amardeep Singh Bhatia** confirmed the parallel run of the new series before final sunsetting of the 2011-12 index.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - New WPI Target Base Year: **2022-23** (replacing 2011-12).
 - New Price Imputation Technique: **Targeted Mean Imputation** (replaces Carry Forward method).
@@ -903,7 +903,7 @@
 
 ---
 
-📰 [JUN-043] **MHA & I4C Launch GrM & MRM Portals: Faster Unfreezing of Accounts & Automated Cyber Fraud Refunds**
+[JUN-043] **MHA & I4C Launch GrM & MRM Portals: Faster Unfreezing of Accounts & Automated Cyber Fraud Refunds**
 
 - **Institutional Initiative**: The Ministry of Home Affairs (**MHA**) and the **Indian Cyber Crime Coordination Centre (I4C)** launched two dedicated digital grievance modules to address unintended hardships caused by anti-fraud operations.
 - **Two Core Modules**:
@@ -915,7 +915,7 @@
   - Operationalized in **October 2018** under the administrative control of MHA.
   - Governed under Section 79(3)(b) of the *Information Technology Act, 2000*. Headquartered in New Delhi under CEO **Rajesh Kumar**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - National Cyber Crime Helpline Number: **1930** (critical banking awareness number).
 - Dedicated Modules: **GrM** (for lien/account unfreezing) & **MRM** (for money restitution).
@@ -924,7 +924,7 @@
 
 ---
 
-📰 [JUN-044] **Puducherry Establishes India's First Municipality-Developed SEZ at Thattanchavady**
+[JUN-044] **Puducherry Establishes India's First Municipality-Developed SEZ at Thattanchavady**
 
 - **Historic Precedent**: Department of Commerce (Ministry of Commerce & Industry) granted formal approval for two new Special Economic Zones (SEZs) in the Union Territory of Puducherry, creating an institutional first in urban governance.
 - **Two Approved SEZs**:
@@ -936,7 +936,7 @@
   - **Out-of-Pocket Expenditure (OOPE)** plunged to **39.4% of THE** (down from 64.2% in FY14).
   - Private Health Insurance (PHI) increased its share in THE from 3.4% (2013-14) to **9.2% (2022-23)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - First Urban Local Body/Municipality in India to Develop an SEZ: **Oulgaret Municipality, Puducherry** (at Thattanchavady).
 - Multi-Sector SEZ Agency: **PIPDIC** at Karasur.
@@ -945,7 +945,7 @@
 
 ---
 
-📰 [JUN-045] **Mission Mausam Deploys 'SkyCast' High-Resolution Aviation Fog Forecasting System**
+[JUN-045] **Mission Mausam Deploys 'SkyCast' High-Resolution Aviation Fog Forecasting System**
 
 - **Aviation Safety Deployment**: Ministry of Earth Sciences (**MoES**) operationalized **'SkyCast'**, an indigenous, high-resolution fog and low-cloud numerical prediction system engineered specifically for airport operations.
 - **Technical & Research Heritage**:
@@ -956,7 +956,7 @@
   - Target: Up to **50% improvement in weather forecasting accuracy** across cyclones, heatwaves, monsoon depressions, and aviation visibility.
   - MoES Leadership: Union Minister of State (IC) **Dr. Jitendra Singh**; MoES Secretary **Dr. M. Ravichandran**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - SkyCast Research Origin: **WiFEX experiment** conducted by **IITM Pune & IMD**.
 - Airports Deployed: **IGI Delhi** and expanding to **Noida International Airport (Jewar)**.
@@ -965,7 +965,7 @@
 
 ---
 
-📰 [JUN-046] **PM SVANidhi Revised Norms: Tranche Caps Raised to ₹15k/₹25k & RuPay Credit Card Rollout**
+[JUN-046] **PM SVANidhi Revised Norms: Tranche Caps Raised to ₹15k/₹25k & RuPay Credit Card Rollout**
 
 - **Scheme Enhancements**: Ministry of Housing and Urban Affairs (**MoHUA**) notified revised operational guidelines for the Prime Minister Street Vendor's AtmaNirbhar Nidhi (**PM SVANidhi**), enhancing collateral-free working capital thresholds.
 - **Upgraded Three-Tranche Credit Architecture**:
@@ -978,7 +978,7 @@
 - **'Samadhan Didi' AI Grievance Chatbot**:
   - MoS (IC) Dr. Jitendra Singh launched **'Samadhan Didi'**, an AI-enabled multilingual voice chatbot for the Centralised Public Grievance Redress and Monitoring System (**CPGRAMS**) at Kartavya Bhawan, New Delhi.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - 1st Tranche Loan Limit: Raised to **₹15,000** (repayable in 12 months).
 - 2nd Tranche Loan Limit: Raised to **₹25,000** (repayable in 18 months).
@@ -988,7 +988,7 @@
 
 ---
 
-📰 [JUN-047] **Surha Taal Bird Sanctuary Designated as Ramsar Wetland: India Ranks 1st in Asia & 3rd Globally**
+[JUN-047] **Surha Taal Bird Sanctuary Designated as Ramsar Wetland: India Ranks 1st in Asia & 3rd Globally**
 
 - **Ramsar Convention Designation**: The Ramsar Secretariat designated Uttar Pradesh's **Surha Taal Bird Sanctuary** as a Wetland of International Importance.
 - **Geographical & Environmental Profile**:
@@ -1003,7 +1003,7 @@
     3. **Odisha**: 6 Ramsar sites (third highest).
   - India's first designated Ramsar sites (1981): **Chilika Lake** (Odisha) and **Keoladeo National Park** (Rajasthan).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Newest Ramsar Site: **Surha Taal / Jai Prakash Narayan Bird Sanctuary** (Ballia district, UP).
 - Lake Hydrology: Natural perennial **oxbow lake** of the Ganga River.
@@ -1012,7 +1012,7 @@
 
 ---
 
-📰 [JUN-048] **IN-SPACe Selects 3 Startups for TAF Funding & NITI Aayog Unveils Semiconductor Fab Academy**
+[JUN-048] **IN-SPACe Selects 3 Startups for TAF Funding & NITI Aayog Unveils Semiconductor Fab Academy**
 
 - **Space-Tech Commercialization**: The Indian National Space Promotion and Authorisation Centre (**IN-SPACe**), the commercial facilitation arm of ISRO, selected the first cohort of 3 Indian space startups for direct grant funding under the **Technology Adoption Fund (TAF)**:
   1. **Astrobase Space Technologies Pvt Ltd** (Bengaluru): Tasked with designing and fabricating an indigenous **800 kilonewton (kN) high-thrust, reusable closed-cycle liquid rocket engine**.
@@ -1023,7 +1023,7 @@
   - Outlines bilateral technology and supply-chain corridors with 4 trusted partners: **United States, European Union, Japan, and South Korea**.
   - Leadership: Interim CEO **Nidhi Chhibber** (Director General, DMEO).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Astrobase Space Tech Grant Mandate: **800 kN reusable closed-cycle liquid rocket engine**.
 - IN-SPACe TAF Startup Count: **3 startups** (Astrobase, SataSure, TM2SPACE).
@@ -1032,7 +1032,7 @@
 
 ---
 
-📰 [JUN-049] **MCA Expands Schedule VII: CSR Funds Permitted in Social Stock Exchange ZCZP Instruments**
+[JUN-049] **MCA Expands Schedule VII: CSR Funds Permitted in Social Stock Exchange ZCZP Instruments**
 
 - **Regulatory Harmonization**: Ministry of Corporate Affairs (**MCA**) amended **Schedule VII of the Companies Act, 2013**, officially allowing corporate CSR expenditure to flow into the Social Stock Exchange (**SSE**) ecosystem.
 - **Eligible CSR Conduit**:
@@ -1045,7 +1045,7 @@
   - Mandatory allocation: At least **2% of the average net profits** made during the 3 immediately preceding financial years.
   - **Proposed Reform**: The *Corporate Laws Amendment Bill, 2026* proposes doubling the net profit threshold from **₹5 crore to ₹10 crore** to reduce compliance overhead for small enterprises.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Eligible CSR Asset: **Zero Coupon Zero Principal (ZCZP) instruments** listed on Social Stock Exchanges (SSE).
 - Schedule Amended: **Schedule VII** of the *Companies Act, 2013*.
@@ -1054,7 +1054,7 @@
 
 ---
 
-📰 [JUN-050] **MoSPI FY26 Annual Estimates & Logistics Port Performance Index (LPPI FY25)**
+[JUN-050] **MoSPI FY26 Annual Estimates & Logistics Port Performance Index (LPPI FY25)**
 
 - **Macroeconomic Accounting**: Ministry of Statistics and Programme Implementation (**MoSPI**) released the Provisional Estimates of Annual GDP/GVA for FY 2025-26:
   - **Nominal GVA**: Grew by **9.1% in FY26** (reaching **₹314.87 Lakh Crore** vs ₹288.54 Lakh Crore in FY25).
@@ -1067,7 +1067,7 @@
   - **Container Cargo (<0.5 Million TEUs)**: **Deendayal Port Authority (DPA)**, formerly Kandla Port Trust (Gujarat), won the Best-Performing Port award. DPA remains India's largest port by overall cargo volume.
   - **Liquid Bulk Cargo**: **Sikka Port and Terminals Limited (SPTL)**, Jamnagar (Gujarat) topped the category; Visakhapatnam Port Authority (VPA, Andhra Pradesh) secured 2nd place.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Nominal GVA FY26 Growth Rate: **9.1%** (reaching **₹314.87 Lakh Crore**).
 - Highest Growing GVA Sector: **Tertiary/Services at 11.0%**, followed by Manufacturing at **10.7%**.
@@ -1076,7 +1076,7 @@
 
 ---
 
-📰 [JUN-051] **Investiture Ceremony 2026: Gallantry Awards Conferred on Gaganyaan Astronaut & Navy Circumnavigators**
+[JUN-051] **Investiture Ceremony 2026: Gallantry Awards Conferred on Gaganyaan Astronaut & Navy Circumnavigators**
 
 - **Gallantry Convocations**: President of India conferred Gallantry Awards for 2026 (Phase 1), honoring supreme valor and distinguished service in peacetime and aerospace missions:
   - **Total Medals Conferred**: **7 Kirti Chakras, 15 Vir Chakras, and 29 Shaurya Chakras**.
@@ -1086,7 +1086,7 @@
 - **Clean Transportation Milestone**:
   - Union Minister Nitin Gadkari unveiled India's first commercially available mass-production flex-fuel two-wheelers — **Hero Splendor+ Flex Fuel** and **Hero HF Deluxe Flex Fuel**, capable of operating on ethanol-petrol blends ranging from **E20 (20% ethanol) to E85 (85% ethanol)**.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Kirti Chakra Awardee: **Air Commodore Prasanth Balakrishnan Nair** (Gaganyaan / Axiom-4 backup astronaut; call sign *"Papa"*).
 - Shaurya Chakra Naval Officers: **Lt Cdr Dilna K. & Lt Cdr Roopa A.** aboard **INSV Tarini** (25,600+ nautical miles).
@@ -1095,7 +1095,7 @@
 
 ---
 
-📰 [JUN-052] **Garden Reach Shipbuilders & Engineers (GRSE) Elevated to India's 29th Navratna CPSE**
+[JUN-052] **Garden Reach Shipbuilders & Engineers (GRSE) Elevated to India's 29th Navratna CPSE**
 
 - **Corporate Governance Upgradation**: The Department of Public Enterprises (DPE, Ministry of Finance) and the Ministry of Defence officially elevated Kolkata-headquartered shipyard **Garden Reach Shipbuilders & Engineers Limited (GRSE)** to **Navratna Central Public Sector Enterprise (CPSE)** status.
 - **Historic Institutional Milestone**:
@@ -1107,7 +1107,7 @@
   - Constructed and delivered India's very first indigenous warship, **INS Ajay**, in **1961**.
   - Concurrently, Prime Minister Narendra Modi commissioned three GRSE-built naval assets at the Syama Prasad Mookerjee Port in Kolkata: **INS Dunagiri** (Project 17A Nilgiri-class guided missile frigate), **INS Sanshodhak** (large survey vessel), and **INS Agray** (anti-submarine shallow water craft).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - New Navratna Status Rank: **29th Navratna CPSE** of India (Kolkata-based).
 - Autonomy Investment Limit: Up to **₹1,000 crore or 15% of net worth** per project.
@@ -1116,7 +1116,7 @@
 
 ---
 
-📰 [JUN-053] **Cabinet Approves ₹13,000 Crore Greenfield Civil-Military Airport on Great Nicobar Island**
+[JUN-053] **Cabinet Approves ₹13,000 Crore Greenfield Civil-Military Airport on Great Nicobar Island**
 
 - **Strategic Maritime Outlay**: The Union Cabinet cleared the development of a state-of-the-art **greenfield international airport** on **Great Nicobar Island** with a dedicated public investment outlay of **₹13,000 crore**.
 - **Dual-Use Civil-Military Infrastructure**:
@@ -1126,7 +1126,7 @@
   - Strengthens India's naval surveillance and force projection across the Six Degree Channel and the broader Indo-Pacific logistics corridors.
   - Forms a linchpin of the larger **₹72,000 crore Great Nicobar Island Holistic Development Project**, executed via the Andaman and Nicobar Islands Integrated Development Corporation (**ANIIDCO**).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Airport Project Outlay: **₹13,000 crore** (dual-use civil-military).
 - Strategic Island: **Great Nicobar Island** (proximate to **Malacca Strait / Six Degree Channel**).
@@ -1134,7 +1134,7 @@
 
 ---
 
-📰 [JUN-054] **India's First Commercial Coal-to-Ammonium Nitrate Plant at Lakhanpur & Model Solar Village Pahadpur**
+[JUN-054] **India's First Commercial Coal-to-Ammonium Nitrate Plant at Lakhanpur & Model Solar Village Pahadpur**
 
 - **Clean Coal Gasification Milestone**: President Droupadi Murmu and Prime Minister Narendra Modi laid the foundation stone of India's **first commercial-scale Coal-to-Ammonium Nitrate Project** at **Lakhanpur, Jharsuguda district, Odisha**.
 - **Joint Venture Architecture**:
@@ -1146,7 +1146,7 @@
   - Prime Minister Modi announced that **Pahadpur Village in Mayurbhanj district, Odisha** (the native birthplace of President Droupadi Murmu) will be developed into a dedicated **Model Solar Village** under the PM-Surya Ghar framework.
   - Simultaneously inaugurated the high-level bridge over the Kathajodi River connecting Cuttack and Bhubaneswar.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Location of First Coal-to-Ammonium Nitrate Plant: **Lakhanpur, Odisha** (developed by BCGCL).
 - BCGCL Joint Venture Equity: **Coal India (51%) + BHEL (49%)**.
@@ -1155,7 +1155,7 @@
 
 ---
 
-📰 [JUN-055] **Indigenous Garudastra 120mm Mortar System & First 17 Women Cadets Commissioned from NDA**
+[JUN-055] **Indigenous Garudastra 120mm Mortar System & First 17 Women Cadets Commissioned from NDA**
 
 - **Artillery Self-Reliance (Aatmanirbhar Defence)**: The Indian Army successfully concluded field validation trials of the indigenously developed **Garudastra 120 mm vehicle-mounted mobile mortar system**.
   - Engineered and fabricated entirely by Pune-based private defence manufacturer **Nibe Limited**.
@@ -1164,7 +1164,7 @@
   - The Ministry of Defence formally commissioned the **first-ever batch of 17 women cadets** trained at the premier **National Defence Academy (NDA)** at Khadakwasla, Pune.
   - The women officers graduated as part of the **148th Course**, having entered the academy in August 2022 following the historic 2021 Supreme Court ruling (*Kush Kalra v. Union of India*) mandating female entry into NDA under fundamental equality rights enshrined in Articles 14, 15, 16, and 19.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Indigenous Mortar System: **Garudastra 120 mm** (manufactured by **Nibe Limited, Pune**; tested at Mhow, MP).
 - First NDA Women Cadet Batch Size: **17 women cadets** (148th Course, Khadakwasla).
@@ -1172,7 +1172,7 @@
 
 ---
 
-📰 [JUN-056] **NIXI Unveils Four Digital Platforms on 23rd Foundation Day: IX, myIRINN, .IN Auction & AI WHOIS**
+[JUN-056] **NIXI Unveils Four Digital Platforms on 23rd Foundation Day: IX, myIRINN, .IN Auction & AI WHOIS**
 
 - **Digital Public Infrastructure Expansion**: The National Internet Exchange of India (**NIXI**) commemorated its **23rd Foundation Day** (established on 19 June 2003 under Section 8 of the Companies Act) by launching four nationwide digital platforms.
 - **Administrative Aegis**: Functions under the Ministry of Electronics and Information Technology (**MeitY**), chaired by MeitY Secretary **S. Krishnan**.
@@ -1182,7 +1182,7 @@
   3. **.IN Auction Portal**: Transparent digital marketplace enabling real-time bidding, transparent auctions, and portfolio transfers for high-value premium `.in` and `.bharat` domain names.
   4. **AI-Enabled WHOIS Screening Platform**: Machine learning security gateway designed to audit domain registrant credentials and proactively flag malicious or fraudulent registrations across the `.in` registry.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - NIXI Foundation Date: **19 June 2003** (Section 8 non-profit company under MeitY).
 - Four Digital Platforms: **IX Portal, myIRINN Portal, .IN Auction Portal, AI WHOIS Screening Platform**.
@@ -1190,7 +1190,7 @@
 
 ---
 
-📰 [JUN-057] **Extended PMSMA (E-PMSMA) Risk-Sticker Norms & Assam-Nagaland Tripartite Petroleum Accord**
+[JUN-057] **Extended PMSMA (E-PMSMA) Risk-Sticker Norms & Assam-Nagaland Tripartite Petroleum Accord**
 
 - **Maternal Health Risk Categorization**: Ministry of Health and Family Welfare (MoH&FW) operationalized upgraded guidelines under the **Extended Pradhan Mantri Surakshit Matritva Abhiyan (E-PMSMA)**:
   - **Mother and Child Protection (MCP) Card Color-Coded Risk Stickers**:
@@ -1203,7 +1203,7 @@
 - **QS World University Rankings 2027**:
   - **IIT Delhi** emerged as India's highest-ranked institution for the second consecutive year, securing global rank **118th** with a score of 65.7 (improving from 123rd).
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - MCP Card Stickers: **Green = No Risk**, **Red = High-Risk Pregnancy (HRP)**.
 - E-PMSMA Post-Delivery Tracking Window: Up to **45 days post-delivery**.
@@ -1212,7 +1212,7 @@
 
 ---
 
-📰 [JUN-058] **₹2,352 Crore Chenab-Beas Link Tunnel Project & Fast-Tracking of Chenab Hydropower Infrastructure**
+[JUN-058] **₹2,352 Crore Chenab-Beas Link Tunnel Project & Fast-Tracking of Chenab Hydropower Infrastructure**
 
 - **Himalayan Hydrological Diversion**: Following India's strategic review of the Indus Waters Treaty (IWT) framework, the Ministry of Power approved a major package of infrastructure projects on the **Chenab River** totaling nearly **₹2,600 crore**, executed primarily by **NHPC Limited**.
 - **Flagship Engineering Project**:
@@ -1221,7 +1221,7 @@
   - Substantially enhances power generation at downstream Beas hydro stations (Pong, Dehar) during peak summer demand while regulating transboundary river flows.
 - **Strategic Context**: Maximizes India's permitted run-of-the-river storage rights under the treaty while generating peak clean hydro capacity.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Flagship Project: **Chenab-Beas Link Tunnel Project** (Outlay: **₹2,352 crore**).
 - Tunnel Length & Location: **8.7 km** in **Lahaul-Spiti, Himachal Pradesh**.
@@ -1230,7 +1230,7 @@
 
 ---
 
-📰 [JUN-059] **FCI Expands Farm-to-Depot QR Code Tagging of Foodgrain Bags across AP, Telangana & Odisha**
+[JUN-059] **FCI Expands Farm-to-Depot QR Code Tagging of Foodgrain Bags across AP, Telangana & Odisha**
 
 - **Supply Chain Digitalization**: Ministry of Consumer Affairs, Food and Public Distribution expanded the mandatory **Quick Response (QR) code tagging initiative** for all foodgrain bags procured and distributed by the **Food Corporation of India (FCI)**.
 - **State Rollout Footprint**:
@@ -1240,7 +1240,7 @@
   - Each gunny bag is imprinted with a unique encrypted 2D QR code detailing procurement centre (mandi), mill code, moisture level, grain variety, date of bagging, and destination FCI silo/depot.
   - Prevents recycling of PDS foodgrains, eliminates phantom milling, and ensures real-time end-to-end inventory auditing on the Anna Darpan logistics platform.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Expanded States for FCI QR Tagging: **Andhra Pradesh, Telangana, and Odisha**.
 - Previous Pilot States: **Andhra Pradesh** (rice) and **Punjab** (wheat).
@@ -1249,7 +1249,7 @@
 
 ---
 
-📰 [JUN-060] **National Family Health Survey (NFHS-6): Total Fertility Rate Stable at 2.0 & Rotavirus Coverage at 85.4%**
+[JUN-060] **National Family Health Survey (NFHS-6): Total Fertility Rate Stable at 2.0 & Rotavirus Coverage at 85.4%**
 
 - **Demographic & Public Health Accounting**: Ministry of Health and Family Welfare released comprehensive analytical findings from the **6th National Family Health Survey (NFHS-6 2023–24)**:
 - **Demographic Transition & Contraception**:
@@ -1263,7 +1263,7 @@
   - **Measles Second Dose (MCV-2)**: Increased from 58.6% to **71.8%**.
   - Prevalence of Acute Respiratory Infections (ARI) dropped from 2.8% to 1.9%; severe childhood diarrhoea declined to 0.5%.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - India's Total Fertility Rate (TFR): **2.0** (below replacement level of 2.1).
 - Contraceptive Prevalence Rate (CPR): **69.1%** (up from 66.7%).
@@ -1272,7 +1272,7 @@
 
 ---
 
-📰 [JUN-061] **West Bengal Launches 'Annapurna Yojana' (₹3,000/Month) & T-Hub Unveils 'ORBIT' Space Accelerator**
+[JUN-061] **West Bengal Launches 'Annapurna Yojana' (₹3,000/Month) & T-Hub Unveils 'ORBIT' Space Accelerator**
 
 - **State Social Assistance Restructuring**:
   - The Government of West Bengal officially rolled out the **Annapurna Yojana (Annapurna Bhandar Scheme)**, superseding the erstwhile Lakshmi Bhandar Scheme (instituted in 2021).
@@ -1283,7 +1283,7 @@
 - **International Cultural Honors**:
   - The **Indian Haj Mission** under the Ministry of Minority Affairs (MoMA) was conferred two prestigious **Labbaytum Awards 2026** by Saudi Arabia's Ministry of Hajj and Umrah at Makkah, recognizing digital innovations including the **Haj Suvidha App** and **Smart Wristband** geo-locators deployed for over 1.75 lakh Indian pilgrims.
 
-🎯 Exam Angle →
+**EXAM ANGLE:**
 
 - Annapurna Yojana Monthly Payout: **₹3,000 per month** (West Bengal; ages 25–60).
 - Predecessor Scheme Replaced: **Lakshmi Bhandar Scheme** (2021).

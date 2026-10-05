@@ -11,6 +11,7 @@ import {
   getEnglishLanguageChapters,
   getHindiChapters,
   getCurrentAffairsChapters,
+  getRajasthanChapters,
   getShelf007ChapterContent,
 } from '@/lib/shelf007/service';
 import { Shelf007ContinuousReader } from '@/components/shelf007/shelf007-continuous-reader';
@@ -63,7 +64,11 @@ export async function generateStaticParams() {
     subject: 'current-affairs',
     chapter: c.slug,
   }));
-  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng, ...hin, ...ca];
+  const raj = getRajasthanChapters().map((c) => ({
+    subject: 'rajasthan',
+    chapter: c.slug,
+  }));
+  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng, ...hin, ...ca, ...raj];
 }
 
 export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPageProps) {
@@ -79,13 +84,14 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
     subject !== 'geography' &&
     subject !== 'english-language' &&
     subject !== 'hindi' &&
-    subject !== 'current-affairs'
+    subject !== 'current-affairs' &&
+    subject !== 'rajasthan'
   ) {
     notFound();
   }
 
   const data = getShelf007ChapterContent(
-    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs',
+    subject as 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan',
     chapter
   );
   if (!data) {
@@ -108,6 +114,7 @@ export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPag
           | 'english-language'
           | 'hindi'
           | 'current-affairs'
+          | 'rajasthan'
       }
       currentChapter={current}
       prevChapter={prev}

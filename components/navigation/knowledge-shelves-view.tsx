@@ -449,6 +449,32 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       syllabusUrl: '/shelf-007/current-affairs',
       readUrl: '/shelf-007/current-affairs/chapter-01',
     },
+    {
+      id: 'raj-007',
+      code: 'RAJ-007',
+      category: 'HUM',
+      categoryName: 'Rajasthan Comprehensive State Studies & Governance',
+      badgeText: 'RBSE • Dr. Gopinath Sharma • Jain & Mali • Bhalla • DES',
+      badgeColor: 'text-[#854d0e] bg-[#fefce8] border-[#fef08a]',
+      title: 'Rajasthan Sovereign Master Codex (The Mega Book)',
+      authorText: 'Rajasthan Board (RBSE) • डॉ. गोपीनाथ शर्मा • डॉ. हुकुमचंद जैन • डॉ. एल.आर. भल्ला • डॉ. हरि मोहन सक्सेना • डॉ. जनक सिंह मीना • DES',
+      countsText: '37 Master Chapters • Pre & Mains 2/5/10 Markers • Capstone Vault',
+      waypointsBadge: 'Release v017 Staged',
+      description:
+        'Definitive 37-chapter sovereign synthesis for RPSC RAS: Prehistoric Sites & Dynastic Hegemony, 1857 Revolt & Freedom Movements, UNESCO Hill Forts & Arts, Morphotectonics & Drainage, IGNP & Minerals, Polity & State Administration, Rajasthan Economy (DES Review), Tribal Sociology, and Capstone Revision Vault.',
+      chips: [
+        'Ancient Sites & Dynasties (Ch 01–05)',
+        '1857, Peasant & Prajamandal (Ch 06–10)',
+        'Art, Forts & Culture (Ch 11–17)',
+        'Geography, IGNP & Minerals (Ch 18–23)',
+        'Polity & State Administration (Ch 24–29)',
+        'Rajasthan Economy & DES Review (Ch 30–34)',
+        'Sociology & Sports (Ch 35–36)',
+        'Capstone Revision Vault (Ch 37)',
+      ],
+      syllabusUrl: '/shelf-007/rajasthan',
+      readUrl: '/shelf-007/rajasthan/chapter-01',
+    },
   ];
 
   const renderSovereignMasterCard = (cardMeta: (typeof SOVEREIGN_CARDS)[number]) => {
