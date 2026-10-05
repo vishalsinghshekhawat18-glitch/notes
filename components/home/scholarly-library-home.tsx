@@ -289,15 +289,15 @@ export function ScholarlyLibraryHome() {
     customClass?: string
   ) => {
     return (
-      <div className={`space-y-3 ${customClass || ''}`}>
-        <div className="text-xs sm:text-sm font-mono text-[#5A7365] leading-normal break-words bg-[#FAF9F4] p-3 rounded-xl border border-[#EBE5D8]">
-          <span className="font-bold text-[#10251F] uppercase text-[11px] tracking-wider mr-2">
+      <div className={`space-y-1.5 ${customClass || ''}`}>
+        <div className="text-[11px] font-mono text-[#5A7365] leading-normal break-words bg-[#FAF9F4] p-2 rounded-lg border border-[#EBE5D8]">
+          <span className="font-bold text-[#10251F] uppercase text-[10px] tracking-wider mr-1.5">
             Primary Sources:
           </span>
           {item.authorText}
         </div>
-        <div className="text-xs font-mono text-[#4A6355] leading-normal break-words">
-          <span className="font-bold uppercase tracking-wider text-[#10251F] text-[10px] mr-2 bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB]">
+        <div className="text-[11px] font-mono text-[#4A6355] leading-normal break-words">
+          <span className="font-bold uppercase tracking-wider text-[#10251F] text-[9px] mr-1.5 bg-[#F5F2EB] px-1.5 py-0.5 rounded border border-[#E0D9CB]">
             Curriculum Scope
           </span>
           <span>{item.keyCoverage}</span>
@@ -330,57 +330,55 @@ export function ScholarlyLibraryHome() {
   }, [activeDomainFilter]);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16 lg:space-y-20 py-8 sm:py-10 text-[#172720] min-w-0 overflow-x-clip">
-
+    <div className="w-full max-w-6xl mx-auto px-3 sm:px-5 lg:px-6 space-y-6 sm:space-y-8 lg:space-y-10 py-4 sm:py-5 text-[#172720] min-w-0 overflow-x-clip">
 
       {/* =========================================================================
-          LAYER C: THE SCHOLAR\'S STUDY DESK (Active Reading Sanctuary)
-          "Your bookmark is waiting for you." Substantial visual presence.
+          LAYER C: THE SCHOLAR'S STUDY DESK (Active Reading Sanctuary - 50% Compact)
           ========================================================================= */}
       <section
         id="continue-reading"
-        className="scroll-mt-24 p-7 sm:p-8 lg:p-9 rounded-3xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F]/50 transition-colors shadow-xs w-full min-w-0 overflow-hidden"
+        className="scroll-mt-20 p-3.5 sm:p-4 rounded-xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F]/40 transition-colors shadow-2xs w-full min-w-0 overflow-hidden"
       >
-        <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-7 min-w-0">
+        <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3.5 min-w-0">
           
           {/* Active Reading Identification */}
-          <div className="flex items-start sm:items-center gap-5 min-w-0 flex-1">
-            <div className="w-14 h-14 rounded-2xl bg-[#10251F] text-[#FAF8F3] border border-[#1E3A2E] flex items-center justify-center font-serif text-2xl font-bold shrink-0 shadow-2xs">
+          <div className="flex items-start sm:items-center gap-3.5 min-w-0 flex-1">
+            <div className="w-9 h-9 rounded-lg bg-[#10251F] text-[#FAF8F3] border border-[#1E3A2E] flex items-center justify-center font-serif text-lg font-bold shrink-0 shadow-2xs">
               {savedPosition ? '🔖' : '📖'}
             </div>
 
-            <div className="min-w-0 flex-1 space-y-2">
-              <div className="flex flex-wrap items-center gap-2 text-xs font-mono">
+            <div className="min-w-0 flex-1 space-y-1">
+              <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-mono">
                 {savedPosition ? (
                   <>
-                    <span className="w-2.5 h-2.5 rounded-full bg-[#C59B4B] animate-pulse shrink-0" />
-                    <span className="uppercase font-bold text-[#10251F] tracking-wide text-xs">
+                    <span className="w-2 h-2 rounded-full bg-[#C59B4B] animate-pulse shrink-0" />
+                    <span className="uppercase font-bold text-[#10251F] tracking-wide text-[10px]">
                       Your Study Bookmark
                     </span>
                     <span className="text-[#A1B8A9]">•</span>
-                    <span className="text-[#5A7365] font-semibold truncate bg-[#F5F2EB] px-2.5 py-0.5 rounded-md border border-[#E0D9CB]">
+                    <span className="text-[#5A7365] font-semibold truncate bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB] text-[10px]">
                       {savedPosition.subjectName}
                     </span>
                   </>
                 ) : (
                   <>
-                    <span className="w-2.5 h-2.5 rounded-full bg-[#10251F] shrink-0" />
-                    <span className="uppercase font-bold text-[#10251F] tracking-wide text-xs">
+                    <span className="w-2 h-2 rounded-full bg-[#10251F] shrink-0" />
+                    <span className="uppercase font-bold text-[#10251F] tracking-wide text-[10px]">
                       Recommended Starting Foundation
                     </span>
                     <span className="text-[#A1B8A9]">•</span>
-                    <span className="text-[#5A7365] font-semibold bg-[#F5F2EB] px-2.5 py-0.5 rounded-md border border-[#E0D9CB]">
+                    <span className="text-[#5A7365] font-semibold bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB] text-[10px]">
                       Volume I: Governance & Society
                     </span>
                   </>
                 )}
               </div>
 
-              <div className="font-serif font-bold text-xl sm:text-2xl lg:text-3xl text-[#10251F] tracking-tight truncate">
+              <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight truncate leading-tight">
                 {savedPosition ? savedPosition.topicTitle : 'Political Science & Constitutional Governance (Chapter 01)'}
               </div>
 
-              <p className="text-xs sm:text-sm font-mono text-[#5A7365] truncate">
+              <p className="text-[11px] font-mono text-[#5A7365] truncate">
                 {savedPosition
                   ? 'Resumes exact reading position and scroll depth from your field notebook.'
                   : 'Constitutional Foundations, Historical Evolution & Preamble Juridical Doctrines.'}
@@ -389,11 +387,11 @@ export function ScholarlyLibraryHome() {
           </div>
 
           {/* Primary Action Suite */}
-          <div className="flex flex-wrap sm:flex-nowrap items-center gap-3.5 shrink-0 pt-3 md:pt-0 border-t md:border-t-0 border-[#E8E2D5]">
+          <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 shrink-0 pt-2.5 md:pt-0 border-t md:border-t-0 border-[#E8E2D5]">
             {savedPosition ? (
               <Link
                 href={savedPosition.url}
-                className="px-7 py-3.5 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-sm sm:text-base font-serif font-bold transition-all shadow-xs inline-flex items-center justify-center gap-2.5 flex-1 sm:flex-initial"
+                className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
               >
                 <span>Resume Reading Codex</span>
                 <span>→</span>
@@ -401,7 +399,7 @@ export function ScholarlyLibraryHome() {
             ) : (
               <Link
                 href="/shelf-007/political-science/chapter-01"
-                className="px-7 py-3.5 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-sm sm:text-base font-serif font-bold transition-all shadow-xs inline-flex items-center justify-center gap-2.5 flex-1 sm:flex-initial"
+                className="px-4 py-2 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-serif font-bold transition-all shadow-2xs inline-flex items-center justify-center gap-1.5 flex-1 sm:flex-initial"
               >
                 <span>Begin Chapter 01</span>
                 <span>→</span>
@@ -410,31 +408,30 @@ export function ScholarlyLibraryHome() {
 
             <button
               onClick={() => setIsSearchOpen(true)}
-              className="px-4 py-3.5 rounded-xl bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#D8CEBC] text-xs sm:text-sm font-mono text-[#10251F] transition-colors inline-flex items-center justify-center gap-2 cursor-pointer shadow-2xs shrink-0"
+              className="px-2.5 py-2 rounded-lg bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#D8CEBC] text-xs font-mono text-[#10251F] transition-colors inline-flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs shrink-0"
               title="Search entire library corpus"
             >
               <span>🔍</span>
-              <span className="hidden sm:inline font-semibold">Search Library</span>
-              <kbd className="text-[10px] bg-black/5 text-[#5A7365] px-1.5 py-0.5 rounded font-mono">⌘K</kbd>
+              <span className="hidden sm:inline font-semibold">Search</span>
+              <kbd className="text-[9px] bg-black/5 text-[#5A7365] px-1 py-0.2 rounded font-mono">⌘K</kbd>
             </button>
           </div>
         </div>
       </section>
 
       {/* =========================================================================
-          LAYER D: PRIMARY ACTION NAVIGATION STRIP
-          Streamlined operational paths: Continue → Explore → Revise → Search.
+          LAYER D: PRIMARY ACTION NAVIGATION STRIP (50% Compact)
           ========================================================================= */}
-      <nav aria-label="Library Navigation Strip" className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border border-[#E0D9CB] w-full min-w-0">
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm font-mono min-w-0">
-          <div className="flex flex-wrap items-center gap-2.5">
-            <span className="text-[11px] font-bold text-[#5A7365] uppercase tracking-wider mr-1 shrink-0">
+      <nav aria-label="Library Navigation Strip" className="p-2 sm:p-2.5 rounded-xl bg-[#F5F2EB] border border-[#E0D9CB] w-full min-w-0">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono min-w-0">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-[10px] font-bold text-[#5A7365] uppercase tracking-wider mr-1 shrink-0">
               Corpus Paths:
             </span>
 
             <a
               href="#continue-reading"
-              className="px-3.5 py-2 rounded-xl bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-2 shadow-2xs shrink-0"
+              className="px-2.5 py-1.5 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-1.5 shadow-2xs shrink-0 text-xs"
             >
               <span>📖</span>
               <span>Study Desk</span>
@@ -442,7 +439,7 @@ export function ScholarlyLibraryHome() {
 
             <Link
               href="/shelf-007"
-              className="px-3.5 py-2 rounded-xl bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-2 shadow-2xs shrink-0"
+              className="px-2.5 py-1.5 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-1.5 shadow-2xs shrink-0 text-xs"
             >
               <span>🏛️</span>
               <span>All 10 Treatises</span>
@@ -450,26 +447,26 @@ export function ScholarlyLibraryHome() {
 
             <a
               href="#knowledge-terrain"
-              className="px-3.5 py-2 rounded-xl bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-2 shadow-2xs shrink-0"
+              className="px-2.5 py-1.5 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-1.5 shadow-2xs shrink-0 text-xs"
             >
               <span>🧭</span>
-              <span>5 Thematic Wings</span>
+              <span>5 Wings</span>
             </a>
 
             <Link
               href="/shelf-007/political-science/chapter-30"
-              className="px-3.5 py-2 rounded-xl bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-2 shadow-2xs shrink-0"
+              className="px-2.5 py-1.5 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-1.5 shadow-2xs shrink-0 text-xs"
             >
               <span>⚡</span>
-              <span>Rapid Revision Vaults</span>
+              <span>Revision Vaults</span>
             </Link>
           </div>
 
           <button
             onClick={() => setIsSearchOpen(true)}
-            className="text-xs sm:text-sm font-mono text-[#9E722C] hover:text-[#10251F] font-semibold px-2 py-1 transition-colors cursor-pointer shrink-0"
+            className="text-[11px] font-mono text-[#9E722C] hover:text-[#10251F] font-semibold px-1.5 py-1 transition-colors cursor-pointer shrink-0"
           >
-            ⌘K Global Search Dialog →
+            ⌘K Global Search →
           </button>
         </div>
       </nav>
@@ -478,39 +475,39 @@ export function ScholarlyLibraryHome() {
           LAYER E: THE FIVE WINGS OF THE LIBRARY (Floorplan & Wing Navigator)
           Atlas-like spatial index. Major navigational moment with generous presence.
           ========================================================================= */}
-      <section id="knowledge-terrain" className="scroll-mt-24 space-y-7 w-full min-w-0">
-        <div className="border-b-2 border-[#10251F] pb-4 flex flex-col sm:flex-row sm:items-end justify-between gap-3 min-w-0">
+      <section id="knowledge-terrain" className="scroll-mt-24 space-y-3.5 sm:space-y-4 w-full min-w-0">
+        <div className="border-b-2 border-[#10251F] pb-2 sm:pb-2.5 flex flex-col sm:flex-row sm:items-end justify-between gap-2 min-w-0">
           <div>
-            <span className="text-xs font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+            <span className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
               Archival Floorplan
             </span>
-            <h2 className="font-serif font-bold text-2xl sm:text-4xl text-[#10251F] tracking-tight mt-1">
+            <h2 className="font-serif font-bold text-lg sm:text-2xl text-[#10251F] tracking-tight mt-0.5">
               The Five Wings of the Library
             </h2>
           </div>
-          <p className="text-xs sm:text-sm font-mono text-[#5A7365] max-w-lg sm:text-right">
+          <p className="text-[11px] sm:text-xs font-mono text-[#5A7365] max-w-md sm:text-right">
             The five major architectural territories of knowledge across constitutional statecraft, macroeconomic corridors, planetary geography, empirical sciences, and administrative rhetoric.
           </p>
         </div>
 
         {/* The 5 Domain Wing Selectors (Interactive Spatial Navigation) */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 w-full min-w-0 text-xs sm:text-sm font-mono">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 w-full min-w-0 text-xs font-mono">
           <button
             onClick={() => handleSelectWing('ALL')}
-            className={`p-4 sm:p-5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-2 shadow-2xs min-h-[110px] sm:min-h-[120px] ${
+            className={`p-2.5 sm:p-3 rounded-xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-1.5 shadow-2xs min-h-[68px] sm:min-h-[76px] ${
               activeDomainFilter === 'ALL'
                 ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] shadow-sm'
                 : 'bg-[#FFFFFF] text-[#172720] border-[#E0D9CB] hover:bg-[#FAF9F4] hover:border-[#10251F]/40'
             }`}
           >
             <div className="flex items-center justify-between">
-              <span className="text-xl">🏛️</span>
-              <span className={`text-[11px] font-bold ${activeDomainFilter === 'ALL' ? 'text-[#C59B4B]' : 'text-[#5A7365]'}`}>
+              <span className="text-base sm:text-lg">🏛️</span>
+              <span className={`text-[10px] font-bold ${activeDomainFilter === 'ALL' ? 'text-[#C59B4B]' : 'text-[#5A7365]'}`}>
                 10 Treatises
               </span>
             </div>
-            <div className="font-serif font-bold text-sm sm:text-base leading-tight">All Library Wings</div>
-            <span className={`text-[10px] ${activeDomainFilter === 'ALL' ? 'text-[#A1B8A9]' : 'text-[#5A7365]'}`}>
+            <div className="font-serif font-bold text-xs sm:text-sm leading-tight">All Library Wings</div>
+            <span className={`text-[9px] ${activeDomainFilter === 'ALL' ? 'text-[#A1B8A9]' : 'text-[#5A7365]'}`}>
               Full Codex Sequence
             </span>
           </button>
@@ -523,22 +520,22 @@ export function ScholarlyLibraryHome() {
               <button
                 key={domain.id}
                 onClick={() => handleSelectWing(isSelected ? 'ALL' : domain.id)}
-                className={`p-4 sm:p-5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-2 shadow-2xs min-h-[110px] sm:min-h-[120px] ${
+                className={`p-2.5 sm:p-3 rounded-xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-1.5 shadow-2xs min-h-[68px] sm:min-h-[76px] ${
                   isSelected
                     ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] shadow-sm'
                     : 'bg-[#FFFFFF] text-[#172720] border-[#E0D9CB] hover:bg-[#FAF9F4] hover:border-[#10251F]/40'
                 }`}
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xl">{domain.emblem}</span>
-                  <span className={`text-[11px] font-bold ${isSelected ? 'text-[#C59B4B]' : 'text-[#5A7365]'}`}>
+                  <span className="text-base sm:text-lg">{domain.emblem}</span>
+                  <span className={`text-[10px] font-bold ${isSelected ? 'text-[#C59B4B]' : 'text-[#5A7365]'}`}>
                     Sec. {domain.numeral}
                   </span>
                 </div>
-                <div className="font-serif font-bold text-sm sm:text-base leading-tight truncate">
+                <div className="font-serif font-bold text-xs sm:text-sm leading-tight truncate">
                   {domain.name}
                 </div>
-                <span className={`text-[10px] ${isSelected ? 'text-[#A1B8A9]' : 'text-[#5A7365]'}`}>
+                <span className={`text-[9px] ${isSelected ? 'text-[#A1B8A9]' : 'text-[#5A7365]'}`}>
                   {count} {count === 1 ? 'Treatise' : 'Treatises'}
                 </span>
               </button>
@@ -547,19 +544,19 @@ export function ScholarlyLibraryHome() {
         </div>
 
         {activeDomainFilter !== 'ALL' && (
-          <div className="p-4 rounded-2xl bg-[#10251F] text-[#FAF8F3] border border-[#2A4D3E] flex flex-wrap items-center justify-between gap-3 font-mono text-xs shadow-sm">
-            <div className="flex items-center gap-2.5">
-              <span className="text-lg">🏛️</span>
+          <div className="p-2.5 sm:p-3 rounded-xl bg-[#10251F] text-[#FAF8F3] border border-[#2A4D3E] flex flex-wrap items-center justify-between gap-2 font-mono text-xs shadow-sm">
+            <div className="flex items-center gap-2">
+              <span className="text-base">🏛️</span>
               <span>
                 Viewing Room: <strong className="text-[#C59B4B]">{KNOWLEDGE_DOMAINS.find((d) => d.id === activeDomainFilter)?.name}</strong>
               </span>
-              <span className="text-[#A1B8A9] hidden sm:inline">
-                ({MONOGRAPHS.filter((m) => m.domainId === activeDomainFilter).length} Treatises shown • ~55% shorter page length)
+              <span className="text-[#A1B8A9] hidden sm:inline text-[11px]">
+                ({MONOGRAPHS.filter((m) => m.domainId === activeDomainFilter).length} Treatises shown)
               </span>
             </div>
             <button
               onClick={() => handleSelectWing('ALL')}
-              className="px-3.5 py-1.5 rounded-lg bg-[#1E3A2E] hover:bg-[#2A4D3E] text-[#FAF8F3] border border-[#3E6554] cursor-pointer text-xs font-bold transition-colors"
+              className="px-2.5 py-1 rounded-md bg-[#1E3A2E] hover:bg-[#2A4D3E] text-[#FAF8F3] border border-[#3E6554] cursor-pointer text-[11px] font-bold transition-colors"
             >
               Show All 5 Wings (Unrolled) →
             </button>
@@ -576,49 +573,49 @@ export function ScholarlyLibraryHome() {
           - Science: Dual laboratory grid
           - Language: Bilingual scriptorium spread
           ========================================================================= */}
-      <div className="space-y-16 sm:space-y-20 w-full min-w-0">
+      <div className="space-y-8 sm:space-y-10 w-full min-w-0">
 
         {/* -----------------------------------------------------------------------
             WING I: GOVERNANCE & SOCIETY (Constitutional Jurisprudence & Statecraft)
             ----------------------------------------------------------------------- */}
         {(activeDomainFilter === 'ALL' || activeDomainFilter === 'GOV') && (
-          <section id="domain-gov" className="space-y-7 scroll-mt-24 w-full min-w-0">
+          <section id="domain-gov" className="space-y-3.5 scroll-mt-24 w-full min-w-0">
             {/* Distinctive Wing Opening Banner */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-[#F5F2EB] border-l-4 border-l-[#10251F] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-4 min-w-0">
-              <div className="flex items-center gap-4 min-w-0">
-                <div className="w-12 h-12 rounded-2xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-2xl shrink-0 shadow-2xs">
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border-l-4 border-l-[#10251F] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 min-w-0">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-base shrink-0 shadow-2xs">
                   ⚖️
                 </div>
                 <div className="min-w-0">
-                  <div className="text-[11px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+                  <div className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
                     Section I · Governance & Society
                   </div>
-                  <h3 className="font-serif font-bold text-2xl sm:text-3xl text-[#10251F] tracking-tight">
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight">
                     Governance & Society
                   </h3>
                 </div>
               </div>
-              <p className="text-xs sm:text-sm font-serif italic text-[#5A7365] max-w-lg sm:text-right">
+              <p className="text-xs font-serif italic text-[#5A7365] max-w-sm sm:text-right">
                 Constitutional jurisprudence, statecraft, administrative apparatus & universal civilizations.
               </p>
             </div>
 
             {/* Asymmetrical Folio Spread: POL-007 (Grand Featured Plate) & HIST-007 */}
-            <div className="space-y-7 w-full min-w-0">
+            <div className="space-y-3.5 w-full min-w-0">
               {/* POL-007: Grand Constitutional Codex Plate */}
               {(() => {
                 const pol = MONOGRAPHS.find((m) => m.id === 'pol-007')!;
                 return (
-                  <article className="w-full rounded-3xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-9 lg:p-10 transition-all duration-200 shadow-xs hover:shadow-md min-w-0 overflow-hidden">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                  <article className="w-full rounded-2xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F] p-4 sm:p-5 lg:p-6 transition-all duration-200 shadow-xs hover:shadow-md min-w-0 overflow-hidden">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 items-start">
                       
                       {/* Left 8 Cols: Substantive Monograph Column */}
-                      <div className="lg:col-span-8 space-y-4 min-w-0">
-                        <div className="flex flex-wrap items-center gap-2.5 text-xs font-mono border-b border-[#E8E2D5] pb-3">
-                          <span className="px-3 py-1 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-xs tracking-wider shrink-0">
+                      <div className="lg:col-span-8 space-y-2 min-w-0">
+                        <div className="flex flex-wrap items-center gap-2 text-xs font-mono border-b border-[#E8E2D5] pb-2">
+                          <span className="px-2.5 py-0.5 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-[11px] tracking-wider shrink-0">
                             {pol.volumeRoman}
                           </span>
-                          <span className="font-bold text-[#9E722C] text-sm shrink-0">
+                          <span className="font-bold text-[#9E722C] text-xs shrink-0">
                             {pol.code}
                           </span>
                           <span className="text-[#C5BEAF]">•</span>
@@ -628,12 +625,12 @@ export function ScholarlyLibraryHome() {
                         </div>
 
                         <Link href={pol.hubUrl} className="block group">
-                          <h4 className="font-serif font-bold text-2xl sm:text-3xl lg:text-4xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight leading-snug">
+                          <h4 className="font-serif font-bold text-lg sm:text-xl lg:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight leading-snug">
                             {pol.title}
                           </h4>
                         </Link>
 
-                        <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed break-words max-w-3xl">
+                        <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal break-words max-w-3xl">
                           {pol.description}
                         </p>
 
@@ -641,9 +638,9 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       {/* Right 4 Cols: Archival Ledger Rail & Actions */}
-                      <div className="lg:col-span-4 p-6 rounded-2xl bg-[#FAF9F4] border border-[#D8CEBC] space-y-5 flex flex-col justify-between h-full">
-                        <div className="space-y-3 text-xs sm:text-sm font-mono">
-                          <div className="text-[11px] uppercase tracking-widest text-[#9E722C] font-bold border-b border-[#E8E2D5] pb-2">
+                      <div className="lg:col-span-4 p-3.5 sm:p-4 rounded-xl bg-[#FAF9F4] border border-[#D8CEBC] space-y-2.5 flex flex-col justify-between h-full">
+                        <div className="space-y-1.5 text-xs font-mono">
+                          <div className="text-[10px] uppercase tracking-widest text-[#9E722C] font-bold border-b border-[#E8E2D5] pb-1.5">
                             Codex Metrics
                           </div>
                           <div className="flex items-center justify-between">
@@ -660,10 +657,10 @@ export function ScholarlyLibraryHome() {
                           </div>
                         </div>
 
-                        <div className="space-y-2.5 pt-3 border-t border-[#E8E2D5]">
+                        <div className="space-y-1.5 pt-2 border-t border-[#E8E2D5]">
                           <Link
                             href={pol.readUrl}
-                            className="w-full px-5 py-3 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm tracking-wide transition-all inline-flex items-center justify-center gap-2 shadow-2xs"
+                            className="w-full px-3.5 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs tracking-wide transition-all inline-flex items-center justify-center gap-1.5 shadow-2xs"
                           >
                             <span>Begin Reading Codex</span>
                             <span>→</span>
@@ -671,7 +668,7 @@ export function ScholarlyLibraryHome() {
 
                           <Link
                             href={pol.hubUrl}
-                            className="w-full text-center text-[#5A7365] hover:text-[#10251F] font-semibold transition-colors inline-block text-xs py-1"
+                            className="w-full text-center text-[#5A7365] hover:text-[#10251F] font-semibold transition-colors inline-block text-xs py-0.5"
                           >
                             <span>Syllabus & TOC ({pol.totalChapters} Ch.)</span>
                           </Link>
@@ -686,10 +683,10 @@ export function ScholarlyLibraryHome() {
               {(() => {
                 const hist = MONOGRAPHS.find((m) => m.id === 'hist-007')!;
                 return (
-                  <article className="w-full rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md min-w-0 overflow-hidden space-y-4">
-                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-3 text-xs font-mono">
+                  <article className="w-full rounded-xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md min-w-0 overflow-hidden space-y-2">
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-2 text-xs font-mono">
                       <div className="flex items-center gap-2 min-w-0">
-                        <span className="px-2.5 py-0.5 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider shrink-0">
+                        <span className="px-2 py-0.5 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider shrink-0">
                           {hist.volumeRoman}
                         </span>
                         <span className="font-bold text-[#9E722C] text-xs shrink-0">
@@ -710,21 +707,21 @@ export function ScholarlyLibraryHome() {
                       </div>
                     </div>
 
-                    <div className="space-y-1.5">
+                    <div className="space-y-1">
                       <Link href={hist.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight">
                           {hist.title}
                         </h4>
                       </Link>
                     </div>
 
-                    <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed max-w-3xl">
+                    <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal max-w-3xl">
                       {hist.description}
                     </p>
 
                     {renderProvenanceAndScope(hist)}
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2.5 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
                       <Link
                         href={hist.hubUrl}
                         className="text-[#5A7365] hover:text-[#10251F] font-semibold transition-colors"
@@ -734,7 +731,7 @@ export function ScholarlyLibraryHome() {
 
                       <Link
                         href={hist.readUrl}
-                        className="px-5 py-2.5 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm transition-all shadow-2xs"
+                        className="px-3.5 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs transition-all shadow-2xs"
                       >
                         Begin Reading Codex →
                       </Link>
@@ -750,37 +747,37 @@ export function ScholarlyLibraryHome() {
             WING II: ECONOMY & FINANCE (Twin Financial Spread + Compendium Dossier)
             ----------------------------------------------------------------------- */}
         {(activeDomainFilter === 'ALL' || activeDomainFilter === 'ECO') && (
-          <section id="domain-eco" className="space-y-7 scroll-mt-24 w-full min-w-0">
+          <section id="domain-eco" className="space-y-3.5 scroll-mt-24 w-full min-w-0">
             {/* Distinctive Wing Opening Banner */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-[#F5F2EB] border-l-4 border-l-[#9E722C] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-4 min-w-0">
-              <div className="flex items-center gap-4 min-w-0">
-                <div className="w-12 h-12 rounded-2xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-2xl shrink-0 shadow-2xs">
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border-l-4 border-l-[#9E722C] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 min-w-0">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-base shrink-0 shadow-2xs">
                   📈
                 </div>
                 <div className="min-w-0">
-                  <div className="text-[11px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+                  <div className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
                     Section II · Economy & Finance
                   </div>
-                  <h3 className="font-serif font-bold text-2xl sm:text-3xl text-[#10251F] tracking-tight">
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight">
                     Economy & Finance
                   </h3>
                 </div>
               </div>
-              <p className="text-xs sm:text-sm font-serif italic text-[#5A7365] max-w-lg sm:text-right">
+              <p className="text-xs font-serif italic text-[#5A7365] max-w-sm sm:text-right">
                 Macroeconomic corridors, public finance, monetary transmission & banking courseware.
               </p>
             </div>
 
             {/* Twin Financial Spread (2 columns on desktop) */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full min-w-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5 sm:gap-4 w-full min-w-0">
               {/* ECO-007 */}
               {(() => {
                 const eco = MONOGRAPHS.find((m) => m.id === 'eco-007')!;
                 return (
-                  <article className="rounded-3xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-5">
-                    <div className="space-y-3.5 min-w-0">
-                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-2.5 text-xs font-mono">
-                        <span className="px-2.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                  <article className="rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-2.5">
+                    <div className="space-y-2 min-w-0">
+                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-1.5 text-xs font-mono">
+                        <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
                           {eco.volumeRoman} · {eco.code}
                         </span>
                         <span className="font-semibold text-[#10251F] text-xs">
@@ -789,23 +786,23 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       <Link href={eco.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
                           {eco.title}
                         </h4>
                       </Link>
 
-                      <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal">
                         {eco.description}
                       </p>
 
                       {renderProvenanceAndScope(eco)}
                     </div>
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
                       <Link href={eco.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & TOC →
                       </Link>
-                      <Link href={eco.readUrl} className="px-4 py-2 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={eco.readUrl} className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading →
                       </Link>
                     </div>
@@ -817,10 +814,10 @@ export function ScholarlyLibraryHome() {
               {(() => {
                 const dbf = MONOGRAPHS.find((m) => m.id === 'dbf-007')!;
                 return (
-                  <article className="rounded-3xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-5">
-                    <div className="space-y-3.5 min-w-0">
-                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-2.5 text-xs font-mono">
-                        <span className="px-2.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                  <article className="rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-2.5">
+                    <div className="space-y-2 min-w-0">
+                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-1.5 text-xs font-mono">
+                        <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
                           {dbf.volumeRoman} · {dbf.code}
                         </span>
                         <span className="font-semibold text-[#10251F] text-xs">
@@ -829,23 +826,23 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       <Link href={dbf.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
                           {dbf.title}
                         </h4>
                       </Link>
 
-                      <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal">
                         {dbf.description}
                       </p>
 
                       {renderProvenanceAndScope(dbf)}
                     </div>
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
                       <Link href={dbf.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & TOC →
                       </Link>
-                      <Link href={dbf.readUrl} className="px-4 py-2 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={dbf.readUrl} className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading →
                       </Link>
                     </div>
@@ -858,10 +855,10 @@ export function ScholarlyLibraryHome() {
             {(() => {
               const ca = MONOGRAPHS.find((m) => m.id === 'ca-007')!;
               return (
-                <article className="w-full rounded-3xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-9 transition-all duration-200 shadow-xs hover:shadow-md space-y-4">
-                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-3 text-xs font-mono">
+                <article className="w-full rounded-2xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md space-y-2">
+                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-2 text-xs font-mono">
                     <div className="flex items-center gap-2">
-                      <span className="px-2.5 py-0.5 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider">
+                      <span className="px-2 py-0.5 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider">
                         {ca.volumeRoman}
                       </span>
                       <span className="font-bold text-[#9E722C] text-xs">
@@ -882,25 +879,25 @@ export function ScholarlyLibraryHome() {
                     </div>
                   </div>
 
-                  <div className="space-y-1.5">
+                  <div className="space-y-1">
                     <Link href={ca.hubUrl} className="block group">
-                      <h4 className="font-serif font-bold text-xl sm:text-3xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight">
+                      <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight">
                         {ca.title}
                       </h4>
                     </Link>
                   </div>
 
-                  <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed max-w-3xl">
+                  <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal max-w-3xl">
                     {ca.description}
                   </p>
 
                   {renderProvenanceAndScope(ca)}
 
-                  <div className="pt-4 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                  <div className="pt-2 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
                     <Link href={ca.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                       Syllabus & Complete Table of Contents ({ca.totalChapters} Chapters) →
                     </Link>
-                    <Link href={ca.readUrl} className="px-5 py-2.5 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                    <Link href={ca.readUrl} className="px-3.5 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                       Begin Reading Codex →
                     </Link>
                   </div>
@@ -915,23 +912,23 @@ export function ScholarlyLibraryHome() {
             Strong visual anchor with landscape & mountain contour accents.
             ----------------------------------------------------------------------- */}
         {(activeDomainFilter === 'ALL' || activeDomainFilter === 'EARTH') && (
-          <section id="domain-earth" className="space-y-7 scroll-mt-24 w-full min-w-0">
+          <section id="domain-earth" className="space-y-3.5 scroll-mt-24 w-full min-w-0">
             {/* Distinctive Wing Opening Banner with Earthen Accent */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-[#F5F2EB] border-l-4 border-l-[#1F493B] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-4 min-w-0">
-              <div className="flex items-center gap-4 min-w-0">
-                <div className="w-12 h-12 rounded-2xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-2xl shrink-0 shadow-2xs">
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border-l-4 border-l-[#1F493B] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 min-w-0">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-base shrink-0 shadow-2xs">
                   🌐
                 </div>
                 <div className="min-w-0">
-                  <div className="text-[11px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+                  <div className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
                     Section III · Earth & Environment
                   </div>
-                  <h3 className="font-serif font-bold text-2xl sm:text-3xl text-[#10251F] tracking-tight">
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight">
                     Earth & Environment
                   </h3>
                 </div>
               </div>
-              <p className="text-xs sm:text-sm font-serif italic text-[#5A7365] max-w-lg sm:text-right">
+              <p className="text-xs font-serif italic text-[#5A7365] max-w-sm sm:text-right">
                 Planetary geomorphology, climatology, cartography, UNCLOS & regional divisions.
               </p>
             </div>
@@ -940,7 +937,7 @@ export function ScholarlyLibraryHome() {
             {(() => {
               const geo = MONOGRAPHS.find((m) => m.id === 'geo-007')!;
               return (
-                <article className="relative w-full rounded-3xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F] p-8 sm:p-10 lg:p-12 transition-all duration-200 shadow-xs hover:shadow-md space-y-6 overflow-hidden">
+                <article className="relative w-full rounded-2xl bg-[#FFFFFF] border-2 border-[#D8CEBC] hover:border-[#10251F] p-4 sm:p-5 lg:p-6 transition-all duration-200 shadow-xs hover:shadow-md space-y-3 overflow-hidden">
                   
                   {/* Subtle Background Topographic Contour Lines SVG */}
                   <div className="absolute right-0 top-0 bottom-0 w-80 pointer-events-none opacity-5 overflow-hidden">
@@ -952,13 +949,13 @@ export function ScholarlyLibraryHome() {
                     </svg>
                   </div>
 
-                  <div className="relative z-10 space-y-5">
-                    <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#E8E2D5] pb-3 text-xs font-mono">
+                  <div className="relative z-10 space-y-2">
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-2 text-xs font-mono">
                       <div className="flex items-center gap-2">
-                        <span className="px-3 py-1 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-xs tracking-wider">
+                        <span className="px-2.5 py-0.5 rounded-md bg-[#10251F] text-[#FAF8F3] font-bold text-[11px] tracking-wider">
                           {geo.volumeRoman}
                         </span>
-                        <span className="font-bold text-[#9E722C] text-sm">
+                        <span className="font-bold text-[#9E722C] text-xs">
                           {geo.code}
                         </span>
                         <span className="text-[#C5BEAF]">•</span>
@@ -976,25 +973,25 @@ export function ScholarlyLibraryHome() {
                       </div>
                     </div>
 
-                    <div className="space-y-2">
+                    <div className="space-y-1">
                       <Link href={geo.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-2xl sm:text-3xl lg:text-4xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight leading-snug">
+                        <h4 className="font-serif font-bold text-lg sm:text-xl lg:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors tracking-tight leading-snug">
                           {geo.title}
                         </h4>
                       </Link>
                     </div>
 
-                    <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed max-w-3xl">
+                    <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal max-w-3xl">
                       {geo.description}
                     </p>
 
                     {renderProvenanceAndScope(geo)}
 
-                    <div className="pt-5 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-4 text-xs sm:text-sm font-mono">
+                    <div className="pt-2.5 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
                       <Link href={geo.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & Complete Table of Contents ({geo.totalChapters} Chapters) →
                       </Link>
-                      <Link href={geo.readUrl} className="px-6 py-3 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={geo.readUrl} className="px-3.5 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading Codex →
                       </Link>
                     </div>
@@ -1009,37 +1006,37 @@ export function ScholarlyLibraryHome() {
             WING IV: SCIENCE & LOGIC (Empirical & Deductive Laboratory Grid)
             ----------------------------------------------------------------------- */}
         {(activeDomainFilter === 'ALL' || activeDomainFilter === 'SCI') && (
-          <section id="domain-sci" className="space-y-7 scroll-mt-24 w-full min-w-0">
+          <section id="domain-sci" className="space-y-3.5 scroll-mt-24 w-full min-w-0">
             {/* Distinctive Wing Opening Banner */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-[#F5F2EB] border-l-4 border-l-[#1E3A2E] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-4 min-w-0">
-              <div className="flex items-center gap-4 min-w-0">
-                <div className="w-12 h-12 rounded-2xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-2xl shrink-0 shadow-2xs">
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border-l-4 border-l-[#1E3A2E] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 min-w-0">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-base shrink-0 shadow-2xs">
                   🔬
                 </div>
                 <div className="min-w-0">
-                  <div className="text-[11px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+                  <div className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
                     Section IV · Science & Logic
                   </div>
-                  <h3 className="font-serif font-bold text-2xl sm:text-3xl text-[#10251F] tracking-tight">
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight">
                     Science & Logic
                   </h3>
                 </div>
               </div>
-              <p className="text-xs sm:text-sm font-serif italic text-[#5A7365] max-w-lg sm:text-right">
+              <p className="text-xs font-serif italic text-[#5A7365] max-w-sm sm:text-right">
                 First-principles physics, chemistry, genetics, Vedic calculations & mathematical logic.
               </p>
             </div>
 
             {/* Dual Laboratory Grid (2 columns on desktop) */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full min-w-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5 sm:gap-4 w-full min-w-0">
               {/* SCI-007 */}
               {(() => {
                 const sci = MONOGRAPHS.find((m) => m.id === 'sci-007')!;
                 return (
-                  <article className="rounded-3xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-5">
-                    <div className="space-y-3.5 min-w-0">
-                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-2.5 text-xs font-mono">
-                        <span className="px-2.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                  <article className="rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-2.5">
+                    <div className="space-y-2 min-w-0">
+                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-1.5 text-xs font-mono">
+                        <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
                           {sci.volumeRoman} · {sci.code}
                         </span>
                         <span className="font-semibold text-[#10251F] text-xs">
@@ -1048,23 +1045,23 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       <Link href={sci.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
                           {sci.title}
                         </h4>
                       </Link>
 
-                      <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal">
                         {sci.description}
                       </p>
 
                       {renderProvenanceAndScope(sci)}
                     </div>
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
                       <Link href={sci.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & TOC →
                       </Link>
-                      <Link href={sci.readUrl} className="px-4 py-2 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={sci.readUrl} className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading →
                       </Link>
                     </div>
@@ -1076,10 +1073,10 @@ export function ScholarlyLibraryHome() {
               {(() => {
                 const qnt = MONOGRAPHS.find((m) => m.id === 'qnt-007')!;
                 return (
-                  <article className="rounded-3xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-5">
-                    <div className="space-y-3.5 min-w-0">
-                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-2.5 text-xs font-mono">
-                        <span className="px-2.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                  <article className="rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-2.5">
+                    <div className="space-y-2 min-w-0">
+                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-1.5 text-xs font-mono">
+                        <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
                           {qnt.volumeRoman} · {qnt.code}
                         </span>
                         <span className="font-semibold text-[#10251F] text-xs">
@@ -1088,23 +1085,23 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       <Link href={qnt.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
                           {qnt.title}
                         </h4>
                       </Link>
 
-                      <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal">
                         {qnt.description}
                       </p>
 
                       {renderProvenanceAndScope(qnt)}
                     </div>
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
                       <Link href={qnt.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & TOC →
                       </Link>
-                      <Link href={qnt.readUrl} className="px-4 py-2 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={qnt.readUrl} className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading →
                       </Link>
                     </div>
@@ -1119,37 +1116,37 @@ export function ScholarlyLibraryHome() {
             WING V: LANGUAGE & COMMUNICATION (Bilingual Scriptorium Spread)
             ----------------------------------------------------------------------- */}
         {(activeDomainFilter === 'ALL' || activeDomainFilter === 'LANG') && (
-          <section id="domain-lang" className="space-y-7 scroll-mt-24 w-full min-w-0">
+          <section id="domain-lang" className="space-y-3.5 scroll-mt-24 w-full min-w-0">
             {/* Distinctive Wing Opening Banner */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-[#F5F2EB] border-l-4 border-l-[#C59B4B] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-4 min-w-0">
-              <div className="flex items-center gap-4 min-w-0">
-                <div className="w-12 h-12 rounded-2xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-2xl shrink-0 shadow-2xs">
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border-l-4 border-l-[#C59B4B] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 min-w-0">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-base shrink-0 shadow-2xs">
                   🖋️
                 </div>
                 <div className="min-w-0">
-                  <div className="text-[11px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+                  <div className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
                     Section V · Language & Communication
                   </div>
-                  <h3 className="font-serif font-bold text-2xl sm:text-3xl text-[#10251F] tracking-tight">
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight">
                     Language & Communication
                   </h3>
                 </div>
               </div>
-              <p className="text-xs sm:text-sm font-serif italic text-[#5A7365] max-w-lg sm:text-right">
+              <p className="text-xs font-serif italic text-[#5A7365] max-w-sm sm:text-right">
                 120 Golden grammar rules, syntactic inversion, etymological root engines & descriptive essay laboratory.
               </p>
             </div>
 
             {/* Bilingual Scriptorium Spread (2 columns on desktop) */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full min-w-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3.5 sm:gap-4 w-full min-w-0">
               {/* ENG-007 */}
               {(() => {
                 const eng = MONOGRAPHS.find((m) => m.id === 'eng-007')!;
                 return (
-                  <article className="rounded-3xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-5">
-                    <div className="space-y-3.5 min-w-0">
-                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-2.5 text-xs font-mono">
-                        <span className="px-2.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                  <article className="rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-2.5">
+                    <div className="space-y-2 min-w-0">
+                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-1.5 text-xs font-mono">
+                        <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
                           {eng.volumeRoman} · {eng.code}
                         </span>
                         <span className="font-semibold text-[#10251F] text-xs">
@@ -1158,23 +1155,23 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       <Link href={eng.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
                           {eng.title}
                         </h4>
                       </Link>
 
-                      <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal">
                         {eng.description}
                       </p>
 
                       {renderProvenanceAndScope(eng)}
                     </div>
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
                       <Link href={eng.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & TOC →
                       </Link>
-                      <Link href={eng.readUrl} className="px-4 py-2 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={eng.readUrl} className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading →
                       </Link>
                     </div>
@@ -1186,10 +1183,10 @@ export function ScholarlyLibraryHome() {
               {(() => {
                 const hin = MONOGRAPHS.find((m) => m.id === 'hin-007')!;
                 return (
-                  <article className="rounded-3xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-7 sm:p-8 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-5">
-                    <div className="space-y-3.5 min-w-0">
-                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-2.5 text-xs font-mono">
-                        <span className="px-2.5 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                  <article className="rounded-2xl bg-[#FFFFFF] border border-[#D8CEBC] hover:border-[#10251F] p-3.5 sm:p-4 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-2.5">
+                    <div className="space-y-2 min-w-0">
+                      <div className="flex items-center justify-between border-b border-[#E8E2D5] pb-1.5 text-xs font-mono">
+                        <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
                           {hin.volumeRoman} · {hin.code}
                         </span>
                         <span className="font-semibold text-[#10251F] text-xs">
@@ -1198,23 +1195,23 @@ export function ScholarlyLibraryHome() {
                       </div>
 
                       <Link href={hin.hubUrl} className="block group">
-                        <h4 className="font-serif font-bold text-xl sm:text-2xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-snug">
                           {hin.title}
                         </h4>
                       </Link>
 
-                      <p className="font-serif text-sm sm:text-base text-[#2B3B33] leading-relaxed">
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-normal">
                         {hin.description}
                       </p>
 
                       {renderProvenanceAndScope(hin)}
                     </div>
 
-                    <div className="pt-4 border-t border-[#E8E2D5] flex items-center justify-between gap-3 text-xs sm:text-sm font-mono">
+                    <div className="pt-2 border-t border-[#E8E2D5] flex items-center justify-between gap-2 text-xs font-mono">
                       <Link href={hin.hubUrl} className="text-[#5A7365] hover:text-[#10251F] font-semibold">
                         Syllabus & TOC →
                       </Link>
-                      <Link href={hin.readUrl} className="px-4 py-2 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs sm:text-sm shadow-2xs">
+                      <Link href={hin.readUrl} className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs">
                         Begin Reading →
                       </Link>
                     </div>
@@ -1227,117 +1224,117 @@ export function ScholarlyLibraryHome() {
       </div>
 
       {/* =========================================================================
-          LAYER G: THE SCHOLAR\'S FIELD STUDY WORKBENCH & HIGH-YIELD VAULTS
+          LAYER G: THE SCHOLAR'S FIELD STUDY WORKBENCH & HIGH-YIELD VAULTS
           Authentic research drawer registry with generous proportion.
           ========================================================================= */}
-      <section className="p-8 sm:p-10 lg:p-12 rounded-3xl bg-[#FAF9F4] border-2 border-[#D8CEBC] space-y-7 w-full min-w-0 overflow-hidden shadow-xs">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 border-b border-[#E0D9CB] pb-5 min-w-0">
+      <section className="p-4 sm:p-5 lg:p-6 rounded-2xl bg-[#FAF9F4] border-2 border-[#D8CEBC] space-y-3.5 w-full min-w-0 overflow-hidden shadow-xs">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-[#E0D9CB] pb-2.5 min-w-0">
           <div>
-            <span className="text-xs font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+            <span className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
               Field Study Workbench
             </span>
-            <h3 className="font-serif font-bold text-2xl sm:text-4xl text-[#10251F] tracking-tight mt-1">
+            <h3 className="font-serif font-bold text-lg sm:text-xl text-[#10251F] tracking-tight mt-0.5">
               Curated Study Laboratories & Rapid Vaults
             </h3>
           </div>
-          <span className="text-xs sm:text-sm font-mono text-[#5A7365]">
+          <span className="text-[11px] sm:text-xs font-mono text-[#5A7365]">
             Dedicated examination pathways and capstone distinction matrices
           </span>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 text-xs font-mono w-full min-w-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs font-mono w-full min-w-0">
           <Link
             href="/shelf-007/political-science/chapter-30"
-            className="p-6 rounded-2xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
           >
-            <div className="flex items-center justify-between text-[#9E722C] text-[11px] font-bold">
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
               <span>VOL. I · POL-007</span>
               <span>30 Matrices →</span>
             </div>
-            <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-2">
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
               Constitutional Governance Vault
             </div>
-            <div className="text-xs text-[#5A7365] mt-1.5 line-clamp-2">
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               Chapter 30: 30 High-Yield Distinction Matrices & Capstone Master Vault.
             </div>
           </Link>
 
           <Link
             href="/shelf-007/general-science/chapter-01"
-            className="p-6 rounded-2xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
           >
-            <div className="flex items-center justify-between text-[#9E722C] text-[11px] font-bold">
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
               <span>VOL. VI · SCI-007</span>
               <span>Unified Science →</span>
             </div>
-            <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-2">
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
               General Science Codex
             </div>
-            <div className="text-xs text-[#5A7365] mt-1.5 line-clamp-2">
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               Mechanics, Thermodynamics, Genetics, Biotechnology & Unified Science.
             </div>
           </Link>
 
           <Link
             href="/shelf-007/english-language/chapter-01"
-            className="p-6 rounded-2xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
           >
-            <div className="flex items-center justify-between text-[#9E722C] text-[11px] font-bold">
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
               <span>VOL. VIII · ENG-007</span>
               <span>120 Rules →</span>
             </div>
-            <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-2">
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
               English Descriptive Laboratory
             </div>
-            <div className="text-xs text-[#5A7365] mt-1.5 line-clamp-2">
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               120 Golden Rules, Root Engine, Fixed Prepositions & PEEL Essay Writing.
             </div>
           </Link>
 
           <Link
             href="/shelf-007/hindi/chapter-01"
-            className="p-6 rounded-2xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
           >
-            <div className="flex items-center justify-between text-[#9E722C] text-[11px] font-bold">
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
               <span>VOL. IX · HIN-007</span>
               <span>RAS Paper 4 →</span>
             </div>
-            <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-2">
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
               Administrative Hindi Lexicon
             </div>
-            <div className="text-xs text-[#5A7365] mt-1.5 line-clamp-2">
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               Sandhi, Shabd/Vakya Shuddhi, CSTT Terminology & Official Drafting.
             </div>
           </Link>
 
           <Link
             href="/shelf-007/iibf-dbf"
-            className="p-6 rounded-2xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
           >
-            <div className="flex items-center justify-between text-[#9E722C] text-[11px] font-bold">
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
               <span>VOL. IV · DBF-007</span>
               <span>4 Papers →</span>
             </div>
-            <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-2">
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
               IIBF Banking Qualification
             </div>
-            <div className="text-xs text-[#5A7365] mt-1.5 line-clamp-2">
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               IE&IFS, PPB, AFM, RBWM and statutory RBI Master Directions.
             </div>
           </Link>
 
           <Link
             href="/shelf-007/current-affairs/chapter-01"
-            className="p-6 rounded-2xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
           >
-            <div className="flex items-center justify-between text-[#9E722C] text-[11px] font-bold">
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
               <span>VOL. X · CA-007</span>
               <span>2026 Dossiers →</span>
             </div>
-            <div className="font-serif font-bold text-base sm:text-lg text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-2">
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
               Contemporary Banking & Dossiers
             </div>
-            <div className="text-xs text-[#5A7365] mt-1.5 line-clamp-2">
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               Static Prudential Norms, Monthly Dossiers & Computer CBS Master Codex.
             </div>
           </Link>
@@ -1348,13 +1345,13 @@ export function ScholarlyLibraryHome() {
           LAYER H: SCHOLARLY COLOPHON & ENVIRONMENTAL CLOSING
           Dignified architectural seal honoring the Aravalli landscape.
           ========================================================================= */}
-      <footer className="pt-12 sm:pt-16 pb-6 text-center text-xs font-mono text-[#5A7365] space-y-3 border-t border-[#E0D9CB] w-full min-w-0">
-        <div className="flex items-center justify-center gap-2 text-[#10251F] font-serif font-bold text-base sm:text-lg">
+      <footer className="pt-6 sm:pt-8 pb-4 text-center text-xs font-mono text-[#5A7365] space-y-2 border-t border-[#E0D9CB] w-full min-w-0">
+        <div className="flex items-center justify-center gap-2 text-[#10251F] font-serif font-bold text-sm sm:text-base">
           <span>Mind of Aravalli</span>
           <span className="text-[#C5BEAF]">•</span>
           <span>Sovereign Knowledge Library</span>
         </div>
-        <p className="max-w-2xl mx-auto text-xs sm:text-sm text-[#5A7365] leading-relaxed">
+        <p className="max-w-2xl mx-auto text-[11px] sm:text-xs text-[#5A7365] leading-relaxed">
           Conceived and codified as an enduring intellectual sanctuary overlooking the ancient Aravalli ranges. Every proposition grounded in verified statutory bare acts, administrative reports, and academic treatises.
         </p>
       </footer>
