@@ -66,19 +66,37 @@ $$\mathbf{3 \text{ Life Insurers}} \quad+\quad \mathbf{3 \text{ General Insurers
 • **Tier-I Account:** Mandatory permanent retirement account; tax benefits under Sections 80CCD(1), 80CCD(1B) (additional ₹50,000 deduction), and 80CCD(2).  
 • **Tier-II Account:** Voluntary withdrawable savings facility with zero lock-in (no special tax deductions).
 
-### 2. PFRDA Model-Specific Exit & Withdrawal Rules (Current 2025–2026 Framework)
+### 2. PFRDA Sector-Specific Exit & Withdrawal Framework (16 Dec 2025 Amended Regulations)
 
-| Exit Event / Category | Standard Annuitization vs. Lump Sum Mandate | Small Corpus Full Withdrawal Exemption |
+Under the PFRDA (Exits and Withdrawals under the National Pension System) Regulations (amended 16 December 2025), exit rules are strictly calibrated by sector and model:
+
+#### A. Non-Government / All-Citizen & Corporate Model (Voluntary NPS)
+
+| Exit Event | Mandatory Annuitization vs. Lump Sum Mandate | Small Corpus 100% Lump Sum Exemption |
 | :--- | :--- | :--- |
-| **Normal Exit** (Upon attaining age 60 or superannuation) | • Minimum **40% of accumulated corpus must be converted into an Annuity**.<br>• Up to **60% can be withdrawn as a tax-free lump sum**. | **Corpus ≤ ₹5 Lakh:** The subscriber is permitted to withdraw **100% of the corpus as a lump sum** without any mandatory annuitization! |
-| **Premature Exit** (Before age 60, permitted after minimum 5 years) | • Minimum **80% of accumulated corpus must be converted into an Annuity**.<br>• Up to **20% can be withdrawn as a lump sum**. | **Corpus ≤ ₹2.5 Lakh:** The subscriber is permitted to withdraw **100% of the corpus as a lump sum** without any mandatory annuitization! |
-| **Partial Withdrawals** (From Tier-I account) | Allowed after **3 years** of subscription; up to **25% of the subscriber's own contributions** (excluding employer contributions and returns). Maximum **3 times** during the entire tenure for specified purposes (education, marriage, home purchase, illness). | N/A |
+| **Normal Exit**<br>*(At or after age 60)* | • Minimum **40% of accumulated corpus must be annuitized**.<br>• Up to **60% can be withdrawn as a tax-exempt lump sum**. | **Accumulated Corpus ≤ ₹8 Lakh:**<br>The subscriber has the option to withdraw **100% of the corpus as a lump sum** without any mandatory annuitization! *(Updated from legacy ₹5 Lakh)* |
+| **Premature Exit**<br>*(Before age 60; min 5 years subscription)* | • Minimum **80% of accumulated corpus must be annuitized**.<br>• Up to **20% can be withdrawn as a lump sum**. | **Accumulated Corpus ≤ ₹2.5 Lakh:**<br>The subscriber has the option to withdraw **100% of the corpus as a lump sum**. |
+| **Demise / Death of Subscriber** | Entire accumulated corpus (100%) is paid to the nominee or legal heirs as a lump sum, or nominee can opt for an annuity. | 100% full payout to nominee/legal heir. |
+
+#### B. Government Sector (Central / State Government Employees)
+
+| Exit Event | Mandatory Annuitization vs. Lump Sum Mandate | Small Corpus 100% Lump Sum Exemption |
+| :--- | :--- | :--- |
+| **Superannuation / Normal Retirement** | • Minimum **40% of corpus must be annuitized**.<br>• Up to **60% as lump sum**. | **Accumulated Corpus ≤ ₹5 Lakh:**<br>Permitted to withdraw **100% as a lump sum**. |
+| **Premature Exit / Resignation** | • Minimum **80% of corpus must be annuitized**.<br>• Up to **20% as lump sum**. | **Accumulated Corpus ≤ ₹2.5 Lakh:**<br>Permitted to withdraw **100% as a lump sum**. |
+
+• **Partial Withdrawals (Tier-I Account):**
+  - Eligible only after **3 years** of continuous subscription.
+  - Maximum withdrawal of up to **25% of the subscriber's own contributions** (excluding employer contributions and investment returns).
+  - Permitted maximum **3 times** during the entire tenure for specified reasons (higher education/marriage of children, residential property construction/purchase, or treatment of designated critical illnesses).
+
+---
 
 ### 3. Atal Pension Yojana (APY) & Unified Pension Scheme (UPS)
 
 • **Atal Pension Yojana (APY):**
-  - Administered by PFRDA for all citizens aged **18 to 40 years** (primarily in the unorganized sector).
-  - Guarantees a fixed minimum monthly pension of **₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** starting at age 60 based on contribution tables.
+  - Administered by PFRDA for all Indian citizens aged **18 to 40 years** (primarily in the unorganized sector).
+  - Guarantees a fixed minimum monthly pension of **₹1,00, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** starting at age 60 based on contribution age and slabs.
   - *Statutory Exclusion Rule:* Any citizen who is or has been an **income-tax payer is NOT eligible** to join APY (effective 1 October 2022).
 • **Unified Pension Scheme (UPS):**
   - Notified by the Central Government in August 2024 (effective 1 April 2025) for government employees:
@@ -112,7 +130,7 @@ $$\mathbf{3 \text{ Life Insurers}} \quad+\quad \mathbf{3 \text{ General Insurers
 
 1. **Trap — Lowest Investment Grade Rating:** **`BBB-`** is the lowest investment-grade rating. An option stating `BB+` is **incorrect** (`BB+` is speculative/junk grade).
 2. **Trap — Insurable Interest in Fire Insurance:** Insurable interest in Fire Insurance must exist **BOTH at policy inception AND at the time of loss**. In Life Insurance, it is required only at policy inception.
-3. **Trap — NPS Normal Exit Small Corpus Rule:** If the accumulated NPS corpus at age 60 is **≤ ₹5 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization**.
+3. **Trap — NPS Non-Government Normal Exit Small Corpus Rule:** Under PFRDA's 16 Dec 2025 amended regulations, for Non-Government / All-Citizens subscribers, if the accumulated NPS corpus at age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (for the Government sector, the normal exit threshold remains **≤ ₹5 Lakh**).
 4. **Trap — NPS Premature Exit Small Corpus Rule:** In premature exit before age 60, 100% lump sum withdrawal is permitted if the corpus is **≤ ₹2.5 Lakh** (otherwise 80% must be annuitized).
 5. **Trap — APY Income Tax Exclusion:** Income-tax payers are **STRICTLY INELIGIBLE** to enroll in Atal Pension Yojana.
 6. **Trap — Credit Card Bank Net Worth:** Banks must have a minimum Net Worth of **₹100 Crore** to undertake standalone credit card issuance.
@@ -121,25 +139,25 @@ $$\mathbf{3 \text{ Life Insurers}} \quad+\quad \mathbf{3 \text{ General Insurers
 
 ### Unit 40, 42, 43 & 44 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the PFRDA exit and withdrawal guidelines for the National Pension System (NPS), what is the small-corpus threshold at age 60 below which a subscriber is permitted to withdraw 100% of the accumulated corpus as a lump sum without mandatory annuitization?**  
-A. ₹1 Lakh  
-B. ₹2.5 Lakh  
-C. ₹5 Lakh  
+**Q1. [CONCEPT-RECURRING / 2026 BENCHMARK] Under the PFRDA (Exits and Withdrawals under the National Pension System) Regulations (as amended on 16 December 2025), what is the small-corpus threshold for an All-Citizen / Non-Government subscriber at normal exit (age 60) below which the subscriber can opt to withdraw 100% of the accumulated corpus as a lump sum without mandatory annuitization?**  
+A. ₹2.5 Lakh  
+B. ₹5 Lakh  
+C. ₹8 Lakh  
 D. ₹10 Lakh  
 
-**Q2. Under the IRDAI open-architecture regulations for Bancassurance, what is the maximum number of insurance companies a commercial bank acting as a Corporate Agent can tie up with?**  
+**Q2. [PYQ-RECOLLECTED] Under the IRDAI open-architecture regulations for Bancassurance, what is the maximum number of insurance companies a commercial bank acting as a Corporate Agent can tie up with?**  
 A. 1 Life, 1 General, and 1 Health insurer  
 B. 3 Life, 3 General, and 3 Standalone Health insurers  
 C. 5 Life and 5 General insurers  
 D. Unlimited number across all categories  
 
-**Q3. Under the Credit Rating Agencies framework regulated by SEBI, which of the following credit ratings represents the lowest rating within the 'Investment Grade' category?**  
+**Q3. [PYQ-RECOLLECTED] Under the Credit Rating Agencies framework regulated by SEBI, which of the following credit ratings represents the lowest rating within the 'Investment Grade' category?**  
 A. `A-`  
 B. `BBB-`  
 C. `BB+`  
 D. `CCC`  
 
-**Q4. Consider the following statements regarding the Unified Pension Scheme (UPS) approved in 2024 for Central Government employees:**  
+**Q4. [CONCEPT-RECURRING] Consider the following statements regarding the Unified Pension Scheme (UPS) approved for Central Government employees:**  
 Statement I: The UPS guarantees an assured pension equal to 50% of the average basic pay drawn in the last 12 months for employees with at least 25 years of qualifying service.  
 Statement II: The scheme guarantees an assured minimum pension of ₹10,000 per month upon superannuation after a minimum of 10 years of service.  
 Which of the statements given above is/are correct?  
@@ -152,7 +170,7 @@ D. Neither Statement I nor Statement II
 
 ### Answer Key & Explanations
 
-• **Q1 — Answer: C.** Under current PFRDA regulations, if the accumulated NPS corpus at normal exit (age 60) is $\le$ ₹5 Lakh, 100% lump-sum withdrawal is allowed without purchasing an annuity. (At premature exit, the ceiling is ₹2.5 Lakh).  
+• **Q1 — Answer: C.** Under the PFRDA amended exit regulations (16 Dec 2025), for All-Citizens / Non-Government subscribers, the 100% lump-sum withdrawal option without mandatory annuitization is available if the accumulated corpus is $\le$ ₹8 Lakh. (For the Government sector, the superannuation threshold is $\le$ ₹5 Lakh; at premature exit, both models specify $\le$ ₹2.5 Lakh).  
 • **Q2 — Answer: B.** The IRDAI open architecture framework permits a corporate agent to tie up with up to 3 Life, 3 General, and 3 Health insurers (maximum 9 partners).  
 • **Q3 — Answer: B.** `BBB-` is the lowest investment-grade rating; `BB+` marks the beginning of the speculative/junk grade.  
 • **Q4 — Answer: C.** Both statements are correct under the Unified Pension Scheme (UPS) provisions.

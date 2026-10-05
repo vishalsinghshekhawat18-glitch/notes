@@ -53,7 +53,7 @@ In modern commercial banking, the **Integrated Treasury** consolidates domestic 
   - **Front Office:** Dealing room executing market trades.
   - **Mid Office:** Independent risk management unit monitoring Value at Risk (VaR), stop-loss limits, counterparty exposure limits, and ALM mismatches. Reports directly to the **Chief Risk Officer (CRO)**.
   - **Back Office:** Confirmation, settlement, accounting, and regulatory reporting to RBI.
-  - **Asset-Liability Committee (ALCO):** Apex board-level committee chaired by the CEO/CMD that sets interest rate views, liquidity buffers, and transfer pricing.
+  - **Asset-Liability Committee (ALCO):** Apex operational and senior management committee chaired by the CEO/CMD (or Executive Director) that manages asset-liability mismatches, sets interest rate views, establishes liquidity buffers, and monitors funds transfer pricing, reporting functionally to the Board's Risk Management Committee (RMC).
 
 ---
 
@@ -69,10 +69,10 @@ In modern commercial banking, the **Integrated Treasury** consolidates domestic 
 
 ---
 
-## § 24.2 Unit 35: Merchant Banking Services
+## § 24.2 Unit 35: Merchant Banking Services (2026 Regulatory Regime)
 
 > **Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 35)**  
-> **Core Proposition:** Merchant banks provide fee-based corporate financial consultancy, capital issue management, underwriting, and mergers and acquisitions (M&A) advisory under SEBI regulation. Category I Merchant Bankers must hold a minimum Net Worth of ₹5 Crore and are strictly prohibited from carrying on deposit-taking or commercial lending.
+> **Core Proposition:** Merchant banks provide fee-based corporate financial consultancy, capital issue management, underwriting, and mergers and acquisitions (M&A) advisory under SEBI regulation. Under the **SEBI (Merchant Bankers) (Amendment) Regulations, 2025** (notified 5 December 2025, in force from **3 January 2026**), the legacy four-category framework was restructured into **Two Categories (Category I & Category II)**, with minimum Net Worth enhanced to **₹50 Crore** for Category I and **₹10 Crore** for Category II, alongside mandatory **Liquid Net Worth** requirements. Merchant bankers remain strictly prohibited from deposit-taking or commercial lending.
 
 ### 1. Commercial Banking vs. Merchant Banking
 
@@ -88,16 +88,17 @@ In modern commercial banking, the **Integrated Treasury** consolidates domestic 
 
 ---
 
-### 2. SEBI (Merchant Bankers) Regulations, 1992: Four Categories
+### 2. SEBI (Merchant Bankers) Regulations (2026 Dual-Category Regime)
 
-Under SEBI regulations, merchant bankers are categorized into four distinct tiers based on permissible activities and minimum capital adequacy:
+The SEBI (Merchant Bankers) (Amendment) Regulations, 2025 (effective 3 January 2026) streamlined the registration architecture by abolishing Categories III and IV, instituting a robust two-tier structure:
 
-| Category | Permissible Scope of Activities | Mandatory Minimum Net Worth |
-| :--- | :--- | :--- |
-| **Category I** | • Can act as **Lead Manager to Public Issues (IPOs/FPOs/Rights)**.<br>• Underwriting of issues.<br>• Portfolio management services (subject to separate SEBI PMS registration).<br>• Financial advisory and corporate consultancy. | **₹5 Crore** |
-| **Category II** | • Can act as adviser or consultant to an issue.<br>• Can act as underwriter or portfolio manager.<br>• *Restriction:* **CANNOT act as Lead Manager** to an issue. | **₹50 Lakh** |
-| **Category III** | • Can act as underwriter, adviser, or consultant to an issue.<br>• *Restrictions:* Cannot act as Lead Manager; cannot provide portfolio management. | **₹20 Lakh** |
-| **Category IV** | • Exclusively acts as **adviser or consultant** to an issue.<br>• *Restrictions:* Cannot underwrite; cannot act as Lead Manager; cannot manage portfolios. | **Nil** |
+| Category | Permissible Scope of Activities | Mandatory Minimum Net Worth | Mandatory Liquid Net Worth |
+| :--- | :--- | :--- | :--- |
+| **Category I** | • Can act as **Lead Manager to Public Issues (IPOs / FPOs / Rights)**.<br>• Underwriting of issues.<br>• Corporate financial advisory, capital restructuring, and M&A consultancy.<br>• Portfolio management services (subject to separate SEBI PMS registration). | **₹50 Crore**<br>*(Enhanced from legacy ₹5 Cr)* | **₹12.5 Crore**<br>*(25% of Net Worth)* |
+| **Category II** | • Can act as **adviser or consultant** to an issue.<br>• Can act as underwriter or portfolio manager.<br>• *Statutory Restriction:* **CANNOT act as Lead Manager** to an issue. | **₹10 Crore**<br>*(Enhanced from legacy ₹50 Lakh)* | **₹2.5 Crore**<br>*(25% of Net Worth)* |
+
+> **Phased Compliance for Existing Entities (SEBI Circular January 2026):**  
+> Existing registered merchant bankers are provided a structured transition glide path to augment their net worth to ₹50 Crore / ₹10 Crore, ensuring non-disruptive compliance while safeguarding public issue integrity.
 
 > **Crucial Regulatory Mandate:**  
 > Only a **Category I Merchant Banker** is legally permitted to act as the **Lead Manager** to an Initial Public Offering (IPO) or rights issue on an Indian stock exchange!
@@ -129,35 +130,36 @@ Under SEBI regulations, merchant bankers are categorized into four distinct tier
 
 ### Examiner Trap Vault: Unit 34 & Unit 35 High-Yield Distractors
 
-1. **Trap — Category I Merchant Banker Net Worth:** Category I Merchant Bankers must have a minimum net worth of **₹5 Crore** (not ₹50 Lakh or ₹1 Crore).
-2. **Trap — Merchant Banker Lending Restrictions:** Merchant bankers are **STRICTLY FORBIDDEN from accepting public deposits or engaging in commercial lending**. They are fee-based financial intermediaries.
-3. **Trap — Who Can Act as Lead Manager:** Only **Category I Merchant Bankers** can act as Lead Managers to a public issue. Categories II, III, and IV are legally barred from lead management.
-4. **Trap — Minimum Subscription Mandate:** An IPO must achieve at least **90% subscription** of the net offer to the public; otherwise, all application money must be refunded to investors immediately.
-5. **Trap — Treasury Mid-Office Reporting:** The Treasury Mid-Office reports directly to the **Chief Risk Officer (CRO)** or Risk Management Committee, NOT to the Head of Dealing/Treasury.
+1. **Trap — 2026 Merchant Banker Net Worth:** Under the 2026 SEBI regime, Category I Merchant Bankers must have a minimum net worth of **₹50 Crore** (NOT the obsolete ₹5 Crore figure), with **₹12.5 Crore** in liquid net worth. Category II requires **₹10 Crore** net worth and **₹2.5 Crore** liquid net worth.
+2. **Trap — Abolition of Categories III & IV:** SEBI has **abolished Categories III and IV**; only Categories I and II exist.
+3. **Trap — Merchant Banker Lending Restrictions:** Merchant bankers are **STRICTLY FORBIDDEN from accepting public deposits or engaging in commercial lending**. They are fee-based financial intermediaries.
+4. **Trap — Who Can Act as Lead Manager:** Only **Category I Merchant Bankers** can act as Lead Managers to a public issue. Category II is legally barred from lead management.
+5. **Trap — Minimum Subscription Mandate:** An IPO must achieve at least **90% subscription** of the net offer to the public; otherwise, all application money must be refunded to investors immediately.
+6. **Trap — Treasury Mid-Office Reporting:** The Treasury Mid-Office reports directly to the **Chief Risk Officer (CRO)** or Risk Management Committee, NOT to the Head of Dealing/Treasury.
 
 ---
 
 ### Unit 34 & Unit 35 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the Securities and Exchange Board of India (Merchant Bankers) Regulations, 1992, what is the mandatory minimum Net Worth requirement for an entity seeking registration as a Category I Merchant Banker?**  
-A. ₹50 Lakh  
-B. ₹1 Crore  
-C. ₹2 Crore  
-D. ₹5 Crore  
+**Q1. [CONCEPT-RECURRING / 2026 BENCHMARK] Under the SEBI (Merchant Bankers) (Amendment) Regulations, 2025 (effective 3 January 2026), what is the mandatory minimum Net Worth and Liquid Net Worth requirement for an entity seeking registration as a Category I Merchant Banker?**  
+A. Net Worth: ₹5 Crore; Liquid Net Worth: ₹1 Crore  
+B. Net Worth: ₹10 Crore; Liquid Net Worth: ₹2.5 Crore  
+C. Net Worth: ₹25 Crore; Liquid Net Worth: ₹5 Crore  
+D. Net Worth: ₹50 Crore; Liquid Net Worth: ₹12.5 Crore  
 
-**Q2. In a commercial bank's Integrated Treasury organization, which functional unit is independently responsible for calculating Value at Risk (VaR), monitoring stop-loss dealer limits, and reporting directly to the Chief Risk Officer?**  
+**Q2. [PYQ-RECOLLECTED] In a commercial bank's Integrated Treasury organization, which functional unit is independently responsible for calculating Value at Risk (VaR), monitoring stop-loss dealer limits, and reporting directly to the Chief Risk Officer?**  
 A. Front Office  
 B. Mid Office  
 C. Back Office  
 D. Settlement Operations Desk  
 
-**Q3. Under SEBI regulations governing public issue management, which category of Merchant Banker is legally authorized to act as the Lead Manager to an Initial Public Offering (IPO)?**  
+**Q3. [CONCEPT-RECURRING] Under SEBI regulations governing public issue management, which category of Merchant Banker is legally authorized to act as the Lead Manager to an Initial Public Offering (IPO)?**  
 A. Category I only  
 B. Category I and Category II  
-C. Category I, II and III  
-D. Category IV only  
+C. Category II only  
+D. Both Category I and Registered Portfolio Managers  
 
-**Q4. Consider the following statements regarding Merchant Banking in India:**  
+**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding Merchant Banking in India:**  
 Statement I: Merchant banking institutions are regulated primarily by the Reserve Bank of India under the Banking Regulation Act, 1949.  
 Statement II: Merchant bankers are strictly prohibited from accepting demand or term deposits from the public and from engaging in money lending.  
 Which of the statements given above is/are correct?  
@@ -170,7 +172,7 @@ D. Neither Statement I nor Statement II
 
 ### Answer Key & Explanations
 
-• **Q1 — Answer: D.** Category I Merchant Bankers must maintain a minimum Net Worth of ₹5 Crore.  
-• **Q2 — Answer: B.** The Mid Office operates as an independent risk management unit monitoring dealer exposures, stop-loss triggers, and VaR, reporting to the CRO.  
-• **Q3 — Answer: A.** Only Category I Merchant Bankers are permitted by SEBI to act as Lead Managers to public issues.  
-• **Q4 — Answer: B.** Statement I is incorrect because Merchant Bankers are securities market intermediaries regulated by **SEBI** under the SEBI Act, 1992. Statement II is correct (they are prohibited from deposit-taking and money lending).
+• **Q1 — Answer: D.** Under the SEBI 2026 regulations, Category I Merchant Bankers must maintain a minimum Net Worth of ₹50 Crore and a Liquid Net Worth of ₹12.5 Crore (the legacy ₹5 Crore net worth requirement is obsolete).  
+• **Q2 — Answer: B.** The Mid Office operates as an independent risk management unit monitoring dealer exposures, stop-loss triggers, and VaR, reporting directly to the CRO.  
+• **Q3 — Answer: A.** Only Category I Merchant Bankers are permitted by SEBI to act as Lead Managers to public issues; Category II entities cannot act as Lead Managers.  
+• **Q4 — Answer: B.** Statement I is incorrect because Merchant Bankers are securities market intermediaries regulated exclusively by **SEBI** under the SEBI Act, 1992. Statement II is correct (they are prohibited from deposit-taking and commercial money lending).

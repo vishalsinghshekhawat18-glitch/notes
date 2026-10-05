@@ -46,8 +46,8 @@ Economic planning in India transitioned from the centralized, top-down allocatio
 | :--- | :--- | :--- |
 | **Legal Basis** | Executive Cabinet Resolution (15 March 1950); Non-constitutional, non-statutory | Executive Cabinet Resolution (1 Jan 2015); Non-constitutional, non-statutory |
 | **Planning Paradigm** | Top-down centralized planning ("One size fits all") | Bottom-up decentralized approach (Cooperative & Competitive Federalism) |
-| **Fund Allocation Power** | Allocated central plan funds and discretionary grants to States | **Zero financial allocation power**; fund devolution rests with Finance Ministry |
-| **State Involvement** | State CMs interacted only via National Development Council (NDC) | **Governing Council** directly integrates all State CMs and UT Lt. Governors |
+| **Fund Allocation Power** | Allocated central plan funds and discretionary grants to States | **Zero financial allocation power**; statutory tax devolution follows constitutional Finance Commission recommendations (Article 280), while budgetary scheme grants are disbursed directly by the Ministry of Finance. |
+| **State Involvement** | State CMs interacted only via National Development Council (NDC) | **Governing Council** directly integrates all State Chief Ministers, Chief Ministers of Union Territories with Legislative Assemblies (Delhi, Puducherry, Jammu & Kashmir), and Lieutenant Governors / Administrators of other Union Territories. |
 | **Institutional Hubs** | Centralized sectoral divisions | **Team India Hub** (Centre-State interface) & **Knowledge and Innovation Hub** |
 | **Historical Planning Tools** | Fixed 5-Year Plan documents | *Historical Framework (2017–2020):* 15-Year Vision, 7-Year Strategy, 3-Year Action Agenda. *Current Approach:* Thematic indices, dynamic project dashboards. |
 
@@ -61,21 +61,22 @@ Economic planning in India transitioned from the centralized, top-down allocatio
 
 ### Examiner Trap Vault: Unit 03 High-Yield Distractors
 
-1. **Trap — NITI Aayog Fund Allocation:** NITI Aayog **CANNOT allocate central funds or plan grants** to State Governments. Fund allocation is handled exclusively by the Ministry of Finance upon recommendations of the Finance Commission.
+1. **Trap — NITI Aayog Fund Allocation:** NITI Aayog **CANNOT allocate central funds or plan grants** to State Governments. Net tax sharing is governed by the Finance Commission's constitutional devolution formula, while central budgetary scheme allocations are disbursed exclusively by the Ministry of Finance.
 2. **Trap — 1st vs 2nd Plan Models:** The **1st Plan used the Harrod-Domar model** (focus on agriculture and capital accumulation); the **2nd Plan used the Mahalanobis model** (heavy capital goods and state-led industrialization).
 3. **Trap — Constitutionality of NITI Aayog:** NITI Aayog is neither a constitutional body (not created by a Constitutional Article) nor a statutory body (not created by an Act of Parliament); it was established via an **Executive Cabinet Resolution**.
+4. **Trap — Governing Council Composition:** NITI Aayog's Governing Council comprises the Prime Minister, Chief Ministers of all States, Chief Ministers of Union Territories with Legislative Assemblies (Delhi, Puducherry, J&K), and Lieutenant Governors / Administrators of other Union Territories.
 
 ---
 
 ### Unit 03 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the Indian planning framework, which of the following represents a fundamental institutional distinction between the erstwhile Planning Commission and NITI Aayog?**  
+**Q1. [CONCEPT-RECURRING] Under the Indian planning framework, which of the following represents a fundamental institutional distinction between the erstwhile Planning Commission and NITI Aayog?**  
 A. Planning Commission was a statutory body, whereas NITI Aayog is a constitutional body  
 B. NITI Aayog possesses direct statutory authority to allocate budgetary funds to state governments  
 C. NITI Aayog serves purely as a policy think tank and possesses zero powers to allocate funds to states  
 D. Planning Commission adopted a bottom-up decentralized planning architecture  
 
-**Q2. Match the Five Year Plans with their respective growth models/architects:**  
+**Q2. [PYQ-RECOLLECTED] Match the Five Year Plans with their respective growth models/architects:**  
 1. First Five Year Plan — (a) D.D. Dhar Model  
 2. Second Five Year Plan — (b) Harrod-Domar Growth Model  
 3. Fifth Five Year Plan — (c) P.C. Mahalanobis Model  
@@ -85,8 +86,8 @@ B. 1-(c), 2-(b), 3-(a)
 C. 1-(b), 2-(a), 3-(c)  
 D. 1-(a), 2-(c), 3-(b)  
 
-**Q3. Consider the following statements regarding NITI Aayog's institutional architecture:**  
-Statement I: The Governing Council of NITI Aayog comprises the Prime Minister, all State Chief Ministers, and Lieutenant Governors of Union Territories.  
+**Q3. [CONCEPT-RECURRING] Consider the following statements regarding NITI Aayog's institutional architecture:**  
+Statement I: The Governing Council of NITI Aayog comprises the Prime Minister, all State Chief Ministers, Chief Ministers of UTs with legislative assemblies, and Lieutenant Governors of other Union Territories.  
 Statement II: NITI Aayog's Team India Hub leads the think tank's research, data analytics, and knowledge generation capabilities.  
 Which of the statements given above is/are correct?  
 A. Statement I only  
@@ -98,6 +99,6 @@ D. Neither Statement I nor Statement II
 
 ### Answer Key & Explanations
 
-• **Q1 — Answer: C.** NITI Aayog has no financial allocation powers; all fiscal devolution is handled by the Ministry of Finance.  
+• **Q1 — Answer: C.** NITI Aayog has no financial allocation powers; all fiscal devolution is handled by the Ministry of Finance and constitutional Finance Commission recommendations.  
 • **Q2 — Answer: A.** 1st FYP was based on Harrod-Domar (b); 2nd FYP on Mahalanobis (c); 5th FYP on D.D. Dhar (a).  
 • **Q3 — Answer: A.** Statement I is correct. Statement II is incorrect because research and innovation capabilities are anchored by the **Knowledge and Innovation Hub**, while the **Team India Hub** manages Centre-State interface.

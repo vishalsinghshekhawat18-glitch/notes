@@ -94,25 +94,25 @@ Introduced by the RBI in **August 2021** to measure the extent of financial incl
 
 ### Unit 23 & Unit 26 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Which was the FIRST Development Financial Institution (DFI) established in post-independence India to provide long-term credit to industry?**  
+**Q1. [PYQ-RECOLLECTED / HISTORICAL DFI ORIGIN] Which was the FIRST Development Financial Institution (DFI) established in post-independence India to provide long-term credit to industry?**  
 A. Industrial Credit and Investment Corporation of India (ICICI)  
 B. Industrial Development Bank of India (IDBI)  
 C. Industrial Finance Corporation of India (IFCI)  
 D. National Bank for Agriculture and Rural Development (NABARD)  
 
-**Q2. Under the National Bank for Financing Infrastructure and Development (NaBFID) Act, 2021, what was the initial paid-up capital infused by the Central Government into the newly created statutory DFI?**  
+**Q2. [2026 BENCHMARK / NABFID STATUTORY CAPITAL] Under the National Bank for Financing Infrastructure and Development (NaBFID) Act, 2021, what was the initial paid-up capital infused by the Central Government into the newly created statutory DFI?**  
 A. ₹5,000 Crore  
 B. ₹10,000 Crore  
 C. ₹20,000 Crore  
 D. ₹1,00,000 Crore  
 
-**Q3. In the Reserve Bank of India's Financial Inclusion Index (FI-Index), which of the three dimensions carries the highest percentage weight?**  
+**Q3. [CONCEPT-RECURRING / FI-INDEX WEIGHTS] In the Reserve Bank of India's Financial Inclusion Index (FI-Index), which of the three dimensions carries the highest percentage weight?**  
 A. Access (35%)  
 B. Usage (45%)  
 C. Quality (20%)  
 D. Equity (50%)  
 
-**Q4. Consider the following statements regarding the Central Bank Digital Currency (Digital Rupee - e₹) issued by the Reserve Bank of India:**  
+**Q4. [2026 BENCHMARK / DIGITAL RUPEE (e₹)] Consider the following statements regarding the Central Bank Digital Currency (Digital Rupee - e₹) issued by the Reserve Bank of India:**  
 Statement I: The Digital Rupee is a sovereign digital currency recognized as legal tender under the amended RBI Act, 1934.  
 Statement II: Retail digital rupee balances held in commercial bank customer wallets earn a statutory interest rate aligned with the RBI Savings Bank Rate.  
 Which of the statements given above is/are correct?  

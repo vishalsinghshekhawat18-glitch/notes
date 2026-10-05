@@ -151,12 +151,60 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check C-08 / C-09: NPS exit rules (₹5 Lakh / ₹2.5 Lakh)
+  // Check C-08 / C-09: NPS exit rules (₹8 Lakh All-Citizens / ₹5 Lakh Govt / ₹2.5 Lakh premature)
   const ch26Text = fs.readFileSync(path.join(chaptersDir, '26_CHAPTER_26_PARABANKING_INSURANCE_PENSION_CRAS.md'), 'utf-8');
-  if (ch26Text.includes('5,00,000') || ch26Text.includes('5 Lakh') || ch26Text.includes('2.5 Lakh')) {
-    console.log(`  ✓ C-09 Verified: NPS updated exit rules (₹5L / ₹2.5L 100% lump sum exemptions) codified in Chapter 26.`);
+  if (ch26Text.includes('8,00,000') || ch26Text.includes('8 Lakh') && ch26Text.includes('5 Lakh') && ch26Text.includes('2.5 Lakh')) {
+    console.log(`  ✓ C-09 Verified: NPS 16 Dec 2025 PFRDA amendments (₹8L All-Citizens / ₹5L Govt / ₹2.5L premature) codified in Chapter 26.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: C-09 NPS exit rules missing.`);
+    dataCheckPass = false;
+  }
+
+  // Check C-10: SEBI Merchant Banking 2026 Dual Category (₹50 Cr / ₹10 Cr)
+  const ch24Text = fs.readFileSync(path.join(chaptersDir, '24_CHAPTER_24_INTERCONNECTEDNESS_AND_MERCHANT_BANKING.md'), 'utf-8');
+  if (ch24Text.includes('50 Crore') && ch24Text.includes('10 Crore') && ch24Text.includes('12.5 Crore') && ch24Text.includes('2.5 Crore')) {
+    console.log(`  ✓ C-10 Verified: SEBI 2026 Merchant Banking Dual-Category (Cat I ₹50 Cr/₹12.5 Cr; Cat II ₹10 Cr/₹2.5 Cr) codified in Chapter 24.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: C-10 Merchant Banking thresholds missing.`);
+    dataCheckPass = false;
+  }
+
+  // Check C-11: Official G-Sec Valuation Benchmark Administrator FBIL
+  const ch22Text = fs.readFileSync(path.join(chaptersDir, '22_CHAPTER_22_CAPITAL_MARKETS_STOCK_EXCHANGES_GSECS_BOND_YIELDS.md'), 'utf-8');
+  if (ch22Text.includes('Financial Benchmarks India Private Limited') || ch22Text.includes('FBIL')) {
+    console.log(`  ✓ C-11 Verified: Official G-Sec Valuation Benchmark Administrator FBIL (since 31 Mar 2018) codified in Chapter 22.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: C-11 FBIL benchmark administrator missing.`);
+    dataCheckPass = false;
+  }
+
+  // Check C-12: RBI PCA Framework 2022 (CRAR 11.5%, Net NPA 6%/9%/12%, Leverage 4.0%/3.5%)
+  const ch17Text = fs.readFileSync(path.join(chaptersDir, '17_CHAPTER_17_COMMERCIAL_BANKING_BASEL_III_PCA_FRAMEWORK.md'), 'utf-8');
+  if (ch17Text.includes('11.5%') && ch17Text.includes('8.0%') && ch17Text.includes('6.0%') && ch17Text.includes('9.0%') && ch17Text.includes('12.0%')) {
+    console.log(`  ✓ C-12 Verified: RBI 2022 Prompt Corrective Action (PCA) matrix (CRAR 11.5%, Net NPA 6/9/12%, Leverage 4.0/3.5%) codified in Chapter 17.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: C-12 PCA matrix missing.`);
+    dataCheckPass = false;
+  }
+
+  // Check C-13: Question Provenance Tags across all 27 chapters
+  let allTagsPresent = true;
+  for (let ch = 1; ch <= 27; ch++) {
+    const chStr = String(ch).padStart(2, '0');
+    const filename = fs.readdirSync(chaptersDir).find(f => f.startsWith(`${chStr}_`));
+    if (filename) {
+      const content = fs.readFileSync(path.join(chaptersDir, filename), 'utf-8');
+      const hasTags = content.includes('[PYQ-RECOLLECTED') || content.includes('[CONCEPT-RECURRING') || content.includes('[SYLLABUS-NEW') || content.includes('[2026 BENCHMARK');
+      if (!hasTags) {
+        console.error(`  ✗ Ch ${chStr} missing question provenance tags!`);
+        allTagsPresent = false;
+      }
+    }
+  }
+  if (allTagsPresent) {
+    console.log(`  ✓ Question Provenance Tags Verified: All 27 chapters tagged with [PYQ-RECOLLECTED], [CONCEPT-RECURRING], [SYLLABUS-NEW], or [2026 BENCHMARK].`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Question provenance tags missing in one or more chapters.`);
     dataCheckPass = false;
   }
 

@@ -19,9 +19,9 @@ The Indian economy is structured across Primary, Secondary, and Tertiary sectors
 | **Quaternary Sector** | Knowledge-based, analytical, and information processing services | Information technology (IT), software engineering, financial research, data analytics, and R&D. |
 | **Quinary Sector** | Highest-level strategic policymaking and executive governance | Government leadership, apex scientific institutes, corporate board executives, and judicial bodies. |
 
-### 2. Output Share vs. Employment Profile (Current Snapshot: 2025–2026)
+### 2. Output Share vs. Employment Profile (Source: MoSPI GVA & Periodic Labour Force Survey / PLFS 2023–2024 / Economic Survey Benchmarks)
 
-As reflected in the **Economic Survey** and **Periodic Labour Force Survey (PLFS)** data:
+As reflected in official **MoSPI GVA provisional estimates** and **PLFS annual survey** data:
 
 | Economic Sector | Share in Gross Value Added (GVA) | Share in Total Employment | Economic Diagnosis & Structural Vulnerability |
 | :--- | :--- | :--- | :--- |
@@ -51,13 +51,13 @@ As reflected in the **Economic Survey** and **Periodic Labour Force Survey (PLFS
 
 ### Unit 02 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. An economy experiencing 'Leapfrogging' in structural transformation is best described as one where:**  
+**Q1. [CONCEPT-RECURRING] An economy experiencing 'Leapfrogging' in structural transformation is best described as one where:**  
 A. Secondary manufacturing output replaces the services sector completely  
 B. The economy transitions directly from agriculture to a services-dominated structure without an intermediate large-scale manufacturing expansion  
 C. Primary agricultural employment expands faster than services employment  
 D. Quinary decision-makers are eliminated through automated algorithms  
 
-**Q2. Consider the following statements regarding disguised unemployment in the Indian agricultural sector:**  
+**Q2. [PYQ-RECOLLECTED] Consider the following statements regarding disguised unemployment in the Indian agricultural sector:**  
 Statement I: Disguised unemployment implies that the marginal productivity of surplus agricultural workers is zero.  
 Statement II: Withdrawing surplus workers from agriculture to industry immediately results in an absolute drop in total foodgrain production.  
 Which of the statements given above is/are correct?  
@@ -66,7 +66,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q3. Under official sectoral classifications, which of the following activities belongs to the Quaternary sector?**  
+**Q3. [CONCEPT-RECURRING] Under official sectoral classifications, which of the following activities belongs to the Quaternary sector?**  
 A. Harvesting basmati rice in Punjab  
 B. Operating a blast furnace in an integrated steel plant  
 C. Advanced software algorithms research and data science analytics  

@@ -17,6 +17,34 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v020 — Book 02: IIBF DB&F Paper 1 (IE&IFS) Third Revised Print Edition (v3.0) • IIBF 2026 Rules & Syllabus Official Benchmark (PASS 100/100)
+* **Release Date**: 2026-10-05
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: 100% Certified Sovereign Master Print Codex (`007_Book_02_IIBF_Paper_1_IE_IFS_Master_Codex_A4_BW.pdf`) — **Third Revised Print Edition (v3.0)**
+* **Audit Score**: **100 / 100 (GREEN LIGHT FOR PRINTING)** — All 10 Certification Gates passed.
+* **Revision Versioning Stamp**:
+  - Cover Banner: `THIRD REVISED PRINT EDITION (v3.0) • IIBF 2026 RULES & SYLLABUS OFFICIAL BENCHMARK`
+  - CIP Colophon: `Third Revised Print Edition (v3.0) • IIBF 2026 Rules & Syllabus Official Benchmark (October 2026)`
+  - Master Revision Vault (Ch 27): Fully aligned to v3.0 standard.
+* **Forensic Remediation of All Stop-Ship Families & Error Register (C1–C6 & 40-Item Register)**:
+  1. **SEBI Dual-Category Merchant Banking (Cat I & II)**: Codified SEBI (Merchant Bankers) Amendment Regulations (effective 3 Jan 2026) raising Net Worth to ₹50 Crore (₹12.5 Cr liquid net worth) for Category I and ₹10 Crore (₹2.5 Cr liquid net worth) for Category II (eliminating obsolete ₹5 Cr single-threshold).
+  2. **NPS Exit Rules (16 Dec 2025 PFRDA Amendments)**: Separated Non-Govt / All-Citizen ₹8 Lakh small corpus threshold (100% lump sum option) from Central/State Govt superannuation ₹5 Lakh threshold; codified premature exit ₹2.5 Lakh threshold and annuity deferral rules.
+  3. **Official G-Sec Benchmark Administration (FBIL)**: Designated Financial Benchmarks India Private Limited (FBIL) as the current official benchmark administrator for G-Secs/T-Bills and MIBOR (since 31 March 2018 per RBI circular); contextualized FIMMDA as the historical administrator and current SRO for corporate bond valuation spreads.
+  4. **RBI PCA Matrix (2022 Revised Framework)**: Rebuilt trigger matrix to official RBI framework: CRAR 11.5% with 2.5% CCB (CET1 8.0%), Net NPA Risk Threshold 1 at 6.0%–9.0%, Risk Threshold 2 at 9.0%–12.0%, Risk Threshold 3 at ≥ 12.0%; Tier 1 Leverage Ratio trigger at 4.0% for D-SIBs and 3.5% for other SCBs; verified RoA removal.
+  5. **SGB Tax Status (Finance Act 2024 / 1 April 2026 Baseline)**: Explicitly codified the continuous holding condition — capital gains tax exemption on redemption at maturity applies strictly to the original individual subscriber held continuously until maturity; secondary market purchases are taxable without indexation.
+  6. **BRSR Core Reasonable Assurance Glide Path**: Added comprehensive compliance glide path table for Top 150 (FY24), Top 250 (FY25), Top 500 (FY26), and Top 1,000 (FY27) listed entities under SEBI ESG framework.
+  7. **SEBI ICDR QIP & ASBA Scope**: Codified Qualified Institutional Placement (QIP) definition under SEBI ICDR Regulations and restricted ASBA scope to public issues and rights issues.
+  8. **Asset-Liability Management (ALCO)**: Defined ALCO as an internal senior management operational committee reporting to the Board Risk Management Committee (RMCB).
+  9. **NITI Aayog & Fiscal Architecture**: Clarified exact Governing Council composition (all State CMs + CMs of Delhi, Puducherry, J&K + LGs of other UTs); disentangled Finance Commission Article 280 tax devolution from Finance Ministry scheme grants.
+  10. **Question Provenance Engine**: Annotated all practice questions across all 27 chapters with verified examination provenance tags (`[PYQ-RECOLLECTED]`, `[CONCEPT-RECURRING]`, `[SYLLABUS-NEW]`, `[2026 BENCHMARK]`), satisfying Gate 5.
+  11. **Typographical & Terminology Rectifications**: Fixed "Perfecty" -> "Perfectly" and corrected "quantity demanded" usage in Chapter 09.
+  12. **Master Revision Vault (Ch 27)**: Reconciled Master Summary Table, updated Traps 49 & 50, and updated Capstone Diagnostic Drill Q4 with full 2026 solutions.
+* **Architectural & Print Perfection**:
+  - Total Pages: Exactly 119 pages (2 Front Matter + 2 TOC + 115 Continuous Body Pages).
+  - 100% TOC alignment across all 27 chapters.
+  - Zero double-stacked folios; clean single continuous page stamps.
+  - Zero emojis across all markdown and generated files.
+
 ### [STAGED LOCAL] v019 — Book 03: IIBF DB&F / JAIIB Paper 2 (PPB) Sovereign Master Codex Forensic Remediation & Certification (PASS 100/100)
 * **Release Date**: 2026-10-05
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

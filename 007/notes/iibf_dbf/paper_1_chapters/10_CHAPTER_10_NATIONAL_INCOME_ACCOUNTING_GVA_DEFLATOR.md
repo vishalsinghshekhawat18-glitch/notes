@@ -81,25 +81,25 @@ $$\text{ICOR} = \frac{\Delta K}{\Delta Y} = \frac{\text{Investment Rate (\% of G
 
 ### Unit 18 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. On 27 February 2026, the Ministry of Statistics and Programme Implementation (MoSPI) officially updated the Base Year for calculating India's Real GDP and National Accounts to:**  
+**Q1. [CONCEPT-RECURRING / 2026 BENCHMARK] On 27 February 2026, the Ministry of Statistics and Programme Implementation (MoSPI) officially updated the Base Year for calculating India's Real GDP and National Accounts to:**  
 A. 2011–12  
 B. 2016–17  
 C. 2020–21  
 D. 2022–23  
 
-**Q2. In economic accounting, which of the following macroeconomic aggregates is officially defined as 'National Income'?**  
+**Q2. [PYQ-RECOLLECTED] In economic accounting, which of the following macroeconomic aggregates is officially defined as 'National Income'?**  
 A. Gross Domestic Product at Market Prices ($GDP_{MP}$)  
 B. Gross National Product at Market Prices ($GNP_{MP}$)  
 C. Net National Product at Factor Cost ($NNP_{FC}$)  
 D. Gross Value Added at Basic Prices ($GVA_{BP}$)  
 
-**Q3. If an economy maintains an investment rate (Gross Capital Formation) of 35% of GDP and its Incremental Capital Output Ratio (ICOR) is 5.0, what is the resulting Real GDP growth rate?**  
+**Q3. [CONCEPT-RECURRING] If an economy maintains an investment rate (Gross Capital Formation) of 35% of GDP and its Incremental Capital Output Ratio (ICOR) is 5.0, what is the resulting Real GDP growth rate?**  
 A. 5.0%  
 B. 7.0%  
 C. 8.5%  
 D. 10.0%  
 
-**Q4. Consider the following items with respect to National Income accounting via the Income Method:**  
+**Q4. [PYQ-RECOLLECTED] Consider the following items with respect to National Income accounting via the Income Method:**  
 1. Wages and salaries paid to corporate employees  
 2. Old-age pensions disbursed under social welfare schemes  
 3. Rental income received by property owners  

@@ -40,7 +40,7 @@ The Money Market facilitates short-term wholesale liquidity allocation for matur
 
 • **Issuing Authority:** Issued by the Reserve Bank of India on behalf of the Central Government.  
 • **Issuance Nature:** Issued at a **discount to face value and redeemed at par (₹100)**; carry zero coupon interest.  
-• **Tenors & Auction Schedule:**
+• **Tenors & Auction Schedule (Current RBI Auction Calendar):**
   - **91-Day T-Bills:** Weekly auction (every Wednesday).
   - **182-Day T-Bills:** Weekly auction (every Wednesday).
   - **364-Day T-Bills:** Weekly auction (every Wednesday).
@@ -59,7 +59,7 @@ The Money Market facilitates short-term wholesale liquidity allocation for matur
 | **Maturity / Tenor Range** | **Minimum 7 Days up to Maximum 1 Year** | • **Issued by Banks:** **Min 7 Days to Max 1 Year**<br>• **Issued by FIs:** **Min 1 Year to Max 3 Years** |
 | **Credit Rating Mandate** | Minimum rating of **A3** (or equivalent) by SEBI-registered CRA | Rating mandatory if issued by FIs; banks issue based on board policy |
 | **Loans Against Instrument** | **Strictly PROHIBITED** (Banks cannot grant loans against CP) | **Strictly PROHIBITED** (Banks cannot grant loans against their own CDs) |
-| **Secondary Market Trading** | Traded in dematerialized format (FIMMDA conventions) | Dematerialized format; transferable by delivery and endorsement |
+| **Secondary Market Trading** | Dematerialized format (FBIL benchmark reference / FIMMDA conventions) | Dematerialized format; transferable by delivery and endorsement |
 
 > **Critical Regulatory Update — CD Minimum Denomination:**  
 > Under the RBI's Master Direction on Certificates of Deposit, the minimum denomination of a CD is **₹5 Lakh and in multiples of ₹5 Lakh thereafter** (identical to Commercial Paper). An option citing ₹1 Lakh is **outdated and invalid**.
@@ -75,7 +75,7 @@ The Money Market facilitates short-term wholesale liquidity allocation for matur
 
 ### 5. Bills Rediscounting Scheme (BRDS)
 
-• **Origin:** Introduced by the RBI in **November 1970** following the recommendations of the Narasimham Working Group to foster a liquid commercial bill market in India.  
+• **Origin & Historical Basis:** Introduced by the RBI in **November 1970** following the recommendations of the Narasimham Working Group (Study Group on the Bill Market Scheme) to foster a genuine, liquid commercial trade bill market in India.  
 • **Operational Mechanism:**
   1. A seller draws a bill of exchange on the buyer against a genuine domestic trade sale of goods; the buyer accepts the bill.
   2. The seller discounts the trade bill with their commercial bank.
@@ -94,8 +94,8 @@ The Money Market facilitates short-term wholesale liquidity allocation for matur
   - Unlike standard Liquidity Adjustment Facility (LAF) repos which operate overnight or for 7/14-day tenors, LTRO provides banks with durable central bank liquidity for **tenors of 1 year and 3 years at the prevailing policy repo rate**.
   - Banks place Government Securities as collateral and receive term liquidity at a fixed, low borrowing cost.
 • **Targeted Long-Term Repo Operations (TLTRO):**
-  - Launched during the March 2020 pandemic lockdown.
-  - Mandated that banks borrowing under TLTRO must deploy the funds in **investment-grade corporate bonds, commercial paper, and non-convertible debentures** of specified stressed sectors (primarily NBFCs, MFIs, and HFCs), successfully unfreezing the corporate debt market.
+  - Launched during the March 2020 pandemic economic shock.
+  - Specified tranches (e.g. TLTRO 1.0, TLTRO 2.0) required borrowing banks to deploy the liquidity into **investment-grade corporate bonds, commercial paper, and non-convertible debentures** of targeted sectors (especially NBFCs, MFIs, and HFCs), successfully reviving corporate debt liquidity.
 
 ---
 
@@ -112,25 +112,25 @@ The Money Market facilitates short-term wholesale liquidity allocation for matur
 
 ### Unit 29 & Unit 30 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the Reserve Bank of India's current Master Directions, what is the mandatory minimum denomination for the issuance of Certificates of Deposit (CD) by Scheduled Commercial Banks?**  
+**Q1. [CONCEPT-RECURRING / 2026 BENCHMARK] Under the Reserve Bank of India's current Master Directions, what is the mandatory minimum denomination for the issuance of Certificates of Deposit (CD) by Scheduled Commercial Banks?**  
 A. ₹1 Lakh and in multiples of ₹1 Lakh thereafter  
 B. ₹2 Lakh and in multiples of ₹2 Lakh thereafter  
 C. ₹5 Lakh and in multiples of ₹5 Lakh thereafter  
 D. ₹10 Lakh and in multiples of ₹10 Lakh thereafter  
 
-**Q2. Under the Bills Rediscounting Scheme (BRDS) regulated by the RBI, which of the following conditions is mandatory for a bill of exchange to be eligible for rediscounting?**  
+**Q2. [PYQ-RECOLLECTED] Under the Bills Rediscounting Scheme (BRDS) regulated by the RBI, which of the following conditions is mandatory for a bill of exchange to be eligible for rediscounting?**  
 A. The bill must be an accommodation bill drawn between two parent and subsidiary companies  
 B. The bill must arise out of a genuine commercial transaction for the sale of goods and carry at least two good signatures  
 C. The original maturity of the trade bill must be at least 3 years  
 D. The bill must be backed by a sovereign guarantee from the Ministry of Finance  
 
-**Q3. How do the Reserve Bank of India's Long-Term Repo Operations (LTRO) differ from standard overnight LAF Repos?**  
+**Q3. [CONCEPT-RECURRING] How do the Reserve Bank of India's Long-Term Repo Operations (LTRO) differ from standard overnight LAF Repos?**  
 A. LTRO funds are provided strictly without requiring any government securities collateral  
 B. LTRO provides banks with durable liquidity for tenors of 1 year and 3 years at the prevailing policy repo rate  
 C. LTRO is accessible exclusively to retail corporate borrowers directly from the RBI  
 D. LTRO interest rates are pegged to the 10-year benchmark sovereign yield rather than the repo rate  
 
-**Q4. Consider the following statements regarding money market instruments in India:**  
+**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding money market instruments in India:**  
 Statement I: Commercial banks are legally prohibited from granting loans against the security of their own Certificates of Deposit.  
 Statement II: In the uncollateralized Call Money market, corporate borrowers and mutual funds are permitted to borrow overnight funds directly from commercial banks.  
 Which of the statements given above is/are correct?  

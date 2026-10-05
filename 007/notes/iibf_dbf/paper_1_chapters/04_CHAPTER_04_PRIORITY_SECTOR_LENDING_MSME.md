@@ -81,25 +81,25 @@ The Ministry of Micro, Small and Medium Enterprises notified the **revised compo
 
 ### Unit 04 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the revised MSME classification framework effective 1 April 2025, an enterprise qualifies as a 'Small Enterprise' if:**  
+**Q1. [CONCEPT-RECURRING / 2026 BENCHMARK] Under the revised MSME classification framework effective 1 April 2025, an enterprise qualifies as a 'Small Enterprise' if:**  
 A. Investment in Plant & Machinery does not exceed ₹10 Crore and Annual Turnover does not exceed ₹50 Crore  
 B. Investment in Plant & Machinery does not exceed ₹25 Crore and Annual Turnover (excluding exports) does not exceed ₹100 Crore  
 C. Investment in Plant & Machinery does not exceed ₹50 Crore and Annual Turnover does not exceed ₹250 Crore  
 D. Investment in Plant & Machinery does not exceed ₹125 Crore and Annual Turnover does not exceed ₹500 Crore  
 
-**Q2. Under the RBI's revised Priority Sector Lending directions, what is the mandated overall PSL target for Primary Urban Co-operative Banks (UCBs)?**  
+**Q2. [PYQ-RECOLLECTED / 2026 BENCHMARK] Under the RBI's revised Priority Sector Lending directions, what is the mandated overall PSL target for Primary Urban Co-operative Banks (UCBs)?**  
 A. 40% of ANBC or CEOBE, whichever is higher  
 B. 60% of ANBC or CEOBE, whichever is higher  
 C. 75% of ANBC or CEOBE, whichever is higher  
 D. 50% of ANBC or CEOBE, whichever is higher  
 
-**Q3. Under Section 16 of the MSMED Act, 2006, what is the statutory penalty for a buyer failing to make payment to an MSME supplier within the mandated maximum period of 45 days?**  
+**Q3. [PYQ-RECOLLECTED] Under Section 16 of the MSMED Act, 2006, what is the statutory penalty for a buyer failing to make payment to an MSME supplier within the mandated maximum period of 45 days?**  
 A. Simple interest at 2 times the prevailing Repo Rate  
 B. Compound interest with monthly rests at 3 times the Bank Rate notified by the RBI  
 C. Flat penal interest of 18% per annum compounded quarterly  
 D. Simple interest at 3 times the marginal cost of funds based lending rate (MCLR)  
 
-**Q4. Consider the following statements regarding the CGTMSE scheme:**  
+**Q4. [CONCEPT-RECURRING] Consider the following statements regarding the CGTMSE scheme:**  
 Statement I: The Credit Guarantee Fund Trust for Micro and Small Enterprises is managed jointly by the Government of India and NABARD.  
 Statement II: Collateral-free credit guarantee coverage is available up to a ceiling of ₹5 Crore per eligible borrower.  
 Which of the statements given above is/are correct?  

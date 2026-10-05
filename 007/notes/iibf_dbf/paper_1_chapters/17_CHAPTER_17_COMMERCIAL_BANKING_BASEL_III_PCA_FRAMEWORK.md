@@ -56,19 +56,19 @@ The Basel Committee on Banking Supervision (BCBS) formulated Basel III following
 
 ---
 
-### 3. Prompt Corrective Action (PCA) Framework (Revised Framework)
+### 3. Prompt Corrective Action (PCA) Framework (RBI Framework Effective 1 Jan 2022)
 
-The RBI's **Prompt Corrective Action (PCA)** framework imposes structured supervisory interventions on commercial banks exhibiting balance-sheet vulnerabilities:
+The RBI's **Prompt Corrective Action (PCA) Framework for Scheduled Commercial Banks** imposes structured, mandatory, and discretionary supervisory interventions based on four core performance indicators:
 
-| Indicator / Metric | Risk Threshold 1 | Risk Threshold 2 | Risk Threshold 3 |
-| :--- | :--- | :--- | :--- |
-| **Capital: CRAR** | Falls below 11.5% but **≥ 9.375%** | Falls below 9.375% but **≥ 7.25%** | Falls **below 7.25%** |
-| **Capital: CET1 Ratio** | Falls below 8.0% but **≥ 6.875%** | Falls below 6.875% but **≥ 5.75%** | Falls **below 5.75%** |
-| **Asset Quality: Net NPA Ratio** | **≥ 6.0% but < 9.0%** | **≥ 9.0% but < 12.0%** | **≥ 12.0%** |
-| **Leverage: Tier 1 Leverage Ratio** | Falls below 3.5% but **≥ 3.0%** | Falls **below 3.0%** | Falls **below 2.5%** |
+| Core Indicator | Minimum Regulatory Baseline | Risk Threshold 1 | Risk Threshold 2 | Risk Threshold 3 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Capital: CRAR** | **11.5%**<br>*(9.0% Min + 2.5% CCB)* | Falls below 11.5% but **≥ 9.0%**<br>*(Up to 250 bps breach of CCB)* | Falls below 9.0% but **≥ 6.5%**<br>*(Breach of min CRAR up to 250 bps)* | Falls **below 6.5%**<br>*(Breach of min CRAR by > 250 bps)* |
+| **Capital: CET1 Ratio** | **8.0%**<br>*(5.5% Min + 2.5% CCB)* | Falls below 8.0% but **≥ 5.5%**<br>*(Up to 250 bps breach of CCB)* | Falls below 5.5% but **≥ 4.0%**<br>*(Breach of min CET1 up to 150 bps)* | Falls **below 4.0%**<br>*(Breach of min CET1 by > 150 bps)* |
+| **Asset Quality: Net NPA Ratio** | **< 6.0%** | **≥ 6.0% but < 9.0%** | **≥ 9.0% but < 12.0%** | **≥ 12.0%** |
+| **Leverage: Tier 1 Leverage Ratio** | **4.0%** for D-SIBs<br>**3.5%** for Other SCBs | • D-SIBs: Falls below 4.0% but **≥ 3.5%**<br>• Other: Falls below 3.5% but **≥ 3.0%**<br>*(Up to 50 bps breach)* | • D-SIBs: Falls **below 3.5%**<br>• Other: Falls **below 3.0%**<br>*(Breach by > 50 bps)* | *[No Threshold 3 prescribed for Leverage in RBI framework]* |
 
 > **Critical Supervisory Evolution:**  
-> • **Removal of RoA Trigger:** In the revised PCA framework, **Return on Assets (RoA) was officially removed** as an independent mandatory trigger indicator.  
+> • **Removal of RoA Trigger:** In the revised PCA framework, **Return on Assets (RoA) was officially removed** as a mandatory supervisory trigger.  
 > • **Mandatory Corrective Sanctions:**
 >   - *Risk Threshold 1:* Mandatory restriction on dividend distribution and remittance of profits; promoters/owners mandated to infuse fresh capital.
 >   - *Risk Threshold 2:* Threshold 1 restrictions PLUS mandatory prohibition on opening new domestic or overseas branches.
@@ -89,19 +89,19 @@ The RBI's **Prompt Corrective Action (PCA)** framework imposes structured superv
 
 ### Unit 21 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the Reserve Bank of India's Basel III Capital Adequacy Regulations, what is the mandatory minimum Total Capital (CRAR) including the Capital Conservation Buffer (CCB) for Indian Scheduled Commercial Banks?**  
+**Q1. [CONCEPT-RECURRING / 2026 BENCHMARK] Under the Reserve Bank of India's Basel III Capital Adequacy Regulations, what is the mandatory minimum Total Capital (CRAR) including the Capital Conservation Buffer (CCB) for Indian Scheduled Commercial Banks?**  
 A. 9.0% of RWAs  
 B. 10.5% of RWAs  
 C. 11.5% of RWAs  
 D. 12.0% of RWAs  
 
-**Q2. Under the RBI's revised Prompt Corrective Action (PCA) framework, a commercial bank enters Risk Threshold 1 on asset quality when its Net Non-Performing Asset (Net NPA) ratio:**  
+**Q2. [PYQ-RECOLLECTED / PCA THRESHOLD] Under the RBI's revised Prompt Corrective Action (PCA) framework, a commercial bank enters Risk Threshold 1 on asset quality when its Net Non-Performing Asset (Net NPA) ratio:**  
 A. Equals or exceeds 3.0% but is less than 6.0%  
 B. Equals or exceeds 6.0% but is less than 9.0%  
 C. Equals or exceeds 9.0% but is less than 12.0%  
 D. Crosses 10.0% of total advances  
 
-**Q3. Consider the following statements regarding the Basel III liquidity standards:**  
+**Q3. [CONCEPT-RECURRING / BASEL LIQUIDITY] Consider the following statements regarding the Basel III liquidity standards:**  
 Statement I: The Liquidity Coverage Ratio (LCR) requires banks to hold High-Quality Liquid Assets to withstand a 30-day severe liquidity stress scenario with a minimum target of 100%.  
 Statement II: The Net Stable Funding Ratio (NSFR) measures short-term intraday interbank payment settlement liquidity.  
 Which of the statements given above is/are correct?  
@@ -110,7 +110,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q4. Which of the following parameters was OFFICIALLY REMOVED as a mandatory trigger in the revised Prompt Corrective Action (PCA) framework for commercial banks?**  
+**Q4. [PYQ-RECOLLECTED / PCA EXCLUSIONS] Which of the following parameters was OFFICIALLY REMOVED as a mandatory trigger in the revised Prompt Corrective Action (PCA) framework for commercial banks?**  
 A. Common Equity Tier 1 (CET1) Ratio  
 B. Net NPA Ratio  
 C. Return on Assets (RoA)  

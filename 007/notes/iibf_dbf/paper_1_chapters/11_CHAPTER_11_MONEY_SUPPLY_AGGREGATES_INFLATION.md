@@ -103,19 +103,19 @@ Inflation is a sustained increase in the general price level of goods and servic
 
 ### Unit 14 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under Section 33 of the Reserve Bank of India Act, 1934, what is the mandatory minimum value of Gold Coin and Gold Bullion that must be held by the Issue Department under the Minimum Reserve System?**  
+**Q1. [PYQ-RECOLLECTED] Under Section 33 of the Reserve Bank of India Act, 1934, what is the mandatory minimum value of Gold Coin and Gold Bullion that must be held by the Issue Department under the Minimum Reserve System?**  
 A. ₹85 Crore  
 B. ₹115 Crore  
 C. ₹200 Crore  
 D. ₹500 Crore  
 
-**Q2. In monetary economics, Broad Money ($M3$) is mathematically defined as:**  
+**Q2. [CONCEPT-RECURRING] In monetary economics, Broad Money ($M3$) is mathematically defined as:**  
 A. Currency with the public + Demand deposits with banks + Post Office savings deposits  
 B. Currency in circulation + Bankers' deposits with RBI + Other deposits with RBI  
 C. $M1$ + Time deposits with the banking system  
 D. $M1$ + Total Post Office deposits excluding National Savings Certificates  
 
-**Q3. Which of the following statements correctly differentiates the Consumer Price Index (CPI-Combined) from the Wholesale Price Index (WPI) in India?**  
+**Q3. [CONCEPT-RECURRING] Which of the following statements correctly differentiates the Consumer Price Index (CPI-Combined) from the Wholesale Price Index (WPI) in India?**  
 Statement I: CPI measures price movements at the retail consumer level and includes services, whereas WPI measures commodity prices at the wholesale stage and excludes services.  
 Statement II: The Reserve Bank of India uses the Wholesale Price Index as its nominal anchor for flexible inflation targeting.  
 Which of the statements given above is/are correct?  
@@ -124,7 +124,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q4. If commercial banks decide to hold higher excess reserves and the public's preference for holding physical currency increases relative to bank deposits, what is the impact on the Money Multiplier ($m$)?**  
+**Q4. [PYQ-RECOLLECTED] If commercial banks decide to hold higher excess reserves and the public's preference for holding physical currency increases relative to bank deposits, what is the impact on the Money Multiplier ($m$)?**  
 A. The money multiplier increases significantly  
 B. The money multiplier remains strictly constant  
 C. The money multiplier decreases  

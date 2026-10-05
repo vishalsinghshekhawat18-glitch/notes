@@ -105,19 +105,19 @@ Introduced by **John Hicks (1937)** and expanded by **Alvin Hansen**, the IS-LM 
 
 ### Unit 15 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. In Keynesian monetary economics, the speculative demand for money becomes perfectly interest elastic (horizontal) under which of the following conditions?**  
+**Q1. [CONCEPT-RECURRING] In Keynesian monetary economics, the speculative demand for money becomes perfectly interest elastic (horizontal) under which of the following conditions?**  
 A. During peak economic expansion when interest rates reach historic highs  
 B. Inside a Liquidity Trap when interest rates fall to an irreducible minimum floor  
 C. When the central bank raises the statutory Cash Reserve Ratio to maximum levels  
 D. Under hyperinflation when the purchasing power of money collapses to zero  
 
-**Q2. In the Hicks-Hansen IS-LM general equilibrium framework, which of the following policy actions will cause the LM curve to shift to the right?**  
+**Q2. [PYQ-RECOLLECTED] In the Hicks-Hansen IS-LM general equilibrium framework, which of the following policy actions will cause the LM curve to shift to the right?**  
 A. An increase in government infrastructure capital expenditure  
 B. An increase in personal income tax rates by the Ministry of Finance  
 C. An open market purchase of government securities by the central bank expanding the money supply  
 D. An increase in the marginal propensity to save by households  
 
-**Q3. Consider the following statements regarding the Classical versus Keynesian theories of interest:**  
+**Q3. [CONCEPT-RECURRING] Consider the following statements regarding the Classical versus Keynesian theories of interest:**  
 Statement I: The Classical theory posits that the rate of interest is a purely monetary phenomenon determined by the demand for and supply of money.  
 Statement II: Keynes asserted that the transactions demand for money is determined primarily by the level of national income and is largely interest inelastic.  
 Which of the statements given above is/are correct?  

@@ -25,7 +25,7 @@ The stability and integrity of the Indian financial architecture rests upon sect
 • **Institutional Character:** **Non-statutory, non-executive advisory council** dedicated to inter-regulatory coordination and systemic financial stability.  
 • **Council Composition:**
   - **Chairperson:** **Union Minister of Finance** (ex-officio).
-  - **Members:** Governor, Reserve Bank of India; Finance Secretary / Secretary, Department of Economic Affairs (DEA); Secretary, Department of Financial Services (DFS); Secretary, Ministry of Corporate Affairs (MCA); Secretary, Ministry of Electronics and Information Technology (MeitY); Chief Economic Adviser (CEA); Chairperson, SEBI; Chairperson, IRDAI; Chairperson, PFRDA; Chairperson, Insolvency and Bankruptcy Board of India (IBBI); Chairperson, IFSCA.
+  - **Members:** Governor, RBI; Finance Secretary / DEA Secretary; DFS Secretary; MCA Secretary; MeitY Secretary; Chief Economic Adviser (CEA); Chairpersons of SEBI, IRDAI, PFRDA, IBBI, and IFSCA.
 • **Core Mandate:**
   1. Monitoring macroprudential systemic financial stability.
   2. Resolving inter-regulatory jurisdictional overlaps and regulatory arbitrage.
@@ -57,19 +57,19 @@ The stability and integrity of the Indian financial architecture rests upon sect
 
 ### Unit 27 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Who among the following serves as the ex-officio Chairperson of the Financial Stability and Development Council (FSDC) Sub-Committee?**  
+**Q1. [PYQ-RECOLLECTED] Who among the following serves as the ex-officio Chairperson of the Financial Stability and Development Council (FSDC) Sub-Committee?**  
 A. Union Minister of Finance  
 B. Governor of the Reserve Bank of India  
 C. Chairperson of the Securities and Exchange Board of India  
 D. Chief Economic Adviser to the Government of India  
 
-**Q2. Under the International Financial Services Centres Authority Act, 2019, the regulatory remit of the IFSCA is correctly described as:**  
+**Q2. [CONCEPT-RECURRING] Under the International Financial Services Centres Authority Act, 2019, the regulatory remit of the IFSCA is correctly described as:**  
 A. Superseding all domestic powers of the RBI, SEBI, and IRDAI across mainland India  
 B. Regulating only cross-border personal remittances made by Non-Resident Indians  
 C. Exercising unified regulatory powers over financial products, services, and institutions strictly within designated International Financial Services Centres (such as GIFT IFSC)  
 D. Acting as an appellate tribunal hearing appeals against SEBI and IRDAI orders  
 
-**Q3. Match the regulatory authorities with their statutory governing enactments:**  
+**Q3. [CONCEPT-RECURRING] Match the regulatory authorities with their statutory governing enactments:**  
 1. Securities and Exchange Board of India — (a) Act of Parliament, 1999  
 2. Insurance Regulatory and Development Authority of India — (b) Act of Parliament, 1992  
 3. Pension Fund Regulatory and Development Authority — (c) Act of Parliament, 2013  
@@ -79,7 +79,7 @@ B. 1-(b), 2-(a), 3-(c)
 C. 1-(c), 2-(a), 3-(b)  
 D. 1-(b), 2-(c), 3-(a)  
 
-**Q4. Consider the following statements regarding the regulatory supervision of financial market intermediaries in India:**  
+**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding the regulatory supervision of financial market intermediaries in India:**  
 Statement I: Credit Rating Agencies (CRAs) evaluating corporate debt debentures are registered with and regulated by the Securities and Exchange Board of India (SEBI).  
 Statement II: Credit Information Companies (CICs) maintaining retail borrower credit histories are licensed and supervised by the Reserve Bank of India (RBI).  
 Which of the statements given above is/are correct?  
@@ -92,7 +92,7 @@ D. Neither Statement I nor Statement II
 
 ### Answer Key & Explanations
 
-• **Q1 — Answer: B.** The main FSDC council is chaired by the Union Finance Minister, but the **FSDC Sub-Committee** is statutorily chaired by the **Governor of the Reserve Bank of India**.  
-• **Q2 — Answer: C.** IFSCA is a geographically and functionally confined unified regulator for IFSCs established under SEZ laws, consolidating powers of domestic regulators only within those zones.  
+• **Q1 — Answer: B.** The FSDC council is chaired by the Union Finance Minister; the **FSDC Sub-Committee** is statutorily chaired by the **Governor of the Reserve Bank of India**.  
+• **Q2 — Answer: C.** IFSCA is a unified regulator for IFSCs under SEZ laws, consolidating regulatory powers strictly within designated IFSC zones.  
 • **Q3 — Answer: B.** SEBI Act was passed in 1992 (b); IRDA Act in 1999 (a); PFRDA Act in 2013 (c).  
-• **Q4 — Answer: C.** Both statements are correct. SEBI regulates CRAs under the SEBI (Credit Rating Agencies) Regulations 1999; RBI regulates CICs under the Credit Information Companies (Regulation) Act, 2005.
+• **Q4 — Answer: C.** Both statements are correct. SEBI regulates CRAs under SEBI (CRA) Regulations 1999; RBI regulates CICs under CICRA 2005.

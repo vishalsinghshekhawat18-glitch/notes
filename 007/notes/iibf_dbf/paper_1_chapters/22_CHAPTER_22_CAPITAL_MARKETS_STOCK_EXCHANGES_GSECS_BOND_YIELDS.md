@@ -28,10 +28,10 @@ The Capital Market provides long-term debt and equity financing for corporations
 | **Follow-on Public Offering (FPO)** | An already listed company issuing additional fresh equity shares to the public. | General public and institutions. |
 | **Rights Issue** | An issue of shares offered to **existing shareholders** in proportion to their existing holding as on a record date. | Existing shareholders; rights entitlements can be renounced in favor of third parties. |
 | **Bonus Issue** | Capitalization of free reserves into fully paid-up additional shares issued free of cost to existing shareholders. | Existing equity holders; share capital expands while net worth remains unchanged. |
-| **Qualified Institutional Placement (QIP)** | Private placement of equity shares or convertible securities by a listed company to **Qualified Institutional Buyers (QIBs)**. | Fast-track institutional route; exclusive to Mutual Funds, Insurance firms, FPIs; no retail participation. |
+| **Qualified Institutional Placement (QIP)** | Private placement of equity shares or convertible securities by a listed company to **Qualified Institutional Buyers (QIBs)**. | Fast-track institutional route allotted exclusively to **Qualified Institutional Buyers (QIBs) as defined under SEBI ICDR Regulations** (including Mutual Funds, Insurance Companies, FPIs, Scheduled Commercial Banks, AIFs, and PF/Pension funds); no retail participation. |
 | **Offer for Sale (OFS)** | Fast-track bidding window on the stock exchange for promoters or large shareholders to dilute equity holdings. | General public and institutions to comply with minimum 25% public shareholding norms. |
 
-• **Applications Supported by Blocked Amount (ASBA):** Mandatory application mechanism for IPOs and Rights issues. The application funds **remain in the investor's own bank account (lien marked)**, continuing to earn interest, and are debited only upon successful allotment of shares.  
+• **Applications Supported by Blocked Amount (ASBA):** Mandatory application mechanism for public issues (IPOs/FPOs) and applicable rights issues. The application funds **remain in the investor's own bank account (lien marked)** via Self-Certified Syndicate Banks (SCSBs), continuing to earn interest, and are debited only upon successful allotment of shares.  
 • **T+1 Rolling Settlement:** India was the first major global economy to transition 100% of equity trades to **T+1 rolling settlement** (trades settle within 24 hours).
 
 ---
@@ -39,7 +39,7 @@ The Capital Market provides long-term debt and equity financing for corporations
 ## § 22.2 Unit 32: Fixed Income Markets
 
 > **Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 32)**  
-> **Core Proposition:** Fixed income markets establish the sovereign yield curve through G-Secs, SDLs, and SGBs. Yield-to-Maturity and Duration govern interest rate risk, standardized by FIMMDA conventions. Retail participation is enabled via the RBI Retail Direct Scheme, while corporate short-term funding includes Inter-Corporate Deposits (ICDs).
+> **Core Proposition:** Fixed income markets establish the sovereign yield curve through G-Secs, SDLs, and SGBs. Yield-to-Maturity and Duration govern interest rate risk, valued under FBIL benchmark curves and FIMMDA market conventions. Retail participation is enabled via the RBI Retail Direct Scheme, while corporate short-term funding includes Inter-Corporate Deposits (ICDs).
 
 ### 1. Sovereign Debt Instruments: G-Secs, SDLs & SGBs
 
@@ -47,7 +47,7 @@ The Capital Market provides long-term debt and equity financing for corporations
 | :--- | :--- | :--- |
 | **Central G-Secs (Dated Securities)** | Issued by RBI on behalf of the Central Government | Semi-annual fixed coupon; maturities up to 40–50 years; zero credit default risk; 100% SLR eligible. |
 | **State Development Loans (SDLs)** | Issued by RBI on behalf of 28 State Governments | Semi-annual interest; yields typically **30–60 bps higher than Central G-Secs**; eligible for SLR maintenance. |
-| **Sovereign Gold Bonds (SGBs)** | Issued by RBI on behalf of the Central Government | Denominated in grams of gold (min 1g; max 4kg individual); Tenor **8 years with exit option after 5th year**; **Fixed interest rate of 2.50% p.a.** paid semi-annually; **Capital gains tax exempt** on maturity redemption. |
+| **Sovereign Gold Bonds (SGBs)** | Issued by RBI on behalf of the Central Government | Denominated in grams of gold (min 1g; max 4kg individual); Tenor **8 years with exit option after 5th year**; **Fixed interest rate of 2.50% p.a.** paid semi-annually (fully taxable); **Capital gains tax exempt** on redemption at maturity (*Note: Effective from 1 April 2026 under amended tax provisions, this exemption applies strictly to an individual subscriber who acquired the bond through original subscription and held it continuously until maturity; secondary market purchases redeemed at maturity are taxable as capital gains*). |
 
 ---
 
@@ -67,13 +67,16 @@ $$\text{Accrued Interest} = \text{Coupon Amount} \times \left( \frac{\text{Days 
 
 ---
 
-### 3. FIMMDA: Role & Market Benchmarks
+### 3. Official Valuation Benchmark Administrator: FBIL & FIMMDA
 
-• **Institutional Foundation:** Established in **May 1998** as the **Fixed Income Money Market and Derivatives Association of India (FIMMDA)**, operating as a **Self-Regulatory Organization (SRO)** under the aegis of the RBI.  
-• **Membership:** Scheduled Commercial Banks, All-India Financial Institutions, Primary Dealers, and Insurance Companies.  
-• **Core Mandate:**
-  1. Standardizes market conventions, trading documentation, operational codes of conduct, and dispute resolution for fixed-income securities and money markets.
-  2. **Valuation Matrix Mandate:** Publishes **daily benchmark yield curves and corporate bond valuation matrices**. Every commercial bank in India is statutorily required to use FIMMDA valuation benchmarks to mark-to-market (MTM) its debt investment portfolios at the end of each quarter.
+• **Financial Benchmarks India Private Limited (FBIL):**  
+  - Formed in **December 2014** (jointly promoted by FIMMDA, FEDAI, and IBA) as an independent benchmark administrator under RBI regulations.
+  - **Sovereign Valuation Mandate:** Effective **31 March 2018**, the RBI formally mandated that **FBIL assumed full responsibility for administering and publishing daily benchmark valuation curves for Government Securities (Central G-Secs, T-Bills, and SDLs)**. FIMMDA ceased publishing independent G-Sec valuation prices on that date.
+  - FBIL also publishes overnight call benchmarks (MIBOR), treasury bill rates, and reference exchange rates.
+• **Fixed Income Money Market and Derivatives Association of India (FIMMDA):**  
+  - Established in **May 1998** as a **Self-Regulatory Organization (SRO)** representing SCBs, All-India Financial Institutions, Primary Dealers, and Insurance Companies.
+  - Formulates standardized market trading conventions, operational documentation, and codes of conduct.
+  - In fixed-income valuation, FIMMDA collaborates with FBIL and continues to publish the **daily corporate bond valuation matrix / credit spreads** used by institutional portfolios.
 
 ---
 
@@ -104,8 +107,8 @@ $$\text{Accrued Interest} = \text{Coupon Amount} \times \left( \frac{\text{Days 
 ### Examiner Trap Vault: Unit 31 & Unit 32 High-Yield Distractors
 
 1. **Trap — Zero-Coupon Bond Duration:** The Macaulay Duration of a Zero-Coupon Bond **EQUALS its maturity period** (e.g., a 5-year zero-coupon bond has a duration of exactly 5 years).
-2. **Trap — SGB Tenor and Coupon:** Sovereign Gold Bonds carry a **fixed interest rate of 2.50% p.a.** paid semi-annually, with a **tenor of 8 years (exit option after 5th year)**.
-3. **Trap — FIMMDA Role:** FIMMDA is a **Self-Regulatory Organization (SRO)** that publishes the official daily benchmark yield curves used by banks for marking-to-market their bond portfolios.
+2. **Trap — SGB Tenor, Coupon & 2026 Tax Condition:** Sovereign Gold Bonds carry a **fixed interest rate of 2.50% p.a.** paid semi-annually (fully taxable), with a **tenor of 8 years (exit option after 5th year)**. Exemption from capital gains tax at maturity redemption from 1 April 2026 applies **strictly to original individual subscribers held continuously to maturity**.
+3. **Trap — G-Sec Valuation Administrator (FBIL vs FIMMDA):** Since **31 March 2018, FBIL (Financial Benchmarks India Pvt Ltd)** is the official benchmark administrator publishing daily G-Sec, SDL, and T-Bill valuation curves under RBI directions. FIMMDA is an industry SRO publishing corporate bond spreads.
 4. **Trap — RBI Retail Direct Costs:** Opening and maintaining an RDG account under the RBI Retail Direct Scheme is **completely free of cost (Zero fees)**.
 5. **Trap — Governing Law for ICDs:** Inter-Corporate Deposits are governed under **Section 186 of the Companies Act, 2013**, NOT the RBI Act or SEBI Act.
 6. **Trap — ASBA Fund Retention:** In an ASBA application, money is **never transferred to the issuer company** at the time of bidding; it remains blocked in the investor's own bank account.
@@ -114,25 +117,25 @@ $$\text{Accrued Interest} = \text{Coupon Amount} \times \left( \frac{\text{Days 
 
 ### Unit 31 & Unit 32 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. What is the Macaulay Duration of an 8-year zero-coupon bond yielding 7% per annum?**  
+**Q1. [PYQ-RECOLLECTED] What is the Macaulay Duration of an 8-year zero-coupon bond yielding 7% per annum?**  
 A. 4 years  
 B. 7 years  
 C. Exactly 8 years  
 D. Zero years  
 
-**Q2. Under the RBI Retail Direct Scheme launched in November 2021, individual retail investors can open a Retail Direct Gilt (RDG) Account directly with the RBI at what fee structure?**  
+**Q2. [CONCEPT-RECURRING] Under the RBI Retail Direct Scheme launched in November 2021, individual retail investors can open a Retail Direct Gilt (RDG) Account directly with the RBI at what fee structure?**  
 A. Annual maintenance fee of ₹500  
 B. Flat transaction fee of 0.10% on every auction bid  
 C. Completely free of cost with zero account opening and zero maintenance charges  
 D. Security deposit of ₹10,000 refundable after 3 years  
 
-**Q3. In Indian financial markets, which specialized Self-Regulatory Organization (SRO) is responsible for publishing the daily benchmark yield curves and valuation matrices used by banks to mark-to-market their corporate bond portfolios?**  
+**Q3. [PYQ-RECOLLECTED / 2026 BENCHMARK] Under Reserve Bank of India directions, which authorized independent benchmark administrator is responsible for calculating and publishing the official daily benchmark yield curves and valuations for Indian Government Securities (G-Secs, T-Bills, SDLs) used by banks for mark-to-market portfolio accounting?**  
 A. Indian Banks' Association (IBA)  
-B. Fixed Income Money Market and Derivatives Association of India (FIMMDA)  
+B. Financial Benchmarks India Private Limited (FBIL)  
 C. Association of Mutual Funds in India (AMFI)  
 D. National Stock Exchange of India (NSE)  
 
-**Q4. Inter-Corporate Deposits (ICDs) transacted between domestic companies are statutorily regulated under which of the following enactments?**  
+**Q4. [CONCEPT-RECURRING] Inter-Corporate Deposits (ICDs) transacted between domestic companies are statutorily regulated under which of the following enactments?**  
 A. Reserve Bank of India Act, 1934  
 B. Securities and Exchange Board of India Act, 1992  
 C. Section 186 of the Companies Act, 2013  
@@ -144,5 +147,5 @@ D. Banking Regulation Act, 1949
 
 • **Q1 — Answer: C.** For any zero-coupon bond, because all cash flow is received at the maturity date with zero intermediate coupons, the Macaulay Duration is mathematically identical to its maturity (8 years).  
 • **Q2 — Answer: C.** The RBI Retail Direct Scheme offers retail investors zero-cost access to sovereign debt, with zero account opening and zero maintenance fees.  
-• **Q3 — Answer: B.** FIMMDA computes and publishes daily benchmark yield curves for G-Secs and corporate bonds, establishing standard mark-to-market valuations for banks.  
+• **Q3 — Answer: B.** Effective 31 March 2018, FBIL took over administration and publication of daily benchmark valuation curves for G-Secs, SDLs, and T-Bills under RBI oversight. (FIMMDA is an industry SRO that historically published G-Sec valuations prior to March 2018 and currently provides corporate bond valuation spreads).  
 • **Q4 — Answer: C.** Inter-Corporate Deposits represent bilateral loans between corporate bodies governed under Section 186 of the Companies Act, 2013.

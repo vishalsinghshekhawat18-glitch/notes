@@ -21,7 +21,7 @@ The mechanics of price determination in market economies depend on the interacti
 • **Law of Supply:** Ceteris paribus, as the price of a commodity increases, producers expand quantity supplied, generating an upward-sloping supply curve:
   $$\frac{\Delta Q_s}{\Delta P} > 0$$
 • **Movement Along vs. Shift in Curves:**
-  - *Movement Along Curve:* Caused **solely by changes in the commodity's own price** (Expansion/Contraction of demand).
+  - *Movement Along Curve:* Caused **solely by changes in the commodity's own price** (Expansion/Contraction of quantity demanded).
   - *Shift of Curve:* Caused by changes in **external non-price variables** such as consumer income, tastes, input prices, or government taxes (Increase/Decrease in demand).
 
 ---
@@ -56,11 +56,11 @@ $$e_{\text{arc}} = - \frac{\frac{Q_2 - Q_1}{(Q_1 + Q_2)/2}}{\frac{P_2 - P_1}{(P_
 
 | Elasticity Value | Terminology | Description | Examples |
 | :--- | :--- | :--- | :--- |
-| **$e_p = 0$** | **Perfecty Inelastic** | Quantity demanded does not change at all when price changes (Vertical curve). | Life-saving insulin, salt. |
+| **$e_p = 0$** | **Perfectly Inelastic** | Quantity demanded does not change at all when price changes (Vertical curve). | Life-saving insulin, salt. |
 | **$0 < e_p < 1$** | **Relatively Inelastic** | Percentage change in quantity is smaller than percentage change in price (Steep curve). | Essential medicines, electricity, basic food staples. |
 | **$e_p = 1$** | **Unitary Elastic** | Percentage change in quantity equals percentage change in price (Rectangular Hyperbola). | Standard consumer items. |
 | **$e_p > 1$** | **Relatively Elastic** | Percentage change in quantity is greater than percentage change in price (Flatter curve). | Consumer electronics, airline leisure travel, luxury apparel. |
-| **$e_p = \infty$** | **Perfecty Elastic** | At a specific price, demand is infinite; any price hike reduces demand to zero (Horizontal curve). | Goods under Perfect Competition. |
+| **$e_p = \infty$** | **Perfectly Elastic** | At a specific price, demand is infinite; any price hike reduces demand to zero (Horizontal curve). | Goods under Perfect Competition. |
 
 #### D. Total Outlay / Expenditure Method (Alfred Marshall)
 
@@ -105,19 +105,19 @@ $$e_y = \frac{\% \Delta Q}{\% \Delta Y} = \frac{\Delta Q}{\Delta Y} \times \frac
 
 ### Unit 13 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. If the price of a banking financial service drops by 10% and the quantity demanded expands by 15%, the price elasticity of demand ($e_p$) for this service is:**  
+**Q1. [CONCEPT-RECURRING] If the price of a banking financial service drops by 10% and the quantity demanded expands by 15%, the price elasticity of demand ($e_p$) for this service is:**  
 A. 0.67 (Inelastic)  
 B. 1.00 (Unitary Elastic)  
 C. 1.50 (Elastic)  
 D. -0.67 (Inelastic)  
 
-**Q2. When the price of good Y increases from ₹20 to ₹25, the quantity demanded of good X increases from 100 units to 120 units. What is the cross-price elasticity of demand between X and Y, and what is their relationship?**  
+**Q2. [PYQ-RECOLLECTED] When the price of good Y increases from ₹20 to ₹25, the quantity demanded of good X increases from 100 units to 120 units. What is the cross-price elasticity of demand between X and Y, and what is their relationship?**  
 A. +0.80; Substitute goods  
 B. -0.80; Complementary goods  
 C. +1.25; Independent goods  
 D. -1.25; Inferior goods  
 
-**Q3. According to Alfred Marshall's Total Outlay Method, if a commercial bank reduces the interest rate on home loans and its total interest revenue collected decreases, the demand for home loans is:**  
+**Q3. [CONCEPT-RECURRING] According to Alfred Marshall's Total Outlay Method, if a commercial bank reduces the interest rate on home loans and its total interest revenue collected decreases, the demand for home loans is:**  
 A. Price elastic ($e_p > 1$)  
 B. Price inelastic ($e_p < 1$)  
 C. Unitary elastic ($e_p = 1$)  

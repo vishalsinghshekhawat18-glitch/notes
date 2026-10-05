@@ -56,19 +56,19 @@ Economics analyzes the allocation of scarce resources among competing ends to ma
 
 ### Unit 12 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. In Paul Sweezy's Kinked Demand Curve model of oligopolistic market behavior, the demand curve above the prevailing market price is:**  
+**Q1. [CONCEPT-RECURRING] In Paul Sweezy's Kinked Demand Curve model of oligopolistic market behavior, the demand curve above the prevailing market price is:**  
 A. Highly inelastic because rivals match any price increase  
 B. Perfectly inelastic because consumers have zero substitutes  
 C. Relatively elastic because rivals will not follow a price increase  
 D. A horizontal straight line indicating infinite supply at zero cost  
 
-**Q2. Under perfect competition, which of the following mathematical identities holds true for an individual profit-maximizing firm in the short run?**  
+**Q2. [PYQ-RECOLLECTED] Under perfect competition, which of the following mathematical identities holds true for an individual profit-maximizing firm in the short run?**  
 A. Price = Average Revenue = Marginal Revenue  
 B. Price > Marginal Revenue = Marginal Cost  
 C. Price = Average Cost > Marginal Revenue  
 D. Marginal Revenue = Average Cost > Price  
 
-**Q3. Consider the following economic statements:**  
+**Q3. [CONCEPT-RECURRING] Consider the following economic statements:**  
 Statement I: "The Reserve Bank of India reduced the policy repo rate by 25 basis points in response to falling inflation."  
 Statement II: "The central government ought to provide universal basic income to protect unorganized workers from inflation."  
 Which of the following correctly classifies these statements?  

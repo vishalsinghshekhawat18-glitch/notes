@@ -115,25 +115,25 @@ The Banking Regulation Act, 1949 comprises **Sections 1 to 56** organized across
 
 ### Unit 22 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under Section 22 of the Reserve Bank of India Act, 1934, which of the following denominations of currency is NOT issued by the Reserve Bank of India?**  
+**Q1. [PYQ-RECOLLECTED / STATUTORY MONOPOLY] Under Section 22 of the Reserve Bank of India Act, 1934, which of the following denominations of currency is NOT issued by the Reserve Bank of India?**  
 A. ₹10 Bank Note  
 B. ₹500 Bank Note  
 C. ₹1 Currency Note  
 D. ₹200 Bank Note  
 
-**Q2. Under Section 9 of the Banking Regulation Act, 1949, what is the maximum initial statutory period within which a banking company must dispose of any non-banking immovable property acquired in satisfaction of its claims?**  
+**Q2. [PYQ-RECOLLECTED / BR ACT S.9] Under Section 9 of the Banking Regulation Act, 1949, what is the maximum initial statutory period within which a banking company must dispose of any non-banking immovable property acquired in satisfaction of its claims?**  
 A. 3 years  
 B. 5 years  
 C. 7 years  
 D. 10 years  
 
-**Q3. Under Section 17 of the Banking Regulation Act, 1949, what minimum percentage of its annual net profit must a banking company transfer to the Statutory Reserve Fund before declaring any dividend (and what is the RBI-notified percentage)?**  
+**Q3. [CONCEPT-RECURRING / RESERVE FUND] Under Section 17 of the Banking Regulation Act, 1949, what minimum percentage of its annual net profit must a banking company transfer to the Statutory Reserve Fund before declaring any dividend (and what is the RBI-notified percentage)?**  
 A. 15% as per statute; 20% as per RBI  
 B. 20% as per statute; 25% as per RBI  
 C. 25% as per statute; 30% as per RBI  
 D. 10% as per statute; 20% as per RBI  
 
-**Q4. Consider the following statements regarding the powers of the Reserve Bank of India under statutory banking law:**  
+**Q4. [CONCEPT-RECURRING / GOVERNANCE POWERS] Consider the following statements regarding the powers of the Reserve Bank of India under statutory banking law:**  
 Statement I: Under Section 20 of the Banking Regulation Act, 1949, a commercial bank is legally permitted to grant personal loans against the security of its own equity shares.  
 Statement II: Under Section 36AA of the Banking Regulation Act, 1949, the RBI has the statutory power to remove any Director, Chairman, or Chief Executive Officer of a banking company in the public interest.  
 Which of the statements given above is/are correct?  
@@ -142,7 +142,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q5. Under Section 26A of the Banking Regulation Act, 1949, bank deposit accounts that have remained completely inoperative for what period are credited to the Depositor Education and Awareness (DEA) Fund?**  
+**Q5. [2026 BENCHMARK / DEA FUND] Under Section 26A of the Banking Regulation Act, 1949, bank deposit accounts that have remained completely inoperative for what period are credited to the Depositor Education and Awareness (DEA) Fund?**  
 A. 3 years  
 B. 5 years  
 C. 7 years  

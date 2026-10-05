@@ -109,25 +109,25 @@ The Scale-Based Regulation (SBR) framework categorizes NBFCs into four tiers bas
 
 ### Unit 24 & Unit 25 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the Reserve Bank of India's Scale-Based Regulation (SBR) framework for NBFCs, which entities are mandatorily included in the Upper Layer (NBFC-UL)?**  
+**Q1. [2026 BENCHMARK / SBR PYRAMID] Under the Reserve Bank of India's Scale-Based Regulation (SBR) framework for NBFCs, which entities are mandatorily included in the Upper Layer (NBFC-UL)?**  
 A. The top 50 non-deposit taking NBFCs ranked strictly by net profit  
 B. The top ten eligible NBFCs by asset size, plus other entities identified through systemic scoring  
 C. All deposit-taking NBFCs with asset size exceeding ₹500 Crore  
 D. All Peer-to-Peer lending platforms and Account Aggregators  
 
-**Q2. Under the RBI Harmonized Regulatory Framework for Microfinance Loans effective 1 April 2022, what is the uniform annual household income limit to qualify for a collateral-free microfinance loan?**  
+**Q2. [PYQ-RECOLLECTED / MFI UNIFORM LIMIT] Under the RBI Harmonized Regulatory Framework for Microfinance Loans effective 1 April 2022, what is the uniform annual household income limit to qualify for a collateral-free microfinance loan?**  
 A. ₹1,25,000 for rural and ₹2,00,000 for urban households  
 B. ₹2,00,000 across all centres  
 C. ₹3,00,000 across both rural and urban households  
 D. ₹5,00,000 across all centres  
 
-**Q3. Under the Co-Lending Model (CLM) between Scheduled Commercial Banks and NBFCs for priority sector lending, what is the mandatory minimum share of individual loans that the NBFC must retain on its own balance sheet?**  
+**Q3. [CONCEPT-RECURRING / CO-LENDING 80:20] Under the Co-Lending Model (CLM) between Scheduled Commercial Banks and NBFCs for priority sector lending, what is the mandatory minimum share of individual loans that the NBFC must retain on its own balance sheet?**  
 A. 10%  
 B. 20%  
 C. 30%  
 D. 50%  
 
-**Q4. Consider the following statements regarding Non-Banking Financial Companies (NBFCs):**  
+**Q4. [CONCEPT-RECURRING / NBFC DEPOSIT TRAPS] Consider the following statements regarding Non-Banking Financial Companies (NBFCs):**  
 Statement I: NBFCs passing the 50-50 Principal Business Test are permitted to accept demand deposits (savings and current accounts) from the general public.  
 Statement II: Fixed deposits accepted by deposit-taking NBFCs (NBFC-D) are covered by deposit insurance provided by the DICGC up to ₹5 Lakh per depositor.  
 Which of the statements given above is/are correct?  

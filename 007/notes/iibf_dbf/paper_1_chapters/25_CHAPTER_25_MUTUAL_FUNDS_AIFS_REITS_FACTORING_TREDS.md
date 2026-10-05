@@ -110,15 +110,28 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 
 ---
 
-### 2. Alternative Investment Funds (AIFs) — Three SEBI Categories
+### 2. Alternative Investment Funds (AIFs) — Three SEBI Categories & Quantitative Baselines
 
 Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 
 | Category | Permissible Fund Types & Objective | Leverage & Regulatory Stance |
 | :--- | :--- | :--- |
-| **Category I AIF** | **Venture Capital Funds, SME Funds, Social Venture Funds, Infrastructure Funds.** Funds that invest in sectors viewed by government as economically beneficial. | Cannot borrow or employ leverage except for temporary working capital (max 30 days). Eligible for government incentives. |
-| **Category II AIF** | **Private Equity (PE) Funds, Debt Funds, Real Estate Funds, Funds of Funds.** Standard private investment vehicles. | Cannot employ leverage except for meeting temporary operational requirements. |
-| **Category III AIF** | **Hedge Funds, PIPE Funds, Complex Derivative Trading Funds.** Employs diverse and complex trading strategies. | **Permitted to employ leverage** and complex derivative strategies (subject to SEBI exposure caps). |
+| **Category I AIF** | **Venture Capital Funds, SME Funds, Social Venture Funds, Infrastructure Funds.** Funds that invest in sectors viewed by government as economically beneficial. | Cannot borrow or employ leverage except for temporary working capital (max 30 days, max 10% of investible funds). Eligible for tax pass-through status. |
+| **Category II AIF** | **Private Equity (PE) Funds, Debt Funds, Real Estate Funds, Funds of Funds.** Standard private investment vehicles. | Cannot employ leverage except for meeting temporary operational requirements (max 30 days). Eligible for tax pass-through status. |
+| **Category III AIF** | **Hedge Funds, PIPE Funds, Complex Derivative Trading Funds.** Employs diverse and complex trading strategies. | **Permitted to employ leverage** and complex derivative strategies (subject to SEBI gross exposure cap of 2 times the NAV). |
+
+• **AIF Core Quantitative Baselines:**
+  - **Minimum Scheme Corpus:** At least **₹20 Crore** for each scheme of Category I, Category II, and Category III AIFs (except **Angel Funds**, where the minimum corpus is **₹5 Crore**).
+  - **Minimum Investment Ticket Size:**
+    - Standard Investors: Minimum **₹1 Crore** per investor.
+    - Employees/Directors of AIF or AMC: Minimum **₹25 Lakh**.
+    - Angel Funds: Minimum **₹25 Lakh** per angel investor.
+  - **Maximum Investor Headcount:** Capped at **1,000 investors** per scheme (except Angel Funds, capped at **200 angel investors**).
+  - **Sponsor / Manager Continuing Interest ('Skin in the Game'):**
+    - *Category I & II:* At least **2.5% of corpus or ₹5 Crore**, whichever is lower.
+    - *Category III:* At least **5.0% of corpus or ₹10 Crore**, whichever is lower.
+    - *Angel Funds:* At least **2.5% of corpus or ₹50 Lakh**, whichever is lower.
+  - **Fund Tenure:** Categories I and II are strictly **close-ended** with a minimum tenure of **3 years**. Category III funds may be open-ended or close-ended.
 
 ---
 
@@ -131,7 +144,9 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 
 • **Asset Composition Rule:** At least **80% of the aggregate value of assets** must be invested in **completed, revenue-generating commercial real estate or infrastructure projects**. A maximum of **20%** may be held in under-construction properties, equity of listed entities, or debt.  
 • **Mandatory Distribution of Cash Flows:** Both REITs and InvITs must distribute at least **90% of their Net Distributable Cash Flows (NDCF)** to unit holders at least once every six months (quarterly for REITs).  
-• **Borrowing Leverage Cap:** Aggregate borrowings of a REIT cannot exceed **49% of the total value of the REIT assets** (borrowings exceeding 25% require credit rating and unit-holder approval).
+• **Borrowing Leverage Norms & SEBI 2026 InvIT Nuance:**
+  - *Standard Baseline:* Aggregate consolidated net debt of a REIT or InvIT cannot exceed **49% of the total value of assets** (if borrowings exceed 25%, credit rating and unitholder approval are mandatory).
+  - *InvIT Borrowing Exception (SEBI Framework & May 15, 2026 Circular):* An InvIT is permitted to leverage beyond 49% up to a maximum ceiling of **70% of asset value**, provided it satisfies strict prudential conditions: (1) consolidated debt must hold a **mandatory 'AAA' (or equivalent) credit rating**; (2) track record of at least **6 consecutive distributions** to unitholders; and (3) prior approval of unitholders with a **supermajority of at least 75% by value**.
 
 ---
 
@@ -142,30 +157,31 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 3. **Trap — Hire Purchase Ownership Timing:** In hire purchase, legal ownership does **NOT** transfer on contract signing or down payment; it transfers **only when the last hire installment is fully paid**.
 4. **Trap — REIT 80% & 90% Rules:** At least **80%** of asset value must be in completed revenue-generating assets; and at least **90%** of Net Distributable Cash Flows must be distributed to investors.
 5. **Trap — AIF Category Permitted to Use Leverage:** Only **Category III AIFs (Hedge Funds)** are permitted to employ leverage; Categories I and II cannot use leverage.
+6. **Trap — AIF Minimum Ticket & Corpus:** Standard AIF schemes require a **minimum corpus of ₹20 Crore** (₹5 Cr for Angel Funds) and a **minimum investor ticket of ₹1 Crore** (₹25 Lakh for Angel Funds).
 
 ---
 
 ### Unit 37, 38, 39, 41 & 45 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under SEBI regulations, which category of Alternative Investment Funds (AIFs) is legally permitted to employ leverage to execute complex trading and hedging strategies?**  
+**Q1. [CONCEPT-RECURRING] Under SEBI regulations, which category of Alternative Investment Funds (AIFs) is legally permitted to employ leverage to execute complex trading and hedging strategies?**  
 A. Category I AIF  
 B. Category II AIF  
 C. Category III AIF  
 D. All AIF categories equally  
 
-**Q2. Under SEBI (Real Estate Investment Trusts) Regulations, what minimum percentage of the total value of REIT assets must be invested in completed, revenue-generating commercial properties?**  
+**Q2. [PYQ-RECOLLECTED] Under SEBI (Real Estate Investment Trusts) Regulations, what minimum percentage of the total value of REIT assets must be invested in completed, revenue-generating commercial properties?**  
 A. 50%  
 B. 60%  
 C. 75%  
 D. 80%  
 
-**Q3. In international trade finance, which of the following represents a defining characteristic of Forfaiting in contrast to domestic factoring?**  
+**Q3. [PYQ-RECOLLECTED] In international trade finance, which of the following represents a defining characteristic of Forfaiting in contrast to domestic factoring?**  
 A. It is short-term factoring with full recourse to the seller  
 B. It is medium-to-long term trade discounting executed strictly without recourse to the exporter  
 C. It involves sales ledger administration for domestic retail debtors  
 D. It is regulated exclusively by the Ministry of MSME  
 
-**Q4. Consider the following statements regarding Lease Financing and Hire Purchase:**  
+**Q4. [CONCEPT-RECURRING] Consider the following statements regarding Lease Financing and Hire Purchase:**  
 Statement I: In lease financing, legal ownership of the asset passes to the lessee upon payment of the first lease rental installment.  
 Statement II: In hire purchase, legal ownership remains with the vendor and passes to the hirer only upon payment of the final installment.  
 Which of the statements given above is/are correct?  

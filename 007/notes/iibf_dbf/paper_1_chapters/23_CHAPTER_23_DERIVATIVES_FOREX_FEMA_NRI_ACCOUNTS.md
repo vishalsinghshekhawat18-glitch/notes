@@ -36,7 +36,7 @@ Foreign exchange and derivative markets enable cross-border trade settlements, c
 | **Permitted Deposit Source** | Inward remittances from abroad in foreign exchange, or transfers from another NRE/FCNR account. | Inward remittances AND **legitimate local Indian earnings** (rent, dividends, pension). | Inward remittances in designated foreign currency. |
 | **Repatriability of Funds** | **100% Freely and Fully Repatriable** (Principal and interest can be sent abroad freely). | **Restricted Repatriability:** Current income is repatriable; capital is capped at **$1 Million USD per financial year** (with tax certificate Form 15CA/15CB). | **100% Freely and Fully Repatriable** (Principal and interest can be remitted overseas). |
 | **Foreign Exchange Risk** | Borne by the **Depositor / NRI** (Currency converted to INR on deposit and converted back on withdrawal). | Borne by the **Depositor / NRI**. | Borne entirely by the **Bank**! The depositor faces **ZERO foreign exchange risk**. |
-| **Indian Income Tax Status** | **Completely Tax-Free** (Interest earned is 100% exempt from Indian Income Tax under Section 10(4)). | **Taxable:** Subject to **TDS (Tax Deducted at Source)** at 30% plus surcharge/cess (or lower rate under DTAA). | **Completely Tax-Free** (Interest earned is 100% exempt from Indian Income Tax). |
+| **Indian Income Tax Status** | **Completely Tax-Free** (Interest earned is 100% exempt from Indian Income Tax under Section 10(4)). | **Taxable:** Subject to applicable **TDS (Tax Deducted at Source)** (typically 30% plus surcharge/cess, or lower withholding rates under applicable DTAA). | **Completely Tax-Free** (Interest earned is 100% exempt from Indian Income Tax). |
 | **Permitted Tenor Range** | Term deposits: Minimum **1 Year** up to Maximum **10 Years**. | Standard bank term deposit tenors (7 days up to 10 years). | **Minimum 1 Year up to Maximum 5 Years**. |
 | **Joint Account Holding** | Permitted jointly with other NRIs, or with resident Indian relative on **'Former or Survivor' basis**. | Permitted jointly with other NRIs or resident Indian relatives. | Permitted with other NRIs, or with resident relative on **'Former or Survivor' basis**. |
 
@@ -89,7 +89,7 @@ An **Option** confers the right, but not the obligation, to buy (**Call Option**
 
 ### Examiner Trap Vault: Unit 33 & Unit 36 High-Yield Distractors
 
-1. **Trap — NRE vs NRO Tax Treatment:** Interest earned on **NRE accounts is 100% EXEMPT from Indian income tax**, whereas interest on **NRO accounts is TAXABLE (subject to 30% TDS)**.
+1. **Trap — NRE vs NRO Tax Treatment:** Interest earned on **NRE accounts is 100% EXEMPT from Indian income tax**, whereas interest on **NRO accounts is TAXABLE (subject to applicable TDS / DTAA rates)**.
 2. **Trap — FCNR(B) Foreign Exchange Risk:** The depositor bears **ZERO exchange risk** in an FCNR(B) account because deposits and withdrawals are denominated in foreign currency; the commercial bank bears the currency risk.
 3. **Trap — FCNR(B) Account Types:** FCNR(B) accounts can ONLY be opened as **Term / Fixed Deposits** (Minimum 1 year to Maximum 5 years). An option stating savings accounts are permitted in FCNR(B) is **false**.
 4. **Trap — Spot Settlement Day:** Foreign exchange Spot transactions settle on the **second working business day ($T+2$)**, not next day ($T+1$).
@@ -99,25 +99,25 @@ An **Option** confers the right, but not the obligation, to buy (**Call Option**
 
 ### Unit 33 & Unit 36 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. An NRI wishes to deposit overseas savings into an Indian commercial bank, earn tax-free interest in foreign currency without facing any currency exchange risk, and have 100% repatriation rights. Which account must they open?**  
+**Q1. [PYQ-RECOLLECTED] An NRI wishes to deposit overseas savings into an Indian commercial bank, earn tax-free interest in foreign currency without facing any currency exchange risk, and have 100% repatriation rights. Which account must they open?**  
 A. Non-Resident Ordinary (NRO) Account  
 B. Non-Resident External (NRE) Savings Account  
 C. Foreign Currency Non-Resident Bank [FCNR(B)] Account  
 D. Resident Foreign Currency (RFC) Account  
 
-**Q2. Under the Foreign Exchange Management Act (FEMA), 1999, how are statutory violations classified in contrast to the earlier FERA, 1973?**  
+**Q2. [CONCEPT-RECURRING] Under the Foreign Exchange Management Act (FEMA), 1999, how are statutory violations classified in contrast to the earlier FERA, 1973?**  
 A. Criminal offenses punishable with mandatory imprisonment without bail  
 B. Non-compoundable economic offenses tried exclusively in Special Military Courts  
 C. Civil contraventions remediable through monetary compounding and adjudication penalties  
 D. Sovereign treason subject to immediate cancellation of passport  
 
-**Q3. In financial derivatives risk management, which Option Greek measures the sensitivity of an option's price to the passage of time (time decay)?**  
+**Q3. [CONCEPT-RECURRING] In financial derivatives risk management, which Option Greek measures the sensitivity of an option's price to the passage of time (time decay)?**  
 A. Delta  
 B. Gamma  
 C. Theta  
 D. Vega  
 
-**Q4. Consider the following statements regarding Non-Resident Indian deposit accounts:**  
+**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding Non-Resident Indian deposit accounts:**  
 Statement I: Interest income earned on an NRE fixed deposit account is 100% exempt from Indian Income Tax under Section 10(4) of the Income Tax Act.  
 Statement II: Capital funds held in an NRO account can be repatriated overseas up to a statutory ceiling of $1 Million USD per financial year.  
 Which of the statements given above is/are correct?  

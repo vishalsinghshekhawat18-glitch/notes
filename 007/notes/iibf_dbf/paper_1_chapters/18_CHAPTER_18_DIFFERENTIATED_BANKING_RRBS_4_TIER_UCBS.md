@@ -75,25 +75,25 @@ Following the recommendations of the **Committee on Comprehensive Financial Serv
 
 ### Unit 21b Practice Questions (IIBF DB&F Pattern)
 
-**Q1. What is the statutory equity shareholding pattern in Regional Rural Banks (RRBs) established under the Regional Rural Banks Act, 1976?**  
+**Q1. [PYQ-RECOLLECTED / RRB SHAREHOLDING] What is the statutory equity shareholding pattern in Regional Rural Banks (RRBs) established under the Regional Rural Banks Act, 1976?**  
 A. Central Govt: 51%, State Govt: 25%, Sponsor Bank: 24%  
 B. Central Govt: 50%, Sponsor Bank: 35%, State Govt: 15%  
 C. Central Govt: 60%, Sponsor Bank: 20%, State Govt: 20%  
 D. Central Govt: 33.3%, Sponsor Bank: 33.3%, State Govt: 33.4%  
 
-**Q2. Under the Reserve Bank of India's 4-Tier regulatory framework for Primary Urban Co-operative Banks (UCBs), a cooperative bank with total deposits of ₹450 Crore is classified under:**  
+**Q2. [CONCEPT-RECURRING / 4-TIER UCB] Under the Reserve Bank of India's 4-Tier regulatory framework for Primary Urban Co-operative Banks (UCBs), a cooperative bank with total deposits of ₹450 Crore is classified under:**  
 A. Tier 1 UCB  
 B. Tier 2 UCB  
 C. Tier 3 UCB  
 D. Tier 4 UCB  
 
-**Q3. Under RBI guidelines governing Payment Banks, which of the following activities is strictly prohibited?**  
+**Q3. [PYQ-RECOLLECTED / PAYMENT BANK PROHIBITIONS] Under RBI guidelines governing Payment Banks, which of the following activities is strictly prohibited?**  
 A. Issuing Rupay Debit Cards linked to savings accounts  
 B. Accepting demand deposits up to ₹2,00,000 per customer  
 C. Providing utility bill payment and domestic inward remittance services  
 D. Granting personal housing loans or issuing revolving credit cards  
 
-**Q4. Consider the following regulatory requirements for Small Finance Banks (SFBs):**  
+**Q4. [2026 BENCHMARK / SFB PORTFOLIO] Consider the following regulatory requirements for Small Finance Banks (SFBs):**  
 Statement I: SFBs are required to achieve a Priority Sector Lending target of 75% of ANBC/CEOBE.  
 Statement II: SFBs must deploy at least 50% of their total loan portfolio in advances of up to ₹25 Lakh.  
 Which of the statements given above is/are correct?  

@@ -37,7 +37,7 @@ The transformation of the Indian economy from a closed, state-directed structure
 
 • **Insolvency and Bankruptcy Code (IBC), 2016:** Shifted corporate restructuring from 'debtor-in-possession' to 'creditor-in-control', mandating a 180/330-day resolution timeline under NCLT.  
 • **Goods and Services Tax (GST), 2017:** Subsumed 17 central and state indirect levies into a unified destination-based tax under the cooperative federalism of the GST Council.  
-• **Digital Public Infrastructure (DPI):** The JAM Trinity (Jan Dhan, Aadhaar, Mobile) and UPI rails transformed welfare transfers via Direct Benefit Transfer (DBT), eliminating leakages.  
+• **Digital Public Infrastructure (DPI):** The JAM Trinity (Jan Dhan, Aadhaar, Mobile) and UPI rails transformed welfare transfers via Direct Benefit Transfer (DBT), substantially reducing leakages and delivery friction.  
 • **Production Linked Incentive (PLI) Schemes:** Performance-linked manufacturing subsidies across 14 strategic sectors (semiconductors, electronics, solar, pharmaceuticals) to foster domestic scale.
 
 ---
@@ -88,12 +88,12 @@ The transformation of the Indian economy from a closed, state-directed structure
 
 • **Distress Migration:** Driven by agrarian unviability, seasonal crop failure, and rural debt, millions of circular migrant workers move to Tier-I urban centres, resulting in the proliferation of informal slums and overburdening municipal utilities.  
 • **Environmental and Resource Degradation:**
-  - *Groundwater Stress:* India extracts more groundwater than China and the USA combined (~25% of global extraction), driven by electricity subsidies for tube wells in the Green Revolution belt.
+  - *Groundwater Stress:* India extracts more groundwater than China and the USA combined (~25% of global extraction as per UN World Water Development Report & Central Ground Water Board benchmarks), driven by electricity subsidies for tube wells in the Green Revolution belt.
   - *Composite Water Management Index (CWMI):* NITI Aayog warned of severe water stress across 21 major cities.
 
 ### 6. Pandemic Economic Shock & Recovery Trajectory
 
-• **COVID-19 Disruption:** Stringent national lockdowns in FY 2020–21 led to a historic GDP contraction of -5.8%. Unorganized workers, MSMEs, and contact-intensive services suffered severe cash flow crunches.  
+• **COVID-19 Disruption:** Stringent national lockdowns in FY 2020–21 led to a historic GDP contraction of -5.8% (as reported in MoSPI National Accounts statistics). Unorganized workers, MSMEs, and contact-intensive services suffered severe cash flow crunches.  
 • **The K-Shaped Recovery:**
   - Upper Arm of the 'K': Formal listed corporations, IT/tech firms, and capital-intensive industries experienced record profits and rapid digital scaling.
   - Lower Arm of the 'K': Informal labor, rural micro-enterprises, and unorganized service workers experienced wage stagnation and depleted household savings.  
@@ -114,19 +114,19 @@ The transformation of the Indian economy from a closed, state-directed structure
 
 ### Unit 07 & Unit 11 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. In the evolution of poverty estimation in India, the Suresh Tendulkar Committee (2009) departed from earlier methodologies by:**  
+**Q1. [CONCEPT-RECURRING] In the evolution of poverty estimation in India, the Suresh Tendulkar Committee (2009) departed from earlier methodologies by:**  
 A. Relying strictly on minimum daily calorie intake norms of 2,400 kcal in rural areas  
 B. Moving away from calorie anchors to Monthly Per Capita Consumption Expenditure (MPCE) incorporating health and education  
 C. Using the Multidimensional Poverty Index based on 12 indicators  
 D. Defining poverty exclusively on the ownership of agricultural land  
 
-**Q2. Under the National Multidimensional Poverty Index (MPI) formulated by NITI Aayog, which of the following indicators is an India-specific addition to the global Oxford/UNDP MPI framework?**  
+**Q2. [PYQ-RECOLLECTED] Under the National Multidimensional Poverty Index (MPI) formulated by NITI Aayog, which of the following indicators is an India-specific addition to the global Oxford/UNDP MPI framework?**  
 A. Nutrition  
 B. Years of Schooling  
 C. Electricity  
 D. Antenatal Care / Maternal Health and Bank Account  
 
-**Q3. Consider the following statements regarding the 1991 economic structural adjustments in India:**  
+**Q3. [CONCEPT-RECURRING] Consider the following statements regarding the 1991 economic structural adjustments in India:**  
 Statement I: India accepted IMF Article VIII obligations in August 1994, achieving full Current Account Convertibility.  
 Statement II: The Industrial Policy Resolution of 1991 abolished industrial licensing for all domestic industries without any exceptions.  
 Which of the statements given above is/are correct?  
@@ -135,7 +135,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q4. The Gini Coefficient of an economy is mathematically derived from which of the following graphical representations?**  
+**Q4. [PYQ-RECOLLECTED] The Gini Coefficient of an economy is mathematically derived from which of the following graphical representations?**  
 A. The Phillips Curve  
 B. The Lorenz Curve  
 C. The Laffer Curve  

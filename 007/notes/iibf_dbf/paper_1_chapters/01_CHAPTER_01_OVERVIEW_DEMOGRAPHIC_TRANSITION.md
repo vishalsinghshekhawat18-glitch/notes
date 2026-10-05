@@ -18,10 +18,10 @@ As per the **Ministry of Statistics and Programme Implementation (MoSPI)**, **Sa
 | **Total Population** | ~1,435+ Million (World's #1 populous nation) | World's largest domestic consumer market and aggregate labor pool. |
 | **Share of Global Population** | ~17.7% of World Population | Approximately 1 in every 6 human beings resides in India. |
 | **Share of Global Surface Area** | 2.4% of World Landmass | High demographic density (~435 persons/km²), exerting pressure on resources. |
-| **Total Fertility Rate (TFR)** | **2.0** (NFHS-5 / MoHFW) vs 2.1 Replacement Level | Below replacement rate; national population projected to peak around ~2060. |
+| **Total Fertility Rate (TFR)** | **2.0** (NFHS-5, 2019–21 estimate) vs 2.1 Replacement Level | Below replacement rate; national population projected to peak around ~2060. |
 | **Median Age** | **~28.7 Years** | Youngest among major economies, establishing the demographic dividend. |
 | **Working Age Population (15–64 yrs)** | **> 67%** of aggregate population | Favorable dependency ratio providing an economic window up to ~2047. |
-| **Nominal GDP Rank** | **5th globally** (advancing toward 3rd) | Third-largest on PPP basis (behind USA and China). |
+| **Nominal GDP Rank** | **5th globally** (advancing toward 3rd; MoSPI & IMF WEO 2025–2026 data) | Third-largest on PPP basis (behind USA and China). |
 
 ### 2. The Four-Stage Demographic Transition Model (DTM) & India's Position
 
@@ -56,13 +56,13 @@ In historical examinations of banking vulnerability, the impact of the **2008 Gl
 
 ### Unit 01 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. In the Demographic Transition Model (DTM), why is Census Year 1921 designated as the 'Year of the Great Divide' in Indian economic history?**  
+**Q1. [PYQ-RECOLLECTED] In the Demographic Transition Model (DTM), why is Census Year 1921 designated as the 'Year of the Great Divide' in Indian economic history?**  
 A. Because India's birth rate fell below the death rate for the first time  
 B. Because mortality began a structural decline, and population growth turned permanently positive  
 C. Because the first official census of British India was conducted in that year  
 D. Because India entered Stage 4 (Low Stationary) of demographic transition  
 
-**Q2. Consider the following statements regarding India's demographic indicators as per NFHS-5:**  
+**Q2. [CONCEPT-RECURRING] Consider the following statements regarding India's demographic indicators as per NFHS-5:**  
 Statement I: India's Total Fertility Rate (TFR) has declined to 2.0, which is below the replacement level of 2.1.  
 Statement II: The demographic dividend window in India is projected to close by 2030 due to an immediate increase in the dependency ratio.  
 Which of the statements given above is/are correct?  
@@ -71,7 +71,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q3. During the 2008 Global Financial Crisis, the Indian banking system remained fundamentally resilient primarily because:**  
+**Q3. [PYQ-RECOLLECTED] During the 2008 Global Financial Crisis, the Indian banking system remained fundamentally resilient primarily because:**  
 A. The Reserve Bank of India completely halted all foreign capital inflows  
 B. Indian commercial banks had negligible direct balance-sheet exposure to US subprime securitized credit assets under RBI prudential regulations  
 C. Domestic scheduled commercial banks held zero government securities in their portfolios  

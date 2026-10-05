@@ -225,7 +225,7 @@ export function buildFrontMatterHtml(): string {
 
       <div>
         <div class="edition-banner">
-          <div class="edition-text">SECOND REVISED PRINT EDITION • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
+          <div class="edition-text">THIRD REVISED PRINT EDITION (v3.0) • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
         </div>
         <div class="imprint">PUBLISHED UNDER THE CHARTER OF MIND OF ARAVALLI • SHELF 007 BASTION</div>
       </div>
@@ -245,6 +245,7 @@ export function buildFrontMatterHtml(): string {
       <div class="cip-box">
         <div class="cip-title">Cataloging-in-Publication Data (CIP)</div>
         <p><strong>Title:</strong> Indian Economy &amp; Indian Financial System (IE&amp;IFS): Book 02 — Master Curricular Monograph.</p>
+        <p><strong>Edition:</strong> Third Revised Print Edition (v3.0) • IIBF 2026 Rules &amp; Syllabus Official Benchmark (October 2026).</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 2).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 1 • Macroeconomics • Banking Law • Financial Markets.</p>
         <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (45 Units).</p>

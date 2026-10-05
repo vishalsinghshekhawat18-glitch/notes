@@ -144,25 +144,25 @@ Economic Activity
 
 ### Unit 16, 17 & 19 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. In business cycle forecasting, which of the following represents a 'Leading Indicator' of turning points in aggregate macroeconomic activity?**  
+**Q1. [CONCEPT-RECURRING] In business cycle forecasting, which of the following represents a 'Leading Indicator' of turning points in aggregate macroeconomic activity?**  
 A. Commercial banks' Gross Non-Performing Asset (GNPA) ratio  
 B. The national aggregate Unemployment Rate  
 C. Benchmark stock market indices and new manufacturing orders  
 D. Average lending interest rates charged by commercial banks  
 
-**Q2. Under the Reserve Bank of India's statutory Flexible Inflation Targeting framework, a failure to maintain the inflation target occurs when average headline CPI inflation:**  
+**Q2. [PYQ-RECOLLECTED] Under the Reserve Bank of India's statutory Flexible Inflation Targeting framework, a failure to maintain the inflation target occurs when average headline CPI inflation:**  
 A. Exceeds 6% in any two consecutive monthly releases  
 B. Remains outside the tolerance band of 2% to 6% for three consecutive quarters  
 C. Crosses 8% in any single financial year  
 D. Deviates from the 4% target by more than 100 basis points for two consecutive quarters  
 
-**Q3. If the Union Budget reports a Fiscal Deficit of ₹15,00,000 Crore and total Interest Payments on past debt amounting to ₹10,50,000 Crore, what is the Primary Deficit?**  
+**Q3. [CONCEPT-RECURRING] If the Union Budget reports a Fiscal Deficit of ₹15,00,000 Crore and total Interest Payments on past debt amounting to ₹10,50,000 Crore, what is the Primary Deficit?**  
 A. ₹25,50,000 Crore  
 B. ₹15,00,000 Crore  
 C. ₹4,50,000 Crore  
 D. ₹10,50,000 Crore  
 
-**Q4. Consider the following statements regarding the sovereign funds of the Government of India:**  
+**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding the sovereign funds of the Government of India:**  
 Statement I: Monies deposited in the Public Account of India (Article 266(2)) can be withdrawn only after Parliament passes a statutory Appropriation Act.  
 Statement II: The Contingency Fund of India is held on behalf of the President by the Secretary, Department of Economic Affairs, Ministry of Finance.  
 Which of the statements given above is/are correct?  

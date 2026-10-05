@@ -104,25 +104,25 @@ In July 2022, the RBI introduced a regulatory framework permitting invoice, paym
 
 ### Unit 06, 08 & 09 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the World Trade Organization (WTO) Agreement on Agriculture (AoA), which category of agricultural support subsidies is considered trade-distorting and subject to strict 'De Minimis' percentage reduction limits?**  
+**Q1. [PYQ-RECOLLECTED] Under the World Trade Organization (WTO) Agreement on Agriculture (AoA), which category of agricultural support subsidies is considered trade-distorting and subject to strict 'De Minimis' percentage reduction limits?**  
 A. Green Box subsidies  
 B. Blue Box subsidies  
 C. Amber Box subsidies  
 D. Special and Differential Treatment Box subsidies  
 
-**Q2. Which of the following institutions comprising the World Bank Group is India NOT a member of?**  
+**Q2. [PYQ-RECOLLECTED] Which of the following institutions comprising the World Bank Group is India NOT a member of?**  
 A. International Development Association (IDA)  
 B. Multilateral Investment Guarantee Agency (MIGA)  
 C. International Finance Corporation (IFC)  
 D. International Centre for Settlement of Investment Disputes (ICSID)  
 
-**Q3. Under the Reserve Bank of India's Special Rupee Vostro Account (SRVA) mechanism introduced in July 2022, surplus INR balances held by foreign correspondent banks can be invested in:**  
+**Q3. [CONCEPT-RECURRING] Under the Reserve Bank of India's Special Rupee Vostro Account (SRVA) mechanism introduced in July 2022, surplus INR balances held by foreign correspondent banks can be invested in:**  
 A. Only overseas foreign currency sovereign bonds  
 B. Government Securities (G-Secs) and Treasury Bills issued by the Government of India  
 C. Real estate residential properties in metropolitan cities  
 D. Speculative foreign exchange currency futures contracts  
 
-**Q4. Consider the following statements regarding the Foreign Trade Policy (FTP) 2023:**  
+**Q4. [CONCEPT-RECURRING] Consider the following statements regarding the Foreign Trade Policy (FTP) 2023:**  
 Statement I: The FTP 2023 sets an official national target of achieving $2 Trillion in aggregate exports by the year 2030.  
 Statement II: The maximum value limit for individual exports through courier and postal modes for e-commerce exporters has been set at ₹10 Lakh per consignment.  
 Which of the statements given above is/are correct?  

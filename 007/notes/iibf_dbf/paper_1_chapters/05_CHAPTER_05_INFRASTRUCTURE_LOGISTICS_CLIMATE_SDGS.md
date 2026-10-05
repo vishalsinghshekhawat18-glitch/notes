@@ -13,7 +13,7 @@ Infrastructure represents the foundational capital asset enabling economic produ
 
 | Strategic Initiative | Launch Year & Institutional Lead | Financial Outlay / Operational Scope | Strategic Policy Target |
 | :--- | :--- | :--- | :--- |
-| **National Infrastructure Pipeline (NIP)** | 2019–2025; Department of Economic Affairs (DEA) | **₹111 Lakh Crore** projected outlay across 6,800+ projects | **Capital Sharing:** Centre (39%), States (40%), Private Sector (21%). Energy (24%), Roads (19%), Urban (16%), Railways (13%). |
+| **National Infrastructure Pipeline (NIP)** | **2019–2025** *(Historical Benchmark Horizon)*; Department of Economic Affairs (DEA) | **₹111 Lakh Crore** projected outlay across 6,800+ projects | **Capital Sharing:** Centre (39%), States (40%), Private Sector (21%). Energy (24%), Roads (19%), Urban (16%), Railways (13%). |
 | **PM GatiShakti National Master Plan** | October 2021; DPIIT (Ministry of Commerce & Industry) | GIS-based digital multi-modal planning platform | Synchronizes 7 infrastructure engines (Roads, Railways, Airports, Ports, Mass Transport, Waterways, Logistics). |
 | **National Logistics Policy (NLP)** | September 2022; Ministry of Commerce & Industry | Comprehensive logistics efficiency framework | *Policy Aspirations:* Reduce national logistics cost from ~13–14% of GDP toward single digits (~8%); place India among top 25 nations in the World Bank Logistics Performance Index (LPI). |
 
@@ -53,10 +53,21 @@ At COP26 (Glasgow) and reaffirmed in updated Nationally Determined Contributions
 4. **45% Carbon Intensity Reduction:** Reduce carbon intensity of GDP by **45% by 2030** (over 2005 baseline levels).
 5. **Net Zero Carbon Target:** Achieve **Net Zero carbon emissions by 2070**.
 
-### 2. Green Finance & ESG Disclosure Architecture
+### 2. Green Finance & ESG Disclosure Architecture (SEBI BRSR Core Phased Framework)
 
 • **Sovereign Green Bonds (SGrBs):** Issued by the Reserve Bank of India on behalf of the Central Government. Proceeds are credited to the Consolidated Fund of India and exclusively deployed into public sector projects that reduce carbon intensity (Renewable energy, clean transport, green buildings).  
-• **Business Responsibility and Sustainability Reporting (BRSR):** Mandated by SEBI for the **Top 1,000 listed entities by market capitalization** on Indian stock exchanges. Includes **BRSR Core** requiring third-party reasonable assurance across 9 key ESG performance attributes.
+• **Business Responsibility and Sustainability Reporting (BRSR):** Mandated by SEBI for the **Top 1,000 listed entities by market capitalization** on Indian stock exchanges.  
+• **BRSR Core & Third-Party Reasonable Assurance Glide Path:**  
+  Introduced by SEBI in July 2023, **BRSR Core** comprises **9 key measurable ESG attributes / Key Performance Indicators (KPIs)** (GHG emissions, water usage, waste management, employee well-being, gender diversity, inclusive development). SEBI mandated independent third-party **Reasonable Assurance** for BRSR Core across a phased glide path:
+
+| Financial Year | Mandated Coverage for BRSR Core Reasonable Assurance |
+| :--- | :--- |
+| **FY 2023–24** | **Top 150 listed entities** by market capitalization |
+| **FY 2024–25** | **Top 250 listed entities** by market capitalization |
+| **FY 2025–26** | **Top 500 listed entities** by market capitalization |
+| **FY 2026–27** | **Top 1,000 listed entities** by market capitalization |
+
+*Note on Value Chain Disclosures:* In addition, ESG disclosures for value chains (upstream and downstream partners) apply to the top 250 listed entities on a 'comply-or-explain' basis from FY 2024–25, with limited assurance phased in from FY 2025–26.
 
 ### 3. Statutory Corporate Social Responsibility (CSR) — Section 135, Companies Act 2013
 
@@ -75,30 +86,31 @@ At COP26 (Glasgow) and reaffirmed in updated Nationally Determined Contributions
 2. **Trap — Net Zero Target Year:** India's official commitment for Net Zero greenhouse gas emissions is **2070** (not 2050 as pledged by Western economies).
 3. **Trap — CSR Applicability Criteria:** A company is covered if it breaches **any one** of the three criteria: Net Worth ₹500 Cr, Turnover ₹1,000 Cr, OR Net Profit ₹5 Cr.
 4. **Trap — CSR Committee Exemption:** If a company's annual CSR obligation does not exceed **₹50 Lakh**, it is **not mandatory** to constitute a separate CSR Committee; the Board discharges these functions directly.
+5. **Trap — BRSR Core FY 2025-26 Phase:** Third-party reasonable assurance for BRSR Core applies to the **Top 500 listed entities** in FY 2025–26 and extends to the **Top 1,000** in FY 2026–27.
 
 ---
 
 ### Unit 05 & Unit 10 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the Hybrid Annuity Model (HAM) widely deployed for highway infrastructure financing in India, what proportion of the project capital cost is provided as an inflation-linked grant by the government during the construction phase?**  
+**Q1. [CONCEPT-RECURRING] Under the Hybrid Annuity Model (HAM) widely deployed for highway infrastructure financing in India, what proportion of the project capital cost is provided as an inflation-linked grant by the government during the construction phase?**  
 A. 20%  
 B. 40%  
 C. 60%  
 D. 100%  
 
-**Q2. Under Section 135 of the Companies Act, 2013, which of the following companies is NOT legally mandated to spend at least 2% of its average net profits on Corporate Social Responsibility (CSR)?**  
+**Q2. [PYQ-RECOLLECTED] Under Section 135 of the Companies Act, 2013, which of the following companies is NOT legally mandated to spend at least 2% of its average net profits on Corporate Social Responsibility (CSR)?**  
 A. A company having a net worth of ₹550 Crore and net profit of ₹2 Crore  
 B. A company having an annual turnover of ₹1,200 Crore and net profit of ₹3 Crore  
 C. A company having a net worth of ₹300 Crore, turnover of ₹800 Crore, and net profit of ₹4 Crore  
 D. A company having a net profit of ₹6 Crore and turnover of ₹600 Crore  
 
-**Q3. Under India's 'Panchamrit' climate pledges, what is the mandated national target year to achieve Net Zero carbon emissions?**  
+**Q3. [CONCEPT-RECURRING] Under India's 'Panchamrit' climate pledges, what is the mandated national target year to achieve Net Zero carbon emissions?**  
 A. 2030  
 B. 2047  
 C. 2050  
 D. 2070  
 
-**Q4. Consider the following statements regarding the Ayushman Bharat PM-JAY health insurance scheme:**  
+**Q4. [CONCEPT-RECURRING / 2026 BENCHMARK] Consider the following statements regarding the Ayushman Bharat PM-JAY health insurance scheme:**  
 Statement I: The scheme provides health coverage up to ₹5 Lakh per family per year for secondary and tertiary care hospitalization.  
 Statement II: Individuals aged 70 years and above are eligible for ₹5 Lakh health cover under PM-JAY only if their annual household income is below ₹3 Lakh.  
 Which of the statements given above is/are correct?  

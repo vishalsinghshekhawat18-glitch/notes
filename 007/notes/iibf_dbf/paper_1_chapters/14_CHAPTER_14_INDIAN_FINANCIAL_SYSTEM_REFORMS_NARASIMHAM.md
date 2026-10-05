@@ -98,19 +98,19 @@ The **EASE Agenda** is an annual reform roadmap jointly driven by the **Departme
 
 ### Unit 20 & Unit 28 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. Under the dual institutional architecture of India's 'Bad Bank', which of the following statements correctly identifies the ownership structure of NARCL and IDRCL?**  
+**Q1. [CONCEPT-RECURRING] Under the dual institutional architecture of India's 'Bad Bank', which of the following statements correctly identifies the ownership structure of NARCL and IDRCL?**  
 A. Reserve Bank of India holds 51% in NARCL, and Ministry of Finance holds 51% in IDRCL  
 B. Public Sector Banks hold 51% equity in NARCL, while Private Sector Entities hold 51% equity in IDRCL  
 C. Private Sector Banks hold 51% equity in NARCL, while Public Sector Banks hold 51% equity in IDRCL  
 D. Both NARCL and IDRCL are 100% wholly-owned subsidiaries of the State Bank of India  
 
-**Q2. What is the statutory payment consideration structure when NARCL acquires stressed assets from commercial banks?**  
+**Q2. [PYQ-RECOLLECTED] What is the statutory payment consideration structure when NARCL acquires stressed assets from commercial banks?**  
 A. 100% upfront cash payment  
 B. 50% upfront cash and 50% in equity shares of the corporate debtor  
 C. 15% upfront cash and 85% in government-guaranteed Security Receipts (SRs)  
 D. 25% upfront cash and 75% in perpetual debt instruments  
 
-**Q3. The landmark Narasimham Committee I (1991) made which of the following recommendations for banking sector structural reform?**  
+**Q3. [CONCEPT-RECURRING] The landmark Narasimham Committee I (1991) made which of the following recommendations for banking sector structural reform?**  
 Statement I: Phased reduction of the Statutory Liquidity Ratio (SLR) to 25% and Cash Reserve Ratio (CRR) to 3%–5%.  
 Statement II: Introduction of a 90-day delinquency norm for classifying Non-Performing Assets (NPAs).  
 Statement III: Mandatory nationalization of all newly established private sector commercial banks.  
@@ -120,7 +120,7 @@ B. Statement II and III only
 C. Statement I and III only  
 D. Statement I, II and III  
 
-**Q4. Under the Enhanced Access and Service Excellence (EASE) reform agenda for Public Sector Banks, what was the primary thematic focus of EASE 1.0 launched in 2018?**  
+**Q4. [PYQ-RECOLLECTED] Under the Enhanced Access and Service Excellence (EASE) reform agenda for Public Sector Banks, what was the primary thematic focus of EASE 1.0 launched in 2018?**  
 A. Artificial intelligence and machine learning credit underwriting  
 B. Clean and Smart Banking focusing on transparent asset quality recognition and resolution  
 C. 100% privatization of state-owned commercial banks  
