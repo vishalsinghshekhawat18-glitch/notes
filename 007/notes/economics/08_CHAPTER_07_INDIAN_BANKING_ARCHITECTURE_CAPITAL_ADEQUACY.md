@@ -225,11 +225,13 @@ The Reserve Bank of India has historically maintained a more conservative, robus
 │ Minimum Tier 1 Capital                  │ 6.0% of RWA             │ **7.0% of RWA**         │
 ├─────────────────────────────────────────┼─────────────────────────┼─────────────────────────┤
 │ Minimum Total Capital (CRAR)            │ **8.0% of RWA**         │ **9.0% of RWA**         │
-│                                         │                         │ (12.0% for PSBs)        │
+│ (Statutory Regulatory Baseline)         │                         │ (All Commercial Banks)  │
 ├─────────────────────────────────────────┼─────────────────────────┼─────────────────────────┤
 │ Capital Conservation Buffer (CCB)       │ 2.5% of RWA (in CET1)   │ **2.5% of RWA (in CET1)**│
 ├─────────────────────────────────────────┼─────────────────────────┼─────────────────────────┤
-│ Total Capital + CCB Requirement         │ **10.5% of RWA**        │ **11.5% of RWA**        │
+│ Total Statutory Minimum + CCB           │ **10.5% of RWA**        │ **11.5% of RWA**        │
+│                                         │                         │ (PSBs: 12.0% prudential │
+│                                         │                         │ policy target)          │
 ├─────────────────────────────────────────┼─────────────────────────┼─────────────────────────┤
 │ Countercyclical Capital Buffer (CCCB)   │ 0% to 2.5% of RWA       │ 0% to 2.5% of RWA       │
 │                                         │                         │ (Activated in booms)    │
@@ -337,7 +339,7 @@ Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Acti
 > [!WARNING]
 > **TRAP 2: Global vs. Indian Basel III Minimum CRAR**
 > *Exam Trap*: "Under Basel III norms, the RBI mandates a minimum Capital to Risk-Weighted Assets Ratio (CRAR) of 8.0% for Indian commercial banks."
-> *Correction*: **FALSE.** The international BCBS baseline is 8.0%, but the **RBI mandates a stricter minimum of 9.0%** for commercial banks (and 12.0% for Public Sector Banks). With the 2.5% Capital Conservation Buffer, the total minimum is **11.5% in India** (vs. 10.5% globally).
+> *Correction*: **FALSE.** The international BCBS baseline is 8.0%, but the **RBI mandates a stricter statutory regulatory minimum of 9.0%** for Scheduled Commercial Banks. Adding the 2.5% Capital Conservation Buffer (CCB), the total statutory requirement is **11.5% in India** (vs. 10.5% globally). (Note: The frequently cited **12.0%** figure is an **internal prudential capitalization benchmark** prescribed for Public Sector Banks, not the statutory regulatory floor).
 
 > [!WARNING]
 > **TRAP 3: Term Deposits in Payments Banks**

@@ -128,7 +128,12 @@ Outlays incurred for the normal day-to-day administrative functioning of the Sta
 * **Subsidies**: Food subsidy (NFSA/PMGKAY), Fertilizer subsidy (Urea & NBS), and Petroleum subsidies.
 * **Defense Revenue Expenditure**: Salaries, pensions, rations, and ammunition maintenance of the armed forces (Defense capital acquisition of fighter jets/submarines is Capital Expenditure!).
 * **Salaries & Pensions** of civil servants.
-* **Grants-in-Aid to State Governments**: **Critical Rule**: Even if the State Government uses the central grant to construct a highway or school (creating a capital asset for the State), in the Union Budget of the Central Government, it is classified strictly as **Revenue Expenditure** because the asset belongs to the State, not the Center.
+* **Grants-in-Aid to State Governments**:
+  - *Accounting Classification*: In the conventional accounting classification of the Union Budget, grants-in-aid are booked under **Revenue Expenditure** because the resulting physical asset belongs to the State Government, not the Central Government (the Center holds no sovereign asset on its own balance sheet).
+  - *The Capital Asset Creation Distinction*: However, a substantial portion of these grants is explicitly earmarked for the creation of capital assets (e.g., roads under PMGSY, rural water infrastructure under Jal Jeevan Mission, school buildings).
+  - *Effective Capital Expenditure (Eff-Capex)*: To capture the genuine macro-level investment stimulus, the Union Budget aggregates:
+    $$\mathbf{\text{Effective Capital Expenditure} = \text{Capital Outlay of Centre} + \text{Grants-in-Aid for Creation of Capital Assets}}$$
+    Therefore, grants-in-aid for capital creation are accounted as Revenue Expenditure in formal accounting but constitute an integral pillar of **Effective Capital Expenditure** in macro-fiscal analysis.
 
 ---
 
@@ -289,9 +294,13 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
 ## 10.7 Examiner Traps & Warning Vault
 
 > [!WARNING]
-> **TRAP 1: The Grants-in-Aid to States Trap**
-> *Exam Trap*: "Central Government grants given to State Governments to build rural highways under PMGSY are classified as Capital Expenditure in the Union Budget."
-> *Correction*: **ABSOLUTELY FALSE.** In the Union Budget, all grants-in-aid to States are **100% REVENUE EXPENDITURE**, regardless of how the State spends them! The resulting physical road belongs to the State Government, not the Central Government. The Center creates no asset on its own balance sheet.
+> **TRAP 1: The Grants-in-Aid & Effective Capital Expenditure Trap**
+> *Exam Trap*: "A grant-in-aid given to a State Government can never contribute to Capital Expenditure in the Union Budget."
+> *Correction*: **FALSE (CRITICAL EXAM NUANCE).**
+> 1. *Accounting Classification*: Formally, all grants-in-aid to States are booked under **Revenue Expenditure** on the conventional accounting ledger because the resulting physical/infrastructure asset is legally owned by the State Government, not the Union.
+> 2. *Effective Capital Expenditure*: However, under the Union Budget architecture (and FRBM Act methodology), grants-in-aid given specifically **for the creation of capital assets** (e.g., PMGSY highways, irrigation schemes, water grids) are added to Central Capital Outlay to compute **Effective Capital Expenditure**:
+> $$\mathbf{\text{Effective Capital Expenditure} = \text{Capital Outlay} + \text{Grants-in-Aid for Creation of Capital Assets}}$$
+> Thus, while classified as Revenue Expenditure on the conventional accounting ledger, such grants directly contribute to the macroeconomic capital formation of the nation and are accounted as Effective Capital Expenditure.
 
 > [!WARNING]
 > **TRAP 2: The "Budget" in the Constitution**
@@ -342,7 +351,7 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
    - <em>Justification</em>: Dividends represent operational profit sharing from statutory corporations. They <strong>neither create a liability nor reduce any asset</strong> of the Government.<br/>
 3. <strong>Grant to Rajasthan for Solar Parks (₹40,000 Crore)</strong>:
    - <em>Classification</em>: <strong>Revenue Expenditure</strong> under the Revenue Account.
-   - <em>Justification</em>: Under Article 282, all grants-in-aid to States are statutorily booked as Revenue Expenditure in the Union Budget because the Central Government does not own the resulting physical infrastructure asset (the solar park belongs to the State). However, in calculating <strong>Effective Revenue Deficit (ERD)</strong>, this ₹40,000 Crore will be deducted from the Revenue Deficit.
+   - <em>Justification</em>: Under Article 282, grants-in-aid to States are formally accounted as Revenue Expenditure in the Union Budget because legal ownership of the physical asset vests in the State Government. However, because it creates productive capital assets, it contributes directly to <strong>Effective Capital Expenditure</strong> and is deducted from Revenue Deficit when calculating <strong>Effective Revenue Deficit (ERD)</strong>.
 </details>
 
 #### Card 2 (Mathematical Deficit Deconstruction)

@@ -80,12 +80,12 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 
 ### 1. Master Comparison: Lease Financing vs. Hire Purchase
 
-| Legal & Accounting Dimension | Lease Financing | Hire Purchase |
+| Parameter | Lease Financing | Hire Purchase |
 | :--- | :--- | :--- |
-| **Governing Statute** | **Indian Contract Act, 1872** & Transfer of Property Act, 1882 | **Indian Contract Act, 1872** & **Sale of Goods Act, 1930** (*Note: Hire-Purchase Act, 1972 was repealed/never effectively enforced*) |
+| **Governing Statute** | **Indian Contract Act, 1872** & Transfer of Property Act, 1882 | **Indian Contract Act, 1872** & **Sale of Goods Act, 1930** (*Note: Hire-Purchase Act, 1972 was never brought into force and formally repealed by Repealing & Amending Act, 2005*). |
 | **Ownership of Asset** | Remains with the **Lessor throughout** the contract period and upon expiry. | Passes to the **Hirer ONLY upon full payment of the last hire installment**. |
 | **Depreciation Benefit** | Claimed by the **Lessor** on their balance sheet. | Claimed by the **Hirer** from the very first financial year. |
-| **Tax Deductibility of Payments** | The entire lease rental is **100% tax-deductible as revenue expenditure** for the lessee. | Only the **finance charges (interest component)** are tax-deductible; the principal is a capital repayment. |
+| **Tax Deductibility of Payments** | Lease rentals are tax-deductible as revenue expenditure in operating leases under income tax rules (subject to Ind AS 116). | Only the **finance charges (interest component)** are tax-deductible; the principal is a capital repayment. |
 | **Initial Down Payment** | Typically **Zero down payment** (or small security deposit). | Mandates substantial upfront margin / down payment (**15% to 25%**). |
 | **Termination Rights** | Financial leases are strictly non-cancellable. | Hirer can terminate before maturity by returning the goods. |
 
@@ -111,7 +111,7 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 
 ### 2. Mutual Fund Operational Tools: Riskometer, TER & Loads
 
-• **New Fund Offer (NFO):** Initial public subscription period for a newly created mutual fund scheme, open for a maximum of **15 days** (extended to 30 days for ELSS).  
+• **New Fund Offer (NFO):** Initial public subscription period for a newly created mutual fund scheme; under revised SEBI directions, an NFO must remain open for a minimum of **3 working days** and a maximum of **15 calendar days** (ELSS schemes follow applicable Government scheme guidelines).  
 • **SEBI Riskometer:** Dynamic risk grading tool updated monthly, displaying risk across **6 standardized tiers**: (1) Low, (2) Low to Moderate, (3) Moderate, (4) Moderately High, (5) High, and (6) Very High.  
 • **Total Expense Ratio (TER) & Loads:**  
   - **Entry Load:** **Strictly PROHIBITED (0%)** by SEBI across all schemes since August 2009.  
@@ -151,7 +151,7 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 • **Mandatory Distribution of Cash Flows:** Both REITs and InvITs must distribute at least **90% of their Net Distributable Cash Flows (NDCF)** to unit holders at least once every six months (quarterly for REITs).  
 • **Borrowing Leverage Norms & SEBI 2026 InvIT Nuance:**
   - *Standard Baseline:* Aggregate consolidated net debt of a REIT or InvIT cannot exceed **49% of the total value of assets** (if borrowings exceed 25%, credit rating and unitholder approval are mandatory).
-  - *InvIT Borrowing Exception (SEBI Framework & May 15, 2026 Circular):* An InvIT is permitted to leverage beyond 49% up to a maximum ceiling of **70% of asset value**, provided it satisfies strict prudential conditions: (1) consolidated debt must hold a **mandatory 'AAA' (or equivalent) credit rating**; (2) track record of at least **6 consecutive distributions** to unitholders; and (3) prior approval of unitholders with a **supermajority of at least 75% by value**.
+  - *InvIT Borrowing Exception (SEBI Framework & May 15, 2026 Circular):* An InvIT is permitted to leverage beyond 49% up to a maximum ceiling of **70% of asset value**, provided it satisfies strict prudential conditions: (1) consolidated debt must hold a **mandatory 'AAA' (or equivalent) credit rating**; (2) track record of at least **6 consecutive distributions** to unitholders; (3) prior approval of unitholders with a **supermajority of at least 75% by value**; and (4) **strictly delimited permitted use**: fresh borrowing above 49% is restricted solely to (i) acquisition of infrastructure projects, (ii) capex/development of underlying projects, or (iii) refinancing of existing debt.
 
 ### 2. Taxation Framework for REITs and InvITs
 

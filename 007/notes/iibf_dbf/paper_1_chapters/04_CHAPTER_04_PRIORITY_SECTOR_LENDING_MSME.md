@@ -56,9 +56,9 @@ The Ministry of Micro, Small and Medium Enterprises notified the **revised compo
   - Buyers must pay MSME suppliers within the agreed credit period, which **cannot exceed 45 days** from the date of acceptance.
   - In the event of default, the buyer is legally obligated to pay **compound interest with monthly rests at 3 times the Bank Rate** notified by the RBI.
 • **Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE):**
-  - Set up jointly by the **Government of India and SIDBI**.
-  - Provides collateral-free credit guarantee cover up to **₹5 Crore per borrower**.
-  - Guarantee cover extends between **75% and 85%** of the sanctioned loan (with up to 85% for women entrepreneurs, SC/ST borrowers, and units in aspirational districts).
+  - Set up jointly by the **Government of India (Ministry of MSME) and SIDBI**.
+  - Provides collateral-free credit guarantee cover up to **₹10 Crore per borrower** (enhanced from the legacy ₹5 Crore ceiling).
+  - Guarantee cover extends between **75% and 85%** of the sanctioned loan (up to 85% for women entrepreneurs, SC/ST borrowers, units in aspirational districts/ZED; up to 90% for micro enterprises up to ₹5 Lakh and MSEs promoted by Agniveers).
 • **Trade Receivables Discounting System (TReDS):**
   - Regulated electronic factoring exchange operating under the Payment and Settlement Systems Act, 2007.
   - Facilitates discounting of trade receivables of MSMEs from corporate buyers, PSUs, and Government departments through competitive online bidding by multiple financiers **without recourse to the MSME seller**.
@@ -81,7 +81,7 @@ The Ministry of Micro, Small and Medium Enterprises notified the **revised compo
 1. **Trap — Export Turnover in MSME Classification:** An enterprise with ₹12 Crore domestic turnover and ₹40 Crore export turnover, with ₹2 Crore investment, is still classified as a **Micro Enterprise** because the export turnover is completely excluded from the turnover calculation!
 2. **Trap — Delayed Payment Penalty Rate:** The penal interest on delayed MSME payments is **3 times the RBI Bank Rate compounded monthly**, not simple interest and not linked to the Repo rate or MCLR.
 3. **Trap — Urban Co-operative Bank PSL Target:** In the 2025 regulatory framework, the overall PSL target for Primary Urban Co-operative Banks (UCBs) is **60% of ANBC**, not 75% or 40%.
-4. **Trap — Non-Achievement of PSL:** Shortfall in PSL is not retained as a fine by the RBI; it must be invested in **RIDF (NABARD)**, **SEDF (SIDBI)**, or **RHDF (NHB)** at yields significantly below market lending rates.
+4. **Trap — CGTMSE Ceiling & Institutional Sponsor:** CGTMSE is jointly sponsored by GoI and **SIDBI** (NOT NABARD). Its eligible credit guarantee ceiling is **₹10 Crore per borrower** (the obsolete ₹5 Crore limit is an examiner favorite trap). Non-achievement of PSL is invested in RIDF (NABARD), SEDF (SIDBI), or RHDF (NHB).
 5. **Trap — PSL Credit Ceilings (2025 Directions):** Education loan ceiling is **₹25 Lakh** (not ₹20 Lakh); Housing loans in Metros are eligible up to **₹50 Lakh** (dwelling cost ceiling **₹63 Lakh**); Social Infrastructure limit is **₹8 Crore** for schools/water and **₹12 Crore** for healthcare in Tier II–VI; Renewable Energy project cap is **₹35 Crore** (not ₹30 Crore).
 
 ---
@@ -106,7 +106,7 @@ B. Compound interest with monthly rests at 3 times the Bank Rate notified by the
 C. Flat penal interest of 18% per annum compounded quarterly  
 D. Simple interest at 3 times the marginal cost of funds based lending rate (MCLR)  
 
-**Q4. [CONCEPT-RECURRING] Consider the following statements regarding the CGTMSE scheme:**  
+**Q4. [CONCEPT-RECURRING / 2026 BENCHMARK] Consider the following statements regarding the CGTMSE scheme:**  
 Statement I: The Credit Guarantee Fund Trust for Micro and Small Enterprises is managed jointly by the Government of India and NABARD.  
 Statement II: Collateral-free credit guarantee coverage is available up to a ceiling of ₹5 Crore per eligible borrower.  
 Which of the statements given above is/are correct?  
@@ -122,4 +122,4 @@ D. Neither Statement I nor Statement II
 • **Q1 — Answer: B.** Under the 1 April 2025 revised criteria: Micro is $\le$ ₹2.5 Cr / $\le$ ₹10 Cr; Small is $\le$ ₹25 Cr / $\le$ ₹100 Cr; Medium is $\le$ ₹125 Cr / $\le$ ₹500 Cr (turnover excludes export proceeds).  
 • **Q2 — Answer: B.** Under the revised framework, the overall PSL target for Urban Co-operative Banks is set at 60% of ANBC / CEOBE.  
 • **Q3 — Answer: B.** The statute explicitly mandates compound interest with monthly rests at 3 times the RBI Bank Rate for payments delayed beyond 45 days.  
-• **Q4 — Answer: B.** Statement I is incorrect because CGTMSE was jointly established by the Ministry of MSME (Govt of India) and **SIDBI**, not NABARD. Statement II is correct (guarantee ceiling is ₹5 Crore).
+• **Q4 — Answer: D.** Neither statement is correct. Statement I is false because CGTMSE was jointly established by the Ministry of MSME (Govt of India) and **SIDBI** (not NABARD). Statement II is false under current regulatory directions because the eligible credit guarantee ceiling has been enhanced to **₹10 Crore per borrower** (the ₹5 Crore limit is obsolete).

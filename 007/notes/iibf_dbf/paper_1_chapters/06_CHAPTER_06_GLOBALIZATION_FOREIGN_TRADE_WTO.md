@@ -36,7 +36,7 @@ India's external economic engagement is governed by trade liberalization, foreig
 
 | Parameter | Foreign Direct Investment (FDI) | Foreign Portfolio Investment (FPI / FII) |
 | :--- | :--- | :--- |
-| **Statutory Definition** | Investment with **≥ 10% equity stake** in a listed company, or any equity holding in an unlisted company. | Investment with **< 10% equity stake** in a listed company. |
+| **Statutory Definition** | Investment with **≥ 10% equity stake** in a listed company, or any equity holding in an unlisted company. | Investment with **< 10% equity stake** in a listed company (including listed or to-be-listed securities on recognized exchanges). |
 | **Nature of Capital** | Long-term, strategic, non-debt capital bringing technology, management control, and physical assets. | Short-term, financial, liquid capital seeking market returns ("Hot Money"); volatile during global shocks. |
 | **Entry Routes** | • **Automatic Route:** No prior approval required from RBI or Government.<br>• **Government Route:** Prior approval required via **Foreign Investment Facilitation Portal (FIFP)** administered by DPIIT. | SEBI-registered foreign portfolio investors operating through custodian banks under FEMA regulations. |
 | **Prohibited Sectors** | Strictly barred from: Lottery, Gambling, Chit Funds, Nidhi Companies, Real Estate business (except townships/IT parks), and Atomic Energy. | Prohibited from unlisted shares and non-permitted derivatives. |
@@ -92,7 +92,8 @@ In July 2022, the RBI permitted invoice, payment, and settlement of internationa
 | Institution / Grouping | Member Architecture & Scope | Strategic Economic Relevance for India |
 | :--- | :--- | :--- |
 | **ADB (Asian Development Bank)** | 1966; Manila; Japan & US largest (15.6% each); India 4th largest shareholder. | Major multilateral financier of Indian state highways, urban metro, and energy corridors. |
-| **NDB (New Development Bank)** | 2014; Shanghai; Founded by BRICS (equal 20% equity each). | Concessional infrastructure and green funding; $100 Billion Contingent Reserve Arrangement (CRA). |
+| **NDB (New Development Bank)** | Fortaleza Agreement 2014, established **2015**; Shanghai; Founding BRICS ($50B initial, $100B authorized); expanded membership includes Bangladesh, UAE, Egypt, Algeria. | Sovereign & non-sovereign infrastructure lending; distinct from the separate BRICS CRA mechanism. |
+| **BRICS CRA** | Established 2015; **$100 Billion** liquidity safety net mechanism (China $41B, Brazil/India/Russia $18B each, SA $5B). | Standalone mutual central bank contingency swap mechanism, not an NDB credit facility. |
 | **AIIB (Asian Infra Investment Bank)** | 2016; Beijing; China largest (26.6%); **India 2nd largest shareholder** (7.6%). | Sovereign-guaranteed infrastructure project lending (India is cumulative largest borrower). |
 | **SAARC / SAFTA** | South Asian Association (8 members); South Asian Free Trade Area (in force 2006). | Regional tariff reduction framework, though constrained by geopolitical frictions. |
 | **ASEAN & BIMSTEC** | ASEAN-India Trade in Goods Agreement (AITGA); BIMSTEC (Bay of Bengal multi-sectoral initiative). | Bridge between South Asia and Southeast Asia under India's Act East Policy. |

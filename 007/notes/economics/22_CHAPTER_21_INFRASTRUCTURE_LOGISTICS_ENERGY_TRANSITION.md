@@ -384,6 +384,13 @@ Launched on June 30, 2008, the NAPCC serves as India's overarching policy umbrel
 │                                 │ private proposal, but requires open challenge bidding! The  │
 │                                 │ original proponent only has the **Right of First Refusal**  │
 │                                 │ to MATCH the best bid. Kelkar Committee cautioned against it│
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Panchamrit vs NDC Traps**     │ **TRAP**: Conflating COP26 speech with binding NDC text!    │
+│                                 │ • *COP26 Speech (2021)*: "50% of energy requirements from   │
+│                                 │   renewable energy by 2030."                                │
+│                                 │ • *Updated NDC (2022 to UNFCCC)*: "About 50% cumulative     │
+│                                 │   electric power installed capacity from non-fossil sources │
+│                                 │   by 2030." Non-fossil includes nuclear and large hydro!    │
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 

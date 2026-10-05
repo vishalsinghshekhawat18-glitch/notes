@@ -1,4 +1,4 @@
-﻿# ECONOMIC PLANNING ARCHITECTURE & NITI AAYOG STRATEGY
+# ECONOMIC PLANNING ARCHITECTURE & NITI AAYOG STRATEGY
 
 Economic planning in India transitioned from the centralized, top-down allocation model of the Planning Commission (1950–2014) to the cooperative, strategic think-tank model of the National Institution for Transforming India (NITI Aayog), established on 1 January 2015.
 
@@ -29,12 +29,12 @@ Economic planning in India transitioned from the centralized, top-down allocatio
 | **3rd FYP (1961–66)** | Sukhamoy Chakravarty & John Sandy (Gadgil Yojana) | Target: Self-generating economy. Hit by severe external shocks (1962 Sino-Indian War, 1965 Indo-Pak War, and 1965–66 famine). Failed to meet targets. |
 | **Plan Holidays (1966–69)** | Three Successive Annual Plans | Green Revolution launched with High-Yielding Varieties (HYV seeds). Devaluation of the Indian Rupee in June 1966. |
 | **4th FYP (1969–74)** | D.R. Gadgil Formula | Growth with stability and progressive self-reliance. Nationalization of 14 major commercial banks (July 1969); 1971 war; Pokhran-I test (1974). |
-| **5th FYP (1974–79)** | D.D. Dhar Model | *Garibi Hatao* (Poverty Eradication) and Self-Reliance; 20-Point Programme. Terminated a year early in 1978 by the incoming Janata Party government. |
+| **5th FYP (1974–79)** | D.P. Dhar Model | *Garibi Hatao* (Poverty Eradication) and Self-Reliance; 20-Point Programme. Terminated a year early in 1978 by the incoming Janata Party government. |
 | **Rolling Plan (1978–80)** | Gunnar Myrdal Concept (Janata Govt) | Discarded 5-year fixed targets in favor of annually reviewed rolling horizons. |
 | **6th FYP (1980–85)** | Core Investment & Employment Model | Direct attack on poverty (IRDP, NREP). Set up **NABARD (12 July 1982)** and **EXIM Bank (1982)**. Nationalization of 6 additional commercial banks (April 1980). |
 | **7th FYP (1985–90)** | Pranab Mukherjee Model | "Food, Work, and Productivity". SEBI formed as an interim non-statutory body (1988). Emergence of high modern services growth. |
 | **Annual Plans (1990–92)** | BoP Crisis & Structural Adjustments | Eighth Plan delayed by balance-of-payments crisis. Launch of LPG Structural Reforms in July 1991. |
-| **8th FYP (1992–97)** | John W. Miller Model (Rao-Manmohan Era) | Human development, export promotion, market opening. India joined the World Trade Organization (WTO) on 1 January 1995. High growth: 6.8%. |
+| **8th FYP (1992–97)** | Indicative Planning (Rao–Manmohan Era) | Human development, export promotion, modernization under post-1991 structural reforms. Joined WTO on 1 Jan 1995; 6.8% growth. |
 | **9th FYP (1997–2002)** | Growth with Social Justice & Equity | Impacted by 1997 Asian Financial Crisis and Pokhran-II economic sanctions (1998). |
 | **10th FYP (2002–07)** | Target 8% GDP Growth Target | Governance reforms, reduction of poverty by 5 percentage points, Sarva Shiksha Abhiyan. |
 | **11th FYP (2007–12)** | C. Rangarajan / Montek S. Ahluwalia | Goal: "Faster and More Inclusive Growth". Navigated the 2008 Global Financial Crisis with countercyclical fiscal expansion; achieved 8.0% average growth. |
@@ -80,7 +80,7 @@ C. NITI Aayog serves purely as a policy think tank and possesses zero powers to 
 D. Planning Commission adopted a bottom-up decentralized planning architecture  
 
 **Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Match the Five Year Plans with their respective growth models/architects:**  
-1. First Five Year Plan — (a) D.D. Dhar Model  
+1. First Five Year Plan — (a) D.P. Dhar Model  
 2. Second Five Year Plan — (b) Harrod-Domar Growth Model  
 3. Fifth Five Year Plan — (c) P.C. Mahalanobis Model  
 Select the correct code:  
@@ -103,5 +103,5 @@ D. Neither Statement I nor Statement II
 ### Answer Key & Explanations
 
 • **Q1 — Answer: C.** NITI Aayog has no financial allocation powers; all fiscal devolution is handled by the Ministry of Finance and constitutional Finance Commission recommendations.  
-• **Q2 — Answer: A.** 1st FYP was based on Harrod-Domar (b); 2nd FYP on Mahalanobis (c); 5th FYP on D.D. Dhar (a).  
+• **Q2 — Answer: A.** 1st FYP was based on Harrod-Domar (b); 2nd FYP on Mahalanobis (c); 5th FYP on D.P. Dhar (a).  
 • **Q3 — Answer: A.** Statement I is correct. Statement II is incorrect because research and innovation capabilities are anchored by the **Knowledge and Innovation Hub**, while the **Team India Hub** manages Centre-State interface.

@@ -80,12 +80,12 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 | Dimension / Event | Government Sector (Central/State Govt) | All-Citizen Model (Individual Voluntary) | Corporate Model (Employer-Employee) |
 | :--- | :--- | :--- | :--- |
-| **Normal Exit Timing** | At Superannuation (age 60) | At or after age 60 (up to age 75) | At age 60 or employer retirement age |
+| **Normal Exit Timing** | At Superannuation / Retirement / Discharge | At or after age 60 (up to age 75) | At age 60 or employer retirement age |
 | **Normal Annuitization vs Lump Sum** | • Min **40% Annuitized**<br>• Up to **60% Lump Sum** | • Min **20% Annuitized**<br>• Up to **80% Lump Sum** | • Min **40% Annuitized**<br>• Up to **60% Lump Sum** |
-| **Normal Exit Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option | **Corpus ≤ ₹8 Lakh**<br>100% lump sum / SLW / SUR option *(Special band exists for ₹8L–₹12L)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option |
-| **Premature Exit Timing** | Before superannuation (after resignation) | Before age 60 (min 5 years subscription) | Before retirement (min 5 years subscription) |
+| **Normal Exit Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹8 Lakh**<br>100% lump sum option *(for > ₹8L to ₹12L, special split applies; > ₹12L standard min 40% annuity)* | **Corpus ≤ ₹8 Lakh**<br>100% lump sum / SLW / SUR option *(Special band exists for ₹8L–₹12L)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option |
+| **Premature Exit Timing** | Resignation / Removal from service | Before age 60 (min 5 years subscription) | Before retirement (min 5 years subscription) |
 | **Premature Annuitization vs Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** |
-| **Premature Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹2.5 Lakh**<br>100% lump sum option | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA FAQs)* | **Corpus ≤ ₹2.5 Lakh**<br>100% lump sum option |
+| **Premature Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA Schedule I)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA FAQs)* | **Corpus ≤ ₹2.5 Lakh**<br>100% lump sum option |
 | **Post-60 Continuation & Deferral** | Annuity can be deferred up to age 75 | Can continue contributing and defer annuity/lump sum up to age 75 | Can continue contributing and defer annuity/lump sum up to age 75 |
 | **Demise / Death of Subscriber** | 100% payout to nominee or legal heirs (or option for annuity) | 100% payout to nominee or legal heirs (or option for annuity) | 100% payout to nominee or legal heirs (or option for annuity) |
 
@@ -95,8 +95,8 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 • **Employees' Provident Fund (EPF):** Governed by the **EPF & MP Act, 1952** for enterprises with 20+ workers. Employee contributes **12% of basic wage + DA**. Employer contributes **12%**, bifurcated into:  
   $$\mathbf{8.33\% \text{ into Employees' Pension Scheme (EPS)}} \quad\Big|\quad \mathbf{3.67\% \text{ into EPF}}$$  
-  (EPS wage ceiling capped at ₹15,000/month; additional 0.5% paid by employer towards EDLI insurance).  
-• **Public Provident Fund (PPF):** 15-year statutory maturity; enjoy complete **Exempt-Exempt-Exempt (EEE)** tax status; sovereign sovereign guarantee; minimum deposit **₹500**, maximum **₹1,50,000** per financial year.  
+  *Statutory Wage Ceiling Caveat:* The 8.33% EPS contribution is subject to a statutory wage ceiling of **₹15,000 per month** (maximum employer EPS contribution of **₹1,250 per month**); any employer contribution on salary exceeding ₹15,000 is diverted entirely into the employee's EPF account. (Additional 0.5% paid by employer towards EDLI life insurance).  
+• **Public Provident Fund (PPF):** 15-year statutory maturity; enjoy complete **Exempt-Exempt-Exempt (EEE)** tax status; sovereign guarantee; minimum deposit **₹500**, maximum **₹1,50,000** per financial year.  
 • **Annuity Types:** (1) *Immediate Annuity* (payout begins right after lump-sum purchase) vs *Deferred Annuity* (accumulates capital during deferment phase before payouts); (2) *Life Annuity with Return of Purchase Price (ROPP)* (pays regular annuity until demise, then returns initial principal purchase price to designated nominees).
 
 ---
@@ -126,14 +126,14 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 1. **Trap — Lowest Investment Grade Rating:** **`BBB-`** is the lowest investment-grade rating. An option stating `BB+` is **incorrect** (`BB+` is speculative/junk grade).
 2. **Trap — Insurable Interest in Fire Insurance:** Insurable interest in Fire Insurance must exist **BOTH at policy inception AND at the time of loss**. In Life Insurance, it is required only at policy inception.
-3. **Trap — NPS Normal Exit Small Corpus by Model:** Under PFRDA's 16 Dec 2025 amended regulations, for All-Citizens model subscribers, if the accumulated NPS corpus at age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (and can choose up to 80% lump sum / 20% annuity above ₹8L). For Government and Corporate sectors, normal superannuation requires min 40% annuity, and the small corpus 100% lump sum threshold is **≤ ₹5 Lakh**.
-4. **Trap — NPS Premature Exit Small Corpus by Model:** In premature exit before age 60 (min 80% annuity mandatory), 100% full lump sum is permitted if the corpus is **≤ ₹5 Lakh** for All-Citizens model (per current PFRDA FAQs), but remains **≤ ₹2.5 Lakh** for Government and Corporate subscribers.
+3. **Trap — NPS Normal Exit Small Corpus by Model:** Under PFRDA's 16 Dec 2025 amended regulations, for **Both Government Sector and All-Citizens model**, if accumulated NPS corpus at retirement/age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (for Government > ₹8L to ₹12L, special split applies; above ₹12L, min 40% annuity). For the **Corporate Model**, normal exit small corpus remains **≤ ₹5 Lakh**.
+4. **Trap — NPS Premature Exit Small Corpus by Model:** In premature exit (resignation before superannuation / before age 60), min 80% annuity is mandatory. 100% full lump sum is permitted if corpus is **≤ ₹5 Lakh for Government Sector** (resignation under PFRDA Schedule I) and **≤ ₹5 Lakh for All-Citizens model**, but is **≤ ₹2.5 Lakh for Corporate Sector subscribers**.
 5. **Trap — APY Income Tax Exclusion:** Income-tax payers are **STRICTLY INELIGIBLE** to enroll in Atal Pension Yojana.
 6. **Trap — Credit Card Bank Net Worth:** Banks must have a minimum Net Worth of **₹100 Crore** to undertake standalone credit card issuance.
 7. **Trap — Insurance Penetration vs Density:** Penetration is premium as a **% of GDP**; Density is premium **per capita in USD**. Do not reverse these two metrics.
 8. **Trap — Social Insurance Premiums:** PMJJBY annual premium is **₹436** (life cover ₹2 Lakh); PMSBY annual premium is **₹20** (accidental cover ₹2 Lakh).
 9. **Trap — Insurance Ombudsman Pecuniary Limit:** The Insurance Ombudsman can award compensation up to **₹30 Lakh** (including ex-gratia and other expenses).
-10. **Trap — Employer EPF Contribution Split:** The employer's 12% contribution is split into **8.33% into the Pension Fund (EPS)** and **3.67% into the Provident Fund (EPF)**.
+10. **Trap — Employer EPF Contribution Split:** The employer's 12% is split into **8.33% to EPS** (capped at ₹15,000 wage ceiling, i.e., max ₹1,250/mo) and **3.67% + excess over ceiling into EPF**; it is NOT an unconditional 8.33% on uncapped salaries.
 
 ---
 
@@ -170,7 +170,7 @@ D. Neither Statement I nor Statement II
 
 ### Answer Key & Explanations
 
-• **Q1 — Answer: C.** Under the PFRDA amended exit regulations (16 Dec 2025), for All-Citizens subscribers, the 100% lump-sum withdrawal option without mandatory annuitization is available if the accumulated corpus is $\le$ ₹8 Lakh. (For Government and Corporate models, the normal superannuation threshold is $\le$ ₹5 Lakh; at premature exit, All-Citizens specify $\le$ ₹5 Lakh per current PFRDA FAQs, while Govt and Corporate specify $\le$ ₹2.5 Lakh).  
+• **Q1 — Answer: C.** Under the PFRDA amended exit regulations (16 Dec 2025), for All-Citizens and Government subscribers at normal retirement, 100% lump-sum withdrawal without mandatory annuitization is available if the accumulated corpus is $\le$ ₹8 Lakh. (For Corporate sector, the threshold is $\le$ ₹5 Lakh. At premature exit, Government and All-Citizens allow 100% lump sum up to $\le$ ₹5 Lakh, while Corporate allows up to $\le$ ₹2.5 Lakh).  
 • **Q2 — Answer: B.** The IRDAI open architecture framework permits a corporate agent to tie up with up to 3 Life, 3 General, and 3 Health insurers (maximum 9 partners).  
 • **Q3 — Answer: B.** `BBB-` is the lowest investment-grade rating; `BB+` marks the beginning of the speculative/junk grade.  
 • **Q4 — Answer: C.** Both statements are correct under the Unified Pension Scheme (UPS) provisions.

@@ -368,6 +368,10 @@ The Eight Core Industries represent basic infrastructure foundation goods and ac
 
 > **High-Yield Exam Trap**: While Steel feels like the heaviest industrial sector, **Petroleum Refinery Products (28.04%)** commands the highest weight in the Eight Core basket, while **Fertilizers (2.63%)** is the smallest. In the Current 2026 series, Iron Ore is added as the 9th Core Industry.
 
+> [!NOTE]
+> **2026 METHODOLOGICAL UPDATE: IIP & CORE INDUSTRIES MONITORING**  
+> Under the live statistical framework, the **Base 2022–23 IIP architecture** represents the current operative series, capturing modern digitized capital goods, renewable machinery, and semiconductors. The formal addition of **Iron Ore** as the 9th Core Industry ensures independent high-frequency monitoring of metallic extraction alongside fuel minerals. All subsequent 2026 indices build upon this current foundation, while candidates must continue to apply the **Historical Base 2011–12 parameters (8 Core Industries = 40.27%)** when answering older past-year questions.
+
 ---
 
 ## 20.6 Modern Manufacturing Schemes: The Production Linked Incentive (PLI)

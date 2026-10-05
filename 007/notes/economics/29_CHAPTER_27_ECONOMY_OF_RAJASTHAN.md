@@ -19,15 +19,15 @@ The economy of Rajasthan constitutes India's largest state by geographical area 
 ┌─────────────────────────────────┬───────────────────────────────────┬───────────────────────────────────┐
 │ Macro Aggregate [2025–26 AE]    │ Constant Prices (Base 2011–12)    │ Current Prices                    │
 ├─────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ **Gross State Domestic Product** │ **₹9,82,000 Crore**               │ **₹18,75,413 Crore**              │
+│ **Gross State Domestic Product** │ **₹9,81,807 Crore**               │ **₹18,75,413 Crore**              │
 │ **(GSDP)**                      │ Real economic growth **8.66%**    │ Nominal growth **10.24%**         │
 ├─────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
 │ **Net State Domestic Product**  │ **₹8,74,520 Crore**               │ **₹16,84,310 Crore**              │
 │ **(NSDP)**                      │ GSDP minus Consumption of Fixed   │ Real output minus depreciation    │
 │                                 │ Capital (Depreciation).           │ at current market valuation.      │
 ├─────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ **Per Capita Income (PCI)**     │ **₹1,02,154**                     │ **₹2,02,349**                     │
-│                                 │ (Benchmark for State prosperity)  │ (Reflects nominal living standard)│
+│ **Per Capita Income (PCI)**     │ **₹1,03,189**                     │ **₹2,02,349**                     │
+│                                 │ (Official Constant Living Stand.) │ (Nominal Living Standard Milestone)│
 └─────────────────────────────────┴───────────────────────────────────┴───────────────────────────────────┘
 ```
 
@@ -43,7 +43,7 @@ Unlike the national macroeconomic profile (where Services account for >53%), Raj
 
 ### 1. Viksit Rajasthan @ 2047
 Aligned with the Union vision of *Viksit Bharat @ 2047*, Rajasthan has institutionalized a 25-year socio-economic transformation roadmap structured on five core pillars:
-* **Economic Scale**: Expanding State economy to a **$350 Billion GSDP by 2030** and **$1 Trillion GSDP by 2047**.
+* **Economic Scale**: Expanding the State economy to a **US$ 350 Billion GSDP by 2030** and a **US$ 1 Trillion GSDP by 2047** through targeted industrial diversification, infrastructure expansion, and investment corridors.
 * **Green Energy & Water Sovereignty**: Becoming India's foremost renewable superpower (solar/wind/green hydrogen) and completing integrated canal link networks (ERCP/PKC and IGNP modernizations).
 * **Industrial & Mineral Value Addition**: Shifting from raw mineral extraction to localized high-value smelting, refining, and industrial manufacturing (Pachpadra Petroleum Complex, Electric Vehicle clusters).
 * **Inclusive Social Infrastructure**: Universal health safety nets, digitized educational hubs, and drought-resilient livelihood guarantees.
@@ -64,11 +64,10 @@ Aligned with the Union vision of *Viksit Bharat @ 2047*, Rajasthan has instituti
   * Anchored to statutory ceiling of **3.0% of GSDP** (with 0.5% performance-based borrowing leeway for power sector reforms).
   * Governed by **Article 293(3)**: Rajasthan cannot borrow from market without Central consent due to outstanding Central loans.
 
-### 2. The 6th State Finance Commission (Panchayati Raj Devolution)
+### 2. The State Finance Commission Architecture & Chronology
 * **Constitutional Anchor**: Constituted by the Governor under **Article 243-I** (Panchayati Raj) and **Article 243-Y** (Municipalities).
-* **Chairperson**: **Pradyumn Singh** (Commissioners: Ashok Lahoti, Laxman Singh Rawat).
-* **Award Period**: 2020–21 to 2024–25 (extended to align with 16th FC).
-* **Core Devolution Formula**:
+* **6th State Finance Commission (Award Period: 2020–2025)**:
+  * **Chairperson**: **Pradyumn Singh** (Commissioners: Ashok Lahoti, Laxman Singh Rawat).
   * Recommends devolving **6.75% of State's Own Net Tax Revenue** to Local Self-Governments.
   * **Inter-Institutional Ratio**:
     * **75.10%** to Panchayati Raj Institutions (PRIs).
@@ -77,6 +76,26 @@ Aligned with the Union vision of *Viksit Bharat @ 2047*, Rajasthan has instituti
     * **Gram Panchayats (Grassroots Tier)**: **75%** of PRI share (maximum execution burden).
     * **Panchayat Samitis (Block Tier)**: **20%** of PRI share.
     * **Zila Parishads (District Tier)**: **5%** of PRI share.
+* **7th State Finance Commission (Subsequent Layer)**: Formulated for the **2025–2026 interim-report layer** to establish post-2025 municipal and PRI transfer guidelines.
+
+### 3. Current State Budget Anchor — Rajasthan 2026–27 (BE)
+
+The State Budget for FY 2026–27 establishes the live medium-term fiscal parameters under the Rajasthan FRBM framework:
+
+```
+┌─────────────────────────────────┬───────────────────────────────────┬──────────────────┬─────────────────────────────┐
+│ Budget Indicator                │ Value (₹ Crore) / Metric          │ Estimate Stage   │ Canonical Source            │
+├─────────────────────────────────┼───────────────────────────────────┼──────────────────┼─────────────────────────────┤
+│ **Total Budget Size (Outlay)**  │ **₹6,10,956 Crore**               │ BE 2026–27       │ Rajasthan State Budget      │
+│ **Gross State Domestic Product** │ **₹21,52,100 Crore**              │ BE 2026–27       │ Rajasthan Finance Dept      │
+│ **Revenue Receipts (RR)**       │ **₹3,25,740 Crore**               │ BE 2026–27       │ Annual Financial Statement  │
+│ **Revenue Expenditure (RE)**    │ **₹3,50,054 Crore**               │ BE 2026–27       │ Annual Financial Statement  │
+│ **Revenue Deficit (RD)**        │ **₹24,313.93 Crore**              │ BE 2026–27       │ State Budget 2026–27        │
+│ **Fiscal Deficit (FD)**         │ **₹79,492.52 Crore (3.69% GSDP)** │ BE 2026–27       │ FRBM Statement / Budget     │
+└─────────────────────────────────┴───────────────────────────────────┴──────────────────┴─────────────────────────────┘
+```
+
+> **High-Yield Exam Trap**: Never mix **BE 2026–27** (Budget Estimates forward projections) with **AE 2025–26** (Economic Review Advance Estimates: Current GSDP ₹18,75,413 Cr, Constant ₹9,81,807 Cr). Real growth is evaluated at constant 2011–12 prices (8.66%).
 
 ---
 
@@ -312,8 +331,9 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 
 | Topic | One-line concept | Current figure | Scheme / Institution | High-Yield Examination Trap |
 | :--- | :--- | :--- | :--- | :--- |
-| **GSDP & Growth** | Total market value of all goods & services produced within State borders. | Current: **₹18,75,413 Cr** (+10.24%)<br>Constant (2011–12): **₹9,82,000 Cr** (+8.66%) | Finance Dept / DES Rajasthan (*Eco Review 2025–26 [AE]*) | Real growth is evaluated at 2011–12 constant prices, not current market prices. |
-| **Per Capita Income** | Net State Domestic Product divided by mid-year projected population. | Current: **₹2,02,349**<br>Constant: **₹95,250** | DES Rajasthan | Do not confuse Rajasthan PCI with All-India PCI (India PCI is higher). |
+| **GSDP & Growth** | Total market value of all goods & services produced within State borders. | Current: **₹18,75,413 Cr** (+10.24%)<br>Constant (2011–12): **₹9,81,807 Cr** (+8.66%) | Finance Dept / DES Rajasthan (*Eco Review 2025–26 [AE]*) | Real growth is evaluated at 2011–12 constant prices, not current market prices. |
+| **Per Capita Income** | Net State Domestic Product divided by mid-year projected population. | Current: **₹2,02,349**<br>Constant: **₹1,03,189** | DES Rajasthan | Do not confuse Rajasthan PCI with All-India PCI (India PCI is higher). |
+| **State Budget 2026–27 (BE)** | Forward medium-term fiscal framework under Rajasthan FRBM. | Outlay: **₹6,10,956 Cr**<br>Fiscal Deficit: **₹79,492.52 Cr (3.69% GSDP)**<br>Revenue Deficit: **₹24,313.93 Cr** | State Budget 2026–27 (BE) | Never confuse BE 2026–27 budget projections with 2025–26 Advance Estimates (AE). |
 | **GSVA Sectoral Shares** | Structural distribution of economic activity at Current Prices. | **Services: 47.71%**<br>**Industry: 26.55%**<br>**Agriculture: 25.74%** | Three-sector classification | Services is largest (~48%); Industry and Agriculture are very close (~26% vs ~26%). |
 | **Agricultural Land Use** | Gross & net reporting area under farming operations. | Net Sown Area: **~52.2%**<br>Total Operational Holdings: **76.55 Lakh** | Dept of Agriculture / Land Records | Average holding size in Rajasthan (2.73 ha) is significantly higher than National average (1.08 ha). |
 | **Irrigation & Water** | Scarcity of surface water; reliance on canal systems and tubewells. | State possesses only **1.16%** of India's surface water resources | Narmada Canal Project (Sanchore/Barmer) | Sprinkler / drip micro-irrigation is statutorily mandatory across entire Narmada canal command. |
@@ -321,7 +341,7 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 | **Petroleum Architecture** | Four domestic sedimentary basins; Barmer-Sanchore leads onshore crude. | HRRL Pachpadra: **9 MMTPA capacity**; **74% HPCL : 26% GoR** | HPCL Rajasthan Refinery Ltd (HRRL) | HRRL is 74:26 JV, NOT 50:50; produces BS-VI fuels and petrochem polymers. |
 | **Renewable Energy** | Unrivaled solar irradiation (325 sunny days); national leader in solar. | Total Solar Potential: **142 GW**<br>Bhadla (Phalodi): **2,245 MW** | RREC / PM-KUSUM / SKAY Portal | Component A is grid-tied decentralized plants on barren land; Component C is agricultural feeder solarization. |
 | **Industrial Ecosystem** | Apex body for land acquisition, industrial parks, and SEZs. | Special Investment Regions (Bhiwadi, Neemrana, Boranada) | RIICO (Est. 1969/1980) / RIPS 2024 | DMIC freight corridor spans ~38% of total route through Rajasthan; MSME Act gives 3–5 yr exemption. |
-| **State Fiscal Federalism** | Horizontal and vertical fiscal devolution under State Constitution. | Devolution: **6.75% of State Tax**<br>PRI : ULB = **75.10% : 24.90%** | 6th State Finance Commission (Pradyumn Singh) | Inside PRIs, devolution is 75% Gram Panchayat, 20% Panchayat Samiti, 5% Zila Parishad. |
+| **State Fiscal Federalism** | Horizontal and vertical fiscal devolution under State Constitution. | Devolution: **6.75% of State Tax**<br>PRI : ULB = **75.10% : 24.90%** | 6th State Finance Commission (Pradyumn Singh) | Inside PRIs, devolution is 75% Gram Panchayat, 20% Panchayat Samiti, 5% Zila Parishad. Award 2020–25. |
 | **Demography & Literacy** | Decadal population growth, spatial urbanization, and educational gap. | Pop: **6.85 Cr** (2011)<br>Urban: **24.87%**; Sex Ratio: **928** | Census of India / ORGI | Female literacy (52.12%) is among lowest in India; Rural female literacy is only 45.8%. |
 | **Social Security Safety Net** | Statutory right to guaranteed minimum income and welfare pensions. | Minimum Pension: **₹1,150/mo** (+15% automatic annual indexation) | Rajasthan Minimum Guaranteed Income Act, 2023 | Guarantees 125 days wage employment (IRGY-Urban) and statutory right to social security pension. |
 

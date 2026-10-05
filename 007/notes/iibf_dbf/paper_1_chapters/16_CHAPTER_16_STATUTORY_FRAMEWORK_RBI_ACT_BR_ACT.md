@@ -1,4 +1,4 @@
-﻿# STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949
+# STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949
 
 The statutory governance of the Indian banking and monetary system is anchored by two foundational parliamentary enactments: the **Reserve Bank of India Act, 1934** (which established and empowers the central bank) and the **Banking Regulation Act, 1949** (which provides comprehensive prudential oversight, licensing, and management supervision over commercial and cooperative banks).
 
@@ -46,7 +46,7 @@ The RBI Act, 1934 comprises **Chapters I to V** alongside four primary **Schedul
 | **Chapter III: Sec 20 & 21** | Banker to Central Government | Obligation and right of the RBI to transact banking business of the Central Government. |
 | **Chapter III: Sec 21A** | Banker to State Governments | RBI transacts banking business of State Governments by voluntary bilateral agreement. |
 | **Chapter III: Sec 22** | **Sole Right to Issue Notes** | RBI possesses the exclusive monopoly to issue bank notes in India (except **₹1 notes and coins**, which are issued by the Ministry of Finance). |
-| **Chapter III: Sec 24** | Denominations of Notes | Permitted denominations: ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹200, ₹500, ₹2000, or any other denomination **not exceeding ₹10,000**. |
+| **Chapter III: Sec 24** | Denominations of Notes | Permitted denominations: ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹200, ₹500, ₹2000, or any other denomination **not exceeding ₹10,000** (*Note: ₹2000 remains a statutory denomination under Sec 24, though withdrawn from active circulation under Clean Note Policy on 19 May 2023*). |
 | **Chapter III: Sec 26** | **Legal Tender Character** | • **26(1):** Every bank note is legal tender across India.<br>• **26(2):** Central Government, upon recommendation of the Central Board, can declare **any series of bank notes of any denomination to cease to be legal tender** (Statutory basis of Demonetisation). |
 | **Chapter III: Sec 27** | Re-issue of Notes | Prohibits RBI from putting into re-circulation notes that are torn, defaced, or excessively soiled. |
 | **Chapter III: Sec 28** | Recovery of Lost/Mutilated Notes | RBI is not bound to refund lost or stolen notes; governed by **RBI (Note Refund) Rules**. |

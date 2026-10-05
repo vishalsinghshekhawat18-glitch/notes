@@ -202,9 +202,10 @@ export function transformChapterMarkdown(rawMarkdown: string, meta: ChapterMeta,
 
   // 3. Currency symbol protection
   text = text.replace(/\\(\$)/g, '___CURRENCY_USD___');
-  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d+[\d,\.]*\s*(?:billion|million|trillion|crore|lakh|bn|m|b|k)\b)/gi, '$1___CURRENCY_USD___$2');
-  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d[\d,\.]*)(?![^\n]*\$)(?![%+\-*=/^_\\])/g, '$1___CURRENCY_USD___$2');
-  text = text.replace(/\bUS\$/g, 'US___CURRENCY_USD_SIGN___');
+  text = text.replace(/\$(\d+[\d,\.]*\s*(?:billion|million|trillion|crore|lakh|bn|m|b|k)\b)/gi, '___CURRENCY_USD___$1');
+  text = text.replace(/(^|[\s\(\[\{>\-–+~*_])\$(\d+[\d,\.]*\s*(?:billion|million|trillion|crore|lakh|bn|m|b|k)\b)/gi, '$1___CURRENCY_USD___$2');
+  text = text.replace(/(^|[\s\(\[\{>\-–+~*_])\$(\d[\d,\.]*)(?![^\n]*\$)(?![%+\-*=/^_\\])/g, '$1___CURRENCY_USD___$2');
+  text = text.replace(/\bUS\$/gi, 'US___CURRENCY_USD_SIGN___');
 
   // 4. Pre-render KaTeX display math
   text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, inner) => {

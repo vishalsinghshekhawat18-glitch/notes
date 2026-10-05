@@ -138,6 +138,7 @@ Total Tax Revenue
 * **Structural Transition vs. Policy Stability**:
   * *What Changed Structurally*: Codification of the **Faceless Assessment and Digital Appeals Architecture** into core statutory law; rationalized terminology (unifying historical dual concepts of "Previous Year" and "Assessment Year" into a single annual Tax Year); standardized reassessment limitation periods; and substantially softened penalty friction.
   * *What Remained Constant*: Substantive tax rates, personal tax slab structures, corporate concessional tax baselines (22% rate), and bilateral Double Taxation Avoidance Agreement (DTAA) treaty protections are preserved intact to guarantee macroeconomic continuity.
+* **Statutory Transition Rule**: Tax years / assessment periods beginning prior to **1 April 2026** remain strictly governed by the substantive and procedural provisions of the Income-tax Act, 1961. Tax years beginning on or after 1 April 2026 are governed by the Income-tax Act, 2025 and Income-tax Rules, 2026.
 
 ### 2. Historical / PYQ Statutory Crosswalk Table
 To ensure seamless navigation between past examination questions (which cite historical 1961 Act sections) and the current statutory landscape, the following crosswalk governs all direct tax concepts:
@@ -146,8 +147,8 @@ To ensure seamless navigation between past examination questions (which cite his
 ┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
 │ Old IT Act, 1961 Provision      │ Historical / PYQ Concept        │ Current Law (IT Act, 2025)       │ Examination & Practical Impact  │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ **Section 115BAC**              │ Default Concessional Individual │ Codified Baseline Individual    │ Default personal tax regime     │
-│                                 │ Tax Regime (Finance Act, 2020)  │ Rate Schedule                   │ (No 80C/80D; ₹75k std deduction)│
+│ **Section 115BAC**              │ Default Concessional Individual │ **Section 202** (Current        │ Default personal tax regime     │
+│                                 │ Tax Regime (Finance Act, 2020)  │ Individual Rate Schedule)       │ (No 80C/80D; ₹75k std deduction)│
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **Section 115BAA**              │ 22% Concessional Corporate Tax  │ Codified Standard Corporate Tax │ Universal domestic corporate    │
 │                                 │ for Domestic Companies (2019)   │ Rate (22% Base + 10% Surcharge) │ rate (Effective: 25.17%)        │
@@ -180,7 +181,7 @@ Under the current direct-tax framework, India operates a two-track personal inco
 
 ```
 ┌───────────────────────────────────────────────┬───────────────────────────────────────────────┐
-│ Old Tax Regime (Optional Opt-In)              │ Current Default Tax Regime (Historical §115BAC│
+│ Old Tax Regime (Optional / 1961 Act Baseline) │ Current Default Regime [Old §115BAC ⟶ §202]   │
 ├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
 │ • Higher marginal tax slab rates.             │ • Significantly lower, streamlined slab rates.│
 │ • Retains ~70 exemptions and deductions:      │ • Almost all deductions eliminated (No 80C,   │

@@ -34,7 +34,7 @@ const EXACT_TOC_MAPPING = [
   { ch: 24, start: 169, end: 173, pages: 5 },
   { ch: 25, start: 174, end: 178, pages: 5 },
   { ch: 26, start: 179, end: 198, pages: 20 },
-  { ch: 27, start: 199, end: 207, pages: 9 },
+  { ch: 27, start: 199, end: 208, pages: 10 },
 ];
 
 export function buildTableOfContentsHtml(): string {
@@ -588,7 +588,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 199</span>
       </div>
-      <div class="chapter-subtopics">2025–26 AE GSDP (₹18.75L Cr) / PCI (₹2.02L) • 6th SFC • IGNP &amp; ERCP/PKC • RIICO / RIPS 2024 • HRRL (9 MMTPA) • Solar #1 • Welfare &amp; Farmer Schemes</div>
+      <div class="chapter-subtopics">2025–26 AE GSDP (₹18.75L Cr) / Constant PCI ₹1.03L • State Budget 2026–27 BE • 6th &amp; 7th SFC • ERCP/PKC • HRRL • Solar #1 • Welfare Schemes</div>
     </div>
   </div>
 
