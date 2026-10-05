@@ -55,9 +55,10 @@ $$\text{GNP} = \text{GDP} + \text{Net Factor Income from Abroad (NFIA)}$$
 
 ### 4. Net National Product (NNP) — The "True National Income"
 $$\text{NNP} = \text{GNP} - \text{Depreciation} = \text{NDP} + \text{NFIA}$$
-* In classical economic theory and official statistical registries, **NNP at Factor Cost (or Basic Price)** is formally denominated as the **National Income (NI)** of a country.
+* In classical economic theory and official statistical accounting, **National Income (NI) is strictly defined as NNP at Factor Cost ($\mathbf{NNP_{FC}}$)**.
+* *Exam Distinction*: Do not conflate **Factor Cost** with **Basic Price**. Basic Price ($\text{Factor Cost} + \text{Production Taxes} - \text{Production Subsidies}$) is an SNA 2008 producer valuation aggregate, but canonical National Income is exclusively $\text{NNP}_{\text{FC}}$.
 * Dividing National Income by total population yields **Per Capita Income (PCI)**:
-$$\text{Per Capita Income} = \frac{\text{National Income (NNP)}}{\text{Total Mid-Year Population}}$$
+$$\text{Per Capita Income} = \frac{\text{National Income } (NNP_{FC})}{\text{Total Mid-Year Population}}$$
 
 ---
 
@@ -98,10 +99,11 @@ $$\text{NFIA} = \text{Factor Income Received by Residents from Abroad} - \text{F
 > * **Transfer Payments / Unrequited Receipts** (Remittances sent by NRI relatives, gifts, foreign aid) = One-way payments without any counter-service. **STRICTLY EXCLUDED from NFIA and GNP.**
 > * *Exam Trap*: India is the world's largest recipient of foreign remittances (> \$100 Billion). These remittances enter the **Current Account (Secondary Income)** of the Balance of Payments, but they do **NOT** enter NFIA or GNP!
 
-### Why India's GDP > India's GNP:
-For developing countries like India, foreign investment and capital inflows into the domestic economy significantly exceed domestic capital invested abroad. Consequently, factor payments sent out to foreign multinational investors (dividends, interest on external debt) exceed factor earnings received by Indians abroad.
-$$\text{NFIA of India} < 0 \quad (\text{Consistently Negative})$$
+### Why India's GDP > India's GNP (Empirical Structural Feature):
+For developing economies like India, foreign investment and capital inflows into the domestic economy historically exceed domestic capital invested abroad. Consequently, factor payments sent out to foreign multinational investors (dividends, interest on external debt) exceed factor earnings received by Indians abroad.
+$$\text{NFIA of India} < 0 \quad (\text{Observed Negative Historical Reality})$$
 $$\therefore \quad \text{India's GDP} > \text{India's GNP}$$
+* *Crucial Qualification*: This is an **observed historical pattern**, NOT a mathematical law. In nations with substantial net overseas asset earnings (e.g. Japan, Kuwait), $\text{NFIA} > 0$ and consequently $\text{GNP} > \text{GDP}$.
 
 ---
 
@@ -203,41 +205,42 @@ $$\mathbf{GDP \text{ at Market Price}} = \sum \text{GVA at Basic Price} + (\text
 
 ---
 
-### The Four Pillar Changes of the 2015 Revision:
+### The Methodological Evolution: Dual-Layer National Accounts Architecture
+
+To excel in 2026 examinations, candidates must master both the foundational **2011–12 series** (frequently tested in past-year questions) and the **current 2022–23 series**:
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│ Feature                         │ Pre-2015 Series (Old System)    │ Post-2015 Series (SNA 2008)     │
+│ Feature                         │ [HISTORICAL] 2011–12 Series     │ [CURRENT 2026] 2022–23 Series   │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 1. Base Year                    │ 2004–05                         │ 2011–12                         │
+│ 1. Base Year                    │ 2011–12 (Adopted Jan 2015)      │ **2022–23** (MoSPI 2026 series) │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 2. Headline GDP Growth Metric   │ **GDP at Factor Cost**          │ **GDP at Market Price**         │
-│                                 │ (Reflected producer cost)       │ (Reflected consumer purchasing) │
+│ 2. Headline Growth Metric       │ **GDP at Market Price**         │ **GDP at Market Price**         │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 3. Sectoral Growth Metric       │ GVA at Factor Cost              │ **GVA at Basic Price**          │
+│ 3. Sectoral Growth Metric       │ **GVA at Basic Price**          │ **GVA at Basic Price**          │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ 4. Corporate Sector Data Source │ RBI study of 2,500 companies &  │ **MCA-21 Database** covering    │
-│                                 │ Annual Survey of Industries     │ balance sheets of over 500,000  │
-│                                 │ (ASI) factory establishment data│ registered enterprises.         │
+│ 4. Consumption Baseline         │ NSSO 68th Round (2011–12 CES)   │ **HCES 2022–23 (Updated Basket) │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ 5. Corporate Sector Pipeline    │ MCA-21 Database & ASI           │ **Enhanced MCA-21 + GSTN Data** │
 └─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
 ```
 
 > **Why the Switch to Market Price Matters**:
-> In years when government drastically cuts per-unit subsidies (e.g., eliminating diesel subsidies) or increases indirect tax collections (e.g., GST buoyancy), **$\text{Net Product Taxes}$ rise sharply**. As a result, **$\text{GDP at Market Price}$ grows faster than $\text{GVA at Basic Price}$**. Conversely, if the government increases food and fertilizer subsidies, GDP growth will appear lower than underlying GVA growth.
+> In years when government drastically cuts per-unit subsidies (e.g., eliminating fuel subsidies) or increases indirect tax collections (e.g., GST buoyancy), **$\text{Net Product Taxes}$ rise sharply**. As a result, **$\text{GDP at Market Price}$ grows faster than $\text{GVA at Basic Price}$**. Conversely, if the government increases food and fertilizer subsidies, GDP growth will appear lower than underlying GVA growth.
 
 ---
 
 ## 2.6 Price Adjustments: Nominal GDP, Real GDP & The GDP Deflator
 
 ### The Inflation Illusion
-If an economy produces 1,000 chairs in 2024 at ₹500 each, its GDP is ₹5,00,000. In 2025, it still produces 1,000 chairs, but due to rapid inflation, the price doubles to ₹1,000 each. The new GDP is ₹10,00,000.
+If an economy produces 1,000 chairs in Year 1 at ₹500 each, its GDP is ₹5,00,000. In Year 2, it still produces 1,000 chairs, but due to rapid inflation, the price doubles to ₹1,000 each. The new GDP is ₹10,00,000.
 Did the economy experience actual physical growth? **Zero.** The monetary expansion was purely inflationary.
 
 $$\text{Nominal GDP} = \sum (\text{Current Year Quantity } Q_t \times \text{Current Year Prices } P_t)$$
 $$\text{Real GDP} = \sum (\text{Current Year Quantity } Q_t \times \text{Base Year Prices } P_0)$$
 
 * **Nominal GDP**: Value of output measured at current prevailing market prices (unadjusted for inflation).
-* **Real GDP**: Value of output measured at constant base year prices (currently 2011-12 in India). **Real GDP is the true measure of economic growth**, as it changes only when actual physical volume of output increases.
+* **Real GDP**: Value of output measured at constant base year prices (`[CURRENT]`: Base 2022–23 series; `[HISTORICAL]`: Base 2011–12 series). **Real GDP is the true measure of economic growth**, as it changes only when actual physical volume of output increases.
 
 ### The GDP Deflator
 The GDP Deflator measures the average price change of all domestically produced final goods and services:

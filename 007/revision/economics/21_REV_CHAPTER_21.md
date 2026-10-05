@@ -14,7 +14,7 @@
 | **BOT-Toll** | **100% Private Concessionaire** | **Private Concessionaire Bears 100% Risk** | Direct toll fees collected from highway users |
 | **BOT-Annuity** | **100% Private Concessionaire** | **Government (NHAI) Bears Risk** | Fixed semi-annual annuity paid by NHAI |
 | **EPC Contract** | **100% Government Cash Contract** | **Government (NHAI) Bears Risk** | Lump-sum cash paid on milestone completion |
-| **Hybrid Annuity (HAM)**| **40% NHAI Cash + 60% Private Debt/Eq** | **Government Bears 100% Traffic Risk** | Semi-annual annuity over 15Y + Bank Rate interest |
+| **Hybrid Annuity (HAM)**| **40% NHAI Cash + 60% Private Debt/Eq** | **Government Bears 100% Traffic Risk** (NHAI collects tolls; developer bears construction/O&M risk) | Semi-annual annuity over 15Y + Bank Rate interest |
 
 ---
 
@@ -54,8 +54,9 @@ $$\mathbf{\text{HAM Funding Ratio}}: \quad \mathbf{40\% \text{ NHAI Cash Milesto
 
 ## 3. High-Yield Examiner Traps (Quick Scan)
 
-1. **Traffic Risk in HAM**: Under the Hybrid Annuity Model (HAM), the private developer does **NOT bear traffic or toll collection risk**. The **Government/NHAI collects tolls directly** and bears 100% of traffic risk.
+1. **Traffic Risk in HAM**: Under the Hybrid Annuity Model (HAM), the private developer does **NOT bear traffic or toll collection risk**. The **Government/NHAI collects tolls directly** and bears commercial traffic risk.
 2. **Net-Zero Year Benchmark**: India's sovereign pledge for Net-Zero carbon emissions is anchored at **2070**, NOT 2050 (2050 is the US/EU target; 2060 is China's target).
 3. **NIP Cost-Sharing Distribution**: The ₹111 Lakh Crore NIP is funded **39% by the Centre, 39% by States, and 22% by the Private Sector**. It is not a 50:50 Centre-State model.
 4. **PM GatiShakti Engines Count**: PM GatiShakti is propelled by **SEVEN distinct Engines** (Roads, Railways, Airports, Ports, Mass Transport, Waterways, Logistics Infrastructure).
 5. **DISCOM Losses Metric**: The primary measure of operational inefficiency in power distribution is **AT&C Losses** (Aggregate Technical and Commercial Losses) and the **ACS-ARR Gap** (Average Cost of Supply minus Average Revenue Realized).
+6. **Indian Carbon Market (ICM)**: Established under Energy Conservation (Amendment) Act 2022 / CCTS 2023. Administrator is **Bureau of Energy Efficiency (BEE)**, Trading Regulator is **CERC**, and Registry is **Grid-India**.

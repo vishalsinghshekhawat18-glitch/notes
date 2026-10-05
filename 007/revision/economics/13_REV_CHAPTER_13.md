@@ -12,9 +12,9 @@
 | Parameter | Consumer Price Index (CPI Combined) | Wholesale Price Index (WPI) |
 | :--- | :--- | :--- |
 | **Publishing Agency** | **NSO (MoSPI)** | **Office of Economic Adviser, DPIIT (MoC&I)** |
-| **Base Year** | **2012 = 100** | **2011–12 = 100** |
+| **Base Year** | **2012 = 100** (Historical) / **2024 = 100** (2026 Live) | **2011–12 = 100** |
 | **Coverage Scope** | **Goods AND Services** | **GOODS ONLY (Zero Services)** |
-| **Dominant Group** | **Food & Beverages (45.86%)** | **Manufactured Products (64.23%)** |
+| **Dominant Group** | **Food & Beverages (45.86% in 2012 series)** | **Manufactured Products (64.23%)** |
 | **Price Point** | Retail market price paid by consumer (incl. taxes) | Wholesale / First commercial transaction (Basic price) |
 | **Monetary Target Anchor** | **YES (Official RBI FIT Target: 4% $\pm$ 2%)** | **NO** (Abandoned in 2014 per Urjit Patel report) |
 
@@ -62,3 +62,4 @@ $$\mathbf{\text{Long-Run Phillips Curve (LRPC)}}: \quad \text{Vertical at } \mat
 3. **Disinflation vs. Deflation**: Disinflation is **NOT deflation**. Under disinflation, prices continue to rise, just at a slower rate (inflation rate decreases from 8% to 5%). Deflation means prices are actually falling (negative inflation rate).
 4. **GDP Deflator vs. Imported Shock**: An international crude oil spike or edible oil price surge affects **CPI directly**, but does **NOT directly enter the GDP deflator** because the GDP deflator reflects only domestic output.
 5. **Compiling Agency Split**: CPI Combined is compiled by **NSO (MoSPI)**; CPI-IW/AL/RL are compiled by the **Labour Bureau (Ministry of Labour & Employment)**; WPI is compiled by the **Office of Economic Adviser (DPIIT, Ministry of Commerce & Industry)**.
+6. **Dual-Layer CPI Series**: Historical PYQ questions test Base 2012=100 (Food weight 45.86%). The 2026 series revision adopts Base 2024=100 (299 items, reduced food weight based on HCES 2022–23).

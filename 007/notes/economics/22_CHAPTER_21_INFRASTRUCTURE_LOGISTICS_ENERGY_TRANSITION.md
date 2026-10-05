@@ -44,10 +44,12 @@ The financing of national highways in India evolved through four distinct contra
 │   Construction)*                │ contractor as milestones finish.│ contractor merely builds.       │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **4. Hybrid Annuity Model (HAM) │ **Shared 40:60**:               │ **Government Bears 100% Traffic │
-│ *(The Modern Breakthrough)**    │ • **Govt pays 40% as cash** in  │ Risk**. Developer receives      │
-│                                 │   5 equal construction phases.  │ guaranteed biannual annuity     │
-│                                 │ • **Private developer raises 60%│ payments with interest linked   │
-│                                 │   equity and debt**.            │ to benchmark bank rates!        │
+│ *(The Modern Breakthrough)**    │ • **Govt pays 40% as cash** in  │ & Revenue Risk**. Private       │
+│                                 │   5 equal construction phases.  │ developer bears construction and│
+│                                 │ • **Private developer raises    │ O&M performance risk, receiving │
+│                                 │   60% equity and debt**.        │ guaranteed biannual annuity     │
+│                                 │ Developer bears construction &  │ payments with interest linked   │
+│                                 │ maintenance risk.               │ to benchmark bank rates!        │
 └─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
 ```
 
@@ -57,11 +59,12 @@ The financing of national highways in India evolved through four distinct contra
          ┌──────────────────────────────────────┴──────────────────────────────────────┐
          ▼                                                                             ▼
 [CONSTRUCTION PHASE (40% GOVT CASH)]                                  [OPERATIONAL PHASE (15 YEARS ANNUITY)]
-• NHAI pays 40% of project cost in cash                               • NHAI collects tolls directly.
-  across 5 construction milestones (10%, 20%...)                      • NHAI pays developer remaining 60%
-• Private developer arranges remaining 60%                              in semi-annual annuity installments
-  via bank debt and equity.                                             PLUS interest linked to Bank Rate.
-• Eliminates developer cash crunch!                                   • **Zero Traffic Risk for Developer!**
+• NHAI pays 40% of project cost in cash                               • NHAI collects tolls directly;
+  across 5 construction milestones (10%, 20%...)                        bears commercial traffic risk.
+• Private developer arranges remaining 60%                            • NHAI pays developer remaining 60%
+  via bank debt and equity.                                             in semi-annual annuity installments
+• Eliminates developer cash crunch; developer                           PLUS interest linked to Bank Rate.
+  absorbs construction completion risk.                               • **Developer insulated from traffic risk!**
 ```
 
 * **The Kelkar Committee on PPP Reforms (2015)**:
@@ -246,10 +249,16 @@ At the COP26 Climate Summit in Glasgow (2021), India announced five sovereign cl
 
 ---
 
-### The Domestic Carbon Credit Trading Scheme (CCTS)
-Enacted under the *Energy Conservation (Amendment) Act, 2022*:
-* Transitions India from the earlier technical energy-saving scheme (Perform, Achieve and Trade - PAT) into an institutional **National Compliance Carbon Market**.
-* Obligated industrial entities receive greenhouse gas emission intensity targets. Entities outperforming targets earn tradeable **Carbon Credit Certificates (CCCs)**; defaulting entities must purchase credits on domestic power exchanges or pay statutory non-compliance penalties.
+### The Indian Carbon Market (ICM) & Carbon Credit Trading Scheme (CCTS)
+Notified under the *Energy Conservation (Amendment) Act, 2022* and formalized via the *Carbon Credit Trading Scheme (CCTS), 2023*:
+* **Strategic Evolution**: Transitions India from the earlier technical energy-efficiency mechanism (**PAT Scheme - Perform, Achieve and Trade**) into a comprehensive, economy-wide **National Market-Based Decarbonization Mechanism**.
+* **Three-Pillar Institutional Governance Matrix**:
+  1. **Administrator**: **Bureau of Energy Efficiency (BEE)** — Sets GHG emission trajectory pathways, defines baseline emission intensity targets for obligated industrial sectors, and certifies emissions performance.
+  2. **Market Regulator**: **Central Electricity Regulatory Commission (CERC)** — Regulates trading of Carbon Credit Certificates (CCCs), prevents market manipulation, and approves trading platforms (power exchanges like IEX, PXIL).
+  3. **Registry**: **Grid Controller of India Limited (Grid-India)** — Serves as the central registry maintaining digital records of issuance, transfer, holding, and redemption of CCCs.
+* **Dual Market Structure**:
+  1. **Compliance Mechanism**: Obligated entities in energy-intensive sectors (steel, cement, chlor-alkali, thermal power) receive binding GHG emission intensity targets (tCO2e per unit of production). Entities beating targets are issued CCCs (1 CCC = 1 metric tonne of CO2 equivalent reduced); non-compliant entities must purchase CCCs from the market or pay statutory financial penalties.
+  2. **Voluntary Offset Mechanism**: Enables non-obligated entities (forestry projects, green hydrogen producers, regenerative agriculture, decentralized solar developers) to register emission-reduction projects, undergo independent verification, and sell verified offsets.
 
 ---
 

@@ -50,7 +50,7 @@ $$\mathbf{\text{Effective State Share}} = \frac{\text{Devolved Taxes to States}}
 
 $$\mathbf{\text{State Net Borrowing Ceiling (FRBM)}}: \quad \mathbf{\text{Normal Cap}} = \mathbf{3.0\% \text{ of GSDP}} \quad (+\mathbf{0.5\% \text{ Performance Power Window}})$$
 
-$$\mathbf{\text{Vertical Devolution History}}: \quad \text{12th FC: } 30.5\% \;\longrightarrow\; \text{13th FC: } 32.0\% \;\longrightarrow\; \text{14th FC: } \mathbf{42.0\%} \;\longrightarrow\; \text{15th FC: } \mathbf{41.0\%}$$
+$$\mathbf{\text{Vertical Devolution History}}: \quad \text{12th FC: } 30.5\% \;\longrightarrow\; \text{13th FC: } 32.0\% \;\longrightarrow\; \text{14th FC: } \mathbf{42.0\%} \;\longrightarrow\; \text{15th FC: } \mathbf{41.0\%} \;\longrightarrow\; \mathbf{\text{16th FC (2026–31): 41.0\% Baseline}}$$
 
 ---
 
@@ -61,3 +61,4 @@ $$\mathbf{\text{Vertical Devolution History}}: \quad \text{12th FC: } 30.5\% \;\
 3. **State Foreign Borrowing**: State Governments are **constitutionally prohibited from borrowing directly from foreign governments or international financial institutions** (Article 293(2)). All external assistance must flow through the Government of India.
 4. **Article 293(3) Consent Rule**: A State **CANNOT borrow from the market without the Central Government's consent** if any central loan or central guarantee remains outstanding.
 5. **Off-Budget Borrowing Tightening**: Since March 2022, borrowings by State PSUs/SPVs where debt servicing is met from state budgetary funds are **counted against the State's 3% Net Borrowing Ceiling**.
+6. **16th Finance Commission (2026–2031)**: Constituted under Article 280 under the chairmanship of **Dr. Arvind Panagariya**; retains the 41% vertical baseline while recalibrating demographic incentives and state disaster management funds.

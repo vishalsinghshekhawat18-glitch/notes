@@ -86,9 +86,9 @@ Every economic society, regardless of its ideology, must solve three structural 
 Human societies organize production and distribution through three primary institutional frameworks:
 
 ### 1. Market Economy (Capitalism / Free Enterprise)
-* **Core Mechanism**: Private ownership of factors of production. Allocation is driven exclusively by Adam Smith’s **"Invisible Hand"**—the price mechanism operating through supply and demand without state intervention.
+* **Core Mechanism**: Private ownership of factors of production. Decentralized resource allocation coordinated primarily through the price mechanism (Adam Smith’s "Invisible Hand") driven by competitive supply and demand within an institutional framework of property rights, contract enforcement, and commercial law.
 * **Consumer Sovereignty**: Production follows consumer willingness and ability to pay.
-* **Critical Vulnerability**: Market failure in providing public goods (defense, roads), rampant income inequality, negative externalities (pollution), and neglect of non-profitable social welfare.
+* **Critical Vulnerability**: Market failure in providing public goods (defense, environmental quality), rampant income inequality, negative externalities (pollution), and neglect of non-profitable social welfare.
 
 ### 2. Command Economy (Socialist / State-Directed)
 * **Core Mechanism**: State ownership of all collective means of production (Karl Marx). Allocation is planned centrally by a National Planning Authority (e.g., Gosplan in Soviet Russia).
@@ -153,7 +153,7 @@ $$\text{Injections } (J) = \text{Investment } (I) + \text{Government Spending } 
 
 * **Macroeconomic Equilibrium Condition**: Total Leakages must equal Total Injections:
 $$S + T + M = I + G + X$$
-* **Policy Implication**: If Leakages exceed Injections ($S + T + M > I + G + X$), aggregate demand contracts, leading to deflation and rising unemployment. If Injections exceed Leakages, aggregate demand expands, potentially fueling demand-pull inflation.
+* **Policy Implication**: If Leakages exceed Injections ($S + T + M > I + G + X$), aggregate demand faces contractionary pressure, which dampens domestic output and employment unless counteracted. If Injections exceed Leakages, aggregate demand expands, potentially fueling demand-pull inflation.
 
 ---
 
@@ -233,7 +233,7 @@ Economics categorizes all goods in society by two physical and legal characteris
 
 1. **Pure Public Goods (Non-Excludable & Non-Rivalrous)**:
    * *Mechanism*: Once provided, you cannot stop non-payers from enjoying it (*Non-Excludability*), and one citizen's protection by the Indian Army does not reduce protection for another (*Non-Rivalry*).
-   * *Market Failure*: **The Free-Rider Problem**. Because consumers know they can enjoy the good without paying, private markets cannot charge a price and therefore produce zero public goods. **The state must finance them through compulsory taxation.**
+   * *Market Failure*: **The Free-Rider Problem**. Because consumers know they cannot be excluded once the good is provided, competitive profit-maximizing private markets severely under-provide pure public goods relative to the social optimum. **Consequently, modern societies finance them primarily through compulsory taxation and state provision**, supplemented in specific areas by civic or philanthropic action.
 2. **Common Pool Resources (Non-Excludable but Rivalrous)**:
    * *Mechanism*: Anyone can fish in the high seas (*Non-Excludable*), but every fish caught reduces the fish available for others (*Rivalrous*).
    * *Market Failure*: **The Tragedy of the Commons** (Garrett Hardin, 1968). Rational individual self-interest leads to systemic over-exploitation and collapse of the resource. Solved via property rights, quotas, or Elinor Ostrom’s community governance.
@@ -248,25 +248,24 @@ Economics categorizes all goods in society by two physical and legal characteris
 ┌─────────────────┬─────────────────────────────────┬─────────────────────────────────┐
 │ Good Type       │ Defining Epistemic Mechanism     │ Real-World Example              │
 ├─────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ Merit Goods     │ Goods whose social benefit      │ Primary education, immuniza-    │
-│                 │ exceeds private benefit (posi-  │ tion vaccines, basic healthcare.│
-│                 │ tive externalities); under-con- │ State subsidizes or provides    │
-│                 │ sumed if left to market forces. │ free of cost.                   │
+│ Merit Goods     │ Goods whose social benefits and │ Primary education, immuniza-    │
+│                 │ positive externalities exceed   │ tion vaccines, basic healthcare.│
+│                 │ private valuation (often due to │ State subsidizes or provides    │
+│                 │ imperfect info / myopia).       │ free of cost.                   │
 ├─────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ Demerit Goods   │ Goods whose social cost exceeds │ Cigarettes, alcohol, gambling.   │
-│                 │ private cost (negative extern-  │ State imposes heavy sin taxes   │
-│                 │ alities); over-consumed in free │ or outright statutory bans.     │
-│                 │ markets due to imperfect info.  │                                 │
+│ Demerit Goods   │ Goods whose social costs exceed │ Cigarettes, alcohol, gambling.   │
+│                 │ private costs (negative extern- │ State imposes heavy sin taxes   │
+│                 │ alities + cognitive myopia).    │ or statutory bans.              │
 ├─────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ Veblen Goods    │ Conspicuous luxury goods whose  │ Rolex watches, luxury sports    │
 │                 │ demand INCREASES as price rises │ cars, designer jewelry.         │
 │                 │ (Status/Snob appeal). Violates  │ Higher price signals elite      │
 │                 │ the Law of Demand.              │ social status.                  │
 ├─────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ Giffen Goods    │ Non-luxury inferior staple      │ Coarse grains (bajra, potatoes) │
-│                 │ goods whose demand INCREASES as │ for destitute households.       │
-│                 │ price rises due to an overwhel- │ Negative income effect eclipses │
-│                 │ ming negative income effect.    │ the substitution effect.        │
+│ Giffen Goods    │ Extreme theoretical / textbook  │ Subsistence staple models       │
+│                 │ anomaly: inferior staple where  │ (e.g. coarse grains / potatoes) │
+│                 │ price rise causes demand to rise│ where negative income effect    │
+│                 │ (income effect > substitution). │ overpowers substitution effect. │
 └─────────────────┴─────────────────────────────────┴─────────────────────────────────┘
 ```
 

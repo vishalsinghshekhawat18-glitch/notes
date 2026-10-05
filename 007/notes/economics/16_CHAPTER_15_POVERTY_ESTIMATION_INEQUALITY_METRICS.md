@@ -98,9 +98,9 @@ In developed economies, poverty is assessed via reported tax returns and wage da
 │ **(2011–12 Benchmark)**         │ • Rural: **25.7%**              │ • Rural: **30.9%**              │
 │                                 │ • Urban: **13.7%**              │ • Urban: **26.4%**              │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ **Official Adoption Status**    │ **OFFICIALLY ADOPTED** by       │ Submitted to Planning Commission│
-│                                 │ Government as statutory 2011–12 │ in 2014, but **NEVER OFFICIALLY │
-│                                 │ benchmark.                      │ ADOPTED** by the Union Cabinet. │
+│ **Official Adoption Status**    │ **OFFICIALLY ADOPTED** by the   │ Submitted to Planning Commission│
+│                                 │ Planning Commission as official │ in 2014, but **NEVER OFFICIALLY │
+│                                 │ historical methodology baseline.│ ADOPTED** by the Union Govt.    │
 └─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
 ```
 

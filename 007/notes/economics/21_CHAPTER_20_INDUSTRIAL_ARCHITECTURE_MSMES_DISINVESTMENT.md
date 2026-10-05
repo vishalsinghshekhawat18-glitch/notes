@@ -104,35 +104,41 @@ To understand why independent India selected its capital-goods-led industrial tr
 
 Micro, Small, and Medium Enterprises (MSMEs) represent the backbone of India's manufacturing and employment matrix, contributing approximately **30% of India's GDP**, **45% of total manufacturing output**, and **over 40% of national merchandise exports**, while employing over **11 crore citizens**.
 
-### The 2020 Historic Definitional Overhaul:
-Prior to July 2020, under the *MSMED Act, 2006*, definitions differed between Manufacturing (plant & machinery investment) and Services (equipment investment). On **1st July 2020**, the Government enacted a revolutionary unified definition:
+### The Definitional Evolution: Dual-Layer MSME Architecture
+
+Prior to July 2020, under the *MSMED Act, 2006*, definitions differed between Manufacturing (plant & machinery investment) and Services (equipment investment). On **1st July 2020**, the Government enacted a revolutionary composite criteria eliminating goods-vs-services distinction. Subsequently, effective **1st April 2025** (the Current Live Series), the thresholds were significantly raised to accommodate inflation, facilitate scale, and prevent enterprises from intentionally capping capital expansion to retain benefits:
 
 ```
                             THE UNIFIED COMPOSITE MSME CRITERIA
                                              │
              ┌───────────────────────────────┴───────────────────────────────┐
              ▼                                                               ▼
-[MANUFACTURING & SERVICES MERGED]                                   [THE COMPOSITE RATIO (1:5)]
-Zero distinction between goods & services;                          Annual Turnover is capped at
-both governed by the exact same thresholds!                         **EXACTLY 5x of Investment**!
+[MANUFACTURING & SERVICES MERGED]                                   [THE COMPOSITE RATIO]
+Zero distinction between goods & services;                          Annual Turnover ceiling scales
+both governed by the exact same thresholds!                         proportionately to investment!
 ```
 
+#### Dual-Layer Comparative Framework: Historical vs Current Live Series
+
 ```
-┌─────────────────────────────────┬───────────────────────────────┬───────────────────────────────────┐
-│ Enterprise Category             │ Maximum Investment in Plant   │ Maximum Annual Turnover           │
-│                                 │ and Machinery / Equipment     │ (Gross Sales)                     │
-├─────────────────────────────────┼───────────────────────────────┼───────────────────────────────────┤
-│ **1. MICRO ENTERPRISE**         │ **Does NOT Exceed ₹1 Crore**  │ **Does NOT Exceed ₹5 Crore**      │
-├─────────────────────────────────┼───────────────────────────────┼───────────────────────────────────┤
-│ **2. SMALL ENTERPRISE**         │ **Does NOT Exceed ₹10 Crore** │ **Does NOT Exceed ₹50 Crore**     │
-├─────────────────────────────────┼───────────────────────────────┼───────────────────────────────────┤
-│ **3. MEDIUM ENTERPRISE**        │ **Does NOT Exceed ₹50 Crore** │ **Does NOT Exceed ₹250 Crore**    │
-└─────────────────────────────────┴───────────────────────────────┴───────────────────────────────────┘
+┌─────────────────────────┬───────────────────────────────────────────┬───────────────────────────────────────────┐
+│ Enterprise Category     │ [HISTORICAL BENCHMARK: July 2020 Series]  │ [CURRENT 2026 LIVE SERIES: April 2025]    │
+│                         │ (Plant & Machinery Capex / Turnover)      │ (Revised Thresholds for Scale)            │
+├─────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
+│ **1. MICRO ENTERPRISE** │ Investment $\le$ **₹1 Crore**   AND       │ Investment $\le$ **₹2.5 Crore** AND       │
+│                         │ Turnover $\le$ **₹5 Crore**               │ Turnover $\le$ **₹10 Crore**              │
+├─────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
+│ **2. SMALL ENTERPRISE** │ Investment $\le$ **₹10 Crore**  AND       │ Investment $\le$ **₹25 Crore**  AND       │
+│                         │ Turnover $\le$ **₹50 Crore**              │ Turnover $\le$ **₹100 Crore**             │
+├─────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
+│ **3. MEDIUM ENTERPRISE**│ Investment $\le$ **₹50 Crore**  AND       │ Investment $\le$ **₹125 Crore** AND       │
+│                         │ Turnover $\le$ **₹250 Crore**             │ Turnover $\le$ **₹500 Crore**             │
+└─────────────────────────┴───────────────────────────────────────────┴───────────────────────────────────────────┘
 ```
 
-> **The Sovereign Export Carve-Out Rule**:  
-> In calculating an enterprise's annual turnover for MSME classification, **EXPORTS OF GOODS AND SERVICES ARE EXCLUDED ENTIRELY**!  
-> *Practical Meaning*: A small manufacturing firm can export ₹500 Crore worth of precision engineering tools globally; as long as its domestic turnover is $\le ₹50 \text{ Crore}$ and investment is $\le ₹10 \text{ Crore}$, it **retains its official "Small Enterprise" status and all concessional benefits**!
+> **The Sovereign Export Carve-Out Rule (Invariable Core Principle)**:  
+> In calculating an enterprise's annual turnover for MSME classification, **EXPORTS OF GOODS AND SERVICES ARE EXCLUDED ENTIRELY** under both series!  
+> *Practical Meaning*: A small manufacturing firm can export ₹500 Crore worth of precision engineering tools globally; as long as its domestic turnover is within the designated threshold and investment is compliant, it **retains its official MSME status and all concessional benefits**!
 
 ---
 
@@ -307,24 +313,32 @@ Establishes a radical strategic retreat of the State from commercial enterprise:
 
 ---
 
-## 20.5 Industrial Performance Measurement: The IIP & Core Industries
+## 20.5 Industrial Performance Measurement: Dual-Layer IIP & Core Industries Architecture
 
-The **Index of Industrial Production (IIP)** is compiled and published monthly by the **National Statistical Office (NSO)**, MoSPI (Base Year **2011–12 = 100**):
+The **Index of Industrial Production (IIP)** measures short-term changes in the volume of production of a basket of industrial products, compiled and published monthly by the **National Statistical Office (NSO)**, MoSPI.
+
+### Dual-Layer IIP Framework: Historical Base 2011–12 vs Current 2026 Base 2022–23
 
 ```
-                                  IIP SECTORAL COMPOSITION (100%)
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         ▼                                      ▼                                      ▼
-[MANUFACTURING SECTOR]                   [MINING SECTOR]                     [ELECTRICITY SECTOR]
-     **77.63%**                              **14.37%**                            **7.99%**
-(Dominates the index!)
+┌─────────────────────────────────┬───────────────────────────────────────────┬───────────────────────────────────────────┐
+│ Metric / Component              │ [HISTORICAL BENCHMARK: Base 2011–12]      │ [CURRENT 2026 TRANSITION: Base 2022–23]   │
+├─────────────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
+│ **Base Year**                   │ **2011–12 = 100**                         │ **2022–23 = 100** (MoSPI Revision)        │
+├─────────────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
+│ **Broad Sectoral Breakdown**    │ • Manufacturing: **77.63%**               │ Updated basket capturing modern digital   │
+│                                 │ • Mining: **14.37%**                      │ electronics, renewable energy machinery,  │
+│                                 │ • Electricity: **7.99%**                  │ and expanded capital goods items.         │
+├─────────────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
+│ **Core Industries Basket**      │ **Eight Core Industries** (**40.27%**)    │ **Nine Core Industries** (Expanded)       │
+│                                 │ (Refinery, Power, Steel, Coal, Crude Oil, │ Added **Iron Ore** as a distinct core     │
+│                                 │ Natural Gas, Cement, Fertilizers)         │ mining category; revised weighting.       │
+└─────────────────────────────────┴───────────────────────────────────────────┴───────────────────────────────────────────┘
 ```
 
 ---
 
-### The Eight Core Industries (40.27% of IIP):
-The Eight Core Industries represent basic infrastructure foundation goods and account for **40.27% of the total weight of the IIP**. Compiled monthly by the Office of the Economic Adviser, DPIIT:
+### The Eight Core Industries (Historical Benchmark Series — 40.27% of IIP):
+The Eight Core Industries represent basic infrastructure foundation goods and account for **40.27% of the total weight of the 2011–12 IIP**. Compiled monthly by the Office of the Economic Adviser, DPIIT:
 
 ```
 ┌─────────────────────────────────┬────────────────┬────────────────────────────────────────────┐
@@ -342,6 +356,8 @@ The Eight Core Industries represent basic infrastructure foundation goods and ac
 │ **TOTAL COMBINED WEIGHT**       │ **40.27%**     │ Highly tracked leading macro indicator     │
 └─────────────────────────────────┴────────────────┴────────────────────────────────────────────┘
 ```
+
+> **The 2026 Core Expansion Note**: In the 2022–23 series revision, DPIIT formalizes **Iron Ore** as the 9th Core Industry, recognizing that domestic steel manufacturing integration and mining transport economics require independent continuous high-frequency tracking.
 
 ---
 
@@ -397,22 +413,26 @@ To overcome India's historical manufacturing disabilities (poor logistics, expen
 │                                 │ (Tomato, Onion, Potato) but has been expanded to **TOTAL**   │
 │                                 │ (**22 perishable horticultural commodities**).              │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **MSME Definition Criteria**    │ **TRAP**: The 2020 definition uses **BOTH Investment AND   │
-│                                 │ Turnover**. Both criteria must be satisfied! There is       │
+│ **MSME Definition Criteria**    │ **TRAP**: The composite criteria uses **BOTH Investment    │
+│                                 │ AND Turnover**. Both criteria must be satisfied! There is   │
 │                                 │ **NO difference between manufacturing and services**.       │
+│                                 │ In 2025 series: Micro $\le$ ₹2.5/₹10 Cr; Small $\le$ ₹25/   │
+│                                 │ ₹100 Cr; Medium $\le$ ₹125/₹500 Cr (Historical 2020 series: │
+│                                 │ ₹1/₹5 Cr; ₹10/₹50 Cr; ₹50/₹250 Cr).                         │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **MSME Export Turnover Trap**   │ **TRAP**: **Export turnover is EXCLUDED** from the MSME     │
 │                                 │ turnover ceiling calculation. Exporting does not push a firm│
-│                                 │ out of MSME categorization.                                 │
+│                                 │ out of MSME categorization under either series!             │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **Public Sector Reserved Sectors**│ **TRAP**: Only **TWO sectors** remain reserved exclusively│
 │                                 │ for the Public Sector: (1) **Atomic Energy**, and          │
 │                                 │ (2) **Railway Operations**. Defense equipment is open to    │
 │                                 │ 100% private and 74% automatic FDI!                         │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Eight Core Industries Order** │ **TRAP**: The largest core industry in IIP is **Refinery    │
-│                                 │ Products (28.04%)**, NOT Electricity or Steel! The smallest │
-│                                 │ is **Fertilizers (2.63%)**.                                 │
+│ **Eight Core Industries Order** │ **TRAP**: In the 2011–12 series, the largest core industry   │
+│                                 │ is **Refinery Products (28.04%)**, NOT Electricity or Steel!│
+│                                 │ The smallest is **Fertilizers (2.63%)**. Note 2026 series   │
+│                                 │ revision adds Iron Ore (9 core industries total).           │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **NMP Ownership Transfer**      │ **TRAP**: Asset Monetization under NMP is **NOT             │
 │                                 │ Privatization**! Government retains 100% asset ownership;   │
@@ -425,15 +445,19 @@ To overcome India's historical manufacturing disabilities (poor logistics, expen
 ## 20.8 Active Recall Diagnostic Cards
 
 ```
-CARD 1: State the precise composite investment and turnover thresholds for Micro, Small, and Medium enterprises under the post-2020 definition.
+CARD 1: State the precise composite investment and turnover thresholds for Micro, Small, and Medium enterprises across both historical and current series.
 ANSWER:
-1. Micro: Investment <= ₹1 Crore AND Turnover <= ₹5 Crore.
-2. Small: Investment <= ₹10 Crore AND Turnover <= ₹50 Crore.
-3. Medium: Investment <= ₹50 Crore AND Turnover <= ₹250 Crore.
-Key Rules:
+1. Current 2026 Live Series (Effective April 1, 2025):
+   - Micro: Investment <= ₹2.5 Crore AND Turnover <= ₹10 Crore.
+   - Small: Investment <= ₹25 Crore AND Turnover <= ₹100 Crore.
+   - Medium: Investment <= ₹125 Crore AND Turnover <= ₹500 Crore.
+2. Historical Benchmark Series (July 1, 2020):
+   - Micro: Investment <= ₹1 Crore AND Turnover <= ₹5 Crore.
+   - Small: Investment <= ₹10 Crore AND Turnover <= ₹50 Crore.
+   - Medium: Investment <= ₹50 Crore AND Turnover <= ₹250 Crore.
+Core Rules (Universal across both):
 - Manufacturing and Services are treated identically.
-- Turnover ceiling is exactly 5x of the investment ceiling.
-- Export turnover is completely excluded from the turnover calculation.
+- Export turnover is completely excluded from the turnover ceiling calculation.
 ```
 
 ```
@@ -451,12 +475,15 @@ ANSWER:
 ```
 
 ```
-CARD 4: Detail the sectoral composition of the Index of Industrial Production (IIP) and list the top 3 and bottom 1 industries in the Eight Core Industries basket.
+CARD 4: Detail the sectoral composition of the Index of Industrial Production (IIP) and list the top 3 and bottom 1 industries in the Core Industries basket.
 ANSWER:
-1. IIP Sectoral Weights: Manufacturing (77.63%), Mining (14.37%), Electricity (7.99%). Base: 2011–12.
-2. Eight Core Industries (40.27% of IIP):
-   - Top 3: (1) Refinery Products (28.04%), (2) Electricity (19.85%), (3) Steel (17.92%).
-   - Bottom 1: Fertilizers (2.63%).
+1. IIP Historical Benchmark (Base 2011–12):
+   - Sectoral Weights: Manufacturing (77.63%), Mining (14.37%), Electricity (7.99%).
+   - Eight Core Industries (40.27% of IIP):
+     * Top 3: (1) Refinery Products (28.04%), (2) Electricity (19.85%), (3) Steel (17.92%).
+     * Bottom 1: Fertilizers (2.63%).
+2. Current 2026 Transition (Base 2022–23):
+   - Expands to Nine Core Industries by incorporating Iron Ore as a distinct core mining series.
 ```
 
 ```

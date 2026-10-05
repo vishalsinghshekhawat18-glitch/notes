@@ -210,6 +210,42 @@ Recommended by the Finance Commission and charged upon the Consolidated Fund of 
 
 ---
 
+## 12.6 The 16th Finance Commission Architecture (Award Period: 2026–2031)
+
+Constituted under Article 280 on 31 December 2023, the **16th Finance Commission** represents the active constitutional framework governing Centre-State financial relations for the 2026–2031 quinquennium:
+
+```
+┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│ Dimension                       │ Operational Architecture & Statutory Mandate                │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Chairperson**                 │ **Dr. Arvind Panagariya** (Former Vice Chairman, NITI Aayog)│
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Award Period**                │ **5 Years: 1st April 2026 to 31st March 2031**               │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Vertical Devolution Share**   │ **41%** of Net Divisible Pool (maintaining the 1% adjustment│
+│                                 │ carved out for the Union Territories of J&K and Ladakh).    │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Core Terms of Reference**     │ 1. Division of net tax proceeds under Article 270.          │
+│                                 │ 2. Grants-in-aid principles under Article 275.              │
+│                                 │ 3. Augmenting State Consolidated Funds for PRIs and ULBs.   │
+│                                 │ 4. Disaster management financing (NDRF/SDRF review).        │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Horizontal Calibrations**     │ Retains Income Distance (~45%) and Area (~15%), while       │
+│                                 │ recalibrating **Demographic Performance (10%)** using       │
+│                                 │ direct decadal population growth metrics rather than pure   │
+│                                 │ TFR, balancing southern demographic stability vs northern   │
+│                                 │ scale requirements.                                         │
+└─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
+```
+
+> **Key Fiscal Federalism Focus for 2026+ Exams**:
+> The 16th FC operates amid acute debates over:
+> 1. **Cess/Surcharge Proliferation**: Cesses and surcharges shrinking the effective divisible pool to ~30-32% of Gross Tax Revenue despite the headline 41% formula.
+> 2. **Off-Budget Borrowings & Discom Debt**: Strict inclusion of State sovereign guarantees and power utility debt under Article 293(3) borrowing ceilings.
+> 3. **Fiscal Profligacy vs Merit Subsidies**: Distinguishing productive human capital investments from unfinanced non-merit electoral transfers.
+
+---
+
 ### 2. Discretionary Transfers & Schematic Spending (Article 282):
 
 ```

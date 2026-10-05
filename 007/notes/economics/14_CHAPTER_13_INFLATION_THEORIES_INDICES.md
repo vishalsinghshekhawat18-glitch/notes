@@ -203,56 +203,50 @@ India measures inflation through two primary institutional indices: the **Consum
 │ Dimension                       │ Consumer Price Index (CPI)      │ Wholesale Price Index (WPI)     │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **Compiling Authority**         │ **National Statistical Office   │ **Office of the Economic Adviser│
-│                                 │ (NSO)**, Ministry of Statistics │ (OEA)**, DPIIT, Ministry of     │
-│                                 │ and Programme Implementation    │ Commerce and Industry.          │
+│                                 │ (NSO)**, MoSPI                  │ (OEA)**, DPIIT, Min of Commerce │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ **Base Year**                   │ **2012 = 100**                  │ **2011–12 = 100**               │
+│ **Base Year Architecture**      │ **[CURRENT]: 2024 = 100**       │ **2011–12 = 100**               │
+│                                 │ *[HISTORICAL]: 2012 = 100*      │ (Revision to 2022–23 staged)    │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **Transaction Level**           │ **Retail Consumer Level**       │ **Wholesale / First Commercial  │
-│                                 │ (Final prices paid by citizens) │ Transaction Level** (Factory/Mandi)│
+│                                 │ (Final prices paid by citizens) │ Transaction Level** (Mandi/Gate)│
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **Scope of Coverage**           │ **GOODS + SERVICES**            │ **GOODS ONLY**                  │
 │                                 │ (Healthcare, transport, housing)│ **(Zero Services Included!)**   │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **Headline Policy Anchor**      │ **YES** (Since 2014, Urjit Patel│ **NO** (Prior to 2014, WPI was  │
-│                                 │ Committee; official RBI target) │ the monetary anchor; abandoned) │
+│                                 │ Committee; statutory FIT target)│ the monetary anchor; abandoned) │
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
 │ **Taxes Included**              │ **Retail Market Prices**        │ **Basic Prices** (Excludes      │
 │                                 │ (Includes all retail GST/taxes) │ central GST, rebates, transport)│
 ├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ **Number of Items**             │ Rural: 448 items; Urban: 460    │ **697 Items**                   │
+│ **Basket Structure**            │ **299 weighted items** (2024)   │ **697 Items**                   │
+│                                 │ (Historical 2012: 448R / 460U)  │ (Manufactured 564, Primary 117) │
 └─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
 ```
 
 ---
 
-### Internal Weightage Breakdown: CPI (Combined) vs. WPI
+### Internal Weightage Breakdown: CPI (Dual-Layer) vs. WPI
 
 ```
-                        CPI (COMBINED) BASKET                     WPI BASKET
-                        (Base: 2012 = 100)                    (Base: 2011-12 = 100)
-                                 │                                      │
-       ┌─────────────────────────┴──────────┐            ┌──────────────┴──────────────┐
-       ▼                                    ▼            ▼              ▼              ▼
-[Food & Beverages]                   [Miscellaneous] [Manufactured] [Primary Art]   [Fuel & Power]
-     45.86%                              28.32%          64.23%         22.62%          13.15%
-```
-
-```
-┌───────────────────────────────────────────────┬───────────────────────────────────────────────┐
-│ CPI (Combined) Weightage (Total = 100%)       │ WPI Weightage (Total = 100%)                  │
-├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ 1. **Food and Beverages: 45.86%**             │ 1. **Manufactured Products: 64.23%**          │
-│    (Cereals 9.67%, Milk 6.61%, Veg 6.04%)     │    (Chemicals, metals, machinery, food prod)  │
-│ 2. **Miscellaneous (Services): 28.32%**       │ 2. **Primary Articles: 22.62%**               │
-│    (Transport 8.59%, Health 5.89%, Edu 4.46%) │    (Food articles 15.26%, Non-food, Minerals) │
-│ 3. **Housing: 10.07%**                        │ 3. **Fuel and Power: 13.15%**                 │
-│    *(Counted ONLY in Urban basket; Rural = 0)*│    (Coal, mineral oils, electricity)          │
-│ 4. **Fuel and Light: 6.84%**                  │                                               │
-│    (LPG, electricity, kerosene)               │                                               │
-│ 5. **Clothing and Footwear: 6.53%**           │                                               │
-│ 6. **Pan, Tobacco and Intoxicants: 2.38%**    │                                               │
-└───────────────────────────────────────────────┴───────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┬───────────────────────────────────────────────┐
+│ CPI (Combined) Weightage (Dual-Layer)                         │ WPI Weightage (Base 2011–12 = 100)            │
+├───────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┤
+│ **[CURRENT 2024 Series Basket]** (HCES 2022–23 recalibrated): │ 1. **Manufactured Products: 64.23%**          │
+│ • **Food and Beverages**: Lowered to ~39–41% (Engel's Law)    │    (Chemicals, metals, machinery, food prod)  │
+│ • **Miscellaneous & Services**: Expanded to ~33–35%           │ 2. **Primary Articles: 22.62%**               │
+│ • **Housing & Utilities**: Re-indexed for urban-rural spread  │    (Food articles 15.26%, Non-food, Minerals) │
+│                                                               │ 3. **Fuel and Power: 13.15%**                 │
+│ **[HISTORICAL 2012 Series Benchmark]** (Tested in PYQs):      │    (Coal, mineral oils, electricity)          │
+│ 1. **Food and Beverages: 45.86%**                             │                                               │
+│    (Cereals 9.67%, Milk 6.61%, Veg 6.04%)                     │                                               │
+│ 2. **Miscellaneous (Services): 28.32%**                       │                                               │
+│    (Transport 8.59%, Health 5.89%, Edu 4.46%)                 │                                               │
+│ 3. **Housing: 10.07%** *(Urban only; Rural = 0)*              │                                               │
+│ 4. **Fuel and Light: 6.84%** • 5. **Clothing: 6.53%**          │                                               │
+│ 6. **Pan, Tobacco and Intoxicants: 2.38%**                    │                                               │
+└───────────────────────────────────────────────────────────────┴───────────────────────────────────────────────┘
 ```
 
 ---

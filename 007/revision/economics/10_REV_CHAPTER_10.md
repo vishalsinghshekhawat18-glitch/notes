@@ -34,7 +34,7 @@
 | Metric | Defining Equation | Economic Meaning | Post-COVID Glide Path / FRBM Benchmark |
 | :--- | :--- | :--- | :--- |
 | **Revenue Deficit (RD)** | $\mathbf{RD = RE - RR}$ | Excess of consumption over recurrent revenue; Government living beyond operational means | N.K. Singh target: $0.8\%$ of GDP |
-| **Effective Revenue Deficit (ERD)** | $\mathbf{ERD = RD - \text{Grants for Capital Assets}}$ | Removes capital-forming grants to States from consumption deficit | Introduced in 2011–12; dropped as statutory FRBM target |
+| **Effective Revenue Deficit (ERD)** | $\mathbf{ERD = RD - \text{Grants for Capital Assets}}$ | Removes capital-forming grants to States from consumption deficit | Introduced in Budget 2011–12 & FRBM Amendment 2012; dropped as statutory FRBM target |
 | **Fiscal Deficit (FD)** | $\mathbf{FD = \text{Total Exp} - (\text{Revenue Rec} + \text{NDCR})}$ | **Total net borrowing requirements of the Central Government** for the year | **$< 4.5\%$ of GDP by FY2025–26** (N.K. Singh target: $3.0\%$) |
 | **Primary Deficit (PD)** | $\mathbf{PD = \text{Fiscal Deficit} - \text{Interest Payments}}$ | Real fiscal stance excluding legacy past debt-servicing burdens | Measures current year's fiscal prudence |
 
@@ -58,3 +58,4 @@ $$\mathbf{\text{FRBM Escape Clause §4(2)}}: \quad \text{Allows fiscal deficit r
 2. **Deficit Financing Definition**: Fiscal Deficit represents the total **borrowing requirement** of the government. It is financed through Market Borrowings (dated G-Secs/T-Bills), External Assistance, and internal Public Account funds (NSSF), **not** by printing currency via ad-hoc Treasury bills (abolished since 1997 WMA agreement).
 3. **Public Account vs. CFI**: Withdrawals from the Public Account do **not** require an Appropriation Act under Article 114, because the funds belong to private citizens/entities (e.g., PPF, GPF), whereas the CFI requires strict prior legislative sanction.
 4. **Voted vs. Charged Expenditure**: Interest payments on public debt are **Charged upon the Consolidated Fund of India** under Article 112(3)(c); Parliament can debate them, but the Lok Sabha **cannot vote upon or veto** them.
+5. **Provisional Collection of Taxes Act, 2023 Trap**: The 75-day window under the *Provisional Collection of Taxes Act, 2023* provides immediate provisional statutory authority for customs and excise duties upon introduction of the Finance Bill; it is not a general constitutional ceiling to pass the entire budget.

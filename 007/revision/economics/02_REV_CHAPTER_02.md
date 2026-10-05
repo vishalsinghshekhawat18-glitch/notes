@@ -37,9 +37,11 @@ $$\mathbf{\text{Headline GDP}} = \sum \text{GVA at Basic Price} + (\text{Product
 | **GDP** | Base definition | Geographic / Domestic Territory | In domestic territory; citizenship completely irrelevant |
 | **NDP** | $\text{GDP} - \text{Depreciation}$ | Geographic / Domestic Territory | Deducts normal wear and tear; capital losses excluded |
 | **GNP** | $\text{GDP} + \text{NFIA}$ | Residency / National Citizenship | Worldwide output of Indian residents; remittances excluded |
-| **NNP ("NI")**| $\text{GNP} - \text{Depreciation}$ | Residency / National Citizenship | The official definition of **National Income** of India |
+| **NNP ("NI")**| $\text{GNP} - \text{Depreciation}$ | Residency / National Citizenship | Canonical **National Income** is strictly $\mathbf{\text{NNP}_{\text{FC}}}$ (at Factor Cost), NOT Basic Price! |
 
-$$\text{Why India's GDP} > \text{India's GNP}: \quad \text{NFIA of India} < 0 \quad (\text{Factor income paid to foreign capital} > \text{Factor income received})$$
+$$\text{Why India's GDP} > \text{India's GNP}: \quad \text{NFIA of India} < 0 \quad (\text{Observed empirical pattern: Factor income paid abroad} > \text{Factor income received})$$
+
+> **Dual-Layer Base Year**: Historical Benchmark **2011–12 = 100** vs Current 2026 Live Series **2022–23 = 100** (capturing digital capital assets and revised sector weights).
 
 ---
 

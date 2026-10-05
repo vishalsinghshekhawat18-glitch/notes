@@ -211,13 +211,16 @@ The WTO Agreement on Agriculture disciplines domestic farm support through three
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **3. Amber Box**                │ • **Trade-Distorting Domestic Support**: All subsidies that │
 │                                 │   directly stimulate production and artificially depress    │
-│                                 │   market prices.                                            │
-│                                 │ • Includes: **Minimum Support Prices (MSP)**, and input     │
-│                                 │   subsidies on **fertilizer, canal water, seeds, power**.   │
-│                                 │ • Quantified via **Aggregate Measurement of Support (AMS)**.│
-│                                 │ • **Statutory De Minimis Caps**:                            │
-│                                 │   - Developed Countries: Capped at **5%** of value of output│
-│                                 │   - Developing Countries (India): Capped at **10%** of value│
+│                                 │   market prices (MSP, input subsidies on fertilizers, canal │
+│                                 │   water, electricity, and seeds).                           │
+│                                 │ • **De Minimis Thresholds (Exemption Levels)**:             │
+│                                 │   - Developed Countries: **5%** of value of agricultural    │
+│                                 │     production (product-specific + non-product specific).   │
+│                                 │   - Developing Countries (India): **10%** of value of farm  │
+│                                 │     production. Subsidies within this limit are exempt.     │
+│                                 │ • **Bound Total AMS**: Support exceeding de minimis must be │
+│                                 │   accounted for in Aggregate Measurement of Support (AMS)   │
+│                                 │   subject to agreed historic bound reduction caps.          │
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
@@ -225,10 +228,18 @@ The WTO Agreement on Agriculture disciplines domestic farm support through three
 
 ### The Bali Package (2013) & The Historic "Peace Clause"
 * **The Conflict**: Under WTO AoA rules, the subsidy on price support (MSP) is calculated as the difference between the current MSP and an **external reference price fixed at 1986–88 global rates**!
-  * Due to 35 years of global inflation, India's rice procurement under the National Food Security Act (NFSA), 2013 threatened to breach the 10% Amber Box de minimis ceiling.
+  * Due to nearly four decades of global inflation, India's rice procurement under the National Food Security Act (NFSA), 2013 threatened to breach the 10% Amber Box de minimis ceiling.
 * **The Breakthrough**: At the 9th WTO Ministerial Conference in **Bali (2013)**, India aggressively negotiated the **"Peace Clause"**:
   * WTO members agreed **NOT to challenge or drag any developing nation to the Dispute Settlement Mechanism** for breaching the 10% Amber Box ceiling on public stockholding for national food security.
   * At the General Council meeting in 2014, India successfully negotiated that the **Peace Clause remains in effect indefinitely** until a permanent, negotiated solution is concluded.
+
+---
+
+### The WTO Dispute Settlement & Appellate Body Crisis (2019–Present)
+* **Two-Tier System**: Dispute Settlement Body (DSB) operates via **Panels** (first instance) and the **Appellate Body** (7-member apex legal review court).
+* **The Paralysis**: Since **December 2019**, the Appellate Body has been completely **dysfunctional and paralyzed** because the United States blocked all member reappointments, leaving it below the mandatory 3-judge quorum.
+* **"Appealing into the Void"**: Countries that lose at the Panel level can file an appeal to the non-functioning Appellate Body, freezing the dispute indefinitely without enforceable penalties.
+* **The Interim Solution (MPIA)**: Several members (EU, China, Brazil) established the *Multi-Party Interim Appeal Arbitration Arrangement (MPIA)* under Article 25 of the DSU; India has stayed out, demanding a restored, permanent two-tier multilateral mechanism.
 
 ---
 

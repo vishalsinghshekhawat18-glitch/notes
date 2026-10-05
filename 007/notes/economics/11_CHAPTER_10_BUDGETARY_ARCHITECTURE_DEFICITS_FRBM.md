@@ -81,8 +81,8 @@ Article 112(2) statutorily divides all expenditures of the Consolidated Fund of 
    * Provides legal authority to withdraw money from the Consolidated Fund of India to meet voted Demands for Grants and Charged expenditures.
    * **Rule**: Without an Appropriation Act, the Government cannot spend a single rupee from the Treasury after 31st March.
 2. **The Finance Bill (Article 110 - Money Bill)**:
-   * Legalizes the Government's taxation proposals for the upcoming year (income tax slabs, customs duties, GST adjustments).
-   * Under the *Provisional Collection of Taxes Act, 1931*, the Finance Bill must be enacted within **75 days** of its introduction.
+   * Legalizes the Government's taxation proposals for the upcoming year (income tax slabs, customs duties, excise adjustments).
+   * Under the *Provisional Collection of Taxes Act, 2023* (which repealed and replaced the 1931 Act), declared taxation proposals take **immediate temporary legal effect upon introduction for a maximum statutory window of 75 days**. This authorizes immediate tax collection pending debate, but if the Finance Bill is not enacted into law within this 75-day period, the provisional authority automatically lapses.
 
 ---
 
@@ -180,7 +180,7 @@ $$\mathbf{\text{Revenue Deficit}} = \text{Revenue Expenditure} - \text{Revenue R
 
 ### 2. Effective Revenue Deficit (ERD)
 $$\mathbf{\text{Effective Revenue Deficit}} = \text{Revenue Deficit} - \text{Grants for Creation of Capital Assets given to States}$$
-* Introduced in the Union Budget 2011–12 on the recommendation of the **Dr. Sukhbir Singh Committee** and codified via the 2012 amendment to the FRBM Act.
+* Introduced officially in the **Union Budget 2011–12** and given statutory definition via the **2012 amendment to the FRBM Act**.
 * Recognizes that while grants given to States are technically booked as Revenue Expenditure in the Union Budget, a substantial portion is mandated for constructing physical capital assets (schools under Samagra Shiksha, rural roads under PMGSY). Deducting these capital grants gives the true structural operational shortfall.
 
 ### 3. Fiscal Deficit (FD) — The Master Macroeconomic Barometer

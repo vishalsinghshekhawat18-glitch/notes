@@ -7,13 +7,13 @@
 
 ## 1. Master Comparative Matrices
 
-### Matrix A: The Unified Composite MSME Definition (July 2020)
+### Matrix A: Dual-Layer Composite MSME Architecture
 
-| Enterprise Class | Investment in Plant & Machinery | Annual Turnover Ceiling (Domestic) | Distinguishing Statutory Rule |
+| Enterprise Class | [CURRENT 2026 LIVE SERIES: April 2025] (Investment / Turnover) | [HISTORICAL BENCHMARK: July 2020] (Investment / Turnover) | Core Invariable Rule |
 | :--- | :--- | :--- | :--- |
-| **MICRO** | **≤ ₹1 Crore** | **≤ ₹5 Crore** | **Turnover is exactly $5\times$ Investment** |
-| **SMALL** | **≤ ₹10 Crore** | **≤ ₹50 Crore** | **Zero difference between Goods & Services** |
-| **MEDIUM** | **≤ ₹50 Crore** | **≤ ₹250 Crore** | **EXPORT TURNOVER IS 100% EXCLUDED** |
+| **MICRO** | **≤ ₹2.5 Crore** / **≤ ₹10 Crore** | **≤ ₹1 Crore** / **≤ ₹5 Crore** | **Zero distinction between Goods & Services** |
+| **SMALL** | **≤ ₹25 Crore** / **≤ ₹100 Crore** | **≤ ₹10 Crore** / **≤ ₹50 Crore** | **Both criteria must be concurrently satisfied** |
+| **MEDIUM** | **≤ ₹125 Crore** / **≤ ₹500 Crore**| **≤ ₹50 Crore** / **≤ ₹250 Crore** | **EXPORT TURNOVER IS 100% EXCLUDED** |
 
 ---
 
@@ -28,7 +28,7 @@
 
 ---
 
-### Matrix C: Eight Core Industries Weights in IIP (Total = 40.27% of IIP)
+### Matrix C: Eight Core Industries Weights in IIP (Base 2011–12 = 40.27% of IIP)
 
 | Core Industry | IIP Weight (%) | Relative Sectoral Dominance |
 | :--- | :--- | :--- |
@@ -41,13 +41,13 @@
 | **7. Cement** | **5.37%** | **Rank 7** |
 | **8. Fertilizers** | **2.63%** | **Rank 8 (Smallest Single Core Industry)** |
 
+> **2026 Core Expansion**: Base 2022–23 revision expands basket to **Nine Core Industries** by formally adding **Iron Ore**.
+
 ---
 
 ## 2. Key Mathematical Identities & Ratios
 
 $$\mathbf{\text{IIP Sectoral Weights (2011–12)}}: \quad \mathbf{\text{Manufacturing}} \; (77.63\%) \;>\; \mathbf{\text{Mining}} \; (14.37\%) \;>\; \mathbf{\text{Electricity}} \; (7.99\%)$$
-
-$$\mathbf{\text{MSME Multiplier}}: \quad \mathbf{\text{Turnover Ceiling}} = \mathbf{5 \times \text{Investment Ceiling}} \quad \Big[\mathbf{1:5}, \quad \mathbf{10:50}, \quad \mathbf{50:250}\Big]$$
 
 $$\mathbf{\text{Delayed Payment Penalty §15 MSMED}}: \quad \text{Mandatory Compound Interest at } \mathbf{3 \times \text{RBI Bank Rate}} \text{ after 45 days}$$
 
@@ -57,8 +57,8 @@ $$\mathbf{\text{Public Sector Reserved Industries}}: \quad \text{Only } \mathbf{
 
 ## 3. High-Yield Examiner Traps (Quick Scan)
 
-1. **MSME Export Turnover Exclusion**: Export turnover is **NOT included** when determining whether an enterprise exceeds the MSME turnover limit. A firm exporting ₹500 Cr can still qualify as a Small MSME if its domestic turnover is $\le ₹50 \text{ Cr}$.
-2. **Manufacturing vs Services MSME**: There is **NO distinction between manufacturing and service enterprises** in the post-2020 MSME definition. Both are governed by identical investment and turnover thresholds.
+1. **MSME Export Turnover Exclusion**: Export turnover is **NOT included** when determining whether an enterprise exceeds the MSME turnover limit. A firm exporting ₹500 Cr can still qualify as a Small MSME if its domestic turnover is compliant.
+2. **Manufacturing vs Services MSME**: There is **NO distinction between manufacturing and service enterprises** in either series. Current thresholds (2025): Micro $\le$ ₹2.5/10 Cr, Small $\le$ ₹25/100 Cr, Medium $\le$ ₹125/500 Cr (Historical 2020: 1/5, 10/50, 50/250 Cr).
 3. **Reserved Public Sector Industries**: Only **TWO industries** are currently reserved for the public sector: **Atomic Energy** and **Railway Operations**. Defense equipment manufacturing is open to 100% private participation and 74% automatic FDI.
-4. **Core Industries Ranking**: The heaviest core industry is **Refinery Products (28.04%)**, NOT Steel or Electricity. The lightest is **Fertilizers (2.63%)**.
+4. **Core Industries Ranking**: Under the 2011–12 series, the heaviest core industry is **Refinery Products (28.04%)**, NOT Steel or Electricity. The lightest is **Fertilizers (2.63%)**. Note 2026 series revision adds Iron Ore (9 Core).
 5. **Asset Monetization vs Privatization**: The National Monetisation Pipeline (NMP) involves **NO transfer of ownership**. The Government remains the 100% owner of roads, pipelines, and rail tracks.

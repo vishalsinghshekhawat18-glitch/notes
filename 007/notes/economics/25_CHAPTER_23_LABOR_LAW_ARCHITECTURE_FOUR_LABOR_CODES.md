@@ -210,9 +210,9 @@ The OSH Code consolidates disparate safety, hygiene, and working condition stand
 
 ---
 
-## 23.5 State Rules Status & Implementation Bottlenecks
+## 23.5 Implementation Architecture & Full Operationalization (21 November 2025)
 
-Under the Concurrent List, the Labor Codes require both the Central Government and State Governments to frame operational rules before coming into formal, synchronized effect:
+Under the Concurrent List (List III, Seventh Schedule), the Labor Codes required both the Central Government and State Governments to frame operational rules to achieve harmonized enforcement across the federation:
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -230,10 +230,13 @@ Under the Concurrent List, the Labor Codes require both the Central Government a
 └───────────────────────────────────┴──────────────────────────────────────────────────────────────┘
 ```
 
-### Critical Bottlenecks Delaying Full Pan-India Notification:
-1. **Federal Harmonization**: Labor is highly sensitive politically. Some industrialized states have hesitated to notify the 300-worker threshold and 14-day strike notice over trade union protests.
-2. **The 50% Wage Rule & Take-Home Salary Concerns**: Corporate employers expressed concern that capping allowances at 50% would sharply increase provident fund and gratuity obligations, increasing payroll costs while reducing workers' immediate take-home pay.
-3. **Aggregator Welfare Financing Mechanics**: Formulating the precise algorithmic calculation of aggregator contributions (1-2% of turnover vs 5% of payout) required extensive inter-ministerial coordination with the Ministry of Electronics and Information Technology (MeitY).
+### The Transition to Pan-India Implementation (Effective 21 November 2025):
+Following extensive tripartite stakeholder consultations across employer federations, central trade unions, and state labor departments, the Central Government moved to operationalize the **Four Labor Codes effective 21 November 2025**, marking the formal end of India's pre-reform 29-statute legacy regime:
+
+1. **Resolution of the 50% Wage Definition Dilemma**: Corporate compensation structures were given a transitional phased window to recalibrate basic pay and allowances, mitigating abrupt take-home salary shocks while permanently strengthening statutory retirement savings (EPF and Gratuity).
+2. **Harmonization of the 300-Worker IR Threshold**: The national threshold of 300 workers for prior government permission on retrenchment/closure was brought into effect, paired with the mandatory statutory **Worker Reskilling Fund** (15 days' wages per retrenched worker) to provide safety nets for displaced employees.
+3. **Operationalization of the Gig & Platform Workers Social Security Fund**: Facilitated by digital onboarding on the **e-Shram Portal** (surpassing 30 crore registered unorganized workers), the mechanism for collecting 1% to 2% aggregator turnover contributions (capped at 5% of worker payouts) was institutionalized under the National Social Security Board.
+4. **Transition Continuity Rule**: While all central substantive provisions are fully operational, state-specific procedural rules operate under model central guidelines in any UTs/States finalizing residual sub-rules.
 
 ---
 

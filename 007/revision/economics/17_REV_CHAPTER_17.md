@@ -45,9 +45,9 @@ $$\mathbf{\text{Real Exchange Rate (RER)}} = \mathbf{\text{NER}} \times \frac{\m
 
 $$\mathbf{\text{REER Index}} = \mathbf{100} \implies \text{Purchasing Power Parity Baseline Equilibrium}$$
 
-$$\mathbf{\text{REER} > 100} \implies \mathbf{\text{Rupee Overvalued}} \implies \text{Exports Less Competitive, Imports Cheaper}$$
+$$\mathbf{\text{REER} > 100} \implies \mathbf{\text{Real Effective Appreciation vs Base Year}} \implies \text{Exports Less Competitive vs Base Period, Imports Cheaper}$$
 
-$$\mathbf{\text{REER} < 100} \implies \mathbf{\text{Rupee Undervalued}} \implies \text{Exports Highly Competitive, Imports Costlier}$$
+$$\mathbf{\text{REER} < 100} \implies \mathbf{\text{Real Effective Depreciation vs Base Year}} \implies \text{Exports More Competitive vs Base Period, Imports Costlier}$$
 
 $$\text{LRS Remittance Limit}: \quad \text{USD 250,000 per resident individual per financial year}$$
 
@@ -56,7 +56,8 @@ $$\text{LRS Remittance Limit}: \quad \text{USD 250,000 per resident individual p
 ## 3. High-Yield Examiner Traps (Quick Scan)
 
 1. **Convertibility Status in India**: India has achieved **FULL Current Account Convertibility** (since 1994 per Article VIII of IMF), but only **PARTIAL Capital Account Convertibility**.
-2. **REER Overvaluation**: A REER reading above 100 (e.g., 105) does **NOT** indicate strong export performance; it proves the currency is **overvalued** in real terms, hurting export price competitiveness.
+2. **REER Interpretation**: A REER reading above 100 (e.g., 105) does **NOT** indicate strong export performance; it reflects **real effective currency appreciation relative to the base year (2015–16 = 100)**, eroding export price competitiveness relative to the benchmark period (not mechanical proof of fundamental economic overvaluation).
 3. **Devaluation vs. Depreciation**: Devaluation occurs **only under a fixed exchange rate** via official administrative decree; depreciation occurs under a **floating exchange rate** via market forces.
 4. **LRS vs. NRO Limits**: The Liberalised Remittance Scheme allows Indian residents to remit up to **\$250,000/year**; the **\$1 Million/year** repatriation limit applies to NRIs remitting Indian-sourced income from **NRO accounts**.
 5. **RBI REER Basket Base**: The modern RBI REER basket covers **40 currencies** with a base year of **2015–16 = 100**.
+6. **SRVA Nomenclature**: Cross-border international trade settlement in INR operates via **Special Rupee Vostro Accounts (SRVA)** opened by foreign correspondent banks in Indian authorized dealer banks.

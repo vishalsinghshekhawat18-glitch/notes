@@ -156,28 +156,32 @@ Historically, the primary G-Sec auction market was an exclusive wholesale club f
                                   THE CAPITAL MARKET
                                           │
          ┌────────────────────────────────┴────────────────────────────────┐
-         ▼                                                                 ▼
+          ▼                                                                 ▼
 [THE PRIMARY MARKET (NEW ISSUES)]                                 [THE SECONDARY MARKET]
-Where securities are CREATED & SOLD for the first time            Where previously issued securities are
-to raise fresh capital for corporations or government.             TRADED between investors for liquidity.
+Where fresh securities are CREATED & ISSUED to raise               Where previously issued securities are
+new capital for corporate balance sheets or government.            TRADED between investors for liquidity.
          │                                                                 │
-         ├── Initial Public Offering (IPO)                                 ├── Bombay Stock Exchange (BSE - 1875)
-         ├── Follow-on Public Offering (FPO)                               └── National Stock Exchange (NSE - 1992)
-         ├── Rights Issue (Existing shareholders)
-         ├── Private Placement & QIP (Institutional)
-         └── Offer for Sale (OFS - Disinvestment)
+         ├── Fresh Capital Creation Routes:                                ├── Bombay Stock Exchange (BSE - 1875)
+         │   ├── Initial Public Offering (IPO - Fresh Issue)               └── National Stock Exchange (NSE - 1992)
+         │   ├── Follow-on Public Offering (FPO - Fresh Issue)
+         │   ├── Rights Issue (Offered to existing shareholders)
+         │   └── Qualified Institutional Placement (QIP)
+         │
+         └── Secondary Disinvestment Route on Exchange:
+             └── Offer for Sale (OFS - Sale of pre-existing promoter/Govt shares)
 ```
 
 ---
 
-### Modes of Raising Capital in the Primary Market:
+### Primary Market Mechanisms & Capital Raising Typology:
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Issue Mechanism                 │ Modus Operandi & Strategic Role                             │
+│ Issue Mechanism                 │ Modus Operandi & Balance Sheet Implication                  │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ 1. Initial Public Offering (IPO)│ An unlisted private company offers its equity shares to the │
-│                                 │ general public for the very first time to list on exchanges.│
+│ 1. Initial Public Offering (IPO)│ An unlisted company offers equity to the public for the     │
+│                                 │ first time. Fresh issue creates new shares and raises cash  │
+│                                 │ for the firm; can be bundled with an OFS component.         │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ 2. Follow-on Public Offering    │ An already listed public company issues fresh shares to the │
 │    (FPO)                        │ general public to raise additional expansion capital.       │
@@ -189,9 +193,10 @@ to raise fresh capital for corporations or government.             TRADED betwee
 │    Placement (QIP)              │ institutional buyers (Mutual Funds, FPIs, Insurers) without │
 │                                 │ public paper filings or retail distribution delays.         │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ 5. Offer for Sale (OFS)         │ Promoters/Govt sell existing shares directly through stock  │
-│                                 │ exchange bidding mechanism (extensively used for PSU        │
-│                                 │ disinvestment).                                             │
+│ 5. Offer for Sale (OFS)         │ **Secondary Sale Mechanism**: Promoters or Government sell  │
+│    (Secondary Liquidity Route)  │ **pre-existing shares** on the stock exchange bidding screen.│
+│                                 │ **CRUCIAL**: Proceeds go to the selling shareholder (e.g.   │
+│                                 │ GoI disinvestment), NOT into the corporate balance sheet!   │
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 

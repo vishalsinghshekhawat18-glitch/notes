@@ -515,11 +515,11 @@ Under the standard GST forward-charge mechanism, the supplier of goods or servic
 │                                 │ Centre has a **veto**, but CANNOT pass any measure without  │
 │                                 │ support from States holding at least 41.67% of voting power.│
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Cess vs. Surcharge**          │ **TRAP**: Cesses and Surcharges levied by the Union under   │
-│                                 │ Article 271 are **NOT part of the Divisible Tax Pool**      │
-│                                 │ shared with States under Article 270 (unless explicitly     │
-│                                 │ shared, like GST compensation cess). This is a central      │
-│                                 │ friction point in Indian fiscal federalism.                 │
+│ **Cess vs. Surcharge**          │ **TRAP**: Surcharges (Article 271) and Cesses (charging     │
+│                                 │ Acts) are **BOTH excluded from the Divisible Tax Pool** under│
+│                                 │ Article 270(1). Article 271 specifically covers surcharges, │
+│                                 │ while cesses are statutory levies for earmarked outlays.    │
+│                                 │ Neither is shared with States, creating fiscal friction.    │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **Cross-Credit Trap**           │ **TRAP**: CGST input credit can NEVER be utilized to pay    │
 │                                 │ SGST liability, and SGST input credit can NEVER be used     │

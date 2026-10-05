@@ -1,6 +1,6 @@
 # RAPID REVISION MATRIX: CHAPTER 23
 
-**Topic**: Labor Law Architecture, Industrial Relations & The 4 New Labor Codes (2020)  
+**Topic**: Labor Law Architecture, Industrial Relations & The 4 Labor Codes (Implemented Effective 21 November 2025)  
 **Shelf**: 007 (Sovereign Master Knowledge Bastion)
 
 ---
@@ -50,3 +50,4 @@ $$\mathbf{\text{Negotiating Council Threshold}}: \quad \text{Trade Unions with }
 3. **Women Working Night Shifts**: Women are **permitted to work night shifts (7 PM to 6 AM)** across all establishments, provided there is **explicit worker consent** and employer guarantees of safety, transport, and crèche.
 4. **Gratuity Vesting for Fixed-Term Employment**: Fixed-term employees are entitled to gratuity on a pro-rata basis after **one year** of service, NOT 5 years.
 5. **Mandatory Strike Notice**: Under the IR Code, **14 days mandatory notice** is required for strikes and lockouts across **ALL industrial establishments**, eliminating flash strikes.
+6. **Implementation Milestone**: The 4 Labour Codes are officially implemented **effective 21 November 2025**, replacing 29 legacy Central statutes across the Republic.

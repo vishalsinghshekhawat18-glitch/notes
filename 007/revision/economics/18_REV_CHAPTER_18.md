@@ -36,7 +36,7 @@
 | :--- | :--- | :--- | :--- |
 | **Green Box** | **Zero or minimal trade distortion** | Agronomic R&D, pest control, disaster relief, **PM-KISAN** | **Completely Exempt; NO Financial Ceiling** |
 | **Blue Box** | Production-limiting mechanisms | Direct payments linked to fixed acreage or livestock quotas | **Completely Exempt from Reductions** |
-| **Amber Box** | **Highly trade-distorting** | **MSP price support**, subsidies on fertilizer, power, seeds | **Capped at De Minimis: 5% (Dev'd) / 10% (India)** |
+| **Amber Box** | **Highly trade-distorting** | **MSP price support**, subsidies on fertilizer, power, seeds | **De Minimis: 5% (Dev'd) / 10% (India)** of value of production; Bali Peace Clause protection |
 
 ---
 
@@ -59,3 +59,4 @@ $$\mathbf{\text{Bali Package (2013)}}: \quad \mathbf{\text{Peace Clause}} \impli
 3. **Green Box Has No Cap**: There is **NO financial ceiling on Green Box subsidies**. Developed nations exploit this by shifting billions into direct income support.
 4. **India's IDA Status**: India **graduated from IDA in 2014**; it no longer receives soft loans and is now classified as an IBRD-only borrower.
 5. **Section 3(d) of Indian Patents Act**: Prevents **"Evergreening"** by mandating that a new form of a known pharmaceutical substance cannot be patented unless it proves a significant enhancement of **therapeutic efficacy** (upheld in *Novartis Glivec* case).
+6. **WTO Appellate Body Paralysis**: Since December 2019, the WTO 7-member Appellate Body has lacked a quorum due to the block on judicial reappointments; parties can "appeal into the void" unless utilizing the voluntary Multi-Party Interim Appeal Arbitration Arrangement (MPIA).

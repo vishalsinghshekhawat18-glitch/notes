@@ -98,25 +98,27 @@ In December 2020, the Reserve Bank overhauled its official effective exchange ra
 
 ### Mathematical Interpretation of REER Index Movements:
 
-$$\mathbf{\text{REER Index Benchmark}} = \mathbf{100} \quad (\text{Base Year Equilibrium)}$$
+$$\mathbf{\text{REER Index Base Value}} = \mathbf{100} \quad (\text{Base Year 2015–16 Benchmark)}$$
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ REER Index Value                │ Economic Status & Trade Repercussions                       │
+│ REER Index Value                │ Economic Status & Trade Competitiveness Repercussions       │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **$\mathbf{\text{REER} > 100}$**│ **Currency is OVERVALUED**:                                 │
-│ *(e.g., REER = 106)*            │ • The Rupee has appreciated in real terms relative to       │
-│                                 │   trading partners after accounting for inflation.          │
-│                                 │ • **Indian exports become more expensive and less           │
-│                                 │   competitive globally**.                                   │
-│                                 │ • Foreign imports become artificially cheaper for Indians.  │
+│ **$\mathbf{\text{REER} > 100}$**│ **Real Currency APPRECIATION** (relative to base year):     │
+│ *(e.g., REER = 106)*            │ • The Rupee has appreciated in real terms relative to the   │
+│                                 │   40-currency trade basket after adjusting for inflation.   │
+│                                 │ • **Indian exports face price headwinds and lose relative   │
+│                                 │   competitiveness in global markets**.                      │
+│                                 │ • Foreign imports become relatively cheaper in India.       │
+│                                 │ • *Nuance*: Indicates price disadvantage vs base period, not│
+│                                 │   mechanical proof of fundamental currency misalignment.    │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **$\mathbf{\text{REER} < 100}$**│ **Currency is UNDERVALUED**:                                │
-│ *(e.g., REER = 94)*             │ • The Rupee has depreciated in real terms.                  │
-│                                 │ • **Indian exports gain aggressive price competitiveness**  │
+│ **$\mathbf{\text{REER} < 100}$**│ **Real Currency DEPRECIATION** (relative to base year):     │
+│ *(e.g., REER = 94)*             │ • The Rupee has depreciated in real terms against basket.   │
+│                                 │ • **Indian exports gain relative price competitiveness**     │
 │                                 │   in global markets.                                        │
-│                                 │ • Foreign imports become more expensive, promoting domestic │
-│                                 │   import substitution.                                      │
+│                                 │ • Foreign imports become more expensive, assisting domestic │
+│                                 │   import-competing industries.                              │
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
@@ -287,8 +289,8 @@ FTP 2023 establishes a national target of achieving **US$ 2 Trillion in aggregat
 
 ### International Trade Settlement in Indian Rupee (INR)
 Under the RBI framework dated **July 11, 2022**, and codified within FTP 2023, India operationalized the mechanism for invoicing, payment, and settlement of international trade in Indian Rupees:
-- **Special Rupee Vostro Accounts (SVRA)**: Foreign correspondent banks open SVRAs with authorized dealer banks in India.
-- **Settlement Mechanics**: Indian importers pay in INR into the foreign bank's SVRA; Indian exporters are paid in INR from the foreign bank's SVRA.
+- **Special Rupee Vostro Accounts (SRVA)**: Foreign correspondent banks open SRVAs with authorized dealer banks in India.
+- **Settlement Mechanics**: Indian importers pay in INR into the foreign bank's SRVA; Indian exporters are paid in INR from the foreign bank's SRVA.
 - **Surplus Balances**: Foreign entities can invest surplus INR balances in Indian Government Securities (G-Secs), Treasury Bills, or local investment projects.
 - **Strategic Impact**: Bypasses US Dollar payment gateways (SWIFT sanctions), insulates bilateral trade from exchange rate volatility, preserves forex reserves, and marks the initial step toward the internationalization of the Rupee.
 
@@ -310,9 +312,10 @@ Under the RBI framework dated **July 11, 2022**, and codified within FTP 2023, I
 │                                 │ frequently confuse the two accounts.                        │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **REER > 100 Meaning**          │ **TRAP**: REER > 100 does NOT mean exports are competitive! │
-│                                 │ REER above 100 signifies **real currency OVERVALUATION**,   │
-│                                 │ meaning domestic goods are overpriced relative to global    │
-│                                 │ competitors, hurting export volume!                         │
+│                                 │ REER above 100 signifies **real currency APPRECIATION** vs  │
+│                                 │ the base period, meaning domestic goods face price headwinds│
+│                                 │ globally. However, statistical appreciation does NOT equal  │
+│                                 │ mechanical proof of structural misalignment (FEER/PPP).     │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **Devaluation vs Depreciation** │ **TRAP**: Devaluation is an administrative executive action │
 │                                 │ under a **Fixed exchange rate**. Depreciation is a market-  │
@@ -338,9 +341,9 @@ ANSWER:
 1. REER is the trade-weighted geometric average of bilateral nominal exchange rates of the domestic
 currency against a basket of major trading partner currencies (RBI uses 40 currencies),
 adjusted for relative inflation differentials.
-2. A REER reading of 108 (> 100) indicates that the domestic currency is OVERVALUED by approximately
-8% relative to its trade partners. Consequently, domestic manufactured exports are less price-competitive
-in international markets, while foreign imports become cheaper.
+2. A REER reading of 108 (> 100) indicates that the domestic currency has APPRECIATED in real terms by approximately
+8% relative to the 2015–16 trade-weighted basket. Consequently, domestic manufactured exports face price disadvantages
+in international markets, while foreign imports become relatively cheaper.
 ```
 
 ```
