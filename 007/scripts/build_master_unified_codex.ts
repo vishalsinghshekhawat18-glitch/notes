@@ -25,15 +25,15 @@ const EXACT_TOC_MAPPING = [
   { ch: 15, start: 102, end: 106, pages: 5 },
   { ch: 16, start: 107, end: 109, pages: 3 },
   { ch: 17, start: 110, end: 116, pages: 7 },
-  { ch: 18, start: 117, end: 122, pages: 6 },
-  { ch: 19, start: 123, end: 130, pages: 8 },
-  { ch: 20, start: 131, end: 138, pages: 8 },
-  { ch: 21, start: 139, end: 146, pages: 8 },
-  { ch: 22, start: 147, end: 153, pages: 7 },
-  { ch: 23, start: 154, end: 159, pages: 6 },
-  { ch: 24, start: 160, end: 164, pages: 5 },
-  { ch: 25, start: 165, end: 169, pages: 5 },
-  { ch: 26, start: 170, end: 187, pages: 18 },
+  { ch: 18, start: 117, end: 123, pages: 7 },
+  { ch: 19, start: 124, end: 131, pages: 8 },
+  { ch: 20, start: 132, end: 140, pages: 9 },
+  { ch: 21, start: 141, end: 148, pages: 8 },
+  { ch: 22, start: 149, end: 155, pages: 7 },
+  { ch: 23, start: 156, end: 162, pages: 7 },
+  { ch: 24, start: 163, end: 167, pages: 5 },
+  { ch: 25, start: 168, end: 172, pages: 5 },
+  { ch: 26, start: 173, end: 190, pages: 18 },
 ];
 
 export function buildTableOfContentsHtml(): string {
@@ -275,7 +275,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • Shelf 007 Bastion</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">26 Chapters • 189 Pages</div>
+      <div class="meta-tag">26 Chapters • 190 Pages</div>
     </div>
 
     <!-- PART I -->
@@ -495,7 +495,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 19</span>
         <span class="chapter-name">Indian Agriculture: Capital Formation, Pricing (MSP)</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 123</span>
+        <span class="chapter-locator">p. 124</span>
       </div>
       <div class="chapter-subtopics">86.2% Small/Marginal Landholdings • CACP 23 Crops • Govt 1.5*(A2+FL) vs Swaminathan C2+50% • Sugarcane FRP</div>
     </div>
@@ -504,7 +504,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 20</span>
         <span class="chapter-name">Industrial Architecture, MSMEs, Disinvestment &amp; Policy</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 131</span>
+        <span class="chapter-locator">p. 132</span>
       </div>
       <div class="chapter-subtopics">MSME 2020 Composite Criteria (Excluding Exports) • Atomic &amp; Rail Monopoly • 8 Core Industries (40.27%)</div>
     </div>
@@ -513,7 +513,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 21</span>
         <span class="chapter-name">Infrastructure, PM GatiShakti &amp; Energy Transition</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 139</span>
+        <span class="chapter-locator">p. 141</span>
       </div>
       <div class="chapter-subtopics">HAM (40% Cash / NHAI 100% Traffic Risk) • National Logistics Policy • COP26 Panchamrit (2070 Net-Zero)</div>
     </div>
@@ -528,7 +528,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 22</span>
         <span class="chapter-name">Economic Planning History, Five-Year Plans &amp; NITI Aayog</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 147</span>
+        <span class="chapter-locator">p. 149</span>
       </div>
       <div class="chapter-subtopics">Planning Commission History • NITI Aayog Think-Tank Architecture • 112 Aspirational Districts (3Cs)</div>
     </div>
@@ -537,7 +537,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 23</span>
         <span class="chapter-name">Labor Law Architecture, IR &amp; Four New Labor Codes</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 154</span>
+        <span class="chapter-locator">p. 156</span>
       </div>
       <div class="chapter-subtopics">50% Wage-Allowance Rule • 300-Worker Retrenchment • 1-Year Fixed-Term Gratuity • Gig Worker Aggregator Levy</div>
     </div>
@@ -546,7 +546,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 24</span>
         <span class="chapter-name">Urbanization, Demographic Transition &amp; Migration</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 160</span>
+        <span class="chapter-locator">p. 163</span>
       </div>
       <div class="chapter-subtopics">Census Towns (5000 / 75% Non-Agri / 400 density) • Census 2011 (31.16% Urban) • Harris-Todaro Model</div>
     </div>
@@ -555,7 +555,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 25</span>
         <span class="chapter-name">Social Structure, Multiculturalism, Secularism &amp; Pluralism</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 165</span>
+        <span class="chapter-locator">p. 168</span>
       </div>
       <div class="chapter-subtopics">Kymlicka Group-Differentiated Rights • Principled Distance Secularism • Articles 15, 25-30 • Affirmative Action</div>
     </div>
@@ -570,7 +570,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 26</span>
         <span class="chapter-name">The Grand Synthesis: Master Revision &amp; Diagnostic Vault</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 170</span>
+        <span class="chapter-locator">p. 173</span>
       </div>
       <div class="chapter-subtopics">60-Second Skeletons (Ch 01-25) • 10 Comparative Matrices • 35 Examiner Traps • 72 Diagnostic Active Recall Cards</div>
     </div>
@@ -1186,13 +1186,13 @@ export async function mergeFullBookPdf(
     console.log(`✓ Added Table of Contents: ${tocPages.length} pages`);
   }
 
-  // 3. Append Body Chapters (189 Continuous Pages)
+  // 3. Append Body Chapters (190 Continuous Pages)
   if (fs.existsSync(bodyPdfPath)) {
     const bodyBytes = fs.readFileSync(bodyPdfPath);
     const bodyDoc = await PDFDocument.load(bodyBytes);
     const bodyPages = await mergedPdf.copyPages(bodyDoc, bodyDoc.getPageIndices());
     bodyPages.forEach(p => mergedPdf.addPage(p));
-    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 189)`);
+    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 190)`);
   }
 
   const finalBytes = await mergedPdf.save();
@@ -1227,9 +1227,9 @@ async function main() {
   }
   console.log(`✓ Table of Contents PDF ready: ${tocPdfPath}`);
 
-  // 2. Assemble Unified Continuous Body PDF (Pages 1 to 187)
-  console.log(`\n[2/3] Assembling Continuous 26-Chapter Master Body PDF (187 Pages)...`);
-  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_187P_A4_BW.pdf');
+  // 2. Assemble Unified Continuous Body PDF (Pages 1 to 190)
+  console.log(`\n[2/3] Assembling Continuous 26-Chapter Master Body PDF (190 Pages)...`);
+  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_190P_A4_BW.pdf');
   await assembleContinuousBodyPdf(printDesignerDir, bodyPdfPath);
 
   // 3. Merge Front Matter + TOC + Body into Master Monograph

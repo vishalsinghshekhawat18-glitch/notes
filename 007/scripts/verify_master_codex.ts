@@ -10,11 +10,11 @@ async function verifyMasterCodex() {
 
   console.log(`\n======================================================`);
   console.log(`FORENSIC AUDIT OF BOOK 01 MASTER CODEX: ${masterPath}`);
-  console.log(`Total Pages: ${total} (Expected: 191)`);
+  console.log(`Total Pages: ${total} (Expected: 194)`);
   console.log(`======================================================`);
 
-  if (total !== 191) {
-    console.error(`FAIL: Expected 191 pages, found ${total}`);
+  if (total !== 194) {
+    console.error(`FAIL: Expected 194 pages, found ${total}`);
     process.exit(1);
   }
 
@@ -39,15 +39,15 @@ async function verifyMasterCodex() {
     { ch: 15, physStart: 106, bodyStart: 102, pages: 5 },
     { ch: 16, physStart: 111, bodyStart: 107, pages: 3 },
     { ch: 17, physStart: 114, bodyStart: 110, pages: 7 },
-    { ch: 18, physStart: 121, bodyStart: 117, pages: 6 },
-    { ch: 19, physStart: 127, bodyStart: 123, pages: 8 },
-    { ch: 20, physStart: 135, bodyStart: 131, pages: 8 },
-    { ch: 21, physStart: 143, bodyStart: 139, pages: 8 },
-    { ch: 22, physStart: 151, bodyStart: 147, pages: 7 },
-    { ch: 23, physStart: 158, bodyStart: 154, pages: 6 },
-    { ch: 24, physStart: 164, bodyStart: 160, pages: 5 },
-    { ch: 25, physStart: 169, bodyStart: 165, pages: 5 },
-    { ch: 26, physStart: 174, bodyStart: 170, pages: 18 },
+    { ch: 18, physStart: 121, bodyStart: 117, pages: 7 },
+    { ch: 19, physStart: 128, bodyStart: 124, pages: 8 },
+    { ch: 20, physStart: 136, bodyStart: 132, pages: 9 },
+    { ch: 21, physStart: 145, bodyStart: 141, pages: 8 },
+    { ch: 22, physStart: 153, bodyStart: 149, pages: 7 },
+    { ch: 23, physStart: 160, bodyStart: 156, pages: 7 },
+    { ch: 24, physStart: 167, bodyStart: 163, pages: 5 },
+    { ch: 25, physStart: 172, bodyStart: 168, pages: 5 },
+    { ch: 26, physStart: 177, bodyStart: 173, pages: 18 },
   ];
 
   for (const m of EXPECTED_MAPPING) {
