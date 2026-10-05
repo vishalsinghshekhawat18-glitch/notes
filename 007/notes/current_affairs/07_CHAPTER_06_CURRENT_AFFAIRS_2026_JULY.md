@@ -278,14 +278,14 @@
   - **Invoicemart** (A.TREDS Ltd. — Axis Bank & mjunction).
   - **C2treds** (C2FO Factoring Solutions Pvt. Ltd.).
   - **DTX** (KredX Platform Pvt. Ltd.).
-- **Net Worth Mandate**: Existing RBI-authorized TReDS operators must meet the statutory minimum net worth requirement of **₹25 crore** by **March 31, 2027**.
+- **Net Worth Mandate**: Existing RBI-authorized TReDS operators must ramp up their statutory minimum net worth to **₹25 crore** by **March 31, 2028** (extended compliance glide path from the initial proposed 2027 window).
 - **Eligible Participants**: Buyers (corporates, CPSEs, government departments), Sellers (MSMEs), and Financiers (banks, NBFC factors).
 
 **EXAM ANGLE:**
 
 - Fraud Prevention: Mandatory registration with **CERSAI** eliminates duplicate invoice financing.
 - First TReDS Platform: **RXIL** (commenced operations in 2016; NSE + SIDBI JV).
-- Net Worth Deadline: Existing operators must achieve **₹25 crore net worth by 31 March 2027**.
+- Net Worth Deadline: Existing operators must achieve **₹25 crore net worth by 31 March 2028**.
 - Ineligible Participants: Stock exchanges and insurance underwriters cannot participate as financiers on TReDS.
 
 ---

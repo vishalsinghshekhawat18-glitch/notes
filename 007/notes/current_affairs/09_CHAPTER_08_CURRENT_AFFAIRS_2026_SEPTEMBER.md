@@ -486,30 +486,30 @@
 - Target MCQ Form: "How much interest assistance did the Government of India absorb to support the Maldives in servicing its US\$150 Million SBI T-bill facility?" → **Nearly US\$45 Million**.
 
 ---
-[SEP-027] **Pradhan Mantri Jan Dhan Yojana (PMJDY) Completes 12 Years: Accounts Cross 59.09 Crore & Deposits Touch ₹2.31 Lakh Crore**
-
-- **12-Year National Milestone**: Launched by Prime Minister Narendra Modi on **August 28, 2014**, as the world's largest financial inclusion mission, PMJDY completed 12 years of nationwide operationalization under the Department of Financial Services (DFS), Ministry of Finance.
-- **Four-Fold Account Growth Trajectory**:
-  - Total cumulative PMJDY accounts surged four-fold from **14.72 crore in March 2015 to 59.09 crore** as of August 19, 2026.
-  - *Rural and Semi-Urban Dominance*: **45.95 crore accounts (77.8%)** are operationalized across rural and semi-urban bank branches, successfully eliminating the rural banking divide.
-  - *Urban/Metropolitan Distribution*: 13.14 crore accounts (22.2%) located in urban and metropolitan centres.
-- **Demographic Empowerment & Gender Parity**:
-  - *Female Financial Inclusion*: **55.6% of all PMJDY accounts (over 32.8 crore)** are held by women beneficiaries, marking unprecedented female banking formalization.
-- **Deposit Mobilisation & Account Monetisation**:
-  - *Aggregate Deposit Corpus*: Total balances held in PMJDY accounts crossed **₹2.31 lakh crore** (₹2,31,236 crore).
-  - *Average Deposit Expansion*: The average deposit balance per PMJDY account expanded to **₹3,912** (compared to ₹1,065 in March 2015), proving that accounts are actively utilized for savings and DBT transfers rather than remaining dormant.
-- **RuPay Debit Cards & Accidental Insurance Shield**:
-  - Total RuPay Debit Cards issued: **36.86 crore cards**, bundled with built-in **₹2 lakh free accidental death insurance coverage** (for cards issued post-August 28, 2018; ₹1 lakh for earlier cards).
-  - Overdraft (OD) facility: Up to **₹10,000** (with no conditional assessment for amounts up to ₹2,000; upper age ceiling 65 years).
+[SEP-027] **Pradhan Mantri Jan Dhan Yojana (PMJDY) Completes 12 Years: Accounts Cross 59.09 Crore & Deposits Touch ₹3.16 Lakh Crore**
+ 
+ - **12-Year National Milestone**: Launched by Prime Minister Narendra Modi on **August 28, 2014**, as the world's largest financial inclusion mission, PMJDY completed 12 years of nationwide operationalization under the Department of Financial Services (DFS), Ministry of Finance.
+ - **Four-Fold Account Growth Trajectory**:
+   - Total cumulative PMJDY accounts surged four-fold from **14.72 crore in March 2015 to 59.09 crore** as of August 19, 2026.
+   - *Rural and Semi-Urban Dominance*: **45.95 crore accounts (77.8%)** are operationalized across rural and semi-urban bank branches, successfully eliminating the rural banking divide.
+   - *Urban/Metropolitan Distribution*: 13.14 crore accounts (22.2%) located in urban and metropolitan centres.
+ - **Demographic Empowerment & Gender Parity**:
+   - *Female Financial Inclusion*: **55.7% of all PMJDY accounts (32.92 crore)** are held by women beneficiaries, marking unprecedented female banking formalization.
+ - **Deposit Mobilisation & Account Monetisation**:
+   - *Aggregate Deposit Corpus*: Total balances held in PMJDY accounts crossed **₹3,16,514 crore** (~₹3.16 lakh crore, expanding from ₹2.31 lakh crore in 2024 and ₹1.46 lakh crore in 2021).
+   - *Average Deposit Expansion*: The average deposit balance per PMJDY account expanded to **₹5,356** (compared to ₹1,065 in March 2015), proving that accounts are actively utilized for savings and DBT transfers rather than remaining dormant.
+ - **RuPay Debit Cards & Accidental Insurance Shield**:
+   - Total RuPay Debit Cards issued: **41.29 crore cards**, bundled with built-in **₹2 lakh free accidental death insurance coverage** (for cards issued post-August 28, 2018; ₹1 lakh for earlier cards).
+   - Overdraft (OD) facility: Up to **₹10,000** (with no conditional assessment for amounts up to ₹2,000; upper age ceiling 65 years).
 
 **EXAM ANGLE:**
 
 - Total PMJDY Accounts: **59.09 crore accounts** (August 2026).
 - Rural/Semi-Urban Share: **77.8% (45.95 crore accounts)**.
-- Women Account Share: **55.6% of total accounts**.
-- Cumulative Balance: Exceeded **₹2.31 lakh crore**; Average balance per account = **₹3,912**.
+- Women Account Share: **55.7% of total accounts (32.92 crore)**.
+- Cumulative Balance: Reached **₹3,16,514 crore** (~₹3.16 Lakh Crore); Average balance per account = **₹5,356**.
 - Insurance Cover: Built-in RuPay accidental insurance of **₹2 lakh**; Overdraft ceiling of **₹10,000**.
-- Target MCQ Form: "What is the total cumulative balance deposited in Pradhan Mantri Jan Dhan Yojana (PMJDY) accounts as of its 12th anniversary in August 2026?" → **Over ₹2.31 lakh crore**.
+- Target MCQ Form: "What is the total cumulative balance deposited in Pradhan Mantri Jan Dhan Yojana (PMJDY) accounts as of its 12th anniversary in August 2026?" → **₹3,16,514 Crore (~₹3.16 Lakh Crore)**.
 
 ---
 

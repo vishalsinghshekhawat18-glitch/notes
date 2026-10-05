@@ -96,7 +96,7 @@
 - **Multilateral Financial Institutions**:
   - **World Bank Group (IBRD / IDA / IFC / MIGA)**: **Washington D.C., USA** (President: Ajay Banga; India Executive Director: Parameswaran Iyer / Neelkanth Mishra).
   - **International Monetary Fund (IMF)**: **Washington D.C., USA** (Managing Director: Kristalina Georgieva; First Deputy MD: Gita Gopinath).
-  - **Asian Development Bank (ADB)**: **Mandaluyong / Manila, Philippines** (President: Masatsugu Asakawa).
+  - **Asian Development Bank (ADB)**: **Mandaluyong / Manila, Philippines** (President: Masato Kanda, succeeding Masatsugu Asakawa; India shareholding 6.3%).
   - **New Development Bank (NDB / BRICS Bank)**: **Shanghai, China** (President: Dilma Rousseff).
   - **Asian Infrastructure Investment Bank (AIIB)**: **Beijing, China** (President: Jin Liqun).
   - **Bank for International Settlements (BIS)**: **Basel, Switzerland** (known as the central bank of central banks).
@@ -181,8 +181,8 @@
   - **Covered Regulated Entities (REs)**: Encompasses all Scheduled Commercial Banks (SCBs), Regional Rural Banks (RRBs), Non-Scheduled Primary (Urban) Co-operative Banks with deposit size **≥ ₹50 Crore**, all deposit-taking NBFCs (NBFC-Ds), non-deposit taking NBFCs with asset size **≥ ₹100 Crore** having public interface, and **Credit Information Companies (CICs)** (brought under RB-IOS via 2022 amendment).
   - **Centralised Receipt and Processing Centre (CRPC)**: Single centralized portal and physical clearing intake established at **RBI Chandigarh** for registration and initial scrutiny of complaints from across the nation.
   - **Escalation Protocol & Deadlines**: Complainant must first lodge grievance directly with the bank/RE; if rejected, not resolved within **30 days**, or resolved unsatisfactorily, complaint can be submitted to Ombudsman within **1 year**.
-  - **Monetary Jurisdiction & Award Ceiling**: Ombudsman possesses authority to award compensation up to **₹30 Lakh** for direct financial loss caused by deficiency in banking service.
-  - **Additional Mental Agony Award**: Over and above the ₹30L financial limit, Ombudsman can award up to **₹3 Lakh** for mental agony, harassment, and loss of time (aggregate cap = ₹33 Lakh).
+  - **Monetary Jurisdiction & Award Ceiling**: Under the operative Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021), the Ombudsman is empowered to award compensation up to **₹20 Lakh** for direct financial loss resulting from deficiency in banking service (with proposals reviewing an enhancement up to **₹30 Lakh**).
+  - **Additional Mental Agony Award**: Over and above the financial loss limit, the Ombudsman can award up to **₹1 Lakh** (with proposed revisions up to **₹3 Lakh**) for mental agony, harassment, and loss of time.
   - **Appellate Authority**: Executive Director in-charge of the **Consumer Education and Protection Department (CEPD) at RBI**; appeal must be submitted within **30 days** of receiving the award or rejection.
 - **Deposit Insurance and Credit Guarantee Corporation (DICGC) Act, 1961**:
   - Wholly owned subsidiary of RBI; insures bank deposits across Commercial Banks, RRBs, Local Area Banks, and Co-operative Banks.
@@ -191,7 +191,7 @@
 
 **EXAM ANGLE:**
 
-- RB-IOS Ceiling: Direct financial loss compensation is **₹30 Lakh**; compensation for mental agony is **₹3 Lakh** (maximum possible award is ₹33 Lakh).
+- RB-IOS Ceiling: Operative direct financial loss compensation ceiling is **₹20 Lakh** (proposals up to ₹30 Lakh); compensation for mental agony is **₹1 Lakh** (proposals up to ₹3 Lakh).
 - RB-IOS Centralised Processing Centre (CRPC): Located at **RBI Chandigarh** (NOT Mumbai or New Delhi).
 - RB-IOS Appellate Authority: **Executive Director in-charge of CEPD at RBI**; appeal period is **30 days**.
 - Escalation Horizon: Customer must wait **30 days** for bank response before filing with Ombudsman; maximum filing window is **1 year**.
@@ -887,16 +887,16 @@
 
 ---
 
-[MS-044] **Small Finance Bank (SFB) PSL Target Correction: 60% of ANBC**
-- **Statutory Target Correction**: Reserve Bank of India officially issued a corrigendum correcting the Priority Sector Lending target for Small Finance Banks to **60% of ANBC** (resolving a typographical error in an earlier draft circular that erroneously notified 75%).
-- **Phase-In Trajectory**: Allows SFBs balanced portfolio diversification while continuing to direct high-volume credit to underserved micro-enterprises and smallholder farmers.
-- **Regional Rural Banks (RRB) PSL Target**: RRBs continue to operate under a separate statutory mandate requiring **75% of total lending** to priority sectors.
+[MS-044] **Small Finance Bank (SFB) PSL Target Architecture: Operational 75% vs. Proposed 60% Norms**
+- **Existing Statutory Baseline**: Under the operative RBI Master Direction on Priority Sector Lending (PSL), established Small Finance Banks (SFBs) are mandated to achieve a total priority sector lending target of **75% of Adjusted Net Bank Credit (ANBC)** or CEOBE.
+- **Regulatory Clarification & Rationalisation Proposals**: While draft discussion papers and licensing consultative notes proposed harmonizing SFB PSL targets closer to commercial bank levels (at **60% of ANBC** to support wholesale portfolio diversification), operational banks continue to be assessed against the **75% benchmark** until formal revised master directions take statutory effect.
+- **Regional Rural Banks (RRB) PSL Target**: RRBs continue under their uncompromised statutory mandate requiring **75% of total lending** to priority sectors.
 
 **EXAM ANGLE:**
 
-- SFB vs RRB Target: SFB corrected target is **60% of ANBC**; Regional Rural Bank (RRB) target remains **75%**.
-- The Typo Trap: 75% was the error figure; the correct legally enforced target is 60%.
-- Target MCQ Form: "What is the official, corrected Priority Sector Lending (PSL) target applicable to Small Finance Banks?" → 60% of ANBC.
+- Operative SFB Baseline: **75% of ANBC** under current Master Directions (with proposals reviewing a 60% glidepath for new entrants).
+- RRB Mandatory Target: Strictly **75% of ANBC**.
+- Target MCQ Form: "What is the mandatory Priority Sector Lending (PSL) target prescribed for operational Small Finance Banks under RBI Master Directions?" → 75% of ANBC.
 
 ---
 
@@ -1404,13 +1404,13 @@
 ---
 
 [MS-078] **Abolition of 2% Equalisation Levy on Foreign E-Commerce Operators**
-- **Digital Tax Retraction**: Government completely withdrew the **2% Equalisation Levy** levied on non-resident e-commerce operators with effect from **August 1, 2024 / 2026**.
+- **Digital Tax Retraction**: Government completely withdrew the **2% Equalisation Levy** levied on non-resident e-commerce operators with effect from **August 1, 2024** (enacted under Finance (No. 2) Act, 2024).
 - **Genesis & Cross-Border Friction**: Originally introduced in Finance Act 2020 to tax digital services rendered by global giants (Google, Amazon, Meta); created trade tensions and retaliatory tariff threats from the United States under Section 301.
 - **Pillar One Alignment**: Decision aligns India with the OECD/G20 Inclusive Framework on Base Erosion and Profit Shifting (BEPS) Pillar One, which replaces unilateral digital services taxes with multilateral profit allocation.
 
 **EXAM ANGLE:**
 
-- Effective Date: Equalisation levy of 2% was abolished effective **August 1, 2024 / 2026**.
+- Effective Date: Equalisation levy of 2% was abolished effective **August 1, 2024**.
 - Which Levy: The **2% digital e-commerce supply levy** was removed (the 6% online advertisement levy introduced in 2016 remains unchanged).
 - Target MCQ Form: "The 2% Equalisation Levy on digital e-commerce supply of services by non-resident operators was abolished with effect from which date?" → August 1, 2024.
 
