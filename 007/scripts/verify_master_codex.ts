@@ -10,11 +10,11 @@ async function verifyMasterCodex() {
 
   console.log(`\n======================================================`);
   console.log(`FORENSIC AUDIT OF BOOK 01 MASTER CODEX: ${masterPath}`);
-  console.log(`Total Pages: ${total} (Expected: 208)`);
+  console.log(`Total Pages: ${total} (Expected: 211)`);
   console.log(`======================================================`);
 
-  if (total !== 208) {
-    console.error(`FAIL: Expected 208 pages, found ${total}`);
+  if (total !== 211) {
+    console.error(`FAIL: Expected 211 pages, found ${total}`);
     process.exit(1);
   }
 
@@ -36,19 +36,19 @@ async function verifyMasterCodex() {
     { ch: 12, physStart: 89, bodyStart: 85, pages: 6 },
     { ch: 13, physStart: 95, bodyStart: 91, pages: 6 },
     { ch: 14, physStart: 101, bodyStart: 97, pages: 7 },
-    { ch: 15, physStart: 108, bodyStart: 104, pages: 5 },
-    { ch: 16, physStart: 113, bodyStart: 109, pages: 3 },
-    { ch: 17, physStart: 116, bodyStart: 112, pages: 7 },
-    { ch: 18, physStart: 123, bodyStart: 119, pages: 7 },
-    { ch: 19, physStart: 130, bodyStart: 126, pages: 10 },
-    { ch: 20, physStart: 140, bodyStart: 136, pages: 9 },
-    { ch: 21, physStart: 149, bodyStart: 145, pages: 8 },
-    { ch: 22, physStart: 157, bodyStart: 153, pages: 7 },
-    { ch: 23, physStart: 164, bodyStart: 160, pages: 7 },
-    { ch: 24, physStart: 171, bodyStart: 167, pages: 5 },
-    { ch: 25, physStart: 176, bodyStart: 172, pages: 5 },
-    { ch: 26, physStart: 181, bodyStart: 177, pages: 20 },
-    { ch: 27, physStart: 201, bodyStart: 197, pages: 8 },
+    { ch: 15, physStart: 108, bodyStart: 104, pages: 6 },
+    { ch: 16, physStart: 114, bodyStart: 110, pages: 3 },
+    { ch: 17, physStart: 117, bodyStart: 113, pages: 7 },
+    { ch: 18, physStart: 124, bodyStart: 120, pages: 7 },
+    { ch: 19, physStart: 131, bodyStart: 127, pages: 10 },
+    { ch: 20, physStart: 141, bodyStart: 137, pages: 9 },
+    { ch: 21, physStart: 150, bodyStart: 146, pages: 9 },
+    { ch: 22, physStart: 159, bodyStart: 155, pages: 7 },
+    { ch: 23, physStart: 166, bodyStart: 162, pages: 7 },
+    { ch: 24, physStart: 173, bodyStart: 169, pages: 5 },
+    { ch: 25, physStart: 178, bodyStart: 174, pages: 5 },
+    { ch: 26, physStart: 183, bodyStart: 179, pages: 20 },
+    { ch: 27, physStart: 203, bodyStart: 199, pages: 9 },
   ];
 
   for (const m of EXPECTED_MAPPING) {

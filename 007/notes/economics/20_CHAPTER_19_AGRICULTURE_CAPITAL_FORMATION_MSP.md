@@ -54,10 +54,6 @@ Operational landholdings in India are characterized by severe structural fragmen
 
 ---
 
-> **The Shrinking Average Holding**: The average operational landholding in India has steadily fragmented from **2.28 hectares in 1970–71 down to just 1.08 hectares**, severely impairing mechanization, economies of scale, and institutional credit absorption.
-
----
-
 ## 19.2 The Structural Architecture of Land Reforms in India
 
 Land reforms constitute the foundational institutional prerequisite for equitable agricultural growth. In India, land tenure and land reforms fall under the **State List (Entry 18, Seventh Schedule)** of the Constitution.

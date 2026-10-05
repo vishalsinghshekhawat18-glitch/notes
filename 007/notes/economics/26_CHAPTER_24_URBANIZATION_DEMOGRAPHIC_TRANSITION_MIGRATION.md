@@ -260,7 +260,7 @@ Research in the *Economic Survey 2016–17* utilizing railway unreserved passeng
 │ Examination Trap / Ambiguity    │ Canonical Empirical Precision                                  │
 ├─────────────────────────────────┼────────────────────────────────────────────────────────────────┤
 │ What is the threshold density   │ **400 persons per sq. km** (along with 5,000 population and    │
-│ for a Census Town?              │ 75% male non-agricultural employment).                         │
+│ for a Census Town?              │ 75% of male main working population in non-agriculture).       │
 ├─────────────────────────────────┼────────────────────────────────────────────────────────────────┤
 │ Which state has the highest     │ **Goa (62.17%)**, followed by Mizoram (52.11%) and Tamil Nadu  │
 │ percentage of urban population? │ (48.40%).                                                      │

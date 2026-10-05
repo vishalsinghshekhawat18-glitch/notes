@@ -225,9 +225,9 @@ At the COP26 Climate Summit in Glasgow (2021), India announced five sovereign cl
 │ **1. Non-Fossil Capacity**      │ Target **500 GW of electric capacity from non-fossil fuel** │
 │                                 │ energy sources by 2030 (Solar, Wind, Nuclear, Hydro).       │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **2. Renewable Share**          │ Meet **50% of cumulative electric power installed capacity**│
-│                                 │ from non-fossil sources by 2030. *(India crossed 44% in     │
-│                                 │ 2024, years ahead of schedule!)*                            │
+│ **2. Non-Fossil Power Share**   │ Achieve **about 50% cumulative electric power installed     │
+│                                 │ capacity from non-fossil fuel-based energy resources** by   │
+│                                 │ 2030 (as formally codified in India's updated NDC).         │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **3. Emissions Intensity Cut**  │ Reduce the **Emissions Intensity of GDP by 45%** by 2030    │
 │                                 │ compared to 2005 levels.                                    │
@@ -238,6 +238,12 @@ At the COP26 Climate Summit in Glasgow (2021), India announced five sovereign cl
 │ **5. Net-Zero Milestone**       │ Achieve **Net-Zero Carbon Emissions by 2070**!              │
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
+
+> [!NOTE]
+> **EXAM PRECISION: COP26 ANNOUNCEMENT VS. FORMAL UPDATED NDC FORMULATION**
+> Candidates must rigorously differentiate between the original political announcement and the formal treaty text communicated to the UNFCCC:
+> 1. **COP26 Panchamrit Announcement (Glasgow 2021 Speech)**: Formulated verbally as: *"India will meet 50% of its energy requirements from renewable energy by 2030."*
+> 2. **Formal Updated NDC Formulation (August 2022 to UNFCCC)**: Officially quantified in binding policy as: *"To achieve approximately 50% cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030."* (Non-fossil sources include Solar, Wind, Large Hydro, Nuclear, and Biomass).
 
 ---
 
@@ -397,13 +403,15 @@ bearing total traffic volume and revenue risk. Under HAM, the Government bears 1
 ```
 
 ```
-CARD 2: Detail the five "Panchamrit" climate pledges made by India at the COP26 Glasgow Summit.
+CARD 2: Detail India's "Panchamrit" climate pledges and the distinction between the COP26 speech and the updated NDC.
 ANSWER:
 1. 500 GW non-fossil electricity capacity by 2030.
-2. 50% of cumulative electric power installed capacity from renewable energy by 2030.
-3. Reduce emissions intensity of GDP by 45% by 2030 (over 2005 levels).
-4. Reduce total projected carbon emissions by 1 billion tonnes from 2021 to 2030.
-5. Reach Net-Zero carbon emissions by the year 2070.
+2. The 50% Non-Fossil Formulation:
+   - COP26 Verbal Pledge (2021): "50% of energy requirements from renewable energy by 2030."
+   - Formal Updated NDC (August 2022 to UNFCCC): "Approximately 50% of cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030."
+3. 45% reduction in emissions intensity of GDP by 2030 (over 2005 levels).
+4. Reduction of total projected carbon emissions by 1 Billion tonnes between 2021 and 2030.
+5. Reach Net-Zero greenhouse gas emissions by the year 2070.
 ```
 
 ```

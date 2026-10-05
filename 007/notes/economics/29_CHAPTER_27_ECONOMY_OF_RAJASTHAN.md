@@ -308,6 +308,23 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### 5. RAS Rajasthan Economy Rapid Revision Matrix
+
+| Topic | One-line concept | Current figure | Scheme / Institution | High-Yield Examination Trap |
+| :--- | :--- | :--- | :--- | :--- |
+| **GSDP & Growth** | Total market value of all goods & services produced within State borders. | Current: **₹18,75,413 Cr** (+10.24%)<br>Constant (2011–12): **₹9,82,000 Cr** (+8.66%) | Finance Dept / DES Rajasthan (*Eco Review 2025–26 [AE]*) | Real growth is evaluated at 2011–12 constant prices, not current market prices. |
+| **Per Capita Income** | Net State Domestic Product divided by mid-year projected population. | Current: **₹2,02,349**<br>Constant: **₹95,250** | DES Rajasthan | Do not confuse Rajasthan PCI with All-India PCI (India PCI is higher). |
+| **GSVA Sectoral Shares** | Structural distribution of economic activity at Current Prices. | **Services: 47.71%**<br>**Industry: 26.55%**<br>**Agriculture: 25.74%** | Three-sector classification | Services is largest (~48%); Industry and Agriculture are very close (~26% vs ~26%). |
+| **Agricultural Land Use** | Gross & net reporting area under farming operations. | Net Sown Area: **~52.2%**<br>Total Operational Holdings: **76.55 Lakh** | Dept of Agriculture / Land Records | Average holding size in Rajasthan (2.73 ha) is significantly higher than National average (1.08 ha). |
+| **Irrigation & Water** | Scarcity of surface water; reliance on canal systems and tubewells. | State possesses only **1.16%** of India's surface water resources | Narmada Canal Project (Sanchore/Barmer) | Sprinkler / drip micro-irrigation is statutorily mandatory across entire Narmada canal command. |
+| **Monopoly Minerals** | Rajasthan commands sole or near-sole national deposit endowment. | **100% Lead-Zinc, Wollastonite, Jasper, Selenite**; ~90% Gypsum | DMG Rajasthan / RSMML | Iron ore is NOT a monopoly; Rajasthan is famous for non-metallic & lead-zinc ores. |
+| **Petroleum Architecture** | Four domestic sedimentary basins; Barmer-Sanchore leads onshore crude. | HRRL Pachpadra: **9 MMTPA capacity**; **74% HPCL : 26% GoR** | HPCL Rajasthan Refinery Ltd (HRRL) | HRRL is 74:26 JV, NOT 50:50; produces BS-VI fuels and petrochem polymers. |
+| **Renewable Energy** | Unrivaled solar irradiation (325 sunny days); national leader in solar. | Total Solar Potential: **142 GW**<br>Bhadla (Phalodi): **2,245 MW** | RREC / PM-KUSUM / SKAY Portal | Component A is grid-tied decentralized plants on barren land; Component C is agricultural feeder solarization. |
+| **Industrial Ecosystem** | Apex body for land acquisition, industrial parks, and SEZs. | Special Investment Regions (Bhiwadi, Neemrana, Boranada) | RIICO (Est. 1969/1980) / RIPS 2024 | DMIC freight corridor spans ~38% of total route through Rajasthan; MSME Act gives 3–5 yr exemption. |
+| **State Fiscal Federalism** | Horizontal and vertical fiscal devolution under State Constitution. | Devolution: **6.75% of State Tax**<br>PRI : ULB = **75.10% : 24.90%** | 6th State Finance Commission (Pradyumn Singh) | Inside PRIs, devolution is 75% Gram Panchayat, 20% Panchayat Samiti, 5% Zila Parishad. |
+| **Demography & Literacy** | Decadal population growth, spatial urbanization, and educational gap. | Pop: **6.85 Cr** (2011)<br>Urban: **24.87%**; Sex Ratio: **928** | Census of India / ORGI | Female literacy (52.12%) is among lowest in India; Rural female literacy is only 45.8%. |
+| **Social Security Safety Net** | Statutory right to guaranteed minimum income and welfare pensions. | Minimum Pension: **₹1,150/mo** (+15% automatic annual indexation) | Rajasthan Minimum Guaranteed Income Act, 2023 | Guarantees 125 days wage employment (IRGY-Urban) and statutory right to social security pension. |
+
 ---
 
 ## 27.10 Active Recall Diagnostic Cards (RPSC RAS Lens)

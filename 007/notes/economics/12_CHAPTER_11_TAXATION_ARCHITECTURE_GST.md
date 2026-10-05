@@ -132,25 +132,55 @@ Total Tax Revenue
 
 ## 11.3 Direct Taxation Architecture in India
 
-> ### 🏛️ CURRENT DIRECT-TAX STATUTORY REFORM BOX: THE INCOME-TAX ACT, 2025
-> * **Enactment & Effective Date**: The Parliament enacted the comprehensive **Income-tax Act, 2025**, which officially came into force on **1 April 2026**, completely repealing and replacing the historic but overly complex **Income-tax Act, 1961**.
-> * **Subordinate Legislation**: Operationalized alongside the newly notified **Income-tax Rules, 2026**, replacing the Income-tax Rules, 1962.
-> * **Legislative Rationale**: Over six decades, the 1961 Act had accumulated thousands of amendments, provisos, explanations, and transitional riders, ballooning into dense legalese prone to pervasive litigation. The 2025 Act executes a structural overhaul focused on **plain language, logical modularity, and systemic compression**.
-> * **Structural Transition vs. Policy Continuity**:
->   * *What Changed Structurally*: Codification of the **Faceless Assessment & Digital Appeals Architecture** directly into the core statutory body; rationalized terminology (modernizing historical dual concepts of "Previous Year" and "Assessment Year" into a unified tax year framework); harmonized limitation periods for reassessment; and substantial reduction of penalty/prosecution friction.
->   * *What Remained Constant*: Substantive tax incidence, personal income tax slab schedules, the corporate tax rate structure (e.g., 22% concessional rate), and bilateral tax treaty protections remain fully preserved to guarantee macroeconomic and fiscal stability.
-> * **Historical Section Crosswalk (PYQ / Exam Navigation)**:
->   * *Old Act §115BAC* (Default Personal Concessional Regime) $\longrightarrow$ Now the codified primary individual baseline.
->   * *Old Act §115BAA* (22% Concessional Domestic Corporate Tax) $\longrightarrow$ Codified standard corporate tax regime.
->   * *Old Act §115JB* (Minimum Alternate Tax / MAT) $\longrightarrow$ Codified book-profit minimum baseline (15%).
->   * *Old Act §56(2)(viib)* ("Angel Tax" on unlisted startups) $\longrightarrow$ **Fully Abolished** by Parliament.
+### 1. Current Law Framework: The Income-tax Act, 2025 (Effective 1 April 2026)
+* **Legislative Overhaul**: Parliament enacted the comprehensive **Income-tax Act, 2025**, which came into full legal force on **1 April 2026**, completely repealing and replacing the six-decade-old **Income-tax Act, 1961** (and the Income-tax Rules, 1962 with the **Income-tax Rules, 2026**).
+* **Plain-Language Codification**: Structures the tax code into clean, modular components, eliminating decades of conflicting proviso amendments and historical litigation friction.
+* **Structural Transition vs. Policy Stability**:
+  * *What Changed Structurally*: Codification of the **Faceless Assessment and Digital Appeals Architecture** into core statutory law; rationalized terminology (unifying historical dual concepts of "Previous Year" and "Assessment Year" into a single annual Tax Year); standardized reassessment limitation periods; and substantially softened penalty friction.
+  * *What Remained Constant*: Substantive tax rates, personal tax slab structures, corporate concessional tax baselines (22% rate), and bilateral Double Taxation Avoidance Agreement (DTAA) treaty protections are preserved intact to guarantee macroeconomic continuity.
 
-### 1. Personal Income Tax (PIT): The Dual-Regime Architecture
-Since the Finance Act, 2020 (and preserved as the core baseline under the Income-tax Act, 2025), India operates a two-track personal income tax framework:
+### 2. Historical / PYQ Statutory Crosswalk Table
+To ensure seamless navigation between past examination questions (which cite historical 1961 Act sections) and the current statutory landscape, the following crosswalk governs all direct tax concepts:
+
+```
+┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
+│ Old IT Act, 1961 Provision      │ Historical / PYQ Concept        │ Current Law (IT Act, 2025)       │ Examination & Practical Impact  │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 115BAC**              │ Default Concessional Individual │ Codified Baseline Individual    │ Default personal tax regime     │
+│                                 │ Tax Regime (Finance Act, 2020)  │ Rate Schedule                   │ (No 80C/80D; ₹75k std deduction)│
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 115BAA**              │ 22% Concessional Corporate Tax  │ Codified Standard Corporate Tax │ Universal domestic corporate    │
+│                                 │ for Domestic Companies (2019)   │ Rate (22% Base + 10% Surcharge) │ rate (Effective: 25.17%)        │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 115BAB**              │ 15% Concessional Tax for New    │ Preserved Grandfathered /       │ Sunset date was 31 March 2024;  │
+│                                 │ Manufacturing Companies (2019)  │ Sunset Regime                   │ Essential historical PYQ anchor │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 115JB**               │ Minimum Alternate Tax (MAT) on  │ Codified Book-Profit Minimum Tax│ 15% rate on book profits; MAT   │
+│                                 │ Corporate Book Profits          │ Baseline (15%)                  │ not applicable to 22% regime    │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 115JC**               │ Alternate Minimum Tax (AMT) on  │ Codified Non-Corporate Adjusted │ 15% rate on adjusted income for │
+│                                 │ LLPs and non-corporate firms    │ Minimum Tax Baseline (15%)      │ partnerships, LLPs, and AOPs    │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 56(2)(viib)**         │ "Angel Tax" on unlisted startup │ **FULLY ABOLISHED**             │ Repealed by Parliament in 2024; │
+│                                 │ share premium over FMV          │ (Excluded from 2025 Act)        │ Critical relief for venture cap │
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Chapter X-A (§§95–102)**      │ General Anti-Avoidance Rule     │ Codified General Anti-Abuse and │ Shome Committee; Impermissible  │
+│                                 │ (GAAR) Framework                │ Avoidance Framework             │ Avoidance Arrangement (IAA) test│
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 6(3)**                │ Place of Effective Management   │ Codified Corporate Tax Residency│ ABOI test (≤50% passive income  │
+│                                 │ (PoEM) Corporate Residency Test │ & PoEM Framework                │ outside India determines status)│
+├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│ **Section 111A & 112A**         │ Listed Equity Short-Term (STCG) │ Codified Listed Securities      │ STCG: 20%; LTCG: 12.5%          │
+│                                 │ & Long-Term Capital Gains (LTCG)│ Capital Gains Schedule          │ (Exemption threshold: ₹1.25 L)  │
+└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
+```
+
+### 3. Personal Income Tax (PIT): Current Law Dual-Regime Architecture
+Under the current direct-tax framework, India operates a two-track personal income tax structure:
 
 ```
 ┌───────────────────────────────────────────────┬───────────────────────────────────────────────┐
-│ Old Tax Regime                                │ New Default Tax Regime (ex-Section 115BAC)    │
+│ Old Tax Regime (Optional Opt-In)              │ Current Default Tax Regime (Historical §115BAC│
 ├───────────────────────────────────────────────┼───────────────────────────────────────────────┤
 │ • Higher marginal tax slab rates.             │ • Significantly lower, streamlined slab rates.│
 │ • Retains ~70 exemptions and deductions:      │ • Almost all deductions eliminated (No 80C,   │
@@ -168,7 +198,7 @@ Since the Finance Act, 2020 (and preserved as the core baseline under the Income
 
 ---
 
-### 2. Corporate Income Tax (CIT) & The 2019 Historic Slash
+### 4. Corporate Income Tax (CIT): Current Concessional Architecture
 Prior to September 2019, India's headline corporate tax rate was among the highest in emerging Asia (~30% base + surcharge + cess $\approx 34.94\%$). Via the *Taxation Laws (Amendment) Act, 2019*, India executed a historic supply-side corporate tax slash to revive private capex (preserved and codified under the Income-tax Act, 2025):
 
 * **Standard Concessional Corporate Regime [1961 Act §115BAA $\longrightarrow$ Codified in Income-tax Act, 2025] (Domestic Companies)**:
@@ -184,7 +214,7 @@ Prior to September 2019, India's headline corporate tax rate was among the highe
 
 ---
 
-### 3. Minimum Alternate Tax (MAT) & Alternate Minimum Tax (AMT)
+### 5. Minimum Alternate Tax (MAT) & Alternate Minimum Tax (AMT)
 * **The "Zero-Tax Company" Hazard**: Many profitable corporations used legal deductions, depreciation shields, and tax holidays under the Income Tax Act to reduce their taxable income to zero, paying zero tax despite declaring large accounting profits and paying fat dividends to shareholders.
 * **Mechanism of MAT [1961 Act §115JB $\longrightarrow$ Codified in Income-tax Act, 2025]**:
   * Introduced to ensure every corporate entity pays a baseline minimum tax on its **Book Profit** (profits calculated as per the Companies Act, 2013).
@@ -196,7 +226,7 @@ Prior to September 2019, India's headline corporate tax rate was among the highe
 
 ---
 
-### 4. Abolition of Dividend Distribution Tax (DDT)
+### 6. Abolition of Dividend Distribution Tax (DDT)
 * **Pre-2020 System**: Companies paid DDT (~20.56% effective) directly out of corporate profits before distributing dividends. Dividends were tax-free in the hands of shareholders up to ₹10 Lakh.
 * **Finance Act, 2020 Reform**:
   * **DDT was completely abolished**.
@@ -205,7 +235,7 @@ Prior to September 2019, India's headline corporate tax rate was among the highe
 
 ---
 
-### 5. Capital Gains Tax: Rationalization in Union Budget 2024–25
+### 7. Capital Gains Tax Architecture (Post-2024 Harmonization)
 Capital gains arise from the transfer/sale of a capital asset (shares, real estate, gold, bonds):
 
 ```
@@ -232,7 +262,7 @@ Capital gains arise from the transfer/sale of a capital asset (shares, real esta
 
 ---
 
-### 6. Specialized Direct Tax Measures & Anti-Avoidance Instruments
+### 8. Specialized Direct Tax Measures & Anti-Avoidance Instruments
 
 #### A. Securities Transaction Tax (STT):
 * Levied on the purchase and sale of equities, derivatives (futures & options), and equity mutual funds traded on recognized Indian stock exchanges.

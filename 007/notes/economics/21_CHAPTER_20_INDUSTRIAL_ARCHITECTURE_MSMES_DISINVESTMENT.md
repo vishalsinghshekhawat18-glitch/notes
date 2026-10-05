@@ -341,8 +341,13 @@ The **Index of Industrial Production (IIP)** measures short-term changes in the 
 
 ---
 
-### The Eight Core Industries (Historical Benchmark Series — 40.27% of IIP):
-The Eight Core Industries represent basic infrastructure foundation goods and account for **40.27% of the total weight of the 2011–12 IIP**. Compiled monthly by the Office of the Economic Adviser, DPIIT:
+### Core Industries Architecture: Current 2026 Framework vs. Historical Benchmark
+
+#### 1. Current 2026 Framework (Base 2022–23 Series): The Nine Core Industries
+Under the updated 2022–23 macroeconomic series, DPIIT expands the core infrastructure basket from eight to **Nine Core Industries** by formally incorporating **Iron Ore** as an independent core mining category. This structural revision reflects the deep integration of domestic steel value chains and ensures independent high-frequency monitoring of essential metallic extraction alongside traditional energy and construction inputs.
+
+#### 2. Historical Benchmark Series (Base 2011–12 Series — Tested in Older PYQs): The Eight Core Industries
+The Eight Core Industries represent basic infrastructure foundation goods and account for **40.27% of the total weight in the 2011–12 IIP basket**. Compiled monthly by the Office of the Economic Adviser, DPIIT:
 
 ```
 ┌─────────────────────────────────┬────────────────┬────────────────────────────────────────────┐
@@ -361,7 +366,7 @@ The Eight Core Industries represent basic infrastructure foundation goods and ac
 └─────────────────────────────────┴────────────────┴────────────────────────────────────────────┘
 ```
 
-> **The 2026 Core Expansion Note**: In the 2022–23 series revision, DPIIT formalizes **Iron Ore** as the 9th Core Industry, recognizing that domestic steel manufacturing integration and mining transport economics require independent continuous high-frequency tracking.
+> **High-Yield Exam Trap**: While Steel feels like the heaviest industrial sector, **Petroleum Refinery Products (28.04%)** commands the highest weight in the Eight Core basket, while **Fertilizers (2.63%)** is the smallest. In the Current 2026 series, Iron Ore is added as the 9th Core Industry.
 
 ---
 

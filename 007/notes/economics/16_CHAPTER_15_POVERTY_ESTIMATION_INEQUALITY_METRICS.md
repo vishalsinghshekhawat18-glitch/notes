@@ -104,6 +104,10 @@ In developed economies, poverty is assessed via reported tax returns and wage da
 └─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
 ```
 
+> [!NOTE]
+> **METHODOLOGICAL CLARIFICATION: OFFICIAL BENCHMARK VS. "STATUTORY" POVERTY LINE**
+> India has never enacted a statutory poverty line by an Act of Parliament. The Tendulkar poverty lines (₹816 rural / ₹1,000 urban per capita per month at 2011–12 prices, yielding 21.9% headcount ratio) constitute an **official administrative and statistical benchmark estimate adopted by the Planning Commission**, NOT a statutory poverty line. Later administrative programs shifted to multi-dimensional poverty targeting (MPI) and the SECC 2011 exclusion criteria.
+
 ---
 
 ## 15.3 Survey Recall Periods: URP, MRP & MMRP
@@ -255,8 +259,9 @@ $$\mathbf{\text{Gini Coefficient}} = \frac{\mathbf{\text{Area } A}}{\mathbf{\tex
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **Official Benchmark Trap**     │ **TRAP**: The Rangarajan Committee (2014) recommended a     │
 │                                 │ higher poverty line (29.5%), but **Rangarajan was NEVER     │
-│                                 │ officially notified**. The official statutory baseline for  │
-│                                 │ 2011–12 remains the **Tendulkar Committee (21.9%)**!        │
+│                                 │ officially adopted**. The official historical benchmark for │
+│                                 │ 2011–12 remains the **Tendulkar Committee (21.9%)** (an      │
+│                                 │ official Planning Commission estimate, not statutory)!      │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **National MPI Indicators**     │ **TRAP**: The Global MPI uses **10 indicators**. India's    │
 │                                 │ National MPI (NITI Aayog) uses **12 indicators**. The two   │

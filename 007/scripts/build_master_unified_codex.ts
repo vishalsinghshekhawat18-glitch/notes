@@ -22,19 +22,19 @@ const EXACT_TOC_MAPPING = [
   { ch: 12, start: 85, end: 90, pages: 6 },
   { ch: 13, start: 91, end: 96, pages: 6 },
   { ch: 14, start: 97, end: 103, pages: 7 },
-  { ch: 15, start: 104, end: 108, pages: 5 },
-  { ch: 16, start: 109, end: 111, pages: 3 },
-  { ch: 17, start: 112, end: 118, pages: 7 },
-  { ch: 18, start: 119, end: 125, pages: 7 },
-  { ch: 19, start: 126, end: 135, pages: 10 },
-  { ch: 20, start: 136, end: 144, pages: 9 },
-  { ch: 21, start: 145, end: 152, pages: 8 },
-  { ch: 22, start: 153, end: 159, pages: 7 },
-  { ch: 23, start: 160, end: 166, pages: 7 },
-  { ch: 24, start: 167, end: 171, pages: 5 },
-  { ch: 25, start: 172, end: 176, pages: 5 },
-  { ch: 26, start: 177, end: 196, pages: 20 },
-  { ch: 27, start: 197, end: 204, pages: 8 },
+  { ch: 15, start: 104, end: 109, pages: 6 },
+  { ch: 16, start: 110, end: 112, pages: 3 },
+  { ch: 17, start: 113, end: 119, pages: 7 },
+  { ch: 18, start: 120, end: 126, pages: 7 },
+  { ch: 19, start: 127, end: 136, pages: 10 },
+  { ch: 20, start: 137, end: 145, pages: 9 },
+  { ch: 21, start: 146, end: 154, pages: 9 },
+  { ch: 22, start: 155, end: 161, pages: 7 },
+  { ch: 23, start: 162, end: 168, pages: 7 },
+  { ch: 24, start: 169, end: 173, pages: 5 },
+  { ch: 25, start: 174, end: 178, pages: 5 },
+  { ch: 26, start: 179, end: 198, pages: 20 },
+  { ch: 27, start: 199, end: 207, pages: 9 },
 ];
 
 export function buildTableOfContentsHtml(): string {
@@ -276,7 +276,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • Shelf 007 Bastion</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">27 Chapters • 204 Pages</div>
+      <div class="meta-tag">27 Chapters • 207 Pages</div>
     </div>
 
     <!-- PART I -->
@@ -463,7 +463,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 16</span>
         <span class="chapter-name">Balance of Payments (BoP) Architecture: Current &amp; Capital</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 109</span>
+        <span class="chapter-locator">p. 110</span>
       </div>
       <div class="chapter-subtopics">Current Account (Trade + Invisibles) • Capital Account • Arvind Mayaram 10% FDI Rule • Forex Hierarchy</div>
     </div>
@@ -472,7 +472,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 17</span>
         <span class="chapter-name">Forex Dynamics, NEER, REER &amp; Currency Convertibility</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 112</span>
+        <span class="chapter-locator">p. 113</span>
       </div>
       <div class="chapter-subtopics">NEER &amp; REER Valuation • Current Account Convertibility (1994) • Capital Convertibility • FTP 2023 • SRVA</div>
     </div>
@@ -481,7 +481,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 18</span>
         <span class="chapter-name">International Economic Organizations: IMF, World Bank, WTO</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 119</span>
+        <span class="chapter-locator">p. 120</span>
       </div>
       <div class="chapter-subtopics">IMF SDR Basket • World Bank Group (India Non-Membership in ICSID) • WTO AoA Boxes • Appellate Body / MPIA</div>
     </div>
@@ -496,7 +496,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 19</span>
         <span class="chapter-name">Indian Agriculture, MSP &amp; Rural Economy (NABARD ARD Suite)</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 126</span>
+        <span class="chapter-locator">p. 127</span>
       </div>
       <div class="chapter-subtopics">86.2% Small/Marginal • CACP 23 Crops • NABARD Refinance • 3-Tier STCCS (PACS) • RIDF • PMFBY • e-NAM &amp; e-NWRs</div>
     </div>
@@ -505,7 +505,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 20</span>
         <span class="chapter-name">Industrial Architecture, MSMEs, Disinvestment &amp; Policy</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 136</span>
+        <span class="chapter-locator">p. 137</span>
       </div>
       <div class="chapter-subtopics">April 2025 MSME Criteria (₹2.5/₹25/₹125 Cr) • Export Turnover Excluded • 9-Core Industries (Iron Ore) • Atomic/Rail Reservation</div>
     </div>
@@ -514,7 +514,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 21</span>
         <span class="chapter-name">Infrastructure, PM GatiShakti &amp; Energy Transition</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 145</span>
+        <span class="chapter-locator">p. 146</span>
       </div>
       <div class="chapter-subtopics">HAM (40% Cash / NHAI Traffic Risk) • National Logistics Policy • COP26 Panchamrit (2070 Net-Zero) • Carbon Market</div>
     </div>
@@ -529,7 +529,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 22</span>
         <span class="chapter-name">Economic Planning History, Five-Year Plans &amp; NITI Aayog</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 153</span>
+        <span class="chapter-locator">p. 155</span>
       </div>
       <div class="chapter-subtopics">Planning Commission History • NITI Aayog Think-Tank Architecture • 112 Aspirational Districts (3Cs)</div>
     </div>
@@ -538,7 +538,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 23</span>
         <span class="chapter-name">Labor Law Architecture, IR &amp; Four New Labor Codes</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 160</span>
+        <span class="chapter-locator">p. 162</span>
       </div>
       <div class="chapter-subtopics">21 Nov 2025 Implementation • 50% Wage-Allowance Rule • 300-Worker Retrenchment • 1-Year FTE Gratuity • Gig Fund</div>
     </div>
@@ -547,7 +547,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 24</span>
         <span class="chapter-name">Urbanization, Demographic Transition &amp; Migration</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 167</span>
+        <span class="chapter-locator">p. 169</span>
       </div>
       <div class="chapter-subtopics">Census Towns (5000 / 75% Non-Agri / 400 density) • Census 2011 (31.16% Urban) • Harris-Todaro Model</div>
     </div>
@@ -556,7 +556,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 25</span>
         <span class="chapter-name">Social Structure, Multiculturalism, Secularism &amp; Pluralism</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 172</span>
+        <span class="chapter-locator">p. 174</span>
       </div>
       <div class="chapter-subtopics">Kymlicka Group Rights • Principled Distance Secularism • 11 Classical Languages • Articles 15, 25-30 • Affirmative Action</div>
     </div>
@@ -571,7 +571,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 26</span>
         <span class="chapter-name">The Grand Synthesis: Master Revision &amp; Diagnostic Vault</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 177</span>
+        <span class="chapter-locator">p. 179</span>
       </div>
       <div class="chapter-subtopics">60-Second Skeletons (Ch 01-27) • 10 Comparative Matrices • 35 Traps • 72 Recall Cards • Multi-Exam PYQ Matrix</div>
     </div>
@@ -586,7 +586,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 27</span>
         <span class="chapter-name">Economy of Rajasthan: GSDP, Sectors, Infrastructure &amp; Reforms</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 197</span>
+        <span class="chapter-locator">p. 199</span>
       </div>
       <div class="chapter-subtopics">2025–26 AE GSDP (₹18.75L Cr) / PCI (₹2.02L) • 6th SFC • IGNP &amp; ERCP/PKC • RIICO / RIPS 2024 • HRRL (9 MMTPA) • Solar #1 • Welfare &amp; Farmer Schemes</div>
     </div>
