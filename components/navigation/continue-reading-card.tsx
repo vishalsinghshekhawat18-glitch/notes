@@ -42,7 +42,7 @@ export function ContinueReadingCard() {
       <div className="space-y-1">
         <div className="flex items-center gap-2 text-[11px] font-mono font-semibold text-[#143227] uppercase tracking-wider">
           <span className="w-2 h-2 rounded-full bg-[#c25e2e] animate-pulse" />
-          <span>▲ Resume Reading Trail</span>
+          <span>Resume Reading Trail</span>
           <span className="text-stone-300">•</span>
           <span className="text-stone-600 font-medium">{position.subjectName}</span>
         </div>

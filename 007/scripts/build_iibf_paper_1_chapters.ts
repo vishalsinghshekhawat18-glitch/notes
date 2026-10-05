@@ -52,110 +52,128 @@ export const IIBF_PAPER_1_REGISTRY: ChapterMeta[] = [
   },
   {
     index: 7,
-    filename: '07_CHAPTER_07_FUNDAMENTALS_ECONOMICS_MARKET_STRUCTURES.md',
-    shortHeader: 'CHAPTER 07 : MARKET STRUCTURES & PRICE THEORIES',
-    fullTitle: 'FUNDAMENTALS OF ECONOMICS & MARKET STRUCTURES',
+    filename: '07_CHAPTER_07_ECONOMIC_REFORMS_ISSUES_INDIAN_ECONOMY.md',
+    shortHeader: 'CHAPTER 07 : ECONOMIC REFORMS & STRUCTURAL ISSUES',
+    fullTitle: 'ECONOMIC REFORMS & ISSUES FACING THE INDIAN ECONOMY',
   },
   {
     index: 8,
-    filename: '08_CHAPTER_08_DEMAND_SUPPLY_ELASTICITY_FORMULAS.md',
-    shortHeader: 'CHAPTER 08 : DEMAND, SUPPLY & ELASTICITY',
-    fullTitle: 'LAW OF DEMAND, SUPPLY & ELASTICITY FORMULAS',
+    filename: '08_CHAPTER_08_FUNDAMENTALS_ECONOMICS_MARKET_STRUCTURES.md',
+    shortHeader: 'CHAPTER 08 : MARKET STRUCTURES & PRICE THEORIES',
+    fullTitle: 'FUNDAMENTALS OF ECONOMICS & MARKET STRUCTURES',
   },
   {
     index: 9,
-    filename: '09_CHAPTER_09_NATIONAL_INCOME_ACCOUNTING_GVA_DEFLATOR.md',
-    shortHeader: 'CHAPTER 09 : NATIONAL INCOME & GVA METHODOLOGY',
-    fullTitle: 'NATIONAL INCOME ACCOUNTING, GVA & GDP DEFLATOR',
+    filename: '09_CHAPTER_09_DEMAND_SUPPLY_ELASTICITY_FORMULAS.md',
+    shortHeader: 'CHAPTER 09 : DEMAND, SUPPLY & ELASTICITY',
+    fullTitle: 'LAW OF DEMAND, SUPPLY & ELASTICITY FORMULAS',
   },
   {
     index: 10,
-    filename: '10_CHAPTER_10_MONEY_SUPPLY_AGGREGATES_INFLATION.md',
-    shortHeader: 'CHAPTER 10 : MONEY SUPPLY AGGREGATES & INFLATION',
-    fullTitle: 'MONEY SUPPLY MEASURES (M0-M4, L1-L3) & INFLATION',
+    filename: '10_CHAPTER_10_NATIONAL_INCOME_ACCOUNTING_GVA_DEFLATOR.md',
+    shortHeader: 'CHAPTER 10 : NATIONAL INCOME & GVA METHODOLOGY',
+    fullTitle: 'NATIONAL INCOME ACCOUNTING, GVA & GDP DEFLATOR',
   },
   {
     index: 11,
-    filename: '11_CHAPTER_11_THEORIES_OF_INTEREST_KEYNES_IS_LM_CURVE.md',
-    shortHeader: 'CHAPTER 11 : THEORIES OF INTEREST & IS-LM CURVE',
-    fullTitle: 'THEORIES OF INTEREST, LIQUIDITY PREFERENCE & IS-LM CURVE',
+    filename: '11_CHAPTER_11_MONEY_SUPPLY_AGGREGATES_INFLATION.md',
+    shortHeader: 'CHAPTER 11 : MONEY SUPPLY AGGREGATES & INFLATION',
+    fullTitle: 'MONEY SUPPLY MEASURES (M0-M4, L1-L3) & INFLATION',
   },
   {
     index: 12,
-    filename: '12_CHAPTER_12_BUSINESS_CYCLES_MONETARY_FISCAL_UNION_BUDGET.md',
-    shortHeader: 'CHAPTER 12 : BUSINESS CYCLES & UNION BUDGET',
-    fullTitle: 'BUSINESS CYCLES, MONETARY POLICY & THE UNION BUDGET',
+    filename: '12_CHAPTER_12_THEORIES_OF_INTEREST_KEYNES_IS_LM_CURVE.md',
+    shortHeader: 'CHAPTER 12 : THEORIES OF INTEREST & IS-LM CURVE',
+    fullTitle: 'THEORIES OF INTEREST, LIQUIDITY PREFERENCE & IS-LM CURVE',
   },
   {
     index: 13,
-    filename: '13_CHAPTER_13_INDIAN_FINANCIAL_SYSTEM_REFORMS_NARASIMHAM.md',
-    shortHeader: 'CHAPTER 13 : FINANCIAL SYSTEM & BANKING REFORMS',
-    fullTitle: 'INDIAN FINANCIAL SYSTEM & NARASIMHAM COMMITTEE REFORMS',
+    filename: '13_CHAPTER_13_BUSINESS_CYCLES_MONETARY_FISCAL_UNION_BUDGET.md',
+    shortHeader: 'CHAPTER 13 : BUSINESS CYCLES & UNION BUDGET',
+    fullTitle: 'BUSINESS CYCLES, MONETARY POLICY & THE UNION BUDGET',
   },
   {
     index: 14,
-    filename: '14_CHAPTER_14_APEX_REGULATORY_HIERARCHY_RBI_SEBI_IRDAI_FSDC.md',
-    shortHeader: 'CHAPTER 14 : APEX REGULATORY HIERARCHY',
-    fullTitle: 'APEX REGULATORY HIERARCHY: RBI, SEBI, IRDAI & FSDC',
+    filename: '14_CHAPTER_14_INDIAN_FINANCIAL_SYSTEM_REFORMS_NARASIMHAM.md',
+    shortHeader: 'CHAPTER 14 : FINANCIAL SYSTEM & BANKING REFORMS',
+    fullTitle: 'INDIAN FINANCIAL SYSTEM & BANKING SECTOR REFORMS',
   },
   {
     index: 15,
-    filename: '15_CHAPTER_15_COMMERCIAL_BANKING_BASEL_III_PCA_FRAMEWORK.md',
-    shortHeader: 'CHAPTER 15 : COMMERCIAL BANKING & BASEL III',
-    fullTitle: 'COMMERCIAL BANKING, BASEL III & PCA FRAMEWORK',
+    filename: '15_CHAPTER_15_APEX_REGULATORY_HIERARCHY_RBI_SEBI_IRDAI_FSDC.md',
+    shortHeader: 'CHAPTER 15 : APEX REGULATORY HIERARCHY',
+    fullTitle: 'APEX REGULATORY HIERARCHY: RBI, SEBI, IRDAI & FSDC',
   },
   {
     index: 16,
-    filename: '16_CHAPTER_16_DIFFERENTIATED_BANKING_RRBS_4_TIER_UCBS.md',
-    shortHeader: 'CHAPTER 16 : RRBS & COOPERATIVE BANKING',
-    fullTitle: 'DIFFERENTIATED BANKING: RRBs & 4-TIER COOPERATIVE BANKS',
+    filename: '16_CHAPTER_16_STATUTORY_FRAMEWORK_RBI_ACT_BR_ACT.md',
+    shortHeader: 'CHAPTER 16 : STATUTORY FRAMEWORK: RBI & BR ACTS',
+    fullTitle: 'STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949',
   },
   {
     index: 17,
-    filename: '17_CHAPTER_17_NBFCS_SCALE_BASED_REGULATION_HFCS_MFIS.md',
-    shortHeader: 'CHAPTER 17 : NBFCS, HFCS & MICROFINANCE',
-    fullTitle: 'NBFCs SCALE-BASED REGULATION, HFCs & MICROFINANCE (MFIs)',
+    filename: '17_CHAPTER_17_COMMERCIAL_BANKING_BASEL_III_PCA_FRAMEWORK.md',
+    shortHeader: 'CHAPTER 17 : COMMERCIAL BANKING & BASEL III',
+    fullTitle: 'COMMERCIAL BANKING, BASEL III & PCA FRAMEWORK',
   },
   {
     index: 18,
-    filename: '18_CHAPTER_18_DFIS_NABFID_FINANCIAL_INCLUSION_NPCI_CBDC.md',
-    shortHeader: 'CHAPTER 18 : DFIS, FINANCIAL INCLUSION & DIGITAL RAILS',
-    fullTitle: 'DFIs, NaBFID, FINANCIAL INCLUSION & DIGITAL RAILS (CBDC)',
+    filename: '18_CHAPTER_18_DIFFERENTIATED_BANKING_RRBS_4_TIER_UCBS.md',
+    shortHeader: 'CHAPTER 18 : RRBS & COOPERATIVE BANKING',
+    fullTitle: 'DIFFERENTIATED BANKING: RRBs & 4-TIER COOPERATIVE BANKS',
   },
   {
     index: 19,
-    filename: '19_CHAPTER_19_MONEY_MARKET_CALL_TBILLS_CP_CD_TREPS.md',
-    shortHeader: 'CHAPTER 19 : MONEY MARKET & LIQUIDITY ASSETS',
-    fullTitle: 'MONEY MARKET ARCHITECTURE: CALL, T-BILLS, CP, CD & TREPS',
+    filename: '19_CHAPTER_19_NBFCS_SCALE_BASED_REGULATION_HFCS_MFIS.md',
+    shortHeader: 'CHAPTER 19 : NBFCS, HFCS & MICROFINANCE',
+    fullTitle: 'NBFCs SCALE-BASED REGULATION, HFCs & MICROFINANCE (MFIs)',
   },
   {
     index: 20,
-    filename: '20_CHAPTER_20_CAPITAL_MARKETS_STOCK_EXCHANGES_GSECS_BOND_YIELDS.md',
-    shortHeader: 'CHAPTER 20 : CAPITAL MARKETS & G-SECS',
-    fullTitle: 'CAPITAL MARKETS, STOCK EXCHANGES, G-SECS & BOND YIELDS',
+    filename: '20_CHAPTER_20_DFIS_NABFID_FINANCIAL_INCLUSION_NPCI_CBDC.md',
+    shortHeader: 'CHAPTER 20 : DFIS, FINANCIAL INCLUSION & DIGITAL RAILS',
+    fullTitle: 'DFIs, NaBFID, FINANCIAL INCLUSION & DIGITAL RAILS',
   },
   {
     index: 21,
-    filename: '21_CHAPTER_21_DERIVATIVES_FOREX_FEMA_NRI_ACCOUNTS.md',
-    shortHeader: 'CHAPTER 21 : DERIVATIVES & FOREX ARCHITECTURE',
-    fullTitle: 'FINANCIAL DERIVATIVES, FOREX, FEMA & NRI ACCOUNTS',
+    filename: '21_CHAPTER_21_MONEY_MARKET_CALL_TBILLS_CP_CD_TREPS.md',
+    shortHeader: 'CHAPTER 21 : MONEY MARKET & LIQUIDITY ASSETS',
+    fullTitle: 'MONEY MARKET ARCHITECTURE: CALL, T-BILLS, CP, CD & TREPS',
   },
   {
     index: 22,
-    filename: '22_CHAPTER_22_MUTUAL_FUNDS_AIFS_REITS_FACTORING_TREDS.md',
-    shortHeader: 'CHAPTER 22 : MUTUAL FUNDS, REITS & TREDS',
-    fullTitle: 'MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS',
+    filename: '22_CHAPTER_22_CAPITAL_MARKETS_STOCK_EXCHANGES_GSECS_BOND_YIELDS.md',
+    shortHeader: 'CHAPTER 22 : CAPITAL MARKETS & G-SECS',
+    fullTitle: 'CAPITAL MARKETS, STOCK EXCHANGES, G-SECS & BOND YIELDS',
   },
   {
     index: 23,
-    filename: '23_CHAPTER_23_PARABANKING_INSURANCE_PENSION_LEASING_CRAS.md',
-    shortHeader: 'CHAPTER 23 : PARA-BANKING, INSURANCE & CRAS',
-    fullTitle: 'PARA-BANKING, INSURANCE, PENSION (NPS), LEASING & CRAs',
+    filename: '23_CHAPTER_23_DERIVATIVES_FOREX_FEMA_NRI_ACCOUNTS.md',
+    shortHeader: 'CHAPTER 23 : DERIVATIVES & FOREX ARCHITECTURE',
+    fullTitle: 'FINANCIAL DERIVATIVES, FOREX, FEMA & NRI ACCOUNTS',
   },
   {
     index: 24,
-    filename: '24_CHAPTER_24_THE_GRAND_SYNTHESIS_MASTER_REVISION_VAULT.md',
-    shortHeader: 'CHAPTER 24 : THE GRAND SYNTHESIS REVISION VAULT',
+    filename: '24_CHAPTER_24_INTERCONNECTEDNESS_AND_MERCHANT_BANKING.md',
+    shortHeader: 'CHAPTER 24 : MARKET INTERCONNECTION & MERCHANT BANKING',
+    fullTitle: 'FINANCIAL MARKET INTERCONNECTEDNESS & MERCHANT BANKING',
+  },
+  {
+    index: 25,
+    filename: '25_CHAPTER_25_MUTUAL_FUNDS_AIFS_REITS_FACTORING_TREDS.md',
+    shortHeader: 'CHAPTER 25 : MUTUAL FUNDS, REITS & TREDS',
+    fullTitle: 'MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS',
+  },
+  {
+    index: 26,
+    filename: '26_CHAPTER_26_PARABANKING_INSURANCE_PENSION_CRAS.md',
+    shortHeader: 'CHAPTER 26 : PARA-BANKING, INSURANCE & PENSIONS',
+    fullTitle: 'PARA-BANKING, INSURANCE, PENSION, LEASING & CRAs',
+  },
+  {
+    index: 27,
+    filename: '27_CHAPTER_27_THE_GRAND_SYNTHESIS_MASTER_REVISION_VAULT.md',
+    shortHeader: 'CHAPTER 27 : THE GRAND SYNTHESIS REVISION VAULT',
     fullTitle: 'THE GRAND SYNTHESIS: IIBF PAPER 1 MASTER REVISION VAULT',
   },
 ];
@@ -372,11 +390,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -415,11 +429,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -458,11 +468,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -920,7 +926,7 @@ export async function main() {
   const katexCss = fs.existsSync(katexCssPath) ? fs.readFileSync(katexCssPath, 'utf-8') : '';
 
   console.log(`\n======================================================`);
-  console.log(`BATCH COMPILING ALL 24 CHAPTERS FOR IIBF PAPER 1 (IE&IFS)`);
+  console.log(`BATCH COMPILING ALL 27 CHAPTERS FOR IIBF PAPER 1 (IE&IFS)`);
   console.log(`======================================================`);
 
   for (const meta of IIBF_PAPER_1_REGISTRY) {
@@ -936,7 +942,7 @@ export async function main() {
     console.log(`  -> Finished ${pdfName} (${(stats.size / 1024).toFixed(1)} KB)`);
   }
 
-  console.log(`\n✓ All 24 chapters compiled successfully into ${outChaptersDir}!`);
+  console.log(`\n✓ All 27 chapters compiled successfully into ${outChaptersDir}!`);
 }
 
 if (process.argv[1] && (process.argv[1].includes('build_iibf_paper_1_chapters.ts') || process.argv[1].includes('build_iibf_paper_1_chapters'))) {

@@ -382,66 +382,16 @@ export function ScholarlyLibraryHome() {
             </div>
           </div>
 
-          {/* Desktop 12-Column Grid: Commanding Title & Archival Accession Register */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-end min-w-0">
-            
-            {/* Left 7 Cols: Institutional Opening */}
-            <div className="lg:col-span-7 space-y-5 min-w-0">
-              <h1 className="font-serif font-bold text-3xl sm:text-5xl lg:text-6xl text-[#FAF8F3] tracking-tight leading-[1.08]">
-                A Sovereign Scholarly Library
-              </h1>
-              <p className="font-serif text-base sm:text-xl text-[#D5DDD6] leading-relaxed max-w-2xl">
-                Ten canonical master treatises codified across {totalChapters} curriculum chapters and {totalMCQs.toLocaleString()} curated practice questions. Grounded in primary statutory bare acts, official inquiry reports, and authoritative university courseware.
-              </p>
-              <div className="pt-2 text-xs sm:text-sm font-serif italic text-[#C59B4B] max-w-xl">
-                &ldquo;Conceived and codified as an enduring intellectual sanctuary overlooking the ancient Aravalli ranges.&rdquo;
-              </div>
-            </div>
-
-            {/* Right 5 Cols: The Archival Accession Ledger Tablet */}
-            <div className="lg:col-span-5 rounded-2xl bg-[#133428]/85 border border-[#234A3C] p-5 sm:p-6 backdrop-blur-xs space-y-4 shadow-lg">
-              <div className="flex items-center justify-between text-[11px] font-mono uppercase tracking-widest text-[#A1B8A9] border-b border-[#1E3A2E] pb-2.5">
-                <span>Accession Register</span>
-                <span className="text-[#C59B4B] font-semibold">Audited Corpus</span>
-              </div>
-
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs font-mono">
-                <div className="p-3 rounded-xl bg-[#0E271F] border border-[#1E3A2E]">
-                  <span className="text-[10px] text-[#A1B8A9] uppercase">Domains</span>
-                  <div className="font-serif text-xl font-bold text-[#FAF8F3] mt-0.5">5</div>
-                  <span className="text-[10px] text-[#C59B4B]">Knowledge Wings</span>
-                </div>
-
-                <div className="p-3 rounded-xl bg-[#0E271F] border border-[#1E3A2E]">
-                  <span className="text-[10px] text-[#A1B8A9] uppercase">Treatises</span>
-                  <div className="font-serif text-xl font-bold text-[#FAF8F3] mt-0.5">10</div>
-                  <span className="text-[10px] text-[#C59B4B]">Master Codices</span>
-                </div>
-
-                <div className="p-3 rounded-xl bg-[#0E271F] border border-[#1E3A2E]">
-                  <span className="text-[10px] text-[#A1B8A9] uppercase">Chapters</span>
-                  <div className="font-serif text-xl font-bold text-[#FAF8F3] mt-0.5">{totalChapters}</div>
-                  <span className="text-[10px] text-[#C59B4B]">Full Curriculum</span>
-                </div>
-
-                <div className="p-3 rounded-xl bg-[#0E271F] border border-[#1E3A2E]">
-                  <span className="text-[10px] text-[#A1B8A9] uppercase">Questions</span>
-                  <div className="font-serif text-xl font-bold text-[#FAF8F3] mt-0.5">{totalMCQs.toLocaleString()}</div>
-                  <span className="text-[10px] text-[#C59B4B]">Practice MCQs</span>
-                </div>
-
-                <div className="p-3 rounded-xl bg-[#0E271F] border border-[#1E3A2E]">
-                  <span className="text-[10px] text-[#A1B8A9] uppercase">Synthesis</span>
-                  <div className="font-serif text-xl font-bold text-[#FAF8F3] mt-0.5">600K+</div>
-                  <span className="text-[10px] text-[#C59B4B]">Compiled Words</span>
-                </div>
-
-                <div className="p-3 rounded-xl bg-[#0E271F] border border-[#1E3A2E]">
-                  <span className="text-[10px] text-[#A1B8A9] uppercase">Sources</span>
-                  <div className="font-serif text-xs font-bold text-[#FAF8F3] mt-1 leading-snug">Bare Acts</div>
-                  <span className="text-[10px] text-[#C59B4B]">Zero Abridgement</span>
-                </div>
-              </div>
+          {/* Institutional Opening Header */}
+          <div className="space-y-6 max-w-4xl min-w-0">
+            <h1 className="font-serif font-bold text-3xl sm:text-5xl lg:text-6xl text-[#FAF8F3] tracking-tight leading-[1.08]">
+              A Sovereign Scholarly Library
+            </h1>
+            <p className="font-serif text-base sm:text-xl text-[#D5DDD6] leading-relaxed max-w-3xl">
+              Ten canonical master treatises codified across {totalChapters} curriculum chapters and {totalMCQs.toLocaleString()} curated practice questions. Grounded in primary statutory bare acts, official inquiry reports, and authoritative university courseware.
+            </p>
+            <div className="pt-1 text-xs sm:text-sm font-serif italic text-[#C59B4B] max-w-xl">
+              &ldquo;Conceived and codified as an enduring intellectual sanctuary overlooking the ancient Aravalli ranges.&rdquo;
             </div>
           </div>
         </div>
@@ -460,7 +410,7 @@ export function ScholarlyLibraryHome() {
           {/* Active Reading Identification */}
           <div className="flex items-start sm:items-center gap-5 min-w-0 flex-1">
             <div className="w-14 h-14 rounded-2xl bg-[#10251F] text-[#FAF8F3] border border-[#1E3A2E] flex items-center justify-center font-serif text-2xl font-bold shrink-0 shadow-2xs">
-              {savedPosition ? '🔖' : '▲'}
+              {savedPosition ? '🔖' : '📖'}
             </div>
 
             <div className="min-w-0 flex-1 space-y-2">
@@ -1464,7 +1414,6 @@ export function ScholarlyLibraryHome() {
           ========================================================================= */}
       <footer className="pt-12 sm:pt-16 pb-6 text-center text-xs font-mono text-[#5A7365] space-y-3 border-t border-[#E0D9CB] w-full min-w-0">
         <div className="flex items-center justify-center gap-2 text-[#10251F] font-serif font-bold text-base sm:text-lg">
-          <span>▲</span>
           <span>Mind of Aravalli</span>
           <span className="text-[#C5BEAF]">•</span>
           <span>Sovereign Knowledge Library</span>

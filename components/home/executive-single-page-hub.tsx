@@ -393,7 +393,7 @@ export function ExecutiveSinglePageHub() {
         {/* Left: Library Emblem & Archival Declaration */}
         <div className="flex items-center gap-3.5 min-w-0">
           <div className="w-8 h-8 rounded-md bg-[#10251F] text-[#FAF9F4] border border-[#173A2F] flex items-center justify-center font-serif text-sm font-bold shrink-0 shadow-xs">
-            ▲
+            🏛️
           </div>
           <div className="min-w-0">
             <div className="flex items-center gap-2">

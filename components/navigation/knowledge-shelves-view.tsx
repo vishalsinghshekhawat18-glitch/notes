@@ -569,7 +569,7 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#e5dfd3] pb-3">
         <div className="flex items-center gap-2">
           <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#143227]">
-            ▲ Ridge Shelves
+            Ridge Shelves
           </span>
           <span className="text-xs text-stone-300 font-mono">•</span>
           <span className="text-xs text-stone-600 font-mono">

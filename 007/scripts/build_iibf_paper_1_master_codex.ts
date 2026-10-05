@@ -5,30 +5,33 @@ import { execSync } from 'child_process';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 
 export const EXACT_TOC_MAPPING_IIBF = [
-  { ch: 1, start: 1, end: 6, pages: 6, title: "Overview of Indian Economy & Demographic Transition", sub: "Pre-1947 to Post-1991 • 4-Stage DTM • 1921 Great Divide • Stage 3 Window" },
-  { ch: 2, start: 7, end: 9, pages: 3, title: "Sectoral Architecture: Primary, Secondary & Tertiary", sub: "Leapfrogging Anomaly • 17% Agri / 45% Workforce • Disguised Unemployment • NMP" },
-  { ch: 3, start: 10, end: 11, pages: 2, title: "Economic Planning Architecture & NITI Aayog Strategy", sub: "FYPs History • NITI Aayog Think-Tank • Governing Council • Aspirational Districts" },
-  { ch: 4, start: 12, end: 14, pages: 3, title: "Priority Sector Lending (PSL) & MSME Architecture", sub: "40% Domestic vs 75% RRB/SFB Targets • 18% Agri • MSME 2020 Criteria (Excl Exports)" },
-  { ch: 5, start: 15, end: 18, pages: 4, title: "Infrastructure, Logistics & Climate SDGs", sub: "NIP • PM GatiShakti • HAM Risk Allocation (40% Govt / 100% Traffic Risk) • CSR §135" },
-  { ch: 6, start: 19, end: 22, pages: 4, title: "Globalization, Foreign Trade Policy & Global Institutions", sub: "FTP 2023 $2T Target • Special Rupee Vostro • IMF SDR • World Bank • WTO AoA Boxes" },
-  { ch: 7, start: 23, end: 24, pages: 2, title: "Fundamentals of Economics & Market Structures", sub: "Perfect Competition (P=AR=MR) • Pure Monopoly • Sweezy Kinked Demand in Oligopoly" },
-  { ch: 8, start: 25, end: 26, pages: 2, title: "Law of Demand, Supply & Elasticity Formulas", sub: "Point Price Elasticity • Cross-Price Substitutes/Complements • Income Elasticity" },
-  { ch: 9, start: 27, end: 28, pages: 2, title: "National Income Accounting, GVA & GDP Deflator", sub: "2015 NSO Methodology (Base 2011-12) • Basic Price vs Market Price • ICOR Formula" },
-  { ch: 10, start: 29, end: 31, pages: 3, title: "Money Supply Measures (M0-M4, L1-L3) & Inflation", sub: "RBI §33 Minimum Reserve • M0, M1, M3 • Money Multiplier m=(1+c)/(c+r) • CPI vs WPI" },
-  { ch: 11, start: 32, end: 35, pages: 4, title: "Theories of Interest, Liquidity Preference & IS-LM Curve", sub: "Keynes 3 Motives • Speculative Liquidity Trap • IS Goods & LM Money Equilibrium" },
-  { ch: 12, start: 36, end: 40, pages: 5, title: "Business Cycles, Monetary Policy & The Union Budget", sub: "4 Phases • 50 bps LAF Corridor • Fiscal vs Primary Deficits • Articles 266 & 267" },
-  { ch: 13, start: 41, end: 43, pages: 3, title: "Indian Financial System & Narasimham Committee Reforms", sub: "4 Pillars • Narasimham I (1991) 8% CAR, 90-Day NPA • Narasimham II (1998) Reforms" },
-  { ch: 14, start: 44, end: 45, pages: 2, title: "Apex Regulatory Hierarchy: RBI, SEBI, IRDAI & FSDC", sub: "RBI Act 1934 • SEBI 1992 • IRDAI Hyderabad 1999 • IFSCA GIFT City • FSDC Chair" },
-  { ch: 15, start: 46, end: 48, pages: 3, title: "Commercial Banking, Basel III & PCA Framework", sub: "Indian 11.5% CRAR (8% Tier 1 + 2.5% CCB) • LCR & NSFR • PCA Triggers (NPA ≥ 6%)" },
-  { ch: 16, start: 49, end: 51, pages: 3, title: "Differentiated Banking: RRBs & 4-Tier Cooperative Banks", sub: "RRB 50:15:35 Shareholding • 75% PSL • BR Amendment 2020 • 4-Tier UCB Framework" },
-  { ch: 17, start: 52, end: 54, pages: 3, title: "NBFCs Scale-Based Regulation, HFCs & Microfinance (MFIs)", sub: "SBR (Base, Middle, Upper, Top) • HFCs under RBI • Microfinance 2022 Directions" },
-  { ch: 18, start: 55, end: 58, pages: 4, title: "DFIs, NaBFID, Financial Inclusion & Digital Rails (CBDC)", sub: "NaBFID Act 2021 (₹20,000 Cr Equity) • PMJDY ₹10K OD • FI-Index • NPCI & e-Rupee" },
-  { ch: 19, start: 59, end: 61, pages: 3, title: "Money Market Architecture: Call, T-Bills, CP, CD & TREPS", sub: "Call (1D) vs Notice (2-14D) vs Term • T-Bills (91/182/364D) • CP ₹5L • CD ₹1L" },
-  { ch: 20, start: 62, end: 65, pages: 4, title: "Capital Markets, Stock Exchanges, G-Secs & Bond Yields", sub: "Primary vs Secondary • NSDL/CDSL • Inverse Price-Yield Rule • Modified Duration" },
-  { ch: 21, start: 66, end: 68, pages: 3, title: "Financial Derivatives, Forex, FEMA & NRI Accounts", sub: "Forwards vs Futures • Options Greeks • FEMA 1999 • NRE vs NRO vs FCNR(B) Risk" },
-  { ch: 22, start: 69, end: 73, pages: 5, title: "Mutual Funds, AIFs, REITs, Factoring & TReDS", sub: "NAV Computation • AIF Cat I/II/III • REITs/InvITs • Factoring vs Forfaiting • TReDS" },
-  { ch: 23, start: 74, end: 80, pages: 7, title: "Para-Banking, Insurance, Pension (NPS), Leasing & CRAs", sub: "Bancassurance • Bima Trinity • NPS Tier-I vs Tier-II • CRAs vs CICs (300-900)" },
-  { ch: 24, start: 81, end: 84, pages: 4, title: "The Grand Synthesis: IIBF Paper 1 Master Revision Vault", sub: "23 Chapter Skeletons • 10 Comparison Matrices • 50 Examiner Traps • Active Recall" },
+  { ch: 1, start: 1, end: 3, pages: 3, title: "Overview of Indian Economy & Demographic Transition", sub: "Pre-1947 to Post-1991 • 4-Stage DTM • 1921 Great Divide • Stage 3 Window • 2008 GFC Resilience" },
+  { ch: 2, start: 4, end: 6, pages: 3, title: "Sectoral Architecture: Primary, Secondary & Tertiary", sub: "Leapfrogging Anomaly • 18% Agri / 46% Workforce • Disguised Unemployment • NMP Core Architecture" },
+  { ch: 3, start: 7, end: 10, pages: 4, title: "Economic Planning Architecture & NITI Aayog Strategy", sub: "12 FYPs History • Harrod-Domar & PC Mahalanobis • NITI Aayog Think-Tank • Zero Financial Grants" },
+  { ch: 4, start: 11, end: 14, pages: 4, title: "Priority Sector Lending (PSL) & MSME Architecture", sub: "PSL 2025 Targets (UCB 60%, SFB/RRB 75%) • 18% Agri / 10% SMF • April 2025 MSME Criteria • 3x Penalty" },
+  { ch: 5, start: 15, end: 18, pages: 4, title: "Infrastructure, Logistics & Climate SDGs", sub: "NIP ₹111L Cr • PM GatiShakti • HAM 40% Grant / 100% Traffic Risk • COP26 Panchamrit 2070 • CSR §135" },
+  { ch: 6, start: 19, end: 23, pages: 5, title: "Globalization, Foreign Trade Policy & Global Institutions", sub: "FTP 2023 $2T Target • Special Rupee Vostro (SRVA) • IMF SDR Basket • World Bank Arms • WTO AoA Boxes" },
+  { ch: 7, start: 24, end: 28, pages: 5, title: "Economic Reforms & Issues Facing the Indian Economy", sub: "1991 LPG Balance-of-Payments Crisis • Tendulkar vs Rangarajan Poverty Lines • NITI MPI • Jobless Growth" },
+  { ch: 8, start: 29, end: 31, pages: 3, title: "Fundamentals of Economics & Market Structures", sub: "Positive vs Normative • 4 Market Structures • Sweezy Kinked Demand Curve • Pigou Price Discrimination" },
+  { ch: 9, start: 32, end: 35, pages: 4, title: "Law of Demand, Supply & Elasticity Formulas", sub: "Point & Arc Elasticity • Marshall Outlay Method • Cross-Price Substitutes/Complements • Income Elasticity" },
+  { ch: 10, start: 36, end: 39, pages: 4, title: "National Income Accounting, GVA & GDP Deflator", sub: "MoSPI New Series Base 2022-23 (27 Feb 2026) • 2011-12 Historical • GVA Basic Price vs GDP • ICOR Formula" },
+  { ch: 11, start: 40, end: 42, pages: 3, title: "Money Supply Measures (M0-M4, L1-L3) & Inflation", sub: "RBI §33 Minimum Reserve System • M0 to M4 & NM1 to NM3 • Money Multiplier • CPI 4%±2% Anchor vs WPI" },
+  { ch: 12, start: 43, end: 47, pages: 5, title: "Theories of Interest, Liquidity Preference & IS-LM Curve", sub: "Classical Real vs Keynesian Monetary Theory • Liquidity Trap • Hicks-Hansen IS-LM Simultaneous Equilibrium" },
+  { ch: 13, start: 48, end: 51, pages: 4, title: "Business Cycles, Monetary Policy & The Union Budget", sub: "4 Cycle Phases • RBI MPC §45ZB • 50 bps LAF Corridor • SDF & MSF • Union Budget Deficit Metrics" },
+  { ch: 14, start: 52, end: 55, pages: 4, title: "Indian Financial System & Banking Sector Reforms", sub: "4 Pillars • Narasimham I & II • Bad Bank NARCL (51% PSB) & IDRCL • 15:85 SRs • EASE 1.0 to 7.0" },
+  { ch: 15, start: 56, end: 58, pages: 3, title: "Apex Regulatory Hierarchy: RBI, SEBI, IRDAI & FSDC", sub: "RBI Act 1934 • SEBI 1992 • IRDAI Hyderabad 1999 • PFRDA • IFSCA GIFT City Remit • FSDC Structure" },
+  { ch: 16, start: 59, end: 64, pages: 6, title: "Statutory Framework: RBI Act, 1934 & BR Act, 1949", sub: "RBI Act Chapters I-V & Schedules • BR Act 1949 Sections 1-56 Exhaustive Indexed Statutory Reference Map" },
+  { ch: 17, start: 65, end: 68, pages: 4, title: "Commercial Banking, Basel III & PCA Framework", sub: "Commercial Banks • Indian CRAR 11.5% (9% Tier 1 + 2.5% CCB) • LCR/NSFR 100% • PCA Net NPA ≥ 6% Trigger" },
+  { ch: 18, start: 69, end: 71, pages: 3, title: "Differentiated Banking: RRBs & 4-Tier Cooperative Banks", sub: "RRBs 50:15:35 Equity • 75% PSL • 4-Tier UCB Architecture (60% PSL) • SFBs ₹25L Quota • Payment Banks" },
+  { ch: 19, start: 72, end: 75, pages: 4, title: "NBFCs Scale-Based Regulation, HFCs & Microfinance (MFIs)", sub: "SBR (Base, Middle, Upper, Top 10 Rule) • HFCs under RBI • Microfinance 2022 Directions (₹3L Cap, 0% Prepay)" },
+  { ch: 20, start: 76, end: 79, pages: 4, title: "DFIs, NaBFID, Financial Inclusion & Digital Rails", sub: "DFI Evolution (IFCI, ICICI, IDBI) • NaBFID Act 2021 (₹20,000 Cr Capital) • PMJDY ₹10K OD • FI-Index • CBDC" },
+  { ch: 21, start: 80, end: 84, pages: 5, title: "Money Market Architecture: Call, T-Bills, CP, CD & TREPS", sub: "Call/Notice/Term • T-Bills (91/182/364D) • CP ₹5L • CD ₹5L (RBI CD Directions) • TREPS CCIL • BRDS & TLTRO" },
+  { ch: 22, start: 85, end: 89, pages: 5, title: "Capital Markets, Stock Exchanges, G-Secs & Bond Yields", sub: "Primary & Secondary • ASBA & T+1 • G-Secs Yield Dynamics • Modified Duration • FIMMDA MTM • Retail Direct" },
+  { ch: 23, start: 90, end: 94, pages: 5, title: "Financial Derivatives, Forex, FEMA & NRI Accounts", sub: "Options Greeks • CDS ISDA • Spot T+2 • NRE Tax-Free Repatriable • NRO $1M Cap Taxable • FCNR(B) Zero FX Risk" },
+  { ch: 24, start: 95, end: 99, pages: 5, title: "Financial Market Interconnectedness & Merchant Banking", sub: "Treasury 4 Desks • Contagion Spillover • SEBI MB Regs 1992 (4 Cats, Cat I ₹5 Cr NW, Prohibitions)" },
+  { ch: 25, start: 100, end: 104, pages: 5, title: "Mutual Funds, AIFs, REITs, Factoring & TReDS", sub: "NAV Computation • AIF Cat I/II/III • REITs/InvITs 80:90 Rule • Factoring vs Forfaiting • Ind AS 116 Leasing" },
+  { ch: 26, start: 105, end: 109, pages: 5, title: "Para-Banking, Insurance, Pension, Leasing & CRAs", sub: "CRAs BBB- Floor • CICs 300-900 • Bancassurance 3+3+3 • NPS Exit (₹5L / ₹2.5L 100% Lump Sum) • APY & UPS" },
+  { ch: 27, start: 110, end: 115, pages: 6, title: "The Grand Synthesis: IIBF Paper 1 Master Revision Vault", sub: "Capstone Revision Matrix • 50 High-Yield Examiner Traps • Formula Index • Diagnostic Active Recall Engine" },
 ];
 
 export function buildFrontMatterHtml(): string {
@@ -222,7 +225,7 @@ export function buildFrontMatterHtml(): string {
 
       <div>
         <div class="edition-banner">
-          <div class="edition-text">FIRST DUPLEX MONOCHROME PRINT EDITION • MACMILLAN 2023 CURRICULUM COMPLIANT</div>
+          <div class="edition-text">SECOND REVISED PRINT EDITION • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
         </div>
         <div class="imprint">PUBLISHED UNDER THE CHARTER OF MIND OF ARAVALLI • SHELF 007 BASTION</div>
       </div>
@@ -244,8 +247,8 @@ export function buildFrontMatterHtml(): string {
         <p><strong>Title:</strong> Indian Economy &amp; Indian Financial System (IE&amp;IFS): Book 02 — Master Curricular Monograph.</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 2).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 1 • Macroeconomics • Banking Law • Financial Markets.</p>
-        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF Macmillan Courseware 2023 Modules A, B, C &amp; D (45 Units).</p>
-        <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.5pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition.</p>
+        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (45 Units).</p>
+        <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.5pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition • 27 Comprehensive Chapters • 115 Body Pages.</p>
       </div>
 
       <div>
@@ -260,23 +263,22 @@ export function buildFrontMatterHtml(): string {
 
 export function buildTableOfContentsHtml(): string {
   let rowsHtml = '';
-  let currentPart = '';
 
   for (const item of EXACT_TOC_MAPPING_IIBF) {
     let partBanner = '';
     if (item.ch === 1) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part I : Module A — Indian Economic Architecture</span><span class="part-tag">Chapters 01 – 06</span></div>`;
-    } else if (item.ch === 7) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part II : Module B — Economic Concepts Related to Banking</span><span class="part-tag">Chapters 07 – 12</span></div>`;
-    } else if (item.ch === 13) {
-      partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part III : Module C — Indian Financial Architecture &amp; Institutions</span><span class="part-tag">Chapters 13 – 18</span></div>`;
-    } else if (item.ch === 19) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Financial Markets, Products &amp; Instruments</span><span class="part-tag">Chapters 19 – 23</span></div>`;
-    } else if (item.ch === 24) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part V : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 24</span></div>`;
+      partBanner = `<div class="part-banner"><span class="part-title">Part I : Module A — Indian Economic Architecture</span><span class="part-tag">Chapters 01 – 07</span></div>`;
+    } else if (item.ch === 8) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part II : Module B — Economic Concepts Related to Banking</span><span class="part-tag">Chapters 08 – 13</span></div>`;
+    } else if (item.ch === 14) {
+      partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part III : Module C — Indian Financial Architecture &amp; Institutions</span><span class="part-tag">Chapters 14 – 20</span></div>`;
+    } else if (item.ch === 21) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Financial Markets, Products &amp; Instruments</span><span class="part-tag">Chapters 21 – 26</span></div>`;
+    } else if (item.ch === 27) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part V : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 27</span></div>`;
     }
 
-    const pageBreak = item.ch === 13 ? `</div><div class="toc-sheet">` : '';
+    const pageBreak = item.ch === 14 ? `</div><div class="toc-sheet">` : '';
 
     rowsHtml += `
       ${pageBreak}
@@ -376,7 +378,7 @@ export function buildTableOfContentsHtml(): string {
     color: #111;
     background: #fff;
     font-size: 9.5pt;
-    line-height: 1.42;
+    line-height: 1.40;
   }
   .toc-wrapper {
     page: toc-page;
@@ -391,7 +393,7 @@ export function buildTableOfContentsHtml(): string {
     border-top: 2.2pt solid #000;
     border-bottom: 0.8pt solid #000;
     padding: 2.5mm 0;
-    margin-bottom: 3.5mm;
+    margin-bottom: 3mm;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -428,8 +430,8 @@ export function buildTableOfContentsHtml(): string {
     border: 1pt solid #000;
     border-left: 3.5pt solid #000;
     padding: 1mm 2.5mm;
-    margin-top: 2.8mm;
-    margin-bottom: 1.5mm;
+    margin-top: 2.5mm;
+    margin-bottom: 1.2mm;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -452,14 +454,14 @@ export function buildTableOfContentsHtml(): string {
     letter-spacing: 0.05em;
   }
   .chapter-row {
-    margin-bottom: 1.5mm;
+    margin-bottom: 1.2mm;
     page-break-inside: avoid;
     break-inside: avoid;
   }
   .chapter-main-line {
     display: flex;
     align-items: baseline;
-    font-size: 9.2pt;
+    font-size: 9.0pt;
   }
   .chapter-num {
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -492,10 +494,10 @@ export function buildTableOfContentsHtml(): string {
     color: #000;
   }
   .chapter-subtopics {
-    font-size: 7.4pt;
+    font-size: 7.2pt;
     color: #444;
     margin-left: 12mm;
-    line-height: 1.28;
+    line-height: 1.25;
     margin-top: 0.2mm;
   }
 </style>
@@ -508,7 +510,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • IIBF DB&amp;F Paper 1</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">24 Chapters • 99 Body Pages</div>
+      <div class="meta-tag">27 Chapters • 115 Body Pages</div>
     </div>
     ${rowsHtml}
   </div>
@@ -522,7 +524,7 @@ export async function assembleContinuousBodyPdf(
   outBodyPdfPath: string
 ): Promise<number> {
   console.log(`\n======================================================`);
-  console.log(`ASSEMBLING CONTINUOUS 99-PAGE BODY FOR IIBF PAPER 1`);
+  console.log(`ASSEMBLING CONTINUOUS 115-PAGE BODY FOR IIBF PAPER 1`);
   console.log(`======================================================`);
 
   const bodyPdf = await PDFDocument.create();
@@ -550,40 +552,24 @@ export async function assembleContinuousBodyPdf(
       const isVersoInChapter = pIdx % 2 === 1;
       const textWidth = font.widthOfTextAtSize(pageNumStr, 11);
 
-      if (map.ch > 1) {
-        if (!isVersoInChapter) {
-          // Recto layout inside chapter file
-          page.drawRectangle({
-            x: 520,
-            y: 5,
-            width: 40,
-            height: 22,
-            color: rgb(1, 1, 1),
-          });
-          page.drawText(pageNumStr, {
-            x: 556.5 - textWidth,
-            y: 9.42,
-            size: 11,
-            font: font,
-            color: rgb(0, 0, 0),
-          });
-        } else {
-          // Verso layout inside chapter file
-          page.drawRectangle({
-            x: 490,
-            y: 5,
-            width: 40,
-            height: 22,
-            color: rgb(1, 1, 1),
-          });
-          page.drawText(pageNumStr, {
-            x: 528.0 - textWidth,
-            y: 9.42,
-            size: 11,
-            font: font,
-            color: rgb(0, 0, 0),
-          });
-        }
+      if (!isVersoInChapter) {
+        // Recto layout inside chapter file (margin-left: 24mm, margin-right: 14mm)
+        page.drawText(pageNumStr, {
+          x: 556.5 - textWidth,
+          y: 9.42,
+          size: 11,
+          font: font,
+          color: rgb(0, 0, 0),
+        });
+      } else {
+        // Verso layout inside chapter file (margin-left: 14mm, margin-right: 24mm)
+        page.drawText(pageNumStr, {
+          x: 528.0 - textWidth,
+          y: 9.42,
+          size: 11,
+          font: font,
+          color: rgb(0, 0, 0),
+        });
       }
 
       bodyPdf.addPage(page);
@@ -635,7 +621,7 @@ export async function mergeFullBookPdf(
     const bodyDoc = await PDFDocument.load(bodyBytes);
     const bodyPages = await mergedPdf.copyPages(bodyDoc, bodyDoc.getPageIndices());
     bodyPages.forEach(p => mergedPdf.addPage(p));
-    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 99)`);
+    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 115)`);
   }
 
   const finalBytes = await mergedPdf.save();
@@ -688,7 +674,7 @@ async function main() {
   console.log(`✓ Table of Contents PDF ready: ${tocPdfPath}`);
 
   // 3. Assemble Continuous Body PDF
-  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_84P_A4_BW.pdf');
+  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_115P_A4_BW.pdf');
   await assembleContinuousBodyPdf(chaptersDir, bodyPdfPath);
 
   // 4. Merge Everything into Master Codex
