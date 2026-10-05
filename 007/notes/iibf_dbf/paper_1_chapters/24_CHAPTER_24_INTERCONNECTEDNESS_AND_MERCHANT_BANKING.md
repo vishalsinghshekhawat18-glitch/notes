@@ -67,6 +67,12 @@ In modern commercial banking, the **Integrated Treasury** consolidates domestic 
   4. *The Sovereign-Bank Nexus ("Doom Loop"):* Commercial banks hold large portfolios of domestic government debt. Sovereign fiscal distress reduces bond values, eroding bank capital; distressed banks then require sovereign capital bailouts, compounding the sovereign crisis.
 • **Macroprudential Mitigants:** Countercyclical Capital Buffer (CCyB), Liquidity Coverage Ratio (LCR), and the RBI Large Exposure Framework (capping exposure to a single counterparty at 20% of Tier 1 capital, extendable to 25% for connected groups).
 
+### 5. Asian Clearing Union (ACU) Architecture
+
+• **Establishment & Institutional Headquarters:** Established in **1974** at the initiative of the United Nations Economic and Social Commission for Asia and the Pacific (**UN-ESCAP**). The permanent Secretariat and headquarters is located in **Tehran, Iran**.  
+• **Member Central Banks:** Central banks of India (RBI), Bangladesh, Bhutan, Iran, Maldives, Myanmar, Nepal, Pakistan, and Sri Lanka.  
+• **Settlement Mechanism & Units:** Provides a multilateral clearing arrangement for settling payments on eligible intra-regional trade transactions among participants on a net basis, conserving foreign exchange. Transacted in **ACU Dollar** (equivalent to USD), **ACU Euro**, and **ACU JPY**. Commercial transactions are routed via Authorized Dealer Category-I banks with final net settlement executed through member central banks.
+
 ---
 
 ## § 24.2 Unit 35: Merchant Banking Services (2026 Regulatory Regime)
@@ -97,9 +103,12 @@ The SEBI (Merchant Bankers) (Amendment) Regulations, 2025 (effective 3 January 2
 | **Category I** | • Can act as **Lead Manager to Public Issues (IPOs / FPOs / Rights)**.<br>• Underwriting of issues.<br>• Corporate financial advisory, capital restructuring, and M&A consultancy.<br>• Portfolio management services (subject to separate SEBI PMS registration). | **₹50 Crore**<br>*(Enhanced from obsolete legacy ₹5 Cr)* | **₹12.5 Crore**<br>*(25% of Net Worth)* |
 | **Category II** | • Can act as **adviser or consultant** to an issue.<br>• Can act as underwriter or portfolio manager.<br>• *Statutory Restriction:* **CANNOT act as Lead Manager** to an issue. | **₹10 Crore**<br>*(Enhanced from obsolete legacy ₹50 Lakh)* | **₹2.5 Crore**<br>*(25% of Net Worth)* |
 
-> **Implementation Timeline & Phased Compliance (SEBI Circulars Jan 2026 & June 2026 Extension):**  
+> **Implementation Timeline & Phased Compliance (SEBI Circulars Jan 2026 & 11 June 2026 Extension):**  
 > • **New Applicants:** Must satisfy the full net worth and liquid net worth requirements immediately upon registration (Category I: ₹50 Crore / ₹12.5 Cr liquid; Category II: ₹10 Crore / ₹2.5 Cr liquid).  
-> • **Existing Registrants:** Subject to phased compliance under the structured transition glide path as amended by SEBI's June 2026 extension circular, giving existing players time to augment capital. The legacy ₹5 Crore threshold is an **obsolete historical figure** and must not be treated as current law.
+> • **Existing Registrants (Glide Path):**  
+>   - **Phase I (Interim Threshold):** Must achieve Net Worth of **₹25 Crore** and Liquid Net Worth of **₹6.25 Crore** by **31 March 2027** (as extended by SEBI Circular dated 11 June 2026).  
+>   - **Phase II (Full Compliance):** Must achieve full compliance (**₹50 Crore** Net Worth / **₹12.5 Crore** Liquid Net Worth for Category I; **₹10 Crore** / **₹2.5 Crore** for Category II) by **2 January 2028**.  
+>   - The legacy ₹5 Crore threshold is an **obsolete historical figure** and must not be treated as current law.
 
 > **Crucial Regulatory Mandate:**  
 > Only a **Category I Merchant Banker** is legally permitted to act as the **Lead Manager** to an Initial Public Offering (IPO) or rights issue on an Indian stock exchange!
@@ -137,6 +146,8 @@ The SEBI (Merchant Bankers) (Amendment) Regulations, 2025 (effective 3 January 2
 4. **Trap — Who Can Act as Lead Manager:** Only **Category I Merchant Bankers** can act as Lead Managers to a public issue. Category II is legally barred from lead management.
 5. **Trap — Minimum Subscription Mandate:** An IPO must achieve at least **90% subscription** of the net offer to the public; otherwise, all application money must be refunded to investors immediately.
 6. **Trap — Treasury Mid-Office Reporting:** The Treasury Mid-Office reports directly to the **Chief Risk Officer (CRO)** or Risk Management Committee, NOT to the Head of Dealing/Treasury.
+7. **Trap — Asian Clearing Union Headquarters:** The ACU permanent Secretariat is located in **Tehran, Iran** (established under UN-ESCAP in 1974), with primary units being the **ACU Dollar and ACU Euro**; it is NOT in Bangkok or Manila.
+8. **Trap — Merchant Banking Transition Timelines:** Under SEBI's 11 June 2026 circular, existing Category I merchant bankers have until **31 March 2027** to reach ₹25 Crore net worth (Phase I) and until **2 January 2028** to reach the full ₹50 Crore net worth (Phase II).
 
 ---
 
@@ -148,7 +159,7 @@ B. Net Worth: ₹10 Crore; Liquid Net Worth: ₹2.5 Crore
 C. Net Worth: ₹25 Crore; Liquid Net Worth: ₹5 Crore  
 D. Net Worth: ₹50 Crore; Liquid Net Worth: ₹12.5 Crore  
 
-**Q2. [PYQ-RECOLLECTED] In a commercial bank's Integrated Treasury organization, which functional unit is independently responsible for calculating Value at Risk (VaR), monitoring stop-loss dealer limits, and reporting directly to the Chief Risk Officer?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] In a commercial bank's Integrated Treasury organization, which functional unit is independently responsible for calculating Value at Risk (VaR), monitoring stop-loss dealer limits, and reporting directly to the Chief Risk Officer?**  
 A. Front Office  
 B. Mid Office  
 C. Back Office  
@@ -160,7 +171,7 @@ B. Category I and Category II
 C. Category II only  
 D. Both Category I and Registered Portfolio Managers  
 
-**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding Merchant Banking in India:**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following statements regarding Merchant Banking in India:**  
 Statement I: Merchant banking institutions are regulated primarily by the Reserve Bank of India under the Banking Regulation Act, 1949.  
 Statement II: Merchant bankers are strictly prohibited from accepting demand or term deposits from the public and from engaging in money lending.  
 Which of the statements given above is/are correct?  

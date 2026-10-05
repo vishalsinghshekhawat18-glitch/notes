@@ -1,4 +1,4 @@
-# ECONOMIC REFORMS & ISSUES FACING THE INDIAN ECONOMY
+﻿# ECONOMIC REFORMS & ISSUES FACING THE INDIAN ECONOMY
 
 The transformation of the Indian economy from a closed, state-directed structure into a dynamic, market-driven emerging market was catalysed by the historic 1991 structural reforms. However, despite rapid aggregate GDP growth, the economy contends with persistent structural challenges including multidimensional poverty, jobless growth, wealth inequality, distress migration, and post-pandemic economic adjustments. This chapter integrates Economic Reforms (Unit 07) and Issues Facing the Indian Economy (Unit 11).
 
@@ -47,7 +47,15 @@ The transformation of the Indian economy from a closed, state-directed structure
 > **Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 11)**  
 > **Core Proposition:** Sustained high aggregate GDP growth coexists with deep structural headwinds: rural-urban consumption divides, multidimensional poverty, informal and jobless growth, wealth concentration, distress migration, and the economic scarring of external shocks.
 
-### 1. Poverty Estimation Methodologies in India
+### 1. Conceptual Foundation: Economic Growth vs. Economic Development
+
+| Parameter | Economic Growth | Economic Development |
+| :--- | :--- | :--- |
+| **Concept & Nature** | **Quantitative:** Purely numeric expansion in real national output over time. | **Qualitative & Multidimensional:** Structural transformation, institutional improvement, and reduction of deprivation. |
+| **Primary Metric** | Real GDP, Real GVA, Per Capita Real National Income. | Human Development Index (HDI), Multidimensional Poverty Index (MPI), Gender Inequality Index (GII). |
+| **Scope & Inclusivity** | Can occur without reducing poverty, inequality, or unemployment ("Jobless Growth"). | Necessarily entails reduction in poverty, equitable wealth distribution, enhanced healthcare, and universal education. |
+
+### 2. Poverty Estimation Methodologies in India
 
 | Committee / Body | Year | Poverty Line Metric & Calorie / Consumption Criterion | Headcount Ratio (HCR) |
 | :--- | :--- | :--- | :--- |
@@ -120,7 +128,7 @@ B. Moving away from calorie anchors to Monthly Per Capita Consumption Expenditur
 C. Using the Multidimensional Poverty Index based on 12 indicators  
 D. Defining poverty exclusively on the ownership of agricultural land  
 
-**Q2. [PYQ-RECOLLECTED] Under the National Multidimensional Poverty Index (MPI) formulated by NITI Aayog, which of the following indicators is an India-specific addition to the global Oxford/UNDP MPI framework?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under the National Multidimensional Poverty Index (MPI) formulated by NITI Aayog, which of the following indicators is an India-specific addition to the global Oxford/UNDP MPI framework?**  
 A. Nutrition  
 B. Years of Schooling  
 C. Electricity  
@@ -135,7 +143,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q4. [PYQ-RECOLLECTED] The Gini Coefficient of an economy is mathematically derived from which of the following graphical representations?**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] The Gini Coefficient of an economy is mathematically derived from which of the following graphical representations?**  
 A. The Phillips Curve  
 B. The Lorenz Curve  
 C. The Laffer Curve  

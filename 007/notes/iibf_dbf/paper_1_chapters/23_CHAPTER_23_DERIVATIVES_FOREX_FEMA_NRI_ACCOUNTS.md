@@ -47,6 +47,32 @@ Foreign exchange and derivative markets enable cross-border trade settlements, c
 • **Legislative Shift:** The Foreign Exchange Management Act (FEMA), 1999 replaced the draconian Foreign Exchange Regulation Act (FERA), 1973 with effect from **1 June 2000**.  
 • **Decriminalization:** Violations under FERA were treated as **criminal offenses** with imprisonment. Violations under FEMA are treated as **civil infractions** remediable by monetary penalties, with compounding provisions administered by the RBI and the Directorate of Enforcement (ED).
 
+### 4. FX-Retail Platform & CCIL Infrastructure
+
+• **FX-Retail Platform:** Rolled out by the **Clearing Corporation of India Limited (CCIL)** under RBI direction to deliver transparent, competitive, and order-driven real-time foreign exchange pricing directly to retail customers (individuals, MSMEs) executing transactions through Authorized Dealer Category-I banks.  
+• **Settlement Guarantee:** CCIL acts as the Central Counterparty (CCP), mitigating settlement risk through multilateral netting and guaranteed delivery versus payment settlement.
+
+### 5. LIBOR Cessation & Alternative Reference Rates (ARRs)
+
+The cessation of the London Interbank Offered Rate (LIBOR) prompted a global transition to transaction-based **Alternative Reference Rates (ARRs)** based on overnight risk-free rates (RFRs):
+
+| Currency | Benchmark Alternative Reference Rate (ARR) | Administering Sovereign Authority | Rate Nature |
+| :--- | :--- | :--- | :--- |
+| **USD** | **SOFR** (Secured Overnight Financing Rate) | Federal Reserve Bank of New York | Secured overnight repo rate |
+| **GBP** | **SONIA** (Sterling Overnight Index Average) | Bank of England | Unsecured overnight rate |
+| **JPY** | **TONAR** (Tokyo Overnight Average Rate) | Bank of Japan | Unsecured overnight call rate |
+| **EUR** | **€STR** (Euro Short-Term Rate) | European Central Bank (ECB) | Wholesale unsecured overnight rate |
+| **INR** | **Modified MIFOR** (replaces USD LIBOR-linked MIFOR) | Financial Benchmarks India Pvt Ltd (FBIL) | SOFR + domestic forex swap spread |
+
+### 6. US Dollar Index (USDX) Basket & ADR / GDR Mechanisms
+
+• **US Dollar Index (USDX) Basket:** Measures the purchasing power of the US Dollar against a geometric trade-weighted basket of six major international currencies:  
+  $$\text{Euro (EUR): } \mathbf{57.6\%} \quad\Big|\quad \text{Japanese Yen (JPY): } \mathbf{13.6\%} \quad\Big|\quad \text{Pound Sterling (GBP): } \mathbf{11.9\%}$$  
+  $$\text{Canadian Dollar (CAD): } \mathbf{9.1\%} \quad\Big|\quad \text{Swedish Krona (SEK): } \mathbf{4.2\%} \quad\Big|\quad \text{Swiss Franc (CHF): } \mathbf{3.6\%}$$  
+• **ADR / GDR Two-Way Fungibility:**  
+  - **American Depository Receipts (ADRs):** Negotiable USD-denominated instruments issued by a US depository bank representing shares of non-US companies traded on US exchanges (NYSE, NASDAQ).  
+  - **Global Depository Receipts (GDRs):** Depository receipts traded outside the US (e.g. London, Luxembourg). Under SEBI/RBI regulations, **Two-Way Fungibility** permits investors to convert domestic Indian shares into depository receipts and reconvert DRs back into local shares within foreign investment limits.
+
 ---
 
 ## § 23.2 Unit 36: Derivatives Market
@@ -94,12 +120,14 @@ An **Option** confers the right, but not the obligation, to buy (**Call Option**
 3. **Trap — FCNR(B) Account Types:** FCNR(B) accounts can ONLY be opened as **Term / Fixed Deposits** (Minimum 1 year to Maximum 5 years). An option stating savings accounts are permitted in FCNR(B) is **false**.
 4. **Trap — Spot Settlement Day:** Foreign exchange Spot transactions settle on the **second working business day ($T+2$)**, not next day ($T+1$).
 5. **Trap — Option Delta Boundaries:** Call option Delta is bounded strictly between **0 and +1**; Put option Delta is bounded between **-1 and 0**. Delta of a deep in-the-money call approaches +1.
+6. **Trap — USD Alternative Reference Rate (ARR):** The official benchmark ARR replacing USD LIBOR is **SOFR** (Secured Overnight Financing Rate, administered by the Federal Reserve Bank of New York). In India, FBIL publishes **Modified MIFOR** benchmarked to SOFR.
+7. **Trap — USDX Weight Dominance:** In the US Dollar Index (USDX) basket, the **Euro (EUR)** holds the highest weight at **57.6%** (more than half the aggregate index weight).
 
 ---
 
 ### Unit 33 & Unit 36 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED] An NRI wishes to deposit overseas savings into an Indian commercial bank, earn tax-free interest in foreign currency without facing any currency exchange risk, and have 100% repatriation rights. Which account must they open?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] An NRI wishes to deposit overseas savings into an Indian commercial bank, earn tax-free interest in foreign currency without facing any currency exchange risk, and have 100% repatriation rights. Which account must they open?**  
 A. Non-Resident Ordinary (NRO) Account  
 B. Non-Resident External (NRE) Savings Account  
 C. Foreign Currency Non-Resident Bank [FCNR(B)] Account  
@@ -117,7 +145,7 @@ B. Gamma
 C. Theta  
 D. Vega  
 
-**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding Non-Resident Indian deposit accounts:**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following statements regarding Non-Resident Indian deposit accounts:**  
 Statement I: Interest income earned on an NRE fixed deposit account is 100% exempt from Indian Income Tax (Income-tax Act, 2025 / legacy Section 10(4) of the 1961 Act).  
 Statement II: Capital funds held in an NRO account can be repatriated overseas up to a statutory ceiling of $1 Million USD per financial year.  
 Which of the statements given above is/are correct?  

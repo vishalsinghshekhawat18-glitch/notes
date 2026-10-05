@@ -1,4 +1,4 @@
-# ECONOMIC PLANNING ARCHITECTURE & NITI AAYOG STRATEGY
+﻿# ECONOMIC PLANNING ARCHITECTURE & NITI AAYOG STRATEGY
 
 Economic planning in India transitioned from the centralized, top-down allocation model of the Planning Commission (1950–2014) to the cooperative, strategic think-tank model of the National Institution for Transforming India (NITI Aayog), established on 1 January 2015.
 
@@ -40,6 +40,9 @@ Economic planning in India transitioned from the centralized, top-down allocatio
 | **11th FYP (2007–12)** | C. Rangarajan / Montek S. Ahluwalia | Goal: "Faster and More Inclusive Growth". Navigated the 2008 Global Financial Crisis with countercyclical fiscal expansion; achieved 8.0% average growth. |
 | **12th FYP (2012–17)** | Final Plan in Indian History | Goal: "Faster, Sustainable, and More Inclusive Growth". Dissolved with the discontinuation of the Planning Commission. |
 
+• **Plan Financing Resource Pools (Historical Mechanism):**
+  Five-Year Plans were financed through four primary streams: (1) *Domestic Budgetary Surplus* (current revenue savings from taxation and public enterprise surpluses), (2) *Domestic Market Borrowings* (public debt, provident funds, and small savings), (3) *External Assistance* (bilateral and multilateral concessional loans), and (4) *Deficit Financing* (monetization of deficits through the issuance of ad-hoc Treasury Bills to the RBI, formally phased out in 1997).
+
 ### 3. Structural Transition: Planning Commission vs. NITI Aayog
 
 | Parameter | Planning Commission (1950 – 2014) | NITI Aayog (1 Jan 2015 – Present) |
@@ -76,7 +79,7 @@ B. NITI Aayog possesses direct statutory authority to allocate budgetary funds t
 C. NITI Aayog serves purely as a policy think tank and possesses zero powers to allocate funds to states  
 D. Planning Commission adopted a bottom-up decentralized planning architecture  
 
-**Q2. [PYQ-RECOLLECTED] Match the Five Year Plans with their respective growth models/architects:**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Match the Five Year Plans with their respective growth models/architects:**  
 1. First Five Year Plan — (a) D.D. Dhar Model  
 2. Second Five Year Plan — (b) Harrod-Domar Growth Model  
 3. Fifth Five Year Plan — (c) P.C. Mahalanobis Model  

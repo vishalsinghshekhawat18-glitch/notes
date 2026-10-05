@@ -1,4 +1,4 @@
-# INDIAN FINANCIAL SYSTEM & BANKING SECTOR REFORMS
+﻿# INDIAN FINANCIAL SYSTEM & BANKING SECTOR REFORMS
 
 The Indian Financial System mobilizes financial savings and channels them into productive economic investments through institutional intermediaries and organized markets. This chapter covers the architecture of the Indian Financial System (Unit 20) and Banking Sector Reforms, Bad Bank infrastructure (NARCL-IDRCL), and the EASE agenda (Unit 28).
 
@@ -104,7 +104,7 @@ B. Public Sector Banks hold 51% equity in NARCL, while Private Sector Entities h
 C. Private Sector Banks hold 51% equity in NARCL, while Public Sector Banks hold 51% equity in IDRCL  
 D. Both NARCL and IDRCL are 100% wholly-owned subsidiaries of the State Bank of India  
 
-**Q2. [PYQ-RECOLLECTED] What is the statutory payment consideration structure when NARCL acquires stressed assets from commercial banks?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] What is the statutory payment consideration structure when NARCL acquires stressed assets from commercial banks?**  
 A. 100% upfront cash payment  
 B. 50% upfront cash and 50% in equity shares of the corporate debtor  
 C. 15% upfront cash and 85% in government-guaranteed Security Receipts (SRs)  
@@ -120,7 +120,7 @@ B. Statement II and III only
 C. Statement I and III only  
 D. Statement I, II and III  
 
-**Q4. [PYQ-RECOLLECTED] Under the Enhanced Access and Service Excellence (EASE) reform agenda for Public Sector Banks, what was the primary thematic focus of EASE 1.0 launched in 2018?**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under the Enhanced Access and Service Excellence (EASE) reform agenda for Public Sector Banks, what was the primary thematic focus of EASE 1.0 launched in 2018?**  
 A. Artificial intelligence and machine learning credit underwriting  
 B. Clean and Smart Banking focusing on transparent asset quality recognition and resolution  
 C. 100% privatization of state-owned commercial banks  

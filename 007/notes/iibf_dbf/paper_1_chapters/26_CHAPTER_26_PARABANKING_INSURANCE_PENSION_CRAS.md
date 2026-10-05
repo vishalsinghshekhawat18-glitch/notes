@@ -30,9 +30,18 @@ Commercial banks extend beyond traditional deposit-taking and lending into para-
 ## § 26.2 Unit 42: Insurance Products and Services
 
 > **Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 42)**  
-> **Core Proposition:** Insurance operates under fundamental legal doctrines (*Uberrima Fides*, Insurable Interest, Indemnity). Commercial banks distribute policies under the 3+3+3 Bancassurance model, supported by IRDAI's Bima Trinity initiatives.
+> **Core Proposition:** Insurance operates under fundamental legal doctrines (*Uberrima Fides*, Insurable Interest, Indemnity). Commercial banks distribute policies under the 3+3+3 Bancassurance model, supported by IRDAI's Bima Trinity initiatives, social security covers (PMJJBY, PMSBY), and Insurance Ombudsman redressal.
 
-### 1. Fundamental Legal Principles of Insurance
+### 1. Insurance Sector Architecture & Regulatory Milestones
+
+• **Historical Evolution:** Life Insurance Corporation of India (LIC) formed by nationalizing 245 private insurers under the **LIC Act, 1956**. General insurance nationalized under the **General Insurance Business (Nationalisation) Act, 1972 (GIBNA)**, establishing the General Insurance Corporation of India (**GIC Re**, now the national reinsurer).  
+• **Malhotra Committee (1994) & IRDA Act (1999):** Recommended opening the sector to private capital and establishing an independent regulator. **IRDAI** established as statutory apex regulator in April 2000. **Foreign Direct Investment (FDI) cap stands at 74%** under automatic route.  
+• **Key Metrics & Intermediaries:**  
+  - **Insurance Penetration:** Ratio of total insurance premium to **Gross Domestic Product (GDP)** in percentage.  
+  - **Insurance Density:** Ratio of total premium to **total national population**, measured in USD per capita.  
+  - **Insurance Repositories:** Licensed entities maintaining electronic insurance policies in e-Insurance Accounts (e-IA).
+
+### 2. Fundamental Legal Principles of Insurance
 
 | Principle | Legal Maxim | Operational Application & Legal Exception |
 | :--- | :--- | :--- |
@@ -42,21 +51,20 @@ Commercial banks extend beyond traditional deposit-taking and lending into para-
 | **4. Principle of Subrogation** | Step into shoes of the insured | Upon settling a total loss claim, the insurer acquires all legal rights to recover damages from third-party tortfeasors. |
 | **5. Proximate Cause** | *Causa Proxima* | The active, efficient cause setting in motion the chain of events leading to loss; insurer is liable only if the proximate cause is an insured peril. |
 
-### 2. Bancassurance Open Architecture Norms (IRDAI Regulations)
+### 3. Bancassurance & The Bima Trinity
 
-Under the **IRDAI (Registration of Corporate Agents) Regulations**, a commercial bank operating as a Corporate Agent can tie up with up to **nine insurance companies**:
-$$\mathbf{3 \text{ Life Insurers}} \quad+\quad \mathbf{3 \text{ General Insurers}} \quad+\quad \mathbf{3 \text{ Standalone Health Insurers}}$$
-• **Strict Prohibition on Coercive Cross-Selling:** Commercial banks are strictly forbidden from compelling any loan borrower to purchase an insurance policy from their corporate partner as a condition for loan sanction.
+• **Open Architecture (IRDAI Regulations):** Commercial banks acting as Corporate Agents can tie up with up to **nine insurers**: $$\mathbf{3 \text{ Life}} + \mathbf{3 \text{ General}} + \mathbf{3 \text{ Standalone Health}}$$. Coercive cross-selling is strictly banned.  
+• **Bima Trinity Initiatives:** **Bima Sugam** (digital marketplace portal), **Bima Vistar** (bundled composite micro-insurance cover), and **Bima Vahak** (women-led grassroots distribution force).
 
-### 3. IRDAI 'Insurance for All by 2047' & The Bima Trinity
+### 4. Social Insurance Schemes & Ombudsman Mechanism
 
-• **Bima Sugam:** An open-architecture electronic public digital marketplace (UPI for insurance) for buying, servicing, policy portability, and settlement of claims.  
-• **Bima Vistar:** An affordable, bundled parametric micro-insurance product providing basic Life, Health, Accident, and Property cover.  
-• **Bima Vahak:** A women-centric grassroots distribution force at the Gram Panchayat level.
+• **Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):** 1-year renewable life term cover of **₹2 Lakh** for death due to any reason; eligible for age **18 to 50 years**; annual premium of **₹436**.  
+• **Pradhan Mantri Suraksha Bima Yojana (PMSBY):** 1-year renewable accidental death and disability cover of **₹2 Lakh** (₹1 Lakh for partial permanent disability); eligible for age **18 to 70 years**; annual premium of **₹20**.  
+• **Insurance Ombudsman Framework:** Resolves individual policyholder grievances without legal costs. Pecuniary compensation award jurisdiction capped at **₹30 Lakh**. Award is **binding on the insurance company**.
 
 ---
 
-## § 26.3 Unit 43: Pension Products (NPS, APY & UPS)
+## § 26.3 Unit 43: Pension Products (NPS, APY, UPS & EPF/PPF)
 
 > **Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 43)**  
 > **Core Proposition:** Pension schemes provide post-retirement financial security under PFRDA regulation. The National Pension System (NPS) enforces model-specific exit guidelines, Atal Pension Yojana (APY) provides guaranteed minimum pensions, and the Unified Pension Scheme (UPS) introduces assured defined benefits for government employees.
@@ -83,9 +91,17 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 • **Partial Withdrawals (Tier-I Account):** Eligible after **3 years** continuous subscription; maximum **25% of subscriber's own contributions** (excluding employer contributions and returns); maximum **3 times** during entire tenure for specified reasons (children's education/marriage, home purchase, critical illnesses).
 
+### 3. Statutory Provident Funds & Annuity Framework
+
+• **Employees' Provident Fund (EPF):** Governed by the **EPF & MP Act, 1952** for enterprises with 20+ workers. Employee contributes **12% of basic wage + DA**. Employer contributes **12%**, bifurcated into:  
+  $$\mathbf{8.33\% \text{ into Employees' Pension Scheme (EPS)}} \quad\Big|\quad \mathbf{3.67\% \text{ into EPF}}$$  
+  (EPS wage ceiling capped at ₹15,000/month; additional 0.5% paid by employer towards EDLI insurance).  
+• **Public Provident Fund (PPF):** 15-year statutory maturity; enjoy complete **Exempt-Exempt-Exempt (EEE)** tax status; sovereign sovereign guarantee; minimum deposit **₹500**, maximum **₹1,50,000** per financial year.  
+• **Annuity Types:** (1) *Immediate Annuity* (payout begins right after lump-sum purchase) vs *Deferred Annuity* (accumulates capital during deferment phase before payouts); (2) *Life Annuity with Return of Purchase Price (ROPP)* (pays regular annuity until demise, then returns initial principal purchase price to designated nominees).
+
 ---
 
-### 3. Atal Pension Yojana (APY) & Unified Pension Scheme (UPS)
+### 4. Atal Pension Yojana (APY) & Unified Pension Scheme (UPS)
 
 • **Atal Pension Yojana (APY):** Administered by PFRDA for citizens aged **18 to 40 years**; guarantees fixed monthly pension of **₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** starting at age 60; *income-tax payers are strictly ineligible* to enroll (effective 1 October 2022).  
 • **Unified Pension Scheme (UPS):** Central Government scheme effective 1 April 2025: (1) **Assured Pension:** **50% of average basic pay** drawn in last 12 months (qualifying service ≥ 25 years; proportionate for 10–25 years); (2) **Assured Family Pension:** **60%** of employee pension; (3) **Assured Minimum Pension:** **₹10,000 per month** upon superannuation (min 10 years service).
@@ -114,6 +130,10 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 4. **Trap — NPS Premature Exit Small Corpus by Model:** In premature exit before age 60 (min 80% annuity mandatory), 100% full lump sum is permitted if the corpus is **≤ ₹5 Lakh** for All-Citizens model (per current PFRDA FAQs), but remains **≤ ₹2.5 Lakh** for Government and Corporate subscribers.
 5. **Trap — APY Income Tax Exclusion:** Income-tax payers are **STRICTLY INELIGIBLE** to enroll in Atal Pension Yojana.
 6. **Trap — Credit Card Bank Net Worth:** Banks must have a minimum Net Worth of **₹100 Crore** to undertake standalone credit card issuance.
+7. **Trap — Insurance Penetration vs Density:** Penetration is premium as a **% of GDP**; Density is premium **per capita in USD**. Do not reverse these two metrics.
+8. **Trap — Social Insurance Premiums:** PMJJBY annual premium is **₹436** (life cover ₹2 Lakh); PMSBY annual premium is **₹20** (accidental cover ₹2 Lakh).
+9. **Trap — Insurance Ombudsman Pecuniary Limit:** The Insurance Ombudsman can award compensation up to **₹30 Lakh** (including ex-gratia and other expenses).
+10. **Trap — Employer EPF Contribution Split:** The employer's 12% contribution is split into **8.33% into the Pension Fund (EPS)** and **3.67% into the Provident Fund (EPF)**.
 
 ---
 
@@ -125,13 +145,13 @@ B. ₹5 Lakh
 C. ₹8 Lakh  
 D. ₹10 Lakh  
 
-**Q2. [PYQ-RECOLLECTED] Under the IRDAI open-architecture regulations for Bancassurance, what is the maximum number of insurance companies a commercial bank acting as a Corporate Agent can tie up with?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under the IRDAI open-architecture regulations for Bancassurance, what is the maximum number of insurance companies a commercial bank acting as a Corporate Agent can tie up with?**  
 A. 1 Life, 1 General, and 1 Health insurer  
 B. 3 Life, 3 General, and 3 Standalone Health insurers  
 C. 5 Life and 5 General insurers  
 D. Unlimited number across all categories  
 
-**Q3. [PYQ-RECOLLECTED] Under the Credit Rating Agencies framework regulated by SEBI, which of the following credit ratings represents the lowest rating within the 'Investment Grade' category?**  
+**Q3. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under the Credit Rating Agencies framework regulated by SEBI, which of the following credit ratings represents the lowest rating within the 'Investment Grade' category?**  
 A. `A-`  
 B. `BBB-`  
 C. `BB+`  

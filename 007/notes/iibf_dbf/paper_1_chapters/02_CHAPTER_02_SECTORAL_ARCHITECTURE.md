@@ -29,15 +29,30 @@ As reflected in official **MoSPI GVA provisional estimates** and **PLFS annual s
 | **Secondary Sector** (Industry & Mfg) | **~26% – 28%** | **~24% – 25%** | **Manufacturing Deficit:** Manufacturing represents only ~14–16% of GDP, falling short of the 25% target envisaged under the National Manufacturing Policy (NMP). |
 | **Tertiary Sector** (Services) | **~54% – 56%** | **~30% – 32%** | **Productivity Engine:** Highly skill- and capital-intensive. Drives export revenues (IT/ITeS), but generates limited formal low-skill jobs. |
 
-### 3. The Leapfrogging Phenomenon & The Manufacturing Mandate
+### 3. Primary Sector Agricultural Revolutions & Sunrise Sectors
 
-• **Fisher-Clark Hypothesis:** Under classical development theory (Allan Fisher and Colin Clark), economic progression occurs along three stages:
-  $$\text{Primary (Agriculture)} \longrightarrow \text{Secondary (Manufacturing)} \longrightarrow \text{Tertiary (Services)}$$
-• **The Indian Anomaly (Leapfrogging):** India bypassed the mass manufacturing phase due to rigid historical labor laws (pre-Code era), capital-intensive industrialization during the Second Five Year Plan, and the post-1991 telecommunications/software services boom.  
-• **Policy Interventions to Rebalance Manufacturing:**
-  1. **National Manufacturing Policy (NMP):** Envisaged raising manufacturing's GDP share to 25% and creating 100 million jobs.
-  2. **Production Linked Incentive (PLI) Schemes:** Spanning 14 champion sectors with financial outlays exceeding ₹1.97 Lakh Crore to drive domestic value addition.
-  3. **Make in India & PM GatiShakti:** Removing logistical bottlenecks and standardizing single-window clearances.
+• **Agricultural Revolutions in India:**
+| Revolution | Domain / Commodity | Key Pioneer / National Architecture |
+| :--- | :--- | :--- |
+| **Green Revolution** | Foodgrains (Wheat & Rice) | M.S. Swaminathan / Norman Borlaug (HYV seeds, irrigation, fertilizers) |
+| **White Revolution** | Milk & Dairy Products | Dr. Verghese Kurien (Operation Flood, AMUL cooperative model) |
+| **Blue Revolution** | Fish & Marine Production | Dr. Hiralal Chaudhuri & Dr. Arun Krishnan (Pradhan Mantri Matsya Sampada Yojana) |
+| **Yellow Revolution** | Oilseeds (Mustard, Sunflower) | Sam Pitroda (Technology Mission on Oilseeds) |
+| **Golden Revolution** | Fruits, Honey & Horticulture | Nirpakh Tutej (National Horticulture Mission) |
+| **Silver Revolution** | Eggs & Poultry Production | Modern poultry genetics and commercial feed integration |
+| **Grey / Round** | Fertilizers (Grey) / Potato (Round) | Industrial chemical input self-sufficiency / cold-storage networks |
+| **Rainbow Revolution** | Integrated Agricultural Umbrella | Holistic agricultural growth combining all crop and livestock revolutions |
+
+• **Organised vs. Unorganised Sectors:**
+- *Organised Sector:* Formal enterprises registered with statutory authorities (Factories Act, Companies Act) providing formal employment contracts, regulated working hours, and statutory social security (EPFO, ESIC, Gratuity). Accounts for ~10–12% of total employment.
+- *Unorganised Sector:* Informal enterprises and individual workers lacking social security, written contracts, and formal pension protection. Engages **~88–90% of the Indian workforce**; formalized via initiatives like the **e-Shram Portal** (national unorganised worker database) and PM-SYM.
+• **Sunrise Sectors:** Emerging, high-growth industrial and technology domains driving future GDP expansion: **Renewable Energy & Green Hydrogen**, **Electric Vehicles (EV) & Battery Storage**, **Semiconductors & Electronics Manufacturing** (India Semiconductor Mission), **FinTech**, **Space-tech**, and **Advanced Biotechnology**.
+
+### 4. The Leapfrogging Phenomenon & The Manufacturing Mandate
+
+• **Fisher-Clark Hypothesis:** Classical progression traces $\text{Primary} \to \text{Secondary} \to \text{Tertiary}$.  
+• **The Indian Anomaly (Leapfrogging):** India transitioned directly from agriculture to services without establishing a labor-intensive manufacturing base, creating the current employment-output mismatch.  
+• **Policy Interventions:** National Manufacturing Policy (NMP target: 25% of GDP), Production Linked Incentive (PLI) schemes across 14 sectors (outlay ₹1.97 Lakh Crore), and Make in India.
 
 ---
 
@@ -45,7 +60,8 @@ As reflected in official **MoSPI GVA provisional estimates** and **PLFS annual s
 
 1. **Trap — Mining & Quarrying Sector:** In national accounts classification, **Mining and Quarrying** is categorized under **Industry / Secondary Sector** (in Index of Industrial Production - IIP), but represents primary natural resource extraction in traditional 3-sector economic textbooks. In MoSPI GVA reporting, it is grouped under Mining, Manufacturing, and Electricity within Industry.
 2. **Trap — Disguised Unemployment Definition:** Disguised unemployment occurs when more workers are engaged than strictly necessary. The **marginal productivity of labor is zero or negative**, meaning withdrawing workers does not diminish total output.
-3. **Trap — Quaternary vs Quinary Distinction:** Quaternary involves information processing, research, and software engineering. Quinary refers strictly to **apex decision-makers** who create policy and direct societal actions.
+3. **Trap — White vs Blue vs Yellow Revolution:** White is **Milk** (Kurien); Blue is **Fisheries**; Yellow is **Oilseeds** (Pitroda); Golden is **Horticulture/Honey**.
+4. **Trap — Organised vs Unorganised Employment:** Over **88% of the Indian workforce** operates in the unorganised/informal sector; only ~10–12% enjoys formal contractual social security.
 
 ---
 
@@ -57,7 +73,7 @@ B. The economy transitions directly from agriculture to a services-dominated str
 C. Primary agricultural employment expands faster than services employment  
 D. Quinary decision-makers are eliminated through automated algorithms  
 
-**Q2. [PYQ-RECOLLECTED] Consider the following statements regarding disguised unemployment in the Indian agricultural sector:**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following statements regarding disguised unemployment in the Indian agricultural sector:**  
 Statement I: Disguised unemployment implies that the marginal productivity of surplus agricultural workers is zero.  
 Statement II: Withdrawing surplus workers from agriculture to industry immediately results in an absolute drop in total foodgrain production.  
 Which of the statements given above is/are correct?  

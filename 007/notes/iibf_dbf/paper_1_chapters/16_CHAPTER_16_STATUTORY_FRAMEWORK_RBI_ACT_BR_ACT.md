@@ -1,4 +1,4 @@
-# STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949
+﻿# STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949
 
 The statutory governance of the Indian banking and monetary system is anchored by two foundational parliamentary enactments: the **Reserve Bank of India Act, 1934** (which established and empowers the central bank) and the **Banking Regulation Act, 1949** (which provides comprehensive prudential oversight, licensing, and management supervision over commercial and cooperative banks).
 
@@ -115,13 +115,13 @@ The Banking Regulation Act, 1949 comprises **Sections 1 to 56** organized across
 
 ### Unit 22 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED / STATUTORY MONOPOLY] Under Section 22 of the Reserve Bank of India Act, 1934, which of the following denominations of currency is NOT issued by the Reserve Bank of India?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / STATUTORY MONOPOLY] Under Section 22 of the Reserve Bank of India Act, 1934, which of the following denominations of currency is NOT issued by the Reserve Bank of India?**  
 A. ₹10 Bank Note  
 B. ₹500 Bank Note  
 C. ₹1 Currency Note  
 D. ₹200 Bank Note  
 
-**Q2. [PYQ-RECOLLECTED / BR ACT S.9] Under Section 9 of the Banking Regulation Act, 1949, what is the maximum initial statutory period within which a banking company must dispose of any non-banking immovable property acquired in satisfaction of its claims?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / BR ACT S.9] Under Section 9 of the Banking Regulation Act, 1949, what is the maximum initial statutory period within which a banking company must dispose of any non-banking immovable property acquired in satisfaction of its claims?**  
 A. 3 years  
 B. 5 years  
 C. 7 years  

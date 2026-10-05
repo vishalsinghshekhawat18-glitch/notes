@@ -166,15 +166,15 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check C-10: SEBI Merchant Banking 2026 Dual Category (₹50 Cr / ₹10 Cr) & Phased Compliance
+  // Check C-10: SEBI Merchant Banking 2026 Dual Category (₹50 Cr / ₹10 Cr) & Phased Compliance (31 Mar 2027 / 2 Jan 2028)
   const ch24Text = fs.readFileSync(path.join(chaptersDir, '24_CHAPTER_24_INTERCONNECTEDNESS_AND_MERCHANT_BANKING.md'), 'utf-8');
   const mbOk = ch24Text.includes('50 Crore') && ch24Text.includes('10 Crore') &&
                ch24Text.includes('12.5 Crore') && ch24Text.includes('2.5 Crore') &&
-               ch24Text.includes('phased compliance');
+               ch24Text.includes('31 March 2027') && ch24Text.includes('2 January 2028');
   if (mbOk) {
-    console.log(`  ✓ Merchant Banking 2026 Regime Verified: Cat I (₹50 Cr/₹12.5 Cr), Cat II (₹10 Cr/₹2.5 Cr), phased compliance codified in Chapter 24.`);
+    console.log(`  ✓ Merchant Banking 2026 Regime Verified: Cat I (₹50 Cr/₹12.5 Cr), Cat II (₹10 Cr/₹2.5 Cr), Phase I (31 Mar 2027), Phase II (2 Jan 2028) codified in Chapter 24.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: C-10 Merchant Banking thresholds or phased compliance note missing.`);
+    console.error(`  ✗ GATE 5 FAIL: C-10 Merchant Banking thresholds or phased compliance dates missing.`);
     dataCheckPass = false;
   }
 
@@ -187,14 +187,26 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check C-12: RBI PCA Framework 2022 (Regulatory Min vs Threshold Triggers: CRAR < 9% to ≥ 6.5%, Net NPA 6%/9%/12%)
+  // Check C-12: RBI PCA Framework 2022 (Regulatory Baseline 11.5% CRAR / 8.0% CET1 + bps deterioration: T1 ≤ 250 bps, Net NPA 6/9/12%)
   const ch17Text = fs.readFileSync(path.join(chaptersDir, '17_CHAPTER_17_COMMERCIAL_BANKING_BASEL_III_PCA_FRAMEWORK.md'), 'utf-8');
-  const pcaOk = ch17Text.includes('6.5%') && ch17Text.includes('3.875%') &&
+  const pcaOk = ch17Text.includes('11.5%') && ch17Text.includes('8.0%') &&
+                ch17Text.includes('250 bps') && ch17Text.includes('7.5%') &&
+                ch17Text.includes('6.375%') && ch17Text.includes('4.875%') &&
                 ch17Text.includes('6.0%') && ch17Text.includes('9.0%') && ch17Text.includes('12.0%');
   if (pcaOk) {
-    console.log(`  ✓ RBI 2022 PCA Trigger Calibration Verified: Minimums distinguished from Triggers (CRAR < 9% down to ≥ 6.5%, Net NPA 6/9/12%) in Chapter 17.`);
+    console.log(`  ✓ RBI 2022 PCA Trigger Calibration Verified: Regulatory Baseline including CCB (11.5% CRAR, 8.0% CET1) with exact basis point triggers (CRAR T1 9.0% to < 11.5%, T2 7.5% to < 9.0%, T3 < 7.5%; CET1 T1 6.375% to < 8.0%; Net NPA 6/9/12%) in Chapter 17.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: C-12 PCA matrix trigger calibration missing.`);
+    dataCheckPass = false;
+  }
+
+  // Check BRSR Core 2026: Assessment or Assurance + Voluntary Value Chain
+  const ch5Text = fs.readFileSync(path.join(chaptersDir, '05_CHAPTER_05_INFRASTRUCTURE_LOGISTICS_CLIMATE_SDGS.md'), 'utf-8');
+  const brsrOk = ch5Text.includes('assessment or assurance') && ch5Text.includes('voluntary');
+  if (brsrOk) {
+    console.log(`  ✓ BRSR Core 2026 Regime Verified: Assessment or assurance option and voluntary value-chain disclosures codified in Chapter 05.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: BRSR Core assessment/assurance rule missing in Chapter 05.`);
     dataCheckPass = false;
   }
 
@@ -205,7 +217,7 @@ async function runForensicAudit() {
     const filename = fs.readdirSync(chaptersDir).find(f => f.startsWith(`${chStr}_`));
     if (filename) {
       const content = fs.readFileSync(path.join(chaptersDir, filename), 'utf-8');
-      const hasTags = content.includes('[PYQ-RECOLLECTED') || content.includes('[CONCEPT-RECURRING') || content.includes('[SYLLABUS-NEW') || content.includes('[2026 BENCHMARK');
+      const hasTags = content.includes('[PYQ-PATTERN') || content.includes('[CONCEPT-RECURRING') || content.includes('[SYLLABUS-NEW') || content.includes('[2026 BENCHMARK') || content.includes('[CODEX-PRACTICE');
       if (!hasTags) {
         console.error(`  ✗ Ch ${chStr} missing question provenance tags!`);
         allTagsPresent = false;
@@ -213,7 +225,7 @@ async function runForensicAudit() {
     }
   }
   if (allTagsPresent) {
-    console.log(`  ✓ Question Provenance Tags Verified: All 27 chapters tagged with [PYQ-RECOLLECTED], [CONCEPT-RECURRING], [SYLLABUS-NEW], or [2026 BENCHMARK].`);
+    console.log(`  ✓ Question Provenance Tags Verified: All 27 chapters tagged with standardized provenance taxonomy ([PYQ-PATTERN / RECOLLECTED RECONSTRUCTION], [CONCEPT-RECURRING], [2026 BENCHMARK]).`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: Question provenance tags missing in one or more chapters.`);
     dataCheckPass = false;
@@ -281,9 +293,9 @@ async function runForensicAudit() {
   const hasTraps = ch27Text.includes('50 Master Examiner Traps') || ch27Text.includes('Examiner Traps');
   const hasFastRecall = ch27Text.includes('Fast-Recall Ledger') || ch27Text.includes('Reconciled 2026 Baseline');
   const hasDiagnostic = ch27Text.includes('Capstone Diagnostic Drill') || ch27Text.includes('Answer Key & Explanations');
-  const has45Ledger = ch27Text.includes('Master Curricular & PYQ Traceability Ledger') && ch27Text.includes('Units 01–45');
+  const has45Ledger = ch27Text.includes('Master Curricular') && ch27Text.includes('Units 01–45');
   if (hasTraps && hasFastRecall && hasDiagnostic && has45Ledger) {
-    console.log(`  ✓ Chapter 27 verified: 50 High-Yield Examiner Traps, Fast-Recall Reconciled Ledger, Capstone Diagnostic Drill, and 45-Unit PYQ Traceability Ledger fully intact.`);
+    console.log(`  ✓ Chapter 27 verified: 50 High-Yield Examiner Traps, Fast-Recall Reconciled Ledger, Capstone Diagnostic Drill, and 45-Unit Master Traceability Ledger fully intact.`);
     passedGates++;
   } else {
     console.error(`  ✗ GATE 8 FAIL: Missing components in Chapter 27 (traps=${hasTraps}, fastRecall=${hasFastRecall}, diag=${hasDiagnostic}, ledger45=${has45Ledger}).`);

@@ -95,6 +95,12 @@ The Scale-Based Regulation (SBR) framework categorizes NBFCs into four tiers bas
 • **Mandatory Minimum Risk Retention:** The NBFC must retain a **minimum 20% share of each individual loan** on its balance sheet; the partner Commercial Bank takes up to **80%**.  
 • **Single Blended Interest Rate:** The borrower is charged a single blended interest rate reflecting the weighted average of the bank's and NBFC's agreed cost of funds.
 
+### 5. Bank Finance to NBFCs, Fair Practices Code & Integrated Ombudsman
+
+• **Bank Lending to NBFCs & PSL On-Lending:** Under RBI guidelines, bank credit to registered NBFCs (other than MFIs) for on-lending is eligible for classification under Priority Sector Lending up to prescribed per-borrower caps (e.g. Agriculture up to ₹10 Lakh; Micro & Small Enterprises up to ₹20 Lakh). Under the **Large Exposure Framework (LEF)**, a bank's exposure to a single NBFC is capped at **20% of Tier 1 capital** (extendable to 25% for infrastructure financing NBFCs).  
+• **NBFC Fair Practices Code (FPC):** All NBFCs must adopt a board-approved FPC requiring: (1) Written loan agreements disclosing the **all-inclusive annualized interest rate**; (2) Strict prohibition of coercive, harassing, or intimidating recovery practices; (3) Transparent notice before altering terms and conditions.  
+• **Reserve Bank - Integrated Ombudsman Scheme (RB-IOS, 2021):** Integrates ombudsman mechanisms under a **'One Nation One Ombudsman'** framework. Extends coverage to **all Deposit-Taking NBFCs** and **Non-Deposit taking NBFCs with customer interface having asset size $\ge$ ₹100 Crore**.
+
 ---
 
 ### Examiner Trap Vault: Unit 24 & Unit 25 High-Yield Distractors
@@ -104,6 +110,7 @@ The Scale-Based Regulation (SBR) framework categorizes NBFCs into four tiers bas
 3. **Trap — Prepayment Penalty in Microfinance:** Prepayment penalties on microfinance loans are **strictly 0% (prohibited)** under RBI Master Directions.
 4. **Trap — DICGC Insurance on NBFC Deposits:** Public deposits held with deposit-taking NBFCs are **NOT insured by DICGC**. DICGC covers deposits with commercial and cooperative banks up to ₹5 Lakh, but **zero cover for NBFCs**.
 5. **Trap — Co-Lending Risk Retention:** In the Co-Lending Model (CLM), the NBFC must retain **at least 20% risk share** on its own books.
+6. **Trap — Integrated Ombudsman NBFC Threshold:** Non-deposit taking NBFCs are covered under the Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021) only if they have customer interface AND an asset size of **₹100 Crore or above** (all NBFC-Ds are covered irrespective of asset size).
 
 ---
 
@@ -115,7 +122,7 @@ B. The top ten eligible NBFCs by asset size, plus other entities identified thro
 C. All deposit-taking NBFCs with asset size exceeding ₹500 Crore  
 D. All Peer-to-Peer lending platforms and Account Aggregators  
 
-**Q2. [PYQ-RECOLLECTED / MFI UNIFORM LIMIT] Under the RBI Harmonized Regulatory Framework for Microfinance Loans effective 1 April 2022, what is the uniform annual household income limit to qualify for a collateral-free microfinance loan?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / MFI UNIFORM LIMIT] Under the RBI Harmonized Regulatory Framework for Microfinance Loans effective 1 April 2022, what is the uniform annual household income limit to qualify for a collateral-free microfinance loan?**  
 A. ₹1,25,000 for rural and ₹2,00,000 for urban households  
 B. ₹2,00,000 across all centres  
 C. ₹3,00,000 across both rural and urban households  

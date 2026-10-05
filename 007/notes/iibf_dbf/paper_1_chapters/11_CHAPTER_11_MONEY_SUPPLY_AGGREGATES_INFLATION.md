@@ -1,4 +1,4 @@
-# MONEY SUPPLY MEASURES (M0-M4, L1-L3) & INFLATION
+﻿# MONEY SUPPLY MEASURES (M0-M4, L1-L3) & INFLATION
 
 The creation, regulation, and circulation of money forms the foundation of commercial banking and central monetary management. The Reserve Bank of India regulates money supply aggregates to calibrate systemic liquidity, stabilize the purchasing power of the currency, and steer headline inflation within the statutory target framework.
 
@@ -103,7 +103,7 @@ Inflation is a sustained increase in the general price level of goods and servic
 
 ### Unit 14 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED] Under Section 33 of the Reserve Bank of India Act, 1934, what is the mandatory minimum value of Gold Coin and Gold Bullion that must be held by the Issue Department under the Minimum Reserve System?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under Section 33 of the Reserve Bank of India Act, 1934, what is the mandatory minimum value of Gold Coin and Gold Bullion that must be held by the Issue Department under the Minimum Reserve System?**  
 A. ₹85 Crore  
 B. ₹115 Crore  
 C. ₹200 Crore  
@@ -124,7 +124,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q4. [PYQ-RECOLLECTED] If commercial banks decide to hold higher excess reserves and the public's preference for holding physical currency increases relative to bank deposits, what is the impact on the Money Multiplier ($m$)?**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] If commercial banks decide to hold higher excess reserves and the public's preference for holding physical currency increases relative to bank deposits, what is the impact on the Money Multiplier ($m$)?**  
 A. The money multiplier increases significantly  
 B. The money multiplier remains strictly constant  
 C. The money multiplier decreases  

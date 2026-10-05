@@ -1,4 +1,4 @@
-# BUSINESS CYCLES, MONETARY POLICY & THE UNION BUDGET
+﻿# BUSINESS CYCLES, MONETARY POLICY & THE UNION BUDGET
 
 Macroeconomic stability requires coordination between central bank monetary policy and sovereign fiscal policy. This chapter analyzes the four phases of Business Cycles (Unit 16), the Reserve Bank of India's Monetary Policy Framework alongside Fiscal Policy rules (Unit 17), and the constitutional architecture of the Union Budget and sovereign deficit metrics (Unit 19).
 
@@ -150,7 +150,7 @@ B. The national aggregate Unemployment Rate
 C. Benchmark stock market indices and new manufacturing orders  
 D. Average lending interest rates charged by commercial banks  
 
-**Q2. [PYQ-RECOLLECTED] Under the Reserve Bank of India's statutory Flexible Inflation Targeting framework, a failure to maintain the inflation target occurs when average headline CPI inflation:**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under the Reserve Bank of India's statutory Flexible Inflation Targeting framework, a failure to maintain the inflation target occurs when average headline CPI inflation:**  
 A. Exceeds 6% in any two consecutive monthly releases  
 B. Remains outside the tolerance band of 2% to 6% for three consecutive quarters  
 C. Crosses 8% in any single financial year  
@@ -162,7 +162,7 @@ B. ₹15,00,000 Crore
 C. ₹4,50,000 Crore  
 D. ₹10,50,000 Crore  
 
-**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding the sovereign funds of the Government of India:**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following statements regarding the sovereign funds of the Government of India:**  
 Statement I: Monies deposited in the Public Account of India (Article 266(2)) can be withdrawn only after Parliament passes a statutory Appropriation Act.  
 Statement II: The Contingency Fund of India is held on behalf of the President by the Secretary, Department of Economic Affairs, Ministry of Finance.  
 Which of the statements given above is/are correct?  

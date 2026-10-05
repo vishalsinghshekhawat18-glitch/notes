@@ -1,4 +1,4 @@
-# APEX REGULATORY HIERARCHY: RBI, SEBI, IRDAI & FSDC
+﻿# APEX REGULATORY HIERARCHY: RBI, SEBI, IRDAI & FSDC
 
 The stability and integrity of the Indian financial architecture rests upon sectoral statutory regulators coordinated by an apex inter-regulatory council. This chapter examines the statutory jurisdictions, powers, and inter-institutional coordination mechanisms of the primary financial regulators (Unit 27).
 
@@ -57,7 +57,7 @@ The stability and integrity of the Indian financial architecture rests upon sect
 
 ### Unit 27 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED] Who among the following serves as the ex-officio Chairperson of the Financial Stability and Development Council (FSDC) Sub-Committee?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Who among the following serves as the ex-officio Chairperson of the Financial Stability and Development Council (FSDC) Sub-Committee?**  
 A. Union Minister of Finance  
 B. Governor of the Reserve Bank of India  
 C. Chairperson of the Securities and Exchange Board of India  
@@ -79,7 +79,7 @@ B. 1-(b), 2-(a), 3-(c)
 C. 1-(c), 2-(a), 3-(b)  
 D. 1-(b), 2-(c), 3-(a)  
 
-**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding the regulatory supervision of financial market intermediaries in India:**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following statements regarding the regulatory supervision of financial market intermediaries in India:**  
 Statement I: Credit Rating Agencies (CRAs) evaluating corporate debt debentures are registered with and regulated by the Securities and Exchange Board of India (SEBI).  
 Statement II: Credit Information Companies (CICs) maintaining retail borrower credit histories are licensed and supervised by the Reserve Bank of India (RBI).  
 Which of the statements given above is/are correct?  

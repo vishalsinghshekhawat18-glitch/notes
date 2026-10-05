@@ -1,4 +1,4 @@
-# THEORIES OF INTEREST, LIQUIDITY PREFERENCE & IS-LM CURVE
+﻿# THEORIES OF INTEREST, LIQUIDITY PREFERENCE & IS-LM CURVE
 
 Interest represents the price paid for borrowed funds and the economic return for parting with liquidity. In commercial banking and macro-financial risk management, interest rate determination explains asset-liability management (ALM) spreads, bond valuation, monetary policy transmission, and investment cycles.
 
@@ -111,7 +111,7 @@ B. Inside a Liquidity Trap when interest rates fall to an irreducible minimum fl
 C. When the central bank raises the statutory Cash Reserve Ratio to maximum levels  
 D. Under hyperinflation when the purchasing power of money collapses to zero  
 
-**Q2. [PYQ-RECOLLECTED] In the Hicks-Hansen IS-LM general equilibrium framework, which of the following policy actions will cause the LM curve to shift to the right?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] In the Hicks-Hansen IS-LM general equilibrium framework, which of the following policy actions will cause the LM curve to shift to the right?**  
 A. An increase in government infrastructure capital expenditure  
 B. An increase in personal income tax rates by the Ministry of Finance  
 C. An open market purchase of government securities by the central bank expanding the money supply  

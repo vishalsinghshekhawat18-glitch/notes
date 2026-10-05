@@ -496,6 +496,83 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       background: #fff;
     }
 
+    ${[15, 18, 19, 24, 25, 26].includes(chMeta.index) ? `
+      body {
+        font-size: 10.4pt !important;
+        line-height: 1.35 !important;
+      }
+      p {
+        margin: 0 0 1.5mm 0 !important;
+      }
+      table {
+        font-size: 8.2pt !important;
+        margin: 1.4mm 0 !important;
+      }
+      th, td {
+        padding: 0.8mm 1.3mm !important;
+        line-height: 1.20 !important;
+      }
+      li {
+        margin-bottom: 0.6mm !important;
+        font-size: 9.0pt !important;
+        line-height: 1.25 !important;
+      }
+      h2 {
+        font-size: 10.0pt !important;
+        margin: 2.2mm 0 1.2mm 0 !important;
+      }
+      h3 {
+        font-size: 9.4pt !important;
+        margin: 1.8mm 0 1.0mm 0 !important;
+      }
+    ` : ''}
+
+    ${chMeta.index === 4 ? `
+      body {
+        font-size: 11.0pt !important;
+        line-height: 1.40 !important;
+      }
+      p {
+        margin: 0 0 1.7mm 0 !important;
+      }
+      table {
+        font-size: 8.6pt !important;
+        margin: 1.6mm 0 !important;
+      }
+      th, td {
+        padding: 0.85mm 1.35mm !important;
+        line-height: 1.22 !important;
+      }
+      li {
+        margin-bottom: 0.7mm !important;
+        font-size: 9.3pt !important;
+        line-height: 1.28 !important;
+      }
+    ` : ''}
+
+    ${chMeta.index === 7 ? `
+      body {
+        font-size: 11.25pt !important;
+        line-height: 1.42 !important;
+      }
+      p {
+        margin: 0 0 1.8mm 0 !important;
+      }
+      table {
+        font-size: 8.8pt !important;
+        margin: 1.7mm 0 !important;
+      }
+      th, td {
+        padding: 0.85mm 1.35mm !important;
+        line-height: 1.23 !important;
+      }
+      li {
+        margin-bottom: 0.7mm !important;
+        font-size: 9.4pt !important;
+        line-height: 1.30 !important;
+      }
+    ` : ''}
+
     ${chMeta.index === 27 ? `
       body {
         font-size: 9.6pt !important;

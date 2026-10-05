@@ -63,6 +63,16 @@ Following the recommendations of the **Committee on Comprehensive Financial Serv
 
 ---
 
+### 4. Local Area Banks (LABs) Architecture
+
+• **Origin & Policy Mandate:** Introduced in **August 1996** following the 1996 Union Budget to mobilize rural and semi-urban household savings and channel local resources into local investments.  
+• **Statutory & Operational Boundaries:**  
+  - **Geographical Jurisdiction:** Strictly restricted to operate across a maximum of **three contiguous districts**.  
+  - **Capital Requirement:** Minimum paid-up equity capital of **₹5 Crore** (with promoters contributing at least ₹2 Crore).  
+  - **Regulatory Status:** Licensed under Section 22 of Banking Regulation Act, 1949 as Non-Scheduled Commercial Banks; mandated to maintain **15.0% CRAR** and comply with prudential priority sector norms. Active surviving LABs include *Coastal Local Area Bank Ltd* and *Krishna Bhima Samruddhi LAB Ltd*.
+
+---
+
 ### Examiner Trap Vault: Unit 21b High-Yield Distractors
 
 1. **Trap — Payment Bank Credit Cards:** Payment Banks **CANNOT issue Credit Cards**. They can issue ATM/Debit cards, Net Banking, and UPI handles, but **zero credit products**.
@@ -70,12 +80,13 @@ Following the recommendations of the **Committee on Comprehensive Financial Serv
 3. **Trap — RRB Shareholding Breakdown:** Central Government: **50%**, Sponsor Bank: **35%**, State Government: **15%**. (Do not confuse the Sponsor Bank's 35% with the State's 15%).
 4. **Trap — UCB 2025 PSL Target:** In current RBI Master Directions, the overall PSL target for Urban Co-operative Banks is **60% of ANBC**, NOT 75% or 40%.
 5. **Trap — Small Finance Bank Small Loan Quota:** An SFB must ensure that at least **50% of its loan portfolio comprises loans up to ₹25 Lakh**.
+6. **Trap — Local Area Bank Jurisdiction:** LABs are restricted to a maximum of **3 contiguous districts** with minimum capital of **₹5 Crore**; they are NOT multi-state scheduled banks.
 
 ---
 
 ### Unit 21b Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED / RRB SHAREHOLDING] What is the statutory equity shareholding pattern in Regional Rural Banks (RRBs) established under the Regional Rural Banks Act, 1976?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / RRB SHAREHOLDING] What is the statutory equity shareholding pattern in Regional Rural Banks (RRBs) established under the Regional Rural Banks Act, 1976?**  
 A. Central Govt: 51%, State Govt: 25%, Sponsor Bank: 24%  
 B. Central Govt: 50%, Sponsor Bank: 35%, State Govt: 15%  
 C. Central Govt: 60%, Sponsor Bank: 20%, State Govt: 20%  
@@ -87,7 +98,7 @@ B. Tier 2 UCB
 C. Tier 3 UCB  
 D. Tier 4 UCB  
 
-**Q3. [PYQ-RECOLLECTED / PAYMENT BANK PROHIBITIONS] Under RBI guidelines governing Payment Banks, which of the following activities is strictly prohibited?**  
+**Q3. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / PAYMENT BANK PROHIBITIONS] Under RBI guidelines governing Payment Banks, which of the following activities is strictly prohibited?**  
 A. Issuing Rupay Debit Cards linked to savings accounts  
 B. Accepting demand deposits up to ₹2,00,000 per customer  
 C. Providing utility bill payment and domestic inward remittance services  

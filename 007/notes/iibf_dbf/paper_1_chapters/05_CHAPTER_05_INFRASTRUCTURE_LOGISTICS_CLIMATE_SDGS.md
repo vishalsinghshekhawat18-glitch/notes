@@ -1,4 +1,4 @@
-# INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs
+﻿# INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs
 
 Infrastructure represents the foundational capital asset enabling economic production, logistics efficiency, and human capital formation. This chapter integrates Physical and Social Infrastructure (Unit 05) with Climate Action, Sustainable Development Goals (SDGs), and Corporate Social Responsibility mandates (Unit 10).
 
@@ -33,9 +33,9 @@ Infrastructure represents the foundational capital asset enabling economic produ
   - Provides a defined health cover of **₹5 Lakh per family per year** for secondary and tertiary care hospitalization to bottom 40% vulnerable households.
   - Cashless, paperless access at empaneled public and private hospitals across India.
   - *Current Expansion:* Health coverage of ₹5 Lakh per year extended to **all senior citizens aged 70 years and above**, irrespective of income bracket.
-• **National Education Policy (NEP) 2020:**
-  - Restructured pedagogical framework from 10+2 to **5+3+3+4** (Foundational: 5 yrs, Preparatory: 3 yrs, Middle: 3 yrs, Secondary: 4 yrs).
-  - Public education expenditure target set at **6% of GDP** (Centre and States combined).
+• **Civil Aviation & Regional Connectivity (UDAN — Ude Desh ka Aam Naagrik):** Regional Airport Development scheme capping regional airfares (at ₹2,500/hour of flight) backed by Viability Gap Funding (VGF) to connect unserved tier-2/3 airstrips.  
+• **Family Welfare & Public Health (National Health Mission — NHM):** Integrates NRHM and NUHM targeting maternal mortality ratio (MMR < 70 per 100,000) and infant mortality rate (IMR < 25 per 1,000 live births).  
+• **National Education Policy (NEP) 2020:** Restructured pedagogical framework from 10+2 to **5+3+3+4**; public education expenditure target set at **6% of GDP**.
 
 ---
 
@@ -53,21 +53,15 @@ At COP26 (Glasgow) and reaffirmed in updated Nationally Determined Contributions
 4. **45% Carbon Intensity Reduction:** Reduce carbon intensity of GDP by **45% by 2030** (over 2005 baseline levels).
 5. **Net Zero Carbon Target:** Achieve **Net Zero carbon emissions by 2070**.
 
-### 2. Green Finance & ESG Disclosure Architecture (SEBI BRSR Core Phased Framework)
+### 2. Green Finance & ESG Disclosure Architecture (SEBI BRSR Core Regime)
 
-• **Sovereign Green Bonds (SGrBs):** Issued by the Reserve Bank of India on behalf of the Central Government. Proceeds are credited to the Consolidated Fund of India and exclusively deployed into public sector projects that reduce carbon intensity (Renewable energy, clean transport, green buildings).  
-• **Business Responsibility and Sustainability Reporting (BRSR):** Mandated by SEBI for the **Top 1,000 listed entities by market capitalization** on Indian stock exchanges.  
-• **BRSR Core & Third-Party Reasonable Assurance Glide Path:**  
-  Introduced by SEBI in July 2023, **BRSR Core** comprises **9 key measurable ESG attributes / Key Performance Indicators (KPIs)** (GHG emissions, water usage, waste management, employee well-being, gender diversity, inclusive development). SEBI mandated independent third-party **Reasonable Assurance** for BRSR Core across a phased glide path:
-
-| Financial Year | Mandated Coverage for BRSR Core Reasonable Assurance |
-| :--- | :--- |
-| **FY 2023–24** | **Top 150 listed entities** by market capitalization |
-| **FY 2024–25** | **Top 250 listed entities** by market capitalization |
-| **FY 2025–26** | **Top 500 listed entities** by market capitalization |
-| **FY 2026–27** | **Top 1,000 listed entities** by market capitalization |
-
-*Note on Value Chain Disclosures:* In addition, ESG disclosures for value chains (upstream and downstream partners) apply to the top 250 listed entities on a 'comply-or-explain' basis from FY 2024–25, with limited assurance phased in from FY 2025–26.
+• **Sovereign Green Bonds (SGrBs):** Issued by RBI on behalf of the Government; proceeds are credited to Consolidated Fund of India and deployed into public green infrastructure.  
+• **Business Responsibility and Sustainability Reporting (BRSR):** Mandated by SEBI for the **Top 1,000 listed entities by market capitalization**.  
+• **BRSR Core Regime (Current as of October 2026 — SEBI Circulars & FAQs):**  
+  Introduced in July 2023, **BRSR Core** comprises **9 key measurable ESG attributes / KPIs** (GHG emissions, water footprint, waste management, gender diversity):
+  - *Applicability Glide Path:* Covers Top 150 (FY 2023–24), Top 250 (FY 2024–25), Top 500 (FY 2025–26), and Top 1,000 (FY 2026–27) listed entities.
+  - *Assessment or Assurance Flexibility:* While the July 2023 circular originally contemplated mandatory third-party reasonable assurance, current SEBI regulatory framework provides operational flexibility allowing **either assessment or assurance** of BRSR Core metrics.
+  - *Value Chain Disclosures:* Value chain ESG disclosures and associated external verification are currently **voluntary**.
 
 ### 3. Statutory Corporate Social Responsibility (CSR) — Section 135, Companies Act 2013
 
@@ -86,7 +80,7 @@ At COP26 (Glasgow) and reaffirmed in updated Nationally Determined Contributions
 2. **Trap — Net Zero Target Year:** India's official commitment for Net Zero greenhouse gas emissions is **2070** (not 2050 as pledged by Western economies).
 3. **Trap — CSR Applicability Criteria:** A company is covered if it breaches **any one** of the three criteria: Net Worth ₹500 Cr, Turnover ₹1,000 Cr, OR Net Profit ₹5 Cr.
 4. **Trap — CSR Committee Exemption:** If a company's annual CSR obligation does not exceed **₹50 Lakh**, it is **not mandatory** to constitute a separate CSR Committee; the Board discharges these functions directly.
-5. **Trap — BRSR Core FY 2025-26 Phase:** Third-party reasonable assurance for BRSR Core applies to the **Top 500 listed entities** in FY 2025–26 and extends to the **Top 1,000** in FY 2026–27.
+5. **Trap — BRSR Core Assessment vs Assurance:** Current SEBI regulatory framework permits **either assessment or assurance** for BRSR Core KPIs (not solely restricted to mandatory reasonable assurance), and value chain disclosures remain **voluntary**.
 
 ---
 
@@ -98,7 +92,7 @@ B. 40%
 C. 60%  
 D. 100%  
 
-**Q2. [PYQ-RECOLLECTED] Under Section 135 of the Companies Act, 2013, which of the following companies is NOT legally mandated to spend at least 2% of its average net profits on Corporate Social Responsibility (CSR)?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under Section 135 of the Companies Act, 2013, which of the following companies is NOT legally mandated to spend at least 2% of its average net profits on Corporate Social Responsibility (CSR)?**  
 A. A company having a net worth of ₹550 Crore and net profit of ₹2 Crore  
 B. A company having an annual turnover of ₹1,200 Crore and net profit of ₹3 Crore  
 C. A company having a net worth of ₹300 Crore, turnover of ₹800 Crore, and net profit of ₹4 Crore  

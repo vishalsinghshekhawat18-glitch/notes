@@ -1,4 +1,4 @@
-# DFIs, NaBFID, FINANCIAL INCLUSION & DIGITAL RAILS
+﻿# DFIs, NaBFID, FINANCIAL INCLUSION & DIGITAL RAILS
 
 Development Financial Institutions (DFIs) provide patient, long-term capital for industrialization and infrastructure, while digital payment rails drive universal financial inclusion. This chapter explores the historical evolution and modern revival of DFIs including NaBFID (Unit 23) alongside Financial Inclusion, FinTech, and Central Bank Digital Currency (Unit 26).
 
@@ -94,7 +94,7 @@ Introduced by the RBI in **August 2021** to measure the extent of financial incl
 
 ### Unit 23 & Unit 26 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED / HISTORICAL DFI ORIGIN] Which was the FIRST Development Financial Institution (DFI) established in post-independence India to provide long-term credit to industry?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / HISTORICAL DFI ORIGIN] Which was the FIRST Development Financial Institution (DFI) established in post-independence India to provide long-term credit to industry?**  
 A. Industrial Credit and Investment Corporation of India (ICICI)  
 B. Industrial Development Bank of India (IDBI)  
 C. Industrial Finance Corporation of India (IFCI)  

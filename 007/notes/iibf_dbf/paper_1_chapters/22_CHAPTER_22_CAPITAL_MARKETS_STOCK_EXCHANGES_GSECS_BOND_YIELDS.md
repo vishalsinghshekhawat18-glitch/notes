@@ -1,4 +1,4 @@
-# CAPITAL MARKETS, STOCK EXCHANGES, G-SECS & BOND YIELDS
+﻿# CAPITAL MARKETS, STOCK EXCHANGES, G-SECS & BOND YIELDS
 
 The Capital Market provides long-term debt and equity financing for corporations and governments. This chapter examines primary market issuance and exchange trading (Unit 31) alongside fixed-income sovereign securities, FIMMDA benchmarks, the RBI Retail Direct Scheme, and Inter-Corporate Deposits (ICDs) (Unit 32).
 
@@ -117,7 +117,7 @@ $$\text{Accrued Interest} = \text{Coupon Amount} \times \left( \frac{\text{Days 
 
 ### Unit 31 & Unit 32 Practice Questions (IIBF DB&F Pattern)
 
-**Q1. [PYQ-RECOLLECTED] What is the Macaulay Duration of an 8-year zero-coupon bond yielding 7% per annum?**  
+**Q1. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] What is the Macaulay Duration of an 8-year zero-coupon bond yielding 7% per annum?**  
 A. 4 years  
 B. 7 years  
 C. Exactly 8 years  
@@ -129,7 +129,7 @@ B. Flat transaction fee of 0.10% on every auction bid
 C. Completely free of cost with zero account opening and zero maintenance charges  
 D. Security deposit of ₹10,000 refundable after 3 years  
 
-**Q3. [PYQ-RECOLLECTED / 2026 BENCHMARK] Under Reserve Bank of India directions, which authorized independent benchmark administrator is responsible for calculating and publishing the official daily benchmark yield curves and valuations for Indian Government Securities (G-Secs, T-Bills, SDLs) used by banks for mark-to-market portfolio accounting?**  
+**Q3. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / 2026 BENCHMARK] Under Reserve Bank of India directions, which authorized independent benchmark administrator is responsible for calculating and publishing the official daily benchmark yield curves and valuations for Indian Government Securities (G-Secs, T-Bills, SDLs) used by banks for mark-to-market portfolio accounting?**  
 A. Indian Banks' Association (IBA)  
 B. Financial Benchmarks India Private Limited (FBIL)  
 C. Association of Mutual Funds in India (AMFI)  

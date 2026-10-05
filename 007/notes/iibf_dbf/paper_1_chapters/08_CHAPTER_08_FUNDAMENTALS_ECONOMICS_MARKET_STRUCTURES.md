@@ -1,4 +1,4 @@
-# FUNDAMENTALS OF ECONOMICS & MARKET STRUCTURES
+﻿# FUNDAMENTALS OF ECONOMICS & MARKET STRUCTURES
 
 Economics analyzes the allocation of scarce resources among competing ends to maximize individual utility and societal welfare. In banking operations, understanding fundamental microeconomic price determination and market structures provides the analytical foundation for credit underwriting, sector appraisal, and interest rate risk modeling.
 
@@ -62,7 +62,7 @@ B. Perfectly inelastic because consumers have zero substitutes
 C. Relatively elastic because rivals will not follow a price increase  
 D. A horizontal straight line indicating infinite supply at zero cost  
 
-**Q2. [PYQ-RECOLLECTED] Under perfect competition, which of the following mathematical identities holds true for an individual profit-maximizing firm in the short run?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under perfect competition, which of the following mathematical identities holds true for an individual profit-maximizing firm in the short run?**  
 A. Price = Average Revenue = Marginal Revenue  
 B. Price > Marginal Revenue = Marginal Cost  
 C. Price = Average Cost > Marginal Revenue  

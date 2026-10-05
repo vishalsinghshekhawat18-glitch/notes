@@ -1,4 +1,4 @@
-# MONEY MARKET ARCHITECTURE: CALL, T-BILLS, CP, CD & TREPS
+﻿# MONEY MARKET ARCHITECTURE: CALL, T-BILLS, CP, CD & TREPS
 
 The Money Market facilitates short-term wholesale liquidity allocation for maturities up to one year (365 days) under the regulatory authority of the Reserve Bank of India. This chapter examines the structural segregation of financial markets (Unit 29) alongside money market instruments, Certificates of Deposit, Bills Rediscounting (BRDS), and Long-Term Repo Operations (LTRO) (Unit 30).
 
@@ -118,7 +118,7 @@ B. ₹2 Lakh and in multiples of ₹2 Lakh thereafter
 C. ₹5 Lakh and in multiples of ₹5 Lakh thereafter  
 D. ₹10 Lakh and in multiples of ₹10 Lakh thereafter  
 
-**Q2. [PYQ-RECOLLECTED] Under the Bills Rediscounting Scheme (BRDS) regulated by the RBI, which of the following conditions is mandatory for a bill of exchange to be eligible for rediscounting?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under the Bills Rediscounting Scheme (BRDS) regulated by the RBI, which of the following conditions is mandatory for a bill of exchange to be eligible for rediscounting?**  
 A. The bill must be an accommodation bill drawn between two parent and subsidiary companies  
 B. The bill must arise out of a genuine commercial transaction for the sale of goods and carry at least two good signatures  
 C. The original maturity of the trade bill must be at least 3 years  
@@ -130,7 +130,7 @@ B. LTRO provides banks with durable liquidity for tenors of 1 year and 3 years a
 C. LTRO is accessible exclusively to retail corporate borrowers directly from the RBI  
 D. LTRO interest rates are pegged to the 10-year benchmark sovereign yield rather than the repo rate  
 
-**Q4. [PYQ-RECOLLECTED] Consider the following statements regarding money market instruments in India:**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following statements regarding money market instruments in India:**  
 Statement I: Commercial banks are legally prohibited from granting loans against the security of their own Certificates of Deposit.  
 Statement II: In the uncollateralized Call Money market, corporate borrowers and mutual funds are permitted to borrow overnight funds directly from commercial banks.  
 Which of the statements given above is/are correct?  

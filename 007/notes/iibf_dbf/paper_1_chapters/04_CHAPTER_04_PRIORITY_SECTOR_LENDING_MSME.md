@@ -65,6 +65,15 @@ The Ministry of Micro, Small and Medium Enterprises notified the **revised compo
 • **PSL Shortfall Mechanism:**
   - Scheduled commercial banks failing to achieve their mandated PSL targets or sub-targets are allocated penal shortfall contributions to the **Rural Infrastructure Development Fund (RIDF)** maintained by NABARD, or other designated funds with SIDBI, NHB, or MUDRA at sub-market, penalized interest rates.
 
+### 5. National Industrial & Entrepreneurship Initiatives
+
+| National Initiative | Launch & Nodal Agency | Target Architecture & Financial Parameters |
+| :--- | :--- | :--- |
+| **Make in India** | Sept 2014; DPIIT | Global manufacturing hub; target manufacturing share of **25% of GDP** across champion sectors. |
+| **Startup India** | Jan 2016; DPIIT | Income-tax exemptions (Sec 80-IAC), 3-year self-certification; **Fund of Funds for Startups (FFS)** of ₹10,000 Cr managed by SIDBI. |
+| **Stand-Up India** | April 2016; DFS / MoF | Bank loans between **₹10 Lakh and ₹1 Crore** to at least one SC/ST and one woman borrower per bank branch for greenfield units. |
+| **Atmanirbhar Bharat** | May 2020; MoF | 5 Pillars (Economy, Infrastructure, System, Demography, Demand); launched ₹5 Lakh Cr **ECLGS** collateral-free MSME credit. |
+
 ---
 
 ### Examiner Trap Vault: Unit 04 High-Yield Distractors
@@ -85,13 +94,13 @@ B. Investment in Plant & Machinery does not exceed ₹25 Crore and Annual Turnov
 C. Investment in Plant & Machinery does not exceed ₹50 Crore and Annual Turnover does not exceed ₹250 Crore  
 D. Investment in Plant & Machinery does not exceed ₹125 Crore and Annual Turnover does not exceed ₹500 Crore  
 
-**Q2. [PYQ-RECOLLECTED / 2026 BENCHMARK] Under the RBI's revised Priority Sector Lending directions, what is the mandated overall PSL target for Primary Urban Co-operative Banks (UCBs)?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / 2026 BENCHMARK] Under the RBI's revised Priority Sector Lending directions, what is the mandated overall PSL target for Primary Urban Co-operative Banks (UCBs)?**  
 A. 40% of ANBC or CEOBE, whichever is higher  
 B. 60% of ANBC or CEOBE, whichever is higher  
 C. 75% of ANBC or CEOBE, whichever is higher  
 D. 50% of ANBC or CEOBE, whichever is higher  
 
-**Q3. [PYQ-RECOLLECTED] Under Section 16 of the MSMED Act, 2006, what is the statutory penalty for a buyer failing to make payment to an MSME supplier within the mandated maximum period of 45 days?**  
+**Q3. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under Section 16 of the MSMED Act, 2006, what is the statutory penalty for a buyer failing to make payment to an MSME supplier within the mandated maximum period of 45 days?**  
 A. Simple interest at 2 times the prevailing Repo Rate  
 B. Compound interest with monthly rests at 3 times the Bank Rate notified by the RBI  
 C. Flat penal interest of 18% per annum compounded quarterly  

@@ -17,7 +17,7 @@ National Income accounting aggregates the total monetary value of economic outpu
 | **Gross National Product (GNP)** | $$GNP = GDP + \text{NFIA}$$ | **Citizenship / Resident Concept:** Adjusts for **Net Factor Income from Abroad (NFIA)**:  $$\text{NFIA} = \text{Factor income earned by residents abroad} - \text{Factor income earned by non-residents in India}$$ |
 | **Net Domestic Product (NDP)** | $$NDP = GDP - \text{Depreciation}$$ | Deducts **Consumption of Fixed Capital (Depreciation)** to reflect asset wear and tear. |
 | **Net National Product (NNP)** | $$NNP = GNP - \text{Depreciation}$$ | Cleanest macroeconomic measure of aggregate national wealth generated. |
-| **National Income ($\text{NNP}_{FC}$)** | $$\text{NNP}_{MP} - \text{Net Indirect Product Taxes} = \text{NNP}_{FC}$$ | **Official Statutory Definition:** In economic science, 'National Income' refers strictly to **Net National Product at Factor Cost ($\text{NNP}_{FC}$)**. |
+| **National Income ($\text{NNP}_{FC}$)** | $$\text{NNP}_{MP} - \text{Net Indirect Product Taxes} = \text{NNP}_{FC}$$ | **Classical / Textbook National Income Definition:** In economic science and standard national accounting conventions, 'National Income' refers strictly to **Net National Product at Factor Cost ($\text{NNP}_{FC}$)**, distinct from headline GDP at Market Prices reported for current growth announcements. |
 | **GVA at Basic Prices** | $$\text{GVA at Factor Cost} + (\text{Production Taxes} - \text{Production Subsidies})$$ | Measures producer value before product-specific levies. Used by RBI to analyze sectoral supply. |
 | **GDP at Market Prices** | $$\text{GVA at Basic Prices} + (\text{Product Taxes} - \text{Product Subsidies})$$ | **Headline GDP metric** officially reported by MoSPI. |
 
@@ -73,7 +73,7 @@ $$\text{ICOR} = \frac{\Delta K}{\Delta Y} = \frac{\text{Investment Rate (\% of G
 ### Examiner Trap Vault: Unit 18 High-Yield Distractors
 
 1. **Trap — Current Base Year:** MoSPI released the new National Accounts series on **27 February 2026 with Base Year 2022–23**. An answer choice citing 2011–12 as the current series is **outdated and incorrect**.
-2. **Trap — Official Definition of National Income:** While headline growth is reported as GDP at Market Prices, the term **'National Income'** in economic theory strictly refers to **Net National Product at Factor Cost ($\text{NNP}_{FC}$)**.
+2. **Trap — Classical Definition of National Income:** While headline growth is reported as GDP at Market Prices, the textbook/classical term **'National Income'** in economic theory strictly refers to **Net National Product at Factor Cost ($\text{NNP}_{FC}$)**.
 3. **Trap — Transfer Payments in National Income:** Old-age pensions, disaster relief grants, and student scholarships are **transfer payments and are EXCLUDED from National Income**. However, retirement pensions earned against prior employment are factor payments and are included.
 4. **Trap — ICOR Direction:** A **lower ICOR is desirable** because it means less capital investment is needed to achieve a given rate of economic growth.
 
@@ -87,7 +87,7 @@ B. 2016–17
 C. 2020–21  
 D. 2022–23  
 
-**Q2. [PYQ-RECOLLECTED] In economic accounting, which of the following macroeconomic aggregates is officially defined as 'National Income'?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] In economic accounting, which of the following macroeconomic aggregates is officially defined as 'National Income'?**  
 A. Gross Domestic Product at Market Prices ($GDP_{MP}$)  
 B. Gross National Product at Market Prices ($GNP_{MP}$)  
 C. Net National Product at Factor Cost ($NNP_{FC}$)  
@@ -99,7 +99,7 @@ B. 7.0%
 C. 8.5%  
 D. 10.0%  
 
-**Q4. [PYQ-RECOLLECTED] Consider the following items with respect to National Income accounting via the Income Method:**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Consider the following items with respect to National Income accounting via the Income Method:**  
 1. Wages and salaries paid to corporate employees  
 2. Old-age pensions disbursed under social welfare schemes  
 3. Rental income received by property owners  

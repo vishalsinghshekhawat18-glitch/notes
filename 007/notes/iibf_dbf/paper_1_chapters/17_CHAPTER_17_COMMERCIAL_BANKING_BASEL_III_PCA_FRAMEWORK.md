@@ -1,4 +1,4 @@
-# COMMERCIAL BANKING, BASEL III & PCA FRAMEWORK
+﻿# COMMERCIAL BANKING, BASEL III & PCA FRAMEWORK
 
 Scheduled Commercial Banks (SCBs) form the core of the Indian financial intermediation architecture. To preserve depositor confidence and withstand macro-financial shocks, commercial banks operate under strict capital adequacy standards (Basel III) and are subject to immediate regulatory intervention under the Prompt Corrective Action (PCA) framework.
 
@@ -60,15 +60,17 @@ The Basel Committee on Banking Supervision (BCBS) formulated Basel III following
 
 The RBI's **Prompt Corrective Action (PCA) Framework for Scheduled Commercial Banks** (Circular dated 2 Nov 2021, effective 1 Jan 2022) monitors banks across three parameters: **Capital, Asset Quality, and Leverage**.
 
-> **Regulatory Minimum vs. PCA Trigger Distinction:**  
-> The **Capital Conservation Buffer (CCB of 2.5%)** is an ongoing regulatory capital requirement, but the breach of CCB alone is NOT the PCA trigger. PCA risk thresholds are triggered when capital drops below the **prescribed minimum regulatory capital** (9.0% CRAR / 5.5% CET1) by specified basis points:
+> **Methodology — Basis-Point Deterioration from Capital Baseline:**  
+> In the RBI 2022 framework, PCA capital thresholds are officially measured by **basis-point (bps) deterioration from the applicable regulatory minimum including the Capital Conservation Buffer (CCB)**:
+> • Baseline CRAR = **11.5%** (9.0% regulatory minimum + 2.5% CCB).  
+> • Baseline CET1 = **8.0%** (5.5% regulatory minimum + 2.5% CCB).
 
-| Parameter & Indicator | Regulatory Minimum Prescription | Risk Threshold 1 (Dividend Restrictions) | Risk Threshold 2 (Threshold 1 + Branch Curbs) | Risk Threshold 3 (Threshold 2 + Management Pay Curbs) |
+| Parameter & Indicator | Applicable Regulatory Baseline (incl. CCB) | Risk Threshold 1 (Mandatory Dividend Curbs) | Risk Threshold 2 (Threshold 1 + Branch Curbs) | Risk Threshold 3 (Threshold 2 + Remuneration Curbs) |
 | :--- | :--- | :--- | :--- | :--- |
-| **CRAR (Total Capital)** | **9.0%**<br>*(11.5% with 2.5% CCB)* | **Up to 250 bps below** minimum CRAR<br>*(CRAR < 9.0% down to ≥ 6.5%)* | **> 250 bps but ≤ 400 bps below** minimum CRAR<br>*(CRAR < 6.5% down to ≥ 5.0%)* | **> 400 bps below** minimum regulatory CRAR<br>*(CRAR < 5.0%)* |
-| **Common Equity Tier 1 (CET1)** | **5.5%**<br>*(8.0% with 2.5% CCB)* | **Up to 162.5 bps below** minimum CET1<br>*(CET1 < 5.5% down to ≥ 3.875%)* | **> 162.5 bps but ≤ 312.5 bps below** minimum CET1<br>*(CET1 < 3.875% down to ≥ 2.375%)* | **> 312.5 bps below** minimum regulatory CET1<br>*(CET1 < 2.375%)* |
-| **Asset Quality (Net NPA Ratio)** | **< 6.0%** | **≥ 6.0% but < 9.0%** | **≥ 9.0% but < 12.0%** | **≥ 12.0%** |
-| **Tier 1 Leverage Ratio** | **3.5%** (Other SCBs)<br>**4.0%** (D-SIBs) | **Up to 50 bps below** regulatory minimum<br>*(3.0% to < 3.5% Other; 3.5% to < 4.0% D-SIBs)* | **> 50 bps but ≤ 100 bps below** regulatory minimum<br>*(2.5% to < 3.0% Other; 3.0% to < 3.5% D-SIBs)* | **> 100 bps below** regulatory minimum<br>*(< 2.5% Other; < 3.0% D-SIBs)* |
+| **CRAR (Total Capital)** | **11.5%**<br>*(9.0% min + 2.5% CCB)* | **Up to 250 bps below baseline**<br>*(≥ 9.0% to < 11.5%)* | **> 250 bps to ≤ 400 bps below baseline**<br>*(≥ 7.5% to < 9.0%)* | **> 400 bps below baseline**<br>*(< 7.5%)* |
+| **Common Equity Tier 1 (CET1)** | **8.0%**<br>*(5.5% min + 2.5% CCB)* | **Up to 162.5 bps below baseline**<br>*(≥ 6.375% to < 8.0%)* | **> 162.5 bps to ≤ 312.5 bps below baseline**<br>*(≥ 4.875% to < 6.375%)* | **> 312.5 bps below baseline**<br>*(< 4.875%)* |
+| **Asset Quality (Net NPA Ratio)** | **< 6.0%** | **≥ 6.0% to < 9.0%** | **≥ 9.0% to < 12.0%** | **≥ 12.0%** |
+| **Tier 1 Leverage Ratio** | **3.5%** (Other SCBs)<br>**4.0%** (D-SIBs) | **Up to 50 bps below min**<br>*(3.0% to < 3.5% Other; 3.5% to < 4.0% D-SIBs)* | **> 50 bps to ≤ 100 bps below min**<br>*(2.5% to < 3.0% Other; 3.0% to < 3.5% D-SIBs)* | **> 100 bps below min**<br>*(< 2.5% Other; < 3.0% D-SIBs)* |
 
 > **Critical Supervisory Evolution:**  
 > • **Removal of RoA Trigger:** In the revised PCA framework, **Return on Assets (RoA) was officially removed** as a mandatory supervisory trigger.  
@@ -87,7 +89,7 @@ The RBI's **Prompt Corrective Action (PCA) Framework for Scheduled Commercial Ba
 3. **Trap — RoA in Revised PCA:** Return on Assets (RoA) is **NO LONGER a trigger** under the revised PCA framework for commercial banks.
 4. **Trap — Tier 2 Capital Cap:** Under Basel III, eligible Tier 2 capital is capped at a maximum of **2.0% of Risk-Weighted Assets (RWAs)**.
 5. **Trap — Current D-SIBs:** The three designated Domestic Systemically Important Banks in India are **SBI, HDFC Bank, and ICICI Bank**.
-6. **Trap — PCA Capital Trigger vs CCB:** The Capital Conservation Buffer (2.5%) is NOT by itself the PCA trigger. Risk Threshold 1 on CRAR triggers only when Total CRAR falls **below the minimum regulatory prescription of 9.0%** (up to 250 bps below, i.e., between 6.5% and 9.0%).
+6. **Trap — PCA Capital Trigger Calibration:** PCA thresholds are measured as basis-point deterioration from the **regulatory baseline including CCB (11.5% CRAR / 8.0% CET1)**. Total CRAR Threshold 1 triggers at up to 250 bps below 11.5% (i.e. **9.0% to < 11.5%**); Threshold 2 is **7.5% to < 9.0%**; Threshold 3 is **< 7.5%**. For CET1, Threshold 1 is **6.375% to < 8.0%**; Threshold 2 is **4.875% to < 6.375%**; Threshold 3 is **< 4.875%**.
 
 ---
 
@@ -99,7 +101,7 @@ B. 10.5% of RWAs
 C. 11.5% of RWAs  
 D. 12.0% of RWAs  
 
-**Q2. [PYQ-RECOLLECTED / PCA THRESHOLD] Under the RBI's revised Prompt Corrective Action (PCA) framework, a commercial bank enters Risk Threshold 1 on asset quality when its Net Non-Performing Asset (Net NPA) ratio:**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / PCA THRESHOLD] Under the RBI's revised Prompt Corrective Action (PCA) framework, a commercial bank enters Risk Threshold 1 on asset quality when its Net Non-Performing Asset (Net NPA) ratio:**  
 A. Equals or exceeds 3.0% but is less than 6.0%  
 B. Equals or exceeds 6.0% but is less than 9.0%  
 C. Equals or exceeds 9.0% but is less than 12.0%  
@@ -114,7 +116,7 @@ B. Statement II only
 C. Both Statement I and Statement II  
 D. Neither Statement I nor Statement II  
 
-**Q4. [PYQ-RECOLLECTED / PCA EXCLUSIONS] Which of the following parameters was OFFICIALLY REMOVED as a mandatory trigger in the revised Prompt Corrective Action (PCA) framework for commercial banks?**  
+**Q4. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION / PCA EXCLUSIONS] Which of the following parameters was OFFICIALLY REMOVED as a mandatory trigger in the revised Prompt Corrective Action (PCA) framework for commercial banks?**  
 A. Common Equity Tier 1 (CET1) Ratio  
 B. Net NPA Ratio  
 C. Return on Assets (RoA)  

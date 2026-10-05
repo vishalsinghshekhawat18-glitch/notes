@@ -1,4 +1,4 @@
-# LAW OF DEMAND, SUPPLY & ELASTICITY FORMULAS
+﻿# LAW OF DEMAND, SUPPLY & ELASTICITY FORMULAS
 
 The mechanics of price determination in market economies depend on the interaction between market demand and supply curves. In banking and treasury management, elasticity principles govern the interest-rate sensitivity of deposits, credit product pricing, and corporate borrower revenue forecasts.
 
@@ -111,7 +111,7 @@ B. 1.00 (Unitary Elastic)
 C. 1.50 (Elastic)  
 D. -0.67 (Inelastic)  
 
-**Q2. [PYQ-RECOLLECTED] When the price of good Y increases from ₹20 to ₹25, the quantity demanded of good X increases from 100 units to 120 units. What is the cross-price elasticity of demand between X and Y, and what is their relationship?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] When the price of good Y increases from ₹20 to ₹25, the quantity demanded of good X increases from 100 units to 120 units. What is the cross-price elasticity of demand between X and Y, and what is their relationship?**  
 A. +0.80; Substitute goods  
 B. -0.80; Complementary goods  
 C. +1.25; Independent goods  

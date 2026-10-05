@@ -68,7 +68,8 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 └────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
-• **Angel Investors vs. VC Funds:** Angel investors are high-net-worth individuals investing their own personal capital in seed-stage ventures, whereas Venture Capitalists manage pooled institutional funds registered under SEBI Alternative Investment Fund regulations.
+• **Angel Investors vs. VC Funds:** Angel investors are high-net-worth individuals investing their own personal capital in seed-stage ventures, whereas Venture Capitalists manage pooled institutional funds registered under SEBI Alternative Investment Fund regulations.  
+• **VC Disinvestment & Exit Routes:** Venture capitalists harvest returns via four primary routes: (1) **Initial Public Offering (IPO):** Listing start-up shares on stock exchanges (highest valuation); (2) **Trade Sale / Strategic Sale:** Acquired by established corporations in the same industry; (3) **Secondary Sale:** Sale of stake to another private equity or VC firm; (4) **Promoter Buyback:** Promoters repurchase shares using internal company accruals.
 
 ---
 
@@ -88,7 +89,7 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 | **Initial Down Payment** | Typically **Zero down payment** (or small security deposit). | Mandates substantial upfront margin / down payment (**15% to 25%**). |
 | **Termination Rights** | Financial leases are strictly non-cancellable. | Hirer can terminate before maturity by returning the goods. |
 
-• **Ind AS 116 (Leases):** Effective from 1 April 2019, modern Indian accounting standards dismantled the balance-sheet distinction between operating and financial leases for lessees. Lessees must recognize a **Right-of-Use (ROU) Asset** alongside a **Lease Liability** for virtually all commercial lease contracts.
+• **Ind AS 116 (Leases) & Financial Ratio Impacts:** Effective 1 April 2019, lessees must bring all leases onto the balance sheet as a **Right-of-Use (ROU) Asset** and corresponding **Lease Liability**. Financial impacts: (1) **Higher EBITDA** (lease rental split into depreciation and finance cost); (2) **Higher Leverage** (debt-to-equity ratio increases due to recognized lease liabilities); (3) Front-loaded expense recognition.
 
 ---
 
@@ -108,9 +109,19 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
   $$\text{NAV} = \frac{\text{Market Value of Investments} + \text{Current Assets} - \text{Current Liabilities and Provisions}}{\text{Total Number of Outstanding Units}}$$
   NAV is computed and published daily on business days by all mutual funds.
 
+### 2. Mutual Fund Operational Tools: Riskometer, TER & Loads
+
+• **New Fund Offer (NFO):** Initial public subscription period for a newly created mutual fund scheme, open for a maximum of **15 days** (extended to 30 days for ELSS).  
+• **SEBI Riskometer:** Dynamic risk grading tool updated monthly, displaying risk across **6 standardized tiers**: (1) Low, (2) Low to Moderate, (3) Moderate, (4) Moderately High, (5) High, and (6) Very High.  
+• **Total Expense Ratio (TER) & Loads:**  
+  - **Entry Load:** **Strictly PROHIBITED (0%)** by SEBI across all schemes since August 2009.  
+  - **Exit Load:** Charged if units are redeemed before a specified period (e.g. 1 year); proceeds are credited back to the scheme.  
+  - **TER Caps (Regulation 52):** Annual management and operational expenses are capped on a sliding scale based on AUM (equity schemes capped from 2.25% down to 1.05%; additional 30 bps allowed for inflows from Beyond-30 (B-30) cities).  
+• **Investment Styles:** *Active Management* (beating benchmark through stock picking) vs. *Passive Management* (index funds and ETFs mimicking benchmark with minimal tracking error); *Growth* (earnings momentum) vs. *Value* (undervalued assets with safety margin).
+
 ---
 
-### 2. Alternative Investment Funds (AIFs) — Three SEBI Categories & Quantitative Baselines
+### 3. Alternative Investment Funds (AIFs) — Three SEBI Categories & Quantitative Baselines
 
 Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 
@@ -122,15 +133,9 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 
 • **AIF Core Quantitative Baselines:**
   - **Minimum Scheme Corpus:** At least **₹20 Crore** for each scheme of Category I, Category II, and Category III AIFs (except **Angel Funds**, where the minimum corpus is **₹5 Crore**).
-  - **Minimum Investment Ticket Size:**
-    - Standard Investors: Minimum **₹1 Crore** per investor.
-    - Employees/Directors of AIF or AMC: Minimum **₹25 Lakh**.
-    - Angel Funds: Minimum **₹25 Lakh** per angel investor.
+  - **Minimum Investment Ticket Size:** Standard Investors: Minimum **₹1 Crore** per investor. Employees/Directors of AIF: Minimum **₹25 Lakh**. Angel Funds: Minimum **₹25 Lakh** per angel investor.
   - **Maximum Investor Headcount:** Capped at **1,000 investors** per scheme (except Angel Funds, capped at **200 angel investors**).
-  - **Sponsor / Manager Continuing Interest ('Skin in the Game'):**
-    - *Category I & II:* At least **2.5% of corpus or ₹5 Crore**, whichever is lower.
-    - *Category III:* At least **5.0% of corpus or ₹10 Crore**, whichever is lower.
-    - *Angel Funds:* At least **2.5% of corpus or ₹50 Lakh**, whichever is lower.
+  - **Sponsor / Manager Continuing Interest ('Skin in the Game'):** Category I & II: At least **2.5% of corpus or ₹5 Crore**, whichever is lower. Category III: At least **5.0% of corpus or ₹10 Crore**, whichever is lower.
   - **Fund Tenure:** Categories I and II are strictly **close-ended** with a minimum tenure of **3 years**. Category III funds may be open-ended or close-ended.
 
 ---
@@ -148,6 +153,15 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
   - *Standard Baseline:* Aggregate consolidated net debt of a REIT or InvIT cannot exceed **49% of the total value of assets** (if borrowings exceed 25%, credit rating and unitholder approval are mandatory).
   - *InvIT Borrowing Exception (SEBI Framework & May 15, 2026 Circular):* An InvIT is permitted to leverage beyond 49% up to a maximum ceiling of **70% of asset value**, provided it satisfies strict prudential conditions: (1) consolidated debt must hold a **mandatory 'AAA' (or equivalent) credit rating**; (2) track record of at least **6 consecutive distributions** to unitholders; and (3) prior approval of unitholders with a **supermajority of at least 75% by value**.
 
+### 2. Taxation Framework for REITs and InvITs
+
+• **Pass-Through Status (Section 115UA):** Income stream received by the Business Trust is passed through to unitholders retaining its original character:  
+  - *Interest from SPVs:* Passed through tax-free to the Trust, taxable in unitholders' hands at applicable income tax slab rates.  
+  - *Dividends from SPVs:* Tax-exempt in unitholders' hands if the SPV has not opted for concessional corporate tax under Section 115BAA; taxable if SPV opted for 115BAA.  
+• **Capital Gains on Sale of Listed Units (Finance Act 2024 / Current Regime):**  
+  - **Short-Term Capital Gains (STCG):** Units held $\le$ 12 months taxed at **20%** (Section 111A).  
+  - **Long-Term Capital Gains (LTCG):** Units held > 12 months taxed at **12.5%** on gains exceeding ₹1.25 Lakh (Section 112A).
+
 ---
 
 ### Examiner Trap Vault: Unit 37, 38, 39, 41 & 45 High-Yield Distractors
@@ -158,6 +172,9 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 4. **Trap — REIT 80% & 90% Rules:** At least **80%** of asset value must be in completed revenue-generating assets; and at least **90%** of Net Distributable Cash Flows must be distributed to investors.
 5. **Trap — AIF Category Permitted to Use Leverage:** Only **Category III AIFs (Hedge Funds)** are permitted to employ leverage; Categories I and II cannot use leverage.
 6. **Trap — AIF Minimum Ticket & Corpus:** Standard AIF schemes require a **minimum corpus of ₹20 Crore** (₹5 Cr for Angel Funds) and a **minimum investor ticket of ₹1 Crore** (₹25 Lakh for Angel Funds).
+7. **Trap — Mutual Fund Entry Load:** SEBI **banned entry loads in August 2009**. Entry load on mutual funds in India is strictly **0%**.
+8. **Trap — SEBI Riskometer Tiers:** The SEBI Riskometer consists of **6 distinct risk tiers** (Low, Low to Moderate, Moderate, Moderately High, High, Very High), updated monthly.
+9. **Trap — REIT/InvIT Unit Capital Gains Rates:** Under current tax law, STCG on listed units is taxed at **20%**, and LTCG (holding > 12 months) is taxed at **12.5%** on gains above ₹1.25 Lakh.
 
 ---
 
@@ -169,13 +186,13 @@ B. Category II AIF
 C. Category III AIF  
 D. All AIF categories equally  
 
-**Q2. [PYQ-RECOLLECTED] Under SEBI (Real Estate Investment Trusts) Regulations, what minimum percentage of the total value of REIT assets must be invested in completed, revenue-generating commercial properties?**  
+**Q2. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] Under SEBI (Real Estate Investment Trusts) Regulations, what minimum percentage of the total value of REIT assets must be invested in completed, revenue-generating commercial properties?**  
 A. 50%  
 B. 60%  
 C. 75%  
 D. 80%  
 
-**Q3. [PYQ-RECOLLECTED] In international trade finance, which of the following represents a defining characteristic of Forfaiting in contrast to domestic factoring?**  
+**Q3. [PYQ-PATTERN / RECOLLECTED RECONSTRUCTION] In international trade finance, which of the following represents a defining characteristic of Forfaiting in contrast to domestic factoring?**  
 A. It is short-term factoring with full recourse to the seller  
 B. It is medium-to-long term trade discounting executed strictly without recourse to the exporter  
 C. It involves sales ledger administration for domestic retail debtors  
