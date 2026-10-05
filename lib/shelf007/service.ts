@@ -188,14 +188,14 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
       code: 'DBF-007',
       authors: 'Official IIBF Macmillan Courseware (IE&IFS • PPB • AFMB • RBWM)',
       description:
-        'Exhaustive 4-paper curriculum covering IE&IFS, PPB, AFMB, and RBWM. Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III ratios, and 5 rapid revision vaults.',
+        'Exhaustive 4-paper curriculum covering IE&IFS (27 Chapters), PPB (30 Chapters), AFMB (20 Chapters), and RBWM (20 Chapters). Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III ratios, and 5 rapid revision vaults.',
       totalChapters: dbfChapters.length,
       totalWords: dbfWords,
       chips: [
-        'Paper 1: IE&IFS (4 Modules)',
-        'Paper 2: PPB (4 Modules)',
-        'Paper 3: AFMB (4 Modules)',
-        'Paper 4: RBWM (4 Modules)',
+        'Paper 1: IE&IFS (27 Chapters)',
+        'Paper 2: PPB (30 Chapters)',
+        'Paper 3: AFMB (20 Chapters)',
+        'Paper 4: RBWM (20 Chapters)',
         '5 Rapid Revision Vaults',
       ],
     },
@@ -1230,23 +1230,48 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
       });
     }
 
-    // 2. Paper Folders (Paper 1 to 4)
-    const subDirs = fs.readdirSync(notesDir, { withFileTypes: true }).filter((d) => d.isDirectory()).sort();
-    for (const d of subDirs) {
-      const paperPath = path.join(notesDir, d.name);
+    // 2. Paper Folders (Paper 1 to 4) - Canonical Chapter Codices
+    const targetDirs = ['paper_1_chapters', 'paper_2_chapters', 'paper_3_chapters', 'paper_4_chapters'];
+    for (const dirName of targetDirs) {
+      const paperPath = path.join(notesDir, dirName);
+      if (!fs.existsSync(paperPath)) continue;
       const paperFiles = fs.readdirSync(paperPath).filter((f) => f.endsWith('.md')).sort();
-      const paperName = d.name.replace(/^\d+_/, '').replace(/_/g, ' ');
+
+      let paperLabel = 'Paper 1: IE&IFS';
+      if (dirName === 'paper_2_chapters') paperLabel = 'Paper 2: PPB';
+      if (dirName === 'paper_3_chapters') paperLabel = 'Paper 3: AFMB';
+      if (dirName === 'paper_4_chapters') paperLabel = 'Paper 4: RBWM';
 
       for (const f of paperFiles) {
         const fullPath = path.join(paperPath, f);
         const content = fs.readFileSync(fullPath, 'utf-8');
         const wordCount = content.split(/\s+/).filter(Boolean).length;
-        const modSlug = `${d.name.toLowerCase()}-${f.replace(/\.md$/, '').toLowerCase()}`;
-        const shortTitle = `${paperName} · ${f.replace(/^\d+_/, '').replace(/\.md$/, '').replace(/_/g, ' ')}`;
+        const modSlug = `${dirName.toLowerCase()}-${f.replace(/\.md$/, '').toLowerCase()}`;
+
+        const chMatch = f.match(/CHAPTER_(\d+)/i);
+        const chNum = chMatch ? parseInt(chMatch[1], 10) : 0;
+        const rawTitle = f.replace(/^\d+_CHAPTER_\d+_/, '').replace(/^\d+_/, '').replace(/\.md$/, '').replace(/_/g, ' ');
+        const shortTitle = `${paperLabel} · Chapter ${String(chNum).padStart(2, '0')}: ${rawTitle}`;
+
+        let category = paperLabel;
+        if (dirName === 'paper_1_chapters') {
+          if (chNum >= 1 && chNum <= 7) {
+            category = 'Paper 1 · Module A: Indian Economic Architecture';
+          } else if (chNum >= 8 && chNum <= 13) {
+            category = 'Paper 1 · Module B: Economic Concepts Related to Banking';
+          } else if (chNum >= 14 && chNum <= 20) {
+            category = 'Paper 1 · Module C: Indian Financial Architecture';
+          } else if (chNum >= 21 && chNum <= 26) {
+            category = 'Paper 1 · Module D: Financial Products & Services';
+          } else if (chNum === 27) {
+            category = 'Paper 1 · Capstone Master Revision Vault';
+          }
+        }
+
         const title = extractTitleFromMarkdown(content, shortTitle);
         const description = extractDescriptionFromMarkdown(
           content,
-          `Official IIBF Macmillan curriculum module covering foundational concepts, operational rules, and banking frameworks.`
+          `Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.`
         );
         const sections = extractSectionsFromMarkdown(content);
 
@@ -1254,7 +1279,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
           slug: modSlug,
           title,
           shortTitle,
-          category: paperName,
+          category,
           description,
           filePath: fullPath,
           order: order++,
@@ -2231,26 +2256,26 @@ export function getShelf007PartGroups(
     {
       partNumber: 'PAPER 1',
       groupTitle: 'Indian Economy & Indian Financial System (IE&IFS)',
-      groupSubtitle: 'Macroeconomic architecture, planning, economic reforms, monetary & fiscal policies, and banking structure',
-      filterPrefix: '01_paper_1_ie_ifs',
+      groupSubtitle: 'Sovereign 27-chapter master codex: Indian economic architecture, banking concepts, financial systems, and financial products',
+      filterPrefix: 'paper_1_chapters',
     },
     {
       partNumber: 'PAPER 2',
       groupTitle: 'Principles & Practices of Banking (PPB)',
-      groupSubtitle: 'General banking operations, customer relations, operational guidelines, loans & advances, and ethics in banking',
-      filterPrefix: '02_paper_2_ppb',
+      groupSubtitle: 'Sovereign 30-chapter master codex: General banking operations, functions of banks, banking technology, and ethics in banking',
+      filterPrefix: 'paper_2_chapters',
     },
     {
       partNumber: 'PAPER 3',
       groupTitle: 'Accounting & Financial Management for Bankers (AFMB)',
-      groupSubtitle: 'Financial mathematics, bond valuation, trial balance, depreciation, banking company final accounts, and Ind AS',
-      filterPrefix: '03_paper_3_afmb',
+      groupSubtitle: 'Sovereign 20-chapter master codex: Accounting principles, financial mathematics, bank final accounts, and management accounting',
+      filterPrefix: 'paper_3_chapters',
     },
     {
       partNumber: 'PAPER 4',
       groupTitle: 'Retail Banking & Wealth Management (RBWM)',
-      groupSubtitle: 'Retail banking foundations, mortgage & personal credit, recovery & SARFAESI, and wealth management',
-      filterPrefix: '04_paper_4_rbwm',
+      groupSubtitle: 'Sovereign 20-chapter master codex: Retail banking foundations, retail credit products, recovery mechanisms, and wealth management',
+      filterPrefix: 'paper_4_chapters',
     },
     {
       partNumber: 'REVISION',
@@ -2304,7 +2329,30 @@ export function getShelf007ChapterContent(
       : subject === 'general-science'
       ? getGeneralScienceChapters()
       : getGeographyChapters();
-  const currentIdx = chapters.findIndex((c) => c.slug === chapterSlug);
+  let currentIdx = chapters.findIndex((c) => c.slug === chapterSlug);
+
+  // Fallback for legacy iibf-dbf URLs
+  if (currentIdx === -1 && subject === 'iibf-dbf') {
+    let targetSlug = '';
+    if (chapterSlug.includes('01_module_a_indian_economic_architecture')) {
+      targetSlug = 'paper_1_chapters-01_chapter_01_overview_demographic_transition';
+    } else if (chapterSlug.includes('02_module_b_economic_concepts_related_to_banking')) {
+      targetSlug = 'paper_1_chapters-08_chapter_08_fundamentals_economics_market_structures';
+    } else if (chapterSlug.includes('03_module_c_indian_financial_architecture')) {
+      targetSlug = 'paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham';
+    } else if (chapterSlug.includes('04_module_d_financial_products_and_services')) {
+      targetSlug = 'paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps';
+    } else if (chapterSlug.includes('02_paper_2_ppb')) {
+      targetSlug = 'paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties';
+    } else if (chapterSlug.includes('03_paper_3_afmb')) {
+      targetSlug = 'paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as';
+    } else if (chapterSlug.includes('04_paper_4_rbwm')) {
+      targetSlug = 'paper_4_chapters-01_chapter_01_retail_banking_overview_models';
+    }
+    if (targetSlug) {
+      currentIdx = chapters.findIndex((c) => c.slug === targetSlug);
+    }
+  }
 
   if (currentIdx === -1) {
     return null;

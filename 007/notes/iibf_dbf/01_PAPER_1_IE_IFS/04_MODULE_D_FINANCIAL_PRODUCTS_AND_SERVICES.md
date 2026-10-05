@@ -276,8 +276,10 @@ $\text{NAV} = \frac{(\text{Market Value of Investments} + \text{Receivables} + \
 | 4. Principle of Subrogation | Transfer of rights to recovery | Upon paying the total claim, the insurer steps into the shoes of the insured to recover damages from third-party wrongdoers. |
 | 5. Proximate Cause | *Causa Proxima* | The active, efficient cause that sets in motion a train of events leading to loss; insurer is liable only if the proximate cause is an insured peril. |
 
-## 🏛️ 2. IRDAI 'Insurance for All by 2047' & The Bima Trinity
+## 🏛️ 2. IRDAI 'Insurance for All by 2047' & Statutory FDI Reforms
 
+• **Statutory FDI Ceiling:** Raised to **100% equity capital** under the *Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025* (notified and in force 5 February 2026; replaces obsolete 74% ceiling).
+• **The Bima Trinity:**
 | Pillar | Component Platform | Core Function & Public Value |
 | --- | --- | --- |
 | Pillar 1: Bima Sugam | Digital public infrastructure marketplace (UPI for Insurance) | One-stop electronic platform for buying, servicing, policy portability, and instant claims settlement across all insurers. |
@@ -286,17 +288,21 @@ $\text{NAV} = \frac{(\text{Market Value of Investments} + \text{Receivables} + \
 
 ## 👴 3. National Pension System (NPS Architecture under PFRDA)
 
-| Parameter | NPS Tier 1 (Pension Account) | NPS Tier 2 (Savings Account) |
-| --- | --- | --- |
-| Account Nature | **Mandatory Primary Retirement Account** | **Voluntary Withdrawable Investment Account** (Requires active Tier 1) |
-| Withdrawal Rules | **Strictly Locked-in until age 60**. At age 60: Minimum **40% must be annuitized** for monthly pension; up to **60% can be withdrawn as tax-free lump sum**. | **Completely Free / Unrestricted Withdrawals** anytime. |
-| Tax Benefits | **Eligible for Income Tax deductions** under Section 80CCD(1), 80CCD(1B) (additional ₹50,000), and 80CCD(2). | **Zero tax deduction** for private citizens (except for Central Govt employees with 3-year lock-in under Sec 80C). |
+| Parameter | Government Sector | All-Citizen Model | Corporate Model |
+| --- | --- | --- | --- |
+| Entry Age | Mandatory on joining service | 18 to 70 Years | 18 to 70 Years |
+| Continuation / Deferral | Up to **Age 85** | Up to **Age 85** | Up to **Age 85** |
+| Normal Superannuation Exit | Corpus **≤ ₹8 Lakh**: 100% lump sum. > ₹12 Lakh: Min 40% annuity / max 60% lump sum. | Corpus **≤ ₹8 Lakh**: 100% lump sum. > ₹12 Lakh: Min 40% annuity / max 60% lump sum. | Corpus **≤ ₹8 Lakh**: 100% lump sum. > ₹12 Lakh: Min 40% annuity / max 60% lump sum. |
+| Premature Exit | Small corpus **≤ ₹5 Lakh**: 100% lump sum. > ₹5 Lakh: Min 80% annuity / max 20% lump sum. | Small corpus **≤ ₹5 Lakh**: 100% lump sum (5-yr lock-in removed). > ₹5 Lakh: Min 80% annuity. | Small corpus **≤ ₹5 Lakh**: 100% lump sum. > ₹5 Lakh: Min 80% annuity. |
+| Partial Withdrawals | Max **4 times** (25% of own contributions) before age 60 with 4-yr interval. | Max **4 times** (25% of own contributions) before age 60 with 4-yr interval. | Max **4 times** (25% of own contributions) before age 60 with 4-yr interval. |
 
 > 🎯 **Exam Anchor & Trap:**
 > 🎯 Top IIBF Traps for Unit 31:
-1. **Indemnity in Life Insurance:** The Principle of Indemnity **DOES NOT apply to Life Insurance** (a person can hold multiple life policies and all will pay full sum assured).
-2. **Insurable Interest Timing:** In Fire Insurance, insurable interest must exist **both at inception and at the time of loss**.
-3. **NPS Annuitization at Age 60:** Minimum **40% of accumulated corpus must be converted into an Annuity**; remaining 60% can be withdrawn lump-sum tax-free.
+1. **Insurance FDI Ceiling:** Raised to **100%** under Sabka Bima Sabki Raksha Act, 2025 (NOT 74%).
+2. **Indemnity in Life Insurance:** The Principle of Indemnity **DOES NOT apply to Life Insurance** (a person can hold multiple life policies and all will pay full sum assured).
+3. **Insurable Interest Timing:** In Fire Insurance, insurable interest must exist **both at inception and at the time of loss**.
+4. **NPS Continuation Age:** Extended up to **Age 85** (NOT age 70 or 75).
+5. **NPS Small Corpus 100% Lump Sum:** Normal exit is **≤ ₹8 Lakh**; Premature exit is **≤ ₹5 Lakh**. Partial withdrawals permitted up to **4 times**.
 
 ---
 
@@ -322,6 +328,7 @@ $\text{NAV} = \frac{(\text{Market Value of Investments} + \text{Receivables} + \
 
 Set up under RBI guidelines pursuant to the Payment and Settlement Systems Act, 2007:
 
+• **Operator Statutory Capital:** Entities operating TReDS platforms must have a minimum paid-up equity capital / net worth of **₹25 Crore** and prior RBI authorization under the Payment and Settlement Systems Act, 2007.
 • **Three Operational Participants:** (1) **MSME Sellers**, (2) **Corporate / PSU / Government Department Buyers**, (3) **Financiers (Banks & NBFC Factors)**.
 • **Mandatory Onboarding Mandate:** All Central Public Sector Enterprises (CPSEs) and companies with an annual turnover of **₹250 Crore or more** (and ₹500 Crore in earlier guidelines) must register on TReDS.
 • **Bidding & Non-Recourse Discounting:** Financiers bid transparently on uploaded invoices/factoring units. Once accepted, payment is credited to the MSME seller within **T+1 days on a strictly without-recourse basis**.

@@ -137,7 +137,7 @@ const MONOGRAPHS: MonographSubject[] = [
     primarySource: 'IIBF Official Macmillan Courseware • RBI Master Directions',
     keyCoverage: 'IE&IFS Paper 1 · PPB Paper 2 · AFM Paper 3 · RBWM Paper 4 · Statutory Compliance',
     hubUrl: '/shelf-007/iibf-dbf',
-    readUrl: '/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture',
+    readUrl: '/shelf-007/iibf-dbf/paper_1_chapters-01_chapter_01_overview_demographic_transition',
   },
   {
     id: 'geo-007',

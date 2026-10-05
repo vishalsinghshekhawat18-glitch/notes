@@ -68,7 +68,16 @@ export async function generateStaticParams() {
     subject: 'rajasthan',
     chapter: c.slug,
   }));
-  return [...econ, ...dbf, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng, ...hin, ...ca, ...raj];
+  const legacyDbfSlugs = [
+    '01_paper_1_ie_ifs-01_module_a_indian_economic_architecture',
+    '01_paper_1_ie_ifs-02_module_b_economic_concepts_related_to_banking',
+    '01_paper_1_ie_ifs-03_module_c_indian_financial_architecture',
+    '01_paper_1_ie_ifs-04_module_d_financial_products_and_services',
+    '02_paper_2_ppb-01_module_a_general_banking_operations',
+    '03_paper_3_afmb-01_module_a_accounting_principles_and_processes',
+    '04_paper_4_rbwm-01_module_a_retail_banking_overview',
+  ].map((slug) => ({ subject: 'iibf-dbf', chapter: slug }));
+  return [...econ, ...dbf, ...legacyDbfSlugs, ...ps, ...hist, ...quant, ...sci, ...geo, ...eng, ...hin, ...ca, ...raj];
 }
 
 export default async function Shelf007ChapterPage({ params }: Shelf007ChapterPageProps) {

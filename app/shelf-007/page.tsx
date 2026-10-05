@@ -117,7 +117,7 @@ export default function Shelf007IndexPage() {
               <Link
                 href={
                   subj.slug === 'iibf-dbf'
-                    ? '/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture'
+                    ? '/shelf-007/iibf-dbf/paper_1_chapters-01_chapter_01_overview_demographic_transition'
                     : `/shelf-007/${subj.slug}/chapter-01`
                 }
                 className="px-3 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs font-semibold font-mono transition-colors shadow-2xs inline-flex items-center gap-1 cursor-pointer"

@@ -178,11 +178,11 @@ export function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
                     Economics: National Income & GDP
                   </Link>
                   <Link
-                    href="/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture"
+                    href="/shelf-007/iibf-dbf/paper_1_chapters-01_chapter_01_overview_demographic_transition"
                     onClick={onClose}
                     className="px-2.5 py-1 bg-stone-100 hover:bg-emerald-50 hover:text-emerald-900 rounded-lg text-xs border border-stone-200 transition-colors"
                   >
-                    IIBF: Economic Architecture
+                    IIBF: Economic Overview (Ch 01)
                   </Link>
                   <Link
                     href="/shelf-007/general-science/chapter-01"

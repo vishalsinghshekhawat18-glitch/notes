@@ -6,7 +6,7 @@ export async function scanPdfForFlaws(pdfPath?: string) {
   const filePath = pdfPath || path.resolve('007', 'PRINT DESIGNER', '007_Book_01_Economics_Master_Codex_A4_BW.pdf');
   const data = fs.readFileSync(filePath);
   const parser = new PDFParse({ data });
-  await parser.load();
+  await (parser as any).load();
   const res = await parser.getText();
   console.log(`Scanning ${res.total} pages in ${filePath}...`);
 

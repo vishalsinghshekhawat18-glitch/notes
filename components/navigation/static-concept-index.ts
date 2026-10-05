@@ -33,12 +33,12 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
     "slug": "economics",
     "url": "/shelf-007/economics",
-    "description": "Sovereign macroeconomic and social issues architecture covering National Income (2015 SNA), Monetary Transmission, Banking & NPAs, Public Finance, Foreign Trade Policy 2023, Five-Year Plans & NITI Aayog, 4 New Labor Codes (2020), Urbanization & Migration, Multiculturalism, and Capstone Revision Vault.",
+    "description": "Sovereign macroeconomic and social issues architecture covering National Income (2015 SNA), Monetary Transmission, Banking & NPAs, Public Finance, Income-tax Act 2025, Foreign Trade Policy 2023, Five-Year Plans & NITI Aayog, 4 New Labor Codes (2025), Urbanization, Multiculturalism, Capstone Revision Vault (Ch 26), and Economy of Rajasthan (Ch 27).",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)"
     },
-    "badge": "ECO-007 • 28 Chapters"
+    "badge": "ECO-007 • 29 Chapters"
   },
   {
     "id": "shelf007-ch-economics-cover",
@@ -80,12 +80,12 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Foundations of Macroeconomics & National Income Accounting"
     },
-    "badge": "3,394 words • 16 min read"
+    "badge": "3,440 words • 16 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-02",
     "type": "TOPIC",
-    "title": "CHAPTER 02: NATIONAL INCOME ACCOUNTING, GVA & THE 2015 NSO METHODOLOGY",
+    "title": "CHAPTER 02: NATIONAL INCOME ACCOUNTING, GVA & THE 2015–2026 METHODOLOGICAL EVOLUTION",
     "slug": "chapter-02",
     "url": "/shelf-007/economics/chapter-02",
     "description": "Comprehensive sovereign synthesis of canonical doctrines, models, examination overlays, and high-yield matrices.",
@@ -94,7 +94,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Foundations of Macroeconomics & National Income Accounting"
     },
-    "badge": "3,857 words • 18 min read"
+    "badge": "4,063 words • 19 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-03",
@@ -108,7 +108,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Foundations of Macroeconomics & National Income Accounting"
     },
-    "badge": "3,353 words • 16 min read"
+    "badge": "3,264 words • 15 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-04",
@@ -120,9 +120,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Monetary Architecture, Inflation Dynamics & RBI Policy Corridor"
+      "topic": "Money, Central Banking & Monetary Transmission Channels"
     },
-    "badge": "3,727 words • 17 min read"
+    "badge": "3,704 words • 17 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-05",
@@ -134,7 +134,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Monetary Architecture, Inflation Dynamics & RBI Policy Corridor"
+      "topic": "Money, Central Banking & Monetary Transmission Channels"
     },
     "badge": "3,258 words • 15 min read"
   },
@@ -148,83 +148,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Monetary Architecture, Inflation Dynamics & RBI Policy Corridor"
+      "topic": "Money, Central Banking & Monetary Transmission Channels"
     },
-    "badge": "3,176 words • 15 min read"
-  },
-  {
-    "id": "shelf007-ch-economics-chapter-13",
-    "type": "TOPIC",
-    "title": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
-    "slug": "chapter-13",
-    "url": "/shelf-007/economics/chapter-13",
-    "description": "The Precision Filter: A price spike in a single commodity (e.g., tomatoes following a seasonal flood) is not inflation; it is a relative price shock. Inflation requires price escalation across a wide, representative basket over successive accounting intervals.",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Monetary Architecture, Inflation Dynamics & RBI Policy Corridor"
-    },
-    "badge": "2,483 words • 12 min read"
-  },
-  {
-    "id": "shelf007-sec-economics-chapter-13-sec-2",
-    "type": "CONCEPT",
-    "title": "13.1 Conceptual Foundations & Velocity of Inflation",
-    "slug": "sec-2",
-    "url": "/shelf-007/economics/chapter-13",
-    "description": "Inflation is defined as a persistent and generalized increase in the overall price level of goods and services in an economy over a sustained period, resulting in a continuous erosion of the purch",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
-      "concept": "13.1 Conceptual Foundations & Velocity of Inflation"
-    },
-    "badge": "261 words"
-  },
-  {
-    "id": "shelf007-sec-economics-chapter-13-sec-3",
-    "type": "CONCEPT",
-    "title": "13.2 Theories & Causes of Inflation",
-    "slug": "sec-3",
-    "url": "/shelf-007/economics/chapter-13",
-    "description": "1. Demand-Pull Inflation\nOriginates when Aggregate Demand ($AD$) exceeds Aggregate Supply ($AS$) at or near the economy's full-employment potential capacity:\n\n$$\\mathbf{AD > AS} \\implies \\text{Pri",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
-      "concept": "13.2 Theories & Causes of Inflation"
-    },
-    "badge": "280 words"
-  },
-  {
-    "id": "shelf007-sec-economics-chapter-13-sec-4",
-    "type": "CONCEPT",
-    "title": "13.3 Specialized Inflation Typology",
-    "slug": "sec-4",
-    "url": "/shelf-007/economics/chapter-13",
-    "description": "┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐\n│ Specialized Metric              │ Precise Economic Definition & Mechanism                     │",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
-      "concept": "13.3 Specialized Inflation Typology"
-    },
-    "badge": "317 words"
-  },
-  {
-    "id": "shelf007-sec-economics-chapter-13-sec-5",
-    "type": "CONCEPT",
-    "title": "13.4 The Phillips Curve: Short-Run vs. Long-Run",
-    "slug": "sec-5",
-    "url": "/shelf-007/economics/chapter-13",
-    "description": "Originated by A.W. Phillips (1958) and expanded by Paul Samuelson and Robert Solow:\n\n 1. The Short-Run Phillips Curve (SRPC):\n Hypothesizes a stable, inverse relationship between the rate of inf",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
-      "concept": "13.4 The Phillips Curve: Short-Run vs. Long-Run"
-    },
-    "badge": "239 words"
+    "badge": "3,281 words • 15 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-07",
@@ -238,7 +164,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Commercial Banking Architecture, Stressed Assets & Financial Markets"
     },
-    "badge": "3,940 words • 18 min read"
+    "badge": "3,980 words • 19 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-08",
@@ -266,7 +192,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Commercial Banking Architecture, Stressed Assets & Financial Markets"
     },
-    "badge": "3,524 words • 17 min read"
+    "badge": "3,584 words • 17 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-10",
@@ -278,9 +204,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Public Finance, Taxation Architecture, GST & Fiscal Federalism"
+      "topic": "Public Finance, Budgetary Architecture, Taxation & Fiscal Federalism"
     },
-    "badge": "3,420 words • 16 min read"
+    "badge": "3,842 words • 18 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-11",
@@ -292,9 +218,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Public Finance, Taxation Architecture, GST & Fiscal Federalism"
+      "topic": "Public Finance, Budgetary Architecture, Taxation & Fiscal Federalism"
     },
-    "badge": "5,219 words • 24 min read"
+    "badge": "5,896 words • 27 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-12",
@@ -306,9 +232,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Public Finance, Taxation Architecture, GST & Fiscal Federalism"
+      "topic": "Public Finance, Budgetary Architecture, Taxation & Fiscal Federalism"
     },
-    "badge": "2,646 words • 13 min read"
+    "badge": "3,002 words • 14 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-12-sec-2",
@@ -371,6 +297,80 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "514 words"
   },
   {
+    "id": "shelf007-ch-economics-chapter-13",
+    "type": "TOPIC",
+    "title": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
+    "slug": "chapter-13",
+    "url": "/shelf-007/economics/chapter-13",
+    "description": "The Precision Filter: A price spike in a single commodity (e.g., tomatoes following a seasonal flood) is not inflation; it is a relative price shock. Inflation requires price escalation across a wide, representative basket over successive accounting intervals.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "Inflation Theories, Price Indices, Employment & Poverty Estimation"
+    },
+    "badge": "2,548 words • 12 min read"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-13-sec-2",
+    "type": "CONCEPT",
+    "title": "13.1 Conceptual Foundations & Velocity of Inflation",
+    "slug": "sec-2",
+    "url": "/shelf-007/economics/chapter-13",
+    "description": "Inflation is defined as a persistent and generalized increase in the overall price level of goods and services in an economy over a sustained period, resulting in a continuous erosion of the purch",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
+      "concept": "13.1 Conceptual Foundations & Velocity of Inflation"
+    },
+    "badge": "261 words"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-13-sec-3",
+    "type": "CONCEPT",
+    "title": "13.2 Theories & Causes of Inflation",
+    "slug": "sec-3",
+    "url": "/shelf-007/economics/chapter-13",
+    "description": "1. Demand-Pull Inflation\nOriginates when Aggregate Demand ($AD$) exceeds Aggregate Supply ($AS$) at or near the economy's full-employment potential capacity:\n\n$$\\mathbf{AD > AS} \\implies \\text{Pri",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
+      "concept": "13.2 Theories & Causes of Inflation"
+    },
+    "badge": "280 words"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-13-sec-4",
+    "type": "CONCEPT",
+    "title": "13.3 Specialized Inflation Typology",
+    "slug": "sec-4",
+    "url": "/shelf-007/economics/chapter-13",
+    "description": "| Specialized Metric | Precise Economic Definition & Mechanism |\n| :--- | :--- |\n| Headline Inflation | Inflation measured across the entire price index basket (including food, fuel, commoditi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
+      "concept": "13.3 Specialized Inflation Typology"
+    },
+    "badge": "257 words"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-13-sec-5",
+    "type": "CONCEPT",
+    "title": "13.4 The Phillips Curve: Short-Run vs. Long-Run",
+    "slug": "sec-5",
+    "url": "/shelf-007/economics/chapter-13",
+    "description": "Originated by A.W. Phillips (1958) and expanded by Paul Samuelson and Robert Solow:\n\n 1. The Short-Run Phillips Curve (SRPC):\n Hypothesizes a stable, inverse relationship between the rate of inf",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 13: INFLATION: MECHANISMS, THEORIES, HEADLINE VS. CORE & PRICE INDICES (CPI VS. WPI)",
+      "concept": "13.4 The Phillips Curve: Short-Run vs. Long-Run"
+    },
+    "badge": "239 words"
+  },
+  {
     "id": "shelf007-ch-economics-chapter-14",
     "type": "TOPIC",
     "title": "CHAPTER 14: EMPLOYMENT DYNAMICS, LABOR FORCE SURVEYS (PLFS) & TYPES OF UNEMPLOYMENT",
@@ -380,9 +380,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Demographic Dynamics, Employment, Poverty & Human Development"
+      "topic": "Inflation Theories, Price Indices, Employment & Poverty Estimation"
     },
-    "badge": "2,970 words • 14 min read"
+    "badge": "2,881 words • 14 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-15",
@@ -390,13 +390,13 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "CHAPTER 15: POVERTY ESTIMATION METHODOLOGIES & INEQUALITY METRICS IN INDIA",
     "slug": "chapter-15",
     "url": "/shelf-007/economics/chapter-15",
-    "description": "Empirical Milestone: As per NITI Aayog's National MPI Review, multidimensional poverty in India plunged from 29.17% in 2013–14 to 11.28% in 2022–23, representing an unprecedented escape from multidimensional poverty for 24.8 crore citizens (spearheaded by rura...",
+    "description": "Canonical Sources Unified:\n Vivek Singh, Indian Economy (7th Ed., Ch. 11: Poverty & Inequality, §§11.1–11.12)\n Ramesh Singh, Indian Economy (McGraw Hill, Ch. 20: Human Development & Poverty)\n Sanjeev Verma, The Indian Economy (Ch. 10: Poverty, Inequality & Soc...",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Demographic Dynamics, Employment, Poverty & Human Development"
+      "topic": "Inflation Theories, Price Indices, Employment & Poverty Estimation"
     },
-    "badge": "2,316 words • 11 min read"
+    "badge": "2,406 words • 11 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-15-sec-2",
@@ -426,7 +426,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 15: POVERTY ESTIMATION METHODOLOGIES & INEQUALITY METRICS IN INDIA",
       "concept": "15.2 Chronological Evolution of Indian Poverty Lines"
     },
-    "badge": "380 words"
+    "badge": "460 words"
   },
   {
     "id": "shelf007-sec-economics-chapter-15-sec-4",
@@ -544,7 +544,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "External Sector, Balance of Payments & Global Institutions"
     },
-    "badge": "2,970 words • 14 min read"
+    "badge": "3,026 words • 14 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-17-sec-2",
@@ -589,7 +589,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 17: FOREIGN EXCHANGE DYNAMICS, NEER, REER & CURRENCY CONVERTIBILITY",
       "concept": "17.3 Nominal & Real Effective Exchange Rates: NEER & REER"
     },
-    "badge": "323 words"
+    "badge": "361 words"
   },
   {
     "id": "shelf007-sec-economics-chapter-17-sec-5",
@@ -618,7 +618,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "External Sector, Balance of Payments & Global Institutions"
     },
-    "badge": "2,848 words • 13 min read"
+    "badge": "3,009 words • 14 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-18-sec-2",
@@ -690,9 +690,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Agrarian Architecture, Land Reforms & Food Processing"
+      "topic": "Sectoral Architecture: Agriculture, Industry & Infrastructure"
     },
-    "badge": "4,509 words • 21 min read"
+    "badge": "5,176 words • 24 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-19-sec-2",
@@ -707,7 +707,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 19: INDIAN AGRICULTURE: CAPITAL FORMATION, PRICING (MSP) & STRUCTURAL BOTTLENECKS",
       "concept": "19.1 Structural Realities & The Agrarian Dualism"
     },
-    "badge": "312 words"
+    "badge": "277 words"
   },
   {
     "id": "shelf007-sec-economics-chapter-19-sec-3",
@@ -760,13 +760,13 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "CHAPTER 20: INDUSTRIAL ARCHITECTURE, MSMES, DISINVESTMENT & NATIONAL MANUFACTURING POLICIES",
     "slug": "chapter-20",
     "url": "/shelf-007/economics/chapter-20",
-    "description": "The Sovereign Export Carve-Out Rule:",
+    "description": "The Sovereign Export Carve-Out Rule (Invariable Core Principle):",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Industrial Strategy, Infrastructure, Logistics & Energy Transition"
+      "topic": "Sectoral Architecture: Agriculture, Industry & Infrastructure"
     },
-    "badge": "3,920 words • 18 min read"
+    "badge": "4,499 words • 21 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-20-sec-2",
@@ -781,7 +781,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 20: INDUSTRIAL ARCHITECTURE, MSMES, DISINVESTMENT & NATIONAL MANUFACTURING POLICIES",
       "concept": "20.1 Theoretical Growth Models & The Evolution of Indian Industrial Policy"
     },
-    "badge": "809 words"
+    "badge": "844 words"
   },
   {
     "id": "shelf007-sec-economics-chapter-20-sec-3",
@@ -796,7 +796,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 20: INDUSTRIAL ARCHITECTURE, MSMES, DISINVESTMENT & NATIONAL MANUFACTURING POLICIES",
       "concept": "20.2 The MSME Ecosystem & The Historic 2020 Composite Criteria"
     },
-    "badge": "464 words"
+    "badge": "549 words"
   },
   {
     "id": "shelf007-sec-economics-chapter-20-sec-4",
@@ -838,9 +838,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Industrial Strategy, Infrastructure, Logistics & Energy Transition"
+      "topic": "Sectoral Architecture: Agriculture, Industry & Infrastructure"
     },
-    "badge": "3,513 words • 16 min read"
+    "badge": "3,899 words • 18 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-21-sec-2",
@@ -855,7 +855,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 21: INFRASTRUCTURE, LOGISTICS (PM GATISHAKTI) & ENERGY TRANSITION ECONOMICS",
       "concept": "21.1 The Macroeconomic Dynamics of Infrastructure & PPP Models"
     },
-    "badge": "764 words"
+    "badge": "796 words"
   },
   {
     "id": "shelf007-sec-economics-chapter-21-sec-3",
@@ -912,7 +912,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Economic Planning, Labor Architecture & Social Issues (ESI)"
+      "topic": "Economic Planning, Labor Law Architecture & Socio-Demographics"
     },
     "badge": "2,797 words • 13 min read"
   },
@@ -986,9 +986,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Economic Planning, Labor Architecture & Social Issues (ESI)"
+      "topic": "Economic Planning, Labor Law Architecture & Socio-Demographics"
     },
-    "badge": "2,629 words • 12 min read"
+    "badge": "2,740 words • 13 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-24",
@@ -1000,9 +1000,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Economic Planning, Labor Architecture & Social Issues (ESI)"
+      "topic": "Economic Planning, Labor Law Architecture & Socio-Demographics"
     },
-    "badge": "2,333 words • 11 min read"
+    "badge": "2,337 words • 11 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-25",
@@ -1014,9 +1014,9 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Economic Planning, Labor Architecture & Social Issues (ESI)"
+      "topic": "Economic Planning, Labor Law Architecture & Socio-Demographics"
     },
-    "badge": "1,930 words • 9 min read"
+    "badge": "1,988 words • 10 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-25-sec-2",
@@ -1076,7 +1076,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 25: SOCIAL STRUCTURE, MULTICULTURALISM, SECULARISM & PLURALISM IN INDIA",
       "concept": "25.4 Demographic Mosaic: Religion, Language & Social Stratification"
     },
-    "badge": "242 words"
+    "badge": "300 words"
   },
   {
     "id": "shelf007-ch-economics-master-revision-vault",
@@ -1088,9 +1088,83 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
-      "topic": "Capstone Sovereign Synthesis & High-Yield Matrices"
+      "topic": "Master Consolidated Synthesis & Revision Vault"
     },
-    "badge": "8,905 words • 41 min read"
+    "badge": "10,346 words • 48 min read"
+  },
+  {
+    "id": "shelf007-ch-economics-chapter-27",
+    "type": "TOPIC",
+    "title": "CHAPTER 27: ECONOMY OF RAJASTHAN (RPSC RAS DEDICATED MASTER BLOCK)",
+    "slug": "chapter-27",
+    "url": "/shelf-007/economics/chapter-27",
+    "description": "High-Yield Exam Trap: Never mix BE 2026–27 (Budget Estimates forward projections) with AE 2025–26 (Economic Review Advance Estimates: Current GSDP ₹18,75,413 Cr, Constant ₹9,81,807 Cr). Real growth is evaluated at constant 2011–12 prices (8.66%).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "State Economic Architecture (RPSC RAS Master Block)"
+    },
+    "badge": "4,080 words • 19 min read"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-27-sec-2",
+    "type": "CONCEPT",
+    "title": "27.1 Macroeconomic Aggregates & State Domestic Product",
+    "slug": "sec-2",
+    "url": "/shelf-007/economics/chapter-27",
+    "description": "The economy of Rajasthan constitutes India's largest state by geographical area ($3,42,239 \\text{ km}^2$, representing 10.41% of India's total geographical area) and supports approximately 5.66%",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 27: ECONOMY OF RAJASTHAN (RPSC RAS DEDICATED MASTER BLOCK)",
+      "concept": "27.1 Macroeconomic Aggregates & State Domestic Product"
+    },
+    "badge": "232 words"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-27-sec-3",
+    "type": "CONCEPT",
+    "title": "27.2 Vision, Strategic Planning & Sustainability",
+    "slug": "sec-3",
+    "url": "/shelf-007/economics/chapter-27",
+    "description": "1. Viksit Rajasthan @ 2047\nAligned with the Union vision of Viksit Bharat @ 2047, Rajasthan has institutionalized a 25-year socio-economic transformation roadmap structured on five core pillars:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 27: ECONOMY OF RAJASTHAN (RPSC RAS DEDICATED MASTER BLOCK)",
+      "concept": "27.2 Vision, Strategic Planning & Sustainability"
+    },
+    "badge": "188 words"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-27-sec-4",
+    "type": "CONCEPT",
+    "title": "27.3 State Public Finance & The 6th State Finance Commission",
+    "slug": "sec-4",
+    "url": "/shelf-007/economics/chapter-27",
+    "description": "1. State Budgetary Architecture & Borrowing Constraints\n Revenue Receipts: Comprise State's Own Tax Revenue (SOTR: State GST, State Excise, Stamps & Registration, Tax on Vehicles, Land Revenu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 27: ECONOMY OF RAJASTHAN (RPSC RAS DEDICATED MASTER BLOCK)",
+      "concept": "27.3 State Public Finance & The 6th State Finance Commission"
+    },
+    "badge": "535 words"
+  },
+  {
+    "id": "shelf007-sec-economics-chapter-27-sec-5",
+    "type": "CONCEPT",
+    "title": "27.4 Agriculture, Water Resources & Irrigation Architecture",
+    "slug": "sec-5",
+    "url": "/shelf-007/economics/chapter-27",
+    "description": "Rajasthan is divided into 10 distinct Agro-Climatic Zones ranging from Zone I-A (Arid Western Plain: Barmer, Jodhpur) to Zone V (Humid South-Eastern Plain: Kota, Baran, Bundi, Jhalawar).\n\n\n┌───",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
+      "topic": "CHAPTER 27: ECONOMY OF RAJASTHAN (RPSC RAS DEDICATED MASTER BLOCK)",
+      "concept": "27.4 Agriculture, Water Resources & Irrigation Architecture"
+    },
+    "badge": "354 words"
   },
   {
     "id": "shelf007-subj-iibf-dbf",
@@ -1098,12 +1172,12 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
     "slug": "iibf-dbf",
     "url": "/shelf-007/iibf-dbf",
-    "description": "Exhaustive 4-paper curriculum covering IE&IFS, PPB, AFMB, and RBWM. Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III ratios, and 5 rapid revision vaults.",
+    "description": "Exhaustive 4-paper curriculum covering IE&IFS (27 Chapters), PPB (30 Chapters), AFMB (20 Chapters), and RBWM (20 Chapters). Incorporates Banking Laws (Amendment) Act 2025, Ind AS, Basel III ratios, and 5 rapid revision vaults.",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)"
     },
-    "badge": "DBF-007 • 23 Chapters"
+    "badge": "DBF-007 • 104 Chapters"
   },
   {
     "id": "shelf007-ch-iibf-dbf-cover",
@@ -1179,963 +1253,6297 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "712 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-01_chapter_01_overview_demographic_transition",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 1: Module A — Indian Economic Architecture",
-    "slug": "01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
-    "description": "Paper: 1 (Indian Economy & Indian Financial System)",
+    "title": "Paper 1: IE&IFS · Chapter 01: OVERVIEW DEMOGRAPHIC TRANSITION",
+    "slug": "paper_1_chapters-01_chapter_01_overview_demographic_transition",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-01_chapter_01_overview_demographic_transition",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 01)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Indian Economy & Indian Financial System (IE&IFS)"
     },
-    "badge": "7,114 words • 33 min read"
+    "badge": "1,287 words • 6 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-01_paper_1_ie_ifs-01_module_a_indian_economic_architecture-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-01_chapter_01_overview_demographic_transition-sec-2",
     "type": "CONCEPT",
-    "title": "22. IIBF IE&IFS Unit 1: Overview of Indian Economy, Demographic Transition & Economic Planning",
+    "title": "§ 1.1 Unit 01: An Overview of Indian Economy",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
-    "description": "> 🧠 Key Concept — IIBF Core Foundation: Indian Economic Trajectory\n> India transitioned from a low-growth colonial agrarian economy (1947) to a mixed economy governed by Five Year Plans, and fina",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-01_chapter_01_overview_demographic_transition",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 01)  \n> Core Proposition: India transitioned from a colonial agrarian economy (1947) to a mixed economy governed by Five Year Pla",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 1: Module A — Indian Economic Architecture",
-      "concept": "22. IIBF IE&IFS Unit 1: Overview of Indian Economy, Demographic Transition & Economic Planning"
+      "topic": "Paper 1: IE&IFS · Chapter 01: OVERVIEW DEMOGRAPHIC TRANSITION",
+      "concept": "§ 1.1 Unit 01: An Overview of Indian Economy"
     },
-    "badge": "51 words"
+    "badge": "1161 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-01_paper_1_ie_ifs-01_module_a_indian_economic_architecture-sec-3",
-    "type": "CONCEPT",
-    "title": "📊 1. India's Macroeconomic Profile & Population Dynamics",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
-    "description": "As per the Ministry of Statistics and Programme Implementation (MoSPI) and United Nations Population Division benchmarks, India's demographic and spatial parameters represent a unique economic",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 1: Module A — Indian Economic Architecture",
-      "concept": "📊 1. India's Macroeconomic Profile & Population Dynamics"
-    },
-    "badge": "165 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-01_paper_1_ie_ifs-01_module_a_indian_economic_architecture-sec-4",
-    "type": "CONCEPT",
-    "title": "🔄 2. The Four-Stage Demographic Transition Model (India's Position)",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
-    "description": "The Demographic Transition Model (DTM) explains how an economy's fertility and mortality rates evolve during economic modernization and industrialization:\n\n| Stage | Phase Name | Birth Rate (BR) &",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 1: Module A — Indian Economic Architecture",
-      "concept": "🔄 2. The Four-Stage Demographic Transition Model (India's Position)"
-    },
-    "badge": "250 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-01_paper_1_ie_ifs-01_module_a_indian_economic_architecture-sec-5",
-    "type": "CONCEPT",
-    "title": "🏭 3. Sectoral Transformation of the Indian Economy",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-01_module_a_indian_economic_architecture",
-    "description": "Classical economic development (Fisher-Clark model) dictates a transition from Agriculture (Primary) ➔ Manufacturing (Secondary) ➔ Services (Tertiary). However, India exhibited a structural anomal",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 1: Module A — Indian Economic Architecture",
-      "concept": "🏭 3. Sectoral Transformation of the Indian Economy"
-    },
-    "badge": "148 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-01_paper_1_ie_ifs-02_module_b_economic_concepts_related_to_banking",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-02_chapter_02_sectoral_architecture",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 1: Module B — Economic Concepts Related to Banking",
-    "slug": "01_paper_1_ie_ifs-02_module_b_economic_concepts_related_to_banking",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-02_module_b_economic_concepts_related_to_banking",
-    "description": "Paper: 1 (Indian Economy & Indian Financial System)",
+    "title": "SECTORAL ARCHITECTURE: PRIMARY, SECONDARY & TERTIARY",
+    "slug": "paper_1_chapters-02_chapter_02_sectoral_architecture",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-02_chapter_02_sectoral_architecture",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 02)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Indian Economy & Indian Financial System (IE&IFS)"
     },
-    "badge": "5,463 words • 25 min read"
+    "badge": "1,238 words • 6 min read"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-01_paper_1_ie_ifs-03_module_c_indian_financial_architecture",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-02_chapter_02_sectoral_architecture-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 2.1 Unit 02: Sectors of the Indian Economy",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-02_chapter_02_sectoral_architecture",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 02)  \n> Core Proposition: Sectoral transformation in India is characterized by a significant output-employment mismatch: the Serv",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "SECTORAL ARCHITECTURE: PRIMARY, SECONDARY & TERTIARY",
+      "concept": "§ 2.1 Unit 02: Sectors of the Indian Economy"
+    },
+    "badge": "1155 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-03_chapter_03_economic_planning_niti_aayog",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 1: Module C — Indian Financial Architecture",
-    "slug": "01_paper_1_ie_ifs-03_module_c_indian_financial_architecture",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-03_module_c_indian_financial_architecture",
-    "description": "Paper: 1 (Indian Economy & Indian Financial System)",
+    "title": "ECONOMIC PLANNING ARCHITECTURE & NITI AAYOG STRATEGY",
+    "slug": "paper_1_chapters-03_chapter_03_economic_planning_niti_aayog",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-03_chapter_03_economic_planning_niti_aayog",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 03)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Indian Economy & Indian Financial System (IE&IFS)"
     },
-    "badge": "5,081 words • 24 min read"
+    "badge": "1,605 words • 8 min read"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-01_paper_1_ie_ifs-04_module_d_financial_products_and_services",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-03_chapter_03_economic_planning_niti_aayog-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 3.1 Unit 03: Economic Planning in India & NITI Aayog",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-03_chapter_03_economic_planning_niti_aayog",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 03)  \n> Core Proposition: Centralized Five-Year Plans were discontinued post-2017 following the completion of the 12th Plan. NITI",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ECONOMIC PLANNING ARCHITECTURE & NITI AAYOG STRATEGY",
+      "concept": "§ 3.1 Unit 03: Economic Planning in India & NITI Aayog"
+    },
+    "badge": "1548 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-04_chapter_04_priority_sector_lending_msme",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 1: Module D — Financial Products and Services",
-    "slug": "01_paper_1_ie_ifs-04_module_d_financial_products_and_services",
-    "url": "/shelf-007/iibf-dbf/01_paper_1_ie_ifs-04_module_d_financial_products_and_services",
-    "description": "Paper: 1 (Indian Economy & Indian Financial System)",
+    "title": "PRIORITY SECTOR LENDING (PSL) & MSME ARCHITECTURE",
+    "slug": "paper_1_chapters-04_chapter_04_priority_sector_lending_msme",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-04_chapter_04_priority_sector_lending_msme",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 04)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Indian Economy & Indian Financial System (IE&IFS)"
     },
-    "badge": "7,421 words • 34 min read"
+    "badge": "1,946 words • 9 min read"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-02_paper_2_ppb-01_module_a_general_banking_operations",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 2: Module A — General Banking Operations",
-    "slug": "02_paper_2_ppb-01_module_a_general_banking_operations",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-01_module_a_general_banking_operations",
-    "description": "Paper: 2 (Principles and Practices of Banking)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Principles & Practices of Banking (PPB)"
-    },
-    "badge": "5,763 words • 27 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-01_module_a_general_banking_operations-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-04_chapter_04_priority_sector_lending_msme-sec-2",
     "type": "CONCEPT",
-    "title": "1. 📌 Module 1: Deposit Operations, Customer Rights & Statutory Governance",
+    "title": "§ 4.1 Unit 04: Role of Priority Sector Lending and MSME in the Indian Economy",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-01_module_a_general_banking_operations",
-    "description": "Deposit operations and customer protection form the bedrock of statutory banking law in India. Recent legislative overhauls under the Banking Laws (Amendment) Act 2025, DICGC Act, and the Reserve Bank",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-04_chapter_04_priority_sector_lending_msme",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 04)  \n> Core Proposition: Priority Sector Lending (PSL) prevents market-driven credit rationing by mandating specific lending quo",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module A — General Banking Operations",
-      "concept": "1. 📌 Module 1: Deposit Operations, Customer Rights & Statutory Governance"
+      "topic": "PRIORITY SECTOR LENDING (PSL) & MSME ARCHITECTURE",
+      "concept": "§ 4.1 Unit 04: Role of Priority Sector Lending and MSME in the Indian Economy"
     },
-    "badge": "479 words"
+    "badge": "1880 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-01_module_a_general_banking_operations-sec-3",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs",
+    "type": "TOPIC",
+    "title": "INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs",
+    "slug": "paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 05)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,752 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs-sec-2",
     "type": "CONCEPT",
-    "title": "56. IIBF PPB Unit 1: Banker-Customer Relationship, Rights & Duties",
+    "title": "§ 5.1 Unit 05: Infrastructure including Social Infrastructure",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 05)  \n> Core Proposition: Infrastructure investments bridge economic supply-chain bottlenecks and foster social capability. The f",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs",
+      "concept": "§ 5.1 Unit 05: Infrastructure including Social Infrastructure"
+    },
+    "badge": "584 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 5.2 Unit 10: Climate Change, Sustainable Development Goals (SDGs)",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-01_module_a_general_banking_operations",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Multi-Faceted Legal Relationships in Banking\n> The relationship between a banker and a customer is fundamentally contractual and depends upon the exact nature o",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-05_chapter_05_infrastructure_logistics_climate_sdgs",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 10)  \n> Core Proposition: Decarbonization and climate commitments are operationalized through India's COP26 Panchamrit targets, S",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module A — General Banking Operations",
-      "concept": "56. IIBF PPB Unit 1: Banker-Customer Relationship, Rights & Duties"
+      "topic": "INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs",
+      "concept": "§ 5.2 Unit 10: Climate Change, Sustainable Development Goals (SDGs)"
     },
-    "badge": "35 words"
+    "badge": "1103 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-01_module_a_general_banking_operations-sec-4",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto",
+    "type": "TOPIC",
+    "title": "GLOBALIZATION, FOREIGN TRADE POLICY & GLOBAL INSTITUTIONS",
+    "slug": "paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 06)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "2,076 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto-sec-2",
     "type": "CONCEPT",
-    "title": "📊 1. Master Matrix of Banker-Customer Legal Relationships",
+    "title": "§ 6.1 Unit 06: Globalisation - Impact on India",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 06)  \n> Core Proposition: Globalisation opened India's economy to international merchandise trade, cross-border services outsourc",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GLOBALIZATION, FOREIGN TRADE POLICY & GLOBAL INSTITUTIONS",
+      "concept": "§ 6.1 Unit 06: Globalisation - Impact on India"
+    },
+    "badge": "202 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 6.2 Unit 08: Foreign Trade Policy, Foreign Investments & Economic Development",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 08)  \n> Core Proposition: Foreign Trade Policy (FTP) 2023 established a continuous framework targeting $2 Trillion in aggregate e",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GLOBALIZATION, FOREIGN TRADE POLICY & GLOBAL INSTITUTIONS",
+      "concept": "§ 6.2 Unit 08: Foreign Trade Policy, Foreign Investments & Economic Development"
+    },
+    "badge": "568 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 6.3 Unit 09: International Economic Organisations",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-01_module_a_general_banking_operations",
-    "description": "| Transaction / Activity | Bank's Legal Status | Customer's Legal Status | Governing Statute / Principle |\n| --- | --- | --- | --- |\n| Deposit of Money in Savings / Current / FD | Debtor (Borrower) |",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-06_chapter_06_globalization_foreign_trade_wto",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 09)  \n> Core Proposition: Multilateral financial stability and trade governance are anchored by the Bretton Woods institutions (I",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module A — General Banking Operations",
-      "concept": "📊 1. Master Matrix of Banker-Customer Legal Relationships"
+      "topic": "GLOBALIZATION, FOREIGN TRADE POLICY & GLOBAL INSTITUTIONS",
+      "concept": "§ 6.3 Unit 09: International Economic Organisations"
     },
-    "badge": "226 words"
+    "badge": "1215 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-01_module_a_general_banking_operations-sec-5",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 07: ECONOMIC REFORMS ISSUES INDIAN ECONOMY",
+    "slug": "paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 07)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "2,253 words • 11 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy-sec-2",
     "type": "CONCEPT",
-    "title": "⚖️ 2. Core Rights of a Banker",
+    "title": "§ 7.1 Unit 07: Economic Reforms",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 07)  \n> Core Proposition: The July 1991 Structural Adjustment Programme dismantled the Industrial Licensing ('Licence-Permit Raj'",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 07: ECONOMIC REFORMS ISSUES INDIAN ECONOMY",
+      "concept": "§ 7.1 Unit 07: Economic Reforms"
+    },
+    "badge": "669 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 7.2 Unit 11: Issues Facing the Indian Economy",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-07_chapter_07_economic_reforms_issues_indian_economy",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 11)  \n> Core Proposition: Sustained high aggregate GDP growth coexists with deep structural headwinds: rural-urban consumption di",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 07: ECONOMIC REFORMS ISSUES INDIAN ECONOMY",
+      "concept": "§ 7.2 Unit 11: Issues Facing the Indian Economy"
+    },
+    "badge": "1491 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-08_chapter_08_fundamentals_economics_market_structures",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 08: FUNDAMENTALS ECONOMICS MARKET STRUCTURES",
+    "slug": "paper_1_chapters-08_chapter_08_fundamentals_economics_market_structures",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-08_chapter_08_fundamentals_economics_market_structures",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 12)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,229 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-08_chapter_08_fundamentals_economics_market_structures-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 8.1 Unit 12: Fundamentals of Economics, Microeconomics, Macroeconomics & Types of Economies",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-08_chapter_08_fundamentals_economics_market_structures",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 12)  \n> Core Proposition: Economic theory bifurcates into Microeconomics (individual consumer and firm optimization) and Macroeco",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 08: FUNDAMENTALS ECONOMICS MARKET STRUCTURES",
+      "concept": "§ 8.1 Unit 12: Fundamentals of Economics, Microeconomics, Macroeconomics & Types of Economies"
+    },
+    "badge": "1165 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-09_chapter_09_demand_supply_elasticity_formulas",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 09: DEMAND SUPPLY ELASTICITY FORMULAS",
+    "slug": "paper_1_chapters-09_chapter_09_demand_supply_elasticity_formulas",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-09_chapter_09_demand_supply_elasticity_formulas",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 13)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,397 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-09_chapter_09_demand_supply_elasticity_formulas-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 9.1 Unit 13: Supply and Demand",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-09_chapter_09_demand_supply_elasticity_formulas",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 13)  \n> Core Proposition: The Law of Demand posits an inverse relationship between price and quantity demanded, driven by income",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 09: DEMAND SUPPLY ELASTICITY FORMULAS",
+      "concept": "§ 9.1 Unit 13: Supply and Demand"
+    },
+    "badge": "1341 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-10_chapter_10_national_income_accounting_gva_deflator",
+    "type": "TOPIC",
+    "title": "NATIONAL INCOME ACCOUNTING, GVA & GDP DEFLATOR",
+    "slug": "paper_1_chapters-10_chapter_10_national_income_accounting_gva_deflator",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-10_chapter_10_national_income_accounting_gva_deflator",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 18)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,478 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-10_chapter_10_national_income_accounting_gva_deflator-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 10.1 Unit 18: National Income and GDP Concepts",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-10_chapter_10_national_income_accounting_gva_deflator",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 18)  \n> Core Proposition: On 27 February 2026, the Ministry of Statistics and Programme Implementation (MoSPI) released the New S",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NATIONAL INCOME ACCOUNTING, GVA & GDP DEFLATOR",
+      "concept": "§ 10.1 Unit 18: National Income and GDP Concepts"
+    },
+    "badge": "1416 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-11_chapter_11_money_supply_aggregates_inflation",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 11: MONEY SUPPLY AGGREGATES INFLATION",
+    "slug": "paper_1_chapters-11_chapter_11_money_supply_aggregates_inflation",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-11_chapter_11_money_supply_aggregates_inflation",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 14)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,613 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-11_chapter_11_money_supply_aggregates_inflation-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 11.1 Unit 14: Money Supply and Inflation",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-11_chapter_11_money_supply_aggregates_inflation",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 14)  \n> Core Proposition: Money supply is classified into standard measures ($M0$ to $M4$), New Monetary Aggregates ($NM1$ to $NM",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 11: MONEY SUPPLY AGGREGATES INFLATION",
+      "concept": "§ 11.1 Unit 14: Money Supply and Inflation"
+    },
+    "badge": "1549 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-12_chapter_12_theories_of_interest_keynes_is_lm_curve",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 12: THEORIES OF INTEREST KEYNES IS LM CURVE",
+    "slug": "paper_1_chapters-12_chapter_12_theories_of_interest_keynes_is_lm_curve",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-12_chapter_12_theories_of_interest_keynes_is_lm_curve",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 15)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,583 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-12_chapter_12_theories_of_interest_keynes_is_lm_curve-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 12.1 Unit 15: Theories of Interest",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-12_chapter_12_theories_of_interest_keynes_is_lm_curve",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 15)  \n> Core Proposition: Theories of interest evolved from the real barter models of Classical economists (Savings-Investment eq",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 12: THEORIES OF INTEREST KEYNES IS LM CURVE",
+      "concept": "§ 12.1 Unit 15: Theories of Interest"
+    },
+    "badge": "1526 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 13: BUSINESS CYCLES MONETARY FISCAL UNION BUDGET",
+    "slug": "paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 16)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "2,338 words • 11 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 13.1 Unit 16: Business Cycles",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 16)  \n> Core Proposition: A business cycle comprises alternating waves of expansion, peak, contraction, and trough in aggregate e",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 13: BUSINESS CYCLES MONETARY FISCAL UNION BUDGET",
+      "concept": "§ 13.1 Unit 16: Business Cycles"
+    },
+    "badge": "368 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 13.2 Unit 17: Monetary Policy and Fiscal Policy",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 17)  \n> Core Proposition: The RBI implements Flexible Inflation Targeting (FIT) anchored by headline CPI ($4\\% \\pm 2\\%$) via the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 13: BUSINESS CYCLES MONETARY FISCAL UNION BUDGET",
+      "concept": "§ 13.2 Unit 17: Monetary Policy and Fiscal Policy"
+    },
+    "badge": "750 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 13.3 Unit 19: Union Budget",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-13_chapter_13_business_cycles_monetary_fiscal_union_budget",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 19)  \n> Core Proposition: The Union Budget is presented under Article 112 of the Constitution as the Annual Financial Statement.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 13: BUSINESS CYCLES MONETARY FISCAL UNION BUDGET",
+      "concept": "§ 13.3 Unit 19: Union Budget"
+    },
+    "badge": "1134 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 14: INDIAN FINANCIAL SYSTEM REFORMS NARASIMHAM",
+    "slug": "paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 20)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,641 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 14.1 Unit 20: Indian Financial System - An Overview",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 20)  \n> Core Proposition: The financial system operates through four interdependent pillars: Financial Institutions, Financial Ma",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 14: INDIAN FINANCIAL SYSTEM REFORMS NARASIMHAM",
+      "concept": "§ 14.1 Unit 20: Indian Financial System - An Overview"
+    },
+    "badge": "207 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 14.2 Unit 28: Reforms and Developments in the Banking Sector",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-14_chapter_14_indian_financial_system_reforms_narasimham",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 28)  \n> Core Proposition: Post-1991 banking reforms dismantled financial repression under the Narasimham Committee recommendation",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 14: INDIAN FINANCIAL SYSTEM REFORMS NARASIMHAM",
+      "concept": "§ 14.2 Unit 28: Reforms and Developments in the Banking Sector"
+    },
+    "badge": "1356 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-15_chapter_15_apex_regulatory_hierarchy_rbi_sebi_irdai_fsdc",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 15: APEX REGULATORY HIERARCHY RBI SEBI IRDAI FSDC",
+    "slug": "paper_1_chapters-15_chapter_15_apex_regulatory_hierarchy_rbi_sebi_irdai_fsdc",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-15_chapter_15_apex_regulatory_hierarchy_rbi_sebi_irdai_fsdc",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 27)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,237 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-15_chapter_15_apex_regulatory_hierarchy_rbi_sebi_irdai_fsdc-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 15.1 Unit 27: Financial Regulators and their Roles",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-15_chapter_15_apex_regulatory_hierarchy_rbi_sebi_irdai_fsdc",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 27)  \n> Core Proposition: Financial regulation in India follows an activity-cum-entity model divided among statutory sectoral reg",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 15: APEX REGULATORY HIERARCHY RBI SEBI IRDAI FSDC",
+      "concept": "§ 15.1 Unit 27: Financial Regulators and their Roles"
+    },
+    "badge": "1179 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act",
+    "type": "TOPIC",
+    "title": "STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949",
+    "slug": "paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 22)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "3,120 words • 15 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 16.1 Unit 22: Banking Regulation Act, 1949 and RBI Act, 1934",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 22)  \n> Core Proposition: The RBI Act, 1934 (Chapters I–V and Schedules) governs central banking functions, note issuance, minimu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949",
+      "concept": "§ 16.1 Unit 22: Banking Regulation Act, 1949 and RBI Act, 1934"
+    },
+    "badge": "183 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act-sec-3",
+    "type": "CONCEPT",
+    "title": "Part I: Reserve Bank of India Act, 1934 (Chapter-by-Chapter Statutory Map)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act",
+    "description": "The RBI Act, 1934 comprises Chapters I to V alongside four primary Schedules:\n\n 1. Master Section Index: RBI Act, 1934\n\n| Chapter & Section | Statutory Subject Matter | Key Legal Provision",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949",
+      "concept": "Part I: Reserve Bank of India Act, 1934 (Chapter-by-Chapter Statutory Map)"
+    },
+    "badge": "954 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act-sec-4",
+    "type": "CONCEPT",
+    "title": "Part II: Banking Regulation Act, 1949 (Section-by-Section Statutory Map)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-16_chapter_16_statutory_framework_rbi_act_br_act",
+    "description": "The Banking Regulation Act, 1949 comprises Sections 1 to 56 organized across Parts I to V:\n\n 1. Master Section Index: Banking Regulation Act, 1949\n\n| Section Number | Statutory Subject Matt",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STATUTORY FRAMEWORK: RBI ACT, 1934 & BANKING REGULATION ACT, 1949",
+      "concept": "Part II: Banking Regulation Act, 1949 (Section-by-Section Statutory Map)"
+    },
+    "badge": "1885 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-17_chapter_17_commercial_banking_basel_iii_pca_framework",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 17: COMMERCIAL BANKING BASEL III PCA FRAMEWORK",
+    "slug": "paper_1_chapters-17_chapter_17_commercial_banking_basel_iii_pca_framework",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-17_chapter_17_commercial_banking_basel_iii_pca_framework",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 21)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,778 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-17_chapter_17_commercial_banking_basel_iii_pca_framework-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 17.1 Unit 21: Indian Banking Structure - Commercial Banking",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-17_chapter_17_commercial_banking_basel_iii_pca_framework",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 21)  \n> Core Proposition: The Indian commercial banking structure comprises Public Sector Banks (PSBs), Private Sector Banks, and",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 17: COMMERCIAL BANKING BASEL III PCA FRAMEWORK",
+      "concept": "§ 17.1 Unit 21: Indian Banking Structure - Commercial Banking"
+    },
+    "badge": "1713 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-18_chapter_18_differentiated_banking_rrbs_4_tier_ucbs",
+    "type": "TOPIC",
+    "title": "DIFFERENTIATED BANKING: RRBs & 4-TIER COOPERATIVE BANKS",
+    "slug": "paper_1_chapters-18_chapter_18_differentiated_banking_rrbs_4_tier_ucbs",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-18_chapter_18_differentiated_banking_rrbs_4_tier_ucbs",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 21b)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,580 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-18_chapter_18_differentiated_banking_rrbs_4_tier_ucbs-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 18.1 Unit 21b: Differentiated Banking Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-18_chapter_18_differentiated_banking_rrbs_4_tier_ucbs",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 21b)  \n> Core Proposition: Differentiated banks operate under targeted mandates. RRBs focus on rural credit (75% PSL target, 50:1",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIFFERENTIATED BANKING: RRBs & 4-TIER COOPERATIVE BANKS",
+      "concept": "§ 18.1 Unit 21b: Differentiated Banking Architecture"
+    },
+    "badge": "1514 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis",
+    "type": "TOPIC",
+    "title": "NBFCs SCALE-BASED REGULATION, HFCs & MICROFINANCE (MFIs)",
+    "slug": "paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 24)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,942 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 19.1 Unit 24: Micro Finance Institutions (MFIs)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 24)  \n> Core Proposition: Microfinance delivers collateral-free credit to low-income households. The unified 2022 RBI regulatory",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NBFCs SCALE-BASED REGULATION, HFCs & MICROFINANCE (MFIs)",
+      "concept": "§ 19.1 Unit 24: Micro Finance Institutions (MFIs)"
+    },
+    "badge": "365 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 19.2 Unit 25: Non-Banking Financial Companies (NBFCs)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-19_chapter_19_nbfcs_scale_based_regulation_hfcs_mfis",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 25)  \n> Core Proposition: NBFCs are registered under the Companies Act and regulated under Chapter IIIB of the RBI Act. They must",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NBFCs SCALE-BASED REGULATION, HFCs & MICROFINANCE (MFIs)",
+      "concept": "§ 19.2 Unit 25: Non-Banking Financial Companies (NBFCs)"
+    },
+    "badge": "1511 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 20: DFIS NABFID FINANCIAL INCLUSION NPCI CBDC",
+    "slug": "paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 23)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,713 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 20.1 Unit 23: Development Financial Institutions (DFIs)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 23)  \n> Core Proposition: DFIs provide long-gestation project finance. India's early DFIs (IFCI, ICICI, IDBI) faced asset-liabili",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 20: DFIS NABFID FINANCIAL INCLUSION NPCI CBDC",
+      "concept": "§ 20.1 Unit 23: Development Financial Institutions (DFIs)"
+    },
+    "badge": "753 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 20.2 Unit 26: Emerging Intermediaries, Financial Inclusion & FinTech",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-20_chapter_20_dfis_nabfid_financial_inclusion_npci_cbdc",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 26)  \n> Core Proposition: Financial inclusion integrates unbanked segments via PMJDY, measured by the RBI FI-Index. Digital publi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 20: DFIS NABFID FINANCIAL INCLUSION NPCI CBDC",
+      "concept": "§ 20.2 Unit 26: Emerging Intermediaries, Financial Inclusion & FinTech"
+    },
+    "badge": "885 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 21: MONEY MARKET CALL TBILLS CP CD TREPS",
+    "slug": "paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 29)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "1,875 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 21.1 Unit 29: Financial Markets - An Overview",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 29)  \n> Core Proposition: Financial markets are segmented by instrument maturity into Money Markets (maturity ≤ 1 year, liquidity",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 21: MONEY MARKET CALL TBILLS CP CD TREPS",
+      "concept": "§ 21.1 Unit 29: Financial Markets - An Overview"
+    },
+    "badge": "221 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 21.2 Unit 30: Money Market Instruments Suite",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-21_chapter_21_money_market_call_tbills_cp_cd_treps",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 30)  \n> Core Proposition: Money market instruments provide short-term liquidity management for banks, the sovereign, and corporat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 21: MONEY MARKET CALL TBILLS CP CD TREPS",
+      "concept": "§ 21.2 Unit 30: Money Market Instruments Suite"
+    },
+    "badge": "1570 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields",
+    "type": "TOPIC",
+    "title": "Paper 1: IE&IFS · Chapter 22: CAPITAL MARKETS STOCK EXCHANGES GSECS BOND YIELDS",
+    "slug": "paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 31)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "2,025 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 22.1 Unit 31: Capital Markets and Stock Exchanges",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 31)  \n> Core Proposition: Capital markets channel long-term savings into corporate equity and debt. The secondary market operates",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 22: CAPITAL MARKETS STOCK EXCHANGES GSECS BOND YIELDS",
+      "concept": "§ 22.1 Unit 31: Capital Markets and Stock Exchanges"
+    },
+    "badge": "543 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 22.2 Unit 32: Fixed Income Markets",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-22_chapter_22_capital_markets_stock_exchanges_gsecs_bond_yields",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 32)  \n> Core Proposition: Fixed income markets establish the sovereign yield curve through G-Secs, SDLs, and SGBs. Yield-to-Matur",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Paper 1: IE&IFS · Chapter 22: CAPITAL MARKETS STOCK EXCHANGES GSECS BOND YIELDS",
+      "concept": "§ 22.2 Unit 32: Fixed Income Markets"
+    },
+    "badge": "1413 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts",
+    "type": "TOPIC",
+    "title": "FINANCIAL DERIVATIVES, FOREX, FEMA & NRI ACCOUNTS",
+    "slug": "paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 33)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "2,179 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 23.1 Unit 33: Foreign Exchange Markets",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 33)  \n> Core Proposition: The Indian foreign exchange market operates under the Foreign Exchange Management Act (FEMA), 1999, reg",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL DERIVATIVES, FOREX, FEMA & NRI ACCOUNTS",
+      "concept": "§ 23.1 Unit 33: Foreign Exchange Markets"
+    },
+    "badge": "1053 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 23.2 Unit 36: Derivatives Market",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-23_chapter_23_derivatives_forex_fema_nri_accounts",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 36)  \n> Core Proposition: Derivatives derive value from underlying assets. Market structures span OTC contracts (Forwards, Swaps,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL DERIVATIVES, FOREX, FEMA & NRI ACCOUNTS",
+      "concept": "§ 23.2 Unit 36: Derivatives Market"
+    },
+    "badge": "1061 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking",
+    "type": "TOPIC",
+    "title": "FINANCIAL MARKET INTERCONNECTEDNESS & MERCHANT BANKING",
+    "slug": "paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 34)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "2,383 words • 11 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 24.1 Unit 34: Interconnection of Financial Markets & Market Dynamics",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 34)  \n> Core Proposition: Financial market integration enables rapid capital mobility and interest rate parity, but exposes the e",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL MARKET INTERCONNECTEDNESS & MERCHANT BANKING",
+      "concept": "§ 24.1 Unit 34: Interconnection of Financial Markets & Market Dynamics"
+    },
+    "badge": "801 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 24.2 Unit 35: Merchant Banking Services (2026 Regulatory Regime)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-24_chapter_24_interconnectedness_and_merchant_banking",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 35)  \n> Core Proposition: Merchant banks provide fee-based corporate financial consultancy, capital issue management, underwritin",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL MARKET INTERCONNECTEDNESS & MERCHANT BANKING",
+      "concept": "§ 24.2 Unit 35: Merchant Banking Services (2026 Regulatory Regime)"
+    },
+    "badge": "1505 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "type": "TOPIC",
+    "title": "MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS",
+    "slug": "paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 37)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "3,119 words • 15 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 25.1 Unit 37: Factoring, Forfaiting and TReDS",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 37)  \n> Core Proposition: Factoring and forfaiting convert commercial trade receivables into immediate cash liquidity. The Trade",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS",
+      "concept": "§ 25.1 Unit 37: Factoring, Forfaiting and TReDS"
+    },
+    "badge": "410 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 25.2 Unit 38: Venture Capital",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 38)  \n> Core Proposition: Venture Capital (VC) provides equity and quasi-equity risk funding to early-stage, high-technology star",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS",
+      "concept": "§ 25.2 Unit 38: Venture Capital"
+    },
+    "badge": "268 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 25.3 Unit 39: Lease Finance and Hire Purchase",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 39)  \n> Core Proposition: Equipment leasing and hire purchase finance industrial assets. In lease financing, legal ownership rema",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS",
+      "concept": "§ 25.3 Unit 39: Lease Finance and Hire Purchase"
+    },
+    "badge": "397 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 25.4 Unit 41: Mutual Funds and Alternative Investment Funds (AIFs)",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-01_module_a_general_banking_operations",
-    "description": "Under Indian law and banking conventions, bankers enjoy specific statutory rights to protect their advances and manage operational risks:\n\n• 1. Right of General Lien (Section 171, Indian Contract Ac",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-25_chapter_25_mutual_funds_aifs_reits_factoring_treds",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 41)  \n> Core Proposition: Mutual funds pool retail savings into diversified portfolios under a four-tier trust structure (Sponsor",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module A — General Banking Operations",
-      "concept": "⚖️ 2. Core Rights of a Banker"
+      "topic": "MUTUAL FUNDS, AIFs, REITs, FACTORING & TReDS",
+      "concept": "§ 25.4 Unit 41: Mutual Funds and Alternative Investment Funds (AIFs)"
     },
-    "badge": "241 words"
+    "badge": "754 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 2: Module B — Functions of Banks and Credit Operations",
-    "slug": "02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
-    "description": "Paper: 2 (Principles and Practices of Banking)",
+    "title": "PARA-BANKING, INSURANCE, PENSION, LEASING & CRAs",
+    "slug": "paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
+    "description": "Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 40)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Principles & Practices of Banking (PPB)"
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
     },
-    "badge": "4,981 words • 23 min read"
+    "badge": "2,874 words • 14 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-02_module_b_functions_of_banks_and_lending-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras-sec-2",
     "type": "CONCEPT",
-    "title": "2. 📌 Module 2: Credit Risk, Prudential Lending & Fair Lending Frameworks",
+    "title": "§ 26.1 Unit 40: Credit Rating Agencies (CRAs) & Credit Scoring",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
-    "description": "Prudential credit guidelines govern credit risk underwriting, portfolio provisioning, and borrower protections across Scheduled Commercial Banks, NBFCs, and Housing Finance Companies.\n\n• Expected Cred",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 40)  \n> Core Proposition: Debt instruments are evaluated by SEBI-regulated Credit Rating Agencies (CRAs), while retail borrower c",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module B — Functions of Banks and Credit Operations",
-      "concept": "2. 📌 Module 2: Credit Risk, Prudential Lending & Fair Lending Frameworks"
-    },
-    "badge": "500 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-02_module_b_functions_of_banks_and_lending-sec-3",
-    "type": "CONCEPT",
-    "title": "63. IIBF PPB Unit 8: Principles of Lending, Working Capital Assessment & Term Loans",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Working Capital vs Term Loan Appraisal\n> Banks provide credit under two distinct operational horizons: Working Capital (short-term liquidity for day-to-day oper",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module B — Functions of Banks and Credit Operations",
-      "concept": "63. IIBF PPB Unit 8: Principles of Lending, Working Capital Assessment & Term Loans"
-    },
-    "badge": "41 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-02_module_b_functions_of_banks_and_lending-sec-4",
-    "type": "CONCEPT",
-    "title": "📊 1. Master Framework: Tandon Committee MPBF Methods",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
-    "description": "| Method of Lending | Borrower Minimum Margin (NWC Contribution) | MPBF Calculation Formula | Benchmark Current Ratio |\n| --- | --- | --- | --- |\n| Method 1 (Tandon) | 25% of the Working Capital Gap",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module B — Functions of Banks and Credit Operations",
-      "concept": "📊 1. Master Framework: Tandon Committee MPBF Methods"
-    },
-    "badge": "137 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-02_module_b_functions_of_banks_and_lending-sec-5",
-    "type": "CONCEPT",
-    "title": "🧮 2. Key Mathematical Formulas for Credit Appraisal",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-02_module_b_functions_of_banks_and_lending",
-    "description": "$\\text{DSCR} = \\frac{\\text{Net Profit After Tax} + \\text{Depreciation} + \\text{Interest on Term Loan}}{\\text{Interest on Term Loan} + \\text{Principal Term Loan Installment}}$\n\nExplanation: Measures",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module B — Functions of Banks and Credit Operations",
-      "concept": "🧮 2. Key Mathematical Formulas for Credit Appraisal"
-    },
-    "badge": "213 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-02_paper_2_ppb-03_module_c_banking_technology",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 2: Module C — Banking Technology & Cyber Security",
-    "slug": "02_paper_2_ppb-03_module_c_banking_technology",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-03_module_c_banking_technology",
-    "description": "Paper: 2 (Principles and Practices of Banking)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Principles & Practices of Banking (PPB)"
-    },
-    "badge": "2,063 words • 10 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-03_module_c_banking_technology-sec-2",
-    "type": "CONCEPT",
-    "title": "4. 📌 Module 4: Digital Banking, Payments Architecture & Cyber Governance",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-03_module_c_banking_technology",
-    "description": "India's Digital Public Infrastructure (DPI) and fintech ecosystem have driven massive shifts in payment velocity, data protection, cyber fraud defense, and open banking models.\n\n• Unified Payments Int",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module C — Banking Technology & Cyber Security",
-      "concept": "4. 📌 Module 4: Digital Banking, Payments Architecture & Cyber Governance"
-    },
-    "badge": "350 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-03_module_c_banking_technology-sec-3",
-    "type": "CONCEPT",
-    "title": "70. IIBF PPB Unit 15: Essentials of Bank Computerization, CBS & Data Centers",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-03_module_c_banking_technology",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Core Banking Solution (CBS) Paradigm Shift\n> Core Banking Solutions (CBS) revolutionized Indian banking from 'branch-based banking' (where a customer was tied t",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module C — Banking Technology & Cyber Security",
-      "concept": "70. IIBF PPB Unit 15: Essentials of Bank Computerization, CBS & Data Centers"
-    },
-    "badge": "45 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-03_module_c_banking_technology-sec-4",
-    "type": "CONCEPT",
-    "title": "📊 1. Master Architecture: Primary Data Center (PDC) vs Disaster Recovery Site (DRS)",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-03_module_c_banking_technology",
-    "description": "| System / Metric | Technical Definition | Regulatory / Industry Benchmark | Operational Role in Banking |\n| --- | --- | --- | --- |\n| Primary Data Center (PDC) | The central facility housing core dat",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module C — Banking Technology & Cyber Security",
-      "concept": "📊 1. Master Architecture: Primary Data Center (PDC) vs Disaster Recovery Site (DRS)"
-    },
-    "badge": "225 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-03_module_c_banking_technology-sec-5",
-    "type": "CONCEPT",
-    "title": "🔒 2. Core Functional Modules of a Modern CBS",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-03_module_c_banking_technology",
-    "description": "• 1. Deposit Module: Automated interest accrual, TDS calculation at financial year-end, auto-renewal of term deposits, and dormant account flags.\n• 2. Loans & Advances Module: Asset classifica",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module C — Banking Technology & Cyber Security",
-      "concept": "🔒 2. Core Functional Modules of a Modern CBS"
-    },
-    "badge": "211 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 2: Module D — Ethics in Banks and Financial Institutions",
-    "slug": "02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions",
-    "description": "Paper: 2 (Principles and Practices of Banking)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Principles & Practices of Banking (PPB)"
-    },
-    "badge": "566 words • 3 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions-sec-2",
-    "type": "CONCEPT",
-    "title": "73. IIBF PPB Unit 18: Ethics, Business Values & Corporate Governance in Banks",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Ethics vs Law vs Values in Financial Institutions\n> Banking is founded upon public trust. While law defines the minimum acceptable boundary of legal behavior, e",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module D — Ethics in Banks and Financial Institutions",
-      "concept": "73. IIBF PPB Unit 18: Ethics, Business Values & Corporate Governance in Banks"
-    },
-    "badge": "42 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions-sec-3",
-    "type": "CONCEPT",
-    "title": "📜 1. The 5 Pillars of RBI's Charter of Customer Rights (2015)",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions",
-    "description": "| Customer Right | Statutory Objective | Operational Application in Bank Branches |\n| --- | --- | --- |\n| 1. Right to Fair Treatment | Customers cannot be discriminated against on grounds of gender, a",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module D — Ethics in Banks and Financial Institutions",
-      "concept": "📜 1. The 5 Pillars of RBI's Charter of Customer Rights (2015)"
-    },
-    "badge": "199 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions-sec-4",
-    "type": "CONCEPT",
-    "title": "🏛️ 2. Corporate Governance, Whistleblower Policy & Chinese Walls",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/02_paper_2_ppb-04_module_d_ethics_in_banks_and_financial_institutions",
-    "description": "• 1. Basel Corporate Governance Guidelines for Banks: Mandates strong board oversight, clear risk appetite statements, independent Risk Management and Audit Committees, and separation of Chairman",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 2: Module D — Ethics in Banks and Financial Institutions",
-      "concept": "🏛️ 2. Corporate Governance, Whistleblower Policy & Chinese Walls"
-    },
-    "badge": "239 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 3: Module A — Accounting Principles and Processes",
-    "slug": "03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "description": "Paper: 3 (Accounting and Financial Management for Bankers)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Accounting & Financial Management for Bankers (AFMB)"
-    },
-    "badge": "2,153 words • 10 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-01_module_a_accounting_principles_and_processes-sec-2",
-    "type": "CONCEPT",
-    "title": "8. IIBF AFMB Unit 1: Accounting Concepts, Principles (GAAP) & Ind AS Framework",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Generally Accepted Accounting Principles (GAAP)\n> GAAP forms the standardized conceptual foundation that ensures financial statements across all business enterp",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module A — Accounting Principles and Processes",
-      "concept": "8. IIBF AFMB Unit 1: Accounting Concepts, Principles (GAAP) & Ind AS Framework"
-    },
-    "badge": "34 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-01_module_a_accounting_principles_and_processes-sec-3",
-    "type": "CONCEPT",
-    "title": "📊 1. Master Matrix of 11 Fundamental Accounting Concepts",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "description": "| Accounting Concept | Core Theoretical Definition | Practical Accounting Application in Banking / Business |\n| --- | --- | --- |\n| Business Entity Concept | Business and its owners are distinct separ",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module A — Accounting Principles and Processes",
-      "concept": "📊 1. Master Matrix of 11 Fundamental Accounting Concepts"
-    },
-    "badge": "362 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-01_module_a_accounting_principles_and_processes-sec-4",
-    "type": "CONCEPT",
-    "title": "🏛️ 2. Indian Accounting Standards (Ind AS) & IFRS",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "description": "• Ind AS Framework: Converged with International Financial Reporting Standards (IFRS) issued by the Ministry of Corporate Affairs (MCA) under Section 133 of the Companies Act 2013.\n• Key Ind AS",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module A — Accounting Principles and Processes",
-      "concept": "🏛️ 2. Indian Accounting Standards (Ind AS) & IFRS"
-    },
-    "badge": "177 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-01_module_a_accounting_principles_and_processes-sec-5",
-    "type": "CONCEPT",
-    "title": "9. IIBF AFMB Unit 2: Golden Rules of Accounting, Journalizing & Ledger Posting",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-01_module_a_accounting_principles_and_processes",
-    "description": "> 🧠 Key Concept — Pivotal Concept: The 3 Golden Rules of Double-Entry Bookkeeping\n> Under the double-entry bookkeeping system founded by Luca Pacioli (1494), every financial transaction involves",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module A — Accounting Principles and Processes",
-      "concept": "9. IIBF AFMB Unit 2: Golden Rules of Accounting, Journalizing & Ledger Posting"
-    },
-    "badge": "39 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 3: Module B — Financial Mathematics & Bank Financial Statements",
-    "slug": "03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "description": "Paper: 3 (Accounting and Financial Management for Bankers)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Accounting & Financial Management for Bankers (AFMB)"
-    },
-    "badge": "1,486 words • 7 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-02_module_b_financial_mathematics_and_statements-sec-2",
-    "type": "CONCEPT",
-    "title": "13. IIBF AFMB Unit 6: Time Value of Money (TVM), Annuity & YTM Mathematics",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "description": "> 🧠 Key Concept — Pivotal Concept: The Time Value of Money (TVM)\n> A rupee today is worth more than a rupee in the future due to its earning potential, purchasing power erosion via inflation, and",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module B — Financial Mathematics & Bank Financial Statements",
-      "concept": "13. IIBF AFMB Unit 6: Time Value of Money (TVM), Annuity & YTM Mathematics"
-    },
-    "badge": "38 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-02_module_b_financial_mathematics_and_statements-sec-3",
-    "type": "CONCEPT",
-    "title": "🧮 1. Master Mathematical Formulas for Time Value of Money",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "description": "$\\text{PV} = \\frac{\\text{FV}}{(1 + r)^n} = \\text{FV} \\times (1 + r)^{-n}$\n\nExplanation: Where \\(PV\\) = Present Value, \\(FV\\) = Future Value, \\(r\\) = interest rate per compounding period, and \\(n\\) =",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module B — Financial Mathematics & Bank Financial Statements",
-      "concept": "🧮 1. Master Mathematical Formulas for Time Value of Money"
-    },
-    "badge": "236 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-02_module_b_financial_mathematics_and_statements-sec-4",
-    "type": "CONCEPT",
-    "title": "89. IIBF AFMB Unit 11: Preparation of Final Accounts of Banks (Third Schedule, BR Act 1949)",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "description": "> 🧠 Key Concept — IIBF Core Foundation: Statutory Bank Balance Sheet & P&L\n> Under Section 29 of the Banking Regulation Act, 1949, commercial banks must prepare their final accounts strictly in a",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module B — Financial Mathematics & Bank Financial Statements",
-      "concept": "89. IIBF AFMB Unit 11: Preparation of Final Accounts of Banks (Third Schedule, BR Act 1949)"
-    },
-    "badge": "593 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-02_module_b_financial_mathematics_and_statements-sec-5",
-    "type": "CONCEPT",
-    "title": "90. IIBF AFMB Unit 12: Foreign Exchange Arithmetic & Quotation Mechanics",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-02_module_b_financial_mathematics_and_statements",
-    "description": "> 🧠 Key Concept — IIBF Core Foundation: Forex Rates & Merchant Pricing\n> Foreign exchange transactions involve buying and selling one national currency against another. Understanding direct quota",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module B — Financial Mathematics & Bank Financial Statements",
-      "concept": "90. IIBF AFMB Unit 12: Foreign Exchange Arithmetic & Quotation Mechanics"
-    },
-    "badge": "498 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-03_paper_3_afmb-03_module_c_financial_management",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 3: Module C — Financial Management, Capital Budgeting & Ratio Analysis",
-    "slug": "03_paper_3_afmb-03_module_c_financial_management",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-03_module_c_financial_management",
-    "description": "Paper: 3 (Accounting and Financial Management for Bankers)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Accounting & Financial Management for Bankers (AFMB)"
-    },
-    "badge": "1,119 words • 6 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-03_module_c_financial_management-sec-2",
-    "type": "CONCEPT",
-    "title": "14. IIBF AFMB Unit 7: Capital Budgeting & Investment Decisions (NPV, IRR, Payback)",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-03_module_c_financial_management",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Capital Budgeting Decisions\n> Capital budgeting involves evaluating long-term capital investments whose returns are expected to accrue over multiple future year",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module C — Financial Management, Capital Budgeting & Ratio Analysis",
-      "concept": "14. IIBF AFMB Unit 7: Capital Budgeting & Investment Decisions (NPV, IRR, Payback)"
-    },
-    "badge": "28 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-03_module_c_financial_management-sec-3",
-    "type": "CONCEPT",
-    "title": "📊 1. Master Comparison of Capital Budgeting Appraisal Techniques",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-03_module_c_financial_management",
-    "description": "| Technique | Considers TVM? | Calculation Formula / Decision Rule | Key Strength & Limitation |\n| --- | --- | --- | --- |\n| Payback Period (PBP) | ❌ No | Time required to recover initial investment:",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module C — Financial Management, Capital Budgeting & Ratio Analysis",
-      "concept": "📊 1. Master Comparison of Capital Budgeting Appraisal Techniques"
+      "topic": "PARA-BANKING, INSURANCE, PENSION, LEASING & CRAs",
+      "concept": "§ 26.1 Unit 40: Credit Rating Agencies (CRAs) & Credit Scoring"
     },
     "badge": "272 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-03_module_c_financial_management-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras-sec-3",
     "type": "CONCEPT",
-    "title": "15. IIBF AFMB Unit 8: Ratio Analysis for Credit & Financial Health Assessment",
+    "title": "§ 26.2 Unit 42: Insurance Products and Services",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 42)  \n> Core Proposition: Insurance operates under fundamental legal doctrines (Uberrima Fides, Insurable Interest, Indemnity).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PARA-BANKING, INSURANCE, PENSION, LEASING & CRAs",
+      "concept": "§ 26.2 Unit 42: Insurance Products and Services"
+    },
+    "badge": "645 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 26.3 Unit 43: Pension Products (NPS, APY, UPS & EPF/PPF)",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-03_module_c_financial_management",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Financial Ratios as a Diagnostic Tool\n> Ratio analysis evaluates the financial stability, operational efficiency, liquidity, and debt-servicing capacity of borr",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 43)  \n> Core Proposition: Pension schemes provide post-retirement financial security under PFRDA regulation. The National Pension",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module C — Financial Management, Capital Budgeting & Ratio Analysis",
-      "concept": "15. IIBF AFMB Unit 8: Ratio Analysis for Credit & Financial Health Assessment"
+      "topic": "PARA-BANKING, INSURANCE, PENSION, LEASING & CRAs",
+      "concept": "§ 26.3 Unit 43: Pension Products (NPS, APY, UPS & EPF/PPF)"
     },
-    "badge": "38 words"
+    "badge": "826 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-03_module_c_financial_management-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras-sec-5",
     "type": "CONCEPT",
-    "title": "📊 1. Master Formula Matrix for Credit Appraisal Ratios",
+    "title": "§ 26.4 Unit 44: Para-Banking & Ancillary Services",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-03_module_c_financial_management",
-    "description": "| Ratio Category | Formula | Banking Benchmark / Target | Significance for Lenders |\n| --- | --- | --- | --- |\n| Current Ratio (CR) | \\(\\frac{\\text{Current Assets (CA)}}{\\text{Current Liabilities (CL)",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-26_chapter_26_parabanking_insurance_pension_cras",
+    "description": "> Curriculum Alignment — Official IIBF Paper 1 Benchmark (Unit 44)  \n> Core Proposition: Commercial banks undertake para-banking activities (credit cards, primary dealership, mutual fund distr",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module C — Financial Management, Capital Budgeting & Ratio Analysis",
-      "concept": "📊 1. Master Formula Matrix for Credit Appraisal Ratios"
+      "topic": "PARA-BANKING, INSURANCE, PENSION, LEASING & CRAs",
+      "concept": "§ 26.4 Unit 44: Para-Banking & Ancillary Services"
     },
-    "badge": "285 words"
+    "badge": "1034 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
+    "id": "shelf007-ch-iibf-dbf-paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 3: Module D — Taxation and Fundamentals of Costing",
-    "slug": "03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
-    "description": "Paper: 3 (Accounting and Financial Management for Bankers)",
+    "title": "THE GRAND SYNTHESIS: IIBF PAPER 1 MASTER REVISION VAULT",
+    "slug": "paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault",
+    "description": "The Grand Synthesis represents the authoritative capstone revision engine for IIBF DB&F / JAIIB Paper 1 (Indian Economy & Indian Financial System). Built on the Official IIBF 2026 Rules & Syllabus Benchmark, this vault reconciles all statutory amendments, regu...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Indian Economy & Indian Financial System (IE&IFS)"
+    },
+    "badge": "5,024 words • 23 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 27.1 Master Numerical & Statutory Fast-Recall Ledger (Reconciled 2026 Baseline)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault",
+    "description": "| Regulatory / Economic Domain | Current Statutory / Numerical Benchmark | Governing Statute / Regulatory Basis | Critical Distractor Trap |\n| :--- | :--- | :--- | :--- |\n| National Accounts Base Ye",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 1 MASTER REVISION VAULT",
+      "concept": "§ 27.1 Master Numerical & Statutory Fast-Recall Ledger (Reconciled 2026 Baseline)"
+    },
+    "badge": "1512 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 27.2 The 50 Master Examiner Traps (Distractor Logic Decoded)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault",
+    "description": "1. Trap 01 — Year of the Great Divide: In Indian demography, 1921 is the Year of the Great Divide (mortality fell, population turned positive), NOT 1951.\n2. Trap 02 — Demographic Stage: In",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 1 MASTER REVISION VAULT",
+      "concept": "§ 27.2 The 50 Master Examiner Traps (Distractor Logic Decoded)"
+    },
+    "badge": "1913 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 27.4 Master Curricular & Exam-Pattern Traceability Ledger (Units 01–45)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_1_chapters-27_chapter_27_the_grand_synthesis_master_revision_vault",
+    "description": "| Unit | Official IIBF Curriculum Unit Title | Codex Chapter | Core Examination Theme & High-Yield PYQ Provenance Traceability |\n| :---: | :--- | :---: | :--- |\n| 01 | Overview of Indian Economy |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 1 MASTER REVISION VAULT",
+      "concept": "§ 27.4 Master Curricular & Exam-Pattern Traceability Ledger (Units 01–45)"
+    },
+    "badge": "1503 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "type": "TOPIC",
+    "title": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
+    "slug": "paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 01)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,742 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 1.1 Unit 01: Banker-Customer Relationship",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 01)  \n> Core Proposition: A bank is legally defined under Section 5(b) of the Banking Regulation Act, 1949 as an institution acce",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
+      "concept": "§ 1.1 Unit 01: Banker-Customer Relationship"
+    },
+    "badge": "491 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 1.2 Unit 07: Banker's Special Relationship, Rights & Duties",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "description": "1. Right of General Lien (Section 171, Indian Contract Act, 1872)\n\nA banker's lien is an implied pledge conferring the right to retain goods and securities belonging to a debtor until the gene",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
+      "concept": "§ 1.2 Unit 07: Banker's Special Relationship, Rights & Duties"
+    },
+    "badge": "675 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 1.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "description": "Q1. A partnership firm has an overdrawn cash credit account guaranteed by Mr. X. Mr. X dies on 15 March. The bank receives notice of death on 16 March but continues transactions in the same running",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
+      "concept": "§ 1.3 High-Yield Examination Drill"
+    },
+    "badge": "318 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 1.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties",
+    "description": "• Q1 — Answer: B. Under Clayton's Rule (Section 61, Indian Contract Act), in an unbroken running account, payments in are applied to the earliest debits. The ₹15 Lakh deposited post-death extingui",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
+      "concept": "§ 1.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "167 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "type": "TOPIC",
+    "title": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
+    "slug": "paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 02)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,277 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 2.1 Unit 02: AML-KYC Regulatory Framework",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 02)  \n> Core Proposition: Money laundering involves three sequential stages: Placement (introducing illicit funds into financial",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
+      "concept": "§ 2.1 Unit 02: AML-KYC Regulatory Framework"
+    },
+    "badge": "423 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 2.2 Unit 03: Operational Aspects of KYC & 2025 Amendments",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "description": "1. Risk Categorization & Baseline Periodic Updation (Re-KYC)\n\n| Risk Tier | Risk Parameters & Customer Categories | Baseline Re-KYC Periodicity |\n| :--- | :--- | :--- |\n| High Risk | PEPs (Pol",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
+      "concept": "§ 2.2 Unit 03: Operational Aspects of KYC & 2025 Amendments"
+    },
+    "badge": "394 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 2.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "description": "Q1. Under the RBI Master Directions on KYC as amended in 2025, what is the mandatory regulatory treatment for a Low-Risk individual savings customer whose periodic KYC updation (re-KYC) has become o",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
+      "concept": "§ 2.3 High-Yield Examination Drill"
+    },
+    "badge": "228 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 2.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification",
+    "description": "• Q1 — Answer: B. Under the 12 June 2025 RBI KYC Amendments, banks are strictly prohibited from abruptly freezing low-risk overdue accounts. Banks can accept self-declarations via BCs/digital chan",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
+      "concept": "§ 2.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "137 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-03_chapter_03_account_opening_special_customers_lei",
+    "type": "TOPIC",
+    "title": "ACCOUNT OPENING, SPECIAL CUSTOMER CATEGORIES & LEI",
+    "slug": "paper_2_chapters-03_chapter_03_account_opening_special_customers_lei",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-03_chapter_03_account_opening_special_customers_lei",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 04)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,126 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-03_chapter_03_account_opening_special_customers_lei-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 3.1 Unit 04: Customer Due Diligence & Special Customer Types",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-03_chapter_03_account_opening_special_customers_lei",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 04)  \n> Core Proposition: Contractual capacity is governed by Section 11 of the Indian Contract Act, 1872. A person must be of th",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ACCOUNT OPENING, SPECIAL CUSTOMER CATEGORIES & LEI",
+      "concept": "§ 3.1 Unit 04: Customer Due Diligence & Special Customer Types"
+    },
+    "badge": "665 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-03_chapter_03_account_opening_special_customers_lei-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 3.2 High-Yield Examination Drill",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-03_chapter_03_account_opening_special_customers_lei",
+    "description": "Q1. Under the Hindu Succession (Amendment) Act, 2005 and RBI Master Directions, which of the following statements regarding the operation of a Hindu Undivided Family (HUF) bank account is legally ac",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ACCOUNT OPENING, SPECIAL CUSTOMER CATEGORIES & LEI",
+      "concept": "§ 3.2 High-Yield Examination Drill"
+    },
+    "badge": "244 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-03_chapter_03_account_opening_special_customers_lei-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 3.3 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-03_chapter_03_account_opening_special_customers_lei",
+    "description": "• Q1 — Answer: B. The Hindu Succession (Amendment) Act, 2005 conferred equal coparcenary rights on daughters by birth, enabling a woman to be a coparcener and legally act as Karta. In an HUF, only",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ACCOUNT OPENING, SPECIAL CUSTOMER CATEGORIES & LEI",
+      "concept": "§ 3.3 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "134 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "type": "TOPIC",
+    "title": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
+    "slug": "paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 04 / 26)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,200 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 4.1 Unit 04b: Corporate Entities, Trusts & Clubs",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 04 / 26)  \n> Core Proposition: A company is an artificial legal person created by law, with perpetual succession and a common sea",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
+      "concept": "§ 4.1 Unit 04b: Corporate Entities, Trusts & Clubs"
+    },
+    "badge": "370 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 4.2 Unit 26b: Companies Act, 2013 Section 77 Charge Registration",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "description": "> P0 Audit Fix — Stop-Ship Regulatory Clearance (C-03)  \n> Section 77 of the Companies Act, 2013 imposes a statutory duty on every company creating a charge on its property or assets (tangible or",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
+      "concept": "§ 4.2 Unit 26b: Companies Act, 2013 Section 77 Charge Registration"
+    },
+    "badge": "329 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 4.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "description": "Q1. A commercial bank sanctions a term loan of ₹10 Crore to a private limited company on 1 October, secured by a hypothecation of plant and machinery. By which date must the charge normally be regis",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
+      "concept": "§ 4.3 High-Yield Examination Drill"
+    },
+    "badge": "254 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-04_chapter_04_companies_trusts_charge_registration-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 4.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-04_chapter_04_companies_trusts_charge_registration",
+    "description": "• Q1 — Answer: B. Under Section 77(1) of the Companies Act, 2013, every charge created by a company must be registered with the ROC within 30 days of its creation with normal filing fees (Form",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COMPANIES, TRUSTS & COMPANIES ACT SECTION 77 CHARGES",
+      "concept": "§ 4.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "150 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "type": "TOPIC",
+    "title": "OPERATIONAL DEPOSIT ACCOUNTS, INOPERATIVE ACCOUNTS & ATTACHMENT ORDERS",
+    "slug": "paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 05)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,083 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 5.1 Unit 05: Operational Aspects of Deposit Accounts",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 05)  \n> Core Proposition: Inoperative accounts and unclaimed deposits are subject to statutory transfer to the Depositor Educatio",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "OPERATIONAL DEPOSIT ACCOUNTS, INOPERATIVE ACCOUNTS & ATTACHMENT ORDERS",
+      "concept": "§ 5.1 Unit 05: Operational Aspects of Deposit Accounts"
+    },
+    "badge": "310 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 5.2 Court Orders: Garnishee Orders vs. Income Tax Attachments",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "description": "1. Master Comparative Framework\n\n| Dimension | Garnishee Order (CPC Order XXI Rule 46) | Income Tax Attachment (IT Act Sec 226(3)) |\n| :--- | :--- | :--- |\n| Issuing Authority | Competent Civi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "OPERATIONAL DEPOSIT ACCOUNTS, INOPERATIVE ACCOUNTS & ATTACHMENT ORDERS",
+      "concept": "§ 5.2 Court Orders: Garnishee Orders vs. Income Tax Attachments"
+    },
+    "badge": "268 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 5.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "description": "Q1. An operative savings bank account has had zero customer-induced transactions since 1 January 2014. What is the mandatory statutory treatment for this deposit balance under Section 26A of the Ban",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "OPERATIONAL DEPOSIT ACCOUNTS, INOPERATIVE ACCOUNTS & ATTACHMENT ORDERS",
+      "concept": "§ 5.3 High-Yield Examination Drill"
+    },
+    "badge": "268 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 5.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
+    "description": "• Q1 — Answer: B. Under Section 26A of the Banking Regulation Act, 1949, any deposit account remaining inoperative or unclaimed for 10 years or more must be transferred to the DEA Fund mai",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "OPERATIONAL DEPOSIT ACCOUNTS, INOPERATIVE ACCOUNTS & ATTACHMENT ORDERS",
+      "concept": "§ 5.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "155 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "type": "TOPIC",
+    "title": "LOCKERS, SAFE CUSTODY & BANKING LAWS 2025 NOMINATION ARCHITECTURE",
+    "slug": "paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "description": "P0 Audit Fix — Stop-Ship Regulatory Clearance (C-01)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,014 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 6.1 Unit 05b: The Banking Laws (Amendment) Act, 2025 — Modernized Nomination",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "description": "> P0 Audit Fix — Stop-Ship Regulatory Clearance (C-01)  \n> Previously, Section 45ZA of the Banking Regulation Act, 1949 permitted only a single nominee for an individual deposit account. On",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LOCKERS, SAFE CUSTODY & BANKING LAWS 2025 NOMINATION ARCHITECTURE",
+      "concept": "§ 6.1 Unit 05b: The Banking Laws (Amendment) Act, 2025 — Modernized Nomination"
+    },
+    "badge": "351 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 6.2 Unit 15b: RBI Safe Deposit Locker & Safe Custody Directives",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "description": "1. Banker's Liability & Compensation Framework\n\n• Lessor-Lessee Relationship: Hiring a safe deposit locker creates a Lessor (Bank) and Lessee (Customer) relationship, NOT bailor-bailee. Th",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LOCKERS, SAFE CUSTODY & BANKING LAWS 2025 NOMINATION ARCHITECTURE",
+      "concept": "§ 6.2 Unit 15b: RBI Safe Deposit Locker & Safe Custody Directives"
+    },
+    "badge": "203 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 6.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "description": "Q1. Under the Banking Laws (Amendment) Act, 2025, what is the maximum number of simultaneous nominees that an individual account holder can legally appoint for a bank deposit account?  \nA. Only 1",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LOCKERS, SAFE CUSTODY & BANKING LAWS 2025 NOMINATION ARCHITECTURE",
+      "concept": "§ 6.3 High-Yield Examination Drill"
+    },
+    "badge": "221 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 6.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-06_chapter_06_lockers_safe_custody_nomination_2025",
+    "description": "• Q1 — Answer: C. The Banking Laws (Amendment) Act, 2025 (effective 1 Nov 2025) amended Section 45ZA of the BR Act to permit simultaneous nomination of up to four (4) persons for deposit accou",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LOCKERS, SAFE CUSTODY & BANKING LAWS 2025 NOMINATION ARCHITECTURE",
+      "concept": "§ 6.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "141 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "type": "TOPIC",
+    "title": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
+    "slug": "paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 08 & 10)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "995 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 7.1 Unit 08 & 10: FEMA Framework & Remittance Facilities",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 08 & 10)  \n> Core Proposition: FEMA Section 5 mandates full convertibility on Current Account transactions (trade in goods/servi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
+      "concept": "§ 7.1 Unit 08 & 10: FEMA Framework & Remittance Facilities"
+    },
+    "badge": "293 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 7.2 Unit 09: Operational Aspects of NRI Accounts",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "description": "1. Master Comparative Framework\n\n| Feature / Dimension | NRE (Non-Resident External) | NRO (Non-Resident Ordinary) | FCNR(B) (Foreign Currency Non-Resident) | SNRR (Special Non-Resident Rupee) |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
+      "concept": "§ 7.2 Unit 09: Operational Aspects of NRI Accounts"
+    },
+    "badge": "299 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 7.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "description": "Q1. Under the Reserve Bank of India's Liberalised Remittance Scheme (LRS), what is the maximum annual foreign exchange remittance limit permitted for a resident individual per financial year?  \nA.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
+      "concept": "§ 7.3 High-Yield Examination Drill"
+    },
+    "badge": "160 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 7.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances",
+    "description": "• Q1 — Answer: B. Under the Liberalised Remittance Scheme (LRS), resident individuals can freely remit up to USD 250,000 per financial year (April to March) for permissible current or capital",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
+      "concept": "§ 7.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "136 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "type": "TOPIC",
+    "title": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
+    "slug": "paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 06b)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "986 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 8.1 Unit 06b: Cash Custody, Clean Note Policy & Counterfeit Management",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 06b)  \n> Core Proposition: Section 22 of the RBI Act gives the Reserve Bank the sole right to issue banknotes. The Clean Note Pol",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
+      "concept": "§ 8.1 Unit 06b: Cash Custody, Clean Note Policy & Counterfeit Management"
+    },
+    "badge": "434 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 8.2 Unit 11: Cash Management Services (CMS) Architecture",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "description": "Cash Management Services represent high-value transaction banking provided to corporate clients, non-banking financial companies (NBFCs), and government departments:\n• Collections Management: Cent",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
+      "concept": "§ 8.2 Unit 11: Cash Management Services (CMS) Architecture"
+    },
+    "badge": "107 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 8.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "description": "Q1. A customer tenders a mutilated ₹500 banknote at a bank counter. Upon physical evaluation under the RBI Note Refund Rules, the undivided single largest piece of the banknote measures 65% of the t",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
+      "concept": "§ 8.3 High-Yield Examination Drill"
+    },
+    "badge": "215 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 8.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
+    "description": "• Q1 — Answer: B. Under the RBI (Note Refund) Rules, for denominations of ₹50 and above, a mutilated note qualifies for full value if its single largest piece area is $\\ge$ 80%. If the area is",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
+      "concept": "§ 8.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "145 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "type": "TOPIC",
+    "title": "NEGOTIABLE INSTRUMENTS ACT 1881 & MODERN CTS CLEARING",
+    "slug": "paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 12)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,212 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 9.1 Unit 12: Statutory Framework of Negotiable Instruments",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 12)  \n> Core Proposition: A negotiable instrument is a transferable document entitling the holder to an unconditional sum of mone",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NEGOTIABLE INSTRUMENTS ACT 1881 & MODERN CTS CLEARING",
+      "concept": "§ 9.1 Unit 12: Statutory Framework of Negotiable Instruments"
+    },
+    "badge": "614 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 9.2 Unit 06a: Cheque Truncation System (CTS) & Continuous Clearing",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "description": "> P0 Audit Fix — Stop-Ship Regulatory Clearance (C-05)  \n> The Cheque Truncation System (CTS) substitutes the physical movement of cheques with digital images and MICR data.\n\n• Transition to Con",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NEGOTIABLE INSTRUMENTS ACT 1881 & MODERN CTS CLEARING",
+      "concept": "§ 9.2 Unit 06a: Cheque Truncation System (CTS) & Continuous Clearing"
+    },
+    "badge": "132 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 9.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "description": "Q1. An instrument bears two parallel transverse lines across its face with the specific words 'Not Negotiable' written between them. What is the precise legal consequence of this crossing under Sect",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NEGOTIABLE INSTRUMENTS ACT 1881 & MODERN CTS CLEARING",
+      "concept": "§ 9.3 High-Yield Examination Drill"
+    },
+    "badge": "218 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 9.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
+    "description": "• Q1 — Answer: B. Under Section 130 of the NI Act, a 'Not Negotiable' crossing does not restrict transferability; it restricts negotiability. The holder cannot acquire a title better than the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NEGOTIABLE INSTRUMENTS ACT 1881 & MODERN CTS CLEARING",
+      "concept": "§ 9.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "155 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "type": "TOPIC",
+    "title": "PAYING & COLLECTING BANKS & ANCILLARY BANKING SERVICES",
+    "slug": "paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 13 & 14)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,184 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 10.1 Units 13 & 14: Statutory Protection to Paying & Collecting Bankers",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 13 & 14)  \n> Core Proposition: A paying banker has a statutory duty under Section 31 to honour cheques if drawn properly against",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PAYING & COLLECTING BANKS & ANCILLARY BANKING SERVICES",
+      "concept": "§ 10.1 Units 13 & 14: Statutory Protection to Paying & Collecting Bankers"
+    },
+    "badge": "490 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 10.2 Unit 15: Ancillary Banking Services & Electronic Payment Rails",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "description": "1. Demand Drafts & Banker's Cheques\n\n• Demand Draft (DD): An order drawn by one office of a bank upon another office of the same bank for payment of a specified sum to order.\n  - Governed by S",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PAYING & COLLECTING BANKS & ANCILLARY BANKING SERVICES",
+      "concept": "§ 10.2 Unit 15: Ancillary Banking Services & Electronic Payment Rails"
+    },
+    "badge": "257 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 10.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "description": "Q1. A commercial bank pays an order cheque presented at the counter where the drawer's signature was skillfully forged by an employee. The forgery could not be detected even under ultraviolet inspec",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PAYING & COLLECTING BANKS & ANCILLARY BANKING SERVICES",
+      "concept": "§ 10.3 High-Yield Examination Drill"
+    },
+    "badge": "219 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 10.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-10_chapter_10_paying_and_collecting_bank_ancillary_services",
+    "description": "• Q1 — Answer: C. A paying banker's protection under Section 85(1) extends strictly to forged endorsements. A forged drawer's signature is a legal nullity—the bank has no mandate to pay. T",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PAYING & COLLECTING BANKS & ANCILLARY BANKING SERVICES",
+      "concept": "§ 10.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "122 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "type": "TOPIC",
+    "title": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
+    "slug": "paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 16)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "959 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 11.1 Unit 16: Financial Inclusion & Financial Literacy Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 16)  \n> Core Proposition: Financial Inclusion is the process of ensuring access to financial services and timely, adequate credit",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
+      "concept": "§ 11.1 Unit 16: Financial Inclusion & Financial Literacy Architecture"
+    },
+    "badge": "297 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 11.2 Units 17 & 18: Customer Service Framework, Secrecy & BCSBI Historical Status",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "description": "1. Key Customer Service Committees\n\n• Goiporia Committee (1990): Recommended 15-minute counter service benchmarks, display of service charges, specialized teller systems, and mandatory trainin",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
+      "concept": "§ 11.2 Units 17 & 18: Customer Service Framework, Secrecy & BCSBI Historical Status"
+    },
+    "badge": "273 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 11.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "description": "Q1. Under the Pradhan Mantri Jan Dhan Yojana (PMJDY), what is the maximum Overdraft (OD) facility available to an eligible account holder after satisfactory operation of the account for six months?",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
+      "concept": "§ 11.3 High-Yield Examination Drill"
+    },
+    "badge": "173 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 11.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy",
+    "description": "• Q1 — Answer: B. Under revised PMJDY guidelines, the maximum Overdraft (OD) limit is ₹10,000 for accounts operated satisfactorily for 6 months (with up to ₹2,000 granted without condition). T",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
+      "concept": "§ 11.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "130 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "type": "TOPIC",
+    "title": "GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA & RTI",
+    "slug": "paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 19)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,011 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 12.1 Unit 19: The Reserve Bank - Integrated Ombudsman Scheme, 2021",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 19)  \n> Core Proposition: Launched on 12 November 2021, RB-IOS integrates the earlier Banking Ombudsman Scheme (2006), Ombudsman",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA & RTI",
+      "concept": "§ 12.1 Unit 19: The Reserve Bank - Integrated Ombudsman Scheme, 2021"
+    },
+    "badge": "305 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 12.2 Unit 20: The Consumer Protection Act, 2019 (CPA 2019)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "description": "The Consumer Protection Act, 2019 replaced the 1986 Act, expanding consumer rights to digital commerce and direct banking services:\n• Banking as a Service: Section 2(42) explicitly defines 'servic",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA & RTI",
+      "concept": "§ 12.2 Unit 20: The Consumer Protection Act, 2019 (CPA 2019)"
+    },
+    "badge": "142 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 12.3 Unit 21: The Right to Information Act, 2005 (RTI Act)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "description": "• Applicability to Banks: Applies to all Public Authorities (all Public Sector Banks, Regional Rural Banks, RBI, and government-owned financial institutions). Private sector commercial banks a",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA & RTI",
+      "concept": "§ 12.3 Unit 21: The Right to Information Act, 2005 (RTI Act)"
+    },
+    "badge": "168 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 12.4 High-Yield Examination Drill",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-12_chapter_12_grievance_redressal_ombudsman_cpa_rti",
+    "description": "Q1. Under the Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS), what is the maximum financial compensation that the Ombudsman can award for direct consequential loss suffered by a complaina",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GRIEVANCE REDRESSAL, INTEGRATED OMBUDSMAN, CPA & RTI",
+      "concept": "§ 12.4 High-Yield Examination Drill"
+    },
+    "badge": "152 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "type": "TOPIC",
+    "title": "PRINCIPLES OF LENDING, CREDIT TAXONOMY & LOAN MANAGEMENT",
+    "slug": "paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 22)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,020 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 13.1 Unit 22: Principles of Lending & Credit Facilities Taxonomy",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 22)  \n> Core Proposition: The canonical principles of lending balance safety of depositors' funds with commercial profitability.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRINCIPLES OF LENDING, CREDIT TAXONOMY & LOAN MANAGEMENT",
+      "concept": "§ 13.1 Unit 22: Principles of Lending & Credit Facilities Taxonomy"
+    },
+    "badge": "371 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 13.2 Unit 24: Operational Loan Account Management & Recovery Code",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "description": "1. Interest Rate Architecture: MCLR vs. EBLR Framework\n\n• Marginal Cost of Funds Based Lending Rate (MCLR):\n  - Internal benchmark computed on marginal cost of borrowings, CRR negative carry,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRINCIPLES OF LENDING, CREDIT TAXONOMY & LOAN MANAGEMENT",
+      "concept": "§ 13.2 Unit 24: Operational Loan Account Management & Recovery Code"
+    },
+    "badge": "275 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 13.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "description": "Q1. Under Reserve Bank of India directives on the External Benchmark Lending Rate (EBLR) framework, how frequently must commercial banks reset the interest rate on floating-rate retail home loans li",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRINCIPLES OF LENDING, CREDIT TAXONOMY & LOAN MANAGEMENT",
+      "concept": "§ 13.3 High-Yield Examination Drill"
+    },
+    "badge": "164 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 13.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-13_chapter_13_principles_of_lending_loan_management",
+    "description": "• Q1 — Answer: B. Under RBI's EBLR framework, commercial banks are mandated to reset the interest rate on external-benchmark linked floating-rate loans at least once every three months (quarterl",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRINCIPLES OF LENDING, CREDIT TAXONOMY & LOAN MANAGEMENT",
+      "concept": "§ 13.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "type": "TOPIC",
+    "title": "CREDIT APPRAISAL, ASSESSMENT METHODOLOGIES & WORKING CAPITAL MATH",
+    "slug": "paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 23)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,022 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 14.1 Unit 23: Credit Appraisal Techniques & Financial Ratios",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 23)  \n> Core Proposition: Credit evaluation integrates qualitative parameters (the 5 Cs of credit: Character, Capacity, Capital,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT APPRAISAL, ASSESSMENT METHODOLOGIES & WORKING CAPITAL MATH",
+      "concept": "§ 14.1 Unit 23: Credit Appraisal Techniques & Financial Ratios"
+    },
+    "badge": "423 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 14.2 Solved Appraisal Math & Numerical Drills",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "description": "Scenario 1: Nayak Committee Turnover Method\n• Problem: An enterprise has an audited annual turnover of ₹8 Crore and projects a turnover of ₹10 Crore for the next financial year. What is the wo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT APPRAISAL, ASSESSMENT METHODOLOGIES & WORKING CAPITAL MATH",
+      "concept": "§ 14.2 Solved Appraisal Math & Numerical Drills"
+    },
+    "badge": "195 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 14.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "description": "Q1. Under the Nayak Committee recommendations for financing working capital to MSE units with aggregate limits up to ₹5 Crore, what is the minimum percentage of projected annual turnover that a comm",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT APPRAISAL, ASSESSMENT METHODOLOGIES & WORKING CAPITAL MATH",
+      "concept": "§ 14.3 High-Yield Examination Drill"
+    },
+    "badge": "169 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 14.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-14_chapter_14_credit_appraisal_assessment_working_capital",
+    "description": "• Q1 — Answer: B. Under the Nayak Committee Turnover Method, the total working capital requirement is estimated at 25% of projected turnover, with the bank financing at least 20% of turnover a",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT APPRAISAL, ASSESSMENT METHODOLOGIES & WORKING CAPITAL MATH",
+      "concept": "§ 14.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "142 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "type": "TOPIC",
+    "title": "COLLATERALS, CHARGES, MORTGAGES & DOCUMENTATION",
+    "slug": "paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 25 & 26)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,200 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 15.1 Units 25 & 26: The Five Canonical Modes of Charging Securities",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 25 & 26)  \n> Core Proposition: Creation of security establishes a property right in favor of the lender. The nature of this righ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COLLATERALS, CHARGES, MORTGAGES & DOCUMENTATION",
+      "concept": "§ 15.1 Units 25 & 26: The Five Canonical Modes of Charging Securities"
+    },
+    "badge": "333 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 15.2 The Six Canonical Types of Mortgages (Section 58, TP Act 1882)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                 THE SIX TYPES OF MORTGAGE (SECTION 58, TP ACT)              │\n├───────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COLLATERALS, CHARGES, MORTGAGES & DOCUMENTATION",
+      "concept": "§ 15.2 The Six Canonical Types of Mortgages (Section 58, TP Act 1882)"
+    },
+    "badge": "237 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 15.3 Unit 27: Documentation, Stamping & Limitation Periods",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "description": "• Essential Loan Documents:\n  - Demand Promissory Note (DPN): Unconditional promise to pay on demand.\n  - Loan / Hypothecation Agreement: Detailed covenants, negative liens, acceleration c",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COLLATERALS, CHARGES, MORTGAGES & DOCUMENTATION",
+      "concept": "§ 15.3 Unit 27: Documentation, Stamping & Limitation Periods"
+    },
+    "badge": "185 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 15.4 High-Yield Examination Drill",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-15_chapter_15_collaterals_charges_mortgage_documentation",
+    "description": "Q1. In which mode of charging security does the actual physical or constructive possession of the movable goods transfer to the lending bank, while the legal ownership remains with the borrower?",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COLLATERALS, CHARGES, MORTGAGES & DOCUMENTATION",
+      "concept": "§ 15.4 High-Yield Examination Drill"
+    },
+    "badge": "194 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "type": "TOPIC",
+    "title": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
+    "slug": "paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 30 & 31)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,199 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 16.1 Units 30 & 31: Contracts of Indemnity vs. Guarantee",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Units 30 & 31)  \n> Core Proposition: Section 124 of the Indian Contract Act defines a Contract of Indemnity as a contract by which one",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
+      "concept": "§ 16.1 Units 30 & 31: Contracts of Indemnity vs. Guarantee"
+    },
+    "badge": "434 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 16.2 Unit 31b & 33: Bank Guarantees & Section 28 Claim Period Doctrine",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "description": "> P0 Audit Fix — Stop-Ship Regulatory Clearance (C-04)  \n> Disentangling Bank Guarantee Validity, Claim Period, and Statutory Limitation:\n\n\n┌────────────────────────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
+      "concept": "§ 16.2 Unit 31b & 33: Bank Guarantees & Section 28 Claim Period Doctrine"
+    },
+    "badge": "277 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 16.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "description": "Q1. Under Section 128 of the Indian Contract Act, 1872, what is the exact nature of the liability of a personal surety (guarantor) vis-à-vis the principal debtor?  \nA. The surety's liability is pu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
+      "concept": "§ 16.3 High-Yield Examination Drill"
+    },
+    "badge": "241 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 16.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-16_chapter_16_contracts_of_indemnity_and_guarantee",
+    "description": "• Q1 — Answer: B. Under Section 128, the liability of the surety is co-extensive with that of the principal debtor unless contractually limited. The creditor bank is under no legal obligation",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CONTRACTS OF INDEMNITY, GUARANTEE & BANK GUARANTEES",
+      "concept": "§ 16.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "140 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "type": "TOPIC",
+    "title": "LETTERS OF CREDIT (LC), UCPDC 600 & BILL FINANCE",
+    "slug": "paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 32)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,076 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 17.1 Unit 32: Letters of Credit & UCPDC 600 Rules",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 32)  \n> Core Proposition: A Letter of Credit is an irrevocable commitment by an Issuing Bank to pay the Beneficiary against prese",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LETTERS OF CREDIT (LC), UCPDC 600 & BILL FINANCE",
+      "concept": "§ 17.1 Unit 32: Letters of Credit & UCPDC 600 Rules"
+    },
+    "badge": "554 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 17.2 Unit 34: Laws Relating to Bill Finance",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "description": "• Classification of Commercial Bills:\n  - Demand Bills: Payable on demand/sight without grace days. Documents handed over strictly on payment (Documents against Payment - D/P).\n  - Usanc",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LETTERS OF CREDIT (LC), UCPDC 600 & BILL FINANCE",
+      "concept": "§ 17.2 Unit 34: Laws Relating to Bill Finance"
+    },
+    "badge": "109 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 17.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "description": "Q1. Under Article 14(b) of the Uniform Customs and Practice for Documentary Credits (UCPDC 600), what is the maximum timeframe allowed to an issuing bank or confirming bank to examine presented docu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LETTERS OF CREDIT (LC), UCPDC 600 & BILL FINANCE",
+      "concept": "§ 17.3 High-Yield Examination Drill"
+    },
+    "badge": "180 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 17.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-17_chapter_17_letters_of_credit_ucpdc_600_bill_finance",
+    "description": "• Q1 — Answer: B. Article 14(b) of UCPDC 600 explicitly provides that the issuing bank, confirming bank, and nominated bank shall each have a maximum of five banking days following the day of",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "LETTERS OF CREDIT (LC), UCPDC 600 & BILL FINANCE",
+      "concept": "§ 17.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "129 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "type": "TOPIC",
+    "title": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
+    "slug": "paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 35)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "947 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 18.1 Unit 35: Retail Loan Products Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 35)  \n> Core Proposition: Retail loans are granular, lower-ticket advances evaluated on individual credit scores (CIBIL/Equifax $",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
+      "concept": "§ 18.1 Unit 35: Retail Loan Products Architecture"
+    },
+    "badge": "351 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 18.2 Credit Card Operations & Regulatory Safeguards",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "description": "• Credit Card Billing & Minimum Amount Due (MAD):\n  - Minimum Amount Due is usually 5% of total outstanding balance (comprising all taxes, interest charges, fees, plus 100% of EMIs).\n  - Failure t",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
+      "concept": "§ 18.2 Credit Card Operations & Regulatory Safeguards"
+    },
+    "badge": "170 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 18.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "description": "Q1. Under Reserve Bank of India prudential guidelines on individual housing loans, what is the maximum permissible Loan-to-Value (LTV) ratio allowed for a home loan of ₹50 Lakh sanctioned to an indi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
+      "concept": "§ 18.3 High-Yield Examination Drill"
+    },
+    "badge": "183 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 18.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards",
+    "description": "• Q1 — Answer: B. For individual housing loans between ₹30 Lakh and ₹75 Lakh, the statutory ceiling on the Loan-to-Value (LTV) ratio is 80% (requiring a minimum 20% promoter/borrower margi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
+      "concept": "§ 18.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "145 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "type": "TOPIC",
+    "title": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
+    "slug": "paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 36)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,020 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 19.1 Unit 36: Priority Sector Lending Master Architecture (2025 Baseline)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 36)  \n> Core Proposition: Priority sector targets are computed as a percentage of Adjusted Net Bank Credit (ANBC) or Credit Equiv",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
+      "concept": "§ 19.1 Unit 36: Priority Sector Lending Master Architecture (2025 Baseline)"
+    },
+    "badge": "331 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 19.2 Unit 37: Agricultural Financing & Kisan Credit Card (KCC)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "description": "1. Types of Agricultural Credit\n\n• Short-Term Crop Loans: Production credit provided for purchasing seeds, fertilizers, pesticides, labor, and harvesting expenses. Repayable after harvest.\n•",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
+      "concept": "§ 19.2 Unit 37: Agricultural Financing & Kisan Credit Card (KCC)"
+    },
+    "badge": "303 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 19.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "description": "Q1. Under current Reserve Bank of India Master Directions on Priority Sector Lending (PSL), what is the mandated sub-target for lending to Micro Enterprises for domestic scheduled commercial banks?",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
+      "concept": "§ 19.3 High-Yield Examination Drill"
+    },
+    "badge": "149 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 19.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
+    "description": "• Q1 — Answer: B. Under RBI's current PSL Master Directions, the mandatory sub-target for advances to Micro Enterprises is 7.5% of ANBC / CEOBE for all domestic commercial banks and foreign ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
+      "concept": "§ 19.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "126 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "type": "TOPIC",
+    "title": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
+    "slug": "paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 39)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,022 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 20.1 Unit 39: MSME Classification & Statutory Safeguards",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 39)  \n> Core Proposition: MSME classification uses a composite criterion combining investment in plant, machinery, or equipment w",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
+      "concept": "§ 20.1 Unit 39: MSME Classification & Statutory Safeguards"
+    },
+    "badge": "381 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 20.2 Units 40 & 41: Government Schemes & Self-Help Groups (SHGs)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "description": "1. Pradhan Mantri MUDRA Yojana (PMMY)\n\n• Refinancing institution set up under SIDBI to finance non-corporate, non-farm small/micro enterprises:\n  1. Shishu: Loans up to ₹50,000 (for micro-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
+      "concept": "§ 20.2 Units 40 & 41: Government Schemes & Self-Help Groups (SHGs)"
+    },
+    "badge": "208 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 20.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "description": "Q1. An industrial enterprise has an investment in plant and machinery of ₹20 Crore, an annual domestic turnover of ₹80 Crore, and export proceeds of ₹50 Crore. Under the revised MSME classification",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
+      "concept": "§ 20.3 High-Yield Examination Drill"
+    },
+    "badge": "187 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 20.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
+    "description": "• Q1 — Answer: B. Under the revised criteria effective 1 April 2025, a Small Enterprise has investment $\\le$ ₹25 Crore and turnover $\\le$ ₹100 Crore. Because export turnover is statutorily exclu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
+      "concept": "§ 20.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "141 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "type": "TOPIC",
+    "title": "NPA MANAGEMENT, IRAC NORMS & STRESSED ASSET RESOLUTION",
+    "slug": "paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 28)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,217 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 21.1 Unit 28: Asset Classification & Provisioning Norms (IRAC Framework)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 28)  \n> Core Proposition: An asset becomes non-performing when it ceases to generate income for the bank. Under the 90-day delinq",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NPA MANAGEMENT, IRAC NORMS & STRESSED ASSET RESOLUTION",
+      "concept": "§ 21.1 Unit 28: Asset Classification & Provisioning Norms (IRAC Framework)"
+    },
+    "badge": "408 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 21.2 Resolution of Stressed Assets: June 7, 2019 Framework & Recovery Modes",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "description": "1. RBI Prudential Framework for Resolution of Stressed Assets (June 7, 2019)\n\n• Early Identification (SMA Slabs):\n  - SMA-0: Principal or interest overdue for 1 to 30 days.\n  - SMA-1",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NPA MANAGEMENT, IRAC NORMS & STRESSED ASSET RESOLUTION",
+      "concept": "§ 21.2 Resolution of Stressed Assets: June 7, 2019 Framework & Recovery Modes"
+    },
+    "badge": "310 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 21.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "description": "Q1. A commercial term loan has an outstanding balance of ₹100 Lakh. It has remained in the 'Doubtful' category for two and a half years (D2 stage). The realisable market value of the tangible securi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NPA MANAGEMENT, IRAC NORMS & STRESSED ASSET RESOLUTION",
+      "concept": "§ 21.3 High-Yield Examination Drill"
+    },
+    "badge": "223 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 21.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-21_chapter_21_npa_management_irac_norms_stressed_assets",
+    "description": "• Q1 — Answer: C. In the Doubtful-2 (D2) stage (doubtful for 1 to 3 years), the provision on the secured portion is 40%, and the provision on the unsecured portion is 100%:\n  - $\\text{",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "NPA MANAGEMENT, IRAC NORMS & STRESSED ASSET RESOLUTION",
+      "concept": "§ 21.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "168 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "type": "TOPIC",
+    "title": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
+    "slug": "paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 29)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,158 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 22.1 Unit 29: Statutory Debt Recovery Framework",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 29)  \n> Core Proposition: Before 2002, banks were forced to pursue lengthy civil suits. The SARFAESI Act empowers secured credito",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
+      "concept": "§ 22.1 Unit 29: Statutory Debt Recovery Framework"
+    },
+    "badge": "351 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 22.2 DRT, IBC, Lok Adalats & The Law of Limitation",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                 COMPARISON OF STATUTORY RECOVERY CHANNELS                   │\n├───────────────────────┬───────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
+      "concept": "§ 22.2 DRT, IBC, Lok Adalats & The Law of Limitation"
+    },
+    "badge": "335 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 22.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "description": "Q1. Under Section 31(g) of the SARFAESI Act, 2002, in which of the following scenarios is a secured commercial bank legally BARRED from enforcing its security interest under the Act?  \nA. When the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
+      "concept": "§ 22.3 High-Yield Examination Drill"
+    },
+    "badge": "226 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 22.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-22_chapter_22_recovery_laws_sarfaesi_drt_ibc_lok_adalats",
+    "description": "• Q1 — Answer: B. Under Section 31(g) of the SARFAESI Act, the provisions of the Act do not apply to any case where the amount due is less than 20% of the principal amount and interest thereon",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RECOVERY LAWS: SARFAESI, DRT, IBC, LOK ADALATS & LIMITATION",
+      "concept": "§ 22.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "139 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "type": "TOPIC",
+    "title": "FINANCE TO MFIS, CO-LENDING & SCALE-BASED REGULATION",
+    "slug": "paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 38)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "972 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 23.1 Unit 38: Microfinance Regulatory Architecture (2022 Baseline)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 38)  \n> Core Proposition: In April 2022, the Reserve Bank unified microfinance regulations across all lending entities (commercia",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCE TO MFIS, CO-LENDING & SCALE-BASED REGULATION",
+      "concept": "§ 23.1 Unit 38: Microfinance Regulatory Architecture (2022 Baseline)"
+    },
+    "badge": "242 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 23.2 Co-Lending Model (CLM) & Scale-Based Regulation (SBR)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "description": "1. Co-Lending Model (CLM) Framework\n\nThe RBI Co-Lending Model enables commercial banks and registered NBFCs (including Housing Finance Companies) to co-originate priority sector loans:\n• Mandato",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCE TO MFIS, CO-LENDING & SCALE-BASED REGULATION",
+      "concept": "§ 23.2 Co-Lending Model (CLM) & Scale-Based Regulation (SBR)"
+    },
+    "badge": "325 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 23.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "description": "Q1. Under the Reserve Bank of India's Harmonized Regulatory Framework for Microfinance Loans (2022 Directions), what is the maximum annual household income ceiling prescribed for a borrower to quali",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCE TO MFIS, CO-LENDING & SCALE-BASED REGULATION",
+      "concept": "§ 23.3 High-Yield Examination Drill"
+    },
+    "badge": "188 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 23.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-23_chapter_23_finance_to_mfis_co_lending_sbr_framework",
+    "description": "• Q1 — Answer: C. Under the April 2022 RBI Microfinance Directions, the distinction between rural and urban limits was abolished. A microfinance loan is defined as a collateral-free loan to a hous",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCE TO MFIS, CO-LENDING & SCALE-BASED REGULATION",
+      "concept": "§ 23.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "124 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "type": "TOPIC",
+    "title": "CORE BANKING SYSTEMS (CBS) & IT INFRASTRUCTURE",
+    "slug": "paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "description": "Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 42)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "997 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure-sec-2",
+    "type": "CONCEPT",
+    "title": "§ 24.1 Unit 42: Essentials of Bank Computerisation & Data Warehousing",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "description": "> Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 42)  \n> Core Proposition: Bank computerization shifted the industry from decentralised ledger-posting machines to centralized, 24",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CORE BANKING SYSTEMS (CBS) & IT INFRASTRUCTURE",
+      "concept": "§ 24.1 Unit 42: Essentials of Bank Computerisation & Data Warehousing"
+    },
+    "badge": "273 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure-sec-3",
+    "type": "CONCEPT",
+    "title": "§ 24.2 Unit 43: Operational Aspects of Core Banking Systems (CBS)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "description": "1. Operational Flow & Dual-Control Mechanics\n\n• Anywhere Banking: The customer is no longer a customer of a specific branch; the customer is an account holder of the bank at large. Branch oper",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CORE BANKING SYSTEMS (CBS) & IT INFRASTRUCTURE",
+      "concept": "§ 24.2 Unit 43: Operational Aspects of Core Banking Systems (CBS)"
+    },
+    "badge": "305 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure-sec-4",
+    "type": "CONCEPT",
+    "title": "§ 24.3 High-Yield Examination Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "description": "Q1. In modern bank computerization, what is the primary technical difference between an Online UPS and an Offline (Standby) UPS deployed in branch infrastructure?  \nA. Online UPS operates on solar",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CORE BANKING SYSTEMS (CBS) & IT INFRASTRUCTURE",
+      "concept": "§ 24.3 High-Yield Examination Drill"
+    },
+    "badge": "203 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure-sec-5",
+    "type": "CONCEPT",
+    "title": "§ 24.4 Answer Key & Detailed Explanatory Rationale",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-24_chapter_24_core_banking_systems_cbs_infrastructure",
+    "description": "• Q1 — Answer: B. An Online UPS provides continuous power to critical equipment through its inverter with zero switching time (0 ms), shielding servers from voltage spikes and power drops.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CORE BANKING SYSTEMS (CBS) & IT INFRASTRUCTURE",
+      "concept": "§ 24.4 Answer Key & Detailed Explanatory Rationale"
+    },
+    "badge": "115 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "type": "TOPIC",
+    "title": "CHAPTER 25: DELIVERY CHANNELS, ELECTRONIC PAYMENTS & CUSTOMER LIABILITY",
+    "slug": "paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "description": "Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "3,012 words • 14 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability-sec-2",
+    "type": "CONCEPT",
+    "title": "25.1 Delivery Channels Architecture: ATMs, WLAs, and POS",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "description": "Modern commercial banking operates on a decoupled multi-channel architecture where customer touchpoints are separated from the centralized ledger. Alternative Delivery Channels (ADCs) lower transactio",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 25: DELIVERY CHANNELS, ELECTRONIC PAYMENTS & CUSTOMER LIABILITY",
+      "concept": "25.1 Delivery Channels Architecture: ATMs, WLAs, and POS"
+    },
+    "badge": "717 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability-sec-3",
+    "type": "CONCEPT",
+    "title": "25.2 Electronic Remittance Systems: NEFT, RTGS, and SWIFT",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "description": "1. National Electronic Funds Transfer (NEFT)\n Governing Body: Owned and operated directly by the Reserve Bank of India.\n Operational Availability: Operates on a 24x7x365 basis since Dece",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 25: DELIVERY CHANNELS, ELECTRONIC PAYMENTS & CUSTOMER LIABILITY",
+      "concept": "25.2 Electronic Remittance Systems: NEFT, RTGS, and SWIFT"
+    },
+    "badge": "591 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability-sec-4",
+    "type": "CONCEPT",
+    "title": "25.3 Customer Liability in Unauthorised Electronic Banking Transactions",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "description": "To protect consumer trust in digital payments, RBI issued Master Directions establishing a three-tiered liability framework governing unauthorized electronic banking transactions (covering both remote",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 25: DELIVERY CHANNELS, ELECTRONIC PAYMENTS & CUSTOMER LIABILITY",
+      "concept": "25.3 Customer Liability in Unauthorised Electronic Banking Transactions"
+    },
+    "badge": "421 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability-sec-5",
+    "type": "CONCEPT",
+    "title": "25.4 Harmonisation of Turn Around Time (TAT) and Failed Transaction Penalties",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-25_chapter_25_delivery_channels_payments_customer_liability",
+    "description": "Under Section 10(2) read with Section 18 of the Payment and Settlement Systems Act, 2007, the RBI issued a harmonized framework specifying Turn Around Time (TAT) for failed transactions across electro",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 25: DELIVERY CHANNELS, ELECTRONIC PAYMENTS & CUSTOMER LIABILITY",
+      "concept": "25.4 Harmonisation of Turn Around Time (TAT) and Failed Transaction Penalties"
+    },
+    "badge": "322 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "type": "TOPIC",
+    "title": "CHAPTER 26: NPCI DIGITAL RAILS, E-RUPI, CBDC & ACCOUNT AGGREGATORS",
+    "slug": "paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "description": "Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "2,694 words • 13 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-2",
+    "type": "CONCEPT",
+    "title": "26.1 National Payments Corporation of India (NPCI) Ecosystem",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "description": "The National Payments Corporation of India (NPCI) was incorporated in 2008 under the provisions of the Payment and Settlement Systems Act, 2007 (PSSA) as an initiative of the Reserve Bank of India (RB",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 26: NPCI DIGITAL RAILS, E-RUPI, CBDC & ACCOUNT AGGREGATORS",
+      "concept": "26.1 National Payments Corporation of India (NPCI) Ecosystem"
+    },
+    "badge": "825 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-3",
+    "type": "CONCEPT",
+    "title": "26.2 Programmable Digital Vouchers: e-RUPI",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "description": "e-RUPI is a cashless, contactless digital voucher system developed by NPCI in collaboration with the Department of Financial Services (DFS), the Ministry of Health and Family Welfare (MoHFW), and the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 26: NPCI DIGITAL RAILS, E-RUPI, CBDC & ACCOUNT AGGREGATORS",
+      "concept": "26.2 Programmable Digital Vouchers: e-RUPI"
+    },
+    "badge": "277 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-4",
+    "type": "CONCEPT",
+    "title": "26.3 Central Bank Digital Currency (CBDC): The Digital Rupee (e₹)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "description": "The Reserve Bank of India launched the Digital Rupee (e₹) pilot in 2022 following amendments to the Reserve Bank of India Act, 1934, enacted through the Finance Act, 2022. Section 22 of the RBI Act wa",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 26: NPCI DIGITAL RAILS, E-RUPI, CBDC & ACCOUNT AGGREGATORS",
+      "concept": "26.3 Central Bank Digital Currency (CBDC): The Digital Rupee (e₹)"
+    },
+    "badge": "363 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-5",
+    "type": "CONCEPT",
+    "title": "26.4 The Account Aggregator (AA) Ecosystem",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators",
+    "description": "The Account Aggregator (AA) framework is a consent-driven, secure data-sharing financial architecture regulated by the RBI under the Non-Banking Financial Company - Account Aggregator (Reserve Bank)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 26: NPCI DIGITAL RAILS, E-RUPI, CBDC & ACCOUNT AGGREGATORS",
+      "concept": "26.4 The Account Aggregator (AA) Ecosystem"
+    },
+    "badge": "352 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "type": "TOPIC",
+    "title": "CHAPTER 27: CYBERSECURITY, INCIDENT RESPONSE & THE IT ACT",
+    "slug": "paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "description": "Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "2,101 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act-sec-2",
+    "type": "CONCEPT",
+    "title": "27.1 The Banking Cyber Threat Landscape & Defense Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "description": "The rapid digital transformation of banking infrastructures has expanded the surface area for cyber threats. In financial services, cyber risk is not merely an operational IT concern but a systemic ri",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 27: CYBERSECURITY, INCIDENT RESPONSE & THE IT ACT",
+      "concept": "27.1 The Banking Cyber Threat Landscape & Defense Architecture"
+    },
+    "badge": "253 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act-sec-3",
+    "type": "CONCEPT",
+    "title": "27.2 The RBI Cyber Security Framework & IT Governance",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "description": "The Reserve Bank of India, operating through the recommendations of the G. Gopalakrishnan Working Group and the comprehensive Master Direction on Information Technology Governance, Risk, Controls",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 27: CYBERSECURITY, INCIDENT RESPONSE & THE IT ACT",
+      "concept": "27.2 The RBI Cyber Security Framework & IT Governance"
+    },
+    "badge": "415 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act-sec-4",
+    "type": "CONCEPT",
+    "title": "27.3 Business Continuity Planning (BCP) & Disaster Recovery (DR)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "description": "Business Continuity Management ensures that a bank can maintain or rapidly recover operations following a natural disaster, cyber strike, or physical infrastructure disruption.\n\n\n+-----------------",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 27: CYBERSECURITY, INCIDENT RESPONSE & THE IT ACT",
+      "concept": "27.3 Business Continuity Planning (BCP) & Disaster Recovery (DR)"
+    },
+    "badge": "257 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act-sec-5",
+    "type": "CONCEPT",
+    "title": "27.4 The Information Technology Act, 2000 (and 2008 Amendment)",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act",
+    "description": "The Information Technology Act, 2000 (IT Act) provides statutory recognition for electronic records, digital signatures, and electronic contracts, while establishing a penal framework for cyber offens",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 27: CYBERSECURITY, INCIDENT RESPONSE & THE IT ACT",
+      "concept": "27.4 The Information Technology Act, 2000 (and 2008 Amendment)"
+    },
+    "badge": "417 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "type": "TOPIC",
+    "title": "CHAPTER 28: ETHICS, BUSINESS VALUES & BANKING PERSPECTIVES",
+    "slug": "paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "description": "Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,901 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives-sec-2",
+    "type": "CONCEPT",
+    "title": "28.1 The Conceptual Foundations of Ethics and Values",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "description": "Ethics derives from the Greek word ethos, signifying character, custom, or habit. In philosophical and professional domains, ethics represents the systematic inquiry into moral concepts, values, and",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 28: ETHICS, BUSINESS VALUES & BANKING PERSPECTIVES",
+      "concept": "28.1 The Conceptual Foundations of Ethics and Values"
+    },
+    "badge": "396 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives-sec-3",
+    "type": "CONCEPT",
+    "title": "28.2 Ethics in Banking: Trust, Fiduciary Responsibility & Governance",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "description": "Banking is fundamentally a business built on public trust and fiduciary duty. Unlike ordinary commercial manufacturing enterprises, commercial banks operate with exceptional financial leverage, wh",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 28: ETHICS, BUSINESS VALUES & BANKING PERSPECTIVES",
+      "concept": "28.2 Ethics in Banking: Trust, Fiduciary Responsibility & Governance"
+    },
+    "badge": "249 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives-sec-4",
+    "type": "CONCEPT",
+    "title": "28.3 Resolution of Ethical Dilemmas: Kidder's Framework",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "description": "Rushworth Kidder established that genuine ethical dilemmas are not choices between \"right versus wrong\" (which are moral temptations), but rather conflicts between \"right versus right\", where two",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 28: ETHICS, BUSINESS VALUES & BANKING PERSPECTIVES",
+      "concept": "28.3 Resolution of Ethical Dilemmas: Kidder's Framework"
+    },
+    "badge": "239 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives-sec-5",
+    "type": "CONCEPT",
+    "title": "28.4 Case Studies: Landmark Ethical and Corporate Governance Failures",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-28_chapter_28_ethics_business_values_banking_perspectives",
+    "description": "+-----------------------------------------------------------------------------------+\n|               ANATOMY OF HISTORIC ETHICAL & CORPORATE FAILURES                    |\n+-----------------------",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 28: ETHICS, BUSINESS VALUES & BANKING PERSPECTIVES",
+      "concept": "28.4 Case Studies: Landmark Ethical and Corporate Governance Failures"
+    },
+    "badge": "270 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "type": "TOPIC",
+    "title": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
+    "slug": "paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "description": "Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "1,993 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-2",
+    "type": "CONCEPT",
+    "title": "29.1 Ethics at the Employee Level: Fiduciary Conduct & Insider Trading",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "description": "Employees of commercial banking institutions are custodians of public trust. Fiduciary duty requires that employees subordinate their private interests to the legitimate financial interests of the ban",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
+      "concept": "29.1 Ethics at the Employee Level: Fiduciary Conduct & Insider Trading"
+    },
+    "badge": "332 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-3",
+    "type": "CONCEPT",
+    "title": "29.2 Workplace Conduct and the POSH Act, 2013",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "description": "A safe, dignified, and inclusive workplace environment is both an ethical necessity and a statutory requirement under Indian law.\n\n\n+----------------------------------------------------------------",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
+      "concept": "29.2 Workplace Conduct and the POSH Act, 2013"
+    },
+    "badge": "231 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-4",
+    "type": "CONCEPT",
+    "title": "29.3 Whistleblower Mechanisms & Protection",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "description": "Whistleblowing is the disclosure by an employee or stakeholder of corrupt, illegal, unethical, or fraudulent activities occurring within an organization to authorities who can enforce corrective actio",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
+      "concept": "29.3 Whistleblower Mechanisms & Protection"
+    },
+    "badge": "166 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-5",
+    "type": "CONCEPT",
+    "title": "29.4 Digital Personal Data Protection Act, 2023 (DPDP Act)",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr",
+    "description": "The enactment of the Digital Personal Data Protection Act, 2023 (DPDP Act) overhauled data privacy regulations in India, establishing significant obligations for banks handling financial and biometric",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
+      "concept": "29.4 Digital Personal Data Protection Act, 2023 (DPDP Act)"
+    },
+    "badge": "228 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "type": "TOPIC",
+    "title": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
+    "slug": "paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "description": "Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Principles & Practices of Banking (PPB)"
+    },
+    "badge": "4,278 words • 20 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-2",
+    "type": "CONCEPT",
+    "title": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "description": "This consolidated master ledger summarizes the key statutory sections, monetary thresholds, and procedural mandates across all 55 official syllabus units of IIBF DB&F / JAIIB Paper 2 (Principles and P",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
+      "concept": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger"
+    },
+    "badge": "1546 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-3",
+    "type": "CONCEPT",
+    "title": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "description": "Examiners capitalize on subtle statutory updates, timing deadlines, and definitions. Memorize these 50 traps:\n\n1. Nomination Limit (2025/2026): Under the Banking Laws (Amendment) Act, 2025, deposi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
+      "concept": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)"
+    },
+    "badge": "1659 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-4",
+    "type": "CONCEPT",
+    "title": "30.3 Master Diagnostic Capstone Drill",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "description": "Question 1\nExamine the following statements regarding the regulatory framework governing banking operations and consumer protections in India:\n1. Under the Banking Laws (Amendment) Act, 2025, depo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
+      "concept": "30.3 Master Diagnostic Capstone Drill"
+    },
+    "badge": "672 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-5",
+    "type": "CONCEPT",
+    "title": "30.4 Diagnostic Solutions & Analysis",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
+    "description": "1. Correct Answer: B\n    Analysis: Statements 1, 3, and 4 are correct. Statement 2 is incorrect because zero liability under the RBI Customer Liability Master Direction requires the customer to",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
+      "concept": "30.4 Diagnostic Solutions & Analysis"
+    },
+    "badge": "358 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "type": "TOPIC",
+    "title": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
+    "slug": "paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "725 words • 4 min read"
+    "badge": "1,063 words • 5 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-2",
     "type": "CONCEPT",
-    "title": "16. IIBF AFMB Unit 9: Fundamentals of Costing, Marginal Costing & Break-Even Analysis",
+    "title": "1. Master Matrix of 11 Fundamental Accounting Concepts",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Marginal Costing & Contribution Principle\n> Marginal costing segregates total costs strictly into Fixed Costs (period costs that remain constant regardless of p",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "description": "| Accounting Concept | Core Theoretical Definition | Practical Accounting Application in Banking / Business |\n| :--- | :--- | :--- |\n| Business Entity Concept | Business and its owners are distinc",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module D — Taxation and Fundamentals of Costing",
-      "concept": "16. IIBF AFMB Unit 9: Fundamentals of Costing, Marginal Costing & Break-Even Analysis"
+      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
+      "concept": "1. Master Matrix of 11 Fundamental Accounting Concepts"
     },
-    "badge": "42 words"
+    "badge": "406 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-3",
     "type": "CONCEPT",
-    "title": "🧮 1. Master Mathematical Formulas for Marginal Costing",
+    "title": "2. Indian Accounting Standards (Ind AS) & IFRS Convergence",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
-    "description": "$\\text{P/V Ratio} = \\frac{\\text{Contribution}}{\\text{Sales}} \\times 100 = \\frac{\\text{Sales} - \\text{Variable Cost}}{\\text{Sales}} \\times 100$\n\nExplanation: Expresses profitability per unit of sales",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "description": "- Ind AS Regulatory Mandate: Issued by the Ministry of Corporate Affairs (MCA) under Section 133 of the Companies Act 2013, fully converged with International Financial Reporting Standards (IFRS).",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module D — Taxation and Fundamentals of Costing",
-      "concept": "🧮 1. Master Mathematical Formulas for Marginal Costing"
+      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
+      "concept": "2. Indian Accounting Standards (Ind AS) & IFRS Convergence"
+    },
+    "badge": "189 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "description": "Q1. Valuing closing stock at Cost or Net Realizable Value (Market Price), whichever is lower, is an application of which accounting convention?\n- (A) Realization Concept\n- (B) Prudence / Conservat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "237 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
+    "description": "<details>\n<summary>What is the core distinction between the Accrual Concept and the Cash Basis of Accounting?</summary>\n\nUnder the Accrual Concept, revenues are recognized when earned (when rights to",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "113 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "type": "TOPIC",
+    "title": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
+    "slug": "paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "806 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Classification: 3 Account Types & Their Golden Rules",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "description": "| Account Category | Scope / Representative Examples | Golden Rule for Debit (Dr) | Golden Rule for Credit (Cr) |\n| :--- | :--- | :--- | :--- |\n| Personal Accounts | Natural Persons (Ram A/c), Art",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
+      "concept": "1. Master Classification: 3 Account Types & Their Golden Rules"
+    },
+    "badge": "151 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-3",
+    "type": "CONCEPT",
+    "title": "2. The Complete Accounting Cycle: Transaction to Balanced Ledger",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "description": "1. Source Documents: Vouchers, invoices, debit notes, credit notes, and pay-in slips furnish documentary evidence of the transaction.\n2. Journalizing (Book of Original Entry): Chronological re",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
+      "concept": "2. The Complete Accounting Cycle: Transaction to Balanced Ledger"
+    },
+    "badge": "230 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "description": "Q1. Outstanding Salary Account is classified under which category of accounts?\n- (A) Nominal Account\n- (B) Real Account\n- (C) Representative Personal Account\n- (D) Artificial Personal Account\n\nQ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "208 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
+    "description": "<details>\n<summary>Why is the Cash Book characterized as both a book of original entry and a principal book?</summary>\n\nBecause cash transactions are entered directly into the Cash Book from source do",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "96 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "type": "TOPIC",
+    "title": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
+    "slug": "paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "926 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Classification of Accounting Errors",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "description": "| Error Classification | Precise Mechanism & Nature | Impact on Trial Balance Tally | Rectification Protocol |\n| :--- | :--- | :--- | :--- |\n| Error of Principle | Transaction recorded in complete",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
+      "concept": "1. Master Classification of Accounting Errors"
+    },
+    "badge": "270 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Suspense Account Mechanics & Balance Sheet Treatment",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "description": "- Function of Suspense Account: When a Trial Balance fails to tally at year-end, the unexplained difference is temporarily parked in a \"Suspense Account\" to permit timely preparation of final fina",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
+      "concept": "2. Suspense Account Mechanics & Balance Sheet Treatment"
+    },
+    "badge": "183 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "description": "Q1. Wages paid to workers for installing a new manufacturing plant were debited to the Wages Account. What category of error does this represent?\n- (A) Error of Commission\n- (B) Error of Principle",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "250 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
+    "description": "<details>\n<summary>Why does an Error of Principle not disturb the arithmetical tally of a Trial Balance?</summary>\n\nBecause the dual entry rule of equal debits and credits was mathematically executed;",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "103 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "type": "TOPIC",
+    "title": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
+    "slug": "paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "862 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Reconciling Adjustments Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "description": "| Transaction / Origin of Discrepancy | Cash Book Impact | Pass Book Impact | Adjustment when Starting with Cash Book Favorable Balance | Adjustment when Starting with Pass Book Favorable Balance |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
+      "concept": "1. Master Reconciling Adjustments Architecture"
+    },
+    "badge": "229 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Balance Terminology & Overdraft Concepts",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "description": "- Favorable Balances:\n  - Cash Book Debit Balance: Asset balance (Depositor holds money in the bank).\n  - Pass Book Credit Balance: Liability of bank toward customer (Favorable balance for dep",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
+      "concept": "2. Balance Terminology & Overdraft Concepts"
+    },
+    "badge": "176 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "description": "Q1. A debit balance in the customer Bank Passbook indicates:\n- (A) Favorable balance in hand\n- (B) Overdraft balance\n- (C) Fixed deposit balance\n- (D) Undrawn credit limit\n\nQ2. When preparing",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "234 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
+    "description": "<details>\n<summary>Why does a credit balance in the Cash Book indicate an overdraft?</summary>\n\nBecause the Cash Book bank column is an asset account where debits represent deposits and credits repres",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "105 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "type": "TOPIC",
+    "title": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
+    "slug": "paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "793 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Mathematical Formulas for Core Depreciation Methods",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "description": "1. Straight Line Method (SLM / Fixed Installment Method)\n$$\\text{Annual Depreciation (SLM)} = \\frac{\\text{Original Acquisition Cost} - \\text{Estimated Scrap Value}}{\\text{Useful Economic Life in Y",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
+      "concept": "1. Mathematical Formulas for Core Depreciation Methods"
+    },
+    "badge": "145 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Comparison: SLM vs WDV Method",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "description": "| Operational Parameter | Straight Line Method (SLM) | Written Down Value Method (WDV) |\n| :--- | :--- | :--- |\n| Computation Base | Fixed on Original Cost every year | Recomputed annually on",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
+      "concept": "2. Master Comparison: SLM vs WDV Method"
+    },
+    "badge": "202 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "description": "Q1. A machine purchased for ₹2,00,000 has an estimated scrap value of ₹20,000 and an economic life of 10 years. Under the Straight Line Method (SLM), what is the annual depreciation charge?\n- (A)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "216 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
+    "description": "<details>\n<summary>Why does the WDV method provide a more equitable annual charge to the Profit & Loss statement compared to SLM?</summary>\n\nBecause as an asset ages, its annual repair and maintenance",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "104 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "type": "TOPIC",
+    "title": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
+    "slug": "paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "863 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Statutory Architecture: Bills of Exchange vs Promissory Notes",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "description": "| Parameter | Bill of Exchange (Section 5, NI Act) | Promissory Note (Section 4, NI Act) |\n| :--- | :--- | :--- |\n| Number of Parties | 3 Parties: Drawer (maker), Drawee (payer), and Payee |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
+      "concept": "1. Statutory Architecture: Bills of Exchange vs Promissory Notes"
+    },
+    "badge": "138 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Maturity Computation & Maturity Date Rules",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "description": "$$\\text{Maturity Date} = \\text{Nominal Due Date} + 3 \\text{ Days of Grace}$$\n- Public Holiday Rule: If the maturity date falls on a Public Holiday (under NI Act, e.g., Sunday, Independence Day",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
+      "concept": "2. Maturity Computation & Maturity Date Rules"
+    },
+    "badge": "72 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Rebate on Bills Discounted (Unearned Discount)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "description": "When a bank discounts a bill of exchange, it deducts the entire discount upfront and credits the proceeds to the customer. When a bill matures after the close of the financial year (31 March), the d",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
+      "concept": "3. Rebate on Bills Discounted (Unearned Discount)"
+    },
+    "badge": "175 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "description": "Q1. A bill of exchange dated 1 January is drawn for 3 months. After adding statutory days of grace, its maturity date falls on 4 April. If 4 April is declared a Gazetted Public Holiday, when is th",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "247 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "type": "TOPIC",
+    "title": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
+    "slug": "paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "710 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Mathematical Formulas for Time Value of Money",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "description": "1. Future Value (Compounding)\n$$\\text{FV} = \\text{PV} \\times (1 + r)^n = \\text{PV} \\times \\left( 1 + \\frac{r}{m} \\right)^{m \\times n}$$\n- Where $\\text{PV}$ = Present Value, $r$ = Annual interest r",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
+      "concept": "1. Mathematical Formulas for Time Value of Money"
+    },
+    "badge": "121 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Rule of 72 and Rule of 114",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "description": "| Shortcut Rule | Mathematical Objective | Computational Formula | Application Example |\n| :--- | :--- | :--- | :--- |\n| Rule of 72 | Doubling Period of Investment | $$t{\\text{double}} \\approx \\f",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
+      "concept": "2. Rule of 72 and Rule of 114"
+    },
+    "badge": "179 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "description": "Q1. A customer deposits ₹1,00,000 in a fixed deposit for 1 year at a nominal interest rate of 12% per annum compounded quarterly. What is the Effective Annual Rate (EAR)?\n- (A) 12.00%\n- (B) 12.55%",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "201 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
+    "description": "<details>\n<summary>Why does an increase in the compounding frequency widen the gap between the Nominal Rate and the Effective Annual Rate?</summary>\n\nBecause interest earned in earlier intervals is ad",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "92 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "type": "TOPIC",
+    "title": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
+    "slug": "paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "771 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Ordinary Annuity vs Annuity Due & Perpetuities",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "description": "1. Ordinary Annuity (Payments at the END of each period)\n$$\\text{PV}{\\text{Ordinary Annuity}} = C \\times \\left[ \\frac{1 - (1 + r)^{-n}}{r} \\right]$$\n$$\\text{FV}{\\text{Ordinary Annuity}} = C \\tim",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
+      "concept": "1. Ordinary Annuity vs Annuity Due & Perpetuities"
+    },
+    "badge": "114 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Equated Monthly Installment (EMI) Formula",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "description": "$$\\text{EMI} = \\frac{P \\times r \\times (1 + r)^n}{(1 + r)^n - 1}$$\n- Where $P$ = Loan Principal sanctioned, $r$ = Monthly interest rate (Annual rate $/ 12$), and $n$ = Loan tenure in total months.\n-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
+      "concept": "2. Equated Monthly Installment (EMI) Formula"
+    },
+    "badge": "78 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Sinking Fund Factor",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "description": "$$\\text{Annual Deposit (Sinking Fund)} = \\text{Target Future Sum} \\times \\left[ \\frac{r}{(1 + r)^n - 1} \\right]$$\n- Used by companies to systematically accumulate funds to redeem debentures or replace",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
+      "concept": "3. Sinking Fund Factor"
+    },
+    "badge": "107 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
+    "description": "Q1. How does the Present Value of an Annuity Due compare to the Present Value of an Ordinary Annuity for the same cash flow, rate, and period?\n- (A) Equal\n- (B) Higher by a factor of (1 + r)\n- (C)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "269 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "type": "TOPIC",
+    "title": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
+    "slug": "paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "739 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Core Bond Pricing Principles",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "description": "1. Intrinsic Value of a Bond\n$$V0 = \\sum{t=1}^n \\frac{C}{(1 + kd)^t} + \\frac{M}{(1 + kd)^n} = C \\times \\left[ \\frac{1 - (1 + kd)^{-n}}{kd} \\right] + \\frac{M}{(1 + kd)^n}$$\n- Where $C$ = Ann",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
+      "concept": "1. Core Bond Pricing Principles"
+    },
+    "badge": "156 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Yield to Maturity (YTM) Approximation Formula",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "description": "$$\\text{YTM} \\approx \\frac{C + \\frac{M - P}{n}}{\\frac{M + P}{2}} \\times 100$$\n- Where $C$ = Annual coupon payment, $M$ = Maturity face value, $P$ = Current market purchase price, and $n$ = Years remai",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
+      "concept": "2. Yield to Maturity (YTM) Approximation Formula"
+    },
+    "badge": "36 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Macaulay Duration & Modified Duration",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "description": "1. Macaulay Duration ($D$)\nMeasures the weighted-average time (in years) required for a bondholder to recover the initial purchase price from coupon and principal cash flows:\n$$D = \\frac{\\sum{t=1",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
+      "concept": "3. Macaulay Duration & Modified Duration"
+    },
+    "badge": "131 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
+    "description": "Q1. A 5-year zero-coupon bond has a face value of ₹1,000. What is its Macaulay Duration?\n- (A) 2.5 Years\n- (B) 4.2 Years\n- (C) 5.0 Years\n- (D) Zero\n\nQ2. When prevailing market interest rates r",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "192 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "type": "TOPIC",
+    "title": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
+    "slug": "paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "881 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Architecture of Form A (Balance Sheet Schedules 1 to 12)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "description": "| Schedule | Category & Official Title | Statutory Composition & Inclusions |\n| :--- | :--- | :--- |\n| Schedule 1 | Capital | Authorised Capital, Issued Capital, Subscribed Capital, Paid-Up Ca",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
+      "concept": "1. Master Architecture of Form A (Balance Sheet Schedules 1 to 12)"
+    },
+    "badge": "302 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Key Statutory Rules & Off-Balance Sheet Footnotes",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "description": "- Non-Banking Assets Acquired in Satisfaction of Claims (Section 9, BR Act): Physical real estate or goods taken over from defaulted borrowers must be shown under Schedule 11 (Other Assets) an",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
+      "concept": "2. Key Statutory Rules & Off-Balance Sheet Footnotes"
+    },
+    "badge": "155 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "description": "Q1. Under the Third Schedule of the Banking Regulation Act 1949, under which schedule are Letters of Credit and Bank Guarantees disclosed?\n- (A) Schedule 5\n- (B) Schedule 9\n- (C) Schedule 11\n- (D)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "205 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
+    "description": "<details>\n<summary>Why are \"Bills for Collection\" excluded from the balance sheet total in Form A?</summary>\n\nBecause the bank acts purely as a collecting agent for its customer without acquiring owne",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "93 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "type": "TOPIC",
+    "title": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
+    "slug": "paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "799 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Architecture of Form B (Profit & Loss Schedules 13 to 16)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "description": "| Section | Schedule / Line | Description & Key Inclusions |\n| :--- | :--- | :--- |\n| I. Income | Schedule 13: Interest Earned | • Interest/discount on advances and bills.<br>• Income on inves",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
+      "concept": "1. Master Architecture of Form B (Profit & Loss Schedules 13 to 16)"
+    },
+    "badge": "216 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Mandatory Section 17 Statutory Reserve Rules",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "description": "- Statutory Benchmark (Section 17(1), BR Act 1949): Every commercial banking company incorporated in India must transfer at least 20% of its annual net profit to a Statutory Reserve fund befor",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
+      "concept": "2. Mandatory Section 17 Statutory Reserve Rules"
+    },
+    "badge": "160 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "description": "Q1. Under Section 17 of the Banking Regulation Act 1949, what is the minimum statutory percentage of net profit that a banking company must transfer to the Statutory Reserve before declaring divid",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "210 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "description": "<details>\n<summary>What is the distinction between Schedule 13 (Interest Earned) and Schedule 14 (Other Income) regarding investments?</summary>\n\nPeriodic coupon interest and dividend yields on invest",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "98 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "type": "TOPIC",
+    "title": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+    "slug": "paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "846 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Direct vs Indirect Quotation Systems",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "description": "| Quotation Mechanism | Theoretical Definition | Domestic / International Benchmark | Trading Golden Rule |\n| :--- | :--- | :--- | :--- |\n| Direct Quotation | Home currency price of 1 unit of fore",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "1. Direct vs Indirect Quotation Systems"
+    },
+    "badge": "99 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Two-Way Quotes & Bid-Ask Spread",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "description": "$$\\text{USD / INR} = 84.20 / 84.30$$\n- Bid Rate (Bank Buying Rate): ₹84.20 (Bank buys 1 USD from customer for ₹84.20).\n- Ask Rate (Bank Selling Rate): ₹84.30 (Bank sells 1 USD to customer f",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "2. Two-Way Quotes & Bid-Ask Spread"
+    },
+    "badge": "65 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Cross Rates via Chain Rule",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "description": "When direct market trading does not exist between two currencies, the exchange rate is calculated via an intermediary vehicle currency (typically USD):\n$$\\text{EUR / INR} = (\\text{USD / INR}) \\times (",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "3. Cross Rates via Chain Rule"
+    },
+    "badge": "56 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Forward Rates & Forward Margin Rules",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "description": "$$\\text{Forward Rate} = \\text{Spot Rate} \\pm \\text{Forward Margin (Premium or Discount)}$$\n\n| Forward Margin Pattern | Market State | Operational Rule in Direct Quotation |\n| :--- | :--- | :--- |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "4. Forward Rates & Forward Margin Rules"
+    },
+    "badge": "78 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "type": "TOPIC",
+    "title": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
+    "slug": "paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "808 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Comparison of Capital Budgeting Appraisal Techniques",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "description": "| Appraisal Technique | Considers TVM? | Mathematical Formula / Acceptance Rule | Core Strengths & Practical Limitations |\n| :--- | :--- | :--- | :--- |\n| Payback Period (PBP) | ❌ No | $$\\text{PBP",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
+      "concept": "1. Master Comparison of Capital Budgeting Appraisal Techniques"
+    },
+    "badge": "198 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Resolving NPV vs IRR Conflicts in Mutually Exclusive Projects",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "description": "When two mutually exclusive capital projects give contradictory rankings under NPV and IRR (due to scale differences or timing of cash flows):\n- Superiority of NPV: NPV must ALWAYS be adopted",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
+      "concept": "2. Resolving NPV vs IRR Conflicts in Mutually Exclusive Projects"
+    },
+    "badge": "161 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "description": "Q1. When evaluating two mutually exclusive investment projects with conflicting rankings between Net Present Value (NPV) and Internal Rate of Return (IRR), which criteria should be followed?\n- (A)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "231 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "description": "<details>\n<summary>Why does the Profitability Index (PI) serve as the optimal decision rule under capital rationing?</summary>\n\nBecause when an enterprise has a fixed capital budget ceiling, PI ranks",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "107 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "type": "TOPIC",
+    "title": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
+    "slug": "paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "867 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Formulas for Specific Component Costs of Capital",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "description": "1. After-Tax Cost of Debt ($Kd$)\nBecause interest on debt is a tax-deductible business expense under corporate tax laws:\n$$Kd = I \\times (1 - t)$$\n- Where $I$ = Pre-tax contractual coupon / inte",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
+      "concept": "1. Master Formulas for Specific Component Costs of Capital"
+    },
+    "badge": "215 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Weighted Average Cost of Capital (WACC / $K_o$)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "description": "$$\\text{WACC} = \\left( Wd \\times Kd \\right) + \\left( Wp \\times Kp \\right) + \\left( We \\times Ke \\right)$$\n- Where $Wd, Wp, We$ represent the proportional market value (or book value) weights",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
+      "concept": "2. Weighted Average Cost of Capital (WACC / $K_o$)"
+    },
+    "badge": "48 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Overview of Capital Structure Theories",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "description": "- Net Income (NI) Theory (Durand): Financial leverage matters; higher debt lowers WACC and increases firm value due to the lower cost of debt.\n- Net Operating Income (NOI) Theory: Capital stru",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
+      "concept": "3. Overview of Capital Structure Theories"
+    },
+    "badge": "147 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "description": "Q1. A corporate borrower issues debentures at an interest rate of 12% per annum. If the corporate tax rate is 30%, what is the after-tax cost of debt (Kd)?\n- (A) 12.0%\n- (B) 8.4%\n- (C) 9.6%\n- (D)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "234 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "type": "TOPIC",
+    "title": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
+    "slug": "paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "742 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The Three Dimensions of Leverage",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "description": "$$\\text{Sales Revenue} - \\text{Variable Costs} = \\text{Contribution}$$\n$$\\text{Contribution} - \\text{Fixed Operating Costs} = \\text{EBIT}$$\n$$\\text{EBIT} - \\text{Interest Charges} = \\text{EBT}$$\n$$\\te",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
+      "concept": "1. The Three Dimensions of Leverage"
+    },
+    "badge": "163 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-3",
+    "type": "CONCEPT",
+    "title": "2. EBIT-EPS Indifference Point",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "description": "The Indifference Point represents the specific level of Earnings Before Interest and Taxes (EBIT) at which two alternative financing plans yield the exact same Earnings Per Share (EPS).\n\n$$\\frac{(\\tex",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
+      "concept": "2. EBIT-EPS Indifference Point"
+    },
+    "badge": "168 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "description": "Q1. A firm has Sales of ₹20 Lakhs, Variable Costs of ₹12 Lakhs, and Fixed Operating Costs of ₹4 Lakhs. What is its Degree of Operating Leverage (DOL)?\n- (A) 1.5\n- (B) 2.0\n- (C) 2.5\n- (D) 3.0\n\nQ2",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "192 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "description": "<details>\n<summary>Why does an enterprise with zero fixed operating costs have an Operating Leverage of 1.0 rather than 0?</summary>\n\nBecause if fixed costs are zero, Contribution equals EBIT. The rat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "107 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "type": "TOPIC",
+    "title": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
+    "slug": "paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "810 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Formula Matrix for Bank Credit Appraisal Ratios",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "description": "| Ratio Category | Exact Mathematical Formula | Banking Benchmark / Target | Primary Significance for Credit Sanctions |\n| :--- | :--- | :--- | :--- |\n| Current Ratio (CR) | $$\\frac{\\text{Current",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
+      "concept": "1. Master Formula Matrix for Bank Credit Appraisal Ratios"
+    },
+    "badge": "277 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Tangible Net Worth (TNW) Definition for Bankers",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "description": "$$\\text{Tangible Net Worth (TNW)} = \\text{Paid-Up Equity Capital} + \\text{Free Reserves} - \\text{Intangible Assets} - \\text{Accumulated Losses}$$\n- Intangible assets deducted: Goodwill, Patents, Trade",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
+      "concept": "2. Tangible Net Worth (TNW) Definition for Bankers"
+    },
+    "badge": "81 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "description": "Q1. Under the Tandon Committee Method 2 of working capital appraisal, what is the minimum required Current Ratio benchmark?\n- (A) 1.00 : 1\n- (B) 1.25 : 1\n- (C) 1.33 : 1\n- (D) 2.00 : 1\n\nQ2. Whi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "229 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
+    "description": "<details>\n<summary>What is the formula for calculating Net Working Capital (NWC), and what does a negative NWC indicate to a bank lender?</summary>\n\nNWC = Current Assets − Current Liabilities. A negat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "107 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "type": "TOPIC",
+    "title": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
+    "slug": "paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "695 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Mathematical Formulas for Marginal Costing",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "description": "1. Contribution\n$$\\text{Contribution} = \\text{Sales Revenue} - \\text{Variable Costs}$$\n$$\\text{Contribution} = \\text{Fixed Costs} + \\text{Profit}$$\n\n 2. Profit-Volume Ratio (P/V Ratio)\n$$\\text{",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
+      "concept": "1. Master Mathematical Formulas for Marginal Costing"
+    },
+    "badge": "158 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Cost Dynamics Comparison",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "description": "| Cost Category | Behavior in Total Amount | Behavior on a Per-Unit Basis |\n| :--- | :--- | :--- |\n| Fixed Cost | Constant / Unchanged regardless of output volume | Decreases progressively",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
+      "concept": "2. Cost Dynamics Comparison"
+    },
+    "badge": "106 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "description": "Q1. A manufacturing firm has Fixed Costs of ₹6,00,000, Selling Price of ₹100 per unit, and Variable Cost of ₹60 per unit. What is the Break-Even Point in physical units?\n- (A) 10,000 Units\n- (B) 1",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "210 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
+    "description": "<details>\n<summary>Why is a high Margin of Safety (MoS) considered a positive indicator by a bank term-lending officer?</summary>\n\nA high MoS indicates that the borrower's actual sales can drop signif",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "101 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "type": "TOPIC",
+    "title": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
+    "slug": "paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "755 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Variance Analysis Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "description": "Variances represent the difference between standard costs and actual costs:\n- Favourable Variance (F): When Actual Cost is less than Standard Cost (Actual Cost < Standard Cost), enhancing profit",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
+      "concept": "1. Master Variance Analysis Architecture"
+    },
+    "badge": "158 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Budgetary Control: Fixed vs Flexible Budgets & Cash Budgets",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "description": "| Budget Type | Core Architectural Characteristic | Analytical Utility in Banking & Business |\n| :--- | :--- | :--- |\n| Fixed Budget | Prepared for a single predetermined level of activity; remain",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
+      "concept": "2. Budgetary Control: Fixed vs Flexible Budgets & Cash Budgets"
+    },
+    "badge": "191 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "description": "Q1. Standard price of material is ₹20 per kg. Actual material purchased and consumed is 1,000 kg at ₹22 per kg. What is the Material Price Variance (MPV)?\n- (A) ₹2,000 Favourable\n- (B) ₹2,000 Adve",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "209 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
+    "description": "<details>\n<summary>State the mathematical relationship linking Material Cost Variance, Material Price Variance, and Material Usage Variance.</summary>\n\nMaterial Cost Variance (MCV) = Material Price Va",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "93 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "type": "TOPIC",
+    "title": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
+    "slug": "paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "866 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-2",
+    "type": "CONCEPT",
+    "title": "1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "description": "| Depositor Category | Annual Interest Threshold for TDS | Standard TDS Rate (Valid PAN) | Higher TDS Rate without PAN (Sec 206AA) | Exemption Declaration Forms |\n| :--- | :--- | :--- | :--- | :--- |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
+      "concept": "1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)"
+    },
+    "badge": "168 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Section 194N: TDS on Cash Withdrawals",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "description": "To discourage high-value cash transactions and promote digital banking rails:\n- General Threshold: TDS at 2% on aggregate cash withdrawals exceeding ₹1 Crore in a financial year from one o",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
+      "concept": "2. Section 194N: TDS on Cash Withdrawals"
+    },
+    "badge": "66 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Goods and Services Tax (GST) Architecture in Banking",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "description": "- Applicable GST Rate: Most banking fee-based services (processing charges, folio charges, locker rent, ATM fees beyond free limit, DD issuance) attract standard GST at 18%.\n- Exempt Banking",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
+      "concept": "3. Goods and Services Tax (GST) Architecture in Banking"
+    },
+    "badge": "163 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "description": "Q1. Under Section 194A of the Income Tax Act 1961, what is the annual interest threshold above which a bank must deduct TDS on term deposits of Senior Citizens (age 60+)?\n- (A) ₹10,000\n- (B) ₹40,0",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "219 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "type": "TOPIC",
+    "title": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
+    "slug": "paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "1,786 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Formula & Benchmark Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "description": "| Domain & Concept | Mathematical Formula / Statutory Benchmark | Core Examination Application |\n| :--- | :--- | :--- |\n| Fundamental Accounting Equation | $\\text{Assets} = \\text{Liabilities} + \\t",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
+      "concept": "1. Master Formula & Benchmark Matrix"
+    },
+    "badge": "417 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 50 Essential Examiner Traps for IIBF Paper 3 (AFMB)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "description": "1. Valuing closing stock at Cost or Market Price, whichever is lower, is governed by the Prudence / Conservatism Concept.\n2. Showing capital as a balance sheet liability is mandated by the Busin",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
+      "concept": "2. 50 Essential Examiner Traps for IIBF Paper 3 (AFMB)"
+    },
+    "badge": "826 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "description": "Q1. Under Section 29 of the Banking Regulation Act 1949, commercial banks prepare their Balance Sheet and Profit & Loss Account strictly under which schedules of the Third Schedule?\n- (A) Form A (",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "309 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
+    "description": "<details>\n<summary>Why is the Debt Service Coverage Ratio (DSCR) the pivotal metric for bank term loan appraisals rather than the Interest Coverage Ratio (ICR)?</summary>\n\nBecause ICR tests only the b",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "type": "TOPIC",
+    "title": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
+    "slug": "paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "932 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Comparison: Retail vs Corporate / Wholesale Banking",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "description": "| Operational Parameter | Retail Banking | Corporate / Wholesale Banking |\n| :--- | :--- | :--- |\n| Target Clientele | Individual consumers, households, self-employed professionals, and micro-ente",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
+      "concept": "1. Master Comparison: Retail vs Corporate / Wholesale Banking"
+    },
+    "badge": "184 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Organizational Business Models in Retail Banking",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "description": "- Horizontally Integrated Model:\n  - Common distribution platform across different product lines.\n  - Customer data and delivery channels are shared across business divisions, but product design r",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
+      "concept": "2. Organizational Business Models in Retail Banking"
+    },
+    "badge": "109 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Customer Wealth Segmentation Hierarchy",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "description": "| Clientele Segment | Annual Income / Investible Surplus Range | Typical Products & Preferred Delivery Channels |\n| :--- | :--- | :--- |\n| Mass Banking | Annual Income up to ₹10 Lakhs | Basic",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
+      "concept": "3. Customer Wealth Segmentation Hierarchy"
+    },
+    "badge": "204 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
+    "description": "Q1. Which of the following is a distinguishing operational characteristic of Retail Banking compared to Corporate Banking?\n- (A) High ticket size and low transaction volume\n- (B) Granular credit r",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "219 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "type": "TOPIC",
+    "title": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
+    "slug": "paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "664 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Profitability & Efficiency Formulas",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "description": "1. Return on Assets (ROA)\n$$\\text{ROA} = \\frac{\\text{Net Profit After Tax}}{\\text{Average Total Assets}} \\times 100$$\n- Benchmark: An ROA of $\\ge 1.0\\%$ is considered sound for commercial ba",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
+      "concept": "1. Master Profitability & Efficiency Formulas"
+    },
+    "badge": "174 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Transfer Pricing Mechanism in Bank Branches",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "description": "- Funds Transfer Pricing (FTP): Internal accounting mechanism allocating cost and revenue between deposit-surplus branches and credit-deploying branches.\n  - Deposit-Surplus Branch: Receives an",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
+      "concept": "2. Transfer Pricing Mechanism in Bank Branches"
+    },
+    "badge": "107 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "description": "Q1. A commercial bank earns a Net Profit of ₹1,200 Crores on Average Total Assets of ₹1,00,000 Crores. What is its Return on Assets (ROA)?\n- (A) 0.80%\n- (B) 1.20%\n- (C) 1.50%\n- (D) 2.00%\n\nQ2.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "196 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
+    "description": "<details>\n<summary>Why does an increase in high-cost bulk deposits compress a bank Net Interest Margin (NIM)?</summary>\n\nBecause bulk deposits carry higher coupon rates than retail CASA accounts, incr",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "83 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "type": "TOPIC",
+    "title": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
+    "slug": "paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "788 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Mapping Maslow Hierarchy of Needs to Retail Banking Products",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "description": "┌──────────────────────────────────┐\n                     │     SELF-ACTUALIZATION NEEDS     │  • Philanthropic Trusts, Legacy Planning,\n                     │",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
+      "concept": "1. Mapping Maslow Hierarchy of Needs to Retail Banking Products"
+    },
+    "badge": "238 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Product Life Cycle (PLC) in Retail Banking",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "description": "1. Introduction Stage: Product launched with high marketing and tech development costs; negative or low initial operating margins (e.g., Early launch of Digital Rupee e₹).\n2. Growth Stage: Rap",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
+      "concept": "2. Product Life Cycle (PLC) in Retail Banking"
+    },
+    "badge": "141 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "description": "Q1. Under Abraham Maslow Hierarchy of Needs applied to banking products, a Housing Loan satisfies which level of consumer needs?\n- (A) Physiological Needs\n- (B) Safety and Security Needs\n- (C) Soc",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "204 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
+    "description": "<details>\n<summary>How does customer age correlate with the transition across Maslow tiers in retail banking?</summary>\n\nYoung adulthood starts with Physiological needs (salary accounts, debit cards).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "95 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "type": "TOPIC",
+    "title": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
+    "slug": "paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "814 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Classification of Retail Deposit Products",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "description": "| Product Category | Statutory Nature & Features | Regulatory Norms (RBI Directions) |\n| :--- | :--- | :--- |\n| Current Accounts | Demand liability; non-interest-bearing; high transaction turnover",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
+      "concept": "1. Master Classification of Retail Deposit Products"
+    },
+    "badge": "215 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-3",
+    "type": "CONCEPT",
+    "title": "2. DICGC Deposit Insurance Coverage Framework",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "description": "- Insuring Authority: Deposit Insurance and Credit Guarantee Corporation (DICGC), a wholly owned subsidiary of the Reserve Bank of India (DICGC Act 1961).\n- Maximum Insured Limit: ₹5,00,000",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
+      "concept": "2. DICGC Deposit Insurance Coverage Framework"
     },
     "badge": "150 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-4",
     "type": "CONCEPT",
-    "title": "17. IIBF AFMB Unit 10: Direct & Indirect Taxation, GST & TDS in Banking",
+    "title": "Practice Questions & Solved Numerical Drills",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Tax Architecture in Indian Banking\n> Banks operate as major tax deduction, collection, and reporting intermediaries under both direct (Income Tax Act 1961) and",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "description": "Q1. Under current Reserve Bank of India guidelines, on what basis must commercial banks calculate interest payable on Savings Bank accounts?\n- (A) Minimum balance between 10th and 30th of the mont",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module D — Taxation and Fundamentals of Costing",
-      "concept": "17. IIBF AFMB Unit 10: Direct & Indirect Taxation, GST & TDS in Banking"
+      "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
+      "concept": "Practice Questions & Solved Numerical Drills"
     },
-    "badge": "37 words"
+    "badge": "214 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-5",
     "type": "CONCEPT",
-    "title": "📊 1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)",
+    "title": "Active Recall & Self-Diagnostic Prompts",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/03_paper_3_afmb-04_module_d_taxation_and_fundamentals_of_costing",
-    "description": "| Depositor Category | Annual Interest Threshold for TDS | TDS Rate with Valid PAN | TDS Rate WITHOUT PAN (Sec 206AA) | Exemption Declaration Form |\n| --- | --- | --- | --- | --- |\n| General / Non-Sen",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
+    "description": "<details>\n<summary>If a depositor maintains ₹4 Lakhs in an individual savings account and ₹3 Lakhs in an individual term deposit in the same bank, what is the total DICGC insurance payout if the bank",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 3: Module D — Taxation and Fundamentals of Costing",
-      "concept": "📊 1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)"
+      "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
     },
-    "badge": "152 words"
+    "badge": "126 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-04_paper_4_rbwm-01_module_a_retail_banking_overview",
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 4: Module A — Retail Banking Overview & Branch Profitability",
-    "slug": "04_paper_4_rbwm-01_module_a_retail_banking_overview",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-01_module_a_retail_banking_overview",
+    "title": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
+    "slug": "paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
     "description": "Paper: 4 (Retail Banking and Wealth Management)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "473 words • 3 min read"
+    "badge": "858 words • 4 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-01_module_a_retail_banking_overview-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-2",
     "type": "CONCEPT",
-    "title": "74. IIBF RBWM Unit 1: Retail Banking: Characteristics, Business Models & Segmentation",
+    "title": "1. RBI Prudential Guidelines on Housing Loan LTV Ratios & Risk Weights",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-01_module_a_retail_banking_overview",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Retail Banking Architecture\n> Retail banking involves banking services provided directly to individual consumers and small businesses rather than corporate enti",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
+    "description": "| Individual Housing Loan Ticket Slab | Maximum Permissible LTV Ratio | Minimum Borrower Margin | Standard Regulatory Risk Weight |\n| :--- | :--- | :--- | :--- |\n| Loans up to ₹30 Lakhs | 90%",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module A — Retail Banking Overview & Branch Profitability",
-      "concept": "74. IIBF RBWM Unit 1: Retail Banking: Characteristics, Business Models & Segmentation"
+      "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
+      "concept": "1. RBI Prudential Guidelines on Housing Loan LTV Ratios & Risk Weights"
     },
-    "badge": "31 words"
+    "badge": "155 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-01_module_a_retail_banking_overview-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-3",
     "type": "CONCEPT",
-    "title": "📊 1. Master Matrix: Retail vs Corporate / Wholesale Banking",
+    "title": "2. Borrower Affordability Ratios: FOIR and LTV",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-01_module_a_retail_banking_overview",
-    "description": "| Parameter | Retail Banking | Corporate / Wholesale Banking |\n| --- | --- | --- |\n| Target Customer | Individual consumers, Households, Small Businesses | Large Corporates, Multinational Companies, P",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
+    "description": "1. Fixed Obligation to Income Ratio (FOIR)\n$$\\text{FOIR} = \\frac{\\text{Proposed Loan EMI} + \\text{Existing Fixed Monthly Debt Obligations}}{\\text{Gross / Net Monthly Income}} \\times 100$$\n- Stand",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module A — Retail Banking Overview & Branch Profitability",
-      "concept": "📊 1. Master Matrix: Retail vs Corporate / Wholesale Banking"
+      "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
+      "concept": "2. Borrower Affordability Ratios: FOIR and LTV"
     },
-    "badge": "142 words"
+    "badge": "71 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-01_module_a_retail_banking_overview-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-4",
     "type": "CONCEPT",
-    "title": "👥 2. Customer Segmentation Tiers in Retail Banking",
+    "title": "3. Pradhan Mantri Awas Yojana (PMAY) Credit Linked Subsidy Scheme (CLSS)",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-01_module_a_retail_banking_overview",
-    "description": "| Segment | Annual Income / Wealth Range | Primary Products & Delivery Channel |\n| --- | --- | --- |\n| Mass Banking | Annual Income up to ₹10 Lakhs | Basic savings accounts, PMJDY, micro-loans, digita",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
+    "description": "| Beneficiary Category | Annual Household Income | Max Loan Eligible for Subsidy | Interest Subsidy Rate | Max Net Present Value (NPV) Subsidy |\n| :--- | :--- | :--- | :--- | :--- |\n| Economically W",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module A — Retail Banking Overview & Branch Profitability",
-      "concept": "👥 2. Customer Segmentation Tiers in Retail Banking"
+      "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
+      "concept": "3. Pradhan Mantri Awas Yojana (PMAY) Credit Linked Subsidy Scheme (CLSS)"
     },
-    "badge": "222 words"
+    "badge": "211 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "type": "TOPIC",
-    "title": "IIBF DBF Paper 4: Module B — Retail Products, Recovery & Credit Scoring",
-    "slug": "04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "description": "Paper: 4 (Retail Banking and Wealth Management)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Retail Banking & Wealth Management (RBWM)"
-    },
-    "badge": "1,424 words • 7 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-5",
     "type": "CONCEPT",
-    "title": "75. IIBF RBWM Unit 2: Retail Lending Products: Housing, Auto, Education & Credit Cards",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Retail Loan Portfolio Architecture\n> Retail lending represents asset products provided to individuals for personal, housing, educational, or vehicular consumpti",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module B — Retail Products, Recovery & Credit Scoring",
-      "concept": "75. IIBF RBWM Unit 2: Retail Lending Products: Housing, Auto, Education & Credit Cards"
-    },
-    "badge": "27 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring-sec-3",
-    "type": "CONCEPT",
-    "title": "🏠 1. RBI Prudential Guidelines on Housing Loan LTV Ratios & Risk Weights",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "description": "| Housing Loan Amount Slabs | Maximum Permissible LTV Ratio | Minimum Borrower Margin | Standard Risk Weight |\n| --- | --- | --- | --- |\n| Individual Loans up to ₹30 Lakhs | 90% (for loans \\(\\",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module B — Retail Products, Recovery & Credit Scoring",
-      "concept": "🏠 1. RBI Prudential Guidelines on Housing Loan LTV Ratios & Risk Weights"
-    },
-    "badge": "100 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring-sec-4",
-    "type": "CONCEPT",
-    "title": "🎓 2. IBA Model Education Loan Scheme & Credit Cards",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "description": "| Product | Loan / Credit Slabs | Margin Requirement | Security / Collateral Mandates |\n| --- | --- | --- | --- |\n| Education Loan (Studies in India / Abroad) | Up to ₹4.00 Lakhs | NIL (0% Margi",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module B — Retail Products, Recovery & Credit Scoring",
-      "concept": "🎓 2. IBA Model Education Loan Scheme & Credit Cards"
-    },
-    "badge": "252 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring-sec-5",
-    "type": "CONCEPT",
-    "title": "76. IIBF RBWM Unit 3: Credit Scoring (CIBIL & CICs), Recovery & DRA Code of Conduct",
+    "title": "Practice Questions & Solved Numerical Drills",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-02_module_b_retail_products_recovery_credit_scoring",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Credit Information & Risk Scoring\n> Under the Credit Information Companies (Regulation) Act 2005 (CICRA), all credit institutions in India must mandatorily shar",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
+    "description": "Q1. Under RBI prudential guidelines, what is the maximum permissible Loan-to-Value (LTV) ratio for an individual housing loan of ₹25 Lakhs?\n- (A) 75%\n- (B) 80%\n- (C) 85%\n- (D) 90%\n\nQ2. For an",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module B — Retail Products, Recovery & Credit Scoring",
-      "concept": "76. IIBF RBWM Unit 3: Credit Scoring (CIBIL & CICs), Recovery & DRA Code of Conduct"
+      "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
+      "concept": "Practice Questions & Solved Numerical Drills"
     },
-    "badge": "39 words"
+    "badge": "186 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-04_paper_4_rbwm-03_module_c_marketing_banking_services",
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 4: Module C — Marketing of Banking Services and Products",
-    "slug": "04_paper_4_rbwm-03_module_c_marketing_banking_services",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-03_module_c_marketing_banking_services",
+    "title": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
+    "slug": "paper_4_chapters-06_chapter_06_auto_personal_education_loans",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
     "description": "Paper: 4 (Retail Banking and Wealth Management)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,125 words • 6 min read"
+    "badge": "761 words • 4 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-03_module_c_marketing_banking_services-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-2",
     "type": "CONCEPT",
-    "title": "74. IIBF RBWM Unit 1: Retail Banking: Characteristics, Business Models & Segmentation",
+    "title": "1. IBA Model Education Loan Scheme Norms",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-03_module_c_marketing_banking_services",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Retail Banking Architecture\n> Retail banking involves banking services provided directly to individual consumers and small businesses rather than corporate enti",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
+    "description": "| Loan Quantum Slab | Margin Requirement | Collateral & Security Mandate |\n| :--- | :--- | :--- |\n| Up to ₹4.00 Lakhs | NIL (0% Margin) | No Collateral, No Third-Party Guarantee. Parents /",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module C — Marketing of Banking Services and Products",
-      "concept": "74. IIBF RBWM Unit 1: Retail Banking: Characteristics, Business Models & Segmentation"
+      "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
+      "concept": "1. IBA Model Education Loan Scheme Norms"
     },
-    "badge": "31 words"
+    "badge": "156 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-03_module_c_marketing_banking_services-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-3",
     "type": "CONCEPT",
-    "title": "📊 1. Master Matrix: Retail vs Corporate / Wholesale Banking",
+    "title": "2. Vehicle / Auto Loans & Hypothecation Architecture",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-03_module_c_marketing_banking_services",
-    "description": "| Parameter | Retail Banking | Corporate / Wholesale Banking |\n| --- | --- | --- |\n| Target Customer | Individual consumers, Households, Small Businesses | Large Corporates, Multinational Companies, P",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
+    "description": "- Primary Security: Hypothecation of the financed vehicle in favor of the lending bank.\n- Statutory Registration: Bank charge must be registered with the Regional Transport Authority (RTA)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module C — Marketing of Banking Services and Products",
-      "concept": "📊 1. Master Matrix: Retail vs Corporate / Wholesale Banking"
+      "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
+      "concept": "2. Vehicle / Auto Loans & Hypothecation Architecture"
     },
-    "badge": "142 words"
+    "badge": "75 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-03_module_c_marketing_banking_services-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-4",
     "type": "CONCEPT",
-    "title": "👥 2. Customer Segmentation Tiers in Retail Banking",
+    "title": "3. Unsecured Personal Loans",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-03_module_c_marketing_banking_services",
-    "description": "| Segment | Annual Income / Wealth Range | Primary Products & Delivery Channel |\n| --- | --- | --- |\n| Mass Banking | Annual Income up to ₹10 Lakhs | Basic savings accounts, PMJDY, micro-loans, digita",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
+    "description": "- Characteristics: Fast turnaround, no physical collateral, priced at higher interest margins.\n- Underwriting Parameters: Primarily evaluated on CIBIL score ($ge 750$), employer tier, FOIR ($l",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module C — Marketing of Banking Services and Products",
-      "concept": "👥 2. Customer Segmentation Tiers in Retail Banking"
+      "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
+      "concept": "3. Unsecured Personal Loans"
+    },
+    "badge": "97 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
+    "description": "Q1. Under the IBA Model Education Loan Scheme, what collateral security or third-party guarantee can a bank demand for a loan of ₹3.50 Lakhs?\n- (A) Immovable property mortgage\n- (B) Two government",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
+      "concept": "Practice Questions & Solved Numerical Drills"
     },
     "badge": "223 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-03_module_c_marketing_banking_services-sec-5",
-    "type": "CONCEPT",
-    "title": "94. IIBF RBWM Unit 5: Retail Lending Regulatory Caps, 7 Ps Marketing Mix & RERA Escrow Architecture",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-03_module_c_marketing_banking_services",
-    "description": "> 🧠 Key Concept — IIBF Core Foundation: Retail Prudential Norms & Wealth Laws\n> Retail banking requires strict compliance with RBI prudential Loan-to-Value (LTV) limits, IBA model education finan",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module C — Marketing of Banking Services and Products",
-      "concept": "94. IIBF RBWM Unit 5: Retail Lending Regulatory Caps, 7 Ps Marketing Mix & RERA Escrow Architecture"
-    },
-    "badge": "624 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate",
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
     "type": "TOPIC",
-    "title": "IIBF DBF Paper 4: Module D — Wealth Management and Real Estate Regulations",
-    "slug": "04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate",
+    "title": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
+    "slug": "paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
     "description": "Paper: 4 (Retail Banking and Wealth Management)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "561 words • 3 min read"
+    "badge": "777 words • 4 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-2",
     "type": "CONCEPT",
-    "title": "77. IIBF RBWM Unit 4: Wealth Management, Investment Advisory & Real Estate (RERA)",
+    "title": "1. Master Classification: Credit Cards vs Charge Cards vs Debit Cards",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate",
-    "description": "> 🧠 Key Concept — Pivotal Concept: Wealth Management Architecture\n> Wealth management is a high-level comprehensive financial planning and advisory service combining investment management, estate",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
+    "description": "| Card Type | Funding Source & Settlement Dynamic | Grace Period & Revolving Credit Features |\n| :--- | :--- | :--- |\n| Debit Card | Linked directly to depositor savings/current account; real-time",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module D — Wealth Management and Real Estate Regulations",
-      "concept": "77. IIBF RBWM Unit 4: Wealth Management, Investment Advisory & Real Estate (RERA)"
+      "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
+      "concept": "1. Master Classification: Credit Cards vs Charge Cards vs Debit Cards"
     },
-    "badge": "34 words"
+    "badge": "130 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-3",
     "type": "CONCEPT",
-    "title": "📊 1. Master Matrix: SEBI AIF Categories & Portfolio Management Services",
+    "title": "2. Credit Card Mechanics & Revolving Credit Economics",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate",
-    "description": "| Investment Vehicle | Governing Regulator & Min Ticket Size | Investment Focus & Strategy | Examples / Sponsoring Structures |\n| --- | --- | --- | --- |\n| PMS (Discretionary) | SEBI (Minimum ₹50 La",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
+    "description": "- Minimum Amount Due (MAD):\n  - Standard industry benchmark: 5% of the total outstanding statement balance (plus taxes, fees, and overdue amounts).\n  - Critical Trap: Paying only MAD avoids",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module D — Wealth Management and Real Estate Regulations",
-      "concept": "📊 1. Master Matrix: SEBI AIF Categories & Portfolio Management Services"
+      "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
+      "concept": "2. Credit Card Mechanics & Revolving Credit Economics"
     },
-    "badge": "182 words"
+    "badge": "146 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-4",
     "type": "CONCEPT",
-    "title": "🏗️ 2. Real Estate (Regulation and Development) Act, 2016 (RERA)",
+    "title": "Practice Questions & Solved Numerical Drills",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/04_paper_4_rbwm-04_module_d_wealth_management_and_real_estate",
-    "description": "| Dimension | RERA Statutory Rule / Requirement | Impact on Housing Finance & Home Buyers |\n| --- | --- | --- |\n| Mandatory Registration | All commercial and residential projects with land area \\ge",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
+    "description": "Q1. What is the primary operational difference between a Credit Card and a Charge Card?\n- (A) A Credit Card requires full payment each month; a Charge Card allows revolving credit\n- (B) A Charge C",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF Paper 4: Module D — Wealth Management and Real Estate Regulations",
-      "concept": "🏗️ 2. Real Estate (Regulation and Development) Act, 2016 (RERA)"
+      "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
+      "concept": "Practice Questions & Solved Numerical Drills"
     },
-    "badge": "260 words"
+    "badge": "257 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
+    "description": "<details>\n<summary>What constitutes the \"Grace Period\" on a credit card, and how can it range up to 50 days?</summary>\n\nThe grace period is the interest-free window between a transaction date and the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "125 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "type": "TOPIC",
+    "title": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
+    "slug": "paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "713 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Matrix: Indian Electronic Payment Rails",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "description": "| Payment Platform | Governing Operator | Settlement Mechanism | Operating Hours & Minimum / Maximum Limits |\n| :--- | :--- | :--- | :--- |\n| NEFT (National Electronic Funds Transfer) | Reserve",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
+      "concept": "1. Master Matrix: Indian Electronic Payment Rails"
+    },
+    "badge": "181 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Demand Drafts (DD) vs Bankers Cheques (Pay Orders)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "description": "- Demand Draft (Section 85A, NI Act): Drawn by one branch of a bank upon another branch of the same bank; payable on demand; cannot be stopped by customer except under fraud/loss claims.\n- Banke",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
+      "concept": "2. Demand Drafts (DD) vs Bankers Cheques (Pay Orders)"
+    },
+    "badge": "134 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "description": "Q1. What is the statutory minimum transaction amount required to route a funds transfer through Real Time Gross Settlement (RTGS)?\n- (A) ₹50,000\n- (B) ₹1,00,000\n- (C) ₹2,00,000\n- (D) ₹5,00,000",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "183 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
+    "description": "<details>\n<summary>Why are NEFT charges waived for individual savings bank account holders initiating transactions online?</summary>\n\nThe RBI mandated zero charges on online NEFT transfers (via intern",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "104 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "type": "TOPIC",
+    "title": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
+    "slug": "paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "792 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Credit Information Companies (CICs) in India",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "description": "Under CICRA 2005, four authorized Credit Information Companies operate under RBI regulatory oversight:\n1. TransUnion CIBIL (Credit Information Bureau India Limited, established 2000)\n2. Experi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
+      "concept": "1. Credit Information Companies (CICs) in India"
+    },
+    "badge": "85 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-3",
+    "type": "CONCEPT",
+    "title": "2. CIBIL Score Architecture (300 to 900 Points)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "description": "$$\\text{Credit Score Range: } 300 \\text{ to } 900 \\text{ Points}$$\n\n| Score Band | Category / Risk Level | Underwriting Treatment by Commercial Banks |\n| :--- | :--- | :--- |\n| 300 – 599 | Poor",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
+      "concept": "2. CIBIL Score Architecture (300 to 900 Points)"
+    },
+    "badge": "123 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Factor Weightages Determining the Credit Score",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                 FACTOR WEIGHTAGES IN CREDIT SCORE MODEL                     │\n| 1. PAST REPAYMENT HISTORY (35%) :",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
+      "concept": "3. Factor Weightages Determining the Credit Score"
+    },
+    "badge": "137 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
+    "description": "Q1. What is the numeric scoring range utilized by TransUnion CIBIL and authorized Credit Information Companies in India?\n- (A) 100 to 1,000 Points\n- (B) 300 to 900 Points\n- (C) 0 to 100 Points\n- (",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "203 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "type": "TOPIC",
+    "title": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
+    "slug": "paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "769 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Comparison of Recovery Mechanisms",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "description": "| Recovery Forum | Legal Authority & Statues | Pecuniary Jurisdiction Limit | Key Operational Process & Powers |\n| :--- | :--- | :--- | :--- |\n| Lok Adalat | Legal Services Authorities Act 1987 |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
+      "concept": "1. Master Comparison of Recovery Mechanisms"
+    },
+    "badge": "159 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-3",
+    "type": "CONCEPT",
+    "title": "2. SARFAESI Enforcement Protocol in Retail Advances",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "description": "1. Prerequisite: Account must be formally classified as NPA; outstanding balance must exceed ₹1 Lakh; and remaining debt must be at least 20% of original principal and interest.\n2. Section 13(2)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
+      "concept": "2. SARFAESI Enforcement Protocol in Retail Advances"
+    },
+    "badge": "181 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "description": "Q1. What is the minimum debt threshold required for a commercial bank to file a recovery application before the Debt Recovery Tribunal (DRT)?\n- (A) ₹5 Lakhs\n- (B) ₹10 Lakhs\n- (C) ₹20 Lakhs\n- (D) ₹",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "196 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
+    "description": "<details>\n<summary>Why is an award passed by a Lok Adalat considered final with zero appeal possibility?</summary>\n\nBecause a Lok Adalat decree is formed on the voluntary, mutual consent of both debto",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "118 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "type": "TOPIC",
+    "title": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
+    "slug": "paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "759 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-2",
+    "type": "CONCEPT",
+    "title": "1. IBA Model Code of Conduct & RBI Guidelines for DRAs",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "description": "| Operational Dimension | Regulatory Mandate / Permissible Standard | Legal Authority & Reference |\n| :--- | :--- | :--- |\n| Mandatory Certification | All recovery agents must undergo 50/100-hour",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
+      "concept": "1. IBA Model Code of Conduct & RBI Guidelines for DRAs"
+    },
+    "badge": "183 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Supreme Court Doctrine on Bank Vicarious Liability",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "description": "In ICICI Bank Ltd. v. Prakash Kaur (2007), the Supreme Court of India ruled that banks cannot use musclemen or extra-judicial coercive tactics to recover debt or repossess assets. The lending bank r",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
+      "concept": "2. Supreme Court Doctrine on Bank Vicarious Liability"
+    },
+    "badge": "102 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "description": "Q1. Under RBI regulations and the IBA Code of Conduct, between what hours are Direct Recovery Agents permitted to contact borrowers via telephone or physical visits?\n- (A) 06:00 AM to 08:00 PM\n- (",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "257 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
+    "description": "<details>\n<summary>What steps must a bank take if a customer registers a formal harassment complaint against a Direct Recovery Agent?</summary>\n\nThe bank must immediately suspend the assigned recovery",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "103 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "type": "TOPIC",
+    "title": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
+    "slug": "paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "735 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Securitization Mechanism & Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "description": "ORIGINATOR               SPECIAL PURPOSE                INSTITUTIONAL\n (Lending Bank)             VEHICLE (SPV)                  INVESTORS\n   │                              │",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
+      "concept": "1. Master Securitization Mechanism & Architecture"
+    },
+    "badge": "126 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Minimum Holding Period (MHP) & Minimum Retention Requirement (MRR)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "description": "| Prudential Parameter | Regulatory Mandate under RBI Master Directions | Objective of Norm |\n| :--- | :--- | :--- |\n| Minimum Holding Period (MHP) | • Loans $le$ 24 months tenor: 3 months of",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
+      "concept": "2. Minimum Holding Period (MHP) & Minimum Retention Requirement (MRR)"
+    },
+    "badge": "171 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "description": "Q1. In the securitization of standard retail loans with tenure exceeding 24 months, what is the Minimum Retention Requirement (MRR) mandated by the RBI?\n- (A) 2% of pool value\n- (B) 5% of pool val",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "243 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
+    "description": "<details>\n<summary>What is the difference between Pass-Through Certificates (PTCs) and Pay-Through Securities?</summary>\n\nPass-Through Certificates pass collected cash flows (principal and interest) d",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "87 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "type": "TOPIC",
+    "title": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
+    "slug": "paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "759 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Framework: The 7 Ps of Banking Services Marketing",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                 THE 7 Ps OF FINANCIAL SERVICES MARKETING                    │\n├───────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
+      "concept": "1. Master Framework: The 7 Ps of Banking Services Marketing"
+    },
+    "badge": "253 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Unique Characteristics of Financial Services",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "description": "- Intangibility: Banking products cannot be seen, touched, or tasted before purchase; customers rely on brand reputation, regulatory strength, and physical evidence.\n- Inseparability: Producti",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
+      "concept": "2. Unique Characteristics of Financial Services"
+    },
+    "badge": "129 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "description": "Q1. Which three additional \"Ps\" are added to the traditional 4 Ps marketing mix to formulate the extended 7 Ps framework for financial services?\n- (A) Planning, Performance, and Profit\n- (B) Peopl",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "193 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
+    "description": "<details>\n<summary>How does Straight-Through Processing (STP) resolve the challenge of service \"Heterogeneity\" in retail banking?</summary>\n\nBy automating end-to-end customer onboarding and underwriti",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "79 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "type": "TOPIC",
+    "title": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
+    "slug": "paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "760 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Matrix: ATM Operating Models in India",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "description": "| ATM Classification | Ownership of Hardware & Site | Cash Management & Banking Connectivity | Operational Features & Brand Identity |\n| :--- | :--- | :--- | :--- |\n| Bank-Owned ATM | Owned and le",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
+      "concept": "1. Master Matrix: ATM Operating Models in India"
+    },
+    "badge": "174 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Business Correspondent (BC) Model for Financial Inclusion",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "description": "- Regulatory Origin: RBI permitted banks in 2006 to engage non-governmental intermediaries as Business Facilitators (BFs) and Business Correspondents (BCs) to bridge the last-mile rural banking di",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
+      "concept": "2. Business Correspondent (BC) Model for Financial Inclusion"
+    },
+    "badge": "159 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "description": "Q1. Automated Teller Machines (ATMs) owned and operated by non-bank entities authorized by the RBI, which do not display any bank logo, are termed:\n- (A) Brown Label ATMs\n- (B) White Label ATMs\n-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "220 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
+    "description": "<details>\n<summary>Why is the per-transaction servicing cost of mobile banking significantly lower than a physical branch counter?</summary>\n\nPhysical branches incur high fixed overheads (real estate",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "102 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "type": "TOPIC",
+    "title": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
+    "slug": "paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "607 words • 3 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Cross-Selling vs Up-Selling Dynamics",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "description": "EXISTING RETAIL CUSTOMER (Home Loan Borrower)\n         │\n         ├── CROSS-SELLING (Ancillary Products) ──► Home Insurance, Credit Card, Mutual Fund SIP\n         │\n         └── UP-SELLING (Prem",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
+      "concept": "1. Cross-Selling vs Up-Selling Dynamics"
+    },
+    "badge": "115 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Customer Lifetime Value (CLV) & Churn Management",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "description": "- Customer Lifetime Value (CLV):\n  $$\\text{CLV} = \\sum{t=1}^n \\frac{\\text{Annual Net Margin earned from Customer}t}{(1 + r)^t} - \\text{Customer Acquisition Cost}$$\n  - Quantifies total projected",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
+      "concept": "2. Customer Lifetime Value (CLV) & Churn Management"
+    },
+    "badge": "131 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "description": "Q1. When a bank branch marketing officer offers a Mutual Fund Systematic Investment Plan (SIP) and term insurance to an existing home loan borrower, this is:\n- (A) Up-selling\n- (B) Cross-selling\n-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "176 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
+    "description": "<details>\n<summary>Why does Cross-Selling significantly improve bank Return on Equity (ROE)?</summary>\n\nBecause cross-selling generates fee-based non-interest income (e.g., insurance distributor commi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "85 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "type": "TOPIC",
+    "title": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
+    "slug": "paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "734 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The Three Stages of the Wealth Management Lifecycle",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                   THE WEALTH MANAGEMENT LIFECYCLE                           │\n├───────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
+      "concept": "1. The Three Stages of the Wealth Management Lifecycle"
+    },
+    "badge": "181 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Risk Profiling Dimensions under SEBI IA Regulations 2013",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "description": "- Risk Tolerance: Psychological willingness of the investor to endure market volatility and paper drawdowns.\n- Risk Capacity: Financial ability to sustain losses without endangering essential",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
+      "concept": "2. Risk Profiling Dimensions under SEBI IA Regulations 2013"
+    },
+    "badge": "140 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "description": "Q1. In the Wealth Management Lifecycle, which phase is characterized by an emphasis on capital preservation, tax efficiency, and succession/estate planning for heirs?\n- (A) Wealth Accumulation Pha",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "214 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
+    "description": "<details>\n<summary>Why must SEBI-registered Investment Advisers separate advisory activities from product distribution?</summary>\n\nTo eliminate conflicts of interest, ensuring advisers do not recommen",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "92 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "type": "TOPIC",
+    "title": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
+    "slug": "paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "692 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Portfolio Management Services (PMS) Framework",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "description": "- Governing Regulation: SEBI (Portfolio Managers) Regulations 2020.\n- Minimum Investment Ticket Size: ₹50 Lakhs (raised by SEBI from ₹25 Lakhs in 2020 to prevent unsophisticated retail ent",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
+      "concept": "1. Portfolio Management Services (PMS) Framework"
+    },
+    "badge": "83 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Matrix: SEBI Alternative Investment Funds (AIFs)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "description": "- Governing Regulation: SEBI (Alternative Investment Funds) Regulations 2012.\n- Minimum Investment Ticket Size: ₹1 Crore for general investors (reduced to ₹25 Lakhs for employees/direc",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
+      "concept": "2. Master Matrix: SEBI Alternative Investment Funds (AIFs)"
+    },
+    "badge": "210 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "description": "Q1. Under current SEBI regulations, what is the mandatory minimum investment ticket size required for an investor to subscribe to Portfolio Management Services (PMS)?\n- (A) ₹10 Lakhs\n- (B) ₹25 Lak",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "194 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
+    "description": "<details>\n<summary>What is the fundamental difference between Discretionary PMS and Non-Discretionary PMS?</summary>\n\nIn Discretionary PMS, the manager makes security selection and trade execution dec",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "100 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "type": "TOPIC",
+    "title": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
+    "slug": "paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "796 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Statutory Mandates under RERA 2016",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "description": "| RERA Statutory Mandate | Precise Legal Requirement & Threshold | Impact on Bank Housing Finance & Borrowers |\n| :--- | :--- | :--- |\n| Mandatory Project Registration | All commercial and residen",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
+      "concept": "1. Master Statutory Mandates under RERA 2016"
+    },
+    "badge": "230 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Operational Rules for Bank RERA Escrow Accounts",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "description": "- Withdrawal Certification: Developers cannot freely withdraw funds from the 70% escrow account. Every withdrawal request submitted to the scheduled bank must be supported by three simultaneous ce",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
+      "concept": "2. Operational Rules for Bank RERA Escrow Accounts"
+    },
+    "badge": "137 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "description": "Q1. Under Section 4(2)(l)(D) of the Real Estate (Regulation and Development) Act 2016 (RERA), what percentage of funds realized from allottees must be deposited in a separate dedicated bank accoun",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "228 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
+    "description": "<details>\n<summary>Define \"Carpet Area\" under RERA 2016.</summary>\n\nCarpet Area is the net usable floor area of an apartment, excluding the area covered by external walls, areas under service shafts,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "86 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "type": "TOPIC",
+    "title": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
+    "slug": "paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "799 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Digital Lending Architecture & RBI Guidelines (2022)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "description": "- Lending Service Providers (LSPs) & Digital Lending Apps (DLAs): Third-party technology platforms facilitating sourcing, underwriting, and loan servicing.\n- Direct Disbursement Mandate: All l",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
+      "concept": "1. Digital Lending Architecture & RBI Guidelines (2022)"
+    },
+    "badge": "112 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Neobanks vs Traditional Scheduled Commercial Banks",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "description": "| Feature Dimension | Traditional Commercial Banks | Neobanks (Digital-Only Banking Entities) |\n| :--- | :--- | :--- |\n| Banking License | Direct Full Banking License issued by RBI under Section 2",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
+      "concept": "2. Neobanks vs Traditional Scheduled Commercial Banks"
+    },
+    "badge": "97 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Account Aggregator (AA) Ecosystem in Retail Credit",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "description": "- Function of Non-Banking Financial Company - Account Aggregator (NBFC-AA): Consolidates customer financial data from Financial Information Providers (FIPs: banks, mutual funds, insurance) and sha",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
+      "concept": "3. Account Aggregator (AA) Ecosystem in Retail Credit"
+    },
+    "badge": "128 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-5",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
+    "description": "Q1. Under current Reserve Bank of India regulations, what legal status do \"Neobanks\" hold in the Indian financial system?\n- (A) Full commercial scheduled banks licensed under Section 22 BR Act\n- (",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "259 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "type": "TOPIC",
+    "title": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
+    "slug": "paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "description": "Paper: 4 (Retail Banking and Wealth Management)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Retail Banking & Wealth Management (RBWM)"
+    },
+    "badge": "1,628 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Master Formula & Regulatory Benchmark Matrix",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "description": "| Regulatory / Technical Parameter | Statutory Guideline / Benchmark Formula | Governing Authority / Enactment |\n| :--- | :--- | :--- |\n| Housing Loan LTV ($le ₹30\text{L}$) | Maximum 90% LTV",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
+      "concept": "1. Master Formula & Regulatory Benchmark Matrix"
+    },
+    "badge": "402 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-3",
+    "type": "CONCEPT",
+    "title": "2. 50 Essential Examiner Traps for IIBF Paper 4 (RBWM)",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "description": "1. Retail banking possesses low credit concentration risk because loans are distributed across millions of borrowers.\n2. The Strategic Business Unit (SBU) operates as an autonomous, self-contained",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
+      "concept": "2. 50 Essential Examiner Traps for IIBF Paper 4 (RBWM)"
+    },
+    "badge": "789 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-4",
+    "type": "CONCEPT",
+    "title": "Practice Questions & Solved Numerical Drills",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "description": "Q1. Under current regulatory guidelines, what are the respective minimum investment ticket sizes required for Portfolio Management Services (PMS) and Alternative Investment Funds (AIFs)?\n- (A) PMS",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
+      "concept": "Practice Questions & Solved Numerical Drills"
+    },
+    "badge": "199 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-5",
+    "type": "CONCEPT",
+    "title": "Active Recall & Self-Diagnostic Prompts",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
+    "description": "<details>\n<summary>Why are Neobanks in India required to partner with licensed scheduled commercial banks rather than operating standalone?</summary>\n\nBecause the RBI has not established a standalone",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
+      "concept": "Active Recall & Self-Diagnostic Prompts"
+    },
+    "badge": "115 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-revision-01_ie_ifs_rapid_revision_cheat_sheet",
@@ -14831,7 +20239,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "वर्ण विचार एवं संधि विज्ञान"
     },
-    "badge": "4,722 words • 22 min read"
+    "badge": "5,057 words • 23 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-02-sec-2",
@@ -15053,7 +20461,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "शब्द संपदा एवं अर्थ विज्ञान"
     },
-    "badge": "2,019 words • 10 min read"
+    "badge": "2,281 words • 11 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-05-sec-2",
@@ -15127,7 +20535,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "शब्द संपदा एवं अर्थ विज्ञान"
     },
-    "badge": "1,712 words • 8 min read"
+    "badge": "1,997 words • 10 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-06-sec-2",
@@ -15201,7 +20609,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "शब्द संपदा एवं अर्थ विज्ञान"
     },
-    "badge": "1,588 words • 8 min read"
+    "badge": "1,867 words • 9 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-07-sec-2",
@@ -15275,7 +20683,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "शब्द संपदा एवं अर्थ विज्ञान"
     },
-    "badge": "2,016 words • 10 min read"
+    "badge": "2,316 words • 11 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-08-sec-2",
@@ -15349,7 +20757,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "वर्तनी शुद्धि एवं वाक्य विज्ञान"
     },
-    "badge": "2,437 words • 12 min read"
+    "badge": "2,733 words • 13 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-09-sec-2",
@@ -15423,7 +20831,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "वर्तनी शुद्धि एवं वाक्य विज्ञान"
     },
-    "badge": "2,744 words • 13 min read"
+    "badge": "3,006 words • 14 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-10-sec-2",
@@ -15571,7 +20979,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "व्यावहारिक मुहावरे, लोकोक्तियां एवं पारिभाषिक शब्दावली"
     },
-    "badge": "2,426 words • 12 min read"
+    "badge": "2,981 words • 14 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-12-sec-2",
@@ -15631,7 +21039,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "Chapter 12: प्रशासनिक पारिभाषिक शब्दावली महा-कोश (CSTT Administrative Terminology A–Z Compendium)",
       "concept": "4. विगत 10 वर्षों के RPSC RAS शब्द (PYQ Diagnostic Bank)"
     },
-    "badge": "80 words"
+    "badge": "81 words"
   },
   {
     "id": "shelf007-ch-hindi-chapter-13",
@@ -16015,7 +21423,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "उच्च-स्तरीय निबंध लेखन प्रयोगशाला (20 अंक)"
     },
-    "badge": "2,076 words • 10 min read"
+    "badge": "3,040 words • 14 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-18-sec-2",
@@ -16060,22 +21468,22 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
       "concept": "3. 10 पूर्ण मॉडल निबंध (10 Sovereign Master Essay Specimens: 250-300 Words)"
     },
-    "badge": "1491 words"
+    "badge": "1495 words"
   },
   {
     "id": "shelf007-sec-hindi-chapter-18-sec-5",
     "type": "CONCEPT",
-    "title": "4. निबंध लेखन में 20/20 अंक सुनिश्चित करने की अंतिम चेकलिस्ट",
+    "title": "4. RPSC RAS उच्च-प्राथमिकता निबंध ब्लूप्रिंट्स (High-Yield 250-Word Master Blueprints)",
     "slug": "sec-5",
     "url": "/shelf-007/hindi/chapter-18",
-    "description": "1. रूपरेखा का अंकन: क्या आपने निबंध से ठीक पहले 4-5 बिंदुओं की रूपरेखा लिखी है? (अनिवार्य)\n2. कोटेशन का सही चयन: क्या प्रस्तावना या निष्कर्ष में कम से कम एक प्रामाणिक श्लोक/पंक्ति है?\n3. पैर",
+    "description": "आरपीएससी मुख्य परीक्षा के आधुनिक निबंध प्रश्नों (250-300 शब्द, 20 अंक) के लिए 5 सर्वाधिक संभावित एवं ज्वलंत विषयों के पूर्ण प्रशासनिक ब्लूप्रिंट्स:\n\n ब्लूप्रिंट 1: साइबर अपराध : भविष्य की सबसे गंभी",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "Chapter 18: निबंध लेखन प्रयोगशाला (The Sovereign 20-Mark Essay Laboratory)",
-      "concept": "4. निबंध लेखन में 20/20 अंक सुनिश्चित करने की अंतिम चेकलिस्ट"
+      "concept": "4. RPSC RAS उच्च-प्राथमिकता निबंध ब्लूप्रिंट्स (High-Yield 250-Word Master Blueprints)"
     },
-    "badge": "85 words"
+    "badge": "946 words"
   },
   {
     "id": "shelf007-ch-hindi-chapter-19",
@@ -16133,7 +21541,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "General Hindi & Administrative Rhetoric (RPSC RAS Paper 4 Master Codex)",
       "topic": "महा-पुनरावलोकन एवं RPSC PYQ इंजन"
     },
-    "badge": "1,781 words • 9 min read"
+    "badge": "2,494 words • 12 min read"
   },
   {
     "id": "shelf007-sec-hindi-chapter-20-sec-2",
@@ -17513,13 +22921,13 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "TABLE OF CONTENTS & MASTER CURRICULUM",
     "slug": "table-of-contents",
     "url": "/shelf-007/current-affairs/table-of-contents",
-    "description": "Treatise: Contemporary Issues, Banking Regulation & Current Affairs Master Codex  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nCurricular Architecture: 4 Sovereign Parts • 10 Comprehensive Master Chapters • 178,768 Canonical Words  \nAuthority...",
+    "description": "Treatise: Contemporary Issues, Banking Regulation & Current Affairs Master Codex\nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)\nCurricular Architecture: 4 Sovereign Parts • 10 Comprehensive Master Chapters • 178,768 Canonical Words\nAuthority & Fac...",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Front Matter & Epistemic Pledge"
     },
-    "badge": "1,178 words • 6 min read"
+    "badge": "1,176 words • 6 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-table-of-contents-sec-2",
@@ -17549,7 +22957,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
       "concept": "Detailed Chapter Scope & Learning Matrix"
     },
-    "badge": "639 words"
+    "badge": "637 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-01",
@@ -17557,28 +22965,28 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
     "slug": "chapter-01",
     "url": "/shelf-007/current-affairs/chapter-01",
-    "description": "## 0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
+    "description": "## 0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Static Banking, Regulatory Acts & Prudential Foundations"
     },
-    "badge": "8,372 words • 39 min read"
+    "badge": "8,318 words • 38 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-01-sec-2",
     "type": "CONCEPT",
-    "title": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
+    "title": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-01",
-    "description": "📰 [STA-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured",
+    "description": "[STA-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured as",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
-      "concept": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
+      "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "8322 words"
+    "badge": "8268 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-02",
@@ -17592,67 +23000,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "16,085 words • 74 min read"
+    "badge": "15,756 words • 72 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-02-sec-2",
     "type": "CONCEPT",
-    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "title": "1. ESI, FINANCE & BUSINESS NEWS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-02",
-    "description": "📰 [Q1-001] India's Economy — Size, Growth & the Feb 1 Budget (merged: Jan's pre-Budget context + Feb's actual Budget content)\n\n🪝 Hook — India overtook Japan to become the world's 4th-largest e",
+    "description": "[Q1-001] India's Economy — Size, Growth & the Feb 1 Budget (merged: Jan's pre-Budget context + Feb's actual Budget content)\n\n🪝 Hook — India overtook Japan to become the world's 4th-largest econ",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
-      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+      "concept": "1. ESI, FINANCE & BUSINESS NEWS"
     },
-    "badge": "2126 words"
+    "badge": "2085 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-02-sec-3",
     "type": "CONCEPT",
-    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "title": "2. ️ REGULATORY BODIES NEWS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-02",
-    "description": "📰 [Q1-012] RBI Monetary Policy — Feb 2026 Report + Aug 2026 Update (Feb, with live status update)\n\n- Benchmark Policy Rates Status: Reserve Bank of India maintained the Policy Repo Rate a",
+    "description": "[Q1-012] RBI Monetary Policy — Feb 2026 Report + Aug 2026 Update (Feb, with live status update)\n\n- Benchmark Policy Rates Status: Reserve Bank of India maintained the Policy Repo Rate at 5",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
-      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+      "concept": "2. ️ REGULATORY BODIES NEWS"
     },
-    "badge": "2624 words"
+    "badge": "2573 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-02-sec-4",
     "type": "CONCEPT",
-    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "title": "3. BANKING & INSURANCE NEWS",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-02",
-    "description": "📰 [Q1-025] UPI — Two-month growth trend (Dec 2025 → Jan 2026) (merged: sequential monthly data, not a duplicate)\n\n🪝 Hook — UPI crossed 21 billion monthly transactions for the first time in Dec",
+    "description": "[Q1-025] UPI — Two-month growth trend (Dec 2025 → Jan 2026) (merged: sequential monthly data, not a duplicate)\n\n🪝 Hook — UPI crossed 21 billion monthly transactions for the first time in Decemb",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
-      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+      "concept": "3. BANKING & INSURANCE NEWS"
     },
-    "badge": "1574 words"
+    "badge": "1548 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-02-sec-5",
     "type": "CONCEPT",
-    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "title": "4. NATIONAL, STATE & INTERNATIONAL NEWS",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-02",
-    "description": "📰 [Q1-033] Census 2027 — Phase Structure & Caste Enumeration\n\n- Phase 1: House Listing Operations (HLO): Scheduled to run nationwide from April 1 to September 30, 2026, collecting baselin",
+    "description": "[Q1-033] Census 2027 — Phase Structure & Caste Enumeration\n\n- Phase 1: House Listing Operations (HLO): Scheduled to run nationwide from April 1 to September 30, 2026, collecting baseline h",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
-      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+      "concept": "4. NATIONAL, STATE & INTERNATIONAL NEWS"
     },
-    "badge": "2167 words"
+    "badge": "2113 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-03",
@@ -17666,67 +23074,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "7,422 words • 34 min read"
+    "badge": "7,192 words • 33 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-03-sec-2",
     "type": "CONCEPT",
-    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "title": "1. ESI, FINANCE & BUSINESS NEWS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-03",
-    "description": "📰 [APR-001] Small Savings Schemes — Rates Unchanged, Q1 FY27\n\n🪝 Hook — For the 8th straight quarter, your PPF and Sukanza Samriddhi rates haven't moved — the government held small savings rates",
+    "description": "[APR-001] Small Savings Schemes — Rates Unchanged, Q1 FY27\n\n🪝 Hook — For the 8th straight quarter, your PPF and Sukanza Samriddhi rates haven't moved — the government held small savings rates fla",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+      "concept": "1. ESI, FINANCE & BUSINESS NEWS"
     },
-    "badge": "979 words"
+    "badge": "949 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-03-sec-3",
     "type": "CONCEPT",
-    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "title": "2. ️ REGULATORY BODIES NEWS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-03",
-    "description": "📰 [APR-009] RBI Monetary Policy — April 2026 (FY27 First Bi-Monthly Statement)\n\n🪝 Hook — The MPC kept rates on hold for a second straight meeting, even as it penciled in a punchy 6.9% GDP growth",
+    "description": "[APR-009] RBI Monetary Policy — April 2026 (FY27 First Bi-Monthly Statement)\n\n🪝 Hook — The MPC kept rates on hold for a second straight meeting, even as it penciled in a punchy 6.9% GDP growth fo",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+      "concept": "2. ️ REGULATORY BODIES NEWS"
     },
-    "badge": "1593 words"
+    "badge": "1546 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-03-sec-4",
     "type": "CONCEPT",
-    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "title": "3. BANKING & INSURANCE NEWS",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-03",
-    "description": "📰 [APR-020] Bank/Insurer Product & Partnership Cluster (merged: multiple Tier B product launches)\n\n- A. CSB Bank launched \"Smart Save Account\" — auto-sweep to FDs at 7% interest, RuPay",
+    "description": "[APR-020] Bank/Insurer Product & Partnership Cluster (merged: multiple Tier B product launches)\n\n- A. CSB Bank launched \"Smart Save Account\" — auto-sweep to FDs at 7% interest, RuPay Pla",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+      "concept": "3. BANKING & INSURANCE NEWS"
     },
-    "badge": "664 words"
+    "badge": "643 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-03-sec-5",
     "type": "CONCEPT",
-    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "title": "4. NATIONAL, STATE & INTERNATIONAL NEWS",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-03",
-    "description": "📰 [APR-026] India's 100 GW Nuclear Power Roadmap by 2047\n\n🪝 Hook — India wants to go from 8.8 GW to 100 GW of nuclear power in 21 years — but first it needs to cut approval timelines almost in h",
+    "description": "[APR-026] India's 100 GW Nuclear Power Roadmap by 2047\n\n🪝 Hook — India wants to go from 8.8 GW to 100 GW of nuclear power in 21 years — but first it needs to cut approval timelines almost in half",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 03: CURRENT AFFAIRS — APRIL 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+      "concept": "4. NATIONAL, STATE & INTERNATIONAL NEWS"
     },
-    "badge": "1225 words"
+    "badge": "1184 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-04",
@@ -17740,67 +23148,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "9,652 words • 44 min read"
+    "badge": "9,540 words • 44 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-04-sec-2",
     "type": "CONCEPT",
-    "title": "1. 💰 BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE",
+    "title": "1. BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-04",
-    "description": "📰 [MAY-001] DFS Approves Viability Plan 2.0 for Regional Rural Banks (RRBs) Across 30 Performance Metrics\n\n- Regulatory Framework & Mandate: The Department of Financial Services (DFS), Mi",
+    "description": "[MAY-001] DFS Approves Viability Plan 2.0 for Regional Rural Banks (RRBs) Across 30 Performance Metrics\n\n- Regulatory Framework & Mandate: The Department of Financial Services (DFS), Minis",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
-      "concept": "1. 💰 BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE"
+      "concept": "1. BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE"
     },
-    "badge": "261 words"
+    "badge": "258 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-04-sec-3",
     "type": "CONCEPT",
-    "title": "2. 🌾 AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS",
+    "title": "2. AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-04",
-    "description": "📰 [MAY-002] Cabinet Approves Kharif MSP 2026–27: Common Paddy at ₹2,441 & Moong Yields Record 61% Margin\n\n- Statutory Pricing Mandate: The Cabinet Committee on Economic Affairs (CCEA), ch",
+    "description": "[MAY-002] Cabinet Approves Kharif MSP 2026–27: Common Paddy at ₹2,441 & Moong Yields Record 61% Margin\n\n- Statutory Pricing Mandate: The Cabinet Committee on Economic Affairs (CCEA), chair",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
-      "concept": "2. 🌾 AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS"
+      "concept": "2. AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS"
     },
-    "badge": "739 words"
+    "badge": "730 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-04-sec-4",
     "type": "CONCEPT",
-    "title": "3. ⚖️ CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY",
+    "title": "3. ️ CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-04",
-    "description": "📰 [MAY-005] Constitution (131st Amendment) Bill, 2026: Lok Sabha Strength Proposed to Expand to 850 Members\n\n- Legislative Restructuring: The Union Government introduced The Constitution (O",
+    "description": "[MAY-005] Constitution (131st Amendment) Bill, 2026: Lok Sabha Strength Proposed to Expand to 850 Members\n\n- Legislative Restructuring: The Union Government introduced The Constitution (One",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
-      "concept": "3. ⚖️ CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY"
+      "concept": "3. ️ CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY"
     },
-    "badge": "882 words"
+    "badge": "870 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-04-sec-5",
     "type": "CONCEPT",
-    "title": "4. 🌐 INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS",
+    "title": "4. INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-04",
-    "description": "📰 [MAY-009] India-New Zealand Free Trade Agreement: 100% Tariff-Free Access & \\$20 Billion Investment Pledge\n\n- Bilateral Trade Architecture: India and New Zealand concluded negotiations on a",
+    "description": "[MAY-009] India-New Zealand Free Trade Agreement: 100% Tariff-Free Access & \\$20 Billion Investment Pledge\n\n- Bilateral Trade Architecture: India and New Zealand concluded negotiations on a co",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)",
-      "concept": "4. 🌐 INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS"
+      "concept": "4. INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS"
     },
-    "badge": "716 words"
+    "badge": "707 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-05",
@@ -17814,67 +23222,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "14,562 words • 67 min read"
+    "badge": "14,375 words • 66 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-05-sec-2",
     "type": "CONCEPT",
-    "title": "1. 💰 BANKING, MONETARY POLICY & FINANCIAL REGULATION",
+    "title": "1. BANKING, MONETARY POLICY & FINANCIAL REGULATION",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-05",
-    "description": "📰 [JUN-001] RBI Relaxes Capital Requirements for Bank Loans under ECLGS 5.0 (Split Risk-Weight Structure)\n\n- Regulatory Framework & Mandate: Reserve Bank of India issued an amendment to the",
+    "description": "[JUN-001] RBI Relaxes Capital Requirements for Bank Loans under ECLGS 5.0 (Split Risk-Weight Structure)\n\n- Regulatory Framework & Mandate: Reserve Bank of India issued an amendment to the Mas",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "1. 💰 BANKING, MONETARY POLICY & FINANCIAL REGULATION"
+      "concept": "1. BANKING, MONETARY POLICY & FINANCIAL REGULATION"
     },
-    "badge": "6165 words"
+    "badge": "6099 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-05-sec-3",
     "type": "CONCEPT",
-    "title": "2. 📈 CAPITAL MARKETS, SEBI & PENSIONS REGULATION",
+    "title": "2. CAPITAL MARKETS, SEBI & PENSIONS REGULATION",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-05",
-    "description": "📰 [JUN-023] SEBI Revises Trading Framework for ETFs: Dynamic Price Bands & Pre-Open Auction\n\n- Regulatory Directive: Securities and Exchange Board of India (SEBI) revamped the trading framewo",
+    "description": "[JUN-023] SEBI Revises Trading Framework for ETFs: Dynamic Price Bands & Pre-Open Auction\n\n- Regulatory Directive: Securities and Exchange Board of India (SEBI) revamped the trading framework",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "2. 📈 CAPITAL MARKETS, SEBI & PENSIONS REGULATION"
+      "concept": "2. CAPITAL MARKETS, SEBI & PENSIONS REGULATION"
     },
-    "badge": "1027 words"
+    "badge": "1012 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-05-sec-4",
     "type": "CONCEPT",
-    "title": "3. 🌐 MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS",
+    "title": "3. MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-05",
-    "description": "📰 [JUN-028] NPCI International (NIPL) Expands Cross-Border UPI to Cambodia via KHQR Network\n\n- Bilateral Linkage: NPCI International Payments Limited (NIPL), the global arm of the Nationa",
+    "description": "[JUN-028] NPCI International (NIPL) Expands Cross-Border UPI to Cambodia via KHQR Network\n\n- Bilateral Linkage: NPCI International Payments Limited (NIPL), the global arm of the National P",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "3. 🌐 MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS"
+      "concept": "3. MULTILATERAL AGREEMENTS & CROSS-BORDER PAYMENTS"
     },
-    "badge": "2289 words"
+    "badge": "2253 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-05-sec-5",
     "type": "CONCEPT",
-    "title": "4. 🏛️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY",
+    "title": "4. ️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-05",
-    "description": "📰 [JUN-040] MNRE Operationalizes Green Hydrogen Certification Scheme of India (GHCI)\n\n- Framework & Institutional Mandate: Ministry of New and Renewable Energy (MNRE) operationalized the",
+    "description": "[JUN-040] MNRE Operationalizes Green Hydrogen Certification Scheme of India (GHCI)\n\n- Framework & Institutional Mandate: Ministry of New and Renewable Energy (MNRE) operationalized the G",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 05: CURRENT AFFAIRS — JUNE 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "4. 🏛️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY"
+      "concept": "4. ️ NATIONAL INITIATIVES, PIB DISPATCHES & INDUSTRIAL POLICY"
     },
-    "badge": "4928 words"
+    "badge": "4862 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-06",
@@ -17888,67 +23296,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "9,054 words • 42 min read"
+    "badge": "8,914 words • 41 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-06-sec-2",
     "type": "CONCEPT",
-    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "title": "1. ESI, FINANCE & BUSINESS NEWS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-06",
-    "description": "📰 [JUL-001] RBI Monthly Bulletin (July): State of the Economy & RBI-DPI Surge to 445.50\n\n- State of the Economy Overview: Authored by the RBI research team led by Deputy Governor Dr. Michael",
+    "description": "[JUL-001] RBI Monthly Bulletin (July): State of the Economy & RBI-DPI Surge to 445.50\n\n- State of the Economy Overview: Authored by the RBI research team led by Deputy Governor Dr. Michael Deb",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+      "concept": "1. ESI, FINANCE & BUSINESS NEWS"
     },
-    "badge": "1510 words"
+    "badge": "1489 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-06-sec-3",
     "type": "CONCEPT",
-    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "title": "2. ️ REGULATORY BODIES NEWS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-06",
-    "description": "📰 [JUL-008] RBI Master Direction — Treatment of Wilful Defaulters and Large Defaulters (July 30)\n\n- Scope & Applicability: Applicable to all Scheduled Commercial Banks (incl. RRBs), All-India",
+    "description": "[JUL-008] RBI Master Direction — Treatment of Wilful Defaulters and Large Defaulters (July 30)\n\n- Scope & Applicability: Applicable to all Scheduled Commercial Banks (incl. RRBs), All-India Fi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+      "concept": "2. ️ REGULATORY BODIES NEWS"
     },
-    "badge": "2945 words"
+    "badge": "2906 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-06-sec-4",
     "type": "CONCEPT",
-    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "title": "3. BANKING & INSURANCE NEWS",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-06",
-    "description": "📰 [JUL-021] State Bank of India raises ₹10,000 Crore via 15-Year Infrastructure Bonds\n\n- Mega Debt Issuance: State Bank of India (SBI) concluded the issuance of its fifth tranche of infrastru",
+    "description": "[JUL-021] State Bank of India raises ₹10,000 Crore via 15-Year Infrastructure Bonds\n\n- Mega Debt Issuance: State Bank of India (SBI) concluded the issuance of its fifth tranche of infrastructu",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+      "concept": "3. BANKING & INSURANCE NEWS"
     },
-    "badge": "923 words"
+    "badge": "908 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-06-sec-5",
     "type": "CONCEPT",
-    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "title": "4. NATIONAL, STATE & INTERNATIONAL NEWS",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-06",
-    "description": "📰 [JUL-026] Historic Legal Transition: Three New Criminal Laws Enacted Nationwide (July 1)\n\n- Enforcement Date: Three transformative criminal law statutes came into full legal effect across I",
+    "description": "[JUL-026] Historic Legal Transition: Three New Criminal Laws Enacted Nationwide (July 1)\n\n- Enforcement Date: Three transformative criminal law statutes came into full legal effect across Indi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 06: CURRENT AFFAIRS — JULY 2026 (COMPLETE CONSOLIDATED DOSSIER)",
-      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+      "concept": "4. NATIONAL, STATE & INTERNATIONAL NEWS"
     },
-    "badge": "1000 words"
+    "badge": "985 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-07",
@@ -17956,73 +23364,73 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
     "slug": "chapter-07",
     "url": "/shelf-007/current-affairs/chapter-07",
-    "description": "📰 [AUG-001] India's economic size & fiscal snapshot — two data points",
+    "description": "[AUG-001] India's economic size & fiscal snapshot — two data points",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "22,393 words • 102 min read"
+    "badge": "21,858 words • 100 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-07-sec-2",
     "type": "CONCEPT",
-    "title": "1. 💰 ESI, FINANCE & BUSINESS NEWS",
+    "title": "1. ESI, FINANCE & BUSINESS NEWS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-07",
-    "description": "📰 [AUG-001] India's economic size & fiscal snapshot — two data points\n\n🪝 Two separate GDP-adjacent numbers came out this fortnight — don't confuse the \"6th-largest\" ranking with the FY26 debt/de",
+    "description": "[AUG-001] India's economic size & fiscal snapshot — two data points\n\n🪝 Two separate GDP-adjacent numbers came out this fortnight — don't confuse the \"6th-largest\" ranking with the FY26 debt/defic",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
-      "concept": "1. 💰 ESI, FINANCE & BUSINESS NEWS"
+      "concept": "1. ESI, FINANCE & BUSINESS NEWS"
     },
-    "badge": "5980 words"
+    "badge": "5827 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-07-sec-3",
     "type": "CONCEPT",
-    "title": "2. 🏛️ REGULATORY BODIES NEWS",
+    "title": "2. ️ REGULATORY BODIES NEWS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-07",
-    "description": "📰 [AUG-041] SEBI Reforms Cluster — Market Structure & Investor Access (1–11 Aug)\n\n- A) Closing Auction Session (CAS) for F&O-eligible stocks, eff. 3 Aug 2026: regular trading till 3:15 PM",
+    "description": "[AUG-041] SEBI Reforms Cluster — Market Structure & Investor Access (1–11 Aug)\n\n- A) Closing Auction Session (CAS) for F&O-eligible stocks, eff. 3 Aug 2026: regular trading till 3:15 PM →",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
-      "concept": "2. 🏛️ REGULATORY BODIES NEWS"
+      "concept": "2. ️ REGULATORY BODIES NEWS"
     },
-    "badge": "2441 words"
+    "badge": "2388 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-07-sec-4",
     "type": "CONCEPT",
-    "title": "3. 🏦 BANKING & INSURANCE NEWS",
+    "title": "3. BANKING & INSURANCE NEWS",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-07",
-    "description": "📰 [AUG-056] Monetary Policy Statement, 2026-27 (62nd MPC Meeting)\n\n🪝 RBI's rate-setting panel held rates but trimmed its inflation forecast, flagging El Niño as a fresh risk.\n\n- Meeting: 3-5 A",
+    "description": "[AUG-056] Monetary Policy Statement, 2026-27 (62nd MPC Meeting)\n\n🪝 RBI's rate-setting panel held rates but trimmed its inflation forecast, flagging El Niño as a fresh risk.\n\n- Meeting: 3-5 Aug",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
-      "concept": "3. 🏦 BANKING & INSURANCE NEWS"
+      "concept": "3. BANKING & INSURANCE NEWS"
     },
-    "badge": "1234 words"
+    "badge": "1188 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-07-sec-5",
     "type": "CONCEPT",
-    "title": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS",
+    "title": "4. NATIONAL, STATE & INTERNATIONAL NEWS",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-07",
-    "description": "NATIONAL\n\n📰 [AUG-068] 80th Independence Day Announcements (15 Aug 2026)\n\n🪝 PM Modi's speech laid out a nuclear-energy push, an AI-skilling target, and a new civil-defence framework alongside",
+    "description": "NATIONAL\n\n[AUG-068] 80th Independence Day Announcements (15 Aug 2026)\n\n🪝 PM Modi's speech laid out a nuclear-energy push, an AI-skilling target, and a new civil-defence framework alongside th",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026 (FULL MONTH CONSOLIDATED & PIB)",
-      "concept": "4. 🌐 NATIONAL, STATE & INTERNATIONAL NEWS"
+      "concept": "4. NATIONAL, STATE & INTERNATIONAL NEWS"
     },
-    "badge": "1805 words"
+    "badge": "1753 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-08",
@@ -18036,67 +23444,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "27,085 words • 124 min read"
+    "badge": "26,719 words • 122 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-08-sec-2",
     "type": "CONCEPT",
-    "title": "1. 🏛️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS",
+    "title": "1. ️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-08",
-    "description": "📰 [SEP-001] IFSCA Notifies Market Abuse Regulations 2026 in GIFT IFSC: Replaces SEBI PIT and PFUTP Regimes\n\n- Genesis & Regulatory Autonomy: The International Financial Services Centres Autho",
+    "description": "[SEP-001] IFSCA Notifies Market Abuse Regulations 2026 in GIFT IFSC: Replaces SEBI PIT and PFUTP Regimes\n\n- Genesis & Regulatory Autonomy: The International Financial Services Centres Authorit",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
-      "concept": "1. 🏛️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS"
+      "concept": "1. ️ REGULATORY BODIES & FINANCIAL MARKET FRAMEWORKS"
     },
-    "badge": "2918 words"
+    "badge": "2879 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-08-sec-3",
     "type": "CONCEPT",
-    "title": "2. 🏦 BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS",
+    "title": "2. BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-08",
-    "description": "📰 [SEP-014] Coastal Local Area Bank Admitted to Second Schedule of RBI Act, 1934: India's First Scheduled LAB\n\n- Historic Scheduled Status: The Reserve Bank of India officially accorded Sch",
+    "description": "[SEP-014] Coastal Local Area Bank Admitted to Second Schedule of RBI Act, 1934: India's First Scheduled LAB\n\n- Historic Scheduled Status: The Reserve Bank of India officially accorded Schedu",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
-      "concept": "2. 🏦 BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS"
+      "concept": "2. BANKING, MONETARY POLICY & FINANCIAL INSTITUTIONS"
     },
-    "badge": "3445 words"
+    "badge": "3397 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-08-sec-4",
     "type": "CONCEPT",
-    "title": "3. 💳 DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE",
+    "title": "3. DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-08",
-    "description": "📰 [SEP-030] Prime Minister Inaugurates Global Fintech Fest (GFF) 2026: Unveils 4-Point Strategic Fintech Roadmap\n\n- Flagship Convergence: Prime Minister Narendra Modi inaugurated the 5th edit",
+    "description": "[SEP-030] Prime Minister Inaugurates Global Fintech Fest (GFF) 2026: Unveils 4-Point Strategic Fintech Roadmap\n\n- Flagship Convergence: Prime Minister Narendra Modi inaugurated the 5th edition",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
-      "concept": "3. 💳 DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE"
+      "concept": "3. DIGITAL PAYMENTS, FINTECH INNOVATION & INSURANCE"
     },
-    "badge": "3514 words"
+    "badge": "3469 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-08-sec-5",
     "type": "CONCEPT",
-    "title": "4. 📊 MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE",
+    "title": "4. MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-08",
-    "description": "📰 [SEP-045] Japan Credit Rating Agency (JCR) Upgrades India's Sovereign Rating to 'A-' with Stable Outlook\n\n- Historic Rating Milestone: Japan Credit Rating Agency (JCR), Japan's premier",
+    "description": "[SEP-045] Japan Credit Rating Agency (JCR) Upgrades India's Sovereign Rating to 'A-' with Stable Outlook\n\n- Historic Rating Milestone: Japan Credit Rating Agency (JCR), Japan's premier int",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026 (FULL MONTH CONSOLIDATED DOSSIER — 120 CLUSTERS)",
-      "concept": "4. 📊 MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE"
+      "concept": "4. MACROECONOMIC TRENDS, SOVEREIGN RATINGS & FOREIGN TRADE"
     },
-    "badge": "3615 words"
+    "badge": "3567 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-09",
@@ -18110,67 +23518,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium"
     },
-    "badge": "43,718 words • 199 min read"
+    "badge": "43,189 words • 197 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-2",
     "type": "CONCEPT",
-    "title": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
+    "title": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-09",
-    "description": "📰 [MS-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured",
+    "description": "[MS-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured as:",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
-      "concept": "0. 🏛️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
+      "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "5210 words"
+    "badge": "5177 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-3",
     "type": "CONCEPT",
-    "title": "1. 🏛️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS",
+    "title": "1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-09",
-    "description": "📰 [MS-012] Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory\n- Continuous Policy Rate Pause: The MPC held the Policy Repo Rate at 5.25% with a neutral monetary stance",
+    "description": "[MS-012] Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory\n- Continuous Policy Rate Pause: The MPC held the Policy Repo Rate at 5.25% with a neutral monetary stance",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
-      "concept": "1. 🏛️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS"
+      "concept": "1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS"
     },
-    "badge": "6261 words"
+    "badge": "6175 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-4",
     "type": "CONCEPT",
-    "title": "2. 🏦 BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION",
+    "title": "2. BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-09",
-    "description": "📰 [MS-040] DICGC Four-Tier Risk-Based Premium Architecture\n- Transition to Risk-Sensitive Pricing: Deposit Insurance and Credit Guarantee Corporation (DICGC) transitioned from the legacy flat",
+    "description": "[MS-040] DICGC Four-Tier Risk-Based Premium Architecture\n- Transition to Risk-Sensitive Pricing: Deposit Insurance and Credit Guarantee Corporation (DICGC) transitioned from the legacy flat pr",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
-      "concept": "2. 🏦 BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION"
+      "concept": "2. BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION"
     },
-    "badge": "2946 words"
+    "badge": "2897 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-5",
     "type": "CONCEPT",
-    "title": "3. 💳 DIGITAL PAYMENTS, FINTECH & SEBI MASTER DIRECTIONS",
+    "title": "3. DIGITAL PAYMENTS, FINTECH & SEBI MASTER DIRECTIONS",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-09",
-    "description": "📰 [MS-055] Unified Payments Interface (UPI) Global Expansion & Bilateral Linkages\n- Sovereign Cross-Border Integrations: NPCI International Payments Limited (NIPL) expanded bilateral cross-bo",
+    "description": "[MS-055] Unified Payments Interface (UPI) Global Expansion & Bilateral Linkages\n- Sovereign Cross-Border Integrations: NPCI International Payments Limited (NIPL) expanded bilateral cross-borde",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
-      "concept": "3. 💳 DIGITAL PAYMENTS, FINTECH & SEBI MASTER DIRECTIONS"
+      "concept": "3. DIGITAL PAYMENTS, FINTECH & SEBI MASTER DIRECTIONS"
     },
-    "badge": "3326 words"
+    "badge": "3272 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-10",
@@ -18178,18 +23586,18 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
     "slug": "chapter-10",
     "url": "/shelf-007/current-affairs/chapter-10",
-    "description": "🧠 Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing\nMechanical calculating machines operated on fixed gear ratios where program instructions and data were physically bound to\nmechanical levers. The true digital revolution eme...",
+    "description": "Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing\nMechanical calculating machines operated on fixed gear ratios where program instructions and data were physically bound to\nmechanical levers. The true digital revolution emerge...",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Computer Aptitude, Digital Banking Systems & Cybersecurity Master"
     },
-    "badge": "20,425 words • 93 min read"
+    "badge": "20,278 words • 93 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-10-sec-2",
     "type": "CONCEPT",
-    "title": "📑 Master Index & Quick Jump Matrix",
+    "title": "Master Index & Quick Jump Matrix",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-10",
     "description": "| ID | Unit Title | Core High-Yield Invariants |\n|---|---|---|\n| [COMP-001] | Evolution of Computing & Pioneers | Abacus, Napier, Pascaline, Babbage, Von Neumann Stored-Program Architecture |\n|",
@@ -18197,54 +23605,54 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
-      "concept": "📑 Master Index & Quick Jump Matrix"
+      "concept": "Master Index & Quick Jump Matrix"
     },
     "badge": "392 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-10-sec-3",
     "type": "CONCEPT",
-    "title": "📰 [COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**",
+    "title": "[COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-10",
-    "description": "🧠 Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing\nMechanical calculating machines operated on fixed gear ratios where program instructions and data were physically",
+    "description": "Key Concept — The Evolution from Mechanical Calculating to Stored-Program Computing\nMechanical calculating machines operated on fixed gear ratios where program instructions and data were physically bo",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
-      "concept": "📰 [COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**"
+      "concept": "[COMP-001] **Evolution of Computing, Pioneers & Historical Milestones (Abacus to Microprocessors)**"
     },
-    "badge": "826 words"
+    "badge": "821 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-10-sec-4",
     "type": "CONCEPT",
-    "title": "📰 [COMP-002] **Generations of Computers & Structural Classification**",
+    "title": "[COMP-002] **Generations of Computers & Structural Classification**",
     "slug": "sec-4",
     "url": "/shelf-007/current-affairs/chapter-10",
-    "description": "📐 Classification by Scale & Processing Throughput\n1. Supercomputers:\nThe most powerful, expensive, and fastest computing systems on Earth, designed to execute trillions of floating-point\noperations p",
+    "description": "Classification by Scale & Processing Throughput\n1. Supercomputers:\nThe most powerful, expensive, and fastest computing systems on Earth, designed to execute trillions of floating-point\noperations per",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
-      "concept": "📰 [COMP-002] **Generations of Computers & Structural Classification**"
+      "concept": "[COMP-002] **Generations of Computers & Structural Classification**"
     },
-    "badge": "393 words"
+    "badge": "389 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-10-sec-5",
     "type": "CONCEPT",
-    "title": "📰 [COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**",
+    "title": "[COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**",
     "slug": "sec-5",
     "url": "/shelf-007/current-affairs/chapter-10",
-    "description": "🏛 The Von Neumann Machine Architecture\n\ntext\n┌────────────────────────────────────────────────────────────────────────┐\n│ \tCENTRAL PROCESSING UNIT (CPU) \t│\n│ \t│\n│ ┌────────────────────────┐ \t┌────",
+    "description": "The Von Neumann Machine Architecture\n\ntext\n┌────────────────────────────────────────────────────────────────────────┐\n│ \tCENTRAL PROCESSING UNIT (CPU) \t│\n│ \t│\n│ ┌────────────────────────┐ \t┌───────",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 10: COMPUTER APTITUDE, DIGITAL BANKING SYSTEMS & CYBERSECURITY MASTER",
-      "concept": "📰 [COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**"
+      "concept": "[COMP-003] **Computer Hardware Architecture, CPU Mechanics & The System Bus**"
     },
-    "badge": "1276 words"
+    "badge": "1268 words"
   },
   {
     "id": "shelf007-ch-current-affairs-rev-chapter-01",
@@ -18700,5 +24108,4368 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "concept": "2. 60-Second Memory Skeleton"
     },
     "badge": "56 words"
+  },
+  {
+    "id": "shelf007-subj-rajasthan",
+    "type": "SUBJECT",
+    "title": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+    "slug": "rajasthan",
+    "url": "/shelf-007/rajasthan",
+    "description": "Sovereign 37-chapter publication-grade master treatise covering Rajasthan Ancient Civilizations & Dynastic Hegemony (Ch 01–05), Colonial Resistance & Freedom Movements (Ch 06–10), Art, Architecture & Culture (Ch 11–17), Morphotectonic Divisions, Drainage & Environment (Ch 18–23), Political & Administrative Governance (Ch 24–29), Economy & Economic Review (Ch 30–34), Specialized RAS Mains Disciplines (Ch 35–36), and Capstone Revision Vault (Ch 37).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)"
+    },
+    "badge": "RAJ-007 • 60 Chapters"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-cover",
+    "type": "TOPIC",
+    "title": "RAJASTHAN SOVEREIGN MASTER CODEX",
+    "slug": "cover",
+    "url": "/shelf-007/rajasthan/cover",
+    "description": "▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची"
+    },
+    "badge": "301 words • 2 min read"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-table-of-contents",
+    "type": "TOPIC",
+    "title": "TABLE OF CONTENTS & MASTER CURRICULAR ARCHITECTURE",
+    "slug": "table-of-contents",
+    "url": "/shelf-007/rajasthan/table-of-contents",
+    "description": "Treatise: Rajasthan Sovereign Master Codex (The Mega Book)  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nEpistemic Fusion: RBSE (Classes 9, 10 & Adhyayan 9–12) • Dr. Gopinath Sharma • Dr. Hukum Chand Jain & Dr. Narayan Lal Mali • Dr. L.R. Bha...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची"
+    },
+    "badge": "5,975 words • 28 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-table-of-contents-sec-2",
+    "type": "CONCEPT",
+    "title": "Master Part & Chapter Architecture",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/table-of-contents",
+    "description": "text\nPART I: PREHISTORIC SITES, EPIGRAPHY & MEDIEVAL RAJPUT DYNASTIES (HISTORY)\n  ├── Chapter 01: Prehistoric Civilizations, Archaeological Sites & Epigraphic Heritage\n  ├── Chapter 02: Early Medie",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULAR ARCHITECTURE",
+      "concept": "Master Part & Chapter Architecture"
+    },
+    "badge": "597 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-table-of-contents-sec-3",
+    "type": "CONCEPT",
+    "title": "Detailed Part Breakdown & Curricular Blueprint",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/table-of-contents",
+    "description": "Part I: Prehistoric Sites, Epigraphy & Medieval Rajput Dynasties\n Chapter 01: Prehistoric Civilizations, Archaeological Sites & Epigraphic Heritage\n   Paleolithic, Mesolithic, Neolithic site",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULAR ARCHITECTURE",
+      "concept": "Detailed Part Breakdown & Curricular Blueprint"
+    },
+    "badge": "5275 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-01",
+    "type": "TOPIC",
+    "title": "CHAPTER 01: PREHISTORIC CIVILIZATIONS, ARCHAEOLOGICAL SITES & EPIGRAPHIC HERITAGE OF RAJASTHAN",
+    "slug": "chapter-01",
+    "url": "/shelf-007/rajasthan/chapter-01",
+    "description": "Epistemic Authority & Source Foundations:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "प्रागैतिहासिक स्थल, अभिलेख एवं पूर्व-मध्यकालीन राजवंश"
+    },
+    "badge": "6,724 words • 31 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-01-sec-2",
+    "type": "CONCEPT",
+    "title": "1.1 The Morphotectonic & Chronological Framework of Stone Age Rajasthan",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-01",
+    "description": "Rajasthan's prehistoric human settlement was shaped by two major environmental arteries: the Aravalli Mountain Ridge (providing quartz and quartzite tool rocks, cave shelters, and copper metalloge",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 01: PREHISTORIC CIVILIZATIONS, ARCHAEOLOGICAL SITES & EPIGRAPHIC HERITAGE OF RAJASTHAN",
+      "concept": "1.1 The Morphotectonic & Chronological Framework of Stone Age Rajasthan"
+    },
+    "badge": "650 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-01-sec-3",
+    "type": "CONCEPT",
+    "title": "1.2 The Chalcolithic & Bronze Age Civilizations of Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-01",
+    "description": "text\n       ┌──────────────────────────────────────────────────────────────┐\n       │     THE TRIAD OF PROTO-HISTORIC CIVILIZATIONS IN RAJASTHAN   │\n       └──────────────────────────────┬─────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 01: PREHISTORIC CIVILIZATIONS, ARCHAEOLOGICAL SITES & EPIGRAPHIC HERITAGE OF RAJASTHAN",
+      "concept": "1.2 The Chalcolithic & Bronze Age Civilizations of Rajasthan"
+    },
+    "badge": "1799 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-01-sec-4",
+    "type": "CONCEPT",
+    "title": "1.3 Iron Age & Historic Archaeological Sites of Rajasthan",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-01",
+    "description": "text\n┌────────────────────────────────────────────────────────────────────────┐\n│             IRON AGE & HISTORIC EXCAVATION SITES OF RAJASTHAN          │\n├──────────────┬──────────────────┬───────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 01: PREHISTORIC CIVILIZATIONS, ARCHAEOLOGICAL SITES & EPIGRAPHIC HERITAGE OF RAJASTHAN",
+      "concept": "1.3 Iron Age & Historic Archaeological Sites of Rajasthan"
+    },
+    "badge": "769 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-01-sec-5",
+    "type": "CONCEPT",
+    "title": "1.4 Epigraphic Heritage: Master Inscriptions & Prashastis",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-01",
+    "description": "Inscriptions (अभिलेख) and Prashastis (प्रशस्तियां) constitute the primary lithic evidence for reconstructing the political, dynastic, socio-economic, and religious history of Rajasthan.\n\ntext\n┌",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 01: PREHISTORIC CIVILIZATIONS, ARCHAEOLOGICAL SITES & EPIGRAPHIC HERITAGE OF RAJASTHAN",
+      "concept": "1.4 Epigraphic Heritage: Master Inscriptions & Prashastis"
+    },
+    "badge": "1229 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-02",
+    "type": "TOPIC",
+    "title": "CHAPTER 02: EARLY MEDIEVAL DYNASTIES: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+    "slug": "chapter-02",
+    "url": "/shelf-007/rajasthan/chapter-02",
+    "description": "Epistemic Authority & Source Foundations:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "प्रागैतिहासिक स्थल, अभिलेख एवं पूर्व-मध्यकालीन राजवंश"
+    },
+    "badge": "6,084 words • 28 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-02-sec-2",
+    "type": "CONCEPT",
+    "title": "2.1 The Gurjara-Pratiharas: Guardians of the Western Frontier",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-02",
+    "description": "From the 6th to the 11th century CE, the Gurjara-Pratiharas established political hegemony over northern and western India. Historian R.C. Majumdar noted that their historical significance lies in",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 02: EARLY MEDIEVAL DYNASTIES: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "2.1 The Gurjara-Pratiharas: Guardians of the Western Frontier"
+    },
+    "badge": "1337 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-02-sec-3",
+    "type": "CONCEPT",
+    "title": "2.2 The Chauhans of Shakambhari & Ajmer",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-02",
+    "description": "The Chauhans (Chahamanas) rose from imperial feudatories of the Gurjara-Pratiharas to become the sovereign rulers of north-western India and defenders of Delhi against the Ghurid invasions.\n\ntext\n┌",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 02: EARLY MEDIEVAL DYNASTIES: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "2.2 The Chauhans of Shakambhari & Ajmer"
+    },
+    "badge": "1432 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-02-sec-4",
+    "type": "CONCEPT",
+    "title": "2.3 The Chauhans of Ranthambore (1194–1301 CE)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-02",
+    "description": "text\n[FOUNDER: Govindaraja (1194 CE) | CAPITAL: Ranthambore Fort | GREATEST RULER: Hammiradeva (1282–1301 CE)]\n\n\n 1. Dynastic Foundations & Succession\n Govindaraja (1194 CE): Son of Prit",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 02: EARLY MEDIEVAL DYNASTIES: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "2.3 The Chauhans of Ranthambore (1194–1301 CE)"
+    },
+    "badge": "654 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-02-sec-5",
+    "type": "CONCEPT",
+    "title": "2.4 The Chauhans of Jalore & Siwana (Songara Branch)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-02",
+    "description": "text\n[FOUNDER: Kirtipala (1181 CE) | CANONICAL RULER: Kanhadadeva Chauhan (1305–1311 CE) | FORT: Suvarnagiri (Jalore)]\n\n\n 1. Origins of the Songara Chauhans\n Founded in 1181 CE by Kirt",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 02: EARLY MEDIEVAL DYNASTIES: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "2.4 The Chauhans of Jalore & Siwana (Songara Branch)"
+    },
+    "badge": "586 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-03",
+    "type": "TOPIC",
+    "title": "CHAPTER 03: THE GUHILS & SISODIAS OF MEWAR: BAPPA RAWAL, KUMBHA, SANGA, PRATAP & RAJ SINGH",
+    "slug": "chapter-03",
+    "url": "/shelf-007/rajasthan/chapter-03",
+    "description": "Epistemic Authority & Source Foundations:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "प्रागैतिहासिक स्थल, अभिलेख एवं पूर्व-मध्यकालीन राजवंश"
+    },
+    "badge": "8,762 words • 40 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-03-sec-2",
+    "type": "CONCEPT",
+    "title": "3.1 Dynastic Genesis & The Rawal Branch of Mewar",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-03",
+    "description": "The ruling house of Mewar represents the world's longest unbroken royal lineage, tracing its genealogy over fourteen centuries. The state's motto, inscribed on the royal coat of arms, defines its hist",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 03: THE GUHILS & SISODIAS OF MEWAR: BAPPA RAWAL, KUMBHA, SANGA, PRATAP & RAJ SINGH",
+      "concept": "3.1 Dynastic Genesis & The Rawal Branch of Mewar"
+    },
+    "badge": "1350 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-03-sec-3",
+    "type": "CONCEPT",
+    "title": "3.2 Resurgence of Mewar: Rana Hammir & The Sisodia Dynasty (1326–1433 CE)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-03",
+    "description": "text\n[FOUNDER: Rana Hammir (1326 CE) | DYNASTIC SEAT: Sisoda Village ➔ Chittorgarh | TITLE: Maharana]\n\n\n 1. Genesis of the Sisodia Branch\n During the reign of Rawal Ransimha (Karan Singh) in",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 03: THE GUHILS & SISODIAS OF MEWAR: BAPPA RAWAL, KUMBHA, SANGA, PRATAP & RAJ SINGH",
+      "concept": "3.2 Resurgence of Mewar: Rana Hammir & The Sisodia Dynasty (1326–1433 CE)"
+    },
+    "badge": "707 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-03-sec-4",
+    "type": "CONCEPT",
+    "title": "3.3 Maharana Kumbha (1433–1468 CE) — The Renaissance Monarch",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-03",
+    "description": "text\n[BORN: 1403 CE | FATHER: Rana Mokal | MOTHER: Queen Sobhagya Devi | REIGN: 35 Glorious Years]\n\n\nHistorian Kaviraj Shyamaldas in Vir Vinod records:  \n> \"Of the 84 fortresses that defe",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 03: THE GUHILS & SISODIAS OF MEWAR: BAPPA RAWAL, KUMBHA, SANGA, PRATAP & RAJ SINGH",
+      "concept": "3.3 Maharana Kumbha (1433–1468 CE) — The Renaissance Monarch"
+    },
+    "badge": "1249 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-03-sec-5",
+    "type": "CONCEPT",
+    "title": "3.4 Maharana Sangram Singh I (Rana Sanga, 1509–1528 CE)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-03",
+    "description": "text\n[BORN: 1482 CE | FATHER: Maharana Raimal | ACCESSION: 1509 CE | MONIKER: \"हिंदू पथ\" (Hindu Path)]\n\n\nHistorian Colonel James Tod described Rana Sanga as:  \n> \"The fragment of a soldier",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 03: THE GUHILS & SISODIAS OF MEWAR: BAPPA RAWAL, KUMBHA, SANGA, PRATAP & RAJ SINGH",
+      "concept": "3.4 Maharana Sangram Singh I (Rana Sanga, 1509–1528 CE)"
+    },
+    "badge": "899 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-04",
+    "type": "TOPIC",
+    "title": "Chapter 04: The Rathores of Marwar & Bikaner",
+    "slug": "chapter-04",
+    "url": "/shelf-007/rajasthan/chapter-04",
+    "description": "\"इंदा रो उपकार, कमधज कद ही न वीसरै।",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "प्रागैतिहासिक स्थल, अभिलेख एवं पूर्व-मध्यकालीन राजवंश"
+    },
+    "badge": "11,060 words • 51 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-04-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Dynastic Origins, Genealogies & Epigraphic Foundations",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-04",
+    "description": "1.1 Theories of Rathore Origin\nThe Rathores (राठौड़) established one of the most formidable martial hegemonies across western and northern Rajasthan (Marwar, Bikaner, Kishangarh, Idar, and Ratlam)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 04: The Rathores of Marwar & Bikaner",
+      "concept": "1. Dynastic Origins, Genealogies & Epigraphic Foundations"
+    },
+    "badge": "1304 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-04-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Foundation of Jodhpur & Consolidations (Rao Jodha to Rao Ganga)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-04",
+    "description": "2.1 Rao Jodha (राव जोधा, 1438–1489 CE) — The Architect of Marwar\n\n The Flight from Chittor & Awala-Bawala Accord (1453 CE)\nUpon Ranmal’s assassination, his son Rao Jodha escaped from Chittorga",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 04: The Rathores of Marwar & Bikaner",
+      "concept": "2. Foundation of Jodhpur & Consolidations (Rao Jodha to Rao Ganga)"
+    },
+    "badge": "764 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-04-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Rao Maldeo (1531–1562 CE) — The Hegemon of Marwar",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-04",
+    "description": "3.1 Accession & Expansionist Imperialism (52 Battles & 58 Parganas)\nRao Maldeo is celebrated as the zenith of Marwar's independent sovereign might. Crowned at Sojat in 1531 CE following Rao Ganga'",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 04: The Rathores of Marwar & Bikaner",
+      "concept": "3. Rao Maldeo (1531–1562 CE) — The Hegemon of Marwar"
+    },
+    "badge": "932 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-04-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Rao Chandrasen (1562–1581 CE) — \"The Forgotten Hero of Marwar\"",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-04",
+    "description": "4.1 Accession & The Succession Conflict\nUpon Maldeo's death, his chosen heir was his third and favorite son, Rao Chandrasen, bypassing his elder brothers: Ram Singh (the eldest) and Mota",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 04: The Rathores of Marwar & Bikaner",
+      "concept": "4. Rao Chandrasen (1562–1581 CE) — \"The Forgotten Hero of Marwar\""
+    },
+    "badge": "705 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-05",
+    "type": "TOPIC",
+    "title": "Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties",
+    "slug": "chapter-05",
+    "url": "/shelf-007/rajasthan/chapter-05",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "प्रागैतिहासिक स्थल, अभिलेख एवं पूर्व-मध्यकालीन राजवंश"
+    },
+    "badge": "8,476 words • 39 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-05-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Dynastic Origins, Migration & Early Patriarchs of Amber",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-05",
+    "description": "1.1 Theories of Kachhwaha Origin & Etymology\nThe Kachhwahas (कछवाहा) established one of the most intellectually luminous, administratively sophisticated, and diplomatically influential dynasties i",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties",
+      "concept": "1. Dynastic Origins, Migration & Early Patriarchs of Amber"
+    },
+    "badge": "764 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-05-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Raja Bharmal (1556–1574 CE) — The Imperial Watershed",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-05",
+    "description": "2.1 Succession & Internal Insecurity\nUpon Prithviraj's death, Dhundhar was plunged into succession turbulence involving Ratan Singh, Askaran, and Bharmal (भारमल / बिहारीमल). Threatened by inte",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties",
+      "concept": "2. Raja Bharmal (1556–1574 CE) — The Imperial Watershed"
+    },
+    "badge": "336 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-05-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Raja Bhagwan Das (1574–1589 CE)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-05",
+    "description": "- Imperial Mansab & Governorship: Elevated to a premier mansab of 5,000; appointed the Mughal Governor of Punjab (Lahore).\n- The Third Mission to Pratap (1573 CE): Commanded the third impe",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties",
+      "concept": "3. Raja Bhagwan Das (1574–1589 CE)"
+    },
+    "badge": "136 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-05-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Mirza Raja Man Singh I (1589–1614 CE) — The Pillar of the Empire",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-05",
+    "description": "4.1 Imperial Accession, Titles & Mansabdari\nBorn in 1550 CE at Mauzamabad; ascended the Amber gaddi in 1589 CE. First coronated at Patna (Bihar), followed by full royal ceremonies at Amer.\n- Imp",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties",
+      "concept": "4. Mirza Raja Man Singh I (1589–1614 CE) — The Pillar of the Empire"
+    },
+    "badge": "625 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-06",
+    "type": "TOPIC",
+    "title": "Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan",
+    "slug": "chapter-06",
+    "url": "/shelf-007/rajasthan/chapter-06",
+    "description": "Key Takeaway: Beawar and Kherwara cantonments did NOT take part in the 1857 Revolution!",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "आंग्ल संधियां, 1857 विप्लव, किसान-जनजाति आंदोलन एवं एकीकरण"
+    },
+    "badge": "6,811 words • 31 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-06-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The Geopolitical Crisis & Subordinate Alliance Treaties of 1817–1818",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-06",
+    "description": "1.1 Pre-Conditions: Maratha Devastation, Pindari Ravages & Fiscal Bankruptcy\nBy the twilight of the 18th century and the opening decades of the 19th century, Rajasthan was plunged into near-total",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan",
+      "concept": "1. The Geopolitical Crisis & Subordinate Alliance Treaties of 1817–1818"
+    },
+    "badge": "1316 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-06-sec-3",
+    "type": "CONCEPT",
+    "title": "2. The 1857 Revolution: Structural Causes & Military Deployment",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-06",
+    "description": "2.1 Causes of Discontent in Rajasthan\n1. Economic Exploitation: Crippling Khiraj payments drained state treasuries, forcing princes to levy heavy cess (Lāg-Bāg) and land revenue (Bhog) u",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan",
+      "concept": "2. The 1857 Revolution: Structural Causes & Military Deployment"
+    },
+    "badge": "529 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-06-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Major Theaters of Revolution: Chronology & Military Actions",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-06",
+    "description": "3.1 The Naseerabad Outbreak (28 May 1857) — The First Spark\n- Trigger: Following the Meerut outbreak, AGG George Patrick Lawrence grew suspicious of the 15th Bengal Native Infantry (BNI) s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan",
+      "concept": "3. Major Theaters of Revolution: Chronology & Military Actions"
+    },
+    "badge": "1608 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-06-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Other Theaters of Revolution in Rajasthan",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-06",
+    "description": "┌─────────────────────────────────────────────────────────┐\n                     │          OTHER THEATERS OF THE 1857 REVOLUTION          │\n                     └────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan",
+      "concept": "4. Other Theaters of Revolution in Rajasthan"
+    },
+    "badge": "293 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-07",
+    "type": "TOPIC",
+    "title": "Chapter 07: Peasant & Agrarian Movements of Rajasthan",
+    "slug": "chapter-07",
+    "url": "/shelf-007/rajasthan/chapter-07",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "आंग्ल संधियां, 1857 विप्लव, किसान-जनजाति आंदोलन एवं एकीकरण"
+    },
+    "badge": "5,024 words • 23 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-07-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Structural Genesis & Socio-Economic Catalysts",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-07",
+    "description": "1.1 The Feudal Agrarian Architecture: Khalsa vs Jagir\nDuring the 19th and early 20th centuries, Rajasthan’s agrarian economy was split into two distinct tenurial systems:\n1. Khalsa Land (खालसा भ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 07: Peasant & Agrarian Movements of Rajasthan",
+      "concept": "1. Structural Genesis & Socio-Economic Catalysts"
+    },
+    "badge": "247 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-07-sec-3",
+    "type": "CONCEPT",
+    "title": "2. The Bijolia Peasant Movement (1897–1941) — The Epicenter",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-07",
+    "description": "2.1 Feudal Profile & The Three Historic Phases\n- Geographical & Historical Setting: Located in modern Bhilwara district (erstwhile Mewar state), Bijolia (बिजोलिया) was an ancient cultu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 07: Peasant & Agrarian Movements of Rajasthan",
+      "concept": "2. The Bijolia Peasant Movement (1897–1941) — The Epicenter"
+    },
+    "badge": "1099 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-07-sec-4",
+    "type": "CONCEPT",
+    "title": "3. The Bengu Peasant Movement (1921–1925)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-07",
+    "description": "3.1 Genesis & The Menal Assembly (1921 CE)\n- Feudal Setting: Bengu (located in modern Chittorgarh district) was a First-Grade Jagir of Mewar, governed by reactionary Jagirdar Rawat Anoop Sin",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 07: Peasant & Agrarian Movements of Rajasthan",
+      "concept": "3. The Bengu Peasant Movement (1921–1925)"
+    },
+    "badge": "337 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-07-sec-5",
+    "type": "CONCEPT",
+    "title": "4. The Bundi (Barad) Peasant Movement (1922–1943)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-07",
+    "description": "4.1 Socio-Economic Catalysts\n- Geographical Setting: Centered in the harsh, rocky Barad (बरड़) region of Bundi state, inhabited largely by Gujjar and peasant communities.\n- Causes:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 07: Peasant & Agrarian Movements of Rajasthan",
+      "concept": "4. The Bundi (Barad) Peasant Movement (1922–1943)"
+    },
+    "badge": "228 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-08",
+    "type": "TOPIC",
+    "title": "Chapter 08: Tribal Awakening Movements of Rajasthan",
+    "slug": "chapter-08",
+    "url": "/shelf-007/rajasthan/chapter-08",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "आंग्ल संधियां, 1857 विप्लव, किसान-जनजाति आंदोलन एवं एकीकरण"
+    },
+    "badge": "4,447 words • 21 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-08-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Socio-Historical Background & Colonial Marginalization",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-08",
+    "description": "1.1 The Indigenous Tribes of Southern & Eastern Rajasthan\nThe forested ranges of the Aravallis in southern and south-eastern Rajasthan have served as the ancestral habitat of ancient indigenous co",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 08: Tribal Awakening Movements of Rajasthan",
+      "concept": "1. Socio-Historical Background & Colonial Marginalization"
+    },
+    "badge": "354 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-08-sec-3",
+    "type": "CONCEPT",
+    "title": "2. The Bhagat Movement & Govind Guru (भगत आंदोलन)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-08",
+    "description": "2.1 Govind Guru (1858–1931 CE) — The Sage-Reformer\nThe pioneer of tribal cultural renaissance and social liberation in western India:\n\n\n                    ┌────────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 08: Tribal Awakening Movements of Rajasthan",
+      "concept": "2. The Bhagat Movement & Govind Guru (भगत आंदोलन)"
+    },
+    "badge": "579 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-08-sec-4",
+    "type": "CONCEPT",
+    "title": "3. The Eki Movement & Motilal Tejawat (एकी आंदोलन, 1921)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-08",
+    "description": "3.1 Motilal Tejawat (1886–1963 CE) — \"Bavji\" & The Tribal Gandhi\n- Birth & Identity: Born in 1886 at Koliyari village (कोलियारी, Jhadol, Udaipur) in a prosperous Oswal Jain merchant fa",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 08: Tribal Awakening Movements of Rajasthan",
+      "concept": "3. The Eki Movement & Motilal Tejawat (एकी आंदोलन, 1921)"
+    },
+    "badge": "671 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-08-sec-5",
+    "type": "CONCEPT",
+    "title": "4. The Meena Movement & The Jairam Pesha Agitation (1924–1952)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-08",
+    "description": "4.1 Historical Roots: The Division of the Meenas\nFollowing the rise of the Kachhwahas in Dhundhar, the Meenas split into two socio-economic strata:\n1. Zamindari Meena (जमींदारी मीणा): Landed a",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 08: Tribal Awakening Movements of Rajasthan",
+      "concept": "4. The Meena Movement & The Jairam Pesha Agitation (1924–1952)"
+    },
+    "badge": "742 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-09",
+    "type": "TOPIC",
+    "title": "Chapter 09: Prajamandal Movements & Modern Political Awakening",
+    "slug": "chapter-09",
+    "url": "/shelf-007/rajasthan/chapter-09",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "आंग्ल संधियां, 1857 विप्लव, किसान-जनजाति आंदोलन एवं एकीकरण"
+    },
+    "badge": "4,881 words • 23 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-09-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Ideological Genesis, Evolution & Institutional Foundations",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-09",
+    "description": "1.1 The Concept of \"Praja Mandal\" (People's Council)\nThe Prajamandal (प्रजामंडल — People's Association / Council) movement represented the revolutionary shift of Rajasthan's freedom struggle from",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 09: Prajamandal Movements & Modern Political Awakening",
+      "concept": "1. Ideological Genesis, Evolution & Institutional Foundations"
+    },
+    "badge": "435 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-09-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Chronological Matrix & Profiles of Major Prajamandals",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-09",
+    "description": "2.1 The Master Chronological Matrix of Prajamandals\n\n| Year | Prajamandal | Founder(s) & Leading Personalities | First President | Historic Distinguishing Invariants |\n| :---: | :--- | :--- | :---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 09: Prajamandal Movements & Modern Political Awakening",
+      "concept": "2. Chronological Matrix & Profiles of Major Prajamandals"
+    },
+    "badge": "490 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-09-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Deep-Dive Curricular Analysis: Major Prajamandals",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-09",
+    "description": "3.1 The Jaipur Prajamandal & The Gentlemen's Agreement (1942)\n- Establishment (1931 & 1936–1938):\n  - First established in 1931 by Kapur Chand Patni, making it the first Prajamandal in Raj",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 09: Prajamandal Movements & Modern Political Awakening",
+      "concept": "3. Deep-Dive Curricular Analysis: Major Prajamandals"
+    },
+    "badge": "1231 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-09-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Women's Monumental Role in Rajasthan's Freedom Struggle",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-09",
+    "description": "Women broke centuries-old feudal Parda (veil) restrictions, enduring police beatings, lathi-charges, property forfeitures, and rigorous prison sentences:\n\n\n┌──────────────────────────────┬───────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 09: Prajamandal Movements & Modern Political Awakening",
+      "concept": "4. Women's Monumental Role in Rajasthan's Freedom Struggle"
+    },
+    "badge": "226 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-10",
+    "type": "TOPIC",
+    "title": "Chapter 10: The Unification of Rajasthan (1948–1956)",
+    "slug": "chapter-10",
+    "url": "/shelf-007/rajasthan/chapter-10",
+    "description": "\"My ancestors established their sovereign path 1,300 years ago. If I betray the sacred soil of India today, the spirits of Bappa Rawal, Maharana Sanga, and Maharana Pratap will spit upon my grave!\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "आंग्ल संधियां, 1857 विप्लव, किसान-जनजाति आंदोलन एवं एकीकरण"
+    },
+    "badge": "4,302 words • 20 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-10-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Geopolitical Landscape on the Eve of Independence",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-10",
+    "description": "1.1 The Fragmented Polity: 19 States, 3 Chiefships & 1 Centrally Administered Territory\nOn 15 August 1947, the geographic expanse of Rajputana did not exist as a unified political entity. Instead,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 10: The Unification of Rajasthan (1948–1956)",
+      "concept": "1. Geopolitical Landscape on the Eve of Independence"
+    },
+    "badge": "600 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-10-sec-3",
+    "type": "CONCEPT",
+    "title": "2. The Complete 7-Stage Architectural Matrix of Unification",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-10",
+    "description": "The unification of Rajasthan was accomplished across seven progressive chronological stages between 18 March 1948 and 1 November 1956:\n\n\n                    ┌───────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 10: The Unification of Rajasthan (1948–1956)",
+      "concept": "2. The Complete 7-Stage Architectural Matrix of Unification"
+    },
+    "badge": "1532 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-10-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Comprehensive 7-Stages Invariant Matrix",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-10",
+    "description": "The definitive synoptic matrix synthesizing the 7 stages of Rajasthan’s unification for rapid examination review:\n\n| Stage  & Official Name | Date of Inauguration | Merged States & Chiefships | Capit",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 10: The Unification of Rajasthan (1948–1956)",
+      "concept": "3. Comprehensive 7-Stages Invariant Matrix"
+    },
+    "badge": "309 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-10-sec-5",
+    "type": "CONCEPT",
+    "title": "4. The 25 Deadliest Examination Traps (Forensic Autopsy)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-10",
+    "description": "1. Trap 1: First vs Last State to Sign Instrument of Accession:\n   - Trap: Jaipur signed first; Jodhpur signed last.\n   - Fact: Bikaner (Sadul Singh, 7 Aug 1947) signed first; Dholpur (U",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 10: The Unification of Rajasthan (1948–1956)",
+      "concept": "4. The 25 Deadliest Examination Traps (Forensic Autopsy)"
+    },
+    "badge": "787 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-11",
+    "type": "TOPIC",
+    "title": "Chapter 11: Fort Architecture of Rajasthan",
+    "slug": "chapter-11",
+    "url": "/shelf-007/rajasthan/chapter-11",
+    "description": "Mnemonic for the 6 UNESCO Forts: \"चीकू गाजर आम\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "6,282 words • 29 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-11-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Classical Fort Classification & The 2013 UNESCO World Heritage Inscription",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-11",
+    "description": "1.1 Ancient Indian Architectural Shastras on Fort Typology\nIn medieval and ancient Rajasthan, forts (Durg / दुर्ग) were not merely defensive bastions or royal residences; they were self-containe",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 11: Fort Architecture of Rajasthan",
+      "concept": "1. Classical Fort Classification & The 2013 UNESCO World Heritage Inscription"
+    },
+    "badge": "441 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-11-sec-3",
+    "type": "CONCEPT",
+    "title": "2. In-Depth Architectural Anatomy: The Six UNESCO Hill Forts",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-11",
+    "description": "2.1 Chittorgarh Fort (चित्तौड़गढ़ दुर्ग) — \"The Sirmor of Forts\"\n\n Topography, Origin & Dimensions\n- Popular Maxim: \"गढ़ तो चित्तौड़गढ़, बाकी सब गढ़ैया।\" (Chittor alone is the supreme fo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 11: Fort Architecture of Rajasthan",
+      "concept": "2. In-Depth Architectural Anatomy: The Six UNESCO Hill Forts"
+    },
+    "badge": "2173 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-11-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Other Sovereign Forts of Rajasthan",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-11",
+    "description": "┌─────────────────────────────────────────────────────────┐\n                     │          OTHER SOVEREIGN CITADELS OF RAJASTHAN          │\n                     └────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 11: Fort Architecture of Rajasthan",
+      "concept": "3. Other Sovereign Forts of Rajasthan"
+    },
+    "badge": "1356 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-11-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Comprehensive Fort Architecture Invariant Matrix",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-11",
+    "description": "The definitive synoptic matrix synthesizing the fortresses of Rajasthan for rapid comparative examination review:\n\n| Fort Name | District | Typology (Shukraniti) | Foundational Monarch & Year | Key Ar",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 11: Fort Architecture of Rajasthan",
+      "concept": "4. Comprehensive Fort Architecture Invariant Matrix"
+    },
+    "badge": "492 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-12",
+    "type": "TOPIC",
+    "title": "Chapter 12: Palaces, Havelis, Baoris, Chhatris & Temples of Rajasthan",
+    "slug": "chapter-12",
+    "url": "/shelf-007/rajasthan/chapter-12",
+    "description": "Mnemonic for Hawa Mahal Storeys: \"शरद रतन विचित्र प्रकाश हवा\" (Sharad $\\rightarrow$ Ratan $\\rightarrow$ Vichitra $\\rightarrow$ Prakash $\\rightarrow$ Hawa).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "6,919 words • 32 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-12-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Secular & Residential Architecture: The Royal Palaces (*Raj-Mahal*)",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-12",
+    "description": "Royal palaces in Rajasthan evolved from fortified medieval keeps (such as the early citadel rooms of Chittor and Kumbhalgarh) into expansive, luxurious, multi-courtyard complexes during the Pax Mughal",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 12: Palaces, Havelis, Baoris, Chhatris & Temples of Rajasthan",
+      "concept": "1. Secular & Residential Architecture: The Royal Palaces (*Raj-Mahal*)"
+    },
+    "badge": "1365 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-12-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Aristocratic & Mercantile Architecture: The Havelis of Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-12",
+    "description": "Havelis (हवेलियाँ) were private residential mansions built by wealthy prime ministers, royal treasurers (Diwans), feudal thakurs, and prominent Marwari merchant families (Seth-Sahukars). They re",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 12: Palaces, Havelis, Baoris, Chhatris & Temples of Rajasthan",
+      "concept": "2. Aristocratic & Mercantile Architecture: The Havelis of Rajasthan"
+    },
+    "badge": "992 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-12-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Hydraulic Stepwell Architecture: Baoris & Kunds of Rajasthan",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-12",
+    "description": "In the arid and semi-arid terrain of Rajasthan, water architecture transcended utilitarian storage to become sacred community monuments. Stepwells (Baori / Bawdi / Vapi) combined deep subterrane",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 12: Palaces, Havelis, Baoris, Chhatris & Temples of Rajasthan",
+      "concept": "3. Hydraulic Stepwell Architecture: Baoris & Kunds of Rajasthan"
+    },
+    "badge": "574 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-12-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Memorial & Commemorative Architecture: The Chhatris (Cenotaphs)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-12",
+    "description": "Chhatris (छतरियाँ) are elevated, domed commemorative cenotaphs erected over the cremation sites of kings, queens, feudal nobility, war heroes, and ascetic saints. Rooted in ancient Hindu funerary st",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 12: Palaces, Havelis, Baoris, Chhatris & Temples of Rajasthan",
+      "concept": "4. Memorial & Commemorative Architecture: The Chhatris (Cenotaphs)"
+    },
+    "badge": "712 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-13",
+    "type": "TOPIC",
+    "title": "Chapter 13: Schools of Rajasthani Painting",
+    "slug": "chapter-13",
+    "url": "/shelf-007/rajasthan/chapter-13",
+    "description": "\"Chiteron ki Ovari\" (चितेरों की ओवरी), popularly known across Rajputana as \"Tasveeraan ro Karkhano\" (तस्वीराँ रो कारखानो).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "5,857 words • 27 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-13-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Historiography, Classification & Canonical Nomenclature",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-13",
+    "description": "Rajasthani painting (राजस्थानी चित्रकला) represents one of the most vibrant, emotionally intense, and stylistically distinct traditions of visual art in South Asia. Derived from the ancient Western",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 13: Schools of Rajasthani Painting",
+      "concept": "1. Historiography, Classification & Canonical Nomenclature"
+    },
+    "badge": "579 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-13-sec-3",
+    "type": "CONCEPT",
+    "title": "2. The Mewar School (मेवाड़ स्कूल) — The Genesis & Mother Style",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-13",
+    "description": "The Mewar School is universally revered as the fountainhead / mother style of all Rajasthani painting. Being the most geographically insulated from Delhi and fiercely resistant to Mughal subjugati",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 13: Schools of Rajasthani Painting",
+      "concept": "2. The Mewar School (मेवाड़ स्कूल) — The Genesis & Mother Style"
+    },
+    "badge": "840 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-13-sec-4",
+    "type": "CONCEPT",
+    "title": "3. The Marwar School (मारवाड़ स्कूल) — The Desert Masters",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-13",
+    "description": "Covering the vast arid expanses of Jodhpur, Bikaner, Kishangarh, Nagaur, and Jaisalmer, the Marwar School is distinguished by monumental scale, heroic expressions, radiant primary colors, and dramatic",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 13: Schools of Rajasthani Painting",
+      "concept": "3. The Marwar School (मारवाड़ स्कूल) — The Desert Masters"
+    },
+    "badge": "1127 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-13-sec-5",
+    "type": "CONCEPT",
+    "title": "4. The Dhundhar School (ढूंढाड़ स्कूल) — The Courtly Synthesizers",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-13",
+    "description": "Encompassing Amber, Jaipur, Alwar, Shekhawati, and Uniara, the Dhundhar School is characterized by close diplomatic ties with the Mughal court, monumental life-sized portraiture, opulent gold-leaf emb",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 13: Schools of Rajasthani Painting",
+      "concept": "4. The Dhundhar School (ढूंढाड़ स्कूल) — The Courtly Synthesizers"
+    },
+    "badge": "604 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-14",
+    "type": "TOPIC",
+    "title": "Chapter 14: Folk Performing Arts: Dances, Drama & Music of Rajasthan",
+    "slug": "chapter-14",
+    "url": "/shelf-007/rajasthan/chapter-14",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "5,839 words • 27 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-14-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Folk Dances of Rajasthan: Typology & Living Traditions",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-14",
+    "description": "Folk dance in Rajasthan is an organic expression of desert survival, martial chivalry, devotional ecstasy, and seasonal celebrations. Unlike rigid classical traditions, Rajasthani folk dances are char",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 14: Folk Performing Arts: Dances, Drama & Music of Rajasthan",
+      "concept": "1. Folk Dances of Rajasthan: Typology & Living Traditions"
+    },
+    "badge": "1937 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-14-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Folk Drama & Traditional Theatre (*Lok Natya*)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-14",
+    "description": "Traditional folk theatre in Rajasthan functions as an open-air democratic stage (Akhara / Patta) synthesizing musical ballads, social satire, philosophical disputation, and epic folklore.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 14: Folk Performing Arts: Dances, Drama & Music of Rajasthan",
+      "concept": "2. Folk Drama & Traditional Theatre (*Lok Natya*)"
+    },
+    "badge": "1067 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-14-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Folk Musical Instruments of Rajasthan (Fourfold Organology)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-14",
+    "description": "Ancient Indian musicology classifies instruments into four distinct structural families (Vadya Varg), all richly represented across Rajasthan's desert ecology:\n\n\n                      ┌──────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 14: Folk Performing Arts: Dances, Drama & Music of Rajasthan",
+      "concept": "3. Folk Musical Instruments of Rajasthan (Fourfold Organology)"
+    },
+    "badge": "963 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-14-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Folk Music Communities & Classical Music Gharanas",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-14",
+    "description": "┌────────────────────────────────────────────────────────────────────────────────────────┐\n│                   HEREDITARY FOLK MUSIC COMMUNITIES OF RAJASTHAN                       │\n├─────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 14: Folk Performing Arts: Dances, Drama & Music of Rajasthan",
+      "concept": "4. Folk Music Communities & Classical Music Gharanas"
+    },
+    "badge": "232 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-15",
+    "type": "TOPIC",
+    "title": "Chapter 15: Folk Deities, Saints & Religious Movements of Rajasthan",
+    "slug": "chapter-15",
+    "url": "/shelf-007/rajasthan/chapter-15",
+    "description": "\"पाबू हड़बू रामदे, मांगलिया मेहा। पाँचू पीर पधारज्यौ, गोगाजी जेहा॥\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "5,436 words • 25 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-15-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The Pantheon of Folk Deities: Concept & The Panchpir",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-15",
+    "description": "In Rajasthan, folk deities (Lok Devta / लोक देवता and Lok Deviyan / लोक देवियाँ) are not distant Vedic abstractions or mythological figures; they were historical mortals, chieftains, warriors, and",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 15: Folk Deities, Saints & Religious Movements of Rajasthan",
+      "concept": "1. The Pantheon of Folk Deities: Concept & The Panchpir"
+    },
+    "badge": "1275 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-15-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Other Renowned Folk Deities (Lok Devta)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-15",
+    "description": "┌────────────────────────────────────────────────────────────────────────────────────────┐\n│                   RENOWNED FOLK DEITIES ACROSS RAJASTHAN                               │\n├─────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 15: Folk Deities, Saints & Religious Movements of Rajasthan",
+      "concept": "2. Other Renowned Folk Deities (Lok Devta)"
+    },
+    "badge": "642 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-15-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Celebrated Folk Goddesses (Lok Deviyan)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-15",
+    "description": "┌────────────────────────────────────────────────────────────────────────────────────────┐\n│                   CANONICAL FOLK GODDESSES OF RAJASTHAN                                │\n├─────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 15: Folk Deities, Saints & Religious Movements of Rajasthan",
+      "concept": "3. Celebrated Folk Goddesses (Lok Deviyan)"
+    },
+    "badge": "564 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-15-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Saints, Sects & Religious Movements of Rajasthan",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-15",
+    "description": "Rajasthan’s arid landscape was fertile ground for powerful Nirguna and Saguna Bhakti movements that challenged caste hierarchy, championed ecological preservation, and emphasized vernacular spirituali",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 15: Folk Deities, Saints & Religious Movements of Rajasthan",
+      "concept": "4. Saints, Sects & Religious Movements of Rajasthan"
+    },
+    "badge": "1245 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-16",
+    "type": "TOPIC",
+    "title": "Chapter 16: Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan",
+    "slug": "chapter-16",
+    "url": "/shelf-007/rajasthan/chapter-16",
+    "description": "\"तीज तेहवारां बावड़ी, ले डूबी गणगौर।\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "4,895 words • 23 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-16-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The Living Calendar: Festivals & Fairs of Rajasthan",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-16",
+    "description": "In Rajasthan, festivals (Tyohar) and fairs (Mele) are intertwined with the astronomical mechanics of the Vikram Samvat (विक्रम संवत) calendar (which runs 57 years ahead of the Gregorian calend",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 16: Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan",
+      "concept": "1. The Living Calendar: Festivals & Fairs of Rajasthan"
+    },
+    "badge": "887 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-16-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Rites of Passage: The 16 Sanskars & Traditional Customs",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-16",
+    "description": "Rajasthani social life is sanctified by the ancient Vedic 16 Sacraments (सोलह संस्कार), governing human life from conception to mortuary dissolution.\n\n\n                      ┌──────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 16: Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan",
+      "concept": "2. Rites of Passage: The 16 Sanskars & Traditional Customs"
+    },
+    "badge": "518 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-16-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Traditional Costumes & Textiles of Rajasthan",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-16",
+    "description": "Rajasthani attire was dictated by harsh desert geography, royal chivalric codes, and vibrant botanical resist-dyeing methods.\n\n\n                      ┌──────────────────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 16: Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan",
+      "concept": "3. Traditional Costumes & Textiles of Rajasthan"
+    },
+    "badge": "489 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-16-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Traditional Ornaments: From Head to Toe",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-16",
+    "description": "Rajasthani women wear an intricate catalog of gold, silver, pearl, and brass ornaments, each anatomically anchored to specific pressure points:\n\n\n┌──────────────────────────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 16: Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan",
+      "concept": "4. Traditional Ornaments: From Head to Toe"
+    },
+    "badge": "366 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-17",
+    "type": "TOPIC",
+    "title": "Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan",
+    "slug": "chapter-17",
+    "url": "/shelf-007/rajasthan/chapter-17",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "स्थापत्य, दुर्ग, चित्रकला, लोक कलाएं, संत, साहित्य एवं हस्तशिल्प"
+    },
+    "badge": "4,339 words • 20 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-17-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Classical Crafts: Metallurgy, Glass Filigree & Pottery",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-17",
+    "description": "Rajasthan’s traditional handicrafts (हस्तशिल्प) represent centuries of artisanal refinement under the patronage of Rajput royal durbars and merchant guilds. These crafts converted basic desert mater",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan",
+      "concept": "1. Classical Crafts: Metallurgy, Glass Filigree & Pottery"
+    },
+    "badge": "1220 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-17-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Woodcraft, Lac & Puppetry Heritage",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-17",
+    "description": "┌────────────────────────────────────────────────────────────────────────────────────────┐\n│                   WOODCRAFT & PUPPETRY HUBS OF RAJASTHAN                               │\n├─────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan",
+      "concept": "2. Woodcraft, Lac & Puppetry Heritage"
+    },
+    "badge": "285 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-17-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Textile Crafts: Hand Block Printing, Weaving & Tie-Dye",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-17",
+    "description": "Rajasthan is the hand-block printing and resist-dyeing capital of South Asia. The chemical interaction between local river water, natural mineral salts, and organic vegetable dyes created world-renown",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan",
+      "concept": "3. Textile Crafts: Hand Block Printing, Weaving & Tie-Dye"
+    },
+    "badge": "600 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-17-sec-5",
+    "type": "CONCEPT",
+    "title": "3. The Definitive Geographical Indications (GI Tags) Registry of Rajasthan",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-17",
+    "description": "Under the Geographical Indications of Goods (Registration and Protection) Act, 1999, Rajasthan possesses a formidable portfolio of sovereign GI-tagged artifacts:\n\n\n┌──────────────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan",
+      "concept": "3. The Definitive Geographical Indications (GI Tags) Registry of Rajasthan"
+    },
+    "badge": "314 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-18",
+    "type": "TOPIC",
+    "title": "Chapter 18: Morphotectonic Divisions of Rajasthan",
+    "slug": "chapter-18",
+    "url": "/shelf-007/rajasthan/chapter-18",
+    "description": "Mnemonic for Top 5 Peaks: \"गुरु से दिल जरा अचूक\"",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज"
+    },
+    "badge": "4,919 words • 23 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-18-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Geomorphological Evolution, Tectonic Framework & Classification",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-18",
+    "description": "The physical landscape of Rajasthan is an ancient geological palimpsest spanning more than two billion years of Earth history. It encompasses geological formations from the Archaean Bhilwara Supergr",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 18: Morphotectonic Divisions of Rajasthan",
+      "concept": "1. Geomorphological Evolution, Tectonic Framework & Classification"
+    },
+    "badge": "478 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-18-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Division I: The Western Sandy Plain (Thar Desert / मरुस्थलीय प्रदेश)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-18",
+    "description": "Covering 61.11% of the state’s geographic territory (approx. 209,000 sq km) across western and northwestern Rajasthan, the Thar Desert is the most densely populated desert in the world (83 persons",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 18: Morphotectonic Divisions of Rajasthan",
+      "concept": "2. Division I: The Western Sandy Plain (Thar Desert / मरुस्थलीय प्रदेश)"
+    },
+    "badge": "1072 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-18-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Division II: The Aravalli Mountain Region (अरावली पर्वतीय प्रदेश)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-18",
+    "description": "The Aravalli Range is the geomorphological spine of Rajasthan, functioning as a continental water divide, mineral treasure trove, climatic barrier, and tribal homeland.\n\n\n                      ┌───",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 18: Morphotectonic Divisions of Rajasthan",
+      "concept": "3. Division II: The Aravalli Mountain Region (अरावली पर्वतीय प्रदेश)"
+    },
+    "badge": "932 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-18-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Division III: The Eastern Plains (पूर्वी मैदानी प्रदेश)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-18",
+    "description": "Covering 23.0% of the state’s area and sheltering 39.0% of its total population, the Eastern Plains exhibit the highest demographic density and agricultural productivity in Rajasthan. Formed b",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 18: Morphotectonic Divisions of Rajasthan",
+      "concept": "4. Division III: The Eastern Plains (पूर्वी मैदानी प्रदेश)"
+    },
+    "badge": "359 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-19",
+    "type": "TOPIC",
+    "title": "Chapter 19: Climate, Agro-Climatic Zones & Weather Systems of Rajasthan",
+    "slug": "chapter-19",
+    "url": "/shelf-007/rajasthan/chapter-19",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज"
+    },
+    "badge": "3,771 words • 18 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-19-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Climatic Controls, Seasonality & Vernacular Weather Systems",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-19",
+    "description": "The climate of Rajasthan ranges from hyper-arid in the western Thar desert to humid and per-humid in the southern and southeastern plateaus. This climatic diversity is governed by six fundamental geog",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 19: Climate, Agro-Climatic Zones & Weather Systems of Rajasthan",
+      "concept": "1. Climatic Controls, Seasonality & Vernacular Weather Systems"
+    },
+    "badge": "721 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-19-sec-3",
+    "type": "CONCEPT",
+    "title": "2. General Climate Classification of Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-19",
+    "description": "The Directorate of Economics & Statistics and the Department of Agriculture divide Rajasthan into Five General Climatic Zones based on annual rainfall and vegetation:\n\n\n                      ┌─",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 19: Climate, Agro-Climatic Zones & Weather Systems of Rajasthan",
+      "concept": "2. General Climate Classification of Rajasthan"
+    },
+    "badge": "190 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-19-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Scientific Climate Classification Systems",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-19",
+    "description": "RPSC consistently tests three international scientific climate classification systems: Dr. Vladimir Köppen, Dr. C.W. Thornthwaite, and Dr. G.T. Trewartha.\n\n\n                      ┌─────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 19: Climate, Agro-Climatic Zones & Weather Systems of Rajasthan",
+      "concept": "3. Scientific Climate Classification Systems"
+    },
+    "badge": "542 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-19-sec-5",
+    "type": "CONCEPT",
+    "title": "4. The 10 Official Agro-Climatic Zones of Rajasthan (ICAR / State Directorate of Agriculture)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-19",
+    "description": "Under the Indian Council of Agricultural Research (ICAR) and the State Department of Agriculture, Rajasthan is demarcated into Ten Distinct Agro-Climatic Zones (कृषि जलवायु खंड):\n\n\n┌───────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "Chapter 19: Climate, Agro-Climatic Zones & Weather Systems of Rajasthan",
+      "concept": "4. The 10 Official Agro-Climatic Zones of Rajasthan (ICAR / State Directorate of Agriculture)"
+    },
+    "badge": "365 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-20",
+    "type": "TOPIC",
+    "title": "CHAPTER 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+    "slug": "chapter-20",
+    "url": "/shelf-007/rajasthan/chapter-20",
+    "description": "Subject: Rajasthan Studies (Geography of Rajasthan)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज"
+    },
+    "badge": "9,865 words • 45 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-20-sec-2",
+    "type": "CONCEPT",
+    "title": "अपवाह तंत्र, नदी बेसिन एवं झीलें",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-20",
+    "description": "> Subject: Rajasthan Studies (Geography of Rajasthan)  \n> Paper: RPSC RAS Prelims & Mains Paper 1 (Unit II — Geography) • Sub-Inspector • Assistant Professor • CET  \n> Authoritative Treatise",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "अपवाह तंत्र, नदी बेसिन एवं झीलें"
+    },
+    "badge": "68 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-20-sec-3",
+    "type": "CONCEPT",
+    "title": "1. The Great Indian Watershed & Hydrographic Architecture of Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-20",
+    "description": "Rajasthan occupies 10.41% of India's total geographical area (3,42,239 sq km) and supports approximately 5.67% of the nation's human population and 10.6% of its livestock. However, its sha",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "1. The Great Indian Watershed & Hydrographic Architecture of Rajasthan"
+    },
+    "badge": "766 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-20-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Arabian Sea Drainage System (~17.4% of State Area)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-20",
+    "description": "text\n                              ARABIAN SEA DRAINAGE SYSTEM\n                                          │\n         ┌──────────────────┬─────────────┴─────────────┬──────────────────┐\n         ▼",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "2. Arabian Sea Drainage System (~17.4% of State Area)"
+    },
+    "badge": "1640 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-20-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Bay of Bengal Drainage System (~22.4% of State Area)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-20",
+    "description": "text\n                            BAY OF BENGAL DRAINAGE SYSTEM\n                                          │\n         ┌────────────────────────────────┴────────────────────────────────┐\n         ▼",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "3. Bay of Bengal Drainage System (~22.4% of State Area)"
+    },
+    "badge": "2005 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-21",
+    "type": "TOPIC",
+    "title": "CHAPTER 21: WATER INFRASTRUCTURE, MAJOR CANALS & IRRIGATION PROJECTS OF RAJASTHAN",
+    "slug": "chapter-21",
+    "url": "/shelf-007/rajasthan/chapter-21",
+    "description": "Subject: Rajasthan Studies (Geography & Economy of Rajasthan)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज"
+    },
+    "badge": "5,789 words • 27 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-21-sec-2",
+    "type": "CONCEPT",
+    "title": "जल अवसंरचना, प्रमुख नहरें, बहुउद्देशीय सिंचाई परियोजनाएं एवं पारंपरिक जल संरक्षण तंत्र",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-21",
+    "description": "> Subject: Rajasthan Studies (Geography & Economy of Rajasthan)  \n> Paper: RPSC RAS Prelims & Mains Paper 1 (Unit II — Geography) • Mains Paper 1 (Unit II — Economy) • Mains Paper 3 • WRD & Su",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 21: WATER INFRASTRUCTURE, MAJOR CANALS & IRRIGATION PROJECTS OF RAJASTHAN",
+      "concept": "जल अवसंरचना, प्रमुख नहरें, बहुउद्देशीय सिंचाई परियोजनाएं एवं पारंपरिक जल संरक्षण तंत्र"
+    },
+    "badge": "85 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-21-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Macro Water Profile & Irrigation Infrastructure of Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-21",
+    "description": "Rajasthan is the most water-stressed state in the Republic of India. While it spans 10.41% of the country's landmass and supports 5.67% of its human population and 10.6% of its livestock,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 21: WATER INFRASTRUCTURE, MAJOR CANALS & IRRIGATION PROJECTS OF RAJASTHAN",
+      "concept": "1. Macro Water Profile & Irrigation Infrastructure of Rajasthan"
+    },
+    "badge": "460 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-21-sec-4",
+    "type": "CONCEPT",
+    "title": "2. The Indira Gandhi Canal Project (IGNP / राजस्थान नहर)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-21",
+    "description": "The Indira Gandhi Nahar Pariyojana (IGNP) is the largest irrigation canal project in the world, conceived to transform the barren, wind-swept sands of the Great Indian Thar Desert into a lush agri",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 21: WATER INFRASTRUCTURE, MAJOR CANALS & IRRIGATION PROJECTS OF RAJASTHAN",
+      "concept": "2. The Indira Gandhi Canal Project (IGNP / राजस्थान नहर)"
+    },
+    "badge": "1411 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-21-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Eastern Rajasthan Canal Project (ERCP / Modified PKC-ERCP Link)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-21",
+    "description": "The Eastern Rajasthan Canal Project (ERCP) is the most ambitious inter-basin water transfer project planned in the post-independence history of Rajasthan, designed to address the severe drinking and i",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 21: WATER INFRASTRUCTURE, MAJOR CANALS & IRRIGATION PROJECTS OF RAJASTHAN",
+      "concept": "3. Eastern Rajasthan Canal Project (ERCP / Modified PKC-ERCP Link)"
+    },
+    "badge": "433 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-22",
+    "type": "TOPIC",
+    "title": "CHAPTER 22: SOILS OF RAJASTHAN, FOREST RESOURCES & WILDLIFE CONSERVATION",
+    "slug": "chapter-22",
+    "url": "/shelf-007/rajasthan/chapter-22",
+    "description": "Subject: Rajasthan Studies (Geography & Ecology of Rajasthan)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज"
+    },
+    "badge": "5,513 words • 26 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-22-sec-2",
+    "type": "CONCEPT",
+    "title": "राजस्थान की मृदाएं, वन संसाधन, वन्यजीव अभयारण्य, राष्ट्रीय उद्यान एवं बाघ परियोजनाएं",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-22",
+    "description": "> Subject: Rajasthan Studies (Geography & Ecology of Rajasthan)  \n> Paper: RPSC RAS Prelims & Mains Paper 1 (Unit II — Geography) • Forest Services (ACF / FRO) • Sub-Inspector • Assistant Prof",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 22: SOILS OF RAJASTHAN, FOREST RESOURCES & WILDLIFE CONSERVATION",
+      "concept": "राजस्थान की मृदाएं, वन संसाधन, वन्यजीव अभयारण्य, राष्ट्रीय उद्यान एवं बाघ परियोजनाएं"
+    },
+    "badge": "77 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-22-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Soils of Rajasthan: Scientific Taxonomy & Morphological Profiles",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-22",
+    "description": "Soil is the foundational pedological skin of Rajasthan's agricultural economy. Due to acute variations in geological parent rock, precipitation gradients (from $<10\\text{ cm}$ in Jaisalmer to $>100\\te",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 22: SOILS OF RAJASTHAN, FOREST RESOURCES & WILDLIFE CONSERVATION",
+      "concept": "1. Soils of Rajasthan: Scientific Taxonomy & Morphological Profiles"
+    },
+    "badge": "915 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-22-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Forest Resources of Rajasthan (ISFR Analysis & Administrative Classification)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-22",
+    "description": "text\n                              RAJASTHAN FOREST REGIME AT A GLANCE\n                              ───────────────────────────────────\n      Total Geographical Area:           3,42,239 sq km",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 22: SOILS OF RAJASTHAN, FOREST RESOURCES & WILDLIFE CONSERVATION",
+      "concept": "2. Forest Resources of Rajasthan (ISFR Analysis & Administrative Classification)"
+    },
+    "badge": "723 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-22-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Natural Vegetation Types of Rajasthan (Champion & Seth Classification)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-22",
+    "description": "text\n                            FOREST VEGETATION CLASSIFICATION\n                                           │\n         ┌──────────────────┬──────────────┴──────────────┬──────────────────┐",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 22: SOILS OF RAJASTHAN, FOREST RESOURCES & WILDLIFE CONSERVATION",
+      "concept": "3. Natural Vegetation Types of Rajasthan (Champion & Seth Classification)"
+    },
+    "badge": "548 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-23",
+    "type": "TOPIC",
+    "title": "CHAPTER 23: MINERAL WEALTH, HYDROCARBONS & RENEWABLE ENERGY OF RAJASTHAN",
+    "slug": "chapter-23",
+    "url": "/shelf-007/rajasthan/chapter-23",
+    "description": "Subject: Rajasthan Studies (Geography & Economy of Rajasthan)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "भू-आकृतिक प्रदेश, अपवाह तंत्र, नहरें, वन, वन्यजीव एवं खनिज"
+    },
+    "badge": "4,022 words • 19 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-23-sec-2",
+    "type": "CONCEPT",
+    "title": "राजस्थान की खनिज संपदा, हाइड्रोकार्बन एवं नवीकरणीय ऊर्जा संसाधन",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-23",
+    "description": "> Subject: Rajasthan Studies (Geography & Economy of Rajasthan)  \n> Paper: RPSC RAS Prelims & Mains Paper 1 (Unit II — Geography & Economy) • Mines & Geology Department • Energy Department • A",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 23: MINERAL WEALTH, HYDROCARBONS & RENEWABLE ENERGY OF RAJASTHAN",
+      "concept": "राजस्थान की खनिज संपदा, हाइड्रोकार्बन एवं नवीकरणीय ऊर्जा संसाधन"
+    },
+    "badge": "85 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-23-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Macro Mineral Architecture: \"The Museum of Minerals\" (*खनिजों का अजायबघर*)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-23",
+    "description": "Rajasthan's complex poly-cyclic geological evolution—ranging from Archaean basement granites (Banded Gneissic Complex), Pre-Cambrian Aravalli and Delhi Supergroups, to Mesozoic-Tertiary marine sedimen",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 23: MINERAL WEALTH, HYDROCARBONS & RENEWABLE ENERGY OF RAJASTHAN",
+      "concept": "1. Macro Mineral Architecture: \"The Museum of Minerals\" (*खनिजों का अजायबघर*)"
+    },
+    "badge": "396 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-23-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Metallic Minerals: Geology, Belts & Mining Hubs",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-23",
+    "description": "text\n                               METALLIC MINERAL RESERVES\n                                           │\n         ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n         ▼",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 23: MINERAL WEALTH, HYDROCARBONS & RENEWABLE ENERGY OF RAJASTHAN",
+      "concept": "2. Metallic Minerals: Geology, Belts & Mining Hubs"
+    },
+    "badge": "656 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-23-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Non-Metallic Minerals & Industrial Rocks",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-23",
+    "description": "text\n                             NON-METALLIC WEALTH OF RAJASTHAN\n                                             │\n         ┌──────────────────┬────────────────┼────────────────┬──────────────────┐",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 23: MINERAL WEALTH, HYDROCARBONS & RENEWABLE ENERGY OF RAJASTHAN",
+      "concept": "3. Non-Metallic Minerals & Industrial Rocks"
+    },
+    "badge": "289 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-24",
+    "type": "TOPIC",
+    "title": "CHAPTER 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE OF RAJASTHAN",
+    "slug": "chapter-24",
+    "url": "/shelf-007/rajasthan/chapter-24",
+    "description": "Subject: Rajasthan Studies (Polity & Governance of Rajasthan)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय"
+    },
+    "badge": "4,475 words • 21 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-24-sec-2",
+    "type": "CONCEPT",
+    "title": "राजस्थान की संवैधानिक कार्यपालिका एवं विधान सभा",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-24",
+    "description": "> Subject: Rajasthan Studies (Polity & Governance of Rajasthan)  \n> Paper: RPSC RAS Prelims & Mains Paper 3 (Unit I — Indian Political System, World Politics & Current Affairs: State Politics",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE OF RAJASTHAN",
+      "concept": "राजस्थान की संवैधानिक कार्यपालिका एवं विधान सभा"
+    },
+    "badge": "79 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-24-sec-3",
+    "type": "CONCEPT",
+    "title": "1. The Governor of Rajasthan (*राज्यपाल* — Articles 153 to 161)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-24",
+    "description": "The Governor occupies the dual constitutional status of being the Constitutional / De Jure Head of the State (संवैधानिक प्रमुख) and the Representative / Agent of the Union Government (केंद्",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE OF RAJASTHAN",
+      "concept": "1. The Governor of Rajasthan (*राज्यपाल* — Articles 153 to 161)"
+    },
+    "badge": "1366 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-24-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Chief Minister & Council of Ministers (*मुख्यमंत्री एवं मंत्रिपरिषद*)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-24",
+    "description": "Under Article 163 and 164 of the Constitution, the Chief Minister is the De Facto / Real Executive Head (वास्तविक कार्यपालिका प्रमुख) of the State Government.\n\ntext",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE OF RAJASTHAN",
+      "concept": "2. Chief Minister & Council of Ministers (*मुख्यमंत्री एवं मंत्रिपरिषद*)"
+    },
+    "badge": "1022 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-24-sec-5",
+    "type": "CONCEPT",
+    "title": "3. The Rajasthan Legislative Assembly (*राजस्थान विधान सभा*)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-24",
+    "description": "The legislature of Rajasthan is Unicameral (एकसदनीय विधानमंडल), consisting of the Governor and the Legislative Assembly (विधान सभा) under Article 168.\n\ntext",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE OF RAJASTHAN",
+      "concept": "3. The Rajasthan Legislative Assembly (*राजस्थान विधान सभा*)"
+    },
+    "badge": "597 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-25",
+    "type": "TOPIC",
+    "title": "CHAPTER 25: STATE JUDICIAL ARCHITECTURE: RAJASTHAN HIGH COURT & SUBORDINATE COURTS",
+    "slug": "chapter-25",
+    "url": "/shelf-007/rajasthan/chapter-25",
+    "description": "Subject: Rajasthan Studies (Polity & Governance of Rajasthan)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय"
+    },
+    "badge": "4,154 words • 19 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-25-sec-2",
+    "type": "CONCEPT",
+    "title": "राजस्थान की न्यायिक व्यवस्था: उच्च न्यायालय एवं अधीनस्थ न्यायपालिका",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-25",
+    "description": "> Subject: Rajasthan Studies (Polity & Governance of Rajasthan)  \n> Paper: RPSC RAS Prelims & Mains Paper 3 (Unit I — Indian Political System: Judiciary & State Politics) • Rajasthan Judicial",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 25: STATE JUDICIAL ARCHITECTURE: RAJASTHAN HIGH COURT & SUBORDINATE COURTS",
+      "concept": "राजस्थान की न्यायिक व्यवस्था: उच्च न्यायालय एवं अधीनस्थ न्यायपालिका"
+    },
+    "badge": "88 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-25-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Constitutional Framework of the State Judiciary (Articles 214 to 231)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-25",
+    "description": "India possesses a Single, Unified, Integrated Judicial System (एकीकृत न्यायपालिका). Unlike the federal structure of the United States (where dual courts enforce separate federal and state laws),",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 25: STATE JUDICIAL ARCHITECTURE: RAJASTHAN HIGH COURT & SUBORDINATE COURTS",
+      "concept": "1. Constitutional Framework of the State Judiciary (Articles 214 to 231)"
+    },
+    "badge": "482 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-25-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Institutional Genesis & Evolution of the Rajasthan High Court",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-25",
+    "description": "Prior to the integration of Rajasthan, each major princely state had its independent judicial organ—the Chief Court of Jaipur, the High Court of Jodhpur, the High Court of Bikaner, the I",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 25: STATE JUDICIAL ARCHITECTURE: RAJASTHAN HIGH COURT & SUBORDINATE COURTS",
+      "concept": "2. Institutional Genesis & Evolution of the Rajasthan High Court"
+    },
+    "badge": "637 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-25-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Exhaustive Roster & Landmarks of Chief Justices",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-25",
+    "description": "text\n========================================================================================================================\n                                     HISTORIC CHIEF JUSTICES OF RAJASTH",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 25: STATE JUDICIAL ARCHITECTURE: RAJASTHAN HIGH COURT & SUBORDINATE COURTS",
+      "concept": "3. Exhaustive Roster & Landmarks of Chief Justices"
+    },
+    "badge": "252 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-26",
+    "type": "TOPIC",
+    "title": "CHAPTER 26: Constitutional & Statutory Bodies of Rajasthan",
+    "slug": "chapter-26",
+    "url": "/shelf-007/rajasthan/chapter-26",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय"
+    },
+    "badge": "6,811 words • 31 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-26-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Architectural Taxonomy of State Accountability & Regulatory Bodies",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-26",
+    "description": "In the constitutional and administrative matrix of Rajasthan, public administration is held to account, regulated, and staffed by a dual tier of institutions:\n1. Constitutional Bodies: Conceived d",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "1. Architectural Taxonomy of State Accountability & Regulatory Bodies"
+    },
+    "badge": "180 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-26-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Rajasthan Public Service Commission (RPSC)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-26",
+    "description": "2.1 Genesis and Historical Evolution\nPrior to the integration of Rajputana into Rajasthan, only three princely states possessed their own institutional public service commissions: Jodhpur (1939)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "2. Rajasthan Public Service Commission (RPSC)"
+    },
+    "badge": "1257 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-26-sec-4",
+    "type": "CONCEPT",
+    "title": "3. State Election Commission (SEC) Rajasthan",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-26",
+    "description": "3.1 Constitutional Architecture (Articles 243K & 243ZA)\nPrior to 1992, elections to local bodies in Rajasthan were conducted by the Panchayat & Development Department under executive instructions,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "3. State Election Commission (SEC) Rajasthan"
+    },
+    "badge": "754 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-26-sec-5",
+    "type": "CONCEPT",
+    "title": "4. State Finance Commission (SFC) Rajasthan",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-26",
+    "description": "4.1 Constitutional Mandate (Articles 243-I & 243-Y)\n- Article 243-I: Mandates that the Governor of a State shall, within one year from the commencement of the 73rd Amendment Act, 1992, and the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "4. State Finance Commission (SFC) Rajasthan"
+    },
+    "badge": "372 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-27",
+    "type": "TOPIC",
+    "title": "CHAPTER 27: State Administration, District & Revenue Architecture of Rajasthan",
+    "slug": "chapter-27",
+    "url": "/shelf-007/rajasthan/chapter-27",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय"
+    },
+    "badge": "4,248 words • 20 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-27-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Architectural Taxonomy of State Administration",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-27",
+    "description": "The administrative machinery of Rajasthan operates on a hierarchical, delegated functional model designed to translate democratic political mandates into bureaucratic action and grassroots delivery. T",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "1. Architectural Taxonomy of State Administration"
+    },
+    "badge": "158 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-27-sec-3",
+    "type": "CONCEPT",
+    "title": "2. State Secretariat (Shasan Sachivalaya)",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-27",
+    "description": "2.1 Genesis and Constitutional Framework\n- Establishment: Following the integration of the princely states, the Rajasthan State Secretariat was established in April 1949 at Jaipur (ini",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "2. State Secretariat (Shasan Sachivalaya)"
+    },
+    "badge": "361 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-27-sec-4",
+    "type": "CONCEPT",
+    "title": "3. The Chief Secretary (Mukhya Sachiv)",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-27",
+    "description": "3.1 Genesis, Status, and Prime Role\n- The office of the Chief Secretary in India was created in 1799 by Lord Wellesley during the British Raj (first Chief Secretary of India: G.H. Barlow).",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "3. The Chief Secretary (Mukhya Sachiv)"
+    },
+    "badge": "509 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-27-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Divisional Administration (Sambhag)",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-27",
+    "description": "4.1 Historical Genesis and Structural Reversals\n- The Divisional Commissioner system in India was initiated by Lord William Bentinck in 1829 (Bengal Regulation I of 1829) to bridge the sup",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "4. Divisional Administration (Sambhag)"
+    },
+    "badge": "473 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-28",
+    "type": "TOPIC",
+    "title": "CHAPTER 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+    "slug": "chapter-28",
+    "url": "/shelf-007/rajasthan/chapter-28",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय"
+    },
+    "badge": "4,411 words • 21 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-28-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Historical Evolution of Local Self-Government in Rajasthan",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-28",
+    "description": "1.1 Pre-Independence Traditions and Princely Enactments\nLocal self-governing village communities have deep civilizational roots in Rajasthan, functioning through informal village caste and elder c",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "1. Historical Evolution of Local Self-Government in Rajasthan"
+    },
+    "badge": "310 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-28-sec-3",
+    "type": "CONCEPT",
+    "title": "2. State-Level Committees on Panchayati Raj in Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-28",
+    "description": "Between 1959 and the 73rd Constitutional Amendment, Rajasthan appointed five major expert committees to diagnose operational dysfunctions, administrative bottlenecks, and financial starvation of PRIs:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "2. State-Level Committees on Panchayati Raj in Rajasthan"
+    },
+    "badge": "312 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-28-sec-4",
+    "type": "CONCEPT",
+    "title": "3. The 73rd Constitutional Amendment & Rajasthan Panchayati Raj Act, 1994",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-28",
+    "description": "3.1 Constitutional Architecture (Part IX & Eleventh Schedule)\n- The 73rd Constitutional Amendment Act, 1992 inserted:\n  - Part IX (Articles 243 to 243-O).\n  - Eleventh Schedule: Enlist",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "3. The 73rd Constitutional Amendment & Rajasthan Panchayati Raj Act, 1994"
+    },
+    "badge": "239 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-28-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Three-Tier Structural Hierarchy of PRIs in Rajasthan",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-28",
+    "description": "THREE-TIER PANCHAYATI RAJ MATRIX IN RAJASTHAN\n                                          │\n       ┌──────────────────────────────────┼──────────────────────────────────┐",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "4. Three-Tier Structural Hierarchy of PRIs in Rajasthan"
+    },
+    "badge": "729 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-chapter-29",
+    "type": "TOPIC",
+    "title": "CHAPTER 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+    "slug": "chapter-29",
+    "url": "/shelf-007/rajasthan/chapter-29",
+    "description": "Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "राजनीतिक एवं प्रशासनिक व्यवस्था: कार्यपालिका, न्यायपालिका व निकाय"
+    },
+    "badge": "3,614 words • 17 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-29-sec-2",
+    "type": "CONCEPT",
+    "title": "1. The Theoretical & Constitutional Matrix of Good Governance",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/chapter-29",
+    "description": "1.1 The Concept of Good Governance (सुशासन)\nIn modern public administration, the shift from traditional, bureaucratic \"rule-bound administration\" to \"Citizen-Centric Good Governance\" was codified",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "1. The Theoretical & Constitutional Matrix of Good Governance"
+    },
+    "badge": "285 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-29-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Pioneer Statutory Public Service Enactments of Rajasthan",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/chapter-29",
+    "description": "Rajasthan occupies a sovereign, historic position in South Asia as a crucible of citizen accountability legislation, transforming bureaucratic discretion into enforceable legal rights.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "2. Pioneer Statutory Public Service Enactments of Rajasthan"
+    },
+    "badge": "115 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-29-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Rajasthan Guaranteed Delivery of Public Services Act, 2011",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/chapter-29",
+    "description": "3.1 Genesis, Enactment, and Significance\n- The Rajasthan Legislative Assembly enacted the Rajasthan Guaranteed Delivery of Public Services Act, 2011 (राजस्थान लोक सेवाओं के प्रदान की गारंटी अधिन",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "3. Rajasthan Guaranteed Delivery of Public Services Act, 2011"
+    },
+    "badge": "388 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-chapter-29-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Rajasthan Right to Hearing Act, 2012",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/chapter-29",
+    "description": "4.1 Historical Precedence: First in India\n- Passed by the Rajasthan Legislative Assembly as the Rajasthan Right to Hearing Act, 2012 (राजस्थान सुनवाई का अधिकार अधिनियम, 2012) (Act No. 22 of 20",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "CHAPTER 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "4. Rajasthan Right to Hearing Act, 2012"
+    },
+    "badge": "421 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-01",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 01: PREHISTORIC SITES, ARCHAEOLOGY & EPIGRAPHY",
+    "slug": "rev-chapter-01",
+    "url": "/shelf-007/rajasthan/rev-chapter-01",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "792 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-01-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-01",
+    "description": "text\n[LOWER PALEOLITHIC: Hackett 1870 (Jaipur/Indragarh Handaxe) ➔ Jayal-Didwana 16R Gravels (390k BP)]\n                             │\n[MESOLITHIC DAWN: Bagor (Kothari River, V.N. Misra) ➔ Earliest",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 01: PREHISTORIC SITES, ARCHAEOLOGY & EPIGRAPHY",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "121 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-01-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Site & Inscription Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-01",
+    "description": "| Landmark / Antiquity | Exact Site Locator | Modern Reorganized District | Key Archaeological Archaeologist | Core Significance |\n| :--- | :--- | :--- | :--- | :--- |\n| Earliest Animal Husbandry",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 01: PREHISTORIC SITES, ARCHAEOLOGY & EPIGRAPHY",
+      "concept": "2. Master Site & Inscription Invariants Grid"
+    },
+    "badge": "289 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-01-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-01",
+    "description": "1. Ganeshwar District: Now in Neem Ka Thana, NOT Sikar.\n2. Bairat District: Now in Kotputli-Behror, NOT Jaipur.\n3. Tilwara District: Now in Balotra, NOT Barmer.\n4. Kiln-Fired",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 01: PREHISTORIC SITES, ARCHAEOLOGY & EPIGRAPHY",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "142 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-01-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-01",
+    "description": "text\n┌────────────────────────────────────────────────────────────────────────┐\n│ FLASHCARD 1                                                            │\n│ Q: Which inscription first revealed the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 01: PREHISTORIC SITES, ARCHAEOLOGY & EPIGRAPHY",
+      "concept": "4. Diagnostic Active Recall Flashcards"
+    },
+    "badge": "168 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-02",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 02: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+    "slug": "rev-chapter-02",
+    "url": "/shelf-007/rajasthan/rev-chapter-02",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "779 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-02-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-02",
+    "description": "text\n[MANDORE PRATIHARAS: Harishchandra 6th C. ➔ Rajjil ➔ Bauka (837 CE) ➔ Kakkuka (861 CE, Ghatiyala Inscription)]\n                                   │\n[IMPERIAL PRATIHARAS: Nagabhata I (Bhinmal,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 02: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "137 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-02-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Dynastic Invariants & Battlefield Matrix",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-02",
+    "description": "| Dynasty / Branch | Foundational Sovereign | Paramount Monarch | Capital & Citadel | Key Sāka / Historical Turning Point |\n| :--- | :--- | :--- | :--- | :--- |\n| Mandore Pratihara | Harishchandra",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 02: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "2. Dynastic Invariants & Battlefield Matrix"
+    },
+    "badge": "196 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-02-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-02",
+    "description": "1. Pratihara Imperial vs. Local Founder: Harishchandra founded Mandore; Nagabhata I founded the imperial Bhinmal-Kannauj branch.\n2. Arab Traveler Eras: Sulaiman visited Mihir Bhoja",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 02: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "180 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-02-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-02",
+    "description": "text\n┌────────────────────────────────────────────────────────────────────────┐\n│ FLASHCARD 1                                                            │\n│ Q: Which Pratihara inscription mentions",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 02: GURJARA-PRATIHARAS & CHAUHANS OF RAJASTHAN",
+      "concept": "4. Diagnostic Active Recall Flashcards"
+    },
+    "badge": "195 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-03",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 03: THE GUHILS & SISODIAS OF MEWAR",
+    "slug": "rev-chapter-03",
+    "url": "/shelf-007/rajasthan/rev-chapter-03",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "970 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-03-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-03",
+    "description": "text\n[GUHIL GENESIS: Guhaditya 566 CE ➔ Bappa Rawal 734 CE (Harit Rashi, Man Mori, Nagda, Eklingji, 115g Gold Coin)]\n                                    │\n[BUREAUCRACY & CAPITAL SHIFT: Allata 10th",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 03: THE GUHILS & SISODIAS OF MEWAR",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "186 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-03-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Sāka, Sovereign & Inscriptional Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-03",
+    "description": "| Landmark Event / Monument | Date & Location | Sovereign & Key Figures | Invader / Architect / Author | Core Historical Invariant |\n| :--- | :--- | :--- | :--- | :--- |\n| First Sāka of Chittor |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 03: THE GUHILS & SISODIAS OF MEWAR",
+      "concept": "2. Master Sāka, Sovereign & Inscriptional Invariants Grid"
+    },
+    "badge": "281 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-03-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-03",
+    "description": "1. Title \"Vishama Ghati Panchanan\": Conferred on Rana Hammir of Mewar (1326 CE) in the Kumbhalgarh Prashasti, NOT Hammiradeva of Ranthambore (1301 CE).\n2. First Capital of Mewar: Nagda",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 03: THE GUHILS & SISODIAS OF MEWAR",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "217 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-03-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-03",
+    "description": "text\n┌────────────────────────────────────────────────────────────────────────┐\n│ FLASHCARD 1                                                            │\n│ Q: Which inscription proves that Allata",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 03: THE GUHILS & SISODIAS OF MEWAR",
+      "concept": "4. Diagnostic Active Recall Flashcards"
+    },
+    "badge": "210 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-04",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 04: THE RATHORES OF MARWAR & BIKANER",
+    "slug": "rev-chapter-04",
+    "url": "/shelf-007/rajasthan/rev-chapter-04",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,283 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-04-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-04",
+    "description": "text\n[RATHORE GENESIS: Sanskrit Rashtrakuta ➔ Rao Siha (d. 1273 CE, Bithu Inscription with Rani Parvati, Pali-Khed)]\n                                    │\n[DEITY & CAPITAL: Rao Dhuhad (Nagnechi Mat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 04: THE RATHORES OF MARWAR & BIKANER",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "197 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-04-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Dynastic Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-04",
+    "description": "| Sovereign Ruler | House & Dates | Strategic Citadel & Capital | Landmark Military Encounter | Key Monument / Literary Work | Historic Title / Distinguishing Invariant |\n| :--- | :--- | :--- | :--- |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 04: THE RATHORES OF MARWAR & BIKANER",
+      "concept": "2. Master Dynastic Invariants Grid"
+    },
+    "badge": "453 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-04-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-04",
+    "description": "1. Epigraphic Foundation of Rao Siha: Rao Siha died in Bithu village (Pali) in 1273 CE, commemorated in the Bithu Inscription, NOT at Mandore or Jodhpur.\n2. Mehrangarh vs Bikaner Foundat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 04: THE RATHORES OF MARWAR & BIKANER",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "292 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-04-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-04",
+    "description": "Card 1\n- Q: What is the historical verdict uttered by Sher Shah Suri after the Battle of Giri-Sumel (1544 CE)?\n- A: \"For a mere handful of bajra (millet), I had almost lost the empire of",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 04: THE RATHORES OF MARWAR & BIKANER",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "271 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-05",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 05: THE KACHHWAHAS & ALLIED DYNASTIES",
+    "slug": "rev-chapter-05",
+    "url": "/shelf-007/rajasthan/rev-chapter-05",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,201 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-05-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-05",
+    "description": "text\n[KACHHWAHA GENESIS: Kusha / Suryavansh ➔ Dulherai 1137 CE (Dausa First Capital, Jamway Mata at Jamwa Ramgarh)]\n                                    │\n[AMBER CONQUEST & FEUDAL ORDER: Kakil Dev 1",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 05: THE KACHHWAHAS & ALLIED DYNASTIES",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "164 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-05-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Dynastic Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-05",
+    "description": "| Sovereign Ruler | House & Dates | Capital & Strongholds | Landmark Military / Diplomatic Clashes | Master Architectural / Literary Monument | Defining Historiographical Invariant |\n| :--- | :--- | :",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 05: THE KACHHWAHAS & ALLIED DYNASTIES",
+      "concept": "2. Master Dynastic Invariants Grid"
+    },
+    "badge": "426 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-05-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-05",
+    "description": "1. Kuldevi vs Ishta Devi of Jaipur Rulers: Jamway Mata is the dynastic Kuldevi; Shila Devi (installed in Amer Fort by Man Singh I from Jessore, Bengal) is the Ishta Devi.\n2. Firs",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 05: THE KACHHWAHAS & ALLIED DYNASTIES",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "259 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-05-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-05",
+    "description": "Card 1\n- Q: What are the 5 storeys of Hawa Mahal (top to bottom), and who was its chief architect?\n- A: Architect: Ustad Lal Chand (1799 CE). Storeys (top to bottom): (5) Hawa Mandir,",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 05: THE KACHHWAHAS & ALLIED DYNASTIES",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "283 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-06",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 06: BRITISH TREATIES OF 1818 & 1857 REVOLUTION",
+    "slug": "rev-chapter-06",
+    "url": "/shelf-007/rajasthan/rev-chapter-06",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,088 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-06-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-06",
+    "description": "text\n[1818 TREATIES: Lord Hastings & Charles Metcalfe ➔ Karauli 1st (9 Nov 1817) ➔ Sirohi 17th & Last (1823)]\n                                    │\n[TRIBUTE & AGENCY: Jaisalmer, Bikaner, Alwar Zero",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 06: BRITISH TREATIES OF 1818 & 1857 REVOLUTION",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "180 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-06-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master 1857 Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-06",
+    "description": "| Center / Domain | Exact Date | Revolutionary Leaders | British Casualties / Targets | Princely Ruler & Role | Defining Historic Invariant |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Karauli",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 06: BRITISH TREATIES OF 1818 & 1857 REVOLUTION",
+      "concept": "2. Master 1857 Invariants Grid"
+    },
+    "badge": "342 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-06-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-06",
+    "description": "1. First vs Last Treaty Sequence: Under Lord Hastings, Karauli signed first on 9 Nov 1817; Sirohi signed last on 11 Sept 1823 (delayed due to Jodhpur's false feudal claims).\n2. States Pa",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 06: BRITISH TREATIES OF 1818 & 1857 REVOLUTION",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "249 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-06-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-06",
+    "description": "Card 1\n- Q: What was the challenge thrown by Mohammad Ali Beg to British Colonel Abbott at Neemuch on 2 June 1857?\n- A: \"Did you British remain loyal to your oath when you annexed Awadh?",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 06: BRITISH TREATIES OF 1818 & 1857 REVOLUTION",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "246 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-07",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 07: PEASANT & AGRARIAN MOVEMENTS",
+    "slug": "rev-chapter-07",
+    "url": "/shelf-007/rajasthan/rev-chapter-07",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "882 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-07-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-07",
+    "description": "text\n[BIJOLIA (1897–1941, 44 YRS): First-grade Jagir ➔ Dhakar caste ➔ 84 Lāg-Bāgs ➔ Chanwari 1903 ➔ Talwar Bandhai 1906]\n                                    │\n[BIJOLIA PHASE 2 (1916–1923): Vijay Si",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 07: PEASANT & AGRARIAN MOVEMENTS",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "163 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-07-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Peasant Movement Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-07",
+    "description": "| Movement & Region | Duration | Dominant Community | Principal Leaders | Defining Taxes / Catalysts | Key Massacre & Historic Outcome |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Bijolia (Mewar)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 07: PEASANT & AGRARIAN MOVEMENTS",
+      "concept": "2. Master Peasant Movement Invariants Grid"
+    },
+    "badge": "229 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-07-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-07",
+    "description": "1. Founding Leader of Bijolia: Sadhu Sitaram Das founded Phase 1 (1897–1915). Vijay Singh Pathik joined only in 1916.\n2. Chanwari vs Talwar Bandhai Taxes:\n   - Chanwari (1903): Imp",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 07: PEASANT & AGRARIAN MOVEMENTS",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "230 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-07-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-07",
+    "description": "Card 1\n- Q: What was the \"Bolshevik Agreement\" in Rajasthan's peasant history?\n- A: A 1922 bilateral compromise signed between Rawat Anoop Singh of Bengu and the Rajasthan Seva Sangh a",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 07: PEASANT & AGRARIAN MOVEMENTS",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "191 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-08",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 08: TRIBAL AWAKENING MOVEMENTS",
+    "slug": "rev-chapter-08",
+    "url": "/shelf-007/rajasthan/rev-chapter-08",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "825 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-08-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-08",
+    "description": "text\n[BHAGAT MOVEMENT: Govind Guru (b. 1858 Bansia, Banjara) ➔ Dayanand Saraswati influence ➔ Samp Sabha 1883 at Sirohi]\n                                    │\n[MANGARH DHAM (17 NOV 1913): 1.5 lakh",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 08: TRIBAL AWAKENING MOVEMENTS",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "138 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-08-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Tribal Movement Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-08",
+    "description": "| Movement & Epoch | Dominant Tribal Group | Paramount Leaders | Core Ideology / Organizations | Landmark Site & Slogan | Key Massacre & Final Outcome |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 08: TRIBAL AWAKENING MOVEMENTS",
+      "concept": "2. Master Tribal Movement Invariants Grid"
+    },
+    "badge": "191 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-08-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-08",
+    "description": "1. Founding Place of Samp Sabha: Founded at Sirohi in 1883 CE, NOT at Dungarpur, Banswara, or Mangarh.\n2. Birthplace of Govind Guru: Born at Bansia / Bedsa village (Dungarpur) in a B",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 08: TRIBAL AWAKENING MOVEMENTS",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "207 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-08-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-08",
+    "description": "Card 1\n- Q: What does the word \"Samp\" mean in the context of Govind Guru’s Samp Sabha (1883)?\n- A: In the local dialect, 'Samp' (संप) signifies mutual love, fraternity, peaceful solidari",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 08: TRIBAL AWAKENING MOVEMENTS",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "221 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-09",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 09: PRAJAMANDAL MOVEMENTS & MODERN AWAKENING",
+    "slug": "rev-chapter-09",
+    "url": "/shelf-007/rajasthan/rev-chapter-09",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "972 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-09-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-09",
+    "description": "text\n[HARIPURA CONGRESS (1938): Subhas Chandra Bose presiding ➔ Congress endorses Prajamandals for Responsible Governance]\n                                    │\n[EXTERNAL FOUNDATIONS: Bikaner (1936",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 09: PRAJAMANDAL MOVEMENTS & MODERN AWAKENING",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "158 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-09-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Prajamandal Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-09",
+    "description": "| Prajamandal | Year | Paramount Founder / Leader | First President | Landmark Milestone / Defining Invariant | Key Adversary / Martyrdom |\n| :--- | :---: | :--- | :--- | :--- | :--- |\n| Jaipur |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 09: PRAJAMANDAL MOVEMENTS & MODERN AWAKENING",
+      "concept": "2. Master Prajamandal Invariants Grid"
+    },
+    "badge": "321 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-09-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-09",
+    "description": "1. First Prajamandal in Rajasthan: Jaipur Prajamandal (1931 CE) founded by Kapur Chand Patni, NOT Mewar (1938) or Marwar (1934).\n2. Prajamandals Founded Outside Their Territories:\n   - B",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 09: PRAJAMANDAL MOVEMENTS & MODERN AWAKENING",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "210 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-09-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-09",
+    "description": "Card 1\n- Q: What were the books authored by martyr Sagar Mal Gopa that exposed Jaisalmer’s princely administration?\n- A: Jaisalmer Ka Gundaraj, Azadi Ke Diwane, and Raghunath Singh Ka",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 09: PRAJAMANDAL MOVEMENTS & MODERN AWAKENING",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "214 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-10",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 10: THE UNIFICATION OF RAJASTHAN (1948–1956)",
+    "slug": "rev-chapter-10",
+    "url": "/shelf-007/rajasthan/rev-chapter-10",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "966 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-10-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-10",
+    "description": "text\n[PRE-INTEGRATION: 19 Princely States + 3 Thikanas (Kushalgarh, Lava, Neemrana) + 1 Cat 'C' (Ajmer-Merwara)]\n                                    │\n[ACCESSION: Bikaner 1st (7 Aug 1947, Sadul Sin",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 10: THE UNIFICATION OF RAJASTHAN (1948–1956)",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "211 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-10-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master 7-Stages Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-10",
+    "description": "| Stage  & Official Name | Date | Merged Units | Capital | Supreme Head (Rajpramukh) | Executive Head (Premier/CM) | Inaugurator |\n| :---: | :---: | :--- | :--- | :--- | :--- | :--- |\n| Stage 1: Ma",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 10: THE UNIFICATION OF RAJASTHAN (1948–1956)",
+      "concept": "2. Master 7-Stages Invariants Grid"
+    },
+    "badge": "280 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-10-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-10",
+    "description": "1. First vs Last State to Sign Accession: Bikaner signed first (7 Aug 1947); Dholpur signed last (14 Aug 1947).\n2. Nomenclature of Matsya Union: Suggested by K.M. Munshi, NOT Sarda",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 10: THE UNIFICATION OF RAJASTHAN (1948–1956)",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "199 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-10-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-10",
+    "description": "Card 1\n- Q: What was the \"Dhara Sabha\", and who was its Chief Minister?\n- A: The autonomous 30-member legislative assembly of the centrally administered Category 'C' territory of Ajmer-M",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 10: THE UNIFICATION OF RAJASTHAN (1948–1956)",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "207 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-11",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 11: FORT ARCHITECTURE OF RAJASTHAN",
+    "slug": "rev-chapter-11",
+    "url": "/shelf-007/rajasthan/rev-chapter-11",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,947 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-11-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-11",
+    "description": "text\n[CLASSIFICATION: Kautilya (4 Types: Audaka, Parvata, Dhanvana, Vana) ➔ Shukraniti (9 Types: Giri Supreme! \"Fort = Arms of King\")]\n                                    │\n[UNESCO HERITAGE (2013 P",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 11: FORT ARCHITECTURE OF RAJASTHAN",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "222 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-11-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Forts Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-11",
+    "description": "| Fort Name & Epithet | District (Updated) | Dynasty & Founder / Architect | Typology (Shukraniti) | Cardinal Landmarks & Water Bodies | Strategic Military Feats & Sākas |\n| :--- | :--- | :--- | :---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 11: FORT ARCHITECTURE OF RAJASTHAN",
+      "concept": "2. Master Forts Invariants Grid"
+    },
+    "badge": "849 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-11-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-11",
+    "description": "1. UNESCO Hill Forts Composition: Mehrangarh (Jodhpur) and Junagarh (Bikaner) are NOT part of the 6 UNESCO Hill Forts. Only Chittorgarh, Kumbhalgarh, Gagron, Jaisalmer, Ranthambore, and Ambe",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 11: FORT ARCHITECTURE OF RAJASTHAN",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "470 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-11-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-11",
+    "description": "Card 1\n- Q: What specific geographical and architectural features define Gagron Fort as Rajasthan's premier Jal Durg?\n- A: Situated in Jhalawar at the confluence of the Ahu and Kali Sind",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 11: FORT ARCHITECTURE OF RAJASTHAN",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "335 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-12",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 12: PALACES, HAVELIS, BAORIS, CHHATRIS & TEMPLES",
+    "slug": "rev-chapter-12",
+    "url": "/shelf-007/rajasthan/rev-chapter-12",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,417 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-12-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-12",
+    "description": "text\n[PALACES: City Palace Udaipur (\"Windsor of Rajasthan\", Udai Singh II) ➔ Hawa Mahal (1799, 5 storeys, 953 jharokhas, Lal Chand) ➔ Umaid Bhawan (Chittar stone, Lanchester, Akal Rahat)]",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 12: PALACES, HAVELIS, BAORIS, CHHATRIS & TEMPLES",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "150 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-12-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Architectural Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-12",
+    "description": "| Category & Monument | District Location | Patron Monarch / Founder | Architect / Master Craftsman | Structural Dimensions & Distinctive Highlights |\n| :--- | :--- | :--- | :--- | :--- |\n| City Pal",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 12: PALACES, HAVELIS, BAORIS, CHHATRIS & TEMPLES",
+      "concept": "2. Master Architectural Invariants Grid"
+    },
+    "badge": "568 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-12-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-12",
+    "description": "1. The Three \"Khajurahos\" of Rajasthan:\n   - \"Khajuraho of Rajasthan\": Kiradu Temples (Barmer) (Someshwara temple).\n   - \"Mini Khajuraho / Khajuraho of Hadoti\": Bhanddevara Temple (Ramga",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 12: PALACES, HAVELIS, BAORIS, CHHATRIS & TEMPLES",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "314 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-12-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-12",
+    "description": "Card 1\n- Q: What makes the engineering of the 1,444 pillars in Ranakpur Jain Temple historically unique?\n- A: Designed by architect Depaka in 1439 CE, every single one of the 1,444 p",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 12: PALACES, HAVELIS, BAORIS, CHHATRIS & TEMPLES",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "315 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-13",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 13: SCHOOLS OF RAJASTHANI PAINTING",
+    "slug": "rev-chapter-13",
+    "url": "/shelf-007/rajasthan/rev-chapter-13",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,229 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-13-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-13",
+    "description": "text\n[HISTORIOGRAPHY: Anand Coomaraswamy (1916 \"Rajput Painting\" = Rajasthani + Pahari) ➔ Rai Krishnadas (\"Rajasthani Chitrasheili\")]\n                                    │\n[MEWAR SCHOOL: Shravaka P",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 13: SCHOOLS OF RAJASTHANI PAINTING",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "144 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-13-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Painting Schools Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-13",
+    "description": "| School & Sub-style | Golden Age Monarch | Diagnostic Stylistic Signatures | Iconic Subject Matter & Masterpieces | Renowned Master Artists |\n| :--- | :--- | :--- | :--- | :--- |\n| Udaipur (Mewar)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 13: SCHOOLS OF RAJASTHANI PAINTING",
+      "concept": "2. Master Painting Schools Invariants Grid"
+    },
+    "badge": "504 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-13-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-13",
+    "description": "1. The Sahibdin vs Sahibram Distinction (Deadliest RPSC Trap!):\n   - Sahibdin: 17th-century master of Mewar (Udaipur) under Jagat Singh I (painted Ragamala, Gitagovinda, Arsha Ramayan",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 13: SCHOOLS OF RAJASTHANI PAINTING",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "235 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-13-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-13",
+    "description": "Card 1\n- Q: What was \"Chiteron ki Ovari\", who established it, and what was its popular local name?\n- A: An official royal art studio established in Udaipur City Palace by Maharana Jagat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 13: SCHOOLS OF RAJASTHANI PAINTING",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "276 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-14",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 14: FOLK PERFORMING ARTS: DANCES, DRAMA & MUSIC",
+    "slug": "rev-chapter-14",
+    "url": "/shelf-007/rajasthan/rev-chapter-14",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,284 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-14-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-14",
+    "description": "text\n[STATE ICONS: State Dance = Ghoomar (Soul / Sirmor, 8-beat Sawai footwork) ➔ State Instrument = Algoza (twin flutes, Ramnath Chaudhary)]\n                                    │\n[PROFESSIONAL DAN",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 14: FOLK PERFORMING ARTS: DANCES, DRAMA & MUSIC",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "181 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-14-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Performing Arts Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-14",
+    "description": "| Genre & Tradition | Primary Community / Region | Founder / Key Patron / Maestro | Structural Mechanism / Invariants | Iconic Highlights |\n| :--- | :--- | :--- | :--- | :--- |\n| Ghoomar Dance | R",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 14: FOLK PERFORMING ARTS: DANCES, DRAMA & MUSIC",
+      "concept": "2. Master Performing Arts Invariants Grid"
+    },
+    "badge": "527 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-14-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-14",
+    "description": "1. State Dance vs State Instrument:\n   - State Dance = Ghoomar (नृत्यों का सिरमौर).\n   - State Musical Instrument = Algoza (twin wooden flutes played simultaneously).\n2. The \"Seated\" D",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 14: FOLK PERFORMING ARTS: DANCES, DRAMA & MUSIC",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "250 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-14-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-14",
+    "description": "Card 1\n- Q: What specific feature makes the Valar dance unique among all tribal folk dances of Rajasthan?\n- A: It is performed completely without any musical instruments; dancers move",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 14: FOLK PERFORMING ARTS: DANCES, DRAMA & MUSIC",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "253 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-15",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 15: FOLK DEITIES, SAINTS & RELIGIOUS MOVEMENTS",
+    "slug": "rev-chapter-15",
+    "url": "/shelf-007/rajasthan/rev-chapter-15",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,420 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-15-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-15",
+    "description": "text\n[PANCHPIR DOHA: \"पाबू हड़बू रामदे, मांगलिया मेहा। पाँचू पीर पधारज्यौ, गोगाजी जेहा।\" (Tejaji & Devnarayan NOT in Panchpir!)]\n                                    │\n[PABU JI (Phalodi): Lakshmana",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 15: FOLK DEITIES, SAINTS & RELIGIOUS MOVEMENTS",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "206 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-15-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Deities & Saints Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-15",
+    "description": "| Deity / Saint | Birthplace & Era | Clan & Guru / Patron | Sacred Symbols, Vehicles & Relics | Sovereign Historic Feat & Primary Shrines |\n| :--- | :--- | :--- | :--- | :--- |\n| Pabu Ji | Koluman",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 15: FOLK DEITIES, SAINTS & RELIGIOUS MOVEMENTS",
+      "concept": "2. Master Deities & Saints Invariants Grid"
+    },
+    "badge": "577 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-15-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-15",
+    "description": "1. Panchpir Exclusion Trap: Veer Tejaji and Devnarayan Ji are beloved statewide, but they are NOT among the Panchpir! Only Pabu, Harbhu, Ramdev, Mehaji, and Goga are the Panchpir.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 15: FOLK DEITIES, SAINTS & RELIGIOUS MOVEMENTS",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "267 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-15-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-15",
+    "description": "Card 1\n- Q: What are the twin shrines of Goga Ji, and what historical event created them?\n- A: (1) Shirshmedi (Dadrewa, Churu), where his severed head fell while fighting; (2) Dhurme",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 15: FOLK DEITIES, SAINTS & RELIGIOUS MOVEMENTS",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "296 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-16",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 16: FAIRS, FESTIVALS, CUSTOMS, ORNAMENTS & LITERATURE",
+    "slug": "rev-chapter-16",
+    "url": "/shelf-007/rajasthan/rev-chapter-16",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,303 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-16-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-16",
+    "description": "text\n[PROVERB: \"तीज तेहवारां बावड़ी, ले डूबी गणगौर।\" (Cycle starts with Teej in monsoon, ends with Gangaur in spring)]\n                                    │\n[TEEJ: Chhoti / Hariyali (Shravan Shukla",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 16: FAIRS, FESTIVALS, CUSTOMS, ORNAMENTS & LITERATURE",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "202 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-16-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Cultural Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-16",
+    "description": "| Category & Domain | Primary Geographic Seat | Canonical Dates / Roster | Diagnostic Invariant / Hallmark Facts | Master Literature / Exemplars |\n| :--- | :--- | :--- | :--- | :--- |\n| Chhoti Teej",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 16: FAIRS, FESTIVALS, CUSTOMS, ORNAMENTS & LITERATURE",
+      "concept": "2. Master Cultural Invariants Grid"
+    },
+    "badge": "508 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-16-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-16",
+    "description": "1. Chhoti Teej vs Badi Teej Dates & Locations:\n   - Chhoti Teej (Hariyali Teej): Shravan Shukla Tritiya $\\rightarrow$ Celebrated in Jaipur.\n   - Badi Teej (Kajli / Satoodi Teej):",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 16: FAIRS, FESTIVALS, CUSTOMS, ORNAMENTS & LITERATURE",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "266 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-16-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-16",
+    "description": "Card 1\n- Q: What specific historical event led to the permanent discontinuation of public Gangaur processions in Bundi?\n- A: During Maharao Budh Singh’s reign, his brother Jodh Singh dro",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 16: FAIRS, FESTIVALS, CUSTOMS, ORNAMENTS & LITERATURE",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "254 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-17",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 17: TRADITIONAL HANDICRAFTS & GI TAGS OF RAJASTHAN",
+    "slug": "rev-chapter-17",
+    "url": "/shelf-007/rajasthan/rev-chapter-17",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,318 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-17-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-17",
+    "description": "text\n[THEWA ART (Pratapgarh, 1775): Samant Singh patron ➔ Nathu Ji Soni pioneer ➔ 24K gold on colored Belgian glass ➔ Secret family guild ➔ Mahesh Raj Soni (Padma Shri 2015)]",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 17: TRADITIONAL HANDICRAFTS & GI TAGS OF RAJASTHAN",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "186 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-17-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Handicrafts & GI Tags Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-17",
+    "description": "| Craft Tradition & Domain | Geographical Hub | Raw Materials & Ingredients | Historical Patron & Celebrated Maestro | Canonical Diagnostic Invariant |\n| :--- | :--- | :--- | :--- | :--- |\n| Thewa A",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 17: TRADITIONAL HANDICRAFTS & GI TAGS OF RAJASTHAN",
+      "concept": "2. Master Handicrafts & GI Tags Invariants Grid"
+    },
+    "badge": "538 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-17-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-17",
+    "description": "1. Blue Pottery Raw Material: Uses NO clay/mud; composed of quartz powder, glass cullet, Fuller's earth (Multani Mitti), gum, and sodium salt water (Sajji).\n2. Kripal Singh Shekhawat's I",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 17: TRADITIONAL HANDICRAFTS & GI TAGS OF RAJASTHAN",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "265 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-17-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-17",
+    "description": "Card 1\n- Q: What are the five ingredients of Jaipur Blue Pottery dough, and why is it unique?\n- A: Quartz powder, glass cullet, Multani mitti, natural gum, and sodium salt water (Sajji);",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 17: TRADITIONAL HANDICRAFTS & GI TAGS OF RAJASTHAN",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "249 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-18",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 18: MORPHOTECTONIC DIVISIONS OF RAJASTHAN",
+    "slug": "rev-chapter-18",
+    "url": "/shelf-007/rajasthan/rev-chapter-18",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "978 words • 5 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-18-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-18",
+    "description": "text\n[ORIGINS: Gondwanaland (Aravallis + Hadoti Plateau) vs Tethys Sea (Western Sandy Plain + Eastern Alluvial Plains)]\n                                    │\n[WESTERN SANDY PLAIN (61.11% area, 40%",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 18: MORPHOTECTONIC DIVISIONS OF RAJASTHAN",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "199 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-18-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Morphotectonic Divisions Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-18",
+    "description": "| Morphotectonic Division | Area % & Pop % | Geological Age & Ancestry | Diagnostic Relief, Boundaries & Peaks | Sub-Units & Signature Features |\n| :--- | :--- | :--- | :--- | :--- |\n| Western Sandy",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 18: MORPHOTECTONIC DIVISIONS OF RAJASTHAN",
+      "concept": "2. Master Morphotectonic Divisions Invariants Grid"
+    },
+    "badge": "235 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-18-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-18",
+    "description": "1. Gondwanaland vs Tethys Sea Dual Origin:\n   - Gondwanaland: Aravalli Range and Hadoti Plateau.\n   - Tethys Sea: Western Sandy Plain and Eastern Alluvial Plain.\n2. The I",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 18: MORPHOTECTONIC DIVISIONS OF RAJASTHAN",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "241 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-18-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-18",
+    "description": "Card 1\n- Q: What is the Bhorat Plateau, and what geographical landmark does it represent?\n- A: A high plateau (1,225 m) stretching between Kumbhalgarh (Rajsamand) and Gogunda (Udaipu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 18: MORPHOTECTONIC DIVISIONS OF RAJASTHAN",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "230 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-19",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 19: CLIMATE, WEATHER & AGRO-CLIMATIC ZONES OF RAJASTHAN",
+    "slug": "rev-chapter-19",
+    "url": "/shelf-007/rajasthan/rev-chapter-19",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,597 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-19-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-19",
+    "description": "text\n[CONTROLLING FACTORS: Subtropical latitude (23°03'N to 30°12'N) ➔ Tropic of Cancer in Banswara/Dungarpur ➔ Aravalli SW-NE strike ➔ Continentality]\n                                    │\n[MONSOO",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 19: CLIMATE, WEATHER & AGRO-CLIMATIC ZONES OF RAJASTHAN",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "241 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-19-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Climatic & Agro-Climatic Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-19",
+    "description": "A. Tripartite Scheme Comparison (General vs Köppen vs Thornthwaite)\n\n| Zone Category | General Scheme (Rainfall) | Köppen Code & Diagnostic Rep. District | Thornthwaite Code & Zone Name | Key Diag",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 19: CLIMATE, WEATHER & AGRO-CLIMATIC ZONES OF RAJASTHAN",
+      "concept": "2. Master Climatic & Agro-Climatic Invariants Grid"
+    },
+    "badge": "530 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-19-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-19",
+    "description": "1. Why Arabian Sea Monsoon Fails in Western Rajasthan:\n   - The Aravalli mountain axis lies parallel (SW to NE) to the incoming Arabian Sea monsoon winds.\n   - Hence, winds blow unhindered tow",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 19: CLIMATE, WEATHER & AGRO-CLIMATIC ZONES OF RAJASTHAN",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "379 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-19-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-19",
+    "description": "Card 1\n- Q: What are the four Köppen climate codes used for Rajasthan, and which single letter is the primary discriminator?\n- A: \n  - BWhw: Tropical desert arid climate (Jaisalmer, Bi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 19: CLIMATE, WEATHER & AGRO-CLIMATIC ZONES OF RAJASTHAN",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "371 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-20",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+    "slug": "rev-chapter-20",
+    "url": "/shelf-007/rajasthan/rev-chapter-20",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,618 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-20-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-20",
+    "description": "text\n[HYDROGRAPHIC DIVIDE: Aravallis act as Great Continental Divide ➔ State has only 1.16% surface water & 1.72% groundwater]\n                                         │\n[TRIPARTITE OUTFLOW REGIMES",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "393 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-20-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Drainage Systems & Lakes Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-20",
+    "description": "| Hydrological Unit | River / Lake Name | Origin / Exact Location | Terminal Sink / Outflow | Signature Features, Key Dams & Historical Sites |\n| :--- | :--- | :--- | :--- | :--- |\n| Arabian Sea |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "2. Master Drainage Systems & Lakes Invariants Grid"
+    },
+    "badge": "419 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-20-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-20",
+    "description": "1. Jojari River Uniqueness:\n   - The ONLY right-bank tributary of the Luni.\n   - The ONLY Luni tributary that does not originate from the Aravallis (originates in the flat plains of Pondlu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "378 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-20-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-20",
+    "description": "Card 1\n- Q: What are the three Triveni Sangams associated with the Banas River system?\n- A: \n  1. Bigod (Bhilwara): Banas + Bedach + Menal.\n  2. Rajmahal (Tonk/Kekri border): Banas",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 20: DRAINAGE SYSTEMS, RIVER BASINS & LAKES OF RAJASTHAN",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "350 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-21",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 21: WATER INFRASTRUCTURE, CANALS & IRRIGATION PROJECTS",
+    "slug": "rev-chapter-21",
+    "url": "/shelf-007/rajasthan/rev-chapter-21",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,571 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-21-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-21",
+    "description": "text\n[MACRO PROFILE: 10.41% land, 5.67% pop, BUT only 1.16% surface water & 1.72% groundwater ➔ State Water Policy 2010 (1st in India)]\n                                         │\n[IRRIGATION SOURCE",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 21: WATER INFRASTRUCTURE, CANALS & IRRIGATION PROJECTS",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "384 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-21-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Canals & Irrigation Projects Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-21",
+    "description": "| Project / System | Origin & Headworks | Trajectory & Length in Rajasthan | Beneficiary Districts (50-District Lens) | Signature Invariant Law & Distinction |\n| :--- | :--- | :--- | :--- | :--- |\n|",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 21: WATER INFRASTRUCTURE, CANALS & IRRIGATION PROJECTS",
+      "concept": "2. Master Canals & Irrigation Projects Invariants Grid"
+    },
+    "badge": "454 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-21-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-21",
+    "description": "1. IGNP Headworks vs Storage Dam:\n   - IGNP originates at the Harike Barrage (diversion weir at the confluence of Satluj and Beas in Punjab).\n   - It does NOT originate at Bhakra Dam (Bhak",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 21: WATER INFRASTRUCTURE, CANALS & IRRIGATION PROJECTS",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "309 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-21-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-21",
+    "description": "Card 1\n- Q: What is the structural difference between an IGNP Branch and an IGNP Lift Canal?\n- A: \n  - Branches (शाखाएं): Flow westward (Right Bank) by natural gravity because the",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 21: WATER INFRASTRUCTURE, CANALS & IRRIGATION PROJECTS",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "348 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-22",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 22: SOILS, FORESTS & WILDLIFE CONSERVATION",
+    "slug": "rev-chapter-22",
+    "url": "/shelf-007/rajasthan/rev-chapter-22",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,311 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-22-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-22",
+    "description": "text\n[USDA SOIL ORDERS]: \n • Entisols (MOST WIDESPREAD, Western desert sands) ➔ Aridisols (Arid soils with calcic/cambic horizon, Nagaur/Sikar/Jodhpur)\n ➔ Alfisols (HIGHEST FERTILITY alluvium, East",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 22: SOILS, FORESTS & WILDLIFE CONSERVATION",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "332 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-22-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Soils, Forests & Wildlife Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-22",
+    "description": "| Thematic Sphere | Specific Category / Unit | Core Geographical Region | Statistical / Legal Share | Diagnostic Invariant Fact |\n| :--- | :--- | :--- | :--- | :--- |\n| Soils | Entisols | West",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 22: SOILS, FORESTS & WILDLIFE CONSERVATION",
+      "concept": "2. Master Soils, Forests & Wildlife Invariants Grid"
+    },
+    "badge": "309 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-22-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-22",
+    "description": "1. Most Widespread Soil Order:\n   - Entisols is the most widespread soil order across Rajasthan, NOT Aridisols!\n2. Largest Legal Forest Category:\n   - Protected Forests (संरक्षित वन)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 22: SOILS, FORESTS & WILDLIFE CONSERVATION",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "267 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-22-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-22",
+    "description": "Card 1\n- Q: What are Vertisols, where are they found in Rajasthan, and why are they termed \"self-ploughing\"?\n- A: Vertisols are deep black clayey soils rich in montmorillonite clay, found",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 22: SOILS, FORESTS & WILDLIFE CONSERVATION",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "327 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-23",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 23: MINERAL WEALTH, HYDROCARBONS & ENERGY",
+    "slug": "rev-chapter-23",
+    "url": "/shelf-007/rajasthan/rev-chapter-23",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,282 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-23-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-23",
+    "description": "text\n[MUSEUM OF MINERALS: 81 varieties identified, 57 commercially mined; 1st in non-metallic minerals, 2nd in value after Odisha]\n                                         │\n[100% MONOPOLIES]: Woll",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 23: MINERAL WEALTH, HYDROCARBONS & ENERGY",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "347 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-23-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Minerals, Hydrocarbons & Energy Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-23",
+    "description": "| Mineral / Energy Asset | National Standing & Share | Primary Mining Locations (50-District Lens) | Key Invariant Facts & Economic Milestone |\n| :--- | :--- | :--- | :--- |\n| Wollastonite | 100",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 23: MINERAL WEALTH, HYDROCARBONS & ENERGY",
+      "concept": "2. Master Minerals, Hydrocarbons & Energy Invariants Grid"
+    },
+    "badge": "292 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-23-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-23",
+    "description": "1. Wollastonite & Jasper 100% Monopolies:\n   - Rajasthan is the 100% sole producer of Wollastonite (Belka Pahar, Sirohi) and Jasper (Jodhpur).\n2. World's Richest Zinc Mine:\n   - Rampura",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 23: MINERAL WEALTH, HYDROCARBONS & ENERGY",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "244 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-23-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-23",
+    "description": "Card 1\n- Q: What are the four Petroliferous Basins of Rajasthan, and how many districts do they span?\n- A: \n  1. Barmer-Sanchore Basin (Barmer, Balotra, Sanchore, Jalore — Mangala, Bha",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 23: MINERAL WEALTH, HYDROCARBONS & ENERGY",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "321 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-24",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE",
+    "slug": "rev-chapter-24",
+    "url": "/shelf-007/rajasthan/rev-chapter-24",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,249 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-24-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-24",
+    "description": "text\n[GOVERNOR (Art. 153-161)]: De Jure Head ➔ 7th Amendment 1956 abolished Rajpramukh (Sawai Man Singh II)\n • 1st Governor: Sardar Gurmukh Nihal Singh (LONGEST tenure, 5 yrs 5 mos)\n • 4 Died in of",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "351 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-24-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Executive & Legislature Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-24",
+    "description": "| Constitutional Institution | Apex Officer / Metric | Landmark Legal Invariant | Key Historical Event / Firsts |\n| :--- | :--- | :--- | :--- |\n| Governor | De Jure Head of State (Art. 153–161) |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE",
+      "concept": "2. Master Executive & Legislature Invariants Grid"
+    },
+    "badge": "259 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-24-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-24",
+    "description": "1. Size Limits on Council of Ministers:\n   - Maximum limit: 15% of Assembly (30 Ministers in Rajasthan) including the CM.\n   - Minimum floor: 12 Ministers (an absolute number under Article",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "272 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-24-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-24",
+    "description": "Card 1\n- Q: What are the numerical maximum and minimum limits for the Rajasthan Council of Ministers under Article 164(1A)?\n- A: \n  - Maximum: 30 Ministers (15% of 200 MLAs), inclu",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 24: CONSTITUTIONAL EXECUTIVE & LEGISLATURE",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "291 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-25",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 25: STATE JUDICIAL ARCHITECTURE",
+    "slug": "rev-chapter-25",
+    "url": "/shelf-007/rajasthan/rev-chapter-25",
+    "description": "Subject: Rajasthan Sovereign Master Codex (Shelf 007)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,327 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-25-sec-2",
+    "type": "CONCEPT",
+    "title": "1. 60-Second Concept Retrieval Skeleton",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-25",
+    "description": "text\n[CONSTITUTIONAL ARTICLES (Art. 214–231)]: High Court for each state ➔ Court of Record (Art. 215)\n • Appointment (Art. 217): President by warrant after consulting CJI, Governor, CJ of HC; Retir",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 25: STATE JUDICIAL ARCHITECTURE",
+      "concept": "1. 60-Second Concept Retrieval Skeleton"
+    },
+    "badge": "325 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-25-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Master Judiciary & High Court Invariants Grid",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-25",
+    "description": "| Judicial Institution / Rule | Statutory / Constitutional Authority | Geographic Seat / Jurisdiction | Key Invariant Facts & Singular Distinction |\n| :--- | :--- | :--- | :--- |\n| Rajasthan High Co",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 25: STATE JUDICIAL ARCHITECTURE",
+      "concept": "2. Master Judiciary & High Court Invariants Grid"
+    },
+    "badge": "289 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-25-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Top 10 Instant Killer Traps",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-25",
+    "description": "1. High Court Inauguration Date:\n   - Formally inaugurated on 29 August 1949 at Jodhpur, NOT on 26 January 1950!\n2. First Chief Justice vs First CJI from Rajasthan:\n   - First Chief Justic",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 25: STATE JUDICIAL ARCHITECTURE",
+      "concept": "3. Top 10 Instant Killer Traps"
+    },
+    "badge": "299 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-25-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Diagnostic Active-Recall Flashcards",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-25",
+    "description": "Card 1\n- Q: Trace the history of the Jaipur Bench of the Rajasthan High Court from 1949 to 1977.\n- A: Initially set up as a temporary circuit bench in 1949; abolished in 1958 on the recomm",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 25: STATE JUDICIAL ARCHITECTURE",
+      "concept": "4. Diagnostic Active-Recall Flashcards"
+    },
+    "badge": "343 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-26",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 26: Constitutional & Statutory Bodies of Rajasthan",
+    "slug": "rev-chapter-26",
+    "url": "/shelf-007/rajasthan/rev-chapter-26",
+    "description": "High-speed 60-second retrieval skeletons, distinction matrices, and diagnostic flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "1,143 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-26-sec-2",
+    "type": "CONCEPT",
+    "title": "1. High-Density Master Comparison Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-26",
+    "description": "| Parameter | RPSC | State Election Commission | State Finance Commission | State Human Rights Commission | State Information Commission | Lokayukta | State Women's Commission |\n|---|---|---|---|---|-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "1. High-Density Master Comparison Grid"
+    },
+    "badge": "496 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-26-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Institutional Chronology & Firsts Cheat-Sheet",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-26",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                          FIRSTS & NOTABLE LEADERS                           │\n├──────────────────────────────────┬",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "2. Institutional Chronology & Firsts Cheat-Sheet"
+    },
+    "badge": "257 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-26-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Yield RPSC Traps & Elimination Rules",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-26",
+    "description": "SELECTION COMMITTEE COMPARISONS\n                                     │\n           ┌─────────────────────────┴─────────────────────────┐\n           │",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "3. High-Yield RPSC Traps & Elimination Rules"
+    },
+    "badge": "241 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-26-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Rapid-Recall Acronyms & Mnemonics",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-26",
+    "description": "- RSHRC Selection Committee: \"C-H-S-L\"\n  - C = Chief Minister\n  - H = Home Minister\n  - S = Speaker of Vidhan Sabha\n  - L = Leader of Opposition\n- RSIC Selection Committee:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 26: Constitutional & Statutory Bodies of Rajasthan",
+      "concept": "4. Rapid-Recall Acronyms & Mnemonics"
+    },
+    "badge": "110 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-27",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 27: State Administration, District & Revenue Architecture of Rajasthan",
+    "slug": "rev-chapter-27",
+    "url": "/shelf-007/rajasthan/rev-chapter-27",
+    "description": "High-speed 60-second retrieval skeletons, distinction matrices, and diagnostic flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "868 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-27-sec-2",
+    "type": "CONCEPT",
+    "title": "1. High-Density Master Summary Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-27",
+    "description": "| Administrative Tier | Primary Authority | Cadre / Status | Primary Legal / Constitutional Basis | Apex Functions & Mandates |\n|---|---|---|---|---|\n| State Secretariat | Additional Chief Secreta",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "1. High-Density Master Summary Grid"
+    },
+    "badge": "368 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-27-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Institutional Milestones & Historical Record Holders",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-27",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                       CHIEF SECRETARIES IN RAJASTHAN                        │\n├──────────────────────────────────┬",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "2. Institutional Milestones & Historical Record Holders"
+    },
+    "badge": "121 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-27-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Divisional Administration Milestones Cheat-Sheet",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-27",
+    "description": "1949: 5 Divisions ──► Jaipur, Jodhpur, Bikaner, Udaipur, Kota\n          │\n  1962: ABOLISHED ────► Abolished by CM Mohan Lal Sukhadia (bureaucratic delay)\n          │\n  1987: REVIVED ──────► Revi",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "3. Divisional Administration Milestones Cheat-Sheet"
+    },
+    "badge": "80 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-27-sec-5",
+    "type": "CONCEPT",
+    "title": "4. High-Yield RPSC Traps & Revenue Distinctions",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-27",
+    "description": "1. Who Abolished and Who Revived Divisions?:\n   - Abolished in 1962 by Mohan Lal Sukhadia.\n   - Revived on 26 January 1987 by Harideo Joshi.\n   - 6th Division created in 1987: Aj",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 27: State Administration, District & Revenue Architecture of Rajasthan",
+      "concept": "4. High-Yield RPSC Traps & Revenue Distinctions"
+    },
+    "badge": "193 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-28",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+    "slug": "rev-chapter-28",
+    "url": "/shelf-007/rajasthan/rev-chapter-28",
+    "description": "High-speed 60-second retrieval skeletons, distinction matrices, and diagnostic flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "839 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-28-sec-2",
+    "type": "CONCEPT",
+    "title": "1. High-Density Master Summary Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-28",
+    "description": "| Governance Vector | Gram Panchayat (Tier 1) | Panchayat Samiti (Tier 2) | Zila Parishad (Tier 3) | Urban Local Bodies (ULBs) |\n|---|---|---|---|---|\n| Territorial Level | Village Cluster (Gram)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "1. High-Density Master Summary Grid"
+    },
+    "badge": "269 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-28-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Institutional Milestones & Historical Record Holders",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-28",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                       PANCHAYATI RAJ LANDMARKS IN RAJASTHAN                 │\n├──────────────────────────────────┬",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "2. Institutional Milestones & Historical Record Holders"
+    },
+    "badge": "212 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-28-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Yield RPSC Traps & Elimination Rules",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-28",
+    "description": "RESIGNATION HIERARCHY IN PRIs\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         │",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "3. High-Yield RPSC Traps & Elimination Rules"
+    },
+    "badge": "253 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-28-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Rapid-Recall Mnemonics",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-28",
+    "description": "- Chronology of State PRI Committees: \"M-S-V-K-K\"\n  - M = Mathur Committee (1963)\n  - S = Sadiq Ali Committee (1964)\n  - V = Vyas Committee (1973)\n  - K = Kharra Committee (199",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 28: Panchayati Raj & Urban Local Governance in Rajasthan",
+      "concept": "4. Rapid-Recall Mnemonics"
+    },
+    "badge": "65 words"
+  },
+  {
+    "id": "shelf007-ch-rajasthan-rev-chapter-29",
+    "type": "TOPIC",
+    "title": "RAPID REVISION MATRIX 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+    "slug": "rev-chapter-29",
+    "url": "/shelf-007/rajasthan/rev-chapter-29",
+    "description": "High-speed 60-second retrieval skeletons, distinction matrices, and diagnostic flashcards.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "High-Speed Recall Matrices & 60-Second Skeletons"
+    },
+    "badge": "837 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-29-sec-2",
+    "type": "CONCEPT",
+    "title": "1. High-Density Master Summary Grid",
+    "slug": "sec-2",
+    "url": "/shelf-007/rajasthan/rev-chapter-29",
+    "description": "| Accountability Tool | Governing Enactment / Platform | Launch Date | Core Mechanism / Feature | Procedural Timelines & Penal Sanctions |\n|---|---|---|---|---|\n| Public Services Guarantee | Rajas",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "1. High-Density Master Summary Grid"
+    },
+    "badge": "327 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-29-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Institutional Milestones & Historical Record Holders",
+    "slug": "sec-3",
+    "url": "/shelf-007/rajasthan/rev-chapter-29",
+    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                       GOOD GOVERNANCE FIRSTS IN RAJASTHAN                   │\n├──────────────────────────────────┬",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "2. Institutional Milestones & Historical Record Holders"
+    },
+    "badge": "161 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-29-sec-4",
+    "type": "CONCEPT",
+    "title": "3. High-Yield RPSC Traps & Elimination Rules",
+    "slug": "sec-4",
+    "url": "/shelf-007/rajasthan/rev-chapter-29",
+    "description": "SERVICE GUARANTEE (2011) vs. RIGHT TO HEARING (2012)\n                                                │\n           ┌────────────────────────────────────┴──────────────────────",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "3. High-Yield RPSC Traps & Elimination Rules"
+    },
+    "badge": "237 words"
+  },
+  {
+    "id": "shelf007-sec-rajasthan-rev-chapter-29-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Rapid-Recall Mnemonics",
+    "slug": "sec-5",
+    "url": "/shelf-007/rajasthan/rev-chapter-29",
+    "description": "- Sampark 181 Lifecycle: \"R-M-A-D-V\"\n  - R = Registration\n  - M = Moderation\n  - A = Allocation\n  - D = Disposal\n  - V = Verification & Feedback\n- Good Governance 8 Pilla",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)",
+      "topic": "RAPID REVISION MATRIX 29: Administrative Reforms, Citizen Charters & Good Governance Architecture",
+      "concept": "4. Rapid-Recall Mnemonics"
+    },
+    "badge": "72 words"
   }
 ];

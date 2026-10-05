@@ -278,7 +278,7 @@ To overcome the historical manufacturing deficit, India instituted structural su
 
 ## 🛡️ 4. Institutional Support Frameworks for MSMEs
 
-• **Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE):** Set up jointly by **Govt of India and SIDBI**. Provides credit guarantee cover up to **₹5 Crore** per borrower without collateral/third-party guarantee. Guarantee cover ranges from **75% to 85%** (higher for women, SC/ST, aspirational districts).
+• **Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE):** Set up jointly by **Govt of India and SIDBI**. Provides credit guarantee cover up to **₹10 Crore** per borrower without collateral/third-party guarantee. Guarantee cover ranges from **75% to 85%** (higher for women, SC/ST, aspirational districts, and up to 90% for micro ≤ ₹5 Lakh / Agniveers).
 • **Trade Receivables Discounting System (TReDS):** Electronic factoring platform regulated by RBI under PSS Act 2007. Connects MSME sellers, corporate/PSU/Govt buyers, and financiers for invoice discounting without recourse to MSME.
 • **Delayed Payments Mandate (MSMED Act 2006):** Buyer must make payment within agreed period (maximum **45 days**). Errant buyers are liable to pay **compound interest with monthly rests at 3 times the Bank Rate** notified by RBI.
 
@@ -416,7 +416,7 @@ In July 2022, RBI issued circular permitting **Invoicing, Payment, and Settlemen
 ## 🏦 4. New Multilateral Development Banks (MDBs)
 
 • **Asian Development Bank (ADB):** Founded in 1966; HQ in **Manila, Philippines**. Japan and USA are largest shareholders (15.6% each); India is 4th largest shareholder.
-• **New Development Bank (NDB / BRICS Bank):** Established in 2014 (Fortaleza Declaration); HQ in **Shanghai, China**. Equal voting rights initially among 5 BRICS nations.
+• **New Development Bank (NDB / BRICS Bank):** Established in 2014 (Fortaleza Declaration); HQ in **Shanghai, China**. Equal voting rights initially among 5 founding BRICS nations. Expanded to 10 member countries with **Uzbekistan joining as the 10th member on 5 June 2026** (Founding BRICS 5 + Bangladesh, UAE, Egypt, Algeria, Uzbekistan).
 • **Asian Infrastructure Investment Bank (AIIB):** Began operations in 2016; HQ in **Beijing, China**. China is largest shareholder (approx 26.6% voting power); **India is the 2nd largest shareholder (approx 7.6% voting power)**.
 
 > 🎯 **Exam Anchor & Trap:**
