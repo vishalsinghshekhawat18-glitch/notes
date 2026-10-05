@@ -26,11 +26,11 @@ export const EXACT_TOC_MAPPING_IIBF = [
   { ch: 19, start: 72, end: 75, pages: 4, title: "NBFCs Scale-Based Regulation, HFCs & Microfinance (MFIs)", sub: "SBR (Base, Middle, Upper, Top 10 Rule) • HFCs under RBI • Microfinance 2022 Directions (₹3L Cap, 0% Prepay)" },
   { ch: 20, start: 76, end: 79, pages: 4, title: "DFIs, NaBFID, Financial Inclusion & Digital Rails", sub: "DFI Evolution (IFCI, ICICI, IDBI) • NaBFID Act 2021 (₹20,000 Cr Capital) • PMJDY ₹10K OD • FI-Index • CBDC" },
   { ch: 21, start: 80, end: 84, pages: 5, title: "Money Market Architecture: Call, T-Bills, CP, CD & TREPS", sub: "Call/Notice/Term • T-Bills (91/182/364D) • CP ₹5L • CD ₹5L (RBI CD Directions) • TREPS CCIL • BRDS & TLTRO" },
-  { ch: 22, start: 85, end: 89, pages: 5, title: "Capital Markets, Stock Exchanges, G-Secs & Bond Yields", sub: "Primary & Secondary • ASBA & T+1 • G-Secs Yield Dynamics • Modified Duration • FIMMDA MTM • Retail Direct" },
+  { ch: 22, start: 85, end: 89, pages: 5, title: "Capital Markets, Stock Exchanges, G-Secs & Bond Yields", sub: "Primary & Secondary • ASBA & T+1 • G-Secs Yield Dynamics • Modified Duration • FBIL valuation + FIMMDA conventions / market practices • Retail Direct" },
   { ch: 23, start: 90, end: 94, pages: 5, title: "Financial Derivatives, Forex, FEMA & NRI Accounts", sub: "Options Greeks • CDS ISDA • Spot T+2 • NRE Tax-Free Repatriable • NRO $1M Cap Taxable • FCNR(B) Zero FX Risk" },
-  { ch: 24, start: 95, end: 99, pages: 5, title: "Financial Market Interconnectedness & Merchant Banking", sub: "Treasury 4 Desks • Contagion Spillover • SEBI MB Regs 1992 (4 Cats, Cat I ₹5 Cr NW, Prohibitions)" },
+  { ch: 24, start: 95, end: 99, pages: 5, title: "Financial Market Interconnectedness & Merchant Banking", sub: "Treasury 4 Desks • Contagion Spillover • SEBI MB Regs (Dual Cat: Cat I ₹50 Cr, Cat II ₹10 Cr) • Prohibitions" },
   { ch: 25, start: 100, end: 104, pages: 5, title: "Mutual Funds, AIFs, REITs, Factoring & TReDS", sub: "NAV Computation • AIF Cat I/II/III • REITs/InvITs 80:90 Rule • Factoring vs Forfaiting • Ind AS 116 Leasing" },
-  { ch: 26, start: 105, end: 109, pages: 5, title: "Para-Banking, Insurance, Pension, Leasing & CRAs", sub: "CRAs BBB- Floor • CICs 300-900 • Bancassurance 3+3+3 • NPS Exit (₹5L / ₹2.5L 100% Lump Sum) • APY & UPS" },
+  { ch: 26, start: 105, end: 109, pages: 5, title: "Para-Banking, Insurance, Pension, Leasing & CRAs", sub: "CRAs BBB- Floor • CICs 300-900 • Bancassurance 3+3+3 • NPS 3-Model Exit (All-Citizen ₹8L / Govt ₹5L) • APY & UPS" },
   { ch: 27, start: 110, end: 115, pages: 6, title: "The Grand Synthesis: IIBF Paper 1 Master Revision Vault", sub: "Capstone Revision Matrix • 50 High-Yield Examiner Traps • Formula Index • Diagnostic Active Recall Engine" },
 ];
 
@@ -225,7 +225,7 @@ export function buildFrontMatterHtml(): string {
 
       <div>
         <div class="edition-banner">
-          <div class="edition-text">THIRD REVISED PRINT EDITION (v3.0) • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
+          <div class="edition-text">FOURTH REVISED PRINT EDITION (v4.0) • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
         </div>
         <div class="imprint">PUBLISHED UNDER THE CHARTER OF MIND OF ARAVALLI • SHELF 007 BASTION</div>
       </div>
@@ -245,7 +245,7 @@ export function buildFrontMatterHtml(): string {
       <div class="cip-box">
         <div class="cip-title">Cataloging-in-Publication Data (CIP)</div>
         <p><strong>Title:</strong> Indian Economy &amp; Indian Financial System (IE&amp;IFS): Book 02 — Master Curricular Monograph.</p>
-        <p><strong>Edition:</strong> Third Revised Print Edition (v3.0) • IIBF 2026 Rules &amp; Syllabus Official Benchmark (October 2026).</p>
+        <p><strong>Edition:</strong> Fourth Revised Print Edition (v4.0) • IIBF 2026 Rules &amp; Syllabus Official Benchmark (October 2026).</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 2).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 1 • Macroeconomics • Banking Law • Financial Markets.</p>
         <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (45 Units).</p>

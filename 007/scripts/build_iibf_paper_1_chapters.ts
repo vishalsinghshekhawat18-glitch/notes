@@ -496,6 +496,41 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       background: #fff;
     }
 
+    ${chMeta.index === 27 ? `
+      body {
+        font-size: 9.6pt !important;
+        line-height: 1.34 !important;
+      }
+      p {
+        margin: 0 0 1.5mm 0 !important;
+      }
+      table {
+        font-size: 8.0pt !important;
+        margin: 1.5mm 0 !important;
+      }
+      th, td {
+        padding: 0.9mm 1.4mm !important;
+        line-height: 1.22 !important;
+      }
+      ol, ul {
+        margin: 1.2mm 0 1.5mm 0 !important;
+        padding-left: 4mm !important;
+      }
+      li {
+        margin-bottom: 0.7mm !important;
+        font-size: 8.8pt !important;
+        line-height: 1.26 !important;
+      }
+      h2 {
+        font-size: 9.4pt !important;
+        margin: 2mm 0 1mm 0 !important;
+        padding-bottom: 0.5mm !important;
+      }
+      .section-bar {
+        margin: 2mm 0 1.2mm 0 !important;
+      }
+    ` : ''}
+
     p {
       margin: 0 0 2mm 0;
       text-align: justify;
@@ -929,7 +964,10 @@ export async function main() {
   console.log(`BATCH COMPILING ALL 27 CHAPTERS FOR IIBF PAPER 1 (IE&IFS)`);
   console.log(`======================================================`);
 
-  for (const meta of IIBF_PAPER_1_REGISTRY) {
+  const targetCh = process.argv[2] ? parseInt(process.argv[2], 10) : null;
+  const listToCompile = targetCh ? IIBF_PAPER_1_REGISTRY.filter(m => m.index === targetCh) : IIBF_PAPER_1_REGISTRY;
+
+  for (const meta of listToCompile) {
     const chNum = String(meta.index).padStart(2, '0');
     const pdfName = `${chNum}_CHAPTER_${chNum}_A4_BW.pdf`;
     const pdfPath = path.join(outChaptersDir, pdfName);
@@ -942,7 +980,7 @@ export async function main() {
     console.log(`  -> Finished ${pdfName} (${(stats.size / 1024).toFixed(1)} KB)`);
   }
 
-  console.log(`\n✓ All 27 chapters compiled successfully into ${outChaptersDir}!`);
+  console.log(`\nCompilation finished into ${outChaptersDir}!`);
 }
 
 if (process.argv[1] && (process.argv[1].includes('build_iibf_paper_1_chapters.ts') || process.argv[1].includes('build_iibf_paper_1_chapters'))) {

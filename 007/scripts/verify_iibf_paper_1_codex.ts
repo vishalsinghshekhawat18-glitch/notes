@@ -106,12 +106,15 @@ async function runForensicAudit() {
   const chaptersDir = path.resolve('007', 'notes', 'iibf_dbf', 'paper_1_chapters');
   let dataCheckPass = true;
 
-  // Check C-03 & C-04: MSME 1 April 2025 thresholds & PSL Directions 2025 UCB target 60%
+  // Check C-03 & C-04: MSME 1 April 2025 thresholds & PSL Directions 2025 (updated 19 Jan 2026)
   const ch4Text = fs.readFileSync(path.join(chaptersDir, '04_CHAPTER_04_PRIORITY_SECTOR_LENDING_MSME.md'), 'utf-8');
-  if (ch4Text.includes('2.5') && ch4Text.includes('10') && ch4Text.includes('125') && ch4Text.includes('500') && ch4Text.includes('60%')) {
-    console.log(`  ✓ C-03 & C-04 Verified: 1 April 2025 MSME criteria (₹2.5/10 Cr, ₹25/100 Cr, ₹125/500 Cr) & 60% UCB PSL target present in Chapter 04.`);
+  const pslOk = ch4Text.includes('25 Lakh') && ch4Text.includes('50 Lakh') && ch4Text.includes('63 Lakh') &&
+                ch4Text.includes('8 Crore') && ch4Text.includes('12 Crore') && ch4Text.includes('35 Crore') &&
+                ch4Text.includes('60%') && ch4Text.includes('2.5') && ch4Text.includes('10');
+  if (pslOk) {
+    console.log(`  ✓ PSL 2025 & MSME 2025 Verified: Education ₹25L, Housing Metro ₹50L/₹63L, Social Infra ₹8Cr/₹12Cr, Renewable ₹35Cr, UCB 60%, MSME 2.5x in Chapter 04.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: C-03/C-04 MSME/PSL thresholds missing.`);
+    console.error(`  ✗ GATE 5 FAIL: PSL 2025 sub-limits or MSME thresholds missing in Chapter 04.`);
     dataCheckPass = false;
   }
 
@@ -151,21 +154,27 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check C-08 / C-09: NPS exit rules (₹8 Lakh All-Citizens / ₹5 Lakh Govt / ₹2.5 Lakh premature)
+  // Check C-08 / C-09: NPS 3-Model Exit Framework (All-Citizens ₹8 Lakh / Govt ₹5 Lakh / Premature ₹2.5 Lakh & ₹5 Lakh)
   const ch26Text = fs.readFileSync(path.join(chaptersDir, '26_CHAPTER_26_PARABANKING_INSURANCE_PENSION_CRAS.md'), 'utf-8');
-  if (ch26Text.includes('8,00,000') || ch26Text.includes('8 Lakh') && ch26Text.includes('5 Lakh') && ch26Text.includes('2.5 Lakh')) {
-    console.log(`  ✓ C-09 Verified: NPS 16 Dec 2025 PFRDA amendments (₹8L All-Citizens / ₹5L Govt / ₹2.5L premature) codified in Chapter 26.`);
+  const npsOk = (ch26Text.includes('8,00,000') || ch26Text.includes('8 Lakh')) &&
+                ch26Text.includes('5 Lakh') && ch26Text.includes('2.5 Lakh') &&
+                ch26Text.includes('All-Citizen') && ch26Text.includes('Corporate Model');
+  if (npsOk) {
+    console.log(`  ✓ NPS 3-Model Architecture Verified: Govt (₹5L), All-Citizen (₹8L / 20% annuity), Corporate (₹5L) codified in Chapter 26.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: C-09 NPS exit rules missing.`);
+    console.error(`  ✗ GATE 5 FAIL: C-09 NPS 3-model exit rules missing.`);
     dataCheckPass = false;
   }
 
-  // Check C-10: SEBI Merchant Banking 2026 Dual Category (₹50 Cr / ₹10 Cr)
+  // Check C-10: SEBI Merchant Banking 2026 Dual Category (₹50 Cr / ₹10 Cr) & Phased Compliance
   const ch24Text = fs.readFileSync(path.join(chaptersDir, '24_CHAPTER_24_INTERCONNECTEDNESS_AND_MERCHANT_BANKING.md'), 'utf-8');
-  if (ch24Text.includes('50 Crore') && ch24Text.includes('10 Crore') && ch24Text.includes('12.5 Crore') && ch24Text.includes('2.5 Crore')) {
-    console.log(`  ✓ C-10 Verified: SEBI 2026 Merchant Banking Dual-Category (Cat I ₹50 Cr/₹12.5 Cr; Cat II ₹10 Cr/₹2.5 Cr) codified in Chapter 24.`);
+  const mbOk = ch24Text.includes('50 Crore') && ch24Text.includes('10 Crore') &&
+               ch24Text.includes('12.5 Crore') && ch24Text.includes('2.5 Crore') &&
+               ch24Text.includes('phased compliance');
+  if (mbOk) {
+    console.log(`  ✓ Merchant Banking 2026 Regime Verified: Cat I (₹50 Cr/₹12.5 Cr), Cat II (₹10 Cr/₹2.5 Cr), phased compliance codified in Chapter 24.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: C-10 Merchant Banking thresholds missing.`);
+    console.error(`  ✗ GATE 5 FAIL: C-10 Merchant Banking thresholds or phased compliance note missing.`);
     dataCheckPass = false;
   }
 
@@ -178,12 +187,14 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check C-12: RBI PCA Framework 2022 (CRAR 11.5%, Net NPA 6%/9%/12%, Leverage 4.0%/3.5%)
+  // Check C-12: RBI PCA Framework 2022 (Regulatory Min vs Threshold Triggers: CRAR < 9% to ≥ 6.5%, Net NPA 6%/9%/12%)
   const ch17Text = fs.readFileSync(path.join(chaptersDir, '17_CHAPTER_17_COMMERCIAL_BANKING_BASEL_III_PCA_FRAMEWORK.md'), 'utf-8');
-  if (ch17Text.includes('11.5%') && ch17Text.includes('8.0%') && ch17Text.includes('6.0%') && ch17Text.includes('9.0%') && ch17Text.includes('12.0%')) {
-    console.log(`  ✓ C-12 Verified: RBI 2022 Prompt Corrective Action (PCA) matrix (CRAR 11.5%, Net NPA 6/9/12%, Leverage 4.0/3.5%) codified in Chapter 17.`);
+  const pcaOk = ch17Text.includes('6.5%') && ch17Text.includes('3.875%') &&
+                ch17Text.includes('6.0%') && ch17Text.includes('9.0%') && ch17Text.includes('12.0%');
+  if (pcaOk) {
+    console.log(`  ✓ RBI 2022 PCA Trigger Calibration Verified: Minimums distinguished from Triggers (CRAR < 9% down to ≥ 6.5%, Net NPA 6/9/12%) in Chapter 17.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: C-12 PCA matrix missing.`);
+    console.error(`  ✗ GATE 5 FAIL: C-12 PCA matrix trigger calibration missing.`);
     dataCheckPass = false;
   }
 
@@ -270,11 +281,12 @@ async function runForensicAudit() {
   const hasTraps = ch27Text.includes('50 Master Examiner Traps') || ch27Text.includes('Examiner Traps');
   const hasFastRecall = ch27Text.includes('Fast-Recall Ledger') || ch27Text.includes('Reconciled 2026 Baseline');
   const hasDiagnostic = ch27Text.includes('Capstone Diagnostic Drill') || ch27Text.includes('Answer Key & Explanations');
-  if (hasTraps && hasFastRecall && hasDiagnostic) {
-    console.log(`  ✓ Chapter 27 verified: 50 High-Yield Examiner Traps, Fast-Recall Reconciled Ledger, and Capstone Diagnostic Engine fully intact.`);
+  const has45Ledger = ch27Text.includes('Master Curricular & PYQ Traceability Ledger') && ch27Text.includes('Units 01–45');
+  if (hasTraps && hasFastRecall && hasDiagnostic && has45Ledger) {
+    console.log(`  ✓ Chapter 27 verified: 50 High-Yield Examiner Traps, Fast-Recall Reconciled Ledger, Capstone Diagnostic Drill, and 45-Unit PYQ Traceability Ledger fully intact.`);
     passedGates++;
   } else {
-    console.error(`  ✗ GATE 8 FAIL: Missing components in Chapter 27.`);
+    console.error(`  ✗ GATE 8 FAIL: Missing components in Chapter 27 (traps=${hasTraps}, fastRecall=${hasFastRecall}, diag=${hasDiagnostic}, ledger45=${has45Ledger}).`);
   }
 
   // -------------------------------------------------------------------------

@@ -135,3 +135,56 @@ D. Zero years
 • **Q3 — Answer: B.** Section 20 of the Banking Regulation Act, 1949 strictly prohibits any bank from making loans or advances on the security of its own shares.  
 • **Q4 — Answer: C.** Under the PFRDA amended exit regulations (16 Dec 2025), for Non-Government / All-Citizens subscribers at normal exit (age 60), if the accumulated corpus is $\le$ ₹8 Lakh, the subscriber has the option to withdraw 100% of the corpus as a lump sum without mandatory annuitization. Because ₹7,40,000 is below the ₹8 Lakh threshold, Option C is correct. (Under the earlier pre-amendment rule, the small-corpus threshold was ₹5 Lakh).  
 • **Q5 — Answer: C.** Because a zero-coupon bond pays zero intermediate coupons and returns all cash flow at final maturity, its Macaulay Duration mathematically equals its maturity period (10.0 years).
+
+---
+
+## § 27.4 Master Curricular & PYQ Traceability Ledger (Units 01–45)
+
+| Unit | Official IIBF Curriculum Unit Title | Codex Chapter | Core Examination Theme & High-Yield PYQ Traceability Focus |
+| :---: | :--- | :---: | :--- |
+| **01** | Overview of Indian Economy | Ch 01 | 1921 Great Divide, 4-Stage DTM, Stage 3 Window (TFR 2.0), Pre-1947 to 1991 structural shifts. |
+| **02** | Sectors of the Indian Economy | Ch 02 | Structural leapfrogging anomaly, Primary 18% GVA / 46% workforce, disguised unemployment. |
+| **03** | Economic Planning & NITI Aayog | Ch 03 | 12 FYPs (Harrod-Domar, Mahalanobis heavy goods), NITI Aayog think-tank, zero fund devolution. |
+| **04** | Role of PSL and MSME | Ch 04 | PSL targets (Comm 40%, UCB 60%, SFB/RRB 75%), 2025 MSME criteria (2.5x), Sec 16 3x Bank Rate. |
+| **05** | Infrastructure & Social Infra | Ch 05 | NIP ₹111L Cr, PM GatiShakti, HAM (40% Grant / 100% NHAI traffic risk), multi-modal logistics. |
+| **06** | Globalisation — Impact on India | Ch 06 | Post-1991 LPG reforms, trade openness, current account convertibility (IMF Art VIII, 1994). |
+| **07** | Economic Reforms | Ch 07 | 1991 BoP crisis, structural adjustment loans, industrial licensing abolition, MRTP dismantling. |
+| **08** | Foreign Trade Policy & Investments | Ch 06 | FTP 2023 $2 Trillion target by 2030, Special Rupee Vostro Accounts (SRVA), rupee invoicing. |
+| **09** | International Economic Organisations | Ch 06 | IMF SDR basket (5 currencies), World Bank 5 arms, WTO AoA (Green vs Amber Box de minimis). |
+| **10** | Climate Change, SDGs & CSR | Ch 05 | COP26 Panchamrit 2070 Net Zero, Companies Act Sec 135 (2% net profit, ≤ ₹50L committee exemption). |
+| **11** | Issues Facing the Indian Economy | Ch 07 | Tendulkar vs Rangarajan poverty lines, NITI MPI dimensions, jobless growth, rural underemployment. |
+| **12** | Fundamentals of Economics & Markets | Ch 08 | Positive vs Normative, 4 market structures, Sweezy kinked demand, Pigou 3 price discriminations. |
+| **13** | Supply and Demand | Ch 09 | Point & Arc elasticity, Marshall outlay method, cross-price substitutes (+)/complements (-). |
+| **14** | Money Supply and Inflation | Ch 11 | RBI Sec 33 Minimum Reserve (₹115 Cr Gold), M0 to M4, multiplier $m=(1+c)/(c+r)$, CPI 4%±2% anchor. |
+| **15** | Theories of Interest | Ch 12 | Classical saving-investment vs Keynesian liquidity preference, liquidity trap, IS-LM equilibrium. |
+| **16** | Business Cycles | Ch 13 | 4 phases (Expansion, Peak, Contraction, Trough), leading/coincident/lagging macroeconomic indicators. |
+| **17** | Monetary & Fiscal Policy | Ch 13 | RBI MPC (Sec 45ZB, 6 members, 4 meetings/yr), LAF corridor (SDF, Repo, MSF), FRBM fiscal rules. |
+| **18** | National Income Accounting | Ch 10 | Base Year 2022-23 (NSO 27 Feb 2026), GDP Market Prices vs GVA Basic Prices, ICOR efficiency. |
+| **19** | Union Budget Architecture | Ch 13 | Art 112 AFS, Consolidated/Contingency/Public Accounts, Fiscal & Primary Deficit math. |
+| **20** | Indian Financial System Overview | Ch 14 | 4 Pillars (Institutions, Markets, Instruments, Services), formal financial intermediation. |
+| **21** | Commercial Banking Operations | Ch 17 | Scheduled status (RBI 2nd Sched), Basel III Indian CRAR 11.5% (9%+2.5% CCB), PCA matrix (Net NPA 6%). |
+| **21b**| Differentiated Banking | Ch 18 | RRBs (50:15:35, 75% PSL), 4-Tier UCBs (60% PSL), SFBs (₹25L loan quota), Payment Banks (no credit). |
+| **22** | BR Act 1949 & RBI Act 1934 | Ch 16 | BR Act Sec 5, 6, 9 (12 yrs), 17 (25%), 20, 26A (DEA 10 yrs), 35A; RBI Act Sec 17, 22, 33, 42. |
+| **23** | Development Financial Institutions | Ch 20 | DFI evolution (IFCI 1948, ICICI, IDBI), NaBFID Act 2021 (₹20,000 Cr capital, AIFI license). |
+| **24** | Micro Finance Institutions (MFIs) | Ch 19 | RBI 2022 Harmonized Directions (₹3L income cap, 50% DTI limit, 0% prepayment penalty). |
+| **25** | Non-Banking Financial Companies | Ch 19 | Scale-Based Regulation (Base, Middle, Upper Top 10 rule, Top), HFCs under RBI oversight. |
+| **26** | Emerging Intermediaries & FinTech | Ch 20 | PMJDY (₹10K OD), RBI FI-Index (Access, Usage, Quality), digital lending rails, CBDC e-Rupee. |
+| **27** | Financial Regulators and Roles | Ch 15 | Statutory regulators: RBI, SEBI, IRDAI, PFRDA, IFSCA (GIFT City); FSDC Council vs Sub-Committee. |
+| **28** | Banking Sector Reforms | Ch 14 | Narasimham I & II, Bad Bank (NARCL 51% PSB, IDRCL, 15:85 SRs, ₹30,600 Cr guarantee), EASE agenda. |
+| **29** | Financial Markets Structure | Ch 21 | Money Market (short-term liquidity, CCIL) vs Capital Market (long-term equity/debt allocation). |
+| **30** | Money Market Instruments Suite | Ch 21 | Call/Notice/Term money, T-Bills (91/182/364D), CP (₹5L), CD (₹5L), TREPS triparty repos. |
+| **31** | Capital Markets & Stock Exchanges | Ch 22 | Primary IPOs, ASBA blocked-funds mechanism, Secondary BSE/NSE, T+1 rolling settlement, QIP. |
+| **32** | Fixed Income Securities & G-Secs | Ch 22 | G-Sec auctions, yield-price inverse curve, Macaulay & Modified duration, FBIL valuation curves. |
+| **33** | Foreign Exchange Markets | Ch 23 | Currency pairs, Spot T+2, FEMA 1999 (Current vs Capital Account), NRE/NRO/FCNR(B) deposits. |
+| **34** | Interconnection & Market Dynamics | Ch 24 | Integrated Treasury (Forex, Domestic, Derivatives), ALCO operational risk, contagion spillover. |
+| **35** | Merchant Banking Services | Ch 24 | SEBI 2026 Dual Category (Cat I ₹50 Cr / ₹12.5 Cr Liq; Cat II ₹10 Cr / ₹2.5 Cr), Lead Manager remit. |
+| **36** | Derivatives Market | Ch 23 | Forwards, Futures, Options (Call/Put, Greeks: Delta, Gamma, Vega, Theta), Swaps, CDS ISDA. |
+| **37** | Factoring, Forfaiting and TReDS | Ch 25 | Factoring (domestic with/without recourse), Forfaiting (export 100% without recourse), TReDS. |
+| **38** | Venture Capital | Ch 25 | Investment stages (Seed, Early, Expansion, Bridge), Angel funds, SEBI AIF Category I. |
+| **39** | Lease Finance & Hire Purchase | Ch 25 | Financial vs Operating lease, Ind AS 116 (Right-of-Use Asset), Hire Purchase bailment & title. |
+| **40** | CRAs & Credit Scoring | Ch 26 | Credit rating BBB- investment floor, CICs (CIBIL 300–900 scale, prime ≥ 750), default reporting. |
+| **41** | Mutual Funds & AIFs | Ch 25 | NAV calculation, AMC sponsor net worth, SEBI AIF Categories I, II (PE/Debt), III (Hedge). |
+| **42** | Insurance Products & Services | Ch 26 | Utmost Good Faith, Insurable Interest, Indemnity, Subrogation, Bancassurance 3+3+3 architecture. |
+| **43** | Pension Products (NPS, APY & UPS) | Ch 26 | NPS 3-Model Exit Rules (All-Citizen ₹8L, Govt/Corp ₹5L), APY ₹1K–₹5K (taxpayer barred), UPS assured 50%. |
+| **44** | Para-Banking & Ancillary Services | Ch 26 | Credit cards ₹100 Cr net worth, Primary Dealership ₹1,000 Cr, subsidiary caps (10% single, 20% aggregate). |
+| **45** | REITs & InvITs Architecture | Ch 25 | Real Estate & Infrastructure Trusts, SEBI 80:90 Asset & Distribution Rule, hybrid yield asset. |
