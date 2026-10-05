@@ -17,6 +17,7 @@ Commercial banks extend beyond traditional deposit-taking and lending into para-
   - *Investment Grade:* `AAA` (Highest safety), `AA` (High safety), `A` (Adequate safety), and **`BBB` (Moderate safety)**.  
     **Crucial Exam Point:** **`BBB-` is the absolute lowest investment-grade rating**.
   - *Speculative / Non-Investment Grade (Junk):* Begins at **`BB+`**, followed by `BB`, `B`, `C` (High risk of default), and **`D` (Default status)**.
+• **Rating Outlook & Fee Architecture:** CRAs issue a **Rating Outlook** (Positive, Stable, Negative, Watch). Under the standard **Issuer-Pays Model**, conflicts of interest are mitigated through independent rating committees, mandatory lead analyst rotation, and public fee disclosures.
 
 ### 2. Credit Information Companies (CICs) — Regulated by the RBI
 
@@ -51,10 +52,11 @@ Commercial banks extend beyond traditional deposit-taking and lending into para-
 | **4. Principle of Subrogation** | Step into shoes of the insured | Upon settling a total loss claim, the insurer acquires all legal rights to recover damages from third-party tortfeasors. |
 | **5. Proximate Cause** | *Causa Proxima* | The active, efficient cause setting in motion the chain of events leading to loss; insurer is liable only if the proximate cause is an insured peril. |
 
-### 3. Bancassurance & The Bima Trinity
+### 3. Bancassurance, Micro-Insurance & The Bima Trinity
 
 • **Open Architecture (IRDAI Regulations):** Commercial banks acting as Corporate Agents can tie up with up to **nine insurers**: $$\mathbf{3 \text{ Life}} + \mathbf{3 \text{ General}} + \mathbf{3 \text{ Standalone Health}}$$. Coercive cross-selling is strictly banned.  
-• **Bima Trinity Initiatives:** **Bima Sugam** (digital marketplace portal), **Bima Vistar** (bundled composite micro-insurance cover), and **Bima Vahak** (women-led grassroots distribution force).
+• **Group vs. Micro-Insurance:** Group policies cover homogenous groups under a single master contract without individual medical underwriting. **Micro-Insurance** (under IRDAI micro-insurance regulations) provides low-income families with affordable coverage (sum assured ₹10,000–₹1,00,000, simplified policy issuance, and accelerated claim settlements).  
+• **Bima Trinity Initiatives:** **Bima Sugam** (digital marketplace portal), **Bima Vistaar** (bundled composite micro-insurance cover), and **Bima Vahak** (women-led grassroots distribution force).
 
 ### 4. Social Insurance Schemes & Ombudsman Mechanism
 
@@ -81,11 +83,11 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 | Dimension / Event | Government Sector (Central/State Govt) | All-Citizen Model (Individual Voluntary) | Corporate Model (Employer-Employee) |
 | :--- | :--- | :--- | :--- |
 | **Normal Exit Timing** | At Superannuation / Retirement / Discharge | At or after age 60 (up to age 75) | At age 60 or employer retirement age |
-| **Normal Annuitization vs Lump Sum** | • Min **40% Annuitized**<br>• Up to **60% Lump Sum** | • Min **20% Annuitized**<br>• Up to **80% Lump Sum** | • Min **40% Annuitized**<br>• Up to **60% Lump Sum** |
-| **Normal Exit Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹8 Lakh**<br>100% lump sum option *(for > ₹8L to ₹12L, special split applies; > ₹12L standard min 40% annuity)* | **Corpus ≤ ₹8 Lakh**<br>100% lump sum / SLW / SUR option *(Special band exists for ₹8L–₹12L)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option |
+| **Normal Annuitization vs Lump Sum** | • Min **40% Annuitized**<br>• Up to **60% Lump Sum** | • Min **20% Annuitized**<br>• Up to **80% Lump Sum** | • Min **20% Annuitized**<br>• Up to **80% Lump Sum** |
+| **Normal Exit Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹8 Lakh**<br>100% lump sum option *(for > ₹8L to ₹12L, special split applies; > ₹12L standard min 40% annuity)* | **Corpus ≤ ₹8 Lakh**<br>100% lump sum / SLW / SUR option *(Special band exists for ₹8L–₹12L)* | **Corpus ≤ ₹8 Lakh**<br>100% lump sum option *(PFRDA non-govt unified threshold)* |
 | **Premature Exit Timing** | Resignation / Removal from service | Before age 60 (min 5 years subscription) | Before retirement (min 5 years subscription) |
 | **Premature Annuitization vs Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** |
-| **Premature Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA Schedule I)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA FAQs)* | **Corpus ≤ ₹2.5 Lakh**<br>100% lump sum option |
+| **Premature Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA Schedule I)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA FAQs)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA non-govt unified threshold)* |
 | **Post-60 Continuation & Deferral** | Annuity can be deferred up to age 75 | Can continue contributing and defer annuity/lump sum up to age 75 | Can continue contributing and defer annuity/lump sum up to age 75 |
 | **Demise / Death of Subscriber** | 100% payout to nominee or legal heirs (or option for annuity) | 100% payout to nominee or legal heirs (or option for annuity) | 100% payout to nominee or legal heirs (or option for annuity) |
 
@@ -116,7 +118,7 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 ### 1. Net Worth Thresholds & Prudential Investment Limits
 
 • **Credit Card Business:** Scheduled Commercial Banks must maintain an independent **Net Worth of at least ₹100 Crore** to issue credit cards.  
-• **Primary Dealership (PD) Business:** Departmental PD in G-Secs requires: (1) Min Net Worth of **₹1,000 Crore**, (2) Min CRAR of **12.0%**, (3) Net NPAs ≤ **3.0%**, and (4) Track record of net profit over preceding 3 consecutive financial years.  
+• **Primary Dealership (PD) Business:** Departmental PD in G-Secs requires: (1) Min Net Owned Funds (NOF) of **₹1,000 Crore**, (2) Min CRAR of **9.0%** (bank-level Basel III capital adequacy norm; Standalone PDs require **15.0%** CRAR and ₹150 Cr NOF), (3) Net NPAs ≤ **3.0%**, and (4) Track record of net profit over preceding 3 consecutive financial years.  
 • **Prudential Caps on Bank Investments in Subsidiaries:** Maximum **10% of paid-up capital and reserves** in a single financial subsidiary/JV; maximum **20%** across all subsidiaries, JVs, and financial entities combined.  
 • **Mandatory Disclosure in Accounts:** Banks must disclose in the **"Notes to Accounts"** of their annual balance sheet all commissions, fees, and brokerages earned from distributing insurance, mutual funds, and third-party financial products.
 
@@ -126,8 +128,8 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 1. **Trap — Lowest Investment Grade Rating:** **`BBB-`** is the lowest investment-grade rating. An option stating `BB+` is **incorrect** (`BB+` is speculative/junk grade).
 2. **Trap — Insurable Interest in Fire Insurance:** Insurable interest in Fire Insurance must exist **BOTH at policy inception AND at the time of loss**. In Life Insurance, it is required only at policy inception.
-3. **Trap — NPS Normal Exit Small Corpus by Model:** Under PFRDA's 16 Dec 2025 amended regulations, for **Both Government Sector and All-Citizens model**, if accumulated NPS corpus at retirement/age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (for Government > ₹8L to ₹12L, special split applies; above ₹12L, min 40% annuity). For the **Corporate Model**, normal exit small corpus remains **≤ ₹5 Lakh**.
-4. **Trap — NPS Premature Exit Small Corpus by Model:** In premature exit (resignation before superannuation / before age 60), min 80% annuity is mandatory. 100% full lump sum is permitted if corpus is **≤ ₹5 Lakh for Government Sector** (resignation under PFRDA Schedule I) and **≤ ₹5 Lakh for All-Citizens model**, but is **≤ ₹2.5 Lakh for Corporate Sector subscribers**.
+3. **Trap — NPS Normal Exit Small Corpus by Model:** Under PFRDA's 16 Dec 2025 amended regulations, for **Both Government Sector and Non-Government sectors (All-Citizens & Corporate)**, if accumulated NPS corpus at retirement/age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (for Government > ₹8L to ₹12L, special split applies; above ₹12L, min 40% annuity; for All-Citizens & Corporate above ₹12L, min 20% annuity).
+4. **Trap — NPS Premature Exit Small Corpus by Model:** In premature exit (resignation before superannuation / before age 60), min 80% annuity is mandatory. 100% full lump sum is permitted if corpus is **≤ ₹5 Lakh across both Government and Non-Government (All-Citizens & Corporate) sectors** (raised from legacy ₹2.5 Lakh).
 5. **Trap — APY Income Tax Exclusion:** Income-tax payers are **STRICTLY INELIGIBLE** to enroll in Atal Pension Yojana.
 6. **Trap — Credit Card Bank Net Worth:** Banks must have a minimum Net Worth of **₹100 Crore** to undertake standalone credit card issuance.
 7. **Trap — Insurance Penetration vs Density:** Penetration is premium as a **% of GDP**; Density is premium **per capita in USD**. Do not reverse these two metrics.
@@ -170,7 +172,7 @@ D. Neither Statement I nor Statement II
 
 ### Answer Key & Explanations
 
-• **Q1 — Answer: C.** Under the PFRDA amended exit regulations (16 Dec 2025), for All-Citizens and Government subscribers at normal retirement, 100% lump-sum withdrawal without mandatory annuitization is available if the accumulated corpus is $\le$ ₹8 Lakh. (For Corporate sector, the threshold is $\le$ ₹5 Lakh. At premature exit, Government and All-Citizens allow 100% lump sum up to $\le$ ₹5 Lakh, while Corporate allows up to $\le$ ₹2.5 Lakh).  
+• **Q1 — Answer: C.** Under the PFRDA amended exit regulations (16 Dec 2025), for All-Citizens, Corporate, and Government subscribers at normal retirement, 100% lump-sum withdrawal without mandatory annuitization is available if the accumulated corpus is $\le$ ₹8 Lakh. (At premature exit, 100% lump sum is permitted across both Government and Non-Government sectors if corpus is $\le$ ₹5 Lakh).  
 • **Q2 — Answer: B.** The IRDAI open architecture framework permits a corporate agent to tie up with up to 3 Life, 3 General, and 3 Health insurers (maximum 9 partners).  
 • **Q3 — Answer: B.** `BBB-` is the lowest investment-grade rating; `BB+` marks the beginning of the speculative/junk grade.  
 • **Q4 — Answer: C.** Both statements are correct under the Unified Pension Scheme (UPS) provisions.

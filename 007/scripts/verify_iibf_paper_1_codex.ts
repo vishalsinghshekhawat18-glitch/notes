@@ -260,6 +260,17 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check v5.0 Refinements: Primary Dealer CRAR 9.0%, TReDS Net Worth, Ind AS 116 exemptions, FTP transition
+  const pdOk = ch26Text.includes('9.0%') && ch26Text.includes('15.0%') && ch26Text.includes('1,000 Crore');
+  const tredsOk = ch25Text.includes('25 Crore') && ch25Text.includes('short-term leases') && ch25Text.includes('low-value assets');
+  const ftpOk = ch6Text.includes('RoDTEP') && ch6Text.includes('RoSCTL') && ch6Text.includes('MEIS');
+  if (pdOk && tredsOk && ftpOk) {
+    console.log(`  ✓ v5.0 Refinements Verified: Primary Dealer Bank CRAR 9.0% (SPD 15%), TReDS ₹25 Cr Net Worth, Ind AS 116 exemptions, and FTP RoDTEP/RoSCTL transition verified.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: v5.0 refinements missing (pd=${pdOk}, treds=${tredsOk}, ftp=${ftpOk}).`);
+    dataCheckPass = false;
+  }
+
   // Check C-13: Question Provenance Tags across all 27 chapters
   let allTagsPresent = true;
   for (let ch = 1; ch <= 27; ch++) {

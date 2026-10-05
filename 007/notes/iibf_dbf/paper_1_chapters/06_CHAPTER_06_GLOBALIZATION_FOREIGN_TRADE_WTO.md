@@ -31,6 +31,7 @@ India's external economic engagement is governed by trade liberalization, foreig
 1. **Continuous Policy Architecture:** No fixed sunset date; updated dynamically based on real-time trade feedback.
 2. **Export Target:** **$2 Trillion in total exports** ($1T merchandise + $1T services) by **2030**.
 3. **Four Strategic Pillars:** (1) Incentive to Remission (RoDTEP, RoSCTL); (2) Export Promotion via Collaboration (States, Districts, Missions); (3) Ease of Doing Business (digital processing, paperless certificates); (4) Emerging Sectors (E-Commerce exports cap ₹10 Lakh/consignment; 43 Towns of Export Excellence).
+• **Policy Evolution (FTP 2015–20 to FTP 2023):** FTP 2015–20 relied on direct incentive schemes (MEIS and SEIS). After WTO dispute panels ruled direct export subsidies incompatible with ASCM rules, India shifted to WTO-compliant duty remission schemes (**RoDTEP** and **RoSCTL**), paving the way for the dynamic, sunset-free FTP 2023.
 
 ### 2. Foreign Investment Architecture: FDI vs. FPI / FII
 

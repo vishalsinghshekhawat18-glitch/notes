@@ -27,7 +27,7 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 
 ### 2. Trade Receivables Discounting System (TReDS)
 
-• **Regulatory Mandate:** Regulated electronic exchange platform operating under the **Payment and Settlement Systems Act, 2007**, based on guidelines issued by the RBI.  
+• **Regulatory Mandate:** Regulated electronic exchange platform operating under the **Payment and Settlement Systems Act, 2007**, based on guidelines issued by the RBI. Operating entities must maintain a minimum paid-up equity capital / net worth of **₹25 Crore**.  
 • **Tripartite Platform:** Connects three key participants:
   1. *MSME Sellers (Suppliers)*
   2. *Corporate, PSU, and Government Buyers*
@@ -89,7 +89,7 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 | **Initial Down Payment** | Typically **Zero down payment** (or small security deposit). | Mandates substantial upfront margin / down payment (**15% to 25%**). |
 | **Termination Rights** | Financial leases are strictly non-cancellable. | Hirer can terminate before maturity by returning the goods. |
 
-• **Ind AS 116 (Leases) & Financial Ratio Impacts:** Effective 1 April 2019, lessees must bring all leases onto the balance sheet as a **Right-of-Use (ROU) Asset** and corresponding **Lease Liability**. Financial impacts: (1) **Higher EBITDA** (lease rental split into depreciation and finance cost); (2) **Higher Leverage** (debt-to-equity ratio increases due to recognized lease liabilities); (3) Front-loaded expense recognition.
+• **Ind AS 116 (Leases) & Financial Ratio Impacts:** Effective 1 April 2019, lessees must bring leases onto the balance sheet as a **Right-of-Use (ROU) Asset** and corresponding **Lease Liability** (exemptions apply to **short-term leases ≤ 12 months** and **leases of low-value assets**). Financial impacts: (1) **Higher EBITDA** (lease rental split into depreciation and finance cost); (2) **Higher Leverage** (debt-to-equity ratio increases due to recognized lease liabilities); (3) Front-loaded expense recognition.
 
 ---
 
@@ -109,8 +109,9 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
   $$\text{NAV} = \frac{\text{Market Value of Investments} + \text{Current Assets} - \text{Current Liabilities and Provisions}}{\text{Total Number of Outstanding Units}}$$
   NAV is computed and published daily on business days by all mutual funds.
 
-### 2. Mutual Fund Operational Tools: Riskometer, TER & Loads
+### 2. Mutual Fund Operational Tools: Scheme Categorization, Riskometer & Loads
 
+• **Scheme Structures & Categorization (SEBI):** By structure: **Open-ended** (perpetual entry/exit at NAV), **Close-ended** (fixed maturity, listed on exchange), and **Interval schemes** (transaction windows). By asset class: 5 broad categories: **Equity, Debt, Hybrid, Solution-Oriented, and Other schemes (Index Funds/ETFs)**.  
 • **New Fund Offer (NFO):** Initial public subscription period for a newly created mutual fund scheme; under revised SEBI directions, an NFO must remain open for a minimum of **3 working days** and a maximum of **15 calendar days** (ELSS schemes follow applicable Government scheme guidelines).  
 • **SEBI Riskometer:** Dynamic risk grading tool updated monthly, displaying risk across **6 standardized tiers**: (1) Low, (2) Low to Moderate, (3) Moderate, (4) Moderately High, (5) High, and (6) Very High.  
 • **Total Expense Ratio (TER) & Loads:**  
