@@ -71,18 +71,18 @@ Established in *Devaynes v. Noble (Clayton's Case, 1816)*, Clayton's rule govern
   - **Section 61 (Clayton's Rule):** If neither party appropriates, the law applies the payment in chronological order: **the earliest credit discharges the earliest debit**.
 • **Operational Hazard in Banking:** In a running cash credit account, if a guarantor dies, retires, or a partner withdraws, the bank must **immediately freeze (break) the existing account** and open a new running account for subsequent operations. If the bank fails to break the account, subsequent credits by the surviving borrower automatically extinguish the pre-death guaranteed debits under Clayton's Rule, while new debits constitute fresh unsecured advances, releasing the estate of the deceased guarantor!
 
-### 4. Banker's Duty of Secrecy: Common Law vs. Statutory Mandates
+### 4. Banker's Duty of Secrecy: Tournier Doctrine & Statutory Exceptions
 
-The banker's implied duty of confidentiality established in *Tournier v. National Provincial Bank (1924)* permits disclosure only under four strictly demarcated heads:
+The banker's implied duty of confidentiality established in *Tournier v. National Provincial Bank (1924)* (codified for public sector banks in Section 13 of Banking Companies Acquisition Acts 1970/1980 and Section 44 of SBI Act 1955) permits disclosure only under four strictly demarcated exceptions:
 1. **Under Compulsion of Law:**
-   - Section 29 of the Banking Regulation Act, 1949.
-   - Section 12 of the Prevention of Money Laundering Act, 2002 (reporting to FIU-IND).
-   - Section 226(3) of the Income Tax Act, 1961 (garnishment/attachment).
-   - Section 91 of the Code of Criminal Procedure, 1973 (summons to produce documents).
-   - Banker's Books Evidence Act, 1891 (certified copies).
-2. **Duty to the Public to Disclose:** Disclosures during national emergencies, treason, prevention of severe felonies, or public interest.
-3. **In the Interests of the Bank:** Recovery suits before DRT/Civil Court, SARFAESI notices, claiming deposit insurance from DICGC, defending against borrower litigation.
-4. **Express or Implied Consent of Customer:** Giving credit status opinions between banks with written authorization; mandatory reporting to Credit Information Companies (CICs: CIBIL, Experian, Equifax, CRIF High Mark) under the Credit Information Companies (Regulation) Act, 2005.
+   - Income Tax Act, 1961: Notice under Section 131, Section 133(6) (requisition of information), or Section 226(3) (garnishee notice).
+   - Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS): Section 94 (*earlier Section 91 of CrPC*) — summons to produce account documents.
+   - Prevention of Money Laundering Act, 2002: Section 12 (mandatory CTR/STR reporting to FIU-IND).
+   - Bankers' Books Evidence Act, 1891 / Bharatiya Sakshya Adhiniyam, 2023: Certified copies pursuant to court orders.
+   - Foreign Exchange Management Act, 1999 (FEMA): Enforcement Directorate statutory requisitions.
+2. **Duty to the Public to Disclose:** Disclosures to prevent treason, state crimes, money laundering networks, or public danger (*Tournier* doctrine).
+3. **In the Interests of the Bank:** Recovery suits before DRT or Civil Court, Section 13(2) SARFAESI notices, asserting banker's lien/set-off, or defending against litigation by the borrower.
+4. **Express or Implied Consent of Customer:** Banker's status references provided with explicit customer authorization; mandatory sharing with Credit Information Companies (CICs: CIBIL, Equifax, Experian, CRIF) under the Credit Information Companies (Regulation) Act, 2005.
 
 ---
 

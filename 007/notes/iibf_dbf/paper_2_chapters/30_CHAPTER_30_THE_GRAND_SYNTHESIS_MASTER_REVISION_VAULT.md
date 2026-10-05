@@ -30,8 +30,8 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               | BR Act Sec 45ZA to 45ZF            | Nominee = Trustee; Bank liability   |
 |                               |                                    | cap: 100x annual rent (fire/theft)  |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **07: Secrecy & Disclosure**  | Banker's Books Evidence Act 1891;  | Permitted: Compulsion of law, bank's|
-|                               | BR Act Sec 45E; Sec 138 NI Act     | interest, public duty, consent.     |
+| **07: Secrecy & Disclosure**  | Tournier Doctrine; Bank Acq Acts;  | Tournier 4 exceptions: Law, bank's  |
+|                               | IT Act Sec 133(6); BNSS Sec 94     | interest, public duty, consent.     |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **08, 09, 10: FEMA & Remit**  | FEMA 1999; Foreign Exchange Mgt Reg| LRS: USD 250,000 / FY; NRE/FCNR(B)  |
 |                               | FCRA 2010                          | fully repatriable & tax-free; NRO   |
@@ -79,7 +79,7 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 | **23: Credit Appraisal**      | Working Capital Assessment         | Nayak Comm: 25% WCR (20% bank, 5%   |
 |                               | (Nayak / Tandon Methodologies)     | margin); Tandon Method II: 1.33:1 CR|
 +-------------------------------+------------------------------------+-------------------------------------+
-| **24: Loan Management**       | RBI Master Directions on Lending;  | EBLR mandatory for Retail & MSME;   |
+| **24: Loan Management**       | RBI Master Directions on Lending;  | EBLR: Retail, MSE & Medium; Repo/TB;|
 |                               | Fair Practices Code (FPC)          | Recovery calls: 08:00 AM - 07:00 PM |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **25: Security & Charges**    | Indian Contract Act; Sale of Goods | Pledge (possession to bank);        |
@@ -111,11 +111,13 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 | **32: MSME Architecture**     | MSMED Act 2006 (Revised Criteria   | Micro: <= ₹2.5 Cr Inv / ₹10 Cr Turn;|
 |                               | effective April 1, 2025); CGTMSE   | Small: ₹25 Cr / ₹100 Cr; Medium:    |
 |                               |                                    | ₹125 Cr / ₹500 Cr; CGTMSE: ₹10 Cr;  |
+|                               |                                    | Women/Agniveer 90%, SC/ST/PwD 85%   |
 |                               |                                    | Delayed payment: 3x Bank Rate comp. |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **33: Government Schemes**    | PMMY (MUDRA); DAY-NRLM             | Shishu <= ₹50k; Kishore ₹50k-₹5L;   |
 |                               |                                    | Tarun ₹5L-₹10L; Tarun Plus ₹10L-₹20L;|
 |                               |                                    | DAY-NRLM: Collateral-free up to ₹20L|
+|                               |                                    | Women SHG 7% (MoRD 4.5% subvention) |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **34: Asset Classification**  | RBI IRAC Norms (Master Circular);  | Standard: 0.25%-1.0%; Substandard   |
 |                               | Prudential Framework June 7, 2019  | (<=12 mos): 15% (25% unsec); Doubtful|
@@ -174,12 +176,12 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 10. **Cheque Truncation System (CTS) Clearing:** CTS in India operates on a **continuous clearing and grid-based image exchange model** with on-realisation settlement (the old physical clearing batches are obsolete).
 11. **Positive Pay System (PPS):** Banks must enable PPS for all cheques of **₹50,000 and above** (at customer discretion) and may make it mandatory for cheques of **₹5,00,000 and above**.
 12. **Section 138 Notice Period:** Following dishonor of a cheque for insufficiency of funds, the statutory demand notice must be issued within **30 days** of receiving intimation. The drawer has **15 days** to pay before an offense is committed.
-13. **Forged Drawer Signature:** If a bank pays a cheque bearing a forged drawer signature, the bank has **zero statutory protection** under the NI Act; the payment cannot be debited to the customer's account because a forged instrument is a complete legal nullity.
+13. **Forged Drawer Signature & HDC Limits:** If a bank pays a cheque bearing a forged drawer signature, the bank has **zero statutory protection** under the NI Act; a forged instrument is a complete legal nullity. Crucially, **Holder in Due Course (HIDC) status CANNOT cure a forged instrument**; forgery confers zero title even to an HDC (distinguished from Section 58, which protects HDC against lost or fraudulently obtained instruments).
 14. **Paying Banker Protection for Bearer Cheques:** Under Section 85(2) of the NI Act, an open bearer cheque is **always payable to bearer**, regardless of any endorsement on the reverse.
 15. **Collecting Banker Protection (Section 131):** Protection is available to the collecting banker **only for crossed cheques**, provided the bank acted in good faith and without negligence. No Section 131 protection exists for open uncrossed cheques.
 16. **Demand Draft Bearer Prohibition:** Under Section 31 of the RBI Act, 1934, no entity other than RBI or Central Government can issue a bill or note payable to bearer on demand. Hence, Demand Drafts **can never be issued payable to bearer**.
 17. **Garnishee Order Coverage:** A court Garnishee Order attaches only funds that are **debts due or accruing due** at the exact time of service of the order. It does not attach subsequent deposits or credits received after the order is served.
-18. **Income Tax Attachment (Section 226(3)):** Unlike a Garnishee Order, an Income Tax Attachment Notice under Section 226(3) is continuing and attaches **both existing balances and any future credits** received until the demand is satisfied.
+18. **Income Tax Attachment & Banker's Secrecy:** Unlike a court Garnishee Order, an IT Notice under Section 226(3) is continuing and attaches both existing and future balances. Under the *Tournier* confidentiality doctrine, notices under Sections 131, 133(6), 226(3) of IT Act or **Section 94 of BNSS 2023** (*earlier CrPC §91*) represent statutory legal compulsion; Section 29 of the BR Act is NOT a customer secrecy disclosure provision.
 19. **Inoperative vs. DEA Fund:** An account becomes **inoperative/dormant** if there are no customer-induced transactions for **2 years**. Balances unclaimed for **10 years** must be transferred to RBI's Depositor Education and Awareness (DEA) Fund.
 20. **UDGAM Portal:** RBI's *Unclaimed Deposits - Gateway to Access Information* (UDGAM) allows public searching of unclaimed deposits across multiple banks.
 21. **KYC Document Updating Cadence:** Periodic KYC refresh is mandated every **2 years for High Risk**, every **8 years for Medium Risk**, and every **10 years for Low Risk** customers.
@@ -193,9 +195,9 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 29. **NRE vs. NRO Taxation:** NRE deposit interest is **exempt from Indian Income Tax and Wealth Tax**; NRO account interest is subject to **Tax Deducted at Source (TDS)** and local taxes.
 30. **Clean Note Policy Stapling Ban:** Stapling currency note packets is **strictly prohibited**. Writing, stamping, or scribbling on the watermark window of banknotes is prohibited.
 31. **Counterfeit Note Recovery:** When 5 or more counterfeit notes are detected in a single transaction, the bank must file a **First Information Report (FIR)** with the police; for up to 4 notes, a consolidated monthly report is sent.
-32. **Working Capital Nayak Committee Norm:** For working capital limits up to ₹5 Crore (or MSME limits), working capital requirement is assessed at minimum **25% of projected annual turnover**, where the bank funds **20%** and the borrower brings **5%** as margin.
+32. **Working Capital Nayak Norm & CGTMSE Coverage:** For working capital limits up to ₹5 Crore, requirement is assessed at minimum **25% of turnover** (20% bank, 5% borrower). Separately, under CGTMSE (up to ₹10 Crore), guarantee cover is **90% for women entrepreneurs and Agniveers**, 85% for SC/ST, PwD, and aspirational districts, and 75% standard.
 33. **Tandon Committee Method II:** Current Ratio must be at least **1.33:1**; maximum bank finance is 75% of Current Assets minus Current Liabilities other than bank borrowings.
-34. **External Benchmark Lending Rate (EBLR):** Mandatory for all new floating-rate personal, retail, and MSME loans. Spread cannot be altered over the loan life unless customer credit assessment changes. Interest rate reset must occur at least **once every three months**.
+34. **External Benchmark Lending Rate (EBLR):** Mandatory for Scheduled Commercial Banks (excl. RRBs) across all new floating-rate personal/retail loans, MSE loans, and **Medium Enterprise loans (effective 1 April 2020)**. Linked to RBI Repo, 3M/6M T-Bills, or other FBIL benchmarks with mandatory interest rate reset at least **once every three months**.
 35. **Recovery Agents Calling Window:** Banks and recovery agents are strictly prohibited from calling borrowers before **08:00 AM** or after **07:00 PM**.
 36. **Prepayment Penalty Ban:** Banks are strictly prohibited from charging prepayment penalties or foreclosure charges on **floating-rate retail and MSME loans** sanctioned to individual borrowers.
 37. **LTV Ratios for Home Loans:** Up to ₹30 Lakh: LTV up to **90%**; ₹30 Lakh to ₹75 Lakh: LTV up to **80%**; Above ₹75 Lakh: LTV up to **75%**.

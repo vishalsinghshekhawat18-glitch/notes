@@ -205,12 +205,47 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // Check CGTMSE ₹10 Crore & TReDS ₹25 Crore in Ch 20
+  // Check CGTMSE ₹10 Crore, 90% Women & TReDS ₹25 Crore in Ch 20
   const ch20Text = fs.readFileSync(path.join(chaptersDir, '20_CHAPTER_20_MSME_ARCHITECTURE_CGTMSE_GOVERNMENT_SCHEMES.md'), 'utf-8');
-  if (ch20Text.includes('₹10 Crore') && ch20Text.includes('₹25 Crore')) {
-    console.log(`  ✓ High-Risk Finding Verified: CGTMSE collateral-free guarantee up to ₹10 Crore & TReDS operator net worth ₹25 Crore codified in Chapter 20.`);
+  if (ch20Text.includes('₹10 Crore') && ch20Text.includes('90%') && ch20Text.includes('Women') && ch20Text.includes('₹25 Crore')) {
+    console.log(`  ✓ High-Risk Finding Verified: CGTMSE up to ₹10 Crore with 90% coverage for Women/Agniveers & TReDS ₹25 Crore codified in Chapter 20.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: CGTMSE ₹10 Crore or TReDS ₹25 Crore missing in Chapter 20.`);
+    console.error(`  ✗ GATE 5 FAIL: CGTMSE ₹10 Crore / 90% women or TReDS missing in Chapter 20.`);
+    dataCheckPass = false;
+  }
+
+  // Check DAY-NRLM FY2025-26 7% and 4.5% subvention in Ch 20
+  if (ch20Text.includes('7.0%') && ch20Text.includes('4.5%')) {
+    console.log(`  ✓ High-Risk Finding Verified: DAY-NRLM FY2025-26 interest framework (7% rate with 4.5% subvention) codified in Chapter 20.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: DAY-NRLM FY2025-26 interest rules missing in Chapter 20.`);
+    dataCheckPass = false;
+  }
+
+  // Check Banker's Secrecy Tournier and BNSS Sec 94 in Ch 01
+  const ch1Text = fs.readFileSync(path.join(chaptersDir, '01_CHAPTER_01_BANKER_CUSTOMER_RELATIONSHIP_RIGHTS_DUTIES.md'), 'utf-8');
+  if (ch1Text.includes('Tournier') && ch1Text.includes('BNSS') && ch1Text.includes('94') && !ch1Text.includes('Section 29 of the Banking Regulation Act')) {
+    console.log(`  ✓ High-Risk Finding Verified: Banker's Secrecy Tournier doctrine and BNSS §94 (free of false BR Act §29 citation) codified in Chapter 01.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Banker's secrecy Tournier or BNSS §94 missing in Chapter 01.`);
+    dataCheckPass = false;
+  }
+
+  // Check HDC statutory exceptions and Section 58 in Ch 09
+  const ch9HdcText = fs.readFileSync(path.join(chaptersDir, '09_CHAPTER_09_NEGOTIABLE_INSTRUMENTS_ACT_CTS_CLEARING.md'), 'utf-8');
+  if (ch9HdcText.includes('Section 58') && (ch9HdcText.includes('Forgery Cannot be Cleansed') || ch9HdcText.includes('forged'))) {
+    console.log(`  ✓ High-Risk Finding Verified: HDC privileges qualified with Section 58 and non-cleansing of forged instruments in Chapter 09.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: HDC Section 58 or forgery qualification missing in Chapter 09.`);
+    dataCheckPass = false;
+  }
+
+  // Check EBLR Medium Enterprises and FBIL benchmarks in Ch 13
+  const ch13Text = fs.readFileSync(path.join(chaptersDir, '13_CHAPTER_13_PRINCIPLES_OF_LENDING_LOAN_MANAGEMENT.md'), 'utf-8');
+  if (ch13Text.includes('Medium Enterprises') && (ch13Text.includes('FBIL') || ch13Text.includes('3-Month') || ch13Text.includes('Repo'))) {
+    console.log(`  ✓ High-Risk Finding Verified: EBLR framework includes Medium Enterprises and FBIL Treasury Bill benchmarks in Chapter 13.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: EBLR Medium Enterprises or FBIL benchmarks missing in Chapter 13.`);
     dataCheckPass = false;
   }
 

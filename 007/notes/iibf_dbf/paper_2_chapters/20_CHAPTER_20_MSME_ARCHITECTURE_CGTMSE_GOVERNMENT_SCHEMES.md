@@ -28,8 +28,11 @@ Micro, Small and Medium Enterprises (MSMEs) drive industrial output, exports, an
 
 • **Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE):**
   - Jointly set up by Ministry of MSME and SIDBI.
-  - Provides credit guarantee coverage up to **₹10 Crore** per borrower without requiring collateral or third-party guarantees.
-  - Guarantee cover extends up to 85% for micro enterprises (loans up to ₹5 Lakh), women entrepreneurs, SC/ST, and aspirational districts; 75% for general category MSEs up to ₹10 Crore (and up to 90% for select special initiatives).
+  - Collateral-free guarantee coverage up to **₹10 Crore** per eligible borrower.
+  - **Category Coverage Matrix (Guarantees approved on/after 1 April 2025):**
+    1. **90% Coverage:** **Women Entrepreneurs** and MSEs promoted by **Agniveers**.
+    2. **85% Coverage:** Micro Enterprises (up to ₹5 Lakh), **SC / ST**, **PwD**, **Aspirational Districts / NER**, and **ZED-certified** units.
+    3. **75% Coverage:** Standard / General category MSEs for credit facilities exceeding ₹5 Lakh up to **₹10 Crore**.
 • **Trade Receivables Discounting System (TReDS):**
   - Electronic institutional platform authorized by RBI to facilitate financing/discounting of trade receivables of MSMEs from corporate buyers and PSUs through multiple financiers.
   - **Operator Net Worth:** Entities setting up and operating a TReDS platform must have a minimum paid-up equity capital / net worth of **₹25 Crore** as mandated by the RBI.
@@ -55,7 +58,9 @@ Micro, Small and Medium Enterprises (MSMEs) drive industrial output, exports, an
   - Revolving Fund (RF) and Community Investment Support Fund (CIF).
   - Credit linkage in multiple doses (up to 4 times of group savings or specified slabs).
   - **Collateral-Free Limit:** **Zero collateral up to ₹10 Lakh**, enhanced to **₹20 Lakh for eligible SHGs** under DAY-NRLM.
-  - Interest subvention on credit up to ₹3 Lakh bringing the effective rate down to **7.0% p.a.** (with prompt repayment incentive further reducing it to **4.0% p.a.**).
+  - **Interest Subvention Architecture (Current FY2025-26 Master Circular):**
+    - For Women SHGs on credit facilities **up to ₹3 Lakh**, banks lend at **7.0% p.a.**; MoRD provides an interest subvention of **4.5% p.a.** directly to lending banks.
+    - For credit facilities **above ₹3 Lakh up to ₹5 Lakh**, banks lend at an interest rate equivalent to their 1-year MCLR or external benchmark, or **10.0% p.a.**, whichever is lower. *(The historical 3% additional prompt repayment incentive bringing the net rate to 4% was part of the older pre-2023 NRLM structure).*
 
 ---
 

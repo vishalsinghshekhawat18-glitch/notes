@@ -27,10 +27,10 @@ The Negotiable Instruments Act 1881 governs cheques, promissory notes, and bills
 • **Holder in Due Course (HIDC - Sec 9):** A person who for **valuable consideration** became the possessor/payee/endorsee of an instrument:
   1. **Before maturity**.
   2. In **good faith** and without sufficient cause to believe that any defect existed in the title of the person from whom he derived it.
-• **Privileges of HIDC (Section 36, 42, 43, 58):**
-  - Defect in prior title does not affect HIDC: *"A holder in due course cleanses the instrument of all prior defects."*
-  - Estoppel against denying original validity of instrument.
-  - Can recover against all prior parties until the instrument is discharged.
+• **Privileges & Statutory Limits of HIDC (Sections 36, 42, 43, 58):**
+  - **Better Title than Transferor:** An HDC acquires a title free from equities and prior defects. Under **Section 58**, even if an instrument was lost or obtained by fraud, offense, or unlawful consideration, an HDC can validly recover on it.
+  - **Crucial Statutory Exception — Forgery Cannot be Cleansed:** HDC protection **does NOT cure a forged instrument**. A forged drawer signature or forged endorsement is a complete nullity (*null and void ab initio*); forgery confers zero title even to an HDC! Nor can an HDC enforce an instrument void ab initio under express statutory prohibitions (e.g., executed by an incompetent minor).
+  - **Estoppel & Prior Liability:** Estoppel against denying original validity or payee's capacity; all prior parties remain liable to the HDC until the instrument is duly satisfied.
 
 ### 3. Crossing & Material Alteration (Sections 123–131, 87)
 

@@ -44,8 +44,8 @@ Financial inclusion drives institutional banking penetration to unserved segment
 
 ### 3. Banker's Duty of Confidentiality & Legal Exceptions
 
-Section 13 of the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970/1980 mandates strict secrecy. Disclosures are permitted only under:
-• **Compulsion of Law:** Section 29 BR Act (financial statements inspection), Section 12 PMLA 2002 (reporting suspicious transactions to FIU-IND), Section 226(3) Income Tax Act.
+Section 13 of the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970/1980 and Section 44 of the SBI Act, 1955 mandate strict customer confidentiality (*Tournier* doctrine). Disclosures are permitted only under:
+• **Compulsion of Law:** Income Tax Act 1961 (Sections 131, 133(6), 226(3)); Bharatiya Nagarik Suraksha Sanhita 2023 Section 94 (*earlier CrPC §91*); Section 12 PMLA 2002 (reporting CTR/STR to FIU-IND); orders under Bankers' Books Evidence Act 1891 / BSA 2023.
 • **Credit Information Sharing:** Mandatory monthly submission of credit records to Credit Information Companies (CICs: CIBIL, Equifax, Experian, CRIF High Mark) under the Credit Information Companies (Regulation) Act, 2005 without requiring separate consent for statutory reporting.
 
 ---

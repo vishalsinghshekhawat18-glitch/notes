@@ -36,12 +36,17 @@ Credit and advances constitute the principal earning assets of commercial bankin
 • **Marginal Cost of Funds Based Lending Rate (MCLR):**
   - Internal benchmark computed on marginal cost of borrowings, CRR negative carry, operating costs, and tenor premium.
   - Reset periodicity typically 1 year.
-• **External Benchmark Lending Rate (EBLR - Mandatory since October 2019):**
-  - All new floating-rate personal/retail loans (home, auto, personal) and floating-rate loans to Micro and Small Enterprises (MSEs) **MUST be linked to an External Benchmark**:
-    1. RBI Policy Repo Rate, OR
-    2. Government of India 91-Day or 182-Day Treasury Bill yield published by FBIL.
-  - Reset Frequency: Mandated reset at least **once in three months (quarterly)**.
-  - Spread: Fixed at loan inception; credit spread can be reset only if borrower's credit assessment undergoes a documented structural downgrade.
+• **External Benchmark Lending Rate (EBLR - Mandatory RBI Framework):**
+  - **Scope:** Scheduled Commercial Banks (SCBs), excluding RRBs, must link all new floating-rate loans across three mandatory sectors to an External Benchmark:
+    1. Personal / Retail loans (housing, auto, personal) — *effective October 2019*.
+    2. Loans to Micro and Small Enterprises (MSEs) — *effective October 2019*.
+    3. Loans to **Medium Enterprises** — *extended and effective 1 April 2020*.
+  - **Permissible External Benchmarks (FBIL Published):**
+    1. Reserve Bank of India Policy Repo Rate; OR
+    2. GoI 3-Month (91-Day) Treasury Bill yield published by Financial Benchmark India Pvt Ltd (FBIL); OR
+    3. GoI 6-Month (182-Day) Treasury Bill yield published by FBIL; OR
+    4. Any other benchmark market interest rate published by FBIL.
+  - **Single Benchmark & Reset Rules:** Banks must adopt a uniform benchmark within each loan category. Interest rate reset must occur at least **once in three months (quarterly)**. Credit risk spread is fixed at inception and can only be altered upon documented credit downgrade.
 
 ### 2. Fair Practices Code & Recovery Agent Regulations
 

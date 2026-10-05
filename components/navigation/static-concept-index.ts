@@ -2392,7 +2392,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,742 words • 8 min read"
+    "badge": "1,793 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-2",
@@ -2422,7 +2422,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
       "concept": "§ 1.2 Unit 07: Banker's Special Relationship, Rights & Duties"
     },
-    "badge": "675 words"
+    "badge": "726 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-4",
@@ -2969,7 +2969,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,212 words • 6 min read"
+    "badge": "1,302 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing-sec-2",
@@ -2984,7 +2984,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "NEGOTIABLE INSTRUMENTS ACT 1881 & MODERN CTS CLEARING",
       "concept": "§ 9.1 Unit 12: Statutory Framework of Negotiable Instruments"
     },
-    "badge": "614 words"
+    "badge": "704 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing-sec-3",
@@ -3117,7 +3117,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "959 words • 5 min read"
+    "badge": "985 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-2",
@@ -3147,7 +3147,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
       "concept": "§ 11.2 Units 17 & 18: Customer Service Framework, Secrecy & BCSBI Historical Status"
     },
-    "badge": "273 words"
+    "badge": "299 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-4",
@@ -3265,7 +3265,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,020 words • 5 min read"
+    "badge": "1,096 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management-sec-2",
@@ -3295,7 +3295,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PRINCIPLES OF LENDING, CREDIT TAXONOMY & LOAN MANAGEMENT",
       "concept": "§ 13.2 Unit 24: Operational Loan Account Management & Recovery Code"
     },
-    "badge": "275 words"
+    "badge": "351 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-13_chapter_13_principles_of_lending_loan_management-sec-4",
@@ -3783,7 +3783,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,071 words • 5 min read"
+    "badge": "1,146 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-2",
@@ -3798,7 +3798,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
       "concept": "§ 20.1 Unit 39: MSME Classification & Statutory Safeguards"
     },
-    "badge": "430 words"
+    "badge": "444 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-3",
@@ -3813,7 +3813,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
       "concept": "§ 20.2 Units 40 & 41: Government Schemes & Self-Help Groups (SHGs)"
     },
-    "badge": "208 words"
+    "badge": "269 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-4",
@@ -4523,7 +4523,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "4,315 words • 20 min read"
+    "badge": "4,413 words • 21 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-2",
@@ -4538,7 +4538,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger"
     },
-    "badge": "1535 words"
+    "badge": "1552 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-3",
@@ -4553,7 +4553,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)"
     },
-    "badge": "1702 words"
+    "badge": "1783 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-4",
