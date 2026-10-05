@@ -65,7 +65,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="py-6 border-t border-[#1E3A2E] bg-[#10251F] px-4 sm:px-6 text-center text-xs text-[#A1B8A9] font-mono shrink-0 select-none">
-          <div className="max-w-6xl mx-auto w-full flex flex-col sm:flex-row items-center justify-between gap-3 min-w-0">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col sm:flex-row items-center justify-between gap-3 min-w-0">
             <div className="flex items-center gap-2">
               <span className="text-[#FAF8F3] font-bold font-serif">▲ Mind of Aravalli</span>
               <span className="text-[#2A4D3E]">•</span>
