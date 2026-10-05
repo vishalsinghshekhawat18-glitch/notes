@@ -271,6 +271,24 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check v5.1 Canonical Master Refinements:
+  // 1. Insurance FDI 100% (Sabka Bima Sabki Raksha Act 2025, in force 5 Feb 2026)
+  const ch27TextGate5 = fs.readFileSync(path.join(chaptersDir, '27_CHAPTER_27_THE_GRAND_SYNTHESIS_MASTER_REVISION_VAULT.md'), 'utf-8');
+  const insFdiOk = ch26Text.includes('100%') && ch26Text.includes('Sabka Bima Sabki Raksha') && ch27TextGate5.includes('100% FDI');
+  // 2. NPS full normalization: age 85, 4 partial withdrawals, 5-yr lock-in removed
+  const nps85Ok = ch26Text.includes('age 85') && ch26Text.includes('4 times') && ch26Text.includes('5-yr lock-in removed') && ch27TextGate5.includes('age 85');
+  // 3. NDB Uzbekistan (10th member, 5 June 2026)
+  const uzbekOk = ch6Text.includes('Uzbekistan') && ch6Text.includes('10 members') && ch27TextGate5.includes('Uzbekistan');
+  // 4. REIT vs REMF and InvIT revenue architecture
+  const reitRemfOk = ch25Text.includes('Real Estate Mutual Funds (REMF)') && ch25Text.includes('InvIT Revenue Architecture');
+
+  if (insFdiOk && nps85Ok && uzbekOk && reitRemfOk) {
+    console.log(`  ✓ v5.1 Canonical Master Fixes Verified: Insurance FDI 100% (Feb 2026), NPS age 85 & 4 partial withdrawals, NDB Uzbekistan 10th member, REIT vs REMF & InvIT revenue architecture verified.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: v5.1 fixes missing (insFdi=${insFdiOk}, nps85=${nps85Ok}, uzbek=${uzbekOk}, reitRemf=${reitRemfOk}).`);
+    dataCheckPass = false;
+  }
+
   // Check C-13: Question Provenance Tags across all 27 chapters
   let allTagsPresent = true;
   for (let ch = 1; ch <= 27; ch++) {

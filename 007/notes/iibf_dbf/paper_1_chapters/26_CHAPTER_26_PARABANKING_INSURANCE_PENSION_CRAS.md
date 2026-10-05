@@ -36,7 +36,7 @@ Commercial banks extend beyond traditional deposit-taking and lending into para-
 ### 1. Insurance Sector Architecture & Regulatory Milestones
 
 • **Historical Evolution:** Life Insurance Corporation of India (LIC) formed by nationalizing 245 private insurers under the **LIC Act, 1956**. General insurance nationalized under the **General Insurance Business (Nationalisation) Act, 1972 (GIBNA)**, establishing the General Insurance Corporation of India (**GIC Re**, now the national reinsurer).  
-• **Malhotra Committee (1994) & IRDA Act (1999):** Recommended opening the sector to private capital and establishing an independent regulator. **IRDAI** established as statutory apex regulator in April 2000. **Foreign Direct Investment (FDI) cap stands at 74%** under automatic route.  
+• **Malhotra Committee (1994) & IRDA Act (1999):** Recommended opening the sector to private capital and establishing an independent regulator. **IRDAI** established as statutory apex regulator in April 2000. **Foreign Direct Investment (FDI) Cap:** Under the *Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025* (in force **5 February 2026**), foreign investors are permitted to hold up to **100% equity capital** in Indian insurance companies (raised from the prior 74% ceiling).  
 • **Key Metrics & Intermediaries:**  
   - **Insurance Penetration:** Ratio of total insurance premium to **Gross Domestic Product (GDP)** in percentage.  
   - **Insurance Density:** Ratio of total premium to **total national population**, measured in USD per capita.  
@@ -82,16 +82,16 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 | Dimension / Event | Government Sector (Central/State Govt) | All-Citizen Model (Individual Voluntary) | Corporate Model (Employer-Employee) |
 | :--- | :--- | :--- | :--- |
-| **Normal Exit Timing** | At Superannuation / Retirement / Discharge | At or after age 60 (up to age 75) | At age 60 or employer retirement age |
+| **Normal Exit Timing** | At Superannuation / Retirement / Discharge | At or after age 60 (deferrable up to age 85) | At age 60 or employer retirement age (up to age 85) |
 | **Normal Annuitization vs Lump Sum** | • Min **40% Annuitized**<br>• Up to **60% Lump Sum** | • Min **20% Annuitized**<br>• Up to **80% Lump Sum** | • Min **20% Annuitized**<br>• Up to **80% Lump Sum** |
 | **Normal Exit Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹8 Lakh**<br>100% lump sum option *(for > ₹8L to ₹12L, special split applies; > ₹12L standard min 40% annuity)* | **Corpus ≤ ₹8 Lakh**<br>100% lump sum / SLW / SUR option *(Special band exists for ₹8L–₹12L)* | **Corpus ≤ ₹8 Lakh**<br>100% lump sum option *(PFRDA non-govt unified threshold)* |
-| **Premature Exit Timing** | Resignation / Removal from service | Before age 60 (min 5 years subscription) | Before retirement (min 5 years subscription) |
+| **Premature Exit Timing** | Resignation / Removal from service | Before age 60 (voluntary exit; 5-yr lock-in removed) | Before retirement / superannuation (voluntary exit) |
 | **Premature Annuitization vs Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** | • Min **80% Annuitized**<br>• Up to **20% Lump Sum** |
 | **Premature Small Corpus (100% Lump Sum)** | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA Schedule I)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA FAQs)* | **Corpus ≤ ₹5 Lakh**<br>100% lump sum option *(PFRDA non-govt unified threshold)* |
-| **Post-60 Continuation & Deferral** | Annuity can be deferred up to age 75 | Can continue contributing and defer annuity/lump sum up to age 75 | Can continue contributing and defer annuity/lump sum up to age 75 |
+| **Post-60 Continuation & Deferral** | Annuity can be deferred up to age 85 | Can continue contributing and defer annuity/lump sum up to age 85 | Can continue contributing and defer annuity/lump sum up to age 85 |
 | **Demise / Death of Subscriber** | 100% payout to nominee or legal heirs (or option for annuity) | 100% payout to nominee or legal heirs (or option for annuity) | 100% payout to nominee or legal heirs (or option for annuity) |
 
-• **Partial Withdrawals (Tier-I Account):** Eligible after **3 years** continuous subscription; maximum **25% of subscriber's own contributions** (excluding employer contributions and returns); maximum **3 times** during entire tenure for specified reasons (children's education/marriage, home purchase, critical illnesses).
+• **Partial Withdrawals (Tier-I Account):** Eligible after **3 years** continuous subscription; maximum **25% of subscriber's own contributions** (excluding employer contributions and returns). Under current PFRDA All-Citizen / Corporate guidelines, permitted up to **4 times** during entire tenure before age 60 with a minimum interval of 4 years between consecutive withdrawals (the 4-year interval is relaxed for designated medical emergencies / critical illnesses). Post-60, Systematic Unit Redemption (SUR) provides recurring liquidity.
 
 ### 3. Statutory Provident Funds & Annuity Framework
 
@@ -128,14 +128,15 @@ Under PFRDA regulations and master guidelines, exit and withdrawal rules are str
 
 1. **Trap — Lowest Investment Grade Rating:** **`BBB-`** is the lowest investment-grade rating. An option stating `BB+` is **incorrect** (`BB+` is speculative/junk grade).
 2. **Trap — Insurable Interest in Fire Insurance:** Insurable interest in Fire Insurance must exist **BOTH at policy inception AND at the time of loss**. In Life Insurance, it is required only at policy inception.
-3. **Trap — NPS Normal Exit Small Corpus by Model:** Under PFRDA's 16 Dec 2025 amended regulations, for **Both Government Sector and Non-Government sectors (All-Citizens & Corporate)**, if accumulated NPS corpus at retirement/age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (for Government > ₹8L to ₹12L, special split applies; above ₹12L, min 40% annuity; for All-Citizens & Corporate above ₹12L, min 20% annuity).
-4. **Trap — NPS Premature Exit Small Corpus by Model:** In premature exit (resignation before superannuation / before age 60), min 80% annuity is mandatory. 100% full lump sum is permitted if corpus is **≤ ₹5 Lakh across both Government and Non-Government (All-Citizens & Corporate) sectors** (raised from legacy ₹2.5 Lakh).
+3. **Trap — NPS Normal Exit Small Corpus & Deferral by Model:** Under PFRDA amended exit regulations, for **Both Government Sector and Non-Government sectors (All-Citizens & Corporate)**, if accumulated NPS corpus at retirement/age 60 is **≤ ₹8 Lakh**, the subscriber can withdraw **100% as a lump sum without mandatory annuitization** (for Government > ₹8L to ₹12L, special split applies; above ₹12L, min 40% annuity; for All-Citizens & Corporate above ₹12L, min 20% annuity). Both models allow continuation/deferral up to **age 85** (extended from age 75).
+4. **Trap — NPS Premature Exit & Lock-in by Model:** In premature exit (resignation before superannuation / before age 60), min 80% annuity is mandatory. 100% full lump sum is permitted if corpus is **≤ ₹5 Lakh across both Government and Non-Government (All-Citizens & Corporate) sectors** (raised from legacy ₹2.5 Lakh). The previous 5-year lock-in for All-Citizens has been removed; partial withdrawals are permitted up to **4 times** before age 60.
 5. **Trap — APY Income Tax Exclusion:** Income-tax payers are **STRICTLY INELIGIBLE** to enroll in Atal Pension Yojana.
 6. **Trap — Credit Card Bank Net Worth:** Banks must have a minimum Net Worth of **₹100 Crore** to undertake standalone credit card issuance.
 7. **Trap — Insurance Penetration vs Density:** Penetration is premium as a **% of GDP**; Density is premium **per capita in USD**. Do not reverse these two metrics.
 8. **Trap — Social Insurance Premiums:** PMJJBY annual premium is **₹436** (life cover ₹2 Lakh); PMSBY annual premium is **₹20** (accidental cover ₹2 Lakh).
 9. **Trap — Insurance Ombudsman Pecuniary Limit:** The Insurance Ombudsman can award compensation up to **₹30 Lakh** (including ex-gratia and other expenses).
 10. **Trap — Employer EPF Contribution Split:** The employer's 12% is split into **8.33% to EPS** (capped at ₹15,000 wage ceiling, i.e., max ₹1,250/mo) and **3.67% + excess over ceiling into EPF**; it is NOT an unconditional 8.33% on uncapped salaries.
+11. **Trap — Insurance FDI Ceiling:** Under the *Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025* (in force 5 February 2026), the statutory FDI ceiling in Indian insurance companies is **100%**, NOT 74% (and not 49%).
 
 ---
 

@@ -31,7 +31,7 @@ India's external economic engagement is governed by trade liberalization, foreig
 1. **Continuous Policy Architecture:** No fixed sunset date; updated dynamically based on real-time trade feedback.
 2. **Export Target:** **$2 Trillion in total exports** ($1T merchandise + $1T services) by **2030**.
 3. **Four Strategic Pillars:** (1) Incentive to Remission (RoDTEP, RoSCTL); (2) Export Promotion via Collaboration (States, Districts, Missions); (3) Ease of Doing Business (digital processing, paperless certificates); (4) Emerging Sectors (E-Commerce exports cap ₹10 Lakh/consignment; 43 Towns of Export Excellence).
-• **Policy Evolution (FTP 2015–20 to FTP 2023):** FTP 2015–20 relied on direct incentive schemes (MEIS and SEIS). After WTO dispute panels ruled direct export subsidies incompatible with ASCM rules, India shifted to WTO-compliant duty remission schemes (**RoDTEP** and **RoSCTL**), paving the way for the dynamic, sunset-free FTP 2023.
+• **Policy Evolution & WTO Dispute Transition:** FTP 2015–20 relied on direct incentive schemes like MEIS and SEIS. Under the WTO Agreement on Subsidies and Countervailing Measures (ASCM), direct export subsidies were challenged as prohibited; India transitioned to WTO-compliant duty remission schemes—**RoDTEP** (Remission of Duties and Taxes on Exported Products) and **RoSCTL** (Rebate of State and Central Taxes and Levies)—which merely neutralize unrefunded domestic taxes rather than providing subsidies, forming the basis of **FTP 2023**.
 
 ### 2. Foreign Investment Architecture: FDI vs. FPI / FII
 
@@ -93,7 +93,7 @@ In July 2022, the RBI permitted invoice, payment, and settlement of internationa
 | Institution / Grouping | Member Architecture & Scope | Strategic Economic Relevance for India |
 | :--- | :--- | :--- |
 | **ADB (Asian Development Bank)** | 1966; Manila; Japan & US largest (15.6% each); India 4th largest shareholder. | Major multilateral financier of Indian state highways, urban metro, and energy corridors. |
-| **NDB (New Development Bank)** | Fortaleza Agreement 2014, established **2015**; Shanghai; Founding BRICS ($50B initial, $100B authorized); expanded membership includes Bangladesh, UAE, Egypt, Algeria. | Sovereign & non-sovereign infrastructure lending; distinct from the separate BRICS CRA mechanism. |
+| **NDB (New Development Bank)** | Fortaleza Agreement 2014, established **2015**; Shanghai; Founding BRICS ($50B initial, $100B authorized); **10 members** as of 5 June 2026 (Founding 5 + Bangladesh, UAE, Egypt, Algeria, **Uzbekistan**). | Sovereign & non-sovereign infrastructure lending; distinct from the separate BRICS CRA mechanism. |
 | **BRICS CRA** | Established 2015; **$100 Billion** liquidity safety net mechanism (China $41B, Brazil/India/Russia $18B each, SA $5B). | Standalone mutual central bank contingency swap mechanism, not an NDB credit facility. |
 | **AIIB (Asian Infra Investment Bank)** | 2016; Beijing; China largest (26.6%); **India 2nd largest shareholder** (7.6%). | Sovereign-guaranteed infrastructure project lending (India is cumulative largest borrower). |
 | **SAARC / SAFTA** | South Asian Association (8 members); South Asian Free Trade Area (in force 2006). | Regional tariff reduction framework, though constrained by geopolitical frictions. |

@@ -1,4 +1,4 @@
-﻿# INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs
+# INFRASTRUCTURE, LOGISTICS & CLIMATE SDGs
 
 Infrastructure represents the foundational capital asset enabling economic production, logistics efficiency, and human capital formation. This chapter integrates Physical and Social Infrastructure (Unit 05) with Climate Action, Sustainable Development Goals (SDGs), and Corporate Social Responsibility mandates (Unit 10).
 
@@ -57,7 +57,7 @@ At COP26 (Glasgow) and reaffirmed in updated Nationally Determined Contributions
 
 • **Sovereign Green Bonds (SGrBs):** Issued by RBI on behalf of the Government; proceeds are credited to Consolidated Fund of India and deployed into public green infrastructure.  
 • **Business Responsibility and Sustainability Reporting (BRSR):** Mandated by SEBI for the **Top 1,000 listed entities by market capitalization**.  
-• **BRSR Core Regime (Current as of October 2026 — SEBI Circulars & FAQs):**  
+• **BRSR Core Regime (Exam Baseline as of 30 June 2026 — SEBI Circulars & FAQs):**  
   Introduced in July 2023, **BRSR Core** comprises **9 key measurable ESG attributes / KPIs** (GHG emissions, water footprint, waste management, gender diversity):
   - *Applicability Glide Path:* Covers Top 150 (FY 2023–24), Top 250 (FY 2024–25), Top 500 (FY 2025–26), and Top 1,000 (FY 2026–27) listed entities.
   - *Assessment or Assurance Flexibility:* While the July 2023 circular originally contemplated mandatory third-party reasonable assurance, current SEBI regulatory framework provides operational flexibility allowing **either assessment or assurance** of BRSR Core metrics.

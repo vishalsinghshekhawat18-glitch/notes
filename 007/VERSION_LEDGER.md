@@ -17,6 +17,38 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v025 — Book 02: IIBF DB&F Paper 1 (IE&IFS) Final Release Print Edition (v5.1 / Canonical Master) • IIBF 2026 Rules & Syllabus Official Benchmark (PASS 100/100 GREEN LIGHT)
+* **Release Date**: 2026-10-05
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: 100% Certified Sovereign Master Print Codex (`007_Book_02_IIBF_Paper_1_IE_IFS_Master_Codex_A4_BW.pdf`) — **FINAL RELEASE PRINT EDITION (v5.1 / CANONICAL MASTER)**
+* **Audit Score**: **100 / 100 (GREEN LIGHT FOR PRINTING / PRIMARY SOLE SOURCE CERTIFICATION)** — All 10 Certification Gates fully passed.
+* **Physical Architecture**: Exact 119 physical pages (2 Front Matter + 2 TOC + 115 continuous body pages) across all 27 chapters / 45 syllabus units. Zero folio drift, zero double-stacking, strict ISO A4 Portrait standard.
+* **Revision Versioning Stamp**:
+  - Cover Banner: `FINAL RELEASE PRINT EDITION (v5.1 / CANONICAL MASTER) • IIBF 2026 RULES & SYLLABUS OFFICIAL BENCHMARK`
+  - CIP Colophon: `Final Release Print Edition (v5.1 / Canonical Master) • IIBF 2026 Rules & Syllabus Official Benchmark (October 2026)`
+  - Master Revision Vault (Ch 27): Reconciled with v5.1 baselines, including Insurance FDI 100%, NPS full normalization, Uzbekistan NDB membership, and 45-Unit Traceability Ledger.
+* **Final Forensic Remediation Deliverables (v5.1)**:
+  1. **RB-01 (P0): Insurance Sector FDI Raised to 100% under Sabka Bima Sabki Raksha Act, 2025**:
+     - Corrected statutory FDI ceiling in Indian insurance companies from obsolete 74% to **100% equity capital** under the *Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025* (notified and in force **5 February 2026**; safely inside the 30 June 2026 exam cutoff).
+     - Synchronized across Chapter 26 (§ 26.2), Chapter 26 Trap 11, Chapter 27 Fast Recall Ledger (§ 27.1), Chapter 27 Trap 50 (§ 27.2), and Unit 42 Traceability Ledger (§ 27.4).
+  2. **RB-02 (P0): National Pension System (NPS) Full Framework Normalization**:
+     - Normalized non-government exit rules: removed legacy 5-year lock-in / subscription requirement for All-Citizen premature exit.
+     - Updated continuation and deferral ceiling from age 75 to **age 85** across Government, All-Citizen, and Corporate models in the detailed table, prose, traps, and summary ledgers.
+     - Codified updated partial-withdrawal architecture: permitted up to **4 times** during tenure before age 60 with a 4-year interval (interval relaxed for critical illness), supplemented by post-60 Systematic Unit Redemption (SUR).
+  3. **P1-01: New Development Bank (NDB) 10th Member Codified (Uzbekistan)**:
+     - Updated NDB membership architecture in Chapter 06 and Chapter 27 to explicitly include **Uzbekistan**, which deposited its accession instrument on **5 June 2026** (10 members: Founding BRICS 5 + Bangladesh, UAE, Egypt, Algeria, Uzbekistan).
+  4. **P1-02: Explicit IIBF Subtopic Demonstration Codified**:
+     - *TReDS Platform Operator Eligibility:* Codified minimum paid-up equity capital / net worth of **₹25 Crore**, PSS Act 2007 RBI authorization, and financial/IT promoter experience vs tripartite participant criteria (MSME sellers, buyers, financiers) [Ch 25].
+     - *Leasing Regulatory Framework & Asset Classes:* Codified dominant leased asset classes (Plant & Machinery, Commercial Vehicles, IT/Office Automation), RBI NBFC-ICC SBR oversight, Indian Contract Act bailment, and Ind AS 116 accounting [Ch 25].
+     - *REIT vs Real Estate Mutual Funds (REMF):* Codified explicit structural comparison: direct physical real estate ownership & management (REIT, 80:90 rule) vs pooling capital to invest in corporate securities/REIT units (REMF) [Ch 25].
+     - *InvIT Revenue Architecture:* Codified concession SPV toll/annuity/tariff cash-flow model and mandatory 90% Net Distributable Cash Flows (NDCF) distribution [Ch 25].
+     - *Foreign Trade Policy WTO Transition:* Codified ASCM dispute panel challenge against MEIS/SEIS export subsidies and transition into WTO-compliant RoDTEP/RoSCTL duty remissions [Ch 06].
+  5. **P1-03: Exam-Freeze Phrasing & Tax Law Labeling Hygiene**:
+     - Replaced internal phrasing ("Current as of October 2026") with statutory exam-baseline wording ("Exam Baseline as of 30 June 2026 — SEBI Circulars & FAQs") [Ch 05].
+     - Clarified Business Trust and capital gains tax sections (Sections 115UA, 111A, 112A) with explicit legacy 1961 Act / Income-tax Act, 2025 statutory alignment notes [Ch 25, Ch 27].
+  6. **P1-04: Automated Verification Script (10 Gates) Re-Verified**:
+     - All 10 certification gates passed with 100/100 score in `verify_iibf_paper_1_codex.ts`.
+
 ### [STAGED LOCAL] v024 — Book 02: IIBF DB&F Paper 1 (IE&IFS) Final Release Print Edition (v5.0 / Canonical Master) • IIBF 2026 Rules & Syllabus Official Benchmark (PASS 100/100 GREEN LIGHT)
 * **Release Date**: 2026-10-05
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

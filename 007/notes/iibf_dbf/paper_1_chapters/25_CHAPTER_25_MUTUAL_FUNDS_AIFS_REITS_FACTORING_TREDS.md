@@ -27,16 +27,10 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 
 ### 2. Trade Receivables Discounting System (TReDS)
 
-• **Regulatory Mandate:** Regulated electronic exchange platform operating under the **Payment and Settlement Systems Act, 2007**, based on guidelines issued by the RBI. Operating entities must maintain a minimum paid-up equity capital / net worth of **₹25 Crore**.  
-• **Tripartite Platform:** Connects three key participants:
-  1. *MSME Sellers (Suppliers)*
-  2. *Corporate, PSU, and Government Buyers*
-  3. *Financiers (Commercial Banks, NBFC-Factors)*
-• **Factoring Mechanics:**
-  - MSME uploads the digital invoice accepted by the corporate buyer.
-  - Financiers bid competitively on the discounted invoice via transparent reverse auctions.
-  - The MSME accepts the best bid and receives immediate funds.
-  - **Crucial Rule:** Discounting on TReDS is executed **strictly WITHOUT RECOURSE to the MSME supplier**.
+• **Regulatory Mandate & Platform Operator Eligibility:** Regulated under the **Payment and Settlement Systems Act, 2007**, based on RBI guidelines. Platform operating entities must maintain a minimum paid-up equity capital / net worth of **₹25 Crore**, robust IT infrastructure, and promoters experienced in financial markets or IT.  
+• **Eligible Participants on TReDS:** Strictly tripartite: (1) **MSME Sellers** (Micro, Small, and Medium Enterprises); (2) **Buyers** (Corporates, Central/State PSUs, Government departments/local bodies); (3) **Financiers** (Scheduled Commercial Banks, NBFC-Factors, and permitted financial institutions).  
+• **Factoring Mechanics:** MSME uploads the digital invoice accepted by the buyer; financiers bid competitively via reverse auctions; MSME accepts the best bid for immediate liquidity.  
+• **Crucial Rule:** Discounting on TReDS is executed **strictly WITHOUT RECOURSE to the MSME supplier**.
 
 ---
 
@@ -89,6 +83,7 @@ Modern non-banking financial products mobilize specialized risk capital, facilit
 | **Initial Down Payment** | Typically **Zero down payment** (or small security deposit). | Mandates substantial upfront margin / down payment (**15% to 25%**). |
 | **Termination Rights** | Financial leases are strictly non-cancellable. | Hirer can terminate before maturity by returning the goods. |
 
+• **Leasing Regulatory Architecture & Asset Classes:** In Indian equipment leasing, dominant leased asset classes comprise **Plant & Machinery, Commercial Vehicles / Earthmoving Equipment, and IT / Office Automation Equipment**. Equipment leasing NBFCs are regulated by the RBI as **NBFC-ICCs** under the Scale-Based Regulation (SBR) framework. The legal relationship is governed by the bailment contract provisions of the **Indian Contract Act, 1872** and Transfer of Property Act, 1882.  
 • **Ind AS 116 (Leases) & Financial Ratio Impacts:** Effective 1 April 2019, lessees must bring leases onto the balance sheet as a **Right-of-Use (ROU) Asset** and corresponding **Lease Liability** (exemptions apply to **short-term leases ≤ 12 months** and **leases of low-value assets**). Financial impacts: (1) **Higher EBITDA** (lease rental split into depreciation and finance cost); (2) **Higher Leverage** (debt-to-equity ratio increases due to recognized lease liabilities); (3) Front-loaded expense recognition.
 
 ---
@@ -150,16 +145,18 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 
 • **Asset Composition Rule:** At least **80% of the aggregate value of assets** must be invested in **completed, revenue-generating commercial real estate or infrastructure projects**. A maximum of **20%** may be held in under-construction properties, equity of listed entities, or debt.  
 • **Mandatory Distribution of Cash Flows:** Both REITs and InvITs must distribute at least **90% of their Net Distributable Cash Flows (NDCF)** to unit holders at least once every six months (quarterly for REITs).  
+• **REIT vs. Real Estate Mutual Funds (REMF):** REITs directly acquire and lease physical commercial real estate (≥ 80% completed rent-generating assets; mandatory 90% NDCF payout; trade like equities). In contrast, REMFs (under SEBI Mutual Fund rules) do not manage physical properties; they invest in shares/debt of real estate companies or listed REIT units.  
+• **InvIT Revenue Architecture:** Concession SPVs operate toll roads, transmission lines, or pipelines. Tolls, fixed annuities, or wheeling tariffs collected by SPVs are passed to the InvIT as interest and dividends; the InvIT distributes **≥ 90% of Net Distributable Cash Flows (NDCF)** to unitholders.  
 • **Borrowing Leverage Norms & SEBI 2026 InvIT Nuance:**
   - *Standard Baseline:* Aggregate consolidated net debt of a REIT or InvIT cannot exceed **49% of the total value of assets** (if borrowings exceed 25%, credit rating and unitholder approval are mandatory).
   - *InvIT Borrowing Exception (SEBI Framework & May 15, 2026 Circular):* An InvIT is permitted to leverage beyond 49% up to a maximum ceiling of **70% of asset value**, provided it satisfies strict prudential conditions: (1) consolidated debt must hold a **mandatory 'AAA' (or equivalent) credit rating**; (2) track record of at least **6 consecutive distributions** to unitholders; (3) prior approval of unitholders with a **supermajority of at least 75% by value**; and (4) **strictly delimited permitted use**: fresh borrowing above 49% is restricted solely to (i) acquisition of infrastructure projects, (ii) capex/development of underlying projects, or (iii) refinancing of existing debt.
 
 ### 2. Taxation Framework for REITs and InvITs
 
-• **Pass-Through Status (Section 115UA):** Income stream received by the Business Trust is passed through to unitholders retaining its original character:  
+• **Pass-Through Status (Section 115UA, Income-tax Act, 1961 / operative framework under Income-tax Act, 2025):** Income stream received by the Business Trust is passed through to unitholders retaining its original character:  
   - *Interest from SPVs:* Passed through tax-free to the Trust, taxable in unitholders' hands at applicable income tax slab rates.  
   - *Dividends from SPVs:* Tax-exempt in unitholders' hands if the SPV has not opted for concessional corporate tax under Section 115BAA; taxable if SPV opted for 115BAA.  
-• **Capital Gains on Sale of Listed Units (Finance Act 2024 / Current Regime):**  
+• **Capital Gains on Sale of Listed Units (Section 111A / 112A legacy framework; current tax regime):**  
   - **Short-Term Capital Gains (STCG):** Units held $\le$ 12 months taxed at **20%** (Section 111A).  
   - **Long-Term Capital Gains (LTCG):** Units held > 12 months taxed at **12.5%** on gains exceeding ₹1.25 Lakh (Section 112A).
 
@@ -176,6 +173,7 @@ Regulated under the **SEBI (Alternative Investment Funds) Regulations, 2012**:
 7. **Trap — Mutual Fund Entry Load:** SEBI **banned entry loads in August 2009**. Entry load on mutual funds in India is strictly **0%**.
 8. **Trap — SEBI Riskometer Tiers:** The SEBI Riskometer consists of **6 distinct risk tiers** (Low, Low to Moderate, Moderate, Moderately High, High, Very High), updated monthly.
 9. **Trap — REIT/InvIT Unit Capital Gains Rates:** Under current tax law, STCG on listed units is taxed at **20%**, and LTCG (holding > 12 months) is taxed at **12.5%** on gains above ₹1.25 Lakh.
+10. **Trap — REIT vs REMF Direct Property Ownership:** REITs directly own and operate physical real estate; Real Estate Mutual Funds (REMFs) only invest in real-estate corporate securities and REIT units, never managing physical properties.
 
 ---
 
