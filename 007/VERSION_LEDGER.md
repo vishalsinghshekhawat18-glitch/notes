@@ -17,6 +17,43 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v023 — Book 02: IIBF DB&F Paper 1 (IE&IFS) Sixth Revised Print Edition (v4.2) • IIBF 2026 Rules & Syllabus Official Benchmark (PASS 100/100 GREEN LIGHT)
+* **Release Date**: 2026-10-05
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: 100% Certified Sovereign Master Print Codex (`007_Book_02_IIBF_Paper_1_IE_IFS_Master_Codex_A4_BW.pdf`) — **Sixth Revised Print Edition (v4.2)**
+* **Audit Score**: **100 / 100 (GREEN LIGHT FOR PRINTING / SINGLE-SOURCE CERTIFICATION)** — All 10 Certification Gates passed.
+* **Physical Architecture**: Exact 119 physical pages (2 Front Matter + 2 TOC + 115 continuous body pages) across all 27 chapters / 45 syllabus units. Zero folio drift, zero double-stacking.
+* **Revision Versioning Stamp**:
+  - Cover Banner: `SIXTH REVISED PRINT EDITION (v4.2) • IIBF 2026 RULES & SYLLABUS OFFICIAL BENCHMARK`
+  - CIP Colophon: `Sixth Revised Print Edition (v4.2) • IIBF 2026 Rules & Syllabus Official Benchmark (October 2026)`
+  - Master Revision Vault (Ch 27): Reconciled with v4.2 baselines, including CGTMSE ₹10 Cr, NPS Schedule I Government sector, and 45-Unit Traceability Ledger.
+* **Forensic Remediation of All Fifth-Pass Forensic Audit Findings**:
+  1. **RB-01 (P0): NPS Government Sector Exit Thresholds Calibrated to PFRDA Schedule I**:
+     - Superannuation / Retirement / Discharge: Accumulated corpus ≤ ₹8 Lakh eligible for 100% lump sum without mandatory annuitization; > ₹8L to ₹12L special split; > ₹12L standard min 40% annuity.
+     - Resignation / Premature Exit: Small-corpus 100% lump sum ceiling is ≤ ₹5 Lakh (min 80% annuity above ₹5 Lakh). Labeled with exact distractor traps [Ch 26, Ch 27].
+  2. **RB-02 (P0): CGTMSE Credit Guarantee Ceiling Raised to ₹10 Crore & Practice Question Corrected**:
+     - Updated collateral-free credit guarantee ceiling to **₹10 Crore per borrower** (up from legacy ₹5 Crore).
+     - Coverage tiering updated: 75% standard, up to 85% for women entrepreneurs/SC-ST/aspirational districts/ZED, up to 90% for micro ≤ ₹5 Lakh / Agniveers.
+     - Practice Question Q4 and Answer Key corrected to **D (Neither Statement I nor Statement II)**, explaining both SIDBI joint management and the enhanced ₹10 Crore ceiling [Ch 04, Ch 27].
+  3. **P1-01: Disentangled New Development Bank (NDB) and BRICS CRA Mechanism**:
+     - Fortaleza Agreement signed in 2014; NDB formally established / operations commenced in **2015** with $100B authorized capital ($50B initial subscribed). Expanded membership codified (Bangladesh, UAE, Egypt, Algeria).
+     - BRICS Contingent Reserve Arrangement (CRA) separated as an independent $100 Billion mutual central bank currency swap safety net, not an NDB credit facility [Ch 06].
+  4. **P1-02: Fifth Five Year Plan Architect Corrected to D.P. Dhar**:
+     - Corrected historical attribution from "D.D. Dhar" to **D.P. Dhar** across summary table, matching question Q2, and answer explanation [Ch 03].
+  5. **P1-03: Eighth Five Year Plan Model Label Harmonized**:
+     - Removed unsupported "John W. Miller Model" label; codified as indicative planning under Rao–Manmohan post-1991 structural reforms [Ch 03].
+  6. **P1-04: Mutual Fund New Fund Offer (NFO) Rules Modernized**:
+     - Updated NFO duration: minimum **3 working days** and maximum **15 calendar days** under revised SEBI directions (blanket ELSS 30-day extension removed) [Ch 25].
+  7. **P1-05: InvIT Fresh Borrowing Beyond 49% up to 70% Permitted Scope Codified**:
+     - Codified exact operative conditions from SEBI 15 May 2026 Circular: AAA credit rating, 6 consecutive distributions, 75% unitholder supermajority, and utilization strictly restricted to (i) infrastructure acquisitions, (ii) capex/development of underlying projects, or (iii) refinancing [Ch 25].
+  8. **P1-06: Explicit Exam Freeze (30 June 2026 Statutory Cut-Off) Box Added**:
+     - Codified explicit IIBF examination cycle rule on Verso CIP Colophon Page: September–February cycle tests regulatory directions notified on or before **30 June 2026**; forward-looking updates marked `[REFERENCE / POST-CUTOFF UPDATE]` [Master Codex, Front Matter].
+  9. **P2 Details & Legal References Harmonized**:
+     - Hire-Purchase Act, 1972: Codified note that statute was never brought into force and formally repealed by Repealing & Amending Act, 2005. Lease rental deductibility under operating leases clarified [Ch 25].
+     - Statutory cross-references for NRI deposits codified: Section 10(4)(ii) for NRE and Section 10(15)(iv)(fa) for FCNR(B) [Ch 23].
+     - Section 24 of RBI Act: Clarified that ₹2000 denomination remains statutory under Section 24, though withdrawn from circulation under Clean Note Policy (19 May 2023) [Ch 16].
+     - Foreign Portfolio Investment (FPI): Definition clarified to encompass listed and to-be-listed securities on recognized stock exchanges [Ch 06].
+
 ### [STAGED LOCAL] v022 — Book 02: IIBF DB&F Paper 1 (IE&IFS) Fifth Revised Print Edition (v4.1) • IIBF 2026 Rules & Syllabus Official Benchmark (PASS 100/100 GREEN LIGHT)
 * **Release Date**: 2026-10-05
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

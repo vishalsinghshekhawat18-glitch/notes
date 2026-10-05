@@ -575,36 +575,36 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
 
     ${chMeta.index === 27 ? `
       body {
-        font-size: 9.6pt !important;
-        line-height: 1.34 !important;
+        font-size: 9.35pt !important;
+        line-height: 1.30 !important;
       }
       p {
-        margin: 0 0 1.5mm 0 !important;
+        margin: 0 0 1.2mm 0 !important;
       }
       table {
-        font-size: 8.0pt !important;
-        margin: 1.5mm 0 !important;
+        font-size: 7.7pt !important;
+        margin: 1.2mm 0 !important;
       }
       th, td {
-        padding: 0.9mm 1.4mm !important;
-        line-height: 1.22 !important;
+        padding: 0.75mm 1.2mm !important;
+        line-height: 1.18 !important;
       }
       ol, ul {
-        margin: 1.2mm 0 1.5mm 0 !important;
-        padding-left: 4mm !important;
+        margin: 1.0mm 0 1.2mm 0 !important;
+        padding-left: 3.5mm !important;
       }
       li {
-        margin-bottom: 0.7mm !important;
-        font-size: 8.8pt !important;
-        line-height: 1.26 !important;
+        margin-bottom: 0.55mm !important;
+        font-size: 8.5pt !important;
+        line-height: 1.22 !important;
       }
       h2 {
-        font-size: 9.4pt !important;
-        margin: 2mm 0 1mm 0 !important;
-        padding-bottom: 0.5mm !important;
+        font-size: 9.2pt !important;
+        margin: 1.8mm 0 0.8mm 0 !important;
+        padding-bottom: 0.4mm !important;
       }
       .section-bar {
-        margin: 2mm 0 1.2mm 0 !important;
+        margin: 1.8mm 0 1.0mm 0 !important;
       }
     ` : ''}
 

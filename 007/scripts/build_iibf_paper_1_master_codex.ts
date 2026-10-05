@@ -225,7 +225,7 @@ export function buildFrontMatterHtml(): string {
 
       <div>
         <div class="edition-banner">
-          <div class="edition-text">FIFTH REVISED PRINT EDITION (v4.1) • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
+          <div class="edition-text">SIXTH REVISED PRINT EDITION (v4.2) • IIBF 2026 RULES &amp; SYLLABUS OFFICIAL BENCHMARK</div>
         </div>
         <div class="imprint">PUBLISHED UNDER THE CHARTER OF MIND OF ARAVALLI • SHELF 007 BASTION</div>
       </div>
@@ -238,18 +238,23 @@ export function buildFrontMatterHtml(): string {
       <div>
         <p style="font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 9.5pt;">MIND OF ARAVALLI ACADEMIC PRESS</p>
         <p style="font-size: 8.5pt; color: #555;">Reading Hub Monograph Series • Shelf 007 Bastion</p>
-        <p style="margin-top: 3mm; font-size: 8.5pt;">Copyright © 2026 Mind of Aravalli Academic Press. All rights reserved.</p>
+        <p style="margin-top: 2.5mm; font-size: 8.5pt;">Copyright © 2026 Mind of Aravalli Academic Press. All rights reserved.</p>
         <p style="font-size: 8.5pt; margin-top: 1.5mm;">No part of this publication may be reproduced, distributed, or transmitted without prior written permission, except in brief quotations embodied in critical reviews.</p>
       </div>
 
       <div class="cip-box">
         <div class="cip-title">Cataloging-in-Publication Data (CIP)</div>
         <p><strong>Title:</strong> Indian Economy &amp; Indian Financial System (IE&amp;IFS): Book 02 — Master Curricular Monograph.</p>
-        <p><strong>Edition:</strong> Fifth Revised Print Edition (v4.1) • IIBF 2026 Rules &amp; Syllabus Official Benchmark (October 2026).</p>
+        <p><strong>Edition:</strong> Sixth Revised Print Edition (v4.2) • IIBF 2026 Rules &amp; Syllabus Official Benchmark (October 2026).</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 2).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 1 • Macroeconomics • Banking Law • Financial Markets.</p>
         <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (45 Units).</p>
         <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.5pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition • 27 Comprehensive Chapters • 115 Body Pages.</p>
+      </div>
+
+      <div class="cip-box" style="background: #ffffff; border: 1.2pt solid #000; margin: 2mm 0;">
+        <div class="cip-title">EXAM FREEZE — NOVEMBER 2026 CYCLE (30 JUNE 2026 STATUTORY CUT-OFF)</div>
+        <p><strong>Official IIBF Examination Cycle Rule:</strong> In accordance with statutory IIBF examination regulations, tests conducted during the September–February cycle assess regulatory directives, Master Directions, and legislative enactments notified on or before <strong>30 June 2026</strong>. All primary numerical thresholds, reserve requirements, and institutional frameworks in this Monograph are strictly calibrated to this frozen baseline. Forward-looking statutory and market developments post-dating 30 June 2026 are explicitly marked <em>[REFERENCE / POST-CUTOFF UPDATE]</em> for prospective orientation.</p>
       </div>
 
       <div>

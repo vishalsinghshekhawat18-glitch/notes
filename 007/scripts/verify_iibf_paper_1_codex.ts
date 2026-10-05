@@ -210,6 +210,56 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check v4.2 Release Blocker 1: Government-sector NPS rules (Retirement <= 8L, Resignation <= 5L)
+  const npsGovtOk = (ch26Text.includes('8,00,000') || ch26Text.includes('8 Lakh')) &&
+                    ch26Text.includes('5 Lakh') && ch26Text.includes('Schedule I');
+  if (npsGovtOk) {
+    console.log(`  ✓ v4.2 RB-1 Verified: NPS Government-sector Schedule I rules (Retirement ≤ ₹8L 100% lump sum; Resignation ≤ ₹5L) codified in Chapter 26.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: NPS Government-sector thresholds incorrect in Chapter 26.`);
+    dataCheckPass = false;
+  }
+
+  // Check v4.2 Release Blocker 2: CGTMSE ceiling ₹10 Crore & Q4 Answer D
+  const cgtmseOk = ch4Text.includes('10 Crore') && ch4Text.includes('Q4 — Answer: D');
+  if (cgtmseOk) {
+    console.log(`  ✓ v4.2 RB-2 Verified: CGTMSE collateral-free guarantee up to ₹10 Crore and Q4 Answer Key D codified in Chapter 04.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: CGTMSE ₹10 Cr ceiling or Q4 Answer Key D missing in Chapter 04.`);
+    dataCheckPass = false;
+  }
+
+  // Check v4.2 Important Defect 3: NDB 2015 & separate BRICS CRA mechanism
+  const ch6Text = fs.readFileSync(path.join(chaptersDir, '06_CHAPTER_06_GLOBALIZATION_FOREIGN_TRADE_WTO.md'), 'utf-8');
+  const ndbOk = ch6Text.includes('NDB (New Development Bank)') && ch6Text.includes('2015') && ch6Text.includes('BRICS CRA');
+  if (ndbOk) {
+    console.log(`  ✓ v4.2 Defect 3 Verified: NDB (established 2015) and separate BRICS CRA ($100B mechanism) codified in Chapter 06.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: NDB/CRA separation missing in Chapter 06.`);
+    dataCheckPass = false;
+  }
+
+  // Check v4.2 Important Defect 4: Fifth Plan D.P. Dhar and Eighth Plan Indicative Planning
+  const ch3Text = fs.readFileSync(path.join(chaptersDir, '03_CHAPTER_03_ECONOMIC_PLANNING_NITI_AAYOG.md'), 'utf-8');
+  const dharOk = ch3Text.includes('D.P. Dhar') && !ch3Text.includes('D.D. Dhar') && !ch3Text.includes('John W. Miller');
+  if (dharOk) {
+    console.log(`  ✓ v4.2 Defect 4 Verified: Fifth Plan D.P. Dhar model verified and unreliable labels removed in Chapter 03.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: D.P. Dhar correction or plan label cleanup missing in Chapter 03.`);
+    dataCheckPass = false;
+  }
+
+  // Check v4.2 Important Defects 5 & 6: Mutual Fund NFO (15 calendar days) and InvIT permitted borrowing
+  const ch25Text = fs.readFileSync(path.join(chaptersDir, '25_CHAPTER_25_MUTUAL_FUNDS_AIFS_REITS_FACTORING_TREDS.md'), 'utf-8');
+  const mfInvitOk = ch25Text.includes('15 calendar days') && ch25Text.includes('acquisition of infrastructure projects') &&
+                    ch25Text.includes('Repealing & Amending Act, 2005');
+  if (mfInvitOk) {
+    console.log(`  ✓ v4.2 Defects 5 & 6 Verified: Mutual Fund NFO 15 calendar days, InvIT permitted borrowing conditions, and Hire Purchase repeal note codified in Chapter 25.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: NFO / InvIT / Hire Purchase updates missing in Chapter 25.`);
+    dataCheckPass = false;
+  }
+
   // Check C-13: Question Provenance Tags across all 27 chapters
   let allTagsPresent = true;
   for (let ch = 1; ch <= 27; ch++) {

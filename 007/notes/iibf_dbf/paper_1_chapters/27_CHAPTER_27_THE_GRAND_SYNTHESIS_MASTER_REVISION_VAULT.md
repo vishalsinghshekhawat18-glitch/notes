@@ -9,7 +9,7 @@ The Grand Synthesis represents the authoritative capstone revision engine for II
 | Regulatory / Economic Domain | Current Statutory / Numerical Benchmark | Governing Statute / Regulatory Basis | Critical Distractor Trap |
 | :--- | :--- | :--- | :--- |
 | **National Accounts Base Year** | **Base Year 2022–23** | MoSPI New Series (Released **27 February 2026**) | Do NOT choose 2011–12 (historical previous series). |
-| **MSME Classification (Composite)** | • **Micro:** Investment ≤ ₹2.5 Cr & Turnover ≤ ₹10 Cr<br>• **Small:** Investment ≤ ₹25 Cr & Turnover ≤ ₹100 Cr<br>• **Medium:** Investment ≤ ₹125 Cr & Turnover ≤ ₹500 Cr | Ministry of MSME Notification (Effective **1 April 2025**) | Turnover strictly **EXCLUDES export proceeds**. Both conditions must be satisfied. |
+| **MSME Classification & CGTMSE** | • **Micro:** Investment ≤ ₹2.5 Cr & Turnover ≤ ₹10 Cr<br>• **Small:** Investment ≤ ₹25 Cr & Turnover ≤ ₹100 Cr<br>• **Medium:** Investment ≤ ₹125 Cr & Turnover ≤ ₹500 Cr<br>• **CGTMSE:** Cover up to **₹10 Crore per borrower** (75%–85% cover, up to 90% micro ≤ ₹5L) | Ministry of MSME (1 Apr 2025) & CGTMSE Directions | Turnover **EXCLUDES export proceeds**; CGTMSE ceiling is ₹10 Cr (₹5 Cr obsolete); sponsored by GoI & SIDBI (NOT NABARD). |
 | **Priority Sector Lending (PSL)** | • Headline: Comm Banks 40%, RRBs 75%, SFBs 75%, **UCBs 60% of ANBC**<br>• Credit Ceilings (2025 Directions): Education up to **₹25 Lakh**; Housing in Metros up to **₹50 Lakh** (dwelling cost ≤ **₹63 Lakh**); Social Infra up to **₹8 Cr** / **₹12 Cr** (health); Renewable Energy up to **₹35 Cr**; Export Credit up to **₹50 Cr** | RBI Master Directions on PSL (**2025 Directions, Updated Jan 19, 2026**) | UCB target is **60% of ANBC**, NOT 75% or 40%. Education is ₹25L (not ₹20L); Metro housing is ₹50L (not ₹35L). |
 | **Delayed Payment to MSME** | Compound interest with monthly rests at **3 times the Bank Rate** | Section 16, MSMED Act, 2006 | Maximum credit period is **45 days**. Interest is NOT linked to Repo or MCLR. |
 | **Commercial Paper (CP) Min** | **₹5 Lakh** (multiples of ₹5 Lakh) | RBI CP Master Directions | Minimum maturity is **7 days up to 1 year**. |
@@ -34,7 +34,7 @@ The Grand Synthesis represents the authoritative capstone revision engine for II
 | **BRSR Core (2026 Regime)** | • Permitted: **Assessment OR Assurance** for BRSR Core KPIs<br>• Value-chain ESG disclosures remain voluntary | SEBI Listing Regulations & Circulars | Third-party reasonable assurance is NOT the sole mandatory path; assessment or assurance is permitted. |
 | **REIT / InvIT Taxation** | • Business trust pass-through (Sec 115UA)<br>• STCG on listed units: **20%**<br>• LTCG on listed units: **12.5%** (> 12 months, exemption ₹1.25L) | Finance Act 2024 / Current Tax Code | Outdated 15% STCG and 10% LTCG rates are incorrect. |
 | **Social Insurance & Ombudsman** | • PMJJBY: Life cover ₹2 Lakh (**₹436/yr**)<br>• PMSBY: Accidental cover ₹2 Lakh (**₹20/yr**)<br>• Insurance Ombudsman: Max pecuniary award **₹30 Lakh** | DFS Social Security Schemes / IRDAI Ombudsman Rules | Ombudsman award is legally binding on insurance companies. |
-| **NPS Exit Rules by Model (PFRDA)** | • **Govt:** Superannuation min 40% annuity, ≤ ₹5L 100% lump sum; Premature min 80% annuity, ≤ ₹2.5L lump sum<br>• **All-Citizen:** Normal exit min 20% annuity / up to 80% lump sum, ≤ ₹8L 100% lump sum; Premature min 80% annuity, ≤ ₹5L lump sum (PFRDA FAQs)<br>• **Corporate:** Normal exit min 40% annuity, ≤ ₹5L lump sum; Premature min 80% annuity, ≤ ₹2.5L lump sum | PFRDA Exit Regulations (Amended 16 Dec 2025 & 2026 Guidelines) | Separate model rules: All-Citizen normal threshold is **₹8 Lakh** (with ₹8L–₹12L option); Corporate & Govt superannuation is **₹5 Lakh**. |
+| **NPS Exit Rules by Model (PFRDA)** | • **Govt:** Retirement/Discharge min 40% annuity, ≤ ₹8L 100% lump sum; Resignation min 80% annuity, ≤ ₹5L lump sum<br>• **All-Citizen:** Normal exit min 20% annuity, ≤ ₹8L 100% lump sum; Premature min 80% annuity, ≤ ₹5L lump sum<br>• **Corporate:** Normal exit min 40% annuity, ≤ ₹5L lump sum; Premature min 80% annuity, ≤ ₹2.5L lump sum | PFRDA Exit Regulations (Schedule I Govt & All-Citizen Directions) | Separate model rules: Normal exit threshold is **₹8 Lakh** for Govt & All-Citizen; Corporate is **₹5 Lakh**. Govt premature threshold is **₹5 Lakh**, Corporate premature is **₹2.5 Lakh**. |
 | **Atal Pension Yojana (APY)** | Pension ₹1,000 to ₹5,000/month; Entry age **18 to 40 yrs** | PFRDA APY Guidelines | **Income-tax payers strictly ineligible** since 1 Oct 2022. |
 | **Unified Pension Scheme (UPS)** | **50% of average basic pay** (min 25 yrs service); Assured minimum **₹10,000/month** (min 10 yrs service) | Central Government Notification (Aug 2024 / Apr 2025) | Assured family pension at 60% of employee pension. |
 | **Corporate Social Responsibility** | At least **2% of average net profits** of preceding 3 FYs | Section 135, Companies Act, 2013 | Applies if Net Worth ≥ ₹500 Cr, OR Turnover ≥ ₹1,000 Cr, OR Net Profit ≥ ₹5 Cr. |
@@ -47,7 +47,7 @@ The Grand Synthesis represents the authoritative capstone revision engine for II
 1. **Trap 01 — Year of the Great Divide:** In Indian demography, **1921** is the Year of the Great Divide (mortality fell, population turned positive), NOT 1951.
 2. **Trap 02 — Demographic Stage:** India is in **Stage 3 (Late Expanding)** with TFR at 2.0 (below 2.1 replacement level).
 3. **Trap 03 — 2008 GFC Exposure:** Indian banks had **negligible direct exposure** to US subprime derivatives due to RBI prudential restrictions.
-4. **Trap 04 — NITI Aayog Power:** NITI Aayog has **ZERO fund allocation powers**; fund devolution rests with the Finance Ministry.
+4. **Trap 04 — CGTMSE Ceiling & NITI Aayog Power:** CGTMSE collateral-free guarantee is **₹10 Crore per borrower** (NOT ₹5 Crore), managed by GoI and SIDBI. NITI Aayog has **ZERO fund allocation powers**; devolution rests with MoF.
 5. **Trap 05 — 1st vs 2nd Plan:** 1st Plan used **Harrod-Domar** (agriculture); 2nd Plan used **Mahalanobis** (heavy capital goods).
 6. **Trap 06 — Export Turnover in MSME:** Export turnover is **strictly excluded** when classifying Micro, Small, or Medium enterprises.
 7. **Trap 07 — MSME Delayed Payment:** Penal interest is **3 times the Bank Rate compounded monthly**, NOT simple interest and NOT linked to Repo rate.
@@ -67,33 +67,33 @@ The Grand Synthesis represents the authoritative capstone revision engine for II
 21. **Trap 21 — Inflation Anchor:** RBI MPC targets **Headline CPI-Combined ($4\% \pm 2\%$)**, NOT Core CPI and NOT WPI.
 22. **Trap 22 — Minimum Reserve System Split:** ₹200 Cr total reserves = **min ₹115 Cr Gold** + ₹85 Cr Foreign Securities.
 23. **Trap 23 — Post Office Exclusions:** National Savings Certificates (NSC) are **excluded** from $M4$ and $L1$.
-24: 24. **Trap 24 — Sweezy Oligopoly Kink:** Rivals **ignore price hikes** (elastic upper curve) but **match price cuts** (inelastic lower curve).
-25: 25. **Trap 25 — Rectangular Hyperbola Elasticity:** Price elasticity of demand is **equal to 1 (unitary) at every point** on a rectangular hyperbola curve.
-26: 26. **Trap 26 — Cross Elasticity Signs:** Substitutes have **positive** cross elasticity; Complements have **negative** cross elasticity.
-27: 27. **Trap 27 — Liquidity Trap Monetary Policy:** Inside a Liquidity Trap, **monetary policy is completely ineffective** (LM curve is horizontal); only fiscal policy works.
-28: 28. **Trap 28 — IS vs LM Curve Slopes:** IS curve slopes **downward**; LM curve slopes **upward**.
-29: 29. **Trap 29 — Word 'Budget' in Constitution:** The term "Budget" **does not appear** in the Constitution; it is the **'Annual Financial Statement' under Article 112**.
-30: 30. **Trap 30 — Plan vs Non-Plan Expenditure:** This classification was **formally abolished from FY 2017–18**; modern budgets use Capital vs Revenue.
-31: 31. **Trap 31 — Standing Deposit Facility (SDF):** RBI provides **zero collateral (uncollateralized)** to banks under SDF.
-32: 32. **Trap 32 — Contingency Fund Corpus:** Corpus is **₹30,000 Crore**, held by the Finance Secretary on behalf of the President.
-33: 33. **Trap 33 — Primary Deficit Zero Meaning:** If Primary Deficit = 0, then **Fiscal Deficit = Interest Payments**.
-34: 34. **Trap 34 — FSDC Leadership:** FSDC Apex Council is chaired by **Union Finance Minister**; FSDC Sub-Committee is chaired by **RBI Governor**.
-35: 35. **Trap 35 — IFSCA Scope:** IFSCA does not supersede domestic regulators across mainland India; remit is strictly inside **GIFT City IFSC**.
-36: 36. **Trap 36 — ₹1 Note Authority:** The ₹1 note and coins are issued by the **Ministry of Finance** (signed by Finance Secretary); notes ₹2 and higher are issued by **RBI under Section 22**.
-37: 37. **Trap 37 — Non-Banking Asset Disposal:** Maximum retention under BR Act Section 9 is **7 years + 5 years RBI extension = 12 years**.
-38: 38. **Trap 38 — Bank Reserve Fund Transfer:** Section 17 of BR Act states **20%**, but RBI Master Direction mandates **25% of net profit**.
-39: 39. **Trap 39 — Indian Minimum Basel III CRAR:** Total capital is **11.5% of RWAs** (9% CRAR + 2.5% CCB), exceeding BCBS 10.5%.
-40: 40. **Trap 40 — PCA Trigger Calibration:** PCA capital thresholds are measured as basis-point deterioration from the **regulatory baseline including CCB (11.5% CRAR / 8.0% CET1)**. Total CRAR Threshold 1 triggers at up to 250 bps below baseline (i.e., **9.0% to < 11.5%**); Threshold 2 is **7.5% to < 9.0%**; Threshold 3 is **< 7.5%**. For CET1, Threshold 1 is **6.375% to < 8.0%**; Threshold 2 is **4.875% to < 6.375%**; Threshold 3 is **< 4.875%**. Asset quality trigger is Net NPA $\ge 6.0\%$ (Threshold 1), $\ge 9.0\%$ (Threshold 2), $\ge 12.0\%$ (Threshold 3). RoA is officially removed.
-41: 41. **Trap 41 — D-SIBs in India:** The three Domestic Systemically Important Banks are **SBI, HDFC Bank, and ICICI Bank**.
-42: 42. **Trap 42 — RRB Shareholding:** Central Government **50%**, Sponsor Bank **35%**, State Government **15%**.
-43: 43. **Trap 43 — Payment Bank Credit Prohibition:** Payment Banks **CANNOT lend, grant loans, or issue credit cards**. Maximum balance is **₹2,00,000**.
-44: 44. **Trap 44 — NBFC SBR Upper Layer:** The **Top 10 eligible NBFCs by asset size** are automatically placed in the Upper Layer.
-45: 45. **Trap 45 — Microfinance Household Income:** Uniform cap of **₹3,00,000 per annum** across both rural and urban areas. Collateral is strictly 0%.
-46: 46. **Trap 46 — First DFI in India:** **IFCI (1948)** was India's first DFI, NOT ICICI or IDBI.
-47: 47. **Trap 47 — CD vs CP Denomination:** Both Commercial Paper and Certificates of Deposit share the **same minimum denomination: ₹5 Lakh**.
-48: 48. **Trap 48 — Forfaiting vs Factoring Recourse:** Forfaiting is **strictly WITHOUT RECOURSE** to the exporter. TReDS factoring is also **strictly without recourse to MSME**.
-49: 49. **Trap 49 — Merchant Banker Net Worth (SEBI 2026 Dual Category):** Under SEBI Merchant Bankers (Amendment) Regulations effective 3 January 2026, Category I Merchant Bankers require minimum net worth of **₹50 Crore** (liquid net worth **₹12.5 Crore**). Category II requires net worth of **₹10 Crore** (liquid net worth **₹2.5 Crore**). Existing registrants are governed by phased compliance under SEBI's June 2026 extension (Phase I ₹25 Cr by 31 Mar 2027; Phase II full ₹50 Cr by 2 Jan 2028). Legacy ₹5 Crore is an obsolete historical figure.
-50: 50. **Trap 50 — NPS Small Corpus Exemptions by Model:** For the All-Citizens model at normal exit (age 60), 100% lump sum is permitted if corpus is **≤ ₹8 Lakh** (and min 20% annuity if above). For Government and Corporate sectors at normal exit, min 40% annuity applies with small corpus at **≤ ₹5 Lakh**. For premature exit, 100% lump sum is permitted up to **≤ ₹5 Lakh** for All-Citizens (PFRDA FAQs), but remains **≤ ₹2.5 Lakh** for Government and Corporate models.
+24. **Trap 24 — Sweezy Oligopoly Kink:** Rivals **ignore price hikes** (elastic upper curve) but **match price cuts** (inelastic lower curve).
+25. **Trap 25 — Rectangular Hyperbola Elasticity:** Price elasticity of demand is **equal to 1 (unitary) at every point** on a rectangular hyperbola curve.
+26. **Trap 26 — Cross Elasticity Signs:** Substitutes have **positive** cross elasticity; Complements have **negative** cross elasticity.
+27. **Trap 27 — Liquidity Trap Monetary Policy:** Inside a Liquidity Trap, **monetary policy is completely ineffective** (LM curve is horizontal); only fiscal policy works.
+28. **Trap 28 — IS vs LM Curve Slopes:** IS curve slopes **downward**; LM curve slopes **upward**.
+29. **Trap 29 — Word 'Budget' in Constitution:** The term "Budget" **does not appear** in the Constitution; it is the **'Annual Financial Statement' under Article 112**.
+30. **Trap 30 — Plan vs Non-Plan Expenditure:** This classification was **formally abolished from FY 2017–18**; modern budgets use Capital vs Revenue.
+31. **Trap 31 — Standing Deposit Facility (SDF):** RBI provides **zero collateral (uncollateralized)** to banks under SDF.
+32. **Trap 32 — Contingency Fund Corpus:** Corpus is **₹30,000 Crore**, held by the Finance Secretary on behalf of the President.
+33. **Trap 33 — Primary Deficit Zero Meaning:** If Primary Deficit = 0, then **Fiscal Deficit = Interest Payments**.
+34. **Trap 34 — FSDC Leadership:** FSDC Apex Council is chaired by **Union Finance Minister**; FSDC Sub-Committee is chaired by **RBI Governor**.
+35. **Trap 35 — IFSCA Scope:** IFSCA does not supersede domestic regulators across mainland India; remit is strictly inside **GIFT City IFSC**.
+36. **Trap 36 — ₹1 Note Authority:** The ₹1 note and coins are issued by the **Ministry of Finance** (signed by Finance Secretary); notes ₹2 and higher are issued by **RBI under Section 22**.
+37. **Trap 37 — Non-Banking Asset Disposal:** Maximum retention under BR Act Section 9 is **7 years + 5 years RBI extension = 12 years**.
+38. **Trap 38 — Bank Reserve Fund Transfer:** Section 17 of BR Act states **20%**, but RBI Master Direction mandates **25% of net profit**.
+39. **Trap 39 — Indian Minimum Basel III CRAR:** Total capital is **11.5% of RWAs** (9% CRAR + 2.5% CCB), exceeding BCBS 10.5%.
+40. **Trap 40 — PCA Trigger Calibration:** PCA capital thresholds are measured as basis-point deterioration from the **regulatory baseline including CCB (11.5% CRAR / 8.0% CET1)**. Total CRAR Threshold 1 triggers at up to 250 bps below baseline (i.e., **9.0% to < 11.5%**); Threshold 2 is **7.5% to < 9.0%**; Threshold 3 is **< 7.5%**. For CET1, Threshold 1 is **6.375% to < 8.0%**; Threshold 2 is **4.875% to < 6.375%**; Threshold 3 is **< 4.875%**. Asset quality trigger is Net NPA $\ge 6.0\%$ (Threshold 1), $\ge 9.0\%$ (Threshold 2), $\ge 12.0\%$ (Threshold 3). RoA is officially removed.
+41. **Trap 41 — D-SIBs in India:** The three Domestic Systemically Important Banks are **SBI, HDFC Bank, and ICICI Bank**.
+42. **Trap 42 — RRB Shareholding:** Central Government **50%**, Sponsor Bank **35%**, State Government **15%**.
+43. **Trap 43 — Payment Bank Credit Prohibition:** Payment Banks **CANNOT lend, grant loans, or issue credit cards**. Maximum balance is **₹2,00,000**.
+44. **Trap 44 — NBFC SBR Upper Layer:** The **Top 10 eligible NBFCs by asset size** are automatically placed in the Upper Layer.
+45. **Trap 45 — Microfinance Household Income:** Uniform cap of **₹3,00,000 per annum** across both rural and urban areas. Collateral is strictly 0%.
+46. **Trap 46 — First DFI in India:** **IFCI (1948)** was India's first DFI, NOT ICICI or IDBI.
+47. **Trap 47 — CD vs CP Denomination:** Both Commercial Paper and Certificates of Deposit share the **same minimum denomination: ₹5 Lakh**.
+48. **Trap 48 — Forfaiting vs Factoring Recourse:** Forfaiting is **strictly WITHOUT RECOURSE** to the exporter. TReDS factoring is also **strictly without recourse to MSME**.
+49. **Trap 49 — Merchant Banker Net Worth (SEBI 2026 Dual Category):** Under SEBI Merchant Bankers (Amendment) Regulations effective 3 January 2026, Category I Merchant Bankers require minimum net worth of **₹50 Crore** (liquid net worth **₹12.5 Crore**). Category II requires net worth of **₹10 Crore** (liquid net worth **₹2.5 Crore**). Phased compliance under June 2026 extension (Phase I ₹25 Cr by 31 Mar 2027; Phase II full ₹50 Cr by 2 Jan 2028). Legacy ₹5 Crore is an obsolete historical figure.
+50. **Trap 50 — NPS Exit Rules by Model:** Under PFRDA Schedule I, Government sector normal superannuation/retirement permits 100% lump sum up to **≤ ₹8 Lakh** (min 40% annuity above); premature/resignation allows 100% lump sum up to **≤ ₹5 Lakh** (min 80% annuity above). For All-Citizens at normal exit (age 60), 100% lump sum is permitted if corpus is **≤ ₹8 Lakh** (min 20% annuity above); premature exit allows 100% lump sum up to **≤ ₹5 Lakh**. For Corporate sector, superannuation small corpus is **≤ ₹5 Lakh** and premature exit is **≤ ₹2.5 Lakh**.
 
 ---
 
@@ -148,7 +148,7 @@ D. Zero years
 | **01** | Overview of Indian Economy | Ch 01 | `[PYQ-PATTERN RECONSTRUCTION]` 1921 Great Divide, 4-Stage DTM, Stage 3 Window (TFR 2.0), Pre-1947 to 1991 structural shifts; `[2026 BENCHMARK]` IMF $4T nominal GDP. |
 | **02** | Sectors of the Indian Economy | Ch 02 | `[CONCEPT-RECURRING]` Structural leapfrogging, Primary 18% GVA / 46% workforce; `[2026 BENCHMARK]` Agricultural Revolutions matrix, Sunrise sectors, Organised vs Unorganised. |
 | **03** | Economic Planning & NITI Aayog | Ch 03 | `[PYQ-PATTERN RECONSTRUCTION]` 12 FYPs (Harrod-Domar, Mahalanobis heavy goods), Plan Financing resources (deficit/borrowing); NITI Aayog zero fund devolution. |
-| **04** | Role of PSL and MSME | Ch 04 | `[2026 BENCHMARK]` PSL targets (Comm 40%, UCB 60%, SFB/RRB 75%), 2025 MSME criteria (2.5x), Sec 16 3x Bank Rate; Atmanirbhar & Startup/Stand-Up India initiatives. |
+| **04** | Role of PSL and MSME | Ch 04 | `[2026 BENCHMARK]` PSL targets (Comm 40%, UCB 60%, SFB/RRB 75%), 2025 MSME criteria (2.5x), CGTMSE ₹10 Cr ceiling, Sec 16 3x Bank Rate; Atmanirbhar & Startup/Stand-Up India initiatives. |
 | **05** | Infrastructure & Social Infra | Ch 05 | `[2026 BENCHMARK]` NIP ₹111L Cr, PM GatiShakti, HAM (40% Grant / 100% NHAI traffic risk), UDAN civil aviation, NHM health, BRSR Core assessment/assurance, CSR Sec 135. |
 | **06** | Globalisation — Impact on India | Ch 06 | `[CONCEPT-RECURRING]` Post-1991 LPG reforms, Art VIII IMF convertibility; `[2026 BENCHMARK]` Fair globalisation & tariff/non-tariff barriers, FDI vs FPI, SAARC/BIMSTEC/BRICS. |
 | **07** | Economic Reforms & Current Issues | Ch 07 | `[CONCEPT-RECURRING]` 1991 BoP crisis, structural reforms, Tendulkar/Rangarajan poverty, NITI MPI, Growth vs Development, Pandemic economic shocks & remedies. |
@@ -188,6 +188,6 @@ D. Zero years
 | **40** | CRAs & Credit Scoring | Ch 26 | `[PYQ-PATTERN RECONSTRUCTION]` Credit rating BBB- investment floor, CICs (CIBIL 300–900 scale, prime ≥ 750), free annual credit report under CICRA. |
 | **41** | Mutual Funds & AIFs | Ch 25 | `[2026 BENCHMARK]` NAV calculation, AMC net worth ₹50 Cr, SEBI Riskometer (6 tiers), 0% Entry Load, TER caps, SEBI AIF Categories I, II, III (leverage). |
 | **42** | Insurance Products & Services | Ch 26 | `[2026 BENCHMARK]` Uberrima Fides, Insurable Interest, Indemnity, Bancassurance 3+3+3, 74% FDI, PMJJBY (₹436/₹2L), PMSBY (₹20/₹2L), Insurance Ombudsman (₹30L). |
-| **43** | Pension Products (NPS, APY & UPS) | Ch 26 | `[2026 BENCHMARK]` NPS 3-Model Exit Rules (All-Citizen ₹8L, Govt/Corp ₹5L), APY ₹1K–₹5K, UPS assured 50%, EPF 8.33% EPS / 3.67% EPF split, PPF EEE. |
+| **43** | Pension Products (NPS, APY & UPS) | Ch 26 | `[2026 BENCHMARK]` NPS 3-Model Exit Rules (Govt/All-Citizen normal ₹8L, Govt premature ₹5L, Corp ₹5L/₹2.5L), APY ₹1K–₹5K, UPS assured 50%, EPF 8.33% EPS / 3.67% EPF split, PPF EEE. |
 | **44** | Para-Banking & Ancillary Services | Ch 26 | `[2026 BENCHMARK]` Credit cards ₹100 Cr net worth, Primary Dealership ₹1,000 Cr, subsidiary caps (10% single, 20% aggregate), Notes to Accounts disclosure. |
 | **45** | REITs & InvITs Architecture | Ch 25 | `[2026 BENCHMARK]` SEBI 80:90 Asset & Distribution Rule, InvIT 70% leverage exception, Tax pass-through (STCG 20%, LTCG 12.5% on listed units). |
