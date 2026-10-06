@@ -6047,67 +6047,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "932 words • 5 min read"
+    "badge": "1,806 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Comparison: Retail vs Corporate / Wholesale Banking",
+    "title": "1. Evolution & Strategic Drivers of Retail Banking in India",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
-    "description": "| Operational Parameter | Retail Banking | Corporate / Wholesale Banking |\n| :--- | :--- | :--- |\n| Target Clientele | Individual consumers, households, self-employed professionals, and micro-ente",
+    "description": "The Indian banking sector underwent a historic structural transition through three distinct eras:\n\n1. Pre-Nationalization Era (Class Banking): Commercial banks catered almost exclusively to large",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
-      "concept": "1. Master Comparison: Retail vs Corporate / Wholesale Banking"
+      "concept": "1. Evolution & Strategic Drivers of Retail Banking in India"
     },
-    "badge": "184 words"
+    "badge": "297 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-3",
     "type": "CONCEPT",
-    "title": "2. Organizational Business Models in Retail Banking",
+    "title": "2. Master Comparison: Retail vs Corporate / Wholesale Banking",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
-    "description": "- Horizontally Integrated Model:\n  - Common distribution platform across different product lines.\n  - Customer data and delivery channels are shared across business divisions, but product design r",
+    "description": "| Operational Parameter | Retail Banking | Corporate / Wholesale Banking |\n| :--- | :--- | :--- |\n| Target Clientele | Individual consumers, households, sole proprietors, and small business owners",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
-      "concept": "2. Organizational Business Models in Retail Banking"
+      "concept": "2. Master Comparison: Retail vs Corporate / Wholesale Banking"
     },
-    "badge": "109 words"
+    "badge": "241 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-4",
     "type": "CONCEPT",
-    "title": "3. Customer Wealth Segmentation Hierarchy",
+    "title": "3. Organizational Business Models in Retail Banking",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
-    "description": "| Clientele Segment | Annual Income / Investible Surplus Range | Typical Products & Preferred Delivery Channels |\n| :--- | :--- | :--- |\n| Mass Banking | Annual Income up to ₹10 Lakhs | Basic",
+    "description": "Banks adopt diverse organizational architectures to manufacture, underwrite, and deliver retail products based on balance sheet size, technological maturity, and strategic orientation:\n\n 1. Horizon",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
-      "concept": "3. Customer Wealth Segmentation Hierarchy"
+      "concept": "3. Organizational Business Models in Retail Banking"
     },
-    "badge": "204 words"
+    "badge": "262 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Customer Wealth Segmentation Hierarchy",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-01_chapter_01_retail_banking_overview_models",
-    "description": "Q1. Which of the following is a distinguishing operational characteristic of Retail Banking compared to Corporate Banking?\n- (A) High ticket size and low transaction volume\n- (B) Granular credit r",
+    "description": "To maximize Customer Lifetime Value (CLV) and product penetration, commercial banks segment retail clientele based on annual income, investible liquid surplus, and product complexity:\n\n| Clientele Seg",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "4. Customer Wealth Segmentation Hierarchy"
     },
-    "badge": "219 words"
+    "badge": "221 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
@@ -6121,67 +6121,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "664 words • 4 min read"
+    "badge": "1,656 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Profitability & Efficiency Formulas",
+    "title": "1. Profit vs Profitability in Commercial Banking",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
-    "description": "1. Return on Assets (ROA)\n$$\\text{ROA} = \\frac{\\text{Net Profit After Tax}}{\\text{Average Total Assets}} \\times 100$$\n- Benchmark: An ROA of $\\ge 1.0\\%$ is considered sound for commercial ba",
+    "description": "- Profit (Absolute Quantum): The absolute monetary surplus remaining after deducting total expenses from total revenues during a financial period:\n  $$\\text{Net Profit} = \\text{Total Income (Inter",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
-      "concept": "1. Master Profitability & Efficiency Formulas"
+      "concept": "1. Profit vs Profitability in Commercial Banking"
     },
-    "badge": "174 words"
+    "badge": "159 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-3",
     "type": "CONCEPT",
-    "title": "2. Transfer Pricing Mechanism in Bank Branches",
+    "title": "2. Core Profitability Metrics: ROA, ROE & DuPont Identity",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
-    "description": "- Funds Transfer Pricing (FTP): Internal accounting mechanism allocating cost and revenue between deposit-surplus branches and credit-deploying branches.\n  - Deposit-Surplus Branch: Receives an",
+    "description": "1. Return on Assets (ROA)\nROA indicates how efficiently bank management utilizes its total asset base to generate net income:\n$$\\text{ROA} = \\frac{\\text{Net Profit After Tax (PAT)}}{\\text{Average",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
-      "concept": "2. Transfer Pricing Mechanism in Bank Branches"
+      "concept": "2. Core Profitability Metrics: ROA, ROE & DuPont Identity"
     },
-    "badge": "107 words"
+    "badge": "208 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Net Interest Margin (NIM) & Cost-to-Income Efficiency Ratio",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
-    "description": "Q1. A commercial bank earns a Net Profit of ₹1,200 Crores on Average Total Assets of ₹1,00,000 Crores. What is its Return on Assets (ROA)?\n- (A) 0.80%\n- (B) 1.20%\n- (C) 1.50%\n- (D) 2.00%\n\nQ2.",
+    "description": "1. Net Interest Margin (NIM)\nNIM evaluates the net yield generated by a bank's interest-earning assets:\n$$\\text{NIM} = \\frac{\\text{Interest Income} - \\text{Interest Expended}}{\\text{Average Earnin",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Net Interest Margin (NIM) & Cost-to-Income Efficiency Ratio"
     },
-    "badge": "196 words"
+    "badge": "125 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-02_chapter_02_branch_profitability_roa_roe-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Funds Transfer Pricing (FTP) & Branch Profitability Accounting",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-02_chapter_02_branch_profitability_roa_roe",
-    "description": "<details>\n<summary>Why does an increase in high-cost bulk deposits compress a bank Net Interest Margin (NIM)?</summary>\n\nBecause bulk deposits carry higher coupon rates than retail CASA accounts, incr",
+    "description": "Traditional branch accounting generated distorted views: deposit-heavy rural branches appeared loss-making (due to interest paid on deposits), while loan-heavy urban branches appeared highly profitabl",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BRANCH PROFITABILITY, OPERATIONAL EFFICIENCY & ROA / ROE METRICS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Funds Transfer Pricing (FTP) & Branch Profitability Accounting"
     },
-    "badge": "83 words"
+    "badge": "138 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
@@ -6195,67 +6195,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "788 words • 4 min read"
+    "badge": "1,328 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-2",
     "type": "CONCEPT",
-    "title": "1. Mapping Maslow Hierarchy of Needs to Retail Banking Products",
+    "title": "1. Maslow's Hierarchy of Needs Applied to Retail Banking",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
-    "description": "┌──────────────────────────────────┐\n                     │     SELF-ACTUALIZATION NEEDS     │  • Philanthropic Trusts, Legacy Planning,\n                     │",
+    "description": "Human financial requirements evolve systematically across life stages, progressing from basic physiological survival tools to self-actualizing wealth distribution:\n\ntext\n[5. Self-Actualization] Phi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
-      "concept": "1. Mapping Maslow Hierarchy of Needs to Retail Banking Products"
+      "concept": "1. Maslow's Hierarchy of Needs Applied to Retail Banking"
     },
-    "badge": "238 words"
+    "badge": "259 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-3",
     "type": "CONCEPT",
-    "title": "2. Product Life Cycle (PLC) in Retail Banking",
+    "title": "2. Service Quality Architecture in Banking (SERVQUAL Model)",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
-    "description": "1. Introduction Stage: Product launched with high marketing and tech development costs; negative or low initial operating margins (e.g., Early launch of Digital Rupee e₹).\n2. Growth Stage: Rap",
+    "description": "Because banking products are largely commoditized (interest rates and loan features are easily copied), Service Quality is the primary differentiator of customer retention:\n\n The 5 Core Dimensi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
-      "concept": "2. Product Life Cycle (PLC) in Retail Banking"
+      "concept": "2. Service Quality Architecture in Banking (SERVQUAL Model)"
     },
-    "badge": "141 words"
+    "badge": "120 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. The 7-Stage New Product Development (NPD) Process",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
-    "description": "Q1. Under Abraham Maslow Hierarchy of Needs applied to banking products, a Housing Loan satisfies which level of consumer needs?\n- (A) Physiological Needs\n- (B) Safety and Security Needs\n- (C) Soc",
+    "description": "Developing and commercializing new retail banking products requires a disciplined multi-stage process to mitigate regulatory, financial, and operational risks:\n\ntext\n[1. Idea Generation] ──> [2. Id",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. The 7-Stage New Product Development (NPD) Process"
     },
-    "badge": "204 words"
+    "badge": "263 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Product Life Cycle (PLC) Management in Retail Banking",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-03_chapter_03_customer_requirements_maslow_plc",
-    "description": "<details>\n<summary>How does customer age correlate with the transition across Maslow tiers in retail banking?</summary>\n\nYoung adulthood starts with Physiological needs (salary accounts, debit cards).",
+    "description": "Every banking product navigates four distinct stages over time, requiring evolving marketing, pricing, and operational strategies:\n\n| PLC Stage | Characteristics in Banking | Strategic Pricing & Marke",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CUSTOMER REQUIREMENTS, PRODUCT LIFECYCLE & MASLOW HIERARCHY",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Product Life Cycle (PLC) Management in Retail Banking"
     },
-    "badge": "95 words"
+    "badge": "143 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa",
@@ -6269,67 +6269,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "814 words • 4 min read"
+    "badge": "1,580 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Classification of Retail Deposit Products",
+    "title": "1. Master Classification of Retail Liability Deposits",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
-    "description": "| Product Category | Statutory Nature & Features | Regulatory Norms (RBI Directions) |\n| :--- | :--- | :--- |\n| Current Accounts | Demand liability; non-interest-bearing; high transaction turnover",
+    "description": "| Deposit Class | Account Type | Interest Bearing Status | Tenor Structure | Target Segment & Primary Purpose |\n| :--- | :--- | :--- | :--- | :--- |\n| Demand Liabilities | Current Account |",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
-      "concept": "1. Master Classification of Retail Deposit Products"
+      "concept": "1. Master Classification of Retail Liability Deposits"
     },
-    "badge": "215 words"
+    "badge": "158 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-3",
     "type": "CONCEPT",
-    "title": "2. DICGC Deposit Insurance Coverage Framework",
+    "title": "2. Current Accounts: Regulatory Architecture & Operational Rules",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
-    "description": "- Insuring Authority: Deposit Insurance and Credit Guarantee Corporation (DICGC), a wholly owned subsidiary of the Reserve Bank of India (DICGC Act 1961).\n- Maximum Insured Limit: ₹5,00,000",
+    "description": "- Statutory Prohibition of Interest: RBI regulations prohibit banks from paying interest on current account balances, whether held by residents or non-residents.\n- Permitted Entities: Sole pro",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
-      "concept": "2. DICGC Deposit Insurance Coverage Framework"
+      "concept": "2. Current Accounts: Regulatory Architecture & Operational Rules"
     },
-    "badge": "150 words"
+    "badge": "171 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Savings Bank Accounts: Interest Mechanics & BSBDA Mandate",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
-    "description": "Q1. Under current Reserve Bank of India guidelines, on what basis must commercial banks calculate interest payable on Savings Bank accounts?\n- (A) Minimum balance between 10th and 30th of the mont",
+    "description": "1. Daily Product Method of Interest Calculation\nUnder RBI directives, savings bank interest must be calculated on a daily end-of-day product basis:\n$$\\text{Interest Amount} = \\frac{\\sum \\text{",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Savings Bank Accounts: Interest Mechanics & BSBDA Mandate"
     },
-    "badge": "214 words"
+    "badge": "171 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Time Deposits: Operations, Overdue Rules & Advances",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-04_chapter_04_retail_liability_products_casa",
-    "description": "<details>\n<summary>If a depositor maintains ₹4 Lakhs in an individual savings account and ₹3 Lakhs in an individual term deposit in the same bank, what is the total DICGC insurance payout if the bank",
+    "description": "1. Tenor and Premature Withdrawal\n- Permissible Tenor: Minimum 7 days (minimum 15 days for bulk deposits $> ₹3\\text{ Crores}$), maximum 10 years (can extend to 20 years under court ord",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Time Deposits: Operations, Overdue Rules & Advances"
     },
-    "badge": "126 words"
+    "badge": "181 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
@@ -6343,22 +6343,22 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "858 words • 4 min read"
+    "badge": "1,599 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-2",
     "type": "CONCEPT",
-    "title": "1. RBI Prudential Guidelines on Housing Loan LTV Ratios & Risk Weights",
+    "title": "1. RBI Prudential Guidelines on Housing Loan LTV Slabs & Risk Weights",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
-    "description": "| Individual Housing Loan Ticket Slab | Maximum Permissible LTV Ratio | Minimum Borrower Margin | Standard Regulatory Risk Weight |\n| :--- | :--- | :--- | :--- |\n| Loans up to ₹30 Lakhs | 90%",
+    "description": "The Reserve Bank links maximum permissible bank finance to property cost through Loan-to-Value (LTV) caps, imposing higher equity down-payments on luxury housing:\n\n| Individual Housing Loan Ticket Sla",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
-      "concept": "1. RBI Prudential Guidelines on Housing Loan LTV Ratios & Risk Weights"
+      "concept": "1. RBI Prudential Guidelines on Housing Loan LTV Slabs & Risk Weights"
     },
-    "badge": "155 words"
+    "badge": "223 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-3",
@@ -6366,14 +6366,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "2. Borrower Affordability Ratios: FOIR and LTV",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
-    "description": "1. Fixed Obligation to Income Ratio (FOIR)\n$$\\text{FOIR} = \\frac{\\text{Proposed Loan EMI} + \\text{Existing Fixed Monthly Debt Obligations}}{\\text{Gross / Net Monthly Income}} \\times 100$$\n- Stand",
+    "description": "Commercial banks underwrite retail housing applications by evaluating credit capacity across two independent financial metrics:\n\n 1. Fixed Obligation to Income Ratio (FOIR)\nFOIR evaluates the borro",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
       "concept": "2. Borrower Affordability Ratios: FOIR and LTV"
     },
-    "badge": "71 words"
+    "badge": "109 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-4",
@@ -6381,29 +6381,29 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "3. Pradhan Mantri Awas Yojana (PMAY) Credit Linked Subsidy Scheme (CLSS)",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
-    "description": "| Beneficiary Category | Annual Household Income | Max Loan Eligible for Subsidy | Interest Subsidy Rate | Max Net Present Value (NPV) Subsidy |\n| :--- | :--- | :--- | :--- | :--- |\n| Economically W",
+    "description": "Under the PMAY mission (Housing for All), the Ministry of Housing and Urban Affairs provides upfront interest subvention credited directly to the borrower's loan account:\n\n| Beneficiary Category | A",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
       "concept": "3. Pradhan Mantri Awas Yojana (PMAY) Credit Linked Subsidy Scheme (CLSS)"
     },
-    "badge": "211 words"
+    "badge": "189 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Regulatory Pricing Mandates & Prepayment Protections",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay",
-    "description": "Q1. Under RBI prudential guidelines, what is the maximum permissible Loan-to-Value (LTV) ratio for an individual housing loan of ₹25 Lakhs?\n- (A) 75%\n- (B) 80%\n- (C) 85%\n- (D) 90%\n\nQ2. For an",
+    "description": "1. External Benchmark Lending Rate (EBLR) Mandate:\n   - Effective 1 October 2019, all new floating-rate personal and retail loans (housing, auto, personal) sanctioned by commercial banks must",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS I: HOUSING LOANS, LTV RATIOS & PMAY",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "4. Regulatory Pricing Mandates & Prepayment Protections"
     },
-    "badge": "186 words"
+    "badge": "120 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans",
@@ -6417,67 +6417,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "761 words • 4 min read"
+    "badge": "1,262 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-2",
     "type": "CONCEPT",
-    "title": "1. IBA Model Education Loan Scheme Norms",
+    "title": "1. Auto / Vehicle Loans: Legal Security & Underwriting Framework",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
-    "description": "| Loan Quantum Slab | Margin Requirement | Collateral & Security Mandate |\n| :--- | :--- | :--- |\n| Up to ₹4.00 Lakhs | NIL (0% Margin) | No Collateral, No Third-Party Guarantee. Parents /",
+    "description": "Auto loans finance passenger cars, two-wheelers, and commercial vehicles for individuals and proprietary firms:\n\n 1. Legal Charge: Hypothecation under Section 51 of Motor Vehicles Act, 1988\n- Vehic",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
-      "concept": "1. IBA Model Education Loan Scheme Norms"
+      "concept": "1. Auto / Vehicle Loans: Legal Security & Underwriting Framework"
     },
-    "badge": "156 words"
+    "badge": "249 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-3",
     "type": "CONCEPT",
-    "title": "2. Vehicle / Auto Loans & Hypothecation Architecture",
+    "title": "2. Personal Loans: Unsecured Credit Dynamics & End-Use Risks",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
-    "description": "- Primary Security: Hypothecation of the financed vehicle in favor of the lending bank.\n- Statutory Registration: Bank charge must be registered with the Regional Transport Authority (RTA)",
+    "description": "Personal loans provide multi-purpose cash credit to individuals without requiring tangible collateral security:\n\n- Target Segment: Salaried corporate employees, government servants, self-employed",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
-      "concept": "2. Vehicle / Auto Loans & Hypothecation Architecture"
+      "concept": "2. Personal Loans: Unsecured Credit Dynamics & End-Use Risks"
     },
-    "badge": "75 words"
+    "badge": "116 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-4",
     "type": "CONCEPT",
-    "title": "3. Unsecured Personal Loans",
+    "title": "3. Education Loans: IBA Model Scheme & Collateral Tiers",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
-    "description": "- Characteristics: Fast turnaround, no physical collateral, priced at higher interest margins.\n- Underwriting Parameters: Primarily evaluated on CIBIL score ($ge 750$), employer tier, FOIR ($l",
+    "description": "To foster higher education, the Indian Banks' Association (IBA) formulated the Model Educational Loan Scheme, adopted across all commercial banks:\n\n| Loan Amount Tier | Minimum Borrower Margin | M",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
-      "concept": "3. Unsecured Personal Loans"
+      "concept": "3. Education Loans: IBA Model Scheme & Collateral Tiers"
     },
-    "badge": "97 words"
+    "badge": "239 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-06_chapter_06_auto_personal_education_loans-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Worked Numerical: Education Loan Moratorium & EMI Computation",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-06_chapter_06_auto_personal_education_loans",
-    "description": "Q1. Under the IBA Model Education Loan Scheme, what collateral security or third-party guarantee can a bank demand for a loan of ₹3.50 Lakhs?\n- (A) Immovable property mortgage\n- (B) Two government",
+    "description": "Problem Statement:  \nA student is sanctioned an education loan of ₹6,00,000 for a 2-year Master's degree program at an interest rate of $10.00\\%$ per annum (simple interest during moratorium).\n- C",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL LENDING PRODUCTS II: AUTO, PERSONAL & EDUCATION LOANS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "4. Worked Numerical: Education Loan Moratorium & EMI Computation"
     },
-    "badge": "223 words"
+    "badge": "292 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
@@ -6491,67 +6491,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "777 words • 4 min read"
+    "badge": "1,401 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Classification: Credit Cards vs Charge Cards vs Debit Cards",
+    "title": "1. Master Classification: Payment Card Architectures",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
-    "description": "| Card Type | Funding Source & Settlement Dynamic | Grace Period & Revolving Credit Features |\n| :--- | :--- | :--- |\n| Debit Card | Linked directly to depositor savings/current account; real-time",
+    "description": "| Card Category | Settlement Mechanism | Credit Facility Availability | Grace Period | Regulatory Funding Source |\n| :--- | :--- | :--- | :--- | :--- |\n| Debit Card | Immediate Real-Time Debit",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
-      "concept": "1. Master Classification: Credit Cards vs Charge Cards vs Debit Cards"
+      "concept": "1. Master Classification: Payment Card Architectures"
     },
-    "badge": "130 words"
+    "badge": "185 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-3",
     "type": "CONCEPT",
-    "title": "2. Credit Card Mechanics & Revolving Credit Economics",
+    "title": "2. Credit Card Mechanics: Billing Cycle, Grace Period & Finance Charges",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
-    "description": "- Minimum Amount Due (MAD):\n  - Standard industry benchmark: 5% of the total outstanding statement balance (plus taxes, fees, and overdue amounts).\n  - Critical Trap: Paying only MAD avoids",
+    "description": "1. The Billing Cycle & Payment Due Date\n- Billing Cycle (Statement Date): A recurring 30-day period during which transactions are aggregated into a monthly statement.\n- Payment Due Date (PDD",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
-      "concept": "2. Credit Card Mechanics & Revolving Credit Economics"
+      "concept": "2. Credit Card Mechanics: Billing Cycle, Grace Period & Finance Charges"
     },
-    "badge": "146 words"
+    "badge": "227 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Comprehensive Worked Numerical: Credit Card Revolving Interest Mechanics",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
-    "description": "Q1. What is the primary operational difference between a Credit Card and a Charge Card?\n- (A) A Credit Card requires full payment each month; a Charge Card allows revolving credit\n- (B) A Charge C",
+    "description": "Problem Statement:  \nA cardholder has a billing statement generated on 1 May 2026 with a Payment Due Date of 20 May 2026.\n- Previous statement balance: NIL.\n- 5 May 2026: Purchases goods w",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Comprehensive Worked Numerical: Credit Card Revolving Interest Mechanics"
     },
-    "badge": "257 words"
+    "badge": "272 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-07_chapter_07_payment_cards_credit_debit-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Card Technology & RBI Regulatory Protections",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-07_chapter_07_payment_cards_credit_debit",
-    "description": "<details>\n<summary>What constitutes the \"Grace Period\" on a credit card, and how can it range up to 50 days?</summary>\n\nThe grace period is the interest-free window between a transaction date and the",
+    "description": "1. Chip & PIN vs Contactless Cards\n- EMV Chip & PIN: Microprocessor chip creates dynamic cryptographic tokens per transaction, eliminating card skimming vulnerability inherent in magnetic stri",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PAYMENT CARDS: CREDIT CARDS, CHARGE CARDS & PREPAID INSTRUMENTS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Card Technology & RBI Regulatory Protections"
     },
-    "badge": "125 words"
+    "badge": "304 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
@@ -6565,67 +6565,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "713 words • 4 min read"
+    "badge": "1,145 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Matrix: Indian Electronic Payment Rails",
+    "title": "1. Traditional Remittance Instruments: Demand Drafts & Bankers' Cheques",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
-    "description": "| Payment Platform | Governing Operator | Settlement Mechanism | Operating Hours & Minimum / Maximum Limits |\n| :--- | :--- | :--- | :--- |\n| NEFT (National Electronic Funds Transfer) | Reserve",
+    "description": "Before electronic rails, paper-based instruments provided guaranteed inter-bank remittances:\n\n| Parameter | Demand Draft (DD) | Banker's Cheque / Pay Order |\n| :--- | :--- | :--- |\n| Issuing Authori",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
-      "concept": "1. Master Matrix: Indian Electronic Payment Rails"
+      "concept": "1. Traditional Remittance Instruments: Demand Drafts & Bankers' Cheques"
     },
-    "badge": "181 words"
+    "badge": "188 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-3",
     "type": "CONCEPT",
-    "title": "2. Demand Drafts (DD) vs Bankers Cheques (Pay Orders)",
+    "title": "2. Reserve Bank Core Electronic Payment Rails: NEFT & RTGS",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
-    "description": "- Demand Draft (Section 85A, NI Act): Drawn by one branch of a bank upon another branch of the same bank; payable on demand; cannot be stopped by customer except under fraud/loss claims.\n- Banke",
+    "description": "The Reserve Bank of India owns and operates India's systemic gross and net settlement systems:\n\n 1. National Electronic Funds Transfer (NEFT)\n- Settlement Architecture: Operates on Deferred N",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
-      "concept": "2. Demand Drafts (DD) vs Bankers Cheques (Pay Orders)"
+      "concept": "2. Reserve Bank Core Electronic Payment Rails: NEFT & RTGS"
     },
-    "badge": "134 words"
+    "badge": "167 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. NPCI Retail Payment Rails: IMPS, UPI, AePS & BBPS",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
-    "description": "Q1. What is the statutory minimum transaction amount required to route a funds transfer through Real Time Gross Settlement (RTGS)?\n- (A) ₹50,000\n- (B) ₹1,00,000\n- (C) ₹2,00,000\n- (D) ₹5,00,000",
+    "description": "Established under the Payment and Settlement Systems Act, 2007 (PSS Act), NPCI manages retail digital transaction rails:\n\n 1. Immediate Payment Service (IMPS)\n- Settlement: Instant 24x7 interba",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. NPCI Retail Payment Rails: IMPS, UPI, AePS & BBPS"
     },
-    "badge": "183 words"
+    "badge": "251 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Master Comparison Matrix: Payment Rails",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-08_chapter_08_remittance_products_digital_channels",
-    "description": "<details>\n<summary>Why are NEFT charges waived for individual savings bank account holders initiating transactions online?</summary>\n\nThe RBI mandated zero charges on online NEFT transfers (via intern",
+    "description": "| Operational Feature | NEFT | RTGS | IMPS | UPI |\n| :--- | :--- | :--- | :--- | :--- |\n| Operating Authority | RBI | RBI | NPCI | NPCI |\n| Settlement Method | Deferred Net (Half-Hourly) | Rea",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Master Comparison Matrix: Payment Rails"
     },
-    "badge": "104 words"
+    "badge": "193 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
@@ -6639,7 +6639,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "792 words • 4 min read"
+    "badge": "1,230 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-2",
@@ -6647,59 +6647,59 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "1. Credit Information Companies (CICs) in India",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
-    "description": "Under CICRA 2005, four authorized Credit Information Companies operate under RBI regulatory oversight:\n1. TransUnion CIBIL (Credit Information Bureau India Limited, established 2000)\n2. Experi",
+    "description": "Under CICRA 2005, four specialized credit rating bureaus operate under Reserve Bank of India licenses:\n\n1. TransUnion CIBIL: The earliest and dominant credit bureau in India, established in 2000.",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
       "concept": "1. Credit Information Companies (CICs) in India"
     },
-    "badge": "85 words"
+    "badge": "160 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-3",
     "type": "CONCEPT",
-    "title": "2. CIBIL Score Architecture (300 to 900 Points)",
+    "title": "2. Credit Score Architecture: The 300–900 Point System",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
-    "description": "$$\\text{Credit Score Range: } 300 \\text{ to } 900 \\text{ Points}$$\n\n| Score Band | Category / Risk Level | Underwriting Treatment by Commercial Banks |\n| :--- | :--- | :--- |\n| 300 – 599 | Poor",
+    "description": "The standard bureau scoring model ranges from 300 to 900 points, where higher scores indicate lower probability of default:\n\n| Score Band | Qualitative Risk Category | Credit Approval Probability",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
-      "concept": "2. CIBIL Score Architecture (300 to 900 Points)"
+      "concept": "2. Credit Score Architecture: The 300–900 Point System"
     },
-    "badge": "123 words"
+    "badge": "182 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-4",
     "type": "CONCEPT",
-    "title": "3. Factor Weightages Determining the Credit Score",
+    "title": "3. The 5 Core Score Components & Weighting Framework",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
-    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                 FACTOR WEIGHTAGES IN CREDIT SCORE MODEL                     │\n| 1. PAST REPAYMENT HISTORY (35%) :",
+    "description": "A credit bureau score is computed using five proprietary weighting dimensions:\n\ntext\n[Past Repayment History: ~35%]   ───> DPD, 30/60/90 days defaults, write-offs\n[Credit Utilization Ratio: ~30%] ─",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
-      "concept": "3. Factor Weightages Determining the Credit Score"
+      "concept": "3. The 5 Core Score Components & Weighting Framework"
     },
-    "badge": "137 words"
+    "badge": "288 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Common Errors in Credit Reports & Dispute Resolution Mechanism",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
-    "description": "Q1. What is the numeric scoring range utilized by TransUnion CIBIL and authorized Credit Information Companies in India?\n- (A) 100 to 1,000 Points\n- (B) 300 to 900 Points\n- (C) 0 to 100 Points\n- (",
+    "description": "Frequent Report Inaccuracies:\n- Identity Inaccuracies: Wrong PAN, voter ID, or mixing files of individuals with similar names.\n- Reporting Delays: Loans closed months ago still reflecting",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "4. Common Errors in Credit Reports & Dispute Resolution Mechanism"
     },
-    "badge": "203 words"
+    "badge": "197 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
@@ -6713,67 +6713,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "769 words • 4 min read"
+    "badge": "1,355 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Comparison of Recovery Mechanisms",
+    "title": "1. Asset Quality Tracking & Loan Classification",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
-    "description": "| Recovery Forum | Legal Authority & Statues | Pecuniary Jurisdiction Limit | Key Operational Process & Powers |\n| :--- | :--- | :--- | :--- |\n| Lok Adalat | Legal Services Authorities Act 1987 |",
+    "description": "Under Reserve Bank of India prudential norms on Income Recognition, Asset Classification, and Provisioning (IRACP):\n\n 1. Special Mention Account (SMA) Framework\nBefore a loan slips into NPA status,",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
-      "concept": "1. Master Comparison of Recovery Mechanisms"
+      "concept": "1. Asset Quality Tracking & Loan Classification"
     },
-    "badge": "159 words"
+    "badge": "253 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-3",
     "type": "CONCEPT",
-    "title": "2. SARFAESI Enforcement Protocol in Retail Advances",
+    "title": "2. Recovery Channel 1: Lok Adalat (People's Court)",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
-    "description": "1. Prerequisite: Account must be formally classified as NPA; outstanding balance must exceed ₹1 Lakh; and remaining debt must be at least 20% of original principal and interest.\n2. Section 13(2)",
+    "description": "Constituted under the Legal Services Authorities Act, 1987, Lok Adalats provide an informal, fast-track dispute resolution forum:\n\n- Pecuniary Jurisdiction: Cases involving debt claims up to",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
-      "concept": "2. SARFAESI Enforcement Protocol in Retail Advances"
+      "concept": "2. Recovery Channel 1: Lok Adalat (People's Court)"
     },
-    "badge": "181 words"
+    "badge": "106 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Recovery Channel 2: Debt Recovery Tribunals (DRT)",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
-    "description": "Q1. What is the minimum debt threshold required for a commercial bank to file a recovery application before the Debt Recovery Tribunal (DRT)?\n- (A) ₹5 Lakhs\n- (B) ₹10 Lakhs\n- (C) ₹20 Lakhs\n- (D) ₹",
+    "description": "Established under the Recovery of Debts and Bankruptcy Act, 1993 (RDB Act):\n\n- Pecuniary Jurisdiction: Handles recovery applications where the debt amount due is ₹20 Lakhs and above (thres",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Recovery Channel 2: Debt Recovery Tribunals (DRT)"
     },
-    "badge": "196 words"
+    "badge": "108 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Recovery Channel 3: The SARFAESI Act, 2002",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
-    "description": "<details>\n<summary>Why is an award passed by a Lok Adalat considered final with zero appeal possibility?</summary>\n\nBecause a Lok Adalat decree is formed on the voluntary, mutual consent of both debto",
+    "description": "The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act) is the most potent recovery instrument available to secured creditors, enabl",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RETAIL NPA RECOVERY: LOK ADALATS, DRT & SARFAESI ACT 2002",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Recovery Channel 3: The SARFAESI Act, 2002"
     },
-    "badge": "118 words"
+    "badge": "302 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
@@ -6787,67 +6787,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "759 words • 4 min read"
+    "badge": "1,075 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-2",
     "type": "CONCEPT",
-    "title": "1. IBA Model Code of Conduct & RBI Guidelines for DRAs",
+    "title": "1. Regulatory Context & Legal Principles of Recovery Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
-    "description": "| Operational Dimension | Regulatory Mandate / Permissible Standard | Legal Authority & Reference |\n| :--- | :--- | :--- |\n| Mandatory Certification | All recovery agents must undergo 50/100-hour",
+    "description": "- Supreme Court of India Ruling: The Supreme Court held that banks cannot employ strong-arm tactics, musclemen, or extra-judicial coercion to repossess assets or collect overdue installments. Reco",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
-      "concept": "1. IBA Model Code of Conduct & RBI Guidelines for DRAs"
+      "concept": "1. Regulatory Context & Legal Principles of Recovery Operations"
     },
-    "badge": "183 words"
+    "badge": "92 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-3",
     "type": "CONCEPT",
-    "title": "2. Supreme Court Doctrine on Bank Vicarious Liability",
+    "title": "2. Mandatory DRA Training & IIBF Certification Architecture",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
-    "description": "In ICICI Bank Ltd. v. Prakash Kaur (2007), the Supreme Court of India ruled that banks cannot use musclemen or extra-judicial coercive tactics to recover debt or repossess assets. The lending bank r",
+    "description": "Before any recovery agent or agency personnel can interact with defaulting borrowers, they must complete statutory accreditation:\n\n| Educational Qualification of Agent | Mandatory Training Duration |",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
-      "concept": "2. Supreme Court Doctrine on Bank Vicarious Liability"
+      "concept": "2. Mandatory DRA Training & IIBF Certification Architecture"
     },
-    "badge": "102 words"
+    "badge": "186 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Operational Code of Conduct & Calling Protocols",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
-    "description": "Q1. Under RBI regulations and the IBA Code of Conduct, between what hours are Direct Recovery Agents permitted to contact borrowers via telephone or physical visits?\n- (A) 06:00 AM to 08:00 PM\n- (",
+    "description": "The RBI and IBA enforce strict behavioral protocols governing borrower interactions:\n\n 1. Permitted Calling Hours\n- Recovery agents are strictly restricted to calling or visiting borrowers between",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Operational Code of Conduct & Calling Protocols"
     },
-    "badge": "257 words"
+    "badge": "197 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Vicarious Liability & Penal Provisions for Banks",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
-    "description": "<details>\n<summary>What steps must a bank take if a customer registers a formal harassment complaint against a Direct Recovery Agent?</summary>\n\nThe bank must immediately suspend the assigned recovery",
+    "description": "Under Indian tort and civil law, the legal principle of Vicarious Liability holds the principal (the bank) liable for all wrongful acts committed by its agents (DRAs) within the scope of their emp",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Vicarious Liability & Penal Provisions for Banks"
     },
-    "badge": "103 words"
+    "badge": "204 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
@@ -6861,67 +6861,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "735 words • 4 min read"
+    "badge": "1,116 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Securitization Mechanism & Architecture",
+    "title": "1. The Tripartite Securitization Architecture",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
-    "description": "ORIGINATOR               SPECIAL PURPOSE                INSTITUTIONAL\n (Lending Bank)             VEHICLE (SPV)                  INVESTORS\n   │                              │",
+    "description": "Securitization involves three core participants operating within a bankruptcy-remote legal structure:\n\ntext\n[1. Originator (Bank)] ──(True Sale of Loan Pool)──> [2. SPV (Bankruptcy-Remote Trust)]",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
-      "concept": "1. Master Securitization Mechanism & Architecture"
+      "concept": "1. The Tripartite Securitization Architecture"
     },
-    "badge": "126 words"
+    "badge": "146 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-3",
     "type": "CONCEPT",
-    "title": "2. Minimum Holding Period (MHP) & Minimum Retention Requirement (MRR)",
+    "title": "2. Securitization Instruments & Tranching: PTCs vs Pay-Throughs",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
-    "description": "| Prudential Parameter | Regulatory Mandate under RBI Master Directions | Objective of Norm |\n| :--- | :--- | :--- |\n| Minimum Holding Period (MHP) | • Loans $le$ 24 months tenor: 3 months of",
+    "description": "- Pass-Through Certificates (PTCs): Securities that grant investors an undivided proportional direct interest in the underlying cash flows of the pool. Principal and interest repayments collected",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
-      "concept": "2. Minimum Holding Period (MHP) & Minimum Retention Requirement (MRR)"
+      "concept": "2. Securitization Instruments & Tranching: PTCs vs Pay-Throughs"
     },
-    "badge": "171 words"
+    "badge": "160 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. RBI Master Direction on Securitisation of Standard Assets (2021/2026)",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
-    "description": "Q1. In the securitization of standard retail loans with tenure exceeding 24 months, what is the Minimum Retention Requirement (MRR) mandated by the RBI?\n- (A) 2% of pool value\n- (B) 5% of pool val",
+    "description": "To prevent subprime-style systemic risks, the Reserve Bank enforces strict prudential safeguards:\n\n 1. True Sale Criteria (Absolute Legal Separation)\nFor a securitization transaction to qualify as",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. RBI Master Direction on Securitisation of Standard Assets (2021/2026)"
     },
-    "badge": "243 words"
+    "badge": "408 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Solved Examination Questions",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
-    "description": "<details>\n<summary>What is the difference between Pass-Through Certificates (PTCs) and Pay-Through Securities?</summary>\n\nPass-Through Certificates pass collected cash flows (principal and interest) d",
+    "description": "Q1. Under RBI Master Directions on Securitisation of Standard Assets, what is the Minimum Holding Period (MHP) required for a retail housing loan with an original maturity of 20 years before it ca",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "SECURITIZATION OF RETAIL LOANS & PASS-THROUGH CERTIFICATES (PTCS)",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Solved Examination Questions"
     },
-    "badge": "87 words"
+    "badge": "141 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
@@ -6935,67 +6935,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "759 words • 4 min read"
+    "badge": "1,061 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Framework: The 7 Ps of Banking Services Marketing",
+    "title": "1. Unique Characteristics of Banking Services",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
-    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                 THE 7 Ps OF FINANCIAL SERVICES MARKETING                    │\n├───────────────────────────────────",
+    "description": "Financial services possess four distinct economic characteristics (the \"HIIP\" framework):\n\ntext\n[Intangibility]   ──> Cannot be seen/touched; reliance on brand trust & physical evidence\n[Inseparabi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
-      "concept": "1. Master Framework: The 7 Ps of Banking Services Marketing"
+      "concept": "1. Unique Characteristics of Banking Services"
     },
-    "badge": "253 words"
+    "badge": "159 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-3",
     "type": "CONCEPT",
-    "title": "2. Unique Characteristics of Financial Services",
+    "title": "2. The 7 Ps Extended Marketing Mix in Retail Banking",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
-    "description": "- Intangibility: Banking products cannot be seen, touched, or tasted before purchase; customers rely on brand reputation, regulatory strength, and physical evidence.\n- Inseparability: Producti",
+    "description": "While manufactured goods rely on the traditional 4 Ps (Product, Price, Place, Promotion), services demand three additional operational Ps (People, Process, Physical Evidence):\n\n| The 7 Ps Dimension |",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
-      "concept": "2. Unique Characteristics of Financial Services"
+      "concept": "2. The 7 Ps Extended Marketing Mix in Retail Banking"
     },
-    "badge": "129 words"
+    "badge": "201 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Segmentation, Targeting & Positioning (STP) in Banking",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
-    "description": "Q1. Which three additional \"Ps\" are added to the traditional 4 Ps marketing mix to formulate the extended 7 Ps framework for financial services?\n- (A) Planning, Performance, and Profit\n- (B) Peopl",
+    "description": "- Segmentation: Dividing the heterogeneous retail market into homogeneous customer clusters based on demographics (age, income), geography (metro, urban, semi-urban, rural), and psychographics (ri",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Segmentation, Targeting & Positioning (STP) in Banking"
     },
-    "badge": "193 words"
+    "badge": "75 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Marketing Information Systems (MKIS) Architecture",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-13_chapter_13_marketing_mix_7ps_banking",
-    "description": "<details>\n<summary>How does Straight-Through Processing (STP) resolve the challenge of service \"Heterogeneity\" in retail banking?</summary>\n\nBy automating end-to-end customer onboarding and underwriti",
+    "description": "A Marketing Information System (MKIS) is an interacting structure of people, equipment, and procedures designed to gather, sort, analyze, evaluate, and distribute timely, accurate information to marke",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE 7 PS EXTENDED MARKETING MIX FOR FINANCIAL SERVICES",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Marketing Information Systems (MKIS) Architecture"
     },
-    "badge": "79 words"
+    "badge": "282 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
@@ -7009,67 +7009,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "760 words • 4 min read"
+    "badge": "1,143 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Matrix: ATM Operating Models in India",
+    "title": "1. Automated Teller Machine (ATM) Typology & Operational Models",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
-    "description": "| ATM Classification | Ownership of Hardware & Site | Cash Management & Banking Connectivity | Operational Features & Brand Identity |\n| :--- | :--- | :--- | :--- |\n| Bank-Owned ATM | Owned and le",
+    "description": "ATMs provide 24x7 automated cash dispensing, deposit taking, and basic banking inquiries. In India, ATMs fall into three distinct operational and ownership structures:\n\n| ATM Model | Hardware & Site O",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
-      "concept": "1. Master Matrix: ATM Operating Models in India"
+      "concept": "1. Automated Teller Machine (ATM) Typology & Operational Models"
     },
-    "badge": "174 words"
+    "badge": "231 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-3",
     "type": "CONCEPT",
-    "title": "2. Business Correspondent (BC) Model for Financial Inclusion",
+    "title": "2. Financial Inclusion Delivery: The Business Correspondent (BC) Model",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
-    "description": "- Regulatory Origin: RBI permitted banks in 2006 to engage non-governmental intermediaries as Business Facilitators (BFs) and Business Correspondents (BCs) to bridge the last-mile rural banking di",
+    "description": "To extend banking services to unbanked rural and remote geographies where establishing full-fledged branches is commercially unviable, the Reserve Bank formulated the Business Correspondent (BC) Mod",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
-      "concept": "2. Business Correspondent (BC) Model for Financial Inclusion"
+      "concept": "2. Financial Inclusion Delivery: The Business Correspondent (BC) Model"
     },
-    "badge": "159 words"
+    "badge": "131 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Customer Liability in Unauthorized Electronic Banking Transactions",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
-    "description": "Q1. Automated Teller Machines (ATMs) owned and operated by non-bank entities authorized by the RBI, which do not display any bank logo, are termed:\n- (A) Brown Label ATMs\n- (B) White Label ATMs\n-",
+    "description": "Under the RBI Master Direction (July 2017/2026), customer financial liability for fraudulent electronic banking transactions (third-party card skim, net banking hack, unauthorized UPI debit) is de",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Customer Liability in Unauthorized Electronic Banking Transactions"
     },
-    "badge": "220 words"
+    "badge": "394 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Solved Examination Questions",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-14_chapter_14_delivery_channels_atms_bcs",
-    "description": "<details>\n<summary>Why is the per-transaction servicing cost of mobile banking significantly lower than a physical branch counter?</summary>\n\nPhysical branches incur high fixed overheads (real estate",
+    "description": "Q1. If a customer notifies their bank within 3 working days regarding an unauthorized electronic transaction caused by a third-party breach where neither the customer nor bank was at fault, what i",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DELIVERY CHANNELS: BRANCH ARCHITECTURE, ATMS & BUSINESS CORRESPONDENTS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Solved Examination Questions"
     },
-    "badge": "102 words"
+    "badge": "141 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
@@ -7083,67 +7083,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "607 words • 3 min read"
+    "badge": "1,221 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-2",
     "type": "CONCEPT",
-    "title": "1. Cross-Selling vs Up-Selling Dynamics",
+    "title": "1. Economics of Relationship Banking & Customer Retention",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
-    "description": "EXISTING RETAIL CUSTOMER (Home Loan Borrower)\n         │\n         ├── CROSS-SELLING (Ancillary Products) ──► Home Insurance, Credit Card, Mutual Fund SIP\n         │\n         └── UP-SELLING (Prem",
+    "description": "- Transaction Banking: Focuses on single-event product sales (e.g., executing a demand draft or opening a stand-alone term deposit). Profitability terminates upon transaction completion.\n- Relat",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
-      "concept": "1. Cross-Selling vs Up-Selling Dynamics"
+      "concept": "1. Economics of Relationship Banking & Customer Retention"
     },
-    "badge": "115 words"
+    "badge": "148 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-3",
     "type": "CONCEPT",
-    "title": "2. Customer Lifetime Value (CLV) & Churn Management",
+    "title": "2. Cross-Selling vs Up-Selling Dynamics",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
-    "description": "- Customer Lifetime Value (CLV):\n  $$\\text{CLV} = \\sum{t=1}^n \\frac{\\text{Annual Net Margin earned from Customer}t}{(1 + r)^t} - \\text{Customer Acquisition Cost}$$\n  - Quantifies total projected",
+    "description": "| Strategy | Operational Definition in Banking | Concrete Practical Example |\n| :--- | :--- | :--- |\n| Cross-Selling | Selling an additional, complementary product from a different category to",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
-      "concept": "2. Customer Lifetime Value (CLV) & Churn Management"
+      "concept": "2. Cross-Selling vs Up-Selling Dynamics"
     },
-    "badge": "131 words"
+    "badge": "123 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Customer Relationship Management (CRM) Architecture",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
-    "description": "Q1. When a bank branch marketing officer offers a Mutual Fund Systematic Investment Plan (SIP) and term insurance to an existing home loan borrower, this is:\n- (A) Up-selling\n- (B) Cross-selling\n-",
+    "description": "CRM is an integrated management strategy supported by database technology to manage customer interactions across the lifecycle:\n\ntext\n[1. Customer Identification] ──> [2. Customer Differentiation]",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Customer Relationship Management (CRM) Architecture"
     },
-    "badge": "176 words"
+    "badge": "104 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-15_chapter_15_relationship_banking_cross_selling-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Service Standards: BCSBI Evolution & Customer Commitment",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-15_chapter_15_relationship_banking_cross_selling",
-    "description": "<details>\n<summary>Why does Cross-Selling significantly improve bank Return on Equity (ROE)?</summary>\n\nBecause cross-selling generates fee-based non-interest income (e.g., insurance distributor commi",
+    "description": "The Banking Codes and Standards Board of India (BCSBI) was established in 2006 following recommendations of the S.S. Tarapore Committee on Customer Service:\n\n- Evolution & Status: Although the",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "RELATIONSHIP BANKING, CROSS-SELLING, UP-SELLING & CUSTOMER RETENTION",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Service Standards: BCSBI Evolution & Customer Commitment"
     },
-    "badge": "85 words"
+    "badge": "111 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
@@ -7157,67 +7157,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "734 words • 4 min read"
+    "badge": "1,486 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-2",
     "type": "CONCEPT",
-    "title": "1. The Three Stages of the Wealth Management Lifecycle",
+    "title": "1. The Wealth Management Lifecycle Architecture",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
-    "description": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                   THE WEALTH MANAGEMENT LIFECYCLE                           │\n├───────────────────────────────────",
+    "description": "An individual's financial lifecycle progresses across three distinct, sequential phases:\n\ntext\n[1. Accumulation Phase] ──────> [2. Preservation Phase] ──────> [3. Distribution Phase]\n- Early/Mid Ca",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
-      "concept": "1. The Three Stages of the Wealth Management Lifecycle"
+      "concept": "1. The Wealth Management Lifecycle Architecture"
     },
-    "badge": "181 words"
+    "badge": "229 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-3",
     "type": "CONCEPT",
-    "title": "2. Risk Profiling Dimensions under SEBI IA Regulations 2013",
+    "title": "2. Risk Profiling: Risk Tolerance vs Risk Capacity",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
-    "description": "- Risk Tolerance: Psychological willingness of the investor to endure market volatility and paper drawdowns.\n- Risk Capacity: Financial ability to sustain losses without endangering essential",
+    "description": "Formulating an Investment Policy Statement (IPS) requires evaluating two distinct behavioral dimensions:\n\n- Risk Tolerance (Willingness to take risk): An individual's psychological and emotional p",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
-      "concept": "2. Risk Profiling Dimensions under SEBI IA Regulations 2013"
+      "concept": "2. Risk Profiling: Risk Tolerance vs Risk Capacity"
     },
-    "badge": "140 words"
+    "badge": "175 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Asset Allocation Strategies: Strategic vs Tactical",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
-    "description": "Q1. In the Wealth Management Lifecycle, which phase is characterized by an emphasis on capital preservation, tax efficiency, and succession/estate planning for heirs?\n- (A) Wealth Accumulation Pha",
+    "description": "- Strategic Asset Allocation (SAA): The foundational long-term target portfolio asset mix determined by the investor's lifecycle stage, investment horizon, and risk profile. Reviewed and rebalance",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Asset Allocation Strategies: Strategic vs Tactical"
     },
-    "badge": "214 words"
+    "badge": "64 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-16_chapter_16_wealth_management_process_profiling-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Personal Tax Planning: Old Regime vs New Tax Regime (Section 115BAC)",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-16_chapter_16_wealth_management_process_profiling",
-    "description": "<details>\n<summary>Why must SEBI-registered Investment Advisers separate advisory activities from product distribution?</summary>\n\nTo eliminate conflicts of interest, ensuring advisers do not recommen",
+    "description": "Tax optimization constitutes an essential pillar of wealth management advisory in India:\n\n 1. Key Statutory Concepts:\n- Financial Year (FY) vs Previous Year (PY): The 12-month period (1 April t",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "WEALTH MANAGEMENT LIFECYCLE, ADVISORY & RISK PROFILING",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Personal Tax Planning: Old Regime vs New Tax Regime (Section 115BAC)"
     },
-    "badge": "92 words"
+    "badge": "239 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
@@ -7231,72 +7231,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "692 words • 4 min read"
+    "badge": "1,281 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-2",
     "type": "CONCEPT",
-    "title": "1. Portfolio Management Services (PMS) Framework",
+    "title": "1. Investment Management vs Investment Banking",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
-    "description": "- Governing Regulation: SEBI (Portfolio Managers) Regulations 2020.\n- Minimum Investment Ticket Size: ₹50 Lakhs (raised by SEBI from ₹25 Lakhs in 2020 to prevent unsophisticated retail ent",
+    "description": "- Investment Banking: Corporate finance activities assisting corporations, governments, and institutional entities in raising capital. Services include underwriting Initial Public Offerings (IPOs)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
-      "concept": "1. Portfolio Management Services (PMS) Framework"
+      "concept": "1. Investment Management vs Investment Banking"
     },
-    "badge": "83 words"
+    "badge": "63 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-3",
     "type": "CONCEPT",
-    "title": "2. Master Matrix: SEBI Alternative Investment Funds (AIFs)",
+    "title": "2. SEBI Portfolio Management Services (PMS) Regulations",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
-    "description": "- Governing Regulation: SEBI (Alternative Investment Funds) Regulations 2012.\n- Minimum Investment Ticket Size: ₹1 Crore for general investors (reduced to ₹25 Lakhs for employees/direc",
+    "description": "Under the SEBI (Portfolio Managers) Regulations, 2020, portfolio managers provide customized investment solutions:\n\n 1. Minimum Investment Ticket Size\n- The statutory minimum investment ticket",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
-      "concept": "2. Master Matrix: SEBI Alternative Investment Funds (AIFs)"
+      "concept": "2. SEBI Portfolio Management Services (PMS) Regulations"
     },
-    "badge": "210 words"
+    "badge": "272 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. SEBI Alternative Investment Funds (AIF) Regulations, 2012",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
-    "description": "Q1. Under current SEBI regulations, what is the mandatory minimum investment ticket size required for an investor to subscribe to Portfolio Management Services (PMS)?\n- (A) ₹10 Lakhs\n- (B) ₹25 Lak",
+    "description": "AIFs are privately pooled investment vehicles established or incorporated in India to collect funds from sophisticated domestic and global investors:\n\n 1. Statutory Investment Threshold\n- Minimum i",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. SEBI Alternative Investment Funds (AIF) Regulations, 2012"
     },
-    "badge": "194 words"
+    "badge": "259 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Third-Party Financial Services Distributed by Commercial Banks",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
-    "description": "<details>\n<summary>What is the fundamental difference between Discretionary PMS and Non-Discretionary PMS?</summary>\n\nIn Discretionary PMS, the manager makes security selection and trade execution dec",
+    "description": "Banks distribute fee-based third-party financial products across their branch networks:\n\n 1. Bancassurance (Insurance Distribution)\nGoverned by Insurance Regulatory and Development Authority of Ind",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Third-Party Financial Services Distributed by Commercial Banks"
     },
-    "badge": "100 words"
+    "badge": "306 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
     "type": "TOPIC",
-    "title": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
+    "title": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
     "slug": "paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
     "description": "Paper: 4 (Retail Banking and Wealth Management)",
@@ -7305,67 +7305,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "796 words • 4 min read"
+    "badge": "1,679 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Statutory Mandates under RERA 2016",
+    "title": "1. RERA 2016: Core Statutory Architecture & Mandatory Provisions",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
-    "description": "| RERA Statutory Mandate | Precise Legal Requirement & Threshold | Impact on Bank Housing Finance & Borrowers |\n| :--- | :--- | :--- |\n| Mandatory Project Registration | All commercial and residen",
+    "description": "Enacted by Parliament to protect home-buyers and establish transparency in real estate transactions, RERA enforces five structural mandates:\n\n 1. Mandatory Project Registration Thresholds\n- Every r",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
-      "concept": "1. Master Statutory Mandates under RERA 2016"
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
+      "concept": "1. RERA 2016: Core Statutory Architecture & Mandatory Provisions"
     },
-    "badge": "230 words"
+    "badge": "422 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-3",
     "type": "CONCEPT",
-    "title": "2. Operational Rules for Bank RERA Escrow Accounts",
+    "title": "2. Real Property Valuation Methodologies in Bank Appraisal",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
-    "description": "- Withdrawal Certification: Developers cannot freely withdraw funds from the 70% escrow account. Every withdrawal request submitted to the scheduled bank must be supported by three simultaneous ce",
+    "description": "Commercial banks rely on certified property valuations to determine the Loan-to-Value (LTV) ratio and distress liquidation value:\n\n 1. Land and Building Method (Cost Approach)\n$$\\text{Total Propert",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
-      "concept": "2. Operational Rules for Bank RERA Escrow Accounts"
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
+      "concept": "2. Real Property Valuation Methodologies in Bank Appraisal"
     },
-    "badge": "137 words"
+    "badge": "304 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Comprehensive Worked Numerical: Real Property Valuation & Sinking Fund",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
-    "description": "Q1. Under Section 4(2)(l)(D) of the Real Estate (Regulation and Development) Act 2016 (RERA), what percentage of funds realized from allottees must be deposited in a separate dedicated bank accoun",
+    "description": "Problem Statement:  \nA commercial property produces a gross annual rental income of ₹12,00,000.\n- Outgoings (municipal taxes, repairs, insurance, management expenses): $20\\%$ of gross rent.\n- Prev",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
+      "concept": "3. Comprehensive Worked Numerical: Real Property Valuation & Sinking Fund"
     },
-    "badge": "228 words"
+    "badge": "210 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Housing Finance Tax Deductions & Capital Gains Framework",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
-    "description": "<details>\n<summary>Define \"Carpet Area\" under RERA 2016.</summary>\n\nCarpet Area is the net usable floor area of an apartment, excluding the area covered by external walls, areas under service shafts,",
+    "description": "| Section | Nature of Tax Concession | Maximum Statutory Deduction Cap | Mandatory Qualifying Conditions |\n| :--- | :--- | :--- | :--- |\n| Section 24(b) | Interest on Housing Loan (Self-Occupied)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "REAL ESTATE REGULATION ACT (RERA 2016) & ESCROW ARCHITECTURE",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
+      "concept": "4. Housing Finance Tax Deductions & Capital Gains Framework"
     },
-    "badge": "86 words"
+    "badge": "329 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
@@ -7379,67 +7379,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "799 words • 4 min read"
+    "badge": "1,368 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-2",
     "type": "CONCEPT",
-    "title": "1. Digital Lending Architecture & RBI Guidelines (2022)",
+    "title": "1. Digital Banking Evolution: From Core Banking to Open Banking",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
-    "description": "- Lending Service Providers (LSPs) & Digital Lending Apps (DLAs): Third-party technology platforms facilitating sourcing, underwriting, and loan servicing.\n- Direct Disbursement Mandate: All l",
+    "description": "Retail banking technology has progressed across four technological paradigms:\n\n1. First Wave (Core Banking Solutions - CBS): Centralized relational databases connecting branch counters in real-tim",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
-      "concept": "1. Digital Lending Architecture & RBI Guidelines (2022)"
+      "concept": "1. Digital Banking Evolution: From Core Banking to Open Banking"
     },
-    "badge": "112 words"
+    "badge": "108 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-3",
     "type": "CONCEPT",
-    "title": "2. Neobanks vs Traditional Scheduled Commercial Banks",
+    "title": "2. Neobanking Architecture in the Indian Regulatory Context",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
-    "description": "| Feature Dimension | Traditional Commercial Banks | Neobanks (Digital-Only Banking Entities) |\n| :--- | :--- | :--- |\n| Banking License | Direct Full Banking License issued by RBI under Section 2",
+    "description": "A Neobank is a digital-first financial institution operating exclusively across mobile applications and web interfaces with zero physical branch footprint:\n\n The Indian Regulatory Model (Pa",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
-      "concept": "2. Neobanks vs Traditional Scheduled Commercial Banks"
+      "concept": "2. Neobanking Architecture in the Indian Regulatory Context"
     },
-    "badge": "97 words"
+    "badge": "125 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-4",
     "type": "CONCEPT",
-    "title": "3. Account Aggregator (AA) Ecosystem in Retail Credit",
+    "title": "3. Artificial Intelligence (AI) vs Robotic Process Automation (RPA)",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
-    "description": "- Function of Non-Banking Financial Company - Account Aggregator (NBFC-AA): Consolidates customer financial data from Financial Information Providers (FIPs: banks, mutual funds, insurance) and sha",
+    "description": "Commercial banks deploy automation and machine learning across diverse operational workflows:\n\n| Technological Dimension | Robotic Process Automation (RPA) | Artificial Intelligence & Machine Learning",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
-      "concept": "3. Account Aggregator (AA) Ecosystem in Retail Credit"
+      "concept": "3. Artificial Intelligence (AI) vs Robotic Process Automation (RPA)"
     },
-    "badge": "128 words"
+    "badge": "137 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. RBI Digital Lending Guidelines (2022/2026): Core Regulatory Mandates",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
-    "description": "Q1. Under current Reserve Bank of India regulations, what legal status do \"Neobanks\" hold in the Indian financial system?\n- (A) Full commercial scheduled banks licensed under Section 22 BR Act\n- (",
+    "description": "Following rampant consumer exploitation by unregulated predatory digital lending apps, the RBI issued comprehensive Master Directions on Digital Lending:\n\ntext\n[Regulated Entity (Bank/NBFC)] ──(Dir",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "4. RBI Digital Lending Guidelines (2022/2026): Core Regulatory Mandates"
     },
-    "badge": "259 words"
+    "badge": "323 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
@@ -7453,67 +7453,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,628 words • 8 min read"
+    "badge": "3,503 words • 16 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Formula & Regulatory Benchmark Matrix",
+    "title": "1. Master Formula & Quantitative Benchmark Cheat Sheet",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
-    "description": "| Regulatory / Technical Parameter | Statutory Guideline / Benchmark Formula | Governing Authority / Enactment |\n| :--- | :--- | :--- |\n| Housing Loan LTV ($le ₹30\text{L}$) | Maximum 90% LTV",
+    "description": "| Financial / Regulatory Metric | Canonical Mathematical Formula / Regulatory Benchmark | Core Examination Context |\n| :--- | :--- | :--- |\n| Return on Assets (ROA) | $\\text{ROA} = \\frac{\\text{Net",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
-      "concept": "1. Master Formula & Regulatory Benchmark Matrix"
+      "concept": "1. Master Formula & Quantitative Benchmark Cheat Sheet"
     },
-    "badge": "402 words"
+    "badge": "665 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-3",
     "type": "CONCEPT",
-    "title": "2. 50 Essential Examiner Traps for IIBF Paper 4 (RBWM)",
+    "title": "2. Ten Grand Master Distinction Matrices",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
-    "description": "1. Retail banking possesses low credit concentration risk because loans are distributed across millions of borrowers.\n2. The Strategic Business Unit (SBU) operates as an autonomous, self-contained",
+    "description": "Matrix 1: Retail Banking vs Corporate / Wholesale Banking\n| Parameter | Retail Banking | Corporate / Wholesale Banking |\n| :--- | :--- | :--- |\n| Clientele | Individuals, households, micro-ent",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
-      "concept": "2. 50 Essential Examiner Traps for IIBF Paper 4 (RBWM)"
+      "concept": "2. Ten Grand Master Distinction Matrices"
     },
-    "badge": "789 words"
+    "badge": "1215 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
-    "description": "Q1. Under current regulatory guidelines, what are the respective minimum investment ticket sizes required for Portfolio Management Services (PMS) and Alternative Investment Funds (AIFs)?\n- (A) PMS",
+    "description": "1. Credit Risk in Retail Banking: Retail credit risk is granular and dispersed; corporate credit has high single-name concentration risk.\n2. SBU Accountability: An SBU is an autonomous pro",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls"
     },
-    "badge": "199 words"
+    "badge": "1119 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Comprehensive Active Recall Diagnostic Vault",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
-    "description": "<details>\n<summary>Why are Neobanks in India required to partner with licensed scheduled commercial banks rather than operating standalone?</summary>\n\nBecause the RBI has not established a standalone",
+    "description": "<details>\n<summary>1. State the three-stage DuPont identity and explain what each term measures.</summary>\n\n$\\text{ROE} = \\text{Net Profit Margin} \\times \\text{Asset Turnover} \\times \\text{Equity Mult",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Comprehensive Active Recall Diagnostic Vault"
     },
-    "badge": "115 words"
+    "badge": "371 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-revision-01_ie_ifs_rapid_revision_cheat_sheet",

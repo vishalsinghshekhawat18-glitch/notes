@@ -354,11 +354,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -397,11 +393,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
@@ -440,11 +432,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       }
 
       @bottom-right {
-        content: counter(page);
-        font-family: "Times New Roman", Georgia, serif;
-        font-size: 11pt;
-        font-weight: 700;
-        color: #000;
+        content: none !important;
         border-top: 0.8pt solid #000;
         padding-top: 1.5mm;
       }
