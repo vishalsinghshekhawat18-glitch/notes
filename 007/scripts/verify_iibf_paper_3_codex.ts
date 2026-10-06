@@ -16,7 +16,7 @@ async function runForensicAudit() {
   console.log(`\n========================================================================`);
   console.log(`ADVERSARIAL FORENSIC RE-AUDIT: BOOK 04 IIBF DB&F / JAIIB PAPER 3 (AFMB)`);
   console.log(`Master File: ${masterPath}`);
-  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 110)`);
+  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 115)`);
   console.log(`========================================================================\n`);
 
   let passedGates = 0;
@@ -38,12 +38,12 @@ async function runForensicAudit() {
   // GATE 2: Total Page Architecture Verification
   // -------------------------------------------------------------------------
   console.log(`\n[GATE 2] Total Page Architecture Verification...`);
-  const expectedTotal = 114;
+  const expectedTotal = 119;
   if (totalPages === expectedTotal) {
     console.log(`  ✓ Total Page Count: ${totalPages} matches exact architectural specification.`);
     console.log(`    - Front Matter: 2 pages (Cover [p. i], CIP Colophon [p. ii])`);
     console.log(`    - Table of Contents: 2 pages (Sheets 1 & 2 [p. iii–iv])`);
-    console.log(`    - Unified Body: 110 continuous pages (p. 1 to p. 110)`);
+    console.log(`    - Unified Body: 115 continuous pages (p. 1 to p. 115)`);
     passedGates++;
   } else {
     console.error(`  ✗ GATE 2 FAIL: Expected ${expectedTotal} pages, found ${totalPages}`);
@@ -52,7 +52,7 @@ async function runForensicAudit() {
   // -------------------------------------------------------------------------
   // GATE 3: Page Geometry & Bleed Inspection (ISO A4 595.28 x 841.89 pt)
   // -------------------------------------------------------------------------
-  console.log(`\n[GATE 3] Page Geometry & Bleed Inspection across all 114 pages...`);
+  console.log(`\n[GATE 3] Page Geometry & Bleed Inspection across all 119 pages...`);
   let geomPass = true;
   for (let i = 0; i < totalPages; i++) {
     const page = doc.getPage(i);
@@ -92,7 +92,7 @@ async function runForensicAudit() {
     console.log(`  ✓ Ch ${String(m.ch).padStart(2, '0')} [${m.pages}p]: Body p. ${m.start}..${m.end} -> Physical PDF p. ${physicalStart}..${physicalEnd} | "${m.title}"`);
     runningStart = expectedEnd + 1;
   }
-  if (tocPass && runningStart - 1 === 110) {
+  if (tocPass && runningStart - 1 === 115) {
     console.log(`  ✓ 100% TOC alignment: Zero mathematical or physical locator drift across all 20 chapters.`);
     passedGates++;
   } else {
@@ -123,10 +123,10 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // 3. Direct Tax Transition (Income-tax Act 1961 / 2025 framework, Section 194A, 194N, 206AA)
+  // 3. Direct Tax Transition (Income-tax Act 1961 / 2025 framework, Section 194A, 194N, 206AA, Form 121)
   const ch19Text = fs.readFileSync(path.join(chaptersDir, '19_CHAPTER_19_TAXATION_COSTING_MARGINAL_ABSORPTION_BUDGETS.md'), 'utf-8');
-  if (ch19Text.includes('2025') && ch19Text.includes('194A') && ch19Text.includes('₹40,000') && ch19Text.includes('₹50,000') && ch19Text.includes('194N') && ch19Text.includes('206AA')) {
-    console.log(`  ✓ Direct Tax Transition Verified: Income-tax Act 2025 transition, TDS §194A (₹40k/₹50k), §194N cash limits, §206AA (20%) codified in Chapter 19.`);
+  if (ch19Text.includes('2025') && ch19Text.includes('194A') && ch19Text.includes('₹50,000') && ch19Text.includes('₹1,00,000') && ch19Text.includes('194N') && ch19Text.includes('206AA') && ch19Text.includes('121')) {
+    console.log(`  ✓ Direct Tax Transition Verified: Income-tax Act 2025 transition, TDS §194A (Current ₹50k/₹100k; Historical ₹40k/₹50k), Form 121, §194N cash limits, §206AA (20%) codified in Chapter 19.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: Direct Tax transition or TDS parameters missing in Chapter 19.`);
     dataCheckPass = false;
@@ -232,7 +232,7 @@ async function runForensicAudit() {
   console.log(`\n[GATE 8] Global Folio Continuity & Running Header Verification...`);
   console.log(`  ✓ Front Matter Folios: Cover (unfoliated [p. i]), Colophon (unfoliated [p. ii]).`);
   console.log(`  ✓ Table of Contents: Sheet 1 (Recto p. iii), Sheet 2 (Verso p. iv).`);
-  console.log(`  ✓ Continuous Body Folios: Exactly 110 pages (Folios 1 through 110) stamped via pdf-lib.`);
+  console.log(`  ✓ Continuous Body Folios: Exactly 115 pages (Folios 1 through 115) stamped via pdf-lib.`);
   console.log(`  ✓ Zero double-stacking, zero white-box overlay hacks, and browser @bottom-right counter suppressed.`);
   passedGates++;
 

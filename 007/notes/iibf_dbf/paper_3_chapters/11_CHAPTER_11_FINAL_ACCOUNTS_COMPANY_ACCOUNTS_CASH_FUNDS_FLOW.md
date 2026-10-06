@@ -96,14 +96,61 @@ While a Cash Flow Statement tracks pure cash and cash equivalents, a **Funds Flo
 5. Less: Income Tax Paid $= - \text{₹1,10,000}$
 6. **Net Cash Flow from Operating Activities** $= \mathbf{\text{₹4,50,000}}$.
 
+## 8. Deferred Tax Accounting: DTA, DTL & Timing Differences (AS 22 / Ind AS 12)
+
+In corporate financial reporting, profit determined under accounting standards (**Accounting Income**) rarely coincides with income determined under direct tax statutes (**Taxable Income**). Accounting for taxes on income bridges this gap:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                         DEFERRED TAX ARCHITECTURE (AS 22 / IND AS 12)                              |
++-------------------------------------------------+--------------------------------------------------+
+| PERMANENT DIFFERENCES                           | TIMING / TEMPORARY DIFFERENCES                   |
+| (No Deferred Tax Created)                       | (Deferred Tax Created)                           |
++-------------------------------------------------+--------------------------------------------------+
+| • Non-taxable exempt income (agri income)       | • Depreciation rate variance (Book SLM vs Tax WDV|
+| • Inadmissible expenses (penalties, bribes)     | • Expenses allowed on payment basis (§43B / 40(a)|
+| • Originates in one year; NEVER reverses        | • Provision for doubtful debts (§36 vs book prov)|
+| • Evaluated directly in Current Tax liability   | • Originates in one year; REVERSES in later years|
++-------------------------------------------------+--------------------------------------------------+
+```
+
+### 8.1 Deferred Tax Liability (DTL) vs. Deferred Tax Asset (DTA)
+1. **Deferred Tax Liability (DTL):**
+   - **Trigger:** $\text{Accounting Income} > \text{Taxable Income}$ (or Tax Base of Asset < Carrying Amount).
+   - **Meaning:** Current tax paid is lower today due to tax incentives (e.g. accelerated tax depreciation), creating an obligation to pay higher tax in future years.
+   - **Balance Sheet Presentation:** Disclosed under **Non-Current Liabilities**.
+   $$\text{DTL} = (\text{Tax Depreciation} - \text{Book Depreciation}) \times \text{Tax Rate}$$
+2. **Deferred Tax Asset (DTA):**
+   - **Trigger:** $\text{Taxable Income} > \text{Accounting Income}$ (or Carrying Amount of Liability > Tax Base).
+   - **Meaning:** Current tax paid is higher today because tax law disallows book provisions until actual payment (e.g. Section 43B statutory dues, warranty provisions), creating a future tax credit/shield.
+   - **Balance Sheet Presentation:** Disclosed under **Non-Current Assets**.
+3. **Prudence & Recognition Mandate:**
+   - DTL must be created **mandatorily in all cases**.
+   - DTA can be recognized only to the extent that there is **reasonable certainty** (or under Ind AS 12, it is **probable**) that sufficient future taxable income will be available against which the DTA can be realized. In cases of unabsorbed depreciation or carried-forward business losses, DTA is recognized only when there is **virtual certainty supported by convincing evidence**.
+
+### 8.2 Worked Micro-Example: Deferred Tax Computation
+**Data:**
+- Profit before Depreciation & Tax: ₹10,00,000
+- Accounting Depreciation (SLM): ₹1,50,000 $\implies$ Accounting Income = ₹8,50,000
+- Tax Depreciation (WDV): ₹2,50,000 $\implies$ Taxable Income = ₹7,50,000
+- Corporate Tax Rate: 30%
+
+**Step-by-Step Computation:**
+1. $\text{Current Tax Liability (P&L to Tax Auth)} = 7,50,000 \times 30\% = \mathbf{\text{₹2,25,000}}$
+2. $\text{Timing Difference} = \text{Tax Depreciation} - \text{Accounting Depreciation} = 2,50,000 - 1,50,000 = \text{₹1,00,000}$
+3. $\text{Deferred Tax Liability (DTL created)} = 1,00,000 \times 30\% = \mathbf{\text{₹30,000}}$
+4. $\text{Total Tax Expense in P&L} = \text{Current Tax} + \text{Deferred Tax} = 2,25,000 + 30,000 = \mathbf{\text{₹2,55,000}}$
+   *(Verification: Accounting Income ₹8,50,000 × 30% = ₹2,55,000 matches P&L tax expense exactly).*
+
 > [!CAUTION]
 > **Examiner Trap Alert:**
 > 1. Under Section 53 of the Companies Act 2013, companies are **strictly prohibited from issuing shares at a discount**, except for sweat equity shares.
 > 2. Depreciation is **added back** in cash flow calculations because it is a non-cash expense that reduced accounting profit without any physical cash outflow.
 > 3. An increase in a Current Asset represents a **Cash Outflow (−)**; an increase in a Current Liability represents a **Cash Inflow (+)**.
 > 4. Dividends paid are classified under **Financing Activities** in the Cash Flow Statement.
+> 5. **Permanent differences never create deferred tax**; DTA and DTL arise strictly from **reversing timing / temporary differences**.
 
-## 8. Practice Questions & Solved Numerical Drills
+## 9. Practice Questions & Solved Numerical Drills
 
 **Q1.** Under AS 3 / Ind AS 7, where is the repayment of a long-term bank term loan classified in the Cash Flow Statement?
 - (A) Operating Activities
@@ -123,12 +170,19 @@ While a Cash Flow Statement tracks pure cash and cash equivalents, a **Funds Flo
 - (C) Disclosed under Financing Activities
 - (D) Ignored as a non-operating item
 
+**Q4.** A company charges ₹2,00,000 as depreciation in its accounting records, whereas the allowable tax depreciation under Section 32 is ₹3,00,000. If the applicable corporate tax rate is 25%, what deferred tax balance is created?
+- (A) Deferred Tax Asset of ₹25,000
+- (B) Deferred Tax Liability of ₹25,000
+- (C) Deferred Tax Asset of ₹75,000
+- (D) Deferred Tax Liability of ₹50,000
+
 #### Solutions & Explanations
 * Q1 Correct Answer: (C) Financing Activities. Transactions altering the equity or borrowing structure of a company are financing cash flows.
 * Q2 Correct Answer: (C) No, issue of shares at a discount is void except for sweat equity shares under Section 54.
 * Q3 Correct Answer: (B) Deducted from Net Profit. An increase in debtors indicates that revenues recognized on an accrual basis have not yet been collected in cash, requiring a deduction to determine cash flow.
+* Q4 Correct Answer: (B) Deferred Tax Liability of ₹25,000. Tax depreciation exceeds accounting depreciation by ₹1,00,000 (timing difference). Since taxable income is currently lower than accounting income, a Deferred Tax Liability of $1,00,000 \times 25\% = \text{₹25,000}$ is recognized under Non-Current Liabilities.
 
-## 9. Active Recall & Self-Diagnostic Prompts
+## 10. Active Recall & Self-Diagnostic Prompts
 
 <details>
 <summary>What is the difference between Cash Flow and Funds Flow regarding working capital?</summary>
@@ -142,9 +196,16 @@ Cash Flow evaluates movements purely in cash and bank balances. Funds Flow evalu
 Because the gain was credited to the Profit & Loss statement, but the entire cash realized from the asset sale (cost + profit) is classified as an Investing Activity. To prevent double counting and isolate pure operating cash flow, the gain must be deducted from net profit.
 </details>
 
-## 10. Last-Minute Revision Box
+<details>
+<summary>When is a Deferred Tax Asset (DTA) recognized in company financial statements?</summary>
+
+A Deferred Tax Asset arises when Taxable Income exceeds Accounting Income in the current period (e.g. expenses disallowed on accrual basis under Section 43B). Under AS 22 / Ind AS 12, DTA is recognized only if there is reasonable certainty (or it is probable) that sufficient future taxable profit will be available against which the asset can be realized.
+</details>
+
+## 11. Last-Minute Revision Box
 - Final Accounts: Trading (Gross Profit), P&L (Net Profit), Balance Sheet (Financial Position).
 - Share Capital: Authorized $\ge$ Issued $\ge$ Subscribed $\ge$ Called-up $\ge$ Paid-up.
 - Companies Act Sec 53: Shares cannot be issued at a discount (except Sweat Equity).
 - Cash Flow (AS 3): Operating (Working capital), Investing (Fixed assets), Financing (Shares/Debt/Dividends).
 - Working Capital Rule in Cash Flow: Increase in CA = Outflow (−); Increase in CL = Inflow (+).
+- Deferred Tax: Permanent differences never create deferred tax; Timing differences create DTA (Tax > Book) or DTL (Book > Tax).

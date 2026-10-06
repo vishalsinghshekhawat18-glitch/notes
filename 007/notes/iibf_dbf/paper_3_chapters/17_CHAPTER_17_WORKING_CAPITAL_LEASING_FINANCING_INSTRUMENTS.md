@@ -50,6 +50,11 @@ Over decades, RBI committees established methodologies to determine the **Maximu
 +-----------------------+----------------------------------------------------------------------------+
 ```
 
+> [!NOTE]
+> **Regulatory Status & Currentness Framework:**
+> - `[HISTORICAL / EXAM-CONVENTIONAL]`: **Tandon Committee Method 1 (1.17:1) & Method 2 (1.33:1)**. Traditional Tandon/MPBF norms are important for examination and conceptual understanding but should not be interpreted as a universal current RBI statutory minimum applicable to all borrowers. Following post-1997 financial sector deregulation, the RBI granted commercial banks full autonomy to formulate their own Board-approved credit assessment policies, margin requirements, and cash budget methods for large borrowers.
+> - `[CURRENT]`: **Nayak Committee Turnover Method** remains standard for Micro and Small Enterprises (MSEs) with fund-based working capital credit limits up to ₹5 Crores (total working capital requirement assessed at minimum 25% of projected annual turnover, with bank financing at least 20%). The **Trade Receivables Discounting System (TReDS)** operates as an electronic institutional factoring platform for MSMEs under RBI authorization.
+
 ## 4. Factoring vs. Forfaiting
 
 ```

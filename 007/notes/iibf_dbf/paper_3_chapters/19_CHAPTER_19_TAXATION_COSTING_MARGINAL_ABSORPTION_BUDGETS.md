@@ -25,17 +25,23 @@ Commercial banks occupy a critical dual role in national tax governance: they ac
 ```
 
 ### 1.1 TDS on Bank Term Deposits (Section 194A)
-Under Section 194A of direct tax statutes (governed under the historical Income-tax Act 1961 transitioning into the Income-tax Act, 2025 framework effective 1 April 2026), banking companies, cooperative banks, and post offices must deduct income tax at source on interest paid or credited on time deposits (fixed deposits and recurring deposits).
+Under Section 194A of direct tax statutes (governed historically under the *Income-tax Act, 1961* and transitioning into the *Income-tax Act, 2025* framework effective 1 April 2026), banking companies, cooperative banks, and post offices must deduct income tax at source on interest paid or credited on time deposits (fixed deposits and recurring deposits).
 
-| Depositor Category | Annual Interest Threshold | Standard TDS Rate (Valid PAN) | Higher TDS Rate without PAN (§206AA) | Applicable Exemption Form |
-| :--- | :--- | :--- | :--- | :--- |
-| **General Individuals / Entities** | **₹40,000** per financial year per bank | **10%** | **20%** | **Form 15G** (Age < 60 yrs, total income below basic exemption) |
-| **Senior Citizens (Age 60+ Years)** | **₹50,000** per financial year (§80TTB) | **10%** | **20%** | **Form 15H** (Age ≥ 60 yrs, final tax on total income is NIL) |
+> [!IMPORTANT]
+> **TAX-FRAMEWORK TRANSITION MANDATE (1961 Act -> 2025 Act / 2026 Rules):**
+> - **Statutory Transition:** Direct tax statutes in India are transitioning from the historical *Income-tax Act, 1961* into the modernized *Income-tax Act, 2025* (effective 1 April 2026 / FY 2026–27 framework), accompanied by the *Income Tax Rules, 2026*.
+> - **Self-Declaration Forms:** The conventional physical declarations under the historical framework—**Form 15G** (resident individuals aged < 60 years) and **Form 15H** (resident senior citizens aged $\ge 60$ years)—transition to centralized electronic declaration forms (**Form 121**) under the digital tax compliance portal.
+> - **Bank TDS Thresholds:** Under the modern framework (FY 2026–27), the annual threshold for TDS on bank interest under Section 194A is **₹50,000** for general individuals and **₹1,00,000** for senior citizens. In IIBF examination questions referring to historical conventional benchmarks, the older thresholds were **₹40,000** (general) and **₹50,000** (senior citizens). Both regimes are benchmarked below.
+
+| Depositor Category | Current Threshold (FY 2026–27 Framework) | Historical Baseline Threshold (Earlier Regime) | Standard TDS Rate (Valid PAN) | Higher TDS Rate without PAN (§206AA) | Applicable Exemption Form |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **General Individuals / Entities** | **₹50,000** per FY per bank | **₹40,000** per FY per bank | **10%** | **20%** | **Form 15G** (Historical) / **Form 121** (Current) (Age < 60 yrs, total income below basic exemption) |
+| **Senior Citizens (Age 60+ Years)** | **₹1,00,000** per FY per bank | **₹50,000** per FY (§80TTB) | **10%** | **20%** | **Form 15H** (Historical) / **Form 121** (Current) (Age $\ge 60$ yrs, final tax on total income is NIL) |
 
 #### Operational Mandates:
 1. **Branch vs Bank-Wide Aggregation:** Following Core Banking Solution (CBS) deployment, interest is aggregated across **all branches of the bank under the same PAN / Customer ID (CIF)**.
 2. **Timing of Deduction:** TDS is deducted at the **point of credit** (interest accrual or quarterly compounding) or **payment**, whichever occurs earlier.
-3. **Savings Bank Interest:** Interest on savings bank accounts is **completely exempt from TDS** under Section 194A. Under Section 80TTA, individuals receive a deduction up to ₹10,000 on savings interest; Senior citizens under Section 80TTB receive a deduction up to ₹50,000 across both savings and term deposits.
+3. **Savings Bank Interest:** Interest on savings bank accounts is **completely exempt from TDS** under Section 194A. Under Section 80TTA, individuals receive a deduction up to ₹10,000 on savings interest; Senior citizens under Section 80TTB receive a deduction across both savings and term deposits (₹50,000 historically; ₹1,00,000 under the enhanced framework).
 4. **Remittance Deadlines:** Monthly TDS deducted must be deposited to the Central Government by the **7th of the following month** (except for March deductions, which must be deposited by **30 April**).
 5. **Certificates & Statements:** Quarterly TDS returns are filed in **Form 26Q**; certificates are issued in **Form 16A**; details are reflected in the taxpayer's **Form 26AS** and Annual Information Statement (AIS). Under the 2025/2026 digital compliance portal, centralized single-window verification (Form 121 transition) is enabled.
 
@@ -128,19 +134,38 @@ The method of costing chosen depends on the nature of the product, production me
 +--------------------------+-------------------------------------------------------------------------+
 ```
 
-### 3.1 Batch Costing & Economic Batch Quantity (EBQ)
-In Batch Costing, a batch of identical units is treated as a single cost unit. Cost per unit is computed by dividing total batch cost by the number of units in the batch.
-- **Economic Batch Quantity (EBQ):** The batch size that minimizes total inventory holding costs and machine setup/order costs:
+### 3.1 Unit / Single Output Costing
+Applied where production is continuous, uniform, and produces a single product or a few identical grades of a product (e.g., Coal mining, Cement, Brick-making, Breweries).
+- **Format / Cost Sheet:** All costs (Prime Cost, Works Cost, Cost of Production) are accumulated and divided by total units produced to determine Cost per Unit (e.g., per tonne, per thousand bricks).
+- **Exam Trap:** Selling expenses and distribution overheads are divided by **units sold**, NOT units produced, when computing total cost of sales per unit.
+
+### 3.2 Job Costing
+Job costing is applied where work is undertaken to customer's specific orders and requirements. Each job is unique, non-repetitive, and treated as a distinct cost unit (e.g., Printing press, repair shop, machine fabrication).
+- **Format & Accumulation:** Costs are collected on a **Job Cost Sheet** using a dedicated Job Card:
+  $$\text{Total Job Cost} = \text{Direct Materials} + \text{Direct Labour} + \text{Direct Expenses} + \text{Applied Factory Overheads}$$
+- **Micro-Example:** Job #401 consumes ₹12,000 raw materials, 150 labour hours @ ₹40/hr, and factory overheads are absorbed @ ₹20 per direct labour hour. If administrative and selling overheads are 10% of works cost:
+  - $\text{Prime Cost} = 12,000 + (150 \times 40) = 12,000 + 6,000 = ₹18,000$.
+  - $\text{Works Cost} = 18,000 + (150 \times 20) = 18,000 + 3,000 = ₹21,000$.
+  - $\text{Total Cost of Production} = 21,000 + (10\% \times 21,000) = ₹23,100$.
+- **Exam Trap:** Work-in-Progress in job costing consists of the total accumulated costs on incomplete job cards at the end of the accounting period.
+
+### 3.3 Batch Costing & Economic Batch Quantity (EBQ)
+In Batch Costing, a batch of identical units is treated as a single cost unit. Cost per unit is computed by dividing total batch cost by the number of units in the batch (e.g., Pharmaceuticals, readymade garments, precision machine components).
+- **Economic Batch Quantity (EBQ):** The batch size that minimizes total inventory holding costs and setup/tooling costs:
 
 $$\text{EBQ} = \sqrt{\frac{2 \times D \times S}{C}}$$
 
 Where:
 - $D$ = Annual demand (units)
 - $S$ = Setup / tooling cost per batch
-- $C$ = Annual inventory carrying cost per unit
+- $C$ = Annual inventory carrying cost per unit per annum
 
-### 3.2 Contract Costing (Construction & Civil Works)
-Contract costing applies to large, long-term construction works executed at site for an external client.
+- **Micro-Example:** Annual demand $D = 18,000\text{ units}$, setup cost per batch $S = ₹250$, carrying cost $C = ₹2.50\text{ per unit/year}$:
+  $$\text{EBQ} = \sqrt{\frac{2 \times 18,000 \times 250}{2.50}} = \sqrt{\frac{9,000,000}{2.50}} = \sqrt{3,600,000} = \mathbf{1,900 \approx 1,897\text{ units}} \implies \sqrt{3,600,000} = \mathbf{1,897.37 \approx 1,897\text{ units}}.$$
+- **Exam Trap:** Note the identical mathematical architecture between EBQ in Costing and EOQ (Economic Order Quantity) in inventory management: $S$ represents setup cost in EBQ and ordering cost in EOQ.
+
+### 3.4 Contract Costing (Construction & Civil Works)
+Contract costing applies to large, long-term construction works executed at site for an external client (e.g., bridges, highways, dam construction, commercial complexes).
 1. **Architect's / Surveyor's Certificate:** Certifies the value of work completed to date (**Value of Work Certified**).
 2. **Work Uncertified:** Work completed since the last inspection but not yet formally certified by the architect, valued at actual cost.
 3. **Retention Money:** A percentage of the certified work withheld by the contractee as security against defect liability:
@@ -159,14 +184,18 @@ $$\text{Cash Received} = \text{Work Certified} \times (1 - \text{Retention \%})$
      $$\text{Profit Transferred to P&L} = \frac{2}{3} \times \text{Notional Profit} \times \frac{\text{Cash Received}}{\text{Work Certified}}$$
 
    - **Near Completion (> 90%):** Estimated total profit is computed, and proportional profit is recognized based on work certified or cost incurred.
+- **Micro-Example:** Contract price ₹50 Lakhs. Work certified ₹30 Lakhs (60% complete), cash received ₹24 Lakhs (80% of certified). Notional profit earned ₹6 Lakhs.
+  $$\text{Profit to P&L} = \frac{2}{3} \times 6,00,000 \times \frac{24,00,000}{30,00,000} = 4,00,000 \times 0.80 = \mathbf{₹3,20,000}.$$
+- **Exam Trap:** If a contract shows an **overall estimated loss**, the **ENTIRE LOSS must be recognized immediately in P&L**, regardless of percentage of completion (Prudence Concept).
 
-### 3.3 Process Costing, Losses, and Equivalent Units
+### 3.5 Process Costing, Losses, and Equivalent Units
 Process costing is applied where production flows through a continuous series of distinct, sequential processes (e.g., chemical plants, oil refineries, textiles).
 1. **Normal Loss:** Unavoidable loss inherent in the manufacturing process (due to evaporation, shrinkage, chemical reaction).
    - Normal loss is treated as part of the cost of good production.
    - Scrap value realized from normal loss is **credited to the respective Process Account**, thereby reducing the total process cost.
 2. **Abnormal Loss:** Controllable loss arising from plant breakdown, sub-standard materials, or operator negligence exceeding expected normal loss.
-   - Valued at the full unit cost of good production.
+   - Valued at the full unit cost of good production:
+     $$\text{Cost per unit of good output} = \frac{\text{Total Process Cost} - \text{Scrap value of Normal Loss}}{\text{Input Units} - \text{Normal Loss Units}}$$
    - Transferred to the **Costing Profit & Loss Account**; never loaded onto good units.
 3. **Abnormal Gain / Effect:** When actual output exceeds expected output (actual loss < normal loss).
    - Valued identically to good output and credited to Costing Profit & Loss Account.
@@ -174,19 +203,28 @@ Process costing is applied where production flows through a continuous series of
 
 $$\text{Equivalent Units} = \text{Uncompleted Units} \times \text{Degree of Completion (\%age)}$$
 
-### 3.4 Joint Products and By-Products
+- **Micro-Example:** 1,000 units are 60% complete with respect to conversion cost. Equivalent units = $1,000 \times 60\% = \mathbf{600\text{ equivalent units}}$.
+- **Exam Trap:** Abnormal loss units are included in equivalent production at their degree of completion at the point of rejection (or 100% if inspected at end of process); Normal loss units are **excluded** from equivalent production calculations.
+
+### 3.6 Joint Products and By-Products
 - **Joint Products:** Two or more products of significant economic value emerging simultaneously from a single raw material process (e.g., Gasoline, Diesel, Kerosene from crude oil).
   - Apportionment methods: Physical Units Method, Sales Value at Split-off Point, Net Realizable Value (NRV).
 - **By-Products:** Products of minor commercial value emerging incidentally during the manufacture of the main product (e.g., Molasses in sugar refining; Bagasse in sugarcane processing).
-  - Net realizable value of by-products is commonly credited to the main product's manufacturing account.
+  - Net realizable value of by-products is credited to the main product's process cost account.
+- **Exam Trap:** Joint costs incurred up to the split-off point cannot be specifically identified with individual products; any further processing cost incurred **after split-off point** is directly chargeable to the specific product concerned.
 
-### 3.5 Operating / Service Costing
+### 3.7 Operating / Service Costing
 Applies to service providers where no tangible product is manufactured:
 - **Composite Cost Units:**
   - Transport: $\text{Passenger-Kilometers} = \text{Passengers} \times \text{Distance (km)}$
   - Goods Freight: $\text{Tonne-Kilometers} = \text{Tonnes Carried} \times \text{Distance (km)}$
   - Hotel: $\text{Room-Days} = \text{Rooms Occupied} \times \text{Days}$
   - Hospital: $\text{Patient-Days} = \text{Beds Occupied} \times \text{Days}$
+  - Banking: Cost per transaction or cost per account maintained.
+- **Micro-Example:** A commercial bank runs a staff shuttle bus carrying 40 staff members over a 25 km round-trip route, making 2 round trips per day for 25 days in a month.
+  - $\text{Total Passenger-Km} = 40 \text{ passengers} \times (25 \text{ km} \times 2) \times 25 \text{ days} = 40 \times 50 \times 25 = \mathbf{50,000\text{ passenger-km}}$.
+  - If total monthly operating cost is ₹1,00,000, cost per passenger-km = $\frac{1,00,000}{50,000} = \mathbf{₹2.00\text{ per passenger-km}}$.
+- **Exam Trap:** In goods transport, distinguish between **Absolute Tonne-Km** (sum of tonnes $\times$ km for each individual trip segment) and **Commercial Tonne-Km** (average load $\times$ total distance traveled). In banking exams, composite units are tested directly.
 
 ---
 
@@ -342,18 +380,40 @@ $$\text{ITV} = \text{Abnormal Idle Hours} \times \text{Standard Rate}$$
 $$\text{LCV} = \text{LRV} + \text{LEV} + \text{ITV}$$
 
 ### 6.3 Overhead Variances
-- **Variable Overhead Variance:**
-  - $\text{VO Expenditure Variance} = (\text{Actual Hours} \times \text{Standard Rate}) - \text{Actual VO Cost}$
-  - $\text{VO Efficiency Variance} = \text{Standard Rate} \times (\text{Standard Hours} - \text{Actual Hours})$
-- **Fixed Overhead Variance:**
-  - $\text{FO Expenditure Variance} = \text{Budgeted Fixed Overhead} - \text{Actual Fixed Overhead}$
-  - $\text{FO Volume Variance} = (\text{Standard Hours for Actual Output} - \text{Budgeted Hours}) \times \text{Standard FO Rate}$
+Overhead variances analyze the difference between absorbed overheads and actual overheads incurred.
+
+1. **Variable Overhead (VO) Variances:**
+   - **VO Cost Variance:** Difference between standard VO for actual output and actual VO incurred:
+     $$\text{VOCV} = (\text{SH} \times \text{SR}_{VO}) - \text{Actual VO Cost}$$
+   - **VO Expenditure / Spending Variance:**
+     $$\text{VO Exp. Variance} = (\text{AH} \times \text{SR}_{VO}) - \text{Actual VO Cost}$$
+   - **VO Efficiency Variance:**
+     $$\text{VO Eff. Variance} = \text{SR}_{VO} \times (\text{SH} - \text{AH})$$
+   - *Identity:* $\text{VOCV} = \text{VO Exp. Variance} + \text{VO Eff. Variance}$.
+
+2. **Fixed Overhead (FO) Variances:**
+   - **FO Cost Variance:** Difference between absorbed fixed overhead and actual fixed overhead:
+     $$\text{FOCV} = (\text{SH} \times \text{SR}_{FO}) - \text{Actual FO Cost} = \text{Absorbed FO} - \text{Actual FO}$$
+   - **FO Expenditure / Budget Variance:** Evaluates managerial control over fixed spending:
+     $$\text{FO Exp. Variance} = \text{Budgeted FO} - \text{Actual FO Cost} = (\text{BH} \times \text{SR}_{FO}) - \text{Actual FO}$$
+   - **FO Volume Variance:** Measures loss or gain from operating above or below planned capacity:
+     $$\text{FO Volume Variance} = \text{Absorbed FO} - \text{Budgeted FO} = \text{SR}_{FO} \times (\text{SH} - \text{BH})$$
+   - **Sub-Variances of FO Volume Variance:**
+     - **FO Capacity Variance:** Arises from working more or fewer hours than budgeted:
+       $$\text{FO Capacity Variance} = \text{SR}_{FO} \times (\text{AH} - \text{BH})$$
+     - **FO Efficiency Variance:** Arises from producing at higher or lower efficiency during actual hours worked:
+       $$\text{FO Efficiency Variance} = \text{SR}_{FO} \times (\text{SH} - \text{AH})$$
+     - **FO Calendar Variance:** Arises when actual working days differ from budgeted working days:
+       $$\text{FO Calendar Variance} = (\text{Actual Working Days} - \text{Budgeted Working Days}) \times \text{Standard Rate per Day}$$
+   - *Master Identities:*
+     $$\text{FOCV} = \text{FO Exp. Variance} + \text{FO Volume Variance}$$
+     $$\text{FO Volume Variance} = \text{FO Capacity Variance} + \text{FO Efficiency Variance} + \text{FO Calendar Variance}$$
 
 ---
 
 ## 7. PART G: BUDGETARY CONTROL & CASH BUDGETS
 
-A budget is a financial or quantitative statement prepared prior to a defined period of time to pursue a given objective. Budgetary control is the system of continuous comparison of actuals with budgets.
+A budget is a financial or quantitative statement prepared prior to a defined period of time to pursue a given objective. Budgetary control is the system of continuous comparison of actuals with budgets to enforce management responsibility.
 
 ### 7.1 Classification of Budgets
 1. **Fixed Budget:** Designed to remain unchanged irrespective of the volume of output or turnover achieved. Effective only in highly predictable environments.
@@ -365,6 +425,14 @@ A budget is a financial or quantitative statement prepared prior to a defined pe
    - Starts from a "zero base" for every new budget period.
    - Every program, project, or expense must be justified afresh through structured **Decision Packages**.
    - Decision packages are evaluated and ranked based on cost-benefit analysis before allocating funds.
+5. **Programme Budgeting (Planning, Programming, Budgeting System - PPBS):**
+   - Originated in government administration and public finance (promoted by the US Department of Defense under Robert McNamara).
+   - Groups related organizational activities into macro "programmes" directed toward long-term strategic objectives rather than traditional departmental line items.
+   - Emphasizes multi-year planning, rigorous cost-effectiveness analysis of alternative programmes, and system-wide objective evaluation.
+6. **Performance Budgeting:**
+   - Focuses on operational results, activities, and end achievements rather than monetary input ceilings.
+   - Establishes a direct structural relationship between physical targets (outputs) and financial resources (inputs).
+   - Evaluates management efficiency by comparing actual work accomplished against budgeted activity norms.
 
 ### 7.2 Cash Budget Formulation in Commercial Enterprises & Banks
 The Cash Budget forecasts expected cash inflows and cash outflows over specified operational intervals (monthly or quarterly).
@@ -450,6 +518,20 @@ Under Section 194N of direct tax statutes, what is the mandatory TDS rate on cas
 
 ---
 
+#### Question 4 (Bank Term Deposit TDS Computation Under Modern Framework)
+A senior citizen depositor (age 68 years) earns ₹85,000 as annual term deposit interest across three fixed deposit accounts in the same commercial bank during the financial year.
+1. Under the current FY 2026–27 framework (threshold ₹1,00,000 for senior citizens), is the bank required to deduct TDS under Section 194A?
+2. Under the historical baseline regime (threshold ₹50,000 for senior citizens), what would be the TDS amount deducted if the depositor holds a valid PAN?
+3. What electronic declaration can the senior citizen submit under the digital compliance framework if total taxable income has zero tax liability?
+
+**Step-by-Step Solution:**
+1. **Current Framework:** Under the modernized framework, the Section 194A threshold for senior citizens is **₹1,00,000**. Because ₹85,000 is below ₹1,00,000, **no TDS is deductible** by the bank.
+2. **Historical Regime:** Under the earlier ₹50,000 threshold, total interest of ₹85,000 breached the limit. TDS would be deducted on the entire interest:
+   $$\text{TDS} = 10\% \times ₹85,000 = \mathbf{₹8,500}.$$
+3. **Electronic Declaration:** Under the transitional digital framework, senior citizens submit **Form 121** (transitioning from conventional paper **Form 15H**) declaring that estimated total income results in nil tax liability.
+
+---
+
 ## Active Recall & Self-Diagnostic Prompts
 
 <details>
@@ -459,9 +541,9 @@ When production exceeds sales, closing stock exceeds opening stock. Under Absorp
 </details>
 
 <details>
-<summary>Prompt 2: What is the exact distinction between Section 194A TDS on Senior Citizens versus General Citizens?</summary>
+<summary>Prompt 2: What are the statutory Section 194A TDS thresholds on term deposit interest for General vs Senior Citizens?</summary>
 
-General individuals are subject to 10% TDS when annual bank interest on term deposits exceeds ₹40,000 per bank. For Senior Citizens (age 60 years and above), Section 194A read with Section 80TTB establishes a higher statutory threshold of ₹50,000 per bank per financial year.
+Under the **current framework (FY 2026–27)**, the annual bank-wide threshold for mandatory TDS is **₹50,000** for general individuals and **₹1,00,000** for Senior Citizens (age 60+ years). Under the **historical baseline regime**, the thresholds were **₹40,000** for general individuals and **₹50,000** for Senior Citizens (§80TTB). Once the threshold is breached, TDS is deducted at 10% on the entire interest (or 20% under Section 206AA if PAN is not furnished), unless exempted via Form 15G/15H (historical) or Form 121 (current electronic declaration).
 </details>
 
 <details>

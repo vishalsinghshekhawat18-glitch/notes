@@ -34,6 +34,15 @@ WACC is the weighted average hurdle rate of the firm, used as the discount rate 
 $$\mathbf{\text{WACC } (K_o) = w_d K_d + w_p K_p + w_e K_e}$$
 - Where $w_d, w_p, w_e$ represent the proportional weights of debt, preference capital, and equity in the capital structure ($\sum w = 1.0$). Market value weights are theoretically superior to historical book value weights.
 
+### 5. Advanced Cost of Capital Concepts
+1. **Weighted Marginal Cost of Capital (WMCC):** The cost of raising one additional rupee of new capital. As a firm raises larger increments of capital in a single period, flotation costs rise and lenders demand higher risk premiums, causing the WMCC curve to slope upward with distinct capital break-points.
+2. **Divisional & Project Hurdle Rates:** Applying a single company-wide WACC across all corporate divisions causes distortion: low-risk divisions are penalized and high-risk projects are mistakenly approved. Projects possessing risks distinct from the company's core operations must be evaluated using a **project-specific risk-adjusted discount rate**.
+3. **Flotation Costs:** Direct expenses of issuance (underwriting fees, legal, registration, brokerage) reduce net capital proceeds ($NP = P_0 \times (1 - f)$). For new equity issues:
+   $$K_e (\text{new}) = \frac{D_1}{P_0(1 - f)} + g$$
+4. **Common Misconceptions:**
+   - *Retained earnings are free:* FALSE. Retained earnings carry an opportunity cost equal to what shareholders could earn in alternative investments of equivalent risk ($K_r \approx K_e$ without flotation costs).
+   - *Depreciation funds have zero cost:* FALSE. Depreciation-generated cash carries an opportunity cost equal to the firm's WACC.
+
 ## 3. Theories of Capital Structure
 
 ```

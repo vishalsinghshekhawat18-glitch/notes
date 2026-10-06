@@ -64,6 +64,17 @@ The Basel III norms, implemented in India through RBI Master Directions, establi
 2. **Additional Tier 1 (AT1):** Perpetual non-cumulative preference shares and perpetual debt instruments (PDI) with write-down or equity conversion triggers.
 3. **Tier 2 Capital (Gone-Concern Capital):** Revaluation reserves (at a 55% discount), general provisions and loss reserves (up to 1.25% of credit RWA under standardized approach), and subordinated debt instruments with minimum initial maturity of 5 years.
 
+### Regulatory Capital Requirements Across Indian Banking Categories
+
+| Banking Institution Category | Minimum CRAR (Excl. CCB) | Capital Conservation Buffer (CCB) | Total Capital Requirement | Core Statutory / RBI Basis |
+| :--- | :--- | :--- | :--- | :--- |
+| **Scheduled Commercial Banks (SCBs)** | **9.00%** | **2.50% (CET1)** | **11.50%** | RBI Basel III Master Circular |
+| **Small Finance Banks (SFBs)** | **15.00%** *(Tier 1 min 7.5%)* | Embedded in 15% baseline | **15.00%** | RBI Guidelines for SFBs |
+| **Payments Banks** | **15.00%** *(entirely Tier 1)* | Embedded in 15% baseline | **15.00%** | RBI Guidelines for Payments Banks |
+| **Regional Rural Banks (RRBs)** | **9.00%** | N/A | **9.00%** | RBI Capital Directions for RRBs |
+| **Tier 1 Urban Co-op Banks (UCBs)** | **9.00%** | N/A | **9.00%** | Revised 4-Tier Framework for UCBs |
+| **Tier 2, 3, 4 Urban Co-op Banks** | **12.00%** | N/A | **12.00%** | Revised 4-Tier Framework for UCBs |
+
 ### Basel III Leverage & Liquidity Standards
 - **Basel III Leverage Ratio:** Non-risk-based backstop constraint. $\text{Leverage Ratio} = \frac{\text{Tier 1 Capital}}{\text{Total Exposure}} \ge 3.50\%$ (and **4.00%** for Domestic Systemically Important Banks - D-SIBs).
 - **Liquidity Coverage Ratio (LCR):** Mandates that banks maintain an unencumbered stock of High-Quality Liquid Assets (HQLA) sufficient to survive a 30-day severe liquidity stress scenario:

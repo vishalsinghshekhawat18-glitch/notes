@@ -42,7 +42,7 @@
 | **Leverage** | Degree of Financial Leverage | $\text{DFL} = \frac{\text{EBIT}}{\text{EBT}} = \frac{\text{EBIT}}{\text{EBIT} - I}$ | Quantifies financial risk. If interest = 0, $\text{DFL} = 1.0$. |
 | **Leverage** | Combined Leverage (DCL) | $\text{DCL} = \text{DOL} \times \text{DFL} = \frac{\text{Contribution}}{\text{EBT}}$ | Total risk amplification. |
 | **Working Cap** | Cash Conversion Cycle (CCC) | $\text{CCC} = \text{ICP} + \text{RCP} - \text{PDP}$ | Inventory Conversion + Receivables Collection - Payables Deferral Period. |
-| **Working Cap** | Tandon Method 2 MPBF | $\text{MPBF} = 0.75 \times (\text{CA} - \text{CL other than bank borrowings})$ | Imposes minimum Current Ratio benchmark of 1.33:1. |
+| **Working Cap** | Tandon Method 2 MPBF | $\text{MPBF} = 0.75 \times (\text{CA} - \text{CL other than bank borrowings})$ | [Historical Conventional] Benchmark imposing 1.33:1 Current Ratio. |
 | **Working Cap** | Nayak Turnover Method | $\text{Total WC} = 25\% \times \text{Turnover}; \quad \text{Bank Loan} \ge 20\%$ | Applies to SSI / MSE units with credit limits up to ₹5 Crores. |
 | **Costing** | P/V Ratio & Break-Even | $\text{P/V} = \frac{C}{S} \times 100; \quad \text{BEP (value)} = \frac{F}{\text{P/V}}$ | Fundamental marginal costing equilibrium: $S - V = F + P$. |
 | **Costing** | Margin of Safety (MoS) | $\text{MoS} = \text{Actual Sales} - \text{BEP Sales} = \frac{\text{Profit}}{\text{P/V}}$ | Cushion against operational losses. Total Sales = BEP + MoS. |
@@ -98,7 +98,7 @@
 
 | Ratio / Metric | Regulatory / Financial Standard | Benchmark / Permissible Range | Functional Significance |
 | :--- | :--- | :--- | :--- |
-| **Current Ratio (CR)** | Conventional Commercial Benchmark | **1.33 : 1** (Tandon Method 2) | Tests short-term liquidity; $CA / CL$. |
+| **Current Ratio (CR)** | [Historical Conventional] Benchmark | **1.33 : 1** (Tandon Method 2) | Tests short-term liquidity ($CA / CL$). Historical supervisory benchmark; banks now maintain board-approved credit policy limits. |
 | **Quick / Acid-Test Ratio** | Immediate Liquidity Benchmark | **1.00 : 1** | $(CA - \text{Inventory} - \text{Prepaid}) / CL$. |
 | **Debt-Equity Ratio** | Capital Gearing Benchmark | **2.00 : 1** (varies by industry) | Measures long-term solvency; Long-term Debt / Tangible Net Worth. |
 | **DSCR** | Project Term Loan Appraisal | **1.50 to 2.00 : 1** | $\frac{\text{PAT} + \text{Depr} + \text{Int}}{\text{Int} + \text{Principal}}$; Mandatory repayment safety test. |
@@ -132,11 +132,11 @@
 
 | Statutory Provision | Target Subject / Trigger Event | Statutory Threshold | Prescribed Rate / Mechanism | Exemptions / Relief |
 | :--- | :--- | :--- | :--- | :--- |
-| **Section 194A** | Term deposit interest (General depositors) | **₹40,000** per FY per bank | **10%** (Valid PAN) / **20%** (§206AA) | Form 15G (income < exemption limit). |
-| **Section 194A / 80TTB**| Term deposit interest (Senior Citizens 60+) | **₹50,000** per FY per bank | **10%** (Valid PAN) / **20%** (§206AA) | Form 15H (final tax liability is NIL). |
+| **Section 194A (Current FY 2026–27)** | Term deposit interest (General depositors) | **₹50,000** per FY per bank *(Historical: ₹40,000)* | **10%** (Valid PAN) / **20%** (§206AA) | Form 121 (Electronic) / Form 15G (Historical). |
+| **Section 194A / 80TTB (Current FY 2026–27)**| Term deposit interest (Senior Citizens 60+) | **₹1,00,000** per FY per bank *(Historical: ₹50,000)* | **10%** (Valid PAN) / **20%** (§206AA) | Form 121 (Electronic) / Form 15H (Historical). |
 | **Section 194N** | Cash withdrawals (Regular ITR filers) | Aggregate $> \mathbf{₹1 \text{ Crore}}$ | **2%** on amount exceeding ₹1 Cr | Govt, Banks, Post Office, BCs, APMC. |
 | **Section 194N (Non-filer)**| Cash withdrawals (No ITR filed for 3 years) | ₹20 Lakhs to ₹1 Crore | **2%** on ₹20L to ₹1Cr; **5%** on $> ₹1\text{ Cr}$ | Same statutory exemptions. |
-| **Section 206AA** | Failure to furnish PAN by deductee | Any taxable payment | Higher of normal rate or **20%** | Does not apply if 15G/15H validly accepted. |
+| **Section 206AA** | Failure to furnish PAN by deductee | Any taxable payment | Higher of normal rate or **20%** | Does not apply if 15G/15H/121 validly accepted. |
 | **CGST §17(4)** | Banking Input Tax Credit apportionment | Monthly eligible ITC pool | **Flat 50% eligible ITC** every month | Remaining 50% lapses; inter-branch exempt. |
 | **GST Pure Interest** | Advances, loans, deposits interest | No monetary ceiling | **NIL (Strictly Exempt)** | Fee-based services attract **18% standard GST**. |
 
@@ -212,7 +212,7 @@
 51. **Financial Leverage at Zero Interest:** When debt interest is zero, the Degree of Financial Leverage (DFL) is **1.0**, never zero.
 52. **Combined Leverage Formula:** Combined Leverage equals Operating Leverage multiplied by Financial Leverage ($\text{DCL} = \text{DOL} \times \text{DFL} = \frac{\text{Contribution}}{\text{EBT}}$).
 53. **EBIT-EPS Indifference Point:** The level of EBIT at which Earnings Per Share (EPS) is identical under two alternative financing structures is the **Indifference Point**.
-54. **Current Ratio Benchmark:** The historical Tandon Committee Method 2 sets a minimum benchmark **Current Ratio of 1.33:1**.
+54. **Current Ratio Benchmark:** The historical Tandon Committee Method 2 sets a minimum benchmark **Current Ratio of 1.33:1** (note: this is a conventional examination benchmark; modern commercial bank working capital limits are assessed under board-approved credit policy and risk rating limits).
 55. **Quick Assets Composition:** Quick Assets exclude **Inventories and Prepaid Expenses** from Current Assets ($\text{Quick Assets} = \text{CA} - \text{Inventories} - \text{Prepaids}$).
 56. **DSCR Inclusion:** Debt Service Coverage Ratio (DSCR) includes **both Interest and Principal Installments** in the denominator, whereas Interest Coverage evaluates Interest alone.
 57. **Tangible Net Worth Computation:** Tangible Net Worth (TNW) equals Paid-up Capital plus Free Reserves **minus Intangible Assets (Goodwill, Patents) and accumulated losses**.
@@ -249,11 +249,11 @@
 88. **Flexible Budget Purpose:** A Flexible Budget recalculates revenue and costs based on the **actual level of activity achieved**, enabling meaningful variance analysis.
 89. **Zero-Based Budgeting Origin:** Zero-Based Budgeting (ZBB) was introduced by **Peter Pyhrr** and requires justifying every budget rupee from scratch via Decision Packages.
 90. **Cash Budget Depreciation Rule:** Depreciation is a non-cash expense and is **strictly excluded from Cash Budgets**.
-91. **Section 194A General TDS Limit:** Annual bank interest threshold for mandatory TDS under Section 194A is **₹40,000** for general individual depositors across all branches of a bank.
-92. **Section 194A Senior Citizen Limit:** Annual bank interest threshold for Senior Citizens (age 60+ years) under Section 194A read with Section 80TTB is **₹50,000**.
+91. **Section 194A General TDS Limit:** Under the modern framework (FY 2026–27), annual bank interest threshold for mandatory TDS under Section 194A is **₹50,000** for general individual depositors (historical baseline regime: **₹40,000**).
+92. **Section 194A Senior Citizen Limit:** Under the modern framework (FY 2026–27), annual bank interest threshold for Senior Citizens (age 60+ years) is **₹1,00,000** (historical baseline regime: **₹50,000** under Section 80TTB).
 93. **Section 206AA PAN Default:** If a payee fails to furnish a valid PAN, TDS must be deducted at the penal rate of **20%** (or applicable rate, whichever is higher).
-94. **Form 15G Qualification:** Form 15G is valid for resident individuals aged **under 60 years** whose estimated total taxable income does not exceed the basic tax exemption limit.
-95. **Form 15H Qualification:** Form 15H is strictly for **Senior Citizens (60+ years)** whose estimated final tax liability on total income is **NIL**, even if interest exceeds the basic exemption limit.
+94. **Form 15G / Form 121 Qualification:** Form 15G (transitioning to digital **Form 121**) is valid for resident individuals aged **under 60 years** whose estimated total taxable income does not exceed the basic tax exemption limit.
+95. **Form 15H / Form 121 Qualification:** Form 15H (transitioning to digital **Form 121**) is strictly for **Senior Citizens (60+ years)** whose estimated final tax liability on total income is **NIL**, even if interest exceeds the basic exemption limit.
 96. **Section 194N Cash TDS General:** TDS at **2%** applies to aggregate cash withdrawals exceeding **₹1 Crore** in a financial year from one or more accounts in a bank.
 97. **Section 194N Non-Filer Rates:** For non-filers of income tax returns (preceding 3 assessment years), TDS is **2% between ₹20 Lakhs and ₹1 Crore**, and **5% above ₹1 Crore**.
 98. **Bank GST Standard Rate:** Taxable fee-based banking services (processing fees, locker rent, documentation charges, ATM fees beyond cap) attract standard GST at **18%**.
@@ -505,9 +505,9 @@ $\text{Combined Leverage} = \text{DOL} \times \text{DFL} = \frac{\text{Contribut
 </details>
 
 <details>
-<summary>Prompt 041: What is the benchmark Current Ratio under Tandon Committee Method 2?</summary>
+<summary>Prompt 041: What is the conventional benchmark Current Ratio under Tandon Committee Method 2?</summary>
 
-**1.33 : 1**.
+**1.33 : 1** (historical supervisory / conventional examination benchmark; modern banks evaluate limits against board-approved risk policies).
 </details>
 
 <details>
@@ -699,13 +699,13 @@ Because depreciation is a **non-cash accounting allocation**; no physical cash i
 <details>
 <summary>Prompt 073: What is the annual interest threshold for Section 194A TDS on bank term deposits for general individuals?</summary>
 
-**₹40,000** per financial year per bank.
+**₹50,000** under the modern framework (FY 2026–27) per bank (**₹40,000** under the historical baseline regime).
 </details>
 
 <details>
 <summary>Prompt 074: What is the annual interest threshold for Section 194A TDS on term deposits for Senior Citizens?</summary>
 
-**₹50,000** per financial year per bank (under Section 80TTB).
+**₹1,00,000** under the modern framework (FY 2026–27) per bank (**₹50,000** under Section 80TTB historical baseline regime).
 </details>
 
 <details>
@@ -715,15 +715,15 @@ Because depreciation is a **non-cash accounting allocation**; no physical cash i
 </details>
 
 <details>
-<summary>Prompt 076: Who is eligible to submit Form 15G for TDS exemption?</summary>
+<summary>Prompt 076: Who is eligible to submit Form 15G / Form 121 for TDS exemption?</summary>
 
-Resident individuals aged **under 60 years** whose total taxable income is below the basic tax exemption limit.
+Resident individuals aged **under 60 years** whose total taxable income is below the basic tax exemption limit (Form 15G historically; transitioning to digital **Form 121**).
 </details>
 
 <details>
-<summary>Prompt 077: Who is eligible to submit Form 15H for TDS exemption?</summary>
+<summary>Prompt 077: Who is eligible to submit Form 15H / Form 121 for TDS exemption?</summary>
 
-Resident **Senior Citizens (aged 60 years and above)** whose final tax liability on total income is **NIL**.
+Resident **Senior Citizens (aged 60 years and above)** whose final tax liability on total income is **NIL** (Form 15H historically; transitioning to digital **Form 121**).
 </details>
 
 <details>
@@ -897,8 +897,8 @@ The **Expected Credit Loss (ECL)** model across Stage 1, Stage 2, and Stage 3 as
 27. **Labour Cost Variance:** $LCV = LRV + LEV$.
 28. **Idle Time Variance:** $\text{Abnormal Idle Hours} \times \text{Standard Rate}$. Always Adverse.
 29. **Economic Batch Quantity (EBQ):** $\sqrt{\frac{2DS}{C}}$. For $D = 10,000$, $S = 200$, $C = 4 \implies \sqrt{\frac{4,000,000}{4}} = 1,000 \text{ units}$.
-30. **Section 194A TDS on Senior Citizens:** Threshold is ₹50,000. Interest ₹55,000 triggers TDS on entire ₹55,000 at 10% = ₹5,500.
-31. **Section 194A TDS on General Citizens:** Threshold is ₹40,000. Interest ₹45,000 triggers TDS on entire ₹45,000 at 10% = ₹4,500.
+30. **Section 194A TDS on Senior Citizens:** Modern threshold is ₹1,00,000 (historical baseline: ₹50,000). Interest ₹1,10,000 triggers TDS on entire ₹1,10,000 at 10% = ₹11,000.
+31. **Section 194A TDS on General Citizens:** Modern threshold is ₹50,000 (historical baseline: ₹40,000). Interest ₹60,000 triggers TDS on entire ₹60,000 at 10% = ₹6,000.
 32. **Section 206AA Penal TDS:** No PAN furnished $\implies 20\%$ TDS flat.
 33. **Section 194N Cash TDS:** Regular filer withdrawing ₹1.20 Crores $\implies 2\%$ on ₹20 Lakhs = ₹40,000.
 34. **Section 194N Non-Filer Cash TDS:** Non-filer withdrawing ₹1.20 Crores $\implies 2\%$ on ₹80 Lakhs (₹20L to ₹1Cr) + $5\%$ on ₹20 Lakhs (above ₹1Cr) = ₹1,60,000 + ₹1,00,000 = ₹2,60,000.
@@ -910,7 +910,7 @@ The **Expected Credit Loss (ECL)** model across Stage 1, Stage 2, and Stage 3 as
 40. **Debt-Equity Ratio:** Long-Term Debt / Tangible Net Worth.
 41. **DSCR:** $(\text{PAT} + \text{Depr} + \text{Interest}) / (\text{Interest} + \text{Principal})$. Safe range: 1.50 to 2.00.
 42. **Interest Coverage Ratio:** $\text{EBIT} / \text{Interest}$.
-43. **N walk MPBF Turnover Method:** Turnover ₹400 Lakhs $\implies$ Total WC requirement = $25\% = ₹100 \text{ Lakhs}$; Bank financing = $20\% = ₹80 \text{ Lakhs}$; Margin = ₹20 Lakhs.
+43. **Nayak MPBF Turnover Method:** Turnover ₹400 Lakhs $\implies$ Total WC requirement = $25\% = ₹100 \text{ Lakhs}$; Bank financing = $20\% = ₹80 \text{ Lakhs}$; Margin = ₹20 Lakhs.
 44. **Tandon Method 1 MPBF:** $0.75 \times (CA - CL)$.
 45. **Tandon Method 2 MPBF:** $(0.75 \times CA) - CL = 0.75 \times (CA - CL \text{ other than bank loans})$.
 46. **Cash Conversion Cycle:** $ICP + RCP - PDP$.
@@ -961,13 +961,13 @@ The **Expected Credit Loss (ECL)** model across Stage 1, Stage 2, and Stage 3 as
   - Absorption vs Marginal reconciliation: Production > Sales $\implies$ Absorption Profit > Marginal Profit.
   - Standard costing: Material (MCV, MPV, MUV) and Labour (LCV, LRV, LEV) variance identities.
   - ZBB decision packages, Cash budget depreciation omission.
-  - Direct tax: §194A (₹40k/₹50k), §194N cash TDS, §206AA (20%), Form 15G/15H, CGST §17(4) 50% ITC.
+  - Direct tax: §194A (Current ₹50k/₹100k; Historical ₹40k/₹50k), §194N cash TDS, §206AA (20%), Form 121 / 15G / 15H, CGST §17(4) 50% ITC.
   - Basel III: CET1 5.5%, Tier 1 7.0%, Total CRAR 9.0% + CCB 2.5% = 11.5%, LCR $\ge 100\%$, NSFR $\ge 100\%$.
 
 ### Final 60-Minute Rapid Tactical Checklist
 1. Verify Bond Modified Duration is positive: $MD = \frac{D}{1 + YTM}$.
 2. Confirm Section 17 BR Act statutory reserve transfer: statutory minimum is 20%, RBI norm is 25%.
-3. Confirm Section 194A TDS thresholds: ₹40,000 for general depositors; ₹50,000 for Senior Citizens (§80TTB).
+3. Confirm Section 194A TDS thresholds: Modern framework is ₹50,000 for general depositors and ₹1,00,000 for Senior Citizens (Historical baseline: ₹40,000 / ₹50,000).
 4. Verify non-banking asset holding ceiling under Section 9 BR Act: 7 years.
 5. In BRS, verify passbook overdraft is a DEBIT balance.
 6. In direct forex quotes, ascending forward points mean PREMIUM (ADD); descending points mean DISCOUNT (SUBTRACT).
