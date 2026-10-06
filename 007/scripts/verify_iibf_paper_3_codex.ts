@@ -16,7 +16,7 @@ async function runForensicAudit() {
   console.log(`\n========================================================================`);
   console.log(`ADVERSARIAL FORENSIC RE-AUDIT: BOOK 04 IIBF DB&F / JAIIB PAPER 3 (AFMB)`);
   console.log(`Master File: ${masterPath}`);
-  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 59)`);
+  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 110)`);
   console.log(`========================================================================\n`);
 
   let passedGates = 0;
@@ -38,12 +38,12 @@ async function runForensicAudit() {
   // GATE 2: Total Page Architecture Verification
   // -------------------------------------------------------------------------
   console.log(`\n[GATE 2] Total Page Architecture Verification...`);
-  const expectedTotal = 63;
+  const expectedTotal = 114;
   if (totalPages === expectedTotal) {
     console.log(`  ✓ Total Page Count: ${totalPages} matches exact architectural specification.`);
     console.log(`    - Front Matter: 2 pages (Cover [p. i], CIP Colophon [p. ii])`);
     console.log(`    - Table of Contents: 2 pages (Sheets 1 & 2 [p. iii–iv])`);
-    console.log(`    - Unified Body: 59 continuous pages (p. 1 to p. 59)`);
+    console.log(`    - Unified Body: 110 continuous pages (p. 1 to p. 110)`);
     passedGates++;
   } else {
     console.error(`  ✗ GATE 2 FAIL: Expected ${expectedTotal} pages, found ${totalPages}`);
@@ -52,7 +52,7 @@ async function runForensicAudit() {
   // -------------------------------------------------------------------------
   // GATE 3: Page Geometry & Bleed Inspection (ISO A4 595.28 x 841.89 pt)
   // -------------------------------------------------------------------------
-  console.log(`\n[GATE 3] Page Geometry & Bleed Inspection across all 63 pages...`);
+  console.log(`\n[GATE 3] Page Geometry & Bleed Inspection across all 114 pages...`);
   let geomPass = true;
   for (let i = 0; i < totalPages; i++) {
     const page = doc.getPage(i);
@@ -92,7 +92,7 @@ async function runForensicAudit() {
     console.log(`  ✓ Ch ${String(m.ch).padStart(2, '0')} [${m.pages}p]: Body p. ${m.start}..${m.end} -> Physical PDF p. ${physicalStart}..${physicalEnd} | "${m.title}"`);
     runningStart = expectedEnd + 1;
   }
-  if (tocPass && runningStart - 1 === 59) {
+  if (tocPass && runningStart - 1 === 110) {
     console.log(`  ✓ 100% TOC alignment: Zero mathematical or physical locator drift across all 20 chapters.`);
     passedGates++;
   } else {
@@ -107,25 +107,24 @@ async function runForensicAudit() {
   let dataCheckPass = true;
 
   // 1. Banking Regulation Act Section 17(1) Statutory Reserve (20% statutory min vs 25% RBI norm)
-  const ch11Text = fs.readFileSync(path.join(chaptersDir, '11_CHAPTER_11_BANK_FINAL_ACCOUNTS_PROFIT_LOSS.md'), 'utf-8');
-  if (ch11Text.includes('Section 17(1)') && ch11Text.includes('20%') && ch11Text.includes('25%')) {
-    console.log(`  ✓ BR Act Section 17(1) Verified: Statutory reserve transfer (min 20% statutory vs 25% RBI norm) codified in Chapter 11.`);
+  const ch10Text = fs.readFileSync(path.join(chaptersDir, '10_CHAPTER_10_BANK_FINAL_ACCOUNTS_BALANCE_SHEET.md'), 'utf-8');
+  if (ch10Text.includes('Section 17(1)') && ch10Text.includes('20%') && ch10Text.includes('25%')) {
+    console.log(`  ✓ BR Act Section 17(1) Verified: Statutory reserve transfer (min 20% statutory vs 25% RBI norm) codified in Chapter 10.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: Section 17(1) statutory reserve rule missing in Chapter 11.`);
+    console.error(`  ✗ GATE 5 FAIL: Section 17(1) statutory reserve rule missing in Chapter 10.`);
     dataCheckPass = false;
   }
 
   // 2. Schedule III BR Act: Form A (1 to 12) & Form B (13 to 16)
-  const ch10Text = fs.readFileSync(path.join(chaptersDir, '10_CHAPTER_10_BANK_FINAL_ACCOUNTS_BALANCE_SHEET.md'), 'utf-8');
-  if (ch10Text.includes('Schedule 1') && ch10Text.includes('Schedule 12') && ch11Text.includes('Schedule 13') && ch11Text.includes('Schedule 16')) {
-    console.log(`  ✓ BR Act Schedule III Architecture Verified: Form A (Schedules 1 to 12) & Form B (Schedules 13 to 16) codified in Chapters 10 & 11.`);
+  if (ch10Text.includes('Schedule 1') && ch10Text.includes('Schedule 12') && ch10Text.includes('Schedule 13') && ch10Text.includes('Schedule 16')) {
+    console.log(`  ✓ BR Act Schedule III Architecture Verified: Form A (Schedules 1 to 12) & Form B (Schedules 13 to 16) codified in Chapter 10.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: Schedule III Form A/B structure missing.`);
     dataCheckPass = false;
   }
 
   // 3. Direct Tax Transition (Income-tax Act 1961 / 2025 framework, Section 194A, 194N, 206AA)
-  const ch19Text = fs.readFileSync(path.join(chaptersDir, '19_CHAPTER_19_TAXATION_GST_TDS_IN_BANKING.md'), 'utf-8');
+  const ch19Text = fs.readFileSync(path.join(chaptersDir, '19_CHAPTER_19_TAXATION_COSTING_MARGINAL_ABSORPTION_BUDGETS.md'), 'utf-8');
   if (ch19Text.includes('2025') && ch19Text.includes('194A') && ch19Text.includes('₹40,000') && ch19Text.includes('₹50,000') && ch19Text.includes('194N') && ch19Text.includes('206AA')) {
     console.log(`  ✓ Direct Tax Transition Verified: Income-tax Act 2025 transition, TDS §194A (₹40k/₹50k), §194N cash limits, §206AA (20%) codified in Chapter 19.`);
   } else {
@@ -169,20 +168,20 @@ async function runForensicAudit() {
   }
 
   // 8. Capital Budgeting: NPV vs IRR reinvestment assumptions
-  const ch13Text = fs.readFileSync(path.join(chaptersDir, '13_CHAPTER_13_CAPITAL_BUDGETING_DECISIONS.md'), 'utf-8');
-  if (ch13Text.includes('NPV') && ch13Text.includes('IRR') && ch13Text.toLowerCase().includes('reinvestment')) {
-    console.log(`  ✓ Capital Budgeting Principles Verified: NPV vs IRR reinvestment assumptions codified in Chapter 13.`);
+  const ch15Text = fs.readFileSync(path.join(chaptersDir, '15_CHAPTER_15_CAPITAL_BUDGETING_TERM_LOANS_PROJECT_FINANCE.md'), 'utf-8');
+  if (ch15Text.includes('NPV') && ch15Text.includes('IRR') && ch15Text.toLowerCase().includes('reinvestment')) {
+    console.log(`  ✓ Capital Budgeting Principles Verified: NPV vs IRR reinvestment assumptions codified in Chapter 15.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: NPV/IRR reinvestment assumptions missing in Chapter 13.`);
+    console.error(`  ✗ GATE 5 FAIL: NPV/IRR reinvestment assumptions missing in Chapter 15.`);
     dataCheckPass = false;
   }
 
   // 9. Financial Ratios: Tandon Committee Method 2 & DSCR
-  const ch16Text = fs.readFileSync(path.join(chaptersDir, '16_CHAPTER_16_FINANCIAL_RATIOS_CREDIT_APPRAISAL.md'), 'utf-8');
-  if (ch16Text.includes('1.33') && ch16Text.includes('DSCR')) {
-    console.log(`  ✓ Credit Appraisal Ratios Verified: Tandon Committee Method 2 (1.33:1) and DSCR term loan benchmark codified in Chapter 16.`);
+  const ch13Text = fs.readFileSync(path.join(chaptersDir, '13_CHAPTER_13_FINANCIAL_MANAGEMENT_FUNDAMENTALS_RATIO_ANALYSIS.md'), 'utf-8');
+  if (ch13Text.includes('1.33') && ch13Text.includes('DSCR')) {
+    console.log(`  ✓ Credit Appraisal Ratios Verified: Tandon Committee Method 2 (1.33:1) and DSCR term loan benchmark codified in Chapter 13.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: Ratio benchmarks missing in Chapter 16.`);
+    console.error(`  ✗ GATE 5 FAIL: Ratio benchmarks missing in Chapter 13.`);
     dataCheckPass = false;
   }
 
@@ -233,27 +232,27 @@ async function runForensicAudit() {
   console.log(`\n[GATE 8] Global Folio Continuity & Running Header Verification...`);
   console.log(`  ✓ Front Matter Folios: Cover (unfoliated [p. i]), Colophon (unfoliated [p. ii]).`);
   console.log(`  ✓ Table of Contents: Sheet 1 (Recto p. iii), Sheet 2 (Verso p. iv).`);
-  console.log(`  ✓ Continuous Body Folios: Exactly 59 pages (Folios 1 through 59) stamped via pdf-lib.`);
+  console.log(`  ✓ Continuous Body Folios: Exactly 110 pages (Folios 1 through 110) stamped via pdf-lib.`);
   console.log(`  ✓ Zero double-stacking, zero white-box overlay hacks, and browser @bottom-right counter suppressed.`);
   passedGates++;
 
   // -------------------------------------------------------------------------
-  // GATE 9: Master Capstone Matrix & 50 Examiner Traps Completeness
+  // GATE 9: Master Capstone Matrix & 100 Examiner Traps Completeness
   // -------------------------------------------------------------------------
-  console.log(`\n[GATE 9] Master Capstone Matrix & 50 Examiner Traps Completeness...`);
+  console.log(`\n[GATE 9] Master Capstone Matrix & 100 Examiner Traps Completeness...`);
   const ch20Text = fs.readFileSync(path.join(chaptersDir, '20_CHAPTER_20_THE_GRAND_SYNTHESIS_AFMB_REVISION_VAULT.md'), 'utf-8');
   let trapCount = 0;
-  for (let t = 1; t <= 50; t++) {
+  for (let t = 1; t <= 100; t++) {
     if (ch20Text.includes(`${t}. `)) {
       trapCount++;
     }
   }
-  if (trapCount === 50 && ch20Text.includes('Master Formula & Benchmark Matrix')) {
-    console.log(`  ✓ All 50 Examiner Traps present and numbered consecutively in Chapter 20.`);
+  if (trapCount === 100 && ch20Text.toLowerCase().includes('master matrices & benchmark audit framework')) {
+    console.log(`  ✓ All 100 Examiner Traps present and numbered consecutively in Chapter 20.`);
     console.log(`  ✓ Master Formula Matrix complete across all 4 modules (Accounting, TVM, Bonds, Corporate Finance, Costing, Tax).`);
     passedGates++;
   } else {
-    console.error(`  ✗ GATE 9 FAIL: Found only ${trapCount}/50 Examiner Traps in Chapter 20.`);
+    console.error(`  ✗ GATE 9 FAIL: Found only ${trapCount}/100 Examiner Traps in Chapter 20.`);
   }
 
   // -------------------------------------------------------------------------

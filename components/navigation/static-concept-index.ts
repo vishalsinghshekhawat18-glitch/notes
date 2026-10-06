@@ -1177,7 +1177,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)"
     },
-    "badge": "DBF-007 • 104 Chapters"
+    "badge": "DBF-007 • 105 Chapters"
   },
   {
     "id": "shelf007-ch-iibf-dbf-cover",
@@ -1211,46 +1211,16 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-ch-iibf-dbf-syllabus-blueprint",
     "type": "TOPIC",
-    "title": "IIBF DBF / JAIIB: Examination Blueprint, Passing Rules & Syllabus Mapping",
+    "title": "IIBF DB&F / JAIIB PAPER 3 (AFMB) — MASTER AUDIT, COVERAGE MATRIX & CHANGE LOG",
     "slug": "syllabus-blueprint",
     "url": "/shelf-007/iibf-dbf/syllabus-blueprint",
-    "description": "Target Examination: Diploma in Banking & Finance (DB&F) / JAIIB",
+    "description": "| Syllabus Module | Official Syllabus Unit | Canonical Topic Focus | Final Chapter Allocation | Coverage Status | Exam / Regulatory Benchmark |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Module A | Unit 1 | Definition, Scope and Accounting Standards | Chapt...",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Curriculum Blueprint & Official Exam Structure"
     },
-    "badge": "934 words • 5 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-syllabus-blueprint-sec-2",
-    "type": "CONCEPT",
-    "title": "1. The Four-Paper Modular Scheme",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/syllabus-blueprint",
-    "description": "| Paper Number | Paper Title | Modules Covered | Primary Text Reference |\n| :---: | :--- | :--- | :--- |\n| Paper 1 | Indian Economy & Indian Financial System (IE&IFS) | Modules A, B, C, D (45",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF / JAIIB: Examination Blueprint, Passing Rules & Syllabus Mapping",
-      "concept": "1. The Four-Paper Modular Scheme"
-    },
-    "badge": "123 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-syllabus-blueprint-sec-3",
-    "type": "CONCEPT",
-    "title": "2. Paper-by-Paper Weightage & High-Yield Focus Areas",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/syllabus-blueprint",
-    "description": "Paper 1: Indian Economy & Indian Financial System (IE&IFS)\n Module A (Indian Economic Architecture): Structural transformation, NITI Aayog strategy, PSL targets (40% for domestic banks, 75% f",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "IIBF DBF / JAIIB: Examination Blueprint, Passing Rules & Syllabus Mapping",
-      "concept": "2. Paper-by-Paper Weightage & High-Yield Focus Areas"
-    },
-    "badge": "712 words"
+    "badge": "1,933 words • 9 min read"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_1_chapters-01_chapter_01_overview_demographic_transition",
@@ -4588,7 +4558,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
     "type": "TOPIC",
-    "title": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
+    "title": "ACCOUNTING STANDARDS, GAAP, IFRS, IND AS & TRANSFER PRICING",
     "slug": "paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -4597,72 +4567,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "1,063 words • 5 min read"
+    "badge": "1,505 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Matrix of 11 Fundamental Accounting Concepts",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
-    "description": "| Accounting Concept | Core Theoretical Definition | Practical Accounting Application in Banking / Business |\n| :--- | :--- | :--- |\n| Business Entity Concept | Business and its owners are distinc",
+    "description": "Financial accounting is the universal language through which bank management, regulators (RBI), auditors, tax authorities, and capital markets interpret the solvency, profitability, and asset quality",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
-      "concept": "1. Master Matrix of 11 Fundamental Accounting Concepts"
+      "topic": "ACCOUNTING STANDARDS, GAAP, IFRS, IND AS & TRANSFER PRICING",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "406 words"
+    "badge": "61 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-3",
     "type": "CONCEPT",
-    "title": "2. Indian Accounting Standards (Ind AS) & IFRS Convergence",
+    "title": "2. Core Concepts & Conventions",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
-    "description": "- Ind AS Regulatory Mandate: Issued by the Ministry of Corporate Affairs (MCA) under Section 133 of the Companies Act 2013, fully converged with International Financial Reporting Standards (IFRS).",
+    "description": "Accounting rests on eleven foundational concepts and four conventions that govern the recognition, measurement, presentation, and disclosure of transactions:\n\n1. Business Entity Concept: The busin",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
-      "concept": "2. Indian Accounting Standards (Ind AS) & IFRS Convergence"
+      "topic": "ACCOUNTING STANDARDS, GAAP, IFRS, IND AS & TRANSFER PRICING",
+      "concept": "2. Core Concepts & Conventions"
     },
-    "badge": "189 words"
+    "badge": "279 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Master Comparative Framework: GAAP, IFRS, Ind AS & US GAAP",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
-    "description": "Q1. Valuing closing stock at Cost or Net Realizable Value (Market Price), whichever is lower, is an application of which accounting convention?\n- (A) Realization Concept\n- (B) Prudence / Conservat",
+    "description": "| Dimension | Indian GAAP (Traditional AS) | IFRS | Ind AS (Converged Standards) | US GAAP |\n| :--- | :--- | :--- | :--- | :--- |\n| Origin & Authority | Issued by ICAI; notified under Companies Ac",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "ACCOUNTING STANDARDS, GAAP, IFRS, IND AS & TRANSFER PRICING",
+      "concept": "3. Master Comparative Framework: GAAP, IFRS, Ind AS & US GAAP"
     },
-    "badge": "237 words"
+    "badge": "215 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Ind AS 109 Expected Credit Loss (ECL) vs. RBI IRACP Prudential Norms",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
-    "description": "<details>\n<summary>What is the core distinction between the Accrual Concept and the Cash Basis of Accounting?</summary>\n\nUnder the Accrual Concept, revenues are recognized when earned (when rights to",
+    "description": "A vital distinction exists between commercial bank statutory reporting under RBI guidelines and accounting standards:\n\n\n+----------------------------------------------------------------------------",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ACCOUNTING CONCEPTS, PRINCIPLES (GAAP) & IND AS FRAMEWORK",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "ACCOUNTING STANDARDS, GAAP, IFRS, IND AS & TRANSFER PRICING",
+      "concept": "4. Ind AS 109 Expected Credit Loss (ECL) vs. RBI IRACP Prudential Norms"
     },
-    "badge": "113 words"
+    "badge": "151 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
     "type": "TOPIC",
-    "title": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
+    "title": "ACCOUNTING PROCEDURES: JOURNAL, LEDGER, SUBSIDIARY BOOKS & GOLDEN RULES",
     "slug": "paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -4671,72 +4641,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "806 words • 4 min read"
+    "badge": "1,484 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Classification: 3 Account Types & Their Golden Rules",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
-    "description": "| Account Category | Scope / Representative Examples | Golden Rule for Debit (Dr) | Golden Rule for Credit (Cr) |\n| :--- | :--- | :--- | :--- |\n| Personal Accounts | Natural Persons (Ram A/c), Art",
+    "description": "Every loan disbursement, deposit credit, clearing clearing settlement, and provisioning charge in banking is fundamentally executed through double-entry debits and credits. Mastery of transaction anal",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
-      "concept": "1. Master Classification: 3 Account Types & Their Golden Rules"
+      "topic": "ACCOUNTING PROCEDURES: JOURNAL, LEDGER, SUBSIDIARY BOOKS & GOLDEN RULES",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "151 words"
+    "badge": "55 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-3",
     "type": "CONCEPT",
-    "title": "2. The Complete Accounting Cycle: Transaction to Balanced Ledger",
+    "title": "2. Core Framework: Double-Entry & The 3 Golden Rules",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
-    "description": "1. Source Documents: Vouchers, invoices, debit notes, credit notes, and pay-in slips furnish documentary evidence of the transaction.\n2. Journalizing (Book of Original Entry): Chronological re",
+    "description": "First formulated systematically by the Franciscan friar and mathematician Luca Pacioli in 1494 (Summa de Arithmetica), double-entry bookkeeping enforces that every economic transaction exerts a",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
-      "concept": "2. The Complete Accounting Cycle: Transaction to Balanced Ledger"
+      "topic": "ACCOUNTING PROCEDURES: JOURNAL, LEDGER, SUBSIDIARY BOOKS & GOLDEN RULES",
+      "concept": "2. Core Framework: Double-Entry & The 3 Golden Rules"
     },
-    "badge": "230 words"
+    "badge": "189 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Subsidiary Books & The Cash Book Architecture",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
-    "description": "Q1. Outstanding Salary Account is classified under which category of accounts?\n- (A) Nominal Account\n- (B) Real Account\n- (C) Representative Personal Account\n- (D) Artificial Personal Account\n\nQ",
+    "description": "In high-volume environments like commercial banks and trading corporations, recording every transaction in a single journal is unfeasible. Transactions are subdivided into specialized Subsidiary Boo",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "ACCOUNTING PROCEDURES: JOURNAL, LEDGER, SUBSIDIARY BOOKS & GOLDEN RULES",
+      "concept": "3. Subsidiary Books & The Cash Book Architecture"
     },
-    "badge": "208 words"
+    "badge": "185 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-02_chapter_02_golden_rules_journal_ledger-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Capital vs. Revenue Expenditures & Receipts",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-02_chapter_02_golden_rules_journal_ledger",
-    "description": "<details>\n<summary>Why is the Cash Book characterized as both a book of original entry and a principal book?</summary>\n\nBecause cash transactions are entered directly into the Cash Book from source do",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                CAPITAL vs REVENUE EXPENDITURE COMPARISON",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "GOLDEN RULES OF ACCOUNTING, JOURNALIZING & LEDGER POSTING",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "ACCOUNTING PROCEDURES: JOURNAL, LEDGER, SUBSIDIARY BOOKS & GOLDEN RULES",
+      "concept": "4. Capital vs. Revenue Expenditures & Receipts"
     },
-    "badge": "96 words"
+    "badge": "129 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
     "type": "TOPIC",
-    "title": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
+    "title": "TRIAL BALANCE, ERRORS, RECTIFICATION & SUSPENSE ACCOUNT",
     "slug": "paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -4745,67 +4715,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "926 words • 5 min read"
+    "badge": "1,648 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Classification of Accounting Errors",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
-    "description": "| Error Classification | Precise Mechanism & Nature | Impact on Trial Balance Tally | Rectification Protocol |\n| :--- | :--- | :--- | :--- |\n| Error of Principle | Transaction recorded in complete",
+    "description": "A Trial Balance is the diagnostic bridge connecting day-to-day ledger posting to the final financial statements of an enterprise. In bank branch operations and corporate borrower credit appraisal, ana",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
-      "concept": "1. Master Classification of Accounting Errors"
+      "topic": "TRIAL BALANCE, ERRORS, RECTIFICATION & SUSPENSE ACCOUNT",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "270 words"
+    "badge": "54 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-3",
     "type": "CONCEPT",
-    "title": "2. Suspense Account Mechanics & Balance Sheet Treatment",
+    "title": "2. Core Concepts: Trial Balance Objectives & Limitations",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
-    "description": "- Function of Suspense Account: When a Trial Balance fails to tally at year-end, the unexplained difference is temporarily parked in a \"Suspense Account\" to permit timely preparation of final fina",
+    "description": "A Trial Balance is a statement prepared on a specific date listing the debit and credit balances of all general ledger accounts:\n- Objectives:\n  1. To verify the arithmetical accuracy of ledger po",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
-      "concept": "2. Suspense Account Mechanics & Balance Sheet Treatment"
+      "topic": "TRIAL BALANCE, ERRORS, RECTIFICATION & SUSPENSE ACCOUNT",
+      "concept": "2. Core Concepts: Trial Balance Objectives & Limitations"
     },
-    "badge": "183 words"
+    "badge": "96 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Four Major Error Classes & Impact on Trial Balance",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
-    "description": "Q1. Wages paid to workers for installing a new manufacturing plant were debited to the Wages Account. What category of error does this represent?\n- (A) Error of Commission\n- (B) Error of Principle",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                               MASTER ERROR CLASSIFICATION ARCHITECTURE",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "TRIAL BALANCE, ERRORS, RECTIFICATION & SUSPENSE ACCOUNT",
+      "concept": "3. Four Major Error Classes & Impact on Trial Balance"
     },
-    "badge": "250 words"
+    "badge": "150 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-03_chapter_03_trial_balance_rectification_errors-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Comprehensive Error Protocol Matrix: Example, Effect, Entry & Trap",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-03_chapter_03_trial_balance_rectification_errors",
-    "description": "<details>\n<summary>Why does an Error of Principle not disturb the arithmetical tally of a Trial Balance?</summary>\n\nBecause the dual entry rule of equal debits and credits was mathematically executed;",
+    "description": "| Error Type | Concrete Practical Example | Effect on Trial Balance | Exact Rectification Protocol | Examiner Trap Alert |\n| :--- | :--- | :--- | :--- | :--- |\n| Error of Principle | Paid ₹50,000",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TRIAL BALANCE, RECTIFICATION OF ERRORS & SUSPENSE ACCOUNT",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "TRIAL BALANCE, ERRORS, RECTIFICATION & SUSPENSE ACCOUNT",
+      "concept": "4. Comprehensive Error Protocol Matrix: Example, Effect, Entry & Trap"
     },
-    "badge": "103 words"
+    "badge": "334 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
@@ -4819,72 +4789,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "862 words • 4 min read"
+    "badge": "1,605 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Reconciling Adjustments Architecture",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
-    "description": "| Transaction / Origin of Discrepancy | Cash Book Impact | Pass Book Impact | Adjustment when Starting with Cash Book Favorable Balance | Adjustment when Starting with Pass Book Favorable Balance |\n|",
+    "description": "A Bank Reconciliation Statement (BRS) is a vital internal control statement prepared periodically by an account holder to explain the mathematical difference between the bank balance reported in their",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
-      "concept": "1. Master Reconciling Adjustments Architecture"
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "229 words"
+    "badge": "72 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-3",
     "type": "CONCEPT",
-    "title": "2. Balance Terminology & Overdraft Concepts",
+    "title": "2. Core Concepts: The Nature of Dual Books & Polarity",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
-    "description": "- Favorable Balances:\n  - Cash Book Debit Balance: Asset balance (Depositor holds money in the bank).\n  - Pass Book Credit Balance: Liability of bank toward customer (Favorable balance for dep",
+    "description": "The account holder and the bank record the same transactions from inverse legal viewpoints:\n- To the Account Holder (Depositor), bank balance is an Asset. Deposits are debited and withdrawals",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
-      "concept": "2. Balance Terminology & Overdraft Concepts"
+      "concept": "2. Core Concepts: The Nature of Dual Books & Polarity"
     },
-    "badge": "176 words"
+    "badge": "143 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Causes of Discrepancies Between Cash Book & Passbook",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
-    "description": "Q1. A debit balance in the customer Bank Passbook indicates:\n- (A) Favorable balance in hand\n- (B) Overdraft balance\n- (C) Fixed deposit balance\n- (D) Undrawn credit limit\n\nQ2. When preparing",
+    "description": "Differences between the two records arise under two broad categories:\n\n Category A: Timing Differences\n1. Cheques Issued but Not Yet Presented for Payment: Credited immediately in Cash Book by",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. Causes of Discrepancies Between Cash Book & Passbook"
     },
-    "badge": "234 words"
+    "badge": "186 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-04_chapter_04_bank_reconciliation_statement-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Master Polarity Matrix: Add / Subtract Directions",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-04_chapter_04_bank_reconciliation_statement",
-    "description": "<details>\n<summary>Why does a credit balance in the Cash Book indicate an overdraft?</summary>\n\nBecause the Cash Book bank column is an asset account where debits represent deposits and credits repres",
+    "description": "| Transaction Scenario | Cause of Difference | Starting from Cash Book (Favorable Dr) | Starting from Pass Book (Favorable Cr) | Starting from Cash Book (Overdraft Cr) | Starting from Pass Book (Overd",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BANK RECONCILIATION STATEMENT (BRS) & TIMING DISCREPANCIES",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. Master Polarity Matrix: Add / Subtract Directions"
     },
-    "badge": "105 words"
+    "badge": "237 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
     "type": "TOPIC",
-    "title": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
+    "title": "DEPRECIATION, AMORTISATION & CAPITAL/REVENUE TREATMENT",
     "slug": "paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -4893,67 +4863,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "809 words • 4 min read"
+    "badge": "1,542 words • 8 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-2",
     "type": "CONCEPT",
-    "title": "1. Mathematical Formulas for Core Depreciation Methods",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
-    "description": "1. Straight Line Method (SLM / Fixed Installment Method)\n$$\\text{Annual Depreciation (SLM)} = \\frac{\\text{Original Acquisition Cost} - \\text{Estimated Scrap Value}}{\\text{Useful Economic Life in Y",
+    "description": "Depreciation represents the systematic allocation of the depreciable amount of a tangible fixed asset over its estimated useful economic life. In banking, analyzing depreciation is critical for two di",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
-      "concept": "1. Mathematical Formulas for Core Depreciation Methods"
+      "topic": "DEPRECIATION, AMORTISATION & CAPITAL/REVENUE TREATMENT",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "145 words"
+    "badge": "78 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-3",
     "type": "CONCEPT",
-    "title": "2. Master Comparison: SLM vs WDV Method",
+    "title": "2. Core Concepts: Causes & Governing Standards",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
-    "description": "| Operational Parameter | Straight Line Method (SLM) | Written Down Value Method (WDV) |\n| :--- | :--- | :--- |\n| Computation Base | Fixed on Original Cost every year | Recomputed annually on",
+    "description": "Under Ind AS 16 (Property, Plant and Equipment) and AS 10, depreciation is mandated by the Matching Concept and the Accrual Concept to match the cost of an asset against the revenues i",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
-      "concept": "2. Master Comparison: SLM vs WDV Method"
+      "topic": "DEPRECIATION, AMORTISATION & CAPITAL/REVENUE TREATMENT",
+      "concept": "2. Core Concepts: Causes & Governing Standards"
     },
-    "badge": "206 words"
+    "badge": "158 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Mathematical Methods of Depreciation",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
-    "description": "Q1. A machine purchased for ₹2,00,000 has an estimated scrap value of ₹20,000 and an economic life of 10 years. Under the Straight Line Method (SLM), what is the annual depreciation charge?\n- (A)",
+    "description": "Method 1: Straight Line Method (SLM) / Fixed Installment Method\nA uniform, constant charge is written off each year against profits:\n$$\\text{Annual Depreciation} = \\frac{\\text{Original Cost} - \\te",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "DEPRECIATION, AMORTISATION & CAPITAL/REVENUE TREATMENT",
+      "concept": "3. Mathematical Methods of Depreciation"
     },
-    "badge": "228 words"
+    "badge": "256 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Master Comparative Framework: SLM vs. WDV",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-05_chapter_05_depreciation_accounting_methods",
-    "description": "<details>\n<summary>Why does the WDV method provide a more equitable annual charge to the Profit & Loss statement compared to SLM?</summary>\n\nBecause as an asset ages, its annual repair and maintenance",
+    "description": "| Dimension | Straight Line Method (SLM) | Written Down Value (WDV) |\n| :--- | :--- | :--- |\n| Calculation Base | Constant on Original Acquisition Cost | Recomputed annually on Reducing Book",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "DEPRECIATION, AMORTISATION & CAPITAL/REVENUE TREATMENT",
+      "concept": "4. Master Comparative Framework: SLM vs. WDV"
     },
-    "badge": "104 words"
+    "badge": "144 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
@@ -4967,72 +4937,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "863 words • 4 min read"
+    "badge": "1,427 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-2",
     "type": "CONCEPT",
-    "title": "1. Statutory Architecture: Bills of Exchange vs Promissory Notes",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
-    "description": "| Parameter | Bill of Exchange (Section 5, NI Act) | Promissory Note (Section 4, NI Act) |\n| :--- | :--- | :--- |\n| Number of Parties | 3 Parties: Drawer (maker), Drawee (payer), and Payee |",
+    "description": "Bills of Exchange represent an ancient and legally fortified credit instrument governing domestic and international trade finance. Commercial banks actively finance trade by discounting usance bills o",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
-      "concept": "1. Statutory Architecture: Bills of Exchange vs Promissory Notes"
-    },
-    "badge": "138 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-3",
-    "type": "CONCEPT",
-    "title": "2. Maturity Computation & Maturity Date Rules",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
-    "description": "$$\\text{Maturity Date} = \\text{Nominal Due Date} + 3 \\text{ Days of Grace}$$\n- Public Holiday Rule: If the maturity date falls on a Public Holiday (under NI Act, e.g., Sunday, Independence Day",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
-      "concept": "2. Maturity Computation & Maturity Date Rules"
+      "concept": "1. Why This Matters in Banking Operations"
     },
     "badge": "72 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-3",
     "type": "CONCEPT",
-    "title": "3. Rebate on Bills Discounted (Unearned Discount)",
-    "slug": "sec-4",
+    "title": "2. Statutory Definitions: Negotiable Instruments Act 1881",
+    "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
-    "description": "When a bank discounts a bill of exchange, it deducts the entire discount upfront and credits the proceeds to the customer. When a bill matures after the close of the financial year (31 March), the d",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                BILL OF EXCHANGE vs PROMISSORY NOTE (NI ACT)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
-      "concept": "3. Rebate on Bills Discounted (Unearned Discount)"
+      "concept": "2. Statutory Definitions: Negotiable Instruments Act 1881"
     },
-    "badge": "175 words"
+    "badge": "120 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Maturity & Days of Grace (Sections 22 & 25, NI Act)",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
+    "description": "- 3 Days of Grace (Section 22): Mandatory 3 days of grace are added to the specified period of all usance bills (bills payable after date or after sight) to establish the legal maturity date.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
+      "concept": "3. Maturity & Days of Grace (Sections 22 & 25, NI Act)"
+    },
+    "badge": "124 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Master Party & Accounting Entry Matrix",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-06_chapter_06_bills_of_exchange_rebate_discount",
-    "description": "Q1. A bill of exchange dated 1 January is drawn for 3 months. After adding statutory days of grace, its maturity date falls on 4 April. If 4 April is declared a Gazetted Public Holiday, when is th",
+    "description": "| Event / Transaction | In the Books of Drawer / Holder | In the Books of Drawee / Acceptor | In the Books of Discounting Bank |\n| :--- | :--- | :--- | :--- |\n| 1. Drawing & Acceptance | Dr Bills",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "BILLS OF EXCHANGE, ACCOMMODATION BILLS & REBATE ON BILLS DISCOUNTED",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "4. Master Party & Accounting Entry Matrix"
     },
-    "badge": "247 words"
+    "badge": "198 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
     "type": "TOPIC",
-    "title": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
+    "title": "TIME VALUE OF MONEY, INTEREST, COMPOUNDING & FINANCIAL MATHEMATICS",
     "slug": "paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -5041,72 +5011,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "710 words • 4 min read"
+    "badge": "1,146 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-2",
     "type": "CONCEPT",
-    "title": "1. Mathematical Formulas for Time Value of Money",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
-    "description": "1. Future Value (Compounding)\n$$\\text{FV} = \\text{PV} \\times (1 + r)^n = \\text{PV} \\times \\left( 1 + \\frac{r}{m} \\right)^{m \\times n}$$\n- Where $\\text{PV}$ = Present Value, $r$ = Annual interest r",
+    "description": "The Time Value of Money (TVM) is the bedrock of banking and modern corporate finance. A rupee in hand today is worth more than a rupee promised in the future because of three universal economic realit",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
-      "concept": "1. Mathematical Formulas for Time Value of Money"
+      "topic": "TIME VALUE OF MONEY, INTEREST, COMPOUNDING & FINANCIAL MATHEMATICS",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "121 words"
+    "badge": "74 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-3",
     "type": "CONCEPT",
-    "title": "2. Rule of 72 and Rule of 114",
+    "title": "2. Core Principles: Simple vs. Compound Interest",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
-    "description": "| Shortcut Rule | Mathematical Objective | Computational Formula | Application Example |\n| :--- | :--- | :--- | :--- |\n| Rule of 72 | Doubling Period of Investment | $$t{\\text{double}} \\approx \\f",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                SIMPLE vs COMPOUND INTEREST IN BANKING",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
-      "concept": "2. Rule of 72 and Rule of 114"
+      "topic": "TIME VALUE OF MONEY, INTEREST, COMPOUNDING & FINANCIAL MATHEMATICS",
+      "concept": "2. Core Principles: Simple vs. Compound Interest"
     },
-    "badge": "179 words"
+    "badge": "90 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Mathematical Formula Architecture",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
-    "description": "Q1. A customer deposits ₹1,00,000 in a fixed deposit for 1 year at a nominal interest rate of 12% per annum compounded quarterly. What is the Effective Annual Rate (EAR)?\n- (A) 12.00%\n- (B) 12.55%",
+    "description": "Formula 1: Future Value under Discrete Compounding\n$$\\text{FV} = \\text{PV} \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times t}$$\n- Symbols: $\\text{PV}$ = Present Value; $r$ = Annual nominal inter",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "TIME VALUE OF MONEY, INTEREST, COMPOUNDING & FINANCIAL MATHEMATICS",
+      "concept": "3. Mathematical Formula Architecture"
     },
-    "badge": "201 words"
+    "badge": "262 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-07_chapter_07_time_value_of_money_compounding-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Master Mathematical Shortcut Rules",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-07_chapter_07_time_value_of_money_compounding",
-    "description": "<details>\n<summary>Why does an increase in the compounding frequency widen the gap between the Nominal Rate and the Effective Annual Rate?</summary>\n\nBecause interest earned in earlier intervals is ad",
+    "description": "| Rule | Purpose | Mathematical Formula | Banking Example |\n| :--- | :--- | :--- | :--- |\n| Rule of 72 | Doubling Period | $t{\\text{double}} \\approx \\frac{72}{r}$ | At 8% interest p.a., capital d",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "TIME VALUE OF MONEY (TVM) & COMPOUNDING ARITHMETIC",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "TIME VALUE OF MONEY, INTEREST, COMPOUNDING & FINANCIAL MATHEMATICS",
+      "concept": "4. Master Mathematical Shortcut Rules"
     },
-    "badge": "92 words"
+    "badge": "95 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
     "type": "TOPIC",
-    "title": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
+    "title": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI), SINKING FUNDS & PERPETUITIES",
     "slug": "paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -5115,72 +5085,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "771 words • 4 min read"
+    "badge": "1,291 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-2",
     "type": "CONCEPT",
-    "title": "1. Ordinary Annuity vs Annuity Due & Perpetuities",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
-    "description": "1. Ordinary Annuity (Payments at the END of each period)\n$$\\text{PV}{\\text{Ordinary Annuity}} = C \\times \\left[ \\frac{1 - (1 + r)^{-n}}{r} \\right]$$\n$$\\text{FV}{\\text{Ordinary Annuity}} = C \\tim",
+    "description": "An annuity is a sequence of equal cash flows occurring at equal time intervals. In retail and corporate banking, annuities form the mathematical infrastructure of recurring deposits, home and vehicle",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
-      "concept": "1. Ordinary Annuity vs Annuity Due & Perpetuities"
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI), SINKING FUNDS & PERPETUITIES",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "114 words"
+    "badge": "60 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-3",
     "type": "CONCEPT",
-    "title": "2. Equated Monthly Installment (EMI) Formula",
+    "title": "2. Master Taxonomy of Annuities",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
-    "description": "$$\\text{EMI} = \\frac{P \\times r \\times (1 + r)^n}{(1 + r)^n - 1}$$\n- Where $P$ = Loan Principal sanctioned, $r$ = Monthly interest rate (Annual rate $/ 12$), and $n$ = Loan tenure in total months.\n-",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    TAXONOMY OF ANNUITY STRUCTURES",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
-      "concept": "2. Equated Monthly Installment (EMI) Formula"
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI), SINKING FUNDS & PERPETUITIES",
+      "concept": "2. Master Taxonomy of Annuities"
     },
-    "badge": "78 words"
+    "badge": "149 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-4",
     "type": "CONCEPT",
-    "title": "3. Sinking Fund Factor",
+    "title": "3. Mathematical Formula Architecture",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
-    "description": "$$\\text{Annual Deposit (Sinking Fund)} = \\text{Target Future Sum} \\times \\left[ \\frac{r}{(1 + r)^n - 1} \\right]$$\n- Used by companies to systematically accumulate funds to redeem debentures or replace",
+    "description": "Formula 1: Future Value of an Ordinary Annuity (FVOA)\n$$\\text{FVOA} = C \\times \\left[ \\frac{(1 + r)^n - 1}{r} \\right]$$\n- Where: $C$ = Periodic cash flow; $r$ = Periodic interest rate; $n$ = T",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
-      "concept": "3. Sinking Fund Factor"
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI), SINKING FUNDS & PERPETUITIES",
+      "concept": "3. Mathematical Formula Architecture"
     },
-    "badge": "107 words"
+    "badge": "292 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Loan Amortization Mechanics: Splitting Interest & Principal",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-08_chapter_08_annuities_emi_sinking_funds",
-    "description": "Q1. How does the Present Value of an Annuity Due compare to the Present Value of an Ordinary Annuity for the same cash flow, rate, and period?\n- (A) Equal\n- (B) Higher by a factor of (1 + r)\n- (C)",
+    "description": "In an Equated Monthly Installment (reducing balance loan):\n1. Total Monthly Payment: Remains constant throughout the loan tenure.\n2. Monthly Interest Component: Decreases over time as outstand",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI) & SINKING FUNDS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "ANNUITIES, EQUATED MONTHLY INSTALLMENTS (EMI), SINKING FUNDS & PERPETUITIES",
+      "concept": "4. Loan Amortization Mechanics: Splitting Interest & Principal"
     },
-    "badge": "269 words"
+    "badge": "84 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
     "type": "TOPIC",
-    "title": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
+    "title": "BONDS, YTM, DURATION & FIXED-INCOME MATHEMATICS",
     "slug": "paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -5189,72 +5159,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "739 words • 4 min read"
+    "badge": "1,392 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-2",
     "type": "CONCEPT",
-    "title": "1. Core Bond Pricing Principles",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
-    "description": "1. Intrinsic Value of a Bond\n$$V0 = \\sum{t=1}^n \\frac{C}{(1 + kd)^t} + \\frac{M}{(1 + kd)^n} = C \\times \\left[ \\frac{1 - (1 + kd)^{-n}}{kd} \\right] + \\frac{M}{(1 + kd)^n}$$\n- Where $C$ = Ann",
+    "description": "Commercial banks in India maintain massive investment portfolios in Central and State Government Securities (G-Secs) to fulfill the Statutory Liquidity Ratio (SLR) mandate under Section 24 of the Bank",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
-      "concept": "1. Core Bond Pricing Principles"
+      "topic": "BONDS, YTM, DURATION & FIXED-INCOME MATHEMATICS",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "156 words"
+    "badge": "64 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-3",
     "type": "CONCEPT",
-    "title": "2. Yield to Maturity (YTM) Approximation Formula",
+    "title": "2. Core Concepts: Bond Terminology & Price-Yield Mechanics",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
-    "description": "$$\\text{YTM} \\approx \\frac{C + \\frac{M - P}{n}}{\\frac{M + P}{2}} \\times 100$$\n- Where $C$ = Annual coupon payment, $M$ = Maturity face value, $P$ = Current market purchase price, and $n$ = Years remai",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    BOND PRICING RELATIONSHIPS MATRIX",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
-      "concept": "2. Yield to Maturity (YTM) Approximation Formula"
+      "topic": "BONDS, YTM, DURATION & FIXED-INCOME MATHEMATICS",
+      "concept": "2. Core Concepts: Bond Terminology & Price-Yield Mechanics"
     },
-    "badge": "36 words"
+    "badge": "132 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-4",
     "type": "CONCEPT",
-    "title": "3. Macaulay Duration & Modified Duration",
+    "title": "3. Mathematical Formulas for Fixed-Income Valuation",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
-    "description": "1. Macaulay Duration ($D$)\nMeasures the weighted-average time (in years) required for a bondholder to recover the initial purchase price from coupon and principal cash flows:\n$$D = \\frac{\\sum{t=1",
+    "description": "Formula 1: Intrinsic Bond Value (Valuation Formula)\n$$P0 = \\sum{t=1}^n \\frac{C}{(1 + y)^t} + \\frac{M}{(1 + y)^n} = C \\times \\text{PVIFA}(y, n) + M \\times \\text{PVIF}(y, n)$$\n- Where: $C$ = A",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
-      "concept": "3. Macaulay Duration & Modified Duration"
+      "topic": "BONDS, YTM, DURATION & FIXED-INCOME MATHEMATICS",
+      "concept": "3. Mathematical Formulas for Fixed-Income Valuation"
     },
-    "badge": "131 words"
+    "badge": "339 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Master Comparative Framework: Macaulay vs. Modified Duration",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-09_chapter_09_bond_valuation_ytm_duration",
-    "description": "Q1. A 5-year zero-coupon bond has a face value of ₹1,000. What is its Macaulay Duration?\n- (A) 2.5 Years\n- (B) 4.2 Years\n- (C) 5.0 Years\n- (D) Zero\n\nQ2. When prevailing market interest rates r",
+    "description": "| Dimension | Macaulay Duration | Modified Duration |\n| :--- | :--- | :--- |\n| Unit of Measurement | Years (Time dimension) | Percentage / Decimal (Sensitivity dimension) |\n| Core Econom",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BOND VALUATION, YIELD TO MATURITY (YTM) & MODIFIED DURATION",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "BONDS, YTM, DURATION & FIXED-INCOME MATHEMATICS",
+      "concept": "4. Master Comparative Framework: Macaulay vs. Modified Duration"
     },
-    "badge": "192 words"
+    "badge": "112 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
     "type": "TOPIC",
-    "title": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
+    "title": "BANK FINAL ACCOUNTS: BALANCE SHEET & PROFIT AND LOSS (THIRD SCHEDULE)",
     "slug": "paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
@@ -5263,733 +5233,733 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "881 words • 5 min read"
+    "badge": "1,776 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Architecture of Form A (Balance Sheet Schedules 1 to 12)",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
-    "description": "| Schedule | Category & Official Title | Statutory Composition & Inclusions |\n| :--- | :--- | :--- |\n| Schedule 1 | Capital | Authorised Capital, Issued Capital, Subscribed Capital, Paid-Up Ca",
+    "description": "Under Section 29 of the Banking Regulation Act 1949, all commercial banking companies in India are mandatorily required to prepare their annual Balance Sheet and Profit & Loss Account in accordanc",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
-      "concept": "1. Master Architecture of Form A (Balance Sheet Schedules 1 to 12)"
+      "topic": "BANK FINAL ACCOUNTS: BALANCE SHEET & PROFIT AND LOSS (THIRD SCHEDULE)",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "302 words"
+    "badge": "84 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-3",
     "type": "CONCEPT",
-    "title": "2. Key Statutory Rules & Off-Balance Sheet Footnotes",
+    "title": "2. Statutory Architecture of the Third Schedule",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
-    "description": "- Non-Banking Assets Acquired in Satisfaction of Claims (Section 9, BR Act): Physical real estate or goods taken over from defaulted borrowers must be shown under Schedule 11 (Other Assets) an",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                               MASTER ARCHITECTURE OF BANK FINANCIAL STATEMENTS",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
-      "concept": "2. Key Statutory Rules & Off-Balance Sheet Footnotes"
+      "topic": "BANK FINAL ACCOUNTS: BALANCE SHEET & PROFIT AND LOSS (THIRD SCHEDULE)",
+      "concept": "2. Statutory Architecture of the Third Schedule"
     },
-    "badge": "155 words"
+    "badge": "90 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Form A: Complete Schedule Matrix (Schedules 1 to 12)",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
-    "description": "Q1. Under the Third Schedule of the Banking Regulation Act 1949, under which schedule are Letters of Credit and Bank Guarantees disclosed?\n- (A) Schedule 5\n- (B) Schedule 9\n- (C) Schedule 11\n- (D)",
+    "description": "| Schedule | Classification | What It Represents (Core Inclusions) | Why & Banking Purpose | Concrete Example | High-Probability Exam Trap Alert |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Sched",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "BANK FINAL ACCOUNTS: BALANCE SHEET & PROFIT AND LOSS (THIRD SCHEDULE)",
+      "concept": "3. Form A: Complete Schedule Matrix (Schedules 1 to 12)"
     },
-    "badge": "205 words"
+    "badge": "585 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Form B: Profit & Loss Statement (Schedules 13 to 16)",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet",
-    "description": "<details>\n<summary>Why are \"Bills for Collection\" excluded from the balance sheet total in Form A?</summary>\n\nBecause the bank acts purely as a collecting agent for its customer without acquiring owne",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                     FORM B: PROFIT & LOSS ARCHITECTURE",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS I: STATUTORY BALANCE SHEET (THIRD SCHEDULE)",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "BANK FINAL ACCOUNTS: BALANCE SHEET & PROFIT AND LOSS (THIRD SCHEDULE)",
+      "concept": "4. Form B: Profit & Loss Statement (Schedules 13 to 16)"
     },
-    "badge": "93 words"
+    "badge": "195 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
     "type": "TOPIC",
-    "title": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
-    "slug": "paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
+    "title": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
+    "slug": "paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "799 words • 4 min read"
+    "badge": "1,728 words • 8 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Architecture of Form B (Profit & Loss Schedules 13 to 16)",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
-    "description": "| Section | Schedule / Line | Description & Key Inclusions |\n| :--- | :--- | :--- |\n| I. Income | Schedule 13: Interest Earned | • Interest/discount on advances and bills.<br>• Income on inves",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
+    "description": "Before a bank can sanction credit facilities, term loans, or working capital lines to corporate borrowers, credit underwriters must dissect the borrower's audited annual financial statements. Understa",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
-      "concept": "1. Master Architecture of Form B (Profit & Loss Schedules 13 to 16)"
+      "topic": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "216 words"
+    "badge": "72 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-3",
     "type": "CONCEPT",
-    "title": "2. Mandatory Section 17 Statutory Reserve Rules",
+    "title": "2. From Trial Balance to Final Accounts: The Core Adjustments",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
-    "description": "- Statutory Benchmark (Section 17(1), BR Act 1949): Every commercial banking company incorporated in India must transfer at least 20% of its annual net profit to a Statutory Reserve fund befor",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
+    "description": "Final financial statements synthesize periodic operating results into three statements:\n1. Trading Account: Measures gross operating performance ($\\text{Gross Profit} = \\text{Net Sales} - \\text{Co",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
-      "concept": "2. Mandatory Section 17 Statutory Reserve Rules"
+      "topic": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
+      "concept": "2. From Trial Balance to Final Accounts: The Core Adjustments"
     },
-    "badge": "160 words"
+    "badge": "242 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Company Accounts: Share Capital Architecture",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
-    "description": "Q1. Under Section 17 of the Banking Regulation Act 1949, what is the minimum statutory percentage of net profit that a banking company must transfer to the Statutory Reserve before declaring divid",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
+    "description": "Under the Companies Act 2013, corporate capital structure is organized into legal tiers:\n- Authorized Capital: The maximum nominal capital a company is legally authorized to issue under its Me",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
+      "concept": "3. Company Accounts: Share Capital Architecture"
     },
-    "badge": "210 words"
+    "badge": "208 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Cash Flow Statement (AS 3 / Ind AS 7)",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_bank_final_accounts_profit_loss",
-    "description": "<details>\n<summary>What is the distinction between Schedule 13 (Interest Earned) and Schedule 14 (Other Income) regarding investments?</summary>\n\nPeriodic coupon interest and dividend yields on invest",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow",
+    "description": "A Cash Flow Statement reports historical cash inflows and outflows partitioned into three distinct operational activities:\n\n\n+-----------------------------------------------------------------------",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BANK FINAL ACCOUNTS II: PROFIT & LOSS STATEMENT & PROVISIONS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
+      "concept": "4. Cash Flow Statement (AS 3 / Ind AS 7)"
     },
-    "badge": "98 words"
+    "badge": "188 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
     "type": "TOPIC",
-    "title": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
-    "slug": "paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
+    "title": "COMPUTERISED ACCOUNTING, CBS, BANK DISCLOSURES & BASEL III FRAMEWORK",
+    "slug": "paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "846 words • 4 min read"
+    "badge": "1,509 words • 7 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii-sec-2",
     "type": "CONCEPT",
-    "title": "1. Direct vs Indirect Quotation Systems",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
-    "description": "| Quotation Mechanism | Theoretical Definition | Domestic / International Benchmark | Trading Golden Rule |\n| :--- | :--- | :--- | :--- |\n| Direct Quotation | Home currency price of 1 unit of fore",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
+    "description": "Modern commercial banking has completely transitioned from manual paper ledgers to 24x7 centralized Core Banking Systems (CBS). At the same time, international regulatory standards under the Basel Com",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
-      "concept": "1. Direct vs Indirect Quotation Systems"
+      "topic": "COMPUTERISED ACCOUNTING, CBS, BANK DISCLOSURES & BASEL III FRAMEWORK",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "99 words"
+    "badge": "71 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii-sec-3",
     "type": "CONCEPT",
-    "title": "2. Two-Way Quotes & Bid-Ask Spread",
+    "title": "2. Computerised Accounting Systems (CAS) & Core Banking Solutions (CBS)",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
-    "description": "$$\\text{USD / INR} = 84.20 / 84.30$$\n- Bid Rate (Bank Buying Rate): ₹84.20 (Bank buys 1 USD from customer for ₹84.20).\n- Ask Rate (Bank Selling Rate): ₹84.30 (Bank sells 1 USD to customer f",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    MANUAL vs COMPUTERISED ACCOUNTING SYSTEMS",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
-      "concept": "2. Two-Way Quotes & Bid-Ask Spread"
+      "topic": "COMPUTERISED ACCOUNTING, CBS, BANK DISCLOSURES & BASEL III FRAMEWORK",
+      "concept": "2. Computerised Accounting Systems (CAS) & Core Banking Solutions (CBS)"
     },
-    "badge": "65 words"
+    "badge": "238 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii-sec-4",
     "type": "CONCEPT",
-    "title": "3. Cross Rates via Chain Rule",
+    "title": "3. Bank Financial Disclosures & Notes to Accounts",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
-    "description": "When direct market trading does not exist between two currencies, the exchange rate is calculated via an intermediary vehicle currency (typically USD):\n$$\\text{EUR / INR} = (\\text{USD / INR}) \\times (",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
+    "description": "In addition to the 16 balance sheet and P&L schedules under the Third Schedule of the BR Act 1949, commercial banks are mandated by the RBI to provide comprehensive Notes to Accounts disclosing qu",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
-      "concept": "3. Cross Rates via Chain Rule"
+      "topic": "COMPUTERISED ACCOUNTING, CBS, BANK DISCLOSURES & BASEL III FRAMEWORK",
+      "concept": "3. Bank Financial Disclosures & Notes to Accounts"
     },
-    "badge": "56 words"
+    "badge": "138 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii-sec-5",
     "type": "CONCEPT",
-    "title": "4. Forward Rates & Forward Margin Rules",
+    "title": "4. Basel III Capital Adequacy Framework",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_forex_arithmetic_exchange_rates",
-    "description": "$$\\text{Forward Rate} = \\text{Spot Rate} \\pm \\text{Forward Margin (Premium or Discount)}$$\n\n| Forward Margin Pattern | Market State | Operational Rule in Direct Quotation |\n| :--- | :--- | :--- |\n|",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-12_chapter_12_computerised_accounting_cbs_disclosures_basel_iii",
+    "description": "The Basel III norms, implemented in India through RBI Master Directions, establish a multi-tier regulatory capital framework designed to prevent bank insolvency during systemic stress:\n\n\n+---------",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
-      "concept": "4. Forward Rates & Forward Margin Rules"
+      "topic": "COMPUTERISED ACCOUNTING, CBS, BANK DISCLOSURES & BASEL III FRAMEWORK",
+      "concept": "4. Basel III Capital Adequacy Framework"
     },
-    "badge": "78 words"
+    "badge": "356 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
     "type": "TOPIC",
-    "title": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
-    "slug": "paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
+    "title": "FINANCIAL MANAGEMENT FUNDAMENTALS & FINANCIAL RATIO ANALYSIS",
+    "slug": "paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "803 words • 4 min read"
+    "badge": "1,546 words • 8 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Comparison of Capital Budgeting Appraisal Techniques",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
-    "description": "| Appraisal Technique | Considers TVM? | Mathematical Formula / Acceptance Rule | Core Strengths & Practical Limitations |\n| :--- | :--- | :--- | :--- |\n| Payback Period (PBP) | No | $$\\text{PBP}",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
+    "description": "Financial Management provides the analytical framework used by corporate CFOs to allocate capital and by bank credit officers to appraise commercial borrowers. In bank lending operations, ratio analys",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
-      "concept": "1. Master Comparison of Capital Budgeting Appraisal Techniques"
+      "topic": "FINANCIAL MANAGEMENT FUNDAMENTALS & FINANCIAL RATIO ANALYSIS",
+      "concept": "1. Why This Matters in Banking Operations"
+    },
+    "badge": "69 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Core Concepts: Objectives & The Three Financial Decisions",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
+    "description": "Financial Management deals with the procurement and effective utilization of financial funds:\n- Primary Objective — Wealth Maximization vs. Profit Maximization:\n  - Profit Maximization: Focuses",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL MANAGEMENT FUNDAMENTALS & FINANCIAL RATIO ANALYSIS",
+      "concept": "2. Core Concepts: Objectives & The Three Financial Decisions"
     },
     "badge": "193 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis-sec-4",
     "type": "CONCEPT",
-    "title": "2. Resolving NPV vs IRR Conflicts in Mutually Exclusive Projects",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
-    "description": "When two mutually exclusive capital projects give contradictory rankings under NPV and IRR (due to scale differences or timing of cash flows):\n- Superiority of NPV: NPV must ALWAYS be adopted",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
-      "concept": "2. Resolving NPV vs IRR Conflicts in Mutually Exclusive Projects"
-    },
-    "badge": "161 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-4",
-    "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Master Classification of Financial Ratios",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
-    "description": "Q1. When evaluating two mutually exclusive investment projects with conflicting rankings between Net Present Value (NPV) and Internal Rate of Return (IRR), which criteria should be followed?\n- (A)",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    MASTER FINANCIAL RATIOS CLASSIFICATION",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "FINANCIAL MANAGEMENT FUNDAMENTALS & FINANCIAL RATIO ANALYSIS",
+      "concept": "3. Master Classification of Financial Ratios"
     },
-    "badge": "231 words"
+    "badge": "169 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Master Mathematical Ratio Architecture",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
-    "description": "<details>\n<summary>Why does the Profitability Index (PI) serve as the optimal decision rule under capital rationing?</summary>\n\nBecause when an enterprise has a fixed capital budget ceiling, PI ranks",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_financial_management_fundamentals_ratio_analysis",
+    "description": "| Ratio Name | Exact Mathematical Formula | Conceptual Interpretation | Textbook Benchmark Status |\n| :--- | :--- | :--- | :--- |\n| Current Ratio | $\\frac{\\text{Current Assets}}{\\text{Current Liab",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "FINANCIAL MANAGEMENT FUNDAMENTALS & FINANCIAL RATIO ANALYSIS",
+      "concept": "4. Master Mathematical Ratio Architecture"
     },
-    "badge": "107 words"
+    "badge": "299 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
     "type": "TOPIC",
-    "title": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
-    "slug": "paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
+    "title": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+    "slug": "paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "867 words • 4 min read"
+    "badge": "1,298 words • 6 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Formulas for Specific Component Costs of Capital",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
-    "description": "1. After-Tax Cost of Debt ($Kd$)\nBecause interest on debt is a tax-deductible business expense under corporate tax laws:\n$$Kd = I \\times (1 - t)$$\n- Where $I$ = Pre-tax contractual coupon / inte",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
+    "description": "Foreign Exchange (Forex) arithmetic is the operational foundation of bank treasury dealing rooms and international trade finance branches. Commercial authorized dealer (AD Category I) banks quote cont",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
-      "concept": "1. Master Formulas for Specific Component Costs of Capital"
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "215 words"
+    "badge": "74 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations-sec-3",
     "type": "CONCEPT",
-    "title": "2. Weighted Average Cost of Capital (WACC / $K_o$)",
+    "title": "2. Core Concepts: Direct vs. Indirect Quotations",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
-    "description": "$$\\text{WACC} = \\left( Wd \\times Kd \\right) + \\left( Wp \\times Kp \\right) + \\left( We \\times Ke \\right)$$\n- Where $Wd, Wp, We$ represent the proportional market value (or book value) weights",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    DIRECT vs INDIRECT QUOTATION SYSTEMS",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
-      "concept": "2. Weighted Average Cost of Capital (WACC / $K_o$)"
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "2. Core Concepts: Direct vs. Indirect Quotations"
     },
-    "badge": "48 words"
+    "badge": "122 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations-sec-4",
     "type": "CONCEPT",
-    "title": "3. Overview of Capital Structure Theories",
+    "title": "3. The Cardinal Rules of Bank Forex Quotations",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
-    "description": "- Net Income (NI) Theory (Durand): Financial leverage matters; higher debt lowers WACC and increases firm value due to the lower cost of debt.\n- Net Operating Income (NOI) Theory: Capital stru",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
+    "description": "Rule 1: The Dealing Perspective\nAll exchange rate quotations are quoted from the AUTHORISED DEALER BANK'S VIEWPOINT, not the customer's viewpoint.\n$$\\mathbf{\\text{THE GOLDEN RULE OF FOREX: BAN",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
-      "concept": "3. Overview of Capital Structure Theories"
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "3. The Cardinal Rules of Bank Forex Quotations"
     },
-    "badge": "147 words"
+    "badge": "389 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_cost_of_capital_wacc-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Worked Numerical: Exporter & Importer Quotations",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_cost_of_capital_wacc",
-    "description": "Q1. A corporate borrower issues debentures at an interest rate of 12% per annum. If the corporate tax rate is 30%, what is the after-tax cost of debt (Kd)?\n- (A) 12.0%\n- (B) 8.4%\n- (C) 9.6%\n- (D)",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-14_chapter_14_foreign_exchange_arithmetic_quotations",
+    "description": "Scenario: An Indian authorized dealer quotes the following spot and forward rates:\n- $\\text{Spot USD/INR} = 83.10 / 83.25$\n- 3-Month Forward Margin: $0.15 / 0.25$ (Ascending order)\n1. An Indian ex",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "COST OF CAPITAL (WACC) & CAPITAL STRUCTURE DECISIONS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "FOREIGN EXCHANGE ARITHMETIC & QUOTATION MECHANICS",
+      "concept": "4. Worked Numerical: Exporter & Importer Quotations"
     },
-    "badge": "234 words"
+    "badge": "293 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
     "type": "TOPIC",
-    "title": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
-    "slug": "paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
+    "title": "CAPITAL BUDGETING, TERM LOANS & PROJECT FINANCE APPRAISAL",
+    "slug": "paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "742 words • 4 min read"
+    "badge": "1,570 words • 8 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance-sec-2",
     "type": "CONCEPT",
-    "title": "1. The Three Dimensions of Leverage",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
-    "description": "$$\\text{Sales Revenue} - \\text{Variable Costs} = \\text{Contribution}$$\n$$\\text{Contribution} - \\text{Fixed Operating Costs} = \\text{EBIT}$$\n$$\\text{EBIT} - \\text{Interest Charges} = \\text{EBT}$$\n$$\\te",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
+    "description": "Capital budgeting decisions represent irreversible long-term financial commitments in physical plant, machinery, infrastructure, and technology. For commercial banks, term loan and project finance und",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
-      "concept": "1. The Three Dimensions of Leverage"
+      "topic": "CAPITAL BUDGETING, TERM LOANS & PROJECT FINANCE APPRAISAL",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "163 words"
+    "badge": "69 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance-sec-3",
     "type": "CONCEPT",
-    "title": "2. EBIT-EPS Indifference Point",
+    "title": "2. Core Framework: Relevant Cash Flows & The CFAT Metric",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
-    "description": "The Indifference Point represents the specific level of Earnings Before Interest and Taxes (EBIT) at which two alternative financing plans yield the exact same Earnings Per Share (EPS).\n\n$$\\frac{(\\tex",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
+    "description": "In capital budgeting appraisal, decisions are based strictly on incremental economic cash flows, NOT accounting net profits:\n- Cash Flow After Tax (CFAT):\n  $$\\mathbf{\\text{CFAT} = \\text{Profi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
-      "concept": "2. EBIT-EPS Indifference Point"
+      "topic": "CAPITAL BUDGETING, TERM LOANS & PROJECT FINANCE APPRAISAL",
+      "concept": "2. Core Framework: Relevant Cash Flows & The CFAT Metric"
     },
-    "badge": "168 words"
+    "badge": "203 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. Master Capital Budgeting Appraisal Techniques",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
-    "description": "Q1. A firm has Sales of ₹20 Lakhs, Variable Costs of ₹12 Lakhs, and Fixed Operating Costs of ₹4 Lakhs. What is its Degree of Operating Leverage (DOL)?\n- (A) 1.5\n- (B) 2.0\n- (C) 2.5\n- (D) 3.0\n\nQ2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                CAPITAL BUDGETING APPRAISAL TECHNIQUES",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
-      "concept": "Practice Questions & Solved Numerical Drills"
-    },
-    "badge": "192 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps-sec-5",
-    "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_leverage_analysis_ebit_eps",
-    "description": "<details>\n<summary>Why does an enterprise with zero fixed operating costs have an Operating Leverage of 1.0 rather than 0?</summary>\n\nBecause if fixed costs are zero, Contribution equals EBIT. The rat",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "BUSINESS & FINANCIAL LEVERAGES (EBIT-EPS ANALYSIS)",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
-    },
-    "badge": "107 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "type": "TOPIC",
-    "title": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
-    "slug": "paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Accounting & Financial Management for Bankers (AFMB)"
-    },
-    "badge": "810 words • 4 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-2",
-    "type": "CONCEPT",
-    "title": "1. Master Formula Matrix for Bank Credit Appraisal Ratios",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "description": "| Ratio Category | Exact Mathematical Formula | Banking Benchmark / Target | Primary Significance for Credit Sanctions |\n| :--- | :--- | :--- | :--- |\n| Current Ratio (CR) | $$\\frac{\\text{Current",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
-      "concept": "1. Master Formula Matrix for Bank Credit Appraisal Ratios"
-    },
-    "badge": "277 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-3",
-    "type": "CONCEPT",
-    "title": "2. Tangible Net Worth (TNW) Definition for Bankers",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "description": "$$\\text{Tangible Net Worth (TNW)} = \\text{Paid-Up Equity Capital} + \\text{Free Reserves} - \\text{Intangible Assets} - \\text{Accumulated Losses}$$\n- Intangible assets deducted: Goodwill, Patents, Trade",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
-      "concept": "2. Tangible Net Worth (TNW) Definition for Bankers"
-    },
-    "badge": "81 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-4",
-    "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "description": "Q1. Under the Tandon Committee Method 2 of working capital appraisal, what is the minimum required Current Ratio benchmark?\n- (A) 1.00 : 1\n- (B) 1.25 : 1\n- (C) 1.33 : 1\n- (D) 2.00 : 1\n\nQ2. Whi",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
-      "concept": "Practice Questions & Solved Numerical Drills"
-    },
-    "badge": "229 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal-sec-5",
-    "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_financial_ratios_credit_appraisal",
-    "description": "<details>\n<summary>What is the formula for calculating Net Working Capital (NWC), and what does a negative NWC indicate to a bank lender?</summary>\n\nNWC = Current Assets − Current Liabilities. A negat",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FINANCIAL RATIO ANALYSIS FOR CREDIT & SOLVENCY APPRAISAL",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
-    },
-    "badge": "107 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "type": "TOPIC",
-    "title": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
-    "slug": "paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Accounting & Financial Management for Bankers (AFMB)"
-    },
-    "badge": "695 words • 4 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-2",
-    "type": "CONCEPT",
-    "title": "1. Master Mathematical Formulas for Marginal Costing",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "description": "1. Contribution\n$$\\text{Contribution} = \\text{Sales Revenue} - \\text{Variable Costs}$$\n$$\\text{Contribution} = \\text{Fixed Costs} + \\text{Profit}$$\n\n 2. Profit-Volume Ratio (P/V Ratio)\n$$\\text{",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
-      "concept": "1. Master Mathematical Formulas for Marginal Costing"
-    },
-    "badge": "158 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-3",
-    "type": "CONCEPT",
-    "title": "2. Cost Dynamics Comparison",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "description": "| Cost Category | Behavior in Total Amount | Behavior on a Per-Unit Basis |\n| :--- | :--- | :--- |\n| Fixed Cost | Constant / Unchanged regardless of output volume | Decreases progressively",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
-      "concept": "2. Cost Dynamics Comparison"
-    },
-    "badge": "106 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-4",
-    "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "description": "Q1. A manufacturing firm has Fixed Costs of ₹6,00,000, Selling Price of ₹100 per unit, and Variable Cost of ₹60 per unit. What is the Break-Even Point in physical units?\n- (A) 10,000 Units\n- (B) 1",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
-      "concept": "Practice Questions & Solved Numerical Drills"
-    },
-    "badge": "210 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_marginal_costing_break_even-sec-5",
-    "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
-    "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_marginal_costing_break_even",
-    "description": "<details>\n<summary>Why is a high Margin of Safety (MoS) considered a positive indicator by a bank term-lending officer?</summary>\n\nA high MoS indicates that the borrower's actual sales can drop signif",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "FUNDAMENTALS OF COSTING, MARGINAL COSTING & BREAK-EVEN ANALYSIS",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
-    },
-    "badge": "101 words"
-  },
-  {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "type": "TOPIC",
-    "title": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
-    "slug": "paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "Accounting & Financial Management for Bankers (AFMB)"
-    },
-    "badge": "755 words • 4 min read"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-2",
-    "type": "CONCEPT",
-    "title": "1. Master Variance Analysis Architecture",
-    "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "description": "Variances represent the difference between standard costs and actual costs:\n- Favourable Variance (F): When Actual Cost is less than Standard Cost (Actual Cost < Standard Cost), enhancing profit",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
-      "concept": "1. Master Variance Analysis Architecture"
-    },
-    "badge": "158 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-3",
-    "type": "CONCEPT",
-    "title": "2. Budgetary Control: Fixed vs Flexible Budgets & Cash Budgets",
-    "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "description": "| Budget Type | Core Architectural Characteristic | Analytical Utility in Banking & Business |\n| :--- | :--- | :--- |\n| Fixed Budget | Prepared for a single predetermined level of activity; remain",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
-      "concept": "2. Budgetary Control: Fixed vs Flexible Budgets & Cash Budgets"
+      "topic": "CAPITAL BUDGETING, TERM LOANS & PROJECT FINANCE APPRAISAL",
+      "concept": "3. Master Capital Budgeting Appraisal Techniques"
     },
     "badge": "191 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
-    "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "description": "Q1. Standard price of material is ₹20 per kg. Actual material purchased and consumed is 1,000 kg at ₹22 per kg. What is the Material Price Variance (MPV)?\n- (A) ₹2,000 Favourable\n- (B) ₹2,000 Adve",
-    "hierarchy": {
-      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
-      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
-      "concept": "Practice Questions & Solved Numerical Drills"
-    },
-    "badge": "209 words"
-  },
-  {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_standard_costing_budgetary_control-sec-5",
-    "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. Mutually Exclusive Projects: The NPV vs. IRR Conflict",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_standard_costing_budgetary_control",
-    "description": "<details>\n<summary>State the mathematical relationship linking Material Cost Variance, Material Price Variance, and Material Usage Variance.</summary>\n\nMaterial Cost Variance (MCV) = Material Price Va",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-15_chapter_15_capital_budgeting_term_loans_project_finance",
+    "description": "When evaluating mutually exclusive projects (choosing Project A precludes Project B), NPV and IRR rankings can conflict due to differences in project scale, cash flow timing, or useful economic life:",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "STANDARD COSTING, VARIANCE ANALYSIS & BUDGETARY CONTROL",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "topic": "CAPITAL BUDGETING, TERM LOANS & PROJECT FINANCE APPRAISAL",
+      "concept": "4. Mutually Exclusive Projects: The NPV vs. IRR Conflict"
     },
-    "badge": "93 words"
+    "badge": "124 words"
   },
   {
-    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
     "type": "TOPIC",
-    "title": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
-    "slug": "paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
+    "title": "COST OF CAPITAL, CAPITAL STRUCTURE & LEVERAGE",
+    "slug": "paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
     "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "928 words • 5 min read"
+    "badge": "1,531 words • 7 min read"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-2",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage-sec-2",
     "type": "CONCEPT",
-    "title": "1. TDS on Bank Term Deposits (Section 194A, Direct Tax Framework)",
+    "title": "1. Why This Matters in Banking Operations",
     "slug": "sec-2",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
-    "description": "| Depositor Category | Annual Interest Threshold for TDS | Standard TDS Rate (Valid PAN) | Higher TDS Rate without PAN (Sec 206AA) | Exemption Declaration Forms |\n| :--- | :--- | :--- | :--- | :--- |",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
+    "description": "Cost of Capital and Capital Structure decisions govern how a corporation funds its long-term assets and how much business and financial risk it assumes. In corporate banking and credit underwriting, b",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
-      "concept": "1. TDS on Bank Term Deposits (Section 194A, Direct Tax Framework)"
+      "topic": "COST OF CAPITAL, CAPITAL STRUCTURE & LEVERAGE",
+      "concept": "1. Why This Matters in Banking Operations"
     },
-    "badge": "168 words"
+    "badge": "77 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-3",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage-sec-3",
     "type": "CONCEPT",
-    "title": "2. Section 194N: TDS on Cash Withdrawals",
+    "title": "2. Specific Costs of Capital & WACC Formulation",
     "slug": "sec-3",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
-    "description": "To discourage high-value cash transactions and promote digital banking rails:\n- General Threshold: TDS at 2% on aggregate cash withdrawals exceeding ₹1 Crore in a financial year from one o",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
+    "description": "1. Cost of Debt ($Kd$)\nBecause interest paid on corporate debt is a tax-deductible expense under Section 36 of the Income Tax Act, debt generates a valuable Interest Tax Shield:\n$$\\mathbf{Kd",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
-      "concept": "2. Section 194N: TDS on Cash Withdrawals"
+      "topic": "COST OF CAPITAL, CAPITAL STRUCTURE & LEVERAGE",
+      "concept": "2. Specific Costs of Capital & WACC Formulation"
     },
-    "badge": "66 words"
+    "badge": "268 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-4",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage-sec-4",
     "type": "CONCEPT",
-    "title": "3. Goods and Services Tax (GST) Architecture in Banking",
+    "title": "3. Theories of Capital Structure",
     "slug": "sec-4",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
-    "description": "- Applicable GST Rate: Most banking fee-based services (processing charges, folio charges, locker rent, ATM fees beyond free limit, DD issuance) attract standard GST at 18%.\n- Exempt Banking",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                MASTER CAPITAL STRUCTURE THEORIES MATRIX",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
-      "concept": "3. Goods and Services Tax (GST) Architecture in Banking"
+      "topic": "COST OF CAPITAL, CAPITAL STRUCTURE & LEVERAGE",
+      "concept": "3. Theories of Capital Structure"
     },
-    "badge": "212 words"
+    "badge": "195 words"
   },
   {
-    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-5",
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage-sec-5",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "4. Master Leverage Architecture: DOL, DFL & Combined Leverage",
     "slug": "sec-5",
-    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
-    "description": "Q1. Under Section 194A of direct tax statutes (Income Tax Act 1961 / Income-tax Act 2025 framework), what is the annual interest threshold above which a bank must deduct TDS on term deposits of Se",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-16_chapter_16_cost_of_capital_capital_structure_leverage",
+    "description": "Income Statement Flow:\nSales Revenue\n  Less: Variable Costs\n= Contribution ---------------------------------------------> [Operating Risk Base]\n  Less: Fixed Operating Costs\n= Operating Profit (EB",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
-      "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "topic": "COST OF CAPITAL, CAPITAL STRUCTURE & LEVERAGE",
+      "concept": "4. Master Leverage Architecture: DOL, DFL & Combined Leverage"
     },
-    "badge": "226 words"
+    "badge": "242 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "type": "TOPIC",
+    "title": "WORKING CAPITAL, LEASING & FINANCING INSTRUMENTS",
+    "slug": "paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "1,677 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Why This Matters in Banking Operations",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "description": "Working capital finance (Cash Credit and Overdraft limits) forms the bread and butter of commercial bank lending. Credit underwriters must determine how much short-term credit an enterprise legitimate",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WORKING CAPITAL, LEASING & FINANCING INSTRUMENTS",
+      "concept": "1. Why This Matters in Banking Operations"
+    },
+    "badge": "67 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Working Capital Concepts & The Operating Cycle",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "description": "Working capital represents the liquid capital required to manage day-to-day operations:\n- Gross Working Capital: The total monetary investment in Current Assets (Cash, Debtors, Inventory, Bill",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WORKING CAPITAL, LEASING & FINANCING INSTRUMENTS",
+      "concept": "2. Working Capital Concepts & The Operating Cycle"
+    },
+    "badge": "271 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Regulation of Bank Working Capital Finance",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "description": "Over decades, RBI committees established methodologies to determine the Maximum Permissible Bank Finance (MPBF):\n\n\n+-----------------------------------------------------------------------------",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WORKING CAPITAL, LEASING & FINANCING INSTRUMENTS",
+      "concept": "3. Regulation of Bank Working Capital Finance"
+    },
+    "badge": "178 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Factoring vs. Forfaiting",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    FACTORING vs FORFAITING COMPARATIVE MATRIX",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "WORKING CAPITAL, LEASING & FINANCING INSTRUMENTS",
+      "concept": "4. Factoring vs. Forfaiting"
+    },
+    "badge": "162 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "type": "TOPIC",
+    "title": "FINANCIAL DERIVATIVES: FORWARDS, FUTURES, SWAPS & OPTIONS",
+    "slug": "paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "1,557 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options-sec-2",
+    "type": "CONCEPT",
+    "title": "1. Why This Matters in Banking Operations",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "description": "A financial derivative is an instrument whose contractual value is derived from the price, level, or performance of an underlying asset, benchmark interest rate, foreign currency, commodity, or credit",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL DERIVATIVES: FORWARDS, FUTURES, SWAPS & OPTIONS",
+      "concept": "1. Why This Matters in Banking Operations"
+    },
+    "badge": "63 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options-sec-3",
+    "type": "CONCEPT",
+    "title": "2. Core Economic Functions & Market Participants",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "description": "- Economic Functions:\n  1. Risk Transfer & Hedging: Allows entities exposed to unwanted price or interest rate risks to transfer that risk to willing counterparties.\n  2. Price Discovery: Refl",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL DERIVATIVES: FORWARDS, FUTURES, SWAPS & OPTIONS",
+      "concept": "2. Core Economic Functions & Market Participants"
+    },
+    "badge": "121 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options-sec-4",
+    "type": "CONCEPT",
+    "title": "3. Forwards vs. Futures Contracts",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                                    FORWARDS vs FUTURES COMPARATIVE MATRIX",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL DERIVATIVES: FORWARDS, FUTURES, SWAPS & OPTIONS",
+      "concept": "3. Forwards vs. Futures Contracts"
+    },
+    "badge": "151 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options-sec-5",
+    "type": "CONCEPT",
+    "title": "4. Forward Rate Agreements (FRAs) & Interest Rate Swaps (IRS)",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-18_chapter_18_derivatives_forwards_futures_swaps_options",
+    "description": "Forward Rate Agreements (FRAs)\nAn OTC forward contract where two parties agree on an interest rate to be paid on a notional principal over a specified future period (e.g. a \"3x6 FRA\" covers a 3-mo",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "FINANCIAL DERIVATIVES: FORWARDS, FUTURES, SWAPS & OPTIONS",
+      "concept": "4. Forward Rate Agreements (FRAs) & Interest Rate Swaps (IRS)"
+    },
+    "badge": "150 words"
+  },
+  {
+    "id": "shelf007-ch-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "type": "TOPIC",
+    "title": "DIRECT & INDIRECT TAXATION, COSTING METHODS, MARGINAL COSTING & BUDGETARY CONTROL",
+    "slug": "paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "description": "Paper: 3 (Accounting & Financial Management for Bankers)",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "Accounting & Financial Management for Bankers (AFMB)"
+    },
+    "badge": "4,379 words • 20 min read"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets-sec-2",
+    "type": "CONCEPT",
+    "title": "1. PART A: TAXATION IN BANKING OPERATIONS (DIRECT & INDIRECT)",
+    "slug": "sec-2",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "description": "Commercial banks occupy a critical dual role in national tax governance: they act as corporate taxpayers liable for corporate taxes and Goods and Services Tax (GST), and simultaneously serve as statut",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION, COSTING METHODS, MARGINAL COSTING & BUDGETARY CONTROL",
+      "concept": "1. PART A: TAXATION IN BANKING OPERATIONS (DIRECT & INDIRECT)"
+    },
+    "badge": "778 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets-sec-3",
+    "type": "CONCEPT",
+    "title": "2. PART B: COSTING FUNDAMENTALS & CLASSIFICATION OF COSTS",
+    "slug": "sec-3",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "description": "Cost Accounting is the process of accounting for cost from the point at which expenditure is incurred or committed to the establishment of its ultimate relationship with cost centers and cost units.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION, COSTING METHODS, MARGINAL COSTING & BUDGETARY CONTROL",
+      "concept": "2. PART B: COSTING FUNDAMENTALS & CLASSIFICATION OF COSTS"
+    },
+    "badge": "511 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets-sec-4",
+    "type": "CONCEPT",
+    "title": "3. PART C: METHODS OF COSTING ACROSS INDUSTRIES",
+    "slug": "sec-4",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "description": "The method of costing chosen depends on the nature of the product, production methods, and industrial structure.\n\n\n+---------------------------------------------------------------------------------",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION, COSTING METHODS, MARGINAL COSTING & BUDGETARY CONTROL",
+      "concept": "3. PART C: METHODS OF COSTING ACROSS INDUSTRIES"
+    },
+    "badge": "743 words"
+  },
+  {
+    "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets-sec-5",
+    "type": "CONCEPT",
+    "title": "4. PART D: MARGINAL COSTING & MANAGERIAL DECISION MAKING",
+    "slug": "sec-5",
+    "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets",
+    "description": "Marginal costing is a specialized technique where only variable costs are charged to cost of sales, and fixed costs are written off against contribution in the period incurred.\n\n\n+-------------",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
+      "topic": "DIRECT & INDIRECT TAXATION, COSTING METHODS, MARGINAL COSTING & BUDGETARY CONTROL",
+      "concept": "4. PART D: MARGINAL COSTING & MANAGERIAL DECISION MAKING"
+    },
+    "badge": "463 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
@@ -6003,67 +5973,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "1,807 words • 9 min read"
+    "badge": "9,482 words • 44 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-2",
     "type": "CONCEPT",
-    "title": "1. Master Formula & Benchmark Matrix",
+    "title": "1. MASTER MATRICES & BENCHMARK AUDIT FRAMEWORK",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
-    "description": "| Domain & Concept | Mathematical Formula / Statutory Benchmark | Core Examination Application |\n| :--- | :--- | :--- |\n| Fundamental Accounting Equation | $\\text{Assets} = \\text{Liabilities} + \\t",
+    "description": "+----------------------------------------------------------------------------------------------------+\n|                         IIBF PAPER 3 (AFMB) CAPSTONE SYNTHESIS ARCHITECTURE",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
-      "concept": "1. Master Formula & Benchmark Matrix"
+      "concept": "1. MASTER MATRICES & BENCHMARK AUDIT FRAMEWORK"
     },
-    "badge": "425 words"
+    "badge": "2620 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-3",
     "type": "CONCEPT",
-    "title": "2. 50 Essential Examiner Traps for IIBF Paper 3 (AFMB)",
+    "title": "2. 100 VERIFIED EXAMINER TRAPS & PITFALLS FOR AFMB",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
-    "description": "1. Valuing closing stock at Cost or Market Price, whichever is lower, is governed by the Prudence / Conservatism Concept.\n2. Showing capital as a balance sheet liability is mandated by the Busin",
+    "description": "1. Closing Stock Valuation: Valuing closing stock at cost or net realizable value, whichever is lower, is mandated by the Prudence (Conservatism) Concept, not the Materiality Concept.\n2. Bus",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
-      "concept": "2. 50 Essential Examiner Traps for IIBF Paper 3 (AFMB)"
+      "concept": "2. 100 VERIFIED EXAMINER TRAPS & PITFALLS FOR AFMB"
     },
-    "badge": "839 words"
+    "badge": "2611 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-4",
     "type": "CONCEPT",
-    "title": "Practice Questions & Solved Numerical Drills",
+    "title": "3. 100 RAPID-FIRE ACTIVE RECALL DIAGNOSTIC PROMPTS",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
-    "description": "Q1. Under Section 29 of the Banking Regulation Act 1949, commercial banks prepare their Balance Sheet and Profit & Loss Account strictly under which schedules of the Third Schedule?\n- (A) Form A (",
+    "description": "<details>\n<summary>Prompt 001: Under which accounting concept is closing inventory valued at the lower of cost or market price?</summary>\n\nPrudence (Conservatism) Concept.\n</details>\n\n<details>\n<s",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
-      "concept": "Practice Questions & Solved Numerical Drills"
+      "concept": "3. 100 RAPID-FIRE ACTIVE RECALL DIAGNOSTIC PROMPTS"
     },
-    "badge": "309 words"
+    "badge": "2656 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-5",
     "type": "CONCEPT",
-    "title": "Active Recall & Self-Diagnostic Prompts",
+    "title": "4. 50 NUMERICAL TRIGGERS & CALCULATION SHORTCUTS",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
-    "description": "<details>\n<summary>Why is the Debt Service Coverage Ratio (DSCR) the pivotal metric for bank term loan appraisals rather than the Interest Coverage Ratio (ICR)?</summary>\n\nBecause ICR tests only the b",
+    "description": "1. Doubling Time: At $r\\%$, doubling period $t \\approx \\frac{72}{r}$. At $8\\%$, $t \\approx 9 \\text{ years}$; at $12\\%$, $t \\approx 6 \\text{ years}$.\n2. Tripling Time: At $r\\%$, tripling period",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
-      "concept": "Active Recall & Self-Diagnostic Prompts"
+      "concept": "4. 50 NUMERICAL TRIGGERS & CALCULATION SHORTCUTS"
     },
-    "badge": "119 words"
+    "badge": "884 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models",

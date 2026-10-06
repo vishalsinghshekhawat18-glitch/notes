@@ -5,26 +5,26 @@ import { execSync } from 'child_process';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 
 export const EXACT_TOC_MAPPING_AFMB = [
-  { ch: 1, start: 1, end: 3, pages: 3, title: "Accounting Concepts, Principles (GAAP) & Ind AS Framework", sub: "Business Entity • Money Measurement • Going Concern • Cost Concept • Accrual & Matching • Prudence • Ind AS 109 ECL" },
-  { ch: 2, start: 4, end: 6, pages: 3, title: "Golden Rules of Accounting, Journalizing & Ledger Posting", sub: "Luca Pacioli 1494 • Personal, Real & Nominal Accounts • Debit/Credit Rules • Subsidiary Books • Ledger Balancing" },
-  { ch: 3, start: 7, end: 9, pages: 3, title: "Trial Balance, Rectification of Errors & Suspense Account", sub: "Arithmetical Proof • Errors of Principle, Omission, Commission, Compensating • Suspense Account • P&L Adjustment A/c" },
-  { ch: 4, start: 10, end: 12, pages: 3, title: "Bank Reconciliation Statement (BRS) & Timing Discrepancies", sub: "Cash Book vs Pass Book • Unpresented Cheques • Uncollected Deposits • Direct Bank Debits • Overdraft Rules" },
-  { ch: 5, start: 13, end: 15, pages: 3, title: "Depreciation Accounting & Mathematical Methods (SLM & WDV)", sub: "Ind AS 16 / AS 10 • Straight Line Method (SLM) • Written Down Value (WDV) • Sum of Years' Digits • IT Block of Assets" },
-  { ch: 6, start: 16, end: 17, pages: 2, title: "Bills of Exchange, Accommodation Bills & Rebate on Bills", sub: "NI Act §§4 & 5 • 3 Days of Grace • Maturity Holiday Rules • Discounting Accounting • Rebate on Bills (Schedule 5)" },
-  { ch: 7, start: 18, end: 20, pages: 3, title: "Time Value of Money (TVM) & Compounding Arithmetic", sub: "PV & FV Formulas • Intra-Year Compounding (m=4) • Effective Annual Rate (EAR) • Rule of 72 & 114 • Continuous Compounding" },
-  { ch: 8, start: 21, end: 23, pages: 3, title: "Annuities, Equated Monthly Installments (EMI) & Sinking Funds", sub: "Ordinary Annuity vs Annuity Due (1+r Factor) • Perpetuity (C/r) • Growing Perpetuity • EMI Formula • Amortization Schedule" },
-  { ch: 9, start: 24, end: 26, pages: 3, title: "Bond Valuation, Yield to Maturity (YTM) & Modified Duration", sub: "Intrinsic Value • Inverse Price-Yield Rule • YTM Approximation • Zero-Coupon D=n • Macaulay Duration & Modified Duration" },
-  { ch: 10, start: 27, end: 29, pages: 3, title: "Bank Final Accounts I: Statutory Balance Sheet (Third Schedule)", sub: "Section 29 BR Act 1949 Form A • Schedules 1 to 5 (Liabilities) • Schedules 6 to 11 (Assets) • Schedule 12 (Contingent)" },
-  { ch: 11, start: 30, end: 32, pages: 3, title: "Bank Final Accounts II: Profit & Loss Statement & Provisions", sub: "Form B Schedules 13 to 16 • Operating Expenses • Provisions & Contingencies • Section 17 Statutory Reserve (20% / 25%)" },
-  { ch: 12, start: 33, end: 35, pages: 3, title: "Foreign Exchange Arithmetic & Quotation Mechanics", sub: "Direct vs Indirect Quote (Aug 2, 1993) • Bid-Ask Spread • Chain Rule Cross Rates • Forward Margins (Premium / Discount)" },
-  { ch: 13, start: 36, end: 38, pages: 3, title: "Capital Budgeting & Long-Term Investment Decisions", sub: "Cash Inflow CFAT = PAT + Depr • Payback Period • ARR • NPV vs IRR Conflicts (NPV Supremacy) • Profitability Index (PI)" },
-  { ch: 14, start: 39, end: 41, pages: 3, title: "Cost of Capital (WACC) & Capital Structure Decisions", sub: "After-Tax Cost of Debt Kd = I(1-t) • Cost of Equity (CAPM) • WACC Formula • NI, NOI, Traditional & MM Theories" },
-  { ch: 15, start: 42, end: 44, pages: 3, title: "Business & Financial Leverages (EBIT-EPS Analysis)", sub: "Operating Leverage (Business Risk) • Financial Leverage (Financial Risk) • Combined Leverage (CL=OL×FL) • Indifference Point" },
-  { ch: 16, start: 45, end: 46, pages: 2, title: "Financial Ratio Analysis for Credit & Solvency Appraisal", sub: "Current Ratio (Tandon 1.33:1) • Quick Ratio (1.0:1) • Debt-Equity (2:1) • DSCR (1.50–2.00) • Tangible Net Worth" },
-  { ch: 17, start: 47, end: 49, pages: 3, title: "Fundamentals of Costing, Marginal Costing & Break-Even Analysis", sub: "Fixed vs Variable Costs • Contribution • P/V Ratio • Break-Even Point (Units & Value) • Margin of Safety (MoS)" },
-  { ch: 18, start: 50, end: 51, pages: 2, title: "Standard Costing, Variance Analysis & Budgetary Control", sub: "Standard vs Actual • Material Cost Variances (Price & Usage) • Labour Variances • Flexible Budgets • Cash Budgets" },
-  { ch: 19, start: 52, end: 54, pages: 3, title: "Direct & Indirect Taxation: GST & TDS in Banking Operations", sub: "TDS Section 194A (₹40K / ₹50K Senior 80TTB) • Sec 194N Cash TDS • Sec 206AA (20%) • Form 15G/15H • 50% Bank ITC §17(4)" },
-  { ch: 20, start: 55, end: 59, pages: 5, title: "The Grand Synthesis: IIBF Paper 3 (AFMB) Master Revision Vault", sub: "Master Formula Cheat Sheet • 10 High-Yield Matrices • 50 Examiner Traps & High-Probability Pitfalls • Active Recall Drills" },
+  { ch: 1, start: 1, end: 4, pages: 4, title: "Accounting Concepts, Principles (GAAP) & Ind AS Framework", sub: "Business Entity • Money Measurement • Going Concern • Cost Concept • Accrual & Matching • Prudence • Ind AS 109 ECL • FTP" },
+  { ch: 2, start: 5, end: 8, pages: 4, title: "Golden Rules of Accounting, Journalizing & Ledger Posting", sub: "Luca Pacioli 1494 • Personal, Real & Nominal Accounts • Double-Entry Rules • Subsidiary Books • Imprest Petty Cash" },
+  { ch: 3, start: 9, end: 12, pages: 4, title: "Trial Balance, Rectification of Errors & Suspense Account", sub: "Arithmetical Proof • Principle, Omission, Commission, Compensating • Suspense Account Mechanics • P&L Adjustment A/c" },
+  { ch: 4, start: 13, end: 16, pages: 4, title: "Bank Reconciliation Statement (BRS) & Timing Discrepancies", sub: "Cash Book vs Passbook • Favorable vs Overdraft Polarity • Adjusted Cash Book Procedure • Direct Bank Entries" },
+  { ch: 5, start: 17, end: 20, pages: 4, title: "Depreciation Accounting & Mathematical Methods (SLM & WDV)", sub: "Ind AS 16 / AS 10 • SLM & WDV • Freehold Land (Indefinite Life) • Sec 32 IT Block of Assets & 180-Day Rule • Prospective Change" },
+  { ch: 6, start: 21, end: 23, pages: 3, title: "Bills of Exchange, Accommodation Bills & Rebate on Bills", sub: "NI Act §§4 & 5 • 3 Days of Grace (§22) • Public vs Emergency Holidays (§25) • Rebate on Bills Discounted (Schedule 5)" },
+  { ch: 7, start: 24, end: 27, pages: 4, title: "Time Value of Money (TVM) & Compounding Arithmetic", sub: "PV & FV Foundations • Intra-Year Compounding • Effective Annual Rate (EAR) • Rules 72, 114, 144 • Continuous Compounding" },
+  { ch: 8, start: 28, end: 31, pages: 4, title: "Annuities, Equated Monthly Installments (EMI) & Sinking Funds", sub: "Ordinary Annuity vs Annuity Due (1+r) • Perpetuities • Sinking Fund • Reducing-Balance Loan Amortization & EMI Formula" },
+  { ch: 9, start: 32, end: 35, pages: 4, title: "Bond Valuation, Yield to Maturity (YTM) & Modified Duration", sub: "Intrinsic Value • Inverse Price-Yield Rule • YTM Approximation • Zero-Coupon D=n • Macaulay Duration & Modified Duration" },
+  { ch: 10, start: 36, end: 40, pages: 5, title: "Bank Final Accounts: Balance Sheet (Form A) & P&L (Form B)", sub: "Third Schedule BR Act 1949 • Form A (Schedules 1–12) • Form B (Schedules 13–16) • Sec 17 Statutory Reserve (25%) • Bills for Collection" },
+  { ch: 11, start: 41, end: 45, pages: 5, title: "Final Accounts Adjustments, Company Accounts, Cash & Funds Flow", sub: "Year-End Adjustments • Share Capital & Forfeiture (§52 & §53) • AS 3 / Ind AS 7 Cash Flow • Funds Flow Statement & Working Capital" },
+  { ch: 12, start: 46, end: 49, pages: 4, title: "Computerised Accounting, CBS, Disclosures & Basel III Capital", sub: "Core Banking Solutions (CBS) • Information Security • Notes to Accounts Disclosures • Basel III CRAR (11.5%) & LCR" },
+  { ch: 13, start: 50, end: 53, pages: 4, title: "Financial Management Overview & Ratio Analysis for Credit Appraisal", sub: "Wealth vs Profit Maximization • Current & Quick Ratios • Debt-Equity • DSCR Benchmark (1.50–2.00) • Turnover & Solvency" },
+  { ch: 14, start: 54, end: 57, pages: 4, title: "Foreign Exchange Arithmetic & Quotation Mechanics", sub: "Direct Quotation (2 Aug 1993) • Bid-Ask Spread • Chain Rule • Ascending Premium (Add) & Descending Discount (Subtract)" },
+  { ch: 15, start: 58, end: 60, pages: 3, title: "Capital Budgeting, Term Loan Appraisal & Project Finance", sub: "CFAT Cash Flows • Payback • ARR • NPV vs IRR Conflicts (NPV Priority) • Profitability Index • Project Financing & DPGs" },
+  { ch: 16, start: 61, end: 65, pages: 5, title: "Cost of Capital, Capital Structure Theories & Leverages (DOL, DFL)", sub: "Kd = I(1-t) • Ke (CAPM) • WACC • Capital Structure (NI, NOI, MM) • Operating, Financial & Combined Leverage • Indifference Point" },
+  { ch: 17, start: 66, end: 70, pages: 5, title: "Working Capital Finance, Factoring, Forfaiting & Leasing", sub: "Operating Cycle • Tandon Method 2 (1.33:1) • Nayak Turnover (25%/20%) • Factoring vs Forfaiting • Finance vs Operating Lease" },
+  { ch: 18, start: 71, end: 74, pages: 4, title: "Derivative Products: Forwards, Futures, Swaps & Options", sub: "Forward vs Futures (MTM Settlement) • Plain Vanilla Swaps • Call/Put Payoffs • Option Buyer vs Writer Asymmetry" },
+  { ch: 19, start: 75, end: 82, pages: 8, title: "Direct & Indirect Taxation, Costing Methods, Marginal Costing & Budgets", sub: "TDS §194A (₹40K/₹50K) • §194N Cash TDS • 50% Bank ITC §17(4) • Cost Sheet • Marginal BEP & MoS • Variances • Cash Budget" },
+  { ch: 20, start: 83, end: 110, pages: 28, title: "The Grand Synthesis: IIBF Paper 3 (AFMB) Master Revision Vault", sub: "Master Matrices A–G • 100 Verified Traps • 100 Rapid Active Recall Prompts • 50 Numerical Triggers • Countdown Protocols" },
 ];
 
 export function buildFrontMatterHtml(): string {
@@ -264,14 +264,14 @@ export function buildTableOfContentsHtml(): string {
     } else if (item.ch === 7) {
       partBanner = `<div class="part-banner"><span class="part-title">Part II : Module B — Financial Mathematics &amp; Bank Financial Statements</span><span class="part-tag">Chapters 07 – 12</span></div>`;
     } else if (item.ch === 13) {
-      partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part III : Module C — Financial Management, Capital Budgeting &amp; Ratio Analysis</span><span class="part-tag">Chapters 13 – 16</span></div>`;
-    } else if (item.ch === 17) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Taxation, Costing &amp; Operational Controls</span><span class="part-tag">Chapters 17 – 19</span></div>`;
+      partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part III : Module C — Financial Management, Capital Budgeting &amp; Working Capital</span><span class="part-tag">Chapters 13 – 18</span></div>`;
+    } else if (item.ch === 19) {
+      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Taxation, Costing Methods &amp; Operational Controls</span><span class="part-tag">Chapter 19</span></div>`;
     } else if (item.ch === 20) {
       partBanner = `<div class="part-banner"><span class="part-title">Part V : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 20</span></div>`;
     }
 
-    const pageBreak = item.ch === 13 ? `</div><div class="toc-sheet">` : '';
+    const pageBreak = item.ch === 13 ? `</div><div class="toc-sheet"><div class="toc-opener-header" style="margin-bottom: 2mm;"><div class="title-area"><small>Curricular Architecture • IIBF DB&amp;F Paper 3</small><h1 style="font-size: 13pt;">Table of Contents &amp; Master Syllabus (Contd.)</h1></div><div class="meta-tag">Chapters 13 – 20 • p. 50–110</div></div>` : '';
 
     rowsHtml += `
       ${pageBreak}
@@ -543,7 +543,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • IIBF DB&amp;F Paper 3</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">20 Chapters • 59 Body Pages</div>
+      <div class="meta-tag">20 Chapters • 110 Body Pages</div>
     </div>
     ${rowsHtml}
   </div>
@@ -557,7 +557,7 @@ export async function assembleContinuousBodyPdf(
   outBodyPdfPath: string
 ): Promise<number> {
   console.log(`\n======================================================`);
-  console.log(`ASSEMBLING CONTINUOUS 59-PAGE BODY FOR IIBF PAPER 3`);
+  console.log(`ASSEMBLING CONTINUOUS 110-PAGE BODY FOR IIBF PAPER 3`);
   console.log(`======================================================`);
 
   const bodyPdf = await PDFDocument.create();
@@ -654,7 +654,7 @@ export async function mergeFullBookPdf(
     const bodyDoc = await PDFDocument.load(bodyBytes);
     const bodyPages = await mergedPdf.copyPages(bodyDoc, bodyDoc.getPageIndices());
     bodyPages.forEach(p => mergedPdf.addPage(p));
-    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 59)`);
+    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 110)`);
   }
 
   const finalBytes = await mergedPdf.save();
@@ -707,7 +707,7 @@ async function main() {
   console.log(`✓ Table of Contents PDF ready: ${tocPdfPath}`);
 
   // 3. Assemble Continuous Body PDF
-  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_59P_A4_BW.pdf');
+  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_110P_A4_BW.pdf');
   await assembleContinuousBodyPdf(chaptersDir, bodyPdfPath);
 
   // 4. Merge Everything into Master Codex
