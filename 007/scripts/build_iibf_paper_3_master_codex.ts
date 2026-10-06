@@ -14,17 +14,17 @@ export const EXACT_TOC_MAPPING_AFMB = [
   { ch: 7, start: 24, end: 27, pages: 4, title: "Time Value of Money (TVM) & Compounding Arithmetic", sub: "PV & FV Foundations • Intra-Year Compounding • Effective Annual Rate (EAR) • Rules 72, 114, 144 • Continuous Compounding" },
   { ch: 8, start: 28, end: 31, pages: 4, title: "Annuities, Equated Monthly Installments (EMI) & Sinking Funds", sub: "Ordinary Annuity vs Annuity Due (1+r) • Perpetuities • Sinking Fund • Reducing-Balance Loan Amortization & EMI Formula" },
   { ch: 9, start: 32, end: 35, pages: 4, title: "Bond Valuation, Yield to Maturity (YTM) & Modified Duration", sub: "Intrinsic Value • Inverse Price-Yield Rule • YTM Approximation • Zero-Coupon D=n • Macaulay Duration & Modified Duration" },
-  { ch: 10, start: 36, end: 42, pages: 7, title: "Bank Final Accounts: Balance Sheet (Form A) & P&L (Form B)", sub: "Third Schedule BR Act 1949 • Form A (1–12) • Form B (13–16) • Slip System • IBRA • Suspense vs Sundry • CTS • Statutory/Concurrent/RBIA" },
-  { ch: 11, start: 43, end: 48, pages: 6, title: "Final Accounts Adjustments, Company Accounts, Cash & Funds Flow", sub: "Year-End Adjustments • DTA & DTL (AS 22 / Ind AS 12) • Share Capital & Forfeiture (§52/§53) • AS 3 / Ind AS 7 Cash Flow • Funds Flow" },
-  { ch: 12, start: 49, end: 53, pages: 5, title: "Computerised Accounting, CBS, Disclosures & Basel III Capital", sub: "Core Banking Solutions (CBS) • Information Security • Notes to Accounts • Multi-Tier Basel III Capital (SCBs, SFBs, PBs, RRBs, UCBs)" },
-  { ch: 13, start: 54, end: 57, pages: 4, title: "Financial Management Overview & Ratio Analysis for Credit Appraisal", sub: "Wealth vs Profit Maximization • Current & Quick Ratios • Debt-Equity • DSCR Benchmark (1.50–2.00) • Turnover & Solvency" },
-  { ch: 14, start: 58, end: 61, pages: 4, title: "Foreign Exchange Arithmetic & Quotation Mechanics", sub: "Direct Quotation (2 Aug 1993) • Bid-Ask Spread • Chain Rule • Ascending Premium (Add) & Descending Discount (Subtract)" },
-  { ch: 15, start: 62, end: 64, pages: 3, title: "Capital Budgeting, Term Loan Appraisal & Project Finance", sub: "CFAT Cash Flows • Payback • ARR • NPV vs IRR Conflicts (NPV Priority) • Profitability Index • Project Financing & DPGs" },
-  { ch: 16, start: 65, end: 69, pages: 5, title: "Cost of Capital, Capital Structure Theories & Leverages (DOL, DFL)", sub: "Kd = I(1-t) • Ke (CAPM) • WACC & WMCC • Hurdle Rates • Flotation Costs • Capital Structure (NI, NOI, MM) • Leverages (DOL, DFL)" },
-  { ch: 17, start: 70, end: 74, pages: 5, title: "Working Capital Finance, Factoring, Forfaiting & Leasing", sub: "Operating Cycle • [Historical] Tandon Method 2 (1.33:1) • [Current] Nayak Turnover (25%/20%) • Factoring vs Forfaiting • Finance vs Operating Lease" },
-  { ch: 18, start: 75, end: 78, pages: 4, title: "Derivative Products: Forwards, Futures, Swaps & Options", sub: "Forward vs Futures (MTM Settlement) • Plain Vanilla Swaps • Call/Put Payoffs • Option Buyer vs Writer Asymmetry" },
-  { ch: 19, start: 79, end: 87, pages: 9, title: "Direct & Indirect Taxation, Costing Methods, Marginal Costing & Budgets", sub: "TDS §194A (Current ₹50K/₹100K; Hist ₹40K/₹50K) • Form 121 Transition • §194N • CGST §17(4) • Costing Methods • Variances • Budgets" },
-  { ch: 20, start: 88, end: 115, pages: 28, title: "The Grand Synthesis: IIBF Paper 3 (AFMB) Master Revision Vault", sub: "Master Matrices A–G • 100 Verified Traps • 100 Rapid Active Recall Prompts • 50 Numerical Triggers • Countdown Protocols" },
+  { ch: 10, start: 36, end: 43, pages: 8, title: "Bank Final Accounts: Balance Sheet (Form A) & P&L (Form B)", sub: "Third Schedule BR Act 1949 • Form A (1–12) • Form B (13–16) • CRR 3.00% & SLR 18.00% • Sec 17(1) Statutory Reserve • Slip System • IBRA • CTS • Audits" },
+  { ch: 11, start: 44, end: 52, pages: 9, title: "Final Accounts Adjustments, Company Accounts, Cash & Funds Flow", sub: "Trial Balance Worked Numerical • Non-Voting Shares & DVRs (§43) • Year-End Adjustments • DTA/DTL (AS 22) • Share Forfeiture • Cash & Funds Flow" },
+  { ch: 12, start: 53, end: 57, pages: 5, title: "Computerised Accounting, CBS, Disclosures & Basel III Capital", sub: "Core Banking Solutions (CBS) • Information Security • Notes to Accounts • Multi-Tier Basel III Capital (SCBs, SFBs, PBs, RRBs, UCBs)" },
+  { ch: 13, start: 58, end: 61, pages: 4, title: "Financial Management Overview & Ratio Analysis for Credit Appraisal", sub: "Wealth vs Profit Maximization • Current & Quick Ratios • Debt-Equity • DSCR Benchmark (1.50–2.00) • Turnover & Solvency" },
+  { ch: 14, start: 62, end: 65, pages: 4, title: "Foreign Exchange Arithmetic & Quotation Mechanics", sub: "Direct Quotation (2 Aug 1993) • Bid-Ask Spread • Chain Rule • Ascending Premium (Add) & Descending Discount (Subtract)" },
+  { ch: 15, start: 66, end: 68, pages: 3, title: "Capital Budgeting, Term Loan Appraisal & Project Finance", sub: "CFAT Cash Flows • Payback • ARR • NPV vs IRR Conflicts (NPV Priority) • Profitability Index • Project Financing & DPGs" },
+  { ch: 16, start: 69, end: 73, pages: 5, title: "Cost of Capital, Capital Structure Theories & Leverages (DOL, DFL)", sub: "Kd = I(1-t) • Ke (CAPM) • WACC & WMCC • Hurdle Rates • Flotation Costs • Capital Structure (NI, NOI, MM) • Leverages (DOL, DFL)" },
+  { ch: 17, start: 74, end: 80, pages: 7, title: "Working Capital Finance, Factoring, Forfaiting & Leasing", sub: "Operating Cycle • Tandon Method 2 (1.33:1) • Nayak Turnover (20%) • Commercial Paper (CP) • Public Deposits • Factoring vs Forfaiting • Leasing" },
+  { ch: 18, start: 81, end: 84, pages: 4, title: "Derivative Products: Forwards, Futures, Swaps & Options", sub: "Forward vs Futures (MTM Settlement) • Plain Vanilla Swaps • Call/Put Payoffs • Option Buyer vs Writer Asymmetry" },
+  { ch: 19, start: 85, end: 95, pages: 11, title: "Direct & Indirect Taxation, Costing Methods, Marginal Costing & Budgets", sub: "TDS §194A (Current ₹50K/₹100K; Hist ₹40K/₹50K) • Form 121 (Rules 2026) • Chapter VI-A Deductions • Returns & TCS • CGST §17(4) • Costing • Budgets" },
+  { ch: 20, start: 96, end: 124, pages: 29, title: "The Grand Synthesis: IIBF Paper 3 (AFMB) Master Revision Vault", sub: "Master Matrices A–G • 100 Verified Traps • 100 Rapid Active Recall Prompts • 50 Numerical Triggers • Countdown Protocols" },
 ];
 
 export function buildFrontMatterHtml(): string {
@@ -218,7 +218,7 @@ export function buildFrontMatterHtml(): string {
 
       <div>
         <div class="edition-banner">
-          <div class="edition-text">FIRST DUPLEX MONOCHROME PRINT EDITION • IIBF 2026 BENCHMARK CURRICULUM COMPLIANT</div>
+          <div class="edition-text">FIRST DUPLEX MONOCHROME PRINT EDITION • DESIGNED AGAINST THE OFFICIAL IIBF 2026 PAPER 3 SYLLABUS, WITH COMPREHENSIVE EXAM-ORIENTED COVERAGE AND STATUTORY REGULATORY ALIGNMENT</div>
         </div>
         <div class="imprint">PUBLISHED UNDER THE CHARTER OF MIND OF ARAVALLI • SHELF 007 BASTION</div>
       </div>
@@ -240,7 +240,7 @@ export function buildFrontMatterHtml(): string {
         <p><strong>Title:</strong> Accounting &amp; Financial Management for Bankers (AFMB): Book 04 — Master Curricular Monograph.</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 4).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 3 • Financial Accounting • Financial Mathematics • Bank Accounts • Corporate Finance &amp; Taxation.</p>
-        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF Courseware Modules A, B, C &amp; D (35 Units) &amp; 2026 Examination Mandates.</p>
+        <p><strong>Curriculum Benchmark:</strong> Designed against the official IIBF 2026 Paper 3 syllabus, with comprehensive exam-oriented coverage and statutory regulatory alignment.</p>
         <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.2pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition.</p>
       </div>
 
@@ -271,7 +271,7 @@ export function buildTableOfContentsHtml(): string {
       partBanner = `<div class="part-banner"><span class="part-title">Part V : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 20</span></div>`;
     }
 
-    const pageBreak = item.ch === 13 ? `</div><div class="toc-sheet"><div class="toc-opener-header" style="margin-bottom: 2mm;"><div class="title-area"><small>Curricular Architecture • IIBF DB&amp;F Paper 3</small><h1 style="font-size: 13pt;">Table of Contents &amp; Master Syllabus (Contd.)</h1></div><div class="meta-tag">Chapters 13 – 20 • p. 54–115</div></div>` : '';
+    const pageBreak = item.ch === 13 ? `</div><div class="toc-sheet"><div class="toc-opener-header" style="margin-bottom: 2mm;"><div class="title-area"><small>Curricular Architecture • IIBF DB&amp;F Paper 3</small><h1 style="font-size: 13pt;">Table of Contents &amp; Master Syllabus (Contd.)</h1></div><div class="meta-tag">Chapters 13 – 20 • p. 58–124</div></div>` : '';
 
     rowsHtml += `
       ${pageBreak}
@@ -543,7 +543,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • IIBF DB&amp;F Paper 3</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">20 Chapters • 115 Body Pages</div>
+      <div class="meta-tag">20 Chapters • 124 Body Pages</div>
     </div>
     ${rowsHtml}
   </div>
@@ -557,7 +557,7 @@ export async function assembleContinuousBodyPdf(
   outBodyPdfPath: string
 ): Promise<number> {
   console.log(`\n======================================================`);
-  console.log(`ASSEMBLING CONTINUOUS 115-PAGE BODY FOR IIBF PAPER 3`);
+  console.log(`ASSEMBLING CONTINUOUS 124-PAGE BODY FOR IIBF PAPER 3`);
   console.log(`======================================================`);
 
   const bodyPdf = await PDFDocument.create();
@@ -654,7 +654,7 @@ export async function mergeFullBookPdf(
     const bodyDoc = await PDFDocument.load(bodyBytes);
     const bodyPages = await mergedPdf.copyPages(bodyDoc, bodyDoc.getPageIndices());
     bodyPages.forEach(p => mergedPdf.addPage(p));
-    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 115)`);
+    console.log(`✓ Added Body Chapters: ${bodyPages.length} pages (Continuous 1 to 124)`);
   }
 
   const finalBytes = await mergedPdf.save();
@@ -707,7 +707,7 @@ async function main() {
   console.log(`✓ Table of Contents PDF ready: ${tocPdfPath}`);
 
   // 3. Assemble Continuous Body PDF
-  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_115P_A4_BW.pdf');
+  const bodyPdfPath = path.join(printDesignerDir, '03_UNIFIED_BODY_124P_A4_BW.pdf');
   await assembleContinuousBodyPdf(chaptersDir, bodyPdfPath);
 
   // 4. Merge Everything into Master Codex

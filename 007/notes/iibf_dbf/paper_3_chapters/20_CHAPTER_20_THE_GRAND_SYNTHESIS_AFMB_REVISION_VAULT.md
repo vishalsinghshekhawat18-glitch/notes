@@ -60,7 +60,7 @@
 | **Outstanding Salary** | **Representative Personal** | **Accrual / Matching Concept** | Added to Salaries in P&L and shown under Current Liabilities. |
 | **Prepaid Insurance** | **Representative Personal** | **Matching Concept** | Deducted from Insurance in P&L and shown under Current Assets. |
 | **Wages for Machine Erection** | Fixed Asset (Capital Exp.) | **Cost Concept** | Debited to Machinery A/c; capitalized into asset base. NOT wages expense. |
-| **Freehold Land** | Tangible Fixed Asset | **Going Concern Concept** | Indefinite life; NOT depreciated under AS 10 / Ind AS 16. |
+| **Freehold Land** | Tangible Fixed Asset | **Going Concern Concept** | Land with indefinite useful life is generally not depreciated; treatment depends on nature of land. |
 | **Leasehold Property** | Amortizable Fixed Asset | **Matching Concept** | Amortized systematically over the lease term. |
 | **Goodwill / Patents written off** | Intangible Asset Amortization | **Prudence Concept** | Amortized to P&L; deducted from Net Worth to get Tangible Net Worth. |
 | **Revenue stamps on hand** | Prepaid / Asset | **Materiality / Asset Recognition** | Treated as stationary inventory / current asset. |
@@ -75,11 +75,11 @@
 | Sched | Schedule Title | Core Contents & Inclusions | Critical Examiner Traps & Footnotes |
 | :---: | :--- | :--- | :--- |
 | **1** | **Capital** | Authorized, Issued, Subscribed, Paid-up capital. Nationalized banks: Govt contribution. | Share application money pending allotment included here. |
-| **2** | **Reserves & Surplus** | Statutory Reserve (§17 BR Act), Capital Reserve, Share Premium, Revenue Reserves. | Minimum 20% statutory transfer (§17(1) BR Act; RBI norm 25%). |
+| **2** | **Reserves & Surplus** | Statutory Reserve (§17 BR Act), Capital Reserve, Share Premium, Revenue Reserves. | Minimum 20% statutory transfer (§17(1) BR Act; RBI norm 25% for commercial banks excl LABs/RRBs). |
 | **3** | **Deposits** | Demand Deposits, Savings Bank Deposits, Term Deposits. | Branch aggregation under CBS; Inter-bank deposits segregated. |
 | **4** | **Borrowings** | Borrowings in India (RBI, other banks) and Borrowings outside India. | Refinance from NABARD, SIDBI, EXIM Bank included under Borrowings. |
 | **5** | **Other Liabilities & Provisions** | Bills payable, Inter-office adjustments (net credit), Rebate on bills discounted. | **Rebate on Bills Discounted** and unclaimed dividend placed here. |
-| **6** | **Cash & Balances with RBI** | Cash in hand (including foreign notes) and Balances with RBI in current a/c. | Primary vehicle for meeting Cash Reserve Ratio (CRR). |
+| **6** | **Cash & Balances with RBI** | Cash in hand (including foreign notes) and Balances with RBI in current a/c. | Primary vehicle for meeting Cash Reserve Ratio (**CRR @ 3.00%**; historical 4.50%). |
 | **7** | **Balances with Banks & Money at Call** | Balances with banks in India/outside India, Money at call and short notice. | Call money lent up to 14 days (Call: 1 day; Notice: 2–14 days). |
 | **8** | **Investments** | Government securities (SLR), Other approved securities, Shares, Debentures. | Classified into Held to Maturity (HTM), Available for Sale (AFS), HFT. |
 | **9** | **Advances** | Bills purchased & discounted, Cash credits/overdrafts, Term loans. | Net of provisions; Classified into Standard, Substandard, Doubtful, Loss. |
@@ -98,6 +98,8 @@
 
 | Ratio / Metric | Regulatory / Financial Standard | Benchmark / Permissible Range | Functional Significance |
 | :--- | :--- | :--- | :--- |
+| **Cash Reserve Ratio (CRR)** | RBI Act 1934, Section 42(1) | **3.00%** of NDTL *(Historical: 4.50%)* | Liquid cash maintained with RBI in Schedule 6; no interest earned from RBI. |
+| **Statutory Liquidity Ratio (SLR)** | BR Act 1949, Section 24 | **18.00%** of NDTL | Unencumbered approved G-Secs, cash, gold in Schedule 8. |
 | **Current Ratio (CR)** | [Historical Conventional] Benchmark | **1.33 : 1** (Tandon Method 2) | Tests short-term liquidity ($CA / CL$). Historical supervisory benchmark; banks now maintain board-approved credit policy limits. |
 | **Quick / Acid-Test Ratio** | Immediate Liquidity Benchmark | **1.00 : 1** | $(CA - \text{Inventory} - \text{Prepaid}) / CL$. |
 | **Debt-Equity Ratio** | Capital Gearing Benchmark | **2.00 : 1** (varies by industry) | Measures long-term solvency; Long-term Debt / Tangible Net Worth. |
@@ -134,10 +136,13 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **Section 194A (Current FY 2026–27)** | Term deposit interest (General depositors) | **₹50,000** per FY per bank *(Historical: ₹40,000)* | **10%** (Valid PAN) / **20%** (§206AA) | Form 121 (Electronic) / Form 15G (Historical). |
 | **Section 194A / 80TTB (Current FY 2026–27)**| Term deposit interest (Senior Citizens 60+) | **₹1,00,000** per FY per bank *(Historical: ₹50,000)* | **10%** (Valid PAN) / **20%** (§206AA) | Form 121 (Electronic) / Form 15H (Historical). |
+| **Section 80TTA** | Savings account interest (Individuals/HUFs non-senior) | Up to **₹10,000** per FY | Deduction from Gross Total Income | Excludes term deposits; not available if 80TTB claimed. |
+| **Section 80QQB / 80RRB** | Authors' book royalties / Patent royalties | Up to **₹3,00,000** per FY | Lower of 100% royalty or ₹3 Lakh | Books exclude textbooks/guides; patent registered in India. |
+| **Section 80U** | Person with certified disability | Flat **₹75,000** (Disability $\ge 40\%$) / **₹1,25,000** (Severe $\ge 80\%$) | Deduction directly claimed by disabled assessee | Medical authority certificate required. |
 | **Section 194N** | Cash withdrawals (Regular ITR filers) | Aggregate $> \mathbf{₹1 \text{ Crore}}$ | **2%** on amount exceeding ₹1 Cr | Govt, Banks, Post Office, BCs, APMC. |
 | **Section 194N (Non-filer)**| Cash withdrawals (No ITR filed for 3 years) | ₹20 Lakhs to ₹1 Crore | **2%** on ₹20L to ₹1Cr; **5%** on $> ₹1\text{ Cr}$ | Same statutory exemptions. |
 | **Section 206AA** | Failure to furnish PAN by deductee | Any taxable payment | Higher of normal rate or **20%** | Does not apply if 15G/15H/121 validly accepted. |
-| **CGST §17(4)** | Banking Input Tax Credit apportionment | Monthly eligible ITC pool | **Flat 50% eligible ITC** every month | Remaining 50% lapses; inter-branch exempt. |
+| **CGST §17(4)** | Banking Input Tax Credit apportionment | Monthly eligible ITC pool | **Flat 50% eligible ITC** every month | Remaining 50% lapses; 50% restriction does not apply to branch supplies under same PAN. |
 | **GST Pure Interest** | Advances, loans, deposits interest | No monetary ceiling | **NIL (Strictly Exempt)** | Fee-based services attract **18% standard GST**. |
 
 ---
@@ -146,7 +151,7 @@
 
 | Statute & Section | Core Mandatory Provision | Key Examination Pitfall & Operational Invariant |
 | :--- | :--- | :--- |
-| **BR Act 1949, §17(1)** | Mandatory transfer of $\ge 20\%$ net profit to Statutory Reserve | RBI operational norm requires **25%** transfer before dividend. |
+| **BR Act 1949, §17(1)** | Mandatory transfer of $\ge 20\%$ net profit to Statutory Reserve | RBI operational mandate requires **25%** for commercial banks (excluding LABs and RRBs) before dividend. |
 | **BR Act 1949, §29** | Preparation of Balance Sheet (Form A) and P&L (Form B) | Governed strictly under the Third Schedule of BR Act 1949. |
 | **BR Act 1949, §9** | Disposal of Non-Banking Assets acquired in satisfaction of claims | Must be disposed of within **7 years** (extendable by RBI up to 5 yrs). |
 | **NI Act 1881, §4 & §5** | Promissory Note (Promise, 2 parties) vs Bill of Exchange (Order, 3 parties) | Maker of note cannot order himself; BOE drawer orders drawee. |
@@ -154,6 +159,8 @@
 | **NI Act 1881, §25** | Public Holiday: Preceding business day; Emergency Holiday: Succeeding day | Public holiday under §25 gazetted; unforeseen holiday defaults next day. |
 | **Companies Act 2013, §52** | Permissible utilization of Securities Premium Account | Bonus shares, preliminary expenses, issue expenses, buyback (§68). |
 | **Companies Act 2013, §53** | Absolute prohibition on issue of shares at discount | Exception: Sweat Equity Shares issued under Section 54. |
+| **Commercial Paper (CP)** | Unsecured money market promissory note under Section 45W of RBI Act | Tenor **7 days to 1 year**, minimum denomination **₹5 Lakh**, corporate net worth $\ge$ **₹4 Crore**, no underwriting. |
+| **Public Deposits** | Acceptance of corporate deposits under Companies Act 2013 §§73–76 | Tenor **6 to 36 months**, mandatory DRR of **20%** of maturing deposits by 30th April each year. |
 
 ---
 
@@ -194,7 +201,7 @@
 33. **Bills for Collection Status:** Bills for Collection are **not added to the bank balance sheet totals**; they appear as a memorandum footnote beneath Schedule 12.
 34. **Letters of Credit and Guarantees:** Contingent liabilities such as Letters of Credit and Bank Guarantees appear exclusively in **Schedule 12**, outside the balance sheet footings.
 35. **Non-Banking Assets Holding Period:** Non-Banking Assets acquired in satisfaction of claims (Section 9 BR Act) are recorded in **Schedule 11** and must be disposed of within **7 years**.
-36. **Section 17 Statutory Reserve:** Section 17(1) of the BR Act mandates transferring at least **20% of net profits** to Statutory Reserve; RBI operational guidelines enforce **25%**.
+36. **Section 17 Statutory Reserve:** Section 17(1) of the BR Act mandates transferring at least **20% of net profits** to Statutory Reserve; RBI operational guidelines enforce **25%** for commercial banks (excluding LABs and RRBs).
 37. **Provisions and Contingencies Line:** In Form B Profit & Loss Account, Provisions and Contingencies is an **unnumbered direct line item** in Section II (Expenditure).
 38. **Direct Forex Quotation Mandate:** Effective **2 August 1993**, India adopted the **Direct Quotation** system, where exchange rates express the variable amount of home currency (INR) per fixed unit of foreign currency.
 39. **Ascending Forward Margins:** In direct quotation, ascending forward margins (e.g., 0.20 / 0.25) indicate the foreign currency is at a **Premium** and must be **ADDED** to spot rates.
@@ -248,17 +255,17 @@
 87. **Idle Time Variance Nature:** Idle Time Variance ($\text{Abnormal Idle Hours} \times \text{Standard Rate}$) is **always Adverse (A)**.
 88. **Flexible Budget Purpose:** A Flexible Budget recalculates revenue and costs based on the **actual level of activity achieved**, enabling meaningful variance analysis.
 89. **Zero-Based Budgeting Origin:** Zero-Based Budgeting (ZBB) was introduced by **Peter Pyhrr** and requires justifying every budget rupee from scratch via Decision Packages.
-90. **Cash Budget Depreciation Rule:** Depreciation is a non-cash expense and is **strictly excluded from Cash Budgets**.
+90. **Cash Budget Depreciation Rule:** Depreciation itself is a non-cash item and therefore does not appear as an outflow in Cash Budgets; actual capital expenditure on asset acquisition does.
 91. **Section 194A General TDS Limit:** Under the modern framework (FY 2026–27), annual bank interest threshold for mandatory TDS under Section 194A is **₹50,000** for general individual depositors (historical baseline regime: **₹40,000**).
 92. **Section 194A Senior Citizen Limit:** Under the modern framework (FY 2026–27), annual bank interest threshold for Senior Citizens (age 60+ years) is **₹1,00,000** (historical baseline regime: **₹50,000** under Section 80TTB).
 93. **Section 206AA PAN Default:** If a payee fails to furnish a valid PAN, TDS must be deducted at the penal rate of **20%** (or applicable rate, whichever is higher).
-94. **Form 15G / Form 121 Qualification:** Form 15G (transitioning to digital **Form 121**) is valid for resident individuals aged **under 60 years** whose estimated total taxable income does not exceed the basic tax exemption limit.
-95. **Form 15H / Form 121 Qualification:** Form 15H (transitioning to digital **Form 121**) is strictly for **Senior Citizens (60+ years)** whose estimated final tax liability on total income is **NIL**, even if interest exceeds the basic exemption limit.
+94. **Form 15G / Form 121 Qualification:** Form 121 is the current electronic declaration under Income Tax Rules, 2026 (Form 15G historical under 1961 Act) for resident individuals aged **under 60 years** whose estimated total taxable income does not exceed the basic tax exemption limit.
+95. **Form 15H / Form 121 Qualification:** Form 121 is the current electronic declaration under Income Tax Rules, 2026 (Form 15H historical under 1961 Act) strictly for **Senior Citizens (60+ years)** whose estimated final tax liability on total income is **NIL**, even if interest exceeds the basic exemption limit.
 96. **Section 194N Cash TDS General:** TDS at **2%** applies to aggregate cash withdrawals exceeding **₹1 Crore** in a financial year from one or more accounts in a bank.
 97. **Section 194N Non-Filer Rates:** For non-filers of income tax returns (preceding 3 assessment years), TDS is **2% between ₹20 Lakhs and ₹1 Crore**, and **5% above ₹1 Crore**.
 98. **Bank GST Standard Rate:** Taxable fee-based banking services (processing fees, locker rent, documentation charges, ATM fees beyond cap) attract standard GST at **18%**.
 99. **GST Exemption for Pure Interest:** Interest or discount earned on loans, advances, or deposits is **completely exempt from GST**.
-100. **Section 17(4) CGST Bank Option:** Commercial banks have an annual statutory option to claim a **flat 50% of eligible monthly Input Tax Credit (ITC)**, with the remaining 50% lapsing.
+100. **Section 17(4) CGST Bank Option:** Commercial banks have an annual statutory option to claim a **flat 50% of eligible monthly Input Tax Credit (ITC)**, with the remaining 50% lapsing. The 50% restriction does not apply to supplies between registered branches under the same PAN.
 
 ---
 
@@ -423,7 +430,7 @@ Within **7 years** (RBI can grant extension up to 5 additional years).
 <details>
 <summary>Prompt 027: What is the minimum statutory net profit transfer to Statutory Reserve under Section 17(1) of the BR Act 1949?</summary>
 
-**20%** of net profit (RBI operational guidelines enforce **25%**).
+**20%** of net profit (RBI operational guidelines enforce **25%** for commercial banks excluding LABs and RRBs).
 </details>
 
 <details>
@@ -693,7 +700,7 @@ A **Decision Package**.
 <details>
 <summary>Prompt 072: Why is depreciation omitted from a Cash Budget?</summary>
 
-Because depreciation is a **non-cash accounting allocation**; no physical cash is disbursed.
+Because depreciation is a **non-cash accounting allocation**; no physical cash is disbursed (actual acquisition of capital assets is recorded as a capital disbursement).
 </details>
 
 <details>
@@ -717,13 +724,13 @@ Because depreciation is a **non-cash accounting allocation**; no physical cash i
 <details>
 <summary>Prompt 076: Who is eligible to submit Form 15G / Form 121 for TDS exemption?</summary>
 
-Resident individuals aged **under 60 years** whose total taxable income is below the basic tax exemption limit (Form 15G historically; transitioning to digital **Form 121**).
+Resident individuals aged **under 60 years** whose total taxable income is below the basic tax exemption limit (Form 121 is the current electronic declaration under Income Tax Rules, 2026; Form 15G is historical under the 1961 Act).
 </details>
 
 <details>
 <summary>Prompt 077: Who is eligible to submit Form 15H / Form 121 for TDS exemption?</summary>
 
-Resident **Senior Citizens (aged 60 years and above)** whose final tax liability on total income is **NIL** (Form 15H historically; transitioning to digital **Form 121**).
+Resident **Senior Citizens (aged 60 years and above)** whose final tax liability on total income is **NIL** (Form 121 is the current electronic declaration under Income Tax Rules, 2026; Form 15H is historical under the 1961 Act).
 </details>
 
 <details>
@@ -759,7 +766,7 @@ No, it is **strictly exempt from GST**.
 <details>
 <summary>Prompt 083: Under Section 17(4) of the CGST Act 2017, what percentage of eligible monthly Input Tax Credit can banks claim?</summary>
 
-**Flat 50%** of eligible ITC (the remaining 50% lapses).
+**Flat 50%** of eligible ITC (the remaining 50% lapses; restriction does not apply to supplies between registered branches under the same PAN).
 </details>
 
 <details>
@@ -902,8 +909,8 @@ The **Expected Credit Loss (ECL)** model across Stage 1, Stage 2, and Stage 3 as
 32. **Section 206AA Penal TDS:** No PAN furnished $\implies 20\%$ TDS flat.
 33. **Section 194N Cash TDS:** Regular filer withdrawing ₹1.20 Crores $\implies 2\%$ on ₹20 Lakhs = ₹40,000.
 34. **Section 194N Non-Filer Cash TDS:** Non-filer withdrawing ₹1.20 Crores $\implies 2\%$ on ₹80 Lakhs (₹20L to ₹1Cr) + $5\%$ on ₹20 Lakhs (above ₹1Cr) = ₹1,60,000 + ₹1,00,000 = ₹2,60,000.
-35. **Bank GST ITC Claim:** Under §17(4), Bank claims exactly $50\%$ of monthly eligible ITC.
-36. **Statutory Reserve Transfer:** Section 17 BR Act min 20%; RBI mandate 25%. On profit ₹80 Cr, transfer $25\% = ₹20 \text{ Cr}$.
+35. **Bank GST ITC Claim:** Under §17(4), Bank claims exactly $50\%$ of monthly eligible ITC (restriction does not apply to branch supplies under same PAN).
+36. **Statutory Reserve Transfer:** Section 17 BR Act min 20%; RBI mandate 25% (commercial banks excl LABs/RRBs). On profit ₹80 Cr, transfer $25\% = ₹20 \text{ Cr}$.
 37. **Rebate on Bills Discounted:** Discount rate 12%, Face Value ₹10,00,000, unexpired days 73: $\text{Rebate} = 10,00,000 \times 12\% \times \frac{73}{365} = ₹24,000$.
 38. **Current Ratio:** Current Assets / Current Liabilities. Benchmark 1.33:1.
 39. **Quick Ratio:** $(CA - \text{Stock} - \text{Prepaid}) / CL$. Benchmark 1.00:1.
@@ -917,7 +924,7 @@ The **Expected Credit Loss (ECL)** model across Stage 1, Stage 2, and Stage 3 as
 47. **Forex Ascending Margin:** Spot USD/INR 84.10 / 84.20, forward premium 0.15 / 0.25 $\implies$ Forward Rate = 84.25 / 84.45.
 48. **Forex Descending Margin:** Spot USD/INR 84.10 / 84.20, forward discount 0.25 / 0.15 $\implies$ Forward Rate = 83.85 / 84.05.
 49. **Contract Costing 50-90% Profit:** $\frac{2}{3} \times \text{Notional Profit} \times \frac{\text{Cash Received}}{\text{Work Certified}}$.
-50. **Total CRAR + CCB Target:** $9.0\% + 2.5\% = 11.5\%$ minimum capital ratio in India.
+50. **Total CRAR + CCB Target:** $9.0\% + 2.5\% = 11.5\%$ minimum capital ratio in India. **CRR** is 3.00% (Schedule 6) and **SLR** is 18.00% (Schedule 8).
 
 ---
 
@@ -951,27 +958,27 @@ The **Expected Credit Loss (ECL)** model across Stage 1, Stage 2, and Stage 3 as
 - **Day 2 (Bank Financials & Corporate Finance):**
   - Master Third Schedule: Form A Schedules 1 to 12; Form B Schedules 13 to 16.
   - Memorize unnumbered direct line "Provisions and Contingencies" and Bills for Collection footnote.
-  - Review Section 17 statutory reserve (20% min / 25% RBI norm) and Section 9 non-banking assets (7 years).
+  - Review Section 17 statutory reserve (20% min / 25% RBI norm excl LABs/RRBs), CRR 3.00%, SLR 18.00%, and Section 9 non-banking assets (7 years).
   - Solve Capital Budgeting CFAT, NPV vs IRR conflicts, and PI drills.
   - Master $K_d = I(1-t)$, CAPM $K_e$, WACC, DOL, DFL, DCL, and Indifference Point.
-  - Drill Current Ratio (1.33), Quick Ratio, DSCR, Tandon Method 2, Nayak turnover method (25%/20%).
+  - Drill Current Ratio (1.33), Quick Ratio, DSCR, Tandon Method 2, Nayak turnover method (25%/20%), Commercial Paper (₹4 Cr net worth, ₹5L denom, 7d-1yr), and Public Deposits (6-36 mos, 20% DRR).
 - **Day 1 (Forex, Costing, Taxation & Basel III):**
   - Direct forex quotations: "Bank buys low, Bank sells high", ascending premium (+), descending discount (-).
   - Marginal costing: $S - V = C = F + P$, P/V ratio, BEP, Cash BEP, Margin of Safety, Key Factor, Shutdown point.
   - Absorption vs Marginal reconciliation: Production > Sales $\implies$ Absorption Profit > Marginal Profit.
   - Standard costing: Material (MCV, MPV, MUV) and Labour (LCV, LRV, LEV) variance identities.
-  - ZBB decision packages, Cash budget depreciation omission.
-  - Direct tax: §194A (Current ₹50k/₹100k; Historical ₹40k/₹50k), §194N cash TDS, §206AA (20%), Form 121 / 15G / 15H, CGST §17(4) 50% ITC.
+  - ZBB decision packages, Cash budget non-cash depreciation treatment.
+  - Direct tax: §194A (Current ₹50k/₹100k; Historical ₹40k/₹50k), §194N cash TDS, §206AA (20%), Form 121 (Rules 2026) / 15G / 15H (Act 1961), Chapter VI-A deductions (§80C, 80D, 80TTA ₹10k, 80TTB ₹50k/₹100k, 80QQB/80RRB ₹3L, 80U ₹75k/₹1.25L), CGST §17(4) 50% ITC (excludes branch supplies under same PAN).
   - Basel III: CET1 5.5%, Tier 1 7.0%, Total CRAR 9.0% + CCB 2.5% = 11.5%, LCR $\ge 100\%$, NSFR $\ge 100\%$.
 
 ### Final 60-Minute Rapid Tactical Checklist
 1. Verify Bond Modified Duration is positive: $MD = \frac{D}{1 + YTM}$.
-2. Confirm Section 17 BR Act statutory reserve transfer: statutory minimum is 20%, RBI norm is 25%.
+2. Confirm Section 17 BR Act statutory reserve transfer: statutory minimum is 20%, RBI operational mandate is 25% (commercial banks excluding LABs and RRBs). CRR is 3.00% of NDTL.
 3. Confirm Section 194A TDS thresholds: Modern framework is ₹50,000 for general depositors and ₹1,00,000 for Senior Citizens (Historical baseline: ₹40,000 / ₹50,000).
 4. Verify non-banking asset holding ceiling under Section 9 BR Act: 7 years.
 5. In BRS, verify passbook overdraft is a DEBIT balance.
 6. In direct forex quotes, ascending forward points mean PREMIUM (ADD); descending points mean DISCOUNT (SUBTRACT).
-7. Confirm that Depreciation is NEVER included in Cash Budgets, but ALWAYS added back in Capital Budgeting CFAT.
+7. Confirm that Depreciation itself is not an outflow in Cash Budgets, but is added back in Capital Budgeting CFAT.
 8. Confirm that Letters of Credit and Bank Guarantees appear in Schedule 12 (Contingent Liabilities), outside balance sheet totals.
 9. Confirm that Bills for Collection appear as a footnote beneath Schedule 12, outside balance sheet totals.
 10. Remember the golden reconciliation rule: $\text{Absorption Profit} - \text{Marginal Profit} = (\text{Closing Inventory Units} - \text{Opening Inventory Units}) \times \text{Fixed Overhead Absorption Rate per unit}$.

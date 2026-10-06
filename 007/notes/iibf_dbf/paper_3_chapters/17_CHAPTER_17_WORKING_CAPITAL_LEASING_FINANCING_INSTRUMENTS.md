@@ -55,6 +55,63 @@ Over decades, RBI committees established methodologies to determine the **Maximu
 > - `[HISTORICAL / EXAM-CONVENTIONAL]`: **Tandon Committee Method 1 (1.17:1) & Method 2 (1.33:1)**. Traditional Tandon/MPBF norms are important for examination and conceptual understanding but should not be interpreted as a universal current RBI statutory minimum applicable to all borrowers. Following post-1997 financial sector deregulation, the RBI granted commercial banks full autonomy to formulate their own Board-approved credit assessment policies, margin requirements, and cash budget methods for large borrowers.
 > - `[CURRENT]`: **Nayak Committee Turnover Method** remains standard for Micro and Small Enterprises (MSEs) with fund-based working capital credit limits up to ₹5 Crores (total working capital requirement assessed at minimum 25% of projected annual turnover, with bank financing at least 20%). The **Trade Receivables Discounting System (TReDS)** operates as an electronic institutional factoring platform for MSMEs under RBI authorization.
 
+### 3.1 Working Capital Financing Sources & Debt Instruments
+Commercial enterprises fulfill their working capital requirements through a continuum of short- and medium-term funding mechanisms:
+
+1. **Trade Credit (Spontaneous Financing):**
+   - Spontaneous credit granted by trade suppliers of raw materials and merchandise on open account or against bills of exchange.
+   - Cost of trade credit is implicit; failing to avail cash discounts (e.g., "2/10, net 30") represents an annualized financing cost:
+     $$\text{Annual Opportunity Cost} = \frac{\text{Discount \%}}{100 - \text{Discount \%}} \times \frac{365}{\text{Credit Period} - \text{Discount Period}}$$
+
+2. **Short-Term Bank Borrowings & Delivery Systems:**
+   - **Cash Credit (CC) / Overdraft (OD):** Running revolving credit lines where the borrower draws funds up to the Drawing Power (DP), calculated as $\text{DP} = \text{Eligible Paid Stock + Debtors} - \text{Prescribed Margin}$. Interest is charged only on the daily debit balance utilized.
+   - **Loan System for Delivery of Bank Credit:** Under RBI guidelines, for borrowers with aggregate sanctioned fund-based working capital limits of ₹150 Crore and above from the banking system, a mandatory minimum **60%** must be carved out as a **Working Capital Demand Loan (WCDL)** with a fixed repayment schedule, and the remaining maximum 40% can be retained as the cash credit / overdraft revolving component.
+   - **Bridge Loans & Clean Loans:** Temporary short-term accommodation provided by banks to bridge the liquidity gap pending actual disbursement of already-sanctioned term loans or receipt of equity proceeds from capital markets.
+
+3. **Public Deposits (Companies Act, 2013 §§73–76):**
+   - Corporate borrowing directly from the public or shareholders under the Companies (Acceptance of Deposits) Rules, 2014.
+   - **Eligible Companies:** Public companies having a Net Worth of not less than **₹100 Crore** OR an annual Turnover of not less than **₹500 Crore**, subject to prior approval by special resolution.
+   - **Tenure:** Minimum **6 months** to maximum **36 months** (deposits up to 10% of aggregate paid-up capital, free reserves, and securities premium can be accepted for shorter periods of not less than 3 months for temporary cash flow needs).
+   - **Statutory Limits:**
+     - From Members (Shareholders): Capped at **35%** of aggregate paid-up capital, free reserves, and securities premium for ordinary companies (eligible companies capped at 10%).
+     - From Public: Capped at **25%** of aggregate paid-up capital, free reserves, and securities premium for eligible public companies.
+   - **Statutory Safeguards:** Mandatory credit rating from a recognized agency, creation of a **Deposit Repayment Reserve (DRR)** account depositing at least **20%** of the deposits maturing during the financial year following the current financial year on or before 30th April each year.
+
+4. **Inter-Corporate Deposits (ICDs):**
+   - Unsecured short-term borrowing between companies in the corporate-to-corporate market, governed by Section 186 of the Companies Act, 2013.
+   - Three distinct market segments:
+     - *Call Deposits:* Withdrawable on a single day's notice; interest rates reflect inter-corporate call money rates.
+     - *Three-Month Deposits:* Standard liquidity management tool for corporate cash surpluses.
+     - *Six-Month Deposits:* Customary for companies of high standing facing seasonal operational deficits.
+   - Characteristics: Free from institutional appraisal delays and restrictive covenants, but command higher interest rates to reflect credit risk and total lack of collateral.
+
+5. **Working Capital Term Loans (WCTL) & Rights Debentures / NCDs:**
+   - **WCTL:** Medium-term facility created during debt restructuring or turnaround schemes where accumulated unpaid cash credit interest or irrecoverable working capital deficits are carved out of the CC account and converted into a term loan repayable over 3 to 7 years.
+   - **Rights Debentures / Non-Convertible Debentures (NCDs):** Corporate issuance of secured or unsecured debentures on a rights basis to existing shareholders or via private placement to institutional investors, augmenting long-term working capital margin.
+
+### 3.2 Commercial Paper (CP): Master Regulatory Architecture
+Commercial Paper (CP) is an unsecured money-market instrument issued in the form of a promissory note, functioning as an essential corporate alternative to short-term bank borrowings:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                    COMMERCIAL PAPER (CP) REGULATORY PROFILE                        |
++----------------------------------------------------------------------------------------------------+
+| Regulatory Parameter  | RBI Master Direction Specification                                         |
++-----------------------+----------------------------------------------------------------------------+
+| Governing Authority   | Reserve Bank of India (under Section 45W of RBI Act, 1934)                 |
+| Legal Character       | Unsecured, negotiable money market promissory note                         |
+| Eligible Issuers      | Corporates, NBFCs, AIFIs, and Primary Dealers (PDs)                        |
+| Corporate Net Worth   | Tangible Net Worth of not less than ₹4 Crore as per latest audited BS      |
+| Credit Facility Norm  | Sanctioned working capital limit by banks/FIs; standard asset account      |
+| Minimum Credit Rating | Minimum rating of A3 (or CRISIL/ICRA/CARE/India Ratings A2 / A1)           |
+| Maturity Period       | Minimum 7 days; Maximum 1 year from the date of issue                      |
+| Minimum Denomination  | Minimum face value of ₹5 Lakh and integral multiples of ₹5 Lakh thereof    |
+| Issuance & Settlement | Issued at a discount to face value; held in dematerialised (Demat) form    |
+| Administrative Role   | Must appoint an Issuing and Paying Agent (IPA) (Scheduled Bank)            |
+| Underwriting / Co-acc | No underwriting or co-acceptance is permitted for CP issuances             |
++-----------------------+----------------------------------------------------------------------------+
+```
+
 ## 4. Factoring vs. Forfaiting
 
 ```
@@ -118,6 +175,9 @@ A lease is a contractual agreement where the asset owner (**Lessor**) conveys to
 > 2. Under Tandon Method 2, the borrower contributes **25% of TOTAL CURRENT ASSETS**, resulting in a mandatory Current Ratio of **1.33:1**.
 > 3. Under the **Nayak Committee Turnover Method**, bank working capital credit is fixed at a minimum of **20% of projected annual gross turnover** for MSEs.
 > 4. **TReDS** (Trade Receivables Discounting System) is an electronic platform regulated by the RBI facilitating factoring of MSME receivables from corporate and government buyers without recourse.
+> 5. **Commercial Paper (CP)**: Minimum maturity is **7 days**, maximum **1 year**. Minimum face value is **₹5 Lakh**. Net worth requirement is **₹4 Crore**. Underwriting or co-acceptance is **strictly prohibited**.
+> 6. **Public Deposits**: Governed by Companies Act 2013 §§73–76. Tenor is **6 to 36 months**. Mandatory DRR of **20%** of deposits maturing in the following FY must be deposited by **30th April**.
+> 7. **WCDL Mandate**: For aggregate fund-based WC limits of ₹150 Crore and above, a minimum of **60%** must be delivered as a loan component (WCDL).
 
 ## 8. Practice Questions & Solved Numerical Drills
 
@@ -133,7 +193,13 @@ A lease is a contractual agreement where the asset owner (**Lessor**) conveys to
 - (C) Factoring requires bills of exchange, while Forfaiting finances book debts
 - (D) Forfaiting provides only 80% advance payment to the exporter
 
-**Q3.** An enterprise has an Operating Cycle of 120 days and a Creditors Deferral Period of 45 days. What is its Cash Conversion Cycle?
+**Q3.** What is the minimum maturity period and minimum denomination for the issuance of Commercial Paper (CP) in India as per RBI guidelines?
+- (A) 15 days and ₹1 Lakh
+- (B) 7 days and ₹5 Lakh
+- (C) 30 days and ₹10 Lakh
+- (D) 7 days and ₹10 Lakh
+
+**Q4.** An enterprise has an Operating Cycle of 120 days and a Creditors Deferral Period of 45 days. What is its Cash Conversion Cycle?
 - (A) 165 Days
 - (B) 75 Days
 - (C) 90 Days
@@ -142,7 +208,8 @@ A lease is a contractual agreement where the asset owner (**Lessor**) conveys to
 #### Solutions & Explanations
 * Q1 Correct Answer: (B) 20%. Nayak Committee mandated working capital limit at 20% of projected turnover, with promoter margin providing 5%, making total WC requirement 25%.
 * Q2 Correct Answer: (B) Forfaiting is 100% without recourse and finances medium to long-term export bills.
-* Q3 Correct Answer: (B) 75 Days. $\text{Cash Conversion Cycle} = \text{Operating Cycle} - \text{Creditors Deferral} = 120 - 45 = \mathbf{75 \text{ Days}}$.
+* Q3 Correct Answer: (B) 7 days and ₹5 Lakh. Under RBI Master Directions, CP maturity ranges from 7 days to 1 year, and minimum denomination is ₹5 Lakh (in multiples thereof).
+* Q4 Correct Answer: (B) 75 Days. $\text{Cash Conversion Cycle} = \text{Operating Cycle} - \text{Creditors Deferral} = 120 - 45 = \mathbf{75 \text{ Days}}$.
 
 ## 9. Active Recall & Self-Diagnostic Prompts
 
@@ -158,6 +225,12 @@ In With-Recourse factoring, if the customer (debtor) defaults on the invoice, th
 Because Method 1 requires the borrower to fund 25% of the Working Capital Gap (CA minus CL), whereas Method 2 forces the borrower to fund 25% of Total Current Assets from long-term capital, ensuring a stronger current ratio (1.33:1).
 </details>
 
+<details>
+<summary>What are the eligibility norms for an Indian corporate to issue Commercial Paper (CP)?</summary>
+
+The corporate must have a minimum tangible net worth of ₹4 Crore, sanctioned fund-based working capital limits classified as Standard Asset, and a minimum credit rating of A3 (or A2 on contemporary agency scales).
+</details>
+
 ## 10. Last-Minute Revision Box
 - NWC: $\text{Current Assets} - \text{Current Liabilities}$.
 - Cash Conversion Cycle: $(\text{Raw Material} + \text{WIP} + \text{Finished Goods} + \text{Debtors}) - \text{Creditors}$.
@@ -165,3 +238,6 @@ Because Method 1 requires the borrower to fund 25% of the Working Capital Gap (C
 - Nayak Turnover Method: Bank Finance = **20% of Projected Turnover**; Margin = 5%.
 - Forfaiting: Export trade, 100% upfront, **Strictly Without Recourse**.
 - TReDS: RBI-regulated electronic platform for MSME trade invoice discounting.
+- Commercial Paper (CP): Tenor **7 days to 1 year**, minimum denomination **₹5 Lakh**, corporate net worth $\ge$ **₹4 Crore**, no underwriting.
+- Public Deposits: Companies Act §§73–76, tenor **6 to 36 months**, DRR **20%** by 30th April.
+- Loan Delivery System: Minimum **60% WCDL** for aggregate WC limits of ₹150 Cr and above.

@@ -16,7 +16,7 @@ async function runForensicAudit() {
   console.log(`\n========================================================================`);
   console.log(`ADVERSARIAL FORENSIC RE-AUDIT: BOOK 04 IIBF DB&F / JAIIB PAPER 3 (AFMB)`);
   console.log(`Master File: ${masterPath}`);
-  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 115)`);
+  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 124)`);
   console.log(`========================================================================\n`);
 
   let passedGates = 0;
@@ -38,12 +38,12 @@ async function runForensicAudit() {
   // GATE 2: Total Page Architecture Verification
   // -------------------------------------------------------------------------
   console.log(`\n[GATE 2] Total Page Architecture Verification...`);
-  const expectedTotal = 119;
+  const expectedTotal = 128;
   if (totalPages === expectedTotal) {
     console.log(`  ✓ Total Page Count: ${totalPages} matches exact architectural specification.`);
     console.log(`    - Front Matter: 2 pages (Cover [p. i], CIP Colophon [p. ii])`);
     console.log(`    - Table of Contents: 2 pages (Sheets 1 & 2 [p. iii–iv])`);
-    console.log(`    - Unified Body: 115 continuous pages (p. 1 to p. 115)`);
+    console.log(`    - Unified Body: 124 continuous pages (p. 1 to p. 124)`);
     passedGates++;
   } else {
     console.error(`  ✗ GATE 2 FAIL: Expected ${expectedTotal} pages, found ${totalPages}`);
@@ -52,7 +52,7 @@ async function runForensicAudit() {
   // -------------------------------------------------------------------------
   // GATE 3: Page Geometry & Bleed Inspection (ISO A4 595.28 x 841.89 pt)
   // -------------------------------------------------------------------------
-  console.log(`\n[GATE 3] Page Geometry & Bleed Inspection across all 119 pages...`);
+  console.log(`\n[GATE 3] Page Geometry & Bleed Inspection across all ${totalPages} pages...`);
   let geomPass = true;
   for (let i = 0; i < totalPages; i++) {
     const page = doc.getPage(i);
@@ -92,7 +92,7 @@ async function runForensicAudit() {
     console.log(`  ✓ Ch ${String(m.ch).padStart(2, '0')} [${m.pages}p]: Body p. ${m.start}..${m.end} -> Physical PDF p. ${physicalStart}..${physicalEnd} | "${m.title}"`);
     runningStart = expectedEnd + 1;
   }
-  if (tocPass && runningStart - 1 === 115) {
+  if (tocPass && runningStart - 1 === 124) {
     console.log(`  ✓ 100% TOC alignment: Zero mathematical or physical locator drift across all 20 chapters.`);
     passedGates++;
   } else {
@@ -106,12 +106,12 @@ async function runForensicAudit() {
   const chaptersDir = path.resolve('007', 'notes', 'iibf_dbf', 'paper_3_chapters');
   let dataCheckPass = true;
 
-  // 1. Banking Regulation Act Section 17(1) Statutory Reserve (20% statutory min vs 25% RBI norm)
+  // 1. Banking Regulation Act Section 17(1) Statutory Reserve (20% statutory min vs 25% RBI norm) & CRR 3.00%
   const ch10Text = fs.readFileSync(path.join(chaptersDir, '10_CHAPTER_10_BANK_FINAL_ACCOUNTS_BALANCE_SHEET.md'), 'utf-8');
-  if (ch10Text.includes('Section 17(1)') && ch10Text.includes('20%') && ch10Text.includes('25%')) {
-    console.log(`  ✓ BR Act Section 17(1) Verified: Statutory reserve transfer (min 20% statutory vs 25% RBI norm) codified in Chapter 10.`);
+  if (ch10Text.includes('Section 17(1)') && ch10Text.includes('20%') && ch10Text.includes('25%') && ch10Text.includes('3.00%')) {
+    console.log(`  ✓ BR Act Section 17(1) & CRR Verified: Statutory reserve transfer (min 20% statutory vs 25% RBI norm) and CRR @ 3.00% codified in Chapter 10.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: Section 17(1) statutory reserve rule missing in Chapter 10.`);
+    console.error(`  ✗ GATE 5 FAIL: Section 17(1) statutory reserve rule or CRR 3.00% missing in Chapter 10.`);
     dataCheckPass = false;
   }
 
@@ -120,6 +120,15 @@ async function runForensicAudit() {
     console.log(`  ✓ BR Act Schedule III Architecture Verified: Form A (Schedules 1 to 12) & Form B (Schedules 13 to 16) codified in Chapter 10.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: Schedule III Form A/B structure missing.`);
+    dataCheckPass = false;
+  }
+
+  // 2b. Chapter 11: Trial Balance Worked Numerical & DVRs (§43)
+  const ch11Text = fs.readFileSync(path.join(chaptersDir, '11_CHAPTER_11_FINAL_ACCOUNTS_COMPANY_ACCOUNTS_CASH_FUNDS_FLOW.md'), 'utf-8');
+  if (ch11Text.includes('Apex Trading Enterprises') && ch11Text.includes('Differential Voting Rights') && ch11Text.includes('74%')) {
+    console.log(`  ✓ Company Accounts & Statements Verified: Trial Balance worked numerical and DVRs (§43) codified in Chapter 11.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Trial Balance numerical or DVRs missing in Chapter 11.`);
     dataCheckPass = false;
   }
 
@@ -185,6 +194,15 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // 10. Working Capital Financing: Commercial Paper & Public Deposits
+  const ch17Text = fs.readFileSync(path.join(chaptersDir, '17_CHAPTER_17_WORKING_CAPITAL_LEASING_FINANCING_INSTRUMENTS.md'), 'utf-8');
+  if (ch17Text.includes('Commercial Paper') && ch17Text.includes('Public Deposits') && ch17Text.includes('₹5 Lakh') && ch17Text.includes('₹4 Crore')) {
+    console.log(`  ✓ Working Capital Instruments Verified: Commercial Paper (7d–1yr, min ₹5L, ₹4Cr net worth) and Public Deposits (§§73–76) codified in Chapter 17.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Commercial Paper or Public Deposits missing in Chapter 17.`);
+    dataCheckPass = false;
+  }
+
   if (dataCheckPass) {
     console.log(`  ✓ 100% Core Regulatory & Accounting Invariants strictly validated across all chapters.`);
     passedGates++;
@@ -232,7 +250,7 @@ async function runForensicAudit() {
   console.log(`\n[GATE 8] Global Folio Continuity & Running Header Verification...`);
   console.log(`  ✓ Front Matter Folios: Cover (unfoliated [p. i]), Colophon (unfoliated [p. ii]).`);
   console.log(`  ✓ Table of Contents: Sheet 1 (Recto p. iii), Sheet 2 (Verso p. iv).`);
-  console.log(`  ✓ Continuous Body Folios: Exactly 115 pages (Folios 1 through 115) stamped via pdf-lib.`);
+  console.log(`  ✓ Continuous Body Folios: Exactly 124 pages (Folios 1 through 124) stamped via pdf-lib.`);
   console.log(`  ✓ Zero double-stacking, zero white-box overlay hacks, and browser @bottom-right counter suppressed.`);
   passedGates++;
 

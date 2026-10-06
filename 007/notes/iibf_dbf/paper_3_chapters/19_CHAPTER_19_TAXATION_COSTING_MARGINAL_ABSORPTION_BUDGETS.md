@@ -41,11 +41,97 @@ Under Section 194A of direct tax statutes (governed historically under the *Inco
 #### Operational Mandates:
 1. **Branch vs Bank-Wide Aggregation:** Following Core Banking Solution (CBS) deployment, interest is aggregated across **all branches of the bank under the same PAN / Customer ID (CIF)**.
 2. **Timing of Deduction:** TDS is deducted at the **point of credit** (interest accrual or quarterly compounding) or **payment**, whichever occurs earlier.
-3. **Savings Bank Interest:** Interest on savings bank accounts is **completely exempt from TDS** under Section 194A. Under Section 80TTA, individuals receive a deduction up to ₹10,000 on savings interest; Senior citizens under Section 80TTB receive a deduction across both savings and term deposits (₹50,000 historically; ₹1,00,000 under the enhanced framework).
+3. **Savings Bank Interest:** Interest on savings bank accounts is **completely exempt from TDS** under Section 194A.
 4. **Remittance Deadlines:** Monthly TDS deducted must be deposited to the Central Government by the **7th of the following month** (except for March deductions, which must be deposited by **30 April**).
-5. **Certificates & Statements:** Quarterly TDS returns are filed in **Form 26Q**; certificates are issued in **Form 16A**; details are reflected in the taxpayer's **Form 26AS** and Annual Information Statement (AIS). Under the 2025/2026 digital compliance portal, centralized single-window verification (Form 121 transition) is enabled.
+5. **Certificates & Statements:** Quarterly TDS returns are filed in **Form 26Q**; certificates are issued in **Form 16A**; details are reflected in the taxpayer's **Form 26AS** and Annual Information Statement (AIS).
 
-### 1.2 TDS on High-Value Cash Withdrawals (Section 194N)
+### 1.2 Form 121 (Current) vs. Form 15G / 15H (Historical) Framework
+Depositors whose total estimated taxable income does not attract tax liability may submit statutory self-declarations to banks to receive interest on time deposits without deduction of TDS:
+- **Current Statutory Mechanism (Income Tax Rules, 2026):** **Form 121** is the unified electronic declaration prescribed under the modernized digital compliance architecture. It enables straight-through electronic submission and validation against PAN/Aadhaar databases.
+- **Historical Conventional Mechanisms (Income-tax Act, 1961):**
+  - **Form 15G:** Applicable to resident individuals aged below 60 years and HUFs. Two conditions must BOTH be satisfied: (a) estimated total income of the year is below the basic tax exemption limit, AND (b) total interest income credited during the year does NOT exceed the basic exemption limit.
+  - **Form 15H:** Applicable strictly to resident senior citizens aged 60 years or older. Condition: Estimated final tax liability on total taxable income for the financial year must be **NIL** (interest income itself can exceed the basic exemption limit, provided net taxable income after Chapter VI-A deductions yields zero tax).
+- **Bank Operational Duties:** Banks must assign a Unique Identification Number (UIN) to each declaration and upload quarterly statements of all accepted declarations to the income tax portal on or before the due date of quarterly TDS returns.
+
+### 1.3 Statutory Administration of TDS & TCS (Returns, Due Dates & Rates)
+Banks and corporate deductors must adhere to rigorous quarterly reporting and remittance schedules:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                    TDS & TCS QUARTERLY RETURN ARCHITECTURE                         |
++---------------------+-------------------------------------------------------+----------------------+
+| Return Form         | Scope of Payments Covered                             | Statutory Due Date   |
++---------------------+-------------------------------------------------------+----------------------+
+| Form 24Q            | TDS on Salary Payments (Section 192)                  | Q1-Q3: End of month  |
+| Form 26Q            | TDS on Non-Salary Domestic Payments (§194A, 194C, 194J) | following quarter;   |
+| Form 27Q            | TDS on Payments to Non-Residents / Foreign Companies  | Q4: May 31           |
+| Form 27EQ           | Tax Collected at Source (TCS) (Section 206C)          | Q1-Q3: July/Oct/Jan 31|
++---------------------+-------------------------------------------------------+----------------------+
+```
+
+- **Statutory Return Filing Due Dates:**
+  - **Quarter 1 (April – June):** **31st July**
+  - **Quarter 2 (July – September):** **31st October**
+  - **Quarter 3 (October – December):** **31st January**
+  - **Quarter 4 (January – March):** **31st May** (extended by one month to facilitate financial year-end reconciliations)
+- **Monthly Remittance Deadline:** TDS/TCS deducted in any month must be deposited via Challan ITNS 281 by the **7th of the following month** (except for March deductions, where remittance is permitted up to **30th April**).
+- **Default Penalties:** Late filing attracts a mandatory late fee under Section 234E of **₹200 per day** of continuing default (capped at the total TDS/TCS amount) and penalty under Section 271H (ranging from ₹10,000 to ₹1,00,000).
+
+#### Tax Collected at Source (TCS) Profile (Section 206C):
+TCS requires sellers/collectors to collect specified percentages from buyers over and above the transaction invoice value:
+- *Alcoholic liquor for human consumption:* **1%**
+- *Tendu leaves:* **5%**; *Timber / Forest produce:* **2.5%**
+- *Scrap:* **1%**; *Minerals (coal, lignite, iron ore):* **1%**
+- *Motor Vehicles:* **1%** on sale consideration exceeding **₹10 Lakhs**
+- *Liberalised Remittance Scheme (LRS) & Overseas Tour Packages:* Ranging from **5% to 20%** depending on remittance threshold and purpose (education/medical vs other purposes)
+- *Sale of Goods (§206C(1H)):* **0.1%** on aggregate sales to a buyer exceeding **₹50 Lakhs** in a FY (for sellers with turnover > ₹10 Crore).
+
+### 1.4 Chapter VI-A Deductions: Banking & Individual Taxpayer Family
+Chapter VI-A of direct tax statutes provides deductions from Gross Total Income (GTI) to arrive at Total Taxable Income:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                    CHAPTER VI-A MASTER DEDUCTION MATRIX                            |
++--------------------+---------------------------------------------------------------+---------------+
+| Section            | Eligible Expenditure / Income Category                        | Max Deduction |
++--------------------+---------------------------------------------------------------+---------------+
+| §80C / 80CCC /     | Life insurance, PPF, EPF, 5-Year Bank Tax-Saver FDs, ELSS,   | ₹1,50,000     |
+| §80CCD(1)          | Sukanya Samriddhi, tuition fees, pension fund contributions   | (Aggregate)   |
+| §80CCD(1B)         | Additional voluntary individual contribution to NPS (Tier 1)  | ₹50,000       |
+| §80D               | Health insurance premium (Self/family: ₹25k; Sr citizen: ₹50k;| Up to         |
+|                    | Parents: additional ₹25k / ₹50k; includes ₹5k health checkup) | ₹1,00,000     |
+| §80TTA             | Savings bank account interest for Individuals / HUFs (Non-Sr) | ₹10,000       |
+| §80TTB             | Interest on ALL deposits (Savings + Term) for Senior Citizens | ₹50,000 (Hist)|
+|                    | (Age 60+; §80TTA cannot be claimed if §80TTB is claimed)      | ₹1,00,000 (Cur|
+| §80QQB             | Royalty income of authors on literary/artistic/scientific book| Lower of 100% |
+|                    | (Excludes textbooks, guides, newspapers, pamphlets)           | or ₹3,00,000  |
+| §80RRB             | Royalty on patents registered under Patents Act, 1970         | Lower of 100% |
+|                    | (Available to resident individual patentee)                   | or ₹3,00,000  |
+| §80U               | Resident individual with certified disability                 | Flat ₹75,000  |
+|                    | Resident individual with SEVERE disability (80%+ disability)  | Flat ₹1,25,000|
++--------------------+---------------------------------------------------------------+---------------+
+```
+
+### 1.5 Assessment, Tax Refunds, Interest & Recovery Mechanics
+Direct tax administration encompasses four institutional stages:
+1. **Assessment Classifications:**
+   - *Self-Assessment (Section 140A):* Mandatory computation and tax payment by the assessee before furnishing the return of income.
+   - *Summary Processing (Section 143(1)):* Electronic processing by the Centralized Processing Centre (CPC), verifying arithmetical correctness, internal tax credit mismatches, and issuing an automated Intimation.
+   - *Scrutiny Assessment (Section 143(3)):* Detailed examination by the Assessing Officer to ensure income has not been understated, excessive losses claimed, or tax underpaid.
+   - *Best Judgment Assessment (Section 144):* Assessment carried out to the best of the Assessing Officer's judgment when an assessee fails to make a return, fails to comply with a Section 142(1) notice, or fails to get accounts audited under Section 142(2A).
+2. **Tax Refunds (Section 237):**
+   - Arise when taxes paid by way of Advance Tax, TDS, or TCS exceed the assessed tax liability. Assessee is entitled to a refund of the excess amount.
+3. **Interest on Tax Refunds (Section 244A):**
+   - The Income Tax Department is statutorily bound to pay simple interest on refund balances at the rate of **0.5% per month or part of a month** (equivalent to **6% per annum**).
+   - If the return of income is filed on or before the statutory due date under Section 139(1), interest is calculated from **1st April of the Assessment Year** to the date the refund is granted.
+4. **Recovery of Tax in Default (Section 222):**
+   - If an assessee fails to pay tax demanded within 30 days of service of notice of demand, the Tax Recovery Officer (TRO) can enforce recovery through:
+     1. Attachment and sale of the assessee's movable property.
+     2. Attachment and sale of the assessee's immovable property.
+     3. Arrest of the assessee and detention in civil prison.
+     4. Appointing a receiver for management of the assessee's movable and immovable properties.
+
+### 1.6 TDS on High-Value Cash Withdrawals (Section 194N)
 Introduced to discourage cash-driven shadow transactions and enforce digital audit trails:
 - **Standard Account Holders (Regular ITR Filers):** TDS is deducted at **2%** on aggregate cash withdrawals exceeding **₹1 Crore** in a financial year from one or more accounts maintained with the bank.
 - **Non-Filers (Persons who have not filed ITR for the preceding 3 assessment years):**
@@ -53,14 +139,14 @@ Introduced to discourage cash-driven shadow transactions and enforce digital aud
   - **5% TDS** on cash withdrawals exceeding **₹1 Crore**.
 - **Exempt Entities:** Central/State Governments, other banks, post offices, banking correspondents (BCs), and agricultural produce market committee (APMC) commission agents.
 
-### 1.3 Goods and Services Tax (GST) in Banking Operations
+### 1.7 Goods and Services Tax (GST) in Banking Operations
 Under the CGST Act, 2017:
 1. **Taxable Fee-Based Services (18% GST):** Processing fees, documentation charges, locker rent, folio charges, credit card annual fees, ATM transactions beyond the free monthly cap, NEFT/RTGS outward charges for corporate customers, and demand draft commission attract **18% standard GST** (9% CGST + 9% SGST for intra-state; 18% IGST for inter-state).
 2. **Exempt Banking Services:** Interest or discount earned on loans, advances, or deposits is strictly **exempt from GST**.
 3. **Special Input Tax Credit (ITC) Option for Banks (Section 17(4), CGST Act 2017):**
    - Because banks generate both taxable services (fee income) and exempt supplies (interest income), normal input tax apportionment under Section 17(2) requires cumbersome proportional calculations.
    - Section 17(4) grants banking companies and financial institutions an irrevocable annual statutory option: **avail a flat 50% of the eligible Input Tax Credit every month on inputs, capital goods, and input services**, while the remaining 50% lapses.
-   - The 50% restriction does not apply to GST paid on supplies between separate branch registrations of the same banking entity (distinct persons under the same PAN).
+   - The 50% restriction does not apply to GST paid on qualifying supplies between registered branches or offices of the same banking entity having the same PAN, subject to statutory conditions.
 
 ---
 
@@ -457,7 +543,7 @@ The Cash Budget forecasts expected cash inflows and cash outflows over specified
 
 > [!IMPORTANT]
 > **Golden Rule of Cash Budgets:**
-> **Depreciation is a non-cash expense and is STRICTLY EXCLUDED from Cash Budgets**. Only actual cash receipts (e.g., realization from debtors) and cash disbursements (e.g., payments to creditors, purchase of assets, tax payments) enter the budget.
+> **Depreciation itself is a non-cash item and therefore does not appear as a cash outflow in the cash budget; actual cash expenditure on acquiring or replacing depreciable assets is included as a capital disbursement**. Only actual cash receipts (e.g., realization from debtors) and cash disbursements (e.g., payments to creditors, purchase of assets, tax payments) enter the budget.
 
 ---
 
@@ -557,3 +643,25 @@ $\text{Margin of Safety} = \text{Actual Sales} - \text{Break-Even Sales} = \frac
 
 In a Cash Budget, only actual cash movements are recorded; depreciation is a non-cash accounting allocation of past capital cost, so no cash leaves the bank account. In Capital Budgeting, operating cash flow after tax ($\text{CFAT} = \text{PAT} + \text{Depreciation}$) includes depreciation add-back because depreciation provides an operational tax shield ($\text{Depreciation} \times t$), reducing tax outflows without consuming actual cash.
 </details>
+
+> [!CAUTION]
+> **Examiner Trap Alert:**
+> 1. **Section 194A Bank Aggregation:** TDS limits apply across **all branches of the bank under the same PAN/CIF**, not branch by branch.
+> 2. **Form 15G vs 15H**: 15G requires total income AND interest income to be below the basic exemption limit. 15H (senior citizens) only requires total tax liability on estimated income to be NIL.
+> 3. **Section 80TTA vs 80TTB**: Section 80TTA covers savings account interest only (up to ₹10,000) for individuals/HUFs (non-senior). Section 80TTB covers both savings and term deposit interest (up to ₹50,000 historical / ₹1,00,000 current) for senior citizens. A senior citizen claiming 80TTB cannot claim 80TTA.
+> 4. **GST on Banking**: Interest and discount on loans/deposits are **exempt**. Processing fees and services attract **18%**. Section 17(4) allows banks 50% flat monthly ITC; the 50% cap does not apply to supplies between registered branches under the same PAN.
+> 5. **P/V Ratio Invariance**: P/V Ratio is unaffected by fixed cost changes. It changes only if Selling Price per unit or Variable Cost per unit changes.
+> 6. **Absorption vs Marginal Costing**: When Production > Sales (Closing Stock > Opening Stock), Absorption Costing Profit > Marginal Costing Profit.
+
+## Last-Minute Revision Box
+- **Section 194A TDS:** ₹50,000 (General) / ₹1,00,000 (Senior Citizen) under current framework; ₹40,000 / ₹50,000 under historical baseline. Rate = 10% (20% without PAN under §206AA).
+- **Form 121:** Current statutory electronic declaration under Income Tax Rules, 2026 (Forms 15G/15H historical).
+- **TDS Returns:** Form 24Q (Salary), Form 26Q (Non-Salary), Form 27Q (Non-Resident), Form 27EQ (TCS). Due dates: 31 July, 31 Oct, 31 Jan, 31 May.
+- **TCS Section 206C:** Liquor 1%, Scrap 1%, Timber 2.5%, Cars > ₹10L 1%, Goods > ₹50L 0.1%.
+- **Chapter VI-A:** §80C (₹1.5L), §80CCD(1B) (₹50k), §80D (₹25k/₹50k), §80TTA (₹10k savings), §80TTB (₹50k/₹100k deposits for seniors), §80QQB/80RRB (₹3L royalty), §80U (₹75k/₹1.25L disability).
+- **Tax Refunds §244A:** Interest on refund is **0.5% per month** (6% p.a.).
+- **GST Section 17(4):** Banks opt for flat 50% monthly ITC. Restriction excludes intra-entity branch supplies under same PAN.
+- **P/V Ratio:** $\frac{\text{Contribution}}{\text{Sales}} \times 100$. Break-Even: $\frac{\text{Fixed Cost}}{\text{P/V Ratio}}$.
+- **Margin of Safety:** $\text{Actual Sales} - \text{BEP Sales} = \frac{\text{Profit}}{\text{P/V Ratio}}$.
+- **Variances:** $\text{MCV} = \text{MPV} + \text{MUV}$; $\text{LCV} = \text{LRV} + \text{LEV} + \text{ITV}$.
+- **Zero-Based Budgeting (ZBB):** Peter Pyhrr; starts from zero each cycle; decision packages ranked by cost-benefit.

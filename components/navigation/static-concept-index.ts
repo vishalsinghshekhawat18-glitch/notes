@@ -5233,7 +5233,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "2,897 words • 14 min read"
+    "badge": "2,984 words • 14 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-2",
@@ -5278,7 +5278,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "BANK FINAL ACCOUNTS: BALANCE SHEET & PROFIT AND LOSS (THIRD SCHEDULE)",
       "concept": "3. Form A: Complete Schedule Matrix (Schedules 1 to 12)"
     },
-    "badge": "585 words"
+    "badge": "602 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-10_chapter_10_bank_final_accounts_balance_sheet-sec-5",
@@ -5307,7 +5307,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "2,417 words • 11 min read"
+    "badge": "3,569 words • 17 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-2",
@@ -5337,7 +5337,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
       "concept": "2. From Trial Balance to Final Accounts: The Core Adjustments"
     },
-    "badge": "242 words"
+    "badge": "1085 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-4",
@@ -5352,7 +5352,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FINAL ACCOUNTS, COMPANY ACCOUNTS, CASH FLOW & FUNDS FLOW STATEMENTS",
       "concept": "3. Company Accounts: Share Capital Architecture"
     },
-    "badge": "208 words"
+    "badge": "517 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-11_chapter_11_final_accounts_company_accounts_cash_funds_flow-sec-5",
@@ -5751,7 +5751,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "1,815 words • 9 min read"
+    "badge": "2,914 words • 14 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments-sec-2",
@@ -5796,7 +5796,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "WORKING CAPITAL, LEASING & FINANCING INSTRUMENTS",
       "concept": "3. Regulation of Bank Working Capital Finance"
     },
-    "badge": "316 words"
+    "badge": "1138 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-17_chapter_17_working_capital_leasing_financing_instruments-sec-5",
@@ -5899,7 +5899,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "5,782 words • 27 min read"
+    "badge": "7,274 words • 34 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets-sec-2",
@@ -5914,7 +5914,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "DIRECT & INDIRECT TAXATION, COSTING METHODS, MARGINAL COSTING & BUDGETARY CONTROL",
       "concept": "1. PART A: TAXATION IN BANKING OPERATIONS (DIRECT & INDIRECT)"
     },
-    "badge": "963 words"
+    "badge": "2038 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_costing_marginal_absorption_budgets-sec-3",
@@ -5973,7 +5973,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "9,627 words • 44 min read"
+    "badge": "10,071 words • 46 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-2",
@@ -5988,7 +5988,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
       "concept": "1. MASTER MATRICES & BENCHMARK AUDIT FRAMEWORK"
     },
-    "badge": "2641 words"
+    "badge": "2892 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-3",
@@ -6003,7 +6003,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
       "concept": "2. 100 VERIFIED EXAMINER TRAPS & PITFALLS FOR AFMB"
     },
-    "badge": "2660 words"
+    "badge": "2713 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-4",
@@ -6018,7 +6018,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
       "concept": "3. 100 RAPID-FIRE ACTIVE RECALL DIAGNOSTIC PROMPTS"
     },
-    "badge": "2709 words"
+    "badge": "2764 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-5",
@@ -6033,7 +6033,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
       "concept": "4. 50 NUMERICAL TRIGGERS & CALCULATION SHORTCUTS"
     },
-    "badge": "891 words"
+    "badge": "916 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models",

@@ -31,7 +31,7 @@ Under **Section 29 of the Banking Regulation Act 1949**, all commercial banking 
 | **Schedule 3** | **Deposits** | Demand Deposits, Savings Bank Deposits, Term / Fixed Deposits. | Core liability funding the bank's lending operations. | Current account balances, CASA deposits, Term FDs. | Inter-bank deposits are grouped within this schedule. |
 | **Schedule 4** | **Borrowings** | Borrowings in India (RBI, other banks) and Borrowings outside India. | Wholesale and refinance liquidity funding. | Refinance from NABARD, repo borrowings from RBI. | Overdrafts from other banks are treated as Borrowings (S-4). |
 | **Schedule 5** | **Other Liabilities & Provisions** | Bills payable, inter-office adjustments (net Cr), **Rebate on Bills Discounted**, tax provisions. | Current operational obligations and accrued liabilities. | Unearned discount, demand drafts payable, net tax liability. | **Rebate on Bills Discounted is mandatorily in Schedule 5.** |
-| **Schedule 6** | **Cash & Balances with RBI** | Cash in hand (including foreign notes) and Balances with RBI in Current Account. | Statutory Cash Reserve Ratio (CRR) maintenance. | Cash in ATM vaults, CRR balance maintained with RBI. | Minimum 4.50% CRR of NDTL is maintained within Schedule 6. |
+| **Schedule 6** | **Cash & Balances with RBI** | Cash in hand (including foreign notes) and Balances with RBI in Current Account. | Statutory Cash Reserve Ratio (CRR) maintenance. | Cash in ATM vaults, CRR balance maintained with RBI. | **Current CRR: 3.00% of NDTL** maintained with RBI (SLR: 18.00%). *Historical exam trap:* Older materials quote 4.50%; do not confuse historical levels with the current 3.00% prescription. |
 | **Schedule 7** | **Balances with Banks & Call Money** | Balances with other banks, Money at call and short notice (up to 14 days). | Primary secondary liquidity reserve. | Inter-bank call money lent to other banks for 1 to 14 days. | Term deposits with other banks beyond 14 days go to S-7. |
 | **Schedule 8** | **Investments** | Government Securities (SLR), Other approved securities, Shares, Debentures, Subsidiaries. | Statutory Liquidity Ratio (SLR) & treasury returns. | Central & State G-Secs, Treasury Bills, PSU bonds. | Investments are broken down: Inside India vs Outside India. |
 | **Schedule 9** | **Advances** | Bills purchased & discounted, Cash credits & overdrafts, Term loans. | Primary revenue-generating credit assets. | Retail home loans, commercial working capital CC limits. | Classified: (i) Type, (ii) Security, (iii) Sector (India/Outside). |
@@ -70,8 +70,8 @@ Under **Section 29 of the Banking Regulation Act 1949**, all commercial banking 
 
 ## 5. Critical Regulatory Invariants: Section 17 & Bills for Collection
 1. **Section 17(1) Statutory Reserve Transfer:**
-   - *Statutory Benchmark:* Every commercial bank incorporated in India must transfer **at least 20% of its annual net profit** to a Statutory Reserve fund before declaring any dividend.
-   - *RBI Operational Benchmark:* Under RBI Master Directions, commercial banks are mandated to transfer **25% of annual net profits** to Statutory Reserves.
+   - *Statutory Benchmark:* Every commercial bank incorporated in India must transfer **at least 20% of its annual net profit** to a Statutory Reserve fund before declaring any dividend under Section 17(1) of the Banking Regulation Act, 1949.
+   - *RBI Operational Benchmark:* Under RBI Master Directions, commercial banks (specifically excluding Local Area Banks - LABs and Regional Rural Banks - RRBs) are mandated to transfer **25% of annual net profits** to Statutory Reserves before dividend declarations.
 2. **Bills for Collection:**
    - Drafts and bills received by the bank from customers for collection from drawees are **NOT assets or liabilities of the bank**.
    - They appear strictly as a **footnote below Schedule 12** on the Balance Sheet; they are completely excluded from balance sheet totals.
@@ -79,12 +79,12 @@ Under **Section 29 of the Banking Regulation Act 1949**, all commercial banking 
 ## 6. Worked Numerical: Form B Appropriation
 **Scenario:** A commercial bank reports post-tax Net Profit of ₹200 Crores for the financial year.
 1. What is the minimum transfer mandated by Section 17(1) of the Banking Regulation Act?
-2. What is the transfer required under RBI operational guidelines?
+2. What is the transfer required under RBI operational guidelines for commercial banks?
 
 **Solution Step-by-Step:**
 - Statutory Transfer under Section 17(1) BR Act:
   $$\text{Minimum Statutory Transfer} = 200 \times 20\% = \mathbf{\text{₹40 Crores}}$$
-- Operational Transfer under RBI Prudential Directions:
+- Operational Transfer under RBI Prudential Directions (commercial banks excluding LABs/RRBs):
   $$\text{Mandated Operational Transfer} = 200 \times 25\% = \mathbf{\text{₹50 Crores}}$$
 - Appropriation entry in Section IV of Form B:
   $$\text{Debit: Profit and Loss Account (Appropriations) \quad ₹50 Crores}$$
@@ -93,7 +93,7 @@ Under **Section 29 of the Banking Regulation Act 1949**, all commercial banking 
 > [!CAUTION]
 > **Examiner Trap Alert:**
 > 1. **Provisions and Contingencies** is NOT a schedule; it is an independent line item in Section II (Expenditure) of Form B.
-> 2. Transfer to Statutory Reserve under Section 17(1) is legally a **minimum of 20%**, while RBI operational guidelines enforce **25%**.
+> 2. Transfer to Statutory Reserve under Section 17(1) is legally a **minimum of 20%**, while RBI operational guidelines enforce **25%** for specified commercial banks (excluding LABs and RRBs). Do not universalize 25% across all banking entities.
 > 3. Profit on sale of investments is **Schedule 14 (Other Income)**; coupon interest earned on investments is **Schedule 13 (Interest Earned)**.
 > 4. **Bills for Collection** do NOT enter balance sheet arithmetic; they are disclosed purely as a footnote.
 > 5. Non-Banking Assets acquired in satisfaction of claims (Schedule 11) must be sold within **7 years** under Section 9 of the BR Act.
@@ -219,7 +219,8 @@ Concurrent Audit is a continuous, real-time audit conducted daily at high-volume
 ## 10. Last-Minute Revision Box
 - Form A: Schedules 1 to 5 (Liabilities), Schedules 6 to 11 (Assets), Schedule 12 (Contingent Liabilities).
 - Form B: Schedules 13 to 14 (Income), Schedules 15 to 16 (Expenses), Provisions & Contingencies (Direct line).
-- Section 17 BR Act: Statutory transfer to Reserve Fund $\ge 20\%$ (RBI operational norm: 25%).
+- CRR: Current **3.00%** of NDTL maintained with RBI in Schedule 6 (SLR: 18.00%; historical exam trap: 4.50%).
+- Section 17(1) BR Act: Statutory transfer to Reserve Fund $\ge 20\%$ (RBI operational norm for specified commercial banks: 25%).
 - Schedule 5: Includes **Rebate on Bills Discounted**; Schedule 11: Includes Non-Banking Assets (7-year sale rule) and Suspense Account.
 - Slip System: Direct posting from source slips; Day-End Trial Balance extracted daily.
 - Bills for Collection: Footnote outside balance sheet totals.

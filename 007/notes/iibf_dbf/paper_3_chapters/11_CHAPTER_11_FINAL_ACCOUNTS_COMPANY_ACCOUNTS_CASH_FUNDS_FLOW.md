@@ -26,6 +26,104 @@ Transactions occurring at year-end that are not yet recorded in the Trial Balanc
 | **Provision for Doubtful Debts** | Debited to Profit & Loss Account | Deducted from Sundry Debtors in Assets |
 | **Depreciation on Fixed Assets** | Debited to Profit & Loss Account | Deducted from the specific Fixed Asset |
 
+### 2.1 Comprehensive Worked Numerical: Preparation of Financial Statements from Trial Balance
+
+**Problem Statement:**  
+From the following Trial Balance of **Apex Trading Enterprises** as on 31 March 2026, prepare the **Trading Account**, **Profit & Loss Account** for the year ended 31 March 2026, and the **Balance Sheet** as on that date:
+
+| Particulars | Debit (₹) | Credit (₹) |
+| :--- | :--- | :--- |
+| Opening Stock (1 April 2025) | 45,000 | — |
+| Purchases & Sales | 2,10,000 | 3,50,000 |
+| Wages | 25,000 | — |
+| Carriage Inward | 5,000 | — |
+| Salaries | 35,000 | — |
+| Rent and Rates | 15,000 | — |
+| Insurance | 6,000 | — |
+| Sundry Debtors & Sundry Creditors | 80,000 | 45,000 |
+| Plant & Machinery | 1,20,000 | — |
+| Furniture & Fixtures | 40,000 | — |
+| Cash at Bank | 34,000 | — |
+| Cash in Hand | 6,000 | — |
+| Drawings & Capital | 12,000 | 2,00,000 |
+| Bad Debts & Provision for Doubtful Debts (Old) | 2,000 | 2,500 |
+| Commission Received | — | 7,500 |
+| Bank Overdraft / Short-Term Loan | — | 30,000 |
+| **Total** | **₹6,35,000** | **₹6,35,000** |
+
+**Additional Adjustments on 31 March 2026:**
+1. Closing Stock on 31 March 2026 was valued at cost ₹60,000 (Market Value: ₹65,000). *(Rule: Valued at lower of cost or NRV = ₹60,000)*.
+2. Outstanding liabilities: Wages ₹3,000; Salaries ₹5,000.
+3. Prepaid Insurance amounting to ₹1,000.
+4. Write off further bad debts ₹2,000 and create a Provision for Doubtful Debts @ 5% on Sundry Debtors.
+5. Provide Depreciation @ 10% p.a. on Plant & Machinery and @ 5% p.a. on Furniture & Fixtures.
+6. Commission earned but not received (Accrued Commission): ₹1,500.
+
+---
+
+#### Step 1: Trading Account for the year ended 31 March 2026
+
+| Dr. Particulars | Amount (₹) | Cr. Particulars | Amount (₹) |
+| :--- | :--- | :--- | :--- |
+| To Opening Stock | 45,000 | By Sales | 3,50,000 |
+| To Purchases | 2,10,000 | By Closing Stock | 60,000 |
+| To Wages: ₹25,000 | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Add: Outstanding: ₹3,000 | 28,000 | | |
+| To Carriage Inward | 5,000 | | |
+| **To Gross Profit c/d (Transferred to P&L)** | **1,22,000** | | |
+| **Total** | **₹4,10,000** | **Total** | **₹4,10,000** |
+
+$$\text{Gross Profit} = \text{Total Credits } (₹4,10,000) - \text{Direct Costs } (₹2,88,000) = \mathbf{₹1,22,000}$$
+
+---
+
+#### Step 2: Profit & Loss Account for the year ended 31 March 2026
+
+| Dr. Particulars | Amount (₹) | Cr. Particulars | Amount (₹) |
+| :--- | :--- | :--- | :--- |
+| To Salaries: ₹35,000 | | By Gross Profit b/d | 1,22,000 |
+| &nbsp;&nbsp;&nbsp;&nbsp;Add: Outstanding: ₹5,000 | 40,000 | By Commission Received: ₹7,500 | |
+| To Rent and Rates | 15,000 | &nbsp;&nbsp;&nbsp;&nbsp;Add: Accrued: ₹1,500 | 9,000 |
+| To Insurance: ₹6,000 | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Less: Prepaid: ₹1,000 | 5,000 | | |
+| To Bad Debts (Old): ₹2,000 | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Add: Further Bad Debts: ₹2,000 | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Add: New Provision (5% of ₹78,000): ₹3,900 | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Less: Old Provision: ₹2,500 | 5,400 | | |
+| To Depreciation: | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Plant & Machinery (10% of 1,20,000): ₹12,000 | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Furniture (5% of 40,000): ₹2,000 | 14,000 | | |
+| **To Net Profit (Transferred to Capital Account)** | **51,600** | | |
+| **Total** | **₹1,31,000** | **Total** | **₹1,31,000** |
+
+$$\text{Net Profit} = \text{Total Income } (₹1,31,000) - \text{Total Operating Expenses } (₹79,400) = \mathbf{₹51,600}$$
+
+---
+
+#### Step 3: Balance Sheet as on 31 March 2026
+
+| Liabilities | Amount (₹) | Assets | Amount (₹) |
+| :--- | :--- | :--- | :--- |
+| **Owner's Capital:** | | **Fixed Assets:** | |
+| Opening Capital: ₹2,00,000 | | Plant & Machinery: ₹1,20,000 | |
+| Add: Net Profit: ₹51,600 | | &nbsp;&nbsp;&nbsp;&nbsp;Less: Depreciation (10%): ₹12,000 | 1,08,000 |
+| Less: Drawings: ₹(12,000) | 2,39,600 | Furniture & Fixtures: ₹40,000 | |
+| **Current Liabilities & Borrowings:** | | &nbsp;&nbsp;&nbsp;&nbsp;Less: Depreciation (5%): ₹2,000 | 38,000 |
+| Bank Overdraft / Loan | 30,000 | **Current Assets:** | |
+| Sundry Creditors | 45,000 | Closing Stock | 60,000 |
+| Outstanding Wages | 3,000 | Sundry Debtors: ₹80,000 | |
+| Outstanding Salaries | 5,000 | &nbsp;&nbsp;&nbsp;&nbsp;Less: Further Bad Debts: ₹2,000 | |
+| | | &nbsp;&nbsp;&nbsp;&nbsp;Less: New Provision (5%): ₹3,900 | 74,100 |
+| | | Accrued Commission | 1,500 |
+| | | Prepaid Insurance | 1,000 |
+| | | Cash at Bank | 34,000 |
+| | | Cash in Hand | 6,000 |
+| **Total Liabilities** | **₹3,22,600** | **Total Assets** | **₹3,22,600** |
+
+*Verification:* Total Liabilities ($\text{₹3,22,600}$) exactly equals Total Assets ($\text{₹3,22,600}$). Zero discrepancy.
+
+---
+
 ## 3. Company Accounts: Share Capital Architecture
 Under the **Companies Act 2013**, corporate capital structure is organized into legal tiers:
 - **Authorized Capital:** The maximum nominal capital a company is legally authorized to issue under its Memorandum of Association.
@@ -34,10 +132,22 @@ Under the **Companies Act 2013**, corporate capital structure is organized into 
 - **Called-up Capital:** The portion of subscribed capital demanded by directors from shareholders.
 - **Paid-up Capital:** The actual monetary amount received from shareholders ($\text{Called-up Capital} - \text{Calls in Arrears}$).
 
-### Key Legal Rules for Share Issue
+### 3.1 Non-Voting Shares & Differential Voting Rights (DVRs)
+- **Statutory Framework:** Section 43(a)(ii) of the Companies Act, 2013 read with Rule 4 of the Companies (Share Capital and Debentures) Rules, 2014 permits companies limited by shares to issue equity shares with differential rights as to dividend, voting, or otherwise.
+- **Pure "Non-Voting" Shares vs DVR Shares:** Under Indian corporate law, absolute non-voting equity shares without any voting rights whatsoever are not permissible. Instead, companies issue **Differential Voting Rights (DVR) Shares**, where voting rights are significantly curtailed (e.g., 1 vote per 10 or 100 shares held, or fractional voting) in exchange for higher dividend payouts (typically 5%–20% higher dividend yield).
+- **Mandatory Statutory Conditions for DVR Issue (Rule 4):**
+  1. *Articles Authorization:* The Articles of Association (AoA) must explicitly authorize the issue of shares with differential rights.
+  2. *Shareholder Approval:* Approved by an ordinary resolution passed at a general meeting (or postal ballot for listed companies).
+  3. *Maximum Statutory Cap:* The voting power in respect of shares with differential rights shall not exceed **74% of total post-issue paid-up equity share capital** at any point in time.
+  4. *Distributable Profits Track Record:* The company must have a consistent track record of distributable profits for the preceding **three financial years**.
+  5. *Zero Default Status:* The company must not have defaulted in filing financial statements or annual returns for the preceding three years, nor defaulted in payment of declared dividends, repayment of matured public deposits, debentures, or statutory employee dues (PF, gratuity).
+  6. *No Conversion Permitted:* Existing equity shares with standard voting rights cannot be converted into equity shares with differential voting rights, and vice versa.
+- **Examiner Trap:** DVR shares allow promoters and founders to raise substantial growth capital without diluting management control, while offering retail and institutional investors enhanced dividend yields.
+
+### 3.2 Key Legal Rules for Share Issue
 1. **Issue at Premium (Section 52):** Securities premium can strictly be utilized for: (i) issuing fully paid bonus shares, (ii) writing off preliminary expenses, (iii) writing off share issue expenses/commission, (iv) premium on redemption of preference shares/debentures, or (v) buy-back of shares under Section 68.
 2. **Prohibition on Issue at Discount (Section 53):** Companies are **prohibited from issuing shares at a discount**, except for "Sweat Equity Shares" issued under Section 54.
-3. **Forfeiture of Shares:** When a shareholder defaults on allotment or call payments, shares may be forfeited after proper legal notice. Forfeited shares may subsequently be reissued at a discount, provided the discount **does not exceed the amount already forfeited on those shares**.
+3. **Forfeiture of Shares:** When a shareholder defaults on allotment or call payments, shares may be forfeited after proper legal notice. Forfeited shares may subsequently be reissued at a discount, provided the discount **does not exceed the amount already forfeited on those shares**. Profit on reissue is transferred to Capital Reserve.
 
 ## 4. Cash Flow Statement (AS 3 / Ind AS 7)
 A Cash Flow Statement reports historical cash inflows and outflows partitioned into three distinct operational activities:
