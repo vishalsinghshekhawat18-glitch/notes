@@ -9,11 +9,11 @@ Capital budgeting involves evaluating long-term investment outlays whose expecte
 
 | Appraisal Technique | Considers TVM? | Mathematical Formula / Acceptance Rule | Core Strengths & Practical Limitations |
 | :--- | :--- | :--- | :--- |
-| **Payback Period (PBP)** | ❌ No | $$\text{PBP} = \frac{\text{Initial Investment Outlay}}{\text{Annual Cash Inflow}}$$ | Simple liquidity indicator; completely ignores cash flows generated after the payback cutoff date. |
-| **Accounting Rate of Return (ARR)** | ❌ No | $$\text{ARR} = \frac{\text{Average Annual PAT}}{\text{Average Investment}} \times 100$$ | Utilizes accounting net income rather than cash flows; ignores time value of money. |
-| **Net Present Value (NPV)** | ✅ Yes | $$\text{NPV} = \sum_{t=1}^n \frac{C_t}{(1 + k)^t} - C_0$$. Accept if $$\text{NPV} > 0$$ | Theoretically superior; maximizes shareholder net worth; assumes cash flows reinvested at Cost of Capital ($k$). |
-| **Internal Rate of Return (IRR)** | ✅ Yes | Discount rate $r$ at which $$\text{NPV} = 0$$. Accept if $$\text{IRR} > k$$ | Highly intuitive rate of return; assumes unrealistic reinvestment at the project IRR. |
-| **Profitability Index (PI)** | ✅ Yes | $$\text{PI} = \frac{\text{Present Value of Inflows}}{\text{Initial Outlay}}$$. Accept if $$\text{PI} > 1.0$$ | Essential for capital rationing when capital budget is constrained. |
+| **Payback Period (PBP)** | No | $$\text{PBP} = \frac{\text{Initial Investment Outlay}}{\text{Annual Cash Inflow}}$$ | Simple liquidity indicator; completely ignores cash flows generated after the payback cutoff date. |
+| **Accounting Rate of Return (ARR)** | No | $$\text{ARR} = \frac{\text{Average Annual PAT}}{\text{Average Investment}} \times 100$$ | Utilizes accounting net income rather than cash flows; ignores time value of money. |
+| **Net Present Value (NPV)** | Yes | $$\text{NPV} = \sum_{t=1}^n \frac{C_t}{(1 + k)^t} - C_0$$. Accept if $$\text{NPV} > 0$$ | Theoretically superior; maximizes shareholder net worth; assumes cash flows reinvested at Cost of Capital ($k$). |
+| **Internal Rate of Return (IRR)** | Yes | Discount rate $r$ at which $$\text{NPV} = 0$$. Accept if $$\text{IRR} > k$$ | Highly intuitive rate of return; assumes unrealistic reinvestment at the project IRR. |
+| **Profitability Index (PI)** | Yes | $$\text{PI} = \frac{\text{Present Value of Inflows}}{\text{Initial Outlay}}$$. Accept if $$\text{PI} > 1.0$$ | Essential for capital rationing when capital budget is constrained. |
 
 ## 2. Resolving NPV vs IRR Conflicts in Mutually Exclusive Projects
 

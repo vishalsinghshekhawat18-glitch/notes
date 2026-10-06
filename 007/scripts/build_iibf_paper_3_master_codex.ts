@@ -297,10 +297,13 @@ export function buildTableOfContentsHtml(): string {
   @page {
     size: A4 portrait;
   }
-  @page toc-page:left {
-    margin: 12mm 24mm 11mm 14mm;
+  @page toc-page:first {
+    margin: 12mm 14mm 11mm 24mm;
     @top-left {
-      content: "IIBF PAPER 3 (AFMB) : MASTER CURRICULAR MAP";
+      content: none !important;
+    }
+    @top-right {
+      content: "SHELF 007 • IIBF DIPLOMA IN BANKING & FINANCE";
       font-family: "Helvetica Neue", Arial, sans-serif;
       font-size: 7.2pt;
       font-weight: 700;
@@ -328,9 +331,46 @@ export function buildTableOfContentsHtml(): string {
       padding-top: 1.5mm;
     }
   }
+  @page toc-page:left {
+    margin: 12mm 24mm 11mm 14mm;
+    @top-left {
+      content: "IIBF PAPER 3 (AFMB) : MASTER CURRICULAR MAP";
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 7.2pt;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #111;
+      border-bottom: 0.8pt solid #000;
+      padding-bottom: 1.5mm;
+    }
+    @top-right {
+      content: none !important;
+    }
+    @bottom-left {
+      content: "MIND OF ARAVALLI PRESS";
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 7pt;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      border-top: 0.8pt solid #000;
+      padding-top: 1.5mm;
+    }
+    @bottom-right {
+      content: "iv";
+      font-family: "Times New Roman", Georgia, serif;
+      font-size: 11pt;
+      font-weight: 700;
+      border-top: 0.8pt solid #000;
+      padding-top: 1.5mm;
+    }
+  }
   @page toc-page:right {
     margin: 12mm 14mm 11mm 24mm;
     @top-left {
+      content: none !important;
+    }
+    @top-right {
       content: "SHELF 007 • IIBF DIPLOMA IN BANKING & FINANCE";
       font-family: "Helvetica Neue", Arial, sans-serif;
       font-size: 7.2pt;
@@ -351,7 +391,7 @@ export function buildTableOfContentsHtml(): string {
       padding-top: 1.5mm;
     }
     @bottom-right {
-      content: "iv";
+      content: "iii";
       font-family: "Times New Roman", Georgia, serif;
       font-size: 11pt;
       font-weight: 700;
@@ -545,40 +585,24 @@ export async function assembleContinuousBodyPdf(
       const isVersoInChapter = pIdx % 2 === 1;
       const textWidth = font.widthOfTextAtSize(pageNumStr, 11);
 
-      if (map.ch > 1) {
-        if (!isVersoInChapter) {
-          // Recto layout inside chapter file
-          page.drawRectangle({
-            x: 520,
-            y: 5,
-            width: 40,
-            height: 22,
-            color: rgb(1, 1, 1),
-          });
-          page.drawText(pageNumStr, {
-            x: 556.5 - textWidth,
-            y: 9.42,
-            size: 11,
-            font: font,
-            color: rgb(0, 0, 0),
-          });
-        } else {
-          // Verso layout inside chapter file
-          page.drawRectangle({
-            x: 490,
-            y: 5,
-            width: 40,
-            height: 22,
-            color: rgb(1, 1, 1),
-          });
-          page.drawText(pageNumStr, {
-            x: 528.0 - textWidth,
-            y: 9.42,
-            size: 11,
-            font: font,
-            color: rgb(0, 0, 0),
-          });
-        }
+      if (!isVersoInChapter) {
+        // Recto layout inside chapter file (margin-left: 24mm, margin-right: 14mm)
+        page.drawText(pageNumStr, {
+          x: 556.5 - textWidth,
+          y: 9.42,
+          size: 11,
+          font: font,
+          color: rgb(0, 0, 0),
+        });
+      } else {
+        // Verso layout inside chapter file (margin-left: 14mm, margin-right: 24mm)
+        page.drawText(pageNumStr, {
+          x: 528.0 - textWidth,
+          y: 9.42,
+          size: 11,
+          font: font,
+          color: rgb(0, 0, 0),
+        });
       }
 
       bodyPdf.addPage(page);

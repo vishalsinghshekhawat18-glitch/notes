@@ -26,7 +26,7 @@ This Capstone Master Revision Vault synthesizes the entire 35-unit curricular sp
 | **Debt Service Coverage Ratio** | $\text{DSCR} = \frac{\text{PAT} + \text{Depreciation} + \text{Interest}}{\text{Interest} + \text{Principal Installment}}$ | Benchmark 1.50 to 2.00; mandatory for term loan sanctions. |
 | **Break-Even Point (Value)** | $\text{BEP} = \frac{\text{Fixed Cost}}{\text{P/V Ratio}}$ | Sales revenue at which total cost equals total revenue. |
 | **Margin of Safety (MoS)** | $\text{MoS} = \frac{\text{Profit}}{\text{P/V Ratio}}$ | Cushion between actual sales and break-even sales. |
-| **TDS on Bank Deposit Interest** | **₹40,000** *(General)* / **₹50,000** *(Senior Citizens Sec 80TTB)* | Threshold for mandatory 10% withholding under Section 194A. |
+| **TDS on Bank Deposit Interest** | **₹40,000** *(General)* / **₹50,000** *(Senior Citizens Sec 80TTB)* | Threshold for mandatory 10% withholding under Section 194A (Income Tax Act 1961 / Income-tax Act 2025). |
 
 ## 2. 50 Essential Examiner Traps for IIBF Paper 3 (AFMB)
 
@@ -38,7 +38,7 @@ This Capstone Master Revision Vault synthesizes the entire 35-unit curricular sp
 6. When a Trial Balance fails to tally at final accounts stage, a debit balance in the Suspense Account is shown on the **Assets side** of the Balance Sheet.
 7. A **Debit balance in a Bank Passbook** signifies an **Overdraft** (liability for customer).
 8. **Land is never depreciated** because its useful economic life is legally unlimited.
-9. Under the Income Tax Act 1961, depreciation must be computed using the **WDV method on blocks of assets**.
+9. Under direct tax statutes (Income Tax Act 1961 / Income-tax Act 2025 framework), depreciation must be computed using the **WDV method on blocks of assets**.
 10. If an asset is used for **fewer than 180 days** in the purchase year, only **50% of normal depreciation** is deductible for tax.
 11. Under Section 22 of the NI Act, negotiable usance instruments receive **3 Days of Grace**.
 12. If a bill maturity falls on a public holiday, it is due on the **Immediately Preceding Business Day**; if on an emergency holiday, on the **Immediately Succeeding Business Day**.
@@ -76,7 +76,7 @@ This Capstone Master Revision Vault synthesizes the entire 35-unit curricular sp
 44. Material Price Variance is evaluated on **Actual Quantity** ($\text{AQ} \times (\text{SP} - \text{AP})$).
 45. Material Usage Variance is evaluated at the **Standard Price** ($\text{SP} \times (\text{SQ} - \text{AQ})$).
 46. Depreciation is a non-cash item and is **completely excluded from Cash Budgets**.
-47. The annual interest TDS threshold under Section 194A is **₹40,000 for general depositors** and **₹50,000 for Senior Citizens** (Section 80TTB).
+47. The annual interest TDS threshold under Section 194A is **₹40,000 for general depositors** and **₹50,000 for Senior Citizens** (Section 80TTB; transitioned under Income-tax Act 2025 framework).
 48. Failure to furnish a valid PAN triggers mandatory **20% TDS** under Section 206AA.
 49. **Form 15G** is for individuals under 60 years; **Form 15H** is strictly for Senior Citizens (60+ years).
 50. Banks can claim an automatic **50% of eligible Input Tax Credit (ITC)** every month under Section 17(4) of the CGST Act 2017.

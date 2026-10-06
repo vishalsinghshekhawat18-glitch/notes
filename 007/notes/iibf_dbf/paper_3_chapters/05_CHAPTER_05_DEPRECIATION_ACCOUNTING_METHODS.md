@@ -28,13 +28,13 @@ $$D_t = \frac{\text{Remaining Useful Life at Start of Year}}{\frac{n(n+1)}{2}} \
 | **Annual Charge** | Constant and uniform | Declining each year |
 | **Combined Burden (Depreciation + Repairs)** | Unequal: Total burden rises in later years as repair expenses escalate | Equalized: Decreasing depreciation offsets escalating repair costs |
 | **Terminal Asset Value** | Reduces to exact salvage value or zero | Never reaches zero mathematically |
-| **Income Tax Act 1961 Recognition** | Allowed only for Power Generating units under Section 32 | **Mandatorily enforced** across all asset blocks |
+| **Income Tax Recognition** | Allowed only for Power Generating units under Section 32 | **Mandatorily enforced** across all asset blocks |
 
 > [!CAUTION]
 > **Examiner Trap Alert:**
 > 1. **Land is never depreciated** because its useful economic life is legally and physically unlimited.
-> 2. Under the Income Tax Act 1961, depreciation is computed on the **Written Down Value of the "Block of Assets"**, not on individual separate assets.
-> 3. If an asset is acquired and put to use for **less than 180 days** in a financial year, the Income Tax Act allows only **50% of the standard depreciation rate**.
+> 2. Under direct tax statutes (Income Tax Act 1961 / Income-tax Act 2025 framework), tax depreciation is computed on the **Written Down Value of the "Block of Assets"**, not on individual separate assets.
+> 3. If an asset is acquired and put to use for **less than 180 days** in a financial year, tax rules allow only **50% of the standard depreciation rate**.
 
 ## Practice Questions & Solved Numerical Drills
 
@@ -50,7 +50,7 @@ $$D_t = \frac{\text{Remaining Useful Life at Start of Year}}{\frac{n(n+1)}{2}} \
 - (C) Written Down Value (WDV) Method
 - (D) Depletion Method
 
-**Q3.** For general business corporations under the Indian Income Tax Act 1961, depreciation must mandatorily be computed using:
+**Q3.** For general business corporations under Indian direct tax statutes (Income Tax Act 1961 / Income-tax Act 2025 framework), depreciation must mandatorily be computed using:
 - (A) Sinking Fund Method
 - (B) Straight Line Method
 - (C) WDV Method on Block of Assets
@@ -62,7 +62,7 @@ $$D_t = \frac{\text{Remaining Useful Life at Start of Year}}{\frac{n(n+1)}{2}} \
 
 * Q2 Correct Answer: (C) Written Down Value (WDV) Method. Applying a constant percentage to an ever-decreasing positive opening balance yields an asymptotically declining balance that never reaches zero.
 
-* Q3 Correct Answer: (C) WDV Method on Block of Assets. Section 32 of the Income Tax Act mandates the WDV method applied to predefined blocks of assets (except for power-generating entities opting for SLM).
+* Q3 Correct Answer: (C) WDV Method on Block of Assets. Section 32 of the Income Tax Act (preserved under the 2025 framework) mandates the WDV method applied to predefined blocks of assets (except for power-generating entities opting for SLM).
 
 ## Active Recall & Self-Diagnostic Prompts
 

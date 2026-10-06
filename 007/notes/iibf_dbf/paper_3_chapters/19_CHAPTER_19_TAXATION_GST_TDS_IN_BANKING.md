@@ -3,9 +3,9 @@
 > **Paper:** 3 (Accounting & Financial Management for Bankers)
 > **Standard:** Macmillan 2023 Master Benchmark • Duplex A4 Monochrome Print Edition
 
-Commercial banks operate as pivotal withholding, collection, and reporting intermediaries under both direct (Income Tax Act 1961) and indirect (Goods and Services Tax Act 2017) taxation regimes. Complying with Tax Deducted at Source (TDS) thresholds under Section 194A and Section 194N, managing Form 15G/15H exemptions, and navigating the 50% Input Tax Credit restriction under GST Section 17(4) are critical bank responsibilities.
+Commercial banks operate as pivotal withholding, collection, and reporting intermediaries under both direct (Income Tax Act 1961 / Income-tax Act 2025 transition framework) and indirect (Goods and Services Tax Act 2017) taxation regimes. Complying with Tax Deducted at Source (TDS) thresholds under Section 194A and Section 194N, managing Form 15G/15H exemptions, and navigating the 50% Input Tax Credit restriction under GST Section 17(4) are critical bank responsibilities.
 
-## 1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)
+## 1. TDS on Bank Term Deposits (Section 194A, Direct Tax Framework)
 
 | Depositor Category | Annual Interest Threshold for TDS | Standard TDS Rate (Valid PAN) | Higher TDS Rate without PAN (Sec 206AA) | Exemption Declaration Forms |
 | :--- | :--- | :--- | :--- | :--- |
@@ -36,10 +36,11 @@ To discourage high-value cash transactions and promote digital banking rails:
 > 1. The interest TDS threshold for Senior Citizens (60+ years) is **₹50,000** under Section 194A / 80TTB, compared to **₹40,000** for general citizens.
 > 2. If a customer fails to submit PAN, TDS must be deducted at **20%** under Section 206AA.
 > 3. Interest earned on bank deposits is exempt from GST, but **service fees, commissions, and charges attract 18% GST**.
+> 4. **Statutory Transition:** Direct tax provisions historically cited under the Income Tax Act 1961 transition under the Income-tax Act, 2025 (effective 1 April 2026). Core mechanics (TDS limits of ₹40,000 / ₹50,000 under §194A / §80TTB, 20% PAN default under §206AA, and §194N limits) remain identical exam benchmarks.
 
 ## Practice Questions & Solved Numerical Drills
 
-**Q1.** Under Section 194A of the Income Tax Act 1961, what is the annual interest threshold above which a bank must deduct TDS on term deposits of Senior Citizens (age 60+)?
+**Q1.** Under Section 194A of direct tax statutes (Income Tax Act 1961 / Income-tax Act 2025 framework), what is the annual interest threshold above which a bank must deduct TDS on term deposits of Senior Citizens (age 60+)?
 - (A) ₹10,000
 - (B) ₹40,000
 - (C) ₹50,000

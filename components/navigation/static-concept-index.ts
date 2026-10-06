@@ -4893,7 +4893,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "793 words • 4 min read"
+    "badge": "809 words • 4 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-2",
@@ -4923,7 +4923,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
       "concept": "2. Master Comparison: SLM vs WDV Method"
     },
-    "badge": "202 words"
+    "badge": "206 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-4",
@@ -4938,7 +4938,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "DEPRECIATION ACCOUNTING & MATHEMATICAL METHODS (SLM & WDV)",
       "concept": "Practice Questions & Solved Numerical Drills"
     },
-    "badge": "216 words"
+    "badge": "228 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-05_chapter_05_depreciation_accounting_methods-sec-5",
@@ -5485,7 +5485,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "808 words • 4 min read"
+    "badge": "803 words • 4 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-2",
@@ -5493,14 +5493,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "1. Master Comparison of Capital Budgeting Appraisal Techniques",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-13_chapter_13_capital_budgeting_decisions",
-    "description": "| Appraisal Technique | Considers TVM? | Mathematical Formula / Acceptance Rule | Core Strengths & Practical Limitations |\n| :--- | :--- | :--- | :--- |\n| Payback Period (PBP) | ❌ No | $$\\text{PBP",
+    "description": "| Appraisal Technique | Considers TVM? | Mathematical Formula / Acceptance Rule | Core Strengths & Practical Limitations |\n| :--- | :--- | :--- | :--- |\n| Payback Period (PBP) | No | $$\\text{PBP}",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CAPITAL BUDGETING & LONG-TERM INVESTMENT DECISIONS",
       "concept": "1. Master Comparison of Capital Budgeting Appraisal Techniques"
     },
-    "badge": "198 words"
+    "badge": "193 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-13_chapter_13_capital_budgeting_decisions-sec-3",
@@ -5929,12 +5929,12 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "866 words • 4 min read"
+    "badge": "928 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-2",
     "type": "CONCEPT",
-    "title": "1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)",
+    "title": "1. TDS on Bank Term Deposits (Section 194A, Direct Tax Framework)",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
     "description": "| Depositor Category | Annual Interest Threshold for TDS | Standard TDS Rate (Valid PAN) | Higher TDS Rate without PAN (Sec 206AA) | Exemption Declaration Forms |\n| :--- | :--- | :--- | :--- | :--- |",
@@ -5942,7 +5942,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
-      "concept": "1. TDS on Bank Term Deposits (Section 194A, Income Tax Act)"
+      "concept": "1. TDS on Bank Term Deposits (Section 194A, Direct Tax Framework)"
     },
     "badge": "168 words"
   },
@@ -5974,7 +5974,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
       "concept": "3. Goods and Services Tax (GST) Architecture in Banking"
     },
-    "badge": "163 words"
+    "badge": "212 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking-sec-5",
@@ -5982,14 +5982,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "Practice Questions & Solved Numerical Drills",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_3_chapters-19_chapter_19_taxation_gst_tds_in_banking",
-    "description": "Q1. Under Section 194A of the Income Tax Act 1961, what is the annual interest threshold above which a bank must deduct TDS on term deposits of Senior Citizens (age 60+)?\n- (A) ₹10,000\n- (B) ₹40,0",
+    "description": "Q1. Under Section 194A of direct tax statutes (Income Tax Act 1961 / Income-tax Act 2025 framework), what is the annual interest threshold above which a bank must deduct TDS on term deposits of Se",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT & INDIRECT TAXATION: GST & TDS IN BANKING OPERATIONS",
       "concept": "Practice Questions & Solved Numerical Drills"
     },
-    "badge": "219 words"
+    "badge": "226 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault",
@@ -6003,7 +6003,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Accounting & Financial Management for Bankers (AFMB)"
     },
-    "badge": "1,786 words • 9 min read"
+    "badge": "1,807 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-2",
@@ -6018,7 +6018,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
       "concept": "1. Master Formula & Benchmark Matrix"
     },
-    "badge": "417 words"
+    "badge": "425 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-3",
@@ -6033,7 +6033,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 3 (AFMB) MASTER REVISION VAULT",
       "concept": "2. 50 Essential Examiner Traps for IIBF Paper 3 (AFMB)"
     },
-    "badge": "826 words"
+    "badge": "839 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_3_chapters-20_chapter_20_the_grand_synthesis_afmb_revision_vault-sec-4",
