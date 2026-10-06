@@ -31,16 +31,16 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               |                                    | cap: 100x annual rent (fire/theft)  |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **07: Secrecy & Disclosure**  | Tournier Doctrine; Bank Acq Acts;  | Tournier 4 exceptions: Law, bank's  |
-|                               | Income-tax Act, 1961, §133(6);     | interest, public duty, consent;     |
+|                               | Income-tax Act 1961/2025 (§133(6));| interest, public duty, consent;     |
 |                               | BNSS 2023 Sec 94 (repl. CrPC 91)   | BR Act Sec 29 is NOT secrecy waiver |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **08, 09, 10: FEMA & Remit**  | FEMA 1999; Foreign Exchange Mgt Reg| LRS: USD 250,000 / FY; NRE (§10(4)) |
-|                               | FCRA 2010; Income-tax Act, 1961    | & FCNR (§10(15)) IT-exempt; NRO:    |
+|                               | FCRA 2010; IT Act 1961/2025 Sched. | & FCNR (§10(15)) IT-exempt; NRO:    |
 |                               |                                    | 30% TDS, USD 1M/FY repatriation cap |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **11: Clean Note Policy**     | RBI Act 1934 Sec 28; RBI Note      | Stapling strictly banned; Soiled =  |
 |                               | Refund Rules 2009                  | Full; Mutilated (>= ₹50): >80% Full,|
-|                               |                                    | 40%-80% Half, <40% Nil; <₹50: >50%  |
+|                               |                                    | 40%-80% Half; Up to ₹20: >50% Full  |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **12: Negotiable Instruments**| NI Act 1881 Sec 4, 5, 6, 9, 13,    | Cheque includes electronic; Sec 138:|
 |                               | 131, 138-142; RBI CTS Directives   | 30-day notice, 15-day pay, 2-yr jail|
@@ -108,8 +108,8 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               |                                    | Agriculture: 18%; SMF: 10%          |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **31: Agricultural Finance**  | KCC Guidelines; RBI Interest       | KCC: 5 yrs; Collateral-free: ₹2.00L |
-|                               | Subvention Scheme; PMFBY           | (up to ₹3L if recovery tie-up);     |
-|                               |                                    | MISS: 3% PRI -> 4% net (up to ₹3L)  |
+|                               | Subvention Scheme (MISS); PMFBY    | (up to ₹3L if recovery tie-up);     |
+|                               |                                    | MISS: ₹5.00L (4% net on prompt pay) |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **32: MSME Architecture**     | MSMED Act 2006 (Revised Criteria   | Micro: <= ₹2.5 Cr Inv / ₹10 Cr Turn;|
 |                               | effective April 1, 2025); CGTMSE   | Small: ₹25 Cr / ₹100 Cr; Medium:    |
@@ -142,9 +142,9 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               | RBI Customer Liability MD          | ₹100/day penalty; Zero liability if |
 |                               |                                    | reported within 3 days (3rd party)  |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **40 & 41: Digital Rails**    | NPCI Architecture; Section 22 RBI  | UPI: P2P ₹1L, IPO ₹5L; UPI Lite:    |
-|                               | Act (CBDC Amendment 2022)          | ₹1,000/txn, ₹5,000 wallet; e-RUPI:   |
-|                               |                                    | ₹1 Lakh; CBDC: Sovereign token non-i|
+| **40 & 41: Digital Rails & FT**| NPCI Rails; RBI Act Sec 22 (CBDC); | UPI: ₹1L, IPO ₹5L; e-RUPI: ₹1L;     |
+|                               | RegTech & SupTech (DAKSH); Open API| RegTech (compliance) vs SupTech     |
+|                               |                                    | (DAKSH); Open Banking & Social Media|
 +-------------------------------+------------------------------------+-------------------------------------+
 | **42 & 43: Cybersecurity**    | IT Act 2000 (Amended 2008); RBI IT | Incident reporting: RBI 2-6 hrs,    |
 |                               | Governance MD 2023; CERT-In Dir    | CERT-In 6 hrs; CISO independent of  |
@@ -154,10 +154,9 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               | Corporate Governance Standards     | vs Comm, Short vs Long, Justice vs  |
 |                               |                                    | Mercy; Satyam/Enron/PNB lessons     |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **49 to 55: Employee Ethics** | Companies Act Sec 177; POSH 2013;  | POSH IC: >=10 workers, senior woman |
-|                               | DPDP Act 2023; Patents Act 1970    | chair, >=50% women; Whistleblower   |
-|                               |                                    | audit comm access; DPDP ₹250 Cr max;|
-|                               |                                    | Patent: 20 yrs; Copyright: Life+60yr|
+| **49 to 55: Employee Ethics** | Companies Act Sec 177(9)/(10); POSH| POSH IC: >=10 staff, >=50% women;   |
+|                               | 2013; DPDP Act 2023; Patents 1970  | Whistleblower Audit Comm §177(10);  |
+|                               |                                    | DPDP ₹250 Cr max; Patent: 20 yrs    |
 +----------------------------------------------------------------------------------------------------------+
 ```
 
@@ -168,7 +167,7 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 Examiners capitalize on subtle statutory updates, timing deadlines, and definitions. Memorize these 50 traps:
 
 1. **Nomination Limit (2025/2026):** Under the Banking Laws (Amendment) Act, 2025, depositors can appoint up to **four (4) simultaneous nominees** with specified percentage shares (not just one successive nominee).
-2. **Nominee Legal Status:** A nominee does **not** become the absolute beneficial owner of funds upon the depositor's demise. The nominee acts solely as a **legal trustee** holding funds on behalf of the legal heirs under succession laws.
+2. **Nominee Legal Status & Clayton's Rule:** A nominee is solely a **legal trustee** for legal heirs, not the beneficial owner. In debtor-creditor accounts, Contract Act **Sections 59–61** govern appropriation across distinct debts; in contrast, **Clayton's Rule** (*Devaynes v Noble*) applies FIFO exclusively to a **single running unbroken account** (e.g., cash credit/overdraft), requiring the bank to **break the account** on guarantor death/insolvency to preserve liability.
 3. **Locker Liability Cap:** Bank liability for loss of locker contents due to bank negligence, fire, or theft is strictly capped at **100 times the annual locker rent** (not the full declared value of contents).
 4. **Locker Term Deposit:** Banks may obtain a Term Deposit at locker allocation covering a maximum of **3 years' rent plus break-open charges**, but cannot demand disproportionate fixed deposits.
 5. **Micro Enterprises PSL Target:** The Priority Sector Lending target for Micro Enterprises is **7.5% of ANBC / CEOBE** (NOT 8.0%, which is a frequent distractor).
@@ -184,7 +183,7 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 15. **Collecting Banker Protection (Section 131):** Protection is available to the collecting banker **only for crossed cheques**, provided the bank acted in good faith and without negligence. No Section 131 protection exists for open uncrossed cheques.
 16. **Demand Draft Bearer Prohibition:** Under Section 31 of the RBI Act, 1934, no entity other than RBI or Central Government can issue a bill or note payable to bearer on demand. Hence, Demand Drafts **can never be issued payable to bearer**.
 17. **Garnishee Order Coverage:** A court Garnishee Order attaches only funds that are **debts due or accruing due** at the exact time of service of the order. It does not attach subsequent deposits or credits received after the order is served.
-18. **Income Tax Attachment & Banker's Secrecy:** Unlike a court Garnishee Order, an IT Notice under Section 226(3) is continuing and attaches both existing and future balances. Under the *Tournier* confidentiality doctrine, notices under Sections 131, 133(6), 226(3) of the Income-tax Act, 1961 or **Section 94 of BNSS 2023** (*earlier CrPC §91*) represent statutory legal compulsion; Section 29 of the BR Act is NOT a customer secrecy disclosure provision.
+18. **Income Tax Attachment & Banker's Secrecy:** Unlike a court Garnishee Order, an IT Notice under Section 226(3) is continuing and attaches both existing and future balances. Under the *Tournier* doctrine, notices under Sections 131, 133(6), and 226(3) of the Income-tax Act, 1961 (and their in-force successor provisions under the **Income-tax Act, 2025**, effective 1 April 2026) or **Section 94 of BNSS 2023** (*replacing CrPC §91*) represent legal compulsion; Section 29 of the BR Act is NOT a customer secrecy disclosure provision.
 19. **Inoperative vs. DEA Fund:** An account becomes **inoperative/dormant** if there are no customer-induced transactions for **2 years**. Balances unclaimed for **10 years** must be transferred to RBI's Depositor Education and Awareness (DEA) Fund.
 20. **UDGAM Portal:** RBI's *Unclaimed Deposits - Gateway to Access Information* (UDGAM) allows public searching of unclaimed deposits across multiple banks.
 21. **KYC Document Updating Cadence:** Periodic KYC refresh is mandated every **2 years for High Risk**, every **8 years for Medium Risk**, and every **10 years for Low Risk** customers.
@@ -196,8 +195,8 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 27. **HUF Daughter as Karta:** Post the Hindu Succession (Amendment) Act, 2005, a daughter has the exact same coparcenary rights as a son by birth, and can act as the **Karta** of the Hindu Undivided Family.
 28. **Foreign Remittance Under LRS:** The Liberalised Remittance Scheme permits resident individuals to remit up to **USD 250,000 per financial year** for permitted current and capital account transactions.
 29. **NRE vs. NRO Taxation & Repatriability:** Deposit interest is **exempt from Indian Income Tax** under Section 10(4)(ii) for NRE accounts and under Section 10(15)(iv)(fa) for FCNR(B) deposits (with legacy exemptions mapped into the Income-tax Act, 2025 schedules effective 1 April 2026). NRE/FCNR(B) funds are freely and fully repatriable abroad. In contrast, NRO account interest is **taxable under domestic law (subject to 30% TDS + cess)**, and repatriation is capped at **USD 1 Million per financial year** under FEMA.
-30. **Clean Note Policy & Mutilated Note Boundaries:** Stapling currency note packets is strictly prohibited. Under RBI Note Refund Rules: for denominations of **₹50 and above**, full value requires area **> 80%** (at exactly 80%, only half value is payable; 40% to 80% yields half value; < 40% is rejected). For denominations **below ₹50**, full value requires single undivided piece **> 50%** (at $\le$ 50%, note is rejected; no half value exists).
-31. **Counterfeit Note Recovery:** When 5 or more counterfeit notes are detected in a single transaction, the bank must file a **First Information Report (FIR)** with the police; for up to 4 notes, a consolidated monthly report is sent.
+30. **Clean Note Policy & Mutilated Note Boundaries:** Stapling currency note packets is strictly prohibited. Under RBI Note Refund Rules: for denominations of **₹50 and above**, full value requires area **> 80%** (at 80%, half value; 40%–80% half; < 40% rejected). For denominations **up to ₹20 (₹1, ₹2, ₹5, ₹10, and ₹20)**, full value requires single undivided piece **> 50%** (at $\le$ 50%, note is rejected; no half value exists). (Notice: ₹20 note follows the up to ₹20 rule, NOT the ₹50 rule).
+31. **KCC / MISS Ceilings & Counterfeit Notes:** Under MISS, short-term crop loans are eligible up to **₹5.00 Lakh** (enhanced 11 March 2026; net **4.0% p.a.** via 1.5% subvention + 3% PRI). However, the **mandatory collateral-free agriculture ceiling remains ₹2.00 Lakh** (up to ₹3.00 Lakh with recovery tie-up). For counterfeit notes, an **FIR** is mandatory only for **5 or more notes** in one transaction (consolidated monthly report for 1–4 notes).
 32. **Working Capital Nayak Norm & CGTMSE Coverage:** For working capital limits up to ₹5 Crore, requirement is assessed at minimum **25% of turnover** (20% bank, 5% borrower). Separately, under CGTMSE (up to ₹10 Crore), guarantee cover is **90% for women entrepreneurs and Agniveers**, **85% for Micro up to ₹5L, SC/ST, PwD, Aspirational Districts, and ZED units**, **80% for NER, J&K, and Ladakh**, and **75% standard**.
 33. **Tandon Committee Method II:** Current Ratio must be at least **1.33:1**; maximum bank finance is 75% of Current Assets minus Current Liabilities other than bank borrowings.
 34. **External Benchmark Lending Rate (EBLR):** Mandatory for Scheduled Commercial Banks (excl. RRBs) across all new floating-rate personal/retail loans, MSE loans, and **Medium Enterprise loans (effective 1 April 2020)**. Linked to RBI Repo, 3M/6M T-Bills, or other FBIL benchmarks with mandatory interest rate reset at least **once every three months**.
@@ -213,9 +212,9 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 44. **Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021):** Award compensation limit is up to **₹20 Lakh** for actual financial loss, plus an additional award up to **₹1 Lakh** for loss of complainant's time, expenses, and mental agony.
 45. **Failed ATM TAT Compensation:** If an ATM debits an account but fails to dispense cash, the bank must proactively reverse the debit within **T + 5 calendar days**. Failure attracts a mandatory penalty of **₹100 per day of delay** payable to the customer.
 46. **Customer Liability 3-Day Rule:** In third-party cyber breaches where neither the bank nor the customer is at fault, the customer has **Zero Liability** if reported within **3 working days**.
-47. **e-RUPI Voucher Cap:** The ceiling for e-RUPI vouchers issued under government schemes is **₹1,00,000 per voucher**, with multiple redemptions permitted until exhausted.
+47. **e-RUPI, RegTech vs. SupTech & Open Banking:** e-RUPI government vouchers are capped at **₹1,00,000**. In digital banking, **RegTech** automates compliance/reporting for banks, while **SupTech** (e.g., RBI's **DAKSH**) automates supervisory oversight for regulators. Under **Open Banking**, banks provide Open APIs to regulated TPPs with customer consent; **Social Media Banking** (e.g., WhatsApp) is strictly restricted to secondary/inquiry banking with MFA.
 48. **CISO Independence:** The Chief Information Security Officer (CISO) must be an independent executive completely decoupled from IT Operations / Head of IT and **must not report to the Head of IT**. The CISO reports to executive management (MD/CEO or ED) or designated Risk function, with direct reporting access to the Board or IT Strategy Committee.
-49. **POSH Internal Committee Quorum:** The Internal Committee under the POSH Act, 2013 requires that at least **50% of its members must be women**, and the Presiding Officer must be a senior woman employee.
+49. **POSH Quorum & Whistleblower Sections:** Under the POSH Act, 2013, the Internal Committee requires **$\ge$ 50% women** and a senior woman presiding officer. Under the Companies Act, 2013, the vigil mechanism is established under **Section 177(9)**, whereas **Section 177(10)** statutorily guarantees **direct access to the Audit Committee Chairperson** and safeguards against victimisation.
 50. **DPDP Act Maximum Penalty & Phased Rollout:** Under the Schedule to the Digital Personal Data Protection Act, 2023, the maximum statutory financial penalty is **₹250 Crore** for failure to observe reasonable security safeguards. (Note for examinations: Under the 13 November 2025 commencement notification, substantive adjudication and penalty powers under Sections 28–34 follow an 18-month phased rollout timeline).
 
 ---
@@ -274,16 +273,16 @@ D) 1, 2, 3, and 4
 ## 30.4 Diagnostic Solutions & Analysis
 
 1. **Correct Answer: B**
-   * *Analysis:* Statements 1, 3, and 4 are correct. Statement 2 is incorrect because zero liability under the RBI Customer Liability Master Direction requires the customer to report a third-party breach within **3 working days** (reporting between 4 to 7 working days caps customer liability at ₹5,000/₹10,000/₹25,000; reporting beyond 7 working days defaults to bank policy).
+   * *Analysis:* Statements 1, 3, and 4 are correct. Statement 2 is incorrect: zero liability under RBI Customer Liability Directions requires reporting a third-party breach within **3 working days** (4–7 working days caps liability at ₹5,000–₹25,000; beyond 7 days depends on board-approved policy).
 
 2. **Correct Answer: A**
-   * *Analysis:* Under Section 77(1) provisos of the Companies Act, 2013, charges must be registered within 30 days of creation. The RoC may allow filing within 60 days from creation on payment of additional fees. If not filed within that period, the RoC may permit filing within a further 60 days upon payment of *ad-valorem* fees (maximum statutory window under RoC power is 120 days from creation). Beyond 120 days, condonation of delay must be sought from the Central Government / Regional Director under Section 87.
+   * *Analysis:* Under Companies Act Section 77(1), charges must be registered within 30 days. The RoC may allow extension up to 60 days from creation with additional fees, plus a further 60 days with *ad-valorem* fees (total 120 days). Beyond 120 days, condonation requires the Regional Director under Section 87.
 
 3. **Correct Answer: B**
-   * *Analysis:* Under the RBI Harmonised TAT framework, the prescribed TAT for proactive auto-reversal of failed ATM transactions is **T + 5 calendar days**. If the bank resolves the transaction on T + 8 days, there is an overdue delay of 3 calendar days. The bank is legally mandated to auto-credit ₹100 per day of delay ($3 \times ₹100 = ₹300$) alongside the principal reversal of ₹5,000, without waiting for a customer dispute claim.
+   * *Analysis:* Under RBI Harmonised TAT, auto-reversal of failed ATM transactions is **T + 5 calendar days**. Resolution at T + 8 incurs 3 days overdue delay. The bank must auto-credit ₹100/day ($3 \times ₹100 = ₹300$) compensation plus ₹5,000 principal without requiring a customer claim.
 
 4. **Correct Answer: B**
-   * *Analysis:* Exception 3 to Section 28 of the Indian Contract Act, 1872 explicitly validates bank guarantee clauses that extinguish the rights of the creditor or discharge the bank guarantee at the end of a specified period, provided that such claim period is **not less than one year from the date of occurring or non-occurring of a specified event**. (The 3-year and 30-year windows represent the Limitation Act periods for filing a legal suit in court if the demand was lodged within the valid claim period).
+   * *Analysis:* Exception 3 to Section 28 of the Indian Contract Act, 1872 validates bank guarantee claim periods of **not less than one year from the date of occurring or non-occurring of a specified event** (distinct from 3/30-year Limitation Act suit windows).
 
 5. **Correct Answer: A**
-   * *Analysis:* Statements 1, 2, and 3 are correct. Under the Schedule to the DPDP Act, 2023, the statutory penalty ceiling is ₹250 Crore (subject to the 18-month phased rollout of Sections 28–34 under the 13 November 2025 notification). Statement 4 is incorrect because Section 3(k) of the Indian Patents Act, 1970 explicitly excludes a computer program *per se*, mathematical methods, business methods, or algorithms from patentability.
+   * *Analysis:* Statements 1, 2, and 3 are correct (DPDP Act maximum penalty is ₹250 Crore under the Schedule, subject to the 18-month phased rollout of Sections 28–34 under the 13 November 2025 notification). Statement 4 is incorrect because Section 3(k) of the Patents Act, 1970 excludes a computer program *per se* or algorithm from patentability.

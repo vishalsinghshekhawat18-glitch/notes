@@ -46,17 +46,17 @@ Banks failing to achieve their priority sector targets or sub-targets are not pe
 • **KCC Limit Computation:**
   $$\text{1st Year Limit} = (\text{Scale of Finance} \times \text{Crop Area}) + \text{10% for Household / Post-Harvest} + \text{20% for Maintenance of Farm Assets}$$
 • **Interest Subvention Scheme (Modified Interest Subvention Scheme - MISS):**
-  - Standard lending rate on crop loans up to **₹3 Lakh** is 9.0% p.a.
-  - Government provides a **1.5% p.a. interest subvention** to lending institutions, lowering basic rate to 7.0%.
+  - Standard headline lending rate on short-term crop loans up to **₹5.00 Lakh** is 9.0% p.a. (ceiling enhanced from ₹3.00 Lakh to ₹5.00 Lakh by Government of India on 11 March 2026).
+  - Government provides a **1.5% p.a. interest subvention** to lending institutions, lowering basic lending rate to 7.0%.
   - Farmers ensuring prompt repayment receive an additional **3.0% Prompt Repayment Incentive (PRI)**.
-  - **Effective Interest Rate to Farmers:** Exactly **4.0% p.a.** on crop loans up to ₹3 Lakh!
+  - **Effective Interest Rate to Farmers:** Exactly **4.0% p.a.** on prompt repayment for short-term loans up to **₹5.00 Lakh**!
 • **Collateral-Free Agricultural Loan Limit (RBI Enhanced Benchmark):**
-  - The universal mandatory threshold for collateral-free agricultural loans stands enhanced from ₹1.60 Lakh to **₹2.00 Lakh per borrower** (effective December 2024 per RBI circular; banks are strictly prohibited from demanding margin or collateral).
+  - The universal mandatory threshold for collateral-free agricultural loans stands at **₹2.00 Lakh per borrower** (enhanced from ₹1.60 Lakh per RBI circular; banks are strictly prohibited from demanding margin or collateral).
   - **Tie-Up Recovery Exception:** Under established RBI/NABARD operational guidelines, banks may waive collateral/margin requirements **up to ₹3.00 Lakh** where formal tripartite **tie-up arrangements for recovery** exist (e.g., direct deduction and recovery through sugar factories, dairy processing federations, or state procurement agencies).
 • **Distinction Between Agriculture Credit Thresholds (Top Examiner Trap):**
-  1. *Universal Mandatory Collateral-Free Ceiling:* Exactly **₹2.00 Lakh** (RBI Dec 2024 benchmark).
-  2. *Discretionary Collateral Waiver with Recovery Tie-Up:* Up to **₹3.00 Lakh** (RBI/NABARD operational guidelines).
-  3. *Interest Subvention (MISS) Ceiling:* Up to **₹3.00 Lakh** (yielding 4.0% net rate on prompt repayment).
+  1. *Universal Mandatory Collateral-Free Ceiling:* Exactly **₹2.00 Lakh** (universal RBI benchmark).
+  2. *Discretionary Collateral Waiver with Recovery Tie-Up:* Up to **₹3.00 Lakh** (RBI/NABARD guidelines).
+  3. *Interest Subvention (MISS) Ceiling:* Up to **₹5.00 Lakh** (enhanced 11 March 2026 from ₹3 Lakh; yields 4.0% net rate on prompt repayment).
   4. *Overall KCC Limit:* Determined by cropping pattern, acreage, and Scale of Finance for 5 years with 10% annual compounding step-up.
 
 ### 3. Pradhan Mantri Fasal Bima Yojana (PMFBY)
@@ -78,7 +78,7 @@ B. 7.5% of ANBC
 C. 8.0% of ANBC  
 D. 10.0% of ANBC  
 
-**Q2. Under the Modified Interest Subvention Scheme (MISS) for agricultural crop loans up to ₹3 Lakh routed through the Kisan Credit Card (KCC), what is the net effective interest rate payable by a farmer who repays the advance promptly on time?**  
+**Q2. Under the Modified Interest Subvention Scheme (MISS) for short-term agricultural crop loans routed through the Kisan Credit Card (KCC) (ceiling enhanced to ₹5.00 Lakh in March 2026), what is the net effective interest rate payable by a farmer who repays the advance promptly on time?**  
 A. 2.0% p.a.  
 B. 3.0% p.a.  
 C. 4.0% p.a.  
@@ -95,5 +95,5 @@ D. 5.0% of Sum Insured
 ## § 19.4 Answer Key & Detailed Explanatory Rationale
 
 • **Q1 — Answer: B.** Under RBI's current PSL Master Directions, the mandatory sub-target for advances to **Micro Enterprises is 7.5% of ANBC / CEOBE** for all domestic commercial banks and foreign banks with $\ge$ 20 branches. (An option stating 8% is outdated and incorrect).  
-• **Q2 — Answer: C.** The basic lending rate is 9.0%. With the GoI 1.5% interest subvention, the nominal rate is 7.0%. Farmers ensuring prompt repayment receive an additional 3.0% Prompt Repayment Incentive (PRI), resulting in a net effective borrowing cost of **4.0% p.a.** up to ₹3 Lakh.  
+• **Q2 — Answer: C.** The basic headline rate is 9.0%. With the GoI 1.5% interest subvention to financial institutions, the nominal lending rate is 7.0%. Farmers ensuring prompt repayment within one year receive an additional 3.0% Prompt Repayment Incentive (PRI), resulting in a net effective borrowing cost of **4.0% p.a.** Under the 11 March 2026 Government enhancement, this MISS interest subvention benefit is extended for crop loans up to **₹5.00 Lakh** (up from ₹3.00 Lakh), while the mandatory collateral-free ceiling remains ₹2.00 Lakh.  
 • **Q3 — Answer: C.** Under PMFBY, the farmer premium is statutorily capped at **2.0% of Sum Insured for Kharif food and oilseed crops**, 1.5% for Rabi crops, and 5.0% for commercial/horticultural crops.

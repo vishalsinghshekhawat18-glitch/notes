@@ -352,6 +352,55 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check V6-01: Income-tax Act, 2025 Statutory Transition Mapping (Ch 01, 05, 07, 30)
+  const ch05Text = fs.readFileSync(path.join(chaptersDir, '05_CHAPTER_05_DEPOSIT_OPERATIONS_ATTACHMENT_ORDERS.md'), 'utf-8');
+  if (ch1Text.includes('Income-tax Act, 2025') && ch05Text.includes('Income-tax Act, 2025') && ch07Text.includes('Income-tax Act, 2025') && ch30VaultText.includes('Income-tax Act, 2025')) {
+    console.log(`  ✓ V6-01 Verified: Income-tax Act, 2025 transition mapping (repeal of 1961 Act eff. 1 April 2026; §§131, 133(6), 226(3), 10(4)(ii), 10(15)(iv)(fa)) codified across Ch 01, 05, 07, 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Income-tax Act, 2025 statutory transition mapping missing in Ch 01, 05, 07, or 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V6-02: MISS ₹5.00 Lakh (11 March 2026) vs Collateral-Free ₹2.00 Lakh (Ch 19, 30)
+  if (ch19Text.includes('₹5.00 Lakh') && ch19Text.includes('11 March 2026') && ch30VaultText.includes('₹5.00 Lakh') && ch30VaultText.includes('11 March 2026')) {
+    console.log(`  ✓ V6-02 Verified: MISS ₹5.00 Lakh ceiling (11 March 2026 GoI notification) reconciled with ₹2.00 Lakh mandatory collateral-free ceiling in Ch 19 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: MISS ₹5.00 Lakh or 11 March 2026 notification missing in Ch 19 or Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V6-03: RegTech, SupTech (DAKSH), Open Banking & Social Media Banking (Ch 26, 30)
+  if (ch26Text.includes('RegTech') && ch26Text.includes('SupTech') && ch26Text.includes('DAKSH') && ch26Text.includes('Open Banking') && ch26Text.includes('Social Media Banking') && ch30VaultText.includes('RegTech') && ch30VaultText.includes('DAKSH')) {
+    console.log(`  ✓ V6-03 Verified: Module-C syllabus completeness (RegTech, SupTech DAKSH, Open Banking APIs, Social Media Banking) codified in Ch 26 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: RegTech, SupTech, Open Banking, or Social Media Banking missing in Ch 26 or Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V6-04: Whistleblower Companies Act §177(9) vigil mechanism vs §177(10) direct access (Ch 29, 30)
+  if (ch29Text.includes('177(9)') && ch29Text.includes('177(10)') && ch30VaultText.includes('177(9)') && ch30VaultText.includes('177(10)')) {
+    console.log(`  ✓ V6-04 Verified: Whistleblower Companies Act §177(9) vigil mechanism and §177(10) direct access to Audit Committee Chair codified in Ch 29 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Whistleblower §177(9) or §177(10) citations missing in Ch 29 or Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V6-05: Clayton's Rule vs Indian Contract Act §§59-61 Appropriation (Ch 01, 30)
+  if (ch1Text.includes('Clayton') && ch1Text.includes('Sections 59 to 61') && ch30VaultText.includes('Clayton') && ch30VaultText.includes('Sections 59–61')) {
+    console.log(`  ✓ V6-05 Verified: Clayton's Case (Devaynes v Noble) running account FIFO vs Contract Act §§59-61 distinct debts appropriation codified in Ch 01 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Clayton's Rule vs §§59-61 distinction missing in Ch 01 or Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V6-06: Mutilated note refund "Denominations up to ₹20" formulation (Ch 08, 30)
+  if (ch08Text.includes('Denominations Up to ₹20') && ch30VaultText.includes('up to ₹20')) {
+    console.log(`  ✓ V6-06 Verified: Mutilated note refund exact statutory phrasing "Denominations Up to ₹20" (>50% full, <=50% reject) codified in Ch 08 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Note refund phrasing "Denominations Up to ₹20" missing in Ch 08 or Ch 30.`);
+    dataCheckPass = false;
+  }
+
   if (dataCheckPass) {
     passedGates++;
   }

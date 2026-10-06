@@ -191,7 +191,41 @@ The Account Aggregator (AA) framework is a consent-driven, secure data-sharing f
 
 ---
 
-## 26.5 Practice Drill: Examination Diagnostic Questions
+## 26.5 Emerging FinTech Paradigms: RegTech, SupTech, Open Banking & Social Media Banking
+
+Modern banking technology extends beyond retail payment rails into automated compliance, supervisory data pipelines, and conversational interfaces:
+
+```
++-----------------------------------------------------------------------------------+
+|              EMERGING FINTECH PARADIGMS: REGTECH, SUPTECH & OPEN BANKING          |
++-----------------------------------------------------------------------------------+
+| Paradigm           | Core Architectural Definition & Banking Application         |
+| :---               | :---                                                         |
+| **RegTech**        | **Regulatory Technology:** Deployed by Regulated Entities    |
+|                    | (commercial banks, NBFCs) using AI/ML, cloud, and big data   |
+|                    | to automate statutory compliance, real-time AML/CFT          |
+|                    | transaction screening, fraud analytics, and regulatory returns.|
++--------------------+--------------------------------------------------------------+
+| **SupTech**        | **Supervisory Technology:** Deployed by supervisory          |
+|                    | authorities (RBI, SEBI, IRDAI) to digitize and automate      |
+|                    | supervisory oversight, real-time risk surveillance, and      |
+|                    | off-site inspections (e.g., RBI's *DAKSH* supervisory system).|
++--------------------+--------------------------------------------------------------+
+| **Open Banking**   | **API-Driven Architecture:** Secure, standardized Application|
+|                    | Programming Interfaces (APIs) enabling authorized third-party|
+|                    | providers (FinTechs) to build services around banks with     |
+|                    | customer consent (underpins Account Aggregators & Neo-banks).|
++--------------------+--------------------------------------------------------------+
+| **Social Media**   | **Conversational Banking:** Offering non-financial & balance |
+| **Banking**        | inquiries, mini-statements, and limited remittances via      |
+|                    | verified messaging platforms (e.g. WhatsApp/RCS Banking)     |
+|                    | backed by end-to-end encryption, 2FA, and RBI security norms.|
++-----------------------------------------------------------------------------------+
+```
+
+---
+
+## 26.6 Practice Drill: Examination Diagnostic Questions
 
 ### Question 1
 Under the Reserve Bank of India and NPCI regulatory guidelines, which of the following statements regarding the Unified Payments Interface (UPI) transaction value caps is correct?
@@ -230,7 +264,7 @@ D) Aadhaar Number + Registered Mobile Number OTP only
 
 ---
 
-## 26.6 Diagnostic Solutions & Analysis
+## 26.7 Diagnostic Solutions & Analysis
 
 1. **Correct Answer: B**
    * *Analysis:* NPCI and RBI have raised the transaction ceiling for specific categories under UPI: payments towards IPO applications and the RBI Retail Direct Scheme (G-Secs), as well as educational institutions, direct tax payments, and healthcare, have a limit of **₹5,00,000** per transaction, compared to the standard ₹1,00,000 limit. Statement C is incorrect because UPI Lite permits individual pinless transactions up to **₹1,000** (with an aggregate wallet limit of **₹5,000**), not ₹5,000 per transaction. Statement D is incorrect because UPI 2.0 explicitly permits linking Overdraft (OD) accounts.

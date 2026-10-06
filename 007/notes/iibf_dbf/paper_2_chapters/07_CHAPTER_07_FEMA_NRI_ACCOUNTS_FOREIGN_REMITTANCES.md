@@ -44,7 +44,7 @@ Foreign exchange operations in India are regulated under the Foreign Exchange Ma
 | **Permissible Account Nature** | Savings, Current, Recurring, Fixed Deposit. | Savings, Current, Recurring, Fixed Deposit. | **TERM DEPOSIT ONLY** (Maturity 1 to 5 years). | Non-interest bearing current account only. |
 | **Exchange Rate Risk** | **Depositor bears risk** (conversion from forex to INR). | Depositor bears risk. | **ZERO exchange risk to depositor** (Bank bears exchange risk). | Depositor bears risk. |
 
-*\*Note on 2026 Tax Transition: Legacy Section 10 exemptions map into Income-tax Act, 2025 schedules effective 1 April 2026.*
+*\*Note on 2026 Statutory Tax Transition: The legacy Income-tax Act, 1961 was repealed effective 1 April 2026 upon the commencement of the Income-tax Act, 2025. While banking examinations test the historical statutory sections (Section 10(4)(ii) for NRE and Section 10(15)(iv)(fa) for FCNR(B)), these tax-exempt benefits continue seamlessly mapped under the corresponding schedules of the Income-tax Act, 2025.*
 
 ### 2. Immovable Property Acquisition by NRIs/OCIs
 
@@ -78,5 +78,5 @@ D. Ready-to-move industrial factory warehouse
 ## § 7.4 Answer Key & Detailed Explanatory Rationale
 
 • **Q1 — Answer: B.** Under the Liberalised Remittance Scheme (LRS), resident individuals can freely remit up to **USD 250,000 per financial year** (April to March) for permissible current or capital account transactions.  
-• **Q2 — Answer: C.** An **FCNR(B)** account is maintained in designated foreign currencies (USD, GBP, EUR, JPY, etc.) as a term deposit (1 to 5 years). The interest earned is completely exempt from Indian income tax (Income-tax Act §10(15)(iv)(fa)), and because the principal and interest are returned in foreign currency, the depositor bears **zero foreign exchange risk**.  
+• **Q2 — Answer: C.** An **FCNR(B)** account is maintained in designated foreign currencies (USD, GBP, EUR, JPY, etc.) as a term deposit (1 to 5 years). The interest earned is completely exempt from Indian income tax (Income-tax Act §10(15)(iv)(fa), mapped into Income-tax Act, 2025 schedules effective 1 April 2026), and because the principal and interest are returned in foreign currency, the depositor bears **zero foreign exchange risk**.  
 • **Q3 — Answer: C.** Under FEMA (Non-debt Instruments) Rules, NRIs and OCIs have general permission to purchase residential and commercial properties in India. However, they **cannot acquire agricultural land, plantation property, or farm houses by purchase** under the general permission framework (acquisition is permitted only by way of inheritance from a resident).

@@ -62,24 +62,27 @@ The right of set-off empowers a banker to combine two or more accounts belonging
   - Joint account (A & B) and Individual account (A alone): **No Set-off** of joint funds against individual liability.
   - Trust account and Trustee personal account: **Strictly Prohibited**.
 
-### 3. Clayton's Rule (Sections 59 to 61, Indian Contract Act, 1872)
+### 3. Appropriation of Payments (Sections 59–61, Contract Act) & Clayton's Rule
 
-Established in *Devaynes v. Noble (Clayton's Case, 1816)*, Clayton's rule governs the statutory appropriation of payments in running open accounts (Cash Credit / Overdraft):
-• **Statutory Principles of Appropriation:**
-  - **Section 59:** Debtor has the first right to indicate to which specific debt a payment should be applied.
-  - **Section 60:** If debtor fails to indicate, the creditor (bank) has the discretion to apply it to any lawful debt, including a time-barred debt (but not a disputed debt).
-  - **Section 61 (Clayton's Rule):** If neither party appropriates, the law applies the payment in chronological order: **the earliest credit discharges the earliest debit**.
-• **Operational Hazard in Banking:** In a running cash credit account, if a guarantor dies, retires, or a partner withdraws, the bank must **immediately freeze (break) the existing account** and open a new running account for subsequent operations. If the bank fails to break the account, subsequent credits by the surviving borrower automatically extinguish the pre-death guaranteed debits under Clayton's Rule, while new debits constitute fresh unsecured advances, releasing the estate of the deceased guarantor!
+Banking operations distinguish between the statutory rules of appropriation across distinct debts and the common-law rule governing running accounts:
+• **Statutory Appropriation under Indian Contract Act, 1872 (Sections 59 to 61):**
+  - **Section 59 (Debtor's Right):** Where a debtor owes several distinct debts to a creditor, the debtor has the primary statutory right to indicate (expressly or impliedly) to which debt a payment should be applied.
+  - **Section 60 (Creditor's Discretion):** If the debtor omits to intimate, the creditor (bank) has the discretion to apply it to any lawful debt due, including a time-barred debt (but not a disputed or unlawful debt).
+  - **Section 61 (Appropriation by Operation of Law):** Where neither party makes an appropriation, the law applies payments in chronological order to discharge debts in order of time (whether time-barred or not).
+• **The Rule in Clayton's Case (*Devaynes v. Noble, 1816*):**
+  - An English common-law doctrine applying specifically to **running, unbroken current and cash credit accounts** where items of debit and credit form one blended continuous account.
+  - In the absence of specific appropriation, debits and credits form a continuous stream where **the earliest credit automatically discharges the earliest debit** (First In, First Out).
+  - **Operational Hazard ("Breaking of the Account"):** In a running cash credit account, upon the death, retirement, or insolvency of a partner or guarantor, the bank must **immediately freeze (break) the existing account** and open a separate new account for subsequent transactions. If the bank fails to break the account, subsequent credits deposited by the customer automatically extinguish the guaranteed pre-event liability under Clayton's Rule, while subsequent debits constitute fresh unsecured advances, releasing the estate of the deceased guarantor!
 
 ### 4. Banker's Duty of Secrecy: Tournier Doctrine & Statutory Exceptions
 
 The banker's implied duty of confidentiality established in *Tournier v. National Provincial Bank (1924)* (codified for public sector banks in Section 13 of Banking Companies Acquisition Acts 1970/1980 and Section 44 of SBI Act 1955) permits disclosure only under four strictly demarcated exceptions:
 1. **Under Compulsion of Law:**
-   - Income Tax Act, 1961: Notice under Section 131, Section 133(6) (requisition of information), or Section 226(3) (garnishee notice).
-   - Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS): Section 94 (*earlier Section 91 of CrPC*) — summons to produce account documents.
-   - Prevention of Money Laundering Act, 2002: Section 12 (mandatory CTR/STR reporting to FIU-IND).
-   - Bankers' Books Evidence Act, 1891 / Bharatiya Sakshya Adhiniyam, 2023: Certified copies pursuant to court orders.
-   - Foreign Exchange Management Act, 1999 (FEMA): Enforcement Directorate statutory requisitions.
+   - **Income Tax Notices (Statutory Transition):** Requisitions under Section 131, Section 133(6) (calling for information), or Section 226(3) (garnishee notice) of the legacy Income-tax Act, 1961 (and their corresponding statutory powers under the newly enacted Income-tax Act, 2025 effective from 1 April 2026).
+   - **Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS):** Section 94 (*earlier Section 91 of CrPC*) — summons to produce account documents.
+   - **Prevention of Money Laundering Act, 2002:** Section 12 (mandatory CTR/STR reporting to FIU-IND).
+   - **Bankers' Books Evidence Act, 1891 / Bharatiya Sakshya Adhiniyam, 2023:** Certified copies pursuant to court orders.
+   - **Foreign Exchange Management Act, 1999 (FEMA):** Enforcement Directorate statutory requisitions.
 2. **Duty to the Public to Disclose:** Disclosures to prevent treason, state crimes, money laundering networks, or public danger (*Tournier* doctrine).
 3. **In the Interests of the Bank:** Recovery suits before DRT or Civil Court, Section 13(2) SARFAESI notices, asserting banker's lien/set-off, or defending against litigation by the borrower.
 4. **Express or Implied Consent of Customer:** Banker's status references provided with explicit customer authorization; mandatory sharing with Credit Information Companies (CICs: CIBIL, Equifax, Experian, CRIF) under the Credit Information Companies (Regulation) Act, 2005.

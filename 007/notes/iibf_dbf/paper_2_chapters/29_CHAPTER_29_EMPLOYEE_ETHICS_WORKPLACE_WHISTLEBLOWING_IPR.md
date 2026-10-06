@@ -83,15 +83,17 @@ Whistleblowing is the disclosure by an employee or stakeholder of corrupt, illeg
 +-----------------------------------------------------------------------------------+
 |                                                                                   |
 |  [ Statutory Foundations ]                                                        |
-|  * Section 177(9) of the Companies Act, 2013: Every listed company, companies     |
-|    accepting deposits from public, and companies borrowing > ₹50 Cr from banks.   |
+|  * Section 177(9) of the Companies Act, 2013: Mandates establishment of a Vigil   |
+|    Mechanism for listed companies, deposit-taking entities, and borrowers > ₹50Cr.|
+|  * Section 177(10) of the Companies Act, 2013: Statutorily mandates safeguards     |
+|    against victimisation and guarantees direct access to the Audit Committee Chair.|
 |  * Regulation 22 of SEBI (LODR) Regulations, 2015 for listed entities.            |
 |                                                                                   |
 |  [ Core Structural Protections ]                                                  |
-|  * Direct Access to Audit Committee: Provides direct, unhindered access to the    |
-|    Chairperson of the Board's Audit Committee in appropriate or exceptional cases.|
-|  * Protection Against Victimization: Total statutory protection against retaliatory|
-|    discharge, demotion, suspension, harassment, or adverse performance appraisals.|
+|  * Direct Access to Audit Committee: Under Section 177(10), guarantees direct,   |
+|    unhindered access to the Chairperson of the Audit Committee in exceptional cases.|
+|  * Protection Against Victimization: Statutory protection under Section 177(10)   |
+|    against retaliatory discharge, demotion, suspension, or adverse appraisal.     |
 |  * Confidentiality of Identity: Whistleblower identity is protected; anonymous    |
 |    complaints containing verifiable, concrete evidence must be investigated.      |
 |                                                                                   |
@@ -179,10 +181,10 @@ C) The IC must be chaired by the Chief Human Resources Officer, and all members 
 D) An IC is required only if the administrative unit employs more than 100 workers.
 
 ### Question 2
-Under Section 177(9) of the Companies Act, 2013 and SEBI Listing Regulations, what critical safeguard is guaranteed to a corporate employee invoking the Vigil Mechanism (Whistleblower policy)?
+Under Section 177(9) & (10) of the Companies Act, 2013 and SEBI Listing Regulations, what critical safeguard is statutorily guaranteed to a corporate employee invoking the Vigil Mechanism (Whistleblower policy)?
 A) An immediate cash reward equivalent to 10% of the fraudulent amount uncovered.
 B) Absolute immunity from any future transfers across branch locations.
-C) Direct access to the Chairperson of the Audit Committee in appropriate cases, and complete statutory protection against retaliatory victimization.
+C) Direct access to the Chairperson of the Audit Committee in appropriate cases under Section 177(10), and complete statutory protection against retaliatory victimization.
 D) The automatic filing of an FIR with the Central Bureau of Investigation (CBI).
 
 ### Question 3
@@ -214,7 +216,7 @@ D) Author's lifetime plus 60 years; only if registered through the RBI.
    * *Analysis:* Under Section 4 of the POSH Act, 2013, every workplace employing 10 or more workers must constitute an Internal Committee (IC). The Presiding Officer must be a senior woman employee; at least two employee members must be committed to the cause of women; one member must be drawn from an NGO or familiar with harassment issues; and **at least 50% of the total committee members must be women**.
 
 2. **Correct Answer: C**
-   * *Analysis:* The Vigil Mechanism mandated by the Companies Act, 2013 (Section 177) and SEBI LODR Regulations provides for direct access to the Chairperson of the Audit Committee in exceptional cases. It guarantees strict confidentiality and protection against victimization or adverse retaliatory employment action.
+   * *Analysis:* While Section 177(9) of the Companies Act, 2013 mandates the establishment of a Vigil Mechanism, **Section 177(10)** explicitly provides for direct access to the Chairperson of the Audit Committee in appropriate or exceptional cases, alongside statutory safeguards against retaliatory victimisation.
 
 3. **Correct Answer: C**
    * *Analysis:* Under the Schedule to the DPDP Act, 2023, the maximum statutory financial penalty is **₹250 Crore** for significant failure to observe reasonable security safeguards. (Note for examinations: Under the 13 November 2025 commencement notification, substantive adjudication and penalty powers under Sections 28–34 follow an 18-month phased rollout timeline).

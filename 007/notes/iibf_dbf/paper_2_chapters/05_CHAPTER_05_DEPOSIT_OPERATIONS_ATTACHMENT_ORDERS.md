@@ -31,13 +31,15 @@ Deposit accounts represent the primary liabilities of a commercial bank, requiri
 
 ### 1. Master Comparative Framework
 
-| Dimension | Garnishee Order (CPC Order XXI Rule 46) | Income Tax Attachment (IT Act Sec 226(3)) |
+| Dimension | Garnishee Order (CPC Order XXI Rule 46) | Income Tax Attachment (IT Act Sec 226(3) / 2025 Transition)* |
 | :--- | :--- | :--- |
 | **Issuing Authority** | Competent Civil Court execution of money decree. | Tax Recovery Officer (TRO) / Assessing Officer. |
 | **Procedural Stages** | Two-stage: Order Nisi (interim) & Order Absolute. | Single administrative attachment notice. |
 | **Scope of Attachment** | Strictly debts **"due or accruing due"** at moment of service. Does NOT attach future credits. | Attaches money due **AND "money that may become due"** subsequently until tax debt is satisfied. |
 | **Joint Account Operation** | Order against A alone **CANNOT attach joint account (A & B)**. | Attaches proportionate share of debtor unless proven otherwise. |
 | **Sovereign Priority** | Subordinate to government tax attachments. | Priority as Crown Debt; takes precedence over civil Garnishee, **BUT cannot override prior pledge/lien**. |
+
+*\*Statutory Transition Note:* Section 226(3) of the Income-tax Act, 1961 represents the classic statutory garnishee authority tested in banking examinations. Following the repeal of the 1961 Act effective 1 April 2026, identical continuing attachment powers are preserved and mapped into the recovery provisions of the Income-tax Act, 2025.
 
 ### 2. Legal Scope: Debts "Due or Accruing Due"
 

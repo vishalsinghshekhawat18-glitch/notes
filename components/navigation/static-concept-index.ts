@@ -2392,7 +2392,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,793 words • 9 min read"
+    "badge": "1,916 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-2",
@@ -2422,7 +2422,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "BANKER-CUSTOMER RELATIONSHIP, RIGHTS & GENERAL DUTIES",
       "concept": "§ 1.2 Unit 07: Banker's Special Relationship, Rights & Duties"
     },
-    "badge": "726 words"
+    "badge": "849 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-01_chapter_01_banker_customer_relationship_rights_duties-sec-4",
@@ -2673,7 +2673,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,083 words • 5 min read"
+    "badge": "1,134 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders-sec-2",
@@ -2696,14 +2696,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 5.2 Court Orders: Garnishee Orders vs. Income Tax Attachments",
     "slug": "sec-3",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders",
-    "description": "1. Master Comparative Framework\n\n| Dimension | Garnishee Order (CPC Order XXI Rule 46) | Income Tax Attachment (IT Act Sec 226(3)) |\n| :--- | :--- | :--- |\n| Issuing Authority | Competent Civi",
+    "description": "1. Master Comparative Framework\n\n| Dimension | Garnishee Order (CPC Order XXI Rule 46) | Income Tax Attachment (IT Act Sec 226(3) / 2025 Transition) |\n| :--- | :--- | :--- |\n| Issuing Authority",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "OPERATIONAL DEPOSIT ACCOUNTS, INOPERATIVE ACCOUNTS & ATTACHMENT ORDERS",
       "concept": "§ 5.2 Court Orders: Garnishee Orders vs. Income Tax Attachments"
     },
-    "badge": "268 words"
+    "badge": "319 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-05_chapter_05_deposit_operations_attachment_orders-sec-4",
@@ -2821,7 +2821,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,036 words • 5 min read"
+    "badge": "1,084 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-2",
@@ -2851,7 +2851,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
       "concept": "§ 7.2 Unit 09: Operational Aspects of NRI Accounts"
     },
-    "badge": "330 words"
+    "badge": "368 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-4",
@@ -2881,7 +2881,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
       "concept": "§ 7.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "144 words"
+    "badge": "154 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
@@ -2895,7 +2895,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,050 words • 5 min read"
+    "badge": "1,065 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-2",
@@ -2910,7 +2910,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
       "concept": "§ 8.1 Unit 06b: Cash Custody, Clean Note Policy & Counterfeit Management"
     },
-    "badge": "464 words"
+    "badge": "467 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-3",
@@ -2955,7 +2955,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
       "concept": "§ 8.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "179 words"
+    "badge": "191 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
@@ -3709,7 +3709,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,156 words • 6 min read"
+    "badge": "1,221 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-2",
@@ -3739,7 +3739,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
       "concept": "§ 19.2 Unit 37: Agricultural Financing & Kisan Credit Card (KCC)"
     },
-    "badge": "439 words"
+    "badge": "463 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-4",
@@ -3754,7 +3754,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
       "concept": "§ 19.3 High-Yield Examination Drill"
     },
-    "badge": "149 words"
+    "badge": "154 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-5",
@@ -3769,7 +3769,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
       "concept": "§ 19.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "126 words"
+    "badge": "162 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes",
@@ -4227,7 +4227,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "2,702 words • 13 min read"
+    "badge": "2,922 words • 14 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-26_chapter_26_npci_digital_rails_e_rupi_account_aggregators-sec-2",
@@ -4449,7 +4449,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "2,011 words • 10 min read"
+    "badge": "2,040 words • 10 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-2",
@@ -4494,7 +4494,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
       "concept": "29.3 Whistleblower Mechanisms & Protection"
     },
-    "badge": "166 words"
+    "badge": "191 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-5",
@@ -4523,7 +4523,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "4,774 words • 22 min read"
+    "badge": "4,773 words • 22 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-2",
@@ -4538,7 +4538,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.1 The 55-Unit Reconciled Examination Fast-Recall Ledger"
     },
-    "badge": "1603 words"
+    "badge": "1597 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-3",
@@ -4553,7 +4553,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)"
     },
-    "badge": "2063 words"
+    "badge": "2200 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-4",
@@ -4576,14 +4576,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "30.4 Diagnostic Solutions & Analysis",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
-    "description": "1. Correct Answer: B\n    Analysis: Statements 1, 3, and 4 are correct. Statement 2 is incorrect because zero liability under the RBI Customer Liability Master Direction requires the customer to",
+    "description": "1. Correct Answer: B\n    Analysis: Statements 1, 3, and 4 are correct. Statement 2 is incorrect: zero liability under RBI Customer Liability Directions requires reporting a third-party breach w",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.4 Diagnostic Solutions & Analysis"
     },
-    "badge": "389 words"
+    "badge": "257 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",
