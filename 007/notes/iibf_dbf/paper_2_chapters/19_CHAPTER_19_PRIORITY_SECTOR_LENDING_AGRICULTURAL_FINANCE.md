@@ -51,12 +51,13 @@ Banks failing to achieve their priority sector targets or sub-targets are not pe
   - Farmers ensuring prompt repayment receive an additional **3.0% Prompt Repayment Incentive (PRI)**.
   - **Effective Interest Rate to Farmers:** Exactly **4.0% p.a.** on crop loans up to ₹3 Lakh!
 • **Collateral-Free Agricultural Loan Limit (RBI Enhanced Benchmark):**
-  - The mandatory threshold for collateral-free agricultural loans stands enhanced from ₹1.60 Lakh to **₹2.00 Lakh per borrower** (effective December 2024 per RBI circular / Annual Report benchmark; no margin or collateral can be obtained).
-  - Can be extended up to ₹3.00 Lakh for loans with tie-up arrangements for recovery.
+  - The universal mandatory threshold for collateral-free agricultural loans stands enhanced from ₹1.60 Lakh to **₹2.00 Lakh per borrower** (effective December 2024 per RBI circular; banks are strictly prohibited from demanding margin or collateral).
+  - **Tie-Up Recovery Exception:** Under established RBI/NABARD operational guidelines, banks may waive collateral/margin requirements **up to ₹3.00 Lakh** where formal tripartite **tie-up arrangements for recovery** exist (e.g., direct deduction and recovery through sugar factories, dairy processing federations, or state procurement agencies).
 • **Distinction Between Agriculture Credit Thresholds (Top Examiner Trap):**
-  1. *Collateral-Free Mandate:* Exactly **₹2.00 Lakh**.
-  2. *Interest Subvention (MISS) Maximum Eligibility:* Up to **₹3.00 Lakh** (yielding 4.0% net rate).
-  3. *Overall KCC Limit:* Determined by cropping pattern, acreage, and Scale of Finance for 5 years with 10% annual step-up.
+  1. *Universal Mandatory Collateral-Free Ceiling:* Exactly **₹2.00 Lakh** (RBI Dec 2024 benchmark).
+  2. *Discretionary Collateral Waiver with Recovery Tie-Up:* Up to **₹3.00 Lakh** (RBI/NABARD operational guidelines).
+  3. *Interest Subvention (MISS) Ceiling:* Up to **₹3.00 Lakh** (yielding 4.0% net rate on prompt repayment).
+  4. *Overall KCC Limit:* Determined by cropping pattern, acreage, and Scale of Finance for 5 years with 10% annual compounding step-up.
 
 ### 3. Pradhan Mantri Fasal Bima Yojana (PMFBY)
 

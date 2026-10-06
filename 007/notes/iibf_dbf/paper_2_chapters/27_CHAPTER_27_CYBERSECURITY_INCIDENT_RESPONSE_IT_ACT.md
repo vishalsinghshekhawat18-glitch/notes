@@ -58,9 +58,9 @@ The Reserve Bank of India, operating through the recommendations of the **G. Gop
 |                                                                                   |
 |  [ Chief Information Security Officer (CISO) ]                                    |
 |    * Senior executive with dedicated, independent oversight of InfoSec           |
-|    * Reports functionally to the Board, IT Strategy Committee, or Executive Head  |
-|    * STRICT INDEPENDENCE: Operationally decoupled from the Chief Information       |
-|      Officer (CIO) and IT Operations to prevent inherent conflicts of interest     |
+|    * Reports to executive leadership / Risk function; direct access to Board     |
+|    * STRICT INDEPENDENCE: Operationally decoupled from Head of IT / CIO          |
+|      (must not report to Head of IT) to prevent conflict of interest             |
 |                                                                                   |
 |  [ Security Operations Centre (SOC) ]                                             |
 |    * 24x7x365 command center monitoring real-time network traffic and telemetry   |
@@ -70,7 +70,7 @@ The Reserve Bank of India, operating through the recommendations of the **G. Gop
 ```
 
 ### Core Regulatory Mandates
-1. **Independence of the CISO:** The CISO must be an independent executive who does not have operational IT duties (such as system maintenance or software development). This prevents the self-audit conflict where IT delivery targets compromise security standards.
+1. **Independence of the CISO:** The CISO must be an independent executive who does not have operational IT duties and must not report to the Head of IT / CIO. This prevents the self-audit conflict where operational IT delivery targets compromise information security standards.
 2. **Security Operations Centre (SOC):** Banks must maintain a 24x7 Security Operations Centre staffed by trained personnel and powered by SIEM, Endpoint Detection and Response (EDR), and Network Traffic Analysis (NTA) tools.
 3. **Vulnerability Assessment and Penetration Testing (VAPT):** Periodic vulnerability scans and invasive penetration tests must be conducted across all critical systems, web applications, mobile apps, and network segments before deployment and at least bi-annually thereafter.
 4. **Mandatory Incident Reporting Window:**
@@ -197,7 +197,7 @@ D) Damodaran Committee
 ## 27.6 Diagnostic Solutions & Analysis
 
 1. **Correct Answer: B**
-   * *Analysis:* Regulatory governance strictly demands that the CISO be independent of the IT Operations / CIO department. The CIO is evaluated on system uptime, speed of project delivery, and cost efficiency, which can lead to compromises on security controls. An independent CISO reporting directly to the Board or Executive Director ensures uncompromised security oversight.
+   * *Analysis:* Regulatory governance strictly demands that the CISO be independent of IT Operations and must not report to the Head of IT / CIO. The Head of IT/CIO is evaluated on system uptime, speed of project delivery, and cost efficiency, which can lead to compromises on security controls. An independent CISO ensures uncompromised security oversight without operational conflict of interest.
 
 2. **Correct Answer: C**
    * *Analysis:* **Recovery Point Objective (RPO)** measures the maximum acceptable age of data lost due to a disruptive event. An RPO of zero means that zero transaction data loss is tolerated; every committed transaction at the Primary Data Centre must be synchronously mirrored in real-time to the backup or near-site storage before the transaction is acknowledged. (In contrast, **RTO** measures the time required to restore system operations).

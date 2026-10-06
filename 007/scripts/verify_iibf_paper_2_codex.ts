@@ -249,6 +249,49 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check Note Refund Rule boundary thresholds in Ch 08 and Ch 30
+  const ch08Text = fs.readFileSync(path.join(chaptersDir, '08_CHAPTER_08_CASH_OPERATIONS_CLEAN_NOTE_POLICY_CMS.md'), 'utf-8');
+  const ch30VaultText = fs.readFileSync(path.join(chaptersDir, '30_CHAPTER_30_THE_GRAND_SYNTHESIS_MASTER_REVISION_VAULT.md'), 'utf-8');
+  if (ch08Text.includes('> 80%') && ch08Text.includes('40%') && ch08Text.includes('> 50%') && ch30VaultText.includes('>80%')) {
+    console.log(`  ✓ V4-01 Verified: Mutilated-note refund boundaries (> 80% full, 40%-80% half, < 40% reject; < ₹50: > 50% full) codified in Ch 08 & Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Note Refund boundary thresholds missing or incorrect in Ch 08/Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check CGTMSE NER/J&K/Ladakh 80% and TReDS equity capital in Ch 20
+  if (ch20Text.includes('80% Coverage') && ch20Text.includes('NER') && ch20Text.includes('minimum paid-up equity capital of ₹25 Crore')) {
+    console.log(`  ✓ V4-02 & V4-05 Verified: CGTMSE 80% for NER/J&K/Ladakh and exact TReDS minimum paid-up equity capital codified in Ch 20.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: CGTMSE 80% NER or TReDS paid-up equity capital missing in Chapter 20.`);
+    dataCheckPass = false;
+  }
+
+  // Check PMLA retention triggers split in Ch 02
+  const ch02Text = fs.readFileSync(path.join(chaptersDir, '02_CHAPTER_02_AML_KYC_ARCHITECTURE_OPERATIONAL_VERIFICATION.md'), 'utf-8');
+  if (ch02Text.includes('5 years from the date of transaction') && (ch02Text.includes('account is closed') || ch02Text.includes('business relationship ends'))) {
+    console.log(`  ✓ V4-04 Verified: PMLA record-retention triggers cleanly split (transaction: 5yr from txn; identity: 5yr from closure) in Ch 02.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: PMLA retention trigger split missing in Chapter 02.`);
+    dataCheckPass = false;
+  }
+
+  // Check KCC tie-up reconciliation in Ch 19
+  if (ch19KccText.includes('₹2.00 Lakh') && ch19KccText.includes('₹3.00 Lakh') && ch19KccText.includes('tie-up')) {
+    console.log(`  ✓ V4-06 Verified: KCC ₹2 Lakh general collateral-free ceiling reconciled with ₹3 Lakh tie-up recovery exception in Chapter 19.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: KCC tie-up reconciliation missing in Chapter 19.`);
+    dataCheckPass = false;
+  }
+
+  // Check Positive Pay bank option and CISO reporting in Ch 30
+  if (ch30VaultText.includes('PPS') && ch30VaultText.includes('bank may mandate') && ch30VaultText.includes('Income-tax Act, 1961') && ch30VaultText.includes('must not report to the Head of IT')) {
+    console.log(`  ✓ V4-03, V4-07 & V4-10 Verified: Positive Pay discretionary formulation, Income-tax Act citation, and CISO independence verified in Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Positive Pay option, Income-tax citation, or CISO independence missing in Chapter 30.`);
+    dataCheckPass = false;
+  }
+
   if (dataCheckPass) {
     passedGates++;
   }

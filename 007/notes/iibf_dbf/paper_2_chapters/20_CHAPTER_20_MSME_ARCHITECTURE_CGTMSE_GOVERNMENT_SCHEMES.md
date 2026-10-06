@@ -31,11 +31,12 @@ Micro, Small and Medium Enterprises (MSMEs) drive industrial output, exports, an
   - Collateral-free guarantee coverage up to **₹10 Crore** per eligible borrower.
   - **Category Coverage Matrix (Guarantees approved on/after 1 April 2025):**
     1. **90% Coverage:** **Women Entrepreneurs** and MSEs promoted by **Agniveers**.
-    2. **85% Coverage:** Micro Enterprises (up to ₹5 Lakh), **SC / ST**, **PwD**, **Aspirational Districts / NER**, and **ZED-certified** units.
-    3. **75% Coverage:** Standard / General category MSEs for credit facilities exceeding ₹5 Lakh up to **₹10 Crore**.
+    2. **85% Coverage:** Micro Enterprises (up to ₹5 Lakh), **SC / ST**, **PwD**, **Aspirational Districts**, and **ZED-certified** MSEs.
+    3. **80% Coverage:** MSEs located in **North Eastern Region (NER)**, UT of **Jammu & Kashmir**, and UT of **Ladakh**.
+    4. **75% Coverage:** Standard / General category MSEs for credit facilities exceeding ₹5 Lakh up to **₹10 Crore**.
 • **Trade Receivables Discounting System (TReDS):**
   - Electronic institutional platform authorized by RBI to facilitate financing/discounting of trade receivables of MSMEs from corporate buyers and PSUs through multiple financiers.
-  - **Operator Net Worth:** Entities setting up and operating a TReDS platform must have a minimum paid-up equity capital / net worth of **₹25 Crore** as mandated by the RBI.
+  - **TReDS Operator Capital:** Entities setting up and operating a TReDS platform must have a **minimum paid-up equity capital of ₹25 Crore** as mandated by the RBI.
   - **Non-Recourse Factoring:** Discounting on TReDS is strictly **without recourse to the MSME seller**; the financier assumes credit risk directly on the corporate buyer.
 
 ---

@@ -7,7 +7,7 @@ Anti-Money Laundering (AML), Combating Financing of Terrorism (CFT), and Know Yo
 ## § 2.1 Unit 02: AML-KYC Regulatory Framework
 
 > **Curriculum Alignment — Official IIBF Paper 2 Benchmark (Unit 02)**  
-> **Core Proposition:** Money laundering involves three sequential stages: Placement (introducing illicit funds into financial system), Layering (complex transactions to obscure audit trail), and Integration (reintroducing laundered money as legitimate wealth). Under PMLA 2002, reporting entities must verify identity, maintain records for 5 years, and report to FIU-IND.
+> **Core Proposition:** Money laundering involves three sequential stages: Placement (introducing illicit funds into financial system), Layering (complex transactions to obscure audit trail), and Integration (reintroducing laundered money as legitimate wealth). Under PMLA 2002, reporting entities must verify identity, retain transaction records for 5 years from the transaction date and identity/account files for 5 years after account closure, and report to FIU-IND.
 
 ### 1. Statutory Obligations Under PMLA, 2002 & Enforcement
 
@@ -18,7 +18,8 @@ Anti-Money Laundering (AML), Combating Financing of Terrorism (CFT), and Know Yo
 | **Suspicious Transaction Report (STR)** | Mandatory reporting of transactions suspected to involve proceeds of crime or terror funding. | To be filed within **7 working days** of arriving at suspicion at Principal Officer level. |
 | **Counterfeit Currency Report (CCR)** | Reporting of forged banknotes detected at counters or currency chests. | Cash transactions with counterfeit notes; to be filed by **15th of succeeding month**. |
 | **Cross-Border Wire Transfer (CBWT)** | Cross-border fund transfers into or out of India. | Transactions **> ₹5 Lakh** or foreign equivalent; monthly by 15th. |
-| **Record Preservation Period** | Mandated retention of customer identification and transaction records. | **5 years** from date of cessation of transactions / account closure. |
+| **Transaction Records Preservation (PMLA §12(1)(a) & §12(3))** | All customer transaction records (cash, transfers, clearing). | Retained for **5 years from the date of transaction**. |
+| **Customer Identity & Account Records (PMLA §12(1)(c) & §12(4))** | Records of client identity (OVDs), account files, and business correspondence. | Retained for **5 years after the business relationship ends or account is closed, whichever is later**. |
 
 ### 2. FATF, Correspondent Banking & FATCA / CRS
 

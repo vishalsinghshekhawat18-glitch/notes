@@ -2466,7 +2466,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,419 words • 7 min read"
+    "badge": "1,473 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-2",
@@ -2481,7 +2481,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
       "concept": "§ 2.1 Unit 02: AML-KYC Regulatory Framework"
     },
-    "badge": "423 words"
+    "badge": "477 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-3",
@@ -2895,7 +2895,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "986 words • 5 min read"
+    "badge": "1,050 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-2",
@@ -2910,7 +2910,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
       "concept": "§ 8.1 Unit 06b: Cash Custody, Clean Note Policy & Counterfeit Management"
     },
-    "badge": "434 words"
+    "badge": "464 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms-sec-3",
@@ -2948,14 +2948,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "§ 8.4 Answer Key & Detailed Explanatory Rationale",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
-    "description": "• Q1 — Answer: B. Under the RBI (Note Refund) Rules, for denominations of ₹50 and above, a mutilated note qualifies for full value if its single largest piece area is $\\ge$ 80%. If the area is",
+    "description": "• Q1 — Answer: B. Under the RBI (Note Refund) Rules, for denominations of ₹50 and above: Full value requires an undivided single piece area > 80%; Half value is payable if the area is",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CASH OPERATIONS, CLEAN NOTE POLICY & CASH MANAGEMENT SERVICES",
       "concept": "§ 8.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "145 words"
+    "badge": "179 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-09_chapter_09_negotiable_instruments_act_cts_clearing",
@@ -3709,7 +3709,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,108 words • 6 min read"
+    "badge": "1,156 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-2",
@@ -3739,7 +3739,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PRIORITY SECTOR LENDING & AGRICULTURAL FINANCE",
       "concept": "§ 19.2 Unit 37: Agricultural Financing & Kisan Credit Card (KCC)"
     },
-    "badge": "391 words"
+    "badge": "439 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance-sec-4",
@@ -3783,7 +3783,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,146 words • 6 min read"
+    "badge": "1,160 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-2",
@@ -3798,7 +3798,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "MSME ARCHITECTURE, CGTMSE & GOVERNMENT-SPONSORED SCHEMES",
       "concept": "§ 20.1 Unit 39: MSME Classification & Statutory Safeguards"
     },
-    "badge": "444 words"
+    "badge": "458 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-20_chapter_20_msme_architecture_cgtmse_government_schemes-sec-3",
@@ -4301,7 +4301,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "2,101 words • 10 min read"
+    "badge": "2,116 words • 10 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act-sec-2",
@@ -4331,7 +4331,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 27: CYBERSECURITY, INCIDENT RESPONSE & THE IT ACT",
       "concept": "27.2 The RBI Cyber Security Framework & IT Governance"
     },
-    "badge": "415 words"
+    "badge": "424 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-27_chapter_27_cybersecurity_incident_response_it_act-sec-4",
@@ -4523,7 +4523,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "4,413 words • 21 min read"
+    "badge": "4,611 words • 21 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-2",
@@ -4538,7 +4538,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger"
     },
-    "badge": "1552 words"
+    "badge": "1578 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-3",
@@ -4553,7 +4553,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)"
     },
-    "badge": "1783 words"
+    "badge": "1955 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-4",

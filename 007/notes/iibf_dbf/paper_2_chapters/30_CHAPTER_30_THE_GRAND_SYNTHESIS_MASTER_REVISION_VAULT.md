@@ -17,7 +17,7 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 +-------------------------------+------------------------------------+-------------------------------------+
 | **02 & 03: AML / KYC & PMLA** | PMLA 2002; PML Rules 2005;         | CTR: Cash > ₹10L by 15th next month;|
 |                               | RBI Master Direction 2016 (Amended)| STR: within 7 days; CKYCR: 10 days; |
-|                               | June 2025 KYC Amendments           | KYC relaxation window: June 30, 2026|
+|                               | June 2025 KYC Amendments           | PMLA: 5yr from txn / 5yr post-close |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **04: Special Customers**     | Indian Majority Act 1875;          | Minors (>10 yrs self-operate);      |
 |                               | Hindu Succession (Amendment) 2005  | Daughters equal coparceners/Karta;  |
@@ -31,20 +31,21 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               |                                    | cap: 100x annual rent (fire/theft)  |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **07: Secrecy & Disclosure**  | Tournier Doctrine; Bank Acq Acts;  | Tournier 4 exceptions: Law, bank's  |
-|                               | IT Act Sec 133(6); BNSS Sec 94     | interest, public duty, consent.     |
+|                               | Income-tax Act, 1961, §133(6);     | interest, public duty, consent;     |
+|                               | BNSS 2023 Sec 94 (repl. CrPC 91)   | BR Act Sec 29 is NOT secrecy waiver |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **08, 09, 10: FEMA & Remit**  | FEMA 1999; Foreign Exchange Mgt Reg| LRS: USD 250,000 / FY; NRE/FCNR(B)  |
-|                               | FCRA 2010                          | fully repatriable & tax-free; NRO   |
-|                               |                                    | taxable (USD 1M/FY repatriation)    |
+|                               | FCRA 2010; IT Act 1961 Sec 10(4)   | fully repatriable & IT-exempt; NRO: |
+|                               |                                    | 30% TDS, USD 1M/FY repatriation cap |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **11: Clean Note Policy**     | RBI Act 1934 Sec 28; RBI Note      | Stapling strictly banned; Soiled =  |
-|                               | Refund Rules 2009                  | Full; Mutilated >= 80% (Full),      |
-|                               |                                    | 40%-80% (Half), <40% (Rejected)     |
+|                               | Refund Rules 2009                  | Full; Mutilated (>= ₹50): >80% Full,|
+|                               |                                    | 40%-80% Half, <40% Nil; <₹50: >50%  |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **12: Negotiable Instruments**| NI Act 1881 Sec 4, 5, 6, 9, 13,    | Cheque includes electronic; Sec 138:|
 |                               | 131, 138-142; RBI CTS Directives   | 30-day notice, 15-day pay, 2-yr jail|
-|                               |                                    | CTS: Continuous clearing & Positive |
-|                               |                                    | Pay System (mandatory > ₹5 Lakh)    |
+|                               |                                    | CTS: Continuous clearing; PPS: >=50k|
+|                               |                                    | (optional), bank may mandate >=5L   |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **13: Paying Banker**         | NI Act Sec 85, 85A, 89, 128        | Protection for payment in due course|
 |                               |                                    | Forged drawer signature = ZERO prot.|
@@ -104,15 +105,15 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               |                                    | Micro enterprises sub-target: **7.5%**|
 |                               |                                    | Agriculture: 18%; SMF: 10%          |
 +-------------------------------+------------------------------------+-------------------------------------+
-| **31: Agricultural Finance**  | KCC Guidelines; RBI Interest       | KCC: 5 yrs; Collateral-free: ₹2.00L;|
-|                               | Subvention Scheme; PMFBY           | 3% PRI -> 4% net int (MISS ₹3.00L); |
-|                               |                                    | PMFBY: Kharif 2%, Rabi 1.5%, Com 5% |
+| **31: Agricultural Finance**  | KCC Guidelines; RBI Interest       | KCC: 5 yrs; Collateral-free: ₹2.00L |
+|                               | Subvention Scheme; PMFBY           | (up to ₹3L if recovery tie-up);     |
+|                               |                                    | MISS: 3% PRI -> 4% net (up to ₹3L)  |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **32: MSME Architecture**     | MSMED Act 2006 (Revised Criteria   | Micro: <= ₹2.5 Cr Inv / ₹10 Cr Turn;|
 |                               | effective April 1, 2025); CGTMSE   | Small: ₹25 Cr / ₹100 Cr; Medium:    |
 |                               |                                    | ₹125 Cr / ₹500 Cr; CGTMSE: ₹10 Cr;  |
-|                               |                                    | Women/Agniveer 90%, SC/ST/PwD 85%   |
-|                               |                                    | Delayed payment: 3x Bank Rate comp. |
+|                               |                                    | Women/Agniveer 90%, SC/ST/ZED 85%,  |
+|                               |                                    | NER/J&K/Ladakh 80%, Standard 75%    |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **33: Government Schemes**    | PMMY (MUDRA); DAY-NRLM             | Shishu <= ₹50k; Kishore ₹50k-₹5L;   |
 |                               |                                    | Tarun ₹5L-₹10L; Tarun Plus ₹10L-₹20L;|
@@ -144,8 +145,8 @@ This consolidated master ledger summarizes the key statutory sections, monetary 
 |                               |                                    | ₹1 Lakh; CBDC: Sovereign token non-i|
 +-------------------------------+------------------------------------+-------------------------------------+
 | **42 & 43: Cybersecurity**    | IT Act 2000 (Amended 2008); RBI IT | Incident reporting: RBI 2-6 hrs,    |
-|                               | Governance MD 2023; CERT-In Dir    | CERT-In 6 hrs; CISO independent;    |
-|                               |                                    | RPO (data loss) vs RTO (downtime)   |
+|                               | Governance MD 2023; CERT-In Dir    | CERT-In 6 hrs; CISO independent of  |
+|                               |                                    | Head of IT; RPO vs RTO metrics      |
 +-------------------------------+------------------------------------+-------------------------------------+
 | **44 to 48: Ethics & Business**| Kidder Dilemmas; Fiduciary Trust;  | 4 Paradigms: Truth vs Loyalty, Ind  |
 |                               | Corporate Governance Standards     | vs Comm, Short vs Long, Justice vs  |
@@ -181,21 +182,21 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 15. **Collecting Banker Protection (Section 131):** Protection is available to the collecting banker **only for crossed cheques**, provided the bank acted in good faith and without negligence. No Section 131 protection exists for open uncrossed cheques.
 16. **Demand Draft Bearer Prohibition:** Under Section 31 of the RBI Act, 1934, no entity other than RBI or Central Government can issue a bill or note payable to bearer on demand. Hence, Demand Drafts **can never be issued payable to bearer**.
 17. **Garnishee Order Coverage:** A court Garnishee Order attaches only funds that are **debts due or accruing due** at the exact time of service of the order. It does not attach subsequent deposits or credits received after the order is served.
-18. **Income Tax Attachment & Banker's Secrecy:** Unlike a court Garnishee Order, an IT Notice under Section 226(3) is continuing and attaches both existing and future balances. Under the *Tournier* confidentiality doctrine, notices under Sections 131, 133(6), 226(3) of IT Act or **Section 94 of BNSS 2023** (*earlier CrPC §91*) represent statutory legal compulsion; Section 29 of the BR Act is NOT a customer secrecy disclosure provision.
+18. **Income Tax Attachment & Banker's Secrecy:** Unlike a court Garnishee Order, an IT Notice under Section 226(3) is continuing and attaches both existing and future balances. Under the *Tournier* confidentiality doctrine, notices under Sections 131, 133(6), 226(3) of the Income-tax Act, 1961 or **Section 94 of BNSS 2023** (*earlier CrPC §91*) represent statutory legal compulsion; Section 29 of the BR Act is NOT a customer secrecy disclosure provision.
 19. **Inoperative vs. DEA Fund:** An account becomes **inoperative/dormant** if there are no customer-induced transactions for **2 years**. Balances unclaimed for **10 years** must be transferred to RBI's Depositor Education and Awareness (DEA) Fund.
 20. **UDGAM Portal:** RBI's *Unclaimed Deposits - Gateway to Access Information* (UDGAM) allows public searching of unclaimed deposits across multiple banks.
 21. **KYC Document Updating Cadence:** Periodic KYC refresh is mandated every **2 years for High Risk**, every **8 years for Medium Risk**, and every **10 years for Low Risk** customers.
-22. **June 2025 KYC Amendments Window:** The June 12, 2025 KYC Master Direction amendments permit an operational relaxation window up to **June 30, 2026** for ongoing customer risk profiling and CKYCR seeding.
+22. **PMLA Record-Retention Triggers & KYC Window:** Under Section 12 of the PMLA, **transaction records** must be maintained for **5 years from the date of the transaction**, whereas **client identity documents (OVDs), account files, and business correspondence** must be maintained for **5 years after the business relationship ends or account is closed, whichever is later**. Separately, the June 12, 2025 KYC amendments permit an operational relaxation window up to **June 30, 2026** for ongoing customer risk profiling and CKYCR seeding.
 23. **Cash Transaction Report (CTR):** Must be submitted to FIU-IND for all cash transactions exceeding **₹10 Lakh** (or its equivalent in foreign currency) in an individual transaction or an integrally connected series within a calendar month, by the **15th day of the succeeding month**.
 24. **Suspicious Transaction Report (STR):** Must be filed with FIU-IND within **7 working days** of being satisfied that a transaction is suspicious.
 25. **Legal Entity Identifier (LEI):** A **20-digit alphanumeric code** mandatory for entities with aggregate credit exposure of **₹5 Crore and above** from scheduled banks.
 26. **Minor Account Operations:** A minor aged **10 years and above** can open and operate an independent savings account in their own name. A minor can be admitted to the benefits of a partnership, but cannot be held personally liable for debts.
 27. **HUF Daughter as Karta:** Post the Hindu Succession (Amendment) Act, 2005, a daughter has the exact same coparcenary rights as a son by birth, and can act as the **Karta** of the Hindu Undivided Family.
 28. **Foreign Remittance Under LRS:** The Liberalised Remittance Scheme permits resident individuals to remit up to **USD 250,000 per financial year** for permitted current and capital account transactions.
-29. **NRE vs. NRO Taxation:** NRE deposit interest is **exempt from Indian Income Tax and Wealth Tax**; NRO account interest is subject to **Tax Deducted at Source (TDS)** and local taxes.
-30. **Clean Note Policy Stapling Ban:** Stapling currency note packets is **strictly prohibited**. Writing, stamping, or scribbling on the watermark window of banknotes is prohibited.
+29. **NRE vs. NRO Taxation & Repatriability:** NRE and FCNR(B) deposit interest is **exempt from Indian Income Tax** under Section 10(4)(ii) of the Income-tax Act, 1961 (Wealth Tax was abolished in 2015), and principal/interest are **freely and fully repatriable abroad**. In contrast, NRO account interest is **taxable under domestic law (subject to 30% TDS + cess)**, and repatriation is capped at **USD 1 Million per financial year** under FEMA.
+30. **Clean Note Policy & Mutilated Note Boundaries:** Stapling currency note packets is strictly prohibited. Under RBI Note Refund Rules: for denominations of **₹50 and above**, full value requires area **> 80%** (at exactly 80%, only half value is payable; 40% to 80% yields half value; < 40% is rejected). For denominations **below ₹50**, full value requires single undivided piece **> 50%** (at $\le$ 50%, note is rejected; no half value exists).
 31. **Counterfeit Note Recovery:** When 5 or more counterfeit notes are detected in a single transaction, the bank must file a **First Information Report (FIR)** with the police; for up to 4 notes, a consolidated monthly report is sent.
-32. **Working Capital Nayak Norm & CGTMSE Coverage:** For working capital limits up to ₹5 Crore, requirement is assessed at minimum **25% of turnover** (20% bank, 5% borrower). Separately, under CGTMSE (up to ₹10 Crore), guarantee cover is **90% for women entrepreneurs and Agniveers**, 85% for SC/ST, PwD, and aspirational districts, and 75% standard.
+32. **Working Capital Nayak Norm & CGTMSE Coverage:** For working capital limits up to ₹5 Crore, requirement is assessed at minimum **25% of turnover** (20% bank, 5% borrower). Separately, under CGTMSE (up to ₹10 Crore), guarantee cover is **90% for women entrepreneurs and Agniveers**, **85% for Micro up to ₹5L, SC/ST, PwD, Aspirational Districts, and ZED units**, **80% for NER, J&K, and Ladakh**, and **75% standard**.
 33. **Tandon Committee Method II:** Current Ratio must be at least **1.33:1**; maximum bank finance is 75% of Current Assets minus Current Liabilities other than bank borrowings.
 34. **External Benchmark Lending Rate (EBLR):** Mandatory for Scheduled Commercial Banks (excl. RRBs) across all new floating-rate personal/retail loans, MSE loans, and **Medium Enterprise loans (effective 1 April 2020)**. Linked to RBI Repo, 3M/6M T-Bills, or other FBIL benchmarks with mandatory interest rate reset at least **once every three months**.
 35. **Recovery Agents Calling Window:** Banks and recovery agents are strictly prohibited from calling borrowers before **08:00 AM** or after **07:00 PM**.
@@ -211,7 +212,7 @@ Examiners capitalize on subtle statutory updates, timing deadlines, and definiti
 45. **Failed ATM TAT Compensation:** If an ATM debits an account but fails to dispense cash, the bank must proactively reverse the debit within **T + 5 calendar days**. Failure attracts a mandatory penalty of **₹100 per day of delay** payable to the customer.
 46. **Customer Liability 3-Day Rule:** In third-party cyber breaches where neither the bank nor the customer is at fault, the customer has **Zero Liability** if reported within **3 working days**.
 47. **e-RUPI Voucher Cap:** The ceiling for e-RUPI vouchers issued under government schemes is **₹1,00,000 per voucher**, with multiple redemptions permitted until exhausted.
-48. **CISO Independence:** The Chief Information Security Officer (CISO) must be functionally independent of the Chief Information Officer (CIO) / IT Operations and report directly to the Board or Risk Committee.
+48. **CISO Independence:** The Chief Information Security Officer (CISO) must be an independent executive completely decoupled from IT Operations / Head of IT and **must not report to the Head of IT**. The CISO reports to executive management (MD/CEO or ED) or designated Risk function, with direct reporting access to the Board or IT Strategy Committee.
 49. **POSH Internal Committee Quorum:** The Internal Committee under the POSH Act, 2013 requires that at least **50% of its members must be women**, and the Presiding Officer must be a senior woman employee.
 50. **DPDP Act Maximum Penalty:** The Data Protection Board of India can levy statutory financial penalties up to **₹250 Crore** for failing to maintain reasonable security safeguards to protect personal data.
 
