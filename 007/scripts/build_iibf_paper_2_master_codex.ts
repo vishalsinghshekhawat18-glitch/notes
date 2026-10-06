@@ -31,7 +31,7 @@ export const EXACT_TOC_MAPPING_PPB: TocEntry[] = [
   { ch: 15, start: 44, end: 46, pages: 3, title: "Collateral Charges, Mortgages, Stamping & Limitation Act", sub: "Pledge vs Hypothecation vs Lien vs Assignment • 6 Mortgages (Equitable in Notified Towns) • Stamp Act DPN • Limitation" },
   { ch: 16, start: 47, end: 49, pages: 3, title: "Contracts of Indemnity, Guarantee & Bank Guarantee Doctrine", sub: "Indemnity vs Guarantee • Co-Extensive Liability (§128) • Contract Act §28 Exception 3 (Min 1-Yr Claim) vs Limitation Act" },
   { ch: 17, start: 50, end: 52, pages: 3, title: "Letters of Credit (LC), UCPDC 600 Rules & Bill Finance", sub: "UCPDC 600 Irrevocability • Article 14b 5-Banking-Day Examination • Strict Compliance • Red vs Green Clause • D/P vs D/A" },
-  { ch: 18, start: 53, end: 55, pages: 3, title: "Personal Finance, Housing LTV Ratios & Credit Card Regulations", sub: "Home Loan LTV (90%/80%/75%) • Zero Prepayment Penalty on Floating Retail • Credit Card Minimum Amount Due (MAD)" },
+  { ch: 18, start: 53, end: 55, pages: 3, title: "Personal Finance, Housing LTV Ratios & Credit Card Regulations", sub: "Home Loan LTV (90%/80%/75%) • Prepayment Directions 2026 (Floating Non-Biz & MSE) • Credit Card Rules" },
   { ch: 19, start: 56, end: 57, pages: 2, title: "Priority Sector Lending (PSL 2025/2026), KCC & Agricultural Credit", sub: "PSL 40% (SFB/RRB 75%) • Micro Enterprises Sub-Target: 7.5% • KCC Collateral-Free ₹2.00L • 4% Net Rate" },
   { ch: 20, start: 58, end: 60, pages: 3, title: "MSME Statutory Architecture, CGTMSE, TReDS & Government Schemes", sub: "MSME 2025 Criteria (₹2.5/10 Cr, ₹25/100 Cr, ₹125/500 Cr) • CGTMSE ₹10 Cr (90% Women) • MSMED §16 • MUDRA • DAY-NRLM" },
   { ch: 21, start: 61, end: 63, pages: 3, title: "NPA Management, Prudential IRAC Norms & Stressed Assets", sub: "90-Day Overdue Norm • Standard/Substandard (15%/25%) • Doubtful D1/D2/D3 (25%/40%/100%) • Loss 100% • June 7, 2019 Framework" },
@@ -259,7 +259,7 @@ export function buildFrontMatterHtml(): string {
         <p><strong>Title:</strong> Principles &amp; Practices of Banking (PPB): Book 03 — Master Curricular Monograph.</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 3).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 2 • Statutory Banking Law • Credit Appraisal • FinTech &amp; Cyber Security • Professional Ethics.</p>
-        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (55 Units).</p>
+        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF 2026 Rules &amp; Syllabus Dual-Coverage Framework Modules A, B, C &amp; D (55-Unit Reconciled Crosswalk).</p>
         <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.5pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition • 30 Comprehensive Chapters • 104 Body Pages.</p>
       </div>
 

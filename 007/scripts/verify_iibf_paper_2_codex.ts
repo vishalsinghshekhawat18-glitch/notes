@@ -292,6 +292,66 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // Check V5-01 / V5-05: CIC Fortnightly Data Submission (effective 1 Jan 2025) in Ch 11 and Ch 30
+  const ch11Text = fs.readFileSync(path.join(chaptersDir, '11_CHAPTER_11_FINANCIAL_INCLUSION_CUSTOMER_SERVICE_SECRECY.md'), 'utf-8');
+  if (ch11Text.includes('fortnightly') && ch11Text.includes('15th and last day') && ch30VaultText.includes('Fortnightly data submission') && ch30VaultText.includes('1 Jan 2025')) {
+    console.log(`  ✓ V5-01/05 Verified: CIC fortnightly reporting cadence (eff. 1 Jan 2025) codified in Ch 11 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: CIC fortnightly cadence missing or obsolete monthly reporting retained in Ch 11/Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V5-02: RBI Pre-payment Charges Directions (effective 1 Jan 2026) in Ch 18 and Ch 30
+  const ch18Text = fs.readFileSync(path.join(chaptersDir, '18_CHAPTER_18_PERSONAL_FINANCE_RETAIL_CREDIT_CARDS.md'), 'utf-8');
+  if (ch18Text.includes('1 January 2026') && (ch18Text.includes('Prepayment Charges') || ch18Text.includes('pre-payment penalties')) && ch30VaultText.includes('Prepayment') && (ch30VaultText.includes('eff. 2026') || ch30VaultText.includes('1 January 2026'))) {
+    console.log(`  ✓ V5-02 Verified: RBI Pre-payment Charges Directions (eff. 1 Jan 2026) codified in Ch 18 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: RBI Pre-payment Directions (1 Jan 2026) missing in Ch 18/Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V5-03: DPDP Act §28-34 Phased Rollout Qualification in Ch 29 and Ch 30
+  const ch29Text = fs.readFileSync(path.join(chaptersDir, '29_CHAPTER_29_EMPLOYEE_ETHICS_WORKPLACE_WHISTLEBLOWING_IPR.md'), 'utf-8');
+  if ((ch29Text.includes('13 Nov 2025') || ch29Text.includes('13 November 2025')) && ch29Text.includes('phased') && (ch30VaultText.includes('13 Nov 2025') || ch30VaultText.includes('13 November 2025')) && ch30VaultText.includes('phased rollout')) {
+    console.log(`  ✓ V5-03 Verified: DPDP Act statutory penalty ceiling qualified by phased commencement timeline in Ch 29 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: DPDP Act phased rollout qualification missing in Ch 29/Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V5-04/10: NRE §10(4)(ii) vs FCNR(B) §10(15)(iv)(fa) in Ch 07 and Ch 30
+  const ch07Text = fs.readFileSync(path.join(chaptersDir, '07_CHAPTER_07_FEMA_NRI_ACCOUNTS_FOREIGN_REMITTANCES.md'), 'utf-8');
+  if (ch07Text.includes('10(4)(ii)') && ch07Text.includes('10(15)(iv)(fa)') && ch30VaultText.includes('10(4)') && ch30VaultText.includes('10(15)')) {
+    console.log(`  ✓ V5-04/10 Verified: NRE §10(4)(ii) and FCNR(B) §10(15)(iv)(fa) distinct statutory tax citations codified in Ch 07 and Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: NRE/FCNR(B) tax sections split missing in Ch 07/Ch 30.`);
+    dataCheckPass = false;
+  }
+
+  // Check V5-06: CRS Due Diligence reporting/restrictions without automatic blocking in Ch 02
+  if (ch02Text.includes('reporting to tax authorities') && ch02Text.includes('operational restrictions') && !ch02Text.includes('mandatory account blocking under CRS rules')) {
+    console.log(`  ✓ V5-06 Verified: CRS due diligence failure consequences precisely stated without false automatic blocking in Ch 02.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: CRS non-compliance consequence inaccurate in Ch 02.`);
+    dataCheckPass = false;
+  }
+
+  // Check V5-07: NRI/OCI Immovable Property purchase prohibition in Ch 07
+  if (ch07Text.includes('cannot acquire agricultural land, plantation property, or farm houses by purchase')) {
+    console.log(`  ✓ V5-07 Verified: NRI/OCI agricultural land purchase prohibition codified in Ch 07.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: NRI/OCI agricultural land purchase prohibition missing in Ch 07.`);
+    dataCheckPass = false;
+  }
+
+  // Check V5-08 & V5-09: CPA consideration paid basis & 55-unit crosswalk taxonomy label in Ch 30
+  if (ch30VaultText.includes('consideration paid') && (ch30VaultText.includes('55-Unit Reconciled') || ch30VaultText.includes('55-unit reconciled'))) {
+    console.log(`  ✓ V5-08 & V5-09 Verified: CPA consideration paid pecuniary basis & 55-Unit crosswalk taxonomy codified in Ch 30.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: CPA consideration paid or 55-unit crosswalk taxonomy missing in Ch 30.`);
+    dataCheckPass = false;
+  }
+
   if (dataCheckPass) {
     passedGates++;
   }

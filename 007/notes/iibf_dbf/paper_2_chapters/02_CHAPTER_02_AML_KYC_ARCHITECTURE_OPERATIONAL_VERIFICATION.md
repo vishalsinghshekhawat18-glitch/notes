@@ -29,7 +29,7 @@ Anti-Money Laundering (AML), Combating Financing of Terrorism (CFT), and Know Yo
 • **Correspondent Banking Safeguards:** Banks must gather sufficient information on respondent institutions, confirm AML/CFT controls, and strictly ensure that respondent banks **do not permit their accounts to be used by Shell Banks** (banks with no physical presence in any country).
 • **FATCA / CRS Compliance:**
   - **FATCA (Foreign Account Tax Compliance Act):** Inter-governmental agreement with US IRS to identify and report US Persons (Green Card holders, US citizens, US tax residents).
-  - **CRS (Common Reporting Standard):** OECD multilateral framework with 100+ countries for annual exchange of financial account information. Non-compliant accounts are subject to mandatory account blocking.
+  - **CRS (Common Reporting Standard):** OECD multilateral framework with 100+ countries for annual exchange of financial account information. Non-compliance triggers mandatory reporting to tax authorities (CBDT) and operational restrictions under applicable RBI KYC rules (rather than an automatic universal account block).
 
 ---
 

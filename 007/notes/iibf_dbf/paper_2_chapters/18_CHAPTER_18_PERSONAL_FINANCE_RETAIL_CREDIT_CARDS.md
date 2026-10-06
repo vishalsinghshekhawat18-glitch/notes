@@ -28,11 +28,12 @@ Retail lending has expanded into a primary asset engine for commercial banks, ch
   - **₹4 Lakh to ₹7.5 Lakh:** 5% margin for studies in India (15% for abroad); third-party guarantee required.
   - **Above ₹7.5 Lakh:** Tangible collateral security of suitable value.
   - **Moratorium:** Course period + 1 year (or 6 months after getting job, whichever is earlier).
-• **Absolute Prohibition on Prepayment Penalties:**
-  - The Reserve Bank of India **strictly prohibits banks and NBFCs from levying foreclosure charges or prepayment penalties** on:
-    1. All **floating-rate term loans** granted to **individual borrowers** (for purposes other than business).
-    2. With or without co-obligants.
-    3. Even if the loan is prepaid from third-party balance transfer.
+• **RBI Directions on Prepayment Charges (Effective 1 January 2026):**
+  - Regulated Entities (REs) **cannot levy foreclosure charges or pre-payment penalties** on:
+    1. **Non-Business Floating-Rate Loans:** All floating-rate term loans to **individual borrowers** (with or without co-obligants) for purposes other than business.
+    2. **Business-Purpose Loans to Individuals & MSEs:** Floating-rate loans sanctioned for business purposes to **individual borrowers and Micro and Small Enterprises (MSEs)** by Scheduled Commercial Banks (excl. SFBs/RRBs/LABs), Tier-4 UCBs, NBFC-Upper Layer, and AIFIs.
+    3. **Other REs Threshold (SFBs, RRBs, NBFC-Middle/Base, Tier 1-3 UCBs):** Foreclosure charges on floating business-purpose loans to individuals/MSEs are banned for aggregate sanctioned limits **up to ₹50 Lakh**.
+  - **Permissible Levies:** Prepayment charges remain legally permissible on **fixed-rate loans** and on advances to corporate/medium enterprises as governed by the loan contract.
 
 ---
 
@@ -73,5 +74,5 @@ D. Within 30 working days
 ## § 18.4 Answer Key & Detailed Explanatory Rationale
 
 • **Q1 — Answer: B.** For individual housing loans between **₹30 Lakh and ₹75 Lakh**, the statutory ceiling on the Loan-to-Value (LTV) ratio is **80%** (requiring a minimum 20% promoter/borrower margin). (For loans up to ₹30 Lakh, LTV is up to 90%; for loans above ₹75 Lakh, LTV is capped at 75%).  
-• **Q2 — Answer: C.** RBI guidelines prohibit prepayment penalties on **all floating-rate term loans granted to individual borrowers** (with or without co-obligants). However, banks **can legally levy prepayment penalties on fixed-rate loans and on loans granted to non-individual corporate/commercial business entities**.  
+• **Q2 — Answer: C.** Under RBI's Pre-payment Charges Directions (effective 1 January 2026), banks are prohibited from levying foreclosure charges on floating-rate term loans to individual borrowers for non-business purposes, as well as on floating-rate business loans to individuals and MSEs (subject to entity tiers and the ₹50 Lakh threshold for smaller REs). However, banks **can legally levy prepayment penalties on fixed-rate loans** and on advances to corporate entities/medium enterprises outside the protected thresholds as per contractual terms.  
 • **Q3 — Answer: B.** Card issuers must process credit card cancellation requests within **seven (7) working days**. If the bank fails to close the card within 7 days, it must pay a statutory penalty of **₹500 per calendar day of delay** to the customer, provided there are no outstanding dues.

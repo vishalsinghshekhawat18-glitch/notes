@@ -2466,7 +2466,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,473 words • 7 min read"
+    "badge": "1,488 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-2",
@@ -2481,7 +2481,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "AML-KYC ARCHITECTURE & 2025 OPERATIONAL AMENDMENTS",
       "concept": "§ 2.1 Unit 02: AML-KYC Regulatory Framework"
     },
-    "badge": "477 words"
+    "badge": "492 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-02_chapter_02_aml_kyc_architecture_operational_verification-sec-3",
@@ -2821,7 +2821,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "995 words • 5 min read"
+    "badge": "1,036 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-2",
@@ -2851,7 +2851,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
       "concept": "§ 7.2 Unit 09: Operational Aspects of NRI Accounts"
     },
-    "badge": "299 words"
+    "badge": "330 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-4",
@@ -2866,7 +2866,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
       "concept": "§ 7.3 High-Yield Examination Drill"
     },
-    "badge": "160 words"
+    "badge": "162 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-07_chapter_07_fema_nri_accounts_foreign_remittances-sec-5",
@@ -2881,7 +2881,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FOREIGN EXCHANGE REMITTANCES, NRI ACCOUNTS & FEMA ARCHITECTURE",
       "concept": "§ 7.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "136 words"
+    "badge": "144 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-08_chapter_08_cash_operations_clean_note_policy_cms",
@@ -3117,7 +3117,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "985 words • 5 min read"
+    "badge": "1,017 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-2",
@@ -3147,7 +3147,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "FINANCIAL INCLUSION, CUSTOMER SERVICE GUIDELINES & SECRECY",
       "concept": "§ 11.2 Units 17 & 18: Customer Service Framework, Secrecy & BCSBI Historical Status"
     },
-    "badge": "299 words"
+    "badge": "331 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-11_chapter_11_financial_inclusion_customer_service_secrecy-sec-4",
@@ -3635,7 +3635,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "974 words • 5 min read"
+    "badge": "1,083 words • 5 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-2",
@@ -3650,7 +3650,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
       "concept": "§ 18.1 Unit 35: Retail Loan Products Architecture"
     },
-    "badge": "357 words"
+    "badge": "429 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-18_chapter_18_personal_finance_retail_credit_cards-sec-3",
@@ -3695,7 +3695,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PERSONAL FINANCE, RETAIL LENDING & CONSUMER CREDIT",
       "concept": "§ 18.4 Answer Key & Detailed Explanatory Rationale"
     },
-    "badge": "145 words"
+    "badge": "182 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-19_chapter_19_priority_sector_lending_agricultural_finance",
@@ -4449,7 +4449,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "1,993 words • 10 min read"
+    "badge": "2,011 words • 10 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-29_chapter_29_employee_ethics_workplace_whistleblowing_ipr-sec-2",
@@ -4509,7 +4509,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 29: EMPLOYEE ETHICS, WORKPLACE CONDUCT, WHISTLEBLOWING & DATA PRIVACY",
       "concept": "29.4 Digital Personal Data Protection Act, 2023 (DPDP Act)"
     },
-    "badge": "228 words"
+    "badge": "241 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
@@ -4523,22 +4523,22 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Principles & Practices of Banking (PPB)"
     },
-    "badge": "4,611 words • 21 min read"
+    "badge": "4,774 words • 22 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-2",
     "type": "CONCEPT",
-    "title": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger",
+    "title": "30.1 The 55-Unit Reconciled Examination Fast-Recall Ledger",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault",
-    "description": "This consolidated master ledger summarizes the key statutory sections, monetary thresholds, and procedural mandates across all 55 official syllabus units of IIBF DB&F / JAIIB Paper 2 (Principles and P",
+    "description": "This consolidated master ledger summarizes the key statutory sections, monetary thresholds, and procedural mandates across the 55-unit reconciled study taxonomy aligned to the official IIBF DB&F / JAI",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
-      "concept": "30.1 The 55-Unit Canonical Examination Fast-Recall Ledger"
+      "concept": "30.1 The 55-Unit Reconciled Examination Fast-Recall Ledger"
     },
-    "badge": "1578 words"
+    "badge": "1603 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-3",
@@ -4553,7 +4553,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.2 The 50 Master Examiner Traps for PPB (IIBF Reversal Benchmarks)"
     },
-    "badge": "1955 words"
+    "badge": "2063 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_2_chapters-30_chapter_30_the_grand_synthesis_master_revision_vault-sec-4",
@@ -4583,7 +4583,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 30: THE GRAND SYNTHESIS & MASTER REVISION VAULT",
       "concept": "30.4 Diagnostic Solutions & Analysis"
     },
-    "badge": "359 words"
+    "badge": "389 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_3_chapters-01_chapter_01_accounting_concepts_gaap_ind_as",

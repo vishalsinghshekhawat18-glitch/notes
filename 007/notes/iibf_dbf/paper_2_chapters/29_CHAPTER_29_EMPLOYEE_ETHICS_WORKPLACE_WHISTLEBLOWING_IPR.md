@@ -126,9 +126,10 @@ The enactment of the Digital Personal Data Protection Act, 2023 (DPDP Act) overh
 | **Fiduciary (SDF)**  | (most scheduled banks qualify); must appoint an independent|
 |                      | Data Protection Officer (DPO) and conduct Data Audits.     |
 +----------------------+------------------------------------------------------------+
-| **Data Protection**  | Adjudicatory body empowered to investigate breaches and    |
-| **Board of India**   | levy statutory financial penalties up to **₹250 Crore**    |
-|                      | for failure to implement reasonable security safeguards.   |
+| **Data Protection**  | Statutory adjudicatory body empowered to investigate       |
+| **Board of India**   | breaches; Schedule penalty ceiling is up to **₹250 Crore**   |
+|                      | (subject to phased rollout: Sec 28–34 enforcement powers    |
+|                      | phased 18 months post 13 Nov 2025 commencement gazette).    |
 +-----------------------------------------------------------------------------------+
 ```
 
@@ -185,7 +186,7 @@ C) Direct access to the Chairperson of the Audit Committee in appropriate cases,
 D) The automatic filing of an FIR with the Central Bureau of Investigation (CBI).
 
 ### Question 3
-Under the Digital Personal Data Protection Act, 2023 (DPDP Act), what is the maximum financial penalty that the Data Protection Board of India (DPBI) can levy on a Data Fiduciary for failure to take reasonable security safeguards to prevent a personal data breach?
+Under the Digital Personal Data Protection Act, 2023 (DPDP Act), what is the maximum statutory financial penalty prescribed in the Schedule for failure by a Data Fiduciary to observe reasonable security safeguards to prevent a personal data breach?
 A) Up to ₹10 Crore
 B) Up to ₹50 Crore
 C) Up to ₹250 Crore
@@ -216,7 +217,7 @@ D) Author's lifetime plus 60 years; only if registered through the RBI.
    * *Analysis:* The Vigil Mechanism mandated by the Companies Act, 2013 (Section 177) and SEBI LODR Regulations provides for direct access to the Chairperson of the Audit Committee in exceptional cases. It guarantees strict confidentiality and protection against victimization or adverse retaliatory employment action.
 
 3. **Correct Answer: C**
-   * *Analysis:* Under the Schedule to the DPDP Act, 2023, the Data Protection Board of India is empowered to levy financial penalties up to **₹250 Crore** for significant breaches of obligations regarding reasonable security safeguards to prevent personal data breaches.
+   * *Analysis:* Under the Schedule to the DPDP Act, 2023, the maximum statutory financial penalty is **₹250 Crore** for significant failure to observe reasonable security safeguards. (Note for examinations: Under the 13 November 2025 commencement notification, substantive adjudication and penalty powers under Sections 28–34 follow an 18-month phased rollout timeline).
 
 4. **Correct Answer: B**
    * *Analysis:* "Chinese Walls" are ethical, procedural, and technological barriers implemented within multi-service financial institutions to prevent the flow of Unpublished Price Sensitive Information (UPSI) from private advisory/lending arms to public trading or wealth management desks, mitigating conflicts of interest and illegal insider trading.
