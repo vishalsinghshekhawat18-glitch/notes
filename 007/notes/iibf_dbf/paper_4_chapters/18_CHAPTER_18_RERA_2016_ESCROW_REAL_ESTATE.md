@@ -11,13 +11,13 @@ Real estate represents the physical collateral anchor of retail housing finance.
 
 Enacted by Parliament to protect home-buyers and establish transparency in real estate transactions, RERA enforces five structural mandates:
 
-### 1. Mandatory Project Registration Thresholds
+### 1. Mandatory Project Registration Thresholds *(Statutory / Regulatory Requirement)*
 - Every residential and commercial real estate project where:
   - The total land area to be developed exceeds **500 square meters**, OR
   - The number of apartments proposed to be developed exceeds **8 apartments** (inclusive of all phases),
   must be registered with the State Real Estate Regulatory Authority **prior to advertising, marketing, booking, or selling**.
 
-### 2. 70% Dedicated Bank Escrow Account Architecture
+### 2. 70% Dedicated Bank Escrow Account Architecture *(Statutory / Regulatory Requirement)*
 To eliminate fund siphoning into other projects, Section 4(2)(l)(D) mandates:
 - The promoter must deposit **70% of all amounts realized from allottees** into a **dedicated escrow account** maintained with a scheduled commercial bank.
 - Funds in this escrow account can be withdrawn **strictly to cover the cost of construction and land cost**.
@@ -26,21 +26,21 @@ To eliminate fund siphoning into other projects, Section 4(2)(l)(D) mandates:
   2. An **Architect** certifying physical percentage completion.
   3. A practicing **Chartered Accountant (CA)** certifying that withdrawal is proportional to project completion.
 
-### 3. Standardized Carpet Area Mandate
+### 3. Standardized Carpet Area Mandate *(Statutory / Regulatory Requirement)*
 Promoters are legally prohibited from selling properties based on ambiguous "Super Built-Up Area" or "Built-Up Area". Pricing must be based strictly on **Carpet Area**:
 - **Statutory Definition:** The net usable floor area of an apartment, **excluding** the area covered by external walls, areas under service shafts, exclusive balcony/verandah area, and exclusive open terrace area, but **including** the area covered by the internal partition walls of the apartment.
 
-### 4. 5-Year Structural Defect Liability
+### 4. 5-Year Structural Defect Liability *(Statutory / Regulatory Requirement)*
 - If any structural defect or defect in workmanship, quality, or provision of services is brought to the promoter's notice within **5 years from the date of handing over possession**, the promoter is legally bound to rectify the defect **without further charge within 30 days**.
 - If the promoter fails to rectify within 30 days, aggrieved allottees are entitled to receive full statutory compensation.
 
-### 5. 10% Advance Booking Cap & Dispute Redressal
+### 5. 10% Advance Booking Cap & Dispute Redressal *(Statutory / Regulatory Requirement)*
 - **10% Cap:** Promoters cannot accept a sum exceeding **10% of the cost of the apartment** as an advance payment or application fee without first executing and registering a written **Agreement for Sale**.
 - **Appellate Tribunal Pre-Deposit:** Under Section 43(5), if a promoter appeals against an order or penalty imposed by the Regulatory Authority or Adjudicating Officer, the appeal cannot be entertained unless the promoter deposits **at least 30% of the penalty** or **100% of the total amount directed to be paid to the allottee** (including interest and compensation).
 
 ---
 
-## 2. Real Property Valuation Methodologies in Bank Appraisal
+## 2. Real Property Valuation Methodologies in Bank Appraisal *(Valuation / Appraisal Practice)*
 
 Commercial banks rely on certified property valuations to determine the Loan-to-Value (LTV) ratio and distress liquidation value:
 

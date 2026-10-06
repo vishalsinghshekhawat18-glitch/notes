@@ -21,30 +21,31 @@ Under the **SEBI (Portfolio Managers) Regulations, 2020**, portfolio managers pr
 ### 1. Minimum Investment Ticket Size
 - The statutory minimum investment ticket size per client is **₹50 Lakhs** (enhanced by SEBI from ₹25 Lakhs to prevent mass-retail participation in high-risk bespoke strategies).
 
-### 2. Three Operational Types of PMS:
-1. **Discretionary PMS:** The Portfolio Manager exercises full, independent authority to execute investment transactions and manage client funds without obtaining prior approval before each trade.
-2. **Non-Discretionary PMS:** The Portfolio Manager recommends investment ideas and manages the portfolio, but **cannot execute any transaction without the explicit prior written or digital consent** of the client.
-3. **Advisory PMS:** The manager acts purely as an investment advisor; trade execution and custody management remain entirely in the hands of the client.
+### 2. Operational Scope of PMS under SEBI Framework:
+1. **Discretionary PMS (Core Fund Management):** The Portfolio Manager exercises full, independent authority to execute investment transactions and manage client funds without obtaining prior approval before each trade.
+2. **Non-Discretionary PMS (Core Fund Management):** The Portfolio Manager recommends investment ideas and manages the portfolio, but **cannot execute any transaction without the explicit prior written or digital consent** of the client.
+3. **Advisory Services:** The manager acts purely as an investment advisor; trade execution and custody management remain entirely in the hands of the client.
+4. **Co-investment Services:** Specialized institutional portfolio management offered to co-investors in Category I and II AIFs under SEBI regulations.
 
 ### 3. Master Distinction Matrix: PMS vs Mutual Funds
 
 | Parameter | Portfolio Management Services (PMS) | Mutual Funds (MFs) |
 | :--- | :--- | :--- |
-| **Regulatory Framework** | SEBI (Portfolio Managers) Regulations, 2020 | SEBI (Mutual Funds) Regulations, 1996 |
-| **Minimum Ticket Size** | **₹50 Lakhs** per client | **₹500** for SIPs; ₹5,000 for lump-sum |
+| **Regulatory Framework** | SEBI (Portfolio Managers) Regulations, 2020 *(Statutory)* | SEBI (Mutual Funds) Regulations, 1996 *(Statutory)* |
+| **Minimum Ticket Size** | **₹50 Lakhs** per client *(Statutory)* | **₹500** for SIPs; ₹5,000 for lump-sum |
 | **Portfolio Customization** | Highly customized; direct client-tailored portfolios | Standardized pooled vehicle; identical NAV for all investors |
 | **Asset Ownership** | Securities held **directly in the client's individual Demat account** | Securities held by the Mutual Fund Trust; investors hold units |
 | **Taxation of Trades** | Capital gains tax applies to **each individual trade** executed in the client's Demat account | Portfolio turnover within the fund is **tax-exempt**; investor pays tax only upon redemption of units |
 
 ---
 
-## 3. SEBI Alternative Investment Funds (AIF) Regulations, 2012
+## 3. SEBI Alternative Investment Funds (AIF) Regulations, 2012 *(Statutory / Regulatory Requirement)*
 
 AIFs are privately pooled investment vehicles established or incorporated in India to collect funds from sophisticated domestic and global investors:
 
 ### 1. Statutory Investment Threshold
-- Minimum investment ticket size per investor: **₹1.00 Crore** (reduced to **₹25 Lakhs** for employees and directors of the AIF or fund manager).
-- Minimum corpus for an AIF scheme: **₹20 Crores** (₹10 Crores for Angel Funds).
+- Minimum investment ticket size per investor: **₹1.00 Crore** (reduced to **₹25 Lakhs** for employees and directors of the AIF or fund manager) *(Statutory)*.
+- Minimum corpus for an AIF scheme: **₹20 Crores** (₹10 Crores for Angel Funds) *(Statutory)*.
 
 ### 2. The Three AIF Categories:
 
@@ -52,7 +53,7 @@ AIFs are privately pooled investment vehicles established or incorporated in Ind
 | :--- | :--- | :--- | :--- |
 | **Category I AIF** | Start-ups, early-stage ventures, social enterprises, SMEs, infrastructure. Sub-categories: **Venture Capital Funds (VCF)**, SME Funds, Social Venture Funds, Infrastructure Funds | Cannot undertake leverage except for meeting temporary day-to-day operational needs (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act |
 | **Category II AIF** | Does not fall under Cat I or Cat III. Sub-categories: **Private Equity (PE) Funds**, Real Estate Funds, Debt Funds, Funds for Distressed Assets | Cannot borrow or engage in leverage except to meet temporary operational requirements (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act |
-| **Category III AIF** | Employs diverse or complex trading strategies; listed equities, commodities, derivatives. Sub-categories: **Hedge Funds**, PIPE funds | **Permitted to employ Leverage** (up to 2 times the fund NAV) through derivatives or borrowing | Taxed at the **Fund / Trust level** at Maximum Marginal Rate (MMR); no pass-through status |
+| **Category III AIF** | Employs diverse or complex trading strategies; listed equities, commodities, derivatives. Sub-categories: **Hedge Funds**, PIPE funds | **Permitted to employ Leverage up to $2\times$ NAV (200% of NAV)** through derivatives or borrowing *(Regulatory)* | Taxed at the **Fund / Trust level** at Maximum Marginal Rate (MMR); no pass-through status |
 
 ---
 
@@ -60,9 +61,9 @@ AIFs are privately pooled investment vehicles established or incorporated in Ind
 
 Banks distribute fee-based third-party financial products across their branch networks:
 
-### 1. Bancassurance (Insurance Distribution)
+### 1. Bancassurance (Insurance Distribution) *(Statutory / Regulatory Requirement)*
 Governed by Insurance Regulatory and Development Authority of India (IRDAI) regulations:
-- **Corporate Agency Model (Open Architecture):** A commercial bank licensed as a Corporate Agent can tie up with up to **9 Life Insurers, 9 General Insurers, and 9 Health Insurers** simultaneously.
+- **Corporate Agency Model (Open Architecture):** A commercial bank licensed as a Corporate Agent can tie up with up to **9 Life Insurers, 9 General Insurers, and 9 Health Insurers** simultaneously *(Statutory)*.
   - *Statutory Rule:* Banks cannot force borrowers to buy insurance from their partner insurers as a precondition for loan sanction (prohibition of coercive tying).
 - **Insurance Broker Model:** Bank sets up a subsidiary to act as an independent insurance broker representing the buyer.
 - **Referral Model:** Bank merely shares customer lead information with insurers without active solicitation or policy servicing.
@@ -80,8 +81,8 @@ Governed by Insurance Regulatory and Development Authority of India (IRDAI) regu
 > **Examiner Trap Alert & Regulatory Pitfalls:**
 > 1. **SEBI PMS Ticket Size:** The minimum investment ticket size for PMS is **₹50 Lakhs** (not ₹25 Lakhs).
 > 2. **SEBI AIF Ticket Size:** The minimum investment threshold for AIFs is **₹1 Crore** (₹25 Lakhs for employees/directors).
-> 3. **AIF Leverage Permission:** **Category III AIFs (Hedge Funds)** are the only category permitted to employ leverage in derivatives and borrowing. Categories I and II cannot undertake leverage.
-> 4. **Bancassurance 9-9-9 Rule:** A corporate agent bank can partner with up to **9 Life, 9 General, and 9 Health** insurance companies.
+> 3. **AIF Leverage Ceiling:** **Category III AIFs (Hedge Funds)** are permitted to employ leverage up to **2 times NAV ($2\times$ NAV / 200% of NAV)** under SEBI Master Circular. Categories I and II cannot undertake leverage (except temporary operational borrowing up to 30 days).
+> 4. **Bancassurance 9-9-9 Rule:** A corporate agent bank can partner with up to **9 Life, 9 General, and 9 Health** insurance companies under IRDAI open-architecture regulations.
 
 ---
 

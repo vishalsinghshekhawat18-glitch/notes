@@ -1,6 +1,7 @@
 # DIGITAL BANKING TRENDS: FINTECH PARTNERSHIPS, NEOBANKS & CYBER RISKS
 
 > **Paper:** 4 (Retail Banking and Wealth Management)  
+> **Module:** B (Retail Products & Recovery / Digitisation, FinTech & AI)  
 > **Standard:** Macmillan Courseware & IIBF 2026 Master Benchmark • Duplex A4 Monochrome Print Edition
 
 The retail banking landscape has undergone structural transformation driven by mobile telecommunications, Open Banking Application Programming Interfaces (APIs), Artificial Intelligence (AI), and collaboration with Financial Technology (FinTech) firms. While digital platforms drastically compress customer onboarding times and operating delivery costs, they introduce systemic operational, credit, and cybersecurity risks. To establish consumer protection and systemic discipline, the Reserve Bank of India formulated the **RBI Guidelines on Digital Lending (2022/2026)** and the **Account Aggregator (AA)** regulatory framework.

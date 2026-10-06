@@ -43,17 +43,18 @@ Constituted under the **Legal Services Authorities Act, 1987**, Lok Adalats prov
 
 ---
 
-## 3. Recovery Channel 2: Debt Recovery Tribunals (DRT)
+## 3. Recovery Channel 2: Debt Recovery Tribunals (DRT) *(Statutory / Regulatory Requirement)*
 
 Established under the **Recovery of Debts and Bankruptcy Act, 1993 (RDB Act)**:
 
-- **Pecuniary Jurisdiction:** Handles recovery applications where the debt amount due is **₹20 Lakhs and above** (threshold enhanced from ₹10 Lakhs to reduce tribunal pendency).
-- **Tribunal Structure:** Presided over by a Presiding Officer (District Judge rank). Appeals from DRT lie with the **Debt Recovery Appellate Tribunal (DRAT)**.
-- **Mandatory Pre-Deposit for Appeal:** Under Section 21 of the RDB Act, an appeal by the borrower to DRAT cannot be entertained unless the borrower deposits **50% of the debt amount** determined by the DRT (DRAT possesses discretion to reduce this pre-deposit to a minimum of **25%**).
+- **Pecuniary Jurisdiction:** Handles recovery applications where the debt amount due is **₹20 Lakhs and above** (threshold enhanced by Central Government notification from ₹10 Lakhs to reduce tribunal pendency).
+- **Tribunal Structure:** Presided over by a Presiding Officer (District Judge rank). 
+- **Original Filing (No Pre-Deposit):** An original application filed by a bank or financial institution before the DRT requires **zero pre-deposit**.
+- **Appellate Forum (DRAT) & Mandatory Pre-Deposit:** Appeals from DRT orders lie with the **Debt Recovery Appellate Tribunal (DRAT)**. Under **Section 21 of the RDB Act**, an appeal by a preferred debtor/borrower cannot be entertained by DRAT unless the borrower deposits **50% of the debt amount** determined by the DRT. DRAT possesses discretionary power to reduce this pre-deposit requirement to **not less than 25%** for recorded reasons.
 
 ---
 
-## 4. Recovery Channel 3: The SARFAESI Act, 2002
+## 4. Recovery Channel 3: The SARFAESI Act, 2002 *(Statutory / Regulatory Requirement)*
 
 The **Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act)** is the most potent recovery instrument available to secured creditors, enabling asset enforcement **without the intervention of any court or tribunal**:
 
@@ -70,34 +71,33 @@ The **Securitisation and Reconstruction of Financial Assets and Enforcement of S
 4. **Section 14 Magistrate Assistance:**
    - Secured creditors may submit a formal affidavit to the **Chief Metropolitan Magistrate (CMM)** or **District Magistrate (DM)** to obtain executive assistance in taking physical possession of secured properties.
 5. **Section 17 Appeal to DRT:**
-   - Any person aggrieved by measures taken under Section 13(4) may file an application to the DRT within **45 days**.
+   - Any person aggrieved by measures taken under Section 13(4) may file an application to the DRT within **45 days** (requires no pre-deposit for borrower application under Sec 17, unlike appeal under Sec 18 to DRAT which requires 50% deposit, reducible to 25%).
 
 ### Section 31 Statutory Exemptions (Where SARFAESI CANNOT be Invoked):
-1. **Agricultural Land:** Absolute statutory bar; security interest on agricultural land cannot be enforced under SARFAESI.
-2. **De Minimis Debt Threshold:** Any case in which the total outstanding claim is **less than ₹1,00,000**.
-3. **80% Repayment Rule:** Any security interest where the remaining unpaid dues are **less than 20%** of the principal amount and interest.
+1. **Agricultural Land:** Absolute statutory bar under Section 31(i); security interest on agricultural land cannot be enforced under SARFAESI regardless of loan quantum.
+2. **De Minimis Debt Threshold:** Any case in which the total outstanding claim is **less than ₹1,00,000** under Section 31(h).
+3. **80% Repayment Rule:** Any security interest where the remaining unpaid dues are **less than 20%** of the principal amount and interest under Section 31(j).
 4. **Unsecured Debts & Moveable Pledges:** Any pledge of moveables under the Indian Contract Act or unpaid seller's lien.
 
 ---
 
 ## 5. Master Recovery Forum Comparison Matrix
 
-| Statutory Recovery Channel | Governing Act | Pecuniary Jurisdiction Limit | Judicial Intermediary Needed? | Appeal Mechanism |
-| :--- | :--- | :--- | :--- | :--- |
-| **Lok Adalat** | Legal Services Authorities Act, 1987 | **Up to ₹20 Lakhs** | Informal conciliatory panel | **NO Appeal Lies** (Decree is final) |
-| **Civil Court** | Code of Civil Procedure, 1908 | Unlimited | Civil Judge / District Court | Regular hierarchy of civil appeals |
-| **Debt Recovery Tribunal (DRT)** | RDB Act, 1993 | **₹20 Lakhs and Above** | Judicial Presiding Officer | Appeal to DRAT (Requires $50\%$ pre-deposit) |
-| **SARFAESI Act, 2002** | SARFAESI Act, 2002 | **No Upper Cap** (Outstanding $\ge ₹1\text{L}$) | **NO Court Intervention** (Direct Bank Enforcement) | Aggrieved borrower appeals to DRT within 45 days |
+| Statutory Recovery Channel | Governing Act | Pecuniary Jurisdiction Limit | Judicial Intermediary Needed? | Pre-Deposit Requirement | Appeal Mechanism |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Lok Adalat** | Legal Services Authorities Act, 1987 | **Up to ₹20 Lakhs** | Informal conciliatory panel | **None** | **NO Appeal Lies** (Decree is final) |
+| **Civil Court** | Code of Civil Procedure, 1908 | Unlimited | Civil Judge / District Court | None | Regular hierarchy of civil appeals |
+| **Debt Recovery Tribunal (DRT)** | RDB Act, 1993 | **₹20 Lakhs and Above** | Judicial Presiding Officer | **Zero for original filing** | Appeal to DRAT (requires **50% pre-deposit**, min 25%) |
+| **SARFAESI Act, 2002** | SARFAESI Act, 2002 | **No Upper Cap** (Outstanding $\ge ₹1\text{L}$) | **NO Court Intervention** (Direct Bank Enforcement) | None for Sec 13(4) enforcement | Aggrieved borrower appeals to DRT within 45 days under Sec 17 |
 
 ---
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **SARFAESI Agricultural Exemption:** SARFAESI **cannot** be enforced against agricultural land under Section 31, regardless of loan size.
+> 1. **SARFAESI Agricultural Exemption:** SARFAESI **cannot** be enforced against agricultural land under Section 31(i), regardless of loan size or borrower default magnitude.
 > 2. **Section 13(2) Notice Window:** The borrower is given **60 days** to discharge liabilities; bank response to borrower objection takes **15 days**.
 > 3. **DRT Jurisdiction Threshold:** DRT pecuniary jurisdiction begins at **₹20 Lakhs and above**, not ₹10 Lakhs.
-
----
+> 4. **DRT vs DRAT Pre-Deposit:** Filing an original application in DRT requires **no pre-deposit**. The mandatory **50% pre-deposit** (reducible by tribunal to not less than **25%**) applies strictly to appeals preferred before the **DRAT** under Section 21 of the RDB Act 1993. Do NOT confuse original DRT proceedings with DRAT appellate conditions.
 
 ## 6. Solved Examination Questions
 

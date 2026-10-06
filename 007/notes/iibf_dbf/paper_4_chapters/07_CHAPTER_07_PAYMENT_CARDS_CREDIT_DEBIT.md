@@ -27,7 +27,11 @@ Payment cards constitute the primary electronic payment instrument in retail con
   - *Vital Rule:* The interest-free grace period applies **ONLY if the total statement balance of the previous month was paid in full** on or before the due date. If even ₹1 remains unpaid, the grace period is **completely forfeited** on both old balances and new purchases.
 
 ### 2. Minimum Amount Due (MAD)
-$$\text{MAD} = 5\% \text{ of Total Outstanding Balance} + \text{All Applicable Taxes (GST)} + \text{EMI Installments} + \text{Overlimit Fees}$$
+Under RBI Master Directions, the structure of the **Minimum Amount Due (MAD)** is determined by individual card issuers subject to strict prudential safeguards:
+- **Negative Amortization Prohibition:** RBI explicitly mandates that the MAD must be designed such that it **never leads to negative amortization** (where unpaid finance charges get capitalized, increasing the principal). The MAD must cover $100\%$ of all taxes (GST), finance charges, fees, and EMI installments, plus a defined fraction of the principal debt.
+- **Common Industry Formulation:** Issuers commonly formulate MAD as:
+  $$\text{MAD} = 5\% \text{ of Principal Outstanding Balance} + \text{All Billed Taxes (GST)} + \text{Finance Charges} + \text{EMI Installments}$$
+  *(Note: While 5% is a standard illustrative industry benchmark, the exact percentage of principal is determined by bank credit policy).*
 - Paying MAD prevents the account from being reported as delinquent (overdue) to Credit Information Companies (CICs), but **does NOT waive finance charges**. Interest continues to accrue on the entire remaining unpaid balance.
 
 ### 3. Revolving Finance Charges & Annual Percentage Rate (APR)

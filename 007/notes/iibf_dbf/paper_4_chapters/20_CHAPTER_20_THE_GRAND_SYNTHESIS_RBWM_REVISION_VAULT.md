@@ -1,9 +1,9 @@
 # THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT
 
 > **Paper:** 4 (Retail Banking and Wealth Management)  
-> **Standard:** Macmillan Courseware & IIBF 2026 Master Benchmark • Duplex A4 Monochrome Print Edition
+> **Structure:** Modules A, B, C & D Synthesized Capstone • IIBF 2026 Master Benchmark • Duplex A4 Monochrome Print Edition
 
-Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB Paper 4 (Retail Banking & Wealth Management). This chapter synthesizes the entire 30-unit curriculum across Modules A, B, C, D, and E into four high-yield revision architectures: the **Master Formula & Regulatory Benchmark Cheat Sheet**, **10 Grand Distinction Matrices**, **Top 50 Deadliest Examiner Traps**, and the **Comprehensive Active Recall Diagnostic Vault**.
+Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB Paper 4 (Retail Banking & Wealth Management). This chapter synthesizes the entire curriculum across Modules A, B, C, and D into four high-yield revision architectures: the **Master Formula & Regulatory Benchmark Cheat Sheet**, **10 Grand Distinction Matrices**, **Top 50 Deadliest Examiner Traps**, and the **Comprehensive Active Recall Diagnostic Vault**.
 
 ---
 
@@ -11,30 +11,33 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 
 | Financial / Regulatory Metric | Canonical Mathematical Formula / Regulatory Benchmark | Core Examination Context |
 | :--- | :--- | :--- |
-| **Return on Assets (ROA)** | $\text{ROA} = \frac{\text{Net Profit After Tax (PAT)}}{\text{Average Total Assets}} \times 100$ | Regulatory health benchmark $\ge 1.00\%$ |
+| **Return on Assets (ROA)** | $\text{ROA} = \frac{\text{Net Profit After Tax (PAT)}}{\text{Average Total Assets}} \times 100$ | *(Illustrative Benchmark $\ge 1.00\%$)* |
 | **Return on Equity (ROE)** | $\text{ROE} = \frac{\text{PAT}}{\text{Average Equity}} \times 100 = \text{ROA} \times \text{Equity Multiplier}$ | DuPont two-step identity |
 | **DuPont 3-Stage ROE** | $\text{ROE} = \left(\frac{\text{PAT}}{\text{Revenue}}\right) \times \left(\frac{\text{Revenue}}{\text{Assets}}\right) \times \left(\frac{\text{Assets}}{\text{Equity}}\right)$ | Net Margin $\times$ Asset Turnover $\times$ Leverage |
-| **Net Interest Margin (NIM)** | $\text{NIM} = \frac{\text{Interest Earned} - \text{Interest Expended}}{\text{Average Total Earning Assets}} \times 100$ | Retail bank benchmark $3.2\% - 3.8\%$ |
-| **Cost-to-Income Ratio** | $\text{Cost-to-Income} = \frac{\text{Operating Expenses}}{\text{Net Interest Income} + \text{Non-Interest Income}} \times 100$ | Operational efficiency benchmark $< 45\% - 50\%$ |
+| **Net Interest Margin (NIM)** | $\text{NIM} = \frac{\text{Interest Earned} - \text{Interest Expended}}{\text{Average Total Earning Assets}} \times 100$ | *(Illustrative Retail Bank Spread $3.2\% - 3.8\%$)* |
+| **Cost-to-Income Ratio** | $\text{Cost-to-Income} = \frac{\text{Operating Expenses}}{\text{Net Interest Income} + \text{Non-Interest Income}} \times 100$ | *(Efficiency Benchmark $< 45\% - 50\%$)* |
 | **Fixed Obligation to Income (FOIR)** | $\text{FOIR} = \frac{\text{Proposed EMI} + \text{Existing Fixed Monthly Debt Obligations}}{\text{Net Monthly Income}} \times 100$ | Standard bank cap $40\% - 55\%$ (Max $60\%$) |
-| **Loan-to-Value (LTV) Ratio** | $\text{LTV} = \frac{\text{Sanctioned Loan Amount}}{\text{Total Documented Cost of Property}} \times 100$ | RBI caps: $90\% \le ₹30\text{L}$; $80\% \le ₹75\text{L}$; $75\% > ₹75\text{L}$ |
+| **Loan-to-Value (LTV) Ratio** | $\text{LTV} = \frac{\text{Sanctioned Loan Amount}}{\text{Total Documented Cost of Property}} \times 100$ | *(Statutory Caps:)* $90\% \le ₹30\text{L}$; $80\% \le ₹75\text{L}$; $75\% > ₹75\text{L}$ |
 | **Equated Monthly Installment (EMI)** | $\text{EMI} = P \cdot r \cdot \frac{(1 + r)^n}{(1 + r)^n - 1}$ | Monthly reducing balance formula |
 | **Savings Daily Product Interest** | $\text{Interest} = \frac{\sum \text{Daily Closing Ledger Balances} \times \text{Annual Rate}}{365 \times 100}$ | Credited at least quarterly by banks |
-| **Credit Card Minimum Amount Due** | $\text{MAD} = 5\% \text{ of Outstanding Balance} + \text{All Taxes} + \text{EMIs} + \text{Overlimit}$ | Prevents delinquency reporting; does NOT waive interest |
+| **Credit Card Minimum Amount Due** | $\text{MAD} = \text{Issuer-defined under RBI negative-amortization ban}$ | *(5% balance + fees + EMI is standard industry practice)* |
 | **Year's Purchase (YP) in Valuation** | $\text{YP} = \frac{1}{\text{Capitalization Yield Rate } r}$ | $\text{Capitalized Value} = \text{Net Annual Rent} \times \text{YP}$ |
 | **Annual Sinking Fund Deposit ($I$)** | $I = S \times \frac{i}{(1 + i)^n - 1}$ | Accumulates building replacement corpus $S$ over $n$ years |
-| **RERA Project Registration Gate** | Land area $> 500\text{ sq meters}$ OR Apartments $> 8\text{ units}$ | Mandatory registration prior to advertising/booking |
+| **RERA Project Registration Gate** | Land area $> 500\text{ sq meters}$ OR Apartments $> 8\text{ units}$ | *(Statutory Mandate)* prior to advertising/booking |
 | **RERA Dedicated Escrow Proportion** | **$70\%$ of all buyer realizations** deposited in bank escrow | Certified by Engineer, Architect, and practicing CA |
-| **CERSAI Registration Deadline** | Within **30 Days** of mortgage creation | Central Registry created under SARFAESI Act |
+| **CERSAI Registration Deadline** | Within **30 Days** of mortgage creation | *(Statutory Mandate)* under SARFAESI Act |
 | **SARFAESI Section 13(2) Notice** | Borrower given **60 Days** to discharge debt in full | Bank replies to borrower objection within 15 days |
-| **DRT Pecuniary Jurisdiction** | Debt claim of **₹20 Lakhs and Above** | Pre-deposit for appeal to DRAT is $50\%$ of debt |
+| **DRT Pecuniary Jurisdiction** | Debt claim of **₹20 Lakhs and Above** | **Zero pre-deposit** for DRT; appeal to DRAT requires $50\%$ |
 | **Lok Adalat Pecuniary Jurisdiction** | Debt claim **Up to ₹20 Lakhs** | Award is a civil court decree; **NO appeal lies** |
-| **SEBI PMS Minimum Ticket Size** | Minimum investment **₹50 Lakhs** per client | Discretionary, Non-Discretionary, or Advisory |
-| **SEBI AIF Minimum Ticket Size** | Minimum investment **₹1.00 Crore** per investor | Category I, II (No leverage) vs Category III (Leverage) |
-| **Section 24(b) Housing Interest** | Up to **₹2,00,000** for self-occupied residential property | Actual interest deductible for rented-out property |
+| **SEBI PMS Minimum Ticket Size** | Minimum investment **₹50 Lakhs** per client | Discretionary, Non-Discretionary, or Advisory *(Statutory)* |
+| **SEBI AIF Minimum Ticket Size** | Minimum investment **₹1.00 Crore** per investor | Cat I, II (No leverage) vs Cat III (Leverage up to $2\times$ NAV) |
+| **Section 24(b) Housing Interest** | Up to **₹2,00,000** for self-occupied residential property | Actual interest deductible for let-out property |
 | **Section 80C Investment Ceiling** | Up to **₹1,50,000** per financial year | Principal of home loan, PF, ELSS, SSY, Life Insurance |
 | **Section 80CCD(1B) NPS Additional** | Up to **₹50,000** exclusively for NPS Tier-I contribution | Over and above the ₹1.50 Lakh cap of Section 80C |
 | **Section 80TTB Senior Interest** | Up to **₹50,000** on deposits (Savings + Fixed) | Applicable strictly to Senior Citizens (Aged 60+) |
+| **Section 10(43) Reverse Mortgage** | Periodic or lump-sum payments 100% tax exempt | Capital receipt; zero income tax liability |
+| **Direct Tax Default Regimes** | Sec 115BAC (1961 Act) / Sec 202 (2025 Act Default) | Standard deduction ₹75,000; Nil tax up to ₹7.00 Lakhs |
+| **TDS on Bank Deposit Interest** | ₹40,000/₹50,000 (1961 Act) vs ₹50,000/₹1,00,000 (2025 Act) | Zero-TDS self-declaration via Form 121 (replaces 15G/15H) |
 | **Section 54EC Capital Gains Bonds** | Up to **₹50,00,000** invested within 6 months in REC/PFC/NHAI | 5-year lock-in period on specified bonds |
 | **Unauthorized Electronic Slabs** | Zero liability if reported $\le 3\text{ days}$; ₹5K (BSBDA) / ₹10K (SB) / ₹25K (OD) if 4–7 days | Shadow reversal within 10 days; resolved in 90 days |
 
@@ -47,7 +50,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | :--- | :--- | :--- |
 | **Clientele** | Individuals, households, micro-enterprises | Conglomerates, multinationals, PSUs |
 | **Ticket Size & Velocity** | Small individual tickets, very high velocity | Very large ticket sizes, low velocity |
-| **Credit Concentration Risk** | **Granular / Dispersed** (Negligible single-name risk) | **High Concentration Risk** (Single default impairs capital) |
+| **Credit Concentration Risk** | **Granular / Dispersed** (Eliminates single-name risk; but correlated macro shocks across households can cause systemic portfolio distress) | **High Concentration Risk** (Single borrower default severely impairs bank capital) |
 | **NIM & Spreads** | High Net Interest Margins ($3.2\% - 3.8\%$) | Tight interest spreads ($1.5\% - 2.5\%$) |
 | **Funding Stability** | Sticky, stable CASA deposits from millions of depositors | Price-sensitive, volatile wholesale bulk deposits |
 
@@ -60,11 +63,11 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | **Strategic Business Unit (SBU)** | Dedicated or shared distribution | End-to-end autonomous business control | Headed by President; independent ROA/ROE target |
 
 ### Matrix 3: Statutory Debt Recovery Forums Comparison
-| Forum | Governing Statute | Pecuniary Ceiling / Floor | Legal Nature of Order | Appeal Provision |
+| Forum | Governing Statute | Pecuniary Ceiling / Floor | Legal Nature of Order | Appeal Provision & Pre-Deposit |
 | :--- | :--- | :--- | :--- | :--- |
-| **Lok Adalat** | Legal Services Authorities Act, 1987 | **Up to ₹20 Lakhs** | Deemed Civil Court decree | **NO Appeal Lies** (Absolute finality) |
-| **Debt Recovery Tribunal (DRT)** | RDB Act, 1993 | **₹20 Lakhs and Above** | Recovery Certificate issued | Appeal to DRAT ($50\%$ pre-deposit mandatory) |
-| **SARFAESI Act, 2002** | SARFAESI Act, 2002 | **No Upper Cap** (Outstanding $\ge ₹1\text{L}$) | Direct extra-judicial enforcement | Aggrieved borrower appeals to DRT in 45 days |
+| **Lok Adalat** | Legal Services Authorities Act, 1987 | **Up to ₹20 Lakhs** | Deemed Civil Court decree | **NO Appeal Lies** (Absolute finality; zero pre-deposit) |
+| **Debt Recovery Tribunal (DRT)** | RDB Act, 1993 | **₹20 Lakhs and Above** | Original recovery application | **Zero pre-deposit for DRT**; appeal to DRAT requires **50% pre-deposit** (min 25%) under Sec 21 |
+| **SARFAESI Act, 2002** | SARFAESI Act, 2002 | **No Upper Cap** (Outstanding $\ge ₹1\text{L}$) | Direct extra-judicial enforcement | Aggrieved borrower appeals to DRT in 45 days under Sec 17 |
 | **Civil Court** | Code of Civil Procedure, 1908 | Unlimited | Formal judicial decree | Hierarchy of District Court / High Court appeals |
 
 ### Matrix 4: Electronic Payment Rails Comparison
@@ -80,7 +83,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | Card Class | Funding Mechanism | Credit Option | Grace Period | Primary User Segment |
 | :--- | :--- | :--- | :--- | :--- |
 | **Debit Card** | Immediate real-time debit to CASA | No credit line | Not applicable | All account holders for cash and merchant debit |
-| **Credit Card** | Sanctioned revolving credit line | Revolving credit available (MAD 5%) | **20 to 50 Days** (if paid in full) | Salaried and affluent consumers for revolving credit |
+| **Credit Card** | Sanctioned revolving credit line | Revolving credit available (MAD issuer-defined) | **20 to 50 Days** (if paid in full) | Salaried and affluent consumers for revolving credit |
 | **Charge Card** | Deferred monthly billing | **No Revolving Credit** (100% due) | 20 to 50 Days | Corporate executives; full statement settlement |
 | **Prepaid Card** | Stored-value pre-loaded balance | No credit line | Not applicable | Gift cards, travel forex cards, payroll disbursements |
 
@@ -95,7 +98,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | Parameter | Discretionary PMS | Non-Discretionary PMS | Mutual Funds |
 | :--- | :--- | :--- | :--- |
 | **Trade Execution** | Manager executes trades **independently** | Manager requires **client prior consent** | Fund manager executes for pooled fund |
-| **Minimum Ticket** | **₹50 Lakhs** | **₹50 Lakhs** | **₹500** (SIP) / ₹5,000 |
+| **Minimum Ticket** | **₹50 Lakhs** *(Statutory)* | **₹50 Lakhs** *(Statutory)* | **₹500** (SIP) / ₹5,000 |
 | **Demat Ownership** | Securities held directly in **client Demat** | Securities held directly in **client Demat** | Securities held by **Trust**; client holds units |
 | **Tax on Trades** | Capital gains tax applies to **each trade** | Capital gains tax applies to **each trade** | Internal portfolio churn is **tax-exempt** |
 
@@ -103,7 +106,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | Parameter | Category I AIF | Category II AIF | Category III AIF |
 | :--- | :--- | :--- | :--- |
 | **Investment Universe** | Start-ups, SMEs, Social, Infrastructure, VCFs | Private Equity (PE), Debt Funds, Real Estate | Hedge Funds, Listed Derivatives, PIPE |
-| **Leverage Permitted?** | **NO Leverage** (Except temporary 30-day need) | **NO Leverage** (Except temporary 30-day need) | **LEVERAGE PERMITTED** (Up to $2\times$ NAV) |
+| **Leverage Permitted?** | **NO Leverage** (Except temporary 30-day need) | **NO Leverage** (Except temporary 30-day need) | **LEVERAGE PERMITTED (Up to $2\times$ NAV / 200%)** |
 | **Tax Pass-Through?** | **YES** (Pass-through under Section 115UB) | **YES** (Pass-through under Section 115UB) | **NO** (Taxed at fund level at MMR) |
 | **Minimum Ticket** | **₹1.00 Crore** (₹25L for employees) | **₹1.00 Crore** (₹25L for employees) | **₹1.00 Crore** (₹25L for employees) |
 
@@ -116,22 +119,24 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | **Tax Liability** | Principal under 80C; interest under 24(b) | **Completely Tax-Exempt** under Section 10(43) |
 | **Property Settlement** | Mortgage released upon final EMI clearance | Property sold only after demise of both spouses |
 
-### Matrix 10: Old Tax Regime vs New Tax Regime (Section 115BAC)
-| Dimension | Old Tax Regime | New Tax Regime (Section 115BAC - Default) |
-| :--- | :--- | :--- |
-| **Basic Exemption** | ₹2.5L (₹3L for Seniors; ₹5L for Super Seniors) | **₹3.00 Lakhs** for all individuals |
-| **Salaried Standard Ded** | ₹50,000 | **₹75,000** |
-| **Section 87A Zero-Tax** | Taxable income up to ₹5.00 Lakhs | Taxable income up to **₹7.00 Lakhs** |
-| **Chapter VI-A Deductions** | Allowed: 80C, 80D, 80CCD(1B), 80E, 80TTA/TTB | **DISALLOWED** (Except employer NPS 80CCD(2)) |
-| **Section 24(b) Housing** | Allowed up to **₹2,00,000** for self-occupied | **DISALLOWED** for self-occupied property |
+### Matrix 10: Dual Direct Tax Framework (1961 Act Sec 115BAC vs 2025 Act Sec 202 Default Regime)
+| Dimension | Historical 1961 Act (Old Regime) | Historical 1961 Act (Sec 115BAC Default) | Current 2025 Act (Sec 202 Default Regime) |
+| :--- | :--- | :--- | :--- |
+| **Basic Exemption** | ₹2.5L (₹3L Senior; ₹5L Super) | **₹3.00 Lakhs** | **₹3.00 Lakhs** *(Statutory)* |
+| **Salaried Standard Ded** | ₹50,000 | **₹75,000** | **₹75,000** *(Statutory)* |
+| **Section 87A Zero-Tax** | Taxable income up to ₹5.00 Lakhs | Taxable income up to **₹7.00 Lakhs** | Taxable income up to **₹7.00 Lakhs** *(Statutory)* |
+| **Chapter VI-A Deductions** | Allowed: 80C, 80D, 80CCD(1B), 80E, 80TTA/TTB | **DISALLOWED** (Except employer NPS 80CCD(2)) | **DISALLOWED** (Streamlined rate structure) |
+| **Housing Loan Interest** | Allowed up to **₹2,00,000** (Sec 24b) | **DISALLOWED** for self-occupied | **DISALLOWED** for self-occupied |
+| **TDS on Deposit Interest** | ₹40,000 (General) / ₹50,000 (Senior) | ₹40,000 (General) / ₹50,000 (Senior) | **₹50,000** (General) / **₹1,00,000** (Senior) *(Statutory)* |
+| **Zero-TDS Self Declaration** | Form 15G (General) / 15H (Seniors) | Form 15G (General) / 15H (Seniors) | Unified **Form 121** replaces 15G/15H |
 
 ---
 
 ## 3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls
 
-1. **Credit Risk in Retail Banking:** Retail credit risk is **granular and dispersed**; corporate credit has high single-name concentration risk.
+1. **Credit Risk in Retail Banking:** Retail credit risk is **granular and dispersed**, eliminating single-name borrower concentration; however, correlated macroeconomic shocks across millions of retail borrowers can still create systemic asset quality and capital distress.
 2. **SBU Accountability:** An SBU is an autonomous profit center with independent ROA and ROE targets, not just a sales channel.
-3. **HNWI Definition:** HNWIs are defined by investible liquid surplus of **₹2 Crores to ₹25 Crores**. Above ₹25 Crores is Ultra HNWI.
+3. **HNWI Definition:** Wealth tiers (e.g. HNWI investible surplus of **₹2 Crores to ₹25 Crores**; Ultra HNWI $> ₹25\text{ Crores}$) are illustrative wealth industry segmentation conventions, NOT universal statutory or RBI regulatory categories.
 4. **ROA Denominator:** ROA is calculated on **Average Total Assets**, whereas NIM is calculated on **Average Earning Assets**.
 5. **DuPont Leverage Trap:** An increase in ROE driven purely by a higher Equity Multiplier reflects increased financial risk, not operational efficiency.
 6. **Operating Profit (PPOP):** Provisions for NPAs and taxes are deducted **after** Pre-Provision Operating Profit (PPOP) to compute Net Profit (PAT).
@@ -143,8 +148,8 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 12. **Negative Balance Ban:** Banks are legally **prohibited** from turning a savings bank account balance negative due to minimum balance penalty charges.
 13. **BSBDA Withdrawal Rights:** BSBDA holders are legally entitled to at least **4 free withdrawals per month**, including branch and ATM transactions.
 14. **Overdue Term Deposits:** Unclaimed, unrenewed fixed deposits earn interest from the maturity date at the **contracted rate or savings bank rate, whichever is lower**.
-15. **Section 194A TDS on Deposits:** TDS applies if annual deposit interest exceeds **₹40,000** for general citizens, or **₹50,000** for senior citizens.
-16. **Form 15G vs Form 15H:** Form 15H is strictly for **Senior Citizens (60+)** whose net tax liability is NIL. Form 15G is for non-seniors whose total income is below the basic exemption threshold.
+15. **Section 194A TDS on Deposits:** TDS applies if annual deposit interest exceeds **₹40,000** for general citizens, or **₹50,000** for senior citizens under the historical 1961 Act framework (enhanced to **₹50,000** and **₹1,00,000** under the current 2025 Act regime).
+16. **Self-Declaration Forms (15G/15H vs Form 121):** Historically, Form 15H was strictly for **Senior Citizens (60+)** and Form 15G for non-seniors. Under current enacted statutory law, single unified **Form 121** replaces both 15G and 15H.
 17. **Dormancy Trigger:** An account becomes inoperative/dormant after **2 years** of zero customer-induced transactions. System-generated interest credits do **not** prevent dormancy.
 18. **DEA Fund 10-Year Mandate:** Balances in accounts inoperative for **10 years or more** must be transferred to the Depositor Education and Awareness (DEA) Fund under Section 26A of the Banking Regulation Act, 1949.
 19. **DICGC Deposit Insurance:** Deposit insurance covers up to **₹5,00,000** per depositor per bank (covering principal plus interest).
@@ -167,15 +172,15 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 36. **RTGS Minimum Floor:** The statutory minimum transaction limit for RTGS is **₹2,00,000**.
 37. **NEFT Batches:** NEFT operates 24x7 in **48 half-hourly batches** on Deferred Net Settlement (DNS).
 38. **Demand Draft Validity:** Both Demand Drafts and Banker's Cheques are legally valid for **3 Months** from issuance.
-39. **Credit Score Prime Threshold:** A score of **$\ge 750$** is universally recognized as the prime benchmark in Indian retail underwriting.
+39. **Credit Score Prime Threshold:** A score of **$\ge 750$** is an illustrative industry underwriting rule of thumb and lender benchmark, NOT a universal statutory or RBI regulatory cutoff. Lenders set their own risk-appetite thresholds.
 40. **Soft vs Hard Inquiries:** Checking one's own credit score is a **Soft Inquiry** and has **zero impact** on the credit score.
 41. **CIC Dispute TAT:** Credit institutions and CICs must resolve credit report disputes within **30 calendar days**, failing which a compensation of **₹100 per day of delay** applies.
 42. **Special Mention Accounts (SMA):** SMA-0 is **1–30 days** overdue; SMA-1 is **31–60 days**; SMA-2 is **61–90 days**; NPA is **$> 90$ days**.
 43. **Lok Adalat Pecuniary Cap:** Lok Adalat handles claims **up to ₹20 Lakhs**. Its award is non-appealable.
-44. **DRT Jurisdiction Threshold:** DRT pecuniary jurisdiction begins at **₹20 Lakhs and above**. Appealing to DRAT requires a mandatory **50% pre-deposit**.
+44. **DRT Jurisdiction & Pre-Deposit:** DRT pecuniary jurisdiction begins at **₹20 Lakhs and above**. Filing an original application in DRT requires **zero pre-deposit**. The mandatory **50% pre-deposit** (reducible by tribunal to not less than **25%**) applies strictly to appeals preferred before the **DRAT** under Section 21 of the RDB Act.
 45. **SARFAESI Agricultural Land Bar:** Under Section 31, SARFAESI **cannot be enforced against agricultural land**, regardless of debt size.
 46. **SARFAESI Section 13(2) Notice:** The statutory demand notice gives the borrower **60 days** to discharge liabilities; bank response to objection takes **15 days**.
-47. **DRA Calling Hours:** Recovery agents can contact borrowers strictly between **07:00 AM and 07:00 PM**.
+47. **DRA Calling Hours:** Recovery agents can contact borrowers strictly between **08:00 AM and 07:00 PM** (08:00 to 19:00 hrs) under RBI directives. Calling before 8 AM or after 7 PM is an explicit regulatory breach. (Watch out for obsolete 07:00 AM options!)
 48. **Securitization Credit Card Exclusion:** Revolving credit facilities like credit card receivables **CANNOT be securitized**.
 49. **Unauthorized Electronic 3-Day Rule:** Reporting a third-party cyber breach within **3 working days** provides the customer with **Zero Liability**.
 50. **RERA 70% Escrow Rule:** Promoters must deposit **70% of collections** into a dedicated bank escrow account, withdrawable only upon certification by an Engineer, Architect, and practicing CA.

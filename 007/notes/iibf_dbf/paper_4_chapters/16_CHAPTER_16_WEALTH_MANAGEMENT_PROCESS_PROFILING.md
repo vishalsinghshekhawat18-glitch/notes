@@ -48,48 +48,58 @@ Formulating an Investment Policy Statement (IPS) requires evaluating two distinc
 
 ---
 
-## 4. Personal Tax Planning: Old Regime vs New Tax Regime (Section 115BAC)
+## 4. Personal Tax Planning: Dual-Track Statutory Framework
 
-Tax optimization constitutes an essential pillar of wealth management advisory in India:
+Tax optimization constitutes an essential pillar of wealth management advisory in India. In current banking examinations, candidates must understand both the historical 1961 Act provisions (under which historic courseware was written) and the current Income-tax Act 2025 transition:
 
-### 1. Key Statutory Concepts:
-- **Financial Year (FY) vs Previous Year (PY):** The 12-month period (1 April to 31 March) in which income is earned.
-- **Assessment Year (AY):** The 12-month period immediately succeeding the financial year in which the earned income is assessed and taxed.
-- **Five Heads of Income:** (1) Salaries, (2) Income from House Property, (3) Profits and Gains of Business or Profession (PGBP), (4) Capital Gains, and (5) Income from Other Sources.
+### 1. Dual-Track Statutory Structure:
+- **Track 1 — Historical Framework (Income-tax Act, 1961 / AY 2026-27):**
+  - Section 115BAC (Default New Tax Regime) vs Old Optional Tax Regime with Chapter VI-A deductions (80C, 80D, 80CCD, 80TTA/TTB) and Section 24(b) housing loan interest.
+  - TDS under Section 194A (₹40,000 threshold for regular depositors; ₹50,000 for senior citizens). Self-declarations via Form 15G / Form 15H.
+  - **Reverse Mortgage Exemption:** Under **Section 10(43)** of the Income-tax Act 1961, periodic loan disbursements or lump-sum payments received by a senior citizen borrower under an approved Reverse Mortgage Scheme are deemed capital receipts and are **100% exempt from income tax**.
+- **Track 2 — Current Enacted Law (Income-tax Act, 2025 / Tax Year 2026-27 Onward):**
+  - **Section 202 Default Regime:** The simplified, streamlined tax rate architecture without itemized deductions serves as the universal default tax regime.
+  - **Enhanced Interest Thresholds:** TDS threshold on interest enhanced to **₹50,000** for regular individuals and **₹1,00,000** for senior citizens.
+  - **Single Consolidated Self-Declaration:** Replaced historical Form 15G and Form 15H with unified **Form 121**.
+  - Reverse mortgage loan receipts remain fully exempt from tax.
 
-### 2. Old Tax Regime vs New Tax Regime (Section 115BAC) Comparison
+### 2. Old Tax Regime vs Section 115BAC / Section 202 Comparison
 
-| Parameter | Old Tax Regime | New Tax Regime (Section 115BAC - Default Regime) |
+| Parameter | Old Tax Regime (1961 Act) | Section 115BAC (1961 Act) / Section 202 (2025 Act Default) |
 | :--- | :--- | :--- |
-| **Basic Exemption Limit** | ₹2,50,000 (₹3,00,000 for Senior Citizens; ₹5,00,000 for Super Senior Citizens) | **₹3,00,000** for all individuals regardless of age |
-| **Standard Deduction (Salaried)** | ₹50,000 | **₹75,000** (Enhanced under recent Finance Acts) |
-| **Tax Rebate under Section 87A** | Tax rebate if taxable income $\le ₹5,00,000$ (Zero tax) | Full tax rebate if taxable income **$\le ₹7,00,000$** (Zero tax up to ₹7 Lakhs) |
-| **Chapter VI-A Deductions** | **Fully Allowed:** 80C, 80D, 80CCD(1B), 80E, 80G, 80TTA/TTB | **DISALLOWED** (Except employer NPS contribution under Section 80CCD(2)) |
+| **Basic Exemption Limit** | ₹2,50,000 (₹3L for Seniors; ₹5L for Super Seniors) | **₹3,00,000** for all individuals regardless of age *(Statutory)* |
+| **Standard Deduction (Salaried)** | ₹50,000 | **₹75,000** (Enhanced under recent Finance Acts) *(Statutory)* |
+| **Tax Rebate Threshold** | Tax rebate under Sec 87A up to ₹5,00,000 | Full tax rebate up to **₹7,00,000** (Zero tax up to ₹7 Lakhs) *(Statutory)* |
+| **Chapter VI-A Deductions** | **Fully Allowed:** 80C, 80D, 80CCD(1B), 80E, 80G, 80TTA/TTB | **DISALLOWED** (Except employer NPS contribution: 14% Govt, 10% Private) |
 | **Housing Loan Interest Sec 24(b)** | Allowed up to **₹2,00,000** for self-occupied residential property | **DISALLOWED** for self-occupied property |
+| **TDS on Bank Deposit Interest** | ₹40,000 (General) / ₹50,000 (Seniors) (Sec 194A) | **₹50,000** (General) / **₹1,00,000** (Seniors) under current framework |
+| **Zero-TDS Self Declaration** | Form 15G (General) / Form 15H (Senior Citizens) | Unified **Form 121** replaces 15G/15H under current system |
 
 ---
 
-## 5. Master Chapter VI-A Deductions Suite (Old Tax Regime)
+## 5. Master Chapter VI-A Deductions Suite (Old Tax Regime Architecture) *(Statutory)*
 
 | Section | Nature of Permissible Deduction | Maximum Monetary Ceiling | Eligible Investments & Expenses |
 | :--- | :--- | :--- | :--- |
-| **80C** | Specified savings, investments, and capital expenses | **₹1,50,000** | PPF, EPF, ELSS, Life Insurance premiums, Sukanya Samriddhi Yojana (SSY), NSC, Housing Loan Principal repayment |
+| **80C** | Specified savings, investments, and capital expenses | **₹1,50,000** | PPF, EPF, ELSS, Life Insurance premiums, SSY, NSC, Housing Loan Principal repayment |
 | **80CCC** | Contributions to specified annuity pension plans | Within overall 80C ₹1.5L cap | LIC or other recognized insurer pension funds |
 | **80CCD(1B)** | Additional contributions to National Pension System (NPS) | **₹50,000** (Exclusive over and above 80C) | Self-contributions to NPS Tier-I retirement accounts |
 | **80CCD(2)** | Employer's contribution to employee NPS account | Up to **14%** for Govt; **10%** for Private sector | Allowed under **BOTH** Old and New Tax Regimes |
-| **80D** | Health insurance premium & preventive check-up (₹5,000) | **₹25,000** (Self/Family); Additional **₹25,000** (Parents); **₹50,000** if Parents are Senior Citizens (Max ₹1,00,000) | Mediclaim policies, CGHS contributions, preventive health health check-ups |
+| **80D** | Health insurance premium & preventive check-up (₹5,000) | **₹25,000** (Self/Family); Additional **₹25,000** (Parents); **₹50,000** if Parents are Seniors (Max ₹1,00,000) | Mediclaim policies, CGHS contributions, preventive check-ups |
 | **80E** | Interest paid on loan for higher education | **NO Upper Monetary Limit** | Full interest deductible for a maximum of **8 consecutive Assessment Years** |
 | **80TTA** | Interest on Savings Bank accounts | **₹10,000** | Savings accounts with banks, cooperative banks, and post offices (Non-seniors) |
 | **80TTB** | Interest on deposits (Savings + Fixed Deposits) | **₹50,000** | Available strictly to **Senior Citizens (Aged 60+)**; replaces 80TTA |
-| **80U / 80DD** | Person with disability / Dependent with disability | **₹75,000** (Normal disability $40\%-80\%$); **₹1,25,000** (Severe disability $>80\%$) | Flat deduction based on certified medical disability |
+| **80U / 80DD** | Person with disability / Dependent with disability | **₹75,000** (Normal $40\%-80\%$); **₹1,25,000** (Severe $>80\%$) | Flat deduction based on certified medical disability |
+| **10(43)** | Reverse Mortgage Loan Disbursements | **100% Tax-Exempt** (No limit) | Periodic or lump-sum payments received by senior citizen borrowers |
 
 ---
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **80CCD(1B) NPS Cap:** The additional NPS deduction under Section 80CCD(1B) is **₹50,000**, which is over and above the ₹1,50,000 limit of Section 80C.
-> 2. **Section 80TTB Senior Limit:** Senior citizens are entitled to a **₹50,000** deduction on interest from **both savings and fixed deposits** under Section 80TTB. Section 80TTA does not apply to senior citizens.
-> 3. **Section 80E Education Horizon:** Section 80E has **no monetary limit**, but deductions are available for a maximum of **8 consecutive Assessment Years**.
+> 1. **Dual-Track Tax Regimes:** In historical courseware, the default regime is Section 115BAC (1961 Act) with Form 15G/15H; in current statutory law, the default regime is Section 202 (2025 Act) with Form 121 and enhanced ₹50k/₹100k TDS limits.
+> 2. **Reverse Mortgage Taxability:** Under Section 10(43), amounts received by senior citizens under a reverse mortgage scheme are capital receipts and strictly **EXEMPT from income tax**.
+> 3. **80CCD(1B) NPS Cap:** The additional NPS deduction under Section 80CCD(1B) is **₹50,000**, over and above the ₹1,50,000 limit of Section 80C.
+> 4. **Section 80TTB Senior Limit:** Senior citizens are entitled to a **₹50,000** deduction on interest from **both savings and fixed deposits** under Section 80TTB. Section 80TTA does not apply to senior citizens.
 
 ---
 

@@ -29,15 +29,15 @@ The standard bureau scoring model ranges from **300 to 900 points**, where highe
 
 | Score Band | Qualitative Risk Category | Credit Approval Probability | Underwriting Terms & Pricing Spread |
 | :--- | :--- | :--- | :--- |
-| **750 to 900** | **Prime / Excellent** | **Very High ($\ge 90\%$)** | Preferred lowest interest rate spreads, zero processing fee waivers, pre-approved offers |
-| **700 to 749** | **Good / Low Risk** | **High ($70\% - 85\%$)** | Standard interest rate spreads, routine underwriting approval |
-| **650 to 699** | **Fair / Moderate Risk** | **Moderate ($40\% - 60\%$)** | Detailed scrutiny, lower LTV, higher borrower margins, moderate interest rate markups |
-| **300 to 649** | **Poor / High Risk** | **Very Low ($< 20\%$)** | High likelihood of outright loan rejection; mandatory collateral or guarantor required |
-| **-1 (NA / NH)** | **No History / Not Applicable** | **Requires Manual Appraisal** | First-time borrower with less than 6 months of credit history; underwritten using surrogate income proofs |
+| **750 to 900** | **Prime / Low Risk** *(Illustrative Industry Benchmark)* | **Very High ($\ge 90\%$)** | Preferred lowest interest rate spreads, processing fee waivers, pre-approved offers |
+| **700 to 749** | **Good / Standard Risk** *(Illustrative Industry Benchmark)* | **High ($70\% - 85\%$)** | Standard interest rate spreads, routine underwriting approval |
+| **650 to 699** | **Fair / Moderate Risk** *(Illustrative Industry Benchmark)* | **Moderate ($40\% - 60\%$)** | Detailed scrutiny, lower LTV, higher borrower margins, interest rate markups |
+| **300 to 649** | **Poor / High Risk** *(Illustrative Industry Benchmark)* | **Very Low ($< 20\%$)** | High likelihood of rejection; mandatory collateral or guarantor required |
+| **-1 (NA / NH)** | **No History / Not Applicable** *(Bureau Convention)* | **Requires Manual Appraisal** | First-time borrower with < 6 months history; underwritten via bank surrogate parameters |
 
 ---
 
-## 3. The 5 Core Score Components & Weighting Framework
+## 3. The 5 Core Score Components & Weighting Framework *(IIBF / Bureau Model Convention)*
 
 A credit bureau score is computed using five proprietary weighting dimensions:
 
@@ -52,7 +52,7 @@ A credit bureau score is computed using five proprietary weighting dimensions:
 1. **Past Repayment History ($\approx 35\%$ Weightage):** The single most critical component. Evaluates Days Past Due (DPD) metrics across 36 months. Any entry showing 30, 60, or 90 DPD, or status tags like "Written Off" or "Settled" severely impairs the score.
 2. **Credit Utilization Ratio - CUR ($\approx 30\%$ Weightage):**
    $$\text{CUR} = \frac{\text{Total Credit Card Balance Outstanding}}{\text{Total Aggregate Sanctioned Credit Card Limit}} \times 100$$
-   - *Benchmark:* Ideal CUR is **$< 30\%$**. A utilization ratio exceeding $50\% - 70\%$ signals credit hunger and high leverage, depressing the score even if minimum payments are made on time.
+   - *Benchmark:* Ideal CUR is **$< 30\%$** *(Illustrative Industry Benchmark)*. A utilization ratio exceeding $50\% - 70\%$ signals credit hunger and high leverage, depressing the score even if minimum payments are made on time.
 3. **Credit History Length ($\approx 15\%$ Weightage):** Tracks the operational duration of the borrower's oldest active account. A longer history provides greater statistical reliability.
 4. **Credit Product Mix ($\approx 10\%$ Weightage):** A healthy portfolio maintains a balanced mix of secured loans (housing, auto) and unsecured facilities (credit cards, personal loans). Relying entirely on unsecured loans depresses score trajectory.
 5. **New Credit Applications & Hard Inquiries ($\approx 10\%$ Weightage):**
@@ -61,7 +61,7 @@ A credit bureau score is computed using five proprietary weighting dimensions:
 
 ---
 
-## 4. Common Errors in Credit Reports & Dispute Resolution Mechanism
+## 4. Common Errors in Credit Reports & Dispute Resolution Mechanism *(Statutory / Regulatory Requirement)*
 
 ### Frequent Report Inaccuracies:
 - **Identity Inaccuracies:** Wrong PAN, voter ID, or mixing files of individuals with similar names.
@@ -69,16 +69,17 @@ A credit bureau score is computed using five proprietary weighting dimensions:
 - **Incorrect DPD Tagging:** Bank misreporting an account as overdue despite timely payment.
 
 ### RBI Master Direction on CIC Dispute Resolution (2023):
-- **Turnaround Time (TAT):** Credit institutions and CICs must resolve borrower dispute complaints within **30 calendar days**.
-- **Statutory Delay Penalty:** If a dispute is not resolved within 30 days, the credit institution or CIC responsible for the delay must pay a compensation of **₹100 per calendar day of delay** directly to the aggrieved complainant.
+- **Turnaround Time (TAT):** Credit institutions and CICs must resolve borrower dispute complaints within **30 calendar days** *(Statutory)*.
+- **Statutory Delay Penalty:** If a dispute is not resolved within 30 days, the credit institution or CIC responsible for the delay must pay a compensation of **₹100 per calendar day of delay** directly to the aggrieved complainant *(Statutory)*.
+- **Alert SMS/Email on Search:** Under RBI 2023 directives, CICs must send an SMS/email alert to the customer whenever their credit report is accessed by any lender.
 
 ---
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **Prime Score Benchmark:** A credit score of **$\ge 750$** is universally recognized as the prime benchmark in Indian retail underwriting.
-> 2. **Inquiry Impact:** Checking one's own credit score is a **Soft Inquiry** and does **NOT** reduce the score. Only **Hard Inquiries** initiated by lenders impact the score.
-> 3. **CIC Compensation Rule:** The statutory compensation for delay beyond 30 days in resolving credit report disputes is **₹100 per day**.
+> 1. **Prime Score Benchmark:** A credit score of **$\ge 750$** is an illustrative industry underwriting benchmark and rule of thumb, **NOT** a universal statutory or RBI regulatory requirement. Lenders independently determine their cutoffs, credit risk appetite, and risk-based pricing matrices.
+> 2. **Inquiry Impact:** Checking one's own credit score is a **Soft Inquiry** and does **NOT** reduce the score. Only **Hard Inquiries** initiated by lenders for loan underwriting impact the score.
+> 3. **CIC Compensation Rule:** The statutory compensation for delay beyond 30 days in resolving credit report disputes is **₹100 per calendar day**, payable by the defaulting entity (bank or CIC).
 
 ---
 

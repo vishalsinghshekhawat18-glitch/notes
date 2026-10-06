@@ -16,14 +16,14 @@ The Indian banking sector underwent a historic structural transition through thr
 3. **Post-1991 Reforms & Digital Banking Era:** Entry of new private sector banks (incorporating automated Core Banking Solutions), deregulation of interest rates, emergence of Credit Information Companies (CICs), and growth of middle-class purchasing power catalyzed retail credit expansion (housing, auto, personal loans, credit cards).
 
 ### Key Advantages of Retail Banking
-- **Granular Credit Risk:** Default by an individual borrower does not endanger bank capital or solvency, unlike single-name wholesale corporate exposure.
+- **Granular Credit Risk:** Retail portfolios reduce single-name concentration risk because exposure is distributed across millions of borrowers; default by an individual customer does not endanger bank solvency, unlike single-name wholesale corporate exposures.
 - **Sticky, Low-Cost Funding Base:** Retail CASA and term deposits are held by millions of individuals for routine life needs, making deposit flight rare during localized market stress.
 - **Superior Interest Margins:** Retail loan products yield higher spreads and Net Interest Margins (NIM) compared to competitive wholesale consortium lending.
 - **Cross-Selling Potential:** Retail customer relationships create durable distribution conduits for high-margin third-party products (life/general insurance, mutual funds, gold coins, depository services).
 
 ### Constraints & Operational Challenges
 - **High Operating Costs per Transaction:** Serving millions of small-ticket accounts requires expansive branch, ATM, and digital network infrastructure.
-- **Delinquency Monitoring in Unsecured Lending:** Rapid growth in unsecured personal loans and credit cards increases vulnerability to macroeconomic downturns.
+- **Portfolio-Wide Correlated Delinquency Risk:** While individual defaults are non-systemic, widespread macroeconomic distress, job losses, or interest rate spikes can cause correlated defaults across unsecured portfolios (personal loans, credit cards).
 - **Rapid Technology Obsolescence & FinTech Disruption:** Banks must continually invest in cybersecurity, mobile apps, and API rails to compete against agile FinTechs and NBFCs.
 
 ---
@@ -34,9 +34,9 @@ The Indian banking sector underwent a historic structural transition through thr
 | :--- | :--- | :--- |
 | **Target Clientele** | Individual consumers, households, sole proprietors, and small business owners | Large corporate houses, multinational companies, PSUs, institutional entities |
 | **Transaction Volume & Ticket Size** | High volume of transactions, relatively small monetary ticket sizes per account | Low transaction volume, very large ticket sizes per sanction |
-| **Credit Risk Concentration** | **Granular / Dispersed Risk** (Zero systemic vulnerability to individual single default) | **High Concentration Risk** (Single large corporate default can impair bank net worth) |
+| **Credit Risk Concentration** | **Granular / Dispersed Risk** (Low single-borrower risk; however, correlated portfolio stress can impact capital) | **High Concentration Risk** (Single large corporate default can impair bank net worth) |
 | **Interest Rate Pricing & Margins** | Wide interest rate spreads; higher Net Interest Margins (NIM $\ge 3.5\%$) | Fine, competitive pricing with tight interest spreads (NIM $1.5\% - 2.5\%$) |
-| **Deposit Funding Nature** | Sticky, stable CASA and retail retail deposits; insensitive to minor rate changes | Volatile, price-sensitive bulk corporate deposits and wholesale CDs |
+| **Deposit Funding Nature** | Sticky, stable CASA and retail deposits; insensitive to minor rate changes | Volatile, price-sensitive bulk corporate deposits and wholesale CDs |
 | **Appraisal Methodology** | Standardized, score-card driven (CIBIL score, FOIR, LTV, bank statement algorithms) | Comprehensive financial analysis (CMA data, DSCR, sensitivity analysis, external credit ratings) |
 | **Collateral Security Base** | Consumer assets: Residential houses, passenger vehicles, consumer durables, personal guarantees | Factory land, industrial plants, machinery, hypothecation of inventories and book debts |
 | **Delivery Architecture** | Multi-channel: Branches, ATMs, Mobile Banking, Internet Banking, POS, BC kiosks | Dedicated Corporate Relationship Managers (RMs) and specialized Industrial Finance branches |
@@ -67,9 +67,9 @@ Banks adopt diverse organizational architectures to manufacture, underwrite, and
 
 ---
 
-## 4. Customer Wealth Segmentation Hierarchy
+## 4. Customer Wealth Segmentation Hierarchy (Industry Practice)
 
-To maximize Customer Lifetime Value (CLV) and product penetration, commercial banks segment retail clientele based on annual income, investible liquid surplus, and product complexity:
+> **Classification Standard:** The tiers below reflect widely accepted **Illustrative Industry Segmentation Benchmarks** across Indian wealth management practices. These thresholds vary by institution and do **not** constitute a statutory RBI cutoff.
 
 | Clientele Segment | Annual Income / Investible Surplus Range | Typical Products Offered | Primary Delivery Channel |
 | :--- | :--- | :--- | :--- |
@@ -92,9 +92,9 @@ To maximize Customer Lifetime Value (CLV) and product penetration, commercial ba
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **Credit Risk Concentration Trap:** Retail credit risk is **granular and dispersed**, meaning delinquency by an individual borrower has negligible impact on bank solvency. Corporate lending has **high single-name concentration risk**.
+> 1. **Credit Risk Concentration Trap:** Retail credit risk is **granular and dispersed**, meaning delinquency by an individual borrower has negligible impact on bank solvency. Corporate lending has **high single-name concentration risk**. However, correlated macro stress across an entire retail portfolio can still impair bank capital.
 > 2. **SBU Profit Accountability:** In an SBU structure, the retail division is an autonomous profit center with independent ROE and ROA accountability, not just a marketing channel.
-> 3. **HNWI Definition:** Under standard Indian wealth management categorization, High Net Worth Individuals (HNWIs) are defined by an investible surplus of **₹2 Crores to ₹25 Crores**. Those with surplus exceeding ₹25 Crores are Ultra HNWIs (UHNWIs).
+> 3. **HNWI Definition:** Wealth tiers such as High Net Worth Individuals (HNWIs, ₹2Cr–₹25Cr) and Ultra HNWIs (>₹25Cr) represent **illustrative industry segmentation conventions**, not statutory RBI thresholds.
 
 ---
 
@@ -108,13 +108,13 @@ To maximize Customer Lifetime Value (CLV) and product penetration, commercial ba
 *Answer:* **(B)**  
 *Explanation:* Under the Vertically Integrated Model, separate business units independently oversee product development, credit operations, and distribution for specific asset classes (e.g., auto loans vs housing loans).
 
-**Q2.** Under established Indian wealth management benchmarks, an individual investor possessing an investible liquid surplus of ₹15 Crores is categorized as:
+**Q2.** Under widely referenced Indian wealth management industry segmentation, an individual investor possessing an investible liquid surplus of ₹15 Crores is categorized as:
 - (A) Mass Affluent
 - (B) Super Affluent
 - (C) High Net Worth Individual (HNWI)
 - (D) Ultra High Net Worth Individual (UHNWI)
 *Answer:* **(C)**  
-*Explanation:* The HNWI segment encompasses individuals with an investible liquid surplus between ₹2 Crores and ₹25 Crores. Clients with investible assets exceeding ₹25 Crores are classified as Ultra HNWIs.
+*Explanation:* In standard Indian industry segmentation, the HNWI segment generally encompasses individuals with an investible liquid surplus between ₹2 Crores and ₹25 Crores, while clients with investible assets exceeding ₹25 Crores are classified as Ultra HNWIs. Note that these are industry conventions rather than statutory definitions.
 
 **Q3.** Why do commercial banks view retail CASA deposits as superior to wholesale bulk deposits?
 - (A) Retail deposits have zero operational costs

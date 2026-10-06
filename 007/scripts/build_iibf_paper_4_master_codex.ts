@@ -6,25 +6,25 @@ import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 
 export const EXACT_TOC_MAPPING_RBWM = [
   { ch: 1, start: 1, end: 5, pages: 5, title: "Retail Banking: Characteristics, Business Models & Segmentation", sub: "Retail vs Corporate • Granular Risk • Sticky CASA • Horizontal, Vertical & SBU Models • Wealth Tiers (Mass to UHNWI)" },
-  { ch: 2, start: 6, end: 9, pages: 4, title: "Branch Profitability, Operational Efficiency & ROA / ROE Metrics", sub: "ROA Benchmark (≥1.0%) • ROE DuPont Identity (Equity Multiplier) • Net Interest Margin (NIM) • Cost-to-Income • FTP" },
-  { ch: 3, start: 10, end: 13, pages: 4, title: "Customer Requirements, Product Lifecycle & Maslow Hierarchy", sub: "5 Maslow Need Tiers in Banking • Product Lifecycle (Intro, Growth, Maturity, Decline) • Product Bundling & Adoption" },
-  { ch: 4, start: 14, end: 18, pages: 5, title: "Retail Liability Products: CASA, Time Deposits & Special Schemes", sub: "Current A/c • Savings Bank Daily Product • BSBDA 4 Free Withdrawals • Term Deposits • Auto-Sweep • DICGC ₹5 Lakhs" },
-  { ch: 5, start: 19, end: 22, pages: 4, title: "Retail Lending Products I: Housing Loans, LTV Ratios & PMAY", sub: "RBI LTV Slabs (90% ≤₹30L, 80% ≤₹75L, 75% >₹75L) • FOIR Benchmark • Valuation Rules • PMAY CLSS Slabs & Subsidy" },
-  { ch: 6, start: 23, end: 26, pages: 4, title: "Retail Lending Products II: Auto, Personal & Education Loans", sub: "IBA Education Slabs (Nil Collateral ≤₹4L) • Moratorium (Course+1Yr) • Auto Hypothecation §51 • Unsecured Personal Credit" },
-  { ch: 7, start: 27, end: 29, pages: 3, title: "Payment Cards: Credit Cards, Charge Cards & Prepaid Instruments", sub: "Debit vs Credit vs Charge Cards • 20-50 Day Grace Period • Minimum Amount Due (MAD 5%) • Contactless ₹5,000 Cap" },
-  { ch: 8, start: 30, end: 33, pages: 4, title: "Remittance Products, NPCI Digital Rails & Channel Migration", sub: "NEFT DNS Batches • RTGS Min ₹2 Lakhs • IMPS ₹5 Lakhs • UPI VPAs • Demand Drafts & Pay Orders (3 Months Validity)" },
-  { ch: 9, start: 34, end: 37, pages: 4, title: "Credit Scoring Architecture (CIBIL / CICs 300–900 Point System)", sub: "CICRA 2005 (CIBIL, Experian, Equifax, High Mark) • 300-900 Scale (Prime ≥750) • Past Repayment History (35%) • FFCR" },
-  { ch: 10, start: 38, end: 41, pages: 4, title: "Retail NPA Recovery: Lok Adalats, DRT & SARFAESI Act 2002", sub: "Lok Adalat ₹20L Limit (No Appeal) • DRT ≥₹20L Limit (50% Pre-Deposit) • SARFAESI §13(2) 60-Day Notice • Agri Exemption §31" },
-  { ch: 11, start: 42, end: 44, pages: 3, title: "Direct Recovery Agents (DRA): IBA Code of Conduct & RBI Rules", sub: "Mandatory IIBF Certification • Contact Window (07:00 AM to 07:00 PM) • Calling Protocol • Vicarious Bank Liability" },
-  { ch: 12, start: 45, end: 47, pages: 3, title: "Securitization of Retail Loans & Pass-Through Certificates", sub: "SPV Bankruptcy Remote Trust • True Sale Criteria • MHP Seasoning • MRR Retention (10% for >24M) • PTC Cash Flows" },
-  { ch: 13, start: 48, end: 51, pages: 4, title: "The 7 Ps Extended Marketing Mix for Financial Services", sub: "Core 4 Ps + People, Process & Physical Evidence • Intangibility, Inseparability, Heterogeneity, Perishability • STP" },
-  { ch: 14, start: 52, end: 54, pages: 3, title: "Delivery Channels: Branch Architecture, ATMs & BC Networks", sub: "Bank-Owned, Brown Label, White Label ATMs (PSS Act 2007) • Micro-ATMs • BC Model • Financial Inclusion Channels" },
-  { ch: 15, start: 55, end: 58, pages: 4, title: "Relationship Banking, Cross-Selling, Up-Selling & Retention", sub: "Cross-Selling Ancillary Products • Up-Selling Premium Tiers • Customer Lifetime Value (CLV) • 1/5th Retention Cost" },
-  { ch: 16, start: 59, end: 62, pages: 4, title: "Wealth Management Lifecycle, Advisory & Risk Profiling", sub: "Accumulation, Preservation & Distribution Phases • Risk Tolerance vs Capacity • SEBI IA Regulations (Advisory vs Dist)" },
-  { ch: 17, start: 63, end: 66, pages: 4, title: "Portfolio Management Services (PMS) & Alternative Funds (AIF)", sub: "SEBI PMS Min ₹50 Lakhs (Discretionary vs Non-Discretionary) • SEBI AIF Min ₹1 Crore (Cat I, II, III Hedge Funds)" },
-  { ch: 18, start: 67, end: 70, pages: 4, title: "Real Estate Regulation Act (RERA 2016) & Escrow Architecture", sub: "Mandatory Registration (≥500 sq m / ≥8 units) • 70% Bank Escrow Account • Carpet Area Mandate • 5-Year Defect Warranty" },
-  { ch: 19, start: 71, end: 74, pages: 4, title: "Digital Banking Trends: FinTech Partnerships, Neobanks & Risks", sub: "RBI Digital Lending 2022 (No LSP Pool A/c) • Key Fact Statement (KFS) • Neobanks Partner Model • Account Aggregator (AA)" },
-  { ch: 20, start: 75, end: 82, pages: 8, title: "The Grand Synthesis: IIBF Paper 4 (RBWM) Master Revision Vault", sub: "Master Formula & Benchmark Cheat Sheet • 10 High-Yield Matrices • 50 Examiner Traps & High-Probability Pitfalls" },
+  { ch: 2, start: 6, end: 10, pages: 5, title: "Branch Profitability, Operational Efficiency & ROA / ROE Metrics", sub: "ROA Benchmark (≥1.0%) • ROE DuPont Identity (Equity Multiplier) • Net Interest Margin (NIM) • Cost-to-Income • MIS Architecture" },
+  { ch: 3, start: 11, end: 14, pages: 4, title: "Customer Requirements, Product Lifecycle & Maslow Hierarchy", sub: "5 Maslow Need Tiers in Banking • Product Lifecycle (Intro, Growth, Maturity, Decline) • Product Bundling & Adoption" },
+  { ch: 4, start: 15, end: 20, pages: 6, title: "Retail Liability Products: CASA, Time Deposits & Special Schemes", sub: "Minors (Age 10+) • Nomination DA-1/2/3 • Inoperative Accounts & DEA Fund §26A • Dual Tax Framework (1961 vs 2025 Act)" },
+  { ch: 5, start: 21, end: 25, pages: 5, title: "Retail Lending Products I: Housing Loans, LTV Ratios & PMAY", sub: "4-Pillar Appraisal Framework • LTV Slabs • PMAY-U 2.0 ISS vs CLSS • Real Property Valuation • Reverse Mortgage §10(43)" },
+  { ch: 6, start: 26, end: 29, pages: 4, title: "Retail Lending Products II: Auto, Personal & Education Loans", sub: "IBA Education Slabs (Nil Collateral ≤₹4L) • Moratorium (Course+1Yr) • Auto Hypothecation §51 • Unsecured Personal Credit" },
+  { ch: 7, start: 30, end: 32, pages: 3, title: "Payment Cards: Credit Cards, Charge Cards & Prepaid Instruments", sub: "Debit vs Credit vs Charge Cards • 20-50 Day Grace Period • Minimum Amount Due (MAD) • Contactless ₹5,000 Cap" },
+  { ch: 8, start: 33, end: 36, pages: 4, title: "Remittance Products, NPCI Digital Rails & Channel Migration", sub: "NEFT DNS Batches • RTGS Min ₹2 Lakhs • IMPS ₹5 Lakhs • UPI VPAs • Demand Drafts §85A (3 Months Validity, 14-Day Duplicate)" },
+  { ch: 9, start: 37, end: 40, pages: 4, title: "Credit Scoring Architecture (CIBIL / CICs 300–900 Point System)", sub: "CICRA 2005 (CIBIL, Experian, Equifax, High Mark) • 300-900 Scale (750+ Prime Benchmark) • Repayment History (35%) • FFCR" },
+  { ch: 10, start: 41, end: 44, pages: 4, title: "Retail NPA Recovery: Lok Adalats, DRT & SARFAESI Act 2002", sub: "Lok Adalat ≤₹20L • DRT ≥₹20L (No Pre-Deposit) • DRAT Appeal (50% Pre-Deposit §21) • SARFAESI §13(2) 60-Day • Agri Bar §31" },
+  { ch: 11, start: 45, end: 47, pages: 3, title: "Direct Recovery Agents (DRA): IBA Code of Conduct & RBI Rules", sub: "Mandatory IIBF Certification • Permitted Window (08:00 AM to 07:00 PM) • Calling Protocol • Vicarious Bank Liability" },
+  { ch: 12, start: 48, end: 50, pages: 3, title: "Securitization of Retail Loans & Pass-Through Certificates", sub: "SPV Bankruptcy Remote Trust • True Sale Criteria • MHP Seasoning • MRR Retention (10% for >24M) • PTC Cash Flows" },
+  { ch: 13, start: 51, end: 54, pages: 4, title: "The 7 Ps Extended Marketing Mix for Financial Services", sub: "Core 4 Ps + People, Process & Physical Evidence • Intangibility, Inseparability, Heterogeneity, Perishability • STP" },
+  { ch: 14, start: 55, end: 57, pages: 3, title: "Delivery Channels: Branch Architecture, ATMs & BC Networks", sub: "Bank-Owned, Brown Label, White Label ATMs (PSS Act 2007) • Micro-ATMs • BC Model • Financial Inclusion Channels" },
+  { ch: 15, start: 58, end: 61, pages: 4, title: "Relationship Banking, Cross-Selling, Up-Selling & Retention", sub: "Cross-Selling Ancillary Products • Up-Selling Premium Tiers • CLV Heuristics • BCSBI Evolution to Current RBI Framework" },
+  { ch: 16, start: 62, end: 66, pages: 5, title: "Wealth Management Lifecycle, Advisory & Risk Profiling", sub: "Lifecycle Phases • Risk Tolerance vs Capacity • Dual Direct Tax Framework (1961 Act vs 2025 Act) • Reverse Mortgage §10(43)" },
+  { ch: 17, start: 67, end: 70, pages: 4, title: "Portfolio Management Services (PMS) & Alternative Funds (AIF)", sub: "SEBI PMS Min ₹50 Lakhs (Discretionary vs Non-Discretionary) • SEBI AIF Min ₹1 Crore • Cat III Leverage (Up to 2x NAV)" },
+  { ch: 18, start: 71, end: 74, pages: 4, title: "Real Estate Regulation Act (RERA 2016) & Escrow Architecture", sub: "Mandatory Registration (≥500 sq m / ≥8 units) • 70% Bank Escrow Account • Carpet Area Mandate • 5-Year Defect Warranty" },
+  { ch: 19, start: 75, end: 78, pages: 4, title: "Digital Banking Trends: FinTech Partnerships, Neobanks & Risks", sub: "RBI Digital Lending (No LSP Pool A/c) • Key Fact Statement (KFS) • Neobanks Partner Model • Account Aggregator (AA)" },
+  { ch: 20, start: 79, end: 87, pages: 9, title: "The Grand Synthesis: IIBF Paper 4 (RBWM) Master Revision Vault", sub: "Master Formula & Benchmark Cheat Sheet • 10 High-Yield Matrices • 50 Examiner Traps & High-Probability Pitfalls" },
 ];
 
 export function buildFrontMatterHtml(): string {
@@ -240,12 +240,12 @@ export function buildFrontMatterHtml(): string {
         <p><strong>Title:</strong> Retail Banking &amp; Wealth Management (RBWM): Book 05 — Master Curricular Monograph.</p>
         <p><strong>Series:</strong> Mind of Aravalli Shelf 007 Banking Monograph Series (Volume 5).</p>
         <p><strong>Classification:</strong> IIBF JAIIB / DB&amp;F Paper 4 • Retail Asset Products • Debt Recovery Tribunals • Services Marketing • Wealth Advisory &amp; RERA.</p>
-        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF Macmillan Courseware 2023 Modules A, B, C, D &amp; E (26 Units).</p>
+        <p><strong>Curriculum Benchmark:</strong> Fully aligned with official IIBF DB&amp;F / JAIIB 2026 Courseware Modules A, B, C &amp; D (Four-Module Syllabus Architecture + Capstone Vault).</p>
         <p><strong>Typography &amp; Format:</strong> ISO A4 Portrait (210 mm × 297 mm) • 11.2pt Serif Typeface • 24mm Duplex Gutter Margin • Monochrome Laser Edition.</p>
       </div>
 
       <div>
-        <p style="font-size: 8pt; color: #666;">Compiled and synthesized directly from statutory enactments (SARFAESI Act 2002, RDBBFI Act 1993, CICRA 2005, RERA 2016), RBI Master Directions, SEBI Regulations, and official courseware. Manufactured for physical print and desk revision.</p>
+        <p style="font-size: 8pt; color: #666;">Compiled and synthesized directly from statutory enactments (SARFAESI Act 2002, RDB Act 1993, CICRA 2005, RERA 2016), RBI Master Directions, SEBI Regulations, and official courseware. Manufactured for physical print and desk revision.</p>
       </div>
     </div>
   </div>
@@ -266,11 +266,11 @@ export function buildTableOfContentsHtml(): string {
     } else if (item.ch === 13) {
       partBanner = `<div class="part-banner" style="margin-top: 0;"><span class="part-title">Part III : Module C — Support Services – Marketing of Financial Services</span><span class="part-tag">Chapters 13 – 15</span></div>`;
     } else if (item.ch === 16) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Wealth Management &amp; Real Estate Regulations</span><span class="part-tag">Chapters 16 – 18</span></div>`;
+      partBanner = `<div class="part-banner"><span class="part-title">Part IV : Module D — Wealth Management &amp; Real Estate Regulations / Home Loans</span><span class="part-tag">Chapters 16 – 18</span></div>`;
     } else if (item.ch === 19) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part V : Module E — Digital Banking, FinTech Partnerships &amp; Cyber Risk</span><span class="part-tag">Chapter 19</span></div>`;
+      partBanner = `<div class="part-banner"><span class="part-title">Part V : Module B (Contd.) — Digitisation, FinTech Partnerships &amp; Cyber Risk</span><span class="part-tag">Chapter 19</span></div>`;
     } else if (item.ch === 20) {
-      partBanner = `<div class="part-banner"><span class="part-title">Part VI : Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 20</span></div>`;
+      partBanner = `<div class="part-banner"><span class="part-title">Part VI : Capstone Synthesis — Master Consolidated Revision &amp; Diagnostic Vault</span><span class="part-tag">Chapter 20</span></div>`;
     }
 
     const pageBreak = item.ch === 13 ? `</div><div class="toc-sheet">` : '';
@@ -519,7 +519,7 @@ export async function assembleContinuousBodyPdf(
   outBodyPdfPath: string
 ): Promise<number> {
   console.log(`\n======================================================`);
-  console.log(`ASSEMBLING CONTINUOUS 82-PAGE BODY FOR IIBF PAPER 4`);
+  console.log(`ASSEMBLING CONTINUOUS 87-PAGE BODY FOR IIBF PAPER 4`);
   console.log(`======================================================`);
 
   const bodyPdf = await PDFDocument.create();

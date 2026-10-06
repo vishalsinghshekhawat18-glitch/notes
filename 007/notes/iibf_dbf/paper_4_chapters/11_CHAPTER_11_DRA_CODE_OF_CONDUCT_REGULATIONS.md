@@ -35,9 +35,9 @@ Before any recovery agent or agency personnel can interact with defaulting borro
 
 The RBI and IBA enforce strict behavioral protocols governing borrower interactions:
 
-### 1. Permitted Calling Hours
-- Recovery agents are strictly restricted to calling or visiting borrowers between **07:00 AM and 07:00 PM** (19:00 hrs).
-- Contacting borrowers before 07:00 AM or after 07:00 PM is a **severe regulatory violation**.
+### 1. Permitted Calling Hours *(Statutory / Regulatory Requirement)*
+- Recovery agents are strictly restricted to calling or visiting borrowers between **08:00 AM and 07:00 PM** (08:00 hrs to 19:00 hrs).
+- Under the RBI Master Direction on Recovery Agents / Customer Service, contacting borrowers **before 08:00 AM or after 07:00 PM** is strictly prohibited and constitutes a severe regulatory violation.
 
 ### 2. Privacy & Confidentiality Mandate
 - **Workplace Privacy:** Agents should ordinarily contact borrowers at their residence. Contacting borrowers at their workplace is permitted only if the borrower is unreachable at home.
@@ -51,7 +51,7 @@ The RBI and IBA enforce strict behavioral protocols governing borrower interacti
 
 ---
 
-## 4. Vicarious Liability & Penal Provisions for Banks
+## 4. Vicarious Liability & Penal Provisions for Banks *(Statutory / Regulatory Requirement)*
 
 Under Indian tort and civil law, the legal principle of **Vicarious Liability** holds the principal (the bank) liable for all wrongful acts committed by its agents (DRAs) within the scope of their employment:
 
@@ -64,21 +64,21 @@ Under Indian tort and civil law, the legal principle of **Vicarious Liability** 
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **Permitted Calling Window:** The statutory calling window for DRAs is strictly **07:00 AM to 07:00 PM** (not 8 AM to 8 PM).
-> 2. **Training Hours:** Non-graduates require **100 hours** of mandatory training; graduates require **50 hours**.
-> 3. **Vicarious Liability:** Banks cannot disclaim responsibility for third-party agency harassment; the bank is **vicariously and legally liable**.
+> 1. **Permitted Calling Window:** The statutory calling window for DRAs is strictly **08:00 AM to 07:00 PM** (08:00 to 19:00 hrs). Calling before 8 AM or after 7 PM is an explicit regulatory breach. Watch out for obsolete 7 AM options.
+> 2. **Training Hours:** Non-graduates (10th standard pass) require **100 hours** of mandatory training; graduates require **50 hours** prior to the IIBF DRA examination.
+> 3. **Vicarious Liability:** Banks cannot disclaim responsibility for third-party agency harassment; the bank is **vicariously and legally liable** under principal-agent law.
 
 ---
 
 ## 5. Solved Examination Questions
 
-**Q1.** Under Reserve Bank of India recovery agent directives, during which hours are Direct Recovery Agents (DRAs) legally permitted to contact defaulting borrowers?
-- (A) 06:00 AM to 08:00 PM
-- (B) 07:00 AM to 07:00 PM
+**Q1.** Under current Reserve Bank of India recovery agent directives, during which hours are Direct Recovery Agents (DRAs) legally permitted to contact defaulting borrowers?
+- (A) 07:00 AM to 07:00 PM
+- (B) 08:00 AM to 07:00 PM
 - (C) 08:00 AM to 08:00 PM
 - (D) 09:00 AM to 06:00 PM
 *Answer:* **(B)**  
-*Explanation:* Under RBI guidelines, DRAs are strictly permitted to call or visit borrowers only between 07:00 AM and 07:00 PM.
+*Explanation:* Under RBI directives, DRAs are strictly permitted to call or visit borrowers only between 08:00 AM and 07:00 PM (prohibited before 8 AM and after 7 PM).
 
 **Q2.** What is the minimum mandatory training duration prescribed by the IIBF for a non-graduate (10th standard pass) before appearing for the DRA Certification Examination?
 - (A) 25 Hours

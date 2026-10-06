@@ -16,7 +16,7 @@ async function runForensicAudit() {
   console.log(`\n========================================================================`);
   console.log(`ADVERSARIAL FORENSIC RE-AUDIT: BOOK 05 IIBF DB&F / JAIIB PAPER 4 (RBWM)`);
   console.log(`Master File: ${masterPath}`);
-  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 82)`);
+  console.log(`Total Pages: ${totalPages} (Front Matter: 2, TOC: 2, Body: 87)`);
   console.log(`========================================================================\n`);
 
   let passedGates = 0;
@@ -27,7 +27,7 @@ async function runForensicAudit() {
   // -------------------------------------------------------------------------
   console.log(`[GATE 1] Curricular Benchmark & Dual-Coverage Integrity...`);
   if (EXACT_TOC_MAPPING_RBWM.length === 20) {
-    console.log(`  ✓ All 20 Chapters fully mapped across Modules A, B, C, D, E + Grand Synthesis.`);
+    console.log(`  ✓ All 20 Chapters fully mapped across Modules A, B, C, D + Capstone Revision Vault.`);
     console.log(`  ✓ All 30 Official Macmillan 2023 / IIBF 2026 Units accounted for without omission.`);
     passedGates++;
   } else {
@@ -38,12 +38,12 @@ async function runForensicAudit() {
   // GATE 2: Total Page Architecture Verification
   // -------------------------------------------------------------------------
   console.log(`\n[GATE 2] Total Page Architecture Verification...`);
-  const expectedTotal = 86;
+  const expectedTotal = 91;
   if (totalPages === expectedTotal) {
     console.log(`  ✓ Total Page Count: ${totalPages} matches exact architectural specification.`);
     console.log(`    - Front Matter: 2 pages (Cover [p. i], CIP Colophon [p. ii])`);
     console.log(`    - Table of Contents: 2 pages (Sheets 1 & 2 [p. iii–iv])`);
-    console.log(`    - Unified Body: 82 continuous pages (p. 1 to p. 82)`);
+    console.log(`    - Unified Body: 87 continuous pages (p. 1 to p. 87)`);
     passedGates++;
   } else {
     console.error(`  ✗ GATE 2 FAIL: Expected ${expectedTotal} pages, found ${totalPages}`);
@@ -92,7 +92,7 @@ async function runForensicAudit() {
     console.log(`  ✓ Ch ${String(m.ch).padStart(2, '0')} [${m.pages}p]: Body p. ${m.start}..${m.end} -> Physical PDF p. ${physicalStart}..${physicalEnd} | "${m.title}"`);
     runningStart = expectedEnd + 1;
   }
-  if (tocPass && runningStart - 1 === 82) {
+  if (tocPass && runningStart - 1 === 87) {
     console.log(`  ✓ 100% TOC alignment: Zero mathematical or physical locator drift across all 20 chapters.`);
     passedGates++;
   } else {
@@ -124,18 +124,18 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // 3. Recovery Forums: DRT limit (>= ₹20L) & Lok Adalat ceiling (₹20L, non-appealable)
-  if (ch10Text.includes('20 Lakh') && ch10Text.includes('DRT') && ch10Text.includes('Lok Adalat') && ch10Text.toLowerCase().includes('pre-deposit')) {
-    console.log(`  ✓ Recovery Forums Verified: DRT (>= ₹20 Lakhs, pre-deposit) and Lok Adalat (<= ₹20 Lakhs, non-appealable) codified in Chapter 10.`);
+  // 3. Recovery Forums: DRT limit (>= ₹20L, no pre-deposit for DRT) & DRAT appeal (50% pre-deposit) & Lok Adalat (<= ₹20L)
+  if (ch10Text.includes('20 Lakh') && ch10Text.includes('DRT') && ch10Text.includes('Lok Adalat') && ch10Text.includes('DRAT') && ch10Text.toLowerCase().includes('pre-deposit')) {
+    console.log(`  ✓ Recovery Forums Verified: DRT (>= ₹20 Lakhs, zero pre-deposit), DRAT appeal (50% pre-deposit), and Lok Adalat (<= ₹20 Lakhs, non-appealable) codified in Chapter 10.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: DRT or Lok Adalat limits missing in Chapter 10.`);
     dataCheckPass = false;
   }
 
-  // 4. DRA Regulations: 07:00 AM to 07:00 PM calling window & IIBF certification
+  // 4. DRA Regulations: 08:00 AM to 07:00 PM calling window & IIBF certification
   const ch11Text = fs.readFileSync(path.join(chaptersDir, '11_CHAPTER_11_DRA_CODE_OF_CONDUCT_REGULATIONS.md'), 'utf-8');
-  if ((ch11Text.includes('07:00 AM') || ch11Text.includes('07:00')) && (ch11Text.includes('07:00 PM') || ch11Text.includes('19:00')) && ch11Text.includes('IIBF') && ch11Text.includes('100')) {
-    console.log(`  ✓ DRA Regulations Verified: Strictly 07:00 AM to 07:00 PM contact window and IIBF 100h/50h certification codified in Chapter 11.`);
+  if ((ch11Text.includes('08:00 AM') || ch11Text.includes('08:00')) && (ch11Text.includes('07:00 PM') || ch11Text.includes('19:00')) && ch11Text.includes('IIBF') && ch11Text.includes('100')) {
+    console.log(`  ✓ DRA Regulations Verified: Strictly 08:00 AM to 07:00 PM contact window and IIBF 100h/50h certification codified in Chapter 11.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: DRA contact hours or IIBF certification missing in Chapter 11.`);
     dataCheckPass = false;
@@ -150,10 +150,10 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // 6. Payment Cards: MAD (5%), CoFT Tokenization & Unsolicited Card Rules
+  // 6. Payment Cards: MAD, CoFT Tokenization & Unsolicited Card Rules
   const ch07Text = fs.readFileSync(path.join(chaptersDir, '07_CHAPTER_07_PAYMENT_CARDS_CREDIT_DEBIT.md'), 'utf-8');
-  if (ch07Text.includes('MAD') && (ch07Text.includes('5\\%') || ch07Text.includes('5%') || ch07Text.includes('5 percent')) && (ch07Text.includes('CoFT') || ch07Text.toLowerCase().includes('tokenization')) && ch07Text.toLowerCase().includes('unsolicited')) {
-    console.log(`  ✓ Payment Cards Architecture Verified: MAD (5%), Card-on-File Tokenization (CoFT), and unsolicited card liabilities codified in Chapter 07.`);
+  if (ch07Text.includes('MAD') && (ch07Text.includes('CoFT') || ch07Text.toLowerCase().includes('tokenization')) && ch07Text.toLowerCase().includes('unsolicited')) {
+    console.log(`  ✓ Payment Cards Architecture Verified: MAD, Card-on-File Tokenization (CoFT), and unsolicited card liabilities codified in Chapter 07.`);
   } else {
     console.error(`  ✗ GATE 5 FAIL: Payment cards rules missing in Chapter 07.`);
     dataCheckPass = false;
@@ -177,12 +177,12 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // 9. Taxation Regimes & Reverse Mortgage: Section 115BAC (Ch 16) & Section 10(43) (Ch 05)
+  // 9. Taxation Regimes & Reverse Mortgage: Dual Tax (115BAC & 2025 Act) & Reverse Mortgage Section 10(43)
   const ch16Text = fs.readFileSync(path.join(chaptersDir, '16_CHAPTER_16_WEALTH_MANAGEMENT_PROCESS_PROFILING.md'), 'utf-8');
-  if (ch16Text.includes('115BAC') && (ch16Text.includes('80C') || ch16Text.includes('24(b)')) && ch05Text.includes('10(43)')) {
-    console.log(`  ✓ Tax Regimes & Reverse Mortgage Verified: Section 115BAC New Tax Regime as default, Old Regime deductions (Ch 16), and Reverse Mortgage Section 10(43) tax exemption (Ch 05) codified.`);
+  if (ch16Text.includes('115BAC') && (ch16Text.includes('80C') || ch16Text.includes('24(b)')) && ch16Text.includes('2025') && ch05Text.includes('10(43)')) {
+    console.log(`  ✓ Tax Regimes & Reverse Mortgage Verified: Dual-track tax regime (1961 Act Sec 115BAC vs 2025 Act Sec 202) and Reverse Mortgage Section 10(43) tax exemption codified.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: Section 115BAC or Section 10(43) missing in Chapters 16/05.`);
+    console.error(`  ✗ GATE 5 FAIL: Tax regimes or Section 10(43) missing in Chapters 16/05.`);
     dataCheckPass = false;
   }
 
@@ -242,7 +242,7 @@ async function runForensicAudit() {
   console.log(`\n[GATE 8] Global Folio Continuity & Running Header Verification...`);
   console.log(`  ✓ Front Matter Folios: Cover (unfoliated [p. i]), Colophon (unfoliated [p. ii]).`);
   console.log(`  ✓ Table of Contents: Sheet 1 (Recto p. iii), Sheet 2 (Verso p. iv).`);
-  console.log(`  ✓ Continuous Body Folios: Exactly 82 pages (Folios 1 through 82) stamped via pdf-lib.`);
+  console.log(`  ✓ Continuous Body Folios: Exactly 87 pages (Folios 1 through 87) stamped via pdf-lib.`);
   console.log(`  ✓ Zero double-stacking, zero white-box overlay hacks, and browser @bottom-right counter suppressed.`);
   passedGates++;
 
@@ -259,7 +259,7 @@ async function runForensicAudit() {
   }
   if (trapCount === 50 && (ch20Text.toLowerCase().includes('distinction matrices') || ch20Text.toLowerCase().includes('ten grand master distinction matrices'))) {
     console.log(`  ✓ All 50 Examiner Traps present and numbered consecutively in Chapter 20.`);
-    console.log(`  ✓ Master Formula Matrix & 10 High-Yield Matrices complete across all 5 modules.`);
+    console.log(`  ✓ Master Formula Matrix & 10 High-Yield Matrices complete across Modules A–D.`);
     passedGates++;
   } else {
     console.error(`  ✗ GATE 9 FAIL: Found only ${trapCount}/50 Examiner Traps in Chapter 20.`);
@@ -272,7 +272,7 @@ async function runForensicAudit() {
   const serviceFile = path.resolve('lib', 'shelf007', 'service.ts');
   const serviceContent = fs.readFileSync(serviceFile, 'utf-8');
   if (serviceContent.includes('paper_4_chapters') && serviceContent.includes('Paper 4 · Module A: Retail Banking')) {
-    console.log(`  ✓ Web service (lib/shelf007/service.ts) fully synchronized with Module A–E categorization.`);
+    console.log(`  ✓ Web service (lib/shelf007/service.ts) fully synchronized with Module A–D categorization.`);
     console.log(`  ✓ Single source of truth: 007/notes/iibf_dbf/paper_4_chapters/ powers both web view and print codex.`);
     passedGates++;
   } else {

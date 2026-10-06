@@ -1297,10 +1297,10 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
             category = 'Paper 4 · Module B: Retail Products & Recovery';
           } else if (chNum >= 13 && chNum <= 15) {
             category = 'Paper 4 · Module C: Support Services – Marketing of Banking Services';
-          } else if (chNum >= 16 && chNum <= 17) {
-            category = 'Paper 4 · Module D: Wealth Management';
-          } else if (chNum >= 18 && chNum <= 19) {
-            category = 'Paper 4 · Module E: Additional Reading Material on Home Loans & Digital Trends';
+          } else if (chNum >= 16 && chNum <= 18) {
+            category = 'Paper 4 · Module D: Wealth Management & Real Estate';
+          } else if (chNum === 19) {
+            category = 'Paper 4 · Module B: Digitisation & Technology';
           } else if (chNum === 20) {
             category = 'Paper 4 · Capstone Master Revision Vault';
           }

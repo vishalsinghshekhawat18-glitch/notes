@@ -13,12 +13,12 @@ Modern retail banking has transformed from impersonal transactional processing i
 - **Relationship Banking:** Focuses on understanding the customer's holistic financial balance sheet across their lifecycle, providing customized multi-product bundles and dedicated relationship managers.
 
 ### Economic Pillars of Relationship Banking:
-1. **Customer Lifetime Value (CLV):** The total net present value of profits a commercial bank anticipates generating from an individual customer over the entire duration of the banking relationship:
+1. **Customer Lifetime Value (CLV):** *(Illustrative Industry Benchmark / Valuation Model)* The total net present value of profits a commercial bank anticipates generating from an individual customer over the entire duration of the banking relationship:
    $$\text{CLV} = \sum_{t=1}^{n} \frac{\text{Net Revenue}_t - \text{Servicing Cost}_t}{(1 + r)^t}$$
-2. **Cost of Acquisition vs Retention:** Academic research and banking industry metrics demonstrate that **acquiring a new retail customer costs 5 times more** than retaining an existing customer.
+2. **Cost of Acquisition vs Retention:** *(Illustrative Industry Rule of Thumb)* Empirical banking metrics demonstrate that **acquiring a new retail customer costs approximately 5 times more** than retaining an existing customer.
 3. **Product Density & Churn Reduction:**
-   - Single-product customer churn rate: **$\approx 25\% - 30\%$** annually.
-   - Three-or-more product customer churn rate: **$< 4\% - 5\%$** annually.
+   - Single-product customer churn rate: **$\approx 25\% - 30\%$** annually *(Heuristic)*.
+   - Three-or-more product customer churn rate: **$< 4\% - 5\%$** annually *(Heuristic)*.
 
 ---
 
@@ -53,13 +53,17 @@ CRM is an integrated management strategy supported by database technology to man
 
 ---
 
-## 4. Service Standards: BCSBI Evolution & Customer Commitment
+## 4. Service Standards: BCSBI Evolution & Current RBI Framework
 
 The **Banking Codes and Standards Board of India (BCSBI)** was established in 2006 following recommendations of the S.S. Tarapore Committee on Customer Service:
 
-- **Evolution & Status:** Although the BCSBI was formally dissolved in 2021, the fundamental customer protection codes it established were permanently incorporated into commercial banks' internal board-approved customer service policies and the RBI Master Directions on Customer Service:
-  1. **Code of Bank's Commitment to Customers:** Governs individual retail banking service transparency, minimum balance notices, fee disclosures, and privacy.
-  2. **Code of Bank's Commitment to Micro and Small Enterprises (MSEs):** Mandates timely credit decisions (within 4 to 8 weeks), loan disposal timelines, and rehabilitation frameworks for viable micro-enterprises.
+- **Historical Code vs Current Framework:**
+  - *Historical Background:* BCSBI operated as an independent voluntary watchdog setting codes for customer commitment.
+  - *Dissolution (2019–2021):* Following an RBI review, BCSBI was dissolved as a separate registered entity. However, its core covenants were **permanently absorbed** into the Reserve Bank's own enforceable regulatory architecture:
+  - *Current Framework:* Banks are governed directly by **RBI Master Directions on Customer Service in Banks**, internal Board-approved Customer Service Policies, and the **Charter of Customer Rights** (Right to Fair Treatment, Right to Transparency, Right to Suitability, Right to Privacy, and Right to Grievance Redress).
+  - *Core Covenants Preserved:*
+    1. **Code of Bank's Commitment to Customers:** Governs individual retail banking service transparency, 30-day minimum balance notice, fee disclosures, and privacy.
+    2. **Code of Bank's Commitment to Micro and Small Enterprises (MSEs):** Mandates timely credit decisions (within 4 to 8 weeks), loan disposal timelines, and rehabilitation frameworks for viable micro-enterprises.
 
 ---
 
