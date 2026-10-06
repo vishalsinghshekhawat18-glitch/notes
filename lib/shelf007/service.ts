@@ -1278,6 +1278,18 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
           } else if (chNum === 30) {
             category = 'Paper 2 · Capstone Master Revision Vault';
           }
+        } else if (dirName === 'paper_3_chapters') {
+          if (chNum >= 1 && chNum <= 6) {
+            category = 'Paper 3 · Module A: Accounting Principles and Processes';
+          } else if (chNum >= 7 && chNum <= 12) {
+            category = 'Paper 3 · Module B: Financial Mathematics & Bank Financial Statements';
+          } else if (chNum >= 13 && chNum <= 18) {
+            category = 'Paper 3 · Module C: Financial Management, Capital Budgeting & Working Capital';
+          } else if (chNum === 19) {
+            category = 'Paper 3 · Module D: Taxation, Costing Methods & Operational Controls';
+          } else if (chNum === 20) {
+            category = 'Paper 3 · Capstone Master Revision Vault';
+          }
         }
 
         const title = extractTitleFromMarkdown(content, shortTitle);
