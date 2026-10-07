@@ -6269,7 +6269,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "2,391 words • 11 min read"
+    "badge": "2,495 words • 12 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-2",
@@ -6299,7 +6299,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "RETAIL LIABILITY PRODUCTS: CASA, TIME DEPOSITS & SPECIAL SCHEMES",
       "concept": "2. Current Accounts: Regulatory Architecture & Operational Rules"
     },
-    "badge": "193 words"
+    "badge": "235 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-04_chapter_04_retail_liability_products_casa-sec-4",
@@ -6343,7 +6343,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "2,343 words • 11 min read"
+    "badge": "2,381 words • 11 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-2",
@@ -6373,7 +6373,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "RETAIL LENDING PRODUCTS I: HOUSING FINANCE, LTV RATIOS, PMAY & VALUATION",
       "concept": "2. Dedicated 4-Part Home Loan & Real Estate Appraisal Framework"
     },
-    "badge": "795 words"
+    "badge": "843 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-05_chapter_05_housing_loans_ltv_pmay-sec-4",
@@ -6565,7 +6565,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,145 words • 6 min read"
+    "badge": "1,292 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-2",
@@ -6610,7 +6610,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
       "concept": "3. NPCI Retail Payment Rails: IMPS, UPI, AePS & BBPS"
     },
-    "badge": "251 words"
+    "badge": "276 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-08_chapter_08_remittance_products_digital_channels-sec-5",
@@ -6625,7 +6625,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "REMITTANCE PRODUCTS, NPCI DIGITAL RAILS & CHANNEL MIGRATION",
       "concept": "4. Master Comparison Matrix: Payment Rails"
     },
-    "badge": "193 words"
+    "badge": "235 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
@@ -6639,7 +6639,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,310 words • 6 min read"
+    "badge": "1,502 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-2",
@@ -6647,14 +6647,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "1. Credit Information Companies (CICs) in India",
     "slug": "sec-2",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
-    "description": "Under CICRA 2005, four specialized credit rating bureaus operate under Reserve Bank of India licenses:\n\n1. TransUnion CIBIL: The earliest and dominant credit bureau in India, established in 2000.",
+    "description": "Under CICRA 2005, four specialized Credit Information Companies (CICs) / credit bureaus operate under Reserve Bank of India licenses:\n\n1. TransUnion CIBIL: The earliest and dominant credit bureau",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
       "concept": "1. Credit Information Companies (CICs) in India"
     },
-    "badge": "160 words"
+    "badge": "205 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-3",
@@ -6674,17 +6674,17 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-4",
     "type": "CONCEPT",
-    "title": "3. The 5 Core Score Components & Weighting Framework *(IIBF / Bureau Model Convention)*",
+    "title": "3. The 5 Core Score Components & Weighting Framework *(Educational / Bureau Model Convention)*",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics",
-    "description": "A credit bureau score is computed using five proprietary weighting dimensions:\n\ntext\n[Past Repayment History: ~35%]   ───> DPD, 30/60/90 days defaults, write-offs\n[Credit Utilization Ratio: ~30%] ─",
+    "description": "The five component weightings below (~35%, ~30%, ~15%, ~10%, ~10%) represent a widely referenced educational and industry scoring-model convention; actual bureau scoring methodologies are proprietary",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
-      "concept": "3. The 5 Core Score Components & Weighting Framework *(IIBF / Bureau Model Convention)*"
+      "concept": "3. The 5 Core Score Components & Weighting Framework *(Educational / Bureau Model Convention)*"
     },
-    "badge": "291 words"
+    "badge": "311 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-09_chapter_09_credit_scoring_cibil_cics-sec-5",
@@ -6699,7 +6699,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CREDIT SCORING ARCHITECTURE (CIBIL / CICS 300–900 POINT SYSTEM)",
       "concept": "4. Common Errors in Credit Reports & Dispute Resolution Mechanism *(Statutory / Regulatory Requirement)*"
     },
-    "badge": "257 words"
+    "badge": "313 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-10_chapter_10_retail_npa_recovery_framework",
@@ -6787,7 +6787,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,197 words • 6 min read"
+    "badge": "1,255 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-2",
@@ -6832,22 +6832,22 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
       "concept": "3. Operational Code of Conduct & Calling Protocols"
     },
-    "badge": "270 words"
+    "badge": "303 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-5",
     "type": "CONCEPT",
-    "title": "4. Vicarious Liability & Penal Provisions for Banks *(Statutory / Regulatory Requirement)*",
+    "title": "4. Vicarious Liability & Regulatory Enforcement Provisions *(Judicial Precedent & Regulatory Framework)*",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
-    "description": "Under Indian tort and civil law, the legal principle of Vicarious Liability holds the principal (the bank) liable for all wrongful acts committed by its agents (DRAs) within the scope of their emp",
+    "description": "Under Indian civil and tort law and established Supreme Court jurisprudence (ICICI Bank vs Prakash Kaur, 2007), the doctrine of Vicarious Liability holds the principal (the lending bank) legally",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
-      "concept": "4. Vicarious Liability & Penal Provisions for Banks *(Statutory / Regulatory Requirement)*"
+      "concept": "4. Vicarious Liability & Regulatory Enforcement Provisions *(Judicial Precedent & Regulatory Framework)*"
     },
-    "badge": "234 words"
+    "badge": "259 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-12_chapter_12_securitization_ptc_sarfaesi",
@@ -7231,7 +7231,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,394 words • 7 min read"
+    "badge": "1,479 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-2",
@@ -7276,7 +7276,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
       "concept": "3. SEBI Alternative Investment Funds (AIF) Regulations, 2012 *(Statutory / Regulatory Requirement)*"
     },
-    "badge": "274 words"
+    "badge": "282 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-5",
@@ -7291,7 +7291,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
       "concept": "4. Third-Party Financial Services Distributed by Commercial Banks"
     },
-    "badge": "346 words"
+    "badge": "347 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
@@ -7379,7 +7379,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,380 words • 7 min read"
+    "badge": "1,381 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks-sec-2",
@@ -7453,7 +7453,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "3,905 words • 18 min read"
+    "badge": "4,118 words • 19 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-2",
@@ -7468,7 +7468,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
       "concept": "1. Master Formula & Quantitative Benchmark Cheat Sheet"
     },
-    "badge": "768 words"
+    "badge": "838 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-3",
@@ -7483,7 +7483,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
       "concept": "2. Ten Grand Master Distinction Matrices"
     },
-    "badge": "1340 words"
+    "badge": "1346 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-4",
@@ -7498,7 +7498,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
       "concept": "3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls"
     },
-    "badge": "1289 words"
+    "badge": "1426 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-5",
@@ -22874,7 +22874,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-ch-current-affairs-cover",
     "type": "TOPIC",
-    "title": "CONTEMPORARY ISSUES & CURRENT AFFAIRS",
+    "title": "GENERAL AWARENESS, BANKING REGULATION &amp; CONTEMPORARY POLICY",
     "slug": "cover",
     "url": "/shelf-007/current-affairs/cover",
     "description": "▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION",
@@ -22883,7 +22883,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Front Matter & Epistemic Pledge"
     },
-    "badge": "277 words • 2 min read"
+    "badge": "283 words • 2 min read"
   },
   {
     "id": "shelf007-ch-current-affairs-table-of-contents",
@@ -22941,7 +22941,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Static Banking, Regulatory Acts & Prudential Foundations"
     },
-    "badge": "8,318 words • 38 min read"
+    "badge": "8,877 words • 41 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-01-sec-2",
@@ -22949,14 +22949,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-01",
-    "description": "[STA-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured as",
+    "description": "[STA-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; canonically s",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
       "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "8268 words"
+    "badge": "8827 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-02",
@@ -23488,7 +23488,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium"
     },
-    "badge": "43,258 words • 197 min read"
+    "badge": "43,694 words • 199 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-2",
@@ -23496,14 +23496,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/chapter-09",
-    "description": "[MS-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; structured as:",
+    "description": "[MS-001] Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)\n- RTGS UTR (Unique Transaction Reference): Exactly 22 alphanumeric characters; canonically st",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "5213 words"
+    "badge": "5386 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-3",
@@ -23518,7 +23518,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS"
     },
-    "badge": "6175 words"
+    "badge": "6201 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-4",
@@ -23533,7 +23533,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "2. BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION"
     },
-    "badge": "2927 words"
+    "badge": "3017 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-5",

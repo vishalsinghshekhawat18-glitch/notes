@@ -3,13 +3,13 @@
 > **Paper:** 4 (Retail Banking and Wealth Management)  
 > **Standard:** Macmillan Courseware & IIBF 2026 Master Benchmark • Duplex A4 Monochrome Print Edition
 
-Credit scoring represents the quantitative evaluation of retail borrower default risk, transforming historical repayment performance, debt leverage, and credit behavior into a single objective three-digit metric. In India, retail credit underwriting is governed by the **Credit Information Companies (Regulation) Act, 2005 (CICRA 2005)**, under which four licensed Credit Information Companies (CICs) collect monthly repayment records from credit institutions to compute scores ranging between 300 and 900.
+Credit scoring represents the quantitative evaluation of retail borrower default risk, transforming historical repayment performance, debt leverage, and credit behavior into a single objective three-digit metric. In India, retail credit underwriting is governed by the **Credit Information Companies (Regulation) Act, 2005 (CICRA 2005)**, under which four licensed Credit Information Companies (CICs) collect repayment records from credit institutions to compute scores ranging between 300 and 900.
 
 ---
 
 ## 1. Credit Information Companies (CICs) in India
 
-Under CICRA 2005, four specialized credit rating bureaus operate under Reserve Bank of India licenses:
+Under CICRA 2005, four specialized Credit Information Companies (CICs) / credit bureaus operate under Reserve Bank of India licenses:
 
 1. **TransUnion CIBIL:** The earliest and dominant credit bureau in India, established in 2000.
 2. **Equifax Credit Information Services Private Limited:** Joint venture with global Equifax.
@@ -17,7 +17,7 @@ Under CICRA 2005, four specialized credit rating bureaus operate under Reserve B
 4. **CRIF High Mark Credit Information Services Private Limited:** Dominant bureau for microfinance (MFI) and rural borrower tracking.
 
 ### Mandatory Statutory Obligations under CICRA 2005:
-- **Mandatory Monthly Reporting:** Every commercial bank, cooperative bank, NBFC, and HFC must submit monthly repayment and credit data for all borrowers to all four CICs.
+- **Mandatory Fortnightly Reporting (Current Framework effective 1 January 2025):** Credit institutions and CICs must keep credit information updated on a **fortnightly basis** (i.e., as on the 15th and last day of each calendar month, or at shorter intervals where mutually agreed) under the RBI regulatory framework effective from 1 January 2025. *(Historical Note: Prior to 1 January 2025, credit institutions submitted data on a monthly basis.)*
 - **Free Full Credit Report (FFCR):** Under RBI mandates, every individual citizen is entitled to receive **one Free Full Credit Report (FFCR)** once every calendar year from each of the four CICs upon request.
 - **Confidentiality:** Credit data can be accessed only by authorized credit institutions for underwriting or by the individual borrower.
 
@@ -37,9 +37,9 @@ The standard bureau scoring model ranges from **300 to 900 points**, where highe
 
 ---
 
-## 3. The 5 Core Score Components & Weighting Framework *(IIBF / Bureau Model Convention)*
+## 3. The 5 Core Score Components & Weighting Framework *(Educational / Bureau Model Convention)*
 
-A credit bureau score is computed using five proprietary weighting dimensions:
+The five component weightings below (~35%, ~30%, ~15%, ~10%, ~10%) represent a widely referenced educational and industry scoring-model convention; actual bureau scoring methodologies are proprietary to each Credit Information Company (CIC):
 
 ```text
 [Past Repayment History: ~35%]   ───> DPD, 30/60/90 days defaults, write-offs
@@ -80,6 +80,7 @@ A credit bureau score is computed using five proprietary weighting dimensions:
 > 1. **Prime Score Benchmark:** A credit score of **$\ge 750$** is an illustrative industry underwriting benchmark and rule of thumb, **NOT** a universal statutory or RBI regulatory requirement. Lenders independently determine their cutoffs, credit risk appetite, and risk-based pricing matrices.
 > 2. **Inquiry Impact:** Checking one's own credit score is a **Soft Inquiry** and does **NOT** reduce the score. Only **Hard Inquiries** initiated by lenders for loan underwriting impact the score.
 > 3. **CIC Compensation Rule:** The statutory compensation for delay beyond 30 days in resolving credit report disputes is **₹100 per calendar day**, payable by the defaulting entity (bank or CIC).
+> 4. **Fortnightly Credit Reporting Frequency:** Under the RBI regulatory framework effective from 1 January 2025, credit institutions must submit credit information to CICs on a **fortnightly basis** (as on the 15th and last day of each month, or shorter mutually agreed intervals), NOT merely monthly. Watch out for obsolete 'monthly reporting' options in legacy questions!
 
 ---
 
@@ -115,4 +116,10 @@ The Credit Utilization Ratio measures total outstanding revolving credit card ba
 <summary>2. What does a credit score entry of "-1" or "NA/NH" indicate?</summary>
 
 It indicates that the individual has "No History" or "Not Applicable" credit track record, meaning they have fewer than six months of recorded borrowing activity with credit institutions, requiring lenders to evaluate alternative income and bank surrogate parameters.
+</details>
+
+<details>
+<summary>3. What is the mandatory reporting frequency for credit institutions to submit borrower data to CICs?</summary>
+
+Under the RBI regulatory framework effective from 1 January 2025, credit institutions (commercial banks, cooperative banks, NBFCs, HFCs) and CICs must update credit information on a **fortnightly basis**—specifically as on the 15th and last day of each calendar month, or at shorter intervals if mutually agreed. Historically, reporting was mandated on a monthly basis.
 </details>

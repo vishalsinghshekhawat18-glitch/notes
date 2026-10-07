@@ -24,13 +24,13 @@ Liability products represent the foundation of commercial banking, providing the
 - **Permitted Entities:** Sole proprietorships, partnerships, LLPs, private/public limited companies, trusts, and government departments. Commercial current accounts cannot be opened in the name of deceased persons or insolvent entities.
 
 ### RBI Revised Guidelines on Opening Current Accounts
-To enforce credit discipline and curb fund diversion by corporate borrowers, the RBI mandates:
+To enforce credit discipline and curb fund diversion by commercial borrowers, the RBI mandates:
 1. **Borrowers with CC/OD Facilities:**
-   - **Exposure $\ge ₹5\text{ Crores}$:** No bank can open a current account for a borrower who has availed Cash Credit (CC) / Overdraft (OD) facilities from the banking system. All transactions must be routed through the CC/OD account.
-   - Banks holding $\ge 10\%$ of the borrower's total banking exposure may open collection/escrow accounts, but funds must be remitted back to the primary CC/OD account.
+   - **Aggregate Banking Exposure $\ge ₹5\text{ Crores}$:** For borrowers with aggregate banking-system exposure of ₹5 Crores or more and CC/OD facilities, a current account may be maintained with a bank having at least **10%** of the aggregate exposure; other lending banks may maintain collection accounts subject to RBI conditions (funds remitted periodically to the primary CC/OD or current account). If none of the lenders holds at least 10%, the bank having the highest exposure among CC/OD lenders may open the current account. Non-lending banks are barred from opening current accounts.
 2. **Borrowers without CC/OD Facilities:**
-   - If total credit exposure is $\ge ₹50\text{ Crores}$, an **Escrow Mechanism** is mandatory; only the escrow-managing bank can open a current account.
-   - If exposure is between ₹5 Crores and ₹50 Crores, lending banks can open current accounts; non-lending banks cannot open current accounts.
+   - **Exposure $\ge ₹50\text{ Crores}$:** An **Escrow Mechanism** is mandatory; only the designated escrow-managing bank can open a current account.
+   - **Exposure between ₹5 Crores and ₹50 Crores:** Any lending bank can open a current account; non-lending banks can open only collection accounts.
+   - **Exposure $< ₹5\text{ Crores}$:** Banks can open current accounts subject to a written undertaking from the borrower.
 
 ---
 
@@ -131,6 +131,7 @@ Direct tax withholding on bank deposit interest spans two distinct frameworks:
 > 2. **Dormancy Clock Trigger:** System credits of interest do **not** restart the 2-year dormancy clock; only active customer-induced actions qualify.
 > 3. **Nominee vs Legal Heir:** A nominee is legally a **custodian/trustee** for the legal heirs and does not automatically become the beneficial owner under inheritance laws, though payment to a nominee provides the bank with a valid legal discharge.
 > 4. **Overdue Deposit Interest:** Unrenewed overdue term deposits earn interest from maturity date at the **savings bank rate or contracted rate, whichever is lower**.
+> 5. **Current Account Opening Discipline:** For borrowers with aggregate banking-system exposure of ₹5 Crores or more and CC/OD facilities, a current account may be opened/maintained with a bank having at least **10%** of aggregate exposure (or the lender with highest exposure if none holds $\ge 10\%$). It is **NOT** an absolute prohibition against all current accounts once exposure reaches ₹5 Crores.
 
 ---
 

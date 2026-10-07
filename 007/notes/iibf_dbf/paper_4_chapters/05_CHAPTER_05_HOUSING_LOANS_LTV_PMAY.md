@@ -61,8 +61,8 @@ Tax planning on housing loans involves dual-framework statutory mechanisms:
 2. **External Benchmark Lending Rate (EBLR) Mandate:**
    - Effective **1 October 2019**, all new floating-rate retail housing loans sanctioned by commercial banks must be pegged to an external benchmark (RBI Repo Rate, 3-Month T-Bill yield, or 6-Month T-Bill yield).
    - **Reset Frequency:** Interest rates must be reset at least once every **three months**.
-3. **Statutory Ban on Foreclosure Charges:**
-   - Under RBI Master Directions, commercial banks and Housing Finance Companies (HFCs) are **strictly prohibited** from levying foreclosure charges or prepayment penalties on all floating-rate term loans sanctioned to individual borrowers (whether prepayment is partial or full, and regardless of source of funds).
+3. **Statutory Ban on Foreclosure Charges / Prepayment Penalties:**
+   - **Baseline & 2026 RBI Framework:** Under longstanding RBI directives, banks and HFCs cannot levy foreclosure charges or prepayment penalties on floating-rate term loans sanctioned to individual borrowers for non-business purposes (irrespective of the source of funds). Under the harmonized 2026 RBI framework (effective 1 January 2026), these protections extend across all Regulated Entities (Commercial/Cooperative Banks, NBFCs, HFCs, AIFIs) to individual business loans and Micro & Small Enterprises (MSEs) on floating rates. Fixed-rate loans permit prepayment penalties only if transparently disclosed upfront in the Key Fact Statement (KFS).
 4. **Ban on Dual-Rate / Teaser Loans:**
    - Dual-rate loans (low fixed rate in initial years switching to floating rates later) require upfront **$2.00\%$ standard asset provisioning** by lenders, effectively discouraging risky teaser structures.
 
@@ -141,18 +141,14 @@ Determine:
 
 2. **Maximum Loan Permissible under FOIR Norm:**
    - Net Monthly Income = Gross Salary (₹1,20,000) minus Deductions (₹20,000) = ₹1,00,000.
-   - Maximum Permissible Total Fixed Monthly Debt Obligation (FOIR 50%):
-     $$\text{Max Total Debt} = 1,00,000 \times 50\% = ₹50,000$$
-   - Deduct existing car loan EMI:
-     $$\text{Permissible Proposed Housing EMI} = 50,000 - 15,000 = ₹35,000$$
+   - Permissible Total Fixed Monthly Debt Obligation (FOIR 50%): $\text{Max Total Debt} = 1,00,000 \times 50\% = ₹50,000$.
+   - Deduct existing car loan EMI: $\text{Permissible Proposed Housing EMI} = 50,000 - 15,000 = ₹35,000$.
    - Calculate Loan Supported by ₹35,000 EMI:
-     $$\text{Max Loan (FOIR)} = \frac{35,000}{867.82} \times 1,00,000 = 40.3309 \times 1,00,000 = ₹40,33,094 \approx ₹40.33\text{ Lakhs}$$
+     $$\text{Max Loan (FOIR)} = \frac{35,000}{867.82} \times 1,00,000 = ₹40,33,094 \approx ₹40.33\text{ Lakhs}$$
 
-3. **Final Sanction Decision:**
-   - The final sanctioned amount is constrained by the **lower** of the LTV and FOIR calculations:
-     $$\text{Final Loan Sanction} = \min(₹48.00\text{ Lakhs}, ₹40.33\text{ Lakhs}) = ₹40.33\text{ Lakhs}$$
-   - **Required Borrower Down Payment (Margin):**
-     $$\text{Borrower Down Payment} = 60,00,000 - 40,33,000 = ₹19,67,000 \quad (32.78\% \text{ of property cost})$$
+3. **Final Sanction Decision & Required Margin:**
+   - Sanctioned amount is constrained by lower of LTV and FOIR: $\min(₹48.00\text{L}, ₹40.33\text{L}) = \mathbf{₹40.33\text{ Lakhs}}$.
+   - **Required Borrower Down Payment (Margin):** $60,00,000 - 40,33,000 = \mathbf{₹19,67,000}$ ($32.78\%$ of property cost).
 
 ---
 
@@ -198,7 +194,7 @@ Determine:
 <details>
 <summary>1. State the RBI rule regarding foreclosure charges on floating-rate housing loans sanctioned to individual borrowers.</summary>
 
-Banks and Housing Finance Companies are legally prohibited from levying foreclosure charges or prepayment penalties on any floating-rate housing loan sanctioned to individual borrowers, regardless of whether the loan is partially or fully prepaid.
+Under longstanding RBI directives and the harmonized 2026 framework, banks, NBFCs, and HFCs cannot levy foreclosure charges on floating-rate term loans to individual borrowers (non-business) and MSEs, irrespective of funding source. Fixed-rate loans permit prepayment penalties only if disclosed upfront in the KFS.
 </details>
 
 <details>

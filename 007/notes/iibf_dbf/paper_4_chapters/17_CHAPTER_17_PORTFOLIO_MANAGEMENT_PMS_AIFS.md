@@ -53,7 +53,7 @@ AIFs are privately pooled investment vehicles established or incorporated in Ind
 | :--- | :--- | :--- | :--- |
 | **Category I AIF** | Start-ups, early-stage ventures, social enterprises, SMEs, infrastructure. Sub-categories: **Venture Capital Funds (VCF)**, SME Funds, Social Venture Funds, Infrastructure Funds | Cannot undertake leverage except for meeting temporary day-to-day operational needs (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act / applicable statutory provisions |
 | **Category II AIF** | Does not fall under Cat I or Cat III. Sub-categories: **Private Equity (PE) Funds**, Real Estate Funds, Debt Funds, Funds for Distressed Assets | Cannot borrow or engage in leverage except to meet temporary operational requirements (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act / applicable statutory provisions |
-| **Category III AIF** | Employs diverse or complex trading strategies; listed equities, commodities, derivatives. Sub-categories: **Hedge Funds**, PIPE funds | **Permitted to employ Leverage $\le 2\times\text{ NAV}$** (leverage not exceeding 2 times NAV under applicable SEBI framework) | **Does not receive Section 115UB pass-through status**; tax consequences depend on legal form/trust structure and applicable statutory provisions |
+| **Category III AIF** | Employs diverse or complex trading strategies; listed equities, commodities, derivatives. Sub-categories: **Hedge Funds**, PIPE funds | **Permitted to employ Leverage $\le 2\times\text{ NAV}$** (Category III AIFs may employ leverage subject to the applicable SEBI framework, with leverage not exceeding 2× NAV) | **Does not receive Section 115UB pass-through status**; tax consequences depend on legal form/trust structure and applicable statutory provisions |
 
 ---
 
@@ -81,7 +81,7 @@ Governed by Insurance Regulatory and Development Authority of India (IRDAI) regu
 > **Examiner Trap Alert & Regulatory Pitfalls:**
 > 1. **SEBI PMS Ticket Size:** The minimum investment ticket size for PMS is **₹50 Lakhs** (not ₹25 Lakhs) under SEBI (Portfolio Managers) Regulations.
 > 2. **SEBI AIF Ticket Size:** The minimum investment threshold for AIFs is **₹1 Crore** (₹25 Lakhs for employees/directors).
-> 3. **AIF Leverage Ceiling:** **Category III AIFs (Hedge Funds)** are permitted leverage not exceeding **$2\times$ NAV ($\le 2\times\text{ NAV}$)** under the applicable SEBI framework. Categories I and II cannot undertake leverage (except temporary operational borrowing up to 30 days).
+> 3. **AIF Leverage Ceiling:** Category III AIFs may employ leverage subject to the applicable SEBI framework, with leverage not exceeding **2× NAV** ($\le 2\times\text{ NAV}$). Categories I and II cannot undertake leverage (except temporary operational borrowing up to 30 days).
 > 4. **Bancassurance Tie-Up Limit:** Under the applicable IRDAI framework, a composite Corporate Agent bank can partner with up to **3 Life, 3 General, and 3 Health** insurance companies. (Watch out for obsolete or incorrect 9-9-9 formulations in legacy questions!)
 
 ---
@@ -102,7 +102,7 @@ Governed by Insurance Regulatory and Development Authority of India (IRDAI) regu
 - (C) Category III AIF
 - (D) Angel Funds
 *Answer:* **(C)**  
-*Explanation:* Category III AIFs (such as Hedge Funds) are explicitly permitted to use leverage (not exceeding $2\times$ NAV), short selling, and complex derivative strategies.
+*Explanation:* Category III AIFs (such as Hedge Funds) may employ leverage subject to the applicable SEBI framework, with leverage not exceeding 2× NAV ($\le 2\times\text{ NAV}$), short selling, and complex derivative strategies.
 
 ---
 
@@ -118,4 +118,10 @@ In Discretionary PMS, the Portfolio Manager manages the funds independently and 
 <summary>2. Explain the tie-up limits for a Corporate Agent in Bancassurance under the applicable IRDAI framework.</summary>
 
 Under the applicable IRDAI Corporate Agent regulations, a bank acting as a composite Corporate Agent is permitted to have distribution arrangements with up to 3 Life insurance companies, 3 General insurance companies, and 3 standalone Health insurance companies, providing retail customers product choice while preventing anti-competitive monopolization.
+</details>
+
+<details>
+<summary>3. What is the statutory leverage limit for Alternative Investment Funds (AIFs) under SEBI regulations?</summary>
+
+Under the applicable SEBI framework, Category I and Category II AIFs are prohibited from employing leverage (except temporary borrowing for up to 30 days to meet operational needs). Category III AIFs (such as Hedge Funds) may employ leverage subject to SEBI regulations, with leverage not exceeding 2× NAV ($\le 2\times\text{ NAV}$).
 </details>

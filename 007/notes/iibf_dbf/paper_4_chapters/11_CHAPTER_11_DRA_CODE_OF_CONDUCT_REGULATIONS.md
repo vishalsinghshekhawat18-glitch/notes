@@ -39,27 +39,26 @@ The RBI and IBA enforce strict behavioral protocols governing borrower interacti
 - Under RBI directives and the Fair Practices Code / Master Direction on Recovery Agents, recovery agents **must not call borrowers before 8:00 AM or after 7:00 PM** for recovery of overdue loans.
 - The permitted calling window is strictly between **08:00 AM and 07:00 PM** (08:00 hrs to 19:00 hrs). Calling before 08:00 AM or after 07:00 PM is an explicit regulatory breach.
 
-### 2. Physical Visits, Privacy & Confidentiality Mandate
-- **Place of Visit:** Agents should ordinarily contact or visit borrowers at their residence. Visiting or contacting borrowers at their workplace is permitted only if the borrower is unreachable at their residence.
-- **Decorum & Privacy:** Physical visits must be conducted with dignity and decorum. Agents must not enter the borrower's premises unannounced at unreasonable hours or breach family privacy.
-- **Third-Party Non-Disclosure:** Agents are **strictly prohibited** from discussing debt status with, leaving messages with, or intimidating family members, relatives, neighbors, friends, or employers.
-- **No Harassment on Mourning / Festival Days:** Contacting or visiting borrowers on days of family bereavement, death, or religious festivals is strictly forbidden.
+### 2. Physical Visits, Privacy & Decorum Mandate *(IBA Model Code & RBI Guidance)*
+- **Place of Visit:** Agents should ordinarily contact or visit borrowers at their place of residence. Visiting or contacting borrowers at their workplace is recommended only if the borrower is unreachable at their residence.
+- **Decorum & Privacy:** Physical visits must be conducted with dignity and decorum. Agents must not enter the borrower's premises unannounced at unreasonable hours, publicly humiliate the borrower, or breach family privacy.
+- **Third-Party Non-Disclosure:** Under RBI customer protection principles, agents are **strictly prohibited** from discussing debt status with, leaving messages with, or intimidating family members, relatives, neighbors, friends, or employers.
+- **Inappropriate Occasions:** Under the IBA Model Code of Conduct, contacting or visiting borrowers on days of family bereavement, death, or solemn occasions is strictly forbidden.
 
-### 3. Decorum & Behavioral Standards
-- **No Threatening Language:** Agents cannot use abusive language, vulgarity, humiliation, or physical threats.
-- **Recording of Calls:** Banks must ensure that all recovery calls made by DRAs are **recorded** and archived for at least 1 year to resolve customer complaints.
+### 3. Behavioral Standards & Operational Monitoring *(IBA Code / Bank Policy Standards)*
+- **No Threatening Language:** Agents cannot use abusive language, vulgarity, humiliation, harassment, or physical threats.
+- **Call Monitoring & Recording:** Banks must ensure that recovery calls made by DRAs are recorded where feasible and archived in accordance with board-approved policies and grievance redressal requirements to verify dispute resolution.
 - **Immediate Receipt Issuance:** If an agent collects cash or cheque payments, a formal stamped bank receipt must be issued immediately.
 
 ---
 
-## 4. Vicarious Liability & Penal Provisions for Banks *(Statutory / Regulatory Requirement)*
+## 4. Vicarious Liability & Regulatory Enforcement Provisions *(Judicial Precedent & Regulatory Framework)*
 
-Under Indian tort and civil law, the legal principle of **Vicarious Liability** holds the principal (the bank) liable for all wrongful acts committed by its agents (DRAs) within the scope of their employment:
+Under Indian civil and tort law and established Supreme Court jurisprudence (*ICICI Bank vs Prakash Kaur, 2007*), the doctrine of **Vicarious Liability** holds the principal (the lending bank) legally accountable for wrongful acts or harassment committed by its agents (DRAs) during the course of debt recovery:
 
-- **RBI Enforcement Penalties:**
-  - If a bank or its empaneled DRAs persistently violate conduct guidelines, the Reserve Bank may impose monetary penalties and **ban the bank from engaging recovery agents in a specific area for a specified period** (typically 6 months to 1 year).
-  - Repeated severe violations may result in the bank being ordered to handle all recovery activities exclusively through permanent bank staff.
-- **Grievance Redressal:** If a borrower lodges a harassment complaint against a DRA, the bank must investigate within **30 days**. During the pendency of the inquiry, the matter cannot be reassigned to the disputed recovery agent.
+- **RBI Enforcement & Sanctions:**
+  - If a bank or its empaneled DRAs persistently violate conduct guidelines, the Reserve Bank may impose monetary penalties and consider regulatory actions, such as **banning the bank from engaging recovery agents in a specific area for a specified period**, or directing the bank to conduct recovery exclusively through permanent bank staff.
+- **Grievance Redressal:** Banks must provide an effective grievance redressal mechanism for borrower complaints against DRAs. If complaints are not resolved satisfactorily through internal bank channels within 30 days, borrowers can escalate disputes to the **Reserve Bank - Integrated Ombudsman Scheme (RB-IOS)**. During an internal inquiry, the account should not be reassigned to the disputed recovery agent.
 
 ---
 

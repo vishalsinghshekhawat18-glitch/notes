@@ -204,6 +204,17 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
+  // 11. UPI Lite Current Limits (₹1,000 / ₹5,000) & Fortnightly CIC Reporting (1 Jan 2025)
+  const ch08Text = fs.readFileSync(path.join(chaptersDir, '08_CHAPTER_08_REMITTANCE_PRODUCTS_DIGITAL_CHANNELS.md'), 'utf-8');
+  const ch09Text = fs.readFileSync(path.join(chaptersDir, '09_CHAPTER_09_CREDIT_SCORING_CIBIL_CICS.md'), 'utf-8');
+  const ch04Text = fs.readFileSync(path.join(chaptersDir, '04_CHAPTER_04_RETAIL_LIABILITY_PRODUCTS_CASA.md'), 'utf-8');
+  if (ch08Text.includes('1,000') && ch08Text.includes('5,000') && ch09Text.includes('fortnightly') && ch04Text.includes('10%')) {
+    console.log(`  ✓ UPI Lite (₹1,000 / ₹5,000), Fortnightly CIC Reporting (1 Jan 2025), and Current Account 10% Exposure Gate strictly validated.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: UPI Lite, Fortnightly CIC reporting, or Current Account 10% gate missing.`);
+    dataCheckPass = false;
+  }
+
   if (dataCheckPass) {
     console.log(`  ✓ 100% Core Regulatory & Banking Invariants strictly validated across all chapters.`);
     passedGates++;

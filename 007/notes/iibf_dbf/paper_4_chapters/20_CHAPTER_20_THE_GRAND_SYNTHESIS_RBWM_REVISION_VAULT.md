@@ -41,6 +41,9 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | **TDS on Bank Deposit Interest** | ₹40,000/₹50,000 (1961 Act) vs ₹50,000/₹1,00,000 (2025 Act) | Zero-TDS self-declaration via Form 121 (replaces 15G/15H) |
 | **Section 54EC Capital Gains Bonds** | Up to **₹50,00,000** invested within 6 months in REC/PFC/NHAI | 5-year lock-in period on specified bonds |
 | **Unauthorized Electronic Slabs** | Zero liability if reported $\le 3\text{ days}$; ₹5K (BSBDA) / ₹10K (SB) / ₹25K (OD) if 4–7 days | Shadow reversal within 10 days; resolved in 90 days |
+| **UPI Lite Transaction & Wallet** | Max **₹1,000 per transaction**; overall wallet balance **₹5,000** | *(Current Framework)* PIN-less on-device wallet |
+| **CIC Reporting Frequency** | **Fortnightly** (as on 15th and last day of each month) | *(Current Framework effective 1 Jan 2025)* (Historical monthly) |
+| **Current Account CC/OD Gate** | Permitted with lender holding **$\ge 10\%$ aggregate exposure** | *(Regulatory Threshold)* for exposure $\ge ₹5\text{ Crores}$ |
 
 ---
 
@@ -78,7 +81,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | **Settlement Mode** | Deferred Net Settlement (48 half-hourly batches) | Real-Time Gross Settlement | Real-Time Gross Settlement | Real-Time Gross Settlement |
 | **Operating Hours** | 24x7x365 | 24x7x365 | 24x7x365 | 24x7x365 |
 | **Min Transaction** | ₹1 (No minimum floor) | **₹2,00,000** | ₹1 (No minimum floor) | ₹1 (No minimum floor) |
-| **Max Transaction** | No upper cap | No upper cap | **₹5,00,000** | **₹1,00,000** (₹5L for IPO/tax) |
+| **Max Transaction** | No upper cap | No upper cap | **₹5,00,000** | **₹1,00,000** (₹5L for IPO/tax; UPI Lite ₹1,000 / ₹5,000 wallet) |
 
 ### Matrix 5: Payment Card Categories Comparison
 | Card Class | Funding Mechanism | Credit Option | Grace Period | Primary User Segment |
@@ -144,7 +147,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 7. **Maslow Hierarchy Level 2 vs Level 4:** Safe deposit lockers belong to **Safety & Security Needs** (Level 2); luxury vehicle loans and priority lounges belong to **Esteem / Status Needs** (Level 4).
 8. **Product Development Gate:** Technical CBS development occurs **before** Market Testing, but **after** Business Analysis.
 9. **Current Account Interest:** Under RBI regulations, paying interest on current account balances is **strictly prohibited**.
-10. **Current Account Opening Gate:** For borrowers with Cash Credit (CC) / Overdraft (OD) facilities of **$\ge ₹5\text{ Crores}$**, banks cannot open a current account; operations must route through the CC/OD account.
+10. **Current Account Opening Gate:** For borrowers with aggregate banking exposure of **₹5 Crores or more** and CC/OD facilities, a current account may be maintained with a bank having at least **10%** of the aggregate exposure (or the lender with highest CC/OD exposure if none holds $\ge 10\%$). Other lending banks may maintain collection accounts subject to RBI remittance conditions. It is NOT an absolute bar on opening current accounts once exposure reaches ₹5 Crores.
 11. **Savings Bank Interest Frequency:** Savings interest is calculated on daily closing products and must be credited at least **quarterly**.
 12. **Negative Balance Ban:** Banks are legally **prohibited** from turning a savings bank account balance negative due to minimum balance penalty charges.
 13. **BSBDA Withdrawal Rights:** BSBDA holders are legally entitled to at least **4 free withdrawals per month**, including branch and ATM transactions.
@@ -158,7 +161,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 21. **Stamp Duty LTV Rule:** Stamp duty and registration charges can be included in property cost for LTV calculations **only for loans up to ₹10 Lakhs**. For loans $> ₹10\text{L}$, inclusion is strictly prohibited.
 22. **Upfront Disbursal Ban:** Disbursals on under-construction housing projects must be linked to physical construction stages; upfront 80:20 builder schemes are banned.
 23. **EBLR Mandate:** All floating-rate retail loans sanctioned after 1 October 2019 must be pegged to an **External Benchmark** (e.g., Repo Rate) and reset at least quarterly.
-24. **Foreclosure Fee Ban:** Banks cannot levy prepayment penalties or foreclosure charges on any floating-rate term loans sanctioned to individual borrowers.
+24. **Foreclosure Fee Ban:** Under longstanding RBI rules, banks and HFCs cannot levy prepayment penalties or foreclosure charges on floating-rate term loans sanctioned to individual borrowers (non-business purposes). Under the updated 2026 RBI framework, these protections are harmonized across Regulated Entities and extend to individual business loans and Micro & Small Enterprises (MSEs) on floating rates.
 25. **Reverse Mortgage Eligibility:** Senior citizen homeowner must be **at least 60 years of age**; spouse at least 55 years.
 26. **Reverse Mortgage Tax Status:** All payments received under Reverse Mortgage are **100% tax-exempt under Section 10(43)**.
 27. **Education Loan Collateral Free Cap:** Under the IBA scheme, **no collateral and no margin** can be demanded for education loans **up to ₹4.00 Lakhs**.
@@ -170,12 +173,12 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 33. **Contactless Card PIN Threshold:** Contactless payments without PIN authentication are capped at **₹5,000 per transaction**.
 34. **Unsolicited Credit Card Penalty:** Issuing an unsolicited credit card attracts a mandatory statutory penalty of **twice the value of charges levied**.
 35. **Credit Card Closure TAT:** Card issuers must complete closure of a credit card within **7 working days**, failing which a penalty of **₹500 per day of delay** applies.
-36. **RTGS Minimum Floor:** The statutory minimum transaction limit for RTGS is **₹2,00,000**.
+36. **RTGS Minimum Floor & UPI Lite Limits:** The statutory minimum transaction limit for RTGS is **₹2,00,000**. Under current RBI/NPCI rules, **UPI Lite** allows PIN-less on-device payments up to **₹1,000 per transaction** and an overall wallet limit of **₹5,000** (earlier historical limits were ₹500 and ₹2,000).
 37. **NEFT Batches:** NEFT operates 24x7 in **48 half-hourly batches** on Deferred Net Settlement (DNS).
 38. **Demand Draft Validity:** Both Demand Drafts and Banker's Cheques are legally valid for **3 Months** from issuance.
 39. **Credit Score Prime Threshold:** A score of **$\ge 750$** is an illustrative industry underwriting rule of thumb and lender benchmark, NOT a universal statutory or RBI regulatory cutoff. Lenders set their own risk-appetite thresholds.
 40. **Soft vs Hard Inquiries:** Checking one's own credit score is a **Soft Inquiry** and has **zero impact** on the credit score.
-41. **CIC Dispute TAT:** Credit institutions and CICs must resolve credit report disputes within **30 calendar days**, failing which a compensation of **₹100 per day of delay** applies.
+41. **CIC Dispute TAT & Fortnightly Reporting:** Credit institutions and CICs must resolve credit report disputes within **30 calendar days** (compensation of **₹100/day** for delay). Under the RBI framework effective 1 January 2025, credit institutions must report borrower credit data on a **fortnightly basis** (15th and last day of each month), NOT merely monthly.
 42. **Special Mention Accounts (SMA):** SMA-0 is **1–30 days** overdue; SMA-1 is **31–60 days**; SMA-2 is **61–90 days**; NPA is **$> 90$ days**.
 43. **Lok Adalat Pecuniary Cap:** Lok Adalat handles claims **up to ₹20 Lakhs**. Its award is non-appealable.
 44. **DRT Jurisdiction & Pre-Deposit:** DRT pecuniary jurisdiction begins at **₹20 Lakhs and above**. Filing an original application in DRT requires **zero pre-deposit**. The mandatory **50% pre-deposit** (reducible by tribunal to not less than **25%**) applies strictly to appeals preferred before the **DRAT** under Section 21 of the RDB Act.

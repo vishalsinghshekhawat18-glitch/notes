@@ -111,7 +111,7 @@ Licensed by the RBI as a specialized **NBFC-Account Aggregator (NBFC-AA)**, the 
 - (A) A lending fintech evaluating a borrower's loan application
 - (B) A commercial bank holding a customer's savings account or term deposit
 - (C) The NBFC-AA managing the encrypted consent pipeline
-- (D) A credit rating bureau calculating a credit score
+- (D) A Credit Information Company (CIC) calculating a credit score
 *Answer:* **(B)**  
 *Explanation:* Commercial banks holding customer deposit or investment accounts act as Financial Information Providers (FIPs), providing certified data to FIUs upon customer consent.
 

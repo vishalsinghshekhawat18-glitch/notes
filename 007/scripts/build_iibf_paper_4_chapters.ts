@@ -624,9 +624,11 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     table.t-grid {
       width: 100% !important;
       border-collapse: collapse !important;
-      margin: 2.5mm 0 !important;
-      font-size: 8.4pt !important;
-      line-height: 1.35 !important;
+      margin: 2.2mm 0 !important;
+      font-size: 8.3pt !important;
+      line-height: 1.32 !important;
+    }
+    table.t-grid tr {
       page-break-inside: avoid;
       break-inside: avoid;
     }

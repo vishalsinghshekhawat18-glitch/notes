@@ -56,7 +56,7 @@ Established under the Payment and Settlement Systems Act, 2007 (PSS Act), NPCI m
 - **Transaction Limits:**
   - Standard P2P / P2M transactions: **₹1,00,000 per transaction**.
   - Special Categories (Capital markets, IPOs, G-Sec purchases, Hospitals, Educational institutions, and Direct Tax payments): **₹5,00,000 per transaction**.
-- **UPI Lite:** On-device wallet for offline-like micro-transactions: Maximum transaction value **₹500**; maximum wallet balance **₹2,000** (processed without entering UPI PIN).
+- **UPI Lite:** On-device wallet for small-value micro-transactions: Maximum transaction value **up to ₹1,000**; maximum overall wallet balance **up to ₹5,000**, subject to the applicable RBI/NPCI framework (processed without entering a UPI PIN). *(Historical Note: Earlier limits were ₹500 per transaction and ₹2,000 cumulative wallet balance.)*
 - **UPI 123Pay:** Multi-channel protocol for feature phone users without internet access (IVR calling, missed call payments, OEM app).
 
 ### 3. Aadhaar Enabled Payment System (AePS)
@@ -85,6 +85,7 @@ Established under the Payment and Settlement Systems Act, 2007 (PSS Act), NPCI m
 > 1. **RTGS Minimum Floor:** The minimum remittance threshold for RTGS is strictly **₹2,00,000**. Amounts below ₹2 Lakhs must be routed via NEFT, IMPS, or UPI.
 > 2. **NEFT Batch Frequency:** NEFT operates on half-hourly batches, producing **48 batches per day**.
 > 3. **Demand Draft Validity:** Both Demand Drafts and Banker's Cheques are legally valid for **3 Months** from issuance.
+> 4. **UPI Lite Current Limits:** Under the current RBI and NPCI framework, UPI Lite limits are up to **₹1,000 per transaction** and **₹5,000 overall wallet balance** without a PIN. Watch out for obsolete options citing earlier limits of ₹500 and ₹2,000!
 
 ---
 
@@ -98,13 +99,13 @@ Established under the Payment and Settlement Systems Act, 2007 (PSS Act), NPCI m
 *Answer:* **(C)**  
 *Explanation:* RTGS is specifically designed for high-value remittances and has a mandatory statutory floor of ₹2,00,000 per transaction.
 
-**Q2.** Under current NPCI guidelines, what is the maximum per-transaction limit permitted for UPI Lite on-device wallet payments without requiring a UPI PIN?
+**Q2.** Under current Reserve Bank of India and NPCI regulatory guidelines, what is the maximum per-transaction limit permitted for UPI Lite on-device wallet payments without requiring a UPI PIN?
 - (A) ₹200
 - (B) ₹500
 - (C) ₹1,000
 - (D) ₹2,000
-*Answer:* **(B)**  
-*Explanation:* UPI Lite enables PIN-less micro-transactions up to ₹500 per transaction, with a maximum cumulative wallet balance limit of ₹2,000.
+*Answer:* **(C)**  
+*Explanation:* Under the current RBI and NPCI framework, UPI Lite permits PIN-less micro-transactions up to ₹1,000 per transaction, with a maximum cumulative on-device wallet balance limit of ₹5,000. Earlier historical limits were ₹500 per transaction and ₹2,000 wallet balance.
 
 ---
 
@@ -120,4 +121,10 @@ NEFT operates on Deferred Net Settlement (DNS) in half-hourly batches, where int
 <summary>2. What is the statutory turnaround time (TAT) mandated by the RBI for issuing a duplicate Demand Draft?</summary>
 
 Under RBI customer service guidelines, banks must issue a duplicate Demand Draft within a maximum of 14 days of receiving a formal request from the purchaser.
+</details>
+
+<details>
+<summary>3. What are the current regulatory transaction and wallet limits for UPI Lite?</summary>
+
+Under the current RBI and NPCI framework, UPI Lite enables PIN-less on-device micro-transactions up to ₹1,000 per transaction, with an overall cumulative wallet balance limit of up to ₹5,000. (Earlier historical limits were ₹500 per transaction and ₹2,000 wallet balance).
 </details>
