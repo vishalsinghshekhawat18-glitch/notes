@@ -6047,7 +6047,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,862 words • 9 min read"
+    "badge": "1,910 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-2",
@@ -6062,7 +6062,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "RETAIL BANKING: CHARACTERISTICS, BUSINESS MODELS & SEGMENTATION",
       "concept": "1. Evolution & Strategic Drivers of Retail Banking in India"
     },
-    "badge": "319 words"
+    "badge": "336 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-01_chapter_01_retail_banking_overview_models-sec-3",
@@ -6787,7 +6787,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,140 words • 6 min read"
+    "badge": "1,197 words • 6 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-2",
@@ -6825,14 +6825,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "3. Operational Code of Conduct & Calling Protocols",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations",
-    "description": "The RBI and IBA enforce strict behavioral protocols governing borrower interactions:\n\n 1. Permitted Calling Hours (Statutory / Regulatory Requirement)\n- Recovery agents are strictly restricted to",
+    "description": "The RBI and IBA enforce strict behavioral protocols governing borrower interactions:\n\n 1. Permitted Telephonic Calling Hours (Statutory / Regulatory Requirement)\n- Under RBI directives and the Fa",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "DIRECT RECOVERY AGENTS (DRA): IBA CODE OF CONDUCT & RBI REGULATIONS",
       "concept": "3. Operational Code of Conduct & Calling Protocols"
     },
-    "badge": "219 words"
+    "badge": "270 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-11_chapter_11_dra_code_of_conduct_regulations-sec-5",
@@ -7231,7 +7231,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,343 words • 7 min read"
+    "badge": "1,394 words • 7 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-2",
@@ -7276,7 +7276,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
       "concept": "3. SEBI Alternative Investment Funds (AIF) Regulations, 2012 *(Statutory / Regulatory Requirement)*"
     },
-    "badge": "262 words"
+    "badge": "274 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs-sec-5",
@@ -7284,14 +7284,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "4. Third-Party Financial Services Distributed by Commercial Banks",
     "slug": "sec-5",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-17_chapter_17_portfolio_management_pms_aifs",
-    "description": "Banks distribute fee-based third-party financial products across their branch networks:\n\n 1. Bancassurance (Insurance Distribution) (Statutory / Regulatory Requirement)\nGoverned by Insurance Regu",
+    "description": "Banks distribute fee-based third-party financial products across their branch networks:\n\n 1. Bancassurance (Corporate Agency Framework) (Statutory / Regulatory Requirement)\nGoverned by Insurance",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "PORTFOLIO MANAGEMENT SERVICES (PMS) & ALTERNATIVE INVESTMENT FUNDS (AIFS)",
       "concept": "4. Third-Party Financial Services Distributed by Commercial Banks"
     },
-    "badge": "331 words"
+    "badge": "346 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate",
@@ -7305,7 +7305,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "1,703 words • 8 min read"
+    "badge": "1,813 words • 9 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-2",
@@ -7320,7 +7320,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
       "concept": "1. RERA 2016: Core Statutory Architecture & Mandatory Provisions"
     },
-    "badge": "442 words"
+    "badge": "522 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-18_chapter_18_rera_2016_escrow_real_estate-sec-3",
@@ -7365,7 +7365,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "REAL ESTATE REGULATION ACT (RERA 2016), ESCROW ARCHITECTURE & VALUATION",
       "concept": "4. Housing Finance Tax Deductions & Capital Gains Framework"
     },
-    "badge": "329 words"
+    "badge": "359 words"
   },
   {
     "id": "shelf007-ch-iibf-dbf-paper_4_chapters-19_chapter_19_digital_banking_fintech_risks",
@@ -7453,7 +7453,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "Retail Banking & Wealth Management (RBWM)"
     },
-    "badge": "3,809 words • 18 min read"
+    "badge": "3,905 words • 18 min read"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-2",
@@ -7468,7 +7468,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
       "concept": "1. Master Formula & Quantitative Benchmark Cheat Sheet"
     },
-    "badge": "735 words"
+    "badge": "768 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-3",
@@ -7483,7 +7483,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
       "concept": "2. Ten Grand Master Distinction Matrices"
     },
-    "badge": "1333 words"
+    "badge": "1340 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-4",
@@ -7491,14 +7491,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls",
     "slug": "sec-4",
     "url": "/shelf-007/iibf-dbf/paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault",
-    "description": "1. Credit Risk in Retail Banking: Retail credit risk is granular and dispersed, eliminating single-name borrower concentration; however, correlated macroeconomic shocks across millions of reta",
+    "description": "1. Credit Risk in Retail Banking: Retail credit risk is granular and dispersed, reducing single-name borrower concentration so that an isolated individual default normally has limited impact o",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "IIBF Diploma in Banking & Finance (DBF / JAIIB)",
       "topic": "THE GRAND SYNTHESIS: IIBF PAPER 4 (RBWM) MASTER REVISION VAULT",
       "concept": "3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls"
     },
-    "badge": "1233 words"
+    "badge": "1289 words"
   },
   {
     "id": "shelf007-sec-iibf-dbf-paper_4_chapters-20_chapter_20_the_grand_synthesis_rbwm_revision_vault-sec-5",

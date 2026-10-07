@@ -12,10 +12,10 @@ Real estate represents the physical collateral anchor of retail housing finance.
 Enacted by Parliament to protect home-buyers and establish transparency in real estate transactions, RERA enforces five structural mandates:
 
 ### 1. Mandatory Project Registration Thresholds *(Statutory / Regulatory Requirement)*
-- Every residential and commercial real estate project where:
-  - The total land area to be developed exceeds **500 square meters**, OR
-  - The number of apartments proposed to be developed exceeds **8 apartments** (inclusive of all phases),
-  must be registered with the State Real Estate Regulatory Authority **prior to advertising, marketing, booking, or selling**.
+- Under Section 3 of RERA 2016, registration with the Real Estate Regulatory Authority is generally required for commercial and residential real estate projects prior to advertising, marketing, booking, or selling, unless the project falls within an applicable statutory exemption:
+  - **Statutory Exemption Scope:** Registration is generally not required where the area of land proposed to be developed does not exceed **500 square meters**, OR the number of apartments proposed to be developed does not exceed **8 apartments** (inclusive of all phases).
+  - *Competent Authority Discretion:* This is subject to the applicable State/UT framework, including any lower threshold that may be prescribed by the appropriate government.
+  - *Exam Memory Point:* If a project exceeds either 500 sq metres in land area or 8 apartments, RERA registration is legally compulsory prior to public launch or bookings.
 
 ### 2. 70% Dedicated Bank Escrow Account Architecture *(Statutory / Regulatory Requirement)*
 To eliminate fund siphoning into other projects, Section 4(2)(l)(D) mandates:
@@ -116,7 +116,7 @@ The capitalized property value is **₹1.20 Crores**, and the required annual si
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **RERA Registration Triggers:** Required if land area exceeds **500 sq meters** OR number of apartments exceeds **8 units**.
+> 1. **RERA Registration Mandate & Exemptions:** Registration is generally mandatory unless exempt. Projects are exempt where land area does not exceed 500 sq metres OR apartments do not exceed 8 units (subject to any lower threshold prescribed by State/UT authority). If either threshold is exceeded, registration is legally compulsory.
 > 2. **RERA Escrow Proportion:** Promoters must deposit **70%** of customer collections in a dedicated scheduled bank escrow account.
 > 3. **Carpet Area Exclusions:** Carpet area **excludes external walls, service shafts, and balconies**, but **includes internal partition walls**.
 > 4. **Section 54EC Ceiling:** The statutory ceiling for Section 54EC capital gains bonds is strictly **₹50 Lakhs**.

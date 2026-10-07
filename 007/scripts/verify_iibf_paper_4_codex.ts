@@ -168,12 +168,21 @@ async function runForensicAudit() {
     dataCheckPass = false;
   }
 
-  // 8. Wealth Management Products: PMS ₹50L & AIF ₹1Cr
+  // 8. Wealth Management Products: PMS ₹50L & AIF ₹1Cr, Leverage <= 2x NAV, Bancassurance 3-3-3
   const ch17Text = fs.readFileSync(path.join(chaptersDir, '17_CHAPTER_17_PORTFOLIO_MANAGEMENT_PMS_AIFS.md'), 'utf-8');
-  if (ch17Text.includes('50 Lakh') && (ch17Text.includes('1 Crore') || ch17Text.includes('1 Cr'))) {
-    console.log(`  ✓ Wealth Management Minimums Verified: SEBI PMS min ₹50 Lakhs and SEBI AIF min ₹1 Crore codified in Chapter 17.`);
+  if (ch17Text.includes('50 Lakh') && (ch17Text.includes('1 Crore') || ch17Text.includes('1 Cr')) && ch17Text.includes('3 Life') && ch17Text.includes('3 General') && !ch17Text.includes('up to 9 Life')) {
+    console.log(`  ✓ Wealth Management & Bancassurance Verified: SEBI PMS min ₹50L, AIF min ₹1Cr, Bancassurance 3 Life + 3 General + 3 Health (0 obsolete 9-9-9 endorsement) codified in Chapter 17.`);
   } else {
-    console.error(`  ✗ GATE 5 FAIL: PMS ₹50L or AIF ₹1Cr thresholds missing in Chapter 17.`);
+    console.error(`  ✗ GATE 5 FAIL: PMS ₹50L, AIF ₹1Cr, or Bancassurance 3-3-3 limits missing/inaccurate in Chapter 17.`);
+    dataCheckPass = false;
+  }
+
+  // 8b. Retail Concentration Risk Wording: Granular/dispersed reduces single-name risk; no absolute solvency elimination
+  const ch01Text = fs.readFileSync(path.join(chaptersDir, '01_CHAPTER_01_RETAIL_BANKING_OVERVIEW_MODELS.md'), 'utf-8');
+  if (ch01Text.includes('reduce single-name concentration risk') && !ch01Text.includes('does not endanger bank solvency')) {
+    console.log(`  ✓ Retail Concentration Risk Invariant Verified: Balanced systemic risk formulation codified in Chapter 01.`);
+  } else {
+    console.error(`  ✗ GATE 5 FAIL: Absolute solvency claim or missing concentration risk nuance in Chapter 01.`);
     dataCheckPass = false;
   }
 

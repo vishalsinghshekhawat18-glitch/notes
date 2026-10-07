@@ -16,7 +16,7 @@ The Indian banking sector underwent a historic structural transition through thr
 3. **Post-1991 Reforms & Digital Banking Era:** Entry of new private sector banks (incorporating automated Core Banking Solutions), deregulation of interest rates, emergence of Credit Information Companies (CICs), and growth of middle-class purchasing power catalyzed retail credit expansion (housing, auto, personal loans, credit cards).
 
 ### Key Advantages of Retail Banking
-- **Granular Credit Risk:** Retail portfolios reduce single-name concentration risk because exposure is distributed across millions of borrowers; default by an individual customer does not endanger bank solvency, unlike single-name wholesale corporate exposures.
+- **Granular Credit Risk:** Retail portfolios reduce single-name concentration risk because exposures are granular and dispersed. A single retail default normally has limited impact, but widespread correlated defaults can materially affect asset quality, earnings and capital (unlike single-name wholesale corporate exposures where a solitary default can impair bank net worth).
 - **Sticky, Low-Cost Funding Base:** Retail CASA and term deposits are held by millions of individuals for routine life needs, making deposit flight rare during localized market stress.
 - **Superior Interest Margins:** Retail loan products yield higher spreads and Net Interest Margins (NIM) compared to competitive wholesale consortium lending.
 - **Cross-Selling Potential:** Retail customer relationships create durable distribution conduits for high-margin third-party products (life/general insurance, mutual funds, gold coins, depository services).
@@ -92,7 +92,7 @@ Banks adopt diverse organizational architectures to manufacture, underwrite, and
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **Credit Risk Concentration Trap:** Retail credit risk is **granular and dispersed**, meaning delinquency by an individual borrower has negligible impact on bank solvency. Corporate lending has **high single-name concentration risk**. However, correlated macro stress across an entire retail portfolio can still impair bank capital.
+> 1. **Credit Risk Concentration Trap:** Retail credit risk is **granular and dispersed**, reducing single-name concentration risk so that an isolated individual default normally has limited impact on bank solvency. Corporate lending has **high single-name concentration risk**. However, widespread correlated defaults across retail portfolios (e.g., during severe macroeconomic shocks) can materially affect bank asset quality, earnings, and capital.
 > 2. **SBU Profit Accountability:** In an SBU structure, the retail division is an autonomous profit center with independent ROE and ROA accountability, not just a marketing channel.
 > 3. **HNWI Definition:** Wealth tiers such as High Net Worth Individuals (HNWIs, ₹2Cr–₹25Cr) and Ultra HNWIs (>₹25Cr) represent **illustrative industry segmentation conventions**, not statutory RBI thresholds.
 
@@ -137,7 +137,7 @@ The Horizontally Integrated model utilizes a shared delivery platform across all
 <details>
 <summary>2. What is the fundamental difference between credit risk in retail banking versus wholesale banking?</summary>
 
-Retail credit risk is granular and dispersed across millions of small-ticket borrowers, ensuring that an individual default does not threaten bank solvency. In contrast, wholesale banking is characterized by high single-name and group concentration risk, where default by a single corporate borrower can erode significant capital and threaten bank stability.
+Retail portfolios reduce single-name concentration risk because exposures are granular and dispersed across millions of borrowers; an individual retail default normally has limited impact on the bank. In contrast, wholesale banking is characterized by high single-name and group concentration risk, where default by a single large borrower can erode significant capital. However, correlated macro stress across an entire retail portfolio can still materially impair bank asset quality and earnings.
 </details>
 
 <details>

@@ -51,9 +51,9 @@ AIFs are privately pooled investment vehicles established or incorporated in Ind
 
 | AIF Category | Permitted Investment Universe & Strategy | Leverage & Borrowing Rules | Taxation Framework |
 | :--- | :--- | :--- | :--- |
-| **Category I AIF** | Start-ups, early-stage ventures, social enterprises, SMEs, infrastructure. Sub-categories: **Venture Capital Funds (VCF)**, SME Funds, Social Venture Funds, Infrastructure Funds | Cannot undertake leverage except for meeting temporary day-to-day operational needs (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act |
-| **Category II AIF** | Does not fall under Cat I or Cat III. Sub-categories: **Private Equity (PE) Funds**, Real Estate Funds, Debt Funds, Funds for Distressed Assets | Cannot borrow or engage in leverage except to meet temporary operational requirements (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act |
-| **Category III AIF** | Employs diverse or complex trading strategies; listed equities, commodities, derivatives. Sub-categories: **Hedge Funds**, PIPE funds | **Permitted to employ Leverage up to $2\times$ NAV (200% of NAV)** through derivatives or borrowing *(Regulatory)* | Taxed at the **Fund / Trust level** at Maximum Marginal Rate (MMR); no pass-through status |
+| **Category I AIF** | Start-ups, early-stage ventures, social enterprises, SMEs, infrastructure. Sub-categories: **Venture Capital Funds (VCF)**, SME Funds, Social Venture Funds, Infrastructure Funds | Cannot undertake leverage except for meeting temporary day-to-day operational needs (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act / applicable statutory provisions |
+| **Category II AIF** | Does not fall under Cat I or Cat III. Sub-categories: **Private Equity (PE) Funds**, Real Estate Funds, Debt Funds, Funds for Distressed Assets | Cannot borrow or engage in leverage except to meet temporary operational requirements (up to 30 days) | Enjoys statutory **Tax Pass-Through status** under Section 115UB of Income-tax Act / applicable statutory provisions |
+| **Category III AIF** | Employs diverse or complex trading strategies; listed equities, commodities, derivatives. Sub-categories: **Hedge Funds**, PIPE funds | **Permitted to employ Leverage $\le 2\times\text{ NAV}$** (leverage not exceeding 2 times NAV under applicable SEBI framework) | **Does not receive Section 115UB pass-through status**; tax consequences depend on legal form/trust structure and applicable statutory provisions |
 
 ---
 
@@ -61,12 +61,12 @@ AIFs are privately pooled investment vehicles established or incorporated in Ind
 
 Banks distribute fee-based third-party financial products across their branch networks:
 
-### 1. Bancassurance (Insurance Distribution) *(Statutory / Regulatory Requirement)*
+### 1. Bancassurance (Corporate Agency Framework) *(Statutory / Regulatory Requirement)*
 Governed by Insurance Regulatory and Development Authority of India (IRDAI) regulations:
-- **Corporate Agency Model (Open Architecture):** A commercial bank licensed as a Corporate Agent can tie up with up to **9 Life Insurers, 9 General Insurers, and 9 Health Insurers** simultaneously *(Statutory)*.
+- **Corporate Agency Model:** A commercial bank licensed as a composite Corporate Agent may have arrangements with up to **3 Life + 3 General + 3 Health insurers**, subject to the applicable IRDAI regulatory framework.
   - *Statutory Rule:* Banks cannot force borrowers to buy insurance from their partner insurers as a precondition for loan sanction (prohibition of coercive tying).
-- **Insurance Broker Model:** Bank sets up a subsidiary to act as an independent insurance broker representing the buyer.
-- **Referral Model:** Bank merely shares customer lead information with insurers without active solicitation or policy servicing.
+- **Insurance Broker Model:** Bank sets up an independent subsidiary licensed as an insurance broker representing the buyer.
+- **Referral Model:** Bank shares customer lead information with insurers without active solicitation or policy servicing.
 
 ### 2. Mutual Fund Distribution
 - Banks act as mutual fund distributors registered with the **Association of Mutual Funds in India (AMFI)**, possessing an **AMFI Registration Number (ARN)**.
@@ -79,10 +79,10 @@ Governed by Insurance Regulatory and Development Authority of India (IRDAI) regu
 
 > [!CAUTION]
 > **Examiner Trap Alert & Regulatory Pitfalls:**
-> 1. **SEBI PMS Ticket Size:** The minimum investment ticket size for PMS is **₹50 Lakhs** (not ₹25 Lakhs).
+> 1. **SEBI PMS Ticket Size:** The minimum investment ticket size for PMS is **₹50 Lakhs** (not ₹25 Lakhs) under SEBI (Portfolio Managers) Regulations.
 > 2. **SEBI AIF Ticket Size:** The minimum investment threshold for AIFs is **₹1 Crore** (₹25 Lakhs for employees/directors).
-> 3. **AIF Leverage Ceiling:** **Category III AIFs (Hedge Funds)** are permitted to employ leverage up to **2 times NAV ($2\times$ NAV / 200% of NAV)** under SEBI Master Circular. Categories I and II cannot undertake leverage (except temporary operational borrowing up to 30 days).
-> 4. **Bancassurance 9-9-9 Rule:** A corporate agent bank can partner with up to **9 Life, 9 General, and 9 Health** insurance companies under IRDAI open-architecture regulations.
+> 3. **AIF Leverage Ceiling:** **Category III AIFs (Hedge Funds)** are permitted leverage not exceeding **$2\times$ NAV ($\le 2\times\text{ NAV}$)** under the applicable SEBI framework. Categories I and II cannot undertake leverage (except temporary operational borrowing up to 30 days).
+> 4. **Bancassurance Tie-Up Limit:** Under the applicable IRDAI framework, a composite Corporate Agent bank can partner with up to **3 Life, 3 General, and 3 Health** insurance companies. (Watch out for obsolete or incorrect 9-9-9 formulations in legacy questions!)
 
 ---
 
@@ -102,7 +102,7 @@ Governed by Insurance Regulatory and Development Authority of India (IRDAI) regu
 - (C) Category III AIF
 - (D) Angel Funds
 *Answer:* **(C)**  
-*Explanation:* Category III AIFs (such as Hedge Funds) are explicitly permitted to use leverage, short selling, and complex derivative strategies.
+*Explanation:* Category III AIFs (such as Hedge Funds) are explicitly permitted to use leverage (not exceeding $2\times$ NAV), short selling, and complex derivative strategies.
 
 ---
 
@@ -111,11 +111,11 @@ Governed by Insurance Regulatory and Development Authority of India (IRDAI) regu
 <details>
 <summary>1. Distinguish between Discretionary and Non-Discretionary Portfolio Management Services (PMS).</summary>
 
-In Discretionary PMS, the Portfolio Manager manages the funds independently and executes investment transactions without obtaining prior approval from the client. In Non-Discretionary PMS, the manager provides investment recommendations, but must obtain the client's explicit prior consent before executing each trade.
+In Discretionary PMS, the Portfolio Manager manages the funds independently and executes investment transactions without obtaining prior approval from the client. In Non-Discretionary PMS, the manager provides investment recommendations, but must obtain the client's explicit prior consent before executing each trade. Advisory and Co-investment services represent distinct advisory offerings under SEBI regulations.
 </details>
 
 <details>
-<summary>2. Explain the "Open Architecture" model in Bancassurance under IRDAI regulations.</summary>
+<summary>2. Explain the tie-up limits for a Corporate Agent in Bancassurance under the applicable IRDAI framework.</summary>
 
-Under IRDAI's open architecture regulations, a bank acting as a corporate agent is permitted to partner with up to 9 Life insurance companies, 9 General insurance companies, and 9 standalone Health insurance companies simultaneously, offering customers a diverse choice of competitive insurance products.
+Under the applicable IRDAI Corporate Agent regulations, a bank acting as a composite Corporate Agent is permitted to have distribution arrangements with up to 3 Life insurance companies, 3 General insurance companies, and 3 standalone Health insurance companies, providing retail customers product choice while preventing anti-competitive monopolization.
 </details>

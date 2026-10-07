@@ -35,14 +35,15 @@ Before any recovery agent or agency personnel can interact with defaulting borro
 
 The RBI and IBA enforce strict behavioral protocols governing borrower interactions:
 
-### 1. Permitted Calling Hours *(Statutory / Regulatory Requirement)*
-- Recovery agents are strictly restricted to calling or visiting borrowers between **08:00 AM and 07:00 PM** (08:00 hrs to 19:00 hrs).
-- Under the RBI Master Direction on Recovery Agents / Customer Service, contacting borrowers **before 08:00 AM or after 07:00 PM** is strictly prohibited and constitutes a severe regulatory violation.
+### 1. Permitted Telephonic Calling Hours *(Statutory / Regulatory Requirement)*
+- Under RBI directives and the Fair Practices Code / Master Direction on Recovery Agents, recovery agents **must not call borrowers before 8:00 AM or after 7:00 PM** for recovery of overdue loans.
+- The permitted calling window is strictly between **08:00 AM and 07:00 PM** (08:00 hrs to 19:00 hrs). Calling before 08:00 AM or after 07:00 PM is an explicit regulatory breach.
 
-### 2. Privacy & Confidentiality Mandate
-- **Workplace Privacy:** Agents should ordinarily contact borrowers at their residence. Contacting borrowers at their workplace is permitted only if the borrower is unreachable at home.
+### 2. Physical Visits, Privacy & Confidentiality Mandate
+- **Place of Visit:** Agents should ordinarily contact or visit borrowers at their residence. Visiting or contacting borrowers at their workplace is permitted only if the borrower is unreachable at their residence.
+- **Decorum & Privacy:** Physical visits must be conducted with dignity and decorum. Agents must not enter the borrower's premises unannounced at unreasonable hours or breach family privacy.
 - **Third-Party Non-Disclosure:** Agents are **strictly prohibited** from discussing debt status with, leaving messages with, or intimidating family members, relatives, neighbors, friends, or employers.
-- **No Harassment on Mourning / Festival Days:** Contacting borrowers on days of family bereavement, death, or religious festivals is strictly forbidden.
+- **No Harassment on Mourning / Festival Days:** Contacting or visiting borrowers on days of family bereavement, death, or religious festivals is strictly forbidden.
 
 ### 3. Decorum & Behavioral Standards
 - **No Threatening Language:** Agents cannot use abusive language, vulgarity, humiliation, or physical threats.
@@ -72,13 +73,13 @@ Under Indian tort and civil law, the legal principle of **Vicarious Liability** 
 
 ## 5. Solved Examination Questions
 
-**Q1.** Under current Reserve Bank of India recovery agent directives, during which hours are Direct Recovery Agents (DRAs) legally permitted to contact defaulting borrowers?
+**Q1.** Under current Reserve Bank of India recovery agent directives, during which hours are Direct Recovery Agents (DRAs) legally permitted to call defaulting borrowers?
 - (A) 07:00 AM to 07:00 PM
 - (B) 08:00 AM to 07:00 PM
 - (C) 08:00 AM to 08:00 PM
 - (D) 09:00 AM to 06:00 PM
 *Answer:* **(B)**  
-*Explanation:* Under RBI directives, DRAs are strictly permitted to call or visit borrowers only between 08:00 AM and 07:00 PM (prohibited before 8 AM and after 7 PM).
+*Explanation:* Under RBI directives, recovery agents must not call borrowers before 08:00 AM or after 07:00 PM for recovery of overdue loans. The permitted calling window is strictly between 08:00 AM and 07:00 PM.
 
 **Q2.** What is the minimum mandatory training duration prescribed by the IIBF for a non-graduate (10th standard pass) before appearing for the DRA Certification Examination?
 - (A) 25 Hours

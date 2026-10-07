@@ -23,14 +23,15 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | **Credit Card Minimum Amount Due** | $\text{MAD} = \text{Issuer-defined under RBI negative-amortization ban}$ | *(5% balance + fees + EMI is standard industry practice)* |
 | **Year's Purchase (YP) in Valuation** | $\text{YP} = \frac{1}{\text{Capitalization Yield Rate } r}$ | $\text{Capitalized Value} = \text{Net Annual Rent} \times \text{YP}$ |
 | **Annual Sinking Fund Deposit ($I$)** | $I = S \times \frac{i}{(1 + i)^n - 1}$ | Accumulates building replacement corpus $S$ over $n$ years |
-| **RERA Project Registration Gate** | Land area $> 500\text{ sq meters}$ OR Apartments $> 8\text{ units}$ | *(Statutory Mandate)* prior to advertising/booking |
+| **RERA Project Registration Gate** | Mandatory unless exempt (exempt if land $\le 500\text{ sq m}$ or units $\le 8$, subject to State rules) | *(Statutory Mandate)* prior to advertising/booking |
 | **RERA Dedicated Escrow Proportion** | **$70\%$ of all buyer realizations** deposited in bank escrow | Certified by Engineer, Architect, and practicing CA |
 | **CERSAI Registration Deadline** | Within **30 Days** of mortgage creation | *(Statutory Mandate)* under SARFAESI Act |
 | **SARFAESI Section 13(2) Notice** | Borrower given **60 Days** to discharge debt in full | Bank replies to borrower objection within 15 days |
 | **DRT Pecuniary Jurisdiction** | Debt claim of **₹20 Lakhs and Above** | **Zero pre-deposit** for DRT; appeal to DRAT requires $50\%$ |
 | **Lok Adalat Pecuniary Jurisdiction** | Debt claim **Up to ₹20 Lakhs** | Award is a civil court decree; **NO appeal lies** |
 | **SEBI PMS Minimum Ticket Size** | Minimum investment **₹50 Lakhs** per client | Discretionary, Non-Discretionary, or Advisory *(Statutory)* |
-| **SEBI AIF Minimum Ticket Size** | Minimum investment **₹1.00 Crore** per investor | Cat I, II (No leverage) vs Cat III (Leverage up to $2\times$ NAV) |
+| **SEBI AIF Minimum Ticket Size** | Minimum investment **₹1.00 Crore** per investor | Cat I, II (No leverage) vs Cat III (Leverage $\le 2\times\text{ NAV}$ under SEBI) |
+| **Bancassurance Composite Agency** | Max **3 Life + 3 General + 3 Health** insurers | *(Regulatory Limit)* for composite Corporate Agent under IRDAI |
 | **Section 24(b) Housing Interest** | Up to **₹2,00,000** for self-occupied residential property | Actual interest deductible for let-out property |
 | **Section 80C Investment Ceiling** | Up to **₹1,50,000** per financial year | Principal of home loan, PF, ELSS, SSY, Life Insurance |
 | **Section 80CCD(1B) NPS Additional** | Up to **₹50,000** exclusively for NPS Tier-I contribution | Over and above the ₹1.50 Lakh cap of Section 80C |
@@ -50,7 +51,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | :--- | :--- | :--- |
 | **Clientele** | Individuals, households, micro-enterprises | Conglomerates, multinationals, PSUs |
 | **Ticket Size & Velocity** | Small individual tickets, very high velocity | Very large ticket sizes, low velocity |
-| **Credit Concentration Risk** | **Granular / Dispersed** (Eliminates single-name risk; but correlated macro shocks across households can cause systemic portfolio distress) | **High Concentration Risk** (Single borrower default severely impairs bank capital) |
+| **Credit Concentration Risk** | **Granular / Dispersed** (Reduces single-name risk; isolated default has limited impact, but widespread correlated retail shocks can cause portfolio distress) | **High Concentration Risk** (Single large corporate default severely impairs bank capital) |
 | **NIM & Spreads** | High Net Interest Margins ($3.2\% - 3.8\%$) | Tight interest spreads ($1.5\% - 2.5\%$) |
 | **Funding Stability** | Sticky, stable CASA deposits from millions of depositors | Price-sensitive, volatile wholesale bulk deposits |
 
@@ -106,8 +107,8 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 | Parameter | Category I AIF | Category II AIF | Category III AIF |
 | :--- | :--- | :--- | :--- |
 | **Investment Universe** | Start-ups, SMEs, Social, Infrastructure, VCFs | Private Equity (PE), Debt Funds, Real Estate | Hedge Funds, Listed Derivatives, PIPE |
-| **Leverage Permitted?** | **NO Leverage** (Except temporary 30-day need) | **NO Leverage** (Except temporary 30-day need) | **LEVERAGE PERMITTED (Up to $2\times$ NAV / 200%)** |
-| **Tax Pass-Through?** | **YES** (Pass-through under Section 115UB) | **YES** (Pass-through under Section 115UB) | **NO** (Taxed at fund level at MMR) |
+| **Leverage Permitted?** | **NO Leverage** (Except temporary 30-day need) | **NO Leverage** (Except temporary 30-day need) | **LEVERAGE PERMITTED ($\le 2\times\text{ NAV}$ under SEBI rules)** |
+| **Tax Pass-Through?** | **YES** (Pass-through under Section 115UB) | **YES** (Pass-through under Section 115UB) | **NO statutory pass-through under Sec 115UB** (taxed per trust/fund structure) |
 | **Minimum Ticket** | **₹1.00 Crore** (₹25L for employees) | **₹1.00 Crore** (₹25L for employees) | **₹1.00 Crore** (₹25L for employees) |
 
 ### Matrix 9: Standard Housing Loan vs Reverse Mortgage Scheme
@@ -134,7 +135,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 
 ## 3. Top 50 Deadliest Examiner Traps & High-Probability Examination Pitfalls
 
-1. **Credit Risk in Retail Banking:** Retail credit risk is **granular and dispersed**, eliminating single-name borrower concentration; however, correlated macroeconomic shocks across millions of retail borrowers can still create systemic asset quality and capital distress.
+1. **Credit Risk in Retail Banking:** Retail credit risk is **granular and dispersed**, reducing single-name borrower concentration so that an isolated individual default normally has limited impact on the bank; however, widespread correlated defaults across millions of retail borrowers (e.g. during severe economic stress) can materially impact bank asset quality and capital.
 2. **SBU Accountability:** An SBU is an autonomous profit center with independent ROA and ROE targets, not just a sales channel.
 3. **HNWI Definition:** Wealth tiers (e.g. HNWI investible surplus of **₹2 Crores to ₹25 Crores**; Ultra HNWI $> ₹25\text{ Crores}$) are illustrative wealth industry segmentation conventions, NOT universal statutory or RBI regulatory categories.
 4. **ROA Denominator:** ROA is calculated on **Average Total Assets**, whereas NIM is calculated on **Average Earning Assets**.
@@ -165,7 +166,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 29. **Education Moratorium:** Repayment holiday extends for **Course Duration + 1 Year** (or 6 months after getting a job, whichever is earlier).
 30. **CSIS Scheme:** Central Sector Interest Subsidy provides 100% interest waiver during moratorium for students with annual parental income **up to ₹4.50 Lakhs**.
 31. **Section 51 Motor Vehicles Act:** Legal security on passenger cars is **Hypothecation**, which must be registered on the RTO Registration Certificate (RC).
-32. **Credit Card Grace Period Forfeiture:** Paying only the Minimum Amount Due (MAD) causes **complete forfeiture of the interest-free grace period** on both old balances and new purchases.
+32. **Credit Card MAD & Grace Period Forfeiture:** The Minimum Amount Due (MAD) is issuer-defined under the RBI negative-amortization ban (5% of balance + fees + EMI is an illustrative industry standard, not a statutory mandate). Paying only the MAD causes **complete forfeiture of the interest-free grace period** on both existing balances and new purchases.
 33. **Contactless Card PIN Threshold:** Contactless payments without PIN authentication are capped at **₹5,000 per transaction**.
 34. **Unsolicited Credit Card Penalty:** Issuing an unsolicited credit card attracts a mandatory statutory penalty of **twice the value of charges levied**.
 35. **Credit Card Closure TAT:** Card issuers must complete closure of a credit card within **7 working days**, failing which a penalty of **₹500 per day of delay** applies.
@@ -180,7 +181,7 @@ Welcome to the definitive Capstone Master Revision Vault for IIBF DB&F / JAIIB P
 44. **DRT Jurisdiction & Pre-Deposit:** DRT pecuniary jurisdiction begins at **₹20 Lakhs and above**. Filing an original application in DRT requires **zero pre-deposit**. The mandatory **50% pre-deposit** (reducible by tribunal to not less than **25%**) applies strictly to appeals preferred before the **DRAT** under Section 21 of the RDB Act.
 45. **SARFAESI Agricultural Land Bar:** Under Section 31, SARFAESI **cannot be enforced against agricultural land**, regardless of debt size.
 46. **SARFAESI Section 13(2) Notice:** The statutory demand notice gives the borrower **60 days** to discharge liabilities; bank response to objection takes **15 days**.
-47. **DRA Calling Hours:** Recovery agents can contact borrowers strictly between **08:00 AM and 07:00 PM** (08:00 to 19:00 hrs) under RBI directives. Calling before 8 AM or after 7 PM is an explicit regulatory breach. (Watch out for obsolete 07:00 AM options!)
+47. **DRA Calling Hours:** Recovery agents must not call borrowers before 08:00 AM or after 07:00 PM for recovery of overdue loans (permitted calling window is strictly **08:00 AM to 07:00 PM** under RBI directives). Calling before 8 AM or after 7 PM is an explicit regulatory breach. (Watch out for obsolete 07:00 AM options!)
 48. **Securitization Credit Card Exclusion:** Revolving credit facilities like credit card receivables **CANNOT be securitized**.
 49. **Unauthorized Electronic 3-Day Rule:** Reporting a third-party cyber breach within **3 working days** provides the customer with **Zero Liability**.
 50. **RERA 70% Escrow Rule:** Promoters must deposit **70% of collections** into a dedicated bank escrow account, withdrawable only upon certification by an Engineer, Architect, and practicing CA.
