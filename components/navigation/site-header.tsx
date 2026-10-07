@@ -25,15 +25,12 @@ export function SiteHeader() {
   const navLinks = [
     { label: 'Library', href: '/' },
     { label: 'Subjects', href: '/shelf-007' },
-    { label: 'Waypoint', href: '/#continue-reading' },
-    { label: 'Domains', href: '/#knowledge-terrain' },
-    { label: 'Revision', href: '/shelf-007/political-science/chapter-30' },
   ];
 
   return (
     <>
       <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm max-w-full overflow-x-clip">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2 w-full min-w-0">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2 w-full min-w-0">
           {/* Brand & Subtitle */}
           <div className="flex items-center gap-4 sm:gap-6 min-w-0">
             <Link href="/" className="flex items-center gap-2.5 group min-w-0 shrink-0">
@@ -58,7 +55,7 @@ export function SiteHeader() {
             </Link>
 
             {/* Desktop Scholarly Navigation */}
-            <nav className="hidden xl:flex items-center gap-4 xl:gap-5 text-xs font-serif text-[#D5DDD6] min-w-0">
+            <nav className="hidden md:flex items-center gap-4 lg:gap-5 text-xs font-serif text-[#D5DDD6] min-w-0">
               {navLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -69,6 +66,17 @@ export function SiteHeader() {
                 </Link>
               ))}
             </nav>
+          </div>
+
+          {/* Centered Boxed Tag: Current Affairs */}
+          <div className="hidden sm:flex items-center justify-center absolute left-1/2 -translate-x-1/2 pointer-events-auto">
+            <Link
+              href="/shelf-007/current-affairs"
+              className="px-3.5 py-1 rounded-md border border-[#2A4D3E] bg-[#143227]/90 hover:bg-[#1A3E31] hover:border-[#C59B4B] text-[#FAF8F3] hover:text-[#C59B4B] text-xs font-serif font-medium tracking-wide transition-all shadow-2xs inline-flex items-center gap-2 group cursor-pointer"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-[#C59B4B] group-hover:scale-125 transition-transform" />
+              <span>Current Affairs</span>
+            </Link>
           </div>
 
           {/* Search Trigger, Ambience Switcher & Mobile Menu Toggle */}
@@ -92,7 +100,7 @@ export function SiteHeader() {
             {/* Mobile / Tablet Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="xl:hidden p-1.5 rounded-lg border border-[#234A3C] text-[#FAF8F3] hover:bg-[#16352A] transition-colors"
+              className="md:hidden p-1.5 rounded-lg border border-[#234A3C] text-[#FAF8F3] hover:bg-[#16352A] transition-colors"
               aria-label="Toggle navigation drawer"
             >
               {isMobileMenuOpen ? (
@@ -110,7 +118,7 @@ export function SiteHeader() {
 
         {/* Mobile Navigation Dropdown Drawer */}
         {isMobileMenuOpen && (
-          <nav className="xl:hidden border-t border-[#1E3A2E] bg-[#10251F] px-4 py-3 space-y-1 font-serif text-sm">
+          <nav className="md:hidden border-t border-[#1E3A2E] bg-[#10251F] px-4 py-3 space-y-1 font-serif text-sm">
             {navLinks.map((link) => (
               <Link
                 key={link.label}
@@ -121,6 +129,16 @@ export function SiteHeader() {
                 {link.label}
               </Link>
             ))}
+            <div className="pt-1">
+              <Link
+                href="/shelf-007/current-affairs"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="inline-flex items-center gap-2 py-2 px-3 rounded-md border border-[#2A4D3E] bg-[#143227] text-[#FAF8F3] hover:text-[#C59B4B] hover:border-[#C59B4B] transition-colors w-full font-serif text-sm"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C59B4B]" />
+                <span>Current Affairs</span>
+              </Link>
+            </div>
           </nav>
         )}
       </header>
