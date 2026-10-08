@@ -340,7 +340,7 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
 ## 10.9 Active Recall Diagnostic Cards
 
 #### Card 1 (Budgetary Accounting Demarcation)
-**Question**: The Central Government earns ₹50,000 Crore from the disinvestment of an airline, receives ₹25,000 Crore as dividend from the Reserve Bank of India, and disburses ₹40,000 Crore as a grant to the State of Rajasthan to build public solar parks. Classify each of these three financial transactions under Union Budget accounting heads, providing the exact accounting justification for each.
+**Question**: The Central Government earns ₹50,000 Crore from the disinvestment of an airline, receives ₹25,000 Crore as dividend from the Reserve Bank of India, and disburses an illustrative hypothetical grant of ₹40,000 Crore to the State of Rajasthan to build public solar parks (worked teaching example; not an actual 2026–27 budget allocation). Classify each of these three financial transactions under Union Budget accounting heads, providing the exact accounting justification for each.
 <details>
 <summary>View Rigorous Causal Answer</summary>
 1. <strong>Disinvestment of Airline (₹50,000 Crore)</strong>:
@@ -349,9 +349,9 @@ Section 4(2) of the amended FRBM Act establishes an explicit **Escape Clause** p
 2. <strong>RBI Dividend Surplus Transfer (₹25,000 Crore)</strong>:
    - <em>Classification</em>: <strong>Non-Tax Revenue Receipt</strong> under the Revenue Account.
    - <em>Justification</em>: Dividends represent operational profit sharing from statutory corporations. They <strong>neither create a liability nor reduce any asset</strong> of the Government.<br/>
-3. <strong>Grant to Rajasthan for Solar Parks (₹40,000 Crore)</strong>:
-   - <em>Classification</em>: <strong>Revenue Expenditure</strong> under the Revenue Account.
-   - <em>Justification</em>: Under Article 282, grants-in-aid to States are formally accounted as Revenue Expenditure in the Union Budget because legal ownership of the physical asset vests in the State Government. However, because it creates productive capital assets, it contributes directly to <strong>Effective Capital Expenditure</strong> and is deducted from Revenue Deficit when calculating <strong>Effective Revenue Deficit (ERD)</strong>.
+3. <strong>Illustrative Hypothetical Grant to Rajasthan for Solar Parks — ₹40,000 Crore</strong> (Worked example only; not an actual 2026–27 budget allocation):
+   - <em>Classification</em>: <strong>Revenue Expenditure</strong> on the Union Government's ledger.
+   - <em>Justification</em>: Under Article 282, all grants-in-aid to States are formally accounted as Revenue Expenditure in the Union Budget because legal ownership of the physical asset vests in the recipient State Government, not the Centre. However, because this specific grant is given for the creation of capital assets, it contributes directly to <strong>Effective Capital Expenditure</strong> and is statutorily deducted from Revenue Deficit when computing <strong>Effective Revenue Deficit (ERD)</strong>.
 </details>
 
 #### Card 2 (Mathematical Deficit Deconstruction)

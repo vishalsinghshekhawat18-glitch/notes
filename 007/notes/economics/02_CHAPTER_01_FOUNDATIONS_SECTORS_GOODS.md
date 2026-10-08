@@ -339,10 +339,10 @@ Economics categorizes all goods in society by two physical and legal characteris
 ## 1.10 Active Recall Diagnostic Cards
 
 #### Card 1 (Conceptual Mechanics)
-**Question**: Why does the presence of "Non-Excludability" in pure public goods inevitably cause competitive market mechanisms to fail?
+**Question**: Why does non-excludability create a free-rider problem and tend to cause competitive markets to under-provide pure public goods relative to the social optimum?
 <details>
 <summary>View Rigorous Causal Answer</summary>
-Competitive markets function by excluding consumers who refuse to pay the equilibrium price. When a good is non-excludable (like national defense or basic clean air), it is technically impossible or prohibitively expensive to prevent non-paying individuals from consuming it once it is provided. Rational individuals recognize this and withhold voluntary payment, acting as <strong>Free Riders</strong>. Because private producers cannot reliably capture revenue through individual market pricing to cover production costs, competitive private markets severely under-provide pure public goods relative to the socially optimal level. While club goods, technological exclusion, or civic/philanthropic arrangements occasionally supply partial solutions, pure public goods systematically necessitate collective sovereign financing through compulsory taxation and public provision.
+Competitive markets function by excluding consumers who refuse to pay the equilibrium price. When a good is non-excludable (like national defense or basic clean air), it is technically impossible or prohibitively expensive to prevent non-paying individuals from consuming it once it is provided. Rational individuals recognize this and withhold voluntary payment, acting as <strong>Free Riders</strong>. Because private producers cannot capture the full social willingness-to-pay through individual market pricing to recover costs and generate normal profits, competitive markets tend to under-provide pure public goods relative to the social optimum (or fail to produce them entirely). While club arrangements, contractual covenants, or civic/philanthropic institutions occasionally supply partial solutions, achieving the social optimum systematically necessitates collective sovereign financing through compulsory taxation and public provision.
 </details>
 
 #### Card 2 (Diagnostic Distinction)

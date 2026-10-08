@@ -223,14 +223,16 @@ $$\mathbf{\text{MPI}} = H \times A$$
 International organizations classify economies not by total GDP size, but by **average living standards**:
 
 ### 1. The World Bank Income Classification (Atlas Method)
-Categorizes every country based on **Gross National Income (GNI) per capita** calculated in US Dollars using the World Bank Atlas conversion factor (a 3-year smoothed exchange rate to filter currency volatility).
+Categorizes economies based on **Gross National Income (GNI) per capita** in US Dollars using the World Bank Atlas conversion factor (a 3-year smoothed exchange rate to filter price and exchange rate volatility). Updated annually on 1 July:
 
-| World Bank Income Tier (FY 2024–25) | GNI Per Capita Threshold (Atlas Method) |
-| :--- | :--- |
-| **Low-Income Economies** | ≤ \$1,145 |
-| **Lower-Middle-Income Economies** | \$1,146 to \$4,515 ★ [**India is here: ~$2,500**] |
-| **Upper-Middle-Income Economies** | \$4,516 to \$14,005 (e.g., China, Brazil) |
-| **High-Income Economies** | > \$14,005 (e.g., USA, UK, Japan, UAE) |
+| Income Tier | [HISTORICAL: FY 2024–25] | [CURRENT OPERATIVE: FY 2026–27] | Status / Representative Economies |
+| :--- | :--- | :--- | :--- |
+| **Low-Income Economies** | ≤ \$1,145 | **≤ \$1,175** | Low-income developing nations |
+| **Lower-Middle-Income** | \$1,146 to \$4,515 | **\$1,176 to \$4,635** | ★ **India is here (~$2,600)**; Vietnam, Bangladesh |
+| **Upper-Middle-Income** | \$4,516 to \$14,005 | **\$4,636 to \$14,375** | China, Brazil, South Africa, Malaysia |
+| **High-Income Economies** | > \$14,005 | **> \$14,375** | USA, UK, Japan, Germany, Singapore, UAE |
+
+*Current operative classification is based on 2025 GNI per capita under the World Bank Atlas method.*
 
 > **The "Middle-Income Trap"**: A developmental pathology where rapidly growing emerging economies escape absolute low-income poverty through low-wage manufacturing, but stagnate before reaching high-income status because they fail to transition to high-productivity innovation, patents, and advanced human capital.
 
@@ -304,7 +306,7 @@ Divides the world into two broad blocs:
   * Formula: $\text{MPI} = H \times A$ (Headcount $\times$ Intensity).
   * Threshold: Deprivation score $\ge 33.33\%$.
   * Global = 10 indicators; NITI Aayog National MPI = 12 indicators (adds Maternal Health & Bank Accounts).
-* **World Bank Tiers (GNI per cap)**: Low (≤ \$1,145), Lower-Middle (\$1,146–\$4,515 ← **India**), Upper-Middle (\$4,516–\$14,005), High (> \$14,005).
+* **World Bank Tiers (Atlas Method GNI per cap)**: Dual-Layer: [Historical FY24–25: Low $\le$ \$1,145, Lower-Middle \$1,146–\$4,515, Upper-Middle \$4,516–\$14,005, High > \$14,005] vs [Current Operative FY26–27: Low $\le$ \$1,175, Lower-Middle \$1,176–\$4,635 (★ **India ~$2,600**), Upper-Middle \$4,636–\$14,375, High > \$14,375].
 
 ---
 

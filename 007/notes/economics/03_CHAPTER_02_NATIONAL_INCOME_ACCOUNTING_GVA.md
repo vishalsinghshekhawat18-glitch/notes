@@ -233,6 +233,12 @@ To excel in 2026 examinations, candidates must master both the foundational **20
 > **Why the Switch to Market Price Matters**:
 > In years when government drastically cuts per-unit subsidies (e.g., eliminating fuel subsidies) or increases indirect tax collections (e.g., GST buoyancy), **$\text{Net Product Taxes}$ rise sharply**. As a result, **$\text{GDP at Market Price}$ grows faster than $\text{GVA at Basic Price}$**. Conversely, if the government increases food and fertilizer subsidies, GDP growth will appear lower than underlying GVA growth.
 
+> **2026 National Accounts Methodological Update (MoSPI)**:  
+> • **GDP Base Year Remains 2022–23**: Does *not* constitute a new GDP base-year revision mid-series; the constant-price anchor remains fixed at **2022–23** while the methodological input layer is refined.  
+> • **Producer Price Input (PPI Replaces WPI)**: The **Producer Price Index (PPI)** replaces WPI as the relevant producer-price input/deflator where applicable in National Accounts & GVA estimation. WPI is *not* abolished; it continues as an independent commodity index.  
+> • **Synchronized Series Baselines**: Both **PPI** and the **Index of Industrial Production (IIP)** operate on synchronized **2022–23** base years.  
+> • **Enhanced Data Architecture**: Private consumption anchored to **HCES 2022–23**; corporate inputs draw on real-time **MCA-21 + GSTN** filings.
+
 ---
 
 ## 2.6 Price Adjustments: Nominal GDP, Real GDP & The GDP Deflator

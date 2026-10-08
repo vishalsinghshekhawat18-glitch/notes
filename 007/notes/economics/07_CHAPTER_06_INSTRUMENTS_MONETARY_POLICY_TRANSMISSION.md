@@ -208,21 +208,25 @@ For decades, the fatal flaw of Indian monetary policy was **sluggish monetary tr
 
 ---
 
-### The External Benchmark Lending Rate (EBLR) Revolution (October 1, 2019)
+### The External Benchmark Lending Rate (EBLR) Framework
 
-Faced with chronic transmission bottlenecks, the RBI mandated that effective **October 1, 2019**, all scheduled commercial banks must link **all new floating-rate personal loans (home, auto) and floating-rate loans to Micro and Small Enterprises (MSEs)** to an **External Benchmark**.
+Faced with chronic transmission bottlenecks under internal cost regimes (PLR, BPLR, Base Rate, MCLR), the RBI introduced the **External Benchmark Lending Rate (EBLR)** system in two phased statutory tranches:
 
-#### Eligible External Benchmarks Permitted by RBI:
-1. **The Reserve Bank of India’s Policy Repo Rate** (Adopted by >90% of banks).
-2. **Government of India 91-Day Treasury Bill yield** (FBIL benchmark).
-3. **Government of India 182-Day Treasury Bill yield** (FBIL benchmark).
+#### EBLR IMPLEMENTATION TIMELINE:
+* **1 October 2019**: Mandatory for all new floating-rate **personal/retail loans** (housing, auto, personal) and all new floating-rate loans to **Micro and Small Enterprises (MSEs)** extended by Scheduled Commercial Banks.
+* **1 April 2020**: Extended mandatorily to all new floating-rate loans sanctioned to **Medium Enterprises**.
+
+#### Permitted External Benchmarks Recognised by RBI:
+1. **The Reserve Bank of India’s Policy Repo Rate** (selected by >90% of commercial banks).
+2. **Government of India 91-Day Treasury Bill yield** (3-month T-Bill, published by FBIL).
+3. **Government of India 182-Day Treasury Bill yield** (6-month T-Bill, published by FBIL).
 4. Any other benchmark market interest rate published by Financial Benchmarks India Pvt. Ltd. (FBIL).
 
-#### Mandatory Rules Under EBLR:
-* **Internal Benchmarking Barred**: Banks can no longer use internal cost formulations (like MCLR or Base Rate) for floating personal and MSE loans.
+#### Mandatory Operational Rules Under EBLR:
+* **Internal Benchmarking Barred**: Banks are legally prohibited from applying internal cost formulations (MCLR or Base Rate) to floating-rate retail, MSE, and Medium Enterprise loans.
 * **Reset Frequency**: The interest rate under EBLR must be reset **at least once every three months**.
-* **Transparent Spread**: The bank’s credit risk spread over the external benchmark is determined at loan inception and **cannot be altered during the loan tenure** unless the borrower’s credit score deteriorates significantly.
-* **Transmission Impact**: **Near-Instantaneous Transmission**. When the MPC cuts the Repo rate by 50 bps on Thursday, EMIs on home loans across India drop automatically on the next quarterly reset date.
+* **Fixed Margin Spread**: The credit risk spread determined at loan inception cannot be altered during the loan tenure unless the borrower's credit assessment deteriorates or operating costs shift in terms of the pre-agreed contract terms.
+* **Transmission Impact**: Achieves **faster and more direct transmission relative to internal benchmarks**. When the MPC cuts the Repo rate by 50 bps, floating rates adjust on the next quarterly reset date rather than lagging across 12-month internal deposit repricing cycles.
 
 ---
 
@@ -285,8 +289,8 @@ Faced with chronic transmission bottlenecks, the RBI mandated that effective **O
   * Operation Twist: Buy long-term + Sell short-term $\implies$ Net liquidity neutral; flattens yield curve.
   * MSS: Special bonds to sterilize massive foreign capital inflows.
 * **Transmission Evolution**:
-  * PLR → BPLR → Base Rate → MCLR → **EBLR (Oct 2019)**.
-  * EBLR: All floating retail/MSE loans tied to external benchmark (Repo/T-Bills); reset every 3 months $\implies$ **Instant transmission**.
+  * PLR → BPLR → Base Rate → MCLR → **EBLR** (Phased: 1 Oct 2019 for Retail/MSE loans; 1 Apr 2020 for Medium Enterprises).
+  * EBLR: All floating retail, MSE, and Medium Enterprise loans tied to external benchmark (Repo/T-Bills); reset at least every 3 months $\implies$ **Faster and more direct transmission relative to internal benchmarks**.
 
 ---
 
@@ -311,8 +315,8 @@ Faced with chronic transmission bottlenecks, the RBI mandated that effective **O
 <details>
 <summary>View Rigorous Causal Answer</summary>
 1. <strong>Retail Home-Buyer (EBLR Loan)</strong>:
-   - <em>Transmission Speed</em>: <strong>Immediate / Fast</strong>.
-   - Under RBI master directions, all EBLR loans are pegged directly to an external benchmark (the Repo Rate) and must be statutorily reset at least once every three months. On the next quarterly reset date, the borrower's home-loan interest rate will automatically and symmetrically fall by the full 50 basis points, instantly lowering their monthly EMI or reducing loan tenure.<br/>
+   - <em>Transmission Speed</em>: <strong>Faster and more direct transmission relative to internal benchmarks</strong>.
+   - Under RBI master directions, all EBLR loans are pegged directly to an external benchmark (the Repo Rate) and must be statutorily reset at least once every three months. On the next quarterly reset date, the borrower's home-loan interest rate will automatically and symmetrically fall by the full 50 basis points, lowering their monthly EMI or reducing loan tenure.<br/>
 2. <strong>Corporate Firm (MCLR Loan)</strong>:
    - <em>Transmission Speed</em>: <strong>Delayed / Sluggish</strong>.
    - The Marginal Cost of Funds based Lending Rate (MCLR) depends on the bank's internal cost of deposits. Commercial banks cannot instantly lower fixed deposit rates on existing contracted deposits. Furthermore, MCLR loans carry an annual reset clause (1-year reset). The corporate borrower will not see their loan rate fall until their specific 1-year reset anniversary arrives, and even then, the cut will only reflect the portion of deposit rate reductions the bank actually achieved internally.

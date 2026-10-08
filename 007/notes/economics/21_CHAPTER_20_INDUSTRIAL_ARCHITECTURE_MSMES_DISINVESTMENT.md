@@ -286,23 +286,33 @@ The **Department of Investment and Public Asset Management (DIPAM)** under the M
 
 ---
 
-### The New Public Sector Enterprise (PSE) Policy (Union Budget 2021)
-Establishes a radical strategic retreat of the State from commercial enterprise:
+### Public Sector Reservation vs. 2021 New PSE Strategic Sectors Policy
+
+A crucial examination distinction exists between **Exclusive Statutory Reservation** and the **2021 New PSE Policy**:
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Sector Classification           │ Sovereign Policy Mandate                                    │
+│ Domain                          │ Institutional Scope & Sovereign Rule                        │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **1. Strategic Sectors**        │ Only a **bare minimum presence of CPSEs** will be retained  │
-│    (Covering 4 Broad Areas):    │ (maximum 1 to 4 CPSEs per sector); the remaining CPSEs will │
-│    • Atomic Energy, Space, Def  │ be privatized, merged, or closed down!                      │
-│    • Transport & Telecomm       │                                                             │
-│    • Power, Petroleum, Coal, Min│                                                             │
-│    • Banking, Insurance, Fin Serv                                                             │
+│ **Exclusively Reserved**        │ • **Only TWO Areas Reserved for Public Sector**:             │
+│ **Public-Sector Areas**         │   1. **Atomic Energy** (core nuclear fission & fuel cycle). │
+│ *(Statutory Monopolies)*        │   2. **Railway Operations** (core track & traffic control;   │
+│                                 │      commercial manufacturing and freight open to PPP).     │
+│                                 │ • Private enterprise is legally excluded from entry.        │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **2. Non-Strategic Sectors**    │ **All CPSEs will be privatized or completely closed down**! │
-│    (All other sectors: hotels,  │ The State will have zero commercial presence in non-        │
-│     textiles, consumer goods)   │ strategic business lines.                                   │
+│ **2021 New PSE Policy**         │ • **Four Broad Strategic Sector Groups**:                   │
+│ **(Strategic Sector Groups)**   │   1. *Atomic Energy, Space & Defence*                       │
+│                                 │   2. *Transport & Telecommunications*                       │
+│                                 │   3. *Power, Petroleum, Coal & other minerals*              │
+│                                 │   4. *Banking, Insurance & Financial Services*              │
+│                                 │ • **Critical Principle**: "Strategic Sector" does **NOT**  │
+│                                 │   mean exclusive state monopoly! Private firms operate      │
+│                                 │   freely alongside; the policy mandates only that a         │
+│                                 │   **bare-minimum public presence (max 1 to 4 CPSEs)** is   │
+│                                 │   retained, while excess CPSEs are privatized/merged.       │
+├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ **Non-Strategic Sectors**       │ • **All CPSEs will be privatized or completely closed down**!│
+│                                 │   The State exits commercial non-strategic lines completely.│
 └─────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
@@ -319,35 +329,39 @@ Establishes a radical strategic retreat of the State from commercial enterprise:
 
 ## 20.5 Industrial Performance Measurement: Dual-Layer IIP & Core Industries Architecture
 
-The **Index of Industrial Production (IIP)** measures short-term changes in the volume of production of a basket of industrial products, compiled and published monthly by the **National Statistical Office (NSO)**, MoSPI.
+The **Index of Industrial Production (IIP)** measures short-term volume changes of industrial output, compiled and published monthly by the **National Statistical Office (NSO)**, MoSPI.
 
-### Dual-Layer IIP Framework: Historical Base 2011–12 vs Current 2026 Base 2022–23
+### 1. Index of Industrial Production (IIP) — Dual-Layer Framework:
+* **IIP — Historical Benchmark (Base 2011–12 Series)**: Covers Mining (14.37%), Manufacturing (77.63%), and Electricity (7.99%). Essential for evaluating historical past-year examination questions.
+* **IIP — Current 2022–23 Series**: Operative macroeconomic volume series capturing modern digital electronics, EV systems, renewable power equipment, and expanded capital goods items.
 
 ```
 ┌─────────────────────────────────┬───────────────────────────────────────────┬───────────────────────────────────────────┐
-│ Metric / Component              │ [HISTORICAL BENCHMARK: Base 2011–12]      │ [CURRENT 2026 TRANSITION: Base 2022–23]   │
+│ Metric / Component              │ [HISTORICAL BENCHMARK: Base 2011–12]      │ [CURRENT OPERATIVE: Base 2022–23 Series]  │
 ├─────────────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
-│ **Base Year**                   │ **2011–12 = 100**                         │ **2022–23 = 100** (MoSPI Revision)        │
+│ **IIP Base Year**               │ **2011–12 = 100**                         │ **2022–23 = 100** (MoSPI operative series)│
 ├─────────────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
-│ **Broad Sectoral Breakdown**    │ • Manufacturing: **77.63%**               │ Updated basket capturing modern digital   │
-│                                 │ • Mining: **14.37%**                      │ electronics, renewable energy machinery,  │
-│                                 │ • Electricity: **7.99%**                  │ and expanded capital goods items.         │
+│ **Broad Sectoral Breakdown**    │ • Manufacturing: **77.63%**               │ Updated physical volume basket capturing  │
+│                                 │ • Mining: **14.37%**                      │ modern digital electronics, renewable     │
+│                                 │ • Electricity: **7.99%**                  │ energy machinery, and semiconductors.     │
 ├─────────────────────────────────┼───────────────────────────────────────────┼───────────────────────────────────────────┤
-│ **Core Industries Basket**      │ **Eight Core Industries** (**40.27%**)    │ **Nine Core Industries** (Expanded)       │
-│                                 │ (Refinery, Power, Steel, Coal, Crude Oil, │ Added **Iron Ore** as a distinct core     │
-│                                 │ Natural Gas, Cement, Fertilizers)         │ mining category; revised weighting.       │
+│ **Core Industries Basket**      │ **Eight Core Industries** (**40.27%**)    │ **Nine Core Industries** (Expanded Series)│
+│                                 │ (Refinery, Power, Steel, Coal, Crude Oil, │ Added **Iron Ore** as distinct core mining│
+│                                 │ Natural Gas, Cement, Fertilizers)         │ category; revised weighting structure.    │
 └─────────────────────────────────┴───────────────────────────────────────────┴───────────────────────────────────────────┘
 ```
 
 ---
 
-### Core Industries Architecture: Current 2026 Framework vs. Historical Benchmark
+### 2. Index of Core Industries: Nine Industries (Current 2022–23) vs. Eight Industries (Historical 2011–12)
 
-#### 1. Current 2026 Framework (Base 2022–23 Series): The Nine Core Industries
-Under the updated 2022–23 macroeconomic series, DPIIT expands the core infrastructure basket from eight to **Nine Core Industries** by formally incorporating **Iron Ore** as an independent core mining category. This structural revision reflects the deep integration of domestic steel value chains and ensures independent high-frequency monitoring of essential metallic extraction alongside traditional energy and construction inputs.
+The **Index of Core Industries** is compiled monthly by the Office of the Economic Adviser, DPIIT. It monitors foundational infrastructure goods:
 
-#### 2. Historical Benchmark Series (Base 2011–12 Series — Tested in Older PYQs): The Eight Core Industries
-The Eight Core Industries represent basic infrastructure foundation goods and account for **40.27% of the total weight in the 2011–12 IIP basket**. Compiled monthly by the Office of the Economic Adviser, DPIIT:
+#### A. Index of Core Industries — Current 2022–23 Nine-Industry Series:
+Under the updated 2022–23 macroeconomic series, DPIIT expands the core infrastructure basket from eight to **Nine Core Industries** by formally incorporating **Iron Ore** as an independent core mining category. This structural addition reflects the deep backward linkages of domestic steel manufacturing and ensures independent monthly tracking of metallic mineral extraction alongside traditional energy and construction inputs.
+
+#### B. Index of Core Industries — Historical Base 2011–12 Series (Eight Core Industries):
+Accounted for **40.27% of total weight in the 2011–12 IIP basket**:
 
 ```
 ┌─────────────────────────────────┬────────────────┬────────────────────────────────────────────┐
@@ -366,11 +380,7 @@ The Eight Core Industries represent basic infrastructure foundation goods and ac
 └─────────────────────────────────┴────────────────┴────────────────────────────────────────────┘
 ```
 
-> **High-Yield Exam Trap**: While Steel feels like the heaviest industrial sector, **Petroleum Refinery Products (28.04%)** commands the highest weight in the Eight Core basket, while **Fertilizers (2.63%)** is the smallest. In the Current 2026 series, Iron Ore is added as the 9th Core Industry.
-
-> [!NOTE]
-> **2026 METHODOLOGICAL UPDATE: IIP & CORE INDUSTRIES MONITORING**  
-> Under the live statistical framework, the **Base 2022–23 IIP architecture** represents the current operative series, capturing modern digitized capital goods, renewable machinery, and semiconductors. The formal addition of **Iron Ore** as the 9th Core Industry ensures independent high-frequency monitoring of metallic extraction alongside fuel minerals. All subsequent 2026 indices build upon this current foundation, while candidates must continue to apply the **Historical Base 2011–12 parameters (8 Core Industries = 40.27%)** when answering older past-year questions.
+> **High-Yield Exam Trap**: In the Eight Core basket, **Petroleum Refinery Products (28.04%)** commands the highest weight, while **Fertilizers (2.63%)** is the smallest. The formal addition of Iron Ore belongs specifically to the **Index of Core Industries — current 2022–23 nine-industry series**. Do not use ambiguous phrases like "nine-core IIP".
 
 ---
 
@@ -437,15 +447,19 @@ To overcome India's historical manufacturing disabilities (poor logistics, expen
 │                                 │ turnover ceiling calculation. Exporting does not push a firm│
 │                                 │ out of MSME categorization under either series!             │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Public Sector Reserved Sectors**│ **TRAP**: Only **TWO sectors** remain reserved exclusively│
-│                                 │ for the Public Sector: (1) **Atomic Energy**, and          │
-│                                 │ (2) **Railway Operations**. Defense equipment is open to    │
-│                                 │ 100% private and 74% automatic FDI!                         │
+│ **Public Sector Reservation vs Strategic Sectors**│ **TRAP**: Distinguish **Exclusively Reserved Areas**   │
+│                                 │ (Only TWO: Atomic Energy & Railway Operations—statutory     │
+│                                 │ monopoly) from the **2021 New PSE Policy's 4 Strategic      │
+│                                 │ Sector Groups**. Strategic does **NOT** mean state monopoly;│
+│                                 │ private firms operate freely, and the state retains only a  │
+│                                 │ bare minimum (max 1 to 4 CPSEs) while privatizing excess!   │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Eight Core Industries Order** │ **TRAP**: In the 2011–12 series, the largest core industry   │
-│                                 │ is **Refinery Products (28.04%)**, NOT Electricity or Steel!│
-│                                 │ The smallest is **Fertilizers (2.63%)**. Note 2026 series   │
-│                                 │ revision adds Iron Ore (9 core industries total).           │
+│ **Core Industries Basket Architecture**│ **TRAP**: Distinguish **IIP** (NSO/MoSPI) from the   │
+│                                 │ **Index of Core Industries** (DPIIT/Office of Econ Adviser).│
+│                                 │ Historical Base 2011–12 = Eight Core Industries (40.27% of  │
+│                                 │ IIP; Refinery 28.04% top, Fertilizer 2.63% bottom). Current │
+│                                 │ Base 2022–23 Series = Nine Core Industries (Iron Ore added).│
+│                                 │ Never conflate them as a 'nine-core IIP'.                   │
 ├─────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **NMP Ownership Transfer**      │ **TRAP**: Asset Monetization under NMP is **NOT             │
 │                                 │ Privatization**! Government retains 100% asset ownership;   │
@@ -488,15 +502,18 @@ ANSWER:
 ```
 
 ```
-CARD 4: Detail the sectoral composition of the Index of Industrial Production (IIP) and list the top 3 and bottom 1 industries in the Core Industries basket.
+CARD 4: Detail the sectoral composition of the Index of Industrial Production (IIP) and distinguish the Index of Core Industries across historical and current series.
 ANSWER:
-1. IIP Historical Benchmark (Base 2011–12):
-   - Sectoral Weights: Manufacturing (77.63%), Mining (14.37%), Electricity (7.99%).
-   - Eight Core Industries (40.27% of IIP):
+1. Index of Industrial Production (IIP — MoSPI / NSO):
+   - Base 2011–12: Manufacturing (77.63%), Mining (14.37%), Electricity (7.99%).
+   - Base 2022–23 Operative Series: Volume basket updated for electronics, renewable equipment, and EV hardware.
+2. Index of Core Industries (Office of Economic Adviser, DPIIT):
+   - Historical Base 2011–12 (Eight Core Industries, 40.27% of IIP):
      * Top 3: (1) Refinery Products (28.04%), (2) Electricity (19.85%), (3) Steel (17.92%).
      * Bottom 1: Fertilizers (2.63%).
-2. Current 2026 Transition (Base 2022–23):
-   - Expands to Nine Core Industries by incorporating Iron Ore as a distinct core mining series.
+   - Current Base 2022–23 Series (Nine Core Industries):
+     * Formally incorporates Iron Ore as a 9th distinct core mining series.
+   - Core Rule: Published by DPIIT as a distinct monthly index; do not call it a "nine-core IIP".
 ```
 
 ```

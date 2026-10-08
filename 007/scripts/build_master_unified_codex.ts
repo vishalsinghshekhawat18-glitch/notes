@@ -573,7 +573,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="leader-dots"></span>
         <span class="chapter-locator">p. 200</span>
       </div>
-      <div class="chapter-subtopics">60-Second Skeletons (Ch 01-27) • 10 Comparative Matrices • 35 Traps • 72 Recall Cards • Multi-Exam PYQ Matrix</div>
+      <div class="chapter-subtopics">60-Second Skeletons (Ch 01–25 + Ch 27) • 10 Comparative Matrices • 35 Traps • 72 Recall Cards • Multi-Exam PYQ Matrix</div>
     </div>
 
     <!-- PART X -->

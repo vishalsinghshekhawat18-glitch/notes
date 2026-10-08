@@ -274,28 +274,38 @@ The RBI places designated banks into 5 systemic risk buckets, requiring them to 
 
 ## 7.6 The Prompt Corrective Action (PCA) Framework
 
-Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Action (PCA)** framework is the RBI’s structured early-intervention mechanism to nurse financially fragile banks back to health before they become insolvent.
+Introduced in 2002 and modernized under the **RBI Revised Prompt Corrective Action (PCA) Framework for Scheduled Commercial Banks** (issued 2 November 2021, effective 1 January 2022), PCA is the Reserve Bank’s structured early-intervention regime to nurse financially fragile banks back to health before insolvency threatens depositor funds.
 
-### The Three Operational Trigger Metrics:
+> **The Central Conceptual Principle**:  
+> *PCA is invoked when specified risk thresholds under the RBI PCA framework are breached; the thresholds are not identical to simply being below the ordinary minimum regulatory capital requirement.*
 
-| Tracked Financial Metric | Healthy Benchmark | Risk Threshold 1 Trigger |
-| :--- | :--- | :--- |
-| **1. Capital Adequacy (CRAR / CET1)** | $\text{CRAR} \ge 9.0\%$, $\text{CET1} \ge 5.5\%$ | $\text{CRAR} < 9.0\%$ or $\text{CET1} < 5.5\%$ |
-| **2. Asset Quality (Net NPA Ratio)** | $\text{Net NPA} < 6.0\%$ | **$\text{Net NPA} \ge 6.0\%$** |
-| **3. Leverage Ratio (Tier 1)** | $\ge 3.5\%$ | $< 3.5\%$ |
+### 1. Monitored Areas & Indicator Matrix
+The revised framework focuses strictly on three objective parameters: **Capital**, **Asset Quality**, and **Leverage**. *(Note: Return on Assets (RoA) was officially removed as a standalone trigger parameter in the 2021 revision)*.
 
-*(Note: Return on Assets (RoA) was dropped as a standalone trigger metric in the 2021 revision to focus strictly on capital, asset quality, and leverage).*
+| Parameter | Tracked Indicator | Minimum Regulatory Baseline | Risk Threshold 1 | Risk Threshold 2 | Risk Threshold 3 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Capital** | **CRAR** (Total Capital) | **11.50%** (9.0% min + 2.5% CCB) | Up to 250 bps below baseline (9.0% to < 11.50%) | > 250 to 400 bps below baseline (7.50% to < 9.0%) | > 400 bps below baseline (< 7.50%) |
+| **Capital** | **CET1 Ratio** | **8.00%** (5.5% min + 2.5% CCB) | Up to 162.5 bps below baseline (6.375% to < 8.0%) | > 162.5 to 312.5 bps below baseline (4.875% to < 6.375%) | > 312.5 bps below baseline (< 4.875%) |
+| **Asset Quality** | **Net NPA Ratio** | $\text{Net NPA} < 6.00\%$ | **$\ge 6.00\%$ but $< 9.00\%$** | **$\ge 9.00\%$ but $< 12.00\%$** | **$\ge 12.00\%$** |
+| **Leverage** | **Tier 1 Leverage Ratio** | **3.50%** (4.0% for D-SIBs) | Up to 50 bps below minimum (3.00% to < 3.50%; D-SIBs: 3.5% to < 4.0%) | > 50 to 100 bps below minimum (2.50% to < 3.00%; D-SIBs: 3.0% to < 3.5%) | > 100 bps below minimum (< 2.50%; D-SIBs: < 3.00%) |
 
-### Statutory Restrictions Imposed on a PCA Bank:
-* **Mandatory Restrictions**:
-  1. Complete bar on dividend distribution and remittance of profits to shareholders.
-  2. Promoters/Owners mandated to infuse fresh equity capital.
-  3. Total restrictions on branch expansion (domestic and overseas).
-  4. Cap on executive management compensation and director bonuses.
-* **Discretionary Restrictions**:
-  1. Ban on lending to high-risk, low-rated corporate sectors.
-  2. Aggressive reduction in loan concentration and high-cost wholesale deposits.
-  3. Mandatory reduction of operational overhead costs.
+*Breach of **any single indicator** across Capital, Asset Quality, or Leverage triggers PCA invocation at the corresponding threshold level.*
+
+### 2. Mandatory vs. Discretionary Corrective Actions
+
+#### A. Mandatory Supervisory Restrictions:
+* **Risk Threshold 1**:
+  1. **Dividend Bar**: Absolute restriction on declaration or distribution of dividends and remittance of profits abroad.
+  2. **Capital Infusion**: Promoters, owners, or sovereign shareholders mandated to infuse fresh equity capital.
+* **Risk Threshold 2 (In addition to Threshold 1)**:
+  3. **Branch Expansion Curbs**: Strict statutory bar on expansion of branch network, both domestic and overseas.
+* **Risk Threshold 3 (In addition to Thresholds 1 and 2)**:
+  4. **Capex Restrictions**: Appropriate restrictions on capital expenditure (other than technological upgradation within pre-approved regulatory limits).
+
+#### B. Discretionary Supervisory Actions (Pillars of RBI Oversight):
+* **Credit Risk Containment**: Mandated reduction in credit risk, curbs on sanctioning loans to unrated or high-risk sectors, and reduction of loan concentration and costly wholesale deposits.
+* **Cost & Overhead Control**: Containment of administrative and operational overheads; rationalization of executive perquisites.
+* **Governance & Resolution**: Restrictions on directors' sitting fees and variable compensation of managerial personnel; removal of key management personnel; Board supersession; or initiation of restructuring, amalgamation, or merger under Section 45 of the Banking Regulation Act, 1949.
 
 ---
 
@@ -340,6 +350,11 @@ Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Acti
 > *Exam Trap*: "An individual can open a 5-year Fixed Deposit of ₹1,00,000 in India Post Payments Bank."
 > *Correction*: **FALSE.** Payments Banks can accept **Demand Deposits ONLY** (Savings and Current accounts). They are legally barred from accepting Time (Term/Fixed) Deposits. Furthermore, their demand deposits are capped at **₹2,00,000 per customer**.
 
+> [!WARNING]
+> **TRAP 4: The Regulatory Minimum vs. PCA Trigger Fallacy**
+> *Exam Trap*: "A commercial bank enters the RBI Prompt Corrective Action (PCA) framework only when its CRAR falls below the minimum regulatory capital requirement of 9.0%."
+> *Correction*: **FALSE.** Under the RBI Revised PCA Framework (November 2021), PCA is invoked when specified risk thresholds are breached across Capital (CRAR/CET1), Asset Quality (Net NPA), or Leverage. For Capital, Risk Threshold 1 triggers when CRAR falls up to 250 bps below the regulatory minimum baseline (11.50% including CCB), meaning a bank with CRAR between 9.0% and 11.5% enters Threshold 1! Furthermore, a bank with a pristine 13.0% CRAR will STILL enter PCA if its Net NPA ratio reaches or exceeds 6.00%.
+
 ---
 
 ## 7.9 The 60-Second Memory Skeleton (Rapid Recall)
@@ -355,7 +370,7 @@ Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Acti
   * Tier 2 = Gone-concern (Subordinated debt/provisions).
   * RBI Mandate: **CET1 = 5.5%**, **Tier 1 = 7.0%**, **CRAR = 9.0%** (Global = 8%), **CCB = 2.5%** $\implies$ **Total = 11.5%**.
 * **D-SIBs ("Too Big to Fail")**: Assets > 2% of GDP $\implies$ **SBI, HDFC Bank, ICICI Bank** (maintain extra CET1 buffer).
-* **PCA Framework (2021)**: Triggers = CRAR (<9%), Net NPA ($\ge 6\%$), Leverage (<3.5%). Bar on dividends, branches, bonuses.
+* **PCA Framework (2021 Revision)**: Risk Thresholds across Capital (CRAR/CET1 vs 11.5%/8.0% baseline), Asset Quality (Net NPA $\ge 6\%$), and Leverage (Tier 1 Leverage $< 3.5\%$). Threshold 1: Mandates equity infusion & bars dividends; Threshold 2: Bars branch expansion; Threshold 3: Curbs capex. RoA officially removed.
 
 ---
 
@@ -392,14 +407,14 @@ Introduced in 2002 and modernized in November 2021, the **Prompt Corrective Acti
    - Of this, at least $8.0\%$ ($5.5\% \text{ CET1} + 2.5\% \text{ CCB}$) must be held in Common Equity Tier 1 (CET1) capital ($8.0\% \times ₹850 = ₹68.0 \text{ Crore}$).
 </details>
 
-#### Card 3 (Prompt Corrective Action Triggers)
+#### Card 3 (Prompt Corrective Action Multi-Threshold Mechanics)
 **Question**: Bank Beta reports a Capital to Risk-Weighted Assets Ratio (CRAR) of 11.0% and a Leverage Ratio of 4.2%, but its Net Non-Performing Asset (Net NPA) ratio climbs to 7.2%. Is Bank Beta liable to be placed under the RBI's Prompt Corrective Action (PCA) framework? If placed under PCA, can Bank Beta distribute dividends to its equity shareholders or open new overseas branches?
 <details>
 <summary>View Rigorous Causal Answer</summary>
-1. <strong>PCA Liability</strong>:
-   - <strong>YES, Bank Beta will be placed under the PCA framework.</strong>
-   - <em>Statutory Trigger</em>: Under the revised 2021 PCA Framework, breaching any single indicator triggers PCA. While Bank Beta's capital ($\text{CRAR} = 11.0\% \ge 9.0\%$) and leverage ($\text{Leverage} = 4.2\% \ge 3.5\%$) are healthy, its <strong>Net NPA ratio of 7.2% breaches the Risk Threshold 1 trigger ($\text{Net NPA} \ge 6.0\%$)</strong>.<br/>
-2. <strong>Mandatory Restrictions</strong>:
-   - <em>Dividend Distribution</em>: <strong>STRICTLY BARRED</strong>. Under mandatory PCA restrictions, a bank is completely prohibited from declaring or distributing dividends to equity shareholders or remitting profits abroad.
-   - <em>Branch Expansion</em>: <strong>STRICTLY BARRED</strong>. The bank faces an absolute prohibition on expanding its branch network, both domestic and overseas, until its asset quality normalizes below the 6.0% net NPA threshold.
+1. <strong>PCA Liability & Threshold Classification</strong>:
+   - <strong>YES, Bank Beta will be placed under the PCA framework at Risk Threshold 1.</strong>
+   - <em>Statutory Trigger</em>: Under the RBI Revised PCA Framework (effective 2022), PCA is invoked upon breach of any single indicator. Here, Bank Beta's <strong>Net NPA ratio of 7.2% breaches Risk Threshold 1 ($\text{Net NPA} \ge 6.00\%$ but $< 9.00\%$)</strong>. Furthermore, its CRAR of 11.00% is 50 bps below the regulatory minimum baseline (11.50% including CCB), also falling within Capital Risk Threshold 1 (up to 250 bps below baseline).<br/>
+2. <strong>Mandatory Supervisory Restrictions Under Risk Threshold 1</strong>:
+   - <em>Dividend Distribution</em>: <strong>MANDATORILY BARRED</strong>. Under Risk Threshold 1, the bank faces an absolute prohibition on declaring or distributing dividends to equity shareholders and remitting profits abroad; shareholders/promoters must infuse fresh equity capital.
+   - <em>Branch Expansion</em>: <strong>NOT MANDATORILY BARRED UNDER THRESHOLD 1</strong>. Statutory prohibition on domestic and overseas branch expansion becomes a mandatory restriction only under <strong>Risk Threshold 2</strong> ($\text{Net NPA} \ge 9.00\%$, or CRAR $> 250$ to 400 bps below baseline). However, the RBI retains discretionary supervisory authority to restrict branch expansion under Threshold 1 if deemed necessary for capital conservation.
 </details>

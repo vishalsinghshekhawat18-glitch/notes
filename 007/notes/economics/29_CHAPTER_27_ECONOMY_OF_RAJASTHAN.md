@@ -296,8 +296,10 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 │                                 │ Empowerment (SJED)         │   **₹1,500/month** (0–6 years); **₹2,500/month** (6–18 yrs) │
 │                                 │                            │   plus ₹2,000 annual clothing and educational allowance.    │
 ├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ **Mukhyamantri Vridhjan & Ekal**│ Social Justice &           │ • Monthly pension (**minimum ₹1,150/month**) with statutory │
-│ **Nari Samman Pension**         │ Empowerment (SJED)         │   **15% automatic annual indexation** (mandated by Act).    │
+│ **Mukhyamantri Vridhjan & Ekal**│ Social Justice &           │ • Monthly pension: **₹1,300/month** (SJED Order 18 Feb 2026,│
+│ **Nari Samman Pension**         │ Empowerment (SJED)         │   effective 1 Jan 2026); enhanced in Budget 2026–27 (BE)    │
+│                                 │                            │   to **₹1,450/month**. Mandates **15% annual indexation**   │
+│                                 │                            │   (Act 2023). [Historical: ₹1,000 in 2023; ₹1,150 in 2024].│
 ├─────────────────────────────────┼────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ **Mukhyamantri Kanyadan**       │ Social Justice &           │ • Marriage grant: **₹31,000 to ₹51,000** for girls from     │
 │ **(Hathleva) Yojana**           │ Empowerment (SJED)         │   BPL, SC, ST, and minority families upon reaching 18 years.│
@@ -345,7 +347,7 @@ Blessed with $>325$ clear sunny days annually and high solar insolation ($5.72 \
 | **Industrial Ecosystem** | Apex body for land acquisition, industrial parks, and SEZs. | Special Investment Regions (Bhiwadi, Neemrana, Boranada) | RIICO (Est. 1969/1980) / RIPS 2024 | DMIC freight corridor spans ~38% of total route through Rajasthan; MSME Act gives 3–5 yr exemption. |
 | **State Fiscal Federalism** | Horizontal and vertical fiscal devolution under State Constitution. | Original: **6.75% of State Tax** (75.1% PRI : 24.9% ULB)<br>Operational ATR: **7.0%** (73.2% PRI : 26.8% ULB) | 6th State Finance Commission (Pradyumn Singh) | Inside PRIs, devolution is 75% Gram Panchayat, 20% Panchayat Samiti, 5% Zila Parishad. Award 2020–25; 7th SFC interim layer. |
 | **Demography & Literacy** | Decadal population growth, spatial urbanization, and educational gap. | Pop: **6.85 Cr** (2011)<br>Urban: **24.87%**; Sex Ratio: **928** | Census of India / ORGI | Female literacy (52.12%) is among lowest in India; Rural female literacy is only 45.8%. |
-| **Social Security Safety Net** | Statutory right to guaranteed minimum income and welfare pensions. | Minimum Pension: **₹1,150/mo** (+15% automatic annual indexation) | Rajasthan Minimum Guaranteed Income Act, 2023 | Guarantees 125 days wage employment (IRGY-Urban) and statutory right to social security pension. |
+| **Social Security Safety Net** | Statutory right to guaranteed minimum income and welfare pensions. | Current: **₹1,300/mo** (SJED Order 18 Feb 2026, eff. 1 Jan 2026); Budget 2026–27 BE: **₹1,450/mo**.<br>Historical: ₹1,150 (2024); ₹1,000 base (2023). | Raj Min Guaranteed Income Act, 2023 / SJED Order 18 Feb 2026 | Statutory right to 15% annual indexation; guarantees 125 days wage employment (IRGY-Urban) and social security pension. |
 
 ---
 
