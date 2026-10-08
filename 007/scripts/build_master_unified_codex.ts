@@ -9,32 +9,32 @@ import { CHAPTERS_REGISTRY, transformChapterMarkdown, generateChapterPrintCss, C
 
 const EXACT_TOC_MAPPING = [
   { ch: 1, start: 1, end: 7, pages: 7 },
-  { ch: 2, start: 8, end: 15, pages: 8 },
-  { ch: 3, start: 16, end: 23, pages: 8 },
-  { ch: 4, start: 24, end: 29, pages: 6 },
-  { ch: 5, start: 30, end: 37, pages: 8 },
-  { ch: 6, start: 38, end: 43, pages: 6 },
-  { ch: 7, start: 44, end: 52, pages: 9 },
-  { ch: 8, start: 53, end: 57, pages: 5 },
-  { ch: 9, start: 58, end: 66, pages: 9 },
-  { ch: 10, start: 67, end: 74, pages: 8 },
-  { ch: 11, start: 75, end: 83, pages: 9 },
-  { ch: 12, start: 84, end: 89, pages: 6 },
-  { ch: 13, start: 90, end: 95, pages: 6 },
-  { ch: 14, start: 96, end: 102, pages: 7 },
-  { ch: 15, start: 103, end: 108, pages: 6 },
-  { ch: 16, start: 109, end: 111, pages: 3 },
-  { ch: 17, start: 112, end: 118, pages: 7 },
-  { ch: 18, start: 119, end: 125, pages: 7 },
-  { ch: 19, start: 126, end: 135, pages: 10 },
-  { ch: 20, start: 136, end: 144, pages: 9 },
-  { ch: 21, start: 145, end: 153, pages: 9 },
-  { ch: 22, start: 154, end: 160, pages: 7 },
-  { ch: 23, start: 161, end: 167, pages: 7 },
-  { ch: 24, start: 168, end: 172, pages: 5 },
-  { ch: 25, start: 173, end: 177, pages: 5 },
-  { ch: 26, start: 178, end: 197, pages: 20 },
-  { ch: 27, start: 198, end: 207, pages: 10 },
+  { ch: 2, start: 8, end: 16, pages: 9 },
+  { ch: 3, start: 17, end: 25, pages: 9 },
+  { ch: 4, start: 26, end: 31, pages: 6 },
+  { ch: 5, start: 32, end: 40, pages: 9 },
+  { ch: 6, start: 41, end: 47, pages: 7 },
+  { ch: 7, start: 48, end: 57, pages: 10 },
+  { ch: 8, start: 58, end: 63, pages: 6 },
+  { ch: 9, start: 64, end: 73, pages: 10 },
+  { ch: 10, start: 74, end: 82, pages: 9 },
+  { ch: 11, start: 83, end: 92, pages: 10 },
+  { ch: 12, start: 93, end: 98, pages: 6 },
+  { ch: 13, start: 99, end: 105, pages: 7 },
+  { ch: 14, start: 106, end: 113, pages: 8 },
+  { ch: 15, start: 114, end: 119, pages: 6 },
+  { ch: 16, start: 120, end: 123, pages: 4 },
+  { ch: 17, start: 124, end: 131, pages: 8 },
+  { ch: 18, start: 132, end: 139, pages: 8 },
+  { ch: 19, start: 140, end: 150, pages: 11 },
+  { ch: 20, start: 151, end: 161, pages: 11 },
+  { ch: 21, start: 162, end: 171, pages: 10 },
+  { ch: 22, start: 172, end: 179, pages: 8 },
+  { ch: 23, start: 180, end: 187, pages: 8 },
+  { ch: 24, start: 188, end: 193, pages: 6 },
+  { ch: 25, start: 194, end: 199, pages: 6 },
+  { ch: 26, start: 200, end: 221, pages: 22 },
+  { ch: 27, start: 222, end: 233, pages: 12 },
 ];
 
 export function buildTableOfContentsHtml(): string {
@@ -276,7 +276,7 @@ export function buildTableOfContentsHtml(): string {
         <small>Curricular Architecture • Shelf 007 Bastion</small>
         <h1>Table of Contents &amp; Master Syllabus</h1>
       </div>
-      <div class="meta-tag">27 Chapters • 207 Body Pages • 211 Total Pages</div>
+      <div class="meta-tag">27 Chapters • 233 Body Pages • 237 Total Pages</div>
     </div>
 
     <!-- PART I -->
@@ -307,7 +307,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 03</span>
         <span class="chapter-name">Growth, Capital Productivity &amp; Welfare Metrics</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 16</span>
+        <span class="chapter-locator">p. 17</span>
       </div>
       <div class="chapter-subtopics">Economic Growth vs. Development • HDI Geometric Mean • NITI Aayog 12-Indicator MPI • Green GDP</div>
     </div>
@@ -322,7 +322,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 04</span>
         <span class="chapter-name">Nature of Money, Liquidity Aggregates &amp; Creation</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 24</span>
+        <span class="chapter-locator">p. 26</span>
       </div>
       <div class="chapter-subtopics">RBI Act §33 Minimum Reserve System • M0 / M1 / M2 / M3 / M4 • Multiplier m=(1+c)/(c+r) • Fisher Identity</div>
     </div>
@@ -331,7 +331,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 05</span>
         <span class="chapter-name">The Reserve Bank of India &amp; Inflation Targeting</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 30</span>
+        <span class="chapter-locator">p. 32</span>
       </div>
       <div class="chapter-subtopics">Flexible Inflation Targeting (4% ± 2%) • MPC 6-Member Structure • §45ZN Failure • Bimal Jalan ECF</div>
     </div>
@@ -340,7 +340,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 06</span>
         <span class="chapter-name">Instruments of Monetary Policy &amp; Transmission Channels</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 38</span>
+        <span class="chapter-locator">p. 41</span>
       </div>
       <div class="chapter-subtopics">50 bps LAF Corridor (MSF ↔ Repo ↔ SDF) • CRR &amp; SLR • Open Market Operations • EBLR Transmission</div>
     </div>
@@ -355,7 +355,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 07</span>
         <span class="chapter-name">Indian Banking Architecture &amp; Capital Adequacy</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 44</span>
+        <span class="chapter-locator">p. 48</span>
       </div>
       <div class="chapter-subtopics">Scheduled Banks • Differentiated Banks (Payments vs SFB) • Basel III 11.5% CRAR • PCA Framework</div>
     </div>
@@ -364,7 +364,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 08</span>
         <span class="chapter-name">Non-Performing Assets (NPAs), IBC 2016 &amp; Bad Banks</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 53</span>
+        <span class="chapter-locator">p. 58</span>
       </div>
       <div class="chapter-subtopics">90-Day Overdue &amp; SMA 0/1/2 • IBC 2016 (66% CoC &amp; 330 Days) • Section 53 Waterfall • NARCL-IDRCL</div>
     </div>
@@ -373,7 +373,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 09</span>
         <span class="chapter-name">Financial Markets, G-Secs &amp; Capital Market Ecosystem</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 58</span>
+        <span class="chapter-locator">p. 64</span>
       </div>
       <div class="chapter-subtopics">Money Market (RBI) vs Capital Market (SEBI) • T-Bills (91/182/364D) • Bond Yields • Masala Bonds</div>
     </div>
@@ -388,7 +388,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 10</span>
         <span class="chapter-name">Budgetary Architecture: Revenue, Capital, Deficits &amp; FRBM</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 67</span>
+        <span class="chapter-locator">p. 74</span>
       </div>
       <div class="chapter-subtopics">Constitutional Funds (Articles 266 &amp; 267) • Fiscal Deficit • N.K. Singh 60% Debt • Union Budget 2026–27 Anchor (4.3%)</div>
     </div>
@@ -397,7 +397,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 11</span>
         <span class="chapter-name">Taxation Architecture in India: Direct Taxes &amp; GST</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 75</span>
+        <span class="chapter-locator">p. 83</span>
       </div>
       <div class="chapter-subtopics">Income-tax Act, 2025 (Effective 1 April 2026) • Rules 2026 • GST Council 75% Majority • ITC • Corporate Tax 22%</div>
     </div>
@@ -406,7 +406,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 12</span>
         <span class="chapter-name">Fiscal Federalism, Finance Commission &amp; Relations</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 84</span>
+        <span class="chapter-locator">p. 93</span>
       </div>
       <div class="chapter-subtopics">Article 270 Divisible Pool • 16th FC (2026–31, 41% Vertical) • Final Horizontal Formula (Income Dist 42.5%) • Article 293(3)</div>
     </div>
@@ -421,7 +421,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 13</span>
         <span class="chapter-name">Inflation: Mechanisms, Theories &amp; Indices (CPI vs WPI)</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 90</span>
+        <span class="chapter-locator">p. 99</span>
       </div>
       <div class="chapter-subtopics">Headline vs Core • CPI 2024 Series (358 Items, Food 36.75%) vs 2012 Base • FIT 4% ± 2% (2026–31) • WPI 697 Items • Phillips Curve</div>
     </div>
@@ -439,7 +439,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 14</span>
         <span class="chapter-name">Employment Dynamics, Periodic Labour Force Survey &amp; Types</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 96</span>
+        <span class="chapter-locator">p. 106</span>
       </div>
       <div class="chapter-subtopics">Unemployment Rate Formula • UPSS vs CWS 1-Hour Rule • Disguised MPL=0 • Demographic Dividend (2018-2055)</div>
     </div>
@@ -448,7 +448,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 15</span>
         <span class="chapter-name">Poverty Estimation Methodologies &amp; Inequality Metrics</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 103</span>
+        <span class="chapter-locator">p. 114</span>
       </div>
       <div class="chapter-subtopics">Tendulkar MRP Poverty Line (21.9%) • Rangarajan Methodology • Lorenz Curve &amp; Gini Coefficient</div>
     </div>
@@ -463,7 +463,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 16</span>
         <span class="chapter-name">Balance of Payments (BoP) Architecture: Current &amp; Capital</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 109</span>
+        <span class="chapter-locator">p. 120</span>
       </div>
       <div class="chapter-subtopics">Current Account (Trade + Invisibles) • Capital Account • Arvind Mayaram 10% FDI Rule • Forex Hierarchy</div>
     </div>
@@ -472,7 +472,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 17</span>
         <span class="chapter-name">Forex Dynamics, NEER, REER &amp; Currency Convertibility</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 112</span>
+        <span class="chapter-locator">p. 124</span>
       </div>
       <div class="chapter-subtopics">NEER &amp; REER Valuation • Current Account Convertibility (1994) • Capital Convertibility • FTP 2023 • SRVA</div>
     </div>
@@ -481,7 +481,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 18</span>
         <span class="chapter-name">International Economic Organizations: IMF, World Bank, WTO</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 119</span>
+        <span class="chapter-locator">p. 132</span>
       </div>
       <div class="chapter-subtopics">IMF SDR Basket • World Bank Group (India Non-Membership in ICSID) • WTO AoA Boxes • Appellate Body / MPIA</div>
     </div>
@@ -496,7 +496,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 19</span>
         <span class="chapter-name">Indian Agriculture, MSP &amp; Rural Economy (NABARD ARD Suite)</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 126</span>
+        <span class="chapter-locator">p. 140</span>
       </div>
       <div class="chapter-subtopics">86.2% Small/Marginal • CACP 23 Crops • NABARD Refinance • 3-Tier STCCS (PACS) • RIDF • PMFBY • e-NAM &amp; e-NWRs</div>
     </div>
@@ -505,7 +505,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 20</span>
         <span class="chapter-name">Industrial Architecture, MSMEs, Disinvestment &amp; Policy</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 136</span>
+        <span class="chapter-locator">p. 151</span>
       </div>
       <div class="chapter-subtopics">April 2025 MSME Criteria (₹2.5/₹25/₹125 Cr) • Export Turnover Excluded • 9-Core Industries (Iron Ore) • Atomic/Rail Reservation</div>
     </div>
@@ -514,7 +514,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 21</span>
         <span class="chapter-name">Infrastructure, PM GatiShakti &amp; Energy Transition</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 145</span>
+        <span class="chapter-locator">p. 162</span>
       </div>
       <div class="chapter-subtopics">HAM (40% Cash / NHAI Traffic Risk) • National Logistics Policy • COP26 Panchamrit (2070 Net-Zero) • Carbon Market</div>
     </div>
@@ -529,7 +529,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 22</span>
         <span class="chapter-name">Economic Planning History, Five-Year Plans &amp; NITI Aayog</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 154</span>
+        <span class="chapter-locator">p. 172</span>
       </div>
       <div class="chapter-subtopics">Planning Commission History • NITI Aayog Think-Tank Architecture • 112 Aspirational Districts (3Cs)</div>
     </div>
@@ -538,7 +538,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 23</span>
         <span class="chapter-name">Labor Law Architecture, IR &amp; Four New Labor Codes</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 161</span>
+        <span class="chapter-locator">p. 180</span>
       </div>
       <div class="chapter-subtopics">21 Nov 2025 Implementation • 50% Wage-Allowance Rule • 300-Worker Retrenchment • 1-Year FTE Gratuity • Gig Fund</div>
     </div>
@@ -547,7 +547,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 24</span>
         <span class="chapter-name">Urbanization, Demographic Transition &amp; Migration</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 168</span>
+        <span class="chapter-locator">p. 188</span>
       </div>
       <div class="chapter-subtopics">Census Towns (5000 / 75% Non-Agri / 400 density) • Census 2011 (31.16% Urban) • Harris-Todaro Model</div>
     </div>
@@ -556,7 +556,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 25</span>
         <span class="chapter-name">Social Structure, Multiculturalism, Secularism &amp; Pluralism</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 173</span>
+        <span class="chapter-locator">p. 194</span>
       </div>
       <div class="chapter-subtopics">Kymlicka Group Rights • Principled Distance Secularism • 11 Classical Languages • Articles 15, 25-30 • Affirmative Action</div>
     </div>
@@ -571,7 +571,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 26</span>
         <span class="chapter-name">The Grand Synthesis: Master Revision &amp; Diagnostic Vault</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 178</span>
+        <span class="chapter-locator">p. 200</span>
       </div>
       <div class="chapter-subtopics">60-Second Skeletons (Ch 01-27) • 10 Comparative Matrices • 35 Traps • 72 Recall Cards • Multi-Exam PYQ Matrix</div>
     </div>
@@ -586,7 +586,7 @@ export function buildTableOfContentsHtml(): string {
         <span class="chapter-num">Ch. 27</span>
         <span class="chapter-name">Economy of Rajasthan: GSDP, Sectors, Infrastructure &amp; Reforms</span>
         <span class="leader-dots"></span>
-        <span class="chapter-locator">p. 198</span>
+        <span class="chapter-locator">p. 222</span>
       </div>
       <div class="chapter-subtopics">2025–26 AE GSDP (₹18.75L Cr) / Constant PCI ₹1.03L • State Budget 2026–27 BE • 6th &amp; 7th SFC • ERCP/PKC • HRRL • Solar #1 • Welfare Schemes</div>
     </div>
@@ -647,9 +647,9 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
         @top-left {
           content: "${meta.shortHeader}";
           font-family: "Helvetica Neue", Arial, sans-serif;
-          font-size: 7.2pt;
+          font-size: 8.0pt;
           font-weight: 700;
-          letter-spacing: 0.14em;
+          letter-spacing: 0.12em;
           text-transform: uppercase;
           color: #111;
           border-bottom: 0.8pt solid #000;
@@ -659,9 +659,9 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
         @bottom-left {
           content: "MIND OF ARAVALLI PRESS";
           font-family: "Helvetica Neue", Arial, sans-serif;
-          font-size: 7pt;
+          font-size: 8.0pt;
           font-weight: 700;
-          letter-spacing: 0.14em;
+          letter-spacing: 0.12em;
           text-transform: uppercase;
           color: #222;
           border-top: 0.8pt solid #000;
@@ -687,9 +687,9 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
         @top-left {
           content: "SHELF 007 : INDIAN MACROECONOMIC ARCHITECTURE";
           font-family: "Helvetica Neue", Arial, sans-serif;
-          font-size: 7.2pt;
+          font-size: 8.0pt;
           font-weight: 700;
-          letter-spacing: 0.14em;
+          letter-spacing: 0.12em;
           text-transform: uppercase;
           color: #111;
           border-bottom: 0.8pt solid #000;
@@ -699,9 +699,9 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
         @bottom-left {
           content: "MIND OF ARAVALLI PRESS";
           font-family: "Helvetica Neue", Arial, sans-serif;
-          font-size: 7pt;
+          font-size: 8.0pt;
           font-weight: 700;
-          letter-spacing: 0.14em;
+          letter-spacing: 0.12em;
           text-transform: uppercase;
           color: #222;
           border-top: 0.8pt solid #000;
@@ -754,7 +754,7 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
       padding: 0;
       font-family: var(--serif);
       font-size: 11.5pt;
-      line-height: 1.45;
+      line-height: 1.48;
       color: #000;
       background: #fff;
     }
@@ -801,7 +801,7 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
     }
 
     .opener .n-box .n-lbl {
-      font: 700 7pt var(--sans);
+      font: 700 7.5pt var(--sans);
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: #333;
@@ -819,7 +819,7 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
     }
 
     .opener .t small {
-      font: 700 7pt var(--sans);
+      font: 700 7.5pt var(--sans);
       letter-spacing: 0.22em;
       text-transform: uppercase;
       color: #555;
@@ -857,8 +857,8 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
       align-items: stretch;
       background: #ececec;
       border: 1pt solid #000;
-      border-left: 3.5pt solid #000;
-      margin: 3.2mm 0 2mm 0;
+      border-left: 4pt solid #000;
+      margin: 3.5mm 0 2.2mm 0;
       page-break-after: avoid;
       break-after: avoid;
     }
@@ -866,8 +866,8 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
     .sec-pill {
       background: #000;
       color: #fff;
-      font: 900 9pt var(--sans);
-      padding: 1.2mm 2.8mm;
+      font: 900 11pt var(--sans);
+      padding: 1.5mm 3.2mm;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -875,10 +875,10 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
     }
 
     .sec-title {
-      font: 800 9.5pt var(--sans);
+      font: 800 12pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      padding: 1.2mm 2.8mm;
+      letter-spacing: 0.04em;
+      padding: 1.5mm 3.2mm;
       display: flex;
       align-items: center;
       color: #000;
@@ -886,14 +886,14 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
 
     .subsec-bar {
       border-bottom: 1pt solid #000;
-      border-left: 2.2pt solid #000;
-      padding: 0.8mm 2mm;
-      margin: 2.5mm 0 1.5mm 0;
-      font: 800 9.2pt var(--sans);
+      border-left: 2.5pt solid #000;
+      padding: 1mm 2.5mm;
+      margin: 2.8mm 0 1.8mm 0;
+      font: 800 11pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       color: #111;
-      background: #fafafa;
+      background: #f7f7f7;
       page-break-after: avoid;
       break-after: avoid;
     }
@@ -916,14 +916,14 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
 
     li {
       margin-bottom: 1.2mm;
-      line-height: 1.42;
+      line-height: 1.45;
     }
 
     .t-grid {
       width: 100%;
       border-collapse: collapse;
-      font-size: 9pt;
-      margin: 2mm 0 2.8mm 0;
+      font-size: 10pt;
+      margin: 2.2mm 0 3mm 0;
       border-top: 1.4pt solid #000;
       border-bottom: 1.4pt solid #000;
       page-break-inside: auto;
@@ -931,56 +931,69 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
 
     .t-grid th {
       background: #ececec;
-      border-bottom: 0.8pt solid #000;
-      padding: 1.5mm 2.2mm;
-      font: 800 8.5pt var(--sans);
+      border: 0.5pt solid #000;
+      border-bottom: 1.2pt solid #000;
+      padding: 1.8mm 2.5mm;
+      font: 800 9.8pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       text-align: left;
       color: #000;
     }
 
     .t-grid td {
-      border-bottom: 0.4pt solid #ddd;
-      padding: 1.5mm 2.2mm;
+      border: 0.4pt solid #bbb;
+      padding: 1.8mm 2.5mm;
       vertical-align: top;
-      line-height: 1.35;
+      line-height: 1.40;
     }
 
     .t-grid tr:nth-child(even) td {
       background: #fafafa;
     }
 
+    .t-banner-row th {
+      background: #111 !important;
+      color: #fff !important;
+      text-align: center !important;
+      font: 800 10pt var(--sans) !important;
+      letter-spacing: 0.05em !important;
+      text-transform: uppercase !important;
+      padding: 1.8mm 2.5mm !important;
+    }
+
     pre.ascii-diagram {
       font-family: var(--mono) !important;
       background: #fdfdfd !important;
       border: 0.75pt solid #333 !important;
-      padding: 4pt 6pt !important;
-      font-size: 7.2pt !important;
-      line-height: 1.25 !important;
-      letter-spacing: -0.025em !important;
+      padding: 5pt 7pt !important;
+      font-size: 8.8pt !important;
+      line-height: 1.28 !important;
+      letter-spacing: -0.015em !important;
       white-space: pre !important;
       word-break: normal !important;
       overflow-x: hidden !important;
-      margin: 2mm 0 2.8mm 0 !important;
+      margin: 2.5mm auto 3mm auto !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
       page-break-inside: avoid;
     }
 
     pre.pre-wide {
-      font-size: 6.0pt !important;
+      font-size: 8.0pt !important;
+      line-height: 1.24 !important;
+      letter-spacing: -0.025em !important;
+    }
+
+    pre.pre-ultrawide {
+      font-size: 7.5pt !important;
       line-height: 1.20 !important;
       letter-spacing: -0.03em !important;
     }
 
-    pre.pre-ultrawide {
-      font-size: 4.8pt !important;
-      line-height: 1.15 !important;
-      letter-spacing: -0.035em !important;
-    }
-
     .active-recall-card {
       border: 0.8pt solid #000;
-      margin: 2.2mm 0 3mm 0;
+      margin: 2.5mm 0 3.2mm 0;
       background: #fff;
       page-break-inside: avoid;
       break-inside: avoid;
@@ -989,33 +1002,33 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
     .card-prompt-bar {
       background: #ececec;
       border-bottom: 0.6pt solid #000;
-      padding: 1.2mm 2.5mm;
-      font: 800 8.2pt var(--sans);
-      letter-spacing: 0.05em;
+      padding: 1.4mm 2.8mm;
+      font: 800 9.5pt var(--sans);
+      letter-spacing: 0.04em;
       text-transform: uppercase;
       color: #000;
     }
 
     .card-prompt-summary {
-      padding: 1.4mm 2.5mm;
-      font: 700 8.8pt var(--sans);
+      padding: 1.6mm 2.8mm;
+      font: 700 10.2pt var(--sans);
       border-bottom: 0.4pt dashed #aaa;
       background: #fcfcfc;
     }
 
     .card-answer-box {
-      padding: 1.8mm 2.5mm;
-      font-size: 9pt;
-      line-height: 1.38;
+      padding: 2mm 2.8mm;
+      font-size: 10.2pt;
+      line-height: 1.42;
       background: #fff;
     }
 
     .card-answer-tag {
-      font: 800 7.8pt var(--sans);
+      font: 800 8.8pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
       color: #333;
-      margin-bottom: 1mm;
+      margin-bottom: 1.2mm;
     }
 
     .trap-card {
@@ -1028,30 +1041,30 @@ export function compileUnifiedContinuousBodyHtml(notesDir: string, assetsDir: st
         #fff 3mm,
         #fff 6mm
       ) 16;
-      padding: 1.8mm 2.8mm;
-      margin: 2mm 0 2.5mm 0;
+      padding: 2mm 3mm;
+      margin: 2.5mm 0 3mm 0;
       background: #fff;
-      font-size: 9.2pt;
-      line-height: 1.38;
+      font-size: 10.5pt;
+      line-height: 1.42;
       page-break-inside: avoid;
       break-inside: avoid;
     }
 
     .trap-card-head {
-      font: 800 8.4pt var(--sans);
+      font: 800 9.8pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 1mm;
+      letter-spacing: 0.04em;
+      margin-bottom: 1.2mm;
       color: #000;
     }
 
     .key-lesson-box {
       background: #f4f4f4;
-      border-left: 3pt solid #000;
-      padding: 1.5mm 2.5mm;
-      margin: 2mm 0 2.5mm 0;
-      font-size: 9.2pt;
-      line-height: 1.38;
+      border-left: 3.5pt solid #000;
+      padding: 1.8mm 3mm;
+      margin: 2.5mm 0 3mm 0;
+      font-size: 10.5pt;
+      line-height: 1.42;
       page-break-inside: avoid;
       break-inside: avoid;
     }
@@ -1083,7 +1096,7 @@ export async function assembleContinuousBodyPdf(
   outBodyPdfPath: string
 ): Promise<number> {
   console.log(`\n======================================================`);
-  console.log(`ASSEMBLING CONTINUOUS 189-PAGE MASTER BODY FROM CHAPTERS`);
+  console.log(`ASSEMBLING CONTINUOUS 233-PAGE MASTER BODY FROM CHAPTERS`);
   console.log(`======================================================`);
 
   const bodyPdf = await PDFDocument.create();

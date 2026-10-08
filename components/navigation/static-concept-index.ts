@@ -22883,7 +22883,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Front Matter & Epistemic Pledge"
     },
-    "badge": "283 words • 2 min read"
+    "badge": "263 words • 2 min read"
   },
   {
     "id": "shelf007-ch-current-affairs-table-of-contents",
@@ -22897,7 +22897,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Front Matter & Epistemic Pledge"
     },
-    "badge": "1,176 words • 6 min read"
+    "badge": "1,173 words • 6 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-table-of-contents-sec-2",
@@ -22905,14 +22905,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "Sovereign Part & Chapter Architecture",
     "slug": "sec-2",
     "url": "/shelf-007/current-affairs/table-of-contents",
-    "description": "text\n┌────────────────────────────────────────────────────────────────────────────────────────┐\n│ FRONT MATTER: SOVEREIGN DEDICATION & EPISTEMIC PLEDGE                                  │\n│   ├── 00",
+    "description": "text\n┌────────────────────────────────────────────────────────────────────────────────────────┐\n│ FRONT MATTER: EDITORIAL SCOPE & CANONICAL ARCHITECTURE                                 │\n│   ├── 00",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
       "concept": "Sovereign Part & Chapter Architecture"
     },
-    "badge": "442 words"
+    "badge": "439 words"
   },
   {
     "id": "shelf007-sec-current-affairs-table-of-contents-sec-3",
@@ -22941,7 +22941,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Static Banking, Regulatory Acts & Prudential Foundations"
     },
-    "badge": "8,877 words • 41 min read"
+    "badge": "9,222 words • 42 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-01-sec-2",
@@ -22956,7 +22956,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
       "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "8827 words"
+    "badge": "9172 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-02",
@@ -22970,7 +22970,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)"
     },
-    "badge": "15,756 words • 72 min read"
+    "badge": "16,129 words • 74 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-02-sec-2",
@@ -22993,14 +22993,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "2. ️ REGULATORY BODIES NEWS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-02",
-    "description": "[Q1-012] RBI Monetary Policy — Feb 2026 Report + Aug 2026 Update (Feb, with live status update)\n\n- Benchmark Policy Rates Status: Reserve Bank of India maintained the Policy Repo Rate at 5",
+    "description": "[Q1-012] RBI Monetary Policy — Feb 2026 Report + Aug 2026 Update + Oct 7 Post-Cutoff Snapshot (Feb historical origin → Aug historical hold → Oct 7 operative snapshot)\n\n- Historical Rate Trajec",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026 (FULL Q1 CONSOLIDATED)",
       "concept": "2. ️ REGULATORY BODIES NEWS"
     },
-    "badge": "2573 words"
+    "badge": "2760 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-02-sec-4",
@@ -23488,7 +23488,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium"
     },
-    "badge": "43,694 words • 199 min read"
+    "badge": "44,347 words • 202 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-2",
@@ -23503,7 +23503,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "5386 words"
+    "badge": "5558 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-3",
@@ -23511,14 +23511,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS",
     "slug": "sec-3",
     "url": "/shelf-007/current-affairs/chapter-09",
-    "description": "[MS-012] Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory\n- Continuous Policy Rate Pause: The MPC held the Policy Repo Rate at 5.25% with a neutral monetary stance",
+    "description": "[MS-012] Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory & Current Snapshot\n- Historical Jan–Aug 2026 Trajectory (Bi-Monthly Reviews): Across four consecutive bi-monthly m",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS"
     },
-    "badge": "6201 words"
+    "badge": "6587 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-4",
@@ -23533,7 +23533,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)",
       "concept": "2. BANKING, CREDIT FACILITIES & FINANCIAL INCLUSION"
     },
-    "badge": "3017 words"
+    "badge": "3046 words"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-09-sec-5",

@@ -411,9 +411,9 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       @top-left {
         content: "${chMeta.shortHeader}";
         font-family: "Helvetica Neue", Arial, sans-serif;
-        font-size: 7.2pt;
+        font-size: 8.0pt;
         font-weight: 700;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: #111;
         border-bottom: 0.8pt solid #000;
@@ -424,9 +424,9 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       @bottom-left {
         content: "MIND OF ARAVALLI PRESS";
         font-family: "Helvetica Neue", Arial, sans-serif;
-        font-size: 7pt;
+        font-size: 8.0pt;
         font-weight: 700;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: #222;
         border-top: 0.8pt solid #000;
@@ -454,9 +454,9 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       @top-left {
         content: "SHELF 007 : INDIAN MACROECONOMIC ARCHITECTURE";
         font-family: "Helvetica Neue", Arial, sans-serif;
-        font-size: 7.2pt;
+        font-size: 8.0pt;
         font-weight: 700;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: #111;
         border-bottom: 0.8pt solid #000;
@@ -467,9 +467,9 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       @bottom-left {
         content: "MIND OF ARAVALLI PRESS";
         font-family: "Helvetica Neue", Arial, sans-serif;
-        font-size: 7pt;
+        font-size: 8.0pt;
         font-weight: 700;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: #222;
         border-top: 0.8pt solid #000;
@@ -504,7 +504,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       padding: 0;
       font-family: var(--serif);
       font-size: 11.5pt;
-      line-height: 1.45;
+      line-height: 1.48;
       color: #000;
       background: #fff;
     }
@@ -553,7 +553,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     }
 
     .opener .n-box .n-lbl {
-      font: 700 7pt var(--sans);
+      font: 700 7.5pt var(--sans);
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: #333;
@@ -571,7 +571,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     }
 
     .opener .t small {
-      font: 700 7pt var(--sans);
+      font: 700 7.5pt var(--sans);
       letter-spacing: 0.22em;
       text-transform: uppercase;
       color: #555;
@@ -604,14 +604,14 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       filter: grayscale(100%) contrast(120%);
     }
 
-    /* Section Bars (§ 2.1) */
+    /* Section Bars (§ 2.1) - Legible Hierarchical Anchor */
     .section-bar {
       display: flex;
       align-items: stretch;
       background: #ececec;
       border: 1pt solid #000;
-      border-left: 3.5pt solid #000;
-      margin: 3.2mm 0 2mm 0;
+      border-left: 4pt solid #000;
+      margin: 3.5mm 0 2.2mm 0;
       page-break-after: avoid;
       break-after: avoid;
     }
@@ -619,8 +619,8 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     .sec-pill {
       background: #000;
       color: #fff;
-      font: 900 9pt var(--sans);
-      padding: 1.2mm 2.8mm;
+      font: 900 11pt var(--sans);
+      padding: 1.5mm 3.2mm;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -628,26 +628,26 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     }
 
     .sec-title {
-      font: 800 9.5pt var(--sans);
+      font: 800 12pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      padding: 1.2mm 2.8mm;
+      letter-spacing: 0.04em;
+      padding: 1.5mm 3.2mm;
       display: flex;
       align-items: center;
       color: #000;
     }
 
-    /* Subsection Bars */
+    /* Subsection Bars - Distinct Sub-Headings */
     .subsec-bar {
       border-bottom: 1pt solid #000;
-      border-left: 2.2pt solid #000;
-      padding: 0.8mm 2mm;
-      margin: 2.5mm 0 1.5mm 0;
-      font: 800 9.2pt var(--sans);
+      border-left: 2.5pt solid #000;
+      padding: 1mm 2.5mm;
+      margin: 2.8mm 0 1.8mm 0;
+      font: 800 11pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       color: #111;
-      background: #fafafa;
+      background: #f7f7f7;
       page-break-after: avoid;
       break-after: avoid;
     }
@@ -672,15 +672,15 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
 
     li {
       margin-bottom: 1.2mm;
-      line-height: 1.42;
+      line-height: 1.45;
     }
 
-    /* Tables (Print-Friendly) */
+    /* Tables (Legible 10pt Print-Friendly) */
     .t-grid {
       width: 100%;
       border-collapse: collapse;
-      font-size: 9pt;
-      margin: 2mm 0 2.8mm 0;
+      font-size: 10pt;
+      margin: 2.2mm 0 3mm 0;
       border-top: 1.4pt solid #000;
       border-bottom: 1.4pt solid #000;
       page-break-inside: auto;
@@ -690,18 +690,18 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       background: #ececec;
       border: 0.5pt solid #000;
       border-bottom: 1.2pt solid #000;
-      padding: 1.5mm 2.2mm;
-      font: 800 8.5pt var(--sans);
-      letter-spacing: 0.04em;
+      padding: 1.8mm 2.5mm;
+      font: 800 9.8pt var(--sans);
+      letter-spacing: 0.03em;
       text-align: left;
       color: #000;
     }
 
     .t-grid td {
       border: 0.4pt solid #bbb;
-      padding: 1.5mm 2.2mm;
+      padding: 1.8mm 2.5mm;
       vertical-align: top;
-      line-height: 1.35;
+      line-height: 1.40;
     }
 
     .t-grid tr:nth-child(even) td {
@@ -710,7 +710,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
 
     .cell-item {
       margin-bottom: 2pt;
-      line-height: 1.35;
+      line-height: 1.40;
     }
 
     .cell-item:last-child {
@@ -721,46 +721,46 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
       background: #111 !important;
       color: #fff !important;
       text-align: center !important;
-      font: 800 8.5pt var(--sans) !important;
+      font: 800 10pt var(--sans) !important;
       letter-spacing: 0.05em !important;
       text-transform: uppercase !important;
-      padding: 1.6mm 2.2mm !important;
+      padding: 1.8mm 2.5mm !important;
     }
 
-    /* ASCII Diagrams */
+    /* ASCII Diagrams - Scaled to Human-Readable Floor */
     pre.ascii-diagram {
       font-family: var(--mono) !important;
       background: #fdfdfd !important;
       border: 0.75pt solid #333 !important;
-      padding: 4pt 6pt !important;
-      font-size: 7.2pt !important;
-      line-height: 1.25 !important;
-      letter-spacing: -0.025em !important;
+      padding: 5pt 7pt !important;
+      font-size: 8.8pt !important;
+      line-height: 1.28 !important;
+      letter-spacing: -0.015em !important;
       white-space: pre !important;
       word-break: normal !important;
       overflow-x: hidden !important;
-      margin: 2.2mm auto 2.8mm auto !important;
+      margin: 2.5mm auto 3mm auto !important;
       width: 100% !important;
       box-sizing: border-box !important;
       page-break-inside: avoid;
     }
 
     pre.pre-wide {
-      font-size: 6.0pt !important;
-      line-height: 1.20 !important;
-      letter-spacing: -0.03em !important;
+      font-size: 8.0pt !important;
+      line-height: 1.24 !important;
+      letter-spacing: -0.025em !important;
     }
 
     pre.pre-ultrawide {
-      font-size: 4.8pt !important;
-      line-height: 1.15 !important;
-      letter-spacing: -0.035em !important;
+      font-size: 7.5pt !important;
+      line-height: 1.20 !important;
+      letter-spacing: -0.03em !important;
     }
 
     /* Active Recall Diagnostic Cards */
     .active-recall-card {
       border: 0.8pt solid #000;
-      margin: 2.2mm 0 3mm 0;
+      margin: 2.5mm 0 3.2mm 0;
       background: #fff;
       page-break-inside: avoid;
       break-inside: avoid;
@@ -769,33 +769,33 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     .card-prompt-bar {
       background: #ececec;
       border-bottom: 0.6pt solid #000;
-      padding: 1.2mm 2.5mm;
-      font: 800 8.2pt var(--sans);
-      letter-spacing: 0.05em;
+      padding: 1.4mm 2.8mm;
+      font: 800 9.5pt var(--sans);
+      letter-spacing: 0.04em;
       text-transform: uppercase;
       color: #000;
     }
 
     .card-prompt-summary {
-      padding: 1.4mm 2.5mm;
-      font: 700 8.8pt var(--sans);
+      padding: 1.6mm 2.8mm;
+      font: 700 10.2pt var(--sans);
       border-bottom: 0.4pt dashed #aaa;
       background: #fcfcfc;
     }
 
     .card-answer-box {
-      padding: 1.8mm 2.5mm;
-      font-size: 9pt;
-      line-height: 1.38;
+      padding: 2mm 2.8mm;
+      font-size: 10.2pt;
+      line-height: 1.42;
       background: #fff;
     }
 
     .card-answer-tag {
-      font: 800 7.8pt var(--sans);
+      font: 800 8.8pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
       color: #333;
-      margin-bottom: 1mm;
+      margin-bottom: 1.2mm;
     }
 
     /* Examiner Traps */
@@ -809,31 +809,31 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
         #fff 3mm,
         #fff 6mm
       ) 16;
-      padding: 1.8mm 2.8mm;
-      margin: 2mm 0 2.5mm 0;
+      padding: 2mm 3mm;
+      margin: 2.5mm 0 3mm 0;
       background: #fff;
-      font-size: 9.2pt;
-      line-height: 1.38;
+      font-size: 10.5pt;
+      line-height: 1.42;
       page-break-inside: avoid;
       break-inside: avoid;
     }
 
     .trap-card-head {
-      font: 800 8.4pt var(--sans);
+      font: 800 9.8pt var(--sans);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 1mm;
+      letter-spacing: 0.04em;
+      margin-bottom: 1.2mm;
       color: #000;
     }
 
     /* Key Lesson / Feature Box */
     .key-lesson-box {
       background: #f4f4f4;
-      border-left: 3pt solid #000;
-      padding: 1.5mm 2.5mm;
-      margin: 2mm 0 2.5mm 0;
-      font-size: 9.2pt;
-      line-height: 1.38;
+      border-left: 3.5pt solid #000;
+      padding: 1.8mm 3mm;
+      margin: 2.5mm 0 3mm 0;
+      font-size: 10.5pt;
+      line-height: 1.42;
       page-break-inside: avoid;
       break-inside: avoid;
     }
@@ -841,7 +841,7 @@ export function generateChapterPrintCss(chMeta: ChapterMeta, katexCss: string): 
     /* Math Display */
     .math-display-wrap {
       text-align: center;
-      margin: 2mm 0 2.5mm 0;
+      margin: 2.2mm 0 2.8mm 0;
       page-break-inside: avoid;
     }
   `;
@@ -940,10 +940,6 @@ async function main() {
     const pdfName = `${chNum}_CHAPTER_${chNum}_A4_BW.pdf`;
     const pdfPath = path.join(outChaptersDir, pdfName);
 
-    if (meta.index === 1 && fs.existsSync(pdfPath)) {
-      console.log(`  -> Preserving perfected Master Chapter 01 (${pdfPath})`);
-      continue;
-    }
 
     console.log(`Compiling Chapter ${chNum}: ${meta.shortHeader}...`);
     const html = compileChapterHtml(meta, notesDir, assetsDir, katexCss);
