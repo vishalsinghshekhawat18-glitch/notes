@@ -1,0 +1,122 @@
+1:"$Sreact.fragment"
+2:I[7066,["619","static/chunks/619-ba102abea3e3d0e4.js","573","static/chunks/573-770dc601a99a69ef.js","863","static/chunks/863-cb0adceded192358.js","177","static/chunks/app/layout-ee8f334250e0f9c1.js"],"ServiceWorkerCleaner"]
+3:I[6666,["619","static/chunks/619-ba102abea3e3d0e4.js","573","static/chunks/573-770dc601a99a69ef.js","863","static/chunks/863-cb0adceded192358.js","177","static/chunks/app/layout-ee8f334250e0f9c1.js"],"SiteHeader"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+6:I[2619,["619","static/chunks/619-ba102abea3e3d0e4.js","768","static/chunks/app/shelf-007/%5Bsubject%5D/page-455234fbbb12cd81.js"],""]
+e:I[7150,[],""]
+:HL["/notes/_next/static/media/4ac53ec9c086ac34-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/notes/_next/static/media/67e2ddfb283a31e9-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/notes/_next/static/media/cb7ec581076a7ec2-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/notes/_next/static/media/e2a626b21aa9c5d9-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/notes/_next/static/css/37e512fd470f12a0.css","style"]
+:HL["/notes/_next/static/css/e31c83fd6466f5e6.css","style"]
+0:{"P":null,"b":"UZ85fZ3WiB9jGRoBKO2Q5","p":"/notes","c":["","shelf-007","history",""],"i":false,"f":[[["",{"children":["shelf-007",{"children":[["subject","history","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/notes/_next/static/css/37e512fd470f12a0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/notes/_next/static/css/e31c83fd6466f5e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"overflow-x-clip max-w-full w-full __variable_d51ad2","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var s=localStorage.getItem('reading_hub_font_size');if(s&&['sm','md','lg','xl'].indexOf(s)!==-1){document.documentElement.setAttribute('data-font-size',s);}else{document.documentElement.setAttribute('data-font-size','md');}var t=localStorage.getItem('reading_hub_theme');if(t&&['parchment','obsidian','ivory'].indexOf(t)!==-1){document.documentElement.setAttribute('data-theme',t);}else{document.documentElement.setAttribute('data-theme','parchment');}}catch(e){}if(typeof window!=='undefined'){window.addEventListener('scroll',function(){if(window.scrollX!==0)window.scrollTo(0,window.scrollY);},{passive:true});}})();"}}]}],["$","body",null,{"className":"__variable_d51ad2 bg-[#FAF9F4] text-[#1B211E] antialiased font-serif min-h-screen flex flex-col selection:bg-[#143227] selection:text-amber-100 overflow-x-clip max-w-full w-full","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"flex-1 overflow-x-clip max-w-full w-full","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-[70vh] flex flex-col items-center justify-center px-4 py-16 text-center","children":[["$","div",null,{"className":"w-16 h-16 rounded-2xl bg-[#10251F] text-[#FAF8F3] border border-[#1E3A2E] flex items-center justify-center font-serif text-2xl font-bold mb-6 shadow-sm","children":"🏛️"}],["$","span",null,{"className":"text-xs font-mono uppercase tracking-widest text-[#9E722C] font-bold","children":"Archival Reference 404"}],["$","h1",null,{"className":"font-serif font-bold text-2xl sm:text-4xl text-[#10251F] tracking-tight mt-2 mb-3","children":"Codex Shelf Not Found"}],["$","p",null,{"className":"font-serif text-sm sm:text-base text-[#5A7365] max-w-md leading-relaxed mb-8","children":"The requested archival pathway or treatise folios could not be located in this sovereign repository."}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-3 font-mono text-xs","children":[["$","$L6",null,{"href":"/","className":"px-5 py-2.5 rounded-xl bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs tracking-wide transition-all shadow-2xs inline-flex items-center gap-2","children":["$","span",null,{"children":"← Return to Sovereign Library Home"}]}],["$","$L6",null,{"href":"/shelf-007","className":"px-4 py-2.5 rounded-xl bg-[#FAF9F4] hover:bg-[#F5F2EB] border border-[#D8CEBC] text-[#10251F] font-semibold transition-colors","children":["$","span",null,{"children":"Browse All 10 Treatises"}]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-6 border-t border-[#1E3A2E] bg-[#10251F] px-4 sm:px-6 text-center text-xs text-[#A1B8A9] font-mono shrink-0 select-none","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col sm:flex-row items-center justify-between gap-3 min-w-0","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-[#FAF8F3] font-bold font-serif","children":"Mind of Aravalli"}],"$L7","$L8"]}],"$L9"]}]}]]}]]}]]}],{"children":["shelf-007","$La",{"children":[["subject","history","d"],"$Lb",{"children":["__PAGE__","$Lc",{},null,false]},null,false]},null,false]},null,false],"$Ld",false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+10:I[4431,[],"OutletBoundary"]
+12:I[5278,[],"AsyncMetadataOutlet"]
+14:I[4431,[],"ViewportBoundary"]
+16:I[4431,[],"MetadataBoundary"]
+17:"$Sreact.suspense"
+7:["$","span",null,{"className":"text-[#2A4D3E]","children":"•"}]
+8:["$","span",null,{"className":"text-[#D5DDD6]","children":"Sovereign Knowledge Library"}]
+9:["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-[11px] text-[#A1B8A9]","children":[["$","span",null,{"children":"5 Academic Domains"}],["$","span",null,{"className":"text-[#2A4D3E]","children":"•"}],["$","span",null,{"children":"8 Master Treatises"}],["$","span",null,{"className":"text-[#2A4D3E]","children":"•"}],["$","span",null,{"children":"269 Chapters"}],["$","span",null,{"className":"text-[#2A4D3E]","children":"•"}],["$","span",null,{"className":"text-[#C59B4B] font-semibold","children":"Primary Source Grounded"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":["$Lf",null,["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}]
+d:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
+19:I[1448,["619","static/chunks/619-ba102abea3e3d0e4.js","768","static/chunks/app/shelf-007/%5Bsubject%5D/page-455234fbbb12cd81.js"],"Shelf007AcademicTOC"]
+1a:T9f8,<div style="page-break-after: always; text-align: center; padding: 80px 40px; font-family: serif; border: 2px solid #1e293b; background-color: #fcfbf9; margin: 20px;">
+
+<div style="font-family: monospace; font-size: 12px; letter-spacing: 4px; color: #b45309; text-transform: uppercase; margin-bottom: 24px;">
+  ▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION
+</div>
+
+<div style="margin: 40px 0 20px 0;">
+  <span style="font-size: 48px;">🏛️</span>
+</div>
+
+<h1 style="font-size: 44px; font-weight: bold; color: #0f172a; line-height: 1.15; margin: 0 0 16px 0; letter-spacing: -0.5px;">
+  HISTORY: ANCIENT, MEDIEVAL, MODERN, RAJASTHAN & WORLD COMBINED
+</h1>
+
+<div style="font-size: 18px; font-style: italic; color: #475569; margin-bottom: 36px; max-width: 680px; margin-left: auto; margin-right: auto; line-height: 1.5;">
+  A Definitive Chronological & Analytical First-Principles Master Treatise Unifying Epigraphic Evidence, Socio-Economic Transitions, Freedom Movements, Regional Dynasties, and Global Revolutions
+</div>
+
+<div style="width: 120px; height: 2px; background-color: #d97706; margin: 30px auto;"></div>
+
+<div style="font-size: 13px; font-family: monospace; color: #334155; line-height: 1.8; margin-bottom: 50px;">
+  <strong>MULTI-AUTHOR & PRIMARY ARCHIVAL CANONICAL FUSION:</strong><br/>
+  Upinder Singh • R.S. Sharma • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum (Rajiv Ahir)<br/>
+  G.N. Sharma • Hukam Chand Jain (Rajasthan History) • Norman Lowe • Arjun Dev (World History)<br/>
+  Cross-Verified with Archaeological Survey of India (ASI) Reports, Epigraphic Edicts & Official Archival Records
+</div>
+
+<div style="border: 1px solid #cbd5e1; background-color: #f8fafc; padding: 18px 24px; max-width: 520px; margin: 0 auto 50px auto; border-radius: 4px; text-align: left; font-size: 12px; color: #1e293b; font-family: sans-serif; line-height: 1.6;">
+  <strong>THE EPISTEMIC PLEDGE (GOLDEN TEST OF TOTAL REPLACEMENT):</strong><br/>
+  <em>"If the learner never opens the source treatises, NCERTs, or regional monographs again, they will not miss a single archaeological locator, inscriptional evidence, dynastic succession, socio-economic transition, administrative system, diagnostic distinction, or examination trap."</em>
+</div>
+
+<div style="margin-top: 60px; font-size: 11px; font-family: monospace; color: #64748b; letter-spacing: 1px; text-transform: uppercase;">
+  SHELF 007 CODEX • PUBLICATION GRADE TREATISE • HISTORICAL DISCIPLINES SERIES • 2026 EDITION
+</div>
+
+</div>1b:T13db,```text
+PART I: ANCIENT INDIAN CIVILIZATIONS & CULTURAL FOUNDATIONS
+  ├── Chapter 01: Pre-Historic Foundations & Indus Valley Civilization (Urbanism, Trade, Script, Decline)
+  ├── Chapter 02: The Vedic Age: Early Pastoralism to Later Iron-Age Stratification & Social Transition
+  ├── Chapter 03: Age of Heterodox Movements: Jainism, Buddhism & The Rise of 16 Mahajanapadas
+  ├── Chapter 04: The Mauryan Empire: Imperial Statecraft (Arthashastra), Ashokan Dhamma & Epigraphic Edicts
+  ├── Chapter 05: The Post-Mauryan Era: Shungas, Satavahanas, Kushanas, Silk Road & Gandhara/Mathura Art
+  ├── Chapter 06: The Gupta Classical Age & Post-Gupta Transitions: Administration, Land Grants & Harsha
+  └── Chapter 07: South Indian Antiquity: Sangam Age, Pallavas, Western Chalukyas & Imperial Cholas
+
+PART II: MEDIEVAL INDIA & INSTITUTIONAL SYNTHESIS
+  ├── Chapter 08: Early Medieval Transitions: Tripartite Struggle (Pratiharas, Palas, Rashtrakutas) & Sultanate Advent
+  ├── Chapter 09: The Delhi Sultanate: Mamluk, Khalji Market Regulations, Tughlaq Projects & Iqta Administration
+  ├── Chapter 10: Peninsular Sovereignties: Vijayanagara (Nayankara System) & Bahmani Sultanates
+  ├── Chapter 11: Religious & Cultural Synthesis: Bhakti and Sufi Movements (Saints, Philosophy, Vernaculars)
+  ├── Chapter 12: The Mughal Empire I: Babur to Akbar (Consolidation, Mansabdari, Zabti, Rajput Policy, Sulh-i-Kul)
+  ├── Chapter 13: The Mughal Empire II: Jahangir, Shah Jahan & Aurangzeb (Agrarian Crises, Architecture & Painting)
+  └── Chapter 14: The 18th Century Transition: Mughal Decline, Maratha Confederacy (Peshwaship) & Regional Powers
+
+PART III: MODERN INDIA & THE FREEDOM STRUGGLE
+  ├── Chapter 15: European Advent & British Expansionism: Carnatic Wars, Plassey, Buxar, Subsidiary Alliance & Lapse
+  ├── Chapter 16: Economic Impact of Colonial Rule: Drain of Wealth, De-industrialization & Agrarian Revenue Systems
+  ├── Chapter 17: Early Resistance & The Great Revolt of 1857: Causal Mechanics, Leadership & Post-1858 Crown Shift
+  ├── Chapter 18: Socio-Religious Reform Movements: Bengal Renaissance, Arya Samaj, Aligarh Movement & Caste Struggles
+  ├── Chapter 19: Emergence of Organized Nationalism: Early Associations, Congress, Moderates, Extremists & Swadeshi
+  ├── Chapter 20: The Gandhian Mass Epoch I: Non-Cooperation Movement, Khilafat, Swarajists & Simon Commission
+  ├── Chapter 21: The Gandhian Mass Epoch II: Civil Disobedience Movement, Round Table Conferences & 1935 Act
+  ├── Chapter 22: Revolutionary Nationalist Movements, Left-Wing Currents & Subhas Chandra Bose (INA)
+  └── Chapter 23: The Endgame of Empire: Quit India Movement, Cabinet Mission, Partition & Independence (1947)
+
+PART IV: RAJASTHAN HISTORY, DYNASTIES & HERITAGE (RPSC RAS MASTER LENS)
+  ├── Chapter 24: Ancient Civilizations of Rajasthan: Kalibangan, Ahar, Bagor, Ganeshwar & Bairath
+  ├── Chapter 25: Rajput Dynasties of Rajasthan I: Guhilas and Sisodias of Mewar (Kumbha, Sanga, Pratap & Resistance)
+  ├── Chapter 26: Rajput Dynasties of Rajasthan II: Rathores of Marwar/Bikaner, Kachwahas of Amber & Chauhans
+  ├── Chapter 27: The 1857 Revolt in Rajasthan & Resistance of Princely States (Naseerabad, Neemuch, Erinpura, Kota, Auwa)
+  ├── Chapter 28: Peasant & Tribal Movements: Bijolia, Begun, Eki Movement (Motilal Tejawat) & Govind Giri
+  ├── Chapter 29: Political Awakening & Prajamandals: Freedom Fighters & Seven Stages of Rajasthan Integration (1948–56)
+  └── Chapter 30: Cultural Bastions of Rajasthan: UNESCO Hill Forts, Temple Architecture, Painting Schools & Folk Lore
+
+PART V: WORLD HISTORY & GLOBAL TRANSFORMATIONS (UPSC MAINS GS-1 LENS)
+  ├── Chapter 31: Renaissance, Enlightenment & The Scientific Revolution: Rationalism & Secular State Philosophy
+  ├── Chapter 32: The Atlantic Revolutions: American War of Independence (1776) & French Revolution (1789)
+  ├── Chapter 33: The Industrial Revolution: Agrarian Enclosure, Mechanization, Capitalism & Rise of Socialism
+  ├── Chapter 34: 19th Century European Nationalism: Unification of Italy (Cavour, Garibaldi) & Germany (Bismarck)
+  ├── Chapter 35: Imperialism & Colonial Conquests: The Scramble for Africa, Opium Wars & Partition of Asia
+  ├── Chapter 36: World War I, The Treaty of Versailles & The Russian Revolution of 1917 (Lenin, Bolsheviks)
+  ├── Chapter 37: The Inter-War Crisis: The Great Depression (1929), Rise of Italian Fascism & German Nazism
+  └── Chapter 38: World War II, The United Nations, Cold War Bipolarity & Global Decolonization
+
+PART VI: CAPSTONE GRAND SYNTHESIS & MASTER REVISION VAULT
+  └── Chapter 39: The Grand Synthesis: Global, Pan-Indian & Rajasthan Synchronized Timelines,
+                  60-Second Retrieval Skeletons, Master Distinction Matrices, Top 50 Deadliest Traps in History,
+                  and 100-Question Active Recall Forensic Diagnostic Bank
+```f:["$","div",null,{"className":"max-w-5xl mx-auto px-4 sm:px-6 py-6 space-y-6 font-sans","children":[["$","nav",null,{"className":"text-xs font-mono text-[#5A7365] flex items-center gap-2 flex-wrap","children":[["$","$L6",null,{"href":"/","className":"hover:text-[#10251F] transition-colors","children":"Catalogue"}],["$","span",null,{"className":"text-[#C5BEAF]","children":"/"}],["$","$L6",null,{"href":"/shelf-007","className":"hover:text-[#10251F] transition-colors font-medium","children":"Shelf 007"}],["$","span",null,{"className":"text-[#C5BEAF]","children":"/"}],["$","span",null,{"className":"text-[#10251F] font-bold","children":"HIST-007"}],["$","span",null,{"className":"text-[#C5BEAF]","children":"/"}],["$","span",null,{"className":"text-[#2B3B33] font-serif truncate max-w-lg","children":"History: Ancient, Medieval, Modern, Rajasthan & World Combined"}]]}],["$","$L19",null,{"subject":{"slug":"history","name":"History: Ancient, Medieval, Modern, Rajasthan & World Combined","badge":"Unified 5-Dimensional Master Treatise","badgeColor":"text-[#854d0e] bg-[#fefce8] border-[#fef08a]","code":"HIST-007","authors":"Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • G.N. Sharma • Norman Lowe","description":"Sovereign 39-chapter doctoral-depth historical synthesis integrating Ancient Civilizations & Epigraphy, Medieval Institutional Dynamics, Modern Freedom Struggle, Comprehensive Rajasthan Dynasties & Heritage (RPSC RAS), World History Revolutions, and Capstone Synchronized Revision Vault.","totalChapters":39,"totalWords":0,"chips":["Ancient India & Archaeological Edicts","Medieval Institutions & Bhakti/Sufi Synthesis","Modern India & Gandhian Freedom Struggle","Rajasthan Dynasties, 1857 & Integration (RAS)","World Revolutions & Global Transformations","Grand Chronological Sync Vault (Ch 39)"]},"partGroups":[{"partNumber":"FRONT MATTER","groupTitle":"Curriculum Blueprint & Sovereign Synthesis Architecture","groupSubtitle":"Orientation, multi-author canonical fusion, and 39-chapter master curriculum blueprint","chapters":[{"slug":"cover","title":"HISTORY: ANCIENT, MEDIEVAL, MODERN, RAJASTHAN & WORLD COMBINED","shortTitle":"Cover & Master Declaration","category":"Front Matter","description":"▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION","filePath":"/home/runner/work/notes/notes/007/notes/history/00_COVER.md","order":0,"wordCount":292,"readingMinutes":2,"sections":[{"id":"sec-1","slug":"sec-1","title":"Overview & Epistemic Foundations","order":1,"body":"$1a","wordCount":292}]},{"slug":"table-of-contents","title":"TABLE OF CONTENTS & MASTER CURRICULUM","shortTitle":"Master Table of Contents","category":"Front Matter","description":"Treatise: History: Ancient, Medieval, Modern, Rajasthan & World Combined  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nMethodology: Unified Canonical Synthesis of Upinder Singh, R.S. Sharma, Satish Chandra, Bipan Chandra, Sekhar Bandyopadhyay...","filePath":"/home/runner/work/notes/notes/007/notes/history/01_TABLE_OF_CONTENTS.md","order":0,"wordCount":746,"readingMinutes":4,"sections":[{"id":"sec-1","slug":"sec-1","title":"Overview & Epistemic Foundations","order":1,"body":"# TABLE OF CONTENTS & MASTER CURRICULUM\n\n**Treatise**: History: Ancient, Medieval, Modern, Rajasthan & World Combined  \n**Sovereign Bastion**: Shelf 007 (Isolated Master Knowledge HQ)  \n**Methodology**: Unified Canonical Synthesis of Upinder Singh, R.S. Sharma, Satish Chandra, Bipan Chandra, Sekhar Bandyopadhyay, Spectrum (Rajiv Ahir), G.N. Sharma & Hukam Chand Jain (Rajasthan), Norman Lowe & Arjun Dev (World)  \n**Primary Grounding**: Archaeological Survey of India (ASI) Excavation Reports, Epigraphic Edicts, Contemporary Chronicles, and Official Treaties\n\n---","wordCount":72},{"id":"sec-2","slug":"sec-2","title":"Master Part & Chapter Architecture","order":2,"body":"$1b","wordCount":668}]}]},{"partNumber":"PART I","groupTitle":"Ancient Indian Civilizations & Cultural Foundations","groupSubtitle":"Pre-history, Indus Valley Civilization, Vedic transitions, heterodox movements (Buddhism/Jainism), Mauryan statecraft, Post-Mauryan trade, Guptas, and South Indian antiquity","chapters":[]},{"partNumber":"PART II","groupTitle":"Medieval India & Institutional Synthesis","groupSubtitle":"Tripartite struggle, Delhi Sultanate market/iqta systems, Vijayanagara Nayankara administration, Bhakti/Sufi movements, Mughal Empire, and 18th-century Maratha transition","chapters":[]},{"partNumber":"PART III","groupTitle":"Modern India & The Freedom Struggle","groupSubtitle":"Colonial expansion, drain of wealth, 1857 revolt, socio-religious reforms, early nationalist emergence, Gandhian mass movements, revolutionary currents, and 1947 independence","chapters":[]},{"partNumber":"PART IV","groupTitle":"Rajasthan History, Dynasties & Heritage (RPSC RAS Master Lens)","groupSubtitle":"Ancient sites (Kalibangan/Ahar), Mewar/Marwar/Amber dynasties, 1857 in Rajasthan, peasant/tribal movements (Bijolia/Eki), Prajamandals, 7-stage integration, and hill forts","chapters":[]},{"partNumber":"PART V","groupTitle":"World History & Global Transformations (UPSC Mains GS-1 Lens)","groupSubtitle":"Renaissance, Atlantic revolutions (American/French), Industrial Revolution, Italian/German unification, imperialism, World War I, Russian Revolution, Fascism/Nazism, and WWII","chapters":[]},{"partNumber":"PART VI","groupTitle":"Capstone Grand Synthesis & Master Revision Vault","groupSubtitle":"Global, Pan-Indian & Rajasthan synchronized timelines, 60-second retrieval skeletons, master distinction matrices, top 50 deadly traps, and diagnostic active recall bank","chapters":[]}],"firstReadSlug":"cover"}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+1c:I[622,[],"IconMark"]
+13:{"metadata":[["$","title","0",{"children":"Mind of Aravalli | Reading Hub"}],["$","meta","1",{"name":"description","content":"Source-grounded canonical knowledge and examination learning system"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","3",{"rel":"icon","href":"/icon.png","type":"image/png"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png"}],["$","$L1c","5",{}]],"error":null,"digest":"$undefined"}
+18:"$13:metadata"
