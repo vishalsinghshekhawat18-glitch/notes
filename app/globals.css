@@ -499,3 +499,12 @@ html[data-theme="ivory"] .bg-white {
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
+/* 3. Fullscreen / Zen Reading Mode */
+html[data-reading-fullscreen="true"] #site-header {
+  display: none !important;
+}
+
+html[data-reading-fullscreen="true"] footer {
+  display: none !important;
+}
+

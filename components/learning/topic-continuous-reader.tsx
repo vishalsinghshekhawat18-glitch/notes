@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { BookOpen, Menu, ChevronLeft } from 'lucide-react';
+import { BookOpen, Menu, ChevronLeft, Maximize2, Minimize2 } from 'lucide-react';
 import { EvidenceDrawer, EvidenceItem } from './evidence-drawer';
 import { ExamLensViewer, ExamLensData } from './exam-lens-viewer';
 import { ActiveRecallViewer, QuestionData } from './active-recall-viewer';
@@ -96,6 +96,7 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
   const [activeConceptIndex, setActiveConceptIndex] = useState(0);
   const [isOutlineOpen, setIsOutlineOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const conceptRefs = useRef<(HTMLElement | null)[]>([]);
 
   // Find next topic in the same subject
@@ -160,7 +161,56 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
     }
   }, []);
 
-  // Keyboard navigation: J (next concept), K (prev concept)
+  // Fullscreen reading mode handler (supports native Fullscreen API + Zen Reader mode)
+  const toggleFullscreen = async () => {
+    try {
+      if (!document.fullscreenElement) {
+        if (document.documentElement.requestFullscreen) {
+          await document.documentElement.requestFullscreen();
+        }
+        setIsFullscreen(true);
+        document.documentElement.setAttribute('data-reading-fullscreen', 'true');
+      } else {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        }
+        setIsFullscreen(false);
+        document.documentElement.removeAttribute('data-reading-fullscreen');
+      }
+    } catch {
+      setIsFullscreen((prev) => {
+        const next = !prev;
+        if (next) {
+          document.documentElement.setAttribute('data-reading-fullscreen', 'true');
+        } else {
+          document.documentElement.removeAttribute('data-reading-fullscreen');
+        }
+        return next;
+      });
+    }
+  };
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      const active = !!document.fullscreenElement;
+      setIsFullscreen(active);
+      if (active) {
+        document.documentElement.setAttribute('data-reading-fullscreen', 'true');
+      } else {
+        document.documentElement.removeAttribute('data-reading-fullscreen');
+      }
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+      document.documentElement.removeAttribute('data-reading-fullscreen');
+    };
+  }, []);
+
+  // Keyboard navigation: J (next concept), K (prev concept), F (fullscreen), Esc (exit fullscreen)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
@@ -175,12 +225,23 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
         if (activeConceptIndex > 0) {
           scrollToConcept(activeConceptIndex - 1);
         }
+      } else if (e.key === 'f' || e.key === 'F') {
+        if (!e.ctrlKey && !e.metaKey && !e.altKey) {
+          e.preventDefault();
+          toggleFullscreen();
+        }
+      } else if (e.key === 'Escape') {
+        if (isOutlineOpen) {
+          setIsOutlineOpen(false);
+        } else if (isFullscreen) {
+          toggleFullscreen();
+        }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeConceptIndex, topic.concepts.length]);
+  }, [activeConceptIndex, topic.concepts.length, isOutlineOpen, isFullscreen]);
 
   const scrollToConcept = (index: number) => {
     const el = conceptRefs.current[index];
@@ -270,6 +331,27 @@ export function TopicContinuousReader({ topic }: TopicContinuousReaderProps) {
 
             {/* Font Size Stepper Control */}
             <FontSizeControl />
+
+            {/* Fullscreen Reading Toggle */}
+            <button
+              onClick={toggleFullscreen}
+              className={`px-2 py-1 rounded-md border text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer ${
+                isFullscreen
+                  ? 'bg-emerald-800 border-emerald-900 text-white shadow-2xs font-semibold'
+                  : 'bg-stone-50 border-stone-300 hover:bg-stone-100 text-stone-700'
+              }`}
+              title={isFullscreen ? 'Exit Full Screen (Esc or F)' : 'Enter Full Screen (F)'}
+              aria-label={isFullscreen ? 'Exit Full Screen' : 'Enter Full Screen'}
+            >
+              {isFullscreen ? (
+                <Minimize2 className="w-3.5 h-3.5 text-white" />
+              ) : (
+                <Maximize2 className="w-3.5 h-3.5 text-stone-600" />
+              )}
+              <span className="hidden sm:inline font-sans">
+                {isFullscreen ? 'Exit Full' : 'Full Screen'}
+              </span>
+            </button>
 
             {/* Quick Outline Jump Menu */}
             <button

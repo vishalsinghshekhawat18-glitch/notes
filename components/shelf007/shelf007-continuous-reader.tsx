@@ -9,6 +9,8 @@ import {
   ChevronRight,
   Search,
   X,
+  Maximize2,
+  Minimize2,
 } from 'lucide-react';
 import { Shelf007ChapterItem } from '@/lib/shelf007/service';
 import { MarkdownContent } from '@/components/ui/markdown-content';
@@ -33,6 +35,7 @@ export function Shelf007ContinuousReader({
   const [activeSectionIndex, setActiveSectionIndex] = useState(0);
   const [isOutlineOpen, setIsOutlineOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   const subjectTitle =
@@ -119,7 +122,58 @@ export function Shelf007ContinuousReader({
     }
   }, []);
 
-  // Keyboard navigation: J (next section), K (prev section), Esc (close drawer)
+  // Fullscreen reading mode handler (supports native Fullscreen API + Zen Reader mode)
+  const toggleFullscreen = async () => {
+    try {
+      if (!document.fullscreenElement) {
+        if (document.documentElement.requestFullscreen) {
+          await document.documentElement.requestFullscreen();
+        }
+        setIsFullscreen(true);
+        document.documentElement.setAttribute('data-reading-fullscreen', 'true');
+      } else {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        }
+        setIsFullscreen(false);
+        document.documentElement.removeAttribute('data-reading-fullscreen');
+      }
+    } catch {
+      // Fallback for restricted environments or mobile browsers
+      setIsFullscreen((prev) => {
+        const next = !prev;
+        if (next) {
+          document.documentElement.setAttribute('data-reading-fullscreen', 'true');
+        } else {
+          document.documentElement.removeAttribute('data-reading-fullscreen');
+        }
+        return next;
+      });
+    }
+  };
+
+  // Sync fullscreen state with browser native fullscreen events
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      const active = !!document.fullscreenElement;
+      setIsFullscreen(active);
+      if (active) {
+        document.documentElement.setAttribute('data-reading-fullscreen', 'true');
+      } else {
+        document.documentElement.removeAttribute('data-reading-fullscreen');
+      }
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+      document.documentElement.removeAttribute('data-reading-fullscreen');
+    };
+  }, []);
+
+  // Keyboard navigation: J (next section), K (prev section), F (fullscreen), Esc (close drawer / exit fullscreen)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
@@ -134,15 +188,24 @@ export function Shelf007ContinuousReader({
         if (activeSectionIndex > 0) {
           scrollToSection(activeSectionIndex - 1);
         }
+      } else if (e.key === 'f' || e.key === 'F') {
+        if (!e.ctrlKey && !e.metaKey && !e.altKey) {
+          e.preventDefault();
+          toggleFullscreen();
+        }
       } else if (e.key === 'Escape') {
-        setIsSidebarOpen(false);
-        setIsOutlineOpen(false);
+        if (isSidebarOpen || isOutlineOpen) {
+          setIsSidebarOpen(false);
+          setIsOutlineOpen(false);
+        } else if (isFullscreen) {
+          toggleFullscreen();
+        }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeSectionIndex, currentChapter.sections.length]);
+  }, [activeSectionIndex, currentChapter.sections.length, isSidebarOpen, isOutlineOpen, isFullscreen]);
 
   const scrollToSection = (index: number) => {
     const el = sectionRefs.current[index];
@@ -254,6 +317,27 @@ export function Shelf007ContinuousReader({
 
             {/* Reading Ambience Switcher */}
             <ThemeSwitcher />
+
+            {/* Fullscreen Reading Toggle */}
+            <button
+              onClick={toggleFullscreen}
+              className={`px-2 py-1 rounded-md border text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer ${
+                isFullscreen
+                  ? 'bg-[#1B4D3C] border-[#C59B4B] text-[#C59B4B] shadow-2xs font-semibold'
+                  : 'bg-[#16352A] border-[#234A3C] hover:bg-[#1D4436] text-[#FAF8F3]'
+              }`}
+              title={isFullscreen ? 'Exit Full Screen (Esc or F)' : 'Enter Full Screen (F)'}
+              aria-label={isFullscreen ? 'Exit Full Screen' : 'Enter Full Screen'}
+            >
+              {isFullscreen ? (
+                <Minimize2 className="w-3.5 h-3.5 text-[#C59B4B]" />
+              ) : (
+                <Maximize2 className="w-3.5 h-3.5 text-[#A1B8A9]" />
+              )}
+              <span className="hidden sm:inline font-sans">
+                {isFullscreen ? 'Exit Full' : 'Full Screen'}
+              </span>
+            </button>
 
             {/* Quick Outline Jump Menu */}
             <button

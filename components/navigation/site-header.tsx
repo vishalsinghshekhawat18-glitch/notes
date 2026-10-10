@@ -29,7 +29,7 @@ export function SiteHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm max-w-full overflow-x-clip">
+      <header id="site-header" className="sticky top-0 z-30 bg-[#10251F] text-[#FAF8F3] backdrop-blur-md border-b border-[#1E3A2E] shadow-sm max-w-full overflow-x-clip">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2 w-full min-w-0">
           {/* Brand & Subtitle */}
           <div className="flex items-center gap-4 sm:gap-6 min-w-0">
