@@ -2186,3 +2186,399 @@
 - Asian Para Games Flagbearers: **Pramod Bhagat & Bhavina Patel**.
 - Rural Cricket League: **Kisan Cricket League (KCL)** by Prasar Bharati.
 - World Hydrogen Day: **October 8**. World Mental Health Day: **October 10**.
+
+---
+
+## 8. 📊 COMPLEMENTARY MONETARY, REGULATORY, DIPLOMACY & GLOBAL BENCHMARKS (OCTOBER 1–10, 2026)
+
+📰 [OCT-126] **RBI Fixes Coupon Rate for Government of India Floating Rate Bond (FRB) 2028 at 6.45% per Annum**
+
+- **Statutory Determination & Sovereign Debt Mechanism**:
+  - The Reserve Bank of India (**RBI**) officially determined the interest rate on the *Government of India Floating Rate Bond (FRB) 2028* at **6.45% per annum** for the six-month coupon period spanning **October 4, 2026, to April 3, 2027**.
+  - **Benchmark Coupling Formula**:
+    - The floating coupon rate is calibrated based on the base rate equivalent to the average rate of the implicit yields at the cut-off prices of the last three auctions of **182-day Government of India Treasury Bills (T-Bills)** held prior to October 4, 2026, plus a fixed sovereign spread determined at the time of primary issuance.
+    - Yields on floating rate bonds reset semi-annually, insulating sovereign and institutional portfolio books from duration risk in volatile interest rate cycles.
+
+🎯 Exam Angle →
+- Fixed FRB 2028 Coupon Rate: **6.45% per annum**.
+- Coupon Application Period: **October 4, 2026, to April 3, 2027** (6-month tenor).
+- Underlying Benchmark: Average implicit yield of the last 3 auctions of **182-day T-Bills**.
+- Reset Frequency: Semi-annually.
+
+---
+
+📰 [OCT-127] **SEBI Introduces Mandatory Colour-Coded 'Credit Risk-o-Meter' for Corporate Debt Securities**
+
+- **Capital Market Regulatory Mandate**:
+  - The Securities and Exchange Board of India (**SEBI**) directed all registered debt security issuers, debenture trustees, and Online Bond Platform Providers (**OBPPs**) to implement a standardized, colour-coded **Credit Risk-o-Meter**.
+  - **Structural Mechanics & Risk Stratification**:
+    - Visual depiction tool must be displayed prominently on all offer documents, term sheets, placement memorandums, and digital trading dashboards.
+    - Stratifies debt instruments across 6 distinct tiers of creditworthiness—ranging from *Low Risk* (AAA sovereign/quasi-sovereign) to *Very High Risk* (unrated or high-yield junk paper).
+    - Requires dynamic real-time recalibration whenever a registered Credit Rating Agency (CRA) issues a rating migration, credit watch, or outlook downgrade.
+  - **Consumer Protection Rationale**: Addresses the sharp surge in retail participation across debt platforms and online bond portals, preventing mis-selling of subordinated or perpetual hybrid debt securities as fixed deposits.
+
+🎯 Exam Angle →
+- New Debt Risk Disclosure Tool: **Credit Risk-o-Meter**.
+- Regulatory Authority: **Securities and Exchange Board of India (SEBI)**.
+- Entities Bound: Issuers, Debenture Trustees, and **Online Bond Platform Providers (OBPPs)**.
+- Number of Risk Levels: **6 tiers** (with real-time rating migration triggers).
+
+---
+
+📰 [OCT-128] **SEBI Directs Registered Stock Brokers to Prominently Display F&O Risk Disclosures and Awareness Warnings**
+
+- **Retail Risk Containment Norms**:
+  - SEBI issued mandatory compliance circulars directing all registered stock brokers and discount brokerage platforms to prominently display standardized **Investor Awareness Messages** across trading software screens, mobile apps, and monthly contract notes.
+  - **Mandatory 9-out-of-10 Loss Warning**:
+    - Brokers must enforce a pop-up confirmation screen prior to executing equity derivatives orders, explicitly citing SEBI's empirical research finding: **9 out of 10 individual traders (89%) in the equity Futures & Options (F&O) segment incur net financial losses**, with an average net loss exceeding ₹1.1 lakh per loss-making trader.
+    - Designed to curb retail over-leverage and speculative churning in index weekly options contracts.
+
+🎯 Exam Angle →
+- F&O Loss Ratio Mandated in Warning: **9 out of 10 (89%) retail traders**.
+- Placement Requirement: Pre-trade pop-up screen and digital trading terminal dashboards.
+- Regulator: **SEBI**.
+
+---
+
+📰 [OCT-129] **Department of Pharmaceuticals Caps Trade Margins on Non-Scheduled Anti-Cancer Formulations at 30% of MRP**
+
+- **Statutory Price Regulation & Healthcare Relief**:
+  - The Department of Pharmaceuticals (DoP), Ministry of Chemicals and Fertilizers, acting through the National Pharmaceutical Pricing Authority (**NPPA**), notified a **30% Trade Margin Cap** on all non-scheduled anti-cancer medications under Paragraph 19 of the *Drugs (Prices Control) Order, 2013 (DPCO 2013)*.
+  - **Trade Margin Calculation Formula**:
+    - Trade Margin is strictly defined as $Trade\ Margin = \frac{MRP - PTR}{PTR} \times 100$, where **PTR** represents the Price to Retailer.
+    - Any manufacturer or distributor charging margins above 30% is liable to recovery of overcharged amounts with penal interest under the *Essential Commodities Act, 1955*.
+  - **Patient Impact**: Reduces the retail Maximum Retail Price (MRP) of critical life-saving oncology drugs by up to **50% to 70%**, substantially curtailing catastrophic out-of-pocket health expenditure.
+
+🎯 Exam Angle →
+- Trade Margin Ceiling: **30% of Price to Retailer (PTR)**.
+- Drug Classification: **Non-scheduled anti-cancer formulations**.
+- Statutory Base: Paragraph 19 of **DPCO 2013** under the **Essential Commodities Act, 1955**.
+- Enforcement Body: **National Pharmaceutical Pricing Authority (NPPA)**.
+
+---
+
+📰 [OCT-130] **India's First 3D Concrete-Printed Rural Housing Project Inaugurated under Pradhan Mantri Awas Yojana - Gramin**
+
+- **Technological Breakthrough in Rural Infrastructure**:
+  - Union Minister for Agriculture & Farmers' Welfare and Rural Development, **Shivraj Singh Chouhan**, inaugurated India's **first 3D Concrete-Printed Housing Project** under the aegis of the *Pradhan Mantri Awas Yojana - Gramin (PMAY-G)*.
+  - **Engineering & Operational Ratios**:
+    - Employs computerized gantry robotic extrusion systems using rapid-hardening indigenous geopolymer concrete.
+    - **Construction Duration**: Complete residential structural shell printed in **under 5 days**, compared to the conventional manual brick-and-mortar timeline of 4 to 6 months.
+    - Provides superior seismic resilience, flood durability, and a 3°C to 4°C natural thermal cooling insulation gradient in rural drylands.
+
+🎯 Exam Angle →
+- Scheme: **Pradhan Mantri Awas Yojana - Gramin (PMAY-G)**.
+- Inaugurating Minister: **Shivraj Singh Chouhan** (Minister of Rural Development).
+- Technology: **3D Concrete-Printed Robotic Extrusion Housing**.
+- Structural Turnaround Time: Printed in **under 5 days**.
+
+---
+
+📰 [OCT-131] **UNCTAD 2026 Trade and Development Report: India Projected as Fastest-Growing Major Economy at 7.3%**
+
+- **Global Macro Projections & Institutional Findings**:
+  - The United Nations Trade and Development (**UNCTAD**) released its flagship *2026 Trade and Development Report*.
+  - **India Macro Projections**:
+    - India is projected to grow by **7.3% in 2026**, maintaining its standing as the fastest-growing major emerging economy globally.
+    - Driven by strong government capital expenditure, robust domestic consumption, and expanding services export resilience.
+  - **Global & Regional Trajectory**:
+    - Global economic expansion projected to decelerate to **2.6% in 2026** and **2.7% in 2027**.
+    - Global trade growth estimated at **4% in 2026**, declining from the 4.4% expansion recorded in 2025.
+    - **Asia's Growth Hegemony**: The Asian continent is projected to contribute **59% of total global economic growth** in 2026.
+    - UNCTAD cautioned against uneven wealth concentration stemming from Artificial Intelligence (AI) and corporate debt refinancing stress in low-income nations.
+
+🎯 Exam Angle →
+- UNCTAD India GDP Growth Forecast (2026): **7.3%** (highest among major economies).
+- Global Economic Growth Forecast (2026): **2.6%** (2027: **2.7%**).
+- Global Trade Volume Growth: **4%**.
+- Asia's Share of Global Economic Growth: **59%**.
+
+---
+
+📰 [OCT-132] **World Bank AI Readiness Index: India Ranks Among Top 10 Emerging Markets in Artificial Intelligence Preparedness**
+
+- **Digital Transformation & Workforce Analytics**:
+  - The World Bank's global benchmark survey on digital infrastructure and emerging technology deployment placed India among the **Top 10 Emerging Markets in AI Readiness**.
+  - **Evaluation Pillars**:
+    - High-density STEM talent pipeline and software developer workforce;
+    - Scalable Digital Public Infrastructure (**DPI / India Stack**);
+    - Accelerating hyperscale data center capacity and green power integration under the *IndiaAI Mission*.
+  - Recommended scaling domestic compute capacity and establishing specialized rural and vernacular AI interfaces to bridge linguistic divides.
+
+🎯 Exam Angle →
+- Ranking: India among the **Top 10 Emerging Markets** in AI Readiness.
+- Reporting Agency: **The World Bank**.
+- Key Domestic Enabler: **IndiaAI Mission & Digital Public Infrastructure (DPI)**.
+
+---
+
+📰 [OCT-133] **2026 Nobel Prize in Physiology or Medicine Awarded to Victor Ambros and Gary Ruvkun for microRNA Discovery**
+
+- **Biomedical Milestone & Genetic Regulation**:
+  - The Nobel Assembly at Karolinska Institutet awarded the **2026 Nobel Prize in Physiology or Medicine** jointly to American scientists **Victor Ambros** and **Gary Ruvkun**.
+  - **Scientific Thesis & Discovery**:
+    - Honoured *"for the discovery of microRNA and its fundamental role in post-transcriptional gene regulation"*.
+    - Using the nematode worm *Caenorhabditis elegans (C. elegans)*, they uncovered tiny, non-coding RNA molecules (microRNAs) that bind to complementary messenger RNA (mRNA) sequences, controlling protein synthesis without altering the underlying DNA code.
+    - Defects in microRNA regulation are directly implicated in human cancers, cardiovascular anomalies, and autoimmune diseases.
+
+🎯 Exam Angle →
+- 2026 Nobel Prize in Medicine Laureates: **Victor Ambros & Gary Ruvkun** (USA).
+- Discovery: **microRNA** and its role in post-transcriptional gene regulation.
+- Model Organism Used: ***Caenorhabditis elegans (C. elegans)***.
+- Awarding Body: **The Nobel Assembly at Karolinska Institutet (Sweden)**.
+
+---
+
+📰 [OCT-134] **CryptoSe Launches as India's First Crypto-to-UPI Direct Payments Application**
+
+- **Fintech Rails & Virtual Digital Asset (VDA) Compliance**:
+  - Fintech enterprise Dadu Fintech Private Limited (Founder: Adv. Sakir Dadu) unveiled **CryptoSe**, positioned as India's **first crypto-to-UPI bridge application**.
+  - **Transactional Mechanics**:
+    - Allows registered users to spend designated virtual digital assets (VDAs) at any domestic merchant point-of-sale supporting Bharat Interface for Money / Unified Payments Interface (UPI) QR codes.
+    - System converts crypto holdings into Indian Rupees (INR) instantaneously at verified real-time spot exchange rates, routing fiat settlement directly through NPCI/UPI banking switches while executing mandatory 1% Tax Deducted at Source (TDS under Section 194S) and complying with FIU-IND AML/PMLA registration protocols.
+
+🎯 Exam Angle →
+- Application Name: **CryptoSe** (India's first crypto-to-UPI bridge app).
+- Parent Entity: **Dadu Fintech Private Limited** (Founder: Adv. Sakir Dadu).
+- Statutory Tax Deduction: **1% TDS under Section 194S of the Income Tax Act**.
+- Regulatory Oversight: **Financial Intelligence Unit - India (FIU-IND)**.
+
+---
+
+📰 [OCT-135] **Hindustan Aeronautics Limited (HAL) Acquires 100% Equity Ownership of Simulator JV 'HATSOFF'**
+
+- **Defence Aerospace Consolidation**:
+  - Public sector aerospace behemoth **Hindustan Aeronautics Limited (HAL)** bought out the 50% equity stake held by Canadian simulation major CAE Inc., converting the joint venture **HATSOFF** (*Helicopter Academy to Train by Simulation of Flying Private Limited*) into a **100% wholly-owned HAL subsidiary**.
+  - **Asset & Training Footprint**:
+    - Established in 2008 in Bengaluru, HATSOFF operates Level D full-flight simulators for military and civilian rotary-wing aircraft, including the Advanced Light Helicopter (ALH Dhruv) and civil Bell/Eurocopter fleets.
+    - Gives HAL sovereign control over domestic advanced flight simulation and pilot type-rating certification infrastructure.
+
+🎯 Exam Angle →
+- Acquirer: **Hindustan Aeronautics Limited (HAL)** (acuires remaining 50% from CAE Inc., Canada).
+- Venture Acquired: **HATSOFF** (Helicopter Academy to Train by Simulation of Flying).
+- Location: **Bengaluru, Karnataka**.
+- Simulator Certification: **Level D Full-Flight Simulators (ALH Dhruv & civil fleets)**.
+
+---
+
+📰 [OCT-136] **Central Government Approves ₹65 Crore DRISHTI Spatial Drone Survey Project for Delhi Unauthorised Colonies**
+
+- **Urban Land Governance & Geospatial Property Mapping**:
+  - The Central Government sanctioned the **DRISHTI** (*Delhi Revenue and Imaging Survey, Spatial Technology Initiative*) project with an outlay of **₹65 Crore**.
+  - **Operational Framework**:
+    - Deploys high-precision drone LiDAR (Light Detection and Ranging) aerial photogrammetry and GIS satellite ground validation to survey over 1,700 unauthorised colonies across the National Capital Territory of Delhi.
+    - Objective: Fast-track boundary delineation, dispute-free digital title registry, and accelerated issuance of formal conveyance deeds / property ownership certificates under the PM-UDAY scheme.
+
+🎯 Exam Angle →
+- Project Acronym: **DRISHTI** (*Delhi Revenue and Imaging Survey, Spatial Technology Initiative*).
+- Sanctioned Outlay: **₹65 Crore**.
+- Primary Objective: High-resolution GIS/drone survey for property rights in **Delhi's unauthorised colonies**.
+- Governing Program: **PM-UDAY**.
+
+---
+
+📰 [OCT-137] **Republic of Ghana Formally Joins India-Led International Big Cat Alliance (IBCA)**
+
+- **Global Conservation Diplomacy**:
+  - The Republic of Ghana submitted its official Instrument of Acceptance to External Affairs Minister **Dr. S. Jaishankar**, formally becoming a member state of the India-led **International Big Cat Alliance (IBCA)**.
+  - **About IBCA**:
+    - Launched by Prime Minister Narendra Modi in April 2023 on the 50th anniversary of *Project Tiger*.
+    - Envisages a multi-country coalition of 96 big-cat range countries to protect and conserve **7 global big cat species**: **Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma**.
+    - Headquartered in India with sovereign corpus support of ₹150 Crore for an initial five-year period.
+
+🎯 Exam Angle →
+- Latest Entrant State: **Ghana** (Instrument accepted by EAM S. Jaishankar).
+- Coalition: **International Big Cat Alliance (IBCA)**.
+- 7 Big Cats Protected: **Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, Puma**.
+- Initial Government of India Corpus: **₹150 Crore**.
+
+---
+
+📰 [OCT-138] **Indian Army and UAE Armed Forces Conduct Joint Military Exercise 'Mountain Guardian 2026' in Chaubatia**
+
+- **Bilateral Defence Cooperation**:
+  - Indian Army and the United Arab Emirates (UAE) Armed Forces kicked off the joint military exercise **Mountain Guardian 2026** at the Foreign Training Node in **Chaubatia, Uttarakhand**.
+  - Focuses on joint tactical drills, counter-terrorism search-and-cordon operations, sniper coordination, and emergency casualty medical evacuation in high-altitude rugged mountainous terrain under UN Chapter VII peace-enforcement mandates.
+
+🎯 Exam Angle →
+- Exercise Name: **Exercise Mountain Guardian 2026**.
+- Participating Nations: **India & United Arab Emirates (UAE)**.
+- Location: **Chaubatia, Uttarakhand** (Foreign Training Node).
+- Terrain Focus: High-altitude mountain warfare and tactical counter-terrorism.
+
+---
+
+📰 [OCT-139] **Joint Indo-Argentine Army Mountaineering Expedition Summits Mt Kamet (7,756m) and Mt Abi Gamin (7,355m)**
+
+- **High-Altitude Military Mountaineering**:
+  - Chief of Army Staff (**COAS**) General Dhiraj Seth formally flagged in the joint 35-member **Indo-Argentine Army Mountaineering Expedition** in New Delhi.
+  - The joint contingent successfully scaled two of the highest peaks in the Garhwal Himalayas (Uttarakhand):
+    - **Mt Kamet**: **7,756 metres** (India's third-highest peak situated entirely in Uttarakhand, after Kangchenjunga and Nanda Devi);
+    - **Mt Abi Gamin**: **7,355 metres**.
+  - Strengthened high-altitude survival doctrine and military mountaineering interoperability between India and South America.
+
+🎯 Exam Angle →
+- Participating Nations: **India & Argentina**.
+- Peaks Summited: **Mt Kamet (7,756m)** and **Mt Abi Gamin (7,355m)**.
+- Mountain Range: **Garhwal Himalayas, Uttarakhand**.
+- Flag-in Authority: **COAS General Dhiraj Seth**.
+
+---
+
+📰 [OCT-140] **2nd India–EFTA Prosperity Summit 2026 Convened at Bharat Mandapam on 1st Anniversary of TEPA**
+
+- **Bilateral Trade Expansion**:
+  - Prime Minister **Narendra Modi** and Swiss Federal President **Guy Parmelin** addressed the **2nd India–EFTA Prosperity Summit** at Bharat Mandapam, New Delhi.
+  - **Milestone & TEPA Commitment**:
+    - Marks the 1st anniversary of signing the *Trade and Economic Partnership Agreement (TEPA)* between India and the European Free Trade Association (**EFTA**—Iceland, Liechtenstein, Norway, Switzerland).
+    - Theme: *"Building a USD 100 Billion Partnership"*, tracking EFTA's legal commitment to invest **$100 billion** in India over 15 years, creating 1 million direct employment opportunities in high-tech manufacturing, clean energy, precision engineering, and pharmaceuticals.
+
+🎯 Exam Angle →
+- Event: **2nd India–EFTA Prosperity Summit 2026** (Bharat Mandapam, New Delhi).
+- EFTA Member States: **Iceland, Liechtenstein, Norway, Switzerland**.
+- TEPA Investment Commitment: **$100 Billion over 15 years**.
+- Co-Chairs: **PM Narendra Modi & Swiss President Guy Parmelin**.
+
+---
+
+📰 [OCT-141] **8th Edition of Windergy India 2026 Organized in Chennai, Tamil Nadu**
+
+- **Wind Energy Industrial Gathering**:
+  - Ministry of New and Renewable Energy (MNRE), led by Union Minister **Pralhad Joshi**, alongside the Indian Wind Turbine Manufacturers Association (**IWTMA**), convened the **8th edition of Windergy India 2026** at Chennai Trade Centre.
+  - **Policy Directives**:
+    - Focused on accelerating India's offshore wind bidding pipeline (allocating 1 GW offshore seabed leases off Tamil Nadu and Gujarat);
+    - Repowering older onshore wind turbines (upgrading sub-1 MW turbines to 3+ MW high-capacity models);
+    - Target: Scaling India's operational wind capacity beyond **100 GW by 2030** to fulfill Panchamrit climate obligations.
+
+🎯 Exam Angle →
+- Event: **Windergy India 2026 (8th Edition)**.
+- Venue: **Chennai, Tamil Nadu**.
+- Union Minister: **Pralhad Joshi** (New and Renewable Energy).
+- Core Industry Body: **Indian Wind Turbine Manufacturers Association (IWTMA)**.
+
+---
+
+📰 [OCT-142] **Ambaji Mohanthal Prasad Awarded Geographical Indication (GI) Tag under Class 30**
+
+- **Cultural Heritage & Intellectual Property**:
+  - The Geographical Indications Registry (Chennai) granted the **GI Tag** to **Ambaji Mohanthal Prasad** under **Class 30 (foodstuffs/confectionery)**, following an application by the Shree Arasuri Ambaji Mata Devsthan Trust.
+  - **Cultural & Gastronomic Legacy**:
+    - Famous besan (gram flour), pure desi ghee, and saffron prasad sweet offered at the 1,200-year-old historic **Ambaji Temple** (one of the 51 Shaktipeeths, located on the Gabbar Hill in Banaskantha district, Gujarat).
+    - Joins premier GI-protected temple offerings in India, including the *Tirupati Laddu* (Andhra Pradesh, GI 2009) and *Palani Panchamirtham* (Tamil Nadu, GI 2019).
+
+🎯 Exam Angle →
+- Product: **Ambaji Mohanthal Prasad** (Awarded GI Tag under Class 30).
+- Temple & District: **Ambaji Mata Temple, Banaskantha District, Gujarat**.
+- Applicant Body: **Shree Arasuri Ambaji Mata Devsthan Trust**.
+- Comparable GI Temple Prasads: **Tirupati Laddu** (AP) & **Palani Panchamirtham** (TN).
+
+---
+
+📰 [OCT-143] **Lawn Bowls Milestone: Putul Sonowal Assures India's First-Ever Medal at World Bowls Champion of Champions**
+
+- **Historical Sporting Feat**:
+  - Veteran Indian lawn bowls athlete **Putul Sonowal** achieved an unprecedented national milestone by storming into the semi-finals of the men's singles event at the **World Bowls Champion of Champions** in Barham, Australia.
+  - Reaching the semi-final stage guaranteed India's **first-ever medal** in the history of the premier international World Bowls singles championship, following India's historic Gold in the Women's Fours at the 2022 Birmingham Commonwealth Games.
+
+🎯 Exam Angle →
+- Athlete: **Putul Sonowal** (Assures India's first-ever medal at World Bowls Champion of Champions).
+- Sport: **Lawn Bowls** (Men's Singles).
+- Championship Venue: **Barham, Australia**.
+
+---
+
+📰 [OCT-144] **African Union Launches Africa Credit Rating Agency (AfCRA) in Mauritius**
+
+- **Sovereign Rating Reform & Global Financial Architecture**:
+  - The African Union (**AU**) formally inaugurated the **Africa Credit Rating Agency (AfCRA)**, headquartered in Ebene, Mauritius.
+  - **Strategic Mandate**:
+    - Established as an independent continental credit rating institution to formulate fair, context-aware sovereign and corporate credit assessment models.
+    - Counters systemic rating biases and rapid downgrades imposed by the US-based "Big Three" credit rating agencies (Moody's, Standard & Poor's, Fitch), which inflate borrowing costs and debt servicing burdens for African sovereign debt issuers in international capital markets.
+
+🎯 Exam Angle →
+- Agency Name: **Africa Credit Rating Agency (AfCRA)**.
+- Established by: **African Union (AU)**.
+- Headquarters: **Ebene, Mauritius**.
+- Objective: Provide objective credit assessments countering western Big-Three rating biases.
+
+---
+
+📰 [OCT-145] **Supreme Court Constitutes Standing Committee on Judicial Well-Being for Subordinate Judiciary**
+
+- **Judicial Reform & Institutional Support**:
+  - Chief Justice of India constituted a permanent **Standing Committee on Judicial Well-Being** to formulate policy recommendations regarding institutional stress, psychological health, and working conditions for district and subordinate judicial officers.
+  - Focuses on workload calibration, institutional counselling access, medical facilities, and addressing severe docket-load stress across trial courts.
+
+🎯 Exam Angle →
+- Apex Body: **Supreme Court of India**.
+- Dedicated Body: **Standing Committee on Judicial Well-Being**.
+- Focus Target: District and subordinate judicial officers across India.
+
+---
+
+📰 [OCT-146] **Jantar Mantar De-notified as Public Agitation Venue in New Delhi**
+
+- **Civic Governance & Law Enforcement Orders**:
+  - Delhi Police and the Ministry of Home Affairs officially **de-notified Jantar Mantar** as an authorized venue for public demonstrations, sit-ins, and protests.
+  - Authorized protest venues in the National Capital Region (NCR) are now restricted exclusively to **Ramlila Ground**, **Burari Ground**, and **CBD Ground** (Shahdara), mitigating recurrent traffic gridlock and security vulnerabilities in the central Lutyens' administrative zone.
+
+🎯 Exam Angle →
+- De-notified Site: **Jantar Mantar (New Delhi)**.
+- Newly Permitted Alternative Protest Sites: **Ramlila Ground, Burari Ground, and CBD Ground**.
+
+---
+
+📰 [OCT-147] **Harmanpreet Kaur Steps Down as Captain of Indian Women's Cricket Team Across All Formats**
+
+- **Cricket Leadership Transition**:
+  - Harmanpreet Kaur formally announced her decision to step down as the captain of the Indian Women's National Cricket Team across all three formats (Tests, ODIs, T20Is).
+  - **Career Leadership Ledger**:
+    - Captained India in **5 Tests, 51 ODIs, and 114 T20Is**.
+    - Stood as only the **third Indian captain**—after legendary men's captains **Kapil Dev (1983)** and **M.S. Dhoni (2011)**—to lift a 50-over ICC World Cup championship trophy.
+
+🎯 Exam Angle →
+- Retiring Captain: **Harmanpreet Kaur** (Steps down across all formats).
+- Matches as Captain: **5 Tests, 51 ODIs, 114 T20Is**.
+- Elite Triumvirate: Third Indian captain to win a 50-over World Cup (alongside **Kapil Dev & M.S. Dhoni**).
+
+---
+
+📰 [OCT-148] **Razorpay Integrates OpenAI to Launch Direct Merchant Sponsored Ads on ChatGPT**
+
+- **AI-Powered Commerce & Advertising Innovation**:
+  - Leading Indian fintech company **Razorpay** entered into a collaboration with **OpenAI** to enable direct merchant-sponsored brand advertising on ChatGPT for Indian direct-to-consumer (D2C) brands through its growth marketing suite, **Razorpay Engage**.
+  - Allows consumer enterprises to surface relevant product recommendations directly in generative conversational search queries, pioneering conversational commerce in the domestic digital economy.
+
+🎯 Exam Angle →
+- Fintech Platform: **Razorpay** (via *Razorpay Engage*).
+- AI Partner: **OpenAI** (ChatGPT sponsored brand integration).
+- Core Focus: Conversational commerce discovery for Indian D2C brands.
+
+---
+
+📰 [OCT-149] **153rd Assembly of the Inter-Parliamentary Union (IPU) Held in Geneva**
+
+- **Multilateral Parliamentary Diplomacy**:
+  - An Indian Parliamentary delegation participated in the **153rd Assembly of the Inter-Parliamentary Union (IPU)** convened at Geneva, Switzerland.
+  - Focused on parliamentary oversight of emerging artificial intelligence (AI) safety standards, climate financing accountability, and multilateral peace protocols under the overarching IPU charter (established in 1889).
+
+🎯 Exam Angle →
+- Session: **153rd Assembly of the Inter-Parliamentary Union (IPU)**.
+- Venue: **Geneva, Switzerland**.
+- IPU Founding Year: **1889**.
+
+---
+
+📰 [OCT-150] **Defence Accounts Department (DAD) Commemorates 279th Annual Day**
+
+- **Sovereign Military Finance Heritage**:
+  - The Defence Accounts Department (**DAD**), operating under the Ministry of Defence (headed by the Controller General of Defence Accounts - **CGDA**), celebrated its **279th Annual Day**.
+  - **Institutional Genesis**:
+    - Traces historical origins to the appointment of the **Military Pay Master in 1747** under the British East India Company.
+    - Administers the complete budget and financial audit of the Indian Armed Forces, ordnance units, and the automated pension disbursement system **SPARSH** (*System for Pension Administration - Raksha*) serving over **33 lakh defence pensioners**.
+
+🎯 Exam Angle →
+- Milestone: **279th Annual Day** of the Defence Accounts Department (DAD).
+- Founding Year: **1747** (First Military Pay Master).
+- Head of Department: **Controller General of Defence Accounts (CGDA)**.
+- Flagship Pension System: **SPARSH** (serving >33 lakh defence pensioners).

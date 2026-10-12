@@ -793,7 +793,7 @@ export function Shelf007AcademicTOC({
                           {/* Dossier Action Bar */}
                           <div className="border-t border-[#E8E2D5] pt-3 flex items-center justify-between">
                             <span className="text-[11px] font-mono text-[#5A7365]">
-                              {isLatest ? '125 Units Synthesized' : 'Canonical Evidence Base'}
+                              {isLatest ? '150 Units Synthesized' : 'Canonical Evidence Base'}
                             </span>
 
                             <Link
