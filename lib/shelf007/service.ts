@@ -442,7 +442,33 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
       }
     }
 
-    const title = extractTitleFromMarkdown(content, shortTitle);
+    let title = extractTitleFromMarkdown(content, shortTitle);
+    
+    // Clean up bloated/uppercase titles for human-readable elegance
+    if (title.includes('CHAPTER 01: STATIC BANKING')) {
+      title = 'Static Banking, Regulatory Acts & Prudential Norms Core';
+    } else if (title.includes('CHAPTER 02: CURRENT AFFAIRS — JANUARY TO MARCH 2026')) {
+      title = 'January to March 2026 Consolidated Dossier (Full Q1)';
+    } else if (title.includes('CHAPTER 03: CURRENT AFFAIRS — APRIL 2026')) {
+      title = 'April 2026 Consolidated Dossier & Macro Prudential Survey';
+    } else if (title.includes('CHAPTER 04: CURRENT AFFAIRS — MAY 2026')) {
+      title = 'May 2026 PIB, Regulatory & Central Banking Dossier';
+    } else if (title.includes('CHAPTER 05: CURRENT AFFAIRS — JUNE 2026')) {
+      title = 'June 2026 Financial Stability & Sovereign Benchmark Dossier';
+    } else if (title.includes('CHAPTER 06: CURRENT AFFAIRS — JULY 2026')) {
+      title = 'July 2026 Union Budget & Economic Synthesis Dossier';
+    } else if (title.includes('CHAPTER 07: CURRENT AFFAIRS — AUGUST 2026')) {
+      title = 'August 2026 Sovereign Gazette & Macro Synthesis Dossier';
+    } else if (title.includes('CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026')) {
+      title = 'September 2026 Monetary Corridor & Sectoral Policy Dossier';
+    } else if (title.includes('CHAPTER 09: IBPS PO / CLERK MAINS')) {
+      title = 'IBPS PO & Clerk Mains 35+ Marks Guarantee Mega-Compendium';
+    } else if (title.includes('CHAPTER 10: COMPUTER APTITUDE')) {
+      title = 'Computer Aptitude, Digital Banking Systems & Cybersecurity Master';
+    } else if (title.includes('CHAPTER 11 • OCTOBER 2026') || title.includes('OCTOBER 2026 CONSOLIDATED')) {
+      title = 'October 2026 Consolidated Master Dossier (October 1–10)';
+    }
+    
     const description = extractDescriptionFromMarkdown(
       content,
       `Comprehensive sovereign synthesis of Contemporary Issues & Current Affairs, statutory genesis, institutional mechanisms, and multi-exam elimination frameworks.`
@@ -473,8 +499,14 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
       const chMatch = f.match(/CHAPTER_(\d+)/i);
       const num = chMatch ? parseInt(chMatch[1], 10) : 0;
       const slug = `rev-chapter-${String(num).padStart(2, '0')}`;
-      const shortTitle = `Rapid Revision: Chapter ${String(num).padStart(2, '0')}`;
-      const title = extractTitleFromMarkdown(content, shortTitle);
+      const topicMatch = content.match(/\*\*Topic\*\*:\s*([^\n\r]+)/);
+      const topic = topicMatch ? topicMatch[1].trim() : '';
+      const shortTitle = topic
+        ? `Matrix ${String(num).padStart(2, '0')}: ${topic}`
+        : `Rapid Revision: Chapter ${String(num).padStart(2, '0')}`;
+      const title = topic
+        ? `Rapid Revision Matrix: ${topic}`
+        : extractTitleFromMarkdown(content, shortTitle);
       const description = extractDescriptionFromMarkdown(
         content,
         'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
@@ -937,7 +969,10 @@ export function getQuantitativeAptitudeChapters(): Shelf007ChapterItem[] {
   const dir = path.join(process.cwd(), '007', 'notes', 'quantitative_aptitude');
   if (!fs.existsSync(dir)) return [];
 
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort();
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.md') && !f.includes('MASTER_BOOK') && !f.startsWith('_'))
+    .sort();
 
   return files.map((fileName, idx) => {
     const fullPath = path.join(dir, fileName);
@@ -1486,8 +1521,8 @@ export function getShelf007PartGroups(
       },
       {
         partNumber: 'PART II',
-        groupTitle: '2026 Chronological & Thematic Canonical Dossiers (Q1–Q3 2026)',
-        groupSubtitle: 'Exhaustive monthly & quarterly dossiers spanning January to September 2026 (ESI, Monetary Policy, Regulators, PIB Circulars, National Missions)',
+        groupTitle: '2026 Chronological & Thematic Canonical Dossiers (Q1–Q4 2026)',
+        groupSubtitle: 'Exhaustive monthly & quarterly dossiers spanning January to October 2026 (ESI, Monetary Policy, Regulators, PIB Circulars, National Missions)',
         slugs: [
           'chapter-02',
           'chapter-03',
@@ -1496,6 +1531,7 @@ export function getShelf007PartGroups(
           'chapter-06',
           'chapter-07',
           'chapter-08',
+          'chapter-11',
         ],
       },
       {

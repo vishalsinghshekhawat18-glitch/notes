@@ -2,14 +2,79 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { Shelf007PartGroup, Shelf007SubjectMeta } from '@/lib/shelf007/service';
-import { Search, ChevronDown, ChevronRight, BookOpen, Layers, Check } from 'lucide-react';
+import { Shelf007PartGroup, Shelf007SubjectMeta, Shelf007ChapterItem } from '@/lib/shelf007/service';
+import {
+  Search,
+  ChevronDown,
+  ChevronRight,
+  BookOpen,
+  Layers,
+  Zap,
+  Clock,
+  ArrowRight,
+  Sparkles,
+  FileText,
+  Calendar,
+} from 'lucide-react';
 
 interface Shelf007AcademicTOCProps {
   subject: Shelf007SubjectMeta;
   partGroups: Shelf007PartGroup[];
   firstReadSlug: string;
 }
+
+// Chronological timeline metadata for Current Affairs monthly dossiers
+const CHRONO_META: Record<
+  string,
+  {
+    tag: string;
+    period: string;
+    isLatest?: boolean;
+    badgeStyle: string;
+  }
+> = {
+  'chapter-02': {
+    tag: 'Q1 2026',
+    period: 'Jan – Mar 2026 (Full Q1)',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-03': {
+    tag: 'APR 2026',
+    period: 'April 2026 Macro Prudential',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-04': {
+    tag: 'MAY 2026',
+    period: 'May 2026 PIB & Regulators',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-05': {
+    tag: 'JUN 2026',
+    period: 'June 2026 Stability & Benchmark',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-06': {
+    tag: 'JUL 2026',
+    period: 'July 2026 Budget & Synthesis',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-07': {
+    tag: 'AUG 2026',
+    period: 'August 2026 Gazette & Macro',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-08': {
+    tag: 'SEP 2026',
+    period: 'September 2026 Monetary Corridor',
+    badgeStyle: 'bg-[#F2EFE8] text-[#3D4F44] border-[#DCD5C5]',
+  },
+  'chapter-11': {
+    tag: 'OCT 2026',
+    period: 'October 1–10 (Latest Ingest)',
+    isLatest: true,
+    badgeStyle: 'bg-emerald-50 text-emerald-900 border-emerald-300 font-semibold',
+  },
+};
 
 export function Shelf007AcademicTOC({
   subject,
@@ -18,14 +83,14 @@ export function Shelf007AcademicTOC({
 }: Shelf007AcademicTOCProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPartIndex, setSelectedPartIndex] = useState<number | 'all'>('all');
-  const [viewMode, setViewMode] = useState<'compact' | 'detailed'>('compact');
+  const [viewMode, setViewMode] = useState<'compact' | 'detailed'>('detailed');
 
   // Collect all chapter slugs for expand/collapse state
   const allChapterSlugs = useMemo(() => {
     return partGroups.flatMap((g) => g.chapters.map((c) => c.slug));
   }, [partGroups]);
 
-  // Collapsed by default to avoid vertical bloat!
+  // Collapsed by default to avoid vertical bloat
   const [expandedChapterSlugs, setExpandedChapterSlugs] = useState<Set<string>>(
     () => new Set()
   );
@@ -102,9 +167,19 @@ export function Shelf007AcademicTOC({
     return filteredGroups.reduce((acc, g) => acc + g.chapters.length, 0);
   }, [filteredGroups]);
 
+  // Helper to clean up titles for presentation
+  const getDisplayTitle = (chapter: Shelf007ChapterItem) => {
+    let t = chapter.title;
+    // Strip redundant leading "CHAPTER XX:" if already displayed as a badge
+    t = t.replace(/^CHAPTER\s+\d+[:•]\s*/i, '');
+    // Strip redundant "RAPID REVISION MATRIX:\s*"
+    t = t.replace(/^RAPID REVISION MATRIX[:\s]*/i, '');
+    return t.trim();
+  };
+
   return (
     <div className="space-y-6 font-sans max-w-full overflow-x-clip">
-      {/* 1. Subject Academic Proscenium Header (Noble Parchment Folio Plate) */}
+      {/* 1. Subject Academic Proscenium Header */}
       <header className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-5 sm:p-6 shadow-2xs space-y-4 relative overflow-hidden">
         {/* Subtle Ambient Watermark */}
         <div className="pointer-events-none absolute -right-16 -top-16 w-64 h-64 rounded-full bg-[#10251F]/5 blur-3xl" />
@@ -121,6 +196,12 @@ export function Shelf007AcademicTOC({
             <span className="text-[#5A7365] hidden sm:inline text-xs">
               • {subject.badge}
             </span>
+            {subject.slug === 'current-affairs' && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-semibold">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
+                <span>October 2026 Ingest Live</span>
+              </span>
+            )}
           </div>
 
           <div className="flex flex-wrap items-center gap-2.5 text-xs text-[#5A7365]">
@@ -160,7 +241,7 @@ export function Shelf007AcademicTOC({
 
         {/* Primary Sequential Reading Action */}
         {firstReadSlug && (
-          <div className="flex flex-wrap items-center gap-3 border-t border-[#E8E2D5] pt-4">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-[#E8E2D5] pt-4">
             <Link
               href={`/shelf-007/${subject.slug}/${firstReadSlug}`}
               className="inline-flex items-center gap-2 px-4 py-2 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs sm:text-sm font-serif font-semibold rounded-lg shadow-2xs transition-all hover:shadow-xs group cursor-pointer"
@@ -193,7 +274,13 @@ export function Shelf007AcademicTOC({
             }`}
           >
             <span>All Parts</span>
-            <span className={`text-[10px] px-1.5 py-0.2 rounded ${selectedPartIndex === 'all' ? 'bg-[#1D4436] text-[#FAF8F3]' : 'bg-[#F0ECE1] text-[#5A7365]'}`}>
+            <span
+              className={`text-[10px] px-1.5 py-0.2 rounded ${
+                selectedPartIndex === 'all'
+                  ? 'bg-[#1D4436] text-[#FAF8F3]'
+                  : 'bg-[#F0ECE1] text-[#5A7365]'
+              }`}
+            >
               {totalChapters}
             </span>
           </button>
@@ -201,22 +288,48 @@ export function Shelf007AcademicTOC({
           {partGroups.map((group, idx) => {
             const isSelected = selectedPartIndex === idx;
             const label = group.partNumber || `Part ${idx + 1}`;
+            const isChronoPart =
+              group.partNumber === 'PART II' && subject.slug === 'current-affairs';
+            const isRapidRev = group.partNumber === 'RAPID REVISION';
+
             return (
               <button
                 key={idx}
                 onClick={() => setSelectedPartIndex(idx)}
                 title={`${group.groupTitle} (${group.chapters.length} chapters)`}
-                className={`px-3 py-1.5 rounded-lg border transition-all shrink-0 cursor-pointer flex items-center gap-1.5 max-w-[240px] truncate ${
+                className={`px-3 py-1.5 rounded-lg border transition-all shrink-0 cursor-pointer flex items-center gap-1.5 max-w-[280px] ${
                   isSelected
                     ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] font-semibold shadow-2xs'
                     : 'bg-[#FFFFFF] text-[#2B3B33] border-[#E0D9CB] hover:bg-[#F5F2EB]'
                 }`}
               >
-                <span className="font-semibold">{label}</span>
+                {isRapidRev ? (
+                  <Zap className="w-3 h-3 text-[#9E722C] shrink-0" />
+                ) : isChronoPart ? (
+                  <Calendar className="w-3 h-3 text-emerald-600 shrink-0" />
+                ) : null}
+
+                <span className="font-semibold shrink-0">{label}</span>
+
                 <span className="text-[11px] truncate hidden sm:inline text-stone-500 font-sans">
-                  {group.groupTitle}
+                  {isChronoPart
+                    ? '2026 Dossiers'
+                    : isRapidRev
+                    ? 'Recall Matrices'
+                    : group.groupTitle}
                 </span>
-                <span className={`text-[10px] px-1.5 py-0.2 rounded shrink-0 ${isSelected ? 'bg-[#1D4436] text-[#FAF8F3]' : 'bg-[#F0ECE1] text-[#5A7365]'}`}>
+
+                {isChronoPart && (
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" title="October 2026 Ingested" />
+                )}
+
+                <span
+                  className={`text-[10px] px-1.5 py-0.2 rounded shrink-0 ${
+                    isSelected
+                      ? 'bg-[#1D4436] text-[#FAF8F3]'
+                      : 'bg-[#F0ECE1] text-[#5A7365]'
+                  }`}
+                >
                   {group.chapters.length}
                 </span>
               </button>
@@ -236,7 +349,7 @@ export function Shelf007AcademicTOC({
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={`Search across ${totalChapters} chapters and ${totalSections} sub-lessons...`}
+            placeholder={`Search across ${totalChapters} chapters, dossiers, and ${totalSections} sub-lessons...`}
             className="w-full pl-10 pr-9 py-2 text-xs sm:text-sm bg-[#FAF9F4] border border-[#E0D9CB] rounded-lg text-[#10251F] placeholder-[#8A9E92] focus:outline-none focus:ring-2 focus:ring-[#10251F]/30 transition-all font-sans"
           />
           {searchQuery && (
@@ -266,7 +379,7 @@ export function Shelf007AcademicTOC({
                   ? 'bg-[#10251F] text-[#FAF8F3] font-semibold shadow-2xs'
                   : 'text-[#5A7365] hover:text-[#10251F]'
               }`}
-              title="Compact book codex index (75% less vertical height)"
+              title="Compact index (single-line rows for maximum speed)"
             >
               <BookOpen className="w-3.5 h-3.5" />
               <span>Compact</span>
@@ -278,10 +391,10 @@ export function Shelf007AcademicTOC({
                   ? 'bg-[#10251F] text-[#FAF8F3] font-semibold shadow-2xs'
                   : 'text-[#5A7365] hover:text-[#10251F]'
               }`}
-              title="Full curriculum syllabus view with descriptions"
+              title="Bento & Curated layout with full metadata cards"
             >
               <Layers className="w-3.5 h-3.5" />
-              <span>Detailed</span>
+              <span>Bento Grid</span>
             </button>
           </div>
 
@@ -309,7 +422,8 @@ export function Shelf007AcademicTOC({
         <div className="flex items-center justify-between px-4 py-2 rounded-lg bg-[#F5F2EB] border border-[#E0D9CB] text-xs font-mono text-[#5A7365]">
           <div className="flex items-center gap-2">
             <span className="font-bold text-[#10251F]">
-              Showing: {partGroups[selectedPartIndex]?.partNumber || `Part ${selectedPartIndex + 1}`} ({partGroups[selectedPartIndex]?.chapters.length} chapters)
+              Showing: {partGroups[selectedPartIndex]?.partNumber || `Part ${selectedPartIndex + 1}`} (
+              {partGroups[selectedPartIndex]?.chapters.length} chapters)
             </span>
           </div>
           <button
@@ -321,11 +435,13 @@ export function Shelf007AcademicTOC({
         </div>
       )}
 
-      {/* 4. Main Curriculum Chapters */}
+      {/* 4. Main Curriculum Sections */}
       {filteredGroups.length === 0 ? (
         <div className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-8 text-center space-y-3">
           <p className="text-[#5A7365] text-sm font-sans">
-            No curriculum chapters or sub-lessons match &ldquo;<span className="font-semibold text-[#10251F]">{searchQuery}</span>&rdquo;.
+            No curriculum chapters or sub-lessons match &ldquo;
+            <span className="font-semibold text-[#10251F]">{searchQuery}</span>
+            &rdquo;.
           </p>
           <button
             onClick={() => {
@@ -338,243 +454,617 @@ export function Shelf007AcademicTOC({
           </button>
         </div>
       ) : (
-        <div className="space-y-8">
-          {filteredGroups.map((group, groupIdx) => (
-            <section key={groupIdx} className="space-y-3">
-              {/* Part Section Heading */}
-              <div className="border-b-2 border-[#10251F] pb-2 flex flex-wrap items-baseline justify-between gap-2">
-                <div className="space-y-0.5 min-w-0">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    {group.partNumber && (
-                      <span className="text-[10px] font-mono font-bold text-[#10251F] uppercase tracking-wider bg-[#F5F2EB] px-2 py-0.5 rounded border border-[#E0D9CB] shrink-0">
-                        {group.partNumber}
-                      </span>
+        <div className="space-y-10">
+          {filteredGroups.map((group, groupIdx) => {
+            const isRapidRev = group.partNumber === 'RAPID REVISION';
+            const isFrontMatter = group.partNumber === 'FRONT MATTER';
+            const isChronoPart =
+              group.partNumber === 'PART II' && subject.slug === 'current-affairs';
+
+            return (
+              <section key={groupIdx} className="space-y-4">
+                {/* Part Section Heading */}
+                <div className="border-b-2 border-[#10251F] pb-2 flex flex-wrap items-baseline justify-between gap-2">
+                  <div className="space-y-0.5 min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      {group.partNumber && (
+                        <span
+                          className={`text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded border shrink-0 ${
+                            isRapidRev
+                              ? 'bg-amber-50 text-[#854D0E] border-amber-200'
+                              : isChronoPart
+                              ? 'bg-emerald-50 text-emerald-900 border-emerald-200'
+                              : 'bg-[#F5F2EB] text-[#10251F] border-[#E0D9CB]'
+                          }`}
+                        >
+                          {group.partNumber}
+                        </span>
+                      )}
+
+                      <h2 className="text-lg sm:text-xl font-serif font-bold text-[#10251F] tracking-tight truncate">
+                        {group.groupTitle}
+                      </h2>
+
+                      {isChronoPart && (
+                        <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-emerald-100 text-emerald-900 border border-emerald-300">
+                          Q1–Q4 Synchronized
+                        </span>
+                      )}
+                    </div>
+
+                    {group.groupSubtitle && (
+                      <p className="text-xs text-[#5A7365] font-sans italic truncate">
+                        {group.groupSubtitle}
+                      </p>
                     )}
-                    <h2 className="text-lg sm:text-xl font-serif font-bold text-[#10251F] tracking-tight truncate">
-                      {group.groupTitle}
-                    </h2>
                   </div>
-                  {group.groupSubtitle && (
-                    <p className="text-xs text-[#5A7365] font-sans italic truncate">
-                      {group.groupSubtitle}
-                    </p>
-                  )}
+
+                  <span className="text-xs font-mono text-[#5A7365] shrink-0 font-medium">
+                    {group.chapters.length} {group.chapters.length === 1 ? 'Chapter' : 'Chapters'}
+                  </span>
                 </div>
-                <span className="text-xs font-mono text-[#5A7365] shrink-0 font-medium">
-                  {group.chapters.length} {group.chapters.length === 1 ? 'Chapter' : 'Chapters'}
-                </span>
-              </div>
 
-              {/* Chapters List */}
-              <div className="space-y-2">
-                {group.chapters.map((chapter) => {
-                  const isExpanded = expandedChapterSlugs.has(chapter.slug) || searchQuery.trim().length > 0;
-                  const sectionCount = chapter.sections.length;
-                  const chapterOrderText = chapter.order > 0 ? String(chapter.order).padStart(2, '0') : '';
+                {/* =========================================================================
+                    CASE A: RAPID REVISION MATRIX CONSOLE (Sleek Grid, Eliminates Bloat)
+                   ========================================================================= */}
+                {isRapidRev ? (
+                  <div className="bg-[#FAF8F3] border border-[#E0D9CB] rounded-2xl p-4 sm:p-5 space-y-4">
+                    {/* Console Header Strip */}
+                    <div className="flex items-center justify-between text-xs font-mono text-[#5A7365] border-b border-[#E8E2D5] pb-3">
+                      <div className="flex items-center gap-2">
+                        <Zap className="w-4 h-4 text-[#9E722C]" />
+                        <span className="font-semibold text-[#10251F]">
+                          60-Second Distinction Skeletons & Active Recall Matrices
+                        </span>
+                      </div>
+                      <span className="text-[11px]">
+                        Quick Pre-Exam Revision · {group.chapters.length} Modules
+                      </span>
+                    </div>
 
-                  if (viewMode === 'compact') {
-                    // =========================================================
-                    // COMPACT BOOK CODEX MODE (80% Height Reduction)
-                    // High-density, single-line rows with indented sub-lessons
-                    // =========================================================
-                    return (
-                      <article
-                        key={chapter.slug}
-                        className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl transition-all duration-150 group shadow-2xs hover:shadow-xs overflow-hidden"
-                      >
-                        {/* Compact Chapter Header Row */}
-                        <div className="p-3 sm:px-4 sm:py-3 flex items-center justify-between gap-3 min-w-0">
-                          {/* Left: Expand Toggle + Chapter Numeral + Title */}
-                          <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0">
-                            <button
-                              onClick={() => toggleChapter(chapter.slug)}
-                              className="p-1 rounded text-[#5A7365] hover:text-[#10251F] hover:bg-[#F5F2EB] transition-colors shrink-0 cursor-pointer"
-                              aria-label={isExpanded ? 'Collapse sub-lessons' : 'Expand sub-lessons'}
-                              title={isExpanded ? 'Collapse sub-lessons' : `Expand ${sectionCount} sub-lessons`}
-                            >
-                              {isExpanded ? (
-                                <ChevronDown className="w-4 h-4 text-[#10251F]" />
-                              ) : (
-                                <ChevronRight className="w-4 h-4 text-[#5A7365]" />
+                    {/* Responsive Matrix Grid */}
+                    <div
+                      className={`grid gap-3 ${
+                        viewMode === 'compact'
+                          ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
+                          : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-2'
+                      }`}
+                    >
+                      {group.chapters.map((chapter) => {
+                        const isExpanded =
+                          expandedChapterSlugs.has(chapter.slug) ||
+                          searchQuery.trim().length > 0;
+                        const displayTitle = getDisplayTitle(chapter);
+                        const matchNum = chapter.slug.match(/(\d+)$/);
+                        const matrixNum = matchNum ? matchNum[1] : String(chapter.order);
+
+                        return (
+                          <div
+                            key={chapter.slug}
+                            className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#9E722C] rounded-xl p-3.5 transition-all duration-150 group shadow-2xs hover:shadow-xs flex flex-col justify-between space-y-2.5"
+                          >
+                            <div className="space-y-1.5">
+                              {/* Top Matrix Tag + Reading Time */}
+                              <div className="flex items-center justify-between text-xs font-mono">
+                                <span className="font-bold text-[#9E722C] bg-[#FAF9F4] border border-[#E0D9CB] px-2 py-0.5 rounded text-[10px]">
+                                  Matrix {matrixNum}
+                                </span>
+                                <span className="text-[#5A7365] text-[11px] flex items-center gap-1">
+                                  <Clock className="w-3 h-3" />
+                                  ~{chapter.readingMinutes}m
+                                </span>
+                              </div>
+
+                              {/* Matrix Title */}
+                              <Link
+                                href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                className="font-serif font-bold text-sm text-[#10251F] group-hover:text-[#9E722C] transition-colors line-clamp-2 block"
+                              >
+                                {displayTitle}
+                              </Link>
+
+                              {viewMode === 'detailed' && chapter.description && (
+                                <p className="text-xs text-[#5A7365] font-sans line-clamp-2 leading-relaxed">
+                                  {chapter.description}
+                                </p>
                               )}
-                            </button>
+                            </div>
 
-                            {chapterOrderText && (
-                              <span className="font-mono text-[11px] font-bold text-[#9E722C] bg-[#FAF9F4] border border-[#E0D9CB] px-2 py-0.5 rounded shrink-0">
-                                Ch. {chapterOrderText}
-                              </span>
+                            {/* Detailed Sub-Lessons Accordion Toggle */}
+                            {viewMode === 'detailed' && chapter.sections.length > 0 && (
+                              <div>
+                                <button
+                                  onClick={() => toggleChapter(chapter.slug)}
+                                  className="text-[11px] font-mono text-[#5A7365] hover:text-[#10251F] flex items-center gap-1 cursor-pointer transition-colors"
+                                >
+                                  {isExpanded ? (
+                                    <ChevronDown className="w-3 h-3" />
+                                  ) : (
+                                    <ChevronRight className="w-3 h-3" />
+                                  )}
+                                  <span>
+                                    {chapter.sections.length} sub-sections {isExpanded ? '▲' : '▼'}
+                                  </span>
+                                </button>
+
+                                {isExpanded && (
+                                  <div className="mt-2 pt-2 border-t border-[#E8E2D5] space-y-1">
+                                    {chapter.sections.map((sec, sIdx) => (
+                                      <Link
+                                        key={sec.id}
+                                        href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                        className="flex items-center justify-between text-[11px] text-[#2B3B33] hover:text-[#10251F] p-1 rounded hover:bg-[#FAF9F4]"
+                                      >
+                                        <span className="truncate">
+                                          § {sIdx + 1}. {sec.title}
+                                        </span>
+                                        <span className="text-[#9E722C] shrink-0 ml-1">›</span>
+                                      </Link>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
                             )}
 
+                            {/* Action Link */}
+                            <div className="border-t border-[#E8E2D5] pt-2 flex items-center justify-between text-xs">
+                              <span className="text-[11px] font-mono text-[#5A7365]">
+                                {chapter.sections.length} tables / matrices
+                              </span>
+                              <Link
+                                href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                className="inline-flex items-center gap-1 font-mono text-xs font-semibold text-[#10251F] hover:text-[#9E722C] transition-colors cursor-pointer"
+                              >
+                                <span>Review</span>
+                                <ArrowRight className="w-3 h-3" />
+                              </Link>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : isFrontMatter ? (
+                  /* =========================================================================
+                      CASE B: FRONT MATTER (Sleek Paired Folio Cards)
+                     ========================================================================= */
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {group.chapters.map((chapter) => (
+                      <article
+                        key={chapter.slug}
+                        className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-4 transition-all duration-150 group shadow-2xs hover:shadow-xs flex items-center justify-between gap-3"
+                      >
+                        <div className="flex items-center gap-3 min-w-0">
+                          <div className="w-9 h-9 rounded-lg bg-[#FAF9F4] border border-[#E0D9CB] flex items-center justify-center shrink-0 text-[#10251F]">
+                            <FileText className="w-4 h-4 text-[#9E722C]" />
+                          </div>
+                          <div className="min-w-0">
+                            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#5A7365] block">
+                              Front Matter
+                            </span>
                             <Link
                               href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                              className="font-serif font-bold text-sm sm:text-base text-[#10251F] hover:text-[#1B4D3C] transition-colors truncate min-w-0 flex-1"
+                              className="font-serif font-bold text-sm sm:text-base text-[#10251F] hover:text-[#1B4D3C] transition-colors truncate block"
                             >
                               {chapter.title}
                             </Link>
                           </div>
+                        </div>
 
-                          {/* Right: Quick Stats + Direct Read Button */}
-                          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-                            <span className="hidden md:inline font-mono text-xs text-[#5A7365]">
-                              {sectionCount} {sectionCount === 1 ? 'lesson' : 'lessons'} · ~{chapter.readingMinutes}m
+                        <Link
+                          href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                          className="px-3 py-1.5 text-xs font-mono font-semibold text-[#10251F] bg-[#FAF9F4] hover:bg-[#10251F] hover:text-[#FAF8F3] border border-[#E0D9CB] rounded-lg transition-colors shadow-2xs shrink-0 cursor-pointer"
+                        >
+                          View Folio →
+                        </Link>
+                      </article>
+                    ))}
+                  </div>
+                ) : isChronoPart && viewMode === 'detailed' ? (
+                  /* =========================================================================
+                      CASE C: CHRONOLOGICAL DOSSIERS (Bento Grid with Recency Salience)
+                     ========================================================================= */
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {group.chapters.map((chapter) => {
+                      const isExpanded =
+                        expandedChapterSlugs.has(chapter.slug) ||
+                        searchQuery.trim().length > 0;
+                      const sectionCount = chapter.sections.length;
+                      const chronoInfo = CHRONO_META[chapter.slug];
+                      const isLatest = chronoInfo?.isLatest || chapter.slug === 'chapter-11';
+                      const displayTitle = getDisplayTitle(chapter);
+
+                      return (
+                        <article
+                          key={chapter.slug}
+                          className={`rounded-2xl transition-all duration-200 group flex flex-col justify-between p-5 space-y-4 ${
+                            isLatest
+                              ? 'bg-gradient-to-br from-[#FFFFFF] via-[#F6FAF7] to-[#FAF9F4] border-2 border-emerald-600/50 shadow-xs ring-1 ring-emerald-600/20'
+                              : 'bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] shadow-2xs hover:shadow-xs'
+                          }`}
+                        >
+                          <div className="space-y-3">
+                            {/* Chronological Header Strip */}
+                            <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
+                              <div className="flex items-center gap-1.5 flex-wrap">
+                                {chronoInfo ? (
+                                  <span
+                                    className={`px-2.5 py-0.5 rounded text-[11px] border font-mono ${chronoInfo.badgeStyle}`}
+                                  >
+                                    {chronoInfo.tag}
+                                  </span>
+                                ) : (
+                                  <span className="font-mono text-[11px] font-bold text-[#9E722C] bg-[#FAF9F4] border border-[#E0D9CB] px-2 py-0.5 rounded">
+                                    Ch. {String(chapter.order).padStart(2, '0')}
+                                  </span>
+                                )}
+
+                                {isLatest && (
+                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-[10px] font-bold uppercase tracking-wider animate-pulse">
+                                    <Sparkles className="w-3 h-3 text-emerald-700" />
+                                    <span>Latest Ingest (Oct 1–10)</span>
+                                  </span>
+                                )}
+                              </div>
+
+                              <div className="flex items-center gap-2 text-[#5A7365] text-xs">
+                                <span>{sectionCount} lessons</span>
+                                <span>•</span>
+                                <span>~{chapter.readingMinutes}m</span>
+                              </div>
+                            </div>
+
+                            {/* Dossier Title */}
+                            <div>
+                              <Link
+                                href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                className="group/title block"
+                              >
+                                <h3
+                                  className={`text-base sm:text-lg font-serif font-bold transition-colors leading-snug ${
+                                    isLatest
+                                      ? 'text-[#0E382B] group-hover/title:text-emerald-700'
+                                      : 'text-[#10251F] group-hover/title:text-[#1B4D3C]'
+                                  }`}
+                                >
+                                  {displayTitle}
+                                </h3>
+                              </Link>
+
+                              {chronoInfo && (
+                                <span className="text-[11px] font-mono text-[#5A7365] block mt-0.5">
+                                  {chronoInfo.period} · {(chapter.wordCount / 1000).toFixed(1)}k words
+                                </span>
+                              )}
+                            </div>
+
+                            {/* Excerpt Synopsis */}
+                            {chapter.description && (
+                              <p className="text-xs font-sans text-[#2B3B33] leading-relaxed line-clamp-3">
+                                {chapter.description}
+                              </p>
+                            )}
+
+                            {/* Expandable Sub-Lessons Peek */}
+                            {sectionCount > 0 && (
+                              <div className="pt-1">
+                                <button
+                                  onClick={() => toggleChapter(chapter.slug)}
+                                  className="text-[11px] font-mono text-[#5A7365] hover:text-[#10251F] flex items-center gap-1 cursor-pointer transition-colors"
+                                  aria-label={isExpanded ? 'Hide lessons' : 'Show lessons'}
+                                >
+                                  {isExpanded ? (
+                                    <ChevronDown className="w-3 h-3" />
+                                  ) : (
+                                    <ChevronRight className="w-3 h-3" />
+                                  )}
+                                  <span>
+                                    {sectionCount} Sub-Lesson Outlines {isExpanded ? '▲' : '▼'}
+                                  </span>
+                                </button>
+
+                                {isExpanded && (
+                                  <div className="mt-2.5 pt-2 border-t border-[#E8E2D5] space-y-1 max-h-56 overflow-y-auto no-scrollbar pl-2 border-l-2 border-[#10251F]">
+                                    {chapter.sections.map((sec, sIdx) => (
+                                      <Link
+                                        key={sec.id}
+                                        href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                        className="flex items-center justify-between p-1 rounded hover:bg-[#FAF9F4] text-xs transition-colors group/sec gap-2"
+                                      >
+                                        <div className="flex items-center gap-1.5 min-w-0 truncate">
+                                          <span className="font-mono text-[10px] font-semibold text-[#9E722C] shrink-0">
+                                            § {sIdx + 1}
+                                          </span>
+                                          <span className="font-sans text-[#2B3B33] group-hover/sec:text-[#10251F] truncate text-[11px]">
+                                            {sec.title}
+                                          </span>
+                                        </div>
+                                        <span className="font-mono text-[10px] text-[#5A7365] group-hover/sec:text-[#10251F] shrink-0">
+                                          jump ›
+                                        </span>
+                                      </Link>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+                            )}
+                          </div>
+
+                          {/* Dossier Action Bar */}
+                          <div className="border-t border-[#E8E2D5] pt-3 flex items-center justify-between">
+                            <span className="text-[11px] font-mono text-[#5A7365]">
+                              {isLatest ? '125 Units Synthesized' : 'Canonical Evidence Base'}
                             </span>
 
                             <Link
                               href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                              className="px-3 py-1.5 text-xs font-mono font-semibold text-[#FAF8F3] bg-[#10251F] hover:bg-[#1B4D3C] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1 cursor-pointer shrink-0"
+                              className={`px-3.5 py-1.5 text-xs font-mono font-semibold rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5 cursor-pointer ${
+                                isLatest
+                                  ? 'bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] ring-1 ring-emerald-500/30'
+                                  : 'bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3]'
+                              }`}
                             >
-                              <span>Read</span>
-                              <span>→</span>
+                              <span>{isLatest ? 'Read Latest Dossier' : 'Read Dossier'}</span>
+                              <ArrowRight className="w-3.5 h-3.5" />
                             </Link>
                           </div>
-                        </div>
+                        </article>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  /* =========================================================================
+                      CASE D: STANDARD & COMPACT PRESENTATION MODES
+                     ========================================================================= */
+                  <div className="space-y-2">
+                    {group.chapters.map((chapter) => {
+                      const isExpanded =
+                        expandedChapterSlugs.has(chapter.slug) ||
+                        searchQuery.trim().length > 0;
+                      const sectionCount = chapter.sections.length;
+                      const chapterOrderText =
+                        chapter.order > 0 ? String(chapter.order).padStart(2, '0') : '';
+                      const chronoInfo = CHRONO_META[chapter.slug];
+                      const isLatest = chronoInfo?.isLatest || chapter.slug === 'chapter-11';
+                      const displayTitle = getDisplayTitle(chapter);
 
-                        {/* Indented Sub-Lessons Ledger (When Toggled) */}
-                        {isExpanded && chapter.sections.length > 0 && (
-                          <div className="border-t border-[#E8E2D5] bg-[#FAF9F4] px-4 py-2.5 sm:px-6 space-y-1">
-                            <div className="text-[10px] font-mono uppercase tracking-wider text-[#5A7365] font-semibold pb-1">
-                              Sub-Lessons ({sectionCount}):
-                            </div>
-                            <div className="space-y-1 pl-2 sm:pl-3 border-l-2 border-[#10251F]">
-                              {chapter.sections.map((sec, sIdx) => (
-                                <Link
-                                  key={sec.id}
-                                  href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
-                                  className="flex items-center justify-between p-1.5 rounded hover:bg-[#FFFFFF] hover:shadow-2xs text-xs transition-colors group/sec gap-2"
+                      if (viewMode === 'compact') {
+                        // COMPACT SINGLE-LINE ROW
+                        return (
+                          <article
+                            key={chapter.slug}
+                            className={`border rounded-xl transition-all duration-150 group shadow-2xs hover:shadow-xs overflow-hidden ${
+                              isLatest
+                                ? 'bg-[#FAFCF9] border-emerald-500/50 hover:border-emerald-600'
+                                : 'bg-[#FFFFFF] border-[#E0D9CB] hover:border-[#10251F]'
+                            }`}
+                          >
+                            <div className="p-3 sm:px-4 sm:py-3 flex items-center justify-between gap-3 min-w-0">
+                              {/* Left: Expand Toggle + Number / Tag + Title */}
+                              <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0">
+                                <button
+                                  onClick={() => toggleChapter(chapter.slug)}
+                                  className="p-1 rounded text-[#5A7365] hover:text-[#10251F] hover:bg-[#F5F2EB] transition-colors shrink-0 cursor-pointer"
+                                  aria-label={
+                                    isExpanded ? 'Collapse sub-lessons' : 'Expand sub-lessons'
+                                  }
+                                  title={
+                                    isExpanded
+                                      ? 'Collapse sub-lessons'
+                                      : `Expand ${sectionCount} sub-lessons`
+                                  }
                                 >
-                                  <div className="flex items-center gap-2 min-w-0 truncate">
-                                    <span className="font-mono text-[11px] font-semibold text-[#9E722C] shrink-0">
-                                      § {chapter.order > 0 ? `${chapter.order}.${sIdx + 1}` : `${sIdx + 1}`}
-                                    </span>
-                                    <span className="font-sans text-[#2B3B33] group-hover/sec:text-[#10251F] font-medium truncate">
-                                      {sec.title}
-                                    </span>
-                                  </div>
-                                  <span className="font-mono text-[11px] text-[#5A7365] group-hover/sec:text-[#10251F] shrink-0 font-medium">
-                                    jump ›
+                                  {isExpanded ? (
+                                    <ChevronDown className="w-4 h-4 text-[#10251F]" />
+                                  ) : (
+                                    <ChevronRight className="w-4 h-4 text-[#5A7365]" />
+                                  )}
+                                </button>
+
+                                {chronoInfo ? (
+                                  <span
+                                    className={`font-mono text-[10px] px-2 py-0.5 rounded border shrink-0 ${chronoInfo.badgeStyle}`}
+                                  >
+                                    {chronoInfo.tag}
                                   </span>
+                                ) : chapterOrderText ? (
+                                  <span className="font-mono text-[11px] font-bold text-[#9E722C] bg-[#FAF9F4] border border-[#E0D9CB] px-2 py-0.5 rounded shrink-0">
+                                    Ch. {chapterOrderText}
+                                  </span>
+                                ) : null}
+
+                                <Link
+                                  href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                  className={`font-serif font-bold text-sm sm:text-base transition-colors truncate min-w-0 flex-1 ${
+                                    isLatest
+                                      ? 'text-[#0E382B] hover:text-emerald-700'
+                                      : 'text-[#10251F] hover:text-[#1B4D3C]'
+                                  }`}
+                                >
+                                  {displayTitle}
                                 </Link>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                      </article>
-                    );
-                  }
 
-                  // =========================================================
-                  // DETAILED SYLLABUS MODE (Full Academic Cards)
-                  // Shows full description paragraphs and master unit badges
-                  // =========================================================
-                  return (
-                    <article
-                      key={chapter.slug}
-                      className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-4 sm:p-5 transition-all duration-200 group shadow-2xs hover:shadow-xs space-y-3"
-                    >
-                      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
-                        <div className="flex items-start gap-3 flex-1 min-w-0">
-                          <button
-                            onClick={() => toggleChapter(chapter.slug)}
-                            className="mt-0.5 text-[#5A7365] hover:text-[#10251F] p-1 rounded-md shrink-0 focus:outline-none cursor-pointer hover:bg-[#F5F2EB] transition-colors"
-                            aria-label={isExpanded ? 'Collapse sub-lessons' : 'Expand sub-lessons'}
-                          >
-                            {isExpanded ? (
-                              <ChevronDown className="w-4 h-4" />
-                            ) : (
-                              <ChevronRight className="w-4 h-4" />
-                            )}
-                          </button>
-
-                          <div className="space-y-1.5 flex-1 min-w-0">
-                            <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
-                              <span className="font-bold text-[#10251F]">
-                                {chapter.category}
-                              </span>
-                              <span>•</span>
-                              <span className="font-semibold text-[#9E722C]">
-                                {sectionCount} {sectionCount === 1 ? 'Lesson' : 'Lessons'}
-                              </span>
-                              <span>•</span>
-                              <span>~{chapter.readingMinutes}m read</span>
-                              <span>•</span>
-                              <span>~{(chapter.wordCount / 1000).toFixed(1)}k words</span>
-                            </div>
-
-                            <Link
-                              href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                              className="group/title block"
-                            >
-                              <h3 className="text-lg sm:text-xl font-serif font-bold text-[#10251F] group-hover/title:text-[#1B4D3C] transition-colors leading-snug">
-                                {chapter.title}
-                              </h3>
-                            </Link>
-
-                            {chapter.description && (
-                              <p className="text-xs sm:text-sm font-sans text-[#2B3B33] leading-relaxed max-w-4xl pt-0.5">
-                                {chapter.description}
-                              </p>
-                            )}
-                          </div>
-                        </div>
-
-                        <div className="flex items-center gap-2 sm:self-start pl-7 sm:pl-0 shrink-0">
-                          <Link
-                            href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                            className="px-3 py-1.5 text-xs font-mono font-semibold text-[#FAF8F3] bg-[#10251F] hover:bg-[#1B4D3C] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5 cursor-pointer"
-                          >
-                            <span>Read Chapter</span>
-                            <span>→</span>
-                          </Link>
-                        </div>
-                      </div>
-
-                      {isExpanded && chapter.sections.length > 0 && (
-                        <div className="ml-2 sm:ml-4 pl-4 sm:pl-6 border-l-2 border-[#10251F] pt-2 space-y-2">
-                          <div className="text-[11px] font-mono uppercase tracking-wider text-[#5A7365] font-semibold">
-                            Chapter Curriculum ({chapter.sections.length} Sub-Lessons):
-                          </div>
-
-                          <div className="grid grid-cols-1 gap-1.5">
-                            {chapter.sections.map((sec, sIdx) => (
-                              <div
-                                key={sec.id}
-                                className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2 rounded-lg bg-[#F7F5EE] border border-[#E8E2D5] hover:bg-[#FFFFFF] hover:border-[#10251F] transition-all group/sec"
-                              >
-                                <div className="flex items-start sm:items-center gap-2.5 flex-1 min-w-0">
-                                  <span className="text-xs font-mono font-bold text-[#9E722C] shrink-0">
-                                    § {chapter.order > 0 ? `${chapter.order}.${sIdx + 1}` : `${sIdx + 1}`}
+                                {isLatest && (
+                                  <span className="hidden lg:inline-flex items-center gap-1 px-2 py-0.2 rounded bg-emerald-100 text-emerald-900 text-[10px] font-mono font-bold shrink-0">
+                                    NEW
                                   </span>
-                                  <Link
-                                    href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
-                                    className="text-xs sm:text-sm font-sans font-medium text-[#112019] group-hover/sec:text-[#1B4D3C] transition-colors truncate"
-                                  >
-                                    {sec.title}
-                                  </Link>
+                                )}
+                              </div>
+
+                              {/* Right: Quick Stats + Direct Read Button */}
+                              <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+                                <span className="hidden md:inline font-mono text-xs text-[#5A7365]">
+                                  {sectionCount} {sectionCount === 1 ? 'lesson' : 'lessons'} · ~
+                                  {chapter.readingMinutes}m
+                                </span>
+
+                                <Link
+                                  href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                  className={`px-3 py-1.5 text-xs font-mono font-semibold text-[#FAF8F3] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1 cursor-pointer shrink-0 ${
+                                    isLatest
+                                      ? 'bg-emerald-800 hover:bg-emerald-900'
+                                      : 'bg-[#10251F] hover:bg-[#1B4D3C]'
+                                  }`}
+                                >
+                                  <span>Read</span>
+                                  <span>→</span>
+                                </Link>
+                              </div>
+                            </div>
+
+                            {/* Indented Sub-Lessons Ledger (When Toggled) */}
+                            {isExpanded && chapter.sections.length > 0 && (
+                              <div className="border-t border-[#E8E2D5] bg-[#FAF9F4] px-4 py-2.5 sm:px-6 space-y-1">
+                                <div className="text-[10px] font-mono uppercase tracking-wider text-[#5A7365] font-semibold pb-1">
+                                  Sub-Lessons ({sectionCount}):
                                 </div>
-
-                                <div className="flex items-center gap-2.5 shrink-0 pl-6 sm:pl-0">
-                                  <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded bg-[#FFFFFF] text-[#5A7365] border border-[#E0D9CB]">
-                                    Master Unit
-                                  </span>
-                                  <Link
-                                    href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
-                                    className="text-xs font-mono text-[#5A7365] group-hover/sec:text-[#10251F] transition-colors inline-flex items-center gap-0.5"
-                                  >
-                                    <span>view</span>
-                                    <span>›</span>
-                                  </Link>
+                                <div className="space-y-1 pl-2 sm:pl-3 border-l-2 border-[#10251F]">
+                                  {chapter.sections.map((sec, sIdx) => (
+                                    <Link
+                                      key={sec.id}
+                                      href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                      className="flex items-center justify-between p-1.5 rounded hover:bg-[#FFFFFF] hover:shadow-2xs text-xs transition-colors group/sec gap-2"
+                                    >
+                                      <div className="flex items-center gap-2 min-w-0 truncate">
+                                        <span className="font-mono text-[11px] font-semibold text-[#9E722C] shrink-0">
+                                          §{' '}
+                                          {chapter.order > 0
+                                            ? `${chapter.order}.${sIdx + 1}`
+                                            : `${sIdx + 1}`}
+                                        </span>
+                                        <span className="font-sans text-[#2B3B33] group-hover/sec:text-[#10251F] font-medium truncate">
+                                          {sec.title}
+                                        </span>
+                                      </div>
+                                      <span className="font-mono text-[11px] text-[#5A7365] group-hover/sec:text-[#10251F] shrink-0 font-medium">
+                                        jump ›
+                                      </span>
+                                    </Link>
+                                  ))}
                                 </div>
                               </div>
-                            ))}
+                            )}
+                          </article>
+                        );
+                      }
+
+                      // DETAILED SYLLABUS MODE (Rich Curated Card)
+                      return (
+                        <article
+                          key={chapter.slug}
+                          className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-4 sm:p-5 transition-all duration-200 group shadow-2xs hover:shadow-xs space-y-3"
+                        >
+                          <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+                            <div className="flex items-start gap-3 flex-1 min-w-0">
+                              <button
+                                onClick={() => toggleChapter(chapter.slug)}
+                                className="mt-0.5 text-[#5A7365] hover:text-[#10251F] p-1 rounded-md shrink-0 focus:outline-none cursor-pointer hover:bg-[#F5F2EB] transition-colors"
+                                aria-label={
+                                  isExpanded ? 'Collapse sub-lessons' : 'Expand sub-lessons'
+                                }
+                              >
+                                {isExpanded ? (
+                                  <ChevronDown className="w-4 h-4" />
+                                ) : (
+                                  <ChevronRight className="w-4 h-4" />
+                                )}
+                              </button>
+
+                              <div className="space-y-1.5 flex-1 min-w-0">
+                                <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-[#5A7365]">
+                                  <span className="font-bold text-[#10251F]">
+                                    {chapter.category}
+                                  </span>
+                                  <span>•</span>
+                                  <span className="font-semibold text-[#9E722C]">
+                                    {sectionCount} {sectionCount === 1 ? 'Lesson' : 'Lessons'}
+                                  </span>
+                                  <span>•</span>
+                                  <span>~{chapter.readingMinutes}m read</span>
+                                  <span>•</span>
+                                  <span>~{(chapter.wordCount / 1000).toFixed(1)}k words</span>
+                                </div>
+
+                                <Link
+                                  href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                  className="group/title block"
+                                >
+                                  <h3 className="text-lg sm:text-xl font-serif font-bold text-[#10251F] group-hover/title:text-[#1B4D3C] transition-colors leading-snug">
+                                    {displayTitle}
+                                  </h3>
+                                </Link>
+
+                                {chapter.description && (
+                                  <p className="text-xs sm:text-sm font-sans text-[#2B3B33] leading-relaxed max-w-4xl pt-0.5">
+                                    {chapter.description}
+                                  </p>
+                                )}
+                              </div>
+                            </div>
+
+                            <div className="flex items-center gap-2 sm:self-start pl-7 sm:pl-0 shrink-0">
+                              <Link
+                                href={`/shelf-007/${subject.slug}/${chapter.slug}`}
+                                className="px-3.5 py-1.5 text-xs font-mono font-semibold text-[#FAF8F3] bg-[#10251F] hover:bg-[#1B4D3C] rounded-lg transition-colors shadow-2xs inline-flex items-center gap-1.5 cursor-pointer"
+                              >
+                                <span>Read Chapter</span>
+                                <span>→</span>
+                              </Link>
+                            </div>
                           </div>
-                        </div>
-                      )}
-                    </article>
-                  );
-                })}
-              </div>
-            </section>
-          ))}
+
+                          {isExpanded && chapter.sections.length > 0 && (
+                            <div className="ml-2 sm:ml-4 pl-4 sm:pl-6 border-l-2 border-[#10251F] pt-2 space-y-2">
+                              <div className="text-[11px] font-mono uppercase tracking-wider text-[#5A7365] font-semibold">
+                                Chapter Curriculum ({chapter.sections.length} Sub-Lessons):
+                              </div>
+
+                              <div className="grid grid-cols-1 gap-1.5">
+                                {chapter.sections.map((sec, sIdx) => (
+                                  <div
+                                    key={sec.id}
+                                    className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-2 rounded-lg bg-[#F7F5EE] border border-[#E8E2D5] hover:bg-[#FFFFFF] hover:border-[#10251F] transition-all group/sec"
+                                  >
+                                    <div className="flex items-start sm:items-center gap-2.5 flex-1 min-w-0">
+                                      <span className="text-xs font-mono font-bold text-[#9E722C] shrink-0">
+                                        §{' '}
+                                        {chapter.order > 0
+                                          ? `${chapter.order}.${sIdx + 1}`
+                                          : `${sIdx + 1}`}
+                                      </span>
+                                      <Link
+                                        href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                        className="text-xs sm:text-sm font-sans font-medium text-[#112019] group-hover/sec:text-[#1B4D3C] transition-colors truncate"
+                                      >
+                                        {sec.title}
+                                      </Link>
+                                    </div>
+
+                                    <div className="flex items-center gap-2.5 shrink-0 pl-6 sm:pl-0">
+                                      <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded bg-[#FFFFFF] text-[#5A7365] border border-[#E0D9CB]">
+                                        Master Unit
+                                      </span>
+                                      <Link
+                                        href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                        className="text-xs font-mono text-[#5A7365] group-hover/sec:text-[#10251F] transition-colors inline-flex items-center gap-0.5"
+                                      >
+                                        <span>view</span>
+                                        <span>›</span>
+                                      </Link>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </article>
+                      );
+                    })}
+                  </div>
+                )}
+              </section>
+            );
+          })}
         </div>
       )}
     </div>
