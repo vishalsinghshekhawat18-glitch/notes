@@ -124,7 +124,7 @@ function extractSectionsFromMarkdown(content: string): Shelf007SectionItem[] {
 }
 
 function extractDescriptionFromMarkdown(content: string, fallback: string): string {
-  // Look for blockquotes
+  // 1. Look for explicit blockquotes
   const quoteMatch = content.match(/^>\s+([\s\S]*?)(?=\n\n|\n##|$)/m);
   if (quoteMatch) {
     const clean = quoteMatch[1]
@@ -132,21 +132,35 @@ function extractDescriptionFromMarkdown(content: string, fallback: string): stri
       .replace(/<[^>]+>/g, '')
       .replace(/[*_`]/g, '')
       .trim();
-    if (clean.length > 30) {
+    if (clean.length > 30 && !clean.startsWith('#')) {
       return clean.slice(0, 260) + (clean.length > 260 ? '...' : '');
     }
   }
 
-  // Look for paragraph after Sources Unified or H1
-  const pMatch = content.match(/(?:Canonical Sources Unified:[\s\S]*?\n\n|#.*?\n\n)([\s\S]*?)(?=\n\n|\n##|$)/);
-  if (pMatch && pMatch[1].trim()) {
-    const text = pMatch[1]
+  // 2. Look for regular paragraphs after headers
+  const paragraphs = content.split(/\n\s*\n/);
+  for (const rawP of paragraphs) {
+    const trimmed = rawP.trim();
+    if (
+      !trimmed ||
+      trimmed.startsWith('#') ||
+      trimmed.startsWith('---') ||
+      trimmed.startsWith('***') ||
+      trimmed.startsWith('>') ||
+      trimmed.startsWith('|') ||
+      trimmed.startsWith('<!--') ||
+      trimmed.startsWith('[OCT-') ||
+      trimmed.startsWith('[')
+    ) {
+      continue;
+    }
+    const clean = trimmed
       .replace(/<[^>]+>/g, '')
       .replace(/[*_`]/g, '')
       .replace(/\[.*?\]\(.*?\)/g, '')
       .trim();
-    if (text.length > 30) {
-      return text.slice(0, 260) + (text.length > 260 ? '...' : '');
+    if (clean.length > 30 && !clean.startsWith('#')) {
+      return clean.slice(0, 260) + (clean.length > 260 ? '...' : '');
     }
   }
 

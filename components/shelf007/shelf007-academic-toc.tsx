@@ -76,6 +76,27 @@ const CHRONO_META: Record<
   },
 };
 
+function formatSectionButtonLabel(title: string): string {
+  let clean = title
+    .replace(/<[^>]+>/g, '')
+    .replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\uFE00-\u{FE0F}]/gu, '')
+    .trim();
+  clean = clean.replace(/^[\d\.\-\s:]+/, '').trim();
+  if (clean === clean.toUpperCase() && clean.length > 3) {
+    clean = clean
+      .toLowerCase()
+      .split(' ')
+      .map((w) => {
+        if (['and', '&', 'of', 'in', 'on', 'at', 'to', 'for'].includes(w)) return w;
+        if (['rbi', 'sebi', 'pib', 'esi', 'fema', 'gdp', 'iibf', 'dbf', 'mof', 'po', 'clerk'].includes(w))
+          return w.toUpperCase();
+        return w.charAt(0).toUpperCase() + w.slice(1);
+      })
+      .join(' ');
+  }
+  return clean;
+}
+
 export function Shelf007AcademicTOC({
   subject,
   partGroups,
@@ -745,24 +766,51 @@ export function Shelf007AcademicTOC({
                               </p>
                             )}
 
-                            {/* Expandable Sub-Lessons Peek */}
+                            {/* Direct Section Selection Small Buttons */}
                             {sectionCount > 0 && (
-                              <div className="pt-1">
-                                <button
-                                  onClick={() => toggleChapter(chapter.slug)}
-                                  className="text-[11px] font-mono text-[#5A7365] hover:text-[#10251F] flex items-center gap-1 cursor-pointer transition-colors"
-                                  aria-label={isExpanded ? 'Hide lessons' : 'Show lessons'}
-                                >
-                                  {isExpanded ? (
-                                    <ChevronDown className="w-3 h-3" />
-                                  ) : (
-                                    <ChevronRight className="w-3 h-3" />
-                                  )}
-                                  <span>
-                                    {sectionCount} Sub-Lesson Outlines {isExpanded ? '▲' : '▼'}
+                              <div className="pt-2 border-t border-[#E8E2D5] space-y-2">
+                                <div className="flex items-center justify-between text-xs font-mono">
+                                  <span className="font-semibold text-[#10251F] text-[11px] flex items-center gap-1.5">
+                                    <span className="text-[#9E722C] font-bold">§</span>
+                                    <span>Select Section ({sectionCount}):</span>
                                   </span>
-                                </button>
+                                  <button
+                                    onClick={() => toggleChapter(chapter.slug)}
+                                    className="text-[10px] font-mono text-[#5A7365] hover:text-[#10251F] flex items-center gap-1 cursor-pointer transition-colors"
+                                    aria-label={isExpanded ? 'Hide outline' : 'Show outline'}
+                                  >
+                                    {isExpanded ? (
+                                      <ChevronDown className="w-3 h-3" />
+                                    ) : (
+                                      <ChevronRight className="w-3 h-3" />
+                                    )}
+                                    <span>{isExpanded ? 'Hide List' : 'View List'}</span>
+                                  </button>
+                                </div>
 
+                                {/* Small Pill Buttons for All Sections */}
+                                <div className="flex flex-wrap gap-1.5 max-h-48 overflow-y-auto pr-1 no-scrollbar">
+                                  {chapter.sections.map((sec, sIdx) => {
+                                    const label = formatSectionButtonLabel(sec.title);
+                                    return (
+                                      <Link
+                                        key={sec.id}
+                                        href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                        title={`Jump directly to Section ${sIdx + 1}: ${sec.title}`}
+                                        className="group/secbtn inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs bg-[#FAF9F4] hover:bg-[#10251F] text-[#2B3B33] hover:text-[#FAF8F3] border border-[#E0D9CB] hover:border-[#10251F] transition-all duration-150 shadow-2xs active:scale-95 cursor-pointer"
+                                      >
+                                        <span className="font-mono text-[10px] font-bold text-[#9E722C] group-hover/secbtn:text-[#E8C582] shrink-0">
+                                          § {sIdx + 1}
+                                        </span>
+                                        <span className="font-sans font-medium text-[11px] leading-tight truncate max-w-[160px] sm:max-w-[210px]">
+                                          {label}
+                                        </span>
+                                      </Link>
+                                    );
+                                  })}
+                                </div>
+
+                                {/* Optional Expanded Full Outline */}
                                 {isExpanded && (
                                   <div className="mt-2.5 pt-2 border-t border-[#E8E2D5] space-y-1 max-h-56 overflow-y-auto no-scrollbar pl-2 border-l-2 border-[#10251F]">
                                     {chapter.sections.map((sec, sIdx) => (
@@ -998,6 +1046,46 @@ export function Shelf007AcademicTOC({
                                   <p className="text-xs sm:text-sm font-sans text-[#2B3B33] leading-relaxed max-w-4xl pt-0.5">
                                     {chapter.description}
                                   </p>
+                                )}
+
+                                {/* Direct Section Selector Buttons in Detailed View */}
+                                {sectionCount > 0 && (
+                                  <div className="pt-2 border-t border-[#E8E2D5]/70 space-y-1.5">
+                                    <div className="flex items-center justify-between text-xs font-mono">
+                                      <span className="font-semibold text-[#10251F] text-[11px] flex items-center gap-1.5">
+                                        <span className="text-[#9E722C] font-bold">§</span>
+                                        <span>Select Section ({sectionCount}):</span>
+                                      </span>
+                                      <button
+                                        type="button"
+                                        onClick={() => toggleChapter(chapter.slug)}
+                                        className="text-[10px] text-[#5A7365] hover:text-[#10251F] cursor-pointer"
+                                      >
+                                        {isExpanded ? 'Hide full curriculum ▲' : 'View full curriculum ▼'}
+                                      </button>
+                                    </div>
+
+                                    <div className="flex flex-wrap gap-1.5">
+                                      {chapter.sections.map((sec, sIdx) => {
+                                        const label = formatSectionButtonLabel(sec.title);
+                                        return (
+                                          <Link
+                                            key={sec.id}
+                                            href={`/shelf-007/${subject.slug}/${chapter.slug}#${sec.id}`}
+                                            title={`Jump directly to Section ${sIdx + 1}: ${sec.title}`}
+                                            className="group/secbtn inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs bg-[#FAF9F4] hover:bg-[#10251F] text-[#2B3B33] hover:text-[#FAF8F3] border border-[#E0D9CB] hover:border-[#10251F] transition-all duration-150 shadow-2xs active:scale-95 cursor-pointer"
+                                          >
+                                            <span className="font-mono text-[10px] font-bold text-[#9E722C] group-hover/secbtn:text-[#E8C582] shrink-0">
+                                              § {sIdx + 1}
+                                            </span>
+                                            <span className="font-sans font-medium text-[11px] leading-tight truncate max-w-[160px] sm:max-w-[210px]">
+                                              {label}
+                                            </span>
+                                          </Link>
+                                        );
+                                      })}
+                                    </div>
+                                  </div>
                                 )}
                               </div>
                             </div>

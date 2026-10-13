@@ -1,5 +1,9 @@
 # CHAPTER 11 • OCTOBER 2026 CONSOLIDATED MASTER DOSSIER (OCTOBER 1–13)
 
+> Comprehensive sovereign synthesis of October 2026 Contemporary Issues & Current Affairs, statutory genesis, institutional mechanisms, and multi-exam elimination frameworks across 153 verified atomic proposition units.
+
+---
+
 ## 1. 🏛️ REGULATORY BODIES, BANKING & FINANCIAL MARKETS
 
 [OCT-001] **RBI Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026: Realisation Windows Tightened**

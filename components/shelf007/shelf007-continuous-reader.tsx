@@ -25,6 +25,27 @@ interface Shelf007ContinuousReaderProps {
   allChapters: Shelf007ChapterItem[];
 }
 
+function formatSectionButtonLabel(title: string): string {
+  let clean = title
+    .replace(/<[^>]+>/g, '')
+    .replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\uFE00-\u{FE0F}]/gu, '')
+    .trim();
+  clean = clean.replace(/^[\d\.\-\s:]+/, '').trim();
+  if (clean === clean.toUpperCase() && clean.length > 3) {
+    clean = clean
+      .toLowerCase()
+      .split(' ')
+      .map((w) => {
+        if (['and', '&', 'of', 'in', 'on', 'at', 'to', 'for'].includes(w)) return w;
+        if (['rbi', 'sebi', 'pib', 'esi', 'fema', 'gdp', 'iibf', 'dbf', 'mof', 'po', 'clerk'].includes(w))
+          return w.toUpperCase();
+        return w.charAt(0).toUpperCase() + w.slice(1);
+      })
+      .join(' ');
+  }
+  return clean;
+}
+
 export function Shelf007ContinuousReader({
   subject,
   currentChapter,
@@ -109,17 +130,25 @@ export function Shelf007ContinuousReader({
     }
   }, [subject, subjectTitle, currentChapter, activeSectionIndex]);
 
-  // Handle initial hash deep linking (e.g. #sec-2)
+  // Handle initial hash deep linking and live hash changes (e.g. #sec-2)
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.location.hash) {
-      const hash = window.location.hash.substring(1);
-      setTimeout(() => {
+    const handleHashScroll = () => {
+      if (typeof window !== 'undefined' && window.location.hash) {
+        const hash = window.location.hash.substring(1);
         const targetElement = document.getElementById(hash);
         if (targetElement) {
           targetElement.scrollIntoView({ behavior: 'smooth' });
         }
-      }, 200);
-    }
+      }
+    };
+
+    handleHashScroll();
+    const timer = setTimeout(handleHashScroll, 200);
+    window.addEventListener('hashchange', handleHashScroll);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('hashchange', handleHashScroll);
+    };
   }, []);
 
   // Fullscreen reading mode handler (supports native Fullscreen API + Zen Reader mode)
@@ -578,6 +607,54 @@ export function Shelf007ContinuousReader({
                 📝 ~{(currentChapter.wordCount / 1000).toFixed(1)}k words
               </span>
             </div>
+
+            {/* Quick Direct Section Jump Bar in Chapter Hero */}
+            {currentChapter.sections.length > 1 && (
+              <div className="pt-2.5 border-t border-[#E0D9CB] space-y-2">
+                <div className="flex items-center justify-between text-xs font-mono">
+                  <span className="font-semibold text-[#10251F] text-[11px] flex items-center gap-1.5">
+                    <span className="text-[#9E722C] font-bold">§</span>
+                    <span>Select Section ({currentChapter.sections.length}):</span>
+                  </span>
+                  <span className="text-[10px] text-[#5A7365]">
+                    Active: Section {activeSectionIndex + 1}
+                  </span>
+                </div>
+
+                <div className="flex flex-wrap gap-1.5">
+                  {currentChapter.sections.map((sec, idx) => {
+                    const label = formatSectionButtonLabel(sec.title);
+                    const isActive = idx === activeSectionIndex;
+                    return (
+                      <button
+                        key={sec.id}
+                        type="button"
+                        onClick={() => scrollToSection(idx)}
+                        title={`Jump directly to Section ${idx + 1}: ${sec.title}`}
+                        className={`group/secbtn inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-mono transition-all duration-150 shadow-2xs cursor-pointer border active:scale-95 ${
+                          isActive
+                            ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] font-semibold'
+                            : 'bg-[#FAF9F4] text-[#2B3B33] hover:bg-[#10251F] hover:text-[#FAF8F3] border-[#E0D9CB] hover:border-[#10251F]'
+                        }`}
+                      >
+                        <span
+                          className={`text-[10px] font-bold shrink-0 ${
+                            isActive
+                              ? 'text-[#E8C582]'
+                              : 'text-[#9E722C] group-hover/secbtn:text-[#E8C582]'
+                          }`}
+                        >
+                          § {idx + 1}
+                        </span>
+                        <span className="font-sans font-medium text-[11px] leading-tight truncate max-w-[160px] sm:max-w-[210px]">
+                          {label}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </section>
 
           {/* Sections Rendered Sequentially as Textbook Sections */}
