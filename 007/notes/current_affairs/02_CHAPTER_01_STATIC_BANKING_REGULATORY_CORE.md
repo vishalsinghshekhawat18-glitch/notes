@@ -8,11 +8,13 @@
 ## 0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS
 
 [STA-001] **Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)**
-- **RTGS UTR (Unique Transaction Reference)**: Exactly **22 alphanumeric characters**; structured as: 4-character Bank IFSC prefix + 1-character Transaction Type ('R' for RTGS) + 8-digit Date code (YYYYMMDD) + 9-digit unique sequential running number.
+- **RTGS UTR (Unique Transaction Reference)**: Exactly **22 alphanumeric characters**; canonically structured under RBI RTGS System Regulations as: **4-character Bank IFSC (`XXXX`)** + **1-character System code (`R` for RTGS)** + **1-character Channel identifier (`C` for customer payment, `I` for inter-bank, `P` for participant)** + **8-digit Date (`YYYYMMDD`)** + **8-digit unique sequential running number (`nnnnnnnn`)** (Decomposition: 4 + 1 + 1 + 8 + 8 = 22 characters).
 - **NEFT UTR (Unique Transaction Reference)**: Exactly **16 alphanumeric characters**; generated uniquely for interbank batch electronic clearing.
 - **IFSC (Indian Financial System Code)**: Exactly **11 alphanumeric characters** used in NEFT, RTGS, and IMPS; First 4 characters = Bank identity; **5th character is permanently fixed as '0' (zero)** reserved for future expansion; Last 6 characters = Branch identity (alphanumeric).
 - **MICR (Magnetic Ink Character Recognition)**: Exactly **9 numeric digits** printed at the bottom of cheques using magnetic ink; First 3 digits = **City Code** (matches first 3 digits of postal PIN code); Middle 3 digits = **Bank Code**; Last 3 digits = **Branch Code**.
-- **LEI (Legal Entity Identifier)**: Exactly **20 alphanumeric characters** based on ISO 17442; globally unique identifier for legal entities participating in financial transactions; mandatory in India for all non-individual borrowers with aggregate credit exposure **≥ ₹50 Crore** and cross-border transactions **≥ ₹50 Crore**.
+- **LEI (Legal Entity Identifier)**: Exactly **20 alphanumeric characters** based on ISO 17442; globally unique identifier for legal entities participating in financial transactions; mandatory in India across two distinct regulatory regimes:
+  1. *Non-Individual Borrowers (RBI Circular RBI/2021-22/162)*: Mandatory for all non-individual entities with aggregate credit exposure **≥ ₹5 Crore** from Scheduled Commercial Banks, AIFIs, and NBFCs (fully phased in by April 30, 2025; entities without LEI are barred from renewal or enhancement of credit facilities).
+  2. *Cross-Border Financial Transactions (FEMA Directions)*: Mandatory for single cross-border transactions **≥ ₹50 Crore** in RTGS/NEFT for capital or current account transactions.
 - **SWIFT / BIC (Society for Worldwide Interbank Financial Telecommunication)**: **8 or 11 alphanumeric characters** based on ISO 9362 (4 letters = Bank code; 2 letters = Country code; 2 characters = Location code; 3 optional characters = Branch code); SWIFT international headquarters located in **La Hulpe, Belgium**.
 - **National Registry & Scheme Codes Matrix**:
   - **PRAN (Permanent Retirement Account Number - PFRDA)**: **12 digits**.
@@ -24,9 +26,11 @@
 **EXAM ANGLE:**
 
 - The RTGS vs NEFT Trap: RTGS UTR has **22 characters**; NEFT UTR has **16 characters** (examiners frequently swap these two numbers).
+- RTGS UTR Structural Anatomy: **4 IFSC + 1 System (R) + 1 Channel (C) + 8 Date (YYYYMMDD) + 8 Sequence = 22** (Notice: 8-digit sequence number, NOT 9-digit; 6th character is the Channel identifier).
+- LEI Dual-Threshold Trap: Non-individual borrower credit exposure threshold is **≥ ₹5 Crore** (phased in by April 2025). The **₹50 Crore** threshold applies strictly to cross-border remittances under FEMA.
 - The IFSC 5th Character: The 5th character is always numeric **0 (zero)**, NEVER the letter 'O'.
 - The MICR Sequence Trap: MICR 9-digit sequence is **City → Bank → Branch** (Examiners often trick candidates with Bank → City → Branch).
-- Target MCQ: 'How many digits are there in an RTGS UTR number?' → **22 digits**.
+- Target MCQ: 'How many alphanumeric characters are there in an RTGS UTR number, and what is its sequence length?' → **22 characters total (with an 8-digit running sequence number)**.
 
 ---
 
@@ -84,9 +88,9 @@
   - **HSBC (Hongkong and Shanghai Banking Corp)** / **Barclays** / **Standard Chartered**: **London, United Kingdom**.
   - **Citibank** / **JPMorgan Chase** / **Bank of America**: **United States** (New York / Charlotte).
 - **Multilateral Financial Institutions**:
-  - **World Bank Group (IBRD / IDA / IFC / MIGA)**: **Washington D.C., USA** (President: Ajay Banga; India Executive Director: Parameswaran Iyer / Neelkanth Mishra).
-  - **International Monetary Fund (IMF)**: **Washington D.C., USA** (Managing Director: Kristalina Georgieva; First Deputy MD: Gita Gopinath).
-  - **Asian Development Bank (ADB)**: **Mandaluyong / Manila, Philippines** (President: Masatsugu Asakawa).
+  - **World Bank Group (IBRD / IDA / IFC / MIGA)**: **Washington D.C., USA** (President: Ajay Banga; Executive Director representing Bangladesh, Bhutan, India and Sri Lanka: **Neelkanth Mishra**, who succeeded Parameswaran Iyer in 2026).
+  - **International Monetary Fund (IMF)**: **Washington D.C., USA** (Managing Director: **Kristalina Georgieva**; First Deputy MD: **Dan Katz**, who succeeded Gita Gopinath; Deputy MDs: Bo Li, Kenji Okamura, Nigel Clarke).
+  - **Asian Development Bank (ADB)**: **Mandaluyong / Manila, Philippines** (President: **Masato Kanda**, who assumed office 24 February 2025 succeeding Masatsugu Asakawa, re-elected September 2026 for a 5-year term).
   - **New Development Bank (NDB / BRICS Bank)**: **Shanghai, China** (President: Dilma Rousseff).
   - **Asian Infrastructure Investment Bank (AIIB)**: **Beijing, China** (President: Jin Liqun).
   - **Bank for International Settlements (BIS)**: **Basel, Switzerland** (known as the central bank of central banks).
@@ -139,22 +143,28 @@
   - **Other Bank ATMs in 6 Designated Metros**: Minimum **3 free transactions per month** (Metros: Mumbai, New Delhi, Chennai, Kolkata, Bengaluru, Hyderabad).
   - **Other Bank ATMs in Non-Metro Centers**: Minimum **5 free transactions per month**.
   - **Permissible Interchange Fees Capped by RBI**: Maximum **₹17 per financial transaction** and **₹6 per non-financial transaction**.
-  - **Failed ATM Transaction Compensation (\$T+5\$ Rule)**: If an account is debited but cash is not dispensed, bank must reverse the funds within **\$T+5\$ calendar days**; delay beyond \$T+5\$ days attracts statutory penalty of **₹100 per day** payable directly to the customer without requiring a complaint.
-- **Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS)**:
-  - Unifies 3 earlier ombudsman programs into 'One Nation One Ombudsman'; covers all Scheduled Commercial Banks, RRBs, UCBs, and systemically important NBFCs.
-  - **Monetary Jurisdiction & Award Ceiling**: Ombudsman has power to award compensation up to **₹30 Lakh** for actual financial loss caused by deficiency in banking service.
-  - **Additional Mental Agony Award**: Over and above the ₹30L limit, Ombudsman can award up to **₹3 Lakh** for mental agony, harassment, and loss of time.
-  - **Appellate Authority**: Executive Director in-charge of Consumer Education and Protection Department (CEPD) at RBI; appeal must be preferred within **30 days**.
+  - **Failed ATM Transaction Compensation (T+5 Rule)**: If an account is debited but cash is not dispensed, bank must reverse the funds within **T+5 calendar days**; delay beyond T+5 days attracts statutory penalty of **₹100 per day** payable directly to the customer without requiring a complaint.
+- **Reserve Bank Integrated Ombudsman Architecture & Versioned Regimes**:
+  - Unifies 3 predecessor schemes (Banking Ombudsman 2006, NBFC Ombudsman 2018, Digital Transactions Ombudsman 2019) into 'One Nation One Ombudsman'; **RB-IOS 2026 Coverage Categories**: Commercial Banks, Regional Rural Banks, State Co-operative Banks, Central Co-operative Banks, Scheduled Primary (Urban) Co-operative Banks, Non-Scheduled Primary (Urban) Co-operative Banks with deposits of ₹50 crore and above, qualifying NBFCs subject to the RB-IOS 2026 exclusions and ₹100 crore/customer-interface or deposit-taking conditions, Non-bank Prepaid Payment Instrument Issuers, and Credit Information Companies.
+  - **Temporal Version Control & Compensation Slabs**:
+    1. *RB-IOS 2021 (Operative November 12, 2021 to June 30, 2026)*: Maximum compensation for direct financial loss: **₹20 Lakh**; additional compensation for mental agony, harassment, loss of time: **₹1 Lakh** (Max composite award: ₹21 Lakh).
+    2. *RB-IOS 2026 (Effective July 1, 2026 onward)*: Maximum compensation for direct financial loss enhanced to **₹30 Lakh**; additional compensation for mental agony/harassment enhanced to **₹3 Lakh** (Max composite award: ₹33 Lakh).
+  - **Pre-requisite & Filing Deadline**: After first approaching the Regulated Entity, complaint may be filed before the RBI Ombudsman within **90 days from expiry of the applicable response timeline or the date of the last communication, whichever is later**.
+  - **Appellate Authority**: Executive Director in-charge of Consumer Education and Protection Department (CEPD) at RBI. Appeal is available **only against an Award** of the RBI Ombudsman. The complainant may appeal within **30 days of receiving the Award, subject to the applicable extension provision**.
 - **Deposit Insurance and Credit Guarantee Corporation (DICGC) Act, 1961**:
   - Wholly owned subsidiary of RBI; insures bank deposits across Commercial Banks, RRBs, Local Area Banks, and Co-operative Banks.
   - **Coverage Slabs**: Insures each depositor up to a maximum of **₹5 Lakh** (principal + interest) across all deposit accounts held in the same right and capacity in each bank.
-  - **Mandatory 90-Day Payout Timeline (DICGC Amendment Act 2021)**: If a bank is placed under all-inclusive directions or moratorium by RBI, depositors must receive insured funds up to ₹5L within **90 days** (Days 1–45: bank collects and submits claims; Days 46–90: DICGC audits, verifies, and disburses payouts).
+  - **Mandatory 90-Day Payout Timeline (DICGC Amendment Act 2021)**: If a bank is placed under all-inclusive directions or moratorium by RBI, depositors must receive insured funds up to ₹5L within **90 days** (Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment is made within the subsequent 15 days; overall statutory limit = 90 days; statutory breakdown: 45 + 30 + 15 = 90 days).
 
 **EXAM ANGLE:**
 
-- RB-IOS Ceiling: Direct financial loss compensation is **₹30 Lakh**; compensation for mental agony is **₹3 Lakh** (maximum possible award is ₹33 Lakh).
-- Failed ATM Reversal: Timeline is **\$T+5\$ days**; delay penalty is **₹100 per day**.
-- DICGC Payout Window: **90 days** from date of RBI moratorium/directions.
+- The Ombudsman Regime & Temporal Slabs Trap:
+  - *2021 Scheme Baseline (pre-July 2026)*: **₹20 Lakh** (direct loss) + **₹1 Lakh** (mental agony).
+  - *2026 Scheme Baseline (from 1 July 2026)*: **₹30 Lakh** (direct loss) + **₹3 Lakh** (mental agony).
+- RB-IOS Filing Deadline: After first approaching the Regulated Entity, complaint may be filed before the RBI Ombudsman within **90 days from expiry of the applicable response timeline or the date of the last communication, whichever is later**.
+- RB-IOS Appeal Right: Appeal is available **strictly against an Award** of the RBI Ombudsman (appeal does not lie against rejection); within **30 days of receiving the Award**.
+- Failed ATM Reversal: Timeline is **T+5 calendar days**; delay penalty is **₹100 per day**.
+- DICGC Payout Window: Exactly **90 days** from date of RBI moratorium/directions (Bank submits depositor list within 45 days; DICGC verifies claims within 30 days; payment made within subsequent 15 days; statutory breakdown: 45 + 30 + 15 = 90 days).
 
 ---
 
@@ -163,7 +173,7 @@
   - **First Schedule**: List of States and Union Territories with territorial boundaries.
   - **Second Schedule**: Emoluments, allowances, and privileges of President, Governors, Judges of Supreme Court/High Courts, and CAG.
   - **Third Schedule**: Forms of Oaths and Affirmations for Union Ministers, MPs, Supreme Court and High Court Judges.
-  - **Fourth Schedule**: **Allocation of seats in the Rajya Sabha (Council of States)** to States and Union Territories (allocated strictly based on population; current strength: 245 total = 233 elected + 12 nominated by the President).
+  - **Fourth Schedule**: **Allocation of seats in the Rajya Sabha (Council of States)** to States and Union Territories (current statutory strength: 245 total = 233 elected representatives + 12 members nominated by the President under Article 80).
   - **Fifth Schedule**: Administration and control of Scheduled Areas and Scheduled Tribes.
   - **Sixth Schedule**: Administration of Tribal Areas in 4 north-eastern states: **Assam, Meghalaya, Tripura, and Mizoram (AMTM)**.
   - **Seventh Schedule**: Division of legislative powers between Union and States: List I (**Union List** - 100 subjects incl. Banking, Currency, Foreign Affairs, Defence), List II (**State List** - 61 subjects), List III (**Concurrent List** - 52 subjects).
@@ -178,6 +188,10 @@
   - **Strait of Malacca**: Connects the **Andaman Sea (Indian Ocean)** with the **South China Sea (Pacific Ocean)**; situated between Peninsular Malaysia and the Indonesian island of Sumatra; shortest sea route between Persian Gulf energy suppliers and Asian consumers.
   - **Bosphorus & Dardanelles Straits (Turkish Straits)**: Connects the **Black Sea** to the Mediterranean Sea via the Sea of Marmara; international transit governed by the **1936 Montreux Convention**.
   - **Palk Strait**: Connects the **Bay of Bengal** with the **Palk Bay / Gulf of Mannar** between Tamil Nadu (India) and the Jaffna Peninsula (Sri Lanka).
+
+![Critical Maritime Choke Points & Global Trade Routes](/images/maritime_choke_points.jpg)
+*Figure STA-006: Critical Global Maritime Choke Points (Turkish Straits, Hormuz, Bab-el-Mandeb, Palk Strait, Malacca) and Primary Strategic Petroleum/Cargo Transit Routes.*
+
 - **Core Environmental Treaties & Global Maritime Organizations**:
   - **Paris Climate Agreement (COP21, 2015)**: Adopted under UNFCCC; overarching objective is to hold the increase in global average temperature to **well below 2°C** above pre-industrial levels and aggressively pursue efforts to **limit the temperature increase to 1.5°C**.
   - **BIMCO (Baltic and International Maritime Council)**: World's largest non-governmental association of shipowners, operators, and maritime charterers; established in Copenhagen, Denmark in 1905; represents over 60% of commercial cargo fleet.
@@ -197,7 +211,7 @@
   - **Article 300A (Right to Property)**: Originally a Fundamental Right under Article 19(1)(f) and Article 31; omitted from Part III and reconstituted as a **Constitutional / Legal Right under Article 300A in Part XII** via the **44th Constitutional Amendment Act, 1978** (mandates that no person shall be deprived of property save by authority of law).
   - **Article 112 (Annual Financial Statement / Union Budget)**: Mandates presentation of estimated receipts and expenditure of the Government of India for every financial year before both Houses of Parliament.
   - **Article 246A & 279A (Goods and Services Tax)**: Introduced by the **101st Constitutional Amendment Act, 2016**; Article 246A confers simultaneous power to Parliament and State Legislatures to make laws on GST; Article 279A mandates constitution of the **GST Council** (chaired by the Union Finance Minister; voting weight: Centre holds 1/3rd, States hold 2/3rd; 3/4th majority required to pass decisions).
-  - **Article 266 & 267 (Funds of India)**: Article 266(1) = Consolidated Fund of India; Article 266(2) = Public Account of India; Article 267 = Contingency Fund of India (held by Finance Secretary on behalf of President, corpus enhanced to ₹30,000 Cr).
+  - **Article 266 & 267 (Funds of India)**: Article 266(1) provides for the Consolidated Fund of India; Article 266(2) provides for the Public Account of India; **Article 267**: Provides for the Contingency Fund of India, placed at the disposal of the President to meet unforeseen expenditure pending parliamentary authorization. Custody and related operational matters are governed under Article 283 and applicable rules (corpus statutory limit enhanced to ₹30,000 Cr via Finance Act, 2021).
 - **Core Income Tax Certificates, Return Forms & Declarations**:
   - **Form 16**: Certificate of **Tax Deducted at Source (TDS) on Salary** issued annually by an employer under **Section 203 of the Income Tax Act, 1961**; divided into Part A (TDS summary, TAN, PAN) and Part B (salary breakup, deductions under Chapter VI-A).
   - **Form 16A**: Certificate for TDS on non-salary payments (interest on bank deposits, mutual fund dividends, professional fees).
@@ -229,23 +243,29 @@
   - **Tier 2**: Deposits **> ₹100 Crore up to ₹1,000 Crore**; CRAR of **12%**.
   - **Tier 3**: Deposits **> ₹1,000 Crore up to ₹10,000 Crore**; CRAR of **12%**.
   - **Tier 4**: Deposits **> ₹10,000 Crore**; CRAR of **12%**.
-  - **PSL Glidepath**: Target for UCBs scaled up to **75% of Adjusted Net Bank Credit (ANBC)** or Credit Equivalent of Off-Balance Sheet Exposure (CEOBE) by March 31, 2026.
+  - **PSL Mandate (PSL Directions, 2025)**: Under the operative RBI (Priority Sector Lending – Targets and Classification) Directions, 2025 (effective **1 April 2025**), the overall PSL target for Primary (Urban) Co-operative Banks (UCBs) is established at **60% of ANBC or CEOBSE, whichever is higher** (superseding the earlier glide path toward 75%).
 - **Deposit Insurance & Credit Guarantee Corporation (DICGC) 90-Day Moratorium Framework**:
   - Governed by **Section 18A of the DICGC Act, 1961** (inserted via DICGC Amendment Act, 2021).
   - When RBI places an insured bank under all-inclusive Directions or Moratorium, depositors receive up to **₹5 Lakh** (principal + interest) within **90 days**.
-  - **Two-Stage Statutory Timeline**: Insured bank must submit list of claims within **45 days**; DICGC verifies and settles claims within the subsequent **45 days**.
+  - **Three-Stage Statutory Timeline**: Bank submits depositor list within **45 days**; DICGC verifies claims within **30 days** of receipt; payment is made within the subsequent **15 days**; overall statutory limit = **90 days** (statutory breakdown: 45 + 30 + 15 = 90 days).
   - Authorized capital of DICGC: **₹50 Crore**; wholly-owned statutory subsidiary of RBI.
 - **Priority Sector Lending (PSL) Comprehensive Regulatory Matrix**:
-  - **Commercial Banks (Domestic & Foreign with ≥ 20 branches)**: Total PSL **40% of ANBC**; **Agriculture 18%** (sub-target: **10%** for Small & Marginal Farmers); **Micro Enterprises 7.5%**; **Weaker Sections 12%**.
-  - **Regional Rural Banks (RRBs) & Small Finance Banks (SFBs)**: Total PSL **75% of ANBC**.
+  - **Commercial Banks (Domestic & Foreign with ≥ 20 branches)**: Total PSL **40% of ANBC** (or CEOBE); **Agriculture 18%** (sub-target: **10%** for Small & Marginal Farmers); **Micro Enterprises 7.5%**; **Weaker Sections 12%**.
+  - **Regional Rural Banks (RRBs)**: Total PSL **75% of ANBC** (with priority on agriculture and rural credit).
+  - **Small Finance Banks (SFBs)**: Total PSL **60% of ANBC** (effective FY 2025–26 onward; rationalised by RBI from the initial 75% baseline to enable portfolio diversification and wholesale liquidity management).
+  - **Primary Urban Co-operative Banks (UCBs)**: Total PSL **60% of ANBC or CEOBSE**, whichever is higher (effective 1 April 2025 under RBI PSL Directions 2025; replacing the erstwhile 75% glide path).
   - **Shortfall Penalty**: PSL shortfalls are mandatorily allocated to the **Rural Infrastructure Development Fund (RIDF)** maintained by NABARD, or other specialized funds with SIDBI, NHB, or MUDRA.
 
 **EXAM ANGLE:**
 
 - The UCB Tier 1 vs Tiers 2–4 CRAR Trap: Tier 1 UCBs require **9% CRAR**; Tiers 2, 3, and 4 require **12% CRAR** (examiners frequently test this distinction).
-- DICGC 90-Day Breakdown Trap: Exactly **45 days for bank submission + 45 days for DICGC disbursement** = 90 days total.
-- RRB and SFB PSL Target: **75% of ANBC** (NOT 40%).
-- Target MCQ: 'What is the mandatory CRAR required for Tier 2, 3, and 4 Urban Co-operative Banks under the revised 4-tier regulatory framework?' → **12%**.
+- DICGC 90-Day Breakdown Trap: **Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment is made within the subsequent 15 days; overall statutory limit = 90 days (45 + 30 + 15 = 90 days)**.
+- The SFB, UCB & RRB PSL Alignment Trap (High Yield):
+  - *Regional Rural Banks (RRBs)*: **75% of ANBC** (highest among all banks).
+  - *Small Finance Banks (SFBs)*: **60% of ANBC** (rationalised from 75% effective FY 2025–26).
+  - *Urban Co-operative Banks (UCBs)*: **60% of ANBC or CEOBSE** (effective 1 April 2025 under RBI PSL Directions 2025; superseded earlier 75% glide path).
+  - *Domestic Commercial Banks*: **40% of ANBC**.
+- Target MCQ: 'What is the mandatory overall Priority Sector Lending (PSL) target for Primary Urban Co-operative Banks (UCBs) under RBI Priority Sector Lending Directions, 2025?' → **60% of ANBC or CEOBSE, whichever is higher**.
 
 ---
 
@@ -381,45 +401,52 @@
     - Dedicated field distribution force comprising women micro-agents operating at the **Gram Panchayat level**.
     - Focuses on financial literacy, doorstep onboarding, last-mile policy issuance, and immediate digital claims assistance for rural women.
 - **Legislative & Foreign Direct Investment (FDI) Shifts**:
-  - Current FDI limit in Indian insurance companies: **74%** under automatic route (enhanced from 49% in 2021).
-  - 100% FDI permitted for Insurance Intermediaries (insurance brokers, loss assessors).
-  - Proposed Insurance Laws (Amendment) Bill codifies **Composite Insurance Licensing** (allowing a single entity to underwrite both life and general/health insurance).
+  - **100% Foreign Direct Investment (FDI)** permitted in Indian insurance companies under the automatic route (raised from 74% under the Insurance Laws (Amendment) Act / 2025–2026 legislative overhaul, subject to Indian resident management requirements).
+  - **100% FDI** permitted for Insurance Intermediaries (insurance brokers, loss assessors, third-party administrators).
+  - The legislative overhaul also introduces **Composite Insurance Licensing** (empowering a single insurance company to underwrite both life and non-life/health policies under a unified corporate charter).
 
 **EXAM ANGLE:**
 
 - IRDAI Headquarters: **Hyderabad** (NOT Mumbai, NOT New Delhi).
 - Bima Trinity Components: Bima **Sugam** (Portal/Exchange), Bima **Vistar** (Composite Product), Bima **Vahak** (Women Delivery Agents).
-- Insurance FDI Limit: **74%** for insurance companies; **100%** for insurance intermediaries.
+- Insurance FDI Limit: **100%** for insurance companies (hiked from 74% under 2025–2026 reforms) and **100%** for insurance intermediaries.
 - Target MCQ: 'Which pillar of IRDAI\'s Bima Trinity represents the open-architecture digital marketplace for policy purchase and claims?' → **Bima Sugam**.
 
 ---
 
-[STA-014] **Macroeconomic Modernization & Base-Year Revisions Architecture**
-- **The Economic Need for Base-Year Revisions**:
-  - Economic indices undergo periodic base-year revisions (typically every 5 to 10 years) to eliminate statistical obsolescence, account for structural transformation in economic consumption (e.g., e-commerce, digital subscriptions, renewable energy), and update item weighting baskets.
-- **Master Base-Year Transition Matrix**:
-  - **Consumer Price Index (CPI - Combined)**:
-    - Current Operational Base Year: **2012 = 100** (compiled by National Statistical Office - NSO, MoSPI).
-    - Upcoming Modernized Base Year: **2024 = 100** (incorporating updated Consumption Expenditure Survey 2022–23 weights, reducing the excessive 45.86% weight of Food & Beverages).
+[STA-014] **Macroeconomic Modernization & Base-Year Architecture: 2026 Active Series & Historical Traps**
+- **The Economic Rationale for Base-Year Revisions**:
+  - Macroeconomic indices undergo structural base-year revisions (mandated by MoSPI and DPIIT) to eliminate statistical obsolescence, capture shifts in household consumption (e.g., e-commerce, digital services, renewable energy), and integrate modern enterprise registries (GSTN, MCA-21).
+- **Master Base-Year Matrix (2026 Operative Framework vs Historical Baselines)**:
   - **Gross Domestic Product (GDP) / Gross Value Added (GVA)**:
-    - Current Operational Base Year: **2011–12** (transitioned in 2015 from 2004–05).
-    - Upcoming Modernized Base Year: **2020–21 / 2022–23** (incorporating GST electronic data, MCA-21 company registry expansion, and updated supply-use tables).
+    - **Operative 2026 Series**: **Base Year 2022–23** (officially released by MoSPI / NSO on **27 February 2026**, incorporating updated Supply-Use Tables and GST electronic filings).
+    - *Historical Predecessor Series*: **2011–12** (operational from 2015 to early 2026).
+  - **Consumer Price Index (CPI - Combined)**:
+    - **Operative 2026 Series**: **Base Year 2024 = 100** (officially released by MoSPI / NSO in **February 2026**; anchored in the Household Consumption Expenditure Survey / HCES 2022–23 & 2023–24; rationalises the Food & Beverages weight from an obsolete 45.86% down to **36.75%** across 12 divisions and 358 items).
+    - *Historical Predecessor Series*: **2012 = 100** (compiled monthly by NSO).
   - **Index of Industrial Production (IIP)**:
-    - Current Operational Base Year: **2011–12 = 100** (407 item groups).
-    - Upcoming Modernized Base Year: **2022–23 = 100** (incorporating advanced electronic manufacturing, solar PV modules, and semiconductors).
+    - **Operative 2026 Series**: **Base Year 2022–23 = 100** (released by MoSPI in **June 2026**, expanding electronic manufacturing, semiconductors, and solar PV modules).
+    - *Historical Predecessor Series*: **2011–12 = 100** (407 item groups).
+  - **Index of Core Industries (ICI - 9 Core Sectors)**:
+    - **Operative 2026 Series**: **Base Year 2022–23** (released August 2026; expanded to **9 core industries** with the addition of **Iron Ore**).
+    - *Historical Predecessor Series*: **2011–12** (8 core industries).
   - **Wholesale Price Index (WPI)**:
-    - Current Operational Base Year: **2011–12 = 100** (697 commodities; compiled by Office of Economic Adviser, DPIIT, Ministry of Commerce & Industry).
-    - Proposed Modernized Base Year: **2017–18 / 2022–23**.
-- **CPI vs WPI Invariant Comparison**:
+    - **Operative 2026 Series**: Revised to **Base Year 2022–23** (compiled by Office of Economic Adviser, DPIIT, expanding items from 697 to 957 based on Gross Value of Output / GVO weighting).
+    - *Historical Predecessor Series*: **2011–12 = 100**.
+- **CPI vs WPI Invariant Comparison & Policy Anchor**:
   - **Services Inclusion**: CPI includes **Services** (health, education, recreation, transport); WPI covers **Goods/Commodities only** (zero services coverage).
-  - **Monetary Policy Anchor**: Under the Urjit Patel Committee recommendations and RBI Act Section 45ZA, the Monetary Policy Committee anchors inflation strictly to **CPI (Combined) Headline Inflation**, targeting **4.00% with a +/- 2.00% tolerance band (2% to 6%)**.
+  - **Monetary Policy Anchor**: Under the Urjit Patel Committee recommendations and Section 45ZA of the RBI Act 1934, the Monetary Policy Committee anchors inflation targeting strictly to **CPI (Combined) Headline Inflation**, maintaining a target of **4.00% with a +/- 2.00% tolerance band (2% to 6%)**.
 
 **EXAM ANGLE:**
 
-- Monetary Policy Inflation Anchor: RBI uses **CPI-Combined**, NEVER WPI.
+- The Base-Year Exam Trap (High Risk):
+  - *GDP Active Base Year*: **2022–23** (released Feb 2026; do NOT mark 2011–12).
+  - *CPI-Combined Active Base Year*: **2024 = 100** (released Feb 2026; do NOT mark 2012).
+  - *IIP Active Base Year*: **2022–23 = 100** (released June 2026; do NOT mark 2011–12).
+  - *Core Industries (ICI)*: **Base Year 2022–23** with **9 core industries** (Iron Ore added as 9th).
+- Monetary Policy Inflation Anchor: RBI legally targets **CPI-Combined**, NEVER WPI.
 - Services Coverage: CPI includes services; WPI **does NOT include services**.
-- Current CPI Base Year: **2012 = 100**; current GDP Base Year: **2011–12**.
-- Target MCQ: 'Which institution compiles and releases the Wholesale Price Index (WPI) in India?' → **Office of the Economic Adviser, DPIIT (Ministry of Commerce and Industry)**.
+- Target MCQ: 'What is the active base year for the revised Gross Domestic Product (GDP) series released by MoSPI in 2026?' → **2022–23** (replaces 2011–12).
 
 ---
 
@@ -473,8 +500,8 @@
   | **Credit Cards Issuance** | Permitted to issue Credit Cards | **PROHIBITED** from issuing Credit Cards (can issue ATM/Debit cards) |
   | **Maximum Customer Deposit Limit** | **No ceiling** (can accept unlimited demand & time deposits) | Capped at **₹2 Lakh per individual customer** at end of day |
   | **Deposit Types Accepted** | Demand Deposits (CASA) + Time Deposits (FD/RD) | **Demand Deposits ONLY** (Savings & Current; zero FDs/RDs) |
-  | **Priority Sector Lending (PSL)** | **75% of Adjusted Net Bank Credit (ANBC)** | **Not Applicable** (since lending is prohibited) |
-  | **Loan Size Concentration Cap** | At least **50% of loan portfolio must be $le$ ₹25 Lakh** | Not Applicable |
+  | **Priority Sector Lending (PSL)** | **60% of Adjusted Net Bank Credit (ANBC)** (effective FY 2025–26) | **Not Applicable** (since lending is prohibited) |
+  | **Loan Size Concentration Cap** | At least **50% of loan portfolio must be ≤ ₹25 Lakh** | Not Applicable |
   | **Mandatory Rural Branch Quota** | At least **25% branches** in unbanked rural centres | At least **25% physical access points** in unbanked rural areas |
   | **Cash Reserve Ratio (CRR)** | Mandatory with RBI (under Sec 42 of RBI Act) | Mandatory with RBI (under Sec 42 of RBI Act) |
   | **Statutory Liquidity Ratio (SLR)** | Standard operational SLR (18.00% in G-Secs) | Minimum **75% of demand deposits in G-Secs/T-Bills** with maturity up to 1 year; max 25% in current/term deposits with other SCBs |
@@ -484,8 +511,8 @@
 
 - Payments Bank Lending Trap: Payments banks **CANNOT lend money and CANNOT issue credit cards** (they can only issue Debit/ATM cards).
 - Payments Bank Deposit Cap: Capped at **₹2 Lakh per customer** (enhanced from ₹1 Lakh in 2021).
-- SFB PSL Quota: **75% of ANBC** (commercial banks have 40%).
-- SFB Ticket Size Rule: At least **50% of loans must be $le$ ₹25 Lakh**.
+- SFB PSL Quota: **60% of ANBC** (effective FY 2025–26; rationalised from 75%; commercial banks have 40%, RRBs have 75%, UCBs have 60%).
+- SFB Ticket Size Rule: At least **50% of loans must be ≤ ₹25 Lakh**.
 - Target MCQ: 'What is the maximum end-of-day balance limit permitted per individual customer in a Payments Bank account?' → **₹2,00,000 (₹2 Lakh)**.
 
 ---
@@ -526,8 +553,8 @@
   | Multilateral Body | Head Office | Established | Current Apex Leadership | India's Voting / Shareholding Status |
   |---|---|---|---|---|
   | **World Bank Group (IBRD / IDA)** | **Washington D.C., USA** | 1944 (Bretton Woods) | President: **Ajay Banga** (14th President) | India is the 7th largest shareholder in IBRD; largest historical cumulative borrower from IDA (concessional window) |
-  | **International Monetary Fund (IMF)** | **Washington D.C., USA** | 1944 (Bretton Woods) | Managing Director: **Kristalina Georgieva**; First Deputy MD: **Gita Gopinath** | Quota share: **2.75%** (8th largest quota); SDR currency basket: USD, EUR, CNY, JPY, GBP |
-  | **Asian Development Bank (ADB)** | **Mandaluyong / Manila, Philippines** | 1966 | President: **Masatsugu Asakawa** | Japan and USA are joint largest shareholders (15.6% each); India is the **4th largest shareholder** (6.3%) |
+  | **International Monetary Fund (IMF)** | **Washington D.C., USA** | 1944 (Bretton Woods) | Managing Director: **Kristalina Georgieva**; First Deputy MD: **Dan Katz** | Quota share: **2.75%** (8th largest quota); SDR currency basket: USD, EUR, CNY, JPY, GBP |
+  | **Asian Development Bank (ADB)** | **Mandaluyong / Manila, Philippines** | 1966 | President: **Masato Kanda** (assumed office Feb 2025; re-elected Sept 2026) | Japan and USA are joint largest shareholders (15.6% each); India is the **4th largest shareholder** (6.3%) |
   | **Asian Infrastructure Investment Bank (AIIB)** | **Beijing, China** | 2016 | President: **Jin Liqun** | China is the 1st largest shareholder (26.6% voting power); **India is the 2nd largest shareholder** (7.6% voting power) |
   | **New Development Bank (NDB / BRICS)** | **Shanghai, China** | 2015 (Fortaleza Treaty) | President: **Dilma Rousseff** | 5 founding members (Brazil, Russia, India, China, South Africa) held equal **20% initial voting equity**; new members: Bangladesh, UAE, Egypt, Uruguay |
   | **Bank for International Settlements (BIS)** | **Basel, Switzerland** | 1930 | General Manager: Agustín Carstens | Central bank of central banks; host of the Basel Committee on Banking Supervision (BCBS) |

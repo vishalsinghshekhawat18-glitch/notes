@@ -26,29 +26,29 @@ $$\frac{3}{8} \times 6400 = 3 \times 800 = \mathbf{2,400}$$
 
 Every serious competitive examination aspirant must hold the following benchmark matrix in active mental retrieval:
 
-| Fraction | Decimal Value | Exact Percentage | Primary Family & Derived Multipliers |
-| :--- | :--- | :--- | :--- |
-| $\mathbf{\frac{1}{2}}$ | $0.5$ | $50\%$ | Baseline half |
-| $\mathbf{\frac{1}{3}}$ | $0.\overline{3}$ | $33\frac{1}{3}\% \approx 33.33\%$ | $\frac{2}{3} = 66\frac{2}{3}\% \approx 66.67\%$ |
-| $\mathbf{\frac{1}{4}}$ | $0.25$ | $25\%$ | $\frac{3}{4} = 75\%$ |
-| $\mathbf{\frac{1}{5}}$ | $0.2$ | $20\%$ | $\frac{2}{5} = 40\%, \frac{3}{5} = 60\%, \frac{4}{5} = 80\%$ |
-| $\mathbf{\frac{1}{6}}$ | $0.16\overline{6}$ | $16\frac{2}{3}\% \approx 16.67\%$ | $\frac{5}{6} = 83\frac{1}{3}\% \approx 83.33\%$ |
-| $\mathbf{\frac{1}{7}}$ | $0.\overline{142857}$ | $14\frac{2}{7}\% \approx 14.28\%$ | Cyclic Family: $\frac{2}{7} = 28.57\%, \frac{3}{7} = 42.85\%, \frac{4}{7} = 57.14\%, \frac{5}{7} = 71.42\%, \frac{6}{7} = 85.71\%$ |
-| $\mathbf{\frac{1}{8}}$ | $0.125$ | $12\frac{1}{2}\% = 12.5\%$ | $\frac{3}{8} = 37.5\%, \frac{5}{8} = 62.5\%, \frac{7}{8} = 87.5\%$ |
-| $\mathbf{\frac{1}{9}}$ | $0.\overline{1}$ | $11\frac{1}{9}\% \approx 11.11\%$ | Multiples of 11: $\frac{2}{9} = 22.22\%, \frac{4}{9} = 44.44\%, \frac{7}{9} = 77.77\%$ |
-| $\mathbf{\frac{1}{10}}$ | $0.1$ | $10\%$ | Baseline power |
-| $\mathbf{\frac{1}{11}}$ | $0.\overline{09}$ | $9\frac{1}{11}\% \approx 9.09\%$ | Multiples of 9: $\frac{2}{11} = 18.18\%, \frac{3}{11} = 27.27\%, \frac{5}{11} = 45.45\%, \frac{7}{11} = 63.63\%$ |
-| $\mathbf{\frac{1}{12}}$ | $0.08\overline{3}$ | $8\frac{1}{3}\% \approx 8.33\%$ | $\frac{5}{12} = 41.67\%, \frac{7}{12} = 58.33\%, \frac{11}{12} = 91.67\%$ |
-| $\mathbf{\frac{1}{13}}$ | $0.\overline{076923}$ | $7\frac{9}{13}\% \approx 7.69\%$ | $\frac{2}{13} \approx 15.38\%, \frac{3}{13} \approx 23.08\%$ |
-| $\mathbf{\frac{1}{14}}$ | $0.07\overline{142857}$ | $7\frac{1}{7}\% \approx 7.14\%$ | Exactly half of $\frac{1}{7}$ ($14.28\% / 2$) |
-| $\mathbf{\frac{1}{15}}$ | $0.06\overline{6}$ | $6\frac{2}{3}\% \approx 6.67\%$ | $\frac{2}{15} = 13.33\%, \frac{4}{15} = 26.67\%, \frac{7}{15} = 46.67\%$ |
-| $\mathbf{\frac{1}{16}}$ | $0.0625$ | $6\frac{1}{4}\% = 6.25\%$ | $\frac{3}{16} = 18.75\%, \frac{5}{16} = 31.25\%, \frac{7}{16} = 43.75\%$ |
-| $\mathbf{\frac{1}{17}}$ | $0.0588\dots$ | $5\frac{15}{17}\% \approx 5.88\%$ | $\frac{2}{17} \approx 11.76\%, \frac{3}{17} \approx 17.65\%$ |
-| $\mathbf{\frac{1}{18}}$ | $0.05\overline{5}$ | $5\frac{5}{9}\% \approx 5.55\%$ | Half of $\frac{1}{9}$ |
-| $\mathbf{\frac{1}{19}}$ | $0.0526\dots$ | $5\frac{5}{19}\% \approx 5.26\%$ | Prime reciprocal benchmark |
-| $\mathbf{\frac{1}{20}}$ | $0.05$ | $5\%$ | Baseline 20th |
-| $\mathbf{\frac{1}{24}}$ | $0.041\overline{6}$ | $4\frac{1}{6}\% \approx 4.16\%$ | Half of $\frac{1}{12}$ |
-| $\mathbf{\frac{1}{25}}$ | $0.04$ | $4\%$ | $\frac{2}{25} = 8\%, \frac{3}{25} = 12\%, \frac{4}{25} = 16\%$ |
+| Fraction | Exact Decimal Value | Exact Percentage Form | Rounded Decimal % (2 d.p.) | Primary Family & Derived Multipliers |
+| :--- | :--- | :--- | :--- | :--- |
+| $\mathbf{\frac{1}{2}}$ | $0.5$ | $50\%$ | $50.00\%$ | Baseline half |
+| $\mathbf{\frac{1}{3}}$ | $0.\overline{3}$ | $33\frac{1}{3}\% = \frac{100}{3}\%$ | $\approx 33.33\%$ | $\frac{2}{3} = 66\frac{2}{3}\% \approx 66.67\%$ |
+| $\mathbf{\frac{1}{4}}$ | $0.25$ | $25\%$ | $25.00\%$ | $\frac{3}{4} = 75\%$ |
+| $\mathbf{\frac{1}{5}}$ | $0.2$ | $20\%$ | $20.00\%$ | $\frac{2}{5} = 40\%, \frac{3}{5} = 60\%, \frac{4}{5} = 80\%$ |
+| $\mathbf{\frac{1}{6}}$ | $0.16\overline{6}$ | $16\frac{2}{3}\% = \frac{100}{6}\%$ | $\approx 16.67\%$ | $\frac{5}{6} = 83\frac{1}{3}\% \approx 83.33\%$ |
+| $\mathbf{\frac{1}{7}}$ | $0.\overline{142857}$ | $14\frac{2}{7}\% = \frac{100}{7}\%$ | $\approx 14.29\%$ (or $14.28\%$ truncated) | Cyclic Family: $\frac{2}{7} \approx 28.57\%, \frac{3}{7} \approx 42.86\%, \frac{4}{7} \approx 57.14\%, \frac{5}{7} \approx 71.43\%, \frac{6}{7} \approx 85.71\%$ |
+| $\mathbf{\frac{1}{8}}$ | $0.125$ | $12\frac{1}{2}\% = 12.5\%$ | $12.50\%$ (Exact terminating) | $\frac{3}{8} = 37.5\%, \frac{5}{8} = 62.5\%, \frac{7}{8} = 87.5\%$ |
+| $\mathbf{\frac{1}{9}}$ | $0.\overline{1}$ | $11\frac{1}{9}\% = \frac{100}{9}\%$ | $\approx 11.11\%$ | Multiples of 11: $\frac{2}{9} \approx 22.22\%, \frac{4}{9} \approx 44.44\%, \frac{7}{9} \approx 77.78\%$ |
+| $\mathbf{\frac{1}{10}}$ | $0.1$ | $10\%$ | $10.00\%$ | Baseline power |
+| $\mathbf{\frac{1}{11}}$ | $0.\overline{09}$ | $9\frac{1}{11}\% = \frac{100}{11}\%$ | $\approx 9.09\%$ | Multiples of 9: $\frac{2}{11} \approx 18.18\%, \frac{3}{11} \approx 27.27\%, \frac{5}{11} \approx 45.45\%, \frac{7}{11} \approx 63.64\%$ |
+| $\mathbf{\frac{1}{12}}$ | $0.08\overline{3}$ | $8\frac{1}{3}\% = \frac{100}{12}\%$ | $\approx 8.33\%$ | $\frac{5}{12} \approx 41.67\%, \frac{7}{12} \approx 58.33\%, \frac{11}{12} \approx 91.67\%$ |
+| $\mathbf{\frac{1}{13}}$ | $0.\overline{076923}$ | $7\frac{9}{13}\% = \frac{100}{13}\%$ | $\approx 7.69\%$ | $\frac{2}{13} \approx 15.38\%, \frac{3}{13} \approx 23.08\%$ |
+| $\mathbf{\frac{1}{14}}$ | $0.07\overline{142857}$ | $7\frac{1}{7}\% = \frac{100}{14}\%$ | $\approx 7.14\%$ | Exactly half of $\frac{1}{7}$ ($14.2857\% / 2$) |
+| $\mathbf{\frac{1}{15}}$ | $0.06\overline{6}$ | $6\frac{2}{3}\% = \frac{100}{15}\%$ | $\approx 6.67\%$ | $\frac{2}{15} \approx 13.33\%, \frac{4}{15} \approx 26.67\%, \frac{7}{15} \approx 46.67\%$ |
+| $\mathbf{\frac{1}{16}}$ | $0.0625$ | $6\frac{1}{4}\% = 6.25\%$ | $6.25\%$ (Exact terminating) | $\frac{3}{16} = 18.75\%, \frac{5}{16} = 31.25\%, \frac{7}{16} = 43.75\%$ |
+| $\mathbf{\frac{1}{17}}$ | $0.0588\dots$ | $5\frac{15}{17}\% = \frac{100}{17}\%$ | $\approx 5.88\%$ | $\frac{2}{17} \approx 11.76\%, \frac{3}{17} \approx 17.65\%$ |
+| $\mathbf{\frac{1}{18}}$ | $0.05\overline{5}$ | $5\frac{5}{9}\% = \frac{100}{18}\%$ | $\approx 5.56\%$ | Half of $\frac{1}{9}$ ($\approx 11.11\% / 2$) |
+| $\mathbf{\frac{1}{19}}$ | $0.0526\dots$ | $5\frac{5}{19}\% = \frac{100}{19}\%$ | $\approx 5.26\%$ | Prime reciprocal benchmark |
+| $\mathbf{\frac{1}{20}}$ | $0.05$ | $5\%$ | $5.00\%$ | Baseline 20th |
+| $\mathbf{\frac{1}{24}}$ | $0.041\overline{6}$ | $4\frac{1}{6}\% = \frac{100}{24}\%$ | $\approx 4.17\%$ | Half of $\frac{1}{12}$ ($\approx 8.33\% / 2$) |
+| $\mathbf{\frac{1}{25}}$ | $0.04$ | $4\%$ | $4.00\%$ | $\frac{2}{25} = 8\%, \frac{3}{25} = 12\%, \frac{4}{25} = 16\%$ |
 
 ---
 
@@ -91,50 +91,63 @@ $$\text{Fraction} = \frac{(\text{Complete number formed by non-repeating and rep
 
 ---
 
-## 2.4 BODMAS & The Operational Hierarchy of Simplification
+## 2.4 Operator Precedence & The Simplification Engine (BODMAS De-mystified)
 
-Mathematical operations are evaluated in strict hierarchical precedence:
+In mathematical expression evaluation, operations follow rigorous precedence tiers:
 
-```
+```text
 ┌──────────┬─────────────────────────────┬────────────────────────────────────────────────────────┐
 │ Precedence│ Operation Symbol            │ Critical Operational Rule                              │
 ├──────────┼─────────────────────────────┼────────────────────────────────────────────────────────┤
-│ 1 (Top)  │ V - Vinculum (Bar: x̄)       │ Evaluated first, binds signs under the bar.           │
+│ 1 (Top)  │ V - Vinculum (Bar: x̄)       │ Evaluated first; binds signs directly under the bar.   │
 │ 2        │ B - Brackets: (), {}, []    │ Innermost (parentheses) ➔ curly {} ➔ square [].       │
-│ 3        │ O - "Of" (Orders / Powers)  │ Higher priority than regular division / multiplication.│
-│ 4        │ D - Division (÷)            │ Evaluated strictly from left to right.                 │
-│ 5        │ M - Multiplication (×)      │ Associative with addition boundaries.                 │
-│ 6        │ A - Addition (+)            │ Commutative.                                           │
-│ 7 (Base) │ S - Subtraction (-)         │ Evaluated in natural sequential order.                 │
+│ 3        │ O - "Of" (Grouping Product) │ Indian exam convention: groups immediately with terms. │
+│ 4        │ D / M - Division & Multipl. │ EQUAL PRECEDENCE! Evaluated strictly LEFT TO RIGHT.    │
+│ 5 (Base) │ A / S - Addition & Subtract.│ EQUAL PRECEDENCE! Evaluated strictly LEFT TO RIGHT.    │
 └──────────┴─────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
-### The Fatal "Of" vs. "$\times$" Distinction
-Consider the expression: $20 \div 5 \text{ of } 2$.
-* **Incorrect Interpretation** (treating "of" as plain $\times$ after division):
-  $$20 \div 5 \times 2 = 4 \times 2 = 8 \quad \text{[FATAL EXAM ERROR]}$$
-* **Correct BODMAS Interpretation** ("of" has precedence over "$\div$"):
-  $$20 \div (5 \times 2) = 20 \div 10 = \mathbf{2}$$
+### The Crucial Distinction: Stated Exam Convention ("Of") vs. Universal Operator Precedence ($\times$)
+* **Division and Multiplication Share Equal Precedence (Universal Law)**: In standard mathematics, division ($\div$) and multiplication ($\times$) possess identical operational precedence. When unbracketed in an arithmetic expression, they are evaluated strictly from left to right:
+  $$20 \div 5 \times 2 = (20 \div 5) \times 2 = 4 \times 2 = \mathbf{8}$$
+* **The "Of" Convention in Indian Competitive Examinations (Stated Exam Convention)**: In simplification questions within Indian banking and government recruitment exams, the word **"of"** is treated by established exam convention as an explicit grouping operator that binds terms before division is executed:
+  $$20 \div 5 \text{ of } 2 = 20 \div (5 \times 2) = 20 \div 10 = \mathbf{2} \quad \text{[Stated Exam Convention]}$$
+  *Warning*: Do not confuse universal multiplication ($\times$) with this convention-labeled operator. If the problem writes $\times$, standard left-to-right precedence applies ($20 \div 5 \times 2 = 8$).
+* **Chained Division Rule**: A sequence of unbracketed divisions evaluates strictly left-to-right:
+  $$a \div b \div c \div d = ((a \div b) \div c) \div d = \frac{a}{b \cdot c \cdot d}$$
 
 ---
 
 ## 2.5 Structured Estimation & Bounding Mechanics for Timed Exams
 
-In high-speed banking and CSAT exams, exact computation of multi-digit division is inefficient. The **Relative Error Minimization Technique** isolates the correct option without full calculation:
+In high-speed banking and aptitude exams, exact long division of multi-digit numbers is inefficient. The **Relative Error Minimization Technique** isolates the correct option without full decimal calculation:
 
-### 1. The Denominator Percentage Shift Rule
-When adjusting a denominator to a round benchmark, shift the numerator by the **exact same percentage**:
-$$\frac{N}{D} \approx \frac{N(1 + \delta)}{D(1 + \delta)}$$
+### 1. Exact Scale Factor Identity vs. Approximate Percentage-Shift Estimation
 
-#### Problem: Estimate $\frac{4,720}{784}$
-1. The denominator $784$ is close to $800$.
-2. Increase $D = 784$ to $800$, which is an increase of $+16$.
-3. What percentage is $16$ of $784$? Since $10\%$ is $78.4$ and $1\%$ is $7.84$, $16 \approx 2\%$.
-4. Increase the numerator $4,720$ by the same $+2\%$:
-   $$2\% \text{ of } 4720 \approx 94.4 \implies 4720 + 94.4 = 4814.4$$
-5. New simplified fraction:
-   $$\frac{4814.4}{800} = \frac{48.144}{8} = \mathbf{6.018}$$
-*(Exact calculator value: $4720 / 784 = 6.0204$. Estimation error is $<0.04\%$!)*
+* **The Exact Scale Factor Identity**:
+  Multiplying both the numerator and the denominator by the exact same non-zero scaling factor $k = 1 + \delta$ preserves the exact value of the fraction without any error:
+  $$\frac{N \cdot (1 + \delta)}{D \cdot (1 + \delta)} = \frac{N}{D} \quad (\text{Exact Algebraic Equality})$$
+
+* **The Practical Percentage-Shift Approximation**:
+  In an exam setting, we rarely compute the exact scaling factor to multiple decimal places. Instead, when rounding a cumbersome denominator $D$ by an increment $\Delta D$ to reach a friendly round benchmark $D' = D + \Delta D$, we estimate the percentage shift:
+  $$\delta \approx \frac{\Delta D}{D}$$
+  We then shift the numerator by that same approximate percentage $\delta$, giving the estimate:
+  $$\frac{N}{D} \approx \frac{N + N\delta}{D + \Delta D}$$
+  *Notice*: Because $\delta$ is rounded to a convenient mental percentage (such as $2\%$ or $5\%$), this method produces a **disciplined estimate with a small bounded error**, rather than an exact mathematical identity.
+
+#### Worked Estimation Example: Estimate $\frac{4,720}{784}$
+1. The denominator $784$ is close to the friendly round benchmark $800$.
+2. We adjust $D = 784 \to 800$, which is an increase of $\Delta D = +16$.
+3. Compute the approximate percentage shift:
+   $$10\% \text{ of } 784 = 78.4, \quad 1\% \text{ of } 784 = 7.84 \implies 16 \approx 2.04\% \approx +2\%$$
+4. Increase the numerator $4,720$ by this approximate $+2\%$:
+   $$2\% \text{ of } 4,720 = 94.4 \implies N' = 4,720 + 94.4 = 4,814.4$$
+5. Evaluate the simplified benchmark quotient:
+   $$\frac{4,814.4}{800} = \frac{48.144}{8} = \mathbf{6.018}$$
+6. **Error Analysis**:
+   * Exact calculator value: $4,720 / 784 \approx 6.0204$.
+   * Estimation error $= \frac{|6.0204 - 6.018|}{6.0204} \approx 0.04\%$.
+   * Because the error is well under $0.1\%$, this rapid estimate safely distinguishes options separated by $1\%$ or more without lengthy division.
 
 ---
 

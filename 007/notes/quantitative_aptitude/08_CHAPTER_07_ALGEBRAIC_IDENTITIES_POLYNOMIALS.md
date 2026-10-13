@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 07: ALGEBRAIC IDENTITIES, SYMMETRIC POLYNOMIALS & FACTORIZATION
+# CHAPTER 08: ALGEBRAIC IDENTITIES & POLYNOMIAL FACTORIZATION
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 1: Numbers, pp. 3–50; Ch. 4: Simplification Algebraic Identities, pp. 95–179)
@@ -10,7 +10,7 @@
 
 ---
 
-## 7.1 The Master Algebraic Identity Catalogue
+## 8.1 The Master Algebraic Identity Catalogue
 
 Algebraic identities represent equations that hold unconditionally true for all real values of their constituent variables. In competitive examinations, complex multi-digit arithmetic expressions are almost always disguised algebraic identities:
 
@@ -52,7 +52,7 @@ $$\frac{1}{2}[(a - b)^2 + (b - c)^2 + (c - a)^2] = 0 \implies \mathbf{a = b = c}
 
 ---
 
-## 7.2 The Reciprocal Invariant Suite ($x + 1/x = k$)
+## 8.2 The Reciprocal Invariant Suite ($x + 1/x = k$)
 
 Problems of the form $x + \frac{1}{x} = k$ are core fixtures in competitive examinations:
 
@@ -77,7 +77,7 @@ Problems of the form $x + \frac{1}{x} = k$ are core fixtures in competitive exam
 
 ---
 
-## 7.3 Special Cyclic & Roots of Unity Shortcuts
+## 8.3 Special Cyclic & Roots of Unity Shortcuts
 
 Certain recurring reciprocal values induce cyclical cancellations:
 
@@ -95,7 +95,7 @@ Certain recurring reciprocal values induce cyclical cancellations:
 
 ---
 
-## 7.4 Multi-Tier Worked Exemplars (R.S. Aggarwal Benchmark Traps)
+## 8.4 Multi-Tier Worked Exemplars (R.S. Aggarwal Benchmark Traps)
 
 ### Exemplar 1 (Disguised Cubic Simplification):
 Evaluate:
@@ -121,7 +121,7 @@ $$(28)^3 + (-15)^3 + (-13)^3$$
 
 ---
 
-## 7.5 Top Examiner Traps in Algebraic Identities
+## 8.5 Top Examiner Traps in Algebraic Identities
 
 1. **The $(a - b)^2$ vs $a^2 - b^2$ Confusion**:
    $(a - b)^2 = a^2 - 2ab + b^2$, while $a^2 - b^2 = (a - b)(a + b)$. Substituting one for the other in polynomial cancellations destroys the solution.

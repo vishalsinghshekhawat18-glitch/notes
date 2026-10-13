@@ -1,12 +1,12 @@
-# CHAPTER 25: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS
+# CHAPTER 26: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS
 
 **Domain**: Applied Statistical Analytics, Graphical Information Decompression & Quantitative Reasoning  
-**Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1 & 2), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
+**Target Examinations**: SBI/IBPS/RRB PO & Clerk, RBI Grade B (Phase I), SEBI Grade A (Phase I), NABARD Grade A, UPSC CSAT, State PCS (RPSC RAS)  
 **Pedagogical Hierarchy**: The Four Fundamental DI Operations $\to$ Graphical Archetypes $\to$ Dual Pie Chart Conversion $\to$ 3-Set Venn Caselet Algebra $\to$ Multi-Tier Exemplars $\to$ Trap Taxonomy
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: THE FOUR ATOMIC DI OPERATIONS
+## 26.1 FIRST-PRINCIPLES ONTOLOGY: THE FOUR ATOMIC DI OPERATIONS
 
 Data Interpretation ($\mathbf{DI}$) is not a distinct branch of mathematics; it is the **rapid computational extraction of commercial arithmetic from compressed graphical representations**. In every competitive examination, more than $85\%$ of all DI questions resolve into one of four elemental mathematical operations:
 
@@ -35,7 +35,7 @@ Data Interpretation ($\mathbf{DI}$) is not a distinct branch of mathematics; it 
 
 ---
 
-## 2. GRAPHICAL ARCHETYPES & COMPRESSION PROTOCOLS
+## 26.2 GRAPHICAL ARCHETYPES & COMPRESSION PROTOCOLS
 
 ### A. Tabular Matrices
 - **Structure**: Cross-tabulation along orthogonal row and column dimensions.
@@ -55,7 +55,7 @@ Data Interpretation ($\mathbf{DI}$) is not a distinct branch of mathematics; it 
 
 ---
 
-## 3. PIE CHART MECHANICS & ANGULAR TRANSFORMATION
+## 26.3 PIE CHART MECHANICS & ANGULAR TRANSFORMATION
 
 A pie chart maps quantitative proportions onto the circular angular topology of $360^\circ$.
 
@@ -87,7 +87,7 @@ $$\mathbf{\frac{\text{Absolute}_A}{\text{Absolute}_B} = \left(\frac{\%_A}{\%_B}\
 
 ---
 
-## 4. CASELETS & 3-SET VENN DIAGRAM ALGEBRA
+## 26.4 CASELETS & 3-SET VENN DIAGRAM ALGEBRA
 
 Unstructured prose narratives in DI require conversion into an algebraic Venn matrix:
 
@@ -118,7 +118,7 @@ $$\mathbf{\text{At Least Two Sets} = (d + e + f) + g = \sum n(A \cap B) - 2g}$$
 
 ---
 
-## 5. HIGH-SPEED RATIO & PERCENTAGE ESTIMATION ENGINES
+## 26.5 HIGH-SPEED RATIO & PERCENTAGE ESTIMATION ENGINES
 
 When comparing multiple large fractions in Data Interpretation without a calculator:
 
@@ -137,7 +137,7 @@ To calculate $\frac{382}{1,450}$ rapidly:
 
 ---
 
-## 6. MULTI-TIER WORKED EXEMPLARS
+## 26.6 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Percentage Increase Across Bar Graph (SBI PO Prelims)
 **Data**: A country's foreign exchange reserves (in million US\$) across years:
@@ -195,7 +195,7 @@ $$\text{Exactly Two} = (90 + 80 + 70) - 3(40) = 240 - 120 = \mathbf{120 \text{ s
 
 ---
 
-## 7. HIGH-YIELD TRAP TAXONOMY
+## 26.7 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

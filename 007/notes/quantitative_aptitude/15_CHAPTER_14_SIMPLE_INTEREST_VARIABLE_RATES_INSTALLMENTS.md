@@ -1,4 +1,4 @@
-# CHAPTER 14: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS
+# CHAPTER 15: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS
 
 **Domain**: Financial Mathematics & Linear Capital Dynamics  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY & LINEAR TIME DYNAMICS
+## 15.1 FIRST-PRINCIPLES ONTOLOGY & LINEAR TIME DYNAMICS
 
 Simple Interest ($\mathbf{SI}$) represents the purest form of linear monetary compensation for the temporal use of financial capital. Under simple interest, the principal capital base remains completely static across the entire investment epoch. Accumulated interest never merges into the principal to earn secondary interest.
 
@@ -49,7 +49,7 @@ In competitive examinations, fractional time periods are standard:
 
 ---
 
-## 2. THE MULTIPLIER PRINCIPLE & TWO-EPOCH SCALING
+## 15.2 THE MULTIPLIER PRINCIPLE & TWO-EPOCH SCALING
 
 ### Theorem 1: Capital Multiplication Epochs
 When a principal sum $P$ becomes $N$ times its original value in $T$ years:
@@ -68,7 +68,7 @@ $$\frac{I_1}{I_2} = \frac{T_1}{T_2} \implies \mathbf{\frac{T_1}{T_2} = \frac{N_1
 
 ---
 
-## 3. PIECEWISE LINEAR & VARIABLE RATE REGIMES
+## 15.3 PIECEWISE LINEAR & VARIABLE RATE REGIMES
 
 When loan agreements stipulate escalating interest rates over successive time intervals (e.g., developmental credit or corporate debt):
 - Rate $R_1\%$ for first $T_1$ years,
@@ -83,7 +83,7 @@ $$\mathbf{R_{\text{eff}} = \frac{\sum_{i=1}^k R_i T_i}{\sum_{i=1}^k T_i}}$$
 
 ---
 
-## 4. CAPITAL PARTITIONING THEOREMS
+## 15.4 CAPITAL PARTITIONING THEOREMS
 
 When an aggregate capital sum $P$ is bifurcated or partitioned into multiple portions $P_1, P_2, \dots, P_k$ invested under different rates $R_i$ and durations $T_i$:
 
@@ -102,7 +102,7 @@ $$\mathbf{P_1 : P_2 : \dots : P_k = \frac{1}{100 + R_1 T_1} : \frac{1}{100 + R_2
 
 ---
 
-## 5. THE DEBT INSTALLMENT ARCHITECTURE IN SIMPLE INTEREST
+## 15.5 THE DEBT INSTALLMENT ARCHITECTURE IN SIMPLE INTEREST
 
 One of the most widely misunderstood areas of quantitative aptitude is the calculation of annual installments to discharge a debt under simple interest.
 
@@ -132,11 +132,16 @@ Substituting this identity gives the **Universal Debt Installment Master Identit
 $$\mathbf{n \cdot x + \frac{x \cdot R \cdot n(n - 1)}{200} = A}$$
 
 Solving directly for the annual installment $x$:
-$$\mathbf{x = \frac{100 \cdot A}{100 \cdot n + \frac{R \cdot n(n - 1)}{2}}}$$
+$$\mathbf{x = \frac{200 \cdot A}{200 \cdot n + R \cdot n(n - 1)}}$$
+
+> **CRITICAL EXAM BOUNDARY WARNING (BORROWED LOAN VS. TERMINAL DEBT)**:
+> In examination questions, distinguish carefully between two problem wordings:
+> 1. *"A debt of ₹$A$ is due in $n$ years"*: Here, $A$ is already the **terminal debt**. Substitute $A$ directly into the formula above.
+> 2. *"A person borrows ₹$P$ today at $R\%$ p.a. to be repaid in $n$ annual installments"*: Here, ₹$P$ is the present borrowed sum. You must **first compute the terminal debt** $A = P\left(1 + \frac{R \cdot n}{100}\right)$ that would have accrued over $n$ years, and then solve for $x$!
 
 ---
 
-## 6. MULTI-TIER WORKED EXEMPLARS
+## 15.6 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Splitting Capital for Equal Interest (SBI PO Prelims)
 **Problem**: A sum of ₹$1,550$ is lent out into two parts, one at $8\%$ p.a. and the other at $6\%$ p.a. simple interest. If the total annual interest income received is ₹$106$, determine the money lent at each rate.
@@ -201,7 +206,7 @@ Elder son's share $P_2 = 13 \times 750 = \mathbf{₹9,750}$.
 
 ---
 
-## 7. HIGH-YIELD TRAP TAXONOMY
+## 15.7 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 11: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)
+# CHAPTER 12: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 12: Ratio & Proportion, pp. 426–475; Ch. 13: Partnership, pp. 476–492; Ch. 14: Chain Rule, pp. 493–509)
@@ -10,7 +10,7 @@
 
 ---
 
-## 11.1 Ratio Axioms & Compound Ratios
+## 12.1 Ratio Axioms & Compound Ratios
 
 A **ratio** is a comparative quotient between two quantities $a$ and $b$ of the **same physical units**:
 $$a : b = \frac{a}{b} \quad (b \neq 0)$$
@@ -54,7 +54,7 @@ $$A : B : C = (2 \times 4) : (3 \times 4) : (3 \times 5) = \mathbf{8 : 12 : 15}$
 
 ---
 
-## 11.2 Proportions & The Componendo-Dividendo (C&D) Rule
+## 12.2 Proportions & The Componendo-Dividendo (C&D) Rule
 
 Four quantities $a, b, c, d$ are in **proportion** ($a : b :: c : d$) if:
 $$\frac{a}{b} = \frac{c}{d} \iff \mathbf{ad = bc \quad (\text{Product of Extremes} = \text{Product of Means})}$$
@@ -79,7 +79,7 @@ $$\mathbf{\frac{a + b}{a - b} = \frac{c + d}{c - d}}$$
 
 ---
 
-## 11.3 The Chain Rule: Unified Work-Time-Output Invariant
+## 12.3 The Chain Rule: Unified Work-Time-Output Invariant
 
 All compound proportionality problems in physical work, manpower, days, hours, and wages are unified under the **Universal Chain Rule Invariant**:
 
@@ -106,7 +106,7 @@ If $36$ men can knit $200$ metres of cloth in $24$ days working $8$ hours a day,
 
 ---
 
-## 11.4 Partnership Mathematics (Capital × Time)
+## 12.4 Partnership Mathematics (Capital × Time)
 
 In a commercial partnership, net profits (or losses) are distributed in direct proportion to the **product of Capital Invested ($C$) and the Duration of Investment ($T$)**:
 
@@ -137,7 +137,7 @@ $A$ and $B$ enter into a partnership. $A$ invests ₹$50,000$ for $12$ months, w
 
 ---
 
-## 11.5 The Coin Denomination Invariant
+## 12.5 The Coin Denomination Invariant
 
 A standard aptitude problem involves a bag containing coins of ₹1, 50 paise, and 25 paise in a given ratio:
 $$\text{Total Value in ₹} = \sum (\text{Number of Coins of Denomination } i) \times (\text{Face Value of Denomination } i \text{ in ₹})$$
@@ -157,7 +157,7 @@ A bag contains ₹1, 50 paise, and 25 paise coins in the ratio $5 : 6 : 8$. If t
 
 ---
 
-## 11.6 Top Examiner Traps in Ratio & Partnership
+## 12.6 Top Examiner Traps in Ratio & Partnership
 
 1. **The Inverse Ratio Linear Inversion Trap**:
    Assuming the inverse of $2 : 3 : 4$ is $4 : 3 : 2$. This is completely false! The true inverse is $\frac{1}{2} : \frac{1}{3} : \frac{1}{4} = \mathbf{6 : 4 : 3}$ (multiplying by $\text{LCM} = 12$).

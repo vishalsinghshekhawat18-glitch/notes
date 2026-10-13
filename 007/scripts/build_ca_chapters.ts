@@ -111,11 +111,11 @@ export function transformChapterMarkdown(text: string, meta: CAChapterMeta, asse
     return `___CODE_BLOCK_${codeBlocks.length - 1}___`;
   });
 
-  // 3. Currency symbol protection
-  text = text.replace(/\\(\$)/g, '___CURRENCY_USD___');
-  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d+[\d,\.]*\s*(?:billion|million|trillion|crore|lakh|bn|m|b|k)\b)/gi, '$1___CURRENCY_USD___$2');
-  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d[\d,\.]*)(?![^\n]*\$)(?![%+\-*=/^_\\])/g, '$1___CURRENCY_USD___$2');
-  text = text.replace(/\bUS\$/g, 'US___CURRENCY_USD_SIGN___');
+  // 3. Currency symbol protection (use collision-safe tokens without underscores to prevent marked bold/italic parsing)
+  text = text.replace(/\\(\$)/g, '@@@PROTECTED_USD_TOKEN@@@');
+  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d+[\d,\.]*\s*(?:billion|million|trillion|crore|lakh|bn|m|b|k)\b)/gi, '$1@@@PROTECTED_USD_TOKEN@@@$2');
+  text = text.replace(/(^|[\s\(\[\{>\-–+~])\$(\d[\d,\.]*)(?![^\n]*\$)(?![%+\-*=/^_\\])/g, '$1@@@PROTECTED_USD_TOKEN@@@$2');
+  text = text.replace(/\bUS\$/g, 'US@@@PROTECTED_USD_SIGN@@@');
 
   // 4. Pre-render KaTeX display math
   text = text.replace(/\$\$([\s\S]+?)\$\$/g, (m, inner) => {
@@ -158,7 +158,9 @@ export function transformChapterMarkdown(text: string, meta: CAChapterMeta, asse
     return `\n\n@@@ACTIVE_RECALL_BLOCK_${recallCards.length - 1}@@@\n\n`;
   });
 
-  // 8. Normal markdown list normalization
+  // 8. Normal markdown list normalization & EXAM ANGLE normalization
+  text = text.replace(/([^\n])\n\*\*EXAM ANGLE/g, '$1\n\n**EXAM ANGLE');
+  text = text.replace(/\*\*EXAM ANGLE:\*\*&\s*TRAP MATRIX/g, '**EXAM ANGLE & TRAP MATRIX:**');
   text = text.replace(/^([ \t]*)[•●○■◆]\s+/gm, '$1- ');
   text = text.replace(/\*\*([^*\n\r]+)\*\*:[ \t]*/g, '**$1:** ');
 
@@ -166,8 +168,11 @@ export function transformChapterMarkdown(text: string, meta: CAChapterMeta, asse
   let html = marked.parse(text) as string;
 
   // Restore protected currency
+  html = html.replace(/@@@PROTECTED_USD_TOKEN@@@/g, '$');
+  html = html.replace(/@@@PROTECTED_USD_SIGN@@@/g, '$');
   html = html.replace(/___CURRENCY_USD___/g, '$');
   html = html.replace(/___CURRENCY_USD_SIGN___/g, '$');
+  html = html.replace(/CURRENCY_USD/g, '');
 
   // Restore converted table blocks and active recall cards
   tableReplacements.forEach((tbl, idx) => {
@@ -203,12 +208,25 @@ export function transformChapterMarkdown(text: string, meta: CAChapterMeta, asse
   html = html.replace(/<h3>/g, '<div class="subsec-bar"><h3>');
   html = html.replace(/<\/h3>/g, '</h3></div>');
 
-  // 12. Exam Angle Callout Box Styling (handling flexible leading whitespace)
-  html = html.replace(/<p>\s*<strong>EXAM ANGLE:<\/strong>(?:&rarr;|→)?\s*([\s\S]*?)<\/p>/gi, (match, body) => {
+  // 12. Exam Angle Callout Box Styling (capturing header, optional inline body, and following lists)
+  html = html.replace(/<p>\s*<strong>EXAM ANGLE([^<]*)<\/strong>(?:&rarr;|→)?\s*([\s\S]*?)<\/p>((?:\s*(?:<ul>[\s\S]*?<\/ul>|<ol>[\s\S]*?<\/ol>)))?/gi, (match, tagExtra, pBody, followingList) => {
+    let title = "EXAM ANGLE &amp; MULTI-STATEMENT PITFALLS";
+    if (tagExtra && tagExtra.toLowerCase().includes("trap matrix")) {
+      title = "EXAM ANGLE &amp; TRAP MATRIX";
+    }
+    let innerContent = "";
+    if (pBody && pBody.trim().length > 0) {
+      innerContent += `<div class="exam-angle-prose">${pBody.trim()}</div>`;
+    }
+    if (followingList && followingList.trim().length > 0) {
+      innerContent += followingList.trim();
+    }
     return `
       <div class="exam-angle-box">
-        <div class="exam-angle-tag">EXAM ANGLE &amp; MULTI-STATEMENT PITFALLS</div>
-        <div class="exam-angle-content">${body.trim()}</div>
+        <div class="exam-angle-tag">${title}</div>
+        <div class="exam-angle-content">
+          ${innerContent}
+        </div>
       </div>
     `;
   });
@@ -249,7 +267,13 @@ export function transformChapterMarkdown(text: string, meta: CAChapterMeta, asse
     return `<pre class="ascii-diagram${extraClass}"><code>${codeContent}</code></pre>`;
   });
 
-  // 17. Wrap inside Chapter Body Wrapper with Chapter Key
+  // 17. Rewrite root-relative image paths to absolute file URIs for headless Chromium PDF generation
+  const publicDirUri = path.resolve('public').replace(/\\/g, '/');
+  html = html.replace(/<img\s+([^>]*?)src=["']\/([^"']+)["']([^>]*?)>/gi, (match, before, imgPath, after) => {
+    return `<figure class="figure-container"><img ${before}src="file:///${publicDirUri}/${imgPath}"${after} /></figure>`;
+  });
+
+  // 18. Wrap inside Chapter Body Wrapper with Chapter Key
   return `<div class="chapter-body-wrapper">${html}</div>`;
 }
 
@@ -394,8 +418,8 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
 
     body {
       font-family: "Times New Roman", "Georgia", serif;
-      font-size: 8.8pt;
-      line-height: 1.38;
+      font-size: 9.8pt;
+      line-height: 1.41;
       color: #111;
       background: #fff;
       margin: 0;
@@ -408,7 +432,7 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
     }
 
     p {
-      margin: 0 0 2mm 0;
+      margin: 0 0 2.2mm 0;
       text-align: justify;
       text-justify: inter-word;
     }
@@ -423,13 +447,21 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
     }
 
     ul, ol {
-      margin: 0 0 2.2mm 0;
-      padding-left: 4.5mm;
+      margin: 0 0 2.4mm 0;
+      padding-left: 4.8mm;
     }
     li {
-      margin-bottom: 0.8mm;
+      margin-bottom: 1.0mm;
       text-align: justify;
-      line-height: 1.36;
+      line-height: 1.39;
+    }
+
+    code {
+      font-family: "Consolas", monospace;
+      font-size: 8.8pt;
+      background: #f0f0f0;
+      padding: 0.4mm 0.8mm;
+      border-radius: 1pt;
     }
 
     /* Headings Pagination Protection */
@@ -437,7 +469,7 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
       page-break-after: avoid !important;
       break-after: avoid !important;
     }
-    .exam-angle-box, .interview-q-box, .mnemonic-box, .active-recall-card, .t-grid {
+    .exam-angle-box, .interview-q-box, .mnemonic-box, .active-recall-card {
       page-break-inside: avoid;
       break-inside: avoid;
     }
@@ -564,13 +596,22 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
     .t-grid {
       width: 100%;
       border-collapse: collapse;
-      margin: 3mm 0;
-      font-size: 7.5pt;
-      line-height: 1.25;
+      margin: 3.2mm 0;
+      font-size: 7.8pt;
+      line-height: 1.30;
+      page-break-inside: auto;
+      break-inside: auto;
+    }
+    .t-grid thead {
+      display: table-header-group;
+    }
+    .t-grid tr {
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
     .t-grid th, .t-grid td {
       border: 0.6pt solid #222;
-      padding: 1.4mm 2mm;
+      padding: 1.6mm 2.2mm;
       text-align: left;
       vertical-align: top;
     }
@@ -589,24 +630,51 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
       border: 1.2pt solid #000;
       border-left: 3.5pt solid #000;
       background: #f7f7f7;
-      padding: 2.5mm 3.5mm;
-      margin: 3.5mm 0;
+      padding: 3.2mm 4.2mm;
+      margin: 3.8mm 0;
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
     .exam-angle-tag {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      font-size: 7.5pt;
+      font-size: 7.8pt;
       font-weight: 800;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #000;
-      margin-bottom: 1.5mm;
-      border-bottom: 0.5pt solid #999;
-      padding-bottom: 1mm;
+      margin-bottom: 2mm;
+      border-bottom: 0.8pt solid #000;
+      padding-bottom: 1.2mm;
     }
     .exam-angle-content {
-      font-size: 8pt;
-      line-height: 1.32;
+      font-size: 8.8pt;
+      line-height: 1.36;
       color: #111;
+    }
+    .exam-angle-content p, .exam-angle-prose {
+      margin: 0 0 1.6mm 0;
+      font-size: 8.8pt;
+      line-height: 1.36;
+      text-align: justify;
+    }
+    .exam-angle-content p:last-child, .exam-angle-prose:last-child {
+      margin-bottom: 0;
+    }
+    .exam-angle-content ul, .exam-angle-content ol {
+      margin: 1.2mm 0 1.8mm 0;
+      padding-left: 4.8mm;
+    }
+    .exam-angle-content ul:last-child, .exam-angle-content ol:last-child {
+      margin-bottom: 0;
+    }
+    .exam-angle-content li {
+      font-size: 8.8pt;
+      line-height: 1.35;
+      margin-bottom: 1.1mm;
+      text-align: justify;
+    }
+    .exam-angle-content li:last-child {
+      margin-bottom: 0;
     }
 
     /* Interview Q Callout Box */
@@ -614,23 +682,25 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
       border: 1pt solid #000;
       border-left: 3.5pt solid #333;
       background: #fafafa;
-      padding: 2.5mm 3.5mm;
+      padding: 3mm 4mm;
       margin: 3.5mm 0;
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
     .interview-q-tag {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      font-size: 7.5pt;
+      font-size: 7.8pt;
       font-weight: 800;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #222;
-      margin-bottom: 1.5mm;
-      border-bottom: 0.5pt solid #aaa;
-      padding-bottom: 1mm;
+      margin-bottom: 1.8mm;
+      border-bottom: 0.8pt solid #666;
+      padding-bottom: 1.2mm;
     }
     .interview-q-content {
-      font-size: 8pt;
-      line-height: 1.32;
+      font-size: 8.8pt;
+      line-height: 1.36;
       color: #111;
     }
 
@@ -638,21 +708,23 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
     .mnemonic-box {
       border: 1pt dashed #000;
       background: #f5f5f5;
-      padding: 2mm 3.5mm;
-      margin: 3mm 0;
+      padding: 2.5mm 4mm;
+      margin: 3.5mm 0;
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
     .mnemonic-tag {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      font-size: 7pt;
+      font-size: 7.5pt;
       font-weight: 800;
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: #000;
-      margin-bottom: 1mm;
+      margin-bottom: 1.2mm;
     }
     .mnemonic-content {
-      font-size: 8pt;
-      line-height: 1.3;
+      font-size: 8.8pt;
+      line-height: 1.35;
       color: #222;
       font-style: italic;
     }
@@ -660,40 +732,50 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
     /* Active Recall Card */
     .active-recall-card {
       border: 1pt solid #000;
-      margin: 3mm 0;
+      margin: 3.5mm 0;
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
     .card-prompt-bar {
       background: #000;
       color: #fff;
       font-family: "Helvetica Neue", Arial, sans-serif;
-      font-size: 6.5pt;
+      font-size: 6.8pt;
       font-weight: 800;
       letter-spacing: 0.15em;
-      padding: 1mm 2.5mm;
+      padding: 1.2mm 2.8mm;
     }
     .card-prompt-summary {
       font-family: "Helvetica Neue", Arial, sans-serif;
       font-weight: 700;
-      font-size: 8pt;
-      padding: 2mm 2.5mm;
+      font-size: 8.5pt;
+      padding: 2.2mm 2.8mm;
       background: #f2f2f2;
       border-bottom: 0.5pt solid #ccc;
     }
     .card-answer-box {
-      padding: 2.5mm;
+      padding: 2.8mm;
       background: #fff;
     }
     .card-answer-tag {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      font-size: 6.5pt;
+      font-size: 6.8pt;
       font-weight: 800;
       letter-spacing: 0.1em;
       color: #444;
       margin-bottom: 1.5mm;
     }
     .card-answer-body {
-      font-size: 8pt;
-      line-height: 1.3;
+      font-size: 8.8pt;
+      line-height: 1.35;
+    }
+    .card-answer-body p {
+      font-size: 8.8pt;
+      line-height: 1.35;
+    }
+    .card-answer-body li {
+      font-size: 8.8pt;
+      line-height: 1.35;
     }
 
     .math-display-wrap {
@@ -727,6 +809,8 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
       color: #000;
       display: block;
       white-space: pre;
+      background: transparent;
+      padding: 0;
     }
     pre.ascii-diagram.pre-wide code {
       font-size: 5.8pt;
@@ -735,6 +819,23 @@ export function generateChapterPrintCss(meta: CAChapterMeta, katexCss: string): 
     pre.ascii-diagram.pre-ultrawide code {
       font-size: 4.8pt;
       line-height: 1.05;
+    }
+
+    /* Print Figures and Infographics */
+    figure.figure-container {
+      margin: 3.5mm auto;
+      padding: 0;
+      text-align: center;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    figure.figure-container img {
+      max-width: 100%;
+      height: auto;
+      max-height: 105mm;
+      display: block;
+      margin: 0 auto;
+      border: 0.8pt solid #111;
     }
   `;
 }

@@ -10,24 +10,37 @@
 
 ---
 
-## 3.1 The Axiomatic Foundations of Indices and Surds
+## 3.1 Mathematical Foundations of Indices and Surds
 
-### 1. Fundamental Laws of Indices
-For any non-zero real bases $a, b$ and rational exponents $m, n$:
+### 1. Fundamental Laws of Indices & Domain Constraints
+
+In competitive aptitude mathematics, the standard domain for base variables with rational exponents is strictly **positive real numbers ($a > 0, b > 0$)**. Within this positive domain, all fractional and rational exponents are universally well-defined and satisfy the algebraic laws unconditionally.
+
+When extended to real bases in general, strict domain restrictions apply:
+1. **Positive Real Base Default ($a > 0$)**: Guarantees that $a^{p/q}$ is real and uniquely defined for any rational exponent $p/q$.
+2. **Negative Base Domain Restriction ($a < 0$)**: The expression $a^{p/q}$ (with fraction $p/q$ in irreducible lowest terms) is defined on the real number line **if and only if the denominator $q$ is an odd integer** (e.g., $(-8)^{1/3} = \sqrt[3]{-8} = -2$). If $q$ is even, $a^{p/q}$ produces an imaginary or complex root (e.g., $(-4)^{1/2} = \sqrt{-4} \notin \mathbb{R}$).
+3. **Failure of $(a^m)^n = a^{mn}$ for Negative Bases**: The power of a power identity $(a^m)^n = a^{mn}$ can **fail** when bases are negative and exponents are rational.
+   * *Explicit Counterexample*: Let $a = -1$, $m = 2$, and $n = \frac{1}{2}$.
+   * Left-hand side: $\left((-1)^2\right)^{1/2} = (1)^{1/2} = 1$.
+   * Right-hand side: $(-1)^{2 \times \frac{1}{2}} = (-1)^1 = -1$.
+   * Since $1 \neq -1$, evaluating $(a^m)^n$ by multiplying exponents is invalid for negative bases unless intermediate values and branch cuts are explicitly constrained.
+4. **The Dual Context of $0^0$**:
+   * **Algebraic & Combinatorial Context**: Defined by standard convention as $0^0 = 1$. This ensures that formulas like the Binomial Theorem $(x + y)^n = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k}$ and polynomial evaluations $P(x) = \sum a_k x^k$ hold at $x = 0$ without treating the constant term as an exception.
+   * **Calculus & Analysis Context**: Treated as an **indeterminate form** because the two-variable limit $\lim_{(x,y) \to (0^+, 0)} x^y$ varies depending on the path along which $(x, y)$ approaches $(0, 0)$. In arithmetic simplification, $0^0$ is never evaluated directly.
 
 ```
-┌─────────────────────────────────┬────────────────────────────────────────────────────────┐
-│ Law of Indices                  │ First-Principles Mathematical Meaning                  │
-├─────────────────────────────────┼────────────────────────────────────────────────────────┤
-│ 1. Product of Powers            │ aᵐ · aⁿ = aᵐ⁺ⁿ                                         │
-│ 2. Quotient of Powers           │ aᵐ / aⁿ = aᵐ⁻ⁿ  (for a ≠ 0)                            │
-│ 3. Power of a Power             │ (aᵐ)ⁿ = aᵐⁿ ≠ a^(mⁿ)                                   │
-│ 4. Power of a Product           │ (ab)ⁿ = aⁿ · bⁿ                                        │
-│ 5. Power of a Quotient          │ (a/b)ⁿ = aⁿ / bⁿ  (for b ≠ 0)                          │
-│ 6. Zero Exponent Axiom          │ a⁰ = 1  (for a ≠ 0; 0⁰ is indeterminate)               │
-│ 7. Negative Exponent Axiom      │ a⁻ⁿ = 1 / aⁿ                                           │
-│ 8. Fractional Exponent / Radical│ a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ                              │
-└─────────────────────────────────┴────────────────────────────────────────────────────────┘
+┌─────────────────────────────────┬────────────────────────────────────────────────────────┬──────────────────────────────────────────┐
+│ Law of Indices                  │ First-Principles Mathematical Form                     │ Domain Restrictions                      │
+├─────────────────────────────────┼────────────────────────────────────────────────────────┼──────────────────────────────────────────┤
+│ 1. Product of Powers            │ aᵐ · aⁿ = aᵐ⁺ⁿ                                         │ a > 0 (or a ≠ 0 for integer m, n)        │
+│ 2. Quotient of Powers           │ aᵐ / aⁿ = aᵐ⁻ⁿ                                         │ a > 0 (or a ≠ 0 for integer m, n)        │
+│ 3. Power of a Power             │ (aᵐ)ⁿ = aᵐⁿ ≠ a^(mⁿ)                                   │ a > 0 (can fail for negative bases)      │
+│ 4. Power of a Product           │ (ab)ⁿ = aⁿ · bⁿ                                        │ a, b > 0 (or integer n)                  │
+│ 5. Power of a Quotient          │ (a/b)ⁿ = aⁿ / bⁿ                                       │ a > 0, b > 0 (b ≠ 0 for integer n)       │
+│ 6. Zero Exponent                │ a⁰ = 1                                                 │ a ≠ 0 (combinatorial convention 0⁰ = 1)  │
+│ 7. Negative Exponent            │ a⁻ⁿ = 1 / aⁿ                                           │ a ≠ 0                                    │
+│ 8. Fractional Exponent / Radical│ a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ                              │ a > 0 (for a < 0, n must be odd integer) │
+└─────────────────────────────────┴────────────────────────────────────────────────────────┴──────────────────────────────────────────┘
 ```
 
 > **The Tower Exponent Trap**:  

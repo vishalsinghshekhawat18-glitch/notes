@@ -1,4 +1,4 @@
-# CHAPTER 23: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY
+# CHAPTER 24: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY
 
 **Domain**: Modern Discrete Mathematics, Combinatorial Synthesis & Allocation Topology  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: THE AXIOMATIC COUNTING SYSTEM
+## 24.1 FIRST-PRINCIPLES ONTOLOGY: THE AXIOMATIC COUNTING SYSTEM
 
 Combinatorics is the branch of discrete mathematics that quantifies arrangements, selections, and partitions of finite sets without physical enumeration.
 
@@ -25,7 +25,7 @@ $$\text{Convention (Axiom of Empty Product)}: \mathbf{0! = 1}, \quad 1! = 1$$
 
 ---
 
-## 2. PERMUTATIONS: ORDER-SENSITIVE ARRANGEMENTS
+## 24.2 PERMUTATIONS: ORDER-SENSITIVE ARRANGEMENTS
 
 A **Permutation** is an ordered arrangement of elements chosen from a specified set. Here, the spatial sequence matters fundamentally ($AB \neq BA$).
 
@@ -51,7 +51,7 @@ Arranging $n$ distinct entities along a closed circular perimeter:
 
 ---
 
-## 3. CONSTRAINED ARRANGEMENT ENGINES: STRING VS GAP
+## 24.3 CONSTRAINED ARRANGEMENT ENGINES: STRING VS GAP
 
 ```
            THE STRING METHOD                              THE GAP METHOD
@@ -77,7 +77,7 @@ $$\mathbf{\text{Total Ways} = (n - k)! \times \,^{n - k + 1}P_k = (n - k)! \time
 
 ---
 
-## 4. COMBINATIONS: ORDER-INVARIANT SELECTIONS
+## 24.4 COMBINATIONS: ORDER-INVARIANT SELECTIONS
 
 A **Combination** is a selection of elements where internal ordering is disregarded ($AB \equiv BA$).
 
@@ -93,7 +93,7 @@ $$\mathbf{^nC_r = \frac{n!}{r!(n - r)!} = \frac{^nP_r}{r!}}$$
 
 ---
 
-## 5. ADVANCED DISTRIBUTION THEORY: STARS AND BARS
+## 24.5 ADVANCED DISTRIBUTION THEORY: STARS AND BARS
 
 The distribution of objects into containers depends fundamentally on whether the objects and boxes are distinct or identical.
 
@@ -123,7 +123,7 @@ $$\mathbf{\text{Number of Ways} = \frac{n!}{p! \cdot q! \cdot r!}}$$
 
 ---
 
-## 6. DERANGEMENTS & GEOMETRIC COMBINATORICS
+## 24.6 DERANGEMENTS & GEOMETRIC COMBINATORICS
 
 ### The Subfactorial / Derangement Formulation ($!n$)
 A **derangement** is a permutation of $n$ elements such that no element appears in its original natural position (e.g., putting $n$ letters into $n$ addressed envelopes such that every envelope receives the wrong letter):
@@ -151,7 +151,7 @@ From a planar configuration of $n$ points where $m$ points are strictly collinea
 
 ---
 
-## 7. MULTI-TIER WORKED EXEMPLARS
+## 24.7 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Constrained Committee Selection (SBI PO Prelims)
 **Problem**: A committee of $5$ persons is to be formed from a group of $6$ men and $4$ women. In how many ways can this committee be chosen if it must contain at least $3$ men?
@@ -209,7 +209,7 @@ $$N = \frac{15 \times 14 \times 13}{3 \times 2 \times 1} = 5 \times 7 \times 13 
 
 ---
 
-## 8. HIGH-YIELD TRAP TAXONOMY
+## 24.8 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

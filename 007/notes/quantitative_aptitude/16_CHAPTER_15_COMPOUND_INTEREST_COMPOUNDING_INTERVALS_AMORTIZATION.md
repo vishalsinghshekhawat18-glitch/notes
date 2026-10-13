@@ -1,4 +1,4 @@
-# CHAPTER 15: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION
+# CHAPTER 16: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION
 
 **Domain**: Exponential Capital Accumulation & Actuarial Valuation  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: EXPONENTIAL VS LINEAR ACCRUAL
+## 16.1 FIRST-PRINCIPLES ONTOLOGY: EXPONENTIAL VS LINEAR ACCRUAL
 
 Compound Interest ($\mathbf{CI}$) embodies the principle of recursive capital reproduction. At the conclusion of each compounding cycle, accrued interest is capitalized—converted into principal—and thereafter generates secondary interest.
 
@@ -56,7 +56,7 @@ Capital Growth Trajectory
 
 ---
 
-## 2. FRACTIONAL TENURES & VARIABLE RATE SEQUENCES
+## 16.2 FRACTIONAL TENURES & VARIABLE RATE SEQUENCES
 
 ### A. Fractional Duration ($n + \frac{a}{b}$ Years Compounded Annually)
 When money is invested for a non-integer duration, say $2\frac{3}{5}$ years, compounding occurs in whole units for the integer years, followed by simple accrual over the residual fraction:
@@ -68,7 +68,7 @@ $$\mathbf{A = P \left(1 + \frac{R_1}{100}\right) \left(1 + \frac{R_2}{100}\right
 
 ---
 
-## 3. THE PASCAL RATIO / TREE DECOMPOSITION ENGINE
+## 16.3 THE PASCAL RATIO / TREE DECOMPOSITION ENGINE
 
 For rapid problem-solving in banking and regulatory exams, binomial tree decomposition eliminates tedious decimal multiplication.
 
@@ -95,7 +95,7 @@ Using Pascal's Triangle coefficients:
 
 ---
 
-## 4. THE MASTER $\text{CI} - \text{SI}$ DIFFERENCE IDENTITIES
+## 16.4 THE MASTER $\text{CI} - \text{SI}$ DIFFERENCE IDENTITIES
 
 The divergence between compound interest and simple interest forms the backbone of advanced examination questions.
 
@@ -123,7 +123,7 @@ $$\mathbf{\frac{D_3}{D_2} = \frac{300 + R}{100} = 3 + \frac{R}{100}}$$
 
 ---
 
-## 5. EXPONENTIAL MULTIPLIER SCALING (THE POWER LAW)
+## 16.5 EXPONENTIAL MULTIPLIER SCALING (THE POWER LAW)
 
 Unlike simple interest, where the sum scales linearly via $(N - 1)$, compound interest scales exponentially through powers of the base multiplier.
 
@@ -145,7 +145,7 @@ $$\mathbf{T_{\text{target}} = k \cdot T \text{ years}}$$
 
 ---
 
-## 6. PRESENT VALUE & COMPOUND LOAN AMORTIZATION (EQUAL INSTALLMENTS)
+## 16.6 PRESENT VALUE & COMPOUND LOAN AMORTIZATION (EQUAL INSTALLMENTS)
 
 When a principal loan $P$ is amortized through $n$ equal annual payments of ₹$x$ each at $R\%$ compound interest per annum, the fundamental actuarial balance requires that the **Principal equals the sum of Present Values ($\mathbf{PV}$) of all installments**:
 
@@ -164,7 +164,7 @@ Where $1 + r = \frac{100 + R}{100}$.
 
 ---
 
-## 7. MULTI-TIER WORKED EXEMPLARS
+## 16.7 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Difference Ratio to Unlock Rate & Principal (SBI PO Mains)
 **Problem**: The difference between compound and simple interest on a certain sum of money for $2$ years at $R\%$ p.a. is ₹$40$, and for $3$ years at the same rate is ₹$125$. Determine the annual interest rate $R$ and the principal sum $P$.
@@ -226,7 +226,7 @@ $$\text{CI} = 3(800) + 3(40) + 1(2) = 2,400 + 120 + 2 = \mathbf{₹2,522}$$
 
 ---
 
-## 8. HIGH-YIELD TRAP TAXONOMY
+## 16.8 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

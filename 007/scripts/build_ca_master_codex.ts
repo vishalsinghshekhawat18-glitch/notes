@@ -189,57 +189,58 @@ export function buildFrontMatterHtml(): string {
 
   /* VERSO CIP COLOPHON (PAGE 2) */
   .colophon-container {
-    padding: 24mm 22mm 20mm 26mm;
+    padding: 16mm 20mm 14mm 24mm;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 8.5pt;
-    line-height: 1.5;
+    font-size: 7.8pt;
+    line-height: 1.4;
     color: #222;
   }
   .cip-block {
     border: 1pt solid #444;
-    padding: 5mm 6mm;
+    padding: 4mm 5mm;
     background: #fafafa;
-    margin-bottom: 6mm;
+    margin-bottom: 4mm;
   }
   .cip-title {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-weight: 800;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     border-bottom: 0.8pt solid #666;
-    padding-bottom: 1.5mm;
-    margin-bottom: 3mm;
+    padding-bottom: 1.2mm;
+    margin-bottom: 2mm;
   }
   .cip-line {
-    margin-bottom: 1.5mm;
-    font-size: 8pt;
+    margin-bottom: 1.2mm;
+    font-size: 7.4pt;
   }
   .cip-line strong {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 7.5pt;
+    font-size: 7pt;
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
   .colophon-prose {
     text-align: justify;
-    font-size: 8pt;
-    line-height: 1.55;
-    margin-bottom: 4mm;
+    font-size: 7.5pt;
+    line-height: 1.4;
+    margin-bottom: 3mm;
   }
   .colophon-prose strong {
     font-weight: 700;
   }
   .imprimatur-box {
     border-left: 3pt solid #000;
-    padding: 3mm 4mm;
+    padding: 2.5mm 3.5mm;
     background: #f4f4f4;
-    margin: 4mm 0;
+    margin: 3mm 0;
     font-style: italic;
-    font-size: 8pt;
+    font-size: 7.5pt;
+    line-height: 1.35;
   }
 </style>
 </head>
@@ -253,13 +254,13 @@ export function buildFrontMatterHtml(): string {
       </div>
 
       <div class="title-group">
-        <div class="super-title">BOOK 06 • MASTER CONTEMPORARY COMPENDIUM</div>
-        <div class="main-title">CONTEMPORARY ISSUES, BANKING REGULATION &amp; CURRENT AFFAIRS</div>
-        <div class="main-title-sub">The Senior Paper-Setter Master Strike Codex (2026 Edition)</div>
+        <div class="super-title">BOOK 06 • MASTER CONSOLIDATED CODEX</div>
+        <div class="main-title">GENERAL AWARENESS, BANKING REGULATION &amp; CONTEMPORARY POLICY</div>
+        <div class="main-title-sub">The Senior Paper-Setter Master Strike Codex (January–September 2026)</div>
         <div class="rule-double"></div>
         <div class="subtitle">
-          Doctoral Statutory Banking Acts • RBI Master Directions • Basel III Capital Norms • 
-          2026 Chronological Policy Dossiers (Q1 to Q3) • IBPS 35+ Marks Guarantee Vault • 
+          Statutory Banking Acts • RBI Master Directions &amp; Basel III Norms • Macroeconomic Base-Year Series • 
+          2026 Chronological Policy Dossiers (Jan–Sept) • IBPS Mains 35+ Marks High-Yield Compendium • 
           Computer Aptitude &amp; Digital Financial Systems
         </div>
       </div>
@@ -274,7 +275,7 @@ export function buildFrontMatterHtml(): string {
           <div><span>Statutory Acts:</span> RBI Act 1934, BR Act 1949, DICGC 1961, NI Act 1881, SARFAESI 2002, IBC 2016</div>
           <div><span>Financial Regulators:</span> Reserve Bank of India, SEBI, IRDAI, PFRDA, IFSCA (GIFT City IFSC)</div>
           <div><span>National Repositories:</span> The Gazette of India, PIB Releases, Union Budget 2026-27, MoSPI PLFS</div>
-          <div><span>Examination Scope:</span> IBPS PO/Clerk Mains (35+ Marks), SBI PO, RBI Grade B, SEBI Grade A, UPSC, RAS</div>
+          <div><span>Examination Scope:</span> IBPS PO/Clerk Mains (GA/Banking), SBI PO/Clerk, RRB Scale I/II/III, RBI Grade B (Phase 1 GA/Banking), SEBI Grade A (GA), UPSC CSE &amp; State PCS</div>
         </div>
       </div>
 
@@ -290,28 +291,34 @@ export function buildFrontMatterHtml(): string {
       <div>
         <div class="cip-block">
           <div class="cip-title">Library &amp; Curricular Cataloging-in-Publication Data</div>
-          <div class="cip-line"><strong>Main Title:</strong> Contemporary Issues, Banking Regulation &amp; Current Affairs Master Codex</div>
-          <div class="cip-line"><strong>Series:</strong> Shelf 007 Sovereign Examination Codices • Book 06</div>
-          <div class="cip-line"><strong>Curricular Focus:</strong> Static Banking Acts, Prudential Regimes, 2026 Policy Dossiers (Jan–Sept), IBPS 35+ Guarantee &amp; Computer Aptitude</div>
-          <div class="cip-line"><strong>Target Examinations:</strong> IBPS PO/Clerk Mains, SBI PO/Clerk, RBI Grade B, SEBI Grade A, IFSCA Grade A, NABARD Grade A, UPSC CSE, RPSC RAS</div>
+          <div class="cip-line"><strong>Main Title:</strong> General Awareness, Banking Regulation &amp; Contemporary Policy Master Codex</div>
+          <div class="cip-line"><strong>Series:</strong> Shelf 007 Sovereign Examination Codices • Book 06 (2026 Edition)</div>
+          <div class="cip-line"><strong>Curricular Focus:</strong> Static Banking Acts, Prudential Regimes, 2026 Chronological Dossiers (Jan–Sept), IBPS Mains High-Yield Compendium &amp; Digital Financial Architecture</div>
+          <div class="cip-line"><strong>Target Examinations:</strong> IBPS PO/Clerk Mains, SBI PO/Clerk, RRB Scale I/II/III, RBI Grade B (Phase 1 GA &amp; Core Banking), SEBI Grade A (GA), IFSCA Grade A, UPSC CSE, RPSC RAS</div>
+          <div class="cip-line"><strong>Verification Baseline:</strong> Event Horizon: 1 January 2026 – 30 September 2026 • Regulatory &amp; Personnel Status Verified: 7 October 2026</div>
+          <div class="cip-line"><strong>Current Policy Snapshot (7 Oct 2026 MPC):</strong> Repo Rate: 5.50% (+25 bps) • SDF: 5.25% • MSF: 5.75% • Stance: Calibrated Tightening (FY27 GDP: 7.1%, CPI: 5.2%)</div>
           <div class="cip-line"><strong>Standard:</strong> ISO A4 (210 × 297 mm) Duplex-Engineered • 24 mm Binding Gutter / 14 mm Outer Margin</div>
           <div class="cip-line"><strong>Typography:</strong> Times New Roman body with Helvetica Neue technical display architecture</div>
         </div>
 
         <div class="colophon-prose">
-          <strong>Curricular Scope &amp; Statutory Authority:</strong> This volume provides a comprehensive curricular synthesis of Contemporary Issues, Banking Regulation, and Macroeconomic Policy for high-scoring examination mastery. Every statutory citation—including the Reserve Bank of India Act 1934, the Banking Regulation Act 1949, the SARFAESI Act 2002, the Insolvency and Bankruptcy Code 2016, and the Negotiable Instruments Act 1881—adheres strictly to authoritative bare acts and official Gazette notifications.
+          <strong>Curricular Scope &amp; Statutory Authority:</strong> This volume provides a comprehensive curricular synthesis of General Awareness, Banking Regulation, and Macroeconomic Policy for high-scoring examination mastery. Every statutory citation—including the Reserve Bank of India Act 1934, the Banking Regulation Act 1949, the SARFAESI Act 2002, the Insolvency and Bankruptcy Code 2016, and the Negotiable Instruments Act 1881—adheres strictly to authoritative bare acts and official Gazette notifications.
         </div>
 
         <div class="colophon-prose">
-          <strong>The Zero-Omission Epistemic Standard:</strong> This master treatise eliminates the fragmentation of coaching pamphlets and video playlists. Chronological dossiers for 2026 (Q1 January–March through September) cover monetary policy determinations, financial market regulations, multilateral institutional treaties, union budget allocations, and flagship socio-economic programs without trivial summarization.
+          <strong>Curricular Demarcation &amp; Exam Lens:</strong> This codex is engineered as the authoritative consolidated master source for General Awareness, Banking Operations, Prudential Regulation, Macroeconomic Architecture, and Contemporary Affairs. It is designed to maximize scoring across banking, financial regulatory, and civil service preliminary/mains general papers. It is not intended to replace specialized Phase 2 domain textbooks for RBI Grade B Phase 2 (Economic &amp; Social Issues / Finance &amp; Management) or SEBI Phase 2 legal/technical papers.
+        </div>
+
+        <div class="colophon-prose">
+          <strong>Four-Tier Epistemic Verification Hierarchy:</strong> (1) <em>Tier 1 (Primary Sovereign):</em> The Gazette of India, Central Bare Acts, RBI Master Directions, SEBI, IRDAI, PFRDA, MoF, MoSPI, and PIB official notifications. (2) <em>Tier 2 (Multilateral Official):</em> Official publications and datasets of IMF, World Bank, ADB, and BIS. (3) <em>Tier 3 (National Financial Press):</em> PTI, Reuters, The Hindu, and The Indian Express (Explained) for corroboration. (4) <em>Tier 4 (Discovery Layer Only):</em> Commercial coaching compendiums serve solely as an initial coverage index; no coaching claim is accepted without independent primary verification against Tiers 1–3.
         </div>
 
         <div class="imprimatur-box">
-          "The sovereign guarantee of this treatise: if the candidate studies these 10 chapters, no multi-statement statutory question, prudential ratio, or contemporary policy benchmark will remain unaddressed."
+          "Curricular Intent: Engineered as an authoritative consolidated master synthesis of General Awareness, Banking Regulation, Prudential Norms, and Macroeconomic Policy within the January–September 2026 syllabus."
         </div>
       </div>
 
-      <div style="font-size: 7.5pt; color: #555; border-top: 0.5pt solid #ccc; padding-top: 3mm;">
+      <div style="font-size: 7.2pt; color: #555; border-top: 0.5pt solid #ccc; padding-top: 2.5mm;">
         Published by Mind of Aravalli Academic Press • Shelf 007 Bastion • All Rights Reserved Under Indian Copyright Act, 1957.
       </div>
     </div>

@@ -1,14 +1,14 @@
-# CHAPTER 27: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT
+# CHAPTER 30: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT
 
 **Domain**: Unified Mathematical Synthesis, Cross-Disciplinary Invariants & Metacognitive Error Taxonomy  
-**Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
-**Pedagogical Hierarchy**: The Unified Theory of Quantitative Aptitude $\to$ The 50 Deadliest Traps Taxonomy $\to$ Speed Engines Master Lexicon $\to$ Universal Formula Compendium $\to$ The Sovereign Examination Seal
+**Target Examinations**: SBI PO, IBPS PO, IBPS RRB PO, RBI Grade B (Phase I), SEBI Grade A (Phase I Paper 1), NABARD Grade A (Prelims)  
+**Pedagogical Hierarchy**: Integrated Mathematical Framework $\to$ The 50 Deadliest Traps Taxonomy $\to$ Speed Engines Master Lexicon $\to$ Universal Formula Compendium $\to$ Exam Readiness Benchmark
 
 ---
 
-## 1. THE UNIFIED FIELD THEORY OF QUANTITATIVE APTITUDE
+## 30.1 THE INTEGRATED QUANTITATIVE FRAMEWORK
 
-All quantitative aptitude across 27 sovereign chapters is not an assortment of disjoint formulas. It represents the realization of **Four Elemental Mathematical Primitives**:
+All quantitative aptitude across 30 master chapters is not an assortment of disjoint formulas. It represents the realization of **Four Elemental Mathematical Primitives**:
 
 ```
                                   [THE FOUR PRIMITIVES]
@@ -28,7 +28,7 @@ All quantitative aptitude across 27 sovereign chapters is not an assortment of d
 
 ---
 
-## 2. THE 50 DEADLIEST EXAMINATION TRAPS: COMPLETE TAXONOMY
+## 30.2 THE 50 DEADLIEST EXAMINATION TRAPS: COMPLETE TAXONOMY
 
 ### Part I: Mental Calculation, Speed Engines & Number Sense (Traps 1–5)
 1. **The Vedic Subtraction Base Borrowing Trap**: Forgetting to decrement the non-zero left neighbor when applying "All from 9 and last from 10" across intermediate zeros ($10,000 - 3,408 \to 9 - 3 = 6, 9 - 4 = 5, 9 - 0 = 9, 10 - 8 = 2 \implies 6,592$).
@@ -85,7 +85,7 @@ All quantitative aptitude across 27 sovereign chapters is not an assortment of d
 ---
 
 ### Part VII: Geometry & Mensuration (Traps 31–35)
-31. **Semicircle Perimeter Diameter Omission**: Using $\pi r$ for semicircle perimeter. The closed perimeter is $\mathbf{\pi r + 2r = \frac{36}{7} r}$.
+31. **Semicircle Perimeter Diameter Omission**: Using $\pi r$ for semicircle perimeter. The exact closed perimeter includes the diameter boundary: $\mathbf{P = \pi r + 2r = (\pi + 2)r}$, which evaluates to $\mathbf{\frac{36}{7} r}$ only when instructed to use $\pi = \frac{22}{7}$.
 32. **Solid Hemisphere Total Surface Area**: Using $2\pi r^2$ for TSA of a solid hemisphere. The circular flat face adds $\pi r^2$, making $\mathbf{\text{TSA} = 3\pi r^2}$.
 33. **Cube Space Diagonal vs Face Diagonal**: Taking $a\sqrt{2}$ as the longest rod inside a cube. Face diagonal is $a\sqrt{2}$; 3D space diagonal is $\mathbf{a\sqrt{3}}$.
 34. **Central Crossroads Pathway Double-Count**: Adding $(l \cdot w) + (b \cdot w)$ without subtracting the central square intersection $w^2$: $\mathbf{w(l + b - w)}$.
@@ -97,7 +97,7 @@ All quantitative aptitude across 27 sovereign chapters is not an assortment of d
 36. **String Method Internal Factorial Neglect**: Packing items into a single bundle without multiplying by $k!$ for permutations within the bundle.
 37. **Gap Method Gap Count Deficit**: Assuming $n$ items produce $n$ spaces. A row of $n$ items creates **$(n + 1)$ potential gaps**.
 38. **Mutually Exclusive vs Independent Conflation**: Treating mutually exclusive events as independent ($P(A \cap B) = P(A)P(B)$). For mutually exclusive events, $\mathbf{P(A \cap B) = 0}$!
-39. **"At Least One" Probability Addition**: Summing probabilities directly ($P(A) + P(B) + P(C)$). The correct identity uses the complement: $\mathbf{1 - P(A')P(B')P(C')}$.
+39. **"At Least One" Additive & Independence Fallacy**: Summing probabilities directly ($P(A) + P(B) + P(C)$) double-counts overlapping intersections. The universal identity is $\mathbf{P(A \cup B \cup C) = 1 - P(A' \cap B' \cap C')}$. Factoring into the complement product $\mathbf{1 - P(A')P(B')P(C')}$ is guaranteed when events are **mutually independent** (sufficient condition), but equality in this single expression does not prove independence. For dependent events where joint intersection differs from the product, joint complement probabilities must be evaluated directly.
 40. **Odds in Favor Denominator Error**: Stating $P(E) = \frac{a}{b}$ when odds in favor are $a : b$. Probability is $\mathbf{\frac{a}{a + b}}$.
 
 ---
@@ -106,7 +106,7 @@ All quantitative aptitude across 27 sovereign chapters is not an assortment of d
 41. **Dual Pie Chart Naked Comparison**: Concluding that a $35\%$ slice in Chart 1 is larger than a $25\%$ slice in Chart 2 without multiplying by the total base of each chart.
 42. **Percentage Point vs Percentage Change**: Reporting an increase from $5\%$ to $6\%$ as a $1\%$ change. It is $1$ percentage point, but a **$20\%$ relative increase**!
 43. **Data Sufficiency Information Leakage**: Carrying findings from Statement (1) into the independent assessment of Statement (2).
-44. **Data Sufficiency "Definitive NO" Trap**: Marking a statement insufficient because it proves a hypothesis is "No". A definitive "No" is **100% sufficient**!
+44. **Data Sufficiency Determination Rule Violation**: Forgetting that for a yes/no question, a statement or combination establishing a definite YES or NO is sufficient, while for a value question, a single unique numerical value is required. A definitive "No" answers the question with 100% certainty and is **fully sufficient**!
 45. **Dependent System Redundancy**: Counting two proportional linear equations ($2x + 3y = 7$ and $4x + 6y = 14$) as two independent constraints.
 
 ---
@@ -120,7 +120,7 @@ All quantitative aptitude across 27 sovereign chapters is not an assortment of d
 
 ---
 
-## 3. THE SPEED ENGINES MASTER LEXICON
+## 30.3 THE SPEED ENGINES MASTER LEXICON
 
 ### Canonical Fraction-to-Percentage Invariants
 
@@ -142,14 +142,14 @@ $$\begin{aligned}
 | **$(5, 12, 13)$** | $(10, 24, 26), (15, 36, 39)$ | Slant heights of cones, rhombus diagonals. |
 | **$(7, 24, 25)$** | $(14, 48, 50)$ | Circular tangents, coordinate geometry. |
 | **$(8, 15, 17)$** | $(16, 30, 34)$ | Cistern cross-sections, ladder sliding. |
-| **$(9, 40, 41)$** | $(18, 80, 82)$ | Advanced geometry, CAT / CSAT. |
+| **$(9, 40, 41)$** | $(18, 80, 82)$ | Advanced geometry, coordinate applications. |
 | **$(11, 60, 61)$** | — | High-level regulatory exams. |
 | **$(12, 35, 37)$** | — | Mensuration surface areas. |
 | **$(20, 21, 29)$** | — | Rhombus perimeter problems. |
 
 ---
 
-## 4. UNIVERSAL RAPID-RECALL FORMULA COMPENDIUM
+## 30.4 UNIVERSAL RAPID-RECALL FORMULA COMPENDIUM
 
 ```text
 1. Number Systems: Sum(1 to n) = n(n+1)/2 ; Sum(n²) = n(n+1)(2n+1)/6 ; Sum(n³) = [n(n+1)/2]²
@@ -163,7 +163,7 @@ $$\begin{aligned}
 9. Repeated Dilution: Residual Liquid = V(1 - x/V)ⁿ
 10. Work Phantom Extension: T_total = (W_actual + η_leaver · d) / (η_A + η_B)
 11. Cistern Monkey Threshold: Cycles q = ⌈(V - a)/(a - b)⌉ ; Time = 2q + (V - q(a-b))/a
-12. Cross-Meeting Invariant: v_A / v_B = √(T_B / T_A)  ;  Meeting Time t = √(T_A · T_B)
+12. Cross-Meeting Invariant: v_A / v_B = √(T_B / T_A)  ;  Meeting Time t = √(T_A · T_B)  [T_A, T_B = post-meeting travel times to destinations]
 13. Stream Vectors: Boat u = (v_d + v_u)/2  ;  Stream v = (v_d - v_u)/2
 14. Triangles: Heron's Δ = √[s(s-a)(s-b)(s-c)] ; Inradius r = Δ/s ; Circumradius R = abc/(4Δ)
 15. Equilateral Triangle: Δ = (√3/4)a² ; h = (√3/2)a ; R : r = 2 : 1
@@ -172,19 +172,19 @@ $$\begin{aligned}
 18. Frustum Volume: (1/3)πh · (R² + r² + Rr)  ;  Slant l = √[h² + (R - r)²]
 19. Combinatorics: ^nP_r = n!/(n-r)! ; ^nC_r = n!/[r!(n-r)!] ; Stars & Bars (x≥0) = ^(n+k-1)C_(k-1)
 20. Derangements: D₁=0, D₂=1, D₃=2, D₄=9, D₅=44, D₆=265
-21. Probability: P(A ∪ B) = P(A) + P(B) - P(A ∩ B) ; Bayes: P(B_i|A) = [P(B_i)P(A|B_i)] / ∑ [P(B_j)P(A|B_j)]
+21. Probability: P(A ∪ B) = P(A) + P(B) - P(A ∩ B) ; Bayes: P(B_i|A) = [P(B_i)P(A|B_i)] / ∑ [P(B_j)P(A|B_j)] ; At Least One: P(A ∪ B ∪ C) = 1 - P(A' ∩ B' ∩ C') [= 1 - P(A')P(B')P(C') under mutual independence; equality does not prove independence]
 22. Pie Angle Conversion: Sector Angle θ = Percentage × 3.6°
-23. Data Sufficiency Axiom: DO NOT SOLVE! A definitive "NO" is 100% SUFFICIENT!
+23. Data Sufficiency Determination: For a yes/no question, a statement or combination establishing a definite YES or NO is sufficient. For a value question, a single unique numerical value is required.
 ```
 
 ---
 
-## 5. THE SOVEREIGN EXAMINATION SEAL
+## 30.5 SUMMARY & EXAM READINESS BENCHMARK
 
-With the completion of this 27-chapter master treatise, the **Mind of Aravalli Quantitative Aptitude Bastion (`QNT-007`)** stands fully constructed under the sovereign roof of **Shelf 007**.
+With the completion of these 30 chapters, the **Mind of Aravalli Quantitative Aptitude Bastion (`QNT-007`)** provides a structured, single-source reference for Tier 1 Banking and Regulatory examinations.
 
-- **27 Sovereign Master Chapters** covering the entire spectrum from Vedic Speed Foundations to Bayesian Probability, Mensuration, and Meta-Decision Logic.
-- **27 Rapid Revision Matrices** engineered for 60-second instantaneous pre-examination retrieval.
-- **100% First-Principles Provenance**: Every formula proven; every black box eliminated; every trap disarmed.
+- **30 Core Chapters** spanning calculation foundations, number patterns, algebraic structures, commercial arithmetic, rates, mensuration, discrete counting, high-yield Data Interpretation, Data Sufficiency, and Quantity Comparisons.
+- **30 Rapid Revision Matrices** engineered for rapid pre-examination retrieval.
+- **50 Deadliest Examination Traps** disarmed with exact boundary conditions and non-extraneous methods.
 
-$$\blacksquare \quad \text{END OF TREATISE: QUANTITATIVE APTITUDE SOVEREIGN CODEX} \quad \blacksquare$$
+$$\blacksquare \quad \text{END OF CORE TREATISE: QUANTITATIVE APTITUDE MASTER EXAM EDITION (V3)} \quad \blacksquare$$

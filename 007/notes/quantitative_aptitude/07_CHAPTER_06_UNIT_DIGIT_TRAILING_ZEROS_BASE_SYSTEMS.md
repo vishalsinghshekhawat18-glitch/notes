@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 06: UNIT DIGIT CYCLES, TENS DIGIT, TRAILING ZEROS & BASE SYSTEMS
+# CHAPTER 07: UNIT DIGIT CYCLICITY, TENS DIGITS & TRAILING ZEROS
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 1: Numbers, pp. 3–50)
@@ -10,7 +10,7 @@
 
 ---
 
-## 6.1 The Cyclicity of Unit Digits (Modulo 10)
+## 7.1 The Cyclicity of Unit Digits (Modulo 10)
 
 The **unit digit** of a base-10 number $N$ raised to an integer power $p$ depends exclusively on the unit digit of $N$ and follows a periodic repeating cycle (**Cyclicity**):
 
@@ -53,7 +53,7 @@ To find the unit digit of $N^p$:
 
 ---
 
-## 6.2 Determining the Last Two Digits (Tens & Units Digit)
+## 7.2 Determining the Last Two Digits (Tens & Units Digit)
 
 Finding the last two digits corresponds mathematically to determining the residue modulo $100$.
 
@@ -89,13 +89,15 @@ $$2^{20} = (1024)^2 = (\dots24)^2 = \dots76 \equiv \mathbf{76} \pmod{100}$$
 
 #### Critical Modulo 100 Properties of 76:
 * $76^n$ always ends in $\mathbf{76}$ for all $n \ge 1$.
-* **$76 \times 2^k$ always ends in the exact same last two digits as $2^k$!**
-  * $2^{10 \times \text{even}}$ ends in $\mathbf{76}$.
-  * $2^{10 \times \text{odd}}$ ends in $\mathbf{24}$.
+* **$76 \times 2^k \equiv 2^k \pmod{100}$ strictly for all integers $k \ge 2$**:
+  * *Counterexample for $k=1$*: $76 \times 2^1 = 152 \equiv 52 \pmod{100}$, whereas $2^1 = 02 \implies 52 \neq 02$.
+  * *Proof for $k \ge 2$*: $(76 - 1) \cdot 2^k = 75 \cdot 2^k = 75 \cdot 4 \cdot 2^{k-2} = 300 \cdot 2^{k-2} \equiv 0 \pmod{100}$.
+  * For $2^{10 \times \text{even}}$ (e.g. $2^{20}, 2^{40}$), the last two digits are $\mathbf{76}$.
+  * For $2^{10 \times \text{odd}}$ (e.g. $2^{10}, 2^{30}$), the last two digits are $\mathbf{24}$.
 
 ---
 
-## 6.3 Legendre's Formula: Highest Power of a Prime in $n!$
+## 7.3 Legendre's Formula: Highest Power of a Prime in $n!$
 
 To find the highest power of a prime number $p$ dividing $n!$ (denoted $E_p(n!)$):
 
@@ -110,7 +112,7 @@ $$E_3(100!) = 33 + 11 + 3 + 1 = \mathbf{48}$$
 
 ---
 
-## 6.4 Trailing Zeros in Factorials and Arbitrary Products
+## 7.4 Trailing Zeros in Factorials and Arbitrary Products
 
 A trailing zero is produced exclusively by the prime factor pair **$2 \times 5 = 10$**.
 
@@ -125,7 +127,7 @@ $$Z(1000!) = 200 + 40 + 8 + 1 = \mathbf{249 \text{ trailing zeros}}$$
 
 ---
 
-## 6.5 Base Systems & Positional Number Systems
+## 7.5 Base Systems & Positional Number Systems
 
 In any positional base $B \ge 2$, a number $N$ is represented using digits from $0$ to $B - 1$:
 $$N = (d_k d_{k-1} \dots d_1 d_0)_B = \sum_{i=0}^{k} d_i B^i$$
@@ -147,7 +149,7 @@ $$(211)_8 = 2 \times 8^2 + 1 \times 8^1 + 1 \times 8^0 = 2(64) + 8 + 1 = 128 + 9
 
 ---
 
-## 6.6 Top Examiner Traps in Unit Digits & Trailing Zeros
+## 7.6 Top Examiner Traps in Unit Digits & Trailing Zeros
 
 1. **The Remainder Zero $d^0 = 1$ Fallacy**:
    When evaluating $2^{40}$, $40 \div 4 = 10$, Remainder $= 0$. If you compute $2^0 = 1$, you get an incorrect answer. A remainder of $0$ means the **fourth position in the cycle** ($2^4 \to 6$).

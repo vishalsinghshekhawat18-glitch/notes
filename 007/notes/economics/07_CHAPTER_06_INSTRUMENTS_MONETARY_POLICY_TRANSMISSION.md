@@ -251,6 +251,9 @@ Faced with chronic transmission bottlenecks under internal cost regimes (PLR, BP
 ### 3. Banking & RBI Grade B Lens
 * Memorize exact statutory formulations: **Section 42(1) RBI Act (CRR)**, **Section 24 Banking Regulation Act (SLR)**, **Section 17 RBI Act (SDF/LAF)**.
 * Understand the transmission of **WACR (Weighted Average Call Rate)** within the LAF corridor and the impact of Variable Rate Reverse Repo (VRRR) auctions on inter-bank call money spreads.
+* **Microfoundations of Stabilisation (2026 Nobel Prize: Hall & Woodford)**:
+  * **Michael Woodford**: Proved that monetary transmission operates fundamentally through the **Expectations Channel**—central banks stabilize inflation not through mechanistic liquidity quotas, but by shaping market expectations of the future policy rate path (**Forward Guidance** & anchored inflation expectations).
+  * **Robert E. Hall**: Formulated the **Random Walk Hypothesis of Consumption**—forward-looking households smooth lifetime consumption under rational expectations, meaning monetary transmission alters real output only by shifting intertemporal real consumption incentives.
 
 ---
 

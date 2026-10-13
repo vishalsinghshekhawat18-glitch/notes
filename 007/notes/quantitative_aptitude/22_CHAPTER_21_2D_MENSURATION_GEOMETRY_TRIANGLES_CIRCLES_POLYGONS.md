@@ -1,4 +1,4 @@
-# CHAPTER 21: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS
+# CHAPTER 22: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS
 
 **Domain**: Euclidean Geometry, Planar Mensuration & Topological Invariants  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: TRIANGULAR GEOMETRY & AREA DERIVATIONS
+## 22.1 FIRST-PRINCIPLES ONTOLOGY: TRIANGULAR GEOMETRY & AREA DERIVATIONS
 
 Every planar rectilinear polygon decomposes into a simplicial complex of triangles. The triangle forms the fundamental building block of 2D geometry.
 
@@ -54,7 +54,7 @@ Let $a, b, c$ be side lengths, $\Delta$ the area, and $s = \frac{a + b + c}{2}$ 
 
 ---
 
-## 2. MEDIANS, CENTROID & APOLLONIUS' THEOREM
+## 22.2 MEDIANS, CENTROID & APOLLONIUS' THEOREM
 
 - **Median**: A line segment joining a vertex to the midpoint of the opposite side.
 - **Centroid ($\mathbf{G}$)**: The concurrency point of all three medians.
@@ -65,7 +65,7 @@ Let $a, b, c$ be side lengths, $\Delta$ the area, and $s = \frac{a + b + c}{2}$ 
 
 ---
 
-## 3. QUADRILATERALS & PATHWAY FORMULATIONS
+## 22.3 QUADRILATERALS & PATHWAY FORMULATIONS
 
 ### General Quadrilateral
 $$\mathbf{\Delta = \frac{1}{2} \cdot d \cdot (h_1 + h_2)}$$
@@ -106,7 +106,7 @@ Let a rectangular field have length $l$, breadth $b$, and a pathway of uniform w
 
 ---
 
-## 4. REGULAR POLYGONS (THE $n$-GON MATRIX)
+## 22.4 REGULAR POLYGONS (THE $n$-GON MATRIX)
 
 For any regular polygon possessing $n$ equal sides of length $a$:
 
@@ -121,10 +121,10 @@ $$\mathbf{\Delta_{\text{hexagon}} = 6 \times \left(\frac{\sqrt{3}}{4} a^2\right)
 
 ---
 
-## 5. CIRCULAR DYNAMICS & ROLLING KINEMATICS
+## 22.5 CIRCULAR DYNAMICS & ROLLING KINEMATICS
 
 - **Circle**: Area $\Delta = \pi r^2$, Perimeter $C = 2\pi r$.
-- **Semicircle**: Area $= \frac{\pi r^2}{2}$, Perimeter $= \pi r + 2r = r(\pi + 2) = \mathbf{\frac{36}{7} r}$ (taking $\pi \approx \frac{22}{7}$).
+- **Semicircle**: Area $= \frac{\pi r^2}{2}$, Exact Perimeter $= \pi r + 2r = (\pi + 2)r$. Only when the question instructs $\pi = \frac{22}{7}$ does this simplify to $\left(\frac{22}{7} + 2\right)r = \mathbf{\frac{36}{7} r}$.
 - **Sector**: Arc length $L = \frac{\theta}{360^\circ} \times 2\pi r$, Area $= \frac{\theta}{360^\circ} \times \pi r^2 = \mathbf{\frac{1}{2} L \cdot r}$.
 - **Circular Annulus (Ring)**: Area $= \pi(R^2 - r^2) = \pi(R - r)(R + r)$.
 
@@ -135,26 +135,25 @@ $$\mathbf{N = \frac{D}{2\pi r}}$$
 
 ---
 
-## 6. MULTI-TIER WORKED EXEMPLARS
+## 22.6 MULTI-TIER WORKED EXEMPLARS
 
-### Exemplar 1: Rhombus Diagonal-to-Perimeter Extraction (SBI PO Prelims)
-**Problem**: The area of a rhombus is $2016 \text{ cm}^2$ and the length of one of its diagonals is $64 \text{ cm}$. Find the perimeter of the rhombus.
+### Exemplar 1: Rhombus Diagonal-to-Perimeter Extraction [EXAM-STYLE — Calibrated to Banking Prelims Geometry]
+**Problem**: The area of a rhombus is $2016 \text{ cm}^2$ and the length of one of its diagonals is $32 \text{ cm}$. Find the perimeter of the rhombus.
 
-**Execution**:
-Using $\Delta = \frac{1}{2} d_1 d_2$:
-$$2016 = \frac{1}{2} \times 64 \times d_2 = 32 \cdot d_2 \implies d_2 = \frac{2016}{32} = \mathbf{63 \text{ cm}}$$
+**Step-by-Step Solution**:
+1. **Find the second diagonal ($d_2$)**:
+   $$\text{Area} = \frac{1}{2} d_1 d_2 \implies 2016 = \frac{1}{2} \times 32 \times d_2 = 16 \cdot d_2$$
+   $$d_2 = \frac{2016}{16} = \mathbf{126 \text{ cm}}$$
 
-Using the diagonal-side orthogonality relation:
-$$a = \frac{1}{2}\sqrt{d_1^2 + d_2^2} = \sqrt{\left(\frac{64}{2}\right)^2 + \left(\frac{63}{2}\right)^2} = \sqrt{32^2 + 31.5^2}$$
-Alternatively, half-diagonals are $32$ and $31.5 = \frac{63}{2}$.
-$$a = \sqrt{32^2 + \left(\frac{63}{2}\right)^2} = \sqrt{1024 + \frac{3969}{4}} = \sqrt{\frac{4096 + 3969}{4}} = \sqrt{\frac{8065}{4}}$$
-Notice $65^2 = 4225$. Let's check $32^2 + 31.5^2$:
-Notice $(2a)^2 = 64^2 + 63^2 = 4096 + 3969 = 8065$. But $89^2 = 7921$, $90^2 = 8100$.
-Let's check if $64^2 + 63^2$ or if $d_1 = 56$:
-Notice $65^2 - 63^2 = 256 = 16^2 \implies (16, 63, 65)$ is a Pythagorean triplet!
-If half-diagonals were $16$ and $63$, then $d_1 = 32, d_2 = 126$.
-Here with $d_1 = 64, d_2 = 63$:
-$$a = \frac{\sqrt{8065}}{2} \approx 44.9 \text{ cm} \implies \text{Perimeter } 4a = 2\sqrt{8065} \text{ cm}$$
+2. **Compute the half-diagonals**:
+   Since the diagonals of a rhombus bisect each other at right angles ($90^\circ$):
+   $$\frac{d_1}{2} = \frac{32}{2} = 16 \text{ cm}, \quad \frac{d_2}{2} = \frac{126}{2} = 63 \text{ cm}$$
+
+3. **Compute the side length ($a$) via Pythagoras**:
+   $$a = \sqrt{\left(\frac{d_1}{2}\right)^2 + \left(\frac{d_2}{2}\right)^2} = \sqrt{16^2 + 63^2} = \sqrt{256 + 3969} = \sqrt{4225} = \mathbf{65 \text{ cm}}$$
+
+4. **Calculate Perimeter**:
+   $$\text{Perimeter} = 4a = 4 \times 65 = \mathbf{260 \text{ cm}}$$
 
 ---
 
@@ -197,11 +196,11 @@ $$\text{Total Cost} = 475 \text{ m}^2 \times ₹60/\text{m}^2 = \mathbf{₹28,50
 
 ---
 
-## 7. HIGH-YIELD TRAP TAXONOMY
+## 22.7 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |
-| **Trap 1: Semicircle Perimeter Arc-Only Trap** | Computing perimeter of semicircle as $\pi r$ only. | A closed semicircle includes the diameter base: $\mathbf{\text{Perimeter} = \pi r + 2r = \frac{36}{7} r}$. |
+| **Trap 1: Semicircle Perimeter Arc-Only Trap** | Computing perimeter of semicircle as $\pi r$ only. | A closed semicircle includes the diameter base: exact $\mathbf{\text{Perimeter} = \pi r + 2r = (\pi + 2)r}$, which evaluates to $\mathbf{\frac{36}{7} r}$ only when instructed to take $\pi = \frac{22}{7}$. |
 | **Trap 2: Crossroads Overlap Double-Count** | Calculating crossroads area as $(l \cdot w) + (b \cdot w)$. | The square intersection of area $w^2$ is counted twice: $\mathbf{\text{Area} = w(l + b - w)}$. |
 | **Trap 3: Rhombus Area Base-Diagonal Confusion** | Multiplying diagonals without dividing by 2 ($d_1 \times d_2$). | Rhombus area is half the product of diagonals: $\mathbf{\frac{1}{2} d_1 d_2}$. |
 | **Trap 4: Triangle Inradius vs Height** | Confusing inradius $r = \frac{\Delta}{s}$ with altitude $h = \frac{2\Delta}{\text{base}}$. | Altitude connects a vertex to the base; inradius is perpendicular to all three sides from the incenter. |

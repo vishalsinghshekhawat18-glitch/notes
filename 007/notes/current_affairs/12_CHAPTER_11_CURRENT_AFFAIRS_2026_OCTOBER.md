@@ -1762,3 +1762,31 @@
 **EXAM ANGLE:**
 - Department: **Defence Accounts Department (DAD)** (279th Annual Day; established 1747).
 - Pension Platform: **SPARSH** (>33 lakh defence pensioners).
+
+---
+
+[OCT-151] **Robert E. Hall and Michael Woodford Awarded 2026 Nobel Memorial Prize in Economic Sciences**
+- **Sovereign Recognition & Official Citation**:
+  - The Royal Swedish Academy of Sciences awarded the **2026 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel** jointly to American economists **Robert E. Hall** (Stanford University) and **Michael Woodford** (Columbia University).
+  - **Official Citation**: *"For microeconomic foundations of macroeconomic stabilisation."*
+  - Prize amount: **12 million Swedish kronor (SEK)** shared equally between the two laureates.
+- **Key Theoretical Breakthroughs & Policy Significance**:
+  - **Michael Woodford (Monetary Policy & The Expectation Channel)**:
+    - Author of *Interest and Prices* (2003); synthesized the foundational **New Keynesian framework**.
+    - Demonstrated that monetary policy stabilization works primarily by **shaping and anchoring private expectations** regarding future policy interest rates (**Forward Guidance**), rather than direct mechanistic targeting of money supply aggregates.
+    - Provided the microeconomic foundation for modern **Flexible Inflation Targeting (FIT)** and central bank transparency.
+  - **Robert E. Hall (Consumption Dynamics & Euler Equation)**:
+    - Formulated the **Random Walk Hypothesis of Consumption** (1978). Under rational expectations and the Permanent Income Hypothesis, forward-looking households smooth consumption over their lifecycle.
+    - Proved that changes in consumption are unpredictable from past income shifts, showing that temporary, anticipated tax cuts produce muted immediate stimulus compared to permanent structural shifts.
+- **Historical & Institutional Context**:
+  - The Economics Prize is **not** one of the original five prizes created by Alfred Nobel's 1895 will. It was instituted in **1968 by Sveriges Riksbank** (Sweden's Central Bank) on its 300th anniversary and first awarded in 1969.
+
+**EXAM ANGLE:**
+- 2026 Economics Nobel Laureates: **Robert E. Hall** (Stanford) and **Michael Woodford** (Columbia).
+- Official Citation: *"For microeconomic foundations of macroeconomic stabilisation"*.
+- Key Economic Theories Tested:
+  * **Michael Woodford**: Neo-Wicksellian monetary economics, New Keynesian DSGE foundations, Expectation Channel of Monetary Transmission & Forward Guidance.
+  * **Robert E. Hall**: Random Walk Hypothesis of Consumption (Rational Expectations + Permanent Income Hypothesis).
+- Prize Origin: Established **1968 by Sveriges Riksbank** (first awarded 1969; not in Alfred Nobel's original will).
+- Target Exam MCQ: *"Who was awarded the 2026 Nobel Memorial Prize in Economic Sciences for microeconomic foundations of macroeconomic stabilisation?"* → **Robert E. Hall and Michael Woodford**.
+

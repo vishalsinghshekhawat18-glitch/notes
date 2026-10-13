@@ -682,11 +682,11 @@
 
 ---
 
-[MAY-029] **DPIIT Notifies Operational Guidelines for ₹33,668 Crore 'BHAVYA' Industrial Park Scheme**
+[MAY-029] **DPIIT Notifies Operational Guidelines for ₹33,660 Crore 'BHAVYA' Industrial Park Scheme**
 
 - **World-Class Industrial Infrastructure**: The Department for Promotion of Industry and Internal Trade (**DPIIT**), Ministry of Commerce and Industry, issued the operational guidelines for the **BHAVYA Scheme** (*Bharat Audyogik Vikas Yojana*).
 - **Financial Outlay & Program Scope**:
-  - Approved with a total budgetary commitment of **₹33,668 crore** as a fully funded Central Sector Scheme spanning **6 financial years (FY 2026–27 to FY 2031–32)**.
+  - Approved with a total budgetary commitment of **₹33,660 crore** as a fully funded Central Sector Scheme spanning **6 financial years (FY 2026–27 to FY 2031–32)**.
   - Includes administrative project preparation funds of **₹60 crore**.
   - Envisages the development of **100 state-of-the-art greenfield and brownfield smart industrial parks** across India (50 industrial parks prioritized in Phase 1).
 - **Land Area & Equity Assistance Framework**:
@@ -699,7 +699,7 @@
 **EXAM ANGLE:**
 
 - Scheme Acronym: **BHAVYA** (*Bharat Audyogik Vikas Yojana*).
-- Financial Outlay: **₹33,668 crore** over **6 financial years (FY27 to FY32)**.
+- Financial Outlay: **₹33,660 crore** over **6 financial years (FY27 to FY32)**.
 - Industrial Parks Planned: **100 smart industrial parks** (50 in Phase 1).
 - Minimum Land Norms: **100 acres** (General States); **25 acres** (Hilly/NE/UTs); Cap: **1,000 acres**.
 - Implementing Authority: **DPIIT**; Chaired by Secretary, DPIIT (**Amardeep Singh Bhatia**).

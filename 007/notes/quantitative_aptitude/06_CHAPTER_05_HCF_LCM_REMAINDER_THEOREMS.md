@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 05: HCF, LCM & REMAINDER THEOREMS (EULER, FERMAT, CHINESE REMAINDER THEOREM)
+# CHAPTER 06: HCF, LCM & MODULAR REMAINDER THEOREMS
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 2: H.C.F. and L.C.M. of Numbers, pp. 51–68)
@@ -10,7 +10,7 @@
 
 ---
 
-## 5.1 The Foundations of H.C.F. and L.C.M.
+## 6.1 The Foundations of H.C.F. and L.C.M.
 
 ### 1. Mathematical Definitions
 * **Highest Common Factor (H.C.F. / G.C.D.)**: The greatest positive integer that divides each of two or more given integers without leaving a remainder.
@@ -39,7 +39,7 @@ $$\text{Difference } |A - B| = H|x - y|$$
 
 ---
 
-## 5.2 H.C.F. & L.C.M. of Fractions and Decimals
+## 6.2 H.C.F. & L.C.M. of Fractions and Decimals
 
 ### 1. Fractions Formula (Must be in Irreducible Form!)
 Before calculating HCF or LCM of fractions, **every fraction must be reduced to its lowest terms**:
@@ -69,7 +69,7 @@ To find HCF or LCM of decimals (e.g. $0.63, 1.05, 2.1$):
 
 ---
 
-## 5.3 The Four Standard Word Problem Models
+## 6.3 The Four Standard Word Problem Models
 
 Competitive examinations frame HCF and LCM word problems around four canonical models:
 
@@ -108,7 +108,7 @@ Competitive examinations frame HCF and LCM word problems around four canonical m
 
 ---
 
-## 5.4 Remainder Theorems & Modular Arithmetic Engines
+## 6.4 Remainder Theorems & Modular Arithmetic Engines
 
 ### 1. The Concept of Negative Remainders
 When $17$ is divided by $19$:
@@ -154,7 +154,7 @@ $$\mathbf{(p - 1)! \equiv -1 \equiv p - 1 \pmod{p}}$$
 
 ---
 
-## 5.5 Top Examiner Traps in HCF, LCM & Remainders
+## 6.5 Top Examiner Traps in HCF, LCM & Remainders
 
 1. **The Irreducible Fraction Reduction Omission**:
    Calculating the HCF of $\frac{2}{4}$ and $\frac{3}{6}$ without simplifying:

@@ -12,8 +12,8 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ FRONT MATTER: SOVEREIGN DEDICATION & EPISTEMIC PLEDGE                                  │
-│   ├── 00_COVER: Neoclassical Sovereign Cover & Epistemic Pledge of Total Replacement    │
+│ FRONT MATTER: EDITORIAL SCOPE & CANONICAL ARCHITECTURE                                 │
+│   ├── 00_COVER: Master Cover Architecture & Curricular Foundation                      │
 │   └── 01_TABLE_OF_CONTENTS: Editorial Master Index & Curricular Matrix                 │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ PART I: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL FOUNDATIONS                       │

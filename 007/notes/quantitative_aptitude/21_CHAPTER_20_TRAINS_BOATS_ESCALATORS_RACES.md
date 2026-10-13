@@ -1,4 +1,4 @@
-# CHAPTER 20: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES
+# CHAPTER 21: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES
 
 **Domain**: Extended Body Kinematics, Moving Frames of Reference & Angular Periodicity  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES KINEMATICS: EXTENDED BODIES & TRAIN TRANSLATION
+## 21.1 FIRST-PRINCIPLES KINEMATICS: EXTENDED BODIES & TRAIN TRANSLATION
 
 Unlike point-particle mechanics, railway kinetics requires spatial accounting of the physical length of the moving vehicle ($L_{\text{train}}$) and the obstacle being crossed ($L_{\text{object}}$).
 
@@ -45,7 +45,7 @@ $$\mathbf{D = L_{\text{train}} + L_{\text{object}}}$$
 
 ---
 
-## 2. HYDRODYNAMIC VECTOR FRAMES: BOATS AND STREAMS
+## 21.2 HYDRODYNAMIC VECTOR FRAMES: BOATS AND STREAMS
 
 Motion on fluid surfaces operates under a Galilean velocity transformation where the medium itself possesses a drift velocity:
 - Let $u$ = Speed of boat/swimmer in **still water**.
@@ -71,7 +71,7 @@ $$\frac{u}{v} = \frac{3 + 1}{3 - 1} = \frac{4}{2} = 2 \implies u = 2v$$
 
 ---
 
-## 3. ESCALATOR KINEMATICS (MOVING STAIRWAYS)
+## 21.3 ESCALATOR KINEMATICS (MOVING STAIRWAYS)
 
 Moving escalators represent the discrete mechanical analog of stream currents:
 - Let $N$ = Total visible stationary steps from bottom to top.
@@ -89,7 +89,7 @@ Equating total steps across two different walking rates allows immediate resolut
 
 ---
 
-## 4. LINEAR RACES & HANDICAP METRICS
+## 21.4 LINEAR RACES & HANDICAP METRICS
 
 In competitive sprinting and sports handicaps over a course of length $L$:
 
@@ -108,7 +108,7 @@ In competitive sprinting and sports handicaps over a course of length $L$:
 
 ---
 
-## 5. CIRCULAR TRACK TOPOLOGY & ANGULAR RECURRENCE
+## 21.5 CIRCULAR TRACK TOPOLOGY & ANGULAR RECURRENCE
 
 When two runners circulate around a closed loop of circumference $L$ with constant linear velocities $v_1$ and $v_2$ ($v_1 > v_2$):
 
@@ -153,7 +153,7 @@ $$\frac{v_1}{v_2} = \frac{a}{b} \quad (\text{where } \gcd(a, b) = 1)$$
 
 ---
 
-## 6. MULTI-TIER WORKED EXEMPLARS
+## 21.6 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Train Crossing Moving Observer (SBI PO Prelims)
 **Problem**: A train $150 \text{ m}$ long running at $68 \text{ km/hr}$ crosses a man running at $8 \text{ km/hr}$ in the same direction. How much time does the train take to pass the man?
@@ -208,7 +208,7 @@ $$\frac{9}{v} = 3 \implies v = \frac{9}{3} = \mathbf{3 \text{ km/hr}}$$
 
 ---
 
-## 7. HIGH-YIELD TRAP TAXONOMY
+## 21.7 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

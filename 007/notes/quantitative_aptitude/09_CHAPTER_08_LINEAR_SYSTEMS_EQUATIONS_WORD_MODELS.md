@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 08: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & WORD PROBLEM MODELING
+# CHAPTER 09: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & AGE PROGRESSION
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 7: Problems on Numbers, pp. 240–263; Ch. 8: Problems on Ages, pp. 264–277)
@@ -10,7 +10,7 @@
 
 ---
 
-## 8.1 Linear Systems & Consistency Criteria
+## 9.1 Linear Systems & Consistency Criteria
 
 A system of two linear equations in two variables $x$ and $y$ has the canonical form:
 $$a_1x + b_1y + c_1 = 0$$
@@ -44,7 +44,7 @@ $$12x + ky = 2 \implies 12x + ky - 2 = 0$$
 
 ---
 
-## 8.2 Two-Digit and Three-Digit Reversible Number Invariants
+## 9.2 Two-Digit and Three-Digit Reversible Number Invariants
 
 Let a two-digit number have tens digit $t$ and units digit $u$. Its algebraic value is:
 $$N = 10t + u$$
@@ -78,7 +78,7 @@ A number consists of two digits whose sum is 9. If 27 is subtracted from the num
 
 ---
 
-## 8.3 The Invariant Age Gap Principle & Ratio Progression
+## 9.3 The Invariant Age Gap Principle & Ratio Progression
 
 In all age-related problems, the most critical physical invariant is:
 $$\mathbf{\text{The difference between the ages of two people remains CONSTANT across all time!}}$$
@@ -113,7 +113,7 @@ The ratio of ages of father and son is currently $3 : 1$. Four years ago, the ra
 
 ---
 
-## 8.4 Linear Diophantine Equations (Integer Constraints)
+## 9.4 Linear Diophantine Equations (Integer Constraints)
 
 Equations of the form $ax + by = c$ with integer restrictions $(x, y \in \mathbb{Z}^+)$ are solvable even with two unknowns in a single equation:
 
@@ -133,7 +133,7 @@ $$\mathbf{\gcd(a, b) \mid c}$$
 
 ---
 
-## 8.5 Top Examiner Traps in Linear Systems & Ages
+## 9.5 Top Examiner Traps in Linear Systems & Ages
 
 1. **The Parallel vs Coincident Line Parameter Fallacy**:
    When solving for parameter $k$ in parallel lines ($a_1/a_2 = b_1/b_2$), forgetting to verify the inequality with $c_1/c_2$. The positive root often yields overlapping identical lines (infinite solutions), making the negative root the only true "no solution" answer.

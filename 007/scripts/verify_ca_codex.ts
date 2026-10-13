@@ -15,13 +15,16 @@ async function main() {
   const pdfDoc = await PDFDocument.load(pdfBytes);
   const totalPages = pdfDoc.getPageCount();
 
+  const expectedBodyPages = tocItems.reduce((sum: number, it: any) => sum + it.pages, 0);
+  const expectedTotalPages = 4 + expectedBodyPages; // 2 FM + 2 TOC + body
+
   console.log(`======================================================`);
   console.log(`FORENSIC AUDIT: 007_Book_06_Current_Affairs_Banking_Regulatory_Codex_A4_BW.pdf`);
   console.log(`======================================================`);
-  console.log(`Total Pages: ${totalPages}`);
+  console.log(`Total Pages: ${totalPages} (Expected: ${expectedTotalPages})`);
 
-  if (totalPages !== 317) {
-    throw new Error(`Expected 317 pages, found ${totalPages}`);
+  if (totalPages !== expectedTotalPages) {
+    throw new Error(`Expected ${expectedTotalPages} pages, found ${totalPages}`);
   }
 
   // Audit page geometry
@@ -37,7 +40,7 @@ async function main() {
   }
 
   if (geoPassed) {
-    console.log(`✓ All 316 pages strictly adhere to ISO A4 dimensions (595.28 x 841.89 pt).`);
+    console.log(`✓ All ${totalPages} pages strictly adhere to ISO A4 dimensions (595.28 x 841.89 pt).`);
   }
 
   // Audit Structure

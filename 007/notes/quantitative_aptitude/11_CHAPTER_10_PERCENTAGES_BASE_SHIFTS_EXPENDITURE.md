@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 10: PERCENTAGES: BASE SHIFTS, NET EFFECTIVE CHANGES & INVERSE PROPORTIONALITY
+# CHAPTER 11: PERCENTAGES: BASE SHIFTS & THE CONSTANT PRODUCT AB-RULE
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 10: Percentage, pp. 308–373)
@@ -10,7 +10,7 @@
 
 ---
 
-## 10.1 The Definition & Anatomy of Percentage
+## 11.1 The Definition & Anatomy of Percentage
 
 A **percentage** is a dimensionless ratio expressing a fraction of $100$. The term originates from the Latin *per centum* ("by the hundred"):
 $$x\% = \frac{x}{100}$$
@@ -26,7 +26,7 @@ $$\text{Percentage Change} = \frac{\text{Absolute Change}}{\mathbf{\text{Origina
 
 ---
 
-## 10.2 The Base Shift Invariant (The Fractional Reciprocal Rule)
+## 11.2 The Base Shift Invariant (The Fractional Reciprocal Rule)
 
 If quantity $A$ is greater than quantity $B$ by a certain percentage, by what percentage is $B$ smaller than $A$?  
 Because the reference baseline shifts from $B$ to the larger quantity $A$, the return percentage is **strictly smaller**:
@@ -68,7 +68,7 @@ If $A$'s salary is $50\%$ more than that of $B$, then how much percent is $B$'s 
 
 ---
 
-## 10.3 Price, Consumption & Expenditure Invariants
+## 11.3 Price, Consumption & Expenditure Invariants
 
 In consumer economics, the fundamental relationship is:
 $$\mathbf{\text{Expenditure} = \text{Price} \times \text{Consumption}}$$
@@ -93,7 +93,7 @@ If the price of sugar rises from ₹6 per kg to ₹7.50 per kg, find by what per
 
 ---
 
-## 10.4 Successive Percentage Changes & Net Effective Multiplier
+## 11.4 Successive Percentage Changes & Net Effective Multiplier
 
 When a quantity is changed successively by $a\%$ and then by $b\%$, the net effective percentage change is:
 
@@ -121,7 +121,7 @@ $$\mathbf{\text{Net Loss \%} = \left(\frac{x}{10}\right)^2\% = \frac{x^2}{100}\%
 
 ---
 
-## 10.5 Population Growth & Depreciation Invariants
+## 11.5 Population Growth & Depreciation Invariants
 
 ### 1. Population Compound Growth
 Let present population be $P$, growing at annual rate $R\%$:
@@ -148,7 +148,7 @@ Let present value of a machine be $P$, depreciating at annual rate $R\%$:
 
 ---
 
-## 10.6 Top Examiner Traps in Percentage Questions
+## 11.6 Top Examiner Traps in Percentage Questions
 
 1. **The Election "Total Votes" vs "Valid Votes" Ambiguity**:
    * If question says *"A candidate got 60% of the VALID votes"*, calculate the base after subtracting invalid votes.

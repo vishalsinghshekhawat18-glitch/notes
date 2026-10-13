@@ -80,7 +80,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Foundations of Macroeconomics & National Income Accounting"
     },
-    "badge": "3,440 words • 16 min read"
+    "badge": "3,457 words • 16 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-02",
@@ -94,7 +94,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Foundations of Macroeconomics & National Income Accounting"
     },
-    "badge": "4,063 words • 19 min read"
+    "badge": "4,179 words • 19 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-03",
@@ -108,7 +108,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Foundations of Macroeconomics & National Income Accounting"
     },
-    "badge": "3,264 words • 15 min read"
+    "badge": "3,337 words • 16 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-04",
@@ -150,7 +150,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Money, Central Banking & Monetary Transmission Channels"
     },
-    "badge": "3,281 words • 15 min read"
+    "badge": "3,370 words • 16 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-07",
@@ -164,7 +164,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Commercial Banking Architecture, Stressed Assets & Financial Markets"
     },
-    "badge": "3,980 words • 19 min read"
+    "badge": "4,516 words • 21 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-08",
@@ -206,7 +206,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Public Finance, Budgetary Architecture, Taxation & Fiscal Federalism"
     },
-    "badge": "3,842 words • 18 min read"
+    "badge": "3,878 words • 18 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-11",
@@ -766,7 +766,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Sectoral Architecture: Agriculture, Industry & Infrastructure"
     },
-    "badge": "4,499 words • 21 min read"
+    "badge": "4,632 words • 22 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-20-sec-2",
@@ -826,7 +826,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 20: INDUSTRIAL ARCHITECTURE, MSMES, DISINVESTMENT & NATIONAL MANUFACTURING POLICIES",
       "concept": "20.4 CPSE Classification & The Disinvestment Architecture"
     },
-    "badge": "606 words"
+    "badge": "690 words"
   },
   {
     "id": "shelf007-ch-economics-chapter-21",
@@ -1084,13 +1084,13 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "CHAPTER 26: THE GRAND SYNTHESIS: MASTER CONSOLIDATED REVISION & EXAMINATION VAULT",
     "slug": "master-revision-vault",
     "url": "/shelf-007/economics/master-revision-vault",
-    "description": "Card 01: Pure Public Good & Market Failure",
+    "description": "Card 01: Pure Public Goods, Non-Excludability & Market Failure",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "Master Consolidated Synthesis & Revision Vault"
     },
-    "badge": "10,346 words • 48 min read"
+    "badge": "10,792 words • 50 min read"
   },
   {
     "id": "shelf007-ch-economics-chapter-27",
@@ -1104,7 +1104,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Economics & Social Issues Master Treatise (ESI Sovereign Synthesis)",
       "topic": "State Economic Architecture (RPSC RAS Master Block)"
     },
-    "badge": "4,080 words • 19 min read"
+    "badge": "4,127 words • 19 min read"
   },
   {
     "id": "shelf007-sec-economics-chapter-27-sec-2",
@@ -10327,21 +10327,21 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)"
     },
-    "badge": "QNT-007 • 29 Chapters"
+    "badge": "QNT-007 • 61 Chapters"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-cover",
     "type": "TOPIC",
-    "title": "QUANTITATIVE APTITUDE & MATHEMATICAL LOGIC",
+    "title": "QUANTITATIVE APTITUDE &amp; DATA INTERPRETATION",
     "slug": "cover",
     "url": "/shelf-007/quantitative-aptitude/cover",
-    "description": "▲ ARAVALLI RIDGE • SHELF 007 • SOVEREIGN KNOWLEDGE BASTION",
+    "description": "▲ ARAVALLI RIDGE • SHELF 007 • EXAM PREPARATION CODEX",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Curriculum Blueprint & Sovereign Synthesis Architecture"
     },
-    "badge": "266 words • 2 min read"
+    "badge": "269 words • 2 min read"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-table-of-contents",
@@ -10349,21 +10349,36 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "TABLE OF CONTENTS & MASTER CURRICULUM",
     "slug": "table-of-contents",
     "url": "/shelf-007/quantitative-aptitude/table-of-contents",
-    "description": "Treatise: Quantitative Aptitude & Mathematical Logic  \nSovereign Bastion: Shelf 007 (Isolated Master Knowledge HQ)  \nMethodology: Unified Sovereign Aptitude Synthesis of Sarvesh K. Verma, Arun Sharma, R.S. Aggarwal, and Rajesh Verma  \nCross-Verification: Banki...",
+    "description": "Treatise: Quantitative Aptitude & Mathematical Logic  \nShelf: 007 (Mind of Aravalli)  \nMethodology: Unified Aptitude Synthesis of Sarvesh K. Verma, Arun Sharma, Dr. R.S. Aggarwal, and Rajesh Verma  \nCross-Verification: Tier 1 Banking (SBI/IBPS/RRB PO & Clerk) ...",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Curriculum Blueprint & Sovereign Synthesis Architecture"
     },
-    "badge": "550 words • 3 min read"
+    "badge": "696 words • 4 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-table-of-contents-sec-2",
     "type": "CONCEPT",
-    "title": "Master Part & Chapter Architecture",
+    "title": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • V3)",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/table-of-contents",
-    "description": "text\nPART I: MENTAL CALCULATION, SPEED ENGINES & NUMBER SENSE\n  ├── Chapter 01: Mental Arithmetic Foundations, Base Multiplication & Vedic Engines\n  ├── Chapter 02: Fraction-Percentage Equivalence,",
+    "description": "Treatise: Quantitative Aptitude & Mathematical Logic  \nShelf: 007 (Mind of Aravalli)  \nMethodology: Unified Aptitude Synthesis of Sarvesh K. Verma, Arun Sharma, Dr. R.S. Aggarwal, and Raje",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
+      "concept": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • V3)"
+    },
+    "badge": "70 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-table-of-contents-sec-3",
+    "type": "CONCEPT",
+    "title": "Master Part & Chapter Architecture",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/table-of-contents",
+    "description": "text\nPART I: CALCULATION & SPEED FOUNDATION\n  ├── Chapter 01: Mental Arithmetic Foundations & Base Multiplication Engines\n  ├── Chapter 02: Fractions, Decimals, Percentages & Speed Conversions\n  └─",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
@@ -10373,19 +10388,19 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "badge": "412 words"
   },
   {
-    "id": "shelf007-sec-quantitative-aptitude-table-of-contents-sec-3",
+    "id": "shelf007-sec-quantitative-aptitude-table-of-contents-sec-4",
     "type": "CONCEPT",
-    "title": "Detailed Curricular Blueprint Preview",
-    "slug": "sec-3",
+    "title": "Curricular Blueprint & Examination Priorities",
+    "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/table-of-contents",
-    "description": "Chapter 01: Mental Arithmetic Foundations, Base Multiplication & Vedic Engines\n 1.1 Base Multiplication: Numbers near 100, 200, 1000 ($100 \\pm x$ algorithms).\n 1.2 Criss-Cross Multiplicati",
+    "description": "1. Part I (Ch 01–03): Builds the foundational arithmetic engine; powers Simplification & Approximation in Prelims.\n2. Part II (Ch 04–07): Delivers rigorous pattern mastery in Number Series (Mi",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "TABLE OF CONTENTS & MASTER CURRICULUM",
-      "concept": "Detailed Curricular Blueprint Preview"
+      "concept": "Curricular Blueprint & Examination Priorities"
     },
-    "badge": "71 words"
+    "badge": "184 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-01",
@@ -10399,7 +10414,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Mental Calculation, Speed Engines & Number Sense"
     },
-    "badge": "1,424 words • 7 min read"
+    "badge": "1,965 words • 9 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-01-sec-2",
@@ -10429,7 +10444,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 01: MENTAL ARITHMETIC FOUNDATIONS, BASE MULTIPLICATION & VEDIC ENGINES",
       "concept": "1.2 Base Multiplication: The Symmetrical Deviation Method"
     },
-    "badge": "490 words"
+    "badge": "766 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-01-sec-4",
@@ -10449,17 +10464,17 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-01-sec-5",
     "type": "CONCEPT",
-    "title": "1.4 Digital Sum (Digital Root) Verification Engine",
+    "title": "1.4 Digital Sum vs. Residue Modulo 9: The Verification Engine",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-01",
-    "description": "The Digital Sum of a number is the single digit obtained by summing all its constituent digits recursively until a single digit ($1 \\text{ through } 9$) remains.\n\n The Underlying Modular Arithm",
+    "description": "In competitive arithmetic verification, candidates frequently confuse the conventional digital root with the residue modulo 9. While deeply related through congruence arithmetic, they are dist",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "CHAPTER 01: MENTAL ARITHMETIC FOUNDATIONS, BASE MULTIPLICATION & VEDIC ENGINES",
-      "concept": "1.4 Digital Sum (Digital Root) Verification Engine"
+      "concept": "1.4 Digital Sum vs. Residue Modulo 9: The Verification Engine"
     },
-    "badge": "246 words"
+    "badge": "508 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-02",
@@ -10473,7 +10488,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Mental Calculation, Speed Engines & Number Sense"
     },
-    "badge": "1,413 words • 7 min read"
+    "badge": "1,802 words • 9 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-02-sec-2",
@@ -10496,14 +10511,14 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
     "title": "2.2 The Canonical Fraction-Percentage Benchmark Matrix ($1/2$ to $1/25$)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-02",
-    "description": "Every serious competitive examination aspirant must hold the following benchmark matrix in active mental retrieval:\n\n| Fraction | Decimal Value | Exact Percentage | Primary Family & Derived Multiplier",
+    "description": "Every serious competitive examination aspirant must hold the following benchmark matrix in active mental retrieval:\n\n| Fraction | Exact Decimal Value | Exact Percentage Form | Rounded Decimal % (2 d.p",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "CHAPTER 02: FRACTION-PERCENTAGE EQUIVALENCE, DECIMAL SHIFTS & STRUCTURED ESTIMATION",
       "concept": "2.2 The Canonical Fraction-Percentage Benchmark Matrix ($1/2$ to $1/25$)"
     },
-    "badge": "383 words"
+    "badge": "463 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-02-sec-4",
@@ -10523,17 +10538,17 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-02-sec-5",
     "type": "CONCEPT",
-    "title": "2.4 BODMAS & The Operational Hierarchy of Simplification",
+    "title": "2.4 Operator Precedence & The Simplification Engine (BODMAS De-mystified)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-02",
-    "description": "Mathematical operations are evaluated in strict hierarchical precedence:\n\n\n┌──────────┬─────────────────────────────┬────────────────────────────────────────────────────────┐\n│ Precedence│ Operatio",
+    "description": "In mathematical expression evaluation, operations follow rigorous precedence tiers:\n\ntext\n┌──────────┬─────────────────────────────┬────────────────────────────────────────────────────────┐\n│ Prece",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "CHAPTER 02: FRACTION-PERCENTAGE EQUIVALENCE, DECIMAL SHIFTS & STRUCTURED ESTIMATION",
-      "concept": "2.4 BODMAS & The Operational Hierarchy of Simplification"
+      "concept": "2.4 Operator Precedence & The Simplification Engine (BODMAS De-mystified)"
     },
-    "badge": "192 words"
+    "badge": "307 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-03",
@@ -10547,22 +10562,22 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Mental Calculation, Speed Engines & Number Sense"
     },
-    "badge": "1,716 words • 8 min read"
+    "badge": "2,084 words • 10 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-03-sec-2",
     "type": "CONCEPT",
-    "title": "3.1 The Axiomatic Foundations of Indices and Surds",
+    "title": "3.1 Mathematical Foundations of Indices and Surds",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-03",
-    "description": "1. Fundamental Laws of Indices\nFor any non-zero real bases $a, b$ and rational exponents $m, n$:\n\n\n┌─────────────────────────────────┬────────────────────────────────────────────────────────┐\n│",
+    "description": "1. Fundamental Laws of Indices & Domain Constraints\n\nIn competitive aptitude mathematics, the standard domain for base variables with rational exponents is strictly positive real numbers ($a > 0",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "CHAPTER 03: POWERS, INDICES, SURDS, SQUARES (1–50), CUBES (1–30) & ROOT ALGORITHMS",
-      "concept": "3.1 The Axiomatic Foundations of Indices and Surds"
+      "concept": "3.1 Mathematical Foundations of Indices and Surds"
     },
-    "badge": "252 words"
+    "badge": "621 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-03-sec-3",
@@ -10612,7 +10627,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-04",
     "type": "TOPIC",
-    "title": "CHAPTER 04: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION, FACTOR SUMS & TOTIENT THEORY",
+    "title": "CHAPTER 05: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION & FACTOR THEORY",
     "slug": "chapter-04",
     "url": "/shelf-007/quantitative-aptitude/chapter-04",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 1: Numbers, pp. 3–50)\n Sarvesh K. Verma, Quantum CAT (Ch. 3: The Realm of Numbers & Factor Theory)\n Rajesh Verma, Fast Track Objective Arithmetic (Ch. 1: Number System & Prime Factorizat...",
@@ -10621,72 +10636,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Number Theory & Arithmetic Invariants"
     },
-    "badge": "1,977 words • 9 min read"
+    "badge": "1,975 words • 9 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-04-sec-2",
     "type": "CONCEPT",
-    "title": "4.1 Number Classification & Set Topography",
+    "title": "5.1 Number Classification & Set Topography",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-04",
     "description": "Human mathematical systems organize real numbers into nested hierarchical sets:\n\n\nComplex Numbers (ℂ)\n  └── Real Numbers (ℝ)\n        ├── Rational Numbers (ℚ) [p/q, q ≠ 0]\n        │     ├── Integers",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 04: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION, FACTOR SUMS & TOTIENT THEORY",
-      "concept": "4.1 Number Classification & Set Topography"
+      "topic": "CHAPTER 05: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION & FACTOR THEORY",
+      "concept": "5.1 Number Classification & Set Topography"
     },
     "badge": "429 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-04-sec-3",
     "type": "CONCEPT",
-    "title": "4.2 Universal Divisibility Invariants & Modular Proofs",
+    "title": "5.2 Universal Divisibility Invariants & Modular Proofs",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-04",
     "description": "Divisibility tests are mathematical consequences of the decimal representation $N = \\sum{i=0}^{n} di 10^i$.\n\n 1. The Power-of-2 and Power-of-5 Family (Last Digits)\nSince $10 = 2 \\times 5$, $10^k$",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 04: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION, FACTOR SUMS & TOTIENT THEORY",
-      "concept": "4.2 Universal Divisibility Invariants & Modular Proofs"
+      "topic": "CHAPTER 05: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION & FACTOR THEORY",
+      "concept": "5.2 Universal Divisibility Invariants & Modular Proofs"
     },
     "badge": "735 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-04-sec-4",
     "type": "CONCEPT",
-    "title": "4.3 The Complete Factor Analysis Suite",
+    "title": "5.3 The Complete Factor Analysis Suite",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-04",
     "description": "By the Fundamental Theorem of Arithmetic, every integer $N > 1$ can be expressed uniquely as:\n$$N = p1^{a1} p2^{a2} p3^{a3} \\dots pk^{ak}$$\nwhere $p1, p2, \\dots, pk$ are distinct prime",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 04: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION, FACTOR SUMS & TOTIENT THEORY",
-      "concept": "4.3 The Complete Factor Analysis Suite"
+      "topic": "CHAPTER 05: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION & FACTOR THEORY",
+      "concept": "5.3 The Complete Factor Analysis Suite"
     },
     "badge": "394 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-04-sec-5",
     "type": "CONCEPT",
-    "title": "4.4 Euler's Totient Function $\\phi(N)$",
+    "title": "5.4 Euler's Totient Function $\\phi(N)$",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-04",
     "description": "Euler's Totient function $\\phi(N)$ counts the number of positive integers less than or equal to $N$ that are coprime to $N$ (i.e., $\\gcd(x, N) = 1$).\n\n The Totient Formula\nIf $N = p1^{a1} p2",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 04: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION, FACTOR SUMS & TOTIENT THEORY",
-      "concept": "4.4 Euler's Totient Function $\\phi(N)$"
+      "topic": "CHAPTER 05: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION & FACTOR THEORY",
+      "concept": "5.4 Euler's Totient Function $\\phi(N)$"
     },
     "badge": "181 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-05",
     "type": "TOPIC",
-    "title": "CHAPTER 05: HCF, LCM & REMAINDER THEOREMS (EULER, FERMAT, CHINESE REMAINDER THEOREM)",
+    "title": "CHAPTER 06: HCF, LCM & MODULAR REMAINDER THEOREMS",
     "slug": "chapter-05",
     "url": "/shelf-007/quantitative-aptitude/chapter-05",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 2: H.C.F. and L.C.M. of Numbers, pp. 51–68)\n Sarvesh K. Verma, Quantum CAT (Ch. 3: Number Systems — HCF/LCM & Remainder Theorems)\n Rajesh Verma, Fast Track Objective Arithmetic (Ch. 3: H...",
@@ -10695,72 +10710,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Number Theory & Arithmetic Invariants"
     },
-    "badge": "1,222 words • 6 min read"
+    "badge": "1,218 words • 6 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-05-sec-2",
     "type": "CONCEPT",
-    "title": "5.1 The Foundations of H.C.F. and L.C.M.",
+    "title": "6.1 The Foundations of H.C.F. and L.C.M.",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-05",
     "description": "1. Mathematical Definitions\n Highest Common Factor (H.C.F. / G.C.D.): The greatest positive integer that divides each of two or more given integers without leaving a remainder.\n   In prime f",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 05: HCF, LCM & REMAINDER THEOREMS (EULER, FERMAT, CHINESE REMAINDER THEOREM)",
-      "concept": "5.1 The Foundations of H.C.F. and L.C.M."
+      "topic": "CHAPTER 06: HCF, LCM & MODULAR REMAINDER THEOREMS",
+      "concept": "6.1 The Foundations of H.C.F. and L.C.M."
     },
     "badge": "207 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-05-sec-3",
     "type": "CONCEPT",
-    "title": "5.2 H.C.F. & L.C.M. of Fractions and Decimals",
+    "title": "6.2 H.C.F. & L.C.M. of Fractions and Decimals",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-05",
     "description": "1. Fractions Formula (Must be in Irreducible Form!)\nBefore calculating HCF or LCM of fractions, every fraction must be reduced to its lowest terms:\n\n$$\\mathbf{\\text{HCF}\\left(\\frac{a}{b}, \\fra",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 05: HCF, LCM & REMAINDER THEOREMS (EULER, FERMAT, CHINESE REMAINDER THEOREM)",
-      "concept": "5.2 H.C.F. & L.C.M. of Fractions and Decimals"
+      "topic": "CHAPTER 06: HCF, LCM & MODULAR REMAINDER THEOREMS",
+      "concept": "6.2 H.C.F. & L.C.M. of Fractions and Decimals"
     },
     "badge": "184 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-05-sec-4",
     "type": "CONCEPT",
-    "title": "5.3 The Four Standard Word Problem Models",
+    "title": "6.3 The Four Standard Word Problem Models",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-05",
     "description": "Competitive examinations frame HCF and LCM word problems around four canonical models:\n\n\n┌────────┬───────────────────────────────────────────────────────────────────┬──────────────────────────────",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 05: HCF, LCM & REMAINDER THEOREMS (EULER, FERMAT, CHINESE REMAINDER THEOREM)",
-      "concept": "5.3 The Four Standard Word Problem Models"
+      "topic": "CHAPTER 06: HCF, LCM & MODULAR REMAINDER THEOREMS",
+      "concept": "6.3 The Four Standard Word Problem Models"
     },
     "badge": "339 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-05-sec-5",
     "type": "CONCEPT",
-    "title": "5.4 Remainder Theorems & Modular Arithmetic Engines",
+    "title": "6.4 Remainder Theorems & Modular Arithmetic Engines",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-05",
     "description": "1. The Concept of Negative Remainders\nWhen $17$ is divided by $19$:\n Standard Positive Remainder: $+17$\n Equivalent Negative Remainder: $17 - 19 = \\mathbf{-2}$\nUsing negative remainders",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 05: HCF, LCM & REMAINDER THEOREMS (EULER, FERMAT, CHINESE REMAINDER THEOREM)",
-      "concept": "5.4 Remainder Theorems & Modular Arithmetic Engines"
+      "topic": "CHAPTER 06: HCF, LCM & MODULAR REMAINDER THEOREMS",
+      "concept": "6.4 Remainder Theorems & Modular Arithmetic Engines"
     },
     "badge": "248 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-06",
     "type": "TOPIC",
-    "title": "CHAPTER 06: UNIT DIGIT CYCLES, TENS DIGIT, TRAILING ZEROS & BASE SYSTEMS",
+    "title": "CHAPTER 07: UNIT DIGIT CYCLICITY, TENS DIGITS & TRAILING ZEROS",
     "slug": "chapter-06",
     "url": "/shelf-007/quantitative-aptitude/chapter-06",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 1: Numbers, pp. 3–50)\n Sarvesh K. Verma, Quantum CAT (Ch. 3: Number Systems — Unit Digits, Highest Powers & Base Conversion)\n Rajesh Verma, Fast Track Objective Arithmetic (Ch. 1: Number...",
@@ -10769,72 +10784,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Number Theory & Arithmetic Invariants"
     },
-    "badge": "1,328 words • 7 min read"
+    "badge": "1,387 words • 7 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-06-sec-2",
     "type": "CONCEPT",
-    "title": "6.1 The Cyclicity of Unit Digits (Modulo 10)",
+    "title": "7.1 The Cyclicity of Unit Digits (Modulo 10)",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-06",
     "description": "The unit digit of a base-10 number $N$ raised to an integer power $p$ depends exclusively on the unit digit of $N$ and follows a periodic repeating cycle (Cyclicity):\n\n\n┌──────────┬────────",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 06: UNIT DIGIT CYCLES, TENS DIGIT, TRAILING ZEROS & BASE SYSTEMS",
-      "concept": "6.1 The Cyclicity of Unit Digits (Modulo 10)"
+      "topic": "CHAPTER 07: UNIT DIGIT CYCLICITY, TENS DIGITS & TRAILING ZEROS",
+      "concept": "7.1 The Cyclicity of Unit Digits (Modulo 10)"
     },
     "badge": "413 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-06-sec-3",
     "type": "CONCEPT",
-    "title": "6.2 Determining the Last Two Digits (Tens & Units Digit)",
+    "title": "7.2 Determining the Last Two Digits (Tens & Units Digit)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-06",
     "description": "Finding the last two digits corresponds mathematically to determining the residue modulo $100$.\n\n 1. Numbers Ending in 1: $(10a + 1)^n$\n$$\\text{Last Digit} = \\mathbf{1}$$\n$$\\text{Tens Digit} = \\mat",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 06: UNIT DIGIT CYCLES, TENS DIGIT, TRAILING ZEROS & BASE SYSTEMS",
-      "concept": "6.2 Determining the Last Two Digits (Tens & Units Digit)"
+      "topic": "CHAPTER 07: UNIT DIGIT CYCLICITY, TENS DIGITS & TRAILING ZEROS",
+      "concept": "7.2 Determining the Last Two Digits (Tens & Units Digit)"
     },
-    "badge": "255 words"
+    "badge": "316 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-06-sec-4",
     "type": "CONCEPT",
-    "title": "6.3 Legendre's Formula: Highest Power of a Prime in $n!$",
+    "title": "7.3 Legendre's Formula: Highest Power of a Prime in $n!$",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-06",
     "description": "To find the highest power of a prime number $p$ dividing $n!$ (denoted $Ep(n!)$):\n\n$$\\mathbf{Ep(n!) = \\left\\lfloor \\frac{n}{p} \\right\\rfloor + \\left\\lfloor \\frac{n}{p^2} \\right\\rfloor + \\left\\lfloor",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 06: UNIT DIGIT CYCLES, TENS DIGIT, TRAILING ZEROS & BASE SYSTEMS",
-      "concept": "6.3 Legendre's Formula: Highest Power of a Prime in $n!$"
+      "topic": "CHAPTER 07: UNIT DIGIT CYCLICITY, TENS DIGITS & TRAILING ZEROS",
+      "concept": "7.3 Legendre's Formula: Highest Power of a Prime in $n!$"
     },
     "badge": "96 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-06-sec-5",
     "type": "CONCEPT",
-    "title": "6.4 Trailing Zeros in Factorials and Arbitrary Products",
+    "title": "7.4 Trailing Zeros in Factorials and Arbitrary Products",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-06",
     "description": "A trailing zero is produced exclusively by the prime factor pair $2 \\times 5 = 10$.\n\nIn any factorial $n!$, multiples of $2$ appear far more frequently than multiples of $5$. Therefore, the prime",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 06: UNIT DIGIT CYCLES, TENS DIGIT, TRAILING ZEROS & BASE SYSTEMS",
-      "concept": "6.4 Trailing Zeros in Factorials and Arbitrary Products"
+      "topic": "CHAPTER 07: UNIT DIGIT CYCLICITY, TENS DIGITS & TRAILING ZEROS",
+      "concept": "7.4 Trailing Zeros in Factorials and Arbitrary Products"
     },
     "badge": "110 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-07",
     "type": "TOPIC",
-    "title": "CHAPTER 07: ALGEBRAIC IDENTITIES, SYMMETRIC POLYNOMIALS & FACTORIZATION",
+    "title": "CHAPTER 08: ALGEBRAIC IDENTITIES & POLYNOMIAL FACTORIZATION",
     "slug": "chapter-07",
     "url": "/shelf-007/quantitative-aptitude/chapter-07",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 1: Numbers, pp. 3–50; Ch. 4: Simplification Algebraic Identities, pp. 95–179)\n Sarvesh K. Verma, Quantum CAT (Ch. 4: Algebra, Identities & Symmetric Polynomials)\n Rajesh Verma, Fast Trac...",
@@ -10843,72 +10858,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Algebraic Architecture & Equations"
     },
-    "badge": "1,183 words • 6 min read"
+    "badge": "1,182 words • 6 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-07-sec-2",
     "type": "CONCEPT",
-    "title": "7.1 The Master Algebraic Identity Catalogue",
+    "title": "8.1 The Master Algebraic Identity Catalogue",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-07",
     "description": "Algebraic identities represent equations that hold unconditionally true for all real values of their constituent variables. In competitive examinations, complex multi-digit arithmetic expressions are",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 07: ALGEBRAIC IDENTITIES, SYMMETRIC POLYNOMIALS & FACTORIZATION",
-      "concept": "7.1 The Master Algebraic Identity Catalogue"
+      "topic": "CHAPTER 08: ALGEBRAIC IDENTITIES & POLYNOMIAL FACTORIZATION",
+      "concept": "8.1 The Master Algebraic Identity Catalogue"
     },
     "badge": "380 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-07-sec-3",
     "type": "CONCEPT",
-    "title": "7.2 The Reciprocal Invariant Suite ($x + 1/x = k$)",
+    "title": "8.2 The Reciprocal Invariant Suite ($x + 1/x = k$)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-07",
     "description": "Problems of the form $x + \\frac{1}{x} = k$ are core fixtures in competitive examinations:\n\n\n┌─────────────────────────────────┬────────────────────────────────────────────────────────┐\n│ Exponent L",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 07: ALGEBRAIC IDENTITIES, SYMMETRIC POLYNOMIALS & FACTORIZATION",
-      "concept": "7.2 The Reciprocal Invariant Suite ($x + 1/x = k$)"
+      "topic": "CHAPTER 08: ALGEBRAIC IDENTITIES & POLYNOMIAL FACTORIZATION",
+      "concept": "8.2 The Reciprocal Invariant Suite ($x + 1/x = k$)"
     },
     "badge": "174 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-07-sec-4",
     "type": "CONCEPT",
-    "title": "7.3 Special Cyclic & Roots of Unity Shortcuts",
+    "title": "8.3 Special Cyclic & Roots of Unity Shortcuts",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-07",
     "description": "Certain recurring reciprocal values induce cyclical cancellations:\n\n| Given Reciprocal Condition | Algebraic Consequence | Immediate Value Invariant |\n| :--- | :--- | :--- |\n| $x + \\frac{1}{x} = 1$",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 07: ALGEBRAIC IDENTITIES, SYMMETRIC POLYNOMIALS & FACTORIZATION",
-      "concept": "7.3 Special Cyclic & Roots of Unity Shortcuts"
+      "topic": "CHAPTER 08: ALGEBRAIC IDENTITIES & POLYNOMIAL FACTORIZATION",
+      "concept": "8.3 Special Cyclic & Roots of Unity Shortcuts"
     },
     "badge": "222 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-07-sec-5",
     "type": "CONCEPT",
-    "title": "7.4 Multi-Tier Worked Exemplars (R.S. Aggarwal Benchmark Traps)",
+    "title": "8.4 Multi-Tier Worked Exemplars (R.S. Aggarwal Benchmark Traps)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-07",
     "description": "Exemplar 1 (Disguised Cubic Simplification):\nEvaluate:\n$$\\frac{0.783 \\times 0.783 \\times 0.783 + 0.217 \\times 0.217 \\times 0.217}{0.783 \\times 0.783 - 0.783 \\times 0.217 + 0.217 \\times 0.217}$$",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 07: ALGEBRAIC IDENTITIES, SYMMETRIC POLYNOMIALS & FACTORIZATION",
-      "concept": "7.4 Multi-Tier Worked Exemplars (R.S. Aggarwal Benchmark Traps)"
+      "topic": "CHAPTER 08: ALGEBRAIC IDENTITIES & POLYNOMIAL FACTORIZATION",
+      "concept": "8.4 Multi-Tier Worked Exemplars (R.S. Aggarwal Benchmark Traps)"
     },
     "badge": "165 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-08",
     "type": "TOPIC",
-    "title": "CHAPTER 08: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & WORD PROBLEM MODELING",
+    "title": "CHAPTER 09: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & AGE PROGRESSION",
     "slug": "chapter-08",
     "url": "/shelf-007/quantitative-aptitude/chapter-08",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 7: Problems on Numbers, pp. 240–263; Ch. 8: Problems on Ages, pp. 264–277)\n Sarvesh K. Verma, Quantum CAT (Ch. 4: Linear Equations & Word Systems)\n Rajesh Verma, Fast Track Objective Ari...",
@@ -10917,146 +10932,146 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Algebraic Architecture & Equations"
     },
-    "badge": "1,301 words • 6 min read"
+    "badge": "1,300 words • 6 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-08-sec-2",
     "type": "CONCEPT",
-    "title": "8.1 Linear Systems & Consistency Criteria",
+    "title": "9.1 Linear Systems & Consistency Criteria",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-08",
     "description": "A system of two linear equations in two variables $x$ and $y$ has the canonical form:\n$$a1x + b1y + c1 = 0$$\n$$a2x + b2y + c2 = 0$$\n\nThe geometric interaction of the lines determines the existen",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 08: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & WORD PROBLEM MODELING",
-      "concept": "8.1 Linear Systems & Consistency Criteria"
+      "topic": "CHAPTER 09: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & AGE PROGRESSION",
+      "concept": "9.1 Linear Systems & Consistency Criteria"
     },
     "badge": "252 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-08-sec-3",
     "type": "CONCEPT",
-    "title": "8.2 Two-Digit and Three-Digit Reversible Number Invariants",
+    "title": "9.2 Two-Digit and Three-Digit Reversible Number Invariants",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-08",
     "description": "Let a two-digit number have tens digit $t$ and units digit $u$. Its algebraic value is:\n$$N = 10t + u$$\n\nWhen the digits are reversed, the new number is:\n$$N' = 10u + t$$\n\n The Two Fundamental Inva",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 08: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & WORD PROBLEM MODELING",
-      "concept": "8.2 Two-Digit and Three-Digit Reversible Number Invariants"
+      "topic": "CHAPTER 09: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & AGE PROGRESSION",
+      "concept": "9.2 Two-Digit and Three-Digit Reversible Number Invariants"
     },
     "badge": "317 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-08-sec-4",
     "type": "CONCEPT",
-    "title": "8.3 The Invariant Age Gap Principle & Ratio Progression",
+    "title": "9.3 The Invariant Age Gap Principle & Ratio Progression",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-08",
     "description": "In all age-related problems, the most critical physical invariant is:\n$$\\mathbf{\\text{The difference between the ages of two people remains CONSTANT across all time!}}$$\n\n The Rapid Ratio Unit Sync",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 08: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & WORD PROBLEM MODELING",
-      "concept": "8.3 The Invariant Age Gap Principle & Ratio Progression"
+      "topic": "CHAPTER 09: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & AGE PROGRESSION",
+      "concept": "9.3 The Invariant Age Gap Principle & Ratio Progression"
     },
     "badge": "324 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-08-sec-5",
     "type": "CONCEPT",
-    "title": "8.4 Linear Diophantine Equations (Integer Constraints)",
+    "title": "9.4 Linear Diophantine Equations (Integer Constraints)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-08",
     "description": "Equations of the form $ax + by = c$ with integer restrictions $(x, y \\in \\mathbb{Z}^+)$ are solvable even with two unknowns in a single equation:\n\n Solvability Criterion:\nA linear Diophantine equat",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 08: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & WORD PROBLEM MODELING",
-      "concept": "8.4 Linear Diophantine Equations (Integer Constraints)"
+      "topic": "CHAPTER 09: LINEAR SYSTEMS, 2-VARIABLE EQUATIONS & AGE PROGRESSION",
+      "concept": "9.4 Linear Diophantine Equations (Integer Constraints)"
     },
     "badge": "173 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-09",
     "type": "TOPIC",
-    "title": "CHAPTER 09: QUADRATIC EQUATIONS, DISCRIMINANT ANALYSIS & THE MASTER SIGN TABLE",
+    "title": "CHAPTER 10: QUADRATIC EQUATIONS, ROOT COMPARISON & THE CND INVARIANT",
     "slug": "chapter-09",
     "url": "/shelf-007/quantitative-aptitude/chapter-09",
-    "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 1: Numbers & Quadratics, pp. 3–50)\n Sarvesh K. Verma, Quantum CAT (Ch. 4: Quadratic Equations & Inequations)\n Rajesh Verma, Fast Track Objective Arithmetic (Ch. 7: Quadratic Equations & ...",
+    "description": "WARNING: Some informal coaching materials instruct students to: \"Compute the actual roots of x and y, then multiply the roots of x by a2 and roots of y by a1.\"",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Algebraic Architecture & Equations"
     },
-    "badge": "1,383 words • 7 min read"
+    "badge": "2,159 words • 10 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-09-sec-2",
     "type": "CONCEPT",
-    "title": "9.1 The Canonical Quadratic Form & The Sridharacharya Derivation",
+    "title": "10.1 The Canonical Quadratic Form & The Sridharacharya Derivation",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-09",
     "description": "A quadratic equation in variable $x$ has the standard canonical form:\n$$\\mathbf{ax^2 + bx + c = 0 \\quad (a, b, c \\in \\mathbb{R}, \\ a \\neq 0)}$$\n\n The First-Principles Derivation (Completing the Squ",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 09: QUADRATIC EQUATIONS, DISCRIMINANT ANALYSIS & THE MASTER SIGN TABLE",
-      "concept": "9.1 The Canonical Quadratic Form & The Sridharacharya Derivation"
+      "topic": "CHAPTER 10: QUADRATIC EQUATIONS, ROOT COMPARISON & THE CND INVARIANT",
+      "concept": "10.1 The Canonical Quadratic Form & The Sridharacharya Derivation"
     },
     "badge": "250 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-09-sec-3",
     "type": "CONCEPT",
-    "title": "9.2 Discriminant Nature of Roots ($D = b^2 - 4ac$)",
+    "title": "10.2 Discriminant Nature of Roots ($D = b^2 - 4ac$)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-09",
     "description": "The discriminant $D$ controls the nature, multiplicity, and geometry of the parabolic roots:\n\n\n┌─────────────────┬───────────────────────────────┬───────────────────────────────────────────────┐\n│",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 09: QUADRATIC EQUATIONS, DISCRIMINANT ANALYSIS & THE MASTER SIGN TABLE",
-      "concept": "9.2 Discriminant Nature of Roots ($D = b^2 - 4ac$)"
+      "topic": "CHAPTER 10: QUADRATIC EQUATIONS, ROOT COMPARISON & THE CND INVARIANT",
+      "concept": "10.2 Discriminant Nature of Roots ($D = b^2 - 4ac$)"
     },
     "badge": "148 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-09-sec-4",
     "type": "CONCEPT",
-    "title": "9.3 The Master Sign Table Heuristic for Competitive Speed",
+    "title": "10.3 The Master Sign Table & Root Comparison Engine",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-09",
-    "description": "In banking and aptitude examinations (where candidates compare two quadratic variables $x$ vs $y$), solving equations fully is too slow. The Master Sign Table determines root signs in 2 seconds",
+    "description": "In competitive examinations where candidates compare two quadratic variables ($x$ vs $y$), determining the signs and ranges of roots quickly is essential.\n\n Pre-Condition 1: Leading Coefficient Nor",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 09: QUADRATIC EQUATIONS, DISCRIMINANT ANALYSIS & THE MASTER SIGN TABLE",
-      "concept": "9.3 The Master Sign Table Heuristic for Competitive Speed"
+      "topic": "CHAPTER 10: QUADRATIC EQUATIONS, ROOT COMPARISON & THE CND INVARIANT",
+      "concept": "10.3 The Master Sign Table & Root Comparison Engine"
     },
-    "badge": "289 words"
+    "badge": "863 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-09-sec-5",
     "type": "CONCEPT",
-    "title": "9.4 Cross-Coefficient Scaling in Root Comparisons",
+    "title": "10.4 Comparing Roots When Leading Coefficients Differ ($a_1 \\neq a_2$)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-09",
-    "description": "When leading coefficients $a1 \\neq a2$ (e.g., $2x^2 - 7x + 6 = 0$ and $3y^2 - 11y + 10 = 0$), dividing by $a$ creates fractions that cause comparison errors. Instead, multiply the roots by the opp",
+    "description": "When leading coefficients are unequal, candidates must follow mathematically sound methods rather than flawed shortcuts.\n\n Method 1: Direct Decimal / Fractional Comparison (Safe & Verified)\n1. Si",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 09: QUADRATIC EQUATIONS, DISCRIMINANT ANALYSIS & THE MASTER SIGN TABLE",
-      "concept": "9.4 Cross-Coefficient Scaling in Root Comparisons"
+      "topic": "CHAPTER 10: QUADRATIC EQUATIONS, ROOT COMPARISON & THE CND INVARIANT",
+      "concept": "10.4 Comparing Roots When Leading Coefficients Differ ($a_1 \\neq a_2$)"
     },
-    "badge": "263 words"
+    "badge": "461 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-10",
     "type": "TOPIC",
-    "title": "CHAPTER 10: PERCENTAGES: BASE SHIFTS, NET EFFECTIVE CHANGES & INVERSE PROPORTIONALITY",
+    "title": "CHAPTER 11: PERCENTAGES: BASE SHIFTS & THE CONSTANT PRODUCT AB-RULE",
     "slug": "chapter-10",
     "url": "/shelf-007/quantitative-aptitude/chapter-10",
     "description": "The Examiner's Linguistic Trap:",
@@ -11065,72 +11080,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Commercial Arithmetic: Ratios, Percentages & Proportionality"
     },
-    "badge": "1,165 words • 6 min read"
+    "badge": "1,164 words • 6 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-10-sec-2",
     "type": "CONCEPT",
-    "title": "10.1 The Definition & Anatomy of Percentage",
+    "title": "11.1 The Definition & Anatomy of Percentage",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-10",
     "description": "A percentage is a dimensionless ratio expressing a fraction of $100$. The term originates from the Latin per centum (\"by the hundred\"):\n$$x\\% = \\frac{x}{100}$$\n\n The Universal Invariant: Deno",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 10: PERCENTAGES: BASE SHIFTS, NET EFFECTIVE CHANGES & INVERSE PROPORTIONALITY",
-      "concept": "10.1 The Definition & Anatomy of Percentage"
+      "topic": "CHAPTER 11: PERCENTAGES: BASE SHIFTS & THE CONSTANT PRODUCT AB-RULE",
+      "concept": "11.1 The Definition & Anatomy of Percentage"
     },
     "badge": "109 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-10-sec-3",
     "type": "CONCEPT",
-    "title": "10.2 The Base Shift Invariant (The Fractional Reciprocal Rule)",
+    "title": "11.2 The Base Shift Invariant (The Fractional Reciprocal Rule)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-10",
     "description": "If quantity $A$ is greater than quantity $B$ by a certain percentage, by what percentage is $B$ smaller than $A$?  \nBecause the reference baseline shifts from $B$ to the larger quantity $A$, the retur",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 10: PERCENTAGES: BASE SHIFTS, NET EFFECTIVE CHANGES & INVERSE PROPORTIONALITY",
-      "concept": "10.2 The Base Shift Invariant (The Fractional Reciprocal Rule)"
+      "topic": "CHAPTER 11: PERCENTAGES: BASE SHIFTS & THE CONSTANT PRODUCT AB-RULE",
+      "concept": "11.2 The Base Shift Invariant (The Fractional Reciprocal Rule)"
     },
     "badge": "277 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-10-sec-4",
     "type": "CONCEPT",
-    "title": "10.3 Price, Consumption & Expenditure Invariants",
+    "title": "11.3 Price, Consumption & Expenditure Invariants",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-10",
     "description": "In consumer economics, the fundamental relationship is:\n$$\\mathbf{\\text{Expenditure} = \\text{Price} \\times \\text{Consumption}}$$\n\nWhen total expenditure is held constant, Price ($P$) and Consumption (",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 10: PERCENTAGES: BASE SHIFTS, NET EFFECTIVE CHANGES & INVERSE PROPORTIONALITY",
-      "concept": "10.3 Price, Consumption & Expenditure Invariants"
+      "topic": "CHAPTER 11: PERCENTAGES: BASE SHIFTS & THE CONSTANT PRODUCT AB-RULE",
+      "concept": "11.3 Price, Consumption & Expenditure Invariants"
     },
     "badge": "187 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-10-sec-5",
     "type": "CONCEPT",
-    "title": "10.4 Successive Percentage Changes & Net Effective Multiplier",
+    "title": "11.4 Successive Percentage Changes & Net Effective Multiplier",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-10",
     "description": "When a quantity is changed successively by $a\\%$ and then by $b\\%$, the net effective percentage change is:\n\n$$\\mathbf{\\text{Net \\% Change} = \\left(a + b + \\frac{ab}{100}\\right)\\%}$$\n\n(Where increase",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 10: PERCENTAGES: BASE SHIFTS, NET EFFECTIVE CHANGES & INVERSE PROPORTIONALITY",
-      "concept": "10.4 Successive Percentage Changes & Net Effective Multiplier"
+      "topic": "CHAPTER 11: PERCENTAGES: BASE SHIFTS & THE CONSTANT PRODUCT AB-RULE",
+      "concept": "11.4 Successive Percentage Changes & Net Effective Multiplier"
     },
     "badge": "189 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-11",
     "type": "TOPIC",
-    "title": "CHAPTER 11: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
+    "title": "CHAPTER 12: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
     "slug": "chapter-11",
     "url": "/shelf-007/quantitative-aptitude/chapter-11",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 12: Ratio & Proportion, pp. 426–475; Ch. 13: Partnership, pp. 476–492; Ch. 14: Chain Rule, pp. 493–509)\n Sarvesh K. Verma, Quantum CAT (Ch. 6: Ratio, Proportion & Variation; Ch. 7: Partn...",
@@ -11144,67 +11159,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-11-sec-2",
     "type": "CONCEPT",
-    "title": "11.1 Ratio Axioms & Compound Ratios",
+    "title": "12.1 Ratio Axioms & Compound Ratios",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-11",
     "description": "A ratio is a comparative quotient between two quantities $a$ and $b$ of the same physical units:\n$$a : b = \\frac{a}{b} \\quad (b \\neq 0)$$\nThe first term $a$ is the antecedent; the second t",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 11: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
-      "concept": "11.1 Ratio Axioms & Compound Ratios"
+      "topic": "CHAPTER 12: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
+      "concept": "12.1 Ratio Axioms & Compound Ratios"
     },
     "badge": "304 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-11-sec-3",
     "type": "CONCEPT",
-    "title": "11.2 Proportions & The Componendo-Dividendo (C&D) Rule",
+    "title": "12.2 Proportions & The Componendo-Dividendo (C&D) Rule",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-11",
     "description": "Four quantities $a, b, c, d$ are in proportion ($a : b :: c : d$) if:\n$$\\frac{a}{b} = \\frac{c}{d} \\iff \\mathbf{ad = bc \\quad (\\text{Product of Extremes} = \\text{Product of Means})}$$\n\n Canonica",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 11: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
-      "concept": "11.2 Proportions & The Componendo-Dividendo (C&D) Rule"
+      "topic": "CHAPTER 12: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
+      "concept": "12.2 Proportions & The Componendo-Dividendo (C&D) Rule"
     },
     "badge": "215 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-11-sec-4",
     "type": "CONCEPT",
-    "title": "11.3 The Chain Rule: Unified Work-Time-Output Invariant",
+    "title": "12.3 The Chain Rule: Unified Work-Time-Output Invariant",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-11",
     "description": "All compound proportionality problems in physical work, manpower, days, hours, and wages are unified under the Universal Chain Rule Invariant:\n\n$$\\mathbf{\\frac{M1 \\times D1 \\times H1 \\times E1",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 11: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
-      "concept": "11.3 The Chain Rule: Unified Work-Time-Output Invariant"
+      "topic": "CHAPTER 12: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
+      "concept": "12.3 The Chain Rule: Unified Work-Time-Output Invariant"
     },
     "badge": "206 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-11-sec-5",
     "type": "CONCEPT",
-    "title": "11.4 Partnership Mathematics (Capital × Time)",
+    "title": "12.4 Partnership Mathematics (Capital × Time)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-11",
     "description": "In a commercial partnership, net profits (or losses) are distributed in direct proportion to the product of Capital Invested ($C$) and the Duration of Investment ($T$):\n\n$$\\mathbf{\\text{Profit Rat",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 11: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
-      "concept": "11.4 Partnership Mathematics (Capital × Time)"
+      "topic": "CHAPTER 12: RATIO, PROPORTION, VARIATION & PARTNERSHIP (CAPITAL × TIME)",
+      "concept": "12.4 Partnership Mathematics (Capital × Time)"
     },
     "badge": "254 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-12",
     "type": "TOPIC",
-    "title": "CHAPTER 12: AVERAGES, WEIGHTED MEAN, ASSUMED MEAN METHOD & AGE DYNAMICS",
+    "title": "CHAPTER 13: AVERAGES, WEIGHTED MEAN & ASSUMED MEAN METHOD",
     "slug": "chapter-12",
     "url": "/shelf-007/quantitative-aptitude/chapter-12",
     "description": "Canonical Sources Unified:\n Dr. R.S. Aggarwal, Quantitative Aptitude (Ch. 6: Average, pp. 206–239)\n Sarvesh K. Verma, Quantum CAT (Ch. 8: Averages, Alligation & Mixtures)\n Rajesh Verma, Fast Track Objective Arithmetic (Ch. 10: Average & Deviation Methods)\n Aru...",
@@ -11213,72 +11228,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Commercial Arithmetic: Ratios, Percentages & Proportionality"
     },
-    "badge": "1,102 words • 6 min read"
+    "badge": "1,100 words • 5 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-12-sec-2",
     "type": "CONCEPT",
-    "title": "12.1 The Definition & Fundamental Sum Invariant",
+    "title": "13.1 The Definition & Fundamental Sum Invariant",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-12",
     "description": "The Arithmetic Mean (Average) of $n$ observations is the quotient obtained by dividing the sum of all observations by their total count:\n\n$$\\mathbf{\\text{Average } (\\bar{X}) = \\frac{\\sum{i=1}^{n}",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 12: AVERAGES, WEIGHTED MEAN, ASSUMED MEAN METHOD & AGE DYNAMICS",
-      "concept": "12.1 The Definition & Fundamental Sum Invariant"
+      "topic": "CHAPTER 13: AVERAGES, WEIGHTED MEAN & ASSUMED MEAN METHOD",
+      "concept": "13.1 The Definition & Fundamental Sum Invariant"
     },
     "badge": "136 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-12-sec-3",
     "type": "CONCEPT",
-    "title": "12.2 The Assumed Mean (Deviation) Algorithm",
+    "title": "13.2 The Assumed Mean (Deviation) Algorithm",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-12",
     "description": "Calculating large sums by hand invites arithmetic error. The Assumed Mean Method chooses a convenient benchmark number $A$ proximate to the cluster, calculating deviations:\n\n$$\\mathbf{\\bar{X} = A",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 12: AVERAGES, WEIGHTED MEAN, ASSUMED MEAN METHOD & AGE DYNAMICS",
-      "concept": "12.2 The Assumed Mean (Deviation) Algorithm"
+      "topic": "CHAPTER 13: AVERAGES, WEIGHTED MEAN & ASSUMED MEAN METHOD",
+      "concept": "13.2 The Assumed Mean (Deviation) Algorithm"
     },
     "badge": "122 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-12-sec-4",
     "type": "CONCEPT",
-    "title": "12.3 Weighted Mean & Multi-Group Aggregation",
+    "title": "13.3 Weighted Mean & Multi-Group Aggregation",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-12",
     "description": "When combining two groups with counts $n1, n2$ and averages $\\bar{X}1, \\bar{X}2$:\n\n$$\\mathbf{\\bar{X}{\\text{combined}} = \\frac{n1\\bar{X}1 + n2\\bar{X}2}{n1 + n2}}$$\n\n The Inverse Weight Ra",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 12: AVERAGES, WEIGHTED MEAN, ASSUMED MEAN METHOD & AGE DYNAMICS",
-      "concept": "12.3 Weighted Mean & Multi-Group Aggregation"
+      "topic": "CHAPTER 13: AVERAGES, WEIGHTED MEAN & ASSUMED MEAN METHOD",
+      "concept": "13.3 Weighted Mean & Multi-Group Aggregation"
     },
     "badge": "56 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-12-sec-5",
     "type": "CONCEPT",
-    "title": "12.4 Insertion, Departure & Replacement Dynamics",
+    "title": "13.4 Insertion, Departure & Replacement Dynamics",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-12",
     "description": "1. Replacement Mechanics (One Entity Replaces Another)\nWhen one person of weight $W{\\text{old}}$ is replaced by a new person of weight $W{\\text{new}}$ in a group of $n$ people, causing the avera",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 12: AVERAGES, WEIGHTED MEAN, ASSUMED MEAN METHOD & AGE DYNAMICS",
-      "concept": "12.4 Insertion, Departure & Replacement Dynamics"
+      "topic": "CHAPTER 13: AVERAGES, WEIGHTED MEAN & ASSUMED MEAN METHOD",
+      "concept": "13.4 Insertion, Departure & Replacement Dynamics"
     },
     "badge": "208 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-13",
     "type": "TOPIC",
-    "title": "CHAPTER 13: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
+    "title": "CHAPTER 14: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
     "slug": "chapter-13",
     "url": "/shelf-007/quantitative-aptitude/chapter-13",
     "description": "Strategic Utility: In problems specifying discount and net profit percentages, calculate the ratio $\\text{MP} : \\text{CP}$ in a single step without computing intermediate numerical values of Selling Price.",
@@ -11292,67 +11307,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-13-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY & FOUNDATIONAL IDENTITIES",
+    "title": "14.1 FIRST-PRINCIPLES ONTOLOGY & FOUNDATIONAL IDENTITIES",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-13",
     "description": "Commercial transactions govern the exchange of economic commodities against monetary currency. Every problem in profit, loss, and commercial discounting reduces strictly to ratios and base-tracking ac",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 13: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY & FOUNDATIONAL IDENTITIES"
+      "topic": "CHAPTER 14: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
+      "concept": "14.1 FIRST-PRINCIPLES ONTOLOGY & FOUNDATIONAL IDENTITIES"
     },
     "badge": "497 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-13-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE MULTIPLICATIVE FACTOR (MF) ENGINE",
+    "title": "14.2 THE MULTIPLICATIVE FACTOR (MF) ENGINE",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-13",
     "description": "Avoid writing multi-step additive equations. Express every commercial transition as a multiplicative operator:\n\n$$\\text{SP} = \\text{CP} \\times \\left(1 + \\frac{P}{100}\\right) \\quad \\text{or} \\quad \\tex",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 13: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
-      "concept": "2. THE MULTIPLICATIVE FACTOR (MF) ENGINE"
+      "topic": "CHAPTER 14: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
+      "concept": "14.2 THE MULTIPLICATIVE FACTOR (MF) ENGINE"
     },
     "badge": "141 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-13-sec-4",
     "type": "CONCEPT",
-    "title": "3. SUCCESSIVE DISCOUNTS & PROMOTIONAL MECHANICS",
+    "title": "14.3 SUCCESSIVE DISCOUNTS & PROMOTIONAL MECHANICS",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-13",
     "description": "When a series of successive discounts $d1\\%, d2\\%, \\dots, dk\\%$ are applied in sequence:\n$$\\text{SP} = \\text{MP} \\times \\left(1 - \\frac{d1}{100}\\right) \\times \\left(1 - \\frac{d2}{100}\\right) \\tim",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 13: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
-      "concept": "3. SUCCESSIVE DISCOUNTS & PROMOTIONAL MECHANICS"
+      "topic": "CHAPTER 14: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
+      "concept": "14.3 SUCCESSIVE DISCOUNTS & PROMOTIONAL MECHANICS"
     },
     "badge": "207 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-13-sec-5",
     "type": "CONCEPT",
-    "title": "4. ARTICLE EQUIVALENCE & MONETARY INVARIANTS",
+    "title": "14.4 ARTICLE EQUIVALENCE & MONETARY INVARIANTS",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-13",
     "description": "Type 1: Cost Price of $m$ Articles Equals Selling Price of $n$ Articles\n$$\\text{CP} \\times m = \\text{SP} \\times n \\implies \\mathbf{\\frac{\\text{SP}}{\\text{CP}} = \\frac{m}{n}}$$\n\n$$\\mathbf{\\text{Gai",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 13: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
-      "concept": "4. ARTICLE EQUIVALENCE & MONETARY INVARIANTS"
+      "topic": "CHAPTER 14: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS",
+      "concept": "14.4 ARTICLE EQUIVALENCE & MONETARY INVARIANTS"
     },
     "badge": "185 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-14",
     "type": "TOPIC",
-    "title": "CHAPTER 14: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
+    "title": "CHAPTER 15: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
     "slug": "chapter-14",
     "url": "/shelf-007/quantitative-aptitude/chapter-14",
     "description": "Instant Calculation Rule: Never divide by $N$. Always divide by the interest multiples $(N - 1)$. If a sum doubles ($N=2 \\implies I=1$) in $5$ years, to become $8$ times ($N=8 \\implies I=7$), it requires $7 \\times 5 = \\mathbf{35 \\text{ years}}$.",
@@ -11361,72 +11376,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Commercial Arithmetic: Financial Dynamics & Mixtures"
     },
-    "badge": "1,962 words • 9 min read"
+    "badge": "2,057 words • 10 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-14-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY & LINEAR TIME DYNAMICS",
+    "title": "15.1 FIRST-PRINCIPLES ONTOLOGY & LINEAR TIME DYNAMICS",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-14",
     "description": "Simple Interest ($\\mathbf{SI}$) represents the purest form of linear monetary compensation for the temporal use of financial capital. Under simple interest, the principal capital base remains complete",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 14: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY & LINEAR TIME DYNAMICS"
+      "topic": "CHAPTER 15: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
+      "concept": "15.1 FIRST-PRINCIPLES ONTOLOGY & LINEAR TIME DYNAMICS"
     },
     "badge": "319 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-14-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE MULTIPLIER PRINCIPLE & TWO-EPOCH SCALING",
+    "title": "15.2 THE MULTIPLIER PRINCIPLE & TWO-EPOCH SCALING",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-14",
     "description": "Theorem 1: Capital Multiplication Epochs\nWhen a principal sum $P$ becomes $N$ times its original value in $T$ years:\n$$A = N \\cdot P \\implies I = A - P = (N - 1) P$$\n\nEquating to the fundamental S",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 14: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
-      "concept": "2. THE MULTIPLIER PRINCIPLE & TWO-EPOCH SCALING"
+      "topic": "CHAPTER 15: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
+      "concept": "15.2 THE MULTIPLIER PRINCIPLE & TWO-EPOCH SCALING"
     },
     "badge": "158 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-14-sec-4",
     "type": "CONCEPT",
-    "title": "3. PIECEWISE LINEAR & VARIABLE RATE REGIMES",
+    "title": "15.3 PIECEWISE LINEAR & VARIABLE RATE REGIMES",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-14",
     "description": "When loan agreements stipulate escalating interest rates over successive time intervals (e.g., developmental credit or corporate debt):\n- Rate $R1\\%$ for first $T1$ years,\n- Rate $R2\\%$ for next $T",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 14: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
-      "concept": "3. PIECEWISE LINEAR & VARIABLE RATE REGIMES"
+      "topic": "CHAPTER 15: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
+      "concept": "15.3 PIECEWISE LINEAR & VARIABLE RATE REGIMES"
     },
     "badge": "92 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-14-sec-5",
     "type": "CONCEPT",
-    "title": "4. CAPITAL PARTITIONING THEOREMS",
+    "title": "15.4 CAPITAL PARTITIONING THEOREMS",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-14",
     "description": "When an aggregate capital sum $P$ is bifurcated or partitioned into multiple portions $P1, P2, \\dots, Pk$ invested under different rates $Ri$ and durations $Ti$:\n\n Case A: Equal Simple Interes",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 14: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
-      "concept": "4. CAPITAL PARTITIONING THEOREMS"
+      "topic": "CHAPTER 15: SIMPLE INTEREST, VARIABLE RATE REGIMES & DEBT INSTALLMENTS",
+      "concept": "15.4 CAPITAL PARTITIONING THEOREMS"
     },
     "badge": "155 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-15",
     "type": "TOPIC",
-    "title": "CHAPTER 15: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
+    "title": "CHAPTER 16: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
     "slug": "chapter-15",
     "url": "/shelf-007/quantitative-aptitude/chapter-15",
     "description": "The Sovereign Constant: The ratio $\\frac{D3}{D2}$ is completely independent of Principal $P$. When a question gives $D3$ and $D2$, the annual interest rate $R$ can be found instantly without calculating $P$:",
@@ -11440,67 +11455,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-15-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: EXPONENTIAL VS LINEAR ACCRUAL",
+    "title": "16.1 FIRST-PRINCIPLES ONTOLOGY: EXPONENTIAL VS LINEAR ACCRUAL",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-15",
     "description": "Compound Interest ($\\mathbf{CI}$) embodies the principle of recursive capital reproduction. At the conclusion of each compounding cycle, accrued interest is capitalized—converted into principal—and th",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 15: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: EXPONENTIAL VS LINEAR ACCRUAL"
+      "topic": "CHAPTER 16: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
+      "concept": "16.1 FIRST-PRINCIPLES ONTOLOGY: EXPONENTIAL VS LINEAR ACCRUAL"
     },
     "badge": "357 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-15-sec-3",
     "type": "CONCEPT",
-    "title": "2. FRACTIONAL TENURES & VARIABLE RATE SEQUENCES",
+    "title": "16.2 FRACTIONAL TENURES & VARIABLE RATE SEQUENCES",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-15",
     "description": "A. Fractional Duration ($n + \\frac{a}{b}$ Years Compounded Annually)\nWhen money is invested for a non-integer duration, say $2\\frac{3}{5}$ years, compounding occurs in whole units for the integer",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 15: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
-      "concept": "2. FRACTIONAL TENURES & VARIABLE RATE SEQUENCES"
+      "topic": "CHAPTER 16: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
+      "concept": "16.2 FRACTIONAL TENURES & VARIABLE RATE SEQUENCES"
     },
     "badge": "84 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-15-sec-4",
     "type": "CONCEPT",
-    "title": "3. THE PASCAL RATIO / TREE DECOMPOSITION ENGINE",
+    "title": "16.3 THE PASCAL RATIO / TREE DECOMPOSITION ENGINE",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-15",
     "description": "For rapid problem-solving in banking and regulatory exams, binomial tree decomposition eliminates tedious decimal multiplication.\n\nLet $r = \\frac{R}{100}$.\n- Tier 1 (Base Interest on Principal $P$)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 15: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
-      "concept": "3. THE PASCAL RATIO / TREE DECOMPOSITION ENGINE"
+      "topic": "CHAPTER 16: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
+      "concept": "16.3 THE PASCAL RATIO / TREE DECOMPOSITION ENGINE"
     },
     "badge": "236 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-15-sec-5",
     "type": "CONCEPT",
-    "title": "4. THE MASTER $\\text{CI} - \\text{SI}$ DIFFERENCE IDENTITIES",
+    "title": "16.4 THE MASTER $\\text{CI} - \\text{SI}$ DIFFERENCE IDENTITIES",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-15",
     "description": "The divergence between compound interest and simple interest forms the backbone of advanced examination questions.\n\n Theorem 1: The 2-Year Difference Identity\nLet $D2 = \\text{CI}2 - \\text{SI}2$",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 15: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
-      "concept": "4. THE MASTER $\\text{CI} - \\text{SI}$ DIFFERENCE IDENTITIES"
+      "topic": "CHAPTER 16: COMPOUND INTEREST, COMPOUNDING INTERVALS, DIFFERENCE FORMULATIONS & AMORTIZATION",
+      "concept": "16.4 THE MASTER $\\text{CI} - \\text{SI}$ DIFFERENCE IDENTITIES"
     },
     "badge": "167 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-16",
     "type": "TOPIC",
-    "title": "CHAPTER 16: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
+    "title": "CHAPTER 17: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
     "slug": "chapter-16",
     "url": "/shelf-007/quantitative-aptitude/chapter-16",
     "description": "The Dimension Consistency Law: All three vertices ($c, d, m$) must represent the exact same physical or financial metric calculated on the exact same reference base.",
@@ -11514,67 +11529,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-16-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES DERIVATION OF THE ALLIGATION ENGINE",
+    "title": "17.1 FIRST-PRINCIPLES DERIVATION OF THE ALLIGATION ENGINE",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-16",
     "description": "The Rule of Alligation (derived from Latin alligare, meaning \"to bind together\") is not an ad-hoc examination trick. It is the exact visual and algebraic transformation of the Weighted Arithmetic",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 16: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
-      "concept": "1. FIRST-PRINCIPLES DERIVATION OF THE ALLIGATION ENGINE"
+      "topic": "CHAPTER 17: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
+      "concept": "17.1 FIRST-PRINCIPLES DERIVATION OF THE ALLIGATION ENGINE"
     },
     "badge": "238 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-16-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE DIMENSION CONSISTENCY LAW (THE THREE-TERM AXIOM)",
+    "title": "17.2 THE DIMENSION CONSISTENCY LAW (THE THREE-TERM AXIOM)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-16",
     "description": "The single most fatal mistake in commercial arithmetic is mixing discordant metrics within the cross diagram.\n\n> The Dimension Consistency Law: All three vertices ($c, d, m$) must represent the",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 16: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
-      "concept": "2. THE DIMENSION CONSISTENCY LAW (THE THREE-TERM AXIOM)"
+      "topic": "CHAPTER 17: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
+      "concept": "17.2 THE DIMENSION CONSISTENCY LAW (THE THREE-TERM AXIOM)"
     },
     "badge": "244 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-16-sec-4",
     "type": "CONCEPT",
-    "title": "3. MULTI-VESSEL MIXTURES & FRACTIONAL ALLIGATION",
+    "title": "17.3 MULTI-VESSEL MIXTURES & FRACTIONAL ALLIGATION",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-16",
     "description": "When two or more vessels containing liquid solutions of varying ratios are blended:\n\n Method 1: Fractional Solute Alligation\n- Vessel A contains milk and water in ratio $a1 : b1 \\implies$ Milk co",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 16: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
-      "concept": "3. MULTI-VESSEL MIXTURES & FRACTIONAL ALLIGATION"
+      "topic": "CHAPTER 17: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
+      "concept": "17.3 MULTI-VESSEL MIXTURES & FRACTIONAL ALLIGATION"
     },
     "badge": "174 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-16-sec-5",
     "type": "CONCEPT",
-    "title": "4. THE REPEATED DILUTION INVARIANT (SUCCESSIVE REPLACEMENT)",
+    "title": "17.4 THE REPEATED DILUTION INVARIANT (SUCCESSIVE REPLACEMENT)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-16",
     "description": "A classic problem archetype in CAT, Banking PO, and Regulatory exams involves repeated withdrawal and substitution.\n\n Analytical Theorem\nA container initially holds $V$ units of pure liquid (e.g.,",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 16: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
-      "concept": "4. THE REPEATED DILUTION INVARIANT (SUCCESSIVE REPLACEMENT)"
+      "topic": "CHAPTER 17: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS",
+      "concept": "17.4 THE REPEATED DILUTION INVARIANT (SUCCESSIVE REPLACEMENT)"
     },
     "badge": "222 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-17",
     "type": "TOPIC",
-    "title": "CHAPTER 17: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
+    "title": "CHAPTER 18: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
     "slug": "chapter-17",
     "url": "/shelf-007/quantitative-aptitude/chapter-17",
     "description": "Theorem: If $A$ had NOT left, how much additional work would $A$ have contributed in those final $d$ days?",
@@ -11588,67 +11603,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-17-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: WORK CONSERVATION & EFFICIENCY",
+    "title": "18.1 FIRST-PRINCIPLES ONTOLOGY: WORK CONSERVATION & EFFICIENCY",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-17",
     "description": "Physical work ($W$) is treated in quantitative aptitude as a conserved scalar quantity. The execution of work across continuous or discrete time ($T$) is governed by the rate of execution, termed Ef",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 17: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: WORK CONSERVATION & EFFICIENCY"
+      "topic": "CHAPTER 18: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
+      "concept": "18.1 FIRST-PRINCIPLES ONTOLOGY: WORK CONSERVATION & EFFICIENCY"
     },
     "badge": "134 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-17-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE LCM TOTAL-WORK ENGINE (ELIMINATING FRACTIONAL DRAG)",
+    "title": "18.2 THE LCM TOTAL-WORK ENGINE (ELIMINATING FRACTIONAL DRAG)",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-17",
     "description": "The classical textbook method of adding fractional rates ($\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$) introduces severe cognitive drag and error vulnerability. The sovereign standard is the Integer L",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 17: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
-      "concept": "2. THE LCM TOTAL-WORK ENGINE (ELIMINATING FRACTIONAL DRAG)"
+      "topic": "CHAPTER 18: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
+      "concept": "18.2 THE LCM TOTAL-WORK ENGINE (ELIMINATING FRACTIONAL DRAG)"
     },
     "badge": "136 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-17-sec-4",
     "type": "CONCEPT",
-    "title": "3. PAIRWISE WORK DECOMPOSITION NETWORKS",
+    "title": "18.3 PAIRWISE WORK DECOMPOSITION NETWORKS",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-17",
     "description": "In high-difficulty competitive examinations, labor rates are frequently given in overlapping bilateral pairings:\n- $(A + B)$ complete work in $T{AB}$ days $\\implies \\eta{AB} = \\etaA + \\etaB = \\fra",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 17: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
-      "concept": "3. PAIRWISE WORK DECOMPOSITION NETWORKS"
+      "topic": "CHAPTER 18: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
+      "concept": "18.3 PAIRWISE WORK DECOMPOSITION NETWORKS"
     },
     "badge": "120 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-17-sec-5",
     "type": "CONCEPT",
-    "title": "4. DYNAMIC LABOR INGRESS, EGRESS & PHANTOM EXTENSION",
+    "title": "18.4 DYNAMIC LABOR INGRESS, EGRESS & PHANTOM EXTENSION",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-17",
     "description": "Real-world examination scenarios feature workers joining late or abandoning the site before completion.\n\n Case 1: Sequential Departure (Worker Leaves After $d$ Days)\nWorker $A$ and $B$ work togethe",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 17: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
-      "concept": "4. DYNAMIC LABOR INGRESS, EGRESS & PHANTOM EXTENSION"
+      "topic": "CHAPTER 18: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS",
+      "concept": "18.4 DYNAMIC LABOR INGRESS, EGRESS & PHANTOM EXTENSION"
     },
     "badge": "177 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-18",
     "type": "TOPIC",
-    "title": "CHAPTER 18: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
+    "title": "CHAPTER 19: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
     "slug": "chapter-18",
     "url": "/shelf-007/quantitative-aptitude/chapter-18",
     "description": "The Elevation Invariance Principle: An outlet positioned at height $h$ above the floor can only drain fluid located above height $h$. It exerts zero effect on fluid stored between the floor and height $h$.",
@@ -11662,67 +11677,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-18-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: POSITIVE AND NEGATIVE WORK VECTORS",
+    "title": "19.1 FIRST-PRINCIPLES ONTOLOGY: POSITIVE AND NEGATIVE WORK VECTORS",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-18",
     "description": "Problems in pipes and cisterns are structurally isomorphic to Time and Work, with one profound physical divergence: the presence of negative work vectors (outlets, waste pipes, and structural leaks)",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 18: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: POSITIVE AND NEGATIVE WORK VECTORS"
+      "topic": "CHAPTER 19: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
+      "concept": "19.1 FIRST-PRINCIPLES ONTOLOGY: POSITIVE AND NEGATIVE WORK VECTORS"
     },
     "badge": "221 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-18-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE BOTTOM LEAKAGE DERIVATION",
+    "title": "19.2 THE BOTTOM LEAKAGE DERIVATION",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-18",
     "description": "A classic examination model tests the retarding effect of an unknown bottom fissure:\n- An inlet pump fills a cistern in $T$ hours when operating alone.\n- Due to a structural leak at the bottom, the ci",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 18: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
-      "concept": "2. THE BOTTOM LEAKAGE DERIVATION"
+      "topic": "CHAPTER 19: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
+      "concept": "19.2 THE BOTTOM LEAKAGE DERIVATION"
     },
     "badge": "169 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-18-sec-4",
     "type": "CONCEPT",
-    "title": "3. ELEVATION-SEGMENTED & MULTI-TIER TANKS",
+    "title": "19.3 ELEVATION-SEGMENTED & MULTI-TIER TANKS",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-18",
     "description": "In standard problems, leaks are assumed to sit at the tank bottom ($h = 0$). In advanced CAT and Banking Mains problems, leaks or outlets are located at specific elevations along the tank wall.\n\n> T",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 18: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
-      "concept": "3. ELEVATION-SEGMENTED & MULTI-TIER TANKS"
+      "topic": "CHAPTER 19: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
+      "concept": "19.3 ELEVATION-SEGMENTED & MULTI-TIER TANKS"
     },
     "badge": "150 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-18-sec-5",
     "type": "CONCEPT",
-    "title": "4. THE ASYMMETRIC ALTERNATING CYCLE PARADOX (THE CISTERN MONKEY TRAP)",
+    "title": "19.4 THE ASYMMETRIC ALTERNATING CYCLE PARADOX (THE CISTERN MONKEY TRAP)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-18",
     "description": "Consider an empty tank of capacity $V$.\n- Pipe $A$ (Inlet) is opened for 1 minute: fills $+a$ units.\n- Pipe $B$ (Outlet) is opened for 1 minute: empties $-b$ units ($a > b$).\n- They operate alternatel",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 18: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
-      "concept": "4. THE ASYMMETRIC ALTERNATING CYCLE PARADOX (THE CISTERN MONKEY TRAP)"
+      "topic": "CHAPTER 19: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES",
+      "concept": "19.4 THE ASYMMETRIC ALTERNATING CYCLE PARADOX (THE CISTERN MONKEY TRAP)"
     },
     "badge": "236 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-19",
     "type": "TOPIC",
-    "title": "CHAPTER 19: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
+    "title": "CHAPTER 20: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
     "slug": "chapter-19",
     "url": "/shelf-007/quantitative-aptitude/chapter-19",
     "description": "Inequality of Motion: For any fluctuating journey between the same points, Harmonic Mean $\\le$ Geometric Mean $\\le$ Arithmetic Mean. Average speed over equal distance is always strictly less than the arithmetic mean $\\frac{v1 + v2}{2}$!",
@@ -11736,67 +11751,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-19-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES KINEMATICS & DIMENSIONAL SYNCHRONIZATION",
+    "title": "20.1 FIRST-PRINCIPLES KINEMATICS & DIMENSIONAL SYNCHRONIZATION",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-19",
     "description": "The physics of rectilinear motion is governed by the conservation of spatial displacement over elapsed time:\n\n$$\\text{Speed } (v) = \\frac{d(\\text{Distance})}{dt} = \\frac{D}{T}$$\n\n Dimensional Conve",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 19: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
-      "concept": "1. FIRST-PRINCIPLES KINEMATICS & DIMENSIONAL SYNCHRONIZATION"
+      "topic": "CHAPTER 20: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
+      "concept": "20.1 FIRST-PRINCIPLES KINEMATICS & DIMENSIONAL SYNCHRONIZATION"
     },
     "badge": "193 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-19-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE INVARIANCE TRIANGLE: THREE CONSERVATION LAWS",
+    "title": "20.2 THE INVARIANCE TRIANGLE: THREE CONSERVATION LAWS",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-19",
     "description": "[Distance D = v × T]\n                              ▲\n                             / \\\n           Constant Time    /   \\   Constant Distance\n           D1 / D2 = v1 / v2     v1",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 19: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
-      "concept": "2. THE INVARIANCE TRIANGLE: THREE CONSERVATION LAWS"
+      "topic": "CHAPTER 20: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
+      "concept": "20.2 THE INVARIANCE TRIANGLE: THREE CONSERVATION LAWS"
     },
     "badge": "168 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-19-sec-4",
     "type": "CONCEPT",
-    "title": "3. AVERAGE SPEED: HARMONIC VS ARITHMETIC MEAN",
+    "title": "20.3 AVERAGE SPEED: HARMONIC VS ARITHMETIC MEAN",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-19",
     "description": "The average speed of any multi-phase journey is strictly defined by the global quotient:\n$$\\mathbf{v{\\text{avg}} = \\frac{\\text{Total Distance Traversed}}{\\text{Total Time Elapsed}} = \\frac{\\sum Di}{",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 19: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
-      "concept": "3. AVERAGE SPEED: HARMONIC VS ARITHMETIC MEAN"
+      "topic": "CHAPTER 20: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
+      "concept": "20.3 AVERAGE SPEED: HARMONIC VS ARITHMETIC MEAN"
     },
     "badge": "161 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-19-sec-5",
     "type": "CONCEPT",
-    "title": "4. THE EARLY/LATE SPEED-SHIFT EQUATION",
+    "title": "20.4 THE EARLY/LATE SPEED-SHIFT EQUATION",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-19",
     "description": "A staple problem archetype tests variable travel speeds yielding arrival discrepancies:\n- Traveling at speed $v1$, the traveler arrives $t1$ minutes late.\n- Traveling at speed $v2$, the traveler ar",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 19: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
-      "concept": "4. THE EARLY/LATE SPEED-SHIFT EQUATION"
+      "topic": "CHAPTER 20: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED",
+      "concept": "20.4 THE EARLY/LATE SPEED-SHIFT EQUATION"
     },
     "badge": "152 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-20",
     "type": "TOPIC",
-    "title": "CHAPTER 20: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
+    "title": "CHAPTER 21: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
     "slug": "chapter-20",
     "url": "/shelf-007/quantitative-aptitude/chapter-20",
     "description": "Domain: Extended Body Kinematics, Moving Frames of Reference & Angular Periodicity  \nTarget Examinations: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  \nPedagogical Hierarchy: Extended Body Dynamics $\\to$ Hydrodynamic Ve...",
@@ -11810,67 +11825,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-20-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES KINEMATICS: EXTENDED BODIES & TRAIN TRANSLATION",
+    "title": "21.1 FIRST-PRINCIPLES KINEMATICS: EXTENDED BODIES & TRAIN TRANSLATION",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-20",
     "description": "Unlike point-particle mechanics, railway kinetics requires spatial accounting of the physical length of the moving vehicle ($L{\\text{train}}$) and the obstacle being crossed ($L{\\text{object}}$).",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 20: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
-      "concept": "1. FIRST-PRINCIPLES KINEMATICS: EXTENDED BODIES & TRAIN TRANSLATION"
+      "topic": "CHAPTER 21: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
+      "concept": "21.1 FIRST-PRINCIPLES KINEMATICS: EXTENDED BODIES & TRAIN TRANSLATION"
     },
     "badge": "229 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-20-sec-3",
     "type": "CONCEPT",
-    "title": "2. HYDRODYNAMIC VECTOR FRAMES: BOATS AND STREAMS",
+    "title": "21.2 HYDRODYNAMIC VECTOR FRAMES: BOATS AND STREAMS",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-20",
     "description": "Motion on fluid surfaces operates under a Galilean velocity transformation where the medium itself possesses a drift velocity:\n- Let $u$ = Speed of boat/swimmer in still water.\n- Let $v$ = Speed o",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 20: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
-      "concept": "2. HYDRODYNAMIC VECTOR FRAMES: BOATS AND STREAMS"
+      "topic": "CHAPTER 21: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
+      "concept": "21.2 HYDRODYNAMIC VECTOR FRAMES: BOATS AND STREAMS"
     },
     "badge": "172 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-20-sec-4",
     "type": "CONCEPT",
-    "title": "3. ESCALATOR KINEMATICS (MOVING STAIRWAYS)",
+    "title": "21.3 ESCALATOR KINEMATICS (MOVING STAIRWAYS)",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-20",
     "description": "Moving escalators represent the discrete mechanical analog of stream currents:\n- Let $N$ = Total visible stationary steps from bottom to top.\n- Let $p$ = Speed of person walking on escalator ($\\text{s",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 20: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
-      "concept": "3. ESCALATOR KINEMATICS (MOVING STAIRWAYS)"
+      "topic": "CHAPTER 21: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
+      "concept": "21.3 ESCALATOR KINEMATICS (MOVING STAIRWAYS)"
     },
     "badge": "115 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-20-sec-5",
     "type": "CONCEPT",
-    "title": "4. LINEAR RACES & HANDICAP METRICS",
+    "title": "21.4 LINEAR RACES & HANDICAP METRICS",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-20",
     "description": "In competitive sprinting and sports handicaps over a course of length $L$:\n\n Terminology & Conversions\n1. \"A gives B a start of $x$ meters\":\n   $A$ starts at origin $0$; $B$ starts at distance",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 20: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
-      "concept": "4. LINEAR RACES & HANDICAP METRICS"
+      "topic": "CHAPTER 21: TRAINS, PLATFORMS, BOATS, STREAMS, ESCALATORS & CIRCULAR RACES",
+      "concept": "21.4 LINEAR RACES & HANDICAP METRICS"
     },
     "badge": "148 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-21",
     "type": "TOPIC",
-    "title": "CHAPTER 21: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
+    "title": "CHAPTER 22: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
     "slug": "chapter-21",
     "url": "/shelf-007/quantitative-aptitude/chapter-21",
     "description": "Domain: Euclidean Geometry, Planar Mensuration & Topological Invariants  \nTarget Examinations: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  \nPedagogical Hierarchy: Axiomatic Geometry $\\to$ Triangular Inradius/Circumradi...",
@@ -11879,72 +11894,72 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Geometry & Spatial Mensuration"
     },
-    "badge": "1,631 words • 8 min read"
+    "badge": "1,582 words • 8 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-21-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: TRIANGULAR GEOMETRY & AREA DERIVATIONS",
+    "title": "22.1 FIRST-PRINCIPLES ONTOLOGY: TRIANGULAR GEOMETRY & AREA DERIVATIONS",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-21",
     "description": "Every planar rectilinear polygon decomposes into a simplicial complex of triangles. The triangle forms the fundamental building block of 2D geometry.\n\n The Triangle Existence Axiom\nFor any three li",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 21: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: TRIANGULAR GEOMETRY & AREA DERIVATIONS"
+      "topic": "CHAPTER 22: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
+      "concept": "22.1 FIRST-PRINCIPLES ONTOLOGY: TRIANGULAR GEOMETRY & AREA DERIVATIONS"
     },
     "badge": "352 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-21-sec-3",
     "type": "CONCEPT",
-    "title": "2. MEDIANS, CENTROID & APOLLONIUS' THEOREM",
+    "title": "22.2 MEDIANS, CENTROID & APOLLONIUS' THEOREM",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-21",
     "description": "- Median: A line segment joining a vertex to the midpoint of the opposite side.\n- Centroid ($\\mathbf{G}$): The concurrency point of all three medians.\n  - Divides each median in ratio $\\mathbf",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 21: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
-      "concept": "2. MEDIANS, CENTROID & APOLLONIUS' THEOREM"
+      "topic": "CHAPTER 22: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
+      "concept": "22.2 MEDIANS, CENTROID & APOLLONIUS' THEOREM"
     },
     "badge": "73 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-21-sec-4",
     "type": "CONCEPT",
-    "title": "3. QUADRILATERALS & PATHWAY FORMULATIONS",
+    "title": "22.3 QUADRILATERALS & PATHWAY FORMULATIONS",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-21",
     "description": "General Quadrilateral\n$$\\mathbf{\\Delta = \\frac{1}{2} \\cdot d \\cdot (h1 + h2)}$$\nWhere $d$ is a diagonal and $h1, h2$ are perpendicular offsets dropped from opposing vertices.\n\n Parallelogra",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 21: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
-      "concept": "3. QUADRILATERALS & PATHWAY FORMULATIONS"
+      "topic": "CHAPTER 22: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
+      "concept": "22.3 QUADRILATERALS & PATHWAY FORMULATIONS"
     },
     "badge": "224 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-21-sec-5",
     "type": "CONCEPT",
-    "title": "4. REGULAR POLYGONS (THE $n$-GON MATRIX)",
+    "title": "22.4 REGULAR POLYGONS (THE $n$-GON MATRIX)",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-21",
     "description": "For any regular polygon possessing $n$ equal sides of length $a$:\n\n$$\\text{Sum of All Interior Angles} = \\mathbf{(n - 2) \\times 180^\\circ}$$\n$$\\text{Each Interior Angle} = \\mathbf{\\frac{(n - 2) \\times",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 21: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
-      "concept": "4. REGULAR POLYGONS (THE $n$-GON MATRIX)"
+      "topic": "CHAPTER 22: 2D MENSURATION & PLANAR GEOMETRY: TRIANGLES, QUADRILATERALS, CIRCLES & POLYGONS",
+      "concept": "22.4 REGULAR POLYGONS (THE $n$-GON MATRIX)"
     },
     "badge": "70 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-22",
     "type": "TOPIC",
-    "title": "CHAPTER 22: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
+    "title": "CHAPTER 23: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
     "slug": "chapter-22",
     "url": "/shelf-007/quantitative-aptitude/chapter-22",
     "description": "Domain: Spatial Geometry, Polyhedral Mensuration & Volumetric Transformations  \nTarget Examinations: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  \nPedagogical Hierarchy: Spatial Measure Theory $\\to$ Prismatic vs Pyramid...",
@@ -11958,67 +11973,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-22-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: SPATIAL MEASURE & BOUNDARY SURFACES",
+    "title": "23.1 FIRST-PRINCIPLES ONTOLOGY: SPATIAL MEASURE & BOUNDARY SURFACES",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-22",
     "description": "Three-dimensional mensuration governs the quantification of bounded continuous subsets in Euclidean 3-space ($\\mathbb{R}^3$):\n\n1. Volume ($\\mathbf{V}$): The measure of spatial extent occupied by t",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 22: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: SPATIAL MEASURE & BOUNDARY SURFACES"
+      "topic": "CHAPTER 23: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
+      "concept": "23.1 FIRST-PRINCIPLES ONTOLOGY: SPATIAL MEASURE & BOUNDARY SURFACES"
     },
     "badge": "164 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-22-sec-3",
     "type": "CONCEPT",
-    "title": "2. CANONICAL SOLIDS MASTER INVENTORY",
+    "title": "23.2 CANONICAL SOLIDS MASTER INVENTORY",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-22",
     "description": "A. Cuboids & Cubes\nLet length be $l$, breadth $b$, height $h$.\n- Cuboid Volume: $V = l \\cdot b \\cdot h$\n- Total Surface Area: $\\text{TSA} = 2(l b + b h + h l)$\n- Lateral Surface Area (Ar",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 22: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
-      "concept": "2. CANONICAL SOLIDS MASTER INVENTORY"
+      "topic": "CHAPTER 23: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
+      "concept": "23.2 CANONICAL SOLIDS MASTER INVENTORY"
     },
     "badge": "351 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-22-sec-4",
     "type": "CONCEPT",
-    "title": "3. VOLUMETRIC CONSERVATION & MELTING INVARIANTS",
+    "title": "23.3 VOLUMETRIC CONSERVATION & MELTING INVARIANTS",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-22",
     "description": "Invariant 1: Recasting and Melting\nMatter is conserved under thermal phase change and mechanical reforming:\n$$\\mathbf{V{\\text{original}} = \\sum{i=1}^N V{\\text{recast}, i}}$$\n\nWhen a single larg",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 22: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
-      "concept": "3. VOLUMETRIC CONSERVATION & MELTING INVARIANTS"
+      "topic": "CHAPTER 23: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
+      "concept": "23.3 VOLUMETRIC CONSERVATION & MELTING INVARIANTS"
     },
     "badge": "175 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-22-sec-5",
     "type": "CONCEPT",
-    "title": "4. MULTI-TIER WORKED EXEMPLARS",
+    "title": "23.4 MULTI-TIER WORKED EXEMPLARS",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-22",
     "description": "Exemplar 1: Longest Interior Diagonal of a Room (SBI PO Prelims)\nProblem: Find the length of the longest pole that can be placed inside a rectangular hall $10 \\text{ m}$ long, $10 \\text{ m}$ w",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 22: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
-      "concept": "4. MULTI-TIER WORKED EXEMPLARS"
+      "topic": "CHAPTER 23: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION",
+      "concept": "23.4 MULTI-TIER WORKED EXEMPLARS"
     },
     "badge": "543 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-23",
     "type": "TOPIC",
-    "title": "CHAPTER 23: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
+    "title": "CHAPTER 24: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
     "slug": "chapter-23",
     "url": "/shelf-007/quantitative-aptitude/chapter-23",
     "description": "Domain: Modern Discrete Mathematics, Combinatorial Synthesis & Allocation Topology  \nTarget Examinations: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  \nPedagogical Hierarchy: Fundamental Counting Principles $\\to$ Permut...",
@@ -12032,67 +12047,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-23-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: THE AXIOMATIC COUNTING SYSTEM",
+    "title": "24.1 FIRST-PRINCIPLES ONTOLOGY: THE AXIOMATIC COUNTING SYSTEM",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-23",
     "description": "Combinatorics is the branch of discrete mathematics that quantifies arrangements, selections, and partitions of finite sets without physical enumeration.\n\n The Fundamental Principles of Counting (F",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 23: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: THE AXIOMATIC COUNTING SYSTEM"
+      "topic": "CHAPTER 24: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
+      "concept": "24.1 FIRST-PRINCIPLES ONTOLOGY: THE AXIOMATIC COUNTING SYSTEM"
     },
     "badge": "154 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-23-sec-3",
     "type": "CONCEPT",
-    "title": "2. PERMUTATIONS: ORDER-SENSITIVE ARRANGEMENTS",
+    "title": "24.2 PERMUTATIONS: ORDER-SENSITIVE ARRANGEMENTS",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-23",
     "description": "A Permutation is an ordered arrangement of elements chosen from a specified set. Here, the spatial sequence matters fundamentally ($AB \\neq BA$).\n\n Linear Permutation of Distinct Items\nThe numb",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 23: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
-      "concept": "2. PERMUTATIONS: ORDER-SENSITIVE ARRANGEMENTS"
+      "topic": "CHAPTER 24: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
+      "concept": "24.2 PERMUTATIONS: ORDER-SENSITIVE ARRANGEMENTS"
     },
     "badge": "188 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-23-sec-4",
     "type": "CONCEPT",
-    "title": "3. CONSTRAINED ARRANGEMENT ENGINES: STRING VS GAP",
+    "title": "24.3 CONSTRAINED ARRANGEMENT ENGINES: STRING VS GAP",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-23",
     "description": "THE STRING METHOD                              THE GAP METHOD\n        (Items Kept Together)                         (Items Kept Apart)\n      ┌─────────────────────────┐",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 23: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
-      "concept": "3. CONSTRAINED ARRANGEMENT ENGINES: STRING VS GAP"
+      "topic": "CHAPTER 24: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
+      "concept": "24.3 CONSTRAINED ARRANGEMENT ENGINES: STRING VS GAP"
     },
     "badge": "215 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-23-sec-5",
     "type": "CONCEPT",
-    "title": "4. COMBINATIONS: ORDER-INVARIANT SELECTIONS",
+    "title": "24.4 COMBINATIONS: ORDER-INVARIANT SELECTIONS",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-23",
     "description": "A Combination is a selection of elements where internal ordering is disregarded ($AB \\equiv BA$).\n\n$$\\mathbf{^nCr = \\frac{n!}{r!(n - r)!} = \\frac{^nPr}{r!}}$$\n\n Fundamental Combinatorial Iden",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 23: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
-      "concept": "4. COMBINATIONS: ORDER-INVARIANT SELECTIONS"
+      "topic": "CHAPTER 24: PERMUTATIONS, COMBINATIONS, PARTITIONING & DISTRIBUTION THEORY",
+      "concept": "24.4 COMBINATIONS: ORDER-INVARIANT SELECTIONS"
     },
     "badge": "97 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-24",
     "type": "TOPIC",
-    "title": "CHAPTER 24: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
+    "title": "CHAPTER 25: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
     "slug": "chapter-24",
     "url": "/shelf-007/quantitative-aptitude/chapter-24",
     "description": "Fundamental Principle: Non-trivial events ($P > 0$) that are mutually exclusive CANNOT be independent, because the occurrence of one guarantees the non-occurrence of the other!",
@@ -12106,67 +12121,67 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-24-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: AXIOMATIC PROBABILITY MEASURE",
+    "title": "25.1 FIRST-PRINCIPLES ONTOLOGY: AXIOMATIC PROBABILITY MEASURE",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-24",
     "description": "Probability quantifies the likelihood of occurrence of indeterminate events within a well-defined outcome space.\n\n The Kolmogorov Axioms\nLet $S$ represent the finite Sample Space of all mutually ex",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 24: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: AXIOMATIC PROBABILITY MEASURE"
+      "topic": "CHAPTER 25: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
+      "concept": "25.1 FIRST-PRINCIPLES ONTOLOGY: AXIOMATIC PROBABILITY MEASURE"
     },
     "badge": "159 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-24-sec-3",
     "type": "CONCEPT",
-    "title": "2. SET-THEORETIC PROBABILITY THEOREMS",
+    "title": "25.2 SET-THEORETIC PROBABILITY THEOREMS",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-24",
     "description": "The General Addition Theorem\nFor any two arbitrary events $A$ and $B$:\n$$\\mathbf{P(A \\cup B) = P(A) + P(B) - P(A \\cap B)}$$\n\nFor three events $A, B, C$:\n$$\\mathbf{P(A \\cup B \\cup C) = \\sum P(A) -",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 24: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
-      "concept": "2. SET-THEORETIC PROBABILITY THEOREMS"
+      "topic": "CHAPTER 25: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
+      "concept": "25.2 SET-THEORETIC PROBABILITY THEOREMS"
     },
     "badge": "207 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-24-sec-4",
     "type": "CONCEPT",
-    "title": "3. CANONICAL RANDOM EXPERIMENT VAULT",
+    "title": "25.3 CANONICAL RANDOM EXPERIMENT VAULT",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-24",
     "description": "A. The 52-Card Standard Deck Architecture\nA standard pack contains $52$ cards partitioned into $4$ suits of $13$ cards each:\n- Black Suits ($26$): Spades ($\\spadesuit, 13$), Clubs ($\\clubsuit,",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 24: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
-      "concept": "3. CANONICAL RANDOM EXPERIMENT VAULT"
+      "topic": "CHAPTER 25: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
+      "concept": "25.3 CANONICAL RANDOM EXPERIMENT VAULT"
     },
     "badge": "281 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-24-sec-5",
     "type": "CONCEPT",
-    "title": "4. ODDS IN FAVOR AND ODDS AGAINST",
+    "title": "25.4 ODDS IN FAVOR AND ODDS AGAINST",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-24",
     "description": "Let an event $E$ happen in $a$ ways and fail in $b$ ways (total outcomes $n(S) = a + b$):\n\n$$\\text{Odds in Favor of Event } E = \\mathbf{a : b = \\frac{P(E)}{1 - P(E)} = \\frac{P(E)}{P(E')}}$$\n$$\\text{Od",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 24: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
-      "concept": "4. ODDS IN FAVOR AND ODDS AGAINST"
+      "topic": "CHAPTER 25: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS",
+      "concept": "25.4 ODDS IN FAVOR AND ODDS AGAINST"
     },
     "badge": "96 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-25",
     "type": "TOPIC",
-    "title": "CHAPTER 25: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
+    "title": "CHAPTER 26: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
     "slug": "chapter-25",
     "url": "/shelf-007/quantitative-aptitude/chapter-25",
     "description": "THE DUAL PIE CHART LAW: You CANNOT compare raw percentage slices between two pie charts! A slice of $25\\%$ in Pie Chart 1 is NOT necessarily greater than a slice of $20\\%$ in Pie Chart 2.",
@@ -12175,215 +12190,2241 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Data Interpretation & Decision Logic"
     },
-    "badge": "1,530 words • 7 min read"
+    "badge": "1,535 words • 7 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-25-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: THE FOUR ATOMIC DI OPERATIONS",
+    "title": "26.1 FIRST-PRINCIPLES ONTOLOGY: THE FOUR ATOMIC DI OPERATIONS",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-25",
     "description": "Data Interpretation ($\\mathbf{DI}$) is not a distinct branch of mathematics; it is the rapid computational extraction of commercial arithmetic from compressed graphical representations. In every c",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 25: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: THE FOUR ATOMIC DI OPERATIONS"
+      "topic": "CHAPTER 26: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
+      "concept": "26.1 FIRST-PRINCIPLES ONTOLOGY: THE FOUR ATOMIC DI OPERATIONS"
     },
     "badge": "169 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-25-sec-3",
     "type": "CONCEPT",
-    "title": "2. GRAPHICAL ARCHETYPES & COMPRESSION PROTOCOLS",
+    "title": "26.2 GRAPHICAL ARCHETYPES & COMPRESSION PROTOCOLS",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-25",
     "description": "A. Tabular Matrices\n- Structure: Cross-tabulation along orthogonal row and column dimensions.\n- Protocol: Verify whether row/column sums are inclusive of sub-segments. Inspect for missing",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 25: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
-      "concept": "2. GRAPHICAL ARCHETYPES & COMPRESSION PROTOCOLS"
+      "topic": "CHAPTER 26: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
+      "concept": "26.2 GRAPHICAL ARCHETYPES & COMPRESSION PROTOCOLS"
     },
     "badge": "152 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-25-sec-4",
     "type": "CONCEPT",
-    "title": "3. PIE CHART MECHANICS & ANGULAR TRANSFORMATION",
+    "title": "26.3 PIE CHART MECHANICS & ANGULAR TRANSFORMATION",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-25",
     "description": "A pie chart maps quantitative proportions onto the circular angular topology of $360^\\circ$.\n\n The Angular-Percentage Sovereign Equivalence\n$$\\mathbf{100\\% \\equiv 360^\\circ \\iff 1\\% \\equiv 3.6^\\cir",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 25: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
-      "concept": "3. PIE CHART MECHANICS & ANGULAR TRANSFORMATION"
+      "topic": "CHAPTER 26: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
+      "concept": "26.3 PIE CHART MECHANICS & ANGULAR TRANSFORMATION"
     },
     "badge": "219 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-25-sec-5",
     "type": "CONCEPT",
-    "title": "4. CASELETS & 3-SET VENN DIAGRAM ALGEBRA",
+    "title": "26.4 CASELETS & 3-SET VENN DIAGRAM ALGEBRA",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-25",
     "description": "Unstructured prose narratives in DI require conversion into an algebraic Venn matrix:\n\n\n                            Set A           Set B\n                           ┌───────┬───────┬───────┐",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 25: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
-      "concept": "4. CASELETS & 3-SET VENN DIAGRAM ALGEBRA"
+      "topic": "CHAPTER 26: DATA INTERPRETATION: TABLES, BAR CHARTS, PIE CHARTS, LINE GRAPHS & CASELETS",
+      "concept": "26.4 CASELETS & 3-SET VENN DIAGRAM ALGEBRA"
     },
     "badge": "175 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-26",
     "type": "TOPIC",
-    "title": "CHAPTER 26: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
+    "title": "CHAPTER 28: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
     "slug": "chapter-26",
     "url": "/shelf-007/quantitative-aptitude/chapter-26",
-    "description": "The Sovereign Law of Data Sufficiency:",
+    "description": "The Master Sufficiency Criterion:",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "Data Interpretation & Decision Logic"
     },
-    "badge": "1,666 words • 8 min read"
+    "badge": "1,650 words • 8 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-26-sec-2",
     "type": "CONCEPT",
-    "title": "1. FIRST-PRINCIPLES ONTOLOGY: THE EPISTEMIC SUFFICIENCY AXIOM",
+    "title": "28.1 THE MASTER DETERMINATION RULE & DECISION ENGINE",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-26",
-    "description": "Data Sufficiency ($\\mathbf{DS}$) is an advanced meta-mathematical discipline that tests whether a unique mathematical solution exists, rather than requiring the candidate to mechanically compute t",
+    "description": "Data Sufficiency ($\\mathbf{DS}$) tests whether a unique mathematical solution exists, rather than requiring the candidate to mechanically compute the final numerical value.\n\n> The Master Suffici",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 26: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
-      "concept": "1. FIRST-PRINCIPLES ONTOLOGY: THE EPISTEMIC SUFFICIENCY AXIOM"
+      "topic": "CHAPTER 28: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
+      "concept": "28.1 THE MASTER DETERMINATION RULE & DECISION ENGINE"
     },
-    "badge": "154 words"
+    "badge": "177 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-26-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE CANONICAL 5-WAY DECISION MATRIX",
+    "title": "28.2 THE CANONICAL 5-WAY DECISION MATRIX",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-26",
     "description": "Every standard data sufficiency problem offers a target question followed by two informational constraints, Statement (1) and Statement (2):\n\n| Designation | Formal Logical State | Practical Operation",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 26: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
-      "concept": "2. THE CANONICAL 5-WAY DECISION MATRIX"
+      "topic": "CHAPTER 28: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
+      "concept": "28.2 THE CANONICAL 5-WAY DECISION MATRIX"
     },
-    "badge": "197 words"
+    "badge": "190 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-26-sec-4",
     "type": "CONCEPT",
-    "title": "3. VALUE PROPOSITIONS VS YES/NO PROPOSITIONS",
+    "title": "28.3 VALUE QUESTIONS VS. YES/NO QUESTIONS",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-26",
-    "description": "Problems partition strictly into two epistemic categories:\n\n Category A: Value Questions (\"What is the value of $X$?\")\nA statement is SUFFICIENT if and only if it generates one and only one real",
+    "description": "Problems partition strictly into two categories:\n\n Category A: Value Questions (\"What is the value of $X$?\")\nA statement is SUFFICIENT if and only if it determines one and only one real numerical",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 26: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
-      "concept": "3. VALUE PROPOSITIONS VS YES/NO PROPOSITIONS"
+      "topic": "CHAPTER 28: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
+      "concept": "28.3 VALUE QUESTIONS VS. YES/NO QUESTIONS"
     },
-    "badge": "187 words"
+    "badge": "186 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-26-sec-5",
     "type": "CONCEPT",
-    "title": "4. MATHEMATICAL DEGENERACY & SYSTEM REDUNDANCY",
+    "title": "28.4 MATHEMATICAL DEGENERACY & SYSTEM REDUNDANCY",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-26",
     "description": "When evaluating algebraic constraints, look for hidden geometric or algebraic degeneracies:\n\n Degeneracy 1: Dependent / Collinear Equations\nTwo equations in two variables do NOT guarantee a unique",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 26: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
-      "concept": "4. MATHEMATICAL DEGENERACY & SYSTEM REDUNDANCY"
+      "topic": "CHAPTER 28: DATA SUFFICIENCY & ANALYTICAL DECISION LOGIC",
+      "concept": "28.4 MATHEMATICAL DEGENERACY & SYSTEM REDUNDANCY"
     },
     "badge": "121 words"
   },
   {
     "id": "shelf007-ch-quantitative-aptitude-chapter-27",
     "type": "TOPIC",
-    "title": "CHAPTER 27: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
+    "title": "CHAPTER 30: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
     "slug": "chapter-27",
     "url": "/shelf-007/quantitative-aptitude/chapter-27",
-    "description": "Domain: Unified Mathematical Synthesis, Cross-Disciplinary Invariants & Metacognitive Error Taxonomy  \nTarget Examinations: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  \nPedagogical Hierarchy: The Unified Theory of Quan...",
+    "description": "Domain: Unified Mathematical Synthesis, Cross-Disciplinary Invariants & Metacognitive Error Taxonomy  \nTarget Examinations: SBI PO, IBPS PO, IBPS RRB PO, RBI Grade B (Phase I), SEBI Grade A (Phase I Paper 1), NABARD Grade A (Prelims)  \nPedagogical Hierarchy: I...",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
       "topic": "The Capstone: Master Consolidated Revision & Trap Vault"
     },
-    "badge": "2,438 words • 12 min read"
+    "badge": "2,489 words • 12 min read"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-27-sec-2",
     "type": "CONCEPT",
-    "title": "1. THE UNIFIED FIELD THEORY OF QUANTITATIVE APTITUDE",
+    "title": "30.1 THE INTEGRATED QUANTITATIVE FRAMEWORK",
     "slug": "sec-2",
     "url": "/shelf-007/quantitative-aptitude/chapter-27",
-    "description": "All quantitative aptitude across 27 sovereign chapters is not an assortment of disjoint formulas. It represents the realization of Four Elemental Mathematical Primitives:",
+    "description": "All quantitative aptitude across 30 master chapters is not an assortment of disjoint formulas. It represents the realization of Four Elemental Mathematical Primitives:",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 27: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
-      "concept": "1. THE UNIFIED FIELD THEORY OF QUANTITATIVE APTITUDE"
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
+      "concept": "30.1 THE INTEGRATED QUANTITATIVE FRAMEWORK"
     },
     "badge": "151 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-27-sec-3",
     "type": "CONCEPT",
-    "title": "2. THE 50 DEADLIEST EXAMINATION TRAPS: COMPLETE TAXONOMY",
+    "title": "30.2 THE 50 DEADLIEST EXAMINATION TRAPS: COMPLETE TAXONOMY",
     "slug": "sec-3",
     "url": "/shelf-007/quantitative-aptitude/chapter-27",
     "description": "Part I: Mental Calculation, Speed Engines & Number Sense (Traps 1–5)\n1. The Vedic Subtraction Base Borrowing Trap: Forgetting to decrement the non-zero left neighbor when applying \"All from 9",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 27: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
-      "concept": "2. THE 50 DEADLIEST EXAMINATION TRAPS: COMPLETE TAXONOMY"
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
+      "concept": "30.2 THE 50 DEADLIEST EXAMINATION TRAPS: COMPLETE TAXONOMY"
     },
-    "badge": "1497 words"
+    "badge": "1523 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-27-sec-4",
     "type": "CONCEPT",
-    "title": "3. THE SPEED ENGINES MASTER LEXICON",
+    "title": "30.3 THE SPEED ENGINES MASTER LEXICON",
     "slug": "sec-4",
     "url": "/shelf-007/quantitative-aptitude/chapter-27",
     "description": "Canonical Fraction-to-Percentage Invariants\n\n$$\\begin{aligned}\n\\frac{1}{2} &= 50.00\\% & \\frac{1}{3} &\\approx 33.33\\% & \\frac{1}{4} &= 25.00\\% & \\frac{1}{5} &= 20.00\\% \\\\\n\\frac{1}{6} &\\approx 16.67",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 27: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
-      "concept": "3. THE SPEED ENGINES MASTER LEXICON"
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
+      "concept": "30.3 THE SPEED ENGINES MASTER LEXICON"
     },
-    "badge": "236 words"
+    "badge": "235 words"
   },
   {
     "id": "shelf007-sec-quantitative-aptitude-chapter-27-sec-5",
     "type": "CONCEPT",
-    "title": "4. UNIVERSAL RAPID-RECALL FORMULA COMPENDIUM",
+    "title": "30.4 UNIVERSAL RAPID-RECALL FORMULA COMPENDIUM",
     "slug": "sec-5",
     "url": "/shelf-007/quantitative-aptitude/chapter-27",
     "description": "text\n1. Number Systems: Sum(1 to n) = n(n+1)/2 ; Sum(n²) = n(n+1)(2n+1)/6 ; Sum(n³) = [n(n+1)/2]²\n2. Factors: N = p^a · q^b · r^c ➔ Factors = (a+1)(b+1)(c+1) ; Sum = [(p^(a+1)-1)/(p-1)] · ...\n3. HC",
     "hierarchy": {
       "domain": "Sovereign Knowledge Bastion (Shelf 007)",
       "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
-      "topic": "CHAPTER 27: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
-      "concept": "4. UNIVERSAL RAPID-RECALL FORMULA COMPENDIUM"
+      "topic": "CHAPTER 30: THE GRAND SYNTHESIS MASTER REVISION & 50 DEADLIEST TRAP VAULT",
+      "concept": "30.4 UNIVERSAL RAPID-RECALL FORMULA COMPENDIUM"
     },
-    "badge": "365 words"
+    "badge": "383 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-00a_intro_cip_v3",
+    "type": "TOPIC",
+    "title": "00A INTRO CIP V3",
+    "slug": "00a_intro_cip_v3",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v3",
+    "description": "text\nARAVALLI EXAM CODICES — CATALOGING IN PUBLICATION BLOCK\nTitle: Quantitative Aptitude & Data Interpretation (Remediated Exam Edition • V3)\nSubject Code: QNT-007 | Shelf Bastion: Shelf 007 (Mind of Aravalli)\nClassification: Banking PO/Clerk / Regulatory Apt...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "712 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-00a_intro_cip_v3-sec-1",
+    "type": "CONCEPT",
+    "title": "CATALOGING-IN-PUBLICATION (CIP) DATA & COLOPHON",
+    "slug": "sec-1",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v3",
+    "description": "text\nARAVALLI EXAM CODICES — CATALOGING IN PUBLICATION BLOCK\nTitle: Quantitative Aptitude & Data Interpretation (Remediated Exam Edition • V3)\nSubject Code: QNT-007 | Shelf Bastion: Shelf 007 (Mind",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "00A INTRO CIP V3",
+      "concept": "CATALOGING-IN-PUBLICATION (CIP) DATA & COLOPHON"
+    },
+    "badge": "178 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-00a_intro_cip_v3-sec-2",
+    "type": "CONCEPT",
+    "title": "HOW TO USE THIS BOOK & THE TWO-SPEED SOLVER ARCHITECTURE",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v3",
+    "description": "1. The Single-Source Exam Standard\nThis book is designed to serve as a complete, self-contained reference for a candidate preparing for Banking and Regulatory examinations. It eliminates the need",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "00A INTRO CIP V3",
+      "concept": "HOW TO USE THIS BOOK & THE TWO-SPEED SOLVER ARCHITECTURE"
+    },
+    "badge": "517 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-00a_intro_cip_v4",
+    "type": "TOPIC",
+    "title": "00A INTRO CIP V4",
+    "slug": "00a_intro_cip_v4",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v4",
+    "description": "text\nARAVALLI EXAM CODICES — CATALOGING IN PUBLICATION BLOCK\nTitle: Quantitative Aptitude & Data Interpretation (Remediated Exam Edition • V4)\nSubject Code: QNT-007 | Shelf Bastion: Shelf 007 (Mind of Aravalli)\nClassification: Banking PO/Clerk / Regulatory Apt...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "752 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-00a_intro_cip_v4-sec-1",
+    "type": "CONCEPT",
+    "title": "CATALOGING-IN-PUBLICATION (CIP) DATA & COLOPHON",
+    "slug": "sec-1",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v4",
+    "description": "text\nARAVALLI EXAM CODICES — CATALOGING IN PUBLICATION BLOCK\nTitle: Quantitative Aptitude & Data Interpretation (Remediated Exam Edition • V4)\nSubject Code: QNT-007 | Shelf Bastion: Shelf 007 (Mind",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "00A INTRO CIP V4",
+      "concept": "CATALOGING-IN-PUBLICATION (CIP) DATA & COLOPHON"
+    },
+    "badge": "176 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-00a_intro_cip_v4-sec-2",
+    "type": "CONCEPT",
+    "title": "HOW TO USE THIS BOOK & THE TWO-SPEED SOLVER ARCHITECTURE",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v4",
+    "description": "1. The Single-Source Exam Standard\nThis book is designed to serve as a complete, self-contained reference for a candidate preparing for Banking and Regulatory examinations. It eliminates the need",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "00A INTRO CIP V4",
+      "concept": "HOW TO USE THIS BOOK & THE TWO-SPEED SOLVER ARCHITECTURE"
+    },
+    "badge": "559 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-00a_intro_cip_v5",
+    "type": "TOPIC",
+    "title": "00A INTRO CIP V5",
+    "slug": "00a_intro_cip_v5",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v5",
+    "description": "text\nARAVALLI EXAM CODICES — CATALOGING IN PUBLICATION BLOCK\nTitle: Quantitative Aptitude & Data Interpretation (Remediated Exam Edition • V5)\nSubject Code: QNT-007 | Shelf Bastion: Shelf 007 (Mind of Aravalli)\nClassification: Banking PO/Clerk / Regulatory Apt...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "853 words • 4 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-00a_intro_cip_v5-sec-1",
+    "type": "CONCEPT",
+    "title": "CATALOGING-IN-PUBLICATION (CIP) DATA & COLOPHON",
+    "slug": "sec-1",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v5",
+    "description": "text\nARAVALLI EXAM CODICES — CATALOGING IN PUBLICATION BLOCK\nTitle: Quantitative Aptitude & Data Interpretation (Remediated Exam Edition • V5)\nSubject Code: QNT-007 | Shelf Bastion: Shelf 007 (Mind",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "00A INTRO CIP V5",
+      "concept": "CATALOGING-IN-PUBLICATION (CIP) DATA & COLOPHON"
+    },
+    "badge": "176 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-00a_intro_cip_v5-sec-2",
+    "type": "CONCEPT",
+    "title": "HOW TO USE THIS BOOK & THE TWO-SPEED SOLVER ARCHITECTURE",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/00a_intro_cip_v5",
+    "description": "1. The Single-Source Exam Standard\nThis book is designed to serve as a complete, self-contained reference for a candidate preparing for Banking and Regulatory examinations. It eliminates the need",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "00A INTRO CIP V5",
+      "concept": "HOW TO USE THIS BOOK & THE TWO-SPEED SOLVER ARCHITECTURE"
+    },
+    "badge": "660 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_audit_final",
+    "type": "TOPIC",
+    "title": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT",
+    "slug": "quant_audit_final",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final",
+    "description": "The Single-Source Standard: If the reader never opens R.S. Aggarwal, Arun Sharma, Quantum CAT, Fast Track, coaching PDFs, or another Quant theory book, what exam-relevant concept would they still be missing?",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,445 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final-sec-2",
+    "type": "CONCEPT",
+    "title": "Quantitative Aptitude & Data Interpretation (Sovereign Master Codex • Shelf 007)",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final",
+    "description": "Target Calibration: Tier 1 Banking (SBI/IBPS/RRB PO & Clerk) & Regulatory Bodies (RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABARD Grade A Prelims)  \nStatus: AUDIT STATUS: FINALIZED A",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT",
+      "concept": "Quantitative Aptitude & Data Interpretation (Sovereign Master Codex • Shelf 007)"
+    },
+    "badge": "39 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary & Audit Context",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final",
+    "description": "The initial draft manuscript of QUANTITATIVEAPTITUDEMASTERBOOK.md was subjected to an exhaustive forensic audit across mathematical accuracy, exam syllabus alignment, pedagogical utility, and typ",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT",
+      "concept": "1. Executive Summary & Audit Context"
+    },
+    "badge": "381 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Forensic Analysis Across the 20 Defect Categories",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final",
+    "description": "|  | Audit Category | Defects Identified in Draft | Remediation & Architectural Resolution |\n| :-: | :--- | :--- | :--- |\n| 01 | Mathematical Error | BODMAS section declared $20 \\div 5 \\times",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT",
+      "concept": "2. Forensic Analysis Across the 20 Defect Categories"
+    },
+    "badge": "711 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Structural Transformation: Old vs. New Architecture",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final",
+    "description": "text\nOLD (Academic/CAT Distortion)                NEW (Trustworthy Banking/Regulatory Edition)\n├── Part I: Vedic Calculation Bloat         ├── PART I: Calculation & Speed Foundation (Safe Approx, P",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT",
+      "concept": "3. Structural Transformation: Old vs. New Architecture"
+    },
+    "badge": "173 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_audit_final_v2",
+    "type": "TOPIC",
+    "title": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT (V2)",
+    "slug": "quant_audit_final_v2",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v2",
+    "description": "The original draft manuscript of QUANTITATIVEAPTITUDEMASTERBOOK.md was subjected to an exhaustive forensic audit across mathematical accuracy, exam syllabus alignment, pedagogical utility, and typographical integrity. This V2 release represents the completed, ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,814 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v2-sec-2",
+    "type": "CONCEPT",
+    "title": "Quantitative Aptitude & Data Interpretation (Sovereign Master Codex • Shelf 007)",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v2",
+    "description": "Target Calibration: Tier 1 Banking (SBI/IBPS/RRB PO & Clerk) & Regulatory Bodies (RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABARD Grade A Prelims)  \nStatus: AUDIT STATUS: REVISED EXA",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT (V2)",
+      "concept": "Quantitative Aptitude & Data Interpretation (Sovereign Master Codex • Shelf 007)"
+    },
+    "badge": "47 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v2-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary & Audit Context",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v2",
+    "description": "The original draft manuscript of QUANTITATIVEAPTITUDEMASTERBOOK.md was subjected to an exhaustive forensic audit across mathematical accuracy, exam syllabus alignment, pedagogical utility, and ty",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT (V2)",
+      "concept": "1. Executive Summary & Audit Context"
+    },
+    "badge": "567 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v2-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Forensic Analysis Across the 20 Defect Categories",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v2",
+    "description": "|  | Audit Category | Defects Identified in Draft | Remediation & Architectural Resolution |\n| :-: | :--- | :--- | :--- |\n| 01 | Mathematical Error | BODMAS section declared $20 \\div 5 \\times",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT (V2)",
+      "concept": "2. Forensic Analysis Across the 20 Defect Categories"
+    },
+    "badge": "735 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v2-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Structural Comparison: Legacy Draft vs. Sovereign V2 Edition",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v2",
+    "description": "text\nLEGACY DRAFT (Untrusted & Bloated)               SOVEREIGN V2 EXAM EDITION\n├── Part I: Vedic Bloat & False BODMAS           ├── PART I: Calculation & Speed Foundation (Ch 01–03)\n│   (Division",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL RECONSTRUCTION REPORT (V2)",
+      "concept": "3. Structural Comparison: Legacy Draft vs. Sovereign V2 Edition"
+    },
+    "badge": "311 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_audit_final_v3",
+    "type": "TOPIC",
+    "title": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V3)",
+    "slug": "quant_audit_final_v3",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v3",
+    "description": "The working draft manuscript of QUANTITATIVEAPTITUDEMASTERBOOKFINALV2.md was subjected to an unsparing forensic audit against the Master Rebuild Instructions. While V2 resolved initial BODMAS precedence and Modulo-100 power cyclicity errors, the audit identifi...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,514 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v3-sec-2",
+    "type": "CONCEPT",
+    "title": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • Shelf 007)",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v3",
+    "description": "Target Calibration: Tier 1 Banking (SBI/IBPS/RRB PO & Clerk) & Regulatory Bodies (RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABARD Grade A Prelims)  \nStatus: STATUS: REMEDIATED EXAM E",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V3)",
+      "concept": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • Shelf 007)"
+    },
+    "badge": "58 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v3-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary & Audit Context",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v3",
+    "description": "The working draft manuscript of QUANTITATIVEAPTITUDEMASTERBOOKFINALV2.md was subjected to an unsparing forensic audit against the Master Rebuild Instructions. While V2 resolved initial BODMAS p",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V3)",
+      "concept": "1. Executive Summary & Audit Context"
+    },
+    "badge": "65 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v3-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Itemized Summary of V3 Remediation Actions",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v3",
+    "description": "2.1 Mathematical & Analytical Fixes\n1. Quadratic Sign Table Invariant Fully Corrected (Ch 10):\n   - Eliminated misleading labels negative (Larger) and positive (Smaller) which conflated al",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V3)",
+      "concept": "2. Itemized Summary of V3 Remediation Actions"
+    },
+    "badge": "649 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v3-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Forensic Analysis Across the 20 Defect Categories",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v3",
+    "description": "|  | Audit Category | Status in V2 | Remediation in V3 |\n| :-: | :--- | :--- | :--- |\n| 01 | Mathematical Error | Quadratic sign table had inverted magnitude/value labels; Number series Q8 &",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V3)",
+      "concept": "3. Forensic Analysis Across the 20 Defect Categories"
+    },
+    "badge": "599 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_audit_final_v4",
+    "type": "TOPIC",
+    "title": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V4)",
+    "slug": "quant_audit_final_v4",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v4",
+    "description": "The compiled manuscript QUANTITATIVEAPTITUDEMASTERBOOKFINALV3.md and its build architecture were subjected to an exhaustive forensic audit. While V3 resolved quadratic sign-table confusion, renumbered chapters sequentially, and expanded the practice drill arch...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,786 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v4-sec-2",
+    "type": "CONCEPT",
+    "title": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • Shelf 007)",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v4",
+    "description": "Target Calibration: Tier 1 Banking (SBI/IBPS/RRB PO & Clerk) & Regulatory Bodies (RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABARD Grade A Prelims)  \nStatus: STATUS: REMEDIATED EXAM E",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V4)",
+      "concept": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • Shelf 007)"
+    },
+    "badge": "57 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v4-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary & Audit Context",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v4",
+    "description": "The compiled manuscript QUANTITATIVEAPTITUDEMASTERBOOKFINALV3.md and its build architecture were subjected to an exhaustive forensic audit. While V3 resolved quadratic sign-table confusion, ren",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V4)",
+      "concept": "1. Executive Summary & Audit Context"
+    },
+    "badge": "284 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v4-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Itemized Summary of V4 Remediation Actions",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v4",
+    "description": "2.1 Elimination of Builder-Induced Inversions (Defect A1)\n Root Cause: The V3 build script executed text.replace(/RBI Grade B Phase II/gi, 'RBI Grade B Phase I'). When applied to the note",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V4)",
+      "concept": "2. Itemized Summary of V4 Remediation Actions"
+    },
+    "badge": "809 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v4-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Comprehensive Defect Category Status in V4",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v4",
+    "description": "|  | Audit Category | Status in V3 | Remediation in V4 |\n| :-: | :--- | :--- | :--- |\n| 01 | Mathematical Error | Regression Test 14 tested unaligned sequence starting at 120. | Aligned Test",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V4)",
+      "concept": "3. Comprehensive Defect Category Status in V4"
+    },
+    "badge": "487 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_audit_final_v5",
+    "type": "TOPIC",
+    "title": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V5)",
+    "slug": "quant_audit_final_v5",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v5",
+    "description": "Following the release of QUANTITATIVEAPTITUDEMASTERBOOKFINALV4.md, a secondary deep forensic audit was executed across canonical source chapter files, rapid revision matrices, the compilation builder, and the regression test suite. While V4 eliminated builder ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "2,102 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v5-sec-2",
+    "type": "CONCEPT",
+    "title": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • Shelf 007)",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v5",
+    "description": "Target Calibration: Tier 1 Banking (SBI/IBPS/RRB PO & Clerk) & Regulatory Bodies (RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABARD Grade A Prelims)  \nStatus: STATUS: REMEDIATED EXAM E",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V5)",
+      "concept": "Quantitative Aptitude & Data Interpretation (Trustworthy Exam Edition • Shelf 007)"
+    },
+    "badge": "58 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v5-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary & Audit Context",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v5",
+    "description": "Following the release of QUANTITATIVEAPTITUDEMASTERBOOKFINALV4.md, a secondary deep forensic audit was executed across canonical source chapter files, rapid revision matrices, the compilation b",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V5)",
+      "concept": "1. Executive Summary & Audit Context"
+    },
+    "badge": "426 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v5-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Itemized Summary of V5 Remediation Actions",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v5",
+    "description": "2.1 Operator Precedence Rigor & Exam \"Of\" Grouping (Defect 1)\n Root Cause: The rapid revision sheet for Chapter 02 inadvertently retained the outdated mnemonic hierarchy.\n Remediation: R",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V5)",
+      "concept": "2. Itemized Summary of V5 Remediation Actions"
+    },
+    "badge": "913 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_audit_final_v5-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Comprehensive Defect Category Status in V5",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_audit_final_v5",
+    "description": "|  | Audit Category | Status in V4 | Remediation in V5 |\n| :-: | :--- | :--- | :--- |\n| 01 | Mathematical Error | Revision 02 had strict BODMAS hierarchy; Ch 01 conflated $\\text{dr}(n)$ with",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "FORENSIC AUDIT & ARCHITECTURAL REMEDIATION REPORT (V5)",
+      "concept": "3. Comprehensive Defect Category Status in V5"
+    },
+    "badge": "517 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_error_register_final",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (FINAL)",
+    "slug": "quant_error_register_final",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, or critical flaw that directly causes examination score loss.\n P1 — High (Structural / Exam Alignment Defect): Missing high-frequency banking ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,585 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final",
+    "description": "Status: AUDIT STATUS: FINALIZED AFTER FORENSIC REVIEW  \nScope: Full-corpus forensic audit of draft manuscript QUANTITATIVEAPTITUDEMASTERBOOK.md\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (FINAL)",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "16 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Audit Severity Classification Standards",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, or critical flaw that directly causes examination score loss.\n P1 — High",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (FINAL)",
+      "concept": "1. Audit Severity Classification Standards"
+    },
+    "badge": "94 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Exhaustive Register of Identified Defects & Resolution",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final",
+    "description": "| ID | Location (Ch / Sec) | Original Text / Claim | Defect Category | Severity | Root Cause & Forensic Assessment | Corrected Treatment & Action Taken | Status |\n| :---: | :---: | :---: | :---: | :--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (FINAL)",
+      "concept": "2. Exhaustive Register of Identified Defects & Resolution"
+    },
+    "badge": "1342 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Mandatory Quality Gates Passed",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final",
+    "description": "1. Gate 1 — Mathematical Veracity: All formulas and worked calculations independently computed and verified.\n2. Gate 2 — Domain Boundaries: Every shortcut explicitly accompanied by its failure",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (FINAL)",
+      "concept": "3. Mandatory Quality Gates Passed"
+    },
+    "badge": "92 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_error_register_final_v2",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V2)",
+    "slug": "quant_error_register_final_v2",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v2",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, or critical flaw that directly causes examination score loss.\n P1 — High (Structural / Exam Alignment Defect): Missing high-frequency banking ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,869 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v2-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v2",
+    "description": "Status: AUDIT STATUS: REVISED EXAM EDITION (V2) — INDEPENDENTLY AUDITED  \nScope: Full-corpus forensic audit and reconstruction of QUANTITATIVEAPTITUDEMASTERBOOK.md into QUANTITATIVEAPTI",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V2)",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "21 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v2-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Audit Severity Classification Standards",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v2",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, or critical flaw that directly causes examination score loss.\n P1 — High",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V2)",
+      "concept": "1. Audit Severity Classification Standards"
+    },
+    "badge": "94 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v2-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Exhaustive Register of Identified Defects & Resolution",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v2",
+    "description": "| ID | Location (Ch / Sec) | Original Text / Claim | Defect Category | Severity | Root Cause & Forensic Assessment | Corrected Treatment & Action Taken | Status |\n| :---: | :---: | :---: | :---: | :--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V2)",
+      "concept": "2. Exhaustive Register of Identified Defects & Resolution"
+    },
+    "badge": "1611 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v2-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Mandatory Quality Gates Passed",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v2",
+    "description": "1. Gate 1 — Mathematical Veracity: All formulas and worked calculations independently computed and verified.\n2. Gate 2 — Domain Boundaries: Every shortcut explicitly accompanied by its failure",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V2)",
+      "concept": "3. Mandatory Quality Gates Passed"
+    },
+    "badge": "102 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_error_register_final_v3",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V3)",
+    "slug": "quant_error_register_final_v3",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v3",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, or critical flaw that directly causes examination score loss.\n P1 — High (Structural / Exam Alignment Defect): Missing high-frequency banking ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "2,473 words • 12 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v3-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v3",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V3) — AUTOMATED REGRESSION GATES PASSED; SUBJECT TO INDEPENDENT REVIEW  \nScope: Complete Remediation of V2 Working Draft into Single-Source Exam Standa",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V3)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "28 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v3-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Audit Severity Classification Standards",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v3",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, or critical flaw that directly causes examination score loss.\n P1 — High",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V3)",
+      "concept": "1. Audit Severity Classification Standards"
+    },
+    "badge": "94 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v3-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Exhaustive Register of Identified Defects & Remediation",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v3",
+    "description": "| ID | Location (Ch / Sec) | Original Text / Claim | Defect Category | Severity | Root Cause & Forensic Assessment | Corrected Treatment & Action Taken | Status |\n| :---: | :---: | :---: | :---: | :--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V3)",
+      "concept": "2. Exhaustive Register of Identified Defects & Remediation"
+    },
+    "badge": "2199 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v3-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Regression Test Verification Suite",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v3",
+    "description": "All 26 itemized defects are mapped to automated or structural regression tests in testquantmathregressionv3.cjs:\n ERR-01: Test 01 (Operator Precedence)\n ERR-02: Test 02 (Modulo-100 Bou",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V3)",
+      "concept": "3. Regression Test Verification Suite"
+    },
+    "badge": "109 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_error_register_final_v4",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V4)",
+    "slug": "quant_error_register_final_v4",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v4",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, inverted exam statement, or critical flaw that directly causes examination score loss or fundamental misunderstanding.\n P1 — High (Structural ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "3,185 words • 15 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v4-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v4",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V4) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nScope: Complete Forensic Remediation of V3 Manuscript into Single-Source Exam Standard (QU",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V4)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "29 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v4-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Audit Severity Classification Standards",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v4",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, inverted exam statement, or critical flaw that directly causes examination s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V4)",
+      "concept": "1. Audit Severity Classification Standards"
+    },
+    "badge": "110 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v4-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Exhaustive Register of Identified Defects & Remediation (ERR-01 through ERR-33)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v4",
+    "description": "| ID | Location (Ch / Sec) | Original Text / Claim | Defect Category | Severity | Root Cause & Forensic Assessment | Corrected Treatment & Action Taken | Status |\n| :---: | :---: | :---: | :---: | :--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V4)",
+      "concept": "2. Exhaustive Register of Identified Defects & Remediation (ERR-01 through ERR-33)"
+    },
+    "badge": "2828 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v4-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Comprehensive Regression Test Mapping Matrix",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v4",
+    "description": "All 33 itemized defects are directly or structurally verified by the executable regression suite testquantmathregressionv4.cjs:\n ERR-01: Test 01 (Operator Precedence)\n ERR-02: Test 02",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V4)",
+      "concept": "3. Comprehensive Regression Test Mapping Matrix"
+    },
+    "badge": "171 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_error_register_final_v5",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V5)",
+    "slug": "quant_error_register_final_v5",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v5",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, inverted exam statement, or critical flaw that directly causes examination score loss or fundamental misunderstanding.\n P1 — High (Structural ...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "3,848 words • 18 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v5-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v5",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V5) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nScope: Complete Forensic Remediation of V4 Manuscript into Single-Source Exam Standard (QU",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V5)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "29 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v5-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Audit Severity Classification Standards",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v5",
+    "description": "P0 — Critical (Fatal Defect): Mathematical falsehood, invalid shortcut, false theorem, incorrect example calculation, inverted exam statement, or critical flaw that directly causes examination s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V5)",
+      "concept": "1. Audit Severity Classification Standards"
+    },
+    "badge": "110 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v5-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Exhaustive Register of Identified Defects & Remediation (ERR-01 through ERR-42)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v5",
+    "description": "| ID | Location (Ch / Sec) | Original Text / Claim | Defect Category | Severity | Root Cause & Forensic Assessment | Corrected Treatment & Action Taken | Status |\n| :---: | :---: | :---: | :---: | :--",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V5)",
+      "concept": "2. Exhaustive Register of Identified Defects & Remediation (ERR-01 through ERR-42)"
+    },
+    "badge": "3422 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_error_register_final_v5-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Comprehensive Regression Test Mapping Matrix (Tests 01 through 22)",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_error_register_final_v5",
+    "description": "All 42 itemized defects are directly or structurally verified by the executable regression suite testquantmathregressionv5.cjs:\n ERR-01, ERR-34: Test 01 (Operator Precedence: Equal Preceden",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — FORENSIC ERROR REGISTER (V5)",
+      "concept": "3. Comprehensive Regression Test Mapping Matrix (Tests 01 through 22)"
+    },
+    "badge": "236 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_exam_coverage_matrix",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX",
+    "slug": "quant_exam_coverage_matrix",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix",
+    "description": "| Examination | Stage | Total Quant Questions | Sectional Marks | Sectional Time | Difficulty Orientation | Distinctive Exam Feature |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| SBI PO | Prelims | 35 | 35 | 20 mins | Moderate–High | Extreme spee...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,893 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix",
+    "description": "Status: AUDIT STATUS: FINALIZED AFTER FORENSIC REVIEW  \nPrimary Calibrated Examinations: SBI PO, IBPS PO, IBPS RRB PO, RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABARD Grade A Prelims",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "34 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Exam Structure & Sectional Constraints Reference",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix",
+    "description": "| Examination | Stage | Total Quant Questions | Sectional Marks | Sectional Time | Difficulty Orientation | Distinctive Exam Feature |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| SBI P",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX",
+      "concept": "1. Exam Structure & Sectional Constraints Reference"
+    },
+    "badge": "313 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Topic-by-Topic Examination Syllabus & Priority Matrix",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix",
+    "description": "| Major Domain | Specific Topic Module | SBI/IBPS Prelims | PO Mains | RBI Gr. B Phase I | SEBI Gr. A / NABARD | Priority Status | Final Book Coverage Status |\n| :--- | :--- | :---: | :---: | :---: |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX",
+      "concept": "2. Topic-by-Topic Examination Syllabus & Priority Matrix"
+    },
+    "badge": "1413 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Summary Assessment of Gaps & Resolution",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix",
+    "description": "Initial Missing Modules: Number Series (Missing & Wrong Number Series), Safe Bounded Approximation Heuristics, Missing Data DI, Arithmetic DI, 3-Variable Quantity Comparisons.\n Resolution:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX",
+      "concept": "3. Summary Assessment of Gaps & Resolution"
+    },
+    "badge": "89 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_exam_coverage_matrix_v2",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX (V2)",
+    "slug": "quant_exam_coverage_matrix_v2",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix_v2",
+    "description": "| Examination | Stage | Total Quant Questions | Sectional Marks | Sectional Time | Difficulty Orientation | Distinctive Exam Feature |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| SBI PO | Prelims | 35 | 35 | 20 mins | Moderate–High | Extreme spee...",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,576 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix_v2-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix_v2",
+    "description": "Status: AUDIT STATUS: REVISED EXAM EDITION (V2) — INDEPENDENTLY AUDITED  \nPrimary Calibrated Examinations: SBI PO, IBPS PO, IBPS RRB PO, RBI Grade B Phase I, SEBI Grade A Phase I Paper 1, NABA",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX (V2)",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "37 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix_v2-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Exam Structure & Sectional Constraints Reference",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix_v2",
+    "description": "| Examination | Stage | Total Quant Questions | Sectional Marks | Sectional Time | Difficulty Orientation | Distinctive Exam Feature |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| SBI P",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX (V2)",
+      "concept": "1. Exam Structure & Sectional Constraints Reference"
+    },
+    "badge": "313 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix_v2-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix_v2",
+    "description": "| Chapter  | Domain / Topic Module | SBI/IBPS Prelims | PO Mains | RBI Gr. B Phase I | SEBI Gr. A / NABARD | Priority Status | Book V2 Coverage Status |\n| :---: | :--- | :---: | :---: | :---: | :---:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX (V2)",
+      "concept": "2. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)"
+    },
+    "badge": "991 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_coverage_matrix_v2-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Prelims vs. Mains Exam Strategy",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_coverage_matrix_v2",
+    "description": "Prelims 20-Minute Tactical Allocation (35 Questions)\n Phase 1: Speed Burst (Minutes 0–5):\n   Simplification & Approximation (5 Qs)\n   Quadratic Comparisons (5 Qs)\n   Target: 8–10 questions",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MASTER EXAM COVERAGE MATRIX (V2)",
+      "concept": "3. Prelims vs. Mains Exam Strategy"
+    },
+    "badge": "189 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_exam_pattern_sources_v3",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V3)",
+    "slug": "quant_exam_pattern_sources_v3",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v3",
+    "description": "All examination structures, question distributions, mark allocations, timing constraints, and qualifying rules are grounded in current and recent official recruitment notifications from the respective conducting authorities:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "2,006 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v3-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v3",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V3) — AUTOMATED REGRESSION GATES PASSED; SUBJECT TO INDEPENDENT REVIEW  \nPrimary Examination Targets: SBI PO, IBPS PO, IBPS RRB PO (Scale-I), RBI Grade",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V3)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "46 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v3-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Verified Official Examination Specifications & Notification Registry",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v3",
+    "description": "All examination structures, question distributions, mark allocations, timing constraints, and qualifying rules are grounded in current and recent official recruitment notifications from the respective",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V3)",
+      "concept": "1. Verified Official Examination Specifications & Notification Registry"
+    },
+    "badge": "449 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v3-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Crucial Architectural Distinctions Across Regulatory Exams",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v3",
+    "description": "2.1 The RBI Grade B Phase I vs. Phase II Separation\n Phase I (Objective Screening): Contains the standalone Quantitative Aptitude section (30 Questions, 30 Marks, 25 Minutes). Due to extreme",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V3)",
+      "concept": "2. Crucial Architectural Distinctions Across Regulatory Exams"
+    },
+    "badge": "252 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v3-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v3",
+    "description": "| Chapter  | Domain / Topic Module | SBI/IBPS Prelims | PO Mains | RBI Gr. B Phase I | SEBI Gr. A / NABARD | Priority Status | Book V3 Coverage Status |\n| :---: | :--- | :---: | :---: | :---: | :---:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V3)",
+      "concept": "3. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)"
+    },
+    "badge": "992 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_exam_pattern_sources_v4",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V4)",
+    "slug": "quant_exam_pattern_sources_v4",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v4",
+    "description": "All examination structures, question distributions, mark allocations, timing constraints, and qualifying rules are grounded in current and verified official recruitment notifications from the respective conducting authorities:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,923 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v4-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v4",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V4) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nPrimary Examination Targets: SBI PO, IBPS PO, IBPS RRB PO (Scale-I), RBI Grade B Phase I, S",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V4)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "44 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v4-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Verified Official Examination Specifications & Notification Registry",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v4",
+    "description": "All examination structures, question distributions, mark allocations, timing constraints, and qualifying rules are grounded in current and verified official recruitment notifications from the respecti",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V4)",
+      "concept": "1. Verified Official Examination Specifications & Notification Registry"
+    },
+    "badge": "461 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v4-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Crucial Architectural Distinctions Across Regulatory Exams",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v4",
+    "description": "2.1 The RBI Grade B Phase I vs. Phase II Separation\n Phase I (Objective Screening): Contains the standalone Quantitative Aptitude section (30 Questions, 30 Marks, 25 Minutes). Due to extreme",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V4)",
+      "concept": "2. Crucial Architectural Distinctions Across Regulatory Exams"
+    },
+    "badge": "384 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v4-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v4",
+    "description": "| Chapter  | Domain / Topic Module | SBI/IBPS Prelims | PO Mains | RBI Gr. B Phase I | SEBI Gr. A / NABARD | Priority Status | Book V4 Coverage Status |\n| :---: | :--- | :---: | :---: | :---: | :---:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V4)",
+      "concept": "3. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)"
+    },
+    "badge": "982 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_exam_pattern_sources_v5",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V5)",
+    "slug": "quant_exam_pattern_sources_v5",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v5",
+    "description": "All examination structures, question distributions, mark allocations, timing constraints, and qualifying rules are grounded in official recruitment notifications and published result documents from the respective conducting authorities:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "2,043 words • 10 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v5-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v5",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V5) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nPrimary Examination Targets: SBI PO, IBPS PO, IBPS RRB PO (Scale-I), RBI Grade B Phase I, S",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V5)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "44 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v5-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Verified Official Examination Specifications & Notification Registry",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v5",
+    "description": "All examination structures, question distributions, mark allocations, timing constraints, and qualifying rules are grounded in official recruitment notifications and published result documents from th",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V5)",
+      "concept": "1. Verified Official Examination Specifications & Notification Registry"
+    },
+    "badge": "488 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v5-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Crucial Architectural Distinctions Across Regulatory Exams",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v5",
+    "description": "2.1 The Statutory Structure vs. Empirical Distribution Separation\n Statutory Provisions: Number of questions, maximum marks, sectional timing durations, and qualifying aggregate cutoffs are o",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V5)",
+      "concept": "2. Crucial Architectural Distinctions Across Regulatory Exams"
+    },
+    "badge": "471 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_exam_pattern_sources_v5-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_exam_pattern_sources_v5",
+    "description": "| Chapter  | Domain / Topic Module | SBI/IBPS Prelims | PO Mains | RBI Gr. B Phase I | SEBI Gr. A / NABARD | Priority Status | Book V5 Coverage Status |\n| :---: | :--- | :---: | :---: | :---: | :---:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — OFFICIAL EXAM PATTERN & SOURCES REGISTER (V5)",
+      "concept": "3. Topic-by-Topic Examination Syllabus & Priority Matrix (30 Chapters)"
+    },
+    "badge": "988 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_math_regression_tests_v2",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — MATHEMATICAL REGRESSION TEST SUITE (V2)",
+    "slug": "quant_math_regression_tests_v2",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v2",
+    "description": "This document records the formal mathematical regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, and worked examples in QUANTITATIVEAPTITUDEMASTERBOOKFINALV2.md.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,237 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v2-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v2",
+    "description": "Status: AUDIT STATUS: REVISED EXAM EDITION (V2) — INDEPENDENTLY AUDITED  \nStandard: Executable Proof Verification • Exact Counterexamples • Zero Regressions\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL REGRESSION TEST SUITE (V2)",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "21 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v2-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v2",
+    "description": "This document records the formal mathematical regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, and worked examples in QUANTITATIVEAPTITUDEM",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL REGRESSION TEST SUITE (V2)",
+      "concept": "1. Executive Summary"
+    },
+    "badge": "55 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v2-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Regression Test Cases",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v2",
+    "description": "TEST-01: Operator Precedence & \"Of\" Grouping\n Target Domain: Simplification & Arithmetic Expressions\n V1 Error (ERR-01): Claiming division precedes multiplication and labeling $20 \\div 5",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL REGRESSION TEST SUITE (V2)",
+      "concept": "2. Regression Test Cases"
+    },
+    "badge": "1006 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v2-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Automated Test Runner Output",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v2",
+    "description": "text\n================================================================================\n  MIND OF ARAVALLI — SHELF 007 QUANTITATIVE APTITUDE REGRESSION SUITE V2\n======================================",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL REGRESSION TEST SUITE (V2)",
+      "concept": "3. Automated Test Runner Output"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_math_regression_tests_v3",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V3)",
+    "slug": "quant_math_regression_tests_v3",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v3",
+    "description": "This document records the formal mathematical and structural regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, worked examples, and heading structures in QUANTITATIVEAPTITUDEMASTERBOOKFINALV3.md.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,805 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v3-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v3",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V3) — AUTOMATED REGRESSION GATES PASSED; SUBJECT TO INDEPENDENT REVIEW  \nStandard: Executable Proof Verification • Exact Counterexamples • Zero Regress",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V3)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "34 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v3-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v3",
+    "description": "This document records the formal mathematical and structural regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, worked examples, and heading str",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V3)",
+      "concept": "1. Executive Summary"
+    },
+    "badge": "58 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v3-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Itemized Regression Test Cases",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v3",
+    "description": "TEST 01: Operator Precedence & \"Of\" Grouping\n Target Domain: Simplification & Arithmetic Expressions (Ch 02)\n Defect Reference: ERR-01\n Correct Mathematical Invariant:\n  Multiplicat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V3)",
+      "concept": "2. Itemized Regression Test Cases"
+    },
+    "badge": "1478 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v3-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Regression Test Execution Summary",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v3",
+    "description": "text\n================================================================================\n  MIND OF ARAVALLI — SHELF 007 QUANTITATIVE APTITUDE REGRESSION SUITE V3\n======================================",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V3)",
+      "concept": "3. Regression Test Execution Summary"
+    },
+    "badge": "194 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_math_regression_tests_v4",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V4)",
+    "slug": "quant_math_regression_tests_v4",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v4",
+    "description": "This document records the formal mathematical and structural regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, worked examples, and heading structures in QUANTITATIVEAPTITUDEMASTERBOOKFINALV4.md.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,777 words • 9 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v4-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v4",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V4) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nStandard: Executable Proof Verification • Exact Counterexamples • Zero Regressions  \nTest",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V4)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "32 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v4-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v4",
+    "description": "This document records the formal mathematical and structural regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, worked examples, and heading str",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V4)",
+      "concept": "1. Executive Summary"
+    },
+    "badge": "58 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v4-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Itemized Regression Test Cases (Tests 01 through 19)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v4",
+    "description": "TEST 01: Operator Precedence & \"Of\" Grouping\n Target Domain: Simplification & Arithmetic Expressions (Ch 02)\n Defect Reference: ERR-01\n Correct Mathematical Invariant:\n  Multiplicat",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V4)",
+      "concept": "2. Itemized Regression Test Cases (Tests 01 through 19)"
+    },
+    "badge": "1648 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_math_regression_tests_v5",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V5)",
+    "slug": "quant_math_regression_tests_v5",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v5",
+    "description": "This document records the formal mathematical and structural regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, worked examples, and heading structures in QUANTITATIVEAPTITUDEMASTERBOOKFINALV5.md.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "2,617 words • 12 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v5-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v5",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V5) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nStandard: Executable Proof Verification • Exact Counterexamples • Zero Regressions  \nTest",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V5)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "32 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v5-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Executive Summary",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v5",
+    "description": "This document records the formal mathematical and structural regression test suite implemented to guarantee absolute veracity across all formulas, theorems, shortcuts, worked examples, and heading str",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V5)",
+      "concept": "1. Executive Summary"
+    },
+    "badge": "58 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_math_regression_tests_v5-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Itemized Regression Test Cases (Tests 01 through 22)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_math_regression_tests_v5",
+    "description": "TEST 01: Operator Precedence & \"Of\" Grouping\n Target Domain: Simplification & Arithmetic Expressions (Ch 02)\n Defect Reference: ERR-01, ERR-34\n Correct Mathematical Invariant:\n  Mul",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — MATHEMATICAL & STRUCTURAL REGRESSION TEST SUITE (V5)",
+      "concept": "2. Itemized Regression Test Cases (Tests 01 through 22)"
+    },
+    "badge": "2488 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_pyq_provenance",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER",
+    "slug": "quant_pyq_provenance",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance",
+    "description": "To ensure absolute epistemic honesty and prevent the common coaching trap of presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,309 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance",
+    "description": "Status: AUDIT STATUS: FINALIZED AFTER FORENSIC REVIEW  \nStandard: Zero Fabricated PYQs • Strict Five-Tier Attribution Standard\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "17 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Provenance Classification Taxonomy",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance",
+    "description": "To ensure absolute epistemic honesty and prevent the common coaching trap of presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER",
+      "concept": "1. Provenance Classification Taxonomy"
+    },
+    "badge": "124 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance-sec-4",
+    "type": "CONCEPT",
+    "title": "2. High-Frequency Pattern Provenance Register",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance",
+    "description": "| Pattern Code | Target Domain | Core Mathematical Invariant | Representative Archetype Attribution | Classification Tier | Verified Exam Shift / Year Source | Primary Pedagogical Purpose |\n| :---: |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER",
+      "concept": "2. High-Frequency Pattern Provenance Register"
+    },
+    "badge": "1050 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Strict Audit of Exam Weightage Claims",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance",
+    "description": "To prevent misleading students with false promises:\n1. No Absolute Question Counts: We do NOT state \"This topic always carries 5 marks\". We state historical observation: \"In SBI/IBPS PO Prelims s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER",
+      "concept": "3. Strict Audit of Exam Weightage Claims"
+    },
+    "badge": "78 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_pyq_provenance_v2",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V2)",
+    "slug": "quant_pyq_provenance_v2",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v2",
+    "description": "To ensure absolute epistemic honesty and prevent the common coaching trap of presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,320 words • 6 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v2-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v2",
+    "description": "Status: AUDIT STATUS: REVISED EXAM EDITION (V2) — INDEPENDENTLY AUDITED  \nStandard: Zero Fabricated PYQs • Strict Five-Tier Attribution Standard\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V2)",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "20 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v2-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Provenance Classification Taxonomy",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v2",
+    "description": "To ensure absolute epistemic honesty and prevent the common coaching trap of presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V2)",
+      "concept": "1. Provenance Classification Taxonomy"
+    },
+    "badge": "124 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v2-sec-4",
+    "type": "CONCEPT",
+    "title": "2. High-Frequency Pattern Provenance Register",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v2",
+    "description": "| Pattern Code | Target Domain | Core Mathematical Invariant | Representative Archetype Attribution | Classification Tier | Verified Exam Shift / Year Source | Primary Pedagogical Purpose |\n| :---: |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V2)",
+      "concept": "2. High-Frequency Pattern Provenance Register"
+    },
+    "badge": "1057 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v2-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Strict Audit of Exam Weightage Claims",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v2",
+    "description": "To prevent misleading students with false promises:\n1. No Absolute Question Counts: We do NOT state \"This topic always carries 5 marks\". We state historical observation: \"In SBI/IBPS PO Prelims s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V2)",
+      "concept": "3. Strict Audit of Exam Weightage Claims"
+    },
+    "badge": "78 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_pyq_provenance_v3",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V3)",
+    "slug": "quant_pyq_provenance_v3",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v3",
+    "description": "To ensure absolute epistemic honesty and prevent presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,471 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v3-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v3",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V3) — AUTOMATED REGRESSION GATES PASSED; SUBJECT TO INDEPENDENT REVIEW  \nStandard: Zero Fabricated PYQs • Strict Five-Tier Attribution Standard\nDate",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V3)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "28 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v3-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Provenance Classification Taxonomy",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v3",
+    "description": "To ensure absolute epistemic honesty and prevent presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:\n\n1.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V3)",
+      "concept": "1. Provenance Classification Taxonomy"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v3-sec-4",
+    "type": "CONCEPT",
+    "title": "2. High-Frequency Pattern Provenance Register",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v3",
+    "description": "| Pattern Code | Target Domain | Core Mathematical Invariant | Representative Archetype Attribution | Classification Tier | Verified Exam Shift / Year Source | Primary Pedagogical Purpose |\n| :---: |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V3)",
+      "concept": "2. High-Frequency Pattern Provenance Register"
+    },
+    "badge": "1203 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v3-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Strict Audit of Exam Weightage Claims",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v3",
+    "description": "To prevent misleading students with false promises:\n1. No Absolute Question Counts: We do NOT state \"This topic always carries 5 marks\". We state historical observation: \"In SBI/IBPS PO Prelims s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V3)",
+      "concept": "3. Strict Audit of Exam Weightage Claims"
+    },
+    "badge": "78 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_pyq_provenance_v4",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V4)",
+    "slug": "quant_pyq_provenance_v4",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v4",
+    "description": "To ensure absolute epistemic honesty and prevent presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,689 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v4-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v4",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V4) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nStandard: Zero Fabricated PYQs • Strict Five-Tier Attribution Standard  \nDate: October",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V4)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "26 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v4-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Provenance Classification Taxonomy",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v4",
+    "description": "To ensure absolute epistemic honesty and prevent presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:\n\n1.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V4)",
+      "concept": "1. Provenance Classification Taxonomy"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v4-sec-4",
+    "type": "CONCEPT",
+    "title": "2. High-Frequency Pattern Provenance Register (PAT-01 through PAT-30)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v4",
+    "description": "| Pattern Code | Target Domain | Core Mathematical Invariant | Representative Archetype Attribution | Classification Tier | Verified Exam Shift / Year Source | Primary Pedagogical Purpose |\n| :---: |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V4)",
+      "concept": "2. High-Frequency Pattern Provenance Register (PAT-01 through PAT-30)"
+    },
+    "badge": "1400 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v4-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Strict Audit of Exam Weightage & Frequency Claims",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v4",
+    "description": "To prevent misleading students with false promises:\n1. No Absolute Question Counts: We do NOT state \"This topic always carries 5 marks\". We state historical observation: \"In SBI/IBPS PO Prelims s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V4)",
+      "concept": "3. Strict Audit of Exam Weightage & Frequency Claims"
+    },
+    "badge": "96 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_pyq_provenance_v5",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V5)",
+    "slug": "quant_pyq_provenance_v5",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v5",
+    "description": "To ensure absolute epistemic honesty and prevent presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,720 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v5-sec-2",
+    "type": "CONCEPT",
+    "title": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v5",
+    "description": "Status: STATUS: REMEDIATED EXAM EDITION (V5) — AUTOMATED CHECKS PASSED; INDEPENDENT REVIEW PENDING  \nStandard: Zero Fabricated PYQs • Strict Five-Tier Attribution Standard  \nDate: October",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V5)",
+      "concept": "Mind of Aravalli | Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "26 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v5-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Provenance Classification Taxonomy",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v5",
+    "description": "To ensure absolute epistemic honesty and prevent presenting invented questions as \"actual previous year questions\", every question archetype in this treatise adheres to one of five explicit tiers:\n\n1.",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V5)",
+      "concept": "1. Provenance Classification Taxonomy"
+    },
+    "badge": "119 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v5-sec-4",
+    "type": "CONCEPT",
+    "title": "2. High-Frequency Pattern Provenance Register (PAT-01 through PAT-30)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v5",
+    "description": "| Pattern Code | Target Domain | Core Mathematical Invariant | Representative Archetype Attribution | Classification Tier | Verified Exam Shift / Year Source | Primary Pedagogical Purpose |\n| :---: |",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V5)",
+      "concept": "2. High-Frequency Pattern Provenance Register (PAT-01 through PAT-30)"
+    },
+    "badge": "1431 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_pyq_provenance_v5-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Strict Audit of Exam Weightage & Frequency Claims",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_pyq_provenance_v5",
+    "description": "To prevent misleading students with false promises:\n1. No Absolute Question Counts: We do NOT state \"This topic always carries 5 marks\". We state historical observation: \"In SBI/IBPS PO Prelims s",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — PYQ & PATTERN PROVENANCE REGISTER (V5)",
+      "concept": "3. Strict Audit of Exam Weightage & Frequency Claims"
+    },
+    "badge": "96 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_rapid_revision",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT",
+    "slug": "quant_rapid_revision",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision",
+    "description": "### 1.1 Fraction ↔ Percentage Speed Conversions",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,570 words • 8 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision",
+    "description": "Status: AUDIT STATUS: FINALIZED AFTER FORENSIC REVIEW  \nDesigned For: T-minus 24 Hours Final Revision & Exam-Day Pattern Recall\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "19 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Universal Calculation & Percentage Benchmarks",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision",
+    "description": "1.1 Fraction ↔ Percentage Speed Conversions\n\n| Fraction | Percentage | Decimal | Fraction | Percentage | Decimal |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| $\\frac{1}{2}$ | $50.00\\%$ | $",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT",
+      "concept": "1. Universal Calculation & Percentage Benchmarks"
+    },
+    "badge": "203 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Formula Ledger (With Exact Boundary Conditions)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision",
+    "description": "2.1 Commercial Arithmetic\n1. The Golden Pricing Bridge:\n   $$\\frac{\\text{MP}}{\\text{CP}} = \\frac{100 + P\\%}{100 - D\\%}$$\n   Condition: Applicable whenever profit percentage $P\\%$ and discoun",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT",
+      "concept": "2. Master Formula Ledger (With Exact Boundary Conditions)"
+    },
+    "badge": "531 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision-sec-5",
+    "type": "CONCEPT",
+    "title": "3. Top 20 Instant Killer Traps to Avoid in Exam Hall",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision",
+    "description": "1. BODMAS \"Of\" Trap: Evaluating $20 \\div 5 \\text{ of } 2$ as $(20 \\div 5) \\times 2 = 8$. \"Of\" takes grouping precedence: $20 \\div (5 \\times 2) = 2$. But for $20 \\div 5 \\times 2$, evaluate left-to-",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT",
+      "concept": "3. Top 20 Instant Killer Traps to Avoid in Exam Hall"
+    },
+    "badge": "475 words"
+  },
+  {
+    "id": "shelf007-ch-quantitative-aptitude-quant_rapid_revision_v2",
+    "type": "TOPIC",
+    "title": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT (V2)",
+    "slug": "quant_rapid_revision_v2",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision_v2",
+    "description": "### 1.1 Fraction ↔ Percentage Speed Conversions",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "Staged Chapters"
+    },
+    "badge": "1,416 words • 7 min read"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision_v2-sec-2",
+    "type": "CONCEPT",
+    "title": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition",
+    "slug": "sec-2",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision_v2",
+    "description": "Status: AUDIT STATUS: REVISED EXAM EDITION (V2) — INDEPENDENTLY AUDITED  \nDesigned For: T-minus 24 Hours Final Revision & Exam-Day Pattern Recall (30 Core Chapters)\n\n---",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT (V2)",
+      "concept": "Sovereign Bastion: Shelf 007 | Target: Banking & Regulatory Exam Edition"
+    },
+    "badge": "25 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision_v2-sec-3",
+    "type": "CONCEPT",
+    "title": "1. Universal Calculation & Percentage Benchmarks",
+    "slug": "sec-3",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision_v2",
+    "description": "1.1 Fraction ↔ Percentage Speed Conversions\n\n| Fraction | Percentage | Decimal | Fraction | Percentage | Decimal |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| $\\frac{1}{2}$ | $50.00\\%$ | $",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT (V2)",
+      "concept": "1. Universal Calculation & Percentage Benchmarks"
+    },
+    "badge": "203 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision_v2-sec-4",
+    "type": "CONCEPT",
+    "title": "2. Master Formula Ledger (With Exact Boundary Conditions)",
+    "slug": "sec-4",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision_v2",
+    "description": "2.1 Commercial Arithmetic\n1. The Golden Pricing Bridge:\n   $$\\frac{\\text{MP}}{\\text{CP}} = \\frac{100 + P\\%}{100 - D\\%}$$\n   Condition: Applicable whenever profit percentage $P\\%$ and discoun",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT (V2)",
+      "concept": "2. Master Formula Ledger (With Exact Boundary Conditions)"
+    },
+    "badge": "657 words"
+  },
+  {
+    "id": "shelf007-sec-quantitative-aptitude-quant_rapid_revision_v2-sec-5",
+    "type": "CONCEPT",
+    "title": "3. The Master Trap Vault (Top 30 Fatal Examination Pitfalls)",
+    "slug": "sec-5",
+    "url": "/shelf-007/quantitative-aptitude/quant_rapid_revision_v2",
+    "description": "1. BODMAS \"Of\" Confusion: Evaluating $20 \\div 5 \\text{ of } 2 = 8$. Correct: $20 \\div (5 \\times 2) = 2$.\n2. Modulo 100 $k=1$ Boundary: Assuming $76 \\times 2^k$ ends in $2^k$ for $k=1$. True st",
+    "hierarchy": {
+      "domain": "Sovereign Knowledge Bastion (Shelf 007)",
+      "subject": "Quantitative Aptitude & Mathematical Logic (Sovereign Treatise)",
+      "topic": "QUANTITATIVE APTITUDE — RAPID REVISION MASTER VAULT (V2)",
+      "concept": "3. The Master Trap Vault (Top 30 Fatal Examination Pitfalls)"
+    },
+    "badge": "483 words"
   },
   {
     "id": "shelf007-subj-general-science",
@@ -22941,7 +24982,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "subject": "Contemporary Issues & Current Affairs Sovereign Master Codex",
       "topic": "Static Banking, Regulatory Acts & Prudential Foundations"
     },
-    "badge": "9,222 words • 42 min read"
+    "badge": "9,250 words • 43 min read"
   },
   {
     "id": "shelf007-sec-current-affairs-chapter-01-sec-2",
@@ -22956,7 +24997,7 @@ export const UNIFIED_SEARCH_INDEX: UnifiedSearchItem[] = [
       "topic": "CHAPTER 01: STATIC BANKING, REGULATORY ACTS & PRUDENTIAL NORMS CORE",
       "concept": "0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS"
     },
-    "badge": "9172 words"
+    "badge": "9200 words"
   },
   {
     "id": "shelf007-ch-current-affairs-chapter-02",

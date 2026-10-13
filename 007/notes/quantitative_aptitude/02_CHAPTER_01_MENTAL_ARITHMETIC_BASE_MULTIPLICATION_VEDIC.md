@@ -91,6 +91,34 @@ When one number is above and the other is below the base, the product of deviati
    * We rewrite $99 \times 100 - 42$ as:
    $$(99 - 1) \times 100 + (100 - 42) = 98 \times 100 + 58 = \mathbf{9,858}$$.
 
+### Case D: Deviation Product Exceeding Suffix Width (Carry Normalisation)
+
+When the product of deviations $(a \times b)$ produces more digits than the suffix width $k = \log_{10}(B)$ (the number of zeros in base $B = 10^k$), the excess leading digits cannot remain in the suffix. They must be carried forward and added directly into the left block (LHS):
+
+$$\text{Product} = \left(\text{LHS} + \left\lfloor \frac{a \times b}{10^k} \right\rfloor\right) \times 10^k + \left((a \times b) \bmod 10^k\right)$$
+
+#### Exemplar 1: Compute $109 \times 117$ (Base $B = 100$, Suffix Width $k = 2$)
+1. **Identify Deviations**:
+   * $N_1 = 109 \implies a = +9$
+   * $N_2 = 117 \implies b = +17$
+2. **Compute Unadjusted Left Block (LHS)**:
+   * $\text{LHS} = 109 + 17 = 126$ (or symmetrically, $117 + 9 = 126$)
+3. **Compute Deviation Product**:
+   * $a \times b = (+9) \times (+17) = \mathbf{153}$
+4. **Normalise Carry into Left Block**:
+   * Base $100$ reserves exactly $2$ digits for the suffix ($k = 2$). The hundreds digit of $153$ (which is $1$) carries over into the left block:
+   * $\text{Adjusted LHS} = 126 + 1 = \mathbf{127}$
+   * $\text{Suffix (RHS)} = 153 \bmod 100 = \mathbf{53}$
+5. **Synthesize Final Result**:
+   * $\text{Result} = 127 \times 100 + 53 = \mathbf{12,753}$.
+
+#### Exemplar 2: Deviation Product Equal to Base ($105 \times 120$, Base $B = 100$)
+1. Deviations: $a = +5, b = +20$.
+2. Unadjusted LHS: $105 + 20 = 125$.
+3. Deviation product: $5 \times 20 = 100$.
+4. Normalise carry: Carry the $+1$ into LHS $\implies 125 + 1 = 126$, Suffix $= 00$.
+5. Result: $126 \times 100 + 00 = \mathbf{12,600}$.
+
 ---
 
 ## 1.3 Criss-Cross Multiplication: The General $2 \times 2$ and $3 \times 3$ Engine
@@ -114,32 +142,55 @@ Step 3: Vertical left:        a × c               (Hundreds digit + carried val
 
 ---
 
-## 1.4 Digital Sum (Digital Root) Verification Engine
+## 1.4 Digital Sum vs. Residue Modulo 9: The Verification Engine
 
-The **Digital Sum** of a number is the single digit obtained by summing all its constituent digits recursively until a single digit ($1 \text{ through } 9$) remains.
+In competitive arithmetic verification, candidates frequently confuse the **conventional digital root** with the **residue modulo 9**. While deeply related through congruence arithmetic, they are distinct mathematical functions with different codomains and boundary behaviors.
 
-### The Underlying Modular Arithmetic Axiom
-Every positive integer $N$ expressed in decimal notation satisfies:
-$$N \equiv \sum_{i=0}^{k} d_i \pmod{9}$$
+### 1. Mathematical Definitions & Boundary Conditions
 
-Because $10 \equiv 1 \pmod{9}$, it follows that $10^k \equiv 1^k \equiv 1 \pmod{9}$. Therefore, a number leaves the exact same remainder when divided by 9 as the sum of its decimal digits!
+For any integer $n \ge 0$:
+
+* **Least Non-Negative Residue Modulo 9 ($r_9(n)$)**:
+  $$r_9(n) = n \bmod 9 \in \{0, 1, 2, 3, 4, 5, 6, 7, 8\}$$
+  Defined as the remainder when $n$ is divided by 9 in Euclidean division.
+
+* **Conventional Digital Root ($\text{dr}(n)$)**:
+  The single digit obtained by summing the decimal digits of $n$ recursively until a single digit remains:
+  $$\text{dr}(n) = \begin{cases} 0, & \text{if } n = 0 \\ 9, & \text{if } n > 0 \text{ and } n \equiv 0 \pmod{9} \\ n \bmod 9, & \text{if } n \not\equiv 0 \pmod{9} \end{cases}$$
+  For strictly positive integers $n \in \mathbb{Z}^+$, $\text{dr}(n) \in \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ and satisfies the closed formula:
+  $$\text{dr}(n) = 1 + \left((n - 1) \bmod 9\right)$$
+
+### 2. The Critical Divergence on Multiples of 9 and Zero
+
+```text
+┌─────────┬──────────────────────┬──────────────────────┬────────────────────────────────────────────────────────┐
+│ Integer │ Residue Modulo 9     │ Digital Root dr(n)   │ Mathematical Rationale & Examination Impact            │
+│ n       │ r₉(n) = n mod 9      │ Recursive Digit Sum  │                                                        │
+├─────────┼──────────────────────┼──────────────────────┼────────────────────────────────────────────────────────┤
+│ 0       │ 0                    │ 0                    │ By definition, 0 has digit sum 0.                      │
+│ 9       │ 0                    │ 9                    │ 9 mod 9 = 0, but the single-digit digit sum is 9!      │
+│ 18      │ 0                    │ 9                    │ 1 + 8 = 9 (dr = 9), while 18 is a multiple of 9 (r₉=0).│
+│ 14      │ 5                    │ 5                    │ Non-multiples of 9 coincide: 1 + 4 = 5 = 14 mod 9.     │
+│ 495     │ 0                    │ 9                    │ 4 + 9 + 5 = 18 ➔ 1 + 8 = 9 (dr = 9), residue is 0.     │
+└─────────┴──────────────────────┴──────────────────────┴────────────────────────────────────────────────────────┘
+```
 
 > **The "Cast Out Nines" Heuristic**:
-> Any digit `9` or combination of digits summing to `9` (e.g., $4 + 5$, $7 + 2$) can be immediately dropped without altering the residue modulo 9.
+> Because $10 \equiv 1 \pmod{9}$, any digit `9` or pair of digits summing to `9` (e.g., $4 + 5$, $7 + 2$) contributes $0 \pmod{9}$. In computing $\text{dr}(n)$, casting out 9s speeds calculation; however, if all digits cancel out completely (such as in $99$ or $18$), the digital root is **$9$**, not $0$!
 
-### Operation Invariants of Digital Sums
-Let $D(N)$ denote the digital root of $N$:
-* **Addition Invariant**: $D(A + B) = D(D(A) + D(B))$
-* **Multiplication Invariant**: $D(A \times B) = D(D(A) \times D(B))$
-* **Power Invariant**: $D(A^k) = D((D(A))^k)$
+### 3. Operational Invariants of Digital Roots
+For all positive integers $A, B$:
+* **Addition Invariant**: $\text{dr}(A + B) = \text{dr}(\text{dr}(A) + \text{dr}(B))$
+* **Multiplication Invariant**: $\text{dr}(A \times B) = \text{dr}(\text{dr}(A) \times \text{dr}(B))$
+* **Power Invariant**: $\text{dr}(A^k) = \text{dr}((\text{dr}(A))^k)$
 
 #### Audit of Worked Problem via Digital Root
 Check whether $64 \times 73 = 4,672$:
-* $D(64) = 6 + 4 = 10 \implies 1 + 0 = 1$
-* $D(73) = 7 + 3 = 10 \implies 1 + 0 = 1$
-* Expected Product Digital Sum $= D(1 \times 1) = \mathbf{1}$.
-* Actual RHS Digital Sum: $D(4672) = 4 + 6 + 7 + 2 = 19 \implies 1 + 9 = 10 \implies \mathbf{1}$.
-* Both LHS and RHS yield $1 \implies$ Product satisfies modular verification.
+* $\text{dr}(64) = \text{dr}(6 + 4) = \text{dr}(10) = 1$
+* $\text{dr}(73) = \text{dr}(7 + 3) = \text{dr}(10) = 1$
+* Expected Product Digital Root: $\text{dr}(1 \times 1) = \mathbf{1}$.
+* Actual RHS Digital Root: $\text{dr}(4672) = \text{dr}(4 + 6 + 7 + 2) = \text{dr}(19) = \text{dr}(1 + 9) = \text{dr}(10) = \mathbf{1}$.
+* Both LHS and RHS yield $1 \implies$ Product satisfies digital root modular verification.
 
 ---
 

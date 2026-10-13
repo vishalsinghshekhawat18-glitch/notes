@@ -1,4 +1,4 @@
-# CHAPTER 19: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED
+# CHAPTER 20: TIME, SPEED, DISTANCE, RELATIVE VELOCITY & AVERAGE SPEED
 
 **Domain**: Kinematic Proportionality, Frame Transformation & Interception Dynamics  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES KINEMATICS & DIMENSIONAL SYNCHRONIZATION
+## 20.1 FIRST-PRINCIPLES KINEMATICS & DIMENSIONAL SYNCHRONIZATION
 
 The physics of rectilinear motion is governed by the conservation of spatial displacement over elapsed time:
 
@@ -29,7 +29,7 @@ $$1 \text{ m/s} = \frac{\frac{1}{1000} \text{ km}}{\frac{1}{3600} \text{ hr}} = 
 
 ---
 
-## 2. THE INVARIANCE TRIANGLE: THREE CONSERVATION LAWS
+## 20.2 THE INVARIANCE TRIANGLE: THREE CONSERVATION LAWS
 
 ```
                      [Distance D = v × T]
@@ -65,7 +65,7 @@ $$\mathbf{D \propto T \implies \frac{D_1}{D_2} = \frac{T_1}{T_2}}$$
 
 ---
 
-## 3. AVERAGE SPEED: HARMONIC VS ARITHMETIC MEAN
+## 20.3 AVERAGE SPEED: HARMONIC VS ARITHMETIC MEAN
 
 The average speed of any multi-phase journey is strictly defined by the global quotient:
 $$\mathbf{v_{\text{avg}} = \frac{\text{Total Distance Traversed}}{\text{Total Time Elapsed}} = \frac{\sum D_i}{\sum T_i}}$$
@@ -85,7 +85,7 @@ $$v_{\text{avg}} = \frac{v_1 T + v_2 T}{2T} = \mathbf{\frac{v_1 + v_2}{2}}$$
 
 ---
 
-## 4. THE EARLY/LATE SPEED-SHIFT EQUATION
+## 20.4 THE EARLY/LATE SPEED-SHIFT EQUATION
 
 A staple problem archetype tests variable travel speeds yielding arrival discrepancies:
 - Traveling at speed $v_1$, the traveler arrives $t_1$ minutes late.
@@ -108,7 +108,7 @@ $$\mathbf{D = \frac{v_1 \cdot v_2}{|v_1 - v_2|} \times \Delta T}$$
 
 ---
 
-## 5. RELATIVE VELOCITY & INTERCEPTION DYNAMICS
+## 20.5 RELATIVE VELOCITY & INTERCEPTION DYNAMICS
 
 By transforming coordinates into the reference frame of one moving entity, the second entity's velocity is adjusted relative to the first:
 
@@ -124,7 +124,7 @@ $$\mathbf{T_{\text{catch-up}} = \frac{\text{Lead Distance Separation}}{v_1 - v_2
 
 ---
 
-## 6. THE FAMOUS CROSS-MEETING THEOREM
+## 20.6 THE FAMOUS CROSS-MEETING THEOREM
 
 Two bodies $A$ and $B$ start simultaneously from opposite terminal points $P$ and $Q$, moving towards each other. They pass each other at an intermediate meeting point $M$.  
 Following their meeting, $A$ takes $T_A$ hours to reach destination $Q$, and $B$ takes $T_B$ hours to reach destination $P$.
@@ -158,7 +158,7 @@ $$\mathbf{\frac{v_A}{v_B} = \sqrt{\frac{T_B}{T_A}}}$$
 
 ---
 
-## 7. MULTI-TIER WORKED EXEMPLARS
+## 20.7 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Equal Distances Harmonic Mean (SBI PO Prelims)
 **Problem**: A motor car covers the journey from station $A$ to station $B$ at a uniform speed of $84 \text{ km/hr}$ and returns back to $A$ along the same path at a uniform speed of $56 \text{ km/hr}$. Calculate the average speed of the car for the complete round trip.
@@ -209,12 +209,12 @@ The speed of the Mumbai train is **$48 \text{ km/hr}$**.
 
 ---
 
-## 8. HIGH-YIELD TRAP TAXONOMY
+## 20.8 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |
 | **Trap 1: Arithmetic Mean Average Speed Trap** | Calculating average speed for round trip as $\frac{v_1 + v_2}{2}$. | Over equal distances, average speed is the **Harmonic Mean**: $\frac{2 v_1 v_2}{v_1 + v_2}$. |
 | **Trap 2: Early/Late Net Time Sign Error** | Subtracting minutes when one scenario is late and the other early ($6 - 6 = 0$). | Late and early lie on opposite sides of punctuality: $\mathbf{\Delta T = t_{\text{late}} + t_{\text{early}}}$. |
 | **Trap 3: Unit Inconsistency ($km/hr$ vs minutes)** | Multiplying speed difference in $\text{km/hr}$ directly by time in minutes without dividing by $60$. | Time difference must be converted to hours: $\Delta T = \frac{\text{minutes}}{60}$. |
-| **Trap 4: Cross-Meeting Inversion** | Setting $\frac{v_A}{v_B} = \sqrt{\frac{T_A}{T_B}}$. | Speed and subsequent time are inversely related: $\mathbf{\frac{v_A}{v_B} = \sqrt{\frac{T_B}{T_A}}}$. |
+| **Trap 4: Cross-Meeting Inversion & Whole-Route Error** | Setting $\frac{v_A}{v_B} = \sqrt{\frac{T_A}{T_B}}$, or using whole-route journey times for $T_A, T_B$. | $T_A$ and $T_B$ MUST be travel times **after meeting** to reach opposite destinations. Speed and subsequent time are inversely related: $\mathbf{\frac{v_A}{v_B} = \sqrt{\frac{T_B}{T_A}}}$. |
 | **Trap 5: Time Inversion with 3 Speeds** | Setting time ratio for speeds $2:3:4$ as $4:3:2$. | Inverse ratio of three terms is $\frac{1}{2} : \frac{1}{3} : \frac{1}{4} = \mathbf{6 : 4 : 3}$. |

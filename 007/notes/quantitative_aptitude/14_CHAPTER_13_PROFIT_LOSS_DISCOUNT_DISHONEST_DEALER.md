@@ -1,4 +1,4 @@
-# CHAPTER 13: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS
+# CHAPTER 14: PROFIT, LOSS, DISCOUNT & DISHONEST DEALER DYNAMICS
 
 **Domain**: Commercial Arithmetic & Financial Equilibrium  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY & FOUNDATIONAL IDENTITIES
+## 14.1 FIRST-PRINCIPLES ONTOLOGY & FOUNDATIONAL IDENTITIES
 
 Commercial transactions govern the exchange of economic commodities against monetary currency. Every problem in profit, loss, and commercial discounting reduces strictly to ratios and base-tracking across three fundamental price anchors:
 
@@ -67,7 +67,7 @@ $$\mathbf{p_{\text{cp}} = \frac{p_{\text{sp}}}{1 - p_{\text{sp}}}}$$
 
 ---
 
-## 2. THE MULTIPLICATIVE FACTOR (MF) ENGINE
+## 14.2 THE MULTIPLICATIVE FACTOR (MF) ENGINE
 
 Avoid writing multi-step additive equations. Express every commercial transition as a multiplicative operator:
 
@@ -89,7 +89,7 @@ $$\mathbf{\frac{\text{MP}}{\text{CP}} = \frac{100 - L\%}{100 - D\%}}$$
 
 ---
 
-## 3. SUCCESSIVE DISCOUNTS & PROMOTIONAL MECHANICS
+## 14.3 SUCCESSIVE DISCOUNTS & PROMOTIONAL MECHANICS
 
 When a series of successive discounts $d_1\%, d_2\%, \dots, d_k\%$ are applied in sequence:
 $$\text{SP} = \text{MP} \times \left(1 - \frac{d_1}{100}\right) \times \left(1 - \frac{d_2}{100}\right) \times \dots \times \left(1 - \frac{d_k}{100}\right)$$
@@ -115,7 +115,7 @@ $$\text{Discount Fraction} = \frac{\text{Free Articles}}{\text{Total Articles Tr
 
 ---
 
-## 4. ARTICLE EQUIVALENCE & MONETARY INVARIANTS
+## 14.4 ARTICLE EQUIVALENCE & MONETARY INVARIANTS
 
 ### Type 1: Cost Price of $m$ Articles Equals Selling Price of $n$ Articles
 $$\text{CP} \times m = \text{SP} \times n \implies \mathbf{\frac{\text{SP}}{\text{CP}} = \frac{m}{n}}$$
@@ -138,7 +138,7 @@ When selling $n$ articles, the transaction results in:
 
 ---
 
-## 5. DUAL ARTICLE TRANSACTIONS: SAME CP VS SAME SP
+## 14.5 DUAL ARTICLE TRANSACTIONS: SAME CP VS SAME SP
 
 ### Scenario A: Same Cost Price ($\text{CP}_1 = \text{CP}_2 = \text{CP}$)
 One article sold at $+x\%$ profit, the second sold at $-x\%$ loss:
@@ -162,7 +162,7 @@ $$\mathbf{\text{Overall Net Loss \%} = \left(\frac{x}{10}\right)^2\% = \frac{x^2
 
 ---
 
-## 6. DISHONEST MERCHANT & FALSE WEIGHT ALGEBRA
+## 14.6 DISHONEST MERCHANT & FALSE WEIGHT ALGEBRA
 
 A fraudulent trader extracts illicit profit through two distinct levers:
 1. **Pricing Manipulations**: Declaring a markup ($M\%$) or discount ($D\%$).
@@ -193,7 +193,7 @@ $$\mathbf{\mu_{\text{net}} = \frac{100 + x}{100 - y} \implies \text{Gain \%} = \
 
 ---
 
-## 7. MULTI-TIER WORKED EXEMPLARS
+## 14.7 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: The Golden Bridge in Action (SBI PO Mains)
 **Problem**: A merchant marks his goods at such a price that after allowing a discount of $12.5\%$, he still achieves a profit of $25\%$. If the marked price of an article is ₹$1,200$, find its cost price.
@@ -248,7 +248,7 @@ $$\text{Net Profit \%} = (1.35 - 1) \times 100\% = \mathbf{35.00\%}$$
 
 ---
 
-## 8. HIGH-YIELD TRAP TAXONOMY
+## 14.8 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

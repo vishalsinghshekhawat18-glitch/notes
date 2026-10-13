@@ -18,11 +18,13 @@
 ## 0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS
 
 [MS-001] **Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)**
-- **RTGS UTR (Unique Transaction Reference)**: Exactly **22 alphanumeric characters**; structured as: 4-character Bank IFSC prefix + 1-character Transaction Type ('R' for RTGS) + 8-digit Date code (YYYYMMDD) + 9-digit unique sequential running number.
+- **RTGS UTR (Unique Transaction Reference)**: Exactly **22 alphanumeric characters**; canonically structured under RBI RTGS System Regulations as: **4-character Bank IFSC (`XXXX`)** + **1-character System code (`R` for RTGS)** + **1-character Channel identifier (`C` for customer payment, `I` for inter-bank, `P` for participant)** + **8-digit Date (`YYYYMMDD`)** + **8-digit unique sequential running number (`nnnnnnnn`)** (Decomposition: 4 + 1 + 1 + 8 + 8 = 22 characters).
 - **NEFT UTR (Unique Transaction Reference)**: Exactly **16 alphanumeric characters**; generated uniquely for interbank batch electronic clearing.
 - **IFSC (Indian Financial System Code)**: Exactly **11 alphanumeric characters** used in NEFT, RTGS, and IMPS; First 4 characters = Bank identity; **5th character is permanently fixed as '0' (zero)** reserved for future expansion; Last 6 characters = Branch identity (alphanumeric).
 - **MICR (Magnetic Ink Character Recognition)**: Exactly **9 numeric digits** printed at the bottom of cheques using magnetic ink; First 3 digits = **City Code** (matches first 3 digits of postal PIN code); Middle 3 digits = **Bank Code**; Last 3 digits = **Branch Code**.
-- **LEI (Legal Entity Identifier)**: Exactly **20 alphanumeric characters** based on ISO 17442; globally unique identifier for legal entities participating in financial transactions; mandatory in India for all non-individual borrowers with aggregate credit exposure **≥ ₹50 Crore** and cross-border transactions **≥ ₹50 Crore**.
+- **LEI (Legal Entity Identifier)**: Exactly **20 alphanumeric characters** based on ISO 17442; globally unique identifier for legal entities participating in financial transactions; mandatory in India across two distinct regulatory regimes:
+  1. *Non-Individual Borrowers (RBI Circular RBI/2021-22/162)*: Mandatory for all non-individual entities with aggregate credit exposure **≥ ₹5 Crore** from Scheduled Commercial Banks, AIFIs, and NBFCs (fully phased in by April 30, 2025; entities without LEI are barred from renewal or enhancement of credit facilities).
+  2. *Cross-Border Financial Transactions (FEMA Directions)*: Mandatory for single cross-border transactions **≥ ₹50 Crore** in RTGS/NEFT for capital or current account transactions.
 - **SWIFT / BIC (Society for Worldwide Interbank Financial Telecommunication)**: **8 or 11 alphanumeric characters** based on ISO 9362 (4 letters = Bank code; 2 letters = Country code; 2 characters = Location code; 3 optional characters = Branch code); SWIFT international headquarters located in **La Hulpe, Belgium**.
 - **National Registry & Scheme Codes Matrix**:
   - **PRAN (Permanent Retirement Account Number - PFRDA)**: **12 digits**.
@@ -34,9 +36,11 @@
 **EXAM ANGLE:**
 
 - The RTGS vs NEFT Trap: RTGS UTR has **22 characters**; NEFT UTR has **16 characters** (examiners frequently swap these two numbers).
+- RTGS UTR Structural Anatomy: **4 IFSC + 1 System (R) + 1 Channel (C) + 8 Date (YYYYMMDD) + 8 Sequence = 22** (Notice: 8-digit sequence number, NOT 9-digit; 6th character is the Channel identifier).
+- LEI Dual-Threshold Trap: Non-individual borrower credit exposure threshold is **≥ ₹5 Crore** (phased in by April 2025). The **₹50 Crore** threshold applies strictly to cross-border remittances under FEMA.
 - The IFSC 5th Character: The 5th character is always numeric **0 (zero)**, NEVER the letter 'O'.
 - The MICR Sequence Trap: MICR 9-digit sequence is **City → Bank → Branch** (Examiners often trick candidates with Bank → City → Branch).
-- Target MCQ: 'How many digits are there in an RTGS UTR number?' → **22 digits**.
+- Target MCQ: 'How many alphanumeric characters are there in an RTGS UTR number, and what is its sequence length?' → **22 characters total (with an 8-digit running sequence number)**.
 
 ---
 
@@ -94,8 +98,8 @@
   - **HSBC (Hongkong and Shanghai Banking Corp)** / **Barclays** / **Standard Chartered**: **London, United Kingdom**.
   - **Citibank** / **JPMorgan Chase** / **Bank of America**: **United States** (New York / Charlotte).
 - **Multilateral Financial Institutions**:
-  - **World Bank Group (IBRD / IDA / IFC / MIGA)**: **Washington D.C., USA** (President: Ajay Banga; India Executive Director: Parameswaran Iyer / Neelkanth Mishra).
-  - **International Monetary Fund (IMF)**: **Washington D.C., USA** (Managing Director: Kristalina Georgieva; First Deputy MD: Gita Gopinath).
+  - **World Bank Group (IBRD / IDA / IFC / MIGA)**: **Washington D.C., USA** (President: Ajay Banga; Executive Director representing Bangladesh, Bhutan, India and Sri Lanka: **Neelkanth Mishra**, who succeeded Parameswaran Iyer in 2026).
+  - **International Monetary Fund (IMF)**: **Washington D.C., USA** (Managing Director: Kristalina Georgieva; First Deputy MD: Dan Katz, succeeding Gita Gopinath).
   - **Asian Development Bank (ADB)**: **Mandaluyong / Manila, Philippines** (President: Masato Kanda, succeeding Masatsugu Asakawa; India shareholding 6.3%).
   - **New Development Bank (NDB / BRICS Bank)**: **Shanghai, China** (President: Dilma Rousseff).
   - **Asian Infrastructure Investment Bank (AIIB)**: **Beijing, China** (President: Jin Liqun).
@@ -175,28 +179,32 @@
   - **Other Bank ATMs in 6 Designated Metros**: Minimum **3 free transactions per month** (Metros: Mumbai, New Delhi, Chennai, Kolkata, Bengaluru, Hyderabad).
   - **Other Bank ATMs in Non-Metro Centers**: Minimum **5 free transactions per month**.
   - **Permissible Interchange Fees Capped by RBI**: Maximum **₹17 per financial transaction** and **₹6 per non-financial transaction**.
-  - **Failed ATM Transaction Compensation (\$T+5\$ Rule)**: If an account is debited but cash is not dispensed, bank must reverse the funds within **\$T+5\$ calendar days**; delay beyond \$T+5\$ days attracts statutory penalty of **₹100 per day** payable directly to the customer without requiring a complaint.
-- **Reserve Bank - Integrated Ombudsman Scheme, 2021 (RB-IOS)**:
+  - **Failed ATM Transaction Compensation (T+5 Rule)**: If an account is debited but cash is not dispensed, bank must reverse the funds within **T+5 calendar days**; delay beyond T+5 days attracts statutory penalty of **₹100 per day** payable directly to the customer without requiring a complaint.
+- **Reserve Bank Integrated Ombudsman Architecture & Versioned Regimes**:
   - **Treaty & Statutory Architecture**: Unifies 3 predecessor schemes under the 'One Nation One Ombudsman' vision — *Banking Ombudsman Scheme (2006)*, *Ombudsman Scheme for NBFCs (2018)*, and *Ombudsman Scheme for Digital Transactions (2019)*.
-  - **Covered Regulated Entities (REs)**: Encompasses all Scheduled Commercial Banks (SCBs), Regional Rural Banks (RRBs), Non-Scheduled Primary (Urban) Co-operative Banks with deposit size **≥ ₹50 Crore**, all deposit-taking NBFCs (NBFC-Ds), non-deposit taking NBFCs with asset size **≥ ₹100 Crore** having public interface, and **Credit Information Companies (CICs)** (brought under RB-IOS via 2022 amendment).
+  - **RB-IOS 2026 Coverage Categories**: Commercial Banks, Regional Rural Banks, State Co-operative Banks, Central Co-operative Banks, Scheduled Primary (Urban) Co-operative Banks, Non-Scheduled Primary (Urban) Co-operative Banks with deposits of ₹50 crore and above, qualifying NBFCs subject to the RB-IOS 2026 exclusions and ₹100 crore/customer-interface or deposit-taking conditions, Non-bank Prepaid Payment Instrument Issuers, and Credit Information Companies.
   - **Centralised Receipt and Processing Centre (CRPC)**: Single centralized portal and physical clearing intake established at **RBI Chandigarh** for registration and initial scrutiny of complaints from across the nation.
-  - **Escalation Protocol & Deadlines**: Complainant must first lodge grievance directly with the bank/RE; if rejected, not resolved within **30 days**, or resolved unsatisfactorily, complaint can be submitted to Ombudsman within **1 year**.
-  - **Monetary Jurisdiction & Award Ceiling**: Under the operative Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021), the Ombudsman is empowered to award compensation up to **₹20 Lakh** for direct financial loss resulting from deficiency in banking service (with proposals reviewing an enhancement up to **₹30 Lakh**).
-  - **Additional Mental Agony Award**: Over and above the financial loss limit, the Ombudsman can award up to **₹1 Lakh** (with proposed revisions up to **₹3 Lakh**) for mental agony, harassment, and loss of time.
-  - **Appellate Authority**: Executive Director in-charge of the **Consumer Education and Protection Department (CEPD) at RBI**; appeal must be submitted within **30 days** of receiving the award or rejection.
+  - **Temporal Version Control & Compensation Slabs**:
+    1. *RB-IOS 2021 (Operative November 12, 2021 to June 30, 2026)*: Maximum compensation for direct financial loss: **₹20 Lakh**; additional compensation for mental agony, harassment, loss of time: **₹1 Lakh** (Max composite award: ₹21 Lakh).
+    2. *RB-IOS 2026 (Effective July 1, 2026 onward)*: Maximum compensation for direct financial loss enhanced to **₹30 Lakh**; additional compensation for mental agony/harassment enhanced to **₹3 Lakh** (Max composite award: ₹33 Lakh).
+  - **Escalation Protocol & Filing Deadline**: After first approaching the Regulated Entity, complaint may be filed before the RBI Ombudsman within **90 days from expiry of the applicable response timeline or the date of the last communication, whichever is later**.
+  - **Appellate Authority**: Executive Director in-charge of the **Consumer Education and Protection Department (CEPD) at RBI**. Appeal is available **only against an Award** of the RBI Ombudsman. The complainant may appeal within **30 days of receiving the Award, subject to the applicable extension provision**.
 - **Deposit Insurance and Credit Guarantee Corporation (DICGC) Act, 1961**:
   - Wholly owned subsidiary of RBI; insures bank deposits across Commercial Banks, RRBs, Local Area Banks, and Co-operative Banks.
   - **Coverage Slabs**: Insures each depositor up to a maximum of **₹5 Lakh** (principal + interest) across all deposit accounts held in the same right and capacity in each bank.
-  - **Mandatory 90-Day Payout Timeline (DICGC Amendment Act 2021)**: If a bank is placed under all-inclusive directions or moratorium by RBI, depositors must receive insured funds up to ₹5L within **90 days** (Days 1–45: bank collects and submits claims; Days 46–90: DICGC audits, verifies, and disburses payouts).
+  - **Mandatory 90-Day Payout Timeline (DICGC Amendment Act 2021)**: If a bank is placed under all-inclusive directions or moratorium by RBI, depositors must receive insured funds up to ₹5L within **90 days** (Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment is made within the subsequent 15 days; overall statutory limit = 90 days; statutory breakdown: 45 + 30 + 15 = 90 days).
 
 **EXAM ANGLE:**
 
-- RB-IOS Ceiling: Operative direct financial loss compensation ceiling is **₹20 Lakh** (proposals up to ₹30 Lakh); compensation for mental agony is **₹1 Lakh** (proposals up to ₹3 Lakh).
+- The Ombudsman Regime & Temporal Slabs Trap:
+  - *2021 Scheme Baseline (pre-July 2026)*: **₹20 Lakh** (direct loss) + **₹1 Lakh** (mental agony).
+  - *2026 Scheme Baseline (from 1 July 2026)*: **₹30 Lakh** (direct loss) + **₹3 Lakh** (mental agony).
 - RB-IOS Centralised Processing Centre (CRPC): Located at **RBI Chandigarh** (NOT Mumbai or New Delhi).
 - RB-IOS Appellate Authority: **Executive Director in-charge of CEPD at RBI**; appeal period is **30 days**.
-- Escalation Horizon: Customer must wait **30 days** for bank response before filing with Ombudsman; maximum filing window is **1 year**.
-- Failed ATM Reversal: Timeline is **\$T+5\$ days**; delay penalty is **₹100 per day**.
-- DICGC Payout Window: **90 days** from date of RBI moratorium/directions.
+- RB-IOS Filing Deadline: After first approaching the Regulated Entity, complaint may be filed before the RBI Ombudsman within **90 days from expiry of the applicable response timeline or the date of the last communication, whichever is later**.
+- RB-IOS Appeal Right: Appeal is available **strictly against an Award** of the RBI Ombudsman (appeal does not lie against rejection); within **30 days of receiving the Award**.
+- Failed ATM Reversal: Timeline is **T+5 calendar days**; delay penalty is **₹100 per day**.
+- DICGC Payout Window: **90 days** from date of RBI moratorium/directions (Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment is made within the subsequent 15 days; overall statutory limit = 90 days; 45 + 30 + 15 = 90 days).
 
 ---
 
@@ -205,7 +213,7 @@
   - **First Schedule**: List of States and Union Territories with territorial boundaries.
   - **Second Schedule**: Emoluments, allowances, and privileges of President, Governors, Judges of Supreme Court/High Courts, and CAG.
   - **Third Schedule**: Forms of Oaths and Affirmations for Union Ministers, MPs, Supreme Court and High Court Judges.
-  - **Fourth Schedule**: **Allocation of seats in the Rajya Sabha (Council of States)** to States and Union Territories (allocated strictly based on population; current strength: 245 total = 233 elected + 12 nominated by the President).
+  - **Fourth Schedule**: **Allocation of seats in the Rajya Sabha (Council of States)** to States and Union Territories (current statutory strength: 245 total = 233 elected representatives + 12 members nominated by the President under Article 80).
   - **Fifth Schedule**: Administration and control of Scheduled Areas and Scheduled Tribes.
   - **Sixth Schedule**: Administration of Tribal Areas in 4 north-eastern states: **Assam, Meghalaya, Tripura, and Mizoram (AMTM)**.
   - **Seventh Schedule**: Division of legislative powers between Union and States: List I (**Union List** - 100 subjects incl. Banking, Currency, Foreign Affairs, Defence), List II (**State List** - 61 subjects), List III (**Concurrent List** - 52 subjects).
@@ -239,7 +247,7 @@
   - **Article 300A (Right to Property)**: Originally a Fundamental Right under Article 19(1)(f) and Article 31; omitted from Part III and reconstituted as a **Constitutional / Legal Right under Article 300A in Part XII** via the **44th Constitutional Amendment Act, 1978** (mandates that no person shall be deprived of property save by authority of law).
   - **Article 112 (Annual Financial Statement / Union Budget)**: Mandates presentation of estimated receipts and expenditure of the Government of India for every financial year before both Houses of Parliament.
   - **Article 246A & 279A (Goods and Services Tax)**: Introduced by the **101st Constitutional Amendment Act, 2016**; Article 246A confers simultaneous power to Parliament and State Legislatures to make laws on GST; Article 279A mandates constitution of the **GST Council** (chaired by the Union Finance Minister; voting weight: Centre holds 1/3rd, States hold 2/3rd; 3/4th majority required to pass decisions).
-  - **Article 266 & 267 (Funds of India)**: Article 266(1) = Consolidated Fund of India; Article 266(2) = Public Account of India; Article 267 = Contingency Fund of India (held by Finance Secretary on behalf of President, corpus enhanced to ₹30,000 Cr).
+  - **Article 266 & 267 (Funds of India)**: Article 266(1) provides for the Consolidated Fund of India; Article 266(2) provides for the Public Account of India; **Article 267**: Provides for the Contingency Fund of India, placed at the disposal of the President to meet unforeseen expenditure pending parliamentary authorization. Custody and related operational matters are governed under Article 283 and applicable rules (corpus statutory limit enhanced to ₹30,000 Cr via Finance Act, 2021).
 - **Core Income Tax Certificates, Return Forms & Declarations**:
   - **Form 16**: Certificate of **Tax Deducted at Source (TDS) on Salary** issued annually by an employer under **Section 203 of the Income Tax Act, 1961**; divided into Part A (TDS summary, TAN, PAN) and Part B (salary breakup, deductions under Chapter VI-A).
   - **Form 16A**: Certificate for TDS on non-salary payments (interest on bank deposits, mutual fund dividends, professional fees).
@@ -331,45 +339,59 @@
 
 ## 1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS
 
-[MS-012] **Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory**
-- **Continuous Policy Rate Pause**: The MPC held the **Policy Repo Rate at 5.25%** with a **neutral monetary stance** across four consecutive bi-monthly reviews through the August 3–5, 2026 meeting (next review scheduled for Oct 5–7, 2026).
-- **Standing Facility Rate Structure**: Standing Deposit Facility (SDF) fixed at **5.00%** (Repo - 25 bps); Marginal Standing Facility (MSF) and Bank Rate fixed at **5.50%** (Repo + 25 bps); Cash Reserve Ratio (CRR) holds at **3.00%**; Statutory Liquidity Ratio (SLR) holds at **18.00%**.
+[MS-012] **Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory & Current Snapshot**
+- **Historical Jan–Aug 2026 Trajectory (Bi-Monthly Reviews)**: Across four consecutive bi-monthly meetings through the August 3–5, 2026 review, the MPC maintained the **Policy Repo Rate at 5.25%** with a **neutral monetary stance** (SDF 5.00%, MSF/Bank Rate 5.50%, CRR 3.00%, SLR 18.00%; FY27 GDP projected at 6.7%, CPI at 5.0%).
+- **POST-CUTOFF STATUS UPDATE / CURRENT POLICY SNAPSHOT (October 5–7, 2026 MPC Decision)**:
+  - **Decision Date**: October 7, 2026 (Repo increase: **25 bps from 5.25% to 5.50%**).
+  - **Policy Repo Rate**: **5.50%**.
+  - **Standing Deposit Facility (SDF)**: **5.25%** (Repo - 25 bps).
+  - **Marginal Standing Facility (MSF) & Bank Rate**: **5.75%** (Repo + 25 bps).
+  - **Reserve Ratios**: Cash Reserve Ratio (**CRR**) = **3.00%**; Statutory Liquidity Ratio (**SLR**) = **18.00%**.
+  - **Monetary Policy Stance**: Shifted to **Calibrated Tightening** (superseding the earlier Neutral stance).
+  - **Macroeconomic Projections (FY2026–27)**: Real GDP growth projection raised to **7.1%**; CPI inflation projection projected at **5.2%**.
 - **Statutory MPC Composition**: 6-member committee under **Section 45-ZB of the RBI Act, 1934**; comprises 3 RBI officials (Governor Sanjay Malhotra as Chairperson, Deputy Governor, Executive Director) and 3 external government-appointed experts.
-- **Live Macroeconomic Projections**: MPC revised India's **FY27 real GDP growth projection up to 6.7%** (from 6.6%), while trimming **FY27 CPI inflation projection down to 5.0%** (from 5.1%).
 
 **EXAM ANGLE:**
 
-- Corridor Math: Repo = 5.25%, SDF = 5.00%, MSF/Bank Rate = 5.50% (SDF is always 25 bps below Repo; MSF is 25 bps above).
-- Stance Confusion: Monetary stance is NEUTRAL (not 'Withdrawal of Accommodation').
-- Target MCQ Form: "What is the Standing Deposit Facility (SDF) rate following RBI's August 2026 Monetary Policy Committee review?" → 5.00%.
+- **EXAM TRAP (The Temporal Stance & Rate Shift)**:
+  - *August 2026 = 5.25%, Neutral; October 7, 2026 = 5.50%, Calibrated Tightening.*
+- Corridor Math (October 7, 2026 Operative): Repo = 5.50%, SDF = 5.25%, MSF/Bank Rate = 5.75% (Symmetric 50 bps corridor: SDF is 25 bps below Repo; MSF is 25 bps above).
+- Target MCQ Form: "Following the October 7, 2026 RBI Monetary Policy Committee decision, what is the operative Policy Repo Rate and monetary stance?" → **5.50%** with **Calibrated Tightening**.
 
 ---
 
 [MS-013] **Digital Fraud Compensation: Responsible Business Conduct (Third Amendment) Directions**
-- **Genesis & Compensation Slabs**: Framed to protect victims of small-value, unauthorized electronic banking transactions (losses up to ₹50,000); mandates compensation of **85% of net loss or ₹25,000, whichever is lower**.
+- **Genesis & Compensation Slabs**: Framed to protect victims of small-value, unauthorized electronic banking transactions (gross loss up to ₹50,000); canonical formula: **Eligible fraudulent EBT involving gross loss up to ₹50,000: compensation = 85% of net loss or ₹25,000, whichever is lower, after prescribed recoveries**.
 - **Institutional Loss-Apportionment Formula**: For losses below ₹29,412, the 85% payout is apportioned: **RBI bears 65%** (funded via Depositor Education and Awareness / DEA Fund), the **customer's issuing bank bears 10%**, and the **beneficiary bank bears 10%**.
 - **Statutory Deferred Effective Date**: Formally notified in the Gazette on June 24, 2026, but RBI **deferred enforcement to January 1, 2027** (pushed from the original July 1, 2026 draft date) to give banks integration runway.
-- **Zero Customer Liability Principle**: Guarantees zero liability where digital fraud occurs due to bank negligence or third-party breaches reported by the customer within 3 working days.
+- **Two Distinct Customer Liability & Compensation Regimes (Critical Exam Distinction)**:
+  1. *Pre-1 January 2027 / legacy 2017 customer-liability framework (RBI/2017-18/15)*: Governs unauthorized electronic banking transactions generally — zero customer liability where fraud occurs due to bank negligence, or where a third-party breach occurs without customer fault and is reported by the customer within **3 working days** of receiving communication.
+  2. *Effective 1 January 2027 — 5 calendar days (New Small-Value Fraudulent EBT Compensation Framework)*: Governs small-value digital fraud (gross loss up to ₹50,000) under the Responsible Business Conduct Directions — requires mandatory customer reporting to the National Cyber Crime Reporting Portal (**NCRP / Helpline 1930**) and the bank within **5 calendar days**; mandates structured compensation: **Eligible fraudulent EBT involving gross loss up to ₹50,000: compensation = 85% of net loss or ₹25,000, whichever is lower, after prescribed recoveries**. The new compensation framework applies to eligible fraudulent EBTs occurring within the prescribed one-year window from its effective date.
 
 **EXAM ANGLE:**
 
+- The Reporting Window Trap (Crucial Distinction):
+  - *Pre-1 January 2027 / legacy 2017 customer-liability framework*: Reporting within **3 working days** for zero liability.
+  - *Effective 1 January 2027 — 5 calendar days*: Reporting to NCRP (1930) and bank within **5 calendar days**.
 - The Date Trap: Implementation date is **January 1, 2027** (do NOT pick July 1, 2026).
-- The Cap Trap: Compensation is 85% of loss or **₹25,000**, whichever is LOWER (not ₹50,000).
-- Target MCQ Form: "Under the RBI Responsible Business Conduct Directions, what is the mandatory effective date for the small-value digital fraud compensation framework?" → January 1, 2027.
+- The Cap Trap: Canonical formula: **Eligible fraudulent EBT involving gross loss up to ₹50,000: compensation = 85% of net loss or ₹25,000, whichever is lower, after prescribed recoveries** (compensation is 85% of net loss or ₹25,000, whichever is lower, not ₹50,000).
+- Target MCQ Form: "What is the mandatory reporting timeline for a customer to claim compensation under the new RBI small-value fraudulent electronic banking transaction (EBT) framework effective January 1, 2027?" → Within 5 calendar days to NCRP/1930 and the bank.
 
 ---
 
-[MS-014] **Bank Dividend Payout Cap Overhaul: Graded CET1 Capital Architecture**
-- **Dismantling Legacy Cap**: RBI dismantled the rigid decades-old regulation that strictly capped commercial bank dividend distributions at a uniform 40% of Profit After Tax (PAT).
-- **Graded Capital-Linked Ceiling**: Operational from FY26 balance sheets, maximum dividend payout is raised up to **75% of PAT for commercial banks maintaining a Common Equity Tier 1 (CET1) ratio ≥ 13.0%**.
-- **Foreign Bank Branch Remittances**: Foreign banks operating in India via branch mode are permitted to remit up to **80% of net post-tax profits** to head offices abroad, provided local Capital Conservation Buffers are met.
-- **Asset Quality Barrier**: A bank is statutorily disqualified from declaring dividends if its Net Non-Performing Assets (NNPA) ratio exceeds **6.0%** for the financial year.
+[MS-014] **Bank Dividend Payout & Profit Remittance: RBI 2026 Directions**
+- **Commercial Bank Dividend Architecture (Banks Incorporated in India)**: For banks incorporated in India, the RBI 2026 Directions prescribe CET1-linked dividend buckets expressed as a percentage of adjusted PAT. For a non-D-SIB: **>12% to ≤14% CET1 → 40% of adjusted PAT**. The aggregate dividend payment is subject to an **overall ceiling of 75% of PAT**. D-SIB buffer 'z' shifts the CET1 bucket thresholds.
+- **Foreign Bank Branches (Remittance of Profits)**: An eligible foreign bank operating in India in branch mode may remit net profit / surplus (net of tax) earned from its Indian operations without prior RBI approval, subject to the conditions prescribed in the RBI 2026 Directions, including audited accounts and treatment of any excess remittance.
+- **Asset Quality Barrier**: A bank is statutorily disqualified from declaring dividends or remitting profits if its Net Non-Performing Assets (NNPA) ratio exceeds **6.0%** for the financial year.
 
 **EXAM ANGLE:**
 
-- Domestic vs Foreign Cap: Domestic commercial bank max cap is **75%**; Foreign bank branch remittance cap is **80%**.
-- NNPA Barrier: Net NPA must not exceed 6.0% for dividend eligibility.
-- Target MCQ Form: "What is the maximum dividend payout ratio permitted for domestic commercial banks having a CET1 ratio of 13% or higher?" → 75% of PAT.
+- **EXAM TRAP (Bucket vs Ceiling & Remittance Rule)**:
+  - *CET1 bucket percentage ≠ aggregate 75% ceiling.*
+  - For a non-D-SIB with CET1 >12% to ≤14%, the dividend percentage of adjusted PAT is **40%**, while the aggregate dividend payment is capped at **75% of PAT**.
+  - Foreign bank branches: May remit net profit / surplus earned from Indian operations without prior RBI approval subject to prescribed regulatory conditions.
+- NNPA Barrier: Net NPA must not exceed 6.0% for dividend/remittance eligibility.
+- Target MCQ Form: "For a non-D-SIB incorporated in India with CET1 ratio above 12% and up to 14%, what dividend percentage of adjusted PAT is permitted under the 2026 CET1-linked bucket framework?" → **40%, subject to the aggregate 75% of PAT ceiling**.
 
 ---
 
@@ -701,7 +723,7 @@
   - Dilution schedule: Scaled down to **30% within 10 years**, and capped at **26% (or 15%) within 15 years**.
   - Foreign Direct Investment (FDI): Permissible up to **74%** (automatic up to 49%, approval route up to 74%).
 - **Financial Inclusion & Operational Safeguards**:
-  - **Priority Sector Lending (PSL)**: Mandatory **75% of Adjusted Net Bank Credit (ANBC)** or CEOBE.
+  - **Priority Sector Lending (PSL)**: Mandatory **60% of Adjusted Net Bank Credit (ANBC)** or CEOBE (effective FY 2025–26 onward; rationalised by RBI from the initial 75% baseline to enable portfolio diversification).
   - **Small Ticket Loan Focus**: At least **50% of aggregate loan portfolio** must comprise loans and advances of up to **₹25 Lakh**.
   - **Unbanked Outlets**: Minimum **25% of total banking outlets** must be established in **Unbanked Rural Centres (URCs)** (population < 10,000).
   - **Mandatory Listing**: Must list shares on recognised stock exchanges within **3 years** of achieving a net worth of ₹500 Crore.
@@ -711,7 +733,7 @@
 **EXAM ANGLE:**
 
 - Minimum Net Worth for SFB: **₹200 Crore** (₹100 Crore for UCBs scaling to ₹200 Cr in 5 years).
-- PSL Target for SFBs: **75% of ANBC** (50% portfolio in loans ≤ ₹25 Lakh).
+- PSL Target for SFBs: **60% of ANBC** (effective FY 2025–26; rationalised from 75%; RRBs remain at 75%; 50% portfolio in loans ≤ ₹25 Lakh).
 - Unbanked Rural Outlets: **25%** of total banking outlets.
 - SFB-to-Universal Bank Conversion: Minimum **₹1,000 Crore net worth**, **5 years track record**, and GNPA ≤ 3% / NNPA ≤ 1%.
 - Target MCQ: 'What is the minimum net worth required for an existing Small Finance Bank to voluntarily transition into a Universal Bank?' → **₹1,000 Crore**.
@@ -862,7 +884,7 @@
   - **Domestic Scheduled Commercial Banks (SCBs) & Foreign Banks (≥20 branches)**: **40% of ANBC** (Adjusted Net Bank Credit) or Credit Equivalent of Off-Balance Sheet Exposure (CEOBE), whichever is higher.
   - **Foreign Banks with <20 branches**: **40% of ANBC/CEOBE** (up to 32% permissible in Export Credit, and not less than 8% in any other priority sector).
   - **Regional Rural Banks (RRBs)**: **75% of ANBC/CEOBE** (mandatory focus on rural smallholders and artisans).
-  - **Primary Urban Co-operative Banks (UCBs)**: Graded regulatory glide path reaching **75% of ANBC/CEOBE by March 31, 2026** (60% by March 2024, 65% by March 2025, 75% by March 31, 2026).
+  - **Primary Urban Co-operative Banks (UCBs)**: **60% of ANBC or CEOBSE, whichever is higher** (effective 1 April 2025 under the RBI Priority Sector Lending Directions, 2025; formally superseding the earlier glide path that aimed for 75% by March 31, 2026).
 - **Mandatory Sub-Sector Targets for Domestic Commercial Banks**:
   - **Total Agriculture**: **18% of ANBC/CEOBE** (within which **10%** is mandated specifically for Small and Marginal Farmers / SMFs owning up to 2 hectares of land).
   - **Micro Enterprises**: **7.5% of ANBC/CEOBE**.
@@ -880,23 +902,24 @@
 - The 8 Sectors: Agriculture, MSME, Export Credit, Education, Housing, Social Infrastructure, Renewable Energy, Others.
 - Sub-Target Math: Total Agriculture = **18%**; Small & Marginal Farmers (SMFs) = **10%**; Weaker Sections = **12%**; Micro Enterprises = **7.5%**.
 - Foreign Banks (<20 branches): Export credit capped at **32%** out of total 40% target.
-- UCB Final PSL Deadline: Must achieve **75% of ANBC by March 31, 2026**.
+- UCB PSL Target Trap: Overall PSL target for UCBs is established at **60% of ANBC or CEOBSE** effective 1 April 2025 under the 2025 Master Directions (do NOT mark obsolete 75% glide path).
 - PSLC Denomination & Platform: Lot size is **₹25 Lakh**; traded on RBI **e-Kuber** (all expire on March 31; zero credit risk transfer).
 - Shortfall Fund: Administered primarily in **RIDF** by NABARD.
 - Target MCQ Form: "What is the standard lot size for trading Priority Sector Lending Certificates (PSLC) on the RBI e-Kuber portal?" → **₹25 Lakh**.
 
 ---
 
-[MS-044] **Small Finance Bank (SFB) PSL Target Architecture: Operational 75% vs. Proposed 60% Norms**
-- **Existing Statutory Baseline**: Under the operative RBI Master Direction on Priority Sector Lending (PSL), established Small Finance Banks (SFBs) are mandated to achieve a total priority sector lending target of **75% of Adjusted Net Bank Credit (ANBC)** or CEOBE.
-- **Regulatory Clarification & Rationalisation Proposals**: While draft discussion papers and licensing consultative notes proposed harmonizing SFB PSL targets closer to commercial bank levels (at **60% of ANBC** to support wholesale portfolio diversification), operational banks continue to be assessed against the **75% benchmark** until formal revised master directions take statutory effect.
+[MS-044] **Small Finance Bank (SFB) PSL Target Architecture: Rationalised 60% vs. RRB 75% Mandate**
+- **Rationalised Statutory Baseline (Effective FY 2025–26)**: Under the amended RBI Master Directions on Priority Sector Lending (PSL), the overall priority sector lending target for Small Finance Banks (SFBs) has been rationalised to **60% of Adjusted Net Bank Credit (ANBC)** or CEOBE (effective FY 2025–26 onward, calibrated down from the erstwhile 75% baseline to facilitate portfolio diversification and balance-sheet resilience).
+- **Sub-Targets & Priority Allocation**: SFBs must allocate at least **50% of aggregate loan portfolio** to loans and advances up to **₹25 Lakh**, preserving their core financial-inclusion focus for micro, small, and marginal borrowers.
 - **Regional Rural Banks (RRB) PSL Target**: RRBs continue under their uncompromised statutory mandate requiring **75% of total lending** to priority sectors.
 
 **EXAM ANGLE:**
 
-- Operative SFB Baseline: **75% of ANBC** under current Master Directions (with proposals reviewing a 60% glidepath for new entrants).
-- RRB Mandatory Target: Strictly **75% of ANBC**.
-- Target MCQ Form: "What is the mandatory Priority Sector Lending (PSL) target prescribed for operational Small Finance Banks under RBI Master Directions?" → 75% of ANBC.
+- Operative SFB PSL Target: **60% of ANBC** effective FY 2025–26 (rationalised from 75%; do NOT mark 75% for SFBs).
+- RRB Mandatory Target: Strictly **75% of ANBC** (RRBs remain at 75%).
+- Commercial Banks Target: **40% of ANBC**.
+- Target MCQ Form: "What is the mandatory Priority Sector Lending (PSL) target prescribed for Small Finance Banks (SFBs) effective from FY 2025–26 under amended RBI Master Directions?" → **60% of ANBC or CEOBE**.
 
 ---
 
@@ -965,16 +988,20 @@
 
 ---
 
-[MS-049] **Proposed PSB FDI Cap Escalation: 20% to 49%**
-- **Legislative Liberalisation Move**: Ministry of Finance and NITI Aayog drafted proposals to amend the Banking Companies (Acquisition and Transfer of Undertakings) Act to raise the Foreign Direct Investment (FDI) limit in Public Sector Banks from **20% to 49%**.
+[MS-049] **Foreign Direct Investment (FDI) Architecture: PSBs, Private Banks & Insurance Sector**
+- **Legislative Liberalisation Move for PSBs**: Ministry of Finance and NITI Aayog drafted proposals to amend the Banking Companies (Acquisition and Transfer of Undertakings) Act to raise the Foreign Direct Investment (FDI) limit in Public Sector Banks from **20% to 49%**.
 - **Sovereign Control Retained**: The legislative framework guarantees that the Central Government will maintain a mandatory minimum equity holding of **at least 51%** in all public sector banks.
-- **Private Banking Contrast**: Private sector commercial banks continue to operate under a maximum permissible FDI ceiling of **74%** (under the automatic route up to 49%, and government approval route beyond 49%).
+- **Private Banking & SFB Cap**: Private sector commercial banks and Small Finance Banks continue to operate under a maximum permissible FDI ceiling of **74%** (automatic route up to 49%, and government approval route beyond 49%).
+- **Insurance Sector 100% FDI Regime**: Under the Insurance Laws Amendment Act 2025/2026, foreign direct investment in insurance companies has been raised from 74% to **100% under the automatic route**, harmonizing with insurance intermediaries (which already permitted 100% FDI).
 
 **EXAM ANGLE:**
 
-- PSB vs Private FDI Cap: Current PSB FDI cap is **20%** (proposed hike to **49%**); Private bank FDI cap is **74%**.
-- Govt Holding Floor: Central Government equity in PSBs must remain at or above **51%**.
-- Target MCQ Form: "What is the proposed revised Foreign Direct Investment (FDI) limit for Public Sector Banks currently under consideration?" → 49%.
+- Master FDI Cap Matrix:
+  - *Public Sector Banks (PSBs)*: **20%** (proposed hike to **49%**; Central Govt floor **≥ 51%**).
+  - *Private Sector Banks & SFBs*: **74%** (automatic up to 49%, approval beyond 49%).
+  - *Insurance Companies*: **100% under automatic route** (hiked from erstwhile 74%).
+  - *Insurance Intermediaries*: **100% under automatic route**.
+- Target MCQ Form: "What is the permissible Foreign Direct Investment (FDI) limit for insurance companies in India under the amended insurance legal framework?" → **100% under automatic route**.
 
 ---
 
@@ -1549,27 +1576,36 @@
 
 ---
 
-[MS-085] **Macroeconomic Architecture: CPI, WPI, GDP & IIP Base Year Revision Matrix**
-- **Synchronized National Accounts Overhaul**: Ministry of Statistics and Programme Implementation (**MoSPI**) and DPIIT operationalized a synchronized overhaul of India's foundational macroeconomic statistical indicators.
-- **Consumer Price Index (CPI)**:
-  - Current Base Year: **2012 = 100** (compiled by National Statistical Office / NSO, MoSPI).
-  - Revised Target Base Year: **2024 = 100** (anchored in the Household Consumption Expenditure Survey / HCES 2022-23 and 2023-24).
-  - Weightage Realignment: Projected drop in the weighting of **Food and Beverages from 45.86% to approximately 39.5%–40.0%**, reflecting Engel's Law and structural consumption shifts.
-- **Wholesale Price Index (WPI)**:
-  - Current Base Year: **2011-12 = 100** (compiled by Office of Economic Adviser, DPIIT).
-  - Revised Target Base Year: **2017-18 = 100** (recommended by the Working Group chaired by **Dr. Ramesh Chand**, Member, NITI Aayog).
-- **Gross Domestic Product (GDP / National Accounts)**:
-  - Current Base Year: **2011-12 = 100** (compiled by NSO, MoSPI).
-  - Revised Target Base Year: **2022-23 = 100** (finalized by the Advisory Committee on National Accounts Statistics / ACNAS chaired by **Prof. Biswanath Goldar**).
-- **Index of Industrial Production (IIP)**:
-  - Current Base Year: **2011-12 = 100** (NSO, MoSPI) → revising in tandem to **2017-18 = 100**.
+[MS-085] **Macroeconomic Modernization & Base-Year Architecture: 2026 Active Series & Historical Baselines**
+- **Synchronized National Accounts & Price Indices Modernization**:
+  - Ministry of Statistics and Programme Implementation (**MoSPI**) and DPIIT operationalized a synchronized overhaul of India's foundational macroeconomic statistical indicators to eliminate structural obsolescence.
+- **Master Base-Year Matrix (2026 Operative Series vs Predecessor Baselines)**:
+  - **Gross Domestic Product (GDP / GVA)**:
+    - **Operative 2026 Series**: **Base Year 2022–23** (officially released by MoSPI / NSO on **27 February 2026**, incorporating updated Supply-Use Tables and GST electronic filings).
+    - *Historical Predecessor Series*: **2011–12** (operational from 2015 to early 2026).
+  - **Consumer Price Index (CPI - Combined)**:
+    - **Operative 2026 Series**: **Base Year 2024 = 100** (officially released by MoSPI / NSO in **February 2026**; anchored in the Household Consumption Expenditure Survey / HCES 2022–23 & 2023–24; rationalises Food & Beverages weight down to **36.75%** across 12 divisions and 358 items).
+    - *Historical Predecessor Series*: **2012 = 100** (compiled monthly by NSO).
+  - **Index of Industrial Production (IIP)**:
+    - **Operative 2026 Series**: **Base Year 2022–23 = 100** (released by MoSPI in **June 2026**, expanding electronics manufacturing, semiconductors, and solar PV modules).
+    - *Historical Predecessor Series*: **2011–12 = 100**.
+  - **Index of Core Industries (ICI - 9 Core Sectors)**:
+    - **Operative 2026 Series**: **Base Year 2022–23** (released August 2026; expanded to **9 core industries** with the addition of **Iron Ore**).
+    - *Historical Predecessor Series*: **2011–12** (8 core industries).
+  - **Wholesale Price Index (WPI)**:
+    - **Operative 2026 Series**: Revised to **Base Year 2022–23** (compiled by Office of Economic Adviser, DPIIT, expanding items from 697 to 957 based on Gross Value of Output / GVO weighting).
+    - *Historical Predecessor Series*: **2011–12 = 100**.
 
 **EXAM ANGLE:**
-- Current Base Years: CPI = **2012**; WPI = **2011-12**; GDP = **2011-12**; IIP = **2011-12**.
-- Proposed Base Years: CPI = **2024**; WPI = **2017-18**; GDP = **2022-23**; IIP = **2017-18**.
-- CPI Food Weight Shift: Projected to fall from **45.86% to ~39.5%**.
-- WPI Committee: Working Group chaired by **Dr. Ramesh Chand**.
-- Target MCQ Form: "What is the current base year for computing the Consumer Price Index (CPI) combined in India?" → 2012 = 100.
+
+- The Base-Year Exam Trap (High Risk):
+  - *GDP Active Base Year*: **2022–23** (released Feb 2026; do NOT mark 2011–12).
+  - *CPI-Combined Active Base Year*: **2024 = 100** (released Feb 2026; do NOT mark 2012).
+  - *IIP Active Base Year*: **2022–23 = 100** (released June 2026; do NOT mark 2011–12).
+  - *Core Industries (ICI)*: **Base Year 2022–23** with **9 core industries** (Iron Ore added as 9th).
+- Monetary Policy Inflation Anchor: RBI legally targets **CPI-Combined**, NEVER WPI.
+- Services Coverage: CPI includes services; WPI **does NOT include services**.
+- Target MCQ Form: "What is the active base year for the revised Gross Domestic Product (GDP) series released by MoSPI in 2026?" → **2022–23** (replaces 2011–12).
 
 ---
 
@@ -2251,13 +2287,14 @@
   - *\$250 Million*: Industrial Corridor Development Programme to strengthen logistics nodes along the Vizag-Chennai and Delhi-Mumbai corridors.
   - *\$200 Million*: Climate-resilient urban water supply and sanitation projects in **Uttarakhand**.
   - *\$181 Million*: Urban mobility and livability infrastructure in **Ahmedabad peri-urban areas (Gujarat)**.
-- **Headquarters & Governance**: ADB Headquarters located in **Mandaluyong, Metro Manila, Philippines**; President is **Masatsugu Asakawa**.
+- **Headquarters & Governance**: ADB Headquarters located in **Mandaluyong, Metro Manila, Philippines**; President is **Masato Kanda** (assumed office 24 February 2025, succeeding Masatsugu Asakawa; unanimously re-elected in September 2026).
 
 **EXAM ANGLE:**
 
 - ADB Headquarters: **Mandaluyong, Metro Manila, Philippines** (not Tokyo or Jakarta).
+- ADB Leadership: President is **Masato Kanda** (succeeded Masatsugu Asakawa in February 2025).
 - Largest Borrower: **India** is the largest sovereign portfolio borrower of ADB.
-- Target MCQ Form: "Where is the permanent headquarters of the Asian Development Bank (ADB) located?" → Metro Manila, Philippines.
+- Target MCQ Form: "Who is the President of the Asian Development Bank (ADB)?" → **Masato Kanda**.
 
 ---
 
@@ -2926,9 +2963,9 @@
 | **Prompt Corrective Action (PCA) Framework** | RBI Master Direction on PCA for Scheduled Commercial Banks | **Three Trigger Parameters**: 1. **Capital (CRAR / CET1)**, 2. **Asset Quality (Net NPA Ratio >6.0%)**, 3. **Leverage (Tier 1 Leverage Ratio)** | • Return on Assets (RoA) was removed as a PCA trigger.<br>• NBFCs are also covered under a dedicated PCA framework (effective Oct 2022). |
 | **Money Market Tenures** | RBI Master Direction — Money Market Instruments | • **Call Money**: Overnight (1 Day)<br>• **Notice Money**: **2 Days to 14 Days**<br>• **Term Money**: **15 Days to 1 Year** | • Trap: Notice Money is 2 to 14 days (examiners frequently test notice money upper limit = 14 days). |
 | **Lead Bank Scheme** | Gadgil Study Group (1969) & Nariman Committee (1969) | • District Credit Plans (DCP)<br>• **Target Credit-Deposit (CD) Ratio: 60%** | • Recommended by Nariman Committee.<br>• Monitored at district level by Lead District Manager (LDM) and DLCC. |
-| **DICGC Deposit Insurance** | Deposit Insurance and Credit Guarantee Corporation Act, 1961 | • **Statutory Coverage**: **₹5,00,000 (₹5 Lakh)** per depositor per bank (Principal + Interest combined across all branches)<br>• **Premium**: **12 paise per ₹100** deposit per annum (borne 100% by the bank)<br>• **Section 18A Payout**: 90-day interim payout rule (45 days for bank claim compilation + 45 days for DICGC disbursement) | • Covers Commercial, RRB, Local Area, and Cooperative Banks.<br>• Excludes foreign government deposits, central/state government deposits, and inter-bank deposits.<br>• Trap: ₹5 Lakh limit applies per bank, not per branch or account. |
+| **DICGC Deposit Insurance** | Deposit Insurance and Credit Guarantee Corporation Act, 1961 | • **Statutory Coverage**: **₹5,00,000 (₹5 Lakh)** per depositor per bank (Principal + Interest combined across all branches)<br>• **Premium**: **12 paise per ₹100** deposit per annum (borne 100% by the bank)<br>• **Section 18A Payout**: 90-day interim payout rule (Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment made within subsequent 15 days; statutory breakdown: 45 + 30 + 15 = 90 days) | • Covers Commercial, RRB, Local Area, and Cooperative Banks.<br>• Excludes foreign government deposits, central/state government deposits, and inter-bank deposits.<br>• Trap: ₹5 Lakh limit applies per bank, not per branch or account. |
 | **Payment Systems Windows & Limits** | Payment and Settlement Systems Act, 2007 (PSS Act) | • **RTGS**: Minimum **₹2,00,000 (₹2 Lakh)**; No maximum limit; 24x7x365<br>• **NEFT**: Minimum **₹1**; No maximum limit; 24x7x365 (half-hourly batches)<br>• **IMPS**: Capped at **₹5,00,000 (₹5 Lakh)** per day<br>• **UPI**: Standard **₹1,00,000**; **₹5,00,000** for Hospital/Educational/Tax/IPO/RBI Retail Direct | • RTGS minimum floor is ₹2 Lakh (NEFT has no minimum floor).<br>• IMPS daily cap is ₹5 Lakh.<br>• Tax payments via UPI elevated to ₹5 Lakh in 2024. |
-| **Priority Sector Lending (PSL) Targets** | RBI Master Directions — Priority Sector Lending (PSL) | • **Total PSL Target**: **40% of ANBC** for Scheduled Commercial Banks & Foreign Banks (≥20 branches)<br>• **RRBs & Small Finance Banks (SFBs)**: **75% of ANBC**<br>• **Urban Co-operative Banks (UCBs)**: Glide path to **75% of ANBC by March 31, 2026**<br>• **Sub-Targets**: Agriculture = **18%** (Small & Marginal Farmers = **10%**); Micro Enterprises = **7.5%**; Weaker Sections = **12%** | • Foreign banks with <20 branches have 40% PSL target, out of which up to 32% can be in exports.<br>• UCB target moves to 75% by March 31, 2026. |
+| **Priority Sector Lending (PSL) Targets** | RBI Master Directions — Priority Sector Lending (PSL) | • **Commercial Banks (Domestic & Foreign ≥20 branches)**: **40% of ANBC** (or CEOBSE)<br>• **Regional Rural Banks (RRBs)**: **75% of ANBC**<br>• **Small Finance Banks (SFBs)**: **60% of ANBC** (effective FY 2025–26; rationalised from 75%)<br>• **Urban Co-operative Banks (UCBs)**: **60% of ANBC or CEOBSE** (effective 1 April 2025 under PSL Directions 2025)<br>• **Sub-Targets**: Agriculture = **18%** (Small & Marginal Farmers = **10%**); Micro Enterprises = **7.5%**; Weaker Sections = **12%** | • Foreign banks with <20 branches have 40% PSL target (up to 32% in exports).<br>• Shortfalls allocated to RIDF (NABARD), UIDF (NHB), or SIDBI/MUDRA funds.<br>• UCB target established at 60% of ANBC/CEOBSE from 1 April 2025 (superseding earlier 75% glide path). |
 | **Cheque Truncation & Positive Pay (PPS)** | Negotiable Instruments Act, 1881 & PSS Act, 2007 | • **CTS Clearing**: Transition to continuous clearing within a few hours<br>• **PPS Thresholds**: Voluntary at **₹50,000+**; Mandatory at banks' discretion at **₹5,00,000+** | • Developed by NPCI.<br>• Only PPS-compliant cheques are admissible under CTS dispute mechanism. |
 
 ---
@@ -2948,7 +2985,7 @@
 | **Atal Pension Yojana (APY)** | **May 9, 2015**<br>PFRDA / MoF | Central Sector | All citizens aged **18 to 40 years** (*Income taxpayers excluded since Oct 1, 2022*) | • Unorganized sector pension scheme; minimum 20 years contribution.<br>• Guaranteed monthly pension: **₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000** from age 60.<br>• Pension continues to spouse upon death; corpus returned to nominee. |
 | **Pradhan Mantri MUDRA Yojana (PMMY)** | **April 8, 2015**<br>MoF (DFS) / SIDBI | Central Sector Refinance | Non-corporate, non-farm micro/small enterprises | • Collateral-free institutional micro-credit.<br>• **Shishu**: Loans up to **₹50,000**.<br>• **Kishore**: Loans **> ₹50,000 up to ₹5 Lakh**.<br>• **Tarun**: Loans **> ₹5 Lakh up to ₹10 Lakh**.<br>• **Tarun Plus (Budget 2024–25)**: Ceiling enhanced to **₹20 Lakh** for past repayers who repaid Tarun loans. |
 | **Stand-Up India Scheme** | **April 5, 2016**<br>MoF (DFS) / SIDBI | Central Sector | SC/ST and Women entrepreneurs (age 18+) | • Bank loans between **₹10 Lakh and ₹1 Crore** for greenfield enterprises (manufacturing, services, agri-allied, trading).<br>• At least one SC/ST and one Woman borrower per bank branch; margin money reduced to **up to 15%**; extended up to 2025. |
-| **PM-SYM (Pradhan Mantri Shram Yogi Maan-dhan)** | **Feb 2019**<br>Ministry of Labour | Central Sector (50:50 matching) | Unorganized workers aged **18 to 40** with monthly income $le$ ₹15,000 | • Guaranteed monthly pension of **₹3,000** after attaining age 60.<br>• Matching 50:50 monthly contribution (₹55 to ₹200/month by beneficiary, matched by Centre). Managed by LIC. |
+| **PM-SYM (Pradhan Mantri Shram Yogi Maan-dhan)** | **Feb 2019**<br>Ministry of Labour | Central Sector (50:50 matching) | Unorganized workers aged **18 to 40** with monthly income ≤ ₹15,000 | • Guaranteed monthly pension of **₹3,000** after attaining age 60.<br>• Matching 50:50 monthly contribution (₹55 to ₹200/month by beneficiary, matched by Centre). Managed by LIC. |
 
  **Bucket 1 Exam Traps**:
 - *MUDRA Direct Lending Trap*: MUDRA does NOT lend directly to citizens; it is a statutory refinance agency under SIDBI. Commercial banks, RRBs, and MFIs disburse the loans.
@@ -2980,7 +3017,7 @@
 | **MGNREGA** | **Act 2005** (launched Feb 2, 2006)<br>Ministry of Rural Development | Centrally Sponsored (100% unskilled wage by Centre; 75% material by Centre) | • Statutory guarantee of **at least 100 days of wage employment** per financial year to every rural household whose adult members volunteer for unskilled manual work.<br>• Unemployment allowance mandated if work is not provided within **15 days** of application.<br>• Social audit mandatory by Gram Sabha. |
 | **Pradhan Mantri Awas Yojana - Gramin (PMAY-G)** | **Nov 20, 2016**<br>Ministry of Rural Development | CSS (60:40 general; 90:10 NE/Himalayan) | • Unit assistance: **₹1,20,000** in plains and **₹1,30,000** in hilly/NE/difficult areas.<br>• Plus 90/95 days of unskilled labour under MGNREGS (~₹25,000) + ₹12,000 for toilet under SBM-G.<br>• Minimum house size: **25 sq. metres**. Union Cabinet approved constructing additional **2 Crore rural houses** over next 5 years (FY 2024–2029). |
 | **Pradhan Mantri Gram Sadak Yojana (PMGSY)** | **Dec 25, 2000**<br>Ministry of Rural Development | CSS (60:40 general; 90:10 NE) | • All-weather road connectivity to unconnected rural habitations (population 500+ in plains; 250+ in hill/desert/tribal areas).<br>• **PMGSY-IV** approved in 2024 to provide 62,500 km all-weather roads to 25,000 unconnected habitations with outlay of **₹70,125 Crore**. |
-| **DAY-NRLM (Deendayal Antyodaya Yojana - NRLM)** | **June 2011**<br>Ministry of Rural Development | CSS (60:40 general; 90:10 NE) | • Institutional mobilization into Women SHGs.<br>• Interest subvention reduces loan interest to **7%** for loans up to ₹3 Lakh (further 3% PRI drops rate to **4%**). Indian Bank is Central Nodal Bank.<br>• **Lakhpati Didi Initiative**: Target to enable **3 Crore rural SHG women** to earn an annual income of $ge$ **₹1,00,000 (₹1 Lakh)**. |
+| **DAY-NRLM (Deendayal Antyodaya Yojana - NRLM)** | **June 2011**<br>Ministry of Rural Development | CSS (60:40 general; 90:10 NE) | • Institutional mobilization into Women SHGs.<br>• Interest subvention reduces loan interest to **7%** for loans up to ₹3 Lakh (further 3% PRI drops rate to **4%**). Indian Bank is Central Nodal Bank.<br>• **Lakhpati Didi Initiative**: Target to enable **3 Crore rural SHG women** to earn an annual income of ≥ **₹1,00,000 (₹1 Lakh)**. |
 
  **Bucket 3 Exam Traps**:
 - *Lakhpati Didi Target Trap*: The enhanced target is **3 Crore women** (raised from 2 Crore in Interim Budget 2024).
@@ -3049,7 +3086,7 @@
 #### Bucket 8: MSME Ecosystem, Industrial Manufacturing & Commerce
 | Scheme Name | Launch Date & Nodal Ministry | Core Provisions, Ceilings & Financial Architecture |
 | :--- | :--- | :--- |
-| **MSME Classification & Udyam Portal** | **July 1, 2020**<br>MoMSME | • Composite criteria of Investment in Plant/Machinery and Annual Turnover:<br>• **Micro**: Investment $le$ **₹1 Crore** AND Turnover $le$ **₹5 Crore**.<br>• **Small**: Investment $le$ **₹10 Crore** AND Turnover $le$ **₹50 Crore**.<br>• **Medium**: Investment $le$ **₹50 Crore** AND Turnover $le$ **₹250 Crore**.<br>• Mandatory registration on **Udyam Registration Portal** based on self-declaration linked to PAN & GSTIN. |
+| **MSME Classification & Udyam Portal** | **July 1, 2020**<br>MoMSME | • Composite criteria of Investment in Plant/Machinery and Annual Turnover:<br>• **Micro**: Investment ≤ **₹1 Crore** AND Turnover ≤ **₹5 Crore**.<br>• **Small**: Investment ≤ **₹10 Crore** AND Turnover ≤ **₹50 Crore**.<br>• **Medium**: Investment ≤ **₹50 Crore** AND Turnover ≤ **₹250 Crore**.<br>• Mandatory registration on **Udyam Registration Portal** based on self-declaration linked to PAN & GSTIN. |
 | **Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)** | **Aug 2000**<br>MoMSME & SIDBI (80:20 ratio) | • Collateral-free credit guarantee coverage for MSE loans.<br>• Guarantee ceiling enhanced to **₹5 Crore** per borrower.<br>• Guarantee coverage up to **85%** for micro-enterprises (loans up to ₹5 Lakh) and women/SC/ST/aspirational districts; 75% for general category. Annual guarantee fee reduced to 0.37%. |
 | **PM-MITRA (PM Mega Integrated Textile Region and Apparel)** | **Oct 2021**<br>Ministry of Textiles | • Total outlay: **₹4,445 Crore**; Development of **7 Mega Textile Parks** located in: Tamil Nadu (Virudhunagar), Telangana (Warangal), Gujarat (Navsari), Karnataka (Kalaburagi), Madhya Pradesh (Dhar), Uttar Pradesh (Lucknow), and Maharashtra (Amravati).<br>• Plug-and-play world-class industrial infrastructure. |
 | **Production Linked Incentive (PLI) Schemes** | **2020** (expanded under Atmanirbhar Bharat)<br>Nodal: Respective Ministries / NITI Aayog | • Total allocated financial incentive outlay: **₹1.97 Lakh Crore** across **14 strategic manufacturing sectors** (Automobiles, Telecom, Pharmaceuticals, Solar PV Modules, Advanced Chemistry Cell Batteries, Electronic/Tech Products, White Goods, Textiles, etc.). |
@@ -3084,7 +3121,7 @@
 | **National Green Hydrogen Mission** | **Jan 4, 2023**<br>MNRE | • Initial financial outlay: **₹19,744 Crore**.<br>• Target: Green hydrogen production capacity of at least **5 Million Metric Tonnes (MMT) per annum** with associated renewable energy capacity addition of ~125 GW by **2030**.<br>• Strategic Interventions for Green Hydrogen Transition (SIGHT) programme: ₹17,490 Cr incentive for electrolyser manufacturing and green hydrogen production. |
 
  **Bucket 10 Exam Traps**:
-- *PM Surya Ghar Subsidy Maximum Cap*: Capped at **₹78,000** for $ge$ 3 kW systems (₹30,000 for 1 kW, ₹60,000 for 2 kW).
+- *PM Surya Ghar Subsidy Maximum Cap*: Capped at **₹78,000** for ≥ 3 kW systems (₹30,000 for 1 kW, ₹60,000 for 2 kW).
 - *Jal Jeevan Mission Water Metric*: Exactly **55 litres per capita per day (lpcd)**.
 - *PM-PRANAM Budget Allocation*: It has **NO separate budgetary outlay**; funded strictly by recycling 50% of chemical fertilizer subsidy savings!
 
@@ -3129,17 +3166,17 @@
 
 | Regulatory Mechanism | Governing Act & Section | Statutory Timeframe / Threshold Value | Operational Rule & High-Yield Examiner Trap |
 | :--- | :--- | :--- | :--- |
-| **DICGC Moratorium Claim Settlement** | **Section 18A**, DICGC Act, 1961 (Amended 2021) | **90 Days Total** (45 days Bank + 45 days DICGC) | When RBI places a bank under all-inclusive Directions/Moratorium, depositors receive up to **₹5 Lakh** within 90 days. *Trap: Bank gets 45 days to submit claims, DICGC gets next 45 days to verify and disburse.* Authorized capital: **₹50 Crore**. |
+| **DICGC Moratorium Claim Settlement** | **Section 18A**, DICGC Act, 1961 (Amended 2021) | **90 Days Total** (45 + 30 + 15 = 90 days) | When RBI places a bank under all-inclusive Directions/Moratorium, depositors receive up to **₹5 Lakh** within 90 days. *Trap: Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment is made within subsequent 15 days; overall statutory limit = 90 days (45 + 30 + 15 = 90 days).* Authorized capital: **₹50 Crore**. |
 | **Monetary Policy Committee (MPC) Minutes** | **Section 45ZL**, RBI Act, 1934 | **14th Day** post meeting | Resolution is published on the day of the meeting; detailed minutes (voting record and member statements) published on the **14th day**. MPC has **6 members**, quorum is **4 members**; Governor holds casting vote. |
 | **Cash Reserve Ratio (CRR)** | **Section 42(1)**, RBI Act, 1934 | No statutory floor or ceiling | Maintained with RBI in cash. Maintained on Net Demand and Time Liabilities (NDTL). RBI pays **0% interest** on CRR. *Trap: 2006 amendment removed the historical 3% floor and 20% ceiling.* |
 | **Statutory Liquidity Ratio (SLR)** | **Section 24**, Banking Regulation Act, 1949 | Maximum ceiling: **40%** (No floor) | Maintained by banks with themselves in gold, unencumbered approved securities, or cash. *Trap: 2007 amendment removed the 25% floor; ceiling remains 40%.* |
-| **Priority Sector Lending (PSL) Targets** | RBI Master Directions - Priority Sector Lending | • Commercial Banks: **40%** of ANBC<br>• SFBs: **75%** of ANBC<br>• RRBs: **75%** of ANBC<br>• UCBs: **75%** of ANBC (by March 2026) | Sub-targets for domestic commercial banks: **Agriculture 18%** (with **10%** for Small & Marginal Farmers / SMF); **Micro Enterprises 7.5%**; **Weaker Sections 12%**. Shortfall funds go to **RIDF (NABARD)**. |
-| **Urban Co-operative Banks (UCB) 4-Tier Framework** | RBI Master Directions based on N.S. Vishwanathan Committee | • **Tier 1**: Deposits \$le\$ ₹100 Cr (CRAR **9%**)<br>• **Tier 2**: Deposits > ₹100 Cr to ₹1,000 Cr (CRAR **12%**)<br>• **Tier 3**: Deposits > ₹1,000 Cr to ₹10,000 Cr (CRAR **12%**)<br>• **Tier 4**: Deposits > ₹10,000 Cr (CRAR **12%**) | Minimum net worth: ₹2 Crore for unit UCBs (single district); ₹5 Crore for all other UCBs. Tiers 2 to 4 must maintain **12% CRAR**; Tier 1 UCBs maintain **9% CRAR**. |
-| **Liberalised Remittance Scheme (LRS)** | FEMA, 1999 & RBI Master Directions | **\$250,000** per financial year | Available to resident individuals including minors. Tax Collected at Source (TCS): **0% up to ₹7 Lakh**; **20% above ₹7 Lakh** for overseas tours/general remittance (**5%** if loan for overseas education under Sec 80E). |
+| **Priority Sector Lending (PSL) Targets** | RBI Master Directions - Priority Sector Lending | • Commercial Banks: **40%** of ANBC<br>• SFBs: **60%** of ANBC (effective FY 2025–26)<br>• RRBs: **75%** of ANBC<br>• UCBs: **60%** of ANBC or CEOBSE (effective 1 April 2025) | Sub-targets for domestic commercial banks: **Agriculture 18%** (with **10%** for Small & Marginal Farmers / SMF); **Micro Enterprises 7.5%**; **Weaker Sections 12%**. Shortfall funds go to **RIDF (NABARD)**. |
+| **Urban Co-operative Banks (UCB) 4-Tier Framework** | RBI Master Directions based on N.S. Vishwanathan Committee | • **Tier 1**: Deposits ≤ ₹100 Cr (CRAR **9%**)<br>• **Tier 2**: Deposits > ₹100 Cr to ₹1,000 Cr (CRAR **12%**)<br>• **Tier 3**: Deposits > ₹1,000 Cr to ₹10,000 Cr (CRAR **12%**)<br>• **Tier 4**: Deposits > ₹10,000 Cr (CRAR **12%**) | Minimum net worth: ₹2 Crore for unit UCBs (single district); ₹5 Crore for all other UCBs. Tiers 2 to 4 must maintain **12% CRAR**; Tier 1 UCBs maintain **9% CRAR**. |
+| **Liberalised Remittance Scheme (LRS)** | FEMA, 1999 & RBI Master Directions | **$250,000** per financial year | Available to resident individuals including minors. Tax Collected at Source (TCS): **0% up to ₹7 Lakh**; **20% above ₹7 Lakh** for overseas tours/general remittance (**5%** if loan for overseas education under Sec 80E). |
 | **Statutory Currency & Coin Denomination Limits** | **Section 24**, RBI Act, 1934 & **Section 6**, Coinage Act, 2011 | • Banknotes: Up to **₹10,000**<br>• Coins: Up to **₹1,000** | RBI can issue banknotes up to denomination of ₹10,000. Under Coinage Act 2011, coins can be minted up to ₹1,000 denomination. *Trap: ₹1 notes and coins are issued by Ministry of Finance, not RBI.* |
 | **Ways and Means Advances (WMA)** | **Section 17(5)**, RBI Act, 1934 | Repayable within **3 Months (90 Days)** | Clean advances extended by RBI to Central and State Governments to bridge temporary cash flow mismatches between revenue and expenditure. Interest rate: Repo rate for normal WMA. |
 | **Treasury Bills (T-Bills) & CMBs** | RBI Public Debt Operations | • 91-day, 182-day, 364-day tenors<br>• Minimum: **₹10,000** and multiples thereof | Zero-coupon promissory notes auctioned on Wednesdays. Cash Management Bills (CMBs) have maturity **< 91 days** to meet temporary cash mismatches. |
-| **Turnaround Time for Grievances (Ombudsman / CPGRAMS / Bima Bharosa)** | Statutory Citizen Charters | • RB-IOS (RBI): **30 days**<br>• CPGRAMS: **21 days**<br>• Bima Bharosa (IRDAI): **14 days** | Reserve Bank - Integrated Ombudsman Scheme (RB-IOS 2021) covers complaints resolved within 30 days (compensation up to ₹20 Lakh + ₹1 Lakh for mental harassment). CPGRAMS tightened to **21 days** in 2024. Bima Bharosa mandates **14 days** resolution. |
+| **Turnaround Time for Grievances (Ombudsman / CPGRAMS / Bima Bharosa)** | Statutory Citizen Charters | • RB-IOS (RBI): **30 days**<br>• CPGRAMS: **21 days**<br>• Bima Bharosa (IRDAI): **14 days** | Reserve Bank - Integrated Ombudsman Scheme covers complaints resolved within 30 days (RB-IOS 2021: up to ₹20L loss + ₹1L mental agony; enhanced under RB-IOS 2026 from 1 July 2026: up to ₹30L loss + ₹3L mental agony). CPGRAMS tightened to **21 days** in 2024. Bima Bharosa mandates **14 days** resolution. |
 
 ---
 

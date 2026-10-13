@@ -1,7 +1,7 @@
-# RAPID REVISION MATRIX: CHAPTER 26
+# RAPID REVISION MATRIX: CHAPTER 28
 
 **Topic**: Data Sufficiency & Analytical Decision Logic  
-**Shelf**: 007 (Sovereign Master Knowledge Bastion)
+**Shelf**: 007 (Mind of Aravalli)
 
 ---
 
@@ -33,7 +33,10 @@
 ## 2. 60-Second Retrieval Skeleton
 
 ```text
-The Golden DS Rule: DO NOT SOLVE THE PROBLEM! Check ONLY for existence of a UNIQUE solution!
+The Master Sufficiency Criterion:
+➔ For a yes/no question, a statement or combination establishing a definite YES or NO is sufficient.
+➔ For a value question, a single unique numerical value is required.
+➔ Do not compute more than necessary to establish sufficiency! Check ONLY for existence of a UNIQUE solution!
 ➔ Cognitive Firewall: Evaluate Stmt (2) in total isolation from Stmt (1) (Prevent information leakage!)
 ➔ Binary Question Law: A definitive "NO" is 100% SUFFICIENT!
 ➔ Quadratic Danger: x² = k produces TWO roots (±√k) unless physical bounds (age, length) apply!

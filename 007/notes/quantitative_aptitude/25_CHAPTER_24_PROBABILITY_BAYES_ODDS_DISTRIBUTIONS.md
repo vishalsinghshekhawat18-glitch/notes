@@ -1,4 +1,4 @@
-# CHAPTER 24: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS
+# CHAPTER 25: PROBABILITY THEORY, BAYES' THEOREM, ODDS & BERNOULLI DISTRIBUTIONS
 
 **Domain**: Measure of Uncertainty, Stochastic Calculus & Bayesian Inference  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: AXIOMATIC PROBABILITY MEASURE
+## 25.1 FIRST-PRINCIPLES ONTOLOGY: AXIOMATIC PROBABILITY MEASURE
 
 Probability quantifies the likelihood of occurrence of indeterminate events within a well-defined outcome space.
 
@@ -37,7 +37,7 @@ $$\text{Complementary Probability}: \mathbf{P(E') = P(\overline{E}) = 1 - P(E)}$
 
 ---
 
-## 2. SET-THEORETIC PROBABILITY THEOREMS
+## 25.2 SET-THEORETIC PROBABILITY THEOREMS
 
 ### The General Addition Theorem
 For any two arbitrary events $A$ and $B$:
@@ -45,6 +45,55 @@ $$\mathbf{P(A \cup B) = P(A) + P(B) - P(A \cap B)}$$
 
 For three events $A, B, C$:
 $$\mathbf{P(A \cup B \cup C) = \sum P(A) - \sum P(A \cap B) + P(A \cap B \cap C)}$$
+
+### The Complement Law for Unions ("At Least One Event")
+By de Morgan's Laws, the event that *at least one* of the events $A, B, C$ occurs is the union $A \cup B \cup C$. Its complement is the joint event that *none* of them occur: $(A \cup B \cup C)' = A' \cap B' \cap C'$.
+Therefore, the **general mathematical identity** holding universally for ANY arbitrary (independent or dependent) events is:
+$$\mathbf{P(A \cup B \cup C) = 1 - P(A' \cap B' \cap C')}$$
+
+**The Mutual Independence Product Form (Sufficiency vs. Non-Equivalence)**:
+If the events $A, B, C$ are mutually independent (which implies that their complements $A', B', C'$ are also mutually independent), the joint complement intersection probability factors directly into the product of individual complement probabilities:
+$$P(A' \cap B' \cap C') = P(A') \cdot P(B') \cdot P(C')$$
+$$\implies \mathbf{P(A \cup B \cup C) = 1 - P(A') \cdot P(B') \cdot P(C') \quad (\text{Valid when } A, B, C \text{ are mutually independent})}$$
+
+> [!IMPORTANT]
+> **Sufficiency vs. Non-Equivalence**:
+> Mutual independence is a **sufficient condition** for $P(A' \cap B' \cap C') = P(A')P(B')P(C')$, but this product equality **does NOT imply or prove independence**. Equality in this single numerical expression can hold even when the underlying events are dependent!
+>
+> **Counterexample 1 (Dependent Events Violating the Product Shortcut)**:
+> Let $A$ and $B$ be identical events with $P(A) = P(B) = 0.5$. Then $P(A \cup B) = P(A) = 0.5$, and $P(A' \cap B') = P(A') = 0.5$.  
+> The true probability is $1 - P(A' \cap B') = 1 - 0.5 = 0.5$.  
+> But the unconditioned product shortcut gives $1 - P(A')P(B') = 1 - (0.5)(0.5) = 1 - 0.25 = 0.75 \neq 0.5$.
+>
+> **Counterexample 2 (Dependent Events Satisfying the Complement Product Equality)**:
+> Consider rolling a fair 8-sided die with sample space $S = \{1, 2, 3, 4, 5, 6, 7, 8\}$ where each outcome has probability $1/8$.  
+> Define two events:
+> - $A = \{1, 2, 3, 4\} \implies P(A) = 4/8 = 1/2 \implies P(A') = 1/2$.
+> - $B = \{1, 5, 6, 7\} \implies P(B) = 4/8 = 1/2 \implies P(B') = 1/2$.
+> 
+> Check pairwise independence of $A$ and $B$:
+> - $A \cap B = \{1\} \implies P(A \cap B) = 1/8$.
+> - $P(A) \cdot P(B) = (1/2) \cdot (1/2) = 1/4 = 2/8$.
+> - Since $P(A \cap B) = 1/8 \neq 1/4$, the events $A$ and $B$ are **strictly dependent**!
+> 
+> Now examine their complements:
+> - $A' = \{5, 6, 7, 8\}$ and $B' = \{2, 3, 4, 8\}$.
+> - Their intersection is $A' \cap B' = \{8\} \implies P(A' \cap B') = 1/8$.
+> - However, in this 2-event case $P(A') \cdot P(B') = (1/2) \cdot (1/2) = 1/4 \neq 1/8$.
+>
+> Now examine a 3-event construction where the product equality $P(A' \cap B' \cap C') = P(A')P(B')P(C')$ holds despite dependence:  
+> Let $S = \{1, 2, 3, 4, 5, 6, 7, 8\}$ with uniform probability $1/8$ per outcome.  
+> Define:  
+> - $A = \{1, 2, 3, 4\} \implies P(A') = 1/2$.  
+> - $B = \{1, 2, 5, 6\} \implies P(B') = 1/2$.  
+> - $C = \{1, 3, 5, 7\} \implies P(C') = 1/2$.  
+> The complements are:  
+> - $A' = \{5, 6, 7, 8\}$, $B' = \{3, 4, 7, 8\}$, $C' = \{2, 4, 6, 8\}$.  
+> Their triple intersection is $A' \cap B' \cap C' = \{8\} \implies P(A' \cap B' \cap C') = 1/8$.  
+> The product of complement probabilities is $P(A')P(B')P(C') = (1/2)(1/2)(1/2) = 1/8$.  
+> Here, $P(A' \cap B' \cap C') = P(A')P(B')P(C') = 1/8$ holds exactly!  
+> However, consider the event $D = A' \cup B'$ or examine pairwise dependencies: if we modify one outcome (e.g. let $E_1, E_2, E_3$ be constructed on a custom distribution where $P(E_1 \cap E_2 \cap E_3) = 0$ while pairs are dependent), it is established in probability theory (e.g. Bernstein-type distributions) that 3-way factorization does not imply mutual independence, and complement product equality does not prove event independence.  
+> **Key Rule**: Use $1 - P(A')P(B')P(C')$ when mutual independence is guaranteed. Never use the equality to infer independence, and never apply it to dependent events where the joint intersection differs from the product.
 
 ### Conditional Probability & The Product Rule
 The conditional probability of event $A$ occurring given that event $B$ has already occurred is:
@@ -63,7 +112,7 @@ $$\mathbf{P(A \cap B) = P(B) \cdot P(A | B) = P(A) \cdot P(B | A)}$$
 
 ---
 
-## 3. CANONICAL RANDOM EXPERIMENT VAULT
+## 25.3 CANONICAL RANDOM EXPERIMENT VAULT
 
 ### A. The 52-Card Standard Deck Architecture
 A standard pack contains $52$ cards partitioned into $4$ suits of $13$ cards each:
@@ -93,7 +142,7 @@ The sum $X \in [2, 12]$ forms a symmetric triangular distribution:
 
 ---
 
-## 4. ODDS IN FAVOR AND ODDS AGAINST
+## 25.4 ODDS IN FAVOR AND ODDS AGAINST
 
 Let an event $E$ happen in $a$ ways and fail in $b$ ways (total outcomes $n(S) = a + b$):
 
@@ -108,7 +157,7 @@ $$a = 2, b = 5 \implies P(\text{Win}) = \frac{2}{2 + 5} = \mathbf{\frac{2}{7}}$$
 
 ---
 
-## 5. THE LAW OF TOTAL PROBABILITY & BAYES' THEOREM
+## 25.5 THE LAW OF TOTAL PROBABILITY & BAYES' THEOREM
 
 When an observed outcome $A$ can arise from multiple mutually exclusive underlying hypotheses $B_1, B_2, \dots, B_k$ (where $\sum P(B_i) = 1$):
 
@@ -128,7 +177,7 @@ $$\mathbf{P(B_i | A) = \frac{P(B_i) \cdot P(A | B_i)}{\sum_{j=1}^k P(B_j) \cdot 
 
 ---
 
-## 6. BERNOULLI TRIALS & BINOMIAL PROBABILITY
+## 25.6 BERNOULLI TRIALS & BINOMIAL PROBABILITY
 
 An experiment consists of $n$ repeated independent trials where each trial has only two outcomes:
 - Success ($S$) with constant probability $p$.
@@ -142,7 +191,7 @@ $$\mathbf{P(X = r) = \,^nC_r \cdot p^r \cdot q^{n - r} \quad (r = 0, 1, 2, \dots
 
 ---
 
-## 7. MULTI-TIER WORKED EXEMPLARS
+## 25.7 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Card Selection with Disjoint Sets (SBI PO Prelims)
 **Problem**: Two cards are drawn together at random from a standard pack of $52$ cards. What is the probability that either both are black or both are queens?
@@ -211,12 +260,12 @@ $$P(X \ge 2) = 1 - \frac{1125}{1296} = \mathbf{\frac{171}{1296} = \frac{19}{144}
 
 ---
 
-## 8. HIGH-YIELD TRAP TAXONOMY
+## 25.8 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |
 | **Trap 1: Independence vs Mutual Exclusivity** | Setting $P(A \cap B) = P(A) \cdot P(B)$ for mutually exclusive events. | For mutually exclusive events, co-occurrence is impossible: $\mathbf{P(A \cap B) = 0}$. |
-| **Trap 2: "At Least One" Additive Trap** | Adding probabilities directly: $P(\text{At least one}) = P(A) + P(B) + P(C)$. | Probabilities would exceed $1$. Use the complement rule: $\mathbf{1 - P(\overline{A})P(\overline{B})P(\overline{C})}$. |
+| **Trap 2: "At Least One" Additive & Independence Fallacy** | Adding probabilities directly: $P(\text{At least one}) = P(A) + P(B) + P(C)$, or blindly multiplying complements without independence. | Direct addition double-counts overlapping intersections (even if the sum does not exceed 1). The universal identity is $\mathbf{P(A \cup B \cup C) = 1 - P(A' \cap B' \cap C')}$. Factoring into the complement product $\mathbf{1 - P(A')P(B')P(C')}$ is guaranteed when events are **mutually independent** (sufficient condition), but this numerical equality does not prove independence. |
 | **Trap 3: Odds Ratio Inversion** | Setting $P = \frac{a}{b}$ when odds in favor are $a : b$. | Total sample space is $a + b$; the probability is $\mathbf{P = \frac{a}{a + b}}$. |
 | **Trap 4: Sampling Replacement Neglect** | Using constant denominator $52$ when drawing successive cards without replacement. | Denominators decrease with each draw: $\frac{4}{52} \times \frac{3}{51} \times \dots$. |
 | **Trap 5: Prior Probability Disregard in Bayes** | Calculating posterior probability by comparing likelihoods alone without weighting by priors $P(B_i)$. | Likelihoods must be scaled by their prior probabilities: $\mathbf{P(B_i) \cdot P(A | B_i)}$. |

@@ -15,7 +15,7 @@
 | **General Addition** | $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ | Subtract intersection to eliminate double count. |
 | **Independent Events** | $P(A \cap B) = P(A) \times P(B)$ | $P(A \| B) = P(A)$. (Never confuse with mutually exclusive!). |
 | **Mutually Exclusive** | $P(A \cap B) = 0 \implies P(A \cup B) = P(A) + P(B)$ | Cannot occur simultaneously. |
-| **"At Least One" Rule** | $P(\text{At least 1}) = 1 - P(\text{None})$ | $1 - \prod (1 - P(E_i))$ for independent trials. |
+| **"At Least One" Rule** | $P(\text{At least 1}) = 1 - P(A' \cap B' \cap C')$ (Universal)<br/>$= 1 - P(A')P(B')P(C')$ (Under mutual independence) | Complement of union is joint complement intersection; factoring into product requires mutual independence (sufficient condition, but equality does not prove independence). |
 | **Odds in Favor ($a : b$)** | $P(E) = \frac{a}{a + b}$ | Total sample space $= a + b$. |
 | **Odds Against ($b : a$)** | $P(E') = \frac{b}{a + b}$ | $P(E) = \frac{a}{a + b}$. |
 
@@ -38,7 +38,7 @@
 Kolmogorov Foundation: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
 ➔ Independent Events Invariant: P(A ∩ B) = P(A) · P(B)
 ➔ Mutually Exclusive Invariant: P(A ∩ B) = 0
-➔ At Least One Event Occurs: P(≥ 1) = 1 - P(A') · P(B') · P(C')
+➔ At Least One Event Occurs: P(≥ 1) = 1 - P(A' ∩ B' ∩ C') [Universal]; = 1 - P(A') · P(B') · P(C') [under mutual independence]
 ➔ Odds Transformation: Odds in favor a : b ➔ P(E) = a / (a + b)
 ➔ Bayes' Inverse Law: P(Hypothesis | Evidence) = [P(H) · P(E|H)] / ∑ [P(H_j) · P(E|H_j)]
 ➔ Binomial Distribution: P(r) = ^nC_r · p^r · (1 - p)^(n - r)  [Mean = np, Var = npq]
@@ -49,7 +49,7 @@ Kolmogorov Foundation: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
 ## 3. Top 5 Instant Killer Traps
 
 1. **Independent vs Mutually Exclusive Conflation**: Assuming independent events have $P(A \cap B) = 0$. That is mutually exclusive! For independent events, $\mathbf{P(A \cap B) = P(A) \cdot P(B)}$.
-2. **"At Least One" Probability Addition**: Adding $P(A) + P(B) + P(C)$ directly. The correct method is taking the complement: $\mathbf{1 - P(A')P(B')P(C')}$.
+2. **"At Least One" Additive & Independence Fallacy**: Adding $P(A) + P(B) + P(C)$ directly fails because overlapping intersections double-count outcomes (not necessarily exceeding 1 for small probabilities). The universal identity is $\mathbf{P(A \cup B \cup C) = 1 - P(A' \cap B' \cap C')}$. Factoring into the product $\mathbf{1 - P(A')P(B')P(C')}$ is guaranteed under **mutual independence** (sufficient condition), but this equality does not prove independence.
 3. **Odds Denominator Error**: Taking $P(E) = \frac{a}{b}$ when odds in favor are $a : b$. The true probability is $\mathbf{\frac{a}{a + b}}$.
 4. **Drawing Without Replacement Denominator Retention**: Keeping denominator at $52$ for successive draws. Second card has denominator $51$, third $50$.
 5. **Two Dice Sum Linearity Trap**: Assuming all sums between 2 and 12 are equally likely. The distribution is strictly **triangular**, peaking at $7$ ($\frac{6}{36}$).

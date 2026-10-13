@@ -1,7 +1,7 @@
-# RAPID REVISION MATRIX: CHAPTER 27
+# RAPID REVISION MATRIX: CHAPTER 30
 
 **Topic**: The Grand Synthesis Master Revision & 50 Deadliest Trap Vault  
-**Shelf**: 007 (Sovereign Master Knowledge Bastion)
+**Shelf**: 007 (Mind of Aravalli)
 
 ---
 
@@ -11,10 +11,10 @@
 
 | Primitive | Mathematical Manifestation | Master Governing Law | Representative Chapters |
 | :--- | :--- | :--- | :--- |
-| **Conservation** | Sum of deviations $= 0$; Volume invariant | Value cannot be created or destroyed. | Ch 12 (Avg), Ch 16 (Mix), Ch 22 (3D) |
-| **Rate Dynamics** | $\text{Rate} = \frac{d(\text{Output})}{dt}$ | Progress is cumulative over time. | Ch 17 (Work), Ch 18 (Pipes), Ch 19–20 (TSD) |
-| **Proportionality** | $\frac{A_1}{A_2} = \left(\frac{B_1}{B_2}\right)^k$ | Multiplicative scaling across bases. | Ch 10 (Pct), Ch 11 (Ratio), Ch 13 (P&L), Ch 14–15 (SI/CI) |
-| **Discrete Topology** | Sample space partitioning, arrangements | Enumeration without brute-force listing. | Ch 04 (Factors), Ch 23 (P&C), Ch 24 (Prob) |
+| **Conservation** | Sum of deviations $= 0$; Volume invariant | Value cannot be created or destroyed. | Ch 13 (Avg), Ch 17 (Mix), Ch 23 (3D) |
+| **Rate Dynamics** | $\text{Rate} = \frac{d(\text{Output})}{dt}$ | Progress is cumulative over time. | Ch 18 (Work), Ch 19 (Pipes), Ch 20–21 (TSD) |
+| **Proportionality** | $\frac{A_1}{A_2} = \left(\frac{B_1}{B_2}\right)^k$ | Multiplicative scaling across bases. | Ch 11 (Pct), Ch 12 (Ratio), Ch 14 (P&L), Ch 15–16 (SI/CI) |
+| **Discrete Topology** | Sample space partitioning, arrangements | Enumeration without brute-force listing. | Ch 05 (Factors), Ch 24 (P&C), Ch 25 (Prob) |
 
 ---
 
@@ -24,7 +24,7 @@
 | :---: | :--- | :--- | :--- |
 | **1** | **Alternating Cistern Overshoot** | Dividing total volume by 2-min cycle rate. | Tank fills during **positive inlet phase**; drain never operates once full! |
 | **2** | **Dual Pie Chart Naked Comparison** | Comparing percentage slices across two charts. | Absolute magnitude $= \% \times \text{Chart Total Base}$. |
-| **3** | **Data Sufficiency "No" Trap** | Assuming a "No" answer means insufficient. | A definitive "NO" answers the question with $100\%$ certainty! |
+| **3** | **Data Sufficiency Determination Trap** | Assuming a "No" answer means insufficient. | A definitive "NO" answers the question with $100\%$ certainty; a unique value is required for value questions! |
 | **4** | **Bowling Average "Improvement"** | Adding $0.5$ runs when bowler improves. | Bowling average is runs per wicket; improvement means **decreasing**! |
 | **5** | **Three-Term Inverse Ratio** | Inverting $2 : 3 : 4$ into $4 : 3 : 2$. | Inverse is $\frac{1}{2} : \frac{1}{3} : \frac{1}{4} = \mathbf{6 : 4 : 3}$. |
 | **6** | **Dishonest Merchant Scale Base** | Dividing weight error by nominal $1000\text{g}$. | Cost is incurred only on goods given: divide by **actual dispensed weight**. |
@@ -46,17 +46,17 @@ The Grand Mathematical Synthesis:
 ➔ CI-SI Differences: D₂ = P(R/100)² ; D₃/D₂ = 3 + R/100
 ➔ Repeated Dilution: Liquid = V(1 - x/V)ⁿ
 ➔ Time & Work Phantom: T = (W_actual + η_leaver · d) / (η_A + η_B)
-➔ Cross-Meeting Invariant: v_A / v_B = √(T_B / T_A)  ;  Meeting Time t = √(T_A · T_B)
-➔ Geometry Essentials: Semicircle Perim = (36/7)r ; Equilateral Δ = (√3/4)a² ; Hemisphere TSA = 3πr²
+➔ Cross-Meeting Invariant: v_A / v_B = √(T_B / T_A)  ;  Meeting Time t = √(T_A · T_B)  [where T_A, T_B are post-meeting travel times to destinations]
+➔ Geometry Essentials: Semicircle Perim = (π + 2)r [exact] ; = (36/7)r [when π = 22/7] ; Equilateral Δ = (√3/4)a² ; Hemisphere TSA = 3πr²
 ➔ Combinatorics: Stars & Bars (x≥0) = ^(n+k-1)C_(k-1) ; Derangements D₄=9, D₅=44
-➔ Probability: P(A ∪ B) = P(A) + P(B) - P(A ∩ B) ; Bayes: P(B_i|A) = [P(B_i)P(A|B_i)] / Total_Prob
-➔ Data Sufficiency: DO NOT SOLVE! Check uniqueness of solution only!
+➔ Probability: P(A ∪ B) = P(A) + P(B) - P(A ∩ B) ; At Least One = 1 - P(A' ∩ B' ∩ C') [= 1 - P(A')P(B')P(C') under mutual independence; equality does not prove independence] ; Bayes: P(B_i|A) = [P(B_i)P(A|B_i)] / Total_Prob
+➔ Data Sufficiency: Yes/No requires definite YES or NO; Value requires unique value! Do not compute more than necessary!
 ```
 
 ---
 
-## 3. THE MASTER SOVEREIGN CREED
+## 3. THE MASTER EXAM CREED
 
-> *"A true master of quantitative aptitude never memorizes formulas in isolation. They perceive the conservation of mass and money behind every mixture, the geometry of vectors behind every moving train, the discrete partitions behind every combination, and the strict logic of existence behind every sufficient data set."*
+> *"A disciplined student never memorizes formulas in isolation. They perceive the conservation of value behind every mixture, the geometry of vectors behind every moving train, the discrete partitions behind every combination, and the strict logic of uniqueness behind every sufficient data set."*
 
 $$\blacksquare \quad \text{END OF REVISION MATRICES: QUANTITATIVE APTITUDE SOVEREIGN CODEX} \quad \blacksquare$$

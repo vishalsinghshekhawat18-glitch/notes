@@ -1,4 +1,4 @@
-# CHAPTER 18: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES
+# CHAPTER 19: PIPES, CISTERNS, LEAKAGE DYNAMICS & NEGATIVE WORK CYCLES
 
 **Domain**: Hydrostatic Flow Rates, Negative Work Vectoring & Asymmetric Cyclical Boundaries  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: POSITIVE AND NEGATIVE WORK VECTORS
+## 19.1 FIRST-PRINCIPLES ONTOLOGY: POSITIVE AND NEGATIVE WORK VECTORS
 
 Problems in pipes and cisterns are structurally isomorphic to Time and Work, with one profound physical divergence: **the presence of negative work vectors (outlets, waste pipes, and structural leaks)**.
 
@@ -40,7 +40,7 @@ If $\sum r_{\text{in}} < \sum r_{\text{out}}$, a full cistern empties in time $T
 
 ---
 
-## 2. THE BOTTOM LEAKAGE DERIVATION
+## 19.2 THE BOTTOM LEAKAGE DERIVATION
 
 A classic examination model tests the retarding effect of an unknown bottom fissure:
 - An inlet pump fills a cistern in $T$ hours when operating alone.
@@ -62,7 +62,7 @@ $$T_{\text{leak}} = \frac{3 \times 3.5}{3.5 - 3} = \frac{10.5}{0.5} = \mathbf{21
 
 ---
 
-## 3. ELEVATION-SEGMENTED & MULTI-TIER TANKS
+## 19.3 ELEVATION-SEGMENTED & MULTI-TIER TANKS
 
 In standard problems, leaks are assumed to sit at the tank bottom ($h = 0$). In advanced CAT and Banking Mains problems, leaks or outlets are located at specific elevations along the tank wall.
 
@@ -79,7 +79,7 @@ Let a cylindrical tank of total height $H$ and capacity $V$ have an outlet locat
 
 ---
 
-## 4. THE ASYMMETRIC ALTERNATING CYCLE PARADOX (THE CISTERN MONKEY TRAP)
+## 19.4 THE ASYMMETRIC ALTERNATING CYCLE PARADOX (THE CISTERN MONKEY TRAP)
 
 Consider an empty tank of capacity $V$.
 - Pipe $A$ (Inlet) is opened for 1 minute: fills $+a$ units.
@@ -112,7 +112,7 @@ A student naively calculates:
 
 ---
 
-## 5. VOLUMETRIC CAPACITY RECOVERY (COUPLING TIME & PHYSICAL RATES)
+## 19.5 VOLUMETRIC CAPACITY RECOVERY (COUPLING TIME & PHYSICAL RATES)
 
 When problems state that an emptying pipe discharges a specific physical flow rate (e.g., "$c$ litres per minute"):
 
@@ -126,7 +126,7 @@ When problems state that an emptying pipe discharges a specific physical flow ra
 
 ---
 
-## 6. MULTI-TIER WORKED EXEMPLARS
+## 19.6 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Three-Conduit Ingress/Egress Network (SBI PO Prelims)
 **Problem**: A cistern has two filling taps $A$ and $B$ which can fill it in $12$ minutes and $15$ minutes respectively. There is also an emptying waste pipe $C$. When all three pipes are opened simultaneously, the empty cistern is completely filled in $20$ minutes. How long will waste pipe $C$ take alone to empty the full cistern?
@@ -188,7 +188,7 @@ $$\mathbf{T_{\text{total}} = 40 + 1 = 41 \text{ hours}}$$
 
 ---
 
-## 7. HIGH-YIELD TRAP TAXONOMY
+## 19.7 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

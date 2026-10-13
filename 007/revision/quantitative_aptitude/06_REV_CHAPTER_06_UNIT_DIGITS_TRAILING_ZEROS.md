@@ -23,7 +23,7 @@
 | :--- | :--- | :--- |
 | **Ending in 1**<br/>$(10a + 1)^n$ | Units $= 1$<br/>Tens $= (a \times \text{last digit of } n) \pmod{10}$ | $31^{42} \implies \text{Units } 1, \text{ Tens } (3 \times 2) = 6 \implies \mathbf{61}$ |
 | **Ending in 3, 7, 9** | Convert to ending in 1 via $3^4 = 81, 7^4 = \dots01, 9^2 = 81$ | $7^{40} = (01)^{10} = \mathbf{01}$ |
-| **Power of 2** | $2^{10\times\text{even}} \equiv 76$; $2^{10\times\text{odd}} \equiv 24$<br/>$76 \times 2^k \equiv 2^k \pmod{100}$ | $2^{54} = 2^{50} \times 2^4 = 24 \times 16 = 384 \implies \mathbf{84}$ |
+| **Power of 2** | $2^{10\times\text{even}} \equiv 76$; $2^{10\times\text{odd}} \equiv 24$<br/>$76 \times 2^k \equiv 2^k \pmod{100} \text{ (for } k \ge 2\text{)}$ | $2^{54} = 2^{50} \times 2^4 = 24 \times 16 = 384 \implies \mathbf{84}$ |
 
 ---
 

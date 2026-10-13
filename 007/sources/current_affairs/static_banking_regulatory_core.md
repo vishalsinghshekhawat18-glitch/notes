@@ -174,6 +174,10 @@
   - **Strait of Malacca**: Connects the **Andaman Sea (Indian Ocean)** with the **South China Sea (Pacific Ocean)**; situated between Peninsular Malaysia and the Indonesian island of Sumatra; shortest sea route between Persian Gulf energy suppliers and Asian consumers.
   - **Bosphorus & Dardanelles Straits (Turkish Straits)**: Connects the **Black Sea** to the Mediterranean Sea via the Sea of Marmara; international transit governed by the **1936 Montreux Convention**.
   - **Palk Strait**: Connects the **Bay of Bengal** with the **Palk Bay / Gulf of Mannar** between Tamil Nadu (India) and the Jaffna Peninsula (Sri Lanka).
+
+![Critical Maritime Choke Points & Global Trade Routes](/images/maritime_choke_points.jpg)
+*Figure STA-006: Critical Global Maritime Choke Points (Turkish Straits, Hormuz, Bab-el-Mandeb, Palk Strait, Malacca) and Primary Strategic Petroleum/Cargo Transit Routes.*
+
 - **Core Environmental Treaties & Global Maritime Organizations**:
   - **Paris Climate Agreement (COP21, 2015)**: Adopted under UNFCCC; overarching objective is to hold the increase in global average temperature to **well below 2°C** above pre-industrial levels and aggressively pursue efforts to **limit the temperature increase to 1.5°C**.
   - **BIMCO (Baltic and International Maritime Council)**: World's largest non-governmental association of shipowners, operators, and maritime charterers; established in Copenhagen, Denmark in 1905; represents over 60% of commercial cargo fleet.

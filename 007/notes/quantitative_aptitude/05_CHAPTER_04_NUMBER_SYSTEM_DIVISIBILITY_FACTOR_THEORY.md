@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 04: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION, FACTOR SUMS & TOTIENT THEORY
+# CHAPTER 05: DIVISIBILITY INVARIANTS, PRIME FACTORIZATION & FACTOR THEORY
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 1: Numbers, pp. 3–50)
@@ -10,7 +10,7 @@
 
 ---
 
-## 4.1 Number Classification & Set Topography
+## 5.1 Number Classification & Set Topography
 
 Human mathematical systems organize real numbers into nested hierarchical sets:
 
@@ -60,7 +60,7 @@ To test if an integer $N$ is prime:
 
 ---
 
-## 4.2 Universal Divisibility Invariants & Modular Proofs
+## 5.2 Universal Divisibility Invariants & Modular Proofs
 
 Divisibility tests are mathematical consequences of the decimal representation $N = \sum_{i=0}^{n} d_i 10^i$.
 
@@ -128,7 +128,7 @@ $$C \mid N \iff a \mid N \quad \text{and} \quad b \mid N \quad \mathbf{\text{if 
 
 ---
 
-## 4.3 The Complete Factor Analysis Suite
+## 5.3 The Complete Factor Analysis Suite
 
 By the **Fundamental Theorem of Arithmetic**, every integer $N > 1$ can be expressed uniquely as:
 $$N = p_1^{a_1} p_2^{a_2} p_3^{a_3} \dots p_k^{a_k}$$
@@ -172,7 +172,7 @@ where $p_1, p_2, \dots, p_k$ are distinct prime numbers and $a_1, a_2, \dots, a_
 
 ---
 
-## 4.4 Euler's Totient Function $\phi(N)$
+## 5.4 Euler's Totient Function $\phi(N)$
 
 Euler's Totient function $\phi(N)$ counts the number of positive integers less than or equal to $N$ that are **coprime to $N$** (i.e., $\gcd(x, N) = 1$).
 
@@ -197,7 +197,7 @@ $$\phi(N) = N \left(1 - \frac{1}{p_1}\right)\left(1 - \frac{1}{p_2}\right)\dots\
 
 ---
 
-## 4.5 Top Examiner Traps in Divisibility & Factors
+## 5.5 Top Examiner Traps in Divisibility & Factors
 
 1. **The Non-Coprime Composite Divisibility Trap**:
    Assuming that a number divisible by both $4$ and $6$ is divisible by $24$. This is false! For example, $12$ is divisible by both $4$ and $6$, but NOT by $24$. You must factor into coprime parts: $3$ and $8$.

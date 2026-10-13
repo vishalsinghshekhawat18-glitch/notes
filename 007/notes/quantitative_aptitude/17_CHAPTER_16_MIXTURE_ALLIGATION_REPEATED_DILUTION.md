@@ -1,4 +1,4 @@
-# CHAPTER 16: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS
+# CHAPTER 17: ALLIGATION, MULTI-COMPONENT MIXTURES & REPEATED DILUTION INVARIANTS
 
 **Domain**: Concentration Dynamics, Ratio Blending & Succession Calculus  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES DERIVATION OF THE ALLIGATION ENGINE
+## 17.1 FIRST-PRINCIPLES DERIVATION OF THE ALLIGATION ENGINE
 
 The Rule of Alligation (derived from Latin *alligare*, meaning "to bind together") is not an ad-hoc examination trick. It is the exact visual and algebraic transformation of the **Weighted Arithmetic Mean**.
 
@@ -51,7 +51,7 @@ $$\mathbf{q_c : q_d = (d - m) : (m - c)}$$
 
 ---
 
-## 2. THE DIMENSION CONSISTENCY LAW (THE THREE-TERM AXIOM)
+## 17.2 THE DIMENSION CONSISTENCY LAW (THE THREE-TERM AXIOM)
 
 The single most fatal mistake in commercial arithmetic is mixing discordant metrics within the cross diagram.
 
@@ -76,7 +76,7 @@ When water is added to milk, spirit, wine, or chemical solutions to dilute and i
 
 ---
 
-## 3. MULTI-VESSEL MIXTURES & FRACTIONAL ALLIGATION
+## 17.3 MULTI-VESSEL MIXTURES & FRACTIONAL ALLIGATION
 
 When two or more vessels containing liquid solutions of varying ratios are blended:
 
@@ -98,7 +98,7 @@ When equal quantities from $k$ vessels are mixed into a single vat:
 
 ---
 
-## 4. THE REPEATED DILUTION INVARIANT (SUCCESSIVE REPLACEMENT)
+## 17.4 THE REPEATED DILUTION INVARIANT (SUCCESSIVE REPLACEMENT)
 
 A classic problem archetype in CAT, Banking PO, and Regulatory exams involves repeated withdrawal and substitution.
 
@@ -129,7 +129,7 @@ The mixture is thoroughly stirred, and the process of withdrawing $x$ units and 
 
 ---
 
-## 5. MULTI-TIER WORKED EXEMPLARS
+## 17.5 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: The SP De-Escalation Alligation (SBI PO Mains)
 **Problem**: In what ratio must a grocer mix two varieties of tea costing ₹$60/\text{kg}$ and ₹$65/\text{kg}$ respectively so that by selling the mixture at ₹$68.20/\text{kg}$, he may gain $10\%$ profit?
@@ -198,7 +198,7 @@ The cask originally held **$24$ litres** of wine.
 
 ---
 
-## 6. HIGH-YIELD TRAP TAXONOMY
+## 17.6 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

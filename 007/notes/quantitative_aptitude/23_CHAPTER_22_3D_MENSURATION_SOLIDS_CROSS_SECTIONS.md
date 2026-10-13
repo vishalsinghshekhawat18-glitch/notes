@@ -1,4 +1,4 @@
-# CHAPTER 22: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION
+# CHAPTER 23: 3D MENSURATION: SOLIDS, FRUSTUMS, CROSS-SECTIONS & VOLUME CONSERVATION
 
 **Domain**: Spatial Geometry, Polyhedral Mensuration & Volumetric Transformations  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: SPATIAL MEASURE & BOUNDARY SURFACES
+## 23.1 FIRST-PRINCIPLES ONTOLOGY: SPATIAL MEASURE & BOUNDARY SURFACES
 
 Three-dimensional mensuration governs the quantification of bounded continuous subsets in Euclidean 3-space ($\mathbb{R}^3$):
 
@@ -38,7 +38,7 @@ Three-dimensional mensuration governs the quantification of bounded continuous s
 
 ---
 
-## 2. CANONICAL SOLIDS MASTER INVENTORY
+## 23.2 CANONICAL SOLIDS MASTER INVENTORY
 
 ### A. Cuboids & Cubes
 Let length be $l$, breadth $b$, height $h$.
@@ -99,7 +99,7 @@ $$\mathbf{\text{TSA} = \pi (R + r) l + \pi R^2 + \pi r^2}$$
 
 ---
 
-## 3. VOLUMETRIC CONSERVATION & MELTING INVARIANTS
+## 23.3 VOLUMETRIC CONSERVATION & MELTING INVARIANTS
 
 ### Invariant 1: Recasting and Melting
 Matter is conserved under thermal phase change and mechanical reforming:
@@ -122,7 +122,7 @@ Where $\Delta h$ represents the vertical rise in fluid level.
 
 ---
 
-## 4. MULTI-TIER WORKED EXEMPLARS
+## 23.4 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Longest Interior Diagonal of a Room (SBI PO Prelims)
 **Problem**: Find the length of the longest pole that can be placed inside a rectangular hall $10 \text{ m}$ long, $10 \text{ m}$ wide, and $5 \text{ m}$ high.
@@ -179,7 +179,7 @@ The water level rises by exactly **$2 \text{ cm}$**.
 
 ---
 
-## 5. HIGH-YIELD TRAP TAXONOMY
+## 23.5 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

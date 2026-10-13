@@ -1,4 +1,4 @@
-# CHAPTER 17: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS
+# CHAPTER 18: TIME, WORK, EFFICIENCY & ALTERNATE-DAY MECHANICS
 
 **Domain**: Rate Dynamics, Discrete Labor Cycles & Output Conservation  
 **Target Examinations**: SBI/IBPS PO & Clerk, RBI Grade B (Phase 1), CAT/XAT, UPSC CSAT, State PCS (RPSC RAS)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. FIRST-PRINCIPLES ONTOLOGY: WORK CONSERVATION & EFFICIENCY
+## 18.1 FIRST-PRINCIPLES ONTOLOGY: WORK CONSERVATION & EFFICIENCY
 
 Physical work ($W$) is treated in quantitative aptitude as a conserved scalar quantity. The execution of work across continuous or discrete time ($T$) is governed by the rate of execution, termed **Efficiency ($\mathbf{\eta}$)**.
 
@@ -26,7 +26,7 @@ $$\mathbf{T_A : T_B : T_C = \frac{1}{\eta_A} : \frac{1}{\eta_B} : \frac{1}{\eta_
 
 ---
 
-## 2. THE LCM TOTAL-WORK ENGINE (ELIMINATING FRACTIONAL DRAG)
+## 18.2 THE LCM TOTAL-WORK ENGINE (ELIMINATING FRACTIONAL DRAG)
 
 The classical textbook method of adding fractional rates ($\frac{1}{a} + \frac{1}{b} + \frac{1}{c}$) introduces severe cognitive drag and error vulnerability. The sovereign standard is the **Integer LCM Work Paradigm**:
 
@@ -54,7 +54,7 @@ The classical textbook method of adding fractional rates ($\frac{1}{a} + \frac{1
 
 ---
 
-## 3. PAIRWISE WORK DECOMPOSITION NETWORKS
+## 18.3 PAIRWISE WORK DECOMPOSITION NETWORKS
 
 In high-difficulty competitive examinations, labor rates are frequently given in overlapping bilateral pairings:
 - $(A + B)$ complete work in $T_{AB}$ days $\implies \eta_{AB} = \eta_A + \eta_B = \frac{W}{T_{AB}}$
@@ -70,7 +70,7 @@ $$\mathbf{\eta_A = \eta_{ABC} - \eta_{BC}}, \quad \mathbf{\eta_B = \eta_{ABC} - 
 
 ---
 
-## 4. DYNAMIC LABOR INGRESS, EGRESS & PHANTOM EXTENSION
+## 18.4 DYNAMIC LABOR INGRESS, EGRESS & PHANTOM EXTENSION
 
 Real-world examination scenarios feature workers joining late or abandoning the site before completion.
 
@@ -93,7 +93,7 @@ Worker $A$ leaves the project $d$ days **before scheduled completion**.
 
 ---
 
-## 5. MODULAR ALTERNATING-DAY CYCLES
+## 18.5 MODULAR ALTERNATING-DAY CYCLES
 
 When workers execute tasks on successive days in rotation (e.g., $A$ on Day 1, $B$ on Day 2, $C$ on Day 3, $A$ on Day 4...):
 
@@ -113,7 +113,7 @@ When workers execute tasks on successive days in rotation (e.g., $A$ on Day 1, $
 
 ---
 
-## 6. THE UNIVERSAL CHAIN RULE & MAN-HOUR EQUIVALENCE
+## 18.6 THE UNIVERSAL CHAIN RULE & MAN-HOUR EQUIVALENCE
 
 For variable labor forces executing variable scales of work under fluctuating daily schedules:
 
@@ -134,7 +134,7 @@ Convert all heterogeneous agents into normalized "Standard Labor Units" before a
 
 ---
 
-## 7. WAGE ALLOCATION INVARIANTS
+## 18.7 WAGE ALLOCATION INVARIANTS
 
 Economic remuneration for contract work follows an immutable physical law:
 
@@ -147,7 +147,7 @@ Economic remuneration for contract work follows an immutable physical law:
 
 ---
 
-## 8. MULTI-TIER WORKED EXEMPLARS
+## 18.8 MULTI-TIER WORKED EXEMPLARS
 
 ### Exemplar 1: Pairwise Network Decomposition (SBI PO Prelims)
 **Problem**: $A$ and $B$ can complete a work in $12$ days; $B$ and $C$ in $15$ days; $C$ and $A$ in $20$ days. In how many days can $A$ alone complete the entire work?
@@ -216,7 +216,7 @@ $$42 = \frac{42 \times D_2 \times 8}{150} \implies 1 = \frac{8 \cdot D_2}{150} \
 
 ---
 
-## 9. HIGH-YIELD TRAP TAXONOMY
+## 18.9 HIGH-YIELD TRAP TAXONOMY
 
 | Trap Identifier | Erroneous Heuristic | Mathematical Correction |
 | :--- | :--- | :--- |

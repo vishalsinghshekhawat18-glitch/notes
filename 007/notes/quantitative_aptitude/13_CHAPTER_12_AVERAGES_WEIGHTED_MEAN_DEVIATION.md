@@ -1,6 +1,6 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 12: AVERAGES, WEIGHTED MEAN, ASSUMED MEAN METHOD & AGE DYNAMICS
+# CHAPTER 13: AVERAGES, WEIGHTED MEAN & ASSUMED MEAN METHOD
 
 **Canonical Sources Unified**:
 * Dr. R.S. Aggarwal, *Quantitative Aptitude* (Ch. 6: Average, pp. 206–239)
@@ -10,7 +10,7 @@
 
 ---
 
-## 12.1 The Definition & Fundamental Sum Invariant
+## 13.1 The Definition & Fundamental Sum Invariant
 
 The **Arithmetic Mean (Average)** of $n$ observations is the quotient obtained by dividing the sum of all observations by their total count:
 
@@ -26,7 +26,7 @@ $$\mathbf{\text{Average } (\bar{X}) = \frac{\sum_{i=1}^{n} x_i}{n} \implies \tex
 
 ---
 
-## 12.2 The Assumed Mean (Deviation) Algorithm
+## 13.2 The Assumed Mean (Deviation) Algorithm
 
 Calculating large sums by hand invites arithmetic error. The **Assumed Mean Method** chooses a convenient benchmark number $A$ proximate to the cluster, calculating deviations:
 
@@ -47,7 +47,7 @@ $$\mathbf{\bar{X} = A + \frac{\sum_{i=1}^{n} (x_i - A)}{n}}$$
 
 ---
 
-## 12.3 Weighted Mean & Multi-Group Aggregation
+## 13.3 Weighted Mean & Multi-Group Aggregation
 
 When combining two groups with counts $n_1, n_2$ and averages $\bar{X}_1, \bar{X}_2$:
 
@@ -63,7 +63,7 @@ $$\mathbf{\frac{n_1}{n_2} = \frac{\bar{X}_2 - \bar{X}_{\text{combined}}}{\bar{X}
 
 ---
 
-## 12.4 Insertion, Departure & Replacement Dynamics
+## 13.4 Insertion, Departure & Replacement Dynamics
 
 ### 1. Replacement Mechanics (One Entity Replaces Another)
 When one person of weight $W_{\text{old}}$ is replaced by a new person of weight $W_{\text{new}}$ in a group of $n$ people, causing the average to change by $\Delta$:
@@ -94,7 +94,7 @@ $$\mathbf{\text{Value of Departing Member} = \text{Old Average} + [n_{\text{new}
 
 ---
 
-## 12.5 Consecutive Numbers & Arithmetic Progressions
+## 13.5 Consecutive Numbers & Arithmetic Progressions
 
 For any sequence of numbers in **Arithmetic Progression (AP)** with common difference $d$:
 $$\mathbf{\text{Average} = \frac{\text{First Term} + \text{Last Term}}{2}}$$
@@ -120,7 +120,7 @@ $$\mathbf{\text{Average} = \frac{\text{First Term} + \text{Last Term}}{2}}$$
 
 ---
 
-## 12.6 Cricket Batting & Bowling Average Analytics
+## 13.6 Cricket Batting & Bowling Average Analytics
 
 ### 1. Batting Average
 $$\mathbf{\text{Batting Average} = \frac{\text{Total Runs Scored}}{\text{Total Number of Innings OUT}}}$$
@@ -146,7 +146,7 @@ $$\mathbf{\text{Bowling Average} = \frac{\text{Total Runs Conceded}}{\text{Total
 
 ---
 
-## 12.7 Top Examiner Traps in Averages
+## 13.7 Top Examiner Traps in Averages
 
 1. **The Bowling Average "Improvement" Sign Trap**:
    When a question states *"a bowler's average improves by 0.5 runs"*, students add $0.5$. In cricket, bowling average is runs per wicket, so an improvement means **subtracting 0.5**!

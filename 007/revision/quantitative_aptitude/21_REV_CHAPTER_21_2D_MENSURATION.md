@@ -28,7 +28,7 @@
 | **Inside Path** | $\text{Area} = 2w(l + b - 2w)$ | $w$ = pathway width. |
 | **Central Crossroads** | $\text{Area} = w(l + b - w)$ | Subtracts central square overlap $w^2$. |
 | **Regular $n$-gon Diagonals** | $\frac{n(n - 3)}{2}$ | Exterior angle $= \frac{360^\circ}{n}$. |
-| **Semicircle Perimeter** | $\pi r + 2r = \frac{36}{7} r$ | Includes straight boundary diameter $2r$! |
+| **Semicircle Perimeter** | $P = \pi r + 2r = (\pi + 2)r$ (Exact)<br/>$= \frac{36}{7}r$ (when taking $\pi = \frac{22}{7}$) | Includes straight boundary diameter $2r$! |
 
 ---
 
@@ -43,7 +43,7 @@ Heron's Formula: Δ = √[s(s - a)(s - b)(s - c)]  [s = (a + b + c)/2]
     - Outside: 2w(l + b + 2w)
     - Inside:  2w(l + b - 2w)
     - Crossroads: w(l + b - w)
-➔ Semicircle Perimeter: (36/7) · r  [for π ≈ 22/7]
+➔ Semicircle Perimeter: P = (π + 2)r [exact] ; = (36/7)r [when π = 22/7]
 ➔ Wheel Rolling Revolutions: Distance = N × (2πr)
 ```
 
@@ -51,7 +51,7 @@ Heron's Formula: Δ = √[s(s - a)(s - b)(s - c)]  [s = (a + b + c)/2]
 
 ## 3. Top 5 Instant Killer Traps
 
-1. **Semicircular Boundary Omission**: Omitting diameter ($2r$) in semicircle perimeter, using only arc length $\pi r$. Total perimeter is $\mathbf{\pi r + 2r = \frac{36}{7} r}$.
+1. **Semicircular Boundary Omission**: Omitting diameter ($2r$) in semicircle perimeter, using only arc length $\pi r$. Total perimeter is exact $\mathbf{P = \pi r + 2r = (\pi + 2)r}$, simplifying to $\mathbf{\frac{36}{7} r}$ only when taking $\pi = \frac{22}{7}$.
 2. **Central Crossroads Double-Count**: Simply adding $(l \cdot w) + (b \cdot w)$. The central square $w^2$ must be subtracted: $\mathbf{w(l + b - w)}$.
 3. **Right Triangle Circumradius Confusion**: Calculating circumradius using complex formulas instead of noticing circumcenter is the **midpoint of hypotenuse** ($R = c/2$).
 4. **Rhombus Side-Diagonal Relation**: Writing $a^2 = d_1^2 + d_2^2$ instead of $a = \sqrt{(d_1/2)^2 + (d_2/2)^2} \iff \mathbf{4a^2 = d_1^2 + d_2^2}$.
