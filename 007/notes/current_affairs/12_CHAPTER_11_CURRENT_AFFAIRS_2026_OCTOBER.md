@@ -1,18 +1,4 @@
 # CHAPTER 11 • OCTOBER 2026 CONSOLIDATED MASTER DOSSIER (OCTOBER 1–10)
-## THE SENIOR PAPER-SETTER STRIKE DOSSIER (REGULATORY CODES, MONETARY FLUIDITY & SOVEREIGN BENCHMARKS)
-
----
-
-### CURRICULAR ORIENTATION & TAXONOMY
-
-This chapter encapsulates verified daily policy releases, statutory gazette notifications, central sector scheme guidelines, and financial market directives across **October 1 to October 10, 2026**. 
-
-Every entry is codified into an atomic proposition cluster (`[OCT-001]` to `[OCT-150]`), structured according to the Four-Layer Separation model:
-- **Statutory Source Grounding**: Verbatim references to bare acts, RBI circular dates, notifications, and committee charters.
-- **Substance-Preserving Ladder Prose**: Dense nested bullets capturing thresholds, penalty periods, and operational ratios without conversational filler.
-- **Full-Container Exam Angle Boxes**: Explicit alerts for multi-statement traps, numerical distractor grids, and objective examination MCQs.
-
----
 
 ## 1. 🏛️ REGULATORY BODIES, BANKING & FINANCIAL MARKETS
 

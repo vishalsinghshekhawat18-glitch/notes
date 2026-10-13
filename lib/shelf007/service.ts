@@ -71,8 +71,12 @@ function extractSectionsFromMarkdown(content: string): Shelf007SectionItem[] {
     const match = line.match(/^##\s+(.+)$/);
     if (match) {
       if (currentLines.length > 0) {
+        const substantive = currentLines
+          .filter((l) => !l.startsWith('# ') && !l.includes('page-break') && !l.startsWith('---') && l.trim().length > 0)
+          .join('\n')
+          .trim();
         const body = currentLines.join('\n').trim();
-        if (body.length > 0) {
+        if (body.length > 0 && substantive.length > 0) {
           sections.push({
             id: `sec-${order}`,
             slug: `sec-${order}`,
