@@ -70,7 +70,7 @@ const CHRONO_META: Record<
   },
   'chapter-11': {
     tag: 'OCT 2026',
-    period: 'October 1–10 (Latest Ingest)',
+    period: 'October 1–13 (Latest Ingest)',
     isLatest: true,
     badgeStyle: 'bg-emerald-50 text-emerald-900 border-emerald-300 font-semibold',
   },
@@ -702,7 +702,7 @@ export function Shelf007AcademicTOC({
                                 {isLatest && (
                                   <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-[10px] font-bold uppercase tracking-wider animate-pulse">
                                     <Sparkles className="w-3 h-3 text-emerald-700" />
-                                    <span>Latest Ingest (Oct 1–10)</span>
+                                    <span>Latest Ingest (Oct 1–13)</span>
                                   </span>
                                 )}
                               </div>
@@ -793,7 +793,7 @@ export function Shelf007AcademicTOC({
                           {/* Dossier Action Bar */}
                           <div className="border-t border-[#E8E2D5] pt-3 flex items-center justify-between">
                             <span className="text-[11px] font-mono text-[#5A7365]">
-                              {isLatest ? '150 Units Synthesized' : 'Canonical Evidence Base'}
+                              {isLatest ? '153 Units Synthesized' : 'Canonical Evidence Base'}
                             </span>
 
                             <Link

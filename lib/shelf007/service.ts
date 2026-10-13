@@ -470,7 +470,7 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
     } else if (title.includes('CHAPTER 10: COMPUTER APTITUDE')) {
       title = 'Computer Aptitude, Digital Banking Systems & Cybersecurity Master';
     } else if (title.includes('CHAPTER 11 • OCTOBER 2026') || title.includes('OCTOBER 2026 CONSOLIDATED')) {
-      title = 'October 2026 Consolidated Master Dossier (October 1–10)';
+      title = 'October 2026 Consolidated Master Dossier (October 1–13)';
     }
     
     const description = extractDescriptionFromMarkdown(

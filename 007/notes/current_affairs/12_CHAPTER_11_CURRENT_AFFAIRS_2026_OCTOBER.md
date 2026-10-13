@@ -1,4 +1,4 @@
-# CHAPTER 11 • OCTOBER 2026 CONSOLIDATED MASTER DOSSIER (OCTOBER 1–10)
+# CHAPTER 11 • OCTOBER 2026 CONSOLIDATED MASTER DOSSIER (OCTOBER 1–13)
 
 ## 1. 🏛️ REGULATORY BODIES, BANKING & FINANCIAL MARKETS
 
@@ -1790,3 +1790,31 @@
 - Prize Origin: Established **1968 by Sveriges Riksbank** (first awarded 1969; not in Alfred Nobel's original will).
 - Target Exam MCQ: *"Who was awarded the 2026 Nobel Memorial Prize in Economic Sciences for microeconomic foundations of macroeconomic stabilisation?"* → **Robert E. Hall and Michael Woodford**.
 
+
+---
+
+[OCT-152] **President Droupadi Murmu Announces Six-State Gubernatorial Reshuffle**
+- **Constitutional Appointments & Transfers (Oct 13, 2026)**:
+  - President Droupadi Murmu notified appointments and transfers across **6 states** under **Articles 155 and 156**:
+    - **Karnataka**: **Dr. Sudha Yadav** (Fresh appointment).
+    - **Tamil Nadu**: **Rajendra Vishwanath Arlekar** (Transferred from Kerala; 4th state after HP, Bihar, Kerala).
+    - **Kerala**: **Om Prakash Mathur** (Transferred from Sikkim).
+    - **Odisha**: **Braj Mohan Ram** (Fresh appointment).
+    - **Uttarakhand**: **Dhal Singh Bisen** (Fresh appointment).
+    - **Sikkim**: **Dushyant Gautam** (Fresh appointment).
+  - Constitutional baseline: Art 153 (Governor for each state / 7th Amendment multi-state provision), Art 155 (Warrant under President's hand and seal), Art 156 (Doctrine of Pleasure).
+
+**EXAM ANGLE:**
+- Reshuffled States (6): **Karnataka, Tamil Nadu, Kerala, Odisha, Uttarakhand, Sikkim**.
+- Transfers: **Rajendra Arlekar** (Kerala → TN); **Om Prakash Mathur** (Sikkim → Kerala).
+- Fresh Governors: **Sudha Yadav** (Karnataka), **Braj Mohan Ram** (Odisha), **Dhal Singh Bisen** (Uttarakhand), **Dushyant Gautam** (Sikkim).
+- Appointment Article: **Article 155**; Tenure: **Article 156(1)** (Pleasure of the President).
+
+---
+
+[OCT-153] **Obituary: Veteran Jharkhand Leader Rupi Soren Passes Away at 80**
+- **Public Life & Bereavement**:
+  - Senior Jharkhand political matriarch Rupi Soren (80), wife of JMM patron Shibu Soren and mother of CM Hemant Soren, passed away in Ranchi.
+
+**EXAM ANGLE:**
+- Personality: **Rupi Soren** (Jharkhand; wife of Shibu Soren, mother of CM Hemant Soren).

@@ -2582,3 +2582,75 @@
 - Founding Year: **1747** (First Military Pay Master).
 - Head of Department: **Controller General of Defence Accounts (CGDA)**.
 - Flagship Pension System: **SPARSH** (serving >33 lakh defence pensioners).
+
+---
+
+📰 [OCT-151] **Robert E. Hall and Michael Woodford Awarded 2026 Nobel Memorial Prize in Economic Sciences**
+
+- **Sovereign Recognition & Official Citation**:
+  - The Royal Swedish Academy of Sciences awarded the **2026 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel** jointly to American economists **Robert E. Hall** (Stanford University) and **Michael Woodford** (Columbia University).
+  - **Official Citation**: *"For microeconomic foundations of macroeconomic stabilisation."*
+  - Prize amount: **12 million Swedish kronor (SEK)** shared equally between the two laureates.
+- **Key Theoretical Breakthroughs & Policy Significance**:
+  - **Michael Woodford (Monetary Policy & The Expectation Channel)**:
+    - Author of *Interest and Prices* (2003); synthesized the foundational **New Keynesian framework**.
+    - Demonstrated that monetary policy stabilization works primarily by **shaping and anchoring private expectations** regarding future policy interest rates (**Forward Guidance**), rather than direct mechanistic targeting of money supply aggregates.
+    - Provided the microeconomic foundation for modern **Flexible Inflation Targeting (FIT)** and central bank transparency.
+  - **Robert E. Hall (Consumption Dynamics & Euler Equation)**:
+    - Formulated the **Random Walk Hypothesis of Consumption** (1978). Under rational expectations and the Permanent Income Hypothesis, forward-looking households smooth consumption over their lifecycle.
+    - Proved that changes in consumption are unpredictable from past income shifts, showing that temporary, anticipated tax cuts produce muted immediate stimulus compared to permanent structural shifts.
+- **Historical & Institutional Context**:
+  - The Economics Prize is **not** one of the original five prizes created by Alfred Nobel's 1895 will. It was instituted in **1968 by Sveriges Riksbank** (Sweden's Central Bank) on its 300th anniversary and first awarded in 1969.
+
+🎯 Exam Angle →
+- 2026 Economics Nobel Laureates: **Robert E. Hall** (Stanford) & **Michael Woodford** (Columbia).
+- Official Citation: *"For microeconomic foundations of macroeconomic stabilisation"*.
+- Key Theories:
+  * **Michael Woodford**: New Keynesian DSGE foundations, Expectation Channel, Forward Guidance, Flexible Inflation Targeting.
+  * **Robert E. Hall**: Random Walk Hypothesis of Consumption (Rational Expectations + Permanent Income Hypothesis).
+- Prize Origin: Instituted in **1968 by Sveriges Riksbank** (Sweden's Central Bank; first awarded 1969).
+
+---
+
+📰 [OCT-152] **President Droupadi Murmu Announces Major Gubernatorial Reshuffle Across Six States (October 13, 2026)**
+
+- **Constitutional Directives & Gubernatorial Authority**:
+  - The President of India, **Droupadi Murmu**, exercising executive constitutional powers under **Article 155 and Article 156** of the Constitution of India, notified a major gubernatorial reshuffle spanning **six states**: Karnataka, Tamil Nadu, Kerala, Odisha, Uttarakhand, and Sikkim.
+  - The notification incorporates two inter-state transfers of sitting Governors and four appointments of fresh constitutional entrants.
+- **State-by-State Appointment & Transfer Ledger**:
+  - **Karnataka**: **Dr. Sudha Yadav** (Member of the Bharatiya Janata Party Parliamentary Board and Central Election Committee) appointed Governor of Karnataka, succeeding the incumbent.
+  - **Tamil Nadu**: **Rajendra Vishwanath Arlekar** transferred from Kerala and appointed Governor of Tamil Nadu. Arlekar has previously discharged gubernatorial duties in Himachal Pradesh and Bihar, as well as serving as Speaker of the Goa Legislative Assembly.
+  - **Kerala**: **Om Prakash Mathur** transferred from Sikkim and appointed Governor of Kerala, succeeding Rajendra Vishwanath Arlekar.
+  - **Odisha**: **Braj Mohan Ram** (former parliamentarian from Jharkhand) appointed Governor of Odisha.
+  - **Uttarakhand**: **Dhal Singh Bisen** (former Member of Parliament from Balaghat, Madhya Pradesh) appointed Governor of Uttarakhand.
+  - **Sikkim**: **Dushyant Gautam** (former BJP National General Secretary) appointed Governor of Sikkim, succeeding Om Prakash Mathur.
+- **Constitutional Jurisprudence & Commission Benchmarks**:
+  - **Article 153**: Mandates a Governor for each State (7th Constitutional Amendment Act, 1956 enabled appointment of the same person as Governor for two or more states).
+  - **Article 156(1)**: The Governor holds office during the **pleasure of the President** (normal term: 5 years from date of entry upon office).
+  - **Sarkaria Commission (1988) & Punchhi Commission (2010)**: Recommended that gubernatorial appointees should be eminent personalities from outside the state, not intimately connected with local politics, and chosen in effective consultation with the state Chief Minister.
+
+🎯 Exam Angle →
+- States in Reshuffle (6): **Karnataka, Tamil Nadu, Kerala, Odisha, Uttarakhand, Sikkim**.
+- Inter-State Transfers (2):
+  - **Kerala → Tamil Nadu**: Rajendra Vishwanath Arlekar.
+  - **Sikkim → Kerala**: Om Prakash Mathur.
+- Fresh Appointments (4):
+  - Karnataka: **Dr. Sudha Yadav**.
+  - Odisha: **Braj Mohan Ram**.
+  - Uttarakhand: **Dhal Singh Bisen**.
+  - Sikkim: **Dushyant Gautam**.
+- Constitutional Basis: **Article 155** (Appointment by President by warrant under hand and seal); **Article 156** (Doctrine of pleasure).
+- 4-State Gubernatorial Tenure: Rajendra Arlekar has now served across **HP, Bihar, Kerala, and Tamil Nadu**.
+
+---
+
+📰 [OCT-153] **Obituary: Veteran Jharkhand Political Figure Rupi Soren Passes Away at 80**
+
+- **Passing & Condolences**:
+  - Senior Jharkhand political matriarch **Rupi Soren** passed away at the age of 80 in Ranchi.
+  - She was the wife of former Union Coal Minister and Jharkhand Mukti Morcha (JMM) founder-patron **Shibu Soren (Guruji)**, and the mother of sitting Jharkhand Chief Minister **Hemant Soren**.
+  - Condolences were conveyed by President Droupadi Murmu, Prime Minister Narendra Modi, and political leadership across party lines, recognizing her role during the Jharkhand statehood struggle.
+
+🎯 Exam Angle →
+- Personality: **Rupi Soren** (Aged 80).
+- State & Affiliation: **Jharkhand** (Matriarch of the Jharkhand Mukti Morcha - JMM; wife of Shibu Soren, mother of CM Hemant Soren).
