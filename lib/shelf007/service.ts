@@ -378,7 +378,7 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
       code: 'CA-007',
       authors: 'The Gazette of India • Supreme Court Constitution Bench • PIB • PRS Legislative Research • The Hindu • The Indian Express',
       description:
-        'Comprehensive sovereign master codex encompassing Static Banking & Regulatory Acts, 2026 Monthly & Quarterly Dossiers (Jan–Sept), IBPS PO / Regulatory Mains 35+ Marks Guarantee Mega-Compendium, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
+        'Comprehensive sovereign master codex encompassing Static Banking & Regulatory Acts, 2026 Monthly & Quarterly Dossiers (Jan–Oct), Banking, Financial Regulation & Sovereign Policy Mega-Synthesis Vault (Q1–Q3), and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
       totalChapters: getCurrentAffairsChapters().length,
       totalWords: getCurrentAffairsChapters().reduce((acc, c) => acc + c.wordCount, 0),
       chips: [
@@ -387,7 +387,7 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'April–July 2026 Dossiers (Ch 03–06)',
         'August 2026 & PIB Coverage (Ch 07)',
         'September 2026 (120 Clusters) (Ch 08)',
-        'IBPS Mains 35+ Mega-Compendium (Ch 09)',
+        'Banking & Policy Synthesis Vault (Ch 09)',
         'Computer Aptitude & CBS Master (Ch 10)',
       ],
     },
@@ -479,8 +479,8 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
       title = 'August 2026 Sovereign Gazette & Macro Synthesis Dossier';
     } else if (title.includes('CHAPTER 08: CURRENT AFFAIRS — SEPTEMBER 2026')) {
       title = 'September 2026 Monetary Corridor & Sectoral Policy Dossier';
-    } else if (title.includes('CHAPTER 09: IBPS PO / CLERK MAINS')) {
-      title = 'IBPS PO & Clerk Mains 35+ Marks Guarantee Mega-Compendium';
+    } else if (title.includes('CHAPTER 09: BANKING, FINANCIAL REGULATION') || title.includes('CHAPTER 09: IBPS PO / CLERK MAINS')) {
+      title = 'Banking, Financial Regulation & Sovereign Policy Mega-Synthesis Vault (Q1–Q3 2026)';
     } else if (title.includes('CHAPTER 10: COMPUTER APTITUDE')) {
       title = 'Computer Aptitude, Digital Banking Systems & Cybersecurity Master';
     } else if (title.includes('CHAPTER 11 • OCTOBER 2026') || title.includes('OCTOBER 2026 CONSOLIDATED')) {
@@ -1554,8 +1554,8 @@ function getRawShelf007PartGroups(
       },
       {
         partNumber: 'PART III',
-        groupTitle: 'Sovereign Multi-Exam 35+ Marks Guarantee Mega-Compendium',
-        groupSubtitle: 'High-scoring January–September 2026 master synthesis: deep recency, policy anchors, Union Budget, flagship missions, distinction matrices & exam trap warning vaults',
+        groupTitle: 'Banking, Financial Regulation & Sovereign Policy Mega-Synthesis Vault',
+        groupSubtitle: 'High-yield January–September 2026 master synthesis: policy anchors, Union Budget, flagship missions, distinction matrices & 10 Curated Strike Grids',
         slugs: ['chapter-09'],
       },
       {

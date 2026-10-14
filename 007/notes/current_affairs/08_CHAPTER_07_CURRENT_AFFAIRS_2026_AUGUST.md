@@ -1817,6 +1817,70 @@
 
 ---
 
+[AUG-134] **Abolition of 2% Equalisation Levy on Foreign E-Commerce Operators**
+
+- **Legislative Enactment**: Enacted under the Finance (No. 2) Act, 2024; formally abolished the **2% Equalisation Levy** previously imposed on non-resident e-commerce operators, effective **August 1, 2024**.
+- **OECD/G20 BEPS Alignment**: Withdrawn to eliminate double taxation friction and align India's digital fiscal policy with the OECD/G20 Inclusive Framework on Base Erosion and Profit Shifting (**BEPS Pillar One**).
+- **Preserved Tax Head**: The original **6% Equalisation Levy** introduced in 2016 on cross-border specified online advertising services remains fully operative and untouched.
+
+**EXAM ANGLE:**
+- Effective Cutoff: Abolition took effect on August 1, 2024 (via Finance (No. 2) Act, 2024).
+- Target Distinction: Only the 2% e-commerce supply levy was abolished; the 6% online advertisement levy remains in force.
+
+---
+
+[AUG-135] **RBI Peer-to-Peer (P2P) Lending NBFC Regulatory Crackdown**
+
+- **Regulatory Directive**: Reserve Bank of India issued stringent revised Master Directions for NBFC-P2P Lending Platforms (August 2024) to curb aggressive onboarding and deceptive risk practices.
+- **Strict Prohibition on Risk Mitigation**: NBFC-P2P platforms are strictly prohibited from providing or arranging credit guarantees, assured/minimum returns, or credit enhancement buffers. Platforms cannot promote P2P lending as an investment product with liquidity guarantees.
+- **Prudential Caps & Escrow Timelines**:
+  - *Aggregate Lender Exposure*: Capped at **₹50 Lakh** across all P2P platforms. For exposure exceeding **₹10 Lakh**, the lender must produce a certificate from a practicing Chartered Accountant certifying net worth of at least ₹50 Lakh.
+  - *Aggregate Borrower Exposure*: Capped at **₹10 Lakh** across all P2P platforms.
+  - *Tenure Limit*: Maximum loan maturity cannot exceed **36 months**.
+  - *Fund Flow Routing*: Mandatory T+1 routing through twin escrow accounts (Lender Escrow and Borrower Escrow) operated by a bank-promoted trustee.
+
+**EXAM ANGLE:**
+- Aggregate Lender Cap: ₹50 Lakh (CA net-worth certificate mandatory above ₹10 Lakh).
+- Aggregate Borrower Cap: ₹10 Lakh; Max loan tenure: 36 months.
+- Core Trap: P2P platforms can NEVER offer credit guarantees, liquidity options, or guaranteed returns.
+
+---
+
+[AUG-136] **BioE3 Policy — High-Performance Biomanufacturing Blueprint**
+
+- **Cabinet Approval & Vision**: Approved by the Union Cabinet (August 2024), the **BioE3 (Biotechnology for Economy, Environment, and Employment) Policy** is India's sovereign blueprint to foster high-performance biomanufacturing.
+- **Nodal Ministry & Department**: Spearheaded by the **Department of Biotechnology (DBT)** under the Ministry of Science and Technology.
+- **Six Strategic Thematic Sectors**:
+  1. Bio-based chemicals and enzymes
+  2. Functional foods and smart proteins
+  3. Precision biotherapeutics
+  4. Climate resilient agriculture
+  5. Carbon capture and utilization
+  6. Futuristic marine and space research
+- **Institutional Architecture**: Establishes national **Bio-foundries** and **Bio-manufacturing Hubs** to bridge the gap between laboratory-scale research and industrial commercialization.
+
+**EXAM ANGLE:**
+- Acronym Breakdown: BioE3 stands for Biotechnology for Economy, Environment, and Employment.
+- Nodal Authority: Department of Biotechnology (DBT), Ministry of Science and Technology.
+
+---
+
+[AUG-137] **Atal Beemit Vyakti Kalyan Yojana (ABVKY) & ESIC Social Security Net Extension**
+
+- **Welfare Framework**: Administered by the **Employees' State Insurance Corporation (ESIC)** under the Ministry of Labour and Employment under the ESI Act, 1948.
+- **Core Benefit & Relief Quantum**: Provides unemployment cash relief to formal sector insured persons who become unemployed involuntarily. Beneficiaries receive **50% of average daily earnings for up to 90 days** in a lifetime.
+- **Eligibility Conditions**:
+  - The insured person must have been in insurable employment for a minimum period of **2 years** prior to unemployment.
+  - The claimant must have contributed for not less than **78 days** in the contribution period immediately preceding unemployment.
+- **Cabinet Extension**: Re-extended through 2026 to safeguard vulnerable workers against sudden industrial displacements and technological restructuring.
+
+**EXAM ANGLE:**
+- Implementing Agency: ESIC (Employees' State Insurance Corporation).
+- Benefit Quantum: 50% of average daily wages for up to 90 days (one-time lifetime benefit).
+- Contribution Qualifying Gate: Minimum 2 years insurable employment + at least 78 days contribution.
+
+---
+
 ## ⏰ STATUS CHECK (as of today's date, 5 September 2026)
 
 Items with future effective dates / "proposed"/"draft" status at time of source, flagged for currency:

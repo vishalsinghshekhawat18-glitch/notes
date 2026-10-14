@@ -1,17 +1,17 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 09: IBPS PO / CLERK MAINS 35+ MARKS GUARANTEE DOSSIER (JANUARY – SEPTEMBER 2026)
-*Senior Paper-Setter Master Strike File: Verified Policy Anchors, Prudential Directions, Sovereign Missions & Trap Matrices*
+# CHAPTER 09: BANKING, FINANCIAL REGULATION & SOVEREIGN POLICY MEGA-SYNTHESIS VAULT (JANUARY – SEPTEMBER 2026)
+*Universal Sovereign Synthesis: Verified Policy Anchors, Prudential Directions, 10 Curated Strike Grids & Multi-Exam Elimination Frameworks*
 
-### Senior Paper-Setter Master Strike File: Verified Policy Anchors, Prudential Directions, Sovereign Missions & Trap Matrices
+### Senior Examiner Master Synthesis Vault: Verified Policy Anchors, Prudential Directions, Sovereign Missions & Trap Matrices
 
-> **EXAMINER'S STRATEGIC BLUEPRINT FOR 35+ MARKS OUT OF 50**:
+> **UNIVERSAL MULTI-EXAM STRATEGIC BLUEPRINT (RBI GRADE B • SBI/IBPS PO • NABARD • UPSC APFC • RPSC RAS)**:
 > 1. **Zero Hallucination / Fact Discipline**: Every threshold, date, circular number, penalty slab, and committee name in this document has been cross-verified against official RBI Master Directions, Gazette notifications, Union Budget documents, and multilateral accords.
-> 2. **Structure**: Built strictly using the **ladder bullet approach** for rapid visual scanning, paired with dedicated ****EXAM ANGLE:**** blocks that reveal the exact distractors and traps set in previous years.
-> 3. **Weightage Distribution**:
->    - **60–65% Weight**: Deep June–September recency (Q2/Q3 shifts, latest circulars, Union Budget, Paris Olympics/Paralympics, major appointments).
->    - **30–35% Weight**: High-yield January–May policy anchors (statutory frameworks, master directions, bilateral accords, flagship schemes).
->    - **5–10% Weight**: High-frequency static banking anchors and statutory committees.
+> 2. **Structure**: Built strictly using the **ladder bullet approach** for rapid visual scanning, paired with dedicated **EXAM ANGLE:** blocks that reveal the exact distractors and traps set in competitive examinations.
+> 3. **Thematic Core & Strike Grids**:
+>    - **Universal Banking & Macro Prudential Directions**: Dynamic RBI master directions, capital frameworks, PSL revisions, NBFC categorisation, digital lending, and PCA guidelines.
+>    - **10 Cross-Cutting Strike Grids**: Dedicated distinction matrices (UPI/PPI limits, Statutory Committees, Microfinance vs Small Finance, Direct/Indirect Tax slabs, Sovereign Debt instruments, and Multilateral Funds).
+>    - **Comprehensive Recency**: Fully synthesised January–September 2026 high-yield policy anchors, statutory enactments, and multilateral summits.
 
 ---
 

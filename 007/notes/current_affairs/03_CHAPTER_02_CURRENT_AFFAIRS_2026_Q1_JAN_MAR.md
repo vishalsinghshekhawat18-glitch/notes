@@ -1000,6 +1000,21 @@
 
 ---
 
+[Q1-092] **India-Middle East-Europe Economic Corridor (IMEC): Multilateral Strategic Architecture**
+
+- **Historic Multilateral Genesis**: Signed on the sidelines of the G20 New Delhi Summit via an MoU between India, USA, UAE, Saudi Arabia, France, Germany, Italy, and the European Union.
+- **Dual Corridor Architecture**:
+  - *Eastern Corridor*: Connecting Indian maritime ports (Mundra, Kandla, JNPT) to Arabian Gulf ports (Jebel Ali, Fujairah).
+  - *Northern Corridor*: Connecting Arabian Gulf ports via high-speed railway networks through UAE, Saudi Arabia, and Jordan to Israeli port of Haifa, and onward to European ports (Piraeus, Greece).
+- **Strategic Triad Infrastructure**: Beyond freight rail and shipping lanes, IMEC integrates an electricity cable grid, a high-capacity clean hydrogen export pipeline, and high-speed digital fiber-optic cables.
+
+**EXAM ANGLE:**
+- Founding Forum: Launched during the G20 New Delhi Leaders' Summit (September 2023).
+- Non-Signatories: Neither China nor Turkey are signatories to the IMEC pact.
+- Target MCQ: 'On the sidelines of which international summit was the historic India-Middle East-Europe Economic Corridor (IMEC) MoU signed?' → G20 New Delhi Summit.
+
+---
+
 ## 11. REVISION GUIDE
 
 ### Master Q1 Macro & Financial Metric Sheet
@@ -1074,7 +1089,7 @@
 | Metric | Jan Solo Files | Feb–March Combined | Consolidated Q1 Master |
 | :--- | :--- | :--- | :--- |
 | **Raw Headings & Items** | 64 | 63 | 127 |
-| **Final Thematic Clusters** | — | — | **91 Unified News Cards** |
+| **Final Thematic Clusters** | — | — | **92 Unified News Cards** |
 | **Deduplicated / Merged Overlaps** | — | — | **36 Items Resolved / Unified** |
 | ** HIGH-Yield Priority Tags** | 29 | 18 | **17 High-Yield Focus Items (~18.6%)** |
 | **Locked Sections Populated** | Partial | Partial | **10 Thematic Sections + 3 Audit Blocks** |

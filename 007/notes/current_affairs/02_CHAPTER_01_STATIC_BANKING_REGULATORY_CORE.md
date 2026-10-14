@@ -567,3 +567,20 @@
 - NDB Equal Equity: Founding BRICS members each received equal **20% initial voting power**.
 - Target MCQ: 'What is India\'s shareholding rank in the Asian Infrastructure Investment Bank (AIIB)?' → **Second largest shareholder (behind China)**.
 
+---
+
+[STA-019] **Card-on-File Tokenisation (CoFT) via Card-Issuing Banks & Digital Payment Security Architecture**
+- **Tokenisation Transition & Mandate**:
+  - Under RBI payment system directions, merchants, payment aggregators, and payment gateways are strictly prohibited from storing actual customer card details (16-digit PAN, CVV, expiry date) after transaction settlement.
+  - Mandates replacement of primary account numbers with unique cryptographic tokens generated across a specific combination of card, token requestor, and merchant device.
+- **Direct Card-on-File Tokenisation (CoFT) Enablement**:
+  - RBI permitted cardholders to create and view tokens directly through mobile banking and internet banking portals of their **card-issuing banks**, eliminating dependence on merchant check-out pages.
+  - Provides customers unified visibility and one-click revocation of active merchant tokens across all e-commerce platforms from their bank app.
+- **Alternate Authentication Mechanisms (AAM)**:
+  - RBI regulatory frameworks enable banks to deploy non-SMS factor-of-authentication mechanisms, such as in-app biometric approvals, behavioral risk scoring, and hardware tokens to mitigate OTP-interception frauds.
+
+**EXAM ANGLE:**
+- Data Storage Bar: Merchants and payment aggregators can NEVER store card PAN numbers after transaction settlement.
+- Token Management: Cardholders can view, manage, and delete active merchant tokens directly via their issuing bank's digital banking portal.
+- Target MCQ: 'Under RBI\'s Card-on-File Tokenisation (CoFT) guidelines, which entity is strictly barred from storing actual customer credit/debit card numbers?' → **Merchants and Payment Aggregators/Gateways**.
+

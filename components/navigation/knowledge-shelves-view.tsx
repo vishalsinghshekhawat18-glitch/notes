@@ -436,14 +436,14 @@ export function KnowledgeShelvesView({ domains }: KnowledgeShelvesViewProps) {
       countsText: '22 Master Chapters • 183k Words • 10 Revision Matrices • Q1–Q3 2026',
       waypointsBadge: 'Release v016 Live',
       description:
-        'Senior Paper-Setter master codex encompassing Static Banking Acts & Prudential Norms, 2026 Monthly & Quarterly Dossiers (January–September), Multi-Exam 35+ Marks Guarantee Mega-Compendium, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
+        'Senior Paper-Setter master codex encompassing Static Banking Acts & Prudential Norms, 2026 Monthly & Quarterly Dossiers (January–October), Banking, Financial Regulation & Sovereign Policy Mega-Synthesis Vault, and 18-Unit Computer Aptitude, CBS & Cybersecurity Master Treatise.',
       chips: [
         'Static Banking & Regulatory Core (Ch 01)',
         'Q1 2026 (Jan–Mar) Consolidated (Ch 02)',
         'April–July 2026 Dossiers (Ch 03–06)',
         'August 2026 & PIB Coverage (Ch 07)',
         'September 2026 (120 Clusters) (Ch 08)',
-        'IBPS Mains 35+ Mega-Compendium (Ch 09)',
+        'Banking & Policy Synthesis Vault (Ch 09)',
         'Computer Aptitude & CBS Master (Ch 10)',
       ],
       syllabusUrl: '/shelf-007/current-affairs',
