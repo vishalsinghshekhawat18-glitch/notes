@@ -131,19 +131,6 @@ Remember the leading rates as:
 
 The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-year Time Deposit, 6.7% for the 5-year RD, and 4.0% for the Savings Account.
 
-#### Practice MCQ
-
-Which Small Savings Schemes offer the highest listed interest rate for Q3 FY 2026–27?
-
-A. PPF and NSC  
-B. SCSS and Sukanya Samriddhi  
-C. KVP and POMIS  
-D. SCSS and PPF
-
-**Answer: B — SCSS and Sukanya Samriddhi, both at 8.2%.**
-
-**Official sources:** [DEA — Small Savings and Interest Rates](https://dea.gov.in/budget-division/475) | [India Post — Savings Schemes and Rates](https://www.indiapost.gov.in/banking-services/savings) | [Government of India — G-Sec linkage and Shyamala Gopinath Committee background](https://dea.gov.in/files/other_reports_documents/govt_debt_2012.pdf)
-
 ---
 
 [OCT-003] **Yes Bank Mobilises $2 Billion under RBI Concessional Forex Swap Window; Aggregate System Inflows Cross $143.5 Billion**
