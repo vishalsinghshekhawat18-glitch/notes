@@ -200,85 +200,24 @@ export function Shelf007AcademicTOC({
 
   return (
     <div className="space-y-6 font-sans max-w-full overflow-x-clip">
-      {/* 1. Subject Academic Proscenium Header */}
-      <header className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-2xl p-5 sm:p-6 shadow-2xs space-y-4 relative overflow-hidden">
-        {/* Subtle Ambient Watermark */}
-        <div className="pointer-events-none absolute -right-16 -top-16 w-64 h-64 rounded-full bg-[#10251F]/5 blur-3xl" />
+      {/* 1. Subject Sequential Reading Action Bar */}
+      {firstReadSlug && (
+        <header className="bg-[#FFFFFF] border border-[#E0D9CB] rounded-xl px-4 py-3 sm:px-5 sm:py-3.5 shadow-2xs flex flex-wrap items-center justify-between gap-3">
+          <Link
+            href={`/shelf-007/${subject.slug}/${firstReadSlug}`}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs sm:text-sm font-serif font-semibold rounded-lg shadow-2xs transition-all hover:shadow-xs group cursor-pointer"
+          >
+            <span>▶ Begin Sequential Reading</span>
+            <span className="text-[#C59B4B] text-xs font-mono font-normal group-hover:translate-x-0.5 transition-transform">
+              (Chapter 01)
+            </span>
+          </Link>
 
-        {/* Top Register Strip */}
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono border-b border-[#E8E2D5] pb-3">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="px-2 py-0.5 rounded bg-[#10251F] text-[#FAF8F3] font-bold text-[10px] tracking-wider">
-              SHELF 007
-            </span>
-            <span className="font-bold text-[#9E722C] text-xs">
-              {subject.code}
-            </span>
-            <span className="text-[#5A7365] hidden sm:inline text-xs">
-              • {subject.badge}
-            </span>
-            {subject.slug === 'current-affairs' && (
-              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-semibold">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
-                <span>October 2026 Ingest Live</span>
-              </span>
-            )}
-          </div>
-
-          <div className="flex flex-wrap items-center gap-2.5 text-xs text-[#5A7365]">
-            <span className="font-medium">
-              {partGroups.length} {partGroups.length === 1 ? 'Curricular Part' : 'Curricular Parts'}
-            </span>
-            <span>•</span>
-            <span className="font-semibold text-[#10251F]">
-              {totalChapters} Chapters
-            </span>
-            <span>•</span>
-            <span className="font-semibold text-[#9E722C]">
-              {totalSections} Sub-Lessons
-            </span>
-            <span>•</span>
-            <span>
-              ~{totalReadingMinutes}m (~{(subject.totalWords / 1000).toFixed(0)}k words)
-            </span>
-          </div>
-        </div>
-
-        {/* Title, Authority & Synopsis */}
-        <div className="space-y-2">
-          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#10251F] tracking-tight leading-tight">
-            {subject.name}
-          </h1>
-
-          <div className="text-xs font-mono text-[#5A7365] leading-relaxed">
-            <span className="font-semibold text-[#10251F]">Canonical Primary Sources: </span>
-            {subject.authors}
-          </div>
-
-          <p className="text-xs sm:text-sm text-[#2B3B33] max-w-4xl leading-relaxed font-serif">
-            {subject.description}
-          </p>
-        </div>
-
-        {/* Primary Sequential Reading Action */}
-        {firstReadSlug && (
-          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-[#E8E2D5] pt-4">
-            <Link
-              href={`/shelf-007/${subject.slug}/${firstReadSlug}`}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] text-xs sm:text-sm font-serif font-semibold rounded-lg shadow-2xs transition-all hover:shadow-xs group cursor-pointer"
-            >
-              <span>▶ Begin Sequential Reading</span>
-              <span className="text-[#C59B4B] text-xs font-mono font-normal group-hover:translate-x-0.5 transition-transform">
-                (Chapter 01)
-              </span>
-            </Link>
-
-            <span className="text-xs text-[#5A7365] font-mono hidden md:inline">
-              Continuous vertical codex flow · Collapsible syllabus outline · Instant anchor jumps
-            </span>
-          </div>
-        )}
-      </header>
+          <span className="text-xs text-[#5A7365] font-mono hidden md:inline">
+            Continuous vertical codex flow · Collapsible syllabus outline · Instant anchor jumps
+          </span>
+        </header>
+      )}
 
       {/* 2. Interactive Part Jump Strip (Fast Spatial Orientation) */}
       {partGroups.length > 1 && (

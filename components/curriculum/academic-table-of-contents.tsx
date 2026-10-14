@@ -159,59 +159,24 @@ export function AcademicTableOfContents({
 
   return (
     <div className="space-y-6 font-sans max-w-full overflow-x-clip">
-      {/* Subject Academic Header */}
-      <header className="bg-stone-50 border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-2xs space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs font-mono">
-          <span className="text-emerald-900 font-bold uppercase tracking-widest bg-emerald-100/70 px-2.5 py-1 rounded">
-            {domainName}
+      {/* Subject Sequential Reading Action Bar */}
+      {firstTopicSlug && (
+        <header className="bg-stone-50 border border-stone-200 rounded-xl px-4 py-3 sm:px-5 sm:py-3.5 shadow-2xs flex flex-wrap items-center justify-between gap-3">
+          <Link
+            href={`/topics/${firstTopicSlug}/read`}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-800 hover:bg-emerald-900 text-white text-xs sm:text-sm font-semibold rounded-lg shadow-2xs transition-all hover:shadow-xs group cursor-pointer"
+          >
+            <span>▶ Begin Sequential Reading</span>
+            <span className="text-emerald-200 text-xs font-mono font-normal group-hover:translate-x-0.5 transition-transform">
+              (Chapter 1)
+            </span>
+          </Link>
+
+          <span className="text-xs text-stone-500 font-mono hidden sm:inline">
+            Continuous vertical codex flow · Collapsible syllabus outline
           </span>
-          <div className="flex flex-wrap items-center gap-2 text-stone-500">
-            <span className="bg-white border border-stone-200 text-stone-700 px-2 py-0.5 rounded-md font-medium">
-              {partGroups.length} {partGroups.length === 1 ? 'Part' : 'Parts'}
-            </span>
-            <span>•</span>
-            <span className="bg-white border border-stone-200 text-stone-700 px-2 py-0.5 rounded-md font-medium">
-              {totalTopics} Chapters
-            </span>
-            <span>•</span>
-            <span className="bg-emerald-50 border border-emerald-200 text-emerald-800 px-2 py-0.5 rounded-md font-semibold">
-              {totalConcepts} Sub-Lessons
-            </span>
-            <span>•</span>
-            <span className="text-stone-600 font-medium">
-              ~{totalReadingMinutes} mins total
-            </span>
-          </div>
-        </div>
-
-        <div className="space-y-2">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-stone-900 tracking-tight leading-tight">
-            {subjectName}
-          </h1>
-          <p className="text-xs sm:text-sm text-stone-600 max-w-4xl leading-relaxed font-sans">
-            {subjectDescription ||
-              'Complete canonical academic curriculum organized into structured thematic parts, chapters, and granular sub-lessons.'}
-          </p>
-        </div>
-
-        {firstTopicSlug && (
-          <div className="pt-2 flex flex-wrap items-center gap-3 border-t border-stone-200">
-            <Link
-              href={`/topics/${firstTopicSlug}/read`}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-800 hover:bg-emerald-900 text-white text-xs sm:text-sm font-semibold rounded-lg shadow-2xs transition-all hover:shadow-xs group cursor-pointer"
-            >
-              <span>▶ Begin Sequential Reading</span>
-              <span className="text-emerald-200 text-xs font-mono font-normal group-hover:translate-x-0.5 transition-transform">
-                (Chapter 1)
-              </span>
-            </Link>
-
-            <span className="text-xs text-stone-500 font-mono hidden sm:inline">
-              Continuous vertical codex flow · Collapsible syllabus outline
-            </span>
-          </div>
-        )}
-      </header>
+        </header>
+      )}
 
       {/* Interactive Part Jump Strip (Fast Spatial Orientation) */}
       {partGroups.length > 1 && (
