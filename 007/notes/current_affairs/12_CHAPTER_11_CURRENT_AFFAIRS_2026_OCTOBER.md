@@ -4,28 +4,90 @@
 
 ## 1. 🏛️ REGULATORY BODIES, BANKING & FINANCIAL MARKETS
 
-[OCT-001] **RBI Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026: Realisation Windows Tightened**
-- **Statutory Commencement & Replacement**:
-  - The Reserve Bank of India (**RBI**) notified that the *Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026* entered into force on **October 1, 2026**.
-  - Supersedes the *Foreign Exchange Management (Export of Goods & Services) Regulations, 2015*, consolidating goods, cross-border services, and software under a unified architecture.
-- **Unified Export Declaration Form (EDF)**:
-  - Consolidates physical goods, intangible services, and computer software.
-  - **Electronic Data Interchange (EDI) Ports**: The EDF is deemed submitted with the electronic shipping bill.
-  - **Service Exporters**: Mandatory filing within **30 days from the end of the month** in which the service invoice is raised.
-- **Realisation & Repatriation Timelines Slashed**:
-  - **Physical Goods & General Services**: Export proceeds must be realised and repatriated within **9 months** (reduced from 15 months) from the date of shipment / invoice.
-  - **INR Invoicing & Settlement (Vostro / SRVA)**: Realisation window is **12 months** (reduced from 18 months).
-  - **Warehoused Goods Abroad**: 9 months from the date of actual sale.
-- **Self-Declaration Closure & Sanctions**:
-  - Invoices up to **₹10 lakh** in EDPMS and IDPMS can be closed based on exporter self-declaration.
-  - **Overdue Penalty**: Exporters with unrealised proceeds exceeding **1 year beyond due date** can only export against **100% advance or irrevocable Letter of Credit (LC)**.
+[OCT-001] **RBI FEMA Regulations, 2026: Export Realisation Timelines Tightened**
 
-**EXAM ANGLE:**
-- Realisation Window (Goods): **9 months** (NOT 15 months).
-- Realisation Window (Rupee Settlement): **12 months** (NOT 18 months).
-- Service EDF Filing Window: Within **30 days** from invoice month-end.
-- Self-Declaration Closure Limit: Invoices up to **₹10 Lakh** in EDPMS/IDPMS.
-- Target MCQ: 'Under the FEMA Regulations 2026, within what timeframe must export proceeds invoiced in INR be realised and repatriated?' → **12 months**.
+### 1. What changed?
+
+The Reserve Bank of India (RBI) introduced the **Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026**, which came into force on **1 October 2026**.
+
+- **Supersedes:** FEMA (Export of Goods & Services) Regulations, 2015.
+- **Scope:** A unified framework covering exports of goods, services and software; the regulations define services to include software.
+- **Key change:** Export proceeds must generally be realised and repatriated within shorter periods.
+- **Amendment:** The September 2026 amendment reduced the standard realisation periods from 15 to 9 months and the INR-related period from 18 to 12 months.
+
+### 2. Export Declaration Form (EDF)
+
+| Export category | Declaration requirement |
+|---|---|
+| Physical goods through an EDI port | EDF is deemed submitted with the electronic shipping bill. |
+| Services | EDF within **30 days after the end of the invoice month**. |
+| Services other than software | EDF may alternatively be submitted on or before receipt of payment. |
+
+An Authorised Dealer (AD) may extend the service-EDF filing period upon a request explaining the delay, if satisfied with the reasons.
+
+### 3. Export realisation and repatriation deadlines
+
+The **realisation period** is the time allowed to receive export proceeds and repatriate them to India.
+
+| Export category | Deadline | Starting point |
+|---|---:|---|
+| Physical goods, excluding goods sent to an overseas warehouse | **9 months** | Date of shipment |
+| Services, including software | **9 months** | Date of invoice |
+| Goods sold from an overseas warehouse | **9 months** | Date of sale from the warehouse |
+| Exports invoiced and/or settled in INR | **12 months** | Relevant shipment, invoice or warehouse-sale date |
+
+**Important:** The ordinary period is 9 months, while the INR-related period is 12 months. The previous periods were 15 and 18 months, respectively.
+
+An AD may extend the specified realisation period on the exporter's request if the reasons for the delay are considered satisfactory.
+
+### 4. Simplified closure of EDPMS and IDPMS entries
+
+EDPMS = Export Data Processing and Monitoring System  
+IDPMS = Import Data Processing and Monitoring System
+
+For transactions of **₹10 lakh or less**, the regulations permit simplified closure based on a declaration, subject to the prescribed conditions.
+
+- **Exports → EDPMS:** Exporter's declaration that payment against the shipping bill or service invoice has been realised, either in full or otherwise.
+- **Imports → IDPMS:** Importer's declaration that payment against the Bill of Entry or service invoice has been made, either in full or otherwise.
+
+The relevant declaration may also be submitted quarterly for bulk closure of entries.
+
+**Exam distinction:** EDPMS = exporter; IDPMS = importer.
+
+### 5. Restriction on exporters with long-overdue proceeds
+
+If export proceeds remain unrealised for **more than one year beyond the due date**, or beyond an extended due date allowed by the AD, the exporter must undertake further exports only against:
+
+- Full advance payment; or
+- An irrevocable Letter of Credit (LC).
+
+This is a restriction on the payment terms permitted for subsequent exports, rather than a rule that automatically imposes a monetary penalty.
+
+### 6. Exam revision card
+
+- **Effective date:** 1 October 2026
+- **Standard export realisation:** 9 months
+- **INR invoicing and/or settlement:** 12 months
+- **Service EDF filing:** Within 30 days after invoice month-end, subject to the stated alternatives and extensions
+- **Simplified closure threshold:** ₹10 lakh or less
+- **Long-overdue export proceeds:** More than 1 year beyond the due date or permitted extended date
+- **Permitted terms for further exports:** Full advance or irrevocable LC
+
+#### Practice MCQ
+
+**Under the FEMA (Export and Import of Goods and Services) Regulations, 2026, within what period must export proceeds for exports invoiced and/or settled in Indian rupees generally be realised and repatriated?**
+
+A. 6 months  
+B. 9 months  
+C. 12 months  
+D. 18 months
+
+**Answer: C. 12 months.**
+
+#### Official sources
+
+1. [RBI — Consolidated 2026 Regulations, amended up to 22 September 2026](https://m.rbi.org.in/scripts/BS_FemaNotifications.aspx?Id=13277)
+2. [RBI — Amendment Regulations dated 22 September 2026](https://m.rbi.org.in/scripts/BS_FemaNotifications.aspx?Id=13714)
 
 ---
 
