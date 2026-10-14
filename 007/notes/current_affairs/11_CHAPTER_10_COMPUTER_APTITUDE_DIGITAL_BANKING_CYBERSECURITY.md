@@ -40,210 +40,28 @@ Mechanical calculating machines operated on fixed gear ratios where program inst
 mechanical levers. The true digital revolution emerged when John von Neumann (1945) conceptualized the Stored-Program
 Architecture, treating program instructions and calculation data as interchangeable binary bits stored within the exact same
 electronic memory medium.
- The Master Chronology of Computing Pioneers
-COMPUTING
-DEVICE /
-MACHINE
-YEAR 	INVENTOR /
-PIONEER
-COUNTRY 	OPERATIONAL TECHNOLOGY /
-MECHANISM
-HISTORICAL & TECHNICAL SIGNIFICANCE
-Abacus
-(Soroban /
-Suanpan)
-~2500–
-3000
-BCE
-Ancient
-Babylon / China
-Babylon /
-China
-Wooden frame with beads
-strung on parallel wires (Heaven
-& Earth beads)
-First known mechanical aid for arithmetic
-calculation (addition and subtraction). Still
-utilized for mental arithmetic training.
-Napier’s Bones
-(Rods)
-1617 	John Napier 	Scotland 	Carved ivory/bone rods
-inscribed with multiplication
-tables (Rabdology)
-Introduced manual calculation of products
-and quotients using logarithms;
-mechanized multiplication.
-Slide Rule
-(Calculating
-Rule)
-1620–
-1622
-William
-Oughtred &
-Edmund Gunter
-England 	Sliding logarithmic scales 	Earliest analog computing device;
-remained the primary calculating tool of
-engineers until electronic pocket
-calculators emerged in the 1970s.
-Pascaline
-(Adding
-Machine)
-1642 	Blaise Pascal 	France 	Toothed wheels, gears, and
-internal carry-transfer
-mechanisms
-First mechanical automatic calculator;
-could perform addition and subtraction
-directly via rotating dials.
-Stepped
-Reckoner
-(Leibniz Wheel)
-1673 	Gottfried
-Wilhelm Leibniz
-Germany 	Fluted stepped cylinder drum
-gears
-Extended mechanical calculation to direct
-multiplication, division, and square roots.
-Leibniz also formalized the binary number
-system.
-Jacquard Loom 	1801–
-1804
-Joseph Marie
-Jacquard
-France 	Interchangeable punched paper
-cards controlling textile
-warp/weft
-First practical application of punch cards
-to automate complex sequences;
-precursor to stored computer
-programming.
-Difference
-Engine
-1822 	Charles
-Babbage
-England 	Steam-powered mechanical
-gear train executing polynomial
-differences
-Designed to calculate and print
-navigational and astronomical
-mathematical tables without human
-typesetting error.
-Analytical
-Engine
-1834–
-1842
-Charles
-Babbage
-England 	General-purpose mechanical
-computer: Store (Memory), Mill
-(CPU), and punch-card Reader
-The architectural ancestor of modern
-digital computers. Conceived conditional
-branching, looping, and memory
-separation.
-First Computer
-Algorithm
-1843 	Lady Ada
-Augusta
-Lovelace
-England 	Punched card sequence
-designed to compute Bernoulli
-numbers on Analytical Engine
-The world's first computer programmer.
-Recognized that machines could
-manipulate symbols beyond mere
-arithmetic numbers.
-Census
-Tabulator
-1890 	Herman
-Hollerith
-USA 	Electromechanical tabulating
-machine using punched cards
-and mercury pools
-Processed the 1890 US Census in 2.5 years
-(vs 8 years prior). Hollerith founded the
-Tabulating Machine Company (later
-merged into IBM in 1924).
+### 1. The Master Chronology of Computing Pioneers
 
-COMPUTING
-DEVICE /
-MACHINE
-YEAR 	INVENTOR /
-PIONEER
-COUNTRY 	OPERATIONAL TECHNOLOGY /
-MECHANISM
-HISTORICAL & TECHNICAL SIGNIFICANCE
-Harvard Mark-I
-(ASCC)
-1937–
-1944
-Howard Aiken
-& IBM
-USA 	Electromechanical relays and
-rotating shafts (51 feet long, 5
-tons)
-First fully automatic, general-purpose
-electromechanical calculator.
-Programmed via paper tape.
-Atanasoff-Berry
-Computer (ABC)
-1939–
-1942
-John Atanasoff
-& Clifford Berry
-USA 	Vacuum tubes (300+ valves),
-regenerative capacitor drum
-memory, binary arithmetic
-The first electronic digital computer
-(special purpose: solved systems of linear
-algebraic equations).
-ENIAC 	1946 	J. Presper
-Eckert & John
-Mauchly
-USA 	18,000 vacuum tubes, 70,000
-resistors, 1,500 relays; 30 tons;
-programmed via plugboards
-The world's first general-purpose, fully
-electronic digital computer. Built for US
-Army artillery firing tables.
-EDVAC 	1945–
-1949
-John von
-Neumann,
-Eckert &
-Mauchly
-USA 	Binary electronic computer
-utilizing mercury delay-line
-memory
-First computer designed around the Von
-Neumann Stored-Program Architecture
-(instructions and data share the same
-memory).
-EDSAC 	1949 	Maurice Wilkes 	England 	Mercury delay lines; cathode
-ray tube displays; binary stored
-program
-The first practical, fully operational
-stored-program electronic computer in
-history (Cambridge University).
-UNIVAC-I 	1951 	J. Presper
-Eckert & John
-Mauchly
-USA 	Magnetic tape storage; vacuum-
-tube logic; commercial general-
-purpose machine
-The world's first commercially available
-mass-produced computer. Purchased by
-US Census Bureau; predicted 1952 US
-Presidential Election.
-Intel 4004 	1971 	Ted Hoff,
-Federico
-Faggin, Stan
-Mazor
-USA 	Silicon-gate PMOS technology;
-2,300 transistors on a single
-chip; 4-bit CPU
-The world's first single-chip commercial
-microprocessor. Ignited the personal
-computing revolution.
+| Computing Device / Machine | Year / Period | Inventor / Pioneer | Origin Country | Operational Technology / Mechanism | Historical & Technical Significance |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Abacus (Soroban / Suanpan)** | ~2500–3000 BCE | Ancient Babylon / China | Babylon / China | Wooden frame with beads strung on parallel wires (Heaven & Earth beads) | First known mechanical aid for arithmetic calculation (addition and subtraction); still utilized for mental arithmetic training |
+| **Napier’s Bones (Rods)** | 1617 | John Napier | Scotland | Carved ivory/bone rods inscribed with multiplication tables (Rabdology) | Introduced manual calculation of products and quotients using logarithms; mechanized multiplication |
+| **Slide Rule (Calculating Rule)** | 1620–1622 | William Oughtred & Edmund Gunter | England | Sliding logarithmic scales | Earliest analog computing device; remained primary engineering calculating tool until electronic calculators emerged in 1970s |
+| **Pascaline (Adding Machine)** | 1642 | Blaise Pascal | France | Toothed wheels, gears, and internal carry-transfer mechanisms | First mechanical automatic calculator; could perform addition and subtraction directly via rotating dials |
+| **Stepped Reckoner (Leibniz Wheel)** | 1673 | Gottfried Wilhelm Leibniz | Germany | Fluted stepped cylinder drum gears | Extended mechanical calculation to direct multiplication, division, and square roots; formalized binary number system |
+| **Jacquard Loom** | 1801–1804 | Joseph Marie Jacquard | France | Interchangeable punched paper cards controlling textile warp/weft | First practical application of punch cards to automate complex sequences; precursor to stored computer programming |
+| **Difference Engine** | 1822 | Charles Babbage | England | Steam-powered mechanical gear train executing polynomial differences | Designed to calculate and print navigational and astronomical mathematical tables without human typesetting error |
+| **Analytical Engine** | 1834–1842 | Charles Babbage | England | General-purpose mechanical computer: Store (Memory), Mill (CPU), and punch-card Reader | Architectural ancestor of modern digital computers; conceived conditional branching, looping, and memory separation |
+| **First Computer Algorithm** | 1843 | Lady Ada Augusta Lovelace | England | Punched card sequence designed to compute Bernoulli numbers on Analytical Engine | World's first computer programmer; recognized that machines could manipulate symbols beyond mere arithmetic |
+| **Census Tabulator** | 1890 | Herman Hollerith | USA | Electromechanical tabulating machine using punched cards and mercury pools | Processed 1890 US Census in 2.5 years (vs 8 years prior); Hollerith founded Tabulating Machine Company (merged into IBM in 1924) |
+| **Harvard Mark-I (ASCC)** | 1937–1944 | Howard Aiken & IBM | USA | Electromechanical relays and rotating shafts (51 feet long, 5 tons) | First fully automatic, general-purpose electromechanical calculator; programmed via paper tape |
+| **Atanasoff-Berry Computer (ABC)** | 1939–1942 | John Atanasoff & Clifford Berry | USA | Vacuum tubes (300+ valves), regenerative capacitor drum memory, binary arithmetic | The first electronic digital computer (special purpose: solved systems of linear algebraic equations) |
+| **ENIAC** | 1946 | J. Presper Eckert & John Mauchly | USA | 18,000 vacuum tubes, 70,000 resistors, 1,500 relays; 30 tons; programmed via plugboards | World's first general-purpose, fully electronic digital computer; built for US Army artillery firing tables |
+| **EDVAC** | 1945–1949 | John von Neumann, Eckert & Mauchly | USA | Binary electronic computer utilizing mercury delay-line memory | First computer designed around Von Neumann Stored-Program Architecture (instructions and data share same memory) |
+| **EDSAC** | 1949 | Maurice Wilkes | England | Mercury delay lines; cathode ray tube displays; binary stored program | First practical, fully operational stored-program electronic computer in history (Cambridge University) |
+| **UNIVAC-I** | 1951 | J. Presper Eckert & John Mauchly | USA | Magnetic tape storage; vacuum-tube logic; commercial general-purpose machine | World's first commercially available mass-produced computer; purchased by US Census Bureau; predicted 1952 US Presidential Election |
+| **Intel 4004** | 1971 | Ted Hoff, Federico Faggin, Stan Mazor | USA | Silicon-gate PMOS technology; 2,300 transistors on a single chip; 4-bit CPU | World's first single-chip commercial microprocessor; ignited the personal computing revolution |
+
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. Father of Computers vs Father of Modern Computer Science: Charles Babbage is the "Father of Computers" (for the
@@ -262,35 +80,14 @@ Company (C-T-R) in 1911, which was renamed International Business Machines (IBM)
 
 ## [COMP-002] **Generations of Computers & Structural Classification**
 
- Classification by Scale & Processing Throughput
-1. Supercomputers:
-The most powerful, expensive, and fastest computing systems on Earth, designed to execute trillions of floating-point
-operations per second (FLOPS: PetaFLOPS, ExaFLOPS).
-Utilize thousands of interconnected CPUs/GPUs working in massive parallel processing (MPP).
-Global Benchmarks: Frontier (USA - Exascale $>1.1\text{ EFLOPS}$), Aurora (USA), Fugaku (Japan), Summit (USA).
-Indian Benchmarks: PARAM 8000 (India's first indigenous supercomputer developed in 1991 by C-DAC Pune under
-Dr. Vijay Bhatkar), PARAM Shivay, PARAM Siddhi-AI, AIRAWAT (AI supercomputer ranked globally in Top 100),
-Pratyush and Mihir (Indian Institute of Tropical Meteorology for weather forecasting).
-2. Mainframe Computers:
-Enterprise-scale multi-user computers engineered not for raw scientific mathematical calculations, but for massive
-I/O throughput, high reliability, and concurrent transaction processing.
-Capable of supporting thousands of simultaneous online users and executing millions of database queries
-concurrently with zero downtime.
-Applications: Core Banking Systems (CBS) handling millions of debit/credit transactions, airline reservation systems
-(SABRE), insurance claims databases, railway reservation networks (CRIS).
-Examples: IBM zSeries (z16), IBM System/390.
-3. Minicomputers (Mid-Range Systems):
-Intermediate systems smaller than mainframes but significantly more capable than microcomputers. Developed in
-the 1960s to serve small businesses, university departments, and manufacturing plants.
-Support 4 to 200 simultaneous users via terminal time-sharing.
-Examples: Digital Equipment Corporation (DEC) PDP-11, VAX-11, IBM AS/400.
-4. Microcomputers (Personal Computers - PCs):
-Built around a single Microprocessor chip containing the entire CPU logic (ALU, CU, Registers).
-Single-user design intended for general-purpose productivity, communication, and education.
+### 1. Classification by Scale & Processing Throughput
 
-Form Factors: Desktop PCs, Laptops / Notebooks, Netbooks, Palmtops / Personal Digital Assistants (PDAs), Tablets,
-Smartphones, Workstations (high-end graphics/engineering PCs), and Embedded Systems (microcontrollers
-embedded in washing machines, cars, microwave ovens).
+| Scale Category | Architecture & Processing Engine | Key Performance Metric & Design Mandate | Benchmark Global & Indian Systems / Use Cases |
+| :--- | :--- | :--- | :--- |
+| **Supercomputers** | Thousands of interconnected CPUs/GPUs in Massive Parallel Processing (MPP) | Measured in **FLOPS** *(Floating Point Operations Per Second: PetaFLOPS, ExaFLOPS)* for raw scientific computing | • **Global**: Frontier (USA - Exascale $>1.1\text{ EFLOPS}$), Aurora (USA), Fugaku (Japan), Summit (USA)<br>• **Indian**: PARAM 8000 *(1st indigenous supercomputer, 1991 by C-DAC Pune under Dr. Vijay Bhatkar)*, PARAM Shivay, PARAM Siddhi-AI, AIRAWAT *(Global Top 100 AI)*, Pratyush & Mihir *(IITM weather forecasting)* |
+| **Mainframe Computers** | Enterprise-scale multi-user servers with redundant fault-tolerant hardware | Engineered for massive I/O throughput, ultra-high reliability, and concurrent transaction processing | **Core Banking Systems (CBS)** executing millions of simultaneous transactions with zero downtime, airline reservations (SABRE), railway ticketing (CRIS); Examples: IBM zSeries (z16), IBM System/390 |
+| **Minicomputers (Mid-Range)** | Multi-user mid-scale systems (developed in 1960s) | Supports 4 to 200 simultaneous users via terminal time-sharing; mid-tier capacity | Small-to-medium businesses, university departments, and manufacturing plants; Examples: DEC PDP-11, VAX-11, IBM AS/400 |
+| **Microcomputers (PCs)** | Single Microprocessor chip containing entire CPU logic (ALU, CU, Registers) | Single-user architecture intended for general-purpose productivity, communication, and education | • **Form Factors**: Desktop PCs, Laptops / Notebooks, Netbooks, Palmtops / PDAs, Tablets, Smartphones, Workstations<br>• **Embedded Systems**: Specialized microcontrollers embedded in automobiles, medical gear, appliances |
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. First Indian Supercomputer: PARAM 8000, developed in 1991 by the Center for Development of Advanced Computing
@@ -348,114 +145,50 @@ synchronization pulses (timing signals) via the system clock.
 Fetches instructions from primary RAM, routes them into the Instruction Register, decodes the opcode (operational
 code), and activates the specific functional units (ALU, registers, I/O interfaces) required to fulfill the command.
 3. Internal High-Speed Registers:
-The absolute fastest storage locations in the entire computer hierarchy, located directly on the CPU silicon die with
-zero-cycle latency.
-REGISTER
-ABBREVIATION
-FULL NAME 	WIDTH
-(TYPICAL)
-DEDICATED OPERATIONAL FUNCTION
-PC 	Program Counter 	32 / 64 bits 	Holds the memory address of the next sequential instruction waiting to be
-fetched and executed. Automatically increments after each fetch.
-IR 	Instruction Register 	32 / 64 bits 	Holds the current instruction being decoded and executed by the Control Unit.
-MAR 	Memory Address
-Register
-32 / 64 bits 	Holds the memory address in RAM that is currently being accessed for a Read
-or Write operation.
+The absolute fastest storage locations in the entire computer hierarchy, located directly on the CPU silicon die with zero-cycle latency.
 
-REGISTER
-ABBREVIATION
-FULL NAME 	WIDTH
-(TYPICAL)
-DEDICATED OPERATIONAL FUNCTION
-MBR / MDR 	Memory Buffer /
-Data Register
-32 / 64 bits 	Acts as an immediate holding buffer for the actual data word fetched from
-RAM or waiting to be written into RAM.
-AC 	Accumulator 	32 / 64 bits 	Directly stores the immediate operands and the intermediate / final
-mathematical result of calculations performed by the ALU.
-SP 	Stack Pointer 	32 / 64 bits 	Stores the memory address of the current top of the execution stack (used for
-subroutine calls, interrupts, and local variables).
-Flags / PSW 	Program Status Word 	8 to 64 bits 	Individual single-bit indicator flip-flops reflecting execution status (Zero Flag
-Z , Carry Flag C , Sign Flag S , Overflow Flag O , Parity Flag P ).
- The Instruction Execution Cycle (Machine Cycle)
+### 1. Master Internal CPU Registers Directory
+
+| Register Acronym | Full Descriptive Name | Typical Width | Dedicated Operational Function & Mechanics |
+| :--- | :--- | :--- | :--- |
+| **PC** | **Program Counter** | 32 / 64 bits | Holds memory address of next sequential instruction waiting to be fetched and executed; automatically increments after each instruction fetch |
+| **IR** | **Instruction Register** | 32 / 64 bits | Holds current instruction opcode being decoded and executed by the Control Unit |
+| **MAR** | **Memory Address Register** | 32 / 64 bits | Holds memory address in RAM currently being accessed for a Read or Write operation |
+| **MBR / MDR** | **Memory Buffer / Data Register** | 32 / 64 bits | Acts as immediate holding buffer for actual data word fetched from RAM or waiting to be written into RAM |
+| **AC** | **Accumulator** | 32 / 64 bits | Directly stores immediate operands and intermediate / final mathematical results calculated by the ALU |
+| **SP** | **Stack Pointer** | 32 / 64 bits | Stores memory address of current top of execution stack (used for subroutine calls, interrupts, and local variables) |
+| **Flags / PSW** | **Program Status Word** | 8 to 64 bits | Individual single-bit indicator flip-flops reflecting execution status: Zero Flag ($Z$), Carry Flag ($C$), Sign Flag ($S$), Overflow Flag ($O$), Parity Flag ($P$) |
+
+### 2. The Instruction Execution Cycle (Machine Cycle)
+
 Every CPU instruction executes across four synchronized micro-phases:
-1. Fetch: The Control Unit reads the memory address stored in the Program Counter (PC), loads that address into the MAR,
-signals a memory Read command across the Control Bus, and transfers the instruction word from RAM into the
-MBR/MDR, which routes it into the Instruction Register (IR). The PC is simultaneously incremented by the instruction
-word size.
-2. Decode: The Control Unit's instruction decoder interprets the binary operation code (opcode) inside the IR and identifies
-any required operands/memory addresses.
-3. Execute: The Control Unit directs the ALU to perform the specified arithmetic or logical transformation on the data
-operands.
-4. Store (Write-back): The final output of the operation (from the Accumulator or ALU output register) is written back to an
-internal CPU register or routed across the Data Bus into main memory. $$\mathbf{\text{Instruction Time (I-Time)} =
-\text{Fetch} + \text{Decode}} \quad \Big| \quad \mathbf{\text{Execution Time (E-Time)} = \text{Execute} +
-\text{Store}}$$
- The System Bus Architecture
-A "Bus" is a collection of parallel conductive wires connecting two or more internal components. The System Bus is divided
-into three functional channels:
+1. **Fetch**: The Control Unit reads the memory address stored in the Program Counter (PC), loads that address into the MAR, signals a memory Read command across the Control Bus, and transfers the instruction word from RAM into the MBR/MDR, which routes it into the Instruction Register (IR). The PC is simultaneously incremented by the instruction word size.
+2. **Decode**: The Control Unit's instruction decoder interprets the binary operation code (opcode) inside the IR and identifies any required operands/memory addresses.
+3. **Execute**: The Control Unit directs the ALU to perform the specified arithmetic or logical transformation on the data operands.
+4. **Store (Write-back)**: The final output of the operation (from the Accumulator or ALU output register) is written back to an internal CPU register or routed across the Data Bus into main memory.
 
-```text
-┌─────────────────────────────────────────┐
-```
-CPU
-```text
-─────────────►│ ADDRESS BUS (Unidirectional from CPU) 	│──────────► MEMORY & I/O
-└─────────────────────────────────────────┘
-┌─────────────────────────────────────────┐
-```
-CPU
-```text
-◄────────────►│ DATA BUS (Bidirectional) 	│◄─────────► MEMORY & I/O
-└─────────────────────────────────────────┘
-┌─────────────────────────────────────────┐
-```
-CPU
-```text
-◄────────────►│ CONTROL BUS (Bidirectional Signals) 	│◄─────────► MEMORY & I/O
-└─────────────────────────────────────────┘
-```
-1. Address Bus (Unidirectional):
-Carries the memory address generated solely by the CPU to designate the source/target memory cell or I/O device.
-Bus Width Rule: The width of the address bus determines the Maximum Physical Memory Addressing Capacity of
-the computer: $$\mathbf{\text{Max Addressable Memory} = 2^N \text{ Bytes}} \quad (N = \text{number of address
-lines})$$
-A 32-bit Address Bus can address 	.
-A 64-bit Address Bus can address 	.
-2. Data Bus (Bidirectional):
-2 bytes =	32 	4, 294, 967, 296 bytes = 4 GB RAM
-2 bytes ≈	64 	16 Exabytes (EB) RAM
+$$\mathbf{\text{Instruction Time (I-Time)} = \text{Fetch} + \text{Decode}} \quad \Big| \quad \mathbf{\text{Execution Time (E-Time)} = \text{Execute} + \text{Store}}$$
 
-Transmits the actual data bits between the CPU, RAM, and peripheral controllers.
-It is bidirectional because the CPU must both read data from memory and write data to memory.
-Bus Width Rule: The width of the data bus determines the CPU's word size and memory throughput per clock cycle
-(e.g., a 64-bit data bus moves 8 bytes simultaneously).
-3. Control Bus (Bidirectional):
-Transmits synchronization, command, and status signals across system components.
-Key signals include: Memory Read , Memory Write , I/O Read , I/O Write , Bus Request , Bus Grant , Clock
-Pulse , Reset , and Interrupt Request (IRQ) .
- Physical Connectors, Ports & Motherboard Chipsets
-Northbridge (Host Bridge): Traditionally connected the CPU directly to high-speed system components (Main DRAM
-memory and PCIe x16 graphics card). In modern processors, the Northbridge is completely integrated into the CPU die
-itself.
-Southbridge (I/O Controller Hub - ICH): Manages communication with slower peripheral components, including SATA
-ports, USB controllers, BIOS/UEFI chip, audio card, Ethernet, and legacy PCI slots.
-Port Standards:
-USB (Universal Serial Bus): Hot-swappable, serial bus supporting up to 127 daisy-chained devices per controller. USB
-2.0 (480 Mbps), USB 3.0 (5 Gbps, blue connector), USB 3.1 Gen 2 (10 Gbps), USB4 / Thunderbolt 4 (up to 40 Gbps via
-Type-C reversible interface).
-Serial Port (COM / RS-232): Transmits data 1 bit at a time over a single wire. Typically 9-pin or 25-pin D-sub
-connector (legacy modems and mice).
-Parallel Port (LPT / IEEE 1284): Transmits 8 bits (1 byte) simultaneously across 8 parallel wires. 25-pin D-sub
-connector (legacy printers).
-Display Interfaces: VGA (15-pin analog video output), DVI (Digital Visual Interface), HDMI (High-Definition
-Multimedia Interface - transmits uncompressed digital video and multi-channel audio simultaneously), DisplayPort
-(packetized digital audio/video).
-RJ-45 (Registered Jack 45): 8-pin / 8-conductor modular connector utilized for Ethernet twisted-pair computer
-networking (LAN). (Distinguished from RJ-11, the 4/6-pin connector utilized for landline telephone wiring).
-PS/2 Port: 6-pin mini-DIN connector utilized for legacy input devices (standardized color-coding: Purple for Keyboard,
-Green for Mouse).
+### 3. The System Bus Architecture & Bus Width Rules
+
+| System Bus Channel | Directionality | Information Carried | Bus Width Rule & Maximum Physical Capacity |
+| :--- | :--- | :--- | :--- |
+| **Address Bus** | **Unidirectional** *(CPU $\to$ Memory/IO only)* | Memory addresses designating the source or target memory cell / peripheral device | Determines **Maximum Physical Addressable Memory**: $\text{Capacity} = 2^N\text{ Bytes}$ ($N = \text{address lines}$):<br>• **32-bit Bus**: $2^{32}\text{ bytes} = \mathbf{4,294,967,296\text{ bytes} = 4\text{ GB RAM}}$<br>• **64-bit Bus**: $2^{64}\text{ bytes} \approx \mathbf{16\text{ Exabytes (EB) RAM}}$ |
+| **Data Bus** | **Bidirectional** *(CPU $\longleftrightarrow$ Memory/IO)* | Actual binary data bits transferred between CPU, RAM, and peripheral controllers | Determines CPU **word size** and memory throughput per clock cycle (e.g., a 64-bit data bus transfers 8 bytes simultaneously) |
+| **Control Bus** | **Bidirectional Signals** | Timing, synchronization, and control command pulses | Transmits discrete signals: Memory Read, Memory Write, I/O Read, I/O Write, Bus Request, Bus Grant, Clock Pulse, Reset, and Interrupt Request (IRQ) |
+
+### 4. Motherboard Chipsets & Standard Peripheral Ports
+
+| Component / Interface | Physical Specification / Pinout | Data Transfer Speed / Bandwidth | Dedicated Role & Connected Peripherals |
+| :--- | :--- | :--- | :--- |
+| **Northbridge (Host Bridge)** | High-speed chipset integrated into CPU die | Direct PCIe / memory bus lines | Connects CPU directly to high-speed system components: Main DRAM memory and PCIe x16 graphics card |
+| **Southbridge (ICH)** | I/O Controller Hub on motherboard | DMI / PCIe bus interconnection | Manages communication with slower peripheral components: SATA drives, USB, BIOS/UEFI, audio, Ethernet, PCI slots |
+| **USB (Universal Serial Bus)** | Hot-swappable serial bus (up to 127 daisy-chained devices) | • USB 2.0: **480 Mbps**<br>• USB 3.0: **5 Gbps** *(blue port)*<br>• USB 3.1 Gen 2: **10 Gbps**<br>• USB4 / Thunderbolt 4: **Up to 40 Gbps** | Universal plug-and-play standard for flash drives, external storage, keyboards, mice, printers, webcams |
+| **Serial Port (COM / RS-232)** | 9-pin or 25-pin D-sub connector | Transmits data **1 bit at a time** over a single wire | Legacy modems, mice, and industrial automation equipment |
+| **Parallel Port (LPT / IEEE 1284)** | 25-pin D-sub female connector | Transmits **8 bits (1 byte) simultaneously** over 8 parallel wires | Legacy dot matrix and early laser printers |
+| **Display Interfaces (VGA / DVI / HDMI / DP)** | • VGA: 15-pin analog video<br>• DVI: Digital/analog video<br>• HDMI: Uncompressed digital video + multi-channel audio<br>• DisplayPort: Packetized digital audio/video | High-bandwidth digital video & audio | Computer monitors, projectors, televisions, digital display boards |
+| **RJ-45 (Registered Jack 45)** | 8-pin / 8-conductor modular jack | 10 Mbps / 100 Mbps / 1 Gbps / 10 Gbps | Ethernet twisted-pair computer networking (LAN); *(distinguished from 4/6-pin RJ-11 used for telephone landlines)* |
+| **PS/2 Port** | 6-pin mini-DIN connector | Low-speed legacy serial interface | Color-coded legacy input devices: **Purple for Keyboard**, **Green for Mouse** |
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. Address Bus Directionality: The Address Bus is strictly UNIDIRECTIONAL (signals flow ONLY outward from the CPU to
@@ -1319,195 +1052,42 @@ Internet is the world's largest public WAN.
 5. SAN (Storage Area Network): A dedicated, high-speed, private network interconnecting block-level storage arrays (RAID,
 tape libraries) directly to enterprise banking servers via Fibre Channel or iSCSI, bypassing the standard LAN to avoid
 bandwidth saturation.
- Master Matrix of Network Topologies
-Network topology defines the physical layout or logical arrangement of connected nodes (computers/printers) and
-communication links.
-TOPOLOGY 	GEOMETRIC
-ARCHITECTURE
-TOTAL CABLE
-LINKS REQUIRED
-($N$ NODES)
-FAULT
-TOLERANCE &
-RESILIENCE
-PRIMARY STRENGTHS 	FATAL VULNERABILITY
-Star 	All nodes connect directly
-to a central Hub or
-Switch.
-Links 	High for nodes;
-Zero for central
-hub.
-Simple installation; node
-failure does not affect
-others; easy
-troubleshooting.
-If the central Hub/Switch
-fails, the entire network
-collapses.
-Bus 	All nodes connect via
-drop lines to a single
-shared Backbone cable
-terminated at ends.
-1 Backbone Cable
-($N$ drop lines)
-Low. 	Inexpensive; minimal
-cabling; well-suited for
-small temporary setups.
-Backbone break paralyzes
-whole network; packet
-collisions surge as nodes
-increase.
-Ring 	Nodes connected in a
-closed circle; data
-circulates sequentially via
-token.
-Links 	Low (unless
-dual counter-
-rotating ring).
-Zero packet collisions;
-deterministic token access.
-Break in single ring disables
-entire network;
-adding/removing nodes
-disrupts loop.
-N
-N
+### 1. Master Matrix of Network Topologies
 
-TOPOLOGY 	GEOMETRIC
-ARCHITECTURE
-TOTAL CABLE
-LINKS REQUIRED
-($N$ NODES)
-FAULT
-TOLERANCE &
-RESILIENCE
-PRIMARY STRENGTHS 	FATAL VULNERABILITY
-Mesh
-(Full)
-Every node connects
-directly to every other
-node in the network.
-Absolute
-Maximum
-Resilience.
-Dedicated links prevent
-congestion; multiple
-redundant backup paths;
-robust privacy.
-Extremely expensive;
-astronomical cabling
-density; complex routing
-setup.
-Tree 	Hierarchical parent-child
-branching structure
-(combination of Star and
-Bus).
-Links 	Moderate. 	Scalable expansion for
-corporate divisional
-departments.
-Root node failure isolates
-subordinate network
-branches.
-Hybrid 	Combination of two or
-more distinct topologies
-(e.g. Star-Bus, Star-Ring).
-Variable 	High. 	Customized for large
-enterprise campuses.
-Complex architectural
-maintenance and
-troubleshooting.
-Mesh Cable Calculation Formula: For a fully connected mesh network of 	devices: $$\mathbf{\text{Number of Physical
-Duplex Links} = \frac{N(N - 1)}{2}} \quad \Big| \quad \mathbf{\text{Ports per Device} = N - 1}$$
-Example: A banking network connecting 8 regional servers in a full mesh requires: $$\frac{8 \times (8 - 1)}{2} =
-\frac{8 \times 7}{2} = \mathbf{28\text{ Physical Cable Links}}$$
- Physical Networking Devices & Operating OSI Layers
-APPLICATION LAYER
-```text
-──────┐
-```
-PRESENTATION LAYER
-```text
-│ ──► GATEWAYS (Protocol Converters)
-```
-SESSION LAYER
-```text
-──────┘
-```
-TRANSPORT LAYER
-```text
-──────────► L4 FIREWALLS
-```
-NETWORK LAYER
-```text
-──────────► ROUTERS (IP Addressing & Routing)
-```
-DATA LINK LAYER
-```text
-──────────► SWITCHES & BRIDGES (MAC Addressing & Filtering)
-```
-PHYSICAL LAYER
-```text
-──────────► HUBS & REPEATERS (Signal Amplification & Regeneration)
-```
-1. Repeater (Physical Layer - Layer 1):
-An analog/digital amplifier that receives attenuated electrical, optical, or radio signals weakened by transmission
-distance, cleans and regenerates them to full signal strength, and retransmits them. Extends maximum cable length.
-2. Hub (Physical Layer - Layer 1):
-A multi-port repeater. A "dumb" broadcasting device.
-When a data packet arrives at one port, the Hub blindly broadcasts the packet to ALL other connected ports,
-regardless of intended recipient.
-All connected devices share a single collision domain and operate in half-duplex (high packet collision probability).
-3. Bridge (Data Link Layer - Layer 2):
-Connects two distinct physical LAN segments and filters traffic based on hardware MAC Addresses.
-Inspects incoming frames: if sender and receiver are on the same segment, the frame is blocked; if on different
-segments, the frame is forwarded. Divides one large collision domain into two smaller collision domains.
-4. Switch (Data Link Layer - Layer 2 / Layer 3):
-An intelligent multi-port bridge. The universal foundation of modern wired LANs.
-Maintains an internal hardware MAC Address Table (CAM Table - Content Addressable Memory) mapping physical
-MAC addresses to specific switch ports.
-Instead of broadcasting, a switch inspects the destination MAC address of incoming frames and unicasts the frame
-directly and exclusively to the destination port.
-Links	2
-N(N−1)
-N − 1
-N
+| Topology | Geometric Architecture | Total Cable Links Required ($N$ Nodes) | Fault Tolerance & Resilience | Primary Strengths | Fatal Vulnerability / Disadvantage |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Star** | All nodes connect directly to a central Hub or Switch | $N\text{ Links}$ | High for individual nodes; Zero if central device fails | Simple installation; node failure does not affect others; easy troubleshooting | Central Hub/Switch failure collapses entire network (Single Point of Failure) |
+| **Bus** | All nodes connect via drop lines to a single shared Backbone cable terminated at both ends | 1 Backbone Cable + $N\text{ drop lines}$ | Low | Inexpensive; minimal cabling; well-suited for small temporary setups | Backbone cable break paralyzes whole network; packet collisions surge as nodes increase |
+| **Ring** | Nodes connected in a closed circular loop; data circulates sequentially via token | $N\text{ Links}$ | Low *(unless dual counter-rotating ring)* | Zero packet collisions; deterministic token access | Break in single ring disables entire network; adding/removing nodes disrupts loop |
+| **Mesh (Full Mesh)** | Every node connects directly to every other node in the network | $\frac{N(N - 1)}{2}\text{ Physical Duplex Links}$<br>*(Ports per device: $N - 1$)* | **Absolute Maximum Resilience** | Dedicated links prevent congestion; multiple redundant backup paths; robust privacy | Extremely expensive; astronomical cabling density; complex routing setup |
+| **Tree** | Hierarchical parent-child branching structure (combination of Star and Bus) | $N - 1\text{ Links}$ | Moderate | Scalable expansion for corporate departmental hierarchies | Root node failure isolates subordinate network branches |
+| **Hybrid** | Combination of two or more distinct topologies (e.g. Star-Bus, Star-Ring) | Variable depending on topology mix | High | Highly customized and adaptable for large enterprise campuses | Complex architectural maintenance, configuration, and troubleshooting |
 
-Microsegmentation: Every single switch port represents an independent, isolated collision domain operating in full-
-duplex (simultaneous send and receive with zero packet collisions).
-5. Router (Network Layer - Layer 3):
-An intelligent internetworking device that connects two or more completely distinct logical networks (e.g. connecting
-a private bank branch LAN to the public Internet WAN).
-Operates using logical IP Addresses (IPv4 / IPv6). Maintains dynamic Routing Tables and executes routing algorithms
-(OSPF, BGP, RIP) to determine the mathematically optimal path for packets across networks.
-Breaks Broadcast Domains: While switches propagate broadcasts across all ports, routers terminate and block
-broadcast frames by default.
-6. Gateway (Application / All Layers - Layers 4 to 7):
-An advanced protocol converter that connects networks operating on completely incompatible network
-architectures, transport mechanisms, or communication protocols (e.g. connecting an IBM SNA mainframe network
-to a standard TCP/IP network).
-7. Modem (Modulator-Demodulator):
-Converts digital binary pulses from a computer into analog audio frequencies for transmission across analog
-telephone/cable lines (Modulation), and converts received analog signals back into digital bits (Demodulation).
-8. Network Interface Card (NIC):
-A hardware expansion card or onboard chip providing physical connection to the network medium. Contains a
-globally unique 48-bit (6-Byte) MAC Address hardcoded into its ROM at the manufacturing plant.
- Transmission Media: Guided (Wired) vs Unguided (Wireless)
-Twisted Pair Cable: Consists of color-coded copper wires twisted in pairs to cancel out electromagnetic interference
-(EMI) and crosstalk. Terminated with RJ-45 connectors.
-UTP (Unshielded Twisted Pair): Standard office LAN cabling (e.g. Cat5e supports 1 Gbps up to 100 m; Cat6/Cat6a
-supports 10 Gbps).
-STP (Shielded Twisted Pair): Encased in protective metal foil shielding for noisy industrial factory environments.
-Coaxial Cable: Central copper conductor surrounded by dielectric insulation, woven copper braiding shield, and outer
-jacket. Terminated with BNC connectors. Resistant to interference; historically utilized in Bus topologies and cable TV
-networks.
-Fiber Optic Cable: Transmits digital data as pulses of light through ultra-pure silica glass or plastic cores utilizing the
-physics of Total Internal Reflection (TIR).
-Immune to Electromagnetic Interference (EMI). Completely tap-proof and secure against electromagnetic
-eavesdropping.
-Single-Mode Fiber (SMF): Narrow core ($\sim 9\ \mu\text{m}$); uses laser diodes; transmits over tens of kilometers
-with minimal modal dispersion (backbone WAN/transoceanic cables).
-Multi-Mode Fiber (MMF): Wider core ($50–62.5\ \mu\text{m}$); uses LEDs; transmits over shorter distances within
-data centers ($< 500\text{ m}$).
+*Mesh Cable Calculation Formula: For a fully connected mesh network of $N$ devices:*
+$$\mathbf{\text{Number of Physical Duplex Links} = \frac{N(N - 1)}{2}} \quad \Big| \quad \mathbf{\text{Ports per Device} = N - 1}$$
+*Example: A banking network connecting 8 regional servers in a full mesh requires: $\frac{8 \times 7}{2} = \mathbf{28\text{ Physical Cable Links}}$.*
+
+### 2. Physical Networking Devices & Operating OSI Layers
+
+| Networking Device | Operating OSI Layer | Addressing / Transmission Mode | Operational Function & Collision Domain Rule |
+| :--- | :--- | :--- | :--- |
+| **Repeater** | **Layer 1 (Physical Layer)** | Bit-level signal regeneration | Amplifies and regenerates attenuated signals weakened by distance; extends maximum physical cable length |
+| **Hub** | **Layer 1 (Physical Layer)** | "Dumb" Broadcast *(Half-Duplex)* | Multi-port repeater; blindly broadcasts incoming packets to **ALL** connected ports; **single collision domain** across all ports |
+| **Bridge** | **Layer 2 (Data Link Layer)** | Hardware MAC Address filtering | Connects two physical LAN segments; inspects MAC addresses to filter or forward frames; divides one collision domain into two |
+| **Switch** | **Layer 2 (Data Link Layer)** *(L3 Switches add IP routing)* | Hardware MAC Address Unicast *(CAM Table)* | Intelligent multi-port bridge; inspects destination MAC to unicast frames; **microsegmentation: every single port is an independent collision domain** *(Full-Duplex)* |
+| **Router** | **Layer 3 (Network Layer)** | Logical IP Addresses *(IPv4 / IPv6)* | Interconnects distinct logical networks; executes dynamic routing algorithms (OSPF, BGP, RIP); **breaks broadcast domains** by default |
+| **Gateway** | **Layers 4 to 7 (Transport to Application)** | Protocol translation & conversion | Advanced protocol converter interconnecting networks running completely incompatible architectures (e.g. IBM SNA to TCP/IP) |
+| **Modem** | Layer 1 / Physical Interface | Modulation / Demodulation | Converts digital computer pulses to analog frequencies for transmission across telephone/cable lines and demodulates incoming signals |
+| **NIC (Network Interface Card)** | Layer 2 / Layer 1 | Hardware MAC Address | Expansion card or onboard chip providing physical network interface; contains factory-burned unique **48-bit (6-Byte) MAC Address** |
+
+### 3. Transmission Media: Guided (Wired) Master Comparison
+
+| Cable Type | Physical Medium & Connectors | Standard Bandwidth & Range | Interference Immunity & Applications |
+| :--- | :--- | :--- | :--- |
+| **Twisted Pair (UTP / STP)** | Color-coded copper wires twisted in pairs; terminated with **RJ-45** connectors | Cat5e: **1 Gbps up to 100 m**;<br>Cat6/Cat6a: **10 Gbps up to 100 m** | Twisting cancels EMI and crosstalk; UTP for standard office LANs; STP (metal foil shielded) for high-noise industrial environments |
+| **Coaxial Cable** | Central copper conductor, dielectric insulation, woven braid shield; **BNC** connectors | 10–100 Mbps; legacy 10BASE2/10BASE5 | High resistance to interference; historically utilized in Bus topologies and cable television distribution |
+| **Fiber Optic (Single-Mode - SMF)** | Ultra-pure silica glass core ($\sim 9\ \mu\text{m}$); laser diodes; **Total Internal Reflection (TIR)** | **10 Gbps to 100+ Gbps** over tens of kilometers | **100% Immune to EMI**; completely tap-proof and secure; utilized for telecommunication backbones and transoceanic submarine cables |
+| **Fiber Optic (Multi-Mode - MMF)** | Wider silica core ($50–62.5\ \mu\text{m}$); LED light sources; **Total Internal Reflection (TIR)** | Up to **10–40 Gbps** over short distances ($< 500\text{ m}$) | Immune to EMI; economical high-speed connectivity within data centers and enterprise server rooms |
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. Hub vs Switch Broadcast: A Hub broadcasts incoming data to EVERY connected port. A Switch unicasts data specifically
@@ -1550,152 +1130,73 @@ OSI 7-LAYER MODEL 	TCP/IP 4-LAYER MODEL 	PROTOCOL DATA UNIT (PDU)
 │ 	PHYSICAL LAYER 	│ ────────┘ 	(Link Layer)
 └─────────────────────────┘
 ```
- Deep-Dive Matrix of the OSI 7 Layers
-LAYER
-# LAYER
-NAME
-PROTOCOL DATA
-UNIT (PDU)
-CORE FUNCTIONAL MANDATE 	HARDWARE /
-PROTOCOLS
-Layer
-7
-Application 	Data / Message 	Direct interface between end-user applications and network
-services. Initiates communication requests.
-HTTP, HTTPS, FTP, SMTP,
-DNS, Telnet, SSH, SNMP,
-DHCP
-Layer
-6
-Presentation 	Data 	Data translation, encryption/decryption, and compression.
-Converts network formats (ASCII, Unicode, EBCDIC; JPEG, MP3;
-SSL/TLS).
-SSL, TLS, JPEG, MPEG, GIF,
-ASCII
-Layer
-5
-Session 	Data 	Establishes, maintains, synchronizes, and terminates dialogues
-(sessions) between applications. Inserts recovery checkpoints into
-data streams.
-NetBIOS, RPC, PPTP,
-SOCKS, SIP
-Layer
-4
-Transport 	Segment (TCP) /
-Datagram (UDP)
-End-to-end process-to-process delivery, flow control (sliding
-window), error checking, and port addressing.
-TCP, UDP; Port numbers
-($0–65535$)
-Layer
-3
-Network 	Packet 	Logical addressing (IP) and routing. Determines optimal physical
-path across interconnected networks.
-IPv4, IPv6, ICMP, ARP,
-RARP, OSPF, BGP; Routers
-Layer
-2
-Data Link 	Frame 	Node-to-node hop delivery, physical MAC addressing, framing, and
-error detection via CRC (Cyclic Redundancy Check). Divided into LLC
-(802.2) and MAC (802.3).
-Ethernet, PPP, HDLC,
-Frame Relay; Switches &
-Bridges
-Layer
-1
-Physical 	Bits 	Transmission of raw unstructured bitstreams across physical
-transmission media (voltages, light pulses, radio frequencies).
-Cables, Fiber optics,
-Connectors, Hubs &
-Repeaters
-Data Encapsulation Lifecycle: As data descends the stack on the sender's machine, each layer wraps the incoming data
-unit with its own protocol header (and trailer at Layer 2): $$\mathbf{\text{Data}} \xrightarrow{L4}
-\mathbf{\text{Segment}} \xrightarrow{L3} \mathbf{\text{Packet}} \xrightarrow{L2} \mathbf{\text{Frame}}
-\xrightarrow{L1} \mathbf{\text{Bits}}$$ Upon arrival at the destination, the reverse process (Decapsulation) strips
-headers sequentially as data ascends the stack.
+### 1. Deep-Dive Matrix of the OSI 7 Layers
 
- Transport Layer Protocols: TCP vs UDP
-FEATURE /
-PROPERTY
-TCP (TRANSMISSION CONTROL PROTOCOL) 	UDP (USER DATAGRAM PROTOCOL)
-Connection
-Orientation
-Connection-Oriented: Establishes connection via Three-Way
-Handshake ( SYN → SYN-ACK → ACK ) before sending data.
-Connectionless: Transmits packets immediately
-without verifying receiver readiness.
-Reliability 	Guaranteed Delivery: Acknowledges received segments;
-automatically retransmits lost packets.
-Unreliable / Best-Effort: No acknowledgments; zero
-automatic retransmission of lost packets.
-Packet Ordering 	Sequenced: Segments carry sequence numbers and are
-reassembled in exact original order.
-Unordered: Datagrams may arrive out of order or be
-dropped entirely.
-Flow & Congestion
-Control
-Comprehensive flow control (Sliding Window) and congestion
-control algorithms.
-None. Transmits as fast as application supplies data.
-Protocol Overhead 	Heavy header (20 to 60 Bytes). Slower throughput. 	Lightweight header (8 Bytes). Ultra-fast transmission.
-Core Applications 	Web browsing (HTTP/HTTPS), Secure Shell (SSH), Email
-(SMTP/IMAP), File Transfer (FTP), Banking Transactions.
-Real-time voice/video calls (VoIP), Video streaming,
-Online gaming, DNS queries, DHCP.
- IP Addressing Architecture: IPv4 vs IPv6
-IPv4 (Internet Protocol Version 4):
-32-bit binary address, written in Dotted-Decimal Notation as four 8-bit octets separated by dots (e.g.
-192.168.1.1 ).
-Total theoretical address space: 	($\approx 4.3\text{ Billion}$).
-Address Classes:
-Class A: 1.0.0.0 to 126.255.255.255 (Subnet Mask 255.0.0.0 ; massive multinational networks).
-Loopback / Diagnostic Address: 127.0.0.1 ( 127.0.0.0/8 reserved exclusively for software loopback self-
-testing).
-Class B: 128.0.0.0 to 191.255.255.255 (Subnet Mask 255.255.0.0 ; medium enterprise networks).
-Class C: 192.0.0.0 to 223.255.255.255 (Subnet Mask 255.255.255.0 ; small local area networks).
-Class D: 224.0.0.0 to 239.255.255.255 (Reserved for Multicasting).
-Class E: 240.0.0.0 to 255.255.255.255 (Reserved for Experimental / R&D purposes).
-Private IP Address Ranges (RFC 1918 - Non-routable on public Internet; translated via NAT):
-Class A: 10.0.0.0 to 10.255.255.255
-Class B: 172.16.0.0 to 172.31.255.255
-Class C: 192.168.0.0 to 192.168.255.255
-APIPA (Automatic Private IP Addressing): 169.254.0.1 to 169.254.255.254 (assigned automatically by Windows
-when a DHCP server is unreachable).
-IPv6 (Internet Protocol Version 6):
-Developed to completely eliminate IPv4 address exhaustion.
-128-bit binary address, written in Hexadecimal Notation as eight groups of four hex digits separated by colons (e.g.
-2001:0db8:85a3:0000:0000:8a2e:0370:7334 ).
-Total theoretical address space: 	(virtually inexhaustible).
-2 =	32 	4, 294, 967, 296 addresses
-2 	≈	128 	3.4 × 10 addresses	38
+| Layer # | Layer Name | Protocol Data Unit (PDU) | Core Functional Mandate | Hardware / Operating Protocols |
+| :--- | :--- | :--- | :--- | :--- |
+| **Layer 7** | **Application** | **Data / Message** | Direct interface between end-user applications and network services; initiates communication requests | HTTP, HTTPS, FTP, SMTP, DNS, Telnet, SSH, SNMP, DHCP |
+| **Layer 6** | **Presentation** | **Data** | Data translation, encryption/decryption, and compression; converts network formats (ASCII, Unicode, EBCDIC; JPEG, MP3; SSL/TLS) | SSL, TLS, JPEG, MPEG, GIF, ASCII |
+| **Layer 5** | **Session** | **Data** | Establishes, maintains, synchronizes, and terminates dialogues (sessions) between applications; inserts recovery checkpoints | NetBIOS, RPC, PPTP, SOCKS, SIP |
+| **Layer 4** | **Transport** | **Segment (TCP)** /<br>**Datagram (UDP)** | End-to-end process-to-process delivery, flow control (sliding window), error checking, and port addressing | TCP, UDP; Port numbers ($0–65535$) |
+| **Layer 3** | **Network** | **Packet** | Logical addressing (IP) and routing; determines optimal physical path across interconnected networks | IPv4, IPv6, ICMP, ARP, RARP, OSPF, BGP; **Routers** |
+| **Layer 2** | **Data Link** | **Frame** | Node-to-node hop delivery, physical MAC addressing, framing, and error detection via CRC (Cyclic Redundancy Check); divided into LLC (802.2) and MAC (802.3) | Ethernet, PPP, HDLC, Frame Relay; **Switches & Bridges** |
+| **Layer 1** | **Physical** | **Bits** | Transmission of raw unstructured bitstreams across physical transmission media (voltages, light pulses, radio frequencies) | Cables, Fiber optics, Connectors, **Hubs & Repeaters** |
 
- Well-Known Ports & Application Layer Protocols Master Inventory
-Network port numbers are 16-bit integers ($0$ to $65,535$) identifying specific application processes:
-PORT # 	PROTOCOL 	FULL NAME 	PRIMARY NETWORK FUNCTION
-20 &
-21
-FTP 	File Transfer Protocol 	Port 20 transfers actual data; Port 21 manages commands and control
-connections.
-22 	SSH 	Secure Shell 	Encrypted remote terminal access and secure file transmission (replaces Telnet).
-23 	Telnet 	Telecommunication Network 	Unencrypted, plaintext remote terminal protocol (highly insecure).
-25 	SMTP 	Simple Mail Transfer Protocol 	Sending / routing outgoing email messages between mail transfer agents (MTAs).
-53 	DNS 	Domain Name System 	Translates human domain names ( rbi.org.in ) to machine IP addresses
-( 142.250.x.x ).
-67 &
-68
-DHCP 	Dynamic Host Configuration
-Protocol
-Automatically assigns IP addresses, subnet masks, and default gateways to client
-devices.
-80 	HTTP 	Hypertext Transfer Protocol 	Unencrypted transmission of World Wide Web hypertext documents.
-110 	POP3 	Post Office Protocol Version 3 	Retrieving incoming email from mail server to client; downloads and deletes from
-server.
-143 	IMAP4 	Internet Message Access Protocol 	Retrieving incoming email with two-way folder synchronization across multiple
-devices.
-161 	SNMP 	Simple Network Management
-Protocol
-Monitoring and managing network devices (routers, switches, printers).
-443 	HTTPS 	Hypertext Transfer Protocol Secure 	Web browsing encrypted over SSL / TLS (foundational for secure online banking).
+*Data Encapsulation Lifecycle:*
+$$\mathbf{\text{Data}} \xrightarrow{L4} \mathbf{\text{Segment}} \xrightarrow{L3} \mathbf{\text{Packet}} \xrightarrow{L2} \mathbf{\text{Frame}} \xrightarrow{L1} \mathbf{\text{Bits}}$$
+*(Upon arrival at destination, Decapsulation reverses this sequence, stripping headers sequentially as data ascends).*
+
+### 2. Transport Layer Protocols: TCP vs UDP Comparison
+
+| Feature / Property | TCP (Transmission Control Protocol) | UDP (User Datagram Protocol) |
+| :--- | :--- | :--- |
+| **Connection Orientation** | **Connection-Oriented**: Establishes connection via **Three-Way Handshake (SYN $\to$ SYN-ACK $\to$ ACK)** before sending data | **Connectionless**: Transmits packets immediately without verifying receiver readiness |
+| **Reliability & Delivery** | **Guaranteed Delivery**: Acknowledges received segments; automatically retransmits lost packets | **Unreliable / Best-Effort**: No acknowledgments; zero automatic retransmission of lost packets |
+| **Packet Ordering** | **Sequenced**: Segments carry sequence numbers and are reassembled in exact original order | **Unordered**: Datagrams may arrive out of order or be dropped entirely |
+| **Flow & Congestion Control** | Comprehensive flow control (Sliding Window) and congestion control algorithms | **None**: Transmits as fast as application supplies data |
+| **Protocol Overhead** | Heavy header (**20 to 60 Bytes**); slower throughput | Lightweight header (**8 Bytes**); ultra-fast transmission |
+| **Core Applications** | Web browsing (HTTP/HTTPS), Secure Shell (SSH), Email (SMTP/IMAP), File Transfer (FTP), Banking Transactions | Real-time voice/video calls (VoIP), Video streaming, Online gaming, DNS queries, DHCP |
+
+### 3. IP Addressing Architecture: IPv4 vs IPv6
+
+#### A. IPv4 Address Classes & Special Reserved Blocks
+
+| IP Class / Block | First Octet Range | Default Subnet Mask | Total Network & Host Capacity | Dedicated Purpose / Application |
+| :--- | :--- | :--- | :--- | :--- |
+| **Class A** | `1.0.0.0` to `126.255.255.255` | `255.0.0.0` (/8) | 128 Networks, 16,777,214 Hosts/Net | Massive multinational networks & government backbones |
+| **Loopback Block** | `127.0.0.1` (`127.0.0.0/8`) | *Not Applicable* | Reserved software testing | Software loopback / `localhost` TCP/IP stack self-diagnostics |
+| **Class B** | `128.0.0.0` to `191.255.255.255` | `255.255.0.0` (/16) | 16,384 Networks, 65,534 Hosts/Net | Medium enterprise networks & university campuses |
+| **Class C** | `192.0.0.0` to `223.255.255.255` | `255.255.255.0` (/24) | 2,097,152 Networks, 254 Hosts/Net | Small local area networks (LANs) & small business networks |
+| **Class D** | `224.0.0.0` to `239.255.255.255` | *Not Applicable* | No host/network partition | Reserved strictly for **Multicasting** |
+| **Class E** | `240.0.0.0` to `255.255.255.255` | *Not Applicable* | No host/network partition | Reserved for **Experimental & Scientific R&D** |
+| **Private IP (RFC 1918)** | • Class A: `10.0.0.0/8`<br>• Class B: `172.16.0.0/12`<br>• Class C: `192.168.0.0/16` | Standard class masks | Non-routable on public Internet | Internal private LANs (translated to public IPs via NAT) |
+| **APIPA Range** | `169.254.0.1` to `169.254.255.254` | `255.255.0.0` | Assigned automatically by OS | Fallback autoconfiguration when DHCP server is unreachable |
+
+#### B. Architectural Comparison: IPv4 vs IPv6
+
+| Structural Parameter | IPv4 (Internet Protocol Version 4) | IPv6 (Internet Protocol Version 6) |
+| :--- | :--- | :--- |
+| **Binary Address Length** | **32 bits** (4 Bytes) | **128 bits** (16 Bytes) |
+| **Standard Notation Format** | Dotted-Decimal notation (e.g. `192.168.1.1`) | Hexadecimal colon-separated notation (e.g. `2001:0db8:85a3::7334`) |
+| **Theoretical Address Space** | $2^{32} = \mathbf{4,294,967,296\text{ addresses}}$ (~4.3 Billion) | $2^{128} \approx \mathbf{3.4 \times 10^{38}\text{ addresses}}$ *(virtually inexhaustible)* |
+| **Configuration Model** | Manual static assignment or DHCP | Stateless Address Auto-Configuration (SLAAC) or DHCPv6 |
+
+### 4. Well-Known Ports & Application Layer Protocols Master Inventory
+
+| Port # | Protocol Acronym | Full Protocol Name | Primary Network Function & Mechanics |
+| :--- | :--- | :--- | :--- |
+| **20 & 21** | **FTP** | File Transfer Protocol | Port 20 transfers actual data; Port 21 manages commands and control connections |
+| **22** | **SSH** | Secure Shell | Encrypted remote terminal access and secure file transmission *(secure replacement for Telnet)* |
+| **23** | **Telnet** | Telecommunication Network | Unencrypted, plaintext remote terminal protocol *(highly insecure)* |
+| **25** | **SMTP** | Simple Mail Transfer Protocol | Sending / routing outgoing email messages between mail transfer agents (MTAs) |
+| **53** | **DNS** | Domain Name System | Translates human domain names (`rbi.org.in`) to machine IP addresses |
+| **67 & 68** | **DHCP** | Dynamic Host Configuration Protocol | Automatically assigns IP addresses, subnet masks, and default gateways to client devices |
+| **80** | **HTTP** | Hypertext Transfer Protocol | Unencrypted transmission of World Wide Web hypertext documents |
+| **110** | **POP3** | Post Office Protocol Version 3 | Retrieving incoming email from mail server to client; downloads and deletes from server |
+| **143** | **IMAP4** | Internet Message Access Protocol | Retrieving incoming email with two-way folder synchronization across multiple client devices |
+| **161** | **SNMP** | Simple Network Management Protocol | Monitoring and managing network devices (routers, switches, printers) |
+| **443** | **HTTPS** | Hypertext Transfer Protocol Secure | Web browsing encrypted over SSL / TLS *(foundational security standard for online banking)* |
+
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. OSI Layer of Encryption: Encryption and Decryption (SSL/TLS) occur at the Presentation Layer (Layer 6).
@@ -1714,32 +1215,34 @@ TCP/IP protocol stack is functioning correctly on the computer.
 
 ## [COMP-013] **Microsoft Office Master Suite (Word, Excel, PowerPoint & Access)**
 
-⌨ Universal Microsoft Office Keyboard Shortcuts Master Reference
-KEYBOARD SHORTCUT 	UNIVERSAL ACTION ACROSS MS OFFICE
-Ctrl + A 	Select All text, objects, or all cells in worksheet.
-Ctrl + B 	Toggles Bold text formatting.
-Ctrl + C 	Copy selected text, object, or cells to clipboard.
-Ctrl + D 	Word: Opens Font dialog box; Excel: Fill Down command.
-Ctrl + E 	Center Align text / paragraph.
-Ctrl + F 	Opens Find search pane.
-Ctrl + G 	Opens Go To navigation window.
-Ctrl + H 	Opens Find and Replace window.
-Ctrl + I 	Toggles Italics text formatting.
-Ctrl + J 	Justify Align text (spreads text evenly between margins).
-Ctrl + K 	Insert Hyperlink dialog box.
-Ctrl + L 	Left Align text.
-Ctrl + M 	Word: Indents paragraph; PowerPoint: Inserts New Slide ( Ctrl + M ).
-Ctrl + N 	Opens a New blank document, workbook, or presentation.
-Ctrl + O 	Opens an existing document or file (Open).
-Ctrl + P 	Opens the Print dialog window.
-Ctrl + R 	Right Align text.
-Ctrl + S 	Save active file.
-Ctrl + U 	Toggles Underline text formatting.
-Ctrl + V 	Paste contents from clipboard.
-Ctrl + W 	Close current document / window.
-Ctrl + X 	Cut selected text or object to clipboard.
-Ctrl + Y 	Redo last undone action.
-Ctrl + Z 	Undo last action.
+### 1. Universal Microsoft Office Keyboard Shortcuts Master Reference
+
+| Keyboard Shortcut | Universal Action Across MS Office | Specific Application Behavior / Nuance |
+| :--- | :--- | :--- |
+| **Ctrl + A** | Select All | Selects entire document text, slide objects, or all cells in active worksheet |
+| **Ctrl + B** | Bold | Toggles Bold text formatting |
+| **Ctrl + C** | Copy | Copies selected text, object, or cells to clipboard |
+| **Ctrl + D** | Duplicate / Font / Fill Down | • **Word**: Opens Font dialog box<br>• **Excel**: Fill Down command<br>• **PowerPoint**: Duplicate selected slide/shape |
+| **Ctrl + E** | Center Alignment | Centers text or paragraph between margins |
+| **Ctrl + F** | Find | Opens Navigation search pane to locate words or numbers |
+| **Ctrl + G** | Go To | Opens Go To navigation window to jump to page, section, or cell |
+| **Ctrl + H** | Replace | Opens Find and Replace dialogue window |
+| **Ctrl + I** | Italic | Toggles Italics text formatting |
+| **Ctrl + J** | Justify Alignment | Justifies text evenly between left and right margins |
+| **Ctrl + K** | Insert Hyperlink | Opens Insert Hyperlink dialog box |
+| **Ctrl + L** | Left Alignment | Aligns text to left margin |
+| **Ctrl + M** | Indent / New Slide | • **Word**: Indents paragraph from left<br>• **PowerPoint**: **Inserts a New Slide** *(High-Frequency Exam Trap)* |
+| **Ctrl + N** | New File | Opens a new blank document, workbook, or presentation file |
+| **Ctrl + O** | Open File | Opens existing document or browsing dialog |
+| **Ctrl + P** | Print | Opens Print preview and settings window |
+| **Ctrl + R** | Right Alignment | Aligns text to right margin |
+| **Ctrl + S** | Save | Saves active document / workbook |
+| **Ctrl + U** | Underline | Toggles Underline text formatting |
+| **Ctrl + V** | Paste | Pastes contents from clipboard |
+| **Ctrl + W** | Close Window | Closes active document / workbook without quitting application |
+| **Ctrl + X** | Cut | Cuts selected text or object to clipboard |
+| **Ctrl + Y** | Redo | Redoes last undone action |
+| **Ctrl + Z** | Undo | Reverses last action |
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. New Slide vs New Presentation: To create a New Presentation / File, press Ctrl + N . To insert a New Slide inside an
@@ -1781,33 +1284,18 @@ ECC - Elliptic Curve Cryptography, Diffie-Hellman).
 Digital Signatures: Provides Authentication, Integrity, and Non-Repudiation (the sender cannot deny having sent the
 message). Created by encrypting a document's cryptographic hash using the sender's Private Key; verified by anyone
 using the sender's Public Key.
- Indian Cyber Law: Key Penal Provisions of the Information Technology Act, 2000
-SECTION (IT ACT
-2000)
-OFFENCE / SUBJECT MATTER 	PRESCRIBED STATUTORY PENALTY /
-PUNISHMENT
-Section 43 	Unauthorized access, data theft, virus introduction, damaging computer
-systems, or extracting data without permission
-Civil Compensation up to ₹1 Crore to the
-affected person/bank.
-Section 66 	Computer-related offences / Hacking committed dishonestly or fraudulently 	Imprisonment up to 3 Years OR fine up to
-₹5 Lakhs, or both.
-Section 66B 	Dishonestly receiving stolen computer resource or communication device 	Imprisonment up to 3 Years OR fine up to
-₹1 Lakh, or both.
-Section 66C 	Identity Theft: Fraudulent use of electronic signature, password, or biometric
-PIN
-Imprisonment up to 3 Years AND fine up to
-₹1 Lakh.
-Section 66D 	Cheating by Personation using computer resource / mobile device (Phishing) 	Imprisonment up to 3 Years AND fine up to
-₹1 Lakh.
-Section 66E 	Violation of privacy (capturing/publishing private images without consent) 	Imprisonment up to 3 Years OR fine up to
-₹2 Lakhs, or both.
-Section 66F 	Cyber Terrorism: Acts threatening the unity, integrity, security, or sovereignty
-of India
-Imprisonment for LIFE.
-Section 70 	Unauthorized access to a declared Protected System (Critical Information
-Infrastructure)
-Imprisonment up to 10 Years and fine.
+### 1. Indian Cyber Law: Key Penal Provisions of the Information Technology Act, 2000
+
+| Section (IT Act, 2000) | Offence / Statutory Subject Matter | Prescribed Statutory Penalty / Punishment |
+| :--- | :--- | :--- |
+| **Section 43** | Unauthorized access, data theft, virus introduction, damaging systems, or extracting data without permission | **Civil Compensation up to ₹1 Crore** to the affected person/bank |
+| **Section 66** | Computer-related offences / Hacking committed dishonestly or fraudulently | Imprisonment **up to 3 Years** OR fine **up to ₹5 Lakhs**, or both |
+| **Section 66B** | Dishonestly receiving stolen computer resource or communication device | Imprisonment **up to 3 Years** OR fine **up to ₹1 Lakh**, or both |
+| **Section 66C** | Identity Theft: Fraudulent use of electronic signature, password, or biometric PIN | Imprisonment **up to 3 Years** AND fine **up to ₹1 Lakh** |
+| **Section 66D** | Cheating by Personation using computer resource / mobile device (Phishing / Impersonation) | Imprisonment **up to 3 Years** AND fine **up to ₹1 Lakh** |
+| **Section 66E** | Violation of privacy (capturing/publishing private images without consent) | Imprisonment **up to 3 Years** OR fine **up to ₹2 Lakhs**, or both |
+| **Section 66F** | **Cyber Terrorism**: Acts threatening the unity, integrity, security, or sovereignty of India | **Imprisonment for LIFE** *(Mandatory Statutory Maximum)* |
+| **Section 70** | Unauthorized access to a declared Protected System (Critical Information Infrastructure) | Imprisonment **up to 10 Years** and fine |
 **EXAM ANGLE:**& TRAP MATRIX
  Exam Anchor & High-Yield Traps:
 1. Virus vs Worm Host Dependency: A Virus REQUIRES a host program to replicate. A Worm is completely autonomous
@@ -1847,103 +1335,23 @@ Branches operate simply as front-end thin client terminals accessing the central
 Any-Branch Banking: A customer is an account holder of the bank as a whole, rather than an account holder of a
 specific geographic branch. Cash deposits, withdrawals, fund transfers, and passbook updates can be executed
 seamlessly from any branch nationwide.
-Prominent Commercial CBS Software Platforms:
-Finacle: Developed by Infosys (utilized by State Bank of India, Punjab National Bank, Canara Bank, Bank of Baroda).
-BaNCS: Developed by Tata Consultancy Services (TCS) (utilized by Central Bank of India, Indian Bank, and global
-financial institutions).
-Flexcube: Developed by Oracle Financial Services Software (utilized by HDFC Bank, Citibank, Kotak Mahindra Bank).
- Electronic Fund Transfer & Settlement Rails
-The Reserve Bank of India (RBI) and National Payments Corporation of India (NPCI) operate several domestic electronic
-payment systems:
-PAYMENT
-SYSTEM
-ADMINISTERING
-ENTITY
-SETTLEMENT METHODOLOGY 	MINIMUM / MAXIMUM
-TRANSACTION LIMITS
-OPERATING
-HOURS
-TIMELINES & BATCH
-CADENCE
-RTGS 	Reserve Bank of
-India (RBI)
-Real-Time Gross Settlement:
-Individual transactions settled
-continuously on a one-to-one
-gross basis without netting.
-Minimum: ₹2,00,000 (₹2
-Lakhs) for customer
-transactions; No maximum
-ceiling.
-24x7x365 	Immediate, irrevocable
-final settlement in
-central bank money
-within seconds.
-NEFT 	Reserve Bank of
-India (RBI)
-National Electronic Funds
-Transfer: Net settlement in
-discrete half-hourly batches
-(Deferred Net Settlement -
-DNS).
-No minimum limit (starts
-from ₹1); No maximum
-ceiling (except cash
-deposit walk-in: max
-₹50,000).
-24x7x365 	48 half-hourly batches
-daily (settles every half
-hour around the clock).
+### 1. Prominent Commercial CBS Software Platforms
 
-PAYMENT
-SYSTEM
-ADMINISTERING
-ENTITY
-SETTLEMENT METHODOLOGY 	MINIMUM / MAXIMUM
-TRANSACTION LIMITS
-OPERATING
-HOURS
-TIMELINES & BATCH
-CADENCE
-IMPS 	NPCI 	Instant retail payment rail
-routing funds across mobile
-numbers and account
-numbers.
-Minimum: ₹1; Maximum:
-₹5,00,000 (₹5 Lakhs) per
-transaction.
-24x7x365 	Real-time settlement
-within seconds across
-bank accounts.
-NACH 	NPCI 	National Automated Clearing
-House: High-volume,
-interbank bulk recurring
-debits/credits.
-Designed for bulk
-transactions (subsidies,
-dividends, loan EMIs,
-utility bills).
-Standard
-operational
-banking
-windows
-Replaces legacy ECS
-(Electronic Clearing
-Service) with centralized
-web mandates.
-CTS 	RBI / NPCI 	Cheque Truncation System
-(CTS-2010): Physical paper
-cheques are stopped at
-collecting branch.
-Governed by drawer's
-cheque amount.
-Clearing House
-Grid schedules
-High-resolution
-greyscale and UV digital
-images transmitted
-electronically to drawee
-bank.
+| CBS Software Platform | Primary Software Developer | Key Banking Implementations & Clients |
+| :--- | :--- | :--- |
+| **Finacle** | **Infosys** | State Bank of India (SBI), Punjab National Bank (PNB), Canara Bank, Bank of Baroda |
+| **BaNCS** | **Tata Consultancy Services (TCS)** | Central Bank of India, Indian Bank, and major global financial institutions |
+| **Flexcube** | **Oracle Financial Services Software** | HDFC Bank, Citibank, Kotak Mahindra Bank |
+
+### 2. Electronic Fund Transfer & Settlement Rails Master Matrix
+
+| Payment System | Administering Entity | Settlement Methodology & Architecture | Minimum / Maximum Transaction Limits | Operating Hours & Settlement Cadence |
+| :--- | :--- | :--- | :--- | :--- |
+| **RTGS** *(Real-Time Gross Settlement)* | **Reserve Bank of India (RBI)** | Individual transactions settled continuously on a one-to-one gross basis without netting | Minimum: **₹2,00,000 (₹2 Lakhs)** for customer transactions; **No maximum ceiling** | **24x7x365**; Immediate, irrevocable final settlement in central bank money within seconds |
+| **NEFT** *(National Electronic Funds Transfer)* | **Reserve Bank of India (RBI)** | Deferred Net Settlement (DNS) processed in discrete half-hourly batches | **No minimum limit** (starts from ₹1); **No maximum ceiling** *(cash walk-in capped at ₹50,000)* | **24x7x365**; **48 half-hourly batches daily** (settles around the clock) |
+| **IMPS** *(Immediate Payment Service)* | **NPCI** | Instant retail payment rail routing funds across mobile numbers and account numbers | Minimum: **₹1**; Maximum: **₹5,00,000 (₹5 Lakhs)** per transaction | **24x7x365**; Real-time settlement within seconds across bank accounts |
+| **NACH** *(National Automated Clearing House)* | **NPCI** | High-volume, interbank bulk recurring debits and credits | Designed for recurring bulk transactions (subsidies, dividends, loan EMIs, utility bills) | Standard operational banking windows; centralized web-based mandate management (replaces ECS) |
+| **CTS** *(Cheque Truncation System - CTS-2010)* | **RBI / NPCI** | Electronic image-based cheque clearing; physical paper cheques stopped at collecting branch | Governed by drawer's cheque amount | Clearing House Grid schedules; high-resolution greyscale and UV digital images transmitted electronically |
  The National Payments Corporation of India (NPCI) Ecosystem
 Incorporated in 2008 under the provisions of the Payment and Settlement Systems Act, 2007 (PSSA) as a "Not-for-Profit"
 company under Section 25 of the Companies Act 1956 (Section 8 of Companies Act 2013), NPCI serves as the umbrella retail
@@ -2038,29 +1446,18 @@ Table: BANK_CUSTOMERS (Relation)
 │ 1003 	│ Vikram Rathore 	│ BR-JAI-02 	│ 42000.00 	│ <-- Tuple 3 (Row / Record)
 └──────────────┴──────────────────┴──────────────┴─────────────────┘
 ```
-Cardinality = 3 (Total Rows)
-RELATIONAL
-TERM
-COMMON /
-PHYSICAL TERM
-TECHNICAL DEFINITION & INVARIANT
-Relation 	Table 	A two-dimensional grid of named columns and unstructured rows containing data elements of
-identical entity types.
-Tuple 	Row / Record 	A single horizontal entry representing a unique, complete instance of an entity (e.g., one single
-customer record).
-Attribute 	Column / Field 	A single vertical property or characteristic defining an entity (e.g., Customer_Name ).
-Domain 	Data Type /
-Permitted Set
-The pool of atomic, valid values from which an attribute draws its values (e.g., Age domain is
-integers $18 \le x \le 120$).
-Cardinality 	Row Count 	The total number of tuples (rows) currently stored in a relation. Cardinality changes dynamically as
-records are inserted or deleted.
-Degree 	Column Count 	The total number of attributes (columns) defining the relation schema. Degree remains fixed unless
-an administrative schema alteration occurs.
-Schema 	Blueprint / Design 	The overall structural design and data type definitions of the database (rarely changes).
-Instance 	Database State /
-Snapshot
-The actual collection of data residing in the database at any specific given moment in time.
+### 1. Relational Database Terminology & Invariants
+
+| Relational Term | Common / Physical Equivalent | Technical Definition & Invariant Rules |
+| :--- | :--- | :--- |
+| **Relation** | **Table** | A two-dimensional grid of named columns and unordered rows containing data elements of identical entity types |
+| **Tuple** | **Row / Record** | A single horizontal entry representing a unique, complete instance of an entity (e.g. one specific customer account) |
+| **Attribute** | **Column / Field** | A single vertical property or characteristic defining an entity (e.g. `Customer_Name`, `Account_Balance`) |
+| **Domain** | **Data Type / Permitted Set** | The pool of atomic, valid values from which an attribute draws its values (e.g. Age domain is integers $18 \le x \le 120$) |
+| **Cardinality** | **Row Count** | The total number of tuples (rows) currently stored in a relation; **changes dynamically** as records are inserted or deleted |
+| **Degree** | **Column Count** | The total number of attributes (columns) defining the relation schema; **remains fixed** unless schema is altered via DDL |
+| **Schema** | **Blueprint / Design** | The overall structural design, constraints, and data type definitions of the database (rarely changes) |
+| **Instance** | **Database State / Snapshot** | The actual collection of data residing in the database at any specific given moment in time |
  Relational Database Keys Taxonomy
 Relational keys uniquely identify tuples within a table and establish referential relationships across multiple tables:
 1. Super Key:
@@ -2165,97 +1562,27 @@ SQL Taxonomy
 ├── DCL (Data Control Language)
 └── TCL (Transaction Control Language)
 ```
-CATEGORY 	FULL FORM 	PURPOSE & SCOPE 	KEY COMMANDS 	TRANSACTIONAL BEHAVIOR
-DDL 	Data Definition
-Language
-Defines, alters, or destroys
-physical database schema,
-tables, and indexes.
-CREATE , ALTER , DROP ,
-TRUNCATE , RENAME
-Auto-committed immediately. Changes
-cannot be rolled back via standard
-undo commands.
-DML 	Data
-Manipulation
-Language
-Inserts, modifies, or removes
-records (rows) stored within
-existing tables.
-INSERT , UPDATE ,
-DELETE , MERGE
-Manual commit required. Changes
-reside in transaction buffers and can be
-rolled back before committing.
-DQL 	Data Query
-Language
-Retrieves and filters data rows
-from one or more tables
-without altering stored data.
-SELECT 	Read-only operations. (Frequently
-grouped under DML in general syllabus
-overviews).
-DCL 	Data Control
-Language
-Manages security privileges,
-user roles, and access control
-rights on database objects.
-GRANT (give privileges),
-REVOKE (take back privileges)
-Administered by Database
-Administrators (DBA).
-TCL 	Transaction
-Control Language
-Manages the transactional
-integrity and permanence of
-DML executions.
-COMMIT (save permanent),
-ROLLBACK (revert changes),
-SAVEPOINT (checkpoint)
-Controls database consistency during
-multi-step financial transfers.
- The Classic Exam Distinction: DROP vs TRUNCATE vs DELETE
-Examiners repeatedly target the structural, performance, and transactional differences between these three deletion
-commands:
-FEATURE /
-METRIC
-DROP 	TRUNCATE 	DELETE
-SQL Category 	DDL (Data Definition Language) 	DDL (Data Definition Language) 	DML (Data Manipulation Language)
-Operational
-Impact
-Destroys the entire table structure,
-all data rows, indexes, constraints,
-and privileges.
-Deletes all data rows inside the table,
-but preserves the table
-structure/schema.
-Deletes specified rows matching a
-WHERE condition (or all rows if
-WHERE omitted).
-WHERE Clause
-Allowed?
- No 	 No (all rows purged indiscriminately) 	 Yes (supports conditional filtering:
-WHERE ID = 5 )
-Transaction
-Rollback?
- No (Auto-committed) 	 No (Auto-committed in standard
-SQL)
- Yes (Can be reverted via
-ROLLBACK )
-Execution Speed 	Fastest (drops object pointer) 	Extremely fast (deallocates entire data
-storage pages; minimal logging)
-Slower (deletes row-by-row, recording
-each deletion in transaction logs)
-Identity / Auto-
-Increment
-Table no longer exists 	Resets identity counter back to initial
-seed value (e.g., resets to 1)
-Retains identity counter sequence
-(next insert continues from last index)
-Database
-Triggers
-Does not fire DML triggers 	Does NOT fire ON DELETE triggers 	Fires ON DELETE triggers for each
-deleted tuple
+### 2. SQL (Structured Query Language) Command Taxonomy
+
+| Category | Full Form | Purpose & Scope | Key Commands | Transactional Behavior |
+| :--- | :--- | :--- | :--- | :--- |
+| **DDL** | **Data Definition Language** | Defines, alters, or destroys physical database schema, tables, and indexes | `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME` | **Auto-committed immediately**; changes cannot be rolled back via standard undo commands |
+| **DML** | **Data Manipulation Language** | Inserts, modifies, or removes records (rows) stored within existing tables | `INSERT`, `UPDATE`, `DELETE`, `MERGE` | **Manual commit required**; resides in transaction buffers and can be rolled back before committing |
+| **DQL** | **Data Query Language** | Retrieves and filters data rows from one or more tables without altering stored data | `SELECT` | Read-only operations *(frequently grouped under DML in introductory syllabi)* |
+| **DCL** | **Data Control Language** | Manages security privileges, user roles, and access control rights on database objects | `GRANT`, `REVOKE` | Administered by Database Administrators (DBAs) to enforce least-privilege security |
+| **TCL** | **Transaction Control Language** | Manages the transactional integrity, durability, and permanence of DML executions | `COMMIT`, `ROLLBACK`, `SAVEPOINT` | Controls database consistency during multi-step financial transfers |
+
+### 3. The Classic Exam Distinction: DROP vs TRUNCATE vs DELETE
+
+| Feature / Metric | DROP | TRUNCATE | DELETE |
+| :--- | :--- | :--- | :--- |
+| **SQL Category** | **DDL** *(Data Definition Language)* | **DDL** *(Data Definition Language)* | **DML** *(Data Manipulation Language)* |
+| **Operational Impact** | Destroys the entire table structure, all data rows, indexes, constraints, and privileges | Deletes all data rows inside the table, but **preserves the table structure/schema** | Deletes specified rows matching a `WHERE` condition *(or all rows if `WHERE` omitted)* |
+| **WHERE Clause Allowed?** | ❌ **No** | ❌ **No** *(all rows purged indiscriminately)* |  **Yes** *(supports conditional filtering: `WHERE ID = 5`)* |
+| **Transaction Rollback?** | ❌ **No** *(Auto-committed immediately)* | ❌ **No** *(Auto-committed in standard SQL)* |  **Yes** *(Can be reverted via `ROLLBACK` before commit)* |
+| **Execution Speed** | Fastest *(drops object pointer from data dictionary)* | Extremely fast *(deallocates entire data storage pages; minimal logging)* | Slower *(deletes row-by-row, recording each deletion in transaction logs)* |
+| **Identity / Auto-Increment** | Table no longer exists | **Resets identity counter** back to initial seed value *(e.g. resets to 1)* | **Retains identity counter sequence** *(next insert continues from last index)* |
+| **Database Triggers** | Does not fire DML triggers | **Does NOT fire ON DELETE triggers** | **Fires ON DELETE triggers** for each deleted tuple |
 
  Transaction Processing & The ACID Properties
 In a banking Core Banking Solution (CBS), a financial transaction represents an indivisible logical unit of work (e.g.,
@@ -2418,174 +1745,65 @@ Banking examinations test the major categories and specific status codes:
 ```text
 ── Server Error (Server failed to fulfill an apparently valid request)
 ```
-STATUS
-CODE
-STATUS NAME 	TECHNICAL MEANING & BANKING CONTEXT
-100 	Continue 	Server has received request headers and client should proceed to send the request body.
+### 1. The Master HTTP Status Codes Matrix
 
-STATUS
-CODE
-STATUS NAME 	TECHNICAL MEANING & BANKING CONTEXT
-101 	Switching Protocols 	Client requested protocol switch (e.g., upgrading from HTTP to WebSocket).
-200 	OK 	Standard successful request. Web page, account ledger, or media payload delivered successfully.
-201 	Created 	Request succeeded and resulted in the creation of a new resource (e.g., new bank account record
-registered via API).
-202 	Accepted 	Request accepted for processing, but processing has not yet completed (batch financial transaction
-queued).
-204 	No Content 	Server successfully processed request, but returns no body content (e.g., save preferences action).
-301 	Moved Permanently 	Target resource assigned a permanent new URI. Web browsers and search engines update bookmarks and
-transfer SEO equity.
-302 	Found (Temporary
-Redirect)
-Target resource temporarily resides under a different URI; clients should continue using original URI for
-future calls.
-304 	Not Modified 	Client-side cache validation. Server informs browser that cached copy is still fresh and does not re-transmit
-data (saves bandwidth).
-400 	Bad Request 	Malformed request syntax, invalid query parameter, or deceptive request routing. Server refuses to
-process.
-401 	Unauthorized 	Authentication required or failed. User has not supplied valid login credentials (e.g., invalid NetBanking
-password).
-403 	Forbidden 	Authenticated, but lacking authorization. Server recognizes identity, but user permissions prohibit
-accessing resource (e.g., a cashier trying to access the Branch Manager approval module).
-404 	Not Found 	Server cannot find the requested URL path. Most common client-facing error on the web.
-405 	Method Not Allowed 	Request HTTP method (e.g., POST ) is not supported for the requested resource (which may only accept
-GET ).
-408 	Request Timeout 	Server waited for client request transmission, but client connection timed out.
-429 	Too Many Requests 	Client exceeded rate-limiting thresholds (anti-scraping and brute-force password mitigation).
-500 	Internal Server Error 	Generic catch-all error: server encountered an unexpected exception preventing it from fulfilling request.
-502 	Bad Gateway 	Edge proxy or reverse proxy server (e.g., Cloudflare, Nginx) received an invalid response from upstream
-backend server.
-503 	Service Unavailable 	Server temporarily offline or overloaded. Often observed during month-end banking batch runs or server
-maintenance.
-504 	Gateway Timeout 	Reverse proxy or gateway server did not receive a timely response from upstream database or application
-server.
- State Persistence: Cookies vs Sessions
-Because HTTP is a stateless protocol, state persistence is maintained using two distinct mechanisms:
-FEATURE / METRIC 	HTTP COOKIES 	WEB SESSIONS
-Physical Storage
-Location
-Stored on the Client Device (inside browser profile
-on user hard drive/RAM).
-Stored securely on the Web Server (in server RAM, database, or
-Redis cache).
-Data Capacity 	Maximum 4 KB (4096 bytes) per cookie. 	Virtually unlimited (constrained only by server hardware
-resources).
+| Status Code | Status Name | Class & Functional Scope | Technical Meaning & Banking Context |
+| :--- | :--- | :--- | :--- |
+| **100** | **Continue** | 1xx Informational | Server received request headers; client should proceed to send request body |
+| **101** | **Switching Protocols** | 1xx Informational | Client requested protocol switch (e.g. upgrading from HTTP to WebSocket) |
+| **200** | **OK** | 2xx Success | Standard successful request; web page, account ledger, or media payload delivered successfully |
+| **201** | **Created** | 2xx Success | Request succeeded and resulted in creation of a new resource (e.g. new account registered via API) |
+| **202** | **Accepted** | 2xx Success | Request accepted for processing, but processing has not yet completed (batch financial transaction queued) |
+| **204** | **No Content** | 2xx Success | Server successfully processed request, but returns no body payload (e.g. save preferences action) |
+| **301** | **Moved Permanently** | 3xx Redirection | Target resource assigned a permanent new URI; browsers and search engines update bookmarks and SEO equity |
+| **302** | **Found (Temporary Redirect)** | 3xx Redirection | Target resource temporarily resides under different URI; client should continue using original URI |
+| **304** | **Not Modified** | 3xx Redirection | Client-side cache validation; server informs browser cached copy is fresh and does not re-transmit data |
+| **400** | **Bad Request** | 4xx Client Error | Malformed request syntax, invalid query parameter, or deceptive request routing; server refuses to process |
+| **401** | **Unauthorized** | 4xx Client Error | Authentication required or failed; client has not supplied valid login credentials (e.g. invalid NetBanking password) |
+| **403** | **Forbidden** | 4xx Client Error | Authenticated, but lacking authorization permissions (e.g. cashier attempting to access Branch Manager approval module) |
+| **404** | **Not Found** | 4xx Client Error | Server cannot find requested URL path; most common client-facing error across the web |
+| **405** | **Method Not Allowed** | 4xx Client Error | Request HTTP method (e.g. POST) is not supported for requested resource (which may only accept GET) |
+| **408** | **Request Timeout** | 4xx Client Error | Server connection timed out waiting for client request transmission |
+| **429** | **Too Many Requests** | 4xx Client Error | Client exceeded rate-limiting thresholds (anti-scraping and brute-force password mitigation) |
+| **500** | **Internal Server Error** | 5xx Server Error | Generic server catch-all: unexpected server exception prevented fulfilling valid request |
+| **502** | **Bad Gateway** | 5xx Server Error | Edge reverse proxy (Cloudflare/Nginx) received an invalid response from upstream backend server |
+| **503** | **Service Unavailable** | 5xx Server Error | Server temporarily offline or overloaded; common during month-end banking batch runs or server maintenance |
+| **504** | **Gateway Timeout** | 5xx Server Error | Reverse proxy or gateway did not receive timely response from upstream database or application server |
 
-FEATURE / METRIC 	HTTP COOKIES 	WEB SESSIONS
-Security Risk 	Vulnerable to client-side inspection, Cross-Site
-Scripting (XSS), and tampering.
-High security; sensitive data remains on server. Client holds only
-an encrypted Session ID.
-Classification 	- Session Cookie: Temporary; deleted immediately
-when browser closes.
-- Persistent Cookie: Retained until an explicit
-expiration date.
-- Third-Party Cookie: Placed by external ad
-networks for cross-site tracking.
-Active until session timeout (e.g., banking portals terminate
-session after 5 minutes of user inactivity).
-Web Crawlers (Spiders) & robots.txt : Automated scripts operated by search engines (e.g., Googlebot) that traverse hyperlinks
-across the web to build search indexes. Webmasters place a standardized plaintext file named robots.txt in the root directory
-(e.g., bank.com/robots.txt ) specifying the Robots Exclusion Standard to disallow crawlers from indexing private portals or
-admin directories.
- Master File Formats, Encodings & Codecs Compendium
-Banking and regulatory exams frequently test the classification, compression mechanisms, and technical extensions of digital
-files:
-1. Image Formats: Raster (Pixel-Based) vs Vector (Math-Based)
+### 2. State Persistence: HTTP Cookies vs Web Sessions
 
-```text
-┌── Raster Graphics (Bitmaps: Pixel grids, loss of quality on zoom)
-```
-Digital Images
-```text
-──────┤
-└── Vector Graphics (Mathematical vectors: Infinite scaling without loss)
-```
-FORMAT 	FULL NAME 	COMPRESSION
-TYPE
-COLOR DEPTH / FEATURES 	TYPICAL REAL-WORLD USE CASE
-JPEG /
-JPG
-Joint Photographic
-Experts Group
-Lossy 	24-bit True Color (16.7M colors). Discards
-psycho-visually imperceptible data.
-Digital camera photographs; web
-banner imagery. Does not support
-transparency.
-PNG 	Portable Network
-Graphics
-Lossless 	24-bit True Color + 8-bit Alpha Channel for
-true variable transparency.
-Logos, web interface icons,
-infographics, text screenshots.
-Replaced GIF.
-GIF 	Graphics
-Interchange Format
-Lossless 	Limited to 8-bit color palette (maximum 256
-colors). Supports frame-based animation.
-Short animated clips, simple
-reaction memes, legacy web
-graphics.
-BMP 	Bitmap Image File 	Uncompressed 	Raw, uncompressed pixel map. Generates
-enormous file sizes.
-Native Microsoft Windows internal
-graphics; device-level raw image
-processing.
-TIFF / TIF 	Tagged Image File
-Format
-Lossless /
-Uncompressed
-Ultra-high bit depth, supports CMYK print
-color spaces.
-Commercial offset printing, medical
-scanning (X-rays, MRI), archiving.
-SVG 	Scalable Vector
-Graphics
-Vector (XML-
-based)
-Mathematically described paths, polygons,
-curves. Scales infinitely with zero pixelation.
-Responsive website logos, UI icons,
-interactive dynamic charts.
-WebP 	Web Picture Format
-(Google)
-Lossy & Lossless 	Advanced modern compression; 30% smaller
-than JPEG/PNG while supporting transparency
-and animation.
-High-performance modern web
-publishing.
+| Feature / Metric | HTTP Cookies | Web Sessions |
+| :--- | :--- | :--- |
+| **Physical Storage Location** | Stored on the **Client Device** *(inside browser profile on user hard drive/RAM)* | Stored securely on the **Web Server** *(in server RAM, database, or Redis cache)* |
+| **Data Capacity** | Maximum **4 KB (4,096 bytes)** per cookie | Virtually **unlimited** *(constrained only by server hardware resources)* |
+| **Security Posture** | Vulnerable to client-side inspection, Cross-Site Scripting (XSS), and tampering | High security; sensitive data remains on server; client holds only an encrypted Session ID |
+| **Classification & Lifecycle** | • **Session Cookie**: Temporary; deleted immediately when browser closes<br>• **Persistent Cookie**: Retained until explicit expiration date<br>• **Third-Party Cookie**: Placed by ad networks for tracking | Active until session timeout or logout *(e.g. banking portals terminate session after **5 minutes** of user inactivity)* |
 
-2. Audio Formats: Lossy vs Lossless vs Synthesized
-FORMAT 	FULL NAME 	TYPE 	TECHNICAL MECHANICS & OPERATIONAL FEATURES
-MP3 	MPEG-1 Audio Layer
-III
-Lossy 	Utilizes psychoacoustic modeling to permanently strip out sound frequencies
-beyond human hearing range ($>20\text{ kHz}$) or masked by louder tones. Default
-bitrate: 128–320 kbps.
-WAV 	Waveform Audio File
-Format
-Uncompressed
-Lossless
-Developed by Microsoft & IBM. Stores raw Pulse Code Modulation (PCM) audio
-wave samples. Pristine studio recording quality; massive file sizes (~10 MB per
-minute).
-AAC 	Advanced Audio
-Coding
-Lossy 	Designed as the architectural successor to MP3. Achieves superior audio fidelity at
-lower bitrates. Default standard for YouTube, Apple Music, and Bluetooth
-streaming.
-FLAC 	Free Lossless Audio
-Codec
-Compressed Lossless 	Compresses audio files by 50–60% without discarding a single acoustic bit. Open-
-source audiophile archival standard.
-MIDI 	Musical Instrument
-Digital Interface
-Synthesized Control
-Commands
-Does NOT record actual sound waves or human vocals. Encodes performance
-instructions: note pitch, timing, duration, instrument channel, and key velocity. Tiny
-file sizes (kilobytes).
+*Web Crawlers (Spiders) & `robots.txt`: Automated scripts operated by search engines (e.g., Googlebot) that traverse hyperlinks to build search indexes. Webmasters place a standardized plaintext file named `robots.txt` in the root directory (e.g., `bank.com/robots.txt`) specifying the Robots Exclusion Standard to disallow crawlers from indexing private portals or administrative directories.*
+
+### 3. Master File Formats Compendium
+
+#### A. Digital Image Formats: Raster vs Vector
+
+| Format | Full Name | Compression Type | Color Depth & Features | Typical Real-World Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **JPEG / JPG** | Joint Photographic Experts Group | **Lossy** | 24-bit True Color (16.7M colors); discards psycho-visually imperceptible data; **no transparency** | Digital camera photographs; web banner imagery |
+| **PNG** | Portable Network Graphics | **Lossless** | 24-bit True Color + **8-bit Alpha Channel for variable transparency**; replaced GIF | Logos, web interface icons, infographics, text screenshots |
+| **GIF** | Graphics Interchange Format | **Lossless** | Limited to **8-bit palette (max 256 colors)**; supports frame-based animation | Short animated clips, simple reaction memes, legacy web graphics |
+| **BMP** | Bitmap Image File | **Uncompressed** | Raw, uncompressed pixel map; generates enormous file sizes | Native Windows internal graphics; device-level raw image processing |
+| **TIFF / TIF** | Tagged Image File Format | **Lossless / Uncompressed** | Ultra-high bit depth; supports CMYK print color spaces | Commercial offset printing, medical scanning (X-rays, MRI), archiving |
+| **SVG** | Scalable Vector Graphics | **Vector (XML-based)** | Mathematically described paths, polygons, curves; **scales infinitely with zero pixelation** | Responsive website logos, UI icons, interactive dynamic charts |
+| **WebP** | Web Picture Format (Google) | **Lossy & Lossless** | Advanced modern compression; 30% smaller than JPEG/PNG while supporting transparency and animation | High-performance modern web publishing |
+
+#### B. Audio Formats: Lossy vs Lossless vs Synthesized
+
+| Format | Full Name | Compression Category | Technical Mechanics & Operational Features |
+| :--- | :--- | :--- | :--- |
+| **MP3** | MPEG-1 Audio Layer III | **Lossy** | Psychoacoustic modeling permanently discards frequencies $>20\text{ kHz}$ or masked tones; bitrates 128–320 kbps |
+| **WAV** | Waveform Audio File Format | **Uncompressed Lossless** | Raw Pulse Code Modulation (PCM) audio samples (Microsoft & IBM); studio quality; massive size (~10 MB/min) |
+| **AAC** | Advanced Audio Coding | **Lossy** | Architectural successor to MP3; superior audio fidelity at lower bitrates; default standard for YouTube, Apple Music, Bluetooth |
+| **FLAC** | Free Lossless Audio Codec | **Compressed Lossless** | Compresses audio files by 50–60% without discarding a single acoustic bit; open-source audiophile archival standard |
+| **MIDI** | Musical Instrument Digital Interface | **Synthesized Commands** | **Does NOT record actual sound waves or human vocals**; encodes performance instructions (note pitch, timing, duration, velocity); tiny file size (KB) |
 3. Video Containers vs Compression Codecs
 Examiners heavily test the distinction between a Container (the file format housing video, audio, and subtitles) and a Codec
 (the compression algorithm encoding raw video data):

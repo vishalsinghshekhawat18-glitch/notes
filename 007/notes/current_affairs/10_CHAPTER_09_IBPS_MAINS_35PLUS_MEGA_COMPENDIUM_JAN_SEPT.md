@@ -47,30 +47,40 @@
 ---
 
 [MS-002] **Evolution of Modern Indian Banking: SBI Genesis, Nationalisation & Statutory Acts**
-- **Presidency Banks to State Bank of India**:
-  - Bank of Calcutta (founded 1806, renamed Bank of Bengal 1809), Bank of Bombay (1840), and Bank of Madras (1843) were amalgamated on **January 27, 1921** to create the **Imperial Bank of India**.
-  - Under the statutory recommendations of the **All India Rural Credit Survey Committee (chaired by A.D. Gorwala)**, Parliament enacted the **State Bank of India Act, 1955**.
-  - On **July 1, 1955**, the Imperial Bank of India was formally converted into the **State Bank of India (SBI)** (RBI originally subscribed to 60% equity; Government of India acquired RBI stake in 2007).
-- **The Two Epochs of Bank Nationalisation**:
-  - **First Wave (19 July 1969)**: 14 major commercial banks with aggregate public deposits **≥ ₹50 Crore** nationalised under Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 (passed during Indira Gandhi premiership).
-  - **Second Wave (15 April 1980)**: 6 commercial banks with aggregate public deposits **≥ ₹200 Crore** nationalised.
-- **Reserve Bank of India Act, 1934 Statutory Pillars**:
-  - **Section 17**: Defines legitimate business transactions RBI may conduct.
-  - **Section 22**: Confers exclusive authority to issue bank notes in India (except ₹1 currency notes and metallic coins issued by Ministry of Finance).
-  - **Section 24**: Establishes maximum denomination bank note RBI can issue (up to **₹10,000**); Coinage Act 2011 authorizes coins up to **₹1,000**.
-  - **Section 42(1)**: Mandates every Scheduled Commercial Bank to maintain **Cash Reserve Ratio (CRR)** as a percentage of Net Demand and Time Liabilities (NDTL) with RBI (RBI (Amendment) Act 2006 removed earlier statutory 3% floor and 20% ceiling).
-  - **Sections 45-ZB to 45-ZG**: Codifies composition, appointment, voting, and quorum rules of the 6-member **Monetary Policy Committee (MPC)**.
-- **Banking Regulation Act, 1949 Core Anchor Sections**:
-  - **Section 5(b)**: Statutory definition of 'Banking' (accepting for the purpose of lending or investment of deposits of money from the public, repayable on demand or otherwise).
-  - **Section 22**: Mandatory licensing requirement from RBI to conduct banking business in India.
-  - **Section 24**: Statutory mandate requiring banks to maintain **Statutory Liquidity Ratio (SLR)** as unencumbered liquid assets against NDTL (ceiling capped at **40%**; current operational rate is 18.00%).
-  - **Section 35A**: Comprehensive statutory power empowering RBI to issue binding executive directions to all banks in public interest or to prevent banking affairs from being conducted prejudicial to depositors.
-  - **Section 49A**: Restricts acceptance of deposits withdrawable by cheque to licensed banks only.
-- **Negotiable Instruments Act, 1881 Core Anchor Sections**:
-  - **Section 4**: Defines **Promissory Note** (unconditional undertaking in writing signed by maker to pay certain sum of money).
-  - **Section 5**: Defines **Bill of Exchange** (unconditional order in writing directing person to pay).
-  - **Section 6**: Defines **Cheque** (bill of exchange drawn on a specified banker, payable always on demand; includes truncated electronic image of cheque).
-  - **Section 138**: Codifies criminal offense and penalties for **Dishonour of Cheque for insufficiency of funds** (penal sanction: imprisonment up to 2 years, or fine up to twice the face value of the cheque, or both).
+
+### 1. Genesis Timeline: Presidency Banks to State Bank of India
+
+| Historical Epoch / Entity | Key Date / Year | Structural Transformation & Constituent Banks | Statutory Authority & Equity Holdings |
+| :--- | :--- | :--- | :--- |
+| **Presidency Banks** | 1806, 1840, 1843 | • **Bank of Calcutta** (founded 1806, renamed **Bank of Bengal** 1809)<br>• **Bank of Bombay** (founded 1840)<br>• **Bank of Madras** (founded 1843) | British Crown chartered provincial banking entities with autonomous note-issuing privileges |
+| **Imperial Bank of India** | **27 January 1921** | Tripartite amalgamation of Bank of Bengal, Bank of Bombay, and Bank of Madras into a single commercial banking entity | Enacted under Imperial Bank of India Act, 1920 (acted as banker to government before RBI) |
+| **State Bank of India (SBI)** | **1 July 1955** | Conversion of Imperial Bank of India into the **State Bank of India** | Enacted under **State Bank of India Act, 1955** on the statutory recommendations of the **All India Rural Credit Survey Committee (chaired by A.D. Gorwala)**.<br>*(RBI originally subscribed 60% equity; Government of India acquired RBI stake in 2007)* |
+
+### 2. The Two Epochs of Bank Nationalisation
+
+| Nationalisation Wave | Effective Date | Deposit Threshold Mandate | Scope & Number of Banks | Governing Statute & Historical Context |
+| :--- | :--- | :--- | :--- | :--- |
+| **First Wave** | **19 July 1969** | Aggregate public deposits $\ge$ **₹50 Crore** | **14 Major Commercial Banks** | Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 *(Indira Gandhi premiership)* |
+| **Second Wave** | **15 April 1980** | Aggregate public deposits $\ge$ **₹200 Crore** | **6 Commercial Banks** | Banking Companies (Acquisition and Transfer of Undertakings) Act, 1980 |
+
+### 3. Master Statutory Banking Architecture & Core Anchor Sections
+
+| Governing Statute | Key Section | Legal Mandate & Core Operational Provision | Regulatory Scope & High-Yield Parameters |
+| :--- | :--- | :--- | :--- |
+| **Reserve Bank of India Act, 1934** | **Section 17** | **Legitimate Business of RBI** | Defines authorized banking, rediscounting, and sovereign financial operations RBI may conduct |
+| | **Section 22** | **Exclusive Banknote Issuance** | Confers exclusive authority to issue currency banknotes in India *(except ₹1 currency notes and metallic coins issued by Ministry of Finance)* |
+| | **Section 24** | **Maximum Denomination Ceiling** | Authorizes RBI to issue banknotes up to **₹10,000** denomination *(Coinage Act, 2011 authorizes coins up to **₹1,000**)* |
+| | **Section 42(1)** | **Cash Reserve Ratio (CRR)** | Mandates Scheduled Commercial Banks to maintain CRR cash balances with RBI as % of NDTL *(RBI (Amendment) Act 2006 removed earlier statutory 3% floor and 20% ceiling; RBI pays 0% interest)* |
+| | **Sections 45-ZB to 45-ZG** | **Monetary Policy Committee (MPC)** | Codifies composition (6 members: 3 RBI, 3 Central Govt), 4-year non-renewable tenure, 4-member quorum, casting vote of Governor |
+| **Banking Regulation Act, 1949** | **Section 5(b)** | **Statutory Definition of 'Banking'** | Accepting, for the purpose of lending or investment, of deposits of money from the public, repayable on demand or otherwise, and withdrawable by cheque, draft, order or otherwise |
+| | **Section 22** | **Mandatory Bank Licensing** | Mandatory license from RBI required to commence or carry on banking business in India |
+| | **Section 24** | **Statutory Liquidity Ratio (SLR)** | Mandates banks to maintain unencumbered liquid assets (gold, approved G-Secs, cash) against NDTL *(Statutory ceiling capped at **40%**; current operational rate is 18.00%)* |
+| | **Section 35A** | **Comprehensive Direction-Issuing Powers** | Comprehensive statutory power empowering RBI to issue binding executive directions to all banks in public interest or to prevent banking affairs from being conducted prejudicial to depositors |
+| | **Section 49A** | **Cheque Acceptance Restriction** | Restricts acceptance of deposits withdrawable by cheque to licensed banks only |
+| **Negotiable Instruments Act, 1881** | **Section 4** | **Promissory Note** | Defines Promissory Note: Unconditional undertaking in writing signed by maker to pay certain sum of money to, or to the order of, a certain person, or bearer |
+| | **Section 5** | **Bill of Exchange** | Defines Bill of Exchange: Unconditional order in writing signed by maker directing a certain person to pay a certain sum of money |
+| | **Section 6** | **Cheque & Truncation** | Defines Cheque: Bill of exchange drawn on a specified banker, payable always on demand *(includes truncated electronic image of cheque under CTS)* |
+| | **Section 138** | **Criminal Dishonour of Cheque** | Codifies criminal offense and penalties for dishonour of cheque for insufficiency of funds: **Imprisonment up to 2 years, or fine up to twice the face value of the cheque, or both** |
 
 **EXAM ANGLE:**
 
@@ -81,31 +91,48 @@
 ---
 
 [MS-003] **Institutional Headquarters, Global Foreign Banks & Multilateral Bodies**
-- **Indian Financial & Statutory Bodies Headquarters Matrix**:
-  - **Mumbai**: Reserve Bank of India (RBI), Securities and Exchange Board of India (SEBI), NABARD, EXIM Bank of India, State Bank of India (SBI), National Payments Corporation of India (NPCI), Indian Banks' Association (IBA).
-  - **Hyderabad**: **Insurance Regulatory and Development Authority of India (IRDAI)** and **Insurance Information Bureau of India (IIB)** (established in 2009 by IRDAI as the single statutory data repository for Indian insurance).
-  - **New Delhi**: Pension Fund Regulatory and Development Authority (PFRDA), National Housing Bank (NHB), Competition Commission of India (CCI), Insolvency and Bankruptcy Board of India (IBBI).
-  - **Lucknow**: **Small Industries Development Bank of India (SIDBI)**.
-  - **Kolkata**: UCO Bank, Bandhan Bank, Tea Board of India.
-  - **Chennai**: Indian Bank, Indian Overseas Bank.
-  - **Bengaluru**: Canara Bank.
-  - **Vadodara / Mumbai**: Bank of Baroda (Registered Head Office in Vadodara, Corporate Centre in Mumbai).
-- **Foreign Banks Operating in India (Origin & Global Headquarters)**:
-  - **Sumitomo Mitsui Banking Corporation (SMBC)**: **Tokyo, Japan** (converted to Wholly Owned Subsidiary / WOS in India).
-  - **Mitsubishi UFJ Financial Group (MUFG)** / **Mizuho Bank**: **Tokyo, Japan**.
-  - **DBS Bank India**: **Singapore** (pioneer foreign lender converting to Wholly Owned Subsidiary mode in India).
-  - **BNP Paribas**: **Paris, France** (major European corporate and institutional lender).
-  - **Société Générale**: **Paris, France**.
-  - **Deutsche Bank**: **Frankfurt, Germany**.
-  - **HSBC (Hongkong and Shanghai Banking Corp)** / **Barclays** / **Standard Chartered**: **London, United Kingdom**.
-  - **Citibank** / **JPMorgan Chase** / **Bank of America**: **United States** (New York / Charlotte).
-- **Multilateral Financial Institutions**:
-  - **World Bank Group (IBRD / IDA / IFC / MIGA)**: **Washington D.C., USA** (President: Ajay Banga; Executive Director representing Bangladesh, Bhutan, India and Sri Lanka: **Neelkanth Mishra**, who succeeded Parameswaran Iyer in 2026).
-  - **International Monetary Fund (IMF)**: **Washington D.C., USA** (Managing Director: Kristalina Georgieva; First Deputy MD: Dan Katz, succeeding Gita Gopinath).
-  - **Asian Development Bank (ADB)**: **Mandaluyong / Manila, Philippines** (President: Masato Kanda, succeeding Masatsugu Asakawa; India shareholding 6.3%).
-  - **New Development Bank (NDB / BRICS Bank)**: **Shanghai, China** (President: Dilma Rousseff).
-  - **Asian Infrastructure Investment Bank (AIIB)**: **Beijing, China** (President: Jin Liqun).
-  - **Bank for International Settlements (BIS)**: **Basel, Switzerland** (known as the central bank of central banks).
+
+### 1. Master Directory of Indian Financial Regulators & Statutory Headquarters
+
+| Headquarters City | Key Financial Regulators & Public Sector Bodies | Strategic Operational / Regional Distinction |
+| :--- | :--- | :--- |
+| **Mumbai** | • **Reserve Bank of India (RBI)**<br>• **Securities and Exchange Board of India (SEBI)**<br>• **National Bank for Agriculture and Rural Development (NABARD)**<br>• **Export-Import Bank of India (EXIM Bank)**<br>• **State Bank of India (SBI)**<br>• **National Payments Corporation of India (NPCI)**<br>• **Indian Banks' Association (IBA)** | Commercial and financial capital of India; apex regulator seats for central banking, capital markets, retail payments, and rural refinance |
+| **Hyderabad** | • **Insurance Regulatory and Development Authority of India (IRDAI)**<br>• **Insurance Information Bureau of India (IIB)** | Single statutory data repository for Indian insurance *(IIB established 2009 by IRDAI; IRDAI shifted from New Delhi in 2001)* |
+| **New Delhi** | • **Pension Fund Regulatory and Development Authority (PFRDA)**<br>• **National Housing Bank (NHB)**<br>• **Competition Commission of India (CCI)**<br>• **Insolvency and Bankruptcy Board of India (IBBI)** | National administrative and statutory competition/insolvency regulatory hub |
+| **Lucknow** | • **Small Industries Development Bank of India (SIDBI)** | Apex financial institution for MSME promotion, financing, and development *(High-frequency exam trap)* |
+| **Kolkata** | • **UCO Bank**<br>• **Bandhan Bank**<br>• **Tea Board of India** | Eastern regional financial center |
+| **Chennai** | • **Indian Bank**<br>• **Indian Overseas Bank (IOB)** | Southern public sector banking cluster |
+| **Bengaluru** | • **Canara Bank** | Apex public sector anchor in southern tech corridor |
+| **Vadodara / Mumbai** | • **Bank of Baroda (BOB)** | Dual-center structure: **Registered Head Office in Vadodara**; **Corporate Centre in Mumbai** |
+
+### 2. Foreign Banks Operating in India (Global HQ & Indian Operating Mode)
+
+| Foreign Bank | Country of Origin | Global Headquarters | Indian Operating Model & Presence |
+| :--- | :--- | :--- | :--- |
+| **Sumitomo Mitsui Banking Corporation (SMBC)** | Japan | **Tokyo** | Operates as Wholly Owned Subsidiary (WOS) in India |
+| **Mitsubishi UFJ Financial Group (MUFG)** | Japan | **Tokyo** | Major Japanese corporate lender with multi-branch Indian network |
+| **Mizuho Bank** | Japan | **Tokyo** | Primary Japanese corporate banking conglomerate |
+| **DBS Bank India** | Singapore | **Singapore** | Pioneer foreign lender converting to Wholly Owned Subsidiary (WOS) mode in India; amalgamated Lakshmi Vilas Bank (LVB) |
+| **BNP Paribas** | France | **Paris** | Major European corporate and institutional lender |
+| **Société Générale** | France | **Paris** | Key French multinational investment bank and financial services provider |
+| **Deutsche Bank** | Germany | **Frankfurt** | Leading European commercial, institutional, and wealth management bank in India |
+| **HSBC (Hongkong and Shanghai Banking Corp)** | United Kingdom | **London** | Extensive retail, wealth management, and corporate banking franchise across major metros |
+| **Barclays Bank** | United Kingdom | **London** | Corporate, investment banking, and global shared service operations |
+| **Standard Chartered Bank** | United Kingdom | **London** | Oldest and largest foreign bank branch network in India |
+| **Citibank** | United States | **New York** | Focus on corporate, institutional banking, and multinational treasury *(consumer banking acquired by Axis Bank)* |
+| **JPMorgan Chase** | United States | **New York** | Premier corporate, investment banking, and global transaction services |
+| **Bank of America** | United States | **Charlotte, North Carolina** | Institutional banking, treasury, and global capability centers |
+
+### 3. Apex Multilateral Financial Institutions & Global Leadership
+
+| Multilateral Financial Institution | Global Headquarters | Apex Leadership (President / Managing Director) | Key Indian Leadership & Sovereign Representative |
+| :--- | :--- | :--- | :--- |
+| **World Bank Group (IBRD / IDA / IFC / MIGA)** | **Washington D.C., USA** | President: **Ajay Banga** *(14th President)* | Executive Director representing Bangladesh, Bhutan, India, and Sri Lanka: **Neelkanth Mishra** *(succeeded Parameswaran Iyer in 2026)* |
+| **International Monetary Fund (IMF)** | **Washington D.C., USA** | Managing Director: **Kristalina Georgieva** | First Deputy MD: **Dan Katz** *(succeeded Gita Gopinath)*; Deputy MDs: Bo Li, Kenji Okamura, Nigel Clarke |
+| **Asian Development Bank (ADB)** | **Mandaluyong / Manila, Philippines** | President: **Masato Kanda** *(assumed office 24 Feb 2025; re-elected Sept 2026 for 5-year term)* | India is the **4th largest shareholder** (6.3% voting equity) |
+| **New Development Bank (NDB / BRICS Bank)** | **Shanghai, China** | President: **Dilma Rousseff** | 5 founding BRICS nations held equal 20% initial voting equity; Regional Office at GIFT City, Gujarat |
+| **Asian Infrastructure Investment Bank (AIIB)** | **Beijing, China** | President: **Jin Liqun** | **India is the 2nd largest shareholder** (7.6% voting power, behind China's 26.6%) |
+| **Bank for International Settlements (BIS)** | **Basel, Switzerland** | General Manager: **Agustín Carstens** | Known as the *"Central Bank of Central Banks"*; host of Basel Committee on Banking Supervision (BCBS) |
 
 **EXAM ANGLE:**
 
@@ -116,20 +143,16 @@
 ---
 
 [MS-004] **International Solar Alliance (ISA): Institutional Framework, Treaty Architecture & 2026 Multilateral Status**
-- **Genesis & Paris Treaty Origin**: Conceived as a joint global initiative by India and France; formally launched on **30 November 2015 at COP21 in Paris** by Prime Minister Narendra Modi and French President François Hollande; entered into force on **6 December 2017** as a treaty-based intergovernmental organization.
-- **Headquarters & Secretariat**: Headquartered at the **National Institute of Solar Energy (NISE) campus in Gurugram, Haryana, India** — notably the **first international treaty-based intergovernmental organization headquartered in India**.
-- **Institutional Governance & Leadership**:
-  - **President**: **India** (held ex-officio by the Union Minister of New and Renewable Energy).
-  - **Co-President**: **France** (represented by the French Minister for Ecological Transition).
-  - **Director General**: Dr. Ajay Mathur (leads the international secretariat in Gurugram).
-- **Membership Evolution & 2026 Status**:
-  - **Scope Expansion**: Originally restricted to 121 "Sunshine Countries" situated entirely or partially between the Tropic of Cancer and Tropic of Capricorn; amended in 2020 to open membership to **all 193 United Nations member states**.
-  - **Signatory & Member Tally**: **125 member countries** have formally ratified/joined the Framework Agreement.
-  - **Recent 2025–2026 Accessions**: **Moldova, Malta, and Angola** recently completed full accession instruments.
-  - **Major Geopolitical Shift (US Withdrawal)**: United States issued formal notice of withdrawal from 66 international organizations including the ISA on **January 7, 2026**.
-- **Flagship Global Programs & Targets**:
-  - **"Towards 1000" Strategy**: Mobilize **\$1,000 Billion** (US\$1 Trillion) of solar investment by **2030**; provide clean energy access to **1,000 Million people**; install **1,000 GW** of solar capacity; mitigate **1,000 Million tonnes of CO2** emissions annually.
-  - **OSOWOG (One Sun One World One Grid)**: Transnational interconnected solar electricity grid initiative spearheaded by India to transfer solar power across time zones.
+
+### Master ISA Treaty & Institutional Governance Matrix
+
+| Institutional Dimension | Statutory Provision & Multilateral Status | High-Yield Exam Invariant |
+| :--- | :--- | :--- |
+| **Genesis & Treaty Launch** | Conceived as a joint global initiative by India and France; formally launched on **30 November 2015 at COP21 in Paris** by PM Narendra Modi and President François Hollande; entered into force on **6 December 2017** as a treaty-based intergovernmental body | First international treaty-based organization headquartered in India |
+| **Global Headquarters & Secretariat** | Headquartered at the **National Institute of Solar Energy (NISE) campus in Gurugram, Haryana, India** | Located in Gurugram, Haryana *(NOT New Delhi, Geneva, or Paris)* |
+| **Institutional Governance** | • **President**: **India** (held ex-officio by the Union Minister of New and Renewable Energy)<br>• **Co-President**: **France** (represented by the French Minister for Ecological Transition)<br>• **Director General**: Dr. Ajay Mathur (leads international secretariat in Gurugram) | Joint Indo-French apex leadership presiding over international assembly |
+| **Membership Evolution & 2026 Status** | • **Scope Expansion**: Originally restricted to 121 "Sunshine Countries" (between Tropics); amended in 2020 to open membership to **all 193 United Nations member states**.<br>• **Ratified Members**: **125 member countries** formally ratified/joined the Framework Agreement.<br>• **Recent Accessions (2025–26)**: **Moldova, Malta, and Angola** completed full accession instruments.<br>• **US Geopolitical Shift**: US issued formal notice of withdrawal from 66 international bodies including ISA on **January 7, 2026**. | Open to all UN member states; **125 ratified members** |
+| **Flagship Global Programs & Targets** | • **"Towards 1000" Strategy**: Mobilize **\$1,000 Billion** (\$1 Trillion) solar investment by **2030**; provide clean energy access to **1,000 Million people**; install **1,000 GW** solar capacity; mitigate **1,000 Million tonnes of CO2** emissions annually.<br>• **OSOWOG (One Sun One World One Grid)**: Transnational interconnected solar electricity grid initiative spearheaded by India to transfer solar power across time zones. | Four "1,000" quantitative targets by 2030 |
 
 **EXAM ANGLE:**
 
@@ -142,30 +165,33 @@
 ---
 
 [MS-005] **Basel III Regulatory Architecture, Balance Sheet Ratios & Delinquency Timeline**
-- **Basel III Regulatory Capital Framework**:
-  - Developed by the Basel Committee on Banking Supervision (BCBS) headquartered at BIS in Basel, Switzerland, in response to the 2008 Lehman Brothers liquidity collapse.
-  - **Minimum Common Equity Tier 1 (CET1)**: **5.5%** for Indian banks (vs 4.5% Basel international accord).
-  - **Capital Conservation Buffer (CCB)**: **2.5%** in the form of CET1 capital.
-  - **Minimum Tier 1 Capital**: **7.0%**.
-  - **Minimum Total Capital Adequacy Ratio (CRAR)**: **9.0%** under Basel rules, but **RBI mandates 11.5%** for Indian commercial banks (9.0% base + 2.5% CCB).
-- **Short-Term & Long-Term Liquidity Metrics under Basel III**:
-  - **Liquidity Coverage Ratio (LCR)**: Conceived under Basel III; mandates banks to hold an unencumbered stock of High-Quality Liquid Assets (HQLA) equal to at least **100%** of total net cash outflows anticipated over a **30-day severe stress period** (\$LCR = \text{Stock of HQLA} / \text{Total net cash outflows over 30 days} \ge 100\%\$).
-  - **Net Stable Funding Ratio (NSFR)**: Complementary structural metric requiring banks to fund long-term assets with stable liabilities over a **1-year horizon** (\$NSFR = \text{Available Stable Funding} / \text{Required Stable Funding} \ge 100\%\$).
-  - **Leverage Ratio**: Pure non-risk-weighted balance sheet constraint (Tier 1 Capital / Total Exposure); RBI prescribes minimum **4.0% for Domestic Systemically Important Banks (D-SIBs)** and **3.5% for other banks**.
-- **Asset Classification & Delinquency Ladder (RBI Master Directions)**:
-  - **Standard Asset**: Generating normal income with principal and interest serviced on time.
-  - **Special Mention Accounts (SMA) Triggers**:
-    - **SMA-0**: Principal or interest overdue between **1 to 30 days**.
-    - **SMA-1**: Principal or interest overdue between **31 to 60 days**.
-    - **SMA-2**: Principal or interest overdue between **61 to 90 days**.
-  - **Non-Performing Asset (NPA)**: Ceases to generate income; principal or interest remains overdue for **more than 90 days** (for agricultural loans: 2 crop seasons for short-duration crops, 1 crop season for long-duration crops).
-  - **Substandard Asset**: Remained in NPA classification for a period **≤ 12 months** (provisioning: 15% for secured, 25% for unsecured advances).
-  - **Doubtful Asset**: Remained in substandard category for **exceeding 12 months**; three provision slabs on secured portion:
-    - **D1 (Up to 1 year)**: 25% provision.
-    - **D2 (1 to 3 years)**: 40% provision.
-    - **D3 (Exceeding 3 years)**: 100% provision.
-    - *Unsecured portion of doubtful advances is always provisioned at 100%*.
-  - **Loss Asset**: Identified by bank, internal/external auditors, or RBI inspection as completely uncollectible; 100% written off or 100% provisioned immediately.
+
+### 1. Basel III Capital Adequacy & Balance Sheet Liquidity Ratios
+
+| Basel III Regulatory Metric | Basel Accord Minimum | RBI Mandated Floor (Indian SCBs) | Regulatory Horizon & Mathematical Formula |
+| :--- | :--- | :--- | :--- |
+| **Common Equity Tier 1 (CET1)** | **4.5%** | **5.5%** | Highest quality loss-absorbing equity capital (% of RWAs) |
+| **Capital Conservation Buffer (CCB)** | **2.5%** | **2.5%** | Maintained strictly in the form of Common Equity Tier 1 (CET1) |
+| **Minimum Tier 1 Capital** | **6.0%** | **7.0%** | Tier 1 Capital = CET1 + Additional Tier 1 (AT1) Capital |
+| **Total Capital Adequacy Ratio (CRAR)** | **9.0%** | **11.5%** | Composite capital requirement: 9.0% base CRAR + 2.5% CCB |
+| **Liquidity Coverage Ratio (LCR)** | $\ge$ **100%** | $\ge$ **100%** | Holds unencumbered High-Quality Liquid Assets against severe stress outflows:<br>$$\text{LCR} = \frac{\text{Stock of HQLA}}{\text{Total net cash outflows over 30 days}} \ge 100\%$$ |
+| **Net Stable Funding Ratio (NSFR)** | $\ge$ **100%** | $\ge$ **100%** | Structural resilience over a **1-year horizon**:<br>$$\text{NSFR} = \frac{\text{Available Stable Funding (ASF)}}{\text{Required Stable Funding (RSF)}} \ge 100\%$$ |
+| **Leverage Ratio** | **3.0%** | **4.0% for D-SIBs**<br>**3.5% for other banks** | Non-risk-weighted balance sheet constraint:<br>$$\text{Leverage Ratio} = \frac{\text{Tier 1 Capital}}{\text{Total Balance Sheet Exposure}}$$ |
+
+### 2. Asset Classification, Delinquency Ladder & Provisioning Matrix
+
+| Asset Classification | Overdue / Delinquency Timeline | Provisioning Requirement (Secured Advances) | Provisioning Requirement (Unsecured Advances) | Regulatory Rules & Exceptions |
+| :--- | :--- | :--- | :--- | :--- |
+| **Standard Asset** | Serviced regularly; **0 days** overdue | 0.25% to 1.00% *(General)* | Same | Normal performing asset generating income |
+| **SMA-0** *(Special Mention Account)* | Overdue between **1 to 30 days** | Standard provision | Standard provision | Early stress alert trigger (Principal or Interest) |
+| **SMA-1** | Overdue between **31 to 60 days** | Standard provision | Standard provision | Intermediate stress stage |
+| **SMA-2** | Overdue between **61 to 90 days** | Standard provision | Standard provision | Advanced default warning stage |
+| **Non-Performing Asset (NPA)** | Overdue for **more than 90 days** | Ceases to accrue income on cash basis | Ceases to accrue income | **Agricultural Loans**: Overdue for **2 crop seasons** (short-duration crops) or **1 crop season** (long-duration crops) |
+| **Substandard Asset** | Remained an NPA for a period $\le$ **12 months** | **15%** provision | **25%** provision | First stage of Non-Performing Assets |
+| **Doubtful Asset — D1** | Remained substandard for **up to 1 year** | **25%** provision | **100%** provision | Second stage of Non-Performing Assets |
+| **Doubtful Asset — D2** | Remained substandard for **1 to 3 years** | **40%** provision | **100%** provision | Advanced doubtful stage |
+| **Doubtful Asset — D3** | Remained substandard for **exceeding 3 years** | **100%** provision | **100%** provision | Fully provisioned |
+| **Loss Asset** | Uncollectible; identified by bank, internal/external auditors, or RBI | **100%** provision or write-off | **100%** provision or write-off | Zero salvageable security value |
 
 **EXAM ANGLE:**
 
@@ -176,25 +202,35 @@
 ---
 
 [MS-006] **Operational Banking Limits, Consumer Redressal & Deposit Insurance**
-- **ATM Free Cash Withdrawal Norms (RBI Master Directions)**:
-  - **Own Bank ATMs**: Minimum **5 free transactions per month** (inclusive of both financial cash withdrawals and non-financial services like balance inquiry).
-  - **Other Bank ATMs in 6 Designated Metros**: Minimum **3 free transactions per month** (Metros: Mumbai, New Delhi, Chennai, Kolkata, Bengaluru, Hyderabad).
-  - **Other Bank ATMs in Non-Metro Centers**: Minimum **5 free transactions per month**.
-  - **Permissible Interchange Fees Capped by RBI**: Maximum **₹17 per financial transaction** and **₹6 per non-financial transaction**.
-  - **Failed ATM Transaction Compensation (T+5 Rule)**: If an account is debited but cash is not dispensed, bank must reverse the funds within **T+5 calendar days**; delay beyond T+5 days attracts statutory penalty of **₹100 per day** payable directly to the customer without requiring a complaint.
-- **Reserve Bank Integrated Ombudsman Architecture & Versioned Regimes**:
-  - **Treaty & Statutory Architecture**: Unifies 3 predecessor schemes under the 'One Nation One Ombudsman' vision — *Banking Ombudsman Scheme (2006)*, *Ombudsman Scheme for NBFCs (2018)*, and *Ombudsman Scheme for Digital Transactions (2019)*.
-  - **RB-IOS 2026 Coverage Categories**: Commercial Banks, Regional Rural Banks, State Co-operative Banks, Central Co-operative Banks, Scheduled Primary (Urban) Co-operative Banks, Non-Scheduled Primary (Urban) Co-operative Banks with deposits of ₹50 crore and above, qualifying NBFCs subject to the RB-IOS 2026 exclusions and ₹100 crore/customer-interface or deposit-taking conditions, Non-bank Prepaid Payment Instrument Issuers, and Credit Information Companies.
-  - **Centralised Receipt and Processing Centre (CRPC)**: Single centralized portal and physical clearing intake established at **RBI Chandigarh** for registration and initial scrutiny of complaints from across the nation.
-  - **Temporal Version Control & Compensation Slabs**:
-    1. *RB-IOS 2021 (Operative November 12, 2021 to June 30, 2026)*: Maximum compensation for direct financial loss: **₹20 Lakh**; additional compensation for mental agony, harassment, loss of time: **₹1 Lakh** (Max composite award: ₹21 Lakh).
-    2. *RB-IOS 2026 (Effective July 1, 2026 onward)*: Maximum compensation for direct financial loss enhanced to **₹30 Lakh**; additional compensation for mental agony/harassment enhanced to **₹3 Lakh** (Max composite award: ₹33 Lakh).
-  - **Escalation Protocol & Filing Deadline**: After first approaching the Regulated Entity, complaint may be filed before the RBI Ombudsman within **90 days from expiry of the applicable response timeline or the date of the last communication, whichever is later**.
-  - **Appellate Authority**: Executive Director in-charge of the **Consumer Education and Protection Department (CEPD) at RBI**. Appeal is available **only against an Award** of the RBI Ombudsman. The complainant may appeal within **30 days of receiving the Award, subject to the applicable extension provision**.
-- **Deposit Insurance and Credit Guarantee Corporation (DICGC) Act, 1961**:
-  - Wholly owned subsidiary of RBI; insures bank deposits across Commercial Banks, RRBs, Local Area Banks, and Co-operative Banks.
-  - **Coverage Slabs**: Insures each depositor up to a maximum of **₹5 Lakh** (principal + interest) across all deposit accounts held in the same right and capacity in each bank.
-  - **Mandatory 90-Day Payout Timeline (DICGC Amendment Act 2021)**: If a bank is placed under all-inclusive directions or moratorium by RBI, depositors must receive insured funds up to ₹5L within **90 days** (Bank submits depositor list within 45 days; DICGC verifies claims within 30 days of receipt; payment is made within the subsequent 15 days; overall statutory limit = 90 days; statutory breakdown: 45 + 30 + 15 = 90 days).
+### 1. ATM Free Monthly Limits, Interchange Fees & Failed Transaction SLA
+
+| ATM Network / Service | Free Monthly Transaction Limit | Permissible Interchange Fee Cap | Failed Transaction Turnaround (SLA) & Penalty |
+| :--- | :--- | :--- | :--- |
+| **Own Bank ATMs** | Minimum **5 free transactions per month** *(inclusive of financial & non-financial)* | Not Applicable *(Internal)* | • **Reversal SLA**: Funds reversed within **T+5 calendar days**<br>• **Statutory Penalty**: Delay beyond T+5 attracts **₹100 per day** payable directly to customer without requiring a complaint |
+| **Other Bank ATMs (6 Designated Metros)** | Minimum **3 free transactions per month** *(Metros: Mumbai, New Delhi, Chennai, Kolkata, Bengaluru, Hyderabad)* | • **Financial Transaction**: Max **₹17** per transaction<br>• **Non-Financial Transaction**: Max **₹6** per transaction | Same statutory T+5 SLA & ₹100/day penalty rule |
+| **Other Bank ATMs (Non-Metro Centers)** | Minimum **5 free transactions per month** | • **Financial Transaction**: Max **₹17** per transaction<br>• **Non-Financial Transaction**: Max **₹6** per transaction | Same statutory T+5 SLA & ₹100/day penalty rule |
+
+### 2. Reserve Bank Integrated Ombudsman Architecture (RB-IOS: 2021 vs 2026 Regimes)
+
+| Regulatory Parameter | Predecessor Regime / RB-IOS 2021 *(Nov 2021 – June 2026)* | Operative RB-IOS 2026 *(Effective 1 July 2026 onward)* |
+| :--- | :--- | :--- |
+| **Scheme Integration** | Unifies Banking Ombudsman (2006), NBFC Ombudsman (2018), and Digital Transactions Ombudsman (2019) | Retains 'One Nation One Ombudsman' framework |
+| **Centralized Intake Portal** | **CRPC (Centralised Receipt and Processing Centre)** located at **RBI Chandigarh** | **CRPC at RBI Chandigarh** |
+| **Regulated Entities Covered** | Commercial Banks, RRBs, StCBs, DCCBs, Scheduled UCBs, qualifying NBFCs | Commercial Banks, RRBs, StCBs, DCCBs, Scheduled & Non-Scheduled UCBs (deposits $\ge$ ₹50 Cr), qualifying NBFCs (assets $\ge$ ₹100 Cr/customer interface), Non-bank PPI issuers, CICs |
+| **Direct Financial Loss Compensation** | Up to **₹20 Lakh** maximum | Enhanced to **₹30 Lakh** maximum |
+| **Mental Agony / Harassment Compensation** | Up to **₹1 Lakh** additional | Enhanced to **₹3 Lakh** additional |
+| **Maximum Composite Award** | **₹21 Lakh** (₹20L + ₹1L) | **₹33 Lakh** (₹30L + ₹3L) |
+| **Complaint Filing Deadline** | Within **90 days** from expiry of applicable response timeline or date of last communication from Regulated Entity, whichever is later | Within **90 days** from expiry of applicable response timeline or date of last communication from Regulated Entity, whichever is later |
+| **Appellate Authority & Appeal Window** | **Executive Director in-charge of CEPD at RBI**; Complainant may appeal within **30 days of receiving the Award** *(appeal available strictly against an Award, not rejection)* | **Executive Director in-charge of CEPD at RBI**; Complainant may appeal within **30 days of receiving the Award** *(appeal available strictly against an Award, not rejection)* |
+
+### 3. DICGC Deposit Insurance & 90-Day Moratorium Resolution Breakdown
+
+| Statutory Phase | Responsible Entity | Action Mandate & Verification | Statutory Time Window |
+| :--- | :--- | :--- | :--- |
+| **Stage 1: Depositor List Submission** | Insured Distressed Bank | Compiles and submits complete list of insured depositors to DICGC | Within **45 days** of RBI moratorium / directions |
+| **Stage 2: Claim Verification** | DICGC | Verifies claims and depositor accounts against bank records | Within **30 days** of receipt of depositor list |
+| **Stage 3: Fund Disbursement** | DICGC | Direct credit of insured funds up to ₹5 Lakh to depositors | Within **15 days** following claim verification |
+| **Total Statutory Ceiling** | **Composite Process** | **Insures principal + interest up to ₹5 Lakh per depositor per bank in same right/capacity** | **Exactly 90 days** *(45 + 30 + 15 = 90 days)* under Section 18A, DICGC Act 1961 *(Authorized capital ₹50 Cr; wholly-owned subsidiary of RBI)* |
 
 **EXAM ANGLE:**
 
@@ -211,28 +247,40 @@
 ---
 
 [MS-007] **Constitutional Schedules, Strategic Maritime Straits & High-Frequency Static GK**
-- **The 12 Schedules of the Constitution of India Master Table**:
-  - **First Schedule**: List of States and Union Territories with territorial boundaries.
-  - **Second Schedule**: Emoluments, allowances, and privileges of President, Governors, Judges of Supreme Court/High Courts, and CAG.
-  - **Third Schedule**: Forms of Oaths and Affirmations for Union Ministers, MPs, Supreme Court and High Court Judges.
-  - **Fourth Schedule**: **Allocation of seats in the Rajya Sabha (Council of States)** to States and Union Territories (current statutory strength: 245 total = 233 elected representatives + 12 members nominated by the President under Article 80).
-  - **Fifth Schedule**: Administration and control of Scheduled Areas and Scheduled Tribes.
-  - **Sixth Schedule**: Administration of Tribal Areas in 4 north-eastern states: **Assam, Meghalaya, Tripura, and Mizoram (AMTM)**.
-  - **Seventh Schedule**: Division of legislative powers between Union and States: List I (**Union List** - 100 subjects incl. Banking, Currency, Foreign Affairs, Defence), List II (**State List** - 61 subjects), List III (**Concurrent List** - 52 subjects).
-  - **Eighth Schedule**: **22 Official Languages** recognized by the Constitution (originally 14; 21st Amendment added Sindhi; 71st Amendment added Konkani, Manipuri, Nepali; 92nd Amendment added Bodo, Dogri, Maithili, Santhali).
-  - **Ninth Schedule**: Validation of certain Acts and regulations; originally insulated from judicial review by 1st Constitutional Amendment 1951 (post-1973 laws open to basic structure test).
-  - **Tenth Schedule**: **Anti-Defection Law** provisions for disqualification of legislators (introduced via 52nd Constitutional Amendment Act, 1985).
-  - **Eleventh Schedule**: Powers, authority, and responsibilities of Panchayats (29 functional subjects; added via 73rd Amendment 1992).
-  - **Twelfth Schedule**: Powers, authority, and responsibilities of Municipalities (18 functional subjects; added via 74th Amendment 1992).
-- **Strategic Global Maritime Straits & International Choke Points**:
-  - **Strait of Hormuz**: Vital maritime strait connecting the **Persian Gulf** with the **Gulf of Oman** and the Arabian Sea; borders Iran to the north and the Musandam exclave of Oman and UAE to the south; world's foremost petroleum transit choke point (handles ~20% of global petroleum liquid consumption).
-  - **Bab-el-Mandeb Strait**: Connects the **Red Sea** to the **Gulf of Aden** and Indian Ocean; separates Yemen on the Arabian Peninsula from Djibouti and Eritrea in the Horn of Africa; southern gateway to the Suez Canal.
-  - **Strait of Malacca**: Connects the **Andaman Sea (Indian Ocean)** with the **South China Sea (Pacific Ocean)**; situated between Peninsular Malaysia and the Indonesian island of Sumatra; shortest sea route between Persian Gulf energy suppliers and Asian consumers.
-  - **Bosphorus & Dardanelles Straits (Turkish Straits)**: Connects the **Black Sea** to the Mediterranean Sea via the Sea of Marmara; international transit governed by the **1936 Montreux Convention**.
-  - **Palk Strait**: Connects the **Bay of Bengal** with the **Palk Bay / Gulf of Mannar** between Tamil Nadu (India) and the Jaffna Peninsula (Sri Lanka).
-- **Core Environmental Treaties & Global Maritime Organizations**:
-  - **Paris Climate Agreement (COP21, 2015)**: Adopted under UNFCCC; overarching objective is to hold the increase in global average temperature to **well below 2°C** above pre-industrial levels and aggressively pursue efforts to **limit the temperature increase to 1.5°C**.
-  - **BIMCO (Baltic and International Maritime Council)**: World's largest non-governmental association of shipowners, operators, and maritime charterers; established in Copenhagen, Denmark in 1905; represents over 60% of commercial cargo fleet.
+
+### 1. The 12 Schedules of the Constitution of India Master Table
+
+| Constitutional Schedule | Canonical Subject Matter | Constitutional Nuance, Allocation & Amendments |
+| :--- | :--- | :--- |
+| **First Schedule** | States & Union Territories | Official names, territorial jurisdiction, and boundary extents |
+| **Second Schedule** | Emoluments, Allowances & Privileges | President, Governors, Speaker/Deputy Speaker, Chairman/Deputy Chairman, Judges of Supreme Court & High Courts, and CAG |
+| **Third Schedule** | Forms of Oaths & Affirmations | Union Ministers, MPs, Supreme Court & High Court Judges, Candidates for Election to Parliament/State Legislatures, State Ministers, MLAs/MLCs, CAG |
+| **Fourth Schedule** | **Allocation of Seats in Rajya Sabha** | Council of States seat distribution across States and UTs *(Current statutory strength: 245 = 233 elected representatives + 12 nominated by President under Article 80)* |
+| **Fifth Schedule** | Scheduled Areas & Scheduled Tribes | Administration and control of Scheduled Areas and STs in states other than Assam, Meghalaya, Tripura, Mizoram |
+| **Sixth Schedule** | Tribal Areas in North-Eastern States | Autonomous District Councils (ADCs) in 4 states: **Assam, Meghalaya, Tripura, and Mizoram (AMTM)** |
+| **Seventh Schedule** | Division of Legislative Powers | Three legislative lists: **List I (Union List - 100 subjects)** incl. Banking, Currency, Defence, Foreign Affairs; **List II (State List - 61 subjects)**; **List III (Concurrent List - 52 subjects)** |
+| **Eighth Schedule** | **Official Recognized Languages** | **22 Languages** *(Originally 14; 21st CAA 1967 added Sindhi; 71st CAA 1992 added Konkani, Manipuri, Nepali; 92nd CAA 2003 added Bodo, Dogri, Maithili, Santhali)* |
+| **Ninth Schedule** | Validation of Certain Acts & Regulations | Originally insulated from judicial review by 1st Constitutional Amendment Act, 1951 *(Post-24 April 1973 laws subject to Basic Structure judicial review per I.R. Coelho case)* |
+| **Tenth Schedule** | **Anti-Defection Law** | Disqualification of members of Parliament and State Legislatures on grounds of defection *(Added via 52nd Constitutional Amendment Act, 1985)* |
+| **Eleventh Schedule** | Panchayati Raj Institutions (PRIs) | **29 Functional Subjects**, powers, and authority of Panchayats *(Added via 73rd Constitutional Amendment Act, 1992)* |
+| **Twelfth Schedule** | Municipalities (Urban Local Bodies) | **18 Functional Subjects**, powers, and authority of Municipalities *(Added via 74th Constitutional Amendment Act, 1992)* |
+
+### 2. Strategic Global Maritime Straits & International Choke Points
+
+| Maritime Strait / Choke Point | Water Bodies Connected | Landmasses Separated / Bordering Nations | Strategic Importance & Global Trade Role |
+| :--- | :--- | :--- | :--- |
+| **Strait of Hormuz** | **Persian Gulf** $\longleftrightarrow$ **Gulf of Oman** & Arabian Sea | Iran (North) $\longleftrightarrow$ Musandam exclave of Oman & UAE (South) | World's foremost petroleum transit choke point; handles ~20% of global petroleum liquids |
+| **Bab-el-Mandeb Strait** | **Red Sea** $\longleftrightarrow$ **Gulf of Aden** & Indian Ocean | Yemen on Arabian Peninsula $\longleftrightarrow$ Djibouti & Eritrea in Horn of Africa | Southern maritime gateway to the Suez Canal; critical Europe-Asia trade artery |
+| **Strait of Malacca** | **Andaman Sea (Indian Ocean)** $\longleftrightarrow$ **South China Sea (Pacific Ocean)** | Peninsular Malaysia $\longleftrightarrow$ Indonesian island of Sumatra | Shortest sea transit route between Persian Gulf energy suppliers and East Asian consumer markets |
+| **Turkish Straits (Bosphorus & Dardanelles)** | **Black Sea** $\longleftrightarrow$ **Mediterranean Sea** (via Sea of Marmara) | European Turkey $\longleftrightarrow$ Asian Turkey (Anatolia) | Governed internationally by the **1936 Montreux Convention**; sole maritime outlet for Black Sea nations |
+| **Palk Strait** | **Bay of Bengal** $\longleftrightarrow$ **Palk Bay / Gulf of Mannar** | Tamil Nadu (India) $\longleftrightarrow$ Jaffna Peninsula (Sri Lanka) | Strategic shallow-water international passage separating India and Sri Lanka |
+
+### 3. Core Environmental Treaties & Global Maritime Organizations
+
+| Treaty / International Body | Headquarters / Framework | Apex Target / Regulatory Role | Canonical Legal Mandate |
+| :--- | :--- | :--- | :--- |
+| **Paris Climate Agreement (COP21, 2015)** | Adopted under UNFCCC framework | Hold global temperature rise to **well below 2°C** above pre-industrial levels; pursue aggressive efforts to **limit increase to 1.5°C** | Legally binding global treaty on climate change mitigation and adaptation |
+| **BIMCO (Baltic and International Maritime Council)** | **Copenhagen, Denmark** *(est. 1905)* | World's largest non-governmental association of shipowners, operators, and charterers | Represents over 60% of the world's commercial cargo merchant fleet |
 
 **EXAM ANGLE:**
 
@@ -244,26 +292,45 @@
 ---
 
 [MS-008] **High-Frequency Constitutional Articles, Taxation Forms & Functions of Money**
-- **Core Financial & Economic Articles of the Constitution of India**:
-  - **Article 280 (Finance Commission)**: Mandates the President of India to constitute a Finance Commission every 5 years; recommends devolution of net tax proceeds between Union and States and grants-in-aid; **16th Finance Commission** chaired by **Dr. Arvind Panagariya** (Secretary: Ritvik Ranjanam Pandey; recommendations operational for 5 years: FY27–FY31).
-  - **Article 300A (Right to Property)**: Originally a Fundamental Right under Article 19(1)(f) and Article 31; omitted from Part III and reconstituted as a **Constitutional / Legal Right under Article 300A in Part XII** via the **44th Constitutional Amendment Act, 1978** (mandates that no person shall be deprived of property save by authority of law).
-  - **Article 112 (Annual Financial Statement / Union Budget)**: Mandates presentation of estimated receipts and expenditure of the Government of India for every financial year before both Houses of Parliament.
-  - **Article 246A & 279A (Goods and Services Tax)**: Introduced by the **101st Constitutional Amendment Act, 2016**; Article 246A confers simultaneous power to Parliament and State Legislatures to make laws on GST; Article 279A mandates constitution of the **GST Council** (chaired by the Union Finance Minister; voting weight: Centre holds 1/3rd, States hold 2/3rd; 3/4th majority required to pass decisions).
-  - **Article 266 & 267 (Funds of India)**: Article 266(1) provides for the Consolidated Fund of India; Article 266(2) provides for the Public Account of India; **Article 267**: Provides for the Contingency Fund of India, placed at the disposal of the President to meet unforeseen expenditure pending parliamentary authorization. Custody and related operational matters are governed under Article 283 and applicable rules (corpus statutory limit enhanced to ₹30,000 Cr via Finance Act, 2021).
-- **Core Income Tax Certificates, Return Forms & Declarations**:
-  - **Form 16**: Certificate of **Tax Deducted at Source (TDS) on Salary** issued annually by an employer under **Section 203 of the Income Tax Act, 1961**; divided into Part A (TDS summary, TAN, PAN) and Part B (salary breakup, deductions under Chapter VI-A).
-  - **Form 16A**: Certificate for TDS on non-salary payments (interest on bank deposits, mutual fund dividends, professional fees).
-  - **Form 15G**: Self-declaration under Section 197A by an **individual below 60 years or HUF** claiming receipt of interest without deduction of tax (total income must be below taxable basic exemption limit).
-  - **Form 15H**: Self-declaration under Section 197A by a **senior citizen (aged 60 years or above)** for nil TDS on interest income (estimated total income after deductions can be within taxable limits, provided net tax liability is nil).
-  - **Form 26AS & Annual Information Statement (AIS)**: Comprehensive consolidated statement reflecting all taxes deducted (TDS/TCS), advance tax paid, self-assessment tax, and Specified Financial Transactions (SFT) like high-value cash deposits, shares, and real estate.
-  - **Form 60 / Form 61**: Form 60 is submitted by an individual who does not possess a PAN card when entering into specified high-value financial transactions; Form 61 is filed by persons dealing with agricultural income only.
-- **The Three Fundamental Functions of Money (Macroeconomic Principles)**:
-  - **Unit of Account**: Currency serves as the standard numerical monetary unit of measurement of the market value of goods, services, and all financial transactions; allows comparison of relative values and provides the accounting baseline for recording a nation's income, national output (GDP), expenditure, and corporate balance sheets.
-  - **Medium of Exchange**: Currency facilitates trade and transactions without the prohibitive inefficiencies and coincidence-of-wants dilemmas of barter.
-  - **Store of Value**: Asset that maintains its purchasing power over time so wealth can be saved, stored, and retrieved in the future (diminished primarily by inflation).
-- **Global Governance, Strategic Ports & Security Architecture**:
-  - **United Nations Security Council Permanent 5 (P5)**: Comprises **5 Permanent Members** holding veto power under the UN Charter: **United States, United Kingdom, France, Russia, and China**. The 10 non-permanent members are elected by the UN General Assembly for 2-year terms.
-  - **Chabahar Port Strategic Bilateral Pact**: Located in the Sistan-Baluchistan province of south-eastern Iran along the Gulf of Oman; provides India sea-land access to Afghanistan and Central Asia bypassing Pakistan; on **13 May 2024**, India Ports Global Limited (IPGL) signed a landmark **10-year long-term bilateral contract** with Iran's Ports and Maritime Organization (PMO) to equip and operate the **Shahid Beheshti terminal** with an investment of \$120 Million.
+
+### 1. Core Financial & Economic Articles of the Constitution of India
+
+| Constitutional Article | Constitutional Mechanism / Subject | Core Legal Mandate, Composition & Quorum Rules |
+| :--- | :--- | :--- |
+| **Article 112** | **Annual Financial Statement (Union Budget)** | Mandates presentation of estimated receipts and expenditure of Government of India for every financial year before both Houses of Parliament |
+| **Article 246A & 279A** | **Goods and Services Tax (GST) & GST Council** | Introduced by **101st Constitutional Amendment Act, 2016**.<br>• **Article 246A**: Simultaneous legislative power to Parliament and State Legislatures.<br>• **Article 279A**: **GST Council** chaired by Union Finance Minister; Voting weight: Centre holds **1/3rd (33.33%)**, States hold **2/3rd (66.67%)**; requires **3/4th (75%) majority** to pass decisions |
+| **Article 266(1)** | **Consolidated Fund of India** | All sovereign revenues received, loans raised, and loan repayments received flow into this fund; zero expenditure permitted without Parliamentary appropriation |
+| **Article 266(2)** | **Public Account of India** | All other public moneys received by or on behalf of GoI (PF, small savings deposits, judicial deposits); executive withdrawal without legislative vote |
+| **Article 267** | **Contingency Fund of India** | Imprest placed at disposal of the President to meet urgent unforeseen expenditure pending Parliamentary authorization *(Corpus enhanced to **₹30,000 Crore** via Finance Act, 2021; managed on President's behalf by Secretary, Department of Economic Affairs)* |
+| **Article 280** | **Finance Commission** | Mandates President to constitute a Finance Commission every 5 years to recommend tax devolution and grants-in-aid.<br>• **16th Finance Commission**: Chaired by **Dr. Arvind Panagariya** (Secretary: Ritvik Ranjanam Pandey; operational for FY27–FY31) |
+| **Article 300A** | **Right to Property (Constitutional / Legal Right)** | Originally a Fundamental Right under Article 19(1)(f) & Article 31; omitted from Part III and reconstituted as a **Legal / Constitutional Right under Article 300A in Part XII** via the **44th Constitutional Amendment Act, 1978** *(No person shall be deprived of property save by authority of law)* |
+
+### 2. Core Income Tax Certificates, Return Forms & Declarations
+
+| Tax Form / Certificate | Statutory Purpose | Eligible Taxpayer / Condition Threshold | Governing Legal Section |
+| :--- | :--- | :--- | :--- |
+| **Form 16** | Certificate of **Tax Deducted at Source (TDS) on Salary** | Salaried employees; issued annually by employer.<br>• **Part A**: TDS summary, TAN, PAN<br>• **Part B**: Gross salary breakup, Chapter VI-A deductions | **Section 203 of Income Tax Act, 1961** |
+| **Form 16A** | Certificate of **TDS on Non-Salary Payments** | Deductees receiving fixed deposit interest, mutual fund dividends, professional fees, or contractual payments | Section 203 of Income Tax Act, 1961 |
+| **Form 15G** | Self-declaration for **Nil TDS on Interest Income** | **Individual below 60 years or HUF**; estimated total income must not exceed basic exemption limit | **Section 197A** of Income Tax Act, 1961 |
+| **Form 15H** | Self-declaration for **Nil TDS on Interest Income** | **Senior Citizens (aged 60 years or above)**; net computed tax liability on estimated total income must be zero | **Section 197A** of Income Tax Act, 1961 |
+| **Form 26AS & AIS** | Comprehensive Annual Tax Statement | All taxpayers; consolidated electronic statement of TDS, TCS, advance tax, self-assessment tax, and high-value Specified Financial Transactions (SFT) | Section 285BB & Rule 114-I |
+| **Form 60** | Declaration in lieu of PAN | Individuals entering into specified high-value financial transactions who do **not possess a PAN card** | Rule 114B of Income Tax Rules |
+| **Form 61** | Declaration for Agricultural Income | Persons whose income is derived **exclusively from agriculture** and who do not possess any other taxable income | Rule 114B of Income Tax Rules |
+
+### 3. The Three Fundamental Macroeconomic Functions of Money
+
+| Function of Money | Conceptual Definition | Operational Economic Role |
+| :--- | :--- | :--- |
+| **Unit of Account** | Standard numerical monetary unit of measurement of market value | Provides accounting baseline for pricing goods/services, corporate balance sheets, and recording national income & expenditure (GDP) |
+| **Medium of Exchange** | Universal intermediary instrument facilitating trade and payments | Eliminates prohibitive inefficiencies and double-coincidence-of-wants dilemmas of barter |
+| **Store of Value** | Asset preserving purchasing power into the future | Allows wealth to be saved and retrieved over time *(eroded primarily by inflation)* |
+
+### 4. Global Governance & Strategic Bilateral Pacts
+
+| Entity / Strategic Asset | Institutional Structure & Membership | Strategic Mandate & Sovereign Timeline |
+| :--- | :--- | :--- |
+| **UNSC Permanent 5 (P5)** | **United States, United Kingdom, France, Russia, China** | Hold permanent veto power under UN Charter; 10 non-permanent members elected for 2-year terms |
+| **Chabahar Port Bilateral Pact** | Shahid Beheshti Terminal (Sistan-Baluchistan, Iran on Gulf of Oman) | Landmark **10-year bilateral contract** signed on **13 May 2024** between India Ports Global Limited (IPGL) and Iran PMO (\$120M investment; sea-land access to Central Asia bypassing Pakistan) |
 
 **EXAM ANGLE:**
 
@@ -276,16 +343,19 @@
 ---
 
 [MS-009] **RBI KYC Master Directions — 'Small Account' Regulatory Architecture & Statutory Caps**
-- **Statutory Genesis & Applicability**: Governed by the **RBI Master Direction – Know Your Customer (KYC) Directions, 2016** and the Prevention of Money-Laundering (Maintenance of Records) Rules, 2005; permits individuals who do not possess Officially Valid Documents (OVDs) to open a basic banking account on simplified self-attestation.
-- **Strict Prudential Operating Ceilings**:
-  - **Aggregate Credits**: Total credits in a financial year must **NOT exceed ₹1,00,000 (₹1 Lakh)**.
-  - **Aggregate Withdrawals / Transfers**: Total withdrawals and transfers in a calendar month must **NOT exceed ₹10,000**.
-  - **Account Balance Ceiling**: The balance at any point in time must **NOT exceed ₹50,000**.
-- **Statutory Operational Restrictions & Validity**:
-  - **Initial Validity**: Remains operational for an initial period of **12 months**.
-  - **Extension Window**: Extendable for another **12 months** (total 24 months) if the account holder presents official evidence of having applied for an Officially Valid Document (OVD) within the initial 12 months.
-  - **Geographical & Channel Bounds**: Small accounts can only be operated at **Core Banking Solution (CBS)** linked bank branches or through the bank's authorized Business Correspondent (BC) network.
-  - **Remittance Embargo**: Foreign inward and outward remittances are **strictly prohibited** in small accounts.
+
+### 1. RBI KYC 'Small Account' Prudential Limits & Statutory Mechanics
+
+| Regulatory Parameter | Statutory Ceiling / Mandated Norm | Legal Mandate & Operational Boundary |
+| :--- | :--- | :--- |
+| **Statutory Authority** | **RBI Master Direction – Know Your Customer (KYC) Directions, 2016** & PML Rules 2005 | Facilitates banking access for individuals lacking Officially Valid Documents (OVDs) on simplified self-attestation |
+| **Aggregate Annual Credits** | **$\le$ ₹1,00,000 (₹1 Lakh)** per financial year | Maximum permissible sum of all account credits within a single FY |
+| **Monthly Withdrawals / Transfers** | **$\le$ ₹10,000** per calendar month | Maximum permissible sum of all debits, withdrawals, and outward transfers |
+| **Account Balance Ceiling** | **$\le$ ₹50,000** at any point in time | End-of-day or intraday balance must never exceed ₹50k |
+| **Initial Validity Period** | **12 Months** | Customer must apply for an Officially Valid Document (OVD) during this period |
+| **Permitted Extension Window** | Additional **12 Months** *(total maximum **24 Months**)* | Permitted only upon presenting official evidence of having applied for an OVD within the initial 12 months |
+| **Operational Delivery Channels** | **CBS branches & authorized BC network** | Restricted to Core Banking Solution branches and bank's Business Correspondents |
+| **Cross-Border Remittances** | **STRICTLY PROHIBITED** | Foreign inward and outward remittances are completely barred |
 
 **EXAM ANGLE:**
 
@@ -297,21 +367,23 @@
 ---
 
 [MS-010] **Statutory Acts Matrix: Administered by RBI vs. Ministry of Finance & Other Regulators**
-- **Sovereign Statutory Division of Regulatory Powers**: Banking exams frequently set trap questions swapping Acts administered directly by the Reserve Bank of India with those administered by Central Board of Direct Taxes (CBDT), Ministry of Finance, or other statutory watchdogs.
-- **Statutory Acts Directly Administered / Enforced by RBI**:
-  - **Reserve Bank of India Act, 1934**: RBI constitution, currency issue, CRR, and Monetary Policy Committee.
-  - **Banking Regulation Act, 1949**: Licensing, SLR, prudential inspections, management appointments, and Section 35A binding directives.
-  - **Foreign Exchange Management Act (FEMA), 1999**: Administration and regulation of foreign exchange, cross-border capital flows, and external commercial borrowings.
-  - **Government Securities Act, 2006 (and G-Sec Regulations, 2007)**: Administration of sovereign debt, primary auctions, subsidiary general ledger (SGL) accounts, and retail direct gilt infrastructure.
-  - **Payment and Settlement Systems Act, 2007 (PSS Act)**: Regulation and supervision of clearing corporations, RTGS, NEFT, UPI, pre-paid payment instruments (PPIs), and card payment networks.
-  - **Credit Information Companies (Regulation) Act, 2005 (CICRA)**: Licensing and supervision of credit information bureaus (CIBIL, Equifax, Experian, CRIF High Mark).
-  - **Factoring Regulation Act, 2011**: Registration and regulation of factoring companies and TReDS trade discount platforms.
-- **Examiner Trap Acts (Administered by Other Authorities, NOT RBI)**:
-  - **Prohibition of Benami Property Transactions Act, 1988**: Administered by the **Central Board of Direct Taxes (CBDT) / Department of Revenue, Ministry of Finance** (Initiating Officer / Adjudicating Authority).
-  - **Prevention of Money Laundering Act (PMLA), 2002**: Administered by the **Directorate of Enforcement (ED)** and **Financial Intelligence Unit - India (FIU-IND)** under Department of Revenue, Ministry of Finance.
-  - **Securities Contracts (Regulation) Act, 1956 & SEBI Act, 1992**: Administered by **Securities and Exchange Board of India (SEBI)**.
-  - **Insurance Act, 1938 & IRDAI Act, 1999**: Administered by **IRDAI**.
-  - **PFRDA Act, 2013**: Administered by **PFRDA**.
+
+### 1. Sovereign Statutory Allocation: Acts Administered by RBI vs Other Authorities
+
+| Statutory Enactment | Administering / Enforcing Authority | Core Regulatory Subject Matter | Key Examiner Distinction / Trap |
+| :--- | :--- | :--- | :--- |
+| **Reserve Bank of India Act, 1934** | **Reserve Bank of India (RBI)** | RBI constitution, central banking, banknote issuance, CRR, and Monetary Policy Committee (MPC) | Apex statutory charter of India's central bank |
+| **Banking Regulation Act, 1949** | **Reserve Bank of India (RBI)** | Bank licensing, SLR, prudential inspections, management approvals, and Section 35A binding directions | Governs all commercial and co-operative banks |
+| **Foreign Exchange Management Act (FEMA), 1999** | **Reserve Bank of India (RBI)** | Cross-border capital/current flows, forex reserves, external commercial borrowings (ECB), and overseas investment | Enforcement of contraventions handled by Directorate of Enforcement (ED) |
+| **Government Securities Act, 2006** | **Reserve Bank of India (RBI)** | Sovereign public debt, primary auctions, Subsidiary General Ledger (SGL) accounts, retail direct gilts | Administered by **RBI**, NOT SEBI or MoF directly |
+| **Payment and Settlement Systems Act, 2007 (PSS Act)** | **Reserve Bank of India (RBI)** | Oversight of clearing corporations, RTGS, NEFT, IMPS, UPI, PPIs, card networks | Sole payment regulatory statute |
+| **Credit Information Companies (Regulation) Act, 2005 (CICRA)** | **Reserve Bank of India (RBI)** | Licensing and supervision of credit bureaus (CIBIL, Equifax, Experian, CRIF High Mark) | Administered exclusively by RBI |
+| **Factoring Regulation Act, 2011** | **Reserve Bank of India (RBI)** | Registration and regulation of factoring entities and TReDS platforms | Trade receivables discounting supervision |
+| **Prohibition of Benami Property Transactions Act, 1988** | **CBDT / Dept of Revenue, Ministry of Finance** | Adjudication and attachment of benami assets and illicit property holdings | **NOT administered by RBI** (Common Exam Trap) |
+| **Prevention of Money Laundering Act (PMLA), 2002** | **Directorate of Enforcement (ED) & FIU-IND (MoF)** | Investigation of money laundering offenses and suspicious transaction reporting | Adjudicating Authority under Dept of Revenue, MoF |
+| **Securities Contracts (Regulation) Act, 1956 & SEBI Act, 1992** | **Securities and Exchange Board of India (SEBI)** | Stock exchanges, listed companies, brokers, mutual funds, credit rating agencies | Independent capital markets regulator |
+| **Insurance Act, 1938 & IRDAI Act, 1999** | **Insurance Regulatory and Development Authority of India (IRDAI)** | Life, general, and health insurance companies, reinsurance, and insurance intermediaries | Insurance sector watchdog (HQ: Hyderabad) |
+| **PFRDA Act, 2013** | **Pension Fund Regulatory and Development Authority (PFRDA)** | National Pension System (NPS), Atal Pension Yojana (APY), and pension fund managers | Pension sector watchdog (HQ: New Delhi) |
 
 **EXAM ANGLE:**
 
@@ -321,16 +393,16 @@
 
 ---
 
-
----
-
 [MS-011] **Bankers’ Books Evidence Act, 2026: Replacement of 1891 Colonial Statute & Cloud CBS Proof**
-- **Enactment & Repeal of Colonial Statute**: The **Bankers’ Books Evidence Act, 2026** officially comes into force on **October 1, 2026**, repealing and replacing the 135-year-old **Bankers’ Books Evidence Act, 1891**.
-- **Digital Admissibility Architecture**:
-  - Grants statutory recognition to electronic records, cloud-hosted Core Banking Solution (CBS) transaction ledgers, digital audit trails, and payment switch logs as **primary admissible evidence** in all civil, commercial, and criminal court proceedings.
-  - Eliminates the necessity of producing bulky physical books of accounts, ledgers, or manual certified vouchers in judicial trials.
-- **Statutory Certification Norms**:
-  - Certificates authenticating electronic records can be executed by designated branch managers, principal accountants, or authorized bank compliance officers.
+
+### 1. Bankers’ Books Evidence Act, 2026 Legal Reform Matrix
+
+| Statutory Dimension | Operative 2026 Reform Framework | Colonial Baseline (Repealed 1891 Statute) |
+| :--- | :--- | :--- |
+| **Statutory Enactment** | **Bankers’ Books Evidence Act, 2026** | Repeals and replaces the 135-year-old **Bankers’ Books Evidence Act, 1891** |
+| **Statutory Effective Date** | **October 1, 2026** | Replaces colonial evidentiary procedures |
+| **Digital Evidence Admissibility** | Grants statutory recognition to **electronic records, cloud-hosted Core Banking Solution (CBS) ledgers, digital audit trails, and payment switch logs as primary admissible evidence** in all civil, commercial, and criminal proceedings | Required physical books of accounts, ledgers, or manual certified vouchers in judicial trials |
+| **Certification Authority** | Certificates authenticating electronic records can be executed by designated branch managers, principal accountants, or authorized bank compliance officers | Manual ledger extracts attested by physical signatures |
 
 **EXAM ANGLE:**
 
@@ -342,16 +414,30 @@
 ## 1. ️ RBI POLICY, MASTER DIRECTIONS & PRUDENTIAL NORMS
 
 [MS-012] **Monetary Policy Committee (MPC) — Benchmark Rate Corridor Trajectory & Current Snapshot**
-- **Historical Jan–Aug 2026 Trajectory (Bi-Monthly Reviews)**: Across four consecutive bi-monthly meetings through the August 3–5, 2026 review, the MPC maintained the **Policy Repo Rate at 5.25%** with a **neutral monetary stance** (SDF 5.00%, MSF/Bank Rate 5.50%, CRR 3.00%, SLR 18.00%; FY27 GDP projected at 6.7%, CPI at 5.0%).
-- **POST-CUTOFF STATUS UPDATE / CURRENT POLICY SNAPSHOT (October 5–7, 2026 MPC Decision)**:
-  - **Decision Date**: October 7, 2026 (Repo increase: **25 bps from 5.25% to 5.50%**).
-  - **Policy Repo Rate**: **5.50%**.
-  - **Standing Deposit Facility (SDF)**: **5.25%** (Repo - 25 bps).
-  - **Marginal Standing Facility (MSF) & Bank Rate**: **5.75%** (Repo + 25 bps).
-  - **Reserve Ratios**: Cash Reserve Ratio (**CRR**) = **3.00%**; Statutory Liquidity Ratio (**SLR**) = **18.00%**.
-  - **Monetary Policy Stance**: Shifted to **Calibrated Tightening** (superseding the earlier Neutral stance).
-  - **Macroeconomic Projections (FY2026–27)**: Real GDP growth projection raised to **7.1%**; CPI inflation projection projected at **5.2%**.
-- **Statutory MPC Composition**: 6-member committee under **Section 45-ZB of the RBI Act, 1934**; comprises 3 RBI officials (Governor Sanjay Malhotra as Chairperson, Deputy Governor, Executive Director) and 3 external government-appointed experts.
+
+### 1. RBI Benchmark Policy Rates & Liquidity Corridor Matrix (Post-October 7, 2026 Decision)
+
+| Policy Rate / Metric | Historical Stance (Jan–Aug 2026) | Current Operative Rate (Post-Oct 7, 2026) | Corridor Spread & Mathematical Mechanics |
+| :--- | :--- | :--- | :--- |
+| **Policy Repo Rate** | 5.25% | **5.50%** | Benchmark lending rate (+25 bps hike on Oct 7, 2026) |
+| **Standing Deposit Facility (SDF)** | 5.00% | **5.25%** | Floor of corridor: $\text{Repo} - 25\text{ bps}$ *(uncollateralized liquidity absorption)* |
+| **Marginal Standing Facility (MSF)** | 5.50% | **5.75%** | Ceiling of corridor: $\text{Repo} + 25\text{ bps}$ *(penal borrowing against excess SLR)* |
+| **Bank Rate** | 5.50% | **5.75%** | Aligned with MSF: $\text{Repo} + 25\text{ bps}$ *(penal discount rate)* |
+| **Cash Reserve Ratio (CRR)** | 3.00% | **3.00%** | Share of NDTL maintained in unremunerated cash with RBI (Sec 42, RBI Act) |
+| **Statutory Liquidity Ratio (SLR)** | 18.00% | **18.00%** | Liquid assets maintained in G-Secs/gold/cash with banks (Sec 24, BR Act) |
+| **Monetary Policy Stance** | Neutral Stance | **Calibrated Tightening** | Shifted to address persistent core inflation pressures |
+| **Real GDP Growth Projection (FY27)** | 6.7% | **7.1%** | Raised by 40 bps |
+| **CPI Inflation Projection (FY27)** | 5.0% | **5.2%** | Projected headline inflation trajectory |
+
+### 2. Statutory MPC Governance Architecture
+
+| Governance Parameter | Statutory Mandate (RBI Act, 1934 - Sections 45-ZB to 45-ZG) |
+| :--- | :--- |
+| **Total Membership** | **6 Members** (3 RBI Ex-Officio + 3 External Nominees appointed by Central Government) |
+| **RBI Quota (3 Members)** | Governor Sanjay Malhotra (Chairperson ex-officio), Deputy Governor in-charge of Monetary Policy, one Executive Director nominated by Central Board |
+| **External Quota (3 Members)** | Appointed by Central Government on Search-cum-Selection Committee recommendations; fixed **4-year tenure** (**NOT eligible for reappointment**) |
+| **Quorum & Voting Mechanics** | Quorum is **4 members** (at least Governor or Deputy Governor must be present); each member has one vote; **Governor holds casting vote** in case of tie |
+| **Publication of Minutes** | Published on the **14th day** following the meeting under Section 45ZL |
 
 **EXAM ANGLE:**
 
@@ -363,12 +449,17 @@
 ---
 
 [MS-013] **Digital Fraud Compensation: Responsible Business Conduct (Third Amendment) Directions**
-- **Genesis & Compensation Slabs**: Framed to protect victims of small-value, unauthorized electronic banking transactions (gross loss up to ₹50,000); canonical formula: **Eligible fraudulent EBT involving gross loss up to ₹50,000: compensation = 85% of net loss or ₹25,000, whichever is lower, after prescribed recoveries**.
-- **Institutional Loss-Apportionment Formula**: For losses below ₹29,412, the 85% payout is apportioned: **RBI bears 65%** (funded via Depositor Education and Awareness / DEA Fund), the **customer's issuing bank bears 10%**, and the **beneficiary bank bears 10%**.
-- **Statutory Deferred Effective Date**: Formally notified in the Gazette on June 24, 2026, but RBI **deferred enforcement to January 1, 2027** (pushed from the original July 1, 2026 draft date) to give banks integration runway.
-- **Two Distinct Customer Liability & Compensation Regimes (Critical Exam Distinction)**:
-  1. *Pre-1 January 2027 / legacy 2017 customer-liability framework (RBI/2017-18/15)*: Governs unauthorized electronic banking transactions generally — zero customer liability where fraud occurs due to bank negligence, or where a third-party breach occurs without customer fault and is reported by the customer within **3 working days** of receiving communication.
-  2. *Effective 1 January 2027 — 5 calendar days (New Small-Value Fraudulent EBT Compensation Framework)*: Governs small-value digital fraud (gross loss up to ₹50,000) under the Responsible Business Conduct Directions — requires mandatory customer reporting to the National Cyber Crime Reporting Portal (**NCRP / Helpline 1930**) and the bank within **5 calendar days**; mandates structured compensation: **Eligible fraudulent EBT involving gross loss up to ₹50,000: compensation = 85% of net loss or ₹25,000, whichever is lower, after prescribed recoveries**. The new compensation framework applies to eligible fraudulent EBTs occurring within the prescribed one-year window from its effective date.
+
+### 1. Digital Fraud Compensation Framework: Legacy 2017 vs New 2027 Responsible Business Conduct
+
+| Regulatory Dimension | Legacy Regime (Pre-1 January 2027 / 2017 Directions) | New Small-Value Fraud Regime (Effective 1 January 2027) |
+| :--- | :--- | :--- |
+| **Statutory Authority** | RBI Circular RBI/2017-18/15 (Customer Liability in Unauthorized EBTs) | RBI Responsible Business Conduct (Third Amendment) Directions *(notified 24 June 2026)* |
+| **Statutory Effective Date** | Operative baseline through 31 December 2026 | **1 January 2027** *(deferred from original 1 July 2026 draft date)* |
+| **Eligible Fraud Loss Scope** | Covers all unauthorized electronic transactions generally | Small-value fraudulent EBTs with gross loss **up to ₹50,000** |
+| **Mandatory Reporting Window** | Within **3 working days** for zero liability; 4–7 days for limited liability | Within **5 calendar days** to **NCRP (Helpline 1930)** and the bank |
+| **Standard Compensation Formula** | Zero customer liability if reported $\le$ 3 working days | **85% of net loss or ₹25,000, whichever is lower** *(after prescribed recoveries)* |
+| **Loss Apportionment Formula (Loss < ₹29,412)** | Borne by bank / insurance according to bank liability | **RBI bears 65%** *(funded via Depositor Education & Awareness / DEA Fund)*, **Issuing Bank bears 10%**, **Beneficiary Bank bears 10%** |
 
 **EXAM ANGLE:**
 
@@ -382,9 +473,14 @@
 ---
 
 [MS-014] **Bank Dividend Payout & Profit Remittance: RBI 2026 Directions**
-- **Commercial Bank Dividend Architecture (Banks Incorporated in India)**: For banks incorporated in India, the RBI 2026 Directions prescribe CET1-linked dividend buckets expressed as a percentage of adjusted PAT. For a non-D-SIB: **>12% to ≤14% CET1 → 40% of adjusted PAT**. The aggregate dividend payment is subject to an **overall ceiling of 75% of PAT**. D-SIB buffer 'z' shifts the CET1 bucket thresholds.
-- **Foreign Bank Branches (Remittance of Profits)**: An eligible foreign bank operating in India in branch mode may remit net profit / surplus (net of tax) earned from its Indian operations without prior RBI approval, subject to the conditions prescribed in the RBI 2026 Directions, including audited accounts and treatment of any excess remittance.
-- **Asset Quality Barrier**: A bank is statutorily disqualified from declaring dividends or remitting profits if its Net Non-Performing Assets (NNPA) ratio exceeds **6.0%** for the financial year.
+
+### 1. Bank Dividend Payout & Profit Remittance Regulatory Matrix
+
+| Bank Category / Regulatory Dimension | Capital & Asset Quality Threshold | Permitted Dividend / Profit Remittance Norm | Overall Ceiling & Policy Conditions |
+| :--- | :--- | :--- | :--- |
+| **Domestic Commercial Banks (Non-D-SIB)** | CET1 ratio **> 12% to $\le$ 14%** | **40% of adjusted PAT** | Aggregate dividend payment capped at **75% of PAT** *(D-SIB buffer 'z' shifts CET1 thresholds)* |
+| **Asset Quality Disqualification Barrier** | Net NPA ratio **> 6.0%** | **0% Dividend / Remittance (Statutory Bar)** | Bank is statutorily disqualified from declaring dividends if NNPA > 6.0% for the FY |
+| **Foreign Bank Branches in India** | Eligible branches under 2026 Directions | **Remit net profit / surplus without prior RBI approval** | Subject to audited accounts, regulatory conditions, and treatment of any excess remittance |
 
 **EXAM ANGLE:**
 
@@ -398,10 +494,16 @@
 ---
 
 [MS-015] **Bank Acquisition Financing & Unlisted Target Guidelines**
-- **Prudential Bank Exposure Cap**: RBI raised the bank exposure ceiling for acquisition financing from 10% to **20% of Tier-1 capital**; permitted commercial banks to fund acquisitions of unlisted target companies.
-- **Target Company Eligibility**: Target unlisted firm must have a **net worth ≥ ₹500 crore**, a 3-year continuous track record of profitability, and minimum BBB- credit rating.
-- **Financing Share & Security Margins**: Permissible bank financing share raised to **75% of acquisition value** (from 70%), with debt-equity ratio capped at 3:1; raised lending against shares to ₹1 crore (from ₹20 lakh).
-- **Implementation Deferral**: Enforcement officially **deferred to July 1, 2026** (from original April 1, 2026); permitted corporate borrowing via Special Purpose Vehicles (SPVs) backed by mandatory Corporate Guarantees.
+
+### 1. Bank Acquisition Financing Prudential Guidelines
+
+| Prudential Dimension | Mandated Norm / Regulatory Cap | Operational Framework & Borrower Safeguards |
+| :--- | :--- | :--- |
+| **Bank Tier-1 Exposure Cap** | **20% of Tier-1 Capital** *(raised from 10%)* | Governs total acquisition credit facilities extended by commercial banks |
+| **Unlisted Target Eligibility** | **Net Worth $\ge$ ₹500 Crore** | Unlisted target must possess continuous 3-year profitability and minimum BBB- rating |
+| **Maximum Bank Financing Share** | **75% of acquisition value** *(raised from 70%)* | Promoter equity contribution must be $\ge$ 25%; Debt-Equity ratio capped at 3:1 |
+| **Lending Against Shares Limit** | **₹1 Crore** *(enhanced from ₹20 Lakh)* | Individual loan limit against pledge of equity shares |
+| **Enforcement Date** | **July 1, 2026** *(deferred from April 1, 2026)* | Borrowing via SPVs permitted backed by mandatory Corporate Guarantees |
 
 **EXAM ANGLE:**
 
@@ -412,10 +514,14 @@
 ---
 
 [MS-016] **REIT & InvIT Bank Lending Regulatory Framework**
-- **Credit Opening for Investment Trusts**: Permitted scheduled commercial banks to extend credit facilities to Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs).
-- **Prudential Exposure Ceilings**: A single bank's exposure to an individual REIT/InvIT is capped at **10% of the bank's eligible capital base**.
-- **Aggregate Banking System Ceiling**: The combined banking system exposure across all lenders to a single REIT/InvIT cannot exceed **49% of the gross asset value** of the trust.
-- **Enforcement Timeline**: Fully operationalized across commercial banking books effective **July 1, 2026**.
+
+### 1. Commercial Bank Lending to REITs & InvITs
+
+| Credit Exposure Parameter | Mandated Statutory Ceiling | Regulatory Framework & Timeline |
+| :--- | :--- | :--- |
+| **Single Bank Exposure Cap** | **10% of bank's eligible capital base** | Maximum credit exposure an individual commercial bank may extend to a single REIT/InvIT |
+| **Aggregate Banking System Ceiling** | **49% of gross asset value of the trust** | Combined exposure of all scheduled commercial banks to a single REIT or InvIT |
+| **Statutory Enforcement Date** | **July 1, 2026** | Fully operationalized across commercial banking books |
 
 **EXAM ANGLE:**
 
@@ -426,10 +532,15 @@
 ---
 
 [MS-017] **Unprecedented Liquidity Operations: First-Ever 90-Day VRR Auction**
-- **Historical Tenor Breakthrough**: On January 30, 2026, RBI conducted its **first-ever 90-day Variable Rate Repo (VRR) auction for ₹25,000 crore**, breaking the previous longest historical liquidity tenor of 56 days.
-- **Package Components**: Formed part of an aggregate ₹2.15 lakh crore liquidity intervention, including a **\$10 billion 3-year USD/INR Buy-Sell Swap** and ₹1 lakh crore in Open Market Operation (OMO) purchases.
-- **Bilateral Currency Stability**: Renewed the **\$75 billion Bilateral Swap Arrangement (BSA)** with the Bank of Japan, signed under Governor Sanjay Malhotra and BoJ leadership.
-- **Policy Objective**: Anchored short-term money market rates near the 5.25% repo rate amid massive advance tax and GST cash drains.
+
+### 1. Landmark Liquidity Operations & Bilateral Swaps
+
+| Operational Instrument | Operational Size / Tenor | Policy Objective & Strategic Significance |
+| :--- | :--- | :--- |
+| **Record Long-Tenor VRR Auction** | **90-Day Tenor (₹25,000 Crore)** | Conducted Jan 30, 2026; broke previous longest liquidity injection tenor of 56 days |
+| **USD/INR Buy-Sell Swap** | **\$10 Billion (3-Year Tenor)** | Part of ₹2.15 Lakh Crore total liquidity package to ease liquidity deficit |
+| **Open Market Operation (OMO)** | **₹1,00,000 Crore (₹1 Lakh Cr)** | Outright G-Sec purchases to anchor call money rates near 5.25% repo rate |
+| **Bilateral Swap Arrangement (BSA)** | **\$75 Billion with Bank of Japan** | Renewed bilateral currency safety net signed under Governor Sanjay Malhotra and BoJ |
 
 **EXAM ANGLE:**
 
@@ -440,10 +551,15 @@
 ---
 
 [MS-018] **Lead Bank Scheme (1969) Overhaul: 60% Credit-Deposit Ratio Mandate**
-- **Statutory Credit-Deposit (CD) Mandate**: Draft overhaul mandated a minimum Credit-Deposit (CD) ratio of **60% across all rural and semi-urban districts** nationwide.
-- **Special Category Districts**: Districts recording a CD ratio below **20%** are statutorily classified as 'Special Category Districts', requiring quarterly District Consultative Committee (DCC) monitoring.
-- **Historical Committee Heritage**: Lead Bank Scheme was originally introduced in **1969** following the recommendations of the **F.K.F. Nariman Committee** and the Study Group chaired by **Prof. D.R. Gadgil**.
-- **Nodal Role**: State Level Bankers' Committee (SLBC) and Lead District Manager (LDM) supervise credit flow to agriculture and allied rural sectors.
+
+### 1. Lead Bank Scheme (LBS) Modernized Regulatory Framework
+
+| Regulatory Parameter | Statutory Norm / Benchmark | Institutional Mechanism & Governance |
+| :--- | :--- | :--- |
+| **Rural & Semi-Urban CD Ratio** | **Minimum 60% Credit-Deposit Ratio** | Mandated across all rural and semi-urban districts nationwide |
+| **Special Category Districts** | **CD Ratio < 20%** | Requires quarterly monitoring by District Consultative Committee (DCC) |
+| **Historical Committee Origin** | **F.K.F. Nariman Committee (1969)** | Formulated LBS alongside Prof. D.R. Gadgil Study Group |
+| **Supervisory Nodal Network** | **SLBC & Lead District Manager (LDM)** | State Level Bankers' Committee monitors priority credit to agriculture and rural MSMEs |
 
 **EXAM ANGLE:**
 
@@ -454,10 +570,16 @@
 ---
 
 [MS-019] **RBI Annual Report 2025-26: Balance Sheet & Surplus Transfer to Centre**
-- **Record Balance Sheet Expansion**: RBI's balance sheet expanded by **20.6% YoY** (an increase of ₹15,71,699.15 crore) to reach **₹91,97,121.08 crore** (₹91.97 lakh crore, representing **26.4% of India's GDP** as of end-March 2026), driven by domestic investments (+44.9%), sovereign gold holdings (+63.8%), and foreign currency assets (+7.9%).
-- **Record Surplus Transfer**: Approved a massive surplus transfer of **₹2,88,588.45 crore** (~₹2.89 lakh crore) to the Central Government for FY26 (up 7.3% from ₹2,68,588.07 crore in FY25), submitted under **Section 53(2)** of the RBI Act, 1934.
-- **Contingency Risk Buffer (CRB)**: Maintained the Contingency Risk Buffer at **6.50%** of the balance sheet (within the mandated 4.5%–7.5% band recommended by the **Bimal Jalan Committee** on Economic Capital Framework), with a provision transfer of **₹1,09,379.64 crore** to the Contingency Fund (CF).
-- **Reserve Asset Composition**: Foreign assets account for **70.9%** (₹52.68 lakh crore foreign investments + ₹10.94 lakh crore gold) and domestic assets account for **29.1%** (₹22.59 lakh crore) of total balance sheet assets.
+
+### 1. RBI Balance Sheet & Sovereign Surplus Transfer Breakdown
+
+| Financial / Reserve Metric | FY 2025–26 Actual Figure | Annual Growth / Ratio | Regulatory & Committee Mandate |
+| :--- | :--- | :--- | :--- |
+| **Total Balance Sheet Size** | **₹91,97,121.08 Crore** *(₹91.97 Lakh Cr)* | **+20.6% YoY** *(26.4% of India's GDP)* | Driven by domestic investments (+44.9%), gold (+63.8%), and forex (+7.9%) |
+| **Surplus Transfer to Central Govt** | **₹2,88,588.45 Crore** *(~₹2.89 Lakh Cr)* | **+7.3% YoY** *(vs ₹2.69 Lakh Cr in FY25)* | Transferred under **Section 53(2) of RBI Act, 1934** |
+| **Contingency Risk Buffer (CRB)** | **6.50% of Balance Sheet** | Within mandated 4.5%–7.5% band | Prescribed by **Bimal Jalan Committee (2019)** Economic Capital Framework |
+| **Provision to Contingency Fund** | **₹1,09,379.64 Crore** | Capital risk cushion transfer | Added directly to Contingency Fund (CF) |
+| **Asset Composition Split** | Foreign Assets: **70.9%** (₹52.68L Cr forex + ₹10.94L Cr gold) | Domestic Assets: **29.1%** (₹22.59L Cr) | Total balance sheet assets backing currency in circulation |
 
 **EXAM ANGLE:**
 
@@ -469,10 +591,16 @@
 ---
 
 [MS-020] **RBI Financial Stability Report (FSR): Banking System Asset Quality**
-- **Multi-Year Low Gross NPA**: Scheduled Commercial Banks' (SCB) Gross Non-Performing Asset (GNPA) ratio dropped to **2.8%** (the lowest level in 12 years); Net NPA fell to **0.6%**.
-- **Capital Adequacy Strength**: Capital to Risk-Weighted Assets Ratio (CRAR) of scheduled commercial banks stood at a robust **16.8%**, well above the Basel III regulatory minimum of 11.5% (including CCB).
-- **Provision Coverage Ratio (PCR)**: System-wide Provision Coverage Ratio rose to **76.4%**, indicating comprehensive provisioning against legacy bad debts.
-- **Macro Stress Testing**: RBI's baseline stress tests project system-level GNPA to remain stable below 3.0% under projected macroeconomic scenarios.
+
+### 1. Banking Sector Asset Quality & Capital Health
+
+| Stability Metric | Commercial Banking Level | Multi-Year Benchmark & Regulatory Rule |
+| :--- | :--- | :--- |
+| **Gross NPA Ratio (GNPA)** | **2.8%** | **Lowest level in 12 years** across Scheduled Commercial Banks |
+| **Net NPA Ratio (NNPA)** | **0.6%** | Multi-year system-wide low |
+| **Capital to Risk-Weighted Assets (CRAR)** | **16.8%** | Well above Basel III regulatory minimum of 11.5% (including CCB) |
+| **Provision Coverage Ratio (PCR)** | **76.4%** | Comprehensive provisioning against legacy non-performing assets |
+| **Macro Stress Testing** | System GNPA projected **< 3.0%** | Sustained resilience under baseline and adverse economic stress |
 
 **EXAM ANGLE:**
 
@@ -483,13 +611,16 @@
 ---
 
 [MS-021] **Domestic Systemically Important Banks (D-SIBs) & Capital Surcharges**
-- **Identified D-SIB Entities**: Reserve Bank of India re-affirmed **State Bank of India (SBI), HDFC Bank, and ICICI Bank** as Domestic Systemically Important Banks ("Too Big To Fail").
-- **Tiered Additional Common Equity Tier 1 (CET1) Surcharges**:
-  - **Bucket 4 (SBI)**: Required to maintain an additional CET1 capital surcharge of **0.80% of Risk-Weighted Assets**
-  - **Bucket 2 (HDFC Bank)**: Required to maintain an additional CET1 surcharge of **0.40% of RWAs**
-  - **Bucket 1 (ICICI Bank)**: Required to maintain an additional CET1 surcharge of **0.20% of RWAs**
-- **Statutory Framework**: Formulated under the D-SIB framework introduced in **2014**, requiring systemic lenders to hold higher loss-absorbency capital.
-- **Foreign G-SIB Analogue**: Foreign bank branches operating in India designated as G-SIBs must hold corresponding additional capital buffers in India.
+
+### 1. D-SIB Additional CET1 Capital Surcharge Architecture
+
+| D-SIB Bucket | Additional CET1 Surcharge (% of RWAs) | Designated Bank(s) in India | Systemic Classification |
+| :--- | :--- | :--- | :--- |
+| **Bucket 4** | **0.80%** | **State Bank of India (SBI)** | Escalated from Bucket 3; largest systemic lender |
+| **Bucket 2** | **0.40%** | **HDFC Bank** | Maintained following HDFC Ltd mega-merger |
+| **Bucket 1** | **0.20%** | **ICICI Bank** | Baseline systemic tier |
+| **Designated Entities** | Total **3 Banks** (SBI, HDFC Bank, ICICI Bank) | Deemed **"Too Big To Fail" (TBTF)** | Formulated under **RBI 2014 D-SIB Framework** |
+| **Foreign G-SIB Analogue** | Mandated G-SIB surcharge | Foreign bank branches in India | Required to hold equivalent capital buffers in India |
 
 **EXAM ANGLE:**
 
@@ -500,12 +631,16 @@
 ---
 
 [MS-022] **Prompt Corrective Action (PCA) Framework for Commercial Banks & NBFCs**
-- **Three Mandatory Risk Threshold Parameters**: RBI monitors regulated financial institutions across three diagnostic financial metrics: (1) **Capital (CRAR & CET1)**, (2) **Asset Quality (Net NPA ratio)**, and (3) **Leverage (Tier-1 Leverage Ratio)**.
-- **Breach Threshold Slabs**:
-  - **Risk Threshold 1**: Triggered if Net NPA exceeds **6.0%** (mandatory restriction on dividend payout and profit repatriation).
-  - **Risk Threshold 2**: Triggered if Net NPA exceeds **9.0%** (mandatory restriction on branch expansion).
-  - **Risk Threshold 3**: Triggered if Net NPA exceeds **12.0%** (mandatory restriction on capital expenditure and management compensation).
-- **NBFC Inclusion**: Extended to Middle, Upper, and Top-Layer NBFCs under Scale-Based Regulation to prevent systemic shadow-banking defaults.
+
+### 1. Prompt Corrective Action (PCA) Breach Thresholds & Penal Restrictions
+
+| Diagnostic Parameter | Breach Threshold Trigger | Mandatory Corrective Actions Enforced |
+| :--- | :--- | :--- |
+| **Net NPA (Asset Quality)** | **Risk Threshold 1: Net NPA > 6.0%** | Mandatory restriction on dividend payout and profit remittance/repatriation |
+| **Net NPA (Asset Quality)** | **Risk Threshold 2: Net NPA > 9.0%** | Mandatory restriction on domestic and overseas branch network expansion |
+| **Net NPA (Asset Quality)** | **Risk Threshold 3: Net NPA > 12.0%** | Mandatory restriction on capital expenditure and management compensation |
+| **Diagnostic Metrics Monitored** | **(1) Capital (CRAR & CET1), (2) Asset Quality (Net NPA), (3) Leverage** | Early supervisory warning system for financial distress |
+| **Institutional Coverage Scope** | Commercial Banks + **Middle, Upper & Top-Layer NBFCs** | Scale-Based Regulation integration to prevent systemic shadow-banking contagion |
 
 **EXAM ANGLE:**
 
