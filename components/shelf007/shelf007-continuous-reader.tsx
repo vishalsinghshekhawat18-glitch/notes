@@ -54,6 +54,7 @@ export function Shelf007ContinuousReader({
   allChapters,
 }: Shelf007ContinuousReaderProps) {
   const [activeSectionIndex, setActiveSectionIndex] = useState(0);
+  const [isSectionsOpen, setIsSectionsOpen] = useState(false);
   const [isOutlineOpen, setIsOutlineOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -222,8 +223,15 @@ export function Shelf007ContinuousReader({
           e.preventDefault();
           toggleFullscreen();
         }
+      } else if (e.key === 's' || e.key === 'S') {
+        if (!e.ctrlKey && !e.metaKey && !e.altKey) {
+          e.preventDefault();
+          setIsSectionsOpen((prev) => !prev);
+        }
       } else if (e.key === 'Escape') {
-        if (isSidebarOpen || isOutlineOpen) {
+        if (isSectionsOpen) {
+          setIsSectionsOpen(false);
+        } else if (isSidebarOpen || isOutlineOpen) {
           setIsSidebarOpen(false);
           setIsOutlineOpen(false);
         } else if (isFullscreen) {
@@ -234,7 +242,7 @@ export function Shelf007ContinuousReader({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeSectionIndex, currentChapter.sections.length, isSidebarOpen, isOutlineOpen, isFullscreen]);
+  }, [activeSectionIndex, currentChapter.sections.length, isSectionsOpen, isSidebarOpen, isOutlineOpen, isFullscreen]);
 
   const scrollToSection = (index: number) => {
     const el = sectionRefs.current[index];
@@ -243,6 +251,10 @@ export function Shelf007ContinuousReader({
       setActiveSectionIndex(index);
       setIsOutlineOpen(false);
       setIsSidebarOpen(false);
+      // Auto-collapse on mobile/smaller screens so user directly views the text
+      if (typeof window !== 'undefined' && window.innerWidth < 1024) {
+        setIsSectionsOpen(false);
+      }
     }
   };
 
@@ -296,19 +308,44 @@ export function Shelf007ContinuousReader({
           <div className="flex items-center gap-2 min-w-0 flex-1">
             {/* Sidebar toggle button */}
             <button
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              onClick={() => {
+                setIsSidebarOpen(!isSidebarOpen);
+                if (isSectionsOpen) setIsSectionsOpen(false);
+              }}
               className={`p-1.5 rounded-lg border transition-colors flex items-center gap-1.5 text-xs font-mono shrink-0 cursor-pointer ${
                 isSidebarOpen
                   ? 'bg-[#1B4D3C] border-[#274E3E] text-[#FAF8F3] font-semibold'
                   : 'bg-[#16352A] border-[#234A3C] text-[#FAF8F3] hover:bg-[#1D4436]'
               }`}
-              title="Toggle Chapters & Sections Sidebar"
-              aria-label="Toggle Chapters & Sections Sidebar"
+              title="Toggle Chapters Sidebar"
+              aria-label="Toggle Chapters Sidebar"
             >
               <BookOpen className="w-3.5 h-3.5 text-[#C59B4B]" />
               <span className="hidden md:inline font-sans font-medium text-[#FAF8F3]">Chapters</span>
               <span className="text-[10px] text-[#A1B8A9] font-mono">({allChapters.length})</span>
             </button>
+
+            {/* Sections Menu Toggle Button */}
+            {currentChapter.sections.length > 0 && (
+              <button
+                onClick={() => {
+                  setIsSectionsOpen(!isSectionsOpen);
+                  if (isSidebarOpen) setIsSidebarOpen(false);
+                }}
+                className={`p-1.5 rounded-lg border transition-colors flex items-center gap-1.5 text-xs font-mono shrink-0 cursor-pointer ${
+                  isSectionsOpen
+                    ? 'bg-[#1B4D3C] border-[#274E3E] text-[#FAF8F3] font-semibold'
+                    : 'bg-[#16352A] border-[#234A3C] text-[#FAF8F3] hover:bg-[#1D4436]'
+                }`}
+                title="Toggle Sections Menu (S)"
+                aria-label="Toggle Sections Menu"
+              >
+                <span className="text-[#C59B4B] font-bold text-xs">§</span>
+                <span className="hidden sm:inline font-sans font-medium text-[#FAF8F3]">Sections</span>
+                <span className="text-[10px] text-[#A1B8A9] font-mono">({currentChapter.sections.length})</span>
+                <span className="text-[9px] text-[#A1B8A9]">{isSectionsOpen ? '◀' : '▶'}</span>
+              </button>
+            )}
 
             <div className="h-3.5 w-px bg-[#234A3C] shrink-0" />
 
@@ -558,6 +595,141 @@ export function Shelf007ContinuousReader({
         </>
       )}
 
+      {/* Far Left Collapsible Sections Menu Tab (Sticky/Floating anytime on the page) */}
+      {!isSectionsOpen && currentChapter.sections.length > 0 && (
+        <button
+          type="button"
+          onClick={() => setIsSectionsOpen(true)}
+          className="fixed left-0 top-28 z-40 bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] border-y border-r border-[#2A4D3E] py-2 px-2.5 rounded-r-xl shadow-lg flex items-center gap-2 text-xs font-mono transition-all duration-200 group cursor-pointer hover:pl-3"
+          title="Open Chapter Sections (S)"
+          aria-label="Open Chapter Sections"
+        >
+          <span className="text-[#C59B4B] font-bold text-sm">§</span>
+          <span className="font-sans font-medium hidden md:inline text-xs">Sections</span>
+          <span className="text-[10px] text-[#A1B8A9] bg-[#16352A] px-1.5 py-0.5 rounded border border-[#234A3C]">
+            {activeSectionIndex + 1}/{currentChapter.sections.length}
+          </span>
+          <ChevronRight className="w-3.5 h-3.5 text-[#C59B4B] group-hover:translate-x-0.5 transition-transform" />
+        </button>
+      )}
+
+      {/* Collapsible Left Sections Drawer */}
+      {isSectionsOpen && (
+        <>
+          {/* Subtle Backdrop (click to collapse) */}
+          <div
+            onClick={() => setIsSectionsOpen(false)}
+            className="fixed inset-0 bg-black/30 backdrop-blur-2xs z-50 transition-opacity"
+            aria-hidden="true"
+          />
+
+          {/* Left Drawer Panel */}
+          <aside
+            className="fixed left-0 top-0 bottom-0 w-80 sm:w-92 max-w-[88vw] z-50 bg-[#FFFFFF] text-[#10251F] flex flex-col shadow-2xl border-r border-[#E0D9CB] select-none animate-in slide-in-from-left duration-200"
+            style={{ transform: 'none' }}
+          >
+            {/* Panel Header */}
+            <div className="p-3.5 sm:p-4 border-b border-[#E0D9CB] bg-[#F7F5EE] flex items-center justify-between gap-3">
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-2">
+                  <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold bg-[#10251F] text-[#FAF8F3]">
+                    § CHAPTER SECTIONS
+                  </span>
+                  <span className="text-xs font-mono text-[#5A7365]">
+                    {currentChapter.sections.length} sections
+                  </span>
+                </div>
+                <h2 className="font-serif font-bold text-sm text-[#10251F] leading-snug truncate mt-1">
+                  {currentChapter.shortTitle}
+                </h2>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setIsSectionsOpen(false)}
+                className="px-2 py-1 rounded-lg text-xs font-mono text-[#5A7365] hover:text-[#10251F] hover:bg-[#EAE4D7] border border-transparent hover:border-[#DCD5C5] transition-colors cursor-pointer flex items-center gap-1 shrink-0"
+                title="Collapse Menu (Esc or S)"
+                aria-label="Collapse Menu"
+              >
+                <span>◀</span>
+                <span className="hidden sm:inline">Collapse</span>
+              </button>
+            </div>
+
+            {/* Current Active Section Status Indicator */}
+            <div className="px-3 py-2 bg-[#FAF9F4] border-b border-[#E0D9CB] flex items-center justify-between text-xs font-mono text-[#5A7365]">
+              <span className="flex items-center gap-1.5 truncate">
+                <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse shrink-0" />
+                <span className="truncate">Active: Section {activeSectionIndex + 1} of {currentChapter.sections.length}</span>
+              </span>
+              <span className="text-[10px] text-[#9E722C] font-semibold shrink-0">
+                {Math.round(((activeSectionIndex + 1) / currentChapter.sections.length) * 100)}%
+              </span>
+            </div>
+
+            {/* Vertical Sections List */}
+            <nav className="flex-1 overflow-y-auto p-2.5 space-y-1 text-xs">
+              {currentChapter.sections.map((sec, idx) => {
+                const isActive = idx === activeSectionIndex;
+                const label = formatSectionButtonLabel(sec.title);
+
+                return (
+                  <button
+                    key={sec.id}
+                    type="button"
+                    onClick={() => scrollToSection(idx)}
+                    className={`w-full text-left p-2.5 rounded-lg text-xs transition-all flex items-start gap-2.5 cursor-pointer border ${
+                      isActive
+                        ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] shadow-2xs font-medium'
+                        : 'bg-[#FFFFFF] text-[#2B3B33] hover:bg-[#F7F5EE] hover:text-[#10251F] border-[#E8E2D5]'
+                    }`}
+                    title={sec.title}
+                  >
+                    <span
+                      className={`font-mono text-[11px] font-bold shrink-0 mt-0.5 px-1.5 py-0.5 rounded ${
+                        isActive
+                          ? 'bg-[#1B4D3C] text-[#E8C582]'
+                          : 'bg-[#FAF9F4] text-[#9E722C] border border-[#E0D9CB]'
+                      }`}
+                    >
+                      § {idx + 1}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-serif leading-snug line-clamp-2">
+                        {label}
+                      </div>
+                      <div className={`text-[10px] font-mono mt-1 ${isActive ? 'text-[#A1B8A9]' : 'text-[#8A9E92]'}`}>
+                        {sec.wordCount ? `${sec.wordCount} words` : `Unit ${idx + 1}`}
+                      </div>
+                    </div>
+                    {isActive && (
+                      <span className="text-[#E8C582] text-xs font-mono font-bold shrink-0 mt-0.5">
+                        ●
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </nav>
+
+            {/* Footer with collapse button & keyboard shortcuts */}
+            <div className="p-3 border-t border-[#E0D9CB] bg-[#F7F5EE] flex items-center justify-between text-[11px] font-mono text-[#5A7365]">
+              <button
+                type="button"
+                onClick={() => setIsSectionsOpen(false)}
+                className="w-full py-1.5 px-3 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] text-[#10251F] font-semibold border border-[#E0D9CB] transition-colors flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs"
+              >
+                <span>◀</span>
+                <span>Collapse Sections Menu</span>
+                <kbd className="ml-1 px-1 py-0.2 bg-[#F0EDE4] border border-[#D5CDC0] rounded text-[10px] text-[#5A7365]">
+                  Esc
+                </kbd>
+              </button>
+            </div>
+          </aside>
+        </>
+      )}
+
       {/* Main Content Body: Centered right in the viewport center, perfectly aligned with header */}
       <div className="w-full flex-1">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 space-y-6">
@@ -607,54 +779,6 @@ export function Shelf007ContinuousReader({
                 📝 ~{(currentChapter.wordCount / 1000).toFixed(1)}k words
               </span>
             </div>
-
-            {/* Quick Direct Section Jump Bar in Chapter Hero */}
-            {currentChapter.sections.length > 1 && (
-              <div className="pt-2.5 border-t border-[#E0D9CB] space-y-2">
-                <div className="flex items-center justify-between text-xs font-mono">
-                  <span className="font-semibold text-[#10251F] text-[11px] flex items-center gap-1.5">
-                    <span className="text-[#9E722C] font-bold">§</span>
-                    <span>Select Section ({currentChapter.sections.length}):</span>
-                  </span>
-                  <span className="text-[10px] text-[#5A7365]">
-                    Active: Section {activeSectionIndex + 1}
-                  </span>
-                </div>
-
-                <div className="flex flex-wrap gap-1.5">
-                  {currentChapter.sections.map((sec, idx) => {
-                    const label = formatSectionButtonLabel(sec.title);
-                    const isActive = idx === activeSectionIndex;
-                    return (
-                      <button
-                        key={sec.id}
-                        type="button"
-                        onClick={() => scrollToSection(idx)}
-                        title={`Jump directly to Section ${idx + 1}: ${sec.title}`}
-                        className={`group/secbtn inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-mono transition-all duration-150 shadow-2xs cursor-pointer border active:scale-95 ${
-                          isActive
-                            ? 'bg-[#10251F] text-[#FAF8F3] border-[#10251F] font-semibold'
-                            : 'bg-[#FAF9F4] text-[#2B3B33] hover:bg-[#10251F] hover:text-[#FAF8F3] border-[#E0D9CB] hover:border-[#10251F]'
-                        }`}
-                      >
-                        <span
-                          className={`text-[10px] font-bold shrink-0 ${
-                            isActive
-                              ? 'text-[#E8C582]'
-                              : 'text-[#9E722C] group-hover/secbtn:text-[#E8C582]'
-                          }`}
-                        >
-                          § {idx + 1}
-                        </span>
-                        <span className="font-sans font-medium text-[11px] leading-tight truncate max-w-[160px] sm:max-w-[210px]">
-                          {label}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
           </section>
 
           {/* Sections Rendered Sequentially as Textbook Sections */}
