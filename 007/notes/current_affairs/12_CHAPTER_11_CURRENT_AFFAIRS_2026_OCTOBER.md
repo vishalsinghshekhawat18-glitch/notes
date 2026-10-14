@@ -91,26 +91,79 @@ D. 18 months
 
 ---
 
-[OCT-002] **Ministry of Finance Freezes Small Savings Schemes (SSS) Interest Rates for Q3 FY2026-27**
-- **Quarterly Determination & Formulaic Anchor**:
-  - Department of Economic Affairs (DEA), Ministry of Finance, maintained unchanged interest rates for Q3 FY2026-27 (**October 1 to December 31, 2026**).
-  - Rates track secondary market G-Sec yields of matching tenures plus a **25 to 100 bps spread** recommended by the **Shyamala Gopinath Committee (2010)**.
-- **Operative SSS Rate Schedule**:
-  - **Senior Citizens’ Savings Scheme (SCSS)**: **8.2%** (Quarterly payout; ₹30 Lakh maximum deposit; age 60+).
-  - **Sukanya Samriddhi Account (SSA)**: **8.2%** (Annual compound; max ₹1.5L/year; girl child up to 10 years; matures after 21 years).
-  - **National Savings Certificate (NSC VIII Issue)**: **7.7%** (5-year tenure).
-  - **Kisan Vikas Patra (KVP)**: **7.5%** (Doubles deposit in **115 months** / 9 years, 7 months).
-  - **Post Office Monthly Income Scheme (POMIS)**: **7.4%** (Cap: **₹9 Lakh Single**, **₹15 Lakh Joint**).
-  - **Public Provident Fund (PPF)**: **7.1%** (15-year statutory tenure; ₹500 min, ₹1.5L max/year).
-  - **Post Office Time Deposits (POTD)**: 1-Yr: **6.9%** | 2-Yr: **7.0%** | 3-Yr: **7.1%** | 5-Yr: **7.5%**.
-  - **5-Year Recurring Deposit (RD)**: **6.7%** | **Savings Account**: **4.0%**.
+[OCT-002] **Small Savings Schemes — Interest Rates Frozen for Q3 FY 2026–27**
 
-**EXAM ANGLE:**
-- Highest Rate: **8.2%** shared equally by **SCSS and Sukanya Samriddhi**.
-- KVP Doubling Time: Exactly **115 months** (7.5%).
-- SCSS Deposit Ceiling: **₹30 Lakh** (extendable in blocks of 3 years).
-- POMIS Single vs Joint Cap: **₹9 Lakh** (Single) vs **₹15 Lakh** (Joint).
-- Advisory Body: **Shyamala Gopinath Committee (2010)**.
+### 1. Government decision
+
+The Department of Economic Affairs (DEA), Ministry of Finance, retained the existing interest rates on Small Savings Schemes (SSS) for **Q3 FY 2026–27: 1 October–31 December 2026**.
+
+- **Decision date:** 30 September 2026.
+- **Change in rates:** None; rates remain unchanged from Q2 FY 2026–27.
+- **Policy framework:** Small-savings rates are linked to Government Securities (G-Sec) yields of comparable maturities, with scheme-specific spreads. The Shyamala Gopinath Committee (2010) informed this market-linked framework.
+
+### 2. Complete interest-rate schedule
+
+All rates are **per annum**.
+
+| Scheme | Rate | Important feature |
+|---|---:|---|
+| Senior Citizens' Savings Scheme (SCSS) | **8.2%** | Quarterly interest payout; maximum deposit ₹30 lakh; generally for individuals aged 60+ |
+| Sukanya Samriddhi Account (SSA) | **8.2%** | Annual compounding; maximum deposit ₹1.5 lakh per financial year; girl child below 10 at account opening; maturity after 21 years |
+| National Savings Certificate (NSC VIII Issue) | **7.7%** | 5-year tenure |
+| Kisan Vikas Patra (KVP) | **7.5%** | Investment doubles in 115 months |
+| Post Office Monthly Income Scheme (POMIS) | **7.4%** | Monthly interest payout; maximum ₹9 lakh for a single account and ₹15 lakh for a joint account |
+| Public Provident Fund (PPF) | **7.1%** | 15-year tenure; minimum ₹500 and maximum ₹1.5 lakh deposited annually |
+| Post Office Time Deposit — 1 year | **6.9%** | 1-year tenure |
+| Post Office Time Deposit — 2 years | **7.0%** | 2-year tenure |
+| Post Office Time Deposit — 3 years | **7.1%** | 3-year tenure |
+| Post Office Time Deposit — 5 years | **7.5%** | 5-year tenure |
+| 5-Year Recurring Deposit (RD) | **6.7%** | Regular instalment-based saving |
+| Post Office Savings Account | **4.0%** | Savings deposit |
+
+**SCSS extension:** The account can be extended in blocks of three years, subject to the scheme's rules.
+
+### 3. High-value exam facts
+
+**Highest interest rate:** 8.2%, shared by SCSS and Sukanya Samriddhi.
+
+**KVP doubling period:** 115 months = **9 years and 7 months**, at 7.5%.
+
+**SCSS deposit limit:** ₹30 lakh.
+
+**POMIS account limits:**
+- Single: ₹9 lakh
+- Joint: ₹15 lakh
+
+**PPF annual deposit ceiling:** ₹1.5 lakh.
+
+**SSS rate-setting framework:** G-Sec yields of comparable maturity plus scheme-specific spreads; Shyamala Gopinath Committee, 2010.
+
+### 4. Quick memory pattern
+
+Remember the leading rates as:
+
+**8.2 → 7.7 → 7.5 → 7.4 → 7.1**
+
+- **8.2%:** SCSS and SSA
+- **7.7%:** NSC
+- **7.5%:** KVP and 5-year Time Deposit
+- **7.4%:** POMIS
+- **7.1%:** PPF and 3-year Time Deposit
+
+The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-year Time Deposit, 6.7% for the 5-year RD, and 4.0% for the Savings Account.
+
+#### Practice MCQ
+
+Which Small Savings Schemes offer the highest listed interest rate for Q3 FY 2026–27?
+
+A. PPF and NSC  
+B. SCSS and Sukanya Samriddhi  
+C. KVP and POMIS  
+D. SCSS and PPF
+
+**Answer: B — SCSS and Sukanya Samriddhi, both at 8.2%.**
+
+**Official sources:** [DEA — Small Savings and Interest Rates](https://dea.gov.in/budget-division/475) | [India Post — Savings Schemes and Rates](https://www.indiapost.gov.in/banking-services/savings) | [Government of India — G-Sec linkage and Shyamala Gopinath Committee background](https://dea.gov.in/files/other_reports_documents/govt_debt_2012.pdf)
 
 ---
 
