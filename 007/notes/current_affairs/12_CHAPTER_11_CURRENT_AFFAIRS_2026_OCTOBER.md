@@ -4,18 +4,13 @@
 
 ## 1. 🏛️ REGULATORY BODIES, BANKING & FINANCIAL MARKETS
 
-[OCT-001] **RBI FEMA Regulations, 2026: Export Realisation Timelines Tightened**
-
-### 1. What changed?
-
-The Reserve Bank of India (RBI) introduced the **Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026**, which came into force on **1 October 2026**.
+[OCT-001] **RBI Enforces FEMA Regulations, 2026 (Effective 1 Oct 2026): Slashed Export Realisation Windows**
 
 - **Supersedes:** FEMA (Export of Goods & Services) Regulations, 2015.
-- **Scope:** A unified framework covering exports of goods, services and software; the regulations define services to include software.
-- **Key change:** Export proceeds must generally be realised and repatriated within shorter periods.
-- **Amendment:** The September 2026 amendment reduced the standard realisation periods from 15 to 9 months and the INR-related period from 18 to 12 months.
+- **Scope:** A unified framework covering exports of goods, services, and software (services defined to include software).
+- **Core Realisation Timelines Reduced:** Standard realisation periods cut from 15 to **9 months**; INR-invoiced/settled periods cut from 18 to **12 months** (September 2026 amendment).
 
-### 2. Export Declaration Form (EDF)
+### 1. Export Declaration Form (EDF)
 
 | Export category | Declaration requirement |
 |---|---|
@@ -25,7 +20,7 @@ The Reserve Bank of India (RBI) introduced the **Foreign Exchange Management (Ex
 
 An Authorised Dealer (AD) may extend the service-EDF filing period upon a request explaining the delay, if satisfied with the reasons.
 
-### 3. Export realisation and repatriation deadlines
+### 2. Export realisation and repatriation deadlines
 
 The **realisation period** is the time allowed to receive export proceeds and repatriate them to India.
 
@@ -40,7 +35,7 @@ The **realisation period** is the time allowed to receive export proceeds and re
 
 An AD may extend the specified realisation period on the exporter's request if the reasons for the delay are considered satisfactory.
 
-### 4. Simplified closure of EDPMS and IDPMS entries
+### 3. Simplified closure of EDPMS and IDPMS entries
 
 EDPMS = Export Data Processing and Monitoring System  
 IDPMS = Import Data Processing and Monitoring System
@@ -54,7 +49,7 @@ The relevant declaration may also be submitted quarterly for bulk closure of ent
 
 **Exam distinction:** EDPMS = exporter; IDPMS = importer.
 
-### 5. Restriction on exporters with long-overdue proceeds
+### 4. Restriction on exporters with long-overdue proceeds
 
 If export proceeds remain unrealised for **more than one year beyond the due date**, or beyond an extended due date allowed by the AD, the exporter must undertake further exports only against:
 
@@ -63,7 +58,7 @@ If export proceeds remain unrealised for **more than one year beyond the due dat
 
 This is a restriction on the payment terms permitted for subsequent exports, rather than a rule that automatically imposes a monetary penalty.
 
-### 6. Exam revision card
+### 5. Exam revision card
 
 - **Effective date:** 1 October 2026
 - **Standard export realisation:** 9 months
@@ -72,22 +67,6 @@ This is a restriction on the payment terms permitted for subsequent exports, rat
 - **Simplified closure threshold:** ₹10 lakh or less
 - **Long-overdue export proceeds:** More than 1 year beyond the due date or permitted extended date
 - **Permitted terms for further exports:** Full advance or irrevocable LC
-
-#### Practice MCQ
-
-**Under the FEMA (Export and Import of Goods and Services) Regulations, 2026, within what period must export proceeds for exports invoiced and/or settled in Indian rupees generally be realised and repatriated?**
-
-A. 6 months  
-B. 9 months  
-C. 12 months  
-D. 18 months
-
-**Answer: C. 12 months.**
-
-#### Official sources
-
-1. [RBI — Consolidated 2026 Regulations, amended up to 22 September 2026](https://m.rbi.org.in/scripts/BS_FemaNotifications.aspx?Id=13277)
-2. [RBI — Amendment Regulations dated 22 September 2026](https://m.rbi.org.in/scripts/BS_FemaNotifications.aspx?Id=13714)
 
 ---
 
