@@ -18,20 +18,22 @@
 ## 0. ️ MASTER STATIC BANKING & REGULATORY FOUNDATIONS
 
 [MS-001] **Financial Message Codes, Identifiers & Standard Formats (UTR, IFSC, MICR, LEI, SWIFT)**
-- **RTGS UTR (Unique Transaction Reference)**: Exactly **22 alphanumeric characters**; canonically structured under RBI RTGS System Regulations as: **4-character Bank IFSC (`XXXX`)** + **1-character System code (`R` for RTGS)** + **1-character Channel identifier (`C` for customer payment, `I` for inter-bank, `P` for participant)** + **8-digit Date (`YYYYMMDD`)** + **8-digit unique sequential running number (`nnnnnnnn`)** (Decomposition: 4 + 1 + 1 + 8 + 8 = 22 characters).
-- **NEFT UTR (Unique Transaction Reference)**: Exactly **16 alphanumeric characters**; generated uniquely for interbank batch electronic clearing.
-- **IFSC (Indian Financial System Code)**: Exactly **11 alphanumeric characters** used in NEFT, RTGS, and IMPS; First 4 characters = Bank identity; **5th character is permanently fixed as '0' (zero)** reserved for future expansion; Last 6 characters = Branch identity (alphanumeric).
-- **MICR (Magnetic Ink Character Recognition)**: Exactly **9 numeric digits** printed at the bottom of cheques using magnetic ink; First 3 digits = **City Code** (matches first 3 digits of postal PIN code); Middle 3 digits = **Bank Code**; Last 3 digits = **Branch Code**.
-- **LEI (Legal Entity Identifier)**: Exactly **20 alphanumeric characters** based on ISO 17442; globally unique identifier for legal entities participating in financial transactions; mandatory in India across two distinct regulatory regimes:
-  1. *Non-Individual Borrowers (RBI Circular RBI/2021-22/162)*: Mandatory for all non-individual entities with aggregate credit exposure **≥ ₹5 Crore** from Scheduled Commercial Banks, AIFIs, and NBFCs (fully phased in by April 30, 2025; entities without LEI are barred from renewal or enhancement of credit facilities).
-  2. *Cross-Border Financial Transactions (FEMA Directions)*: Mandatory for single cross-border transactions **≥ ₹50 Crore** in RTGS/NEFT for capital or current account transactions.
-- **SWIFT / BIC (Society for Worldwide Interbank Financial Telecommunication)**: **8 or 11 alphanumeric characters** based on ISO 9362 (4 letters = Bank code; 2 letters = Country code; 2 characters = Location code; 3 optional characters = Branch code); SWIFT international headquarters located in **La Hulpe, Belgium**.
-- **National Registry & Scheme Codes Matrix**:
-  - **PRAN (Permanent Retirement Account Number - PFRDA)**: **12 digits**.
-  - **UAN (Universal Account Number - EPFO)**: **12 digits**.
-  - **EPF Establishment Identification Code**: **22 alphanumeric characters**.
-  - **PAN (Permanent Account Number - CBDT)**: **10 alphanumeric characters**; 4th character denotes entity status (**'P' = Individual/Person**, 'C' = Company, 'F' = Firm, 'H' = HUF, 'A' = AOP, 'T' = Trust, 'B' = BOI, 'J' = Artificial Juridical Person).
-  - **GSTIN (Goods and Services Tax Identification Number)**: **15 alphanumeric characters**; First 2 digits = State Code (e.g., 07 for Delhi, 27 for Maharashtra); Next 10 digits = PAN of the entity.
+
+### Master Financial Identifiers & Codes Matrix
+
+| Code / Identifier | Length & Type | Canonical Structure & Decomposition | Regulatory Mandate & Application Threshold |
+| :--- | :--- | :--- | :--- |
+| **MICR** *(Magnetic Ink Character Recognition)* | **9** Numeric Digits | `3 (City Code / 1st 3 PIN digits)` + `3 (Bank Code)` + `3 (Branch Code)` | Printed at cheque bottom in magnetic ink (E-13B font) for automated clearing (CTS) under NI Act, 1881 |
+| **PAN** *(Permanent Account Number)* | **10** Alphanumeric | 5 Letters + 4 Digits + 1 Letter.<br>• **4th char** = Entity Status: `P` (Individual/Person), `C` (Company), `F` (Firm), `H` (HUF), `A` (AOP), `T` (Trust), `B` (BOI), `J` (Artificial Juridical Person)<br>• **5th char** = 1st letter of Holder's Surname / Entity Name | Statutory direct tax identification under Section 139A of Income-tax Act, 1961 (CBDT) |
+| **IFSC** *(Indian Financial System Code)* | **11** Alphanumeric | `4 (Bank Identity)` + **`0` (Fixed Zero, reserved for future use)** + `6 (Branch Identity)` | Mandatory routing code for electronic interbank clearing in NEFT, RTGS, and IMPS (RBI) |
+| **PRAN** *(Permanent Retirement Account Number)* | **12** Numeric Digits | Unique lifetime portable retirement account identifier | National Pension System (NPS) & Atal Pension Yojana (APY) under PFRDA |
+| **UAN** *(Universal Account Number)* | **12** Numeric Digits | Unique lifetime portable identifier for formal sector workforce | Mandatory account registry under Employees' Provident Fund Organisation (EPFO) |
+| **GSTIN** *(GST Identification Number)* | **15** Alphanumeric | `2 (State Code: e.g. 07 Delhi, 27 MH)` + `10 (PAN of Entity)` + `1 (Entity No)` + `1 ('Z' by default)` + `1 (Check digit)` | Statutory indirect tax registration under CGST / SGST / IGST Acts (CBIC) |
+| **NEFT UTR** *(Unique Transaction Reference)* | **16** Alphanumeric | Unique sequential identifier generated per interbank batch clearing transaction | National Electronic Funds Transfer (RBI half-hourly batch clearing system) |
+| **LEI** *(Legal Entity Identifier)* | **20** Alphanumeric | Global ISO 17442 standard identifier for entities participating in financial transactions | Dual Mandatory Regulatory Thresholds:<br>1. **Credit Exposure $\ge$ ₹5 Crore**: Non-individual borrowers across SCBs, AIFIs, NBFCs (barred from credit renewal/enhancement if missing)<br>2. **Single Remittance $\ge$ ₹50 Crore**: Cross-border transactions in RTGS/NEFT under FEMA |
+| **RTGS UTR** *(Unique Transaction Reference)* | **22** Alphanumeric | `4 (Bank IFSC)` + `1 ('R' for RTGS)` + `1 (Channel: 'C' Customer, 'I' Inter-bank, 'P' Participant)` + `8 (Date: YYYYMMDD)` + `8 (Sequential Running No: nnnnnnnn)` | Real-Time Gross Settlement system governed by RBI RTGS System Regulations |
+| **EPF Establishment ID** | **22** Alphanumeric | Region Code + Office Code + Establishment Code + Extension Code | EPFO employer establishment identification & compliance registry |
+| **SWIFT / BIC** *(Business Identifier Code)* | **8 or 11** Alphanumeric | `4 (Bank Code)` + `2 (Country Code: ISO 3166-1 alpha-2)` + `2 (Location Code)` + `[3 Optional Branch Code]` | Global financial messaging under ISO 9362; International Headquarters: **La Hulpe, Belgium** |
 
 **EXAM ANGLE:**
 
