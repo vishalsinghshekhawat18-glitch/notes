@@ -478,7 +478,6 @@ export function Shelf007AcademicTOC({
         <div className="space-y-10">
           {filteredGroups.map((group, groupIdx) => {
             const isRapidRev = group.partNumber === 'RAPID REVISION';
-            const isFrontMatter = group.partNumber === 'FRONT MATTER';
             const isChronoPart =
               group.partNumber === 'PART II' && subject.slug === 'current-affairs';
 
@@ -644,42 +643,6 @@ export function Shelf007AcademicTOC({
                         );
                       })}
                     </div>
-                  </div>
-                ) : isFrontMatter ? (
-                  /* =========================================================================
-                      CASE B: FRONT MATTER (Sleek Paired Folio Cards)
-                     ========================================================================= */
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {group.chapters.map((chapter) => (
-                      <article
-                        key={chapter.slug}
-                        className="bg-[#FFFFFF] border border-[#E0D9CB] hover:border-[#10251F] rounded-xl p-4 transition-all duration-150 group shadow-2xs hover:shadow-xs flex items-center justify-between gap-3"
-                      >
-                        <div className="flex items-center gap-3 min-w-0">
-                          <div className="w-9 h-9 rounded-lg bg-[#FAF9F4] border border-[#E0D9CB] flex items-center justify-center shrink-0 text-[#10251F]">
-                            <FileText className="w-4 h-4 text-[#9E722C]" />
-                          </div>
-                          <div className="min-w-0">
-                            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#5A7365] block">
-                              Front Matter
-                            </span>
-                            <Link
-                              href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                              className="font-serif font-bold text-sm sm:text-base text-[#10251F] hover:text-[#1B4D3C] transition-colors truncate block"
-                            >
-                              {chapter.title}
-                            </Link>
-                          </div>
-                        </div>
-
-                        <Link
-                          href={`/shelf-007/${subject.slug}/${chapter.slug}`}
-                          className="px-3 py-1.5 text-xs font-mono font-semibold text-[#10251F] bg-[#FAF9F4] hover:bg-[#10251F] hover:text-[#FAF8F3] border border-[#E0D9CB] rounded-lg transition-colors shadow-2xs shrink-0 cursor-pointer"
-                        >
-                          View Folio →
-                        </Link>
-                      </article>
-                    ))}
                   </div>
                 ) : isChronoPart && viewMode === 'detailed' ? (
                   /* =========================================================================

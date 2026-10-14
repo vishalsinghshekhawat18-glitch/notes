@@ -1416,7 +1416,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
   return items;
 }
 
-export function getShelf007PartGroups(
+function getRawShelf007PartGroups(
   subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan'
 ): Shelf007PartGroup[] {
   if (subject === 'rajasthan') {
@@ -2395,6 +2395,14 @@ export function getShelf007PartGroups(
   });
 }
 
+export function getShelf007PartGroups(
+  subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan'
+): Shelf007PartGroup[] {
+  const raw = getRawShelf007PartGroups(subject);
+  // Exclude printed-book front matter (cover, markdown table-of-contents) from web reading hub
+  return raw.filter((g) => g.partNumber !== 'FRONT MATTER');
+}
+
 export function getShelf007ChapterContent(
   subject: 'economics' | 'iibf-dbf' | 'political-science' | 'history' | 'quantitative-aptitude' | 'general-science' | 'geography' | 'english-language' | 'hindi' | 'current-affairs' | 'rajasthan',
   chapterSlug: string
@@ -2452,8 +2460,14 @@ export function getShelf007ChapterContent(
 
   const current = chapters[currentIdx];
   const content = fs.readFileSync(current.filePath, 'utf-8');
-  const prev = currentIdx > 0 ? chapters[currentIdx - 1] : null;
-  const next = currentIdx < chapters.length - 1 ? chapters[currentIdx + 1] : null;
+
+  // For web continuous reading, filter out book cover & TOC so prev/next traverse actual study chapters
+  const readingChapters = chapters.filter(
+    (c) => !['cover', 'table-of-contents'].includes(c.slug)
+  );
+  const readingIdx = readingChapters.findIndex((c) => c.slug === current.slug);
+  const prev = readingIdx > 0 ? readingChapters[readingIdx - 1] : null;
+  const next = readingIdx !== -1 && readingIdx < readingChapters.length - 1 ? readingChapters[readingIdx + 1] : null;
 
   return {
     subject,
@@ -2461,6 +2475,6 @@ export function getShelf007ChapterContent(
     content,
     prev,
     next,
-    allChapters: chapters,
+    allChapters: readingChapters.length > 0 ? readingChapters : chapters,
   };
 }

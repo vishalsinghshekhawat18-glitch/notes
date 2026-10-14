@@ -282,6 +282,7 @@ export function Shelf007ContinuousReader({
   };
 
   const filteredChapters = allChapters.filter((c) => {
+    if (c.slug === 'cover' || c.slug === 'table-of-contents') return false;
     if (!sidebarSearch.trim()) return true;
     const q = sidebarSearch.toLowerCase();
     return (
