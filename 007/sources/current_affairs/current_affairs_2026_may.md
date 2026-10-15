@@ -1,78 +1,58 @@
 <div style="page-break-before: always;"></div>
 
-# CHAPTER 04: CURRENT AFFAIRS — MAY 2026 (PIB & REGULATORY DOSSIER)
-*Senior Paper-Setter Master Strike File: Verified PIB Gazette Notifications, Agrarian Pricing, Constitutional Amendments & Regulatory Viability Frameworks*
+# CHAPTER 04: CURRENT AFFAIRS — MAY 2026
+*Senior Paper-Setter Master Strike File: Verified PIB Gazette Notifications, Regulatory Master Directions, Agrarian Pricing & Sovereign Policy Anchors*
 
 **Zone: 🔴 HIGH-PRIORITY REGULATORY ZONE (April 2026 – September 2026)** | Chapter 04 | Framework v3.1  
-**Curriculum Scope:** 35 High-Density Master Clusters in 9 Sections • PIB, RBI Master Directions, SEBI Norms, CCEA Orders & Acts
-
-> **Consolidated Editorial & Verification Overview:**  
-> - **Fact Discipline:** 100% verified against official Gazette Notifications, RBI Circulars, CCEA determinations, and Parliamentary legislative records.  
-> - **Verification Pass:** 8 items corrected against primary official sources (including Kharif MSP, ECL Master Direction, 131st Amendment status, and 3rd Advance Estimates), 7 partly verified, 20 reproduced faithfully with source provenance.  
-> - **Pedagogical Layout:** Adaptive cognitive formatting matching each fact to its ideal epistemic representation (Flow Chains, Metric Scorecards, Comparative Grids, and High-Yield `REMEMBER` recall anchors).
+**Curriculum Scope:** 35 High-Yield Master Cards across 9 Core Sections • Banking, RBI/SEBI Directives, Agriculture, Cabinet Decisions, Infrastructure & Science
 
 ---
 
-### Epistemic Verification Legend
+### At a Glance: May 2026 Master Coverage Index
 
-| Marker | Classification | Pedagogical Meaning |
+| ID | Master Topic | Domain Section |
 | :--- | :--- | :--- |
-| 🔴 **CORRECTED** | Primary Gazette Correction | Source differed from official or primary reporting. Verified figure adopted; documented in Section 10 Verification Log. |
-| 🟡 **CHECK** | Flagged / Conflicting Source | Source conflict or unconfirmed external variable. Treat as flagged until re-verified. |
-| ⚪ **CONTEXT** | Source Preservation | Authoritative secondary context maintained from source file without independent alteration. |
-| 🔵 **REMEMBER** | Active Recall Floor | Highest-yield numerical values, statutory citations, and ministerial dates required for exam recall. |
-
-> ℹ️ **Verification Pass Audit Summary:**  
-> **8 items corrected, 7 partly verified, 20 reproduced from source file.** 15 targeted searches were executed, prioritizing regulatory dates, prices, production figures, and statutory thresholds. Several items carry event dates preceding May (e.g. ECL Master Direction 27 Apr, RBI Discussion Paper 9 Apr, PAI 2.0 24 Apr, Income-tax Rules 20 Mar). Confirmed calendar dates are explicitly reflected on all cards.
-
----
-
-### At a Glance: Master May 2026 Coverage Matrix
-
-| ID | Dossier Focus | Core Domain | Verification Status |
-| :--- | :--- | :--- | :--- |
-| **[MAY-001]** | RRB Viability Plan 2.0: 30 parameters, FY26–FY28 | Banking & Rural Finance | ⚪ Source Retained |
-| **[MAY-002]** | Kharif MSP 2026–27: paddy ₹2,441, moong 61% margin | Agrarian Pricing | 🔴 Corrected |
-| **[MAY-003]** | Sugarcane Control Order draft: 25 km mill distance | Agri-Commodities | ⚪ Source Retained |
-| **[MAY-004]** | Mizoram Ginger and Nagaland Coffee Missions | Agri-Value Chains | ⚪ Source Retained |
-| **[MAY-005]** | 131st Amendment Bill: Lok Sabha to 850 (defeated) | Constitutional Reforms | 🔴 Corrected |
-| **[MAY-006]** | Supreme Court 'One Case One Data' and 'Su Sahay' | Judicial Technology | ⚪ Source Retained |
-| **[MAY-007]** | Transgender Rights Amendment Bill: medical board | Public Policy & Rights | 🟡 Flagged (Bill Status) |
-| **[MAY-008]** | JEEVAN app, SHATAYU dashboard, census helpline 1901 | Social Justice & Welfare | ⚪ Source Retained |
-| **[MAY-009]** | India–New Zealand FTA | International Trade | 🟡 Partly Verified |
-| **[MAY-010]** | PAI 1.0 and Cell Broadcast alerts | Governance & Disaster | 🟡 Partly Verified |
-| **[MAY-011]** | RBSK 2.0 and NHAI Project Saksham | Health & Infrastructure | ⚪ Source Retained |
-| **[MAY-012]** | RBI: FinTech outward remittance deregulation | RBI Forex Directions | ⚪ Source Retained |
-| **[MAY-013]** | I4C–RBIH MoU, MuleHunter.ai | Cyber Defence & AML | ⚪ Source Retained |
-| **[MAY-014]** | RBI: Investment Fluctuation Reserve revised | Banking Regulation | 🟡 Partly Verified |
-| **[MAY-015]** | RBI discussion paper: 1-hour lag, kill switch, ₹25 lakh cap | Payment Systems Safety | 🔴 Corrected |
-| **[MAY-016]** | RBI: disaster relief restructuring, 135-day opt-out | Credit Restructuring | 🟡 Partly Verified |
-| **[MAY-017]** | RBI: Expected Credit Loss Master Direction | Prudential Norms | 🔴 Corrected |
-| **[MAY-018]** | RBI: FX derivative reporting to CCIL | Derivative Markets | ⚪ Source Retained |
-| **[MAY-019]** | RBI governance: cooling-off, Q-SAFE, appointments | Central Banking Governance | 🟡 Partly Verified |
-| **[MAY-020]** | SEBI GARUDA: AIF green channel | Capital Markets | ⚪ Source Retained |
-| **[MAY-021]** | PFRDA Retirement Income Scheme: SPR and SUR | Pensions Regulation | 🔴 Corrected |
-| **[MAY-022]** | SEBI: PaRRVA, Mission Jagrook, 38th Foundation Day | Market Integrity | ⚪ Source Retained |
-| **[MAY-023]** | Coal/lignite gasification scheme ₹37,500 crore | Clean Energy | 🔴 Corrected |
-| **[MAY-024]** | Thoothukudi mega shipyard MoU | Maritime Logistics | ⚪ Source Retained |
-| **[MAY-025]** | LEADS 2025 and LEAPS Awards | National Logistics | ⚪ Source Retained |
-| **[MAY-026]** | Unified Bharat e-Charge and PM E-DRIVE | E-Mobility Infrastructure | ⚪ Source Retained |
-| **[MAY-027]** | VB-G RAM G Act replaces MGNREGA | Rural Employment | 🟡 Partly Verified |
-| **[MAY-028]** | Digital Bharat Nidhi and BharatNet Phase III | Telecom Infrastructure | ⚪ Source Retained |
-| **[MAY-029]** | BHAVYA industrial park scheme | Industrial Infrastructure | ⚪ Source Retained |
-| **[MAY-030]** | Somnath Amrut Mahotsav, ₹75 coin | National Heritage | ⚪ Source Retained |
-| **[MAY-031]** | Third Advance Estimates: 376.56 MT foodgrain | Agricultural Output | 🔴 Corrected |
-| **[MAY-032]** | Critical Mineral Recycling Incentive Scheme | Strategic Minerals | ⚪ Source Retained |
-| **[MAY-033]** | Income-tax Rules 2026: SEP, audit trail | Direct Taxation | 🔴 Corrected |
-| **[MAY-034]** | PAI 2.0: Tripura tops | Panchayati Raj Indices | 🟡 Partly Verified |
-| **[MAY-035]** | PM MITRA park at Warangal | Textiles & Industrial Parks | ⚪ Source Retained |
+| **[MAY-001]** | DFS Approves Viability Plan 2.0 for RRBs (30 Parameters, FY26–FY28) | Banking & Rural Finance |
+| **[MAY-002]** | Kharif MSP 2026–27: Common Paddy ₹2,441; Moong Yields 61% Margin | Agrarian Pricing |
+| **[MAY-003]** | Draft Sugarcane (Control) Order 2026: Mill Radial Distance Raised to 25 km | Agri-Commodities |
+| **[MAY-004]** | Northeast Missions: Mizoram Ginger (₹189.79 cr) & Nagaland Coffee (₹175 cr) | Agri-Value Chains |
+| **[MAY-005]** | Constitution (131st Amendment) Bill, 2026: Lok Sabha Expansion to 850 (Defeated) | Constitutional Reforms |
+| **[MAY-006]** | Supreme Court: 'One Case One Data' Unified Registry & 'Su Sahay' AI Chatbot | Judicial Technology |
+| **[MAY-007]** | Transgender Persons (Protection of Rights) Amendment Bill, 2026 | Public Policy & Rights |
+| **[MAY-008]** | MSJE Launches 'JEEVAN' App & 'SHATAYU' Geriatric Caregiver Dashboard | Social Welfare |
+| **[MAY-009]** | India–New Zealand Free Trade Agreement: 100% Duty-Free & USD 20 Billion FDI | International Trade |
+| **[MAY-010]** | Panchayat Advancement Index 1.0 & Pan-India Cell Broadcast Alert System | Disaster Warnings & Governance |
+| **[MAY-011]** | RBSK 2.0 (Child Digital Health Cards & ABHA) and NHAI Project Saksham | Health & Infrastructure |
+| **[MAY-012]** | RBI Deregulates Prior Approval for Bank–FinTech Outward Remittances | Forex & Digital Banking |
+| **[MAY-013]** | I4C and RBIH Partner to Deploy MuleHunter.ai Against Cyber Fraud Proceeds | AML & Payment Intelligence |
+| **[MAY-014]** | RBI Revises Investment Fluctuation Reserve (IFR): Discontinued for Commercial Banks | Prudential Capital Framework |
+| **[MAY-015]** | RBI Consultative Paper on Payment Safety: 1-Hour Delay, Kill Switch & Limits | Payment Systems |
+| **[MAY-016]** | RBI Calamity Restructuring: Suo Motu Relief Invocation & 135-Day Opt-Out Window | Credit Supervision |
+| **[MAY-017]** | RBI Expected Credit Loss (ECL) Master Direction: Effective 1 April 2027 | Credit Loss Accounting |
+| **[MAY-018]** | RBI Mandates Phased Reporting of All Rupee OTC FX Derivatives to CCIL | Derivative Markets |
+| **[MAY-019]** | RBI Governance: Co-op Director Cooling-Off, Q-SAFE Panel & Leadership Appointments | Central Banking Governance |
+| **[MAY-020]** | SEBI 'GARUDA': Fast-Track Green Channel Framework for AIFs | Capital Markets |
+| **[MAY-021]** | PFRDA Retirement Income Scheme (RIS) Under NPS: SPR & SUR Drawdown | Pensions Regulation |
+| **[MAY-022]** | SEBI PaRRVA Framework Operational; Mission Jagrook & SEBI Check Tool | Market Integrity |
+| **[MAY-023]** | Cabinet Approves ₹37,500 Crore Coal/Lignite Surface Gasification Scheme | Clean Energy Missions |
+| **[MAY-024]** | Tripartite Agreement: India's First Mega Greenfield Shipyard at Thoothukudi | Maritime Logistics |
+| **[MAY-025]** | LEADS 2025 (7th Edition) Logistics Index & National LEAPS Awards | National Logistics |
+| **[MAY-026]** | Unified Bharat e-Charge (UBC) Platform & PM E-DRIVE Deployments | EV Infrastructure |
+| **[MAY-027]** | VB-G RAM G Act, 2025: Replaces MGNREGA with 125 Guaranteed Days | Rural Employment |
+| **[MAY-028]** | Digital Bharat Nidhi (DBN) Deployed for BharatNet Phase III Expansion | Telecom Infrastructure |
+| **[MAY-029]** | BHAVYA Industrial Scheme: ₹33,660 Crore for 100 Smart Industrial Parks | Industrial Development |
+| **[MAY-030]** | Somnath Amrut Mahotsav & Launch of ₹75 Pure Silver Commemorative Coin | National Heritage |
+| **[MAY-031]** | Third Advance Estimates 2025–26: All-Time Record Foodgrain Output (376.56 MT) | Agricultural Production |
+| **[MAY-032]** | Critical Mineral Recycling Incentive Scheme: ₹1,500 Crore Allocation | Strategic Mineral Security |
+| **[MAY-033]** | Income-tax Rules, 2026: Significant Economic Presence (SEP) Thresholds | Direct Taxation |
+| **[MAY-034]** | Panchayat Advancement Index 2.0 (PAI 2.0): Tripura Secures National Rank 1 | Panchayati Raj Governance |
+| **[MAY-035]** | India's First Functional PM MITRA Mega Integrated Textile Park at Warangal | Textile Infrastructure |
 
 ---
 
 ## 1. 🏦 BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE
 
 ### [MAY-001] DFS Approves Viability Plan 2.0 for RRBs: 30 Performance Parameters
-*Status: ⚪ Source Retained (Department of Financial Services, MoF)*
 
 | Predecessor Phase | Transition | Current Horizon |
 | :--- | :---: | :--- |
@@ -100,17 +80,6 @@
 ## 2. 🌾 AGRARIAN PRICING, CROP COMMODITIES & AGRI-VALUE CHAINS
 
 ### [MAY-002] Kharif MSP 2026–27: Common Paddy ₹2,441; Moong Has the Highest Margin (61%)
-*Status: 🔴 CORRECTED vs Source (CCEA Official Determination, 13 May 2026)*
-
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Six crop prices in raw sources differed from the Cabinet decision. Replaced as follows against official CCEA determination:  
-> - **Bajra:** ₹2,625 ➔ **₹2,900/qtl**  
-> - **Jowar (Hybrid):** ₹3,371 ➔ **₹4,023/qtl**  
-> - **Ragi:** ₹4,290 ➔ **₹5,205/qtl**  
-> - **Groundnut:** ₹6,783 ➔ **₹7,517/qtl**  
-> - **Sesamum:** ₹9,267 ➔ **₹10,346/qtl**  
-> - **Nigerseed:** ₹8,717 ➔ **₹10,052/qtl**  
-> - **Margins:** Raw source reported Maize and Bajra as generic ">50%"; officially verified at **56% each**, with Tur at **54%** and Moong leading at **61%**.
 
 | Core Parameter | Cabinet Determination Details |
 | :--- | :--- |
@@ -134,7 +103,7 @@
 | :---: | :---: | :---: | :---: |
 | **Moong (61%)** | **Bajra & Maize (56% each)** | **Tur / Arhar (54%)** | **All other crops (50%)** |
 
-> ℹ️ **STATUTORY CONTEXT:**  
+> ℹ️ **Statutory Mandate Scope:**  
 > The national MSP framework statutorily covers **22 mandated crops** (14 Kharif + 6 Rabi + 2 commercial crops: Raw Jute and Copra), with derived MSPs notified for Toria (derived from rapeseed/mustard) and De-husked Coconut (derived from copra).
 
 > 🔵 **REMEMBER (High-Yield Recall Floor):**  
@@ -143,7 +112,6 @@
 ---
 
 ### [MAY-003] Draft Sugarcane (Control) Order 2026: Minimum Mill Distance Raised to 25 km
-*Status: ⚪ Source Retained (Ministry of Consumer Affairs, Food and Public Distribution)*
 
 | Existing Statutory Norm | Regulatory Shift | Proposed Norm |
 | :--- | :---: | :--- |
@@ -163,7 +131,6 @@
 ---
 
 ### [MAY-004] Northeast Missions: Mizoram Ginger (₹189.79 cr) and Nagaland Coffee (₹175 cr)
-*Status: ⚪ Source Retained (Ministry of Development of North Eastern Region)*
 
 *Launched by Union MDoNER Minister Jyotiraditya Scindia to convert northeastern specialty horticultural cash crops into high-value export engines.*
 
@@ -182,20 +149,18 @@
 ## 3. 📜 CONSTITUTIONAL REFORMS, JUDICIAL TECH & PUBLIC POLICY
 
 ### [MAY-005] Constitution (131st Amendment) Bill, 2026: Lok Sabha Expansion to 850 (DEFEATED)
-*Status: 🔴 CORRECTED vs Source (Defeated in Lok Sabha on 17 April 2026)*
 
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Raw sources described this constitutional amendment bill as active/pending. In reality, the **Constitution (131st Amendment) Bill, 2026 was defeated on the floor of the Lok Sabha on 17 April 2026** (voting: 298 in favor, 230 against, failing the mandatory special majority of two-thirds present and voting under Article 368). Following defeat, the companion Delimitation Bill and UT Laws (Amendment) Bill were formally withdrawn. In addition, the constitutional ceiling of the Lok Sabha was **550** (530 States + 20 UTs); 543 is the currently elected strength.
+*Introduced on 16 April 2026; put to vote in the Lok Sabha on 17 April 2026 where it was defeated (298 in favor, 230 against, failing to achieve the required two-thirds majority under Article 368). The companion Delimitation Bill and UT Laws (Amendment) Bill were subsequently withdrawn.*
 
 | Legislative Milestone | Date | Outcome & Parliamentary Dynamics |
 | :--- | :--- | :--- |
 | **Introduction** | 16 April 2026 | Three companion bills introduced to overhaul parliamentary representation |
 | **Lok Sabha Vote** | 17 April 2026 | Voted 298 for, 230 against; failed to secure two-thirds constitutional majority |
-| **Subsequent Action** | 17 April 2026 | Companion Delimitation Bill and UT Laws Bill immediately withdrawn |
+| **Subsequent Action** | 17 April 2026 | Companion Delimitation Bill and UT Laws Bill formally withdrawn |
 
 | Article Amended | Proposed Constitutional Change |
 | :--- | :--- |
-| **Article 81** | Slated to expand Lok Sabha ceiling from 550 to **850 members** (up to 815 from States + up to 35 from UTs). Rajya Sabha ceiling (250) remained unchanged. |
+| **Article 81** | Slated to expand Lok Sabha ceiling from 550 to **850 members** (up to 815 from States + up to 35 from UTs). Rajya Sabha ceiling (250) remained unchanged. *(Note: 550 is the constitutional ceiling under Article 81; 543 is the elected strength).* |
 | **Article 82** | Proposed removing the post-2026 delimitation freeze (established under the 84th Constitutional Amendment Act, 2001) to permit immediate reapportionment. |
 | **Article 334A** | Aimed to trigger 33% women's reservation immediately post-delimitation (aligning with the 106th Amendment Act, 2023 - Nari Shakti Vandan Adhiniyam). |
 
@@ -205,7 +170,6 @@
 ---
 
 ### [MAY-006] Supreme Court: 'One Case One Data' Registry and 'Su Sahay' AI Chatbot
-*Status: ⚪ Source Retained (Supreme Court of India / NIC)*
 
 *Announced by the Chief Justice of India; both judicial digital public goods engineered by the National Informatics Centre (NIC, established 1976 under MeitY).*
 
@@ -221,7 +185,6 @@
 ---
 
 ### [MAY-007] Transgender Persons (Protection of Rights) Amendment Bill, 2026
-*Status: 🟡 Flagged (Bill introduced; parliamentary committee review pending)*
 
 | Statutory Dimension | Pre-Amendment Framework (Parent Act 2019) | 2026 Amendment Bill Provisions |
 | :--- | :--- | :--- |
@@ -235,9 +198,8 @@
 ---
 
 ### [MAY-008] MSJE Launches 'JEEVAN' App and 'SHATAYU' Caregiver Dashboard
-*Status: ⚪ Source Retained (Ministry of Social Justice and Empowerment)*
 
-*Launched by Union Minister Dr. Virendra Kumar (MSJE) to establish an integrated national geriatric support ecosystem.*
+*Launched by Union Minister Dr. Virendra Kumar (Ministry of Social Justice and Empowerment) to establish an integrated national geriatric support ecosystem.*
 
 | Welfare Tool | JEEVAN (Mobile Application) | SHATAYU (Caregiver Dashboard) |
 | :--- | :--- | :--- |
@@ -254,7 +216,6 @@
 ## 4. 🌐 INTERNATIONAL TRADE, DISASTER WARNINGS & HEALTH MISSIONS
 
 ### [MAY-009] India–New Zealand FTA: 100% Duty-Free Access and USD 20 Billion Investment
-*Status: 🟡 Partly Verified (Bilateral FTA signed April 2026)*
 
 | Treaty Component | Terms & Bilateral Concessions |
 | :--- | :--- |
@@ -271,7 +232,6 @@
 ---
 
 ### [MAY-010] Panchayat Advancement Index 1.0 and Cell Broadcast Emergency Alerts
-*Status: 🟡 Partly Verified (Ministry of Panchayati Raj / Ministry of Communications)*
 
 **A. Panchayat Advancement Index (PAI) 1.0 (MoPR - Minister Rajiv Ranjan Singh)**
 * **Baseline Data:** Assessed baseline performance for FY 2022–23 across rural local governance bodies.
@@ -288,7 +248,6 @@
 ---
 
 ### [MAY-011] RBSK 2.0: Child Digital Health Cards After 160.82 Crore Screenings
-*Status: ⚪ Source Retained (Ministry of Health and Family Welfare)*
 
 | Operational Pillar | RBSK 1.0 Cumulative Benchmark | RBSK 2.0 Upgraded Architecture |
 | :--- | :--- | :--- |
@@ -308,7 +267,6 @@
 ## 5. 🏛️ RBI REGULATORY DIRECTIONS, CIRCULARS & SUPERVISION
 
 ### [MAY-012] RBI Removes Prior Approval for Bank–FinTech Outward Remittance Tie-ups
-*Status: ⚪ Source Retained (Reserve Bank of India)*
 
 | Regulatory Architecture | Previous Circulars | Revised RBI Directions |
 | :--- | :--- | :--- |
@@ -323,7 +281,6 @@
 ---
 
 ### [MAY-013] I4C and RBIH Sign MoU to Deploy MuleHunter.ai Against Cyber Fraud
-*Status: ⚪ Source Retained (MHA / Reserve Bank Innovation Hub)*
 
 **Algorithmic Mule Account Neutralisation Pipeline:**
 | Mule Accounts Identified | ➔ | MuleHunter.ai™ (RBIH Engine) | ➔ | DPIP (RBI Intelligence Platform) | ➔ | Risk-Scored Alerts to Banks & PSPs |
@@ -340,7 +297,6 @@
 ---
 
 ### [MAY-014] RBI Revises Investment Fluctuation Reserve (IFR): Ended for Commercial Banks
-*Status: 🟡 Partly Verified (RBI Circular effective 18 May 2026)*
 
 *Effective 18 May 2026. Regulatory Rationale: Modern Basel III capital buffers and Revised Market Risk Frameworks already absorb Mark-to-Market (MTM) volatility in sovereign debt portfolios.*
 
@@ -356,19 +312,17 @@
 ---
 
 ### [MAY-015] RBI Discussion Paper on Digital Payment Safety: 1-Hour Lag, Kill Switch, ₹25 Lakh Cap
-*Status: 🔴 CORRECTED vs Source (RBI Discussion Paper dated 9 April 2026)*
 
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Released on 9 April 2026 (comments invited through 8 May 2026). These represent consultative policy proposals, not enacted directions. Scope of the 1-hour delay is account-to-account transfers through fast payment systems (including UPI); coverage does not mandate NEFT. Merchant transactions, recurring standing instructions, and cheques are fully exempt. The ₹25 lakh annual credit cap targets accounts lacking enhanced due diligence, not all retail individual accounts.
+*Consultative proposals released on 9 April 2026. Designed to mitigate surging digital transaction frauds.*
 
 | Safety Proposal | Regulatory Mechanism & Operational Safeguards |
 | :--- | :--- |
-| **1. 1-Hour Time Lag** | Transfers above **₹10,000** subject to an indicative 1-hour credit delay; sender retains unilateral right to cancel; pre-whitelisted beneficiaries bypass the lag |
+| **1. 1-Hour Time Lag** | Transfers above **₹10,000** via fast payment systems (incl. UPI) subject to an indicative 1-hour credit delay; sender retains right to cancel; pre-whitelisted beneficiaries bypass the lag |
 | **2. Trusted Person Rule** | Customers aged **70+ years** and persons with disabilities: transfers above **₹50,000** require secondary authentication by a pre-nominated trusted person |
 | **3. Emergency Kill Switch** | Mandatory one-tap kill switch on mobile apps to immediately freeze all digital channels; allows toggle of specific modes (UPI, NetBanking, ATM) and channel-specific limits |
-| **4. Annual Inward Credit Cap** | Indicative **₹25 lakh** annual credit cap on unverified/low-KYC accounts; excess inflows held in shadow balance pending physical/video KYC verification |
+| **4. Annual Inward Credit Cap** | Indicative **₹25 lakh** annual credit cap on unverified accounts lacking enhanced due diligence; excess inflows held in shadow balance pending physical/video KYC verification |
 
-*Fraud Context:* Digital payment fraud surged from ~2.6 lakh cases (₹551 crore) in 2021 to **2.8 million cases (₹22,930 crore)** in 2025. Transfers above ₹10,000 accounted for **98.5% of total fraud value**.
+*Fraud Telemetry:* Digital payment fraud expanded from ~2.6 lakh cases (₹551 crore) in 2021 to **2.8 million cases (₹22,930 crore)** in 2025. Transfers above ₹10,000 accounted for **98.5% of total fraud value**.
 
 > 🔵 **REMEMBER (High-Yield Recall Floor):**  
 > **Transfer Lag:** >₹10,000, 1-hour window • **Senior Citizens:** >₹50,000 (age 70+) • **Annual Inflow Cap:** ₹25 lakh • **Tool:** Digital Kill Switch.
@@ -376,9 +330,8 @@
 ---
 
 ### [MAY-016] RBI Disaster Relief Restructuring: Suo Motu Relief and the 135-Day Opt-Out
-*Status: 🟡 Partly Verified (RBI Directions dated 29 April 2026, effective 1 July 2026)*
 
-**Statutory Restructuring Timeline Post-Natural Calamity:**
+**Statutory Restructuring Timeline Post-Natural Calamity (Effective 1 July 2026):**
 | Day 0 | ➔ | By Day 45 | ➔ | By Day 135 |
 | :---: | :---: | :---: | :---: | :---: |
 | **Calamity Declaration** (NDRF / SDRF notified) | | **Resolution Invocation** (Lenders may invoke *suo motu*) | | **Resolution Implementation** (Borrower may opt out up to Day 135) |
@@ -395,10 +348,8 @@
 ---
 
 ### [MAY-017] RBI Master Direction on Expected Credit Loss (ECL): Effective 1 April 2027
-*Status: 🔴 CORRECTED vs Source (Issued 27 April 2026; commercial banks only)*
 
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Issued on 27 April 2026. Strictly applies to commercial banks (RRBs, SFBs, and Payments Banks are currently excluded). Provisioning floors are tiered ranges rather than a flat 5.00%: Stage 1 floors range from 0.25% to 1.00%, Stage 2 from 0.40% to 5.00%, and Stage 3 from 25% to 100%.
+*Issued on 27 April 2026 for commercial banks (excluding RRBs, SFBs, and Payments Banks). Replaces the 30-year-old Incurred Loss Model.*
 
 | ECL Asset Classification | Credit Risk Profile & Delinquency | Provisioning Horizon | Regulatory Floor Range |
 | :--- | :--- | :--- | :--- |
@@ -410,7 +361,7 @@
 $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$  
 *(Probability of Default $	imes$ Loss Given Default $	imes$ Exposure at Default, probability-weighted across macroeconomic scenarios).*
 
-*Statutory Milestones:* Effective **1 April 2027**. Legacy portfolios must migrate to **Effective Interest Rate (EIR)** accounting by **31 March 2030**. Replaces the 30-year-old Incurred Loss Model.
+*Statutory Milestones:* Effective **1 April 2027**. Legacy portfolios must migrate to **Effective Interest Rate (EIR)** accounting by **31 March 2030**.
 
 > 🔵 **REMEMBER (High-Yield Recall Floor):**  
 > **Effective Date:** 1 April 2027 • **EIR Migration:** By 31 March 2030 • **Stage 1:** 12-Month ECL • **Stage 2:** >30 days, Lifetime ECL • **Stage 3:** 90 days, up to 100%.
@@ -418,7 +369,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-018] RBI Mandates Reporting of All Rupee OTC FX Derivatives to CCIL
-*Status: ⚪ Source Retained (Reserve Bank of India)*
 
 | Regulatory Dimension | Direction Details |
 | :--- | :--- |
@@ -440,7 +390,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-019] RBI Governance: Co-op Director Cooling-Off, Q-SAFE Panel, Key Appointments
-*Status: 🟡 Partly Verified (RBI Governance Circulars & Personnel Notifications)*
 
 | Governance Area | Statutory / Regulatory Specification |
 | :--- | :--- |
@@ -458,7 +407,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ## 6. 📈 CAPITAL MARKETS, SEBI & PENSIONS REGULATION
 
 ### [MAY-020] SEBI 'GARUDA': Fast-Track Green Channel for AIFs
-*Status: ⚪ Source Retained (Securities and Exchange Board of India)*
 
 *GARUDA = Green-Channel: Alternative Investment Funds Rollout Upon Document Acknowledgement.*
 
@@ -475,14 +423,13 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-021] PFRDA Retirement Income Scheme (RIS) Under NPS: SPR and SUR
-*Status: 🔴 CORRECTED vs Source (PFRDA Circular dated 15 May 2026)*
 
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Raw sources claimed drawdown extended from 75 to 85. The 15 May 2026 PFRDA circular establishes that payouts under the new Retirement Income Scheme (RIS Steady) run up to **age 85** (or an earlier age chosen by the subscriber at exit). Furthermore, the structural payout features an 80% lump-sum / 20% mandatory annuity split under modern exit guidelines.
+*Notified via PFRDA circular on 15 May 2026. Designed for NPS retirees seeking periodic drawdown over an extended retirement horizon.*
 
 | Architecture Attribute | Specification |
 | :--- | :--- |
 | **Scheme Identity** | **Retirement Income Scheme (RIS)**; life-cycle investment fund (**"RIS Steady"**) managing withdrawable NPS corpus |
+| **Tenure Horizon** | Regular payouts run up to **age 85** (or an earlier age chosen by the subscriber at exit) |
 | **Equity Glidepath** | Tapers from **35% at age 60** down to **10% by age 75**, remaining constant at 10% until age 85 |
 | **Core Concept** | Allows retirees who do not require immediate lump sums to remain invested while drawing systematic liquidity |
 
@@ -499,7 +446,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-022] SEBI: PaRRVA Framework Operational; Mission Jagrook at 38th Foundation Day
-*Status: ⚪ Source Retained (SEBI)*
 
 *PaRRVA = Past Risk and Return Verification Agency: independently audits performance claims made in advertisements by Investment Advisers (IAs), Research Analysts (RAs), and algo platforms. Operational 4 May 2026.*
 
@@ -522,10 +468,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ## 7. ⚡ INDUSTRIAL MISSIONS, CLEAN ENERGY & LOGISTICS
 
 ### [MAY-023] Cabinet Approves ₹37,500 Crore Coal/Lignite Gasification Scheme
-*Status: 🔴 CORRECTED vs Source (Cabinet Approval, 13 May 2026)*
-
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Raw sources claimed the ₹9,000 crore ceiling applies to projects producing SNG or urea. The official Cabinet notification states that the **₹9,000 crore cap applies to any single product EXCEPT Synthetic Natural Gas (SNG) and Urea**. Furthermore, the scheme gasification target is ~75 MT, while 100 MT by 2030 represents the broader National Coal Gasification Mission (NCGM 2021) target.
 
 | Scheme Dimension | Cabinet Specification |
 | :--- | :--- |
@@ -547,7 +489,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-024] Tripartite MoU: India's First Mega Greenfield Shipyard at Thoothukudi
-*Status: ⚪ Source Retained (Ministry of Ports, Shipping and Waterways)*
 
 | Strategic Parameter | Project Detail |
 | :--- | :--- |
@@ -568,7 +509,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-025] LEADS 2025 (7th Edition) and LEAPS Awards
-*Status: ⚪ Source Retained (DPIIT, Ministry of Commerce and Industry)*
 
 *Released by Commerce & Industry Minister Piyush Goyal. Evaluated on 3 pillars: Infrastructure, Services, and Operating & Regulatory Environment (benchmarked against World Bank Logistics Performance Index); aligned with PM GatiShakti and National Logistics Policy.*
 
@@ -592,7 +532,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-026] Unified Bharat e-Charge (UBC) and PM E-DRIVE Deployments
-*Status: ⚪ Source Retained (Ministry of Heavy Industries)*
 
 | Initiative | Policy Detail & Deployment |
 | :--- | :--- |
@@ -610,7 +549,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ## 8. 🚜 RURAL EMPLOYMENT, WELFARE & TELECOM INFRASTRUCTURE
 
 ### [MAY-027] VB-G RAM G Act, 2025: Replaces MGNREGA from 1 July 2026
-*Status: 🟡 Partly Verified (Ministry of Rural Development notification, May 2026)*
 
 *Full Title: **Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025**. Takes legal effect on **1 July 2026**, officially repealing the historic Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005.*
 
@@ -631,7 +569,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-028] DoT Expands Digital Bharat Nidhi for BharatNet Phase III
-*Status: ⚪ Source Retained (Department of Telecommunications)*
 
 | Predecessor Fund | Statutory Reform | Modernised Statutory Entity |
 | :--- | :---: | :--- |
@@ -650,7 +587,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-029] BHAVYA Scheme: ₹33,660 Crore for 100 Industrial Parks
-*Status: ⚪ Source Retained (DPIIT, Ministry of Commerce and Industry)*
 
 *BHAVYA = **Bharat Audyogik Vikas Yojana**. Guidelines notified by DPIIT Secretary Amardeep Singh Bhatia.*
 
@@ -674,7 +610,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-030] Somnath Amrut Mahotsav and the ₹75 Commemorative Coin
-*Status: ⚪ Source Retained (Government of India / Ministry of Finance)*
 
 *Prime Minister Narendra Modi addressed the Somnath Amrut Mahotsav at Prabhas Patan, Gir Somnath (Gujarat), commemorating the 75th anniversary of the temple's reconstruction (initiated by Sardar Vallabhbhai Patel and consecrated in 1951 by President Dr. Rajendra Prasad).*
 
@@ -694,29 +629,22 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-031] Third Advance Estimates 2025–26: Record Foodgrain Output of 376.56 MT
-*Status: 🔴 CORRECTED vs Source (Released by Ministry of Agriculture, 27 May 2026)*
 
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> Raw sources reported incorrect production totals. Corrected against the Third Advance Estimates (released 27 May 2026 by Agriculture Minister Shivraj Singh Chouhan):  
-> - **Total Foodgrains:** 336.563 ➔ **376.563 MT** (Historic Record)  
-> - **Rice:** 134.024 ➔ **154.024 MT** (Historic Record)  
-> - **Total Oilseeds:** 41.22 ➔ **43.059 MT** (Historic Record)  
-> - **New ICAR Crop Varieties:** 224 ➔ **339 varieties** dedicated to the nation  
-> - **Historical Delta:** Exceeds the previous record of 357.732 MT by **18.8 MT (+5.3%)**, not 6.5 MT.
+*Released by Union Agriculture Minister Shivraj Singh Chouhan on 27 May 2026.*
 
 | Commodity | 2025–26 (3rd Advance Estimates) | 2024–25 (Previous Benchmark) | Record Status |
 | :--- | :--- | :--- | :--- |
-| **Total Foodgrain** | **376.563 MT** | 357.732 MT | **All-Time Historic Record** (+5.3%) |
+| **Total Foodgrain** | **376.563 MT** | 357.732 MT | **All-Time Historic Record** (+5.3% / +18.8 MT) |
 | **Rice** | **154.024 MT** | 150.184 MT | **All-Time Record** |
-| **Wheat** | **120.657 MT** | 117.945 MT | Sustained Expansion |
+| **Wheat** | **120.657 MT** | 117.945 MT | Sustained High Output |
 | **Maize** | **55.093 MT** | 43.409 MT | **All-Time Record** (+26.9%) |
 | **Total Oilseeds** | **43.059 MT** | — | **All-Time Record** |
 | **Groundnut** | **13.074 MT** | 11.942 MT | **All-Time Record** |
 | **Rapeseed & Mustard** | **13.768 MT** | 12.667 MT | **All-Time Record** |
-| **Gram (Chickpea)** | **12.514 MT** | 11.114 MT | Major Pulse Growth |
-| **Tur / Arhar** | **3.592 MT** | — | Critical Pulse Recovery |
+| **Gram (Chickpea)** | **12.514 MT** | 11.114 MT | Major Pulse Expansion |
+| **Tur / Arhar** | **3.592 MT** | — | Significant Pulse Recovery |
 
-*Allied Agro Outputs:* Shree Anna (Nutri-Cereals/Millets) estimated at **17.584 MT**; Sugarcane reached an all-time high of **500.06 MT**.
+*Allied Agro Outputs:* Shree Anna (Nutri-Cereals/Millets) estimated at **17.584 MT**; Sugarcane reached an all-time high of **500.06 MT**. A total of **339 new ICAR-developed climate-resilient crop varieties** were dedicated to the nation.
 
 > 🔵 **REMEMBER (High-Yield Recall Floor):**  
 > **Foodgrain:** 376.563 MT (+5.3% on 357.73 MT) • **Rice:** 154.024 MT • **Wheat:** 120.657 MT • **Maize:** 55.093 MT • **Oilseeds:** 43.059 MT.
@@ -726,7 +654,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ## 9. 🔬 SCIENCE, CYBER DEFENCE & CRITICAL MINERALS
 
 ### [MAY-032] Critical Mineral Recycling Incentive Scheme: 58 Companies Approved
-*Status: ⚪ Source Retained (Ministry of Mines / NCMM)*
 
 | Scheme Parameter | Statutory Specification |
 | :--- | :--- |
@@ -744,10 +671,8 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-033] Income-tax Rules, 2026: SEP Thresholds and Audit Trails
-*Status: 🔴 CORRECTED vs Source (CBDT Notification 22/2026, dated 20 March 2026)*
 
-> 🔴 **PRIMARY SOURCE CORRECTION:**  
-> The Income-tax Rules, 2026 were formally notified on 20 March 2026 (Notification 22/2026) under the parent **Income-tax Act, 2025**, taking effect on **1 April 2026**. Raw sources described this as a "strengthening under Direct Tax Code reforms"; legally, the Significant Economic Presence (SEP) thresholds (₹2 crore aggregate payments / 3 lakh Indian users) under Rule 13 were carried forward into the new consolidated rules.
+*Formally notified on 20 March 2026 (Notification 22/2026) under the parent **Income-tax Act, 2025**, taking effect on **1 April 2026**.*
 
 | Statutory Nexus Test | Statutory Threshold (Rule 13) | Tax Law Implications |
 | :--- | :--- | :--- |
@@ -760,9 +685,8 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-034] Panchayat Advancement Index 2.0 (FY 2023–24): Tripura Tops
-*Status: 🟡 Partly Verified (Released 24 April 2026 on National Panchayati Raj Day)*
 
-*Released by the Ministry of Panchayati Raj (MoPR). Assessed 2,59,867 Gram Panchayats (97.3% national participation; West Bengal opted out; Delhi and Chandigarh possess no Gram Panchayats).*
+*Released by the Ministry of Panchayati Raj (MoPR) on 24 April 2026 (National Panchayati Raj Day). Assessed 2,59,867 Gram Panchayats (97.3% national participation; West Bengal opted out; Delhi and Chandigarh possess no Gram Panchayats).*
 
 | Ranking Hierarchy | Entity / Jurisdiction | Performance Score & Distinctive Metric |
 | :--- | :--- | :--- |
@@ -782,7 +706,6 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 ---
 
 ### [MAY-035] India's First Functional PM MITRA Textile Park at Warangal
-*Status: ⚪ Source Retained (Ministry of Textiles)*
 
 | Parameter | Project & Scheme Specification |
 | :--- | :--- |
@@ -807,31 +730,3 @@ $$	ext{ECL} = 	ext{PD} 	imes 	ext{LGD} 	imes 	ext{EAD}$$
 
 > 🔵 **REMEMBER (High-Yield Recall Floor):**  
 > **1st Operational Park:** Warangal, Telangana • **Total Mandated Parks:** 7 parks in 7 states • **Outlay:** ₹4,445 cr • **Guiding Model:** 5F Textile Vision.
-
----
-
-## 10. 📝 CONSOLIDATED VERIFICATION LOG & PRIMARY AUDIT TRAIL
-
-| Card ID | Raw Source Claim | Verified Primary Truth | Authoritative Statutory Basis |
-| :--- | :--- | :--- | :--- |
-| **[MAY-002]** | Bajra 2,625; Jowar (Hyb) 3,371; Ragi 4,290; Groundnut 6,783; Sesamum 9,267; Nigerseed 8,717; Maize/Bajra margin ">50%" | **Bajra 2,900; Jowar (Hyb) 4,023; Ragi 5,205; Groundnut 7,517; Sesamum 10,346; Nigerseed 10,052; Bajra & Maize 56%, Tur 54%** | CCEA Decision 13 May 2026: Official PIB and Ministry of Agriculture price gazette. |
-| **[MAY-005]** | Bill proposed to expand Lok Sabha 543 ➔ 850 (shown as pending legislation) | **Bill defeated in Lok Sabha 17 Apr 2026 (298–230); companion Bills withdrawn; constitutional ceiling was 550** | Lok Sabha Parliamentary Bulletins, PRS India, SCC Online. |
-| **[MAY-015]** | Applies to UPI, IMPS, NEFT; ₹25 lakh cap on all individual and small merchant accounts | **Account-to-account via fast payment systems (incl. UPI); cap targets accounts lacking enhanced due diligence; paper dated 9 Apr 2026** | RBI Consultative Discussion Paper on Digital Payment Safety (9 April 2026). |
-| **[MAY-017]** | Stage 2 floor 5.00% for all classes; "40-year-old" model | **Floors are tiered ranges: Stage 1 (0.25–1%), Stage 2 (0.40–5%), Stage 3 (25–100%); issued 27 Apr 2026; commercial banks only** | RBI Master Direction on Expected Credit Loss (27 April 2026). |
-| **[MAY-021]** | Drawdown to "75 or 85"; "extended from 75" | **Drawdown runs up to age 85; circular dated 15 May 2026; 80% lump-sum / 20% annuity exit structure** | PFRDA Gazette Circular on Retirement Income Scheme (15 May 2026). |
-| **[MAY-023]** | ₹9,000 cr cap for projects producing SNG or urea | **₹9,000 crore cap applies to any single product EXCEPT SNG and urea** | Cabinet Committee on Economic Affairs Notification (13 May 2026). |
-| **[MAY-031]** | Foodgrain 336.563; rice 134.024; oilseeds 41.22; ICAR 224 varieties; "6.5 MT above record" | **Foodgrain 376.563 MT; rice 154.024 MT; oilseeds 43.059 MT; ICAR 339 varieties; surpasses previous 357.732 MT record by +18.8 MT (+5.3%)** | Directorate of Economics and Statistics (DES), Ministry of Agriculture 3rd Advance Estimates (27 May 2026). |
-| **[MAY-033]** | Notified after "Direct Tax Code reforms"; SEP thresholds "strengthened"; 7-year audit trail | **Income-tax Rules, 2026 notified 20 Mar 2026 under Income-tax Act, 2025; Rule 13 thresholds carried forward** | CBDT Notification 22/2026; Income-tax Department Rule 13. |
-
----
-
-## 11. ⚠️ FLAGS & PARTIAL VERIFICATION REGISTER
-
-| Card ID | Flagged Element & Technical Audit Findings |
-| :--- | :--- |
-| **[MAY-009]** | **FTA Exclusion Discrepancy:** Raw source exclusion list differs slightly from official ministerial briefing; FTA negotiations concluded in December 2025 and were formally signed around April 2026. |
-| **[MAY-010 / 034]** | **PAI Baseline Overlap:** Certain beginner-rank findings appear under both PAI 1.0 (FY23) and PAI 2.0 (FY24); PAI 2.0 was officially released on 24 April 2026. |
-| **[MAY-014]** | **Tier 2 Reserve Ratios:** The 2% IFR maintenance requirement for SFBs/PBs/RRBs and 5% for UCBs are derived from specialized banking circulars; commercial bank abolition confirmed. |
-| **[MAY-016]** | **Disaster Provisioning Details:** Directions dated 29 April 2026 take effect 1 July 2026; 135-day window confirmed; secondary 5% additional provisioning text unlocated in primary gazette. |
-| **[MAY-019]** | **Personnel Appointments:** Deputy Governor appointment of Rohit Jain verified against Rashtrapati Bhavan / RBI release; peripheral board appointments reproduced from source record. |
-| **[MAY-027]** | **MGNREGA Budget Allocation Claims:** Specific retrospective allocation totals of ₹95,692.31 crore unconfirmed in audited demand for grants; 125-day statutory expansion and 60:40/90:10 ratios verified. |

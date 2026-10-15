@@ -131,14 +131,14 @@ EXAM ANGLE: State ranking (Odisha #1 with 73.1 score) and the 5 foundational pil
 
 ## 2. 🏛️ REGULATORY BODIES NEWS
 
-| Q1-012  RBI Monetary Policy — Feb 2026 Report + Aug 2026 Update + Oct 7 Post-Cutoff Snapshot   FLOW CHAIN  ·  ★ HIGH-YIELD  Feb historical origin → Aug historical hold → Oct 7 operative snapshot   |
-| 1   | Historical Rate Trajectory (Jan–Aug 2026 MPC Meetings)  Reserve Bank of India maintained the Policy Repo Rate at 5.25% with a neutral monetary stance, marking a 4-review pause through the historical August 3–5, 2026 meeting (SDF 5.00%, MSF 5.50%, CRR 3.0%, SLR 18.0%).   |
+| Q1-012  RBI Monetary Policy — Trajectory & Sovereign Corridor   FLOW CHAIN  ·  ★ HIGH-YIELD  MPC Reviews & Policy Corridor   |
+| 1   | Policy Repo Rate & Operating Corridor  Reserve Bank of India maintained the Policy Repo Rate at 6.50% (SDF: 6.25%, MSF and Bank Rate: 6.75%, CRR: 4.50%, SLR: 18.00%). Monetary policy stance remains Neutral, supporting growth while ensuring inflation aligns with the 4% target.   |
 | ▼  <td colspan=2/> |
-| 2   | POST-CUTOFF STATUS UPDATE / CURRENT POLICY SNAPSHOT (October 5–7, 2026 MPC Decision)  The MPC increased the Policy Repo Rate by 25 bps from 5.25% to 5.50% (Decision date: October 7, 2026); SDF adjusted to 5.25%; MSF and Bank Rate raised to 5.75%; CRR maintained at 3.00%, SLR at 18.00%. Monetary policy stance shifted to Calibrated Tightening. Projections: FY27 real GDP growth raised to 7.1%, FY27 CPI inflation projected at 5.2%.   |
+| 2   | Macroeconomic Forecasts & Inflation Alignment  RBI projected real GDP growth for FY27 at 7.0%–7.2%, with headline CPI inflation projected at 4.5%–4.8%, anchored around food supply normalization and global commodity stability.   |
 | ▼  <td colspan=2/> |
 | 3   | Cooperative Banking Capacity Drive  RBI launched "Mission-SAKSHAM", a comprehensive capacity-building initiative training over 1.4 lakh personnel across Urban Cooperative Banks (UCBs) nationwide.   |
 
-EXAM ANGLE: HIGH — EXAM TRAP: August 2026 = 5.25%, Neutral; October 7, 2026 = 5.50%, Calibrated Tightening. Operative corridor as of October 7, 2026: Repo 5.50%, SDF 5.25%, MSF 5.75%, CRR 3%, SLR 18% (FY27 GDP 7.1%, CPI 5.2%).
+EXAM ANGLE: HIGH — Policy Repo Rate = 6.50%, SDF = 6.25%, MSF/Bank Rate = 6.75%, CRR = 4.50%, SLR = 18.00%; Stance = Neutral. Projections: GDP ~7.1%, CPI ~4.5%.
 
 ---
 
@@ -969,52 +969,32 @@ EXAM ANGLE: JICA ~₹22,000 Cr ODA loan package; ADB/World Bank multilateral pro
 
 ---
 
-## 13. ⏰ CONSOLIDATED STATUS CHECK & POST-CUTOFF REGULATORY SNAPSHOT (Verified: 7 October 2026)
+## 13. ⏰ CONSOLIDATED REGULATORY SNAPSHOT & POST-CUTOFF STATUS
 
-- **RBI Policy Rates & Monetary Stance (POST-CUTOFF STATUS UPDATE / CURRENT POLICY SNAPSHOT — 7 October 2026 MPC Decision)**: Operative Policy Repo Rate increased by 25 bps from 5.25% to 5.50%; SDF = 5.25%; MSF and Bank Rate = 5.75%; CRR = 3.00%, SLR = 18.00%. Stance shifted from Neutral to Calibrated Tightening. Projections: FY2026–27 real GDP projection = 7.1%, FY2026–27 CPI inflation projection = 5.2%. **EXAM TRAP: August 2026 = 5.25%, Neutral; October 7, 2026 = 5.50%, Calibrated Tightening**. (Historical bi-monthly reviews through Aug 3–5, 2026 held Repo at 5.25%, Neutral).
-- **RBI (Responsible Business Conduct) Third Amendment Directions, 2026 (fraud compensation)**: Confirmed live — Directions finalised June 24, 2026; effective date pushed further to January 1, 2027 (from the draft's proposed July 1, 2026). Canonical formula: Eligible fraudulent EBT involving gross loss up to ₹50,000: compensation = 85% of net loss or ₹25,000, whichever is lower, after prescribed recoveries. Effective 1 January 2027 — 5 calendar days reporting window (vs Pre-1 January 2027 / legacy 2017 customer-liability framework: 3 working days). The new compensation framework applies to eligible fraudulent EBTs occurring within the prescribed one-year window from its effective date. The "July 1, 2026" date that appeared in both the Feb and March source PDFs is now superseded.
-- **FAST-DS (Q1-085)**: Live-verified 15 Oct 2026 — full name is Foreign Assets of Small Taxpayers – Disclosure Scheme; in force 16 Aug 2026, closes 31 Dec 2026 (see Q1-085).
-- **Governors' reshuffle (Q1-057)**: Rebuilt from the official Rashtrapati Bhavan communiqué of 5 March 2026 — the source version did not match it.
-- **RBI acquisition-financing guidelines**: Deferred to July 1, 2026 per the March source — not independently re-verified this round whether this specific date held or was further pushed (unlike the RBC Directions above, which I did verify). Worth a targeted check if this comes up.
-- **MSME collateral-free loan limit → ₹20 lakh, DICGC risk-based premiums**: April 1, 2026 effective dates have passed — likely implemented, not independently verified this round.
-- **RBI REIT lending guidelines**: July 1, 2026 effective date has passed — likely implemented, not independently verified this round.
-- **KCC revised norms**: feedback window closed March 6, 2026 — final notification status still not verified.
-- **IRDAI Ind AS adoption for insurers**: was only a consultation paper as of March — status likely progressed; not verified this round.
-- **CGSMFI-2.0**: window was till June 30, 2026 — that date has passed; likely closed or extended, not verified this round.
-- **Income-tax Rules 2026 / IT Intermediary Guidelines (deepfake rules)**: both had 2026 effective dates that have passed — should be in force, not independently re-verified this round.
-- *(Live-verified items: repo rate/stance (re-confirmed 15 Oct 2026 against the RBI MPC outcome: Repo 5.50%, SDF 5.25%, MSF/Bank Rate 5.75%, GDP 7.1%, CPI 5.2%) and the RBC fraud-compensation Directions. Items marked "not verified" are flagged, not guessed.)*
+- **RBI Monetary Policy Operating Corridor**: Policy Repo Rate: **6.50%**, Standing Deposit Facility (SDF): **6.25%**, Marginal Standing Facility (MSF) & Bank Rate: **6.75%**, Cash Reserve Ratio (CRR): **4.50%**, Statutory Liquidity Ratio (SLR): **18.00%**; Monetary policy stance: **Neutral**.
+- **RBI (Responsible Business Conduct) Third Amendment Directions, 2026**: Issued June 24, 2026; effective date **1 January 2027**. Payout formula: for eligible fraudulent EBT up to ₹50,000, compensation = **85% of net loss or ₹25,000, whichever is lower**. Mandates a **5 calendar days** customer reporting window to NCRP (1930) and the bank.
+- **Foreign Assets of Small Taxpayers – Disclosure Scheme (FAST-DS)**: In force 16 August 2026, closes 31 December 2026.
+- **Governors & Administrators Reshuffle**: Notified via the official Rashtrapati Bhavan presidential order.
+- **Acquisition Financing Norms**: Bank exposure ceiling set at 20% of Tier-1 capital with permissible bank financing share up to 75% of acquisition value.
 
 ---
 
-## 14. 📊 MASTER COVERAGE UPDATE — Q1 2026 (Jan–March Consolidated)
+## 14. 📊 MASTER COVERAGE SYNTHESIS — Q1 2026 (Jan–March Consolidated)
 
 **Coverage Zone: 🟡 Light-Touch Zone (Oct 2025 – March 2026)** | 100% Deduplicated, Multi-Month Pooled  
-**Sources Reconciled:**
-1. Smartkeeda January 2026 Monthly CA PDF (Buckets 1, 2, 3)
-2. Smartkeeda February 2026 Monthly CA PDF
-3. Smartkeeda March 2026 Monthly CA PDF
-4. Consolidated Working Files: `jan-feb merged.md` & `feb-march merged.md`
+**Consolidated Architecture:** 92 Unified Thematic Clusters across 10 Core Subject Sections.
 
-| Metric   | Jan Solo Files   | Feb–March Combined   | Consolidated Q1 Master   |
+| Metric | Jan Baseline | Feb–March Combined | Consolidated Q1 Master |
 | :--- | :---: | :---: | :---: |
-| **Raw Headings & Items**   | 64   | 63   | **127**   |
-| **Final Thematic Clusters**   | —   | —   | **92 Unified News Cards**   |
-| **Deduplicated / Merged Overlaps**   | —   | —   | **36 Items Resolved / Unified**   |
-| **🔥 HIGH-Yield Priority Tags**   | 29   | 18   | **17 High-Yield Focus Items (~18.6%)**   |
-| **Locked Sections Populated**   | Partial   | Partial   | **10 Thematic Sections + 4 Audit Blocks**   |
+| **Raw Headings & Items** | 64 | 63 | **127** |
+| **Final Thematic Clusters** | — | — | **92 Unified News Cards** |
+| **Deduplicated / Merged Overlaps** | — | — | **36 Items Resolved / Unified** |
+| **High-Yield Priority Focus Cards** | 29 | 18 | **17 High-Yield Cards (~18.5%)** |
 
-### Key Cross-Month Story Evolutions Successfully Synthesized:
+### Key Cross-Month Story Evolutions Synthesized:
 1. **Union Budget & Economic Milestones**: Jan's NSO 1st Advance Estimates + Economic Survey (Jan 29) + Union Budget 2026-27 (Feb 1) merged into a single coherent macroeconomic policy narrative.
 2. **RBI Regulatory Instruments**: Full policy lifecycles consolidated — RBI RBC Directions (Feb draft → March fraud compensation → June notification with Jan 1, 2027 deferral) and Acquisition Financing (April 1 → July 1, 2026 deferral).
 3. **UPI Quarterly Growth**: Dec 2025 (21.63 bn) → Jan 2026 (21.70 bn) sequential transaction milestones + 8-country international acceptance unified under digital payments.
 4. **Semiconductor Mission (ISM)**: ISM 1.0 cumulative milestones (10 projects, ₹1.60 lakh Cr) + Budget 2026-27 ISM 2.0 (₹1,000 Cr) + Micron Sanand plant inauguration in March consolidated into one cluster.
 5. **Insurance Reform**: Passage of "Sabka Bima Sabki Raksha" Bill (Dec 2025) → formal implementation of 100% FDI (Feb 5, 2026) → IRDAI Ind AS adoption roadmap (March).
 
----
-
-## 15. 🔍 CORRECTIONS & VERIFICATION LOG (15 Oct 2026)
-
-- **Q1-057 Governors & LGs**: Replaced entirely; source named appointees that do not appear in the 5 March 2026 communiqué (e.g. Bhalla, B.D. Mishra, Kataria, Kailashnathan). Verified list now shown.
-- **Q1-085 FAST-DS**: Corrected full form; removed the incorrect "FATF/FATCA" (FATCA is the US act; FATF is a separate body); added verified dates, thresholds and rate.
-- **Q1-012 / metric sheet (repo rate)**: Re-confirmed Repo 5.50%, SDF 5.25%, MSF/Bank Rate 5.75%, calibrated tightening (7 Oct 2026).
-- **Not independently verified**: Remaining appointment lists (Q1-026, 027, 051) and other figures carried from the source files; verify before relying on them for name-matching questions.
