@@ -132,13 +132,13 @@ EXAM ANGLE: State ranking (Odisha #1 with 73.1 score) and the 5 foundational pil
 ## 2. 🏛️ REGULATORY BODIES NEWS
 
 | Q1-012  RBI Monetary Policy — Trajectory & Sovereign Corridor   FLOW CHAIN  ·  ★ HIGH-YIELD  MPC Reviews & Policy Corridor   |
-| 1   | Policy Repo Rate & Operating Corridor  Reserve Bank of India maintained the Policy Repo Rate at 6.50% (SDF: 6.25%, MSF and Bank Rate: 6.75%, CRR: 4.50%, SLR: 18.00%). Monetary policy stance remains Neutral, supporting growth while ensuring inflation aligns with the 4% target.   |
+| 1   | Historical Rate Trajectory (Jan–Aug 2026 MPC Meetings)  Reserve Bank of India maintained the Policy Repo Rate at 5.25% with a neutral monetary stance, marking a sustained rate pause through the August 3–5, 2026 meeting (SDF: 5.00%, MSF and Bank Rate: 5.50%, CRR: 3.00%, SLR: 18.00%).   |
 | ▼  <td colspan=2/> |
-| 2   | Macroeconomic Forecasts & Inflation Alignment  RBI projected real GDP growth for FY27 at 7.0%–7.2%, with headline CPI inflation projected at 4.5%–4.8%, anchored around food supply normalization and global commodity stability.   |
+| 2   | Post-Cutoff Operative Snapshot (October 5–7, 2026 MPC Decision)  The MPC increased the Policy Repo Rate by 25 bps from 5.25% to 5.50% (Decision date: October 7, 2026); SDF adjusted to 5.25%; MSF and Bank Rate raised to 5.75%; CRR maintained at 3.00%, SLR at 18.00%. Monetary policy stance shifted to Calibrated Tightening. Projections: FY27 real GDP growth projected at 7.1%, FY27 CPI inflation projected at 5.2%.   |
 | ▼  <td colspan=2/> |
 | 3   | Cooperative Banking Capacity Drive  RBI launched "Mission-SAKSHAM", a comprehensive capacity-building initiative training over 1.4 lakh personnel across Urban Cooperative Banks (UCBs) nationwide.   |
 
-EXAM ANGLE: HIGH — Policy Repo Rate = 6.50%, SDF = 6.25%, MSF/Bank Rate = 6.75%, CRR = 4.50%, SLR = 18.00%; Stance = Neutral. Projections: GDP ~7.1%, CPI ~4.5%.
+EXAM ANGLE: HIGH — Trajectory: Jan–Aug 2026 = 5.25%, Neutral (SDF 5.00%, MSF 5.50%, CRR 3.00%, SLR 18.00%). Post-cutoff October 2026 hike: Repo 5.50%, SDF 5.25%, MSF 5.75%, CRR 3.00%, SLR 18.00%, Stance = Calibrated Tightening.
 
 ---
 
@@ -971,7 +971,7 @@ EXAM ANGLE: JICA ~₹22,000 Cr ODA loan package; ADB/World Bank multilateral pro
 
 ## 13. ⏰ CONSOLIDATED REGULATORY SNAPSHOT & POST-CUTOFF STATUS
 
-- **RBI Monetary Policy Operating Corridor**: Policy Repo Rate: **6.50%**, Standing Deposit Facility (SDF): **6.25%**, Marginal Standing Facility (MSF) & Bank Rate: **6.75%**, Cash Reserve Ratio (CRR): **4.50%**, Statutory Liquidity Ratio (SLR): **18.00%**; Monetary policy stance: **Neutral**.
+- **RBI Monetary Policy Operating Corridor**: Historical Jan–Aug 2026: Policy Repo Rate: **5.25%**, SDF: **5.00%**, MSF & Bank Rate: **5.50%**, CRR: **3.00%**, SLR: **18.00%**; Stance: **Neutral**. Post-cutoff October 7, 2026 review: Policy Repo Rate increased by 25 bps to **5.50%**, SDF: **5.25%**, MSF & Bank Rate: **5.75%**, CRR: **3.00%**, SLR: **18.00%**; Stance: **Calibrated Tightening**.
 - **RBI (Responsible Business Conduct) Third Amendment Directions, 2026**: Issued June 24, 2026; effective date **1 January 2027**. Payout formula: for eligible fraudulent EBT up to ₹50,000, compensation = **85% of net loss or ₹25,000, whichever is lower**. Mandates a **5 calendar days** customer reporting window to NCRP (1930) and the bank.
 - **Foreign Assets of Small Taxpayers – Disclosure Scheme (FAST-DS)**: In force 16 August 2026, closes 31 December 2026.
 - **Governors & Administrators Reshuffle**: Notified via the official Rashtrapati Bhavan presidential order.

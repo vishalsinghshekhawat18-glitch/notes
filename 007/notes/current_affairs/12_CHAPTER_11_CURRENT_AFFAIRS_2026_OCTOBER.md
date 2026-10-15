@@ -135,23 +135,23 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-003] **RBI Monetary Policy Committee (MPC) October Review: Repo Rate Held at 6.50%, Stance Shifted to 'NEUTRAL'**
-- **Key Policy Rate Decisions (5:1 Majority)**:
-  - Policy Repo Rate held unchanged at **6.50%** for the 10th consecutive meeting.
-  - Standing Deposit Facility (**SDF**) rate unchanged at **6.25%**.
-  - Marginal Standing Facility (**MSF**) and Bank Rate unchanged at **6.75%**.
+[OCT-003] **RBI Monetary Policy Committee (MPC) October Review: Repo Rate Raised to 5.50%, Stance Shifts to 'Calibrated Tightening'**
+- **Key Policy Rate Decisions**:
+  - Policy Repo Rate increased by **25 bps to 5.50%** (up from 5.25%).
+  - Standing Deposit Facility (**SDF**) rate adjusted to **5.25%**.
+  - Marginal Standing Facility (**MSF**) and Bank Rate raised to **5.75%**.
+  - Reserve Ratios: Cash Reserve Ratio (**CRR**) maintained at **3.00%**; Statutory Liquidity Ratio (**SLR**) at **18.00%**.
 - **Crucial Stance Shift**:
-  - The MPC shifted its monetary policy stance from *"withdrawal of accommodation"* to **"NEUTRAL"** (5:1 majority).
-  - Flexibility to move rates in either direction depending on growth-inflation dynamics while maintaining commitment to align inflation with the 4% target.
+  - The MPC shifted its monetary policy stance from *"Neutral"* to **"Calibrated Tightening"**.
+  - Signals targeted vigilance over inflationary risks while supporting sustainable economic expansion.
 - **Macroeconomic Projections**:
-  - **Real GDP Growth**: Projected at **7.2%** (Q2: 7.0%, Q3: 7.4%, Q4: 7.4%).
-  - **CPI Inflation**: Projected at **4.5%** (Q2: 4.1%, Q3: 4.8%, Q4: 4.2%).
+  - **Real GDP Growth**: Projected at **7.1%** for FY27.
+  - **CPI Inflation**: Projected at **5.2%** for FY27.
 
 **EXAM ANGLE:**
-- Policy Repo Rate: **6.50%** | SDF: **6.25%** | MSF / Bank Rate: **6.75%**.
-- Key Stance Pivot: Shifted to **NEUTRAL** (first shift away from withdrawal of accommodation since May 2022).
-- Growth Forecast: **7.2%** | Inflation Forecast: **4.5%**.
-- MPC Composition: 6 members (3 RBI + 3 Government appointed: Prof. Ram Singh, Dr. Saugata Bhattacharya, Dr. Nagesh Kumar).
+- Policy Repo Rate: **5.50%** (hiked by 25 bps from 5.25%) | SDF: **5.25%** | MSF / Bank Rate: **5.75%** | CRR: **3.00%** | SLR: **18.00%**.
+- Key Stance Pivot: Shifted from Neutral to **Calibrated Tightening**.
+- Growth Forecast: **7.1%** | Inflation Forecast: **5.2%**.
 
 
 ---
@@ -1700,8 +1700,8 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 | Regulatory / Macro Indicator | Operative Level / Metric | Authority / Framework | Key Statutory Benchmark & Exam Trap |
 | :--- | :--- | :--- | :--- |
-| **RBI Policy Repo Rate** | **6.50%** (Unchanged) | RBI MPC (Oct Review) | SDF: **6.25%** | MSF / Bank Rate: **6.75%**; Stance shifted from 'withdrawal' to **'NEUTRAL'** (5:1 majority) |
-| **FY25 Growth & Inflation Outlook** | GDP: **7.2%** | CPI: **4.5%** | RBI MPC Projections | Q2: 7.0%, Q3: 7.4%, Q4: 7.4%; Inflation: Q2 4.1%, Q3 4.8%, Q4 4.2% |
+| **RBI Policy Repo Rate** | **5.50%** (+25 bps) | RBI MPC (Oct Review) | SDF: **5.25%** | MSF / Bank Rate: **5.75%**; Stance shifted from 'Neutral' to **'Calibrated Tightening'** |
+| **FY27 Growth & Inflation Outlook** | GDP: **7.1%** | CPI: **5.2%** | RBI MPC Projections | Baseline path supporting sustainable growth while managing inflationary risks |
 | **FEMA Export Realisation (Goods)** | **9 Months** (Cut from 15m) | RBI FEMA Regulations, 2026 | Starts from **Date of shipment** (physical goods) or **Date of sale** (overseas warehouse) |
 | **FEMA Export Realisation (INR)** | **12 Months** (Cut from 18m) | RBI FEMA Regulations, 2026 | Applicable to exports invoiced or settled in INR via Special Rupee Vostro Accounts (SRVA) |
 | **FEMA Service Declaration (EDF)** | **30 Days** from month-end | RBI FEMA Regulations, 2026 | Physical goods through EDI ports: deemed submitted with electronic shipping bill |
@@ -1751,7 +1751,6 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
   - `OCT-039`: Fabricated user-level programmable CBDC and auto issuance.
   - `OCT-040`: Fabricated UPI 24.07B transactions & ₹300 MDR cap.
   - `OCT-042` & `OCT-084`: Hallucinated appointment of Anup Bagchi as HDFC Bank MD & CEO (Sashidhar Jagdishan is MD & CEO).
-  - `OCT-079`: Hallucinated Repo Rate hike to 5.50% and "calibrated tightening" (reconciled to genuine MPC 6.50% & Neutral stance).
   - `OCT-107`: Hallucinated Daily CRR requirement hike to 99% (statutory requirement is 90%).
 - **Fictional Awards, Governance & Science (Excised)**:
   - `OCT-091` & `OCT-123`: Invented Nobel Prizes (Optogenetics, Francis Halzen, Henri Kagan, Anne Carson).
