@@ -413,6 +413,8 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
+## 2. 🌐 NATIONAL, STATE & CONSTITUTIONAL INITIATIVES
+
 [OCT-022] **CSIR Launches 5 Regional Language Science Magazines on 85th Foundation Day**
 - **Regional Science Publications**:
   - Released by CSIR-NIScPR: *Ariviyal Arikkaiyalar* (Tamil), *Vigyan Velugu* (Telugu), *Vidnyan Kshitij* (Marathi), *Bigyan Brittanto* (Bengali), and *Bigyan Lahar* (Assamese).
@@ -423,8 +425,6 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 
 ---
-
-## 2. 🌐 NATIONAL, STATE & CONSTITUTIONAL INITIATIVES
 
 [OCT-023] **Tata Communications and SASTRA University Establish ₹3.5 Crore CoE in Cybersecurity**
 - **Digital Forensics Lab**:
@@ -602,25 +602,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-035] **Key Financial Personnel Movements: Anup Bagchi at HDFC Bank, Anup Kumar Saha at Kotak, Sudhakar Malli at RBI**
-- **Anup Bagchi Appointed MD & CEO of HDFC Bank**:
-  - Approved by RBI under **Section 35B of the Banking Regulation Act, 1949** for **3 years effective October 27, 2026** (succeeds Sashidhar Jagdishan). First external candidate to head HDFC Bank (previously MD & CEO of ICICI Prudential Life Insurance).
-- **Anup Kumar Saha Appointed MD & CEO of Kotak Mahindra Bank**:
-  - Approved for **3 years effective January 1, 2027** (succeeds Ashok Vaswani).
-- **Sudhakar Malli Appointed Executive Director of RBI**:
-  - Oversees the **Department of Supervision (Supervisory Assessment)**.
-- **HDFC Bank General Counsel**:
-  - Sudhir Kumar Jha superannuated; **Jigar Shah** took charge as General Counsel on October 1, 2026.
-
-**EXAM ANGLE:**
-- HDFC Bank MD & CEO: **Anup Bagchi** (from Oct 27, 2026; Section 35B, BR Act 1949).
-- Kotak Mahindra Bank MD & CEO: **Anup Kumar Saha** (from Jan 1, 2027).
-- RBI Executive Director: **Sudhakar Malli** (Department of Supervision).
-
-
----
-
-[OCT-036] **Government Slashes Windfall Tax on Diesel & ATF Exports; Domestic Rates Unchanged**
+[OCT-035] **Government Slashes Windfall Tax on Diesel & ATF Exports; Domestic Rates Unchanged**
 - **Fortnightly Special Additional Excise Duty (SAED) Revisions**:
   - Ministry of Finance revised fuel export duties for the fortnight starting October 1, 2026:
     - **Diesel Export SAED**: Reduced to **₹16 per litre** (from ₹20).
@@ -636,7 +618,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-037] **Corporate Finance & Insurance: Jio Allianz Equity Infusion, ICICI Lombard 'VIBE', Pramerica 'Poorna Rakshak'**
+[OCT-036] **Corporate Finance & Insurance: Jio Allianz Equity Infusion, ICICI Lombard 'VIBE', Pramerica 'Poorna Rakshak'**
 - **Jio Financial Services & Allianz**: Subscribed equally to inject **₹320.05 crore each** (**₹640.10 crore total**) into their 50:50 joint venture **Jio Allianz General Insurance Limited**.
 - **ICICI Lombard 'VIBE'**: Gen Z health insurance with 'Aura Points' wellness credits on claim-free months (up to 12,000 points redeemable for diagnostics/pharmacy).
 - **Pramerica Life 'Poorna Rakshak'**: Non-linked savings life plan with 5 variants.
@@ -647,7 +629,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-038] **UPSC Celebrates Centenary on October 1, 2026: From Lee Commission to AI Facial Authentication**
+[OCT-037] **UPSC Celebrates Centenary on October 1, 2026: From Lee Commission to AI Facial Authentication**
 - **Centenary & Institutional History**:
   - UPSC completed **100 years on October 1, 2026** (originating October 1, 1926 under the *Government of India Act, 1919* following the **Lee Commission (1924)** recommendations).
   - Renamed Union Public Service Commission on **January 26, 1950**.
@@ -672,7 +654,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-039] **MHA Extends AFSPA for 6 Months in Declared Disturbed Areas of Manipur, Nagaland & Arunachal Pradesh**
+[OCT-038] **MHA Extends AFSPA for 6 Months in Declared Disturbed Areas of Manipur, Nagaland & Arunachal Pradesh**
 - **Statutory Extension under Section 3, AFSPA 1958**:
   - Extended for **6 months from October 1, 2026**:
     - **Manipur**: Entire state except areas under **13 police stations** in Imphal valley.
@@ -687,7 +669,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-040] **Cabinet Sanctions ₹1,789.52 Crore for Intelligent Traffic Management System (ITMS) in Delhi**
+[OCT-039] **Cabinet Sanctions ₹1,789.52 Crore for Intelligent Traffic Management System (ITMS) in Delhi**
 - **Smart Urban Mobility**:
   - Cabinet approved Delhi Police ITMS across **42 traffic corridors** at **₹1,789.52 crore** (3 phases over 24 months, 5 years O&M).
   - Features **1,092 Adaptive Traffic Control System (ATCS)** locations and 1,029 automated enforcement points.
@@ -700,7 +682,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-041] **Ministry of Power Notifies CAFE-III Norms for Passenger Vehicles (2027–2032): BEE Buyout Mechanism**
+[OCT-040] **Ministry of Power Notifies CAFE-III Norms for Passenger Vehicles (2027–2032): BEE Buyout Mechanism**
 - **Fuel Consumption Benchmark**:
   - Applies to passenger vehicles from **April 1, 2027 to March 31, 2032**.
   - Tightens benchmark from **3.996 L/100 km (2027-28)** to **3.3273 L/100 km (2031-32)** (16.7% efficiency improvement).
@@ -718,7 +700,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-042] **CCEA Approves Rabi MSP for Marketing Season 2027-28: Safflower Gets Highest Hike, Wheat Margin at 106%**
+[OCT-041] **CCEA Approves Rabi MSP for Marketing Season 2027-28: Safflower Gets Highest Hike, Wheat Margin at 106%**
 - **Statutory Price Support for 6 Rabi Crops**:
   - **Safflower**: **₹7,215/qtl** (Highest absolute hike of **₹675/qtl**; 50% margin over ₹4,810 cost).
   - **Rapeseed & Mustard**: **₹6,613/qtl** (Hike of ₹413/qtl; 96% margin over ₹3,367 cost).
@@ -737,7 +719,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-043] **MoL&E Launches 90-Day Nationwide 'Shram Samvad' Campaign on 4 Labour Codes Across 316 Districts**
+[OCT-042] **MoL&E Launches 90-Day Nationwide 'Shram Samvad' Campaign on 4 Labour Codes Across 316 Districts**
 - **Labour Reform Outreach**:
   - Union Minister Mansukh Mandaviya launched **"Shram Samvad"** (90-day campaign across 316 districts in all 36 States/UTs).
   - Highlights *Fixed-Term Employment (FTE)* parity with permanent workers across the 4 Labour Codes (*Wages 2019*, *IR Code 2020*, *Social Security 2020*, *OSH 2020*).
@@ -749,7 +731,9 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-044] **Ministry of Agriculture Sets 2026-27 Foodgrain Target at 373.93 MT; Launches 'Khet Bachao Abhiyan'**
+## 3. 🌍 INTERNATIONAL ACCORDS, DIPLOMACY & TRADE
+
+[OCT-043] **Ministry of Agriculture Sets 2026-27 Foodgrain Target at 373.93 MT; Launches 'Khet Bachao Abhiyan'**
 - **Production Target**: Fixed at **373.93 million tonnes** (Rabi target: **177.72 MT**).
 - Extended **'Khet Bachao Abhiyan'** nationwide for soil health (Oct 22 to Nov 30).
 - CCEA approved ₹5,547.99 crore for pulses and oilseeds procurement under **Price Support Scheme (PSS)** in UP (₹3,992.57 Cr), Karnataka (₹1,107 Cr), and Telangana (₹448.42 Cr).
@@ -761,9 +745,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-## 3. 🌍 INTERNATIONAL ACCORDS, DIPLOMACY & TRADE
-
-[OCT-045] **High-Altitude GLOF Early-Warning System Commissioned at Vasundhara Tal, Chamoli (Uttarakhand)**
+[OCT-044] **High-Altitude GLOF Early-Warning System Commissioned at Vasundhara Tal, Chamoli (Uttarakhand)**
 - **Disaster Mitigation**: Automated GLOF early warning system deployed at **Vasundhara Tal, Chamoli** by **Wadia Institute of Himalayan Geology (Dehradun) + CBRI Roorkee** with satellite telemetry. NDMA classifies **13 glacial lakes as high-risk** in Uttarakhand.
 
 **EXAM ANGLE:**
@@ -774,7 +756,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-046] **Infrastructure & Digital Governance Highlights: FASTag Annual Pass, UIDAI Aadhaar Samvaad, Air Ayodhya**
+[OCT-045] **Infrastructure & Digital Governance Highlights: FASTag Annual Pass, UIDAI Aadhaar Samvaad, Air Ayodhya**
 - **FASTag Annual Pass**: Crossed **1 crore passes** issued since launch on Aug 15, 2025; valid for **1 year or 200 crossings**, fee ₹3,075.
 - **UIDAI 'Aadhaar Samvaad'**: Launched Face Auth for ePDS, SWIK Portal 2.0, Sub-AUA/Sub-KUA (LITE), Token Management System, and 13-language website with BHASHINI.
 - **Air Ayodhya**: Received MoCA NOC under RCS-UDAN for regional UP flights with Cessna Grand Caravan EX aircraft.
@@ -786,7 +768,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-047] **ICG Ship Shaunak Deployed for 'QUAD-at-Sea Ship Observer Mission' to Perth**
+[OCT-046] **ICG Ship Shaunak Deployed for 'QUAD-at-Sea Ship Observer Mission' to Perth**
 - **Maritime Domain Awareness**: ICG Ship **Shaunak** sailed from Chennai to Perth, Australia, carrying 6 Sea Riders (2 India, 2 Japan, 1 Australia, 1 USA) under the **MAHASAGAR** vision.
 
 **EXAM ANGLE:**
@@ -797,7 +779,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-048] **Exercise 'AIME 2026' Concludes at Subic Bay: INS Sahyadri and INS Kulish Represent India**
+[OCT-047] **Exercise 'AIME 2026' Concludes at Subic Bay: INS Sahyadri and INS Kulish Represent India**
 - **ASEAN-India Drills**: 2nd **ASEAN-India Maritime Exercise (AIME 2026)** concluded at **Subic Bay, Philippines** (*"Anchored in Trust, United at Sea"*), featuring **INS Sahyadri** and **INS Kulish**.
 
 **EXAM ANGLE:**
@@ -807,7 +789,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-049] **Indian Army Conducts Exercise 'Jai Se Vijay' on NH-911 Highway Landing Strip in Rajasthan**
+[OCT-048] **Indian Army Conducts Exercise 'Jai Se Vijay' on NH-911 Highway Landing Strip in Rajasthan**
 - **Highway Landing Drill**: Army Aviation units of **Sapta Shakti Command** conducted Exercise **"Jai Se Vijay"** on **NH-911 near Dantour, Rajasthan** using Rudra, Dhruv, and Chetak helicopters.
 
 **EXAM ANGLE:**
@@ -816,7 +798,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-050] **DRDO Partners with CSIR-CGCRI Kolkata for ₹50 Crore Lightweight Bulletproof Glass Project**
+[OCT-049] **DRDO Partners with CSIR-CGCRI Kolkata for ₹50 Crore Lightweight Bulletproof Glass Project**
 - **Vehicle Armour**: 4-year, **₹50 crore** project to manufacture transparent glass-ceramic bulletproof glass cutting weight/thickness by **30%–50%** (BIS V & VI standards; multi-shot AK-47 protection at 100m).
 
 **EXAM ANGLE:**
@@ -826,7 +808,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-051] **Defence Accounts Department (DAD) Launches SAKSHAM-IAFIS, TSA-PRISM, and NCS on 279th Annual Day**
+[OCT-050] **Defence Accounts Department (DAD) Launches SAKSHAM-IAFIS, TSA-PRISM, and NCS on 279th Annual Day**
 - **Financial Architecture**: Launched **SAKSHAM** (IAFIS paperless bill audit), **PRISM + eKUBER** (Treasury Single Account), and revamped **National Compilation System (NCS)** on DAD's 279th Annual Day.
 
 **EXAM ANGLE:**
@@ -839,7 +821,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-052] **National Supercomputing Mission (NSM): India Deploys 40 Supercomputers with 68 Petaflops Capacity**
+[OCT-051] **National Supercomputing Mission (NSM): India Deploys 40 Supercomputers with 68 Petaflops Capacity**
 - **High-Performance Computing**: 40 supercomputers deployed (**68 Petaflops** cumulative power) under NSM (launched Apr 2015, ₹4,500 Cr outlay, jointly steered by DST & MeitY; implemented by C-DAC Pune & IISc Bengaluru). 13 exceed 1 PF; **PARAM Rudra** runs on indigenous C-DAC 'Rudra' servers.
 
 **EXAM ANGLE:**
@@ -850,7 +832,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-053] **MoHUA Launches 'PRAGATI-50' Under Swachh Bharat Mission-Urban 2.0 Across 50 Cities**
+[OCT-052] **MoHUA Launches 'PRAGATI-50' Under Swachh Bharat Mission-Urban 2.0 Across 50 Cities**
 - **Urban Cleanliness KPIs**: Identifies **50 model cities across 24 States** under **SBM-U 2.0** (₹1,41,600 Cr outlay). Launched Swachh Bharat Test Bed at Durgapur with CSIR-CMERI and hit target of 75 startups incubated under the mission.
 
 **EXAM ANGLE:**
@@ -861,7 +843,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-054] **National Coastal Mission 2.0 (NCM 2.0) Implementation Guidelines Notified with ₹767 Crore Outlay**
+[OCT-053] **National Coastal Mission 2.0 (NCM 2.0) Implementation Guidelines Notified with ₹767 Crore Outlay**
 - **Coastal Resilience**: Central Sector Scheme under MoEFCC with **₹767 crore outlay for 2025-26 to 2030-31** across **9 coastal States and 4 UTs**. Subsumes NCM 1.0.
 
 **EXAM ANGLE:**
@@ -871,7 +853,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-055] **CAG and MeitY Launch 'CAG-BHASHINI Anuvaad' AI Document Translation Engine**
+[OCT-054] **CAG and MeitY Launch 'CAG-BHASHINI Anuvaad' AI Document Translation Engine**
 - **Multilingual Audit Platform**: Customised Language AI translation solution developed by Digital India BHASHINI Division (DIBD, MeitY) for official CAG audit reports (CAG: **K. Sanjay Murthy**).
 
 **EXAM ANGLE:**
@@ -884,7 +866,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-056] **PM-SETU Completes 1 Year: ₹60,000 Crore ITI Upgradation Mission Rolls Out to 200 Clusters**
+[OCT-055] **PM-SETU Completes 1 Year: ₹60,000 Crore ITI Upgradation Mission Rolls Out to 200 Clusters**
 - **ITI Modernisation Mission**: PM-SETU completed 1 year (launched Oct 4, 2025). Total outlay: **₹60,000+ crore over 5 years** (Centre: ₹30,000 Cr; States: ₹20,000 Cr; Industry: ₹10,000 Cr; 50% of Central share co-financed by **ADB and World Bank**).
 - Upgrades 1,000 ITIs (**200 Hub ITIs and 800 Spoke ITIs**) under SPVs (**Anchor Industry Partner: 51% stake**; Centre & States 24.5% each).
 
@@ -896,7 +878,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-057] **Department of Pharmaceuticals Announces 'New Discovery Track' Under ₹5,000 Crore PRIP Scheme**
+[OCT-056] **Department of Pharmaceuticals Announces 'New Discovery Track' Under ₹5,000 Crore PRIP Scheme**
 - **Drug Discovery Support**: Financial assistance of **up to ₹50 crore per company/project** for NCE and NBE projects from TRL 1–3 up to TRL 6, with **minimum 25% co-funding from institutional investors** under the **₹5,000 crore PRIP Scheme**.
 
 **EXAM ANGLE:**
@@ -907,7 +889,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-058] **Strategic MOUs: Amended BharatNet Maharashtra, PMGSY-IV Longitudinal Study, ICAR-FCI Safe Grain Storage**
+[OCT-057] **Strategic MOUs: Amended BharatNet Maharashtra, PMGSY-IV Longitudinal Study, ICAR-FCI Safe Grain Storage**
 - **Amended BharatNet in Maharashtra**: ₹10,520 crore support covering 28,237 Gram Panchayats and 9 lakh home fiber connections via MDIL.
 - **PMGSY-IV & PM-JANMAN Impact Study**: 4-year longitudinal study by NRIDA and IIM Calcutta covering 10 States, 50 districts, and 5,000 households.
 - **ICAR & FCI Pest Control**: Replaces aluminium phosphide (ALP) and malathion with Nitrogen (>99% purity) and CO2 hermetic fumigation.
@@ -919,7 +901,9 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-059] **Strategic High-Frequency GK & Macro Data Points (October 4–7, 2026)**
+## 4. 🛡️ DEFENCE, SECURITY & STRATEGIC INFRASTRUCTURE
+
+[OCT-058] **Strategic High-Frequency GK & Macro Data Points (October 4–7, 2026)**
 - **MoSPI Trial Index of Services Production (ISP)**: July 2026 release (**Base Year 2024-25**, 19 sub-sectors). Top gainer: *Administrative & Support Services (20.9%)*; lowest: *Air Transport (-8.4%)*.
 - **HSBC Entrepreneurial Wealth Report 2026**: 74% of Indian entrepreneurs plan second residency (Singapore #1 at 14%); 99% adopting AI; Gold is top held asset (63%).
 - **OECD Interim Outlook**: Projects India's GDP at **7.1% for FY27** and **6.5% for FY28**.
@@ -930,7 +914,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-060] **Ministry of Education Approves 5 Centres of Excellence (CoEs) for Classical Languages**
+[OCT-059] **Ministry of Education Approves 5 Centres of Excellence (CoEs) for Classical Languages**
 - **Preservation of Linguistic Heritage**:
   - MoE approved 5 CoEs:
     - *Classical Assamese*: Tezpur University (Assam).
@@ -947,9 +931,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-## 4. 🛡️ DEFENCE, SECURITY & STRATEGIC INFRASTRUCTURE
-
-[OCT-061] **Reconstitution of 24 Department-Related Parliamentary Standing Committees (DRSCs) for 2026-27**
+[OCT-060] **Reconstitution of 24 Department-Related Parliamentary Standing Committees (DRSCs) for 2026-27**
 - **Parliamentary Committee Structure**:
   - Reconstituted w.e.f. September 26, 2026.
   - 31 members per DRSC (21 Lok Sabha + 10 Rajya Sabha); tenure: 1 year.
@@ -962,7 +944,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-062] **Odisha Launches India's First MICE Incentive Digital Portal & Major Tourism Reforms**
+[OCT-061] **Odisha Launches India's First MICE Incentive Digital Portal & Major Tourism Reforms**
 - **MICE Tourism & Hotel Capital Subsidy**:
   - Odisha is the **1st state** to launch a dedicated MICE (Meetings, Incentives, Conferences, Exhibitions) incentive portal.
   - Star hotel threshold lowered from 50 to **10 rooms**; max capital subsidy raised from ₹20 Cr to **₹120 Cr**.
@@ -974,7 +956,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-063] **Delhi SOTTO Headquarters at GB Pant Hospital & Expanded ANMOL Mission**
+[OCT-062] **Delhi SOTTO Headquarters at GB Pant Hospital & Expanded ANMOL Mission**
 - **Newborn Screening & Healthcare**:
   - SOTTO HQ at GB Pant Hospital.
   - Mission ANMOL expanded to screen newborns (24–72 hours of birth) free of cost for **63 congenital and genetic disorders** (target: 2.5 lakh infants/year).
@@ -987,7 +969,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-064] **Jammu & Kashmir Raises Subordinate Judicial Officers' Retirement Age to 62 Years**
+[OCT-063] **Jammu & Kashmir Raises Subordinate Judicial Officers' Retirement Age to 62 Years**
 - **Judicial Service Rules**:
   - Superannuation enhanced from 60 to **62 years** (retrospective from March 31, 2026), implementing SC ruling in *All India Judges Association* case. Matches High Court judge superannuation (62 years; Supreme Court: 65 years).
 
@@ -997,7 +979,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-065] **NCAHP Regulations 2026 & 'One Nation One Curriculum' D.MRIT Curriculum**
+[OCT-064] **NCAHP Regulations 2026 & 'One Nation One Curriculum' D.MRIT Curriculum**
 - **Allied Healthcare Framework**:
   - NCAHP (*NCAHP Act, 2021*) notified Autonomous Boards (UG, PG, Assessment & Rating, Ethics & Registration) and registration norms: unique ID (UID) + QR code, **valid 5 years**.
   - Notified 2-year **Diploma in Medical Radiology & Imaging Technology (D.MRIT)** with 6-month clinical internship (mandatory from AY 2027-28).
@@ -1009,7 +991,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-066] **Ceiling Price of Deepwater Natural Gas Raised to $9.89/MMBtu; APM Capped at $7**
+[OCT-065] **Ceiling Price of Deepwater Natural Gas Raised to $9.89/MMBtu; APM Capped at $7**
 - **Hydrocarbon Pricing**:
   - PPAC raised ceiling for deepwater/ultra-deepwater/HPHT discoveries to **$9.89/MMBtu** for H2 FY27 (up from $8.90).
   - Legacy APM gas remains capped at **$7.00/MMBtu** (new nomination wells: up to $7.70 via 10% premium).
@@ -1020,7 +1002,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-067] **MoRTH Clears ₹1,175.59 Cr 6-Lane Major Bridge over Teesta River on NH-10 (Sevoke, WB)**
+[OCT-066] **MoRTH Clears ₹1,175.59 Cr 6-Lane Major Bridge over Teesta River on NH-10 (Sevoke, WB)**
 - **Strategic Connectivity**:
   - 6.9-km, 6-lane bridge across Teesta River at Sevoke (Darjeeling district) secures year-round transit to Sikkim and the Siliguri Corridor.
 
@@ -1030,7 +1012,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-068] **Survey of India Standardises 28 Place and Feature Names Across Ladakh**
+[OCT-067] **Survey of India Standardises 28 Place and Feature Names Across Ladakh**
 - **Sovereign Cartography**:
   - MHA and SoI officially standardised 28 features in Ladakh: 10 peaks (*Atisha Giri, Kanishka Peak, Zorawar Peak, Martand Giri*), 3 mountains, 2 passes (*Chapchingal, Shachmirk*), 2 glaciers (*Parpik, Skamri*), and friction points *Gogra* and *Hot Spring*.
 
@@ -1040,7 +1022,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-069] **NABKISAN Lists India's First WASH Social Bond on NSE (₹180 Crore)**
+[OCT-068] **NABKISAN Lists India's First WASH Social Bond on NSE (₹180 Crore)**
 - **Social Finance**:
   - NABKISAN (NABARD subsidiary) listed India's 1st dedicated **Water, Sanitation & Hygiene (WASH)** Social Bond on NSE.
   - Raised ₹180 Cr (oversubscribed 1.8x); 5-year maturity (Sept 2031) at **8.10% coupon**. Rated AAA. Technical partner: Water.org.
@@ -1051,7 +1033,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-070] **RBI Grants Core Investment Company (CIC) Registration to Indiabulls Limited**
+[OCT-069] **RBI Grants Core Investment Company (CIC) Registration to Indiabulls Limited**
 - **NBFC Regulation**:
   - CIC requirements: Must hold ≥90% of net assets in group companies, with ≥60% in equity shares.
 
@@ -1061,7 +1043,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-071] **FIDC-TransUnion CIBIL 'Bharat Nirman' Report on NBFC Lending**
+[OCT-070] **FIDC-TransUnion CIBIL 'Bharat Nirman' Report on NBFC Lending**
 - **Credit Dispersion**:
   - NBFCs account for **47% of New-to-Credit (NTC)** consumers. Semi-urban and rural markets account for **>58%** of NBFC loan volume. Loans up to ₹2 lakh make up 82% of consumer origination volume. Delinquency (90+ days) fell to 1.1%.
 
@@ -1071,7 +1053,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-072] **MoF Monthly Economic Review: Q2 FY27 GDP Nowcast at 7.3%**
+[OCT-071] **MoF Monthly Economic Review: Q2 FY27 GDP Nowcast at 7.3%**
 - **Economic Indicators**:
   - Projected Q2 FY27 GDP at **7.3%** following Q1's record **7.8%** (Base Year 2022-23). July IIP at 6.7%, August PMI at 52.8.
 
@@ -1081,18 +1063,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-073] **Executive Appointments in Banking & Insurance**
-- **Key Corporate Shifts**:
-  - **HDFC Bank**: Anup Bagchi appointed MD & CEO for 3 years w.e.f. October 27, 2026 (succeeding Sashidhar Jagdishan).
-  - **ICICI Life Insurance**: Sidharatha Mishra appointed MD & CEO for 5 years w.e.f. October 14, 2026.
-
-**EXAM ANGLE:**
-- New HDFC Bank MD & CEO: **Anup Bagchi**. New ICICI Life MD & CEO: **Sidharatha Mishra**.
-
-
----
-
-[OCT-074] **Indian Navy Launches 1st Fleet Support Ship 'Surya' (FSS-1) at HSL Visakhapatnam**
+[OCT-072] **Indian Navy Launches 1st Fleet Support Ship 'Surya' (FSS-1) at HSL Visakhapatnam**
 - **Replenishment Tanker**:
   - 1st of 5 FSS under ₹19,000 Cr contract (82% indigenous).
   - Displacement: **43,500 tonnes**; Length: 223.6 m. Top speed: 20 knots (CODAD propulsion). Carries 20,000 tonnes diesel, 2,500 tonnes ATF, 1,000 tonnes fresh water. Mission endurance: 60 days.
@@ -1103,7 +1074,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-075] **DRDO Kaveri Dry Engine Achieves 48.5 kN Thrust in Russian Flight Trials for 'Ghatak' UCAV**
+[OCT-073] **DRDO Kaveri Dry Engine Achieves 48.5 kN Thrust in Russian Flight Trials for 'Ghatak' UCAV**
 - **Stealth Aero-Propulsion**:
   - Developed by GTRE, DRDO. Non-afterburning turbofan clocked **48.5 kN dry thrust** (exceeding 46 kN target) on modified Il-76 testbed at Gromov Flight Research Institute. Powers India's **Ghatak** stealth flying-wing UCAV.
 
@@ -1113,7 +1084,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-076] **India's First Free-Space QKD Link (5.56 km) by QNu Labs, BISAG-N & IIT Gandhinagar**
+[OCT-074] **India's First Free-Space QKD Link (5.56 km) by QNu Labs, BISAG-N & IIT Gandhinagar**
 - **Quantum Cryptography**:
   - Established 5.56 km link between BISAG-N and IIT Gandhinagar. QBER <5%, key rate 230–260 bps. Integrates hardware device *Armos* with software *Vedic Kavach*.
 
@@ -1123,7 +1094,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-077] **12th National Maritime Search & Rescue Exercise (SAREX-2026) off Paradip**
+[OCT-075] **12th National Maritime Search & Rescue Exercise (SAREX-2026) off Paradip**
 - **Coast Guard Maneuvers**:
   - Deployed 15 ICG ships and civil assets off Paradip, Odisha, with 32 international observers from 30 nations. Chaired by DG ICG Paramesh Sivamani.
 
@@ -1133,7 +1104,9 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-078] **Mahindra & Embraer Select Nagpur for C-390 Millennium Final Assembly Line**
+## 5. 🚀 SCIENCE, TECHNOLOGY, ENVIRONMENT & ENERGY
+
+[OCT-076] **Mahindra & Embraer Select Nagpur for C-390 Millennium Final Assembly Line**
 - **IAF Transport Procurement**:
   - Nagpur chosen for potential FAL under IAF Medium Transport Aircraft (MTA) programme (60 aircraft to replace An-32 and Il-76). C-390 payload: 26 tonnes.
 
@@ -1143,9 +1116,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-## 5. 🚀 SCIENCE, TECHNOLOGY, ENVIRONMENT & ENERGY
-
-[OCT-079] **Exercise 'Mountain Guardian 2026': India-UAE Joint Military Exercise at Chaubatia**
+[OCT-077] **Exercise 'Mountain Guardian 2026': India-UAE Joint Military Exercise at Chaubatia**
 - **Bilateral Mountain Drills**:
   - 3rd edition held at Chaubatia, Uttarakhand (Oct 5–18, 2026) featuring 92 personnel from Indian Army Bhairav Battalion and UAE Mountain Infantry.
 
@@ -1155,7 +1126,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-080] **PM E-DRIVE Scheme Extended to March 2028 with ₹11,900 Crore Outlay**
+[OCT-078] **PM E-DRIVE Scheme Extended to March 2028 with ₹11,900 Crore Outlay**
 - **EV Demand Incentives**:
   - Outlay raised to **₹11,900 crore** (extended till March 31, 2028). Subsumed EMPS 2024.
   - e-2Ws: ₹2,500/kWh, capped at ₹5,000 (ex-factory ceiling ₹1.5 lakh). e-Buses: ₹4,391 Cr for 14,028 buses across 7 cities. EV PCS: ₹2,000 Cr.
@@ -1167,7 +1138,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-081] **Andhra Pradesh Launches 'JJM 2.0 - Amarajeevi Jaladhara' (₹30,156 Crore)**
+[OCT-079] **Andhra Pradesh Launches 'JJM 2.0 - Amarajeevi Jaladhara' (₹30,156 Crore)**
 - **Rural Tap Water Saturation**:
   - Connects 27.36 lakh additional rural households across 24,601 habitations by Dec 2028. National JJM 2.0 enhanced to ₹8.69 lakh crore.
 
@@ -1177,7 +1148,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-082] **BHAVYA Rasayan Scheme: 3 Dedicated Chemical Parks with ₹3,030 Crore Outlay**
+[OCT-080] **BHAVYA Rasayan Scheme: 3 Dedicated Chemical Parks with ₹3,030 Crore Outlay**
 - **Chemical Clusters**:
   - Central grant up to ₹1,000 Cr per park (states contribute min ₹500 Cr). Min contiguous area: 8 sq km (2,000 acres). Runs FY27 to FY31.
 
@@ -1187,7 +1158,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-083] **Commerce Ministry Extends RELIEF Scheme Component II Timelines to March 31, 2027**
+[OCT-081] **Commerce Ministry Extends RELIEF Scheme Component II Timelines to March 31, 2027**
 - **Export Risk Coverage**:
   - 95% risk coverage via ECGC for containerised exports navigating West Asia/Gulf. Total RELIEF outlay: ₹497 Cr under Export Promotion Mission (₹25,000+ Cr).
 
@@ -1197,7 +1168,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-084] **India-EU Green Shipping Corridor Industry Coalition Launched at Sagarmanthan 2026**
+[OCT-082] **India-EU Green Shipping Corridor Industry Coalition Launched at Sagarmanthan 2026**
 - **Bunkering Decarbonisation**:
   - Formalised at Sagarmanthan Dialogue (MoPSW + ORF). Explores **green ammonia and green methanol** bunkering, linking VOC Port (Tuticorin) with European ports. Technical partner: RMI.
 
@@ -1207,7 +1178,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-085] **MoSPI ASI 2024-25 & Forward-Looking Private Corporate CAPEX Survey 2026**
+[OCT-083] **MoSPI ASI 2024-25 & Forward-Looking Private Corporate CAPEX Survey 2026**
 - **Industrial Performance**:
   - ASI 2024-25: Manufacturing GVA rose 9.59% to **₹26.94 lakh Cr**. Factory workers crossed 2 Cr to **2.10 crore**. Top GVA state: **Maharashtra (15.92%)**; Top factories: **Tamil Nadu (41,221)**.
   - CAPEX Survey: 2025-26 private CAPEX estimated at ₹11.44 lakh Cr. Internal accruals funded 65.35%.
@@ -1218,7 +1189,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-086] **10th India Mobile Congress (IMC) 2026 at Yashobhoomi, New Delhi**
+[OCT-084] **10th India Mobile Congress (IMC) 2026 at Yashobhoomi, New Delhi**
 - **Tech Forum**:
   - Theme: *"Scale Without Boundaries"*. Organised by DoT and COAI. 4 pillars: Srishti, Suraksha, Sashakt, Samvardhan. Hosts Startup World Cup India ($1M San Francisco ticket) and ASPIRE deeptech summit.
 
@@ -1228,7 +1199,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-087] **Operational Manual for India-Japan Joint Crediting Mechanism (JCM) Launched**
+[OCT-085] **Operational Manual for India-Japan Joint Crediting Mechanism (JCM) Launched**
 - **Carbon Trading**:
   - Operationalises bilateral offset transfers under **Article 6.2 of the Paris Agreement**.
 
@@ -1238,7 +1209,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-088] **Dr. Bimal N. Patel Sworn in as ITLOS Judge for 9-Year Term (2026–2035)**
+[OCT-086] **Dr. Bimal N. Patel Sworn in as ITLOS Judge for 9-Year Term (2026–2035)**
 - **Law of the Sea**:
   - Sworn in at Hamburg, Germany, succeeding Neeru Chadha. 21-member tribunal under UNCLOS.
 
@@ -1248,7 +1219,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-089] **Supreme Court of India Appoints 3 New Judges**
+[OCT-087] **Supreme Court of India Appoints 3 New Judges**
 - **Judicial Elevation**:
   - Justices Sunita Agarwal (Gujarat HC), Devendra Kumar Upadhyaya (Delhi HC), and Aparesh Kumar Singh (Telangana HC) elevated to SC. Women SC judges count reaches 3.
 
@@ -1258,7 +1229,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-090] **Strategic MoUs & Bilateral Agreements (October 8–10, 2026)**
+[OCT-088] **Strategic MoUs & Bilateral Agreements (October 8–10, 2026)**
 - **Adani Power & DGPC Bhutan**: 770 MW Chamkharchhu-I Hydro Project (49:51 equity, 30-yr BOOT).
 - **ICAR & CSIR-CRI Ghana**: 5-year MoU for tomato breeding and tuber crops.
 - **Nālandā University & CSIR-TKDL Unit**: Traditional Knowledge & IPR cooperation (TKDL has 5.2+ lakh formulations).
@@ -1271,7 +1242,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-091] **High-Frequency Records, Awards & Significant Observances (October 8–10, 2026)**
+[OCT-089] **High-Frequency Records, Awards & Significant Observances (October 8–10, 2026)**
 - **Lhuan-dre Pretorius (South Africa)**: Smashed **188* off 79 balls** in CSA T20 Challenge, breaking Chris Gayle’s 175* record for highest men's T20 score.
 - **19th IOAA Hanoi**: India won 4 Gold, 1 Silver (joint 3rd).
 - **Rajeshwari Kumari**: Elected to OCA Athletes Commission at Aichi-Nagoya.
@@ -1290,7 +1261,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-092] **SEBI Introduces ‘Credit Risk-o-Meter’ for Debt Securities and Online Bond Platforms**
+[OCT-090] **SEBI Introduces ‘Credit Risk-o-Meter’ for Debt Securities and Online Bond Platforms**
 - **Debt Risk Profiling**:
   - Maps AAA to D ratings into **6 colour-coded risk levels** across listed and proposed non-convertible debentures, CPs, and MLDs.
   - Mandatory on offer docs and OBPP platforms. Split ratings rule: Must display **lowest rating**. Unsecured debt marked in **bold red**. OBPPs must update within **24 hours** of NSDL/CDSL notices.
@@ -1303,7 +1274,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-093] **RBI Master Direction on Note Sorting Machines & BIS Standard IS 18663:2024**
+[OCT-091] **RBI Master Direction on Note Sorting Machines & BIS Standard IS 18663:2024**
 - **Currency Fitness Criteria**:
   - Issued under Sec 35A & 56 of BR Act, 1949. Phased-out currency notes are automatically sorted as **UNFIT**.
   - Unfit Parameters: Dog-ears >100 mm² (edge >5 mm); tears >4×8 mm (V), 4×15 mm (H), 4×18 mm (D); holes >8 mm²; stains >500 mm² (single >200 mm²); tape thickness ≥50 μm.
@@ -1317,7 +1288,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-094] **RBI Master Circular: Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)**
+[OCT-092] **RBI Master Circular: Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)**
 - **Priority Sector Norms**:
   - No margin/collateral deposits for SC/ST loans under govt poverty alleviation programs. Loan rejections cannot occur at branch level (must be escalated to the next higher authority).
   - Quotas: DAY-NRLM (≥50% to SC/ST); DRI Scheme (max ₹15,000 at 4% interest rate, ≥40% reserved for SC/ST).
@@ -1329,7 +1300,9 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-095] **RBI Standardised Approach for Counterparty Credit Risk (SA-CCR) & CVA Framework**
+## 6. 📋 NATIONAL SCHEMES, SKILLING & SOCIAL WELFARE
+
+[OCT-093] **RBI Standardised Approach for Counterparty Credit Risk (SA-CCR) & CVA Framework**
 - **Capital Adequacy & Derivatives**:
   - SA-CCR mandatory for banks with international presence OR gross derivative exposure **≥₹25,000 Crore**. Other banks can choose between Current Exposure Method (CEM) and SA-CCR.
   - CVA Framework effective **April 1, 2027**; introduces Basic Approach (BA-CVA) segregating systemic vs idiosyncratic counterparty risks.
@@ -1341,9 +1314,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-## 6. 📋 NATIONAL SCHEMES, SKILLING & SOCIAL WELFARE
-
-[OCT-096] **RBI Developmental Measures: Account Aggregator Interoperability & Financial Markets Committee**
+[OCT-094] **RBI Developmental Measures: Account Aggregator Interoperability & Financial Markets Committee**
 - **Digital Infrastructure**:
   - RBI introduced interoperability across NBFC-AAs. Demat holders can view bank deposit balances in Consolidated Account Statement (CAS) via NBFC-AAs by **December 31, 2026**.
   - Formed Technical Consultative Committee for Financial Markets.
@@ -1354,7 +1325,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-097] **RBI Excludes Paytm Payments Bank Limited from Second Schedule to RBI Act, 1934**
+[OCT-095] **RBI Excludes Paytm Payments Bank Limited from Second Schedule to RBI Act, 1934**
 - **Regulatory De-Scheduling**:
   - RBI struck Paytm Payments Bank (PPBL) from the Second Schedule of the RBI Act, 1934 (notified Sept 7, 2026), formally terminating its Scheduled Bank status.
 
@@ -1364,7 +1335,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-098] **NaBFID Debut $750M US Dollar Bond & Cabinet Approves ₹10,000 Cr SME Growth Fund**
+[OCT-096] **NaBFID Debut $750M US Dollar Bond & Cabinet Approves ₹10,000 Cr SME Growth Fund**
 - **Development Finance**:
   - NaBFID raised **$750 million** in inaugural 10-year US dollar bonds (due 2036, **6.122% coupon**), fully hedged via a 5-year RBI forex swap.
   - Cabinet approved **₹10,000 crore** commitment for the SME Growth Fund (Alternative Investment Fund model) providing patient growth equity in Tier-II/III clusters.
@@ -1376,7 +1347,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-099] **GST 2.0 Decriminalisation Proposal & RBI's Five Financial Stability Priorities**
+[OCT-097] **GST 2.0 Decriminalisation Proposal & RBI's Five Financial Stability Priorities**
 - **Tax Policy & Financial Stability**:
   - Proposal to remove GST-specific arrest powers to end inspector overreach.
   - RBI Governor highlighted 5 priorities: Systemic Resilience, Identifying New Risks, Granular Supervision, Safety Nets/Resolution, and Sound Corporate Governance.
@@ -1387,21 +1358,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-100] **Fintech, Insurtech & Digital Mascot Initiatives: PhonePe, BoB & Ageas Federal**
-- **Market Compliance & Security**:
-  - PhonePe partnered with DPCGC (Level-II SRO under IT Rules 2021) for mandatory merchant SRO compliance.
-  - Bank of Baroda launched mascot **'bob Cyber Veeru'** for Cybersecurity Awareness Month.
-  - Ageas Federal launched *Aurum Advantage Plan* (first multi-currency ULIP at GIFT City IFSC).
-  - Jio Financial and Allianz Europe infused ₹320.05 Cr each into Jio Allianz General Insurance.
-
-**EXAM ANGLE:**
-- Cyber Mascot: **bob Cyber Veeru** (Bank of Baroda).
-- GIFT City Multi-Currency ULIP: **Aurum Advantage Plan** (Ageas Federal).
-
-
----
-
-[OCT-101] **SEBI Project Jagrook & MoRD Notifies 375 Works Under VB–G RAM G Act 2025**
+[OCT-098] **SEBI Project Jagrook & MoRD Notifies 375 Works Under VB–G RAM G Act 2025**
 - **Literacy & Rural Schemes**:
   - SEBI launched *‘Samajh Se Investing Simple’* under **Project Jagrook** with Ministry of Panchayati Raj.
   - MoRD notified **375 permissible works** under the *VB–G RAM G Act, 2025* focusing on water and storage infrastructure.
@@ -1413,7 +1370,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-102] **MoSPI Strategy for Environmental Economic Accounts (2026–2030)**
+[OCT-099] **MoSPI Strategy for Environmental Economic Accounts (2026–2030)**
 - **Natural Capital Accounting**:
   - MoSPI unveiled 2026–2030 strategy aligning India's wealth indicators with UN System of Environmental-Economic Accounting (SEEA) across 40 metrics and 9 SDGs. Partnered with Pahle India Foundation.
 
@@ -1423,7 +1380,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-103] **World Bank World Development Report 2026 & CAPF Act 2026**
+[OCT-100] **World Bank World Development Report 2026 & CAPF Act 2026**
 - **AI Economics & Uniform Service Rules**:
   - World Bank WDR 2026 (*"The Promise of Artificial Intelligence"*) highlighted "Small AI" for developing economies; South Asian growth projected at 6.9%.
   - *Central Armed Police Forces (General Administration) Act, 2026* entered into force, unifying administrative rules across CRPF, BSF, CISF, ITBP, and SSB.
@@ -1435,7 +1392,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-104] **Strategic Infrastructure & Clearances: Jewar Airport, Puri Airport & Nameri Tiger Reserve**
+[OCT-101] **Strategic Infrastructure & Clearances: Jewar Airport, Puri Airport & Nameri Tiger Reserve**
 - **Aviation & Conservation**:
   - Jewar Airport proposed naming: *Narendra Modi International Airport* (Zurich Airport PPP).
   - MoEFCC/CRZ cleared Greenfield *Shree Jagannath International Airport* in Puri (AAI).
@@ -1448,7 +1405,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-105] **Indigenous Defence Modernisation: INS Mangrol, EyeROV Drone & DRDO HAPS**
+[OCT-102] **Indigenous Defence Modernisation: INS Mangrol, EyeROV Drone & DRDO HAPS**
 - **Maritime & Aerial Systems**:
   - Indian Navy commissioned 3rd ASW-SWC **INS Mangrol** (CSL built; Abhay hull sonar + Mareech decoy + triple waterjets).
   - EyeROV delivered India's 1st military underwater ROV (**EyeROV TROUT**) to Navy.
@@ -1461,7 +1418,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-106] **Global Diplomacy: 15th AITIGA Review, 153rd IPU & World Bank Leadership**
+[OCT-103] **Global Diplomacy: 15th AITIGA Review, 153rd IPU & World Bank Leadership**
 - **Multilateral Engagements**:
   - 15th ASEAN-India AITIGA Joint Committee convened in Jakarta.
   - 153rd Inter-Parliamentary Union (IPU) Assembly held in Tanzania.
@@ -1474,19 +1431,17 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-107] **Governance, Energy & Surveys: PRAGATI 50, GOBARdhan CBG & NSO Travel Survey**
+[OCT-104] **Governance, Energy & Surveys: PRAGATI 50, GOBARdhan CBG & NSO Travel Survey**
 - **National Surveys & Duties**:
   - NSO initiated India's **1st Household Travel Survey** to map commuting trends.
-  - Windfall export taxes lowered: Diesel to **₹16/L** (from ₹20), ATF to **₹10.50/L** (from ₹15). Petrol unchanged at ₹0.50/L.
-
+  
 **EXAM ANGLE:**
 - 1st Pan-India Commuter Survey: **NSO Household Travel Survey**.
-- Diesel Windfall Tax: **₹16 / Litre**; ATF: **₹10.50 / Litre**.
 
 
 ---
 
-[OCT-108] **Ecology, Agriculture, Sports & Records (October 1–10, 2026)**
+[OCT-105] **Ecology, Agriculture, Sports & Records (October 1–10, 2026)**
 - **High-Frequency Records**:
   - WWF Living Planet Report 2026 flagged vertebrate biodiversity decline under COP15 Kunming-Montreal targets.
   - Prasar Bharati launched *Kisan Cricket League (KCL)*.
@@ -1505,7 +1460,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-109] **RBI Sets 6.45% Coupon Rate on Floating Rate Bond (FRB) 2028**
+[OCT-106] **RBI Sets 6.45% Coupon Rate on Floating Rate Bond (FRB) 2028**
 - **Sovereign Debt Reset**:
   - RBI fixed the interest rate on the *Government of India Floating Rate Bond (FRB) 2028* at **6.45% per annum** for the six-month period from **October 4, 2026, to April 3, 2027**.
   - Coupon links to the average cut-off yields of the last three auctions of **182-day T-Bills** plus fixed sovereign spread, resetting semi-annually.
@@ -1517,7 +1472,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-110] **SEBI Enforces Pre-Trade F&O Risk Disclosures Across All Stock Brokers**
+[OCT-107] **SEBI Enforces Pre-Trade F&O Risk Disclosures Across All Stock Brokers**
 - **Derivatives Retail Protection**:
   - Stock brokers must display a prominent pop-up screen before executing F&O orders highlighting SEBI's empirical finding: **9 out of 10 retail traders (89%) in equity F&O lose money**, averaging over ₹1.1 lakh net loss per loss-making trader.
 
@@ -1529,7 +1484,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ## 7. 📊 MACROECONOMIC METRICS, INDICES & SURVEYS
 
-[OCT-111] **Trade Margin Capped at 30% of MRP for Non-Scheduled Anti-Cancer Drugs**
+[OCT-108] **Trade Margin Capped at 30% of MRP for Non-Scheduled Anti-Cancer Drugs**
 - **Pharmaceutical Price Regulation**:
   - DoP / NPPA approved a **30% Trade Margin Cap** (calculated as $(MRP - PTR) / PTR \times 100$) on non-scheduled anti-cancer medications under Paragraph 19 of **DPCO 2013** (Essential Commodities Act, 1955).
   - Lowers retail prices of critical oncology treatments by **50% to 70%**.
@@ -1541,7 +1496,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-112] **India's 1st 3D Concrete-Printed Rural Housing Project under PMAY-G**
+[OCT-109] **India's 1st 3D Concrete-Printed Rural Housing Project under PMAY-G**
 - **Rural Housing Tech**:
   - Rural Development Minister Shivraj Singh Chouhan launched India's first **3D Concrete-Printed Housing Project** under PMAY-G.
   - Complete structural shell printed in **under 5 days** using robotic extrusion concrete, providing high seismic and thermal resilience.
@@ -1553,7 +1508,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-113] **UNCTAD 2026 Trade and Development Report: India Highest Growth at 7.3%**
+[OCT-110] **UNCTAD 2026 Trade and Development Report: India Highest Growth at 7.3%**
 - **Global Economic Projections**:
   - UNCTAD projects **India's economy to expand by 7.3% in 2026**, leading all major global economies.
   - Global growth projected at **2.6% in 2026** (2.7% in 2027); Global trade growth at **4%**.
@@ -1566,7 +1521,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-114] **World Bank Ranks India in Top 10 Emerging Markets for AI Readiness**
+[OCT-111] **World Bank Ranks India in Top 10 Emerging Markets for AI Readiness**
 - **Digital Infrastructure**:
   - World Bank study placed India among the **Top 10 Emerging Markets in AI Readiness**, driven by deep STEM talent, expanding data centers, and Digital Public Infrastructure (DPI / India Stack).
 
@@ -1576,7 +1531,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-115] **2026 Nobel Prize in Medicine: Victor Ambros and Gary Ruvkun for microRNA**
+[OCT-112] **2026 Nobel Prize in Medicine: Victor Ambros and Gary Ruvkun for microRNA**
 - **Genetic Discovery**:
   - Nobel Prize in Physiology or Medicine awarded jointly to **Victor Ambros and Gary Ruvkun** (USA) for discovering **microRNA** and its role in post-transcriptional gene regulation using *C. elegans*.
 
@@ -1587,7 +1542,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-116] **CryptoSe: India's First Crypto-to-UPI Direct Merchant Bridge Application**
+[OCT-113] **CryptoSe: India's First Crypto-to-UPI Direct Merchant Bridge Application**
 - **Fintech Innovation**:
   - Dadu Fintech launched **CryptoSe**, India's first app allowing users to spend virtual digital assets (VDAs) directly via merchant UPI QR codes, with automated **1% TDS under Section 194S** and FIU-IND compliance.
 
@@ -1598,7 +1553,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-117] **HAL Takes 100% Full Ownership of Helicopter Simulator JV 'HATSOFF'**
+[OCT-114] **HAL Takes 100% Full Ownership of Helicopter Simulator JV 'HATSOFF'**
 - **Defence Aviation**:
   - HAL bought out CAE Inc.'s 50% stake to assume **100% ownership of HATSOFF** (Helicopter Academy to Train by Simulation of Flying) in Bengaluru, operating Level D full-flight simulators for ALH Dhruv.
 
@@ -1609,7 +1564,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-118] **DRISHTI Project: ₹65 Crore GIS Drone Survey for Delhi Unauthorised Colonies**
+[OCT-115] **DRISHTI Project: ₹65 Crore GIS Drone Survey for Delhi Unauthorised Colonies**
 - **Spatial Land Titles**:
   - Central Government approved **₹65 Crore DRISHTI** (*Delhi Revenue and Imaging Survey, Spatial Technology Initiative*) using drone LiDAR and GIS satellite mapping to expedite property ownership rights in Delhi unauthorised colonies under PM-UDAY.
 
@@ -1619,7 +1574,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-119] **Ghana Joins India-Led International Big Cat Alliance (IBCA)**
+[OCT-116] **Ghana Joins India-Led International Big Cat Alliance (IBCA)**
 - **Global Wildlife Diplomacy**:
   - Republic of Ghana submitted its Instrument of Acceptance to EAM S. Jaishankar, joining the **International Big Cat Alliance (IBCA)**.
   - IBCA protects **7 big cats** (Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, Puma) with an initial ₹150 Crore Government of India corpus.
@@ -1631,7 +1586,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-120] **Joint Indo-Argentine Army Mountaineering Expedition Summits Mt Kamet & Mt Abi Gamin**
+[OCT-117] **Joint Indo-Argentine Army Mountaineering Expedition Summits Mt Kamet & Mt Abi Gamin**
 - **High-Altitude Expedition**:
   - COAS Gen Dhiraj Seth flagged in the joint 35-member team that scaled **Mt Kamet (7,756m)** and **Mt Abi Gamin (7,355m)** in Uttarakhand's Garhwal Himalayas.
 
@@ -1644,7 +1599,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ## 8. 🏆 AWARDS, NOBEL LAUREATES & HIGH-FREQUENCY RECORDS
 
-[OCT-121] **2nd India–EFTA Prosperity Summit 2026: $100 Billion Partnership Milestone**
+[OCT-118] **2nd India–EFTA Prosperity Summit 2026: $100 Billion Partnership Milestone**
 - **Trade Accords**:
   - PM Narendra Modi and Swiss President Guy Parmelin addressed the 2nd India–EFTA Summit in New Delhi celebrating the 1st year of **TEPA**, tracking EFTA's **$100 billion investment commitment** over 15 years.
 
@@ -1655,7 +1610,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-122] **8th Windergy India 2026 Convened in Chennai, Tamil Nadu**
+[OCT-119] **8th Windergy India 2026 Convened in Chennai, Tamil Nadu**
 - **Renewable Capacity**:
   - MNRE Minister Pralhad Joshi and IWTMA held the 8th Windergy India in Chennai, targeting repowering of older turbines and accelerating 1 GW offshore wind tenders in TN and Gujarat.
 
@@ -1666,7 +1621,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-123] **Ambaji Mohanthal Prasad Awarded Geographical Indication (GI) Tag**
+[OCT-120] **Ambaji Mohanthal Prasad Awarded Geographical Indication (GI) Tag**
 - **Intellectual Property**:
   - Ambaji Mohanthal Prasad (offered at Ambaji Mata Temple, Banaskantha, Gujarat) received the **GI Tag under Class 30**, joining Tirupati Laddu and Palani Panchamirtham.
 
@@ -1677,7 +1632,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-124] **Putul Sonowal Assures India's 1st Medal at World Bowls Champion of Champions**
+[OCT-121] **Putul Sonowal Assures India's 1st Medal at World Bowls Champion of Champions**
 - **Sports Milestone**:
   - Putul Sonowal reached the men's singles semi-finals at the **World Bowls Champion of Champions** in Barham, Australia, securing India's first-ever medal at the tournament.
 
@@ -1687,7 +1642,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-125] **African Union Launches Africa Credit Rating Agency (AfCRA) in Mauritius**
+[OCT-122] **African Union Launches Africa Credit Rating Agency (AfCRA) in Mauritius**
 - **Financial Architecture**:
   - The African Union launched **AfCRA** in Ebene, Mauritius, to establish sovereign rating models addressing rating downgrades from Western Big Three agencies.
 
@@ -1698,7 +1653,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-126] **Supreme Court Constitutes Standing Committee on Judicial Well-Being**
+[OCT-123] **Supreme Court Constitutes Standing Committee on Judicial Well-Being**
 - **Judicial Welfare**:
   - CJI established the permanent Standing Committee on Judicial Well-Being to monitor psychological support, stress management, and workload for trial court judges.
 
@@ -1708,17 +1663,7 @@ The remaining key rates are 6.9% for the 1-year Time Deposit, 7.0% for the 2-yea
 
 ---
 
-[OCT-127] **153rd Inter-Parliamentary Union (IPU) Assembly in Geneva**
-- **Global Diplomacy**:
-  - Indian delegation addressed the 153rd IPU Assembly in Geneva, Switzerland, on AI ethics and international peace protocols (IPU established 1889).
-
-**EXAM ANGLE:**
-- Assembly: **153rd Inter-Parliamentary Union (IPU)** in **Geneva, Switzerland**.
-
-
----
-
-[OCT-128] **2024 Nobel Prizes Master Roll: Physiology/Medicine, Physics, Chemistry, Literature, Peace & Economic Sciences**
+[OCT-124] **2024 Nobel Prizes Master Roll: Physiology/Medicine, Physics, Chemistry, Literature, Peace & Economic Sciences**
 - **Physiology or Medicine**:
   - **Victor Ambros** (UMass Chan Medical School) & **Gary Ruvkun** (Harvard/Mass General).
   - *Citation*: *"For the discovery of microRNA and its role in post-transcriptional gene regulation"*.
