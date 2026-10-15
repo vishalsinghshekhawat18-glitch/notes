@@ -700,7 +700,7 @@ export function Shelf007ContinuousReader({
                         {label}
                       </div>
                       <div className={`text-[10px] font-mono mt-1 ${isActive ? 'text-[#A1B8A9]' : 'text-[#8A9E92]'}`}>
-                        {sec.wordCount ? `${sec.wordCount} words` : `Unit ${idx + 1}`}
+                        {sec.itemLabel || (sec.wordCount ? `${sec.wordCount} words` : `Unit ${idx + 1}`)}
                       </div>
                     </div>
                     {isActive && (
@@ -771,6 +771,14 @@ export function Shelf007ContinuousReader({
               <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded">
                 📚 {currentChapter.sections.length} Editorial Sections
               </span>
+              {currentChapter.sections.some((s) => s.itemCount) && (
+                <>
+                  <span>•</span>
+                  <span className="bg-[#FAF9F4] text-[#10251F] font-semibold border border-[#E0D9CB] px-2 py-0.5 rounded">
+                    🎯 {currentChapter.sections.reduce((acc, s) => acc + (s.itemCount || 0), 0)} News Clusters & Units
+                  </span>
+                </>
+              )}
               <span>•</span>
               <span className="bg-[#FFFFFF] border border-[#E0D9CB] px-2 py-0.5 rounded">
                 ⏱️ ~{currentChapter.readingMinutes} mins read
@@ -781,6 +789,22 @@ export function Shelf007ContinuousReader({
               </span>
             </div>
           </section>
+
+          {/* Executive Overview & Pre-Section Front Matter (Preamble) */}
+          {currentChapter.preamble && (
+            <section className="bg-[#FAF9F5] border border-[#E0D9CB] rounded-xl p-5 sm:p-6 shadow-2xs space-y-4">
+              <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-[#9E722C] pb-2 border-b border-[#E8E2D5]">
+                <span>📋</span>
+                <span>Executive Overview & At a Glance Index</span>
+              </div>
+              <div className="space-y-3">
+                <MarkdownContent
+                  content={currentChapter.preamble}
+                  className="leading-relaxed text-[#1B211E] font-serif"
+                />
+              </div>
+            </section>
+          )}
 
           {/* Sections Rendered Sequentially as Textbook Sections */}
           {currentChapter.sections.map((section, index) => {
@@ -805,9 +829,14 @@ export function Shelf007ContinuousReader({
                     </h3>
                   </div>
 
-                  <span className="text-[10px] font-mono text-[#5A7365] shrink-0">
-                    ~{Math.max(1, Math.ceil(section.wordCount / 220))}m read
-                  </span>
+                  <div className="flex items-center gap-2 text-[10px] font-mono text-[#5A7365] shrink-0">
+                    {section.itemLabel && (
+                      <span className="bg-[#FAF9F4] text-[#10251F] font-semibold border border-[#E0D9CB] px-2 py-0.5 rounded">
+                        🎯 {section.itemLabel}
+                      </span>
+                    )}
+                    <span>~{Math.max(1, Math.ceil(section.wordCount / 220))}m read</span>
+                  </div>
                 </header>
 
                 {/* Section Markdown Body */}

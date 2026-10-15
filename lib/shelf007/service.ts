@@ -8,6 +8,8 @@ export interface Shelf007SectionItem {
   order: number;
   body: string;
   wordCount: number;
+  itemCount?: number;
+  itemLabel?: string;
 }
 
 export interface Shelf007ChapterItem {
@@ -21,6 +23,7 @@ export interface Shelf007ChapterItem {
   wordCount: number;
   readingMinutes: number;
   sections: Shelf007SectionItem[];
+  preamble?: string;
 }
 
 export interface Shelf007PartGroup {
@@ -59,34 +62,65 @@ function calculateReadingMinutes(wordCount: number): number {
   return Math.max(1, Math.ceil(wordCount / 220));
 }
 
-function extractSectionsFromMarkdown(content: string): Shelf007SectionItem[] {
+function extractSectionsFromMarkdown(
+  content: string,
+  isCurrentAffairs: boolean = false
+): { sections: Shelf007SectionItem[]; preamble?: string } {
   const lines = content.split('\n');
   const sections: Shelf007SectionItem[] = [];
-  let currentTitle = 'Overview & Epistemic Foundations';
+  let preambleLines: string[] = [];
+  let currentTitle = '';
   let currentLines: string[] = [];
   let order = 1;
+  let hasFoundFirstH2 = false;
+
+  const pushSection = (title: string, linesToPush: string[]) => {
+    const body = linesToPush.join('\n').trim();
+    if (body.length === 0) return;
+
+    const wordCount = body.split(/\s+/).filter(Boolean).length;
+    const newsMatches = body.match(/^###\s+\[/gm);
+    const sheetMatches = body.match(/^###\s+(?:Master\s+)?Sheet/gmi);
+    const h3Matches = body.match(/^###\s+/gm);
+
+    let itemCount: number | undefined;
+    let itemLabel: string;
+
+    if (newsMatches && newsMatches.length > 0) {
+      itemCount = newsMatches.length;
+      itemLabel = `${newsMatches.length} ${newsMatches.length === 1 ? 'news item' : 'news items'}`;
+    } else if (sheetMatches && sheetMatches.length > 0) {
+      itemCount = sheetMatches.length;
+      itemLabel = `${sheetMatches.length} ${sheetMatches.length === 1 ? 'revision sheet' : 'revision sheets'}`;
+    } else if (isCurrentAffairs && h3Matches && h3Matches.length > 0) {
+      itemCount = h3Matches.length;
+      itemLabel = `${h3Matches.length} ${h3Matches.length === 1 ? 'item' : 'items'}`;
+    } else {
+      itemLabel = `${wordCount} words`;
+    }
+
+    sections.push({
+      id: `sec-${order}`,
+      slug: `sec-${order}`,
+      title,
+      order,
+      body,
+      wordCount,
+      itemCount,
+      itemLabel,
+    });
+    order++;
+  };
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const match = line.match(/^##\s+(.+)$/);
     if (match) {
-      if (currentLines.length > 0) {
-        const substantive = currentLines
-          .filter((l) => !l.startsWith('# ') && !l.includes('page-break') && !l.startsWith('---') && l.trim().length > 0)
-          .join('\n')
-          .trim();
-        const body = currentLines.join('\n').trim();
-        if (body.length > 0 && substantive.length > 0) {
-          sections.push({
-            id: `sec-${order}`,
-            slug: `sec-${order}`,
-            title: currentTitle,
-            order,
-            body,
-            wordCount: body.split(/\s+/).filter(Boolean).length,
-          });
-          order++;
-        }
+      if (!hasFoundFirstH2) {
+        hasFoundFirstH2 = true;
+        preambleLines = currentLines;
+      } else if (currentLines.length > 0) {
+        pushSection(currentTitle, currentLines);
       }
       currentTitle = match[1].replace(/<[^>]+>/g, '').trim();
       currentLines = [];
@@ -95,32 +129,40 @@ function extractSectionsFromMarkdown(content: string): Shelf007SectionItem[] {
     }
   }
 
-  if (currentLines.length > 0) {
-    const body = currentLines.join('\n').trim();
-    if (body.length > 0) {
-      sections.push({
-        id: `sec-${order}`,
-        slug: `sec-${order}`,
-        title: currentTitle,
-        order,
-        body,
-        wordCount: body.split(/\s+/).filter(Boolean).length,
-      });
-    }
+  if (hasFoundFirstH2 && currentLines.length > 0) {
+    pushSection(currentTitle, currentLines);
   }
 
-  if (sections.length === 0) {
+  if (!hasFoundFirstH2) {
+    const body = content.trim();
+    const wordCount = body.split(/\s+/).filter(Boolean).length;
     sections.push({
       id: 'sec-1',
       slug: 'sec-1',
       title: 'Complete Text',
       order: 1,
-      body: content,
-      wordCount: content.split(/\s+/).filter(Boolean).length,
+      body,
+      wordCount,
+      itemLabel: `${wordCount} words`,
     });
   }
 
-  return sections;
+  const cleanPreamble = preambleLines
+    .filter(
+      (l) =>
+        !l.startsWith('# ') &&
+        !l.includes('page-break') &&
+        !l.includes('style="page-break')
+    )
+    .join('\n')
+    .replace(/^[\s\r\n\-]+/, '')
+    .replace(/[\s\r\n\-]+$/, '')
+    .trim();
+
+  return {
+    sections,
+    preamble: cleanPreamble.length > 0 ? cleanPreamble : undefined,
+  };
 }
 
 function extractDescriptionFromMarkdown(content: string, fallback: string): string {
@@ -491,7 +533,7 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of Contemporary Issues & Current Affairs, statutory genesis, institutional mechanisms, and multi-exam elimination frameworks.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, true);
 
     return {
       slug,
@@ -504,6 +546,7 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 
@@ -529,7 +572,7 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
         content,
         'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
       );
-      const sections = extractSectionsFromMarkdown(content);
+      const { sections, preamble } = extractSectionsFromMarkdown(content, true);
 
       revItems.push({
         slug,
@@ -542,6 +585,7 @@ export function getCurrentAffairsChapters(): Shelf007ChapterItem[] {
         wordCount,
         readingMinutes: calculateReadingMinutes(wordCount),
         sections,
+        preamble,
       });
     }
   }
@@ -598,7 +642,7 @@ export function getRajasthanChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -611,6 +655,7 @@ export function getRajasthanChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 
@@ -631,7 +676,7 @@ export function getRajasthanChapters(): Shelf007ChapterItem[] {
         content,
         'High-speed 60-second retrieval skeletons, distinction matrices, and diagnostic flashcards.'
       );
-      const sections = extractSectionsFromMarkdown(content);
+      const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
       revItems.push({
         slug,
@@ -644,6 +689,7 @@ export function getRajasthanChapters(): Shelf007ChapterItem[] {
         wordCount,
         readingMinutes: calculateReadingMinutes(wordCount),
         sections,
+        preamble,
       });
     }
   }
@@ -700,7 +746,7 @@ export function getHindiChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of General Hindi, administrative rhetoric, grammar derivations, and high-scoring RPSC RAS Paper 4 models.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -713,6 +759,7 @@ export function getHindiChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 
@@ -732,7 +779,7 @@ export function getHindiChapters(): Shelf007ChapterItem[] {
         content,
         'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
       );
-      const sections = extractSectionsFromMarkdown(content);
+      const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
       revItems.push({
         slug,
@@ -745,6 +792,7 @@ export function getHindiChapters(): Shelf007ChapterItem[] {
         wordCount,
         readingMinutes: calculateReadingMinutes(wordCount),
         sections,
+        preamble,
       });
     }
   }
@@ -801,7 +849,7 @@ export function getEnglishLanguageChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of English grammar, syntactic models, etymological roots, and high-scoring descriptive discourse.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -814,6 +862,7 @@ export function getEnglishLanguageChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 
@@ -833,7 +882,7 @@ export function getEnglishLanguageChapters(): Shelf007ChapterItem[] {
         content,
         'High-speed distinction matrix, 60-second retrieval skeleton, and active recall flashcards.'
       );
-      const sections = extractSectionsFromMarkdown(content);
+      const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
       revItems.push({
         slug,
@@ -846,6 +895,7 @@ export function getEnglishLanguageChapters(): Shelf007ChapterItem[] {
         wordCount,
         readingMinutes: calculateReadingMinutes(wordCount),
         sections,
+        preamble,
       });
     }
   }
@@ -901,7 +951,7 @@ export function getGeographyChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of physical, human, regional and environmental geography, causal models, and high-yield examination matrices.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -914,6 +964,7 @@ export function getGeographyChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 }
@@ -966,7 +1017,7 @@ export function getGeneralScienceChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of first-principles scientific concepts, mathematical laws, comparative matrices, and high-yield examination trap avoidance.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -979,6 +1030,7 @@ export function getGeneralScienceChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 }
@@ -1034,7 +1086,7 @@ export function getQuantitativeAptitudeChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of first-principles mathematical derivations, dual-speed problem heuristics, and high-yield examination trap avoidance.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -1047,6 +1099,7 @@ export function getQuantitativeAptitudeChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 }
@@ -1099,7 +1152,7 @@ export function getHistoryChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of historical epochs, primary inscriptional evidence, socio-economic transitions, and high-yield examination matrices.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -1112,6 +1165,7 @@ export function getHistoryChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 }
@@ -1164,7 +1218,7 @@ export function getPoliticalScienceChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of constitutional doctrines, bare act clauses, judicial precedents, and high-yield examination matrices.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -1177,6 +1231,7 @@ export function getPoliticalScienceChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 }
@@ -1229,7 +1284,7 @@ export function getEconomicsChapters(): Shelf007ChapterItem[] {
       content,
       `Comprehensive sovereign synthesis of canonical doctrines, models, examination overlays, and high-yield matrices.`
     );
-    const sections = extractSectionsFromMarkdown(content);
+    const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
     return {
       slug,
@@ -1242,6 +1297,7 @@ export function getEconomicsChapters(): Shelf007ChapterItem[] {
       wordCount,
       readingMinutes: calculateReadingMinutes(wordCount),
       sections,
+      preamble,
     };
   });
 }
@@ -1267,7 +1323,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
         content,
         'Official IIBF diploma courseware schema, syllabus breakdowns, and exam preparation methodology.'
       );
-      const sections = extractSectionsFromMarkdown(content);
+      const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
       items.push({
         slug,
@@ -1280,6 +1336,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
         wordCount,
         readingMinutes: calculateReadingMinutes(wordCount),
         sections,
+        preamble,
       });
     }
 
@@ -1364,7 +1421,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
           content,
           `Official IIBF courseware chapter covering canonical doctrines, regulatory frameworks, examiner traps, and active recall diagnostics.`
         );
-        const sections = extractSectionsFromMarkdown(content);
+        const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
         items.push({
           slug: modSlug,
@@ -1377,6 +1434,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
           wordCount,
           readingMinutes: calculateReadingMinutes(wordCount),
           sections,
+          preamble,
         });
       }
     }
@@ -1396,7 +1454,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
         content,
         'High-speed numerical formulas, legal time limits, statutory sections, and rapid revision recall sheet.'
       );
-      const sections = extractSectionsFromMarkdown(content);
+      const { sections, preamble } = extractSectionsFromMarkdown(content, false);
 
       items.push({
         slug,
@@ -1409,6 +1467,7 @@ export function getIibfDbfChapters(): Shelf007ChapterItem[] {
         wordCount,
         readingMinutes: calculateReadingMinutes(wordCount),
         sections,
+        preamble,
       });
     }
   }
