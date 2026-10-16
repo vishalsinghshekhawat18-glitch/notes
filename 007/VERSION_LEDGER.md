@@ -17,6 +17,32 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v038 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 02 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 02 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 02 from prior audit score (Single-Source Readiness: 4/10, Factual Reliability: 4/10) to verified academic benchmark (~70–80% reliable exam coverage).
+  - Enforced 4-tier epistemic hierarchy: [Secure], [Qualified], [Tradition], [Disputed].
+* **Primary Deliverables**:
+  1. **Remediated Chapter 02 Codex**: `007/notes/rajasthan/03_CHAPTER_02_EARLY_MEDIEVAL_DYNASTIES_PRATIHARAS_CHAUHANS.md` (762 lines, 16 master sections, explicit RPSC RAS syllabus mapping, full primary verification logs [1]–[9]).
+  2. **Remediated Rapid Revision Matrix 02**: `007/revision/rajasthan/02_REV_CHAPTER_02_PRATIHARAS_CHAUHANS.md` (60-second retrieval skeleton, dynastic invariants grid, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Pratihara Lineage & Territorial Separation**:
+    - Disentangled Mandore Pratiharas (Harishchandra tradition, Rajjila, Bauka 837 CE, Kakkuka 861 CE) from the imperial line (Nagabhata I, Vatsaraja, Nagabhata II, Mihira Bhoja, Mahendrapala I).
+    - Removed oversimplified capital migration chain ("Bhinmal ➔ Ujjain ➔ Kannauj") and clarified that Xuanzang's 7th-c. Bhillamala does not prove unbroken descent.
+    - Sanitized sweeping claim that Pratiharas formed an uninterrupted 300-year barrier against Arabs; framed Nagabhata I's defeat of a *mleccha* army based strictly on the Gwalior *prasasti*.
+    - Removed unverified Somnath rebuilding and *jala-samadhi* in 833 CE for Nagabhata II.
+  - **Chauhan History & Historiography**:
+    - Removed anachronistic "last Hindu emperor" label for Prithviraja III.
+    - Distinguished contemporary records (*Prithviraja Vijaya*, early Persian chronicles) from later heroic/bardic memory (*Prithviraj Raso*, Sanyogita swayamvara, and the chronologically impossible *shabd-bhedi baan* since Muhammad of Ghur died in 1206 CE).
+    - Corrected Tarain-to-Sultanate transition: Tarain II (1192) broke Chauhan hegemony; the Delhi Sultanate conventionally began in 1206 CE under Qutb-ud-din Aibak.
+  - **Ranthambore (1301) & Jalore (1311) Sieges**:
+    - Removed unverified exact date (11 July 1301), water-jauhar details in Padmala pond as proven fact, and categorical "first Jauhar of Rajasthan" ranking.
+    - Reclassified Padmanabha's *Kanhadade Prabandha* (composed c. 1455 CE) as a 15th-century work of regional memory rather than a contemporary military dispatch; categorized Firoza–Viramdeva romance and overnight mustard-price story as literary/folkloric motifs.
+  - **Integrated Administration, Revenue, and Economic Foundations**:
+    - Added dedicated Mains-ready analysis (§ 2.11) covering layered political authority, feudatory structures, fortified centers, land grants, Sambhar salt economy, overland trade routes, and coinage.
+
 ### [STAGED LOCAL] v037 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 01 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

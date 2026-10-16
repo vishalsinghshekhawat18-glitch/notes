@@ -2,60 +2,61 @@
 
 > **Subject**: Rajasthan Sovereign Master Codex (Shelf 007)  
 > **Module**: Rapid Review Series — Chapter 02  
-> **Scope**: 60-Second Retrieval Skeleton • Dynastic Invariants Grid • Top 10 Instant Killer Traps • Diagnostic Flashcards
+> **Epistemic Standard**: Forensically Audited (False Precision Eliminated • Contemporary Records Disentangled from Later Memory)  
+> **Scope**: 60-Second Retrieval Skeleton • Dynastic Invariants Grid • Top 10 High-Yield Exam Traps • Diagnostic Flashcards
 
 ---
 
 ## 1. 60-Second Concept Retrieval Skeleton
 
 ```text
-[MANDORE PRATIHARAS: Harishchandra 6th C. ➔ Rajjil ➔ Bauka (837 CE) ➔ Kakkuka (861 CE, Ghatiyala Inscription)]
-                                   │
-[IMPERIAL PRATIHARAS: Nagabhata I (Bhinmal, Arab Crusher) ➔ Vatsaraja (Tripartite War, Kuvalayamala 778 CE)]
-                                   │
-[IMPERIAL ZENITH: Nagabhata II (Munger, Somnath) ➔ Mihir Bhoja (Adivaraha, Sulaiman 851 CE) ➔ Mahendrapala (Rajasekhara)]
-                                   │
-[CHAUHAN GENESIS: Vasudeva 551 CE (Sambhar, Ahichchhatrapura) ➔ Ajayraja 1113 CE (Ajmer, Somaladevi Coins)]
-                                   │
-[CHAUHAN ZENITH: Arnoraja (Ana Sagar) ➔ Vigraharaja IV (Kavi Bandhava, Harkeli Drama, Delhi Capture, Sanskrit College)]
-                                   │
-[CHAUHAN CLIMAX: Prithviraja III (Tarain I 1191 Victory ➔ Tarain II 1192 Fall) ➔ Jayanaka & Chand Bardai]
-                                   │
-[RANTHAMBORE BRANCH: Govindaraja 1194 CE ➔ Hammiradeva (1301 First Jauhar of Rajasthan, Padmala Pond, Amir Khusrau)]
-                                   │
-[JALORE SONGARA BRANCH: Kirtipala 1181 CE ➔ Sataldeo (Siwana 1308 Khairabad) ➔ Kanhadadeva (Jalore 1311 Jalalabad)]
+[MANDORE PRATIHARAS: Harishchandra (Lineage tradition) ➔ Rajjila (Fortification) ➔ Bauka (837 CE) ➔ Kakkuka (861 CE Ghatiyala)]
+                                    │
+[IMPERIAL PRATIHARAS: Nagabhata I (Mleccha defeat, Gwalior prasasti) ➔ Vatsaraja (Kannauj contest, Kuvalayamala 779 CE)]
+                                    │
+[IMPERIAL ZENITH & SHIFT: Nagabhata II (Kannauj base) ➔ Mihira Bhoja (Adivaraha, Sulaiman report) ➔ Mahendrapala (Rajasekhara)]
+                                    │
+[CHAUHAN GENESIS & AJMER: Vasudeva (Tradition: 551 CE, Sambhar) ➔ Simharaja (Maharajadhiraja) ➔ Ajayaraja II (Ajayameru / Ajmer)]
+                                    │
+[AJMER APOGEE: Arnoraja (Ana Sagar lake) ➔ Vigraharaja IV (Harkeli drama, Saraswati Kanthabharana Sanskrit institution, Delhi expansion)]
+                                    │
+[TARAIN WATERSHED: Prithviraja III ➔ 1191 CE (Tarain I Victory) ➔ 1192 CE (Tarain II Defeat) ➔ 1206 CE (Conventional Sultanate Inception)]
+                                    │
+[RANTHAMBORE BRANCH: Govindaraja ➔ Hammiradeva (1301 CE Siege & Fall, Amir Khusrau account, 15th C. Hammira Mahakavya)]
+                                    │
+[SONGARA JALORE BRANCH: Kirtipala (from Nadol) ➔ Sataldeva (Siwana 1308 CE, Khairabad) ➔ Kanhadadeva (Jalore 1311 CE, Padmanabha c. 1455)]
 ```
 
 ---
 
-## 2. Dynastic Invariants & Battlefield Matrix
+## 2. Dynastic Invariants & Historical Evidence Grid
 
-| Dynasty / Branch | Foundational Sovereign | Paramount Monarch | Capital & Citadel | Key Sāka / Historical Turning Point |
+| Dynasty / Lineage | Foundational / Early Figures | Climax Sovereign / Epigraphic Anchors | Primary Seats | Historical Significance & Epistemic Boundaries |
 | :--- | :--- | :--- | :--- | :--- |
-| **Mandore Pratihara** | Harishchandra (6th C.) | Kakkuka (861 CE) | Mandore Fort | 1395 CE: Inda Pratihara ceded Mandore in dowry to Rao Chunda Rathore. |
-| **Bhinmal-Kannauj** | Nagabhata I (c. 730 CE) | Mihir Bhoja (Adivaraha) | Bhinmal $\rightarrow$ Kannauj | 1018 CE: Mahmud Ghazni sacked Kannauj; Rajyapala fled. |
-| **Shakambhari-Ajmer**| Vasudeva (551 CE) | Vigraharaja IV / Prithviraj III | Sambhar $\rightarrow$ Ajmer | 1192 CE: Second Battle of Tarain; fall of the Chauhan Empire. |
-| **Ranthambore** | Govindaraja (1194 CE) | Hammiradeva Chauhan | Ranthambore (Ranathambha) | 11 July 1301 CE: First Jauhar of Rajasthan; Queen Ranga Devi & Padmala. |
-| **Jalore (Songara)** | Kirtipala (1181 CE) | Kanhadadeva Chauhan | Suvarnagiri (Jalore) | 1311 CE: Sāka of Jalore; Bika Dahiya's treason; renamed Jalalabad. |
-| **Siwana (Key Fort)** | Veer Narayan Panwar | Sataldeo & Som | Chhappan Hills (Siwana) | 1308 CE: Sāka of Siwana; Bhayla Pawar's treason; renamed Khairabad. |
+| **Mandore Pratiharas** | Harishchandra (origin tradition); Rajjila (fort rampart) | Bauka (Mandore, c. 837 CE); Kakkuka (Ghatiyala, c. 861 CE) | Mandavyapura (Mandore) | Distinct regional line; Kakkuka's epigraphs record suppression of Abhiras, commercial peace, and Jain temple construction. |
+| **Imperial Gurjara-Pratiharas** | Nagabhata I (8th C. rise; checks *mleccha* / Arab advance) | Mihira Bhoja (*Adivaraha*; Gwalior *prasasti*); Mahendrapala I | Western India $\rightarrow$ Kannauj (imperial capital) | Central power in Tripartite Struggle against Palas and Rashtrakutas; patrons of Sanskrit/Prakrit court literature (Rajasekhara). |
+| **Chahamanas of Shakambhari & Ajmer** | Vasudeva (551 CE in late tradition); Simharaja (10th C. autonomy) | Vigraharaja IV (*Kavi Bandhava*); Prithviraja III | Shakambhari (Sambhar) $\rightarrow$ Ajayameru (Ajmer) | Rose from salt-rich Sambhar; Vigraharaja IV patronised *Harkeli* and Sanskrit college; Prithviraja III fought Tarain battles (1191/1192). |
+| **Chahamanas of Ranthambore** | Govindaraja (late 12th C., son of Prithviraja III) | Hammiradeva (late 13th C.–1301 CE) | Ranastambhapura (Ranthambore) | Sustained resistance against Delhi Sultanate; fort fell in 1301 CE to Alauddin Khalji; commemorated in Nayachandra Suri's *Hammira Mahakavya*. |
+| **Songara Chauhans of Jalore** | Kirtipala (late 12th C., branch from Nadol) | Kanhadadeva (defended Jalore until fall in 1311 CE) | Suvarnagiri (Jalore) | Controlled southwest trade routes; fell in 1311 CE to Alauddin Khalji; commemorated in Padmanabha's *Kanhadade Prabandha* (c. 1455 CE). |
+| **Siwana Stronghold** | Veer Narayan Panwar (fort genesis) | Sataldeva / Sataldeo (defender during 1308 CE siege) | Gadh Siwana (Chhappan hills) | Western outpost to Jalore; captured by Alauddin Khalji in 1308 CE and renamed Khairabad in Sultanate records. |
 
 ---
 
-## 3. Top 10 Instant Killer Traps
+## 3. Top 10 High-Yield Exam Traps
 
-1. **Pratihara Imperial vs. Local Founder**: **Harishchandra** founded Mandore; **Nagabhata I** founded the imperial Bhinmal-Kannauj branch.
-2. **Arab Traveler Eras**: **Sulaiman** visited Mihir Bhoja (851 CE); **Al-Masudi** visited Mahipala I (915 CE).
-3. **Kuvalayamala Patron Ruler**: Composed by Udyotana Suri at Jalore in 778 CE under **Vatsaraja**, NOT Mihir Bhoja.
-4. **Patricide in Chauhan History**: **Jagaddeva** murdered his father Arnoraja; he was the first patricide, NOT Prithviraja III.
-5. **The First Jauhar in Rajasthan**: Occurred at **Ranthambore on 11 July 1301 CE** under Queen Ranga Devi (Water Jauhar), NOT Chittorgarh (1303 CE).
-6. **Nusrat Khan's Death Location**: Alauddin's general Nusrat Khan was struck and killed by a catapult stone at **Ranthambore (1299 CE)**, NOT Chittor.
-7. **Fort Renaming by Alauddin Khalji**:
-   * Chittorgarh $\rightarrow$ **Khizrabad**
-   * Siwana $\rightarrow$ **Khairabad**
-   * Jalore $\rightarrow$ **Jalalabad**
-8. **The Title "Kavi Bandhava"**: Borne exclusively by **Vigraharaja IV (Bisaldeo)** of Ajmer.
-9. **Coinage of Queen Somaladevi**: Issued in Ajmer by the queen of **Ajayraja II** (1113 CE).
-10. **The Key Forts Distinction**: **Jhain** was the key to Ranthambore; **Siwana** was the key to Jalore.
+1. **Mandore vs. Imperial Pratiharas Distinction**: Do not conflate the Mandore line with the imperial line of Nagabhata I and Mihira Bhoja. They are distinct branches; Xuanzang's 7th-century Bhillamala does not prove an unbroken line across all later branches.
+2. **Inscriptional Pairings (Bauka vs. Kakkuka)**: **Bauka** is associated with the **Mandore inscription (c. 837 CE)** focusing on genealogy; **Kakkuka** is associated with the **Ghatiyala inscriptions (c. 861 CE)** documenting Abhira suppression, market settlement, and Jain patronage.
+3. **Tripartite Struggle Reality**: The Tripartite Struggle over **Kannauj** (Pratiharas, Palas, Rashtrakutas) was a **long-term historical process** of changing alliances and successive campaigns—not a single continuous three-sided battle.
+4. **Arab Observers vs. Personal Tours**: Mid-9th-century accounts attributed to **Sulaiman** describe the military strength and cavalry of the Gurjara king (Mihira Bhoja); early-10th-century accounts by **Al-Masudi** describe Mahipala I. These reflect external reports and reputations, not verified personal itineraries across every province.
+5. **Rajasekhara's Works & Linguistic Register**: Rajasekhara's **Karpuramanjari** is a drama composed in **Prakrit**, while his **Kavyamimamsa** is a treatise on Sanskrit poetics. Both belong to the court culture of Mahendrapala I / Mahipala.
+6. **Tarain Chronology & The Delhi Sultanate Inception**: The First Battle of Tarain occurred in **1191 CE** (Chauhan victory) and the Second in **1192 CE** (Ghurid victory). The Delhi Sultanate is conventionally dated from **1206 CE** (Qutb-ud-din Aibak's independent rule), NOT founded on the battlefield in 1192.
+7. **Heroic Legend vs. Historical Chronology (Shabd-bhedi Baan)**: The tradition that the blinded Prithviraja III killed Muhammad of Ghur with a sound-guided arrow is a **later bardic legend** (*Prithviraj Raso*). Muhammad of Ghur died in **1206 CE**, fourteen years after Tarain II.
+8. **Ranthambore 1301 Fall & Jauhar Caveats**: Ranthambore fell to Alauddin Khalji in **1301 CE**. While later traditions celebrate Queen Ranga Devi, water-jauhar in Padmala pond, and the "first Jauhar of Rajasthan", the exact calendar date (11 July 1301) and specific water-immolation narratives derive from later memory and require qualification.
+9. **Kanhadade Prabandha Compositional Date**: Composed by **Padmanabha around 1455 CE**—more than 140 years after the fall of Jalore (1311 CE). The Firoza–Viramdeva romance and overnight mustard-price story are literary and folkloric motifs, not contemporary military dispatches.
+10. **Sultanate Fort Renaming Triad**:
+    * Chittorgarh $\rightarrow$ **Khizrabad** (after Khizr Khan, 1303 CE)
+    * Siwana $\rightarrow$ **Khairabad** (1308 CE)
+    * Jalore $\rightarrow$ **Jalalabad** (1311 CE)
 
 ---
 
@@ -64,27 +65,31 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │ FLASHCARD 1                                                            │
-│ Q: Which Pratihara inscription mentions the suppression of the Abhiras │
-│    and building of a public market (Hatta)?                            │
-│ A: The Ghatiyala Inscription of 861 CE, issued by King Kakkuka.        │
+│ Q: Which inscription describes Kakkuka's administration, the           │
+│    pacification of the Abhiras, and the establishment of a market?     │
+│ A: The Ghatiyala Inscriptions of 861 CE, near Jodhpur.                 │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 2                                                            │
-│ Q: Name the Sanskrit drama authored by Vigraharaja IV and its theme.   │
-│ A: Harkeli (हरकेलि), based on Bharavi's Kiratarjuniya (Arjuna-Shiva    │
-│    discourse), inscribed on the slabs of Adhai Din Ka Jhonpra.         │
+│ Q: Which imperial Pratihara ruler adopted the title 'Adivaraha' and is │
+│    celebrated in the Gwalior prasasti?                                 │
+│ A: Mihira Bhoja (c. 836–885 CE).                                       │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 3                                                            │
-│ Q: Who were Alha and Udal, and in which historic battle did they die? │
-│ A: Legendary Chandela warrior brothers who died defending Mahoba       │
-│    against Prithviraja Chauhan III in the Battle of Mahoba (1182 CE).  │
+│ Q: Name the Sanskrit drama associated with Vigraharaja IV and the      │
+│    institution where its fragments were recovered.                     │
+│ A: 'Harkeli' (or Harakeli), recovered from the fabric of the later     │
+│    Adhai Din Ka Jhonpra (originally Saraswati Kanthabharana, Ajmer).   │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 4                                                            │
-│ Q: Why did Amir Khusrau write "The fort of infidelity became the home  │
-│    of Islam"?                                                          │
-│ A: On the fall of Ranthambore Fort and death of Hammiradeva in 1301 CE.│
+│ Q: When were the First and Second Battles of Tarain fought, and what   │
+│    were their immediate historical outcomes?                           │
+│ A: 1191 CE (Chauhan victory) and 1192 CE (Ghurid victory, collapse of  │
+│    Shakambhari-Ajmer Chauhan hegemony).                                │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 5                                                            │
-│ Q: Who authored Kanhadade Prabandha and under whose patronage?         │
-│ A: Padmanabha (1455 CE), under the patronage of Akheraj Songara.       │
+│ Q: Name the primary 15th-century historical poems commemorating        │
+│    Hammiradeva of Ranthambore and Kanhadadeva of Jalore.               │
+│ A: 'Hammira Mahakavya' by Nayachandra Suri (15th c.) and 'Kanhadade    │
+│    Prabandha' by Padmanabha (c. 1455 CE).                              │
 └────────────────────────────────────────────────────────────────────────┘
 ```
