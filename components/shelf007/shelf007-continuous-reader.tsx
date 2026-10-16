@@ -790,22 +790,6 @@ export function Shelf007ContinuousReader({
             </div>
           </section>
 
-          {/* Executive Overview & Pre-Section Front Matter (Preamble) */}
-          {currentChapter.preamble && (
-            <section className="bg-[#FAF9F5] border border-[#E0D9CB] rounded-xl p-5 sm:p-6 shadow-2xs space-y-4">
-              <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-[#9E722C] pb-2 border-b border-[#E8E2D5]">
-                <span>📋</span>
-                <span>Executive Overview & At a Glance Index</span>
-              </div>
-              <div className="space-y-3">
-                <MarkdownContent
-                  content={currentChapter.preamble}
-                  className="leading-relaxed text-[#1B211E] font-serif"
-                />
-              </div>
-            </section>
-          )}
-
           {/* Sections Rendered Sequentially as Textbook Sections */}
           {currentChapter.sections.map((section, index) => {
             return (
@@ -849,6 +833,22 @@ export function Shelf007ContinuousReader({
               </article>
             );
           })}
+
+          {/* Executive Overview & Pre-Section Front Matter (Preamble - Shifted to End of Chapter) */}
+          {currentChapter.preamble && (
+            <section id="chapter-overview-index" className="bg-[#FAF9F5] border border-[#E0D9CB] rounded-xl p-5 sm:p-6 shadow-2xs space-y-4 scroll-mt-16">
+              <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-[#9E722C] pb-2 border-b border-[#E8E2D5]">
+                <span>📋</span>
+                <span>Executive Overview & At a Glance Index</span>
+              </div>
+              <div className="space-y-3">
+                <MarkdownContent
+                  content={currentChapter.preamble}
+                  className="leading-relaxed text-[#1B211E] font-serif"
+                />
+              </div>
+            </section>
+          )}
 
           {/* Chapter Completion Footer */}
           <section className="bg-[#10251F] border border-[#1E3A2E] text-[#FAF8F3] rounded-xl p-5 sm:p-6 text-center space-y-2.5 shadow-2xs">
