@@ -2,7 +2,7 @@
 
 > **Subject**: Rajasthan Sovereign Master Codex (Shelf 007)  
 > **Module**: Rapid Review Series — Chapter 09  
-> **Epistemic Standard**: Forensically Audited (Zero Unverified Superlatives • Critical Disentanglement of Princely Gazettes, Police Dockets & Congress Archives)  
+> **Epistemic Standard**: Forensically Audited (Zero Unverified Superlatives • Critical Disentanglement of Princely Gazettes, Contemporary Statements & Historical Synthesis)  
 > **Scope**: 60-Second Retrieval Skeleton • Prajamandal Invariants Grid • Top 10 High-Yield Exam Traps • Diagnostic Flashcards
 
 ---
@@ -10,74 +10,69 @@
 ## 1. 60-Second Concept Retrieval Skeleton
 
 ```text
-[PRECURSORS: Desh Hiteshini 1877 ➔ Sarvahitkarini 1907 (Churu) ➔ Rajputana-Madhya Bharat 1918 ➔ RSS 1919 (Wardha/Ajmer)]
+[PRECURSORS: Desh Hiteshini 1877 ➔ Sarvahitkarini 1907 (Churu) ➔ Rajputana-Madhya Bharat 1918–19 ➔ RSS 1919 (Wardha/Ajmer)]
                                      │
-[HARIPURA CONGRESS (FEB 1938): Subhas Bose presiding ➔ Congress reverses non-intervention ➔ Prajamandal explosion]
+[ALL-INDIA UMBRELLA: AISPC (Dec 1927, Bombay) ➔ Haripura Congress (Feb 1938, Bose presiding: support for responsible govt)]
                                      │
-[EXTERNAL FOUNDATIONS: Bikaner (1936, Calcutta) ➔ Bharatpur (1938, Rewari) ➔ Sirohi (1934, Bombay) ➔ Jaisalmer (1945, Jodhpur)]
+[EXTERNAL PRAJAMANDAL BASES: Bikaner (1936, Calcutta) ➔ Bharatpur (1938, Rewari) ➔ Sirohi (1934, Bombay) ➔ Jaisalmer (1945, Jodhpur)]
                                      │
-[JAIPUR DICHOTOMY: 1931 Patni (1st in Raj) ➔ Bajaj & Shastri ➔ Gentlemen's Agreement (1942) ➔ Azad Morcha revolt (Baba Harish)]
+[JAIPUR DICHOTOMY: 1931 Patni (earliest in Raj) / 1938 reorganization ➔ Gentlemen's Understanding (Sept 1942, unwritten) ➔ Azad Morcha]
                                      │
-[MEWAR PRAJAMANDAL: 24 April 1938 by M.L. Verma & Balwant Mehta (1st Pres) ➔ Sarada Fort ("Kalapani") ➔ 1945 Nehru AISPC Udaipur]
+[MEWAR PRAJAMANDAL: 24 April 1938 by M.L. Verma & Balwant Mehta (1st Pres) ➔ Sarada Fort detention ➔ Dec 1945 Nehru AISPC Udaipur]
                                      │
-[THREE GREAT MARTYRS: Balmukund Bissa (Marwar Jail, 1942) ➔ Birbal Singh (Bikaner, 1946) ➔ Sagar Mal Gopa (Jaisalmer, 1946)]
+[THREE HISTORIC PRISON/POLICE TRAGEDIES: Balmukund Bissa (Jodhpur, 1942) ➔ Birbal Singh (Raisinghnagar, 1946) ➔ Sagar Mal Gopa (1946)]
                                      │
-[RASTAPAL INCIDENT (19 JUNE 1947): Dungarpur ➔ Nana Bhai Khant bludgeoned ➔ 13-yr-old Kalibai cuts rope with sickle ➔ Martyred]
+[RASTAPAL INCIDENT (19 JUNE 1947): Dungarpur Seva Sangh school ➔ Nana Bhai Khant martyred ➔ Kalibai cuts rope with sickle ➔ Martyred]
                                      │
-[PRINT & WOMEN: Aagiwan (1932 Marwari, Vyas) ➔ Anjana Devi (1st arrested, 1921) ➔ Narayani Devi (Mahila Ashram) ➔ Nagendra Bala]
+[KOTA & SHAHPURA: Kota 1942 Quit India temporary popular control of Kotwali ➔ Shahpura Aug 1947 early responsible cabinet (Asawa)]
 ```
 
 ---
 
 ## 2. Master Prajamandal Invariants Grid
 
-| Prajamandal | Year | Paramount Founder / Leader | First President | Landmark Milestone / Defining Invariant | Key Adversary, Climax or Martyrdom |
+| Prajamandal | Common Year | Key Founder / Prominent Leaders | First President / Anchor | Landmark Milestone / Defining Invariant | Key Adversary, Climax or Incident |
 | :--- | :---: | :--- | :--- | :--- | :--- |
-| **Jaipur** | 1931 / 38 | Kapur Chand Patni, Jamnalal Bajaj, Hiralal Shastri | Kapur Chand Patni / Bajaj | `[Secure Core]` **First in Rajasthan (1931)**; Gentlemen's Agreement (1942); Azad Morcha revolt | Sir Mirza Ismail; Azad Morcha reconciliation (1945 by Nehru) |
-| **Mewar** | 1938 | Manikya Lal Verma, Balwant Singh Mehta | **Balwant Singh Mehta** | `[Secure Core]` Founded 24 April 1938 at *Sahitya Kuteer*; 1945 AISPC Session by Nehru | Dharmanarayan; Verma beaten at Devgarh; Sarada Fort ("Kalapani") |
-| **Marwar** | 1934 | Jai Narayan Vyas, Anand Raj Surana | Bhanwarlal Saraf | `[Secure Core]` Marwar Lok Parishad (1938); Siwana Fort detention; Dabra (1947) | **Balmukund Bissa** martyred after jail hunger strike (1942) |
-| **Bikaner** | 1936 | Magharam Vaidya, Laxmi Das Swami | Magharam Vaidya | `[Secure Core]` **Founded in Calcutta**; Bikaner Conspiracy Case (1932); Churu flag (1930) | **Birbal Singh Dhaliwal** martyred (1946); Birbal Day (17 July) |
-| **Kota** | 1939 | Pt. Nayanuram Sharma, Abhinna Hari | Pt. Nayanuram Sharma | `[Secure Core]` Mangrol session; 1942 Quit India: Tricolor on Kota Fort for 3 continuous days | Maharao Bhim Singh II confined to palace by students/citizens |
-| **Dungarpur** | 1944 | Bhogilal Pandya (*Gandhi of Vagad*) | Bhogilal Pandya | `[Secure Core]` **Rastapal Incident (19 June 1947)**; Punawada incident (May 1947) | **Kalibai & Nana Bhai Khant** martyred; Sengabhai saved |
-| **Jaisalmer** | 1945 | Mithalal Vyas | Mithalal Vyas | `[Secure Core]` **Founded at Jodhpur**; Treatise *Jaisalmer Ka Gundaraj* | **Sagar Mal Gopa** burned alive in jail (1946); Pathak Commission |
-| **Shahpura** | 1938 | Ramesh Chandra Ojha, Gokul Lal Asawa | Ramesh Chandra Ojha | `[Secure Core]` **First state to establish responsible government (14 Aug 1947)** | Maharaja Sudarshan Dev established popular cabinet under Asawa |
-| **Bharatpur** | 1938 | Kishen Lal Joshi, Gopilal Yadav | Gopilal Yadav | `[Secure Core]` **Founded at Rewari (Haryana)**; Jugal Kishore Chaturvedi (*"Nehru of Raj"*) | Ramesh Swami martyred at Bhusawar (crushed by state bus) |
-| **Sirohi** | 1939 | Gokulbhai Bhatt (*Gandhi of Rajasthan*) | Gokulbhai Bhatt | `[Secure Core]` Reorganized from Bombay (1934) to Sirohi (1939); Anti-merger movement | Fought against Bombay State annexation of Mount Abu & Sirohi |
-| **Dholpur** | 1936 | Krishnadutt Paliwal, Jwala Prasad Jigyasu | Krishnadutt Paliwal | `[Secure Core]` **Tasimo Incident (11 April 1947)** | **Chhatar Singh & Pancham Singh** shot dead defending flag |
-| **Jhalawar** | 1946 | Mangilal Bhavya, Kanhaiyalal Mittal | Mangilal Bhavya | `[Secure Core]` **Last Prajamandal**; Legalized and patronized by ruler | Maharaja Harishchandra conceded responsible rule peacefully |
+| **Jaipur** | 1931 / 1938 | Kapur Chand Patni, Jamnalal Bajaj, Hiralal Shastri | Kapur Chand Patni (1931) / Jamnalal Bajaj (1938) | `[Documented Core]` Earliest Prajamandal in Rajasthan (1931); unwritten Gentlemen's Understanding (Sept 1942); Azad Morcha revolt | Sir Mirza Ismail; Azad Morcha reconciliation (1945 mediated by Nehru) |
+| **Mewar** | 1938 | Manikya Lal Verma, Balwant Singh Mehta | **Balwant Singh Mehta** | `[Documented Core]` Founded 24 April 1938 at *Sahitya Kuteer*; 1st session Nov 1941 (Kripalani/Pandit); Dec 1945 AISPC Session by Nehru | PM Dharmanarayan; Verma beaten at Devgarh; Sarada Fort ("Kalapani of Mewar") |
+| **Marwar** | 1934 / 1938 | Jai Narayan Vyas, Bhanwarlal Saraf, Ranchhod Das Gattani | Bhanwarlal Saraf (1934) / R.D. Gattani (1938 Lok Parishad) | `[Documented Core]` Marwar Hitkarini Sabha precursor; Marwar Lok Parishad (1938); Siwana Fort internments | **Balmukund Bissa** died (19 June 1942) in hospital after jail hunger strike protesting poor food |
+| **Bikaner** | 1936 / 1942 | Magharam Vaidya (1936), Raghuvar Dayal Goyal (1942) | Magharam Vaidya / Raghuvar Dayal Goyal | `[Documented Core]` **Prajamandal founded in Calcutta (1936)**; Praja Parishad formed 1942; Raisinghnagar incident (30 June 1946) | **Birbal Singh** shot holding tricolor; Birbal Day observed 17 July 1946 |
+| **Kota** | 1938 / 1939 | Pt. Nayanuram Sharma, Abhinna Hari | Pt. Nayanuram Sharma | `[Documented Core]` Hadoti Prajamandal (1934) precursor; 1942 Quit India: citizens briefly assumed local administrative authority | Kotwali taken over; flag hoisted; administration temporarily mediated by local leaders |
+| **Dungarpur** | 1944 | Bhogilal Pandya (*"Gandhi of Vagad"*), Gauri Shankar Upadhyaya | Bhogilal Pandya | `[Documented Core]` Vagad Seva Sangh schools; **Rastapal Incident (19 June 1947)**; Punawada incident | **Nana Bhai Khant** & **Kalibai** martyred defending teacher Sengabhai |
+| **Jaisalmer** | 1945 | Mithalal Vyas, Shiv Shankar Gopalan | Mithalal Vyas | `[Documented Core]` **Founded at Jodhpur** due to state repression; publications: *Jaisalmer Ka Gundaraj*, *Azadi Ke Diwane* | **Sagar Mal Gopa** died of burns in prison (3 April 1946); Nehru's statement questioned suicide claim |
+| **Shahpura** | 1938 | Ramesh Chandra Ojha, Laduram Vyas, Gokul Lal Asawa | Ramesh Chandra Ojha | `[Documented Core]` **Early responsible government established (Aug 1947)** under ruler Maharaja Sudarshan Dev | Executive council constituted under Prime Minister Gokul Lal Asawa |
+| **Bharatpur** | 1938 | Kishen Lal Joshi, Gopilal Yadav, Master Adityendra | Gopilal Yadav | `[Documented Core]` **Founded at Rewari (Haryana)**; Jugal Kishore Chaturvedi (*"Jawaharlal of Rajasthan"*) | Prolonged satyagraha; state flag agitation |
+| **Sirohi** | 1934 / 1939 | Vridhishankar Trivedi (1934), Gokulbhai Bhatt (1939) | Gokulbhai Bhatt (*"Gandhi of Rajasthan"*) | `[Documented Core]` Formed in Bombay (1934), reorganized in Sirohi (1939); fought merger into Bombay Province | Resistance to Patel's bifurcation; Mount Abu restored to Rajasthan in 1956 |
+| **Dholpur** | 1936 / 1938 | Krishnadutt Paliwal, Jwala Prasad Jigyasu, Johari Lal Indu | Krishnadutt Paliwal | `[Documented Core]` **Tasimo Incident (11 April 1947)** | **Chhatar Singh Parmar & Pancham Singh Kushwaha** martyred defending tricolor |
+| **Jhalawar** | 1946 | Mangilal Bhavya, Kanhaiyalal Mittal, Maqbool Alam | Mangilal Bhavya | `[Documented Core]` **Late Prajamandal (1946)**; legal recognition conceded peacefully | Maharaja Harish Chandra conceded constitutional reforms without armed confrontation |
 
 ---
 
 ## 3. Top 10 High-Yield Exam Traps
 
 1. **First Prajamandal in Rajasthan**:
-   - **Jaipur Prajamandal (1931 CE)** founded by **Kapur Chand Patni**, NOT Mewar (1938) or Marwar (1934).
+   - **Jaipur Prajamandal (1931 CE)** founded by **Kapur Chand Patni**, revived in 1936–38 under Jamnalal Bajaj and Hiralal Shastri.
 2. **The Four External Prajamandal Foundations**:
    - **Bikaner (1936)**: Founded in **Calcutta** by Magharam Vaidya.
-   - **Bharatpur (1938)**: Founded in **Rewari (Haryana)** by Kishen Lal Joshi.
-   - **Sirohi (1934)**: Founded in **Bombay** by Vridhi Shankar Trivedi.
+   - **Bharatpur (1938)**: Founded in **Rewari (Haryana)** by Kishen Lal Joshi & Gopilal Yadav.
+   - **Sirohi (1934)**: Founded in **Bombay** by Vridhishankar Trivedi (reorganized 1939 at Sirohi under Gokulbhai Bhatt).
    - **Jaisalmer (1945)**: Founded in **Jodhpur** by Mithalal Vyas.
-3. **Parties to the Gentlemen's Agreement (1942)**:
-   - Bilaterally concluded between Jaipur Prime Minister **Sir Mirza Ismail** and Prajamandal President **Hiralal Shastri**, NOT Jamnalal Bajaj.
-4. **Azad Morcha (1942) Genesis & Reconciliation**:
-   - Founded by **Baba Harish Chandra**, Ramkaran Joshi, and Hans D. Roy in rebellion against the Gentlemen's Agreement to join Quit India; merged back in 1945 by **Pandit Jawaharlal Nehru**, NOT Sardar Patel.
-5. **First President of Mewar Prajamandal**:
-   - **Balwant Singh Mehta** was the first President; **Manikya Lal Verma** was the General Secretary!
-6. **The Four Regional "Gandhis" of Rajasthan**:
-   - **Gokulbhai Bhatt**: *"Gandhi of Rajasthan"* (Sirohi).
-   - **Bhogilal Pandya**: *"Gandhi of Vagad"* (Dungarpur).
-   - **Master Pyarelal Gupta**: *"Gandhi of Chidawa"* (Jhunjhunu).
-   - **Vriddhichand Jain**: *"Gandhi of Malani"* (Barmer).
-7. **First Princely State to Establish Responsible Government**:
-   - **Shahpura on 14 August 1947** under Prime Minister **Gokul Lal Asawa** and ruler **Maharaja Sudarshan Dev**.
-8. **The Three Great Martyrdoms of 1942–1947**:
-   - **Balmukund Bissa (19 June 1942)**: Jodhpur Jail hunger strike pneumonia.
-   - **Sagar Mal Gopa (4 April 1946)**: Burned alive with kerosene in Jaisalmer Jail.
-   - **Birbal Singh Dhaliwal (1 July 1946)**: Shot holding tricolor at Raisinghnagar; Birbal Day observed on 17 July 1946.
-9. **Rastapal Incident Roles (19 June 1947)**:
-   - Headmaster **Nana Bhai Khant** was beaten to death; teacher Sengabhai was saved when 13-year-old student **Kalibai** severed the towing rope with her sickle and was martyred by police fire.
-10. **First Political Newspaper in Rajasthani Language**:
-    - **"Aagiwan" (आगीवाण, 1932, Beawar)** edited by **Jai Narayan Vyas**, NOT *Tarun Rajasthan*.
+3. **Gentlemen's Agreement (17 Sept 1942) Nature**:
+   - Concluded between Jaipur Prime Minister **Sir Mirza Ismail** and Prajamandal President **Hiralal Shastri**. Crucially, historical records (including IGNCA) indicate it was an **unwritten gentleman's understanding**, NOT a formal signed instrument.
+4. **Azad Morcha Genesis & Merger (1942–1945)**:
+   - Formed by **Baba Harish Chandra**, Ramkaran Joshi, and Hans D. Roy in protest against the Gentlemen's Agreement to actively join the Quit India movement. Merged back into Jaipur Prajamandal in 1945 through the mediation of **Pandit Jawaharlal Nehru**.
+5. **Mewar Prajamandal Founding Hierarchy**:
+   - Founded on **24 April 1938** at Balwant Singh Mehta's residence (*Sahitya Kuteer*). **Balwant Singh Mehta was the first President**; **Manikya Lal Verma was the General Secretary**.
+6. **Haripura Congress (1938) Nuance**:
+   - Presided over by **Subhas Chandra Bose**. It gave vital moral and political support for responsible government in princely states, but Jawaharlal Nehru's contemporary statements clarify that Congress maintained an organizational separation: mass campaigns in the states were to be run through state-level bodies (Prajamandals), not direct Congress provincial branches.
+7. **Balmukund Bissa Martyrdom Facts (19 June 1942)**:
+   - Activist of Marwar Lok Parishad who organized hunger strikes protesting poor food and maltreatment in Jodhpur Central Jail. Fell ill and passed away in a Jodhpur hospital on **19 June 1942**. (The claim of "pneumonia from forced feeding" lacks official archival medical proof).
+8. **Sagar Mal Gopa Martyrdom (3 April 1946)**:
+   - Author of *Jaisalmer Ka Gundaraj*, *Azadi Ke Diwane*, and *Raghunath Singh Ka Mukadma*. Imprisoned in 1941, suffered severe burns in Jaisalmer jail and died on **3 April 1946**. Jawaharlal Nehru issued a contemporary statement on 28 April 1946 expressing deep skepticism of the state's suicide version and noting no impartial inquiry had been held.
+9. **Rastapal Incident (19 June 1947)**:
+   - Police assault on the Dungarpur Seva Sangh school at Rastapal. Headmaster **Nana Bhai Khant** was beaten to death. Female student **Kalibai** (~12 years old in GoI commemorative records) rushed forward with a sickle to cut the rope binding teacher Sengabhai and was fatally shot by police.
+10. **Raisinghnagar Tragedy & Birbal Day (1946)**:
+    - On **30 June 1946**, state police fired upon a Praja Parishad procession at Raisinghnagar (Bikaner State); **Birbal Singh Dhaliwal** was martyred holding the national tricolor. Bikaner Prajamandal/Praja Parishad observed **Birbal Day on 17 July 1946**.
 
 ---
 
@@ -86,34 +81,31 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │ FLASHCARD 1                                                            │
-│ Q: What explosive treatise did Sagar Mal Gopa write against the        │
-│    Jaisalmer royal administration?                                     │
-│ A: 'Jaisalmer Ka Gundaraj' (जैसलमेर का गुंडाराज), along with 'Azadi    │
-│    Ke Diwane' and 'Raghunath Singh Ka Muqadma'.                        │
+│ Q: Which major all-India body coordinated princely state struggles?    │
+│ A: The All-India States' Peoples' Conference (AISPC), founded in       │
+│    December 1927 at Bombay; its Dec 1945 session was held at Udaipur.  │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 2                                                            │
-│ Q: What occurred during the Tasimo Incident of Dholpur (11 April 1947)?│
-│ A: State police fired upon satyagrahis safeguarding the National       │
-│    Tricolor; Chhatar Singh Parmar and Pancham Singh Kushwaha martyred. │
+│ Q: What happened at Tasimo (Dholpur) on 11 April 1947?                 │
+│ A: State police fired upon an assembly protecting the National Flag;   │
+│    Chhatar Singh Parmar and Pancham Singh Kushwaha were martyred.      │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 3                                                            │
 │ Q: Which fortress was branded the "Kalapani of Mewar"?                 │
-│ A: Sarada Fort (सराड़ा दुर्ग), where Mewar Prajamandal Vice-President  │
-│    Bhuralal Baya was subjected to rigorous solitary confinement.       │
+│ A: Sarada Fort (सराड़ा किला), located in the rugged Bhomat region,     │
+│    where Manikya Lal Verma and other political prisoners were interned.│
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 4                                                            │
-│ Q: Where and when was the 7th All-India States' Peoples' Conference    │
-│    convened in Rajasthan?                                              │
-│ A: Held at Salotia Ground, Udaipur (31 Dec 1945 – 1 Jan 1946),         │
-│    presided over by Pandit Jawaharlal Nehru.                           │
+│ Q: Who was popularly commemorated as the "Jawaharlal of Rajasthan"?   │
+│ A: Jugal Kishore Chaturvedi of Bharatpur Prajamandal.                  │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 5                                                            │
-│ Q: What unique triumph took place in Kota during the Quit India (1942)?│
-│ A: Students and Prajamandal cadres seized the Kotwali, hoisted the     │
-│    tricolor on Kota Fort, and governed the city for 3 continuous days. │
+│ Q: What was the constitutional significance of Shahpura in Aug 1947?   │
+│ A: Ruler Sudarshan Dev established an early responsible cabinet        │
+│    headed by Prajamandal leader Gokul Lal Asawa on 14 August 1947.     │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-[Revision Matrix 09 Complete ➔ Next: Rapid Revision Matrix 10: The Unification of Rajasthan]
+[Revision Matrix 09 Complete ➔ Next: Rapid Revision Matrix 10: Unification of Rajasthan]

@@ -17,6 +17,24 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v050 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 09 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL AUDIT BENCHMARK (CHAPTER 09)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_09_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_09_PRAJAMANDAL_MOVEMENTS_RAJASTHAN_REVISED.md`).
+  - Addressed all P0/P1 findings across notes and rapid revision matrix:
+    - **Purged Pseudo-Archival Claims**: Eliminated untraceable docket numbers, jail medical logs, and unverified inquiry references; established transparent distinction between archival files, official commemorative profiles, and exam conventions.
+    - **Internal Institutional Consistency**: Rectified the "All 19 Prajamandals" table by treating Hadoti Prajamandal (1934) as a regional precursor to the Kota Prajamandal (1938/39) rather than an extra 20th state-level entry.
+    - **Disentangled Organizational Chronologies**: Separated Bikaner Prajamandal (1936, Calcutta) from Bikaner Rajya Praja Parishad (1942, Raghuvar Dayal Goyal); distinguished Sirohi's 1934 Bombay founding from its 1939 Sirohi reorganization under Gokulbhai Bhatt; separated Bundi 1931 Prajamandal from later Lok Parishad.
+    - **Haripura Congress (1938) Nuance**: Reframed Haripura as a major policy shift providing moral and political endorsement for responsible government, while documenting Jawaharlal Nehru's contemporary statements showing that mass movements remained conducted under state-level Prajamandals rather than direct Congress provincial takeovers.
+    - **Jaipur Gentlemen's Agreement (17 Sept 1942)**: Corrected the claim of a formal signed legal treaty to an **unwritten gentleman's understanding** between PM Sir Mirza Ismail and Prajamandal President Hiralal Shastri.
+    - **Sagar Mal Gopa Martyrdom Grounded**: Grounded the account in Nehru's contemporary statement of 28 April 1946 (which noted Jaisalmer state had held no impartial inquiry at the time and questioned the suicide claim); removed unverified claims of a 1946 Pathak Commission suicide verdict and unsupported named-jailor murder mechanics.
+    - **Balmukund Bissa Cause of Death Corrected**: Documented his hospital passing on 19 June 1942 following a jail hunger strike protesting poor food and maltreatment; removed uncorroborated "force-feeding pneumonia" claim.
+    - **Rastapal Incident (19 June 1947)**: Prioritized the Government of India commemorative profile (Kalibai aged ~12 martyred cutting teacher Sengabhai's towing rope; headmaster Nana Bhai Khant martyred).
+    - **Raisinghnagar Incident**: Identified 30 June 1946 as the firing date resulting in Birbal Singh's martyrdom holding the tricolor, with Birbal Day observed on 17 July 1946.
+    - **Kota 1942 & Shahpura Nuances**: Qualified Kota's Quit India administration takeover (temporary popular control of Kotwali and local administration); framed Shahpura as an early responsible popular government under Gokul Lal Asawa rather than universal adult democracy.
+
 ### [STAGED LOCAL] v049 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 08 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
