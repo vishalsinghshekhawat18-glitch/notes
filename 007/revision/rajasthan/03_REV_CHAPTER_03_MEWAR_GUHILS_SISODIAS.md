@@ -1,65 +1,73 @@
-# RAPID REVISION MATRIX 03: THE GUHILS & SISODIAS OF MEWAR
+# RAPID REVISION MATRIX 03: THE GUHILAS & SISODIAS OF MEWAR
 
 > **Subject**: Rajasthan Sovereign Master Codex (Shelf 007)  
 > **Module**: Rapid Review Series — Chapter 03  
-> **Scope**: 60-Second Retrieval Skeleton • Sāka & Treatise Invariants Grid • Top 10 Instant Killer Traps • Diagnostic Flashcards
+> **Epistemic Standard**: Forensically Audited (Zero Unverified Superlatives • Contemporary Record vs. Later Tradition Disentangled)  
+> **Scope**: 60-Second Retrieval Skeleton • Sāka & Sovereign Invariants Grid • Top 10 High-Yield Exam Traps • Diagnostic Flashcards
 
 ---
 
 ## 1. 60-Second Concept Retrieval Skeleton
 
 ```text
-[GUHIL GENESIS: Guhaditya 566 CE ➔ Bappa Rawal 734 CE (Harit Rashi, Man Mori, Nagda, Eklingji, 115g Gold Coin)]
-                                    │
-[BUREAUCRACY & CAPITAL SHIFT: Allata 10th C. (Saraneshwar Inscription) ➔ Jaitra Singh (Battle of Bhutala 1227 ➔ Chittor)]
-                                    │
-[CHITTOOR FIRST SĀKA: Rawal Ratan Singh (1303 CE, Rani Padmini, Gora-Badal, Alauddin Khalji ➔ Renamed Khizrabad)]
-                                    │
-[SISODIA RESURGENCE: Rana Hammir 1326 CE ("Vishama Ghati Panchanan", Singoli ➔ Sisodia Dynasty Genesis)]
-                                    │
-[ECONOMIC & CHUNDAWAT DAWN: Rana Lakha (Jawar Silver Mines, Pichhola Lake, Chunda "Bhishma of Rajasthan")]
-                                    │
-[KUMBHA RENAISSANCE: Sarangpur 1437 ➔ Vijay Stambha (Jaita, 122 ft, Atri-Mahesh) ➔ 32 of 84 Forts ➔ "Sangitaraja"]
-                                    │
-[SANGA TITANIC ERA: 5 Wars (Khatoli, Dholpur, Gagron, Bayana ➔ Khanwa 17 March 1527) ➔ Pati Perwan ➔ Mandalgarh Chhatri]
-                                    │
-[SACRIFICE & FALL: Second Sāka 1535 (Karnavati, Bagh Singh) ➔ Panna Dhai 1536 ➔ Third Sāka 1568 (Jaimal, Fatta, Kallaji)]
-                                    │
-[MAHARANA PRATAP: Coronation Gogunda 1572 ➔ J-M-B-T Rejected ➔ Haldighati 1576 ➔ Dewair 1582 ➔ Chavand 1585]
-                                    │
-[TREATY & DEFIANCE: Amar Singh (1615 Treaty, Chittor unfortified) ➔ Raj Singh (1676 Raj Prashasti, Shrinathji, Charumati)]
+[EARLY GUHILA LINE: Guhadatta (Conventional 6th C.) ➔ Samoli & Nagda Inscriptions (7th C.) ➔ Atpur Inscription (977 CE)]
+                                     │
+[BAPPA RAWAL TRADITION: Traditional Founder ➔ Standard Textbook Identification with Kalabhoja (with caveat) ➔ Eklingji Cult]
+                                     │
+[RAWAL PHASE EXPANSION: Allata 10th C. (Ahar development) ➔ Jaitrasimha (Chirwa Inscription 1273 CE, Sultanate Resistance)]
+                                     │
+[CHITTOR SIEGE OF 1303: Alauddin Khalji Captures Chittor ➔ Rawal Line Ends ➔ Padmavat (c. 1540) is Later Literary Tradition]
+                                     │
+[SISODIA RESURGENCE: Rana Hammir c. 1326 CE (Recovery of Chittor, "Vishama Ghati Panchanan", Sisodia Line Genesis)]
+                                     │
+[RESOURCE & SUCCESSION ERA: Rana Lakha (Zawar Mines Development, Pichhola Lake, Chunda Tradition) ➔ Rana Mokal (1421–1433)]
+                                     │
+[KUMBHA APOGEE (1433–1468): Sarangpur 1437 ➔ Vijay Stambha (c. 1440–1448) ➔ Kumbhalgarh Fort ➔ Sangitaraja & Mandan]
+                                     │
+[SANGA CONFEDERACY (1509–1528): Regional Expansion (Khatoli, Gagron, Bayana) ➔ Khanwa (1527, Babur Artillery & Tulughma)]
+                                     │
+[1535 SIEGE & 1568 FALL: Bahadur Shah 1535 (Second Sāka) ➔ Udai Singh II (Founding of Udaipur 1559) ➔ Akbar's Siege 1567–1568]
+                                     │
+[MAHARANA PRATAP (1572–1597): Haldighati (June 1576, Tactical Stalemate/Withdrawal) ➔ Dewair (1582) ➔ Chavand (Seat from c. 1585)]
+                                     │
+[TREATY & RESISTANCE: Amar Singh I (1615 Treaty with Jahangir, Negotiated Sovereignty) ➔ Raj Singh I (Rajsamand, Raj Prashasti)]
 ```
 
 ---
 
 ## 2. Master Sāka, Sovereign & Inscriptional Invariants Grid
 
-| Landmark Event / Monument | Date & Location | Sovereign & Key Figures | Invader / Architect / Author | Core Historical Invariant |
+| Historical Landmark / Monument | Verified Chronology | Principal Sovereign & Figures | Invader / Architect / Author | Epistemic Reality & Exam Invariants |
 | :--- | :--- | :--- | :--- | :--- |
-| **First Sāka of Chittor** | 26 August 1303 | Rawal Ratan Singh, Gora, Badal | Alauddin Khalji | Padmini fire Jauhar; fort renamed Khizrabad; 30k slaughtered |
-| **Second Sāka of Chittor** | 8 March 1535 | Vikramaditya, Rawat Bagh Singh | Bahadur Shah (Gujarat) | Rani Karnavati Jauhar; Rakhi sent to Humayun; Bagh Singh kesariya |
-| **Third Sāka of Chittor** | 25 February 1568| Udai Singh, Jaimal, Fatta | Emperor Akbar | Phool Kanwar Jauhar; Veer Kallaji 4-armed deity; Agra statues |
-| **Vijay Stambha** | 1440–1448 (Chittor)| Maharana Kumbha | Jaita, Napa, Poma, Punja | 9 storeys, 122 ft, Sarangpur victory; Atri & Mahesh prashasti |
-| **Battle of Khanwa** | 17 March 1527 | Maharana Sangram Singh I | Emperor Babur | Pan-Rajput Pati Perwan; Tulghuma & Rumi cannons; Sanga wounded |
-| **Battle of Haldighati** | 18 June 1576 | Maharana Pratap, Hakim Sur | Kunwar Man Singh (Akbar) | "Thermopylae of Mewar"; Chetak leap; Jhala Manna sacrifice |
-| **Battle of Dewair** | October 1582 | Maharana Pratap, Amar Singh I | Sultan Khan (Mughal) | "Marathon of Mewar"; Sultan Khan impaled; 36 outposts freed |
-| **Mughal-Mewar Treaty** | 5 February 1615 | Maharana Amar Singh I | Prince Khurram (Jahangir) | No personal attendance; Chittor unfortified; no marriage alliance |
-| **Raj Prashasti** | 1676 (Rajsamand) | Maharana Raj Singh I | Ranchhod Bhatt Tailang | 25 black marble slabs; world's largest Sanskrit epigraph |
+| **First Siege / Sāka of Chittorgarh** | 1303 CE | Rawal Ratnasimha (Ratan Singh) | Sultan Alauddin Khalji | Fort captured by Delhi Sultanate; end of the Rawal line; the detailed Padmini mirror/parrot story derives from Malik Muhammad Jayasi's *Padmavat* (c. 1540). |
+| **Second Siege / Sāka of Chittorgarh**| 1535 CE | Minor Vikramaditya; Rawat Bagh Singh | Sultan Bahadur Shah (Gujarat) | Fort fell after prolonged siege; Rani Karnavati associated with jauhar; the famous *rakhi* to Humayun is a popular tradition requiring source qualification. |
+| **Third Siege / Sāka of Chittorgarh** | 1567–1568 CE | Udai Singh II (withdrew to hills); Jaimal & Patta | Emperor Akbar | Fort captured after extensive mining and artillery siege; defence led by Jaimal Rathore and Patta Sisodia; Mewar's main capital subsequently transitioned to Udaipur. |
+| **Vijay Stambha (Tower of Victory)** | c. 1440–1448 CE (Chittorgarh) | Maharana Kumbha | Master builder Jaita & sons; Inscription by Atri & Mahesh | Nine-storeyed victory tower commemorating the triumph over Sultan Mahmud Khalji of Malwa (Battle of Sarangpur, 1437); dedicated to Vishnu with extensive Hindu iconographic pantheon. |
+| **Jain Kirti Stambha (Tower of Fame)**| 12th Century CE (Chittorgarh) | Jain merchant community | Dedicated to Tirthankara Adinatha | Seven-storeyed tower built centuries before the Vijay Stambha; do NOT confuse with Kumbha's 15th-century nine-storeyed Vijay Stambha. |
+| **Battle of Khanwa** | 17 March 1527 | Maharana Sangram Singh I (Rana Sanga) | Emperor Babur | Decisive clash following Panipat; Babur deployed chained wagon barricades (*araba*), artillery, and flanking cavalry (*tulughma*) to break the allied Rajput-Afghan confederacy. |
+| **Battle of Haldighati** | June 1576 (conventionally 18 June) | Maharana Pratap (Hakim Khan Sur, Ramdas Tomar, Punja) | Mughal imperial army commanded by Kunwar Man Singh of Amber | Narrow pass near Khamnor/Gogunda; Mughal tactical victory and field occupation, but Pratap survived and continued resistance across the Aravalli hills. |
+| **Battle of Dewair (Diver)** | October 1582 | Maharana Pratap & Prince Amar Singh | Mughal imperial outposts (Sultan Khan) | Major counter-offensive marking the recovery of Mewar's hill country; styled the "Marathon of Mewar" by James Tod. |
+| **Mughal–Mewar Treaty** | 1615 CE | Maharana Amar Singh I | Negotiated with Prince Khurram (Jahangir) | Negotiated sovereignty: Rana exempted from personal court attendance; matrimonial alliance not demanded; Chittorgarh restored on condition it would never be refortified; 1,500 horsemen contingent. |
+| **Raj Prashasti & Rajsamand Lake** | Lake: c. 1662–1676 CE; Epigraph later | Maharana Raj Singh I | Ranchhod Bhatt Tailang | 25 black marble slabs set on the Nauchauki embankment of Rajsamand Lake; longest stone-slab Sanskrit inscription in India; chronicles Mewar royal genealogy, lake construction, and the 1615 treaty. |
 
 ---
 
-## 3. Top 10 Instant Killer Traps
+## 3. Top 10 High-Yield Exam Traps
 
-1. **Title "Vishama Ghati Panchanan"**: Conferred on **Rana Hammir of Mewar (1326 CE)** in the Kumbhalgarh Prashasti, NOT Hammiradeva of Ranthambore (1301 CE).
-2. **First Capital of Mewar**: **Nagda** was the first capital under Bappa Rawal; Chittor became the permanent capital later under **Rawal Jaitra Singh (1227 CE)**.
-3. **The Bhishma of Rajasthan**: **Prince Chunda** (son of Rana Lakha), who renounced the throne for Hansa Bai's son Mokal.
-4. **Vijay Stambha vs. Jain Kirti Stambha**: Vijay Stambha is 9 storeys (built by Kumbha in 1448 for Vishnu); Jain Kirti Stambha is 7 storeys (built in the 12th century by Jija Shah for Adinatha).
-5. **Akbar's 4 Missions to Pratap Sequence**: Strictly **J-M-B-T**: Jalal Khan Qurchi $\rightarrow$ Man Singh $\rightarrow$ Bhagwan Das $\rightarrow$ Todar Mal.
-6. **Thermopylae vs. Marathon of Mewar**: Col. Tod called **Haldighati** the "Thermopylae of Mewar" and **Dewair (1582)** the "Marathon of Mewar".
-7. **Pratap's Emergency Capital Duration**: **Chavand** remained the capital for **28 years** (1585–1615 CE), not just until Pratap's death.
-8. **Pratap's Memorial Location**: 8-pillared chhatri at **Bandoli** near Kejhad pond, NOT Chavand.
-9. **Mughal-Mewar Treaty Terms on Chittor**: Chittorgarh was returned, but on the explicit condition that **it could never be repaired or refortified**.
-10. **The Author of Vishwa Vallabha**: Written by Pratap’s court scholar **Chakrapani Mishra** on hydrology and horticulture.
+1. **Vijay Stambha vs. Kirti Stambha**: The **Vijay Stambha** is a 9-storeyed monument built by Maharana Kumbha in the 15th century (dedicated to Vishnu); the **Kirti Stambha** is a 7-storeyed monument built in the 12th century by a Jain merchant (dedicated to Adinatha).
+2. **Padmini Narrative Evidentiary Gap**: Chittor's capture by Alauddin Khalji occurred in **1303 CE**. The famous literary narrative of Rani Padmini, the mirror episode, and Raghav Chetan was composed by Malik Muhammad Jayasi in **1540 CE (*Padmavat*)**, over 230 years later.
+3. **Bappa Rawal Identification Caveat**: Standard textbooks commonly equate **Bappa Rawal with Kalabhoja**, but early epigraphs (such as the Atpur inscription of 977 CE) treat early names distinctly. Present the identification as standard with a historiographical caveat.
+4. **Capital Evolution Timeline**:
+   * **Nagda & Ahar**: Early medieval centers.
+   * **Chittorgarh**: Core fortress seat until Akbar's conquest in 1568.
+   * **Udaipur**: Founded by Udai Singh II in **1559**, but became the primary capital only after Chittor's fall in 1568.
+   * **Chavand**: Established as Maharana Pratap's administrative seat around **1585 until his death in 1597** (do not confuse with Amar Singh's later rule).
+5. **Haldighati Battlefield Outcome**: Haldighati was a **Mughal tactical/operational success** (Mughals held the field; Pratap withdrew), but **strategically indecisive** because it failed to capture Pratap or extinguish Mewar's independence.
+6. **Tod's Greek Metaphors**: Col. James Tod called **Haldighati** the *"Thermopylae of Mewar"* and **Dewair (1582)** the *"Marathon of Mewar"*. Do not mix the two.
+7. **Kumbha Fort Attribution**: Traditional folklore (*Vir Vinod*) claims Kumbha built "32 out of 84 forts in Mewar". In academic and administrative reality, this includes extensive repairs, refortifications (e.g. Achalgarh), and new foundations (Kumbhalgarh), rather than 32 completely de-novo forts.
+8. **Treaty of 1615 Distinctive Terms**: Mewar accepted Mughal suzerainty under Amar Singh I, but was granted singular privileges: **no royal matrimonial alliance**, **no mandatory personal attendance of the Rana at the imperial court**, and **Chittorgarh restored under strict non-fortification terms**.
+9. **Rani Karnavati Rakhi Episode**: While central to popular heritage, the story of Karnavati sending a *rakhi* to Humayun during the 1535 Gujarat siege lacks contemporary Persian or Rajput archival proof and is categorized as a later tradition.
+10. **Hadi Rani Cultural Legend**: The heroic tradition of Hadi Rani (Sehalkunwar) severing her head to inspire Rawat Ratan Singh Chundawat of Salumbar is a celebrated Rajasthani cultural memory of marital duty, not an independently documented operational dispatch.
 
 ---
 
@@ -68,29 +76,32 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │ FLASHCARD 1                                                            │
-│ Q: Which inscription proves that Allata established a formal civil     │
-│    service / bureaucracy in Mewar during the 10th century?             │
-│ A: The Saraneshwar Inscription of 953 CE (mentions Sandhivigrahika,    │
-│    Akshapatala, Vandipati, etc.).                                      │
+│ Q: Which 10th-century inscription provides the most critical dated     │
+│    genealogy of the early Guhila dynasty from Guhadatta onward?        │
+│ A: The Atpur (Ahar) Inscription of 977 CE, issued under Saktikumara.   │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 2                                                            │
-│ Q: What was the "Treaty of Champaner" (1456 CE)?                       │
-│ A: A military coalition between Sultan Mahmud Khalji of Malwa and      │
-│    Sultan Qutb-ud-din of Gujarat to partition Mewar, defeated by       │
-│    Kumbha at the Battle of Badnor (1457 CE).                           │
+│ Q: Which major musical treatises are directly attributed to Maharana   │
+│    Kumbha?                                                             │
+│ A: 'Sangitaraja' (divided into five Ratnakosas: Patha, Gita, Vadya,    │
+│    Nritya, Rasa), 'Sangitamimamsa', and the commentary 'Rasikapriya'.  │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 3                                                            │
-│ Q: Name the five Ratnakosas (sections) of Kumbha's "Sangitaraja".      │
-│ A: Patha, Gita, Vadya, Nritya, and Rasa Ratnakosas.                    │
+│ Q: Name the 4 diplomatic envoys sent by Akbar to negotiate with        │
+│    Maharana Pratap between 1572 and 1573 in chronological sequence.    │
+│ A: 1. Jalal Khan Qurchi ➔ 2. Kunwar Man Singh ➔ 3. Raja Bhagwan Das ➔   │
+│    4. Raja Todar Mal.                                                  │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 4                                                            │
-│ Q: Who was the Four-Armed Deity (चार हाथों वाले लोकदेवता)?             │
-│ A: Veer Kallaji Rathore, who carried his wounded uncle Jaimal on his   │
-│    shoulders in the 1568 Third Sāka of Chittorgarh.                    │
+│ Q: What was the primary strategic condition imposed regarding the      │
+│    restoration of Chittorgarh in the Mughal-Mewar Treaty of 1615?      │
+│ A: Chittorgarh Fort was restored to Mewar on the strict condition that │
+│    it would never be repaired or refortified by the Rana.              │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 5                                                            │
-│ Q: What was the couplet associated with Hadi Rani Sehalkunwar?         │
-│ A: "चूंडावत मांगी सैनाणी, सिर काट दे दियो क्षत्राणी॥" (She severed her  │
-│    head as a battle token for Rawat Ratan Singh of Salumbar in 1660).  │
+│ Q: Who composed the 25-slab Sanskrit Raj Prashasti at Rajsamand Lake,   │
+│    and under whose royal patronage?                                    │
+│ A: Composed by Ranchhod Bhatt Tailang under Maharana Raj Singh I       │
+│    (late 17th century).                                                │
 └────────────────────────────────────────────────────────────────────────┘
 ```

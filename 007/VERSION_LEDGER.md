@@ -17,6 +17,37 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v039 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 03 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 03 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 03 from prior audit score (Single-Source Readiness: 3/10, Factual Reliability: 3/10) to verified academic benchmark (~70–80% dependable exam-ready coverage).
+  - Enforced 4-tier epistemic hierarchy: Well-attested core, Conventional chronology, Tradition / later narrative, and Disputed claims.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 03 Codex**: `007/notes/rajasthan/04_CHAPTER_03_GUHILS_SISODIAS_OF_MEWAR.md` (807 lines, 21 master sections, full primary verification logs [1]–[11]).
+  2. **Remediated Rapid Revision Matrix 03**: `007/revision/rajasthan/03_REV_CHAPTER_03_MEWAR_GUHILS_SISODIAS.md` (60-second retrieval skeleton, Sāka & Sovereign invariants grid, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Unverified Superlatives & Dynastic Origins**:
+    - Removed promotional claim of "world's longest unbroken royal lineage" and qualified Guhadatta's conventional 566 CE foundation date.
+    - Added historiographical caveat to the standard Bappa Rawal = Kalabhoja equation. Removed unverified legends (founding of Rawalpindi, 115-grain gold coins, unverified Arab battle details).
+  - **Evidentiary Disentanglement (1303 Siege vs. Padmavat)**:
+    - Separated the historical 1303 capture of Chittor by Alauddin Khalji from the literary narrative of Rani Padmini, the mirror episode, and Gora–Badal, which originated primarily in Malik Muhammad Jayasi's *Padmavat* (c. 1540 CE, >230 years later).
+    - Removed unqualified casualty and jauhar counts.
+  - **Resurgence & 15th-Century Statecraft**:
+    - Qualified the Singoli capture-and-ransom account of Muhammad bin Tughlaq by Rana Hammir as a later disputed tradition.
+    - Differentiated the nine-storeyed 15th-century Hindu **Vijay Stambha** (built by Kumbha) from the seven-storeyed 12th-century Jain **Kirti Stambha** (dedicated to Adinatha).
+    - Tempered the folkloric claim that Kumbha personally built "32 out of 84 forts" to denote a broader program of repairs, refortifications, and new foundations.
+  - **Khanwa (1527) & Haldighati (1576) Causal Rigor**:
+    - Removed unverified exact troop counts and Silhadi's alleged 35,000-troop defection at Khanwa; framed Babur's victory through artillery, chained wagon barriers (*araba*), and *tulughma* manoeuvres.
+    - Analyzed Haldighati through a dual lens: tactical/operational success for the Mughal army vs. strategic failure to capture Pratap or extinguish Mewar's independence.
+    - Clarified capital chronology: Udaipur founded in 1559, became primary capital after Chittor's fall in 1568; Chavand served as Pratap's seat from c. 1585 until his death in 1597.
+  - **Negotiated Sovereignty & Monumental Infrastructure**:
+    - Analyzed the 1615 Treaty with Jahangir as negotiated sovereignty (Rana exempt from personal court attendance; no royal marriage; Chittorgarh restored under non-fortification terms).
+    - Separated Rajsamand Lake construction (c. 1662–1676) from the inscriptional installation of the *Raj Prashasti* by Ranchhod Bhatt Tailang.
+  - **Expanded Governance & Economic Layers**:
+    - Added dedicated analysis (§ 3.15) on distributed authority, chiefs and *thikanas*, agrarian resources, Zawar lead-zinc mining, trade routes, water works, and Eklingji's role in royal legitimacy.
+
 ### [STAGED LOCAL] v038 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 02 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
