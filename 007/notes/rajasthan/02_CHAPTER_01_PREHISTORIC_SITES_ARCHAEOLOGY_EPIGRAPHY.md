@@ -1,601 +1,567 @@
-# CHAPTER 01: PREHISTORIC CIVILIZATIONS, ARCHAEOLOGICAL SITES & EPIGRAPHIC HERITAGE OF RAJASTHAN
+# CHAPTER 01 — PREHISTORIC RAJASTHAN, ARCHAEOLOGICAL SITES, EARLY HISTORICAL CENTRES & EPIGRAPHIC SOURCES
 
-> **Epistemic Authority & Source Foundations**:  
-> • Rajasthan Board of Secondary Education (RBSE): Class 10 *Rajasthan Ka Itihas evam Sanskriti* (Ch 1) & Class 9 *Rajasthan Adhyayan*  
-> • डॉ. गोपीनाथ शर्मा, *राजस्थान का इतिहास* (राजस्थान हिंदी ग्रंथ अकादमी, जयपुर)  
-> • डॉ. हुकुमचंद जैन एवं डॉ. नारायण लाल माली, *राजस्थान का स्वतंत्रता संग्राम एवं सांस्कृतिक इतिहास* (RHGA)  
-> • Archaeological Survey of India (ASI) Reports, Western Circle (Excavation Memoirs of Kalibangan, Ahar, Bairat)  
-> • Inscriptions of Rajasthan: Epigraphia Indica & Rajasthan State Archives (Bikaner)  
-> • Target Examinations: RPSC RAS (Mains Paper 1 Unit I; Prelims), College Lecturer, RPSC SI
+**For:** RPSC RAS Prelims and Mains — Rajasthan history component  
+**Revision status:** Rebuilt after factual and syllabus audit, 16 October 2026  
+**Scope:** Prehistory to early historic archaeology; selected early historical centres; inscriptions, coins and what these sources can establish.
 
----
+> **Use this chapter as a high-yield static source, not as a reason to stop checking the official syllabus.** The RPSC RAS Preliminary syllabus dated 9 January 2026 explicitly includes Rajasthan’s prehistoric sites from the Palaeolithic to Chalcolithic and Bronze Age, ancient society and culture, and sources of Rajasthan history: archaeological, archival, literary and numismatic. This chapter substantially covers the archaeological, epigraphic and numismatic sides. Archival records, literary traditions and later dynastic history need their own chapters. [R1]
 
-## 1.1 The Morphotectonic & Chronological Framework of Stone Age Rajasthan
+## How to read evidence in this chapter
 
-Rajasthan's prehistoric human settlement was shaped by two major environmental arteries: the **Aravalli Mountain Ridge** (providing quartz and quartzite tool rocks, cave shelters, and copper metallogeny) and the **Palaeo-Drainage Networks** of the Saraswati-Drishadvati, Luni, Banas, and Chambal basins.
+- **Secure archaeological observation:** an artefact, structure, inscription, coin or burial was reported in an excavation or official site record.
+- **Conventional examination association:** a site-feature pairing commonly used in Rajasthan exam preparation. Dates can vary by publication.
+- **Interpretation:** an explanation of what finds may mean, such as a ritual function, crop choice, trade route or political relationship. Treat it as an interpretation, not as a directly observed fact.
+- **Disputed or over-specific claim:** do not memorise it as absolute truth unless the question names a particular textbook or primary report.
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        CHRONOLOGICAL STRATIGRAPHY OF STONE AGE RAJASTHAN               │
-├─────────────────────────┬────────────────────────────┬─────────────────────────────────┤
-│ Cultural Epoch          │ Primary Tool Industries    │ Canonical Type-Sites            │
-├─────────────────────────┼────────────────────────────┼─────────────────────────────────┤
-│ Lower Paleolithic       │ Handaxe, Cleaver, Chopper  │ Jayal, Didwana, Indragarh,      │
-│ (Early Stone Age)       │ (Acheulian quartzite)      │ Berach-Gambhiri basins, Bhangarh│
-├─────────────────────────┼────────────────────────────┼─────────────────────────────────┤
-│ Middle Paleolithic      │ Flake tools, Scrapers,     │ Luni Basin, Hokra, Budha        │
-│ (Middle Stone Age)      │ Points, Borers (Jasper)    │ Pushkar, Mogra, Sojat           │
-├─────────────────────────┼────────────────────────────┼─────────────────────────────────┤
-│ Upper Paleolithic       │ Blade, Burin, Fluted cores │ Didwana, Budha Pushkar, Bairat, │
-│ (Late Stone Age)        │ (Flint, Chert, Chalcedony) │ Bilara, Jaisalmer dunes         │
-├─────────────────────────┼────────────────────────────┼─────────────────────────────────┤
-│ Mesolithic Period       │ Microliths (Geometric:     │ Bagor (Maha Satiyan), Tilwara,  │
-│ (Microlithic Epoch)     │ Trapeze, Triangle, Lunate) │ Pachpadra, Sojat, Dhaneri       │
-├─────────────────────────┼────────────────────────────┼─────────────────────────────────┤
-│ Neolithic Period        │ Polished stone celts,      │ Baror, Bairat caves, Marwar     │
-│ (New Stone Age)         │ Ring-stones, Saddle querns │ gravel ridges, Luni terraces    │
-└─────────────────────────┴────────────────────────────┴─────────────────────────────────┘
-```
-
-### 1. The Lower Paleolithic Epoch (Handaxe-Cleaver Horizon)
-* **First Discovery**: In 1870, **C.A. Hackett** discovered the first Acheulian Paleolithic stone handaxe (*कुठार*) in Rajasthan from **Jaipur** and **Indragarh** (Bundi district). Subsequent discoveries were made by Seton-Karr in Jhalawar.
-* **Western Arid Corridor (Didwana & Jayal Formations)**: Excavations led by **Dr. V.N. Misra** and S.N. Rajaguru established the *Jayal-Didwana Acheulian sequence* in Nagaur. The calcareous conglomerate gravel beds at 16R (Didwana) proved human habitation dating back over 390,000 years.
-* **Mewar & Hadoti River Terraces**: Abundant Lower Paleolithic handaxes and cleavers made of local quartzite were recovered along the Berach, Gambhiri, Wagan, Bamani, and Chambal river valleys (Chittorgarh, Kota, Jhalawar).
-
-### 2. The Middle & Upper Paleolithic Transitions
-* **Middle Paleolithic (Nevasian Flake Industry)**: Dominated by fine-grained chert, jasper, and agate flakes rather than crude quartzite. Major concentrations lie along the Luni valley (Pali, Barmer, Jodhpur) and Pushkar lakes (Budha Pushkar, Hokra).
-* **Upper Paleolithic (Blade-Burin Horizon)**: Characterized by parallel-sided blade production and burins. The sand dunes of Budha Pushkar and Didwana document early arid hunter-gatherer adaptation.
-
-### 3. The Mesolithic Master-Sites: Bagor & Tilwara
-
-#### A. Bagor Civilization (Maha Satiyan Mound)
-* **Geographical Locator**: Situated on the **Kothari River**, approximately 25 km west of Bhilwara.
-* **Excavation Leadership**: Excavated between **1967 and 1970** jointly by **Dr. V.N. Misra** (Deccan College, Pune) and **Dr. L.S. Leshnik** (Heidelberg University, Germany).
-* **Stratigraphy & Material Culture (Three Phases)**:
-  * **Phase I (c. 5000–2800 BCE - Pure Mesolithic)**:
-    * Characterized by millions of tiny, geometrically crafted **microliths** (triangles, lunates, trapezes, bladelets) made of quartz and chert.
-    * Stone-paved floors with stone boundary alignments serving as living huts.
-    * **Faunal Evidence of Animal Husbandry**: Along with Adamgarh (Hoshangabad, MP), Bagor provides the **earliest undisputed scientific evidence of animal domestication in the Indian subcontinent** (bones of sheep, goats, and humped cattle showing butcher cut-marks).
-  * **Phase II (c. 2800–600 BCE - Copper Contact)**: Appearance of copper tools (3 arrowheads, a spearhead, awls) alongside stone microliths, indicating trade contacts with the Ahar-Banas chalcolithic cultures; introduction of handmade pottery.
-  * **Phase III (c. 600 BCE–200 CE - Iron Age)**: Iron tools, wheel-thrown pottery, and extended burials.
-* **Burial Practices**: Dead bodies buried inside living floors; oriented strictly **East-West** in Phase I with legs bent, and **West-East** in Phase II with elaborate grave goods (pots, copper tools, ornaments).
-
-#### B. Tilwara (Luni River Basin)
-* **Geographical Locator**: Situated on the banks of the **Luni River** in **Balotra district** (historically Barmer district).
-* **Excavator**: Excavated in **1967–68** by **Dr. V.N. Misra**.
-* **Material Findings**: Microlithic industry similar to Bagor; circular living huts with packed clay floors; ash layers containing burnt bones of domesticated cattle, sheep, and wild game; circular fire-hearths with coarse handmade pottery.
+**The governing rule:** distinguish what was *found* from what archaeologists *infer*. An artefact can support an interpretation without proving every detail of it.
 
 ---
 
-## 1.2 The Chalcolithic & Bronze Age Civilizations of Rajasthan
+## 1.1 Syllabus map and the core mental model
 
-```text
-       ┌──────────────────────────────────────────────────────────────┐
-       │     THE TRIAD OF PROTO-HISTORIC CIVILIZATIONS IN RAJASTHAN   │
-       └──────────────────────────────┬───────────────────────────────┘
-                                      │
-       ┌──────────────────────────────┼──────────────────────────────┐
-       ▼                              ▼                              ▼
- ┌───────────────┐             ┌───────────────┐              ┌──────────────┐
- │     AHAR      │             │   GANESHWAR   │              │  KALIBANGAN  │
- │ CULTURE (BRW) │             │ CULTURE (OCP) │              │ CULTURE (HAR)│
- ├───────────────┤             ├───────────────┤              ├──────────────┤
- │ Berach/Ahar   │             │ Kantli River  │              │ Ghaggar Basin│
- │ Basin, Mewar  │             │ Neem Ka Thana │              │ Hanumangarh  │
- │ Copper Smelt. │             │ 99% Pure Cu   │              │ Bronze Age   │
- │ "Dhulkot"     │             │ "Mother of Cu"│              │ Double-plough│
- └───────────────┘             └───────────────┘              └──────────────┘
-```
+### What this chapter must let you do
 
----
+| Exam demand | Required competence | Covered here |
+|---|---|---|
+| Prelims fact recall | Match a site with its river/region, culture, material and key find | Yes |
+| Chronological reasoning | Separate Palaeolithic, Mesolithic, Harappan, Chalcolithic, Iron Age and early historic horizons | Yes, with date cautions |
+| Elimination questions | Distinguish similar sites and identify claims that overstate the evidence | Yes |
+| Mains explanation | Explain what archaeology reveals about subsistence, technology, settlement, trade, ritual and political organisation | Yes |
+| Sources of Rajasthan history | Differentiate archaeology, inscriptions, coins, literary sources and archives | Yes, with archival/literary sources signposted for companion chapters |
+| Ancient historical centres | Connect Matsya, Sibi, Malava and Yaudheya with the evidence used to study them | Yes |
 
-### I. The Ahar-Banas Culture (The Copper Smelting Metropolis)
+### The simplest useful mental model
 
-```text
-[CHRONOLOGY: c. 2100 BCE – 1500 BCE | GEOGRAPHY: Berach/Banas Valley, South-East Rajasthan]
-```
+Rajasthan’s archaeological record is not one continuous, uniform “civilisation”. It is a **regional mosaic** shaped by river valleys, seasonal water, the Aravalli mineral belt, routes across the Thar, and links with the wider Indus world. Three broad patterns are especially useful:
 
-#### 1. Historical & Epigraphic Nomenclature
-* **Ancient Inscriptional Designation**: In ancient Sanskrit records, the settlement is designated as **Tambavati Nagari** (ताम्रवती नगरी — The City of Copper) due to its specialized copper-smelting industry.
-* **Medieval Inscriptional Name**: In 10th and 11th-century epigraphs of the Guhila rulers, it is designated as **Aghatpur** (आघाटपुर) or **Aghat Durg** (आघाट दुर्ग).
-* **Local Regional Name**: Modern villagers call the high archaeological mound **Dhulkot** (धूलकोट — The Mound of Dust/Ashes), measuring approximately 500 meters in length and 15 meters in height.
+1. **Stone Age communities:** stone-tool traditions and changing patterns of hunting, gathering, mobility and early animal management.
+2. **Village and metal-using societies:** Ahar-Banas and Ganeshwar-Jodhpura, among other regional traditions, showing different combinations of pottery, farming, settlement and copper technology.
+3. **Harappan and early historic networks:** Kalibangan and Baror for the Indus/Harappan sphere; then sites such as Bairat, Nagari, Nagar, Rairh, Noh and Rangmahal for early historic settlement, political communities, craft production, coins and inscriptions.
 
-#### 2. Excavation History & Field Archaeologists
-1. **1953**: First preliminary scientific exploration by **Akshay Kirti Vyas** (A.K. Vyas).
-2. **1954–1956**: Systematic trenching and classification conducted under **Ratan Chandra Agrawala** (R.C. Agrawala) of the Rajasthan Department of Archaeology.
-3. **1961–1962**: Large-scale stratigraphic horizontal excavations led jointly by **Prof. H.D. Sankalia** (Deccan College, Pune), **Dr. V.N. Misra**, and **P.C. Seshedri**.
-
-#### 3. Distinctive Material Culture & Architectural Anatomy
-* **Domestic Architecture**: Houses were rectangular, spacious, built on stone slab foundations with sun-dried mud bricks and river pebbles; roofed with bamboo mats plastered with black soil; reinforced with internal reed screens.
-* **Joint Family & Communal Living**: Excavations revealed multi-room houses; one single room contained **six distinct clay hearths (चूल्हे)**, demonstrating either a joint family structure or a communal kitchen setup for copper smiths.
-* **The Black-and-Red Ware (BRW) Ceramic Tradition**:
-  * The pottery was manufactured using inverted firing technique, yielding a jet-black interior and rim with a reddish-brown exterior.
-  * Surface decorated with geometric white pigment paintings (dots, chevrons, wavy lines, concentric circles).
-  * Unique domestic storage jars called **Gore** and **Kothar** (गोरे एवं कोठे) designed to preserve grains from humidity and pests.
-* **Metallurgical Supremacy**:
-  * Abundance of copper axes, celts, bangles, rings, and knives.
-  * Discovery of **clay crucibles and terracotta tuyeres** containing copper slag (*तांबा गलाने की भट्ठियां*), proving local smelting of ore extracted from the nearby Aravalli deposits (Khetri, Delwara, Debari).
-* **Religious & Ritual Paraphernalia**:
-  * **The Banasian Bull (बनासियन बुल)**: Hand-modeled terracotta bull figurines characterized by stylized humps and elongated horns; unbaked or baked; believed to represent a fertility or religious cult.
-  * **Terracotta Seals with Foreign Iconography**: A circular terracotta seal with a central figure of **Apollo** holding an arrow with a quiver on his back, flanked by a deer, indicating trans-regional cultural and commercial exchange.
-  * **Subsistence**: Clear evidence of **rice** (chaff impressions on pottery), wheat, barley, and jowar; bones of humped cattle, water buffalo, sheep, goats, pigs, and deer.
+The same evidence supports different types of question. A river location helps with mapping; a pottery type helps with cultural classification; a coin legend helps identify a political community; an inscription can record a ruler’s claim, a religious donation, a tax or a public work.
 
 ---
 
-### II. Allied Sites of the Ahar-Banas Cultural Horizon
+## 1.2 Chronology: learn the sequence, not false precision
 
-The Ahar culture spans across more than 90 identified settlements in the Mewar plains. Four satellite sites are critically tested by RPSC:
+The dates below are **working ranges**, not universal boundaries. Archaeological chronologies change as stratigraphy, radiocarbon dating and ceramic analysis improve. Site-level dates can overlap.
 
-```text
-┌──────────────┬──────────────────┬─────────────────┬─────────────────────────────────────────────────────────┐
-│ Site Name    │ River / District │ Primary Director│ Canonical Discoveries & RPSC Exam Distinctives          │
-├──────────────┼──────────────────┼─────────────────┼─────────────────────────────────────────────────────────┤
-│ Balathal     │ Bedach Basin,    │ Dr. V.N. Misra  │ • Massive fortified stone enclosure (Durg-prakara)      │
-│              │ Vallabhnagar,    │ (1993–1998)     │ • 4,000-year-old skeleton: Earliest leprosy evidence   │
-│              │ Udaipur          │                 │ • Intact piece of woven cotton fabric (सूती कपड़ा)      │
-│              │                  │                 │ • 11-room monumental mud-brick residential complex      │
-├──────────────┼──────────────────┼─────────────────┼─────────────────────────────────────────────────────────┤
-│ Gilund       │ Banas River,     │ Prof. B.B. Lal  │ • Rare use of kiln-fired/burnt bricks in Chalcolithic   │
-│              │ Rajsamand        │ (1959–60) &     │ • Terracotta sealings with intricate geometric stampings│
-│              │                  │ V.S. Shinde     │ • Distinctive clay animal figurines (bulls, rams)       │
-├──────────────┼──────────────────┼─────────────────┼─────────────────────────────────────────────────────────┤
-│ Ojhiana      │ Kothari River,   │ Alok Tripathi & │ • Terracotta white-painted humped bulls and cows        │
-│              │ Badnor, Bhilwara │ B.R. Meena      │ • Located on an elevated rocky hill, not river alluvium │
-│              │                  │ (2000)          │ • Copper celts and multi-tiered structural phases       │
-├──────────────┼──────────────────┼─────────────────┼─────────────────────────────────────────────────────────┤
-│ Pachmata     │ Rajsamand        │ Pune Deccan     │ • Semi-precious stone bead workshop (agate, carnelian)  │
-│              │                  │ College Team    │ • Evidence of lapis lazuli beads (Afghan trade contact) │
-└──────────────┴──────────────────┴─────────────────┴─────────────────────────────────────────────────────────┘
-```
+| Broad horizon | Typical archaeological signal | Rajasthan anchors | What not to conclude automatically |
+|---|---|---|---|
+| Lower Palaeolithic | Large cutting tools, including handaxes and cleavers; cores and flakes | Didwana–Singi Talav, Jayal and other western Rajasthan localities | One isolated tool does not by itself date a whole settlement |
+| Middle Palaeolithic | Flake-based tools, scrapers and points | Localities in western Rajasthan, including palaeochannel and dune settings | Tool types and dates vary by assemblage |
+| Upper Palaeolithic | Blades and burins in relevant assemblages | Evidence is less evenly distributed than the broad national sequence suggests | Do not classify every blade as Upper Palaeolithic without context |
+| Mesolithic | Microliths; continued hunting-gathering, with early or mixed animal-management evidence at some sites | Bagor, Tilwara and other microlithic localities | “Mesolithic” does not mean every group was exclusively nomadic or had no contact with metal users |
+| Harappan / protohistoric | Planned settlements, distinctive ceramics, seals, bricks, craft production and burials | Kalibangan, Baror and the Sothi-related horizon | Rajasthan was not represented by one identical Harappan settlement pattern |
+| Chalcolithic | Stone tools alongside copper; village architecture and regionally distinctive pottery | Ahar-Banas sites; Ganeshwar-Jodhpura complex | “Copper Age” does not mean stone tools disappeared or that all sites used the same pottery |
+| Iron Age / early historic | Iron objects and furnaces; PGW/NBPW and other ceramic horizons; coins, inscriptions and emerging political centres | Noh, Jodhpura, Sunari, Rairh, Bairat, Nagari, Nagar and related sites | Ceramic horizons overlap and should not be treated as identical to dynastic periods |
+
+### An important correction about the “Neolithic” label
+
+The original file classified Baror and Bairat as canonical Neolithic sites. That is not a safe classification: **Baror is associated with pre-Harappan and Harappan material**, while Bairat is especially important for Mauryan/Buddhist and early historic remains. Some regional lists classify individual stone-tool assemblages differently, but this chapter does not assign Rajasthan a single, clearly defined Neolithic culture on the basis of those two sites. Follow the exact site-period association in the prescribed source; do not fill a gap in the sequence by inventing a “Neolithic site list”.
 
 ---
 
-### III. Ganeshwar Civilization (The Mother of Copper Age Cultures)
+## 1.3 Stone Age Rajasthan
 
-```text
-[CHRONOLOGY: c. 2800 BCE – 2000 BCE | GEOGRAPHY: Kantli Basin, Neem Ka Thana (Aravalli Foothills)]
-```
+### A. Lower Palaeolithic: Didwana, Singi Talav and Jayal
 
-#### 1. Morphotectonic Locator & Excavation
-* **Geographical Situation**: Located along the seasonal **Kantli River** at Ganeshwar in **Neem Ka Thana district** (historically Sikar district), nestled near the copper-rich zones of Khetri, Kho-Dariba, and Singhana.
-* **Excavation Leadership**: Discovered in **1977** and excavated under **R.C. Agrawala** and **Vijay Kumar** (1978–1979) by the Rajasthan Department of Archaeology.
+**Why the region matters:** western Rajasthan preserves stone-tool assemblages in dune, gravel, palaeochannel and lake-margin contexts. These geological settings help researchers reconstruct earlier landscapes as well as human activity.
 
-#### 2. Epistemic Status & Historical Stature
-* **Pivotal Titles**:
-  1. **"ताम्रयुगीन संस्कृतियों की जननी"** (*The Mother of Copper Age Cultures*).
-  2. **"पुरातत्व का पुष्कर"** (*The Pushkar of Archaeology*).
-  3. **"ताम्र-संचयी संस्कृति"** (*The Copper Accumulating Culture*).
-* **Chronological Precedence**: Radio-carbon dates place Ganeshwar between **2800 BCE and 2200 BCE**, proving that Ganeshwar predates both Mature Harappa and Ahar, serving as the foundational metallurgical source from which copper metallurgy diffused.
+- **Didwana:** a key locality for studying the Palaeolithic sequence and changing environments in the Thar region. The well-known 16R section has been used in research on buried soils, dune development and artefacts from different horizons.
+- **Singi Talav:** near Didwana; a significant Acheulian locality. Published research describes handaxes, choppers, cores, flakes and other tools, including material found in stratified contexts.
+- **Jayal:** a gravel locality where handaxes, choppers, chopping tools and other stone artefacts have been reported.
+- **Wider distribution:** stone tools also occur in river-valley and terrace settings elsewhere in Rajasthan. Site names should be learned with the appropriate tool assemblage, rather than copied into every Palaeolithic sub-period.
 
-#### 3. Metallurgical Super-Abundance
-* **Artifact Typology**: Over **5,000 copper implements** were recovered, including:
-  * Hundreds of copper fishhooks (*मछली पकड़ने के कांटे*), pointing to perennial stream flow in ancient Kantli and dietary reliance on fish.
-  * Arrowheads (*तीर के फलक*), celts (*कुल्हाड़ियां*), spearheads (*भाले*), chisels (*छेनी*), razors, and bangles.
-* **Chemical Purity**: Spectroscopic chemical analysis revealed that the copper implements contain **up to 99% pure copper**, with negligible or zero tin/lead alloying.
-* **Economic Linkages**: Ganeshwar functioned as the primary industrial metallurgical quarry, supplying refined copper ingots and tools to Kalibangan, Harappa, and Mohenjo-daro across the ancient Hakra-Saraswati trade corridor.
+**First-discovery fact:** Rajasthan exam summaries often credit **C. A. Hackett (1870)** with an early discovery of a Palaeolithic handaxe in the Jaipur region. Keep the name-date association, but do not embellish it with multiple localities or an excavation narrative unless a reliable source specifies them. Later systematic research at Didwana and Singi Talav is a separate event.
 
-#### 4. Ceramic Assemblage (Ochre Colored Pottery)
-* Yielded large quantities of **Kripashvarni Mridbhand** (कपिशवर्णी मृद्भाण्ड / Ochre Colored Pottery - OCP).
-* Thin-walled, slipped, orange-to-red ware, decorated with incised linear patterns and geometric motifs.
+**Mains connection:** a stone-tool site is not just a list of implements. Artefact raw material, tool production debris, river or dune setting, and the relationship between tools and geological layers together help archaeologists infer raw-material procurement, movement and adaptation to changing environments.
 
----
+### B. Middle and Upper Palaeolithic
 
-### IV. Kalibangan: The Bronze Age Harappan Metropolis
+The distinction is principally technological: Middle Palaeolithic assemblages commonly emphasise flake tools, scrapers and points; Upper Palaeolithic assemblages are associated with blade and burin technologies. In Rajasthan, localities and dated layers matter more than a memorised one-line universal chronology.
 
-```text
-[CHRONOLOGY: Pre-Harappan: c. 2900–2700 BCE | Mature Harappan: c. 2700–1900 BCE | GEOGRAPHY: Ghaggar Basin, Hanumangarh]
-```
+For Prelims, learn the **tool signature and broad regional setting**. Avoid unsupported statements such as a single Rajasthan site documenting a precisely dated, fully established “arid hunter-gatherer civilisation”. Environmental adaptation is a research interpretation derived from multiple kinds of evidence.
 
-#### 1. Nomenclature & Discovery Sequence
-* **Etymology**: The Punjabi word *Kalibangan* literally translates to **"Black Bangles"** (काली चूड़ियां), derived from the dense scatter of terracotta and faience black bangles observed on the surface mounds.
-* **Discovery Milestones**:
-  1. **Luigi Pio Tessitori (1916–1919)**: The Italian Indologist explored Kalibangan while collecting bardic chronicles; he identified the mounds as prehistoric but could not establish their Harappan identity before his death in Bikaner in 1919.
-  2. **Amlananda Ghosh (A. Ghosh, 1952–1953)**: Conducted systematic archaeological reconnaissance along the dry bed of the Ghaggar-Saraswati; correctly identified the Harappan affiliation of Kalibangan and discovered dozens of allied Sothi sites.
-  3. **Comprehensive Horizontal Excavations (1961–1969)**: Conducted under the directorship of **B.B. Lal**, **B.K. Thapar**, **M.D. Khare**, **K.M. Srivastava**, and **S.P. Jain**.
+### C. Mesolithic: Bagor and Tilwara
 
-#### 2. Stratigraphic Horizons: Two Distinct Epochs
+#### Bagor — the key association
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                        THE KALIBANGAN STRATIGRAPHY                     │
-├───────────────────────────────────┬────────────────────────────────────┤
-│ PERIOD I: PRE-HARAPPAN (SOTHI)   │ PERIOD II: MATURE HARAPPAN         │
-├───────────────────────────────────┼────────────────────────────────────┤
-│ • c. 2900 BCE – 2700 BCE          │ • c. 2700 BCE – 1900 BCE           │
-│ • Fortified rhomboid settlement   │ • Dual fortified citadel & city    │
-│ • World's earliest ploughed field │ • Standard Harappan grid layout    │
-│ • Evidence of early earthquake    │ • 7 Fire altars on mud platforms   │
-│ • Mud bricks in ratio 3:2:1       │ • Standard Harappan bricks: 4:2:1  │
-└───────────────────────────────────┴────────────────────────────────────┘
-```
+- **Location:** on a sand dune overlooking the Kothari River, around 25 km west of Bhilwara.
+- **Excavation:** excavated principally during **1968–1970** by a team led by **V. N. Misra**, with Leshnik associated with the project in standard accounts. Some short summaries give slightly different starting years; the excavation period should not be confused with the date of the first discovery.
+- **Material:** geometric and non-geometric microliths, commonly made from quartz and chert; stone floors and alignments; concentrations of animal bones and butchering areas.
+- **Subsistence:** faunal remains have been identified as including domesticated sheep/goat and cattle, along with a range of wild animals. This indicates a mixed subsistence picture and early animal management; it does not establish that every Bagor inhabitant was a settled farmer.
+- **Cultural phases:** the site is commonly divided into three phases on the basis of material culture: (I) microlithic material, (II) copper appearing alongside microliths, often dated about **2800–600 BCE**, and (III) iron appearing alongside microliths, often dated about **600–200 BCE**. The excavated trenches did not establish a simple, complete layer profile; treat the phase dates as archaeological working ranges, not exact civilisational start and end dates. [R5]
 
-#### 3. Canonical Features of Period I (Pre-Harappan / Early Harappan)
-* **The World's Earliest Ploughed Agricultural Field (विश्व का प्राचीनतम जुता हुआ खेत)**:
-  * Located south-east of the fortified mound outside the city walls.
-  * Shows a grid of intersecting furrows (*दोहरे परकोटेदार हल के निशान*): closely spaced parallel furrows in one direction crossed at right angles by widely spaced furrows.
-  * **Agronomic Significance**: Proves dual cropping in a single season—chana (gram) planted in narrower furrows and sarson (mustard) in wider furrows, an identical practice still followed in northern Rajasthan.
-* **Earliest Evidence of an Earthquake**: Stratigraphic cleavage fractures, collapsed mud-brick walls, and fissured ground strata prove that an earthquake around 2700 BCE brought an end to Period I.
-* **Brick Ratio**: Unbaked mud bricks strictly following the **$3:2:1$** dimensional ratio ($30 \times 20 \times 10\text{ cm}$).
+**High-value association:** **Bagor = Kothari River + microliths + evidence of early animal management.**
 
-#### 4. Canonical Features of Period II (Mature Harappan Metropolis)
-* **Settlement Morphology**:
-  * Unlike Mohenjo-daro and Harappa where only the Western Citadel was fortified, **at Kalibangan both the Western Citadel (गढ़ी क्षेत्र) and the Eastern Lower Town (नगर क्षेत्र) were independently fortified** with massive mud-brick defensive walls.
-  * Streets oriented along cardinal axes (North-South and East-West), forming a classic **Grid / Chessboard / Oxford Pattern**.
-  * Brick ratio shifted to the standardized Harappan **$4:2:1$** ratio ($30 \times 15 \times 7.5\text{ cm}$ and $40 \times 20 \times 10\text{ cm}$).
-* **Religious Architecture & Fire Altars (अग्निकुंड / हवन कुंड)**:
-  * On the southern mud-brick platform of the Citadel stood a row of **seven rectangular clay Fire Altars (7 अग्निवेदियां)**.
-  * Altars contained central terracotta cylinders (*stambha*), charcoal, ash, and terracotta cakes (*पिंड*), alongside cattle bones, confirming community fire rituals and animal sacrifice.
-* **Public Sanitation & Drainage Systems**:
-  * Unlike Mohenjo-daro's street drains of baked bricks, Kalibangan houses used **wooden drainage pipes (लकड़ी की नाली)** carved from scooped tree trunks to channel water into domestic soakage jars (*कच्चे घड़े*).
-  * Houses constructed predominantly of **sun-dried mud bricks**; burnt bricks were reserved strictly for wells, bathing floors, and drains.
-* **Surgical & Medical Archaeology (Trepanning)**:
-  * Discovery of a child's cranium with **six surgically trepanned holes (कपाल छेदन / शल्य चिकित्सा)** and signs of bone healing, providing the earliest global proof of brain surgery / hydrocephalus treatment.
-* **Seals & Inscriptions**:
-  * Discovery of a **cylindrical clay seal** bearing Mesopotamian motifs, proving direct overseas or overland maritime trade connections.
-  * Terracotta seals inscribed with the Harappan boustrophedon script (*भावचित्रात्मक लिपि*, written right to left, then left to right).
-* **Mortuary Archaeology (Three Burial Rites)**:
-  1. *Extended Inhumation (पूर्ण शवाधान)*: Corpse placed supine in a rectangular pit, head oriented North, accompanied by pottery.
-  2. *Pot Burial / Fractional Burial (आंशिक शवाधान)*: Bones placed inside a round clay urn.
-  3. *Symbolic / Memorial Burial (प्रतीकात्मक शवाधान)*: Rectangular pit containing grave pottery and personal items but **zero human skeletal remains**, erected as a cenotaph for individuals dying far from home.
+#### Tilwara
+
+- **Location:** on the Luni River; older references place it in Barmer district, while current administrative references use **Balotra district**.
+- **Importance:** one of Rajasthan’s major Mesolithic localities, commonly studied alongside Bagor.
+- **Material evidence:** microliths and evidence related to habitation and subsistence have been reported. Claims about a particular hut plan, domesticated species or exact excavation sub-phase should be tied to a specific excavation report rather than treated as universal facts.
+
+**Comparison:** Bagor is strongly associated with the Kothari River and a documented sequence of microlithic, copper-associated and iron-associated material. Tilwara is a major Luni-basin comparator. Both are important for understanding adaptation in a relatively dry setting.
+
+### D. Rock art: Alaniya near Kota
+
+Rajasthan’s prehistoric story should include rock art, not only stone tools and pottery.
+
+- **Alaniya (Alnia), near Kota:** the Rajasthan Tourism Department describes prehistoric caves and rock paintings on rock surfaces near the Alaniya River; the State Archaeology Department lists cave paintings at Alaniya among protected monuments. [R10]
+- **What rock art can tell us:** depictions of people, animals and activities can add evidence about environment, hunting, social activity and symbolic expression.
+- **Interpretive limit:** an image is not a transparent photograph of past life. Exact dating, function and religious meaning require context and specialist analysis. Do not assign every painting at a site to a single period without evidence.
+
+**Prelims cue:** **Alaniya = prehistoric rock paintings near Kota.**
 
 ---
 
-## 1.3 Iron Age & Historic Archaeological Sites of Rajasthan
+## 1.4 Protohistoric Rajasthan: Harappan and regional Chalcolithic cultures
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│             IRON AGE & HISTORIC EXCAVATION SITES OF RAJASTHAN          │
-├──────────────┬──────────────────┬─────────────────┬────────────────────┤
-│ Site Name    │ District         │ River Basin     │ Key Antiquities    │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Bairat       │ Kotputli-Behror  │ Banganga        │ Ashokan Edicts,    │
-│ (Viratnagar) │ (Formerly Jaipur)│                 │ Indo-Greek Coins   │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Rairh        │ Tonk (Niwai)     │ Dhil River      │ 3,075 Silver Punch-│
-│ (Tatanagar)  │                  │                 │ Marked Coins Hoard │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Nagari       │ Chittorgarh      │ Berach Basin    │ Sibi Coins, Hathi- │
-│ (Madhyamika) │                  │                 │ bada Prakara       │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Nagar        │ Tonk (Uniara)    │ Banas tributary │ Malava Janapada    │
-│ (Karkotnagar)│                  │                 │ Coin Hoards        │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Sunari       │ Neem Ka Thana    │ Kantli Basin    │ Ancient Iron       │
-│              │ (Jhunjhunu)      │                 │ Smelting Furnaces  │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Jodhpura     │ Kotputli-Behror  │ Sabi River      │ Iron Furnaces,     │
-│              │ (Jaipur border)  │                 │ OCP Pottery Layers │
-├──────────────┼──────────────────┼─────────────────┼────────────────────┤
-│ Rangmahal    │ Hanumangarh      │ Ghaggar Valley  │ Kushana Sprinklers,│
-│              │                  │                 │ Red Polished Ware  │
-└──────────────┴──────────────────┴─────────────────┴────────────────────┘
-```
+### A. Kalibangan — the principal Harappan site of Rajasthan
 
-### 1. Bairat (Ancient Viratnagar)
-* **Geographical & Historical Context**: Located at the base of the Aravalli hills in **Kotputli-Behror district** along the Banganga river. Ancient capital of the **Matsya Janapada**; legendary refuge of the Pandavas during their final year of incognito exile (*अज्ञातवास*).
-* **Principal Excavators**:
-  * **Dayaram Sahni (1936–1937)**: Excavated Bijak ki Pahadi and Bhimsen ki Dungri.
-  * **Nilratan Banerjee & Kailash Nath Dixit (1962–1963)**: Stratigraphic confirmation of NBPW, Buddhist chaityas, and Maurya-Greek continuity.
-* **Key Mounds**: **Bijak ki Pahadi** (बीजक की पहाड़ी), **Bhimsen ki Dungri** (भीम की डूंगरी), **Moti Dungri**, and **Ganesh Dungri**.
-* **Epigraphic Discoveries (The Ashokan Edicts)**:
-  * **The Bhabru Rock Edict (भाब्रू शिलालेख)**: Discovered on Bijak ki Pahadi in **1837 by Captain Burt**. Written in Brahmi script and Prakrit language, it is preserved today in the **Asiatic Society Museum, Kolkata**. In it, Ashoka explicitly terms himself *Piyadasi Raja Magadhe* (प्रियदसी राजा मगधे) and confesses his personal faith in the **Buddha, Dhamma, and Sangha (त्रिरत्न)**.
-  * **Minor Rock Edict I**: Located at Bhimsen ki Dungri, confirming Bairat as a provincial administrative seat of the Mauryan empire.
-* **The Buddhist Circular Chaitya Shrine**:
-  * On Bijak ki Pahadi, excavations revealed a **circular brick-and-timber Chaitya shrine (गोल बौद्ध मंदिर)**, supported by 26 octagonal wooden pillars and encircled by a circumambulatory path (*प्रदक्षिणा पथ*).
-  * Scientifically recognized as the **oldest surviving free-standing circular temple architecture in India**.
-* **Numismatic Discovery (The Cloth-Wrapped Coin Hoard)**:
-  * Excavation recovered a terracotta jar containing **36 silver coins wrapped in a piece of woven cotton fabric**:
-    * **8 Punch-Marked Silver Coins** (Dharana/Karshapana) of the Mauryan imperial series.
-    * **28 Indo-Greek / Bactrian Silver Coins**, including **16 coins belonging to King Menander (Milinda)**, proving Indo-Greek commercial and political control over north-eastern Rajasthan in the 2nd century BCE.
-* **Hiuen Tsang's Testimony (634 CE)**: The Chinese Buddhist pilgrim Xuanzang visited Bairat (*Po-li-ye-to-lo*), noting 8 Buddhist monasteries, and recorded that the city was devastated by the Huna conqueror **Mihirakula**.
+**Location:** on the ancient Ghaggar river system in present-day Hanumangarh district. *Kalibangan* is commonly translated as “black bangles”.
 
-### 2. Rairh (The Tatanagar of Ancient Rajasthan)
-* **Locator & Excavators**: Situated on the banks of the Dhil river in Niwai tehsil of **Tonk district**. Excavated between **1938 and 1940 by K.N. Puri** and **Dayaram Sahni**.
-* **Numismatic Super-Hoard**: Unearthed **3,075 silver Punch-Marked coins (Dharana)**, representing the largest single ancient coin hoard discovered in India.
-* **Industrial Metallurgical Scale**: Large-scale iron smelting complexes, tongs, anvils, and iron weapons; hence termed **"राजस्थान का टाटानगर"** (*Tatanagar of Rajasthan*).
-* **Malava Antiquities**: Hundreds of coins inscribed with *Malavanam Jayah* (मालवानां जयः).
+**Discovery and excavation — keep the verbs separate:**
 
-### 3. Nagari (Ancient Madhyamika)
-* **Locator & Excavator**: Located on the Berach river in **Chittorgarh district**. Excavated in **1915–1916 by Dr. D.R. Bhandarkar**.
-* **Janapada Stature**: Capital of the **Sibi Janapada (शिवि जनपद)**; coins bearing the Brahmi legend *Majhimikaya Sibijanapadasa* (मझिमिकाया शिबिजानपदस) were discovered here.
-* **Hathibada Enclosure (हाथीबाड़ा प्राकार)**: Massive cyclopean stone enclosure wall dedicated to the Vaishnava Bhagavata shrine of Sankarshana and Vasudeva.
+1. **Amlananda Ghosh** identified Kalibangan’s Harappan significance during reconnaissance in the early 1950s; the site was recognised in the wider Sothi/Ghaggar archaeological context.
+2. The Archaeological Survey of India excavated Kalibangan during **1960/61–1969**. **B. B. Lal and B. K. Thapar** are central names associated with the project; other members of the excavation team also contributed. The ASI’s published excavation memoirs are the controlling source for architectural and stratigraphic details. [R2]
 
-### 4. Other Significant Historic Sites
-* **Nagar (Karkot Nagar, Tonk)**: Capital of the Malava republic; yielded thousands of Malava copper coins, Mahishasuramardini terracotta plaques, and seals.
-* **Sunari (Neem Ka Thana)**: Located on Kantli river; ancient iron-smelting blast furnaces operated with blow-pipe bellows (*धौंकनी से चलने वाली भट्ठियां*); fine NBPW bowls.
-* **Jodhpura (Kotputli-Behror)**: Located on Sabi river; continuous sequence from OCP through Black-and-Red Ware, Painted Grey Ware (PGW), to NBPW; iron smelting ovens.
-* **Rangmahal (Hanumangarh)**: Excavated in **1952–1954 by Swedish archaeologist Hanna Rydh**; yielded distinctive Kushana-Gupta painted red pottery with tall sprinkler bottles (*टोंटीदार घड़े*) and terracotta plaques of Gandhara-Mathura synthesis.
-* **Naliasar (Sambhar, Jaipur Rural)**: Kushana, Yaudheya, and Gupta coins; bronze figurines.
+#### Two main cultural periods
 
----
+| Period | Broad chronological frame used for study | Key traits |
+|---|---|---|
+| Period I — Early Harappan / Sothi-related horizon | Broadly before the Mature Harappan phase; commonly placed around the late 4th to early 3rd millennium BCE, with exact ranges varying by scheme | Fortified settlement, regional ceramic traits and the famous ploughed field |
+| Period II — Mature Harappan | Broadly c. 2600–1900 BCE | Harappan settlement planning, fortified sectors, characteristic ceramics, fire-altars and cemetery evidence |
 
-## 1.4 Epigraphic Heritage: Master Inscriptions & Prashastis
+Do not present the narrowly bounded dates in the original file as if all scholars accept them without variation. **“Sothi-related” is safer than saying every Period I layer is identical to a single uniform Sothi culture.**
 
-Inscriptions (*अभिलेख*) and Prashastis (*प्रशस्तियां*) constitute the primary lithic evidence for reconstructing the political, dynastic, socio-economic, and religious history of Rajasthan.
+#### What to retain for Prelims
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                THE LITHIC CHRONICLES OF RAJASTHAN                      │
-├───────────────────────┬──────────┬─────────────────────────────────────┤
-│ Epigraph Name         │ Date/Era │ Primary Historical / Cultural Proof │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Barli Inscription     │ 443 BCE  │ Oldest epigraph; pre-Ashokan Jainism│
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Ghosundi Inscription  │ 2nd C.BCE│ Earliest Bhagavata Vaishnava proof  │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Bhabru Rock Edict     │ 3rd C.BCE│ Ashoka's Buddhist Triratna faith    │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Samoli Inscription    │ 646 CE   │ Guhila Siladitya; Jawar zinc mines  │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Mandore & Ghatiyala   │ 9th C.CE │ Gurjara-Pratihara origin & Kakkuka  │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Bijolia Inscription   │ 1170 CE  │ Vatsa-gotra Chauhans; ancient towns │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Chirwa Inscription    │ 1273 CE  │ Mewar Guhils; Battle of Bhutala     │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Ranakpur Prashasti    │ 1439 CE  │ Dharanashah, Depaka; Kumbha titles  │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Kumbhalgarh Prashasti │ 1460 CE  │ Hammir's Vishama Ghati Panchanan    │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Kirti Stambha Prash.  │ 1460 CE  │ Atri-Mahesh; Kumbha's treatises     │
-├───────────────────────┼──────────┼─────────────────────────────────────┤
-│ Raj Prashasti         │ 1676 CE  │ 25 black marble slabs; World record │
-└───────────────────────┴──────────┴─────────────────────────────────────┘
-```
+1. **Ploughed field:** a field with intersecting furrows was identified outside the settlement. It is strong evidence of plough-based cultivation. The proposal that the two furrow directions reflect the planting of different crops is plausible and often discussed, but the exact crop pairing (such as gram and mustard) is an inference, not a directly preserved label on the field.
+2. **Fortification:** the settlement is known for separate fortified areas associated with the citadel and lower town. This is a useful point of comparison with other Harappan sites.
+3. **Fire-altars:** excavation revealed fire-altars, including a group commonly listed as **seven** in exam sources. The existence of a ritual area is the evidence; the precise ritual, deity and meaning remain interpretive.
+4. **Bricks and planning:** mud-brick architecture and planned streets are important. Standard summaries often contrast a 3:2:1 brick module in the earlier horizon with 4:2:1 in the Mature Harappan horizon, but size and use vary by structure; do not use one ratio as the only diagnostic.
+5. **Burials:** Kalibangan’s cemetery evidence includes more than one burial form. Standard classifications distinguish extended inhumation, pot/urn-related burial and graves without a complete human skeleton. The presence of a grave without a skeleton does not prove that it was a cenotaph for someone who died abroad; that is only one possible interpretation.
+6. **Trepanning:** an Indian Archaeology — A Review report describes six circular holes on a child’s skull from the excavation. This is evidence relevant to the study of cranial intervention, but it does **not** by itself prove a specific diagnosis, successful brain surgery or treatment for hydrocephalus. [R12]
+
+#### Claims to avoid or qualify
+
+- **Do not write that Kalibangan had standard wooden drain pipes carved from tree trunks** unless the prescribed primary source gives that specific evidence. The original file did not provide such a citation; the safer account is modest household drainage and soakage arrangements, with the ASI excavation memoir as the reference point.
+- Do not say the ploughed field *proves* gram and mustard were planted simultaneously; identify that as an interpretation.
+- Do not say fire-altars prove animal sacrifice or identify a particular Vedic ritual unless the excavation evidence directly supports the statement.
+- Do not claim that a seal proves direct maritime trade. Seals and parallels can support exchange/contact hypotheses, but the route and political control require additional evidence.
+
+**Mains connection:** Kalibangan shows that the Indus tradition in Rajasthan combined shared Harappan features with regional characteristics. Its agricultural evidence, settlement planning, ritual spaces and burial record allow questions about adaptation, economy and cultural variation.
+
+### B. Baror — the Ghaggar-Hakra settlement zone
+
+- **Location:** near the dry Ghaggar channel in the northern part of Rajasthan; the ASI Jaipur Circle describes the mound as yielding **pre-Harappan and Harappan pottery**. [R4]
+- **Finds:** terracotta cakes, sling balls, beads and bangles of terracotta, faience and shell are among the antiquities described in the ASI site record.
+- **Exam association:** Baror belongs in the pre-/Harappan discussion, not in a generic Neolithic list.
+- **Regional connection:** Kalibangan and Baror show why the Ghaggar-Hakra landscape is essential to Rajasthan’s Harappan archaeology. “Saraswati” is often used in historical discussion of this palaeochannel, but river identification and ancient hydrology require care; avoid presenting a complex geological question as settled merely by a site’s location.
+
+### C. Ahar-Banas culture — the Chalcolithic tradition of Mewar
+
+**Core locator:** Ahar is near Udaipur on the Ahar River, part of the wider Berach–Banas drainage. The culture is distributed across southeastern Rajasthan and is often called the **Ahar-Banas** or **Banas culture**. Archaeological publications report many sites across the Mewar region; Ahar, Balathal, Gilund and Ojiyana are among the best-known excavated examples. [R6]
+
+**Chronology:** commonly presented in Rajasthan exam material as approximately **c. 3000–1500 BCE**; published archaeological chronologies vary, and some place early Ahar occupation earlier. Identify the pottery and material traits before asserting a precise beginning date. [R9]
+
+#### Diagnostic traits
+
+- **Ceramics:** characteristic **Black-and-Red Ware**, often with white-painted geometric designs. This is the safest material-culture association to remember.
+- **Metal:** copper objects and evidence for metal use; nearby Aravalli copper resources help explain the regional setting. Do not reduce the entire culture to “only copper smelting”.
+- **Settlement:** village architecture, domestic spaces, storage and subsistence practices show that the culture was not merely a collection of metal artefacts.
+- **Economy:** archaeobotanical and faunal evidence contributes to reconstruction of farming and animal use. For a particular crop or species, follow the relevant excavation report rather than repeating an unattributed list.
+- **Naming:** **Dhulkot** is a local name associated with the archaeological mound at Ahar. Avoid stating that “Tambavati Nagari” or “Aghat Durg” was an inscriptionally proven ancient name for Ahar unless a specific epigraphic reference is supplied.
+
+#### Major Ahar-Banas sites
+
+| Site | Location | What is useful for RAS | Caution |
+|---|---|---|---|
+| **Ahar** | Udaipur; Ahar–Berach/Banas region | Type-site; Black-and-Red Ware with white painting; Chalcolithic settlement and copper use | “Copper-smelting metropolis” is rhetorical, not a formal archaeological classification |
+| **Balathal** | Udaipur district, in the Berach basin | Important excavated settlement; architecture and subsistence; human skeletal evidence reported as an early case of leprosy | Use “early evidence of leprosy” rather than an unqualified global superlative; do not state a house’s social structure as proven from room count alone |
+| **Gilund** | Rajsamand district, Banas region | One of the largest known Ahar-Banas sites; excavations have produced substantial settlement evidence and terracotta sealings | Claims about a unique “sole exception” for burnt bricks need a primary citation and should not be used as an absolute rule |
+| **Ojiyana/Ojhiyana** | Bhilwara district, Aravalli hill setting | Ahar-related cultural sequence; painted terracotta cattle/bull figurines; distinctive settlement location | The figurines’ religious or fertility meaning is an interpretation |
+| **Pachamta** | Mewar region | Recent rescue excavation has documented Ahar Chalcolithic settlement remains, including a compartmented/parallel-walled structure and bins; useful example of new archaeology refining old models | Do not memorise unsupported claims that a single bead proves a direct route to Afghanistan; prefer the published excavation’s actual findings [R8] |
+
+**High-yield association:** **Ahar-Banas = Mewar + Black-and-Red Ware often painted white + Chalcolithic village life and copper use.**
+
+### D. Ganeshwar-Jodhpura cultural complex
+
+**Geography:** northeastern Rajasthan, associated with the Aravalli foothills, the Khetri copper-bearing belt and sites such as Ganeshwar near the Kantli drainage and Jodhpura in the Sabi/Sahibi region.
+
+**Material and significance:**
+
+- A large number and variety of copper objects, including characteristic arrowheads, have been reported at Ganeshwar.
+- The regional complex is important for studying copper metallurgy and exchange between communities in northeastern Rajasthan and wider protohistoric networks.
+- Jodhpura has a ceramic and settlement sequence significant to the study of the Ganeshwar-Jodhpura complex and early iron working in the region.
+- The pottery is not adequately described by labelling the entire complex “OCP culture” alone. Wheel-made orange-to-red pottery with incised designs is an important feature described in archaeological literature.
+
+**Chronology caution:** exam material frequently uses a range around **c. 2800–2000 BCE**, but archaeologists have discussed problems in dating and periodising the Ganeshwar-Jodhpura culture. A modern reassessment explicitly notes that chronology and periodisation have been major problems in this complex. [R7]
+
+**Do not turn a plausible link into a proved trade route.** Proximity to copper ores and similarities between artefacts support a connection with wider networks; they do not, by themselves, prove that Ganeshwar was the sole supplier of copper to Harappa, Kalibangan and Mohenjo-daro or that a specific corridor was used.
+
+**High-yield association:** **Ganeshwar-Jodhpura = northeastern Rajasthan + copper artefacts + Aravalli/Khetri mineral setting + debated chronology and interaction networks.**
+
+### E. Three-way comparison: Kalibangan, Ahar-Banas and Ganeshwar-Jodhpura
+
+| Dimension | Kalibangan | Ahar-Banas | Ganeshwar-Jodhpura |
+|---|---|---|---|
+| Broad cultural setting | Harappan: Early and Mature phases | Chalcolithic Mewar | Chalcolithic complex of northeastern Rajasthan |
+| Region | Ghaggar basin, Hanumangarh | Ahar–Berach–Banas region, southeastern Rajasthan | Aravalli foothills / northeastern Rajasthan |
+| Best-known evidence | Ploughed field, fortified settlement, fire-altars, cemetery | Black-and-Red Ware often painted white; settlement and copper use | Many copper objects; regional pottery and metallurgical setting |
+| Analytical question | How did a Harappan settlement adapt to and express regional features? | How did village communities combine farming, pottery and metal? | What can copper artefacts and geography reveal about production and interaction? |
+| Common error | Wooden drains and named crops presented as certain | Every distinctive or exotic artefact given a firm meaning | “Pure copper supplier” or one exact date asserted as settled |
 
 ---
 
-### Detailed Analysis of Major Inscriptions
+## 1.5 Iron Age and early historic archaeological sites
 
-#### 1. Barli Inscription (443 BCE)
-* **Discovery Location**: Found embedded in the pillar of Bhilot Mata temple at **Barli** near Ajmer; discovered by **G.H. Ojha** (Gauri Shankar Hirachand Ojha); now preserved in the Government Museum, Ajmer.
-* **Historical Significance**: The **oldest surviving inscription in Rajasthan** (and second oldest in India after Piprahwa). Engraved in early Brahmi script; predates Ashoka; references the 84th year of Mahavira Nirvana, providing crucial evidence of early Jain diffusion in central Rajasthan.
+Iron technology should be studied as an archaeological horizon visible through furnaces, slag, tools and ceramic sequences—not as a single date at which every Rajasthan settlement “entered” the Iron Age.
 
-#### 2. Ghosundi Inscription (2nd Century BCE)
-* **Location**: Found on a boundary wall at **Ghosundi** village near Nagari (Chittorgarh); discovered and read by **Dr. D.R. Bhandarkar**.
-* **Language & Script**: Sanskrit language written in Brahmi script.
-* **Canonical Historical Value**:
-  * The **earliest epigraphic record in Rajasthan documenting the worship of the Bhagavata (Vaishnava) cult**.
-  * Records that King **Sarvatata** (सर्वतात) of the Gajayana gotra, son of a woman of the Parashara gotra, performed the **Ashvamedha sacrifice (अश्वमेध यज्ञ)** and constructed a stone boundary wall (*पूजा-शिला-प्राकार*) dedicated to **Sankarshana (Balarama)** and **Vasudeva (Krishna)**.
+| Site | Current district / regional locator | Key association to learn | Additional note |
+|---|---|---|---|
+| **Noh** | Bharatpur | Sequence including OCP, Black-and-Red Ware, Painted Grey Ware (PGW) and iron objects | Excavations identify multiple cultural periods; iron appears with particular ceramic levels. [R11] |
+| **Jodhpura** | Kotputli-Behror region | OCP and later ceramic horizons; evidence associated with iron working | Part of wider research on the Ganeshwar-Jodhpura complex |
+| **Sunari** | Jhunjhunu region | Iron-smelting furnaces and iron-working remains | Useful for northeastern Rajasthan’s early iron technology; avoid unsupported furnace superlatives |
+| **Rairh/Raidh** | Tonk district, near Niwai and the Dhil River | Punch-marked coin finds, iron-working/industrial evidence | The often-repeated total of 3,075 coins should be attributed to the excavation account being used; “largest hoard in India” is unsafe without a defined comparison |
+| **Bairat/Bairath (Viratnagar)** | Kotputli-Behror district | Ashokan inscriptions, Buddhist remains and circular shrine; early historic political centre | The ASI site page describes a Mauryan circular stupa-shrine and monasterial remains. [R3] |
+| **Nagari (Madhyamika)** | Chittorgarh district, Berach region | Sibi-associated coins/inscriptions; Hathibada enclosure linked with Bhagavata worship of Sankarshana and Vasudeva | Important for linking archaeological evidence with a named political community |
+| **Nagar/Karkotnagar** | Tonk district | Malava-associated coinage and finds | Learn it separately from Nagari/Madhyamika |
+| **Naliasar** | Sambhar region, Jaipur district | Coins and artefacts associated in standard accounts with Yaudheya and later political/cultural horizons | Coin legends and contexts matter more than a bare list of dynasties |
+| **Rangmahal** | Hanumangarh district, Ghaggar region | Distinctive painted pottery, sprinkler vessels and early historic settlement remains | A Swedish archaeological expedition led by Hanna Rydh is associated with Rangmahal in standard accounts; do not confuse it with the ASI excavations at Kalibangan |
+| **Baror** | Sri Ganganagar district, Ghaggar region | Pre-Harappan and Harappan pottery | Official ASI site description is concise and useful for checking key finds. [R4] |
 
-#### 3. Samoli Inscription (646 CE)
-* **Location**: Samoli village, Bhomat region of Udaipur.
-* **Ruler**: Reign of Guhila ruler **Siladitya** (शिलादित्य).
-* **Crucial Historical Proofs**:
-  * Mentions the flourishing of the **Jawar silver and zinc mines (जावर माइन्स)** by a merchant community head named Jaitak.
-  * Records the establishment of the temple of **Aranyavasini Devi** (अरण्यवासिनी देवी / Forest Goddess).
-  * Demonstrates that the Guhilas of Mewar maintained monetized urban settlements in the forested tribal pockets of southern Rajasthan as early as the 7th century.
+### Rairh and the “Tatanagar of Rajasthan” label
 
-#### 4. The Mandore & Ghatiyala Inscriptions of the Gurjara-Pratiharas
-* **Mandore Inscription of Bauka (837 CE)**: Traces the origin of the Gurjara-Pratihara dynasty to the Brahmana ancestor **Harishchandra** (Rohilliddhi) and his Kshatriya wife **Bhadra**, explaining the dual Brahmana-Kshatriya lineages.
-* **Ghatiyala Inscription of Kakkuka (861 CE, Jodhpur)**:
-  * Composed by Pratihara ruler **Kakkuka**; engraved on a pillar near a Jain temple.
-  * Mentions that Kakkuka defeated the turbulent **Abhira (अभीर)** bandits who had terrorized traders.
-  * Records the establishment of a flourishing public market (*हट्ट*) with free shops for Jain merchants, symbolizing civic rehabilitation.
+Rairh is often called **“Rajasthan’s Tatanagar”** in examination summaries because of its association with iron working and industrial activity. The analogy is a mnemonic, not an ancient name or formal archaeological title. Remember the site’s Tonk-region location and material evidence; do not treat the metaphor as historical nomenclature.
 
-#### 5. Bijolia Inscription (1170 CE)
+### Bairat (Viratnagar): what the ASI record securely supports
 
-```text
-[DATE: Phalguna Vadi 3, Vikram Samvat 1226 (1170 CE) | TEMPLE: Parshvanath Temple, Bijolia (Bhilwara)]
-```
+- Bairat is traditionally associated with **Matsya** and with the story of the Pandavas’ year in disguise; keep the epic association separate from archaeological proof.
+- The ASI describes two Ashokan inscriptions and important Buddhist remains at the site.
+- Excavations at Bijak-ki-Pahari revealed a circular Mauryan stupa-shrine made with lime-plastered brickwork alternating with **26 octagonal wooden pillars**, preceded by monastic remains arranged around an open courtyard. [R3]
+- The Bhabru/Bairat edict is significant for Ashoka’s stated reverence for the Buddha, Dhamma and Sangha and his recommendations concerning selected Buddhist teachings.
+- Standard secondary accounts report a coin cache of **36 silver coins** associated with cloth: 8 punch-marked and 28 Indo-Greek, including 16 attributed to Menander. Treat those exact counts as a conventional, secondary-source fact to verify against the relevant excavation publication before using them as a decisive answer. Even if the hoard is accepted, it does not by itself prove “Indo-Greek political control” over the whole region.
 
-* **Composer & Scribe**: Composed by the Jain scholar **Gunabhadra** (गुणभद्र); engraved on rock by the mason **Govinda** (गोविन्द); commissioned during the reign of Chauhan ruler **Someshwara** by the Jain Shravaka **Lolaka**.
-* **Five Pillars of Historical Revelations**:
-  1. **Chauhan Lineage**: Explicitly states that the Chauhans of Shakambhari are **Vatsa-Gotriya Brahmanas** (वत्सगोत्रीय ब्राह्मण), tracing their origin to the sage Vatsa at Ahichchhatrapura.
-  2. **Dynastic Genesis**: Mentions **Vasudeva Chauhan** as the founder of the dynasty in **551 CE**, who created the sacred **Sambhar Salt Lake** (*शाकम्भरी झील*).
-  3. **Conquests of Vigraharaja IV**: Records that Vigraharaja IV (Bisaldeo) captured **Dhilli** (Delhi) from the Tomaras.
-  4. **Ancient Toponymic Registry (प्राचीन भौगोलिक नाम)**: Supplies the ancient names of historical Rajasthani cities:
-     * *Jabalipura* (जाबालिपुर) $\rightarrow$ Jalore
-     * *Shakambhari* (शाकम्भरी) $\rightarrow$ Sambhar
-     * *Mandalgarh* (मंडलकर) $\rightarrow$ Mandalgarh
-     * *Vindhyavalli* (विंध्यवल्ली) $\rightarrow$ Bijolia
-     * *Nagadraha* (नागद्रह) $\rightarrow$ Nagda
-     * *Sripatha* (श्रीपथ) $\rightarrow$ Bayana
-     * *Kanthikapuri* (कांठिकापुरी) $\rightarrow$ Kankroli
-  5. **Land Grants**: Details administrative land donations designated as *Dohali* (डोहली) given to temples.
-
-#### 6. Chirwa Inscription (1273 CE)
-* **Location**: Chirwa village, north of Udaipur; engraved on a temple gate during the reign of Guhila ruler **Samarsimha**.
-* **Historical Highlights**: Provides genealogical achievements of Mewar rulers **Jaitra Singh**, **Tejasimha**, and **Samarsimha**; describes Jaitra Singh’s destruction of the Sultanate forces of **Iltutmish** at the **Battle of Bhutala** (भूताला का युद्ध); mentions administrative posts such as *Talaraksha* (नगर रक्षक/Police Chief) and early instances of the Sati rite among Rajput nobility.
-
-#### 7. Kumbhalgarh Prashasti (1460 CE)
-* **Location**: Originally carved on five large slabs placed inside the Mamadev (Kumbha Swami) temple at **Kumbhalgarh Fort** (now preserved in Udaipur Museum); begun by court scholar **Atri** and completed by his son **Kanhavyas** (or Maheshwar).
-* **Canonical Value for RPSC**:
-  * Traces Guhila ancestry from Bappa Rawal; asserts that Bappa received royal sovereignty through the blessing of sage **Harit Rashi** (हारीत ऋषि).
-  * Officially confers the supreme war epithet **"विषम घाटी पंचानन"** (*Vishama Ghati Panchanan* — Lion in the perilous pass of warfare) upon **Rana Hammir** for his resurgence of Mewar after the 1303 disaster.
-  * Records detailed accounts of Maharana Kumbha’s military victories over Malwa, Gujarat, and Nagaur.
-
-#### 8. Ranakpur Prashasti (1439 CE)
-* **Location**: Engraved on a pillar in the Chaumukha Jain temple of **Ranakpur** (Pali district).
-* **Composer & Architect**: Composed under the patronage of the Porwad Jain minister **Dharanashah**; the master sculptor-architect was **Depaka** (देपा/दीपक).
-* **Historical Anomaly Resolved**: Uniquely treats **Bappa Rawal** and **Kalbhoj** as two distinct individuals (which modern historians like G.H. Ojha corrected, proving Kalbhoj was Bappa Rawal’s personal name and Bappa was his title).
-* Details Maharana Kumbha’s capture of Sarangpur, Narana, Ajmer, and Mandore.
-
-#### 9. Kirti Stambha Prashasti (1460 CE)
-* **Location**: Engraved on the top floors of the 9-storey **Vijay Stambha** (Tower of Victory) at Chittorgarh.
-* **Composers**: Begun by Maharana Kumbha’s court poet **Atri** (अत्रि); completed after Atri's death by his son **Kavi Mahesh** (कवि महेश).
-* **Literary Catalogue of Kumbha**:
-  * Records the full titles of Maharana Kumbha: *Abhinav Bharatacharya*, *Hindu Suratan*, *Rano Raso*, *Hal Guru*, *Dan Guru*, *Chail Guru*.
-  * Documents the scholarly treatises authored by Kumbha himself, specifically: **Sangitaraja** (संगीतराज, in 5 Ratnakosas), **Sangitamimamsa** (संगीतमीमांसा), **Sudha Prabandha** (सूड प्रबंध), and his commentaries on Jayadeva’s *Gitagovinda* (**Rasikapriya**) and Sarangadeva's *Sangitaratnakara*.
-
-#### 10. Raj Prashasti (1676 CE)
-* **Location**: Carved on **25 black marble slabs** embedded in the niches of the *Nau-Chauki Pal* (नौचौकी पाल) embankment of **Rajsamand Lake** (Rajsamand district).
-* **Composer**: Composed in classical Sanskrit verse by **Ranchhod Bhatt Tailang** (रणछोड़ भट्ट तैलंग) under the patronage of **Maharana Raj Singh I**.
-* **Global Distinction**: Recognized as the **largest stone-slab Sanskrit inscription in the world** (25 slabs containing 24 cantos).
-* **Historical Contents**: Comprehensive history of Mewar from Bappa Rawal to Raj Singh; complete text and terms of the **Mughal-Mewar Treaty of 1615** (Amar Singh I - Jahangir); detailed technical records of the severe famine relief construction of the Rajsamand Dam.
+**Exam traps:** Bairat’s epic tradition is not a stratigraphic date; an Ashokan edict does not mean the circular shrine is an edict; a coin find indicates circulation or deposition, not automatic sovereignty.
 
 ---
 
-## 1.5 Master Distinction Matrices
+## 1.6 Early historical centres: connect communities to evidence
 
-### Matrix 1: The Three Archaeological Pillars of Proto-Historic Rajasthan
-| Analytical Dimension | **Kalibangan** | **Ahar (Dhulkot)** | **Ganeshwar** |
-| :--- | :--- | :--- | :--- |
-| **Geographic River Basin** | Ghaggar (Saraswati), Hanumangarh | Berach (Banas), Udaipur | Kantli, Neem Ka Thana |
-| **Chronological Era** | Bronze Age Mature Harappan | Chalcolithic (Copper-Stone Age) | Pre-Harappan Copper Accumulator |
-| **Primary Excavators** | A. Ghosh (1952); B.B. Lal & B.K. Thapar (1961–69) | A.K. Vyas (1953); R.C. Agrawala; H.D. Sankalia (1961) | R.C. Agrawala (1977); Vijay Kumar (1978–79) |
-| **Primary Ceramic Style** | Sothi Red Ware & Stamped Harappan Ware | Black-and-Red Ware (BRW) painted with white designs | Kripashvarni (Ochre Colored Pottery - OCP) |
-| **Metallurgical Signature** | Bronze artifacts; Mesopotamian contact | Intensive smelting; clay crucibles; copper axes | **99% Pure Copper** implements; fishhooks |
-| **Diagnostic Unique Feature** | World's earliest ploughed field; 7 fire altars; trepanning | Banasian Bull; 6 hearths in one room; Gore-Kothar jars | Mother of Copper Cultures; 5,000+ copper tools |
+The RPSC syllabus names **Malava, Yaudheya, Sibi and Matsya** among the important early historical centres/communities of Rajasthan. Learn the evidence supporting each association, not just the label.
 
----
+| Community / centre | Site association commonly used in Rajasthan history | Evidence and interpretation |
+|---|---|---|
+| **Matsya** | Bairat / Viratnagar | Literary tradition associates Viratnagar with the Matsya region; Ashokan and Buddhist remains show the site’s later historical importance |
+| **Sibi** | Nagari / Madhyamika | Coins bearing legends associated with the Sibi Janapada connect the site with a named political community |
+| **Malava** | Nagar/Karkotnagar and coin finds from the wider region; also related coin finds at Rairh | Malava-associated coinage is a major source for political identity and circulation; do not assume every coin find makes one site the sole capital of the republic |
+| **Yaudheya** | Coin finds in northern/eastern Rajasthan, including Naliasar in standard accounts | Numismatic evidence helps map the circulation and identity of a political community; the distribution should not be simplified into a single fixed capital without evidence |
 
-### Matrix 2: Major Inscriptional Provenance Grid
-| Inscription Name | Date & Era | Dynasty / Ruler | Inscriber / Composer | Core Examination Checkpoint |
-| :--- | :--- | :--- | :--- | :--- |
-| **Barli Inscription** | 443 BCE | Pre-Mauryan | Unknown | Oldest inscription in Rajasthan; pre-Ashokan Jainism. |
-| **Ghosundi Inscription** | 2nd C. BCE | King Sarvatata | Gajayana King | Earliest Vaishnava / Bhagavata cult evidence; Ashvamedha Yajna. |
-| **Bhabru Edict** | 3rd C. BCE | Emperor Ashoka | Mauryan Royal Scribe | Ashoka declares faith in Buddha, Dhamma, Sangha; Capt. Burt 1837. |
-| **Samoli Inscription** | 646 CE | Siladitya (Guhila) | Jaitak patron | Proves Jawar zinc/silver mining in 7th century; Aranyavasini temple. |
-| **Ghatiyala Inscription** | 861 CE | Kakkuka (Pratihara) | Kakkuka | Suppression of Abhira bandits; creation of public market (Hatta). |
-| **Bijolia Inscription** | 1170 CE | Someshwara (Chauhan) | Gunabhadra / Govinda | Chauhans as Vatsa-gotra Brahmins; ancient names (Jabalipura, etc.). |
-| **Chirwa Inscription** | 1273 CE | Samarsimha (Guhila) | Ratnaprabhasuri | Jaitra Singh's victory over Iltutmish in Battle of Bhutala. |
-| **Kumbhalgarh Prashasti**| 1460 CE | Maharana Kumbha | Atri & Maheshwar | Rana Hammir titled "Vishama Ghati Panchanan"; Guhila origin. |
-| **Kirti Stambha Prashasti**| 1460 CE | Maharana Kumbha | Atri & completed by Mahesh | Complete catalogue of Kumbha's literary works (Sangitaraja, etc.). |
-| **Raj Prashasti** | 1676 CE | Maharana Raj Singh | Ranchhod Bhatt Tailang | 25 black marble slabs; world's largest Sanskrit epigraph; 1615 Treaty. |
+**Meaning of “Early Christian Era”:** in older Indian-history syllabi, this generally means the early centuries **CE**. It does not refer to the spread of Christianity in Rajasthan.
+
+### What coins can and cannot establish
+
+Coins can help identify political names, symbols, metal use, circulation, economic networks and approximate chronology. They are strongest when combined with archaeological context and inscriptions. A coin hoard alone does not prove that the ruler named on it controlled the exact findspot, and the last coin in a hoard does not always equal the date it was buried.
 
 ---
 
-## 1.6 Top 25 Deadliest Examination Traps & Examiner Pitfalls
+## 1.7 Inscriptions and prashastis: a method before memorisation
 
-```text
-[CRITICAL ALERT: RECENT RPSC RAS PRELIMS & MAINS LINGUISTIC / FACTUAL TRAPS]
-```
+An **inscription (abhilekh)** is writing placed on a durable surface such as stone, pillar, metal or a building. A **prashasti** is an eulogistic text, commonly praising a ruler, dynasty, donor or temple. Inscriptions may record donations, victories, genealogies, taxes, administrative terms, religious patronage, construction and social relations.
 
-1. **The Modern District Reorganization Trap**:
-   * *Ganeshwar* is no longer in Sikar; it is situated in **Neem Ka Thana district**.
-   * *Bairat* is no longer in Jaipur; it is located in **Kotputli-Behror district**.
-   * *Tilwara* is no longer in Barmer; it is in the newly formed **Balotra district**.
-   * *Sunari* is in **Neem Ka Thana district** (previously Jhunjhunu border).
-2. **The "Ploughed Field" Excavation Trap**: Do not confuse Amlananda Ghosh (who discovered the site in 1952) with the discovery of the ploughed field. The ploughed field was scientifically identified in Period I excavations under **B.B. Lal and B.K. Thapar**.
-3. **The Copper Purity Trap**: If RPSC asks which site yielded implements made of **nearly 100% (99%) pure copper**, the answer is strictly **Ganeshwar**, NOT Ahar. Ahar had copper smelting furnaces, but Ganeshwar yielded the ultra-pure tool hoards.
-4. **The Kiln-Fired Bricks in Chalcolithic Trap**: Chalcolithic cultures almost universally used sun-dried mud bricks. The **sole exception in the Ahar-Banas complex that used burnt/fired bricks** is **Gilund** (Rajsamand), NOT Ahar itself.
-5. **The Animal Husbandry Chronology Trap**: The earliest evidence of animal husbandry in Rajasthan is at **Bagor** (Mesolithic, Kothari river), NOT Kalibangan or Ahar.
-6. **The Leprosy Skeleton Trap**: The earliest human skeleton exhibiting leprosy in India was excavated at **Balathal** (Udaipur), dated to c. 2000 BCE by Dr. V.N. Misra.
-7. **The Double-Burial Trap**: Do not confuse Kalibangan with Lothal. Lothal had "twin burials" (male-female in one grave). Kalibangan had **three forms of burials** (extended, urn/fractional, and symbolic/memorial without skeleton).
-8. **The Drainage Material Trap**: Kalibangan did NOT have baked brick street sewers like Mohenjo-daro. It used **scooped wooden drain pipes (लकड़ी की नाली)** and domestic soakage jars.
-9. **The Inscriptional Authorship Trap**:
-   * *Kirti Stambha Prashasti* was begun by **Atri** and completed by his son **Mahesh**.
-   * *Bijolia Inscription* was composed by **Gunabhadra** and engraved by **Govinda**.
-   * *Raj Prashasti* was composed by **Ranchhod Bhatt Tailang**.
-10. **The "Vishama Ghati Panchanan" Source Trap**: Rana Hammir is conferred this famous title in the **Kumbhalgarh Prashasti** (and Rasikapriya commentary), NOT the Kirti Stambha Prashasti.
-11. **The Bhabru Edict Current Location Trap**: Discovered by Captain Burt in 1837 at Bairat, the Bhabru edict is currently housed in the **Asiatic Society Museum, Kolkata**, NOT in Jaipur or Delhi.
-12. **The "Vatsa-Gotra" Chauhan Inscription**: The claim that Chauhans were Vatsa-gotriya Brahmanas is made in the **Bijolia Inscription (1170 CE)**, which refuted the Agnikula origin myth for that period.
-13. **The Earliest Vaishnavism Inscription**: RPSC frequently asks for the earliest record of the Bhagavata cult in Rajasthan; it is the **Ghosundi Inscription (2nd Century BCE)**, NOT the Nagari or Bijolia inscription.
-14. **The Bappa Rawal vs. Kalbhoj Epigraphic Ambiguity**: The **Ranakpur Prashasti (1439 CE)** erroneously lists Bappa Rawal and Kalbhoj as two separate kings.
-15. **The Banasian Bull Material**: The Banasian Bull is made of **terracotta (clay)**, NOT bronze or copper.
-16. **The Tatanagar Epithet Trap**: The title "Tatanagar of Rajasthan" belongs to **Rairh (Tonk)** due to its massive hoard of 3,075 punch-marked silver coins and iron tools, NOT Khetri.
-17. **The Swedish Expedition Site**: The foreign expedition led by Dr. Hanna Rydh in 1952–54 excavated **Rangmahal** (Hanumangarh), NOT Kalibangan.
-18. **The Indo-Greek Coins at Bairat**: Total coins recovered in the cloth jar = 36 (8 punch-marked + 28 Indo-Greek, out of which **16 were of King Menander**).
-19. **The First Paleolithic Tool Finder**: **C.A. Hackett (1870)** found the first handaxe in Jaipur and Indragarh, NOT D.R. Bhandarkar or A. Ghosh.
-20. **The Sothi Culture Connection**: A. Ghosh classified the pre-Harappan ceramic horizon at Kalibangan as **"Sothi Culture"** (named after Sothi in Bikaner), calling it Proto-Harappan.
-21. **The Fire Altars Count**: Exactly **seven rectangular fire altars** were found in a row on the mud-brick platform of the Western Citadel at Kalibangan.
-22. **The Samoli Inscription Economic Link**: Proves the operational status of the **Jawar silver-zinc mines** in 646 CE under Guhila Siladitya.
-23. **The Kakkuka Market Establishment**: The **Ghatiyala Inscription (861 CE)** describes the clearing of robbers and the building of a merchant *Hatta* by Pratihara King Kakkuka.
-24. **The Cotton Fabric Archaeological Sites**: Two sites in Rajasthan yielded ancient woven cotton fabric: **Bairat** (wrapping 36 coins) and **Balathal** (Chalcolithic woven textile).
-25. **The Barli Inscription Script**: Written in early **Brahmi script** (pre-Ashokan), NOT Kharosthi or Nagari.
+### Read every inscription through six questions
+
+1. **Where was it found?** Original findspot and present museum location may differ.
+2. **When was it issued?** Distinguish a calendar date from its modern CE conversion; some conversions are approximate.
+3. **Who issued, commissioned, composed, wrote or engraved it?** These roles are not interchangeable.
+4. **What language and script are used?** Language and script are separate facts.
+5. **What does it actually say?** Separate the record’s statement from a later historian’s reconstruction.
+6. **What is its limitation?** Royal prashastis praise rulers; religious donations are not neutral social surveys; damaged or fragmentary texts can support competing readings.
+
+### Core epigraphic table
+
+The table prioritises useful exam associations. Dates for some early inscriptions remain debated or depend on conversion from an era.
+
+| Inscription / record | Date / period | Main association | Why it matters | Confidence note |
+|---|---|---|---|---|
+| **Barli inscription** | Older traditional dating: **443 BCE**; later palaeographic assessments place it much later, commonly around the late 2nd–1st century BCE | Early Jain-related record; Barli near Ajmer | Frequently cited as one of Rajasthan’s earliest Jain inscriptions | **Disputed date.** Never state 443 BCE as uncontested scholarly consensus. [R13] |
+| **Bhabru/Bairat Rock Edict** | 3rd century BCE | Ashoka; Brahmi and Prakrit | Ashoka’s reverence for the Buddha, Dhamma and Sangha; recommendation of Buddhist teachings | Well-established association; keep site, script, language and content distinct [R3] |
+| **Ghosundi–Hathibada records** | Broadly 2nd–1st century BCE in common summaries | Sarvatata; Sankarshana and Vasudeva | Early epigraphic evidence of Bhagavata/Vaishnava worship in Rajasthan; associated with a stone enclosure and Ashvamedha reference | Use the wording of the particular inscription/edition; fragments and dating are discussed in scholarship |
+| **Nandsa and Badwa yupa records** | Early centuries CE; exact dates differ by record | Yupa sacrificial pillars and Vedic ritual | Evidence for Vedic sacrifices, donors/patrons and the religious landscape of early historic Rajasthan | Memorise exact dates only with the prescribed source in front of you |
+| **Gangdhar inscription** | **423 CE** in standard chronology | Vishvavarman and temple patronage in the Malava region | Provides evidence for religious institutions, patrons and early historic political history | Date conversion follows the era used in the record |
+| **Samoli inscription** | **646 CE** | Guhila ruler Siladitya | Cited for temple patronage and the economic/mining context of early Mewar, including references associated with the Zawar/Jawar region | Interpret the mine reference with the text itself; do not enlarge it into a complete mining-industry history |
+| **Mandore inscription of Bauka** | **837 CE** | Gurjara-Pratihara genealogy | Records a dynastic origin tradition involving Harichandra and Bhadra | A genealogy is a political/charter narrative, not neutral proof of biological descent |
+| **Ghatiyala inscription of Kakkuka** | **861 CE** | Pratihara ruler Kakkuka | Commonly associated with public order, suppression of robbers and a market (*haṭṭa*) | Useful for governance, merchants and urban life; quote details only from a reliable translation |
+| **Atpur/Ahar inscription** | **977 CE** in standard lists | Guhila genealogy; Shaktikumara | Important genealogical source for Mewar | Do not confuse this record with an ancient “Tambavati” name unless separately documented |
+| **Harsnath inscription** | Commonly dated **973 CE** | Chahamana rulers and temple context in the Sikar region | Useful for the early medieval political and religious history of northern Rajasthan | Use the exact ruler/date supplied by the edition you are revising |
+| **Bijolia inscription** | **1170 CE** (Vikrama Samvat 1226) | Chauhans of Shakambhari; reign of Someshvara | Genealogy and political geography; often cited for the Chauhans’ Vatsa-gotra claim, Vasudeva and Sambhar, and Vigraharaja IV’s Delhi connection | The inscription reports dynastic claims; distinguish its contents from modern historical conclusions |
+| **Chirwa inscription** | **1273 CE** (VS 1330) in common chronology | Guhila ruler Samarasimha; Mewar genealogy and political history | Important source for Guhila rulers and the memory of resistance to Sultanate forces | Avoid the claim that a single inscription proves every detail of the Battle of Bhutala; use the text and the historical reconstruction separately |
+| **Ranakpur prashasti** | **1439 CE** | Jain temple at Ranakpur; patron Dharanashah and architect Depaka | Temple patronage, architectural history and the contemporary political context under Kumbha | Do not present the Bappa Rawal/Kalbhoj issue as definitively “resolved” by one inscription; it is a historiographical question |
+| **Kumbhalgarh prashasti** | **1460 CE** | Guhila/Sisodia genealogy; Rana Kumbha’s age | Genealogy and accounts of military achievements; traditional association of Hammir with the epithet *Vishama Ghati Panchanan* | Check the precise wording and attribution in a trusted edition before using the epithet in a statement-based question |
+| **Kirti Stambha/Vijay Stambha prashasti** | **15th century; commonly 1460 CE** | Maharana Kumbha; Chittorgarh | Kumbha’s victories and literary/cultural patronage; Atri and his son Mahesh are associated with its composition in standard accounts | Do not assume every list of Kumbha’s titles or books in coaching notes is directly attested in this inscription |
+| **Raj Prashasti** | Composed in **1676 CE** in connection with Rajsamand Lake; the surviving stone inscription is commonly associated with later installation/engraving | Maharana Raj Singh I; author Ranchhod Bhatt Tailang | 25 stone slabs at Nau-Chauki Pal; lake construction, royal genealogy, costs/measurements and relief/public works | Commonly called India’s longest or largest stone inscription; avoid an unqualified “world’s largest” claim unless the source defines the comparison |
+
+### Must-know distinctions between inscriptions
+
+- **Barli vs. Ghosundi:** Barli is associated with early Jainism and has a disputed date; Ghosundi-Hathibada is associated with early Bhagavata worship of Sankarshana and Vasudeva.
+- **Bairat vs. Ghosundi:** Bairat’s key association is Ashoka/Buddhism and a circular Buddhist shrine; Ghosundi’s is Bhagavata/Vaishnava worship.
+- **Samoli vs. Ghatiyala:** Samoli is associated with the Guhila period and the economic/religious setting of Mewar; Ghatiyala is associated with Pratihara ruler Kakkuka, public order and a market.
+- **Bijolia vs. Chirwa:** Bijolia is an important Chauhan source; Chirwa is a Guhila/Mewar source.
+- **Kumbhalgarh vs. Kirti Stambha:** both are linked with Maharana Kumbha-era historical memory, but they are distinct records at distinct monuments. Do not merge their authorship, location or every attributed literary title.
+- **Raj Prashasti:** connect it with Rajsamand Lake, Raj Singh I and Ranchhod Bhatt Tailang; distinguish the date of composition from the later physical inscription process where relevant.
 
 ---
 
-## 1.7 Diagnostic Active Recall Question Bank (Prelims & Mains Engine)
+## 1.8 Source criticism: the single-source standard
 
-### Part A: High-Yield Objective Elimination Drills (Prelims Focus)
+For a single static source, accuracy is more valuable than decorative detail. Apply the following source hierarchy:
 
-**Q1. Consider the following statements regarding the archaeological site of Kalibangan:**  
-1. Both the Citadel mound and the Lower Town were surrounded by independent fortification walls.  
-2. Street drainage was facilitated through baked brick channels connected to central soaking pits.  
-3. A row of seven rectangular clay fire altars was discovered on an elevated mud-brick platform.  
-4. The site yielded the world's earliest evidence of a ploughed field showing dual-crop furrows.  
-*Which of the statements given above are correct?*  
-(A) 1, 2, and 3 only  
-(B) 1, 3, and 4 only  
-(C) 2, 3, and 4 only  
-(D) 1, 2, 3, and 4  
-*Answer*: **(B)**  
-*Forensic Autopsy*: Statement 2 is incorrect. Kalibangan lacked street sewers of baked brick; it utilized carved wooden drainage channels channeled into earthen storage vessels. Statements 1, 3, and 4 are canonical truths.
+1. **Excavation reports and official archaeological records** for the material actually found, trench/period context and excavation history.
+2. **Published inscriptions and reliable translations** for inscriptional content, language, script, date and author/patron roles.
+3. **Peer-reviewed archaeological research** for chronology, artefact interpretation and disputed questions.
+4. **RBSE and standard Rajasthan history texts** for state-level framing and conventional exam associations.
+5. **Coaching notes/web summaries** for question patterns only after cross-checking; they are not the final authority for exact numbers, “firsts”, “oldest” claims or attribution.
 
-**Q2. Match List-I (Archaeological Site) with List-II (Modern Reorganized District):**  
-*List-I*: (a) Ganeshwar, (b) Bairat, (c) Tilwara, (d) Gilund  
-*List-II*: (1) Kotputli-Behror, (2) Neem Ka Thana, (3) Rajsamand, (4) Balotra  
-*Code*:  
-(A) a-2, b-1, c-4, d-3  
-(B) a-1, b-2, c-3, d-4  
-(C) a-2, b-4, c-1, d-3  
-(D) a-4, b-1, c-2, d-3  
-*Answer*: **(A)**  
-*Forensic Autopsy*: Ganeshwar is in Neem Ka Thana; Bairat is in Kotputli-Behror; Tilwara is in Balotra; Gilund is in Rajsamand.
+### How to use a claim with uncertain evidence
 
-**Q3. The Bijolia Inscription of 1170 CE provides which of the following historical insights?**  
-1. Identifies the Chauhans as Vatsa-gotra Brahmanas.  
-2. Mentions Vasudeva Chauhan as the creator of Sambhar Lake in 551 CE.  
-3. Records the ancient name of Jalore as Jabalipura.  
-*Select the correct code:*  
+Write one of the following in the margin or the notes:
+
+- **Confirmed:** supported by an excavation report, inscription or official record.
+- **Conventional exam fact:** appears in multiple standard exam texts but the primary-source chain needs checking.
+- **Interpretation:** a plausible scholarly inference, not directly stated by the artefact.
+- **Disputed:** scholarly disagreement affects the date or reading.
+- **Delete:** unsupported, exaggerated, misclassified or not valuable enough to retain.
+
+Do not let a memorable claim survive only because it sounds specific. Numbers such as “99% pure copper”, “over 5,000 tools”, “exactly six hearths” or “the world’s earliest” are attractive in MCQs, but they require an attributable source and a clear definition of what is being counted.
+
+---
+
+## 1.9 Rapid-revision tables
+
+### Site → one strongest association
+
+| Site | Recall trigger |
+|---|---|
+| Didwana / Singi Talav | Palaeolithic sequence; Acheulian tools and dune/lake environment |
+| Jayal | Gravel-context Palaeolithic tools |
+| Bagor | Mesolithic; Kothari River; microliths and animal-management evidence |
+| Tilwara | Mesolithic; Luni River |
+| Alaniya | Prehistoric rock paintings; Kota region |
+| Kalibangan | Harappan; ploughed field; fortified areas; fire-altars; cemetery |
+| Baror | Pre-/Harappan pottery; Ghaggar region |
+| Ahar | Ahar-Banas; Black-and-Red Ware with white-painted designs |
+| Balathal | Ahar-Banas; settlement architecture; early leprosy evidence in scholarly literature |
+| Gilund | Large Ahar-Banas site; settlement remains and terracotta sealings |
+| Ojiyana | Ahar-related hill settlement; terracotta cattle/bull figurines |
+| Ganeshwar | Copper artefacts; northeastern Rajasthan; Khetri mineral setting |
+| Jodhpura | Ganeshwar-Jodhpura complex; ceramic sequence and iron-working evidence |
+| Noh | OCP/BRW/PGW sequence and iron artefacts |
+| Sunari | Iron-smelting/working evidence |
+| Rairh | Tonk region; coin hoard and iron-working association |
+| Bairat | Matsya tradition; Ashokan inscriptions; circular Buddhist shrine |
+| Nagari/Madhyamika | Sibi-associated coins; Hathibada and Bhagavata worship |
+| Nagar/Karkotnagar | Malava-associated coinage |
+| Naliasar | Coins associated in standard accounts with Yaudheya and later horizons |
+| Rangmahal | Painted pottery and early historic settlement in the Ghaggar region |
+
+### Inscription → key phrase
+
+| Record | Key phrase to recall |
+|---|---|
+| Barli | Early Jain record; date disputed |
+| Bhabru/Bairat | Ashoka; Buddha-Dhamma-Sangha |
+| Ghosundi–Hathibada | Sankarshana–Vasudeva; Bhagavata worship |
+| Yupa inscriptions | Vedic sacrifice and patrons |
+| Gangdhar | 423 CE; early historic temple/patronage evidence |
+| Samoli | Siladitya; Guhila-period religious and economic context |
+| Mandore–Bauka | Pratihara genealogy tradition |
+| Ghatiyala–Kakkuka | Public order and market (*haṭṭa*) |
+| Atpur/Ahar | Guhila genealogy |
+| Harsnath | Chahamana history and temple context |
+| Bijolia | Chauhan genealogy and political geography |
+| Chirwa | Guhila/Mewar genealogy and political history |
+| Ranakpur | Jain temple patronage; Dharanashah and Depaka |
+| Kumbhalgarh | Guhila/Sisodia genealogy; Kumbha-era history |
+| Kirti Stambha | Kumbha’s victories and cultural patronage |
+| Raj Prashasti | Rajsamand Lake; Raj Singh I; Ranchhod Bhatt Tailang |
+
+---
+
+## 1.10 Prelims practice: statements, matches and elimination
+
+### Q1. Consider the following statements about Kalibangan:
+
+1. The site has Early and Mature Harappan cultural periods.
+2. A ploughed field with intersecting furrows was identified outside the settlement.
+3. The exact crops planted in each furrow are directly named in an inscription from the field.
+4. A group of fire-altars is an important feature of the excavated site.
+
+Which are correct?
+
 (A) 1 and 2 only  
-(B) 2 and 3 only  
-(C) 1 and 3 only  
-(D) 1, 2, and 3  
-*Answer*: **(D)**  
-*Forensic Autopsy*: All three assertions are authentic historical records established by the Bijolia inscription.
+(B) 1, 2 and 4 only  
+(C) 2, 3 and 4 only  
+(D) 1, 2, 3 and 4
+
+**Answer: (B).** The field supports the interpretation of plough-based cultivation, but the crops are not directly named in an inscription on the field.
+
+### Q2. Match the site and strongest association.
+
+(a) Bagor — (1) Ashokan/Buddhist remains  
+(b) Bairat — (2) Kothari River microlithic site  
+(c) Ahar — (3) Black-and-Red Ware, often white-painted  
+(d) Alaniya — (4) Prehistoric rock paintings
+
+(A) a-2, b-1, c-3, d-4  
+(B) a-1, b-2, c-4, d-3  
+(C) a-3, b-4, c-1, d-2  
+(D) a-4, b-3, c-2, d-1
+
+**Answer: (A).** Each option links a site with its strongest high-yield association.
+
+### Q3. Which statement about the Ahar-Banas culture is most defensible?
+
+(A) It used no copper objects.  
+(B) It is identified principally with Black-and-Red Ware, often with white-painted designs, in the Mewar region.  
+(C) It was identical to the Mature Harappan culture in every respect.  
+(D) Its entire chronology is undisputed to the exact year.
+
+**Answer: (B).** Regional pottery is a key diagnostic feature; the culture had its own settlement history and published chronologies vary.
+
+### Q4. The Ganeshwar-Jodhpura complex is particularly important for studying:
+
+(A) Medieval marble temple architecture  
+(B) Copper artefacts and northeastern Rajasthan’s metallurgical setting  
+(C) Mughal miniature painting  
+(D) Rajput waterworks of the 17th century
+
+**Answer: (B).** Copper finds and the regional mineral setting are the central association; exact chronology and long-distance supply routes should be qualified.
+
+### Q5. Which pairing is correct?
+
+(A) Ghosundi–Hathibada — early Bhagavata worship of Sankarshana and Vasudeva  
+(B) Bhabru/Bairat — the Chauhan genealogy of Bijolia  
+(C) Barli — Rajsamand Lake construction  
+(D) Raj Prashasti — Ashoka’s Buddhist edict
+
+**Answer: (A).** The remaining options combine unrelated records.
+
+### Q6. Which claim about the Barli inscription is safest?
+
+(A) Its date of 443 BCE is universally accepted.  
+(B) It is a medieval inscription of Maharana Kumbha.  
+(C) It is associated with early Jainism, but its dating has been disputed.  
+(D) It records the construction of Kalibangan.
+
+**Answer: (C).** The older 443 BCE date remains common in exam summaries, but later epigraphic assessments dispute the dating.
+
+### Q7. Which site is linked with the Sibi Janapada in standard Rajasthan historical accounts?
+
+(A) Nagari/Madhyamika  
+(B) Alaniya  
+(C) Tilwara  
+(D) Ahar
+
+**Answer: (A).** Coin and inscriptional evidence are central to the Sibi association.
+
+### Q8. Which is a sound rule for using a royal prashasti as a historical source?
+
+(A) Treat all praise as objective fact.  
+(B) Ignore the findspot and date.  
+(C) Separate what the inscription states from what historians infer.  
+(D) Assume every genealogy proves biological descent without dispute.
+
+**Answer: (C).** Inscriptions are primary evidence, but their purpose, audience, damage and political context matter.
 
 ---
 
-### Part B: Model 2-Marker Answers (RPSC RAS Mains — Strict 15-Word Budget)
+## 1.11 Mains answer practice
 
-**Q1. Define 'Banasian Bull' (बनासियन बुल).**  
-*Model Answer*: Terracotta humped bull figurines discovered at Ahar and Ojhiana belonging to the Chalcolithic Ahar-Banas culture, signifying a proto-historic religious or fertility cult. *(20 words)*
+### 2-marker: What is the archaeological significance of Bagor?
 
-**Q2. State the historical importance of the Ghosundi Inscription.**  
-*Model Answer*: 2nd-century BCE Sanskrit Brahmi epigraph from Chittorgarh providing the earliest archaeological evidence of Bhagavata (Vaishnava) worship and Ashvamedha sacrifice by King Sarvatata in Rajasthan. *(22 words)*
+**Model answer:** Bagor, on the Kothari River near Bhilwara, is a major Mesolithic site known for microliths, habitation features, faunal remains and evidence of early animal management. Its later phases also show copper- and iron-associated material.
 
-**Q3. What is the archaeological significance of Bagor?**  
-*Model Answer*: Mesolithic site on Kothari river (Bhilwara) excavated by Dr. V.N. Misra, yielding India's earliest scientific evidence of animal husbandry and geometric microliths. *(20 words)*
+### 2-marker: Why is the Ghosundi–Hathibada record important?
 
-**Q4. Name the two composers of the Kirti Stambha Prashasti.**  
-*Model Answer*: Commenced by Maharana Kumbha’s court scholar Atri and completed by his son Kavi Mahesh in 1460 CE at Chittorgarh. *(19 words)*
+**Model answer:** The record is an early epigraphic source for Bhagavata worship associated with Sankarshana and Vasudeva in Rajasthan and preserves information about Sarvatata and a religious enclosure.
 
----
+### 5-marker: Compare Kalibangan and Ahar-Banas.
 
-### Part C: Model 5-Marker Answers (RPSC RAS Mains — Strict 50-Word Budget)
+**Model answer framework:**
 
-**Q1. Highlight the distinctive archaeological features of the Ganeshwar Civilization.**  
-*Model Answer*:  
-1. **Geographical Locator**: Situated on the Kantli river in Neem Ka Thana; dated to c. 2800–2000 BCE; known as the "Mother of Copper Age Cultures".  
-2. **Metallurgical Supremacy**: Yielded over 5,000 tools containing up to 99% pure copper without tin alloying (fishhooks, celts, arrowheads).  
-3. **Economic Corridor**: Acted as a central copper-producing quarry supplying refined metal to Harappa and Kalibangan.  
-4. **Ceramics**: Characterized by Ochre Colored Pottery (OCP / कपिशवर्णी मृद्भाण्ड) with incised geometric ornamentation. *(65 words)*
+1. **Cultural setting:** Kalibangan belongs to the Early/Mature Harappan sequence; Ahar-Banas is a Chalcolithic regional culture of Mewar.
+2. **Location:** Kalibangan lies in the Ghaggar region; Ahar-Banas sites cluster around the Ahar–Berach–Banas drainage.
+3. **Diagnostic evidence:** Kalibangan is known for its ploughed field, fortifications, fire-altars and burials; Ahar-Banas is characterised by Black-and-Red Ware, often white-painted, and village settlement evidence.
+4. **Technology and economy:** both provide evidence of organised subsistence and material production, but the regional cultural sequences are not identical.
+5. **Historical value:** comparison demonstrates that prehistoric and protohistoric Rajasthan contained multiple interacting but distinct cultural traditions.
 
-**Q2. Elucidate the historical evidence yielded by the Bairat (Viratnagar) excavations.**  
-*Model Answer*:  
-1. **Mauryan & Epigraphic**: Yielded Ashoka's Bhabru Rock Edict (confirming Triratna faith) and Minor Rock Edict I at Bijak ki Pahadi and Bhimsen Dungri.  
-2. **Buddhist Architecture**: Circular brick-and-wood Chaitya shrine, the earliest surviving free-standing temple architecture in India.  
-3. **Numismatic Cache**: 36 silver coins wrapped in woven cotton cloth (8 punch-marked + 28 Indo-Greek, including 16 coins of Menander).  
-4. **Classical Travelogue**: Visited by Xuanzang (634 CE), who recorded its destruction by the Huna king Mihirakula. *(70 words)*
+### 10-marker: Explain how archaeological and epigraphic sources help reconstruct ancient Rajasthan.
+
+**Model answer framework:**
+
+Archaeology reconstructs settlement, technology and everyday life through tools, pottery, buildings, burials, plant and animal remains, coins and other material evidence. Sites such as Bagor and Tilwara reveal microlithic traditions and subsistence; Ahar-Banas and Ganeshwar-Jodhpura reveal different regional combinations of village life, pottery and copper technology; Kalibangan documents Harappan settlement planning, cultivation-related features and ritual spaces. Early historic sites such as Bairat, Nagari and Rairh add evidence about political communities, trade and craft production. Inscriptions contribute names, dates, titles, donations, genealogies, religious affiliations and records of public works. The Ghosundi–Hathibada record helps reconstruct Bhagavata worship, while the Bijolia and Raj Prashasti records are important for medieval political history and royal patronage. These sources are strongest when cross-checked: an inscription’s claim can be tested against coins, settlement evidence and independent records. Their limitations must also be recognised—chronologies can change, finds may be fragmentary, and prashastis are often eulogistic. Thus, Rajasthan’s ancient history is reconstructed through the critical comparison of material, epigraphic, numismatic and literary evidence, not from any single source alone.
 
 ---
 
-### Part D: Model 10-Marker Analytical Answer (RPSC RAS Mains — 100-Word Budget)
+## 1.12 Final revision checklist
 
-**Q1. Critically evaluate the civic planning, religious life, and economic systems of the Kalibangan civilization. How did it differ from contemporary Indus Valley sites?**  
-*Model Answer*:  
-Kalibangan (Hanumangarh), located along the palaeo-Saraswati (Ghaggar), presents a unique regional model of the Harappan civilization across its Pre-Harappan (Period I) and Mature Harappan (Period II) horizons.
+Before closing this chapter, make sure you can answer each item without looking:
 
-**1. Civic Planning & Structural Anatomy**:  
-* **Dual Fortification**: Both the Citadel and Lower Town were independently fortified with mud bricks in a 4:2:1 ratio, arranged on a gridiron/chessboard plan.  
-* **Sanitation Peculiarity**: Differing from Mohenjo-daro's baked brick sewers, Kalibangan deployed scooped **wooden drain channels** discharging into domestic soakage urns.
-
-**2. Religious & Ritual Expressions**:  
-* **Absence of Mother Goddess**: Unlike Mohenjo-daro, female terracotta mother goddess figurines are completely absent.  
-* **Fire Altars & Animal Sacrifice**: A row of **seven rectangular clay fire altars** on an elevated brick platform with sacrificial pits containing cattle bones proves institutionalized community fire rituals.  
-* **Mortuary Variety**: Three distinct burial modes—extended inhumation, fractional pot burial, and symbolic burials without human skeletons.
-
-**3. Economic & Agronomic Innovations**:  
-* **World's Earliest Ploughed Field**: Grid-patterned cross-furrows proving simultaneous dual cropping (mustard and gram) in Period I.  
-* **External Commerce**: A cylindrical Mesopotamian seal and camel bones indicate active overland trade connecting trans-Indus and West Asian markets.
-
-*Conclusion*: Kalibangan represents an indigenous agro-ritualistic variant of the Indus civilization, characterized by fire cults, pragmatic wooden hydraulic drainage, and sophisticated dual-crop dryland agriculture. *(198 words)*
+- [ ] Explain how Palaeolithic and Mesolithic tool traditions differ.
+- [ ] Locate Didwana/Singi Talav, Bagor, Tilwara and Alaniya on a Rajasthan map.
+- [ ] Explain why Bagor is important without claiming that it proves every aspect of settled farming.
+- [ ] Separate Kalibangan’s Early and Mature Harappan phases and recall the ploughed field, fortifications, fire-altars and burials.
+- [ ] Match Ahar-Banas with Black-and-Red Ware, Mewar and copper use.
+- [ ] Explain the distinct significance of the Ganeshwar-Jodhpura complex.
+- [ ] Distinguish Nagari/Sibi, Nagar/Malava, Bairat/Matsya and Naliasar/Yaudheya associations.
+- [ ] Distinguish Barli, Bhabru, Ghosundi-Hathibada, Bijolia, Chirwa, Kumbhalgarh and Raj Prashasti.
+- [ ] Explain why the date of Barli and some cultural chronologies require a caveat.
+- [ ] Separate an excavation find from an interpretation, and an inscription’s claim from a modern historical conclusion.
+- [ ] Check modern district labels against the latest official map rather than copying an old coaching note.
 
 ---
 
-```text
-[Chapter 01 Complete ➔ Next: Chapter 02: Early Medieval Dynasties: Gurjara-Pratiharas & Chauhans of Shakambhari, Ajmer, Ranthambore & Jalore]
-```
+## References and verification trail
+
+**Primary/official and academic sources prioritised during this revision**
+
+- **[R1]** Rajasthan Public Service Commission, *Rajasthan State and Subordinate Services Combined Competitive (Preliminary) Examination — Scheme & Syllabus*, dated 9 January 2026. The Prelims syllabus explicitly names pre-historical sites from the Palaeolithic to Chalcolithic/Bronze Age, ancient society and culture, and archaeological, archival, literary and numismatic sources.  
+  https://rpsc.rajasthan.gov.in/Static/Syllabus/7D943B35-2D9E-4E50-BC3E-3726268AE18B.pdf
+- **[R14]** Rajasthan Public Service Commission, *Rajasthan State and Subordinate Services Combined Competitive (Mains) Examination — Scheme & Syllabus*, dated 9 January 2026. Paper I, Unit I, Part A explicitly includes prehistoric culture and important ancient historical sites and their significance.  
+  https://rpsc.rajasthan.gov.in/Static/Syllabus/238A2E0E-B0D0-49C2-8E5E-D299A915037F.pdf
+- **[R2]** Archaeological Survey of India, *Excavations at Kalibangan — The Harappans (1960–69)*. Primary reference for the Mature Harappan settlement and excavated structures.  
+  https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60
+- **[R3]** Archaeological Survey of India, Jaipur Circle, *Bairat — Excavated Site*. Official account of the circular Mauryan shrine, wooden pillars, monasterial remains and Ashokan inscriptions.  
+  https://asijaipurcircle.nic.in/Bairat%20-%20Excavated%20site.html
+- **[R4]** Archaeological Survey of India, Jaipur Circle, *Baror*. Official account describing pre-Harappan/Harappan pottery and reported antiquities.  
+  https://asijaipurcircle.nic.in/Baror%20-%20Ancient%20mound.html
+- **[R5]** Ravi Korisettar and Madhavi Kunneriath, “Mesolithic Cultures of India”, INFLIBNET, *Pre and Protohistoric Cultures of India*. Includes Bagor’s excavation context, phases, microliths and faunal evidence.  
+  https://ebooks.inflibnet.ac.in/icp02/chapter/mesolithic-cultures-of-india/
+- **[R6]** INFLIBNET, “Chalcolithic Cultures Northern and Central India”, section on the Ahar-Banas culture. Discusses distribution and the principal excavated sites Ahar, Balathal, Gilund and Ojiyana.  
+  https://ebooks.inflibnet.ac.in/icp02/chapter/152/
+- **[R7]** Esha Prasad and Ravindra Nath Singh, “The Chronology of the Ganeshwar Jodhpura Culture: A Reassessment Based on Graffiti and Cross-Cultural Comparisons”, *Ancient Asia* 12 (2021).  
+  https://ancient-asia-journal.com/public/index.php/article/10.5334/aa.238
+- **[R8]** Prabodh Shirvalkar, Esha Prasad, Teresa Raczek and Lalit Pandey, “Rescue Excavation at Pachamta, an Ahar Chalcolithic Site in Rajasthan: A New Understanding of Administration”, *Ancient Asia* 16 (2025), pp. 91–120.  
+  https://www.ancient-asia-journal.com/article/10.47509/AA.2025.v16i.7
+- **[R9]** Amrita Sarkar, “A Study of Development of the Ahar Culture in south-east Rajasthan, India from a ceramic point of view”, *Ancient Asia* 3 (2012).  
+  https://www.ancient-asia-journal.com/public/article/10.5334/aa.12303
+- **[R10]** Government of Rajasthan, Department of Tourism, Kota page; and State Archaeology Department’s protected-monuments list for Alaniya cave paintings.  
+  https://www.tourism.rajasthan.gov.in/hi/kota.html  
+  https://devasthan.rajasthan.gov.in/Files/List_of_State_Archeology.pdf
+- **[R11]** INFLIBNET, “Iron Age — Antiquity of Iron in India”, section on Rajasthan, including Noh and Jodhpura.  
+  https://ebooks.inflibnet.ac.in/icp02/chapter/iron-age-antiquity-of-iron-in-india/
+- **[R12]** *Indian Archaeology — A Review 1963–64*, excavation account mentioning six circular holes on a child’s skull in the Kalibangan burial evidence.  
+  https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%201963-64%20A%20Review.pdf
+- **[R13]** Richard Salomon, *Indian Epigraphy* (Oxford University Press, 1998), and specialist scholarship on early Jain inscriptions; see also the source-critical discussion of the disputed Barli date.  
+  https://academic.oup.com/book/49774
+  Supplementary full-text source for the date controversy: https://jainqq.org/booktext/Jain_Inscriptions_of_Rajasthan/001596
+- **Current district cross-check:** Government of Rajasthan, Disaster Management, Relief and Civil Defence Department, district DM plans (current list consulted 16 October 2026). Neem Ka Thana should not be presented as a current district in a current-affairs-sensitive note.  
+  https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-dm-plans.html
+
+**Editorial note:** for inscriptions whose full text, date conversion or attribution is debated, use the published epigraphic edition or a standard Rajasthan history text and record the exact edition/page in your personal source log. A list of popular facts without page-level traceability is not enough for a single-source study system.
+
+---
+
+**Chapter 01 ends here.** Next chapter should proceed only after this file is checked against the final syllabus map and the aspirant’s chosen base texts.
