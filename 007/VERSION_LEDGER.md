@@ -17,6 +17,32 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v046 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 10 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 10 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 10 from prior unvetted state (Omission of pre-independence prince-led union schemes, Alwar/Bharatpur direct administration takeover, transitional CM chronology 1949–1952, absence of Prelims MCQ laboratory) to verified academic benchmark (~75–85% dependable single-source coverage).
+  - Enforced 4-tier epistemic hierarchy: `[Secure Core]`, `[Textbook Convention]`, `[Tradition / Local Narrative]`, and `[Historiographical Debate / Analytical Nuance]`.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 10 Codex**: `007/notes/rajasthan/11_CHAPTER_10_UNIFICATION_OF_RAJASTHAN.md` (480+ lines, 8 master sections, 6 Prelims MCQs, 14 model Mains answer frameworks, full primary verification logs).
+  2. **Remediated Rapid Revision Matrix 10**: `007/revision/rajasthan/10_REV_CHAPTER_10_UNIFICATION_OF_RAJASTHAN.md` (60-second retrieval skeleton, 7-stages invariants grid with explicit epistemic tags, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Critical Factual Traps & Chronology**:
+    - Grounded the first and last states to sign the Instrument of Accession: **Bikaner (Maharaja Sadul Singh, 7 Aug 1947)** signed first; **Dholpur (Maharaja Udaybhan Singh, 14 Aug 1947)** signed last.
+    - Documented the **States' Department viability criteria**: Required 10 Lakh population AND Rs 1 Crore annual revenue; verified that exactly **four states** qualified (Jaipur, Jodhpur, Bikaner, Mewar).
+    - Recovered the failed pre-independence prince-led union schemes: Maharana Bhupal Singh's *Rajasthan Union Scheme* (Udaipur summit of 22 rulers, 25–26 June 1946), Maharao Bhim Singh's *Hadoti Union Scheme*, and Maharawal Laxman Singh's *Vagad Union Scheme*.
+    - Clarified the immediate catalyst for the Matsya Union: Direct takeover of Alwar administration on **7 February 1948** following Gandhi's assassination inquiry against Maharaja Tej Singh and Dr. N.B. Khare, and direct takeover of Bharatpur due to communal violence.
+    - Documented the postponement of Matsya Union from 17 to **18 March 1948** due to Jat peasant protests under Kunwar Deshraj; confirmed inauguration by N.V. Gadgil at **Lohagarh Fort, Bharatpur**.
+    - Grounded the "Death Warrant" quote: Spoken by **Maharawal Chandraveer Singh of Banswara** while signing the accession of Stage 2.
+    - Verified the Mewar settlement in Stage 3: Special annual Privy Purse of **Rs 20 Lakh per annum** (Rs 10 Lakh purse + Rs 5 Lakh special allowance + Rs 5 Lakh Shree Eklingji temple endowment); creation of the unique lifetime post of **Maharajpramukh** for Maharana Bhupal Singh.
+    - Clarified the institutional distribution of the **P. Satyanarayan Rao Committee (1949)**: Capital to Jaipur, High Court to Jodhpur, Education to Bikaner, Mining/Customs to Udaipur, Agriculture/Forest to Bharatpur, Board of Revenue to Ajmer.
+    - Documented the **Dr. Shankar Rao Deo Committee (1949)**: Surveyed public sentiment in Bharatpur and Dholpur, preventing partition into UP.
+    - Recovered the **Sirohi-Abu controversy**: Sardar Patel's partition of Mount Abu and Delwara into Bombay State (Jan 1950) and their ultimate restitution on **1 November 1956** under the Fazal Ali Commission following Gokulbhai Bhatt's agitation.
+    - Clarified the territorial exchange on 1 Nov 1956: **Sunel Tappa** (Mandsaur, MP) integrated into Jhalawar (Rajasthan); **Sironj sub-division** (Kota, Rajasthan) transferred to Madhya Pradesh.
+    - Documented the abolition of Rajpramukh under the 7th Constitutional Amendment Act, swearing in **Sardar Gurmukh Nihal Singh** as 1st Governor on 1 Nov 1956.
+    - Codified the complete sequence of Transitional Chief Ministers: Nominated (Hiralal Shastri, C.S. Venkatachar, Jai Narayan Vyas) and Elected (Tikaram Paliwal 1st elected CM from Mahwa; Jai Narayan Vyas only dual nominated/elected CM; Mohan Lal Sukhadia 17-year tenure).
+
 ### [STAGED LOCAL] v045 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 09 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
