@@ -1,939 +1,888 @@
-# Chapter 04: The Rathores of Marwar & Bikaner
+# CHAPTER 04: THE RATHORES OF MARWAR & BIKANER
+## RPSC RAS Prelims and Mains | Revised study source
+**Revision status:** Substantially rebuilt after an audit of the original chapter  
+**Historical scope:** From the emergence of Rathore power in western Rajasthan to the princely states' integration into modern Rajasthan, with selected cultural and administrative themes.
 
 ---
 
-## 1. Dynastic Origins, Genealogies & Epigraphic Foundations
+## How to use this chapter: evidence before memorisation
 
-### 1.1 Theories of Rathore Origin
-The Rathores (राठौड़) established one of the most formidable martial hegemonies across western and northern Rajasthan (Marwar, Bikaner, Kishangarh, Idar, and Ratlam). The etymology and ancestry of the Rathore dynasty have been subjected to rigorous historiographical debate among bardic chroniclers, epigraphists, and modern historians.
+This chapter includes three kinds of historical information. They should not be memorised as though they had identical evidentiary status.
 
-```
-                     ┌─────────────────────────────────────────────────────────┐
-                     │         HISTORIOGRAPHICAL THEORIES OF ORIGIN            │
-                     └────────────────────────────┬────────────────────────────┘
-                                                  │
-         ┌────────────────────────────────────────┼────────────────────────────────────────┐
-         │                                        │                                        │
-┌────────┴──────────────┐              ┌──────────┴─────────────┐              ┌───────────┴──────────┐
-│  Rashtrakuta Descent  │              │ Gahadavala of Kannauj  │              │  Suryavanshi Lineage │
-├───────────────────────┤              ├────────────────────────┤              ├──────────────────────┤
-│ • Epigraphic Sanskrit:│              │ • Bardic Khyats        │              │ • Solar Dynastic     │
-│   'Rashtrakuta'       │              │   (Muhnot Nainsi,      │                Genealogy of Rama    │
-│   → Prakrit:          │              │   Dayaldas, Tod)       │              │ • Upheld by G.H.     │
-│   'Rattoda'           │              │ • Jaichand Gahadavala  │                Ojha and Jodhpur     │
-│   → Dingal: 'Rathore' │                claimed as ancestor    │                Royal Inscriptions   │
-│ • Supported by Hoernle│              │ • Disproved by G.H.    │              │ • Bithu Stone Pillar │
-│   & Modern Scholars   │                Ojha via Gotra study   │                (1273 CE)            │
-└───────────────────────┘              └────────────────────────┘              └──────────────────────┘
-```
+- **Well-attested historical core:** dates and events supported by inscriptions, contemporary or near-contemporary chronicles, established institutional histories, or multiple independent accounts.
+- **Chronicle-based reconstruction:** information found in sources such as *Nainsi ri Khyat*, *Dayaldas ri Khyat*, Persian court histories, and later regional histories. Such sources are valuable, but their purpose, date and political perspective matter.
+- **Tradition / legend:** popular accounts, bardic couplets, heroic episodes and origin stories that are culturally important but may not be independently verifiable in every detail.
 
-#### The Principal Historiographical Hypotheses
-1. **The Rashtrakuta Lineage (The Epigraphic Standard)**:
-   - **Linguistic Evolution**: Epigraphic Sanskrit *Rāshtrakūta* (राष्ट्रकूट — imperial governors / masters of a province) mutated into Prakrit *Rattauda / Raddhoda* (रट्टौड), and ultimately into vernacular Dingal as *Rathore* (राठौड़).
-   - **Inscriptional Evidence**: Inscriptions from Badaun (Lakhanpala Inscription), Hathundi (Hastikundi Inscription of 997 CE in Pali district, mentioning Rashtrakuta rulers Vidagdha and Mammat), and Dhanop (Bhilwara) demonstrate that Rashtrakuta branches governed western and northern India centuries prior to Rao Siha.
-   - **Academic Consensus**: Dr. Rudolf Hoernle, Dr. Dasharatha Sharma, and modern institutional textbooks confirm that the Rathores are direct descendants of northern branches of the ancient Rashtrakutas.
+A traditional account can remain exam-relevant. The task is to learn what kind of claim it is, not to erase it or present it as eyewitness fact.
 
-2. **The Kannauj Gahadavala Legend (Bardic Tradition)**:
-   - **Chronicler Claims**: Muhnot Nainsi (*Nainsi ri Khyat*), Dayaldas (*Dayaldas ri Khyat*), and Col. James Tod recorded the popular bardic tradition that the Rathores migrated from Kannauj after the fall of Jaichand Gahadavala following the Battle of Chandawar (1194 CE), identifying Rao Siha as the grandson or nephew of Jaichand.
-   - **Historiographical Refutation**: Mahamahopadhyaya Pandit Gaurishankar Hirachand Ojha systematically dismantled this Kannauj-Gahadavala claim. Ojha proved that Gahadavalas and Rathores belonged to distinct Gotras and lineages; epigraphic inscriptions in Kannauj distinctly refer to Jaichand as *Gahadavala* and not *Rathore*.
+### Scope against the RPSC syllabus
 
-3. **Solar Descent (Suryavanshi)**:
-   - Official royal genealogies of Jodhpur and Bikaner identify the Rathores as *Suryavanshi Kshatriyas* (descendants of Lord Rama through Kusha). This solar lineage is corroborated by the court chronicles and stone inscriptions (*Prashastis*) of Mehrangarh and Junagarh.
+The Rajasthan-history syllabus includes major dynasties, administrative and revenue systems, socio-cultural issues, forts and monuments, arts, paintings, handicrafts, Rajasthani literature, traditions, and important personalities. This chapter therefore covers rulers and battles, but also state formation, landholding, Mughal service, water and trade infrastructure, literary chronicles, painting, environmental traditions and princely-state integration.
 
 ---
 
-### 1.2 Epigraphic Horizon & Early Patriarchs (Rao Siha to Rao Chunda)
+# PART I — ORIGINS AND THE FORMATION OF MARWAR
 
-#### Rao Siha (राव सीहा) — The Founding Patriarch (c. Mid-13th Century – 1273 CE)
-- **Establishment of Footing**: In the mid-13th century, Rao Siha migrated into Marwar and established his initial base at Pali (पाली). He intervened to protect the wealthy mercantile community of Paliwal Brahmins against raiding tribes (Mers and Minas) and Muslim incursions.
-- **Capital**: Established the earliest Rathore seat at Khed (खेड़, modern Balotra district).
-- **The Bithu Inscription (1273 CE / वि.सं. 1330)**:
-  - **Location**: Bithu village (बीठू गांव), near Pali.
-  - **Historical Substance**: This memorial stone (*Devli* / Deval) marks the death of Rao Siha on the 12th day of the dark half of Kartika, V.S. 1330 (1273 CE). It explicitly names his queen, Rani Solankani Parvati, who committed Sati alongside him. This constitutes the irrefutable chronological benchmark establishing the historical foundation of the Marwar Rathores.
+## 1. Rathore origins: distinguish genealogy from history
 
-#### Rao Asthan (राव आस्थान, 1273–1292 CE)
-- Succeeded his father Rao Siha; consolidated Khed as the political citadel.
-- Defeated the Guhils of Khed and expanded territorial authority towards Idar.
-- Fell in battle fighting Jalaluddin Khalji’s garrison forces at Pali.
+The Rathores (राठौड़) became the ruling house of Marwar and founded or ruled other principalities, including Bikaner and Kishangarh. Their ancestry is described differently in dynastic genealogies, bardic traditions and modern historical scholarship.
 
-#### Rao Dhuhad (राव धूहड़, 1292–1309 CE) & The Cult of Kuldevi Nagnechi Mata
-- **Importation of the Dynastic Deity**: Rao Dhuhad is celebrated for establishing the dynastic tutelary deity (Kuldevi) of the Rathores: **Nagnechi Mata (नागणेची माता)**.
-- **The Legend & Location**: Dhuhad travelled to Karnataka and brought the sacred wooden neem idol of *Chakreshwari Devi*. He consecrated the goddess at **Nagana village (नागाणा, Pachpadra, Balotra district)**. Hence, the goddess became renowned as *Nagnechi Mata*.
-- **Sacred Flora**: The neem tree (*Azadirachta indica*) and the white eagle (*Senchali* bird) were sanctified as divine emblems across all Rathore clans.
+### Three important origin narratives
 
-#### Rao Mallinath (राव मल्लीनाथ, 1374–1399 CE) — The Saint-King of Malani
-- Head of the Mahecha Rathore branch; ruled from Mewa Nagar (Khed-Balotra region).
-- Defeated the joint armies of Firoz Shah Tughlaq and Nizamuddin of Malwa in 1378 CE.
-- **Spiritual Attainment**: Influenced by his pious wife, **Rani Rupa De (रानी रूपादे)**, Mallinath accepted Guru Ugamsi Bhati as his spiritual mentor and embraced Kundalini yoga and Nirguna Bhakti.
-- **The 1399 Harikirtan Gathering**: In 1399 CE, Mallinath convened a monumental gathering of saints and spiritual practitioners from across northern India, taking Samadhi shortly thereafter.
-- **Geographical Legacy**: The entire geographical territory of Barmer-Balotra came to be known as **Malani (मालाणी)** in his honor. The annual **Mallinath Cattle Fair (मल्लीनाथ पशु मेला)** held at Tilwara on the dry bed of river Luni is Rajasthan's oldest cattle fair.
+| Narrative | What it claims | How to treat it |
+|---|---|---|
+| **Rashtrakuta connection** | The Rathores are linked linguistically or genealogically with the ancient Rashtrakutas. | A historical hypothesis discussed by scholars; the proposed linguistic relationship does not, by itself, prove an unbroken biological or political descent. |
+| **Kannauj/Gahadavala tradition** | The Rathores migrated from Kannauj after the defeat of Jayachandra by Muhammad Ghuri's forces in the late 12th century. | A prominent bardic and dynastic tradition. The Mehrangarh Museum Trust notes that the story is preserved by Rathore bards and should not be treated as settled merely because it appears in later genealogies. |
+| **Suryavanshi descent** | Rathore rulers traced their lineage to the solar dynasty and ultimately to Rama. | A claim of royal legitimacy and ritual identity; it belongs to the study of dynastic ideology, not to independently demonstrable early medieval genealogy. |
 
----
+**Exam principle:** do not write that one origin theory has been proved beyond dispute. Explain which source tradition advances each claim and distinguish political genealogy from modern historical proof.
 
-### 1.3 Rao Chunda (राव चूंडा, 1394–1423 CE) — The Mandore Breakthrough
-Rao Chunda transformed the Rathores from localized chieftains into a sovereign regional power through military acumen and matrimonial diplomacy.
+### Sources for early Rathore history
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      RAO CHUNDA'S STRATEGIC TRANSFORMATION (1394 CE)   │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Acquisition of Mandore (1394 CE)    │                     │   Urban & Administrative Foundation              │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Inda Pratiharas besieged by        │                     │ • Established Mandore as permanent Rathore       │
-│   Muslim Governor of Nagaur          │                       capital (displacing Khed/Mewa).                  │
-│ • Secret Alliance: Chunda offered    │                     │ • Fortified Mandore walls and extended borders   │
-│   military eviction of Muslim troops │                       to Nagaur, Khatu, Didwana, and Sambhar.          │
-│ • Dowry Gift: Mandore handed to      │                     │ • Queen Chand Kanwar constructed the historic    │
-│   Rao Chunda in matrimonial alliance │                       Chand Baori (चांद बावड़ी) inside Mandore Fort.   │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+- **Inscriptions and memorial stones:** can establish names, dates, kinship claims and specific commemorations, within the limits of the text.
+- **Khyats and bardic histories:** preserve genealogies, local memories, battles, landholding and political relationships; they may also compress generations or dramatise conflict.
+- **Persian court histories:** useful for Mughal–Rajput relations, imperial campaigns, mansabs and court politics; their imperial perspective must be considered.
+- **Modern institutional histories and state gazetteers:** useful for a verified overview, but they too may repeat older traditions. A government webpage is not automatically a primary source for a medieval event.
 
-#### The Celebrated Bardic Couplet
-When the Inda Pratihara clan bequeathed the ancient citadel of Mandore to Rao Chunda, the historic gratitude was immortalized in Dingal verse:
-> *"इंदा रो उपकार, कमधज कद ही न वीसरै।*  
-> *चूंडे चांवड़ चड़ाय, दियो मांडोवर दायजे॥"*  
-> *(The immense favor of the Indas shall never be forgotten by the Kamdhaj/Rathores; they elevated Chunda and gifted Mandore as a bridal dowry.)*
+## 2. Rao Siha and the early Rathore presence
 
-- **Military Campaigns & Martyrdom**: Chunda captured Khatu, Didwana, Sambhar, and Ajmer. He was killed in 1423 CE near Nagaur through a deceitful joint ambush organized by the Bhattis of Jaisalmer, the Sankhlas of Janglu, and Khizr Khan's governor of Nagaur.
+### Rao Siha (सीहा / सिहाजी)
+
+Rao Siha is conventionally remembered as the founding patriarch of the Rathore line in Marwar. Traditions associate the family's early establishment with Pali and Khed, where local protection, alliances and gradual territorial expansion provided a base for later power.
+
+The **Bithu memorial inscription**, commonly dated to Vikrama Samvat 1330 / 1273 CE, is an important chronological reference associated with Siha's death and his queen Parvati. It is valuable evidence for the early Rathore memory, but it does not independently establish every later genealogical claim about the family's descent from Kannauj or the Rashtrakutas.
+
+**Exam-safe formulation:** Rao Siha is conventionally regarded as the founder of the Marwar Rathore line; Bithu is associated with his memorial and the year 1273 CE. Avoid calling the inscription proof of every element of the dynasty's origin legend.
+
+### Rao Asthan and Rao Dhuhad
+
+Early Rathore rulers expanded from a limited base through local warfare, alliances and control of routes and settlements. The exact chronology of the earliest rulers varies across genealogical and regional accounts; do not assign precise reign lengths unless a named source supports them.
+
+Rao Dhuhad is associated in Rathore tradition with the establishment of the family's devotion to **Nagnechi Mata**, the Rathore kuldevi. The account that he brought an image from Karnataka and consecrated it at Nagana is a dynastic religious tradition. It matters for Rajasthan's religious geography and clan identity, but its details should be labelled traditional rather than treated as independently proven fact.
+
+## 3. Rao Mallinath and the Malani region
+
+Rao Mallinath is remembered as a prominent Rathore figure in the Mewa Nagar/Khed region. The name **Malani** is traditionally linked with him, and the Mallinath cattle fair at Tilwara is a major pastoral and cultural event.
+
+Regional tradition associates Mallinath with saints, devotional practice and a large religious gathering. Specific claims that he defeated named coalitions of the Delhi Sultanate and Malwa, or convened a precisely dated pan-Indian gathering in 1399, require stronger source confirmation than the original chapter supplied. Learn the broad cultural association; do not overstate the details.
+
+### Why Mallinath matters beyond one ruler
+
+- **Pastoral economy:** cattle fairs connected herders, breeders, traders and buyers across arid western Rajasthan.
+- **Religious geography:** fairs and samadhis make rulers, saints and local sacred sites part of regional memory.
+- **Place-names:** Malani demonstrates how a dynastic figure can become attached to the identity of a wider landscape.
 
 ---
 
-### 1.4 Rao Ranmal (राव रणमल, 1427–1438 CE) & The Mewar Regnancy
-- **Matrimonial Alliance with Mewar**: Rao Chunda bypassed his eldest son Ranmal and appointed his younger son Kanha as heir, influenced by his favorite queen Sona Mohil. Ranmal abandoned Marwar and sought refuge at Chittorgarh with Maharana Lakha.
-- **Hansa Bai's Marriage**: Ranmal negotiated the historic conditional marriage of his sister **Hansa Bai** to the aging **Maharana Lakha** on the condition that Hansa Bai's progeny would inherit the throne of Mewar. This led to Prince Chunda's supreme sacrifice ("Bhishma of Mewar").
-- **Regency over Mewar**: Following Lakha's death, Ranmal became the supreme guardian and regent for his young nephew, **Maharana Mokal (1421–1433 CE)**, and subsequently for young **Maharana Kumbha**.
-- **Assassination (1438 CE)**: Ranmal utilized his authority to install Rathore nobles across key strategic posts in Chittorgarh, assassinating Raghavadeva (brother of Chunda Sisodia). Suspecting a Rathore takeover of Mewar, Maharana Kumbha recalled Prince Chunda from Mandu. With the help of Ranmal's concubine **Bharmali (भारमली)**, Ranmal was intoxicated, bound to his cot, and assassinated inside Chittor Fort in 1438 CE.
+## 4. Rao Chunda and the acquisition of Mandore
+
+Rao Chunda is traditionally credited with raising the Rathores from a regional chieftaincy into a more secure power by acquiring **Mandore**, the earlier political centre of Marwar. The familiar account connects the acquisition with an alliance with the Inda/Pratihara ruling family and a matrimonial relationship.
+
+The precise date varies among historical summaries; the broad sequence is more important than insisting on a single year without qualification. The Mehrangarh Museum Trust places Chunda's rule in the late 14th to early 15th century and says Mandore came to him as part of a dowry.
+
+Mandore offered a strategic base from which Rathore rulers could project power towards Jodhpur, Nagaur and other important settlements. It was a stage in territorial consolidation, not the final urban foundation of Jodhpur.
+
+> **Important correction:** Chand Baori is at **Abhaneri**, in present-day Dausa district. It is not a stepwell inside Mandore Fort and should not be attributed to a queen of Rao Chunda on the basis of the original chapter.
+
+## 5. Rao Ranmal and Marwar–Mewar politics
+
+Rao Ranmal's history is inseparable from the succession politics of Mewar. Through family connections, he became influential at the Mewar court and served as regent during the minority of Maharana Mokal. Rathore nobles and relatives gained significant positions, while the Sisodia court increasingly perceived this influence as a threat.
+
+Ranmal was killed at Chittorgarh in 1438 CE. Accounts of the intrigue, the role of Bharmali and the precise mechanics of his death are drawn largely from later narratives; keep them separate from the secure political consequence: his death forced his son Rao Jodha to rebuild the family's position from Marwar.
+
+### The Hansa Bai–Chunda connection
+
+The story of Hansa Bai's marriage to Maharana Lakha and Prince Chunda's renunciation of the Mewar succession is part of the wider political context connecting Marwar and Mewar. It is most useful as an example of how marriage, succession, guardianship and court factions could shape inter-state politics. Detailed dialogue and moral embellishments belong to later narrative traditions.
+
+
+### Rao Jodha's return and the Awala-Bawala agreement (traditionally dated 1453)
+
+After Ranmal's death, Rao Jodha gradually rebuilt his position in Marwar. The **Awala-Bawala (Ānval-Bāval) agreement** is traditionally associated with an accommodation between Rao Jodha and Maharana Kumbha, mediated in the wider political memory by Hansa Bai. It is remembered as a settlement that helped regularise relations between Marwar and Mewar after a period of conflict.
+
+Regional accounts explain the name through vegetation: **ānval/aonla** is associated with Mewar's side of the boundary and **bāval/babool** with Marwar's. The agreement is also linked to a marriage alliance involving Shringar Devi, daughter of Jodha, and Raimal, son of Kumbha. Treat the exact boundary explanation and all associated marriage details as chronicle/tradition-based unless a named primary source is supplied.
+
+**Prelims point:** Awala-Bawala is conventionally paired with **Rao Jodha (Marwar) and Maharana Kumbha (Mewar)**, often dated to 1453. It is not an agreement between Maldeo and Rana Sanga.
 
 ---
 
-## 2. Foundation of Jodhpur & Consolidations (Rao Jodha to Rao Ganga)
+# PART II — JODHPUR, BIKANER AND THE RATHORE STATE SYSTEM
 
-### 2.1 Rao Jodha (राव जोधा, 1438–1489 CE) — The Architect of Marwar
+## 6. Rao Jodha and the foundation of Jodhpur (1459 CE)
 
-#### The Flight from Chittor & Awala-Bawala Accord (1453 CE)
-Upon Ranmal’s assassination, his son Rao Jodha escaped from Chittorgarh under pursuit by Mewari forces. A bardic drum-warning echoed across the camp:
-> *"चूंडा अजमल आविया, मांडू हूं धक आग।*  
-> *जोधा रणमल मारिया, भाग सके तो भाग॥"*
+Rao Jodha, who ruled Marwar from 1438 to 1489 in the conventional chronology, founded Jodhpur in **1459 CE** and began the fort later known as **Mehrangarh** on the elevated rock of Chidiyatunk.
 
-Jodha retreated across western Marwar, spending nearly 15 years in exile and guerrilla skirmishes based at Kahuni village (near Bikaner). By 1453 CE, Jodha successfully recaptured Mandore.
-- **The Treaty of Awala-Bawala (आंवल-बांवल की संधि, 1453 CE)**: Brokered through the mediation of Rajmata Hansa Bai between Maharana Kumbha and Rao Jodha.
-  - **Border Delimitation**: The physical boundary between Mewar and Marwar was finalized based on vegetation markers: the territories where the green *Aonla* (Indian gooseberry) flourished belonged to Mewar; where the thorny *Bawal* (Acacia/Babool) predominated belonged to Marwar.
-  - **Matrimonial Seal**: Rao Jodha married his daughter **Shringar Devi** to Kumbha’s son, Prince Raimal. Shringar Devi subsequently constructed the celebrated **Ghosundi Stepwell (घोसुंडी बावड़ी)** near Nagari.
+### Why relocate from Mandore?
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │           RAO JODHA'S URBAN FOUNDATION (1459 CE)       │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Geographical & Tactical Shift       │                     │   Ritual, Construction & Sacrifice               │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Mandore identified as vulnerable   │                     │ • Consecration Date: Jyeshtha Shukla 11,         │
-│   in low-lying valley terrain        │                       V.S. 1515 (12 May 1459 CE).                      │
-│ • Shifted capital 9 km south to      │                     │ • Foundation stone blessed by Karni Mata         │
-│   Chidiyatunk Hill (चिड़ियाटूंक)     │                       (Riddhi Bai).                                    │
-│ • Fort Names: Mehrangarh,            │                     │ • Voluntary foundation sacrifice:                │
-│   Mayuradhwaja Durg, Garh Chintamani │                       Rajaram Meghwal (Rajiya Bambhi) buried alive.    │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+The move reflects the strategic value of a stronger hilltop position overlooking the surrounding plain. Mehrangarh's height, walls, gates and commanding location improved the defence of the political centre. The fort and city expanded over centuries, so not every structure inside the present complex dates from Jodha's time.
 
-#### Foundation of Jodhpur & Mehrangarh Fort (1459 CE)
-- **Foundation Date**: 12 May 1459 CE (Jyeshtha Shukla Ekadashi, V.S. 1515).
-- **Hill & Ascetic Legend**: The fort was constructed upon the rugged isolate of **Chidiyatunk (चिड़ियाटूंक)** hill. The meditating sage *Chidiyanath* was displaced, placing a legendary curse of water scarcity upon the citadel. To appease the site, Jodha built stepwells and temples.
-- **Sacrificial Consecration**: In accordance with medieval Vastu principles, a pious man named **Rajaram Meghwal (राजाराम मेघवाल)** voluntarily offered his life to be buried alive within the fort's foundational trench. His family was rewarded with hereditary land grants and tax exemptions.
-- **Divine Benediction**: The sacred foundation stone was blessed and laid by **Shri Karni Mata (श्री करणी माता)** of Deshnoke.
-- **Nomenclature**: Named **Mehrangarh (मेहरानगढ़)** (from Mihir / Surya-garh, celebrating the Solar descent of the Rathores), also designated as *Mayuradhwaja Durg* (due to its peacock-shaped contour) and *Garh Chintamani*.
-- **Sacred Temples**: Built the Chamunda Mata Temple and Nagnechi Mata Temple within the ramparts.
-- **Queen Rani Jasmade Hadi**: Constructed the monumental **Ranisar Lake (रानीसर तालाब)** adjacent to the fort ramparts to provide sweet water storage.
+The Mehrangarh Museum Trust describes the fort as rising roughly 400 feet above the surrounding plain. Its history explains that later rulers, especially Maldeo and Ajit Singh, made significant additions and alterations.
 
----
+### Traditions associated with Mehrangarh
 
-### 2.2 Rao Satal (राव सातल, 1489–1492 CE) & The Legend of Ghudla
-- Succeeded his father Rao Jodha; founded the settlement of Satalmer (near Pokhran).
-- **The Battle of Pipar (1492 CE)**:
-  - Subedar Gudhla Khan (घुड़ला खां), military commander of Mallu Khan (Subedar of Ajmer), raided Pipar village and abducted 140 unmarried Rajput maidens (*Kanyas*) who were performing the Teej / Gauri worship.
-  - Rao Satal pursued the marauders, engaged them in a ferocious battle, routed the Afghan detachment, and rescued all 140 girls.
-  - Satal severed Gudhla Khan's head, pierced it with arrows, and handed the perforated skull to the rejoicing maidens to celebrate their deliverance.
-- **Cultural Genesis of the Ghudla Festival**:
-  - Commemorated annually across Marwar from **Chaitra Krishna Ashtami to Chaitra Shukla Tritiya**.
-  - Young maidens parade through the streets carrying a perforated earthen pot (*Chhidrit Matka*) containing an illuminated lamp, singing traditional *Ghudla songs*.
-- **Martyrdom**: Rao Satal sustained fatal battle wounds in the engagement and succumbed shortly after securing victory on Chaitra Shukla 3, 1492 CE.
+- **Chidiyanath:** a local ascetic is said to have cursed the site after being displaced.
+- **Rajaram Meghwal / Rajiya Bambha:** a story holds that a man was voluntarily buried in the foundation to avert the curse.
+- **Karni Mata:** local tradition associates her blessings with the fort's foundation.
+- **Mehrangarh's name:** commonly explained as “fort of the sun,” reflecting the Rathore claim of solar descent.
+
+These are important architectural traditions and cultural-memory narratives. Unless a reliable contemporary record is specified, they should not be presented as proven construction procedures.
+
+### Key Jodhpur facts
+
+| Feature | High-yield point |
+|---|---|
+| Founder of Jodhpur | Rao Jodha |
+| Foundation | 1459 CE |
+| Fort | Mehrangarh |
+| Site | Chidiyatunk hill |
+| Preceding major Rathore centre | Mandore |
+| Important later fort-building phase | Rao Maldeo's reign; subsequent rulers expanded the complex |
+| Associated religious sites | Chamunda Mata and Nagnechi Mata shrines within the fort complex, with their fabric reflecting later phases |
+
+Ranisar and other water structures are associated with royal women in local histories. Attribute individual works cautiously where the exact patronage is not corroborated by an inscription or reliable institutional history.
+
+## 7. Rao Satal, Rao Suja and the Ghudla tradition
+
+Rao Satal is conventionally associated with the **Ghudla festival** and an episode at Pipar involving Gudhla Khan and the rescue of abducted women. The story explains the festival's perforated earthen pot, lamp and songs.
+
+However, accounts differ over the identity of the ruler associated with the Pipar episode; an older *Imperial Gazetteer* narrative attributes a comparable rescue and death at the fair to Rao Suja. The 140-person figure and the dramatic presentation of the defeated commander's head are preserved in regional tradition, not equivalent to a modern, independently verified battle report.
+
+**For examination:** where a prescribed Rajasthan text or official question bank attributes Ghudla to Rao Satal, learn that conventional answer. In analytical writing, identify it as the traditional account of the festival's origin.
+
+## 8. Rao Ganga and the Battle of Khanwa (1527)
+
+Rao Ganga's reign is conventionally dated 1515–1531 CE. The Marwar Rathores participated in the wider Rajput political coalition associated with Rana Sanga's campaign against Babur at **Khanwa in 1527 CE**. Regional accounts often state that Ganga sent a Rathore contingent led by his son Maldeo.
+
+The broader lesson is that Rajasthan's ruling houses were not politically isolated: kinship, military contingents and alliances linked Marwar, Mewar and other regional states. Claims about the exact size and battlefield deployment of a particular contingent should not be repeated without a dependable source.
 
 ---
 
-### 2.3 Rao Suja (1492–1515 CE) & Rao Ganga (1515–1531 CE)
-- **Rao Suja**: Faced the Bikaner succession crisis when Rao Bika marched upon Jodhpur to demand the ancestral royal heirlooms (*Pujya Dal*, heirloom throne, umbrella, and sword). Suja conceded the heirlooms through Rajmata Jasmade's mediation.
-- **Rao Ganga (1515–1531 CE)**:
-  - Constructed the **Gangelev Lake (गांगेलाव तालाब)** and Gangshyam Temple in Jodhpur.
-  - **Contribution to Battle of Khanwa (1527 CE)**: Rao Ganga fully honored the *Pati Perwan* confederacy summons of Maharana Sangram Singh (Sanga). Ganga dispatched a 4,000-strong elite Rathore cavalry force to Khanwa commanded by his crown prince, **Kunwar Maldeo**, alongside Rawat Ratan Singh of Kheenvsar.
+# PART III — RAO MALDEO AND THE STRUGGLE WITH SHER SHAH SURI
+
+## 9. Rao Maldeo (1531–1562 CE): the expansion of Marwar
+
+Rao Maldeo is widely regarded as one of the most powerful Rathore rulers. During his reign, Marwar expanded its territorial reach and strengthened its forts. Persian and later regional histories remember his military strength and political ambition.
+
+The claims that he fought exactly “52 battles” or controlled “58 parganas” occur in popular summaries and traditional praise. Unless tied to a clearly identified source, treat these figures as conventional epithets rather than audited statistics.
+
+
+### Conflict with Bikaner: Paheba/Saheba (c. 1541–1542)
+
+Maldeo's expansion also brought him into conflict with the neighbouring Rathore state of Bikaner. The battle conventionally called **Paheba/Saheba** is associated with the death of Bikaner's Rao Jaitasi and the temporary loss of Bikaner's independence. Maldeo's position later weakened after the Giri–Sumel campaign against Sher Shah; Kalyanmal subsequently recovered Bikaner's throne with Sur assistance.
+
+The two events should not be confused: **Paheba/Saheba was a Marwar–Bikaner conflict; Giri–Sumel (1544) was the conflict between Marwar and Sher Shah Suri.**
+
+### Political and strategic setting
+
+Marwar lay between arid western routes, settlements around the Aravallis and the routes connecting north India with Gujarat. A ruler who controlled fortresses, water points and trade routes could influence movement across a broad territory. Maldeo's expansion brought him into conflict with neighbouring Rajput houses as well as the Sur Empire.
+
+## 10. Maldeo, Humayun and the problem of trust
+
+After Sher Shah Suri defeated Humayun at Kannauj/Bilgram in 1540, Humayun sought to recover his political position. The Marwar–Humayun episode is described differently in later narratives: some accounts speak of offers of support by Maldeo; others emphasise suspicion, strategic calculation and Humayun's onward flight through the desert towards Sindh and Amarkot.
+
+The safe historical interpretation is that both rulers operated in a fluid environment in which alliances were conditional. Maldeo had to weigh the risks of openly supporting a displaced Mughal emperor against the threat posed by Sher Shah. Avoid reproducing detailed conversations or claims about a plan to seize Humayun unless a specific source is cited.
+
+## 11. The Battle of Giri–Sumel / Sammel (1544 CE)
+
+The battle near **Giri and Sumel**, in the Jaitaran region, was fought between Sher Shah Suri's forces and Marwar forces under Rao Maldeo's command, with prominent Rathore commanders Jaita and Kumpa.
+
+### Why it matters
+
+1. Sher Shah's campaign challenged Marwar's regional independence.
+2. A story preserved in later accounts says that forged or misleading letters caused Maldeo to suspect his commanders and withdraw with part of the army.
+3. Jaita and Kumpa and their men continued fighting; their courage became central to Marwar's heroic memory.
+4. Sher Shah's side ultimately secured the strategic victory, but the resistance was costly and demonstrates the difficulties of campaigning in Rajasthan.
+
+### The famous “handful of bajra” remark
+
+Sher Shah is popularly credited with saying that he nearly lost the empire of Hindustan for a handful of bajra. The saying captures the remembered severity of the campaign. Its exact wording and direct attribution should be described as a famous reported remark, not as a verbatim transcript unless an original source is produced.
+
+The episode should not be simplified into “Marwar won Giri–Sumel.” The Sur forces won the campaign, even though the Rathore commanders' stand became one of the most celebrated memories in Marwar's military tradition.
+
+### Aftermath
+
+Sher Shah's forces occupied Jodhpur/Mehrangarh for a period. The fort was subsequently recovered by Maldeo, who strengthened its defences. Mehrangarh's own institutional history highlights 1544 as a major interruption in Marwar's control of the fort.
+
+## 12. Uma De / Roothi Rani
+
+Rani Uma De, known in regional memory as **Roothi Rani**, is associated with Rao Maldeo and a story of estrangement over courtly conduct and personal honour. The account says she withdrew from her husband and lived away from court; later narratives link her to Kelwa and a memorial there.
+
+This episode is important in the literary and cultural representation of Rajput courtly honour, gender and reputation. Specific dialogue, motivations and the exact circumstances of her final act are drawn from later stories and should be labelled accordingly.
 
 ---
 
-## 3. Rao Maldeo (1531–1562 CE) — The Hegemon of Marwar
+# PART IV — RAO CHANDRASEN AND MUGHAL EXPANSION
 
-### 3.1 Accession & Expansionist Imperialism (52 Battles & 58 Parganas)
-Rao Maldeo is celebrated as the zenith of Marwar's independent sovereign might. Crowned at Sojat in 1531 CE following Rao Ganga's death, Maldeo discarded defensive regionalism in favor of assertive military imperialism.
+## 13. Rao Chandrasen (1562–1581 CE)
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      RAO MALDEO'S EXPANSIONIST THEATER (1531–1544)     │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Battle of Paheba/Saheba (1541)  │   │ Intervention in Mewar (1540)    │   │ Conquest of Merta & Sivalik        │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Defeated Rao Jaitasi of       │   │ • Supported Maharana Udai Singh │   │ • Expelled Viramdeo from Merta.    │
-│   Bikaner (Jaitasi slain).      │     against the usurper Banvir at   │   │ • Viramdeo & Kalyanmal fled to     │
-│ • Annexed Bikaner to Jodhpur.   │     Battle of Mavli (1540 CE).      │     Delhi, seeking refuge with         │
-│ • Kumpa appointed administrator │   │ • Later alienated Mewar over    │     Sher Shah Suri.                    │
-│   of Bikaner territory.         │     Jhala princess Jhali Rani.      │   │ • Created hostile northern ring.   │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+After Maldeo's death, Chandrasen inherited Marwar amid conflict with his elder brothers Ram and Udai Singh. The succession dispute gave Akbar an opportunity to intervene in Marwar's politics.
 
-#### Titles Conferred on Rao Maldeo
-1. **Hashmat Vala Raja (हशमत वाला राजा)**: Designated by contemporary Persian chroniclers Abul Fazl, Nizamuddin Ahmad (*Tabaqat-i-Akbari*), and Ferishta. Signifies *"A Monarch of Grandeur, Magnificence, and Sovereign Splendor"*.
-2. **Hindu Badshah (हिंदू बादशाह)**: Replaced the fallen prestige of Mewar following Khanwa, standing as the supreme Hindu potentate in northern India during the early Sur Empire.
-3. **Victor of 52 Battles**: Chronicled as having subjugated 58 Parganas across Marwar, Nagaur, Merta, Bikaner, Jalor, Sanchore, Pokhran, Tonk, and Jhunjhunu.
+Jodhpur came under Mughal control in 1564 after an imperial campaign associated with Husain Quli Khan. Chandrasen continued resistance from bases including Bhadrajun and Siwana and used difficult terrain to sustain opposition.
 
----
+### The Nagaur Durbar (1570 CE)
 
-### 3.2 The Diplomatic Enigma: Maldeo and Humayun (1541–1542 CE)
-Following Humayun’s catastrophic defeat at the hands of Sher Shah Suri at the Battle of Bilgram/Kannauj (1540 CE), the fugitive Mughal emperor wandered through the Thar Desert seeking military shelter.
-- **Maldeo’s Initial Overture (1541 CE)**: Maldeo dispatched invitations to Humayun, offering military support and the jagir of Bikaner to counter Sher Shah’s rising Afghan hegemony.
-- **Humayun’s Hesitation at Jogi Teerth (1542 CE)**: Humayun arrived at Phalodi and Jogi Teerth (near Kolayat) in August 1542. He sent his trusted envoys (Mir Samandar, Rayamal Soni, and Atka Khan) to assess Maldeo's true intentions.
-- **Breakdown of Trust**: Atka Khan observed Maldeo’s formidable military mobilization and Sher Shah’s diplomatic counter-pressures. Suspecting that Maldeo intended to capture him and hand him over to Sher Shah, Humayun retreated precipitously towards Amarkot (Sindh), where Prince Akbar was born in October 1542.
+Akbar's Nagaur assembly is an important moment in the incorporation of Rajasthan's ruling houses into Mughal political structures. Bikaner's Rao Kalyanmal accepted Mughal suzerainty; other houses negotiated forms of cooperation. Chandrasen attended according to the historical accounts, but the story that he dramatically walked out without submitting is found in the Marwar tradition and should be distinguished from the version in Abu'l Fazl's imperial narrative.
+
+**Exam-safe distinction:** Chandrasen resisted Mughal supremacy and did not settle into the same long-term accommodation as several other Rathore rulers. Avoid presenting every detail of the Nagaur confrontation as directly documented.
+
+### A long resistance, under severe constraints
+
+Chandrasen's resistance was weakened by:
+
+- a divided ruling family and rivals who accepted imperial support;
+- loss of Jodhpur and repeated pressure on his strongholds;
+- restricted revenue and difficulty maintaining troops;
+- the challenge of operating from hill and desert refuges.
+
+He died in 1581 CE. The details of his final illness, possible poisoning, and exact circumstances of death should be treated cautiously unless a particular source is cited. After his death, Marwar came under direct Mughal administration for a period before Mota Raja Udai Singh was recognised as ruler.
+
+### Why Chandrasen matters
+
+Chandrasen is often called the **“Forgotten Hero of Marwar”** or the **“forerunner of Maharana Pratap.”** These are later historiographical evaluations, not formal contemporary titles. The comparison is useful because both rulers relied on resistance outside the normal imperial court system, but the political resources, terrain, elite cohesion and duration of their struggles were different.
 
 ---
 
-### 3.3 The Battle of Giri-Sumel (Battle of Jaitaran, January 1544 CE)
+# PART V — MARWAR INSIDE THE MUGHAL IMPERIAL SYSTEM
 
-#### Strategic Background
-Sher Shah Suri marched into Marwar with an elite imperial army of 80,000 soldiers, artillery, and cavalry, guided by Maldeo's embittered enemies: **Viramdeo of Merta** and **Kalyanmal of Bikaner**. The two armies encamped opposite each other at **Giri and Sumel villages** near Jaitaran (modern Beawar district).
+## 14. Mota Raja Udai Singh (r. 1583–1595 CE)
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │    THE STRATEGIC FORGERY AT GIRI-SUMEL (JANUARY 1544)  │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Sher Shah's Psychological Warfare   │                     │  The Heroic Stand of Jaita & Kumpa               │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Stalemated for over a month;       │                     │ • Jaita & Kumpa refused retreat to protect       │
-│   fear of Rajput nighttime charge.   │                       clan honor against allegations of treason.       │
-│ • Forged letters planted in Maldeo's │                     │ • Charged Sher Shah's 80,000 troops with a       │
-│   camp: claimed Jaita & Kumpa had    │                       valiant band of 8,000–12,000 warriors.          │
-│   sold out to the Afghans.           │                     │ • Slaughtered Afghan vanguard under Khawas Khan. │
-│ • Maldeo retreated to Siwana Fort    │                     │ • Sher Shah on brink of rout until fresh relief  │
-│   with the central army division.    │                       columns under Jalal Khan Jalwani arrived.        │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+Akbar recognised Udai Singh, Maldeo's son and Chandrasen's rival brother, as ruler of Marwar in 1583. Udai Singh's acceptance of Mughal supremacy brought Marwar into a formal imperial relationship.
 
-#### The Climax & Sher Shah's Confession
-Jaita and Kumpa perished on the battlefield alongside their soldiers after inflicting catastrophic casualties upon the imperial Afghan vanguard. Sher Shah was so shaken by the sheer ferocity of the Rathore assault that he fell to his knees in prayer and uttered his most famous historical verdict:
-> *"बोल्यो सूरी साच यूं, सुण्यो न कोई बोल।*  
-> *एक मुट्ठी बाजरी खातर, खो बैठतो हिंद रो राज॥"*  
-> *(Sher Shah confessed: "Khuda be praised that victory was granted; otherwise, for a mere handful of bajra [millet], I would have sacrificed the empire of Hindustan!")*
+A Rathore–Mughal matrimonial alliance followed. Udai Singh's daughter is commonly identified as **Manavati/Manmati Bai**, later known by the title **Jagat Gosain**, who married Prince Salim (the future Jahangir) and became the mother of Shah Jahan.
 
-- **Aftermath**: Sher Shah occupied Mehrangarh Fort and placed **Khawas Khan** in charge. Maldeo re-emerged from Siwana after Sher Shah's death in 1545 CE, reoccupying Jodhpur in 1546 CE.
+Names vary in later popular retellings. Avoid using “Jodha Bai” as though it were a securely established personal name for every Rajput consort in Mughal history.
 
----
+### Significance
 
-### 3.4 Roothi Rani (Uma De) — The Queen of Indomitable Pride
-- **Identity**: Rani Uma De was the daughter of Rawal Lunkaran Bhati of Jaisalmer, wedded to Rao Maldeo in 1536 CE.
-- **The Estrangement**: On the wedding night, Maldeo's intoxication and dalliance with Uma De’s maidservant **Bharmali** mortally offended Uma De’s regal self-respect. She swore never to look upon Maldeo's face again (*Roothi Rani* / रूठी रानी).
-- **Exile & Chhatri**:
-  - Lived in proud isolation at **Taragarh Fort (Ajmer)**.
-  - When Maldeo dispatched the court poet **Asanand** to reconcile with her, Asanand recited a couplet reinforcing her regal honor:
-    > *"मान रखे तो पिव तज, पिव रखे तज मान।*  
-    > *दोय गयंद न बंधहीं, एकै खंभे ठाण॥"*  
-    *(If you preserve pride, abandon your husband; if you choose your husband, abandon pride. Two elephants cannot be tethered to a single post.)*
-  - Re-affirming her vow, she relocated to **Kelwa (Mewar)**.
-  - Upon Maldeo’s death in 1562 CE, she honored Sati rituals by self-immolating with his turban (*Pagri*) at Kelwa. Her memorial Chhatri stands at Kelwa.
+The alliance illustrates the Mughal practice of combining military service, recognition of hereditary territory, mansabs and marriage diplomacy. Collaboration did not mean that every local identity or interest vanished; rather, regional rulers negotiated status and resources through imperial institutions.
+
+## 15. Sur Singh (r. 1595–1619 CE)
+
+Sur Singh continued Marwar's imperial service. He is conventionally associated with the honorific **Sawai Raja** and campaigns in the Deccan and Gujarat. Such service could increase a ruler's rank and access to jagirs, but it also required time away from the homeland and linked Marwar's political fortunes to Mughal successions and military needs.
+
+Sur Sagar is associated with Jodhpur's water and urban landscape, though the precise patronage details should be checked against local architectural history before assigning every feature to one ruler.
+
+## 16. Gaj Singh I (r. 1619–1638 CE) and Amar Singh Rathore
+
+Gaj Singh I is associated with the title **Dal-Thambhan** in Marwar's historical tradition. His court also saw the well-known conflict involving his son **Amar Singh Rathore**, who was passed over in the succession in favour of his younger brother Jaswant Singh.
+
+Amar Singh later served the Mughal emperor Shah Jahan and became associated with Nagaur. The story of his violent confrontation with the imperial official Salabat Khan and his dramatic escape from Agra Fort occupies an important place in folk memory and performance traditions. The broad conflict at court is historically significant; the details of the horse's leap and exact dialogue are legendary unless independently corroborated.
+
+## 17. Maharaja Jaswant Singh I (r. 1638–1678 CE)
+
+Jaswant Singh was among the most prominent Rajput nobles in the Mughal Empire. His career demonstrates both the opportunities and risks of high imperial service.
+
+### Dharmat (1658) and Khajwa (1659)
+
+During the Mughal war of succession after Shah Jahan's illness, Jaswant Singh supported Dara Shikoh's side and fought Aurangzeb's forces at Dharmat in April 1658. Dara's side was defeated. Later negotiations and further military service show that Jaswant Singh was not permanently excluded from Mughal service merely because he had opposed Aurangzeb.
+
+The original chapter treats a detailed tale involving “Hadi Rani Jaswant De” refusing to open Mehrangarh's gates as a confirmed event. This is a story from later tradition and should not carry the same weight as the dates and outcome of the succession struggle.
+
+### Jamrud and the succession crisis (1678)
+
+Jaswant Singh died at Jamrud on the north-western frontier in 1678 while serving the Mughal state. His death without a surviving adult heir triggered the Marwar succession crisis. A posthumous son, **Ajit Singh**, became the focus of Rathore claims to the throne.
+
+### Literary and historical importance
+
+Jaswant Singh is associated with works including *Bhasha Bhushan*, a treatise on poetics. Authorship lists in popular compilations are not always consistent; learn the works included in the prescribed syllabus source and avoid treating every title in a loose list as equally secure.
 
 ---
 
-## 4. Rao Chandrasen (1562–1581 CE) — "The Forgotten Hero of Marwar"
+## 18. Muhnot Nainsi: the historian and administrative recorder
 
-### 4.1 Accession & The Succession Conflict
-Upon Maldeo's death, his chosen heir was his third and favorite son, **Rao Chandrasen**, bypassing his elder brothers: **Ram Singh** (the eldest) and **Mota Raja Udai Singh**.
-- **Internal Discord**: Ram Singh and Udai Singh revolted, seeking intervention from Mughal Emperor Akbar.
-- **First Mughal Siege (1564 CE)**: Akbar dispatched an imperial force under **Husain Quli Khan**. Chandrasen defended Mehrangarh for months but, faced with starvation and artillery fire, evacuated Jodhpur and established his military redoubt at **Bhadrajun (भाद्राजून, Jalore)**. Jodhpur fell under Mughal administration.
+Muhnot Nainsi is one of the most important sources for the history of Marwar and medieval Rajasthan.
 
----
+| Work | Nature and value |
+|---|---|
+| **Nainsi ri Khyat** | A major regional chronicle that records dynastic histories, political relationships and local traditions. |
+| **Marwar ra Pargana ri Vigat** | Describes parganas, settlements, land, production, revenue and related administrative details. It is valuable for reconstructing the economy and local state structure. |
 
-### 4.2 The Historic Turning Point: Nagaur Durbar (November 1570 CE)
-In November 1570, Emperor Akbar convened a grand imperial assembly (*Durbar*) at Nagaur, ostensibly to dig the **Shukra Talao (शुक्र तालाब)** water reservoir during a regional drought, but strategically designed to compel the unconditional political capitulation of Rajasthan's ruling houses.
+Nainsi is often called the **“Abul Fazl of Rajasthan.”** This is an honorific comparison, not proof that the two works have identical methods or coverage.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │          THE NAGAUR DURBAR ALIGNMENT (1570 CE)         │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Houses Submitting to Imperial Rule  │                     │  The Lone Dissenter: Rao Chandrasen              │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ 1. Bikaner: Rao Kalyanmal and sons   │                     │ • Chandrasen attended Nagaur to assess Akbar's   │
-│    Rai Singh and Prithviraj Rathore. │                       intentions and political balance.                │
-│ 2. Jaisalmer: Rawal Harraj Bhati.    │                     │ • Observed Akbar's favoritism toward his hostile │
-│ 3. Amber: Raja Bharmal and family.   │                       brothers (Ram & Udai Singh).                     │
-│ 4. Marwar Rivals: Ram & Udai Singh.  │                     │ • Proudly abandoned the Durbar without making    │
-│    (Accepted mansabdari posts).      │                       obeisance or accepting Mughal suzerainty.        │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+### How to use Nainsi critically
+
+- The **Khyat** is particularly valuable for local chronology, dynastic memory and political narrative.
+- The **Vigat** is important for agrarian and fiscal history and the territorial organisation of Marwar.
+- Neither should be described as a modern census or a “scientifically audited” database. It is a seventeenth-century regional source with its own categories and limitations.
+
+For RAS Mains, Nainsi connects political history to administration, revenue and society. He is not just a name to match with a book.
 
 ---
 
-### 4.3 Guerrilla Campaign & Imperial Resistance (1570–1581 CE)
-Akbar dispatched an overwhelming imperial army commanded by Rai Singh of Bikaner and Jalal Khan to crush Chandrasen.
-- **The Evacuation of Bhadrajun (1571 CE)**: When imperial forces besieged Bhadrajun, Chandrasen executed a tactical retreat into the impenetrable mountains of **Siwana Fort (सिवाना दुर्ग, Balotra)**.
-- **Siwana as the Cradle of Resistance**: Siwana served as the historic refuge (*Sharan-sthali*) for Marwar's rulers, just as Kumbhalgarh served Mewar. Chandrasen waged relentless guerrilla warfare (*Chhapamar Yuddha*), ambushing imperial supply lines.
-- **Financing the Resistance**: Unlike Maharana Pratap, who possessed loyal mineral-rich Bhil tracts and unified nobility, Chandrasen faced brotherly betrayals and severe economic exhaustion:
-  - Pawned the strategic fortress of **Pokhran** to Rawal Harraj of Jaisalmer in 1576 CE for 1,00,000 Fadiyas (coins) to pay his mercenaries.
-  - Sold family heirlooms, gold, and ancestral jewels.
-- **Wandering Resistance Across Hills**: Forced out of Siwana by Shahbaz Khan in 1576 CE, Chandrasen operated from Rampura, Piplod, Kanuja, Sirohi, and Dungarpur.
-- **Death & Chhatri (1581 CE)**: Rao Chandrasen died on 11 January 1581 CE at the **Saran Hills (सारण की पहाड़ियां, near Sojat/Pali)**, allegedly poisoned by a treacherous feudal vassal named Bairi Sal. His memorial **Chhatri** featuring a relief carving of Chandrasen on horseback surrounded by 5 Sati consorts stands at Saran.
+# PART VI — DURGADAS RATHORE AND THE MARWAR SUCCESSION WAR
+
+## 19. The second Mughal annexation of Marwar (1678–1679)
+
+After Jaswant Singh's death, Aurangzeb asserted direct imperial control over Marwar. The status and recognition of the posthumous heir Ajit Singh became the central issue. The Rathores feared that acceptance of imperial terms would dissolve hereditary control and weaken the political identity of the state.
+
+Some popular narratives state that Aurangzeb explicitly demanded that the infant be converted to Islam. This should be presented only with a source attribution; the more secure historical core is the dispute over recognition, custody, succession and imperial control.
+
+## 20. Rescue of Ajit Singh and Durgadas Rathore
+
+**Durgadas Rathore** became the central figure in maintaining the claim of Ajit Singh and organising resistance. Accounts describe the removal of the royal family and the young heir from Delhi in a daring operation, followed by their concealment in Rajasthan.
+
+The story of **Gora Dhai**, who supposedly substituted her own child to protect Ajit Singh, is part of Marwar's heroic tradition. It should not be presented as independently documented simply because it parallels the story of Panna Dhai of Mewar. The broader rescue and the long protection of the heir are central to the historical memory of the Rathore struggle.
+
+### The 30-year struggle (c. 1679–1707)
+
+The conflict outlasted individual campaigns. Its main features included:
+
+1. **Dynastic legitimacy:** the Rathores sought recognition of Ajit Singh as rightful heir.
+2. **Guerrilla and mobile warfare:** difficult terrain, dispersed strongholds and raids increased the cost of imperial control.
+3. **Local networks:** nobles, retainers, villagers and allies sustained resistance beyond a single army.
+4. **Mewar–Marwar cooperation:** Mewar's support for the Rathore cause became an important inter-state factor.
+5. **Imperial overextension:** Marwar formed one element in the larger set of challenges facing Aurangzeb's empire.
+
+Durgadas also became associated with the protection of Prince Akbar's children, Buland Akhtar and Safiyat-un-Nisa, after the prince's rebellion and flight. The story is celebrated as a demonstration of loyalty and religious respect; specific details of how the children were educated and returned should be tied to the relevant historical account.
+
+## 21. Recovery of Jodhpur and Durgadas's final years
+
+After Aurangzeb's death in 1707, Ajit Singh and his supporters moved to recover Jodhpur. The restoration of Rathore control did not erase the conflicts within the ruling family. Durgadas, whose service had been crucial, later fell out with Ajit Singh and spent his final years away from Marwar.
+
+
+The **Devari/Deobari pact (1708)** is associated with renewed cooperation among Mewar, Marwar and Amber against Mughal pressure. Its precise provisions should be learnt from the prescribed history source, but its broad significance is clear: interstate coordination helped the Rajput houses strengthen their position after Aurangzeb's death.
+
+Durgadas died at Ujjain in 1718; his memorial is associated with the Shipra river. The honorific **“Anbindhiya Moti of Marwar”** and the famous couplet praising him express the scale of his place in regional memory.
+
+### Analytical assessment
+
+Durgadas should not be understood only as a heroic individual. His effectiveness also depended on:
+
+- a legitimate claimant around whom support could consolidate;
+- a network of nobles and local allies;
+- the ability to operate across terrain and move between refuges;
+- Mughal succession politics and changing imperial capacity.
+
+That is the Mains-level connection between biography and state formation.
 
 ---
 
-### 4.4 Historiographical Epithets & Comparative Synthesis
-Historiographers have conferred profound honorifics upon Rao Chandrasen:
-1. **The Forerunner of Maharana Pratap (प्रताप का अग्रगामी / पथ-प्रदर्शक)**: Chandrasen developed the doctrine of hill-based guerrilla warfare, mountain evacuation, and non-submission to Mughal imperialism nearly a decade prior to Pratap’s coronation at Gogunda (1572 CE).
-2. **The Forgotten Hero of Marwar (मारवाड़ का भूला-बिसरा राजा)**: Coined by celebrated historian **Pt. Vishweshwarnath Reu**, highlighting how national historiography glorified Maharana Pratap while largely overlooking Chandrasen's parallel sacrifice under harsher material constraints.
-3. **The Pratap of Marwar (मारवाड़ का प्रताप)**.
+# PART VII — LATER MARWAR, ENVIRONMENTAL MEMORY AND BRITISH RELATIONS
 
-```
-┌─────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│ Analytical Parameter        │ Rao Chandrasen (Marwar)         │ Maharana Pratap (Mewar)         │
-├─────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ Territorial Sanctuary       │ Siwana, Bhadrajun, Saran Hills  │ Kumbhalgarh, Chavand, Gogunda   │
-│ Financial Architecture      │ Exhausted: Sold jewels, pawned  │ Supported by Bhama Shah &       │
-│                             │ Pokhran fort to Jaisalmer       │ loyal local merchant networks   │
-│ Nobility Cohesion           │ Fractured: Brothers Ram & Udai  │ Highly unified: Mewari Sardars, │
-│                             │ fought for Mughal imperialists  │ Bhils, and Afghan mercenaries   │
-│ Direct Pitched Battle       │ Relied almost solely on         │ Fought major open pitched       │
-│                             │ hit-and-run guerrilla skirmishes│ clashes (Haldighati, Dewair)    │
-│ Historiographical Identity  │ "Forgotten Hero of Marwar"      │ National Icon of Independence   │
-└─────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
-```
+## 22. Ajit Singh (restored ruler, 1707–1724)
 
----
+Ajit Singh regained the Marwar throne after the Mughal succession crisis of 1707. He later became involved in wider Mughal court politics and the shifting power of the Sayyid Brothers.
 
-## 5. Mughal Subservience & Zenith under Jaswant Singh I
+He was assassinated in 1724 in a palace conspiracy involving his sons Abhai Singh and Bakht Singh. Details of the planning and personal motives are related through historical narrative and should not be dramatised beyond the evidence.
 
-### 5.1 The First Khalsa Period & Mota Raja Udai Singh (1583–1595 CE)
-- **First Khalsa (1581–1583 CE)**: Following Chandrasen’s demise, Akbar declared Marwar **Khalsa (खालसा)** — direct crown imperial land under Mughal administration — to suppress remaining insurgent factions.
-- **Mota Raja Udai Singh (मोटा राजा उदयसिंह, 1583–1595 CE)**:
-  - In 1583 CE, Akbar formally conferred the throne of Jodhpur upon Udai Singh.
-  - **First Rathore Matrimonial Alliance**: First ruler of Marwar to establish matrimonial alliance with the Mughals. In 1587 CE, he married his daughter **Mani Bai / Jodha Bai (conferred imperial title: Jagat Gosain / Bilqis Makani)** to Prince Salim (Jahangir). She was the mother of Prince Khurram (Emperor Shah Jahan).
-  - Akbar bestowed upon him the title *"Mota Raja"* on account of his formidable physical stature.
-  - Annexed Siwana back to Jodhpur after killing Chandrasen's nephew Kallaji Rathore (who fought the celebrated Second Sāka of Siwana).
+### Later rulers: keep the sequence straight
 
----
+The rulers after Ajit Singh included Abhai Singh, Ram Singh, Vijay Singh and Bhim Singh before Man Singh's accession in 1803. The precise reign periods include interruptions and contested successions; a simple sequence is safer than a single unqualified set of dates in every case.
 
-### 5.2 Sawai Raja Sur Singh & Dal-Thambhan Gaj Singh
+## 23. Khejarli sacrifice (1730): Amrita Devi Bishnoi
 
-#### Sawai Raja Sur Singh (1595–1619 CE)
-- Accorded the hereditary honorific title **"Sawai Raja"** by Akbar.
-- Served with distinction in Mughal military expeditions across Deccan and Gujarat; commanded mansab of 5,000.
-- Constructed the **Sur Sagar Lake (सूरसागर तालाब)** in Jodhpur.
+The Khejarli episode is among Rajasthan's best-known environmental histories. In 1730, in a Bishnoi village near Jodhpur, a royal timber party arrived to cut khejri trees. **Amrita Devi Bishnoi** and other members of the community resisted. The event is traditionally remembered as the sacrifice of **363 Bishnois**.
 
-#### Gaj Singh (1619–1638 CE) — "Dal-Thambhan"
-- Accorded the prestigious martial title **"Dal-Thambhan" (दलथंभन — Controller of Armies / He who halts enemy forces)** by Emperor Jahangir.
-- **Succession Intrigue**: Under the romantic influence of his favorite concubine **Anara Begum (अनारा बेगम)**, Gaj Singh disinherited his fiery eldest son **Amar Singh Rathore**, nominating his younger son **Jaswant Singh I** as heir to Marwar.
-- **Amar Singh Rathore & The Battle of Agra Court**:
-  - Exiled from Marwar, Amar Singh joined Emperor Shah Jahan’s court and was granted the independent principality of **Nagaur**.
-  - Renowned for his fierce pride. When imperial paymaster **Salabat Khan** termed him an uncultured rustic (*Gawar*) for court absence, Amar Singh assassinated Salabat Khan in open imperial Diwan-i-Khas.
-  - Leaped on horseback (**horse Badal**) over the ramparts of Agra Fort.
-  - Commemorated through the Amar Singh Gate of Agra Fort and immortalized in folk theater (*Khyat / Natak*). His historic **16-pillared Chhatri** stands at Nagaur.
+### What is secure and what requires caution?
+
+- **Core memory:** Amrita Devi and other Bishnois were killed while protecting trees; the event has become a powerful symbol of community-based conservation.
+- **Traditional total:** 363 is the widely remembered number and is appropriate to know for Rajasthan GK; detailed name-by-name counts and exact sequence should be attributed to community and regional accounts.
+- **Ruler and administrative responsibility:** the event is commonly associated with Maharaja Abhai Singh's reign, but specific details about the palace project, lime kiln and exact order chain vary in accounts.
+- **Cultural principle:** Bishnoi ethics link protection of living beings and trees to religious duty.
+
+The **Amrita Devi Bishnoi Wildlife Protection Award** is also given by the Government of India through the environment and forest ministry for exceptional wildlife protection. Do not confuse this national award with any separate state-level Amrita Devi memorial or environmental award, and do not describe either as “Rajasthan's highest environmental honour” without verifying the precise award and issuing authority.
+
+### Why Khejarli matters for RAS
+
+It connects medieval/early modern princely rule with environment, customary religious ethics, community action, forest use and contemporary conservation. It is a strong example for Mains answers on traditions and environmental protection.
+
+## 24. Maharaja Man Singh (1803–1843) and the British treaty system
+
+Man Singh is associated with Nath religious institutions and the Maha Mandir at Jodhpur. His reign also belongs to the period in which Rajput states negotiated with the East India Company.
+
+Marwar entered a subsidiary alliance with the British in **1818**. Bikaner also entered the British treaty system in 1818. This marked a major change in sovereignty: rulers retained their dynastic courts, but external relations and military policy were increasingly shaped by British paramountcy.
+
+The story of Man Singh's rise through the prophecy of the Nath ascetic Ayas Dev Nath and the contest over Princess Krishna Kumari belongs to the political and religious traditions associated with his reign. The Battle of Gingoli (1807) is a key event in the inter-state contest involving Jaipur and Jodhpur; details should be interpreted within the wider succession and marriage politics of Rajput states.
+
+### Bankidas Asiya
+
+Bankidas is associated with Marwar's literary record and with the well-known patriotic poem beginning **“Aayo Angrez mulak re upar”** (“The English have come upon the country”). It is useful evidence of the literary response to growing British power, while specific dating and context should be checked against the poem's textual history.
 
 ---
 
-### 5.3 Maharaja Jaswant Singh I (1638–1678 CE)
+# PART VIII — THE RATHORES OF BIKANER
 
-#### Accession & The Mughal War of Succession (1657–1658 CE)
-Ascended the throne in 1638 CE at the age of 11. When Shah Jahan fell ill, sparking the war of succession among his sons, Jaswant Singh stood as the supreme loyalist general of the imperial throne and Crown Prince Dara Shikoh.
+## 25. Rao Bika and the foundation of Bikaner (1488 CE)
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │    JASWANT SINGH I & SUCCESSION CLASHES (1658–1659)    │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Battle of Dharmat (15 April 1658)   │                     │  The Battle of Khajwa (1659 CE)                  │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Commanded imperial army alongside  │                     │ • Aurangzeb reconciled with Jaswant Singh        │
-│   Qasim Khan against Aurangzeb/Murad │                       tactically before facing Shah Shuja.             │
-│ • Qasim Khan's treachery: imperial   │                     │ • Jaswant Singh executed midnight raid upon      │
-│   forces routed; wounded Jaswant     │                       Aurangzeb's camp at Khajwa, looted baggage       │
-│   Singh retreated to Jodhpur.        │                       train, and marched triumphantly to Jodhpur.      │
-│ • Hadi Rani Jaswant De's legendary   │                     │ • Ultimately pacified through diplomatic         │
-│   refusal to open Mehrangarh gates!  │                       intervention of Mirza Raja Jai Singh of Amber.   │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+Rao Bika, son of Rao Jodha, established an independent Rathore state in **Jangladesh**. Rajasthan Tourism and the Bikaner municipal history give **1488 CE** as the foundation of Bikaner city.
 
-#### Hadi Rani Jaswant De's Defiance
-When Jaswant Singh returned to Jodhpur after the defeat at Dharmat, his chief queen, **Hadi Rani Jaswant De (Karmauti)**, shut the monumental gates of Mehrangarh Fort. She declared that a Rajput warrior either returns victorious or perishes on the field:
-> *"A Rajput husband never flees the battle; he either triumphs or sleeps on the bed of arrows."*
-She served him food on earthen pots rather than metal, refusing entry until her mother intervened to remind the queen of the strategic need to live and fight another day.
+Tradition says that Bika left Jodhpur after a remark by his father and, with the support of his uncle Kandhal and other associates, built a separate principality in the north. The story provides a memorable explanation for dynastic partition, though its dialogue should be recognised as traditional narrative.
 
-#### Service Under Aurangzeb & Demise at Jamrud (1678 CE)
-- Posted to Deccan to contain Chhatrapati Shivaji Maharaj; later transferred to the hazardous North-West Frontier.
-- Died on 28 November 1678 CE at **Jamrud (जमरूद, Khyber Pass, Afghanistan)**.
-- **Aurangzeb's Infamous Proclamation**:
-  Jaswant Singh had stood as an unyielding bulwark against Aurangzeb's religious orthodoxy. Upon hearing of his death, Aurangzeb declared with relief:
-  > *"आज कुफ्र का दरवाजा टूट गया!"*  
-  > *(Today, the gate of infidelity/Kufr is broken!)*
+### Distinguish these events
 
----
+- **Bikaner state formation:** conventionally associated with Rao Bika's northward expansion beginning in the mid-15th century.
+- **Bikaner city:** founded in 1488 CE.
+- **Initial fortification:** associated with Bika's early settlement, known as Bikaji ki Tekri in local accounts.
+- **Junagarh Fort:** a later construction associated with Raja Rai Singh in the late 16th century, not built by Bika.
 
-### 5.4 Literary Renaissance: Jaswant Singh I & Muhnot Nainsi
+### Karni Mata and Bika
 
-#### Works Authored by Maharaja Jaswant Singh I
-A celebrated scholar of Sanskrit and Dingal/Braj Bhasha:
-1. **Bhasha Bhushan (भाषा भूषण)**: A masterwork of Hindi poetic rhetoric (*Alankara Shastra*), containing 212 Dohas; used as an authoritative textbook across northern India.
-2. **Prabodh Chandrodaya (प्रबोध चंद्रोदय)**: Philosophical dramatic adaptation.
-3. **Anand Vilas (आनंद विलास)** & **Aparoksha Siddhanta (अपरोक्ष सिद्धांत)**: Treatises on Vedanta philosophy.
-4. **Geeta Mahatmya (गीता माहात्म्य)**.
+Karni Mata is revered in Bikaner tradition and is associated with Bika's rise. The famous blessing verses are part of oral and bardic tradition; learn the association without treating the dialogue as a contemporary inscription.
 
-#### Muhnot Nainsi (मुहणौत नैणसी, 1610–1670 CE) — The Abul Fazl of Rajasthan
-- **Identity & Position**: An Oswal Jain scholar who served as the **Diwan (Prime Minister)** of Marwar under Jaswant Singh I.
-- **Literary Masterpieces**:
-  1. **Nainsi ri Khyat (नैणसी री ख्यात)**: The most comprehensive, scientifically audited historical chronicle of medieval Rajasthan. Unlike typical court sycophancy, Nainsi recorded objective history without concluding sentences with speculative praise (*'Hain'*). It documents genealogies of Rathores, Sisodias, Chauhans, Bhatis, and Pratiharas.
-  2. **Marwar ra Pargana ri Vigat (मारवाड़ रा परगना री विगत)**:
-     - Termed the **"Gazetteer of Rajasthan"** and the **"Ain-i-Akbari of Rajasthan"**.
-     - Provides precise statistical, revenue, demographic, and agricultural audits of seven Parganas of Marwar (Jodhpur, Sojat, Jaitaran, Phalodi, Merta, Siwana, Pokhran).
-     - First text to document **census data (जनगणना)** and local trade cess structures (*Lāg-Bāg*).
-- **Munshi Devi Prasad’s Tribute**: Celebrated scholar Munshi Devi Prasad bestowed upon Nainsi the title **"The Abul Fazl of Rajasthan" (राजस्थान का अबुल फजल)**.
-- **Tragic Demise**: Due to court intrigues and financial disputes, Jaswant Singh imprisoned Nainsi and his brother Sundardas. Refusing public humiliation, both brothers committed suicide by self-stabbing in prison in 1670 CE at Fulambri (Maharashtra).
+## 26. Rao Lunkaran (1505–1526 CE)
 
----
+Lunkaran expanded Bikaner's authority over surrounding settlements. He is traditionally called **“Karna of Kaliyuga”** because of his generosity. The title is associated with the poet Bithu Suja and with later praise literature.
 
-## 6. The 30-Year Rathore-Mughal War & Veer Durgadas Rathore
+Lunkaransar is associated with him as a salt lake. Claims about the exact extent of his conquests and the precise circumstances of his death in the Dhosi region should be tied to a named chronicle rather than treated as equally secure as the broad reign chronology.
 
-### 6.1 Aurangzeb’s Second Khalsa & Seizure of Delhi (1678–1679 CE)
-- **Direct Imperial Annexation**: Following Jaswant Singh’s death without surviving adult heirs at Jamrud, Aurangzeb declared Marwar **Khalsa** for the second time, auctioning the Jodhpur throne to Jaswant Singh's grand-nephew **Indar Singh Rathore** of Nagaur for 36 lakh rupees.
-- **Posthumous Births**: In February 1679 at Lahore, two of Jaswant Singh’s pregnant queens gave birth to posthumous sons: **Ajit Singh** and Dal-Thambhan (who died in infancy).
-- **Confinement at Noor-Garh (Delhi)**: Aurangzeb summoned the infant Ajit Singh and the royal Ranis to Delhi, confining them under armed guard at the mansion of Roop Singh Rathore. Aurangzeb demanded that the infant be raised in the imperial harem and converted to Islam in exchange for the throne of Marwar.
+## 27. Rao Jaitasi (1526–1542 CE)
 
----
+Rao Jaitasi is remembered for Bikaner's resistance to external rivals and for the conflict with Rao Maldeo of Marwar. The **Battle of Saheba/Paheba** is usually dated to 1541 or 1541–42, and Jaitasi died in this conflict. Maldeo's intervention led to Bikaner's temporary loss of independence, while Kalyanmal later recovered the state with Sur support.
 
-### 6.2 The Great Delhi Deliverance (July 1679 CE)
-The heroic rescue of infant Ajit Singh from Delhi stands among the most celebrated exploits of Rajput chivalry:
-- **Veer Durgadas Rathore (वीर दुर्गादास राठौड़)**, alongside Mukunddas Khichi and Mohkam Singh, orchestrated a daring breakout.
-- **Gora Dhai (गोरा धाय) — The "Panna Dhai of Marwar"**:
-  - A brave lady belonging to the Mali community of Marwar.
-  - In a sacrificial feat mirroring Panna Dhai of Mewar, Gora Dhai substituted her own infant child in the cradle of Prince Ajit Singh inside the besieged Delhi mansion.
-  - Disguised as a sweeperess/maidservant, Gora Dhai smuggled infant Ajit Singh outside the city gates in a concealed cleaning basket.
-  - Gora Dhai's sacrifice is immortalized; her grand **Chhatri** was built in Jodhpur.
-- **Rearguard Sacrifice**: As Durgadas and the prince galloped out of Delhi, heroic bands of Rathores under Ranchhod Das and Raghunath Bhati engaged the pursuing imperial cavalry, dying to the last man to secure the prince's safe passage.
-- **Sanctuary at Kalindi**: Ajit Singh was sheltered in secrecy at **Kalindi village (कालिन्द्री, Sirohi)** under the devoted care of Brahmin scholar **Jaidev Pushkarna**.
+The **Rati-Ghati** episode of 1534, in which Jaitasi is said to have defeated Prince Kamran's forces near Bikaner, is preserved in Bikaner narrative and literary memory. Keep the association and source label distinct: a celebrated regional account is not the same as a fully documented military dispatch.
 
----
+## 28. Rao Kalyanmal and acceptance of Mughal suzerainty
 
-### 6.3 The 30-Year War of Liberation (1679–1707 CE)
-For three decades, Durgadas Rathore waged an unyielding war of attrition against the Mughal Empire to reclaim Jodhpur for Ajit Singh.
+Rao Kalyanmal recovered Bikaner's position after its defeat by Maldeo, with assistance associated with Sher Shah Suri. In **1570**, at Akbar's Nagaur assembly, Kalyanmal accepted Mughal suzerainty. His son Rai Singh then entered imperial service.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      DURGADAS RATHORE'S 30-YEAR STRATEGIC TRIAD        │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Mewar-Marwar Coalition (1679)   │   │ Alliance with Prince Akbar (1681│   │ Maratha Diplomacy (1681–1687)      │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Maharana Raj Singh sheltered  │   │ • Convinced Aurangzeb's son     │   │ • Escorted Prince Akbar safely     │
-│   Ajit Singh; granted Kelwa     │     Prince Muhammad Akbar to revolt │     across central India to the court  │
-│   Jagir to the young prince.    │     against religious orthodoxy.    │     of Chhatrapati Sambhaji Maharaj.   │
-│ • Combined forces devastated    │   │ • Crowned Akbar independent     │   │ • Coordinated multi-front Deccan-  │
-│   Aurangzeb's imperial columns. │     Emperor at Nadol (Jan 1681).    │     Rajput resistance axis.            │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+This brought the Bikaner house into a long and productive relationship with the Mughal Empire. It gained imperial offices and jagirs while keeping hereditary control of its homeland. The relationship illustrates negotiated incorporation rather than the simple disappearance of a regional kingdom.
 
-#### Moral Magnanimity: Raising Buland Akhtar and Safiyat-un-Nisa
-When Prince Akbar fled to Persia after his failed rebellion, he left his young infant children, son **Buland Akhtar** and daughter **Safiyat-un-Nisa**, in the custody of Durgadas.
-- Durgadas harbored them in the remote hills of Marwar for over a decade.
-- Demonstrating unprecedented moral integrity, Durgadas hired female Muslim theologians and scholars to instruct the children in the Quran, Hadith, and Islamic etiquette.
-- In 1698 CE, Durgadas negotiated their honorable return to Aurangzeb. The emperor was stunned to find his granddaughter fully versed in Islamic scripture and treated with absolute chastity. Through the mediation of historian Ishwardas Nagar, Aurangzeb reluctantly conferred a mansab upon Ajit Singh and recognized Durgadas's jagir.
+## 29. Raja Rai Singh (r. 1574–1612 CE) and Junagarh Fort
 
----
+Rai Singh became one of the most important Rajput commanders in Mughal service. He served in campaigns outside Rajasthan and received high mansabs and administrative assignments.
 
-### 6.4 The Reclaiming of Jodhpur & The Tragic Exile of Durgadas
-- **Liberation (1707 CE)**: Upon Aurangzeb’s death in 1707 CE, Ajit Singh and Durgadas marched upon Jodhpur, annihilated the Mughal imperial garrison, and triumphantly re-entered Mehrangarh Fort.
-- **The Devari Pact (देबारी समझौता, 1708 CE)**: Solidified the anti-Mughal tripartite alliance between Mewar (Maharana Amar Singh II), Amber (Sawai Jai Singh II), and Marwar (Maharaja Ajit Singh).
-- **The Ingratitude of Ajit Singh**: Known as *"Kaan Ka Kacha"* (gullible and suspicious), Ajit Singh succumbed to court flattery and jealousy against Durgadas’s towering moral stature. Ajit Singh exiled Durgadas from the very kingdom Durgadas had spent 30 years rescuing.
-- **Final Days & Chhatri at Ujjain (1718 CE)**:
-  - Durgadas sought honorable refuge in Mewar, where Maharana Amar Singh II granted him the jagir of Rampura and appointed him Hakim of Vijaypur.
-  - Spent his final years in religious contemplation at Ujjain (Madhya Pradesh).
-  - Passed away on 22 November 1718 CE on the banks of the sacred river **Shipra (क्षिप्रा नदी)**.
-  - His magnificent red-sandstone **Chhatri** stands on the banks of the Shipra river at Ujjain, visited by pilgrims and historians alike.
+### Junagarh Fort
 
-#### Historiographical Titles Conferred on Veer Durgadas
-1. **Marwar Ka Anbindhiya Moti (मारवाड़ का अणबिंदिया मोती)**: *"The Unpierced Pearl of Marwar"*.
-2. **The Ulysses of the Rathores**: Designated by Col. James Tod, celebrating his wandering resourcefulness, stoicism, and tactical brilliance.
-3. **Savior of Marwar (मारवाड़ का उद्धारक)**.
-4. **Folk Homage**:
-   > *"माई एहड़ा पूत जण, जेहड़ा दुर्गादास।*  
-   > *बांध मुंडासे राखियो, बिन खंभा आकास॥"*  
-   *(O Mother, if you give birth to a son, let him be like Durgadas, who held up the canopy of the skies without pillars by sheer force of will!)*
+- Construction began in the **late 16th century**, usually dated to 1588/1589–1594.
+- The project is associated with Rai Singh and his minister Karam Chand.
+- The fort stands on the plain rather than a high mountain crest; its strength rests on walls, gates, layout and successive palace complexes.
+- The Rajasthan Tourism account calls it a fort that was never captured and identifies Rai Singh as its builder in 1588.
+
+The “never captured” description is a conventional tourism and heritage claim; for analytical writing, use the specific historical record rather than an absolute that may depend on how capture is defined.
+
+### Rai Singh and literary/cultural patronage
+
+The **Rai Singh Prashasti** at Junagarh Fort is associated with the court scholar Muni Jaita and presents the genealogy and achievements of the Bikaner ruling house. Literary titles such as “Karna of Rajputana” reflect praise traditions and should be linked to the relevant chronicler, not presented as official imperial ranks.
+
+## 30. Prithviraj Rathore: the poet of Dingal
+
+Prithviraj Rathore, brother of Rai Singh, is associated with the courtly and literary world of Bikaner and Gagron. His work **Veli Krisan Rukmani Ri** (वेली कृष्ण रुक्मणी री) narrates the union of Krishna and Rukmini in Dingal poetic form.
+
+Dursa Adha is traditionally said to have praised the text as a “Fifth Veda” and “Nineteenth Purana”; the Italian philologist L. P. Tessitori is associated with the title **“Horace of Dingal”** for Prithviraj. These are literary reputations and evaluative epithets, not neutral bibliographic facts.
+
+The famous couplets said to have encouraged Maharana Pratap to continue resistance likewise belong to the literary memory linking Bikaner and Mewar. Treat them as a tradition transmitted through verse, not an independently authenticated diplomatic letter.
+
+## 31. Karan Singh and *Matire ki Raad* (1644 CE)
+
+**Matire ki Raad** (“the watermelon dispute”) is the memorable account of a conflict between Bikaner under Karan Singh and the Nagaur estate associated with Amar Singh Rathore. The story says that a watermelon vine crossed a boundary, leading to a dispute over the fruit that escalated into armed conflict.
+
+The incident is a useful illustration of how unclear boundaries, local property claims, feudal competition and honour could magnify a minor dispute. However, the vine, fruit, exact village boundary and the dramatic “war over one watermelon” should be learned as the traditional account of the episode, not treated as a complete literal explanation of the political tensions.
+
+**Exam convention:** the Matire ki Raad is associated with Bikaner ruler Karan Singh and Amar Singh Rathore of Nagaur, and is dated 1644 CE.
+
+
+Maharaja Karan Singh is also associated in Bikaner tradition with the honorific **Jangal-dhar Badshah**. Because titles can be transmitted in different forms in later chronicles, learn the title together with its source or prescribed textbook where possible.
+
+## 32. Maharaja Anup Singh (1669–1698 CE): manuscripts, art and imperial service
+
+Anup Singh's reign is remembered as an important cultural period in Bikaner. He served in Mughal campaigns in the Deccan, including the campaigns against Bijapur and Golconda. Tradition associates him with the imperial honour **Mahi Maratib**.
+
+### Manuscripts and court culture
+
+Anup Singh is associated with the growth of the Anup Sanskrit Library and the collection and preservation of Sanskrit manuscripts. Claims that he rescued “tens of thousands” of manuscripts from a coordinated imperial destruction campaign are too sweeping without documentary backing; the safer claim is that his Deccan service and patronage contributed to manuscript acquisition and preservation at Bikaner.
+
+### Bikaner painting and decorative arts
+
+- **Bikaner school of painting:** combines regional courtly style with influences from Mughal ateliers; many works are notable for signatures and dates.
+- **Usta art:** decorative relief and gilding traditions associated with camel hide and other surfaces, later important to Bikaner's craft identity.
+- **Matheeran painting:** a Jain and regional mural/fresco tradition associated with Bikaner.
+- **Junagarh Fort:** later palaces and painted chambers reflect the changing styles and resources of successive rulers.
+
+These developments connect imperial circulation of artists, manuscripts and techniques with local patronage.
+
+## 33. Later Bikaner rulers and modernisation
+
+A compact sequence helps place the cultural and administrative developments in context:
+
+
+### A caution on the full Bikaner succession
+
+For an overview, the main sequence is: **Rao Bika → Rao Nar Singh/Naro → Rao Lunkaran → Rao Jaitasi → Rao Kalyanmal → Rai Singh → Dalpat Singh → Sur Singh → Karan Singh → Anup Singh**, followed by later rulers including Surat Singh, Ratan Singh, Sardar Singh, Dungar Singh, Ganga Singh and Sadul Singh. Short reigns, contested successions and date variations mean that a final memorisation table should follow the specific Rajasthan reference book or official syllabus source adopted for the exam rather than merge dates from conflicting websites.
+
+| Ruler / period | High-yield association |
+|---|---|
+| Surat Singh (1787–1828, conventional dates) | Recovery of Bhatner in 1805; the fort became known as Hanumangarh in the traditional account; treaty with the British in 1818. |
+| Ratan Singh (1828–1851) | Transitional 19th-century ruler. |
+| Sardar Singh (1851–1872) | Bikaner supported the British during the 1857 revolt; avoid unverified claims that he was the only Rajasthan ruler to act outside his state. |
+| Dungar Singh (1872–1887) | Period of princely-state administration and architectural development. |
+| Ganga Singh (1887–1943) | Major modernising ruler; irrigation, administration, military service, international imperial diplomacy. |
+| Sadul Singh (1943–1950) | Final ruler during the transition from princely state to independent India and integration with Rajasthan. |
+
+### Maharaja Ganga Singh
+
+Ganga Singh is associated with the **Gang Canal**, which transformed irrigation possibilities in parts of the Bikaner region and was brought into operation in the 1920s, with 1927 a key milestone. He also modernised aspects of administration and the military and was a prominent participant in imperial and international affairs.
+
+Ganga Singh represented India at the Paris Peace Conference after the First World War and was involved in the early Chamber of Princes. Use the precise institutional description “represented India” rather than implying that Bikaner independently conducted foreign policy like a sovereign nation-state.
+
+### State integration
+
+Bikaner became part of independent India and joined the wider process of princely-state integration that produced modern Rajasthan in 1949. For RAS, connect princely history with the post-1947 integration of Rajasthan; the detailed chronology of integration may be developed further in the chapter on modern Rajasthan.
 
 ---
 
-## 7. Later Marwar Rulers (Ajit Singh to Man Singh)
+# PART IX — GOVERNANCE, REVENUE AND SOCIETY: THE CONNECTIONS THAT WIN MAINS MARKS
 
-### 7.1 Maharaja Ajit Singh (1707–1724 CE)
-- **Historiographical Assessment**: Termed *"कान का कच्चा राजा"* (Gullible / Inconstant Ruler) by Mahamahopadhyaya G.H. Ojha for exiling his greatest benefactor, Durgadas.
-- **Mughal Court Politics**: Formed an alliance with the **Sayyid Brothers** (Kingmakers: Abdullah Khan and Husain Ali Khan) during the twilight of the Mughal Empire. Married his daughter **Indra Kanwar** to Mughal Emperor Farrukhsiyar in 1715 CE — recorded as the **last Hindu-Mughal matrimonial alliance**. Following Farrukhsiyar’s deposition and assassination, Ajit Singh brought Indra Kanwar back to Jodhpur and re-inducted her into Hinduism.
-- **Death**: Murdered in 1724 CE in his bedchamber by his own son **Bakht Singh**, abetted by his elder son **Abhai Singh**.
+## 34. How Rathore power was built
 
----
+The Rathore states did not expand only through battles. Their power rested on an interaction of land, alliances, military service and control of important settlements.
 
-### 7.2 Maharaja Abhai Singh & The Khejarli Sacrifice (1730 CE)
-- **Battle of Ahmedabad (1730 CE)**: Abhai Singh served as Mughal Subedar of Gujarat, defeating Sarbuland Khan. The battle is commemorated in *Raj Rupak* (Veerbhan Ratnu) and *Suraj Prakash* (Karnidan).
-- **The Khejarli Massacre (खेजड़ली बलिदान, 12 September 1730 / भाद्रपद शुक्ल दशमी, वि.सं. 1787)**:
-  - **The Context**: Abhai Singh’s Diwan, **Girdhar Das Bhandari**, dispatched woodcutters to fell green Khejri (*Prosopis cineraria*) trees in the Bishnoi village of **Khejarli (खेजड़ली)** to burn lime for the construction of palaces in Mehrangarh.
-  - **Amrita Devi Bishnoi's Leadership**: **Amrita Devi Bishnoi**, her three daughters (Asu, Ratni, and Bhagu), and her husband Ramu Bishnoi embraced the sacred trees, proclaiming the supreme Bishnoi ecological maxim:
-    > *"सिर साठे रूंख रहे, तो भी सस्तो जाण।"*  
-    > *(Even if a head is severed to save a tree, consider it a cheap bargain.)*
-  - **The Martyred 363**: The state royal woodcutters mercilessly hacked down the trees along with the protectors. A total of **363 Bishnois (69 women and 294 men)** sacrificed their lives in this supreme act of ecological non-violence (*Khadaana Pratha* / साका).
-  - **Royal Decree**: Upon learning of the massacre, Maharaja Abhai Singh halted all felling, personally apologized to the Bishnoi community, and issued a copper-plate royal charter (*Tamra-Patra*) permanently banning the cutting of green trees and hunting of wild animals across Bishnoi tracts.
-  - **The Khejarli Fair**: The **World's Only Tree Fair (विश्व का एकमात्र वृक्ष मेला)** is convened annually at Khejarli on **Bhadrapada Shukla Dashami** (Teja Dashami).
-  - **Amrita Devi Environmental Award**: Institutes Rajasthan's highest environmental honor (instituted 1994).
+### State formation in Marwar and Bikaner
 
----
+1. **Territorial base:** early settlements such as Pali, Khed and Mandore created a nucleus for authority.
+2. **Fortified centre:** Jodhpur and Mehrangarh represented a stronger capital with defensible terrain; Bikaner developed as a distinct state in Jangladesh.
+3. **Elite networks:** clan kinship, marriage, thikanas, military followers and local chiefs shaped the ability to mobilise force.
+4. **Imperial relationship:** Mughal mansabs and jagirs could give rulers status and revenue, while also requiring campaign service and political accommodation.
+5. **Succession:** contested inheritance could weaken a state and invite imperial intervention, as in Chandrasen's conflict and the crisis after Jaswant Singh's death.
 
-### 7.3 Maharaja Man Singh (1803–1843 CE) — "The Sannyasi Raja"
-- **Ascension Legend & Nath Sampradaya**: Besieged inside Jalore Fort by his cousin Maharaja Bhim Singh, Man Singh was on the verge of surrender when Nath ascetic **Ayas Dev Nath (आयस देवनाथ)** prophesied that Bhim Singh would die shortly and Man Singh would rule Jodhpur. Upon Bhim Singh’s sudden demise in 1803 CE, Man Singh ascended the throne.
-- **Patronage of Nath Cult**: Conferred sovereign status upon the Kanphata Nath sect; constructed the monumental **Maha Mandir (महामंदिर, Jodhpur)** featuring 84 ornately carved pillars. Authored the Nath philosophical compilation *Nath Charitra*.
-- **The Krishna Kumari Dispute (1807 CE)**: Engaged in the devastating **Battle of Gingoli (गिंगोली का युद्ध, Parbatsar, 1807 CE)** against Sawai Jagat Singh II of Jaipur over the marriage alliance with Princess Krishna Kumari of Mewar.
-- **Court Poet Bankidas Asiya (बांकीदास आसिया)**:
-  - Authored **Bankidas ri Khyat** and the anti-colonial patriotic clarion call:
-    > *"आयो अंग्रेज मुलक रे ऊपर..."*  
-    *(The British have descended upon our land...)*
-- **1818 Subsidiary Alliance**: Signed the Treaty of Subordinate Alliance with the British East India Company on 6 January 1818.
+## 35. Revenue and local administration
 
----
+The source **Marwar ra Pargana ri Vigat** is essential because it connects ruling houses with actual places, agricultural production and revenue practices.
 
-## 8. The Rathores of Bikaner (Branch Dynasty)
+### Key administrative terms
 
-```
-                     ┌─────────────────────────────────────────────────────────┐
-                     │          THE BIKANER SOVEREIGN RATHORE TREE             │
-                     └────────────────────────────┬────────────────────────────┘
-                                                  │
-         ┌────────────────────────────────────────┼────────────────────────────────────────┐
-         │                                        │                                        │
-┌────────┴──────────────┐              ┌──────────┴─────────────┐              ┌───────────┴──────────┐
-│ Rao Bika (1465–1504)  │              │ Rao Lunkaran (1505–26) │              │ Rao Jaitasi (1526–42)│
-├───────────────────────┤              ├────────────────────────┤              ├──────────────────────┤
-│ • Founded Bikaner     │              │ • Built Lunkaransar    │              │ • Defeated Prince    │
-│   state (1465 CE)     │                salt lake.             │                Kamran at Rati-Ghati │
-│ • Established capital │              │ • Titled "Karna of     │                (1534 CE).           │
-│   at Bikaner (1488)   │                Kaliyuga" (कलिकाल का   │              │ • Slain at Battle of │
-│ • Blessed by          │                कर्ण) by Bithu Suja.   │                Paheba (1541–42 CE)  │
-│   Karni Mata          │              │ • Slain at Dhosi (1526)│                against Rao Maldeo.  │
-└───────────────────────┘              └────────────────────────┘              └──────────────────────┘
-         │                                        │                                        │
-┌────────┴──────────────┐              ┌──────────┴─────────────┐              ┌───────────┴──────────┐
-│ Rao Kalyanmal (1542–74│              │ Rai Singh (1574–1612)  │              │ Anup Singh (1669–98) │
-├───────────────────────┤              ├────────────────────────┤              ├──────────────────────┤
-│ • Regained throne via │              │ • Built Junagarh Fort  │              │ • "Golden Age" of    │
-│   Sher Shah Suri.     │                (1589–94 CE).          │                Bikaner literature.  │
-│ • First Bikaner ruler │              │ • "Karna of Rajputana" │              │ • Established Anup   │
-│   to submit to Akbar  │                (राजपूताना का कर्ण).   │                Sanskrit Library.    │
-│   at Nagaur (1570).   │              │ • Brother Prithviraj:  │              │ • Conferred title of │
-│ • Sent 2 sons to court│                Veli Krishan Rukmani Ri│                "Mahi Maratib".      │
-└───────────────────────┘              └────────────────────────┘              └──────────────────────┘
-```
+| Term | Meaning and use in study |
+|---|---|
+| **Pargana** | A territorial unit used for local administration and revenue assessment. |
+| **Thikana / jagir** | Landholding or assignment associated with service, status, revenue rights or dynastic arrangements; exact rights varied by period and grant. |
+| **Mansab** | Mughal rank that formalised an officer's status and obligations; mansab and jagir should not be treated as identical concepts. |
+| **Lag-bag** | A broad term for cesses and local dues; the specific levies and their incidence varied. |
+| **Khyat** | Regional historical chronicle; often preserves genealogies, political events, stories and local memory. |
+| **Vigat** | Detailed account or register; Nainsi's work is especially valuable for parganas and the regional economy. |
 
-### 8.1 Rao Bika (राव बीका, 1465–1504 CE) — Foundation of the Desert State
-- **Sovereign Migration**: The fifth son of Rao Jodha of Marwar. Prompted by an offhand remark by Rao Jodha regarding his whispering with uncle **Kandhal Rathore**, Bika declared his intention to carve an independent sovereign empire rather than await patrimony.
-- **The Northward March (1465 CE)**: Accompanied by his uncle Kandhal, brother Bida, and trusted adviser Napa Sankhla, Bika marched into **Jangladesh (जांगलदेश)**.
-- **Blessings of Shri Karni Mata**: Visited Deshnoke and secured the divine spiritual benediction of **Shri Karni Mata**, who prophesied that his dominion would surpass his father’s fame:
-  > *"बीका थारो बीकाणो, कई दांणी जोधाणे सूं सवायो होसी!"*
-- **Kodamdesar & Foundation of Bikaner (1488 CE)**:
-  - First established seat at **Kodamdesar (कोडमदेसर)**, constructing a Bhairav temple.
-  - In **1488 CE (Akshaya Tritiya / वैशाख शुक्ल तृतीया, V.S. 1545)**, laid the foundation of **Bikaner city** and the citadel of *Bikaji ki Tekri*.
-  - Matrimonially allied with the Bhatis of Pungal (married Princess Rang Kanwar).
-  - Consolidated power over Godara and Saharan Jats by preserving their hereditary privilege: the head of the Godara Jat clan of Rasisar exercises the hereditary right to apply the **Raj-Tilak** (coronation mark) with his thumb-blood upon every newly crowned ruler of Bikaner.
+### How to avoid overstatement
+
+Do not infer that every thikana had identical obligations or that every ruler maintained a uniform bureaucracy. Rajasthan's regional states differed by era, resource base, relations with the Mughal Empire and the autonomy of local chiefs.
+
+## 36. Desert ecology, water and the economy
+
+Water was a political resource. In arid Marwar and Bikaner, tanks, wells, stepwells and control of settlement sites could support populations, animals, armies and market exchange.
+
+- **Fort locations:** elevated sites such as Mehrangarh provided defensive advantages, but water storage and supply remained necessary.
+- **Bikaner's location:** the new state emerged in a dry region but developed around settlement networks, wells, pastoral livelihoods and trade.
+- **Pastoral economy:** cattle fairs and camel husbandry linked arid regions to long-distance movement and exchange.
+- **Salt and local resources:** salt lakes and mineral or craft resources contributed to regional livelihoods; specific revenue amounts require documentary evidence.
+- **Irrigation:** the Gang Canal belongs to the later modernisation of Bikaner, showing how state power shifted from mainly fort-and-revenue control to infrastructure-led development.
+
+## 37. Military strategy and the imperial relationship
+
+The history of the Rathores shows a spectrum rather than a simple division between resistance and submission.
+
+| Mode | Examples | Analytical significance |
+|---|---|---|
+| **Territorial consolidation** | Chunda at Mandore; Jodha at Jodhpur; Bika in Jangladesh | Establishing durable capitals and regional authority. |
+| **Pitched battle and fort defence** | Giri–Sumel; fortified Jodhpur; Bikaner's later Junagarh Fort | Military outcomes were shaped by logistics, commanders, terrain and alliances. |
+| **Resistance outside the imperial court** | Chandrasen; Durgadas and Ajit Singh | Guerrilla operations and local networks could raise the cost of imperial control. |
+| **Mughal collaboration** | Udai Singh, Sur Singh, Rai Singh and other Rathore rulers | Imperial rank and jagirs could expand a ruler's resources and standing. |
+| **Treaty relations with the British** | Jodhpur and Bikaner in 1818 | External sovereignty narrowed even when dynastic rule continued. |
+
+## 38. Literature and cultural memory: a quick reference
+
+| Work / tradition | Author or association | Why it matters |
+|---|---|---|
+| **Nainsi ri Khyat** | Muhnot Nainsi | Regional chronology, genealogies and political history. |
+| **Marwar ra Pargana ri Vigat** | Muhnot Nainsi | Local administration, revenue, settlements and economic history. |
+| **Veli Krisan Rukmani Ri** | Prithviraj Rathore | Dingal poetry and Krishna–Rukmini narrative. |
+| **Rao Jaitasi ro Chhand** | Bithu Suja | Bikaner's martial and dynastic memory. |
+| **Bankidas ri Khyat** | Bankidas Asiya | Marwar's dynastic memory and historical narratives. |
+| **Patriotic “Aayo Angrez…” verse** | Associated with Bankidas | Literary response to colonial expansion. |
+| **Matire ki Raad tradition** | Bikaner–Nagaur border story | Local boundary conflict, honour and oral history. |
+| **Ghudla festival tradition** | Associated with Rao Satal/Pipar in the conventional account | Local women's festival and remembered rescue episode. |
+| **Khejarli tradition** | Amrita Devi Bishnoi and the Bishnoi community | Environmental ethics, customary protection and community sacrifice. |
 
 ---
 
-### 8.2 Rao Lunkaran (1505–1526 CE) — "The Karna of Kaliyuga"
-- Expanded northward into Didwana and Fatehpur; excavated the **Lunkaransar Salt Lake**.
-- **Historiographical Epithet**: Celebrated for extraordinary philanthropic charity. Dingal poet **Bithu Suja** bestowed upon him the title **"Karna of Kaliyuga" (कलिकाल का कर्ण)** in his epic *Rao Jaitasi ro Chhand*. Contemporary Sanskrit poet Jayasoma compared his charity to the legendary King Karna in *Karam Chand Vanshothkirtnakam Kavyam*.
-- **Death**: Slain fighting Nawab Kami Khan of Narnaul in the **Battle of Dhosi (ढोसी का युद्ध, 1526 CE)**.
+# PART X — MASTER REVISION TABLES
+
+## 39. Marwar: rulers and defining developments
+
+| Ruler / period | High-yield fact | Evidence caution |
+|---|---|---|
+| Rao Siha | Founding patriarch; associated with Pali/Khed; Bithu memorial dated 1273 CE | Early genealogy and the exact mode of state founding vary by tradition. |
+| Rao Chunda | Acquired Mandore; strengthened Rathore authority | Exact date varies; dowry account is traditionally transmitted. |
+| Rao Ranmal | Influential in Mewar; killed at Chittor in 1438 | Details of court intrigue are drawn from narratives. |
+| Rao Jodha | Founded Jodhpur in 1459; Mehrangarh | Chidiyanath/Rajaram foundation stories are legends. |
+| Rao Satal | Traditionally linked with the Ghudla festival | Older accounts differ over the ruler associated with the Pipar rescue. |
+| Rao Ganga | Marwar ruler during Khanwa (1527) | Details of troop strength and command should be source-attributed. |
+| Rao Maldeo | Expansion of Marwar; conflict with Sher Shah at Giri–Sumel (1544) | “52 battles” and “58 parganas” are praise figures unless specifically sourced. |
+| Rao Chandrasen | Continued resistance to Akbar; died in 1581 | Nagaur walkout and death details are source-sensitive. |
+| Mota Raja Udai Singh | Accepted Mughal suzerainty; matrimonial alliance with Prince Salim | Personal names/titles of the princess vary in sources. |
+| Sur Singh | Mughal service, campaigns and high imperial rank | Use a reliable chronicle for specific title and campaign claims. |
+| Jaswant Singh I | Dharmat (1658); died at Jamrud (1678); succession crisis | Court stories and quotations may be later tradition. |
+| Durgadas Rathore | Protected Ajit Singh's succession; long resistance | Rescue details are embellished in popular and regional memory. |
+| Ajit Singh | Restored Marwar after 1707; assassinated in 1724 | Details of palace conspiracy should be source-attributed. |
+| Man Singh | Nath patronage; treaty relationship with the British (1818) | Ascension and court narratives include traditions. |
+
+## 40. Bikaner: rulers and defining developments
+
+| Ruler | High-yield association |
+|---|---|
+| Rao Bika | Founded Bikaner city in 1488; established the Rathore state in Jangladesh. |
+| Rao Lunkaran | Expansion; remembered as “Karna of Kaliyuga.” |
+| Rao Jaitasi | Conflict with Marwar; remembered in *Rao Jaitasi ro Chhand*. |
+| Rao Kalyanmal | Accepted Akbar's suzerainty at Nagaur in 1570. |
+| Raja Rai Singh | Mughal service; associated with the construction of Junagarh Fort (late 16th century). |
+| Maharaja Karan Singh | Associated with *Matire ki Raad* (1644) and court culture. |
+| Maharaja Anup Singh | Deccan service; manuscript collection and cultural patronage. |
+| Maharaja Ganga Singh | Gang Canal; administrative and military modernisation; international representation after World War I. |
+
+## 41. Do not confuse these pairs
+
+| Pair | Correct distinction |
+|---|---|
+| Jodhpur vs. Mehrangarh | Rao Jodha founded Jodhpur in 1459; the fort and palaces were built and enlarged over generations. |
+| Bikaner city vs. Junagarh Fort | Bikaner city: Rao Bika, 1488; Junagarh Fort: Rai Singh, late 16th century. |
+| Chand Baori vs. Mandore | Chand Baori is at Abhaneri, not inside Mandore Fort. |
+| Rao Maldeo vs. Sher Shah | Sher Shah's side won the Giri–Sumel campaign, but Rathore resistance became famous for its cost. |
+| Chandrasen vs. Mota Raja Udai Singh | Chandrasen resisted Mughal supremacy; Udai Singh accepted Mughal recognition and service. |
+| Jaswant Singh vs. Durgadas | Jaswant's death triggered a succession crisis; Durgadas became a leading protector of Ajit Singh's claim. |
+| Rao Lunkaran vs. Rai Singh | Lunkaran: “Karna of Kaliyuga” tradition; Rai Singh: “Karna of Rajputana” praise tradition. |
+| Bika vs. Rai Singh | Bika founded Bikaner city; Rai Singh built the later Junagarh Fort. |
+| National vs. state Amrita Devi awards | Verify the issuing authority and award title before naming it as a government award. |
+| Traditional account vs. contemporary proof | A heroic narrative can be culturally important without being a contemporary record. |
 
 ---
 
-### 8.3 Rao Jaitasi (राव जैतसी, 1526–1542 CE)
-- **The Battle of Rati-Ghati (राति-घाटी का युद्ध, 1534 CE)**:
-  - Mughal Prince **Kamran** (brother of Emperor Humayun), then governing Kabul and Lahore, captured the strategic fortress of Bhatner (Hanumangarh) and marched upon Bikaner.
-  - Rao Jaitasi launched a devastating midnight surprise attack (*Chhapamar assault*) upon Kamran's imperial army at Rati-Ghati. Kamran was routed and fled in disgrace back to Lahore.
-  - This heroic victory is immortalized in **Bithu Suja's (बीठू सूजा)** classic Dingal epic: **"Rao Jaitasi ro Chhand" (राव जैतसी रो छंद)**.
-- **Battle of Paheba/Saheba (1541–42 CE)**: Rao Maldeo of Marwar invaded Bikaner. Jaitasi died heroically on the battlefield; his son Kalyanmal fled to seeking the alliance of Sher Shah Suri.
+# PART XI — EXAM PITFALLS: REVISED AND SOURCE-AWARE
+
+1. **Rathore origin:** Rashtrakuta connection, Kannauj/Gahadavala migration and Suryavanshi descent are different kinds of claim; do not state that all have been proved.
+2. **Rao Siha:** Bithu is associated with the 1273 memorial evidence; it does not prove the entire later genealogy.
+3. **Mandore acquisition:** traditionally associated with Rao Chunda and a matrimonial alliance; exact year varies among accounts.
+4. **Chand Baori:** located at Abhaneri, Dausa—not Mandore.
+5. **Jodhpur foundation:** Rao Jodha, 1459 CE.
+6. **Mehrangarh:** foundation associated with Rao Jodha, but its architecture reflects several centuries of construction.
+7. **Rajaram Meghwal and Chidiyanath:** foundation traditions, not routine engineering facts independently proven by contemporary records.
+8. **Ghudla:** conventional Rajasthan-GK association is Rao Satal and the Pipar episode; older narratives differ over attribution.
+9. **Khanwa:** Marwar participated in the wider Rajput coalition; avoid unsupported precise troop numbers.
+10. **Giri–Sumel:** 1544; Sher Shah's side won the campaign; Jaita and Kumpa became celebrated in Rathore memory.
+11. **“Handful of bajra”:** reported saying attributed to Sher Shah; don't present quotation details as a stenographic record.
+12. **Chandrasen at Nagaur:** he attended according to the account, but the dramatic walkout is associated with Marwar tradition and differs from the imperial narrative.
+13. **Khalsa:** direct imperial administration followed Chandrasen's death before Udai Singh was installed; explain the sequence rather than treating the term as a timeless status.
+14. **Jagat Gosain:** daughter of Mota Raja Udai Singh, wife of Prince Salim and mother of Shah Jahan; popular names can vary.
+15. **Nainsi:** *Khyat* is historical narrative; *Pargana ri Vigat* is especially valuable for regional administration and economy.
+16. **Jaswant Singh:** his death at Jamrud in 1678 triggered the Marwar succession crisis.
+17. **Ajit Singh:** Durgadas helped preserve his claim; popular rescue narratives contain details of differing evidentiary strength.
+18. **Khejarli:** conventionally remembered as the sacrifice of 363 Bishnois in 1730 under Amrita Devi's leadership.
+19. **Rao Bika:** founded Bikaner city in 1488; not the present Junagarh Fort.
+20. **Junagarh Fort:** associated with Rai Singh and the late 16th century.
+21. **Nagaur Durbar (1570):** important to Bikaner's acceptance of Mughal suzerainty under Kalyanmal.
+22. **Matire ki Raad:** remembered as the Bikaner–Nagaur watermelon dispute of 1644, involving Karan Singh and Amar Singh Rathore.
+23. **Anup Singh:** associated with Bikaner's manuscript and court-culture growth; avoid unverified “tens of thousands rescued” figures.
+24. **Ganga Singh:** associated with the Gang Canal and modernising reforms; call him India's representative at the Paris Peace Conference rather than implying Bikaner had fully sovereign international status.
 
 ---
 
-### 8.4 Rao Kalyanmal (1542–1574 CE) & The Imperial Accord
-- Reclaimed Bikaner with the assistance of Sher Shah Suri following the Battle of Giri-Sumel (1544 CE).
-- **Nagaur Durbar Capitulation (1570 CE)**: First ruler of Bikaner to accept Mughal suzerainty under Emperor Akbar. Enrolled his elder son **Rai Singh** as an imperial commander and his younger son **Prithviraj Rathore** as an imperial court poet.
+# PART XII — PRACTICE FOR RPSC RAS
+
+## 42. Prelims MCQs
+
+### Q1. Which pairing is correct?
+
+A. Rao Bika — Junagarh Fort (late 16th century)  
+B. Rao Jodha — foundation of Jodhpur (1459 CE)  
+C. Rai Singh — foundation of Bikaner city (1488 CE)  
+D. Rao Chunda — foundation of Mehrangarh (1459 CE)
+
+**Answer: B.** Rao Jodha founded Jodhpur in 1459. Bika founded Bikaner city in 1488, while the present Junagarh Fort is associated with Rai Singh in the late 16th century.
+
+### Q2. Which work is especially valuable for reconstructing the parganas and economy of Marwar?
+
+A. *Veli Krisan Rukmani Ri*  
+B. *Marwar ra Pargana ri Vigat*  
+C. *Rao Jaitasi ro Chhand*  
+D. *Bhasha Bhushan*
+
+**Answer: B.** Muhnot Nainsi's *Vigat* provides detailed regional and administrative information.
+
+### Q3. Which statement about Giri–Sumel is the safest?
+
+A. Marwar decisively defeated Sher Shah and conquered Delhi.  
+B. Sher Shah won the campaign, but the Rathore resistance became famous for its cost and the stand of Jaita and Kumpa.  
+C. It was fought between Bikaner and Nagaur.  
+D. It ended Mughal rule in Rajasthan.
+
+**Answer: B.** The Sur side secured the strategic victory. The famous “handful of bajra” quote and the forged-letter episode should be treated as reported or chronicle-based narratives.
+
+### Q4. The Nagaur assembly of 1570 is important in Rathore history because:
+
+A. Rao Bika founded Bikaner there.  
+B. Rao Kalyanmal of Bikaner accepted Mughal suzerainty.  
+C. Durgadas rescued Ajit Singh.  
+D. Jaswant Singh fought at Dharmat.
+
+**Answer: B.** Bikaner's acceptance brought the state into a long relationship of imperial service and hereditary local rule.
+
+### Q5. Match the work to its author/association.
+
+1. *Nainsi ri Khyat*  
+2. *Veli Krisan Rukmani Ri*  
+3. *Rao Jaitasi ro Chhand*
+
+a. Prithviraj Rathore  
+b. Muhnot Nainsi  
+c. Bithu Suja
+
+**Answer:** 1-b, 2-a, 3-c.
+
+### Q6. Which one is an example of a later tradition rather than a fully documented contemporary report?
+
+A. Jodhpur's foundation in 1459  
+B. Junagarh Fort's late 16th-century construction under Rai Singh  
+C. The story of a man voluntarily buried alive in Mehrangarh's foundation to avert a curse  
+D. Ganga Singh's reign from 1887 to 1943
+
+**Answer: C.** The story is part of the fort's foundation legend.
+
+### Q7. The Khejarli sacrifice is associated with:
+
+A. protection of khejri trees by Bishnoi villagers in 1730  
+B. the founding of Junagarh Fort  
+C. the Battle of Giri–Sumel  
+D. Bikaner's acceptance of Mughal suzerainty
+
+**Answer: A.** It is remembered as the sacrifice of 363 Bishnois under the leadership of Amrita Devi.
+
+### Q8. Which pair is mismatched?
+
+A. Rao Bika — Bikaner city  
+B. Rai Singh — Junagarh Fort  
+C. Muhnot Nainsi — *Marwar ra Pargana ri Vigat*  
+D. Rao Chunda — Chand Baori at Mandore
+
+**Answer: D.** Chand Baori is at Abhaneri, not Mandore.
+
+### Q9. The posthumous birth of Ajit Singh became politically important because:
+
+A. it ended the Rathore dynasty  
+B. the succession dispute after Jaswant Singh's death triggered a long Marwar–Mughal conflict  
+C. it founded Bikaner  
+D. it led to Ganga Singh's canal
+
+**Answer: B.** The disputed recognition of the heir drove the resistance associated with Durgadas Rathore.
+
+### Q10. Which statement best describes the Marwar–Mughal relationship?
+
+A. It was always open warfare.  
+B. It was always complete submission without negotiation.  
+C. It shifted between resistance, negotiated status, military service and renewed conflict.  
+D. It ended with the founding of Jodhpur.
+
+**Answer: C.** The relationship changed with each ruler's resources, succession politics and imperial context.
 
 ---
 
-### 8.5 Maharaja Rai Singh (महाराजा रायसिंह, 1574–1612 CE) — "The Karna of Rajputana"
+## 43. Mains: 2-mark practice
 
-#### Imperial Military Stature & Mansabdari
-- Considered the second most influential Rajput pillar in Akbar’s empire after Mirza Raja Man Singh of Amber. Elevated to a premier mansab of **4,000**, later raised to **5,000** by Jahangir.
-- Appointed imperial governor of **Gujarat** and later **Burhanpur (Khandesh)**; suppressed revolts in Kabul, Kandahar, and Bengal.
+### Q1. State the significance of the Bithu inscription.
 
-#### Construction of Junagarh Fort (1589–1594 CE)
-- Laid the foundation of the magnificent **Junagarh Fort (जूनागढ़ दुर्ग)** in Bikaner on the site of Bikaji ki Tekri.
-- Supervised by his brilliant prime minister, **Karam Chand (कर्मचंद)**.
-- Popularly designated as **"Zameen ka Zeewar" (जमीन का जेवर — Jewel of the Earth)** because it is constructed on level plains (*Dhanvan / Bhu-Durg*) rather than a jagged mountain crag.
-- **Rai Singh Prashasti (रायसिंह प्रशस्ति)**: Inscribed on stone tablets at the Suraj Pol entrance, composed by Jain scholar **Muni Jaita (मुनि जैता)**, detailing the genealogical triumphs of the Bikaner house in refined Sanskrit.
+**Model answer:** It is an important memorial reference associated with Rao Siha's death in 1273 CE and the early Rathore history of Marwar.
 
-#### Literary & Cultural Output
-- Authored scholarly Sanskrit and Braj treatises:
-  1. **Rai Singh Mahotsava (रायसिंह महोत्सव)**.
-  2. **Jyotish Ratnamala (ज्योतिष रत्नमाला)** (A master commentary on astrology).
-  3. **Baal Bodhini (बाल बोधिनी)**.
-- **Title Conferred**: Celebrated chronicler Munshi Devi Prasad bestowed upon Rai Singh the eternal title **"Rajputana Ka Karna" (राजपूताना का कर्ण)** for his lavish distribution of grain and charity during famines.
-- Minister Karam Chand’s biography was composed by court poet Jayasoma: *Karam Chand Vanshothkirtnakam Kavyam*.
+### Q2. Why is Muhnot Nainsi important for Rajasthan history?
 
----
+**Model answer:** His *Khyat* records regional political history, while *Marwar ra Pargana ri Vigat* informs the study of administration, revenue and economy.
 
-### 8.6 Prithviraj Rathore (पृथ्वीराज राठौड़, 1549–1600 CE) — The Horace of Dingal
-Younger brother of Maharaja Rai Singh; gifted court poet and confidant of Emperor Akbar. Akbar granted him the historic water fortress of **Gagron Fort (गागरोण दुर्ग, Jhalawar)** as his personal Jagir.
+### Q3. What is the significance of the Nagaur Durbar of 1570?
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      PRITHVIRAJ RATHORE'S LITERARY MONUMENTS           │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Veli Krishan Rukmani Ri             │                     │  The National Clarion Calls to Pratap            │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Written in high Dingal at Gagron.  │                     │ • Legend of Pratap's forged peace letter:        │
-│ • Theme: Divine romance and marriage │                       Prithviraj dispatched stirring Dingal couplets   │
-│   of Lord Krishna and Rukmini.       │                       reviving Pratap's resolve.                       │
-│ • Celebrated by contemporary poet    │                     │ • Dingal Verse:                                  │
-│   Dursa Adha as the "Fifth Veda and  │                       "पातल जो पतसाह, बोलै मुख हूं बांयणो।              │
-│   Nineteenth Purana!"                │                        मिहिर पछम दिस मांह, ऊगे कासप रावता॥"            │
-│ • Italian linguist L.P. Tessitori    │                     │ • Other Works: Dasham Bhagvat ra Duha,           │
-│   titled Prithviraj "Dingal ro Horace│                       Ganga Lahari, Dashratha Vasudev ra Duha.         │
-│   (डिंगल का हेरोस / होरेस)".         │                                                                        │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+**Model answer:** It marked Bikaner ruler Rao Kalyanmal's acceptance of Akbar's suzerainty, opening a long period of Mughal–Bikaner cooperation.
 
----
+### Q4. Explain the importance of the Khejarli sacrifice.
 
-### 8.7 Maharaja Karan Singh & The Battle of the Watermelon (1644 CE)
-- Accorded the title **"Jangal-Dhar Badshah" (जांगलधर बादशाह)** by contemporary Rajput rulers for resisting imperial encroachments.
-- Authored *Sahitya Kalpadrum*; court scholars Mudgal Bhat authored *Karna Bhushan*.
-- **Matire ki Raad (मतीरे की राड़, 1644 CE)**:
-  - A bizarre yet historic boundary clash fought between **Maharaja Karan Singh of Bikaner** and **Amar Singh Rathore of Nagaur**.
-  - **The Casus Belli**: A single watermelon vine (*Matira*) planted in the field of a farmer in **Jakhania village (Bikaner)** crossed the agricultural boundary fence and bore fruit within the territory of **Silvi village (Nagaur)**.
-  - The local farmers clashed over ownership of the watermelon; the feud escalated to the village headmen, then the feudal Jagirdars, and ultimately to full-scale mobilization of regular troops from Bikaner and Nagaur!
-  - Both rulers were absent serving the Mughal army in the Deccan, while their home commanders engaged in pitched warfare. Bikaner forces ultimately emerged victorious.
+**Model answer:** The 1730 sacrifice of Bishnoi community members, remembered under Amrita Devi's leadership, became a major symbol of tree and wildlife protection.
 
----
+## 44. Mains: 5-mark analytical frameworks
 
-### 8.8 Maharaja Anup Singh (1669–1698 CE) — The Cultural Zenith
-The reign of Maharaja Anup Singh represents the undisputed **Golden Age of Bikaner's Literature, Art, and Sanskrit Scholarship**.
-- **Imperial Deccan Campaigns**: Commanded imperial Mughal divisions under Aurangzeb during the sieges of **Golconda (1687 CE)** and **Bijapur (1686 CE)**. Aurangzeb conferred upon him the premier martial decoration: **"Mahi Maratib" (माही मरातिब — The Insignia of the Royal Fish)**.
-- **The Anup Sanskrit Library (अनूप संस्कृत लाइब्रेरी)**:
-  - When Aurangzeb ordered the destruction of Hindu cultural monuments and libraries across the Deccan, Anup Singh utilized imperial campaigns to purchase, salvage, and rescue tens of thousands of invaluable Sanskrit manuscripts.
-  - Transported these treasures to Junagarh Fort, establishing the **Anup Sanskrit Library** — one of India’s most precious manuscript repositories.
-- **Artistic Renaissance (Usta Art & Matheerna Art)**:
-  - Patronized master artists migrating from the declining Mughal ateliers. Established the **Bikaner Painting School**, distinct for its signature tradition where painters recorded their names and dates on their work.
-  - Nurtured **Usta Art (उस्ता कला)** — exquisite gold relief work on camel hide (*Munawwat*) pioneered by Ustad Qaimuddin.
-  - Patronized the indigenous Jain fresco tradition of **Matheerna Art (मथेरण कला)**.
-- **Scholarly & Musicological Output**:
-  - Authored: *Anup Vivek*, *Kam-Prabodh*, *Shraaddha Prayog*, *Anupodaya*.
-  - Renowned court musicologist **Bhao Bhatt (भावभट्ट)** composed monumental musicological treatises: *Anup Sangeet Vilas*, *Anup Sangeet Ratnakar*, *Anup Ankush*.
+### Q5. Explain the stages in the rise of Rathore power in Marwar.
 
----
+**Model structure:**
+1. Early settlement and regional consolidation around Pali/Khed.
+2. Rao Chunda's acquisition of Mandore and strengthened political base.
+3. Rao Jodha's foundation of Jodhpur and Mehrangarh.
+4. Expansion under Rao Maldeo and confrontation with Sher Shah.
+5. Mughal intervention, later incorporation, and renewed resistance under Chandrasen and Durgadas.
 
-### 8.9 Subsequent Rulers of Bikaner
-- **Maharaja Surat Singh (1787–1828 CE)**:
-  - Recaptured the historic Bhatner Fort from the Zabita Khan Bhatis in **1805 CE**. Because the conquest occurred on a Tuesday (*Mangalwar*, sacred to Lord Hanuman), Surat Singh renamed Bhatner to **Hanumangarh (हनुमानगढ़)**.
-  - Signed the Treaty of Subordinate Alliance with the British on **9 March 1818**.
-- **Maharaja Sardar Singh (1851–1872 CE)**: The sole ruler in Rajasthan who personally marched with his military forces **outside his princely state (into Badlu, Punjab/Haryana)** to actively suppress the 1857 Indian Revolution on behalf of the British crown.
-- **Maharaja Ganga Singh (1887–1943 CE) — Modern Maker of Bikaner**:
-  - Creator of the **Gang Canal (गंग नहर, 1927)** — the precursor to the Indira Gandhi Canal.
-  - Commander of the *Ganga Risala* (Camel Corps) in China (Boxer Rebellion 1900) and World War I.
-  - Signatory to the **Treaty of Versailles (1919)**; first Chancellor of the **Chamber of Princes (Narendra Mandal, 1921–1926)**.
+**Analytical close:** Marwar's rise depended on both armed expansion and the control of capitals, land, alliances and regional institutions.
+
+### Q6. Assess the importance of Giri–Sumel.
+
+**Model structure:**
+- Context: Sher Shah's expansion and Maldeo's regional power.
+- Command: role of Jaita and Kumpa in the Rathore stand.
+- Outcome: strategic victory for the Sur forces and temporary occupation of Marwar.
+- Memory: heroic narratives preserved Rathore resistance.
+- Qualification: distinguish the battle's result from later praise poetry and quoted sayings.
+
+### Q7. Describe the historical value of Nainsi's works.
+
+**Model structure:**
+- *Khyat*: dynasties, rulers, political events and regional memory.
+- *Vigat*: parganas, agriculture, revenue and settlement-level information.
+- Value: shifts Rajasthan history beyond royal battles into local society and economy.
+- Limitation: categories and narratives reflect a seventeenth-century source, not modern census standards.
+
+### Q8. Why was Bikaner's relationship with the Mughals significant?
+
+**Model structure:**
+- Kalyanmal's acceptance of suzerainty in 1570.
+- Rai Singh's service and rise in rank.
+- Resource and status benefits for the Bikaner state.
+- Architecture and patronage under Rai Singh and later rulers.
+- The relationship as negotiated imperial integration rather than disappearance of local rule.
+
+## 45. Mains: 10-mark analytical framework
+
+### Q9. “The history of the Rathores shows that medieval Rajput politics involved resistance as well as accommodation.” Discuss with examples from Marwar and Bikaner.
+
+**Suggested structure:**
+
+**Introduction:** The Rathores of Marwar and Bikaner built durable regional states through territorial expansion, fortified capitals, alliances and negotiations with larger powers.
+
+**Resistance:** Rao Maldeo's confrontation with Sher Shah at Giri–Sumel and Rao Chandrasen's opposition to Akbar show the costs of resisting an expanding empire. Durgadas's protection of Ajit Singh and the long succession war reveal how dynastic legitimacy could sustain resistance beyond a single battle.
+
+**Accommodation:** Under rulers including Mota Raja Udai Singh and Sur Singh, Marwar gained recognition and status through Mughal service and marriage diplomacy. Bikaner under Kalyanmal and Rai Singh entered the Mughal imperial system, gaining ranks and opportunities for patronage.
+
+**State and society:** Nainsi's works illuminate the pargana, revenue and local economy behind the ruler's military power. Forts, tanks, fairs, painting and manuscript collections demonstrate the role of resource management and cultural patronage.
+
+**Conclusion:** Rathore history cannot be reduced to either unbroken independence or passive submission. Rulers changed strategy as their resources, succession needs and imperial circumstances changed.
 
 ---
 
-## 9. Comprehensive Dynastic Invariant Matrix
+# PART XIII — SOURCE NOTES AND VERIFICATION STATUS
 
-The definitive synoptic matrix synthesizing the Rathore rulers of Marwar and Bikaner for rapid comparative examination analysis:
+## 46. Core sources consulted for this revision
 
-| Sovereign Ruler | Realm & Dates | Capital & Strongholds | Key Military Clashes & Treaties | Epigraphic / Literary Masterpieces | Historiographical Epithets |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Rao Siha** | Marwar (d. 1273 CE) | Khed, Pali | Defended Paliwal Brahmins against Mers/Afghans | Bithu Inscription (1273 CE / V.S. 1330) | Founder / Adi Purush of Marwar Rathores |
-| **Rao Dhuhad** | Marwar (1292–1309) | Khed | Expanded into Barmer tracts | Consecrated Nagnechi Mata at Nagana | Importer of Dynastic Deity from Karnataka |
-| **Rao Mallinath** | Marwar (1374–1399) | Mewa Nagar | Defeated joint Firoz Tughlaq & Malwa armies (1378) | Patron of Nirguna Bhakti; 1399 Harikirtan Meet | Saint-King; Namesake of Malani region |
-| **Rao Chunda** | Marwar (1394–1423) | Mandore (1394) | Annexed Mandore via Inda Pratihara alliance; took Sambhar | Chand Baori constructed by Queen Chand Kanwar | Sovereign Transformer of Rathores |
-| **Rao Jodha** | Marwar (1438–1489) | Jodhpur (1459) | Awala-Bawala Treaty (1453) with Maharana Kumbha | Built Mehrangarh Fort on Chidiyatunk Hill (1459) | Urban Architect of Jodhpur |
-| **Rao Satal** | Marwar (1489–1492) | Jodhpur | Battle of Pipar (1492): Severed Subedar Gudhla's head | Origin of Ghudla Festival (Chaitra Krishna 8) | Martyr of Pipar / Deliverer of 140 Kanyas |
-| **Rao Maldeo** | Marwar (1531–1562) | Jodhpur, Siwana | Battle of Paheba (1541); Battle of Giri-Sumel (1544) | Fortified Sojat, Pokhran, Merta; Asanand's works | "Hashmat Vala Raja", "Hindu Badshah" |
-| **Rao Chandrasen** | Marwar (1562–1581) | Bhadrajun, Siwana | Boycotted Nagaur Durbar (1570); 15-yr hill resistance | Chhatri with 5 Satis at Saran Hills (Pali) | "Forgotten Hero of Marwar", "Pratap's Forerunner" |
-| **Mota Raja Udai Singh** | Marwar (1583–1595) | Jodhpur | First Rathore to submit to Akbar; annexed Siwana | Married daughter Mani Bai (Jagat Gosain) to Salim | First Marwar ruler with Mughal Matrimonial Tie |
-| **Jaswant Singh I** | Marwar (1638–1678) | Jodhpur | Battle of Dharmat (1658); Battle of Khajwa (1659) | Authored *Bhasha Bhushan*; Nainsi ri Khyat | "Door of Kufr is broken" (Aurangzeb) |
-| **Veer Durgadas** | Marwar (1678–1718) | Jodhpur, Ujjain | 30-Year War (1679–1707); Akbar rebellion (1681) | Chhatri on Shipra River bank, Ujjain (1718) | "Ulysses of Rathores", "Anbindhiya Moti" |
-| **Rao Bika** | Bikaner (1465–1504) | Kodamdesar, Bikaner | Subjugated Jats & Bhatis of Jangladesh | Founded Bikaner city (1488) on Akshaya Tritiya | Founding Sovereign of Bikaner Branch |
-| **Rao Lunkaran** | Bikaner (1505–1526) | Bikaner | Battle of Dhosi (1526); excavated Lunkaransar lake | *Rao Jaitasi ro Chhand* (by Bithu Suja) | "Karna of Kaliyuga" (कलिकाल का कर्ण) |
-| **Rao Jaitasi** | Bikaner (1526–1542) | Bikaner | Defeated Prince Kamran at Battle of Rati-Ghati (1534) | Immortalized in *Rao Jaitasi ro Chhand* | Nemesis of Kamran; Martyred at Paheba |
-| **Maharaja Rai Singh** | Bikaner (1574–1612) | Bikaner | Governed Gujarat/Burhanpur; 5,000 Mansabdar | Built Junagarh Fort (1589–94); Rai Singh Prashasti | "Karna of Rajputana" (राजपूताना का कर्ण) |
-| **Prithviraj Rathore** | Bikaner / Gagron (d. 1600) | Gagron (Jagir) | Imperial diplomat; bolstered Pratap’s pride | *Veli Krishan Rukmani Ri*, *Ganga Lahari* | "Dingal ro Horace", Poet of the 5th Veda |
-| **Maharaja Karan Singh** | Bikaner (1631–1669) | Bikaner | *Matire ki Raad* (1644) against Amar Singh of Nagaur | Authored *Sahitya Kalpadrum* | "Jangal-Dhar Badshah" (जांगलधर बादशाह) |
-| **Maharaja Anup Singh** | Bikaner (1669–1698) | Bikaner | Sieges of Golconda (1687) & Bijapur (1686) | Founded Anup Sanskrit Library; Usta/Matheerna art | Conferred title "Mahi Maratib" |
+1. **RPSC, RAS syllabus:** the Rajasthan-history section lists major dynasties, administrative and revenue systems, architecture, literature, tradition and heritage.
+2. **Mehrangarh Museum Trust, “History of Mehrangarh”:** used for Rao Chunda, Mandore, Jodhpur's 1459 foundation, Rathore bardic migration traditions and the fort's development.
+3. **Mehrangarh Museum Trust, “Architecture”:** used to distinguish the fort's foundation from later building phases and to contextualise the 1544 Sur occupation.
+4. **Rajasthan Tourism, Bikaner:** gives Bikaner's foundation in 1488 and Junagarh Fort's construction under Rai Singh in the late 16th century.
+5. **Government of Rajasthan, Bikaner City Profile:** provides a state-government summary of Bikaner's princely history and modern ruler sequence.
+6. **Rajasthan District Gazetteer, Hanumangarh:** used for the history of northern Rajasthan and for testing claims transmitted through older gazetteer narratives.
+7. **Indira Gandhi National Centre for the Arts, “Durgadas Rathor”:** contextual source for Durgadas and the Marwar succession struggle.
+8. **Government of India, Ministry of Environment and Forests:** official notice for the Amrita Devi Bishnoi Wildlife Protection Award.
 
----
+### Useful online references
 
-## 10. The 25 Deadliest Examination Traps (Forensic Autopsy)
+- RPSC syllabus: https://rpsc.rajasthan.gov.in/Static/Syllabus/D8FA7485-80EF-4EBE-815A-A88DEAAB24FB.pdf
+- Mehrangarh Museum Trust, history: https://www.mehrangarh.org/mehrangarh-2/history/
+- Mehrangarh Museum Trust, architecture: https://www.mehrangarh.org/mehrangarh-2/architecture/
+- Rajasthan Tourism, Bikaner: https://www.tourism.rajasthan.gov.in/bikaner.html
+- Government of Rajasthan, Bikaner City Profile: https://lsg.urban.rajasthan.gov.in/content/raj/udh/ulb-bikaner/en/about-/history-city-profile.html
+- Rajasthan District Gazetteer, Hanumangarh: https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/DepartmentMaster/100/2023/Sep/30409/1002b8c1601-1f4b-47f8-95a7-c8eaebadc4a8.pdf
+- IGNCA, *Durgadas Rathor*: https://ignca.gov.in/Asi_data/43785.pdf
+- Ministry of Environment and Forests award notice: https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29702
 
-1. **Trap 1: The Epigraphic Memorial of Rao Siha**:
-   - *Trap*: Stating Rao Siha died in Mandore or Jodhpur.
-   - *Fact*: Rao Siha died in **Bithu village (near Pali)** in 1273 CE (V.S. 1330), attested by the **Bithu Stone Inscription** naming his queen Solankani Parvati. Mandore was not acquired until 1394 CE by Rao Chunda.
+## 47. Explicit open checks before the chapter is labelled fully verified
 
-2. **Trap 2: The Consecration of Nagnechi Mata**:
-   - *Trap*: Claiming Rao Siha or Rao Jodha installed Nagnechi Mata.
-   - *Fact*: It was **Rao Dhuhad** who brought the idol from Karnataka and consecrated it at **Nagana village (Balotra district)**.
+The following items need item-by-item verification against original inscriptions, primary chronicles, or a reliable critical edition before a final “fully verified” stamp should be applied:
 
-3. **Trap 3: Awala-Bawala Treaty Parties & Border Markers**:
-   - *Trap*: Believing Awala-Bawala was fought between Maldeo and Sanga.
-   - *Fact*: Concluded in **1453 CE** between **Maharana Kumbha (Mewar)** and **Rao Jodha (Marwar)**. Vegetation marker: Aonla trees demarcated Mewar territory; Bawal (Babool) demarcated Marwar territory.
+- The precise early Rathore genealogical chain and the proposed Rashtrakuta connection.
+- The complete wording and reading of the Bithu memorial inscription.
+- Exact attribution and sequence for the Pipar/Ghudla story.
+- The specific details of the Awala-Bawala agreement and vegetation-boundary explanation.
+- The forged-letter episode and verbatim “bajra” quotation at Giri–Sumel.
+- The exact account of Chandrasen's appearance at Nagaur and the circumstances of his death.
+- The full evidentiary basis for the Gora Dhai rescue story and details of the protection of Prince Akbar's children.
+- The exact title and origin of the “Mahi Maratib” award to Anup Singh.
+- The chronology of some later Marwar rulers and the precise terms of both states' 1818 treaties.
+- All exact numbers and quotations attached to individual battles, sieges, fairs and sacrifice traditions.
 
-4. **Trap 4: Foundation of Mehrangarh Fort**:
-   - *Trap*: Asserting that Jodhpur was founded on Akshaya Tritiya.
-   - *Fact*: Jodhpur was founded on **Jyeshtha Shukla 11, V.S. 1515 (12 May 1459 CE)**. It is **Bikaner** that was founded on Akshaya Tritiya (1488 CE)!
+### Final rule for the single-source project
 
-5. **Trap 5: The Person Buried in the Foundation of Mehrangarh**:
-   - *Trap*: Confusing Rajaram Meghwal with the ascetic Chidiyanath.
-   - *Fact*: **Chidiyanath** was the displaced sage who cursed the fort. **Rajaram Meghwal (Rajiya Bambhi)** was the pious soul voluntarily buried alive in the foundations.
-
-6. **Trap 6: The Origin of Ghudla Festival**:
-   - *Trap*: Thinking Rao Jodha initiated the Ghudla festival.
-   - *Fact*: It was Jodha's son, **Rao Satal**, who defeated Gudhla Khan at the **Battle of Pipar (1492 CE)** to rescue 140 abducted girls, dying of his battle wounds on Chaitra Shukla 3.
-
-7. **Trap 7: Commander of Marwar Troops at Khanwa (1527 CE)**:
-   - *Trap*: Naming Rao Ganga as physically leading the Marwar troops at Khanwa.
-   - *Fact*: While **Rao Ganga** was the reigning ruler, he sent his son **Kunwar Maldeo** at the head of the 4,000-man cavalry detachment.
-
-8. **Trap 8: The Battle of Paheba / Saheba (1541–42 CE)**:
-   - *Trap*: Believing Maldeo fought against Sher Shah at Paheba.
-   - *Fact*: Paheba was fought between **Rao Maldeo of Marwar** and **Rao Jaitasi of Bikaner**. Jaitasi was slain, and Maldeo placed **Kumpa** in charge of Bikaner.
-
-9. **Trap 9: Commanders at Giri-Sumel vs Haldighati vs Chittorgarh**:
-   - *Trap*: Confusing Jaita-Kumpa with Jaimal-Patta or Gora-Badal.
-   - *Fact*:
-     - **Gora & Badal**: Chittor 1st Sāka (1303 CE, Rawal Ratan Singh).
-     - **Jaimal & Patta**: Chittor 3rd Sāka (1568 CE, Maharana Udai Singh).
-     - **Jaita & Kumpa**: Giri-Sumel (1544 CE, Rao Maldeo).
-     - **Hakim Khan Sur & Jhala Manna**: Haldighati (1576 CE, Maharana Pratap).
-
-10. **Trap 10: The Geographic Shift of Giri-Sumel**:
-    - *Trap*: Writing that Giri-Sumel is in Pali district under reorganized boundaries.
-    - *Fact*: Giri-Sumel (Jaitaran) falls under the newly carved **Beawar district**.
-
-11. **Trap 11: The Ultimate Cause of Defeat at Giri-Sumel**:
-    - *Trap*: Believing Sher Shah possessed superior cavalry tactics.
-    - *Fact*: Sher Shah was stalemated and relied on **forged letters** planted in Maldeo's camp to induce paranoia. The arrival of **Jalal Khan Jalwani's** fresh reserve forces turned the battle just as Jaita and Kumpa were routing the main Afghan army.
-
-12. **Trap 12: Roothi Rani's Death & Memorial**:
-    - *Trap*: Stating Roothi Rani died at Taragarh (Ajmer).
-    - *Fact*: While she lived for years at Taragarh, she later shifted to **Kelwa (Mewar)**. She became Sati upon Maldeo’s death in 1562 CE at **Kelwa**, where her memorial Chhatri stands.
-
-13. **Trap 13: The First Rathore Ruler to Attend Nagaur Durbar**:
-    - *Trap*: Assuming Rao Chandrasen submitted at Nagaur.
-    - *Fact*: Rao Chandrasen attended the 1570 Durbar to observe Akbar’s intentions, refused submission, and left. The Rathore rulers who accepted suzerainty were **Rao Kalyanmal (Bikaner)** and Chandrasen's rival brothers (Ram and Udai Singh).
-
-14. **Trap 14: Chandrasen's Financial Stratagem**:
-    - *Trap*: Stating Chandrasen took loans from Bhama Shah.
-    - *Fact*: Bhama Shah financed **Maharana Pratap**. Chandrasen pawned **Pokhran Fort** to Rawal Harraj of Jaisalmer for 1,00,000 Fadiyas.
-
-15. **Trap 15: The Location of Rao Chandrasen's Memorial**:
-    - *Trap*: Locating Chandrasen's Chhatri at Siwana or Bhadrajun.
-    - *Fact*: Chandrasen died and was cremated at the **Saran Hills (सारण की पहाड़ियां, near Sojat/Pali)**.
-
-16. **Trap 16: First Matrimonial Alliance of Marwar with the Mughals**:
-    - *Trap*: Attributing the first Marwar Mughal marriage to Rao Maldeo or Chandrasen.
-    - *Fact*: It was contracted by **Mota Raja Udai Singh** in 1587 CE, marrying his daughter **Mani Bai / Jagat Gosain** to Prince Salim (Jahangir).
-
-17. **Trap 17: Amar Singh Rathore's Fiefdom**:
-    - *Trap*: Believing Amar Singh Rathore ruled Jodhpur.
-    - *Fact*: Disinherited by Gaj Singh, Amar Singh served Shah Jahan and was granted the independent throne of **Nagaur**.
-
-18. **Trap 18: The Gates of Mehrangarh & Hadi Rani**:
-    - *Trap*: Confusing Hadi Rani Jaswant De with Hadi Rani Sahal Kanwar (of Salumber).
-    - *Fact*:
-      - **Hadi Rani Sahal Kanwar**: Decapitated herself to give her head as a memento (*Senani*) to Rawat Ratan Singh of Salumber.
-      - **Hadi Rani Jaswant De**: Shut the gates of Mehrangarh against her husband **Maharaja Jaswant Singh I** after his defeat at the Battle of Dharmat (1658 CE).
-
-19. **Trap 19: The Two "Khalsa" Periods of Marwar**:
-    - *Trap*: Assuming Marwar was declared Khalsa only once under Aurangzeb.
-    - *Fact*: Marwar was declared imperial Khalsa **twice**:
-      1. First: **1581–1583 CE** by Akbar (after Chandrasen’s death, prior to installing Mota Raja Udai Singh).
-      2. Second: **1678–1707 CE** by Aurangzeb (after Jaswant Singh I's death, sparking the 30-Year War).
-
-20. **Trap 20: The Savior of Infant Ajit Singh**:
-    - *Trap*: Conflating Panna Dhai with Gora Dhai.
-    - *Fact*:
-      - **Panna Dhai**: Saved Prince Udai Singh of Mewar (1536 CE) by sacrificing son Chandan.
-      - **Gora Dhai**: Saved Prince Ajit Singh of Marwar (1679 CE) from Delhi confinement. Known as the *"Panna Dhai of Marwar"*.
-
-21. **Trap 21: The Final Resting Place of Veer Durgadas Rathore**:
-    - *Trap*: Placing Durgadas’s Chhatri in Jodhpur or Mandore.
-    - *Fact*: Exiled by Ajit Singh, Durgadas died at **Ujjain (Madhya Pradesh)** on 22 November 1718 CE. His red-sandstone Chhatri stands on the banks of the **Shipra River**.
-
-22. **Trap 22: "Karna of Rajputana" vs "Karna of Kaliyuga"**:
-    - *Trap*: Conflating Rai Singh and Lunkaran.
-    - *Fact*:
-      - **Rao Lunkaran (Bikaner)**: Titled **"Karna of Kaliyuga" (कलिकाल का कर्ण)** by Bithu Suja.
-      - **Maharaja Rai Singh (Bikaner)**: Titled **"Karna of Rajputana" (राजपूताना का कर्ण)** by Munshi Devi Prasad.
-
-23. **Trap 23: Veli Krishan Rukmani Ri's Epithets**:
-    - *Trap*: Claiming Col. Tod designated the text as the Fifth Veda.
-    - *Fact*: Contemporary poet **Dursa Adha** proclaimed it the **"Fifth Veda and Nineteenth Purana"**. Italian philologist **L.P. Tessitori** christened Prithviraj Rathore the **"Horace of Dingal"**.
-
-24. **Trap 24: The Participants in Matire ki Raad (1644 CE)**:
-    - *Trap*: Believing the clash involved Jodhpur and Bikaner.
-    - *Fact*: Fought between **Maharaja Karan Singh of Bikaner** and **Amar Singh Rathore of Nagaur**.
-
-25. **Trap 25: The Imperial Honor "Mahi Maratib"**:
-    - *Trap*: Thinking Aurangzeb granted Mahi Maratib to Jaswant Singh I.
-    - *Fact*: Granted to **Maharaja Anup Singh of Bikaner** for his pivotal military role in the imperial sieges of Bijapur and Golconda.
-
----
-
-## 11. RPSC RAS Examination Model Answer Laboratory
-
-### 11.1 Section A: 2-Mark High-Density Formulations (15–20 Words)
-
-#### Q1: What is the historical significance of the Bithu Stone Inscription (1273 CE)?
-**Answer**: Located near Pali, it commemorates the death of Marwar Rathore founder **Rao Siha** on Kartika Krishna 12, V.S. 1330 (1273 CE) alongside his queen Solankani Parvati, providing the bedrock chronological anchor of the dynasty.
-
-#### Q2: What was the Treaty of Awala-Bawala (1453 CE)?
-**Answer**: Mediated by Rajmata Hansa Bai between **Maharana Kumbha** (Mewar) and **Rao Jodha** (Marwar). It settled territorial borders based on vegetation (*Aonla* for Mewar, *Bawal* for Marwar) and sealed peace via matrimonial alliance.
-
-#### Q3: Why is Rao Chandrasen designated as "The Forerunner of Maharana Pratap"?
-**Answer**: Chandrasen pioneered mountain-based guerrilla resistance, rejected Mughal subordination at the 1570 Nagaur Durbar, and abandoned palace luxuries for hill redoubts (Siwana) a decade before Pratap’s coronation.
-
-#### Q4: What was the primary geopolitical cause of the Battle of Giri-Sumel (1544 CE)?
-**Answer**: Sher Shah Suri marched against Rao Maldeo to eliminate Marwar's rising hegemony, aided by Maldeo’s displaced regional rivals **Viramdeo of Merta** and **Kalyanmal of Bikaner**.
-
-#### Q5: Who was Gora Dhai, and why is she revered in Marwar's history?
-**Answer**: Revered as the *"Panna Dhai of Marwar"*, this brave lady smuggled infant Prince Ajit Singh out of Aurangzeb's armed confinement at Delhi (1679 CE) by substituting her own infant child.
-
-#### Q6: What was the historic casus belli of "Matire ki Raad" (1644 CE)?
-**Answer**: A military clash between **Karan Singh (Bikaner)** and **Amar Singh Rathore (Nagaur)** over ownership of a single watermelon fruit whose vine crossed the Jakhania-Silvi village border.
-
-#### Q7: Define the cultural significance of the Anup Sanskrit Library.
-**Answer**: Founded by **Maharaja Anup Singh** inside Junagarh Fort (Bikaner), it houses thousands of rare Sanskrit manuscripts rescued from destruction across Deccan kingdoms during 17th-century Mughal campaigns.
-
----
-
-### 11.2 Section B: 5-Mark Analytical Blueprints (50 Words)
-
-#### Q8: Analyze the military and geopolitical zenith of Marwar under Rao Maldeo.
-**Answer**:
-Under Rao Maldeo (1531–1562 CE), Marwar attained its greatest territorial and military expansion:
-- **Imperial Conquests**: Won 52 battles, expanding Marwar across 58 Parganas (annexed Bikaner at Battle of Paheba 1541, conquered Merta, Nagaur, and Jalor).
-- **Sovereign Status**: Conferred titles of *"Hashmat Vala Raja"* (by Persian chroniclers) and *"Hindu Badshah"*.
-- **Confrontation with Delhi**: Fortified strategic frontier outposts (Sojat, Merta, Pokhran) and waged the historic Battle of Giri-Sumel (1544 CE), shaking Sher Shah Suri’s imperial throne to its foundations.
-
-#### Q9: Evaluate the role of Veer Durgadas Rathore in the 30-Year Rathore-Mughal War.
-**Answer**:
-Veer Durgadas Rathore served as the diplomatic and military linchpin of Marwar’s survival (1679–1707 CE):
-- **Delhi Extraction (1679)**: Rescued infant Prince Ajit Singh and royal Ranis from Aurangzeb’s confinement at Delhi via masterly tactical rearguard sacrifice.
-- **Coalition Diplomacy**: Formed the Mewar-Marwar united front with Maharana Raj Singh and allied with the rebellious Mughal Prince Muhammad Akbar (1681).
-- **Moral Stature**: Reared Akbar’s children (Buland Akhtar, Safiyat-un-Nisa) with strict Islamic theological schooling before honorable repatriation.
-- **Liberation**: Successfully expelled the Mughal garrison in 1707 CE, reinstating Ajit Singh upon the Jodhpur throne.
-
-#### Q10: Highlight the literary and architectural achievements of Maharaja Rai Singh of Bikaner.
-**Answer**:
-Maharaja Rai Singh (1574–1612 CE), titled *"Rajputana Ka Karna"*, combined imperial statesmanship with cultural renaissance:
-- **Junagarh Citadel**: Built Junagarh Fort (*"Zameen ka Zeewar"*, 1589–1594 CE) under prime minister Karam Chand, installing the monumental Sanskrit *Rai Singh Prashasti* by Muni Jaita.
-- **Scholarly Authorship**: Penned authoritative Sanskrit and astronomical treatises including *Rai Singh Mahotsava*, *Baal Bodhini*, and *Jyotish Ratnamala*.
-- **Literary Patronage**: Nurtured his brother Prithviraj Rathore (*Veli Krishan Rukmani Ri*) and Jain scholar Jayasoma (*Karam Chand Vanshothkirtnakam Kavyam*).
-
----
-
-### 11.3 Section C: 10-Mark Multi-Dimensional Frameworks (100 Words)
-
-#### Q11: Draw a critical comparative analysis between Rao Chandrasen and Maharana Pratap in their resistance against Mughal imperialism.
-**Answer**:
-Both Rao Chandrasen (1562–1581 CE) and Maharana Pratap (1572–1597 CE) symbolize unyielding resistance against Mughal suzerainty, yet operated under fundamentally divergent socio-economic and strategic circumstances:
-
-```
-┌───────────────────────────┬───────────────────────────────────┬───────────────────────────────────┐
-│ Comparative Dimension     │ Rao Chandrasen (Marwar)           │ Maharana Pratap (Mewar)           │
-├───────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ 1. Chronology & Precedence│ Prior pioneer: Boycotted Nagaur   │ Inherited anti-Mughal posture;    │
-│                           │ Durbar (1570); set guerrilla model│ crowned in 1572; fought from 1572 │
-├───────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ 2. Feudal & Domestic Base │ Fractured: Elder brothers Ram and │ Unified: Sisodia nobility united; │
-│                           │ Udai Singh allied with Akbar;     │ wholehearted military backing of  │
-│                           │ faced internal noble subversion   │ loyal tribal Bhils (Punja Bhil)   │
-├───────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ 3. Financial Sustainability│ Critical bankruptcy: Pawned fort   │ Re-capitalized by merchant states-│
-│                           │ of Pokhran to Jaisalmer; lived on │ man Bhama Shah; rich natural      │
-│                           │ plunder and personal jewel sales  │ minerals and agricultural valleys │
-├───────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ 4. Military Doctrine      │ Strict mountain guerrilla raids   │ Dual doctrine: Open pitched shock │
-│                           │ (Bhadrajun, Siwana, Saran); no    │ battles (Haldighati, Dewair) +    │
-│                           │ major open pitched battlefield    │ extensive hill guerrilla theaters │
-├───────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
-│ 5. Historiographical Fate │ "The Forgotten Hero of Marwar"    │ National symbol of sovereign self-│
-│                           │ (overshadowed in public memory)   │ respect, celebrated globally      │
-└───────────────────────────┴───────────────────────────────────┴───────────────────────────────────┘
-```
-**Conclusion**: Chandrasen was undeniably the operational forerunner (*Agragami*) of Pratap. Pratap perfected Chandrasen's defensive doctrine with superior societal cohesion, stable finances, and geography, while Chandrasen fought against impossible odds of fraternal betrayal and fiscal ruin.
-
----
-
-#### Q12: Trace the evolution of Marwar-Mughal relations from Rao Maldeo to the death of Maharaja Jaswant Singh I, detailing the shifts between confrontation and collaboration.
-**Answer**:
-The diplomatic and military relationship between Marwar and the Mughal Empire evolved across four distinct historical phases from 1531 to 1678 CE:
-
-1. **Strategic Autonomy & Confrontation (Rao Maldeo, 1531–1562)**:
-   - Maldeo initially maintained an independent posture, offering tactical sanctuary to fugitive Humayun in 1541 CE before mistrust severed the alliance.
-   - Refused submission to Delhi's suzerainty, culminating in armed clash at Giri-Sumel (1544) against the Sur Empire. Maintained sovereign aloofness until his death.
-
-2. **Uncompromising Hill Resistance (Rao Chandrasen, 1562–1581)**:
-   - Resisted Akbar’s expansionism. Akbar exploited Rathore succession rivalries, occupying Jodhpur in 1564.
-   - The watershed **Nagaur Durbar (1570)** institutionalized open defiance; Chandrasen boycotted imperial submission, waging a 15-year mountain resistance from Siwana, resulting in the declaration of Marwar's First Khalsa (1581–1583).
-
-3. **Pragmatic Collaboration & Matrimonial Alliance (Mota Raja Udai Singh to Gaj Singh, 1583–1638)**:
-   - Mota Raja Udai Singh accepted formal Mughal suzerainty (1583), sealing the alliance by marrying Mani Bai (Jagat Gosain) to Prince Salim (1587).
-   - Rathore rulers became premier military generals of the Mughal Empire. Sur Singh received the title *"Sawai Raja"*, and Gaj Singh was titled *"Dal-Thambhan"*, commanding campaigns across Deccan and Gujarat.
-
-4. **Imperial Loyalist Hegemony to Rupture (Maharaja Jaswant Singh I, 1638–1678)**:
-   - Jaswant Singh served as premier noble of Shah Jahan’s court. Fought fiercely for Crown Prince Dara Shikoh at Dharmat (1658) and harassed Aurangzeb at Khajwa (1659).
-   - Pragmatically accommodated by Aurangzeb with premier 7,000 mansab and sent to govern Gujarat and the North-West Frontier (Jamrud).
-   - His demise in 1678 marked the complete collapse of mutual accommodation; Aurangzeb declared Marwar Khalsa, provoking the monumental 30-Year Rathore War of Liberation.
-
----
-
-[Chapter 04 Complete ➔ Next: Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties]
+This chapter is now a **substantially improved revision source**, but not yet an exhaustively primary-source-verified monograph. To close it fully, the next layer of work should be a topic-by-topic RPSC PYQ map and direct source checks for the open items above. Do not let a clean layout or a confident-sounding detail substitute for evidence.

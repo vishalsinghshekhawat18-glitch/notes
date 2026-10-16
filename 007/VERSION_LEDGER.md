@@ -17,6 +17,33 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v040 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 04 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 04 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 04 from prior audit score (Single-Source Readiness: 3.5/10, Factual Reliability: 3/10) to verified academic benchmark (~70–80% dependable exam coverage).
+  - Enforced 3-tier evidence protocol: Well-attested historical core, Chronicle-based reconstruction, and Tradition / legend.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 04 Codex**: `007/notes/rajasthan/05_CHAPTER_04_RATHORES_OF_MARWAR_AND_BIKANER.md` (889 lines, 22 master sections, full primary verification logs [1]–[11]).
+  2. **Remediated Rapid Revision Matrix 04**: `007/revision/rajasthan/04_REV_CHAPTER_04_RATHORES_MARWAR_BIKANER.md` (60-second retrieval skeleton, dynastic invariants grid, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Critical Factual Errors**:
+    - Eliminated false claim that Queen Chand Kanwar built Chand Baori inside Mandore Fort; explicitly noted Chand Baori is at **Abhaneri (Dausa)**.
+    - Disentangled the foundation of **Bikaner city** (1488 CE, Rao Bika) from the construction of **Junagarh Fort** (c. 1589–1594 CE, Maharaja Rai Singh).
+    - Clarified that Jodhpur was founded in **1459 CE** by Rao Jodha, while Mehrangarh Fort's surviving palaces represent centuries of multi-period construction.
+  - **Genealogical & Epigraphic Discipline**:
+    - Qualified the Kannauj/Rashtrakuta origin hypotheses as bardic traditions; grounded the early historical presence on Rao Siha's **Bithu Memorial Inscription (1273 CE)** without overclaiming that it proves the entire legend.
+    - Removed unsupported exact regnal dates for early rulers (Asthan, Dhuhad) and unverified battle coalitions for Rao Mallinath.
+  - **Military & Historical Disentanglement**:
+    - Reassessed the **Battle of Giri-Sumel (1544 CE)**: Sur victory; heroic stand of Jaita and Kumpa; Sher Shah's famous remark (*"for a handful of bajra..."*) cited as a reported chronicle narrative (Abbas Sarwani) rather than a verbatim transcript.
+    - Distinguished between imperial Persian chronicles (Abu'l Fazl) and Marwar traditions on Rao Chandrasen and the **Nagaur Durbar (1570 CE)**.
+    - Recontextualized the **30-Year War (1679–1707 CE)** led by Durgadas Rathore as an institutional conflict over Marwar's *watan jagir* status and succession rather than a purely personal feud.
+    - Reclassified the *Matire ki Raad* (1644 CE) as a feudal boundary clash between Karan Singh (Bikaner) and Amar Singh Rathore (Nagaur), with the watermelon vine as a folkloric focal point.
+  - **Environmental & Administrative Integration**:
+    - Clarified the **Khejarli sacrifice (1730 CE)** under Abhai Singh; noted the **Amrita Devi Bishnoi Wildlife Protection Award** is a national award by the Government of India.
+    - Added dedicated analysis on state formation, *Bhai-Bandh* kinship, pargana administration, *thikanas*, *lag-bag*, water harvesting grids (Ranisar, Padamsar), and Muhnot Nainsi's *Vigat*.
+
 ### [STAGED LOCAL] v039 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 03 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
