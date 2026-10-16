@@ -17,6 +17,28 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v044 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 08 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 08 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 08 from prior unvetted state (Omission of Rikhabdeo 1881 precursor, inaccurate caste/birth origins, lack of 4-tier epistemic tags, conflation of Criminal Tribes Act 1871 with Jairam Pesha 1930) to verified academic benchmark (~75–85% dependable single-source coverage).
+  - Enforced 4-tier epistemic hierarchy: `[Secure Core]`, `[Textbook Convention]`, `[Tradition / Local Narrative]`, and `[Historiographical Debate / Analytical Nuance]`.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 08 Codex**: `007/notes/rajasthan/09_CHAPTER_08_TRIBAL_AWAKENING_MOVEMENTS.md` (560+ lines, 19 master sections, 6 Prelims MCQs, 8 model Mains answer frameworks, full primary verification logs).
+  2. **Remediated Rapid Revision Matrix 08**: `007/revision/rajasthan/08_REV_CHAPTER_08_TRIBAL_MOVEMENTS.md` (60-second retrieval skeleton, tribal movement invariants grid with explicit epistemic tags, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Critical Factual Traps & Chronology**:
+    - Grounded the founding location of **Samp Sabha (1883 CE)** at **Sirohi**, clarifying it was neither founded at Dungarpur nor Mangarh Hill.
+    - Demystified Govind Guru's background: Born at **Bansia (Bedsa) village in Dungarpur** (1858) into a nomadic **Banjara** family (NOT Bhil); disciple of Sadhu Rajgiri; influenced by Swami Dayanand Saraswati at Udaipur in 1880–81; Samadhi situated at **Kamboi (Panchmahal, Gujarat)**.
+    - Verified the **Mangarh Dham Massacre date**: **17 November 1913 (Margashirsha Purnima)** — 6 years prior to Jallianwala Bagh (1919); over **1,500 Bhil devotees** martyred under joint machine-gun fire of Mewar Bhil Corps (MBC) and 104th Wellesley Rifles.
+    - Clarified Motilal Tejawat's origin: Born in an **Oswal Jain merchant family** at Koliyari (Jhadol Thikana), affectionately addressed as *"Bavji"* by tribals.
+    - Grounded the launch site of the **Eki Movement**: Consecrated in **May 1921 at Matrikundiya (Rashmi, Chittorgarh)**, renowned as the *"Haridwar of Rajasthan"*; slogan *"न हाकिम, न हुकम"*.
+    - Disentangled the charter of **"Mewar Ki Pukar"**: 21 demands presented to Maharana Fateh Singh; exactly **18 were conceded** and **3 were rejected** (Begar, Forest timber rights, hunting wild boars).
+    - Verified the **Neemra Massacre (7 March 1922)**: British Major Sutton (MBC) opened unprovoked fire killing **1,200 Bhils and Garasias**; Tejawat wounded in foot.
+    - Disentangled the **Criminal Tribes Act (1871)** (imperial British legislation) from the **Jairam Pesha Act (1930)** (Jaipur Princely State law mandating daily attendance at police stations for all Meenas aged 12 and above).
+    - Recovered the role of **Muni Magan Sagar** (*Meena Puran*, 1944 Neem Ka Thana Convention, Pt. Bansidhar Sharma) and the **Baghawas Summit (28 Oct 1946)** where 26,000 Chaukidars resigned (*Mukti Diwas*), leading to final statutory repeal in **1952** under CM Tikaram Paliwal.
+
 ### [STAGED LOCAL] v043 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 07 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
