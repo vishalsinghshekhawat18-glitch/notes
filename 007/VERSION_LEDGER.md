@@ -17,6 +17,28 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v045 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 09 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 09 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 09 from prior unvetted state (Omission of Rajputana-Madhya Bharat Sabha session details, lack of 4-tier epistemic tags, absence of Prelims MCQ laboratory, underdeveloped peripheral Prajamandals) to verified academic benchmark (~75–85% dependable single-source coverage).
+  - Enforced 4-tier epistemic hierarchy: `[Secure Core]`, `[Textbook Convention]`, `[Tradition / Local Narrative]`, and `[Historiographical Debate / Analytical Nuance]`.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 09 Codex**: `007/notes/rajasthan/10_CHAPTER_09_PRAJAMANDAL_MOVEMENTS_MODERN_AWAKENING.md` (540+ lines, 12 master sections, 6 Prelims MCQs, 14 model Mains answer frameworks, full primary verification logs).
+  2. **Remediated Rapid Revision Matrix 09**: `007/revision/rajasthan/09_REV_CHAPTER_09_PRAJAMANDAL_MOVEMENTS.md` (60-second retrieval skeleton, Prajamandal invariants grid with explicit epistemic tags, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Critical Factual Traps & Chronology**:
+    - Grounded the first Prajamandal in Rajasthan as **Jaipur (1931 CE)** by Kapur Chand Patni, followed by Bundi (1931).
+    - Explicitly codified the **four external Prajamandals**: Bikaner (1936, Calcutta), Bharatpur (1938, Rewari), Sirohi (1934, Bombay), and Jaisalmer (1945, Jodhpur).
+    - Disentangled the **Gentlemen's Agreement (1942)**: Concluded between Sir Mirza Ismail and Hiralal Shastri; sparked the **Azad Morcha revolt** under Baba Harish Chandra, Ramkaran Joshi, and Hans D. Roy; reunited in 1945 via Pandit Jawaharlal Nehru (not Sardar Patel).
+    - Grounded the leadership of Mewar Prajamandal: Founded 24 April 1938 at Balwant Singh Mehta's *Sahitya Kuteer*; **Balwant Singh Mehta was first President** (Manikya Lal Verma was General Secretary); VP Bhuralal Baya imprisoned in **Sarada Fort** (*"Kalapani of Mewar"*).
+    - Verified the three great martyrs: **Balmukund Bissa** (hunger strike in Jodhpur Jail, 19 June 1942), **Sagar Mal Gopa** (burned alive in Jaisalmer Jail, 3–4 April 1946; Pathak Commission), and **Birbal Singh Dhaliwal** (Raisinghnagar, 1 July 1946; "Birbal Day" 17 July 1946).
+    - Verified the **Rastapal Incident (19 June 1947)** in Dungarpur: Headmaster Nana Bhai Khant martyred; 13-year-old Bhil student **Kalibai** severed the rope dragging teacher Sengabhai with her sickle and was killed by police rifle fire (succumbed 21 June).
+    - Recovered the **Kota 1942 Quit India citizen takeover**: Students and Prajamandal cadres seized the Kotwali and hoisted the national tricolor atop Kota Fort for three continuous days.
+    - Recovered the **Tasimo Incident (11 April 1947)** in Dholpur State: Martyrs Chhatar Singh Parmar and Pancham Singh Kushwaha.
+    - Documented **Shahpura State (14 August 1947)** as the first princely state in Rajasthan to establish complete responsible government under Prime Minister Gokul Lal Asawa.
+
 ### [STAGED LOCAL] v044 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 08 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
