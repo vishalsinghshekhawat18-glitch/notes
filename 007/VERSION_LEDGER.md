@@ -17,6 +17,27 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v052 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 11 (Fort Architecture) 10/10 Epistemic Rebuild
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% REBUILT UNDER 10/10 EPISTEMIC STANDARD (CHAPTER 11)**
+* **Audit Score Baseline Alignment**:
+  - Rebuilt Chapter 11 (`12_CHAPTER_11_FORT_ARCHITECTURE_OF_RAJASTHAN.md`) and Rapid Revision Matrix 11 (`11_REV_CHAPTER_11_FORT_ARCHITECTURE.md`) applying the 4-tier epistemic hierarchy (`[Documented Core / ASI / Inscribed Fact]`, `[Standard RAS Exam Convention]`, `[Literary / Bardic Tradition]`, and `[Do Not Memorize as Fact / Popular Lore]`).
+  - Purged all unverified superlatives, mathematical conversion errors, and pseudo-archival assertions.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Chittorgarh Area Dimension Rectified**: Corrected the mathematical error of "28 sq km" down to the accurate geomorphic measurement of **approx. 2.8 to 3.2 sq km (700–800 acres)** on the Mesa Plateau.
+  - **Kumbhalgarh Great Wall Nuanced**: Maintained the verified **36 km perimeter wall** (widest rampart in India accommodating 4 horsemen abreast); qualified the popular tourist-guide assertion of being the "second longest wall on Earth" by noting comparative archaeological long-walls (such as the Gorgan Wall).
+  - **Kumbha Fort Tally Grounded**: Explicitly attributed the traditional claim that "Rana Kumbha built 32 of Mewar's 84 forts" to **Kaviraj Shyamaldas’s 19th-century *Veer Vinod***, distinguishing literary tradition from archaeological census records.
+  - **UNESCO Hill Forts Technical Precision**: Documented the **37th Session of the World Heritage Committee (Phnom Penh, Cambodia, June 2013)**, exact selection **Criteria (ii) and (iii)**, and the six serial components (Chittorgarh, Kumbhalgarh, Gagron, Jaisalmer, Ranthambore, Amber).
+  - **Shastric Taxonomy Disentangled**: Kept Kautilya's 4-fold classification (*Audaka, Parvata, Dhanvana, Vana*) strictly separated from *Shukraniti’s* 9-fold taxonomy (*Giri, Jal, Dhanvan, Vana, Eerana, Parikha, Paridha, Sainya, Sahaya*).
+  - **Historiographical Sāka Disentanglement**:
+    - Grounded the 1303 Chittorgarh siege in contemporary chronicler Amir Khusrau (*Khazain-ul-Futuh*); contextualized the Queen Padmini narrative through Malik Muhammad Jayasi’s *Padmavat* (c. 1540 CE).
+    - Documented the 1535 Sāka (Rawat Bagh Singh at Padan Pol; Rani Karnavati) and 1568 Sāka (Akbar musket *Sangram*, Jaimal, Patta, Kallaji; Phool Kanwar Jauhar; Akbar's Agra Fort statues noted by Bernier).
+    - Documented Gagron's 2 Sākas (1423 Achaldas Khichi in *Achaldas Khichi ri Vachanika*; 1444 Palhansi renamed *Mustafabad*).
+    - Documented Ranthambore's 1301 Jal Jauhar (Ranga Devi, Padmala Lake) and Jaisalmer's 1550 Ardha Sāka (Rawal Lunkaran vs Amir Ali of Kandahar).
+  - **Comprehensive Sovereign Citadels**: Covered Mehrangarh (Chidiyatunk, Rao Jodha 1459, Raja Ram Meghwal, royal cannons, Chopra Commission), Junagarh (*Zameen ka Zeewar*, Rai Singh 1589–94, Jaimal-Patta statues, Rai Singh Prashasti), Taragarh Ajmer (*Garh Beetli*, Gibraltar), Taragarh Bundi (Star shape, Garbh Gunjan), Lohagarh (Suraj Mal 1733, double mud ramparts, repelled Lord Lake 1805), Bhatner (3rd C, unbaked brick, Timur 1398 joint Jauhar), Siwana (*Kumtana*, 1308, 1582), Jalore (Nagabhata I, Songara Chauhans, 1311 Sāka), Bhainsrorgarh (*Vellore of Rajasthan*), Shergarh Dholpur (*Hun-Hunkar* cannon), Nahargarh (9 identical palaces), and Churu (silver cannonballs 1814).
+  - **Examination Laboratory**: Formulated 25 forensically autopsied traps, 10 practice Prelims MCQs, and model Mains answers across 2-mark, 5-mark, and 10-mark formats.
+
 ### [STAGED LOCAL] v051 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 10 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
