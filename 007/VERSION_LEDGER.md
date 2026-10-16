@@ -17,6 +17,42 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v054 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 12 (Palaces, Havelis, Baoris, Chhatris & Temples) 10/10 Epistemic Rebuild
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% REBUILT UNDER 10/10 EPISTEMIC STANDARD (CHAPTER 12)**
+* **Audit Score Baseline Alignment**:
+  - Rebuilt Chapter 12 (`13_CHAPTER_12_PALACES_HAVELIS_BAORIS_CHHATRIS_TEMPLES.md`) and Rapid Revision Matrix 12 (`12_REV_CHAPTER_12_PALACES_HAVELIS_TEMPLES.md`) applying the 4-tier epistemic hierarchy (`[Documented Core / Inscription / ASI / UNESCO]`, `[Standard RAS Exam Convention]`, `[Literary / Bardic / Local Tradition]`, and `[Do Not Memorize as Fact / Popular Lore / Qualified Superlative]`).
+  - Purged all unverified superlatives, pseudo-physics claims, and uncorroborated tourist lore while grounding architectural facts in primary epigraphy, ASI surveys, and authoritative historiography (James Fergusson, Dr. G.N. Sharma).
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Palaces & Secular Architecture**:
+    - Grounded Udaipur City Palace (commenced 1559 CE by Udai Singh II); explicitly credited the characterization **"Windsor of Rajasthan"** to architectural historian **James Fergusson** (purging common exam misattributions to James Tod); verified Mor Chowk peacock mosaic executed under Maharana Sajjan Singh.
+    - Grounded Hawa Mahal (1799 CE, Sawai Pratap Singh, master architect **Ustad Lal Chand Ustad**); qualified the tourist-pamphlet "adiabatic refrigeration loop" into verified vernacular passive-cooling ventilation via 953 stone *Jharokhas* and *Jalis*; codified the exact 5-storey sequence: **Sharad $\rightarrow$ Ratan $\rightarrow$ Vichitra $\rightarrow$ Prakash $\rightarrow$ Hawa Mandir**.
+    - Grounded Jaipur City Palace (1727 CE, Sawai Jai Singh II, planner Vidyadhar Bhattacharya); 7 storeys of Chandra Mahal; Sir Samuel Swinton Jacob's Indo-Saracenic Mubarak Mahal; verified the Guinness Record sterling silver Gangajalis (340 kg each, 4,000L capacity, melted 14,000 silver coins for Sawai Madho Singh II's 1901 London coronation voyage).
+    - Grounded Umaid Bhawan Palace (1929–1943, Maharaja Umaid Singh, architect Henry Vaughan Lanchester, Chittar sandstone, famine relief *Akal Rahat*).
+    - Grounded Deeg Palaces (Badan Singh & Maharaja Suraj Mal, 500+ hydraulic fountains fed by Ruparel, Gopal Bhavan).
+  - **Havelis & Aristocratic Architecture**:
+    - Disentangled Jaisalmer havelis: Patwon ki Haveli (1805 CE, Guman Chand Patwa, 5 storeys for 5 sons, 60+ jharokhas); Salim Singh ki Haveli (1815 CE, Diwan Salim Singh Mohta, 38 balconies, *Jahaz Mahal* / *Moti Mahal*); Nathmal ki Haveli (1885 CE, twin brother architects **Hathi & Lalu** carving left and right wings; demystified "blind work" as local folklore).
+    - Shekhawati "Open-Air Art Gallery": Codified chemical mechanics of *Fresco Buono* (**Ala-Gila / Arayash / Mora-Kashi**) where mineral pigments chemically bind via carbonation into wet slaked lime ($CaCO_3$ formation) buffed with agate stone; distinguished from *Fresco Secco*. Key clusters: Nawalgarh ("Golden City of Shekhawati", Poddar), Mandawa (Gulab Rai Ladia, Newatia with planes/cars), Fatehpur (Singhania / Nadine Le Prince), Churu (Surana Haveli with 1,111 doors and windows).
+  - **Stepwells (Baoris) & Water Architecture**:
+    - Chand Baori (Abhaneri, Dausa): 8th–9th century CE by Nikumbha king Raja Chand; 13 tiers (~19.5 m / ~65–100 ft depth), approx. 3,500 double-diamond geometric steps; adjoins Harshat Mata Temple; qualified "deepest in world" superlative against Bundi's 150-ft Raniji ki Baori.
+    - Raniji ki Baori (Bundi, "City of Stepwells"): Built 1699 CE by Rani Nathavati; 150 ft depth, freestanding *Torana Dwar*, high-relief *Gaj-Lakshmi* brackets, *Dashavatara* niches.
+    - Documented Bataadu ka Kuan (Baytu, Balotra) as the white Makrana marble *"Water Palace of the Thar"*; Neemrana Baori (9 storeys, Kotputli-Behror); Naulakha Baori (1586 CE, Rani Premal Devi, Dungarpur); Tri-Mukhi Baori (Rani Ramrasde, Udaipur).
+  - **Memorial Architecture (Chhatris & Mahasatiyan)**:
+    - Royal necropolises: Ahar (Udaipur; Amar Singh I first 1620 CE), Gaitore (Jaipur; Sawai Jai Singh II; **Critical Exception: Sawai Ishwari Singh cremated at Talkatora**), Mandore & Jaswant Thada (Jodhpur; Jaswant Thada built 1899 by Sardar Singh, translucent Makrana marble, "Taj Mahal of Marwar"), Devkund Sagar (Bikaner), Bada Bagh (Jaisalmer), Kshar Bagh (Bundi - 66 chhatris).
+    - Individual chhatris: 84-Pillared Bundi (1683, Aniruddha Singh for foster brother Dhaabhai Deva, Shiva Lingam); 80-Pillared Alwar (1815, Vinay Singh for Bakhtawar Singh & Moosi Maharani, bichromatic red-white masonry, Bangaldar dome); 32-Pillared Ranthambore (Hammir for Jaitrasimha's 32-yr reign / *Nyaya ki Chhatri*) and Mandalgarh (Jagannath Kachhwaha); Maharana Pratap at Bandoli (8 pillars near Chavand); Rana Sanga at Mandalgarh; Chetak at Balicha; Amar Singh Rathore at Nagaur (16 pillars); Prithviraj Sisodia at Kumbhalgarh (12 pillars).
+  - **Temple Architecture & Evolutionary Styles**:
+    - Earliest dated temple: **Sheetleshwar Mahadev at Jhalrapatan (689 CE / VS 746)** from King Durgagana's reign (architect Voppa).
+    - Maha-Maru (Gurjara-Pratihara): Osian (8th–11th c., Mahavira temple under Vatsaraja c. 778–794 CE oldest dated Jain temple in western India; Sachiya Mata; Surya temples); Kiradu Someshwara temple (Barmer, VS 1218 / 1161 CE inscription, "Khajuraho of Rajasthan"); Harshat Mata (Abhaneri); Harshnath (Sikar, 973 CE Vigraharaja II); Baroli Ghateshwar (Rawatbhata); Ambika Mata (Jagat, 960 CE, "Khajuraho of Mewar"); Bhanddevara (Ramgarh, Baran, "Mini Khajuraho / Khajuraho of Hadoti").
+    - Maru-Gurjara (Solanki): Dilwara (Mount Abu): Vimal Vasahi (1031 CE, Vimal Shah, architect Kirti Dhara, Adinatha); Luna Vasahi (1230 CE, Vastupala & Tejapala, architect Shobhana Deva, Neminatha, *Derani-Jethani Gokhla*); Pittalhar (Bhimashah, 108-maund metal Adinatha); Parshvanatha (1458–59 CE); Mahavira (1582 CE).
+    - Ranakpur Chaumukha Temple (Pali): 1439 CE (VS 1496) under Maharana Kumbha's royal grant; funded by Porwal merchant **Dharanashah**; chief architect **Depaka**; 1st Tirthankara Adinatha; **1,444 uniquely carved marble pillars** (*स्तंभों का वन*) with zero sightline obstruction; epigraphic names *Dharani-Vihara* and *Trailokya Dipaka*.
+    - Sacred Shrines: Jagdish Temple (Udaipur, 1651, Jagat Singh I, architects Arjun, Barna, Mukund, "Temple Built of Dreams"); Eklingji (Bappa Rawal 734 CE, Lakulisha Pashupata sect); Shrinathji (Nathdwara, 1672 Raj Singh I, Pushtimarg); Govind Dev Ji (Jaipur, Sawai Jai Singh II, 119-ft pillarless beam); Salasar Balaji (Churu, bearded and mustachioed Hanuman).
+  - **Examination Laboratory**:
+    - Formulated 25 forensically autopsied prelims traps.
+    - Designed 10 practice Prelims MCQs with detailed explanations.
+    - Authored high-scoring RPSC RAS Mains model answers across 2-marker, 5-marker, and 10-marker formats.
+    - Appended a complete Primary Verification Log & Audit Ledger.
+
 ### [STAGED LOCAL] v053 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 11 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
