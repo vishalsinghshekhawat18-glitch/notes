@@ -17,6 +17,21 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v051 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 10 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL AUDIT BENCHMARK (CHAPTER 10)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_10_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_10_UNIFICATION_OF_RAJASTHAN_REVISED.md`).
+  - Addressed all P0/P1 findings across notes and rapid revision matrix:
+    - **Jurisdictional Precision**: Replaced the legally inaccurate description of "23 sovereign jurisdictions" with the verified classification: **19 princely states**, **3 chiefships/thikanas** (Kushalgarh, Lava, Neemrana), and the directly administered British province of **Ajmer-Merwara**.
+    - **Accession Priority Rectified**: Corrected the assertion that Bikaner was the first state in all of India to sign accession; per V. P. Menon (*The Story of the Integration of the Indian States*), the **Gaekwar of Baroda** was the first ruler in India actually to sign, while Maharaja Sadul Singh of Bikaner played an essential early leadership role in Rajputana. Qualified Dholpur's signing as a regional exam convention.
+    - **Viability Rule Nuanced**: Removed the rigid "10 lakh population + ₹1 crore revenue" threshold as an immutable binding statutory test; framed it as a broad administrative and economic viability policy problem.
+    - **Matsya Union Composition**: Clarified that Matsya Union officially comprised **four princely states** (Alwar, Bharatpur, Dholpur, Karauli) per the Government of India White Paper; treated Neemrana as an associated small chiefship rather than a fifth sovereign state; noted 17 March formation and 18 March inauguration dates.
+    - **Mewar Financial Settlement**: Grounded the ₹20 lakh package in the White Paper: ₹10 lakh privy purse, ₹5 lakh Rajpramukh allowance, and ₹5 lakh for general "religious and charitable purposes" (purging the unverified claim of an exclusive Eklingji endowment).
+    - **Shankar Rao Deo Committee Process**: Corrected the assertion of a "democratic plebiscite / citizen voting"; documented that the committee elicited public opinion in Bharatpur and Dholpur via structured questionnaires and public delegations.
+    - **States Reorganisation Act (1956) Statutory Terms**: Documented exact statutory transfers under Sections 9 & 10: addition of **Abu Road taluka**, **Ajmer**, and **Sunel Tappa** (from Mandsaur district, MP) to Rajasthan, and the transfer of **Sironj sub-division** (enclave of Kota district) to Madhya Pradesh; Rajpramukh office abolished and first Governor **Sardar Gurmukh Nihal Singh** sworn in on 1 November 1956.
+
 ### [STAGED LOCAL] v050 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 09 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

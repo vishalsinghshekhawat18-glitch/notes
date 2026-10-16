@@ -1,634 +1,456 @@
-# Chapter 10: The Unification of Rajasthan (1948–1956)
+# Chapter 10: The Unification of Rajasthan (1947–1956)
+
+## RPSC RAS Prelims and Mains — Revised Study Source
+
+**Revision status:** Rebuilt after source audit. The major stage dates are cross-checked against Rajasthan government sources, the Government of India's *White Paper on Indian States* (1950), and the States Reorganisation Act, 1956. Popular anecdotes, disputed “first/last” claims, and details without a located primary record are labelled rather than presented as unquestionable fact.
+
+**Central idea:** Rajasthan did not emerge as a fully integrated state in a single act. Accession to India in 1947, regional political unions in 1948–49, constitutional statehood in 1950, and territorial reorganisation in 1956 were distinct processes.
 
 ---
 
-## 1. Geopolitical Landscape on the Eve of Independence
+## 1. How to read this chapter: four levels of confidence
 
-### 1.1 The Fragmented Polity: 19 States, 3 Chiefships & 1 Centrally Administered Territory
-On 15 August 1947, the geographic expanse known historically as Rajputana did not exist as a unified constitutional or administrative entity. Instead, it was fragmented into **23 distinct sovereign and autonomous jurisdictions**:
+- **Documented core:** Supported by a statute, contemporary Government of India document, or authoritative Rajasthan government institutional history.
+- **Standard RAS convention:** Commonly used in Rajasthan exam materials, but wording or date may vary across official/educational summaries.
+- **Qualified claim:** A plausible or popular account whose exact wording, date, number, or attribution is not established by the primary source located for this audit.
+- **Do not memorise as fact:** A dramatic quotation, exact statistic, legal formula, or causal claim that lacks a traceable source or conflicts with primary documentation.
 
-```text
-                    ┌────────────────────────────────────────────────────────┐
-                    │       THE GEOPOLITICAL COMPOSITION OF RAJPUTANA        │
-                    │                   (15 AUGUST 1947)                     │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ 19 Princely States              │   │ 3 Hereditary Chiefships (ठिकाने)│   │ 1 Centrally Administered Territory │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ `[Secure Core]`                 │   │ `[Secure Core]`                 │   │ `[Secure Core]`                    │
-│ • Udaipur, Jodhpur, Jaipur,     │   │ 1. **Kushalgarh** (Banswara)    │   │ • **Ajmer-Merwara** (Category 'C') │
-│   Bikaner, Kota, Bundi,         │   │ 2. **Lava** (Jaipur/Tonk border)│   │ • Ruled by British Chief           │
-│   Jhalawar, Alwar, Bharatpur,   │   │ 3. **Neemrana** (Alwar)         │     Commissioner.                      │
-│   Dholpur, Karauli, Jaisalmer,  │   │ • Semi-independent Jagir       │   │ • Possessed its own autonomous     │
-│   Sirohi, Dungarpur, Banswara,  │     estates holding separate        │     30-member legislative assembly     │
-│   Pratapgarh, Shahpura,         │     sanads.                         │     (*Dhara Sabha* / धारा सभा).        │
-│   Kishangarh, Tonk (Muslim).    │   │                                 │   │ • Sole Chief Minister:             │
-│ • Distinct currencies, stamps,  │   │                                 │     **Haribhau Upadhyaya**.            │
-│   tariffs, and customs borders. │   │                                 │   │                                    │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+The labels are deliberately more cautious than the original. “Often repeated in exam notes” is not the same as “verified from the archive.”
 
----
+## 2. The political landscape before integration
 
-### 1.2 The States' Department & Accession Viability Criteria
+### 2.1 Rajputana was not yet a unified state
 
-#### The States' Department (रियासती विभाग)
-Established on **5 July 1947** by the Interim Government of India to orchestrate the integration of 565 princely states into the Indian Dominion:
-- **Cabinet Minister-in-Charge**: **Sardar Vallabhbhai Patel** (The "Iron Man of India").
-- **Secretary**: **V.P. Menon** (Senior constitutional advisor).
-- **The Viability Threshold Formula**:
-  The States' Department established a rigid constitutional formula: only princely states possessing a **minimum population of 10 Lakh (1 Million)** AND an **annual revenue of at least Rs 1 Crore** were recognized as viable units entitled to maintain separate sovereign statehood.
-- **The Four Viable States of Rajasthan**:
-  Out of 19 states, exactly **four states** fulfilled both criteria:
-  1. **Jaipur**
-  2. **Jodhpur (Marwar)**
-  3. **Bikaner**
-  4. **Udaipur (Mewar)**
-  All remaining 15 princely states were constitutionally non-viable and legally required to merge into larger regional unions.
+At the end of British paramountcy, the Rajputana region contained **19 princely states and three chiefships/thikanas**, alongside **Ajmer-Merwara**, which was directly administered by the British and was not a princely state. The exact administrative category of each small chiefship should not be collapsed into that of a major princely state.
 
----
+The original chapter’s description of “23 sovereign and autonomous jurisdictions” is misleading. Rulers exercised internal authority of varying kinds under British paramountcy; they were not all equal sovereign states. Ajmer-Merwara in particular was administered separately from the princely states.
 
-### 1.3 Pre-Independence Failed Regional Union Schemes
+### 2.2 Accession was not the same as merger
 
-Prior to Sardar Patel's centralized integration drive, several ruling princes attempted to form alternative regional coalitions to preserve monarchical supremacy:
+The Instrument of Accession connected a ruler’s state to the Dominion of India on specified subjects. V. P. Menon and the 1948 *White Paper on Indian States* describe the core subjects as **defence, external affairs and communications**. A state’s later merger into a regional union was a further political and administrative step.
 
-```text
-┌───────────────────────────────┬───────────────────────────────┬────────────────────────────────────────────────────────┐
-│ Regional Union Scheme         │ Royal Proponent               │ Epistemic Nuance & Outcome                             │
-├───────────────────────────────┼───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ **Rajasthan Union Scheme**    │ Maharana Bhupal Singh (Mewar) │ `[Secure Core]` Convened a summit of 22 rulers from    │
-│ (राजस्थान यूनियन योजना)        │                               │ Rajputana, Gujarat, and Malwa on 25–26 June 1946 at    │
-│                               │                               │ Udaipur; failed due to inter-dynastic rivalries.       │
-├───────────────────────────────┼───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ **Hadoti Union Scheme**       │ Maharao Bhim Singh II (Kota)  │ `[Secure Core]` Proposed unifying Kota, Bundi, and     │
-│ (हाड़ौती संघ योजना)           │                               │ Jhalawar; collapsed due to Bundi's dynastic seniority. │
-├───────────────────────────────┼───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ **Vagad Union Scheme**        │ Maharawal Laxman Singh        │ `[Secure Core]` Proposed merging Dungarpur, Banswara,  │
-│ (वागड़ संघ योजना)             │ (Dungarpur)                   │ Pratapgarh, and Kushalgarh; rejected by Banswara.      │
-├───────────────────────────────┼───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ **Independent Rajputana Bloc**│ Maharaja Hanwant Singh        │ `[Secure Core]` Attempted sovereign desert alliance    │
-│ (स्वतंत्र राजपूताना मोर्चा)   │ (Jodhpur) & Hamidullah (Bhopal│ with Jinnah (Karachi corridor); foiled by Patel/Menon. │
-└───────────────────────────────┴───────────────────────────────┴────────────────────────────────────────────────────────┘
-```
+Keep the distinctions clear:
+
+| Process | Meaning | Typical Rajasthan example |
+|---|---|---|
+| Accession | The princely ruler acceded to India under the legal framework of 1947 | States signed Instruments of Accession during 1947 |
+| Covenant/union | States agreed to combine in a regional administrative and constitutional unit | Rajasthan Union, April 1948 United Rajasthan |
+| Territorial reorganisation | Boundaries were changed under the 1956 reorganisation framework | Ajmer and Sunel Tappa joined Rajasthan; Sironj went to Madhya Pradesh |
+
+### 2.3 States’ Department
+
+The States’ Department of the Government of India was established in **July 1947** to handle relations with the princely states and coordinate accession and integration. **Sardar Vallabhbhai Patel** was the minister in charge; **V. P. Menon** was the senior civil servant who played a central negotiating and administrative role.
+
+#### The supposed “10 lakh population + ₹1 crore revenue” rule
+
+The original source presents this as a rigid, legally established viability formula and says that exactly four Rajasthan states met it. This audit did **not** locate primary documentation establishing that precise two-part test as a universal binding rule. The Government of India’s *White Paper on Indian States* discusses the viability of larger and smaller states and their integration, but should not be cited as verification of this exact formula without a pinpoint passage.
+
+**Exam handling:** Do not describe the threshold as a statutory rule or say smaller states were “legally required” to merge solely because they failed it. The policy problem was administrative and economic viability; integration was achieved through accession, negotiations, covenants and agreements.
+
+### 2.4 Three chiefships/thikanas: avoid over-counting
+
+Rajasthan exam summaries commonly identify **Neemrana, Kushalgarh and Lava** as the three chiefships/thikanas associated with the integration story. Their administrative status and the exact stage at which each was absorbed should not be written as if they were all equivalent to full princely states.
+
+A key documentary nuance: the 1950 *White Paper* describes the Rajasthan Union as nine states, with **Banswara “including Kushalgarh.”** It therefore does not treat Kushalgarh as a separate tenth covenanting state in that passage. Some Rajasthan exam summaries list it separately as a chiefship associated with that stage. For an evidence-led account, state both facts and do not conflate the categories.
+
+The *White Paper* description of the Matsya Union names **four states only**—Alwar, Bharatpur, Dholpur and Karauli. Some exam summaries append Neemrana to this stage; the primary passage cited here does not list it as a fifth constituent state. Treat any separate role for Neemrana as a small chiefship, not as a fifth princely state of Matsya Union.
 
 ---
 
-### 1.4 Critical Accession Intrigues & Geopolitical Flashpoints
+## 3. Accession episodes: documented facts versus popular dramatisation
 
-#### 1. The Bikaner Vanguard
-- **Maharaja Sadul Singh of Bikaner** and his eminent Dewan **K.M. Panikkar** broke the princely front by being the first princely state in India to join the Constituent Assembly on **28 April 1947**.
-- **First to Sign Accession**: Bikaner signed the Instrument of Accession on **7 August 1947**, setting the patriotic benchmark for other rulers.
+### 3.1 Bikaner and Maharaja Sadul Singh
 
-#### 2. The Jodhpur-Pakistan Conspiracy
-- Young **Maharaja Hanwant Singh of Jodhpur**, influenced by the Nawab of Bhopal, held secret meetings with **Muhammad Ali Jinnah** in Delhi. Jinnah offered Hanwant Singh a blank signed sheet of paper conceding free Karachi port access, arms imports, and rail transit to Hyderabad (Sindh).
-- V.P. Menon and Sardar Patel intervened decisively, summoning Hanwant Singh to the Viceroy's lodge. Patel appealed to Hindu cultural solidarity and warned him of internal Prajamandal rebellion.
-- During the dramatic signing, Hanwant Singh drew a concealed .22 caliber pen-pistol on V.P. Menon, shouting: *"I will shoot you if you betray my state!"*, before Lord Mountbatten disarmed the prince and secured the accession.
+Maharaja **Sadul Singh of Bikaner**, assisted by his Dewan **K. M. Panikkar**, is widely credited in Rajasthan histories with giving an early and influential lead to other rulers in accepting accession to India. The distinction matters: in *The Story of the Integration of the Indian States*, V. P. Menon writes that **Sir Pratap Singh, Gaekwar of Baroda, was the first ruler actually to sign an Instrument of Accession in India**. Menon separately praises the leading role played by Sadul Singh of Bikaner.
 
-#### 3. Maharana Bhupal Singh's Sovereign Rebuff
-When Jinnah approached Mewar through emissaries promising sovereign autonomy, **Maharana Bhupal Singh** delivered an immortal patriotic verdict:
-> *"My ancestors chose their sovereign path 1,300 years ago. If I betray the sacred soil of India today, the spirits of Bappa Rawal, Maharana Sanga, and Maharana Pratap will spit upon my grave!"*
+Therefore:
 
-#### 4. The Alwar & Bharatpur Crisis (February 1948)
-- Following the assassination of Mahatma Gandhi (30 January 1948), suspicions arose regarding the patronage extended to Hindu extremists by Alwar ruler **Maharaja Tej Singh** and his prime minister **Dr. N.B. Khare (Narayan Bhaskar Khare)**.
-- The Government of India placed Tej Singh and Dr. Khare under house arrest in Delhi and took over direct administration of Alwar on **7 February 1948**.
-- Concurrently, severe communal disturbances in Bharatpur led the Indian Government to assume direct administration of Bharatpur as well. This administrative takeover served as the direct operational catalyst for creating the **Matsya Union** on 18 March 1948.
+- **Do not write:** “Bikaner was the first princely state in all India to sign accession.”
+- **Safer:** “Bikaner’s ruler Sadul Singh was an early and important supporter of accession; Rajasthan exam notes often give 7 August 1947 as Bikaner’s signing date and may call it first in Rajputana. That region-specific rank/date was not independently confirmed from the primary record located for this audit.”
 
----
+Likewise, the familiar assertion that Dholpur was the “last state to sign” on 14 August 1947 should be framed as a Rajasthan exam convention unless a state-by-state register or Instrument is cited. It is not the same claim as the last princely state in India to accede.
 
-## 2. The Complete 7-Stage Architectural Matrix of Unification
+### 3.2 Jodhpur, Hanwant Singh and Pakistan
 
-```text
-                    ┌────────────────────────────────────────────────────────┐
-                    │      THE SEVEN PROGRESSIVE STAGES OF UNIFICATION       │
-                    │                   (1948–1956)                          │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-    ┌─────────────────┬─────────────────┼─────────────────┬─────────────────┐
-    │                 │                 │                 │                 │
-┌───┴──────────┐ ┌────┴─────────┐ ┌─────┴────────┐ ┌──────┴────────┐ ┌──────┴─────────┐
-│ Stage 1:     │ │ Stage 2:     │ │ Stage 3:     │ │ Stage 4:     │ │ Stage 7:        │
-│ Matsya Union │ │ Rajasthan    │ │ United       │ │ Greater      │ │ Reorganized     │
-│ (18 Mar 1948)│ │ (25 Mar 1948)│ │ (18 Apr 1948)│ │ (30 Mar 1949)│ │ (1 Nov 1956)    │
-├──────────────┤ ├──────────────┤ ├──────────────┤ ├──────────────┤ ├─────────────────┤
-│ • ABCD +     │ │ • 9 States + │ │ • Stage 2 +  │ │ • Stage 3 +  │ │ • Fazal Ali SRC │
-│   Neemrana.  │     Kushalgarh.│     Udaipur    │     JJJB +     │   Report.         │
-│ • Capital:   │ │ • Capital:   │     (Mewar).   │     Lava.      │ • Abu-Delwara &   │
-│   Alwar.     │     Kota.      │ • Capital:     │ • Capital:     │   Ajmer merged.   │
-│ • Shobharam  │ │ • Gokul Lal  │     Udaipur.   │     Jaipur.    │ • Rajpramukh      │
-│   Kumawat.   │     Asawa.     │ • M.L. Verma.  │ • H. Shastri.  │   abolished.      │
-└──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘ └─────────────────┘
-```
+Maharaja **Hanwant Singh of Jodhpur** explored the possibility of joining Pakistan and negotiated with **Muhammad Ali Jinnah** before Jodhpur acceded to India. The episode demonstrates the uncertainty of accession negotiations and the importance of geography, communications, food supplies, arms and internal politics.
+
+The famous story of a concealed .22-calibre pen-pistol is repeated in accounts of the episode, but details vary. The original chapter’s cinematic version—that Hanwant Singh threatened to kill Menon, then Mountbatten physically disarmed him and thereby secured accession—should not be treated as a fully verified verbatim scene. Menon’s narrative is one important source, while later accounts interpret the gesture differently.
+
+**Exam-safe formulation:** “Jodhpur’s ruler briefly considered accession to Pakistan; negotiations with Patel, Menon and Mountbatten culminated in accession to India. The pen-pistol episode is a popular anecdote whose dramatic details should be qualified.”
+
+### 3.3 The alleged patriotic quotation of Maharana Bhupal Singh
+
+The original source attributes an elaborate quotation about the spirits of Bappa Rawal, Sanga and Pratap to Maharana Bhupal Singh in response to Jinnah. No traceable contemporary record for that exact wording was located in this audit. **Do not memorise it as a verbatim historical quotation.** The underlying fact—that Mewar joined the Rajasthan Union in April 1948—is documented independently.
+
+### 3.4 Alwar and Bharatpur in early 1948
+
+The political situation in Alwar and Bharatpur became especially sensitive following the assassination of Mahatma Gandhi in January 1948 and reports of communal violence and extremist connections. The Government of India intervened in the administration of these states. These developments formed part of the context in which the four-state **Matsya Union** was created; the process should not be reduced to one dramatic cause alone.
 
 ---
 
-### 2.1 Stage 1: Matsya Union (मत्स्य संघ — 18 March 1948)
-- **Merged Units**: 4 Princely States + 1 Chiefship:
-  - **A**lwar, **B**haratpur, **C**roli (**K**arauli), **D**holpur + **Neemrana** Thikana.
-- **Nomenclature**: Christened **"Matsya Union"** upon the erudite recommendation of **K.M. Munshi**, commemorating the ancient Vedic *Matsya Mahajanapada*.
-- **Inauguration**: Formally inaugurated on **18 March 1948** (originally scheduled for 17 March, postponed by one day due to agrarian protests by Kunwar Deshraj and local Jat leaders) by Union Cabinet Minister **N.V. Gadgil (Narhar Vishnu Gadgil)** at **Lohagarh Fort, Bharatpur**.
-- **Capital**: **Alwar**.
-- **Rajpramukh**: **Maharaja Udaybhan Singh** (Dholpur).
-- **Up-Rajpramukh**: **Maharaja Ganesh Pal Vasudev** (Karauli).
-- **Prime Minister**: **Shobharam Kumawat** (Alwar Prajamandal).
-- **Council of Ministers**:
-  - Master Bholanath (Alwar), Chiranjilal Sharma (Karauli), Dr. Mangal Singh (Dholpur), Gopi Lal Yadav & Jugal Kishore Chaturvedi (Bharatpur).
-- **Statistical Ledger**: Area: 12,000 sq km; Population: 18.38 Lakh; Annual Revenue: Rs 1.84 Crore.
+## 4. The seven stages of Rajasthan’s integration
+
+### Stage overview table
+
+| Stage | Date commonly used | Union/state | Main territorial change | Capital commonly given | Key leadership / exam anchor |
+|---:|---|---|---|---|---|
+| 1 | 17 March 1948; some contemporary/official accounts say inaugurated 18 March | Matsya Union | Alwar, Bharatpur, Dholpur and Karauli | Alwar | Shobha Ram Kumawat; Rajpramukh Udaybhan Singh of Dholpur |
+| 2 | 25 March 1948 | Rajasthan Union / Former Rajasthan | Nine states in south-eastern Rajputana; the official *White Paper* describes Banswara as including Kushalgarh | Kota | Gokul Lal Asawa; Kota ruler as Rajpramukh |
+| 3 | 18 April 1948 | United State of Rajasthan | Rajasthan Union + Mewar/Udaipur | Udaipur is commonly given | Maharana Bhupal Singh as Rajpramukh; Manikya Lal Verma as head of government |
+| 4 | 30 March 1949 | Greater Rajasthan | Stage 3 + Jaipur, Jodhpur, Bikaner and Jaisalmer | Jaipur | Patel inaugurated it; Sawai Man Singh II became Rajpramukh; Bhupal Singh Maharajpramukh; Hiralal Shastri led the government |
+| 5 | 15 May 1949 | United State of Greater Rajasthan | Matsya Union joined Greater Rajasthan | Jaipur | Shankar Rao Deo Committee’s inquiry into Bharatpur/Dholpur preference for Rajasthan or United Provinces |
+| 6 | 26 January 1950 | Rajasthan under the Constitution | Sirohi integrated, apart from the territory transferred to Bombay in 1948 | Jaipur | Rajasthan became a Part B state; Hiralal Shastri was the first head of government commonly listed as Chief Minister |
+| 7 | 1 November 1956 | Reorganised Rajasthan | Ajmer, Abu Road territory and Sunel Tappa added; Sironj sub-division transferred to Madhya Pradesh | Jaipur | States Reorganisation Act, 1956; Governor Gurmukh Nihal Singh; Rajpramukh system ended |
+
+**Date note:** Government sources do not always use the same date for the first two stages. The Rajasthan Legislative Assembly and Rajasthan Foundation list Matsya as formed on **17 March 1948**, while the Government of India’s *White Paper on Indian States* says Matsya was inaugurated on **18 March 1948**. For Rajasthan Union, the *White Paper* and Rajasthan Foundation give **25 March 1948**, while one Rajasthan Legislative Assembly government page lists **23 March**. For competitive exams, 25 March is the standard stage date; understand the record variation rather than treating all web pages as mutually consistent.
+
+### Stage 1 — Matsya Union
+
+**Core date:** 17 March 1948 (formation; 18 March appears as inauguration in the *White Paper*).
+
+**Four constituent princely states:**
+1. Alwar
+2. Bharatpur
+3. Dholpur
+4. Karauli
+
+The *White Paper on Indian States* is clear that Matsya Union consisted of these four princely states. **Neemrana should not be added as a fifth princely state.** Some local exam summaries associate the Neemrana chiefship with the broader merger process, but that is a different administrative category.
+
+- **Inaugurator commonly recorded:** N. V. Gadgil, Union Minister.
+- **Capital commonly recorded:** Alwar.
+- **Chief Minister/Prime Minister:** Shobha Ram (also written Shobha Ram Kumawat).
+- **Rajpramukh:** Maharaja Udaybhan Singh of Dholpur.
+
+The Union was a first regional consolidation step, not yet the final Rajasthan state.
+
+### Stage 2 — Rajasthan Union (Former Rajasthan)
+
+**Date:** 25 March 1948.
+
+The nine princely states were:
+
+- Banswara *(the Government of India’s account specifies Banswara including Kushalgarh)*
+- Bundi
+- Dungarpur
+- Jhalawar
+- Kishangarh
+- Kota
+- Pratapgarh
+- Shahpura
+- Tonk
+
+- **Capital:** Kota.
+- **Rajpramukh:** The ruler of Kota, Maharao Bhim Singh II.
+- **Head of government:** Gokul Lal Asawa.
+- **Inaugurator:** N. V. Gadgil is commonly recorded.
+
+**Do not miscount the units:** Some exam guides list Kushalgarh as a tenth component because it was a chiefship. The *White Paper* describes the union as nine states and places Kushalgarh within Banswara. In an exam, respond to the exact wording: “nine states” is the document-led formulation; mention the separate chiefship convention only where relevant.
+
+**The “death warrant” quotation:** Rajasthan study guides often attribute “I am signing my death warrant” to Banswara’s ruler, Maharawal Chandraveer Singh, when signing accession/merger documents. The precise occasion and verbatim wording need a contemporaneous citation that was not identified here. Keep it as a popular exam anecdote, not a secure primary-source quotation.
+
+### Stage 3 — United State of Rajasthan
+
+**Date:** 18 April 1948.
+
+The Rajasthan Union joined with **Mewar/Udaipur**. The addition of Mewar materially strengthened the union and changed its constitutional leadership.
+
+- **Inaugurator:** Jawaharlal Nehru.
+- **Capital commonly listed:** Udaipur.
+- **Rajpramukh:** Maharana Bhupal Singh of Mewar, appointed for his lifetime.
+- **Up-Rajpramukh:** The Kota ruler, with other princely dignitaries assigned subordinate roles in the covenant.
+- **Head of government:** Manikya Lal Verma.
+- **Deputy/head of government:** Gokul Lal Asawa is commonly listed as Deputy Prime Minister.
+
+#### Mewar settlement and financial provision
+
+The Government of India’s *White Paper on Indian States* records the Mewar settlement as:
+
+- Privy purse: **₹10 lakh per year**.
+- Consolidated allowance for the Maharana as Rajpramukh: **₹5 lakh per year**.
+- Additional annual provision from the State’s revenues for **charitable and religious purposes: ₹5 lakh**.
+
+The total is **₹20 lakh annually** under these three headings. The original chapter describes the last ₹5 lakh as a dedicated endowment for the Eklingji temple. The primary wording located says “charitable and religious purposes”; unless a separate covenant clause is cited, do not narrow the full grant exclusively to Eklingji.
+
+### Stage 4 — Greater Rajasthan
+
+**Date:** 30 March 1949.
+
+The United State of Rajasthan was joined by the four major states:
+
+- Jaipur
+- Jodhpur
+- Bikaner
+- Jaisalmer
+
+- **Inaugurator:** Sardar Vallabhbhai Patel.
+- **Capital:** Jaipur.
+- **Rajpramukh:** Sawai Man Singh II of Jaipur.
+- **Maharajpramukh:** Maharana Bhupal Singh of Mewar, appointed for life.
+- **Head of government/Premier:** Hiralal Shastri; government institutional histories commonly record his swearing-in on 7 April 1949.
+
+**Rajasthan Day:** 30 March commemorates the formation/inauguration of Greater Rajasthan in 1949. It marks a major consolidation stage, not the final territorial reorganisation of 1956.
+
+#### P. Satyanarayan Rao Committee and allocation of institutions
+
+Rajasthan exam materials often attribute to a committee chaired by **P. Satyanarayan Rao** a compromise over the capital and distribution of administrative institutions among cities. Commonly repeated allocations are Jaipur as capital, Jodhpur for the High Court, Bikaner for education, Udaipur for mining/customs and Ajmer for the Board of Revenue; some summaries also assign agriculture/forests to Bharatpur.
+
+The original committee report was not located in a form that allowed each alleged allocation and the membership list to be checked line by line. Treat the expanded departmental distribution as **standard exam convention pending direct verification**, not as a fully verified primary-source table. The capital at Jaipur and the High Court at Jodhpur are stable administrative facts; do not invent a committee quotation or report clause.
+
+### Stage 5 — United State of Greater Rajasthan
+
+**Date:** 15 May 1949.
+
+The **Matsya Union** was integrated with Greater Rajasthan. Before the merger, there was a question whether Bharatpur and Dholpur should be joined with Rajasthan or with the United Provinces (Uttar Pradesh).
+
+#### Dr. Shankar Rao Deo Committee
+
+The Government of India’s *White Paper on Indian States* identifies the committee as:
+
+1. **Shankar Rao Deo** — Chairman
+2. **R. K. Sidhwa** — Member
+3. **Prabhu Dyal Himatsingka** — Member
+
+The committee elicited opinions by **questionnaires and public meetings**. It concluded that majority opinion in Bharatpur and Dholpur favoured integration with Rajasthan rather than merger into the United Provinces. It also said the preference might not remain stable and recommended that people could be given an opportunity to decide later through a plebiscite or other appropriate procedure.
+
+**Critical correction:** This was not a binding popular referendum in which all residents cast votes. Avoid “citizens voted overwhelmingly” or “democratic plebiscite” as descriptions of the committee’s method. The government accepted the recommendation and concluded the agreement for administration to be taken over from 15 May 1949.
+
+### Stage 6 — Rajasthan under the Constitution, 26 January 1950
+
+On commencement of the Constitution, the state was formally known as **Rajasthan** and was a **Part B state** under the constitutional classification then in force.
+
+Sirohi was integrated in January 1950, but certain territory had been transferred to Bombay State in February 1948. The precise legal description needs care:
+
+- Census material describes the **Abu Road and Dilwara/Delwara tehsils, including Mount Abu**, as having been transferred to Bombay and then retransferred after reorganisation in 1956.
+- Section 10 of the **States Reorganisation Act, 1956** specifically lists **Abu Road taluka** of Banaskantha district in Bombay as territory to become part of Rajasthan, and states that it would become part of Sirohi district.
+
+Use **“Abu Road territory (including the locally described Mount Abu/Delwara area)”** where you need a general account. In a question asking what the Act explicitly named, answer **Abu Road taluka**.
+
+### Stage 7 — Reorganised Rajasthan, 1 November 1956
+
+The **States Reorganisation Act, 1956** completed another major stage of territorial and constitutional reorganisation. It did not simply “merge all remaining states”; it also transferred particular territories between states and changed the constitutional classification of states.
+
+| Area/change | Legal result on 1 November 1956 | Exam note |
+|---|---|---|
+| Ajmer | Former Part C state merged into Rajasthan and became Ajmer district | Ajmer had been administered separately before reorganisation |
+| Abu Road taluka | Transferred from Bombay State to Rajasthan; included in Sirohi district | The Act specifically names Abu Road taluka |
+| Sunel Tappa | Transferred from Madhya Bharat to Rajasthan; included in Jhalawar district | Do not confuse it with Sironj |
+| Sironj sub-division | Transferred from Rajasthan to Madhya Pradesh and included in Bhilsa district under the Act’s terminology | It did **not** join Rajasthan |
+| Constitutional structure | Part A/B/C classification was replaced; Rajpramukh system ended and Governor became the constitutional head | Read with the Constitution (Seventh Amendment) Act, 1956 |
+
+- **First Governor of Rajasthan:** Sardar Gurmukh Nihal Singh, who assumed office on 1 November 1956.
+- **Chief Minister at reorganisation:** Mohan Lal Sukhadia.
+- **Ajmer:** Became a district within Rajasthan as a result of reorganisation.
+
+**Terminology warning:** The 1956 Act’s legal text and Census descriptions are not identical in their shorthand for the Abu Road/Mount Abu/Delwara area. Cite the Act when stating the legal territory, and the Census handbook for district-level historical description.
 
 ---
 
-### 2.2 Stage 2: Former Rajasthan / Rajasthan Union (राजस्थान संघ / पूर्व राजस्थान — 25 March 1948)
-- **Merged Units**: 9 Princely States + 1 Chiefship:
-  - **Banswara, Bundi, Dungarpur, Jhalawar, Kota, Pratapgarh, Shahpura, Tonk, Kishangarh** + **Kushalgarh** Thikana.
-  - *(Standard Academic Mnemonic: बाबू झाड़ू कीको प्रसाटो + कुशलगढ़)*.
-- **Inauguration**: Inaugurated on **25 March 1948** by **N.V. Gadgil** at **Kota Fort**.
-- **Capital**: **Kota**.
-- **Rajpramukh**: **Maharao Bhim Singh II** (Kota).
-- **Senior Up-Rajpramukh**: **Maharao Bahadur Singh** (Bundi).
-- **Junior Up-Rajpramukh**: **Maharawal Laxman Singh** (Dungarpur).
-- **Prime Minister**: **Gokul Lal Asawa** (Shahpura Prajamandal).
-- **The "Death Warrant" Historic Epigram**:
-  While executing the accession treaty of Banswara state, **Maharawal Chandraveer Singh** declared with profound sorrow:
-  > *"I am signing on my Death Warrant!"*  
-  > *(मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ!)*
-- **Statistical Ledger**: Area: 16,807 sq km; Population: 23.5 Lakh; Annual Revenue: Rs 2.00 Crore.
+## 5. Leadership transitions: use titles appropriate to the period
+
+The original material moves between “Prime Minister”, “Premier” and “Chief Minister” as if the terms were always institutionally interchangeable. For the earlier covenanting unions, government heads were often described as Prime Ministers or heads of government; after constitutional statehood, “Chief Minister” is the standard term. In a short exam answer, identify both the person and the stage rather than imposing a later title without qualification.
+
+| Person | Stage/period commonly associated | Safe recall point |
+|---|---|---|
+| Shobha Ram / Shobha Ram Kumawat | Matsya Union (1948) | Head of the first union’s government |
+| Gokul Lal Asawa | Rajasthan Union (1948); Deputy in United Rajasthan in standard accounts | Shahpura leader; head of government of Rajasthan Union |
+| Manikya Lal Verma | United State of Rajasthan (April 1948) | Head of government after Mewar joined |
+| Hiralal Shastri | Greater and United Greater Rajasthan; early constitutional Rajasthan | First Premier/head of government of Greater Rajasthan; commonly listed as first Chief Minister after the Constitution began operating in Rajasthan |
+| C. S. Venkatachar | 1951 transition | Appointed during the post-Shastri transition; do not skip him in a detailed chronology |
+| Jai Narayan Vyas | 1951 and again after the 1952 election transition | Nominated and later elected through a by-election in standard Rajasthan histories; exact appointment/election dates should be cross-checked against official cabinet records |
+| Tikaram Paliwal | 1952 | Commonly identified as the first Chief Minister after the first general election; assumed office on 3 March 1952 in standard accounts |
+| Mohan Lal Sukhadia | From 1954; CM at 1956 reorganisation | Chief Minister when modern territorial reorganisation took effect |
+
+**Exam trap:** Do not say Rajasthan’s current constitutional map was complete on 30 March 1949. That date marks Greater Rajasthan. The 1950 constitutional stage and the 1956 reorganisation stage matter equally to a full chronology.
 
 ---
 
-### 2.3 Stage 3: United Rajasthan (संयुक्त राजस्थान — 18 April 1948)
-- **Merged Units**: Former Rajasthan (Stage 2) + **Udaipur (Mewar)**.
-- **The Mewar Settlement & Privy Purse**:
-  Maharana Bhupal Singh insisted on Udaipur being the capital and required a special privy purse. Patel granted an extraordinary annual allocation of **Rs 20 Lakh per annum**:
-  - Rs 10 Lakh regular Privy Purse.
-  - Rs 5 Lakh special allowance for the Maharana.
-  - Rs 5 Lakh dedicated annual endowment for the temple of **Shree Eklingji**.
-- **Inauguration**: Formally inaugurated on **18 April 1948** by Prime Minister **Pandit Jawaharlal Nehru** at **Udaipur**.
-- **Capital**: **Udaipur**.
-- **Rajpramukh**: **Maharana Bhupal Singh** (Udaipur).
-- **Senior Up-Rajpramukh**: **Maharao Bhim Singh II** (Kota).
-- **Junior Up-Rajpramukh**: **Bahadur Singh** (Bundi) and **Laxman Singh** (Dungarpur).
-- **Prime Minister**: **Manikya Lal Verma** (Mewar Prajamandal).
-- **Deputy Prime Minister**: **Gokul Lal Asawa** (Shahpura).
-- **Statistical Ledger**: Area: 29,777 sq km; Population: 42.6 Lakh; Annual Revenue: Rs 3.16 Crore.
+## 6. Master chronology for rapid revision
+
+| Date | Event | What to remember |
+|---|---|---|
+| July 1947 | States’ Department established | Patel; V. P. Menon played a key administrative role |
+| August 1947 | Accession process | Accession was distinct from later merger into unions |
+| 17/18 March 1948 | Matsya Union | Four states: Alwar, Bharatpur, Dholpur, Karauli; sources differ on formation/inauguration date |
+| 25 March 1948 | Rajasthan Union | Nine states; Banswara described as including Kushalgarh in the *White Paper* |
+| 18 April 1948 | United State of Rajasthan | Mewar joins; Bhupal Singh becomes Rajpramukh; Manikya Lal Verma heads government |
+| 30 March 1949 | Greater Rajasthan | Jaipur, Jodhpur, Bikaner and Jaisalmer join; Patel inaugurates; Rajasthan Day |
+| 15 May 1949 | United State of Greater Rajasthan | Matsya Union joins; Shankar Rao Deo Committee findings form part of the process |
+| 26 January 1950 | Rajasthan becomes a Part B state | Sirohi is integrated, subject to territory already transferred to Bombay |
+| 1951–52 | Transition to elected government | Elections and cabinet leadership transition; Tikaram Paliwal becomes CM in 1952 |
+| 1 November 1956 | Reorganised Rajasthan | Ajmer, Abu Road territory and Sunel Tappa added; Sironj transferred out; Governor replaces Rajpramukh system |
 
 ---
 
-### 2.4 Stage 4: Greater Rajasthan (बृहत् राजस्थान — 30 March 1949)
-The grand integration of the four vast desert and central frontier kingdoms:
-- **Merged Units**: United Rajasthan (Stage 3) + **4 Major Princely States**:
-  - **Jaipur, Jodhpur, Bikaner, Jaisalmer** + **Lava** Thikana.
-  - *(Mnemonic: JJJB + Lava)*.
-- **Inauguration**: Formally inaugurated on **30 March 1949** by **Sardar Vallabhbhai Patel** at **City Palace, Jaipur**.
-- **Rajasthan Day (राजस्थान दिवस)**: The **30th of March** is celebrated annually as **Rajasthan Day** to commemorate this consolidation of 75% of Rajasthan's territory.
-- **Constitutional Executive**:
-  - **Maharajpramukh (महाराजप्रमुख)**: Special lifetime constitutional office created exclusively for **Maharana Bhupal Singh of Mewar** (the only Maharajpramukh in Indian constitutional history).
-  - **Rajpramukh**: **Maharaja Sawai Man Singh II** (Jaipur).
-  - **Senior Up-Rajpramukh**: **Maharaja Hanwant Singh** (Jodhpur) and **Maharao Bhim Singh II** (Kota).
-  - **Junior Up-Rajpramukh**: **Bahadur Singh** (Bundi) and **Laxman Singh** (Dungarpur).
-- **First Premier**: **Hiralal Shastri** (sworn in on 7 April 1949).
+## 7. Claims from the original chapter that should be qualified or excluded
 
-```text
-                    ┌────────────────────────────────────────────────────────┐
-                    │       THE P. SATYANARAYAN RAO COMMITTEE (1949)         │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Committee Composition               │                     │  Departmental Allocation Across Cities           │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ `[Secure Core]`                      │                     │ `[Secure Core]`                                  │
-│ 1. **P. Satyanarayan Rao** (Chairman)│                     │ • State Administrative Capital: **Jaipur**       │
-│ 2. **V.K. Vishwanathan** (Member)    │                     │ • High Court Principal Seat: **Jodhpur**         │
-│ 3. **B.K. Patel** (Member)           │                     │ • Education Department: **Bikaner**              │
-│ • Constituted to resolve inter-city  │                     │ • Mining & Customs Department: **Udaipur**       │
-│   rivalries between Jaipur, Jodhpur, │                     │ • Agriculture & Forest Department: **Bharatpur** │
-│   Udaipur, Bikaner, and Ajmer.       │                     │ • Board of Revenue (राजस्व मंडल): **Ajmer**     │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+1. **“Only four states met a binding 10 lakh/₹1 crore test.”** The exact fixed formula was not verified in primary documentation. Do not label it statutory.
+2. **“Bikaner was the first ruler/state in India to sign accession.”** This conflicts with V. P. Menon’s account naming Baroda’s Gaekwar as the first ruler actually to sign. Bikaner’s important early role is real, but the all-India ranking is wrong.
+3. **“Dholpur was the last state in India to sign accession.”** At best this is a Rajasthan-specific convention; it should not be extended to India as a whole.
+4. **“Rajasthan had 23 sovereign jurisdictions.”** Misleading because Ajmer-Merwara was directly administered, and not all units had equivalent status.
+5. **“Matsya consisted of four states plus Neemrana.”** The *White Paper* names the four states only. Treat Neemrana’s role separately as a chiefship/local administrative question.
+6. **“Shankar Rao Deo conducted a plebiscite/official vote.”** The primary text says questionnaires and public meetings; a formal plebiscite was proposed as a possible later step.
+7. **“Bhupal Singh said” followed by an elaborate patriotic quotation.** No traceable contemporary source for this exact wording was found. Do not memorise it as verbatim.
+8. **Jodhpur pen-pistol incident as cinematic fact.** The pistol anecdote exists in histories, but the motive, exact words and role of Mountbatten vary. Present it as an anecdote.
+9. **₹5 lakh specifically earmarked only for Eklingji.** The *White Paper* wording is for charitable and religious purposes. Do not narrow it unless a covenant clause proves the temple-specific allocation.
+10. **“Ajmer-Merwara had an autonomous 30-member assembly on 15 August 1947.”** This is a chronology error. Ajmer was separately administered; the Part C-era assembly/Chief Minister arrangement belongs to the post-Constitution period, not pre-independence Rajputana.
+11. **“Abu and Delwara” as the exact words of the 1956 Act.** The Act explicitly names Abu Road taluka. Census material supplies a broader description of associated territory.
+12. **Expanded P. Satyanarayan Rao committee portfolio distribution all marked secure.** Original committee record was not independently inspected in this audit. Keep common exam allocations with a “standard convention / primary record not located” label.
+13. **Exact area, population and revenue figures for each union.** Figures differ between secondary tables, reference years and rounding. Include only where an identified contemporary source supports the specific unit and date.
 
 ---
 
-### 2.5 Stage 5: United Greater Rajasthan (संयुक्त बृहत् राजस्थान — 15 May 1949)
-- **Merged Units**: Greater Rajasthan (Stage 4) + **Matsya Union** (Stage 1).
-- **The Dr. Shankar Rao Deo Committee (डॉ. शंकर राव देव समिति)**:
-  - Linguistic and geographic proximity to Uttar Pradesh led to intense dispute over whether Bharatpur and Dholpur should merge with UP or Rajasthan.
-  - The States' Department appointed a **3-member inquiry commission**:
-    1. **Dr. Shankar Rao Deo (Chairman)**
-    2. **R.K. Sidhwa** (Member)
-    3. **Prabhu Dayal Himmat Singhka** (Member)
-  - The Committee conducted exhaustive public hearings across Bharatpur and Dholpur, reporting that the overwhelming majority of citizens voted to integrate with **Rajasthan**.
-- **Merger Implementation (15 May 1949)**: Matsya Union was formally dissolved and integrated into Greater Rajasthan.
-- **Cabinet Expansion**: Shobharam Kumawat and Jugal Kishore Chaturvedi were inducted into Hiralal Shastri's council of ministers.
+## 8. Prelims practice laboratory
+
+### Q1. Which four princely states constituted the Matsya Union?
+A. Alwar, Bharatpur, Dholpur and Karauli  
+B. Alwar, Jaipur, Bharatpur and Tonk  
+C. Bharatpur, Karauli, Kota and Bundi  
+D. Alwar, Bharatpur, Bikaner and Dholpur
+
+**Answer: A.** The Government of India’s *White Paper on Indian States* lists Alwar, Bharatpur, Dholpur and Karauli.
+
+### Q2. What was the date of Greater Rajasthan’s formation, commemorated as Rajasthan Day?
+A. 25 March 1948  
+B. 18 April 1948  
+C. 30 March 1949  
+D. 26 January 1950
+
+**Answer: C.** Greater Rajasthan was inaugurated on 30 March 1949.
+
+### Q3. Which description of the Shankar Rao Deo Committee is supported by the *White Paper on Indian States*?
+A. It conducted a legally binding referendum in all four Matsya states.  
+B. It gathered views through questionnaires and public meetings about Bharatpur and Dholpur.  
+C. It allocated the High Court to Jodhpur.  
+D. It determined the Rajasthan–Madhya Pradesh boundary in 1956.
+
+**Answer: B.** The report records questionnaires and public meetings, not a completed formal plebiscite.
+
+### Q4. Which territory was transferred from Rajasthan to Madhya Pradesh under the States Reorganisation Act, 1956?
+A. Sunel Tappa  
+B. Ajmer  
+C. Sironj sub-division of Kota district  
+D. Abu Road taluka
+
+**Answer: C.** Sironj was included in Madhya Pradesh; Sunel Tappa and Abu Road territory went to Rajasthan.
+
+### Q5. Which territory became part of Rajasthan in 1956 from Madhya Bharat?
+A. Sironj  
+B. Sunel Tappa  
+C. Kutch  
+D. Junagadh
+
+**Answer: B.** Sunel Tappa of Bhanpura tehsil, Mandsaur district, joined Rajasthan and was included in Jhalawar district.
+
+### Q6. Who became the first Governor of Rajasthan when the reorganisation took effect on 1 November 1956?
+A. Sawai Man Singh II  
+B. Maharana Bhupal Singh  
+C. Gurmukh Nihal Singh  
+D. Mohan Lal Sukhadia
+
+**Answer: C.** Gurmukh Nihal Singh assumed office on 1 November 1956.
+
+### Q7. Which statement about accession and merger is correct?
+A. Accession and merger were legally identical events.  
+B. The Instrument of Accession dealt initially with defence, external affairs and communications.  
+C. Ajmer-Merwara was a princely state within the Matsya Union.  
+D. Rajasthan’s territorial reorganisation was complete in March 1949.
+
+**Answer: B.** Accession and subsequent regional merger were distinct processes.
+
+### Q8. Which claim about the “first ruler to sign the Instrument of Accession” needs correction?
+A. Menon names Baroda’s Gaekwar as the first ruler actually to sign.  
+B. Sadul Singh of Bikaner played an important early role.  
+C. The all-India “Bikaner first” claim is fully supported by Menon.  
+D. Rajasthan study notes often associate Bikaner with 7 August 1947.
+
+**Answer: C.** Menon’s text directly says the Gaekwar of Baroda was first actually to sign.
+
+### Q9. Which office ended in the constitutional reorganisation associated with 1956?
+A. Governor  
+B. Chief Minister  
+C. Rajpramukh  
+D. Speaker
+
+**Answer: C.** The Rajpramukh system ended as the constitutional structure was reorganised.
+
+### Q10. Which statement best describes the 1956 territorial changes?
+A. Ajmer and Sunel Tappa went to Madhya Pradesh, Sironj to Rajasthan.  
+B. Ajmer and Sunel Tappa joined Rajasthan, Sironj went to Madhya Pradesh, and Abu Road taluka joined Rajasthan from Bombay.  
+C. All Sirohi territory was transferred to Gujarat.  
+D. Matsya Union was created in 1956.
+
+**Answer: B.** This matches section 10 of the States Reorganisation Act, 1956.
 
 ---
 
-### 2.6 Stage 6: Rajasthan Union (राजस्थान संघ — 26 January 1950)
-- **Merged Units**: United Greater Rajasthan (Stage 5) + **Sirohi state** (**excluding Abu and Delwara tehsils**).
-- **The Sardar Patel Controversy over Abu-Delwara**:
-  - Sardar Patel detached the scenic and strategic hill tracts of **Mount Abu and Delwara** from Sirohi and merged them into the **Bombay Province** (destined for Gujarat).
-  - This partition triggered tremendous public outrage across Rajasthan:
-    - Nationalist leaders under **Gokulbhai Bhatt** (the *"Gandhi of Rajasthan"*, whose home village of Hathal was situated in Sirohi) launched massive satyagrahas, declaring: *"Rajasthan without Mount Abu is a body without a soul!"*
-- **Constitutional Landmark (26 January 1950)**:
-  - With the formal commencement of the Constitution of India, the united territory was officially designated **"Rajasthan"** (*राजस्थान*).
-  - Categorized as a **Category 'B' (भाग 'ख') State**.
-  - **Hiralal Shastri** took the oath of office as the first nominated Chief Minister of Rajasthan.
+## 9. Mains answer frameworks
+
+### 2-mark answer: Why is 30 March celebrated as Rajasthan Day?
+**Model answer:** It commemorates the inauguration of Greater Rajasthan on 30 March 1949, when Jaipur, Jodhpur, Bikaner and Jaisalmer joined the existing Rajasthan Union.
+
+### 5-mark answer: Explain the seven stages of Rajasthan’s integration.
+**Suggested structure:**
+1. Matsya Union, March 1948: four eastern states.
+2. Rajasthan Union, March 1948: nine south-eastern states.
+3. United Rajasthan, April 1948: Mewar joins.
+4. Greater Rajasthan, March 1949: Jaipur, Jodhpur, Bikaner and Jaisalmer join.
+5. United Greater Rajasthan, May 1949: Matsya Union joins after the Shankar Rao Deo inquiry.
+6. Rajasthan under the Constitution, January 1950: Sirohi integrated, with territorial qualifications.
+7. Reorganised Rajasthan, November 1956: Ajmer, Abu Road territory and Sunel Tappa added; Sironj transferred out.
+
+**Concluding line:** Integration proceeded through negotiation, covenants and constitutional changes; it was an incremental process rather than a single merger.
+
+### 5-mark answer: Assess the role of the Shankar Rao Deo Committee.
+**Model answer:** The committee examined whether Bharatpur and Dholpur should join Rajasthan or the United Provinces. According to the Government of India’s *White Paper on Indian States*, it gathered views through questionnaires and public meetings and found majority opinion favouring Rajasthan. It cautioned that views might change and suggested that a later plebiscite or another suitable process could be used. The committee’s recommendation informed the integration of Matsya Union with Greater Rajasthan from 15 May 1949. It should not be described as a completed binding referendum.
+
+### 10-mark answer: “The unification of Rajasthan was a phased political and administrative process.” Discuss.
+
+**Introduction:** The integration of Rajasthan between 1948 and 1956 combined accession to India, union formation among princely states, constitutional statehood and territorial reorganisation.
+
+**Main body:**
+- **Regional consolidation:** Matsya Union and Rajasthan Union brought smaller states together in March 1948.
+- **Mewar accommodation:** United Rajasthan was formed in April 1948, recognising Mewar’s position through the office of Rajpramukh and a negotiated financial settlement.
+- **Larger states joined:** Greater Rajasthan was inaugurated in March 1949 when Jaipur, Jodhpur, Bikaner and Jaisalmer joined the union.
+- **Matsya merger:** The Shankar Rao Deo Committee gathered public views in Bharatpur and Dholpur; the merger came into effect in May 1949.
+- **Constitutional consolidation:** Rajasthan became a Part B state on 26 January 1950.
+- **Territorial reorganisation:** On 1 November 1956, Ajmer, Abu Road territory and Sunel Tappa joined Rajasthan, while Sironj moved to Madhya Pradesh. The Rajpramukh system ended.
+
+**Conclusion:** The process balanced political negotiation with administrative viability, and its final territorial form depended on the broader Indian states reorganisation of 1956.
 
 ---
 
-### 2.7 Stage 7: Reorganized Rajasthan (पुनर्गठित राजस्थान — 1 November 1956)
-The final geographic and constitutional completion of modern Rajasthan, executed pursuant to the recommendations of the **States Reorganisation Commission (SRC / राज्य पुनर्गठन आयोग, 1953–1956)** headed by **Justice Fazal Ali** (alongside members **K.M. Panikkar** and **Hriday Nath Kunzru**):
+## 10. High-yield safe formulations
 
-```text
-                    ┌────────────────────────────────────────────────────────┐
-                    │      THE 4 TERRITORIAL ADJUSTMENTS OF 1 NOVEMBER 1956  │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-    ┌─────────────────┬─────────────────┼─────────────────┬─────────────────┐
-    │                 │                 │                 │                 │
-┌───┴──────────┐ ┌────┴─────────┐ ┌─────┴────────┐ ┌──────┴────────┐ ┌──────┴─────────┐
-│ 1. Return of │ │ 2. Merger of │ │ 3. Inclusion │ │ 4. Transfer of│ │ 5. Constitutional│
-│    Abu &     │ │    Ajmer-    │ │    of Sunel  │ │    Sironj     │ │    Changes       │
-│    Delwara   │ │    Merwara   │ │    Tappa     │ │    Sub-Div.   │ │                  │
-├──────────────┤ ├──────────────┤ ├──────────────┤ ├───────────────┤ ├──────────────────┤
-│ `[Secure Core]`│ `[Secure Core]`│ `[Secure Core]`│ `[Secure Core]`│ `[Secure Core]`    │
-│ • Detached   │ │ • Category   │ │ • Bhanpura   │ │ • Detached    │ │ • 7th Amendment  │
-│   from Bombay│     'C' state  │     tehsil of  │     from Kota   │     abolished Part │
-│   State;     │     merged     │     Mandsaur   │     district;   │     A, B, C states.│
-│   reintegrated│    into       │     (Madhya    │     transferred │ • Office of      │
-│   into Sirohi│     Rajasthan. │     Bharat)    │     permanently │   Rajpramukh     │
-│   (Rajasthan)│ • 30-member    │     merged into│     to Madhya   │   abolished.     │
-│   due to     │   Dhara Sabha  │     Jhalawar   │     Pradesh.    │ • First Governor:│
-│   Gokulbhai  │   dissolved.   │     (Rajasthan)│                 │   Sardar Gurmukh │
-│   Bhatt.     │ • Became 26th  │                │                 │   Nihal Singh.   │
-│              │   district.    │                │                 │                  │
-└──────────────┘ └──────────────┘ └──────────────┘ └───────────────┘ └──────────────────┘
-```
-
-#### Final Constitutional & Administrative Transformations
-- **Abolition of Rajpramukh**: The office of Rajpramukh held by Sawai Man Singh II and Maharajpramukh held by Maharana Bhupal Singh was abolished under the 7th Constitutional Amendment Act, 1956.
-- **First Governor of Rajasthan**: **Sardar Gurmukh Nihal Singh** took the oath of office as the first constitutional **Governor (राज्यपाल)** on **1 November 1956**.
-- **Chief Minister at Final Reorganization**: **Mohan Lal Sukhadia (मोहन लाल सुखाड़िया)**, who served as the longest-serving Chief Minister of Rajasthan (17 years, 1954–1971), celebrated as the *"Modern Maker of Rajasthan"*.
-- **District Tally on 1 Nov 1956**: Exactly **26 Districts** (Ajmer became the 26th district).
+- **Matsya Union:** Four states—Alwar, Bharatpur, Dholpur and Karauli.
+- **Rajasthan Union:** Nine states; the primary *White Paper* describes Banswara as including Kushalgarh.
+- **United Rajasthan:** Mewar joined on 18 April 1948.
+- **Greater Rajasthan:** 30 March 1949; basis of Rajasthan Day.
+- **United Greater Rajasthan:** Matsya Union integrated from 15 May 1949.
+- **Shankar Rao Deo Committee:** Views gathered by questionnaires and public meetings; no completed binding plebiscite in the cited report.
+- **1950:** Rajasthan became a Part B state; Sirohi was integrated after certain territory had already gone to Bombay.
+- **1956:** Ajmer, Abu Road territory and Sunel Tappa joined Rajasthan; Sironj went to Madhya Pradesh; the Governor replaced the Rajpramukh arrangement.
+- **Bikaner accession:** Sadul Singh played an important early role; do not claim he was the first ruler in all India to sign the Instrument of Accession.
+- **Pen-pistol and “death warrant” stories:** Useful only as qualified popular anecdotes, not as incontrovertible verbatim records.
 
 ---
 
-## 3. Transitional Leadership Ledger: Prime Ministers & Chief Ministers
+## 11. Sources for further verification
 
-```text
-┌───────────────────────────────┬───────────────────────────────┬────────────────────────────────────────────────────────┐
-│ Leader & Epoch                │ Designation & Mode            │ Significant Historical Context                         │
-├───────────────────────────────┼───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ **Shobharam Kumawat**         │ Prime Minister (1948)         │ Matsya Union (Stage 1).                                │
-│ **Gokul Lal Asawa**           │ Prime Minister (1948)         │ Former Rajasthan (Stage 2); Dy PM in Stage 3.          │
-│ **Manikya Lal Verma**         │ Prime Minister (1948–49)      │ United Rajasthan (Stage 3).                            │
-│ **Hiralal Shastri**           │ Premier / 1st Nominated CM    │ Stage 4 & 5 Premier; 1st Nominated CM (1949–1951).     │
-│ **C.S. Venkatachar**          │ Nominated CM (Jan–Apr 1951)   │ Senior ICS officer appointed directly by Union Govt.   │
-│ **Jai Narayan Vyas**          │ Nominated CM (1951–1952)      │ Interim cabinet preparing 1st General Elections.       │
-│ **Tikaram Paliwal**           │ `[Secure Core]` **1st Elected │ Sworn in on 3 March 1952 following 1st general election│
-│                               │ Chief Minister** (1952)       │ from Mahwa constituency; served until Oct 1952.        │
-│ **Jai Narayan Vyas**          │ 2nd Elected CM (1952–1954)    │ Elected via Kishangarh by-election; **only person in   │
-│                               │                               │ Rajasthan history to serve as both Nominated & Elected!│
-│ **Mohan Lal Sukhadia**        │ Elected CM (1954–1971)        │ Defeated Vyas in 1954 party contest; served 17 years;  │
-│                               │                               │ CM during 1 Nov 1956 Stage 7 reorganization.           │
-└───────────────────────────────┴───────────────────────────────┴────────────────────────────────────────────────────────┘
-```
+1. **Government of India, *White Paper on Indian States* (1950), section on the United State of Rajasthan.** Gives the nine-state Rajasthan Union, Mewar settlement terms, Greater Rajasthan and the Shankar Rao Deo Committee’s method and findings.  
+   https://en.wikisource.org/wiki/White_Paper_on_Indian_States_(1950)/Part_5/Formation_of_Unions/The_United_State_of_Rajasthan
+2. **V. P. Menon, *The Story of the Integration of the Indian States*.** Primary participant account. States that the Gaekwar of Baroda was the first ruler actually to sign an Instrument of Accession; also details the role of Sadul Singh of Bikaner.  
+   https://www.sanipanhwar.com/uploads/books/2024-08-28_13-57-31_eda96d7c8be6df9668f2573df23c2c92.pdf
+3. **Rajasthan Legislative Assembly, “Integration of Rajasthan.”** Official overview identifying the seven-stage process.  
+   https://assembly.rajasthan.gov.in/Containers/Overview/RajIntegration.aspx
+4. **Rajasthan Legislative Assembly, “Democratic Governments of Earlier Rajasthan.”** Official record of earlier union cabinets and their dates; differs from some sources on the date of the early unions, which is noted in this chapter.  
+   https://assembly.rajasthan.gov.in/Containers/Overview/DemocraticGov.aspx
+5. **Rajasthan Foundation, Government of Rajasthan, “Post-Independence.”** Government overview of the seven stages.  
+   https://foundation.rajasthan.gov.in/Post-Independence.aspx
+6. **States Reorganisation Act, 1956, Ministry of Home Affairs / Government of India.** Section 9 specifies the transfer of Sironj to Madhya Pradesh; section 10 specifies Rajasthan’s territory, including Ajmer, Abu Road taluka and Sunel Tappa.  
+   https://www.mha.gov.in/sites/default/files/2023-03/The%252520State%252520Reorganisation%252520Act%2525201956_270614_0%5B1%5D%5B1%5D.pdf
+7. **Census of India 1961, District Census Handbook: Sirohi, Rajasthan.** Explains the earlier transfer of the Abu Road/Dilwara/Mount Abu area to Bombay and its return following reorganisation.  
+   https://censusindia.gov.in/nada/index.php/catalog/29774/download/32955/21824_1961_SIR.pdf
+8. **Rajasthan Governor’s official profile/list of former Governors.** Confirms that Gurmukh Nihal Singh assumed office on 1 November 1956.  
+   https://lokbhavan.rajasthan.gov.in/content/lokbhavan/en/formergovernors/listformergovernors.html
 
----
-
-## 4. Comprehensive 7-Stages Invariant Matrix
-
-The definitive synoptic matrix synthesizing the 7 stages of Rajasthan’s unification for rapid examination review:
-
-| Stage # & Official Name | Date of Inauguration | Merged States & Chiefships | Capital | Rajpramukh / Maharajpramukh | Prime Minister / Chief Minister | Inaugurator & Epistemic Status |
-| :---: | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Stage 1: Matsya Union** | 18 March 1948 | Alwar, Bharatpur, Dholpur, Karauli + Neemrana | **Alwar** | Udaybhan Singh (Dholpur) | **Shobharam Kumawat** | `[Secure Core]` N.V. Gadgil (Lohagarh Fort) |
-| **Stage 2: Former Rajasthan**| 25 March 1948 | 9 States (Banswara, Bundi, Dungarpur, Jhalawar, Kota, Pratapgarh, Shahpura, Tonk, Kishangarh) + Kushalgarh | **Kota** | Maharao Bhim Singh II (Kota) | **Gokul Lal Asawa** | `[Secure Core]` N.V. Gadgil (Kota Fort) |
-| **Stage 3: United Rajasthan**| 18 April 1948 | Stage 2 + Udaipur (Mewar) | **Udaipur** | Maharana Bhupal Singh (Udaipur) | **Manikya Lal Verma** | `[Secure Core]` Pt. Jawaharlal Nehru (Udaipur) |
-| **Stage 4: Greater Rajasthan**| 30 March 1949 | Stage 3 + Jaipur, Jodhpur, Bikaner, Jaisalmer + Lava | **Jaipur** | Maharajpramukh: Bhupal Singh; Rajpramukh: Sawai Man Singh II | **Hiralal Shastri** | `[Secure Core]` Sardar Patel (Jaipur City Palace) |
-| **Stage 5: United Greater Rajasthan**| 15 May 1949 | Stage 4 + Matsya Union (Dr. Shankar Rao Deo Report) | **Jaipur** | Maharajpramukh: Bhupal Singh; Rajpramukh: Sawai Man Singh II | **Hiralal Shastri** | `[Secure Core]` States' Department |
-| **Stage 6: Rajasthan Union** | 26 January 1950 | Stage 5 + Sirohi (excluding Abu & Delwara) | **Jaipur** | Rajpramukh: Sawai Man Singh II | **Hiralal Shastri** (1st Nominated CM) | `[Secure Core]` Promulgation of Indian Constitution |
-| **Stage 7: Reorganized Rajasthan**| 1 November 1956 | Stage 6 + Abu-Delwara + Ajmer-Merwara + Sunel Tappa (minus Sironj) | **Jaipur** | Rajpramukh Abolished; Governor: **Gurmukh Nihal Singh** | **Mohan Lal Sukhadia** | `[Secure Core]` Fazal Ali Commission (7th CAA) |
-
----
-
-## 5. The 25 Deadliest Examination Traps (Forensic Autopsy)
-
-1. **Trap 1: First vs Last State to Sign Instrument of Accession**:
-   - *Trap*: Jaipur signed first; Jodhpur signed last.
-   - *Fact*: **Bikaner (Sadul Singh, 7 Aug 1947)** signed first; **Dholpur (Udaybhan Singh, 14 Aug 1947)** signed last.
-2. **Trap 2: Origin of the Name "Matsya Union"**:
-   - *Trap*: Coined by Sardar Patel or N.V. Gadgil.
-   - *Fact*: Recommended by **K.M. Munshi** after the ancient epic Matsya Mahajanapada.
-3. **Trap 3: Inauguration Site of Matsya Union**:
-   - *Trap*: Alwar Palace.
-   - *Fact*: **Lohagarh Fort (Bharatpur)**, inaugurated by **N.V. Gadgil**.
-4. **Trap 4: Capital vs Rajpramukh of Matsya Union**:
-   - *Trap*: Dholpur was the capital because its ruler was Rajpramukh.
-   - *Fact*: **Alwar** was the capital; **Maharaja Udaybhan Singh of Dholpur** was the Rajpramukh.
-5. **Trap 5: The "Death Warrant" Quote Ruler**:
-   - *Trap*: Hanwant Singh of Jodhpur.
-   - *Fact*: **Maharawal Chandraveer Singh of Banswara** while signing the accession of Stage 2.
-6. **Trap 6: Inaugurator of Stage 3 (United Rajasthan)**:
-   - *Trap*: Sardar Patel or N.V. Gadgil.
-   - *Fact*: **Pandit Jawaharlal Nehru** on 18 April 1948 at Udaipur.
-7. **Trap 7: Date of Rajasthan Day**:
-   - *Trap*: 1 November (celebrated as Reorganization Day).
-   - *Fact*: **30 March** is celebrated as **Rajasthan Day** (commemorating Stage 4 Greater Rajasthan, 1949).
-8. **Trap 8: The Only "Maharajpramukh" in Indian History**:
-   - *Trap*: Sawai Man Singh II.
-   - *Fact*: **Maharana Bhupal Singh of Mewar** was the only Maharajpramukh (lifetime post).
-9. **Trap 9: Allocations of P. Satyanarayan Rao Committee (1949)**:
-   - *Trap*: High Court went to Jaipur; Capital went to Udaipur.
-   - *Fact*: Capital: **Jaipur**; High Court: **Jodhpur**; Education: **Bikaner**; Mining/Customs: **Udaipur**; Agriculture/Forest: **Bharatpur**; Revenue Board: **Ajmer**.
-10. **Trap 10: Members of Dr. Shankar Rao Deo Committee**:
-    - *Trap*: Satyanarayan Rao and V.P. Menon.
-    - *Fact*: **Dr. Shankar Rao Deo**, **R.K. Sidhwa**, and **Prabhu Dayal Himmat Singhka**.
-11. **Trap 11: Purpose of Dr. Shankar Rao Deo Committee**:
-    - *Trap*: To decide boundary between Bikaner and Jodhpur.
-    - *Fact*: To ascertain public opinion in **Bharatpur and Dholpur** whether to merge with Uttar Pradesh or Rajasthan.
-12. **Trap 12: Sirohi Partition in Stage 6**:
-    - *Trap*: Entire Sirohi merged on 26 January 1950.
-    - *Fact*: Sirohi merged **excluding Abu and Delwara** (which Sardar Patel merged into Bombay Province).
-13. **Trap 13: Hero of the Movement to Reclaim Mount Abu**:
-    - *Trap*: Manikya Lal Verma or Hiralal Shastri.
-    - *Fact*: **Gokulbhai Bhatt** (from Hathal village, Sirohi), the "Gandhi of Rajasthan".
-14. **Trap 14: Legislative Assembly of Ajmer-Merwara**:
-    - *Trap*: It had no assembly.
-    - *Fact*: Possessed an autonomous **30-member legislature called "Dhara Sabha" (धारा सभा)**; sole Chief Minister was **Haribhau Upadhyaya**.
-15. **Trap 15: Sunel Tappa vs Sironj Exchange (1 Nov 1956)**:
-    - *Trap*: Both came to Rajasthan.
-    - *Fact*:
-      - **Sunel Tappa** (from Mandsaur, MP) was **merged into Jhalawar (Rajasthan)**.
-      - **Sironj sub-division** (from Kota, Rajasthan) was **given to Madhya Pradesh**.
-16. **Trap 16: Category of Rajasthan under 1950 Constitution**:
-    - *Trap*: Category 'A' State.
-    - *Fact*: **Category 'B' (भाग 'ख') State**. Ajmer-Merwara was **Category 'C' (भाग 'ग')**.
-17. **Trap 17: Abolition of Rajpramukh Post**:
-    - *Trap*: Abolished on 26 January 1950.
-    - *Fact*: Abolished on **1 November 1956** under the **7th Constitutional Amendment Act, 1956**.
-18. **Trap 18: First Governor of Rajasthan**:
-    - *Trap*: Sawai Man Singh II.
-    - *Fact*: **Sardar Gurmukh Nihal Singh** (assumed office 1 November 1956).
-19. **Trap 19: Longest Serving Chief Minister during Integration**:
-    - *Trap*: Jai Narayan Vyas.
-    - *Fact*: **Mohan Lal Sukhadia**, Chief Minister during Stage 7 (served 1954 to 1971).
-20. **Trap 20: Number of Districts on 1 November 1956**:
-    - *Trap*: 33 or 25 districts.
-    - *Fact*: Exactly **26 Districts** (Ajmer became the 26th district on 1 Nov 1956).
-21. **Trap 21: The Only Muslim Princely State in Rajasthan**:
-    - *Trap*: Jaisalmer or Sirohi.
-    - *Fact*: **Tonk**, ruled by the Nawabs (descendants of Amir Khan Pindari).
-22. **Trap 22: First Nominated vs Elected Chief Minister**:
-    - *Trap*: Tika Ram Paliwal was first nominated CM.
-    - *Fact*: **Hiralal Shastri** was 1st nominated CM (7 April 1949); **Tika Ram Paliwal** was **1st elected Chief Minister (3 March 1952)**!
-23. **Trap 23: The 3 Chiefships Merged in Which Stages**:
-    - *Trap*: All 3 merged together in Stage 1.
-    - *Fact*:
-      - **Neemrana**: Stage 1 (with Matsya Union).
-      - **Kushalgarh**: Stage 2 (with Rajasthan Union).
-      - **Lava**: Stage 4 (with Greater Rajasthan).
-24. **Trap 24: Privy Purse Awarded to Maharana Bhupal Singh**:
-    - *Trap*: Rs 10 Lakh.
-    - *Fact*: Total **Rs 20 Lakh per annum** (Rs 10 Lakh privy purse + Rs 5 Lakh special allowance + Rs 5 Lakh Eklingji temple grant).
-25. **Trap 25: States Reorganisation Commission (SRC) Members**:
-    - *Trap*: P. Satyanarayan Rao, V.P. Menon, and Patel.
-    - *Fact*: **Justice Fazal Ali (Chairman)**, **K.M. Panikkar**, and **Hriday Nath Kunzru**.
-
----
-
-## 6. Prelims Examination MCQ Crucible
-
-### Question 1
-Consider the following statements regarding the criteria set by the States' Department (*Riyasati Vibhag*) for princely states to maintain separate statehood:
-1. The state had to possess a minimum population of 10 Lakh (1 Million).
-2. The state had to generate an annual revenue of at least Rs 1 Crore.
-3. In Rajasthan, only three states (Jaipur, Jodhpur, and Udaipur) met both criteria.
-4. Bikaner was disqualified because its annual income fell below Rs 80 Lakh.
-
-Which of the statements given above are correct?
-- (A) 1 and 2 only
-- (B) 1, 2, and 3 only
-- (C) 2, 3, and 4 only
-- (D) 1, 3, and 4 only
-
-> **Epistemic Answer Key**: **(A)**  
-> **Explanation**: Statements 1 and 2 are correct. Statements 3 and 4 are false because exactly **four states** met both criteria: Jaipur, Jodhpur, Udaipur, and **Bikaner** (which had over 10 lakh population and over Rs 1 Crore revenue).
-
----
-
-### Question 2
-Match List-I (Princely Ruler) with List-II (Historic Milestone / Quotation during Accession):
-
-| List-I (Princely Ruler) | List-II (Historic Milestone / Quotation) |
-| :--- | :--- |
-| (a) Maharaja Sadul Singh | 1. "I am signing on my Death Warrant!" |
-| (b) Maharawal Chandraveer Singh | 2. First ruler to sign Instrument of Accession (7 Aug 1947) |
-| (c) Maharana Bhupal Singh | 3. Last ruler in Rajasthan to sign Accession (14 Aug 1947) |
-| (d) Maharaja Udaybhan Singh | 4. Sole lifetime Maharajpramukh in Indian history |
-
-Choose the correct matching code:
-- (A) (a)-2, (b)-1, (c)-4, (d)-3
-- (B) (a)-1, (b)-2, (c)-3, (d)-4
-- (C) (a)-2, (b)-3, (c)-4, (d)-1
-- (D) (a)-4, (b)-1, (c)-2, (d)-3
-
-> **Epistemic Answer Key**: **(A)**  
-> **Explanation**: Sadul Singh (Bikaner) signed first on 7 Aug 1947; Chandraveer Singh (Banswara) made the "Death Warrant" lament; Bhupal Singh (Mewar) became sole Maharajpramukh; Udaybhan Singh (Dholpur) signed last on 14 Aug 1947.
-
----
-
-### Question 3
-With reference to the recommendations of the P. Satyanarayan Rao Committee (1949), consider the following pairs:
-1. Capital Seat — Jaipur
-2. High Court Principal Seat — Jodhpur
-3. Education Department — Bikaner
-4. Mining & Customs Department — Udaipur
-5. Board of Revenue (*Rajswamandal*) — Ajmer
-
-How many of the above pairs are correctly matched?
-- (A) Only two pairs
-- (B) Only three pairs
-- (C) Only four pairs
-- (D) All five pairs
-
-> **Epistemic Answer Key**: **(D)**  
-> **Explanation**: All five pairs are precisely accurate and codified as statutory institutional allocations in 1949 to maintain regional balance.
-
----
-
-### Question 4
-The Dr. Shankar Rao Deo Committee was constituted during Rajasthan's unification to:
-- (A) Settle the boundary demarcation between Jodhpur and Bikaner.
-- (B) Recommend whether Mount Abu should remain in Rajasthan or merge into Bombay.
-- (C) Ascertain public opinion in Bharatpur and Dholpur regarding merger with Uttar Pradesh or Rajasthan.
-- (D) Allocate ministerial portfolios between Hiralal Shastri and Manikya Lal Verma.
-
-> **Epistemic Answer Key**: **(C)**  
-> **Explanation**: Dr. Shankar Rao Deo, R.K. Sidhwa, and Prabhu Dayal Himmat Singhka surveyed public opinion in Bharatpur and Dholpur, recommending their merger into Greater Rajasthan (Stage 5, 15 May 1949).
-
----
-
-### Question 5
-Which among the following was the ONLY person in Rajasthan's political history to serve as BOTH Nominated Chief Minister and Elected Chief Minister?
-- (A) Hiralal Shastri
-- (B) Tikaram Paliwal
-- (C) Jai Narayan Vyas
-- (D) Mohan Lal Sukhadia
-
-> **Epistemic Answer Key**: **(C)**  
-> **Explanation**: Jai Narayan Vyas was appointed Nominated CM on 26 April 1951, and later won the Kishangarh by-election to serve as Elected CM from 1 November 1952 to 12 November 1954.
-
----
-
-### Question 6
-Regarding the territorial reorganization of Rajasthan on 1 November 1956, which of the following statements is INCORRECT?
-- (A) Sunel Tappa of Mandsaur district was integrated into Jhalawar district of Rajasthan.
-- (B) Sironj sub-division of Kota district was transferred to Madhya Pradesh.
-- (C) Mount Abu and Delwara were separated from Sirohi and merged into Gujarat.
-- (D) Ajmer-Merwara was integrated as the 26th district of Rajasthan.
-
-> **Epistemic Answer Key**: **(C)**  
-> **Explanation**: Statement (C) is incorrect because on 1 November 1956, Mount Abu and Delwara were **returned back to Sirohi (Rajasthan)** from Bombay State upon the recommendations of the Fazal Ali Commission.
-
----
-
-## 7. RPSC RAS Examination Model Answer Laboratory
-
-### 7.1 Section A: 2-Mark High-Density Formulations (15–20 Words)
-
-#### Q1: Which princely states and chiefships constituted the Matsya Union (18 March 1948)?
-**Answer**: Four states (**Alwar, Bharatpur, Dholpur, Karauli**) and one chiefship (**Neemrana**), with Alwar as capital and Udaybhan Singh as Rajpramukh.
-
-#### Q2: What was the famous statement made by Maharawal Chandraveer Singh of Banswara during accession?
-**Answer**: *"I am signing on my Death Warrant!"* (*मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ!*), expressing deep personal sorrow at surrendering his sovereign dynasty.
-
-#### Q3: Why is 30 March celebrated as "Rajasthan Day"?
-**Answer**: Commemorates the formation of **Greater Rajasthan (30 March 1949)**, which integrated the massive desert kingdoms of Jaipur, Jodhpur, Bikaner, and Jaisalmer.
-
-#### Q4: Name the chairman and two key departmental recommendations of the P. Satyanarayan Rao Committee (1949).
-**Answer**: Chairman: **P. Satyanarayan Rao**. Recommendations: Capital allocated to **Jaipur**; High Court allocated to **Jodhpur**; Education Department to **Bikaner**.
-
-#### Q5: What was the primary mandate of the Dr. Shankar Rao Deo Committee (1949)?
-**Answer**: Ascertained public opinion in **Bharatpur and Dholpur**, confirming that the overwhelming majority of citizens voted to merge with Rajasthan rather than Uttar Pradesh.
-
-#### Q6: What was the "Dhara Sabha"?
-**Answer**: The autonomous 30-member legislative assembly of the centrally administered Category 'C' territory of **Ajmer-Merwara**, headed by Chief Minister Haribhau Upadhyaya.
-
-#### Q7: Detail the mutual exchange of territories between Rajasthan and Madhya Pradesh on 1 November 1956.
-**Answer**: **Sunel Tappa** (Mandsaur, MP) was merged into Jhalawar (Rajasthan); **Sironj sub-division** (Kota, Rajasthan) was transferred to Madhya Pradesh.
-
-#### Q8: Who was the first elected Chief Minister of Rajasthan, and from which constituency was he elected?
-**Answer**: **Tikaram Paliwal** (sworn in on 3 March 1952), elected from the **Mahwa** (Dausa) legislative constituency.
-
----
-
-### 7.2 Section B: 5-Mark Analytical Blueprints (50 Words)
-
-#### Q9: Analyze the strategic circumstances and significance of Stage 4 (Greater Rajasthan, 30 March 1949).
-**Answer**:
-Formed under Sardar Patel's direct leadership:
-- **Territorial Integration**: Merged United Rajasthan with the four premier frontier states (**Jaipur, Jodhpur, Bikaner, Jaisalmer**) and Lava chiefship, unifying 75% of Rajasthan's landmass.
-- **Constitutional Balance**: Created the lifetime post of **Maharajpramukh** for Maharana Bhupal Singh, appointed Sawai Man Singh II as Rajpramukh, and installed Hiralal Shastri as first Premier.
-- **Inter-City Harmony**: P. Satyanarayan Rao Committee equitably distributed key institutions (High Court to Jodhpur, Education to Bikaner, Mining to Udaipur).
-
-#### Q10: Detail the controversy and ultimate resolution regarding the integration of Sirohi (Abu-Delwara).
-**Answer**:
-- **Sardar Patel's Partition (Jan 1950)**: In Stage 6, Patel merged Mount Abu and Delwara tehsils into Bombay Province (Gujarat), leaving residual Sirohi in Rajasthan.
-- **Mass Resistance**: Led by Gokulbhai Bhatt, citizens protested vehemently against the loss of their spiritual and linguistic heritage.
-- **Final Reintegration (1 Nov 1956)**: The States Reorganisation Commission (Fazal Ali Commission) accepted public demands, returning Abu and Delwara permanently to Sirohi (Rajasthan).
-
-#### Q11: Trace the administrative transformations that occurred in Rajasthan on 1 November 1956.
-**Answer**:
-Stage 7 finalized modern Rajasthan under the 7th Constitutional Amendment Act:
-- **Territorial Consolidation**: Reintegrated Abu-Delwara, merged Ajmer-Merwara (26th district), added Sunel Tappa, and ceded Sironj.
-- **Institutional Modernization**:
-  - Abolished the monarchical post of **Rajpramukh**; instituted the office of **Governor** with Sardar Gurmukh Nihal Singh.
-  - Dissolved Ajmer's *Dhara Sabha*, unifying the state legislature under Chief Minister Mohan Lal Sukhadia.
-
-#### Q12: Explain the significance of the States' Department viability criteria and its impact on Rajasthan's princes.
-**Answer**:
-Formulated by Sardar Patel and V.P. Menon:
-- **Formula**: Required minimum 10 lakh population and Rs 1 Crore annual revenue for independent existence.
-- **Impact in Rajasthan**: Only 4 states (Jaipur, Jodhpur, Bikaner, Mewar) qualified. The remaining 15 smaller principalities (like Kota, Bundi, Banswara, Shahpura) lost all claim to separate statehood, compelling them to form sub-regional unions (Matsya Union, Former Rajasthan), thereby averting princely Balkanization.
-
----
-
-### 7.3 Section C: 10-Mark Multi-Dimensional Frameworks (100 Words)
-
-#### Q13: "The integration of Rajasthan from 1948 to 1956 was a masterclass in diplomatic statecraft and democratic consolidation." Elucidate with a comprehensive stage-wise evaluation.
-**Answer**:
-The integration of Rajasthan reconciled 19 proud martial dynasties into a modern democratic state through brilliant diplomatic pragmatism:
-
-```text
-┌───────────────────────────┬───────────────────────────────────────────────────────────────────┐
-│ Unification Dimensions    │ Tangible Achievements Across the 7 Progressive Stages             │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 1. Sub-Regional Blocks    │ • Stages 1 & 2 (Matsya & Rajasthan Union) consolidated smaller    │
-│    (March 1948)           │   vulnerable states (Alwar, Kota, Banswara), testing local merger.│
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 2. Mewar Accommodation    │ • Stage 3 (April 1948) successfully integrated Mewar, creating    │
-│    (April 1948)           │   special Privy Purses and honoring ancient Sisodia prestige.     │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 3. Sovereign Desert Merger│ • Stage 4 (March 1949) integrated Jaipur, Jodhpur, Bikaner, and   │
-│    (March 1949)           │   Jaisalmer, establishing permanent capital & High Court parity.  │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 4. Democratic Plebiscite  │ • Stage 5 (May 1949) merged Matsya Union based on Dr. Shankar Rao │
-│    (May 1949)             │   Deo Committee’s democratic public-opinion findings.             │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 5. Constitutional Identity│ • Stage 6 (Jan 1950) officially christened the state "Rajasthan"  │
-│    (January 1950)         │   in the Indian Constitution as a Category 'B' state.             │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 6. Linguistic Reorganis.  │ • Stage 7 (Nov 1956) rectified border injustices via Fazal Ali SRC│
-│    (November 1956)        │   (reclaiming Abu-Delwara & Ajmer; abolishing Rajpramukh).        │
-└───────────────────────────┴───────────────────────────────────────────────────────────────────┘
-```
-**Conclusion**: Orchestrated by Sardar Patel and V.P. Menon, the seven-stage integration neutralized potential Balkanization, balanced regional pride, and established the foundation for modern administrative progress.
-
----
-
-#### Q14: Examine the institutional mechanisms and committee recommendations that resolved inter-regional disputes during Rajasthan’s integration.
-**Answer**:
-The integration of diverse princely units generated intense inter-city rivalries over capital status, judicial seats, and boundaries, resolved through three landmark high-level committees:
-
-1. **P. Satyanarayan Rao Committee (1949)**:
-   - **Mandate**: Resolve bitter contention between Jaipur, Jodhpur, Udaipur, and Bikaner regarding state headquarters.
-   - **Equitable Allocation**:
-     - Designated **Jaipur** as the state administrative capital.
-     - Awarded the **High Court** principal bench to **Jodhpur**.
-     - Assigned the **Education Department** to **Bikaner**.
-     - Granted the **Mining and Customs Department** to **Udaipur**.
-     - Placed the **Agriculture and Forest Department** in **Bharatpur**.
-     - Positioned the **Board of Revenue** in **Ajmer**.
-
-2. **Dr. Shankar Rao Deo Committee (1949)**:
-   - **Mandate**: Ascertain whether the Matsya Union states of Bharatpur and Dholpur should merge with Uttar Pradesh or Rajasthan.
-   - **Finding**: Documented overwhelming popular preference for Rajasthan, leading to the formation of United Greater Rajasthan on 15 May 1949.
-
-3. **States Reorganisation Commission / Fazal Ali Commission (1953–1956)**:
-   - **Mandate**: Reorganize state boundaries on linguistic and geographic rationality.
-   - **Outcomes**: Rectified the separation of **Mount Abu and Delwara**, returning them from Bombay Province to Rajasthan; abolished Ajmer-Merwara’s separate *Dhara Sabha*, integrating Ajmer as Rajasthan's 26th district on 1 November 1956.
-
----
-
-## 8. Primary Verification Logs & Epistemic Audit Trail
-
-| Claim / Fact Category | Standard Historiographical Consensus | Primary Source / Archive / Administrative Docket | Verified Epistemic Status |
-| :--- | :--- | :--- | :--- |
-| First State to Sign Accession | Bikaner (Sadul Singh, 7 Aug 1947) | National Archives of India, Ministry of States, File 1(2)-PR/47 | `[Secure Core]` Verified. Sadul Singh signed 7 Aug 1947. |
-| Last State to Sign Accession | Dholpur (Udaybhan Singh, 14 Aug 1947)| National Archives of India, Ministry of States Accession Register | `[Secure Core]` Verified. |
-| Viability Criteria Threshold | 10 Lakh Population & Rs 1 Cr Revenue | White Paper on Indian States (1950), Govt of India | `[Secure Core]` Verified. 4 states qualified in Rajasthan. |
-| Name "Matsya Union" | Suggested by K.M. Munshi | K.M. Munshi, *Pilgrimage to Freedom*, Vol. I | `[Secure Core]` Verified. Recommended after Vedic Mahajanapada. |
-| Postponement of Matsya Union | Inauguration moved from 17 to 18 March| Bharatpur State Records & Police Report No. 12/1948 | `[Secure Core]` Verified. Delayed due to Jat peasant protests. |
-| Banswara Accession Quote | "Signing on my Death Warrant" | V.P. Menon, *The Story of the Integration of the Indian States* | `[Secure Core]` Verified. Spoken by Chandraveer Singh. |
-| Mewar Privy Purse Breakdown | Total Rs 20 Lakh per annum | Mewar State Settlement Covenant, April 1948 | `[Secure Core]` Verified (10L purse + 5L allowance + 5L Eklingji). |
-| Maharajpramukh Creation | Exclusive lifetime post for Bhupal Singh | Covenant of Greater Rajasthan, March 1949 | `[Secure Core]` Verified. Sole instance in India. |
-| P. Satyanarayan Rao Report | Institutional distribution across cities | P. Satyanarayan Rao Committee Report (1949) | `[Secure Core]` Verified. Capital to Jaipur, HC to Jodhpur. |
-| Shankar Rao Deo Findings | Bharatpur & Dholpur preferred Rajasthan | Dr. Shankar Rao Deo Inquiry Report, May 1949 | `[Secure Core]` Verified. Averted partition into UP. |
-| Reorganization & Abolition | 1 Nov 1956, 7th CAA abolished Rajpramukh | Constitution (Seventh Amendment) Act, 1956; Gazette of India | `[Secure Core]` Verified. Gurmukh Nihal Singh sworn in as Gov. |
-
----
-
-[Part II Complete ➔ Next: Part III: Chapter 11: Fort Architecture of Rajasthan (UNESCO Hill Forts & Strategic Anatomy)]
+**Revision status:** Core stage chronology and 1956 territorial transfers are grounded in government or contemporary documentary sources. The viability threshold, several small-chiefship details, exact Bikaner/Dholpur accession ranking, detailed P. Satyanarayan Rao committee allocations, and dramatic quotations remain qualified because a direct primary record was not located for each specific claim.
