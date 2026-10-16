@@ -17,6 +17,22 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v055 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 12 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 12)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_12_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_12_PALACES_HAVELIS_BAORIS_CHHATRIS_TEMPLES_RAJASTHAN_REVISED.md`).
+  - Addressed all critical findings across notes and rapid revision matrix:
+    - **Shekhawati UNESCO Heritage Status Corrected**: Formulated the precise international status: *The Painted Haveli Towns of Shekhawati* was added to India's **UNESCO Tentative List on 1 June 2026** (serial nomination across 14 towns; NOT inscribed World Heritage).
+    - **Bundi 84-Pillared Cenotaph Dedication Rectified**: Aligned with official Rajasthan Tourism records: built by Rao Raja Aniruddha Singh in memory of **Deva, his beloved wet nurse** (correcting earlier "foster-brother" description).
+    - **Salim Singh ki Haveli Dating Nuanced**: Replaced rigid "1815" single-year claim with official Rajasthan Tourism dating to the **first half of the 18th century**; clearly categorized the story of royal orders dismantling upper wooden storeys as local oral lore.
+    - **Patwon ki Haveli Cluster History Clarified**: Separated the commissioning of the first mansion (c. 1805 by Guman Chand Patwa) from the cumulative development of the five-mansion cluster over subsequent decades.
+    - **Hawa Mahal Passive Ventilation & Count**: Codified 1799 CE, Sawai Pratap Singh, Ustad Lal Chand Ustad, and 953 openings (state convention) as a climate-responsive passive ventilation screen for royal *purdah* women, eliminating all pseudo-physics "adiabatic expansion loop" jargon.
+    - **Hydraulic & Water Architecture Taxonomy**: Strictly distinguished functional systems: Baori (deep descending groundwater shaft), Kund/Jhalra (open stepped tank / seepage reservoir), Tanka (covered household/settlement cistern), and Khadin (agricultural runoff harvesting embankment for desert soil moisture, not a well).
+    - **Chand Baori vs Raniji ki Baori**: Retained ~3,500 steps and ~13 tiers for Chand Baori (Abhaneri, 8th–9th c., Raja Chanda) while qualifying the "deepest in world" superlative; recorded Raniji ki Baori (Bundi, 1699, Rani Nathavati Ji) at 46 metres depth per official state records.
+    - **Epistemic Over-Tagging Purged**: Replaced arbitrary `[Documented Core]` tagging with transparent evidentiary tiers (Baseline Facts from official heritage portals, Official Exam Conventions, and Qualified Lore / Traditions); linked all 18 official heritage registers (UNESCO, ASI, Incredible India, Rajasthan Tourism).
+
 ### [STAGED LOCAL] v054 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 12 (Palaces, Havelis, Baoris, Chhatris & Temples) 10/10 Epistemic Rebuild
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
