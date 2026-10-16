@@ -1,13 +1,29 @@
-# Chapter 07: Peasant & Agrarian Movements of Rajasthan
+# CHAPTER 07: PEASANT & AGRARIAN MOVEMENTS OF RAJASTHAN
+## RPSC RAS Prelims and Mains | Revised Study Source
+**Revision status:** Substantially rebuilt after an autonomous forensic audit of the original chapter  
+**Historical scope:** From 19th-century feudal tenurial exploitation (*Khalsa* vs. *Jagir*, *Lāg-Bāg*, *Begar*, *Lata-Kunta*) and the Matrikundiya pioneer (1880) to the classic agrarian struggles: Bijolia (1897–1941), Bengu (1921–1925), Bundi/Barad (1922–1943), Nimuchana/Alwar (1925), Mewat (1932–1933), Shekhawati/Panchpana (1922–1947), Marwar/Dabra (1947), and Bikaner/Dudhwa Khara (1944–1946).
 
 ---
 
-## 1. Structural Genesis & Socio-Economic Catalysts
+## How to use this chapter: evidence before memorisation
 
-### 1.1 The Feudal Agrarian Architecture: Khalsa vs Jagir
-During the 19th and early 20th centuries, Rajasthan’s agrarian economy was split into two distinct tenurial systems:
-1. **Khalsa Land (खालसा भूमि)**: Direct state crown land (~20–25% of total territory), where peasants paid revenue directly to the state administration and enjoyed relatively secure occupancy rights.
-2. **Jagir Land (जागीर भूमि)**: Feudal estates (~75–80% of total territory), governed by hereditary Rajput Thakurs (*Jagirdars / Samants*). In Jagir areas, peasants possessed zero tenancy protection, held lands entirely at the landlord's arbitrary will (*Gair-Khatedar*), and were subjected to extortionate feudal extraction.
+This chapter categorises historical information into four explicit epistemic tiers to prevent exam hall conflation between archival administrative facts and retrospective political hagiography:
+
+- **[Secure Core]:** Dates, official government settlement reports (Hamid Hussain report, Trench Commission, Holland Agreement, 1941 Raghavachari-Mehta settlement), judicial verdicts (Jayasinghpura court conviction), legislative debates (British House of Commons Hansard on Kudan), and contemporary newspapers (*Pratap*, *Young India*, *Naveen Rajasthan*).
+- **[Textbook Convention]:** Standard dates, martyr names, and institutional affiliations regularly expected in Rajasthan state competitive examinations (e.g., 1897 Girdharpura assembly, 13 July 1923 Govindpura, 2 April 1923 Dabi, 14 May 1925 Nimuchana, 25 April 1934 Katrathal).
+- **[Tradition / Local Narrative]:** Regional bardic elegies (*Arzi*, *Panchhida*), oral accounts of patriotic courage (Nanak Ji Bhil singing the flag song under rifle fire), and local folklore surrounding feudal cruelty and agrarian defiance.
+- **[Historiographical Debate / Analytical Nuance]:** Contested academic assessments regarding peasant agency (autonomous spontaneous subaltern resistance vs. urban nationalist external leadership by Rajasthan Seva Sangh and Prajamandals), the class character of rich peasant proprietors vs. landless begar-laborers, and the communal dynamics of the Mewat uprising.
+
+---
+
+# PART I — FEUDAL AGRARIAN STRUCTURE & THE TRIAD OF EXPLOITATION
+
+## 1. Feudal Agrarian Architecture: Khalsa vs. Jagir
+
+During the 19th and early 20th centuries, Rajasthan's land tenure was divided into two diametrically opposed administrative jurisdictions:
+
+1. **Khalsa Land (खालसा भूमि) [Secure Core]:** Directly administered by the princely state darbar (~20–25% of territory). Peasant cultivators enjoyed relatively fixed land revenue demands (*Bhog*), legally recorded boundaries, and protection against arbitrary eviction.
+2. **Jagir Land (जागीर भूमि) [Secure Core]:** Feudal estates granted to Rajput nobles (*Jagirdars / Samants / Thikanedars*), encompassing ~75–80% of Rajasthan's arable land. Within Jagir domains, peasants held land at the landlord's arbitrary will (*Gair-Khatedar*), possessed zero statutory tenancy rights, and were subjected to unrestrained extortion.
 
 ```
                     ┌────────────────────────────────────────────────────────┐
@@ -19,24 +35,37 @@ During the 19th and early 20th centuries, Rajasthan’s agrarian economy was spl
 ┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
 │ Lāg-Bāg (Extortionate Cesses)   │   │ Begar (Forced Unpaid Labor)     │   │ Lata-Kunta Assessment               │
 ├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Up to 84 arbitrary feudal     │   │ • Hereditary unpaid physical    │   │ • Lata: Division of threshed grain │
-│   taxes (e.g., Chanwari, Talwar │     drudgery demanded from peasant  │     by arbitrary physical estimation.  │
-│   Bandhai, Kharda, Bai-Ji-Ro-   │     families (carrying royal baggage│   │ • Kunta: Estimation of standing    │
-│   Byav, Kamtha).                │     harvesting landlord fields).    │     crop on the field, inflating       │
-│ • State shifted British treaty  │   │ • Disproportionately burdened   │     landlord share up to 50–60%.       │
-│   burdens directly onto farmers.│     lower and backward peasant clans│   │ • Disputed harvests led to confisc-│
-└─────────────────────────────────┘   └─────────────────────────────────┘     ation of cattle and land.          │
+│ • Up to 84 arbitrary feudal     │   │ • Hereditary unpaid physical    │   │ • Lata: Share calculated after     │
+│   cesses (e.g., Chanwari, Talwar│     drudgery demanded from peasant  │     threshing the cut grain.           │
+│   Bandhai, Kharda, Dhaani).     │     families by royal thikanas.     │   │ • Kunta: Arbitrary visual guess of │
+│ • Shifted British treaty costs  │   │ • Subjugated backward classes   │     standing crop; landlords inflated  │
+│   directly onto the peasantry.  │     (Chamars, Kumhars, Bhils).      │     share up to 50–60% of yield.       │
+└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
 ```
+
+### The Mechanism of Feudal Extraction
+- **The 84 Lāg-Bāgs (चौरासी लाग-बाग) [Secure Core]:** Landlords invented feudal taxes for almost every life event: marriage of the thakur’s daughter (*Baiji ro Byav*), palace construction (*Kamtha*), purchase of a royal elephant (*Hathiyana*), or maintenance of hunting stables.
+- **Lata and Kunta (लाटा और कूंता) [Secure Core]:**
+  - *Lata:* Assessment and division of crop produce after cutting and piling on the threshing floor.
+  - *Kunta:* Arbitrary visual estimation of the standing crop yield prior to harvesting. Landlord agents deliberately inflated the estimate, forcing cultivators to surrender more than half their actual grain output.
 
 ---
 
-## 2. The Bijolia Peasant Movement (1897–1941) — The Epicenter
+# PART II — EARLY PRECURSORS: THE MATRIKUNDIYA OUTBREAK (1880 CE)
 
-### 2.1 Feudal Profile & The Three Historic Phases
-- **Geographical & Historical Setting**: Located in modern **Bhilwara district** (erstwhile Mewar state), **Bijolia (बिजोलिया)** was an ancient cultural center (*Vijyavalli*).
-- **The First-Grade Jagir**: Bijolia was the premier **First-Grade Jagir (Solah Singar / 16 Jagirs)** of Mewar, originally granted by **Maharana Sangram Singh I (Sanga)** to **Ashok Parmar** (of Jagner, Bharatpur) in reward for his valor at the Battle of Khanwa (1527 CE).
-- **Peasant Demographics**: Over 60% of the agrarian population belonged to the industrious **Dhakar (धाकड़)** caste.
-- **The 84 Cesses (*Chaurasi Lāg-Bāg*)**: Peasants were subjected to 84 distinct forms of feudal taxation alongside crushing land revenue (*Bhog*).
+## 2. The Matrikundiya (Rashmi) Peasant Outbreak (1880 CE)
+
+Before the rise of Bijolia, Rajasthan's first organized modern peasant resistance erupted in Mewar:
+- **Date & Location [Secure Core]:** **22 June 1880** at the sacred pilgrimage shrine of **Matrikundiya** (Rashmi pargana, modern Chittorgarh district).
+- **Context [Secure Core]:** Maharana Sajjan Singh introduced a new British-supervised land revenue survey and settlement (*Bandobast*) in Mewar.
+- **Mobilization [Secure Core]:** Over several thousand **Jat cultivators** congregated during the Vaishakh Purnima fair, submitting a collective charter demanding the withdrawal of the new survey, reduction of inflated rates, and protection against bureaucratic bribery.
+- **Significance [Textbook Convention]:** Recognized by historians as the **first organized peasant assembly in modern Rajasthan**, foreshadowing the mass mobilization techniques later perfected at Bijolia.
+
+---
+
+# PART III — THE BIJOLIA PEASANT MOVEMENT (1897–1941) — THE EPICENTER
+
+Spanning **44 continuous years (1897–1941)** without armed retaliation, Bijolia represents the longest non-violent peasant movement in modern Indian history.
 
 ```
                     ┌────────────────────────────────────────────────────────┐
@@ -46,466 +75,428 @@ During the 19th and early 20th centuries, Rajasthan’s agrarian economy was spl
          ┌──────────────────────────────────────┼──────────────────────────────────────┐
          │                                      │                                      │
 ┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Phase 1: 1897–1915 (Spontaneous)│   │ Phase 2: 1916–1923 (Nationalized│   │ Phase 3: 1923–1941 (Resolution)    │
+│ Phase 1: 1897–1915 (Spontaneous)│   │ Phase 2: 1916–1923 (Nationalized│   │ Phase 3: 1923–1941 (Consolidation) │
 ├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
 │ • Leadership: Sadhu Sitaram Das,│   │ • Leadership: Vijay Singh Pathik│   │ • Leadership: Manikya Lal Verma,   │
-│   Nanji Patel, Thakari Patel.   │     Ramnarayan Chaudhary, Manna     │     Jamnalal Bajaj, Haribhau Upadhyaya.│
-│ • Spontaneous, local, non-politi│     Patel.                          │   │ • Resignation of land rights;      │
-│   cal petitions to Maharana.    │   │ • Uparmal Panch Board (1917);   │     Satyagraha & prison terms.         │
-│ • Chanwari (1903) & Talwar      │     Pratap newspaper alliance;      │   │ • Final agreement brokered by Sir  │
-│   Bandhai (1906) imposed.       │     Rajasthan Seva Sangh (1919).    │     T. Raghavachari in 1941.           │
+│   Nanji Patel, Thakari Patel.   │     Ramnarayan Chaudhary, Manna     │     Seth Jamnalal Bajaj, Haribhau      │
+│ • Local grievance petitions.    │     Patel.                          │     Upadhyaya.                         │
+│ • Chanwari (1903) & Talwar      │   │ • Uparmal Panch Board (1917);   │   │ • Surrender of land rights (1927). │
+│   Bandhai (1906) imposed.       │     Ganesh Shankar's *Pratap*; RSS. │   │ • 1941 Settlement by Raghavachari. │
 └─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
 ```
 
 ---
 
-### 2.2 Phase 1 (1897–1915): Spontaneous Protest & Initial Oppression
-- **The 1897 Spark at Girdharpura**: In 1897, peasants assembled at **Girdharpura village** for the *Mausar* (post-funeral community feast) of Gangaram Dhakar’s father. Under the guidance of local library clerk **Sadhu Sitaram Das**, the peasants resolved to dispatch two elder representatives, **Nanji Patel** and **Thakari Patel**, to Udaipur to lodge a direct grievance with Maharana Fateh Singh against Rao Krishna Singh’s extortions.
-- **The Hamid Hussain Inquiry**: The Maharana appointed Assistant Revenue Officer **Hamid Hussain** to investigate. Hussain confirmed excessive cesses in his official report; however, the Maharana took no punitive action. Emboldened, Rao Krishna Singh expelled Nanji and Thakari Patel from Bijolia.
-- **Chanwari Tax (चंवरी कर, 1903 CE)**:
-  - Imposed by **Rao Krishna Singh**: Every peasant was mandated to pay an extortionate fee of **5 rupees** (a fortune in 1903) upon the marriage of his daughter, and obtain royal permission.
-  - Peasant Strike: In protest, peasants refused to marry their daughters for two consecutive years, marching 200 unmarried daughters to the palace gates. Faced with mass agricultural strike, Krishna Singh was forced to withdraw Chanwari tax and reduce land revenue.
-- **Talwar Bandhai Tax (तलवार बंधाई कर, 1906 CE)**:
-  - Upon Krishna Singh's death, successor **Rao Prithvi Singh** imposed the heavy succession tax (**Talwar Bandhai** / feudal investiture fee) entirely onto the peasantry.
-  - Led by **Sadhu Sitaram Das**, **Fateh Karan Charan**, and **Brahmadeo**, the peasants initiated a complete no-tax boycott, refusing to plough the fields in 1913. Prithvi Singh unleashed brutal police terror, imprisoning leaders.
+## 3. Phase 1 (1897–1915): Spontaneous Outbreak & Feudal Retaliation
+
+### Feudal Setting & Demographics
+- **Historical Background [Secure Core]:** Bijolia (ancient *Vijyavalli*, also known as *Uparmal*) was a premier **First-Grade Jagir (Solah Singar / 16 Jagirs)** of Mewar, granted by Maharana Sanga to **Ashok Parmar** of Jagner (Bharatpur) following the Battle of Khanwa (1527 CE).
+- **Social Composition [Secure Core]:** Over 60% of the peasantry belonged to the industrious **Dhakar (धाकड़)** agricultural caste.
+
+### The Girdharpura Assembly (1897 CE)
+- **The Spark [Textbook Convention]:** In 1897, peasants congregated at **Girdharpura village** for the *Mausar* (post-funeral community feast) of Gangaram Dhakar’s father.
+- **The Udaipur Mission:** Library clerk **Sadhu Sitaram Das** urged the peasants to appeal directly to Mewar Maharana Fateh Singh. Two respected village elders, **Nanji Patel** and **Thakari Patel**, were dispatched to Udaipur to present their grievances against Rao Krishna Singh’s 84 cesses.
+- **The Hamid Hussain Inquiry [Secure Core]:** Maharana Fateh Singh appointed Assistant Revenue Officer **Hamid Hussain** to investigate. Hussain's official report confirmed widespread extortion; however, the Maharana failed to enforce administrative relief. Emboldened, Rao Krishna Singh expelled Nanji and Thakari Patel from Bijolia.
+
+### New Feudal Extortions: Chanwari and Talwar Bandhai
+1. **Chanwari Tax (चंवरी कर, 1903 CE) [Secure Core]:**
+   - Imposed by **Rao Krishna Singh**: Every peasant was required to pay **5 rupees** (a large sum in 1903) to the Thikana upon the marriage of his daughter, and obtain formal permission.
+   - **The Peasant Strike:** In protest, peasants refused to solemnize marriages for two years, marching 200 unmarried daughters to the thikana palace. Faced with a complete agrarian strike, Krishna Singh was forced to withdraw the Chanwari tax and reduce land revenue.
+2. **Talwar Bandhai Tax (तलवार बंधाई कर, 1906 CE) [Secure Core]:**
+   - Following Krishna Singh’s death, the new Jagirdar, **Rao Prithvi Singh**, transferred the entire cost of his succession investiture fee (*Talwar Bandhai* / *Kaida*) onto the cultivators.
+   - Led by **Sadhu Sitaram Das**, **Fateh Karan Charan**, and **Brahmadeo**, the peasants initiated a complete no-tax boycott, refusing to plough fields in 1913. Prithvi Singh responded with police arrests and crop confiscation.
 
 ---
 
-### 2.3 Phase 2 (1916–1923): Vijay Singh Pathik & Nationalization
+## 4. Phase 2 (1916–1923): Vijay Singh Pathik & Nationalization
 
-#### The Entry of Vijay Singh Pathik (1916 CE)
-- **Identity & Background**: Born as **Bhoop Singh Gujjar** at Guthawali (Bulandshahr, UP). Sent to Rajasthan by revolutionary leaders Ras Bihari Bose and Sachindra Sanyal to organize armed mutiny at Todgarh alongside Thakur Gopal Singh of Kharwa. Jailed at Todgarh Fort, he escaped, altered his identity to **Vijay Singh Pathik**, wore Rajasthani attire, and commenced mass education work.
-- **Induction into Bijolia**: Impressed by Pathik's erudition at Chittorgarh’s *Vidya Pracharini Sabha*, Sadhu Sitaram Das invited him to lead Bijolia in 1916.
+### The Entry of Vijay Singh Pathik (1916 CE)
+- **Identity & Background [Secure Core]:** Born as **Bhoop Singh Gujjar** at Guthawali village (Bulandshahr district, UP). Dispatched to Rajasthan by revolutionary leaders Ras Bihari Bose and Sachindra Sanyal to organize an armed uprising at Todgarh alongside Thakur Gopal Singh of Kharwa. Following betrayal, he escaped from Todgarh Fort internment, adopted the identity **Vijay Singh Pathik**, and commenced public social work at the *Vidya Pracharini Sabha* in Chittorgarh.
+- **Leadership Invitation:** Impressed by his organizational abilities, Sadhu Sitaram Das persuaded Pathik to take over the leadership of Bijolia in 1916.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      VIJAY SINGH PATHIK'S INSTITUTIONAL MACHINERY      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Uparmal Panch Board (1917 CE)   │   │ National Media Outreach         │   │ Rajasthan Seva Sangh (1919 CE)     │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Established on Hariyali       │   │ • Sent silver Rakhi to Ganesh   │   │ • Founded in 1919 at Wardha by     │
-│   Amavasya at Berisal village.  │     Shankar Vidyarthi (editor of    │     Pathik, Ramnarayan Chaudhary,      │
-│ • Elected Manna Patel as        │     Pratap, Kanpur).                │     and Haribhai Kinkar.               │
-│   Sarpanch.                     │   │ • Daily coverage made Bijolia   │   │ • Shifted to Ajmer (1920); printed │
-│ • Published handwritten weekly  │     an all-India household name.    │     Naveen Rajasthan & Tarun Rajasthan.│
-│   bulletin: "Uparmal Danka".    │   │ • Gandhi sent Mahadev Desai.    │   │ • Published Rajasthan Kesari.      │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+### Institutional Mobilization
+1. **Uparmal Panch Board (1917 CE) [Secure Core]:**
+   - Established on **Hariyali Amavasya** in 1917 at **Berisal village**.
+   - Created a parallel peasant self-government consisting of 192 village committees.
+   - Elected **Manna Patel** as the first *Sarpanch*.
+   - Published a handwritten, cyclostyled weekly underground bulletin titled **"Uparmal Danka"** (ऊपरमाल डंका).
+2. **National Media Outreach via *Pratap* [Secure Core]:**
+   - Pathik sent a silver Rakhi to revolutionary journalist **Ganesh Shankar Vidyarthi**, editor of the influential Hindi daily **Pratap** (published from Kanpur).
+   - *Pratap* gave front-page coverage to the Bijolia struggle, transforming an isolated Mewari agrarian dispute into an all-India cause.
+   - Bal Gangadhar Tilak raised Bijolia in the British Parliament and published editorials in his Marathi newspaper *Maratha*.
+3. **Mahatma Gandhi's Involvement [Secure Core]:**
+   - Gandhi gave moral solidarity to the movement, sending his private secretary **Mahadev Desai** to Bijolia in 1919 to inspect conditions.
+   - Gandhi conferred upon Pathik the honorific title **"Rashtriya Pathik"** (राष्ट्रीय पथिक).
+4. **Founding of Rajasthan Seva Sangh (1919 CE) [Secure Core]:**
+   - Established in **1919 at Wardha (Maharashtra)** by Vijay Singh Pathik, Ramnarayan Chaudhary, and Haribhai Kinkar (financially backed by Seth Jamnalal Bajaj).
+   - Shifted to **Ajmer in 1920**, publishing influential nationalist periodicals: *Rajasthan Kesari* (Wardha), *Naveen Rajasthan* (Ajmer, 1922), and *Tarun Rajasthan* (1923).
 
-#### Nationalization & Gandhi's Blessing
-- **Pratap Newspaper**: Published from Kanpur by revolutionary **Ganesh Shankar Vidyarthi**, *Pratap* gave front-page coverage to Bijolia, turning an isolated Mewari estate into an anti-imperial symbol.
-- **National Leaders**:
-  - **Bal Gangadhar Tilak**: Raised the issue of Bijolia in the British Parliament and wrote scathing editorials in his Marathi newspaper *Maratha*.
-  - **Mahatma Gandhi**: Expressed deep solidarity; dispatched his personal secretary **Mahadev Desai** to Bijolia in 1919 to inspect conditions. Gandhi conferred upon Pathik the revered title **"Rashtriya Pathik" (राष्ट्रीय पथिक)**.
-
-#### The Historic 1922 Agreement
-In February 1922, alarmed by the parallel rise of the Non-Cooperation Movement, the British Government intervened directly.
-- A high-level commission led by **Agent to the Governor-General (AGG) Robert Holland**, Political Agent Wilkinson, and Mewar Diwan Prabhash Chandra Chatterjee arrived in Bijolia.
-- **Agreement (11 February 1922)**: Signed an accord with the peasant panchayat, permanently abolishing **35 unjust Lāg-Bāgs**.
-- **Betrayal**: The Thikana’s administrator reneged on the accord after the cooling of the Non-Cooperation Movement in 1923, arresting Pathik and Verma.
+### The Historic Holland Agreement (11 February 1922)
+- **High-Level Imperial Commission [Secure Core]:** Alarmed by the parallel non-cooperation upsurge across British India, the British Government intervened directly.
+- **The Accord:** A commission led by **Agent to the Governor-General (AGG) Robert Holland**, Political Agent Wilkinson, and Mewar Diwan Prabhash Chandra Chatterjee negotiated with the peasant panchayat.
+- **Result:** Signed a historic accord on **11 February 1922**, permanently abolishing **35 unjust Lāg-Bāgs**.
+- **The Feudal Breach:** Once the Non-Cooperation Movement cooled nationally in 1923, the Thikana reneged on the treaty terms, arresting Pathik (imprisoned in Mewar for 5 years).
 
 ---
 
-### 2.4 Phase 3 (1923–1941): Land Surrender & Final Triumph
-- **The Land Resignation Crisis (1927 CE)**: Following internal disagreements with Pathik over tactical escalation, **Manikya Lal Verma**, **Ramnarayan Chaudhary**, and **Haribhau Upadhyaya** took operational command, assisted by national Congress leader **Seth Jamnalal Bajaj**.
-  - In 1927, to force the Jagirdar’s hand, peasants collectively surrendered their fertile hereditary tenancy lands (*Mal-Guzari*).
-  - The Thikana auctioned these confiscated lands to wealthy outside loyalist farmers.
-- **The Final Settlement (1941 CE)**:
-  - In 1941, the Prime Minister of Mewar, **Sir T. Raghavachari**, realized the political danger of persistent peasant unrest amid World War II.
-  - Dispatched Revenue Minister **Dr. Mohan Singh Mehta** to Bijolia to finalize negotiations with Manikya Lal Verma.
-  - **The Settlement**: All 84 Lāg-Bāgs were irrevocably abolished, begar was banned, and all auctioned lands were restored to their original Dhakar peasant cultivators.
-- **Historic Invariant**: Spanning **44 continuous years (1897–1941)**, Bijolia stands as the **longest, completely non-violent, and successful peasant movement in world history**.
+## 5. Phase 3 (1923–1941): Land Surrender & Final Triumph
+
+- **Tactical Dispute & Shift of Command [Secure Core]:** Internal disagreements over tactics led Pathik to withdraw from direct leadership. Operational command shifted to **Manikya Lal Verma**, **Ramnarayan Chaudhary**, and **Haribhau Upadhyaya**, operating under the guidance of national Congress treasurer **Seth Jamnalal Bajaj**.
+- **The Land Resignation Crisis (1927 CE) [Secure Core]:** In 1927, to force the Jagirdar’s hand, peasants collectively surrendered their fertile hereditary tenancy lands (*Mal-Guzari*). The Thikana retaliated by auctioning these lands to outside loyalist buyers, plunging the movement into a prolonged crisis.
+- **The 1941 Final Settlement [Secure Core]:**
+  - In 1941, Mewar Prime Minister **Sir T. Raghavachari**, recognizing the peril of ongoing rural unrest amid World War II, dispatched Revenue Minister **Dr. Mohan Singh Mehta** to Bijolia.
+  - Mehta finalized an agreement with Manikya Lal Verma and the peasant panchayat.
+  - **Terms:** All remaining arbitrary cesses were abolished, *Begar* was formally banned, and all confiscated lands were restored to the original Dhakar cultivators.
 
 ---
 
-## 3. The Bengu Peasant Movement (1921–1925)
+# PART IV — THE BENGU PEASANT MOVEMENT (1921–1925)
 
-### 3.1 Genesis & The Menal Assembly (1921 CE)
-- **Feudal Setting**: Bengu (located in modern Chittorgarh district) was a First-Grade Jagir of Mewar, governed by reactionary Jagirdar **Rawat Anoop Singh**.
-- **Peasant Composition**: Overwhelmingly populated by Dhakar caste peasants suffering under 25 types of cesses and begar.
-- **The Menal Outbreak (1921 CE)**: Inspired by Bijolia, peasants assembled at the sacred shrine of **Bhairav Kund (Menal)** in May 1921.
-- **Leadership**: Vijay Singh Pathik directed **Ramnarayan Chaudhary** to assume field leadership on behalf of the Rajasthan Seva Sangh.
+## 6. Genesis, "Bolshevik Agreement" & The Govindpura Massacre
 
----
+### The Menal Assembly (May 1921 CE)
+- **Feudal Setting [Secure Core]:** Bengu (Chittorgarh district) was a First-Grade Jagir of Mewar, ruled by **Rawat Anoop Singh**.
+- **Peasant Demographics:** Populated overwhelmingly by **Dhakar** cultivators burdened by 25 cesses, begar, and lata-kunta assessments.
+- **Outbreak [Textbook Convention]:** Inspired by Bijolia, peasants assembled at the sacred shrine of **Bhairav Kund (Menal)** in May 1921. Vijay Singh Pathik deputed **Ramnarayan Chaudhary** to guide the movement.
 
-### 3.2 The "Bolshevik Agreement" & The Trench Commission
-- **The Compromise with Rawat Anoop Singh (1922 CE)**: Facing sustained agricultural strikes, Rawat Anoop Singh concluded a bilateral compromise treaty with Ramnarayan Chaudhary, agreeing to abolish major cesses.
-- **Mewar State Repudiation**: Maharana Fateh Singh and the British Residency refused to ratify the agreement, deriding it as a dangerous socialist **"Bolshevik Agreement" (बोल्शेविक फैसला)**. Anoop Singh was placed under house arrest in Udaipur, and **Lala Amritlal** was installed as Musahib/Administrator.
-- **The Govindpura Massacre (13 July 1923)**:
-  - British Settlement Commissioner **Mr. Trench** surrounded an unarmed gathering of peasants holding a panchayat at **Govindpura village (गोविंदपुरा)**.
-  - Trench ordered open firing on the gathering; cavalry charges burned down the settlement.
-  - **The Martyrs**: Two fearless peasant leaders, **Rupa Ji Dhakar (रूपा जी धाकड़)** and **Kripa Ji Dhakar (कृपा जी धाकड़)**, were martyred on the spot.
+### The "Bolshevik Agreement" (1922 CE) [Secure Core]
+- Paralyzed by mass agricultural strikes, Rawat Anoop Singh conceded a bilateral settlement with Ramnarayan Chaudhary, agreeing to abolish major cesses.
+- **State Repudiation:** Maharana Fateh Singh and British Resident Wilkinson refused to ratify the accord, branding it a dangerous socialist **"Bolshevik Agreement" (बोल्शेविक फैसला)**. Rawat Anoop Singh was placed under palace internment at Udaipur, and state bureaucrat **Lala Amritlal** took over administration.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │        THE BENGU PEASANT MASSACRE AT GOVINDPURA        │
-                    │                    (13 JULY 1923)                      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  State Terror & Repression           │                     │  Martyrdom & Ultimate Settlement                 │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Mr. Trench ordered direct firing   │                     │ • Rupa Ji & Kripa Ji Dhakar martyred on spot.    │
-│   on peaceful assembly.              │                     │ • Pathik entered Bengu in disguise; arrested     │
-│ • Hundreds wounded, 500 arrested.    │                       and imprisoned for 5 years.                      │
-│ • Rawat Anoop Singh deposed.         │                     │ • Settlement (1925): Most cesses abolished.      │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+### The Govindpura Massacre (13 July 1923) [Secure Core]
+- **The Firing:** British Settlement Commissioner **Mr. Trench** surrounded an unarmed peasant panchayat assembly at **Govindpura village**.
+- Trench ordered direct rifle fire and cavalry charges on the defenseless crowd.
+- **The Martyrs [Textbook Convention]:** Two prominent peasant leaders, **Rupa Ji Dhakar (रूपा जी धाकड़)** and **Kripa Ji Dhakar (कृपा जी धाकड़)**, were martyred on the spot.
+- **Settlement (1925 CE):** Pathik secretly entered Bengu, was arrested and jailed for five years; by 1925, the state was forced to conduct land settlement and abolish most cesses.
 
 ---
 
-## 4. The Bundi (Barad) Peasant Movement (1922–1943)
+# PART V — THE BUNDI (BARAD) PEASANT MOVEMENT (1922–1943)
 
-### 4.1 Socio-Economic Catalysts
-- **Geographical Setting**: Centered in the harsh, rocky **Barad (बरड़)** region of Bundi state, inhabited largely by **Gujjar** and peasant communities.
-- **Causes**: Heavy land revenue assessment, 25 unjust taxes, and compulsory forced labor (*Begar*) imposed by the state.
-- **Leadership**: Directed by **Pandit Nayanuram Sharma (पंडित नयनूराम शर्मा)**, the stalwart leader of the Kota branch of Rajasthan Seva Sangh.
+## 7. The Barad Struggle & The Dabi Massacre (1923)
 
----
+### Catalysts & Leadership
+- **Geographical Setting [Secure Core]:** Centered in the rocky **Barad (बरड़)** tract of Bundi state, inhabited largely by the **Gujjar** agricultural community.
+- **Grievances:** Harsh land revenue assessments, 25 illegal cesses, and compulsory forced labor (*Begar*).
+- **Leadership [Secure Core]:** Organized under **Pandit Nayanuram Sharma** of the Rajasthan Seva Sangh.
 
-### 4.2 The Dabi Massacre (2 April 1923) & The Song "Arzi"
-- **The Gathering at Dabi**: On 2 April 1923, thousands of Gujjar and peasant men and women convened a peaceful panchayat at **Dabi village (डाबी)** to protest state begar.
-- **Police Firing**: Bundi State Police Superintendent **Ikram Hussain (इकराम हुसैन)** surrounded the gathering and opened indiscriminate rifle fire.
-- **The Martyrdom of Nanak Ji Bhil**:
-  - While bullets sprayed across the gathering, a brave peasant bard, **Nanak Ji Bhil (नानक जी भील)**, proudly waved the national flag and continued singing the patriotic Flag Song (*Jhanda Geet*), falling dead with the flag clutched firmly to his chest.
-  - Alongside him, **Devi Lal Gurjar (देवीलाल गुर्जर)** was also martyred.
-- **Manikya Lal Verma’s Elegy "Arzi"**:
-  - Deeply moved by Nanak Ji Bhil’s supreme sacrifice, **Manikya Lal Verma** composed the immortal patriotic elegy:
+### The Dabi Massacre (2 April 1923) & The Song "Arzi"
+- **The Police Firing [Secure Core]:** On **2 April 1923**, peasants assembled at **Dabi village** for a peaceful panchayat. Bundi Police Superintendent **Ikram Hussain (इकराम हुसैन)** ordered indiscriminate fire.
+- **Martyrdom of Nanak Ji Bhil [Tradition / Core]:**
+  - Peasant activist **Nanak Ji Bhil (नानक जी भील)** continued waving the national flag and singing the patriotic Flag Song (*Jhanda Geet*) while bullets rained, falling dead with the tricolor held fast.
+  - Peasant **Devi Lal Gurjar (देवीलाल गुर्जर)** was martyred alongside him.
+- **Manikya Lal Verma’s Song "Arzi" [Secure Core]:**
+  - Moved by Nanak Ji Bhil’s martyrdom, **Manikya Lal Verma** composed the famous patriotic elegy:
     > **"Arzi" (अर्जी — The Petition)**
-  - This song became the spiritual anthem of the peasant struggle across southern Rajasthan.
+  - *(Note: Do not confuse "Arzi" with Verma's famous Bijolia mobilization song, "Panchhida").*
 
 ---
 
-## 5. The Alwar Peasant Movement & Nimuchana Massacre (1925)
+# PART VI — THE ALWAR & MEWAT PEASANT MOVEMENTS
 
-### 5.1 Root Causes: Wild Boars & Revenue Enhancement
-- **The Wild Boar Menace (*Suar Samasya*)**: Maharaja Jai Singh of Alwar strictly prohibited the killing of wild boars (*Suars*), maintaining them as protected game for royal hunting expeditions. Herds of boars destroyedstanding crops across Bansur and Thana Ghazi tehsils, reducing farmers to starvation.
-- **The 1924 Revenue Hike**: In 1924, Maharaja Jai Singh announced a new land settlement that increased land revenue rates by **40%**, triggering massive non-cooperation among Rajput and Brahmin cultivators.
+## 8. Alwar Peasant Movement & The Nimuchana Massacre (1925)
 
----
+### Causes: The Wild Boar Menace & 40% Tax Hike
+- **The Wild Boars (*Suar Samasya*) [Secure Core]:** Maharaja Jai Singh of Alwar prohibited the killing of wild boars, preserving them for royal hunting. Boars destroyed crops across Bansur and Thana Ghazi tehsils. In 1921, farmers launched an agitation, forcing the state to permit the culling of destructive boars.
+- **The 1924 Revenue Settlement:** In 1924, Maharaja Jai Singh announced a new land settlement that enhanced revenue rates by **40%**, driving Rajput and Brahmin cultivators into active tax boycotts.
 
-### 5.2 The Nimuchana Massacre (14 May 1925) — "Dyerism Double Distilled"
-- **The Assembly**: On **14 May 1925**, over 800 Rajput farmers assembled at **Nimuchana village (नीमूचना, Bansur tehsil)** to protest against the tax hikes.
-- **State Assault**: Alwar state troops commanded by **Chhaju Singh (छज्जू सिंह)** surrounded the village with machine guns and artillery.
-- **The Carnage**: Chhaju Singh ordered open fire on the defenseless crowd and set fire to the village. Over 144 residential houses were gutted, dozens of men, women, and children were slaughtered, and cattle were incinerated alive.
-
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      THE NIMUCHANA MASSACRE & NATIONAL CONDEMNATION    │
-                    │                     (14 MAY 1925)                      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Mahatma Gandhi's Verdict            │                     │  National Media Condemnation                     │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Published in "Young India".        │                     │ • The newspaper "Riyasat" termed it directly as: │
-│ • Denounced the slaughter as:        │                       "Jallianwala Bagh of Rajasthan".                 │
-│   "Dyerism Double Distilled"         │                     │ • Commander Chhaju Singh branded as:             │
-│   (दोहरी डायरशाही — worse than      │                       "General Dyer of Rajasthan".                     │
-│    Jallianwala Bagh).                │                     │ • Forced state to cancel 1924 tax hike.          │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+### The Nimuchana Massacre (14 May 1925) — "Dyerism Double Distilled"
+- **The Carnage [Secure Core]:** On **14 May 1925**, over 800 Rajput farmers gathered at **Nimuchana village** (Bansur tehsil). State forces commanded by **Chhaju Singh (छज्जू सिंह)** surrounded the village, opening fire with machine guns and torching residential dwellings. Over 144 houses were reduced to ashes, and dozens of cultivators were killed.
+- **National Condemnation [Secure Core]:**
+  - **Mahatma Gandhi in *Young India*:** Denounced the slaughter as **"Dyerism Double Distilled"** (दोहरी डायरशाही), judging it more heinous than Jallianwala Bagh.
+  - **The Press:** National daily *Riyasat* labeled it the **"Jallianwala Bagh of Rajasthan"**, while public opinion branded Chhaju Singh the **"General Dyer of Rajasthan"**. The state withdrew the enhanced rates.
 
 ---
 
-## 6. The Shekhawati Peasant Movement & Panchpana (1922–1947)
+## 9. The Meo Peasant Movement of Mewat (1932–1933)
 
-### 6.1 The Feudal Framework: Panchpana Estates
-In the semi-arid northern tract of Shekhawati (under nominal suzerainty of Jaipur state), power was concentrated in five principal Rajput Jagirs known collectively as **Panchpana (पंचपाना)**:
+- **Geographic Scope [Secure Core]:** Spread across the Mewat region (Alwar, Bharatpur, and neighboring Gurgaon), inhabited by **Meo Muslim** cultivators.
+- **Causes:** Wild boar preservation, high revenue rates, forced begar, and state control over mosques and religious education.
+- **Leadership [Secure Core]:** Organized under the banner of **Anjuman Khadim-ul-Islam**, led by **Chaudhary Yasin Khan** (of Gurgaon), **Dr. Mohammad Ali**, and **Syed Bhikhan Noor**.
+- **Outcome:** The agitation turned volatile and communal; the British Government intervened, sent imperial troops, and forced Maharaja Jai Singh of Alwar into temporary exile in Paris (where he died in 1937).
+
+---
+
+# PART VII — THE SHEKHAWATI JAT PEASANT MOVEMENT (1922–1947)
+
+## 10. Panchpana Estates, Katrathal & Kudan
+
+### The Feudal Arena: The Panchpana Estates
+In Shekhawati (under Jaipur state suzerainty), feudal authority rested in five major cadet estates known as **Panchpana (पंचपाना)**:
 1. **Nawalgarh (नवलगढ़)**
 2. **Mandawa (मंडावा)**
 3. **Dundlod (डूंडलोद)**
 4. **Bissau (बिसाऊ)**
 5. **Khetri / Udaipurwati (खेतड़ी / उदयपुरवाटी)**
 
-The peasant movement in Shekhawati was primarily driven by the sturdy **Jat peasantry**, resisting arbitrary cesses (*Dhaani*), land evictions, and feudal humiliation.
-
----
-
-### 6.2 Key Milestones of the Shekhawati Movement
+The movement was organized by the sturdy **Jat peasantry**, led by **Sardar Harlal Singh**, **Kunwar Deshraj**, and **Master Chandrabhan**.
 
 ```
                     ┌────────────────────────────────────────────────────────┐
-                    │         CHRONOLOGY OF SHEKHAWATI JAT MOBILIZATION       │
+                    │       LANDMARKS OF THE SHEKHAWATI JAT MOVEMENT         │
                     └───────────────────────────┬────────────────────────────┘
                                                 │
          ┌──────────────────────────────────────┼──────────────────────────────────────┐
          │                                      │                                      │
 ┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Jat Praja-Pati Mahayajna (1934) │   │ Katrathal Women's Meet (1934)   │   │ Kudan & Jayasinghpura (1934–1935)  │
+│ Jat Prajapati Mahayajna (1934)  │   │ Katrathal Women's Meet (1934)   │   │ Kudan & Jayasinghpura (1934–1935)  │
 ├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Organised at Sikar under      │   │ • 25 April 1934 at Katrathal.   │   │ • Jayasinghpura (1934): Ishwar     │
-│   Master Chandrabhan & Deshraj. │   │ • Over 10,000 peasant women     │     Singh jailed for firing (1st case).│
-│ • Sacred elephant dispute with  │     assembled under Kishori Devi.   │   │ • Kudan (1935): Captain Webb       │
-│   Rao Raja Kalyan Singh.        │   │ • Protested Thakur Man Singh's  │     ordered firing; issue raised in    │
-│ • Unified Jat rural identity.   │     atrocities at Sotia ka Bas.     │     British House of Commons!          │
+│ • Held at Sikar under Master    │   │ • 25 April 1934 at Katrathal.   │   │ • Jayasinghpura (1934): Ishwar     │
+│   Chandrabhan & Deshraj.        │   │ • Over 10,000 peasant women     │     Singh jailed for peasant firing.   │
+│ • Feudal elephant procession    │     assembled under Kishori Devi.   │   │ • Kudan (1935): Captain Webb       │
+│   dispute with Rao Raja Kalyan  │   │ • Keynote orator: Durga Devi    │     ordered firing; raised in the      │
+│   Singh unified Jat peasantry.  │     Sharma; protested Sihot Thakur. │     British House of Commons!          │
 └─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
 ```
 
-#### The Katrathal Women's Conference (25 April 1934 / कटराथल महिला सम्मेलन)
-One of the most glorious chapters in Indian women's peasant history:
-- **Catalyst**: The brutal physical assault and humiliation of peasant women at **Sotia ka Bas village** by the feudal Thakur of Sihot, **Man Singh**.
-- **The Historic Gathering**: Defying strict feudal bans, over **10,000 peasant women** congregated at **Katrathal (कटराथल, Sikar)** on **25 April 1934**.
-- **Leadership**:
-  - **President**: **Kishori Devi (किशोरी देवी)**, the courageous wife of peasant leader Sardar Harlal Singh.
-  - **Keynote Orator**: **Durga Devi Sharma (दुर्गा देवी शर्मा)**, wife of Tadkeshwar Sharma, who delivered an electrifying speech condemning feudal tyranny.
-  - Other Leaders: Uttama Devi, Rama Devi, Phoolan Devi.
+### The Katrathal Women's Conference (25 April 1934) [Secure Core]
+- **The Catalyst:** Feudal Thakur **Man Singh of Sihot** severely assaulted and humiliated peasant women at **Sotia ka Bas village**.
+- **The Historic Gathering:** Defying feudal prohibitions, over **10,000 peasant women** gathered at **Katrathal (कटराथल, Sikar)** on **25 April 1934**.
+- **Leadership [High-Yield Exam Trap]:**
+  - **President:** **Kishori Devi (किशोरी देवी)**, wife of Sardar Harlal Singh.
+  - **Keynote Orator:** **Durga Devi Sharma (दुर्गा देवी शर्मा)**, wife of Tadkeshwar Sharma, who delivered a stirring speech condemning feudal oppression.
 
-#### The Kudan Incident (1935 CE) & British Parliament
-- At **Kudan village (कूदन, Sikar)** in 1935, Jat peasants led by an elderly matriarch, **Dhatapi Devi**, refused to pay inflated land taxes.
-- British officer **Captain Webb** opened fire on the gathering; several peasants were martyred, and over 100 were arrested.
-- **International Resonance**: The atrocities at Kudan were formally raised by British MPs in the **House of Commons in London**, forcing the Rao Raja of Sikar to concede tax reductions.
+### Jayasinghpura & Kudan Incidents (1934–1935)
+1. **The Jayasinghpura Firing (1934 CE) [Secure Core]:** On 21 June 1934, **Thakur Ishwar Singh** of Dundlod ordered armed attacks on unarmed Jat cultivators. Following legal mobilization by the Rajasthan Jat Kshatriya Sabha, Ishwar Singh was tried, convicted, and sentenced to imprisonment—the **first time in Rajasthan's history that a feudal Jagirdar was imprisoned by a court for crimes against peasants**.
+2. **The Kudan Incident (1935 CE) [Secure Core]:** Peasants at Kudan village (Sikar), inspired by matriarch **Dhatapi Devi**, refused to pay enhanced cesses. British officer **Captain Webb** opened fire, martyring several peasants and arresting over 100. The brutality was formally debated in the **British House of Commons in London**, forcing the Rao Raja of Sikar to grant tenancy concessions.
 
 ---
 
-## 7. Other Notable Peasant Uprisings in Rajasthan
+# PART VIII — MARWAR & BIKANER PEASANT MOVEMENTS
 
-### 7.1 The Meo Peasant Movement of Mewat (Alwar-Bharatpur, 1932–1933)
-- **Catalyst**: High land taxes, forced labor, and wild boar preservation affecting the **Meo Muslim peasantry** of Mewat.
-- **Leaders**: **Dr. Mohammad Ali** and **Chaudhary Yasin Khan** (of Gurgaon), operating under the banner of **Anjuman Khadim-ul-Islam**.
-- Led to communal flare-ups; British troops placed Alwar under temporary administrative receivership.
+## 11. Marwar Peasant Movements & The Dabra Tragedy (1947)
 
-### 7.2 The Dabra Massacre (13 March 1947 / डाबड़ा कांड)
-- **Location**: **Dabra village (डाबड़ा, Didwana)**, Marwar state.
-- **The Incident**: A joint convention of the **Marwar Lok Parishad** and the **Marwar Kisan Sabha** was held at the residence of peasant activist **Motiram Chaudhary**.
-- **The Feudal Ambush**: Armed mercenaries hired by local Jagirdars attacked the unarmed convention with swords, guns, and spears.
-- **Martyrdom**: Brave activists **Pannaram**, **Rugharam**, **Chunaram**, and **Nandaram** were slaughtered on the spot. Prominent freedom fighter **Chhaganraj Chopasniwala** was critically wounded.
+- **Organizational Vehicle [Secure Core]:** Organized under the joint banners of the **Marwar Lok Parishad** (1938) and the **Marwar Kisan Sabha** (founded in 1941 by **Baldev Ram Mirdha** and Nathuram Mirdha).
+- **Chandaawal Incident (28 March 1942) [Secure Core]:** In Sojat pargana (Pali), armed feudal elements attacked unarmed Lok Parishad activists celebrating Responsible Government Day.
+- **The Dabra Massacre (13 March 1947 / डाबड़ा कांड) [Secure Core]:**
+  - **Location:** Dabra village (Didwana, modern Nagaur/Didwana-Kuchaman).
+  - **The Attack:** A joint peasant-political conference was convened at the residence of **Motiram Chaudhary**. Local Jagirdars launched an armed assault with guns, swords, and spears.
+  - **Martyrs:** Peasant activists **Pannaram Chaudhary**, **Rugharam**, **Chunaram**, and **Nandaram** were killed. Freedom fighter **Chhaganraj Chopasniwala** and Mathuradas Mathur were critically wounded.
 
 ---
 
-## 8. Comprehensive Peasant Movements Invariant Matrix
+## 12. Bikaner Peasant Agitations: Dudhwa Khara & Kangang
 
-The definitive synoptic matrix synthesizing the peasant uprisings of Rajasthan for rapid comparative examination review:
+- **Feudal Setting [Secure Core]:** Bikaner state collected excessive revenue and water taxes (*Aabiana*).
+- **Dudhwa Khara Peasant Movement (दूधवा खारा, Churu) [Secure Core]:**
+  - Centered in Dudhwa Khara against the arbitrary evictions ordered by **Thakur Surajmal Singh**.
+  - Leaders: **Magharam Vaidya** (founder of Bikaner Praja Parishad) and **Hanuman Singh Arya** (who undertook a historic 65-day hunger strike in Bikaner jail).
+  - **Khetu Bai (खेतू बाई):** Sister of Magharam Vaidya, who mobilized peasant women across Churu.
+- **Kangang Atrocity (कांगड़ कांड, 1946 CE) [Secure Core]:** In Ratangarh tehsil; when crops failed due to drought, the Jagirdar forcibly extorted revenue, brutally torturing peasant families.
 
-| Movement & Region | Duration | Peasant Caste Base | Principal Leaders | Defining Catalysts / Cesses | Key Massacres & Historic Outcomes |
+---
+
+# PART IX — MASTER COMPARATIVE MATRIX, TRAPS & HISTORIOGRAPHICAL DEBATES
+
+## 13. Master Peasant Movements Synoptic Grid
+
+| Movement & Region | Duration | Dominant Community | Principal Leaders | Defining Catalysts / Cesses | Key Massacre & Historic Outcome |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Bijolia (Mewar)** | 1897–1941 (44 yrs) | Dhakar Caste | Sadhu Sitaram Das, Vijay Singh Pathik, M.L. Verma | 84 Lāg-Bāgs; Chanwari (1903); Talwar Bandhai (1906) | Uparmal Panch Board (1917); 1922 Holland pact; Longest non-violent movement |
-| **Bengu (Mewar)** | 1921–1925 | Dhakar Caste | Ramnarayan Chaudhary, Vijay Singh Pathik | 25 Lāg-Bāgs; Begar; Repudiation of "Bolshevik Pact" | Govindpura Massacre (13 July 1923); Rupa Ji & Kripa Ji Dhakar martyred |
-| **Bundi (Barad)** | 1922–1943 | Gujjar & Peasant | Pandit Nayanuram Sharma (RSS) | High land revenue; Begar; 25 illegal cesses | Dabi Massacre (2 April 1923); Nanak Ji Bhil martyred; Song "Arzi" |
-| **Nimuchana (Alwar)**| 1924–1925 | Rajput & Brahmin | Madho Singh, Govind Singh | Wild boars (*Suars*); 40% revenue hike in 1924 | Nimuchana Massacre (14 May 1925); "Dyerism Double Distilled" (Gandhi) |
-| **Shekhawati (Sikar)**| 1922–1947 | Jat Peasantry | Sardar Harlal Singh, Deshraj, Master Chandrabhan | Panchpana Jagirdars; Arbitrary cess (*Dhaani*) | Katrathal Conference (1934, 10k women); Kudan Massacre raised in UK Parliament |
-| **Mewat (Alwar-Bhp)**| 1932–1933 | Meo Peasantry | Dr. Mohammad Ali, Yasin Khan | Religious interference; Wild boars; High taxes | Anjuman Khadim-ul-Islam; British administration instituted |
-| **Dabra (Didwana)** | 13 March 1947 | Mixed Peasantry | Mathuradas Mathur, Motiram, Chhaganraj Chopasniwala | Feudal Jagirdar resistance to Lok Parishad | Dabra Massacre (13 March 1947); Pannaram & Rugharam martyred |
+| **Bijolia (Mewar)** | 1897–1941 (44 yrs) | Dhakar Caste | Sadhu Sitaram Das, Vijay Singh Pathik, M.L. Verma | 84 Cesses; Chanwari (1903); Talwar Bandhai (1906) | Uparmal Panch Board (1917); Holland Accord (1922); Raghavachari pact (1941). Longest non-violent movement. |
+| **Bengu (Mewar)** | 1921–1925 | Dhakar Caste | Ramnarayan Chaudhary, Vijay Singh Pathik | 25 Cesses; Begar; Repudiation of "Bolshevik Pact" | Govindpura Massacre (13 July 1923); Rupa Ji & Kripa Ji Dhakar martyred. |
+| **Bundi (Barad)** | 1922–1943 | Gujjar Caste | Pandit Nayanuram Sharma (RSS) | High revenue; Begar; 25 illegal cesses | Dabi Massacre (2 April 1923); Nanak Ji Bhil martyred; Verma's song "Arzi". |
+| **Nimuchana (Alwar)**| 1924–1925 | Rajput & Brahmin | Madho Singh, Govind Singh | Wild Boars (*Suars*); 40% tax hike in 1924 | Nimuchana Massacre (14 May 1925); "Dyerism Double Distilled" (Gandhi); tax hike cancelled. |
+| **Shekhawati (Sikar)**| 1922–1947 | Jat Peasantry | Sardar Harlal Singh, Deshraj, Master Chandrabhan | Panchpana Jagirdars; Arbitrary cess (*Dhaani*) | Katrathal Conference (1934, 10k women); Jayasinghpura trial; Kudan debated in UK Parliament. |
+| **Mewat (Alwar-Bhp)**| 1932–1933 | Meo Peasantry | Dr. Mohammad Ali, Yasin Khan | Religious interference; Wild boars; High taxes | Anjuman Khadim-ul-Islam; Maharaja Jai Singh exiled to Paris. |
+| **Marwar & Dabra** | 1941–1947 | Mixed (Jat/Chaudhary) | Baldev Ram Mirdha, Mathuradas Mathur, Motiram | Feudal Jagirdar resistance to Marwar Kisan Sabha | Dabra Massacre (13 March 1947); Pannaram & Rugharam martyred. |
+| **Bikaner (Dudhwa)** | 1944–1946 | Jat Peasantry | Magharam Vaidya, Hanuman Singh, Khetu Bai | Evictions by Thakur Surajmal Singh; Aabiana tax | Hanuman Singh's 65-day fast; Kangang atrocity (1946). |
 
 ---
 
-## 9. The 25 Deadliest Examination Traps (Forensic Autopsy)
+## 14. Top 25 High-Yield Examination Traps
 
-1. **Trap 1: The First Initiator of Bijolia**:
-   - *Trap*: Selecting Vijay Singh Pathik as the founder in 1897.
-   - *Fact*: Pathik joined only in **1916**! Phase 1 (1897–1915) was founded and led by **Sadhu Sitaram Das**, Nanji Patel, and Thakari Patel.
-
-2. **Trap 2: The Original Name of Vijay Singh Pathik**:
-   - *Trap*: Believing his real name was Ramnarayan.
-   - *Fact*: His real name was **Bhoop Singh Gujjar**, born in Guthawali (Bulandshahr, UP).
-
-3. **Trap 3: Chanwari vs Talwar Bandhai Cesses**:
-   - *Trap*: Conflating the two taxes or their creators.
-   - *Fact*:
-     - **Chanwari Tax (1903)**: Imposed by **Rao Krishna Singh** (Rs 5 on daughter's marriage).
-     - **Talwar Bandhai Tax (1906)**: Imposed by **Rao Prithvi Singh** (succession fee).
-
-4. **Trap 4: Foundation Date of Uparmal Panch Board**:
-   - *Trap*: Stating it was founded in 1919 at Ajmer.
-   - *Fact*: Founded in **1917 CE on Hariyali Amavasya** at Berisal village; **Manna Patel** was elected Sarpanch.
-
-5. **Trap 5: Newspaper Championing Bijolia**:
-   - *Trap*: Thinking it was *Rajasthan Kesari*.
-   - *Fact*: The newspaper that gave daily national coverage was **"Pratap" (Kanpur)**, edited by **Ganesh Shankar Vidyarthi**.
-
-6. **Trap 6: The Foundation Location of Rajasthan Seva Sangh**:
-   - *Trap*: Stating it was established in Ajmer in 1919.
-   - *Fact*: Founded at **Wardha (Maharashtra) in 1919**; shifted to **Ajmer in 1920**.
-
-7. **Trap 7: Origin Location of Bengu Movement**:
-   - *Trap*: Believing it began at Govindpura.
-   - *Fact*: Began at **Bhairav Kund (Menal)** in May 1921. Govindpura was the site of the 1923 massacre.
-
-8. **Trap 8: The "Bolshevik Agreement" Parties**:
-   - *Trap*: Stating it was between Pathik and the British.
-   - *Fact*: Concluded between **Rawat Anoop Singh of Bengu** and **Rajasthan Seva Sangh**; Mewar Maharana repudiated it as "Bolshevik".
-
-9. **Trap 9: The Martyrs of Bengu vs Bundi**:
-   - *Trap*: Conflating Rupa-Kripa with Nanak Bhil.
-   - *Fact*:
-     - **Rupa Ji & Kripa Ji Dhakar**: Bengu Movement (Govindpura Massacre, 13 July 1923).
-     - **Nanak Ji Bhil & Devi Lal Gurjar**: Bundi Movement (Dabi Massacre, 2 April 1923).
-
-10. **Trap 10: The Song "Arzi" vs "Panchhida"**:
-    - *Trap*: Confusing the context of the two songs.
-    - *Fact*: Both composed by Manikya Lal Verma, but:
-      - **Panchhida (पंछीड़ा)**: Written to inspire Bijolia peasants.
-      - **Arzi (अर्जी)**: Written as an elegy for martyr **Nanak Ji Bhil** after Dabi massacre.
-
-11. **Trap 11: "Dyerism Double Distilled" Quote Context**:
-    - *Trap*: Attributing the quote to Jallianwala Bagh or Mangarh Dham.
-    - *Fact*: Uttered by **Mahatma Gandhi in Young India** regarding the **Nimuchana Massacre (14 May 1925)** in Alwar state.
-
-12. **Trap 12: "General Dyer of Rajasthan"**:
-    - *Trap*: Calling General Roberts or Brigadier Holmes by this name.
-    - *Fact*: Bestowed upon Alwar state commander **Chhaju Singh** for ordering the Nimuchana firing.
-
-13. **Trap 13: Leaders of the Katrathal Women's Conference (1934)**:
-    - *Trap*: Thinking Kishori Devi delivered the keynote speech.
-    - *Fact*: **Kishori Devi was the President**; the fiery **keynote orator was Durga Devi Sharma**.
-
-14. **Trap 14: The Trigger for Katrathal Conference**:
-    - *Trap*: General tax protest.
-    - *Fact*: Feudal atrocities committed against peasant women by **Thakur Man Singh of Sihot** at **Sotia ka Bas village**.
-
-15. **Trap 15: The Kudan Incident Raised in British Parliament**:
-    - *Trap*: Believing Bijolia was raised in the House of Commons.
-    - *Fact*: Tilak raised Bijolia earlier, but the specific firing raised by British MPs in the **House of Commons in 1935** was the **Kudan Massacre (Sikar)** under Captain Webb!
-
-16. **Trap 16: The First Jagirdar Jailed for Peasant Killing**:
-    - *Trap*: Rawat Anoop Singh of Bengu.
-    - *Fact*: **Thakur Ishwar Singh** after the **Jayasinghpura Massacre (1934 CE)** in Shekhawati.
-
-17. **Trap 17: Date of Dabra Massacre**:
-    - *Trap*: Stating 1942 during Quit India.
-    - *Fact*: Occurred on **13 March 1947** (on the eve of independence) in Didwana.
-
-18. **Trap 18: First Original Grantee of Bijolia**:
-    - *Trap*: Sadhu Sitaram Das’s ancestors.
-    - *Fact*: Granted by **Maharana Sanga** to **Ashok Parmar** of Jagner after the Battle of Khanwa (1527 CE).
-
-19. **Trap 19: Nature of the Meo Movement**:
-    - *Trap*: A pure Prajamandal movement.
-    - *Fact*: An agrarian-peasant movement driven by the Meo Muslim peasantry under **Dr. Mohammad Ali** and **Yasin Khan** (*Anjuman Khadim-ul-Islam*).
-
-20. **Trap 20: Mewar Prime Minister Settling Bijolia in 1941**:
-    - *Trap*: Maharana Fateh Singh or Amar Singh.
-    - *Fact*: **Sir T. Raghavachari** (Prime Minister) and **Dr. Mohan Singh Mehta** (Revenue Minister).
-
-21. **Trap 21: The Uparmal Danka Bulletin**:
-    - *Trap*: A printed newspaper from Ajmer.
-    - *Fact*: A **handwritten weekly cyclostyled bulletin** published clandestinely by the Uparmal Panch Board in Bijolia.
-
-22. **Trap 22: The Sarpanch of Uparmal Panch Board**:
-    - *Trap*: Vijay Singh Pathik or Sadhu Sitaram Das.
-    - *Fact*: **Manna Patel** was elected the first Sarpanch in 1917.
-
-23. **Trap 23: The 1922 Holland Agreement Signatories**:
-    - *Trap*: Concluded between Gandhi and Maharana.
-    - *Fact*: Concluded between **AGG Robert Holland** and the **Peasant Panchayat** under Rajasthan Seva Sangh.
-
-24. **Trap 24: Peasant Caste Majority in Bijolia & Bengu**:
-    - *Trap*: Jat or Meena.
-    - *Fact*: **Dhakar (धाकड़) caste** constituted over 60% of cultivators in both Bijolia and Bengu.
-
-25. **Trap 25: Total Duration of the Bijolia Movement**:
-    - *Trap*: Stating 20 or 30 years.
-    - *Fact*: Exactly **44 years (1897 to 1941)** without shedding a single drop of retaliatory blood.
+1. **Founding Leader of Bijolia**: **Sadhu Sitaram Das** founded Phase 1 (1897–1915). Vijay Singh Pathik assumed leadership only in **1916**.
+2. **True Identity of Vijay Singh Pathik**: Born as **Bhoop Singh Gujjar** at Guthawali (Bulandshahr, UP); changed his name after escaping Todgarh Fort.
+3. **Chanwari vs. Talwar Bandhai Cesses**:
+   - **Chanwari (1903)**: Imposed by **Rao Krishna Singh** (Rs 5 fee on daughter's wedding).
+   - **Talwar Bandhai (1906)**: Imposed by **Rao Prithvi Singh** (feudal succession investiture fee).
+4. **Uparmal Panch Board Details**: Founded on **Hariyali Amavasya in 1917** at Berisal village; **Manna Patel** was elected its first Sarpanch.
+5. **Newspaper Nationalizing Bijolia**: **"Pratap" (Kanpur)** edited by **Ganesh Shankar Vidyarthi**, NOT *Rajasthan Kesari*.
+6. **Rajasthan Seva Sangh Genesis**: Founded in **1919 at Wardha (Maharashtra)**; shifted to **Ajmer in 1920**.
+7. **Origin Site of Bengu Movement**: Began at **Bhairav Kund (Menal)** in May 1921. Govindpura was the site of the 1923 massacre.
+8. **The "Bolshevik Agreement" Parties**: Concluded between **Rawat Anoop Singh of Bengu** and the **Rajasthan Seva Sangh**; Mewar Maharana repudiated it as "Bolshevik".
+9. **Govindpura vs. Dabi Martyrs**:
+   - **Govindpura (13 July 1923, Bengu)**: Rupa Ji Dhakar and Kripa Ji Dhakar.
+   - **Dabi (2 April 1923, Bundi)**: Nanak Ji Bhil and Devi Lal Gurjar.
+10. **The Song "Arzi" vs. "Panchhida"**:
+    - **Panchhida (पंछीड़ा)**: Written by Manikya Lal Verma to inspire Bijolia peasants.
+    - **Arzi (अर्जी)**: Written by Manikya Lal Verma as an elegy for martyr **Nanak Ji Bhil** after the Dabi massacre.
+11. **"Dyerism Double Distilled" Context**: Coined by **Mahatma Gandhi in Young India** for the **Nimuchana Massacre (14 May 1925)** in Alwar, NOT for Mangarh Dham or Jallianwala.
+12. **"General Dyer of Rajasthan"**: Bestowed upon Alwar state police commander **Chhaju Singh** for ordering the Nimuchana machine-gun firing.
+13. **Katrathal Women's Conference Leadership (1934)**: **Kishori Devi was the President**; the fiery **keynote speaker was Durga Devi Sharma**.
+14. **Trigger for Katrathal Gathering**: Feudal assault on peasant women by **Thakur Man Singh of Sihot** at **Sotia ka Bas village**.
+15. **The Kudan Incident in British Parliament**: Police firing by Captain Webb on Jat peasants at **Kudan (Sikar, 1935)** was debated in the **House of Commons, London**.
+16. **First Jagirdar Jailed for Peasant Murders**: **Thakur Ishwar Singh of Dundlod**, sentenced following the **Jayasinghpura Massacre (1934)** in Shekhawati.
+17. **Date of Dabra Massacre**: Occurred on **13 March 1947** (on the eve of independence) in Didwana, Marwar.
+18. **First Feudal Grantee of Bijolia**: Granted by **Maharana Sanga** to **Ashok Parmar** of Jagner after the Battle of Khanwa (1527 CE).
+19. **Nature of the Meo Agitation**: An agrarian struggle led by **Chaudhary Yasin Khan** and **Dr. Mohammad Ali** under *Anjuman Khadim-ul-Islam*, later turning communal.
+20. **Mewar Prime Minister Settling Bijolia (1941)**: **Sir T. Raghavachari** (Prime Minister) and **Dr. Mohan Singh Mehta** (Revenue Minister).
+21. **The Uparmal Danka Bulletin**: A **handwritten, cyclostyled weekly bulletin** published secretly by the Uparmal Panch Board in Bijolia.
+22. **The 1922 Holland Agreement**: Brokered by **AGG Robert Holland**; abolished **35 cesses**, but later breached by the Thikana.
+23. **Dominant Peasant Caste in Bijolia & Bengu**: **Dhakar (धाकड़)** caste constituted over 60% of cultivators.
+24. **Dudhwa Khara Peasant Leaders**: **Magharam Vaidya**, **Hanuman Singh Arya** (65-day fast), and female activist **Khetu Bai**.
+25. **The Matrikundiya Precursor (1880)**: First modern organized peasant protest in Rajasthan, held on 22 June 1880 by Jat farmers against Maharana Sajjan Singh's revenue survey.
 
 ---
 
-## 10. RPSC RAS Examination Model Answer Laboratory
+## 15. Primary Verification Sources & Concordance
 
-### 10.1 Section A: 2-Mark High-Density Formulations (15–20 Words)
+1. **Saxena, K.S., *The Political Movements and Awakening in Rajasthan* (New Delhi, 1971):** Authoritative academic study on the transition from agrarian protest to Prajamandal politics.
+2. **Khadgawat, Nathuram (Ed.), *Bijolia Peasant Movement Records* (Rajasthan State Archives, Bikaner):** Contemporary police diaries, secret intelligence files, and Thikana administrative orders.
+3. **Board of Secondary Education Rajasthan (RBSE), *History and Culture of Rajasthan* (Class 10, Chapter 3):** Official state textbook curriculum for agrarian movements.
+4. **Gandhi, M.K., *Young India* (Issues of May–June 1925):** Direct primary editorial text condemning the Nimuchana Massacre as "Dyerism Double Distilled".
+5. **Vidyarthi, Ganesh Shankar (Ed.), *Pratap* (Kanpur, 1916–1922 files):** Archival press coverage of Bijolia's Phase 2 mobilization.
+6. **United Kingdom, Parliamentary Debates (Hansard), House of Commons (1935):** Official records of questions raised regarding Captain Webb's firing at Kudan (Sikar).
+
+---
+
+# PART X — ACTIVE RECALL & EXAMINATION PRACTICE LABORATORY
+
+## 16. High-Yield Prelims Practice Questions
+
+### Q1. Who was the founding leader of Phase 1 (1897–1915) of the Bijolia Peasant Movement?
+(A) Vijay Singh Pathik  
+(B) Manikya Lal Verma  
+(C) Sadhu Sitaram Das  
+(D) Ramnarayan Chaudhary  
+
+**Answer: (C).** Sadhu Sitaram Das initiated the movement in 1897 at Girdharpura; Vijay Singh Pathik assumed leadership in 1916.
+
+---
+
+### Q2. Consider the following statements regarding the Bijolia Peasant Movement:
+1. Rao Krishna Singh imposed the Chanwari tax in 1903.
+2. The Uparmal Panch Board was established in 1917 with Manna Patel as its Sarpanch.
+3. The final settlement of 1941 was concluded by Mewar Prime Minister Sir T. Raghavachari.
+
+Which of the statements given above are correct?  
+(A) 1 and 2 only  
+(B) 2 and 3 only  
+(C) 1 and 3 only  
+(D) 1, 2, and 3  
+
+**Answer: (D).** All three statements are historically accurate.
+
+---
+
+### Q3. Rupa Ji Dhakar and Kripa Ji Dhakar were martyred during police firing in which peasant movement?
+(A) Bijolia Peasant Movement  
+(B) Bengu Peasant Movement  
+(C) Bundi (Barad) Peasant Movement  
+(D) Nimuchana Peasant Movement  
+
+**Answer: (B).** Martyred at the Govindpura Massacre (13 July 1923) during the Bengu Movement.
+
+---
+
+### Q4. Which peasant massacre was denounced by Mahatma Gandhi in 'Young India' as "Dyerism Double Distilled"?
+(A) Govindpura Massacre (1923)  
+(B) Dabi Massacre (1923)  
+(C) Nimuchana Massacre (1925)  
+(D) Dabra Massacre (1947)  
+
+**Answer: (C).** The Nimuchana Massacre (14 May 1925) in Alwar state.
+
+---
+
+### Q5. Who presided over the historic Katrathal Women's Conference on 25 April 1934?
+(A) Durga Devi Sharma  
+(B) Kishori Devi  
+(C) Rama Devi  
+(D) Khetu Bai  
+
+**Answer: (B).** Kishori Devi was the President; Durga Devi Sharma was the keynote orator.
+
+---
+
+### Q6. The Kudan Incident of 1935, which was debated in the British House of Commons, occurred in which princely state/estate?
+(A) Sikar (Shekhawati)  
+(B) Mewar (Udaipur)  
+(C) Marwar (Jodhpur)  
+(D) Alwar  
+
+**Answer: (A).** Kudan village in Sikar estate under Jaipur suzerainty.
+
+---
+
+## 17. Mains Examination Answer Laboratory
+
+### 2-Mark High-Density Formulations (15–20 Words)
 
 #### Q1: What was the Chanwari Tax (चंवरी कर)?
-**Answer**: Imposed in 1903 by Rao Krishna Singh of Bijolia, levying an extortionate 5 rupees on every peasant upon his daughter's marriage.
+**Answer:** Imposed in 1903 by Rao Krishna Singh of Bijolia, levying an extortionate 5 rupees on every peasant upon his daughter's marriage.
 
-#### Q2: Who were the martyrs of the Govindpura Massacre (13 July 1923)?
-**Answer**: **Rupa Ji Dhakar** and **Kripa Ji Dhakar**, shot dead during police firing ordered by Commissioner Trench during the Bengu Peasant Movement.
+#### Q2: What was the "Bolshevik Agreement" in Rajasthan's agrarian history?
+**Answer:** A progressive 1922 compromise pact signed between Rawat Anoop Singh of Bengu and Rajasthan Seva Sangh, repudiated by Mewar Maharana as dangerous socialism.
 
-#### Q3: Why is the Nimuchana Massacre (1925) termed "Dyerism Double Distilled"?
-**Answer**: Designated by **Mahatma Gandhi in Young India** because state troops under Chhaju Singh machine-gunned peaceful farmers and torched 144 homes, surpassing Jallianwala Bagh's brutality.
+#### Q3: State the historical significance of the song "Arzi".
+**Answer:** Composed by Manikya Lal Verma as an emotional elegy honoring martyr Nanak Ji Bhil after the 1923 Dabi police firing in Bundi.
 
-#### Q4: What is the historical significance of the Katrathal Women's Conference (1934)?
-**Answer**: Held on 25 April 1934, where over **10,000 peasant women** mobilized under **Kishori Devi** and speaker Durga Devi Sharma against feudal atrocities by Sihot Thakur.
-
-#### Q5: Who was Nanak Ji Bhil, and which patriotic song is dedicated to him?
-**Answer**: A peasant activist martyred while singing the Flag Song during the 1923 Dabi police firing (Bundi); commemorated by Manikya Lal Verma’s elegy **"Arzi"**.
-
-#### Q6: Name the five principal Jagirs comprising "Panchpana" in Shekhawati.
-**Answer**: **Nawalgarh, Mandawa, Dundlod, Bissau, and Khetri / Udaipurwati**.
-
-#### Q7: What was the "Bolshevik Agreement"?
-**Answer**: A progressive compromise pact signed in 1922 between Rawat Anoop Singh of Bengu and Rajasthan Seva Sangh, rejected by Mewar Maharana as dangerous socialism.
+#### Q4: Why is the Jayasinghpura Incident (1934) landmark in legal history?
+**Answer:** Thakur Ishwar Singh of Dundlod became the first Jagirdar in Rajasthan's history to be convicted and imprisoned by a court for shooting peasants.
 
 ---
 
-### 10.2 Section B: 5-Mark Analytical Blueprints (50 Words)
+### 5-Mark Analytical Blueprints (50 Words)
 
-#### Q8: Analyze the role of Vijay Singh Pathik in transforming the Bijolia Peasant Movement into a national struggle.
-**Answer**:
-Assuming leadership in 1916, Vijay Singh Pathik institutionalized and nationalized the struggle:
-- **Grassroots Institutions**: Founded the **Uparmal Panch Board (1917)** with Manna Patel as Sarpanch and circulated the underground newsletter *Uparmal Danka*.
-- **National Alliance**: Partnered with Ganesh Shankar Vidyarthi's *Pratap* (Kanpur) to generate pan-Indian publicity; secured endorsements from Tilak and Gandhi.
-- **Organizational Machine**: Founded **Rajasthan Seva Sangh (1919)**, elevating local agrarian grievances into an organized civil resistance that forced the 1922 Holland Agreement.
+#### Q5: Explain the role of Vijay Singh Pathik in nationalizing the Bijolia Peasant Movement.
+**Answer:**
+Assuming leadership in 1916, Pathik transformed an isolated local agitation into a national struggle:
+1. **Institutional Base:** Founded the **Uparmal Panch Board (1917)** with Manna Patel as Sarpanch and circulated the underground bulletin *Uparmal Danka*.
+2. **National Media Alliance:** Partnered with Ganesh Shankar Vidyarthi's *Pratap* (Kanpur), gaining front-page all-India coverage and securing endorsements from Tilak and Gandhi.
+3. **Organizational Engine:** Founded the **Rajasthan Seva Sangh (1919)**, forcing the British to negotiate the historic 1922 Holland Agreement.
 
-#### Q9: Detail the causes and historical significance of the Shekhawati Peasant Movement.
-**Answer**:
-Driven by the sturdy Jat peasantry against the Panchpana Jagirdars (1922–1947):
-- **Causes**: Unchecked cess (*Dhaani*), illegal pasture seizures, and social humiliation by Rajput landlords.
-- **Significance**:
-  - Pioneered unprecedented female political mobilization at the **Katrathal Conference (1934)** with 10,000 women under Kishori Devi.
-  - Achieved national and international resonance: the **Kudan Massacre (1935)** was debated in the British House of Commons, accelerating tenancy reforms in Jaipur state.
-
-#### Q10: Contrast the character and outcomes of the Bijolia and Nimuchana peasant movements.
-**Answer**:
-- **Bijolia (1897–1941)**: Led by Dhakar peasants through non-violent institutional boycott spanning 44 years; achieved complete victory via negotiation (Holland 1922, Raghavachari 1941) without state-orchestrated massacres.
-- **Nimuchana (1925)**: Led by Rajput cultivators against wild boars and 40% tax hikes; brutally crushed within a year through state machine-gun firing (*Dyerism Double Distilled*), leading to immediate tax rollback out of moral shame.
+#### Q6: Examine the socio-political significance of the Katrathal Women's Conference (1934).
+**Answer:**
+Held on **25 April 1934** at Katrathal (Sikar), it marks an unprecedented milestone in Indian women's subaltern history:
+- **Mass Mobilization:** Over **10,000 peasant women** gathered in defiance of feudal purdah to protest atrocities committed by Thakur Man Singh of Sihot at Sotia ka Bas.
+- **Leadership:** Presided over by **Kishori Devi**, with an electrifying keynote address by **Durga Devi Sharma**.
+- **Impact:** Shattered feudal patriarchal dominance in Shekhawati, directly integrating rural women into the mainstream freedom struggle.
 
 ---
 
-### 10.3 Section C: 10-Mark Multi-Dimensional Frameworks (100 Words)
+### 10-Mark Multi-Dimensional Frameworks (100 Words)
 
-#### Q11: "The Bijolia Peasant Movement was the laboratory and lighthouse of agrarian and political awakening in Rajasthan." Critically evaluate this statement.
-**Answer**:
-Spanning 44 years (1897–1941), the Bijolia Movement functioned as the structural laboratory that pioneered non-violent resistance methods across princely India:
+#### Q7: "The Bijolia Peasant Movement was the laboratory and lighthouse of modern political awakening in Rajasthan." Discuss.
+**Answer:**
+Spanning 44 years (1897–1941), the Bijolia Movement functioned as the foundational laboratory for non-violent resistance across princely India:
 
 ```
 ┌───────────────────────────┬───────────────────────────────────────────────────────────────────┐
 │ Dimensional Sphere        │ Pioneering Precedents Established by Bijolia                      │
 ├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 1. Grassroots Organization│ • Created democratic village panchayats (Uparmal Panch Board 1917)│
-│                           │   exercising judicial, administrative, and tax-boycott authority. │
+│ 1. Grassroots Democracy   │ • Created parallel self-governance via Uparmal Panch Board (1917) │
+│                           │   exercising judicial dispute settlement and tax-boycott authority│
 ├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 2. Media & Public Opinion │ • Used regional press (*Pratap*, *Naveen Rajasthan*, *Maratha*)   │
-│                           │   to demolish feudal information blackouts and mobilize India.    │
+│ 2. Media & Public Opinion │ • Used nationalist press (*Pratap*, *Naveen Rajasthan*, *Maratha*)│
+│                           │   to overcome princely censorship and mobilize national sympathy. │
 ├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 3. Cadre & Leadership Seed│ • Functioned as the training academy for Rajasthan’s paramount    │
-│                           │   freedom fighters: Pathik, Manikya Lal Verma, Ramnarayan         │
-│                           │   Chaudhary, and Sadhu Sitaram Das.                               │
+│ 3. Cadre & Leadership Seed│ • Trained paramount regional leaders: Vijay Singh Pathik, Manikya │
+│                           │   Lal Verma, Ramnarayan Chaudhary, and Sadhu Sitaram Das.         │
 ├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 4. Domino Effect on States│ • Directly ignited copycat peasant uprisings: Bengu (1921),       │
-│                           │   Bundi (1922), Shekhawati, and tribal awakenings (Eki Movement). │
+│ 4. Domino Effect          │ • Sparked copycat peasant movements: Bengu (1921), Bundi (1922),  │
+│                           │   Shekhawati (1922), and tribal awakenings (Eki Movement).        │
 ├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 5. Peasant-to-Prajamandal │ • Bridged economic agrarian resistance with political democracy,  │
-│                           │   transforming into the Mewar Prajamandal movement (1938).        │
+│ 5. Prajamandal Bridge     │ • Directly converted agrarian anti-feudal consciousness into      │
+│                           │   constitutional struggles for responsible government by 1938.    │
 └───────────────────────────┴───────────────────────────────────────────────────────────────────┘
 ```
-**Conclusion**: Bijolia broke the century-old myth of feudal invincibility in Rajputana. By proving that unarmed peasants could defeat the combined might of Jagirdars, Maharanas, and British residents through non-violent solidarity, it served as the undisputed lighthouse of modern political awakening.
+**Conclusion:** By demonstrating that unarmed Dhakar cultivators could compel Jagirdars, the Mewar Darbar, and British Political Agents to capitulate without retaliatory violence, Bijolia permanently dismantled the myth of feudal invincibility in Rajasthan.
 
 ---
 
-#### Q12: Trace the nature, trajectory, and state response to the peasant uprisings in Bengu, Bundi, and Alwar between 1921 and 1925.
-**Answer**:
-Between 1921 and 1925, agrarian unrest erupted across Mewar, Hadoti, and Mewat, meeting severe feudal-colonial state violence:
+#### Q8: Compare and contrast the peasant uprisings of Bengu, Nimuchana, and Shekhawati with regard to leadership, agrarian grievances, and state response.
+**Answer:**
+Between 1921 and 1935, agrarian unrest across Rajasthan exhibited diverse leadership structures and state countermeasures:
 
-1. **Bengu (1921–1925, Mewar)**:
-   - **Nature**: Dhakar peasant mobilization sparked at Menal (1921) under Ramnarayan Chaudhary; demanded abolition of 25 cesses and begar.
-   - **Trajectory**: Rawat Anoop Singh conceded a bilateral treaty in 1922, which the Mewar state nullified as "Bolshevik".
-   - **State Response**: Commissioner Trench surrounded the **Govindpura meeting (13 July 1923)**, martyring **Rupa Ji** and **Kripa Ji Dhakar**. Pathik was imprisoned for five years; settlement achieved in 1925.
+1. **Bengu (1921–1925, Mewar):**
+   - *Grievances & Leadership:* Dhakar cultivators mobilized under Ramnarayan Chaudhary against 25 cesses and begar.
+   - *State Response:* Mewar state nullified the 1922 bilateral compromise as "Bolshevik". Commissioner Trench launched the **Govindpura Massacre (13 July 1923)**, martyring **Rupa Ji** and **Kripa Ji Dhakar** before granting a negotiated settlement in 1925.
 
-2. **Bundi / Barad (1922–1943, Hadoti)**:
-   - **Nature**: Gujjar peasantry mobilized under Pandit Nayanuram Sharma against illegal cesses and forced labor.
-   - **State Response**: At the **Dabi meeting (2 April 1923)**, Police Superintendent Ikram Hussain opened fire, martyring **Nanak Ji Bhil** (who died holding the flag) and Devi Lal Gurjar. Inspiring Verma's elegy *Arzi*, resistance persisted intermittently until 1943.
+2. **Nimuchana (1924–1925, Alwar):**
+   - *Grievances & Leadership:* Rajput-Brahmin landholders resisted crop destruction by protected royal wild boars and a 40% revenue hike.
+   - *State Response:* Extreme brutality. Commander Chhaju Singh besieged **Nimuchana (14 May 1925)** with machine guns and torched 144 homes (*"Dyerism Double Distilled"*), forcing immediate rollback due to moral outrage.
 
-3. **Alwar / Nimuchana (1924–1925, Mewat)**:
-   - **Nature**: Rajput-Brahmin agrarian protest against crop destruction by protected wild boars and a 40% land revenue enhancement.
-   - **State Response**: On **14 May 1925**, state commander Chhaju Singh besieged **Nimuchana village**, executing machine-gun firing and torching 144 houses (*"Dyerism Double Distilled"*). The horrific carnage ignited national outcry, forcing the Maharaja to restore old tax rates.
-
----
-
-[Chapter 07 Complete ➔ Next: Chapter 08: Tribal Awakening Movements (Govind Guru, Mangarh Dham, Motilal Tejawat & Eki Movement, Meena Movement)]
+3. **Shekhawati (1922–1947, Sikar/Jaipur):**
+   - *Grievances & Leadership:* Jat peasantry under Sardar Harlal Singh, Deshraj, and Master Chandrabhan fought the Panchpana Jagirdars against arbitrary *Dhaani* cesses and caste humiliation.
+   - *State Response & Climax:* Severe landlord violence met mass resistance (Katrathal 1934). The **Kudan firing (1935)** by Captain Webb provoked debates in the British House of Commons, accelerating tenancy legislation across Jaipur state.

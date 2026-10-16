@@ -17,6 +17,30 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v043 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 07 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 07 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 07 from prior unvetted state (Omission of Matrikundiya 1880 precursor, underdeveloped Bikaner/Marwar agrarian agitations, lack of 4-tier epistemic tags) to verified academic benchmark (~75–85% dependable single-source coverage).
+  - Enforced 4-tier epistemic hierarchy: `[Secure Core]`, `[Textbook Convention]`, `[Tradition / Local Narrative]`, and `[Historiographical Debate / Analytical Nuance]`.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 07 Codex**: `007/notes/rajasthan/08_CHAPTER_07_PEASANT_AND_AGRARIAN_MOVEMENTS.md` (540+ lines, 17 master sections, 6 Prelims MCQs, 8 model Mains answer frameworks, full primary verification logs).
+  2. **Remediated Rapid Revision Matrix 07**: `007/revision/rajasthan/07_REV_CHAPTER_07_PEASANT_MOVEMENTS.md` (60-second retrieval skeleton, peasant movement invariants grid with explicit epistemic tags, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Critical Factual Traps & Chronology**:
+    - Disentangled Bijolia Phase 1 (1897–1915, founded by **Sadhu Sitaram Das**, Nanji Patel, Thakari Patel) from Phase 2 (**Vijay Singh Pathik** entered in 1916).
+    - Clarified the two oppressive cesses: **Chanwari Tax (1903)** imposed by Rao Krishna Singh (Rs 5 on daughter's marriage); **Talwar Bandhai Tax (1906)** imposed by Rao Prithvi Singh (feudal succession investiture fee).
+    - Grounded the **Uparmal Panch Board**: Founded on Hariyali Amavasya in 1917 at Berisal village with **Manna Patel** as Sarpanch; published clandestine weekly bulletin *Uparmal Danka*.
+    - Differentiated the songs composed by Manikya Lal Verma: **Panchhida** was written to inspire Bijolia peasants; **Arzi** was composed as an elegy for martyr **Nanak Ji Bhil** after the 1923 Dabi police firing in Bundi.
+    - Clarified the Katrathal Women's Conference (1934): **Kishori Devi was the President**; **Durga Devi Sharma delivered the keynote speech** (protesting Thakur Man Singh of Sihot for Sotia ka Bas atrocities).
+  - **Injected Comprehensive Coverage Extensions**:
+    - Injected the **Matrikundiya (Rashmi, Chittorgarh) 1880 peasant outbreak** as the earliest organized modern peasant protest in Rajasthan (against Maharana Sajjan Singh's British land revenue survey).
+    - Injected the **Bikaner Peasant Agitations**: **Dudhwa Khara Movement** (Thakur Surajmal Singh's evictions, Magharam Vaidya, Hanuman Singh Arya's 65-day fast, female activist Khetu Bai) and the **Kangang atrocity (1946)**.
+    - Injected the **Marwar Agrarian Movements**: Formation of Marwar Kisan Sabha (1941 by Baldev Ram Mirdha), Chandaawal incident (1942), and the **Dabra Massacre (13 March 1947)** where Pannaram, Rugharam, and Chunaram were martyred by local Jagirdars.
+    - Documented the **Jayasinghpura trial (1934)**: Thakur Ishwar Singh became the first Jagirdar in Rajasthan's history to be convicted and imprisoned by a court for shooting peasants.
+    - Documented international resonance: The **Kudan firing (1935)** under British Captain Webb was debated in the **British House of Commons in London**.
+
 ### [STAGED LOCAL] v042 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 06 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
