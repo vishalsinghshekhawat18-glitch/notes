@@ -17,6 +17,35 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v049 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 08 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL AUDIT BENCHMARK (CHAPTER 08)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_08_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_08_TRIBAL_AWAKENING_MOVEMENTS_RAJASTHAN_REVISED.md`).
+  - Addressed all P0/P1 findings across notes and rapid revision matrix:
+    - **Mewar Bhil Corps (1841) Funding Corrected**: Corrected false claim of 100% Mewar treasury funding to shared Anglo-Mewar financial arrangement (~Rs 1,20,000 total annual expenditure; Mewar paid ~Rs 50,000, British Government paid the remainder).
+    - **1881 Rikhabdeo Accord Nuanced**: Recast from rigid 21-clause date-certain accord to April 1881 negotiations around ~24 demands, granting remission of half the *barar* (war-tax) and suspension of census operations.
+    - **Geographic Rectification of 1922 Eki Firing**: Anchored the 7 March 1922 firing at **Pal-Chitariya / Dadhvav** in then-Idar State (now Sabarkantha district, Gujarat), while explicitly recording the "Neemda / Neemra" variant used in Rajasthan state exam literature.
+    - **Meena Legal Progression Disentangled**: Separated the Central Criminal Tribes Act 1871 and 1924 consolidation from Jaipur State's 1930 Jairam Pesha regime; anchored the nationwide statutory denotification to the **Criminal Tribes Laws (Repeal) Act, 1952 (effective 31 August 1952)**.
+    - **Govind Guru & Bhagat Movement Precision**: Banished the invented "ten vows" list in favor of recurring authentic moral-temperance teachings; flagged Mangarh Dham attendance (~1.5 lakh) and casualty (~1,500) figures as widely cited official estimates rather than exact audited headcounts.
+    - **Sirohi Repression Clarified**: Separated property destruction (houses torched across Bhula-Balolia/Siawa) from casualty figures.
+    - **Charter Demands**: Qualified the rejected demands of *Mewar Ki Pukar* as source-variant (wood/grass/boar vs begar/forest/boar).
+
+### [STAGED LOCAL] v048 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 07 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL AUDIT BENCHMARK (CHAPTER 07)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_07_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_07_PEASANT_AGRARIAN_MOVEMENTS_RAJASTHAN_REVISED.md`).
+  - Addressed all P0/P1 findings across notes and rapid revision matrix:
+    - **Spelling Standardized**: Corrected "Bengu" to **Begun** (with transliteration note).
+    - **Katrathal (1934) Keynote Speaker Corrected**: Identified **Uttama Devi** as the primary keynote orator, with **Kishori Devi** as President and organizer (Durga Devi Sharma as associated participant).
+    - **Tilak Chronological Error Purged**: Removed the false claim that Bal Gangadhar Tilak raised Bijolia in the British Parliament (Tilak died in August 1920; supported through *Maratha* articles and letters; the 1935 Kudan firing was the event debated in the British Commons).
+    - **Nimuchana Gathering vs. Casualty Nuance**: Corrected the conflation of 800 attendees as deaths; clarified that 800 was the reported gathering size, with exact casualties debated.
+    - **Agrarian Structure Nuanced**: Removed rigid universal percentages (Khalsa 20–25%, Jagir 75–80%) and qualified 84 cesses and Lata-Kunta yield percentages as exam conventions rather than fixed statutory tariffs.
+    - **Coverage Additions**: Added **Raisinghnagar (1946 martyrdom of Birbal Singh)** to the Bikaner sequence, and **Marwar Hitkarini Sabha** under Jai Narayan Vyas prior to the 1938 Lok Parishad.
+
 ### [STAGED LOCAL] v047 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 06 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
