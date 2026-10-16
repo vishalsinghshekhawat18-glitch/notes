@@ -441,10 +441,11 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
       code: 'RAJ-007',
       authors: 'Rajasthan Board (RBSE) • डॉ. गोपीनाथ शर्मा • डॉ. हुकुमचंद जैन • डॉ. एल.आर. भल्ला • डॉ. हरि मोहन सक्सेना • डॉ. जनक सिंह मीना • DES',
       description:
-        'Sovereign 37-chapter publication-grade master treatise covering Rajasthan Ancient Civilizations & Dynastic Hegemony (Ch 01–05), Colonial Resistance & Freedom Movements (Ch 06–10), Art, Architecture & Culture (Ch 11–17), Morphotectonic Divisions, Drainage & Environment (Ch 18–23), Political & Administrative Governance (Ch 24–29), Economy & Economic Review (Ch 30–34), Specialized RAS Mains Disciplines (Ch 35–36), and Capstone Revision Vault (Ch 37).',
+        'Sovereign 38-chapter publication-grade master treatise covering Chapter 00 (Master Syllabus Architecture & Exam Control Codex), Rajasthan Ancient Civilizations & Dynastic Hegemony (Ch 01–05), Colonial Resistance & Freedom Movements (Ch 06–10), Art, Architecture & Culture (Ch 11–17), Morphotectonic Divisions, Drainage & Environment (Ch 18–23), Political & Administrative Governance (Ch 24–29), Economy & Economic Review (Ch 30–34), Specialized RAS Mains Disciplines (Ch 35–36), and Capstone Revision Vault (Ch 37).',
       totalChapters: getRajasthanChapters().length,
       totalWords: getRajasthanChapters().reduce((acc, c) => acc + c.wordCount, 0),
       chips: [
+        'Sovereign Blueprint & Crosswalk (Ch 00)',
         'Ancient Sites & Dynasties (Ch 01–05)',
         '1857, Peasant & Prajamandal (Ch 06–10)',
         'Art, Forts & Culture (Ch 11–17)',
@@ -631,13 +632,18 @@ export function getRajasthanChapters(): Shelf007ChapterItem[] {
       if (chMatch) {
         const num = parseInt(chMatch[1], 10);
         slug = `chapter-${chMatch[1].padStart(2, '0')}`;
-        category = `Chapter ${num}`;
-        shortTitle = `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
+        category = num === 0 ? 'Master Blueprint' : `Chapter ${num}`;
+        shortTitle = num === 0
+          ? 'Chapter 00: RPSC RAS Master Architecture, Syllabus Crosswalk & Exam Engine'
+          : `Chapter ${num}: ${baseName.replace(/^\d+_CHAPTER_\d+_/, '').replace(/_/g, ' ')}`;
         chapterOrder = num;
       }
     }
 
-    const title = extractTitleFromMarkdown(content, shortTitle);
+    let title = extractTitleFromMarkdown(content, shortTitle);
+    if (fileName.includes('CHAPTER_00')) {
+      title = 'RPSC RAS 2026: Master Syllabus Architecture & Exam Control Codex';
+    }
     const description = extractDescriptionFromMarkdown(
       content,
       `Comprehensive sovereign synthesis of Rajasthan History, Art, Culture, Geography, Administration, and Macroeconomy for RPSC RAS.`
@@ -1491,8 +1497,14 @@ function getRawShelf007PartGroups(
       {
         partNumber: 'FRONT MATTER',
         groupTitle: 'संप्रभु मुखपृष्ठ एवं संपूर्ण पाठ्यक्रम विषय-सूची',
-        groupSubtitle: 'Sovereign Front Cover, Epistemic Pledge & Master 37-Chapter RPSC RAS Curricular Index',
+        groupSubtitle: 'Sovereign Front Cover, Epistemic Pledge & Master Curricular Index',
         slugs: ['cover', 'table-of-contents'],
+      },
+      {
+        partNumber: 'PROLEGOMENA',
+        groupTitle: 'RPSC RAS 2026 संपूर्ण पाठ्यक्रम वास्तुकला एवं परीक्षा नियंत्रण कोडिक्स',
+        groupSubtitle: 'Sovereign Syllabus Crosswalk, Forensic Audit, Papers I–IV Static Knowledge Core, Integrated Case Studies & Diagnostic Practice Bank',
+        slugs: ['chapter-00'],
       },
       {
         partNumber: 'PART I',
