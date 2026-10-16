@@ -17,6 +17,35 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v057 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 13 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 13)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_13_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_13_SCHOOLS_OF_RAJASTHANI_PAINTING_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/14_CHAPTER_13_SCHOOLS_OF_RAJASTHANI_PAINTING.md` and Rapid Revision Matrix 13 (`007/revision/rajasthan/13_REV_CHAPTER_13_RAJASTHANI_PAINTING.md`), eliminating false precision, sweeping exclusivity claims, uncorroborated superlatives, and unverified attributions.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Historiography & Multi-School Taxonomy**:
+    - Qualified the rigid "four canonical schools" (Mewar, Marwar, Dhundhar, Hadoti) as an RPSC state exam convention rather than a universal consensus, juxtaposing it with NCERT (*An Introduction to Indian Art—Part II*) which treats Kishangarh, Bikaner, Bundi, Kota, Mewar, and Jaipur as distinct schools.
+    - Grounded Ananda K. Coomaraswamy’s 1916 *Rajput Painting* as an influential early framework encompassing Pahari and Malwa alongside Rajasthan, clarifying regional nomenclature evolution.
+  - **Chavand Ragamala (1605 CE)**:
+    - Anchored directly in the Smithsonian National Museum of Asian Art collection record (`F1991.1`, *Shri Raga* folio, Nasiruddin, Chawand, 1605, reign of Maharana Amar Singh I).
+    - Explicitly noted that the specific day "10 April 1605" is a state textbook variant absent from primary museum records.
+  - **Bani Thani & Nihal Chand Attribution Nuance**:
+    - Disentangled the conventional art-history attribution to Nihal Chand under Savant Singh / Nagari Das from the National Museum, New Delhi repository record (`nat_del-63-812-4917`), which lists the artist field as **"Not known"**.
+    - Categorized the famous phrase **"Mona Lisa of India"** as a popular descriptive epithet rather than a certified archival citation.
+  - **Bikaner Signed Inscriptions Nuanced**:
+    - Documented Smithsonian Asian Art object `S2018.1.84` (*Raja Sujan Singh of Bikaner smoking a hookah*, by **Ustad Ahmad**, c. 1715–1720) verifying reverse inscriptions that name the artist and his father.
+    - Purged the sweeping overgeneralization that "every Bikaner artist signed every work"; qualified Mathairan art and cautioned against asserting a single-community exclusivity without specialized sources.
+  - **Kota Royal Hunting & Female Hunters**:
+    - Anchored Kota *shikar* painting in Smithsonian object `S2018.1.39` (*Maharao Umed Singh hunting tigers*, 1787, **Hans Raj Joshi**).
+    - Qualified royal women hunting as a distinctive characteristic, completely eliminating the flawed claim that female hunting was an "exclusive hallmark" of Kota.
+  - **Shekhawati Haveli Heritage Status**:
+    - Formulated the exact international conservation status: *The Painted Haveli Towns of Shekhawati* was added to India’s **UNESCO Tentative List on 1 June 2026** (Serial nomination 7028 covering 14 historic towns); it is NOT an inscribed World Heritage property. "Open-air art gallery" categorized as a popular descriptive epithet.
+  - **Purged Unsupported Claims & Overstatements**:
+    - Removed the weakly supported claim that the imperial *Razmnama* was illustrated at Amer in 1588 and preserved in Jaipur City Palace.
+    - Qualified that ivory miniature painting was practiced across multiple regions and was not unique to Alwar.
+
 ### [STAGED LOCAL] v056 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 13 (Schools of Rajasthani Painting) 10/10 Epistemic Rebuild
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)

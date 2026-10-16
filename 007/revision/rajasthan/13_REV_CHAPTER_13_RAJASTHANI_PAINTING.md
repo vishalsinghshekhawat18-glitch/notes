@@ -3,104 +3,142 @@
 > **Subject**: Rajasthan Sovereign Master Codex (Shelf 007)  
 > **Module**: Rapid Review Series — Chapter 13  
 > **Scope**: 60-Second Retrieval Skeleton • Master Painting Schools Invariants Grid • Top 10 Killer Traps • Diagnostic Flashcards  
-> **Audit Standard**: Harmonized with Primary Museum Registers, Historiographical Consensus & State Exam Syllabi
+> **Audit Standard**: Harmonized with Primary Museum Registers (Smithsonian Asian Art, National Museum New Delhi), UNESCO Tentative List Register, Historiographical Consensus & NCERT/RPSC Syllabi
 
 ---
 
 ## Epistemic Hierarchy Reference
-- **Baseline Fact**: Backed by preserved museum collections (National Museum, Boston MFA, City Palace Museums), published academic catalogues (Coomaraswamy, Rai Krishnadas, Andhare), or official government records (Postal Department, UNESCO).
-- **Official Exam Convention**: Standard formulation in RPSC/RBSE textbooks and widely cited state exam literature.
-- **Qualified Claim / Tradition**: Local oral folklore, popular comparisons (e.g. "Mona Lisa of India"), or traditional attributions.
+- **Baseline Fact**: Backed by preserved museum collections (Smithsonian F1991.1, S2018.1.84, S2018.1.39; National Museum nat_del-63-812-4917), official heritage registers (UNESCO Tentative List 7028), published colophons, or peer-reviewed scholarship (Tryna Lyons 2004, Coomaraswamy 1916).
+- **Official Exam Convention**: Standard formulation in RPSC/RBSE textbooks (e.g. four-region classification, conventional artist-work pairings, 10 April 1605 date variant, 1973 20-paise stamp).
+- **Qualified Claim / Tradition**: Local oral lore, popular descriptive epithets ("Mona Lisa of India", "Open-Air Art Gallery", "School of Birds and Animals"), or sweeping claims ("exclusive", "all Bikaner works signed") that require careful qualification.
 
 ---
 
 ## 1. 60-Second Concept Retrieval Skeleton
 
 ```text
-[HISTORIOGRAPHY: Anand Coomaraswamy (1916 "Rajput Painting" = Rajasthani + Pahari) ➔ Rai Krishnadas ("Rajasthani Chitrasheili" geographic term)]
+[HISTORIOGRAPHY & TAXONOMY]
+Ananda Coomaraswamy (1916 "Rajput Painting" = Rajasthani + Pahari + Malwa)
+Four Canonical Schools (Mewar, Marwar, Dhundhar, Hadoti) = Useful RPSC revision framework
+NCERT Framework = Lists Mewar, Bundi, Kota, Jaipur, Bikaner, Kishangarh, Jodhpur as distinct schools
                                     │
-[MEWAR SCHOOL: Shravaka Pratikramana Churni (1260, Kamalchandra, Rawal Tejasimha) ➔ Chavand Ragamala (1605, Nasiruddin, Amar Singh I) ➔ Chiteron ki Ovari (Jagat Singh I, Sahibdin & Manohar) ➔ Nathdwara Pichhwai (Kamala & Ilaichi) ➔ Devgarh (Dr. Andhare, Bagta, Chokha)]
+                                    ▼
+[MEWAR SCHOOL & ASSOCIATED CENTRES]
+• 1260 CE: Shravaka Pratikramana Sutra Churni (Ahar/Aghata, Rawal Tejasimha, early dated Jain manuscript)
+• 1422–23 CE: Supasanahachariyam (Medapata, Rana Mokal)
+• 1605 CE: Chavand Ragamala (Nasiruddin, Chavand, Amar Singh I; Smithsonian F1991.1; 10 April is textbook variant)
+• Udaipur Court: Maharana Jagat Singh I (1628–52) ➔ Chiteron ki Ovari (Tasveeraan ro Karkhano) ➔ Sahibdin (Ramayana/Gita Govinda) & Manohar
+• Nathdwara: Shrinathji shrine (1672, Pushtimarg) ➔ Pichhwai cloth hangings ➔ Women artists Kamala & Ilaichi (Tryna Lyons 2004)
+• Devgarh: Rawat Dwarkadas Chundawat (late 17th c.) ➔ Bagta & Chokha ➔ Brought to light by Dr. Shridhar Andhare
+• Phad Painting: Shahpura Joshi family (Shree Lal Joshi) ➔ Pabuji/Devnarayan folk scrolls performed by Bhopas/Bhopis (distinct from court art)
                                     │
-[MARWAR SCHOOL: Jodhpur (Nath manuscripts, Man Singh, yellow ochre, Khidkiya turban) ➔ Kishangarh (Savant Singh / Nagari Das, Nihal Chand, BANI THANI "Mona Lisa of India", Besari nose-ring, 1973 stamp) ➔ Bikaner (Ustads sign names & dates! Usta & Matheerna) ➔ Nagaur (Muted colors) ➔ Jaisalmer (Moomal)]
+                                    ▼
+[MARWAR, KISHANGARH & BIKANER]
+• Jodhpur/Marwar: Man Singh (1803–43) & Ayas Devnath ➔ Nath manuscripts (Nath Charitra, Shiva Purana, Durgacharit) ➔ Bold ochres
+• Kishangarh: Savant Singh (poet Nagari Das) ➔ Lyrical Radha-Krishna, elongated eyes ➔ Nihal Chand conventional attribution
+  ➔ BANI THANI: National Museum New Delhi record (nat_del-63-812-4917) lists artist as "Not known"; "Mona Lisa of India" is a popular epithet; 1973 20-paise stamp
+  ➔ Amarchand: Chandni Raat ki Sangeet Goshthi
+• Bikaner: Anup Singh (late 17th c.) ➔ Mughal & Deccani synthesis ➔ Inscribed works exist (Smithsonian S2018.1.84 Ustad Ahmad names artist & father; not all works signed)
+  ➔ Usta Art: Camel hide embossed gilding ➔ Mathairan Art: Local painting tradition (avoid unverified single-community assertions)
                                     │
-[DHUNDHAR SCHOOL: Amer (Razmnama 1588) ➔ Jaipur Suratkhana (Pratap Singh, Sahibram Aadmakad life-sized portraits) ➔ Alwar (Ivory sheet miniatures, courtesan portraits, Baldev's Gulistan) ➔ Shekhawati (UNESCO Tentative List 2026, Haveli frescoes) ➔ Uniara (Mir Baksh)]
+                                    ▼
+[DHUNDHAR: AMER, JAIPUR, ALWAR, SHEKHAWATI & UNIARA]
+• Amer & Jaipur: Sawai Jai Singh II (1727) ➔ Suratkhana royal atelier ➔ Sawai Pratap Singh
+  ➔ SAHIBRAM (Jaipur, 18th c. Aadmakad life-sized portraits) vs SAHIBDIN (Mewar, 17th c. manuscripts)
+  ➔ Note: Imperial Razmnama at Amer (1588) removed from core memorization due to lack of direct museum catalogue evidence
+• Alwar: Vinay Singh ➔ Illustrated Gulistan (Baldev & Ghulam Ali) ➔ Ivory miniatures (not unique to Alwar); courtesan depictions
+• Shekhawati: Painted merchant havelis (fresco buono & secco) ➔ "Open-air art gallery" (popular epithet)
+  ➔ Added to UNESCO TENTATIVE LIST on 1 JUNE 2026 (Serial nomination of 14 towns; NOT inscribed World Heritage)
+• Uniara: Dhundhar-Hadoti synthesis ➔ Dheema, Mir Baksh, Kashi, Ramlakhan
                                     │
-[HADOTI SCHOOL: Bundi ("School of Birds & Animals", dense jungle, Ummed Singh's Chitrashala / Rang Mahal) ➔ Kota ("School of the Royal Hunt", women depicted hunting lions, Dalu's 1768 Ragamala)]
+                                    ▼
+[HADOTI: BUNDI & KOTA]
+• Bundi: Lush nature, dense banyan/plantain foliage, lotus ponds, monsoon skies ➔ "School of birds and animals" (exam epithet)
+  ➔ Chitrashala / Rang Vilas wall paintings under Maharao Ummed Singh (18th c.)
+• Kota: Royal hunting (shikar) & animal movement ➔ Hans Raj Joshi (Maharao Umed Singh hunting tigers, 1787, Smithsonian S2018.1.39)
+  ➔ Female hunters: Distinctive characteristic, NOT an absolute/exclusive hallmark ➔ Dalu (1768 Ragamala convention)
 ```
 
 ---
 
 ## 2. Master Painting Schools Invariants Grid
 
-| School & Sub-style | Golden Age Monarch | Signature Eye & Facial Profile | Dominant Palette & Natural Motifs | Iconic Masterpieces & Diagnostic Highlights | Renowned Master Artists |
+| Centre / Tradition | Patron / Historical Context | Signature Visual Markers | Primary Subject Matter | Iconic Works / Diagnostic Points | Documented Artists & Key Sources |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Udaipur (Mewar)** | Maharana Jagat Singh I (1628–1652) | Fish-shaped eyes (*Meenakshi*); sturdy bodies | Cinnabar red (*Hinglu*), yellow; **Kadamba tree**, lotus ponds | • *Chiteron ki Ovari* (*Tasveeraan ro Karkhano*)<br>• *Arsha Ramayana (1648–52)*, *Gitagovinda* | **Sahibdin**, Manohar, Kamalchandra (1260), Hirananda (1423) |
-| **Chavand (Mewar)** | Maharana Pratap & Amar Singh I | Bold pre-Mughal indigenous contours; folk vigor | Earthy ochres, deep red, wild Aravali foliage | • **Chavand Ragamala Set (10 April 1605 CE)**<br>• Painted at independent hill capital | **Nasiruddin (Nisardi)** |
-| **Nathdwara (Mewar)**| Maharana Raj Singh I (1672 onwards) | Large devotional almond eyes; gentle face | Bright yellow, leaf green; **Kamdhenu cows**, banana boughs (*Kela*) | • **Pichhwai Art** (sacred cloth backdrops hung behind Shrinathji idol matching seasons) | Narottam, Ghasiram, **Kamala & Ilaichi** (Celebrated Women!) |
-| **Devgarh (Mewar)** | Rawat Dwarkadas Chundawat (1680) | Fusion of Mewar, Marwar & Dhundhar traits | Rich yellow-green; forest undergrowth, arenas | • Discovered by **Dr. Shridhar Andhare**<br>• Dynamic royal boar hunts and wild elephant fights | **Bagta**, **Chokha**, Kavala |
-| **Jodhpur (Marwar)** | Rao Maldeo & Maharaja Man Singh | Almond-shaped eyes (*Badam*); high Marwari turban | Radiant **yellow ochre**; red; swirling spiral clouds | • *Chokhelao Mahal* battle murals<br>• Monumental **Nath sect illuminated manuscripts** | Amar Das, Bhati Shivdas, Dan Bhati, Jeewan Das, Shankar Das |
-| **Kishangarh (Marwar)**| Sawai Savant Singh / **Nagari Das** (1748–64)| Elongated curved lotus eyes (*Khanjan*); pointed chin | Pearl white, rose pink, azure blue; Gundolav lake | • **Bani Thani** (Radha archetype; **Besari** nose-ring; 1973 postal stamp)<br>• *Chandni Raat ki Goshthi* | **Moradhwaj Nihal Chand**, **Amarchand**, Sitaram, Badan Singh |
-| **Bikaner (Marwar)** | Maharaja Anup Singh (1669–1698) | Delicate eyes; courtly Mughal finesse | Muted pastels, rich gold leaf embossing; desert flora | • **Artists signed names, parentage & dates!**<br>• **Usta Art**: Camel hide; **Matheerna Art**: Jain murals | **Ruknuddin**, Ali Raza, Hamid, Isa, **Hisam-ud-din Usta** |
-| **Nagaur (Marwar)** | Maharaja Bakht Singh (1728–1751) | Delicate, fine stippled facial shading | **Subdued, chalky pastel colors (बुझे हुए रंग)** | • Pale terracotta, ash grey, cream, olive tones<br>• Sheer, transparent female drapery | Local Nagaur Court Chiteras |
-| **Jaisalmer (Marwar)**| Maharawal Akhai Singh & Moolraj II | 100% indigenous pure Rajputana conventions | Vibrant local minerals; desert landscape | • Universal portraiture theme: **Moomal**<br>• Preserved indigenous style with minimal outside influence | Local Bhatti Silawats |
-| **Jaipur (Dhundhar)**| Sawai Pratap Singh (1778–1803) | Soft round faces; large fish-shaped eyes | Emerald green, ruby red, liquid gold (*Halkari*) | • **Aadmakad (Life-sized) Standing Portraits**<br>• *Suratkhana* royal studio (among 36 Karkhanas) | **Sahibram**, Mohammad Shah, Ramji Das, Govind |
-| **Alwar (Dhundhar)** | Maharaja Vinay Singh (1815–1857) | Fine miniature profiles; refined courtly lines | Real mineral gold, lapis lazuli, green | • **Micro-miniatures on Ivory / Elephant Tusk**<br>• Courtesan (*Ganika*) portraits; illustrated *Gulistan* | **Baldev**, **Ghulam Ali**, Daluram, Saligram |
-| **Shekhawati (Dhundhar)**| Merchant Financiers (*Seth-Sahukars*)| Folkloric & realistic portraiture | Natural mineral pigments (*Ala-Gila* & *Secco*) | • **"Open-Air Art Gallery"**; haveli frescoes<br>• Added to **UNESCO Tentative List on 1 June 2026** | Local Shekhawati *Chiteras* |
-| **Uniara (Dhundhar)**| Rao Sardar Singh (Uniara Thikana) | Blend of Dhundhar and Hadoti characteristics | Rich mineral tones; courtly durbars | • Thikana painting tradition of Tonk region | **Dheema**, **Mir Baksh**, Kashi, Ramlakhan |
-| **Bundi (Hadoti)**   | Maharao Budh Singh & Ummed Singh | Rounded faces; expressive red lips; dynamic curves | Bright red, parrot green, golden yellow | • **"School of Birds and Animals"** (*Pashu-Pakshi*)<br>• **Chitrashala (Rang Mahal)** palace murals | Surjan, Ahmad Ali, Ramlal, Sadhu Ram |
-| **Kota (Hadoti)**    | Maharao Ummed Singh I (1770–1819) | Bold, intense hunting gaze; martial tension | Forest greens, muddy browns, fiery ochres | • **"School of the Royal Hunt" (*Shikar*)**<br>• **Royal women actively hunting lions & tigers** | **Dalu** (1768 Ragamala), Nuru Mohammad, Lachhiram |
+| **Early Mewar (Ahar)** | Guhila king Rawal Tejasimha (1260 CE) | Early Western Indian manuscript style; bold linear drawing | Jain devotional texts | *Shravaka Pratikramana Sutra Churni* (1260 CE; early surviving dated manuscript) | Kamalchandra (colophon attribution); IGNCA survey |
+| **Chavand (Mewar)** | Maharana Amar Singh I (1605 CE) | Strong indigenous planes, bold primary colours, folk vitality | Ragamala musical modes | **Chavand Ragamala (1605 CE)**; *Shri Raga* folio in Smithsonian (F1991.1) | **Nasiruddin (Nisardi)**; 10 April date is an exam textbook variant |
+| **Udaipur (Mewar)** | Maharana Jagat Singh I (1628–1652) | Sturdy figures, fish-shaped eyes, intense red (*Hinglu*) & yellow | *Gita Govinda*, *Rasikapriya*, Ramayana, court life | • **Chiteron ki Ovari** (*Tasveeraan ro Karkhano*)<br>• Great narrative manuscript cycles | **Sahibdin** (devotional series), Manohar; IGNCA |
+| **Nathdwara** | Established 1672 (Pushtimarg shrine) | Devotional iconography, gentle gaze, lush banana trees, cows | Shrinathji worship, festivals (Annakut, Sharad Purnima) | **Pichhwai** (painted cloth temple hangings behind idol) | Artist families; **Kamala & Ilaichi** (women artists documented by Tryna Lyons 2004) |
+| **Devgarh** | Rawat Dwarkadas Chundawat (late 17th c.) | Stylistic fusion of Mewar, Marwar, and Dhundhar | Courtly durbars, hunts, processions, elephant fights | Thikana painting brought to academic notice by **Dr. Shridhar Andhare** | **Bagta**, **Chokha**, Kavala (spellings vary across catalogues) |
+| **Jodhpur / Marwar** | Maharaja Man Singh (r. 1803–1843) | Forceful drawing, radiant yellow ochre, spiralling clouds, turbans | Nath yogic texts (*Nath Charitra*, *Shiva Purana*), court portraits | Extensive Nath manuscript cycles under Ayas Devnath's influence | Amar Das, Bhati Shivdas, Dan Bhati, Jeewan Das |
+| **Kishangarh** | Savant Singh / **Nagari Das** (18th c.) | Elongated lotus eyes, pointed nose/chin, delicate gauzy veils | Lyrical Radha-Krishna bhakti, courtly garden settings | • **Bani Thani** (conventionally linked to Nihal Chand; Nat. Museum Delhi lists artist unknown)<br>• *Chandni Raat ki Sangeet Goshthi* | **Nihal Chand** (conventional), **Amarchand**; popular "Mona Lisa of India" epithet; 1973 stamp |
+| **Bikaner** | Maharaja Anup Singh (late 17th c.) | Fine delicate line, atmospheric landscapes, gold accents | Court portraiture, barahmasa, rasikapriya | Reverse inscriptions with artist and father's name (Smithsonian S2018.1.84 Sujan Singh portrait) | **Ustad Ahmad**, Ruknuddin, Ali Raza; Usta art (camel hide); Mathairan art |
+| **Jaipur / Amer** | Sawai Jai Singh II (1727), Sawai Pratap Singh | Large-scale court portraiture, refined Mughal-Rathore-Kachhwaha blend | Royal portraits, court festivals, religious manuscripts | • **Aadmakad (Life-sized) portraits**<br>• **Suratkhana** royal atelier | **Sahibram** (Jaipur portraitist; distinct from Mewar's Sahibdin), Mohammad Shah |
+| **Alwar** | Maharaja Vinay Singh (1815–1857) | Highly refined delicate lines, courtly intimacy | Court scenes, *Gulistan* of Saadi, courtesan portraits | • Illustrated *Gulistan* (Baldev & Ghulam Ali)<br>• Ivory miniatures (not unique to Alwar) | **Baldev**, **Ghulam Ali**, Daluram, Saligram |
+| **Shekhawati** | Marwari merchant-financier families | Mural tradition: *fresco buono* and *fresco secco* techniques | Mythological stories, local life, colonial trains, motor cars | **"Open-air art gallery"** haveli towns; **UNESCO Tentative List on 1 June 2026** (14 towns) | Local *chiteras* / mason-painters; UNESCO serial entry 7028 |
+| **Uniara** | Uniara Rao rulers (Tonk region) | Aesthetic bridge blending Dhundhar and Hadoti elements | Durbars, hunting, romance, Krishna lila | Thikana transition idiom | **Dheema**, **Mir Baksh**, Kashi, Ramlakhan |
+| **Bundi (Hadoti)** | Maharao Ummed Singh (18th c.) | Lush vegetation, plantains, water lilies, birds, dramatic monsoon | Devotional scenes, romance, wildlife, processions | • **Chitrashala / Rang Vilas** murals at Garh Palace<br>• "School of birds and animals" (exam epithet) | Surjan, Ramlal, Ahmad Ali; NCERT survey |
+| **Kota (Hadoti)** | Maharao Umed Singh (late 18th c.) | Rugged Chambal ravines, intense animal movement, dynamic action | **Royal hunting (shikar)**, tiger hunts, battle scenes | Hans Raj Joshi 1787 tiger hunt of Umed Singh (Smithsonian S2018.1.39); female hunters depicted | **Hans Raj Joshi**, **Dalu** (1768 Ragamala pairing); dynamic shikar tradition |
+| **Shahpura (Phad)** | Folk performance tradition | Horizontal cloth scroll narrative; continuous register layout | Epics of folk deities **Pabuji** and **Devnarayan** | Performative cloth scroll used by *bhopas* and *bhopis* with Ravanhattha/Jantar | **Joshi family of Shahpura** (Shree Lal Joshi); living folk tradition (distinct from court art) |
 
 ---
 
-## 3. Top 10 Instant Killer Traps
+## 3. Top 10 High-Yield Killer Traps
 
-1. **The Sahibdin vs Sahibram Distinction (Top RPSC Killer Trap!)**:
-   - **Sahibdin (साहिबदीन)**: 17th-century master of **Mewar (Udaipur)** under Jagat Singh I (painted *Ragamala 1628*, *Gitagovinda 1629*, *Arsha Ramayana 1648–52*).
-   - **Sahibram (साहिबराम)**: 18th-century master of **Dhundhar (Jaipur)** under Ishwari Singh & Pratap Singh (pioneered **Aadmakad life-sized portraits**).
-2. **Earliest Dated Illustrated Manuscript in Rajasthan**:
-   - **Shravaka Pratikramana Sutra Churni (1260 CE / VS 1317)**, illustrated on palm leaf by **Kamalchandra** at Ahar under Guhil king **Rawal Tejasimha**, NOT Maharana Kumbha.
-3. **The Celebrated Female Painters Matrix**:
-   - **Kamala & Ilaichi**: Master painters of the **Nathdwara Sub-style** (Mewar School).
-   - **Sahiba (साहिबा)**: Female painter of the **Ajmer Sub-style** (Marwar School).
-   - **Parvati Joshi**: Pioneer female painter of **Phad Painting** (Shahpura).
-4. **"Mona Lisa of India" Nomenclature**:
-   - Coined by British art scholar **Eric Dickinson**, NOT Karl Khandalavala or Anand Coomaraswamy.
-5. **Postal Stamp on Bani Thani**:
-   - Issued on **5 May 1973** by the Government of India Department of Posts; face value was **20 paise**.
-6. **Signature Diagnostic Ornament of Bani Thani**:
-   - The **Besari (बेसरी)** — a delicate pearl nose-ring/stud, NOT a necklace, earring, or forehead ornament.
-7. **"Chandni Raat ki Sangeet Goshthi" Artist**:
-   - Painted by **Amarchand (अमरचंद)** of Kishangarh, NOT Nihal Chand.
-8. **The School That Systematically Signed Artworks**:
-   - **Bikaner Sub-style**; Muslim master artists titled **Ustad** systematically inscribed their names, fathers' names, and precise Vikram Samvat dates on the reverse.
-9. **Micro-miniatures on Ivory Sheets & Courtesan Portraits**:
-   - Practiced exclusively in the **Alwar Sub-style** under Maharaja Vinay Singh.
-10. **Royal Women Depicted Hunting**:
-    - The exclusive hallmark of the **Kota Sub-style** — queens and princesses are depicted actively hunting lions, tigers, and wild boars in the Chambal ravines.
+1. **Sahibdin vs Sahibram (The Classic Identity Confusion)**:
+   - **Sahibdin**: 17th-century master of **Mewar/Udaipur** under Jagat Singh I (illustrated religious/devotional manuscripts like *Gita Govinda*, *Ragamala*, *Ramayana*).
+   - **Sahibram**: 18th-century master of **Jaipur/Dhundhar** under Ishwari Singh and Sawai Pratap Singh (pioneered large **aadmakad life-sized royal portraits**).
+2. **Bani Thani Attribution Nuance (Museum Catalogue vs Convention)**:
+   - Standard textbooks conventionally associate Bani Thani with **Nihal Chand** and the court of **Savant Singh (Nagari Das)** at Kishangarh.
+   - However, the [National Museum, New Delhi repository record](https://museumsofindia.gov.in/repository/record/nat_del-63-812-4917) lists the artist field as **"Not known"**. In exams, state the conventional attribution while recognising the repository nuance. "Mona Lisa of India" is a popular epithet, not an archival quote.
+3. **Chavand Ragamala (1605 CE) Metadata**:
+   - Anchored directly by museum collection: **Chavand, 1605 CE, artist Nasiruddin, reign of Amar Singh I** (Smithsonian F1991.1).
+   - The specific day "10 April 1605" is a state textbook variant not present in the Smithsonian catalogue record; use day-dates only if following that specific syllabus.
+4. **Earliest Dated Illustrated Manuscripts**:
+   - *Shravaka Pratikramana Sutra Churni* (**1260 CE**), painted at Ahar/Aghata under Guhila king **Tejasimha** by Kamalchandra. It is an early *surviving dated* manuscript, not proof that painting never existed before 1260.
+   - *Supasanahachariyam* (**1422–23 CE / VS 1479–80**), Medapata, reign of Rana Mokal.
+5. **Bikaner Signed Inscriptions — Proof vs False Generalisation**:
+   - Reverse inscriptions naming the artist, father, and date do exist in Bikaner court art (e.g. Smithsonian S2018.1.84 *Raja Sujan Singh* by **Ustad Ahmad**).
+   - Trap: Do NOT assert that "every Bikaner painting was signed" or that Bikaner had an absolute monopoly on signatures.
+6. **Kota Royal Hunting & Female Hunters**:
+   - Kota painting is renowned for dramatic *shikar* scenes (e.g. Hans Raj Joshi, 1787, Smithsonian S2018.1.39).
+   - Trap: Depictions of royal women hunting are a **distinctive characteristic**, NOT an "exclusive hallmark" of Kota. Avoid sweeping exclusivity claims across all Rajput courts.
+7. **Shekhawati Heritage Status**:
+   - *The Painted Haveli Towns of Shekhawati* was added to India's **UNESCO Tentative List on 1 June 2026** (Serial nomination covering historic ensembles in 14 towns).
+   - Trap: It is **NOT inscribed on the World Heritage List**. "Open-air art gallery" is a descriptive metaphor, not an official designation.
+8. **Alwar Ivory Miniatures**:
+   - Small-scale portraits and miniatures on ivory are a documented exam feature of Alwar under Vinay Singh (along with Baldev's illustrated *Gulistan*).
+   - Trap: Ivory miniatures were **not unique to Alwar**; the medium was practiced in several other Indian and regional centers.
+9. **Four-School Scheme vs Multi-School Reality**:
+   - The four-part division (Mewar, Marwar, Dhundhar, Hadoti) is a popular RPSC revision shorthand.
+   - Trap: In national art history (NCERT *An Introduction to Indian Art—Part II*), **Kishangarh, Bikaner, Bundi, Kota, Mewar, and Jaipur** are catalogued as distinct schools. Never force all centres into four rigid boxes.
+10. **Pichhwai vs Phad Distinction**:
+    - **Pichhwai**: Devotional cloth hangings displayed behind the Shrinathji idol in Pushtimarg temple shrines at **Nathdwara** (women painters Kamala & Ilaichi documented by Tryna Lyons).
+    - **Phad**: Narrative cloth scrolls of folk deities (**Pabuji, Devnarayan**) performed by nomadic singer-priests (**Bhopas/Bhopis**) with musical instruments; transmitted by **Joshi painters of Shahpura**. They serve completely different ritual and social functions.
 
 ---
 
 ## 4. Diagnostic Active-Recall Flashcards
 
 ### Card 1
-- **Q**: What was "Chiteron ki Ovari", who established it, and what was its popular local name?
-- **A**: An official royal art studio established in Udaipur City Palace by **Maharana Jagat Singh I** (1628–1652 CE); popularly celebrated across Rajasthan as **"Tasveeraan ro Karkhano"** (तस्वीराँ रो कारखानो).
+- **Q**: What is the factual provenance of the Chavand Ragamala, and which museum folios corroborate it?
+- **A**: Painted in **1605 CE** at the Mewar hill capital of **Chavand** during the reign of **Maharana Amar Singh I** by master painter **Nasiruddin**. Corroborated by the Smithsonian National Museum of Asian Art collection (Object record `F1991.1`, *Shri Raga*). The specific date "10 April 1605" is a regional textbook variant.
 
 ### Card 2
-- **Q**: Who was the master artist of the 1605 Chavand Ragamala, and during whose reign was it completed?
-- **A**: Master painter **Nasiruddin (Nisardi)**; completed on 10 April 1605 CE at the independent hill capital of Chavand during the reign of **Maharana Amar Singh I**.
+- **Q**: How should the authorship and popular reception of *Bani Thani* be critically framed in an exam?
+- **A**: *Bani Thani* represents the 18th-century Kishangarh court idiom under Savant Singh (poet Nagari Das) and is conventionally attributed to **Nihal Chand**. However, the National Museum New Delhi object record (`nat_del-63-812-4917`) lists the artist as **"Not known"**. The term **"Mona Lisa of India"** is a popular descriptive epithet rather than a certified archival citation. The Government of India issued a 20-paise commemorative stamp in 1973.
 
 ### Card 3
-- **Q**: What are the twin artistic traditions of Bikaner, and how do they differ?
-- **A**: (1) **Usta Art (Munawwati)**: Gilded lacquer relief on treated **camel hide** (Hisam-ud-din Usta); (2) **Matheerna Art**: Traditional religious wall frescoes and wooden *Patra* book-cover paintings practiced by the local **Jain community of Bikaner**.
+- **Q**: What direct museum evidence verifies artist signatures in Bikaner court painting?
+- **A**: Smithsonian National Museum of Asian Art object `S2018.1.84` (*Raja Sujan Singh of Bikaner smoking a hookah*, c. 1715–1720) records a reverse inscription naming artist **Ustad Ahmad** and his father. This proves that named and dated inscriptions exist in Bikaner art, though it does not imply a universal rule that every painting was signed.
 
 ### Card 4
-- **Q**: Which painting school is known as the "School of Birds and Animals", and what is its most famous mural monument?
-- **A**: The **Bundi Sub-style** (Hadoti School); celebrated for its dense jungle vegetation, lotuses, and wildlife. Its masterpiece is the **Chitrashala (Rang Mahal)** commissioned by **Maharao Ummed Singh (1749–1770 CE)** inside Garh Palace, Bundi.
+- **Q**: What is the exact international conservation status of the Shekhawati havelis, and what techniques were used?
+- **A**: *The Painted Haveli Towns of Shekhawati* was submitted to the **UNESCO Tentative List on 1 June 2026** (Serial nomination 7028 covering 14 historic towns); it is not yet an inscribed World Heritage property. Murals were executed in both **fresco buono** (pigment on wet lime plaster) and **fresco secco** (on dry surface), portraying religious, folk, and early colonial technological themes.
 
 ### Card 5
-- **Q**: What is the current international heritage status of Shekhawati havelis?
-- **A**: *The Painted Haveli Towns of Shekhawati* was added to India's **UNESCO Tentative List on 1 June 2026** as a serial nomination across 14 towns. It is NOT yet an inscribed World Heritage property.
+- **Q**: Contrast the thematic signatures and museum documentation of Bundi and Kota painting.
+- **A**: **Bundi** is characterized by dense nature, banyan/plantain foliage, lotus ponds, and monsoon skies (epithet "School of Birds and Animals"; Chitrashala wall paintings under Maharao Ummed Singh). **Kota** is renowned for dynamic royal hunts (*shikar*) in rugged Chambal terrain, evidenced by Hans Raj Joshi's 1787 tiger hunt of Maharao Umed Singh (Smithsonian `S2018.1.39`). Representations of female hunters in Kota are a distinctive feature, not a proven exclusive rule.
 
 ---
 
