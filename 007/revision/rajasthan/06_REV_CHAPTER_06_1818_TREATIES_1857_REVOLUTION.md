@@ -51,7 +51,7 @@
 ## 3. Top 10 High-Yield Exam Traps
 
 1. **First vs. Last 1818 Treaties**: Under Lord Hastings' Subordinate Cooperation policy, **Karauli (9 Nov 1817)** was the first state to sign; **Sirohi (11 Sept 1823)** was the 17th and final state to sign (delayed due to Jodhpur's false claim of feudal suzerainty). Under Lord Wellesley's earlier 1803 system, **Bharatpur (29 Sept 1803)** was the first in Rajasthan.
-2. **States Paying Zero Khiraj**: **Jaisalmer, Bikaner, and Alwar** paid **zero tribute (*Khiraj*)** to the British because they had no historical liability for Maratha Chauth.
+2. **States Paying Zero Khiraj & Fiscal Nuance**: In standard RAS notes, **Jaisalmer, Bikaner, and Alwar** are conventionally listed as paying **zero tribute (*Khiraj*)** to the British because they had no prior Maratha Chauth liability (while Kishangarh held special exemptions); students must consult individual treaty schedules in Aitchison for exact fiscal clauses.
 3. **The Non-Participating Cantonments**: **Beawar** (Merwara Battalion) and **Kherwara** (Mewar Bhil Corps) did **NOT** take part in the 1857 revolt.
 4. **The Slogan "Chalo Dilli, Maro Firangi"**: Raised by the soldiers of the **Jodhpur Legion at Erinpura** (21 August 1857), NOT at Naseerabad.
 5. **Bithoda vs. Chelawas Distinction**:
@@ -61,7 +61,7 @@
 7. **Nature of the Kota Revolt**: Kota had **no British military cantonment**; it was an organized popular civil revolution led by **Lala Jaidayal and Mehrab Khan**, establishing six months of citizen administration.
 8. **Gun Salute Adjustment**: Kota's salute was **reduced from 17 to 13 guns** (for Ram Singh II's failure to prevent Burton's execution); Karauli's salute was **increased from 13 to 17 guns** (for sending 2,000 troops under Madan Pal to liberate Kota).
 9. **The Only King Marching Outside His State**: **Maharaja Sardar Singh of Bikaner**, who personally led his royal army into **Badlu (Punjab/Haryana)** to hunt rebels; rewarded with 41 villages of the Tibbi pargana.
-10. **Tatya Tope's Geographic Scope**: Tatya Tope entered Rajasthan twice (June 1858 and December 1858), clashing at Kuwada (9 August 1858) and capturing Jhalawar and Banswara. **Jaisalmer** was the **only princely state in Rajasthan that Tatya Tope did NOT enter**.
+10. **Tatya Tope's Operational Scope**: Tatya Tope conducted fluid guerrilla operations across Rajasthan (fighting General Roberts at Kuwada on 9 August 1858, and occupying Jhalawar and Banswara). Avoid unverified single-state exclusion dogmas in analytical answers.
 
 ---
 
@@ -86,14 +86,15 @@
 │ FLASHCARD 3                                                            │
 │ Q: What were the findings of the Major Taylor Commission (1860)        │
 │    regarding Thakur Kushal Singh of Auwa?                              │
-│ A: The Commission acquitted Kushal Singh of murder charges, ruling     │
-│    that Political Agent Captain George Monck-Mason was killed in open  │
-│    military combat and not through premeditated murder.                │
+│ A: The Commission investigated Kushal Singh following his surrender at │
+│    Neemuch (August 1860), establishing that Monck-Mason was killed in  │
+│    open combat rather than premeditated murder; Kushal Singh was       │
+│    subsequently released and pardoned without penalty.                 │
 ├────────────────────────────────────────────────────────────────────────┤
 │ FLASHCARD 4                                                            │
 │ Q: Where was Tatya Tope betrayed, who betrayed him, and where was he   │
 │    executed?                                                           │
-│ A: Betrayed in the Paron forests by his friend Man Singh Naruka        │
+│ A: Betrayed in the Paron forests by his friend Man Singh               │
 │    (Jagirdar of Narwar); captured by Major Meade; publicly hanged at   │
 │    Shivpuri (Madhya Pradesh) on 18 April 1859.                         │
 ├────────────────────────────────────────────────────────────────────────┤

@@ -17,6 +17,32 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v047 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 06 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL AUDIT BENCHMARK (CHAPTER 06)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_06_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_06_BRITISH_TREATIES_1818_1857_RAJASTHAN_REVISED.md`).
+  - Addressed all 31 P0, P1, and P2 findings with exactitude across notes and rapid revision matrix.
+* **Key Enhancements & Epistemic Demarcations**:
+  - **Treaty Chronology & Procedural Dates**:
+    - Disentangled instrument signature dates from Governor-General ratifications and confirmations: Tonk (15 Nov / 17 Nov), Mewar (13 Jan / 23 Jan), Bikaner (9 March / late March confirmation), Kishangarh (26 March / 7 April), and Jaipur (2 April / 15 April).
+    - Nuanced the "17 states" convention: Explained that it encompasses 13 treaties signed under Hastings (1817–1818), Sirohi (1823), and the three earlier reaffirmed alliances (Bharatpur 1803, Alwar 1803, Dholpur 1804/06).
+    - Recovered Tonk's pre-1817 origins: Amir Khan had received Tonk from Jaswant Rao Holkar in 1806; the 1817 treaty recognized his hereditary principality, required the disbandment of his large mercenary force, and stabilized his borders.
+    - Nuanced tribute rules: Qualified the convention of zero *Khiraj* for Jaisalmer, Bikaner, and Alwar by distinguishing past Maratha tribute from British Company expenses.
+  - **Military Deployment Nuances**:
+    - Nuanced the presence of British soldiers: While British officers, political agents, and their families were present, no substantial British European infantry regiment/garrison was stationed in Rajasthan.
+    - Clarified Deoli station: Headquarters of the Kota Contingent; avoided asserting an isolated 5 June 1857 mutiny at Deoli station itself, noting that the contingent revolted while deployed in the field.
+  - **Auwa & Kota Nuances**:
+    - Disentangled Auwa dates: Brigadier Holmes launched his assault on **20 January 1858**; fort was evacuated and occupied/sacked by **24 January 1858**.
+    - Nuanced Major Taylor Commission: Avoided flat "formal acquittal" terminology; Kushal Singh surrendered at Neemuch in August 1860, was investigated regarding Monck-Mason's death, and was released/pardoned without penalty.
+    - Added full Kota casualties: Major Charles Burton, his two sons (Arthur & Frank), Dr. Sadler, and Mr. Saviell. Roberts reached Chambal on 22 March; city recaptured 30 March 1858.
+    - Nuanced the alleged 9-point agreement: Noted that while an agreement was signed under duress, the claim that Maharao Ram Singh II formally admitted ordering Burton's execution in writing is an unverified assertion not corroborated by primary records.
+  - **Subaltern, Cultural & Leadership Nuances**:
+    - Classified Tonk women fighters as a celebrated literary/local tradition (*Teesra Farishta* / *Azmaish*) pending contemporary military dockets.
+    - Defined Amar Chand Bathiya's monikers ("Mangal Pandey of Rajasthan", "Bhama Shah of 1857") as commemorative regional epithets.
+    - Dropped the dogmatic claim that Jaisalmer was the "only state Tatya Tope never entered", noting fluid guerrilla routes across regional frontiers.
+
 ### [STAGED LOCAL] v046 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 10 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
