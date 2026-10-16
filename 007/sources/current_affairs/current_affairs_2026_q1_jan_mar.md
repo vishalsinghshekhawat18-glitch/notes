@@ -8,24 +8,6 @@
 
 ---
 
-### At a Glance: Q1 2026 Master Coverage Index
-
-| Section | Domain Focus | Item Range | Total Items |
-| :--- | :--- | :---: | :---: |
-| **1. ESI, Finance & Business** | Economy Size, Budget FY27, ISM 2.0, Deep Tech Startups, SBI Market Cap | [Q1-001] – [Q1-011] | 11 Clusters |
-| **2. Regulatory Bodies (RBI/SEBI/IRDAI)** | Policy Corridor, RBC Directions, Acquisition Financing, KCC, 100% FDI | [Q1-012] – [Q1-024] | 13 Clusters |
-| **3. Banking & Insurance** | UPI Growth, PSU Leadership, NMDC Navratna, MSME Credit, YIL Miniratna | [Q1-025] – [Q1-032] | 8 Clusters |
-| **4. National, State & International** | Census 2027, 8th CPC, India-US Trade, Quantum Mission, Jewar Airport | [Q1-033] – [Q1-049] | 17 Clusters |
-| **5. MoUs, Bilateral & Governance** | India-EU FTA, Governors Reshuffle, World Bank Loans, GIFT Blue Bond | [Q1-050] – [Q1-057] | 8 Clusters |
-| **6. Defence, Sci-Tech & Sports** | DAC ₹3.60L Cr Approvals, MoD Contracts, Mission Milestones | [Q1-058] – [Q1-062] | 5 Clusters |
-| **7. Awards, Indices & Rankings** | Padma Awards 2026, Corruption Index, Henley Passport, Global Terrorism | [Q1-063] – [Q1-071] | 9 Clusters |
-| **8. Important Days & Personalities** | International Honours, National Commemorations, Key Observances | [Q1-072] – [Q1-075] | 4 Clusters |
-| **9. PIB, Circulars & Statutory Rules** | New Direct Tax Rules, IT Intermediary Rules 2026 | [Q1-076] – [Q1-078] | 3 Clusters |
-| **10. Government Schemes & Static Anchors** | VVP-II, Bharat Taxi, Pulse Mission, White Revolution 2.0, IMEC | [Q1-079] – [Q1-092] | 14 Clusters |
-| **Total** | **Consolidated Q1 Sovereign Dossier** | **[Q1-001] – [Q1-092]** | **92 Clusters** |
-
----
-
 ## 1. 💰 ESI, FINANCE & BUSINESS NEWS
 
 ### [Q1-001] India's Economy — Size, Growth & the Feb 1 Budget

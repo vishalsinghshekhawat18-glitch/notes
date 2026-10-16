@@ -23,27 +23,6 @@ Study each institutional concept following this 4-step sequence:
 
 ---
 
-### At a Glance: Master Coverage Index
-
-| Section | Domain Focus | Key Legal & Operational Anchors | Modules Covered |
-| :--- | :--- | :--- | :---: |
-| **1. Banking Foundations & Balance Sheet** | Balance sheet mechanics, deposit types, credit creation, message codes & decomposition | Assets = Liabilities + Equity, NIM, CASA, RTGS (22), NEFT (16), IFSC (11), LEI (20), CoFT | 7 Core Topics |
-| **2. Evolution & Statutory Architecture** | Presidency Banks to SBI, nationalisation waves, core statutory anchors | SBI Act 1955, RBI Act 1934, BR Act 1949, NI Act 1881, PMLA, IBC, SARFAESI | 4 Core Topics |
-| **3. Regulators, HQs & Global Bodies** | Apex domestic regulators, PSU bank HQs, foreign banks in India, multilaterals | RBI, SEBI, IRDAI (Hyd), SIDBI (Lko), 13 Foreign Banks, World Bank, IMF, ADB, AIIB | 4 Core Topics |
-| **4. Central Banking, MPC & Money Supply** | RBI Board, MPC framework, liquidity corridor, sovereign debt, money aggregates | 4% ± 2% CPI, Repo, SDF, MSF, WMA (90d), T-Bills, CMBs, M0–M4, NM1–NM3, L1–L3 | 6 Core Topics |
-| **5. Payments, ATM SLAs & Consumer Redress** | Payment rails, ATM interchange & failed transaction SLAs, RB-IOS 2026, DICGC | NEFT, RTGS, T+5 SLA (₹100/day), RB-IOS 2026 (₹30L + ₹3L, 90d), DICGC (₹5L, 90d) | 4 Core Topics |
-| **6. Basel III, D-SIBs & Asset Quality (NPAs)** | Basel capital ratios, buffers, D-SIB bucketing, delinquency ladder, provisioning | Global 8% vs Indian 11.5% CRAR, LCR (30d), NSFR (1yr), D-SIBs (SBI 4, HDFC 2, ICICI 1), SMA 0/1/2 | 4 Core Topics |
-| **7. Differentiated Banks, UCBs & PSL** | SFBs vs Payments Banks, 4-tier UCB categorisation, PSL 2025 targets, DAY-NRLM | SFB (₹200Cr, 60% PSL) vs PB (₹100Cr, ₹2L cap, no loans), UCB Tiers 1-4, PSL 40%/75%/60%, NRLM | 4 Core Topics |
-| **8. Forex Accounts & Cross-Border Settlement** | NRI deposit schemes, correspondent banking, cross-border rupee trade settlement | NRE (INR, Tax-free) vs NRO ($1M cap, Taxable) vs FCNR(B) (FC, Bank risk), Nostro, Vostro, SRVA | 3 Core Topics |
-| **9. Insurance Principles, 100% FDI & Bima Trinity** | 7 core legal principles, insurance metrics, 2025 amendment act, Bima Trinity | Utmost Good Faith, Indemnity, Subrogation, Sabka Bima Act 2025 (100% FDI), Bima Sugam/Vistar/Vahak | 5 Core Topics |
-| **10. Capital Markets, SEBI & Macro Base Years** | Capital market rails, settlement cycles, F&O guardrails, 2026 macro base years | T+1 & T+0 beta, MF Lite, F&O lot size (₹15L–20L), GDP 2022–23, CPI 2024=100, 9 Core Sectors, IT Act 2025 | 5 Core Topics |
-| **11. Constitutional & Global Governance** | 12 Schedules, financial articles, maritime straits, global environmental pacts | 4th (RS), 7th (Lists), 8th (22 langs), Art 112, 246A/279A (GST), 266, 267, 300A, Hormuz, Malacca | 4 Core Topics |
-| **12. Quick Revision Matrices & Numerical Cheat-Sheet** | 22 Must-Know Conceptual Distinction Pairs, stable vs date-sensitive figures | CRR vs SLR, Gross vs Net NPA, LCR vs NSFR, M1 vs M3, P5, statutory thresholds | 2 Master Matrices |
-| **13. Active Recall Diagnostic Vault** | 25 High-yield retrieval questions + complete comprehensive answer key | Self-assessment diagnostic testing all high-frequency examination traps | 25 Questions + Key |
-| **14. Primary Source Verification Register** | 27 Official primary references with hyperlinks & verification protocol | Official Master Circulars, Gazette Notifications, MoSPI releases, scope notes | 27 Citations & Rules |
-
----
-
 ## 1. 🏛️ BANKING FOUNDATIONS, BALANCE-SHEET MECHANICS & CODES
 
 ### 1.1 What a Bank Does: The Balance-Sheet Model [FOUNDATION]

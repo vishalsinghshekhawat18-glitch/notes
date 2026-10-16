@@ -8,18 +8,6 @@
 
 ---
 
-### At a Glance: June 2026 Master Coverage Index
-
-| Section | Domain Focus | Item Range | Total Items |
-| :--- | :--- | :---: | :---: |
-| **1. Banking & Financial Regulation** | RBI Master Directions, ECLGS, KCC, TReDS, Lead Bank, Annual Report | [JUN-001] – [JUN-022] | 22 Clusters |
-| **2. Capital Markets & Pensions** | SEBI ETF Bands, BSE Saatvik 100, IRDAI WG-AI, PFRDA NPS Exit | [JUN-023] – [JUN-027] | 5 Clusters |
-| **3. Multilateral & Cross-Border** | Cross-border UPI, NDB Uzbekistan, India-Oman CEPA, Vietnam BrahMos | [JUN-028] – [JUN-039] | 12 Clusters |
-| **4. National Initiatives & Industry** | Green Hydrogen, Textiles PLI, WPI Base Year, PM SVANidhi, GRSE 29th Navratna | [JUN-040] – [JUN-061] | 22 Clusters |
-| **Total** | **Comprehensive June 2026 Sovereign Dossier** | **[JUN-001] – [JUN-061]** | **61 Clusters** |
-
----
-
 ## 1. 🏦 BANKING, MONETARY POLICY & FINANCIAL REGULATION
 
 ### [JUN-001] RBI Relaxes Capital Requirements for Bank Loans under ECLGS 5.0 (Split Risk-Weight Structure)

@@ -23,18 +23,6 @@ Study each institutional concept following this 4-step sequence:
 
 ---
 
-### At a Glance: Master Coverage Index
-
-| Section | Domain Focus | Key Curricular & Operational Anchors | Modules Covered |
-| :--- | :--- | :--- | :---: |
-| **1. Scheme & Master Crosswalk** | Official scheme snapshot, syllabus completeness rules, master IDs | Prelims (200m, 1/3 negative), Mains (Papers I–IV, 800m), Complete Crosswalk | 2 Core Topics |
-| **2. Papers I–IV Knowledge Core** | Comprehensive static blueprint across all 14 syllabus subjects | Raj/Ind/World History, Geography, Polity/Admin, Economy, Ethics, PubAd, Law, Hindi, English | 10 Subject Blocks |
-| **3. Integrated Case Studies** | Multi-dimensional policy & governance problem-solving grids | Ramjal Setu (PKC-ERCP), Admin Reorganisation, Gig Workers Act 2023, Renewables, Mining | 5 Case Studies |
-| **4. Diagnostic Practice Bank** | High-yield active recall questions & Mains prompts | 40 Prelims MCQs with answers, Papers I–IV Mains prompts, 7-point quality checklist | 40 MCQs + Mains Prompts |
-| **5. Forensic Audit & Registers** | 22 coaching error rectifications, withheld claims, primary sources | Appendix A (A-01 to A-22), Appendix B (Withheld claims), Data register, Sources R1–R9 | 5 Appendices + Sources |
-
----
-
 ## 1. 📋 OFFICIAL EXAMINATION SCHEME & MASTER SYLLABUS CROSSWALK
 
 ### 1.1 Official Scheme Snapshot [Official syllabus requirement]

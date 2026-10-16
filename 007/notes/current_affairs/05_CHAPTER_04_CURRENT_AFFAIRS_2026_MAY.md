@@ -8,48 +8,6 @@
 
 ---
 
-### At a Glance: May 2026 Master Coverage Index
-
-| ID | Master Topic | Domain Section |
-| :--- | :--- | :--- |
-| **[MAY-001]** | DFS Approves Viability Plan 2.0 for RRBs (30 Parameters, FY26–FY28) | Banking & Rural Finance |
-| **[MAY-002]** | Kharif MSP 2026–27: Common Paddy ₹2,441; Moong Yields 61% Margin | Agrarian Pricing |
-| **[MAY-003]** | Draft Sugarcane (Control) Order 2026: Mill Radial Distance Raised to 25 km | Agri-Commodities |
-| **[MAY-004]** | Northeast Missions: Mizoram Ginger (₹189.79 cr) & Nagaland Coffee (₹175 cr) | Agri-Value Chains |
-| **[MAY-005]** | Constitution (131st Amendment) Bill, 2026: Lok Sabha Expansion to 850 (Defeated) | Constitutional Reforms |
-| **[MAY-006]** | Supreme Court: 'One Case One Data' Unified Registry & 'Su Sahay' AI Chatbot | Judicial Technology |
-| **[MAY-007]** | Transgender Persons (Protection of Rights) Amendment Bill, 2026 | Public Policy & Rights |
-| **[MAY-008]** | MSJE Launches 'JEEVAN' App & 'SHATAYU' Geriatric Caregiver Dashboard | Social Welfare |
-| **[MAY-009]** | India–New Zealand Free Trade Agreement: 100% Duty-Free & USD 20 Billion FDI | International Trade |
-| **[MAY-010]** | Panchayat Advancement Index 1.0 & Pan-India Cell Broadcast Alert System | Disaster Warnings & Governance |
-| **[MAY-011]** | RBSK 2.0 (Child Digital Health Cards & ABHA) and NHAI Project Saksham | Health & Infrastructure |
-| **[MAY-012]** | RBI Deregulates Prior Approval for Bank–FinTech Outward Remittances | Forex & Digital Banking |
-| **[MAY-013]** | I4C and RBIH Partner to Deploy MuleHunter.ai Against Cyber Fraud Proceeds | AML & Payment Intelligence |
-| **[MAY-014]** | RBI Revises Investment Fluctuation Reserve (IFR): Discontinued for Commercial Banks | Prudential Capital Framework |
-| **[MAY-015]** | RBI Consultative Paper on Payment Safety: 1-Hour Delay, Kill Switch & Limits | Payment Systems |
-| **[MAY-016]** | RBI Calamity Restructuring: Suo Motu Relief Invocation & 135-Day Opt-Out Window | Credit Supervision |
-| **[MAY-017]** | RBI Expected Credit Loss (ECL) Master Direction: Effective 1 April 2027 | Credit Loss Accounting |
-| **[MAY-018]** | RBI Mandates Phased Reporting of All Rupee OTC FX Derivatives to CCIL | Derivative Markets |
-| **[MAY-019]** | RBI Governance: Co-op Director Cooling-Off, Q-SAFE Panel & Leadership Appointments | Central Banking Governance |
-| **[MAY-020]** | SEBI 'GARUDA': Fast-Track Green Channel Framework for AIFs | Capital Markets |
-| **[MAY-021]** | PFRDA Retirement Income Scheme (RIS) Under NPS: SPR & SUR Drawdown | Pensions Regulation |
-| **[MAY-022]** | SEBI PaRRVA Framework Operational; Mission Jagrook & SEBI Check Tool | Market Integrity |
-| **[MAY-023]** | Cabinet Approves ₹37,500 Crore Coal/Lignite Surface Gasification Scheme | Clean Energy Missions |
-| **[MAY-024]** | Tripartite Agreement: India's First Mega Greenfield Shipyard at Thoothukudi | Maritime Logistics |
-| **[MAY-025]** | LEADS 2025 (7th Edition) Logistics Index & National LEAPS Awards | National Logistics |
-| **[MAY-026]** | Unified Bharat e-Charge (UBC) Platform & PM E-DRIVE Deployments | EV Infrastructure |
-| **[MAY-027]** | VB-G RAM G Act, 2025: Replaces MGNREGA with 125 Guaranteed Days | Rural Employment |
-| **[MAY-028]** | Digital Bharat Nidhi (DBN) Deployed for BharatNet Phase III Expansion | Telecom Infrastructure |
-| **[MAY-029]** | BHAVYA Industrial Scheme: ₹33,660 Crore for 100 Smart Industrial Parks | Industrial Development |
-| **[MAY-030]** | Somnath Amrut Mahotsav & Launch of ₹75 Pure Silver Commemorative Coin | National Heritage |
-| **[MAY-031]** | Third Advance Estimates 2025–26: All-Time Record Foodgrain Output (376.56 MT) | Agricultural Production |
-| **[MAY-032]** | Critical Mineral Recycling Incentive Scheme: ₹1,500 Crore Allocation | Strategic Mineral Security |
-| **[MAY-033]** | Income-tax Rules, 2026: Significant Economic Presence (SEP) Thresholds | Direct Taxation |
-| **[MAY-034]** | Panchayat Advancement Index 2.0 (PAI 2.0): Tripura Secures National Rank 1 | Panchayati Raj Governance |
-| **[MAY-035]** | India's First Functional PM MITRA Mega Integrated Textile Park at Warangal | Textile Infrastructure |
-
----
-
 ## 1. 🏦 BANKING, FINANCIAL INSTITUTIONS & RURAL FINANCE
 
 ### [MAY-001] DFS Approves Viability Plan 2.0 for RRBs: 30 Performance Parameters

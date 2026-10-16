@@ -839,7 +839,7 @@ export function Shelf007ContinuousReader({
             <section id="chapter-overview-index" className="bg-[#FAF9F5] border border-[#E0D9CB] rounded-xl p-5 sm:p-6 shadow-2xs space-y-4 scroll-mt-16">
               <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-[#9E722C] pb-2 border-b border-[#E8E2D5]">
                 <span>📋</span>
-                <span>Executive Overview & At a Glance Index</span>
+                <span>Executive Overview & Epistemic Guidelines</span>
               </div>
               <div className="space-y-3">
                 <MarkdownContent
