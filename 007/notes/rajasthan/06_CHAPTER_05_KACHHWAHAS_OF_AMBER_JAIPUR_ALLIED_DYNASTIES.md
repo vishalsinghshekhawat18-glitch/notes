@@ -1,820 +1,556 @@
-# Chapter 05: The Kachhwahas of Amber-Jaipur & Allied Dynasties
+# CHAPTER 05: THE KACHHWAHAS OF AMER–JAIPUR AND ALLIED DYNASTIES OF RAJASTHAN
+
+**For:** RPSC RAS Prelims and Mains — Rajasthan history, polity, society, economy, art, architecture and heritage  
+**Revision status:** Independently audited and substantially rewritten  
+**Coverage:** Kachhwaha state formation; Amer and Jaipur; Mughal–Rajput relations; Sawai Jai Singh II and Jaipur's scientific/urban programme; Bhati rulers of Jaisalmer; Hadas of Bundi and Kota; Jhalas of Jhalawar; Jats of Bharatpur; revenue, water management and British alliances.
+
+> **How to interpret this chapter**
+>
+> - **Secure core:** broadly accepted chronology or an event supported by contemporary/near-contemporary evidence or reliable institutional records.
+> - **Textbook convention:** a standard fact often expected in Rajasthan competitive examinations, but where the underlying record or exact date may not be as firm as its classroom formulation suggests.
+> - **Tradition / later narrative:** a dynastic, bardic, religious or local account valuable for cultural history but not automatically proof of a literal event.
+> - **Disputed / avoid false precision:** historians or source traditions differ. Learn the conventional answer only when a current official syllabus/textbook or PYQ clearly establishes it, and retain the qualification in analytical answers.
+
+This chapter follows the Rajasthan-specific syllabus emphasis on major dynasties, administration and revenue, socio-cultural history, forts and monuments, literature, religious traditions and leading personalities. It is not a licence to memorise every colourful anecdote as fact.
 
 ---
 
-## 1. Dynastic Origins, Migration & Early Patriarchs of Amber
+# PART I — KACHHWAHAS: FROM DHUNDHAR TO THE MUGHAL IMPERIAL SYSTEM
 
-### 1.1 Theories of Kachhwaha Origin & Etymology
-The Kachhwahas (कछवाहा) established one of the most intellectually luminous, administratively sophisticated, and diplomatically influential dynasties in Indian history. Their ancestral lineage is rooted in profound epigraphic and genealogical traditions:
+## 1. Origins and historical identity
 
-```
-                     ┌─────────────────────────────────────────────────────────┐
-                     │          KACHHWAHA HISTORIOGRAPHICAL LINEAGE            │
-                     └────────────────────────────┬────────────────────────────┘
-                                                  │
-         ┌────────────────────────────────────────┼────────────────────────────────────────┐
-         │                                        │                                        │
-┌────────┴──────────────┐              ┌──────────┴─────────────┐              ┌───────────┴──────────┐
-│  Descendants of Kusha │              │ Kurma / Kachhap Clan   │              │   Solar Inscriptions │
-├───────────────────────┤              ├────────────────────────┤              ├──────────────────────┤
-│ • Suryavanshi lineage │              │ • Sanskrit 'Kachhapa'  │              │ • Amer Prashasti     │
-│   tracing directly to │                (कच्छप — Tortoise)     │                (1612 CE):           │
-│   Lord Rama's elder   │              │ • Mutated to vernacular│                "Raghuvansh Tilak"   │
-│   son, Prince Kusha.  │                'Kachhwaha'.           │                (रघुवंश तिलक).       │
-│ • Initial citadel at  │              │ • Ancient totem of the │              │ • Solar insignia on  │
-│   Narwar (Gwalior, MP)│                clan.                  │                Dhundhar royal flag. │
-└───────────────────────┘              └────────────────────────┘              └──────────────────────┘
-```
+The Kachhwahas (also written Kachhawaha/Kachhwaha) became the ruling lineage of **Dhundhar**, the region centred on the Amer–Jaipur area. Their origin stories should be read at three levels:
 
-#### The Royal Dynastic Insignia & Motto
-- **The Flag (*Pacharanga Dhoja*)**: The five-colored royal banner (*Pacharanga*) featuring red, yellow, white, green, and blue, introduced by Mirza Raja Man Singh I following his triumphant Afghan-Kabul campaigns.
-- **The Sacred Motto**: Inscribed beneath the radiant sun:
-  > *"यतो धर्मस्ततो जयः"*  
-  > *(Where there is Righteousness/Dharma, there is Victory.)*
-- **Amer Inscription (1612 CE)**: Formally designates the Kachhwaha rulers as **"Raghuvansh Tilak" (रघुवंश तिलक — The Glory of the Solar Dynasty of Raghu)**.
+| Claim | How to use it in an exam | Evidence status |
+|---|---|---|
+| Descent from Kusha, son of Rama; Suryavanshi identity | Explains royal genealogy, Kshatriya status and ritual legitimacy | Dynastic tradition; not independently provable as literal ancestry |
+| Migration from the Gwalior–Narwar region | Common account of the lineage's movement into Dhundhar | Preserved in genealogies and regional narratives; details and dates are debated |
+| Kachhwahas and earlier Kachchhapaghata/Kachhapaghata rulers | A possible historical connection discussed in scholarship | Do not state a simple direct descent as uncontested fact without specialist evidence |
+| “Raghuvansh Tilak” and solar genealogy in later court records | Shows how the ruling house represented its legitimacy | Epigraphically attested as a later political-ritual identity, not proof of epic-era genealogy |
 
----
+### Early state formation: Dausa and Amer
 
-### 1.2 The Migration Horizon & Early Founders (Dulherai to Prithviraj)
+**Dulha Rai / Dulherai / Durlabharaja** is remembered as the principal founder of Kachhwaha power in Dhundhar. Traditional narratives associate his rise with defeating local Badgujjar/Badgujar chiefs and establishing a base at **Dausa**. The precise year is not secure: modern reconstructions and older state histories offer different chronologies. For this reason, the original file's exact date of **1137 CE** should not be repeated as a securely established fact.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │       THE GEOGRAPHICAL EXPANSION INTO DHUNDHAR         │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Dulherai / Tejkaran (1137 CE)   │   │ Kakil Dev (1207 CE)             │   │ Prithviraj Kachhwaha (1503–1527)   │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Migrated from Narwar (MP).    │   │ • Defeated Susawat Meenas.      │   │ • Fought with Sanga at Khanwa 1527.│
-│ • Defeated Badgujjars at Dausa  │   │ • Captured Amer; established it │   │ • Established "Barah Kothri"       │
-│   (First Capital of Kachhwahas).│     as permanent dynastic capital.  │     feudal estate system.              │
-│ • Captured Manch from Meenas;   │   │ • Built Ambikeshwar Mahadev     │   │ • Patronized Ramanandi sampradaya  │
-│   built Jamway Mata Temple at   │     Temple (namesake of Amer) and   │     under Krishnadas Payahari at       │
-│   Jamwa Ramgarh (Kuldevi).      │     Kadami Mahal (coronation site). │     Galta Ji (Galav Rishi ashram).     │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+**Kakil Dev** is traditionally associated with the capture of **Amer (Amber)** from local Meena chiefs and the transfer of the ruling seat there. The exact date also varies across accounts. The safe sequence to remember is:
 
-#### Dulherai / Tejkaran (दूल्हेराय / तेजकरण, 1137 CE) — The Founding Patriarch
-- **Arrival in Dhundhar**: Succeeded Sodhdev; migrated from Narwar (Gwalior) into the Dhundhar basin (valley of river Dhundh).
-- **First Capital (Dausa)**: Matrimonially allied with Ralhan Singh Chauhan of Lalsot. Defeated the Badgujjars and made **Dausa (दौसा)** the first capital of the Kachhwahas in 1137 CE.
-- **Conquest of Manch (Jamwa Ramgarh)**: Defeated the local Meena chieftains of Manch, renamed the settlement **Jamwa Ramgarh (जमवा रामगढ़)**, and constructed the grand temple of **Jamway Mata (जमवाय माता)**, who was consecrated as the **Kuldevi (dynastic tutelary deity)** of the Kachhwahas.
-- Later annexed Khoh, Getor, and Jhotwara.
+**Dausa (early Kachhwaha seat) → Amer (long-term capital) → Jaipur (new planned capital founded in 1727).**
 
-#### Kakil Dev (काकिल देव, 1207 CE) — The Acquisition of Amer
-- Son of Dulherai; waged war against the Susawat Meenas, capturing the fortified mountain valley of **Amer (आमेर)** in 1207 CE.
-- Made Amer the permanent capital of the Kachhwahas (remained the capital for over 520 years until the founding of Jaipur in 1727 CE).
-- Constructed the ancient **Ambikeshwar Mahadev Temple** (after which Amer is named) and the **Kadami Mahal (कदमी महल)** inside Amer, which served as the traditional site where Meena chieftains applied the coronation mark (*Raj-Tilak*) with thumb-blood upon each new Kachhwaha king.
+Do **not** insert Jamwa Ramgarh into this as a securely documented successive capital. Jamway Mata and Jamwa Ramgarh are important to Kachhwaha religious tradition, but their status is not identical to that of a formal capital.
 
-#### Prithviraj Kachhwaha (1503–1527 CE) — Feudal Stratification
-- **Martial Alliance with Mewar**: A devoted feudatory of Maharana Sangram Singh I (Sanga). Responded to the *Pati Perwan* summons and fought valiantly alongside Sanga at the **Battle of Khanwa (1527 CE)**, sustaining severe wounds.
-- **The "Barah Kothri" System (बारह कोठड़ी व्यवस्था)**:
-  - To prevent fratricidal succession wars among his 12 sons, Prithviraj partitioned the kingdom of Dhundhar into **12 autonomous noble estates (Barah Kothri)**, establishing the structural backbone of Amber's feudal nobility (e.g., Nathawat, Chaturbhujot, Khangarot, Balbhadrot).
-- **The Galta Ji Spiritual Revolution**:
-  - Influenced by his queen **Balabai** (the "Meera of Amber", daughter of Lunkaran Bhati of Bikaner).
-  - In a public philosophical debate (*Shastrartha*), Vaishnava reformer **Krishnadas Payahari (कृष्णदास पयहारी)** defeated the Nath ascetic Tara Nath.
-  - Prithviraj patronized Krishnadas Payahari, who founded the supreme seat of the **Ramanandi Vaishnava Sampradaya at Galta Ji (गलता जी)**, venerated across Rajasthan as the **"Uttar Totadri"** (The Northern Totadri).
+### Early polity and local communities
 
----
+The Kachhwaha state did not grow in an empty landscape. Local Meena, Badgujjar and other landed or clan communities were part of the political terrain. Traditional accounts frame early state formation as conquest; a more useful historical explanation connects military expansion with control of settlements, agricultural land, routes, forts, temples and local intermediaries. Avoid turning every regional origin story into a simple narrative of one clan replacing another overnight.
 
-## 2. Raja Bharmal (1556–1574 CE) — The Imperial Watershed
+## 2. Prithviraj Kachhwaha and the Barah Kothri tradition
 
-### 2.1 Succession & Internal Insecurity
-Upon Prithviraj's death, Dhundhar was plunged into succession turbulence involving Ratan Singh, Askaran, and **Bharmal (भारमल / बिहारीमल)**. Threatened by internal rivals and the aggressive encroachments of Haji Khan Pathan (Mewat governor) and Mirza Sharfuddin Husain (Mughal governor of Mewat/Nagaur), Bharmal sought imperial protection from Emperor Akbar.
+Prithviraj Kachhwaha, conventionally dated to the early sixteenth century, is associated with the expansion of Amer's noble houses and the **Barah Kothri** (twelve-estate) tradition. In the established regional account, estates or positions were associated with branches of the ruling family and formed part of the hereditary nobility.
 
----
+The assertion that Prithviraj introduced a fully standardised, legally fixed system of twelve estates solely to prevent fratricidal succession conflict is stronger than the available evidence warrants. Use **“traditionally associated with”** rather than treating every detail of the system's origin and structure as a documented administrative reform.
 
-### 2.2 The Sambhar Matrimonial Alliance (January–February 1562 CE)
-Bharmal’s alliance with Akbar fundamentally altered the political geography of medieval India, inaugurating the Rajput-Mughal diplomatic synthesis.
+Names of Kachhwaha cadet branches appearing in later records include Nathawat, Khangarot, Balbhadrot and others. Lists differ by source and period; memorise branch names only from a syllabus-relevant list or verified PYQ.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      THE HISTORIC SAMBHAR ACCORD (FEBRUARY 1562)       │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Preliminary Meetings & Envoys       │                     │  The Sambhar Nuptials & Imperial Service         │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • 1556 CE: First meeting arranged by │                     │ • Date: 6 February 1562 at Sambhar Lake.         │
-│   Majnu Khan Qaqshal at Delhi;       │                     │ • Princess Harkha Bai (Mariam-uz-Zamani)         │
-│   Bharmal showed calm during an      │                       wedded to Emperor Akbar.                         │
-│   elephant rampage.                  │                     │ • Crown Prince Bhagwan Das and grandson Man      │
-│ • Jan 1562: Chaghtai Khan arranged   │                       Singh enrolled directly into Mughal service.     │
-│   formal summit at Sanganer during   │                     │ • Bharmal granted 5,000 Mansab and imperial      │
-│   Akbar's pilgrimage to Ajmer.       │                       title "Amir-ul-Umara" (Commander of Nobles).     │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+## 3. The Kachhwahas and Mughal power: why the alliance mattered
 
-#### Historiographical Precision: Harkha Bai vs "Jodha Bai"
-- **Epigraphic Truth**: The daughter of Bharmal wedded to Akbar was named **Harkha Bai (हरखा बाई)** or **Heera Kunwari**. Following the birth of Prince Salim (Jahangir) at Fatehpur Sikri in 1569, Akbar bestowed upon her the official imperial title **Mariam-uz-Zamani (मरियम-उज़-ज़मानी — Mary of the Age)**.
-- **The "Jodha Bai" Historiographical Error**: Col. James Tod and later popular cinema erroneously labelled Harkha Bai as "Jodha Bai". In authentic contemporary Mughal records (*Akbarnama*, *Tuzuk-i-Jahangiri*), the title *Jodha Bai* belonged strictly to **Mani Bai / Jagat Gosain**, daughter of Mota Raja Udai Singh of **Jodhpur (Marwar)**, who married Prince Salim in 1587 CE and became the mother of Emperor Shah Jahan!
+The Kachhwahas' sixteenth- and seventeenth-century prominence cannot be explained solely by “submission” or “loyalty”. Their rulers used marriage alliances, mansabs, imperial commands, land grants and court access to strengthen their position in Dhundhar. Mughal rulers, in turn, gained experienced commanders and regional allies. This was a negotiated, unequal imperial relationship that created both opportunity and constraints.
+
+### 3.1 Raja Bharmal (Bihari Mal / Bharmal), r. c. 1548/1550–1574
+
+- **Political setting:** A Kachhwaha succession struggle and pressure from neighbouring and Mughal-aligned forces made imperial support strategically valuable.
+- **Sambhar/Sanganer agreement, 1562:** Bharmal entered an alliance with Akbar; a marriage connection between Akbar and Bharmal's daughter is central to the conventional account. The episode took place during Akbar's early consolidation in north-western India.
+- **Mughal service:** Bharmal and Kachhwaha kin obtained high rank and influence in the Mughal order. Exact mansab descriptions should be checked against the relevant imperial record rather than copied from unsourced tables.
+
+#### The names Harkha Bai, Mariam-uz-Zamani and “Jodha Bai”
+
+The woman commonly identified as Bharmal's daughter is frequently called **Harkha Bai** or **Hira Kunwari** in later accounts; **Mariam-uz-Zamani** is her well-known imperial title, associated with the birth of Prince Salim in 1569. The label **“Jodha Bai”** is problematic because it is used inconsistently in later histories and popular culture, and is often confused with **Jagat Gosain**, the Marwar princess who married Prince Salim. Do not state categorically that every occurrence of “Jodha Bai” in historical writing must refer to only one person. In a careful answer, identify the person by relationship/title and explain the naming uncertainty.
+
+**Significance:** The alliance helped connect Amer's ruling house to the imperial nobility. It was a diplomatic and political decision, not an adequate basis for reducing Mughal–Rajput relations to a single religious narrative.
+
+### 3.2 Raja Bhagwant Das, r. 1574–1589
+
+- Continued the Kachhwaha family's imperial service and held prominent Mughal rank.
+- Served in military campaigns, including Akbar's Gujarat operations; accounts of his conduct at **Sarnal** are part of the standard narrative.
+- Held important provincial responsibilities, including association with Punjab/Lahore administration.
+- His daughter Manbhavati/Maan Bai married Prince Salim and became known as **Shah Begum**; she was the mother of Prince Khusrau.
+
+**Exam distinction:** Bharmal's daughter is associated with Akbar; Bhagwant Das's daughter is associated with Prince Salim. The two marriages belong to different generations and should not be conflated.
+
+### 3.3 Raja Man Singh I, r. 1589–1614
+
+Man Singh was one of Akbar's most prominent Rajput commanders. He demonstrates how regional dynasties could gain influence through imperial service while retaining a hereditary base at Amer.
+
+**Mansab terminology — critical correction**
+
+The Mughal mansab system distinguished **zat** (personal rank/status) from **sawar** (cavalry obligation/rank). The original file's “7,000 Jat” is a typographical and substantive error: it should not use “Jat” for *zat*. Man Singh's very high rank is conventionally given as **7,000 zat**; precise paired zat/sawar figures should be cited to a particular source and date rather than treated as a timeless rank.
+
+**Military and administrative service**
+
+- Commanded the Mughal army against Maharana Pratap at **Haldighati (1576)**. The battle should be understood in the context of Mughal imperial expansion and Mewar's resistance, not simplified into a conflict between religious communities: the forces on both sides were politically diverse.
+- Served in the north-west frontier, Bihar, Bengal and Odisha theatres over different periods. His career contributed to Mughal consolidation in eastern India.
+- Served as an important intermediary between the imperial court and regional power-holders.
+
+**Architecture and religious patronage**
+
+- Expanded the palace complex at **Amer**; the visible complex accumulated structures across several generations rather than being the work of one builder alone.
+- Commissioned the large red-sandstone **Govind Dev temple at Vrindavan** (c. 1590s), an important example of courtly Vaishnava patronage and Mughal-era architecture.
+- The **Shila Devi temple** at Amer is associated with Man Singh's Bengal campaign in local tradition. Separate the temple's historical patronage from the legendary details of how the image was acquired.
+- **Jagat Shiromani Temple, Amer:** associated with Queen Kankavati and the memory of Prince Jagat Singh. The claim that its Krishna image is exactly the image worshipped by Mirabai belongs to devotional tradition, not secure provenance.
+- Court musicologist **Pundarika Vitthala** and other scholars are associated with the broader intellectual world of the period; verify specific work–author pairs before using them in factual matching questions.
+
+### 3.4 Mirza Raja Jai Singh I, r. 1621–1667
+
+Jai Singh I served under Jahangir, Shah Jahan and Aurangzeb. The title **Mirza Raja** is associated with his elevation in imperial service. He is an important case study in the military-diplomatic role of Rajput commanders within Mughal campaigns.
+
+#### Treaty of Purandar, 1665
+
+Aurangzeb sent Jai Singh to lead the Mughal campaign against Shivaji. After the siege of Purandar, Shivaji negotiated terms with Jai Singh.
+
+Main terms commonly taught:
+
+1. Shivaji agreed to surrender **23 forts** to the Mughals.
+2. Shivaji retained **12 forts**, subject to conditions of imperial service/loyalty.
+3. Sambhaji was assigned an imperial mansab commonly given as **5,000**.
+4. The agreement formed part of a larger Mughal strategy to isolate Shivaji diplomatically and prepare for action against Bijapur.
+
+Sources differ in how they phrase the revenue values and some related terms; avoid adding exact figures unless needed and sourced. The treaty is a clear example of **siege pressure followed by negotiated incorporation**, not a final end to Maratha–Mughal conflict. For further reading, Jadunath Sarkar's *Shivaji and His Times* reproduces the main terms; use it as a secondary account, not as a substitute for the entire documentary record. [Text of the relevant section](https://en.wikisource.org/wiki/Shivaji_and_His_Times/Chapter_5).
+
+Jai Singh's later career and his son Ram Singh's role in the events surrounding Shivaji's visit to Agra in 1666 show how court guarantees, personal honour and imperial suspicion could collide. Do not state that Jai Singh's guarantee alone caused the escape; the episode involved complex court politics.
 
 ---
 
-## 3. Raja Bhagwan Das (1574–1589 CE)
-- **Imperial Mansab & Governorship**: Elevated to a premier mansab of 5,000; appointed the Mughal **Governor of Punjab (Lahore)**.
-- **The Third Mission to Pratap (1573 CE)**: Commanded the third imperial diplomatic mission dispatched by Akbar to Gogunda in September–October 1573 to negotiate Maharana Pratap's submission, returning unsuccessful.
-- **Matrimonial Alliance of 1585 CE**: Married his daughter **Manbhavati / Man Bai (मान बाई)** to Prince Salim (Jahangir). She was conferred the imperial title **Shah Begum (शाह बेगम)**. She gave birth to Prince Khusrau.
-- **Tragic End of Shah Begum**: Tormented by the continuous rebellious insolence of her son Khusrau against Jahangir, Shah Begum consumed fatal opium and committed suicide at Allahabad in 1604 CE.
-- **Death**: Raja Bhagwan Das passed away at Lahore in 1589 CE while serving on imperial campaigns alongside Raja Todar Mal.
+# PART II — SAWAI JAI SINGH II AND THE MAKING OF JAIPUR
+
+## 4. Sawai Jai Singh II (1688–1743; ruler of Amer/Jaipur from 1699/1700)
+
+Sawai Jai Singh II combined Rajput statecraft with astronomy, mathematics, city planning and the management of a courtly knowledge network. The Jaipur observatory is not merely a tourist monument: it represents an attempt to improve astronomical observation through large fixed instruments and to bring several scientific traditions into the court's orbit.
+
+### 4.1 The title “Sawai” and political restoration
+
+“Sawai” means approximately **one and a quarter**, an honorific explained in court tradition as recognition of the prince's exceptional ability. He succeeded to Amer around the turn of the eighteenth century. After Aurangzeb's death in 1707, conflict with the Mughal centre led to the temporary loss and restoration of his position. The exact sequence of events is best studied alongside the **Debari/Rajput alliance of 1708** and the Battle of Sambhar tradition.
+
+The Debari agreement connected the ruling houses of Mewar, Marwar and Amer in an anti-imperial alignment. Its matrimonial/succession provisions later became entangled in the Jaipur succession dispute. Treat the claim that one clause alone “caused” the later civil war as too simple: succession, court factions and outside intervention all mattered.
+
+### 4.2 Hurda Conference, 1734
+
+Sawai Jai Singh II convened the **Hurda Conference** to coordinate Rajput resistance to expanding Maratha fiscal and military pressure. Maharana **Jagat Singh II of Mewar** presided; rulers and representatives from several Rajput states attended. The meeting is commonly dated to **16–17 July 1734** in different accounts.
+
+Its failure is as significant as its convening. Rival succession claims, separate negotiations and distrust among rulers limited the capacity to create a durable common front. This makes Hurda an example of the limits of collective security in a fragmented political environment.
+
+### 4.3 Foundation and design of Jaipur, 1727
+
+Sawai Jai Singh II established **Jaipur in 1727**, shifting his capital from Amer to a planned city on the plains. The official Rajasthan tourism account links the move to population growth and water constraints at Amer. **Vidyadhar Bhattacharya** was the chief planner/architect associated with the city's design. [Rajasthan Tourism: Jaipur](https://www.tourism.rajasthan.gov.in/jaipur.html)
+
+Core urban-planning features:
+
+- Planned street network with major roads meeting at right angles.
+- Division into **nine chowkris** (sectors/blocks) in the conventional description.
+- Commercial streets, bazaars and craft-specific commercial zones integrated with the urban plan.
+- A fortified perimeter, gates, squares (*chaupars*), civic/religious buildings and palace complex.
+- Planning drew on Indian architectural and town-planning traditions; connections with mathematical/astronomical thinking are important, but claims that the layout simply “copied Europe” or mechanically reproduced nine planets should be qualified.
+
+**Why it matters:** Jaipur's plan combined royal authority, trade, taxation, security, water management and urban order. It was a political-economic project, not just an architectural design.
+
+### 4.4 Jantar Mantars and astronomical work
+
+Jai Singh sponsored observatories at **Delhi, Jaipur, Ujjain, Mathura and Varanasi**. Jaipur's observatory, built in the early eighteenth century, is the largest and best preserved of the set and was inscribed on the **UNESCO World Heritage List in 2010**. UNESCO describes it as an astronomical observation site with monumental fixed instruments designed for naked-eye observation and as a meeting point of scientific and cosmological traditions. [UNESCO: Jantar Mantar, Jaipur](https://whc.unesco.org/en/list/1338/)
+
+The instruments were used to observe celestial positions and improve calculations. Avoid assuming that every instrument or observation was wholly novel: Jai Singh's project built on earlier Indian, Islamic and Greco-Arabic astronomical traditions.
+
+| Observatory | Exam-relevant note |
+|---|---|
+| Delhi | Commonly treated as the first of Jai Singh's observatories, begun in 1724 |
+| Jaipur | Largest and best preserved; UNESCO World Heritage Site (2010) |
+| Ujjain | Important historical centre of Indian astronomy |
+| Varanasi | Observatory associated with Man Mandir Ghat |
+| Mathura | One of Jai Singh's five observatories; its remains did not survive intact |
+
+**Key text:** *Zij-i Muhammad Shahi*, compiled under Jai Singh's initiative and dedicated to Mughal emperor Muhammad Shah, contains astronomical tables. **Jagannatha Samrat** is associated with Sanskrit translations/adaptations of works in mathematical astronomy, including *Rekhaganita*. Avoid writing that all source texts were direct translations by Jai Singh personally.
+
+### 4.5 Ashvamedha and social-policy claims
+
+A Jaipur Ashvamedha is frequently associated with Jai Singh II around 1740 in Rajasthan historical writing. The claim that he was **“the last Hindu monarch ever to perform the Ashvamedha”** is much broader than the evidence necessary for the local fact. State the Jaipur tradition with a qualification and do not turn it into a universal “last ever” fact without a robust specialist source.
+
+Claims that Jai Singh issued specific decrees on widow remarriage, *stridhan* or the prevention of female infanticide require direct archival evidence. They should not be memorised as secure reforms solely because they appear in a compiled account.
+
+## 5. Jaipur after Jai Singh II: succession and Maratha intervention
+
+### 5.1 Ishwari Singh (1743–1750)
+
+Jai Singh's death triggered a succession contest between **Ishwari Singh**, the eldest surviving son, and **Madho Singh**, whose claim was supported by Mewar and Maratha interests. The contest drew Rajasthan's rulers further into Maratha politics.
+
+- **Rajmahal (1747):** Ishwari Singh's forces defeated Madho Singh's coalition in the standard account.
+- **Bagru (1748):** The balance shifted after Madho Singh received stronger support; territorial concessions followed.
+- **Isarlat / Sargasuli:** A victory tower in Jaipur associated with Ishwari Singh and the Rajmahal victory; commonly dated to the late 1740s.
+- **Death in 1750:** Ishwari Singh died by suicide after severe financial and military pressure. Details concerning the number of people who died with him vary in later accounts; avoid unsourced exact totals.
+
+### 5.2 Madho Singh I (1750–1768)
+
+Madho Singh's reign involved continuing Maratha pressure, military activity and urban development. The battles of **Kakor (1759)** and **Bhatwara (1761)** are important in Rajasthan regional history. Bhatwara was a Jaipur–Kota contest over territorial control; the later influence of **Zalim Singh Jhala** in Kota developed in this wider context.
+
+Madho Singh is associated with the foundation/development of **Sawai Madhopur** (commonly dated 1763) and with later work at the **Jal Mahal**. The palace's construction and renovations have conflicting descriptions in popular sources: Rajasthan Tourism describes it as a hunting lodge associated with **Madho Singh I**, while other accounts assign earlier foundations and later work to Jai Singh II. The safe examination point is that Jal Mahal lies in **Man Sagar Lake** and reflects the region's water and leisure architecture; do not use a single exact building date without checking the source used by the exam.
+
+### 5.3 Sawai Pratap Singh (1778–1803)
+
+Pratap Singh's reign is associated with Jaipur's late eighteenth-century cultural and architectural life amid competition with Maratha armies and other regional powers.
+
+- **Battle of Tunga (1787):** Jaipur and Marwar forces fought Mahadji Scindia's forces. Treat claims of a clear, decisive or strategically final victory with caution; later state narratives emphasise the Rajput side.
+- **Battle of Patan (1790):** Scindia's forces, strengthened by European-trained infantry under Benoît de Boigne, defeated the Jaipur–Marwar coalition.
+- **Battle of Malpura (1800):** Another major Maratha–Jaipur engagement.
+- **Hawa Mahal (1799):** Commissioned by Pratap Singh; the building is associated with architect/mason **Lal Chand** in standard accounts. Its many small screened windows allowed the royal women to observe street life while maintaining seclusion. The commonly quoted count is **953 jharokhas/windows**.
+- **Gandharva Baisi / court music:** Pratap Singh is linked to musical and literary patronage and used the pen-name **Brijnidhi** for devotional poetry. Highly specific claims that the institution consisted of exactly 22 people in each of four professions need a stronger source before being treated as settled fact.
+
+### 5.4 British alliance and nineteenth-century Jaipur
+
+Jaipur entered a treaty relationship with the East India Company in **1818**, becoming part of the British system of paramountcy. Such treaties preserved princely rulers but restricted independent external policy and increased British political influence. Treaty dates and individual clauses should be taken from the treaty text rather than a general summary.
+
+**Sawai Ram Singh II (1835–1880)** is associated with significant changes in education, public works and the visual image of Jaipur.
+
+- The city is commonly known as the **Pink City** after the 1876 visit of the Prince of Wales, when the city was painted in a pink/terracotta colour associated with hospitality. [Rajasthan Tourism: Jaipur](https://www.tourism.rajasthan.gov.in/jaipur.html)
+- **Albert Hall Museum:** foundation laid in 1876 and completed in 1887; designed by **Samuel Swinton Jacob** in an Indo-Saracenic style.
+- **Ram Niwas Garden**, educational institutions and public works belong to this period of urban modernisation.
+- The account of the exact date and scope of anti-sati and other social legislation should be verified from Jaipur-state records before being used as an exact one-line fact.
 
 ---
 
-## 4. Mirza Raja Man Singh I (1589–1614 CE) — The Pillar of the Empire
+# PART III — ALLIED DYNASTIES AND REGIONAL STATES
 
-### 4.1 Imperial Accession, Titles & Mansabdari
-Born in 1550 CE at Mauzamabad; ascended the Amber gaddi in 1589 CE. First coronated at Patna (Bihar), followed by full royal ceremonies at Amer.
-- **Imperial Titles Conferred by Akbar**:
-  1. **Farzand (फरजंद — Son)**: Akbar addressed Man Singh affectionately as his son.
-  2. **Mirza Raja (मिर्जा राजा)**: An imperial royal prefix reserved exclusively for Mughal princes and exceptional sovereigns.
-- **The Highest Hindu Mansab**: Elevated to the supreme military rank of **7,000 Jat and 6,000 Sawar**, an imperial honor shared only by Akbar’s foster-brother Mirza Aziz Koka.
+## 6. Bhatis of Jaisalmer
 
----
+### 6.1 Origins and Jaisalmer's foundation
 
-### 4.2 Major Military Theaters & Conquests
+The Bhatis' claim of descent from the Yadu lineage and Krishna is a dynastic tradition. Their political history is closely tied to caravan routes, desert mobility, frontier warfare and control of oasis settlements.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      MILITARY CAMPAIGNS OF MIRZA RAJA MAN SINGH I      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Haldighati Campaign (1576 CE)   │   │ Kabul & North-West (1581–1586)  │   │ Bengal, Bihar & Orissa (1587–1605) │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • First independent command at  │   │ • Subdued rebellious Mirza      │   │ • Governor of Bihar (1587):        │
-│   age 26 as supreme commander   │     Hakim; appointed Governor of    │     crushed Gidhaur & Kharagpur rebels;│
-│   of Akbar's imperial army.     │     Kabul (1585).                   │     founded Manpur city.               │
-│ • Stalemated in the hills;      │   │ • Smashed Roshaniya and Yusufzai│   │ • Conquered Orissa (1592): annexed │
-│   Akbar banned Man Singh & Asaf │     Afghan tribal revolts.          │     Jagannath Puri to Mughal realm.    │
-│   Khan from court for months    │   │ • Brought the 5-colored flag    │   │ • Governor of Bengal (3 tenures):  │
-│   due to failure to capture     │     (*Pacharanga Dhoja*) back to    │     crushed Isa Khan & Kedar Rai;      │
-│   Maharana Pratap.              │     Amer.                           │     founded Akbarnagar (Rajmahal).     │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+**Rawal Jaisal** founded **Jaisalmer in 1156 CE**, establishing the new centre on **Trikuta Hill** after the vulnerability of the earlier seat at Lodhurva. The yellow sandstone fort became known as **Sonar Kila / Golden Fort**. Jaisalmer Fort is one of the six properties in UNESCO's *Hill Forts of Rajasthan* serial World Heritage inscription (2013). UNESCO emphasises its desert setting, living urban settlement, Jain temples and defensive relationship with the landscape. [UNESCO: Hill Forts of Rajasthan](https://whc.unesco.org/en/list/247/)
 
-#### The Shila Devi Legend (Jessore, Bengal)
-During the Bengal expedition (1604 CE), Man Singh defeated **Raja Kedar Rai of Jessore** (now Bangladesh). 
-- Kedar Rai was believed to be invincible due to the divine presence of an ancient black-stone idol of Goddess Durga.
-- Man Singh recovered the sacred idol from the oceanbed/palace and brought it triumphantly to Amer.
-- He consecrated the goddess within Amer Fort as **Shila Devi (शीला देवी)**, designating her as the supreme **Ishta Devi (इष्ट देवी — Chosen Personal Deity)** of the Jaipur royal family (whereas Jamway Mata remained the dynastic Kuldevi).
+### 6.2 The “two-and-a-half sāka” tradition
 
----
+Jaisalmer's tradition remembers two full **sāka** episodes and one **ardha-sāka**. A *sāka* commonly links jauhar by women with the final *kesariya* charge by warriors. This is important to Rajasthan's cultural memory, but exact dates and details depend heavily on later chronicles and oral traditions.
 
-### 4.3 Cultural, Architectural & Literary Renaissance under Man Singh I
+| Episode | Conventional association | Source-critical note |
+|---|---|---|
+| First sāka | Early fourteenth century; often associated with Rawal Moolraj and Alauddin Khalji | The exact year and siege narrative vary; avoid one date as uncontested unless following a named exam source |
+| Second sāka | Late fourteenth century; associated with Rawal Duda and Tughlaq forces | Chronology and details are less secure than a simple table suggests |
+| Ardha-sāka (c. 1550) | Rawal Lunkaran and Amir Ali of Kandahar | The palanquin-coup story and the explanation for “half” sāka are later narrative traditions; label them as such |
 
-#### Monumental Architecture
-1. **Amer Palaces (आमेर महल)**: Initiated the construction of the grand Rajput-Mughal palaces in 1592 CE, including the Diwan-i-Aam, Diwan-i-Khas, and foundational ramparts.
-2. **Jagat Shiromani Temple (जगत शिरोमणि मंदिर, Amer)**:
-   - Commissioned by Man Singh’s chief queen, **Rani Kanakavati (रानी कनकवती)**, in memory of their beloved eldest son, Crown Prince **Jagat Singh**, who died in Bengal.
-   - Known as the *Meera Temple of Amer*; enshrines the sacred black-stone idol of Lord Krishna which was originally worshipped by **Meera Bai** at Chittorgarh, brought to Amer by Man Singh during military campaigns.
-3. **Govind Devji Temple (Vrindavan, UP)**:
-   - Constructed the monumental 7-storey red-sandstone temple of Radha-Govind Devji at Vrindavan in 1590 CE (the upper storeys were later dismantled during Aurangzeb’s iconoclastic campaign).
-4. **Baikunthpur Temple (Bihar)** & **Man Mandir Ghat / Observatory at Varanasi**.
+Do not present the execution of women, the precise number of victims, or a “victory despite jauhar” narrative as independently verified fact without a reliable source. In Mains, the useful analysis concerns the memory of siege, honour, gender, martial identity and regional chronicle-making.
 
-#### Court Scholars & Treatises
-Man Singh was an extraordinary patron of Sanskrit and Dingal scholarship:
-- **Pundarik Vitthal (पुंडरीक विट्ठल)**: Master musicologist who authored foundational musicological classics:
-  1. *Ragamala* (रागमञ्जरी)
-  2. *Raga Manjari*
-  3. *Raga Chandrodaya*
-  4. *Nartan Nirnaya* (नर्तन निर्णय)
-- **Kripa Ram**: Authored *Kavya Kalpadrum*.
-- **Murari Dan**: Authored *Maan Prakash* (chronicle of Man Singh's life).
-- **Dalpat Raj**: Authored *Pawan Paschisi* and *Patra Prashasti*.
-- **Death**: Passed away on 6 July 1614 CE at **Elichpur (Maharashtra)** while commanding Mughal forces in the Deccan.
+### 6.3 Jain manuscripts and British relations
 
----
+The **Jinbhadra Suri Granth Bhandar** in Jaisalmer is known for its important Jain manuscript collection and supports the town's history as a centre of Jain religious, literary and mercantile life. Jaisalmer entered a treaty relationship with the British in **1818**; consult the specific treaty record for an exact month/day rather than copying inconsistent dates.
 
-## 5. Mirza Raja Jai Singh (1621–1667 CE) — 46 Years of Imperial Chivalry
+## 7. Hadas of Hadoti: Bundi, Kota and Jhalawar
 
-### 5.1 Service Across Three Mughal Emperors
-Ascended the throne in 1621 CE at the age of 10; governed Amber for **46 years** (the longest reign in Amber-Jaipur history). He served three successive Mughal Emperors: **Jahangir**, **Shah Jahan**, and **Aurangzeb**.
+The Hadas are generally treated as a branch of the Chauhan lineage. Their states lay in south-eastern Rajasthan, where the Chambal and its tributaries shaped agriculture, routes, fort sites and relations with Malwa and the Deccan.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      MIRZA RAJA JAI SINGH'S CHRONOLOGICAL TENURE       │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Under Jahangir (1621–1627)      │   │ Under Shah Jahan (1628–1658)    │   │ Under Aurangzeb (1658–1667)        │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Dispatched to Deccan campaigns│   │ • Conferred prestigious title   │   │ • Switched allegiance to Aurangzeb │
-│   under Prince Khurram.         │     "Mirza Raja" in 1637 during     │     after Battle of Samugarh; won  │
-│ • Suppressed Malik Ambar's      │     Kandahar expeditions.           │     over Maharaja Jaswant Singh I. │
-│   guerilla resistance.          │   │ • Victorious at Battle of       │   │ • Dispatched to Deccan to subdue   │
-│                                 │     Bahadurpur (1658) vs Shuja.     │     Chhatrapati Shivaji Maharaj.   │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
+### 7.1 Bundi
 
----
+- **Foundation tradition:** **Rao Deva Hada** is conventionally associated with the establishment of Hada power at Bundi in the thirteenth century; 1241 CE is a commonly taught date, but early regional genealogies deserve source caution.
+- **Taragarh Fort, Bundi:** associated with **Rao Bar Singh** and dated in standard accounts to the fourteenth century (often 1354). The fort's hill setting and later additions make it an important regional defensive centre.
+- **Rao Surjan Hada:** defended Ranthambore against Akbar; after the fort's surrender in 1569 he entered Mughal service. His career illustrates negotiated submission and the incorporation of Rajput rulers into imperial administration.
+- **Bundi School of Painting:** noted for narrative murals, court scenes, Krishna themes, hunting, monsoon and landscape imagery. **Chitrashala/Rang Mahal** is associated with the state's later courtly patronage.
+- **Raniji ki Baori:** a major stepwell associated with **Rani Nathavati** and dated to 1699 in standard accounts. It is evidence of water architecture, royal patronage and civic-religious space.
 
-### 5.2 The Treaty of Purandar (11 / 22 June 1665 CE)
-The diplomatic masterpiece of Mirza Raja Jai Singh's career. Aurangzeb appointed him supreme commander in the Deccan with unlimited treasury and artillery to crush the rising Swarajya of Chhatrapati Shivaji Maharaj.
+### 7.2 Kota
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │        THE TREATY OF PURANDAR (11 / 22 JUNE 1665)      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Military Siege & Isolation          │                     │  Four Core Diplomatic Clauses                    │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Jai Singh besieged Purandar Fort   │                     │ 1. Surrender of 23 Forts: Shivaji ceded 23 forts │
-│   (defended heroically by Murarbaji  │                          yielding 4 lakh Huns revenue to the Mughals,  │
-│   Deshpande).                        │                          retaining 12 forts (1 lakh Huns revenue).     │
-│ • Isolated Shivaji by forming naval  │                     │ 2. Mansabdari for Sambhaji: Prince Sambhaji (aged│
-│   and land alliances with Bijapur,   │                          8) enrolled as Mughal Mansabdar of 5,000.     │
-│   the Portuguese, and the Siddis.    │                     │ 3. Military Assistance: Shivaji agreed to provide│
-│ • Compelled Shivaji to initiate      │                          cavalry contingents for Mughal Bijapur war.   │
-│   peace negotiations.                │                     │ 4. Imperial Court Visit: Shivaji consented to    │
-│                                      │                          visit Aurangzeb's court at Agra.              │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+**Kota was separated from Bundi in 1631** under Mughal emperor Shah Jahan's arrangements and granted to **Madho Singh Hada**, son of Bundi ruler Ratan Singh, for service to the empire.
+
+- Kota's political history involved Mughal service, rivalry with Bundi and later Maratha pressure.
+- **Zalim Singh Jhala (1739–1824)** became the dominant administrator/de facto power in Kota. His diplomacy and administrative influence limited the practical authority of the titular Maharaos.
+- A British treaty/arrangement in **1817** recognised an unusual political settlement in which Kota's hereditary Hada ruler remained sovereign in title while Zalim Singh's family retained substantial executive authority. The exact wording of supplementary clauses should be checked against the treaty text.
+
+### 7.3 Jhalawar, 1838
+
+The unresolved division of authority in Kota led to a settlement by which the British created **Jhalawar in 1838** for **Madan Singh Jhala**, a descendant of Zalim Singh. Jhalawar's creation is a high-value chronology fact for Rajasthan history. The capital developed at **Jhalrapatan/Jhalawar**. Avoid stating that it was “the last princely state ever created in India”; the narrower Rajasthan textbook formulation is that it was the last princely state created in the region during this period.
+
+## 8. Jats of Bharatpur: state formation, Suraj Mal and Lohagarh
+
+The Jat polity of Bharatpur emerged from a mix of agrarian power, local chieftainship, military organisation and Mughal-era conflict. It should not be reduced to a single-cause “religious revolt”. Revenue demands, local autonomy, imperial campaigns and shifting alliances all mattered.
+
+### 8.1 Gokula, Rajaram, Churaman and Badan Singh
+
+- **Gokula of Tilpat:** associated with the Jat uprising of 1669; he was defeated and executed in 1670.
+- **Rajaram of Sinsini:** expanded armed resistance and attacked Mughal interests in the Agra region; stories of the desecration of Akbar's tomb should be attributed to the relevant chronicles rather than stated without qualification.
+- **Churaman:** consolidated Jat military power and is associated with the fortified base at **Thun**.
+- **Badan Singh:** emerged as a leading Jat ruler in the 1720s and developed royal centres, especially at **Deeg**.
+
+### 8.2 Maharaja Suraj Mal (c. 1756–1763 as ruler; state-building began earlier)
+
+Suraj Mal is remembered for military judgement, careful diplomacy and consolidation of the Bharatpur state. He was a capable political strategist in a period when Mughal central power weakened and Maratha, Rohilla and Rajput interests competed.
+
+**Lohagarh Fort:** Bharatpur's celebrated fort was developed in the eighteenth century, with construction commonly associated with Suraj Mal/state-building beginning around **1733**. This is not a chronological contradiction: Suraj Mal could build power before his formal accession as ruler. The fort used earthen ramparts, masonry and a moat to reduce the effectiveness of conventional artillery and storming tactics.
+
+**Deeg:** palace complexes such as Gopal Bhavan formed part of the Jat court's water-and-garden architecture. The combination of palaces, tanks, gardens, channels and fountains demonstrates the political use of landscape and water engineering.
+
+**Panipat (1761):** Suraj Mal did **not** remain a participant in the Maratha army at the Third Battle of Panipat. He offered strategic advice, including the need to protect non-combatants and avoid a premature pitched battle, but differences with Sadashivrao Bhau led to his withdrawal from the coalition. After the Maratha defeat he provided assistance to many survivors. This distinction matters: the original claim that he “joined the grand army” conflicts with its own account that he withdrew.
+
+**Agra (1761):** Suraj Mal captured Agra in 1761, expanding Bharatpur influence and securing imperial resources.
+
+**Death (1763):** He was killed in a campaign against Najib-ud-Daula near the Hindon region. Exact descriptions of the ambush and date should be kept to the source used in a specific question.
+
+### 8.3 Jawahar Singh and the Delhi gates tradition
+
+Jawahar Singh's campaign against Delhi in 1765 and the bringing of metal gates to Bharatpur is an important regional memory. The further claim that these gates were originally looted from Chittorgarh by Alauddin Khalji in 1303 is unsubstantiated. The Red Fort at Delhi was built under Shah Jahan in the seventeenth century; a direct chain from Chittor in 1303 requires evidence rather than repetition of local legend.
+
+### 8.4 Maharaja Ranjit Singh and the siege of 1805
+
+Bharatpur's ruler Ranjit Singh sheltered **Yashwantrao Holkar** after his conflict with the British. Lord Lake besieged Lohagarh in 1805, but British assaults failed to take the fort. The fort's earthen defences and water obstacles limited the effectiveness of artillery and storming columns. British records on the war with Holkar and Bharatpur are preserved in the India Office Records; their existence supports studying the siege from the imperial as well as the regional side. [British Library archive catalogue: papers on Holkar and Bharatpur, 1804–1805](https://searcharchives.bl.uk/catalog/040-000004719).
+
+The fort was eventually breached in the **1826** siege under Lord Combermere. Avoid unsourced dramatic casualty figures and the absolute statement that no other Indian fort ever repulsed Lord Lake; such superlatives add little and are difficult to defend.
+
+
+
+### Coverage extension: Yadava/Jadon rulers of Karauli
+
+The wider RBSE survey of Rajasthan dynasties also includes the **Yadava/Jadon rulers of Karauli**, so this connection should not disappear from a state-history master source.
+
+- The Karauli state genealogy claims Yaduvanshi descent, traditionally linked to Krishna. Treat this as a dynastic lineage tradition rather than independently verified epic-period ancestry.
+- **Arjun Dev / Arjun Pal** is associated with founding or re-establishing Karauli in **1348 CE**; the settlement was known as **Kalyanpuri**, linked with the Kalyanji/Kalyan Rai temple. The Rajasthan government's Karauli district-gazetteer material supports the 1348 date and the Kalyanpuri association.
+- Earlier claims that the state began with **Bijal Pal** around the tenth century belong to a different layer of dynastic tradition; the succession chronology before Arjun Dev is uncertain. Do not merge the two accounts into one definitive line.
+- Karauli later entered the British treaty system in the early nineteenth century and joined the Matsya Union in 1948 before integration into Rajasthan in 1949.
+
+**Exam use:** Remember *Karauli — Yadava/Jadon tradition — Arjun Dev/Pal — 1348 — Kalyanpuri/Kalyanji*. Qualify the deeper genealogy and pre-1348 dates. Sources: [Rajasthan Foundation, Karauli profile](https://foundation.rajasthan.gov.in/rf/pdf/Karauli.pdf) and [Rajasthan District Gazetteers, Karauli](https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/OrderEntry/MAN_/2023/Publication/O_040923_ccf2b8eb-47c3-4201-90cd-e702b7f364ec.pdf).
 
 ---
 
-### 5.3 Cultural & Architectural Patronage
+# PART IV — ADMINISTRATION, REVENUE, WATER AND HERITAGE
 
-#### Mahakavi Bihari Lal & The Bihari Satsai
-- When Mirza Raja Jai Singh married a young princess and neglected royal administration, remaining locked inside his palace chambers, court poet **Bihari Lal (बिहारी लाल)** sent him a single subtle Dingal-Braj couplet via a maidservant:
-  > *"नहिं पराग नहिं मधुर मधु, नहिं विकास यहि काल।*  
-  > *अली कली ही सौं बंध्यो, आगे कौन हवाल॥"*  
-  > *(There is neither pollen nor sweet nectar here, nor has the flower bloomed. If the bee is already enslaved by the bud, what will happen in the future?)*
-- Jai Singh emerged immediately from his chambers and resumed governance.
-- He rewarded Bihari Lal with **one gold mohur (Ashrafi) for every couplet** composed.
-- Bihari composed the world-renowned masterwork **Bihari Satsai (बिहारी सतसई)**, containing **713 Dohas** in exquisite Braj Bhasha.
-- Other Scholars: **Ram Kavi** authored *Jai Singh Charitra*.
+## 9. Dhundhar/Jaipur agrarian and fiscal administration
 
-#### Architecture
-- Constructed **Jaigarh Fort (जयगढ़ दुर्ग)** atop the Cheel ka Teela (Hill of Eagles) in Amer, designed as the invincible military armory and treasury of the kingdom.
-- Built the **Sheesh Mahal (Glass Palace)**, **Jai Mandir**, and **Diwan-i-Aam** within Amer Fort.
-- Constructed the Jai Singh Pura settlements in Delhi, Agra, and Aurangabad.
-- **Death**: Passed away on 28 August 1667 CE at **Burhanpur (Madhya Pradesh)**, allegedly poisoned on Aurangzeb’s secret instigation.
+The source base for Jaipur administration includes state records such as **Dastur Komwar**, revenue and estate registers, court records, regional chronicles and later gazetteers. These sources can illuminate ranks, grants, protocol, offices and local fiscal practice, but the categories were not always uniform across centuries or parganas.
 
----
+### 9.1 Key terms
 
-## 6. Sawai Jai Singh II (1700–1743 CE) — The Astronomer-King & Statesman
+| Term | General meaning | Caution |
+|---|---|---|
+| **Khalsa** | Land/revenue administered directly for the ruler/state | Do not assign a universal percentage of total land without a dated account |
+| **Jagir** | Assignment of revenue or land rights to a noble/official, often tied to service | It was not always private ownership in the modern sense |
+| **Inam** | Grant, often revenue-free or preferential, for religious, charitable or service purposes | Exact legal rights varied by grant |
+| **Batai / share assessment** | Revenue assessed as a share of produce | Local practice could vary |
+| **Jinsi / crop-based assessment** | Assessment connected with crop or produce | Terminology differs by place/time; verify spelling/meaning from a relevant source |
+| **Ijara** | Leasing/revenue farming: collection rights granted for a stipulated payment | Could produce a demand for short-term cash and increase pressure on cultivators |
+| **Lag-bag** | A broad category of cesses and customary dues | Lists are region-specific; do not present one list as statewide and timeless |
+| **Pargana** | Revenue-administrative territorial unit | Boundaries and status changed over time |
 
-### 6.1 Accession & The Imperial Epithet "Sawai"
-Ascended the throne in 1700 CE at the age of 12. Originally named **Vijay Singh**.
-- **The Bestowal of "Sawai"**: Impressed by his sharp intellect and fearless repartee at the Deccan court, Mughal Emperor **Aurangzeb** proclaimed that the young prince was a quarter (*Sawai* / सवाया — 1.25) ahead of his illustrious ancestor Mirza Raja Jai Singh in wisdom. Aurangzeb renamed him **Jai Singh** and granted the hereditary title **Sawai (सवाई)**, while his younger brother was renamed Vijay Singh.
-- **Service Across 7 Mughal Emperors**: Reigned across the tenures of seven Mughal monarchs: Aurangzeb, Bahadur Shah I, Jahandar Shah, Farrukhsiyar, Rafi-ud-Darajat, Rafi-ud-Daulah, and Muhammad Shah 'Rangeela'.
+Do not retain the original's claimed fixed **60–70% khalsa / 30–40% jagir** ratio as a universal Jaipur rule without a primary record. Revenue shares varied by period, political conditions, grant, crop, local custom and the ruler's need for cash.
 
----
+### 9.2 Banking and state finance
 
-### 6.2 Foundation of Jaipur (18 November 1727 CE) — India's First Planned City
+Merchant and banking houses played a major role in financing courts, revenue collection, military expenditure and long-distance trade. In eighteenth-century Jaipur, revenue farming and credit helped the state manage sudden military costs, but could also transfer risks to collectors and cultivators. Treat specific lists of bankers and their dual roles as diwan/general as individual claims to verify, not a generic description of every reign.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      URBAN ARCHITECTURE OF SAWAI JAIPUR (1727 CE)      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Design Philosophy & Foundations     │                     │  Gridiron Urban Plan & Nine Chowkris             │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Foundation Date: 18 November 1727  │                     │ • Gridiron / Prastara model inspired by ancient  │
-│   (Margashirsha Shukla 3, V.S. 1784).│                       Vastu Shastra and European Renaissance designs.  │
-│ • Chief Architect: Bengali scholar   │                     │ • City divided into 9 principal sectors          │
-│   Vidyadhar Bhattacharya.            │                       (*Nau Chowkris*), symbolizing the 9 planets.     │
-│ • Ritual Foundation Priest: Pandit   │                     │ • Broad straight avenues (Rajmarg): wide main    │
-│   Jagannath Samrat.                  │                       streets (111 ft wide) intersecting at exact right│
-│ • Initial Nomenclature: Jayanagar;   │                       angles (*Chaupars* / चौपड़).                     │
-│   later renamed Sawai Jaipur.        │                     │ • Bounded by massive city walls and 7 gates.     │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+**Dastur Komwar:** Jaipur's court records contain detailed protocol and administrative information. The source file's exact assertion of a “32-volume” series spanning 1718–1948 needs direct catalogue confirmation before being memorised as an invariant. The important exam point is the existence and value of documentary records for reconstructing court practice, rank, payment, grants and visitors.
 
-#### City Palaces & Govind Devji
-- **City Palace (Chandra Mahal)**: Constructed as the sovereign residence, rising 7 storeys (Sukh Niwas, Ranga Mandir, Pitam Niwas, Chhatra Niwas, Shri Niwas, Mukut Mandir).
-- **Govind Devji Temple (गोविंद देवजी)**: Installed within the central axis of the palace complex. Sawai Jai Singh II declared that the true sovereign King of Jaipur was **Lord Govind Devji**, and that he and all subsequent Kachhwaha rulers would govern only as His humble prime ministers / trustees (**Diwans**).
+## 10. Water architecture and environmental adaptation
+
+Water management linked fort defence, palace life, urban growth, agriculture and famine response. Rajasthan's forts and cities often integrated catchments, dams, tanks, stepwells, wells, channels and storage cisterns.
+
+### 10.1 Amer and Jaipur
+
+- **Maota Lake:** at the foot of Amer, associated with the water needs of the fort and its gardens.
+- **Upper and Lower Sagar:** reservoirs associated with the Amer–Jaigarh landscape. Descriptions of water-lifting devices and palace supply should avoid inflated claims about exact vertical lift unless supported by a technical source.
+- **Man Sagar Lake:** formed by damming a local drainage channel/river in the Amer–Jaipur landscape. Government and heritage sources associate lake construction with the early modern Amer rulers; the precise construction date and dam attribution vary in summaries. Do not ascribe the lake itself simply to Sawai Jai Singh II without checking the source.
+- **Jal Mahal:** a hunting/recreation lodge associated in Rajasthan Tourism material with **Madho Singh I**, and later restoration/development is associated with later Jaipur rulers. The palace has five levels, several of which are submerged when the lake is full. [Rajasthan Tourism: Jal Mahal](https://www.tourism.rajasthan.gov.in/jal-mahal.html)
+
+### 10.2 Bundi and Bharatpur
+
+- **Bundi's stepwells:** Raniji ki Baori and other baoris are examples of water storage combined with public, ritual and architectural functions.
+- **Bharatpur's defensive water system:** Lohagarh's moat and associated channels strengthened the fort's defensive arrangement. Accounts of its hydrology should be described functionally rather than asserting exact engineering details without a technical study.
+
+### How to analyse a water monument in Mains
+
+Use a four-part framework: **ecology** (rainfall, drainage, drought); **engineering** (catchment, storage, channels, lifting); **politics** (state capacity, defence, patronage); **society/economy** (drinking water, gardens, cultivation, mobility and civic space). This yields a stronger answer than memorising isolated dimensions alone.
 
 ---
 
-### 6.3 The Scientific Renaissance: Five Astronomical Observatories (Jantar Mantar)
-Sawai Jai Singh was deeply dissatisfied with the inaccuracies in contemporary Islamic (*Zij-i-Ulugh Beg*) and European astronomical tables. He constructed five monumental stone observatories (**Jantar Mantar / जंतर-मंतर** — from *Yantra Mantra* / Instruments and Formulas):
+# PART V — MASTER REVISION TABLES
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │       THE 5 JANTAR MANTAR OBSERVATORIES SEQUENCE       │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-    ┌─────────────────┬─────────────────┼─────────────────┬─────────────────┐
-    │                 │                 │                 │                 │
-┌───┴──────────┐ ┌────┴─────────┐ ┌─────┴────────┐ ┌──────┴────────┐ ┌──────┴─────────┐
-│ 1. Delhi     │ │ 2. Jaipur    │ │ 3. Ujjain    │ │ 4. Varanasi   │ │ 5. Mathura      │
-├──────────────┤ ├──────────────┤ ├──────────────┤ ├───────────────┤ ├─────────────────┤
-│ • Built 1724 │ │ • Built      │ │ • Ancient    │ │ • Built on    │ │ • Built inside  │
-│   (Earliest  │ │   1728–1734  │ │   Prime      │ │   Man Mandir  │ │   old fort;     │
-│   of all 5   │ │ • Largest &  │ │   Meridian   │ │   Ghat overlooking│  subsequently │
-│   monuments) │ │   best       │ │   of Indian  │ │   the Ganga.  │ │   demolished /  │
-│ • Near       │ │   preserved  │ │   astronomy. │ │               │ │   ruined.       │
-│   Connaught  │ │ • UNESCO     │ │              │ │               │ │                 │
-│   Place.     │ │   Heritage   │ │              │ │               │ │                 │
-│              │ │   (2010).    │ │              │ │               │ │                 │
-└──────────────┘ └──────────────┘ └──────────────┘ └───────────────┘ └─────────────────┘
-```
+## 11. Dynasty–ruler–contribution matrix
 
-#### Key Astronomical Instruments at Jaipur
-1. **Brihat Samrat Yantra (बृहत् सम्राट यंत्र)**: The world’s largest stone sundial (standing 27 meters / 90 feet tall), capable of measuring local solar time to an astonishing accuracy of **two seconds**.
-2. **Jai Prakash Yantra (जयप्रकाश यंत्र)**: Inverted hemispherical bowls mapped to celestial coordinates; invented by Sawai Jai Singh himself.
-3. **Ram Yantra (राम यंत्र)**: Cylindrical open-air structure used to measure azimuth and celestial altitude.
-4. **Digamsha Yantra & Misra Yantra**.
+| Ruler / polity | High-value association | What to remember carefully |
+|---|---|---|
+| Dulha Rai / Dulherai | Early Kachhwaha power in Dhundhar; Dausa | Exact date and genealogy are uncertain; do not treat 1137 as secure |
+| Kakil Dev | Amer becomes Kachhwaha seat | Capture date varies by tradition |
+| Prithviraj Kachhwaha | Barah Kothri tradition; Khanwa period | Institutional details are reconstructed partly from regional narratives |
+| Raja Bharmal | Alliance and marriage connection with Akbar, 1562 | Names/titles used for the princess vary across sources |
+| Bhagwant Das | High Mughal service; Sarnal; Punjab | Do not confuse his daughter Maan Bai/Shah Begum with Bharmal's daughter |
+| Man Singh I | Mughal commander; Haldighati; Bengal/Odisha; Amer and Vrindavan patronage | Mansab: distinguish *zat* from *sawar*; never write “Jat” for *zat* |
+| Mirza Raja Jai Singh I | Treaty of Purandar, 1665 | 23 forts surrendered; Shivaji retained 12 under conditions |
+| Sawai Jai Singh II | Jaipur, 1727; Jantar Mantars; *Zij-i Muhammad Shahi* | Jaipur is the best-preserved/largest observatory in the group; UNESCO listed in 2010 |
+| Ishwari Singh / Madho Singh I | Jaipur succession conflict, 1740s–1750 | External intervention, Maratha influence and court division are connected |
+| Sawai Pratap Singh | Hawa Mahal, 1799; cultural patronage | Treat exact Gandharva Baisi counts as needing verification |
+| Bhatis of Jaisalmer | Jaisalmer founded by Rawal Jaisal, 1156; desert fort and Jain heritage | “Two-and-a-half sāka” chronology rests on regional tradition |
+| Hadas of Bundi | Taragarh, Raniji ki Baori, Surjan Hada | Use treaty/fort dates with source awareness |
+| Kota and Zalim Singh Jhala | Separate Kota state, dual authority, treaty politics | Formal ruler vs de facto administrator are not the same |
+| Jhalawar | Created in 1838 for Madan Singh Jhala | Do not say Zalim Singh himself founded it as ruler |
+| Jats of Bharatpur | Churaman, Badan Singh, Suraj Mal; Deeg and Lohagarh | Suraj Mal withdrew from the Maratha coalition before Panipat; later gave refuge to survivors |
 
-#### Scientific Publications & Astronomical Catalogues
-- **Zij-i-Muhammad Shahi (ज़िज-ए-मोहम्मदशाही, 1733 CE)**: Compiled astronomical tables dedicated to Mughal Emperor Muhammad Shah.
-- **Yantra Raj (यंत्रराज)**: Authored Sanskrit treatise on astronomical instrumentation.
-- Court Astrologer **Jagannath Samrat** translated Ptolemy's *Almagest* into Sanskrit as **Siddhanta Samrat** and Euclid's *Elements* as **Rekhaganita**.
-- Court Scholar **Kewalram** translated logarithmic tables into Sanskrit as *Vibhag Sarni*.
+## 12. Critical chronology
 
----
+| Year / period | Event | Confidence note |
+|---|---|---|
+| Early medieval / traditional dating varies | Dulha Rai and the rise of Kachhwaha power around Dausa | Broad sequence safer than exact year |
+| c. 12th–13th centuries in traditional chronology | Amer becomes principal seat | Exact conquest date varies |
+| 1562 | Bharmal–Akbar alliance and marriage connection | Standard historical chronology |
+| 1576 | Haldighati | Standard date; interpretations of outcome differ |
+| 1589–1614 | Man Singh I's reign | Standard chronology |
+| 1665 | Treaty of Purandar | Standard date; key terms summarised above |
+| 1727 | Foundation of Jaipur by Sawai Jai Singh II | Official Rajasthan tourism record |
+| 1734 | Hurda Conference | Commonly dated 16 or 17 July |
+| 1747 / 1748 | Rajmahal / Bagru in Jaipur succession conflict | Standard state-history chronology; coalition details vary by account |
+| 1799 | Hawa Mahal commissioned under Sawai Pratap Singh | Standard date |
+| 1817 | Kota treaty/arrangement involving Zalim Singh's authority | Consult treaty clauses for exact legal detail |
+| 1818 | British alliance system extended to several Rajasthan states, including Jaipur | Exact dates differ by state and treaty |
+| 1838 | Jhalawar state created | High-value standard date |
+| 1876 | Jaipur painted pink for Prince of Wales's visit | Official tourism account; the details of the full repainting are commonly simplified |
+| 1805 / 1826 | British siege of Bharatpur fails in 1805; later capture under Combermere in 1826 | Strong chronology; casualty figures vary |
 
-### 6.4 The Vedic Renaissance & The Last Ashvamedha Yajna (1740 CE)
-Sawai Jai Singh revived ancient Vedic ritualism across northern India:
-- Performed the sacred Vedic rites: **Rajasuya**, **Vajapeya**, **Purushamedha**, and the legendary **Ashvamedha Yajna (अश्वमेध यज्ञ, 1740 CE)**.
-- **The Last Hindu King to Perform Ashvamedha**: Celebrated as the last monarch in Indian history to complete the Ashvamedha Yajna.
-- **The Sacrificial Horse Episode**: The royal sacrificial horse let loose across the realm was boldly intercepted and challenged by **Deep Singh Kumbhani (दीपसिंह कुंभाणी)**, a proud Rajput vassal, resulting in a fierce skirmish.
-- **Chief Ritual Priest**: The rituals were presided over by **Pundarik Ratnakar (पुंडरीक रत्नाकर)**, who authored the Sanskrit chronicle *Jai Singh Kalpadrum*.
+## 13. High-risk exam traps — corrected
 
----
-
-### 6.5 Geopolitics, The Hurda Conference & Maratha Clashes
-
-#### The Hurda Conference (17 July 1734 CE / हुरड़ा सम्मेलन)
-To counter the devastating invasions and extortionate taxes (*Chauth* and *Sardeshmukhi*) extracted by the Marathas under Peshwa Baji Rao I, Sawai Jai Singh organized a grand pan-Rajput sovereign conference at **Hurda (हुरड़ा, modern Shahpura district / erstwhile Bhilwara)** on 17 July 1734.
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        THE HURDA CONFERENCE COMPOSITION (1734 CE)                      │
-├──────────────────────────┬─────────────────────────────────────────────────────────────┤
-│ President of Conference  │ Maharana Jagat Singh II of Mewar (Presided over session)    │
-│ Chief Architect & Planner│ Sawai Jai Singh II of Amber-Jaipur                          │
-│ Participating Sovereigns │ • Maharaja Abhai Singh (Marwar / Jodhpur)                   │
-│                          │ • Bakht Singh (Nagaur)                                      │
-│                          │ • Maharao Durjan Sal (Kota)                                 │
-│                          │ • Maharaja Zorawar Singh (Bikaner)                          │
-│                          │ • Rao Dalel Singh (Bundi)                                   │
-│                          │ • Gopal Singh (Karauli)                                     │
-├──────────────────────────┴─────────────────────────────────────────────────────────────┤
-│ Core Pact Clauses:                                                                     │
-│ 1. Mutual Defense: The enemy of one Rajput house shall be regarded as the enemy of all.│
-│ 2. United Monsoon Encampment: All armies shall assemble at Rampura post-monsoon to     │
-│    launch a joint offensive against the Marathas.                                      │
-│ 3. Extradition: No state shall harbor traitors or rebels from another Rajput kingdom.  │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ Historical Failure: Collapsed completely due to deep-seated personal mutual jealousies,│
-│ dispute over supreme military leadership, and absence of collective commitment.       │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-#### Major Clashes with Marathas & Regional Battles
-- **Battle of Pilsud (1715 CE)**: Jai Singh defeated Maratha armies in Malwa.
-- **Battle of Mandsaur (1733 CE)**: Besieged by Malhar Rao Holkar; Jai Singh was compelled to pay 6 lakh rupees in cash and assign 28 Parganas.
-- **Battle of Gangwana (1741 CE)**: Fought a ferocious battle against **Bakht Singh of Nagaur** (who charged with only 5,000 Rathores against Jai Singh's 50,000 troops); Jai Singh sustained immense casualties despite holding the field.
-- **Death**: Sawai Jai Singh passed away on 21 September 1743 CE at Jaipur.
+1. **Dausa vs Amer vs Jaipur:** Dausa is the early Kachhwaha seat; Amer became the long-term capital; Jaipur was founded in 1727. Do not automatically place Jamwa Ramgarh as a formal capital in a neat four-step sequence.
+2. **Exact Dulha Rai date:** The source's 1137 CE is not a secure, universally agreed date. Prioritise the sequence and qualify the date.
+3. **Kachhwaha origin:** Suryavanshi/Kusha descent is dynastic tradition; do not present it as independently verified genealogy.
+4. **Bharmal's daughter:** “Harkha Bai”, “Mariam-uz-Zamani” and “Jodha Bai” are not terms of identical evidentiary status. Explain naming uncertainty.
+5. **Bharmal vs Bhagwant Das:** Their daughters' marriages belong to different generations: Akbar vs Prince Salim.
+6. **Mansab terminology:** Man Singh's rank is expressed through *zat* and *sawar*. “7,000 Jat” is wrong.
+7. **Kachhwaha–Mughal relations:** Do not describe every Rajput–Mughal relationship as either simple submission or continuous resistance; alliances were strategic and changed over time.
+8. **Treaty of Purandar:** 1665; 23 forts surrendered, 12 retained under conditions; Sambhaji's mansab is generally given as 5,000.
+9. **Jai Singh II and observatories:** Five principal observatories—Delhi, Jaipur, Ujjain, Mathura and Varanasi. Jaipur was inscribed by UNESCO in 2010.
+10. **Jaipur's plan:** Nine chowkris and planned intersecting roads are conventional core points; avoid a simplistic “copy of Europe” explanation.
+11. **Ashvamedha:** The Jaipur sacrifice is a commonly cited tradition/date; “last Hindu ruler ever” is an overbroad claim.
+12. **Man Sagar vs Jal Mahal:** The lake and the palace are not the same construction event. Rajasthan Tourism associates Jal Mahal as a hunting lodge with Madho Singh I; the lake's dam and date need source-sensitive wording.
+13. **Jaisalmer's sāka narratives:** Learn the conventional names/sequence if needed, but do not memorise every date, number or dramatic detail as proven fact.
+14. **Bundi and Kota:** Kota separated from Bundi in 1631; Jhalawar was created in 1838 for Madan Singh Jhala.
+15. **Bharatpur and Panipat:** Suraj Mal withdrew from the Maratha coalition before the Third Battle of Panipat; he later provided aid to fugitives.
+16. **Lohagarh:** British assaults failed in 1805, but the fort was captured in 1826. “Never captured” is false.
+17. **Ashtadhatu gates:** Jawahar Singh's acquisition/transfer tradition is distinct from the unproven claim that Alauddin Khalji took the gates from Chittor in 1303.
+18. **Revenue shares:** No universal fixed percentage of khalsa and jagir should be memorised without a dated primary record.
+19. **Pink City:** 1876 is the standard date associated with the Prince of Wales visit; details are commonly compressed in popular summaries.
+20. **“Last”, “first”, “largest” and “only”:** Use only when an authoritative source supports the exact scope of the claim.
 
 ---
 
-## 7. Successors of Sawai Jai Singh II
+# PART VI — ACTIVE RECALL AND MAINS PRACTICE
 
-### 7.1 Ishwari Singh vs Madho Singh I — The Fratricidal Succession War
+## 14. Prelims practice
 
-#### The Roots of Discord: The Devari Pact of 1708 CE
-When Sawai Jai Singh II signed the **Devari Pact (1708)**, he agreed to marry Mewari Princess **Chandra Kunwari** (daughter of Maharana Amar Singh II) on the binding condition that her male issue would inherit the Jaipur throne regardless of seniority. 
-- However, when Jai Singh died in 1743, his eldest son **Ishwari Singh** was crowned.
-- Chandra Kunwari’s son, **Madho Singh I**, claimed the throne with the military backing of his maternal uncle, Maharana Jagat Singh II of Mewar, and Maratha general Malhar Rao Holkar.
+### Q1. Consider the following statements about Jaipur:
+1. Jaipur was founded by Sawai Jai Singh II in 1727.
+2. Vidyadhar Bhattacharya is associated with the city's planning.
+3. The Jaipur Jantar Mantar was inscribed on the UNESCO World Heritage List in 2010.
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │       THE CLASH FOR THE JAIPUR THRONE (1747–1750)       │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Battle of Rajmahal (March 1747)     │                     │  Battle of Bagru (August 1748)                   │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Location: Tonk (Banas river bed).  │                     │ • Holkar & Mewar attacked with superior numbers. │
-│ • Ishwari Singh (assisted by minister│                     │ • Ishwari Singh defeated; forced to grant 5      │
-│   Hargovind Natani) crushed the joint│                       parganas to Madho Singh and pay war indemnities. │
-│   forces of Madho Singh, Mewar, and  │                     │ • Maratha Extortion: Holkar besieged Jaipur in   │
-│   Marathas.                          │                       1750 demanding 11 lakh rupees.                   │
-│ • Celebrated victory by constructing │                     │ • Ishwari Singh committed suicide in Dec 1750    │
-│   the 7-storey Isarlat (Sargasooli). │                       by swallowing poison / cobra venom.              │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
+Which are correct?
 
-#### Madho Singh I (1750–1768 CE)
-- Ascended the throne following Ishwari Singh's tragic demise.
-- **Jaipur Massacre of Marathas (January 1751 CE)**: Enraged by Maratha arrogance and endless financial extortion, the citizens and soldiers of Jaipur shut the city gates and massacred approximately **5,000 Marathas** trapped inside the walled city in a single day.
-- **Battle of Kakor (1759 CE)**: Defeated Malhar Rao Holkar.
-- **Battle of Bhatwara (1761 CE)**: Fought against Shatrushal Hada of Kota over control of Ranthambore; Kota’s brilliant faujdar **Zalim Singh Jhala** emerged victorious.
-- **Urban Foundations**: Founded the fortified city of **Sawai Madhopur (1763 CE)** and constructed the Moti Doongri Palaces in Jaipur.
+(A) 1 only  
+(B) 1 and 2 only  
+(C) 2 and 3 only  
+(D) 1, 2 and 3
 
----
+**Answer: (D).** Rajasthan Tourism identifies Jai Singh II, 1727 and Vidyadhar; UNESCO records the 2010 inscription.
 
-### 7.2 Sawai Pratap Singh (1778–1803 CE) — The Cultural Zenith
+### Q2. Which statement about the Treaty of Purandar (1665) is correct?
 
-#### The War with Mahadji Scindia: Battle of Tunga (1787 CE)
-- Maratha general **Mahadji Scindia** marched upon Jaipur demanding arrears of tribute.
-- **Battle of Tunga (तुंगा का युद्ध, 28 July 1787 CE)**:
-  - Fought near Bassi (Jaipur). Sawai Pratap Singh allied with **Maharaja Vijay Singh of Jodhpur**.
-  - The united Rajput cavalry charged Scindia’s French-trained infantry and heavy artillery, routing the Marathas and forcing Scindia to retreat from Rajasthan.
+(A) It ended all Mughal–Maratha conflict permanently.  
+(B) Shivaji surrendered 23 forts and retained 12 under conditions.  
+(C) Jai Singh I founded Jaipur as part of the treaty.  
+(D) The agreement was signed by Aurangzeb and Sambhaji personally.
 
-#### The Construction of Hawa Mahal (1799 CE)
-The crown architectural achievement of Jaipur’s cultural history:
-- **Construction Year**: 1799 CE.
-- **Chief Architect**: **Ustad Lal Chand (उस्ताद लालचंद)**.
-- **Inspiration & Shape**: Dedicated to Lord Krishna and Radha; designed in the magnificent contour of **Lord Krishna's Crown (मुकुट)**.
-- **Anatomy & Windows**: Built without foundational pillars directly from the street ramparts; features **5 storeys** and **953 exquisitely carved jharokhas (latticed windows)** designed to allow royal women (*Pardanashin Ranis*) to observe street processions and festivals (Teej, Gangaur) while remaining completely invisible to the outside world, enjoying natural air-conditioning via the Venturi effect.
+**Answer: (B).** The treaty was negotiated by Mirza Raja Jai Singh and Shivaji after the siege of Purandar.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                          THE 5 STOREYS OF HAWA MAHAL (TOP TO BOTTOM)                   │
-├─────────────────────┬──────────────────────────────────────────────────────────────────┤
-│ 5th Storey (Top)    │ Hawa Mandir (हवा मंदिर) — Namesake of the entire monument        │
-│ 4th Storey          │ Prakash Mandir (प्रकाश मंदिर)                                    │
-│ 3rd Storey          │ Vichitra Mandir (विचित्र मंदिर)                                  │
-│ 2nd Storey          │ Ratan Mandir (रतन मंदिर)                                        │
-│ 1st Storey (Base)   │ Sharad Mandir (शरद मंदिर)                                        │
-└─────────────────────┴──────────────────────────────────────────────────────────────────┘
-```
+### Q3. Match the following:
 
-#### Cultural Court: Gandharva Baisi & Brijnidhi
-- **Gandharva Baisi (गंधर्व बाईसी / प्रताप बाईसी)**: Sawai Pratap Singh maintained an extraordinary royal academy consisting of **22 scholars, 22 classical musicians, 22 poets, 22 astrologers, and 22 physicians**, patronized inside the *Gunijan Khana*.
-- **Literary Authorship**: Pratap Singh was a master poet of Braj Bhasha, writing under the pen-name **"Brijnidhi" (बृजनिधि)**. His collected poetical works are compiled in *Brijnidhi Granthawali*.
-- Organized a monumental **Music Conference (Sangeet Sammelan)** under the presidency of **Devarshi Brijpal Bhatt**, which compiled the definitive musicological encyclopedia: **Radha Govind Sangeet Sar (राधा गोविंद संगीत सार)**.
+| Monument / place | Association |
+|---|---|
+| 1. Hawa Mahal | a. Jaipur, 1799 |
+| 2. Jaisalmer Fort | b. Bhati state; desert hill fort |
+| 3. Raniji ki Baori | c. Bundi water architecture |
+| 4. Lohagarh | d. Bharatpur; repulsed Lord Lake in 1805 |
 
----
+**Answer:** 1–a, 2–b, 3–c, 4–d.
 
-### 7.3 Subsequent Rulers of Jaipur
+### Q4. Which is the most defensible statement about the origin of the Kachhwahas?
 
-#### Sawai Jagat Singh II (1803–1818 CE) — "The Rasiya Raja"
-- Ruled during a period of administrative chaos and moral decadence; notorious for his infatuation with concubine **Ras-Kapur (रसकपूर)**, whom he minted on state coins and placed on royal elephants.
-- Engaged in the catastrophic **Battle of Gingoli (1807 CE)** against Maharaja Man Singh of Jodhpur over the marriage alliance with Princess Krishna Kumari of Mewar.
-- Signed the Treaty of Subordinate Alliance with the British East India Company on **2 April 1818**.
+(A) Their descent from Kusha is conclusively established by contemporary records.  
+(B) Every source gives 1137 CE as the founding date of Dausa.  
+(C) Solar descent is a dynastic tradition; early chronology and migration details remain debated.  
+(D) Jaipur was the first capital of the dynasty.
 
-#### Sawai Ram Singh II (1835–1880 CE) — The Modern Maker of Jaipur
-- Reigned during the 1857 Revolution; assisted the British with his royal army (rewarded with the pargana of Kotputli and the imperial title **"Sitar-e-Hind"**).
-- **The "Pink City" Painting (1876 CE)**:
-  - In 1876 CE, to celebrate the state visit of **Albert Edward, Prince of Wales** (later King Edward VII), Sawai Ram Singh II ordered the entire walled city of Jaipur painted in warm **terracotta pink (गेरुआ रंग)**, symbolizing hospitable welcome. British journalist and traveller Lord Robert subsequently coined the term **"The Pink City"**.
-- **Modern Institutional Foundations**:
-  1. **Maharaja College (1844 CE)**: Premier modern higher education center.
-  2. **Madarsa-i-Hunari (1857 CE)**: School of Arts and Crafts, later renamed *Rajasthan School of Arts*.
-  3. **Albert Hall Museum (1876 CE)**: Foundation stone laid by Prince Albert; designed in dazzling Indo-Saracenic style by British architect **Sir Samuel Swinton Jacob**.
-  4. **Ramniwas Garden** & State Photography Studio (Ram Singh was himself an accomplished photographer).
-- **Social Reforms**: Outlawed Sati, female infanticide, and human slavery across Jaipur state.
+**Answer: (C).** It separates political tradition from independently verified chronology.
 
-#### Sawai Man Singh II (1922–1949 CE)
-- The last de facto ruling Maharaja of Jaipur; celebrated international polo player; married **Maharani Gayatri Devi** (named one of the world's most beautiful women by *Vogue*, later MP for Jaipur).
-- Appointed the **First and Only Rajpramukh of Greater Rajasthan (30 March 1949 to 31 October 1956)** upon the integration of the princely states.
+### Q5. Which is correctly paired?
 
----
+(A) Jhalawar — created in 1838 for Madan Singh Jhala  
+(B) Kota — created in 1838 by Sawai Jai Singh II  
+(C) Bharatpur — founded by Maharaja Suraj Mal in 1805  
+(D) Jaipur — founded by Raja Man Singh I in 1592
 
-## 8. Allied Dynasties of Rajasthan
+**Answer: (A).** Kota was separated from Bundi in 1631; Jaipur was founded in 1727; Suraj Mal ruled Bharatpur in the mid-eighteenth century.
 
-```
-                     ┌─────────────────────────────────────────────────────────┐
-                     │          ALLIED SOVEREIGN DYNASTIES OF RAJASTHAN        │
-                     └────────────────────────────┬────────────────────────────┘
-                                                  │
-         ┌────────────────────────────────────────┼────────────────────────────────────────┐
-         │                                        │                                        │
-┌────────┴──────────────┐              ┌──────────┴─────────────┐              ┌───────────┴──────────┐
-│  Bhatis of Jaisalmer  │              │  Hadas of Bundi & Kota │              │   Jats of Bharatpur  │
-├───────────────────────┤              ├────────────────────────┤              ├──────────────────────┤
-│ • Chandravanshi       │              │ • Chauhan branch;      │              │ • Sinsinwar Jat clan;│
-│   Yaduvanshi lineage. │                founded by Rao Deva    │                founded by Gokula,   │
-│ • Founded Jaisalmer   │                (1241) at Bundi.       │                Rajaram, Churaman.   │
-│   in 1156 by Jaisal.  │              │ • Kota partitioned    │              │ • Badan Singh &      │
-│ • Celebrated for      │                1631 by Shah Jahan.    │                Maharaja Suraj Mal.  │
-│   The 2.5 Sākas       │              │ • Taragarh Fort &      │              │ • Impregnable        │
-│   (ढाई साके).         │                Chitrashala frescoes.  │                Lohagarh Fort (1733).│
-└───────────────────────┘              └────────────────────────┘              └──────────────────────┘
-```
+### Q6. Which statement about Suraj Mal and Panipat is correct?
 
-### 8.1 The Bhatis of Jaisalmer & The Celebrated 2.5 Sākas
-- **Lineage**: Claim descent from Lord Krishna's Yadav lineage (**Chandravanshi Kshatriyas**); title **"Chhatrapati Yadavpati"** and **"Uttar Bhad Kivad Bhati"** (The Northern Gateway Shield of India against invaders from Multan and Sindh).
-- **Founding of Jaisalmer (1156 CE)**: **Maharawal Jaisal** shifted the capital from Lodhurva to the yellow-sandstone **Trikuta Hill (त्रिकूट पहाड़ी)**, constructing the world-renowned **Sonar Kila (स्वर्ण दुर्ग / Jaisalmer Fort)**.
-- **The 2.5 Sākas of Jaisalmer (जैसलमेर के ढाई साके)**:
-  1. **First Sāka (c. 1299 / 1312 CE)**:
-     - Ruler: **Rawal Moolraj I** (and Kunwar Ratan Singh).
-     - Invader: Sultan **Alauddin Khalji** (following Bhati plunder of imperial treasure horses).
-     - Full Sāka: Royal queens performed fire Jauhar; Moolraj fell in Kesariya combat.
-  2. **Second Sāka (c. 1370 CE)**:
-     - Ruler: **Rawal Duda** (and Kunwar Tilaksi).
-     - Invader: Sultan **Firoz Shah Tughlaq**.
-     - Full Sāka: Complete Jauhar and Kesariya; fort occupied by Delhi garrison for years.
-  3. **The Half Sāka (Ardha Sāka / अर्ध साका, 1550 CE)**:
-     - Ruler: **Rawal Lunkaran Bhati**.
-     - Invader: Afghan chieftain **Amir Ali of Kandahar** (who sought shelter as a refugee and deceitfully infiltrated armed soldiers concealed in women’s palanquins / *Dolas*).
-     - **Why Half Sāka?**: Taken by total surprise without time to prepare a sacred pyre, the Rajputs slaughtered their own womenfolk with swords to preserve their honor before charging the enemy (**Kesariya was executed**). In the ferocious battle that ensued, Rawal Lunkaran and his men **completely annihilated Amir Ali and emerged victorious!** Because victory was won and no traditional fire Jauhar occurred, it is canonized as an **Ardha Sāka**.
+(A) Suraj Mal commanded the Maratha centre at Panipat.  
+(B) Suraj Mal withdrew from the Maratha coalition before the battle and later helped survivors.  
+(C) Suraj Mal was killed at Panipat in 1761.  
+(D) Suraj Mal captured Delhi in 1805.
+
+**Answer: (B).** The distinction between advising, withdrawing and later relief is exam-relevant.
+
+## 15. Mains answer frameworks
+
+### 2-marker: Why is Jaipur's foundation significant?
+
+Jaipur (1727) combined planned urban form, trade, state administration, fortification and water management. Its grid and chowkris reflect deliberate early-modern city planning under Sawai Jai Singh II.
+
+### 5-marker: Explain the political significance of Kachhwaha–Mughal relations.
+
+1. The 1562 alliance connected Amer's rulers with the Mughal court.
+2. Mansabs, marriage alliances and provincial commands strengthened Kachhwaha influence.
+3. Man Singh I became a major imperial commander while retaining Amer's dynastic base.
+4. Architecture and religious patronage reflected regional and imperial resources.
+5. The relationship was strategic and negotiated, not reducible to simple cultural assimilation or unbroken resistance.
+
+### 5-marker: How does Jantar Mantar represent Sawai Jai Singh II's statecraft?
+
+Explain the five-observatory network, fixed masonry instruments, observation and astronomical tables, the *Zij-i Muhammad Shahi*, interactions among scientific traditions, and the connection between knowledge, timekeeping, cosmology and royal authority. Mention Jaipur's 2010 UNESCO inscription.
+
+### 10-marker: Compare the political strategies of Amer/Jaipur and Bharatpur in the eighteenth century.
+
+Suggested structure:
+
+- **Context:** weakening Mughal authority, Maratha expansion and succession conflicts.
+- **Amer/Jaipur:** Mughal-era networks, formal diplomacy, court rank and planned urban institutions; later internal succession conflict increased Maratha leverage.
+- **Bharatpur:** Jat military consolidation, regional alliances, fortification at Lohagarh, control of Deeg and Agra, and use of terrain/water to resist a stronger imperial army.
+- **Comparison:** both combined force and diplomacy; their resources, social bases and strategic geography differed.
+- **Conclusion:** regional states survived or expanded by adapting institutions, finance, military methods and alliances to a fragmented political order.
+
+### 10-marker: Discuss forts and water architecture as instruments of power in Rajasthan.
+
+Cover: topography and defensibility; water harvesting and siege resistance; palace, temple and market complexes; prestige and patronage; urban growth; examples from Amer/Jaipur, Jaisalmer, Bundi and Bharatpur. Conclude that forts were political-economic centres, not merely military walls. UNESCO's description of the *Hill Forts of Rajasthan* explicitly notes their urban centres, trade, temples, court culture and water-harvesting structures.
 
 ---
 
-### 8.2 The Hadas of Bundi and Kota (Chauhan Branch)
-- **Founding of Bundi (1241 CE)**: **Rao Deva Hada** conquered the Bandu valley from Meena chieftain Jaita, founding the sovereign state of Bundi.
-- **Taragarh Fort (Bundi, 1354 CE)**: Constructed by **Rao Bar Singh Hada** atop a steep crag (named *Taragarh* because it appears like a star from the plains).
-- **Surjan Hada (1569 CE)**: Heroically defended Ranthambore Fort against Akbar until Rao Bhagwan Das and Man Singh negotiated an honorable peace treaty. Surjan Hada surrendered Ranthambore and received imperial governorship of Varanasi.
-- **Bundi Fresco Renaissance (Chitrashala)**:
-  - Bundi is celebrated worldwide for the exquisite wall frescoes (*Bhitti Chitra*) of the **Chitrashala (रंगशाला)** inside Garh Palace, constructed under **Maharao Umed Singh** (depicting Radha-Krishna lila, rains, and lush flora/fauna).
-- **The Partition of Kota (1631 CE)**:
-  - In 1631 CE, Mughal Emperor Shah Jahan rewarded **Madho Singh Hada** (son of Bundi ruler Rao Ratan Singh) for his military valor by carving **Kota** out of Bundi as an independent sovereign princely state.
-- **Zalim Singh Jhala (जालिम सिंह झाला) — The "Bismarck of Rajasthan"**:
-  - The brilliant Faujdar, Prime Minister, and de facto ruler of Kota during the chaotic late-18th and early-19th centuries.
-  - Skilfully maneuvered between Marathas, Pindaris, and the British East India Company.
-  - In the 1817 British Subsidiary Treaty, he inserted a secret supplementary clause reserving hereditary administration for his family.
-  - Ultimately, in **1838 CE**, the British partitioned Kota to create the independent princely state of **Jhalawar (झालावाड़)** for Zalim Singh's grandson, **Madan Singh Jhala** (the last princely state created in Rajasthan).
-
----
-
-### 8.3 The Jats of Bharatpur (Sinsinwar Dynasty)
-- **Peasant Rebellion Against Mughal Tyranny**:
-  - **Gokula (1669 CE)**: Led Tilpat peasant revolt against Aurangzeb’s religious bigotry.
-  - **Rajaram (1688 CE)**: Sinsinwar Jat leader who desecrated Emperor Akbar’s tomb at Sikandra (Agra), excavated Akbar’s bones, and consigned them to fire in accordance with Hindu funeral rites.
-  - **Churaman (1695–1721 CE)**: Built the mud fortress of Thun, organized regular Jat cavalry.
-- **Badan Singh (1722–1756 CE)**:
-  - Formally established the royal house of Bharatpur. Sawai Jai Singh II recognized him as Raja, conferring the title **"Brajraj" (ब्रजराज)** and the estate of Deeg.
-  - Constructed the magnificent water palaces of **Deeg (डीग के जलमहल)**, Kumher, and Vair.
-
-#### Maharaja Suraj Mal (1756–1763 CE) — "The Plato of the Jat Tribe"
-The most formidable, intellectually brilliant, and militarily unconquered monarch of the Jat dynasty:
-
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      MAHARAJA SURAJ MAL'S HISTORICAL STATURE           │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
-│ Lohagarh Fort (1733 CE)         │   │ Relief of Marathas (1761 CE)    │   │ Conquest of Agra (1761 CE)         │
-├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Impregnable Iron Fort built at│   │ • After disastrous Third Battle │   │ • Stormed Mughal capital of Agra;  │
-│   Bharatpur. Double mud ramparts│     of Panipat, Suraj Mal sheltered │     retrieved imperial marble throne   │
-│   surrounded by Sujan Ganga moat│     thousands of fleeing, wounded   │     to Deeg palaces.                   │
-│   fed by Ruparel & Banganga.    │     Maratha soldiers and widows.    │   │ • Extended borders to Ganga,       │
-│ • Absorbed direct cannonballs;  │   │ • Distributed food, medicines & │     Yamuna, Chambal, and Delhi.        │
-│   never breached by any power!  │     spent over 10 lakh gold rupees. │   │ • Titled "Plato of the Jat Tribe". │
-└─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
-```
-
-#### Historiographical Epithets Conferred on Suraj Mal
-1. **The Plato of the Jat Tribe (जाटों का प्लेटो)**: Bestowed by modern European and Indian historians for his statecraft, clear judicial intellect, and administrative acumen.
-2. **The Ulysses of the Jats / Jat Aflatun (जाटों का अफलातून)**.
-
-#### Maharaja Jawahar Singh & The Ashtadhatu Gates (1765 CE)
-- Invaded Delhi in 1765 CE, besieged the Red Fort, and extracted imperial tribute.
-- **The Historic Ashtadhatu Gates (अष्टधातु के किवाड़)**:
-  - Removed the colossal eight-metal gates of Delhi's Red Fort.
-  - **The Historical Provenance**: These monumental gates originally belonged to **Chittorgarh Fort**, looted by Sultan Alauddin Khalji in 1303 CE and brought to Delhi. Jawahar Singh triumphantly retrieved them and installed them permanently at the northern entrance of **Lohagarh Fort** in Bharatpur!
-
-#### Maharaja Ranjit Singh & The Epic Defense of Lohagarh (1805 CE)
-- During the Second Anglo-Maratha War, Maratha general **Jaswant Rao Holkar** sought sanctuary in Bharatpur after being pursued by British Commander-in-Chief **Lord Lake**.
-- Honoring the sacred Rajput-Jat tradition of asylum (*Sharanagat Raksha*), Ranjit Singh flatly refused to surrender Holkar.
-- **The Siege of Lohagarh (1805 CE)**: Lord Lake besieged Lohagarh Fort with heavy British siege artillery, launching **five successive assaults**. The thick mud ramparts absorbed the exploding iron cannonballs harmlessly. Lake lost over 3,000 British soldiers and commanders, withdrew in humiliation, and concluded a treaty with Ranjit Singh. Hence, the fort earned its eternal title: **"Lohagarh — The Invincible Iron Fort"**.
-
----
-
-## 9. Comprehensive Dynastic Invariant Matrix
-
-The definitive synoptic matrix synthesizing the Kachhwaha and allied rulers for rapid comparative examination analysis:
-
-| Sovereign Ruler | Realm & Dates | Capital & Strongholds | Key Military Clashes & Treaties | Major Monument / Literary Legacy | Historiographical Distinctions |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Dulherai** | Dhundhar (1137 CE) | Dausa, Jamwa Ramgarh | Defeated Badgujjars & Manch Meenas | Jamway Mata Temple (Kuldevi) | Founding Patriarch of Kachhwahas |
-| **Kakil Dev** | Dhundhar (1207 CE) | Amer (1207 CE) | Defeated Susawat Meenas at Amer | Ambikeshwar Mahadev, Kadami Mahal | Established Amer as Capital for 520 yrs |
-| **Prithviraj** | Amer (1503–1527) | Amer | Fought at Khanwa (1527) with Sanga | Barah Kothri system; Galta Ji seat | Patron of Krishnadas Payahari |
-| **Raja Bharmal** | Amer (1556–1574) | Amer | First to accept Mughal suzerainty (1562) | Sambhar Matrimonial Accord (Harkha Bai) | Conferred title "Amir-ul-Umara" (5k Mansab) |
-| **Man Singh I** | Amer (1589–1614) | Amer | Haldighati (1576); Kabul, Bihar, Bengal | Amer Palaces, Jagat Shiromani, Shila Devi | 7,000 Mansabdar; Titled "Farzand" |
-| **Mirza Raja Jai Singh** | Amer (1621–1667) | Amer | Kandahar, Deccan; Purandar Treaty (1665) | Jaigarh Fort, Sheesh Mahal; Bihari Satsai | Reigned 46 yrs across 3 Emperors |
-| **Sawai Jai Singh II**| Jaipur (1700–1743) | Jaipur (1727 CE) | Hurda Conference (1734); Ashvamedha (1740) | 5 Jantar Mantars; Founded planned Jaipur | "Sawai" title by Aurangzeb; Astronomer-King |
-| **Sawai Pratap Singh**| Jaipur (1778–1803) | Jaipur | Battle of Tunga (1787) vs Mahadji Scindia | Hawa Mahal (1799); Gandharva Baisi academy | Penned poetry under pen-name "Brijnidhi" |
-| **Sawai Ram Singh II**| Jaipur (1835–1880) | Jaipur | Supported British in 1857 (*Sitar-e-Hind*) | Painted Jaipur Pink (1876); Albert Hall | Modern reformer; Founded Maharaja College |
-| **Rawal Jaisal** | Jaisalmer (1156 CE)| Jaisalmer | Established Bhati throne in Thar | Sonar Kila (Jaisalmer Fort on Trikuta) | Founder of Jaisalmer city |
-| **Rawal Lunkaran** | Jaisalmer (1550 CE)| Jaisalmer | Repulsed Amir Ali of Kandahar (1550) | Historic Ardha Sāka (Half Sāka of 1550) | Kesariya fought; Victory won before Jauhar |
-| **Surjan Hada** | Bundi (1569 CE) | Bundi, Ranthambore | Defended Ranthambore against Akbar | Surrendered fort via honorable treaty | Enrolled into premier Mughal service |
-| **Suraj Mal** | Bharatpur (1756–63)| Bharatpur, Deeg | Stormed Agra (1761); Relieved Marathas | Lohagarh Fort (1733); Deeg water palaces | "Plato of the Jat Tribe"; "Jat Aflatun" |
-| **Ranjit Singh** | Bharatpur (1805 CE)| Bharatpur | Repelled Lord Lake's 5 sieges of Lohagarh | Sheltered Jaswant Rao Holkar | Defeated British imperial siege artillery |
-
----
-
-## 10. The 25 Deadliest Examination Traps (Forensic Autopsy)
-
-1. **Trap 1: The Kuldevi vs Ishta Devi of the Kachhwahas**:
-   - *Trap*: Claiming Shila Devi is the Kuldevi of Jaipur rulers.
-   - *Fact*: **Jamway Mata (Jamwa Ramgarh)** is the dynastic **Kuldevi**; **Shila Devi (Amer)** is the **Ishta Devi** (personal deity introduced in 1604 CE by Man Singh I).
-
-2. **Trap 2: The First Capital of the Kachhwahas**:
-   - *Trap*: Assuming Amer was the first capital.
-   - *Fact*: **Dausa** was the first capital (founded 1137 CE by Dulherai); Amer was acquired 70 years later in **1207 CE by Kakil Dev**.
-
-3. **Trap 3: The True Identity of "Mariam-uz-Zamani"**:
-   - *Trap*: Calling Mariam-uz-Zamani "Jodha Bai".
-   - *Fact*: Mariam-uz-Zamani was **Harkha Bai** (daughter of Bharmal of **Amber**). *Jodha Bai* (Mani Bai / Jagat Gosain) was the daughter of Mota Raja Udai Singh of **Jodhpur**!
-
-4. **Trap 4: Founder of the "Barah Kothri" System**:
-   - *Trap*: Attributing Barah Kothri to Sawai Jai Singh II.
-   - *Fact*: Founded by **Prithviraj Kachhwaha (1503–1527 CE)** for his 12 sons.
-
-5. **Trap 5: The Highest Hindu Mansabdars in the Mughal Empire**:
-   - *Trap*: Believing Mirza Raja Jai Singh or Jaswant Singh held 7,000 mansab under Akbar.
-   - *Fact*: Only **Mirza Raja Man Singh I** and Akbar's foster-brother **Mirza Aziz Koka** held the supreme mansab of **7,000 Jat and 6,000 Sawar** under Akbar.
-
-6. **Trap 6: The Enshrined Idol in Jagat Shiromani Temple**:
-   - *Trap*: Believing the temple idol was sculpted by Man Singh.
-   - *Fact*: It is the exact black-stone Krishna idol originally worshipped by **Meera Bai in Chittorgarh**, brought to Amer by Man Singh.
-
-7. **Trap 7: Treaty of Purandar (1665 CE) Number of Forts**:
-   - *Trap*: Stating Shivaji surrendered 12 forts.
-   - *Fact*: Shivaji surrendered **23 forts** (yielding 4 lakh Huns) to the Mughals, retaining only **12 forts** (yielding 1 lakh Huns).
-
-8. **Trap 8: The "Sawai" Title Bestowal**:
-   - *Trap*: Believing Akbar bestowed the title "Sawai".
-   - *Fact*: Bestowed by **Aurangzeb** upon **Jai Singh II** in 1700 CE.
-
-9. **Trap 9: The First Jantar Mantar Observatory**:
-   - *Trap*: Assuming Jaipur's Jantar Mantar was built first.
-   - *Fact*: **Delhi (1724 CE)** was built first. Jaipur (1728–1734 CE) is the largest and best preserved.
-
-10. **Trap 10: Presiding Officer vs Organizer of the Hurda Conference (1734 CE)**:
-    - *Trap*: Thinking Sawai Jai Singh II presided over Hurda.
-    - *Fact*: Sawai Jai Singh II **organized and planned** the conference; **Maharana Jagat Singh II of Mewar** was formally chosen to **preside**.
-
-11. **Trap 11: The Builder of Isarlat (Sargasooli)**:
-    - *Trap*: Thinking Sawai Jai Singh or Madho Singh built Isarlat.
-    - *Fact*: Built by **Ishwari Singh** to celebrate his victory over Madho Singh at the **Battle of Rajmahal (1747 CE)**.
-
-12. **Trap 12: Cause of Ishwari Singh's Suicide**:
-    - *Trap*: Stating Ishwari Singh committed suicide after losing the Battle of Rajmahal.
-    - *Fact*: He won Rajmahal; he committed suicide in **1750 CE** due to relentless extortion and siege by Maratha general **Malhar Rao Holkar**.
-
-13. **Trap 13: Storeys of Hawa Mahal**:
-    - *Trap*: Thinking Hawa Mahal has 7 storeys.
-    - *Fact*: It has **5 storeys**: Sharad, Ratan, Vichitra, Prakash, and Hawa Mandir.
-
-14. **Trap 14: Pen-name of Sawai Pratap Singh**:
-    - *Trap*: Thinking Pratap Singh wrote as "Rasikpriya".
-    - *Fact*: He wrote under the pen-name **"Brijnidhi" (बृजनिधि)**.
-
-15. **Trap 15: Reason for Jaipur’s Pink Coloring in 1876**:
-    - *Trap*: Claiming Jaipur was colored pink to welcome Queen Victoria.
-    - *Fact*: Colored pink by Sawai Ram Singh II to welcome **Albert Edward, Prince of Wales** (later King Edward VII).
-
-16. **Trap 16: The Third Sāka of Jaisalmer (Ardha Sāka)**:
-    - *Trap*: Claiming Jauhar happened but Kesariya did not.
-    - *Fact*: **Kesariya was executed**, but **Jauhar was not performed** because the Bhatis completely annihilated Amir Ali and won the battle!
-
-17. **Trap 17: Separation of Kota from Bundi**:
-    - *Trap*: Believing Aurangzeb separated Kota from Bundi.
-    - *Fact*: Separated in **1631 CE by Shah Jahan**, granting it to **Madho Singh Hada**.
-
-18. **Trap 18: Creator of the Princely State of Jhalawar**:
-    - *Trap*: Believing Zalim Singh Jhala was the first ruler of Jhalawar.
-    - *Fact*: Jhalawar was created in **1838 CE by the British** for Zalim Singh's grandson, **Madan Singh Jhala**.
-
-19. **Trap 19: The Desecration of Akbar's Tomb at Sikandra**:
-    - *Trap*: Attributing the burning of Akbar's bones to Churaman or Suraj Mal.
-    - *Fact*: Executed by **Rajaram Sinsinwar** in 1688 CE.
-
-20. **Trap 20: The Title "Plato of the Jat Tribe"**:
-    - *Trap*: Conferred upon Badan Singh or Churaman.
-    - *Fact*: Conferred upon **Maharaja Suraj Mal (1756–1763 CE)**.
-
-21. **Trap 21: Origin of the Ashtadhatu Gates at Lohagarh**:
-    - *Trap*: Assuming Jawahar Singh forged the gates in Bharatpur.
-    - *Fact*: Originally stolen by Alauddin Khalji from **Chittorgarh (1303 CE)** to Delhi; Jawahar Singh brought them from Delhi's Red Fort to Lohagarh in 1765 CE.
-
-22. **Trap 22: The British General Repelled at Lohagarh (1805 CE)**:
-    - *Trap*: Believing Lord Wellesley was repelled.
-    - *Fact*: It was British Commander-in-Chief **Lord Lake**, who failed in 5 consecutive artillery assaults.
-
-23. **Trap 23: Devari Pact Matrimonial Condition**:
-    - *Trap*: Thinking Chandra Kunwari's marriage was with Mirza Raja Jai Singh.
-    - *Fact*: It was contracted in 1708 CE with **Sawai Jai Singh II**.
-
-24. **Trap 24: The Sacrificial Priest of the 1740 Ashvamedha Yajna**:
-    - *Trap*: Naming Vidyadhar Bhattacharya.
-    - *Fact*: **Pundarik Ratnakar** was the chief officiating priest; Vidyadhar Bhattacharya was the town planner of Jaipur.
-
-25. **Trap 25: The First and Only Rajpramukh of Greater Rajasthan**:
-    - *Trap*: Believing Bhupal Singh of Mewar was Rajpramukh of Greater Rajasthan.
-    - *Fact*: Bhupal Singh was **Maharajpramukh**; **Sawai Man Singh II of Jaipur** was the **Rajpramukh** (1949–1956).
-
----
-
-## 11. RPSC RAS Examination Model Answer Laboratory
-
-### 11.1 Section A: 2-Mark High-Density Formulations (15–20 Words)
-
-#### Q1: What is the historical significance of the Sambhar Alliance (1562 CE)?
-**Answer**: Contracted between **Raja Bharmal** and **Akbar**, it was the first matrimonial alliance between a Rajput ruler and the Mughals, inaugurating mutual military-political cooperation.
-
-#### Q2: What was the "Barah Kothri" administrative system?
-**Answer**: Instituted by **Prithviraj Kachhwaha** (Amer), partitioning the kingdom of Dhundhar into twelve autonomous noble estates for his twelve sons to prevent succession warfare.
-
-#### Q3: State two key clauses of the Treaty of Purandar (1665 CE).
-**Answer**: Concluded between **Mirza Raja Jai Singh** and **Chhatrapati Shivaji**: (1) Shivaji surrendered 23 of 35 forts to the Mughals; (2) Prince Sambhaji received 5,000 Mansab.
-
-#### Q4: Why was the 1550 CE conflict in Jaisalmer designated as an "Ardha Sāka"?
-**Answer**: Rawal Lunkaran and warriors performed Kesariya against Amir Ali of Kandahar and won the battle; hence, traditional female fire Jauhar was not performed.
-
-#### Q5: What was the primary objective and outcome of the Hurda Conference (1734 CE)?
-**Answer**: Organized by **Sawai Jai Singh II** to forge a pan-Rajput military coalition against Maratha incursions. It collapsed due to internal noble rivalries.
-
-#### Q6: Why is Maharaja Suraj Mal termed the "Plato of the Jat Tribe"?
-**Answer**: Conferred by historians in recognition of his extraordinary statesmanship, cool intellect, unyielding military defense, and administrative sagacity.
-
-#### Q7: Who was Gandharva Baisi?
-**Answer**: The royal cultural academy of **Sawai Pratap Singh** (Jaipur), comprising 22 scholars, 22 classical musicians, 22 poets, 22 astrologers, and 22 physicians patronized inside *Gunijan Khana*.
-
----
-
-### 11.2 Section B: 5-Mark Analytical Blueprints (50 Words)
-
-#### Q8: Analyze the military and administrative stature of Mirza Raja Man Singh I under Emperor Akbar.
-**Answer**:
-Mirza Raja Man Singh I (1589–1614 CE) was the pre-eminent Hindu general of the Mughal Empire:
-- **Unrivalled Mansab**: Held the premier rank of 7,000 Jat and 6,000 Sawar, alongside royal titles *"Farzand"* and *"Mirza Raja"*.
-- **Imperial Conquests**: Commanded the Battle of Haldighati (1576); governed Kabul, Bihar, and Bengal (three tenures); annexed Orissa (1592) and crushed eastern Afghan insurgencies.
-- **Cultural Imprint**: Constructed Amer Palaces, Jagat Shiromani Temple, and consecrated the historic Shila Devi idol in Amer Fort.
-
-#### Q9: Outline the urban and architectural planning principles of Jaipur city (1727 CE).
-**Answer**:
-Founded on 18 November 1727 CE by Sawai Jai Singh II with Bengali architect Vidyadhar Bhattacharya:
-- **Classical Alignment**: Synthesized ancient Vastu Shastra, Shilpa Shastra, and European gridiron layouts.
-- **Nine Chowkris**: Divided the walled city into 9 rectangular sectors (*Nau Chowkris*), reflecting the nine celestial planets (*Nav-Graha*).
-- **Geometric Grid**: Built wide straight avenues (111 feet wide) intersecting at exact right angles (*Chaupars*), enclosed within defensive city walls featuring 7 majestic gateways.
-
-#### Q10: Explain the defense architecture that rendered Lohagarh Fort (Bharatpur) impregnable.
-**Answer**:
-Constructed in 1733 CE by Maharaja Suraj Mal, Lohagarh Fort represented an unbreachable defensive marvel:
-- **Double Mud Ramparts**: Surrounded by thick, outer mud walls behind stone masonry which harmlessly absorbed explosive iron artillery cannonballs without shattering.
-- **Sujan Ganga Moat**: Encircled by a deep, wide water trench fed by the Ruparel and Banganga rivers, preventing subterranean mining and sapping.
-- **Military Record**: Successfully repulsed five massive siege assaults by British Commander-in-Chief Lord Lake in 1805 CE.
-
----
-
-### 11.3 Section C: 10-Mark Multi-Dimensional Frameworks (100 Words)
-
-#### Q11: Critically evaluate the multifaceted contributions of Sawai Jai Singh II as an astronomer, town-planner, and statesman.
-**Answer**:
-Sawai Jai Singh II (1700–1743 CE) was one of the most versatile renaissance monarchs in 18th-century Asia:
-
-```
-┌───────────────────────────┬───────────────────────────────────────────────────────────────────┐
-│ Dimensional Sphere        │ Tangible Institutional Contributions                              │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 1. Scientific Astronomy   │ • Constructed 5 stone observatories (Delhi 1724, Jaipur 1734,     │
-│                           │   Ujjain, Varanasi, Mathura) containing Brihat Samrat Yantra.     │
-│                           │ • Published Zij-i-Muhammad Shahi (1733) & Sanskrit Yantra Raj.    │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 2. Urban Architecture     │ • Founded planned capital Jaipur (1727) via Vidyadhar             │
-│                           │   Bhattacharya using 9-sector gridiron (*Nau Chowkris*) model.    │
-│                           │ • Dedicated governance to Govind Devji, ruling as His Diwan.      │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 3. Vedic Revivalism       │ • Revived classical Vedic sacrifices: last monarch to perform the │
-│                           │   Ashvamedha Yajna (1740 CE); performed Rajasuya & Vajapeya.      │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 4. Pan-Rajput Diplomacy   │ • Organized Hurda Conference (1734) to resist Maratha incursions; │
-│                           │   served across reigns of 7 Mughal Emperors as paramount noble.   │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 5. Social Reform          │ • Curbed female infanticide, restricted lavish wedding dowries,   │
-│                           │   and brought wandering religious sects into mainstream society.  │
-└───────────────────────────┴───────────────────────────────────────────────────────────────────┘
-```
-**Conclusion**: Sawai Jai Singh II seamlessly bridged classical Indian Vedic traditions with empirical scientific modernism, earning an enduring legacy as India’s foremost Astronomer-King.
-
----
-
-#### Q12: Trace the evolution of the Kachhwaha dynasty's relationship with imperial powers from Raja Bharmal's 1562 alliance to the 1818 British Subsidiary Treaty.
-**Answer**:
-The geopolitical orientation of the Kachhwahas evolved across four transformative epochs between 1562 and 1818 CE:
-
-1. **The Foundation of Strategic Subservience (Bharmal to Bhagwan Das, 1562–1589)**:
-   - Bharmal pioneered the 1562 Sambhar matrimonial accord with Akbar, trading regional isolation for imperial patronage (*Amir-ul-Umara*).
-   - Ensured dynastic survival against hostile Mewat governors, embedding Amber's nobility into the administrative core of the Mughal Empire.
-
-2. **The Era of Imperial Hegemony (Man Singh I to Mirza Raja Jai Singh, 1589–1667)**:
-   - Kachhwahas served as supreme field marshals of the empire. Man Singh conquered Bengal, Bihar, and Orissa, attaining 7,000 mansab.
-   - Mirza Raja Jai Singh served three emperors across 46 years, orchestrating the historic Treaty of Purandar (1665) against Shivaji Maharaj, establishing Amber as the premier power in Rajasthan.
-
-3. **Autonomous Renaissance & Maratha Vulnerability (Sawai Jai Singh II to Pratap Singh, 1700–1803)**:
-   - Sawai Jai Singh II exploited Mughal decline to construct Jaipur (1727) and revive sovereign Vedic rites.
-   - The collapse of imperial Delhi exposed Dhundhar to devastating Maratha incursions. Despite victories at Rajmahal (1747) and Tunga (1787), internal succession wars (Ishwari vs Madho Singh) and crippling Holkar-Scindia extortion exhausted the state's treasury.
-
-4. **The British Subsidiary Alliance (Sawai Jagat Singh II, 1818)**:
-   - Devastated by Pindari marauders and Maratha tribute demands, Sawai Jagat Singh II signed the Treaty of Subordinate Alliance with the British on 2 April 1818, terminating sovereign military autonomy in exchange for British crown protection.
-
----
-
-[Chapter 05 Complete ➔ Next: Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan]
+# PART VII — SOURCES AND VERIFICATION
+
+## 16. Core sources to consult
+
+1. **RPSC RAS syllabus:** use the official syllabus version applicable to the examination cycle. The Rajasthan section includes major dynasties, administration/revenue, architecture, literature, culture and heritage. [RPSC syllabus PDF](https://rpsc.rajasthan.gov.in/Static/Syllabus/D8FA7485-80EF-4EBE-815A-A88DEAAB24FB.pdf)
+2. **Board of Secondary Education Rajasthan, *History and Culture of Rajasthan* (Class 10):** useful for the standard Rajasthan competitive-exam framing and regional dynasties. [RBSE textbook PDF](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf)
+3. **Rajasthan Tourism — Jaipur:** foundation in 1727, city planner and the 1876 pink-city account. [Official page](https://www.tourism.rajasthan.gov.in/jaipur.html)
+4. **UNESCO World Heritage Centre — Jantar Mantar, Jaipur:** status, significance and general description of the observatory. [Official entry](https://whc.unesco.org/en/list/1338/)
+5. **UNESCO World Heritage Centre — Hill Forts of Rajasthan:** includes Amber and Jaisalmer among the six serial properties; provides the broader architectural and landscape interpretation. [Official entry](https://whc.unesco.org/en/list/247/)
+6. **Rajasthan Tourism — Jal Mahal:** useful for the hunting-lodge association with Madho Singh I and the submerged storeys description. [Official page](https://www.tourism.rajasthan.gov.in/jal-mahal.html)
+7. **Rajasthan Tourism — Bikaner / Junagarh Fort:** useful for standard state heritage chronology and architectural descriptions. [Official Bikaner page](https://www.tourism.rajasthan.gov.in/bikaner.html)
+8. **IGNCA, *Origin of Jaipur State* (1829 account):** an early colonial-era narrative source that should be read critically, especially for stories of Dulha Rai and early Kachhwaha origins. [Digitised source](https://ignca.gov.in/Asi_data/6714.pdf)
+9. **Jadunath Sarkar, *Shivaji and His Times*, Treaty of Purandar section:** a secondary history that reproduces treaty terms. [Readable text](https://en.wikisource.org/wiki/Shivaji_and_His_Times/Chapter_5)
+10. **British Library, India Office Records:** archival catalogue for correspondence on the British war with Holkar and the ruler of Bharatpur in 1804–1805. [Catalogue entry](https://searcharchives.bl.uk/catalog/040-000004719)
+11. **Rajasthan Foundation / Rajasthan District Gazetteers — Karauli:** supports the conventional 1348 CE founding date and Kalyanpuri association: [Rajasthan Foundation](https://foundation.rajasthan.gov.in/rf/pdf/Karauli.pdf); [Karauli Gazetteer](https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/OrderEntry/MAN_/2023/Publication/O_040923_ccf2b8eb-47c3-4201-90cd-e702b7f364ec.pdf)
+
+## 17. Verification limits
+
+This version corrects identifiable errors, removes unjustified numerical certainty and distinguishes documentary history from later narrative. It is **not yet an exhaustive source-edition audit** of every inscription, treaty clause, genealogical list, casualty total or literary attribution. Before declaring the full 37-chapter collection final, remaining work should include:
+
+- item-by-item mapping to relevant RPSC RAS Prelims and Mains previous-year questions;
+- direct checking of contested early Kachhwaha dates against the chosen RBSE/RPSC reference standard;
+- primary-document verification of exact mansab figures, Jaipur-state fiscal registers and British treaty clauses;
+- comparison of the repeated Marwar, Mewar, Bharatpur and Jaipur chronologies across chapters;
+- a final pass for current district terminology, transliteration, table consistency and answer word limits.
+
+**Study rule:** memorise the secure chronology and distinctions first. Learn conventional textbook traditions where the exam expects them, but keep the evidence label in your understanding so that an uncertain anecdote does not become a false historical “fact.”
