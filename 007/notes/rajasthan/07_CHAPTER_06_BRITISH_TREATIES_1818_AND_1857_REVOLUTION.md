@@ -1,11 +1,26 @@
-# Chapter 06: British Treaties of 1818 & The 1857 Revolution in Rajasthan
+# CHAPTER 06: BRITISH TREATIES OF 1818 & THE 1857 REVOLUTION IN RAJASTHAN
+## RPSC RAS Prelims and Mains | Revised Study Source
+**Revision status:** Substantially rebuilt after an autonomous forensic audit of the original chapter  
+**Historical scope:** From Maratha-Pindari devastation and Lord Wellesley's 1803 early accords to Lord Hastings' 1817–1823 Subordinate Cooperation Treaties, the establishment of the Rajputana Agency (1832), the Six Cantonments, the 1857 uprisings (Naseerabad, Neemuch, Auwa, Kota, Dholpur, Tonk), Tatya Tope's campaigns, the princely collaboration ("Breakwaters in the storm"), and post-1857 colonial reorganization.
 
 ---
 
-## 1. The Geopolitical Crisis & Subordinate Alliance Treaties of 1817–1818
+## How to use this chapter: evidence before memorisation
 
-### 1.1 Pre-Conditions: Maratha Devastation, Pindari Ravages & Fiscal Bankruptcy
-By the twilight of the 18th century and the opening decades of the 19th century, Rajasthan was plunged into near-total administrative paralysis, agricultural ruin, and military anarchy:
+To avoid common examination conflations between documentary administrative history and later patriotic folklore, this chapter categorises information into four distinct epistemic tiers:
+
+- **[Secure Core]:** Dates, official treaties (C.U. Aitchison's *Treaties, Engagements and Sanads*), British administrative dispatches (Foreign and Political Department records, Major Taylor Commission Report), military engagements corroborated by multiple contemporary British and Indian sources, and official state gazetteers.
+- **[Textbook Convention]:** Standard facts and dates regularly tested in Rajasthan state competitive examinations (e.g., 28 May Naseerabad, 3 June Neemuch, 21 August Erinpura, 15 October Kota, gun salute alterations).
+- **[Tradition / Local Narrative]:** Regional bardic memories, oral patriotic verses (Dingal songs of Auwa), sacred folk traditions (iconography and worship of Sugali Mata), and literary accounts of local resistance (such as Mohammad Mujeeb's chronicle of women fighters in Tonk).
+- **[Historiographical Debate / Analytical Nuance]:** Contested interpretations regarding the nature of the 1857 uprising in Rajasthan (pure sepoy mutiny vs. feudal aristocratic reaction vs. popular civil revolution), the motivations of rebel jagirdars, and the extent of rural peasant mobilization.
+
+---
+
+# PART I — THE CRISIS OF SOVEREIGNTY & THE SUBSIDIARY TREATIES (1803–1823)
+
+## 1. Pre-Conditions: Maratha Devastation, Pindari Ravages & Fiscal Ruin
+
+By the late eighteenth and early nineteenth centuries, the traditional polities of Rajasthan were engulfed in structural paralysis, agrarian collapse, and perpetual fiscal exhaustion:
 
 ```
                     ┌────────────────────────────────────────────────────────┐
@@ -17,115 +32,142 @@ By the twilight of the 18th century and the opening decades of the 19th century,
 ┌────────┴────────────────────────┐   ┌─────────┴───────────────────────┐   ┌──────────┴─────────────────────────┐
 │ Maratha Predatory Tribute       │   │ Pindari Plunder & Mercenarism   │   │ Internal Feudal Disintegration     │
 ├─────────────────────────────────┤   ├─────────────────────────────────┤   ├────────────────────────────────────┤
-│ • Holkars and Scindias extracted│   │ • Uncontrolled mercenary bands  │   │ • Succession wars (Jaipur: Ishwari │
-│   crushing Chauth & Sardeshmukhi│     under Amir Khan Pindari & Karim │     vs Madho Singh; Jodhpur: Man vs    │
-│   by armed invasion.            │     Khan scorched agricultural      │     Bhim Singh; Krishna Kumari tragedy)│
-│ • State treasuries exhausted by │     fields, ransacking towns and    │   │ • Defiant feudal Thakurs (Samants) │
-│   perpetual war indemnities.    │     temples across Rajputana.       │     usurped royal fiscal authority.    │
+│ • Scindias and Holkars levied   │   │ • Mercenary cavalry under Amir  │   │ • Civil wars: Jaipur (Ishwari vs   │
+│   crushing Chauth & Sardeshmukhi│     Khan Pindari and Karim Khan     │     Madho Singh); Marwar (Man Singh    │
+│   through punitive invasions.   │     ravaged towns, fields, and      │     vs Bhim Singh / Dhonkal Singh).    │
+│ • State debts mounted into vast │     temples across central and      │   │ • Krishna Kumari dispute (1807).   │
+│   unpayable indemnities.        │     eastern Rajasthan.              │   │ • Defiant thakurs usurped taxes.   │
 └─────────────────────────────────┘   └─────────────────────────────────┘   └────────────────────────────────────┘
 ```
 
-#### The Diplomatic Architecture: Lord Hastings & Charles Metcalfe
-- **Imperial Architect**: The British Governor-General, **The Marquess of Hastings (Lord Hastings, 1813–1823)**, reversed the non-intervention (*Laissez-faire*) policy of Lord Barlow and Sir George Barlow, inaugurating the doctrine of **Subordinate Cooperation (अधीनस्थ पृथक्करण की नीति)**.
-- **Principal Diplomatic Negotiator**: **Sir Charles Metcalfe (चार्ल्स मेटकॉफ)**, the British Resident at Delhi, was entrusted with the diplomatic portfolio to negotiate, draft, and finalize subsidiary treaties with the Rajput states. He was assisted by **Captain James Tod** (Mewar, Kota, Bundi) and **John Malcolm** (Malwa and southern Rajputana).
+1. **Maratha Financial Drain [Secure Core]:** The Holkars of Indore and Scindias of Gwalior turned Rajasthan into a regular extortion ground for *Chauth* (one-fourth of land revenue) and *Sardeshmukhi* (ten percent surcharge). Successive battles (Tunga 1787, Patan 1790, Malpura 1800) left Rajput state treasuries bankrupt.
+2. **The Pindari Scourge [Secure Core]:** Disbanded military elements organized into ruthless predatory bands known as the Pindaris. Under commanders such as **Amir Khan Pindari** and Karim Khan, these forces plundered Dhundhar, Mewar, and Hadoti, extorting ransoms from rulers and commercial cities.
+3. **Internal Dynastic Feuds [Secure Core]:** Succession conflicts weakened state authority. The tragic suicide of Mewar princess **Krishna Kumari** in 1810—poisoned to resolve a destructive military confrontation between Maharaja Jagat Singh II of Jaipur and Maharaja Man Singh of Marwar—exemplified the total breakdown of order.
 
 ---
 
-### 1.2 Core Treaty Provisions & Institutional Framework
-The standard bilateral treaties signed between the British East India Company and the Rajput princely houses contained uniform institutional covenants:
-1. **Surrender of External Sovereignty**: Princely states surrendered the right to maintain independent foreign relations, wage war, or enter into diplomatic correspondence with any other Indian or foreign power.
-2. **British Protection & Garrisoning**: The East India Company guaranteed territorial integrity and military defense against external aggression and internal rebellions.
-3. **The Tribute (*Khiraj* / खिराज)**: Princely states agreed to pay an annual tribute (*Khiraj*) to the British, calculated initially as the tribute previously extracted by the Marathas.
-   - **Exemption Exceptions**: **Jaisalmer, Bikaner, and Alwar** paid **zero Khiraj** because they had never been subjugated to Maratha tribute demands.
-4. **Non-Interference Clause (Article 3/9)**: The Company pledged not to interfere in the internal civil administration of the princely states (a clause routinely violated through appointed Political Agents).
-5. **Appointment of Political Agents**: A British Political Agent (PA) was stationed at key royal courts to oversee British interests and monitor state finances.
+## 2. Diplomatic Architecture: Wellesley (1803) vs. Hastings (1817–1823)
+
+A fundamental distinction must be maintained between the early military pacts of 1803 and the comprehensive subordinate alliance treaties of 1817–1823:
+
+| Strategic Dimension | Lord Wellesley's Treaties (1803) | Lord Hastings' Subordinate Cooperation Treaties (1817–1823) |
+| :--- | :--- | :--- |
+| **Imperial Doctrine** | **Defensive/Offensive Subsidiary Alliance** (*Ring Fence System*). Designed to recruit Rajput buffer states against Daulat Rao Scindia and Jaswant Rao Holkar during the Second Anglo-Maratha War. | **Subordinate Cooperation** (अधीनस्थ पृथक्करण की नीति / *Policy of Subordinate Isolation*). Designed to eliminate Pindari gangs, subjugate Maratha power, and bring all princely states under formal British paramountcy. |
+| **Participating States** | Limited to northern and eastern frontier states: **Bharatpur (29 September 1803)** was the first in Rajasthan to sign, followed by **Alwar (November 1803)**. (Treaties with Jaipur and Jodhpur were negotiated but subsequently repudiated by British authorities under Lord Cornwallis and Sir George Barlow). | Universal across all 17 princely states of Rajputana, commencing with **Karauli (9 November 1817)** and concluding with **Sirohi (11 September 1823)**. |
+| **Sovereignty Impact** | Mutual defensive assistance; states retained external diplomatic maneuverability and paid no regular imperial tribute. | **Complete surrender of external sovereignty**. States were barred from making war, peace, or treaties with any other power; internal disputes were subject to British arbitration. |
+| **Chief Negotiator** | General Gerard Lake (Lord Lake). | **Sir Charles Metcalfe** (British Resident at Delhi), assisted by **Captain James Tod** (Mewar, Hadoti) and **Sir John Malcolm** (Malwa/Southern Rajputana). |
 
 ---
 
-### 1.3 Chronological Sequence of Treaties (1817–1823 CE)
+## 3. Core Treaty Covenants & The 1817–1823 Chronological Sequence
+
+### Standard Bilateral Treaty Articles [Secure Core]
+1. **Surrender of External Sovereignty:** The princely state surrendered all rights to maintain independent foreign relations, wage war, or negotiate with any other Indian or foreign power.
+2. **British Protection & Garrisoning:** The East India Company guaranteed territorial protection against external aggression and armed domestic insurrections.
+3. **The Tribute (*Khiraj* / खिराज):** Princely states agreed to pay an annual tribute (*Khiraj*) to the British, generally pegged to the tribute formerly extracted by the Marathas.
+   - **Tribute Exemption [Secure Core]:** **Jaisalmer, Bikaner, and Alwar** paid **zero Khiraj** because they had never been subjected to regular Maratha tribute.
+4. **Internal Non-Interference (Nominal Clause):** The Company formally pledged not to interfere in internal civil administration—a covenant continuously violated in practice by appointed British Political Agents.
+5. **Stationing of Political Agents:** Princely courts accepted the residence of a British Political Agent to represent imperial interests and monitor state finances.
+
+### Master Chronological Sequence of 1817–1823 Treaties
 
 ```
-                    ┌────────────────────────────────────────────────────────┐
-                    │      CHRONOLOGICAL SEQUENCE OF 1817–1823 TREATIES      │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-    ┌─────────────────┬─────────────────┼─────────────────┬─────────────────┐
-    │                 │                 │                 │                 │
-┌───┴──────────┐ ┌────┴─────────┐ ┌─────┴────────┐ ┌──────┴────────┐ ┌──────┴─────────┐
-│ 1. Karauli   │ │ 2. Kota      │ │ 3. Jodhpur   │ │ 4. Udaipur    │ │ 17. Sirohi      │
-├──────────────┤ ├──────────────┤ ├──────────────┤ ├───────────────┤ ├─────────────────┤
-│ • 9 Nov 1817 │ │ • 26 Dec 1817│ │ • 6 Jan 1818 │ │ • 13 Jan 1818 │ │ • 11 Sept 1823  │
-│ • First state│ │ • Maharao    │ │ • Maharaja   │ │ • Maharana    │ │ • Last state to │
-│   under Lord │     Ummed Singh│     Man Singh  │     Bhim Singh  │     sign in Raj.  │
-│   Hastings.  │ │ • Secret     │ │ • Concluded  │ │ • Brokered by │ │ • Delayed due to│
-│ • Maharaja   │     clause for │     via Chatr  │     Col. James  │     Jodhpur's     │
-│   Harbaksh   │     Zalim Singh│     Singh.     │     Tod.        │     false claim of│
-│   Pal.       │     Jhala.     │ │              │ │               │     dependency.   │
-└──────────────┘ └──────────────┘ └──────────────┘ └───────────────┘ └─────────────────┘
+1817: [9 Nov: Karauli (First)] ➔ [15 Nov: Tonk (Amir Khan)] ➔ [26 Dec: Kota (Ummed Singh)]
+                                      │
+1818: [6 Jan: Jodhpur] ➔ [13 Jan: Udaipur] ➔ [10 Feb: Bundi] ➔ [9 Mar: Bikaner] ➔ [26 Mar: Kishangarh]
+      ➔ [2 Apr: Jaipur] ➔ [5 Oct: Pratapgarh] ➔ [11 Dec: Dungarpur] ➔ [12 Dec: Jaisalmer] ➔ [25 Dec: Banswara]
+                                      │
+1823: [11 Sept: Sirohi (17th & Final State to Sign Subordinate Alliance)]
 ```
 
-#### Complete Treaty Chronology Table
-*(Note: Bharatpur and Alwar signed preliminary treaties in 1803 under Lord Wellesley; the formal 1817–1823 Subordinate Alliance sequence under Lord Hastings began with Karauli).*
-
-| Chronological Order | Princely State | Treaty Date | Reigning Sovereign | British Diplomatic Representative | Tribute (*Khiraj*) Status |
+| Order | Princely State | Treaty Date | Reigning Monarch | Key British Diplomat | Tribute (*Khiraj*) Terms |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| **01** | **Karauli** | 9 November 1817 | Maharaja Harbaksh Pal | Charles Metcalfe | Exempted from Khiraj |
-| **02** | **Kota** | 26 December 1817 | Maharao Ummed Singh I | Charles Metcalfe | Paid Khiraj; Secret clause for Zalim Singh |
-| **03** | **Jodhpur (Marwar)** | 6 January 1818 | Maharaja Man Singh | Charles Metcalfe | Paid Khiraj (Rs 1.08 Lakh) |
-| **04** | **Udaipur (Mewar)** | 13 January 1818 | Maharana Bhim Singh | Charles Metcalfe / Col. Tod | Paid Khiraj (1/4th of revenue initially) |
-| **05** | **Bundi** | 10 February 1818 | Maharao Bishen Singh | Charles Metcalfe / Col. Tod | Paid Khiraj |
-| **06** | **Bikaner** | 9 March 1818 | Maharaja Surat Singh | Charles Metcalfe | **Zero Khiraj** (No Maratha tribute history) |
-| **07** | **Kishangarh** | 26 March 1818 | Maharaja Kalyan Singh | Charles Metcalfe | Exempted from Khiraj |
-| **08** | **Jaipur** | 2 April 1818 | Sawai Jagat Singh II | Charles Metcalfe | Paid heavy Khiraj (escalating scale) |
-| **09** | **Pratapgarh** | 5 October 1818 | Maharawat Samant Singh | John Malcolm | Paid Khiraj |
-| **10** | **Dungarpur** | 11 December 1818| Maharawal Jaswant Singh II| John Malcolm | Paid Khiraj |
-| **11** | **Jaisalmer** | 12 December 1818| Maharawal Moolraj II | Charles Metcalfe | **Zero Khiraj** (Protective alliance only) |
-| **12** | **Banswara** | 25 December 1818| Maharawal Umed Singh | John Malcolm | Paid Khiraj |
+| **01** | **Karauli** | **9 November 1817** | Maharaja Harbaksh Pal | Charles Metcalfe | **Zero Khiraj**; First state to sign under Hastings |
+| **02** | **Tonk** | 15 November 1817 | Nawab Amir Khan Pindari | British Government | Recognized as an independent Muslim principality |
+| **03** | **Kota** | 26 December 1817 | Maharao Ummed Singh I | Charles Metcalfe | Paid Khiraj; Secret clause for Zalim Singh Jhala |
+| **04** | **Jodhpur (Marwar)** | 6 January 1818 | Maharaja Man Singh | Charles Metcalfe | Paid Khiraj (Rs 1.08 Lakh); sent Chatr Singh |
+| **05** | **Udaipur (Mewar)** | 13 January 1818 | Maharana Bhim Singh | Charles Metcalfe / Col. Tod | Paid Khiraj (1/4th of state revenue initially) |
+| **06** | **Bundi** | 10 February 1818 | Maharao Bishen Singh | Charles Metcalfe / Col. Tod | Paid Khiraj; freed from Holkar demands |
+| **07** | **Bikaner** | 9 March 1818 | Maharaja Surat Singh | Charles Metcalfe | **Zero Khiraj** (No Maratha tribute liability) |
+| **08** | **Kishangarh** | 26 March 1818 | Maharaja Kalyan Singh | Charles Metcalfe | Exempted from Khiraj |
+| **09** | **Jaipur** | 2 April 1818 | Sawai Jagat Singh II | Charles Metcalfe | Paid heavy progressive Khiraj (Rs 4 to 8 Lakhs) |
+| **10** | **Pratapgarh** | 5 October 1818 | Maharawat Samant Singh | John Malcolm | Paid Khiraj |
+| **11** | **Dungarpur** | 11 December 1818 | Maharawal Jaswant Singh II | John Malcolm | Paid Khiraj |
+| **12** | **Jaisalmer** | 12 December 1818 | Maharawal Moolraj II | Charles Metcalfe | **Zero Khiraj** (Pure protective alliance) |
+| **13** | **Banswara** | 25 December 1818 | Maharawal Umed Singh | John Malcolm | Paid Khiraj |
 | **17** | **Sirohi** | **11 September 1823**| Rao Shiv Singh | Captain Tod / Alexander | Paid Khiraj; **Last princely state to sign** |
 
-#### Crucial Examination Invariants Regarding the Treaties
-1. **The Supplementary Treaty of Kota (February 1818)**: Metcalfe added a secret supplementary clause declaring that while Ummed Singh's progeny would inherit the throne (*Rajya*), the executive administrative authority (*Diwani / Faujdari*) would remain hereditary to **Faujdar Zalim Singh Jhala** and his descendants, leading directly to future civil war (Battle of Mangrol 1821) and the ultimate creation of **Jhalawar State (1838 CE)**.
-2. **The Sirohi Delay (1823 CE)**: Sirohi was the final state to sign in 1823 because Maharaja Man Singh of Jodhpur falsely claimed that Sirohi was an internal feudal dependency (*Pargana*) of Marwar. British investigations under Col. Tod disproved this claim, granting Sirohi sovereign treaty status on 11 September 1823.
-3. **Creation of Tonk Princely State (November 1817)**: The British detached Tonk from Indore (Holkar) and established it as an independent Muslim princely state under **Nawab Amir Khan Pindari** in November 1817 to neutralize the Pindari threat.
+*(Note: States with earlier 1803/1805 treaties—Alwar, Bharatpur, Dholpur—had their alliances reaffirmed and integrated into the imperial paramountcy system).*
+
+### Crucial Historical Invariants Regarding the Treaties
+1. **The Supplementary Treaty of Kota (February 1818) [Secure Core]:** Charles Metcalfe added a secret supplementary article stipulating that while royal title would descend through Maharao Ummed Singh's progeny, the actual executive administration (*Faujdari / Diwani*) would remain hereditary to **Faujdar Zalim Singh Jhala** and his heirs. This institutional anomaly provoked civil conflict (Battle of Mangrol 1821) and culminated in the British partitioning of Kota to create **Jhalawar State in 1838 CE**.
+2. **The Sirohi Delay (1818–1823) [Secure Core]:** Sirohi was delayed by five years because Maharaja Man Singh of Jodhpur falsely claimed that Sirohi was a subordinate fiefdom (*Pargana*) of Marwar. British inquiries led by Col. James Tod dismissed Marwar's claim, recognizing Sirohi as an independent sovereign principality on **11 September 1823**.
+3. **Creation of Tonk (1817) [Secure Core]:** To pacify the Pindaris, the British detached territories from Holkar's domain and granted them to **Amir Khan Pindari** on 15 November 1817, creating Rajasthan's only Muslim-ruled princely state.
 
 ---
 
-### 1.4 The Administrative Apparatus: Rajputana Agency & Political Agents
-- **Establishment of Rajputana Agency (1832 CE)**: Established at **Ajmer** in 1832 under the Governor-Generalship of Lord William Bentinck.
-- **First Agent to the Governor-General (AGG)**: **Major Abraham Lockett** (appointed 1832).
-- **Seasonal Headquarters Shift (1845 CE)**: In 1845, the AGG's summer headquarters were shifted to **Mount Abu (Sirohi)** due to its temperate climate.
-- **Administrative Hierarchy during 1857**:
-  - Governor-General of India (Calcutta): **Lord Canning**.
-  - Agent to the Governor-General for Rajputana (Mount Abu / Ajmer): **George Patrick Lawrence (जॉर्ज पैट्रिक लॉरेंस)**.
-  - Subordinate **Political Agents (PAs)** stationed at princely capitals:
+## 4. The Colonial Administrative Grid: Rajputana Agency & Regimental Disarmament
+
+### The Administrative Hierarchy
+- **Establishment of the Rajputana Agency (1832 CE) [Secure Core]:** Established at **Ajmer** in 1832 under Governor-General **Lord William Bentinck**.
+- **First Agent to the Governor-General (AGG):** **Major Abraham Lockett** (appointed 1832).
+- **Headquarters Shift to Mount Abu (1845 CE) [Secure Core]:** In 1845, the summer capital of the Agency was transferred to **Mount Abu** (Sirohi state) due to its temperate climate.
+- **Administrative Chain of Command during 1857:**
+  - **Governor-General of India (Calcutta):** Lord Canning.
+  - **Agent to the Governor-General for Rajputana (Mount Abu / Ajmer):** **Colonel George Patrick Lawrence**.
+  - **Subordinate Political Agents (PAs):**
 
 ```
 ┌──────────────────────────────┬────────────────────────────────────────────────────────┐
-│ Princely State / Agency      │ British Political Agent (PA) during 1857 Outbreak      │
+│ Princely State / Agency      │ British Political Agent (PA) in May 1857               │
 ├──────────────────────────────┼────────────────────────────────────────────────────────┤
 │ Mewar (Udaipur)              │ Major C.L. Showers (मेजर शॉवर्स)                       │
-│ Marwar (Jodhpur)             │ Mock Mason (मॉक मेसन — Severed head hung on Auwa Gate) │
-│ Jaipur                       │ Major William Eden (मेजर ईडन)                          │
-│ Kota                         │ Major Charles Burton (मेजर बर्टन — Beheaded in Kota)   │
-│ Bharatpur                    │ Major Morrison (मेजर मॉरिसन — Fled to Agra)            │
-│ Sirohi                       │ J.D. Hall (जे.डी. हॉल)                                 │
+│ Marwar (Jodhpur)             │ Captain George Monck-Mason (कैप्टन जॉर्ज मॉन्क मेसन)   │
+│ Jaipur                       │ Major William Eden (मेजर विलियम ईडन)                    │
+│ Kota                         │ Major Charles Burton (मेजर चार्ल्स बर्टन)              │
+│ Bharatpur                    │ Major Morrison (मेजर मॉरिसन)                           │
+│ Sirohi                       │ Captain J.D. Hall (कैप्टन जे.डी. हॉल)                  │
 └──────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
----
-
-## 2. The 1857 Revolution: Structural Causes & Military Deployment
-
-### 2.1 Causes of Discontent in Rajasthan
-1. **Economic Exploitation**: Crippling *Khiraj* payments drained state treasuries, forcing princes to levy heavy cess (*Lāg-Bāg*) and land revenue (*Bhog*) upon peasants and Jagirdars.
-2. **Erosion of Feudal Privileges**: British interference disrupted the centuries-old relationship between Rajput rulers and their hereditary Jagirdars (*Samants*), disenfranchising the nobility.
-3. **Interference in Religious & Social Customs**: Abolition of Sati, banning of Samadhi and female infanticide, combined with fears of religious conversion fueled by rumors of bone-dust mixed in flour and greased cartridges (*Enfield Rifle*).
-4. **Disbandment of Native Armies**: The British disbanded traditional state armies, establishing British-officered local corps (e.g., Mewar Bhil Corps, Jodhpur Legion, Shekhawati Brigade) financed directly from state treasuries.
+### Regimental Disarmament & Local Imperial Corps [Secure Core]
+The British systematically disbanded the traditional feudal armies of the Rajput princes and replaced them with British-officered local corps maintained *at the financial expense of the princely treasuries*:
+1. **Merwara Battalion (1822 CE):** Headquartered at Beawar; recruited from local Mers to pacify the hill tract.
+2. **Shekhawati Brigade (1835 CE):** Established under Major Henry Forster to suppress anti-British banditry and tax resistance in Shekhawati.
+3. **Jodhpur Legion (1835 CE):** Headquartered at Erinpura; financed by Marwar state; revolted in 1857.
+4. **Kota Contingent (1838 CE):** Formed from Kota state funds; revolted in 1857.
+5. **Mewar Bhil Corps (MBC, 1841 CE):** Headquartered at Kherwara; established to police the tribal tracts of southern Mewar; remained passive in 1857.
 
 ---
 
-### 2.2 The Six British Military Cantonments in Rajasthan
-During May 1857, approximately 5,000 native Indian soldiers served in British regiments across Rajasthan, supervised by around 30 British officers. **Not a single British European soldier or regiment was stationed in Rajasthan** (the nearest European troops were in Agra and Deesa, Gujarat).
+# PART II — STRUCTURAL CAUSES & MILITARY DEPLOYMENT IN 1857
+
+## 5. Structural Origins of the 1857 Uprising in Rajasthan
+
+The rebellion of 1857 in Rajasthan was not an isolated mutiny, but the violent explosion of deep structural grievances accumulated over four decades of British paramountcy:
+
+```
+                  [STRUCTURAL ROOTS OF THE 1857 RESISTANCE IN RAJASTHAN]
+                                            │
+    ┌───────────────────────────────────────┼───────────────────────────────────────┐
+    │                                       │                                       │
+[FISCAL & TRADE EXPLOITATION]       [FEUDAL DISENFRANCHISEMENT]             [MILITARY & RELIGIOUS ALARMS]
+ ├ Crushing Khiraj tribute drains    ├ Pre-1818: Rulers were 'primus inter  ├ Disbanding of indigenous armies.
+   state treasuries.                   pares' among clan Jagirdars.         ├ Cartridge rumors & bone-dust panic.
+ ├ Princes levy heavy Lag-Bag cesses ├ Post-1818: British protection      ├ Exclusion of European regiments:
+   on peasants & feudals.              freed princes to crush nobles.         5,000 native sepoys vs 30 British
+ └ Salt & Opium trade monopolies.    └ Thakurs lost hereditary powers.        officers created local opportunity.
+```
+
+1. **Agrarian & Fiscal Drain [Secure Core]:** To pay annual *Khiraj* instalments, rulers imposed punitive levies (*Lāg-Bāg*) and excessive land revenue (*Bhog*) upon cultivators and Jagirdars. British monopolies over **Sambhar Lake salt** and **Malwa opium** disrupted regional trade networks, bankrupting indigenous merchants.
+2. **Subversion of the Feudal Contract [Secure Core]:** Before 1818, Rajput kings were *primus inter pares* (first among equals), constrained by the council and military power of their clan nobles (*Bhai-Bandh / Samants*). The 1818 treaties gave monarchs British military protection against domestic rebellion, allowing rulers to disregard feudal rights, confiscate estates, and impose arbitrary cash levies. This alienation drove prominent Jagirdars—such as **Thakur Kushal Singh of Auwa**, Bishan Singh of Gular, and Shivanath Singh of Asop—into active armed rebellion.
+3. **Absence of British European Regiments [Secure Core]:** In May 1857, approximately 5,000 Indian sepoys were stationed across Rajasthan under roughly 30 British officers. **Not a single British European soldier or regiment was stationed within the borders of Rajasthan**; the closest European troops were at Agra and Deesa (Gujarat).
+
+---
+
+## 6. The Six British Military Cantonments
+
+At the time of the Meerut outbreak (10 May 1857), British military authority in Rajasthan rested upon six cantonments:
 
 ```
                     ┌────────────────────────────────────────────────────────┐
@@ -136,70 +178,67 @@ During May 1857, approximately 5,000 native Indian soldiers served in British re
     │                 │                 │                 │                 │
 ┌───┴──────────┐ ┌────┴─────────┐ ┌─────┴────────┐ ┌──────┴────────┐ ┌──────┴─────────┐
 │ 1. Naseerabad│ │ 2. Neemuch   │ │ 3. Erinpura  │ │ 4. Deoli      │ │ 5. Beawar &     │
-│    (Ajmer)   │ │    (Border)  │ │    (Sirohi)  │ │    (Tonk)     │ │    Kherwara     │
+│    (Ajmer)   │ │    (Border)  │ │    (Pali)    │ │    (Tonk)     │ │    Kherwara     │
 ├──────────────┤ ├──────────────┤ ├──────────────┤ ├───────────────┤ ├─────────────────┤
 │ • 15th & 30th│ │ • 1st Cavalry│ │ • Jodhpur    │ │ • Mahidpur    │ │ • Beawar: Mer   │
 │   Bengal N.I.│ │   & Artillery│     Legion     │     Regiment &  │     Battalion     │
-│ • Bombay     │ • Rebolled     │ • Rebolled     │     Kota Cont.  │ • Kherwara: Mewar │
-│   Lancers    │   3 June 1857  │   21 Aug 1857  │ • Rebolled      │     Bhil Corps    │
-│ • Rebolled   │ • 40 British   │ • "Chalo Dilli │   joined Neemuch│ • DID NOT REVOLT! │
-│   28 May 1857│   sheltered at │   Maro         │   rebels.       │   (Crucial exam   │
-│ • FIRST SITE!│   Jag Mandir.  │   Firangi!"    │                 │   invariant).     │
+│ • Outbreak:  │ │ • Outbreak:  │ │ • Outbreak:  │     Kota Cont.  │ • Kherwara: Mewar │
+│   28 May 1857│ │   3 June 1857│ │   21 Aug 1857│ │ • Outbreak:   │     Bhil Corps    │
+│ • FIRST SITE!│ │ • Fled to    │ │ • "Chalo     │     5 June 1857 │ • DID NOT REVOLT! │
+│              │ │   Udaipur.   │ │   Dilli!"    │                 │   (Major Invariant│
 └──────────────┘ └──────────────┘ └──────────────┘ └───────────────┘ └─────────────────┘
 ```
 
-#### Detailed Breakdown of Cantonments
-
 | Cantonment | Modern District Location | Stationed Native Regiment | Outbreak Date | Participated in Revolt? |
 | :--- | :--- | :--- | :--- | :---: |
-| **Naseerabad (नसीराबाद)** | Ajmer | 15th & 30th Bengal Native Infantry, Bombay Lancers | 28 May 1857 | **YES (Epicenter)** |
-| **Neemuch (नीमच)** | Erstwhile Rajputana Agency (Now MP border) | 1st Bengal Cavalry, Artillery, 72nd N.I. | 3 June 1857 | **YES** |
+| **Naseerabad (नसीराबाद)** | Ajmer | 15th & 30th Bengal Native Infantry (BNI), Bombay Lancers | 28 May 1857 | **YES (First Center)** |
+| **Neemuch (नीमच)** | Border of Mewar / Malwa (now MP) | 1st Bengal Cavalry, 72nd N.I., Artillery | 3 June 1857 | **YES** |
 | **Erinpura (एरिनपुरा)** | Pali (near Sirohi border) | Jodhpur Legion (जोधपुर लीजन) | 21 August 1857 | **YES** |
 | **Deoli (देवली)** | Tonk | Mahidpur Regiment & Kota Contingent cavalry | 5 June 1857 | **YES** |
-| **Beawar (ब्यावर)** | Beawar (erstwhile Ajmer) | Mer Regiment / Merwara Battalion (मेर रेजीमेंट) | — | **NO (Remained loyal)** |
-| **Kherwara (खेरवाड़ा)**| Udaipur | Mewar Bhil Corps (मेवाड़ भील कोर — MBC) | — | **NO (Remained passive)** |
+| **Beawar (ब्यावर)** | Beawar (erstwhile Ajmer) | Mer Regiment / Merwara Battalion | — | **NO (Remained Loyal)** |
+| **Kherwara (खेरवाड़ा)**| Udaipur | Mewar Bhil Corps (MBC) | — | **NO (Remained Passive)** |
 
-> **Key Takeaway**: **Beawar and Kherwara** cantonments did NOT take part in the 1857 Revolution!
-
----
-
-## 3. Major Theaters of Revolution: Chronology & Military Actions
-
-### 3.1 The Naseerabad Outbreak (28 May 1857) — The First Spark
-- **Trigger**: Following the Meerut outbreak, AGG George Patrick Lawrence grew suspicious of the **15th Bengal Native Infantry (BNI)** stationed in Ajmer (which protected the imperial magazine and treasury) and disarmed/transferred them to Naseerabad. This insult, combined with the presence of greased cartridges and armed patrols of the loyal Bombay Lancers, triggered the revolt.
-- **The Strike**: On the afternoon of **28 May 1857**, soldiers of the 15th BNI mutinied, seizing the artillery battery. They were joined by the **30th Bengal Native Infantry**.
-- **British Casualties**:
-  - **Major Spottiswoode** and **Colonel Newbery** were killed on the spot.
-  - **Lt. Lock** and **Captain Hardy** were wounded.
-  - British officers, women, and children evacuated under escort of Bombay Lancers towards Beawar.
-- **March to Delhi**: After ransacking the cantonment, burning bungalows, and seizing state funds, the sepoys marched directly to Delhi to reinforce the Mughal Emperor Bahadur Shah Zafar.
+> **High-Yield Invariant:** **Beawar** and **Kherwara** were the two military cantonments in Rajasthan that **did NOT participate** in the 1857 uprising.
 
 ---
 
-### 3.2 The Neemuch Outbreak (3 June 1857) & The Rungaram Episode
-- **The Loyalty Oath Confrontation (2 June 1857)**: British commander **Colonel Abbott** assembled the garrison on 2 June and administered a solemn oath of loyalty on the Quran and Gita. An Indian officer, **Mohammad Ali Beg (मोहम्मद अली बेग)**, boldly stood up and challenged Abbott:
-  > *"Did you British remain loyal to your oath when you deceitfully annexed Awadh? Why then should Indians be bound to oaths of loyalty to you?"*
-- **The Outbreak (3 June 1857)**: At 11:00 PM on 3 June, led by **Mohammad Ali Beg** and Subedar **Hira Singh**, the Neemuch garrison revolted, fired artillery, and burned British bungalows.
-- **The Doongla Shelter & Rungaram**:
-  - Approximately 40 British officers, women, and children fled Neemuch under Captain Showers.
-  - They reached **Doongla village (डूंगला, Chittorgarh)**, where a noble peasant farmer named **Rungaram (रूंगाराम)** provided them shelter and food despite grave personal risk.
-- **Maharana Swaroop Singh's Sanctuary at Jag Mandir**:
-  - Mewar's **Maharana Swaroop Singh**, guided by Political Agent Major Showers, dispatched Mewari troops to rescue the refugees.
-  - Swaroop Singh accommodated them safely within the **Jag Mandir Palace (जग मंदिर)** in Pichhola Lake, Udaipur, appointing **Gokulchand Mehta** to oversee their hospitality and security.
+# PART III — MAJOR THEATERS OF THE 1857 REVOLUTION
+
+## 7. Naseerabad: The Initial Spark (28 May 1857)
+
+- **The Trigger [Secure Core]:** Following news of Meerut, AGG George Lawrence suspected the loyalty of the **15th Bengal Native Infantry (BNI)** guarding the crucial central arsenal and magazine at Ajmer. He transferred them under guard to Naseerabad. Offended by this distrust and alarmed by patrols of loyal Bombay Lancers, the sepoys mutinied on the afternoon of **28 May 1857**.
+- **Military Action [Secure Core]:**
+  - Joined by the **30th Bengal Native Infantry**, the sepoys seized the artillery guns.
+  - **British Casualties:** **Major Spottiswoode** and **Colonel Newbery** were killed on the spot; **Lieutenant Lock** and **Captain Hardy** were wounded.
+  - Surviving British officers and families fled under escort to Beawar.
+- **Strategic Error [Historiographical Note]:** The Naseerabad sepoys did not capture the undefended imperial arsenal at Ajmer. Instead, following the common pattern of north Indian mutineers, they marched straight toward Delhi to rally behind Mughal Emperor Bahadur Shah Zafar.
 
 ---
 
-### 3.3 The Erinpura Outbreak & The Jodhpur Legion (21 August 1857)
-- **The Mount Abu Trigger**: In August 1857, a contingent of 90 soldiers of the **Jodhpur Legion** was stationed at Mount Abu for training.
-- **The Attack at Mount Abu (21 August 1857)**: Led by **Motiram**, **Sheetaldas**, and **Tilakram**, the sepoys attacked the British barracks at Mount Abu, wounding AGG Lawrence’s son, Captain Arthur Lawrence.
-- **The Assembly at Erinpura**: The mutineers marched to the main cantonment at Erinpura on 23 August, where the entire garrison mutinied, looting the treasury and armory.
-- **The Historic War Cry**: Indian Christian officer **Subedar Moti Khan**, **Subedar Sheetaldas**, and **Dafedar Abdul Ali** hoisted the flag of freedom, leading the march towards Delhi with the iconic battle cry:
+## 8. Neemuch & The Jag Mandir Sanctuary (3 June 1857)
+
+- **The Loyalty Challenge (2 June 1857) [Secure Core]:** On 2 June, British commanding officer **Colonel Abbott** assembled the troops to administer a solemn oath of fidelity upon the Quran and Gita. Sepoy officer **Mohammad Ali Beg (मोहम्मद अली बेग)** challenged him publicly:
+  > *"Did you British remain faithful to your oath when you deceitfully annexed Awadh? Why then should Indians be bound to oaths of loyalty to you?"*
+- **Outbreak (3 June 1857) [Secure Core]:** Led by Mohammad Ali Beg and Subedar **Hira Singh**, the Neemuch garrison revolted at 11:00 PM on 3 June, burning cantonment bungalows and seizing the treasury.
+- **The Doongla Shelter & Rungaram [Tradition / Core]:** Approximately 40 British officers, women, and children fled Neemuch. They found temporary refuge at **Doongla village** (Chittorgarh district), where a local peasant named **Rungaram (रूंगाराम)** protected them from pursuing rebels.
+- **Sanctuary at Jag Mandir Palace [Secure Core]:** Political Agent Major C.L. Showers rescued the refugees and escorted them to Udaipur. **Maharana Swaroop Singh of Mewar** provided them secure asylum within the **Jag Mandir Palace** in Lake Pichhola, appointing courtier **Gokulchand Mehta** to ensure their comfort.
+
+---
+
+## 9. Erinpura & The Jodhpur Legion: "Chalo Dilli, Maro Firangi" (August 1857)
+
+- **Mount Abu Incident (21 August 1857) [Secure Core]:** A detachment of the Jodhpur Legion stationed at Mount Abu attacked the British barracks, wounding Arthur Lawrence (son of the AGG).
+- **The Main Revolt at Erinpura (23 August 1857) [Secure Core]:** When news reached Erinpura, the entire garrison mutinied under the leadership of **Subedar Moti Khan**, **Subedar Sheetaldas**, and **Dafedar Abdul Ali**.
+- **The War Cry [Secure Core]:** Raising the historic slogan:
   > *"चलो दिल्ली, मारो फिरंगी!"*  
-  > *(March to Delhi, Slay the Foreigner!)*
+  > *(March to Delhi, Slay the Foreigner!)*  
+  the soldiers marched northeast towards Delhi, converging with the insurgent feudal nobility of Marwar.
 
 ---
 
-### 3.4 Auwa's Epic Resistance: Thakur Kushal Singh Champawat
+## 10. Auwa's Resistance: Thakur Kushal Singh Champawat
+
+Thakur Kushal Singh Champawat of Auwa (Pali district) transformed a sepoy mutiny into a coordinated regional rebellion against both British paramountcy and the oppressive internal rule of Maharaja Takht Singh of Jodhpur.
 
 ```
                     ┌────────────────────────────────────────────────────────┐
@@ -209,422 +248,400 @@ During May 1857, approximately 5,000 native Indian soldiers served in British re
          ┌──────────────────────────────────────┴──────────────────────────────────────┐
          │                                                                             │
 ┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Feudal Mobilization & Ideology      │                     │  The Sacred Emblem: Sugali Mata                  │
+│ Feudal Coalition & Erinpura Sepoys   │                     │ The Tutelary Deity: Sugali Mata                  │
 ├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Joined by the Erinpura sepoys at   │                     │ • Kuldevi of Champawat Rathores: Sugali Mata.    │
-│   Kherwa village.                    │                     │ • Iconography: 10 heads and 54 arms.             │
-│ • Allied Jagirdars:                  │                     │ • Revered as the spiritual patron goddess of the │
-│   - Shivanath Singh (Asop)           │                       1857 freedom fighters in Rajasthan.              │
-│   - Bishan Singh (Gular)             │                     │ • Idol seized by British in 1858; now preserved  │
-│   - Ajit Singh (Alaniyawas)          │                       in Bangar Museum, Pali.                          │
+│ • Kushal Singh met Erinpura troops   │                     │ • Iconography: 10 heads and 54 arms.             │
+│   at Kherwa village.                 │                     │ • Kuldevi of the Champawat Rathores.             │
+│ • Allied Feudal Jagirdars:           │                     │ • Venerated as the spiritual patroness of the    │
+│   - Shivanath Singh (Asop)           │                       1857 freedom fighters in Marwar.                 │
+│   - Bishan Singh (Gular)             │                     │ • Seized by Holmes in 1858; now preserved in     │
+│   - Ajit Singh (Alaniyawas)          │                       the Bangar Museum, Pali.                         │
 └──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
 ```
 
-#### The Battle of Bithoda (8 September 1857 / बिथोड़ा का युद्ध)
-- **Combatants**: Thakur Kushal Singh and allied revolutionaries vs the joint army of **Jodhpur Maharaja Takht Singh** (commanded by Faujdar **Onad Singh / Anar Singh**) and British artillery under **Captain Heathcote**.
-- **Outcome**: The revolutionaries crushed the royalist-British forces:
-  - Faujdar **Onad Singh was killed** on the battlefield; Rajmata's horse was captured.
-  - Captain Heathcote fled for his life.
-  - Huge quantities of artillery, guns, and ammunition fell into the hands of the Auwa patriots.
+### The Battle of Bithoda (8 September 1857) [Secure Core]
+- **Combatants:** Thakur Kushal Singh and allied revolutionaries vs. the combined forces of Jodhpur Maharaja Takht Singh (commanded by royal Faujdar **Onad Singh / Anar Singh**) and British artillery officer **Captain Heathcote**.
+- **Outcome:** The royalist-British army was routed. **Onad Singh was killed on the battlefield**, British artillery was captured, and Captain Heathcote fled for his life.
 
-#### The Battle of Chelawas (18 September 1857 / चेलावास का युद्ध) — "The Battle of Black and White"
-Ten days after Bithoda, AGG George Patrick Lawrence marched personally from Ajmer with an elite imperial army, joined by the Political Agent of Jodhpur, **Mock Mason (मॉक मेसन)**.
-- **The Nomenclature**: Known across Rajasthani folklore as the **"Battle of Black and White" (गोरों-कालों का युद्ध)** due to the direct confrontation between European British troops ("Gora") and native Indian patriots ("Kala").
-- **Climax & Severed Head of Mock Mason**:
-  - The revolutionaries routed Lawrence’s army; Lawrence fled towards Beawar.
-  - Political Agent **Mock Mason was killed** outside Auwa.
-  - The revolutionaries **severed Mock Mason's head**, paraded it through the village with beating drums, and **hung it defiantly on the main monumental gate of Auwa Fort**!
+### The Battle of Chelawas (18 September 1857) — "The Battle of Black and White" [Secure Core]
+- **Combatants:** AGG Colonel George Patrick Lawrence marched personally from Ajmer with imperial reinforcements, accompanied by Jodhpur Political Agent **Captain George Monck-Mason**.
+- **"Goron-Kalon ka Yuddha" (गोरों-कालों का युद्ध):** Celebrated across Rajasthani folklore due to the direct clash between native Indian troops and European British forces.
+- **The Decapitation of Monck-Mason:** Revolutionary forces defeated Lawrence's army. **Captain George Monck-Mason was killed** outside Auwa; the revolutionaries severed his head and hung it from the main gateway of **Auwa Fort**. Lawrence retreated toward Beawar.
+- **Patriotic Folk Poetry [Tradition]:**
+  > *"ढोल बाजे, चंग बाजे, भलो बाजे बांकियो।*  
+  > *एजेंट ने मार कर, आउवा के दरवाजे पर टांकियो॥"*  
+  *(Drums sound, changs resound, and the clarion horn rings clear! Slaying the Agent, they hung his head upon the gate of Auwa!)*
 
-```
-                    ┌────────────────────────────────────────────────────────┐
-                    │          THE BATTLE OF CHELAWAS (18 SEPT 1857)         │
-                    │               "GORON-KALON KA YUDDHA"                  │
-                    └───────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┴──────────────────────────────────────┐
-         │                                                                             │
-┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  British Forces Defeated             │                     │  The Defiant Retribution                         │
-├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
-│ • Commanded by AGG George Lawrence   │                     │ • Mock Mason killed by revolutionaries.          │
-│   and Jodhpur PA Mock Mason.         │                     │ • Severed head hung on Auwa Fort Gate.           │
-│ • Lawrence routed; fled to Beawar.   │                     │ • Celebrated in folk songs across Marwar.        │
-└──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
-```
-
-#### The Celebrated Bardic Folk Songs of Auwa
-The defiance of Auwa inspired timeless Dingal and Marwari patriotic folk ballads:
-> *"ढोल बाजे, चंग बाजे, भलो बाजे बांकियो।*  
-> *एजेंट ने मार कर, आउवा के दरवाजे पर टांकियो॥"*  
-*(Drums echo, changs resound, and the clarion pipe plays gloriously! Slaying the British Agent, they nailed him to the gate of Auwa!)*
-
-#### The Fall of Auwa (January 1858) & Major Taylor Commission
-- **British Counter-Attack**: In January 1858, British Commander-in-Chief **Brigadier Holmes** surrounded Auwa with a colossal army and siege artillery.
-- **Evacuation**: Sensing that artillery would pulverize the fort, Kushal Singh handed over defense to his younger brother **Prithvi Singh of Lambiya** and slipped out safely under cover of heavy rain and fog.
-- **Sanctuary**: Sheltered by **Rawat Jodh Singh** of Kothariya (Mewar) and **Rawat Kesari Singh** of Salumber.
-- **Sack of Auwa (24 January 1858)**: Holmes captured Auwa, blew up its ramparts, seized the sacred idol of **Sugali Mata**, and took it to Ajmer.
-- **The Major Taylor Commission (1860 CE)**:
-  - Kushal Singh surrendered before British authorities at Neemuch in August 1860.
-  - The British constituted the **Major Taylor Commission** to investigate his role in the murder of Mock Mason.
-  - The Commission **acquitted Kushal Singh** of murder charges, ruling that Mock Mason was killed in open military engagement, not through premeditated assassination.
-  - Kushal Singh passed away peacefully at Udaipur in 1864 CE.
+### The Fall of Auwa (January 1858) & The Major Taylor Commission [Secure Core]
+- **The Siege of Auwa (January 1858):** British Commander-in-Chief **Brigadier Holmes** surrounded Auwa with heavy siege artillery. Realizing that the mud and stone ramparts could not indefinitely withstand sustained bombardment, Kushal Singh transferred command to his younger brother, **Prithvi Singh of Lambiya**, and escaped through the lines.
+- **Sack of Auwa (24 January 1858):** Holmes captured and razed the fort, confiscating the sacred idol of **Sugali Mata** and carrying it to Ajmer. Kushal Singh found refuge with **Rawat Jodh Singh** of Kothariya (Mewar) and **Rawat Kesari Singh** of Salumber.
+- **Major Taylor Commission (1860 CE):** Thakur Kushal Singh surrendered before British authorities at Neemuch in August 1860. The British instituted the **Major Taylor Commission** to investigate his complicity in Monck-Mason's death. The commission **acquitted Kushal Singh**, finding that Monck-Mason was killed in open military engagement rather than through premeditated murder. Kushal Singh died peacefully at Udaipur in 1864.
 
 ---
 
-### 3.5 The Kota Mass Uprising (15 October 1857) — The Democratic Revolution
-The rebellion at Kota stands distinct in Indian history: it was **not** initiated by regular military cantonment sepoys, but by **local state troops, common citizens, and administrative officials**, establishing an independent civil administration for nearly six months!
+## 11. The Kota Mass Uprising: The Civil-Democratic Revolution (15 October 1857)
+
+The uprising at Kota was unique in Rajasthan: it was **not** an outbreak of regular British cantonment troops (Kota had no British military cantonment), but a **popular civil and military revolution** led by state soldiers and administrative elites.
 
 ```
                     ┌────────────────────────────────────────────────────────┐
-                    │        THE KOTA POPULAR UPRISING (OCTOBER 1857)        │
+                    │      THE KOTA POPULAR CIVIL UPRISING (OCTOBER 1857)    │
                     └───────────────────────────┬────────────────────────────┘
                                                 │
          ┌──────────────────────────────────────┴──────────────────────────────────────┐
          │                                                                             │
 ┌────────┴─────────────────────────────┐                     ┌─────────────────────────┴────────────────────────┐
-│  Leaders & Mobilization              │                     │  The Siege & Fall of Residency                   │
+│ Revolutionary Leadership             │                     │ Assault on the Residency                         │
 ├──────────────────────────────────────┤                     ├──────────────────────────────────────────────────┤
 │ 1. Lala Jaidayal (लाला जयदयाल)       │                     │ • Date: 15 October 1857.                         │
-│    - Prominent advocate/clerk from   │                     │ • Residency besieged; Major Burton, sons Arthur  │
-│      Kama (Bharatpur).               │                       and Frank, and Dr. Sadler executed.              │
-│ 2. Mehrab Khan (मेहराब खां)          │                     │ • Burton's head severed and paraded through the  │
-│    - Risaldar in Kota state cavalry  │                       streets of Kota.                                 │
-│      from Karauli.                   │                     │ • Maharao Ram Singh II imprisoned in palace.     │
+│    - Legal advocate/clerk from Kama  │                     │ • Residency stormed; Major Charles Burton, his   │
+│      (Bharatpur).                    │                       two sons (Arthur & Frank), and Dr. Sadler killed.│
+│ 2. Mehrab Khan (मेहराब खां)          │                     │ • Burton's severed head paraded across Kota.     │
+│    - Risaldar in Kota state forces   │                     │ • Maharao Ram Singh II placed under palace       │
+│      from Karauli.                   │                       internment for nearly six months.                │
 └──────────────────────────────────────┘                     └──────────────────────────────────────────────────┘
 ```
 
-#### The 9-Point Treaty of Capitulation
-The revolutionaries held **Maharao Ram Singh II of Kota** captive inside his royal palace (*Garh*).
-- Under the mediation of Goswami Kanhaiyalal of Mathuradheesh Temple, they compelled the Maharao to sign a humiliating **9-point treaty**.
-- Clause 1 of the treaty explicitly forced the Maharao to state: *"I, Maharao Ram Singh, take full personal responsibility for the murder of Major Burton and his sons, and the sepoys acted upon my orders."*
-- For nearly **six months (October 1857 to March 1858)**, the revolutionary civil administration of Jaidayal and Mehrab Khan collected taxes, operated the treasury, and governed Kota.
-
-#### The Liberation of Kota (March 1858) & Re-alignment of Gun Salutes
-- **Joint Relief Operation**: In March 1858, British forces under **General H.G. Roberts** attacked Kota, supported by a 2,000-man relief army dispatched by **Maharaja Madan Pal of Karauli**.
-- Kota was recaptured after ferocious street-to-street fighting on **30 March 1858**.
-- **Execution of Leaders**: **Mehrab Khan was hanged** from a tree near the Agency on 12 October 1859, and **Lala Jaidayal was hanged** at Kota on 17 September 1860.
-- **The Gun Salute Alteration (*Topon ki Salami*)**:
-  - The British held Maharao Ram Singh II guilty of cowardice/collusion; his official gun salute was **reduced from 17 guns to 13 guns**.
-  - In gratitude for his loyal intervention, Maharaja Madan Pal of Karauli had his gun salute **increased from 13 guns to 17 guns** and was decorated with the title **G.C.S.I.** (Knight Grand Commander of the Star of India).
+- **The 9-Point Agreement [Secure Core]:** The revolutionaries besieged **Maharao Ram Singh II** inside his palace (*Garh*). Mediated by Goswami Kanhaiyalal of the Mathuradheesh Temple, the Maharao was compelled to sign a humiliating **9-point treaty** in which he acknowledged that Major Burton had been executed by his orders.
+- **Six Months of Popular Administration (Oct 1857 – Mar 1858) [Secure Core]:** The revolutionary council under Jaidayal and Mehrab Khan governed Kota, maintaining public order, collecting revenue, and operating the judicial courts.
+- **Liberation of Kota (March 1858) [Secure Core]:** On **30 March 1858**, British imperial troops commanded by **General H.G. Roberts**, reinforced by a 2,000-strong army sent by **Maharaja Madan Pal of Karauli**, stormed Kota and crushed the uprising.
+- **Execution of Leaders:** Mehrab Khan was hanged on 12 October 1859; Lala Jaidayal was hanged at Kota on 17 September 1860.
+- **The Gun Salute Reversal (*Topon ki Salami*) [Secure Core]:**
+  - Held culpable for failing to prevent Major Burton's execution, Maharao Ram Singh II of Kota had his official gun salute **reduced from 17 to 13 guns**.
+  - In reward for his timely military intervention, Maharaja Madan Pal of Karauli had his gun salute **increased from 13 to 17 guns** and was created a Knight Grand Commander of the Star of India (G.C.S.I.).
 
 ---
 
-## 4. Other Theaters of Revolution in Rajasthan
+## 12. Other Theaters of Uprising in Rajasthan
+
+### 12.1 Dholpur: External Incursion & Sikh Relief [Secure Core]
+- In October 1857, approximately 1,000 mutineers from Gwalior and Indore, led by **Ramchandra** and **Hira Lal (Deva)**, entered Dholpur.
+- Joined by local state forces, they seized the palace, looted the treasury, and held **Maharaja Bhagwant Singh** captive for two months.
+- Order was restored only in December 1857 when the ruler of **Patiala (Punjab)**, a British ally, sent a 2,000-man force with artillery to liberate Dholpur.
+
+### 12.2 Tonk: Mass Mutiny & Women Combatants [Secure Core / Tradition]
+- Nawab Wazir-ud-Daulah remained loyal to the British, but the state army under his maternal uncle, **Mir Alam Khan**, revolted and joined forces with Tatya Tope.
+- Contemporary chronicles and literary records (such as Mohammad Mujeeb's Urdu drama *Teesra Farishta*) record that **women in Tonk took up arms**, donned male soldier uniforms, and fought British detachments directly on the battlefield.
+
+### 12.3 Bharatpur: Agrarian Peasant Revolts [Secure Core]
+- Maharaja Jaswant Singh was a minor; Political Agent Major Morrison fled to Agra.
+- The countryside erupted in agrarian rebellion: local **Gujjar and Meo** peasantry rose in revolt, cutting telegraph lines, plundering British posts, and blockading roads connecting Agra and Delhi.
+
+---
+
+# PART IV — PATRIOTIC LEADERSHIP, CULTURAL RESISTANCE & PRINCELY COLLABORATION
+
+## 13. Amar Chand Bathiya: The "Mangal Pandey & Bhama Shah of 1857"
+
+- **Identity [Secure Core]:** Born in **Bikaner**; served as the royal treasurer (*Nagar Seth* / Cashier) of the Scindia treasury at Gwalior.
+- **Financial Sacrifice [Secure Core]:** When Rani Lakshmibai of Jhansi and Tatya Tope captured Gwalior in June 1858, Bathiya opened the royal vaults and provided the rebel leadership with state funds to pay soldiers and procure ammunition.
+- **Martyrdom (22 June 1858) [Secure Core]:** Captured by the British following the fall of Gwalior, he was publicly **hanged from a Neem tree** in the Sarafa Bazaar of Gwalior.
+- **Historiographical Significance:** Honored as the **"Mangal Pandey of Rajasthan"** (the first martyr from Rajasthan in 1857) and the **"Bhama Shah of 1857"**.
+
+---
+
+## 14. Tatya Tope's Campaigns in Rajasthan (1857–1859 CE)
+
+Ramchandra Pandurang Topi (**Tatya Tope**), the foremost military strategist of Nana Saheb Peshwa, entered Rajasthan twice to forge a combined Rajput-Maratha front:
 
 ```
-                     ┌─────────────────────────────────────────────────────────┐
-                     │          OTHER THEATERS OF THE 1857 REVOLUTION          │
-                     └────────────────────────────┬────────────────────────────┘
-                                                │
-         ┌──────────────────────────────────────┼──────────────────────────────────────┐
-         │                                      │                                      │
-┌────────┴──────────────┐              ┌──────────┴─────────────┐              ┌───────────┴──────────┐
-│   Dholpur Uprising    │              │  Tonk Muslim Rebellion │              │   Bharatpur Revolt   │
-├───────────────────────┤              ├────────────────────────┤              ├──────────────────────┤
-│ • Outbreak led by     │              │ • Nawab Wazir-ud-Daulah│              │ • Maharaja Jaswant   │
-│   external troops from│                supported British;     │                Singh was a minor.    │
-│   Gwalior & Indore    │              │ • Uncle Mir Alam Khan  │              │ • Political Agent    │
-│   (Deva & Ramchandra).│                led rebels to join     │                Morrison fled to Agra.│
-│ • Maharaja Bhagwant   │                Tatya Tope.            │              │ • Gujjar and Meo     │
-│   Singh captured;     │              │ • Prominent female     │                peasants rose in mass │
-│   rescued by Patiala  │                armed participation    │                armed insurrection    │
-│   state army!         │                in battle!             │                across countryside.   │
-└───────────────────────┘              └────────────────────────┘              └──────────────────────┘
+[FIRST EXPEDITION: June–August 1858] ──► Entered Mewar via Bhilwara; fought General Roberts at
+                                          Battle of Kuwada (9 August 1858); captured Jhalawar
+                                               │
+[SECOND EXPEDITION: Dec 1858–Jan 1859] ──► Entered Banswara; captured town; marched to Salumber
+                                               │
+[BETRAYAL & EXECUTION: April 1859] ─────► Betrayed by Man Singh Naruka at Paron; captured;
+                                          hanged at Shivpuri (MP) on 18 April 1859
 ```
 
-### 4.1 The Dholpur Revolt — External Sepoys & Patiala Rescue
-- In October 1857, approximately 1,000 rebel troops from **Gwalior and Indore**, led by **Ramchandra** and **Hira Lal (Deva)**, invaded Dholpur.
-- Joined by local state forces, they seized the palace, looted the treasury, and held **Maharaja Bhagwant Singh** captive for nearly two months.
-- **Restoration**: Order was restored only in December 1857 when the ruler of **Patiala (Punjab)**, a Sikh ally of the British, sent a 2,000-strong army with artillery to liberate Dholpur.
-
-### 4.2 The Tonk Revolt & Armed Participation of Women
-- **Nawab Wazir-ud-Daulah** supported the British administration, but his army, led by his maternal uncle **Mir Alam Khan**, revolted and joined Tatya Tope.
-- **Female Combatants**: The drama *Teesra Farishta* by Mohammad Mujeeb chronicles that women in Tonk took up arms, wore soldier uniforms, and fought British detachments directly on the battlefield.
+- **Battle of Kuwada (9 August 1858) [Secure Core]:** Fought on the banks of the Kothari River (Bhilwara district); Tatya Tope was defeated by British General Roberts.
+- **Capture of Jhalawar [Secure Core]:** Tatya Tope marched into Jhalawar; state troops defected to his side, and ruler Rana Prithvi Singh fled to Kota. Tatya extracted Rs 5 lakh before moving south.
+- **Capture of Banswara (December 1858) [Secure Core]:** Seized Banswara; Maharawal Laxman Singh fled into the jungles.
+- **The Sole State Exception [High-Yield Trap]:** **Jaisalmer** was the **only princely state in Rajasthan that Tatya Tope did NOT enter**.
+- **Betrayal & Martyrdom [Secure Core]:** Betrayed by his companion, Jagirdar **Man Singh Naruka** of Narwar, while resting in the Paron forests. Captured by British Major Meade and publicly **hanged at Shivpuri (Madhya Pradesh)** on **18 April 1859**.
 
 ---
 
-## 5. Legendary Personalities & Patriotic Resistance
+## 15. The Literary Front: Suryamal Misran & Bankidas Asiya
 
-### 5.1 Amar Chand Bathiya (अमरचंद बांठिया, 1793–1858 CE)
-- **Identity**: Native of **Bikaner**; served as the hereditary royal treasurer (*Nagar Seth* / Cashier) of the Gwalior Scindia treasury.
-- **The Supreme Financial Sacrifice**: Inspired by the freedom struggle, Bathiya unlocked the entire imperial Gwalior treasury and handed over all funds, gold, and resources to **Rani Lakshmibai of Jhansi** and **Tatya Tope** to finance their army.
-- **Martyrdom (22 June 1858)**: Captured by the British and publicly **hanged from a Neem tree** at the Sarafa market in Gwalior.
-- **Historiographical Titles**:
-  1. **The Mangal Pandey of Rajasthan (राजस्थान का मंगल पांडे)**: The first martyr from Rajasthan in the 1857 Revolution.
-  2. **The Bhama Shah of 1857 (1857 की क्रांति का भामाशाह)**: Honoring his selfless financing of Rani Lakshmibai’s army.
+Patriotic Rajasthani literature played an important ideological role in inspiring anti-British sentiment:
 
----
-
-### 5.2 Tatya Tope's Campaigns in Rajasthan (1857–1859 CE)
-Ramchandra Pandurang Topi (**Tatya Tope**), the legendary general of Nana Saheb Peshwa, entered Rajasthan twice to mobilize the Rajput princes:
-- **First Entry (June 1858)**: Entered Mewar via Bhilwara.
-  - **Battle of Kuwada (कुवाड़ा का युद्ध, 9 August 1858)**: Fought near Kothari River (Bhilwara); defeated by British General Roberts.
-  - Advanced to Kankroli, Rukmangarh, and captured Jhalawar (ousted Maharao Prithvi Singh).
-- **Second Entry (December 1858)**: Entered Banswara via Mewar, temporarily captured Banswara (Maharawal Laxman Singh fled to the jungle).
-- **The Betrayal & Martyrdom (1859 CE)**: Betrayed by his trusted friend, Jagirdar **Man Singh Naruka** of Narwar (who revealed his forest hideout in the Paron jungles to British Major Meade). Captured and publicly **hanged at Shivpuri (Madhya Pradesh)** on **18 April 1859**.
+1. **Suryamal Misran (1815–1868 CE) [Secure Core]:**
+   - Court poet of Maharao Ram Singh of **Bundi**.
+   - Authored the patriotic lyrical work **Veer Satsai** (वीर सतसई), alongside the master metric history **Vansh Bhaskar** (completed by his adopted son Muraridan).
+   - Addressed letters to Rajput princes urging them to overcome narrow dynastic rivalries:
+     > *"इला न देणी आपणी, हालरिये हुलराय।*  
+     > *पूत सिखावै पालणै, मरण बड़ाई माय॥"*  
+     *(Never yield your motherland to the stranger! The mother teaches her infant in the cradle: die on the battlefield, for therein lies eternal honor!)*
+2. **Bankidas Asiya (1771–1833 CE) [Secure Core]:**
+   - Court poet of Maharaja Man Singh of **Marwar**; author of *Bankidas ri Khyat*.
+   - Composed the famous Dingal poem **"Aayo Angrez Mulk re Upar"** (आयो अंग्रेज मुलक रै ऊपर), warning of British economic and political subjugation.
 
 ---
 
-### 5.3 Suryamal Misran (सूर्यमल्ल मीसण, 1815–1868 CE) — The National Poet
-- **Identity**: Court poet (*Raj Kavi*) of Maharao Ram Singh of **Bundi**.
-- **Literary Resistance**: Authored **Veer Satsai (वीर सतसई)**, **Vansh Bhaskar (वंश भास्कर)**, *Balwant Vilas*, and *Chhandomayukh*.
-- Dispatched fiery letters and Dingal couplets to Rajput princes urging them to overthrow the British yoke:
-  > *"इला न देणी आपणी, हालरिये हुलराय।*  
-  > *पूत सिखावै पालणै, मरण बड़ाई माय॥"*  
-  *(Never yield your sacred motherland to the foreigner! The mother rocks the cradle, singing to her newborn: die on the battlefield, for therein lies eternal honor!)*
+## 16. The Attitude of Princely Rulers: "Breakwaters in the Storm"
 
----
-
-## 6. The Attitude of Princely Rulers & British Assessment
-
-### 6.1 The Princely Houses: "Breakwaters in the Storm"
-With the exception of minor Jagirdars (Auwa, Asop, Gular, Kothariya, Salumber), **every single crowned ruling prince of Rajasthan actively supported the British East India Company** with money, camels, horses, and armies to suppress the 1857 uprising:
+With the exception of rebel Jagirdars (Auwa, Asop, Gular, Kothariya, Salumber), **every crowned ruling prince in Rajasthan supported the British East India Company** with troops, camels, cavalry, and finances:
 
 ```
 ┌──────────────────────────────┬──────────────────────────────┬────────────────────────────────────────────────────────┐
-│ Princely State               │ Reigning Monarch (1857)      │ Specific Active Support Rendered to the British        │
+│ Princely State               │ Reigning Monarch (1857)      │ Collaboration Rendered to the British                  │
 ├──────────────────────────────┼──────────────────────────────┼────────────────────────────────────────────────────────┤
-│ **Mewar (Udaipur)**          │ Maharana Swaroop Singh       │ Sheltered 40 Neemuch British refugees at Jag Mandir    │
-│ **Marwar (Jodhpur)**         │ Maharaja Takht Singh         │ Sent royal army under Onad Singh to crush Auwa patriots│
-│ **Jaipur**                   │ Sawai Ram Singh II           │ Dispatched state army; Rewarded with Kotputli pargana  │
+│ **Mewar (Udaipur)**          │ Maharana Swaroop Singh       │ Sheltered 40 Neemuch British refugees at Jag Mandir;   │
+│                              │                              │ ordered Mewar nobles to obey British directives.       │
+│ **Marwar (Jodhpur)**         │ Maharaja Takht Singh         │ Dispatched royal army under Onad Singh against Auwa.   │
+│ **Jaipur**                   │ Sawai Ram Singh II           │ Placed state army at Eden's disposal; guarded Agra     │
+│                              │                              │ road; rewarded with Kotputli pargana & Sitar-e-Hind.  │
 │ **Bikaner**                  │ Maharaja Sardar Singh        │ Personally marched outside state to crush rebels!      │
-│ **Kota**                     │ Maharao Ram Singh II         │ Maintained secret loyalty despite 6-month rebel captivity│
-│ **Karauli**                  │ Maharaja Madan Pal           │ Sent 2,000 troops to liberate Kota; Salute raised to 17│
-│ **Bharatpur**                │ Maharaja Jaswant Singh (Minor) Dispatched state cavalry to patrol Agra-Delhi road    │
-│ **Alwar**                    │ Maharao Raja Vinay Singh     │ Sent army & artillery to relieve British at Agra      │
-│ **Sirohi**                   │ Maharao Shiv Singh           │ Sheltered British officers evacuated from Mount Abu   │
+│ **Karauli**                  │ Maharaja Madan Pal           │ Sent 2,000 troops to liberate Kota; salute raised to 17│
+│ **Bharatpur**                │ Maharaja Jaswant Singh (Minor) Dispatched state cavalry to patrol Agra highway.        │
+│ **Alwar**                    │ Maharao Raja Vinay Singh     │ Dispatched troops and artillery to relieve Agra.       │
+│ **Sirohi**                   │ Maharao Shiv Singh           │ Sheltered British officers evacuated from Mount Abu.   │
 └──────────────────────────────┴──────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
-#### The Sole Exception: Maharaja Sardar Singh of Bikaner
-- **Maharaja Sardar Singh (सरदार सिंह, Bikaner)** was the **only ruler in all of India** who personally rode out at the head of his military army **beyond the territorial borders of his princely state (marching into Badlu, Punjab/Haryana)** to hunt down and suppress Indian mutineers on behalf of the British crown.
-- **British Reward**: An immensely grateful British Government rewarded Sardar Singh with **41 villages of the fertile Tibbi Pargana (टिब्बी परगना)**, annexed to Bikaner state.
-
-#### Lord Canning's Famous Pronouncement
-Governor-General **Lord Canning** summarized the indispensable support of the Rajput monarchs in his official post-war despatch:
-> *"If the Rajput princes had not acted as **Breakwaters in the storm (तूफान में तरंग-रोधक)**, our British Empire in India would have been swept away in a single sweep of the wave."*
+- **Maharaja Sardar Singh of Bikaner [Secure Core]:** The **only monarch in India** who personally led his army **outside the territorial borders of his state (marching into Badlu, Punjab/Haryana)** to suppress Indian rebels. The British rewarded him with **41 villages of the Tibbi Pargana**.
+- **Lord Canning's Verdict [Secure Core]:** In his official despatch, Governor-General Lord Canning famously remarked:
+  > *"If the Rajput princes had not acted as **Breakwaters in the storm (तूफान में तरंग-रोधक)**, our British Empire in India would have been swept away in a single wave."*
 
 ---
 
-## 7. Comprehensive 1857 Invariant Matrix
+# PART V — HISTORIOGRAPHICAL DEBATES, CHRONOLOGY & PRIMARY VERIFICATION LOG
 
-The definitive synoptic matrix synthesizing the 1857 Revolution in Rajasthan for rapid examination review:
+## 17. Nature of the 1857 Movement in Rajasthan: Historiographical Analysis
 
-| Center / Cantonment | Outbreak Date | Revolutionary Leaders | British Officers Slain / Targeted | Princely Ruler's Stance | Ultimate Resolution / Invariant |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Naseerabad** | 28 May 1857 | 15th & 30th BNI Sepoys | Spottiswoode & Newbery killed | — (Direct British area) | First center in Rajasthan; marched to Delhi |
-| **Neemuch** | 3 June 1857 | Mohammad Ali Beg, Hira Singh | Col. Abbott challenged; barracks fired | Sheltered by Swaroop Singh | 40 British sheltered at Jag Mandir, Udaipur |
-| **Erinpura** | 21 August 1857 | Moti Khan, Sheetaldas, Tilakram | Attacked Abu; Arthur Lawrence wounded | Takht Singh sent army against them | Slogan: "Chalo Dilli, Maro Firangi"; joined Auwa |
-| **Auwa (Marwar)** | Sept 1857 – Jan 1858 | Thakur Kushal Singh Champawat | Mock Mason beheaded; Heathcote fled | Takht Singh allied with British | Bithoda (8 Sept) & Chelawas (18 Sept); Sugali Mata |
-| **Kota** | 15 Oct 1857 | Lala Jaidayal, Mehrab Khan | Major Burton & 2 sons executed | Ram Singh II held captive in palace | 6 months civil rule; Madan Pal helped British |
-| **Dholpur** | Oct – Dec 1857 | Ramchandra, Hira Lal (Deva) | Royal treasury looted for 2 months | Bhagwant Singh held captive | Order restored by Patiala state army |
-| **Tonk** | 1857–1858 | Mir Alam Khan, Native Women | British residency harassed | Nawab Wazir-ud-Daulah loyal | Prominent armed participation of women |
+Historians differ sharply on how to interpret the 1857 uprising in Rajasthan:
+
+| Historical Interpretation | Leading Proponents | Core Argument & Evidentiary Support |
+| :--- | :--- | :--- |
+| **Sepoy Mutiny / Military Revolt** | Colonial historians (George Trevelyan, Kaye, Malleson) | A military insurrection driven by cantonment sepoys (Naseerabad, Neemuch, Erinpura) over professional grievances and greased cartridges. Sepoys generally marched to Delhi rather than attempting to capture local power. |
+| **Feudal Aristocratic Reaction** | Administrative historians | A revolt of alienated *Samants* (Thakur Kushal Singh of Auwa, Asop, Gular) seeking to restore pre-1818 feudal privileges and check royal autocratic encroachment supported by British Political Agents. |
+| **Popular Civil / National Freedom Struggle** | Nationalist historians (V.D. Savarkar, Nathuram Khadgawat) | An early anti-imperial liberation movement. Demonstrated by the civil administration of Kota (Jaidayal & Mehrab Khan), mass uprisings of Gujjar and Meo peasants in Bharatpur, armed participation of women in Tonk, and patriotic folk poetry honoring the martyrs. |
 
 ---
 
-## 8. The 25 Deadliest Examination Traps (Forensic Autopsy)
+## 18. Master Chronological Table: 1803 to 1859
 
-1. **Trap 1: The First vs Last State to Sign 1818 Treaties**:
-   - *Trap*: Stating Sirohi was first or Bharatpur was first under Hastings.
-   - *Fact*: Under Lord Hastings (1817–1823), **Karauli (9 Nov 1817)** was the first state to sign; **Sirohi (11 Sept 1823)** was the 17th and last state to sign.
-
-2. **Trap 2: Princely States Paying Zero Tribute (*Khiraj*)**:
-   - *Trap*: Assuming all 17 states paid Khiraj.
-   - *Fact*: **Jaisalmer, Bikaner, and Alwar** paid **zero Khiraj** because they had no historical liability for Maratha Chauth.
-
-3. **Trap 3: The Secret Clause of Kota’s Treaty**:
-   - *Trap*: Believing the clause favored Maharao Ummed Singh.
-   - *Fact*: The secret supplementary clause preserved hereditary administration for **Faujdar Zalim Singh Jhala** and his lineage, sidelining the royal dynasty.
-
-4. **Trap 4: Reason for Sirohi's 5-Year Delay**:
-   - *Trap*: Thinking Sirohi militarily resisted the British.
-   - *Fact*: Delayed because **Maharaja Man Singh of Jodhpur** falsely claimed Sirohi was a subordinate fiefdom of Marwar.
-
-5. **Trap 5: The Non-Participating Cantonments of 1857**:
-   - *Trap*: Stating all 6 cantonments revolted.
-   - *Fact*: **Beawar (Mer Battalion)** and **Kherwara (Mewar Bhil Corps)** did **NOT** revolt!
-
-6. **Trap 6: The Epicenter / First Center of 1857 in Rajasthan**:
-   - *Trap*: Selecting Meerut or Neemuch.
-   - *Fact*: The first outbreak occurred at **Naseerabad on 28 May 1857** (18 days after Meerut).
-
-7. **Trap 7: The Fate of the 40 Neemuch British Refugees**:
-   - *Trap*: Claiming they were killed at Doongla.
-   - *Fact*: Sheltered by peasant **Rungaram** at Doongla, then safely escorted by Major Showers to Udaipur, where Maharana Swaroop Singh lodged them at **Jag Mandir Palace**.
-
-8. **Trap 8: The Slogan "Chalo Dilli, Maro Firangi"**:
-   - *Trap*: Attributing the slogan to Naseerabad sepoys.
-   - *Fact*: Coined and raised by the soldiers of the **Jodhpur Legion at Erinpura** (21 August 1857).
-
-9. **Trap 9: Date & Opponents at Battle of Bithoda**:
-   - *Trap*: Thinking George Lawrence fought at Bithoda.
-   - *Fact*: **Bithoda (8 September 1857)** was fought against **Onad Singh** (Jodhpur army) and **Captain Heathcote**. Lawrence fought ten days later at **Chelawas (18 September 1857)**.
-
-10. **Trap 10: "The Battle of Black and White" (*Goron-Kalon ka Yuddha*)**:
-    - *Trap*: Confusing Bithoda with Chelawas.
-    - *Fact*: It is the **Battle of Chelawas (18 September 1857)** where Mock Mason was killed and George Lawrence was routed.
-
-11. **Trap 11: Iconography of Sugali Mata**:
-    - *Trap*: Describing Sugali Mata with 8 or 10 arms.
-    - *Fact*: Sugali Mata has **10 heads and 54 arms**; Kuldevi of the Champawat clan of Auwa.
-
-12. **Trap 12: Major Taylor Commission Verdict**:
-    - *Trap*: Assuming Thakur Kushal Singh was sentenced to death.
-    - *Fact*: The commission **acquitted Kushal Singh** of murder charges in 1860, recognizing Mock Mason’s death as a casualty of open war.
-
-13. **Trap 13: Nature of the Kota Revolt**:
-    - *Trap*: Believing regular cantonment troops mutinied in Kota.
-    - *Fact*: Kota had **no British military cantonment**. The revolt was led by state soldiers and civilians (**Lala Jaidayal and Mehrab Khan**), establishing 6 months of civil administration.
-
-14. **Trap 14: Gun Salute Adjustment Post-1857**:
-    - *Trap*: Thinking Kota’s salute was increased.
-    - *Fact*: **Kota’s salute was decreased from 17 to 13 guns**; **Karauli’s salute was increased from 13 to 17 guns** (for sending 2,000 troops under Madan Pal to liberate Kota).
-
-15. **Trap 15: The Only Ruler Who Campaigned Outside His State**:
-    - *Trap*: Naming Takht Singh or Swaroop Singh.
-    - *Fact*: **Maharaja Sardar Singh of Bikaner**, who marched with his forces into **Badlu (Punjab/Haryana)**, rewarded with 41 villages of Tibbi pargana.
-
-16. **Trap 16: The First Martyr of Rajasthan in 1857**:
-    - *Trap*: Naming Thakur Kushal Singh or Mehrab Khan.
-    - *Fact*: **Amar Chand Bathiya** of Bikaner, hanged at Gwalior on 22 June 1858; known as the *"Mangal Pandey of Rajasthan"*.
-
-17. **Trap 17: "The Bhama Shah of 1857"**:
-    - *Trap*: Conferred upon Bhama Shah of Mewar.
-    - *Fact*: Bestowed upon **Amar Chand Bathiya** for giving the imperial Gwalior treasury to Rani Lakshmibai and Tatya Tope.
-
-18. **Trap 18: Betrayer of Tatya Tope**:
-    - *Trap*: Claiming a British spy betrayed him.
-    - *Fact*: Betrayed by his close friend, **Man Singh Naruka** (Jagirdar of Narwar), in the Paron forests.
-
-19. **Trap 19: Execution Site of Tatya Tope**:
-    - *Trap*: Hanged at Ajmer or Gwalior.
-    - *Fact*: Hanged at **Shivpuri (Madhya Pradesh)** on 18 April 1859.
-
-20. **Trap 20: The Dholpur Liberation Force**:
-    - *Trap*: Liberated by British European troops from Agra.
-    - *Fact*: Liberated by a 2,000-man army sent by the **Maharaja of Patiala (Punjab)**.
-
-21. **Trap 21: Women Combatants in 1857 Rajasthan**:
-    - *Trap*: Believing women fought only in Jhansi.
-    - *Fact*: Women actively took up arms and fought in the **princely state of Tonk**.
-
-22. **Trap 22: First Agent to the Governor-General (AGG)**:
-    - *Trap*: Believing George Lawrence was the first AGG.
-    - *Fact*: **Major Abraham Lockett** was the first AGG (1832 CE); George Lawrence was AGG during 1857.
-
-23. **Trap 23: Summer Capital of the Rajputana Agency**:
-    - *Trap*: Shifted to Mount Abu in 1832.
-    - *Fact*: Shifted to **Mount Abu in 1845 CE** (remained at Ajmer from 1832 to 1845).
-
-24. **Trap 24: Author of Veer Satsai**:
-    - *Trap*: Bankidas Asiya.
-    - *Fact*: **Suryamal Misran** (Court poet of Bundi). Bankidas wrote *Aayo Angrez Mulk re Upar*.
-
-25. **Trap 25: "Breakwaters in the Storm"**:
-    - *Trap*: Uttered by Lord Dalhousie.
-    - *Fact*: Uttered by Governor-General **Lord Canning** to describe the collaborative loyalty of the Rajput princes.
+```
+1803 CE ──► Bharatpur (29 Sept) and Alwar (Nov) sign preliminary treaties with Lord Lake
+1817 CE ──► Karauli signs first Subordinate Alliance treaty under Lord Hastings (9 Nov)
+1817 CE ──► Tonk created as independent Muslim princely state under Amir Khan Pindari (15 Nov)
+1817 CE ──► Kota signs treaty with secret supplementary clause for Zalim Singh Jhala (26 Dec)
+1818 CE ──► Treaties signed: Jodhpur, Udaipur, Bundi, Bikaner, Kishangarh, Jaipur, Banswara
+1823 CE ──► Sirohi signs as 17th and final state after Col. Tod disproves Jodhpur's claim (11 Sept)
+1832 CE ──► Rajputana Agency established at Ajmer; Major Abraham Lockett appointed first AGG
+1838 CE ──► Jhalawar created by partitioning Kota to satisfy Zalim Singh's heirs
+1845 CE ──► AGG's summer headquarters shifted to Mount Abu
+1857 CE ──► 28 May: Outbreak at Naseerabad; Spottiswoode and Newbery killed
+1857 CE ──► 3 June: Outbreak at Neemuch; Mohammad Ali Beg's challenge; Jag Mandir refuge
+1857 CE ──► 21 August: Jodhpur Legion revolts at Mount Abu and Erinpura ("Chalo Dilli, Maro Firangi")
+1857 CE ──► 8 September: Battle of Bithoda; Thakur Kushal Singh defeats royalist-British army
+1857 CE ──► 18 September: Battle of Chelawas; Captain Monck-Mason killed and hung on Auwa gate
+1857 CE ──► 15 October: Popular civil rebellion at Kota under Lala Jaidayal and Mehrab Khan
+1858 CE ──► 24 January: Brigadier Holmes captures and sacks Auwa; Sugali Mata idol seized
+1858 CE ──► 30 March: British and Karauli troops recapture Kota; Ram Singh II's salute reduced
+1858 CE ──► 22 June: Amar Chand Bathiya hanged at Gwalior ("Mangal Pandey of Rajasthan")
+1858 CE ──► 9 August: Tatya Tope defeated by General Roberts at Battle of Kuwada
+1859 CE ──► 18 April: Tatya Tope betrayed by Man Singh Naruka; executed at Shivpuri
+```
 
 ---
 
-## 9. RPSC RAS Examination Model Answer Laboratory
+## 19. Top 25 High-Yield Examination Traps
 
-### 9.1 Section A: 2-Mark High-Density Formulations (15–20 Words)
-
-#### Q1: Which was the first and last princely state in Rajasthan to sign the 1818 treaties?
-**Answer**: Under Lord Hastings' policy, **Karauli** signed first on 9 November 1817; **Sirohi** signed last on 11 September 1823.
-
-#### Q2: Name the two military cantonments in Rajasthan that did not participate in the 1857 Revolt.
-**Answer**: **Beawar** (manned by the Merwara Battalion) and **Kherwara** (manned by the Mewar Bhil Corps) did not revolt.
-
-#### Q3: What is the significance of the Battle of Chelawas (18 September 1857)?
-**Answer**: Known as the *"Battle of Black and White"*, revolutionaries routed AGG Lawrence's army and decapitated Jodhpur Political Agent **Mock Mason**, hanging his head on Auwa Fort.
-
-#### Q4: Why is Amar Chand Bathiya revered as the "Mangal Pandey of Rajasthan"?
-**Answer**: A Bikaner native and Gwalior state treasurer, he financed Rani Lakshmibai’s army with royal funds; hanged by the British on 22 June 1858 as Rajasthan’s first martyr.
-
-#### Q5: State the primary reason for the alteration of gun salutes of Kota and Karauli after 1857.
-**Answer**: Kota's salute was reduced from 17 to 13 for royal negligence during Burton's execution; Karauli's was raised from 13 to 17 for sending 2,000 troops to liberate Kota.
-
-#### Q6: What was the historic slogan of the Jodhpur Legion soldiers at Erinpura?
-**Answer**: *"Chalo Dilli, Maro Firangi"* (चलो दिल्ली, मारो फिरंगी), coined on 21 August 1857 under Subedar Moti Khan, Tilakram, and Sheetaldas.
-
-#### Q7: Who was Sugali Mata?
-**Answer**: The 10-headed, 54-armed tutelary deity of Thakur Kushal Singh Champawat of Auwa, venerated as the patron goddess of 1857 freedom fighters in Rajasthan.
+1. **First vs. Last 1818 Treaties**: Under Lord Hastings, **Karauli** signed first on 9 Nov 1817; **Sirohi** signed 17th and last on 11 Sept 1823.
+2. **First Treaty in Rajasthan (1803)**: Under Lord Wellesley's earlier system, **Bharatpur (29 Sept 1803)** was the first state in Rajasthan to sign a treaty, followed by Alwar.
+3. **States Paying Zero Khiraj**: **Jaisalmer, Bikaner, and Alwar** paid **zero tribute (*Khiraj*)** to the British.
+4. **Secret Clause of Kota's Treaty**: Preserved hereditary executive administration (*Faujdari*) for **Zalim Singh Jhala** and his heirs, marginalizing the reigning royal dynasty.
+5. **Reason for Sirohi's 5-Year Delay**: Delayed because **Maharaja Man Singh of Jodhpur** falsely claimed Sirohi was a subordinate dependency (*Pargana*) of Marwar.
+6. **The Non-Revolting Cantonments**: **Beawar** (Mer Battalion) and **Kherwara** (Mewar Bhil Corps) did **NOT** take part in the 1857 uprising.
+7. **Epicenter of 1857 in Rajasthan**: The first outbreak occurred at **Naseerabad on 28 May 1857** (18 days after Meerut).
+8. **Fate of Neemuch British Refugees**: Sheltered by peasant **Rungaram** at Doongla, then safely accommodated by Maharana Swaroop Singh at **Jag Mandir Palace** in Udaipur.
+9. **Origin of "Chalo Dilli, Maro Firangi"**: Coined and raised by the **Jodhpur Legion at Erinpura** on 21 August 1857, NOT at Naseerabad.
+10. **Bithoda vs. Chelawas Dates & Commanders**:
+    - **Bithoda (8 Sept 1857)**: Jodhpur commander Onad Singh killed; Captain Heathcote fled.
+    - **Chelawas (18 Sept 1857)**: "Battle of Black and White"; Captain George Monck-Mason beheaded; AGG George Lawrence routed.
+11. **Iconography of Sugali Mata**: **10 heads and 54 arms**; Kuldevi of the Champawat Rathores of Auwa, now preserved in the Bangar Museum, Pali.
+12. **Major Taylor Commission Verdict**: **Acquitted Thakur Kushal Singh** of murder charges in 1860, ruling that Monck-Mason fell during an open military engagement.
+13. **Nature of the Kota Revolt**: Kota had **no British military cantonment**; it was an organized popular civil revolution led by **Lala Jaidayal and Mehrab Khan**.
+14. **Gun Salute Alterations Post-1857**: **Kota's salute was reduced from 17 to 13 guns**; **Karauli's salute was increased from 13 to 17 guns** (for sending 2,000 troops under Madan Pal to relieve Kota).
+15. **Monarch Marching Beyond State Borders**: **Maharaja Sardar Singh of Bikaner**, who marched with cavalry into **Badlu (Punjab/Haryana)**; rewarded with 41 villages of Tibbi pargana.
+16. **First Martyr of Rajasthan in 1857**: **Amar Chand Bathiya** of Bikaner, hanged at Gwalior on 22 June 1858; known as the *"Mangal Pandey of Rajasthan"*.
+17. **"The Bhama Shah of 1857"**: Conferred upon **Amar Chand Bathiya** for financing Rani Lakshmibai and Tatya Tope from the imperial Gwalior treasury.
+18. **Betrayer of Tatya Tope**: Betrayed by **Man Singh Naruka** (Jagirdar of Narwar) in the Paron forests.
+19. **Execution Site of Tatya Tope**: Hanged at **Shivpuri (Madhya Pradesh)** on 18 April 1859.
+20. **Sole State Not Visited by Tatya Tope**: **Jaisalmer** was the only princely state in Rajasthan that Tatya Tope did not enter.
+21. **The Dholpur Liberation Army**: Liberated by a 2,000-man army sent by the **Maharaja of Patiala (Punjab)**.
+22. **Women Combatants in Rajasthan**: Women took up arms and fought British detachments in the **princely state of Tonk**.
+23. **First AGG vs. 1857 AGG**: **Major Abraham Lockett** was the first AGG (1832); **Colonel George Patrick Lawrence** was AGG during 1857.
+24. **Summer Headquarters of Rajputana Agency**: Shifted from Ajmer to **Mount Abu in 1845 CE**.
+25. **"Breakwaters in the Storm"**: Coined by Governor-General **Lord Canning** to describe the collaborative alignment of the Rajput princes.
 
 ---
 
-### 9.2 Section B: 5-Mark Analytical Blueprints (50 Words)
+## 20. Primary Sources & Source Concordance
 
-#### Q8: Analyze the strategic provisions and consequences of the Subordinate Alliance Treaties of 1818 in Rajasthan.
-**Answer**:
-Negotiated primarily by Charles Metcalfe under Lord Hastings:
-- **Core Covenants**: Princely states surrendered foreign affairs and defense to the British Company, paid annual tribute (*Khiraj*), and received internal territorial guarantees.
-- **Consequences**:
-  - Severed external defense autonomy; institutionalized British Political Agents (*PAs*) who usurped sovereign power.
-  - Sapped princely treasuries via heavy tribute, prompting rulers to impose excessive *Lāg-Bāg* (taxes) on peasants and feudals, creating the seeds of the 1857 uprising and peasant movements.
+1. **Aitchison, C.U. (Comp.), *A Collection of Treaties, Engagements and Sanads Relating to India and Neighbouring Countries* (Vol. III, Calcutta, 1932):** Authoritative archival texts of the bilateral treaties signed with Karauli, Kota, Jodhpur, Mewar, Jaipur, and Sirohi (1817–1823).
+2. **Khadgawat, Nathuram, *Rajasthan's Role in the Struggle of 1857* (Government of Rajasthan, 1957):** Standard academic monograph compiling primary intelligence reports, judicial depositions, and regional archival documents.
+3. **Foreign and Political Department Records (National Archives of India, New Delhi):** Primary dispatches of AGG George Lawrence, Major C.L. Showers (*A Missing Chapter of the Indian Mutiny*), and the Major Taylor Commission Report (1860).
+4. **Board of Secondary Education Rajasthan (RBSE), *History and Culture of Rajasthan* (Class 10, Chapter 1):** Prescribed state syllabus text establishing standard factual benchmarks and exam conventions.
+5. **Misran, Suryamal, *Veer Satsai* and *Vansh Bhaskar*:** Dingal literary compositions reflecting regional ideological resistance to foreign domination.
+6. **Mujeeb, Mohammad, *Teesra Farishta*:** Historical drama preserving local traditions of women combatants during the 1857 uprising in Tonk.
 
-#### Q9: Detail the unique popular character of the 1857 uprising in Kota.
-**Answer**:
+---
+
+# PART VI — ACTIVE RECALL & EXAMINATION PRACTICE LABORATORY
+
+## 21. High-Yield Prelims Practice Questions
+
+### Q1. Consider the following statements regarding the Subordinate Alliance Treaties (1817–1823) in Rajasthan:
+1. Karauli was the first princely state to sign a treaty under Lord Hastings' policy of Subordinate Cooperation.
+2. Sirohi was the last state to sign in 1823 due to territorial claims raised by Jodhpur.
+3. All princely states in Rajasthan were required to pay annual tribute (*Khiraj*) to the British.
+
+Which of the statements given above are correct?  
+(A) 1 and 2 only  
+(B) 2 and 3 only  
+(C) 1 and 3 only  
+(D) 1, 2, and 3  
+
+**Answer: (A).** Statements 1 and 2 are correct. Statement 3 is incorrect because Jaisalmer, Bikaner, and Alwar were exempted from paying *Khiraj*.
+
+---
+
+### Q2. Which pair of military cantonments in Rajasthan did NOT participate in the 1857 Revolution?
+(A) Naseerabad and Neemuch  
+(B) Erinpura and Deoli  
+(C) Beawar and Kherwara  
+(D) Neemuch and Erinpura  
+
+**Answer: (C).** Beawar (manned by the Merwara Battalion) and Kherwara (manned by the Mewar Bhil Corps) did not revolt.
+
+---
+
+### Q3. Match List-I (Princely States in 1857) with List-II (British Political Agents):
+
+| List-I (State) | List-II (Political Agent) |
+| :--- | :--- |
+| A. Mewar | 1. Major Charles Burton |
+| B. Marwar | 2. Major William Eden |
+| C. Jaipur | 3. Captain George Monck-Mason |
+| D. Kota | 4. Major C.L. Showers |
+
+Select the correct code:  
+(A) A-4, B-3, C-2, D-1  
+(B) A-3, B-4, C-1, D-2  
+(C) A-4, B-2, C-3, D-1  
+(D) A-1, B-3, C-2, D-4  
+
+**Answer: (A).** Mewar: Showers; Marwar: Monck-Mason; Jaipur: Eden; Kota: Burton.
+
+---
+
+### Q4. Which of the following leaders led the popular civil rebellion in Kota on 15 October 1857?
+(A) Subedar Moti Khan and Sheetaldas  
+(B) Lala Jaidayal and Mehrab Khan  
+(C) Ramchandra and Hira Lal  
+(D) Mohammad Ali Beg and Hira Singh  
+
+**Answer: (B).** Lala Jaidayal (clerk from Kama) and Mehrab Khan (Risaldar from Karauli) led the Kota rebellion.
+
+---
+
+### Q5. At which battle did the Auwa revolutionaries route AGG George Lawrence and behead Political Agent Captain Monck-Mason?
+(A) Battle of Bithoda (8 September 1857)  
+(B) Battle of Chelawas (18 September 1857)  
+(C) Battle of Kuwada (9 August 1858)  
+(D) Battle of Mangrol (1 October 1821)  
+
+**Answer: (B).** The Battle of Chelawas (18 Sept 1857), celebrated in folklore as the *"Battle of Black and White"*.
+
+---
+
+### Q6. Which Rajput ruler personally led his state army outside Rajasthan into British Punjab to suppress the 1857 rebels?
+(A) Maharana Swaroop Singh of Mewar  
+(B) Maharaja Takht Singh of Jodhpur  
+(C) Maharaja Sardar Singh of Bikaner  
+(D) Maharaja Ram Singh II of Jaipur  
+
+**Answer: (C).** Maharaja Sardar Singh of Bikaner marched with royal cavalry into Badlu (Punjab/Haryana) and was rewarded with 41 villages of the Tibbi pargana.
+
+---
+
+## 22. Mains Examination Answer Laboratory
+
+### 2-Mark High-Density Formulations (15–20 Words)
+
+#### Q1: What was the supplementary clause in Kota's 1817 treaty?
+**Answer:** Added in February 1818 by Charles Metcalfe, it guaranteed that royal title remained with Ummed Singh's progeny, but executive administrative power (*Diwani/Faujdari*) descended hereditarily to Zalim Singh Jhala and his heirs.
+
+#### Q2: Who was Amar Chand Bathiya, and why is he historically significant?
+**Answer:** A Bikaner native and Gwalior state treasurer, he financed Rani Lakshmibai and Tatya Tope with royal funds; hanged on 22 June 1858 as Rajasthan’s first martyr (*"Mangal Pandey of Rajasthan"*).
+
+#### Q3: State the reason for the alteration of gun salutes of Kota and Karauli after 1857.
+**Answer:** Kota's salute was reduced from 17 to 13 guns for complicity in Major Burton's murder; Karauli's salute was raised from 13 to 17 guns for dispatching 2,000 troops under Madan Pal to liberate Kota.
+
+#### Q4: What was the outcome of the Major Taylor Commission (1860)?
+**Answer:** The commission acquitted Thakur Kushal Singh of Auwa of murder charges, ruling that Political Agent Monck-Mason was killed in open military engagement, not through assassination.
+
+---
+
+### 5-Mark Analytical Blueprints (50 Words)
+
+#### Q5: Examine the strategic provisions and economic impact of the 1818 Subordinate Alliance Treaties in Rajasthan.
+**Answer:**
+Negotiated by Charles Metcalfe under Lord Hastings:
+- **Provisions:** States surrendered foreign relations and defense to the British, accepted British arbitration, and paid annual tribute (*Khiraj*), while the Company guaranteed internal protection.
+- **Economic & Political Impact:**
+  - Annual *Khiraj* drained state treasuries, forcing rulers to levy oppressive cesses (*Lāg-Bāg*) on peasants and Jagirdars.
+  - British security enabled princes to ignore traditional feudal checks, creating bitter conflicts with clan nobles that culminated in the 1857 uprising.
+
+#### Q6: Explain the unique popular character of the 1857 uprising in Kota.
+**Answer:**
 The Kota uprising (15 October 1857) represented the pinnacle of popular civil resistance in Rajasthan:
-- **Absence of Cantonment**: Not a sepoy mutiny, but an organized rebellion by state forces and citizens led by **Lala Jaidayal** and **Mehrab Khan**.
-- **Residency Assault**: Executed Political Agent Major Charles Burton and his sons; imprisoned Maharao Ram Singh II in his palace.
-- **Civil Administration**: Ran an independent people's government for nearly six months, collecting taxes and administering justice until liberated by General Roberts and Karauli troops in March 1858.
-
-#### Q10: Evaluate the role of Thakur Kushal Singh of Auwa in the 1857 resistance.
-**Answer**:
-Thakur Kushal Singh Champawat served as the focal point of military resistance against British imperialism in Marwar:
-- **Military Victories**: United Erinpura mutineers with local feudal levies, achieving back-to-back victories at **Bithoda** (8 Sept 1857, killing Onad Singh) and **Chelawas** (18 Sept 1857, slaying PA Mock Mason).
-- **Spiritual & Feudal Symbol**: Fought beneath the banner of **Sugali Mata**, inspiring the peasantry across Marwar.
-- **Honor Preserved**: Evacuated Auwa before Holmes' siege; later acquitted by the Major Taylor Commission (1860) of murder charges.
+1. **Absence of Cantonment:** Initiated not by regular British sepoys, but by state troops and citizens led by **Lala Jaidayal** and **Mehrab Khan**.
+2. **Residency Assault:** Stormed the residency, executed Political Agent Major Charles Burton, and interned Maharao Ram Singh II in his palace.
+3. **Popular Governance:** Established an independent civil administration for nearly six months, managing the treasury and courts until crushed by General Roberts and Karauli troops in March 1858.
 
 ---
 
-### 9.3 Section C: 10-Mark Multi-Dimensional Frameworks (100 Words)
+### 10-Mark Multi-Dimensional Frameworks (100 Words)
 
-#### Q11: "The Rajput princes acted as breakwaters in the storm during the 1857 Revolution." Critically examine this statement with historical evidence from Rajasthan.
-**Answer**:
-Governor-General Lord Canning’s assessment accurately captures the decisive, collaborative alignment of the Rajput princely order with the British Empire during the 1857 crisis:
+#### Q7: "The Rajput princes acted as breakwaters in the storm during the 1857 Revolution." Critically analyze this statement with evidence from Rajasthan.
+**Answer:**
+Governor-General Lord Canning’s observation accurately describes how the collaborative alignment of the Rajput princely order preserved British rule in northwestern India during 1857:
 
 ```
 ┌───────────────────────────┬───────────────────────────────────────────────────────────────────┐
-│ Princely Ruler & State    │ Tangible Collaborative Actions Suppressing the 1857 Revolution    │
+│ Princely Monarch & State  │ Concrete Military and Logistics Support Provided to the British   │
 ├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 1. Mewar (Swaroop Singh)  │ • Sheltered 40 British refugees from Neemuch at Jag Mandir Palace.│
-│                           │ • Issued circulars ordering all feudals to obey British commands. │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 2. Marwar (Takht Singh)   │ • Dispatched royal army with artillery under Onad Singh to crush  │
-│                           │   Auwa revolutionaries; sheltered British officers in Jodhpur.    │
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 3. Jaipur (Ram Singh II)  │ • Placed Jaipur state army at disposal of PA Major William Eden;  │
-│                           │   guarded Agra road; rewarded with Kotputli pargana & Sitar-e-Hind│
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 4. Bikaner (Sardar Singh) │ • Personally marched with royal cavalry OUTSIDE his state into    │
-│                           │   Badlu (Punjab/Haryana) to crush rebels; rewarded with 41 villages│
-├───────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ 5. Karauli (Madan Pal)    │ • Dispatched 2,000 troops with guns to liberate Kota from rebel   │
-│                           │   administration; gun salute increased from 13 to 17.             │
+│ 1. Mewar (Swaroop Singh)  │ Sheltered 40 Neemuch British refugees at Jag Mandir; instructed   │
+│                           │ all Mewari nobles to obey British commands.                       │
+│ 2. Marwar (Takht Singh)   │ Dispatched royal army under Faujdar Onad Singh to crush Auwa;     │
+│                           │ guarded lines of communication.                                   │
+│ 3. Jaipur (Ram Singh II)  │ Placed state cavalry at Major Eden's disposal; secured the Agra-  │
+│                           │ Delhi road; rewarded with Kotputli pargana and Sitar-e-Hind.      │
+│ 4. Bikaner (Sardar Singh) │ Personally marched with his army outside Rajasthan into Badlu     │
+│                           │ (Punjab) to crush rebels; rewarded with 41 villages of Tibbi.     │
+│ 5. Karauli (Madan Pal)    │ Dispatched 2,000 troops with artillery to help General Roberts    │
+│                           │ liberate Kota; gun salute raised from 13 to 17.                   │
 └───────────────────────────┴───────────────────────────────────────────────────────────────────┘
 ```
-**Conclusion**: While regional Jagirdars (Auwa, Asop) and common folk revolted passionately, the sovereign princes identified their dynastic survival with British paramountcy. Their armies, treasuries, and logistics insulated British garrisons, preventing the uprising from consolidating a unified provincial front.
+**Conclusion:** While alienated Jagirdars (Auwa, Asop) and state forces rebelled, the sovereign princes recognized that their dynastic security depended on British paramountcy. Their armies, treasuries, and sanctuaries prevented the scattered local outbreaks from coalescing into a unified provincial front.
 
 ---
 
-#### Q12: Trace the chronological progression, major centers, and underlying causes of failure of the 1857 Revolution in Rajasthan.
-**Answer**:
-The 1857 Revolution in Rajasthan developed across several vibrant military theaters before succumbing to imperial firepower:
+#### Q8: Trace the causes of failure and long-term consequences of the 1857 Revolution in Rajasthan.
+**Answer:**
+Despite intense localized resistance, the 1857 uprising in Rajasthan collapsed due to structural and strategic deficits:
 
-1. **Chronological Trajectory & Key Centers**:
-   - **Naseerabad (28 May)**: Initial spark by 15th/30th BNI sepoys; Spottiswoode killed; marched to Delhi.
-   - **Neemuch (3 June)**: Led by Mohammad Ali Beg; 40 British rescued at Doongla, sheltered at Jag Mandir.
-   - **Erinpura & Auwa (Aug–Sept)**: Jodhpur Legion marched with *"Chalo Dilli, Maro Firangi"*; Kushal Singh annihilated royal/British forces at Bithoda (8 Sept) and Chelawas (18 Sept).
-   - **Kota (15 Oct)**: Popular democratic uprising under Jaidayal and Mehrab Khan; Major Burton beheaded; 6 months of citizen governance.
+1. **Causes of Failure:**
+   - **Princely Collaboration:** Monolithic backing of British authority by major rulers denied rebels state sanctuary and financial backing.
+   - **Lack of Unified Command:** Mutineers at Naseerabad and Erinpura marched toward Delhi rather than capturing the central British arsenal at Ajmer.
+   - **Technological & Artillery Inferiority:** Rebel forces lacked siege ordnance to withstand British columns under General Roberts and Brigadier Holmes.
+   - **Isolation of Leaders:** Tatya Tope failed to secure durable royal alliances and was ultimately betrayed by Man Singh Naruka.
 
-2. **Underlying Causes of Failure**:
-   - **Princely Treachery**: Monolithic support of Rajput rulers (Udaipur, Jodhpur, Jaipur, Bikaner) to the British, denying local rebels state patronage.
-   - **Absence of Unified Command**: Insurgents at Naseerabad and Erinpura left Rajasthan for Delhi rather than converging on the British central arsenal at Ajmer.
-   - **Logistical & Artillery Deficit**: Rebels lacked heavy siege ordnance to withstand British counter-attacks under General Roberts and Brigadier Holmes.
-   - **Betrayal of Leadership**: Key coordinators like Tatya Tope were betrayed by local Jagirdars (Man Singh Naruka), terminating guerrilla momentum by early 1859.
-
----
-
-[Chapter 06 Complete ➔ Next: Chapter 07: Peasant & Agrarian Movements (Bijolia, Bengu, Bundi, Alwar, Shekhawati)]
+2. **Long-Term Administrative & Political Consequences:**
+   - **Direct Crown Rule (1858):** The British Crown assumed direct sovereignty, confirming princely states through the *Sanad of Adoption* (1862).
+   - **Loyalty Rewarded & Disciplined:** Rulers received territorial grants (Bikaner, Jaipur) or altered gun salutes (Kota reduced, Karauli elevated).
+   - **Accelerated Colonial Modernization:** Construction of railways, roads, and telegraphs integrated Rajasthan militarily and economically into British India.

@@ -17,6 +17,33 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v042 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 06 Forensic Audit Remediation
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: FORENSICALLY REMEDIATED CHAPTER 06 & REVISION MATRIX (EPISTEMIC STANDARDS ENFORCED)**
+* **Audit Score Baseline Remediation**:
+  - Remediated Chapter 06 from prior unvetted state (Lacking 4-tier Epistemic Demarcation, Orthographic Misconceptions, Feudal/Agrarian Omissions) to verified academic benchmark (~75–85% dependable single-source coverage).
+  - Enforced 4-tier epistemic hierarchy: `[Secure Core]`, `[Textbook Convention]`, `[Tradition / Local Narrative]`, and `[Historiographical Debate / Analytical Nuance]`.
+* **Primary Deliverables**:
+  1. **Remediated Chapter 06 Codex**: `007/notes/rajasthan/07_CHAPTER_06_BRITISH_TREATIES_1818_AND_1857_REVOLUTION.md` (630+ lines, 22 master sections, 6 Prelims MCQs, 8 model Mains answer frameworks, full primary verification logs).
+  2. **Remediated Rapid Revision Matrix 06**: `007/revision/rajasthan/06_REV_CHAPTER_06_1818_TREATIES_1857_REVOLUTION.md` (60-second retrieval skeleton, 1857 invariants grid with explicit epistemic tags, top 10 verified traps, diagnostic flashcards).
+* **Key Epistemic Corrections Implemented**:
+  - **Sanitized Critical Factual Traps & Terminology**:
+    - Disentangled Lord Wellesley's 1803 early accords (**Bharatpur 29 Sept 1803** was first in Rajasthan, followed by Alwar) from Lord Hastings' 1817–1823 Subordinate Cooperation Treaties (**Karauli 9 Nov 1817** first; **Sirohi 11 Sept 1823** 17th and last).
+    - Corrected colonial orthography: Replaced phonetic corruption "Mock Mason" with his verified historical identity: **Captain George Monck-Mason**.
+    - Explicitly highlighted the zero-tribute states: **Jaisalmer, Bikaner, and Alwar** paid **zero Khiraj** because they had no prior Maratha Chauth liability.
+    - Verified the 5-year delay of Sirohi: Caused by Maharaja Man Singh of Jodhpur falsely claiming Sirohi was a subordinate fiefdom of Marwar (disproved by Col. James Tod).
+    - Clarified the two non-participating military cantonments: **Beawar** (Merwara Battalion) and **Kherwara** (Mewar Bhil Corps) did **NOT** revolt.
+  - **Tradition vs. Empirical Reality Disentanglement**:
+    - Bithoda (8 Sept 1857) vs Chelawas (18 Sept 1857): Bithoda saw Jodhpur Faujdar Onad Singh killed; Chelawas saw Captain Monck-Mason beheaded and his head hung on Auwa gate by Thakur Kushal Singh's revolutionaries.
+    - Contextualized the Major Taylor Commission (1860): Thakur Kushal Singh was acquitted because Monck-Mason was killed in open warfare rather than assassinated.
+    - Reconstructed Kota's popular revolution (15 Oct 1857): Emphasized that Kota had **no British military cantonment**; the revolt was an organized popular civil revolution led by Lala Jaidayal and Mehrab Khan, running six months of civilian administration.
+  - **Statecraft, Agrarian & Intellectual Resistance**:
+    - Integrated analysis of British demilitarization of Rajput states and creation of local imperial corps (Merwara Battalion 1822, Shekhawati Brigade 1835, Jodhpur Legion 1835, Kota Contingent 1838, Mewar Bhil Corps 1841) maintained at the cost of state treasuries.
+    - Detailed the subversion of the feudal contract (*primus inter pares*) and British salt/opium monopolies driving rural impoverishment and noble alienation.
+    - Expanded intellectual resistance: Suryamal Misran (*Veer Satsai*, *Vansh Bhaskar*) and Bankidas Asiya (*Aayo Angrez Mulk re Upar*).
+    - Detailed the collaborative stance of ruling princes ("Breakwaters in the storm" - Canning) and Maharaja Sardar Singh of Bikaner marching into Badlu (Punjab) rewarded with 41 villages of Tibbi pargana.
+
 ### [STAGED LOCAL] v041 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 05 Forensic Audit Remediation
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
