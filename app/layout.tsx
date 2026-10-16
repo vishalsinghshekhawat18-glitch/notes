@@ -72,11 +72,11 @@ export default function RootLayout({
               <span className="text-[#D5DDD6]">Sovereign Knowledge Library</span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-[11px] text-[#A1B8A9]">
-              <span>5 Academic Domains</span>
+              <span>6 Academic Domains</span>
               <span className="text-[#2A4D3E]">•</span>
-              <span>8 Master Treatises</span>
+              <span>11 Master Treatises</span>
               <span className="text-[#2A4D3E]">•</span>
-              <span>269 Chapters</span>
+              <span>371 Chapters</span>
               <span className="text-[#2A4D3E]">•</span>
               <span className="text-[#C59B4B] font-semibold">Primary Source Grounded</span>
             </div>

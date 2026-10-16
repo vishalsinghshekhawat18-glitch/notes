@@ -227,7 +227,7 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
       code: 'ECO-007',
       authors: 'Ramesh Singh • Vivek Singh • Nitin Singhania • Sanjeev Verma • K. Sankarganesh • CGB Mentors ESI',
       description:
-        'Sovereign macroeconomic and social issues architecture covering National Income (2015 SNA), Monetary Transmission, Banking & NPAs, Public Finance, Income-tax Act 2025, Foreign Trade Policy 2023, Five-Year Plans & NITI Aayog, 4 New Labor Codes (2025), Urbanization, Multiculturalism, Capstone Revision Vault (Ch 26), and Economy of Rajasthan (Ch 27).',
+        'Sovereign macroeconomic and social issues architecture covering National Income (2015 SNA), Monetary Transmission, Banking & NPAs, Public Finance, Income-tax Act 2025, Foreign Trade Policy 2023, Five-Year Plans & NITI Aayog, 4 New Labor Codes (2025), Urbanization, Multiculturalism, and Capstone Revision Vault.',
       totalChapters: econChapters.length,
       totalWords: econWords,
       chips: [
@@ -236,8 +236,8 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'Foreign Trade Policy 2023 (FTP)',
         '4 New Labor Codes (21 Nov 2025)',
         'Economic Planning & NITI Aayog (Ch 22)',
+        'Urbanization & Demographics (Ch 25)',
         'Grand Synthesis Revision Vault (Ch 26)',
-        'Economy of Rajasthan Master Block (Ch 27)',
       ],
     },
     {
@@ -285,21 +285,21 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
     },
     {
       slug: 'history',
-      name: 'History: Ancient, Medieval, Modern, Rajasthan & World Combined',
-      badge: 'Unified 5-Dimensional Master Treatise',
+      name: 'History: Ancient, Medieval, Modern & World History Unified',
+      badge: 'Unified 4-Dimensional Master Treatise',
       badgeColor: 'text-[#854d0e] bg-[#fefce8] border-[#fef08a]',
       code: 'HIST-007',
-      authors: 'Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • G.N. Sharma • Norman Lowe',
+      authors: 'Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • Norman Lowe',
       description:
-        'Sovereign 39-chapter doctoral-depth historical synthesis integrating Ancient Civilizations & Epigraphy, Medieval Institutional Dynamics, Modern Freedom Struggle, Comprehensive Rajasthan Dynasties & Heritage (RPSC RAS), World History Revolutions, and Capstone Synchronized Revision Vault.',
+        'Sovereign 39-chapter doctoral-depth historical synthesis integrating Ancient Civilizations & Epigraphy, Medieval Institutional Dynamics, Modern Freedom Struggle, World History Revolutions, and Capstone Synchronized Revision Vault.',
       totalChapters: 39,
       totalWords: 0,
       chips: [
         'Ancient India & Archaeological Edicts',
         'Medieval Institutions & Bhakti/Sufi Synthesis',
         'Modern India & Gandhian Freedom Struggle',
-        'Rajasthan Dynasties, 1857 & Integration (RAS)',
         'World Revolutions & Global Transformations',
+        'Decolonization & Post-Independence Consolidation',
         'Grand Chronological Sync Vault (Ch 39)',
       ],
     },
@@ -348,13 +348,13 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
     },
     {
       slug: 'geography',
-      name: 'Geography: India, World & Rajasthan (Physical, Human, Social & Environmental Master Architecture)',
-      badge: 'Majid Husain • Shankar IAS • Savindra Singh • Bhalla',
+      name: 'Geography: Physical, India & World Master Architecture',
+      badge: 'Majid Husain • Shankar IAS • Savindra Singh • NCERTs',
       badgeColor: 'text-[#0f766e] bg-[#f0fdfa] border-[#99f6e4]',
       code: 'GEO-007',
-      authors: 'Prof. Majid Husain • Shankar IAS Academy • Dr. Savindra Singh • Dr. L.R. Bhalla • NCERTs',
+      authors: 'Prof. Majid Husain • Shankar IAS Academy • Dr. Savindra Singh • NCERTs',
       description:
-        'Sovereign 36-chapter doctoral-depth geographical codex integrating Geomorphology, Climatology, Oceanography, Environmental Ecology, World Regions & Strategic Chokepoints, Indian Morphotectonics & Monsoons, Rajasthan Regional Geography (RPSC RAS), Human Geographic Paradigms, and Capstone Revision Vault.',
+        'Sovereign 36-chapter doctoral-depth geographical codex integrating Geomorphology, Climatology, Oceanography, Environmental Ecology, World Regions & Strategic Chokepoints, Indian Morphotectonics & Monsoons, Human Geographic Paradigms, and Capstone Revision Vault.',
       totalChapters: getGeographyChapters().length,
       totalWords: getGeographyChapters().reduce((acc, c) => acc + c.wordCount, 0),
       chips: [
@@ -364,7 +364,7 @@ export function getShelf007Subjects(): Shelf007SubjectMeta[] {
         'Environmental Ecology & Climate Accords',
         'World Regions & Strategic Chokepoints',
         'Indian Physiography, Monsoons & Soils',
-        'Rajasthan Geography (4 Divisions, IGNP, Minerals - RAS)',
+        'Agriculture, Mineral Corridors & Industrial Geography',
         'Human Geography & Demographic Models',
         'Grand Capstone Revision Vault (Ch 36)',
       ],

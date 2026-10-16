@@ -8,7 +8,7 @@ interface MonographSubject {
   id: string;
   code: string;
   volumeRoman: string;
-  domainId: 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG';
+  domainId: 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG' | 'RAJ';
   domainTitle: string;
   title: string;
   authorText: string;
@@ -23,7 +23,7 @@ interface MonographSubject {
 }
 
 const KNOWLEDGE_DOMAINS: {
-  id: 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG';
+  id: 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG' | 'RAJ';
   numeral: string;
   name: string;
   tagline: string;
@@ -64,6 +64,13 @@ const KNOWLEDGE_DOMAINS: {
     tagline: '120 Golden grammar rules, syntactic inversion, etymological root engines & descriptive essay laboratory.',
     emblem: '🖋️',
   },
+  {
+    id: 'RAJ',
+    numeral: 'VI',
+    name: 'Rajasthan',
+    tagline: 'Sovereign single-volume section for RPSC RAS: dynasties, 1857 resistance, culture, geography, governance & state economy.',
+    emblem: '🏰',
+  },
 ];
 
 const MONOGRAPHS: MonographSubject[] = [
@@ -91,15 +98,15 @@ const MONOGRAPHS: MonographSubject[] = [
     volumeRoman: 'VOL. II',
     domainId: 'GOV',
     domainTitle: 'Governance & Society',
-    title: 'History: Ancient, Medieval, Modern, Rajasthan & World Combined',
+    title: 'History: Ancient, Medieval, Modern & World History Unified',
     authorText: 'Upinder Singh • Satish Chandra • Bipan Chandra • Sekhar Bandyopadhyay • Spectrum • Norman Lowe',
     description:
-      'Unified historical synthesis integrating Ancient Civilizations & Inscriptional Edicts, Medieval Institutional Dynamics, Modern Freedom Struggle, Comprehensive Rajasthan Dynasties & Heritage (RPSC RAS), and World Revolutions.',
+      'Unified historical synthesis integrating Ancient Civilizations & Inscriptional Edicts, Medieval Institutional Dynamics, Modern Freedom Struggle, and World Revolutions.',
     totalChapters: 39,
     totalWordsText: 'Curriculum Blueprint',
     mcqCount: 780,
     primarySource: 'Upinder Singh • Satish Chandra • Bipan Chandra • Spectrum • Norman Lowe',
-    keyCoverage: 'Indus & Vedic Archaeology · Delhi Sultanate & Mughals · Modern Freedom Struggle · Rajasthan Heritage · World Revolutions',
+    keyCoverage: 'Indus & Vedic Archaeology · Delhi Sultanate & Mughals · Modern Freedom Struggle · World Revolutions',
     hubUrl: '/shelf-007/history',
     readUrl: '/shelf-007/history/chapter-01',
   },
@@ -145,15 +152,15 @@ const MONOGRAPHS: MonographSubject[] = [
     volumeRoman: 'VOL. V',
     domainId: 'EARTH',
     domainTitle: 'Earth & Environment',
-    title: 'Geography: India, World & Rajasthan Master Treatise',
+    title: 'Geography: Physical, India & World Master Treatise',
     authorText: 'Majid Husain • Savindra Singh • NCERT Classes 11–12 • Survey of India Maps',
     description:
-      'Rigorous planetary physical geography, geomorphology, atmospheric dynamics, oceanography, Indian physiographic divisions, monsoon mechanisms, natural resources, and comprehensive Rajasthan state geography.',
+      'Rigorous planetary physical geography, geomorphology, atmospheric dynamics, oceanography, Indian physiographic divisions, monsoon mechanisms, and national resource corridors.',
     totalChapters: 29,
     totalWordsText: '78K words',
     mcqCount: 650,
     primarySource: 'Majid Husain • Savindra Singh • NCERT Classes 11–12',
-    keyCoverage: 'Geomorphology & Tectonics · Climatology & Oceanography · Indian Drainage & Agriculture · Rajasthan Topography & Minerals',
+    keyCoverage: 'Geomorphology & Tectonics · Climatology & Oceanography · Indian Drainage & Agriculture · National Resource Corridors',
     hubUrl: '/shelf-007/geography',
     readUrl: '/shelf-007/geography/chapter-01',
   },
@@ -247,6 +254,24 @@ const MONOGRAPHS: MonographSubject[] = [
     hubUrl: '/shelf-007/current-affairs',
     readUrl: '/shelf-007/current-affairs/chapter-01',
   },
+  {
+    id: 'raj-007',
+    code: 'RAJ-007',
+    volumeRoman: 'VOL. XI',
+    domainId: 'RAJ',
+    domainTitle: 'Rajasthan (RPSC RAS Single-Volume Section)',
+    title: 'Rajasthan Sovereign Master Codex (RPSC RAS Mega Book)',
+    authorText: 'Rajasthan Board (RBSE) • डॉ. गोपीनाथ शर्मा • डॉ. हुकुमचंद जैन • डॉ. एल.आर. भल्ला • डॉ. हरि मोहन सक्सेना • डॉ. जनक सिंह मीना • DES',
+    description:
+      'Sovereign single-volume master treatise for RPSC RAS covering Chapter 00 (Master Syllabus Architecture & Exam Blueprint), Ancient Civilizations & Dynastic Hegemony (Ch 01–05), Colonial Resistance, 1857 & Freedom Movements (Ch 06–10), Forts, Palaces, Paintings & Cultural Heritage (Ch 11–17), Morphotectonic Divisions, Drainage & Natural Resources (Ch 18–23), Political, High Court & District Administration (Ch 24–29), State Economy & DES Review (Ch 30–34), Specialized RAS Mains Disciplines (Ch 35–36), and Capstone Revision Vault (Ch 37).',
+    totalChapters: 38,
+    totalWordsText: '272K words',
+    mcqCount: 1450,
+    primarySource: 'RBSE • Dr. Gopinath Sharma • Jain & Mali • Dr. L.R. Bhalla • Dr. H.M. Saxena • DES',
+    keyCoverage: 'Ancient Sites & Dynasties · 1857, Peasant & Prajamandal · Forts, Art & Fairs · Geography & IGNP · Polity & State Administration · Rajasthan Economy & Review',
+    hubUrl: '/shelf-007/rajasthan',
+    readUrl: '/shelf-007/rajasthan/chapter-01',
+  },
 ];
 
 interface SavedPosition {
@@ -262,12 +287,12 @@ interface SavedPosition {
 export function ScholarlyLibraryHome() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [savedPosition, setSavedPosition] = useState<SavedPosition | null>(null);
-  const [activeDomainFilter, setActiveDomainFilter] = useState<'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG'>('GOV');
+  const [activeDomainFilter, setActiveDomainFilter] = useState<'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG' | 'RAJ'>('GOV');
 
   useEffect(() => {
     try {
       const savedWing = localStorage.getItem('reading_hub_active_wing');
-      if (savedWing && ['ALL', 'GOV', 'ECO', 'EARTH', 'SCI', 'LANG'].includes(savedWing)) {
+      if (savedWing && ['ALL', 'GOV', 'ECO', 'EARTH', 'SCI', 'LANG', 'RAJ'].includes(savedWing)) {
         setActiveDomainFilter(savedWing as any);
       }
     } catch {
@@ -275,7 +300,7 @@ export function ScholarlyLibraryHome() {
     }
   }, []);
 
-  const handleSelectWing = (wing: 'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG') => {
+  const handleSelectWing = (wing: 'ALL' | 'GOV' | 'ECO' | 'EARTH' | 'SCI' | 'LANG' | 'RAJ') => {
     setActiveDomainFilter(wing);
     try {
       localStorage.setItem('reading_hub_active_wing', wing);
@@ -442,7 +467,7 @@ export function ScholarlyLibraryHome() {
               className="px-2.5 py-1.5 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-1.5 shadow-2xs shrink-0 text-xs"
             >
               <span>🏛️</span>
-              <span>All 10 Treatises</span>
+              <span>All 11 Treatises</span>
             </Link>
 
             <a
@@ -450,7 +475,7 @@ export function ScholarlyLibraryHome() {
               className="px-2.5 py-1.5 rounded-lg bg-[#FFFFFF] hover:bg-[#FAF9F4] border border-[#E0D9CB] text-[#10251F] font-semibold transition-colors inline-flex items-center gap-1.5 shadow-2xs shrink-0 text-xs"
             >
               <span>🧭</span>
-              <span>5 Wings</span>
+              <span>6 Wings</span>
             </a>
 
             <Link
@@ -472,7 +497,7 @@ export function ScholarlyLibraryHome() {
       </nav>
 
       {/* =========================================================================
-          LAYER E: THE FIVE WINGS OF THE LIBRARY (Floorplan & Wing Navigator)
+          LAYER E: THE SIX WINGS OF THE LIBRARY (Floorplan & Wing Navigator)
           Atlas-like spatial index. Major navigational moment with generous presence.
           ========================================================================= */}
       <section id="knowledge-terrain" className="scroll-mt-24 space-y-3.5 sm:space-y-4 w-full min-w-0">
@@ -482,16 +507,16 @@ export function ScholarlyLibraryHome() {
               Archival Floorplan
             </span>
             <h2 className="font-serif font-bold text-lg sm:text-2xl text-[#10251F] tracking-tight mt-0.5">
-              The Five Wings of the Library
+              The Six Wings of the Library
             </h2>
           </div>
           <p className="text-[11px] sm:text-xs font-mono text-[#5A7365] max-w-md sm:text-right">
-            The five major architectural territories of knowledge across constitutional statecraft, macroeconomic corridors, planetary geography, empirical sciences, and administrative rhetoric.
+            The six major architectural territories of knowledge across constitutional statecraft, macroeconomic corridors, planetary geography, empirical sciences, administrative rhetoric, and the sovereign Rajasthan RPSC RAS codex.
           </p>
         </div>
 
-        {/* The 5 Domain Wing Selectors (Interactive Spatial Navigation) */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 w-full min-w-0 text-xs font-mono">
+        {/* The 6 Domain Wing Selectors (Interactive Spatial Navigation) */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 w-full min-w-0 text-xs font-mono">
           <button
             onClick={() => handleSelectWing('ALL')}
             className={`p-2.5 sm:p-3 rounded-xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-1.5 shadow-2xs min-h-[68px] sm:min-h-[76px] ${
@@ -503,7 +528,7 @@ export function ScholarlyLibraryHome() {
             <div className="flex items-center justify-between">
               <span className="text-base sm:text-lg">🏛️</span>
               <span className={`text-[10px] font-bold ${activeDomainFilter === 'ALL' ? 'text-[#C59B4B]' : 'text-[#5A7365]'}`}>
-                10 Treatises
+                11 Treatises
               </span>
             </div>
             <div className="font-serif font-bold text-xs sm:text-sm leading-tight">All Library Wings</div>
@@ -558,7 +583,7 @@ export function ScholarlyLibraryHome() {
               onClick={() => handleSelectWing('ALL')}
               className="px-2.5 py-1 rounded-md bg-[#1E3A2E] hover:bg-[#2A4D3E] text-[#FAF8F3] border border-[#3E6554] cursor-pointer text-[11px] font-bold transition-colors"
             >
-              Show All 5 Wings (Unrolled) →
+              Show All 6 Wings (Unrolled) →
             </button>
           </div>
         )}
@@ -1221,6 +1246,101 @@ export function ScholarlyLibraryHome() {
             </div>
           </section>
         )}
+
+        {/* -----------------------------------------------------------------------
+            WING VI: RAJASTHAN (Sovereign Single-Volume Section · RPSC RAS)
+            ----------------------------------------------------------------------- */}
+        {(activeDomainFilter === 'ALL' || activeDomainFilter === 'RAJ') && (
+          <section id="domain-raj" className="space-y-3.5 scroll-mt-24 w-full min-w-0">
+            {/* Distinctive Wing Opening Banner */}
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-[#F5F2EB] border-l-4 border-l-[#C59B4B] border-y border-r border-[#E0D9CB] flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 min-w-0">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-xl bg-[#10251F] text-[#FAF8F3] flex items-center justify-center text-base shrink-0 shadow-2xs">
+                  🏰
+                </div>
+                <div className="min-w-0">
+                  <div className="text-[10px] font-mono uppercase tracking-widest text-[#9E722C] font-bold">
+                    Section VI · Rajasthan (Single-Volume Sovereign Codex)
+                  </div>
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-[#10251F] tracking-tight">
+                    Rajasthan Sovereign Master Codex · RPSC RAS
+                  </h3>
+                </div>
+              </div>
+              <p className="text-xs font-serif italic text-[#5A7365] max-w-sm sm:text-right">
+                38 Comprehensive chapters, dynastic chronology, 1857 resistance, arts, geography, state polity & economic review.
+              </p>
+            </div>
+
+            {/* Sovereign Single Volume Layout */}
+            <div className="grid grid-cols-1 w-full min-w-0">
+              {(() => {
+                const raj = MONOGRAPHS.find((m) => m.id === 'raj-007')!;
+                return (
+                  <article className="rounded-2xl bg-[#FFFFFF] border-2 border-[#10251F] p-4 sm:p-5 transition-all duration-200 shadow-sm hover:shadow-md space-y-3.5">
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#E8E2D5] pb-2 text-xs font-mono">
+                      <div className="flex items-center gap-2">
+                        <span className="px-2.5 py-0.5 rounded-full bg-[#10251F] text-[#FAF8F3] font-bold text-[10px]">
+                          {raj.volumeRoman} · {raj.code}
+                        </span>
+                        <span className="text-[10px] uppercase tracking-wider text-[#9E722C] font-semibold">
+                          RPSC RAS Sovereign Master Treatise
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-3 text-xs">
+                        <span className="font-semibold text-[#10251F]">
+                          {raj.totalChapters} Chapters
+                        </span>
+                        <span className="text-[#C59B4B] font-bold">
+                          {raj.totalWordsText}
+                        </span>
+                        <span className="text-[#5A7365]">
+                          {raj.mcqCount} Questions
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2">
+                      <Link href={raj.hubUrl} className="block group">
+                        <h4 className="font-serif font-bold text-lg sm:text-xl text-[#10251F] group-hover:text-[#1B4D3C] transition-colors leading-tight">
+                          {raj.title}
+                        </h4>
+                      </Link>
+
+                      <p className="font-serif text-xs sm:text-sm text-[#2B3B33] leading-relaxed">
+                        {raj.description}
+                      </p>
+
+                      {renderProvenanceAndScope(raj, 'pt-1')}
+                    </div>
+
+                    <div className="pt-2.5 border-t border-[#E8E2D5] flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
+                      <div className="flex items-center gap-4">
+                        <Link
+                          href={raj.hubUrl}
+                          className="text-[#5A7365] hover:text-[#10251F] font-semibold flex items-center gap-1"
+                        >
+                          <span>Curriculum & Table of Contents</span>
+                          <span>→</span>
+                        </Link>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <Link
+                          href={raj.readUrl}
+                          className="px-3.5 py-1.5 rounded-lg bg-[#10251F] hover:bg-[#1B4D3C] text-[#FAF8F3] font-serif font-bold text-xs shadow-2xs transition-colors flex items-center gap-1.5"
+                        >
+                          <span>Begin Chapter 01</span>
+                          <span>→</span>
+                        </Link>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })()}
+            </div>
+          </section>
+        )}
       </div>
 
       {/* =========================================================================
@@ -1336,6 +1456,22 @@ export function ScholarlyLibraryHome() {
             </div>
             <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
               Static Prudential Norms, Monthly Dossiers & Computer CBS Master Codex.
+            </div>
+          </Link>
+
+          <Link
+            href="/shelf-007/rajasthan/chapter-01"
+            className="p-3 rounded-xl bg-[#FFFFFF] hover:bg-[#F5F2EB] border border-[#E0D9CB] hover:border-[#10251F] transition-all group block shadow-2xs min-w-0"
+          >
+            <div className="flex items-center justify-between text-[#9E722C] text-[10px] font-bold">
+              <span>VOL. XI · RAJ-007</span>
+              <span>RPSC RAS →</span>
+            </div>
+            <div className="font-serif font-bold text-sm sm:text-base text-[#10251F] group-hover:text-[#1B4D3C] transition-colors mt-1">
+              Rajasthan Sovereign Codex
+            </div>
+            <div className="text-[11px] text-[#5A7365] mt-1 line-clamp-2">
+              Dynastic History, 1857, Forts & Heritage, Geography, Polity & DES Economic Review.
             </div>
           </Link>
         </div>
