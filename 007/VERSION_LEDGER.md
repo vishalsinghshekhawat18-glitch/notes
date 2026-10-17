@@ -13,6 +13,34 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v076 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 32 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 32)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_32_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_32_INDUSTRY_MSME_MINERALS_EXPORTS_REVISED.md`), and verification log (`CHAPTER_32_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/33_CHAPTER_32_INDUSTRY_MSME_MINERALS_EXPORTS.md` and Rapid Revision Matrix 32 (`007/revision/rajasthan/32_REV_CHAPTER_32_INDUSTRY_MSME_MINERALS_EXPORTS.md`), aligning State IIP 2025–26 annual indices (General 158.85, Mfg 187.93, Elec 168.12, Mining 90.17; base 2011–12), updating RIICO's developed industrial areas to 472, recording the 1 January 1980 RSIMDC bifurcation into RIICO & RSMDC, correcting MSME Facilitation Act 2023 amendment to Sections 6 and 7 (5-year moratorium), eliminating the false PM-MITRA Kakani attribution (7 approved sites nationwide; Rajasthan has 0), adjusting merchandise exports to ₹83,704.24 crore (FY 2023–24) and target to ₹1.5 lakh crore by 2029 (not 2028), aligning merchandise export mix (Engineering #1 at 16.60%), correcting the RSIC 4-ICD schedule (Jaipur, Bhiwadi, Bhilwara, Jodhpur; Kota absent), updating HRRL Pachpadra (74:26 JV, 9 MMTPA refinery, 2.4 MMTPA petrochemicals, ₹79,459 crore revised cost, SCOD 1 July 2026, dedication 21 April 2026), and harmonizing minerals counts (81 DMG vs ~82 Economic Review; 34 major blocks auctioned in FY25; ₹12,980 Cr FY26 revenue target).
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Macro Industrial GSVA & IIP Baseline**:
+    - **GSVA Weight**: Industry GSVA for 2025–26 AE stands at **₹4,54,486 crore (26.55% of total GSVA)** at current prices and **₹2,47,872 crore (28.21%)** at constant 2011–12 prices.
+    - **Dual Sub-Sectoral Proportions**: Disentangled share of total GSVA (Mfg 10.76%, Constr 9.30%, Mining 3.30%, Utilities 3.20%) from share within the secondary sector itself (Mfg 40.52%, Constr 35.02%, Mining 12.42%, Utilities 12.04%).
+    - **State IIP Portal Annual Alignment**: Base year 2011–12; 2025–26 annual series established at General **158.85**, Manufacturing **187.93**, Electricity **168.12**, and Mining **90.17** (replacing older/monthly 153.29 mix-up).
+  - **Institutional Architecture & Infrastructure**:
+    - **RIICO Historical Bifurcation & Scope**: RSIMDC incorporated 28 March 1969; bifurcated **1 January 1980** into RIICO and RSMDC (RSMDC merged into RSMML in 2003). Current profile verified at **472 developed industrial areas** (superseding dated 390+ claim).
+    - **BIP & RajNivesh Single Window**: BIP established 1991 with published investment facilitation focus on proposals **> ₹10 crore**; RajNivesh integrated with 181 services across 19 departments (approved 1,925 applications proposing ₹42,693.70 crore in 2025).
+    - **RSIC Inland Container Depots (ICDs)**: Schedule IV RTI schedule establishes exactly 4 depots: **Jaipur (Sanganer), Bhiwadi, Bhilwara, and Jodhpur (Basni)** (rectified inaccurate Kota inclusion). Air Cargo Complex at Sanganer.
+    - **RFC**: Established 17 January 1955 under State Financial Corporations Act, 1951.
+  - **Statutory & Policy Frameworks**:
+    - **MSME Facilitation (Amendment) Act, 2023**: Act No. 10 of 2023 (assented 11 April 2023) amended Sections **6 and 7** (not Section 4), substituting "five years" for "three years" for exemption from approvals and routine inspections. Documented portal FAQ internal inconsistency (3-yr vs 5-yr).
+    - **RIPS 2024**: Notified **8 October 2024**, operative through **31 March 2029**; focuses on green growth, export promotion, capability development; tiered conditional packages (Investment Subsidy up to 75% SGST, Capital Subsidy, or Turnover-linked incentive).
+    - **MLUPY**: Interest subsidy tiers: **8%** (loans ≤₹25L), **6%** (₹25L–₹5Cr), **5%** (₹5Cr–₹10Cr).
+  - **Trade, Hydrocarbons & Minerals Sovereignty**:
+    - **Export Target & Composition**: FY 2023–24 merchandise exports verified at **₹83,704.24 crore**; Export Promotion Policy 2024 sets target of **₹1.5 lakh crore by 2029** (not 2028). Product mix: **Engineering Goods #1 (16.60%)**, Gems & Jewellery (11.18%), Metals (9.80%), Textiles (8.80%), Handicrafts (7.90%).
+    - **PM-MITRA National Allocation Audit**: Debunked false Kakani/Jodhpur PM-MITRA attribution. Centre approved exactly 7 sites (TN, Telangana, Gujarat, Karnataka, MP, UP, Maharashtra); **Rajasthan has 0 PM-MITRA sites**.
+    - **HRRL Pachpadra Status**: 74:26 JV (HPCL : GoR); 9 MMTPA refinery + 2.4 MMTPA petrochemicals; revised cost **₹79,459 crore**; SCOD 1 July 2026; dedication 21 April 2026; commercial operation ramp-up separated.
+    - **DMIC Metric Discipline**: Caveated unverified 548 km, 36.4%, 22 districts, 58% area, 48-to-14 hour claims; anchored priority nodes **KBNIR** and **JPMIA** with project-status discipline.
+    - **Minerals Endowment**: Reconciled DMG portal count (**81 varieties, 57 commercially exploited**) with Economic Review ("nearly 82 varieties, 57 in commercial production"); documented 34 major mineral blocks auctioned in FY25; FY26 revenue target ₹12,980 crore (₹6,857.97 crore collected through Dec 2025).
+
 ### [RELEASED v075] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 31 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: `a21f143`
