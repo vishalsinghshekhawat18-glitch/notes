@@ -13,6 +13,34 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v073 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 29 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 29)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_29_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_29_ADMINISTRATIVE_REFORMS_GOOD_GOVERNANCE_REVISED.md`), and verification log (`CHAPTER_29_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/30_CHAPTER_29_ADMINISTRATIVE_REFORMS_GOOD_GOVERNANCE.md` and Rapid Revision Matrix 29 (`007/revision/rajasthan/29_REV_CHAPTER_29_ADMINISTRATIVE_REFORMS_GOOD_GOVERNANCE.md`), correcting the Right to Hearing penalty range to ₹500–₹5,000 (Section 7), articulating the dual penalty structure for the Service Guarantee Act (₹500–₹5,000 lump sum for failure, ₹250/day up to ₹5,000 for delay), clarifying the asymmetry in citizen compensation (permitted under 2011 Act from penalty, absent from 2012 Act), separating filing deadlines from disposal deadlines under 1 June 2012 notification, identifying the Society for Social Audit, Accountability and Transparency (SSAAT), attributing the 8 good governance pillars to UNESCAP, updating Jan Soochna live snapshot data, and documenting the precise historical timeline of HCM RIPA.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Penalty Precision & Section Anchors**:
+    - Right to Hearing Act, 2012: Penalty under Section 7 is **₹500 to ₹5,000** recoverable from salary following due process (corrected from false ₹250–₹5,000; Section 9 covers protection of action in good faith).
+    - Service Guarantee Act, 2011: Articulated dual penalties under Section 7: **lump-sum ₹500 to ₹5,000** for unjustified failure to deliver service, and **₹250 per day (capped at ₹5,000)** for unjustified delay.
+  - **Citizen Compensation Asymmetry**:
+    - Under Section 7 of the 2011 Service Guarantee Act, the appellate authority may award compensation to the appellant drawn from the penalty imposed (not exceeding penalty amount).
+    - Under the 2012 Right to Hearing Act, there is **NO citizen compensation mechanism**; the feature was previously incorrectly imported from the 2011 Act.
+  - **Timelines & Appeals Hierarchy**:
+    - Differentiated filing deadlines from disposal deadlines under Right to Hearing 2012 notification: 15 working days for hearing/disposal by PHO, 7 days to communicate decision, 21 days for first appeal disposal, 30 days for second appeal filing (NO blanket 30-day second-appeal disposal guarantee).
+    - Incorporated the 2013 amendment to the 2011 Act establishing the **Commission for Guaranteed Delivery of Public Services** and revision mechanism (normally within 60 days).
+  - **Digital Platforms & Proactive Disclosure**:
+    - **Jan Soochna Portal**: Anchored in Section 4(2) of RTI Act, 2005 (proactive disclosure); complements but does NOT replace formal individual RTI applications under Section 6. Live snapshot updated to 117 departments, 359 schemes, 758 info entries (dynamic data).
+    - **Jan Aadhaar Platform**: 10-digit Family ID, 11-digit Member ID. Statutory Head of Family sequence: (1) Female 18+; (2) Male 21+ if no eligible female; (3) Eldest member. Scheme-specific rules determine payment crediting.
+    - **e-Mitra Network**: Traced to 2002 LokMitra (Jaipur) and JanMitra (Jhalawar) pilots; unified in 2004–05. Current footprint approx. 80,000 kiosks and ~15,000 e-Mitra Plus ATMs (dynamic).
+    - **Rajasthan Sampark**: Centralized grievance routing and tracking interface (181); not an appellate court or RTI channel.
+  - **Social Audit & Administrative Reforms**:
+    - Official state body verified as **Society for Social Audit, Accountability and Transparency (SSAAT)**, supported by Social Audit Directorate under Section 17(2) MGNREGA 2005 (rejecting unsupported "RSPAA" label).
+    - Good Governance 8 Pillars: Correctly attributed to **UNESCAP** (World Bank 1992 report defined governance broadly).
+    - HCM RIPA Evolution: OTS Jodhpur (1957) ➔ Jaipur (1963) ➔ HCM SIPA (1969) ➔ HCM RIPA (1983). Separated institute chronology from 1963 Mathur Committee.
+    - Removed unsupported "Sudhir Kumar (2000)" committee and water-resource-focused "V.S. Vyas (2005)" committee.
+
 ### [RELEASED v072] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 28 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: `bfcc0c5`
