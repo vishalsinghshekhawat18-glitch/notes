@@ -17,6 +17,36 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v058 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 14 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-16
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 14)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_14_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_14_FOLK_PERFORMING_ARTS_RAJASTHAN_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/15_CHAPTER_14_FOLK_PERFORMING_ARTS_DANCES_DRAMA_MUSIC.md` and Rapid Revision Matrix 14 (`007/revision/rajasthan/14_REV_CHAPTER_14_FOLK_PERFORMING_ARTS.md`), eliminating false precision, sweeping exclusivity claims, uncorroborated superlatives, and organological misclassifications.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Organology Correction (Morchang)**:
+    - Fixed the critical misclassification of **Morchang**: reclassified from *Sushira* (wind) to **Ghana Vadya (plucked idiophone / jaw harp)** based on the Government of India / Incredible India organology register (sound is produced by vibrating the steel tongue, not by a blown air column; oral cavity acts solely as a resonance chamber).
+  - **State Symbols Nuanced (Ghoomar & Algoza)**:
+    - Qualified popular exam assertions: **Ghoomar** and **Algoza** are framed as widely taught exam conventions rather than claiming unverified formal statutory notifications.
+  - **UNESCO Inscription Precision**:
+    - Codified the exact 2010 UNESCO Representative List element title: ***Kalbelia folk songs and dances of Rajasthan*** (encompassing song, community knowledge, and dance).
+  - **Gavari / Gawri Dance-Drama Cycle**:
+    - Nuanced duration to **roughly 40–45 days** (retaining the RBSE Class 10 textbook specification of 45 days alongside common 40-day summaries).
+    - Clarified character roles: **Boodia/Budhiya** (Shiva archetype), **Rai/Raiyan** (female character played by male actor), **Jhamatya** (poetic dialogue reciter), and **Kutkudiya** (comic connector); treated *Meru Natya* as a reported exam epithet rather than an official genealogy.
+  - **Folk Theatre & Khyal Traditions**:
+    - Grounded **Turra-Kalangi** in the RBSE textbook mapping: **Turra = Shiva** and **Kalangi = Parvati**.
+    - Retained documented 1943 date for Tej Kavi's *Swatantra Bavani* presented to Mahatma Gandhi in Jaisalmer Rammat; discarded uncorroborated commissioner confrontation lore.
+    - Omitted unsupported *nau-tanki* ("nine instruments") folk etymology for Nautanki.
+  - **Official Padma Citations Ingested (2024 & 2026)**:
+    - Added **Janki Lal Bhand** (**Padma Shri 2024** for Bahurupiya/impersonation art).
+    - Added **Taga Ram Bheel** (**Padma Shri 2026** for Algoza desert flute playing).
+    - Added **Gafaruddin Mewati Jogi** (**Padma Shri 2026** for Bhapang and Mewat oral epic traditions).
+  - **Purged Sensational Feats & Invariants**:
+    - Purged claims of guaranteed burn immunity and sensational coal-eating stunts in the Jasnathi fire dance.
+    - Corrected Gair dance to reflect participation of both men and women during Holi in official descriptions.
+    - Removed arbitrary string/peg counts (17-string kamaicha, 27-string sarangi, 9-peg ravanhattha) and hyperbolic epithets ("wizard of khartal", "flower blooming illusion").
+
 ### [STAGED LOCAL] v057 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 13 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
