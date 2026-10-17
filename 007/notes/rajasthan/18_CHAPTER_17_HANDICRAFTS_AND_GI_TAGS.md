@@ -1,489 +1,396 @@
-# Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan
+# Chapter 17: Traditional Handicrafts & GI Tags of Rajasthan — Revised Edition
+
+**Revision status:** Fact-checked and restructured on 17 October 2026  
+**Purpose:** RPSC RAS Prelims and Mains revision  
+**Editorial rule:** Stable craft features are presented as facts; origin stories and customary claims are labelled as traditions; GI status is separated into **registered** and **pending**.
+
+> **Exam-safety note:** Craft methods vary by artisan, period and product. Avoid memorising words such as *only*, *always*, *exactly*, *exclusive* or *world's first* unless a reliable source warrants them. A craft's fame in a place does not automatically mean that it has a registered GI.
 
 ---
 
-## 1. Classical Crafts: Metallurgy, Glass Filigree & Pottery
+## 1. Rajasthan's Craft Geography: A High-Yield Overview
 
-Rajasthan’s traditional handicrafts (*हस्तशिल्प*) represent centuries of artisanal refinement under the patronage of Rajput royal durbars and merchant guilds. These crafts converted basic desert materials—clay, sand, camel hide, wood, colored glass, and metals—into internationally acclaimed luxury arts.
-
-```
-                      ┌────────────────────────────────────────────────────────┐
-                      │    STRUCTURAL TAXONOMY OF RAJASTHANI HANDICRAFTS       │
-                      └───────────────────────────┬────────────────────────────┘
-                                                  │
-          ┌───────────────────────────────────────┼───────────────────────────────────────┐
-          │                                       │                                       │
-┌─────────┴─────────────┐               ┌─────────┴─────────────┐               ┌─────────┴─────────────┐
-│  Glass, Metal & Lac   │               │  Pottery & Terracotta │               │  Textiles & Prints    │
-├───────────────────────┤               ├───────────────────────┤               ├───────────────────────┤
-│ • **Thewa Art**       │               │ • **Blue Pottery**    │               │ • **Sanganeri Print** │
-│   (Pratapgarh Gold)   │               │   (Jaipur Quartz Mix) │   (Natural off-white) │
-│ • **Minakari**        │               │ • **Molela Terracotta**│ • **Bagru Print**     │
-│   (Jaipur Enamel)     │               │   (Nathdwara Plaques) │   (Dabu Mud Resist)   │
-│ • **Usta Art**        │               │ • **Kagzi & Black**   │ • **Ajrakh & Malir**  │
-│   (Bikaner Camel Hide)│               │   (Alwar & Kota)      │ • **Kota Doria** (Zari│
-└───────────────────────┘               └───────────────────────┘               └───────────────────────┘
-```
+| Craft | Main regional association | Recognition feature | GI position checked for this chapter |
+|---|---|---|---|
+| Thewa | Pratapgarh | Fine gold sheet work set against coloured glass | **Thewa Art Work** is registered |
+| Blue pottery | Jaipur and nearby centres | Quartz-based glazed body; clay is not the principal body material | **Blue Pottery of Jaipur** appears in the GI register; see renewal note below |
+| Molela terracotta | Molela, Rajsamand | Hand-modelled relief plaques and votive figures | **Molela Clay Work** appears in the GI register; see renewal note below |
+| Usta art | Bikaner | Embossed/gilded decoration, historically on camel hide and palace surfaces | **Bikaner Usta Kala Craft** is registered |
+| Minakari | Jaipur | Coloured enamel applied to precious-metal objects | No separate registered Jaipur Minakari product GI identified in the registry check |
+| Koftgari | Udaipur | Decorative gold/silver inlay on iron or steel | **Udaipur Koftgari Metal Craft** is registered |
+| Kavad and woodcraft | Bassi, Chittorgarh | Painted wooden shrine with hinged doors | **Chittorgarh Bassi Kawad Craft** was under examination, not registered, in the checked record |
+| Kathputli | Rajasthan; important performance centres include Udaipur | Painted wooden string puppets and traditional theatre | **Kathputlis of Rajasthan** appears in the GI register; see renewal note below |
+| Sanganeri print | Sanganer, Jaipur | Fine floral block prints, traditionally often on pale grounds | **Sanganeri Hand Block Printing** is registered |
+| Bagru print | Bagru, Jaipur | Dabu mud-resist printing; traditional earthy palette | **Bagru Hand Block Print** is registered |
+| Ajrakh and Malir prints | Barmer region and wider Kutch–Sindh cultural zone | Geometric repeats; indigo, red and dark tones in many traditions | No separate registered **Barmer Ajrakh** GI identified in the registry check |
+| Kota Doria | Kaithoon/Kota | Lightweight cotton–silk fabric with a square *khat* grid | **Kota Doria** is registered |
+| Bandhej | Multiple centres, including Jodhpur | Tie-and-dye made by binding small portions of cloth | **Jodhpur Bandhej Craft** is registered; this does not mean every Bandhej product is from the GI area |
+| Mojari | Jodhpur | Traditional leather footwear | **Mojari Craft of Jodhpur (Rajasthan)** registered in 2026 |
+| Ravan Hattha | Rajasthan, with important craft associations in western Rajasthan | Bowed string instrument | **Rajasthan Ravan Hattha (Musical Instrument)** registered in 2026 |
 
 ---
 
-### 1.1 Thewa Art, Pratapgarh (थेवा कला) — Gold-on-Glass Filigree
-- **Geographic Seat**: Consecrated exclusively in **Pratapgarh district**.
-- **Foundational Era & Patronage**: Emerged around **1775 CE** during the reign of **Maharawat Samant Singh of Pratapgarh**, who bestowed the royal title of **"Rajsoni" (राजसोनी)** upon the master artisan family.
-- **Pioneer Patriarch**: **Nathu Ji Soni (नाथूजी सोनी)**.
-- **Craft Mechanics**:
-  - The process involves carving microscopic, lace-like filigree patterns from **24-carat pure gold foil (*Wark*)** and fusing it onto the surface of specially imported **colored Belgian glass** (vibrant emerald green, royal sapphire blue, ruby red, and amber).
-  - The glass is set within a silver frame (*Kanthi*) and backed with colored metal foil to reflect maximum luminescence.
-  - Motifs include royal hunting pageants (*Shikar*), Maharana Pratap on Chetak, Radha-Krishna, peacocks, and floral arabesques.
-- **The Secret Guild Invariant**: The technical secret of fusing gold to molten glass without cracking is an **undisclosed family secret** guarded across eight generations. The knowledge is passed down strictly from father to son; by customary law, it is **never taught to daughters** to prevent the technique from leaking to other families upon marriage!
-- **Celebrated Masters**:
-  - **Mahesh Raj Soni (महेश राज सोनी)**: Awarded the prestigious **Padma Shri in 2015**.
-  - Ramprasad Soni, Veni Ram Soni, and Girish Kumar Soni.
-- **State & Global Honor**: Protected under the **Geographical Indications (GI) Registry**; Queen Victoria possessed a celebrated Thewa brooch gifted by the Maharawat.
+## 2. Gold, Glass, Metal and Pottery
+
+### 2.1 Thewa Art — Pratapgarh
+
+**Thewa** is a distinctive jewellery and decorative-art tradition associated especially with Pratapgarh. It uses a finely worked sheet of gold, with the design etched or cut by hand, set against coloured glass to create a striking openwork effect.
+
+**Core facts to remember**
+
+- **Place:** Pratapgarh, Rajasthan.
+- **Traditional artisan family:** The Raj-Soni/Rajsoni family, associated with goldsmith **Nathuji Soni** in craft histories.
+- **Technique:** The artisan prepares a thin gold sheet, draws or etches the design, removes the unwanted material and mounts the goldwork against glass. The setting and backing materials can vary by object and workshop.
+- **Gold content:** The Rajasthan government's craft description refers to approximately **23-carat gold sheet**. Do not automatically write “24-carat gold foil” as a universal technical specification.
+- **Motifs:** Mythological scenes, courtly life, hunting scenes, flora and fauna, and other decorative themes.
+- **GI:** **Thewa Art Work**, registered GI application no. 244; the IP India record lists a registration certificate dated 31 March 2014.
+- **Recognised artisan:** **Mahesh Raj Soni**, Padma Shri 2015.
+
+**Claims to treat cautiously:** Accounts of the precise founding year and the grant of the title *Rajsoni* are transmitted through craft history and local tradition. Sources give differing chronologies. The claim that the material must be “Belgian glass,” or that the method is never taught to daughters under a universal customary law, is too absolute for the memorisation core. The safer formulation is that the technique has traditionally been guarded within artisan families and is transmitted through hereditary practice.
+
+**Prelims association:** Thewa → Pratapgarh → gold-work set against coloured glass → Mahesh Raj Soni (Padma Shri, 2015) → registered GI.
+
+### 2.2 Jaipur Blue Pottery
+
+Blue pottery is a glazed decorative craft closely associated with Jaipur. Unlike ordinary clay-based earthenware, its characteristic body is made from a **quartz/frit-based mixture**, so it is often described as “clay-free.”
+
+**Common materials** include powdered quartz, powdered glass, fuller’s earth (*Multani mitti*), borax or other fluxing materials, gum, and water. Recipes and ingredient names vary between descriptions and workshops; the original's claim that exactly five ingredients are used is therefore too rigid.
+
+- **Appearance:** Blue from cobalt compounds; green is commonly associated with copper compounds. White and other colours are also used, although historic descriptions often emphasise blue, turquoise, green and white.
+- **Motifs:** Flowers, birds, animals, arabesques and decorative patterns.
+- **Technique:** The body is moulded or formed, glazed and fired at relatively low temperatures compared with many conventional ceramics. Finished articles can be fragile.
+- **Historical background:** The technique has Turko-Persian roots and travelled through Mughal-period networks. Jaipur accounts associate its development with royal patronage, especially the later revival under Sawai Ram Singh II; exact single-person origin stories should not be treated as uncontested fact.
+- **Revival:** **Kripal Singh Shekhawat** played a major role in reviving and expanding Jaipur blue pottery from the mid-twentieth century. He received the **Padma Shri in 1974** and later the title *Shilp Guru*. The widely repeated claim that he invented exactly “25 new mineral shades” is not necessary for exam preparation unless a syllabus source specifically prescribes it.
+- **GI:** **Blue Pottery of Jaipur**, GI application no. 66, appears in the official register. The detail page displays a validity date in August 2026 alongside a registered status and historical renewal notices; check the latest renewal record before making a legal-current-status claim beyond the registry's displayed status.
+
+**Prelims association:** Blue pottery → Jaipur → quartz/frit-based body, not conventional clay → Turko-Persian origins → Kripal Singh Shekhawat.
+
+### 2.3 Terracotta and Regional Pottery
+
+| Tradition | Main centre | What identifies it | GI caution |
+|---|---|---|---|
+| **Molela terracotta** | Molela, Rajsamand | Hand-modelled plaques and figures of local deities; used in ritual and devotional settings | **Molela Clay Work** appears in the GI register; an old displayed validity date should be checked against the latest renewal entry |
+| **Kagzi pottery** | Alwar | Thin, delicate pottery; *kagzi* evokes paper-thinness | Local craft association; do not confuse fame with a separate GI registration |
+| **Black pottery** | Black pottery traditions are associated with more than one place; Sawai Madhopur has a current GI application | Dark-fired or black-finished earthenware | **Black Pottery of Sawai Madhopur** was under examination in the checked record, not registered |
+| **Pokhran pottery** | Pokhran area | Local earthenware/terracotta tradition | No registered **Pokhran Pottery** GI entry was located in the IP India register check; do not put it in a registered-GI list without a certificate |
+| **Bikaner pottery** | Bikaner | Local pottery traditions include decorated and lacquered work | Describe as a regional tradition, not automatically as an independent GI |
+
+**Molela method:** Clay from local riverbeds is prepared and modelled by hand into relief plaques and figures. The Rajasthan government's craft description says clay used for plaques may be mixed with roughly **5–10% donkey dung** as temper to improve workability and reduce cracking. Other additions, such as rice husk, are also described in craft accounts. Do not assert one exact clay recipe for every artisan.
+
+**Molela subject matter:** Devnarayanji and other local or regional deities, often represented in relief. The plaques serve a devotional purpose, not merely decoration.
+
+**Recognised artisan:** **Mohan Lal Kumhar**, associated with Molela terracotta, received the **Padma Shri in 2012**.
 
 ---
 
-### 1.2 Blue Pottery, Jaipur (ब्लू पॉटरी) — The Glazed Ceramic Wonder
-- **The Clay-Free Formulation**: Unlike conventional ceramic pottery, **Blue Pottery uses NO clay/mud whatsoever**! It is handcrafted from an indigenous dough formulated from five specific ingredients:
-  1. Ground **Quartz powder** (*क्वाट्ज़ चूर्ण*)
-  2. **Cullet** (pulverized recycled glass powder)
-  3. **Multani Mitti** (Fuller’s earth)
-  4. Natural **Gum** (*Gond*)
-  5. Water containing natural sodium salts (*Sajji*)
-- **Historical Migration**:
-  - Originated in Turko-Persian ateliers; introduced to India via Lahore during the reign of **Raja Man Singh I of Amber**.
-  - Experienced its modern renaissance under **Sawai Ram Singh II (1835–1880 CE)**, who sent two potters, **Kaluram** and **Chudaman**, to Delhi to master glazed ceramic techniques under Bhola Potter.
-- **The Modern Legend: Kripal Singh Shekhawat (कृपाल सिंह शेखावत)**:
-  - Born in Mau village (Sikar); studied at Santiniketan under Nandalal Bose.
-  - Single-handedly rescued Blue Pottery from extinction in the 1960s. He expanded the traditional two-tone palette (cobalt blue and copper green) by inventing **25 new mineral shades**, including turquoise, golden yellow, purple, and crimson.
-  - His studio style is celebrated worldwide as **"Kripal Kumbh" (कृपाल कुंभ)**; honored with the **Padma Shri in 1974** and titled *Shilpi Guru*.
-- **GI Tag Status**: Inscribed as a protected **Geographical Indication (GI)**.
+## 3. Usta Art, Minakari, Koftgari and Badla
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   CANONICAL POTTERY & TERRACOTTA TRADITIONS OF RAJASTHAN               │
-├────────────────────────────┬─────────────────────────────┬─────────────────────────────┤
-│ Style Name                 │ Geographic Center           │ Diagnostic Invariants       │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **1. Molela Terracotta**   │ Molela village (Nathdwara,  │ • Red Banas river clay mixed│
-│    (मोलेला टेराकोटा)       │ Rajsamand district)         │   with **donkey dung**.     │
-│                            │                             │ • Hollow relief votive tiles│
-│                            │                             │   of Devnarayanji & Bhairav.│
-│                            │                             │ • Maestro: **Mohanlal       │
-│                            │                             │   Kumhar** (Padma Shri 2012)│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **2. Kagzi Pottery**       │ **Alwar**                   │ • Ceramic vessels crafted   │
-│    (कागजी पॉटरी)           │                             │   as **paper-thin** as sheet│
-│                            │                             │   parchment; highly brittle.│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **3. Black Pottery**       │ **Kota**                    │ • Jet-black earthenware;    │
-│    (ब्लैक पॉटरी)           │                             │   vases, teapots, chillums. │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **4. Pokhran Pottery**     │ Pokhran (**Jaisalmer**)     │ • Pink/red clay household   │
-│    (पोकरण पॉटरी)           │                             │   water pots; **GI Tagged**.│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **5. Sunhari Pottery**     │ **Bikaner**                 │ • Golden lacquer overlay.   │
-└────────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+### 3.1 Usta Art — Bikaner
+
+Usta art is associated with Bikaner and with decorative painting and embossed/gilded work. Rajasthan's craft documentation traces the arrival of Usta artists to the patronage of **Raja Rai Singh**. The tradition is visible in palace interiors, including decorative work in Junagarh Fort, and later developed on camel hide and other surfaces.
+
+- **Technique:** Embossed or raised designs, lacquer, gold application and painted detailing. The term *Munawwati/Manowati* is associated with a form of embossed gold work.
+- **Surfaces:** Historically palace walls, ceilings, wood and other surfaces; contemporary artisans also work on treated camel hide and crafted objects.
+- **GI:** **Bikaner Usta Kala Craft**, GI no. 753, registered on 1 August 2023.
+- **Artisan and award:** **Hisamudin Usta** (also spelt Hisam-ud-din Usta) received the **Padma Shri in 1986**; the original Government of India award notification describes the field as lacquer work.
+
+Do not collapse the older broad term *Usta art* and the exact registered GI name into an assumption that every Usta-style object made anywhere in Rajasthan is covered by the same geographical specification.
+
+### 3.2 Minakari — Jaipur
+
+**Minakari** is the application of coloured enamel to a prepared metal surface, especially jewellery and decorative objects. The artisan prepares recesses or an engraved surface, applies enamel and fires the object so the colour fuses to the substrate.
+
+- **Centre:** Jaipur is a major centre for meenakari and kundan-meena jewellery.
+- **Colours:** Red, green, white and other colours can be used; palettes and methods vary.
+- **Recognised artisan:** **Kudrat Singh**, Jaipur enamel worker, received the **Padma Shri in 1988**.
+- **GI status:** No separate registered GI named “Jaipur Minakari” was identified in the official GI registry check. Do not infer GI status from the craft's prominence or from an artisan's award.
+
+### 3.3 Koftgari — Udaipur
+
+**Koftgari** is a metal-decorating tradition in which gold or silver is worked into an iron or steel surface, commonly on weapons, hilts, shields and other objects. The exact method can involve preparing the surface and pressing/inlaying metal wire or foil into it.
+
+- **GI:** **Udaipur Koftgari Metal Craft**, GI no. 747, registered on 1 August 2023.
+- **Contrast:** Minakari usually refers to coloured enamel work; Koftgari refers to decorative metal inlay. These are different techniques and should not be treated as synonyms.
+
+### 3.4 Badla — Jodhpur
+
+Badla is a traditional water-container craft associated with Jodhpur. Metal containers, often described as zinc-bodied, may be wrapped in felt or cloth. Evaporative cooling from a damp outer covering can help lower water temperature in dry conditions.
+
+**Exam-safe wording:** Jodhpur → Badla water containers → metal body with felt/cloth insulation. Avoid claims that the craft is made exclusively in Jodhpur, always uses exactly one metal, or guarantees cold water at a particular temperature.
 
 ---
 
-### 1.3 Usta Art & Camelskin Craft, Bikaner (उस्ता कला / मुनव्वती कला)
-- **Genesis & Royal Patronage**: Introduced from Multan and Lahore during the reign of **Maharaja Rai Singh**; flourished under **Maharaja Anup Singh**.
-- **Material Technique**:
-  - Gilded embossed lacquer and pure gold-leaf relief work (*Munawwati*) executed upon cured, dried **camel hide (*Oont ki Khaal*)**, wooden palace ceilings (such as the Anup Mahal in Junagarh Fort), and marble.
-  - Craftsmen fashion ornamental water containers (**Kuppi / कुप्पी**), perfume flasks (*Itardan*), lamp shades, and photo frames from camel leather.
-- **The Master of the Century: Hisam-ud-din Usta (हिसामुद्दीन उस्ता)**:
-  - Decorated with the **Padma Shri in 1986** for unmatched virtuosity in camel-hide gilding.
-  - Established the *Camel Hide Training Centre* at Bikaner to train future generations.
-- **GI Tag Status**: Formally registered as a **Geographical Indication (GI Tag in 2023)**.
+## 4. Woodcraft, Puppetry, Lac, Tarkashi and Footwear
+
+### 4.1 Kavad and Bassi Woodcraft
+
+**Kavad** is a portable, painted wooden shrine or storytelling structure with hinged doors and compartments. As a storyteller narrates episodes from religious or epic traditions, doors are opened in sequence to reveal painted scenes. It is associated with Bassi in Chittorgarh district and with artisan communities working in wood.
+
+- **Related wooden objects:** Carved palanquins, ritual *vimans/bewans*, torans and wooden effigies.
+- **Important distinction:** A *kavad* is a folding, portable shrine/storytelling device; a *viman/bewan* is commonly a ceremonial structure or palanquin used in religious processions. Spellings and forms vary locally.
+- **GI status:** **Chittorgarh Bassi Kawad Craft**, application no. 1597, was listed as **Examination** in the IP India record checked on 17 October 2026. Do not write “registered GI” unless its status changes to registered.
+- **Origin story:** The original's named “pioneer” and precise 300-year chronology were not substantiated well enough to keep as fixed facts.
+
+### 4.2 Kathputli — String Puppetry
+
+Rajasthani **kathputli** is a traditional string-puppet theatre using carved and painted wooden heads and bodies, textiles and cords. Performance incorporates music, stylised movement, narrative, humour and social commentary. Traditional puppet families and performers have helped preserve the form.
+
+- **Institutional revival:** **Bharatiya Lok Kala Mandal**, Udaipur, was founded in **1952** by **Devi Lal Samar** to study and promote folk culture, puppetry, songs and dances.
+- **GI:** **Kathputlis of Rajasthan**, GI no. 68, appears in the official registry. The registry's detail page has an old validity date in August 2026 and renewal documentation; confirm the latest renewal record before making an unqualified claim about current legal validity.
+- **Material caution:** Lightweight wood is used; the exact species can vary. “All kathputlis are carved from Adusa wood” is too absolute.
+
+### 4.3 Lac Work and Bangles
+
+Lac is a natural resinous material used in Rajasthan for bangles and decorative objects. Jaipur is a prominent centre; artisans form, colour and embellish lac products by hand.
+
+- **Traditional centre:** Jaipur, including the Maniharon ka Rasta area; lac work is also found elsewhere in Rajasthan.
+- **Terminology:** Local names differ by object and community. Do not treat **Mokadi** as the universal technical name for all lac bangles.
+- **Current GI position:** GI applications include **Rajasthan Lakh Ki Chudiya (Lakh Bangles)** (application no. 1601; **Examination** at the checked date) and **Jaipur Handmade Lac Products** (application no. 2120; **New Application** at the checked date). Neither should be described as registered in this chapter unless the official status changes.
+
+### 4.4 Tarkashi
+
+**Tarkashi** is a form of decorative inlay in which fine metal wire is set into a prepared surface, often wood. The detailed materials and regional practice may differ.
+
+- Nathdwara is associated with wood inlay craft in state handicraft descriptions.
+- **Jaipur Tarkashi Art**, application no. 1933, was **Pre Examination** in the IP India record checked on 17 October 2026. This is an application, not a registered GI.
+
+### 4.5 Mojari Craft — Jodhpur
+
+Mojari is traditional footwear made by joining a shaped sole, upper and decorative elements. Materials and embellishments differ by product.
+
+- **GI:** **Mojari Craft of Jodhpur (Rajasthan)**, application no. 735, shows **Registered** status; the certificate document is dated **28 March 2026**.
+- **Exam point:** Jodhpur → Mojari footwear → registered GI in 2026.
 
 ---
 
-### 1.4 Metal Enameling & Damascus Inlay: Minakari & Koftgiri
+## 5. Textile Printing, Tie-Dye and Weaving
 
-```
-                      ┌────────────────────────────────────────────────────────┐
-                      │          PRECIOUS METAL EMBELLISHMENTS OF RAJASTHAN    │
-                      └───────────────────────────┬────────────────────────────┘
-                                                  │
-          ┌───────────────────────────────────────┼───────────────────────────────────────┐
-          │                                       │                                       │
-┌─────────┴─────────────┐               ┌─────────┴─────────────┐               ┌─────────┴─────────────┐
-│  Minakari (Jaipur)    │               │  Koftgiri (Udaipur/Jpr)│              │  Badla (Jodhpur)      │
-├───────────────────────┤               ├───────────────────────┤               ├───────────────────────┤
-│ • Enameling gold with │               │ • Damascus iron craft │               │ • Zinc metal flask    │
-│   colored glass paste │               │ • Gold/silver wire    │   covered with felt   │
-│ • Brought from Lahore │   hammered into steel │ • Keeps water naturally│
-│   by **Raja Man Singh│ • Inlaid weapon hilts │   chilled in desert   │
-│ • Maestro: Kudrat Singh│ • **GI Tagged (2023)**│ • Jodhpur hallmark    │
-└────────────────────────┘               └───────────────────────┘               └───────────────────────┘
-```
+### 5.1 Sanganeri Hand Block Printing — Sanganer, Jaipur
 
-#### 1. Minakari, Jaipur (मीनाकारी)
-- **Origin**: Brought from Lahore to Jaipur in the late 16th century by **Raja Man Singh I**, who settled Sikh craftsmen from Punjab.
-- **Craft Mechanics**: The art of engraving intricate recesses onto the surface of gold or silver jewelry and fusing powdered mineral enamel into the grooves via kiln heating. Red (*Kundan*), green, and white are the hallmark colors.
-- **Supreme Maestro**: **Kudrat Singh (कुदरत सिंह)**, awarded the Padma Shri in 1988; GI Tagged.
+Sanganer is associated with fine hand-block-printed textiles. Traditional patterns include delicate flowers, foliage, vines and stylised natural motifs.
 
-#### 2. Koftgiri & Tah-Nishan (कोफ्तगिरी एवं तह-निशां)
-- **Koftgiri**: An ancient Damascus weapon-decorating craft centered in **Udaipur and Jaipur**. Steel weapon blades, sword hilts (*Mutthi*), daggers, and shields are cross-hatched with fine chisels, after which pure gold or silver wire is embedded and burnished smooth with agate stone; awarded **GI Tag in 2023**.
-- **Tah-Nishan**: Deep-groove silver wire inlay on steel or bronze.
+- **Visual association:** Fine floral *bootis* and detailed, often delicate designs.
+- **Ground colour:** Traditionally often white, off-white or pale; contemporary products also appear on a broader range of grounds. “Exclusively white” is incorrect.
+- **Dyes:** Traditional natural and mineral dyes remain important to the craft history, but synthetic dyes and contemporary processes are also used.
+- **GI:** **Sanganeri Hand Block Printing**, registered GI application no. 147.
 
-#### 3. Badla, Jodhpur (बादला)
-- Traditional water containers fashioned from **zinc metal (*Jasta*)**, lined with inner tin and encased in outer felt or cloth. Operating on evaporative cooling principles, Badlas keep drinking water chilled during 48°C desert summers. Unique to Jodhpur.
+### 5.2 Bagru Hand Block Print — Bagru, Jaipur
 
----
+Bagru is strongly associated with hand block printing and the **Dabu** mud-resist technique. A resist paste is applied to selected sections before dyeing, helping preserve the pattern in the finished cloth.
 
-## 2. Woodcraft, Lac & Puppetry Heritage
+- **Traditional palette:** Earthy reds, blacks, indigo and other tones; colours depend on the method and materials used.
+- **Black:** Traditional processes may use iron-rich preparations combined with jaggery or other ingredients; do not imply that every contemporary batch uses the same natural recipe.
+- **GI:** **Bagru Hand Block Print**, GI no. 183, registered on 11 May 2011.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   WOODCRAFT & PUPPETRY HUBS OF RAJASTHAN                               │
-├────────────────────────────┬─────────────────────────────┬─────────────────────────────┤
-│ Craft Tradition            │ Regional Hub & Community    │ Key Artifacts & Invariants  │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Bassi Woodcraft**        │ Bassi village (**Chittor**);│ • Pioneer: **Prabhatji      │
-│ (बस्सी की काष्ठकला)        │ Suthar (Carpenter) guild    │   Suthar** (300 yrs ago).   │
-│                            │                             │ • **Kavad** (mobile shrine);│
-│                            │                             │   Viman / Vaikunthi palanquin│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Tarkashi** (तारकशी)      │ **Nathdwara** (Rajsamand)   │ • Inlaying fine **silver    │
-│                            │                             │   wire** into sheesham wood.│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Kathputli** (कठपुतली)    │ Udaipur & Chittorgarh;      │ • Carved from **Adusa wood**│
-│ (String Puppets)           │ Nat community bards         │ • Preserved by **Devi Lal   │
-│                            │                             │   Samar**; **GI Tagged**.   │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Lac Work** (लाख का काम)  │ Jaipur (Maniharon ka Rasta);│ • Lac bangles (**Mokadi**); │
-│                            │ Karoli                      │   ornamental boxes, toys.   │
-└────────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+### 5.3 Akola Dabu Printing — Chittorgarh
 
-### Detailed Invariants of Woodcraft & Puppetry:
+Akola is associated with locally distinctive resist printing. Traditional products include larger textiles such as *jajam* (floor or ceremonial spread) and other household or garment fabrics. Resist materials and print styles can vary.
 
-1. **Bassi Woodcraft (Chittorgarh)**:
-   - **Kavad (कावड़)**: A portable, multi-tiered wooden shrine equipped with numerous hinged, illustrated folding doors. As the itinerant Bhat/Bhopa storyteller recites sacred epics, he progressively opens each door, revealing colorful miniature paintings of the Ramayana and Mahabharata.
-   - **Viman / Vaikunthi (विमान / बेवाण)**: Ornate carved wooden palanquins used for carrying temple deities in festive processions (*Jaljhulani Ekadashi*).
-   - Carved wooden **Torans** for wedding portals and **Gangaur-Isar wooden effigies**.
-2. **Kathputli (कठपुतली — String Puppetry)**:
-   - Handcrafted from the lightweight timber of the **Adusa tree (*Aadhoo*)**; dressed in colorful flared Rajasthani skirts with attached string controls.
-   - Preserved and popularized internationally by **Padma Shri Devi Lal Samar (देवीलाल सामर)**, who established the premier **Bharatiya Lok Kala Mandal, Udaipur** in 1952. Formally inscribed with a **GI Tag**.
+The original lists *mitti dabu*, *gond dabu* and *mom dabu* as three fixed categories. These terms can be useful where prescribed locally, but should not be treated as a comprehensive standard for all Akola production without a dedicated technical source.
+
+### 5.4 Ajrakh and Malir Prints — Barmer Region
+
+Ajrakh is a complex block-printing tradition found across the Kutch–Sindh cultural region and also practised by artisans in Barmer. Many Ajrakh textiles use geometric repeats and a palette built around indigo and red. Double-sided printing is a notable feature of some high-quality traditional work, but is not a safe absolute for every Ajrakh item.
+
+**Malir print** is also associated with Barmer; dark, earthy palettes and geometric patterns are common descriptions. Regional technique differs among artisan communities.
+
+**GI caution:** The IP India registry search did not identify an independently registered **Barmer Ajrakh Print** GI. Do not transfer the GI status of a craft registered elsewhere (for example, a different regional Ajrakh tradition) to Barmer-made products.
+
+### 5.5 Kota Doria / Kota Dori / Kota Masuria
+
+Kota Doria is a lightweight woven fabric traditionally associated with **Kaithoon and the Kota region**. It combines cotton and silk to give strength, fineness and lustre.
+
+- **Khat:** The distinctive small square-check structure. A common khat is described as a group of **14 yarns—eight cotton and six silk**; actual weave design and khat size can vary.
+- **Use:** Sarees, dupattas and other light textiles; zari and other yarns can be used in decorative variants.
+- **GI:** **Kota Doria**, GI no. 12, registered on 5 July 2005. The registry displays a renewal valid-through date in 2034.
+- **Origin story caution:** The narrative that the technique was brought from Mysore by specific rulers and one named weaver is often repeated in local accounts; treat it as a traditional history rather than a firmly settled fact unless a source is specified.
+
+### 5.6 Bandhej and Lehariya
+
+**Bandhej/Bandhani** creates patterns by tying selected parts of cloth before dyeing. When the ties are removed, undyed or differently dyed dots and motifs form the pattern. Jaipur, Jodhpur and other centres maintain related practices.
+
+**Lehariya** is associated with flowing, wave-like diagonal stripes, often worn during the monsoon and Teej season. Intersecting diagonals can make checked patterns in variants such as *mothara/mothada*; spellings and local pattern names differ.
+
+- **GI:** **Jodhpur Bandhej Craft**, GI no. 751, registered on 1 August 2023.
+- **Pending GI example:** **Rajasthan Lehariya Textiles**, application no. 1599, was listed as **Examination** on the checked date. Lehariya as a craft is well established; that application was not yet a registered GI.
+
+### 5.7 Gota Patti / Gota Work
+
+Gota work uses narrow woven or metallic-looking ribbon and related components to embellish garments, veils and ceremonial clothing. Local techniques include forms of *lappa*, *lappi*, *kiran* and related decorative edging.
+
+- It is practised across centres in Rajasthan; avoid describing any one place as the universal or exclusive “capital” without a strong source.
+- **Nayla Gota Patti Work**, application no. 2175, was a **New Application** at IP India on 17 October 2026. It must not yet be presented as a registered GI.
 
 ---
 
-## 3. Textile Crafts: Hand Block Printing, Weaving & Tie-Dye
+## 6. Geographical Indications (GI): What the Exam Requires
 
-Rajasthan is the hand-block printing and resist-dyeing capital of South Asia. The chemical interaction between local river water, natural mineral salts, and organic vegetable dyes created world-renowned regional schools of textile printing.
+### 6.1 What a GI Does
 
-```
-                      ┌────────────────────────────────────────────────────────┐
-                      │    HAND BLOCK PRINTING & TEXTILE TRADITIONS            │
-                      └───────────────────────────┬────────────────────────────┘
-                                                  │
-          ┌───────────────────────────────────────┼───────────────────────────────────────┐
-          │                                       │                                       │
-┌─────────┴─────────────┐               ┌─────────┴─────────────┐               ┌─────────┴─────────────┐
-│  Dhundhar Prints      │               │  Mewar & Marwar Prints│               │  Specialty Weaves     │
-├───────────────────────┤               ├───────────────────────┤               ├───────────────────────┤
-│ • **Sanganeri Print** │               │ • **Akola Dabu**      │               │ • **Kota Doria**      │
-│   (Delicate bootis,   │               │   (Chittor mud-resist)│   (Kaithoon silk-zari)│
-│    white background)  │               │ • **Ajrakh Print**    │ • **Bandhej / Tie-Dye│
-│ • **Bagru Print**     │               │   (Barmer dual-side)  │   (Lehariya, Mothada) │
-│   (Red, black, Dabu)  │               │ • **Malir Print**     │ • **Gotawork**        │
-└───────────────────────┘               └───────────────────────┘   (Khandela, Sikar)   │
-                                                                └───────────────────────┘
-```
+A **Geographical Indication (GI)** identifies goods as originating in a defined geographical area where a quality, reputation or other characteristic is linked to that origin. In India, the framework is the **Geographical Indications of Goods (Registration and Protection) Act, 1999**.
 
----
+A GI is not merely an award or a government popularity label. A product must be registered through the GI system; producer or authorised-user status and compliance with the registered specification matter. Registration of a **logo** associated with a GI is a separate record and should not be counted as a second craft product.
 
-### 3.1 Hand Block Printing Traditions
+### 6.2 Selected Registered GI Entries Relevant to This Chapter
 
-#### 1. Sanganeri Hand Block Print (सांगानेरी प्रिंट — Jaipur)
-- **Foundational Base**: Practiced by the **Chippa (Nama) community** along the Sanjariya river in Sanganer; patronized by Sawai Jai Singh II.
-- **Diagnostic Characteristics**:
-  - Printed exclusively on **pure white, off-white, or pale cream cotton bases**.
-  - Characterized by delicate, refined floral sprigs (**Bootis** and *Bel*), including lotuses, roses, lilies, and flying nightingales.
-  - Uses natural vegetable and mineral dyes (indigo, alum, pomegranate rind, iron rust); awarded **GI Tag**.
+The list below is deliberately titled **selected registered entries**, not “the complete GI list of Rajasthan.” It was checked against IP India records on **17 October 2026**. The official register can change; exam notes should be refreshed before an examination.
 
-#### 2. Bagru Hand Block Print (बगरू प्रिंट — Jaipur)
-- **The Dabu Mud-Resist Method**:
-  - Famous for **Dabu (दाबू)** printing: areas of fabric intended to resist dye are stamped with a thick paste of clay, lime, and gum (*Dabu mitti*) before immersion in dye vats.
-  - Background is earthy, rustic, and dark (contrasting sharply with Sanganer’s white base).
-  - Hallmark colors: Natural **Red (Hinglu/Begar)** and deep **Black (Syahi/Kashish)** extracted from fermented iron shavings and jaggery; awarded **GI Tag**.
+| Registered GI name used by IP India | Application no. | Domain / association | Registry note |
+|---|---:|---|---|
+| Kota Doria | 12 | Textile/handicraft; Kaithoon–Kota | Registered; valid-through field displayed to 2034 |
+| Blue Pottery of Jaipur | 66 | Pottery/handicraft | Registered status displayed; validity/renewal detail needs checking because the listed date is in 2026 |
+| Molela Clay Work | 67 | Terracotta/handicraft | Registered status displayed; validity/renewal detail needs checking because the listed date is in 2026 |
+| Kathputlis of Rajasthan | 68 | Puppetry/handicraft | Registered status displayed; validity/renewal detail needs checking because the listed date is in 2026 |
+| Bikaneri Bhujia | 142 | Foodstuff | Registered; distinct from handicrafts |
+| Sanganeri Hand Block Printing | 147 | Textile/handicraft | Registered |
+| Bagru Hand Block Print | 183 | Textile/handicraft | Registered |
+| Thewa Art Work | 244 | Decorative art/handicraft | Registered; certificate 31 March 2014; valid-through field displayed to 2031 |
+| Sojat Mehndi | 628 | Agricultural product | Registered; certificate 14 September 2021 |
+| Udaipur Koftgari Metal Craft | 747 | Metal craft | Registered; certificate 1 August 2023 |
+| Nathdwara Pichhwai Painting | 748 | Painting/handicraft | Registered; certificate 31 July 2023 |
+| Bikaner Kashidakari Craft | 750 | Embroidery/handicraft | Registered; certificate 1 August 2023 |
+| Jodhpur Bandhej Craft | 751 | Textile/handicraft | Registered; certificate 1 August 2023 |
+| Bikaner Usta Kala Craft | 753 | Decorative craft | Registered; certificate 1 August 2023 |
+| Mojari Craft of Jodhpur (Rajasthan) | 735 | Footwear/handicraft | Registered; certificate document dated 28 March 2026 |
+| Rajasthan Ravan Hattha (Musical Instrument) | 1225 | Musical instrument | Registered; certificate document dated 28 March 2026 |
 
-#### 3. Akola Dabu Print (आकोला — Chittorgarh)
-- Centered at **Chhipon ka Akola** on the banks of the Bedach river.
-- Specializes in heavy bedcovers, floor coverings (**Jajam Print**), and traditional women's cloths (**Fadath Print**).
-- Uses specialized localized resist pastes:
-  - *Mitti ka Dabu* (Clay resist)
-  - *Gond ka Dabu* (Gum resist)
-  - *Mom ka Dabu* (Wax resist)
+**Registry caveat:** IP India’s detail pages for certain older entries continue to show “Registered” while the validity field displays an older end date and renewal documents are not consistently presented in the indexed result. For legal current validity, use the latest certificate/renewal document. For exam associations, keep the established registration fact but do not make a legal-validity argument based solely on a secondary summary.
 
-#### 4. Barmer Prints: Ajrakh vs Malir
-- **Ajrakh Print (अजरक प्रिंट — Barmer)**:
-  - **Double-Sided Printing**: Fabric is stamped on **both sides** in perfect optical registration.
-  - Dominant palette: Deep **Indigo Blue** and rich **Crimson Red**.
-  - Motifs: Geometric star lattices and Islamic tile arabesques; worn traditionally by Sindhi Muslims and Maldhari pastoralists; awarded **GI Tag**.
-- **Malir Print (मलीर प्रिंट — Barmer)**:
-  - Printed on one side only; dominant palette: **Dark Brown, Muddy Mustard, and Black**.
+### 6.3 Selected GI Applications That Were *Not Yet Registered*
 
----
+These entries appeared in the official IP India application records in a non-registered status on 17 October 2026. Their status can change.
 
-### 3.2 Specialty Weaves & Embroidery
+| Product/application name | Application no. | Status on checked date |
+|---|---:|---|
+| Jodhpur Iron Craft | 1224 | Examination |
+| Chittorgarh Bassi Kawad Craft | 1597 | Examination |
+| Black Pottery of Sawai Madhopur | 1598 | Examination |
+| Rajasthan Lehariya Textiles | 1599 | Examination |
+| Jaipur Rajai | 1600 | Examination |
+| Rajasthan Lakh Ki Chudiya (Lakh Bangles) | 1601 | Examination |
+| Jodhpur Safa (Turban) | 1602 | Examination |
+| Jaipur Tarkashi Art | 1933 | Pre Examination |
+| Jaipur Gulal Gota | 2027 | Pre Examination |
+| Salawas Panja Durry | 2086 | Pre Examination |
+| Jaipur Handmade Lac Products | 2120 | New Application |
+| Nayla Gota Patti Work | 2175 | New Application |
 
-#### 1. Kota Doria / Masuria Saree (कोटा डोरिया / मसूरिया साड़ी)
-- **Epicenter**: **Kaithoon (कैथून, Kota)**.
-- **Historical Migration**: Introduced from Mysore in the late 17th century by Maharao Shatrushal and prime minister Zalim Singh Jhala, who brought master weaver **Mahmud Masuria** to Kota.
-- **Structural Blueprint**:
-  - Woven on pit looms in a distinct gossamer-fine square check grid termed **Khat (खट)** (precisely 300 to 360 squares per square inch).
-  - High-count cotton warp blended with raw mulberry silk and real gold/silver **Zari** borders; awarded **GI Tag**.
+**Critical exam trap:** An application number, a news headline or a state portal's GI-promotion page does **not** by itself prove registration. Verify the exact status in the IP India register. In this audit, no official registered-GI entry was located for **Pokhran Pottery**, **Barmer Ajrakh Print**, or **Jaipur Minakari**.
 
-#### 2. Tie & Dye (Bandhej / बंधेज) & Gotawork
-- **Bandhej**: Concentrated in **Jaipur, Jodhpur, and Sikar**. Fabric is pinched into thousands of tiny knots using fingernails (*Bandi*) and dipped into progressive color vats (*Rangrez / Neelgar*). Styles include *Ekdali*, *Trikunti*, *Chowbandi*, and *Shikari*.
-- **Gotawork (गोटा-किनारी)**: Centered at **Khandela (Sikar)**; gold and silver ribbon weaving. Varieties include **Lappa, Lappi, Kiran, Bankadi, and Bijia**.
+### 6.4 Logos and Product GIs
+
+IP India has separate logo records linked to some registered products. A logo record is not an additional geographic craft. Therefore:
+
+- Count **Kota Doria** as a product GI; do not count **Kota Doria (Logo)** as a second product.
+- The same principle applies to logo registrations linked to Blue Pottery, Molela Clay Work and Kathputlis.
+- Logo registration and renewal status should be checked separately from the underlying product GI.
 
 ---
 
-## 3. The Definitive Geographical Indications (GI Tags) Registry of Rajasthan
+## 7. Prelims Revision: Twenty High-Yield Checks
 
-Under the *Geographical Indications of Goods (Registration and Protection) Act, 1999*, Rajasthan possesses a formidable portfolio of sovereign GI-tagged artifacts:
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   COMPLETE CANONICAL GI TAG REGISTRY OF RAJASTHAN                      │
-├─────┬────────────────────────────────────┬─────────────────────┬───────────────────────┤
-│ #   │ Geographical Indication (GI) Name  │ Category / Domain   │ Geographical Center   │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 1.  │ **Kota Doria**                     │ Handicraft (Textile)│ Kaithoon (Kota)       │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 2.  │ **Blue Pottery of Jaipur**         │ Handicraft (Ceramic)│ Jaipur                │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 3.  │ **Molela Clay Work** (Terracotta)  │ Handicraft (Clay)   │ Molela (Rajsamand)    │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 4.  │ **Kathputlis of Rajasthan**        │ Handicraft (Puppet) │ Udaipur & Statewide   │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 5.  │ **Sanganeri Hand Block Print**     │ Handicraft (Textile)│ Sanganer (Jaipur)     │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 6.  │ **Bagru Hand Block Print**         │ Handicraft (Textile)│ Bagru (Jaipur)        │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 7.  │ **Thewa Art Work**                 │ Handicraft (Glass)  │ Pratapgarh            │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 8.  │ **Pokhran Pottery**                │ Handicraft (Clay)   │ Pokhran (Jaisalmer)   │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 9.  │ **Bikaner Bhujia**                 │ Food Stuff (Snack)  │ Bikaner               │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 10. │ **Sojat Mehndi** (2021)            │ Agricultural (Herb) │ Sojat (Pali)          │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 11. │ **Nathdwara Pichhwai Craft** (2023)│ Handicraft (Cloth)  │ Nathdwara (Rajsamand) │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 12. │ **Udaipur Koftgari Metal Craft**   │ Handicraft (Metal)  │ Udaipur               │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 13. │ **Bikaner Kashidakari Craft** (2023│ Handicraft (Embroid)│ Bikaner               │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 14. │ **Bikaner Usta Kala Craft** (2023) │ Handicraft (Hide)   │ Bikaner               │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 15. │ **Jodhpur Bandhej Craft** (2023)   │ Handicraft (Textile)│ Jodhpur               │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 16. │ **Kota Doria Logo**                │ Logo / Brand Mark   │ Kota                  │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 17. │ **Blue Pottery Logo**              │ Logo / Brand Mark   │ Jaipur                │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 18. │ **Molela Clay Work Logo**          │ Logo / Brand Mark   │ Rajsamand             │
-├─────┼────────────────────────────────────┼─────────────────────┼───────────────────────┤
-│ 19. │ **Kathputlis Logo**                │ Logo / Brand Mark   │ Statewide             │
-└─────┴────────────────────────────────────┴─────────────────────┴───────────────────────┘
-```
+1. **Thewa:** Pratapgarh; gold sheet work set against coloured glass; Mahesh Raj Soni received Padma Shri in 2015.
+2. **Thewa's metal:** Rajasthan government craft material describes approximately 23-carat gold sheet; do not insist on 24-carat as a universal rule.
+3. **Blue pottery:** Jaipur; quartz/frit-based body, often described as clay-free.
+4. **Blue pottery revival:** Kripal Singh Shekhawat; Padma Shri 1974. Exact “25 new shades” count is not essential unless a syllabus source prescribes it.
+5. **Molela terracotta:** Molela, Rajsamand; hand-modelled votive plaques; clay may be tempered with donkey dung.
+6. **Molela artisan:** Mohan Lal Kumhar; Padma Shri 2012.
+7. **Usta art:** Bikaner; embossed/gilded decoration; Hisamudin Usta received Padma Shri in 1986.
+8. **Usta GI:** Exact name **Bikaner Usta Kala Craft**, registered 2023.
+9. **Minakari:** Coloured enamel on metal; Kudrat Singh received Padma Shri in 1988. Do not automatically call Jaipur Minakari a registered GI.
+10. **Koftgari:** Decorative gold/silver inlay on iron/steel; **Udaipur Koftgari Metal Craft** registered in 2023.
+11. **Badla:** Jodhpur-associated metal water container with felt/cloth covering; don't memorise “only Jodhpur” as a legal exclusive.
+12. **Kavad:** Portable painted wooden shrine/storytelling structure; Bassi, Chittorgarh is a key centre.
+13. **Kavad GI status:** Chittorgarh Bassi Kawad Craft was under examination in the checked record, not registered.
+14. **Kathputli institution:** Bharatiya Lok Kala Mandal, Udaipur, founded by Devi Lal Samar in 1952.
+15. **Kota Doria:** Kaithoon/Kota; cotton–silk weave; small square checks are called *khat*.
+16. **Sanganeri print:** Fine floral block-print tradition of Sanganer; white/off-white is common but not the only ground.
+17. **Bagru print:** Bagru, Jaipur; Dabu mud-resist is a major identifying technique.
+18. **Ajrakh:** Barmer artisans practise it, but no independent registered Barmer Ajrakh GI was found in the checked register.
+19. **Registered GI update:** Mojari Craft of Jodhpur and Rajasthan Ravan Hattha were registered in March 2026.
+20. **Pending is not registered:** Lehariya textiles, Bassi Kavad, Jaipur Rajai, Lakh bangles, Jodhpur Safa, Jaipur Tarkashi, and Gota Patti applications were non-registered statuses in the checked record.
 
 ---
 
-## 4. Master Comparative Matrix: Regional Craft Specializations
+## 8. RPSC RAS Mains: Model Answer Frameworks
 
-| Craft Specialty | Geographic Hub | Primary Raw Material | Iconic Historical Patron / Master | Diagnostic Recognition Factor |
-| :--- | :--- | :--- | :--- | :--- |
-| **Thewa Art** | Pratapgarh | 24K gold foil & Belgian glass | Samant Singh; **Mahesh Raj Soni** | Secret family guild; gold filigree on colored glass. |
-| **Blue Pottery** | Jaipur | Quartz, glass, Multani mitti | Ram Singh II; **Kripal Singh** | Zero clay used; 25 mineral shades (*Kripal Kumbh*). |
-| **Molela Terracotta**| Nathdwara | Banas red clay & donkey dung | **Mohanlal Kumhar** (Padma Shri) | Sacred relief plaques of Devnarayanji and Bhairav. |
-| **Usta Art** | Bikaner | Treated camel hide & gold foil | Rai Singh / Anup Singh; **Hisam-ud-din** | Embossed gilding on camel leather water *Kuppis*. |
-| **Sanganeri Print** | Jaipur | Cotton, natural vegetable dyes | Sawai Jai Singh; Nama Chippas | Fine floral *Bootis* on off-white base. |
-| **Bagru Print** | Jaipur | Cotton, Dabu mud, iron rust | Local Chippas | Earthy red/black resist printing on dark ground. |
-| **Ajrakh Print** | Barmer | Cotton, indigo, alizarin | Khatri artisans | Double-sided symmetrical print; indigo & crimson. |
-| **Kota Doria** | Kaithoon (Kota)| Cotton, silk, gold/silver zari | Zalim Singh; **Mahmud Masuria** | Distinct square weave checks (**Khat**). |
-| **Kathputli** | Udaipur | Adusa wood & fabric flared skirts| **Devi Lal Samar** (Lok Kala Mandal)| String-controlled wooden puppets; martial ballads. |
-| **Tarkashi** | Nathdwara | Teak/sheesham wood & silver wire | Mewari Carpenters | Fine silver wire inlaid into wooden artifact boxes. |
+### Q1. Explain the technique and cultural significance of Thewa art. (2–5 marks)
 
----
+Thewa is a jewellery and decorative-art tradition associated with Pratapgarh. Artisans etch fine designs into thin gold sheet and set the work against coloured glass. Themes include mythology, courtly life, hunting, plants and animals. The technique is maintained through hereditary artisan practice. Thewa Art Work is registered as a GI, and Mahesh Raj Soni received the Padma Shri in 2015.
 
-## 5. The 25 Deadly Prelims Traps: Handicrafts & GI Tags
+### Q2. Distinguish between Jaipur Blue Pottery and Molela Terracotta. (5 marks)
 
-1. **Blue Pottery Raw Material Trap**: Blue Pottery uses **NO clay or mud**. It is made from **quartz powder, glass cullet, Fuller's earth, gum, and water**.
-2. **Kripal Singh Shekhawat's Innovation**: Invented **25 new mineral shades** for Blue Pottery (not just blue and green), founding the **"Kripal Kumbh"** style.
-3. **Thewa Art Secret Transmission**: Thewa art technique is **never taught to married daughters**; it is transmitted exclusively from father to son within the Rajsoni family of Pratapgarh.
-4. **Padma Shri Awardees in Crafts Matrix**:
-   - **Hisam-ud-din Usta (1986)** $\rightarrow$ Usta Art (Bikaner).
-   - **Kudrat Singh (1988)** $\rightarrow$ Minakari (Jaipur).
-   - **Mohanlal Kumhar (2012)** $\rightarrow$ Molela Terracotta (Nathdwara).
-   - **Mahesh Raj Soni (2015)** $\rightarrow$ Thewa Art (Pratapgarh).
-5. **Molela Clay Additive Trap**: The red clay from the Banas riverbed is mixed with **donkey dung (*Gadhe ki Leed*)** to provide porosity and prevent cracking during kiln firing.
-6. **Sanganeri vs Bagru Print Background**:
-   - **Sanganeri Print**: Printed on **off-white, cream, or white** backgrounds with delicate floral *Bootis*.
-   - **Bagru Print**: Printed on **dark, earthy red-black** backgrounds using mud-resist *Dabu*.
-7. **Ajrakh Print Double-Sided Feature**: Ajrakh is printed on **both sides of the fabric** in perfect geometrical registration, dominated by **indigo blue and crimson red**.
-8. **Origin of Kota Doria**: Brought from **Mysore** by Maharao Shatrushal and Zalim Singh; named *Masuria* after master weaver Mahmud Masuria.
-9. **Khat in Kota Doria**: The distinct square check pattern in Kota Doria is called a **Khat (खट)**.
-10. **The Capital of Gotawork**: **Khandela (Sikar)** is the universally recognized capital of Gotawork (Lappa, Lappi, Kiran, Bankadi).
-11. **Paper-Thin (Kagzi) Pottery**: Handcrafted exclusively in **Alwar**, NOT Jaipur or Kota.
-12. **Black Pottery Hub**: Handcrafted in **Kota** (vases, teapots, and chillums).
-13. **Badla Material & Location**: Badla is a water bottle made of **zinc (*Jasta*)** lined with cloth, manufactured exclusively in **Jodhpur**.
-14. **Bassi Woodcraft Kavad vs Viman**:
-   - **Kavad**: A portable wooden shrine with multiple folding doors used by itinerant storytellers.
-   - **Viman / Bawan**: A carved wooden palanquin used to transport temple idols during festivals.
-15. **Bharatiya Lok Kala Mandal Founder**: Founded in Udaipur in 1952 by **Devi Lal Samar** to preserve traditional puppetry (*Kathputli*) and folk arts.
-16. **Silver Wire Inlay (Tarkashi)**: Handcrafted in **Nathdwara (Rajsamand)**, NOT Jaipur or Jodhpur.
-17. **Lac Bangles Terminology**: Traditional lac bangles are termed **Mokadi (मोकड़ी)**, centered at Maniharon ka Rasta in Jaipur.
-18. **The 2021 Agricultural GI Tag**: Awarded to **Sojat Mehndi (Pali)** for its high lawsone dye content.
-19. **The Five 2023 GI Tags of Rajasthan**:
-    1. Nathdwara Pichhwai Craft
-    2. Udaipur Koftgari Metal Craft
-    3. Bikaner Kashidakari Craft
-    4. Bikaner Usta Kala Craft
-    5. Jodhpur Bandhej Craft
-20. **Food Stuff GI Tag of Rajasthan**: **Bikaner Bhujia** (made from moth bean / *Moth ka Aata*).
-21. **Koftgiri vs Minakari Metal Base**:
-    - **Minakari**: Enameling on **gold and silver** (Jaipur).
-    - **Koftgiri**: Gold/silver wire inlaid into **hard iron/steel weapons** (Udaipur/Jaipur).
-22. **Pokhran Pottery GI Status**: Handcrafted red terracotta pottery from **Pokhran (Jaisalmer)** holds an independent GI Tag.
-23. **Akola Dabu Types**: Chhipon ka Akola (Chittorgarh) uses three types of Dabu: **Mitti Dabu, Gond Dabu, and Mom Dabu**.
-24. **Adusa Wood in Puppetry**: Traditional Kathputlis are carved from the lightweight timber of the **Adusa tree (*Aadhoo*)**.
-25. **Fadath & Jajam Prints**: Famous heavy block-printed textiles produced at **Akola (Chittorgarh)** on the Bedach river.
+| Point | Jaipur Blue Pottery | Molela Terracotta |
+|---|---|---|
+| Body material | Quartz/frit-based mixture; clay is not the principal body | Local clay modelled and fired |
+| Finish | Glazed and often decorated in blue/green and other colours | Commonly terracotta relief plaques and figures |
+| Main centre | Jaipur | Molela, Rajsamand |
+| Typical themes | Birds, animals, flowers and decorative patterns | Deities and local devotional subjects |
+| Recognised figure | Kripal Singh Shekhawat | Mohan Lal Kumhar |
+
+### Q3. Differentiate Sanganeri and Bagru printing. (5 marks)
+
+Sanganer is known for fine floral hand-block prints, traditionally often made on pale grounds, while Bagru is strongly associated with the Dabu mud-resist method and an earthy palette. Both have registered GI entries. Their styles are not absolute: present-day materials, dyes and ground colours vary by workshop.
+
+### Q4. Explain the role of GIs in preserving Rajasthan's craft heritage. (10 marks)
+
+A Geographical Indication identifies goods whose quality, reputation or other characteristic is linked to a defined place. Rajasthan examples relevant to craft include Kota Doria, Thewa Art Work, Sanganeri Hand Block Printing, Bagru Hand Block Print, Udaipur Koftgari Metal Craft and Bikaner Usta Kala Craft. GI recognition can strengthen origin identification, collective reputation and consumer confidence. It does not itself guarantee that every item is authentic; specifications, producer eligibility, authorised-user arrangements and enforcement matter. Pending applications must not be reported as registrations. The GI register should be checked regularly because products, logos and renewal records are separate entries.
+
+### Q5. Compare Usta art and Koftgari. (5–10 marks)
+
+Usta art is associated with Bikaner and includes embossed, gilded and painted decoration on camel hide and architectural or crafted surfaces. Koftgari is a metal-inlay tradition associated with Udaipur in which gold or silver is worked into iron or steel surfaces. Their material base and technical purpose differ. Bikaner Usta Kala Craft and Udaipur Koftgari Metal Craft are registered GI entries dating to 2023.
 
 ---
 
-## 6. RPSC RAS Mains High-Yield Model Answers
+## 9. Sources and Verification Register
 
-### 6.1 2-Markers (15–20 Words)
+The following authoritative sources were used for the main factual and status checks. The GI registry is dynamic; always consult the linked record for the latest status.
 
-#### Q1: What is Thewa Art, and where did it originate?
-**Answer**:
-A delicate handicraft originating in Pratapgarh (c. 1775 CE, Nathu Ji Soni) involving the intricate fusing of 24-carat pure gold filigree onto colored Belgian glass.
+### Official GI Registry — IP India
 
----
+- [Kota Doria](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/12)
+- [Blue Pottery of Jaipur](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/66)
+- [Molela Clay Work](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/67)
+- [Kathputlis of Rajasthan](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/68)
+- [Bikaneri Bhujia](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/142)
+- [Sanganeri Hand Block Printing](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/147)
+- [Bagru Hand Block Print](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/183)
+- [Thewa Art Work](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/244)
+- [Sojat Mehndi](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/628)
+- [Udaipur Koftgari Metal Craft](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/747)
+- [Nathdwara Pichhwai Painting](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/748)
+- [Bikaner Kashidakari Craft](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/750)
+- [Jodhpur Bandhej Craft](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/751)
+- [Bikaner Usta Kala Craft](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/753)
+- [Mojari Craft of Jodhpur (Rajasthan)](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/735)
+- [Rajasthan Ravan Hattha (Musical Instrument)](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1225)
+- [Chittorgarh Bassi Kawad Craft — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1597)
+- [Black Pottery of Sawai Madhopur — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1598)
+- [Rajasthan Lehariya Textiles — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1599)
+- [Jaipur Handmade Lac Products — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2120)
+- [Nayla Gota Patti Work — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2175)
+- [Jodhpur Iron Craft — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1224)
+- [Jaipur Tarkashi Art — application status](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1933)
 
-#### Q2: Name the ingredients used in manufacturing Jaipur Blue Pottery.
-**Answer**:
-Prepared without clay using: quartz powder, pulverized glass cullet, Fuller's earth (*Multani Mitti*), natural gum, and sodium salt water (*Sajji*).
+### Government of Rajasthan — Craft Documentation
 
----
+- [Thewa](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/artandcraft/jewellery0/thewa.html)
+- [Jaipur Blue Pottery](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/artandcraft/bluepottery/bluepottery-jaipur.html)
+- [Molela Terracotta](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/artandcraft/terracotta/terracottaofmolela.html)
+- [Usta Kala](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/artandcraft/leather/ustakala.html)
+- [Kota Doria](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/artandcraft/textilework/kotadoria.html)
+- [Hand-block printing](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/artandcraft/textilework/handblockprinting.html)
+- [Rajasthan craft Padma awardees](https://handmadeinrajasthan.rajasthan.gov.in/content/industries/handmadeinrajasthandepartment/mastercrafts/padmaawardees.html)
+- [Bharatiya Lok Kala Mandal — Rajasthan Department of Art and Culture](https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/bhartiya-lok-kala-mandal-udaipur/profile.html)
 
-#### Q3: What is "Kavad" in Rajasthani woodcraft?
-**Answer**:
-A portable wooden temple shrine made in Bassi (Chittorgarh) by Suthar artisans, featuring multi-tiered painted folding doors opened sequentially during storytelling.
+### Government of India — Awards
 
----
-
-#### Q4: Why is Sojat Mehndi famous, and when did it receive the GI Tag?
-**Answer**:
-Cultivated in Sojat (Pali); globally renowned for high natural lawsone dye pigment and skin-cooling aroma; granted an official Geographical Indication (GI) Tag in 2021.
-
----
-
-#### Q5: State the distinct characteristic of Ajrakh block printing.
-**Answer**:
-A traditional Barmer block-print executed with geometric motifs in deep indigo blue and crimson red, uniquely stamped on **both sides** in perfect registration.
-
----
-
-### 6.2 5-Markers (50 Words)
-
-#### Q6: Explain the technique, themes, and maestro of Molela Terracotta art.
-**Answer**:
-Centered in Molela village (Nathdwara) on the Banas river, this craft involves hand-modeling unglazed red clay mixed with donkey dung:
-1. **Technique**: Hollow relief clay plaques sculpted by hand without potter's wheels, sun-dried, and baked in indigenous kilns without chemical glazes.
-2. **Themes**: Traditional religious deities for tribal and pastoral communities: Lord Devnarayanji mounted on horseback, Goraji, and Bhairav.
-3. **Master Artisan**: **Mohanlal Kumhar** was awarded the Padma Shri in 2012 for elevating this rural craft to international museums.
-
----
-
-#### Q7: Differentiate between Sanganeri and Bagru hand block print traditions.
-**Answer**:
-Both are world-renowned block-printing centers in Jaipur district, differing sharply in aesthetics, base fabric, and dyeing techniques:
-1. **Sanganeri Print**: Characterized by fine, delicate floral sprays (*Bootis*) and creepers printed on an **off-white or pure white** cotton base using natural vegetable dyes; patronized by Sawai Jai Singh.
-2. **Bagru Print**: Characterized by the **Dabu mud-resist method**, printed on an earthy, dark background using bold geometric motifs and a distinct natural palette of **Hinglu red and Syahi black** derived from fermented iron.
+- [Padma Awards 1986 notification — Hisamudin Usta](https://www.padmaawards.gov.in/Document/pdf/notifications/PadmaAwards/1986.pdf)
+- [Padma Awards 1988 notification — Kudrat Singh](https://www.padmaawards.gov.in/Document/pdf/notifications/PadmaAwards/1988.pdf)
+- [Padma Awards 2012 — Mohan Lal Kumhar](https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=79881)
+- [Padma Awards 2015 — Mahesh Raj Soni](https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114952)
+- [IGNOU/eGyanKosh study of craft traditions including Kripal Singh Shekhawat](https://egyankosh.ac.in/bitstream/123456789/107734/1/Unit-10.pdf)
 
 ---
 
-#### Q8: Write a concise note on the contribution of Kripal Singh Shekhawat to Blue Pottery.
-**Answer**:
-Trained at Santiniketan, **Kripal Singh Shekhawat (1922–2008)** revived Jaipur's dying Blue Pottery tradition in the mid-20th century:
-1. **Color Expansion**: Transcended the traditional two-tone blue-green constraint by inventing **25 new mineral and vegetable shades** (brown, yellow, violet, crimson).
-2. **Artistic School**: Established the renowned **"Kripal Kumbh"** studio, training hundreds of artisans in classical Indian decorative painting.
-3. **Recognition**: Awarded the Padma Shri in 1974 and the title *Shilpi Guru*, securing global market recognition for the craft.
-
----
-
-### 6.3 10-Markers (100 Words)
-
-#### Q9: "Geographical Indications (GI Tags) serve as critical legal instruments for preserving Rajasthan's indigenous artisanal heritage and driving rural economic growth." Critically analyze with reference to the state's GI portfolio.
-**Answer**:
-Geographical Indications (GI Tags) under the 1999 Act protect Rajasthan’s traditional intellectual property against industrial imitation while expanding global export markets:
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   SOCIO-ECONOMIC IMPACT OF GI TAGS IN RAJASTHAN                        │
-├───────────────────────────┬────────────────────────────────────────────────────────────┤
-│ Dimension                 │ Structural Impact & Sovereign GI Exemplars                 │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 1. Legal Protection &     │ • Shields delicate crafts from cheap mass-produced machine │
-│    Quality Assurance      │   replicas (e.g., Kota Doria powerloom fakes neutralized   │
-│                           │   by the authentic Kaithoon GI seal and logo).             │
-│                           │ • Protects exclusive formulas (Thewa Art, Blue Pottery).   │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 2. Rural Employment &     │ • Sustains livelihood for thousands of rural handloom      │
-│    Artisanal Livelihoods  │   and handicraft clusters (Sanganer & Bagru Chippas,       │
-│                           │   Molela Kumhars, Pokhran potters, Bikaner Usta artists).  │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 3. Global Export Premium  │ • Certifies provenance in European and American markets,   │
-│                           │   commanding premium pricing for Bikaner Bhujia, Sojat     │
-│                           │   Mehndi (cosmetic exports), and Nathdwara Pichhwais.      │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 4. Preservation of Oral   │ • Recent 2023 additions (Udaipur Koftgari, Bikaner Usta,   │
-│    Heritage Systems       │   Kashidakari, Jodhpur Bandhej) incentivize younger        │
-│                           │   generations to master time-tested generational skills.   │
-└───────────────────────────┴────────────────────────────────────────────────────────────┘
-```
-**Conclusion**: By converting vernacular heritage into legally protected economic assets, GI Tags bridge Rajasthan’s feudal artisanal glory with modern commercial sovereignty.
-
----
-
-#### Q10: Elaborate on the historical evolution, material techniques, and contemporary significance of Usta Art and Thewa Art in Rajasthan.
-**Answer**:
-Usta Art and Thewa Art represent the zenith of luxury courtly craftsmanship in medieval Rajasthan, transforming animal hide and glass into glittering fine art:
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   COMPARATIVE ANALYSIS: USTA ART VS THEWA ART                          │
-├───────────────────────────┬─────────────────────────────┬──────────────────────────────┤
-│ Evaluative Parameter      │ Usta Art (Bikaner)          │ Thewa Art (Pratapgarh)       │
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 1. Material Architecture  │ • Cured, dried **camel hide │ • **24-carat gold foil       │
-│    & Substrate            │   (*Oont ki Khaal*)**, wood,│   (*Wark*)** fused onto      │
-│                           │   and marble.               │   molten colored Belgian glass.│
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 2. Technical Mechanics    │ • *Munawwati*: Gilded relief│ • Delicate microscopic fili- │
-│                           │   lacquer and gold-leaf     │   gree carved on gold and    │
-│                           │   embossing on camel water  │   fused into glass without   │
-│                           │   vessels (*Kuppi*), domes. │   cracking; secret formula.  │
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 3. Royal Genesis &        │ • Brought from Lahore under │ • Founded c. 1775 under      │
-│    Historic Dynasty       │   **Rai Singh & Anup Singh**│   **Maharawat Samant Singh**;│
-│                           │   of Bikaner.               │   title *Rajsoni* to Nathuji.│
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 4. Master Titans &        │ • **Hisam-ud-din Usta**     │ • **Mahesh Raj Soni**        │
-│    Modern Honors          │   (Padma Shri 1986).        │   (Padma Shri 2015).         │
-│                           │ • GI Tag granted in 2023.   │ • Inscribed with GI Tag.     │
-└───────────────────────────┴─────────────────────────────┴──────────────────────────────┘
-```
-**Conclusion**: Both traditions embody the exquisite synthesis of royal Rajput patronage and generational artisanal discipline, surviving today as globally celebrated hallmarks of Rajasthan's artistic identity.
-
----
-
-[Part III: Art, Architecture & Cultural Heritage 100% Complete ➔ Next: Part IV: Chapter 18: Morphotectonic Divisions of Rajasthan]
+**Chapter 17 complete.** Next in the sequence: **Chapter 18 — Morphotectonic Divisions of Rajasthan.**

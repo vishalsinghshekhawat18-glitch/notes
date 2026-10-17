@@ -17,6 +17,48 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v061 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 17 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 17)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_17_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_17_HANDICRAFTS_AND_GI_TAGS_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/18_CHAPTER_17_HANDICRAFTS_AND_GI_TAGS.md` and Rapid Revision Matrix 17 (`007/revision/rajasthan/17_REV_CHAPTER_17_HANDICRAFTS_GI_TAGS.md`), purging unverified GI claims, separating registered product GIs from logo marks and pending applications, nuancing craft recipes and materials, and synchronizing with official IP India and Padma Shri records (Snapshot: 17 October 2026).
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **GI Classification & Registry Integrity**:
+    - Discarded false claims of a "complete canonical registry" of 19 tags. Disentangled registered product GIs from logo records (e.g. *Kota Doria Logo*, *Blue Pottery Logo* are separate device marks, not independent craft products).
+    - Purged false registered-GI claims for: **Pokhran Pottery** (no registered GI found), **Barmer Ajrakh Print** (no separate registered Barmer entry), and **Jaipur Minakari** (prominent craft and Padma award, but no independent registered GI named "Jaipur Minakari").
+    - Added newly registered GIs with official certificate dates:
+      - **Mojari Craft of Jodhpur (Rajasthan)** (App No. 735, registered 28 March 2026).
+      - **Rajasthan Ravan Hattha (Musical Instrument)** (App No. 1225, registered 28 March 2026).
+    - Established clear demarcation for applications under examination / pre-examination:
+      - **Chittorgarh Bassi Kawad Craft** (App No. 1597) — *Examination*.
+      - **Black Pottery of Sawai Madhopur** (App No. 1598) — *Examination* (disproves "Kota-only" myth).
+      - **Rajasthan Lehariya Textiles** (App No. 1599) — *Examination*.
+      - **Jaipur Rajai** (App No. 1600) — *Examination*.
+      - **Rajasthan Lakh Ki Chudiya** (App No. 1601) — *Examination*.
+      - **Jodhpur Safa (Turban)** (App No. 1602) — *Examination*.
+      - **Jaipur Tarkashi Art** (App No. 1933) — *Pre-Examination*.
+      - **Nayla Gota Patti Work** (App No. 2175) — *New Application*.
+  - **Thewa Art Nuancing (Pratapgarh)**:
+    - Updated material specification: Rajasthan government documentation specifies **~23-carat gold sheet** etched and mounted against coloured glass, rather than rigid "24-carat gold foil on molten Belgian glass".
+    - Nuanced hereditary transmission: Knowledge is traditionally guarded within the Raj-Soni family guild (Nathuji Soni lineage; **Mahesh Raj Soni**, Padma Shri 2015), removing unverified universal customary laws or Queen Victoria anecdotes from the memorisation core.
+  - **Blue Pottery Body & Revival (Jaipur)**:
+    - Anchored body composition: **Quartz/frit-based body ("clay-free")** combining quartz powder, glass cullet, Multani mitti, borax/flux, and gum; recipes vary across workshops.
+    - Softened biographical assertions: Preserved **Kripal Singh Shekhawat** (Padma Shri 1974, Shilp Guru) as the revival titan, while removing the rigid requirement of "exactly 25 new shades".
+  - **Molela Terracotta & Donkey Dung Temper (Rajsamand)**:
+    - Documented technique: Banas river clay mixed with **~5–10% donkey dung** temper to improve workability and prevent shrinkage cracking; hand-modelled relief plaques of Devnarayanji and folk deities serving devotional purposes; **Mohan Lal Kumhar** (Padma Shri 2012).
+  - **Usta Art, Minakari & Koftgari Demarcation**:
+    - **Bikaner Usta Kala Craft** (GI No. 753, registered 2023): Embossed (*Munawwati*), gilded and lacquered work on camel hide and palace interiors; Raja Rai Singh patronage; **Hisamudin Usta** (Padma Shri 1986).
+    - **Minakari (Jaipur)**: Coloured mineral enamel on precious metals; **Kudrat Singh** (Padma Shri 1988); NOT a registered GI.
+    - **Udaipur Koftgari Metal Craft** (GI No. 747, registered 2023): Gold/silver wire inlaid into iron/steel surfaces.
+    - **Badla (Jodhpur)**: Zinc water flask with felt/cloth insulation; removed unsupported geographic exclusivity and 48°C cooling guarantees.
+  - **Woodcraft, Puppetry & Textiles**:
+    - **Bassi Kavad**: Portable painted folding shrine; separated from processional *viman/bewan*; founder lore qualified.
+    - **Kathputlis of Rajasthan** (GI No. 68): Carved from lightweight wood (species varies; not exclusively Adusa); **Bharatiya Lok Kala Mandal**, Udaipur founded in **1952** by **Devi Lal Samar**.
+    - **Kota Doria** (GI No. 12, valid to 2034): Cotton-silk gossamer weave with **khat** square grid of **14 yarns (8 cotton + 6 silk)**.
+    - **Sanganeri Print** (GI No. 147) & **Bagru Print** (GI No. 183): Sanganeri fine florals (often pale grounds, modern grounds vary); Bagru Dabu mud-resist printing with earthy palette.
+
 ### [STAGED LOCAL] v060 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 16 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
