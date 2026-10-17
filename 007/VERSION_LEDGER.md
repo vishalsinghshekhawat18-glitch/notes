@@ -13,9 +13,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
-### [STAGED LOCAL] v082 — Rajasthan Sovereign Master Codex (RAJ-007) Authentic RPSC RAS PYQ Corpus V1 Source Registry Integration
+### [RELEASED v082] — Rajasthan Sovereign Master Codex (RAJ-007) Authentic RPSC RAS PYQ Corpus V1 Source Registry Integration
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `b8cf18d`
 * **Status**: **STATUS: 100% SOURCED & CROSSWALKED WITH OFFICIAL RPSC REGISTRY**
 * **Audit Score Baseline Alignment**:
   - Ingested the official RPSC Previous-Year Question (PYQ) Corpus V1 Source Registry (`RAS_PYQ_CORPUS_V1`), establishing the first verified master register of official question papers and answer keys directly from RPSC portals.
