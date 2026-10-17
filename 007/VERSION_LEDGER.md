@@ -13,6 +13,33 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v082 — Rajasthan Sovereign Master Codex (RAJ-007) Authentic RPSC RAS PYQ Corpus V1 Source Registry Integration
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% SOURCED & CROSSWALKED WITH OFFICIAL RPSC REGISTRY**
+* **Audit Score Baseline Alignment**:
+  - Ingested the official RPSC Previous-Year Question (PYQ) Corpus V1 Source Registry (`RAS_PYQ_CORPUS_V1`), establishing the first verified master register of official question papers and answer keys directly from RPSC portals.
+  - Deployed master inventory into `007/question_bank/rajasthan/` encompassing 34 core paper slots (6 Prelims cycles: 2013, 2016, 2018, 2021, 2023, 2024; 24 regular Mains papers across 6 cycles: 2013, 2016, 2018, 2021, 2023, 2024; and 4 papers of the 2016 Special Mains held December 2018), plus official variants (2013 accessible Prelims version for blind candidates and the 2013-labeled 2015 sitting).
+  - Integrated the formal 4-level authentication hierarchy (Level A: archived & hashed; Level B: official portal listing verified; Level C: official annual report cycle evidence only; Level D: secondary/unverified), classifying all 34 core papers at Level B and documenting the 2012 cycle as an official-report gap (Level C).
+  - Established the official RPSC Answer-Key Register, validating final answer keys for Prelims 2016, 2018, 2021, 2023, 2024 (including direct PDF link for 2024 Prelims) and the revised answer key for Prelims 2013, while establishing the descriptive non-applicability rule for Mains.
+  - Linked the RPSC question taxonomy to the complete 37-chapter architecture of Shelf 007 via `03_CHAPTER_CROSSWALK.md`, providing the definitive crosswalk, question-level JSON schema, offline filterable catalog (`index.html`), and python build utility (`build_local_corpus.py`).
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Official Paper Inventory (34 Core Slots + Variants)**:
+    - **Prelims Cycles (6 Core)**: 2024 (Exam: 02-02-2025), 2023 (01-10-2023), 2021 (27-10-2021), 2018 (05-08-2018), 2016 (28-08-2016), 2013 (26-10-2013). Variants: 2013 Accessible version for blind candidates; 2013 re-exam sitting (31-10-2015).
+    - **Mains Cycles (28 Papers)**: 6 standard cycles of 4 papers each (2024, 2023, 2021, 2018, 2016, 2013) + 2016 Special Mains (4 papers; held 17–18 Dec 2018).
+    - **2012 Cycle Documentation**: Documented RPSC Annual Report 2012–13 evidence for the 14 June 2012 Prelims and 23 August 2012 Physics re-exam, tracking it as an official archival gap (Level C).
+  - **Answer Key Discipline**:
+    - Final answer keys enforced for Prelims (2016, 2018, 2021, 2023, 2024); revised key enforced for 2013 Prelims.
+    - Descriptive Mains papers protected from faux "official answer keys"; model answers restricted to independent scholarly frameworks.
+  - **Taxonomic Crosswalk to Shelf 007 (Chapters 01–37)**:
+    - Ch 01–05: Ancient & Dynastic history (prehistoric sites, epigraphy, rulers).
+    - Ch 06–10: Resistance, 1857, peasant/tribal movements, Prajamandals, integration.
+    - Ch 11–17: Art, architecture, painting, fairs, festivals, folk culture, GI tags.
+    - Ch 18–23: Geography, climate, river basins, canals, forests, minerals.
+    - Ch 24–29: Constitution, Governor/CM, HC/RPSC, administration, public accountability.
+    - Ch 30–34: Macro-economy, agriculture/livestock, industry/MSME, infrastructure/energy, social welfare/health.
+    - Ch 35–37: Sociology/tribes, sports/yoga, capstone grand synthesis.
+
 ### [RELEASED v081] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 37 Capstone Grand Synthesis Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: `95f5ce1`

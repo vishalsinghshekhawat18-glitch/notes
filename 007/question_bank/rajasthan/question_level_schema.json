@@ -1,0 +1,35 @@
+{
+  "schema_name": "ras_pyq_question_record",
+  "schema_version": "1.0",
+  "description": "One record per question only after the original RPSC paper has been downloaded, fingerprinted, text-extracted and human-verified.",
+  "required_fields": {
+    "question_id": "Stable unique ID, e.g. RAS-PRE-2024-Q001.",
+    "paper_record_id": "Must match a record_id in manifest.json.",
+    "exam_cycle": "Official exam cycle label (not the year the paper was released).",
+    "stage": "Prelims, Mains, or Special Mains.",
+    "paper": "Official paper identifier/title.",
+    "question_no_as_printed": "Preserve number printed on original paper.",
+    "language": "Language of the text retained.",
+    "question_text_verbatim": "Verbatim text; preserve spellings where legible and annotate uncertain OCR instead of silently correcting.",
+    "options_verbatim": "Ordered options A/B/C/D or equivalent; null for descriptive questions.",
+    "official_key_answer": "Final/revised official key response; null if descriptive/no key identified.",
+    "key_status": "Final, Revised, Model, Provisional, Not Applicable, or Not Located.",
+    "primary_chapter": "One of chapters 01–37 after human review.",
+    "secondary_chapters": "List of additional supported chapter IDs.",
+    "topic_tags": "Controlled vocabulary tags.",
+    "syllabus_unit": "Relevant official syllabus unit/paper, where supported.",
+    "source_pdf_filename": "Exact local filename of untouched RPSC original.",
+    "source_pdf_sha256": "SHA-256 of original PDF bytes.",
+    "source_page": "Page number(s) in original PDF.",
+    "extraction_method": "Native text extraction, OCR, or manual transcription.",
+    "human_verified": "Boolean; true only after comparison with rendered source page.",
+    "review_notes": "Deleted question, revised key, unclear print, translation variance, or other caveat."
+  },
+  "policy": [
+    "Do not populate question text from memory or coaching summaries when official text is missing.",
+    "Do not overwrite a provisional key with a final key; preserve key version history.",
+    "Question numbers and option order must match the official paper.",
+    "Tagging must be based on question substance, not keyword matching alone.",
+    "No topic-frequency totals before all papers in the selected denominator have been fully processed and checked."
+  ]
+}
