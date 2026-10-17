@@ -17,6 +17,41 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v070 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 26 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 26)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_26_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_26_CONSTITUTIONAL_STATUTORY_BODIES_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/27_CHAPTER_26_CONSTITUTIONAL_STATUTORY_BODIES.md` and Rapid Revision Matrix 26 (`007/revision/rajasthan/26_REV_CHAPTER_26_CONSTITUTIONAL_STATUTORY_BODIES.md`), resolving false suspension/removal authorities under Article 317, differentiating SFC recommendation from government acceptance, updating RSHRC post-2019 composition and Section 23 removal grounds, correcting RTI aggregate tenures and penalty/compensation section attributions, and fixing the Competent Authority under Section 2(c) of the Rajasthan Lokayukta Act.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **RPSC Constitutional Protocol (Articles 315–323)**:
+    - **Removal and Suspension (Article 317)**: Corrected the authority: RPSC members are **removed ONLY by the President of India** following a Supreme Court inquiry on a presidential reference (Art. 317(1)). Crucially, **suspension pending inquiry is exercised by the PRESIDENT** (Art. 317(2)), NOT the Governor.
+    - Promulgation/inauguration dates distinguished: Ordinance promulgated **16 August 1949**, published in Gazette **20 August 1949**, formal inauguration **22 December 1949**. HQ moved from Jaipur to Ghooghra Ghati, Ajmer in 1958 per Satyanarayan Rao Committee.
+    - Composition: Proviso to Art. 316(1) ("as nearly as may be one-half" with 10+ years government service) framed as an administrative qualification guideline rather than an inflexible quota.
+  - **State Election Commission (Articles 243K & 243ZA)**:
+    - Superintends elections to **Panchayats and Municipalities ONLY** (ECI conducts Parliament and Assembly elections).
+    - Removal under Art. 243K(2) follows the **like manner and grounds as a High Court Judge** (Presidential order post-parliamentary 2/3rd majority; Governor has no removal authority).
+    - Tenure: 5 years or 65 years of age under Rajasthan SEC Conditions of Service Rules.
+  - **State Finance Commission (Articles 243-I & 243-Y)**:
+    - Sixth SFC (Pradyuman Singh): Differentiated recommendation (**7.25%** of state net own tax revenue) from actual Government acceptance (**6.75% for 2020–24 and 7.0% for 2024–25**).
+    - Updated to note the constitution and interim report submission of the **Seventh State Finance Commission (7th SFC)** for 2025–26.
+  - **Rajasthan State Human Rights Commission (PHRA, 1993)**:
+    - Post-2019 statutory composition: **1 Chairperson (Retd. Chief Justice OR Judge of a High Court)** + **2 Members** (1 Judicial + 1 Human Rights expert).
+    - 4-member selection committee verified: CM (Chair), Home Minister, Speaker, LoP (reflecting Rajasthan's unicameral structure).
+    - Removal: Exclusively by the **President of India** under PHRA Section 23 (Supreme Court reference for misbehaviour/incapacity).
+    - Statutory limitation: Strictly barred from inquiring into complaints older than **1 year** from the date of occurrence (Section 36(2)).
+  - **Rajasthan State Information Commission (RTI Act, 2005)**:
+    - SCIC and SIC tenure: 3 years / 65 years of age (2019 Rules); **aggregate combined tenure capped at 5 years** under Section 16(2) if an IC is promoted to SCIC.
+    - Section precision: Penalties (₹250/day up to ₹25,000) are imposed under **Section 20**; **Compensation to the complainant is awarded under Section 19(8)(b)** (NOT Section 20).
+    - Removal: Exercised by the **Governor** on reference to the Supreme Court under Section 17.
+  - **Lokayukta and Up-Lokayuktas (Act of 1973)**:
+    - **Competent Authority for Ministers/Secretaries**: Verified as the **Chief Minister** under Section 2(c) (NOT the Governor).
+    - Jurisdictional Exclusions: **Chief Minister** (expressly excluded by definition of Minister), MLAs, High Court Judges, RPSC, RVC, Sarpanch/Ward Panch.
+    - Tenure: Corrected statutory rollback in July 2019 returning the term from 8 years back to **5 years or 65 years of age**. Limitation: 5-year bar on complaints under Section 8(3).
+  - **Rajasthan State Commission for Women (RSCW, Act of 1999)**:
+    - Composition: Chairperson + up to 4 Members (including Member-Secretary); nominated/appointed by the **State Government** (not the Governor) for a **term of 3 years** (with no statutory age ceiling).
+
 ### [STAGED LOCAL] v069 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 25 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
