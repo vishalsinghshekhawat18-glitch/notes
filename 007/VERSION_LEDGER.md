@@ -13,7 +13,42 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
----
+### [STAGED LOCAL] v072 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 28 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 28)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_28_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_28_PANCHAYATI_RAJ_URBAN_GOVERNANCE_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/29_CHAPTER_28_PANCHAYATI_RAJ_URBAN_GOVERNANCE.md` and Rapid Revision Matrix 28 (`007/revision/rajasthan/28_REV_CHAPTER_28_PANCHAYATI_RAJ_URBAN_GOVERNANCE.md`), integrating the March 2026 statutory repeal of the two-child disqualification, fixing PRI meeting frequencies to Rule 39 wording ("at least once a fortnight"), separating statutory minimum Gram Sabha meetings from customary calendars, clarifying Art. 243F vs 243V disqualification articles, establishing accurate 8-district whole/partial PESA coverage, and qualifying urban classification multi-factor criteria.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Critical 2026 Disqualification Repeal**:
+    - **Two-Child Rule Abolished**: Rajasthan Act No. 6 of 2026 repealed the candidate disqualification for having more than two children from the Rajasthan Panchayati Raj Act, 1994 (deleting Section 19(l) and connected text; Governor's assent 24 March 2026). Parallel repeal for urban bodies executed via Rajasthan Municipalities (Amendment) Act, 2026 (Act No. 7 of 2026). The two-child bar is now **historical only, NOT current law**.
+    - **Educational Criteria Status**: The 2015 educational criteria (Class 8/10 pass norm) were completely repealed in February 2019; zero educational threshold exists today.
+    - **Sanitary Toilet Condition**: Maintained as a distinct statutory requirement under Section 19 (not conflated with repealed clauses).
+  - **Statutory Meeting Frequencies & Quorum Rules**:
+    - **Gram Panchayat**: Meets **at least once a fortnight** under Rule 39 of Rajasthan Panchayati Raj Rules, 1996 (NOT merely "twice a month").
+    - **Panchayat Samiti & Zila Parishad**: Meets at least once a month (Samiti) and at least once a quarter (Parishad) under Rule 39.
+    - **Quorum**: Ordinary meetings of PRIs require a quorum of **one-third (1/3rd)** of total membership.
+  - **Gram Sabha Deliberative Framework**:
+    - **Statutory Minimum**: Under Section 8A of the 1994 Act, the Gram Sabha must hold **at least two meetings per year** (one in first quarter, one in fourth quarter of the financial year).
+    - **Customary State Calendar**: The four widely cited dates (26 Jan, 1 May, 15 Aug, 2 Oct) represent an administrative calendar, not the sole statutory minimum.
+    - **Quorum**: One-tenth (1/10th) of total registered voters, with statutory representation of SC, ST, BC, and women. Deliberative and social accountability body, not an extra-statutory "sovereign" entity.
+  - **Constitutional Articles & Exceptions**:
+    - **Disqualification Articles Disentangled**: Article 243F applies exclusively to Panchayats; Article 243V applies exclusively to Municipalities under Part IX-A.
+    - **Intermediate Tier Exemption (Art. 243B)**: States with population not exceeding 20 lakh are constitutionally permitted to omit the intermediate (block) tier.
+    - **Dissolution Remainder (Arts. 243E & 243U)**: Mid-term elections within 6 months of dissolution, unless the remainder of the period is **less than 6 months**.
+  - **Historical Enactments & Committees**:
+    - **1953 vs 1959 Acts**: Rajasthan Panchayat Act, 1953 created village panchayats only. The intermediate and district tiers were established by the Rajasthan Panchayat Samitis and Zila Parishads Act, 1959.
+    - **Nagaur Launch**: 2 October 1959 at Nagaur by PM Jawaharlal Nehru; CM Mohan Lal Sukhadia; CS B.S. Mehta. (Andhra Pradesh followed 2nd on 11 Oct 1959).
+  - **PESA & Fifth Schedule in Rajasthan**:
+    - Geographic precision: Covers 8 districts **in whole or in part** (3 fully covered: Banswara, Dungarpur, Pratapgarh; 5 partially covered: Udaipur, Rajsamand, Chittorgarh, Pali, Sirohi). Governed by Presidential 2018 notification and gazetted village lists.
+    - Legal Framework: PESA Act 1996; Rajasthan Scheduled Areas Modification Act, 1999; Rajasthan PESA Rules, 2011.
+    - Special Rules: 100% Chairperson reservation for ST strictly in notified Scheduled Areas; mandatory prior recommendation for minor minerals; mandatory consultation for land acquisition.
+  - **Urban Local Governance (Municipalities Act, 2009)**:
+    - Three-tier classification: Municipal Board (Transitional), Municipal Council (Smaller urban), Municipal Corporation (Larger urban). Evaluated under Article 243Q multi-factor criteria (density, revenue, non-agricultural employment, economic importance).
+    - **Wards Committees (Art. 243S & Sec. 54)**: Constitutionally and statutorily mandatory in municipalities with population of **3 lakh or more**.
+    - Planning Bodies: District Planning Committee (DPC, Art. 243ZD & Sec. 121; 4/5ths elected); Metropolitan Planning Committee (MPC, Art. 243ZE & Sec. 157; 10 lakh+ pop; operational status requires notification).
+    - Devolution & 3 Fs: 6th SFC recommended 7.25% vs accepted 6.75%/7.0%; no static permanent rate.
 
 ### [RELEASED v071] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 27 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
