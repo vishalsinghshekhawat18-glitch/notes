@@ -17,6 +17,35 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v066 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 22 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 22)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_22_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_22_SOILS_FORESTS_WILDLIFE_CONSERVATION_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/23_CHAPTER_22_SOILS_FORESTS_WILDLIFE_CONSERVATION.md` and Rapid Revision Matrix 22 (`007/revision/rajasthan/22_REV_CHAPTER_22_SOILS_FORESTS_WILDLIFE.md`), resolving stale ISFR statistics, legal forest area conflations, soil taxonomy oversimplifications, tiger reserve numbering errors, protected area status traps, and botanical confusions; anchored directly to ISFR 2023, Rajasthan Forest Department 2024–25, NTCA, and Ramsar official registers.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Forest Cover & Tree Cover Rebuilt (ISFR 2023 Baseline)**:
+    - Forest Cover = **16,548.21 km²** (4.84% of State); Tree Cover = **10,841.12 km²** (3.17%); Combined Forest + Tree Cover = **27,389.33 km²** (8.00% of State area). (Purged older 16,655 + 8,733 km² figures).
+    - Canopy classes strictly corrected: Very Dense Forest (VDF) = **223.20 km²**, Moderately Dense Forest (MDF) = **4,237.41 km²**, Open Forest (OF) = **12,087.60 km²**, Mapped Scrub = **5,476.75 km²**.
+  - **Legal Forest Classification (GoR Forest Department 2024–25)**:
+    - Total Recorded Forest Area (RFA) = **33,020.32 km²** (9.65% of State geographical area).
+    - Legal breakdown strictly quantified: **Protected Forests (रक्षित) = 18,671.49 km² (56.55% of RFA — LARGEST category)**; **Reserved Forests (आरक्षित) = 12,198.71 km² (36.94%)**; **Unclassed Forests (अवर्गीकृत) = 2,150.12 km² (6.51%)**.
+    - National Forest Policy 1988 objective corrected to **one-third (33.3%) nationally with two-thirds (66.7%) in mountain/hill regions** (purging erroneous 60% mountain / 20% plains claims). Rajasthan Forest Policy 2023 target (20% by 2040) clarified as an aspirational goal.
+  - **Soil Taxonomy & Remediation Science**:
+    - Discarded simplistic district-to-order mapping. Recognized that **both Entisols and Aridisols occur widely in Western Rajasthan**.
+    - Vertisols characterized by high shrink–swell montmorillonite clay and self-ploughing (*pedoturbation*) in Hadoti; Alfisols clarified by argillic subsurface clay accumulation in eastern plains without declaring them universally "highest fertility".
+    - Remediation discipline rectified: **Saline soils require leaching and drainage**; **Sodic soils require Gypsum ($CaSO_4 \cdot 2H_2O$)** to displace exchangeable sodium. Purged unscientific claims that gypsum, iron pyrites, or rock phosphate universally cure all salinity.
+  - **Botanical & Ecological Rectifications**:
+    - Purged conflation between Salai and Guggal: **Salai** resin is tapped from ***Boswellia serrata***; authentic medicinal **Guggal** is tapped from ***Commiphora wightii***.
+    - Updated Mahua binomial to ***Madhuca longifolia*** (*M. indica* identified as synonym).
+    - Khejarli sacrifice (1730 CE): Total martyrs verified as **363 Bishnois** *including* Amrita Devi and her daughters.
+  - **Protected Area Network & Tiger Reserves**:
+    - Clarified that the state Forest Department lists **3 National Parks** (Ranthambhore, Keoladeo Ghana, Mukundara Hills). Desert National Park is categorized as **Desert National Park Sanctuary** (NP final notification under process).
+    - **Tiger Reserve Sequence Corrected**: Dholpur–Karauli is **India's 55th Tiger Reserve** (and Rajasthan's 5th), NOT 54th (NTCA official list: Ranipur 53rd, Veerangana Durgavati 54th). Ramgarh Vishdhari is India's 52nd TR (Bundi & Kota).
+    - **Five Ramsar Sites (2025/2026)**: Keoladeo (1981) and Sambhar (1990) joined in 2025 by **Menar Bird Sanctuary** (Udaipur), **Khichan Bird Sanctuary** (Phalodi), and **Siliserh Lake** (Alwar).
+    - Siberian Crane at Keoladeo recast as a historical migrant rather than a regular current winter resident.
+
 ### [STAGED LOCAL] v065 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 21 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
