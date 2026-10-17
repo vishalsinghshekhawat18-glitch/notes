@@ -13,6 +13,39 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v080 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 36 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 36)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_36_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_36_SPORTS_YOGA_TRADITIONAL_GAMES_REVISED.md`), and verification log (`CHAPTER_36_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/37_CHAPTER_36_SPORTS_YOGA_TRADITIONAL_GAMES.md` and Rapid Revision Matrix 36 (`007/revision/rajasthan/36_REV_CHAPTER_36_SPORTS_YOGA_TRADITIONAL_GAMES.md`), correcting the establishment year of the Rajasthan State Sports Council (RSSC) to 1958 (registered under the Rajasthan Societies Registration Act, 1958; SMS Stadium Jaipur HQ; first residential camp Mount Abu 1959), dispelling the erroneous claim of direct appointment to the Rajasthan Administrative Service (RAS) for Olympic/Paralympic medal winners by citing the actual schedule under the Out-of-Turn Appointment to Sports Medal Winners Rules, 2017 (listing DySP/RPS, ACF, Asst Excise Officer, Dy Jailor, Coach, PTI, Sub-Inspector; strictly excluding RAS), narrowing the 2% horizontal sports reservation to direct recruitments outside the purview of the Commission (RPSC), rectifying the certifying body for the Rajiv Gandhi Rural Olympics 2022 to the World Book of Records (eliminating the false Guinness World Record assertion and unverified 58L aggregate claims, establishing official registrations at ~29.8–30 lakh across 11,341 GPs), qualifying the Basketball state-game declaration (noting lack of primary 1948 order and integration timeline issues), updating the sports academies directory directly from the live RSSC portal (Boys Kabaddi at Karauli and Churu; Boys Volleyball at Jhunjhunu; Boys Cycling at Bikaner; Boys Basketball at Jaisalmer; Girls Basketball at Jaipur), updating athlete records (Sriram Singh's 1:45.77 at Montreal 1976 as the Indian national record until 2018, not current Asian record; Bajrang Lal Takhar's Guangzhou 2010 single sculls gold; Avani Lekhara's defended Paris 2024 gold with 249.7 Paralympic record; Krishna Nagar Tokyo 2020 gold; Sundar Singh Gurjar Tokyo/Paris bronzes), and establishing clear philosophical boundaries between Patanjali's Ashtanga Yoga (5 Bahiranga + 3 Antaranga limbs) and Hatha Yoga's six Shatkarmas (Neti, Dhauti, Nauli, Basti, Kapalabhati, Trataka) with safety warnings.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Sports Governance & Institutional Architecture**:
+    - **RSSC Establishment**: Established in **1958** (not 1 January 1957) as a registered society under the Rajasthan Societies Registration Act, 1958; first residential training camp held at **Mount Abu in 1959**. Headquarters at Sawai Man Singh (SMS) Stadium, Jaipur.
+    - **State Sports Awards**: **Maharana Pratap Award** instituted **1982–83** (athletes); **Guru Vashishtha Award** instituted **1985–86** (coaches). Governed by live RSSC award rules (2025 rules); static unverified amounts qualified.
+    - **Out-of-Turn Appointments Rules, 2017**: Corrected lethal trap: **RAS is NOT included** in the appointment schedule. Posts include **Deputy Superintendent of Police (RPS/DySP)**, Assistant Conservator of Forests (ACF), Assistant Excise Officer, Deputy Superintendent Jail, Coach, Physical Training Instructor (PTI), and Sub-Inspector/Constable. Applies to achievements post-1 Jan 2016; application window within 3 years.
+    - **2% Sports Quota Reservation**: Applies horizontally to **2% of direct-recruitment vacancies outside the purview of the Commission (RPSC)**, governed by specific departmental service rules.
+    - **Proposed Chop Cricket Stadium**: Anil Agarwal International Cricket Stadium (Chop, Jaipur) planned for 75,000 capacity; framed as proposed/under-construction project with date-sensitive status rather than an operational world-record venue.
+  - **Mass Sports Mobilization & State Game**:
+    - **Rajiv Gandhi Rural Olympics**: Inaugurated **29 August 2022** (National Sports Day) at Pal village, Luni, Jodhpur. **29.8–30 Lakh registered participants** across 11,341 Gram Panchayats. Six inaugural sports: Kabaddi, Tennis-ball Cricket, Volleyball, Hockey, Shooting Ball, Kho-Kho. Progression: GP $\to$ Block $\to$ District $\to$ State. Certified by **World Book of Records** (NOT Guinness; unverified 58L aggregate claims removed).
+    - **State Game Notification Status**: Basketball has rich state history, but "officially declared in 1948" is not substantiated by primary gazette notification and is chronologically suspect during state integration.
+    - **Live RSSC Academies Directory**: Updated from live portal: Boys Kabaddi (Karauli & Churu), Girls Kabaddi (Churu), Boys Volleyball (Jhunjhunu), Boys Cycling (Bikaner), Boys Basketball (Jaisalmer), Girls Basketball (Jaipur), Archery (Udaipur & Dungarpur for boys; Jaipur for girls), Athletics (Ajmer & Ganganagar for boys; Jaipur for girls), Football (Jodhpur for boys; Kota for girls), Wrestling (Bharatpur), Para-sports (Jaipur).
+  - **Outstanding Athlete Milestones & Records**:
+    - **Devendra Jhajharia**: F46 Javelin. Paralympic Golds at Athens 2004 (WR) and Rio 2016 (WR); Silver at Tokyo 2020. Khel Ratna (2017), Padma Bhushan (2022). Elected President of Paralympic Committee of India (2024).
+    - **Avani Lekhara**: SH1 Para Shooting. Tokyo 2020 Gold (10m air rifle standing, 249.6) and Bronze (50m 3P); **defended Gold at Paris 2024 with Paralympic record 249.7**.
+    - **Sriram Singh Shekhawat**: 800m at Montreal 1976 Olympics (7th, 1:45.77). **Indian national record for 42 years** until 2018 (broken by Jinson Johnson). Corrected: NOT a current Asian record.
+    - **Bajrang Lal Takhar**: Rowing single sculls. India's first individual rowing gold at the **Guangzhou 2010 Asian Games** (Silver at Doha 2006).
+    - **Col. Rajyavardhan Singh Rathore**: Athens 2004 Olympic Silver in Men's Double Trap shooting (India's first individual Olympic silver).
+    - **Sundar Singh Gurjar**: F46 Javelin. Dual Paralympic Bronze medallist (Tokyo 2020 and Paris 2024).
+    - **Krishna Nagar**: SH6 Para Badminton. Tokyo 2020 Gold. (No Paris 2024 medal).
+    - **Limba Ram**: 3-time Olympian (1988, 1992, 1996), Asian Championship Gold 1992.
+    - **Apurvi Chandela**: 10m Air Rifle World Cup Gold & WR (252.9, 2019), CWG Gold (2014); no Olympic medal.
+    - **Mona Agarwal**: Paris 2024 Paralympic Bronze in 10m Air Rifle Standing SH1.
+  - **Yoga Systemic Architecture & Shatkarma**:
+    - **Patanjali's Ashtanga Yoga**: 8 Limbs divided into **Bahiranga (External - 5 limbs)**: Yama (Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha), Niyama (Saucha, Santosha, Tapas, Svadhyaya, Ishvara Pranidhana), Asana, Pranayama (Puraka, Kumbhaka, Rechaka), Pratyahara (sensory bridge); and **Antaranga (Internal - 3 limbs)**: Dharana, Dhyana, Samadhi.
+    - **Hatha Yoga Shatkarmas**: Six purification kriyas (*Hatha Yoga Pradipika*): Neti, Dhauti, Nauli, Basti, Kapalabhati, Trataka. Established that Kapalabhati is classified as a Shatkarma in classical Hatha Yoga texts, and explicitly differentiated Shatkarma from Patanjali's eight limbs with appropriate physical safety cautions.
+
 ### [STAGED LOCAL] v079 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 35 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
