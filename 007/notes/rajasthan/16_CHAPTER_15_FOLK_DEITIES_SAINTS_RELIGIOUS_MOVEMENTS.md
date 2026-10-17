@@ -1,517 +1,506 @@
-# Chapter 15: Folk Deities, Saints & Religious Movements of Rajasthan
+# Chapter 15: Folk Deities, Saints and Religious Movements of Rajasthan
+
+> **RAS revision standard:** Learn the stable name–place–community–tradition associations first. Treat miracles, exact dialogue, divine incarnations, precise dates from oral biographies, and claims such as “first,” “only,” “oldest” or “longest” as tradition-specific unless supported by a reliable documentary source.
+
+## How to use this chapter
+
+Rajasthan’s folk deities and saints are remembered through a mixture of historical memory, oral epics, temple traditions, devotional literature, pilgrimage, community practice and later hagiography. These categories overlap, but they are not identical. A claim may be culturally important and widely believed without being independently verifiable as a historical event.
+
+The labels used below are:
+
+- **Core exam association:** Suitable for direct factual revision when supported by the Rajasthan Board syllabus/textbook or a reliable government source.
+- **Traditional account:** A community’s narrative about a saint, deity, miracle, incarnation or sacred object. Remember it as a tradition, not automatically as documented history.
+- **Verify before memorising:** An exact date, superlative, quotation, genealogy or causal claim for which accessible authoritative corroboration is weak or conflicting.
+
+The official Rajasthan Board Class X textbook *History and Culture of Rajasthan* lists the following folk deities: Gogaji, Tejaji, Pabuji, Devnarayanji, Mallinathji, Ramdevji, Mehaji Manglia and Harbhuji. Its saints list includes Dhanna, Pipa, Jambhoji, Jasnathji, Laldas, Haridas, Dadudayal, Mirabai, Ranabai, Mavji and Ram Charan, along with Maharshi Navalram and Sangliya Dhuni. These form the chapter’s minimum coverage baseline. [RBSE textbook and syllabus](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf)
 
 ---
 
-## 1. The Pantheon of Folk Deities: Concept & The Panchpir
+## 1. Folk deities: concept and the Panchpir
 
-In Rajasthan, folk deities (*Lok Devta* / लोक देवता and *Lok Deviyan* / लोक देवियाँ) are not distant Vedic abstractions or mythological figures; they were historical mortals, chieftains, warriors, and holy women who achieved apotheosis through supreme self-sacrifice: laying down their lives to protect cows (*Gau-Raksha*), defend village honor, liberate oppressed communities, or safeguard women from plunderers and tyrants.
+**Lok Devta** and **Lok Deviyan** are figures of popular religious life whose worship is embedded in village protection, pastoral economies, healing, fertility, seasonal fairs, family and clan devotion, and local histories. Some are remembered as historical or semi-historical people; others are understood through mythic or divine narratives. Their traditions should not all be reduced to one formula of “a mortal who died protecting cows.”
 
-```
-                      ┌────────────────────────────────────────────────────────┐
-                      │          THE TRADITIONAL TAXONOMY OF RAJASTHANI DEITIES │
-                      └───────────────────────────┬────────────────────────────┘
-                                                  │
-          ┌───────────────────────────────────────┼───────────────────────────────────────┐
-          │                                       │                                       │
-┌─────────┴─────────────┐               ┌─────────┴─────────────┐               ┌─────────┴─────────────┐
-│  The Panchpir         │               │  Other Major Deities  │               │  Folk Goddesses       │
-│  (Worshiped by Both)  │               │  (Martyrs & Healers)  │  (Kuldevis & Protectors)│
-├───────────────────────┤               ├───────────────────────┤               ├───────────────────────┤
-│ • **Pabu Ji** (Camels)│               │ • **Tejaji** (Snakes) │ • **Karni Mata**      │
-│ • **Ramdev Ji** (Peer)│               │ • **Devnarayan Ji**   │ • **Shila Devi**      │
-│ • **Goga Ji** (Jahir) │               │ • **Mallinath Ji**    │ • **Jeen Mata**       │
-│ • **Harbhu Ji** (Cart)│               │ • **Veer Kallaji**    │ • **Tanot Mata**      │
-│ • **Mehaji Manglia**  │               │ • **Talli Nath Ji**   │ • **Sheetla Mata**    │
-└───────────────────────┘               └───────────────────────┘               └───────────────────────┘
-```
+### 1.1 The Panchpir
 
-### The Immortal Proverb of the Panchpir
-The five supreme peer-deities revered equally by Hindus and Muslims are immortalized in the ancient Rajasthani doha:
-> **"पाबू हड़बू रामदे, मांगलिया मेहा। पाँचू पीर पधारज्यौ, गोगाजी जेहा॥"**  
-> *(Pabu Ji, Harbhu Ji, Ramdev Ji, Mehaji Manglia, and Goga Ji — these five constitute the Panchpir)*.
->
-> *Deadly Trap*: **Veer Tejaji** and **Devnarayan Ji** are beloved statewide, but they are **NOT** among the Panchpir!
+The commonly taught Rajasthan roster of **Panchpir** comprises:
 
----
+1. **Pabuji**
+2. **Harbhuji**
+3. **Ramdevji**
+4. **Mehaji Manglia**
+5. **Gogaji**
 
-### 1.1 Detailed Anatomy of the Five Peers (Panchpir)
+A traditional couplet is used to memorise the group:
 
-#### 1. Pabu Ji (पाबूजी) — The Protector of Camels & Cow Martyr
-- **Genealogy & Birth**: Born at **Kolumand (Phalodi district)**; Rathore Rajput lineage; father: Dhadhal Rathore; mother: Kamlade; wife: Sodha princess Phoolamde (Suparyade) of Amarkot.
-- **Divine Incarnation**: Revered as the incarnation of **Lakshmana** (*लक्ष्मण का अवतार*).
-- **The Sacred Mare & The Sacrifice**:
-  - Rode the divine black mare **Kesar Kalmi (केसर कालमी)**, gifted by the Charan lady **Deval Charni (देवल चारणी)** under a sacred vow of protection.
-  - While performing his own wedding circumambulations (*Pheras*) at Amarkot, hearing that his brother-in-law **Jind Rao Khichi** (ruler of Jayal, Nagaur) had raided Deval Charni’s cattle, Pabu Ji severed his wedding knot at the **3.5th Phera** to ride into battle.
-  - Martyred in **1276 CE** fighting heroically at **Dechu (Jodhpur Rural)**.
-- **Iconography & Divine Roles**:
-  - **Protector of Camels (*ऊँटों के देवता*)**: Credited with introducing camels (*Sandh*) to Marwar. Worshipped as the supreme deity of camel breeders, the **Rebari / Raika** community.
-  - **Plague Healer (*प्लेग रक्षक देवता*)**: Worshipped across rural villages to ward off cattle diseases.
-  - Draped in saffron; portrayed mounted on his black mare tilting his spear, with a distinct **left-leaning turban (*बाईं ओर झुकी पाग*)**.
-- **Scroll Painting & Ballads**:
-  - **Pabuji ki Phad**: The most popular illustrated cloth scroll (*Phad*) in Rajasthan; painted by the Joshi Chiteras of Shahpura; recited at night by **Nayak / Bhil Bhopas** using the **Rawanhattha**.
-  - **Pabuji ra Pavade**: Heroic ballads sung by Rebaris using the percussion drum **Māth (माठ)**.
-  - Text: *Pabu Prakash* authored by **Ashiya Modji (आशिया मोड़जी)**.
+> “पाबू हड़बू रामदे, मांगलिया मेहा।
+> पाँचू पीर पधारज्यौ, गोगाजी जेहा॥”
 
-#### 2. Baba Ramdev Ji (बाबा रामदेवजी) — The Messenger of Communal Harmony
-- **Genealogy & Epoch**: Born at **Undukashmir (Shiv Tehsil, Barmer)**; Tanwar Rajput; father: Ajmal Tanwar; mother: Mainade; wife: Netalde (daughter of Dalsingh Sodha of Amarkot).
-- **Divine Status**: Revered as an incarnation of **Lord Krishna**; his elder brother Viramdev is considered an incarnation of Balarama.
-- **Socio-Spiritual Reforms**:
-  - Subdued the oppressive sorcerer-demon **Bhairav Rakshas** at Pokhran, cleansing the desert trade routes.
-  - Gifted Pokhran to his niece and founded the sovereign spiritual settlement of **Runecha (Ramdevra, Jaisalmer)**.
-  - Championed radical caste equality, adopting a Dalit woman, **Dali Bai**, as his spiritual sister.
-  - Established the **Kamadiya Panth (कामड़िया पंथ)**; Kamad women dance the celebrated **Terah Taali** during his fairs.
-  - **The Only Poet-Deity**: The only folk deity in Rajasthan who was also an accomplished composer-poet; authored the celebrated hymn compilation **"Chaubis Vaniyan" (चौबीस वाणियाँ)**.
-- **Living Samadhi & Memorials**:
-  - Took living Samadhi (*Jeevit Samadhi*) on **Bhadrapada Shukla Ekadashi in 1458 CE** at Ramdevra (Runecha). Dali Bai took Samadhi one day earlier.
-  - Reconstructed in ornate white marble by **Maharaja Ganga Singh of Bikaner in 1931 CE**.
-- **Key Sacred Terminology**:
-  - *Rama Peer / Runiche ra Dhani*: Revered by Muslims as a supreme Pir.
-  - *Neja (नेजा)*: Ramdevji’s five-colored sacred flag.
-  - *Jamma (जम्मा)*: Night-long musical vigil and devotional singing.
-  - *Paglye (पगल्ये)*: Sacred marble/stone footprints anointed in household shrines (*Than*).
-  - *Leela Ghora*: His beloved blue/white steed.
-- **Annual Fair**: Held at **Ramdevra (Pokhran)** from **Bhadrapada Shukla Dwitiya (Babari Beej) to Ekadashi**; celebrated as the largest symbol of Hindu-Muslim communal harmony in northwestern India (*Marwar ka Kumbh*).
+Spelling and recitation vary regionally. For exam purposes, keep the five-name roster together. **Tejaji and Devnarayanji are major folk deities but are not included in this standard Panchpir list.** The Rajasthan Tourism Department describes Ramdevji/Ramsha Pir as a figure revered across religious communities, consistent with his place in the syncretic devotional landscape. [Rajasthan Tourism: Ramdevra](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/hi/religious-places.html)
 
-#### 3. Goga Ji (गोगाजी) — Jahir Peer & Snake Healer
-- **Genealogy & Conflict**: Born at **Dadrewa (Churu)**; Chauhan Rajput; father: Jevar Singh; mother: Bachhalde; guru: **Guru Gorakhnath**; wife: Kelamde (princess of Kolumand).
-- **The Ghaznavid War & "Jahir Peer"**:
-  - Defended his motherland against the plundering armies of **Mahmud of Ghazni**. Witnessing Goga Ji fighting simultaneously across multiple battle fronts, Ghazni proclaimed him **"Jahir Peer" (ज़ाहिर पीर — The Living Incarnation of God)**.
-- **The Twin Shrines: Shirshmedi vs Dhurmedi**:
-  - **Shirshmedi (शीर्षमेड़ी)**: Located at **Dadrewa (Churu)**, where Goga Ji’s severed head fell while fighting his treacherous cousins Arjan and Sarjan.
-  - **Dhurmedi / Gogamedi (धुरमेड़ी / गोगामेड़ी)**: Located at **Nohar (Hanumangarh)**, where his headless torso continued fighting and finally fell.
-- **Syncretic Architecture of Gogamedi**:
-  - Built originally in the **tomb/mosque style (*Makbara-shaili*)** by Sultan **Firoz Shah Tughlaq**, featuring the sacred inscription **"Bismillah" (बिस्मिल्लाह)** above the main archway!
-  - Modern temple facade constructed by **Maharaja Ganga Singh of Bikaner**.
-  - Worship arrangement: Hindu priests officiate during Bhadrapada, while Muslim priests belonging to the **Chayal (चायल)** community officiate for the remaining 11 months of the year.
-- **Other Shrines & Rituals**:
-  - *Goga Ji ki Oladi*: Located at Kheeloriyon ki Dhani, **Sanchor**.
-  - *Goga Navami*: Celebrated on **Bhadrapada Krishna Navami**. Farmers tie a 9-knot sacred thread (**Goga Rakhadi**) to their plow (*Hal*) and bullocks before tilling.
+### 1.2 Pabuji (पाबूजी)
 
-#### 4. Harbhu Ji (हड़बूजी) — The Master of Omens & The Holy Handcart
-- **Genealogy**: Born at **Bhundel (Nagaur)**; Sankhla Rajput; son of Maharaj Meha; cousin brother of Baba Ramdevji; guru: **Balinath Ji**.
-- **The Prophetic Katari of Mandore**:
-  - When **Rao Jodha** was wandering in exile after the Rathore defeat at Chittorgarh, Harbhu Ji blessed him with a consecrated dagger (*Katari*) and a magical steed, prophesying his reconquest of Mandore.
-  - Upon regaining Mandore in 1453 CE, Jodha granted Harbhu Ji the wealthy jagir of **Bengti (Phalodi)**.
-- **The Worshiped Relic — The Handcart (छकड़ा गाड़ी)**:
-  - Harbhu Ji spent his life cutting grass and transporting it in his wooden bullock handcart (*Chhakada Gadi*) to feed disabled, aged, and starving cows.
-  - Unique invariant: Inside the main sanctum at Bengti, **no anthropomorphic idol exists; devotees worship his actual wooden handcart (*Chhakada Gadi*)**!
-  - Temple constructed in 1721 CE by **Maharaja Ajit Singh of Jodhpur**.
+**Core associations:** Kolu/Kolu Pabuji; Rathore tradition; protection of cattle; camel herders; Pabuji ki Phad; Rawanhattha.
 
-#### 5. Mehaji Manglia (मेहाजी मांगलिया)
-- **Lineage & History**: Manglia Rajput clan; contemporary of Marwar ruler **Rao Chunda**.
-- **The Sacred Steed**: Rode the famous horse named **Kirad Kabra (किरड़ काबरा)**.
-- **Martyrdom**: Laid down his life defending village cattle in battle against **Ranagde Bhati of Jaisalmer**.
-- **Main Shrine**: Located at **Bapini (Phalodi)**. Annual fair held on **Krishna Janmashtami (Bhadrapada Krishna Ashtami)**.
-- **Priestly Tradition**: Believed by tradition that the family lineage of the officiating temple priest (*Bhopa*) does not grow biologically; priests adopt sons to maintain succession.
+- **Community memory:** Pabuji is revered especially in western Rajasthan and among Raika/Rebari camel-herding communities. Popular accounts associate him with protection of cattle, loyalty to a promise and the rescue of Deval Charani’s cattle.
+- **Sacred mare:** His mount is known in oral tradition as **Kesar/Kesari Kalami**. He is often depicted as a mounted warrior with a spear.
+- **Cattle-rescue episode:** In the familiar ballad, Pabuji interrupts his wedding after learning that Deval Charani’s cattle have been seized by his rival Jind Rao Khichi. Versions differ on the number of wedding circumambulations completed. The Rajasthan Board text tells the story as leaving after three pheras; avoid hard-coding “the 3.5th phera” as a universal fact.
+- **Date and location:** 1276 CE is commonly given for his martyrdom. Kolu is the principal pilgrimage and shrine centre. Sources are inconsistent about his birthplace: the RBSE text gives a village near Barmer, while many short accounts place him at or associate his life with Kolu/Komalmer. Keep **Kolu = principal shrine** as the safer fixed association; do not treat the birthplace as settled without checking the source used by a particular exam.
+- **Pabuji ki Phad:** A painted cloth scroll narrating his heroic deeds. The Rajasthan Tourism Department identifies Pabuji and Devnarayan as principal subjects of Rajasthan’s Phad tradition and notes the hereditary Joshi painters of Shahpura. Bhopas sing or narrate the story in ritual performance; Pabuji’s Phad is conventionally associated with the **Rawanhattha**.
+- **Incarnation:** In devotional tradition Pabuji is associated with Lakshmana. This is a belief claim, not a verifiable biographical fact.
+
+**Exam caution:** Kolu is strongly associated with Pabuji’s shrine and fair. “He introduced the camel to Marwar” is a traditional attribution, not a demonstrable first-introduction event. Avoid calling one Phad the “most popular” or “oldest” without a defined basis. [RBSE textbook](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf) · [Rajasthan Tourism, Phalodi](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/Phalodi.html) · [Rajasthan Tourism, Phads](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/shopping-in-rajasthan.html)
+
+### 1.3 Baba Ramdevji / Ramsha Pir (बाबा रामदेवजी)
+
+**Core associations:** Ramdevra/Runecha; Jaisalmer region; Ramsha Pir/Rama Pir; cross-community pilgrimage; Bhadrapada fair.
+
+- Ramdevji is a major Rajasthani folk saint/deity, worshipped at **Ramdevra (Runicha/Runecha)** near Pokaran in the Jaisalmer region. The Rajasthan Tourism Department describes the temple as a place visited by people of different faiths and presents Ramdevji as a symbol of Hindu–Muslim harmony.
+- The fair is usually held during **August–September**, in the Hindu month of Bhadrapada. Exact dates change each year with the lunar calendar; a fixed Gregorian date should not be memorised as permanent.
+- **Ramsha Pir/Rama Pir** is a widely used devotional title reflecting his reverence among Muslims as well as Hindus.
+- Traditions associate him with Ajmal Tanwar, Mainade, Netalde and Dali Bai. Narratives of Dali Bai as a close spiritual companion/sister are central to popular accounts of Ramdevji’s social inclusiveness.
+- **Terah Taali** is associated with Kamad/Kamadiya devotional performers and Ramdevji’s worship. It should not be used to claim that a single individual created the dance unless a reliable source establishes this.
+- The blue/white horse, the five-coloured **neja** (flag), **jamma** (night-long devotional singing/vigil) and **paglye** (sacred footprints) belong to the ritual vocabulary of local worship; details may vary between shrines.
+- Popular accounts identify Ramdevji with Krishna and attribute devotional compositions to him, including *Chaubis Vaniyan*. Such attribution belongs to the devotional tradition. The claim that he was Rajasthan’s **only** poet-deity is an unsupported absolute and should be dropped.
+- Exact birth, death, “living samadhi,” Dali Bai’s date and temple rebuilding chronology vary across retellings. Do not memorise 1458 CE or the claim that Ganga Singh reconstructed the entire shrine in 1931 unless your prescribed official text explicitly requires it and provides the basis.
+
+**Exam-ready line:** Ramdevji — Ramdevra/Runecha — Ramsha Pir — inter-community devotion — Bhadrapada fair — Kamad women’s Terah Taali. [Rajasthan Tourism, Hindi religious places](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/hi/religious-places.html) · [Incredible India, Ramdevra Temple](https://www.incredibleindia.gov.in/en/rajasthan/jaisalmer/ramdevra-temple)
+
+### 1.4 Gogaji (गोगाजी): Jahar/Jahir Pir
+
+**Core associations:** Dadrewa (Churu); Gogamedi (Hanumangarh region); snakebite protection; Gogaji fair; syncretic shrine traditions.
+
+- Gogaji is widely known as **Jahar/Jahir Pir** and is invoked for protection against snakebite. The standard exam association is **Dadrewa** as his birthplace/early shrine centre and **Gogamedi** as the major pilgrimage site associated with his memorial and annual fair.
+- His genealogy, guru Gorakhnath, marriage and detailed battle narratives come from local devotional tradition. Accounts place his life in the early medieval period, but exact biographical chronology is not securely established by contemporary records.
+- Popular narratives say Gogaji fought invaders associated with Mahmud of Ghazni. The claim that Mahmud personally named him “Jahir Pir” after seeing him fight on several fronts should be treated as legend, not as a documented quotation.
+- A Rajasthan government local-body page attributes the tomb-like shrine at Gogamedi to Firuz Shah Tughlaq and reports an inscription associated with Mahmud of Ghazni. That is evidence for a local historical attribution and shrine tradition, not proof of every episode in Gogaji’s legend. [Government of Rajasthan, Nohar cultural programme page](https://lsg.urban.rajasthan.gov.in/content/raj/udh/nagar-palika-nohar/en/events/cultural-programme-schedules.html)
+- **Gogaji fair:** Held in Bhadrapada, commonly around Gogaji Navami. Rituals involving a sacred thread/rakhadi and agricultural activity are regional practice; exact wording and knot counts vary.
+- **Syncretism:** Hindu and Muslim devotional practices around Gogamedi are a significant example of shared sacred space. Avoid reducing the shrine’s history to a simplistic “temple versus mosque” label.
+
+### 1.5 Harbhuji (हड़बूजी)
+
+**Core associations:** Bengti (Phalodi region); Sankhla tradition; Rao Jodha legend; wooden handcart.
+
+- Harbhuji is included in the standard Panchpir roster. Local tradition links him with **Bengti** and with support offered to Rao Jodha during the Rathore struggle to establish Jodhpur.
+- The most memorable sacred-object association is the **chhakada gadi** (wooden cart/handcart), said to have been used to carry fodder for cows. In the tradition associated with Bengti, the cart itself is worshipped rather than a conventional human-shaped image.
+- Accounts of the prophetic dagger, magical horse, the exact jagir grant and a specific temple-construction year are not uniformly corroborated. Remember the **Bengti–handcart** association; treat the minute details as local tradition unless prescribed material supports them.
+
+### 1.6 Mehaji Manglia (मेहाजी मांगलिया)
+
+**Core associations:** Manglia clan; Bapini; cattle protection; horse Kirad Kabra.
+
+- Mehaji Manglia completes the standard Panchpir group. His tradition presents him as a protector of cattle who died in conflict with a Bhati rival.
+- **Kirad Kabra** is the horse name found in popular accounts and helps distinguish Mehaji from Pabuji, whose mare is Kesar/Kalmi.
+- Bapini is associated with his shrine and fair. The precise battle chronology, rival’s name and unusual hereditary-priest story require a local source; retain them as folklore rather than established fact.
 
 ---
 
-## 2. Other Renowned Folk Deities (Lok Devta)
+## 2. Other major folk deities
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   RENOWNED FOLK DEITIES ACROSS RAJASTHAN                               │
-├────────────────────────────┬─────────────────────────────┬─────────────────────────────┤
-│ Folk Deity                 │ Birthplace & Clan           │ Historic Feat & Invariant   │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Veer Tejaji**            │ Kharnal (Nagaur);           │ • Martyr for Lachha Gujari's│
-│                            │ Dhaulya Jat                 │   cows; bitten by Basak Nag │
-│                            │                             │   on tongue; Parbatsar fair.│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Bhagwan Devnarayan Ji**  │ Asind (Bhilwara);           │ • Incarnation of Vishnu;    │
-│                            │ Bhadana Gurjar              │   brick/neem worship; oldest│
-│                            │                             │   & longest Phad with Jantar│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Mallinath Ji**           │ Tilwara (Balotra);          │ • Rathore ruler; Kunda Panth│
-│                            │ Rathore Clan                │   (1399); Tilwara cattle    │
-│                            │                             │   fair on Luni river.       │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Veer Kallaji Rathore**   │ Samiyana (Merta);           │ • "Four-Armed Deity" of the │
-│                            │ Rathore Clan                │   1568 Chittor Siege; carried│
-│                            │                             │   Jaimal on his shoulders.  │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Talli Nath Ji**          │ Shergarh (Jodhpur);         │ • Nature protector; founded │
-│                            │ Rathore (Gango)             │   sacred forest (*Oran*) at │
-│                            │                             │   Panchmukhi Hill (Jalore). │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Mama Dev**               │ Village borders             │ • Rain deity; no stone idol;│
-│                            │                             │   carved wooden toran.      │
-└────────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+### 2.1 Veer Tejaji (वीर तेजाजी)
 
-### Detailed Notes on Major Deities:
+**Core associations:** Kharnal (Nagaur); Dhaulya Jat tradition; Leelan mare; Lachha Gujari’s cattle; snakebite protection; Teja Dashami; Parbatsar cattle fair.
 
-#### 1. Veer Tejaji (वीर तेजाजी)
-- **Birth & Clan**: Born in **1074 CE at Kharnal (Nagaur)** in a Dhaulya gotra Jat family; father: Tahad Ji; mother: Ramkunwari; wife: Pemal (daughter of Rai Mal of Paner).
-- **Steed**: The beloved mare named **Leelan (लीलण / Shringari)**.
-- **The Sacrifice & The Serpent’s Honor**:
-  - While visiting his in-laws at Paner, the cattle of **Lachha Gujari (लाछा गूजरी)** were abducted by Mer bandits. Tejaji rode into combat and liberated the cows.
-  - On the battlefield, he encountered the serpent king **Basak Nag (बासक नाग)**. Having promised to return after freeing the cattle, Tejaji returned grievously wounded. Since his entire body was covered in sword cuts, he extended his unblemished **tongue** for the snake to strike!
-  - Succumbed to snake venom at **Sursura (Kishangarh, Ajmer)** on **Bhadrapada Shukla Dashami (Teja Dashami)**.
-- **Divine Epithets**: *"Deity of Kala-Bala"* (*काला-बाला के देवता*), Agricultural Guardian Deity (*कृषि उपकारक देवता*), and Supreme Snake Deity.
-- **Shri Veer Tejaji Cattle Fair, Parbatsar (Didwana-Kuchaman)**: Held from Bhadrapada Shukla Dashami to Purnima; highest-revenue animal fair in Rajasthan (famous for Nagauri bullocks).
+- Tejaji is a revered pastoral and agrarian folk deity, especially important in Jat communities. He is commonly dated to the eleventh century; **1074 CE** is a frequently memorised birth year, but precise biographical details derive mainly from tradition.
+- The legend relates that Tejaji rescued the cattle of **Lachha Gujari** from raiders after promising a serpent that he would return. Having been severely wounded, he is said to have offered the uninjured part of his body—his tongue—to the serpent. This episode explains his association with snakebite protection and the value placed on keeping one’s word.
+- His mare is **Leelan** (also written Leelad/Leelan in local variants). The snake is often called **Basak/Basuki Nag**.
+- **Teja Dashami** falls on Bhadrapada Shukla Dashami in the traditional lunar calendar. Sursura is a major sacred location connected with his death; Sendariya also appears in the snake episode in some tellings. Avoid presenting every stage of the legend as a geographically documented event.
+- **Parbatsar cattle fair** is strongly associated with Tejaji and Nagauri cattle. The claim that it is categorically Rajasthan’s “highest-revenue animal fair” is changeable and not established here; omit it from static facts.
 
-#### 2. Bhagwan Devnarayan Ji (भगवान देवनारायणजी)
-- **Incarnation**: Revered by the **Gurjar community** as the 6th incarnation of **Lord Vishnu**.
-- **Family**: Born at **Asind (Bhilwara)** in the Bhadana clan; son of Sawai Bhoj and Sadu Mata; steed: **Leelaghar (लीलाघर)**.
-- **Unique Worship**: No stone idols are consecrated; devotees worship **large baked mud bricks (*Inton ki Puja*)** using sacred **Neem leaves** and cow curd/butter.
-- **Devnarayanji ki Phad**:
-  - The **oldest, longest, and most intricate Phad scroll** in Rajasthan.
-  - Sung by **Gurjar Bhopas** using the sacred chordophone **Jantar**.
-  - In **1992**, the Government of India issued a 5-rupee postal stamp on Devnarayanji's Phad, and on the deity in 2011.
-- **Major Shrines**: Sawai Bhoj Temple (Asind, Bhilwara), Dev Dungari (Chittorgarh — built by Maharana Sanga), and Devdham Jodhpuria (Niwai, Tonk).
+### 2.2 Devnarayanji (देवनारायणजी)
 
-#### 3. Veer Kallaji Rathore (वीर कल्लाजी राठौड़) — The Four-Armed Deity
-- **Lineage**: Born at Samiyana (Merta); son of Rao Achaldas; nephew of **Bhakt Shiromani Meera Bai** and Jaimal Rathore of Merta.
-- **The Epic Battle of 1568 (Chittor's 3rd Sāka)**:
-  - When Mughal forces breached Chittorgarh, master warrior Jaimal Rathore was shot in both legs by Akbar’s musket *Sangram*.
-  - Kallaji hoisted the crippled Jaimal onto his broad shoulders. With Jaimal wielding two swords and Kallaji wielding two below, the duo charged the imperial lines. Akbar's soldiers fled in terror from what appeared to be a single **Four-Armed God (*चार हाथों वाले लोक देवता*)**.
-  - Martyred near Bhairav Pol, where his 4-pillared chhatri stands today. Main seat: Rainela (Salumbar).
+**Core associations:** Gurjar/Gujjar community; Bagaravat epic; Sawai Bhoj and Sadu/Sedu Mata; Asind shrine; Devnarayanji ki Phad; Jantar.
+
+- Devnarayanji is revered by many Gurjars as an incarnation of Vishnu. The incarnation language is a community belief.
+- His life is narrated through the **Bagaravat** cycle, which combines lineage, conflict, cattle protection, heroism and divine intervention. Names and genealogies differ in oral and written versions.
+- **Asind (Bhilwara region)** is an important shrine centre, but it should not automatically be treated as a verified birthplace: the RBSE text and popular summaries describe the legendary birth and childhood in different ways.
+- **Devnarayanji ki Phad** is a major painted scroll tradition. **Gurjar Bhopas** narrate the associated epic, and the **Jantar** is the conventional instrument association in Rajasthan exam material.
+- The scroll or narrative is sometimes described as “the oldest,” “longest” or “most intricate” Phad. These superlatives are difficult to substantiate and depend on the measure used. A safer answer is that it is a major, exceptionally extensive Phad/epic tradition.
+- **Inton ki puja** (worship associated with bricks), neem leaves and other ritual items are reported in community practice; do not generalise one ritual arrangement to all shrines or devotees.
+- Asind, Devdham Jodhpuria (Tonk district) and other shrines are linked with the tradition. Confirm the particular shrine’s location when a question asks for one.
+
+**Critical distinction:** Pabuji’s Phad ↔ Rawanhattha; Devnarayanji’s Phad ↔ Jantar. Rajasthan Tourism identifies both deities as major subjects of Phad painting. [Rajasthan Tourism: Phads](https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/shopping-in-rajasthan.html) · [RBSE textbook](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf)
+
+### 2.3 Mallinathji (मल्लीनाथजी)
+
+- Mallinathji is remembered in the Rathore tradition as a medieval ruler/hero who acquired religious significance.
+- **Tilwara**, on the Luni River in the present Balotra region, is the main association for the well-known **Mallinath cattle fair**. The fair has a pastoral and livestock-trading dimension as well as devotional significance.
+- Some sources connect Mallinath with the **Kunda Panth** and give exact foundation dates; these fine details are less secure than the Tilwara–cattle-fair association. For objective questions, prioritise the place and fair.
+
+### 2.4 Veer Kallaji Rathore (वीर कल्लाजी राठौड़)
+
+- Kallaji is venerated in regional tradition as a warrior associated with the defence of Chittorgarh during the Mughal siege of **1567–1568**.
+- The familiar story says that he carried the wounded Jaimal Rathore on his shoulders while both continued fighting, creating the appearance of a **four-armed warrior/deity**. This is the source of the “four-armed Kallaji” epithet.
+- The episode belongs to heroic devotional lore. Avoid presenting the visual description of the battle as if confirmed by contemporaneous military records. Kallaji’s shrines and local traditions continue to be important in southern Rajasthan.
+
+### 2.5 Talli/Tallinathji and Mama Dev
+
+- **Talli/Tallinathji:** Remembered in parts of western Rajasthan as a guardian associated with the natural environment and sacred groves/orans. Panchmukhi Hill in the Jalore region is linked with the tradition in popular Rajasthan exam accounts. “Founded” and “first protector of” claims need a clear source.
+- **Mama Dev:** A village-boundary and rain-protection figure in some rural traditions. In locations where the tradition is practised, the representation may be a carved wooden **toran** rather than a conventional stone image. This is a locality-specific custom, not an invariant for every village in Rajasthan.
 
 ---
 
-## 3. Celebrated Folk Goddesses (Lok Deviyan)
+## 3. Folk goddesses (Lok Deviyan)
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   CANONICAL FOLK GODDESSES OF RAJASTHAN                                │
-├────────────────────────────┬─────────────────────────────┬─────────────────────────────┤
-│ Goddess Name               │ Seat & Dynasty              │ Divine Manifestation & Facts│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Karni Mata**             │ Deshnoke (Bikaner);         │ • Incarnation of Hinglaj;   │
-│ (करणी माता)                │ Rathores of Bikaner         │   temple of white rats      │
-│                            │                             │   (**Kaba**); white marble. │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Shila Devi**             │ Amer Fort (Jaipur);         │ • Brought from Jasore by    │
-│ (शीला देवी)                │ Kachhwahas of Jaipur        │   Man Singh I (1604 CE);    │
-│                            │                             │   2.5 cups of wine prasad.  │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Jeen Mata**              │ Rewasa (Sikar);             │ • Longest song (**Chirja**);│
-│ (जीण माता)                 │ Chauhans & Meenas           │   Aurangzeb sent oil for    │
-│                            │                             │   flame after bee attack!   │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Tanot Mata**             │ Tanot (Jaisalmer);          │ • **"Goddess of Soldiers"**;│
-│ (तणोट माता)                │ Bhati Rajputs & BSF         │   unexploded 1965 Pak bombs;│
-│                            │                             │   Vaishno Devi of the Thar. │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Sheetla Mata**           │ Seel ki Doongri, Chaksu;    │ • Smallpox healer; donkey   │
-│ (शीतला माता)               │ Universal rural reverence   │   vehicle; stale food       │
-│                            │                             │   (**Basoda**); broken idol.│
-└────────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+### 3.1 Karni Mata (करणी माता)
 
-### Detailed Invariants of Folk Goddesses:
+**Core associations:** Deshnoke (Bikaner); Charan saint/warrior woman; sacred rats called **kabas/kabas**; temple completed and elaborated in stages, notably under Maharaja Ganga Singh.
 
-1. **Karni Mata (Deshnoke, Bikaner)**:
-   - Born as **Ridhu Bai (रिधू बाई)** at Suwap village (Phalodi) in a Charan family; lived for 151 years (1387–1538 CE).
-   - Blessed Rao Bika to found the kingdom of Bikaner; laid the foundation stones of **Mehrangarh Fort (1459 CE)** and **Junagarh Fort**.
-   - Famous globally as the **Temple of Rats (*चूहों का मंदिर*)**; thousands of rats roam the sanctum, revered as sacred **Kaba (काबा)**. Sighting a rare white rat is considered a direct blessing from the Mata.
-   - Temple facade crafted from white Makrana marble by **Maharaja Ganga Singh**.
+- The Rajasthan Tourism Department describes Karni Mata as a fourteenth-century Charan religious figure and says local tradition associates her with the foundation stones of Mehrangarh and the Bikaner fort. Her life is also understood through devotional narratives.
+- The temple at **Deshnoke** is famous for its sacred rats, called **kabas/kaba**. Devotees regard them as protected beings; seeing a white rat is considered auspicious within this belief system.
+- The temple was developed over multiple phases. Government tourism material credits **Maharaja Ganga Singh** with the early-twentieth-century completion/artistic development of the present structure, while the Rajasthan Heritage Protection and Promotion Authority notes contributions by earlier Bikaner rulers as well. Thus “built solely by Ganga Singh” is too simple.
+- **Chronology trap:** Do not repeat that Karni Mata laid the foundation of **Junagarh Fort** as a settled fact. The current Junagarh Fort complex was developed much later than her traditionally assigned lifetime. The more general traditional association with the old Bikaner fort should not be silently converted into a claim about the present Junagarh complex.
+- The exact birth name, lifespan of 151 years, and dates 1387–1538 are traditional/varied biographical details, not firmly established historical data.
 
-2. **Jeen Mata (Rewasa, Sikar)**:
-   - Dedicated sanctuary on Kajal Shikhar hill in the Aravalis at Rewasa (Sikar); sister of **Harshnath**.
-   - **Longest Folk Hymn**: Contains the longest devotional hymn (*Chirja* / चिरजा) in Rajasthani folklore, sung over 48 minutes by Dhadhi bards.
-   - **The Bumblebee Miracle**: When Mughal emperor **Aurangzeb** ordered the destruction of Hindu temples and his army marched on Rewasa, ferocious swarms of wild bumblebees (*Bhanwara*) erupted from the mountain and routed the Mughal soldiers. Humbled, Aurangzeb vowed to supply pure oil for the temple’s eternal flame (*Akhand Jyoti*), a royal grant honored by Delhi until the Mughal collapse.
+[Government of Rajasthan, Karni Mata Temple](https://www.tourism.rajasthan.gov.in/karni-mata-temple.html) · [Rajasthan Heritage Protection and Promotion Authority, Karni Mata Panorama](https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/karni-mata-deshnok.html)
 
-3. **Sheetla Mata (Chaksu, Jaipur)**:
-   - Consecrated atop Seel ki Doongri, Chaksu (Jaipur); shrine built by **Sawai Madho Singh**.
-   - Presiding deity of children and smallpox cure (*Chechak ki Devi*, *Shedhal Mata*, *Bodhani Mata*).
-   - **Unique Invariants**:
-     - The **only deity in Rajasthan worshiped as a broken stone idol (*खंडित प्रतिमा*)**.
-     - Vehicle: Donkey (*Gadha*); Chief Priest: Kumhar (Potter community).
-     - Worshipped on **Sheetla Ashtami (Chaitra Krishna 8)**; no fire is lit in homes on this day; families consume cold, fermented food cooked the previous evening, termed **Basoda (बासोड़ा)**.
+### 3.2 Shila Devi (शीला देवी)
 
-4. **Other Canonical Goddesses**:
-   - **Aai Mata (Bilara, Jodhpur Rural)**: Disciple of Baba Ramdevji; established the **Aai Panth** (11 rules); no idol in the sanctum, a lamp burns whose flame produces **saffron soot (*Kesar*)** instead of black lampblack.
-   - **Shakambhari Mata (Sambhar, Jaipur)**: Kuldevi of Chauhans; credited with manifesting wild vegetarian crops (*Shak*) to feed a drought-stricken populace.
-   - **Nagnechi Mata (Nagana, Balotra)**: Kuldevi of Rathores; 18-armed neem wood idol transported from Karnataka by Rao Dhuhad.
+- Shila Devi is the presiding goddess associated with **Amer Fort** and the Kachhwaha royal tradition.
+- A popular account links the image’s arrival to Raja Man Singh I’s Bengal campaign and a transfer from the Jessore/Jasore region around the early seventeenth century. The details are part of the temple’s origin tradition and should be labelled as such unless a source specific to the temple is being used.
+- Ritual practice at the shrine has varied historically. The claim that the goddess receives exactly “2.5 cups” of wine is overly specific for general static notes and has been removed from the core.
+
+### 3.3 Jeen Mata (जीण माता)
+
+- The **Jeen Mata** shrine is at Rewasa in Sikar district, in the Aravalli hills. Jeen Mata is commonly described in local tradition as the sister of Harshnath.
+- Her fair and devotional songs, including **chirja**, are well-known elements of local practice.
+- Stories involving Aurangzeb, swarms of bees driving away troops, and a royal grant of oil for an eternal lamp form part of local legend. Without documentary corroboration, they should not be presented as a verified episode in the emperor’s administrative history.
+- The statement that a particular chirja is “the longest in Rajasthan and lasts exactly 48 minutes” is not supported by a stable, measurable standard. Learn the shrine and the chirja association, not the exact duration or superlative.
+
+### 3.4 Tanot Mata (तणोट माता)
+
+- Tanot Mata’s temple is near the India–Pakistan border in the Jaisalmer region and has a strong devotional association with soldiers, especially the Border Security Force.
+- The shrine is linked in popular and military-related accounts with bombs that reportedly failed to explode during the **1965 India–Pakistan war** and with events remembered from the 1971 war. State the account as a **reported tradition/faith narrative**, not as proof that a supernatural act caused every unexploded munition.
+- “Goddess of Soldiers” or “Goddess of Bombs” are popular epithets, not necessarily official titles.
+
+### 3.5 Sheetla Mata (शीतला माता)
+
+- Sheetla Mata is worshipped for protection from fever, pox and childhood illness in Hindu folk practice. Her iconography commonly includes a **donkey** as her mount and objects such as a broom, winnowing fan or water pot, though iconographic details vary.
+- **Sheetla Ashtami** and **Basoda** are associated with eating food prepared the previous day; in many communities, a no-cooking observance is central to the day.
+- **Chaksu/Seel ki Doongri** is an important shrine association. Do not claim that Sheetla Mata is the “only deity in Rajasthan worshipped as a broken idol”; this is an unsupported universal and has been removed.
+
+### 3.6 Other goddesses worth recognising
+
+- **Aai Mata:** Associated in popular Rajasthan cultural accounts with Bilara and the Aai Panth. A lamp’s saffron-coloured deposit is described as a miracle in the devotional tradition; this is a sacred belief, not a verified chemical anomaly.
+- **Shakambhari Mata:** Associated with Shakambhari/Sambhar and worship connected with vegetation and nourishment. The story that she provided edible plants during scarcity is a mythic explanation of her name and role.
+- **Nagnechi Mata:** Important as a Rathore clan goddess. Accounts connect the cult and image with Rao Dhuhad and Nagana; details of the image’s number of arms and transport should be checked against the particular tradition prescribed by the exam source.
 
 ---
 
-## 4. Saints, Sects & Religious Movements of Rajasthan
+## 4. Saints and religious movements
 
-Rajasthan’s arid landscape was fertile ground for powerful Nirguna and Saguna Bhakti movements that challenged caste hierarchy, championed ecological preservation, and emphasized vernacular spirituality.
+### 4.1 Sant Jambhoji and the Bishnoi sect
 
-```
-                      ┌────────────────────────────────────────────────────────┐
-                      │    BHAKTI MOVEMENTS & MONASTIC SECTS IN RAJASTHAN      │
-                      └───────────────────────────┬────────────────────────────┘
-                                                  │
-          ┌───────────────────────────────────────┼───────────────────────────────────────┐
-          │                                       │                                       │
-┌─────────┴─────────────┐               ┌─────────┴─────────────┐               ┌─────────┴─────────────┐
-│  Ecological Nirguna   │               │  Nirguna Reformers    │               │  Saguna Devotees      │
-├───────────────────────┤               ├───────────────────────┤               ├───────────────────────┤
-│ • **Sant Jambhoji**   │               │ • **Sant Dadu Dayal** │ • **Sant Mirabai**    │
-│   (Bishnoi 29 Rules)  │               │   ("Kabir of Raj")    │   (Krishna Prem /     │
-│ • **Sant Jasnathji**  │               │ • **Charan Das Ji**   │    Madhurya Bhava)    │
-│   (Jasnathi 36 Rules) │               │ • **Lal Das Ji**      │ • **Sant Mavji**      │
-│ • **Ram Snehi Sect**  │               │ • **Rajjab Ji**       │   (Baneshwar Dham)    │
-└───────────────────────┘               └───────────────────────┘               └───────────────────────┘
-```
+**Core associations:** Born at Pipasar; Samrathal Dhora; 29 rules; Bishnoi panth; non-violence; protection of green trees and wildlife; Mukam; Khejarli memory.
 
----
+- **Sant Jambhoji/Jambheshwar** is traditionally dated to the fifteenth and early sixteenth centuries. Pipasar in present-day Nagaur is associated with his birth and Samrathal Dhora with his teachings.
+- The **Rajasthan Heritage Protection and Promotion Authority** page records Kartik Badi Ashtami, **Vikram Samvat 1542**, for the formation of the Bishnoi panth and its 29-rule code, but its parenthetical conversion to **1482 CE appears to be an error**. Vikram Samvat 1542 corresponds to **1485 CE**, which is also given by a Rajasthan government-college research publication and is the common exam convention. For revision, use **1485 CE** and remember the source discrepancy rather than repeating the erroneous conversion. [RHPPA biography](https://www.jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/jambho-ji.html) · [Government College Barmer publication on Jambhani philosophy](https://hte.rajasthan.gov.in/Website/GovernmentCollegeBarmer/CONTENTFILES/JAMBANI%20PHILOSOPHY%20VOLUME%204.pdf)
+- **Bishnoi = bees + nau (20 + 9):** the common mnemonic for 29 rules. The code combines religious observance, personal and communal discipline, compassion for living beings, and ecological protection. The prohibition against cutting green trees and harming animals is especially relevant to Rajasthan’s ecology. The actual code has more dimensions than environmental protection alone.
+- **Khejarli, 1730:** During the reign of Maharaja Abhai Singh of Marwar, Amrita Devi Bishnoi and other villagers opposed the felling of Khejri trees. The sacrifice is commonly commemorated as **363 Bishnoi martyrs**. Official accounts vary in whether they phrase this as Amrita Devi “and 363 others” or 363 people in total; for exam notes, “the Khejarli sacrifice of 1730, remembered for 363 Bishnoi martyrs” is the safest compact formulation.
+- The often-quoted line—“सिर साठे रूंख रहे तो भी सस्तो जाण”—is a traditional couplet associated with Amrita Devi. Spelling and wording vary by source.
+- Mukam (Bikaner region) is the principal pilgrimage centre associated with Jambhoji. *Jambhasagar* and other texts are associated with the Bishnoi literary tradition, but the composition, transmission and titles should not all be treated as modern critical editions.
+- A claim that Sultan Sikandar Lodi banned cow slaughter throughout his empire at Jambhoji’s request is not substantiated by the authoritative sources reviewed and should be omitted from the verified core.
 
-### 4.1 Sant Jambhoji (संत जाम्भोजी) & The Bishnoi Sect
-- **Birth & Identity**: Born in **1451 CE (Bhadrapada Krishna Ashtami)** at **Pipasar (Nagaur)** in a Panwar Rajput family; childhood name: Dhanraj; father: Lohat Ji; mother: Hansa Devi.
-- **Foundation of the Sect (1485 CE)**:
-  - In 1485 CE at **Samrathal Dhora (Bikaner)**, Jambhoji founded the **Bishnoi Sect** by administering sacred water (*Pahal*) and formulating **29 Sacred Commandments** (*Bees + Nau = Bishnoi*).
-  - Emphasized strict personal hygiene, non-violence, and total prohibition against cutting green trees (especially the sacred **Khejri tree / Prosopis cineraria**) or killing animals (blackbuck, chinkara).
-- **Influence on Delhi Sultans**: Sultan **Sikandar Lodi** respected Jambhoji's spiritual stature, banned cow slaughter in his realm at Jambhoji's request, and dispatched royal grain shipments to Marwar during severe drought.
-- **Major Holy Shrines**:
-  - **Mukam (Talwa, Nokha, Bikaner)**: The supreme pilgrimage site where Jambhoji took Samadhi in 1536 CE. Major fairs held on Phalgun Amavasya and Ashwin Amavasya.
-  - *Samrathal Dhora* (Santhal), *Pipasar*, *Rotu*, *Janglu*, and *Lodipur* (Moradabad, UP).
-- **Sacred Literature**: *Jambhasagar* (contains 120 Shabdas), *Jambh Samhita*, *Jambha Gita*, and *Gorakh Chhand*.
-- **The Khejarli Sacrifice (1730 CE)**: Inspired by Jambhoji’s 29 rules, **Amrita Devi Bishnoi** and 363 Bishnoi men and women sacrificed their lives on **Bhadrapada Shukla Dashami, 1730 CE** at Khejarli village (Jodhpur) to stop the axe-felling of Khejri trees by Maharaja Abhai Singh’s soldiers (*"सिर साठे रूंख रहे, तो भी सस्तो जाण"*).
+Sources: [Rajasthan Heritage Authority, Jambhoji Panorama](https://www.jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/jambho-ji.html) · [Rajasthan Tourism, Khejrli Village](https://www.tourism.rajasthan.gov.in/jodhpur.html) · [Rajasthan Forest Department annual report](https://forest.rajasthan.gov.in/content/dam/raj/forest/ForestDepartment/PDFs/Department%20Wing/Soil%20Conservation/new/Silviculture%20Annual%20Report%202019-20.pdf)
 
----
+### 4.2 Sant Jasnathji and the Jasnathi sect
 
-### 4.2 Sant Jasnathji (संत जसनाथजी) & The Jasnathi Sect
-- **Birth & Penance**: Born in **1482 CE at Katariyasar (Bikaner)**; found on a pond bank by Hamirji Jani Jat; guru: **Guru Gorakhnath**; underwent severe penance at Gorakh Malia.
-- **Interaction with Sikandar Lodi**: Sikandar Lodi granted Jasnathji a tax-free royal jagir of **12 villages around Katariyasar**.
-- **Living Samadhi at Age 24**: Took living Samadhi at the incredibly young age of **24 years (1506 CE)** at Katariyasar.
-- **The 36 Commandments**: Formulated **36 strict rules** for his followers; disciples wear a black woolen thread around their neck; revere the **Peacock feather (Mor-Pankh)** and the **Jal tree**.
-- **Sacred Ritual & Texts**:
-  - Perform the world-famous **Agni Dance (अग्नि नृत्य)** over glowing charcoal embers shouting *"Fateh! Fateh!"*.
-  - Sacred scriptures: **Simbhudhada** and **Koda** (*सिंभूदड़ा एवं कोड़ा*).
+**Core associations:** Katariyasar (Bikaner); Jasnathi panth; 36 rules; fire-walking/agni dance.
 
----
+- Jasnathji is the founding figure of the Jasnathi tradition, associated with **Katariyasar** in Bikaner district.
+- The sect is commonly linked with **36 rules** and distinctive ascetic/devotional practice. Followers’ ritual identity and oral teachings should not be confused with the Bishnoi code of 29 rules.
+- The **Agni Nritya** is associated with Jasnathi Siddhas, who dance across glowing embers during religious occasions. Accounts of the ritual’s precise cries, performance mechanics, and supernatural protection should be attributed to the community tradition rather than described as a scientific demonstration.
+- Dates for Jasnathji’s birth and samadhi and the story of a grant of 12 villages from Sikandar Lodi appear in popular biographies, but were not independently established in the sources consulted. Do not treat these details as equal in confidence to the Katariyasar–Jasnathi–36 rules association.
 
-### 4.3 Sant Dadu Dayal (संत दादू दयाल) — "The Kabir of Rajasthan"
-- **Birth & Origins**: Born in **1544 CE at Ahmedabad**; found floating on the Sabarmati river by Lodhiram Nagar Brahmin; guru: **Vriddhanand / Buddhan Ji**.
-- **Arrival in Rajasthan**: Arrived in Sambhar (1568 CE), preaching pure Nirguna Bhakti in the vernacular Dhundhari dialect (*Sadukkadi*); rejected idol worship, pilgrimages, and the caste hierarchy. Founded the *Parbrahma Sampradaya*, later celebrated as the **Dadu Panth (दादू पंथ)**.
-- **Akbar's 40-Day Dialogue (1585 CE)**: Traveled to Fatehpur Sikri through Raja Bhagwan Das of Amer, holding 40 days of deep spiritual dialogue on universal peace (*Sulh-i-Kul*) with **Emperor Akbar** in the Ibadat Khana.
-- **Headquarters at Naraina (Jaipur)**: Established his supreme seat (*Pradhan Peeth*) at **Naraina** in 1602 CE. Took Samadhi at **Bhairana Hill** (cave known as *Dadu Khol*).
-- **Funerary Custom**: Dadu Panthis **neither cremate nor bury** their dead; the corpse is placed in the open forest to serve as food for beasts and birds, fulfilling a final act of charity.
-- **The 52 Pillars & The Five Branches**:
-  - Dadu Dayal had 152 direct disciples; 100 were contemplative (*Vitagi*) and **52 established independent seats**, known as the **52 Pillars (52 Stambha)**.
-  - Divided into 5 branches: (1) *Khalsa*, (2) *Virakta*, (3) *Uttarde / Sthanadhari*, (4) *Khaki*, and (5) **Naga** (the armed ascetic branch founded by **Sant Sundardas**, which fought for Jaipur rulers during Maratha raids).
-- **Prominent Disciples**:
-  - **Rajjab Ji (रज्जबजी)**: Sanganer Pathan nobleman who, upon hearing Dadu’s sermon while on the way to his wedding, abandoned marriage and **remained dressed in his bridegroom's attire (*Dulhe ke Vesh*) for his entire life**! Authored *Sarvangi* and *Rajjab Vani*.
-  - **Sant Sundardas**: Great scholar and poet ("Shankaracharya of Hindi"); authored *Sundar Vilas*.
+### 4.3 Sant Dadu Dayal and the Dadu Panth
 
----
+**Core associations:** Born at Ahmedabad (1544); Nirguna Bhakti; lived and preached in Rajasthan; Sambhar and Naraina; Dadu Vani/Anubhav Vani.
 
-### 4.4 Sant Mirabai (संत मीराबाई) — The Queen of Prema-Bhakti
-- **Birth & Descent**: Born in **1498 CE at Kudki village (Pali)**; daughter of Ratan Singh Rathore of Merta; granddaughter of Rao Duda; childhood name: **Pebal (पेमल)**.
-- **Marriage**: Married in 1516 CE to **Yuvraj Bhojraj**, the eldest son and crown prince of **Maharana Sanga of Mewar**. Bhojraj died in 1521 CE.
-- **Spiritual Path**: *Madhurya Bhava* / *Kanta Bhava* (surrendered completely to Lord Krishna as her eternal divine husband).
-- **Guru**: Replaced royal Brahmin priests to take the untouchable leather-working saint **Sant Raidas (Ravidas)** as her spiritual master. Raidas’s 4-pillared chhatri stands inside Chittorgarh Fort.
-- **Persecution & Departure**: Survived attempts on her life (poison cup sent by Maharana Vikramaditya); traveled to Merta, Vrindavan, and finally **Dwarka**, where in 1546 CE she is believed to have merged bodily into the idol of **Ranchhodji**.
-- **Literary Masterpieces**: *Padavali*, *Rag Govind*, *Satyabhama nu Rusanu*, and *Narsi Ji ro Mahero* (composed by Ratna Khati under her guidance).
+- **Dadu Dayal (1544–early seventeenth century)** was an influential Nirguna sant whose work became important across Rajasthan and adjacent regions. The Indira Gandhi National Centre for the Arts describes him as born in Ahmedabad in 1544 and notes his close association with Rajasthan and the Dadu Panth. Sources differ on whether he attained samadhi in **1601 or 1603**, so an exact death year must be tied to the source used by the exam.
+- His teachings emphasise devotion to the formless divine, inner discipline and a critique of empty ritual and social divisions. Do not reduce Nirguna Bhakti to a single uniform rejection of every temple, mosque or ritual practice.
+- **Sambhar** and **Naraina** are important centres; Naraina near Sambhar is the principal seat of the Dadu Panth. **Bhairana/Dadu Khol** is associated with his last rites and memorial tradition.
+- **Dadu Vani / Anubhav Vani** is the central textual association. Disciple lineages and compilations are part of the sect’s literary history.
+- The **52 pillars/stambhas** refer in sectarian tradition to spiritual seats established by leading disciples. The number should be presented as a traditional institutional account, not mistaken for a modern census.
+- Accounts of a **40-day dialogue with Akbar in 1585**, the exact founding year of Naraina as a headquarters, and Dadu Panthi funerary practice vary or lack adequate corroboration in the sources reviewed. The claim that Dadu Panthis universally leave corpses in forests to feed animals is especially too sweeping; it has been removed as a core fact.
+- The **Naga** ascetic tradition is associated with martial service in some histories of the Dadu Panth, but identifying Sant Sundardas as its sole founder requires a specific sect-history source. Avoid memorising this as an uncontested attribution.
 
----
+Sources: [IGNCA, Dadu Dayal](https://ignca.gov.in/hi/dadu-dayal/) · [Rajasthan Tourism, Sambhar brochure: Naraina and Bhairana](https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/pdf/lakes-rivers/Sambhar_Lake_Broucher_2019.pdf)
 
-### 4.5 Other Celebrated Sects of Rajasthan
+### 4.4 Sant Mirabai
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   CANONICAL BHAKTI SECTS OF RAJASTHAN                                  │
-├────────────────────────────┬─────────────────────────────┬─────────────────────────────┤
-│ Sect / Sampradaya          │ Founder & Main Seat         │ Distinguishing Invariants   │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Ram Snehi Sect**         │ **Sant Ramcharan Ji**       │ • Worships God as **"RAM"** │
-│ (रामस्नेही संप्रदाय)       │ Main Peeth: **Shahpura**    │   (formless divine breath). │
-│                            │ (Bhilwara)                  │ • **Phuldol Mahotsav**      │
-│                            │                             │   (Chaitra Krishna 1 to 5). │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ • *Ren Branch*             │ Sant Dariyav Ji (Nagaur)    │ • Synthesis of Ram + Rahim. │
-│ • *Singhasthal Branch*     │ Sant Hariramdas Ji (Bkn)    │ • Sacred text: *Nishan*.    │
-│ • *Khedapa Branch*         │ Sant Ramdas Ji (Jodhpur)    │ • Auspicious pink robes.    │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Sant Mavji**             │ Sabla (Dungarpur);          │ • 10th Kalki avatar of      │
-│ (संत मावजी)                │ **Baneshwar Dham**          │   Vishnu; authored prophetic│
-│                            │ (Som-Mahi-Jakham Sangam)    │   texts: **Chopra** (चोपड़ा)│
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Charan Dasi Sect**       │ **Sant Charan Das**         │ • **42 Rules**; predicted   │
-│ (चरणदासी संप्रदाय)         │ Born: Dehra (Alwar);        │   Nadir Shah's 1739 invasion│
-│                            │ Main Peeth: Delhi           │ • Disciples: **Daya Bai** & │
-│                            │                             │   **Sahajo Bai**.           │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Lal Dasi Sect**          │ **Sant Lal Das Ji**         │ • Mewat Meo Muslim lineage; │
-│ (लालदासी संप्रदाय)         │ Dholiduv & Sherpur (Alwar)  │   initiation: blacken face, │
-│                            │                             │   ride donkey to kill ego!  │
-├────────────────────────────┼─────────────────────────────┼─────────────────────────────┤
-│ **Niranjani Sect**         │ **Sant Hari Singh Sankhla** │ • Known as **"Valmiki of    │
-│ (निरंजनी संप्रदाय)         │ Gaada (Didwana)             │   Rajasthan"** (transformed │
-│                            │                             │   from highway dacoit).     │
-└────────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+**Core associations:** Merta/Kudki in Rajasthan’s devotional memory; Krishna bhakti; Rajput royal milieu; songs of viraha and surrender.
 
----
+- Mirabai is one of North India’s best-known Krishna-bhakti poet-saints. Her devotional voice frequently depicts love, longing, surrender and a tension between personal devotion and expected social roles.
+- Rajasthani tradition connects her with **Kudki**, the Rathore family of Merta and marriage into the Mewar royal house. Her marriage to Bhojraj and precise birth/death dates are repeated in popular biographies, but should not all be presented as secure facts.
+- Her association with **Ravidas/Raidas** as guru is important in devotional tradition. It is a meaningful religious association, but evidence for the full familiar biography is limited.
+- Stories of poison, persecution, pilgrimage to Vrindavan and bodily merging into an image at Dwarka are hagiographic narratives rather than independently verifiable eyewitness accounts.
+- **Authorship warning:** Many songs circulating under Mirabai’s name have complex transmission histories; poems were composed, adapted and attributed across generations. The Oxford University Press study *Mirabai: The Making of a Saint* stresses the scarcity of firm historical data and the importance of reading the multiple narratives about her as hagiography, oral tradition and later historical reconstruction. Do not treat every listed work or every popular biographical detail as securely authored/dated by a single historical person. [Oxford University Press, *Mirabai: The Making of a Saint*](https://academic.oup.com/book/46612)
 
-## 5. The 25 Deadly Prelims Traps: Deities & Saints
+### 4.5 Dhanna Bhagat
 
-1. **The Panchpir Roster Trap**: **Veer Tejaji** and **Devnarayan Ji** are NOT among the Panchpir. The five peers are **Pabu Ji, Harbhu Ji, Ramdev Ji, Mehaji Manglia, and Goga Ji**.
-2. **The Incarnation Confusion**:
-   - **Pabu Ji**: Incarnation of **Lakshmana**.
-   - **Ramdev Ji**: Incarnation of **Lord Krishna**.
-   - **Devnarayan Ji**: Incarnation of **Lord Vishnu**.
-3. **The Only Poet Folk Deity**: **Baba Ramdev Ji** is the only folk deity in Rajasthan who was also an accomplished poet (composed *Chaubis Vaniyan*).
-4. **Living Samadhi Precedence**: At Ramdevra, his foster sister **Dali Bai** took Samadhi **one day earlier** (Bhadrapada Shukla Dashami) than Ramdevji (Bhadrapada Shukla Ekadashi).
-5. **Goga Ji's Two Medis**:
-   - **Shirshmedi**: **Dadrewa (Churu)** (where his head fell).
-   - **Dhurmedi / Gogamedi**: **Nohar (Hanumangarh)** (where his torso fell).
-6. **The Inscription on Gogamedi**: Built in Islamic tomb style by **Firoz Shah Tughlaq**, featuring the word **"Bismillah"** inscribed over the main entrance.
-7. **Harbhu Ji's Worshiped Relic**: There is no stone idol at Bengti; devotees worship his **wooden handcart (*Chhakada Gadi*)**, which he used to transport cattle fodder.
-8. **Mehaji Manglia's Horse**: Named **Kirad Kabra**, NOT Kesar Kalmi (Kesar Kalmi belonged to Pabu Ji).
-9. **Veer Tejaji's Snakebite Location**: Bitten on the **tongue** by Basak Nag at **Sendariya**; died at **Sursura**; major cattle fair at **Parbatsar**.
-10. **Unique Offerings to Devnarayan Ji**: Worshiped with **large baked bricks** and fresh **Neem leaves**; no anthropomorphic stone idol is installed.
-11. **Postal Stamp on Phad**: Devnarayanji’s Phad was the first Rajasthani cultural heritage artifact to receive an official **5-rupee postal stamp (1992)**.
-12. **The "Four-Armed Deity"**: **Veer Kallaji Rathore**, who fought in the 1568 Chittor siege carrying Jaimal Rathore on his shoulders.
-13. **The "Nature-Protector Deity"**: **Talli Nath Ji** (Rathore Gango) established the sacred forest sanctuary (**Oran**) at Panchmukhi Hill, Jalore.
-14. **Rain Deity with No Stone Idol**: **Mama Dev**; represented by an intricately carved **wooden toran** hung at the village entrance.
-15. **Karni Mata's Sacred Rats**: Called **Kaba (काबा)**; temple facade in Deshnoke made of white Makrana marble by **Maharaja Ganga Singh**.
-16. **Longest Devotional Folk Song**: **Jeen Mata’s Chirja (चिरजा)** (Rewasa, Sikar), sung for 48 minutes by Dhadhi bards.
-17. **The Only Broken Idol Worshiped in Rajasthan**: **Sheetla Mata** at Chaksu (Jaipur); cold food (*Basoda*) is consumed on Sheetla Ashtami.
-18. **Aai Mata's Miracle**: The sanctum lamp at Bilara emits **saffron soot (*Kesar*)** instead of black lampblack; founded Aai Panth with 11 rules.
-19. **Bishnoi 29 vs Jasnathi 36 Rules**:
-    - **Jambhoji (Bishnoi)**: **29 Rules** (*Bees + Nau*).
-    - **Jasnathji (Jasnathi)**: **36 Rules**.
-    - **Charan Das Ji**: **42 Rules**.
-20. **Sultan Sikandar Lodi's Interaction**: Gave 12 villages to **Jasnathji** at Katariyasar, and banned cow slaughter across his empire at the request of **Jambhoji**.
-21. **Agni Dance Slogan**: Jasnathi Siddhas shout **"Fateh! Fateh!"** while dancing on coals at Katariyasar.
-22. **Dadu Dayal's Burial Custom**: Dadu Panthis **neither cremate nor bury** their dead; they expose the corpse in the forest to feed wildlife (*Dadu Khol at Bhairana*).
-23. **The Perpetual Bridegroom**: **Rajjab Ji** of Sanganer remained dressed in his **bridegroom’s attire (*Dulhe ke Vesh*)** for his entire life after hearing Dadu Dayal’s sermon.
-24. **Mirabai's Guru**: The leather-crafting saint **Sant Raidas (Ravidas)**, whose chhatri is in Chittorgarh Fort.
-25. **Prophetic Texts of Sant Mavji**: The **Chopra (चोपड़ा)** texts written in Vagadi dialect, predicting future world events; preserved at Sabla (Dungarpur).
+**Core associations:** Dhuwan Kalan (Tonk region); Jat cultivator; simple devotion; relationship with Ramanand in devotional biography; verses preserved in the Guru Granth Sahib.
+
+- Rajasthan Heritage Authority material identifies **Dhanna Bhagat** with Dhuwan Kalan in Tonk and dates his birth to 1415 CE. He is remembered as a Jat cultivator whose devotional life was grounded in ordinary household and agrarian activity.
+- Devotional accounts say he sought the guidance of **Ramanand** and emphasised sincere remembrance of God rather than status or elaborate display. Miracle stories about the deity accepting food or crops growing without sowing belong to hagiography.
+- A hymn attributed to Dhanna is included in the **Guru Granth Sahib**. This is a stronger textual association than the miracles in later devotional narratives.
+- The Rajasthan Heritage Authority has a panorama dedicated to Dhanna at Dhuwan Kalan. [Official Dhanna Bhagat Panorama biography](https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/dhanna-bhagat-panorama.html)
+
+### 4.6 Sant Pipa / Pipaji
+
+**Core associations:** Gagron (Jhalawar); ruler who renounced kingship in tradition; Bhakti saint; associated with Ramanand; verse in the Guru Granth Sahib.
+
+- Pipaji is remembered as a ruler of **Gagron** who renounced royal life for devotion. The Rajasthan Tourism Department notes the monastery of Saint Pipa near Jhalawar and describes him as a contemporary of Kabir and disciple of Ramanand.
+- His remembered path moves from royal and goddess devotion toward a life of Bhakti. Exact birth/death years vary, so avoid treating a year such as 1425 as conclusively established.
+- A hymn attributed to Pipa is included in the Guru Granth Sahib. His association is therefore relevant not only to Rajasthan but also to the wider North Indian Bhakti tradition.
+- Gagron/Jhalawar is the key place pairing. [Rajasthan Tourism, Jhalawar](https://www.tourism.rajasthan.gov.in/jhalawar.html)
+
+### 4.7 Laldasji and the Lal Dasi tradition
+
+**Core associations:** Mewat; Dholidub/Sherpur and Nagla in regional accounts; religious synthesis and shared Hindu–Muslim devotion.
+
+- Laldas is associated with the **Mewat** region and remembered as a saint whose following has crossed modern religious boundaries. Academic research describes him as a figure of devotional synthesis, revered by both Meos and Hindu communities, while also documenting how his shrine and identity have changed through later social and political processes.
+- Popular Rajasthan accounts give dates around **1540–1648** and connect him with the Sufi figure **Gadan/Gadan Chishti**. The Rajasthan Board text associates *Laldas ki Chetavniyan* with his poetic legacy and mentions his shrine tradition at Sherpur.
+- The “blacken the face and ride a donkey to kill ego” initiation claim is not accepted here as a verified universal practice. It is not suitable for memorisation without a source describing its context and historical status.
+- Laldas is an example of why devotional traditions in Mewat should not be forced into a binary Hindu-versus-Muslim classification. [Cambridge University Press, *Between Muslim Pīr and Hindu Saint*](https://www.cambridge.org/core/books/between-muslim-pir-and-hindu-saint/847BC8B20CF09C7FDE1B45F8CD1DE7EB) · [RBSE textbook](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf)
+
+### 4.8 Sant Haridas Niranjani
+
+- Haridas is traditionally identified as the founder of the **Niranjani sect**. Rajasthan Board textbook material gives his original name as **Hari Singh Sankhla**, birthplace as Kaprod/Kapdod in Didwana region, and dates around **1455–1543 CE**.
+- The sect’s understanding of the divine is expressed through terms such as **Alakh Niranjan/Hari Niranjan**. His teachings are associated with Nirguna devotion and reform of social evils.
+- Textual associations commonly given are **Mantra Raj Prakash** and **Haripurush ki Vani**. Exact dates and the “former bandit turned saint” biography should be cited to the particular tradition; the mnemonic pairing **Haridas → Niranjani sect** is the reliable exam anchor.
+
+### 4.9 Sant Ramcharan and the Ram Snehi Sampradaya
+
+**Core associations:** Shahpura (Bhilwara); Ramdwara; Nirguna worship of Ram; Phuldol festival.
+
+- Sant Ramcharan (often dated **1720–1799**) is associated with the **Ram Snehi Sampradaya** and the principal Ramdwara at **Shahpura**. Popular biographical sources describe him as born at Soda in the Tonk region and as an exponent of devotion to the name of Ram, with emphasis on simplicity and opposition to ostentation.
+- The Shahpura lineage is one among several Ram Snehi branches. Rajasthan Board material associates the Ren, Singhasthal and Khedapa branches with Dariyavji, Hariramdasji and Ramdasji respectively. It is misleading to describe all branches as having one founder or one institutional history.
+- **Phuldol** is a major festival associated with the Ram Snehi community. Exact dates and duration should be checked against the specific calendar/source; “five days after Holi” and “Chaitra Krishna 1–5” do not always align neatly in simplified notes.
+- The principal literary association is **Anubhav Vani/Vani Ji**. [RBSE textbook](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf) · [Government College Shahpura: institutional history](https://hte.rajasthan.gov.in/Website/SPSBGovtCollegeShahpura/Images/d7feabe2-add1-4750-926a-be49de345fc8.pdf)
+
+### 4.10 Maharshi Navalram
+
+- The Rajasthan Board textbook identifies **Maharshi Navalram** as the founder of the Naval sect and associates his birthplace with **Harsolav** in the Nagaur region.
+- He is described in that tradition as a Dalit spiritual teacher who preached a formless divine, devotion, truth, education and opposition to social evils such as untouchability, child marriage, purdah and superstition.
+- His major centre is associated with **Jodhpur**. His biography is not as widely covered in general histories as Dadu Dayal or Mirabai, so keep the syllabus-based details and avoid adding unsupported exact dates or episode-level claims. [RBSE textbook](https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf)
+
+### 4.11 Sant Ranabai
+
+- Ranabai is remembered in regional Rajasthan Bhakti tradition as a Krishna devotee and is sometimes called the **“second Mira”** in exam-preparation material.
+- Popular biographies associate her with the Nagaur region and with a guru lineage linked to Chaturdas/Parshuram tradition, but birthplace, chronology, guru attribution and samadhi details are not consistently substantiated in the authoritative sources reviewed.
+- For RAS preparation, retain the **Ranabai → Krishna devotion / “second Mira” in regional accounts** association, but do not memorise precise dates, parentage or miracle narratives unless they are explicitly included in the current prescribed textbook or an official syllabus source.
+
+### 4.12 Sant Mavji
+
+**Core associations:** Sabla (Dungarpur region); Beneshwar Dham; Vagadi/Vagdi religious literature; *Chopda*.
+
+- Sant Mavji is associated with **Sabla** and the pilgrimage setting of **Beneshwar Dham**, near the meeting of the Mahi, Som and Jakham rivers. His tradition is especially significant in the Vagad region.
+- The Rajasthan Heritage Protection and Promotion Authority describes Mavji as born at Sabla in 1716. The popular religious tradition regards him as an incarnation of Kalki; this is a faith claim, not a historical classification.
+- His prophetic/religious manuscripts are called **Chopda/Chopras** in local tradition. Popular accounts attribute forecasts of future events to these texts. That claim should be described as a belief about the manuscripts rather than verified prediction.
+- He is associated with reformist/devotional teachings and with social traditions around Beneshwar. Avoid memorising extravagant manuscript length figures or claims that all texts are revealed only on a particular day unless a reliable source specifies the version and context. [Rajasthan Heritage Authority, Mavji Maharaj Panorama](https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/ongoing-projects/mawji-maharaj-panorama.html)
+
+### 4.13 Sangliya Dhuni (सांगलिया धूणी), Sikar
+
+- **Sangliya Dhuni** is a religious ashram/seat in Sangliya village, in the Dhod area of Sikar district, linked with a lineage of ascetics and devotional practice.
+- The centre is associated in its own institutional account with a succession of mahants, including Lakkardas and later teachers. Published popular exam summaries give a foundation year of 1649, but an independent authoritative history was not located in this audit; therefore, do not present the date as fully verified.
+- For objective revision, retain **Sangliya Dhuni → Sangliya village → Sikar**. Its exact founding date and full succession list are lower-priority until supported by a stronger source. [Institutional website: Sangliya Dhuni](https://www.sangliyadhuni.com/about-us-2/)
 
 ---
 
-## 6. RPSC RAS Mains High-Yield Model Answers
+## 5. High-yield comparison tables
 
-### 6.1 2-Markers (15–20 Words)
+### 5.1 Folk deity: place and defining association
 
-#### Q1: Enumerate the "Panchpir" of Rajasthan.
-**Answer**:
-The five revered peer-deities worshiped across Hindu-Muslim traditions: **Pabu Ji**, **Harbhu Ji**, **Ramdev Ji**, **Mehaji Manglia**, and **Goga Ji**.
+| Folk deity | Place / centre | Reliable exam association | Caution |
+|---|---|---|---|
+| Pabuji | Kolu; western Rajasthan | Camel-herder tradition; cattle protection; Phad + Rawanhattha | Birthplace varies in accounts; exact wedding-circle count varies |
+| Ramdevji | Ramdevra/Runecha | Ramsha Pir; shared Hindu–Muslim devotion; fair | Exact life dates and “only poet-deity” claim not secure |
+| Gogaji | Dadrewa; Gogamedi | Jahar/Jahir Pir; snakebite protection | Ghazni dialogue/name-bestowal is legend |
+| Harbhuji | Bengti | Chhakada gadi/handcart worship tradition | Detailed Rao Jodha prophecy and temple date not verified |
+| Mehaji Manglia | Bapini | Panchpir; cattle protection; horse Kirad Kabra in tradition | Exact battle story largely oral tradition |
+| Tejaji | Kharnal; Sursura; Parbatsar | Leelan mare; snakebite protection; Teja Dashami | The snake episode is a devotional legend; fair-revenue superlative unsupported |
+| Devnarayanji | Asind and other shrines | Gurjar tradition; Bagaravat epic; Phad + Jantar | “Oldest/longest Phad” claims use uncertain criteria |
+| Mallinathji | Tilwara | Cattle fair on Luni River | Exact sect/founding date should be sourced |
+| Kallaji Rathore | Chittorgarh / regional shrines | Four-armed warrior tradition | Details of the 1568 episode are hagiographic |
+| Karni Mata | Deshnoke | Sacred kabas; Charan goddess/sage; Ganga Singh temple development | Exact lifespan and Junagarh foundation claim doubtful |
 
----
+### 5.2 Saints and sects
 
-#### Q2: What is the significance of the "Chhakada Gadi" in Harbhu Ji's temple?
-**Answer**:
-At Bengti (Phalodi), Harbhu Ji’s actual wooden handcart, used by him to transport fodder for sick and crippled cows, is worshiped inside the sanctum without an idol.
+| Saint / tradition | Main place association | Exam anchor | Confidence note |
+|---|---|---|---|
+| Jambhoji | Pipasar; Samrathal Dhora; Mukam | Bishnoi panth; 29 rules; ecological protection | RHPPA page records VS 1542 but has an inconsistent parenthetical conversion; standard conversion is 1485 CE |
+| Jasnathji | Katariyasar, Bikaner | Jasnathi panth; 36 rules; Agni Nritya | Some biography/royal grant details are not independently corroborated |
+| Dadu Dayal | Ahmedabad; Sambhar; Naraina | Nirguna Bhakti; Dadu Panth; Dadu Vani | Death year appears as 1601 or 1603 in reliable/official references |
+| Mirabai | Kudki/Merta in tradition; Mewar; Vrindavan/Dwarka in hagiography | Krishna bhakti; devotional poetry | Biography and corpus attribution are historically contested |
+| Dhanna Bhagat | Dhuwan Kalan, Tonk | Simple devotion; hymn in Guru Granth Sahib | Miracle stories are devotional narratives |
+| Pipa/Pipaji | Gagron, Jhalawar | Ruler-turned-Bhakti saint; hymn in Guru Granth Sahib | Exact dates vary |
+| Laldas | Mewat; Sherpur/Nagla traditions | Shared Hindu–Muslim devotion; Laldas ki Chetavniyan | Read as a fluid regional cult, not a fixed binary identity |
+| Haridas Niranjani | Kaprod/Didwana region | Founder of Niranjani sect; Alakh Niranjan | Dates and early-life narrative from sect tradition/textbook |
+| Ramcharan | Soda; Shahpura | Ram Snehi; Ramdwara; Anubhav Vani; Phuldol | Branch histories are distinct; festival dates depend on calendar |
+| Navalram | Harsolav; Jodhpur seat | Naval sect; Nirguna worship; social reform | Use syllabus/textbook information; less independently researched |
+| Ranabai | Nagaur region in popular accounts | Krishna devotion; “second Mira” in exam lore | Historical biography and exact dates are weakly documented |
+| Mavji | Sabla; Beneshwar | Chopda manuscripts; Vagad devotional tradition | Kalki and prediction claims are faith traditions |
+| Sangliya Dhuni | Sangliya, Sikar | Religious seat/ashram | Foundation chronology has weak independent support |
 
----
+### 5.3 Two pairs not to confuse
 
-#### Q3: State the core philosophy behind Sant Jambhoji’s 29 commandments.
-**Answer**:
-Founded at Samrathal Dhora in 1485 CE, it mandates absolute non-violence, moral purity, and radical ecological protection of trees (Khejri) and wildlife (blackbuck).
-
----
-
-#### Q4: Why is Veer Kallaji Rathore termed the "Four-Armed Deity"?
-**Answer**:
-During the 1568 Chittor siege, Kallaji carried the injured Jaimal Rathore on his shoulders; with both warriors wielding two swords simultaneously, they fought as a single four-armed deity.
-
----
-
-#### Q5: What is the "Chirja" of Jeen Mata?
-**Answer**:
-The longest devotional hymn in Rajasthani folklore, sung for 48 minutes by Dhadhi bards at Rewasa (Sikar) to the rhythmic beats of the Damru and Chang.
-
----
-
-### 6.2 5-Markers (50 Words)
-
-#### Q6: Explain the syncretic and socio-religious significance of Baba Ramdev Ji.
-**Answer**:
-Revered as an incarnation of Lord Krishna and honored by Muslims as **Rama Peer**, Baba Ramdev Ji championed radical social integration:
-1. **Anti-Caste Crusade**: Established the **Kamadiya Panth**, embracing the Dalit devotee Dali Bai as his spiritual sister and preaching spiritual equality.
-2. **Literary & Musical Heritage**: The only poet-deity (*Chaubis Vaniyan*); his fairs at Ramdevra popularized the **Terah Taali** dance.
-3. **Communal Harmony**: Transcended religious divides, uniting millions across Rajasthan, Gujarat, and Sindh at his annual *Bhadrapada* fair.
+- **Pabuji ki Phad → Rawanhattha**; **Devnarayanji ki Phad → Jantar**.
+- **Bishnoi code → 29 rules**; **Jasnathi tradition → 36 rules**. Do not swap them.
 
 ---
 
-#### Q7: Delineate the distinct monastic branches and philosophy of the Dadu Panth.
-**Answer**:
-Founded by Sant Dadu Dayal ("The Kabir of Rajasthan") in 1602 CE at Naraina, the **Dadu Panth** preaches pure Nirguna Bhakti, rejecting idolatry and caste divisions:
-1. **The 52 Pillars**: 52 primary disciples who established radiating spiritual seats (*Thambhas*).
-2. **Five Monastic Orders**:
-   - *Khalsa*: Main lineage centered at Naraina.
-   - *Naga*: Armed warrior sadhus founded by Sant Sundardas who defended Jaipur.
-   - *Virakta*, *Uttarde*, and *Khaki*: Ascetic mendicants, northern teachers, and ash-smeared hermits.
-3. **Funerary Practice**: Exposing dead bodies in forests to feed wild animals as a final act of charity.
+## 6. Twenty exam traps—with safer wording
+
+1. **Panchpir:** Pabuji, Harbhuji, Ramdevji, Mehaji Manglia, Gogaji. Tejaji and Devnarayanji are outside this standard list.
+2. **Pabuji’s shrine:** Kolu is a principal shrine/fair centre. Birthplace claims vary by source.
+3. **Pabuji’s mare:** Kesar/Kalmi; “3.5 pheras” is not universal across accounts.
+4. **Pabuji’s Phad:** Associated with the Rawanhattha in standard exam material.
+5. **Ramdevji’s centre:** Ramdevra/Runecha; title Ramsha Pir/Rama Pir.
+6. **Ramdevji’s “only poet-deity” status:** Unsupported absolute; do not use it as a fact.
+7. **Gogaji’s epithet:** Jahar/Jahir Pir; snakebite protection; Dadrewa and Gogamedi are key place associations.
+8. **Gogaji and Mahmud of Ghazni:** Familiar legend, not a verified quotation or encounter.
+9. **Harbhuji:** Bengti and the chhakada gadi are the useful pair.
+10. **Mehaji Manglia:** Bapini; horse Kirad Kabra in popular tradition.
+11. **Tejaji:** Kharnal; Leelan mare; Lachha Gujari’s cattle; snakebite episode; Teja Dashami.
+12. **Devnarayanji:** Gurjar tradition; Bagaravat narrative; Phad with Jantar.
+13. **Phad superlatives:** Avoid “oldest/longest” unless the question follows a source that explicitly defines the comparison.
+14. **Karni Mata:** Deshnoke; sacred kabas; present temple developed over several phases. Do not attribute Junagarh’s actual construction foundation to her as settled history.
+15. **Sheetla Mata:** Basoda/Sheetla Ashtami and protection from disease; “only broken idol in Rajasthan” is unsupported.
+16. **Jambhoji:** Bishnoi panth and 29 rules; the foundation is conventionally dated to 1485 CE (VS 1542); one RHPPA page prints an inconsistent parenthetical conversion.
+17. **Khejarli:** 1730; Amrita Devi Bishnoi; commonly remembered as 363 martyrs. Avoid “the world’s first environmental movement” as a categorical ranking.
+18. **Jasnathji:** Katariyasar; Jasnathi panth; 36 rules; Agni Nritya.
+19. **Dadu Dayal:** Nirguna Bhakti; Naraina; Dadu Vani/Anubhav Vani. Exact death year varies between sources.
+20. **Mirabai:** Krishna-bhakti poet-saint, but dates, guru tradition and poem attribution must be handled cautiously; scholarly work highlights the scarcity of firm historical biography.
 
 ---
 
-#### Q8: Write a concise note on the life and ecological martyrdom of the Bishnois at Khejarli.
-**Answer**:
-Rooted in Sant Jambhoji’s 29 commandments forbidding the felling of green trees, the **Khejarli Massacre occurred on Bhadrapada Shukla Dashami, 1730 CE**:
-1. **The Sacrifice**: When Maharaja Abhai Singh’s axemen arrived to cut Khejri trees for lime kilns, **Amrita Devi Bishnoi** hugged a Khejri tree, proclaiming: *"सिर साठे रूंख रहे, तो भी सस्तो जाण"* (Even if one's head is severed to save a tree, it is a cheap bargain).
-2. **The Martyrdom**: Amrita Devi, her three daughters, and 363 Bishnoi men and women were decapitated while shielding the trees, establishing history's earliest recorded non-violent environmental defense movement.
+## 7. Practice questions (RAS Prelims style)
+
+### Q1. Which of the following is the standard Panchpir grouping in Rajasthan?
+A. Pabuji, Tejaji, Ramdevji, Devnarayanji, Gogaji  
+B. Pabuji, Harbhuji, Ramdevji, Mehaji Manglia, Gogaji  
+C. Tejaji, Mallinathji, Kallaji, Ramdevji, Pabuji  
+D. Jambhoji, Jasnathji, Dadu Dayal, Mirabai, Pipa
+
+**Answer: B.** The common Panchpir list is Pabuji, Harbhuji, Ramdevji, Mehaji Manglia and Gogaji.
+
+### Q2. Pabuji’s Phad is conventionally associated with which instrument?
+A. Jantar  B. Rawanhattha  C. Algoza  D. Bhapang
+
+**Answer: B.** The Rawanhattha is the standard instrument association for Pabuji’s Phad; Jantar is associated with Devnarayanji’s Phad.
+
+### Q3. Which sect is associated with the 29-rule code of ecological and ethical practice?
+A. Jasnathi  B. Ram Snehi  C. Bishnoi  D. Niranjani
+
+**Answer: C.** Jambhoji is associated with the Bishnoi panth and its 29 rules.
+
+### Q4. The Khejarli sacrifice is associated with:
+A. Amrita Devi Bishnoi and protection of Khejri trees  
+B. Mirabai’s pilgrimage to Dwarka  
+C. Dadu Dayal’s meeting with Akbar  
+D. Devnarayanji’s Phad
+
+**Answer: A.** Khejarli, 1730, is remembered for Bishnoi resistance to tree-felling and the sacrifice commonly commemorated as 363 martyrs.
+
+### Q5. Which saint is associated with the Niranjani sect?
+A. Sant Haridas  B. Sant Ramcharan  C. Sant Mavji  D. Sant Pipa
+
+**Answer: A.** Haridas Niranjani is the standard pairing.
+
+### Q6. Which place is a key pilgrimage centre of Baba Ramdevji?
+A. Deshnoke  B. Ramdevra/Runecha  C. Rewasa  D. Naraina
+
+**Answer: B.** Ramdevra in the Jaisalmer region is associated with Ramdevji and the annual fair.
+
+### Q7. The “four-armed” Kallaji tradition is linked with which historical episode?
+A. Siege of Chittorgarh, 1567–1568  B. Battle of Haldighati, 1576  C. Khejarli, 1730  D. Foundation of Bikaner, 1488
+
+**Answer: A.** The legendary image derives from the story of Kallaji carrying the wounded Jaimal while fighting.
+
+### Q8. The Dadu Panth’s principal seat is associated with:
+A. Deshnoke  B. Naraina  C. Katariyasar  D. Kolu
+
+**Answer: B.** Naraina near Sambhar is the principal centre of the Dadu Panth.
+
+### Q9. Which statement about Mirabai is most methodologically sound?
+A. Every poem attributed to her is proved to be her own work.  
+B. Her complete biography is established through contemporary court records.  
+C. She is a major Krishna-bhakti poet-saint, but many biographical details and attributions remain debated.  
+D. She founded the Bishnoi sect.
+
+**Answer: C.** Scholarly work warns that firm historical biographical evidence is limited and the corpus has a complex transmission history.
+
+### Q10. Sant Mavji is particularly associated with:
+A. Sabla and Beneshwar; Chopda manuscripts  
+B. Kolu and Pabuji ki Phad  
+C. Deshnoke and kabas  
+D. Kharnal and Leelan
+
+**Answer: A.** Mavji’s tradition is centred in the Vagad region and associated with Sabla, Beneshwar and the Chopda manuscripts.
 
 ---
 
-### 6.3 10-Markers (100 Words)
+## 8. RAS Mains answer frameworks
 
-#### Q9: "Folk deities of Rajasthan are quintessential historical reflections of sacrifice, agrarian protection, and subaltern social resistance." Critically examine.
-**Answer**:
-Rajasthan’s folk deities emerged not from classical Puranic mythology, but as historical protectors embedded in the fragile desert socio-economy:
+### Q1. Explain the social and ecological significance of the Bishnoi tradition.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   SOCIO-HISTORICAL PILLARS OF RAJASTHANI FOLK DEITIES                  │
-├───────────────────────────┬────────────────────────────────────────────────────────────┤
-│ Dimension                 │ Historical Evidence & Sovereign Deity Exemplars            │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 1. Pastoral Protection    │ • Cattle was the sole wealth in arid Thar; deities died    │
-│    (*Gau-Raksha*)         │   defending cows: **Pabu Ji** (Dechu, 1276 CE),            │
-│                           │   **Tejaji** (Lachha Gujari's cows), **Goga Ji** (Ghazni). │
-│                           │ • **Harbhu Ji**: Handcart dedicated to feeding sick cows.  │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 2. Subaltern Social       │ • **Baba Ramdev Ji**: Founded Kamadiya Panth, broke caste  │
-│    Resistance             │   barriers, elevated Dalit sister Dali Bai, composed       │
-│                           │   *Chaubis Vaniyan* to champion subaltern dignity.         │
-│                           │ • **Pabu Ji**: Reconciled with Thoris, Nayaks, Rebaris.    │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 3. Martial Resistance     │ • **Goga Ji**: Confronted Mahmud of Ghazni's invaders,     │
-│    to Invasions           │   earning the title *Jahir Peer*.                          │
-│                           │ • **Veer Kallaji**: Fought Akbar's army at Chittorgarh.    │
-├───────────────────────────┼────────────────────────────────────────────────────────────┤
-│ 4. Ecological & Healing   │ • **Tejaji** & **Goga Ji**: Cured lethal snakebites.       │
-│    Knowledge Systems      │ • **Pabu Ji**: Introduced camels, cured livestock plagues. │
-│                           │ • **Talli Nath Ji**: Pioneered community forest sanctuaries│
-│                           │   (*Orans*) at Panchmukhi Hill, forbidding tree felling.   │
-└───────────────────────────┴────────────────────────────────────────────────────────────┘
-```
-**Conclusion**: Rajasthani folk deities personify an indigenous moral contract wherein personal honor, communal defense, and agrarian survival triumphed over mortality.
+**Suggested structure:**
 
----
+- **Origin:** Jambhoji; Samrathal Dhora; 29 rules (commonly dated to 1485 CE / Vikram Samvat 1542; an RHPPA page has a conversion error).
+- **Ethical framework:** Compassion for living beings, restraint in resource use, and protection of green trees and wildlife.
+- **Ecological context:** Khejri and other native species are critical to arid/semi-arid livelihoods; wildlife protection is linked to community ethics.
+- **Khejarli (1730):** Amrita Devi and the commonly remembered 363 martyrs demonstrate the social cost of resisting tree-felling.
+- **Contemporary relevance:** Community-led conservation, sacred landscapes and environmental ethics.
+- **Conclusion:** The tradition provides a historically important Rajasthan example of religious norms reinforcing ecological stewardship. Avoid claiming it was the absolute “first” environmental movement in the world.
 
-#### Q10: Compare the reformative philosophies, social contributions, and institutional structures of Sant Jambhoji and Sant Dadu Dayal.
-**Answer**:
-Sant Jambhoji and Sant Dadu Dayal led powerful Nirguna Bhakti movements that redefined spiritual ethics and community life in medieval Rajasthan:
+### Q2. Discuss the role of folk deities in the social and cultural life of Rajasthan.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                   COMPARATIVE ANALYSIS: JAMBHOJI VS DADU DAYAL                         │
-├───────────────────────────┬─────────────────────────────┬──────────────────────────────┤
-│ Evaluative Parameter      │ Sant Jambhoji (1451–1536)   │ Sant Dadu Dayal (1544–1603)  │
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 1. Core Philosophical     │ • Nirguna Bhakti fused with │ • Pure Nirguna Non-sectarian │
-│    Doctrine               │   **radical ecological      │   Bhakti (*Nirpaksh Panth*). │
-│                           │   preservation**.           │ • Rejected temples, mosques, │
-│                           │ • Formulated **29 Rules**.  │   caste, and ritual worship. │
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 2. Institutional Base &   │ • Samrathal Dhora & Mukam   │ • Naraina (Jaipur) supreme   │
-│    Headquarters           │   (Nokha, Bikaner).         │   seat; Bhairana Hill cave.  │
-│                           │ • Administered sacred       │ • Structured into **52       │
-│                           │   nectar (*Pahal*).         │   Pillars (Stambhas)**.      │
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 3. Royal Engagements &    │ • Respected by Sultan       │ • Engaged in a 40-day        │
-│    State Impact           │   **Sikandar Lodi**, who    │   philosophical debate with  │
-│                           │   banned cow slaughter.     │   **Akbar** at Fatehpur Sikri│
-│                           │ • Protected Khejri trees.   │ • Naga branch guarded Jaipur.│
-├───────────────────────────┼─────────────────────────────┼──────────────────────────────┤
-│ 4. Literary Output &      │ • Composed *Jambhasagar* in │ • Composed *Dadu Vani* in    │
-│    Dialect                │   Marwari-Dingal.           │   Dhundhari (*Sadukkadi*).   │
-│                           │ • Strict burial in Mukam.   │ • Exposed corpses to wildlife│
-│                           │                             │   (disciples: Rajjab, Sundar)│
-└───────────────────────────┴─────────────────────────────┴──────────────────────────────┘
-```
-**Conclusion**: While Jambhoji institutionalized an enduring ecological monastic code that birthed the world's greatest environmental martyrs (Khejarli), Dadu Dayal created an open-hearted humanist forum that harmonized Hindu and Muslim spiritual seekers.
+**Suggested structure:**
+
+- **Pastoral protection:** Pabuji, Tejaji and other traditions linked with cattle, camel pastoralism and snakebite protection.
+- **Shared worship:** Ramdevji/Ramsha Pir and Gogaji illustrate devotional spaces crossing formal religious boundaries.
+- **Local economy:** Fairs such as the Ramdevra fair and Mallinath cattle fair combine pilgrimage, trade and community interaction.
+- **Narrative arts:** Phad traditions and Bhopa performance preserve oral epics; Rawanhattha and Jantar serve as key musical associations.
+- **Local identity:** Shrines, vows, flags, sacred objects and ritual calendars help anchor regional identities.
+- **Critical perspective:** Folk traditions combine historical memory and hagiography. A scholarly answer should identify the difference rather than dismiss the beliefs or present every miracle as documentary history.
+
+### Q3. Compare the devotional philosophies of Jambhoji, Dadu Dayal and Mirabai.
+
+| Saint | Principal devotional frame | Key regional association | Social/cultural contribution |
+|---|---|---|---|
+| Jambhoji | Bishnoi religious code; compassion and ecological care | Samrathal Dhora, Mukam | 29 rules; community conservation ethic |
+| Dadu Dayal | Nirguna Bhakti; emphasis on inner devotion | Sambhar, Naraina | Dadu Panth and its devotional literature |
+| Mirabai | Krishna-centred personal devotion and longing | Merta/Mewar in devotional memory | Bhakti poetry and a lasting model of devotional agency |
+
+**Conclusion:** The three traditions show different forms of devotion—ethical and ecological community discipline, formless-divine bhakti, and emotionally intense Krishna devotion. Their biographies are preserved through different combinations of text, oral tradition and hagiography, which affects historical certainty.
 
 ---
 
-[Chapter 15 Complete ➔ Next: Chapter 16: Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan]
+## 9. Evidence and source register
+
+This chapter uses the following sources in descending order of usefulness for core exam facts:
+
+1. **Board of Secondary Education, Rajasthan (RBSE), *History and Culture of Rajasthan*, Class X textbook/syllabus.** Primary exam-scope baseline and traditional Rajasthan associations. PDF: https://rajeduboard.rajasthan.gov.in/books-2019/books-2022/cls10/HistorynCulture.pdf
+2. **Rajasthan Heritage Protection and Promotion Authority (RHPPA), Guru Jambheshwar Panorama.** Records Vikram Samvat 1542 but gives an inconsistent parenthetical conversion to 1482 CE; read the VS date as 1485 CE, consistent with the Rajasthan government-college research publication below: https://www.jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/jambho-ji.html
+3. **Rajasthan Tourism Department, Karni Mata Temple.** Karni Mata’s traditional biography, rat worship and temple-construction history: https://www.tourism.rajasthan.gov.in/karni-mata-temple.html
+4. **RHPPA, Karni Mata Panorama.** Notes development of the Deshnoke temple in stages and the contribution of more than one ruler: https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/karni-mata-deshnok.html
+5. **Rajasthan Tourism, Khejrli Village.** Official summary of the 1730 sacrifice and 363 martyrs: https://www.tourism.rajasthan.gov.in/jodhpur.html
+6. **Rajasthan Forest Department, annual report 2019–20.** Government summary of Amrita Devi and the Khejarli sacrifice: https://forest.rajasthan.gov.in/content/dam/raj/forest/ForestDepartment/PDFs/Department%20Wing/Soil%20Conservation/new/Silviculture%20Annual%20Report%202019-20.pdf
+7. **Rajasthan Tourism, Pabuji’s Kolu shrine / Phad tradition:** https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/Phalodi.html and https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/shopping-in-rajasthan.html
+8. **Rajasthan Tourism, Ramdevra:** https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/hi/religious-places.html and https://www.incredibleindia.gov.in/en/rajasthan/jaisalmer/ramdevra-temple
+9. **Government of Rajasthan, Nohar cultural page, Gogamedi:** https://lsg.urban.rajasthan.gov.in/content/raj/udh/nagar-palika-nohar/en/events/cultural-programme-schedules.html
+10. **Indira Gandhi National Centre for the Arts, Dadu Dayal:** https://ignca.gov.in/hi/dadu-dayal/
+11. **Oxford University Press, Nancy M. Martin, *Mirabai: The Making of a Saint* (2023).** Scholarly discussion of limited historical evidence, hagiography and the complex attribution of poems: https://academic.oup.com/book/46612
+12. **Cambridge University Press, Mukesh Kumar, *Between Muslim Pīr and Hindu Saint: Laldas and the Devotional Culture in North India* (2024).** Academic study of the Laldas tradition in Mewat and its evolving interreligious identity: https://www.cambridge.org/core/books/between-muslim-pir-and-hindu-saint/847BC8B20CF09C7FDE1B45F8CD1DE7EB
+13. **Rajasthan Heritage Authority, Dhanna Bhagat Panorama:** https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/completed-projects/dhanna-bhagat-panorama.html
+14. **Rajasthan Tourism, Jhalawar/Pipaji:** https://www.tourism.rajasthan.gov.in/jhalawar.html
+15. **Rajasthan Heritage Authority, Mavji Maharaj Panorama:** https://jkk.artandculture.rajasthan.gov.in/content/ArtandCulture/en/rajasthan-heritage-protection-promotion-authority/heritage-projects/ongoing-projects/mawji-maharaj-panorama.html
+16. **Government College Barmer, *Jambhani Philosophy*, volume 4.** Gives the 1485 CE / Vikram Samvat 1542 chronology for the Bishnoi panth’s formation: https://hte.rajasthan.gov.in/Website/GovernmentCollegeBarmer/CONTENTFILES/JAMBANI%20PHILOSOPHY%20VOLUME%204.pdf
+17. **Sangliya Dhuni institution site.** Useful for the location and current institutional lineage, but not an independent scholarly corroboration of every historical date: https://www.sangliyadhuni.com/about-us-2/
+
+### Verification boundary
+
+Government tourism and heritage pages frequently record the tradition that a community tells about a deity or saint; they do not independently prove every event in the tradition. The revised chapter therefore retains culturally important material with labels such as “local tradition,” “is remembered as,” or “the story says” where the source is devotional rather than documentary. Exact dates, oral quotations, divine-incarnation claims, miracle accounts and absolute rankings remain lower-confidence unless they can be independently corroborated.
+
+---
+
+**Chapter 15 revision complete.** Next chapter in the sequence: **Chapter 16 — Fairs, Festivals, Customs, Ornaments, Costumes & Literature of Rajasthan.**

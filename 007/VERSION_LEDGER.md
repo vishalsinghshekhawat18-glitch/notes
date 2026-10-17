@@ -17,6 +17,30 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v059 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 15 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 15)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_15_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_15_FOLK_DEITIES_SAINTS_RELIGIOUS_MOVEMENTS_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/16_CHAPTER_15_FOLK_DEITIES_SAINTS_RELIGIOUS_MOVEMENTS.md` and Rapid Revision Matrix 15 (`007/revision/rajasthan/15_REV_CHAPTER_15_FOLK_DEITIES_SAINTS.md`), expanding coverage to the full RBSE Class 10 baseline, separating hagiographical lore from historical fact, and repairing chronological inconsistencies.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Full RBSE Class 10 Scope Restored**:
+    - Added comprehensive coverage for previously omitted syllabus-listed saints: **Dhanna Bhagat** (Dhuwan Kalan, Tonk; hymn in *Guru Granth Sahib*; RHPPA panorama), **Sant Pipa** (Gagron ruler who renounced royalty; hymn in *Guru Granth Sahib*), **Haridas Niranjani** (Niranjani sect founder; *Mantra Raj Prakash*), **Sant Ramcharan** (Shahpura Ram Snehi principal seat; Phuldol festival), **Maharshi Navalram** (Naval sect, Dalit spiritual reformer, social reform against caste/purdah), **Sant Ranabai** (Krishna devotion, "second Mira" in exam lore), **Sant Mavji** (Sabla/Beneshwar Dham; *Chopda* prophetic manuscripts), and **Sangliya Dhuni** (Sikar ascetic seat).
+  - **The Panchpir Roster & Epistemic Demarcation**:
+    - Re-anchored the canonical five peers: **Pabuji, Harbhuji, Ramdevji, Mehaji Manglia, and Gogaji**. Clarified that while Veer Tejaji and Devnarayanji are beloved statewide, they are not part of the traditional Panchpir.
+  - **Calendar Conversion Error on Jambhoji Resolved**:
+    - Retained **1485 CE** as the accurate conversion of Kartik Badi Ashtami, **Vikram Samvat 1542** ($1542 - 57 = 1485$); flagged the RHPPA panorama page's parenthetical print of "1482 CE" as an internal typographical error. Purged uncorroborated claims of an empire-wide cow slaughter ban by Sikandar Lodi.
+  - **Phad Musical Accompaniment Matching**:
+    - Disentangled the two Phad pairings: **Pabuji ki Phad** (accompanied by the **Rawanhattha**, performed by Nayak/Bhil Bhopas) vs **Devnarayanji ki Phad** (accompanied by the **Jantar**, performed by Gurjar Bhopas). Softened unverified "oldest/longest" superlatives.
+  - **Fort Foundation & Chronology Rectification (Karni Mata)**:
+    - Removed the anachronistic claim that Karni Mata laid the foundation of **Junagarh Fort** (constructed 1589–1594, long after her traditionally assigned lifetime), while preserving traditional foundation-stone associations with Mehrangarh (1459) and the older Bikaner fort. Documented multi-phase temple development at Deshnoke culminating under Maharaja Ganga Singh.
+  - **Hagiographical Lore Disentangled from History**:
+    - Relabeled Mahmud of Ghazni’s dialogue with Gogaji as devotional legend.
+    - Softened Ramdevji’s biographical assertions ("only poet-deity", exact 1458 samadhi year).
+    - Removed Sheetla Mata’s "only broken idol" claim; removed Jeen Mata’s 48-minute Chirja duration claim; removed Laldas donkey-initiation claim.
+    - Framed Tanot Mata 1965/1971 war unexploded bombs as reported faith traditions.
+
 ### [STAGED LOCAL] v058 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 14 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-16
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
