@@ -1,428 +1,283 @@
-# CHAPTER 25: STATE JUDICIAL ARCHITECTURE: RAJASTHAN HIGH COURT & SUBORDINATE COURTS
+# CHAPTER 25: STATE JUDICIAL ARCHITECTURE — RAJASTHAN HIGH COURT & SUBORDINATE COURTS
 ## राजस्थान की न्यायिक व्यवस्था: उच्च न्यायालय एवं अधीनस्थ न्यायपालिका
 
-> **Subject**: Rajasthan Studies (Polity & Governance of Rajasthan)  
-> **Paper**: RPSC RAS Prelims & Mains Paper 3 (Unit I — Indian Political System: Judiciary & State Politics) • Rajasthan Judicial Service (RJS) • Sub-Inspector • Assistant Professor  
-> **Authoritative Treatises Grounded**: डॉ. जनक सिंह मीना एवं डॉ. बी.एल. फड़िया (*राजस्थान की राजनीतिक एवं प्रशासनिक व्यवस्था*, राजस्थान हिंदी ग्रंथ अकादमी), The Constitution of India (Articles 214–237), The Rajasthan High Court Ordinance 1949, High Court of Rajasthan Rules 1952, Legal Services Authorities Act 1987, Gram Nyayalayas Act 2008.
+> **Use:** RPSC RAS, Rajasthan polity and governance, and general state-judiciary revision. This is exam-oriented material, not legal advice. Constitutional and procedural law references are current to **17 October 2026**, subject to later judgments, amendments and notifications.
 
 ---
 
-## 1. Constitutional Framework of the State Judiciary (Articles 214 to 231)
+## 1. India’s integrated judicial system
 
-India possesses a **Single, Unified, Integrated Judicial System** (*एकीकृत न्यायपालिका*). Unlike the federal structure of the United States (where dual courts enforce separate federal and state laws), the Indian judiciary operates as a single pyramid hierarchy, with the Supreme Court at the apex, State High Courts in the intermediate tier, and Subordinate District Courts at the base, enforcing both Union and State laws concurrently.
+India has an integrated judicial hierarchy: the Supreme Court stands at the apex, High Courts operate at state or regional level, and subordinate courts administer justice within their jurisdictions. Courts apply both Union and State law, subject to constitutional allocation of powers. Tribunals, family courts, commercial courts and other special forums operate under their own statutory frameworks and are not all identical in rank or jurisdiction to ordinary courts.
 
 ```text
-                               THE JUDICIAL PYRAMID OF RAJASTHAN
-                                               │
-                                     SUPREME COURT OF INDIA
-                                        (New Delhi - Apex)
-                                               │
-                                               ▼
-                                    RAJASTHAN HIGH COURT
-                       (Principal Seat: Jodhpur • Permanent Bench: Jaipur)
-                               (Sanctioned Strength: 50 Judges)
-                                               │
-         ┌─────────────────────────────────────┴─────────────────────────────────────┐
-         ▼                                                                           ▼
-  CIVIL JURISDICTION                                                          CRIMINAL JURISDICTION
-  • District Judge Court (Unlimited Value)                                    • Sessions Judge Court (Can award death penalty*)
-  • Additional District Judge (ADJ)                                           • Additional Sessions Judge (ASJ)
-  • Senior Civil Judge Court                                                  • Chief Judicial Magistrate (CJM / ACJM)
-  • Civil Judge (Junior Division)                                             • Judicial Magistrate First Class (JMFC)
-         │                                                                           │
-         └─────────────────────────────────────┬─────────────────────────────────────┘
-                                               │
-                                               ▼
-                                 GRASSROOTS / ADR DISPUTE FORUMS
-                                 • Gram Nyayalayas (Bassi, 2009)
-                                 • Lok Adalats & Permanent Lok Adalats (RSLSA)
-                                 • Family Courts, POCSO & Commercial Courts
+SUPREME COURT OF INDIA
+        │ appeals / constitutional jurisdiction
+        ▼
+RAJASTHAN HIGH COURT
+Principal Seat: Jodhpur  |  Permanent Bench: Jaipur
+        │ constitutional supervision and appeals as provided by law
+        ▼
+DISTRICT & SESSIONS COURTS / OTHER SUBORDINATE COURTS
+        │
+        ├── Civil courts
+        ├── Criminal courts
+        ├── Family / commercial / special courts (statutory jurisdiction)
+        └── ADR and legal-aid forums: Lok Adalats, Permanent Lok Adalats,
+            mediation centres and Gram Nyayalayas where established
 ```
 
----
-
-### A. Core Constitutional Articles Governing High Courts
-
-```text
-========================================================================================================================
-                                     HIGH COURT CONSTITUTIONAL MATRIX
-========================================================================================================================
-Article No.  Constitutional Provision                     State Application & Legal Nuance
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 214     High Court for each State                    Mandates that there shall be a High Court for each State.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 215     High Courts to be Courts of Record           High Court is a Court of Record (अभिलेख न्यायालय); its decisions
-                                                          have evidentiary value; power to punish for contempt of itself.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 216     Constitution of High Courts                  Consists of a Chief Justice and such other Judges as the President
-                                                          may from time to time deem necessary (Sanctioned in Raj: 50).
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 217     Appointment & Conditions of Judge            Appointed by President by warrant after consultation with CJI,
-                                                          State Governor, and Chief Justice of HC; Retirement age: 62 YEARS.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 219     Oath or Affirmation                          Administered by the GOVERNOR of the State (or his nominee).
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 221     Salaries and Allowances                      Salaries charged on CONSOLIDATED FUND OF THE STATE;
-                                                          Pension charged on CONSOLIDATED FUND OF INDIA (Art 112(3)(d))!
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 222     Transfer of a Judge                          President may, after consultation with the CJI, transfer a Judge
-                                                          from one High Court to any other High Court.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 226     Power to Issue Writs                         High Court can issue writs (Habeas Corpus, Mandamus, Prohibition,
-                                                          Certiorari, Quo-Warranto) for Fundamental Rights AND ordinary legal rights.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 227     Power of Superintendence                     High Court has administrative and judicial superintendence over ALL
-                                                          subordinate courts and tribunals throughout its territorial limits.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 228     Transfer of Constitutional Cases             High Court can withdraw cases from subordinate courts involving a
-                                                          substantial question of law as to the interpretation of Constitution.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Art. 231     Common High Court for States                 Parliament may by law establish a common High Court for two or more
-                                                          States or Union Territories.
-========================================================================================================================
-```
-
----
-
-## 2. Institutional Genesis & Evolution of the Rajasthan High Court
-
-Prior to the integration of Rajasthan, each major princely state had its independent judicial organ—the **Chief Court of Jaipur**, the **High Court of Jodhpur**, the **High Court of Bikaner**, the **Ijlas Khas / Mahadraj Sabha of Mewar**, and the **High Court of Kota**.
-
-```text
-                            CHRONOLOGICAL EVOLUTION OF HIGH COURT
-                                              │
-      [Rajasthan High Court Ordinance, 1949 promulgated by Rajpramukh Sawai Man Singh II]
-                                              │
-                                              ▼
-               INAUGRATION AT JODHPUR: 29 AUGUST 1949 (Chief Justice Kamal Kant Verma)
-                        (Circuit Benches at Jaipur, Udaipur, Bikaner, Kota)
-                                              │
-                                              ▼
-             P. SATYANARAYAN RAO COMMITTEE (1957–1958) ➔ Recommended Jodhpur Principal Seat
-                                              │
-                                              ▼
-               ABOLITION OF JAIPUR BENCH: 1958 (Single Unified Court at Jodhpur)
-                                              │
-                                              ▼
-            RESTORATION OF JAIPUR PERMANENT BENCH: 31 JANUARY 1977 (Presidential Order)
-                                              │
-                                              ▼
-            NEW MODERN HIGH COURT COMPLEX AT JHALAMAND, JODHPUR (Inaugurated 7 Dec 2019)
-```
-
----
-
-### A. The Foundation at Jodhpur (29 August 1949)
-- **The Ordinance**: Promulgated by the Rajpramukh of Greater Rajasthan, **Maharaja Sawai Man Singh II**, on **25 August 1949** under the *Rajasthan High Court Ordinance, 1949*.
-- **The Inauguration**: Formally inaugurated on **29 August 1949 at Jodhpur**.
-- **First Chief Justice**: **Justice Kamal Kant Verma (*कमल कांत वर्मा*)** took oath as the First Chief Justice of the Rajasthan High Court, administered by Rajpramukh Sawai Man Singh II, along with **11 other pioneer judges**.
-- **Temporary Multi-Bench System**: To satisfy the competing claims of erstwhile princely capitals, the High Court initially sat at Jodhpur, while circuit benches were temporarily retained at **Jaipur, Udaipur, Bikaner, and Kota**.
-
----
-
-### B. The P. Satyanarayan Rao Committee (1957–1958)
-Following the integration of Ajmer-Merwara on 1 November 1956, the Government of India constituted a three-member committee under the chairmanship of **P. Satyanarayan Rao** (members: V. Vishwanathan and B.K. Gupta) to resolve inter-regional administrative imbalances:
-1. **Capital Allocation**: Recommended that **Jaipur** remain the permanent capital of Rajasthan.
-2. **High Court Unification**: Recommended that the **Principal Seat of the Rajasthan High Court be permanently located at Jodhpur**, and that all circuit benches (including the Jaipur Bench) be **abolished** to preserve judicial unity and coherence.
-3. **Execution**: Pursuant to these recommendations, the **Jaipur Bench was formally abolished in 1958**, centralizing the entire state judiciary at Jodhpur.
-
----
-
-### C. The Restoration of the Jaipur Permanent Bench (1977)
-The dissolution of the Jaipur Bench caused immense geographic hardship for litigants and lawyers from eastern and northern Rajasthan. Following sustained professional agitations:
-- A Presidential Order was issued on **8 December 1976** by President Fakhruddin Ali Ahmed under Section 51(2) of the *States Reorganisation Act, 1956*.
-- The **Permanent Bench of the Rajasthan High Court at Jaipur** was formally established and commenced functioning on **31 January 1977**.
-
----
-
-### D. Territorial Jurisdiction Allocation
-
-```text
-========================================================================================================================
-                               TERRITORIAL JURISDICTION DIVISION IN RAJASTHAN
-========================================================================================================================
-Judicial Seat        Districts Covered (50-District Administrative Lens)
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-PRINCIPAL SEAT       Jodhpur, Jodhpur Rural, Phalodi, Barmer, Balotra, Jaisalmer, Pali, Jalore, Sanchore, Sirohi,
-AT JODHPUR           Bikaner, Churu, Sriganganagar, Hanumangarh, Anupgarh, Nagaur, Didwana-Kuchaman,
-(21 Districts)       Udaipur, Salumbar, Rajsamand, Chittorgarh, Pratapgarh, Banswara, Dungarpur.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-PERMANENT BENCH      Jaipur, Jaipur Rural, Dudu, Kotputli-Behror, Alwar, Khairthal-Tijara, Dausa, Bharatpur, Deeg,
-AT JAIPUR            Dholpur, Karauli, Gangapur City, Sawai Madhopur, Tonk, Ajmer, Beawar, Kekri,
-(29 Districts)       Kota, Bundi, Baran, Jhalawar, Sikar, Neem Ka Thana, Jhunjhunu, Bhilwara, Shahpura.
-========================================================================================================================
-```
-
----
-
-### E. Sanctioned Judicial Strength & Modern Infrastructure
-- **Judge Strength**: The sanctioned strength of the Rajasthan High Court is **50 Judges** (including the Chief Justice):
-  - **Permanent Judges**: **38 Judges**.
-  - **Additional Judges**: **12 Judges**.
-- **The Modern Jhalamand Campus (Jodhpur)**:
-  - After operating for seven decades from the historic Old High Court heritage building near Ummed Garden, a magnificent new complex was constructed at **Jhalamand, Jodhpur**.
-  - Formally inaugurated on **7 December 2019** by the President of India, **Ram Nath Kovind**, in the presence of Chief Justice of India **Sharad Arvind Bobde**. Built with signature Dholpur and Jodhpur chittar sandstone.
-
----
-
-## 3. Exhaustive Roster & Landmarks of Chief Justices
-
-```text
-========================================================================================================================
-                                     HISTORIC CHIEF JUSTICES OF RAJASTHAN
-========================================================================================================================
-Chief Justice Name               Tenure Period               Historical Significance / Landmark Distinction
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice Kamal Kant Verma         29 Aug 1949 – 24 Jan 1950   FIRST CHIEF JUSTICE of Rajasthan High Court.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice Kailash Nath Wanchoo     2 Jan 1951 – 11 Aug 1958    LONGEST-SERVING CHIEF JUSTICE IN RAJASTHAN HISTORY
-                                                             (Over 7 years 7 months); Later 10th CHIEF JUSTICE OF INDIA.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice Sarjoo Prasad            1959 – 1961                 Eminent jurist from Assam/Patna.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice J.S. Ranawat             1961 – 1963                 Pioneer Rajasthani Chief Justice.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice D.S. Dave                1963 – 1968                 Prominent post-independence jurist.
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice Satish Kumar Mittal      March 2016 – April 2016     SHORTEST TENURE AS CHIEF JUSTICE (barely 41 days!).
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice R.M. Lodha               (Puisne Judge in Raj HC)    Hailed from Jodhpur; Elevated to Supreme Court;
-                                                             Served as the 41st CHIEF JUSTICE OF INDIA (2014).
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Justice Manindra Mohan Shrivastava Feb 2024 – Present        Eminently elevated from Chhattisgarh High Court.
-========================================================================================================================
-```
-
-#### Singular Judicial Landmarks:
-- **First Woman Judge of Rajasthan High Court**: **Justice Kanta Bhatnagar (*न्यायमूर्ति कांता भटनागर*)**, appointed as a Judge in **1978**; later became the First Chairperson of the Rajasthan State Human Rights Commission (SHRC) in 2000.
-- **Elevation to Chief Justice of India (CJI)**: Several illustrious judges associated with the Rajasthan High Court went on to become the Chief Justice of India:
-  1. **Justice K.N. Wanchoo** (10th CJI)
-  2. **Justice R.M. Lodha** (41st CJI — native of Jodhpur)
-  3. **Justice J.S. Khehar** (44th CJI)
-  4. **Justice N.V. Ramana** (48th CJI)
-
----
-
-## 4. Jurisdiction & Constitutional Powers of the High Court
-
-```text
-                             HIGH COURT JURISDICTION MATRIX
-                                           │
-         ┌──────────────────┬──────────────┴──────────────┬──────────────────┐
-         ▼                  ▼                             ▼                  ▼
-    ORIGINAL WRIT       APPELLATE                     SUPERVISORY        COURT OF RECORD
-    (Article 226)       (Civil & Criminal)            (Article 227)      (Article 215)
-  • Wider than Art 32 • Dist. Judge appeals           • All Subordinate  • Evidentiary power
-  • Fundamental +     • Death sentence confirmation     Courts & Boards  • Contempt of Court
-    Legal Rights        under Section 366 CrPC        • Administrative +   punishment
-  • 5 Prerogative Writs • First & Second Appeals        Judicial review  • Binding precedent
-```
-
----
-
-### A. Writ Jurisdiction (Article 226) vs Supreme Court (Article 32)
-The writ jurisdiction of the Rajasthan High Court is **substantively broader than that of the Supreme Court of India**:
-
-| Parameter | Supreme Court (Article 32) | Rajasthan High Court (Article 226) |
-| :--- | :--- | :--- |
-| **Enforcement Scope** | Enforceable **ONLY for Fundamental Rights** (Part III of the Constitution). | Enforceable for Fundamental Rights **AND "for any other purpose"** (ordinary legal rights, statutory duties, contractual arbitrary violations). |
-| **Constitutional Nature** | Article 32 is itself a Fundamental Right (guaranteed remedy; SC cannot refuse). | Article 226 is a discretionary constitutional remedy (HC may refuse if effective alternative remedy exists). |
-| **Territorial Reach** | Throughout the entire sovereign territory of India. | Within the territorial limits of Rajasthan, or outside if the **Cause of Action** arises wholly or in part in Rajasthan. |
-
-#### The Five Prerogative Writs:
-1. **Habeas Corpus (*बंदी प्रत्यक्षीकरण*)**: "To have the body of"; safeguards individual liberty against unlawful or arbitrary detention.
-2. **Mandamus (*परमादेश*)**: "We command"; directs a public official, statutory board, or government department to perform a mandatory statutory duty.
-3. **Prohibition (*प्रतिषेध*)**: Issued to an inferior court or tribunal preventing it from exceeding its jurisdiction.
-4. **Certiorari (*उत्प्रेषण*)**: "To be certified"; quashes an illegal order passed by a subordinate court, tribunal, or quasi-judicial body lacking jurisdiction or violating natural justice.
-5. **Quo-Warranto (*अधिकार पृच्छा*)**: "By what authority"; inquires into the legality of a person's claim to a public office.
-
----
-
-### B. Appellate & Supervisory Jurisdiction
-1. **Civil Appellate Jurisdiction**: Hears First Appeals from decisions of District Judges and Additional District Judges; hears Second Appeals on **substantial questions of law** from subordinate appellate courts under Section 100 CPC.
-2. **Criminal Appellate Jurisdiction**: Hears appeals against convictions involving imprisonment of 7 years or more passed by Sessions Courts.
-   - **Mandatory Confirmation of Death Sentence**: Under **Section 366 of CrPC (Section 407 of Bharatiya Nagarik Suraksha Sanhita - BNSS)**, when a Sessions Court passes a sentence of death, the proceedings must be submitted to the High Court, and **the death sentence cannot be executed unless it is confirmed by a Division Bench (at least two judges) of the High Court**!
-3. **Supervisory Jurisdiction (Article 227)**:
-   - High Court exercises both **administrative and judicial superintendence** over all civil, criminal, and revenue courts and statutory tribunals within Rajasthan (e.g., **Board of Revenue at Ajmer**, Rent Control Tribunals, Motor Accident Claims Tribunals).
-   - High Court may call for returns, make general rules, and prescribe forms for regulating subordinate practice.
-
----
-
-## 5. Subordinate Judiciary & Alternative Dispute Resolution (ADR)
-
-The subordinate courts of Rajasthan are structured under Chapter VI of Part VI of the Constitution (Articles 233 to 237) and the *Rajasthan Civil Courts Ordinance, 1950*.
-
-```text
-                        SUBORDINATE JUDICIARY HIERARCHY IN RAJASTHAN
-                                             │
-      CIVIL SIDE                                             CRIMINAL SIDE
-      ──────────                                             ─────────────
-      District Judge (जिला न्यायाधीश)                         Sessions Judge (सत्र न्यायाधीश)
-            │                                                      │
-      Additional District Judge (ADJ)                        Additional Sessions Judge (ASJ)
-            │                                                      │
-      Senior Civil Judge (वरिष्ठ सिविल न्यायाधीश)              Chief Judicial Magistrate (CJM / ACJM)
-            │                                                      │
-      Civil Judge (Junior Division)                          Judicial Magistrate First Class (JMFC)
-```
-
----
-
-### A. Appointment & Conditions of Service
-1. **District Judges (Article 233)**:
-   - Appointed by the **Governor of Rajasthan in consultation with the High Court**.
-   - Direct recruitment from the Bar: Advocates with at least **7 years of continuous practice** who qualify the competitive Higher Judicial Service (RJS Cadre) examination.
-2. **Subordinate Judicial Service (Article 234)**:
-   - Civil Judge (Junior Division) and Judicial Magistrates are recruited through the **Rajasthan Judicial Service (RJS)** examination conducted directly by the Rajasthan High Court Examination Cell.
-
----
-
-### B. Specialized & Fast Track Courts
-1. **Family Courts (*पारिवारिक न्यायालय*)**: Established under the *Family Courts Act, 1984*, to promote conciliation and speedy settlement of matrimonial disputes, maintenance, and child custody without formal courtroom acrimony.
-2. **POCSO Special Courts**: Dedicated courts set up in every district for speedy trial of offences under the *Protection of Children from Sexual Offences (POCSO) Act, 2012*.
-3. **Commercial Courts**: Specialized commercial division courts established under the *Commercial Courts Act, 2015*, in Jaipur, Jodhpur, and major industrial hubs to expedite high-value commercial disputes ($>₹3\text{ Lakh}$).
-4. **Motor Accident Claims Tribunals (MACT)**: Adjudicates third-party compensation claims arising from vehicular accidents.
-
----
-
-### C. Alternative Dispute Resolution: Lok Adalats & RSLSA
-- **Statutory Genesis**: The **Rajasthan State Legal Services Authority (RSLSA)** was constituted under the *Legal Services Authorities Act, 1987*, with its headquarters at Jaipur.
-  - **Patron-in-Chief**: Chief Justice of the Rajasthan High Court.
-  - **Executive Chairman**: A serving or retired Senior Judge of the High Court nominated by the Governor.
-- **National Lok Adalats (*राष्ट्रीय लोक अदालत*)**:
-  - Held quarterly under the aegis of NALSA/RSLSA.
-  - Settle pending compoundable criminal cases, cheque bounce (Section 138 NI Act), bank recovery, matrimonial, and land acquisition cases through mutual compromise.
-- **The Statutory Invariant of Lok Adalats**:
-  1. An award passed by a Lok Adalat is deemed to be a **Decree of a Civil Court (*दीवानी अदालत की डिक्री*)**.
-  2. The award is **Final and Binding** on all parties.
-  3. **NO APPEAL LIES to any court against an award of a Lok Adalat**! (Can only be challenged under Article 226 on grounds of fraud).
-  4. Court fees deposited are refunded in full upon settlement.
-- **Permanent Lok Adalats (Public Utility Services)**: Established under Section 22B of the 1987 Act to settle pre-litigation disputes up to ₹1 Crore concerning essential public utilities: transport, postal, telegraph, electricity, water, public conservancy, and hospitals.
-
----
-
-### D. Gram Nyayalayas (*ग्राम न्यायालय — ग्रामीण न्याय तंत्र*)
-- **Statutory Authority**: Enacted by Parliament under the **Gram Nyayalayas Act, 2008**, to take justice to the doorsteps of rural citizens.
-- **The Historic Rajasthan First**:
-  - The **FIRST Gram Nyayalaya of Rajasthan was inaugurated on 27 November 2009 at Bassi (Jaipur district)**.
-- **Key Features of Gram Nyayalayas**:
-  - Presided over by a **Nyayadhikari (*न्यायाधिकारी*)**, who enjoys the status and salary of a **Judicial Magistrate of the First Class (JMFC)** appointed in consultation with the High Court.
-  - Established for every Panchayat Samiti (intermediate block) headquarters.
-  - Operates as a **Mobile Court (*मोबाइल कोर्ट*)** visiting remote villages to conduct on-spot hearings.
-  - Has concurrent jurisdiction over specified civil disputes and criminal offences punishable with up to **2 years of imprisonment**.
-  - **Procedural Flexibility**: Not bound by the technical rules of the *Indian Evidence Act, 1872*; guided by the principles of **Natural Justice (*प्राकृतिक न्याय*)**.
-
----
-
-## 6. Top 25 Lethal Examination Traps & Ambiguities
-
-1. **Inauguration Date of Rajasthan High Court**: Formally inaugurated on **29 August 1949 at Jodhpur**, NOT on 26 January 1950!
-2. **First Chief Justice**: **Justice Kamal Kant Verma** was the First Chief Justice; took oath administered by Rajpramukh Sawai Man Singh II.
-3. **First Woman Judge of Rajasthan High Court**: **Justice Kanta Bhatnagar** was appointed in **1978** (NOT Anna Chandy or Fathima Beevi, who belong to Kerala/SC!).
-4. **P. Satyanarayan Rao Committee Impact**: Recommended the **abolition of the Jaipur Bench in 1958** and confirmed Jodhpur as the permanent Principal Seat.
-5. **Restoration Date of Jaipur Bench**: Jaipur Permanent Bench was restored on **31 January 1977** (under Presidential Order dated 8 December 1976).
-6. **Retirement Age of High Court Judges**: **62 years**, NOT 65 years! (Supreme Court judges retire at 65).
-7. **High Court Judges: Salary vs Pension Funding Source**:
-   - **Salaries and Allowances**: Charged on the **Consolidated Fund of the STATE** (Rajasthan).
-   - **Pensions**: Charged on the **Consolidated Fund of INDIA** (under Article 112(3)(d)), because High Court judges are liable to inter-state transfer!
-8. **Oath Administrator for High Court Judges**: Administered by the **GOVERNOR of the State** (Article 219), NOT by the Chief Justice of India!
-9. **Writ Jurisdiction Breadth**: Article 226 (High Court) is **wider than Article 32 (Supreme Court)** because the High Court can issue writs for fundamental rights as well as ordinary legal rights.
-10. **Sanctioned Judicial Strength**: Total sanctioned strength of Rajasthan High Court is **50 Judges** (38 Permanent + 12 Additional).
-11. **Longest vs Shortest Serving Chief Justice**:
-    - Longest: **Justice K.N. Wanchoo** (over 7 years 7 months; later 10th CJI).
-    - Shortest: **Justice Satish Kumar Mittal** (barely **41 days** in 2016).
-12. **Native Rajasthani who became Chief Justice of India**: **Justice R.M. Lodha** (native of Jodhpur) served as the 41st CJI in 2014.
-13. **New High Court Complex Location**: Situated at **Jhalamand (Jodhpur)**; inaugurated on **7 December 2019** by President Ram Nath Kovind.
-14. **District Judge Appointment Authority**: Appointed by the **GOVERNOR in consultation with the High Court** under Article 233, NOT by the High Court alone!
-15. **Capital Punishment Confirmation (Section 366 CrPC / Sec 407 BNSS)**: A Sessions Judge can award a death sentence, but it **CANNOT be executed without mandatory confirmation by at least two judges (Division Bench) of the High Court**.
-16. **First Gram Nyayalaya of Rajasthan**: Inaugurated on **27 November 2009 at Bassi (Jaipur district)** under the Gram Nyayalayas Act, 2008.
-17. **Gram Nyayalaya Presiding Officer**: Known as **Nyayadhikari**, holding the rank of Judicial Magistrate First Class (JMFC).
-18. **Lok Adalat Award Appeal Trap**: **NO APPEAL lies against an award of a Lok Adalat** in any court; it is final, non-appealable, and deemed to be a civil court decree.
-19. **Article 227 Superintendence Scope**: Article 227 confers both **administrative AND judicial superintendence** over all courts and tribunals (including Revenue Board), but excludes military tribunals/courts-martial.
-20. **Court of Record Article**: High Court is a Court of Record under **Article 215**; Supreme Court under Article 129.
-21. **RSLSA Executive Chairman**: The Executive Chairman of the State Legal Services Authority is a **serving or retired Judge of the High Court**, while the Chief Justice is the *Patron-in-Chief*.
-22. **Removal of a High Court Judge**: A High Court Judge can be removed **ONLY by the President of India** following an address passed by a special majority in both Houses of Parliament under Article 124(4) and Article 217(1)(b) (proved misbehavior or incapacity). The State Legislature has ZERO role!
-23. **Jurisdiction over Tribunals**: High Court has constitutional supervisory jurisdiction over the **Board of Revenue for Rajasthan (Ajmer)**, the State Administrative Tribunal, and Rent Control Tribunals under Article 227.
-24. **Number of High Court Benches**: Rajasthan has **ONE Principal Seat at Jodhpur and ONE Permanent Bench at Jaipur**. There are no circuit benches currently.
-25. **Legal Aid Constitutional Grounding**: Provided under **Article 39A** (Directive Principles of State Policy) inserted via the 42nd Amendment Act, 1976.
-
----
-
-## 7. Model Examination Questions & Benchmark Frameworks
-
-### 2-Marker Benchmark Responses (15 Words)
-
-#### Q1. When was the Rajasthan High Court established and who was its first Chief Justice?
-**Model Answer**:  
-Established on **29 August 1949 at Jodhpur**; its first Chief Justice was **Justice Kamal Kant Verma**.
-
-#### Q2. What was the core recommendation of the P. Satyanarayan Rao Committee regarding the judiciary?
-**Model Answer**:  
-Recommended locating the **Principal Seat at Jodhpur** and abolishing the temporary circuit benches (including the Jaipur Bench in 1958).
-
-#### Q3. Where and when was the first Gram Nyayalaya established in Rajasthan?
-**Model Answer**:  
-Established on **27 November 2009 at Bassi (Jaipur district)** under the *Gram Nyayalayas Act, 2008*.
-
-#### Q4. Differentiate between the charging of a High Court Judge's salary and pension.
-**Model Answer**:  
-Salaries are charged on the **Consolidated Fund of the State**; pensions are charged on the **Consolidated Fund of India**.
-
----
-
-### 5-Marker Benchmark Responses (50 Words)
-
-#### Q5. Compare the writ jurisdiction of the Rajasthan High Court under Article 226 with that of the Supreme Court under Article 32.
-**Model Answer**:  
-1. **Scope of Rights**: High Court under Art. 226 can issue writs for **Fundamental Rights AND ordinary legal rights** ("any other purpose"), whereas Supreme Court under Art. 32 can issue writs **strictly for Fundamental Rights**.
-2. **Discretionary Remedy**: Art. 32 is itself a Fundamental Right and cannot be refused, while Art. 226 is a discretionary remedy where HC can re-direct the petitioner to alternative statutory forums.
-3. **Territorial Limits**: SC has pan-India jurisdiction; Rajasthan HC is restricted to Rajasthan or cases where the cause of action arises within the state.
-
-#### Q6. Examine the statutory status and legal finality of awards passed by Lok Adalats in Rajasthan.
-**Model Answer**:  
-Under the *Legal Services Authorities Act, 1987*:
-1. **Civil Court Decree**: An award passed by a Lok Adalat is legally deemed to be a **Decree of a Civil Court** with executable force.
-2. **Absolute Finality**: The award is based on mutual compromise; therefore, **no appeal lies against a Lok Adalat award** to any court.
-3. **Benefits**: Entire court fees deposited are refunded, disputes are resolved without adversarial delays, and cases are disposed of permanently without further litigation.
-
----
-
-### 10-Marker Analytical Essay (100 Words / 200 Words)
-
-#### Q7. Critically evaluate the institutional evolution, territorial distribution, and supervisory role of the Rajasthan High Court under Article 227 of the Constitution. Analyze the systemic challenges of case pendency and recommend modernization reforms.
-
-**Model Answer Architecture**:
-
-```text
-                           RAJASTHAN HIGH COURT EVALUATION MATRIX
-                                             │
-         ┌──────────────────┬────────────────┼────────────────┬──────────────────┐
-         ▼                  ▼                ▼                ▼                  ▼
-1. INSTITUTIONAL GENESIS 2. ARTICLE 227 POWERS   3. PENDENCY CRISIS 4. CAUSATIVE FACTORS 5. REFORM ROADMAP
-   • Ordinance 1949        • Admin + Judicial      • >6 lakh cases    • Vacant benches      • e-Courts Phase III
-   • Rao Committee 1958      superintendence       • Appeals delay    • Infrastructure      • Paperless courts
-   • Jaipur Bench 1977     • Revenue Board &       • Pre-trial jail     gaps                • Mandatory pre-
-   • 50 Sanctioned judges    Tribunal oversight      congestion       • Frivolous PILs        litigation ADR
-```
-
-1. **Institutional Evolution & Territorial Architecture**:
-   - Inaugurated on **29 August 1949 at Jodhpur** with Justice Kamal Kant Verma as 1st Chief Justice. Following the **P. Satyanarayan Rao Committee (1958)** report, the court was centralized at Jodhpur.
-   - The **Jaipur Permanent Bench was restored on 31 January 1977**, dividing jurisdiction logically: Jodhpur handles 21 western/southern districts, and Jaipur handles 29 eastern/central districts. The sanctioned strength stands at **50 Judges**.
-
-2. **Supervisory Role under Article 227**:
-   - Confers extraordinary powers of **Administrative and Judicial Superintendence** over all subordinate civil, criminal, and revenue courts, including the **Board of Revenue (Ajmer)** and statutory tribunals.
-   - High Court ensures that subordinate courts remain within their jurisdictional bounds, prevent gross miscarriages of justice, and correct patent procedural errors, acting as the sentinel of the rule of law.
-
-3. **Systemic Challenges: The Crisis of Case Pendency**:
-   - **Astronomical Backlog**: Over **6 lakh cases** remain pending across the High Court and subordinate judiciary in Rajasthan, with tens of thousands of undertrial prisoners languishing in jails.
-   - **Judicial Vacancies**: Frequent vacancies in the sanctioned strength of 50 judges (often operating with 30–35 judges) throttle court output.
-   - **Infrastructure & Litigious State**: Inadequate subordinate court complexes and rampant government litigation (where departments routinely appeal adverse orders) clog dockets.
-
-4. **Modernization Reforms & Forward Path**:
-   - **e-Courts & Paperless Digitization**: Accelerate e-filing, virtual hybrid hearings, and digital courtrooms (successfully piloted in Commercial Courts).
-   - **Expansion of Fast Track & Commercial Benches**: Establishing specialized tribunals for land acquisition and service matters to relieve High Court dockets.
-   - **Strengthening ADR & Gram Nyayalayas**: Reinvigorating the **Gram Nyayalaya network** (pioneered at Bassi in 2009) to divert minor agrarian disputes from civil courts, while making pre-litigation mediation mandatory for commercial and matrimonial conflicts under the RSLSA.
-
----
-
-[Chapter 25 Complete ➔ Next: Rapid Revision Matrix 25: State Judicial Architecture — Rajasthan High Court & Subordinate Courts]
+**Terminology warning:** a High Court bench is not a separate High Court. Rajasthan has one High Court with its principal seat at Jodhpur and a permanent bench at Jaipur. The Supreme Court’s official jurisdiction page uses “Principal Seat: Jodhpur; Bench: Jaipur.”
+
+## 2. Constitutional framework
+
+Articles **214–231** primarily concern High Courts. Articles **233–237** concern subordinate courts. Article 232 has been repealed.
+
+| Article | Core subject | Exam-ready clarification |
+|---|---|---|
+| 214 | High Courts for States | Read with Article 231, which permits a common High Court for two or more States/UTs. |
+| 215 | High Courts as courts of record | Includes authority to punish for contempt of itself. |
+| 216 | Constitution of High Courts | Chief Justice and such other judges as may be determined constitutionally. |
+| 217 | Appointment and conditions of office | President formally appoints; constitutional consultations are interpreted alongside the collegium system. Retirement age: **62**. |
+| 219 | Oath or affirmation | Before the Governor, or a person appointed by the Governor. |
+| 221 | Salaries, allowances and pensions | Judge salaries/allowances are charged on the Consolidated Fund of the State; pensions of High Court judges are charged on the Consolidated Fund of India under the constitutional provisions. |
+| 222 | Transfer of a judge | President may transfer a High Court judge after consultation with the Chief Justice of India. |
+| 223 | Acting Chief Justice | Appointment when the office of Chief Justice is vacant or the Chief Justice cannot perform duties. |
+| 224 | Additional and acting judges | Constitutional mechanism for temporary additional/acting appointments, subject to the Article. |
+| 224A | Retired judges sitting | Retired judges may sit and act in a High Court with the required consent and appointment process. |
+| 225 | Jurisdiction of existing High Courts | Preserves jurisdiction subject to the Constitution and laws. |
+| 226 | Writ jurisdiction | Writs for Fundamental Rights and “any other purpose” (other legal rights/public duties), subject to constitutional limits. |
+| 227 | Superintendence | High Court’s superintendence over courts and tribunals in its territory; not a general substitute for appeal. Armed-forces tribunals are constitutionally excluded. |
+| 228 | Transfer of constitutional cases | High Court may withdraw a subordinate-court case involving a substantial constitutional interpretation question necessary for disposal. |
+| 229 | Officers, servants and expenses | Concerns High Court staff and administration. |
+| 230 | Extension of jurisdiction to UTs | Parliament may extend a High Court’s jurisdiction to a Union Territory. |
+| 231 | Common High Court | Parliament may establish a common High Court for two or more States/UTs. |
+| 233 | District judges | Appointment, posting and promotion by the Governor in consultation with the High Court. |
+| 234 | Other judicial service | Recruitment governed by rules made by the Governor after consultation with the State Public Service Commission and High Court, as constitutionally prescribed. |
+| 235 | Control over subordinate courts | Control vested in the High Court, including posting, promotion and leave of persons in the judicial service, subject to the Constitution. |
+| 236–237 | Definitions and application | Support the operation of the subordinate-courts chapter. |
+
+### Judge appointments, tenure and removal
+
+- **Formal appointment:** the President appoints High Court judges under Article 217. The consultative wording in the Constitution must be read with the Supreme Court’s collegium jurisprudence; it is incomplete to explain appointments as a simple decision by the President after three routine consultations.
+- **Qualifications:** a person must be a citizen of India and satisfy one of Article 217’s specified experience routes: at least ten years in judicial office in India, or at least ten years as an advocate of a High Court (or two or more such courts in succession). The detailed constitutional conditions apply.
+- **Retirement:** **62 years** for a High Court judge; **65 years** for a Supreme Court judge.
+- **Removal:** a High Court judge can be removed by the President after the constitutionally required address by each House of Parliament with the special majority specified for proved misbehaviour or incapacity. The procedure is governed by Article 217 read with Article 124(4) and applicable law. A State Legislature has no independent power to remove a High Court judge.
+- **Oath:** Article 219 provides for the oath before the Governor or a person appointed by the Governor.
+- **Transfer:** Article 222 places the formal transfer power with the President after consultation with the Chief Justice of India.
+
+## 3. Rajasthan High Court: origin and institutional development
+
+### Key milestones
+
+| Date / period | Event | Reliability note |
+|---|---|---|
+| 25 August 1949 | Rajasthan High Court Ordinance, 1949 was promulgated by Rajpramukh Sawai Man Singh II. | Historical date commonly recorded in Rajasthan High Court material. |
+| **29 August 1949** | Rajasthan High Court inaugurated at Jodhpur. Justice **Kamal Kant Verma** became its first Chief Justice. | Core date for examination revision. |
+| 1957–58 period | P. Satyanarayan Rao Committee considered the location of the State capital and High Court. It recommended Jaipur as capital and Jodhpur as the High Court’s principal seat. | Avoid turning this into an oversimplified claim that a single committee “abolished all benches” unless the relevant order is cited. |
+| **8 December 1976** | Presidential order relating to the Jaipur Bench was issued under the States Reorganisation Act framework. | Date of order, not the same as commencement of sittings. |
+| **31 January 1977** | Permanent Bench at Jaipur began functioning. | Standard historical milestone. |
+| **7 December 2019** | New Jhalamand campus at Jodhpur was inaugurated by President Ram Nath Kovind in the presence of Chief Justice of India S. A. Bobde. | Distinguish inauguration of the new complex from the Court’s founding in 1949. |
+
+The court developed from the judicial institutions of the integrated princely-state units. The High Court’s official history page is the preferred check for institutional chronology; details such as the full initial circuit arrangement should not be memorised from unsupported secondary lists.
+
+### Current structure and leadership — snapshot dated 17 October 2026
+
+- **Principal seat:** Jodhpur.
+- **Permanent bench:** Jaipur.
+- **Chief Justice:** **Justice Sanjay Kumar Agrawal**, whose appointment as Chief Justice of the Rajasthan High Court appears in the Department of Justice’s appointment orders dated **5 September 2026**. RSLSA’s page, updated 15 October 2026, also lists him as Chief Justice and Patron-in-Chief.
+- **Sanctioned strength:** **50 judges**—38 permanent and 12 additional—according to the Department of Justice’s published strength statement. Sanctioned strength is not the same as the number of judges actually working on a given date; vacancies and appointments change the working strength.
+- **Current district boundaries:** Do not use the old 50-district administrative map as if it were current. The creation and later reversal of districts in Rajasthan makes copied “21 districts at Jodhpur / 29 at Jaipur” tables unsafe unless tied to a current High Court order defining jurisdiction. For core RAS revision, memorise the seat/bench arrangement and verify district-wise allocations through current official orders.
+
+### Selected judicial landmarks
+
+A partial table is safer than claiming an incomplete roster is “exhaustive.”
+
+| Landmark | Exam point |
+|---|---|
+| Justice Kamal Kant Verma | First Chief Justice of Rajasthan High Court. |
+| Justice K. N. Wanchoo | Served as Chief Justice of Rajasthan High Court and later became the 10th Chief Justice of India. Exact tenure comparisons should be checked against the official former-Chief-Justices register. |
+| Justice Kanta Bhatnagar | Commonly cited as the first woman judge of Rajasthan High Court; verify appointment-year details against official biographies before using the year as a high-stakes answer. |
+| Justice R. M. Lodha | Former judge associated with Rajasthan High Court; later became the 41st Chief Justice of India. Do not infer that every CJI listed on a “judges elevated” page held the Rajasthan High Court Chief Justice post. |
+| Justice Sanjay Kumar Agrawal | Chief Justice as of 17 October 2026, according to the Department of Justice appointment order and current RSLSA listing. |
+
+## 4. Jurisdiction and powers of the High Court
+
+### A. Article 226 compared with Article 32
+
+| Dimension | Supreme Court — Article 32 | High Court — Article 226 |
+|---|---|---|
+| Purpose | Remedy for enforcement of Fundamental Rights. | Fundamental Rights **and other legal rights/public duties** within the constitutional scope. |
+| Nature | Article 32 is itself a Fundamental Right. | Constitutional remedy, generally discretionary. |
+| Territorial connection | Supreme Court’s national constitutional jurisdiction. | Article 226(1) and (2) govern territorial reach; a cause of action arising wholly or partly within the High Court’s territory can be material even where the authority is elsewhere. |
+| Alternative remedy | Not an absolute jurisdictional bar, although constitutional doctrine applies. | An effective alternative remedy is an important discretionary consideration, not an inflexible rule that eliminates jurisdiction. |
+
+### B. The five traditional writs
+
+1. **Habeas Corpus (बंदी प्रत्यक्षीकरण):** requires production of a detained person and tests the legality of detention.
+2. **Mandamus (परमादेश):** directs a public authority to perform a public/legal duty; it does not ordinarily direct performance of a purely private obligation.
+3. **Prohibition (प्रतिषेध):** restrains a subordinate court or tribunal from continuing beyond its lawful jurisdiction, generally before final disposal.
+4. **Certiorari (उत्प्रेषण):** quashes an order of a lower court, tribunal or authority where the legal grounds for intervention exist, including jurisdictional error or breach of natural justice.
+5. **Quo Warranto (अधिकार पृच्छा):** tests the legal authority by which a person holds a public office.
+
+### C. Appellate, supervisory and original functions
+
+- **Appellate jurisdiction:** civil and criminal appeals as authorised by the applicable procedural statutes. It is inaccurate to summarise the whole jurisdiction as only appeals from sentences of seven years or more.
+- **Second civil appeals:** Section 100 of the Code of Civil Procedure generally requires a substantial question of law; a second appeal is not a routine re-hearing of facts.
+- **Criminal appeals:** under the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), Section 415 sets out appeal routes from convictions. One specified route to the High Court concerns a sentence of imprisonment **exceeding seven years**; it is not a universal description of all criminal appeals.
+- **Death sentence reference:** BNSS Section 407 requires a Court of Session’s death sentence to be submitted to the High Court for confirmation. Sections 409–410 deal with the High Court’s powers and signing of the confirmation/new sentence. A death sentence cannot be executed without High Court confirmation; where the High Court consists of two or more judges, the statutory rule requires the confirmation/new sentence to be signed by at least two judges.
+- **Article 227:** provides administrative and judicial superintendence over courts and tribunals within the High Court’s territorial jurisdiction, subject to constitutional/statutory boundaries. It is supervisory, not an ordinary appellate jurisdiction.
+- **Article 228:** permits withdrawal of a subordinate-court case where a substantial question of constitutional interpretation is involved and is necessary for disposal.
+
+> **Transition in criminal statutes:** the Bharatiya Nagarik Suraksha Sanhita, 2023, Bharatiya Nyaya Sanhita, 2023 and Bharatiya Sakshya Adhiniyam, 2023 generally came into force on **1 July 2024**, subject to the commencement notifications and any case-specific transition rules. Use BNSS numbering for current procedure questions; give old CrPC section numbers only where explaining the historical comparison or a savings/transition issue.
+
+## 5. Subordinate judiciary in Rajasthan
+
+### Constitutional foundations
+
+- **Article 233:** appointment, posting and promotion of district judges by the Governor in consultation with the High Court. For direct recruitment from the Bar, the constitutional minimum of seven years as an advocate/pleader applies along with the applicable rules and Supreme Court interpretation.
+- **Article 234:** recruitment of persons other than district judges to the judicial service under rules made by the Governor after the prescribed consultations with the State Public Service Commission and High Court.
+- **Article 235:** control over district courts and subordinate courts rests with the High Court, subject to the Constitution.
+
+### Simplified hierarchy
+
+| Civil side (simplified) | Criminal side (simplified) |
+|---|---|
+| District Judge / Additional District Judge | Sessions Judge / Additional Sessions Judge |
+| Senior Civil Judge | Chief Judicial Magistrate / Additional CJM |
+| Civil Judge (Junior Division) | Judicial Magistrate First Class and other magistrates as provided by law |
+
+This is a revision diagram, not a full statement of every appellate, administrative or statutory relationship. Civil and criminal court designations are not perfectly interchangeable one-to-one.
+
+**Recruitment trap:** Rajasthan Judicial Service (RJS) is commonly used for the Civil Judge cadre; direct recruitment to the District Judge cadre is a distinct Higher Judicial Service process under the applicable Rajasthan rules. Do not describe District Judge recruitment simply as the RJS examination.
+
+### Specialised courts and forums
+
+- **Family Courts:** established under the Family Courts Act, 1984 for specified matrimonial/family disputes, with an emphasis on settlement where appropriate.
+- **POCSO Special Courts:** courts designated under the Protection of Children from Sexual Offences Act, 2012; do not assume that every district has an identical number or configuration without checking the current notification.
+- **Commercial Courts:** constituted under the Commercial Courts Act, 2015, as amended. The statutory specified-value threshold is **not less than ₹3 lakh**, subject to the Act and applicable notifications; the original chapter’s “> ₹3 lakh” shorthand should not replace the statutory wording in legal contexts.
+- **Motor Accident Claims Tribunals:** adjudicate statutory motor-accident compensation claims.
+
+## 6. Legal aid, Lok Adalats and Gram Nyayalayas
+
+### A. Rajasthan State Legal Services Authority (RSLSA)
+
+The Legal Services Authorities Act, 1987 provides the national statutory framework. RSLSA came into existence in Rajasthan on **7 April 1998** by State notification. Its current website identifies the Chief Justice of the Rajasthan High Court as **Patron-in-Chief** and a High Court judge as **Executive Chairman**. As of the official listing updated 15 October 2026, Justice Sanjay K. Agrawal is Patron-in-Chief and Justice Vinit Kumar Mathur is Executive Chairman.
+
+Article **39A** of the Constitution (Directive Principles, added by the 42nd Amendment) is a key constitutional basis for equal justice and free legal aid. Statutory eligibility for legal services is governed by the Legal Services Authorities Act and relevant rules; Article 39A is not, by itself, a standalone application form or complete eligibility test.
+
+### B. Regular Lok Adalat versus Permanent Lok Adalat
+
+| Feature | Regular Lok Adalat | Permanent Lok Adalat (PLA) |
+|---|---|---|
+| Main legal basis | Legal Services Authorities Act, 1987, Sections 19–21 | Sections 22A–22E of the 1987 Act |
+| Timing | Pending cases and eligible pre-litigation disputes | Pre-litigation disputes relating to specified public utility services |
+| Settlement / decision | Requires compromise or settlement; it cannot decide the dispute on merits merely because settlement failed. | Must attempt conciliation first; if settlement fails, it may decide the dispute on merits within its statutory jurisdiction, except matters relating to offences. |
+| Award | Deemed decree of a civil court; final and binding; no ordinary appeal lies. | Final and binding under Section 22E, subject to the Act and constitutional judicial review principles. |
+| Monetary jurisdiction | No single general ceiling of the type stated for PLAs; special legal/subject limits may apply. | RSLSA’s current page states jurisdiction up to **₹1 crore** in Rajasthan. Confirm the current notification before using this amount in a future exam. |
+
+**Important correction:** “No appeal lies” does not mean “no judicial review of any kind.” A regular Lok Adalat award is based on compromise; a challenge may be considered exceptionally under constitutional jurisdiction where recognised legal grounds are made out. Do not teach “only fraud under Article 226” as an exhaustive rule. Ordinary Lok Adalats and Permanent Lok Adalats are different bodies with different powers.
+
+National Lok Adalats are organised periodically under the NALSA/State Legal Services Authority framework. “Quarterly” is a common scheduling description, not a statutory constitutional rule that should be memorised without checking the current calendar.
+
+### C. Gram Nyayalayas
+
+The Gram Nyayalayas Act, 2008 aims to improve access to justice in rural areas. A Gram Nyayalaya is presided over by a **Nyayadhikari**, appointed under the Act. The Act provides for mobile courts and for specified civil and criminal jurisdiction, with appeals governed by its provisions. It does **not** mean that every Panchayat Samiti automatically has an operational Gram Nyayalaya; actual establishment depends on State notification and implementation.
+
+The source chapter identifies **Bassi** as Rajasthan’s first Gram Nyayalaya, inaugurated on **27 November 2009**. Retain this as a commonly cited Rajasthan-specific exam fact, but verify the original State notification or official judicial archive if exact archival provenance is required.
+
+**Procedure/evidence trap:** Section 30 of the Gram Nyayalayas Act sets out a special procedure guided by natural justice and historically refers to the Indian Evidence Act, 1872. That Act was replaced from 1 July 2024 by the Bharatiya Sakshya Adhiniyam, 2023, subject to savings and transition provisions. For current-law professional work, check the current statutory text and adaptations; for an examination, follow the wording and context of the syllabus/question.
+
+## 7. Court pendency: use dated snapshots, not permanent “current” claims
+
+The official Rajasthan High Court website displayed the following pendency snapshot on **2 October 2026**:
+
+| Case category | Jodhpur | Jaipur | Combined |
+|---|---:|---:|---:|
+| Civil cases | 66,157 | 98,293 | 164,450 |
+| Criminal cases | 70,419 | 116,387 | 186,806 |
+| Writ petitions | 155,947 | 175,743 | 331,690 |
+| **High Court total** | **292,523** | **390,423** | **682,946** |
+
+These figures are a dated High Court snapshot, not a count of all pending cases in Rajasthan’s High Court and subordinate judiciary together. For policy answers, explain structural causes carefully—vacancies, case inflow, adjournments, government litigation, procedural complexity and infrastructure—rather than assigning a single unverified cause.
+
+Potential reforms include timely filling of vacancies, improving court infrastructure, case-management practices, quality e-filing and digitisation, accessible legal aid, mediation where appropriate, and strengthening lawful ADR. ADR should not be described as compulsory for all matrimonial, commercial or other disputes unless a particular statute or rule makes it so.
+
+## 8. Twenty exam traps to remember
+
+1. **Established:** Rajasthan High Court was inaugurated on **29 August 1949** at Jodhpur.
+2. **First Chief Justice:** Justice **Kamal Kant Verma**.
+3. **Structure:** one Rajasthan High Court; principal seat Jodhpur, permanent bench Jaipur.
+4. **Current Chief Justice snapshot (17 Oct 2026):** Justice **Sanjay Kumar Agrawal**; appointment order dated 5 Sep 2026.
+5. **Sanctioned strength:** 50 judges (38 permanent + 12 additional in the published strength statement); sanctioned strength is not working strength.
+6. **High Court judge retirement age:** 62 years; Supreme Court judge: 65 years.
+7. **Oath:** High Court judge takes oath before Governor or a person appointed by the Governor (Article 219).
+8. **Writs:** Article 226 reaches Fundamental Rights and other legal rights/public duties; Article 32 is specifically for Fundamental Rights.
+9. **Article 227:** supervisory, not a substitute for a routine appeal.
+10. **District Judge appointment:** Governor in consultation with the High Court (Article 233).
+11. **Other judicial service:** Article 234 and applicable recruitment rules; do not conflate RJS civil-judge recruitment with direct recruitment to the District Judge cadre.
+12. **Death sentence:** BNSS Section 407 requires submission to High Court for confirmation; Section 410 deals with signing by two judges where applicable.
+13. **Seven-year appeal shorthand:** where BNSS Section 415 specifies imprisonment **exceeding seven years**, do not rewrite it as “seven years or more” or as a full description of every appeal.
+14. **Regular Lok Adalat:** settlement/compromise forum; cannot impose an adjudicated decision merely because settlement failed.
+15. **Permanent Lok Adalat:** public-utility pre-litigation forum; may decide on merits after failed conciliation within statutory bounds.
+16. **Lok Adalat award:** final and binding; no ordinary appeal, but do not claim absolute immunity from constitutional review.
+17. **PLA limit in Rajasthan:** RSLSA presently states ₹1 crore; verify the latest notification before the exam.
+18. **Gram Nyayalaya:** mobile/rural access court under the 2008 Act; not automatically operational at every block.
+19. **Current criminal procedure:** BNSS has applied generally since 1 July 2024, subject to savings/transitional rules; use old CrPC references with care.
+20. **Pendency:** the High Court’s 2 October 2026 snapshot was 682,946 cases in the High Court alone, not a total for the whole State judiciary.
+
+## 9. Model examination questions
+
+### 2-marker answers
+
+**Q1. When was the Rajasthan High Court established and who was its first Chief Justice?**  
+It was inaugurated at Jodhpur on **29 August 1949**; its first Chief Justice was **Justice Kamal Kant Verma**.
+
+**Q2. State the difference between Articles 226 and 32.**  
+Article 226 enables High Courts to issue writs for Fundamental Rights and other legal rights/public duties within its scope; Article 32 is for enforcement of Fundamental Rights.
+
+**Q3. Who appoints District Judges?**  
+The Governor appoints, posts and promotes District Judges in consultation with the High Court under Article 233, subject to applicable rules.
+
+**Q4. What happens when a Sessions Court imposes a death sentence?**  
+Under BNSS Section 407, proceedings are submitted to the High Court; the sentence cannot be executed without confirmation.
+
+### 5-marker answer framework
+
+**Q5. Differentiate Regular Lok Adalats and Permanent Lok Adalats.**
+
+1. Both arise under the Legal Services Authorities Act, 1987, but their functions differ.
+2. A Regular Lok Adalat settles eligible disputes by compromise; it cannot decide merits where no settlement is reached.
+3. A Permanent Lok Adalat is a pre-litigation forum for specified public utility services.
+4. A PLA first attempts conciliation and may decide the dispute on merits if conciliation fails, within its statutory limits.
+5. Awards under the relevant statutory provisions are final and binding and are not subject to an ordinary appeal; exceptional constitutional review should not be ruled out categorically.
+
+### 10-marker essay structure
+
+**Q6. Discuss the role of the Rajasthan High Court in protecting rights and supervising the subordinate judiciary.**
+
+- **Constitutional foundation:** Articles 214–231; court of record under Article 215.
+- **Rights protection:** Article 226 permits writs for Fundamental Rights and other legal rights/public duties.
+- **Appellate function:** civil and criminal appeals under applicable statutes, including current BNSS provisions.
+- **Supervision:** Article 227; institutional control over subordinate courts under Article 235.
+- **Access to justice:** legal aid via RSLSA, Lok Adalats, mediation and Gram Nyayalayas where established.
+- **Challenges:** case inflow, pendency, vacancies, complexity, access and infrastructure; describe them with dated evidence.
+- **Way forward:** timely appointments, better case management, digital processes, proportionate use of ADR, legal aid and rural access to courts.
+
+## 10. Source register and verification policy
+
+Use primary sources first. The snapshot below was checked on **17 October 2026** where the page displayed a recent update; pages can change after this date.
+
+1. **Rajasthan High Court — official website, history, judges and pendency**: https://hcraj.nic.in/ and https://hcraj.nic.in/hcraj/index.php/Allfiles/latestupdates/adminsetup.php
+2. **Rajasthan High Court — history page**: https://hcraj.nic.in/hcraj/index.php/Allfiles/latestupdates/history.php
+3. **Department of Justice — appointment orders**, including the order dated 5 September 2026 for Justice Sanjay Kumar Agrawal: https://www.doj.gov.in/whats-new
+4. **Department of Justice — published High Court sanctioned/working strength statement** (statement dated 1 January 2022; recheck if updated): https://www.doj.gov.in/static/uploads/2025/11/d63b740a668dfed1d4c8bb0f6d3686f4.pdf
+5. **Supreme Court of India — jurisdiction/High Courts**: https://www.sci.gov.in/jurisdiction/
+6. **India Code — Bharatiya Nagarik Suraksha Sanhita, 2023**: https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf
+7. **India Code — Gram Nyayalayas Act, 2008**: https://www.indiacode.nic.in/handle/123456789/12838
+8. **India Code — Legal Services Authorities Act, 1987**: https://www.indiacode.nic.in/handle/123456789/17040
+9. **Rajasthan State Legal Services Authority — Lok Adalat / Permanent Lok Adalat**: https://rajasthan.nalsa.gov.in/lok-adalat/ and https://rajasthan.nalsa.gov.in/permanent-lok-adalat/
+10. **Constitution of India**: https://legislative.gov.in/constitution-of-india/
+
+### Final revision rule
+
+Separate **constitutional text**, **binding judicial interpretation**, **statutory procedure**, **historical convention** and **current administrative statistics**. Date-stamp changing facts (Chief Justice, working strength, pendency, PLA pecuniary limit and district allocations). Do not use “only,” “first,” “largest,” or “exhaustive” unless a reliable and appropriately dated source supports the superlative.

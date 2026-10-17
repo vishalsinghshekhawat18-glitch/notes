@@ -17,6 +17,37 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v069 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 25 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 25)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_25_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_25_STATE_JUDICIARY_HIGH_COURT_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/26_CHAPTER_25_STATE_JUDICIARY_HIGH_COURT.md` and Rapid Revision Matrix 25 (`007/revision/rajasthan/25_REV_CHAPTER_25_STATE_JUDICIARY_HIGH_COURT.md`), updating the Chief Justice incumbent, replacing obsolete fixed-district bench counts with current administrative allocation orders, modernizing criminal appellate procedure to BNSS 2023, differentiating Regular Lok Adalats from Permanent Lok Adalats (PLAs), and updating High Court pendency figures.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Chief Justice & Current Bench Coordinates**:
+    - Updated incumbent Chief Justice to **Justice Sanjay Kumar Agrawal** (appointed by Presidential order on **5 September 2026**; DoJ register), superseding Justice M.M. Shrivastava.
+    - Replaced obsolete 21/29 fixed district allocations with the legal principle that territorial jurisdiction between Jodhpur Principal Seat and Jaipur Bench is governed by applicable High Court administrative orders.
+    - Sanctioned judge strength verified at **50 Judges** (38 Permanent + 12 Additional) per Department of Justice baseline.
+  - **High Court Inception & Satyanarayan Rao Committee**:
+    - Inaugurated on **29 August 1949 at Jodhpur** by Rajpramukh Maharaja Sawai Man Singh II; first Chief Justice: **Justice Kamal Kant Verma**.
+    - Clarified that the P. Satyanarayan Rao Committee (1958) recommended Jodhpur as the sole High Court seat, which led to the **abolition of the Jaipur Bench in 1958**. The Jaipur Bench was restored by Presidential Order, becoming operational on **31 January 1977**.
+  - **Constitutional Doctrines & Financial Rules**:
+    - Writ Jurisdiction (Art. 226) clarified as substantively broader than Art. 32 (enforces Fundamental Rights AND non-fundamental legal rights and statutory duties).
+    - Superintendence (Art. 227) verified over all subordinate courts and tribunals (e.g. Board of Revenue), with the **express constitutional exclusion of armed forces courts/tribunals** (Art. 227(4)).
+    - Financial allocation rule strictly maintained: **Salaries/allowances charged on the Consolidated Fund of the State**; **Pensions charged on the Consolidated Fund of India** (Art. 112(3)(d)(iii)).
+  - **BNSS 2023 Criminal Procedure Modernization**:
+    - Replaced CrPC sections with **Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023**:
+      - **Death Sentence Confirmation**: Under **Section 407 BNSS** (formerly Sec 366 CrPC), the Sessions Court must submit the death sentence to the High Court; under **Section 410 BNSS**, confirmation must be signed by at least **two High Court judges**.
+      - **Criminal Appeals**: Under **Section 415 BNSS**, appeals from convictions lie to the High Court where a sentence of imprisonment **exceeding seven years** is passed (correcting the informal phrase "7 years or more").
+  - **ADR Mechanisms & Lok Adalat Jurisprudence**:
+    - Lok Adalat awards (under Legal Services Authorities Act, 1987) are deemed civil court decrees; **no ordinary appeal lies** to any court. Extraordinary writ review under Arts. 226/227 remains available on limited grounds (fraud, lack of jurisdiction, natural justice violation).
+    - **Regular Lok Adalat vs Permanent Lok Adalat (PLA)**: Regular Lok Adalats are purely conciliatory and cannot decide disputes on merits; PLAs (Section 22B for Public Utility Services) have statutory authority to **decide disputes on merits** if conciliation fails (monetary ceiling up to **₹1 crore** per RSLSA notification).
+    - **Gram Nyayalayas**: First Gram Nyayalaya established at **Bassi (Jaipur) on 27 November 2009** under the 2008 Act, presided over by a **Nyayadhikari** (JMFC rank).
+  - **Court Data & Judicial Services**:
+    - Corrected High Court pendency: **682,946 pending cases in the High Court alone** (2 Oct 2026 official snapshot: 164,450 civil, 186,806 criminal, 331,690 writs); avoided conflating this with subordinate courts.
+    - Disentangled entry-level Civil Judge (RJS cadre) from direct recruitment of District Judges (RHJS cadre, requiring minimum 7 years advocate practice under Art. 233).
+
 ### [STAGED LOCAL] v068 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 24 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
