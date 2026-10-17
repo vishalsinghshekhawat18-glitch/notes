@@ -17,6 +17,38 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v067 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 23 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 23)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_23_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_23_MINERALS_HYDROCARBONS_ENERGY_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/24_CHAPTER_23_MINERALS_HYDROCARBONS_ENERGY.md` and Rapid Revision Matrix 23 (`007/revision/rajasthan/23_REV_CHAPTER_23_MINERALS_ENERGY.md`), eliminating conflation between mineral resources and annual production, gold ore tonnage vs refined metal errors, Rohil uranium operational status errors, outdated DMFT guidelines, stale HRRL refinery cost and status, and obsolete solar/wind capacity baselines; anchored directly to Rajasthan Mineral Policy 2024, HPCL/PIB 2026 releases, and MNRE data.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Mineral Basket & Fiscal Realities (Mineral Policy 2024)**:
+    - Updated production basket to **22 major minerals and 36 minor minerals produced** (58 combined produced minerals, superseding older "81 identified / 57 exploited" survey counts).
+    - Mineral revenue received by the state strictly quantified at **₹7,491 crore** (FY 2023–24, including ₹3,945 crore from major minerals), with mining contributing **3.4% to GSDP**. Disentangled this from MCDR mineral production value (**₹21,922 crore**, ~15.5% of India's total).
+    - Mining footprint documented at **~0.68% of geographical area**.
+  - **Sole Producer Minerals & Epistemic Boundaries**:
+    - Grounded sole-producer status in the Rajasthan Mineral Policy 2024: **lead, zinc, wollastonite, selenite, calcite, and gypsum**.
+    - Explicitly separated geological *resource shares* (in-situ estimates) from annual *production shares* and refined metal output. Purged unverified 100% monopoly claims for Jasper.
+  - **Metallic Assets & Unit Precision**:
+    - Rampura Agucha (Bhilwara) and Zawar (Udaipur ancient smelting) contextualized without unverified "world's richest" superlatives. Chanderiya and Debari smelters documented.
+    - **Gold Ore vs Refined Metal**: Clarified that Bhukia–Jagpura–Delwara (Banswara) holds **~105.81 million tonnes of gold-bearing ore resources** at low grades (grams per tonne), NOT refined metallic gold.
+    - **Uranium at Rohil (Sikar)**: Grounded in 2026 official Department of Atomic Energy replies: UCIL is the prospective lessee with the mine-and-mill undergoing statutory environmental clearances (NOT an active commercial mine).
+  - **Dimensional Stones & Regulatory Policies**:
+    - Makrana Marble designated an **IUGS Global Heritage Stone Resource (2019)** (clarified as distinct from UNESCO World Heritage properties). Kishangarh identified as a premier processing/trading hub.
+    - **DMFT / PMKKKY Guidelines Updated**: Documented the **January 2024 revised PMKKKY guidelines requiring at least 70% expenditure on High-Priority Sectors** (purging old 60:40 formula). Royalty contribution rates stated: 10% for leases on/after 12 Jan 2015; 30% for prior leases.
+    - Rajasthan M-Sand Policy 2024 referenced; purged unsupported blanket 25% mandatory procurement rules.
+  - **Hydrocarbons & Pachpadra Refinery (HRRL)**:
+    - Four petroliferous basins structured: Barmer-Sanchore, Jaisalmer, Bikaner-Nagaur, Vindhyan. Mangala field discovery (2004) distinguished from commercial production launch (**29 August 2009**).
+    - HRRL parameters verified: **9 MMTPA** integrated complex at Pachpadra (**Balotra district**); equity strictly **74% HPCL : 26% Government of Rajasthan**.
+    - Revised project cost approved at **₹79,459 crore** (April 2026 Cabinet/PIB approval) with commercial commissioning in 2026.
+  - **Renewable Energy Infrastructure (30 Sept 2026 Baseline)**:
+    - Installed capacity updated to **45,121.44 MW Solar + 5,200+ MW Wind ➔ 51,595.50 MW Total Renewable Capacity** (leading the nation).
+    - State renewable policy target updated to **125 GW by FY 2029–30** (purging obsolete 30 GW / 90 GW targets). Assessed solar potential noted up to 829 GW under updated spatial modeling (contextualizing older 142 GW NISE figure).
+    - NIWE wind potential documented with mandatory hub-heights: **127.75 GW at 120 m** and **284.2 GW at 150 m**. Amar Sagar (10 April 1999) verified as Rajasthan's first commercial wind project.
+
 ### [STAGED LOCAL] v066 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 22 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
