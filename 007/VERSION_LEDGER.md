@@ -13,9 +13,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
-### [STAGED LOCAL] v080 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 36 Benchmark Audit Harmonization
+### [RELEASED v080] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 36 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `f39b3c5`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 36)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_36_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_36_SPORTS_YOGA_TRADITIONAL_GAMES_REVISED.md`), and verification log (`CHAPTER_36_VERIFICATION_LOG.md`).
@@ -46,9 +46,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - **Patanjali's Ashtanga Yoga**: 8 Limbs divided into **Bahiranga (External - 5 limbs)**: Yama (Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha), Niyama (Saucha, Santosha, Tapas, Svadhyaya, Ishvara Pranidhana), Asana, Pranayama (Puraka, Kumbhaka, Rechaka), Pratyahara (sensory bridge); and **Antaranga (Internal - 3 limbs)**: Dharana, Dhyana, Samadhi.
     - **Hatha Yoga Shatkarmas**: Six purification kriyas (*Hatha Yoga Pradipika*): Neti, Dhauti, Nauli, Basti, Kapalabhati, Trataka. Established that Kapalabhati is classified as a Shatkarma in classical Hatha Yoga texts, and explicitly differentiated Shatkarma from Patanjali's eight limbs with appropriate physical safety cautions.
 
-### [STAGED LOCAL] v079 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 35 Benchmark Audit Harmonization
+### [RELEASED v079] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 35 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `fc2d801`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 35)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_35_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_35_SOCIOLOGY_OF_RAJASTHAN_REVISED.md`), and verification log (`CHAPTER_35_VERIFICATION_LOG.md`).
@@ -74,9 +74,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - **Mrityu Bhoj Prohibition**: **Rajasthan Prevention of Mrityu Bhoj Act, 1960** explicitly prohibits holding/giving mortuary feasts (*Nukta*, *Mosar*, *Chahallum*).
     - **Witch-Hunting**: **Rajasthan Prevention of Witch-Hunting Act, 2015** provides special penal remedies against torture, harassment, and *Dakin* accusations.
 
-### [STAGED LOCAL] v078 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 34 Benchmark Audit Harmonization
+### [RELEASED v078] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 34 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `14e219b`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 34)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_34_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_34_SOCIAL_WELFARE_HEALTH_EDUCATION_POVERTY_REVISED.md`), and verification log (`CHAPTER_34_VERIFICATION_LOG.md`).
@@ -103,9 +103,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - **Census 2011 Literacy**: Total **66.11%** (Male 79.19%, Female **52.12%** — 2nd lowest in India after Bihar; rural female **45.80%**; gender gap **27.07%**). Extreme districts: Highest Total & Female: **Kota (76.56% & 65.88%)**; Highest Male: **Jhunjhunu (86.90%)**; Lowest Total & Female: **Jalore (54.86% & 38.47%)**; Lowest Male: **Pratapgarh (69.50%)**. All tied to old 33-district map.
     - **NFHS-5 (2019–21)**: Anaemia in women 15–49: **54.4%**; children 6–59 months: **71.5%**.
 
-### [STAGED LOCAL] v077 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 33 Benchmark Audit Harmonization
+### [RELEASED v077] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 33 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `157c087`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 33)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_33_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_33_INFRASTRUCTURE_ENERGY_TRANSPORT_EAP_REVISED.md`), and verification log (`CHAPTER_33_VERIFICATION_LOG.md`).
@@ -129,9 +129,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - **ADB EAPs**: RUIDP (urban water/sewerage since 1998); RSTDSP (14+ secondary towns, loan closing 31 May 2028); RSHIP (Rajasthan State Highway Investment Program, Tranche 2 ~754 km, Tranche 3 ~290 km).
     - **JICA & NDB EAPs**: JICA funds RWSLIP (Phases I & II, irrigation rehabilitation & livelihoods). NDB funds Rajasthan Water Sector Restructuring Project for the Desert Areas (IGNP canal relining & anti-seepage).
 
-### [STAGED LOCAL] v076 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 32 Benchmark Audit Harmonization
+### [RELEASED v076] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 32 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `21b180d`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 32)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_32_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_32_INDUSTRY_MSME_MINERALS_EXPORTS_REVISED.md`), and verification log (`CHAPTER_32_VERIFICATION_LOG.md`).
