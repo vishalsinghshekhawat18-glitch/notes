@@ -1,466 +1,397 @@
-# CHAPTER 35: Sociology of Rajasthan: Social Structure, Tribal Demography, Customs & Social Movements
+# CHAPTER 35: Sociology of Rajasthan — Social Structure, Tribal Demography, Customs & Social Movements
+
+> **Source and scope note.** Census figures in this chapter are from **Census 2011** unless a newer, explicitly dated source is cited. They are not estimates of today's population. Scheduled Tribe labels follow the notified constitutional list; community identities and customs are diverse and cannot be reduced to a single “tribal way of life.” The chapter distinguishes official data, historical accounts and locally reported ethnographic practices.
+
+## 35.1 Social Stratification and Village Structure in Rajasthan
+
+Rajasthan's social structure has been shaped by agrarian relations, pastoral and trading livelihoods, princely-state institutions, caste and kinship networks, regional ecology, religious traditions, and modern institutions such as elected local government, education, migration, markets and affirmative action. There is no single social model common to every district: the desert west, eastern agricultural plains, Mewar and the southern tribal belt show significant variation.
+
+### Core concepts
+
+| Concept | Meaning and use in Rajasthan sociology | Important qualification |
+|---|---|---|
+| **Caste stratification** | Social ranking and differentiated access to land, occupation, ritual status, education and political power; historically intertwined with agrarian relations. | Hierarchies have varied by locality and period. Do not present a single caste ranking as applying uniformly across Rajasthan. |
+| **Jajmani system** | An analytical term for relatively enduring, often hereditary exchanges of services between patron households and occupational/service groups, with remuneration in grain, goods, customary rights or money. | It is a scholarly model, not a uniform statewide institution. Research debates whether it was ever as fixed or exclusively non-monetary as older descriptions suggested. |
+| **Kinship and clan** | Kinship, lineage, gotra/clan affiliation and marriage rules may shape inheritance, alliances, dispute resolution and social identity. | Rules vary by community and locality. Specific prohibitions should be attributed to the group and source that documents them. |
+| **Jagirdari and thikana legacies** | Historical systems of land revenue, tribute, service and political authority under princely states influenced village power and patronage. | The historical system should not be treated as unchanged after independence. Land reforms, electoral politics, education, reservation, labour mobility and urbanisation altered social relations. |
+| **Sanskritisation / status mobility** | Sociological concepts used to analyse how groups may adopt or reinterpret practices associated with socially prestigious groups, or articulate new histories and status claims. | These are interpretive frameworks, not a universal or inevitable path for all communities. “Rajputisation” claims need historical context and may be contested. |
+| **Social change** | Monetisation, mechanisation, education, migration, state welfare, constitutional protections, media, women’s participation and local self-government have reshaped work, family, authority and identity. | Change is uneven; older and newer forms may coexist. Avoid a simple “tradition disappeared” narrative. |
+
+### Jajmani: a useful but limited model
+
+In accounts of village exchange, a landholding or patron household may be called the *jajman*, while an artisan or service provider may be described as a *kamin*, *pauni* or by a locally specific term. Services could include carpentry, blacksmithing, pottery, barbering, washing, leather work, bards or genealogical services. Payment might involve crop shares, food, gifts, customary entitlements or cash.
+
+The model can help explain the relationship between occupation, exchange and social status. However, it should **not** be memorised as a rigid contract followed by every village or caste. Scholars have questioned overly static accounts of jajmani, including the assumption that monetisation alone explains its transformation. A sound answer should mention both reciprocal exchange and the unequal power relations that could accompany it.
+
+**Exam lens:** Connect traditional institutions to land reforms, the abolition of intermediaries, wage labour, migration, Panchayati Raj, education, reservations and changing access to markets.
 
 ---
 
-## 35.1 Social Stratification & Village Structure in Rajasthan
+## 35.2 Tribal Demography and Constitutional Safeguards
 
-The sociology of Rajasthan reflects a unique confluence of ancient pastoral traditions, medieval Rajput feudal institutions, rigid caste stratifications, and resilient tribal customs. Governed for centuries by princely polities (*Rajwadas*), rural Rajasthan developed socio-economic relationships deeply anchored in the agrarian soil and traditional customary conventions.
+### Scheduled Tribe population: Census 2011 baseline
 
-```
-                    RAJASTHAN RURAL SOCIAL ARCHITECTURE
-                                     │
-      ┌──────────────────────────────┼──────────────────────────────┐
-      │                              │                              │
-TRADITIONAL STRATIFICATION     THE JAJMANI SYSTEM            FEUDAL REMNANTS
-& CASTE HEGEMONY               & RECIPROCAL SERVICE           & SANSKRITIZATION
-      │                              │                              │
-├── Dwij Higher Castes         ├── Jajman (Landowning Patron) ├── Thikana / Jagirdari Legacy
-├── Peasant Cultivators (Jats) ├── Kamin / Pauni (Artisan)   ├── Rajputization of Tribes
-└── Tribal & Artisan Guilds    └── Grain-share (*Aay*) payout └── Social Mobility & Assertion
-```
+Rajasthan recorded **9,238,534 Scheduled Tribe (ST) residents**, around **13.48%** of the state's population in Census 2011. This is an official historical baseline, not a current estimate. Rajasthan's absolute ST population was the **fourth largest among Indian states** in the 2011 Census ranking—an important correction to the original source's sixth-place claim.
 
-### The Jajmani System in Rajasthan
-- **Conceptual Definition**: A traditional hereditary socio-economic institution governing the non-monetary exchange of goods and services between landed patron families (*Jajman*) and functional artisan/service castes (*Kamin* or *Pauni*).
-- **Structure**:
-  - *Jajmans*: Typically land-controlling agrarian lineages (Rajputs, Jats, Gurjars, Bishnois).
-  - *Kamins / Paunis*: Functional service providers, including *Khati* (carpenter), *Lohar* (blacksmith), *Kumhar* (potter), *Nai* (barber), *Dhobi* (washerman), *Chamar* (leather artisan), and *Bhat / Charan* (genealogist and bard).
-  - *Remuneration*: Kamins were compensated not through cash wages, but through customary shares of harvest grains (*Aay*, *Bhāg*), cooked food on festivals, gift garments (*Khesh*, *Dhoti*) during lifecycle ceremonies (birth, marriage), and small plots of rent-free cultivable land (*Pasaita*).
-- **Transformation & Breakdown**: Post-independence land reforms (Rajasthan Land Reforms and Resumption of Jagirs Act, 1952), monetization of the rural economy, urbanization, and democratic affirmative action have largely eroded the traditional Jajmani obligations, replacing hereditary ties with contractual market wage labor.
+| Indicator | Census 2011 figure | Interpretation |
+|---|---:|---|
+| Total ST population | 9,238,534 (92.39 lakh) | 13.48% of Rajasthan's population |
+| Rural ST population | 8,693,123 (86.93 lakh) | About 94.1% of ST residents |
+| Urban ST population | 545,411 (5.45 lakh) | About 5.9% of ST residents |
+| ST sex ratio | 948 females per 1,000 males | Higher than the state's general sex ratio of 928 in Census 2011 |
+| ST child sex ratio | 921 | Census 2011 measure |
+| ST literacy rate | 52.8% | Male 67.6%; female 37.3% |
+| Largest listed ST category | Mina/Meena: 4,345,528 | About 47.0% of total ST population |
+| Second-largest listed ST grouping | Bhil and associated notified groups: 4,100,264 | About 44.4%; this is a grouped Census category |
+| Garasia (excluding Rajput Garasia) | 314,194 | About 3.4% |
+| Seharia/Sehria/Sahariya | 111,377 | About 1.2%; the notified Census category has spelling variants |
 
----
+**Source:** Ministry of Tribal Affairs / National Scheduled Tribes Finance and Development Corporation Census 2011 profile and Office of the Registrar General & Census Commissioner, India, *A-11: State Primary Census Abstract for Individual Scheduled Tribes, Rajasthan — 2011*. The underlying sources use notified administrative categories; category totals must not be casually reconfigured.
 
-## 35.2 Tribal Demography & Constitutional Safeguards in Rajasthan
+Further Census 2011 entries include Bhil Mina (105,393), Dhanka/Tadvi/Tetaria/Valvi (96,737), Damor/Damaria (91,463) and Kathodi-related listed communities (4,833). “Bhil” figures in the table above refer to a Census grouping containing several named communities, not a claim that all those communities have identical identities or practices.
 
-According to **Census 2011**, the Scheduled Tribe (ST) population of Rajasthan is **92,38,534 (92.39 Lakh)**, representing **13.48%** of the state's total population (6.85 Crore). Rajasthan ranks **6th in India** in terms of absolute Scheduled Tribe population.
+### Geography and regional distribution
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 TRIBAL DEMOGRAPHY OF RAJASTHAN (CENSUS 2011)                │
-├──────────────────────────┬──────────────────────┬───────────────────────────┤
-│ DEMOGRAPHIC METRIC       │ ABSOLUTE VALUE / %   │ SIGNIFICANCE & STANDING   │
-├──────────────────────────┼──────────────────────┼───────────────────────────┤
-│ **Total ST Population**  │ **92,38,534**        │ **13.48%** of State Pop   │
-│ **National Rank (ST)**   │ **Rank #6 in India** │ MP, MH, OD, GJ, JH lead   │
-│ **Rural ST Population**  │ **86.93 Lakh**       │ **94.10%** of STs reside  │
-│                          │                      │ in rural/forest tracts    │
-│ **Urban ST Population**  │ **5.45 Lakh**        │ **5.90%** of STs in towns │
-│ **ST Sex Ratio (State)** │ **948 females/1000** │ Higher than State general │
-│                          │                      │ sex ratio (928)           │
-│ **Highest ST Proportion**│ **Banswara (76.38%)**│ Followed by Dungarpur     │
-│ (District %)             │                      │ (70.82%), Pratapgarh (63%)│
-│ **Lowest ST Proportion** │ **Bikaner (0.33%)**  │ Followed by Nagaur (0.31%)│
-│ (District %)             │                      │                           │
-│ **Highest Absolute ST**  │ **Udaipur (15.25L)** │ Followed by Banswara      │
-│ **Lowest Absolute ST**   │ **Bikaner (7,779)**  │ High-desert non-tribal    │
-└──────────────────────────┴──────────────────────┴───────────────────────────┘
-```
+- **Meena/Mina:** A major ST community with a strong presence in eastern and central Rajasthan, including parts of Jaipur, Dausa, Karauli, Sawai Madhopur, Alwar, Tonk and adjoining regions.
+- **Bhil and related notified communities:** Prominent in southern Rajasthan, particularly the Mewar–Vagad belt, including Banswara, Dungarpur, Udaipur and adjoining areas.
+- **Garasia:** Concentrated in parts of Sirohi, Pali and southern Udaipur regions. Census classification specifically says “Garasia (excluding Rajput Garasia).”
+- **Sahariya/Seharia:** Especially associated with Baran district and the Kishanganj–Shahbad area.
+- **Damor/Damaria:** Associated particularly with southern Rajasthan, including the Dungarpur region.
+- **Kathodi and related listed communities:** Small Census population concentrated in parts of the southern tribal belt.
 
-### Tribal Sub-Plan (TSP) & Fifth Schedule Areas in Rajasthan
-Under **Article 244(1)** of the Constitution (Fifth Schedule), the Scheduled Areas in Rajasthan encompass:
-- **100% Scheduled Districts**: **Banswara, Dungarpur, and Pratapgarh**.
-- **Partially Scheduled Districts**: **Udaipur, Rajsamand, Chittorgarh, Pali, and Sirohi**.
-- Special governance mechanisms: Tribal Advisory Council (TAC), PESA Act 1996, and dedicated Tribal Area Development (TAD) Department headquartered at **Udaipur**.
+Census districts and current districts/tehsils do not always match after subsequent administrative reorganisations. When answering a question using Census 2011 data, refer to the **2011 district map and boundaries** rather than silently mixing present-day district names.
+
+### Scheduled Areas, Fifth Schedule and PESA
+
+Article **244(1)** read with the **Fifth Schedule** provides a special constitutional framework for administration of Scheduled Areas and Scheduled Tribes in specified states. Scheduled Areas are declared and redefined by Presidential Order; they are not synonymous with every area that has a high ST population.
+
+The **Scheduled Areas (State of Rajasthan) Order, 2018** covers:
+- the complete districts of **Banswara, Dungarpur and Pratapgarh**; and
+- specified areas in **Udaipur, Rajsamand, Chittorgarh, Pali and Sirohi**.
+
+The Governor's Secretariat reports **5,697 villages** within Rajasthan's Scheduled Areas. Its Census 2011 profile reports a Scheduled Area population of 6,463,353, of whom 4,557,917 (70.43%) were ST residents.
+
+**Constitutional and institutional points**
+1. **Tribes Advisory Council (TAC):** Under the Fifth Schedule, a TAC advises on matters concerning the welfare and advancement of Scheduled Tribes, as referred to it by the Governor.
+2. **PESA Act, 1996:** The Provisions of the Panchayats (Extension to Scheduled Areas) Act extends specified Panchayati Raj arrangements and powers to Scheduled Areas, with special recognition of Gram Sabha roles.
+3. **Rajasthan framework:** Rajasthan has the Panchayati Raj (Modification of Provisions in their Application to the Scheduled Areas) Act, 1999 and related Rules, 2011.
+4. **TAD Department:** Rajasthan's Tribal Area Development Department plays a key role in development planning and implementation in the tribal belt.
+
+**Avoid this trap:** Neither the Fifth Schedule nor PESA gives a blanket “sovereign” power over all local resources to every tribal community. The law provides specific institutions, procedures and powers, and its application depends on whether an area is notified and which provision is involved.
 
 ---
 
-## 35.3 Forensic Monograph: The Major Tribes of Rajasthan
+## 35.3 Major Tribal Communities: Demography, Regions and Cultural Diversity
 
-```
-                        TRIBAL HIERARCHY IN RAJASTHAN
-                                      │
-      ┌───────────────────────────────┼───────────────────────────────┐
-      │                               │                               │
-MEENA TRIBE (Rank #1)           BHIL TRIBE (Rank #2)            GARASIA TRIBE (Rank #3)
-• ~47% of State ST Pop          • ~44% of State ST Pop          • ~3% of State ST Pop
-• Eastern/Central Plain         • Southern Vagad & Mewar        • Sirohi, Pali, Udaipur
-• Highest literacy & services   • Ancient bow-men; Valour       • Unique marriage forms
-      │                               │                               │
-      ├───────────────────────────────┴───────────────────────────────┤
-      │                                                               │
-SAHARIYA TRIBE                  DAMOR & KATHODI TRIBES          NOMADIC TRIBES
-• ONLY PVTG IN RAJASTHAN        • Damor: Dungarpur (Simalwara)  • Kanjar, Sansi, Kalbelia
-• 99% in Baran (Kishanganj/Shahbad) • Kathodi: Udaipur (Kattha makers) • Gadia Lohar, Banjara
-```
+The constitutional list for Rajasthan contains **12 notified entries**, including grouped names and exclusions; see the Ministry of Tribal Affairs' state-wise list. Census grouping is administrative and does not mean that different communities within a grouped entry share one language, history or set of customs.
 
----
+### 1. Meena / Mina
 
-### 1. The Meena Tribe (मीणा जनजाति)
-- **Demographic Dominance**: The largest tribe in Rajasthan, constituting approximately **47%** of the state's total tribal population.
-- **Geographical Distribution**: Eastern and central plains—**Jaipur, Dausa, Sawai Madhopur, Karauli, Alwar, Tonk, and Kota**.
-- **Etymological Roots & Sacred Lore**:
-  - The term *Meena* is derived from the Sanskrit word *Matsya* (meaning fish).
-  - Claim mythical descent from the **Matsya Avatar** (fish incarnation) of Lord Vishnu.
-  - The sacred scripture of the Meena community is the **Meen Puran (मीन पुराण)**, authored by Jain ascetic **Muni Magan Sagar Ji**, who compiled and organized the 5,200 clans (*Gotras*) and historic genealogy of the tribe.
-- **Historic Social Divisions**:
-  1. **Zamindar Meenas (जिमींदार मीणा)**: Economically stable, landed cultivators and farmers who accepted peaceful agrarian life after Rajput dominance.
-  2. **Chowkidar Meenas (चौकीदार मीणा)**: Traditional martial guardians of princely forts, state treasuries, and villages. During British rule, they were subjected to the draconian *Criminal Tribes Act, 1871* and the *Jairam Pesha Act, 1930*, requiring mandatory daily roll-call (*Haziri*) at police stations (repealed in 1952).
-- **Social Structure & Kinship**:
-  - Exogamous clans (*Gotras* or *Padhars*); marriage within the same gotra, mother's gotra, or grandmother's gotra is strictly forbidden.
-  - Social dispute adjudication handled through the traditional **Meena Panchayat**, with the apex body known as the **Chaurasi Panchayat**.
-  - **Educational & Bureaucratic Mobility**: The Meena community has achieved the highest literacy rates, political representation, and presence in civil services (IAS, IPS, RAS) among all tribal groups in Rajasthan.
+- **Census 2011 population:** 4,345,528; the largest individual notified ST category in Rajasthan.
+- **Census literacy rate:** 61.1% overall, 76.9% male and 44.0% female. These are 2011 figures and are not current estimates.
+- **Distribution:** Eastern and central Rajasthan, including parts of Jaipur, Dausa, Karauli, Sawai Madhopur, Alwar, Tonk and adjoining areas.
+- **Social organisation:** Accounts describe the importance of kinship, clan/gotra affiliation, village networks, local leadership and community institutions. Details differ across sub-regions and cannot be reduced to one uniform rule.
+- **Historical context:** Colonial and princely-state classifications affected sections of the Mina community; later educational access, political participation, social organisations and state policy contributed to changing social position.
+- **Traditions and identity:** Fish/Matsya associations and origin narratives appear in some community traditions and historical accounts. These should be described as traditions or narratives, not treated as independently verified literal genealogy.
 
----
+**For exam answers:** Use the Census population and literacy figures as dated evidence. Avoid unsupported claims that one community universally has the “highest” political representation or civil-service presence unless a current, comparable dataset is supplied.
 
-### 2. The Bhil Tribe (भील जनजाति)
-- **Demographic Standing**: The second largest tribe in Rajasthan (~44% of ST population) and the oldest indigenous inhabitants of the Aravalli hills.
-- **Geographical Distribution**: Southern hilly tract—**Banswara, Dungarpur, Udaipur, Pratapgarh, and Salumbar**.
-- **Etymology & Martial Heritage**:
-  - Derived from the Dravidian word *Beel* or *Vil* (meaning **bow**).
-  - Renowned archers; Colonel James Tod reverently designated them as the *"Vanputra"* (Children of the Forest).
-  - Instrumental in Maharana Pratap's resistance against Mughal armies; depicted on the official **Mewar State Coat of Arms** alongside the Rajput warrior.
-- **Settlement & Housing Typology**:
-  - Village: Called a **Pal** (large village) or **Phala** (dispersed hamlets situated on hill slopes).
-  - House: Traditional hut constructed of bamboo, clay, and unbaked tiles called **Kū (कू)** or **Tāprā (टापरा)**.
-  - Village Headman: Referred to as the **Gameti (गमेती)**. The Gameti commands absolute authority in dispute settlement.
-  - Traditional Messenger / Herald: **Bolawa (बोलावा)**.
-  - Socio-religious priest / Shaman: **Bhagat (भगत)** or **Devala (देवला)**.
-- **Martial Cry & Customary Signals**:
-  - Traditional war cry: **"Fāire-Fāire!" (फाइरे-फाइरे)**, sounded during collective emergencies or external invasions, causing all village archers to assemble instantly.
-- **Unique Social Customs & Marital Traditions**:
-  1. **Dāpā Pratha (दापा प्रथा)**: Customary **bride-price** paid by the groom's family to the bride's father to compensate the loss of the daughter's economic labor in her natal home.
-  2. **Nātrā Pratha (नातरा प्रथा)**: Customary remarriage or informal cohabitation of a widow or divorced woman with another man without formal Vedic rituals. The new partner must pay *Jhagda Rashi* (compensation money) to the former husband or his family.
-  3. **Attā-Sattā (आटा-साटा)**: Reciprocal sister-exchange marriage system arranged between two families.
-  4. **Halmo (हलमों)**: Ancient tribal tradition of **collective mutual self-help**. When a villager needs to till land, harvest crops, or construct a house, the entire village community works together without demanding wages; the host merely feeds them.
-  5. **Dhamal / हाथीमना (Hathimana)**: Dance performed during marriage ceremonies while holding a drawn sword on knees.
-- **Sacred Deities & Pilgrimages**:
-  - Deep reverence for **Bhagwan Rishabhdeo Ji (Kala Ji / Kesariyaji)** at Dhulev (Udaipur). Bhils never speak a lie after consuming the saffron water (*Kesariya*) of Lord Rishabhdeo!
-  - Supreme pilgrimage: **Baneshwar Dham** (confluence of Som, Mahi, and Jakham rivers in Dungarpur), celebrated on Magh Purnima as the **"Tribal Kumbh"**.
-  - **Ghotia Amba Fair** (Banswara), celebrating the Pandavas' exile and mother Kunti's presence.
+### 2. Bhil and related notified communities
+
+- **Census 2011 population of the grouped Bhil category:** 4,100,264.
+- **Census literacy rate of this grouped category:** 44.6% overall, 58.4% male and 30.7% female.
+- **Distribution:** The southern hills and adjoining parts of Banswara, Dungarpur, Udaipur, Pratapgarh and neighbouring regions.
+- **Livelihoods and habitat:** Historically diverse combinations of cultivation, agricultural labour, forest produce collection, animal husbandry, craft and wage work; the contemporary mix varies with ecology, land access, migration and local markets.
+- **Local institutions:** Some ethnographic descriptions use terms such as *gameti* for a village headman and document community mediation or collective work. Their use and authority are not uniform across all Bhil groups.
+- **Customs sometimes documented in regional ethnography:** *Halma* refers in some Bhil contexts to collective mutual assistance for tasks such as cultivation, harvesting or building. The term should be connected to the community and locality described by the source, not universalised to every Bhil settlement.
+- **Marriage and kinship:** *Dapa* (bride-price) and *nata* (a locally variable form of remarriage/union) are reported in some tribal and regional customary contexts. Such descriptions need to be read with attention to consent, gender, legal rights and changing practice.
+
+**Exam link:** The Bhils' role in resistance to feudal exactions and forced labour connects cultural history with the Bhagat and Eki movements and with the history of the Mangarh gathering of 1913.
+
+### 3. Garasia
+
+- **Census 2011 population:** 314,194 for the category “Garasia (excluding Rajput Garasia).”
+- **Distribution:** Parts of Abu Road and Pindwara (Sirohi), Bali and adjoining areas (Pali), and Kotra/Gogunda and other southern Udaipur areas.
+- **Economy and change:** Published regional studies describe livelihoods shaped by agriculture, labour, forest produce, migration and local markets. Conditions vary between villages and generations.
+- **Culture:** The Garasia community is associated with the **Vallor/Valar dance** in the Ministry of Tribal Affairs' cultural portal. Dance names and performance forms may vary across sources.
+- **Marriage traditions:** Some older ethnographic accounts record locally specific forms with names such as *mor-bandhiya*, *pahrawana* and *tanana*. Spellings and definitions differ; these labels must not be treated as universal or as a complete description of present-day Garasia marriages.
+- **Fair and community gathering:** The Mount Abu/Siyawa region is associated with gatherings attended by Garasia communities. Older popular descriptions of partner selection or elopement at fairs should not be used to imply coercion or to generalise about all members.
+
+### 4. Sahariya / Seharia
+
+- **Census 2011 population:** 111,377.
+- **Constitutional-development status:** Sahariya is the **only Particularly Vulnerable Tribal Group (PVTG) recognised in Rajasthan** in the Government of India's state-wise PVTG listing.
+- **Distribution:** Particularly associated with Kishanganj and Shahbad areas of Baran district. The original chapter's claim that 99% reside only in those two tehsils is not retained because a current official source establishing that exact percentage was not identified.
+- **Livelihood context:** Historical and contemporary descriptions refer to agricultural labour, subsistence cultivation and collection of minor forest produce, with important differences in land access, indebtedness, health, education and employment.
+- **Community practices:** Some local ethnographic accounts record community councils, fairs and mortuary customs. Specific terms—such as *saharana*, *bangla/hathai*, or *dhari sanskar*—require source- and locality-specific attribution. They should not be memorised as universal or timeless features without a reliable ethnographic reference.
+- **Development priorities:** Food and nutrition security, secure livelihoods, access to education and health, housing, protection from exploitative labour and effective access to statutory entitlements are appropriate analytical themes.
+
+**Important:** Do not define Sahariya identity through romanticised claims about refusing alms or through generalisations about poverty. Those claims are not sound demographic or sociological evidence.
+
+### 5. Other listed communities
+
+| Community / Census entry | Census 2011 figure | Notes for study |
+|---|---:|---|
+| Damor/Damaria | 91,463 | Associated with the Dungarpur–Simalwara region in regional descriptions. Local leadership and fair traditions should be cited to an ethnographic source when tested. |
+| Dhanka/Tadvi/Tetaria/Valvi | 96,737 | The figure belongs to a grouped notified entry; avoid treating it as a single homogeneous cultural group. |
+| Bhil Mina | 105,393 | A separate Census/list entry; do not automatically merge it with Mina or the broader Bhil group when quoting notified category totals. |
+| Kathodi and related listed names | 4,833 | A small population in the Census 2011 entry. Some regional studies associate Kathodi communities with catechu extraction and describe distinctive dress, but details are locality-specific. |
+| Naikda/Nayaka and related names | 8,355 | A grouped notified entry in Census 2011. |
+| Patelia | 797 | A separate notified category in the Census 2011 table. |
+| Koli Dhor and related names | 1,535 | A grouped notified entry in Census 2011. |
+| Kokna/Kokni/Kukna | 361 | A grouped notified entry in Census 2011. |
+
+**PVTG concept:** The Government of India identifies PVTGs using historically applied indicators such as pre-agricultural technological features, low literacy, economic backwardness and population vulnerability. These are policy descriptors, not labels for the worth, capacity or culture of a people.
 
 ---
 
-### 3. The Garasia Tribe (गरासिया जनजाति)
-- **Demographic Standing**: The third largest tribe in Rajasthan (~3% of ST population).
-- **Geographical Distribution**: Concentrated primarily in **Abu Road and Pindwara tehsils (Sirohi)**, **Bali tehsil (Pali)**, and **Kotra and Gogunda tehsils (Udaipur)**.
-- **Social Ranking & Lineages**:
-  - Claim descent from Chauhan Rajputs; social structure divided into:
-    1. *Motee Niyat* (Bhabhor - higher social standing).
-    2. *Nainkee Niyat* (Middle standing).
-    3. *Nichlee Niyat* (Lowest standing).
-  - Village Headman: Designated as **Sahlot (सहलोत)** or **Patel**.
-  - Traditional Grain Storage: Cylindrical clay granaries called **Sohari (सोहारी)**.
-- **Unique Marital Typology (Must-Know for RPSC Mains)**:
-  1. **Mor-Bandhiya (मोर-बांधिया)**: The most formal and prestigious marriage, solemnized with the tying of a traditional crown (*Mor*), formal circumambulation (*Pheras*), and Vedic-style rituals.
-  2. **Pahrawana (पहरावणा)**: An economical marriage performed without a Brahmin priest; solemnized merely through nominal bride-price and the symbolic exchange of garments (*Pahrawana*) and walking around the sacred fire.
-  3. **Tānana (ताणणा)**: An elopement-based marriage where the young couple elopes from a fair, and the marriage is formalized only after the groom's parents pay the mandatory negotiated *Dapa* (bride-price) to the bride's parents.
-  4. **Melbo (मेलबो)**: An economical arrangement where the bride is simply escorted to the groom's household to save wedding expenses.
-  5. **Khewana (खेवणा)**: Remarriage of a married woman who runs away with a new lover; the new lover must pay a steep compensation penalty (*Jhagda*) to the aggrieved former husband.
-- **Cultural Hallmarks**:
-  - Renowned for the **Vālar Dance (वालर नृत्य)**, a slow, graceful circular dance performed by men and women **without any musical instrument**.
-  - Major Fairs: **Gaur Fair (गौर का मेला)** at Siyawa (Abu Road) on Baisakh Shukla Chaturdashi; **Chitra-Vichitra Fair** at Gunbhakari (Kotra, Udaipur).
+## 35.4 Customary Practices, Lifecycle Rites and Social Change
+
+Customs form part of social life but vary within and between communities. Ethnographic descriptions are snapshots from particular locations and periods—not a licence to make claims about all people of a community.
+
+### Regional lifecycle and marriage customs
+
+The following terms occur in descriptions of Rajasthani social life. Their meanings, sequence and prevalence vary by locality, caste, tribe and family.
+
+| Term | Broad description commonly used in regional accounts |
+|---|---|
+| **Sagai / Tika** | Betrothal or formalisation of a marriage arrangement. |
+| **Pithi / Haldi** | Application of a turmeric paste before marriage. |
+| **Bindoli** | A procession associated with the bride or groom before the wedding. |
+| **Samela** | Formal welcome of the wedding procession (*baraat*). |
+| **Toran marna** | A symbolic act by the groom at the decorated entrance to the wedding venue/house. |
+| **Phera** | Circumambulation of the sacred fire in communities whose marriage ceremony includes this rite. |
+| **Badhār** | A wedding-related feast; timing and host may vary by local custom. |
+| **Nata / Naata** | A locally variable customary union or remarriage practice reported in parts of Rajasthan. Its description must be community-specific and cannot replace the legal framework governing marriage, divorce, maintenance or consent. |
+| **Dapa** | Bride-price described in some tribal ethnographies. It is distinct from dowry, but local meanings and practice vary. |
+| **Halma** | Collective mutual assistance, reported in some Bhil contexts. |
+
+### Mortuary customs and the law against Mrityu Bhoj
+
+*Mosar*, *Nukta* and *Mrityu Bhoj* are terms associated in different regions with a feast given following a death. The custom may impose debt and social pressure on families with limited means.
+
+The **Rajasthan Prevention of Mrityu Bhoj Act, 1960** prohibits the holding or giving of Mrityu Bhoj as defined in the Act, subject to the statute's precise wording and exceptions. The definition includes practices described as *Nukta*, *Mosar* and *Chahallum*. The Act remains the legal reference; cultural descriptions should not imply that a prohibited feast is legally authorised merely because it is customary.
+
+### Handling ethnographic claims responsibly
+
+Some source texts give vivid claims such as “a tribe never lies,” “a community never begs,” or that a group seeks divine permission for theft. Such claims are not suitable as general factual notes. They may be folkloric, sensationalised, stigmatizing or based on limited historical accounts. Likewise, accounts of virginity tests, coercive marriage customs or rigid traditional authority must not be presented as universal present-day conduct.
+
+For exam preparation:
+- identify the community and locality named by the source;
+- distinguish an oral tradition from census or legal fact;
+- avoid romanticising or criminalising an entire group;
+- note internal diversity, gender and power relations, and change over time;
+- use a scholarly ethnography or government tribal-culture source before memorising specialised terminology.
 
 ---
 
-### 4. The Sahariya Tribe (सहरिया जनजाति): The Only PVTG of Rajasthan
-- **Constitutional Status**: The **ONLY Particularly Vulnerable Tribal Group (PVTG / PTG)** recognized by the Government of India in Rajasthan.
-- **Geographical Isolation**: Almost **99% of the Sahariya population is concentrated in two tehsils of Baran district: Kishanganj and Shahbad**.
-- **Etymology**: Derived from the Persian word *Sahr* (meaning **jungle / wilderness**), denoting forest dwellers.
-- **Settlement & Architectural Terminology**:
-  - Village: Known as a **Saharol (सहरौल)**.
-  - Habitation cluster of huts: Known as a **Sahrānā (सहराना)**.
-  - Community Assembly Hall: A circular or octagonal thatch-roofed open pavilion at the center of the village called a **Bangla (बंगला)** or **Hathāi (हथाई)**, used for village council meetings and lodging guests.
-  - Village Headman: Designated as the **Kotwāl (कोटवाल)**.
-- **Three-Tier Caste Panchayat Architecture**:
-  1. **Panchtai (पंचताई)**: Council having jurisdiction over 5 contiguous villages.
-  2. **Ekdāshi (एकदशी)**: Intermediate council adjudicating matters spanning 11 villages.
-  3. **Chaurāsi (चौरासी)**: The supreme apex panchayat covering all **84 villages**, convening at the sacred **Valmiki Ashram at Sitabari (Kelwara, Baran)**. Its decisions are irrevocable.
-- **Unique Socio-Religious Customs**:
-  - **Dhāri Sanskār (धारी संस्कार)**: A profound mortuary divination ritual. On the third day after a death, the ashes and bones (*Phool*) are collected, and clean sieved ash or flour is spread on the ground under a bronze vessel. The following morning, the impressions formed are scrutinized to determine the deceased soul's next rebirth form (human, bird, animal, reptile).
-  - **Social Dignity Principle**: Sahariyas **never accept alms or beg** (*सहरिया कभी भी भीख नहीं मांगते*), maintaining deep personal dignity despite grinding material poverty.
-  - Deities: Supreme reverence for **Maharshi Valmiki** (regarded as their primordial ancestor and Guru), **Veer Tejaji**, and **Kodiya Devi** (clan tutelary goddess).
-  - Cultural Fairs: **Sitabari Fair (सीताबड़ी का मेला)** at Kelwara (Baran) on Jyeshtha Amavasya, celebrated as the **"Kumbh of the Sahariyas"**.
-  - Traditional Dances: **Shikāri Dance (शिकारी नृत्य)**—a dramatic, martial mime dance enacting forest hunting techniques.
-  - Special State Welfare: Given **200 days** of employment under MGNREGS (compared to the standard 125 days) and free food packets containing fortified ration.
+## 35.5 Social Evils, Reform and Legislative Milestones
+
+### 1. Child marriage
+
+- The **Child Marriage Restraint Act, 1929**, commonly called the Sarda Act, was an early statutory effort to restrain child marriage. Harbilas Sarda, associated with Ajmer, was its principal legislative sponsor.
+- The modern central framework is the **Prohibition of Child Marriage Act, 2006**, in force from 1 November 2007.
+- Under the 2006 Act, a “child” is a male who has not completed **21 years** or a female who has not completed **18 years**. Legal consequences and procedures should be taken from the Act; avoid simplifying every child marriage as having identical status or procedure.
+- Akshaya Tritiya (*Akha Teej*) has historically been associated with mass marriage events in parts of Rajasthan; public administration and civil society use the date as a focus for prevention and reporting.
+
+### 2. Sati and glorification of sati
+
+- The Roop Kanwar incident at Deorala on **4 September 1987** renewed national attention to sati and its glorification.
+- Rajasthan enacted the **Rajasthan Sati (Prevention) Act, 1987**.
+- The central **Commission of Sati (Prevention) Act, 1987** was subsequently enacted as Central Act No. 3 of 1988 and brought into force in Rajasthan on 21 March 1988.
+- The legal framework addresses commission, abetment and glorification of sati. Do not substitute a vague statement such as “the practice was banned nationally in 1987” for the distinction between state enactment and central enforcement dates.
+
+### 3. Witch-hunting / Dakin practice
+
+The **Rajasthan Prevention of Witch-Hunting Act, 2015** prohibits witch-hunting and related harmful conduct. Its purpose includes preventing the identification, accusation, defamation, harassment or harm of a woman labelled a witch. The statute defines relevant conduct and sets out different offences and punishments; do not reduce the whole Act to one penalty without checking the section and facts.
+
+### 4. Sagri and bonded labour
+
+- *Sagri* refers to a bonded or coercive labour relationship documented in Rajasthan's agrarian history.
+- Rajasthan enacted the **Sagri System Abolition Act, 1961**, but that state Act was repealed by the **Rajasthan Sagri System Abolition (Repeal) Act, 1976**.
+- The **Bonded Labour System (Abolition) Act, 1976** is the central framework for abolition of bonded labour. The original chapter's claim that the 1961 Rajasthan Act remains the operative current law is incorrect.
+
+### 5. Mrityu Bhoj
+
+The **Rajasthan Prevention of Mrityu Bhoj Act, 1960** is an example of legislation directed at a costly social custom that can place severe financial pressure on bereaved households. In an answer, connect the law to social reform, debt prevention and the limits of customary obligations.
+
+### 6. Historical claims requiring caution
+
+Older state histories attribute early prohibitions of sati and witch-hunting to particular princely states and dates. The original source gives a precise sequence (for example, Bundi 1822; Mewar 1853; Jaipur Samadhi prohibition 1844; Jodhpur Tyag prohibition 1841). Those claims are **not reproduced as memorisation facts here** because sufficiently reliable archival/primary corroboration was not established during this audit. Include such dates only when supported by an identified official history or archival source.
 
 ---
 
-### 5. Other Minor and Nomadic Tribes of Rajasthan
+## 35.6 Social Reform Movements and Transformative Leaders
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                   MINOR & NOMADIC TRIBES OF RAJASTHAN                       │
-├────────────────────┬─────────────────────┬──────────────────────────────────┤
-│ TRIBE              │ GEOGRAPHIC CONCENTR.│ SOCIAL TRAIT & EXAM INVARIANT    │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Damor (डामोर)**  │ **Simalwara Tehsil**│ Migrated from Gujarat; men also  │
-│                    │ (Dungarpur district)│ wear jewelry/earrings; fairs:    │
-│                    │                     │ Chhela Bavji & Gyaras ki Rewari  │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Kathodi (कथोड़ी)**│ Kotra, Jhadol,      │ Migrated from Maharashtra;       │
-│                    │ Sarada (Udaipur)    │ extract Kattha from Khair trees; │
-│                    │                     │ women wear *Fadka* saree; liquor │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Kanjar (कंजर)**  │ Hadoti (Kota, Baran,│ Skilled dancers (*Chakri*); seek │
-│                    │ Bundi, Jhalawar)    │ divine blessing for theft called │
-│                    │                     │ **Pati Mangna** from Chauth Mata │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Sansi (सांसी)**  │ Bharatpur, Ajmer    │ Divided into *Mala* & *Bija*;    │
-│                    │                     │ strict pre-marital chastity test │
-│                    │                     │ called **Kukadi ki Rasam**       │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Kalbelia**       │ Western/Central Raj │ Nomadic snake-charmers; UNESCO   │
-│                    │                     │ Intangible Heritage dance 2010   │
-└────────────────────┴─────────────────────┴──────────────────────────────────┘
-```
+### Swami Dayanand Saraswati and Arya Samaj
 
-#### Damor Tribe
-- Concentrated in **Simalwara tehsil of Dungarpur district** (the region is historically termed the *Damaria tract*).
-- Head of the village is called a **Mukhi (मुखी)**.
-- Only tribe where men are traditionally fond of adorning themselves with ornaments and earrings like women.
-- Major Fairs: **Chhela Bavji ka Mela** (Panchmahal, Gujarat) and **Gyaras ki Rewari** (Dungarpur).
+- Dayanand Saraswati's reform programme emphasised a return to Vedic authority, religious reform, education and criticism of practices he considered socially harmful.
+- His ideas influenced social-reform and educational activity in Rajasthan. His life and work are strongly associated with Ajmer, where he died in 1883.
+- The **Paropkarini Sabha** is associated with the preservation and dissemination of Dayanand's works and aims. The details of its founding and early location are described inconsistently in secondary sources; this chapter therefore does not present “founded at Udaipur on 27 February 1883” as an independently settled fact.
+- **Exam connection:** Reform movements could work through religious reinterpretation, educational institutions, publications, public debate and community organisation.
 
-#### Kathodi Tribe
-- Brought to Udaipur by Bohra traders from Khandesh (Maharashtra) due to their specialized skill in extracting **Kattha** (catechu) from the bark of Khair trees (*Acacia catechu*).
-- Both men and women consume liquor together.
-- Women drape a distinct red-colored cotton saree in the Marathi coastal style known as **Fadkā (फड़का)**.
-- Village head is called a **Nāik (नाइक)**. Provided 200 days of guaranteed work under MGNREGS alongside Sahariyas.
+### Govind Guru and the Bhagat movement
 
-#### Kanjar Tribe
-- Etymologically derived from *Kanan-Chara* (forest wanderers).
-- Inhabiting Hadoti and eastern Rajasthan; known for unmatched physical agility.
-- Tradition of **Pāti Māngnā (पाती मांगना)**: Before embarking on dangerous exploits or criminal expeditions, they seek divine blessing and permission from their tutelary deities (**Chauth Mata** at Chauth Ka Barwara, Sawai Madhopur, and **Raktadantika Mata** at Satur, Bundi).
-- Perform the world-famous **Chakri Dance (चकरी नृत्य)**, where young unmarried women execute 80+ dizzying spins.
+- Govind Guru (also called Govind Giri) was a tribal social and religious reformer associated with the Bhil communities of the wider Rajasthan–Gujarat border region.
+- His movement promoted ethical discipline, temperance, community solidarity, education and opposition to exploitative practices including forced labour (*begar*).
+- The **Mangarh gathering / massacre** took place on **17 November 1913** at Mangarh Hill under Govind Guru's leadership. British forces opened fire on the gathering.
+- Government commemorative accounts commonly cite **approximately 1,500 tribal deaths**; historical casualty estimates should be described as estimates rather than an exact verified count.
+- Mangarh is significant as a site of tribal mobilisation and anti-colonial memory, and as shared heritage across adjoining regions.
 
-#### Sansi Tribe
-- Inhabit Bharatpur, Ajmer, and central Rajasthan. Claim origin from a Rajput ancestor named **Sahasmal**.
-- Divided into two strictly endogamous branches: **Mālā** and **Bījā**.
-- **Kukadi Ki Rasam (कूकड़ी की रस्म)**: A regressive customary ritual where a newly wedded bride is subjected to a public physical test to prove her pre-marital virginity and chastity before being accepted into the marital home.
+### Motilal Tejawat and the Eki movement
+
+- The **Eki movement** developed around 1920–21 in the Mewar–Bhomat and adjoining tribal region. It mobilised Bhil and Garasia communities around grievances against feudal exactions, high levies and forced labour.
+- Matrikundiya is associated with the movement's mobilisation and unity pledge.
+- **Critical correction:** The original chapter labels a “Neemra Massacre” on 7 March 1922 in Rajasthan and claims 1,200 people were killed there. The historical episode widely identified with that date is the **Pal–Dadhvav massacre**, at Pal-Chitariya and Dadhvav in the then Idar State, now in Gujarat's Sabarkantha district. The exact narrative and death toll vary among accounts; do not transfer it uncritically to a “Neemra Massacre” in Rajasthan.
+- The movement is important for understanding tribal agency, resistance to coercive agrarian structures and the interaction between local protest and princely/colonial authority.
+
+### Peasant and agrarian movements: Bijolia as a relevant addition
+
+- The **Bijolia peasant movement** challenged jagirdari exactions and oppressive levies in Mewar. It grew over many years and became an important agrarian mobilisation in Rajasthan's history.
+- Accounts often associate its later phases with leaders including Vijay Singh Pathik, Sadhu Sitaram Das and Manikyalal Verma. Exact chronology and individual roles should be answered in accordance with the specific syllabus text or an authoritative history.
+- **Sociological significance:** It highlights the connection among land, revenue, forced labour, collective organisation, political awareness and resistance to princely authority.
+
+### Reform movements: comparison table
+
+| Leader / movement | Period or key date | Main issue / contribution |
+|---|---|---|
+| Arya Samaj / Dayanand Saraswati | 19th century; Dayanand died 1883 | Religious and social reform, education and public debate |
+| Govind Guru / Bhagat movement | Late 19th–early 20th century; Mangarh 17 Nov 1913 | Community reform, temperance, solidarity and opposition to exploitation |
+| Motilal Tejawat / Eki movement | Around 1920–21; Pal–Dadhvav killings 7 Mar 1922 | Tribal unity and protest against levies and forced labour |
+| Bijolia peasant movement | Late 19th century onward; major mobilisation in the early 20th century | Resistance to jagirdari exactions and agrarian exploitation |
+| Harbilas Sarda | Child Marriage Restraint Act, 1929 | Legislative campaign to restrain child marriage |
 
 ---
 
-## 35.4 Traditional Customs, Lifecycle Sanskars & Social Evils
+## 35.7 High-Yield RPSC Traps and Corrections
 
-### Lifecycle Sanskars & Customs
-- **16 Vedic Sanskars**: Preserved in Rajasthani folk culture—from *Garbhadhan* (conception), *Simantonayana* (parting of hair), *Jatakarma* (birth), *Namakarana*, *Chudakarma / Jhadula* (first tonsure at ancestral temple), *Upanayana* (sacred thread), to *Antyeshti* (last rites).
-- **Marriage Customs**:
-  - *Sagai / Tika*: Formal betrothal ceremony.
-  - *Pithhi / Haldi*: Application of turmeric paste.
-  - *Bindoli (बिन्दौली)*: Festive village procession of bride/groom riding a decorated mare on the eve of marriage, hosted by relatives.
-  - *Samela / Madhupark (सामेला)*: Formal welcome of the wedding procession (*Barat*) by the bride's father at the village boundary or wedding hall entrance.
-  - *Toran Marna (तोरण मारना)*: Groom striking the wooden *Toran* hung above the doorway with a sword or neem twig before entering the wedding canopy.
-  - *Kanyadan & Phera*: Seven circumambulations around the sacred fire.
-  - *Badhār (बढ़ार)*: Grand post-wedding feast hosted by the groom's family.
-- **Mortuary Customs**:
-  - *Vaikunthi*: Wooden bier carrying the deceased elder.
-  - *Bikher*: Scattering coins or flowers over the funeral cortege.
-  - *Adheta / Dandot*: Changing the direction of the bier midway to the cremation ground.
-  - *Mosar / Nukta (मौसर / नुकता)*: Customary death feast hosted on the 12th day (*Barahvan*) of an elder's demise. Statutorily banned under the **Rajasthan Prevention of Mrityu Bhoj Act, 1960**.
-  - *Josar (जौसर)*: Extravagant death feast hosted by an affluent individual while still alive to ensure personal post-mortem honor.
-
-### Elimination of Social Evils & Legislative Milestones
-1. **Child Marriage (बाल विवाह)**:
-   - Deeply rooted in rural Rajasthan, traditionally solemnized en masse on **Akshaya Tritiya (Akha Teej)**.
-   - Legislative Pioneers: **Rai Bahadur Harbilas Sarda** of Ajmer drafted the landmark **Child Marriage Restraint Act, 1929 (Sarda Act)**, fixing minimum marriage age at 14 for females and 18 for males (now replaced by the *Prohibition of Child Marriage Act, 2006* fixing ages at 18 and 21).
-2. **Sati Pratha (सती प्रथा)**:
-   - First princely state in Rajasthan to ban Sati: **Bundi State (1822)** under Rao Raja Ram Singh, followed by Kota (1844), Jaipur (1846), and Udaipur (1861).
-   - The **Roop Kanwar Sati Incident (4 September 1987)** at Deorala (Sikar) caused nationwide shock, prompting the enactment of the **Rajasthan Sati (Prevention) Act, 1987**, subsequently codified nationally as the *Commission of Sati (Prevention) Act, 1987*.
-3. **Dakin Pratha / Witch-Hunting (डाकन प्रथा)**:
-   - Superstitious persecution of elderly, widowed, or lower-caste women branding them as witches causing child illness or crop failure.
-   - First banned in **Mewar State in 1853** by Maharana Swaroop Singh at Kherwara.
-   - Modern Statute: **The Rajasthan Prevention of Witch-Hunting Act, 2015**, prescribing up to 7 years rigorous imprisonment and collective punitive fines.
-4. **Sagri Pratha / Begar (सागड़ी प्रथा / बेगार)**:
-   - Bonded agrarian servitude where debtor tenants were forced to render unpaid manual labor (*Begar*) to usurious money-lenders and Jagirdars.
-   - Banned under the **Rajasthan Sagri Abolition Act, 1961** and **Bonded Labour System (Abolition) Act, 1976**.
-5. **Samadhi & Tyag Pratha**:
-   - *Samadhi Pratha* (burying or drowning alive in religious ecstasy) banned in **Jaipur State in 1844** by Political Agent Ludlow.
-   - *Tyag Pratha* (extravagant cash gifts demanded by Charans and Bhats from Rajput bridegrooms at weddings) banned in **Jodhpur State in 1841** under Maharaja Man Singh and Walterkrit Rajputra Hitkarini Sabha (1889).
+1. **ST population rank:** Rajasthan's 2011 ST population was about 92.39 lakh; its absolute population rank was **fourth**, not sixth.
+2. **ST share:** 13.48% is a **Census 2011** figure, not a current-year estimate.
+3. **Rural–urban distribution:** 8,693,123 rural and 545,411 urban ST residents in Census 2011.
+4. **Largest notified Census category:** Mina/Meena (4,345,528); the Bhil-associated grouped entry had 4,100,264.
+5. **Don't confuse grouping with identity:** the Census' “Bhil and associated communities” entry is a notified group; “Bhil Mina” is a separate entry.
+6. **PVTG:** Sahariya is the only PVTG recognised in Rajasthan in the Government of India's PVTG listing.
+7. **Scheduled Areas:** Three entire districts—Banswara, Dungarpur and Pratapgarh—plus notified portions of five additional districts under the 2018 Order.
+8. **PESA:** Applies to Scheduled Areas through the statutory framework; do not describe it as blanket sovereignty.
+9. **Mangarh:** 17 November 1913; Govind Guru; government commemorative sources commonly cite approximately 1,500 deaths (estimate, not exact census).
+10. **Eki movement:** Associated with Motilal Tejawat and opposition to levies and forced labour; the Pal–Dadhvav killings of 7 March 1922 took place in present-day Gujarat, not at a documented “Neemra Massacre” in Rajasthan.
+11. **Sati law:** Distinguish Rajasthan's 1987 State Act from the central Commission of Sati (Prevention) Act, 1987, enforced in Rajasthan in 1988.
+12. **Witch-hunting:** Rajasthan Prevention of Witch-Hunting Act, 2015; check the offence-specific section before quoting a punishment.
+13. **Sagri:** Rajasthan Sagri System Abolition Act, 1961 was repealed in 1976; do not call the old state Act the current operative law.
+14. **Mrityu Bhoj:** Rajasthan Prevention of Mrityu Bhoj Act, 1960; *Nukta* and *Mosar* are included in the statutory definition.
+15. **Child marriage:** Under the Prohibition of Child Marriage Act, 2006, the statutory “child” threshold is below 21 for a male and below 18 for a female.
+16. **Cultural description:** A marriage term or ritual reported in a particular tribal ethnography is not automatically true of every member, locality or present generation.
+17. **No “tribal hierarchy”:** Rank Census categories by population only. Do not present cultural groups as a hierarchy of worth or civilisation.
+18. **Meen Puran / Meena genealogy:** Treat author attribution and clan counts as community tradition or specialist claims unless independently documented.
+19. **Dakin ban chronology and princely-state sati dates:** Do not memorise exact “first in India/Rajasthan” claims without an authoritative archival source.
+20. **Customary practice vs law:** Custom does not override statutory protections regarding child marriage, bonded labour, witch-hunting or other offences.
 
 ---
 
-## 35.5 Social Reform Movements & Transformative Leaders
+## 35.8 RPSC RAS Practice Questions and Answer Frameworks
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 SOCIAL REFORM MOVEMENTS IN RAJASTHAN                        │
-├────────────────────┬─────────────────────┬──────────────────────────────────┤
-│ LEADER / MOVEMENT  │ YEAR & FOUNDATION   │ CORE SOCIAL REFORM REVOLUTION    │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Swami Dayanand   │ 1883                │ Founded **Paropkarini Sabha** at │
-│  Saraswati**       │ (Udaipur)           │ Udaipur; authored *Satyarth      │
-│                    │                     │ Prakash* at Navlakha Mahal       │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Govind Guru**    │ 1883                │ Founded **Samp Sabha** at Sirohi;│
-│ (Bhagat Movement)  │ (Mangarh Dham 1913) │ Temperance, vegetarianism, and   │
-│                    │                     │ self-respect among Bhils         │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Motilal Tejawat**│ 1921                │ Launched **Eki Movement** at     │
-│ (Bhomat Movement)  │ (Matrikundiya)      │ Matrikundiya; tribal unity;      │
-│                    │                     │ *"न हाकिम, न हुकम"* pledge       │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Harbilas Sarda** │ 1929                │ Architect of national **Sarda    │
-│                    │ (Ajmer)             │ Act** outlawing child marriage   │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Muni Magan Sagar │ 1944                │ Chaired Neem Ka Thana meet;      │
-│  & Bansidhar Sharma│                     │ repeal of Jairam Pesha Act       │
-└────────────────────┴─────────────────────┴──────────────────────────────────┘
-```
+These are **original practice questions**, not claims about authenticated previous-year questions.
 
-1. **Swami Dayanand Saraswati & The Arya Samaj in Rajasthan**:
-   - Visited Karauli (1865), Jaipur, Bharatpur, Udaipur, and Jodhpur.
-   - In 1882–83, stayed at **Navlakha Mahal, Gulab Bagh (Udaipur)** as the honored royal guest of Maharana Sajjan Singh, completing the seminal treatise **Satyarth Prakash (सत्यार्थ प्रकाश)**.
-   - Founded the **Paropkarini Sabha (परोपकारिणी सभा)** at Udaipur on **27 February 1883** with Maharana Sajjan Singh as its permanent President.
-   - Preached Vedic education, eradication of untouchability, widow remarriage, and boycott of foreign textiles. Died at Ajmer on **30 October 1883** (Deepawali) after being poisoned at Jodhpur.
-2. **Govind Guru & The Bhagat Movement**:
-   - Born in a Banjara family at Basiya (Dungarpur); influenced by Swami Dayanand Saraswati.
-   - Founded the **Samp Sabha (सम्प सभा)** in **1883 at Sirohi** with 10 ethical vows promoting brotherhood (*Samp*), temperance (giving up alcohol), personal hygiene, education, and refusal to perform unpaid labor (*Begar*).
-   - Led the historic gathering at **Mangarh Dham (Banswara)** on **17 November 1913** (Ashwin Purnima), where British and Mewar Bhil Corps forces massacred over 1,500 Bhils.
-3. **Motilal Tejawat & The Eki (Bhomat) Movement**:
-   - Born into an Oswal Jain merchant family at Koliyari (Udaipur); known affectionately as **"Bavji"**.
-   - Initiated the **Eki Movement** on Vaishakh Purnima in **May 1921 at Matrikundiya (Chittorgarh)** to establish unity (*Eki*) against feudal exploitation and unpaid labor under the clarion call *"न हाकिम, न हुकम"* (Neither ruler nor decree).
-   - Drafted the historic 21-point charter of tribal demands titled **Mewar Ki Pukar (मेवाड़ की पुकार)**.
-   - Endured the horrific **Neemra Massacre (7 March 1922)** in Idar state where 1,200 tribals were killed.
+### 2-marker questions
 
----
+**Q1. State the Census 2011 Scheduled Tribe population of Rajasthan and its share of the state's population.**
 
-## 35.6 Top 25 Killer RPSC Examination Traps
+**Model answer:** Rajasthan recorded 9,238,534 ST residents in Census 2011, constituting about 13.48% of the state population.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 TOP 25 KILLER RPSC EXAMINATION TRAPS: CHAPTER 35            │
-├─────┬───────────────────────────────────────────────────────────────────────┤
-│ NO. │ TRAP / COMMONLY TESTED DISTRACTOR vs. HARD EVIDENTIARY TRUTH          │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 01  │ TRAP: The largest tribe in Rajasthan is the Bhil tribe.               │
-│     │ TRUTH: The **Meena tribe is the largest (~47%)**; Bhils are #2 (~44%).│
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 02  │ TRAP: Sahariya tribe is spread evenly across southern Rajasthan.      │
-│     │ TRUTH: **99% of Sahariyas are concentrated strictly in Baran district │
-│     │ (Kishanganj and Shahbad tehsils)**!                                   │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 03  │ TRAP: Kathodi is a recognized PVTG in Rajasthan.                      │
-│     │ TRUTH: The **ONLY Particularly Vulnerable Tribal Group (PVTG)** in    │
-│     │ Rajasthan is the **Sahariya tribe**!                                  │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 04  │ TRAP: Simalwara tehsil is the primary home of the Garasia tribe.      │
-│     │ TRUTH: Simalwara (Dungarpur) is the home of the **Damor tribe**;      │
-│     │ Garasias inhabit **Abu Road, Pindwara, Bali, and Kotra**.             │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 05  │ TRAP: Dhari Sanskar is practiced by the Bhil tribe.                   │
-│     │ TRUTH: Dhari Sanskar is practiced strictly by the **Sahariya tribe**! │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 06  │ TRAP: Valar dance is performed by the Bhils with big drums.          │
-│     │ TRUTH: Valar is performed by the **Garasia tribe WITHOUT any musical  │
-│     │ instruments**!                                                        │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 07  │ TRAP: Mor-Bandhiya, Pahrawana, and Tanana are Bhil marriage customs.  │
-│     │ TRUTH: These are classic marriage types of the **Garasia tribe**!     │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 08  │ TRAP: Meen Puran was authored by Maharshi Valmiki.                    │
-│     │ TRUTH: Meen Puran was authored by Jain Muni **Magan Sagar Ji**!       │
-│     │ Valmiki is revered by the Sahariyas.                                  │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 09  │ TRAP: Bikaner has the highest tribal population in northern Rajasthan.│
-│     │ TRUTH: Bikaner has the **lowest percentage (0.33%)** and lowest       │
-│     │ absolute tribal population in the entire state!                       │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 10  │ TRAP: Highest ST percentage district is Udaipur.                      │
-│     │ TRUTH: Highest ST percentage is **Banswara (76.38%)**, followed by    │
-│     │ Dungarpur (70.82%); Udaipur has highest **absolute** numbers.         │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 11  │ TRAP: Dapa Pratha means dowry given by the bride's father.            │
-│     │ TRUTH: Dapa Pratha is **BRIDE-PRICE** paid by the **groom's family    │
-│     │ to the bride's father**!                                              │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 12  │ TRAP: Halmo is a tribal sacrifice ritual.                             │
-│     │ TRUTH: Halmo is an ancient Bhil tradition of **collective mutual      │
-│     │ self-help labor** without monetary compensation!                      │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 13  │ TRAP: Kukadi ki Rasam is a wedding dance of Kanjars.                  │
-│     │ TRUTH: Kukadi ki Rasam is a **pre-marital virginity test** practiced  │
-│     │ by the **Sansi tribe**!                                               │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 14  │ TRAP: Pati Mangna is practiced by the Sansi tribe.                    │
-│     │ TRUTH: Pati Mangna (seeking divine permission for theft) is practiced │
-│     │ strictly by the **Kanjar tribe**!                                     │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 15  │ TRAP: Fadka saree is worn by Garasia women.                           │
-│     │ TRUTH: Fadka (Marathi-style cotton saree) is worn by **Kathodi women**!│
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 16  │ TRAP: First state in Rajasthan to ban Sati was Jaipur.                │
-│     │ TRUTH: **Bundi State (1822)** was the first in Rajasthan to ban Sati; │
-│     │ Jaipur banned it in 1846.                                             │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 17  │ TRAP: Sarda Act 1929 was drafted by Sir John Sarda.                   │
-│     │ TRUTH: Drafted by **Rai Bahadur Harbilas Sarda** of Ajmer!            │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 18  │ TRAP: Paropkarini Sabha was founded by Dayanand Saraswati in Ajmer.   │
-│     │ TRUTH: Founded at **Udaipur in 1883** with Maharana Sajjan Singh as   │
-│     │ President (headquarters shifted to Ajmer later).                      │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 19  │ TRAP: Samp Sabha was founded in Dungarpur in 1913.                    │
-│     │ TRUTH: Founded by Govind Guru in **1883 at Sirohi**! Mangarh massacre │
-│     │ occurred in 1913.                                                     │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 20  │ TRAP: Motilal Tejawat belonged to the Bhil tribe.                     │
-│     │ TRUTH: Tejawat was born in an **Oswal Jain family** at Koliyari; he   │
-│     │ dedicated his life to tribal welfare as "Bavji".                      │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 21  │ TRAP: Sitabari Fair in Baran is called Tribal Kumbh of Rajasthan.     │
-│     │ TRUTH: Sitabari is the **"Kumbh of the Sahariyas"**; **Baneshwar      │
-│     │ Dham (Dungarpur)** is the **"Tribal Kumbh of Rajasthan"**!            │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 22  │ TRAP: Dakin Pratha was first banned in Jaipur State.                  │
-│     │ TRUTH: First banned in **Mewar State (1853)** at Kherwara by Maharana │
-│     │ Swaroop Singh.                                                        │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 23  │ TRAP: The war cry "Faire-Faire" belongs to the Garasia tribe.         │
-│     │ TRUTH: "Faire-Faire" is the traditional battle/crisis cry of the      │
-│     │ **Bhil tribe**!                                                       │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 24  │ TRAP: Gameti is the village headman of the Garasias.                  │
-│     │ TRUTH: Gameti is the headman of **Bhils**; Garasia headman is         │
-│     │ **Sahlot/Patel**; Sahariya headman is **Kotwal**.                     │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 25  │ TRAP: Mrityu Bhoj is legal under Rajasthan customary law.             │
-│     │ TRUTH: Strictly criminalized under the **Rajasthan Prevention of      │
-│     │ Mrityu Bhoj Act, 1960**!                                              │
-└─────┴───────────────────────────────────────────────────────────────────────┘
-```
+**Q2. What is the constitutional basis for Scheduled Areas in Rajasthan?**
+
+**Model answer:** Article 244(1) and the Fifth Schedule provide the framework for Scheduled Areas. The Scheduled Areas (State of Rajasthan) Order, 2018 specifies the districts and portions of districts covered.
+
+**Q3. Name the only PVTG recognised in Rajasthan.**
+
+**Model answer:** Sahariya (also spelt Seharia/Sehria in official Census and list sources).
+
+**Q4. Distinguish the Mangarh event from the Pal–Dadhvav killings.**
+
+**Model answer:** Mangarh occurred on 17 November 1913 under Govind Guru in present-day Rajasthan. Pal–Dadhvav refers to killings on 7 March 1922 in present-day Gujarat associated with mobilisation linked to Motilal Tejawat's Eki movement.
+
+### 5-marker questions
+
+**Q1. Explain how Census 2011 data help describe tribal demography in Rajasthan.**
+
+**Framework:**
+- Cite total ST population and share with date.
+- Note rural–urban distribution and sex ratio.
+- Use Mina and Bhil-group figures with the official Census category labels.
+- Mention variation in literacy across listed categories.
+- Clarify that Census 2011 districts and classifications are historical baselines.
+
+**Q2. Discuss the relevance of the Fifth Schedule and PESA for Rajasthan's tribal areas.**
+
+**Framework:**
+- Explain Article 244(1) and Fifth Schedule.
+- Identify the three complete Scheduled Districts and five districts with notified portions.
+- Describe TAC and the role of the Gram Sabha under PESA.
+- Mention Rajasthan's 1999 Act and 2011 Rules.
+- Conclude with implementation, participation and protection of tribal interests.
+
+**Q3. Compare the Bhagat and Eki movements.**
+
+**Framework:**
+- Govind Guru: community reform, temperance, solidarity and opposition to begar; Mangarh 1913.
+- Motilal Tejawat: unity and protest against exactions/forced labour around 1920–21.
+- Both linked social reform and tribal mobilisation to protest against exploitative structures.
+- Distinguish their leaders, periods, sites and immediate contexts.
+- Avoid treating contested casualty figures as exact.
+
+### 10-marker questions
+
+**Q1. “Tribal societies in Rajasthan are not homogeneous; their histories show both cultural continuity and adaptation.” Discuss with examples.**
+
+**Suggested structure:**
+1. **Introduction:** State the diversity of Rajasthan's notified ST communities and habitats.
+2. **Evidence of diversity:** Contrast the Census profiles and broad regions of Mina, Bhil, Garasia and Sahariya communities.
+3. **Continuity:** Explain the continuing importance of kinship, local institutions, festivals, livelihood knowledge and community memory where documented.
+4. **Change:** Discuss schooling, migration, market integration, constitutional safeguards, reservation, elected local government and welfare programmes.
+5. **Methodological caution:** Show why a local ethnographic description cannot be generalised to every member of a community.
+6. **Conclusion:** Acknowledge both community agency and unequal access to land, services and political power.
+
+**Q2. Evaluate the significance of Govind Guru's Bhagat movement and Motilal Tejawat's Eki movement in Rajasthan's tribal and social history.**
+
+**Suggested structure:**
+- Set the context of forced labour, exactions and marginalisation under princely/colonial authorities.
+- Discuss Bhagat mobilisation, ethical/social reform and the Mangarh gathering of 1913.
+- Discuss Eki mobilisation and the demands raised against levies and begar.
+- Distinguish Mangarh from the Pal–Dadhvav episode and note that casualty estimates are contested.
+- Evaluate both as expressions of collective agency, solidarity and political consciousness.
+- Conclude by connecting the movements to later recognition of tribal contributions to anti-colonial history.
+
+**Q3. Examine the relationship between social customs and legal reform in Rajasthan.**
+
+**Suggested structure:**
+- Explain that customs shape social expectations but differ by region and group.
+- Use child marriage, sati/glorification, witch-hunting, bonded labour and Mrityu Bhoj as examples of targeted reform.
+- Distinguish social stigma and local practice from the text and scope of law.
+- Note that enactment alone does not ensure enforcement: awareness, reporting, service access, community engagement and protection of affected people matter.
+- Avoid stereotyping an entire caste/tribe from a report of a harmful practice.
+- Conclude that rights-based reform requires enforcement as well as social and economic change.
 
 ---
 
-## 35.7 RPSC RAS 2-Marker, 5-Marker & 10-Marker Model Answers
+## 35.9 Source Register and Verification Notes
 
-### Q1 (2 Marks): What is the significance of the "Halmo" custom among the Bhils of southern Rajasthan?
-> **Answer**: *Halmo* is an ancient tribal institution of **collective mutual self-help**. When a community member faces an urgent task—such as tilling fields, harvesting crops, or constructing a mud house—the entire village participates without monetary wages. The host merely provides food and tobacco, fostering deep social solidarity.
+1. **Office of the Registrar General & Census Commissioner, India.** *A-11: State Primary Census Abstract for Individual Scheduled Tribes, Rajasthan — 2011.* Official Census catalogue and table: https://censusindia.gov.in/nada/index.php/catalog/42947
+2. **Census of India 2011 / Ministry of Tribal Affairs statistical tables.** Rajasthan ST totals, rural–urban split and community-category data: https://nstfdc.tribal.gov.in/(S(dz3egakw3e23eus2crz3zdb3))/frm_population.aspx
+3. **Ministry of Tribal Affairs.** *State-wise List of Scheduled Tribes in India* (includes the 12 Rajasthan entries): https://tribal.gov.in/downloads/Statistics/StatewiseListofScheduledTribesinIndia_09072024.pdf
+4. **Lok Bhavan, Rajasthan.** *Scheduled Area in Rajasthan* — notified Scheduled Areas and Census 2011 profile: https://lokbhavan.rajasthan.gov.in/content/lokbhavan/en/tribalwelfare/sarii.html
+5. **Ministry of Panchayati Raj.** Rajasthan PESA-related Act and Rules: https://panchayat.gov.in/en/document-category/pesa-rules-framed-by-pesa-states/
+6. **Ministry of Tribal Affairs.** *Statewise List of Particularly Vulnerable Tribal Groups* and statistical resources: https://tribal.gov.in/Statistics.aspx
+7. **Government of India, Ministry of Culture.** *Eki Movement / Motilal Tejawat* district repository: https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?3787=
+8. **Press Information Bureau, Government of India.** Mangarh Dham programme and government account of the 1913 gathering: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1872742&lang=2&reg=48
+9. **Indira Gandhi National Centre for the Arts (IGNCA).** Rajasthan culture and historical movement material: https://ignca.gov.in/coilnet/rj031.htm
+10. **India Code.** *Rajasthan Prevention of Witch-Hunting Act, 2015*: https://www.indiacode.nic.in/bitstream/123456789/18500/1/rajasthan_prevention_of_witch-hunting_act_2015_english.pdf
+11. **India Code.** *Commission of Sati (Prevention) Act, 1987*: https://www.indiacode.nic.in/indiacode/handle/123456789/1814
+12. **India Code.** *Prohibition of Child Marriage Act, 2006*: https://www.indiacode.nic.in/bitstream/123456789/2055/4/a2007-06.pdf
+13. **Rajasthan Prevention of Mrityu Bhoj Act, 1960.** Accessible law text: https://indiankanoon.org/doc/98027783/
+14. **Rajasthan Sagri System Abolition (Repeal) Act, 1976.** Accessible act text and repeal note: https://indiacode.ecourtsindia.com/rajasthan-sagri-system-abolition-repeal-act-1976/
+15. **Indian Express.** *What was the Pal-Dadhvav massacre?* (10 March 2022), for the event's location and historical distinction: https://indianexpress.com/article/explained/explained-what-was-the-pal-dadhvav-massacre-whose-centenary-the-gujarat-govt-is-observing-7807499/lite/
+16. **Daniel Miller.** “Exchange and Alienation in the ‘Jajmani’ System,” *Journal of Anthropological Research* (1986), for scholarly debate about interpreting jajmani: https://doi.org/10.1086/jar.42.4.3630107
+17. **Oxford University Press.** Sabita Singh, *The Politics of Marriage in Medieval India: Gender and Alliance in Rajasthan*, Chapter 3 (2019), for the historical variation and complexity of marriage practice: https://doi.org/10.1093/oso/9780199491452.003.0003
+18. **Ministry of Tribal Affairs, National Tribal Virtual Art & Culture Portal.** Garasia Vallor dance listing: https://adikalakar.tribal.gov.in/ViewDashDetails.aspx?id=MjIz
 
-### Q2 (2 Marks): Define "Dhāri Sanskār" practiced by the Sahariya community.
-> **Answer**: *Dhāri Sanskār* is a post-funeral divination ritual practiced on the third day after death. Sifted ashes or flour are spread on the floor under a brass vessel overnight. In the morning, the impressions formed are examined to divine the soul's next rebirth form (human, bird, animal, or reptile).
-
-### Q3 (5 Marks): Detail the three main types of marriages prevalent in the Garasia community.
-> **Answer**:
-> 1. **Mor-Bandhiya (मोर-बांधिया)**: The most formal and prestigious form, solemnized with the tying of a traditional crown (*Mor*), formal *Pheras* around the sacred fire, and celebration in the presence of relatives.
-> 2. **Pahrawana (पहरावणा)**: An economical, simplified wedding performed without a Brahmin priest; solemnized by the symbolic exchange of clothes (*Pahrawana*) and walking around the fire with a nominal bride-price.
-> 3. **Tānana (ताणणा)**: An elopement-based marriage where a youth elopes with a maiden from a tribal fair. The union is later legitimized by the village elders once the groom's parents pay the negotiated *Dapa* (bride-price) to the bride's father.
-
-### Q4 (5 Marks): Highlight the legislative milestones achieved in Rajasthan for the abolition of Sati and Child Marriage.
-> **Answer**:
-> 1. **Sati Abolition**:
->    - *Princely Initiatives*: Bundi State was the first in Rajasthan to ban Sati in **1822**, followed by Kota (1844), Jaipur (1846), and Udaipur (1861).
->    - *Modern Legislation*: The horrific Roop Kanwar Sati case at Deorala (Sikar) on 4 September 1987 led to the enactment of the **Rajasthan Sati (Prevention) Act, 1987**, which penalized the commission, abetment, and glorification of Sati with capital punishment.
-> 2. **Child Marriage Restraint**:
->    - *Rai Bahadur Harbilas Sarda*: Jurist and social reformer from Ajmer drafted the landmark **Child Marriage Restraint Act, 1929 (Sarda Act)**, outlawing child marriage across British India.
->    - *Current Framework*: Replaced by the **Prohibition of Child Marriage Act, 2006**, making child marriage cognizable and non-bailable, enforced stringently during *Akha Teej*.
-
-### Q5 (10 Marks): Critically examine the socio-economic structure of the Sahariya tribe, discussing the reasons for their recognition as the only PVTG of Rajasthan and the state's welfare interventions.
-> **Answer**:
-> **1. Geographic Isolation & Demographic Profile**:
-> - The Sahariyas are the **only Particularly Vulnerable Tribal Group (PVTG)** among Rajasthan's 92.4 Lakh tribal population, with **over 99% concentrated in Kishanganj and Shahbad tehsils of Baran district**.
-> - Inhabiting forest tracts (*Sahr* = wilderness), they historically lived as hunter-gatherers and subsistence cultivators with a unique village architecture (*Saharol*, *Sahrana*, and community pavilion *Bangla*).
->
-> **2. Criteria for PVTG Recognition**:
-> - **Pre-Agricultural Technology Level**: Heavy dependence on subsistence shifting cultivation, minor forest produce collection (tendu leaves, gum, mahua), and agricultural labor.
-> - **Extremely Low Literacy**: Sahariya female literacy remains among the lowest in India (<25%), coupled with educational backwardness.
-> - **Stagnant or Declining Population**: High infant mortality rate (IMR), maternal mortality rate (MMR), and susceptibility to severe malnutrition and tuberculosis.
-> - **Extreme Economic Vulnerability**: Persistent historical indebtedness to local money-lenders (*Bohras*), leading to disguised bonded servitude (*Hali* system).
->
-> **3. Socio-Cultural Resilience**:
-> - High personal dignity: Sahariyas **strictly refuse to beg or accept alms**.
-> - Robust internal self-governance: Three-tier dispute panchayats (*Panchtai*, *Ekdashi*, and the 84-village *Chaurasi Panchayat* at Sitabari) resolving domestic and marital disputes without police intervention.
-> - Revere **Maharshi Valmiki** and **Veer Tejaji**, practicing ancestral traditions like *Dhari Sanskar*.
->
-> **4. State Interventions & Affirmative Policies**:
-> - **Guaranteed Livelihoods**: Entitled to **200 days of guaranteed wage employment** under MGNREGS (75 days above the standard state limit).
-> - **Nutrition Security**: Provision of special monthly nutrition packets (containing ghee, pulses, soyabean, and millets) to pregnant women and children.
-> - **Education & Housing**: Free residential boarding schools (Maa-Badi centers) and priority allotment under PM Awas Yojana.
-> - **PESA Empowerment**: Sovereign powers vested in Sahariya Gram Sabhas over minor forest produce and local mineral resources.
+**Verification limit:** This revision verifies the core demographic, constitutional, legal and major movement claims from official or reputable sources. The available source base does not justify treating all of the original chapter's very specific oral-tradition claims, marriage taxonomies, alleged customs or clan histories as verified universal facts. They have been removed, narrowed or labelled as local/ethnographic claims pending better evidence.
