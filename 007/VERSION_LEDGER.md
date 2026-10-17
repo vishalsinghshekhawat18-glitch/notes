@@ -13,6 +13,34 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v075 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 31 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 31)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_31_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_31_AGRICULTURE_ALLIED_LIVESTOCK_RURAL_REVISED.md`), and verification log (`CHAPTER_31_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/32_CHAPTER_31_AGRICULTURE_ALLIED_LIVESTOCK_RURAL.md` and Rapid Revision Matrix 31 (`007/revision/rajasthan/31_REV_CHAPTER_31_AGRICULTURE_ALLIED_LIVESTOCK_RURAL.md`), integrating the historic enactment of the Viksit Bharat—Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB–G RAM G Act, 2025; in force 1 July 2026; repealing MGNREGA with 125-day national statutory guarantee), updating Chief Minister Kisan Samman Nidhi state assistance to ₹3,000 annually, replacing Kamdhenu branding with Mukhyamantri Mangla Pashu Bima Yojana, correcting national crop production rankings (Coarse Cereals Rank 1 vs non-blanket nutri-cereals), adjusting barren land share to 6.85%, establishing DAHD as the livestock census authority, and preserving strict 2015–16 Agriculture Census and 2019 Livestock Census vintages.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Rural Employment Law Transformation (VB–G RAM G Act, 2025)**:
+    - Historic Legislative Enactment: The Viksit Bharat—Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 received Presidential assent in December 2025 and came into force on **1 July 2026**, completely repealing MGNREGA, 2005.
+    - Statutory Guarantee: Provides a **125-day national statutory guarantee** of wage employment per rural household per financial year. Replaced the obsolete "100 central + 25 state" framework description.
+  - **Farmer Support & State Top-Ups**:
+    - **Chief Minister Kisan Samman Nidhi**: Annual state assistance officially increased from ₹2,000 to **₹3,000 per year** in the 2025–26 Budget (fourth instalment paid ₹717.96 crore to 71.79 lakh farmers). Total annual farmer support combines to **₹9,000** (₹6,000 PM-KISAN + ₹3,000 State).
+    - **Separate Agriculture Budget**: First presented in **2022–23**; Budget Study 2026–27 provides **₹1,19,408.11 crore** across the cross-sector "Agriculture, Farmer Welfare & Allied Activities" category (with ₹69,422.99 crore state budget component; distinct from standalone departmental spending).
+  - **Animal Husbandry & Risk Management**:
+    - **Mukhyamantri Mangla Pashu Bima Yojana**: Highlighted as the current operative livestock insurance scheme in Budget 2026–27 (target: 42 lakh animals; ₹100 crore allocation; superseding earlier Kamdhenu branding).
+    - **Gopal Credit Card Loan Scheme**: Interest-free short-term loans up to **₹1 lakh** for dairy infrastructure/feed (2026–27 outcome target: 1 lakh gopalaks, ₹80 crore).
+    - **Livestock GVA Economic Weight**: Estimated at approximately **₹2.17 lakh crore** at current prices (exceeding crop sector GVA in Rajasthan). In livestock-product Gross Value of Output (GVO), **milk accounts for 79.60%**.
+    - **20th Livestock Census (2019)**: Quinquennial national census coordinated by **DAHD** (not Board of Revenue Ajmer). Total livestock: 56.8 million (Rank #2 in India). Goats: 20.84M (Rank #1); Camels: 0.213M (84.43% of India; fell −34.69%); Poultry surged +82.23% (14.65M).
+  - **National Crop Production Standings (2023–24 Review)**:
+    - **Rank 1**: Rapeseed-Mustard (43.43%), Bajra (41.34%), Total Oilseeds (23.61%), **Coarse Cereals (14.21%)**, Guar (88.80%). Differentiated coarse cereals from blanket nutri-cereal claims.
+    - **Rank 2**: Groundnut (19.91%).
+    - **Rank 3**: Gram (17.39%), Total Pulses (13.76%), Soybean (8.96%).
+  - **Land Use & Operational Holdings**:
+    - **Land Use (2024–25 Provisional)**: Reporting area **343.43 lakh ha**; Net Sown Area **53.02%**; Culturable waste 10.11%; Forest category 8.30%; Barren & unculturable land **6.85%** (~23.53 lakh ha).
+    - **Agriculture Census 2015–16**: 76.55 lakh operational holdings; average size 2.73 ha; small + marginal holdings constitute 62.02%; female operational holdings stand at 7.75 lakh (10.12% of total holdings; operational holding != legal title).
+    - **Agro-Climatic Zones**: 10 official zones; largest by area is Zone I-C (Hyper-Arid Partially Irrigated Plain); smallest is Zone IV-B (Humid Southern Plain).
+
 ### [STAGED LOCAL] v074 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 30 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
