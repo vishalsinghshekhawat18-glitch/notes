@@ -15,9 +15,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ---
 
-### [STAGED LOCAL] v071 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 27 Benchmark Audit Harmonization
+### [RELEASED v071] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 27 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `9c10c4e`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 27)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_27_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_27_STATE_ADMINISTRATION_DISTRICT_REVENUE_REVISED.md`).
@@ -42,9 +42,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - **Mutation (*Namantaran*)**: Purely fiscal/revenue register entry for updating revenue liability; does NOT confer, create, or extinguish legal proprietary title.
     - **Board of Revenue for Rajasthan (Ajmer)**: Constituted under Section 4 of Rajasthan Land Revenue Act, 1956. Composition: Chairman + between 3 and 20 other members (maximum 21 total). Acts as the apex court of revenue appeal, revision, and reference (Section 8).
 
-### [STAGED LOCAL] v070 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 26 Benchmark Audit Harmonization
+### [RELEASED v070] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 26 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `02aad2d`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 26)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_26_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_26_CONSTITUTIONAL_STATUTORY_BODIES_REVISED.md`).
@@ -77,9 +77,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
   - **Rajasthan State Commission for Women (RSCW, Act of 1999)**:
     - Composition: Chairperson + up to 4 Members (including Member-Secretary); nominated/appointed by the **State Government** (not the Governor) for a **term of 3 years** (with no statutory age ceiling).
 
-### [STAGED LOCAL] v069 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 25 Benchmark Audit Harmonization
+### [RELEASED v069] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 25 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `6afa3f0`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 25)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_25_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_25_STATE_JUDICIARY_HIGH_COURT_REVISED.md`).
@@ -98,8 +98,8 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - Financial allocation rule strictly maintained: **Salaries/allowances charged on the Consolidated Fund of the State**; **Pensions charged on the Consolidated Fund of India** (Art. 112(3)(d)(iii)).
   - **BNSS 2023 Criminal Procedure Modernization**:
     - Replaced CrPC sections with **Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023**:
-      - **Death Sentence Confirmation**: Under **Section 407 BNSS** (formerly Sec 366 CrPC), the Sessions Court must submit the death sentence to the High Court; under **Section 410 BNSS**, confirmation must be signed by at least **two High Court judges**.
-      - **Criminal Appeals**: Under **Section 415 BNSS**, appeals from convictions lie to the High Court where a sentence of imprisonment **exceeding seven years** is passed (correcting the informal phrase "7 years or more").
+    - **Death Sentence Confirmation**: Under **Section 407 BNSS** (formerly Sec 366 CrPC), the Sessions Court must submit the death sentence to the High Court; under **Section 410 BNSS**, confirmation must be signed by at least **two High Court judges**.
+    - **Criminal Appeals**: Under **Section 415 BNSS**, appeals from convictions lie to the High Court where a sentence of imprisonment **exceeding seven years** is passed (correcting the informal phrase "7 years or more").
   - **ADR Mechanisms & Lok Adalat Jurisprudence**:
     - Lok Adalat awards (under Legal Services Authorities Act, 1987) are deemed civil court decrees; **no ordinary appeal lies** to any court. Extraordinary writ review under Arts. 226/227 remains available on limited grounds (fraud, lack of jurisdiction, natural justice violation).
     - **Regular Lok Adalat vs Permanent Lok Adalat (PLA)**: Regular Lok Adalats are purely conciliatory and cannot decide disputes on merits; PLAs (Section 22B for Public Utility Services) have statutory authority to **decide disputes on merits** if conciliation fails (monetary ceiling up to **₹1 crore** per RSLSA notification).
@@ -108,9 +108,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
     - Corrected High Court pendency: **682,946 pending cases in the High Court alone** (2 Oct 2026 official snapshot: 164,450 civil, 186,806 criminal, 331,690 writs); avoided conflating this with subordinate courts.
     - Disentangled entry-level Civil Judge (RJS cadre) from direct recruitment of District Judges (RHJS cadre, requiring minimum 7 years advocate practice under Art. 233).
 
-### [STAGED LOCAL] v068 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 24 Benchmark Audit Harmonization
+### [RELEASED v068] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 24 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `9ad323d`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 24)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_24_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_24_CONSTITUTIONAL_EXECUTIVE_LEGISLATURE_REVISED.md`).
