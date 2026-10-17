@@ -17,6 +17,41 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v064 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 20 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 20)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_20_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_20_DRAINAGE_SYSTEMS_RIVER_BASINS_LAKES_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/21_CHAPTER_20_DRAINAGE_SYSTEMS_RIVER_BASINS_LAKES.md` and Rapid Revision Matrix 20 (`007/revision/rajasthan/20_REV_CHAPTER_20_DRAINAGE_RIVERS_LAKES.md`), eliminating false geological absolutes, unscientific divide claims, unverified river/dam superlatives, and obsolete administrative names; anchored directly to CGWB, CEA, Ramsar, and the Government of Rajasthan current 41-district framework.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Drainage Architecture & Divide Nuanced**:
+    - Replaced rigid 60.2% / 22.4% / 17.4% constants with approximate textbook proportions (~60% Inland, ~22–23% Bay of Bengal, ~17–18% Arabian Sea), noting that exact percentages vary by map scale and catchment definitions.
+    - Reconstructed the Aravalli drainage divide as a major regional divide trending SW–NE with local saddles, river captures, and interior depressions, rather than an impervious straight barrier.
+    - Grounded the 14-basin framework in CGWB classification, explicitly identifying Category 14 as a grouped set of "Other Nallahs/Desert Catchments" rather than an individual river basin.
+  - **Luni System & Downstream Salinity**:
+    - Salinity downstream of Balotra explained via a multifactor scientific model: intense arid evaporation, evaporitic sediments and saline soils, saline groundwater influx, and low dilution from intermittent flow. Purged single-cause "ancient Tethys Sea capillary halite" claims and unsupported "Antah-Salila" Kalidasa quotes.
+    - Preserved Jojari as the right-bank, non-Aravalli tributary per standard exam maps; anchored Jawai Dam augmentation to the Sei water-diversion tunnel.
+  - **Mahi & Southern Drainage**:
+    - Preserved double crossing of Tropic of Cancer as an Indian geography association, purging unverified global uniqueness absolutes.
+    - Anchored Mahi Bajaj Sagar to CEA official installed hydro capacity of **140 MW** (Stages I & II combined). Clarified Kadana Dam (in Gujarat) and Kagdi pick-up (Banswara).
+  - **Chambal & Banas Systems**:
+    - Traditional ~965 km Chambal length retained as exam usage; 4-dam cascade hydro capacity (~386 MW total: Gandhi Sagar 115 MW, Rana Pratap Sagar 172 MW, Jawahar Sagar 99 MW, Kota Barrage 0 MW) clarified as shared 50:50 per interstate accords.
+    - Chulia Falls (~18 m near Bhainsrorgarh) and Gagron Fort (*Jal Durg* at Ahu–Kali Sindh confluence) verified.
+    - Banas (~480 km conventional) confluences structured: Bigod (Banas + Bedach + Menal), Rajmahal (Banas + Khari + Dai), Rameshwaram (Banas + Chambal). Renaming of Ayad to Bedach after Udaisagar Lake noted.
+  - **Banganga & Gambhir vs Gambhiri**:
+    - Purged pseudo-formal term *"Rundhit Sarita"*; clarified Banganga's seasonal flow feeding Jamwa Ramgarh, Ajan Bund, and Keoladeo.
+    - Strict differentiation between **Gambhir (गम्भीर)** (Karauli/Bharatpur, Panchana Dam with 5 rivulets ➔ Keoladeo/Yamuna) and **Gambhiri (गम्भीरी)** (rises in MP, joins Bedach near Chittorgarh).
+  - **Inland Drainage & Archaeology**:
+    - Ghaggar paleochannels treated as a documented geomorphological phenomenon with ancient Saraswati/Drishadvati link marked as a scientifically debated hypothesis. Clarified Kalibangan as Harappan and Rangmahal as historical.
+    - Kantli (Khandela, Torawati, ~100 km; Ganeshwar and Sunari) and Sabi (Sewar; Jodhpura PGW) verified. Ruparel flow to Moti Jheel and Sujan Ganga canal around Lohagarh documented.
+  - **Limnology (Saline & Freshwater Lakes)**:
+    - Saline lakes explained via closed-basin endorheic drainage, intense evaporation, saline soils, and groundwater, rather than simplistic Tethys remnants.
+    - Sambhar Lake anchored to **Ramsar Site No. 464 (23 March 1990, 24,000 ha)**; Pachpadra salt purity (~98% NaCl) qualified as a harvested batch quality; Didwana salt corrected to industrial sodium sulphate ($Na_2SO_4$).
+    - Jaisamand (Dhebar Lake) updated to **Salumber district** (commissioned by Maharana Jai Singh, 1685–1691 across Gomti; 7 islands).
+    - Nakki Lake: Purged claims of proven volcanic caldera or freezing solid; preserved folk nail-scratching legend as lore.
+    - Raj Prashasti on Nauchowki pal of Rajsamand Lake verified (25 marble slabs, 24 cantos, ~1,106 Sanskrit verses by Ranchhod Bhatt Tailang). Ana Sagar (Arnoraja c. 1135–1150 CE, Baradari by Shah Jahan, Daulat Bagh by Jahangir) reconciled.
+
 ### [STAGED LOCAL] v063 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 19 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
