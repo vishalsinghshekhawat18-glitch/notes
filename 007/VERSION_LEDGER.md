@@ -17,6 +17,44 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v060 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 16 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 16)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_16_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_16_FAIRS_FESTIVALS_CUSTOMS_ORNAMENTS_LITERATURE_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/17_CHAPTER_16_FAIRS_FESTIVALS_CUSTOMS_ORNAMENTS_LITERATURE.md` and Rapid Revision Matrix 16 (`007/revision/rajasthan/16_REV_CHAPTER_16_FAIRS_FESTIVALS_ORNAMENTS.md`), purging unverified superlatives, separating living lore from verified fact, rectifying linguistic and chronological assertions, and achieving complete RBSE Class 10 and Sahitya Akademi alignment.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Lunisolar Calendar Mechanics & Vikram Samvat Precision**:
+    - Replaced the flat "57 years ahead" claim with the astronomical reality that Vikram Samvat runs **roughly 56–57 years ahead** of CE depending on the date, because the lunisolar year commences at a different time. Instructed use of lunar tithis rather than static Gregorian dates.
+  - **Teej & Gangaur Nuancing**:
+    - **Gangaur**: Certified **18-day duration** (Rajasthan Tourism) starting Chaitra Krishna Pratipada and culminating on **Chaitra Shukla Tritiya**. Disentangled local lore: The Bundi drowning legend (*"हाड़ा ले डूब्यो गणगौर"*) and Jaisalmer Gauri sawari "without Isar" are formally labeled as **local traditions/lore**, not certified administrative history.
+    - **Teej**: Hariyali Teej (Shravan Shukla Tritiya, Jaipur) vs Kajli / Satoodi Teej (Bhadrapada Krishna Tritiya, Bundi). Purged claim that performance is "exclusively by women"; noted mixed public spectacles.
+  - **Fairs & Confluences**:
+    - **Baneshwar Fair**: Certified main fair date as **Magh Shukla Purnima**; Triveni Sangam verified as **Mahi, Som, and Jakham**; discarded unverified Ekadashi-to-Purnima duration claim.
+    - **Pushkar Fair**: Retained Rajasthan Tourism framing as "one of the world's largest camel and cattle fairs" (Kartik Purnima); purged hyperbolic "world's largest" absolute.
+    - **Kolayat Fair**: Kapil Muni penance at Kolayat Lake (Kartik Purnima); qualified Charan non-bathing assertion as an ethnographic community legend, not universal behavior.
+    - Preserved full roster: Chandrabhaga (Kartik Purnima, Jhalrapatan), Seetabari (Jyeshtha Amavasya, Baran, Sahariya), Khatu Shyamji, Jeen Mata, Kaila Devi, Diggi Kalyanji, Nagaur, Ajmer Sharif Urs, and Galiyakot Urs (Dawoodi Bohra).
+  - **Sanskaras, Customs & Funerary Rites**:
+    - Formulated a standard 16-item teaching list (Garbhadhana to Antyeshti), explicitly noting classical textual variations.
+    - Disentangled *Samela* (boundary reception), *Madhuparka* (hospitality rite), and *Badhar* (wedding feast) from being treated as synonyms.
+    - Qualified *Dapa* (bride-price) and *Nata/Natra* (remarriage) as community-specific; purged claim that *Baikunthi* is used by all communities (verified via 1961 Census monograph); clarified *Mausar* is not mandatorily fixed to the 12th day; distinguished *Josar* (living feast).
+  - **Costumes, Textiles & Ornaments**:
+    - Disentangled *Lehariya* (diagonal wave stripes) from *Mothara* (intersecting check stripes). *Pomcha* (lotus motif, customary childbirth colors: yellow for son, pink/red for daughter).
+    - Turban styles (Udaishahi, Amarshahi, Swaroopshahi, Jaswantshahi, Khuntedar) categorized as regional fashions rather than rigid caste uniforms.
+    - Ornaments indexed by body region with primary phonetic and structural traps resolved: **Chop** (nose stud) vs **Chup** (tooth pin); **Rkhan** (tooth plate); **Borla** (forehead); **Damna** (two-finger joint ring) vs **Arsi** (mirror thumb ring); **Peepal Patra, Toti, Oganiya, Surliya** (ears).
+  - **Linguistic Classification, Dialects & Sahitya Akademi Records**:
+    - Debunked claim that Grierson "first coined Rajasthani in 1912" (Grierson published *Note on the Principal Rajasthani Dialects* in JRAS in **1901**).
+    - Verified constitutional status: Recognized by **Sahitya Akademi**, but **NOT included in the Eighth Schedule** of the Constitution.
+    - Clarified dialect taxonomy: Disproved rigid 5-dialect myth; sharply disambiguated **Wagdi** (Dungarpur/Banswara, classified under Bhili in Census/LSI) from **Bagri** (northern/north-eastern border belt).
+    - Reframed **Dingal vs Pingal** as fluid literary registers/idioms (Dingal = Marwari bardic verse; Pingal = Braj-influenced verse) rather than rigid geographic or caste binaries.
+    - Synchronized verified award registers:
+      - **Kanhaiyalal Sethia**: Sahitya Akademi Award **1976** for ***Liltans / Leeltans***; *Dharti Dhoran Ri* qualified as cultural song, not constitutional state anthem.
+      - **Vijaydan Detha (Bijji)**: Sahitya Akademi Award **1974** specifically for ***Batan Ri Phulwari*, Volume X**; *Duvidha* adapted into films (*Duvidha*, *Paheli*).
+      - *Veli Krishan Rukmani Ri*: Composed by Prithviraj Rathore of Bikaner (hailed by Dursa Arha as 5th Veda / 19th Purana).
+      - *Vansh Bhaskar*: Suryamal Misran (completed by Muraridana).
+      - *Prithviraj Raso*: Traditionally attributed to Chand Bardai.
+
 ### [STAGED LOCAL] v059 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 15 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
