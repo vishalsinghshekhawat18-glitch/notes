@@ -13,6 +13,36 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v081 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 37 Capstone Grand Synthesis Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 37)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_37_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_37_CAPSTONE_GRAND_SYNTHESIS_REVISED.md`), and verification log (`CHAPTER_37_VERIFICATION_LOG.md`).
+  - Fully cross-audited and harmonized `007/notes/rajasthan/38_CHAPTER_37_CAPSTONE_GRAND_SYNTHESIS_REVISION_VAULT.md` and Rapid Revision Matrix 37 (`007/revision/rajasthan/37_REV_CHAPTER_37_CAPSTONE_GRAND_SYNTHESIS_REVISION_VAULT.md`), unifying the complete 37-chapter codex into an epistemic standard.
+  - Corrected the RPSC Mains syllabus structure to explicitly reflect all **four papers** (GS I, GS II, GS III, and Paper IV General Hindi & General English, 200 marks each; dated 09-01-2026 syllabus), eliminating the omission of Paper IV.
+  - Aligned Rajasthan macro-economic aggregates to official Economic Review 2025–26 Advance Estimates: **GSDP at current prices is ₹18.75 lakh crore** and **at constant (2011–12) prices is ₹9.82 lakh crore**; separated from sectoral GSVA shares (Services 47.71%, Industry 26.55%, Agriculture & allied 25.74%), correcting prior conflation of GSVA totals with GSDP.
+  - Updated forest cover metrics to **ISFR 2023: 16,548.21 sq km (~4.84% of geographical area)** and separated from Recorded Forest Area (RFA: 32,869 sq km, ~9.60%), clarifying that 16,655 sq km / 4.87% was the older ISFR 2021 figure.
+  - Reconciled UNESCO Hill Forts of Rajasthan inscription criteria to **criteria (ii) and (iii)** (inscribed 2013).
+  - Reframed unverified superlatives and guarantees ("Zero Omission", "Golden Test of Total Replacement") into an evidence-scoped, rigorous rapid-recall capstone with explicit source boundaries.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Syllabus & Macro Epistemic Architecture**:
+    - **RPSC Mains Examination Scheme**: 4 Papers (Paper I: General Studies-I, Paper II: General Studies-II, Paper III: General Studies-III, Paper IV: General Hindi and General English; 200 marks each, 3 hours each). Anchor: RPSC notification dated 09-01-2026.
+    - **GSDP & GSVA Precision (2025–26 AE)**: Nominal GSDP: **₹18.75 lakh crore**; Real GSDP: **₹9.82 lakh crore**. GSVA at current prices: Services **47.71%**, Industry **26.55%**, Agriculture & allied **25.74%**.
+    - **Forest Cover (ISFR 2023 Baseline)**: Total forest cover: **16,548.21 sq km (4.84%)** (VDF: 73.73 sq km, MDF: 4,409.77 sq km, OF: 12,064.71 sq km). Recorded Forest Area: **32,869 sq km (9.60%)**.
+  - **Tribal & Demographic Sovereignty**:
+    - **All-India ST Absolute Population Rank #4**: Census 2011 records **9,238,534 ST residents (13.48% of state population)**. Excised outdated "Rank #6" assertion.
+    - **PVTG Exclusivity**: Confirmed **Sahariya** as the sole Particularly Vulnerable Tribal Group in Rajasthan (Baran district).
+    - **Scheduled Areas Order, 2018**: Encompasses **3 Full Districts** (Banswara, Dungarpur, Pratapgarh) and **5 Partial Districts** (Udaipur, Rajsamand, Chittorgarh, Pali, Sirohi), totaling **5,697 villages** with a **70.43% ST population share**.
+    - **Historical Disentanglement**: Pal–Dadhvav Massacre (**7 March 1922**) occurred in Sabarkantha district, **Gujarat** (associated with Motilal Tejawat's Eki movement); unverified "Neemra Massacre in Rajasthan" rejected. Mangarh gathering (**17 November 1913**) led by Govind Guru cited as ~1,500 commemorative estimate.
+    - **Sagri Repeal**: Rajasthan Sagri System Abolition Act, 1961 was **repealed** by the 1976 Repeal Act; current operative statute is the central **Bonded Labour System (Abolition) Act, 1976**.
+  - **Sports Governance & Historical Accuracy**:
+    - **RSSC Inception**: Established in **1958** (not 1957) under Societies Registration Act, 1958; first camp at Mount Abu in 1959.
+    - **Out-of-Turn Appointments Rules, 2017**: Strictly **excludes RAS**; specifies DySP/RPS, ACF, Asst Excise Officer, Coach, PTI, Sub-Inspector.
+    - **2% Sports Quota**: Restricted to direct recruitments outside RPSC purview.
+    - **Mass Participation Certification**: 2022 Rural Olympics certified by **World Book of Records** (~30L registered players across 11,341 GPs).
+    - **State Game**: Basketball state game declaration in 1948 qualified as unverified by primary gazette order.
+
 ### [RELEASED v080] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 36 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: `f39b3c5`
