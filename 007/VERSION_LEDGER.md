@@ -13,6 +13,35 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v078 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 34 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 34)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_34_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_34_SOCIAL_WELFARE_HEALTH_EDUCATION_POVERTY_REVISED.md`), and verification log (`CHAPTER_34_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/35_CHAPTER_34_SOCIAL_WELFARE_HEALTH_EDUCATION_POVERTY.md` and Rapid Revision Matrix 34 (`007/revision/rajasthan/34_REV_CHAPTER_34_SOCIAL_WELFARE_HEALTH_EDUCATION_POVERTY.md`), integrating the historic enactment of the VB–G RAM G Act, 2025 (in force 1 July 2026; repealing MGNREGA with a national 125-day statutory guarantee; rendering the old "100 central + 25 state" formula obsolete), correcting the formal statutory title of the Right to Health Act to Rajasthan Right to Health Act, 2022 (qualifying emergency care without prepayment and dispelling blanket free private treatment claims), elevating Lado Protsahan Yojana (₹1.50 lakh in 7 milestone instalments; w.e.f. 1 August 2024) as the current headline girl-child scheme over historical Rajshri (₹50k in 6 instalments), correcting MMMPY second-child maternity benefit to ₹6,000 in 3 instalments (not 5), establishing social security pension baseline at ₹1,250/month (with statutory 15% annual escalation: 5% July + 10% January under MGI Act 2023), locking MAA family coverage/wallet at ₹25 lakh, articulating free medicine counts (1,238 medicines, 428 surgicals, 156 sutures) vs total combined EDL/NRD inventory (1,829 items), distinguishing school milk (Pannadhay Bal Gopal, 6 days/week) from Anganwadi milk (Mukhyamantri Amrit Aahar), and verifying Palanhar rates (orphans ₹1,500/₹2,500; ₹2,000 annual clothes grant; inception 8 Feb 2005) and Silicosis Policy 2019 financial triad (₹3L cert, ₹2L death, ₹1,500/mo pension).
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Statutory Rights & Employment Guarantees**:
+    - **VB–G RAM G Act, 2025 Transition**: Came into force on **1 July 2026**, repealing MGNREGA and providing a **125-day national statutory wage employment guarantee** to eligible rural households. Marked the old "100 days MGNREGA + 25 state days" formula as historical and warned against unverified 150-day stacking claims.
+    - **Rajasthan Right to Health Act, 2022**: Restored formal statutory title (passed 2023). Articulated defined emergency scope (accidents, animal bites, designated emergencies) without prepayment at qualified facilities with state reimbursement, clarifying that it does not grant unlimited free elective private care.
+    - **Minimum Guaranteed Income Act, 2023**: Guarantees **125 days urban wage employment** and statutory social security pensions with a **15% annual increase in two unequal instalments (5% on 1 July + 10% on 1 January)**.
+  - **Health Assurance & Free Medical Schemes**:
+    - **Mukhyamantri Ayushman Arogya (MAA)**: Official Health Department documentation defines a **₹25 lakh family wallet/coverage** (disproving unverified ₹25–50 lakh claims). 132 new packages added in 2025–26; active interstate portability; differentiated from RGHS.
+    - **Free Medicines (MNDY)**: Launched **2 October 2011**; **RMSCL** incorporated **4 May 2011**. Economic Review lists **1,238 medicines, 428 surgical items, and 156 sutures**. Disentangled from department webpage's 1,829 combined EDL/NRD facility items.
+    - **Free Diagnostics (MNJY)**: Launched **7 April 2013**; test panels vary by facility tier (PHC vs CHC vs Medical College Hospital), eliminating blanket 90–133 claims.
+  - **Life-Cycle Cash Transfers & Child Welfare**:
+    - **Lado Protsahan Yojana**: Implemented from **1 August 2024** as the headline girl-child scheme, providing **₹1.50 lakh in 7 milestone-linked instalments** (3.27 lakh beneficiaries up to Dec 2025). Mukhyamantri Rajshri Yojana preserved as historical framework.
+    - **Maternity Support (MMMPY)**: Reconciled to **₹6,000 for the second child paid in 3 instalments** (corrected from 5 instalments). Central PMMVY covers the first child.
+    - **Palanhar Yojana**: Launched **8 February 2005**. Orphan children receive **₹1,500/mo (age 0–6)** and **₹2,500/mo (age 6–18)**; other eligible categories receive **₹750/mo (0–6)** and **₹1,500/mo (6–18)**; annual lump sum of **₹2,000** for clothing/shoes.
+    - **Social Security Pensions Baseline**: Current baseline established at **₹1,250 per month** (replacing older ₹1,150/mo). Special categories: Leprosy-cured: **₹2,500/mo**; Silicosis patient: **₹1,500/mo**.
+  - **Nutrition & Targeted Welfare**:
+    - **Milk Schemes Segregation**: Schoolchildren receive skimmed milk under **Pannadhay Bal Gopal Yojana** (150 ml primary / 200 ml upper primary, **6 days/week**); Anganwadi children (3–6 yrs) receive milk under **Mukhyamantri Amrit Aahar** (launched 14 Dec 2024).
+    - **Shree Annapurna Rasoi**: Beneficiary pays **₹8**, state subsidy **₹22** (total notional cost ₹30); meal target is **600 grams** (300g chapati, 100g dal, 100g veg, 100g rice/khichdi + pickle).
+    - **Silicosis Policy 2019**: Notified **3 October 2019** (first in India). Entitlements: **₹3 lakh** upon medical board certification, **₹2 lakh** to family upon death, **₹1,500/month** patient pension, and **₹10,000** funeral assistance.
+  - **Demographic & Educational Baselines**:
+    - **Census 2011 Literacy**: Total **66.11%** (Male 79.19%, Female **52.12%** — 2nd lowest in India after Bihar; rural female **45.80%**; gender gap **27.07%**). Extreme districts: Highest Total & Female: **Kota (76.56% & 65.88%)**; Highest Male: **Jhunjhunu (86.90%)**; Lowest Total & Female: **Jalore (54.86% & 38.47%)**; Lowest Male: **Pratapgarh (69.50%)**. All tied to old 33-district map.
+    - **NFHS-5 (2019–21)**: Anaemia in women 15–49: **54.4%**; children 6–59 months: **71.5%**.
+
 ### [STAGED LOCAL] v077 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 33 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
