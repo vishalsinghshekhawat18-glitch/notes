@@ -17,6 +17,46 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v062 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 18 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 18)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_18_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_18_MORPHOTECTONIC_DIVISIONS_RAJASTHAN_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/19_CHAPTER_18_MORPHOTECTONIC_DIVISIONS_OF_RAJASTHAN.md` and Rapid Revision Matrix 18 (`007/revision/rajasthan/18_REV_CHAPTER_18_MORPHOTECTONIC_DIVISIONS.md`), removing conceptual errors (Gondwana vs Tethys oversimplification, "Vindhyan basalt", 800-km suture zone, Johad as a well), synchronizing area shares with Rajasthan Foundation, and anchoring Ramgarh Crater to the 2024 Rajasthan Gazette notification.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Tectonic Framework & Geological Rectification**:
+    - Discarded the simplistic two-part "Gondwanaland vs Tethys Sea" binary. Replaced with process-based geology:
+      - **Aravalli Range**: Ancient **Precambrian fold belt** with complex metamorphic/igneous rocks (one of the world's older mountain systems, not "the oldest fold chain on Earth").
+      - **Hadoti Plateau**: Mixed province composed of **Vindhyan sedimentary scarplands** (sandstone, limestone, shale) and **Deccan Trap basaltic lava flows** (Late Cretaceous volcanism). Purged the scientifically erroneous term "Vindhyan basalt".
+      - **Eastern Plains**: River-deposited and river-modified alluvium (Banas, Banganga, Chambal, Mahi); not a direct Tethys Sea deposit.
+      - **Western Sandy Plain**: Quaternary wind-blown sand over a complex sedimentary/crystalline basement. Marine fossils record past marine transgressions, but the desert is not a direct remnant of the Tethys.
+  - **Great Boundary Fault (GBF) Nuancing**:
+    - Reclassified from an uncontested "800-km reverse fault/suture zone" to a major structural fault zone in south-eastern Rajasthan separating older Aravalli/Bhilwara basement rocks from the Vindhyan succession, with the Rajasthan segment commonly described as several hundred kilometres (~400 km).
+  - **Area Percentages & Administrative Realities**:
+    - Acknowledged difference between standard coaching shorthand (61% / 9% / 23% / 7%) and official **Rajasthan Foundation** figures: **Eastern Plains ~23.3%** and **Hadoti ~9.6%**.
+    - Removed arbitrary population figures (40/10/39/11) from authoritative claims, framing them as conventional coaching estimates.
+    - Updated district context: 41 districts listed in 2026 government pages (Balotra, Beawar, Didwana-Kuchaman, Salumbar, etc.); physical geography boundaries do not change with district lines.
+  - **Western Sandy Plain & Aeolian Landforms**:
+    - Clarified **50 cm** (eastern divide) and **25 cm isohyets** (Marusthali <25 cm vs Bagar 25–50 cm) as dynamic climatic guides rather than permanent administrative boundaries.
+    - Anchored sand dune coverage at **~58%** based on CAZRI literature (alongside coaching split of 58.5% dune-covered and 41.5% dune-poor/free).
+    - Described **Parabolic dunes** as prominent and widespread in CAZRI studies (softening unverified claims of presence in "every single district"); defined **Barchan dunes** as mobile crescent forms with horns pointing downwind.
+    - **Akal Wood Fossil Park**: Located ~15–17 km from Jaisalmer; preserves petrified logs from the **Jurassic period (~180 Ma)** proving a wetter prehistoric forested landscape (removed unverified "equatorial rainforest" assertion).
+    - **Lathi Formation**: Jurassic sandstone groundwater aquifer; Chandan well nicknamed *"Thar ka Ghada"*; Saraswati paleochannel links framed cautiously as a debated scientific hypothesis.
+  - **Semi-Arid Transition (Bagar) Terminology**:
+    - Rectified definition of **Johad**: Traditional **rainwater-harvesting earthen check-dam or storage pond**, NOT a well drilled into limestone.
+    - Clarified **Beed**: Community or village grazing reserve.
+    - Defined **Kobar / Banka Patti**: Regional public health term for the high-fluoride groundwater belt (Nagaur–Didwana–Ajmer), not a distinct geological layer.
+    - Disambiguated **Chhappan ka Maidan** (Mahi river plain, Banswara/Pratapgarh; 56 streams/villages traditional etymology) from **Chhappan ki Pahadiyan** (Siwana/Balotra granite hills).
+    - Qualified **Kanthal**: Inland riverbank/edge corridor of Mahi in Pratapgarh (NOT a marine coastal plain).
+  - **Aravalli Ranges, Peaks & Plateaus**:
+    - Verified range length: **~692 km total** (Rajasthan Foundation) and **~550 km in Rajasthan (~80%)**.
+    - Anchored highest peak: **Guru Shikhar at 1,722 m** (per official Rajasthan Tourism; older 1,727 m includes summit structure). Northern peak: **Raghunathgarh (1,055 m)**.
+    - Plateaus: **Oriya Plateau (~1,360 m)**, highest in Rajasthan; **Bhorat Plateau (~1,225 m)**, continental drainage divide between Kumbhalgarh and Gogunda; **Lashadiya Plateau** (dissected plateau in Salumbar/Udaipur).
+    - Local relief: **Bhakar** (steep jagged hills in western Sirohi); **Girwa** (girdle of hills encircling Udaipur basin); **Desh-Haro** (green valley between Jarga and Raga).
+  - **Ramgarh Crater Gazette Synchronization**:
+    - Anchored directly to **Rajasthan Gazette Notification S.O. 579 of 16 March 2024**: Located in **Kishanganj tehsil, Baran district**; declared a **National Geo-Heritage Site**; diameter **~3.2 km**; estimated age **~165 million years** (completely discarded outdated 75,000-year lore!).
+
 ### [STAGED LOCAL] v061 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 17 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
