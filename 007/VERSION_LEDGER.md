@@ -17,6 +17,39 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ## Release History
 
+### [STAGED LOCAL] v068 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 24 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 24)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_24_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_24_CONSTITUTIONAL_EXECUTIVE_LEGISLATURE_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/25_CHAPTER_24_CONSTITUTIONAL_EXECUTIVE_LEGISLATURE.md` and Rapid Revision Matrix 24 (`007/revision/rajasthan/24_REV_CHAPTER_24_CONSTITUTIONAL_EXECUTIVE_LEGISLATURE.md`), incorporating the Supreme Court's 20 November 2025 Advisory Opinion (2025 INSC 1333) on Bill assent under Article 200, refining Governor discretionary and clemency powers, correcting historical tenures and President's Rule episodes, updating Fifth Schedule Scheduled Areas, and synchronizing with current 16th Vidhan Sabha coordinates.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Governor's Office & Constitutional Boundaries**:
+    - Grounded the Governor's status in the Supreme Court ruling in ***Hargovind Pant v. Dr. Raghukul Tilak* (1979)**: high constitutional office, NOT employment or agency under the Union Government.
+    - Clarified that discretion under Article 163 is constitutionally bounded; rejected claims that Article 163(2) makes any claimed discretion non-justiciable (courts can verify the existence and constitutional compliance of discretion).
+    - **Clemency Nuance (Art. 161)**: Clarified that while the Governor cannot grant a full pardon for a death sentence (solely President under Art. 72), the Governor does have the power to suspend, remit, or commute death sentences.
+  - **Landmark Supreme Court Advisory Opinion on Bill Assent (20 Nov 2025; 2025 INSC 1333)**:
+    - Integrated the constitutional doctrine ruling out judicially imposed fixed timelines on the Governor or President under Articles 200/201.
+    - Explicitly rejected the concept of court-declared "deemed assent".
+    - Established that when a returned non-money bill is repassed by the Assembly, the Governor **cannot withhold assent a second time**; the Governor must either grant assent or reserve it for the President.
+    - Distinguished commission proposals (e.g. Punchhi Commission 6-month recommendation) from active constitutional law.
+  - **Fifth Schedule Administration Precision**:
+    - Identified Scheduled Areas: Full districts (**Banswara, Dungarpur, Pratapgarh**) and partial areas in **Udaipur, Rajsamand, Chittorgarh, Pali, and Sirohi**. Disentangled statutory Scheduled Areas from administrative TSP labels.
+  - **Historical Chronology & President's Rule Refinements**:
+    - First Governor Gurmukh Nihal Singh's tenure verified as **1 Nov 1956 – 15 April 1962** (Dr. Sampurnanand assumed office 16 April 1962).
+    - Four President's Rule episodes aligned with official Rajasthan Assembly House records:
+      1. **1967** (13 Mar – 26 Apr 1967; 44 days — shortest; Sampurnanand served till 15 April, Hukum Singh took over 16 April).
+      2. **1977** (30 Apr – 21 Jun 1977; 53 days; acting Governor Vedpal Tyagi).
+      3. **1980** (17 Feb – 5 Jun 1980; 110 days; Governor Raghukul Tilak).
+      4. **1992–1993** (15 Dec 1992 – 3 Dec 1993; 354 days — longest; Dr. M. Chenna Reddy).
+    - Chief Ministers: Distinguished pre-election nominated CM (Hiralal Shastri), transitional ICS CM (C.S. Venkatachari), first elected CM (Tika Ram Paliwal), both nominated and elected (Jai Narayan Vyas), and shortest tenure (Hiralal Devpura, 16 days).
+    - Corrected the "three women in top offices" chronology: Vasundhara Raje (CM), Sumitra Singh (Speaker), and Pratibha Patil (Governor) coincided between **November 2004 and June 2007** (NOT throughout 2003).
+  - **Legislature Architecture (16th Vidhan Sabha, Oct 2026 Baseline)**:
+    - Unicameral House (200 seats); seat progression documented (160 in 1952 ➔ 176 in 1957 ➔ 184 in 1967 ➔ 200 in 1977). Total seats frozen by 84th Amendment until figures of the first census after 2026 are published.
+    - Seat reservation: **SC = 34 seats (17.0%)**, **ST = 25 seats (12.5%)**, **Unreserved = 141 seats (70.5%)**. Quorum = 20 members.
+    - Current leadership synchronized: Speaker Vasudev Devnani, Leader of House Bhajan Lal Sharma, Leader of Opposition Tika Ram Jully.
+
 ### [STAGED LOCAL] v067 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 23 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
