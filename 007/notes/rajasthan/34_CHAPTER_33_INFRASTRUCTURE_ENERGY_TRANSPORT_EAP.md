@@ -1,469 +1,304 @@
-# CHAPTER 33: State Infrastructure, Energy Architecture, Transport Networks & Externally Aided Projects (EAPs)
+# CHAPTER 33: State Infrastructure, Energy, Transport Networks & Externally Aided Projects
+
+> **RPSC RAS revision edition | Current-information cut-off: 17 October 2026**  
+> This chapter distinguishes historical facts, dated statistics, active projects, and policy targets. Installed capacity is not the same as electricity generated or allocated to a state. Project announcements, construction, commissioning and commercial operation are also different stages.
+
+## 33.1 Infrastructure: strategic context
+
+Rajasthan's size, arid climate, distance from seaports, dispersed settlements and uneven distribution of water and mineral resources make infrastructure central to economic development. Major infrastructure themes include electricity generation and transmission, renewable-energy evacuation, roads and expressways, rail and freight corridors, airports, urban water and sanitation, irrigation, and externally aided projects (EAPs).
+
+The state’s long-term development agenda includes the **Viksit Rajasthan @2047** vision. For exam use, do not attach an unverified target year to the proposed **US$350-billion economy** aspiration: use the exact target year and wording from the latest budget speech or official vision document prescribed for the examination.
+
+### Why infrastructure matters
+
+- **Economic integration:** connects industrial, mining, agricultural and tourism centres to domestic and export markets.
+- **Regional equity:** reduces the access gap between more urbanised eastern/south-eastern areas and sparsely settled western areas.
+- **Energy transition:** renewable generation requires matching transmission capacity, storage and flexible grid operation.
+- **Human development:** water supply, sewerage, rural roads and reliable power improve health, education and productive activity.
+- **Public-finance challenge:** roads, transmission, water systems and urban services require significant capital expenditure and sustainable operation-and-maintenance funding.
+
+## 33.2 Electricity: institutions, capacity and statistical caution
+
+### 33.2.1 Current renewable-energy snapshot
+
+The Government of Rajasthan's renewable-energy investor portal reports the following figures **as of 30 September 2026**:
+
+| Indicator | Official portal figure | Interpretation |
+|---|---:|---|
+| Total installed renewable-energy capacity | **51,595.50 MW** | Rajasthan ranks second among states in total renewable capacity on this portal's reporting basis. |
+| Solar installed capacity | **45,121.44 MW** | Rajasthan ranks first nationally in solar capacity. |
+| Wind installed capacity | **5,815.29 MW** | Rajasthan ranks fifth nationally in wind capacity. |
+| Renewable share of total installed power capacity | **About 77.53%** | Portal-reported share; do not combine with a different statistical series without checking definitions. |
+| Renewable electricity generated in FY 2025–26 | **69.12 billion units (BU)** | Energy generated, not installed capacity. The portal reports Rajasthan ranked first by renewable generation for that year. |
+
+**Important statistical warning:** the Rajasthan Economic Review 2025–26's Table 7.1 reports a different total installed-capacity series—**31,556.43 MW up to December 2025**—and a solar row that does not reconcile with the state's current renewable-energy portal. These figures cannot be treated as one continuous series. For a question explicitly based on the Economic Review, quote the figure and reference date shown in that publication; for current renewable capacity, use the latest dated state renewable-energy portal and check the latest Central Electricity Authority (CEA) state-wise table. Do not silently combine the two datasets.
+
+### 33.2.2 The five legacy electricity companies
+
+Rajasthan's former State Electricity Board was unbundled in July 2000 into five principal successor corporations:
+
+| Company | Main function |
+|---|---|
+| **RVUNL** — Rajasthan Rajya Vidyut Utpadan Nigam Ltd. | State-owned electricity generation. |
+| **RVPNL** — Rajasthan Rajya Vidyut Prasaran Nigam Ltd. | Intra-state transmission and grid infrastructure. |
+| **JVVNL** — Jaipur Vidyut Vitran Nigam Ltd. | Electricity distribution in its licensed supply area. |
+| **AVVNL** — Ajmer Vidyut Vitran Nigam Ltd. | Electricity distribution in its licensed supply area. |
+| **JdVVNL** — Jodhpur Vidyut Vitran Nigam Ltd. | Electricity distribution in its licensed supply area. |
+
+**RRECL/RREC** (Rajasthan Renewable Energy Corporation Ltd.) is a separate renewable-energy development agency. It was formed on 9 August 2002 by merging the Rajasthan Energy Development Agency (REDA) and Rajasthan State Power Corporation Ltd. (RSPCL). It is not a sixth successor from the RSEB unbundling.
+
+**Exam caution:** avoid memorising long district lists for the three DISCOMs from older material. District boundaries have changed and supply areas are governed by licensing/administrative arrangements; use a current official utility map if a district-level question requires it.
+
+## 33.3 Conventional electricity generation
+
+### 33.3.1 Important thermal power stations
+
+The following table gives commonly examined stations and unit-capacity configurations. Unit status and actual availability can change; installed capacity is not proof that every unit is operating at a given moment.
+
+| Station | District/area | Installed capacity commonly listed | High-yield note |
+|---|---|---:|---|
+| Suratgarh Super Thermal Power Station | Sri Ganganagar | **2,820 MW** | Coal-based; includes six 250-MW units and two 660-MW units in the configuration commonly reported. |
+| Chhabra Thermal Power Station | Baran | **2,320 MW** | Coal-based; four 250-MW units and two 660-MW units in the commonly reported configuration. |
+| Kota Super Thermal Power Station | Kota | **1,240 MW** | Located on the Chambal; verify unit status separately if asked about operational units. |
+| Kalisindh Thermal Power Station | Jhalawar | **1,200 MW** | Two 600-MW units. The source's claim of two 660-MW units is arithmetically and factually inconsistent with this installed-capacity figure. |
+| Giral Lignite Thermal Power Station | Barmer | **250 MW** | Lignite-based plant. |
+| Barsingsar Lignite Power Station | Bikaner | **250 MW** | Lignite-based; operated by NLC India Ltd. |
+| Kawai Thermal Power Station | Baran | **1,320 MW** | Private-sector coal-based station operated by Adani Power. |
+
+The phrase **“state-owned thermal capacity”** must not be used interchangeably with **“all thermal capacity located in Rajasthan.”** The latter may include central-sector allocations and private independent power producers.
+
+### 33.3.2 Hydro-electric projects
+
+- **Chambal basin projects:** Gandhi Sagar (Madhya Pradesh), Rana Pratap Sagar and Jawahar Sagar form the inter-state Chambal hydro system. Installed capacity at a project and Rajasthan's share of its electricity are different measures; do not assume a 50:50 sharing ratio for every component without checking the relevant agreement.
+- **Mahi Bajaj Sagar:** located in Banswara district; the hydroelectric station is commonly listed at **140 MW**. Water allocation and power allocation are separate legal/operational questions. The original source's “55% Gujarat / 45% Rajasthan water share but 100% of power to Rajasthan” claim should not be memorised without the underlying agreement or an official project source.
+- **Inter-state projects:** Bhakra-Nangal and Beas allocations are governed by specific inter-state arrangements. Avoid a single percentage or MW claim unless the question identifies the relevant project/component and the current official allocation table.
+
+### 33.3.3 Nuclear power
+
+**Rajasthan Atomic Power Station/Project (RAPS/RAPP), Rawatbhata, near Kota:**
+
+- RAPS-1 and RAPS-2 are the early Canadian-assisted PHWR units; units 3–6 are 220-MW PHWRs.
+- The combined nameplate capacity of units 1–6 is **1,180 MW** (100 + 200 + 4 × 220 MW).
+- **RAPP-7 (700 MW)** entered commercial operation on 15 April 2025. Accordingly, an “operating units 1–6 / 1,180 MW” statement is an old baseline, not the complete current operating-unit picture.
+- RAPP-8 is a 700-MW PHWR project listed by NPCIL as under construction; construction status should be checked on the NPCIL project page before each exam cycle.
+- **Mahi Banswara Rajasthan Atomic Power Project:** comprises **four indigenous 700-MW PHWR units (2,800 MW total)**. The foundation stone was laid on 25 September 2025. It is being implemented by ASHVINI, the NPCIL–NTPC joint venture. Foundation laying is not the same as commissioning.
+
+### 33.3.4 Gas-based stations
+
+- **Anta Gas Power Station, Baran:** NTPC combined-cycle gas station; NTPC documents list capacity at about **419.33 MW**.
+- **Dholpur Combined Cycle Power Station:** state-sector gas-based station, historically listed at about 330 MW.
+- **Ramgarh Gas Thermal Power Station, Jaisalmer:** important gas-based station in western Rajasthan.
+
+Fuel source, installed capacity, current gas availability and actual generation are separate facts. Avoid asserting a plant is continuously generating at nameplate capacity unless supported by current generation/outage data.
+
+## 33.4 Renewable energy: solar, wind, biomass and storage
+
+### 33.4.1 Solar and wind leadership
+
+Rajasthan's strong solar resource, substantial land availability and good wind-resource areas support large-scale renewable generation. The current state portal reports **45,121.44 MW of solar** and **5,815.29 MW of wind installed capacity as of 30 September 2026**. These figures replace older chapter figures of >22 GW solar and 5.2–5.4 GW wind.
+
+Older resource-potential estimates and newer resource-potential estimates use different assessment methods. For exams, keep **installed capacity**, **technical/economic potential**, **tendered capacity**, **under-construction capacity** and **policy targets** in separate columns.
+
+### 33.4.2 Policy target: distinguish versions
+
+The **Rajasthan Renewable Energy Policy, 2023** set a 2029–30 target of 90 GW of renewable-energy projects, with the notified breakdown of 65 GW solar, 15 GW wind/hybrid, and 10 GW hydro/pumped-storage/battery-storage categories as stated in the policy listing. The state's current renewable-energy investor portal describes a later/upscaled ambition of **125 GW by FY 2029–30**, comprising 90 GW solar, 25 GW wind/hybrid and 10 GW storage/hydro.
+
+These are different policy/roadmap vintages. Do not treat them as identical or claim the older “30 GW by 2024–25” target is still current. When asked for the **notified 2023 policy**, answer from that policy; when asked for the **current state investment-roadmap target**, use the current official portal and identify it as such.
+
+### 33.4.3 Solar parks: status matters
+
+- **Bhadla Solar Park:** a commissioned multi-phase solar park commonly reported at **2,245 MW**. Its current district is Phalodi following district reorganisation (older documents may say Jodhpur).
+- **Nokh, Fatehgarh and Pugal:** important solar-park/development locations. Capacity should be labelled commissioned, under construction, tendered or planned according to the latest official project list. Do not describe all announced capacity as operational.
+- Avoid unqualified claims such as “world's largest solar park” unless the comparison date, metric and current source are specified.
+
+### 33.4.4 PM-KUSUM: components
+
+| Component | Core design |
+|---|---|
+| **A** | Decentralised grid-connected renewable power plants, generally 500 kW to 2 MW under scheme guidelines, including suitable barren/uncultivable land or other eligible locations. |
+| **B** | Stand-alone solar agricultural pumps, particularly for off-grid irrigation. |
+| **C** | Solarisation of grid-connected agricultural pumps and/or agricultural feeders, depending on the sub-component. |
+
+Financial assistance depends on the current scheme guidelines, state top-up, equipment, category and location. Do not state one universal subsidy rate for every beneficiary. Claims about a “first plant in India” or Rajasthan's rank in scheme performance should include an official MNRE/RRECL reference and date; they have been removed from the core memory list here because no sufficiently current primary source was established for the exact phrasing.
+
+### 33.4.5 Wind, biomass and storage
+
+- **Wind:** the current state portal puts Rajasthan fifth in installed wind capacity among states, at 5,815.29 MW in September 2026. This differs from older summaries that simply called Rajasthan a “top-tier” wind state.
+- **Biomass/waste-to-energy:** potential depends on agricultural residues and organic waste; keep capacity potential separate from commissioned capacity.
+- **Storage and transmission:** pumped-storage projects and battery energy storage systems (BESS) are important because variable solar/wind generation needs balancing, firming and transmission capacity. Tendered storage capacity should not be treated as already operational.
+
+## 33.5 Transport infrastructure
+
+### 33.5.1 Roads
+
+The **Rajasthan Economic Review 2025–26** reports the state's classified road network at **335,306 km as of March 2025** and road density at **97.97 km per 100 sq km**. The report lists the following road lengths:
+
+| Classification | Length as of March 2025 |
+|---|---:|
+| National Highways | **10,790 km** |
+| State Highways | **17,316 km** |
+| Major District Roads | **18,234 km** |
+| Other District Roads | **72,822 km** |
+| Village Roads | **216,144 km** |
+| **Total** | **335,306 km** |
+
+PWD-maintained road length was reported separately at **197,051 km**. Do not confuse the whole state road network with the length maintained by PWD.
+
+Rajasthan's road density by area is lower than the national average, reflecting its large geographic area and extensive arid tracts. A per-capita road-length comparison is a different measure and requires a specified population denominator; avoid unsupported claims that one ratio automatically proves better or worse access.
+
+### 33.5.2 Expressways and economic corridors
+
+- **Delhi–Mumbai Expressway:** an access-controlled greenfield expressway linking the National Capital Region to Mumbai. The alignment crosses parts of eastern/south-eastern Rajasthan and connects Jaipur through a spur; it does **not** pass through central Jaipur city. Lengths vary by project stretch and source, so quote total expressway length separately from the Rajasthan segment and do not substitute the WDFC length.
+- **Amritsar–Jamnagar Economic Corridor:** links north-western agricultural/industrial areas with petroleum, industrial and port nodes in Gujarat and Rajasthan. The exact route, district list and length should follow the current NHAI alignment map. Do not memorise the four-district list in the original source as exhaustive.
+- **Delhi–Mumbai Industrial Corridor (DMIC)** and the **Western Dedicated Freight Corridor (WDFC)** are related but different initiatives: DMIC is an industrial-development corridor/programme; WDFC is a dedicated freight railway corridor. The often-quoted 548-km Rajasthan figure refers to a freight-corridor/associated alignment measure, not the length of the Delhi–Mumbai Expressway. Label the metric and source whenever using it.
+- **RIDCOR:** the Road Infrastructure Development Company of Rajasthan was established as a joint venture between the Government of Rajasthan and IL&FS to implement road-infrastructure projects. Historic JV shareholding should be described as a historical arrangement, not assumed to represent today's operational/financial position without current corporate confirmation.
+
+### 33.5.3 Railways and freight
+
+**North Western Railway (NWR)** was formed on 1 October 2002 and is headquartered in Jaipur. Its four operating divisions are Jaipur, Ajmer, Bikaner and Jodhpur. **Kota division belongs to West Central Railway (WCR), headquartered at Jabalpur**, not NWR.
+
+The **Western Dedicated Freight Corridor** is a freight railway corridor connecting the Dadri/NCR area to the JNPT/Mumbai region. Its total corridor length and the portion inside Rajasthan are distinct from DMIC and expressway lengths. Use Dedicated Freight Corridor Corporation of India Limited (DFCCIL) maps for current route details.
+
+### 33.5.4 Civil aviation
+
+- **Jaipur International Airport (Sanganer):** Rajasthan's principal international airport.
+- **Maharana Pratap Airport, Udaipur (Dabok):** serves the Mewar tourism region.
+- **Jodhpur and Bikaner/Nal:** airports with civil-military/shared-use arrangements.
+- **Jaisalmer:** services may be seasonal and depend on airline schedules.
+- **Kishangarh Airport:** serves the Ajmer–Pushkar–Kishangarh region.
+- **Kota airport proposals:** distinguish an announced/planned greenfield airport from an operational commercial airport; project status is date-sensitive.
+
+## 33.6 Public–Private Partnerships (PPP), VGF and Swiss Challenge
+
+### Public–Private Partnership
+A PPP is a long-term arrangement in which a public authority and private participant share responsibilities and risks for an infrastructure asset/service. Contract design differs by model (e.g., BOT, HAM, O&M or concession). “PPP” does not mean the government has transferred every risk to the private partner.
+
+### Viability Gap Funding (VGF)
+The Government of India's VGF scheme supports economically desirable but commercially marginal PPP projects. Under the general infrastructure window, grant support may reach **up to 40% of total project cost** (normally up to 20% central support and up to 20% state/implementing-authority support, subject to the scheme). Certain eligible social-sector categories have separate, higher limits. It is inaccurate to present 40% as an automatic grant for every infrastructure project: eligibility, approvals, competitive bidding and scheme conditions apply.
+
+### Swiss Challenge
+Under Rule 79A and following provisions of the **Rajasthan Transparency in Public Procurement Rules, 2013**, the Swiss Challenge method allows an unsolicited proposal in eligible sectors to be challenged through an open process. A qualifying original proposer may be permitted to match the most advantageous/competitive offer under the rules.
+
+Important legal nuances:
+- it applies only to eligible sectors and proposals that meet procedural requirements;
+- Rajasthan's Finance Department FAQ identifies a minimum proposal threshold of **₹50 crore** under the relevant rule;
+- the method is authorised through the **RTPP Rules**, not accurately described as an unlimited general power created by the Act alone.
+
+## 33.7 Externally Aided Projects (EAPs)
+
+EAPs usually combine external loans/grants or technical assistance with counterpart funding and implementing agencies in India. A lender's participation does not by itself tell you whether a project is active, closed, under additional financing or only proposed.
+
+| Institution | Project/programme | Main verified role/status note |
+|---|---|---|
+| **Asian Development Bank (ADB)** | Rajasthan Urban Infrastructure Development Project (RUIDP) and related urban programmes | Urban water, wastewater, sanitation and municipal infrastructure; RUIDP has operated through multiple phases since 1998. Do not call a phase current without checking its project status page. |
+| **ADB** | Rajasthan Secondary Towns Development Sector Project (RSTDSP) | Water supply and sanitation in at least 14 secondary towns; ADB's current project page lists a closing date of 31 May 2028 for the original loan and reports additional financing. |
+| **ADB** | Rajasthan State Highway Investment Program (RSHIP) | Multi-tranche programme for state highways/major district roads, road safety and PWD capacity. Tranche 2 targeted about 754 km; Tranche 3 about 290 km. Do **not** relabel this as one jointly funded “RSHDP by World Bank and ADB” project without a specific project document. |
+| **Japan International Cooperation Agency (JICA)** | Rajasthan Water Sector Livelihood Improvement Project (RWSLIP), Phases I and II | Rehabilitation of irrigation facilities, better water-use efficiency, farmers' livelihood support, Water Users' Associations and greater participation of women. The two phases have separate agreements and work plans. |
+| **New Development Bank (NDB)** | Rajasthan Water Sector Restructuring Project for the Desert Areas | Rehabilitation/relining of the Indira Gandhi Canal system to reduce seepage, improve water-use efficiency and help address waterlogging. Use this exact project name instead of “Desert Water / IGNP Relining” as if it were the formal title. |
+| **KfW / Government of India / RVPNL** | Green Energy Corridor / transmission strengthening | Transmission infrastructure supports renewable-energy evacuation. State- and phase-specific financing must be checked against the relevant project/loan source; do not assume every Rajasthan green-energy corridor package is KfW-financed. |
+
+### How to write about an EAP in RAS Mains
+Use the following frame: **financing agency → project objective → sector/area → implementing agency → beneficiary/outcome → status and limitations**. If funding mix, number of towns, irrigation command area or closing date is not available from the original lender/implementing-agency source, omit the number rather than guess.
+
+## 33.8 High-yield exam traps
+
+1. **Capacity vs generation:** MW/GW measures installed power capacity; MWh/BU measures electricity generated or consumed over time.
+2. **Current renewables:** state portal (30 September 2026): total renewable 51,595.50 MW; solar 45,121.44 MW; wind 5,815.29 MW. Record the reference date with the numbers.
+3. **Official-series conflict:** the Economic Review's December 2025 capacity table reports a total much lower than the current renewable portal alone. Do not combine the series. Recheck CEA and the state dashboard before an exam update.
+4. **Nuclear:** RAPS units 1–6 total 1,180 MW; RAPP-7 is an additional 700-MW unit and began commercial operation in April 2025. RAPP-8 remained listed as under construction on NPCIL's project page when checked.
+5. **Mahi Bajaj Sagar:** 140-MW hydro station; water allocation and power allocation are separate matters.
+6. **Rajasthan roads:** 335,306 km is the total classified road network as of March 2025; 197,051 km is the PWD-maintained network. They are not interchangeable.
+7. **Road density:** 97.97 km per 100 sq km is an area-density metric, not per-capita road length.
+8. **DMIC vs WDFC vs expressway:** they are not synonyms. Keep industrial corridor, freight railway and road expressway lengths separate.
+9. **Railway division:** Kota belongs to WCR; NWR's four divisions are Jaipur, Ajmer, Bikaner and Jodhpur.
+10. **Renewable target vintages:** the 2023 notified renewable-energy policy and the current investor portal describe different target frameworks. State which one the answer is using.
+11. **PM-KUSUM:** A = decentralised grid-connected plants; B = stand-alone pumps; C = solarisation of grid-connected pumps/feeders. Subsidies depend on applicable rules.
+12. **RAPP-8 and Mahi Banswara:** “under construction” and “foundation stone laid” are status descriptors, not commercial commissioning.
+13. **RUIDP/RSTDSP:** both are associated with ADB urban-sector support; RSHIP is ADB's highway investment programme. Check the particular phase/tranche.
+14. **VGF:** generic infrastructure VGF is up to 40% subject to scheme conditions; it is not an automatic entitlement.
+15. **Swiss Challenge:** a regulated procurement method with limits, eligible sectors and procedural requirements under the RTPP Rules.
+
+## 33.9 Practice questions and answer frameworks
+
+### 2-mark questions
+
+**Q1. State Rajasthan's latest renewable-energy capacity figures and reference date.**  
+**Answer:** The state renewable-energy portal reports 51,595.50 MW total renewable capacity, including 45,121.44 MW solar and 5,815.29 MW wind, as of 30 September 2026. The figures should be quoted with that date and source.
+
+**Q2. Name the four divisions of North Western Railway.**  
+**Answer:** Jaipur, Ajmer, Bikaner and Jodhpur. Kota division belongs to West Central Railway, headquartered at Jabalpur.
+
+**Q3. What is the installed capacity and main purpose of Mahi Banswara Nuclear Power Project?**  
+**Answer:** It comprises four 700-MW indigenous PHWR units (2,800 MW total). It is being implemented by ASHVINI, the NPCIL–NTPC joint venture; its foundation stone was laid in September 2025.
+
+**Q4. Distinguish the Rajasthan total road-network figure from the PWD-maintained length.**  
+**Answer:** The Economic Review reports 335,306 km of classified roads and 197,051 km maintained by PWD, both as of March 2025.
+
+### 5-mark questions
+
+**Q1. Explain why transmission and storage must grow alongside Rajasthan's solar capacity.**
+
+**Answer framework:**
+- Large utility-scale solar and wind additions are geographically concentrated.
+- Generation is variable and does not necessarily match demand through the day.
+- Dedicated intra-state and inter-state transmission is required to evacuate power.
+- Storage (BESS/pumped storage), demand response and flexible generation can shift energy to higher-demand periods.
+- Planning must coordinate renewable tenders, transmission commissioning, land, grid stability and environmental safeguards.
+
+**Q2. Describe Rajasthan's key externally aided infrastructure projects.**
+
+**Answer framework:**
+- ADB: RUIDP/urban programmes and RSTDSP for urban water and sanitation.
+- ADB: RSHIP tranches for state highways, road safety and institutional capacity.
+- JICA: RWSLIP for irrigation rehabilitation, water-use efficiency and farmer livelihoods.
+- NDB: Rajasthan Water Sector Restructuring Project for Desert Areas, focused on the IGNP canal system.
+- Outcomes depend on timely counterpart funding, procurement, land acquisition, safeguards, operation and maintenance, and monitoring after loan disbursement.
+
+**Q3. Explain the purpose and limitation of VGF in PPP infrastructure.**
+
+**Answer framework:** VGF bridges the gap between the economic and financial returns of a socially valuable project; it uses a grant to make a competitively procured PPP commercially feasible. Generic infrastructure support may reach 40% of project cost subject to approval and scheme conditions. VGF should not rescue an inherently unsustainable project or substitute for demand assessment, transparent procurement and long-term maintenance planning.
+
+### 10-mark questions
+
+**Q1. “Rajasthan's renewable-energy advantage depends as much on grid infrastructure as on solar and wind resource.” Critically examine.**
+
+**Answer framework:**
+1. **Introduction:** Rajasthan has high solar resource and a growing renewable portfolio; the state portal reported 51.60 GW renewable capacity at September 2026.
+2. **Opportunities:** solar/wind scale, private investment, green jobs, clean power for industry, rural income opportunities and potential green-hydrogen development.
+3. **Infrastructure constraints:** transmission congestion, land and right-of-way issues, intermittency, storage cost, system balancing, water use where applicable, and local ecological impacts.
+4. **Policy response:** plan generation and transmission jointly; accelerate inter-state links, storage, forecasting, flexible generation and demand response; ensure timely commissioning and transparent grid access.
+5. **Conclusion:** capacity expansion alone is not energy security; reliability, affordability, evacuation and environmental protection must be measured alongside MW installed.
+
+**Q2. Assess the contribution of roads, rail freight and EAPs to balanced regional development in Rajasthan.**
+
+**Answer framework:**
+1. **Connectivity baseline:** the 2025 Economic Review records 335,306 km of classified roads, while the Western Dedicated Freight Corridor supports freight logistics.
+2. **Economic channels:** reduced travel costs, mining/manufacturing supply chains, tourism, agricultural market access and port connectivity.
+3. **EAP contributions:** ADB urban programmes, ADB highway investment tranches, JICA irrigation-livelihood projects and NDB canal rehabilitation target specific service gaps.
+4. **Risks:** land acquisition, uneven project selection, environmental and social safeguards, cost overruns, weak local-body capacity and insufficient O&M budgets.
+5. **Way forward:** outcome-based monitoring, lifecycle costing, independent road safety audits, climate resilience, transparent procurement and stronger local maintenance capacity.
+
+## 33.10 Official source register
+
+Use official source pages for updates; access dates should be retained in the revision log.
+
+1. Rajasthan Renewable Energy investor portal — capacity/rank/generation snapshot: https://rising.rajasthan.gov.in/renewable-energy
+2. Rajasthan Economic Review 2025–26 — power and road-network tables: https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Economicreviewe.pdf
+3. Central Electricity Authority / National Power Portal — installed capacity reports: https://npp.gov.in/publishedReports
+4. NPCIL — operating units and Rajasthan Atomic Power Project: https://npcil.nic.in/content/328_1_AboutNPCIL.aspx and https://www.npcil.nic.in/content/300_1_RajasthanAtomicPowerProject.aspx
+5. PIB / Department of Atomic Energy — Mahi Banswara foundation and 2,800-MW project: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2171783&lang=2&reg=3
+6. MNRE — State renewable-energy policy listing and Rajasthan Renewable Energy Policy 2023: https://mnre.gov.in/en/policies-and-regulations/policies-and-guidelines/state/
+7. Rajasthan Finance Department — Swiss Challenge method FAQ: https://finance.rajasthan.gov.in/website/FAQ.aspx
+8. Rajasthan Transparency in Public Procurement Rules, 2013 (Rule 79A onward): https://upload.indiacode.nic.in/showfile?actid=AC_RJ_83_1113_00003_00003_1568621679693&filename=rtpp_rules_for_publication.pdf&type=rule
+9. Government of India PPP portal — VGF scheme: https://www.pppinindia.gov.in/vgfguidelines
+10. ADB — Rajasthan Urban Infrastructure Development Project background: https://www.adb.org/publications/rajasthan-rising-strong-institutions-livable-cities
+11. ADB — Rajasthan Secondary Towns Development Sector Project: https://www.adb.org/projects/42267-031/main
+12. ADB — Rajasthan State Highway Investment Program, Tranche 2 and 3: https://www.adb.org/projects/49228-003/main and https://www.adb.org/projects/49228-004/main
+13. JICA — Rajasthan Water Sector Livelihood Improvement Projects I and II: https://www.jica.go.jp/oda/project/ID-P259/ and https://www.jica.go.jp/oda/project/ID-P312/
+14. New Development Bank — Rajasthan Water Sector Restructuring Project for the Desert Areas: https://www.ndb.int/project/rajasthan-water-sector-restructuring-project/
+15. NTPC — Anta Gas Power Station: https://ntpc.co.in/sites/default/files/inline-files/NTPC_Anta%20GPS_Eng_8x17_Dec_24_2024.pdf
+16. Rajasthan Renewable Energy Corporation — predecessor entities and formation on 9 August 2002: https://environment.rajasthan.gov.in/content/dam/raj/energy/rrecl/Newtestpdf/NIT%20No%20RREC_Biomass_2022-23_06.pdf
 
 ---
 
-## 33.1 The Infrastructure Backbone of Rajasthan: Macro Strategic Framework
-
-Physical and economic infrastructure forms the catalytic nervous system of Rajasthan's macroeconomy, driving the transition toward a **$350 Billion economy by 2029** and fulfilling the long-term charter of **Viksit Rajasthan @2047**. Given Rajasthan's unique geographic reality—spanning 3,42,239 sq km (10.41% of India's landmass) characterized by arid expanses, low population density in western tracts, and the formidable Aravalli divide—infrastructure development requires capital-intensive investments and specialized engineering solutions.
-
-```
-                    RAJASTHAN INFRASTRUCTURE PILLARS
-                                   │
-      ┌────────────────────────────┼────────────────────────────┐
-      │                            │                            │
-POWER & ENERGY            TRANSPORT & LOGISTICS        EXTERNALLY AIDED
-ARCHITECTURE              CORRIDORS                    PROJECTS (EAPs)
-      │                            │                            │
-├── Conventional Thermal  ├── 3.35L km Road Network   ├── ADB: RUIDP & RSTDSP
-├── Nuclear & Hydro       ├── 548 km DMIC / WDFC      ├── World Bank: RSHDP
-├── #1 Solar (>22 GW)     ├── Delhi-Mumbai NE-4       ├── JICA: RWSLIP & Water
-└── PM-KUSUM Feeder       └── NWR HQs Jaipur          └── KfW: Green Energy Corridor
-```
-
-### Capital Expenditure & Infrastructure Outlay Dynamics
-In recent fiscal budgets, capital outlay for physical infrastructure has been maintained above **₹30,000 Crore to ₹35,000 Crore** annually, prioritizing:
-1. **Power Transmission & Evacuation**: High-voltage substations for evacuating western renewable energy.
-2. **Expressways and Industrial Corridors**: Integrating Rajasthan's mineral and manufacturing belts with western ports (Mundra, Kandla, JNPT).
-3. **Piped Potable Water & Irrigation**: Jal Jeevan Mission, Modified PKC-ERCP link, and canal automation.
-4. **Secondary Town Urban Infrastructure**: ADB-assisted sewerage, smart water metering, and heritage conservation.
-
----
-
-## 33.2 Energy Sector Architecture: Installed Capacity & Institutional Setup
-
-### Installed Power Generation Capacity (Live Baseline)
-As of the latest Economic Review baseline (2024–25 / 2025–26), the total installed power capacity in Rajasthan has crossed **24,500+ MW** from all sources (State utilities, Central allocations, and Private IPPs), with renewable energy constituting an increasingly dominant share.
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│              INSTALLED POWER CAPACITY IN RAJASTHAN BY SOURCE                │
-├──────────────────────────┬──────────────────────┬───────────────────────────┤
-│ ENERGY SOURCE            │ CAPACITY (APPROX MW) │ SHARE & STRUCTURAL ROLE   │
-├──────────────────────────┼──────────────────────┼───────────────────────────┤
-│ **Thermal (Coal/Lignite)**│ **~13,000 – 13,500** │ Base load stability       │
-│ **Solar Energy**         │ **>22,000+** (Peak)  │ **National Rank #1**      │
-│ **Wind Energy**          │ **~5,200 – 5,400**   │ Peak summer evening power │
-│ **Hydro Power**          │ **~1,900 – 2,000**   │ Peaking hydro support     │
-│ **Nuclear (RAPS)**       │ **~1,180** (Existing)│ Clean base load           │
-│ **Biomass**              │ **~125 – 130**       │ Agro-waste conversion     │
-└──────────────────────────┴──────────────────────┴───────────────────────────┘
-```
-
-### Unbundling & Institutional Ecosystem: The 5 Power Companies
-Following the enactment of the **Rajasthan Power Sector Reforms Act, 1999**, the monolithic Rajasthan State Electricity Board (RSEB) was unbundled on **19 July 2000** into five distinct state-owned corporations:
-
-```
-                          RSEB UNBUNDLING (19 JULY 2000)
-                                        │
-      ┌────────────────────────┬────────┴────────┬────────────────────────┐
-      │                        │                 │                        │
-  GENERATION              TRANSMISSION           │                   DISTRIBUTION
-      │                        │                 │                  (3 DISCOMs)
-   RVUNL                     RVPNL               │                        │
-(Raj Rajya Vidyut       (Raj Rajya Vidyut         ├── JVVNL (Jaipur Discom)
- Utpadan Nigam Ltd)      Prasaran Nigam Ltd)      ├── AVVNL (Ajmer Discom)
-                                                  └── JdVVNL (Jodhpur Discom)
-```
-
-1. **RRVUNL (Rajasthan Rajya Vidyut Utpadan Nigam Ltd)**: Entrusted with operating and developing state-owned thermal, hydro, and gas power generation stations.
-2. **RVPNL (Rajasthan Rajya Vidyut Prasaran Nigam Ltd)**: State Transmission Utility (STU) responsible for the intra-state transmission network of 132 kV, 220 kV, 400 kV, and 765 kV grid lines.
-3. **JVVNL (Jaipur Vidyut Vitran Nigam Ltd)**: Retail supply and distribution across 12 central/eastern districts (Jaipur, Dausa, Alwar, Bharatpur, Dholpur, Sawai Madhopur, Karauli, Kota, Bundi, Jhalawar, Baran, Tonk).
-4. **AVVNL (Ajmer Vidyut Vitran Nigam Ltd)**: Retail supply and distribution across central and southern districts (Ajmer, Bhilwara, Nagaur, Sikar, Jhunjhunu, Udaipur, Rajsamand, Chittorgarh, Pratapgarh, Banswara, Dungarpur).
-5. **JdVVNL (Jodhpur Vidyut Vitran Nigam Ltd)**: Retail supply across western arid districts covering the largest geographic territory (Jodhpur, Jaisalmer, Bikaner, Barmer, Jalore, Pali, Sirohi, Hanumangarh, Sriganganagar, Churu).
-6. **RRECL (Rajasthan Renewable Energy Corporation Ltd)**: Formed in **August 2002** by merging the **Rajasthan Energy Development Agency (REDA)** (est. 1985) and the **Rajasthan Energy Corporation Ltd (CEL)** (est. 1995). Nodal agency for solar, wind, biomass, and small hydro projects.
-
----
-
-## 33.3 Conventional Energy Infrastructure: Thermal, Hydro, Gas & Nuclear
-
-### Thermal Power Plants in Rajasthan
-Thermal power provides the foundational baseload of the state's electricity grid, utilizing domestic coal from Coal India Ltd allocations (and Parsa East Kente Basan captive coal block in Chhattisgarh) alongside indigenous lignite.
-
-| Thermal Power Station | District | Installed Capacity (MW) | Technology & Crucial Exam Distinctives |
-|---|---|---|---|
-| **Suratgarh Super Thermal Power Station (SSTPS)** | Sriganganagar | **2,820 MW** (6×250 MW subcritical + 2×660 MW supercritical) | **First Super Thermal Power Station of Rajasthan**; Units 7 & 8 are state's earliest 660 MW supercritical units |
-| **Chhabra Super Thermal Power Station** | Baran | **2,320 MW** (4×250 MW + 2×660 MW supercritical) | Major supercritical station in eastern Hadoti; Units 5 & 6 use high-efficiency, low-emission supercritical technology |
-| **Kota Super Thermal Power Station (KSTPS)** | Kota | **1,240 MW** (2×110 MW, 3×210 MW, 2×195 MW) | Situated on left bank of Chambal River; oldest major coal-fired power station; pioneer of state power industrialization |
-| **Kalisindh Thermal Power Station** | Jhalawar | **1,200 MW** (2×660 MW supercritical) | Utilizes water from Kalisindh River; cooling tower is among the tallest hyperbolic towers in India (202 m) |
-| **Giral Lignite Thermal Power Station** | Barmer | **250 MW** (2×125 MW) | **First lignite-based power plant in Rajasthan**; utilizes Circulating Fluidized Bed Combustion (CFBC) with local lignite |
-| **Barsingsar Lignite Power Station** | Bikaner | **250 MW** (2×125 MW) | Operated by NLC India Ltd (Central PSU); mine-mouth lignite power plant |
-| **Kawai Thermal Power Station** | Baran | **1,320 MW** (2×660 MW supercritical) | Operated by Adani Power Ltd (Private IPP); supply tied to long-term PPA with Rajasthan Discoms |
-
-### Hydro Power Plants
-Hydro generation serves as valuable spinning reserve and peak-load support:
-- **Chambal Hydro System (50:50 Rajasthan : Madhya Pradesh share)**:
-  - **Gandhi Sagar Dam (MP)**: 115 MW (5×23 MW) $\to$ Rajasthan share: **57.5 MW**.
-  - **Rana Pratap Sagar Dam (Rawatbhata, Chittorgarh)**: **172 MW** (4×43 MW) $\to$ Rajasthan share: **86 MW**. Largest storage reservoir in Rajasthan.
-  - **Jawahar Sagar Dam (Kota/Bundi)**: **99 MW** (3×33 MW) $\to$ Rajasthan share: **49.5 MW**.
-- **Mahi Bajaj Sagar Hydro Project (Banswara)**:
-  - Total Capacity: **140 MW** (2×25 MW at Power House I + 2×45 MW at Power House II).
-  - **Deadly Exam Trap**: While water sharing of Mahi River is **55% Gujarat : 45% Rajasthan**, **100% of the hydroelectric power generated is allocated exclusively to Rajasthan**!
-- **Interstate Partnerships**:
-  - **Bhakra-Nangal Project**: Rajasthan's fixed share is **15.22%** (approx 227 MW).
-  - **Beas Project**: Beas Unit I (Dehar - 20% share) and Beas Unit II (Pong - 58.5% share).
-
-### Nuclear Power Infrastructure
-- **Rajasthan Atomic Power Station (RAPS), Rawatbhata (Chittorgarh)**:
-  - Established in **1973** with Canadian commercial assistance (CANDU design).
-  - **First Pressurized Heavy Water Reactor (PHWR) in India** and second nuclear plant after Tarapur (Maharashtra).
-  - Operating Units 1 to 6 with cumulative capacity of **~1,180 MW**.
-  - Expansion: **Units 7 & 8 (2×700 MW indigenous PHWRs)** underway by Nuclear Power Corporation of India Ltd (NPCIL).
-  - Heavy Water Plant located adjacent to the station utilizing Rana Pratap Sagar reservoir water.
-- **Proposed Mahi Banswara Nuclear Power Project**:
-  - Located in Banswara district; planned for **4×700 MW (2,800 MW)** indigenous PHWR units.
-
-### Gas-Based Power Stations
-- **Ramgarh Gas Thermal Power Station (Jaisalmer)**: **First gas-based power station in Rajasthan**, operated by RVUNL using natural gas from Jaisalmer basin (Focus Energy / ONGC).
-- **Anta Gas Power Station (Baran)**: 419 MW combined-cycle plant owned by NTPC; gas supplied via GAIL pipeline.
-- **Dholpur Combined Cycle Power Station (Dholpur)**: 330 MW (3×110 MW) RVUNL station utilizing domestic gas.
-
----
-
-## 33.4 Renewable Energy Leadership: Solar, Wind, Biomass & Storage
-
-Rajasthan holds absolute national supremacy in clean energy resources, blessed with:
-- **325+ days of intense solar insolation** per year.
-- Solar irradiance of **6–7 kWh/m²/day** (among the highest globally).
-- Vast barren, non-agricultural land tracts in the western Thar desert.
-- Strong wind velocity along western escarpments and desert ridges.
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    RAJASTHAN RENEWABLE ENERGY PROFILE                       │
-├────────────────────┬─────────────────────┬──────────────────────────────────┤
-│ RESOURCE           │ ESTIMATED POTENTIAL │ INSTALLED CAPACITY & RANK        │
-├────────────────────┼─────────────────────┼──────────────────────────────────┤
-│ **Solar Energy**   │ **142 GW (142,000 MW)**│ **>22,000 MW — RANK 1 IN INDIA** │
-│ **Wind Energy**    │ **127 GW (127,000 MW)**│ **~5,200 MW — Top Tier**         │
-│ **Biomass Energy** │ **~450 MW**         │ **~125 MW**                      │
-│ **Small Hydro**    │ **~100 MW**         │ **~24 MW**                       │
-└────────────────────┴─────────────────────┴──────────────────────────────────┘
-```
-
-### Major Mega Solar Parks in Rajasthan
-1. **Bhadla Solar Park (Phalodi / Jodhpur)**:
-   - Total Capacity: **2,245 MW** across 4 Phases.
-   - **World's largest contiguous solar park by footprint** (~14,000 acres).
-   - Developed via PPP models involving RRECL, Saurya Urja Company of Rajasthan Ltd (SRECL - JV with IL&FS), and Adani Renewable Energy Park Rajasthan Ltd (AREPRL).
-2. **Fatehgarh Solar Park (Jaisalmer)**:
-   - Capacity: **1,500 MW** developed by Adani Group.
-3. **Nokh Solar Park (Jaisalmer)**:
-   - Capacity: **925 MW** developed by NTPC in partnership with RRECL.
-4. **Pugal Solar Park (Bikaner)**:
-   - Capacity: **1,450 MW** under implementation by RVUNL and Coal India Ltd.
-
-### Rajasthan Solar Energy Policy
-- Notified to promote large-scale grid-connected solar plants, rooftop solar, solar parks, and decentralized generation.
-- Envisions **30,000 MW (30 GW)** target by 2024–25 and upward calibration to **90 GW** under Viksit Rajasthan roadmap.
-- Key Incentives: Exemption from electricity duty for 10 years, stamp duty concessions, simplified land conversion under Rajasthan Land Revenue (Conversion of Agricultural Land for Non-Agricultural Purposes) Rules.
-
-### PM-KUSUM Scheme (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan)
-Rajasthan is the **National Front-Runner (Rank #1)** in the execution of the PM-KUSUM scheme, divided into three components:
-
-```
-                          PM-KUSUM THREE COMPONENTS
-                                      │
-      ┌───────────────────────────────┼───────────────────────────────┐
-      │                               │                               │
-COMPONENT A                     COMPONENT B                     COMPONENT C
-(Decentralized Solar)           (Standalone Pumps)              (Grid-Connected / Feeder)
-      │                               │                               │
-• 0.5 MW to 2 MW plants         • Off-grid solar pumps          • Solarization of ag pumps
-• Set up on barren land         • 3 HP, 5 HP, 7.5 HP            • **Feeder-Level Solarization**
-• First Plant in India:         • 60% subsidy                   • Day-time power to farmers
-  **Bhaloji (Kotputli/Jaipur)** • Replaces diesel engines       • 100% targeted in Rajasthan
-```
-
-- **Historic Exam Fact**: The **first PM-KUSUM Component-A plant in India** was commissioned at **Bhaloji village (Kotputli-Behror / Jaipur)** with 1 MW capacity in April 2021.
-- **Feeder-Level Solarization (Component C-2)**: Rajasthan leads India in segregating agricultural feeders and setting up 33/11 kV dedicated solar plants to supply 100% reliable day-time power to farmers.
-
-### Wind Energy Profile
-- **Total Wind Potential**: **127 GW** at 120-meter hub height (National Institute of Wind Energy - NIWE).
-- **Wind Capital**: **Jaisalmer** (popularly known as the *"City of Windmills / पंखों की नगरी"*), followed by Pratapgarh, Barmer, and Phalodi.
-- **First Wind Energy Plant in Rajasthan**: Commissioned on **10 April 1999** at **Amar Sagar (Jaisalmer)** with 2 MW capacity by the state government.
-- **Subsequent Projects**: Devgarh (Pratapgarh) on 6 March 2001, Bada Bagh (Jaisalmer), and Phalaudi.
-- **Wind & Hybrid Energy Policy**: Promotes co-locating wind and solar plants to optimize transmission infrastructure and levelize diurnal power curves.
-
----
-
-## 33.5 Transport Infrastructure: Roads, Expressways, Railways & Aviation
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    RAJASTHAN ROAD NETWORK METRICS                           │
-├──────────────────────────┬──────────────────────┬───────────────────────────┤
-│ INDICATOR / HIGHWAY      │ VALUE / LENGTH       │ BENCHMARK / COMPARISON    │
-├──────────────────────────┼──────────────────────┼───────────────────────────┤
-│ **Total Road Network**   │ **~3,35,000+ km**    │ PWD maintained + PMGSY    │
-│ **Road Density (State)** │ **~97.97 km/100 km²**│ All-India: **~165 km/100 km²**│
-│ **Roads per 1,000 Pop**  │ **~4.12 km**         │ Higher than national avg  │
-│ **National Highways**    │ **~10,790 km**       │ Critical arterial spines  │
-│ **State Highways**       │ **~17,316 km**       │ Inter-district corridors  │
-│ **Major District Roads** │ **~14,000+ km**      │ Sub-divisional links      │
-└──────────────────────────┴──────────────────────┴───────────────────────────┘
-```
-
-### Road Density Disparity
-- **Why is Rajasthan's road density (97.97 km/100 sq km) lower than the National Average (~165 km/100 sq km)?**
-  - The western arid desert tract (comprising >61% of total geographical area) has extremely sparse population settlements, dune shifts, and large tracts of uninhabited frontier land.
-  - However, in per-capita terms (**~4.12 km per 1,000 population**), Rajasthan is **substantially higher** than the national average (~3.8 km), reflecting the extensive geographical distances spanned to connect remote rural habitations (*Dhanis*).
-
-### Major National Expressways & Economic Corridors
-1. **Delhi-Mumbai Expressway (National Expressway 4 - NE-4)**:
-   - Total Length: **1,386 km** (8-lane access-controlled greenfield expressway, expandable to 12 lanes).
-   - **Stretch in Rajasthan: 374 km** (Longest state stretch after Madhya Pradesh).
-   - Traverses 5 districts: **Alwar, Dausa, Sawai Madhopur, Bundi, and Kota**.
-   - Reduces travel time between Delhi and Jaipur to ~2 hours (via Dausa spur) and Delhi-Mumbai to ~12 hours.
-2. **Amritsar-Jamnagar Economic Corridor (EC-3)**:
-   - Total Length: 1,224 km connecting northern industrial and agricultural hubs with refineries and ports in Gujarat.
-   - **Stretch in Rajasthan: 637 km** (traversing Hanumangarh, Bikaner, Jodhpur, and Barmer).
-   - Directly links the **Pachpadra Refinery** and **Bathinda Refinery** with Kandla and Jamnagar ports.
-3. **RIDCOR (Road Infrastructure Development Company of Rajasthan Ltd)**:
-   - Established in **2004** as a **50:50 Joint Venture** between the **Government of Rajasthan** and **IL&FS**.
-   - Executed the landmark **Mega Highway Project** upgrading thousands of kilometers of state corridors into toll roads via PPP.
-
-### Railway Infrastructure & North Western Railway (NWR)
-- **Total Route Kilometers**: **~6,000+ km** (majority converted to broad gauge under Project Unigauge).
-- **North Western Railway (NWR)**:
-  - Formed on **1 October 2002** with headquarters at **Jaipur**.
-  - Comprises 4 Operating Divisions: **Jaipur, Ajmer, Bikaner, and Jodhpur**.
-  - **Deadly Exam Trap**: **Kota Railway Division** does NOT fall under North Western Railway! Kota is part of the **West Central Railway (WCR)** headquartered at **Jabalpur (Madhya Pradesh)**.
-- **Western Dedicated Freight Corridor (WDFC)**:
-  - 1,504 km freight-only double-track corridor from Dadri (UP) to JNPT Navi Mumbai.
-  - **Rajasthan Share: 548 km (36.4%)** — largest of all participating states!
-  - Key junction stations: Rewari $\to$ Ateli $\to$ Phulera $\to$ Marwar Junction $\to$ Swarupganj $\to$ Palanpur.
-
-### Civil Aviation Profile
-- **International Airport**: **Jaipur International Airport (Sanganer)** (Operated by Adani Airports under PPP concession; state's sole operational commercial international gateway).
-- **Domestic Commercial Airports / Enclaves**:
-  - **Maharana Pratap Airport, Dabok (Udaipur)**: High tourist footfall.
-  - **Jodhpur Airport**: Civil enclave within Indian Air Force (IAF) air base.
-  - **Jaisalmer Airport**: Civil enclave operating flights during the tourist winter season.
-  - **Bikaner Airport (Nal)**: Civil enclave within IAF station.
-  - **Kishangarh Airport (Ajmer)**: Non-metro airport serving Ajmer, Pushkar, and the marble hub.
-  - **Kota Airport**: Planned greenfield airport at Shambhu Pura / Bundi road.
-
----
-
-## 33.6 Public-Private Partnership (PPP) Framework & Swiss Challenge
-
-Rajasthan has been an institutional pioneer in attracting private capital for public infrastructure:
-1. **Rajasthan State PPP Policy**: Establishes transparent concession agreements, independent toll regulators, and risk-sharing matrix.
-2. **Viability Gap Funding (VGF)**: State and Central capital grants up to **40% of project cost** to make commercially unviable but socially essential projects bankable.
-3. **Swiss Challenge Method**:
-   - Institutionalized under the **Rajasthan Transparency in Public Procurement (RTPP) Act & Rules**.
-   - An unsolicited proposal submitted by an original private proponent is published in the public domain for counter-bids.
-   - If a competitor submits a superior financial bid, the original proponent is given the **Right of First Refusal** to match the best offer.
-
----
-
-## 33.7 Externally Aided Projects (EAPs) in Rajasthan: High-Yield Curricular Dossier
-
-Externally Aided Projects funded by multilateral development institutions (World Bank, ADB, JICA, KfW, AFD, NDB) represent the lifeblood of Rajasthan's urban renewal, highway strengthening, water management, and green transition. **This section reflects the updated 2026 RPSC RAS Mains Economics syllabus.**
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 MAJOR EXTERNALLY AIDED PROJECTS (EAPs) IN RAJASTHAN         │
-├──────────────┬──────────────────┬───────────────────────────────────────────┤
-│ AGENCY       │ PROJECT NAME     │ SCOPE, FUNDING & OBJECTIVE                │
-├──────────────┼──────────────────┼───────────────────────────────────────────┤
-│ **ADB**      │ **RUIDP**        │ Rajasthan Urban Infrastructure            │
-│              │ (Phases I–IV)    │ Development; urban water, drainage, sewage│
-│ **ADB**      │ **RSTDSP**       │ Rajasthan Secondary Towns Development     │
-│              │                  │ Sector Project (Secondary tier ULBs)      │
-│ **World Bank**│ **RSHDP**       │ Rajasthan State Highway Development       │
-│ & **ADB**    │                  │ Project; upgrading SHs and MDRs           │
-│ **JICA**     │ **RWSLIP**       │ Rajasthan Water Sector Livelihood          │
-│ (Japan)      │                  │ Improvement; 137 irrigation systems       │
-│ **JICA**     │ **Fluorosis /    │ Potable surface water supply in Nagaur,   │
-│              │  Water Project** │ Bikaner, Barmer to replace fluorotic wells│
-│ **AFD**      │ **RFBDP**        │ Rajasthan Forestry & Biodiversity         │
-│ (France)     │                  │ Development Project (Forest cover + eco)  │
-│ **KfW**      │ **Green Energy   │ Intra-state transmission for evacuating   │
-│ (Germany)    │  Corridor**      │ 4,000+ MW western solar/wind power        │
-│ **NDB**      │ **Desert Water / │ Indira Gandhi Canal rehabilitation and    │
-│ (BRICS)      │  IGNP Relining** │ relining of damaged feeder channels       │
-└──────────────┴──────────────┴───────────────────────────────────────────┘
-```
-
-### Detailed Forensic Breakdown of Key EAPs
-
-#### 1. RUIDP & RSTDSP (Asian Development Bank - ADB)
-- **RUIDP (Rajasthan Urban Infrastructure Development Project)**:
-  - Commenced in 1998 with ADB funding; now in **Phase IV (RUIDP Phase-4)**.
-  - **Focus**: Improving municipal water supply systems, 24×7 pressurized piped delivery, underground sewerage, faecal sludge management plants (FSTPs), and urban drainage across secondary and heritage cities.
-- **RSTDSP (Rajasthan Secondary Towns Development Sector Project)**:
-  - Targeting over 14 secondary towns (e.g., Abu Road, Banswara, Khetri, Mandawa, Kuchaman, Sambhar).
-  - Integrates smart sanitation, non-revenue water (NRW) reduction, and restoration of urban water bodies.
-
-#### 2. RSHDP (Rajasthan State Highway Development Project - World Bank & ADB)
-- Jointly financed by the **World Bank** and the **Asian Development Bank**.
-- Upgrades over **4,000 km** of critical State Highways and Major District Roads (MDRs) into two-lane paved shoulder standards.
-- Incorporates road safety audits, automated asset management systems, and climate-resilient road design.
-
-#### 3. RWSLIP (Rajasthan Water Sector Livelihood Improvement Project - JICA)
-- Financed by the **Japan International Cooperation Agency (JICA)**.
-- **Scope**: Modernization and rehabilitation of **137 irrigation sub-projects** across **27 districts**, covering over 4.7 lakh hectares of culturable command area.
-- Promotes Participatory Irrigation Management (PIM) through Water Users Associations (WUAs), micro-irrigation, and crop diversification.
-
-#### 4. Green Energy Corridor (GEC) Project (KfW, Germany)
-- Funded via German financial cooperation through **KfW Development Bank** alongside Central Government support.
-- Implemented by **RVPNL**.
-- Constructed grid substations (765 kV / 400 kV / 220 kV) and high-capacity transmission corridors in western Rajasthan (Bhadla, Ramgarh, Akal) to evacuate over **4,000 MW of renewable power** into the National Grid without curtailment.
-
-#### 5. Desert Area Water Restructuring Project (New Development Bank - NDB)
-- Supported by the **BRICS New Development Bank (NDB)**.
-- Focuses on relining and rehabilitating dilapidated stretches of the **Indira Gandhi Feeder Canal and Main Canal** to prevent seepage, eliminate waterlogging (*Sem*), and secure drinking water supply to 10 western desert districts.
-
----
-
-## 33.8 Top 25 Killer RPSC Examination Traps
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 TOP 25 KILLER RPSC EXAMINATION TRAPS: CHAPTER 33            │
-├─────┬───────────────────────────────────────────────────────────────────────┤
-│ NO. │ TRAP / COMMONLY TESTED DISTRACTOR vs. HARD EVIDENTIARY TRUTH          │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 01  │ TRAP: Kota Railway Division is headquartered under North Western Rly. │
-│     │ TRUTH: Kota Division belongs to **West Central Railway (Jabalpur)**!  │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 02  │ TRAP: Suratgarh Super Thermal is a lignite-based power station.       │
-│     │ TRUTH: Suratgarh runs on **Bituminous Coal**; Giral & Barsingsar are  │
-│     │ the primary **Lignite-based** thermal stations.                       │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 03  │ TRAP: Giral Lignite Power Plant is located in Bikaner.                │
-│     │ TRUTH: Giral is located in **Barmer**; Barsingsar is in **Bikaner**.  │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 04  │ TRAP: Gujarat shares 55% of Mahi hydro power with Rajasthan.          │
-│     │ TRUTH: Water share is 55:45, but **100% of Mahi hydro electricity**   │
-│     │ belongs exclusively to **Rajasthan**!                                 │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 05  │ TRAP: Rajasthan road density is higher than the national average.     │
-│     │ TRUTH: Rajasthan's road density is **~97.97 km/100 sq km**, which is  │
-│     │ **substantially lower** than India's average (~165 km/100 sq km).     │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 06  │ TRAP: Per-capita road length in Rajasthan is lower than India.        │
-│     │ TRUTH: In per-capita terms (**~4.12 km/1000 pop**), Rajasthan is      │
-│     │ **higher** than the national average due to vast desert distances.    │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 07  │ TRAP: The first PM-KUSUM Component A plant was set up in Bikaner.     │
-│     │ TRUTH: It was set up at **Bhaloji (Kotputli-Behror / Jaipur)**.       │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 08  │ TRAP: First wind energy project in Rajasthan was at Devgarh.          │
-│     │ TRUTH: First was at **Amar Sagar (Jaisalmer)** on **10 April 1999**;   │
-│     │ Devgarh (Pratapgarh) was commissioned on 6 March 2001.                │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 09  │ TRAP: Bhadla Solar Park has an installed capacity of 1,000 MW.        │
-│     │ TRUTH: Bhadla has a massive total capacity of **2,245 MW** across 4   │
-│     │ phases, making it the world's largest contiguous solar park.          │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 10  │ TRAP: Bhadla Solar Park is located in Jaisalmer district.            │
-│     │ TRUTH: Bhadla is located in **Phalodi district** (carved from Jodhpur)│
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 11  │ TRAP: RRECL was formed in 1985.                                       │
-│     │ TRUTH: RRECL was formed in **August 2002** by merging REDA (1985) and │
-│     │ CEL (1995).                                                           │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 12  │ TRAP: Delhi-Mumbai Expressway spans 548 km in Rajasthan.              │
-│     │ TRUTH: 548 km is the **DMIC / WDFC** rail length; Delhi-Mumbai NE-4   │
-│     │ expressway length in Rajasthan is **374 km**!                         │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 13  │ TRAP: Delhi-Mumbai Expressway passes through Jaipur city.             │
-│     │ TRUTH: It bypasses Jaipur, passing through **Dausa** (connected via a │
-│     │ 4-lane spur corridor to Jaipur).                                      │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 14  │ TRAP: Amritsar-Jamnagar corridor does not pass through Rajasthan.     │
-│     │ TRUTH: It traverses **637 km** in Rajasthan across Hanumangarh,       │
-│     │ Bikaner, Jodhpur, and Barmer.                                         │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 15  │ TRAP: RSEB was unbundled into 3 companies in 2000.                    │
-│     │ TRUTH: Unbundled into **5 companies** (RVUNL, RVPNL, 3 DISCOMs) on    │
-│     │ **19 July 2000**.                                                     │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 16  │ TRAP: Rawatbhata Nuclear Plant was built with American assistance.    │
-│     │ TRUTH: RAPS was built with **Canadian** assistance (CANDU technology).│
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 17  │ TRAP: The newly proposed 4x700 MW nuclear plant is in Rawatbhata.     │
-│     │ TRUTH: The new greenfield project is the **Mahi Banswara Nuclear      │
-│     │ Power Project** in Banswara district.                                 │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 18  │ TRAP: RUIDP is financed by the World Bank.                            │
-│     │ TRUTH: RUIDP and RSTDSP are financed primarily by the **Asian         │
-│     │ Development Bank (ADB)**!                                             │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 19  │ TRAP: RWSLIP irrigation project is funded by ADB.                     │
-│     │ TRUTH: RWSLIP is funded by **JICA (Japan International Cooperation    │
-│     │ Agency)**!                                                            │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 20  │ TRAP: Green Energy Corridor transmission line is funded by JICA.      │
-│     │ TRUTH: Green Energy Corridor is funded by **KfW (Germany)**.          │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 21  │ TRAP: RIDCOR is a 100% state-owned public sector corporation.         │
-│     │ TRUTH: RIDCOR is a **50:50 Joint Venture** between GoR and **IL&FS**.  │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 22  │ TRAP: Ramgarh Gas Power Station uses gas piped from Hazira, Gujarat.  │
-│     │ TRUTH: Ramgarh uses **local natural gas from Jaisalmer basin**; Anta  │
-│     │ uses gas from the HVJ pipeline.                                       │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 23  │ TRAP: Rajasthan ranks #2 in solar energy behind Karnataka.            │
-│     │ TRUTH: Rajasthan is undisputed **Rank #1 in India (>22 GW)**.         │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 24  │ TRAP: Swiss Challenge method is prohibited under Rajasthan rules.     │
-│     │ TRUTH: Swiss Challenge is **statutorily permitted** under the RTPP   │
-│     │ Rules for innovative infrastructure proposals.                        │
-├─────┼───────────────────────────────────────────────────────────────────────┤
-│ 25  │ TRAP: First biomass power plant in Rajasthan was set up in Kota.      │
-│     │ TRUTH: First plant was established at **Padampur (Sriganganagar)**    │
-│     │ utilizing mustard crop husk.                                          │
-└─────┴───────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 33.9 RPSC RAS 2-Marker, 5-Marker & 10-Marker Model Answers
-
-### Q1 (2 Marks): What is the institutional role of RRECL in Rajasthan's energy landscape?
-> **Answer**: The Rajasthan Renewable Energy Corporation Ltd (RRECL) was created in **August 2002** by merging REDA (1985) and CEL (1995). It functions as the state nodal agency for promoting renewable energy (solar, wind, biomass, small hydro), developing ultra-mega solar parks, implementing the PM-KUSUM scheme, and administering state clean energy policies.
-
-### Q2 (2 Marks): Name the four operating divisions of the North Western Railway (NWR).
-> **Answer**:
-> 1. **Jaipur Division**
-> 2. **Ajmer Division**
-> 3. **Bikaner Division**
-> 4. **Jodhpur Division**
-> *(Note: Kota Division falls under West Central Railway, Jabalpur).*
-
-### Q3 (5 Marks): Explain the geographical and economic significance of the Amritsar-Jamnagar Economic Corridor for Rajasthan.
-> **Answer**:
-> 1. **Alignment & Length**: Out of the total 1,224 km corridor, **637 km** passes through western Rajasthan across four districts: **Hanumangarh, Bikaner, Jodhpur, and Barmer**.
-> 2. **Industrial Logistics**: Directly connects the agricultural hinterland of Punjab/Haryana with western maritime ports (Kandla, Mundra) and petroleum refining centers (Bathinda, Pachpadra, Jamnagar).
-> 3. **Refinery Linkage**: Provides high-speed logistics access for the **Pachpadra Refinery & Petrochemical Complex (HRRL)** in Balotra, enabling immediate chemical feed supply.
-> 4. **Defense & Border Mobility**: Enhances strategic military mobilization along the western international border corridor.
-> 5. **Agro-Export Acceleration**: Reduces transit time for agro-produce from Sriganganagar and Hanumangarh mandis to western export terminals.
-
-### Q4 (5 Marks): Detail the scope and multilateral funding mechanism of the Green Energy Corridor (GEC) in Rajasthan.
-> **Answer**:
-> 1. **Institutional Vehicle & Funding**: Implemented by RVPNL with financial assistance from **KfW Development Bank (Germany)** and Government of India capital grants.
-> 2. **Core Mandate**: Creation of dedicated high-voltage intra-state transmission infrastructure (765 kV, 400 kV, 220 kV) to evacuate clean power from solar and wind parks in western Rajasthan.
-> 3. **Capacity Target**: Designed to evacuate over **4,000+ MW** of renewable generation without grid congestion or commercial curtailment.
-> 4. **Key Substations**: Grid substations established at Bhadla (Phalodi), Ramgarh (Jaisalmer), and Akal (Jaisalmer) linked to the National Power Grid.
-> 5. **Strategic Impact**: Positions Rajasthan as the primary clean-power exporter to Northern and Western India, supporting India's 500 GW non-fossil energy target by 2030.
-
-### Q5 (10 Marks): Critically analyze the progress, structural bottlenecks, and future potential of Rajasthan's power sector, with specific focus on renewable energy and DISCOM financial health.
-> **Answer**:
-> **1. Strategic Transformation & Renewable Ascendancy**:
-> - Rajasthan has undergone a generational shift, evolving from a power-deficit state into a net-surplus energy powerhouse with total installed capacity exceeding **24,500 MW**.
-> - **Solar Hegemony**: Rajasthan ranks **#1 in India with over 22 GW** installed solar capacity, anchored by mega-complexes like Bhadla (2,245 MW) and Nokh (925 MW).
-> - **Decentralized Solar**: Exemplary performance under PM-KUSUM (Components A and C), delivering solarized power to rural feeders and lowering day-time agrarian demand.
->
-> **2. Structural Bottlenecks & Critical Challenges**:
-> - **DISCOM Financial Fragility**: JVVNL, AVVNL, and JdVVNL carry massive accumulated debt and regulatory assets despite past bailouts (UDAY scheme). Major causes include high Aggregate Technical & Commercial (AT&C) losses (~18–20% in certain rural zones), delayed state tariff subsidies, and unmetered farm power.
-> - **Intermittent Evacuation & Curtailment**: Massive western solar additions face transmission bottlenecks during peak mid-day generation, requiring accelerated capital expenditure on intra-state transmission and battery energy storage systems (BESS).
-> - **Fuel Supply Insecurities**: Thermal plants (Suratgarh, Chhabra, Kota) frequently suffer from coal supply shortages when rakes are delayed or environmental clearances at captive blocks (Parsa East Kente Basan) face legal delays.
-> - **Ecological & Conservation Conflicts**: Transmission lines in the Thar habitat of the Critically Endangered **Great Indian Bustard (Godawan)** have led to Supreme Court directives mandating costly underground cabling and bird diverters, slowing down park completions.
->
-> **3. Forward-Looking Strategic Imperatives (Viksit Rajasthan @2047)**:
-> - **Storage Integration**: Mandating Pumped Storage Hydro Projects (PSHP) across the Aravalli-Vindhyan ridges and large-scale BESS to supply round-the-clock (RTC) green power.
-> - **Smart Metering & Tariff Reform**: Rapid rollout of prepaid smart meters across domestic and commercial connections to bring AT&C losses below 12%.
-> - **Green Hydrogen & Ammonia**: Leveraging cheap solar generation to establish green hydrogen production hubs in western Rajasthan, aligning with the National Green Hydrogen Mission.
+**Revision rule:** Whenever a new Economic Review, CEA table, MNRE/RRECL capacity report, budget, project document or Railway/NHAI alignment map becomes available, update the dated figures and verification log. Do not overwrite old baselines without preserving the year and source.

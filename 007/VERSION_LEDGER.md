@@ -13,6 +13,32 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
+### [STAGED LOCAL] v077 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 33 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 33)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_33_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_33_INFRASTRUCTURE_ENERGY_TRANSPORT_EAP_REVISED.md`), and verification log (`CHAPTER_33_VERIFICATION_LOG.md`).
+  - Fully harmonized `007/notes/rajasthan/34_CHAPTER_33_INFRASTRUCTURE_ENERGY_TRANSPORT_EAP.md` and Rapid Revision Matrix 33 (`007/revision/rajasthan/33_REV_CHAPTER_33_INFRASTRUCTURE_ENERGY_TRANSPORT_EAP.md`), resolving the critical power capacity conflict (state investor portal reports 51,595.50 MW renewables at 30 Sept 2026 vs Economic Review Table 7.1 reporting 31,556.43 MW at Dec 2025; preserved as distinct datasets), integrating RAPP-7's commercial operation on 15 April 2025 (700 MW PHWR; total operational RAPS capacity now 1,880 MW), documenting Mahi Banswara 2,800 MW (4×700 MW PHWR) foundation laying on 25 September 2025 (ASHVINI JV, ₹42,000 Cr), correcting Kalisindh Thermal configuration to two 600-MW units (=1,200 MW), establishing classified road network at 335,306 km (March 2025) and separating PWD-maintained length (197,051 km), clarifying NWR divisions (Jaipur, Ajmer, Bikaner, Jodhpur) and confirming Kota's jurisdiction under WCR Jabalpur, rectifying RRECL's formation to 9 August 2002 (merging REDA and RSPCL), detailing ADB's RSHIP highway tranches (Tranches 2 and 3) and RSTDSP (14 secondary towns), correcting NDB's desert canal title to Rajasthan Water Sector Restructuring Project for the Desert Areas, and defining Swiss Challenge under RTPP Rule 79A with ₹50-crore minimum threshold.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Power Capacity Architecture & Dual-Series Resolution**:
+    - **Renewable Capacity (30 Sept 2026 Portal Snapshot)**: Total installed renewables: **51,595.50 MW (~77.53% of installed capacity)**; Solar: **45,121.44 MW (Rank #1 in India)**; Wind: **5,815.29 MW (Rank #5 in India)**; FY 2025–26 renewable generation: **69.12 BU (Rank #1 in India)**.
+    - **Economic Review Statistical Conflict**: Documented that Table 7.1 reports 31,556.43 MW (Dec 2025); instructed never to blend these incompatible datasets.
+    - **Target Roadmap Vintages**: Notified 2023 Renewable Policy targets 90 GW by 2029–30; state investor portal roadmap targets 125 GW by FY 2029–30 (90 GW solar, 25 GW wind, 10 GW storage). Obsolete 30 GW by 2024–25 removed.
+  - **Thermal & Nuclear Power Precision**:
+    - **Nuclear Expansion**: Rawatbhata operational capacity updated to **1,880 MW** with commercial operation of **RAPP-7 (700 MW) on 15 April 2025** alongside units 1–6 (1,180 MW). RAPP-8 (700 MW) under construction. **Mahi Banswara** comprises 4×700 MW PHWR (2,800 MW total; foundation laid 25 Sept 2025 by ASHVINI JV, ₹42,000 Cr).
+    - **Thermal Stations & Kalisindh Fix**: Suratgarh (2,820 MW), Chhabra (2,320 MW), Kota (1,240 MW). Corrected Kalisindh to **two 600-MW units = 1,200 MW** (eliminating impossible two 660-MW claim). Lignite stations: Giral (250 MW, CFBC) and Barsingsar (250 MW, NLC). Kawai (1,320 MW, Adani private). Anta Gas (419.33 MW, NTPC).
+    - **RRECL Formation**: Formed **9 August 2002** by merging REDA and **RSPCL** (Rajasthan State Power Corporation Ltd.), distinct from the July 2000 RSEB unbundling into 5 utilities.
+  - **Transport, Railways & Highway Density**:
+    - **Road Network (March 2025 Baseline)**: Total classified roads stand at **335,306 km** (NH 10,790 km; SH 17,316 km; MDR 18,234 km; ODR 72,822 km; Village Roads 216,144 km). PWD-maintained network stands at **197,051 km** (differentiated from total network).
+    - **Road Density**: Area density established at **97.97 km per 100 sq km** (lower than national average due to desert territory).
+    - **Railway Zone Jurisdiction**: NWR (HQ Jaipur) confirmed with 4 divisions (Jaipur, Ajmer, Bikaner, Jodhpur); **Kota Division belongs to West Central Railway (WCR), HQ Jabalpur (MP)**.
+    - **Corridor & Expressway Clarification**: Differentiated Delhi-Mumbai Expressway (NE-4; connects Jaipur via spur) from Western Dedicated Freight Corridor (WDFC rail) and DMIC industrial corridor.
+  - **Public Procurement & Multilateral EAPs**:
+    - **VGF & Swiss Challenge**: VGF provides up to 40% TPC (up to 20% Centre + up to 20% State) for eligible competitive PPPs. Swiss Challenge governed under **Rule 79A onward of RTPP Rules, 2013** with **₹50-crore minimum threshold**.
+    - **ADB EAPs**: RUIDP (urban water/sewerage since 1998); RSTDSP (14+ secondary towns, loan closing 31 May 2028); RSHIP (Rajasthan State Highway Investment Program, Tranche 2 ~754 km, Tranche 3 ~290 km).
+    - **JICA & NDB EAPs**: JICA funds RWSLIP (Phases I & II, irrigation rehabilitation & livelihoods). NDB funds Rajasthan Water Sector Restructuring Project for the Desert Areas (IGNP canal relining & anti-seepage).
+
 ### [STAGED LOCAL] v076 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 32 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
 * **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
