@@ -13,9 +13,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
-### [STAGED LOCAL] v081 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 37 Capstone Grand Synthesis Harmonization
+### [RELEASED v081] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 37 Capstone Grand Synthesis Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `95f5ce1`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 37)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_37_FORENSIC_AUDIT_REPORT.md`), revised benchmark (`CHAPTER_37_CAPSTONE_GRAND_SYNTHESIS_REVISED.md`), and verification log (`CHAPTER_37_VERIFICATION_LOG.md`).
