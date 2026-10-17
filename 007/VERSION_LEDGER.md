@@ -15,7 +15,32 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
 
 ---
 
-## Release History
+### [STAGED LOCAL] v071 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 27 Benchmark Audit Harmonization
+* **Release Date**: 2026-10-17
+* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 27)**
+* **Audit Score Baseline Alignment**:
+  - Ingested external forensic audit report (`CHAPTER_27_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_27_STATE_ADMINISTRATION_DISTRICT_REVENUE_REVISED.md`).
+  - Fully harmonized `007/notes/rajasthan/28_CHAPTER_27_STATE_ADMINISTRATION_DISTRICT_REVENUE.md` and Rapid Revision Matrix 27 (`007/revision/rajasthan/27_REV_CHAPTER_27_STATE_ADMINISTRATION_DISTRICT_REVENUE.md`), correcting administrative divisional rollbacks, quadrennial Jamabandi frequency, statutory Collector/DM/DEO legal foundations, Chief Secretary tenures, and Board of Revenue composition.
+* **Key Epistemic Corrections & Enhancements Implemented**:
+  - **Administrative Framework & Reorganization**:
+    - Ground-truth administrative tier verified: **41 districts and 7 divisions** (Ajmer, Bharatpur, Bikaner, Jaipur, Jodhpur, Kota, Udaipur). The 3 proposed divisions from 2023 (Sikar, Pali, Banswara) were **cancelled in December 2024**.
+    - Live RAJ MASTERS hierarchy confirmed: 7 divisions, 328 sub-divisions, 426 tehsils, 290 sub-tehsils, 2,815 ILR circles, 11,336 Patwar circles, and 51,840 villages.
+  - **Executive Leadership (Chief Secretary & Secretariat)**:
+    - Current Chief Secretary: **V. Srinivas** (assumed office Nov 2025; CMO portal snapshot; supersedes Sudhansh Pant).
+    - Constitutional & Cadre Reality: CS is an IAS posting governed by All India Services cadre rules; there is no separate constitutional article appointing the CS, nor a personal "pleasure of the Chief Minister" legal tenure.
+    - Historical tenures corrected: Longest-serving CS Bhagwat Singh (B.S.) Mehta served from May 1958 to October 1964 (~6 years 5 months; not "over 7 years").
+  - **Divisional Commissioner Architecture**:
+    - Timeline verified: Introduced 1949 (5 divisions), abolished April 1962 (Mohan Lal Sukhadia), revived **26 January 1987** (Harideo Joshi; Ajmer created as 6th division), and Bharatpur added **4 June 2005** (7th division).
+    - Separation of powers: Revenue Appellate Authority (RAA) is an independent statutory judicial officer under Section 20-A of the Rajasthan Land Revenue Act, 1956; appeals from RAA go to the Board of Revenue, NOT to the Divisional Commissioner.
+  - **District Administration (Collector / DM / DEO Triad)**:
+    - **District Collector**: Functions under Rajasthan Land Revenue Act, 1956 as chief revenue and fiscal officer, state property custodian, and government dues collector.
+    - **District Magistrate**: Operates under Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 (formerly CrPC 1973). Issues emergency prohibitive orders under **BNSS Section 163** (formerly 144 CrPC; colloquial "curfew") and executes preventive peace/good behaviour bonds under **BNSS Sections 126–129** (formerly 107–110 CrPC). Note: DM has general magisterial superintendence over maintaining public peace, but does NOT exercise internal disciplinary or operational command over the police force (vested in SP under Police Act, 1861).
+    - **District Election Officer (DEO)**: Statutory role under Representation of the People Act, 1950 (Section 13AA). Distinct from the Returning Officer (RO; RP Act 1951, Section 21) appointed per constituency.
+  - **Land Records & Revenue Administration**:
+    - **Jamabandi (Record of Rights / Khatauni)**: Strictly verified as prepared **QUADRENNIALLY (EVERY FOUR YEARS)** under Rule 148/153 of Rajasthan Land Revenue (Land Records) Rules, 1957 (NOT 5 years). Carries statutory presumption of truth under Section 125, but is not a conclusive indefeasible title deed.
+    - **Mutation (*Namantaran*)**: Purely fiscal/revenue register entry for updating revenue liability; does NOT confer, create, or extinguish legal proprietary title.
+    - **Board of Revenue for Rajasthan (Ajmer)**: Constituted under Section 4 of Rajasthan Land Revenue Act, 1956. Composition: Chairman + between 3 and 20 other members (maximum 21 total). Acts as the apex court of revenue appeal, revision, and reference (Section 8).
 
 ### [STAGED LOCAL] v070 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 26 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
