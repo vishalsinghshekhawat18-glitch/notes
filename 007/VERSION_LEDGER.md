@@ -13,9 +13,9 @@ This ledger tracks all local iterations, conceptual refinements, and deployment 
      - New models, distinction tables, and revision units introduced
      - Commit SHA and deployment timestamp
 
-### [STAGED LOCAL] v072 — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 28 Benchmark Audit Harmonization
+### [RELEASED v072] — Rajasthan Sovereign Master Codex (RAJ-007) Chapter 28 Benchmark Audit Harmonization
 * **Release Date**: 2026-10-17
-* **Commit SHA**: Local Staging (Zero Push Protocol Maintained)
+* **Commit SHA**: `bfcc0c5`
 * **Status**: **STATUS: 100% HARMONIZED WITH EXTERNAL FORENSIC BENCHMARK (CHAPTER 28)**
 * **Audit Score Baseline Alignment**:
   - Ingested external forensic audit report (`CHAPTER_28_AUDIT_REPORT.md`) and revised benchmark (`CHAPTER_28_PANCHAYATI_RAJ_URBAN_GOVERNANCE_REVISED.md`).
